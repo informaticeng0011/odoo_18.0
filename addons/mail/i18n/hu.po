@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* mail
 # 
+=======
+# * mail
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Kisrobert <kisrobi@gmail.com>, 2024
 # Csaba Tóth <i3rendszerhaz@gmail.com>, 2024
@@ -11,6 +16,7 @@
 # Tamás Dombos, 2024
 # Daniel Gerstenbrand <daniel.gerstenbrand@gmail.com>, 2024
 # Kovács Tibor <kovika@gmail.com>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -264,11 +270,14 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
 # Martin Trigaux, 2024
 # Krisztián Juhász <juhasz.krisztian@josafar.hu>, 2025
 # Tamás Németh <ntomasz81@gmail.com>, 2025
 # 5768b353f27900ae76ad88cc42dfd5b8_3bb349f, 2025
+<<<<<<< HEAD
 # Pammer József, 2025
 # krnkris, 2025
 # Valics Lehel, 2025
@@ -609,10 +618,18 @@
 # gezza <geza.nagy@oregional.hu>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# krnkris, 2025
+# Valics Lehel, 2025
+# gezza <geza.nagy@oregional.hu>, 2025
+# Pammer József, 2025
+# Tamás Dombos <tdombos@gmail.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1090,6 +1107,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"POT-Creation-Date: 2025-08-22 18:38+0000\n"
+"PO-Revision-Date: 2025-08-21 14:30+0000\n"
+"Last-Translator: Tamás Dombos <tdombos@gmail.com>\n"
+"Language-Team: Hungarian <https://translate.odoo.com/projects/odoo-18/mail/"
+"hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -1099,10 +1129,21 @@ msgid ""
 "            <p class=\"o_view_nocontent_smiling_face\">\n"
 "                Add addresses to the Allowed List\n"
 "            </p><p>\n"
+<<<<<<< HEAD
 "                To protect you from spam and reply loops, Odoo automatically blocks emails\n"
 "                coming to your gateway past a threshold of <b>%(threshold)i</b> emails every <b>%(minutes)i</b>\n"
 "                minutes. If there are some addresses from which you need to receive very frequent\n"
 "                updates, you can however add them below and Odoo will let them go through.\n"
+=======
+"                To protect you from spam and reply loops, Odoo automatically "
+"blocks emails\n"
+"                coming to your gateway past a threshold of <b>%(threshold)i</"
+"b> emails every <b>%(minutes)i</b>\n"
+"                minutes. If there are some addresses from which you need to "
+"receive very frequent\n"
+"                updates, you can however add them below and Odoo will let "
+"them go through.\n"
+>>>>>>> upstream/18.0
 "            </p>"
 msgstr ""
 
@@ -1178,8 +1219,12 @@ msgstr ""
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/message_reaction_list.js:0
+<<<<<<< HEAD
 msgid ""
 "%(emoji)s reacted by %(person1)s, %(person2)s, %(person3)s, and 1 other"
+=======
+msgid "%(emoji)s reacted by %(person1)s, %(person2)s, %(person3)s, and 1 other"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -1205,39 +1250,62 @@ msgstr ""
 #: code:addons/mail/models/discuss/discuss_channel.py:0
 msgid ""
 "%(new_line)s%(new_line)sType %(bold_start)s@username%(bold_end)s to mention "
+<<<<<<< HEAD
 "someone, and grab their attention.%(new_line)sType "
 "%(bold_start)s#channel%(bold_end)s to mention a channel.%(new_line)sType "
 "%(bold_start)s/command%(bold_end)s to execute a command.%(new_line)sType "
 "%(bold_start)s:shortcut%(bold_end)s to insert a canned response in your "
 "message."
+=======
+"someone, and grab their attention.%(new_line)sType %(bold_start)s#channel%"
+"(bold_end)s to mention a channel.%(new_line)sType %(bold_start)s/command%"
+"(bold_end)s to execute a command.%(new_line)sType %(bold_start)s:shortcut%"
+"(bold_end)s to insert a canned response in your message."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/composer.js:0
 msgid ""
+<<<<<<< HEAD
 "%(open_button)s%(icon)s%(open_em)sDiscard "
 "editing%(close_em)s%(close_button)s"
+=======
+"%(open_button)s%(icon)s%(open_em)sDiscard editing%(close_em)s%(close_button)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/composer.js:0
 msgid ""
+<<<<<<< HEAD
 "%(open_samp)sEscape%(close_samp)s %(open_em)sto "
 "%(open_cancel)scancel%(close_cancel)s%(close_em)s, %(open_samp)sCTRL-"
 "Enter%(close_samp)s %(open_em)sto "
 "%(open_save)ssave%(close_save)s%(close_em)s"
+=======
+"%(open_samp)sEscape%(close_samp)s %(open_em)sto %(open_cancel)scancel%"
+"(close_cancel)s%(close_em)s, %(open_samp)sCTRL-Enter%(close_samp)s %"
+"(open_em)sto %(open_save)ssave%(close_save)s%(close_em)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/composer.js:0
 msgid ""
+<<<<<<< HEAD
 "%(open_samp)sEscape%(close_samp)s %(open_em)sto "
 "%(open_cancel)scancel%(close_cancel)s%(close_em)s, "
 "%(open_samp)sEnter%(close_samp)s %(open_em)sto "
 "%(open_save)ssave%(close_save)s%(close_em)s"
+=======
+"%(open_samp)sEscape%(close_samp)s %(open_em)sto %(open_cancel)scancel%"
+"(close_cancel)s%(close_em)s, %(open_samp)sEnter%(close_samp)s %(open_em)sto %"
+"(open_save)ssave%(close_save)s%(close_em)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -1256,8 +1324,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/discuss/discuss_channel.py:0
 msgid ""
+<<<<<<< HEAD
 "%(user)s started a thread: %(goto)s%(thread_name)s%(goto_end)s. "
 "%(goto_all)sSee all threads%(goto_all_end)s."
+=======
+"%(user)s started a thread: %(goto)s%(thread_name)s%(goto_end)s. %"
+"(goto_all)sSee all threads%(goto_all_end)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -1425,6 +1498,11 @@ msgid ""
 "<button>Change your preferences</button> to receive new notifications in "
 "your inbox."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<button>Változtassa meg a beállításait</button>, hogy itt kapja meg az új "
+"értesítéseket."
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_view_kanban_open_target
@@ -1452,6 +1530,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mail/static/src/js/tours/discuss_channel_tour.js:0
 msgid ""
+<<<<<<< HEAD
 "<p><b>Chat with coworkers</b> in real-time using direct "
 "messages.</p><p><i>You might need to invite users from the Settings app "
 "first.</i></p>"
@@ -1459,11 +1538,20 @@ msgstr ""
 "<p><b>Társalogjon a munkatársakkal</b> élőben a közvetlen "
 "üzenetküldővel.</p><p><i>Először talán meg kell hívnia felhasználókat az "
 "alkalmazás Beállításából.</i></p>"
+=======
+"<p><b>Chat with coworkers</b> in real-time using direct messages.</"
+"p><p><i>You might need to invite users from the Settings app first.</i></p>"
+msgstr ""
+"<p><b>Társalogjon a munkatársakkal</b> élőben a közvetlen üzenetküldővel.</"
+"p><p><i>Először talán meg kell hívnia felhasználókat az alkalmazás "
+"Beállításából.</i></p>"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/js/tours/discuss_channel_tour.js:0
 msgid ""
+<<<<<<< HEAD
 "<p><b>Write a message</b> to the members of the channel here.</p> <p>You can"
 " notify someone with <i>'@'</i> or link another channel with <i>'#'</i>. "
 "Start your message with <i>'/'</i> to get the list of possible commands.</p>"
@@ -1471,13 +1559,27 @@ msgstr ""
 "<p><b>Írjon egy üzenetet</b> itt a csatorna tagoknak.</p> <p>Értesíteni tud "
 "valakit ezzel <i>'@'</i> vagy hivatkozzon másik csatornára ezzel <i>'#'</i>."
 " Kezdje az üzenetét ezzel <i>'/'</i> a lehetséges parancsok listáihoz.</p>"
+=======
+"<p><b>Write a message</b> to the members of the channel here.</p> <p>You can "
+"notify someone with <i>'@'</i> or link another channel with <i>'#'</i>. "
+"Start your message with <i>'/'</i> to get the list of possible commands.</p>"
+msgstr ""
+"<p><b>Írjon egy üzenetet</b> itt a csatorna tagoknak.</p> <p>Értesíteni tud "
+"valakit ezzel <i>'@'</i> vagy hivatkozzon másik csatornára ezzel <i>'#'</i>. "
+"Kezdje az üzenetét ezzel <i>'/'</i> a lehetséges parancsok listáihoz.</p>"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/js/tours/discuss_channel_tour.js:0
 msgid ""
+<<<<<<< HEAD
 "<p>Channels make it easy to organize information across different topics and"
 " groups.</p> <p>Try to <b>create your first channel</b> (e.g. sales, "
+=======
+"<p>Channels make it easy to organize information across different topics and "
+"groups.</p> <p>Try to <b>create your first channel</b> (e.g. sales, "
+>>>>>>> upstream/18.0
 "marketing, product XYZ, after work party, etc).</p>"
 msgstr ""
 "<p>Csatornák könnyűvé teszik az információk  szervezését a különböző "
@@ -1533,6 +1635,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail.view_server_action_form_template
 msgid ""
 "<span invisible=\"mail_post_method != 'email'\">\n"
+<<<<<<< HEAD
 "                                The message will be sent as an email to the recipients of the\n"
 "                                template and will not appear in the messaging history.\n"
 "                            </span>\n"
@@ -1543,6 +1646,24 @@ msgid ""
 "                            <span invisible=\"mail_post_method != 'comment'\">\n"
 "                                The message will be posted as a message on the record,\n"
 "                                notifying all followers. It will appear in the messaging history.\n"
+=======
+"                                The message will be sent as an email to the "
+"recipients of the\n"
+"                                template and will not appear in the "
+"messaging history.\n"
+"                            </span>\n"
+"                            <span invisible=\"mail_post_method != 'note'\">\n"
+"                                The message will be posted as an internal "
+"note visible to internal\n"
+"                                users in the messaging history.\n"
+"                            </span>\n"
+"                            <span invisible=\"mail_post_method != "
+"'comment'\">\n"
+"                                The message will be posted as a message on "
+"the record,\n"
+"                                notifying all followers. It will appear in "
+"the messaging history.\n"
+>>>>>>> upstream/18.0
 "                            </span>"
 msgstr ""
 
@@ -1659,8 +1780,13 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__google_translate_api_key
 msgid ""
+<<<<<<< HEAD
 "A valid Google API key is required to enable message translation. "
 "https://cloud.google.com/translate/docs/setup"
+=======
+"A valid Google API key is required to enable message translation. https://"
+"cloud.google.com/translate/docs/setup"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -1935,7 +2061,11 @@ msgid "Activity Plans"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tevékenység tervek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tevékenység tervek"
 >>>>>>> upstream/18.0
@@ -2241,7 +2371,12 @@ msgstr "Tevékenység terv sablon"
 #: model_terms:ir.actions.act_window,help:mail.mail_activity_plan_action
 msgid ""
 "Activity plans are used to assign a list of activities in just a few clicks\n"
+<<<<<<< HEAD
 "                    (e.g. \"Onboarding\", \"Prospect Follow-up\", \"Project Milestone Meeting\", ...)"
+=======
+"                    (e.g. \"Onboarding\", \"Prospect Follow-up\", \"Project "
+"Milestone Meeting\", ...)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -2299,8 +2434,13 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__tenor_api_key
 msgid ""
+<<<<<<< HEAD
 "Add a Tenor GIF API key to enable GIFs support. "
 "https://developers.google.com/tenor/guides/quickstart#setup"
+=======
+"Add a Tenor GIF API key to enable GIFs support. https://"
+"developers.google.com/tenor/guides/quickstart#setup"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -2474,17 +2614,28 @@ msgstr "Álnév"
 #. odoo-python
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
+<<<<<<< HEAD
 "Alias %(matching_name)s (%(current_id)s) is already linked with "
 "%(alias_model_name)s (%(matching_id)s) and used by the %(parent_name)s "
 "%(parent_model_name)s."
+=======
+"Alias %(matching_name)s (%(current_id)s) is already linked with %"
+"(alias_model_name)s (%(matching_id)s) and used by the %(parent_name)s %"
+"(parent_model_name)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
 #. odoo-python
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
+<<<<<<< HEAD
 "Alias %(matching_name)s (%(current_id)s) is already linked with "
 "%(alias_model_name)s (%(matching_id)s)."
+=======
+"Alias %(matching_name)s (%(current_id)s) is already linked with %"
+"(alias_model_name)s (%(matching_id)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -2593,7 +2744,11 @@ msgid "Alias Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Álnév email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Álnév email"
 >>>>>>> upstream/18.0
@@ -2881,7 +3036,11 @@ msgid "Alias Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Álnév állapot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Álnév állapot"
 >>>>>>> upstream/18.0
@@ -3406,8 +3565,13 @@ msgstr "Szerző"
 #: model:ir.model.fields,help:mail.field_mail_mail__author_id
 #: model:ir.model.fields,help:mail.field_mail_message__author_id
 msgid ""
+<<<<<<< HEAD
 "Author of the message. If not set, email_from may hold an email address that"
 " did not match any partner."
+=======
+"Author of the message. If not set, email_from may hold an email address that "
+"did not match any partner."
+>>>>>>> upstream/18.0
 msgstr ""
 "Az üzenet szerzője. Ha nincs beállítva,  az e-mail ettől, egy címet "
 "tartalmaz ami nem mutat egyik partnerre sem."
@@ -3611,7 +3775,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/call_settings.xml:0
 msgid "Blur video background"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Videó hátterének elhomályosítása"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_template__body_html
@@ -3709,7 +3877,11 @@ msgid "Body content is the same as the template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A tartalom törzs megegyezik a sablonnal"
+>>>>>>> upstream/18.0
 =======
 msgstr "A tartalom törzs megegyezik a sablonnal"
 >>>>>>> upstream/18.0
@@ -4008,8 +4180,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/mail_alias_domain.py:0
 msgid ""
+<<<<<<< HEAD
 "Bounce/Catchall '%(matching_alias_name)s' is already used by "
 "%(document_name)s. Choose another alias or change it on the other document."
+=======
+"Bounce/Catchall '%(matching_alias_name)s' is already used by %"
+"(document_name)s. Choose another alias or change it on the other document."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -4072,7 +4249,11 @@ msgstr "Hívás"
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/thread_actions.js:0
 msgid "Call Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hívás beállítások"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -4181,8 +4362,13 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_canned_response__source
 msgid ""
 "Canned response that will automatically be substituted with longer content "
+<<<<<<< HEAD
 "in your messages. Type ':' followed by the name of your shortcut (e.g. "
 ":hello) to use in your messages."
+=======
+"in your messages. Type ':' followed by the name of your shortcut "
+"(e.g. :hello) to use in your messages."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -4194,8 +4380,15 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mail.mail_canned_response_action
 msgid ""
 "Canned responses allow you to insert prewritten responses in\n"
+<<<<<<< HEAD
 "                    your messages by typing <i>:shortcut</i>. The shortcut is\n"
 "                    replaced directly in your message, so that you can still edit\n"
+=======
+"                    your messages by typing <i>:shortcut</i>. The shortcut "
+"is\n"
+"                    replaced directly in your message, so that you can still "
+"edit\n"
+>>>>>>> upstream/18.0
 "                    it before sending."
 msgstr ""
 
@@ -4222,8 +4415,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/discuss/discuss_channel.py:0
 msgid ""
+<<<<<<< HEAD
 "Cannot create %(channels)s: parent should not be a sub-channel and should be"
 " of type 'channel'."
+=======
+"Cannot create %(channels)s: parent should not be a sub-channel and should be "
+"of type 'channel'."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -4306,7 +4504,11 @@ msgstr "Csatorna"
 #: model:ir.model.fields,field_description:mail.field_discuss_channel_rtc_session__channel_member_id
 #: model_terms:ir.ui.view,arch_db:mail.discuss_channel_member_view_form
 msgid "Channel Member"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Csatorna Tag"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -4372,9 +4574,18 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_discuss_channel__channel_type
 msgid ""
+<<<<<<< HEAD
 "Chat is private and unique between 2 persons. Group is private among invited"
 " persons. Channel can be freely joined (depending on its configuration)."
 msgstr ""
+=======
+"Chat is private and unique between 2 persons. Group is private among invited "
+"persons. Channel can be freely joined (depending on its configuration)."
+msgstr ""
+"A chat privát és egyedi 2 személy között. A csoport privát a meghívott "
+"személyek között. A csatornához szabadon lehet csatlakozni (a "
+"konfigurációtól függően)."
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -4459,7 +4670,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/thread_actions.js:0
 msgid "Close Search"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Keresés bezárása"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -4490,7 +4705,11 @@ msgstr ""
 #: code:addons/mail/static/src/core/common/search_message_input.xml:0
 #: code:addons/mail/static/src/core/web/messaging_menu_quick_search.xml:0
 msgid "Close search"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Keresés bezárása"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__discuss_channel_member__fold_state__closed
@@ -4501,7 +4720,11 @@ msgstr "Lezárt"
 #. odoo-javascript
 #: code:addons/mail/static/src/core/public_web/discuss_sidebar.xml:0
 msgid "Collapse panel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Panel becsukása"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_compose_message__reply_to_mode__new
@@ -4541,8 +4764,12 @@ msgstr "Vesszővel elválasztott címzett címek"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_template__email_to
 msgid "Comma-separated recipient addresses (placeholders may be used here)"
+<<<<<<< HEAD
 msgstr ""
 "Vesszővel elválasztott címzett címek (üres karaktereket is használhat)"
+=======
+msgstr "Vesszővel elválasztott címzett címek (üres karaktereket is használhat)"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_compose_message__message_type__comment
@@ -5171,8 +5398,13 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_domain__default_from
 msgid ""
+<<<<<<< HEAD
 "Default from when it does not match outgoing server filters. Can be either a"
 " local-part e.g. 'notifications' either a complete email address e.g. "
+=======
+"Default from when it does not match outgoing server filters. Can be either a "
+"local-part e.g. 'notifications' either a complete email address e.g. "
+>>>>>>> upstream/18.0
 "'notifications@example.com' to override all outgoing emails."
 msgstr ""
 
@@ -5189,7 +5421,12 @@ msgid ""
 "- email (using email_from or email field)"
 msgstr ""
 "A feljegyzések alapértelmezett címzettei:\n"
+<<<<<<< HEAD
 "- partner (azonosító id használata a partnerhez vagy a partner_id mező) VAGY\n"
+=======
+"- partner (azonosító id használata a partnerhez vagy a partner_id mező) "
+"VAGY\n"
+>>>>>>> upstream/18.0
 "- email (email_from használatával vagy email mező)"
 
 #. module: mail
@@ -5256,6 +5493,15 @@ msgstr ""
 
 #. module: mail
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/mail/static/src/core/common/message.xml:0
+msgid "Deleted document"
+msgstr ""
+
+#. module: mail
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/mail/static/src/core/common/notification_model.js:0
 #: model:ir.model.fields.selection,name:mail.selection__mail_notification__notification_status__sent
 msgid "Delivered"
@@ -5299,8 +5545,13 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_discuss_channel__default_display_mode
 msgid ""
+<<<<<<< HEAD
 "Determines how the channel will be displayed by default when opening it from"
 " its invitation link. No value means display text (no voice/video)."
+=======
+"Determines how the channel will be displayed by default when opening it from "
+"its invitation link. No value means display text (no voice/video)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -5317,7 +5568,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mail/static/src/core/public_web/discuss_app_model.js:0
 msgid "Direct messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Közvetlen üzenetek"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -5816,8 +6071,12 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 msgid ""
+<<<<<<< HEAD
 "Email address to which replies will be redirected when sending emails in "
 "mass"
+=======
+"Email address to which replies will be redirected when sending emails in mass"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -5898,7 +6157,11 @@ msgid "Emoji"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Emoji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Emoji"
 >>>>>>> upstream/18.0
@@ -5949,7 +6212,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/composer.js:0
 msgid "Enter"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rögzítés"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -6269,8 +6536,12 @@ msgstr "Mezők"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_template__template_fs
 #: model:ir.model.fields,help:mail.field_template_reset_mixin__template_fs
+<<<<<<< HEAD
 msgid ""
 "File from where the template originates. Used to reset broken template."
+=======
+msgid "File from where the template originates. Used to reset broken template."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -6843,8 +7114,13 @@ msgstr "ID"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_parent_thread_id
 msgid ""
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Az álnevet tartalmazó szülő rekord azonosítója (példa: a feladat "
 "létrehozására szolgáló álnevet tartalmazó projekt)"
@@ -6926,8 +7202,12 @@ msgstr "Ha be van jelölve, akkor az új üzenetek figyelmet igényelnek."
 #: model:ir.model.fields,help:mail.field_res_partner__message_has_error
 #: model:ir.model.fields,help:mail.field_res_users__message_has_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
 "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+=======
+msgstr "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_ir_model_fields__tracking
@@ -6975,9 +7255,15 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 msgid ""
+<<<<<<< HEAD
 "If set, will restrict the template to this specific user."
 "                                                   If not set, shared with "
 "all users."
+=======
+"If set, will restrict the template to this specific "
+"user.                                                   If not set, shared "
+"with all users."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -7086,7 +7372,11 @@ msgstr "Beérkező e-mail szerver"
 #: code:addons/mail/static/src/core/web/store_service_patch.js:0
 #: model:ir.model.fields.selection,name:mail.selection__mail_notification__notification_type__inbox
 msgid "Inbox"
+<<<<<<< HEAD
 msgstr "Beérkező dokumentumok"
+=======
+msgstr "Beérkező üzenetek"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -7122,7 +7412,11 @@ msgstr "Bejövő e-mail  szerver"
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/call_invitation.xml:0
 msgid "Incoming Video Call..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bejövő videóhívás..."
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity__automated
@@ -7281,8 +7575,12 @@ msgstr ""
 #. module: mail
 #. odoo-python
 #: code:addons/mail/models/mail_thread.py:0
+<<<<<<< HEAD
 msgid ""
 "Invalid template or view source record %(svalue)s, is %(model)s instead"
+=======
+msgid "Invalid template or view source record %(svalue)s, is %(model)s instead"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -7470,9 +7768,17 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_push_device__keys
 msgid ""
 "It's refer to browser keys used by the notification: \n"
+<<<<<<< HEAD
 "- p256dh: It's the subscription public key generated by the browser. The browser will \n"
 "          keep the private key secret and use it for decrypting the payload\n"
 "- auth: The auth value should be treated as a secret and not shared outside of Odoo"
+=======
+"- p256dh: It's the subscription public key generated by the browser. The "
+"browser will \n"
+"          keep the private key secret and use it for decrypting the payload\n"
+"- auth: The auth value should be treated as a secret and not shared outside "
+"of Odoo"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -7683,7 +7989,11 @@ msgstr "Frissítve"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_canned_response__last_used
 msgid "Last Used"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Utoljára használva"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_discuss_channel_member__last_seen_dt
@@ -8070,8 +8380,13 @@ msgstr "Postaládák"
 #. odoo-python
 #: code:addons/mail/models/mail_thread.py:0
 msgid ""
+<<<<<<< HEAD
 "Mailing or posting with a source should not be called with an empty "
 "%(source_type)s"
+=======
+"Mailing or posting with a source should not be called with an empty %"
+"(source_type)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -8283,7 +8598,11 @@ msgid "Message Link Copied!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Üzenet link másolva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Üzenet link másolva"
 >>>>>>> upstream/18.0
@@ -8353,7 +8672,11 @@ msgid "Message Link Copy Failed (Permission denied?)!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Üzenet link másolás sikertelen (jogosultság megtagadva?)!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Üzenet link másolás sikertelen (jogosultság megtagadva?)!"
 >>>>>>> upstream/18.0
@@ -8472,8 +8795,13 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_message_subtype__name
 msgid ""
 "Message subtype gives a more precise type on the message, especially for "
+<<<<<<< HEAD
 "system notifications. For example, it can be a notification related to a new"
 " record (New), or to a stage change in a process (Stage change). Message "
+=======
+"system notifications. For example, it can be a notification related to a new "
+"record (New), or to a stage change in a process (Stage change). Message "
+>>>>>>> upstream/18.0
 "subtypes allow to precisely tune the notifications the user want to receive "
 "on its wall."
 msgstr ""
@@ -8503,8 +8831,13 @@ msgid ""
 "Message type: email for email message, notification for system message, "
 "comment for other messages such as user replies"
 msgstr ""
+<<<<<<< HEAD
 "Üzenet típus: email az email üzenetre, figyelmeztetés egy rendszer üzenetre,"
 " hozzászólás egy másik üzenetre mint felhasználói válaszok"
+=======
+"Üzenet típus: email az email üzenetre, figyelmeztetés egy rendszer üzenetre, "
+"hozzászólás egy másik üzenetre mint felhasználói válaszok"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail__message_id
@@ -8918,7 +9251,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/message_card_list.js:0
 msgid "No messages found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nincs keresési találat"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -9087,7 +9424,11 @@ msgid "Normalized Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Normalizált email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Normalizált email"
 >>>>>>> upstream/18.0
@@ -9337,7 +9678,11 @@ msgid "Nothing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Semmi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Semmi"
 >>>>>>> upstream/18.0
@@ -9416,7 +9761,11 @@ msgstr ""
 #: code:addons/mail/static/src/discuss/core/common/notification_settings.xml:0
 #: code:addons/mail/static/src/discuss/core/common/thread_actions.js:0
 msgid "Notification Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Értesítési beállítások"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_notification__notification_type
@@ -9440,16 +9789,26 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/mail_thread.py:0
 msgid ""
+<<<<<<< HEAD
 "Notification should receive attachments records as a list of IDs (received "
 "%(aids)s)"
+=======
+"Notification should receive attachments records as a list of IDs (received %"
+"(aids)s)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
 #. odoo-python
 #: code:addons/mail/models/mail_thread.py:0
 msgid ""
+<<<<<<< HEAD
 "Notification should receive partners given as a list of IDs (received "
 "%(pids)s)"
+=======
+"Notification should receive partners given as a list of IDs (received %"
+"(pids)s)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -9519,8 +9878,13 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity_type__delay_count
 msgid ""
+<<<<<<< HEAD
 "Number of days/week/month before executing the action. It allows to plan the"
 " action deadline."
+=======
+"Number of days/week/month before executing the action. It allows to plan the "
+"action deadline."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -9630,11 +9994,19 @@ msgstr "Régi értékek"
 #. odoo-javascript
 #: code:addons/mail/static/src/js/tours/discuss_channel_tour.js:0
 msgid ""
+<<<<<<< HEAD
 "Once a message has been starred, you can come back and review it at any time"
 " here."
 msgstr ""
 "Miután kedvencnek jelölt egy üzenetet, visszatérhet és felülvizsgálhatja azt"
 " ide visszatérve."
+=======
+"Once a message has been starred, you can come back and review it at any time "
+"here."
+msgstr ""
+"Miután kedvencnek jelölt egy üzenetet, visszatérhet és felülvizsgálhatja azt "
+"ide visszatérve."
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -9811,6 +10183,7 @@ msgstr ""
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -9818,6 +10191,15 @@ msgstr ""
 "ki. Ha nincs beállítva, akkor az angol nyelv kerül felhasználásra. Ez "
 "általában csak egy kitöltő kifejezés, mely megadja a megfelelő nyelvet, pld:"
 " {{ object.partner_id.lang }}."
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+msgstr ""
+"Opcionális fordítási nyelv (ISO kód), mely e-mail küldése során választható "
+"ki. Ha nincs beállítva, akkor az angol nyelv kerül felhasználásra. Ez "
+"általában csak egy kitöltő kifejezés, mely megadja a megfelelő nyelvet, pld: "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -9828,8 +10210,15 @@ msgstr "Opciók"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message__reply_to_mode
 msgid ""
+<<<<<<< HEAD
 "Original Discussion: Answers go in the original document discussion thread. \n"
 " Another Email Address: Answers go to the email address mentioned in the tracking message-id instead of original document discussion thread. \n"
+=======
+"Original Discussion: Answers go in the original document discussion "
+"thread. \n"
+" Another Email Address: Answers go to the email address mentioned in the "
+"tracking message-id instead of original document discussion thread. \n"
+>>>>>>> upstream/18.0
 " This has an impact on the generated message-id."
 msgstr ""
 
@@ -10018,8 +10407,13 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_parent_model_id
 msgid ""
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 "(parent_model) and task (model))"
 msgstr ""
 "Az álnevet tartalmazó szülő modell. Az álnév hivatkozást tartalmazó modell "
@@ -10029,9 +10423,15 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype__parent_id
 msgid ""
+<<<<<<< HEAD
 "Parent subtype, used for automatic subscription. This field is not correctly"
 " named. For example on a project, the parent_id of project subtypes refers "
 "to task-related subtypes."
+=======
+"Parent subtype, used for automatic subscription. This field is not correctly "
+"named. For example on a project, the parent_id of project subtypes refers to "
+"task-related subtypes."
+>>>>>>> upstream/18.0
 msgstr ""
 "Szülő altípus, mely az automatikus feliratkozáshoz kerül felhasználásra. Ez "
 "a mező nincs helyesen megnevezve. Például egy projekt kapcsán a a projekt "
@@ -10301,12 +10701,22 @@ msgid ""
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 msgstr ""
 "A dokumentumra küldött üzenetek szabályai a levélátjáró használatával.\n"
 "- mindenki: mindenki tud üzenni\n"
 "- partnerek: csak a hitelesített partnerek\n"
+<<<<<<< HEAD
 "- követők: csak a kapcsolódó dokumentum követői vagy a következő csatornák tagjai\n"
+=======
+"- követők: csak a kapcsolódó dokumentum követői vagy a következő csatornák "
+"tagjai\n"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -10398,7 +10808,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10600,6 +11013,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10769,8 +11185,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/mail_thread.py:0
 msgid ""
+<<<<<<< HEAD
 "Posting a message should receive partners as a list of IDs (received "
 "%(pids)s)"
+=======
+"Posting a message should receive partners as a list of IDs (received %"
+"(pids)s)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -10839,10 +11260,17 @@ msgid ""
 "document type. This will create new documents for new conversations, or "
 "attach follow-up emails to the existing conversations (documents)."
 msgstr ""
+<<<<<<< HEAD
 "Mindegyik Beérkező levelet kezelje úgy, mint egy része az ezzel a "
 "dokumentummal összefüggő párbeszédnek. Ez új dokumentumokat fog létrehozni "
 "új párbeszédhez, vagy nyomkövető e-mailt ad hozzá a meglévő párbeszédekhez "
 "(dokumentumokhoz)"
+=======
+"Minden beérkező levelet kezelje a dokumentummal kapcsolatos beszélgetés "
+"részeként. Ez új dokumentumot hoz létre új beszélgetés esetén, vagy "
+"válaszüzenetként rögzíti a levelet egy korábban indult beszélgetés (létező "
+"dokumentum) esetén."
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -10887,38 +11315,62 @@ msgstr "Push értesítések"
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/call_settings.xml:0
 msgid "Push to Talk"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hang aktiválása gomb megnyomásával"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/call_action_list.xml:0
 msgid "Push to talk"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hang aktiválása gomb megnyomásával"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_users_settings__push_to_talk_key
 msgid "Push-To-Talk shortcut"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hang aktiválása gyorsbillentyű"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/call_settings.xml:0
 msgid "Push-to-talk key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hang aktiválása billentyű"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/web/messaging_menu_patch.xml:0
 #: code:addons/mail/static/src/discuss/core/public_web/discuss_sidebar_categories.xml:0
 msgid "Quick search"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gyorskeresés"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/web/messaging_menu_quick_search.xml:0
 #: code:addons/mail/static/src/discuss/core/public_web/discuss_sidebar_categories.xml:0
 msgid "Quick search…"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gyors keresés…"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model,name:mail.model_ir_qweb
@@ -10956,8 +11408,12 @@ msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_users_settings_volumes__volume
+<<<<<<< HEAD
 msgid ""
 "Ranges between 0.0 and 1.0, scale depends on the browser implementation"
+=======
+msgid "Ranges between 0.0 and 1.0, scale depends on the browser implementation"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -11251,8 +11707,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/mail_composer_mixin.py:0
 #: code:addons/mail/models/mail_render_mixin.py:0
+<<<<<<< HEAD
 msgid ""
 "Rendering of %(field_name)s is not possible as not defined on template."
+=======
+msgid "Rendering of %(field_name)s is not possible as not defined on template."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -11626,7 +12086,11 @@ msgstr "Bejövő e-mail szerver keresése"
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/search_messages_panel.js:0
 msgid "Search Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Üzenet keresése"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -11634,7 +12098,11 @@ msgstr ""
 #: code:addons/mail/static/src/core/common/search_message_input.xml:0
 #: code:addons/mail/static/src/core/common/thread_actions.js:0
 msgid "Search Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Üzenetek keresése"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -12014,8 +12482,12 @@ msgstr "Gyorsbillentyű"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_translation__target_lang
+<<<<<<< HEAD
 msgid ""
 "Shortened language code used as the target for the translation request."
+=======
+msgid "Shortened language code used as the target for the translation request."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -12047,8 +12519,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "Show all records which has next action date is before today"
 msgstr ""
+<<<<<<< HEAD
 "Az összes olyan rekord megjelenítése, melynél a következő akció dátuma a mai"
 " nap előtti"
+=======
+"Az összes olyan rekord megjelenítése, melynél a következő akció dátuma a mai "
+"nap előtti"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -12072,7 +12549,11 @@ msgstr "Oldalsáv megjelenítése"
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/call_settings.xml:0
 msgid "Show video participants only"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Csak a videós résztvevők mutatása"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -12121,7 +12602,11 @@ msgid "Snooze 7d"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szundi 7n"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szundi 7n"
 >>>>>>> upstream/18.0
@@ -12485,7 +12970,11 @@ msgstr "Adószám"
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/call_settings.xml:0
 msgid "Technical Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Technikai beállítások"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity_type__initial_res_model
@@ -12545,8 +13034,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/mail_render_mixin.py:0
 msgid ""
+<<<<<<< HEAD
 "Template rendering should only be called with a list of IDs. Received "
 "“%(res_ids)s” instead."
+=======
+"Template rendering should only be called with a list of IDs. Received “%"
+"(res_ids)s” instead."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -12640,8 +13134,13 @@ msgstr ""
 #: code:addons/mail/static/src/discuss/call/common/ptt_extension_service.js:0
 msgid ""
 "The Push-to-Talk feature is only accessible within tab focus. To enable the "
+<<<<<<< HEAD
 "Push-to-Talk functionality outside of this tab, we recommend downloading our"
 " %(anchor_start)sextension%(anchor_end)s."
+=======
+"Push-to-Talk functionality outside of this tab, we recommend downloading our "
+"%(anchor_start)sextension%(anchor_end)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -12666,9 +13165,15 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/mail_activity_plan_template.py:0
 msgid ""
+<<<<<<< HEAD
 "The activity type \"%(activity_type_name)s\" is not compatible with the plan"
 " \"%(plan_name)s\" because it is limited to the model "
 "\"%(activity_type_model)s\"."
+=======
+"The activity type \"%(activity_type_name)s\" is not compatible with the plan "
+"\"%(plan_name)s\" because it is limited to the model \"%"
+"(activity_type_model)s\"."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -12737,7 +13242,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/template_reset_mixin.py:0
 msgid ""
+<<<<<<< HEAD
 "The following email templates could not be reset because their related source files could not be found:\n"
+=======
+"The following email templates could not be reset because their related "
+"source files could not be found:\n"
+>>>>>>> upstream/18.0
 "- %s"
 msgstr ""
 
@@ -12761,20 +13271,43 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
+<<<<<<< HEAD
 "The message below could not be accepted by the address %(alias_display_name)s.\n"
 "                 Only %(contact_description)s are allowed to contact it.<br /><br />\n"
 "                 Please make sure you are using the correct address or contact us at %(default_email)s instead."
+=======
+"The message below could not be accepted by the address %"
+"(alias_display_name)s.\n"
+"                 Only %(contact_description)s are allowed to contact it.<br /"
+"><br />\n"
+"                 Please make sure you are using the correct address or "
+"contact us at %(default_email)s instead."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
 #. odoo-python
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
+<<<<<<< HEAD
 "The message below could not be accepted by the address %(alias_display_name)s.\n"
+=======
+"The message below could not be accepted by the address %"
+"(alias_display_name)s.\n"
+>>>>>>> upstream/18.0
 "Please try again later or contact %(company_name)s instead."
 msgstr ""
 
 #. module: mail
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/mail/static/src/utils/common/hooks.js:0
+msgid "The message has been deleted."
+msgstr ""
+
+#. module: mail
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mail/models/mail_scheduled_message.py:0
 msgid ""
@@ -12790,9 +13323,15 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_model_id
 msgid ""
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+>>>>>>> upstream/18.0
 msgstr ""
 "A modell (Odoo dokumentum típus), amelyre ez az álnév vonatkozik. Bármely "
 "bejövő e-mail, amely nem válaszol egy meglévő rekordra, ezen modell egy új "
@@ -12837,7 +13376,12 @@ msgstr ""
 #: code:addons/mail/models/mail_activity.py:0
 #: code:addons/mail/models/mail_message.py:0
 msgid ""
+<<<<<<< HEAD
 "The requested operation cannot be completed due to security restrictions. Please contact your system administrator.\n"
+=======
+"The requested operation cannot be completed due to security restrictions. "
+"Please contact your system administrator.\n"
+>>>>>>> upstream/18.0
 "\n"
 "(Document type: %(type)s, Operation: %(operation)s)\n"
 "\n"
@@ -12945,8 +13489,13 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_res_partner__email_normalized
 #: model:ir.model.fields,help:mail.field_res_users__email_normalized
 msgid ""
+<<<<<<< HEAD
 "This field is used to search on email address as the primary email field can"
 " contain more than strictly an email address."
+=======
+"This field is used to search on email address as the primary email field can "
+"contain more than strictly an email address."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -13325,11 +13874,22 @@ msgid ""
 "- 'Update a Record': update the values of a record\n"
 "- 'Create Activity': create an activity (Discuss)\n"
 "- 'Send Email': post a message, a note or send an email (Discuss)\n"
+<<<<<<< HEAD
 "- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': add or remove followers to a record (Discuss)\n"
 "- 'Create Record': create a new record with new values\n"
 "- 'Execute Code': a block of Python code that will be executed\n"
 "- 'Send Webhook Notification': send a POST request to an external system, also known as a Webhook\n"
 "- 'Execute Existing Actions': define an action that triggers several other server actions\n"
+=======
+"- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': "
+"add or remove followers to a record (Discuss)\n"
+"- 'Create Record': create a new record with new values\n"
+"- 'Execute Code': a block of Python code that will be executed\n"
+"- 'Send Webhook Notification': send a POST request to an external system, "
+"also known as a Webhook\n"
+"- 'Execute Existing Actions': define an action that triggers several other "
+"server actions\n"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -13599,9 +14159,14 @@ msgstr "Feltöltés"
 #: model:ir.model.fields,help:mail.field_ir_actions_server__activity_user_type
 #: model:ir.model.fields,help:mail.field_ir_cron__activity_user_type
 msgid ""
+<<<<<<< HEAD
 "Use 'Specific User' to always assign the same user on the next activity. Use"
 " 'Dynamic User' to specify the field name of the user to choose on the "
 "record."
+=======
+"Use 'Specific User' to always assign the same user on the next activity. Use "
+"'Dynamic User' to specify the field name of the user to choose on the record."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -13688,7 +14253,12 @@ msgid ""
 "'comment': generated by user input e.g. through discuss or composer\n"
 "'email_outgoing': generated by a mailing\n"
 "'notification': generated by system e.g. tracking messages\n"
+<<<<<<< HEAD
 "'auto_comment': generated by automated notification mechanism e.g. acknowledgment\n"
+=======
+"'auto_comment': generated by automated notification mechanism e.g. "
+"acknowledgment\n"
+>>>>>>> upstream/18.0
 "'user_notification': generated for a specific recipient"
 msgstr ""
 
@@ -13733,12 +14303,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail.res_users_settings_view_form
 #: model_terms:ir.ui.view,arch_db:mail.res_users_settings_view_tree
 msgid "User Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Felhasználói beállítások"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model,name:mail.model_res_users_settings_volumes
 msgid "User Settings Volumes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hangerő felhasználó általi beállítása"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_message__message_type__user_notification
@@ -13800,7 +14378,12 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_res_config_settings__restrict_template_rendering
 msgid ""
 "Users will still be able to render templates.\n"
+<<<<<<< HEAD
 "However only Mail Template Editors will be able to create new dynamic templates or modify existing ones."
+=======
+"However only Mail Template Editors will be able to create new dynamic "
+"templates or modify existing ones."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -13820,7 +14403,12 @@ msgstr "Érvényes"
 #. odoo-python
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
+<<<<<<< HEAD
 "Value %(allowed_domains)s for `mail.catchall.domain.allowed` cannot be validated.\n"
+=======
+"Value %(allowed_domains)s for `mail.catchall.domain.allowed` cannot be "
+"validated.\n"
+>>>>>>> upstream/18.0
 "It should be a comma separated list of domains e.g. example.com,example.org."
 msgstr ""
 
@@ -13834,7 +14422,11 @@ msgstr "Videó beállítások"
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/call_context_menu.xml:0
 msgid "Video player:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Videólejátszó:"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -13894,42 +14486,70 @@ msgstr "Hang"
 #. module: mail
 #: model:ir.ui.menu,name:mail.menu_call_settings
 msgid "Voice & Video"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hang- és videóhívások"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.actions.client,name:mail.discuss_call_settings_action
 msgid "Voice & Video Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hang- és videóhívások beállításai"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/call_settings.xml:0
 msgid "Voice Detection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hangérzékelés"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/voice_message/common/voice_recorder.xml:0
 msgid "Voice Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hangüzenet"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/call_settings.xml:0
 msgid "Voice detection threshold"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hangérzékelés küszöbe"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/voice_message/common/voice_recorder.js:0
 msgid "Voice recording stopped"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hangfelvétel leállt"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/call_settings.xml:0
 msgid "Voice settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hang beállítások"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_users_settings_volumes__volume
@@ -13965,8 +14585,13 @@ msgstr "Figyelmeztetés"
 #. odoo-python
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
+<<<<<<< HEAD
 "We could not create alias %(alias_name)s because domain "
 "%(alias_domain_name)s belongs to company %(alias_company_names)s while the "
+=======
+"We could not create alias %(alias_name)s because domain %"
+"(alias_domain_name)s belongs to company %(alias_company_names)s while the "
+>>>>>>> upstream/18.0
 "owner document belongs to company %(company_name)s."
 msgstr ""
 
@@ -13974,8 +14599,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
+<<<<<<< HEAD
 "We could not create alias %(alias_name)s because domain "
 "%(alias_domain_name)s belongs to company %(alias_company_names)s while the "
+=======
+"We could not create alias %(alias_name)s because domain %"
+"(alias_domain_name)s belongs to company %(alias_company_names)s while the "
+>>>>>>> upstream/18.0
 "target document belongs to company %(company_name)s."
 msgstr ""
 
@@ -13999,8 +14629,12 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/message_pin/common/message_model_patch.js:0
 msgid ""
+<<<<<<< HEAD
 "Well, nothing lasts forever, but are you sure you want to unpin this "
 "message?"
+=======
+"Well, nothing lasts forever, but are you sure you want to unpin this message?"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -14012,9 +14646,17 @@ msgstr "Mi az Ön neve?"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity__user_tz
 msgid ""
+<<<<<<< HEAD
 "When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
 "If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
 "Anywhere else, time values are computed according to the time offset of your web client."
+=======
+"When printing documents and exporting/importing data, time values are "
+"computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your "
+"web client."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -14118,8 +14760,12 @@ msgstr "Tegnap:"
 #: code:addons/mail/static/src/discuss/core/public_web/discuss_sidebar_categories.js:0
 msgid ""
 "You are about to leave this group conversation and will no longer have "
+<<<<<<< HEAD
 "access to it unless you are invited again. Are you sure you want to "
 "continue?"
+=======
+"access to it unless you are invited again. Are you sure you want to continue?"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -14155,8 +14801,12 @@ msgstr ""
 #. module: mail
 #. odoo-python
 #: code:addons/mail/models/mail_scheduled_message.py:0
+<<<<<<< HEAD
 msgid ""
 "You are not allowed to change the target record of a scheduled message."
+=======
+msgid "You are not allowed to change the target record of a scheduled message."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -14187,8 +14837,12 @@ msgstr "Ön az adminisztrátor ezen a csatornán. Biztos el akarja hagyni?"
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/web/thread_patch.xml:0
+<<<<<<< HEAD
 msgid ""
 "You can mark any message as 'starred', and it shows up in this mailbox."
+=======
+msgid "You can mark any message as 'starred', and it shows up in this mailbox."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -14217,20 +14871,29 @@ msgstr ""
 #. module: mail
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: code:addons/mail/models/mail_activity_type.py:0
 msgid ""
 "You cannot delete %(activity_names)s as it is required in various apps."
+=======
+#: code:addons/mail/models/mail_activity_type.py:0
+msgid "You cannot delete %(activity_names)s as it is required in various apps."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/mail/models/discuss/discuss_channel.py:0
 msgid ""
 "You cannot delete those groups, as the Whole Company group is required by "
 "other modules."
 msgstr ""
+<<<<<<< HEAD
 "Nem törölheti a csoportokat, mivel a teljes vállalati csoportra szüksége van"
 " másik moduloknak."
 
@@ -14242,10 +14905,24 @@ msgstr ""
 msgid ""
 "You cannot modify %(activities_names)s target model as they are are required"
 " in various apps."
+=======
+"Nem törölheti a csoportokat, mivel a teljes vállalati csoportra szüksége van "
+"másik moduloknak."
+
+#. module: mail
+#. odoo-python
+#: code:addons/mail/models/mail_activity_type.py:0
+msgid ""
+"You cannot modify %(activities_names)s target model as they are are required "
+"in various apps."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
@@ -14309,8 +14986,12 @@ msgstr ""
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/message_pin/common/message_model_patch.js:0
+<<<<<<< HEAD
 msgid ""
 "You sure want this message pinned to %(conversation)s forever and ever?"
+=======
+msgid "You sure want this message pinned to %(conversation)s forever and ever?"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -14383,7 +15064,11 @@ msgstr "A böngészője nem támogatja a videókonferenciát"
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/rtc_service.js:0
 msgid "Your browser does not support voice activation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A böngészője nem támogatja a hangalapú aktiválást"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -14395,7 +15080,11 @@ msgstr "A böngészője nem támogatja a webRTC-t."
 #. odoo-javascript
 #: code:addons/mail/static/src/core/web/thread_patch.xml:0
 msgid "Your inbox is empty"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Az Ön beérkező üzenetek mappája üres"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -14484,12 +15173,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mail/static/src/chatter/web/mail_composer_schedule_dialog.xml:0
 msgid "afternoon"
 msgstr ""
 
 #. module: mail
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14745,12 +15437,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mail/static/src/chatter/web/mail_composer_schedule_dialog.xml:0
 msgid "custom"
 msgstr ""
 
 #. module: mail
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14942,7 +15637,12 @@ msgstr ""
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
+<<<<<<< HEAD
 msgid "e.g. \"Welcome to MyCompany\" or \"Nice to meet you, {{ object.name }}\""
+=======
+msgid ""
+"e.g. \"Welcome to MyCompany\" or \"Nice to meet you, {{ object.name }}\""
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail
@@ -15203,12 +15903,15 @@ msgstr "%s modell nem fogadja el a dokumentum létrehozást"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mail/static/src/chatter/web/mail_composer_schedule_dialog.xml:0
 msgid "monday"
 msgstr ""
 
 #. module: mail
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15396,12 +16099,15 @@ msgstr "tovább"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/mail/static/src/chatter/web/mail_composer_schedule_dialog.xml:0
 msgid "morning"
 msgstr ""
 
 #. module: mail
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

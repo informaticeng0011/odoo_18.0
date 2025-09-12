@@ -1488,6 +1488,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                &.datetimepicker-input.text-primary {
+                    color: inherit !important;
+                }
+>>>>>>> upstream/18.0
 =======
                 &.datetimepicker-input.text-primary {
                     color: inherit !important;
@@ -2320,6 +2326,18 @@
             .o_we_so_color_palette.o_we_user_value_widget + .o_we_user_value_widget:not(.o_we_so_color_palette) {
                 margin-left: $o-we-sidebar-content-field-multi-spacing * 4 !important;
             }
+<<<<<<< HEAD
+=======
+
+            // For layout having button-group + we-select, to avoid the long
+            // text to overflow the row.
+            &:has(div > we-button-group + we-select.o_grid) {
+                we-button-group we-selection-items {
+                    display: grid !important;
+                    grid-template-columns: auto auto;
+                }
+            }
+>>>>>>> upstream/18.0
         }
 
         %o-we-inline {
@@ -2797,11 +2815,25 @@ we-select.o_we_border_preview_aligned_select {
                     inset: $o-we-handles-offset-to-hide auto $o-we-handles-offset-to-hide * -1 $o-we-handle-border-width * 0.5;
                     transform: translateX(-50%);
                     cursor: ew-resize;
+<<<<<<< HEAD
+=======
+
+                    body[is-rtl-backend="true"] & {
+                        transform: translateX(50%);
+                    }
+>>>>>>> upstream/18.0
                 }
                 &.e {
                     inset: $o-we-handles-offset-to-hide $o-we-handle-border-width * 0.5 $o-we-handles-offset-to-hide * -1 auto;
                     transform: translateX(50%);
                     cursor: ew-resize;
+<<<<<<< HEAD
+=======
+
+                    body[is-rtl-backend="true"] & {
+                        transform: translateX(-50%);
+                    }
+>>>>>>> upstream/18.0
                 }
                 &.n {
                     inset: $o-we-handles-offset-to-hide 0 auto 0;
@@ -2831,21 +2863,45 @@ we-select.o_we_border_preview_aligned_select {
                     inset: ($o-we-handles-offset-to-hide + $o-we-handle-border-width * 0.5) $o-we-handle-border-width * 0.5 auto auto;
                     transform: translate(50%, -50%);
                     cursor: nesw-resize;
+<<<<<<< HEAD
+=======
+                    body[is-rtl-backend="true"] & {
+                        cursor: nwse-resize;
+                    }
+>>>>>>> upstream/18.0
                 }
                 &.se {
                     inset: auto $o-we-handle-border-width * 0.5 ($o-we-handles-offset-to-hide * -1 + $o-we-handle-border-width * 0.5) auto;
                     transform: translate(50%, 50%);
                     cursor: nwse-resize;
+<<<<<<< HEAD
+=======
+                    body[is-rtl-backend="true"] & {
+                        cursor: nesw-resize;
+                    }
+>>>>>>> upstream/18.0
                 }
                 &.sw {
                     inset: auto auto ($o-we-handles-offset-to-hide * -1 + $o-we-handle-border-width * 0.5) $o-we-handle-border-width * 0.5;
                     transform: translate(-50%, 50%);
                     cursor: nesw-resize;
+<<<<<<< HEAD
+=======
+                    body[is-rtl-backend="true"] & {
+                        cursor: nwse-resize;
+                    }
+>>>>>>> upstream/18.0
                 }
                 &.nw {
                     inset: ($o-we-handles-offset-to-hide + $o-we-handle-border-width * 0.5) auto auto $o-we-handle-border-width * 0.5;
                     transform: translate(-50%, -50%);
                     cursor: nwse-resize;
+<<<<<<< HEAD
+=======
+                    body[is-rtl-backend="true"] & {
+                        cursor: nesw-resize;
+                    }
+>>>>>>> upstream/18.0
                 }
                 .o_handle_indicator {
                     position: absolute;
@@ -3100,11 +3156,19 @@ we-select.o_we_border_preview_aligned_select {
     display: none;
 }
 
+<<<<<<< HEAD
+=======
+/* rtl:begin:ignore */
+>>>>>>> upstream/18.0
 @each $cursor in (nesw-resize, nwse-resize, ns-resize, ew-resize, move) {
     .#{$cursor}-important * {
         cursor: $cursor !important;
     }
 }
+<<<<<<< HEAD
+=======
+/* rtl:end:ignore */
+>>>>>>> upstream/18.0
 
 .dropdown-menu label .o_switch {
     margin: 0;

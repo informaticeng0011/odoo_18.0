@@ -2,5 +2,9 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from . import ir_http
+<<<<<<< HEAD
+=======
+from . import kpi_provider
+>>>>>>> upstream/18.0
 from . import res_config_settings
 from . import res_users

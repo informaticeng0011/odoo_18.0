@@ -6,6 +6,10 @@ import { advanceTime, animationFrame, mockTouch } from "@odoo/hoot-mock";
 import { Component, onPatched, xml } from "@odoo/owl";
 import {
     contains,
+<<<<<<< HEAD
+=======
+    defineParams,
+>>>>>>> upstream/18.0
     mountWithCleanup,
     patchWithCleanup,
     swipeLeft,
@@ -13,7 +17,10 @@ import {
 } from "@web/../tests/web_test_helpers";
 import { ActionSwiper } from "@web/core/action_swiper/action_swiper";
 import { Deferred } from "@web/core/utils/concurrency";
+<<<<<<< HEAD
 import { defineParams } from "../_framework/mock_server/mock_server";
+=======
+>>>>>>> upstream/18.0
 
 beforeEach(() => mockTouch(true));
 

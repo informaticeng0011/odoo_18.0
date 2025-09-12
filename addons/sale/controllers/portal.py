@@ -282,7 +282,12 @@ class CustomerPortal(payment_portal.PaymentPortal):
                 'signed_on': fields.Datetime.now(),
                 'signature': signature,
             })
+<<<<<<< HEAD
             request.env.cr.commit()
+=======
+            # flush now to make signature data available to PDF render request
+            request.env.cr.flush()
+>>>>>>> upstream/18.0
         except (TypeError, binascii.Error) as e:
             return {'error': _('Invalid signature data.')}
 

@@ -55,7 +55,11 @@ export class PartnerList extends Component {
     }
 
     goToOrders(partner) {
+<<<<<<< HEAD
         this.props.close();
+=======
+        this.clickPartner(this.props.partner);
+>>>>>>> upstream/18.0
         const partnerHasActiveOrders = this.pos
             .get_open_orders()
             .some((order) => order.partner?.id === partner.id);

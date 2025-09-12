@@ -12,6 +12,14 @@ const storeServicePatch = {
         this.isChannelTokenSecret;
         this.discuss_public_thread = Record.one("Thread");
         this.shouldDisplayWelcomeViewInitially;
+<<<<<<< HEAD
+=======
+        this.shouldDisplayWelcomeView = Record.attr(undefined, {
+            compute() {
+                return this.shouldDisplayWelcomeView ?? this.shouldDisplayWelcomeViewInitially;
+            },
+        });
+>>>>>>> upstream/18.0
     },
 };
 

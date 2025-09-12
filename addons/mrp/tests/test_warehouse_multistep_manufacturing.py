@@ -16,6 +16,11 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
         cls.env.user.groups_id += cls.env.ref('uom.group_uom')
         # Required for `manufacture_steps` to be visible in the view
         cls.env.user.groups_id += cls.env.ref('stock.group_adv_location')
+<<<<<<< HEAD
+=======
+        # Required for `product_id` to be visible in the view
+        cls.env.user.groups_id += cls.env.ref('product.group_product_variant')
+>>>>>>> upstream/18.0
         # Create warehouse
         cls.customer_location = cls.env['ir.model.data']._xmlid_to_res_id('stock.stock_location_customers')
         warehouse_form = Form(cls.env['stock.warehouse'])
@@ -819,7 +824,10 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -911,6 +919,7 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -947,4 +956,21 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_3_steps_manufacturing_forecast(self):
+        """Check that a confirmed MO infuence the forecast of the warehouse stock"""
+        self.warehouse_1.manufacture_steps = 'pbm_sam'
+        lovely_product = self.bom_1.product_id
+        lovely_product.uom_id = self.uom_unit
+        self.assertEqual(lovely_product.with_context(location_id=self.warehouse_1.lot_stock_id.id).virtual_available, 0.0)
+        mo = self.env['mrp.production'].create({
+            'bom_id': self.bom_1.id,
+            'picking_type_id': self.warehouse_1.manu_type_id.id,
+            'product_qty': 3.0,
+        })
+        mo.action_confirm()
+        self.assertEqual(mo.state, 'confirmed')
+        self.assertEqual(lovely_product.with_context(location_id=self.warehouse_1.lot_stock_id.id).virtual_available, 3.0)
 >>>>>>> upstream/18.0

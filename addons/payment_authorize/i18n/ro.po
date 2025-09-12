@@ -16,6 +16,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
@@ -63,7 +67,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Maria Muntean, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -110,31 +118,59 @@ msgid ""
 "                        <option value=\"businessChecking\">Business Checking</option>\n"
 "                    </select>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<select id=\"o_authorize_account_type\" required=\"\" class=\"form-select\">\n"
+"                        <option value=\"checking\">Cont curent personal</option>\n"
+"                        <option value=\"savings\">Cont de economii personal</option>\n"
+"                        <option value=\"businessChecking\">Cont curent business</option>\n"
+"                    </select>"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid "ABA Routing Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Număr de rutare ABA"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model:ir.model.fields,field_description:payment_authorize.field_payment_provider__authorize_client_key
 msgid "API Client Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cheie client API"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model:ir.model.fields,field_description:payment_authorize.field_payment_provider__authorize_login
 msgid "API Login ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID autentificare API"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model:ir.model.fields,field_description:payment_authorize.field_payment_provider__authorize_signature_key
 msgid "API Signature Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cheie semnătură API"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model:ir.model.fields,field_description:payment_authorize.field_payment_provider__authorize_transaction_key
 msgid "API Transaction Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cheie tranzacție API"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
@@ -149,12 +185,20 @@ msgstr "Authorize.Net"
 #. module: payment_authorize
 #: model:ir.model.fields,field_description:payment_authorize.field_payment_token__authorize_profile
 msgid "Authorize.Net Profile ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID profil Authorize.Net"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid "Bank Account Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip cont bancar"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
@@ -164,7 +208,11 @@ msgstr "Numele Băncii"
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid "Card Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cod card"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
@@ -183,6 +231,11 @@ msgid ""
 "Could not fetch merchant details:\n"
 "%s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nu s-au putut prelua detaliile comerciantului:\n"
+"%s"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #. odoo-python
@@ -191,6 +244,11 @@ msgid ""
 "Could not retrieve the transaction details. (error code: %(error_code)s; "
 "error_details: %(error_message)s)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nu s-au putut prelua detaliile tranzacției. (cod eroare: %(error_code)s; "
+"detalii eroare: %(error_message)s)"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
@@ -204,16 +262,29 @@ msgid ""
 "Failed to authenticate.\n"
 "%s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Autentificare eșuată.\n"
+"%s"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.payment_provider_form
 msgid "Generate Client Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generează cheie client"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.payment_provider_form
 msgid "How to get paid with Authorize.Net"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cum să fii plătit cu Authorize.Net"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
@@ -228,6 +299,7 @@ msgid "MM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "MM"
@@ -258,12 +330,19 @@ msgstr "MM"
 >>>>>>> upstream/18.0
 =======
 msgstr "MM"
+>>>>>>> upstream/18.0
+=======
+msgstr "LL"
 >>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid "Name On Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nume pe cont"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #. odoo-python
@@ -275,7 +354,11 @@ msgstr "Nu s-a găsit nicio tranzacție care să se potrivească cu referința %
 #. odoo-python
 #: code:addons/payment_authorize/models/payment_provider.py:0
 msgid "Only one currency can be selected by Authorize.Net account."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doar o singură monedă poate fi selectată pentru contul Authorize.Net."
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model:ir.model,name:payment_authorize.model_payment_provider
@@ -302,7 +385,11 @@ msgstr "Procesarea plății a eșuat"
 #. odoo-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 msgid "Received data with status code \"%(status)s\" and error code \"%(error)s\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Date primite cu cod de stare \"%(status)s\" și cod de eroare \"%(error)s\""
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #. odoo-python
@@ -313,12 +400,20 @@ msgstr "Primit date despre cerere de plată manipulate"
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.payment_provider_form
 msgid "Set Account Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Setează moneda contului"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model:ir.model.fields,help:payment_authorize.field_payment_provider__authorize_login
 msgid "The ID solely used to identify the account with Authorize.Net"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID-ul folosit exclusiv pentru identificarea contului la Authorize.Net"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model:ir.model.fields,help:payment_authorize.field_payment_provider__authorize_client_key
@@ -326,6 +421,11 @@ msgid ""
 "The public client key. To generate directly from Odoo or from Authorize.Net "
 "backend."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Cheia publică a clientului. Se poate genera direct din Odoo sau din backend-"
+"ul Authorize.Net."
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model:ir.model.fields,help:payment_authorize.field_payment_provider__code
@@ -339,6 +439,11 @@ msgid ""
 "The transaction is not in a status to be refunded. (status: %(status)s, "
 "details: %(message)s)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tranzacția nu este într-un status care să permită rambursarea. (status: "
+"%(status)s, detalii: %(message)s)"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #. odoo-python
@@ -352,14 +457,27 @@ msgid ""
 "The unique reference for the partner/token combination in the Authorize.net "
 "backend."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Referința unică pentru combinația partener/token în backend-ul "
+"Authorize.Net."
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #. odoo-python
 #: code:addons/payment_authorize/models/payment_provider.py:0
 msgid "This action cannot be performed while the provider is disabled."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Această acțiune nu poate fi efectuată cât timp procesatorul este dezactivat."
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid "YY"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "AA"
+>>>>>>> upstream/18.0

@@ -26,10 +26,17 @@ test("Messages are received cross-tab", async () => {
     const env2 = await start({ asTab: true });
     await openDiscuss(channelId, { target: env1 });
     await openDiscuss(channelId, { target: env2 });
+<<<<<<< HEAD
     await insertText(".o-mail-Composer-input", "Hello World!", { target: env1 });
     await click("button[aria-label='Send']:enabled", { target: env1 });
     await contains(".o-mail-Message-content", { target: env1, text: "Hello World!" });
     await contains(".o-mail-Message-content", { target: env2, text: "Hello World!" });
+=======
+    await insertText(`${env1.selector} .o-mail-Composer-input`, "Hello World!");
+    await click(`${env1.selector} button[aria-label='Send']:enabled`);
+    await contains(`${env1.selector} .o-mail-Message-content`, { text: "Hello World!" });
+    await contains(`${env2.selector} .o-mail-Message-content`, { text: "Hello World!" });
+>>>>>>> upstream/18.0
 });
 
 test("Delete starred message updates counter", async () => {
@@ -46,6 +53,7 @@ test("Delete starred message updates counter", async () => {
     const env2 = await start({ asTab: true });
     await openDiscuss(channelId, { target: env1 });
     await openDiscuss(channelId, { target: env2 });
+<<<<<<< HEAD
     await contains(".o-mail-Message", { target: env1, text: "Hello World!" });
     await contains(".o-mail-Message", { target: env2, text: "Hello World!" });
     await contains("button", { target: env2, text: "Starred1" });
@@ -53,6 +61,15 @@ test("Delete starred message updates counter", async () => {
     await click(".o-mail-Message-moreMenu [title='Delete']", { target: env2 });
     await click("button", { text: "Confirm" }, { target: env2 });
     await contains("button", { count: 0, target: env2, text: "Starred1" });
+=======
+    await contains(`${env1.selector} .o-mail-Message`, { text: "Hello World!" });
+    await contains(`${env2.selector} .o-mail-Message`, { text: "Hello World!" });
+    await contains(`${env2.selector} button`, { text: "Starred1" });
+    await click(`${env2.selector} :nth-child(1 of .o-mail-Message) [title='Expand']`);
+    await click(`${env2.selector} .o-mail-Message-moreMenu [title='Delete']`);
+    await click(`${env2.selector} button`, { text: "Confirm" });
+    await contains(`${env2.selector} button`, { count: 0, text: "Starred1" });
+>>>>>>> upstream/18.0
 });
 
 test.tags("focus required");
@@ -66,6 +83,7 @@ test("Thread rename", async () => {
     const env2 = await start({ asTab: true });
     await openDiscuss(channelId, { target: env1 });
     await openDiscuss(channelId, { target: env2 });
+<<<<<<< HEAD
     await insertText(".o-mail-Discuss-threadName:enabled", "Sales", {
         replace: true,
         target: env1,
@@ -73,6 +91,14 @@ test("Thread rename", async () => {
     triggerHotkey("Enter");
     await contains(".o-mail-Discuss-threadName[title='Sales']", { target: env2 });
     await contains(".o-mail-DiscussSidebarChannel", { target: env2, text: "Sales" });
+=======
+    await insertText(`${env1.selector} .o-mail-Discuss-threadName:enabled`, "Sales", {
+        replace: true,
+    });
+    triggerHotkey("Enter");
+    await contains(`${env2.selector} .o-mail-Discuss-threadName[title='Sales']`);
+    await contains(`${env2.selector} .o-mail-DiscussSidebarChannel`, { text: "Sales" });
+>>>>>>> upstream/18.0
 });
 
 test.tags("focus required");
@@ -86,6 +112,7 @@ test("Thread description update", async () => {
     const env2 = await start({ asTab: true });
     await openDiscuss(channelId, { target: env1 });
     await openDiscuss(channelId, { target: env2 });
+<<<<<<< HEAD
     await insertText(".o-mail-Discuss-threadDescription", "The very best channel", {
         replace: true,
         target: env1,
@@ -94,6 +121,19 @@ test("Thread description update", async () => {
     await contains(".o-mail-Discuss-threadDescription[title='The very best channel']", {
         target: env2,
     });
+=======
+    await insertText(
+        `${env1.selector} .o-mail-Discuss-threadDescription`,
+        "The very best channel",
+        {
+            replace: true,
+        }
+    );
+    triggerHotkey("Enter");
+    await contains(
+        `${env2.selector} .o-mail-Discuss-threadDescription[title='The very best channel']`
+    );
+>>>>>>> upstream/18.0
 });
 
 test.skip("Channel subscription is renewed when channel is added from invite", async () => {
@@ -147,7 +187,13 @@ test("Adding attachments", async () => {
         attachment_ids: [attachmentId],
         message_id: messageId,
     });
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard", { target: env2, text: "test.txt" });
+=======
+    await contains(
+        `${env2.selector} .o-mail-AttachmentCard:not(.o-isUploading):contains(test.txt)`
+    );
+>>>>>>> upstream/18.0
 });
 
 test("Remove attachment from message", async () => {
@@ -168,10 +214,17 @@ test("Remove attachment from message", async () => {
     const env2 = await start({ asTab: true });
     await openDiscuss(channelId, { target: env1 });
     await openDiscuss(channelId, { target: env2 });
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard", { target: env1, text: "test.txt" });
     await click(".o-mail-AttachmentCard-unlink", { target: env2 });
     await click(".modal-footer .btn", { text: "Ok", target: env2 });
     await contains(".o-mail-AttachmentCard", { count: 0, target: env1, text: "test.txt" });
+=======
+    await contains(`${env1.selector} .o-mail-AttachmentCard`, { text: "test.txt" });
+    await click(`${env2.selector} .o-mail-AttachmentCard-unlink`);
+    await click(`${env2.selector} .modal-footer .btn`, { text: "Ok" });
+    await contains(`${env1.selector} .o-mail-AttachmentCard`, { count: 0, text: "test.txt" });
+>>>>>>> upstream/18.0
 });
 
 test("Message delete notification", async () => {

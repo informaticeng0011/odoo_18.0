@@ -4,14 +4,24 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:57+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"POT-Creation-Date: 2025-05-23 18:40+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,6 +59,15 @@ msgstr "Arhivirano"
 
 #. module: phone_validation
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/phone_validation/models/mail_thread_phone.py:0
+msgid "Are you sure you want to unblacklist this Phone Number?"
+msgstr ""
+
+#. module: phone_validation
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/phone_validation/models/phone_blacklist.py:0
 msgid "Are you sure you want to unblacklist this phone number?"
 msgstr ""
@@ -72,7 +91,11 @@ msgstr "Črni seznam"
 #. module: phone_validation
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_tree
 msgid "Blacklist Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum črne liste"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__mobile_blacklisted
@@ -101,6 +124,11 @@ msgid ""
 "Blocked by deletion of portal account %(portal_user_name)s by %(user_name)s "
 "(#%(user_id)s)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Blokirano zaradi izbrisa portalnega računa %(portal_user_name)s od "
+"%(user_name)s (#%(user_id)s)"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model,name:phone_validation.model_res_partner
@@ -380,13 +408,21 @@ msgstr ""
 #. module: phone_validation
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_form
 msgid "Unblacklist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odstrani črni seznam"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #. odoo-python
 #: code:addons/phone_validation/wizard/phone_blacklist_remove.py:0
 msgid "Unblock Reason: %(reason)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razlog za odblokiranje: %(reason)s"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model,name:phone_validation.model_res_users
@@ -394,9 +430,23 @@ msgid "User"
 msgstr "Uporabnik"
 
 #. module: phone_validation
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
 msgid "e.g \"Asked to receive our next newsletters\""
 msgstr ""
+=======
+#. odoo-python
+#: code:addons/phone_validation/models/mail_thread_phone.py:0
+msgid ""
+"You do not have the access right to unblacklist phone numbers. Please "
+"contact your administrator."
+msgstr ""
+
+#. module: phone_validation
+#: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
+msgid "e.g \"Asked to receive our next newsletters\""
+msgstr "npr. »Želite prejemati naša naslednja glasila«"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form

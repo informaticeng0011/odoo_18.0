@@ -991,7 +991,11 @@ class TestLeadFormTools(FormatAddressCase):
         self.assertAddressView('crm.lead')
 
 
+<<<<<<< HEAD
 @tagged('lead_internals')
+=======
+@tagged('lead_internals', 'is_query_count')
+>>>>>>> upstream/18.0
 class TestCrmLeadMailTrackingDuration(MailTrackingDurationMixinCase):
 
     @classmethod

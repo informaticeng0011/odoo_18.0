@@ -167,7 +167,11 @@ class IrQWeb(models.AbstractModel):
         name = self.URL_ATTRS.get(tagName)
         if request:
             value = atts.get(name) if name else None
+<<<<<<< HEAD
             if value is not None and value is not False:
+=======
+            if value not in (None, False, ()):
+>>>>>>> upstream/18.0
                 atts[name] = self.env['ir.http']._url_for(str(value))
 
             # Adapt background-image URL in the same way as image src.
@@ -179,9 +183,15 @@ class IrQWeb(models.AbstractModel):
         data_name = f'data-{name}'
         if name and (name in atts or data_name in atts):
             atts = OrderedDict(atts)
+<<<<<<< HEAD
             if name in atts:
                 atts[name] = website.get_cdn_url(atts[name])
             if data_name in atts:
+=======
+            if name in atts and atts[name] not in (False, None, ()):
+                atts[name] = website.get_cdn_url(atts[name])
+            if data_name in atts and atts[data_name] not in (False, None, ()):
+>>>>>>> upstream/18.0
                 atts[data_name] = website.get_cdn_url(atts[data_name])
         atts = self._adapt_style_background_image(atts, website.get_cdn_url)
 
@@ -224,7 +234,11 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'website.assets_all_wysiwyg',
+=======
+            'website.assets_all_wysiwyg_inside',
+>>>>>>> upstream/18.0
 =======
             'website.assets_all_wysiwyg_inside',
 >>>>>>> upstream/18.0

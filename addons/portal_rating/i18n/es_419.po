@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* portal_rating
 # 
 # Translators:
@@ -180,10 +181,20 @@
 >>>>>>> upstream/18.0
 # Wil Odoo, 2024
 # 
+=======
+# * portal_rating
+#
+# Translators:
+# Wil Odoo, 2024
+# Fernanda Alvarez, 2025
+#
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -608,6 +619,23 @@ msgstr "#{Math.round(val * 100) / 100} estrellas de 5"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-08-22 18:39+0000\n"
+"PO-Revision-Date: 2025-08-25 22:20+0000\n"
+"Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
+"Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
+"odoo-18/portal_rating/es_419/>\n"
+"Language: es_419\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+
+#. module: portal_rating
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/portal_rating/static/src/js/portal_rating_composer.js:0
 #: model_terms:ir.ui.view,arch_db:portal_rating.rating_stars_static_popup_composer
 msgid "Add Review"
@@ -712,7 +740,11 @@ msgstr "Mensaje"
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/xml/portal_rating_composer.xml:0
 msgid "Modify your review"
+<<<<<<< HEAD
 msgstr "Modifique su reseña"
+=======
+msgstr "Modifica tu reseña"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
@@ -761,9 +793,13 @@ msgstr "Reseña"
 msgid ""
 "The rating is required. Please make sure to select one before sending your "
 "review."
+<<<<<<< HEAD
 msgstr ""
 "Se requiere una calificación. Asegúrese de seleccionar una antes de enviar "
 "su reseña."
+=======
+msgstr "Es obligatorio que elijas una calificación antes de enviar tu reseña."
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
@@ -776,14 +812,29 @@ msgstr "Actualizar reseña"
 #: code:addons/portal_rating/models/rating_rating.py:0
 msgid "Updating rating comment require write access on related record"
 msgstr ""
+<<<<<<< HEAD
 "La actualización de la calificación del comentario requiere acceso de "
 "escritura en el registro relacionado"
+=======
+"Para actualizar la calificación del comentario necesitas acceso de escritura "
+"al registro relacionado"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/xml/portal_rating_composer.xml:0
 msgid "Write a review"
+<<<<<<< HEAD
 msgstr "Escriba una reseña"
+=======
+msgstr "Escribe una reseña"
+
+#. module: portal_rating
+#. odoo-javascript
+#: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
+msgid "comments"
+msgstr "comentarios"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript

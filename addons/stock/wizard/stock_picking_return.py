@@ -94,12 +94,21 @@ class ReturnPicking(models.TransientModel):
         return res
 
     picking_id = fields.Many2one('stock.picking')
+<<<<<<< HEAD
+=======
+    picking_type_code = fields.Selection(related='picking_id.picking_type_code', readonly=True)
+>>>>>>> upstream/18.0
     product_return_moves = fields.One2many('stock.return.picking.line', 'wizard_id', 'Moves', compute='_compute_moves_locations', precompute=True, readonly=False, store=True)
     company_id = fields.Many2one(related='picking_id.company_id')
 
     @api.depends('picking_id')
     def _compute_moves_locations(self):
         for wizard in self:
+<<<<<<< HEAD
+=======
+            if not wizard.picking_id:
+                continue
+>>>>>>> upstream/18.0
             product_return_moves = [Command.clear()]
             if not wizard.picking_id._can_return():
                 raise UserError(_("You may only return Done pickings."))
@@ -115,10 +124,16 @@ class ReturnPicking(models.TransientModel):
                 product_return_moves_data = dict(product_return_moves_data_tmpl)
                 product_return_moves_data.update(wizard._prepare_stock_return_picking_line_vals_from_move(move))
                 product_return_moves.append(Command.create(product_return_moves_data))
+<<<<<<< HEAD
             if wizard.picking_id and not product_return_moves:
                 raise UserError(_("No products to return (only lines in Done state and not fully returned yet can be returned)."))
             if wizard.picking_id:
                 wizard.product_return_moves = product_return_moves
+=======
+            if not product_return_moves:
+                raise UserError(_("No products to return (only lines in Done state and not fully returned yet can be returned)."))
+            wizard.product_return_moves = product_return_moves
+>>>>>>> upstream/18.0
 
     @api.model
     def _prepare_stock_return_picking_line_vals_from_move(self, stock_move):
@@ -186,6 +201,14 @@ class ReturnPicking(models.TransientModel):
         for return_line in self.product_return_moves:
             return_line._process_line(exchange_picking)
 
+<<<<<<< HEAD
+=======
+        # The exchange moves should be independent of their origin moves
+        exchange_picking.move_ids.write({
+            'origin_returned_move_id': False,
+            'move_orig_ids': False,
+        })
+>>>>>>> upstream/18.0
         exchange_picking.action_confirm()
         exchange_picking.action_assign()
         return exchange_picking

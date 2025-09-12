@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_holidays
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -10,17 +11,27 @@
 # Dorin Hongu <dhongu@gmail.com>, 2025
 # Maria Muntean, 2025
 =======
+=======
+#
+# Translators:
+>>>>>>> upstream/18.0
 # Lyall Kindmurr, 2024
 # Cozmin Candea <office@terrabit.ro>, 2025
 # Dorin Hongu <dhongu@gmail.com>, 2025
 # Larisa_nexterp, 2025
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 # Wil Odoo, 2025
 # 
+=======
+# Wil Odoo, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 =======
@@ -34,13 +45,29 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+"Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid " to %(date_to_utc)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " până la %(date_to_utc)s"
+>>>>>>> upstream/18.0
 =======
 msgstr " până la %(date_to_utc)s"
 >>>>>>> upstream/18.0
@@ -87,7 +114,11 @@ msgstr "%(allocation_name)s (de la %(date_from)s fără limită)"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(employee)s on Time Off : %(duration)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(employee)s în concediu : %(duration)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(employee)s în concediu : %(duration)s"
 >>>>>>> upstream/18.0
@@ -117,7 +148,11 @@ msgstr "%(leave_name)s a fost anulată cu justificarea: <br/> %(reason)s."
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(leave_type)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(leave_type)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(leave_type)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -127,7 +162,11 @@ msgstr "%(leave_type)s: %(duration)s (%(start)s)"
 #: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
 msgid "%(name)s (%(duration)s %(request_unit)s(s))"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(duration)s %(request_unit)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(duration)s %(request_unit)s)"
 >>>>>>> upstream/18.0
@@ -137,7 +176,11 @@ msgstr "%(name)s (%(duration)s %(request_unit)s)"
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "%(name)s (%(duration)s day(s))"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(duration)s zi(le))"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(duration)s zi(le))"
 >>>>>>> upstream/18.0
@@ -147,7 +190,11 @@ msgstr "%(name)s (%(duration)s zi(le))"
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "%(name)s (%(duration)s hour(s))"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(duration)s oră/ore)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(duration)s oră/ore)"
 >>>>>>> upstream/18.0
@@ -157,7 +204,11 @@ msgstr "%(name)s (%(duration)s oră/ore)"
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid "%(name)s (%(time)g remaining out of %(maximum)g days)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(time)g rămase din %(maximum)g zile)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(time)g rămase din %(maximum)g zile)"
 >>>>>>> upstream/18.0
@@ -167,7 +218,11 @@ msgstr "%(name)s (%(time)g rămase din %(maximum)g zile)"
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid "%(name)s (%(time)g remaining out of %(maximum)g hours)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(time)g rămase din %(maximum)g ore)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(time)g rămase din %(maximum)g ore)"
 >>>>>>> upstream/18.0
@@ -183,7 +238,11 @@ msgstr "%(name)s: %(duration)s"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(person)s on %(leave_type)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(person)s în %(leave_type)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(person)s în %(leave_type)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -193,7 +252,11 @@ msgstr "%(person)s în %(leave_type)s: %(duration)s (%(start)s)"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(person)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(person)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(person)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -229,11 +292,17 @@ msgstr "&lt;/th&gt;"
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.report_holidayssummary
 msgid ""
+<<<<<<< HEAD
 "&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-"
 "color:"
 msgstr ""
 "&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-"
 "color:"
+=======
+"&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-color:"
+msgstr ""
+"&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-color:"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.report_holidayssummary
@@ -255,7 +324,11 @@ msgstr "(valabil până la"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
 msgid "- Valid for"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- Valabil pentru"
+>>>>>>> upstream/18.0
 =======
 msgstr "- Valabil pentru"
 >>>>>>> upstream/18.0
@@ -264,7 +337,11 @@ msgstr "- Valabil pentru"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
 msgid "00:00"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "00:00"
+>>>>>>> upstream/18.0
 =======
 msgstr "00:00"
 >>>>>>> upstream/18.0
@@ -284,7 +361,11 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "title=\"Arrow\" invisible=\"allocation_type == 'accrual' or state != "
+=======
+"title=\"Săgeată\" invisible=\"allocation_type == 'accrual' or state != "
+>>>>>>> upstream/18.0
 =======
 "title=\"Săgeată\" invisible=\"allocation_type == 'accrual' or state != "
 >>>>>>> upstream/18.0
@@ -299,7 +380,11 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "title=\"Arrow\" invisible=\"allocation_type == 'accrual'\"/>"
+=======
+"title=\"Săgeată\" invisible=\"allocation_type == 'accrual'\"/>"
+>>>>>>> upstream/18.0
 =======
 "title=\"Săgeată\" invisible=\"allocation_type == 'accrual'\"/>"
 >>>>>>> upstream/18.0
@@ -308,7 +393,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_activity
 msgid "<i class=\"fa fa-long-arrow-right\" title=\"to\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-long-arrow-right\" title=\"to\"/>"
+=======
+msgstr "<i class=\"fa fa-long-arrow-right\" title=\"către\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-long-arrow-right\" title=\"către\"/>"
 >>>>>>> upstream/18.0
@@ -328,6 +417,7 @@ msgstr "<i class=\"fa fa-times\"/> Refuză"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_generate_multi_wizard_view_form
 msgid ""
 "<span class=\"ml8\" invisible=\"request_unit == 'hour'\">Days</span>\n"
+<<<<<<< HEAD
 "                            <span class=\"ml8\" invisible=\"request_unit != 'hour'\">Hours</span>"
 msgstr ""
 <<<<<<< HEAD
@@ -335,15 +425,32 @@ msgstr ""
 "<span class=\"ml8\" invisible=\"request_unit == 'hour'\">Zile</span>\n"
 "                            <span class=\"ml8\" invisible=\"request_unit != 'hour'\">Ore</span>"
 >>>>>>> upstream/18.0
+=======
+"                            <span class=\"ml8\" invisible=\"request_unit != "
+"'hour'\">Hours</span>"
+msgstr ""
+"<span class=\"ml8\" invisible=\"request_unit == 'hour'\">Zile</span>\n"
+"                            <span class=\"ml8\" invisible=\"request_unit != "
+"'hour'\">Ore</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form
 msgid ""
 "<span class=\"ml8\" invisible=\"type_request_unit == 'hour'\">Days</span>\n"
+<<<<<<< HEAD
 "                                <span class=\"ml8\" invisible=\"type_request_unit != 'hour'\">Hours</span>"
 msgstr ""
 "<span class=\"ml8\" invisible=\"type_request_unit == 'hour'\">Zile</span>\n"
 "                                <span class=\"ml8\" invisible=\"type_request_unit != 'hour'\">Ore</span>"
+=======
+"                                <span class=\"ml8\" "
+"invisible=\"type_request_unit != 'hour'\">Hours</span>"
+msgstr ""
+"<span class=\"ml8\" invisible=\"type_request_unit == 'hour'\">Zile</span>\n"
+"                                <span class=\"ml8\" "
+"invisible=\"type_request_unit != 'hour'\">Ore</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_employee_public_form_view_inherit
@@ -355,6 +462,12 @@ msgid ""
 "                        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                            Înapoi la\n"
+"                        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                            Înapoi la\n"
@@ -383,7 +496,11 @@ msgid ""
 msgstr ""
 "<span class=\"o_stat_text\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                           Timp liber\n"
+=======
+"                           Concediu\n"
+>>>>>>> upstream/18.0
 =======
 "                           Concediu\n"
 >>>>>>> upstream/18.0
@@ -393,7 +510,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
 msgid "<span class=\"o_stat_text\">Accruals</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"o_stat_text\">Angajamente</span>"
+=======
+msgstr "<span class=\"o_stat_text\">Acumulări</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Acumulări</span>"
 >>>>>>> upstream/18.0
@@ -407,7 +528,11 @@ msgstr "<span class=\"o_stat_text\">Alocări</span>"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
 msgid "<span class=\"o_stat_text\">Time Off</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"o_stat_text\">Libere</span>"
+=======
+msgstr "<span class=\"o_stat_text\">Concedii</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Concedii</span>"
 >>>>>>> upstream/18.0
@@ -416,7 +541,11 @@ msgstr "<span class=\"o_stat_text\">Concedii</span>"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_kanban
 msgid "<span class=\"text-muted\"> to </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"text-muted\"> la </span>"
+=======
+msgstr "<span class=\"text-muted\"> până la </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\"> până la </span>"
 >>>>>>> upstream/18.0
@@ -429,6 +558,7 @@ msgstr "<span class=\"text-muted\">de la </span>"
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
 msgid ""
+<<<<<<< HEAD
 "<span>The employee has a different timezone than yours! Here dates and times are displayed in the employee's timezone</span>\n"
 "                    ("
 msgstr ""
@@ -437,10 +567,20 @@ msgstr ""
 "<span>Angajatul are un fus orar diferit față de al tău! Aici datele și orele sunt afișate în fusul orar al angajatului</span>\n"
 "                    ("
 >>>>>>> upstream/18.0
+=======
+"<span>The employee has a different timezone than yours! Here dates and times "
+"are displayed in the employee's timezone</span>\n"
+"                    ("
+msgstr ""
+"<span>Angajatul are un fus orar diferit față de al tău! Aici datele și orele "
+"sunt afișate în fusul orar al angajatului</span>\n"
+"                    ("
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
 msgid ""
+<<<<<<< HEAD
 "<span>You can only take this time off in whole days, so if your schedule has"
 " half days, it won't be used efficiently.</span>"
 msgstr ""
@@ -449,6 +589,13 @@ msgstr ""
 "programul dvs. are jumătăți de zile, acesta nu va fi utilizat "
 "eficient.</span>"
 =======
+"<span>Puteți lua acest concediu doar în zile întregi, astfel încât, dacă "
+"programul dvs. are jumătăți de zi, acesta nu va fi utilizat eficient.</span>"
+>>>>>>> upstream/18.0
+=======
+"<span>You can only take this time off in whole days, so if your schedule has "
+"half days, it won't be used efficiently.</span>"
+msgstr ""
 "<span>Puteți lua acest concediu doar în zile întregi, astfel încât, dacă "
 "programul dvs. are jumătăți de zi, acesta nu va fi utilizat eficient.</span>"
 >>>>>>> upstream/18.0
@@ -463,7 +610,11 @@ msgstr "<strong>Departamente și angajați</strong>"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "A cancelled leave cannot be modified."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Un concediu anulat nu poate fi modificat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Un concediu anulat nu poate fi modificat."
 >>>>>>> upstream/18.0
@@ -472,16 +623,24 @@ msgstr "Un concediu anulat nu poate fi modificat."
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_action_approve_department
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_holiday_allocation_id
 msgid ""
+<<<<<<< HEAD
 "A great way to keep track on employee’s PTOs, sick days, and approval "
 "status."
 msgstr ""
 "O modalitate excelentă de a urmări PTO-urile angajaților, zilele de concediu"
 " medical și statutul de aprobare."
+=======
+"A great way to keep track on employee’s PTOs, sick days, and approval status."
+msgstr ""
+"O modalitate excelentă de a urmări PTO-urile angajaților, zilele de concediu "
+"medical și statutul de aprobare."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_my
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_new_request
 msgid ""
+<<<<<<< HEAD
 "A great way to keep track on your time off requests, sick days, and approval"
 " status."
 msgstr ""
@@ -492,13 +651,24 @@ msgstr ""
 "O modalitate excelentă de a vă urmări cererile de concediu, zilele de boală "
 "și starea de aprobare."
 >>>>>>> upstream/18.0
+=======
+"A great way to keep track on your time off requests, sick days, and approval "
+"status."
+msgstr ""
+"O modalitate excelentă de a vă urmări cererile de concediu, zilele de boală "
+"și starea de aprobare."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "A time off cannot be duplicated."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "O pauză nu poate fi duplicată."
+=======
+msgstr "Un concediu nu poate fi duplicat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Un concediu nu poate fi duplicat."
 >>>>>>> upstream/18.0
@@ -510,7 +680,11 @@ msgstr "Un concediu nu poate fi duplicat."
 #: model:ir.model.fields,field_description:hr_holidays.field_res_users__show_leaves
 msgid "Able to see Remaining Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Capacitatea de a vedea concediul rămas"
+=======
+msgstr "Poate vedea concediul rămas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poate vedea concediul rămas"
 >>>>>>> upstream/18.0
@@ -525,7 +699,11 @@ msgstr "Absență"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_department__absence_of_today
 msgid "Absence by Today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Absența de Astăzi"
+=======
+msgstr "Absență astăzi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Absență astăzi"
 >>>>>>> upstream/18.0
@@ -537,7 +715,11 @@ msgid ""
 "validated on today"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Angajat(i) absenti, ale căror cereri de concediu sunt fie confirmate, fie "
+=======
+"Angajat(ți) absenți, ale căror cereri de concediu sunt fie confirmate, fie "
+>>>>>>> upstream/18.0
 =======
 "Angajat(ți) absenți, ale căror cereri de concediu sunt fie confirmate, fie "
 >>>>>>> upstream/18.0
@@ -562,7 +744,11 @@ msgstr "Absent astăzi"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Accrual (Future):"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Acumulare (viitoare):"
+=======
+msgstr "Acumulare (viitor):"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acumulare (viitor):"
 >>>>>>> upstream/18.0
@@ -572,7 +758,11 @@ msgstr "Acumulare (viitor):"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_allocation_generate_multi_wizard__allocation_type__accrual
 msgid "Accrual Allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocare Angajare"
+=======
+msgstr "Alocare acumulare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocare acumulare"
 >>>>>>> upstream/18.0
@@ -581,7 +771,11 @@ msgstr "Alocare acumulare"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Accrual Level"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nivel de acumulare"
+=======
+msgstr "Nivel acumulare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nivel acumulare"
 >>>>>>> upstream/18.0
@@ -594,7 +788,11 @@ msgstr "Nivel acumulare"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
 msgid "Accrual Plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Plan de acumulare"
+=======
+msgstr "Plan acumulare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plan acumulare"
 >>>>>>> upstream/18.0
@@ -603,7 +801,11 @@ msgstr "Plan acumulare"
 #: model:ir.model,name:hr_holidays.model_hr_leave_accrual_level
 msgid "Accrual Plan Level"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nivel plan acumulat"
+=======
+msgstr "Nivel plan acumulare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nivel plan acumulare"
 >>>>>>> upstream/18.0
@@ -625,7 +827,11 @@ msgstr "Planuri de acumulare"
 #: model:ir.actions.server,name:hr_holidays.hr_leave_allocation_cron_accrual_ir_actions_server
 msgid "Accrual Time Off: Updates the number of time off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Timp de acumulare oprit: Actualizează numărul de pauze"
+=======
+msgstr "Acumulare concediu: Actualizează numărul de concedii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acumulare concediu: Actualizează numărul de concedii"
 >>>>>>> upstream/18.0
@@ -634,7 +840,11 @@ msgstr "Acumulare concediu: Actualizează numărul de concedii"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__accrual_validity
 msgid "Accrual Validity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valabilitate acumulare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valabilitate acumulare"
 >>>>>>> upstream/18.0
@@ -643,7 +853,11 @@ msgstr "Valabilitate acumulare"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__accrual_validity_count
 msgid "Accrual Validity Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Număr valabilitate acumulare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr valabilitate acumulare"
 >>>>>>> upstream/18.0
@@ -652,7 +866,11 @@ msgstr "Număr valabilitate acumulare"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__accrual_validity_type
 msgid "Accrual Validity Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip valabilitate acumulare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip valabilitate acumulare"
 >>>>>>> upstream/18.0
@@ -666,7 +884,11 @@ msgstr "Acumulări"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__accrual_count
 msgid "Accruals count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de acumulări"
+=======
+msgstr "Număr acumulări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr acumulări"
 >>>>>>> upstream/18.0
@@ -693,7 +915,11 @@ msgstr "Activ"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Active Allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocări Active"
+=======
+msgstr "Alocări active"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocări active"
 >>>>>>> upstream/18.0
@@ -709,7 +935,11 @@ msgstr "Angajat activ"
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 msgid "Active but on leave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Activ, dar în concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Activ, dar în concediu"
 >>>>>>> upstream/18.0
@@ -725,7 +955,11 @@ msgstr "Activități"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__activity_exception_decoration
 msgid "Activity Exception Decoration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Decorator Excepție Activitate"
+=======
+msgstr "Decorare excepție activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Decorare excepție activitate"
 >>>>>>> upstream/18.0
@@ -738,11 +972,14 @@ msgstr "Stare activitate"
 
 #. module: hr_holidays
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__activity_type_icon
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__activity_type_icon
 msgid "Activity Type Icon"
 msgstr "Pictograma tipului de activitate"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:hr_holidays.model_mail_activity_type
 msgid "Activity Type"
 msgstr "Tip activitate"
@@ -752,6 +989,9 @@ msgstr "Tip activitate"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__activity_type_icon
 msgid "Activity Type Icon"
 msgstr "Pictogramă tip activitate"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -770,7 +1010,11 @@ msgstr "Adaugă o descriere..."
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form
 msgid "Add a reason..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați un motiv..."
+=======
+msgstr "Adaugă un motiv..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă un motiv..."
 >>>>>>> upstream/18.0
@@ -780,7 +1024,11 @@ msgstr "Adaugă un motiv..."
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Add some description for the people that will validate it"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați o descriere pentru persoanele care o vor valida"
+=======
+msgstr "Adaugă o descriere pentru persoanele care vor valida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă o descriere pentru persoanele care vor valida"
 >>>>>>> upstream/18.0
@@ -790,7 +1038,11 @@ msgstr "Adaugă o descriere pentru persoanele care vor valida"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__added_value_type
 msgid "Added Value Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul de valoare adăugată"
+=======
+msgstr "Tip valoare adăugată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip valoare adăugată"
 >>>>>>> upstream/18.0
@@ -809,7 +1061,11 @@ msgstr "După această perioadă de acumulare"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave__request_date_from_period__pm
 msgid "Afternoon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "După amiază"
+=======
+msgstr "După-amiază"
+>>>>>>> upstream/18.0
 =======
 msgstr "După-amiază"
 >>>>>>> upstream/18.0
@@ -818,7 +1074,11 @@ msgstr "După-amiază"
 #: model:ir.actions.act_window,name:hr_holidays.hr_leave_allocation_action_all
 msgid "All Allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Toate Alocările"
+=======
+msgstr "Toate alocările"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toate alocările"
 >>>>>>> upstream/18.0
@@ -828,7 +1088,11 @@ msgstr "Toate alocările"
 #: model:ir.actions.act_window,name:hr_holidays.hr_leave_action_action_approve_department
 msgid "All Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Toate Concediile"
+=======
+msgstr "Toate concediile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toate concediile"
 >>>>>>> upstream/18.0
@@ -867,7 +1131,11 @@ msgstr "Alocare"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_holiday_status_normal_tree
 msgid "Allocation Approval"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aprobare Alocare"
+=======
+msgstr "Aprobare alocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobare alocare"
 >>>>>>> upstream/18.0
@@ -879,7 +1147,11 @@ msgstr "Aprobare alocare"
 #: model:ir.model.fields,field_description:hr_holidays.field_res_users__allocation_display
 msgid "Allocation Display"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișare Alocare"
+=======
+msgstr "Afișare alocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișare alocare"
 >>>>>>> upstream/18.0
@@ -889,7 +1161,11 @@ msgstr "Afișare alocare"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_generate_multi_wizard__allocation_mode
 msgid "Allocation Mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mod Alocare"
+=======
+msgstr "Mod alocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mod alocare"
 >>>>>>> upstream/18.0
@@ -898,7 +1174,11 @@ msgstr "Mod alocare"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__allocation_notif_subtype_id
 msgid "Allocation Notification Subtype"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Subtip Ntificare Alocare"
+=======
+msgstr "Subtip notificare alocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subtip notificare alocare"
 >>>>>>> upstream/18.0
@@ -910,7 +1190,11 @@ msgstr "Subtip notificare alocare"
 #: model:ir.model.fields,field_description:hr_holidays.field_res_users__allocation_remaining_display
 msgid "Allocation Remaining Display"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișarea alocării rămase"
+=======
+msgstr "Afișare alocare rămasă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișare alocare rămasă"
 >>>>>>> upstream/18.0
@@ -925,7 +1209,11 @@ msgstr "Afișare alocare rămasă"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form
 msgid "Allocation Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cerere Alocare"
+=======
+msgstr "Cerere de alocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cerere de alocare"
 >>>>>>> upstream/18.0
@@ -944,7 +1232,11 @@ msgstr "Cereri de alocare"
 #: model:mail.activity.type,name:hr_holidays.mail_act_leave_allocation_second_approval
 msgid "Allocation Second Approval"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A doua aprobare alocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "A doua aprobare alocare"
 >>>>>>> upstream/18.0
@@ -955,7 +1247,11 @@ msgstr "A doua aprobare alocare"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Allocation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip Alocare"
+=======
+msgstr "Tip alocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip alocare"
 >>>>>>> upstream/18.0
@@ -968,6 +1264,11 @@ msgid ""
 "Approval\" in order to approve it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alocarea trebuie să fie confirmată („De aprobat”) sau validată o dată („A "
+"doua aprobare”) pentru a putea fi aprobată."
+>>>>>>> upstream/18.0
 =======
 "Alocarea trebuie să fie confirmată („De aprobat”) sau validată o dată („A "
 "doua aprobare”) pentru a putea fi aprobată."
@@ -978,7 +1279,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Allocation of %(leave_type)s: %(amount).2f %(unit)s to %(target)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocare a  %(leave_type)s: %(amount).2f %(unit)s la %(target)s"
+=======
+msgstr "Alocare de %(leave_type)s: %(amount).2f %(unit)s către %(target)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocare de %(leave_type)s: %(amount).2f %(unit)s către %(target)s"
 >>>>>>> upstream/18.0
@@ -987,7 +1292,11 @@ msgstr "Alocare de %(leave_type)s: %(amount).2f %(unit)s către %(target)s"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__week_day
 msgid "Allocation on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocare pe"
+=======
+msgstr "Alocare în"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocare în"
 >>>>>>> upstream/18.0
@@ -1000,18 +1309,31 @@ msgid ""
 "to refuse it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Cererea de alocare trebuie să fie confirmată, să aibă a doua aprobare sau să"
 " fie validată pentru a putea fi refuzată."
+>>>>>>> upstream/18.0
+=======
+"Cererea de alocare trebuie să fie confirmată, să aibă a doua aprobare sau să "
+"fie validată pentru a putea fi refuzată."
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+<<<<<<< HEAD
 msgid "Allocation state must be \"Refused\" in order to be reset to \"To Approve\"."
 msgstr ""
 <<<<<<< HEAD
 =======
+"Starea alocării trebuie să fie „Refuzat” pentru a putea fi resetată la „De "
+"aprobat”."
+>>>>>>> upstream/18.0
+=======
+msgid ""
+"Allocation state must be \"Refused\" in order to be reset to \"To Approve\"."
+msgstr ""
 "Starea alocării trebuie să fie „Refuzat” pentru a putea fi resetată la „De "
 "aprobat”."
 >>>>>>> upstream/18.0
@@ -1038,7 +1360,11 @@ msgstr "Permite limita negativă"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
 msgid "Allow To Attach Supporting Document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Permiteți atașarea unui document justificativ"
+=======
+msgstr "Permite atașarea documentului justificativ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permite atașarea documentului justificativ"
 >>>>>>> upstream/18.0
@@ -1054,24 +1380,34 @@ msgid ""
 "- By Employee Tag: all employees of the specific employee group category"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Permiteți crearea de solicitări în loturi:\n"
 "- După angajat: pentru un anumit angajat\n"
 "- După companie: toți angajații companiei specificate\n"
 "- După departament: toți angajații departamentului specificat\n"
 "- După eticheta angajaților: toți angajații din categoria grupului de angajați specific"
 =======
+=======
+>>>>>>> upstream/18.0
 "Permite crearea de cereri în loturi:\n"
 "- După angajat: pentru un angajat specific\n"
 "- După companie: toți angajații companiei specificate\n"
 "- După departament: toți angajații departamentului specificat\n"
 "- După eticheta angajatului: toți angajații din categoria de grup specificată"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__already_accrued
 msgid "Already Accrued"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Acumulat deja"
+=======
+msgstr "Deja acumulat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Deja acumulat"
 >>>>>>> upstream/18.0
@@ -1087,18 +1423,26 @@ msgstr "Sumă"
 msgid "An employee already booked time off which overlaps with this period:%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un angajat a rezervat deja timp liber care se suprapune cu această "
 "perioadă:%s"
 =======
 "Un angajat a rezervat deja concediu care se suprapune cu această perioadă: "
 "%s"
 >>>>>>> upstream/18.0
+=======
+"Un angajat a rezervat deja concediu care se suprapune cu această perioadă: %s"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.report_holidayssummary
 msgid "Analyze from"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analiza de la"
+=======
+msgstr "Analizează de la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analizează de la"
 >>>>>>> upstream/18.0
@@ -1107,7 +1451,11 @@ msgstr "Analizează de la"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_evaluation_report_graph
 msgid "Appraisal Analysis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analiza Evaluarilor"
+=======
+msgstr "Analiză evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiză evaluare"
 >>>>>>> upstream/18.0
@@ -1137,7 +1485,11 @@ msgstr "Aprobă"
 #: model:ir.actions.server,name:hr_holidays.ir_actions_server_approve_allocations
 msgid "Approve Allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocare Aprobare"
+=======
+msgstr "Aprobă alocări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobă alocări"
 >>>>>>> upstream/18.0
@@ -1161,7 +1513,11 @@ msgstr "Aprobă alocări"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Approved"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aprobat(a)"
+=======
+msgstr "Aprobat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobat"
 >>>>>>> upstream/18.0
@@ -1170,7 +1526,11 @@ msgstr "Aprobat"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter_report
 msgid "Approved Requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cereri Aprobate"
+=======
+msgstr "Cereri aprobate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cereri aprobate"
 >>>>>>> upstream/18.0
@@ -1243,7 +1603,11 @@ msgstr "La muncă"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__supported_attachment_ids
 msgid "Attach File"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Atașează fișiere"
+=======
+msgstr "Atașează fișier"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atașează fișier"
 >>>>>>> upstream/18.0
@@ -1270,12 +1634,23 @@ msgstr "August"
 #. odoo-python
 #: code:addons/hr_holidays/wizard/hr_leave_generate_multi_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 "Automatic time off spliting during batch generation is not managed for ovelapping time off declared in hours. Conflicting time off:\n"
 "%s"
 msgstr ""
 <<<<<<< HEAD
 =======
 "Împărțirea automată a concediului în timpul generării în lot nu este gestionată pentru concediile suprapuse declarate în ore. Concedii conflictuale:\n"
+"%s"
+>>>>>>> upstream/18.0
+=======
+"Automatic time off spliting during batch generation is not managed for "
+"ovelapping time off declared in hours. Conflicting time off:\n"
+"%s"
+msgstr ""
+"Împărțirea automată a concediului în timpul generării în lot nu este "
+"gestionată pentru concediile suprapuse declarate în ore. Concedii "
+"conflictuale:\n"
 "%s"
 >>>>>>> upstream/18.0
 
@@ -1291,7 +1666,11 @@ msgstr "Disponibil"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee_public__remaining_leaves
 msgid "Available Time Off Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zile de concediu disponibile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zile de concediu disponibile"
 >>>>>>> upstream/18.0
@@ -1307,7 +1686,11 @@ msgstr "Disponibil:"
 #: code:addons/hr_holidays/static/src/thread_icon.patch.xml:0
 msgid "Away"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Absent"
+=======
+msgstr "Plecat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plecat"
 >>>>>>> upstream/18.0
@@ -1318,7 +1701,11 @@ msgstr "Plecat"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_employee_form_leave_inherit
 msgid "Back On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Înapoi la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înapoi la"
 >>>>>>> upstream/18.0
@@ -1328,7 +1715,11 @@ msgstr "Înapoi la"
 #: code:addons/hr_holidays/static/src/persona_model_patch.js:0
 msgid "Back on %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Înapoi la %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înapoi la %s"
 >>>>>>> upstream/18.0
@@ -1353,7 +1744,11 @@ msgstr "Pe baza timpului lucrat"
 #: model:ir.model,name:hr_holidays.model_hr_employee_base
 msgid "Basic Employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "BAngajat de bază"
+=======
+msgstr "Angajat de bază"
+>>>>>>> upstream/18.0
 =======
 msgstr "Angajat de bază"
 >>>>>>> upstream/18.0
@@ -1362,7 +1757,11 @@ msgstr "Angajat de bază"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_holidays_summary_employee__holiday_type__both
 msgid "Both Approved and Confirmed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Atat Aprobat cat si Confirmat"
+=======
+msgstr "Atât aprobat cât și confirmat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atât aprobat cât și confirmat"
 >>>>>>> upstream/18.0
@@ -1372,7 +1771,11 @@ msgstr "Atât aprobat cât și confirmat"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_generate_multi_wizard__allocation_mode__company
 msgid "By Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "De Companie"
+=======
+msgstr "După companie"
+>>>>>>> upstream/18.0
 =======
 msgstr "După companie"
 >>>>>>> upstream/18.0
@@ -1382,7 +1785,11 @@ msgstr "După companie"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_generate_multi_wizard__allocation_mode__department
 msgid "By Department"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "De Departament"
+=======
+msgstr "După departament"
+>>>>>>> upstream/18.0
 =======
 msgstr "După departament"
 >>>>>>> upstream/18.0
@@ -1398,7 +1805,11 @@ msgstr "După angajat"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_generate_multi_wizard__allocation_mode__category
 msgid "By Employee Tag"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dupa Eticheta Angajatului"
+=======
+msgstr "După eticheta angajatului"
+>>>>>>> upstream/18.0
 =======
 msgstr "După eticheta angajatului"
 >>>>>>> upstream/18.0
@@ -1414,8 +1825,12 @@ msgstr "De către aprobatorul angajatului"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_type__leave_validation_type__both
 msgid "By Employee's Approver and Time Off Officer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "De către aprobatorul și ofițerul responsabil cu timpul liber al angajatului"
+=======
+msgstr "De către aprobatorul angajatului și responsabilul de concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "De către aprobatorul angajatului și responsabilul de concediu"
 >>>>>>> upstream/18.0
@@ -1425,7 +1840,11 @@ msgstr "De către aprobatorul angajatului și responsabilul de concediu"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_type__leave_validation_type__hr
 msgid "By Time Off Officer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "De responsabilul de concediu"
+=======
+msgstr "De către responsabilul de concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "De către responsabilul de concediu"
 >>>>>>> upstream/18.0
@@ -1434,7 +1853,11 @@ msgstr "De către responsabilul de concediu"
 #: model:ir.model,name:hr_holidays.model_calendar_event
 msgid "Calendar Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Eveniment Calendar"
+=======
+msgstr "Eveniment calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eveniment calendar"
 >>>>>>> upstream/18.0
@@ -1454,7 +1877,11 @@ msgstr "Poate anula"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__can_modify_value_type
 msgid "Can Modify Value Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Poate modifica tipul de valoare"
+=======
+msgstr "Poate modifica tipul valorii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poate modifica tipul valorii"
 >>>>>>> upstream/18.0
@@ -1467,6 +1894,10 @@ msgstr "Poate reseta"
 #. module: hr_holidays
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
@@ -1484,7 +1915,11 @@ msgstr "Anulează"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_holidays_cancel_leave_form
 msgid "Cancel Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anulați timpul liber"
+=======
+msgstr "Anulează concediul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anulează concediul"
 >>>>>>> upstream/18.0
@@ -1493,7 +1928,11 @@ msgstr "Anulează concediul"
 #: model:ir.model,name:hr_holidays.model_hr_holidays_cancel_leave
 msgid "Cancel Time Off Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Expert pentru anulares timpului liber"
+=======
+msgstr "Asistent anulare concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asistent anulare concediu"
 >>>>>>> upstream/18.0
@@ -1517,7 +1956,11 @@ msgstr "Anulat"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Cancelled Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Concediu anulat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu anulat"
 >>>>>>> upstream/18.0
@@ -1526,7 +1969,11 @@ msgstr "Concediu anulat"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__cap_accrued_time
 msgid "Cap accrued time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Plafon de timp acumulat"
+=======
+msgstr "Plafon timp acumulat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plafon timp acumulat"
 >>>>>>> upstream/18.0
@@ -1540,7 +1987,11 @@ msgstr "Plafon:"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__carried_over_days_expiration_date
 msgid "Carried over days expiration date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data expirării zilelor reportate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data expirării zilelor reportate"
 >>>>>>> upstream/18.0
@@ -1549,7 +2000,11 @@ msgstr "Data expirării zilelor reportate"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Carry Over Validity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valabilitate reportare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valabilitate reportare"
 >>>>>>> upstream/18.0
@@ -1564,7 +2019,11 @@ msgstr "Reportare"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__action_with_unused_accruals__maximum
 msgid "Carry over with a maximum"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Se reportează cu o valoare maximă"
+=======
+msgstr "Reportare cu o valoare maximă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reportare cu o valoare maximă"
 >>>>>>> upstream/18.0
@@ -1583,7 +2042,11 @@ msgstr "Data reportării"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__carryover_date
 msgid "Carry-Over Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Timpul reportării"
+=======
+msgstr "Timp reportare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Timp reportare"
 >>>>>>> upstream/18.0
@@ -1592,7 +2055,11 @@ msgstr "Timp reportare"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__carryover_day
 msgid "Carryover Day"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ziua reportării"
+=======
+msgstr "Zi reportare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zi reportare"
 >>>>>>> upstream/18.0
@@ -1601,7 +2068,11 @@ msgstr "Zi reportare"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__carryover_day_display
 msgid "Carryover Day Display"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișarea zilei reportării"
+=======
+msgstr "Afișare zi reportare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișare zi reportare"
 >>>>>>> upstream/18.0
@@ -1621,22 +2092,32 @@ msgid ""
 "allocation accordingly."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Modificarea acestui program de lucru are ca rezultat faptul că angajatul "
 "(angajații) afectat (afectați) nu are (au) suficiente concedii alocate "
 "pentru a compensa concediile deja ocupate pe viitor. Vă rugăm să revizuiți "
 "concediile acestui angajat și să ajustați alocarea lor în consecință."
 =======
+=======
+>>>>>>> upstream/18.0
 "Modificarea acestui program de lucru duce la faptul că angajatul(ii) "
 "afectat(i) nu are(au) suficiente concedii alocate pentru a acoperi "
 "concediile deja luate în viitor. Vă rugăm să verificați concediile acestui "
 "angajat și să ajustați alocarea corespunzător."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__maximum_leave
 msgid "Choose a cap for this accrual."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alegeți un nivel maxim pentru această acumulare."
+=======
+msgstr "Alegeți un plafon pentru această acumulare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Alegeți un plafon pentru această acumulare."
 >>>>>>> upstream/18.0
@@ -1648,9 +2129,15 @@ msgid ""
 "Time Off Request. If empty, nobody will be notified"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Alegeți responsabilii de concediu de odihnă care vor fi notificați pentru a "
 "aproba alocarea sau cererea de concediu de odihnă. Dacă este gol, nimeni nu "
 "va fi notificat"
+=======
+"Alegeți responsabilii de concediu care vor fi notificați pentru a aproba "
+"alocarea sau cererea de concediu. Dacă nu este completat, nimeni nu va fi "
+"notificat."
+>>>>>>> upstream/18.0
 =======
 "Alegeți responsabilii de concediu care vor fi notificați pentru a aproba "
 "alocarea sau cererea de concediu. Dacă nu este completat, nimeni nu va fi "
@@ -1663,7 +2150,11 @@ msgstr ""
 msgid "Click on any date or on this button to request a time-off"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Faceți clic pe orice dată sau pe acest buton pentru a solicita un concediu"
+=======
+"Faceți clic pe orice dată sau pe acest buton pentru a solicita concediu"
+>>>>>>> upstream/18.0
 =======
 "Faceți clic pe orice dată sau pe acest buton pentru a solicita concediu"
 >>>>>>> upstream/18.0
@@ -1725,7 +2216,11 @@ msgstr "Confirmat"
 #: code:addons/hr_holidays/report/holidays_summary_report.py:0
 msgid "Confirmed and Approved"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Confirmat și aprobat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confirmat și aprobat"
 >>>>>>> upstream/18.0
@@ -1734,7 +2229,11 @@ msgstr "Confirmat și aprobat"
 #: model_terms:web_tour.tour,rainbow_man_message:hr_holidays.hr_holidays_tour
 msgid "Congrats, we can see that your request has been validated."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Felicitări, se confirmă validarea cererii dumneavoastră."
+=======
+msgstr "Felicitări, cererea dumneavoastră a fost validată."
+>>>>>>> upstream/18.0
 =======
 msgstr "Felicitări, cererea dumneavoastră a fost validată."
 >>>>>>> upstream/18.0
@@ -1743,7 +2242,11 @@ msgstr "Felicitări, cererea dumneavoastră a fost validată."
 #: model:ir.model,name:hr_holidays.model_res_partner
 msgid "Contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contactați"
+=======
+msgstr "Contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contact"
 >>>>>>> upstream/18.0
@@ -1755,8 +2258,13 @@ msgid ""
 "approbation) with a validity period starting this year."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Numărul de alocări pentru acest tip de concediu (aprobat sau în așteptare de"
 " aprobare) cu o perioadă de valabilitate începând din acest an."
+=======
+"Numărul de alocări pentru acest tip de concediu (aprobate sau în așteptare "
+"de aprobare) cu o perioadă de valabilitate care începe în acest an."
+>>>>>>> upstream/18.0
 =======
 "Numărul de alocări pentru acest tip de concediu (aprobate sau în așteptare "
 "de aprobare) cu o perioadă de valabilitate care începe în acest an."
@@ -1774,8 +2282,13 @@ msgid ""
 "approbation) with a start date in the current year."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Numărul de cereri de concediu pentru acest tip de concediu (aprobat sau în "
 "așteptare pentru aprobare) cu o dată de începere în anul curent."
+=======
+"Numărul de cereri de concediu pentru acest tip de concediu (aprobate sau în "
+"așteptare de aprobare) cu o dată de început în anul curent."
+>>>>>>> upstream/18.0
 =======
 "Numărul de cereri de concediu pentru acest tip de concediu (aprobate sau în "
 "așteptare de aprobare) cu o dată de început în anul curent."
@@ -1795,7 +2308,11 @@ msgstr "Cod țară"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__icon_id
 msgid "Cover Image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imagine Copertă"
+=======
+msgstr "Imagine copertă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imagine copertă"
 >>>>>>> upstream/18.0
@@ -1804,7 +2321,11 @@ msgstr "Imagine copertă"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_generate_multi_wizard_view_form
 msgid "Create Allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creează alocări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează alocări"
 >>>>>>> upstream/18.0
@@ -1813,7 +2334,11 @@ msgstr "Creează alocări"
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_approve_department
 msgid "Create a new time off allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o nouă alocare de concediu"
+=======
+msgstr "Creează o nouă alocare de concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o nouă alocare de concediu"
 >>>>>>> upstream/18.0
@@ -1823,7 +2348,11 @@ msgstr "Creează o nouă alocare de concediu"
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_my
 msgid "Create a new time off allocation request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o nouă solicitare de alocare de concediu"
+=======
+msgstr "Creează o nouă cerere de alocare concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o nouă cerere de alocare concediu"
 >>>>>>> upstream/18.0
@@ -1855,7 +2384,11 @@ msgstr "Creat de"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -1867,7 +2400,11 @@ msgstr "Creat la"
 #: model:ir.model.fields,field_description:hr_holidays.field_res_users__current_leave_state
 msgid "Current Time Off Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stare Concediu Curent"
+=======
+msgstr "Stare concediu curentă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare concediu curentă"
 >>>>>>> upstream/18.0
@@ -1876,7 +2413,11 @@ msgstr "Stare concediu curentă"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee__current_leave_id
 msgid "Current Time Off Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul actual de concediu"
+=======
+msgstr "Tip concediu curent"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip concediu curent"
 >>>>>>> upstream/18.0
@@ -1896,7 +2437,11 @@ msgstr "Valabil în prezent"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__request_unit_hours
 msgid "Custom Hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ore Personalizate"
+=======
+msgstr "Ore personalizate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ore personalizate"
 >>>>>>> upstream/18.0
@@ -1921,7 +2466,11 @@ msgstr "Dată"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__request_date_from_period
 msgid "Date Period Start"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dată Începere Perioadă"
+=======
+msgstr "Dată început perioadă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dată început perioadă"
 >>>>>>> upstream/18.0
@@ -1930,7 +2479,11 @@ msgstr "Dată început perioadă"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__lastcall
 msgid "Date of the last accrual allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data ultimei alocări de angajare"
+=======
+msgstr "Data ultimei alocări de acumulare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data ultimei alocări de acumulare"
 >>>>>>> upstream/18.0
@@ -1939,7 +2492,11 @@ msgstr "Data ultimei alocări de acumulare"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__nextcall
 msgid "Date of the next accrual allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data următoarei alocări de angajare"
+=======
+msgstr "Data următoarei alocări de acumulare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data următoarei alocări de acumulare"
 >>>>>>> upstream/18.0
@@ -1983,18 +2540,24 @@ msgid ""
 "Value must be at least 1."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Definiți nivelul maxim de zile negative pe care îl poate atinge acest tip de"
 " concediu. Valoarea trebuie să fie cel puțin 1."
 
 #. module: hr_holidays
 #. odoo-javascript
 =======
+=======
+>>>>>>> upstream/18.0
 "Definește nivelul maxim de zile negative pe care acest tip de concediu îl "
 "poate atinge. Valoarea trebuie să fie cel puțin 1."
 
 #. module: hr_holidays
 #. odoo-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/hr_holidays/static/src/views/view_dialog/form_view_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_kanban
@@ -2031,7 +2594,11 @@ msgstr "Departamente"
 #: model:ir.model,name:hr_holidays.model_hr_departure_wizard
 msgid "Departure Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Asistent Plecare"
+=======
+msgstr "Asistent plecare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asistent plecare"
 >>>>>>> upstream/18.0
@@ -2057,7 +2624,11 @@ msgstr "Descriere cu valabilitate"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
 msgid "Discard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Abandonează"
+=======
+msgstr "Renunță"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renunță"
 >>>>>>> upstream/18.0
@@ -2083,7 +2654,11 @@ msgstr "Nume afișat"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
 msgid "Display Option"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Opțiuni afișare"
+=======
+msgstr "Opțiune afișare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opțiune afișare"
 >>>>>>> upstream/18.0
@@ -2092,7 +2667,11 @@ msgstr "Opțiune afișare"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__create_calendar_meeting
 msgid "Display Time Off in Calendar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișare concediu în calendar"
+=======
+msgstr "Afișează concediul în calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează concediul în calendar"
 >>>>>>> upstream/18.0
@@ -2105,9 +2684,15 @@ msgid ""
 "your allocation. Please review this leave if you need it to be changed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Din cauza unei modificări a concediilor globale, %s zi(e) suplimentară(e) au"
 " fost luate din alocarea dvs. Vă rugăm să revizuiți acest concediu dacă "
 "aveți nevoie să fie modificat."
+=======
+"Din cauza unei modificări a concediilor globale, %s zi(le) suplimentare au "
+"fost luate din alocarea dumneavoastră. Vă rugăm să revizuiți acest concediu "
+"dacă aveți nevoie să fie modificat."
+>>>>>>> upstream/18.0
 =======
 "Din cauza unei modificări a concediilor globale, %s zi(le) suplimentare au "
 "fost luate din alocarea dumneavoastră. Vă rugăm să revizuiți acest concediu "
@@ -2123,9 +2708,15 @@ msgid ""
 "this leave."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ca urmare a unei modificări a concediilor de odihnă globale, acest concediu "
 "nu mai are cantitatea necesară de alocare disponibilă și a fost setat la "
 "\"refuzat\". Vă rugăm să revizuiți acest concediu."
+=======
+"Din cauza unei modificări a concediilor globale, acest concediu nu mai are "
+"cantitatea necesară de alocare disponibilă și a fost setat ca refuzat. Vă "
+"rugăm să revizuiți acest concediu."
+>>>>>>> upstream/18.0
 =======
 "Din cauza unei modificări a concediilor globale, acest concediu nu mai are "
 "cantitatea necesară de alocare disponibilă și a fost setat ca refuzat. Vă "
@@ -2139,11 +2730,15 @@ msgid ""
 "Due to a change in global time offs, you have been granted %s day(s) back."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ca urmare a unei modificări a concediilor de odihnă globale, vi s-au "
 "restituit %s zi(e)."
 =======
 "Din cauza unei modificări a concediilor globale, vi s-au restituit %s "
 "zi(le)."
+>>>>>>> upstream/18.0
+=======
+"Din cauza unei modificări a concediilor globale, vi s-au restituit %s zi(le)."
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -2163,7 +2758,11 @@ msgstr "Durată (Zile)"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_graph
 msgid "Duration (Hours)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Durata (Ore)"
+=======
+msgstr "Durată (Ore)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Durată (Ore)"
 >>>>>>> upstream/18.0
@@ -2182,9 +2781,13 @@ msgstr "Durată (ore)"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_allocation__number_of_days
 msgid "Duration in days. Reference field to use when necessary."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Durata în zile. Câmp de referință pe care trebuie să îl folosești atunci "
 "când este necesar."
+=======
+msgstr "Durata în zile. Câmp de referință de utilizat când este necesar."
+>>>>>>> upstream/18.0
 =======
 msgstr "Durata în zile. Câmp de referință de utilizat când este necesar."
 >>>>>>> upstream/18.0
@@ -2193,7 +2796,11 @@ msgstr "Durata în zile. Câmp de referință de utilizat când este necesar."
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_kanban
 msgid "Edit Allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Editare Alocare"
+=======
+msgstr "Editează alocarea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Editează alocarea"
 >>>>>>> upstream/18.0
@@ -2202,7 +2809,11 @@ msgstr "Editează alocarea"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_kanban
 msgid "Edit Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Editare Concediu"
+=======
+msgstr "Editează concediul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Editează concediul"
 >>>>>>> upstream/18.0
@@ -2230,7 +2841,11 @@ msgstr "Angajat activ"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__employee_company_id
 msgid "Employee Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Angajat Companie"
+=======
+msgstr "Compania angajatului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Compania angajatului"
 >>>>>>> upstream/18.0
@@ -2239,7 +2854,11 @@ msgstr "Compania angajatului"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__employee_requests
 msgid "Employee Requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cererile angajaților"
+=======
+msgstr "Cereri angajați"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cereri angajați"
 >>>>>>> upstream/18.0
@@ -2249,7 +2868,11 @@ msgstr "Cereri angajați"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_generate_multi_wizard__category_id
 msgid "Employee Tag"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Eticheta Angajat"
+=======
+msgstr "Etichetă angajat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etichetă angajat"
 >>>>>>> upstream/18.0
@@ -2258,7 +2881,11 @@ msgstr "Etichetă angajat"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Employee accrue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Angajați acumulați"
+=======
+msgstr "Angajat acumulează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Angajat acumulează"
 >>>>>>> upstream/18.0
@@ -2268,7 +2895,11 @@ msgstr "Angajat acumulează"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_kanban_approve_department
 msgid "Employee's image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imaginea angajatului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imaginea angajatului"
 >>>>>>> upstream/18.0
@@ -2277,7 +2908,11 @@ msgstr "Imaginea angajatului"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_summary_employee__emp
 msgid "Employee(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Salariat(i)"
+=======
+msgstr "Angajat(ți)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Angajat(ți)"
 >>>>>>> upstream/18.0
@@ -2309,7 +2944,11 @@ msgstr "Dată sfârșit"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_type__employee_requests__yes
 msgid "Extra Days Requests Allowed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Se admit cereri de zile suplimentare"
+=======
+msgstr "Cereri de zile suplimentare permise"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cereri de zile suplimentare permise"
 >>>>>>> upstream/18.0
@@ -2322,11 +2961,18 @@ msgid ""
 "        Not Allowed: User cannot request an allocation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Solicitările de zile suplimentare sunt permise: Utilizatorul poate solicita o alocare pentru sine.\n"
 "\n"
 "        Nepermisă: Utilizatorul nu poate solicita o alocare."
 =======
 "Cererile pentru zile suplimentare sunt permise: Utilizatorul poate solicita o alocare pentru sine.\n"
+"\n"
+"        Nepermis: Utilizatorul nu poate solicita o alocare."
+>>>>>>> upstream/18.0
+=======
+"Cererile pentru zile suplimentare sunt permise: Utilizatorul poate solicita "
+"o alocare pentru sine.\n"
 "\n"
 "        Nepermis: Utilizatorul nu poate solicita o alocare."
 >>>>>>> upstream/18.0
@@ -2345,8 +2991,13 @@ msgid ""
 "the type_request_unit"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Câmpul care permite vizualizarea duratei de alocare în zile sau ore în "
 "funcție de type_request_unit"
+=======
+"Câmp care permite vizualizarea duratei alocării în zile sau ore, în funcție "
+"de type_request_unit"
+>>>>>>> upstream/18.0
 =======
 "Câmp care permite vizualizarea duratei alocării în zile sau ore, în funcție "
 "de type_request_unit"
@@ -2359,7 +3010,11 @@ msgid ""
 "on the leave_type_request_unit"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Câmp care vă permite să vedeți durata cererii de concediu în zile sau ore, "
+=======
+"Câmp care permite vizualizarea duratei cererii de concediu în zile sau ore, "
+>>>>>>> upstream/18.0
 =======
 "Câmp care permite vizualizarea duratei cererii de concediu în zile sau ore, "
 >>>>>>> upstream/18.0
@@ -2415,7 +3070,11 @@ msgstr "Urmăritori (Parteneri)"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_allocation__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictogramă Font awesome, de ex. fa-sarcini"
+=======
+msgstr "Pictogramă Font awesome, ex. fa-tasks"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă Font awesome, ex. fa-tasks"
 >>>>>>> upstream/18.0
@@ -2425,6 +3084,7 @@ msgstr "Pictogramă Font awesome, ex. fa-tasks"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_allocation__number_of_hours_display
 msgid ""
 "For an Accrual Allocation, this field contains the theorical amount of time "
+<<<<<<< HEAD
 "given to the employee, due to a previous start date, on the first run of the"
 " plan. This can be manually edited."
 msgstr ""
@@ -2433,6 +3093,14 @@ msgstr ""
 "timp acordată angajatului, datorită unei date de începere anterioare, la "
 "prima execuție a planului. Acesta poate fi editat manual."
 =======
+"Pentru o alocare de acumulare, acest câmp conține cantitatea teoretică de "
+"timp acordată angajatului, datorită unei date de început anterioare, la "
+"prima rulare a planului. Aceasta poate fi editată manual."
+>>>>>>> upstream/18.0
+=======
+"given to the employee, due to a previous start date, on the first run of the "
+"plan. This can be manually edited."
+msgstr ""
 "Pentru o alocare de acumulare, acest câmp conține cantitatea teoretică de "
 "timp acordată angajatului, datorită unei date de început anterioare, la "
 "prima rulare a planului. Aceasta poate fi editată manual."
@@ -2461,7 +3129,11 @@ msgstr "De la"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee_public__leave_date_from
 msgid "From Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "De la data de"
+=======
+msgstr "De la data"
+>>>>>>> upstream/18.0
 =======
 msgstr "De la data"
 >>>>>>> upstream/18.0
@@ -2476,7 +3148,11 @@ msgstr "Activități viitoare"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
 msgid "Generate Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generează concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generează concediu"
 >>>>>>> upstream/18.0
@@ -2486,7 +3162,11 @@ msgstr "Generează concediu"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_generate_multi_wizard_view_form
 msgid "Generate time off allocations for multiple employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generează alocări de concediu pentru mai mulți angajați"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generează alocări de concediu pentru mai mulți angajați"
 >>>>>>> upstream/18.0
@@ -2496,7 +3176,11 @@ msgstr "Generează alocări de concediu pentru mai mulți angajați"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
 msgid "Generate time off for multiple employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generează concediu pentru mai mulți angajați"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generează concediu pentru mai mulți angajați"
 >>>>>>> upstream/18.0
@@ -2506,7 +3190,11 @@ msgstr "Generează concediu pentru mai mulți angajați"
 #: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
 msgid "Generated Allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alocări generate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocări generate"
 >>>>>>> upstream/18.0
@@ -2516,7 +3204,11 @@ msgstr "Alocări generate"
 #: code:addons/hr_holidays/wizard/hr_leave_generate_multi_wizard.py:0
 msgid "Generated Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Concediu generat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu generat"
 >>>>>>> upstream/18.0
@@ -2526,7 +3218,11 @@ msgstr "Concediu generat"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Grant Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Timp de acordare"
+=======
+msgstr "Acordă timp"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acordă timp"
 >>>>>>> upstream/18.0
@@ -2554,7 +3250,11 @@ msgstr "Aprobare HR"
 #: model:ir.model,name:hr_holidays.model_hr_holidays_summary_employee
 msgid "HR Time Off Summary Report By Employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raport HR sumar privind concediile în funcție de angajat"
+=======
+msgstr "Raport sumar HR concedii după angajat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport sumar HR concedii după angajat"
 >>>>>>> upstream/18.0
@@ -2570,7 +3270,11 @@ msgstr "Jumătate de zi"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_report__has_department_manager_access
 msgid "Has Department Manager Access"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Are acces la managerul departamentului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Are acces la managerul departamentului"
 >>>>>>> upstream/18.0
@@ -2579,7 +3283,11 @@ msgstr "Are acces la managerul departamentului"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__has_mandatory_day
 msgid "Has Mandatory Day"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Are zi de lucru obligatorie"
+=======
+msgstr "Are zi obligatorie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Are zi obligatorie"
 >>>>>>> upstream/18.0
@@ -2594,7 +3302,11 @@ msgstr "Are mesaj"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__has_valid_allocation
 msgid "Has Valid Allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Are alocare valabilă"
+=======
+msgstr "Are alocare validă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Are alocare validă"
 >>>>>>> upstream/18.0
@@ -2609,7 +3321,11 @@ msgstr "Hatched"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_employee_type_report__holiday_status
 msgid "Holiday Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stare Concediu"
+=======
+msgstr "Stare concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare concediu"
 >>>>>>> upstream/18.0
@@ -2618,7 +3334,11 @@ msgstr "Stare concediu"
 #: model:ir.model,name:hr_holidays.model_report_hr_holidays_report_holidayssummary
 msgid "Holidays Summary Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raport Sumar Sărbători"
+=======
+msgstr "Raport sumar concedii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport sumar concedii"
 >>>>>>> upstream/18.0
@@ -2632,7 +3352,11 @@ msgstr "Ora de la"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__request_hour_to
 msgid "Hour to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ora la"
+=======
+msgstr "Ora până la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ora până la"
 >>>>>>> upstream/18.0
@@ -2688,7 +3412,11 @@ msgstr "Pictogramă"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_allocation__activity_exception_icon
 msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictograma care indică o activitate de excepție."
+=======
+msgstr "Pictogramă care indică o activitate de excepție."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă care indică o activitate de excepție."
 >>>>>>> upstream/18.0
@@ -2706,7 +3434,11 @@ msgstr "Inactiv"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_allocation__message_needaction
 msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifat, mesaje noi necesită atenția dumneavoastră."
+=======
+msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
 >>>>>>> upstream/18.0
@@ -2718,7 +3450,11 @@ msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_allocation__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifată, există mesaje cu eroare de livrare."
+=======
+msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
 >>>>>>> upstream/18.0
@@ -2730,8 +3466,13 @@ msgid ""
 "days, not calendar days."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă este bifată, perioada de acumulare va fi calculată în funcție de zilele"
 " lucrătoare, nu de zilele calendaristice."
+=======
+"Dacă este bifat, perioada de acumulare va fi calculată în funcție de zilele "
+"lucrătoare, nu de zilele calendaristice."
+>>>>>>> upstream/18.0
 =======
 "Dacă este bifat, perioada de acumulare va fi calculată în funcție de zilele "
 "lucrătoare, nu de zilele calendaristice."
@@ -2744,7 +3485,11 @@ msgid ""
 "in negative."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă este bifată, solicitarea utilizatorilor poate depăși numărul de zile "
+=======
+"Dacă este bifat, utilizatorii pot solicita mai multe zile decât cele "
+>>>>>>> upstream/18.0
 =======
 "Dacă este bifat, utilizatorii pot solicita mai multe zile decât cele "
 >>>>>>> upstream/18.0
@@ -2767,8 +3512,13 @@ msgid ""
 "type without removing it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă câmpul activ este setat pe fals, acesta vă va permite să ascundeți "
 "tipul de timp fără să îl eliminați."
+=======
+"Dacă câmpul activ este setat pe fals, vă permite să ascundeți tipul de "
+"concediu fără să îl ștergeți."
+>>>>>>> upstream/18.0
 =======
 "Dacă câmpul activ este setat pe fals, vă permite să ascundeți tipul de "
 "concediu fără să îl ștergeți."
@@ -2780,7 +3530,11 @@ msgid ""
 "If you want to change the number of days you should use the 'period' mode"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă doriți să modificați numărul de zile, ar trebui să utilizați modul "
+=======
+"Dacă doriți să modificați numărul de zile, ar trebui să folosiți modul "
+>>>>>>> upstream/18.0
 =======
 "Dacă doriți să modificați numărul de zile, ar trebui să folosiți modul "
 >>>>>>> upstream/18.0
@@ -2796,7 +3550,11 @@ msgstr "Imediat"
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Incorrect state for new allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Situatie incorecta pentru noua alocare"
+=======
+msgstr "Stare incorectă pentru noua alocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare incorectă pentru noua alocare"
 >>>>>>> upstream/18.0
@@ -2811,7 +3569,11 @@ msgstr "Este urmăritor"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__is_name_custom
 msgid "Is Name Custom"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este nume personalizat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este nume personalizat"
 >>>>>>> upstream/18.0
@@ -2825,7 +3587,11 @@ msgstr "Este responsabil"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__unpaid
 msgid "Is Unpaid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "E neplătit"
+=======
+msgstr "Este neplătit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este neplătit"
 >>>>>>> upstream/18.0
@@ -2841,7 +3607,11 @@ msgstr "Ianuarie"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_report_calendar__job_id
 msgid "Job"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Loc de munca"
+=======
+msgstr "Loc de muncă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Loc de muncă"
 >>>>>>> upstream/18.0
@@ -2889,7 +3659,11 @@ msgstr "Tip de concediu"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de către"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare de către"
 >>>>>>> upstream/18.0
@@ -2907,7 +3681,11 @@ msgstr "Ultima actualizare de către"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -2922,7 +3700,11 @@ msgstr "Activități întârziate"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_report_calendar__leave_id
 msgid "Leave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Părăsește"
+=======
+msgstr "Concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu"
 >>>>>>> upstream/18.0
@@ -2931,7 +3713,11 @@ msgstr "Concediu"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__leave_type_increases_duration
 msgid "Leave Type Increases Duration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Crește durata concediului"
+=======
+msgstr "Tipul de concediu crește durata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipul de concediu crește durata"
 >>>>>>> upstream/18.0
@@ -2940,7 +3726,11 @@ msgstr "Tipul de concediu crește durata"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_employee_type_report__holiday_status__left
 msgid "Left"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stânga"
+=======
+msgstr "Plecat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plecat"
 >>>>>>> upstream/18.0
@@ -2956,7 +3746,11 @@ msgstr "Legendă"
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Let's approve it"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Să aprobăm"
+=======
+msgstr "Să-l aprobăm"
+>>>>>>> upstream/18.0
 =======
 msgstr "Să-l aprobăm"
 >>>>>>> upstream/18.0
@@ -2966,7 +3760,11 @@ msgstr "Să-l aprobăm"
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Let's discover the Time Off application"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Să descoperim aplicația Concedii"
+=======
+msgstr "Să descoperim aplicația de concedii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Să descoperim aplicația de concedii"
 >>>>>>> upstream/18.0
@@ -2982,7 +3780,11 @@ msgstr "Să-l validăm"
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Let's try to create a Sick Time Off, select it in the list"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Să încercăm să creăm un concediu medical, să îl selectăm din listă"
+=======
+msgstr "Să încercăm să creăm un concediu medical, selectați-l din listă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Să încercăm să creăm un concediu medical, selectați-l din listă"
 >>>>>>> upstream/18.0
@@ -2991,7 +3793,11 @@ msgstr "Să încercăm să creăm un concediu medical, selectați-l din listă"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__level_count
 msgid "Levels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nivele"
+=======
+msgstr "Niveluri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niveluri"
 >>>>>>> upstream/18.0
@@ -3000,7 +3806,11 @@ msgstr "Niveluri"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__maximum_leave
 msgid "Limit to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Limita la"
+=======
+msgstr "Limitează la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Limitează la"
 >>>>>>> upstream/18.0
@@ -3026,7 +3836,11 @@ msgstr "Manager"
 #: model:ir.actions.server,name:hr_holidays.action_manager_approval
 msgid "Manager Approval"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aprobare a Managerului"
+=======
+msgstr "Aprobare Manager"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobare Manager"
 >>>>>>> upstream/18.0
@@ -3036,7 +3850,11 @@ msgstr "Aprobare Manager"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_mandatory_day_view_search
 msgid "Mandatory Day"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zi de lucru obligatorie"
+=======
+msgstr "Zi obligatorie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zi obligatorie"
 >>>>>>> upstream/18.0
@@ -3048,7 +3866,11 @@ msgstr "Zi obligatorie"
 #: model:ir.ui.menu,name:hr_holidays.hr_holidays_mandatory_day_menu_configuration
 msgid "Mandatory Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zile de lucru obligatorii"
+=======
+msgstr "Zile obligatorii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zile obligatorii"
 >>>>>>> upstream/18.0
@@ -3064,7 +3886,11 @@ msgstr "Martie"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form_manager
 msgid "Mark as ready to approve"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marchează ca gata de aprobare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marchează ca gata de aprobare"
 >>>>>>> upstream/18.0
@@ -3073,7 +3899,11 @@ msgstr "Marchează ca gata de aprobare"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__max_leaves
 msgid "Max Leaves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Maxim Libere"
+=======
+msgstr "Maxim concedii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maxim concedii"
 >>>>>>> upstream/18.0
@@ -3082,7 +3912,11 @@ msgstr "Maxim concedii"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_holiday_status_view_kanban
 msgid "Max Time Off:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Timpul Maxim de Concediu:"
+=======
+msgstr "Concediu maxim:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu maxim:"
 >>>>>>> upstream/18.0
@@ -3091,7 +3925,11 @@ msgstr "Concediu maxim:"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__max_leaves
 msgid "Maximum Allowed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Maximul Permis"
+=======
+msgstr "Maxim permis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maxim permis"
 >>>>>>> upstream/18.0
@@ -3100,7 +3938,11 @@ msgstr "Maxim permis"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__max_allowed_negative
 msgid "Maximum Excess Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valoare maximă excedent"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare maximă excedent"
 >>>>>>> upstream/18.0
@@ -3108,6 +3950,7 @@ msgstr "Valoare maximă excedent"
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_type__virtual_remaining_leaves
 msgid ""
+<<<<<<< HEAD
 "Maximum Time Off Allowed - Time Off Already Taken - Time Off Waiting "
 "Approval"
 msgstr ""
@@ -3117,12 +3960,21 @@ msgstr ""
 =======
 "Concediu maxim permis - Concediu deja luat - Concediu în așteptare aprobare"
 >>>>>>> upstream/18.0
+=======
+"Maximum Time Off Allowed - Time Off Already Taken - Time Off Waiting Approval"
+msgstr ""
+"Concediu maxim permis - Concediu deja luat - Concediu în așteptare aprobare"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__postpone_max_days
 msgid "Maximum amount of accruals to transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoarea maximă a acumulărilor de transferat"
+=======
+msgstr "Valoare maximă acumulări de transferat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare maximă acumulări de transferat"
 >>>>>>> upstream/18.0
@@ -3139,7 +3991,11 @@ msgstr "Mai"
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_holiday_allocation_id
 msgid "Meet the time off dashboard."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vizualizare timp liber de pe tabloul de bord."
+=======
+msgstr "Vizualizează tabloul de bord pentru concedii."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vizualizează tabloul de bord pentru concedii."
 >>>>>>> upstream/18.0
@@ -3154,7 +4010,11 @@ msgstr "Întâlnire"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__message_has_error
 msgid "Message Delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Eroare de livrare a mesajului"
+=======
+msgstr "Eroare livrare mesaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eroare livrare mesaj"
 >>>>>>> upstream/18.0
@@ -3163,7 +4023,11 @@ msgstr "Eroare livrare mesaj"
 #: model:ir.model,name:hr_holidays.model_mail_message_subtype
 msgid "Message subtypes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Subtipuri de Mesaje"
+=======
+msgstr "Subtipuri mesaje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subtipuri mesaje"
 >>>>>>> upstream/18.0
@@ -3178,7 +4042,11 @@ msgstr "Mesaje"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__level_ids
 msgid "Milestone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapa de referință"
+=======
+msgstr "Etapă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă"
 >>>>>>> upstream/18.0
@@ -3187,7 +4055,11 @@ msgstr "Etapă"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__transition_mode
 msgid "Milestone Transition"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapa tranzitorie"
+=======
+msgstr "Tranziție etapă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tranziție etapă"
 >>>>>>> upstream/18.0
@@ -3196,7 +4068,11 @@ msgstr "Tranziție etapă"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__cap_accrued_time_yearly
 msgid "Milestone cap"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plafon etapă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plafon etapă"
 >>>>>>> upstream/18.0
@@ -3216,7 +4092,11 @@ msgstr "Luni"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.report_holidayssummary
 msgid "Month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Luna"
+=======
+msgstr "Lună"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lună"
 >>>>>>> upstream/18.0
@@ -3244,7 +4124,11 @@ msgstr "Dimineața"
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_leave_generate_multi_wizard
 msgid "Multiple Requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cereri multiple"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cereri multiple"
 >>>>>>> upstream/18.0
@@ -3254,7 +4138,11 @@ msgstr "Cereri multiple"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__my_activity_date_deadline
 msgid "My Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită a activității mele"
+=======
+msgstr "Termen limită activitate proprie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită activitate proprie"
 >>>>>>> upstream/18.0
@@ -3297,7 +4185,11 @@ msgstr "Timpul meu"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
 msgid "My Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Concediul Meu"
+=======
+msgstr "Concediul meu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediul meu"
 >>>>>>> upstream/18.0
@@ -3314,7 +4206,11 @@ msgstr "Nume"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
 msgid "Negative Cap"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Limită salarială negativă"
+=======
+msgstr "Plafon negativ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plafon negativ"
 >>>>>>> upstream/18.0
@@ -3330,7 +4226,11 @@ msgstr "Nou"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "New %(leave_type)s Request created by %(user)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cerere nouă %(leave_type)s creată de %(user)s"
+=======
+msgstr "Cerere nouă de %(leave_type)s creată de %(user)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cerere nouă de %(leave_type)s creată de %(user)s"
 >>>>>>> upstream/18.0
@@ -3346,7 +4246,11 @@ msgstr "Alocare nouă"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "New Allocation Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cerere Alocare Nouă"
+=======
+msgstr "Cerere nouă de alocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cerere nouă de alocare"
 >>>>>>> upstream/18.0
@@ -3355,6 +4259,7 @@ msgstr "Cerere nouă de alocare"
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
+<<<<<<< HEAD
 "New Allocation Request created by %(user)s: %(count)s Days of "
 "%(allocation_type)s"
 <<<<<<< HEAD
@@ -3364,12 +4269,23 @@ msgstr ""
 "Cerere nouă de alocare creată de %(user)s: %(count)s zile de "
 "%(allocation_type)s"
 >>>>>>> upstream/18.0
+=======
+"New Allocation Request created by %(user)s: %(count)s Days of %"
+"(allocation_type)s"
+msgstr ""
+"Cerere nouă de alocare creată de %(user)s: %(count)s zile de %"
+"(allocation_type)s"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
 msgid "New Milestone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "O etapă de referință nouă"
+=======
+msgstr "Etapă nouă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă nouă"
 >>>>>>> upstream/18.0
@@ -3379,7 +4295,11 @@ msgstr "Etapă nouă"
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_controller.js:0
 msgid "New Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Concediu Nou"
+=======
+msgstr "Concediu nou"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu nou"
 >>>>>>> upstream/18.0
@@ -3395,7 +4315,11 @@ msgstr "Următoarea activitate din calendar"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__activity_date_deadline
 msgid "Next Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită pentru următoarea activitate"
+=======
+msgstr "Termen limită pentru următoarea activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită pentru următoarea activitate"
 >>>>>>> upstream/18.0
@@ -3405,7 +4329,11 @@ msgstr "Termen limită pentru următoarea activitate"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__activity_summary
 msgid "Next Activity Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sumarul următoarei activități"
+=======
+msgstr "Sumar următoarei activități"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumar următoarei activități"
 >>>>>>> upstream/18.0
@@ -3415,7 +4343,11 @@ msgstr "Sumar următoarei activități"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__activity_type_id
 msgid "Next Activity Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Următorul tip de activitate"
+=======
+msgstr "Tipul următoarei activități"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipul următoarei activități"
 >>>>>>> upstream/18.0
@@ -3427,7 +4359,11 @@ msgstr "Tipul următoarei activități"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form_manager
 msgid "No Limit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fără Limită"
+=======
+msgstr "Fără limită"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fără limită"
 >>>>>>> upstream/18.0
@@ -3437,7 +4373,11 @@ msgstr "Fără limită"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_type__leave_validation_type__no_validation
 msgid "No Validation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fără Validare"
+=======
+msgstr "Fără validare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fără validare"
 >>>>>>> upstream/18.0
@@ -3448,7 +4388,11 @@ msgstr "Fără validare"
 #: model_terms:ir.actions.act_window,help:hr_holidays.mail_activity_type_action_config_hr_holidays
 msgid "No data to display"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu sunt date de afișat"
+=======
+msgstr "Nu există date de afișat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există date de afișat"
 >>>>>>> upstream/18.0
@@ -3482,6 +4426,11 @@ msgid ""
 "simply not be displayed on the leave dashboard."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alocările care nu sunt vizibile pot fi selectate la luarea unui concediu, "
+"dar nu vor fi afișate pe tabloul de bord al concediilor."
+>>>>>>> upstream/18.0
 =======
 "Alocările care nu sunt vizibile pot fi selectate la luarea unui concediu, "
 "dar nu vor fi afișate pe tabloul de bord al concediilor."
@@ -3492,7 +4441,11 @@ msgstr ""
 #: code:addons/hr_holidays/static/src/leave_stats/leave_stats.xml:0
 msgid "None"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fără"
+=======
+msgstr "Niciuna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niciuna"
 >>>>>>> upstream/18.0
@@ -3506,7 +4459,11 @@ msgstr "Niciuna. Timpul acumulat se resetează la 0"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_type__employee_requests__no
 msgid "Not Allowed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu este permis"
+=======
+msgstr "Nepermis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nepermis"
 >>>>>>> upstream/18.0
@@ -3515,7 +4472,11 @@ msgstr "Nepermis"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__responsible_ids
 msgid "Notified Time Off Officer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Responsabil notificat"
+=======
+msgstr "Responsabil concediu notificat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Responsabil concediu notificat"
 >>>>>>> upstream/18.0
@@ -3548,7 +4509,11 @@ msgstr "Număr de zile"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_tree
 msgid "Number of Hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numar de Ore"
+=======
+msgstr "Număr de ore"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de ore"
 >>>>>>> upstream/18.0
@@ -3559,7 +4524,11 @@ msgstr "Număr de ore"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee_public__leaves_count
 msgid "Number of Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Număr Concedii"
+=======
+msgstr "Număr de concedii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de concedii"
 >>>>>>> upstream/18.0
@@ -3568,7 +4537,11 @@ msgstr "Număr de concedii"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__number_of_days
 msgid "Number of days of the time off request. Used in the calculation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de zile din cererea de concediu. Folosit în calcul."
+=======
+msgstr "Numărul de zile din cererea de concediu. Folosit la calcul."
+>>>>>>> upstream/18.0
 =======
 msgstr "Numărul de zile din cererea de concediu. Folosit la calcul."
 >>>>>>> upstream/18.0
@@ -3583,7 +4556,11 @@ msgstr "Număr de erori"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__number_of_hours
 msgid "Number of hours of the time off request. Used in the calculation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de ore din cererea de concediu. Utilizat în calcul."
+=======
+msgstr "Numărul de ore din cererea de concediu. Folosit la calcul."
+>>>>>>> upstream/18.0
 =======
 msgstr "Numărul de ore din cererea de concediu. Folosit la calcul."
 >>>>>>> upstream/18.0
@@ -3611,7 +4588,11 @@ msgstr "Octombrie"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_calendar_view_search
 msgid "Off Today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Liber azi"
+=======
+msgstr "Liber astăzi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liber astăzi"
 >>>>>>> upstream/18.0
@@ -3620,7 +4601,11 @@ msgstr "Liber astăzi"
 #: model:res.groups,name:hr_holidays.group_hr_holidays_user
 msgid "Officer: Manage all requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Responsabil: Gestionați toate cererile"
+=======
+msgstr "Responsabil: Gestionează toate cererile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Responsabil: Gestionează toate cererile"
 >>>>>>> upstream/18.0
@@ -3631,7 +4616,11 @@ msgstr "Responsabil: Gestionează toate cererile"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_employee_view_search
 msgid "On Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "În timpul liber"
+=======
+msgstr "În concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "În concediu"
 >>>>>>> upstream/18.0
@@ -3651,7 +4640,11 @@ msgstr "În concediu"
 #: code:addons/hr_holidays/static/src/thread_icon.patch.xml:0
 msgid "Online"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Activ"
+=======
+msgstr "Online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Online"
 >>>>>>> upstream/18.0
@@ -3666,11 +4659,19 @@ msgstr "Doar"
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
+<<<<<<< HEAD
 "Only %s's Time Off Approver, a time off Officer/Responsible or Administrator"
 " can approve or refuse allocation requests."
 msgstr ""
 <<<<<<< HEAD
 =======
+"Doar aprobatorul de concediu al lui %s, un responsabil de concediu sau un "
+"administrator poate aproba sau refuza cererile de alocare."
+>>>>>>> upstream/18.0
+=======
+"Only %s's Time Off Approver, a time off Officer/Responsible or Administrator "
+"can approve or refuse allocation requests."
+msgstr ""
 "Doar aprobatorul de concediu al lui %s, un responsabil de concediu sau un "
 "administrator poate aproba sau refuza cererile de alocare."
 >>>>>>> upstream/18.0
@@ -3692,7 +4693,11 @@ msgstr "Doar un manager de concediu poate reseta un concediu început."
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Only a Time Off Manager can reset other people leaves."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Doar un manager de concediu poate reseta concediile altor oameni."
+=======
+msgstr "Doar un manager de concediu poate reseta concediile altor persoane."
+>>>>>>> upstream/18.0
 =======
 msgstr "Doar un manager de concediu poate reseta concediile altor persoane."
 >>>>>>> upstream/18.0
@@ -3700,6 +4705,7 @@ msgstr "Doar un manager de concediu poate reseta concediile altor persoane."
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
+<<<<<<< HEAD
 msgid ""
 "Only a Time Off Officer or Manager can approve/refuse its own requests."
 msgstr ""
@@ -3710,13 +4716,23 @@ msgstr ""
 "Numai un responsabil de concediu sau un manager poate aproba/refuza "
 "propriile sale cereri."
 >>>>>>> upstream/18.0
+=======
+msgid "Only a Time Off Officer or Manager can approve/refuse its own requests."
+msgstr ""
+"Numai un responsabil de concediu sau un manager poate aproba/refuza "
+"propriile sale cereri."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Only a manager can modify a canceled leave."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doar un manager poate modifica un concediu anulat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Doar un manager poate modifica un concediu anulat."
 >>>>>>> upstream/18.0
@@ -3725,10 +4741,14 @@ msgstr "Doar un manager poate modifica un concediu anulat."
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Only a time off Administrator can approve their own requests."
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 =======
 "Numai un administrator de concediu poate aproba propriile sale cereri."
+>>>>>>> upstream/18.0
+=======
+msgstr "Numai un administrator de concediu poate aproba propriile sale cereri."
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -3739,6 +4759,11 @@ msgid ""
 "allocation requests."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Numai un responsabil de concediu sau un administrator poate aproba sau "
+"refuza cererile de alocare."
+>>>>>>> upstream/18.0
 =======
 "Numai un responsabil de concediu sau un administrator poate aproba sau "
 "refuza cererile de alocare."
@@ -3749,7 +4774,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_employee_base.py:0
 msgid "Operation not supported"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Operațiunea nu este acceptată"
+=======
+msgstr "Operațiunea nu este suportată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operațiunea nu este suportată"
 >>>>>>> upstream/18.0
@@ -3772,7 +4801,11 @@ msgstr "În afara biroului"
 #: model:ir.ui.menu,name:hr_holidays.menu_hr_holidays_dashboard
 msgid "Overview"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imagine de ansamblu"
+=======
+msgstr "Prezentare generală"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prezentare generală"
 >>>>>>> upstream/18.0
@@ -3781,7 +4814,11 @@ msgstr "Prezentare generală"
 #: model:hr.leave.type,name:hr_holidays.holiday_status_cl
 msgid "Paid Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Concediu Plătit"
+=======
+msgstr "Concediu plătit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu plătit"
 >>>>>>> upstream/18.0
@@ -3796,7 +4833,11 @@ msgstr "Concedii pentru creșterea copilului"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Pending Requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cereri în așteptare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cereri în așteptare"
 >>>>>>> upstream/18.0
@@ -3811,7 +4852,11 @@ msgstr "Perioadă"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_employee_type_report__holiday_status__planned
 msgid "Planned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Planificată"
+=======
+msgstr "Planificat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planificat"
 >>>>>>> upstream/18.0
@@ -3821,7 +4866,11 @@ msgstr "Planificat"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Planned:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Planificate:"
+=======
+msgstr "Planificat:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planificat:"
 >>>>>>> upstream/18.0
@@ -3832,7 +4881,11 @@ msgstr "Planificat:"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_employee_public__hr_icon_display__presence_holiday_present
 msgid "Present but on leave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Prezent dar plecat"
+=======
+msgstr "Prezent, dar în concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prezent, dar în concediu"
 >>>>>>> upstream/18.0
@@ -3841,7 +4894,11 @@ msgstr "Prezent, dar în concediu"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_summary_employee
 msgid "Print"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipăriți"
+=======
+msgstr "Tipărește"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipărește"
 >>>>>>> upstream/18.0
@@ -3850,7 +4907,11 @@ msgstr "Tipărește"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_holidays_cancel_leave_form
 msgid "Provide a reason to cancel an approved time off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Furnizați un motiv pentru anularea unui concediu aprobat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Furnizați un motiv pentru anularea unui concediu aprobat"
 >>>>>>> upstream/18.0
@@ -3864,7 +4925,11 @@ msgstr "Public"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__include_public_holidays_in_duration
 msgid "Public Holiday Included"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sărbători legale incluse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sărbători legale incluse"
 >>>>>>> upstream/18.0
@@ -3884,9 +4949,13 @@ msgid ""
 "leaves"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Sărbătorile legale trebuie să fie incluse în durata concediului la "
 "solicitare"
+>>>>>>> upstream/18.0
+=======
+"Sărbătorile legale trebuie să fie incluse în durata concediului la solicitare"
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -3899,7 +4968,11 @@ msgstr "Rată"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__rating_ids
 msgid "Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ratings"
+=======
+msgstr "Evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluări"
 >>>>>>> upstream/18.0
@@ -3931,7 +5004,11 @@ msgstr "Motive"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_tree
 msgid "Refuse"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Refuzați"
+=======
+msgstr "Refuză"
+>>>>>>> upstream/18.0
 =======
 msgstr "Refuză"
 >>>>>>> upstream/18.0
@@ -3954,7 +5031,11 @@ msgstr "Refuză"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Refused"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Respins"
+=======
+msgstr "Refuzat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Refuzat"
 >>>>>>> upstream/18.0
@@ -3970,7 +5051,11 @@ msgstr "Concediu refuzat"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_allocation_generate_multi_wizard__allocation_type__regular
 msgid "Regular Allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocare Regulată"
+=======
+msgstr "Alocare regulată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocare regulată"
 >>>>>>> upstream/18.0
@@ -3984,7 +5069,11 @@ msgstr "Zile rămase"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_tree
 msgid "Remaining Hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ore ramase"
+=======
+msgstr "Ore rămase"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ore rămase"
 >>>>>>> upstream/18.0
@@ -4004,7 +5093,11 @@ msgstr "Raportare"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.res_users_view_form
 msgid "Request Allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cerere Alocare"
+=======
+msgstr "Solicită alocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicită alocare"
 >>>>>>> upstream/18.0
@@ -4013,7 +5106,11 @@ msgstr "Solicită alocare"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__request_date_to
 msgid "Request End Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data de încheiere a solicitării"
+=======
+msgstr "Data de sfârșit a cererii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data de sfârșit a cererii"
 >>>>>>> upstream/18.0
@@ -4022,7 +5119,11 @@ msgstr "Data de sfârșit a cererii"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__request_date_from
 msgid "Request Start Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Solicitați data de început"
+=======
+msgstr "Data de început a cererii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data de început a cererii"
 >>>>>>> upstream/18.0
@@ -4031,7 +5132,11 @@ msgstr "Data de început a cererii"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.res_users_view_form
 msgid "Request Time off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cerere Concediu"
+=======
+msgstr "Solicită concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicită concediu"
 >>>>>>> upstream/18.0
@@ -4045,7 +5150,11 @@ msgstr "Tip cerere"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__duration_display
 msgid "Requested (Days/Hours)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cerere (Zile/Ore)"
+=======
+msgstr "Solicitat (Zile/Ore)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicitat (Zile/Ore)"
 >>>>>>> upstream/18.0
@@ -4054,7 +5163,11 @@ msgstr "Solicitat (Zile/Ore)"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__requires_allocation
 msgid "Requires allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Necesare alocare"
+=======
+msgstr "Necesită alocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Necesită alocare"
 >>>>>>> upstream/18.0
@@ -4073,7 +5186,11 @@ msgstr "Calendar resurse"
 #: model:ir.actions.act_window,name:hr_holidays.resource_calendar_global_leaves_action_from_calendar
 msgid "Resource Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Timp resursă oprit"
+=======
+msgstr "Concediu resurse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu resurse"
 >>>>>>> upstream/18.0
@@ -4082,7 +5199,11 @@ msgstr "Concediu resurse"
 #: model:ir.model,name:hr_holidays.model_resource_calendar_leaves
 msgid "Resource Time Off Detail"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Detaliu Timp Resurse"
+=======
+msgstr "Detaliu concediu resurse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detaliu concediu resurse"
 >>>>>>> upstream/18.0
@@ -4091,7 +5212,11 @@ msgstr "Detaliu concediu resurse"
 #: model:ir.model,name:hr_holidays.model_resource_calendar
 msgid "Resource Working Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Timpul Lucru Resurse"
+=======
+msgstr "Timp de lucru resurse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Timp de lucru resurse"
 >>>>>>> upstream/18.0
@@ -4136,7 +5261,11 @@ msgstr "Salvează"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_search_hr_holidays_employee_type_report
 msgid "Search Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Căutare Concediu"
+=======
+msgstr "Căutare concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Căutare concediu"
 >>>>>>> upstream/18.0
@@ -4145,7 +5274,11 @@ msgstr "Căutare concediu"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_holidays_status_filter
 msgid "Search Time Off Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul Căutare Concediu"
+=======
+msgstr "Căutare tip concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Căutare tip concediu"
 >>>>>>> upstream/18.0
@@ -4154,7 +5287,11 @@ msgstr "Căutare tip concediu"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Search allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Căutare Alocări"
+=======
+msgstr "Căutare alocări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Căutare alocări"
 >>>>>>> upstream/18.0
@@ -4181,7 +5318,11 @@ msgstr "A doua zi"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__second_day_display
 msgid "Second Day Display"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișare ziua a doua"
+=======
+msgstr "Afișare a doua zi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișare a doua zi"
 >>>>>>> upstream/18.0
@@ -4190,7 +5331,11 @@ msgstr "Afișare a doua zi"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__second_month
 msgid "Second Month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Luna a doua"
+=======
+msgstr "A doua lună"
+>>>>>>> upstream/18.0
 =======
 msgstr "A doua lună"
 >>>>>>> upstream/18.0
@@ -4204,7 +5349,11 @@ msgstr "A doua zi din lună"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__second_month_day_display
 msgid "Second Month Day Display"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișare zilei a doua din lună"
+=======
+msgstr "Afișare a doua zi din lună"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișare a doua zi din lună"
 >>>>>>> upstream/18.0
@@ -4231,7 +5380,11 @@ msgstr "Selectează concediu"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_summary_employee__holiday_type
 msgid "Select Time Off Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Selectare Tip Concediu"
+=======
+msgstr "Selectează tip concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectează tip concediu"
 >>>>>>> upstream/18.0
@@ -4241,6 +5394,7 @@ msgstr "Selectează tip concediu"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_type__allocation_validation_type
 msgid ""
 "Select the level of approval needed in case of request by employee\n"
+<<<<<<< HEAD
 "            #     - No validation needed: The employee's request is automatically approved.\n"
 "            #     - Approved by Time Off Officer: The employee's request need to be manually approved\n"
 "            #       by the Time Off Officer, Employee's Approver or both."
@@ -4252,13 +5406,32 @@ msgstr ""
 "            #     - Aprobat de responsabilul de concediu: Cererea angajatului trebuie aprobată manual\n"
 "            #       de către responsabilul de concediu, aprobatorul angajatului sau amândoi."
 >>>>>>> upstream/18.0
+=======
+"            #     - No validation needed: The employee's request is "
+"automatically approved.\n"
+"            #     - Approved by Time Off Officer: The employee's request "
+"need to be manually approved\n"
+"            #       by the Time Off Officer, Employee's Approver or both."
+msgstr ""
+"Selectați nivelul de aprobare necesar în cazul unei cereri de la angajat\n"
+"            #     - Nu este necesară validarea: Cererea angajatului este "
+"aprobată automat.\n"
+"            #     - Aprobat de responsabilul de concediu: Cererea "
+"angajatului trebuie aprobată manual\n"
+"            #       de către responsabilul de concediu, aprobatorul "
+"angajatului sau amândoi."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-javascript
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Select the request you just created"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Selectați cererea pe care tocmai ați creat-o"
+=======
+msgstr "Selectează cererea pe care tocmai ai creat-o"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectează cererea pe care tocmai ai creat-o"
 >>>>>>> upstream/18.0
@@ -4271,6 +5444,7 @@ msgstr "Selectează cererea pe care tocmai ai creat-o"
 #: model:ir.model.fields,help:hr_holidays.field_res_users__leave_manager_id
 msgid ""
 "Select the user responsible for approving \"Time Off\" of this employee.\n"
+<<<<<<< HEAD
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
 msgstr ""
 <<<<<<< HEAD
@@ -4279,6 +5453,15 @@ msgstr ""
 =======
 "Selectați utilizatorul responsabil pentru aprobarea \"Concediului\" acestui angajat.\n"
 "Dacă este gol, aprobarea se face de către un administrator sau aprobator (stabilit în setări/utilizatori)."
+>>>>>>> upstream/18.0
+=======
+"If empty, the approval is done by an Administrator or Approver (determined "
+"in settings/users)."
+msgstr ""
+"Selectați utilizatorul responsabil pentru aprobarea \"Concediului\" acestui "
+"angajat.\n"
+"Dacă este gol, aprobarea se face de către un administrator sau aprobator "
+"(stabilit în setări/utilizatori)."
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -4297,7 +5480,12 @@ msgstr "Secvență"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__sequence
 msgid "Sequence is generated automatically by start time delta."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Secvența este generată automat din momentul de pornire."
+=======
+msgstr ""
+"Secvența este generată automat în funcție de diferența de timp de start."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Secvența este generată automat în funcție de diferența de timp de start."
@@ -4308,7 +5496,11 @@ msgstr ""
 msgid "Set a maximum of accruals an allocation keeps at the end of the year."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Stabiliți un număr maxim de acumulări pe care o alocare le păstrează la "
+=======
+"Setați un număr maxim de acumulări pe care o alocare le păstrează la "
+>>>>>>> upstream/18.0
 =======
 "Setați un număr maxim de acumulări pe care o alocare le păstrează la "
 >>>>>>> upstream/18.0
@@ -4318,7 +5510,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__show_on_dashboard
 msgid "Show On Dashboard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișați pe tabloul de bord"
+=======
+msgstr "Afișează pe tabloul de bord"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează pe tabloul de bord"
 >>>>>>> upstream/18.0
@@ -4327,7 +5523,11 @@ msgstr "Afișează pe tabloul de bord"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__show_transition_mode
 msgid "Show Transition Mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișați modul de tranziție"
+=======
+msgstr "Afișează modul de tranziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează modul de tranziție"
 >>>>>>> upstream/18.0
@@ -4338,8 +5538,13 @@ msgstr "Afișează modul de tranziție"
 msgid "Show all records which has next action date is before today"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Afișați toate înregistrările care au data următoarei acțiuni înainte de data"
 " de astăzi"
+=======
+"Afișează toate înregistrările care au data următoarei acțiuni înainte de "
+"astăzi"
+>>>>>>> upstream/18.0
 =======
 "Afișează toate înregistrările care au data următoarei acțiuni înainte de "
 "astăzi"
@@ -4351,7 +5556,11 @@ msgstr ""
 #: model:mail.message.subtype,name:hr_holidays.mt_leave_sick
 msgid "Sick Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Concediu Medical"
+=======
+msgstr "Concediu medical"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu medical"
 >>>>>>> upstream/18.0
@@ -4360,12 +5569,16 @@ msgstr "Concediu medical"
 #. odoo-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Some leaves cannot be linked to any allocation. To see those leaves,"
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 "Unele concedii nu pot fi asociate cu nicio alocare. Pentru a vedea aceste "
 "concedii,"
 =======
 "Unele concedii nu pot fi asociate cu nicio alocare. Pentru a le vedea,"
+>>>>>>> upstream/18.0
+=======
+msgstr "Unele concedii nu pot fi asociate cu nicio alocare. Pentru a le vedea,"
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -4376,6 +5589,11 @@ msgid ""
 "allocation. Delete or cancel them first."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Unele dintre planurile de acumulare pe care încercați să le ștergeți sunt "
+"legate de o alocare existentă. Ștergeți-le sau anulați-le mai întâi."
+>>>>>>> upstream/18.0
 =======
 "Unele dintre planurile de acumulare pe care încercați să le ștergeți sunt "
 "legate de o alocare existentă. Ștergeți-le sau anulați-le mai întâi."
@@ -4385,6 +5603,7 @@ msgstr ""
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_plan__time_off_type_id
 msgid ""
 "Specify if this accrual plan can only be used with this Time Off Type.\n"
+<<<<<<< HEAD
 "                Leave empty if this accrual plan can be used with any Time Off Type."
 msgstr ""
 <<<<<<< HEAD
@@ -4394,10 +5613,20 @@ msgstr ""
 "Specificați dacă acest plan de acumulare poate fi folosit doar cu acest tip de concediu.\n"
 "                Lăsați gol dacă planul poate fi folosit cu orice tip de concediu."
 >>>>>>> upstream/18.0
+=======
+"                Leave empty if this accrual plan can be used with any Time "
+"Off Type."
+msgstr ""
+"Specificați dacă acest plan de acumulare poate fi folosit doar cu acest tip "
+"de concediu.\n"
+"                Lăsați gol dacă planul poate fi folosit cu orice tip de "
+"concediu."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_plan__transition_mode
 msgid ""
+<<<<<<< HEAD
 "Specify what occurs if a level transition takes place in the middle of a pay period.\n"
 "\n"
 "                'Immediately' will switch the employee to the new accrual level on the exact date during the ongoing pay period.\n"
@@ -4418,12 +5647,39 @@ msgstr ""
 "                „După această perioadă de acumulare” va menține angajatul la același nivel până la finalul perioadei de plată curente.\n"
 "                După finalizare, noul nivel va intra în vigoare la începutul următoarei perioade de plată."
 >>>>>>> upstream/18.0
+=======
+"Specify what occurs if a level transition takes place in the middle of a pay "
+"period.\n"
+"\n"
+"                'Immediately' will switch the employee to the new accrual "
+"level on the exact date during the ongoing pay period.\n"
+"\n"
+"                'After this accrual's period' will keep the employee on the "
+"same accrual level until the ongoing pay period is complete.\n"
+"                After it is complete, the new level will take effect when "
+"the next pay period begins."
+msgstr ""
+"Specificați ce se întâmplă dacă o tranziție de nivel are loc în mijlocul "
+"unei perioade de plată.\n"
+"\n"
+"                „Imediat” va trece angajatul la noul nivel de acumulare la "
+"data exactă din perioada de plată curentă.\n"
+"\n"
+"                „După această perioadă de acumulare” va menține angajatul la "
+"același nivel până la finalul perioadei de plată curente.\n"
+"                După finalizare, noul nivel va intra în vigoare la începutul "
+"următoarei perioade de plată."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Start Accruing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Începe acumularea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Începe acumularea"
 >>>>>>> upstream/18.0
@@ -4448,7 +5704,11 @@ msgstr "Dată început"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__start_count
 msgid "Start after"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Start după"
+=======
+msgstr "Începe după"
+>>>>>>> upstream/18.0
 =======
 msgstr "Începe după"
 >>>>>>> upstream/18.0
@@ -4457,7 +5717,11 @@ msgstr "Începe după"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_report_calendar__state
 msgid "State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Județ"
+=======
+msgstr "Stare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare"
 >>>>>>> upstream/18.0
@@ -4483,7 +5747,11 @@ msgid ""
 msgstr ""
 "Stare bazată pe activități\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Întârziată: data activitații este deja trecută\n"
+=======
+"Întârziată: data activității este deja trecută\n"
+>>>>>>> upstream/18.0
 =======
 "Întârziată: data activității este deja trecută\n"
 >>>>>>> upstream/18.0
@@ -4495,7 +5763,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_report_calendar__is_striked
 msgid "Striked"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Striked"
+=======
+msgstr "Tăiat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tăiat"
 >>>>>>> upstream/18.0
@@ -4505,7 +5777,11 @@ msgstr "Tăiat"
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Submit your request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimiteți cererea dvs"
+=======
+msgstr "Trimiteți cererea dvs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimiteți cererea dvs."
 >>>>>>> upstream/18.0
@@ -4524,7 +5800,11 @@ msgstr "Duminică"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__supported_attachment_ids_count
 msgid "Supported Attachment Ids Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Număr de ID-uri de atașament acceptate"
+=======
+msgstr "Număr atașamente suportate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr atașamente suportate"
 >>>>>>> upstream/18.0
@@ -4548,7 +5828,11 @@ msgstr "Documente justificative"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__request_unit
 msgid "Take Time Off in"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Luați Concediu în"
+=======
+msgstr "Ia concediu în"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ia concediu în"
 >>>>>>> upstream/18.0
@@ -4559,7 +5843,11 @@ msgstr "Ia concediu în"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_employee_type_report__holiday_status__taken
 msgid "Taken"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Luat"
+=======
+msgstr "Luate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Luate"
 >>>>>>> upstream/18.0
@@ -4572,7 +5860,11 @@ msgid ""
 msgstr ""
 "Codul ISO al țării din două caractere.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Puteți utiliza acest câmp pentru căutări rapide."
+=======
+"Puteți folosi acest câmp pentru căutare rapidă."
+>>>>>>> upstream/18.0
 =======
 "Puteți folosi acest câmp pentru căutare rapidă."
 >>>>>>> upstream/18.0
@@ -4580,6 +5872,7 @@ msgstr ""
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+<<<<<<< HEAD
 msgid ""
 "The Start Date of the Validity Period must be anterior to the End Date."
 msgstr ""
@@ -4587,6 +5880,12 @@ msgstr ""
 "Data de începere a perioadei de valabilitate trebuie să fie anterioară datei"
 " de încheiere."
 =======
+"Data de început a perioadei de valabilitate trebuie să fie anterioară datei "
+"de sfârșit."
+>>>>>>> upstream/18.0
+=======
+msgid "The Start Date of the Validity Period must be anterior to the End Date."
+msgstr ""
 "Data de început a perioadei de valabilitate trebuie să fie anterioară datei "
 "de sfârșit."
 >>>>>>> upstream/18.0
@@ -4599,12 +5898,18 @@ msgid ""
 "is used."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Acumularea începe după o perioadă definită de la data de începere a "
 "alocării. Acest câmp definește numărul de zile, luni sau ani după care se "
 "utilizează acumularea."
 =======
 "Acumularea începe după o perioadă definită de la data de început a alocării."
 " Acest câmp definește numărul de zile, luni sau ani după care se folosește "
+"acumularea."
+>>>>>>> upstream/18.0
+=======
+"Acumularea începe după o perioadă definită de la data de început a alocării. "
+"Acest câmp definește numărul de zile, luni sau ani după care se folosește "
 "acumularea."
 >>>>>>> upstream/18.0
 
@@ -4616,6 +5921,12 @@ msgid ""
 "of that type have been taken. You should create a new time off type instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Cerința de alocare pentru un tip de concediu nu poate fi modificată după ce "
+"au fost luate concedii de acel tip. Ar trebui să creați un nou tip de "
+"concediu."
+>>>>>>> upstream/18.0
 =======
 "Cerința de alocare pentru un tip de concediu nu poate fi modificată după ce "
 "au fost luate concedii de acel tip. Ar trebui să creați un nou tip de "
@@ -4629,19 +5940,28 @@ msgid ""
 "The color selected here will be used in every screen with the time off type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Culoarea selectată aici va fi utilizată în fiecare ecran cu tipul de "
 "concediu."
 =======
 "Culoarea selectată aici va fi folosită pe toate ecranele pentru acest tip de"
 " concediu."
 >>>>>>> upstream/18.0
+=======
+"Culoarea selectată aici va fi folosită pe toate ecranele pentru acest tip de "
+"concediu."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_accrual_level_check_dates
 msgid "The dates you've set up aren't correct. Please check them."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Datele pe care le-ați configurat nu sunt corecte. Vă rugăm să le verificați."
+=======
+msgstr "Datele setate nu sunt corecte. Vă rugăm să le verificați."
+>>>>>>> upstream/18.0
 =======
 msgstr "Datele setate nu sunt corecte. Vă rugăm să le verificați."
 >>>>>>> upstream/18.0
@@ -4653,8 +5973,13 @@ msgid ""
 "Training) will be used in the computation of Accrual's plan rate."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Distincția între timpul de lucru (ex. prezență) și absență (ex. formare) va "
 "fi utilizată la calcularea ratei planului de acumulări."
+=======
+"Distincția între timp lucrat (ex. prezență) și absență (ex. training) va fi "
+"folosită la calculul ratei planului de acumulare."
+>>>>>>> upstream/18.0
 =======
 "Distincția între timp lucrat (ex. prezență) și absență (ex. training) va fi "
 "folosită la calculul ratei planului de acumulare."
@@ -4670,7 +5995,11 @@ msgstr "Durata trebuie să fie mai mare decât 0."
 #: code:addons/hr_holidays/wizard/hr_departure_wizard.py:0
 msgid "The employee no longer works in the company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Angajatul nu mai lucrează în companie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Angajatul nu mai lucrează în companie"
 >>>>>>> upstream/18.0
@@ -4689,7 +6018,12 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid ""
+<<<<<<< HEAD
 "The leaves planned in the future are exceeding the maximum value of the allocation.\n"
+=======
+"The leaves planned in the future are exceeding the maximum value of the "
+"allocation.\n"
+>>>>>>> upstream/18.0
 "                It will not be possible to take all of them."
 msgstr ""
 "Concediile planificate în viitor depășesc valoarea maximă a alocării.\n"
@@ -4702,6 +6036,11 @@ msgid ""
 "disable the negative cap instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Valoarea maximă excedentă trebuie să fie mai mare decât 0. Dacă doriți să "
+"setați 0, dezactivați plafonul negativ."
+>>>>>>> upstream/18.0
 =======
 "Valoarea maximă excedentă trebuie să fie mai mare decât 0. Dacă doriți să "
 "setați 0, dezactivați plafonul negativ."
@@ -4714,6 +6053,11 @@ msgid ""
 "carried_over_days_expiration_date"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Numărul de zile reportate care vor expira la data "
+"carried_over_days_expiration_date"
+>>>>>>> upstream/18.0
 =======
 "Numărul de zile reportate care vor expira la data "
 "carried_over_days_expiration_date"
@@ -4726,7 +6070,11 @@ msgid ""
 "Type for every period"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Numărul de ore/zile care vor fi majorate în tipul de concediu specificat "
+=======
+"Numărul de ore/zile care vor fi adăugate la tipul de concediu specificat "
+>>>>>>> upstream/18.0
 =======
 "Numărul de ore/zile care vor fi adăugate la tipul de concediu specificat "
 >>>>>>> upstream/18.0
@@ -4734,8 +6082,12 @@ msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_date_check3
+<<<<<<< HEAD
 msgid ""
 "The request start date must be before or equal to the request end date."
+=======
+msgid "The request start date must be before or equal to the request end date."
+>>>>>>> upstream/18.0
 msgstr ""
 "Data de început a cererii trebuie să fie anterioară sau egală cu data de "
 "sfârșit a cererii."
@@ -4759,6 +6111,12 @@ msgid ""
 "The status is 'Approved', when an allocation request is approved by manager."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Starea este „De aprobat” când se creează o cerere de alocare.\n"
+"Starea este „Refuzat” când cererea de alocare este refuzată de manager.\n"
+"Starea este „Aprobat” când cererea de alocare este aprobată de manager."
+>>>>>>> upstream/18.0
 =======
 "Starea este „De aprobat” când se creează o cerere de alocare.\n"
 "Starea este „Refuzat” când cererea de alocare este refuzată de manager.\n"
@@ -4774,6 +6132,7 @@ msgid ""
 "The status is 'Approved', when time off request is approved by manager."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Starea este setată pe „Înscriere”, atunci când este creată o cerere de concediu.\n"
 "Starea este pe „Aprobare”, când solicitarea este confirmată de utilizator.\n"
 "Starea este pe „Refuzare”, atunci când solicitarea este refuzată de către manager.\n"
@@ -4784,13 +6143,24 @@ msgstr ""
 "Starea este „Refuzat” când cererea de concediu este refuzată de manager.\n"
 "Starea este „Aprobat” când cererea de concediu este aprobată de manager."
 >>>>>>> upstream/18.0
+=======
+"Starea este setată pe „De trimis” când se creează o cerere de concediu.\n"
+"Starea este „De aprobat” când cererea de concediu este confirmată de "
+"utilizator.\n"
+"Starea este „Refuzat” când cererea de concediu este refuzată de manager.\n"
+"Starea este „Aprobat” când cererea de concediu este aprobată de manager."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "The time off has been automatically approved"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Concediu Aprobat Automat"
+=======
+msgstr "Concediul a fost aprobat automat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediul a fost aprobat automat"
 >>>>>>> upstream/18.0
@@ -4800,7 +6170,11 @@ msgstr "Concediul a fost aprobat automat"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "The time off has been cancelled: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Concediul a fost anulat: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediul a fost anulat: %s"
 >>>>>>> upstream/18.0
@@ -4822,7 +6196,11 @@ msgid ""
 msgstr ""
 "Nu există niciun angajat setat pe concediu. Vă rugăm să vă asigurați că "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "sunteți înregistrat în compania corectă."
+=======
+"sunteți autentificat în compania corectă."
+>>>>>>> upstream/18.0
 =======
 "sunteți autentificat în compania corectă."
 >>>>>>> upstream/18.0
@@ -4832,7 +6210,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "There is no valid allocation to cover that request."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu există nicio alocare valabilă pentru a acoperi această cerere."
+=======
+msgstr "Nu există o alocare validă pentru a acoperi această cerere."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există o alocare validă pentru a acoperi această cerere."
 >>>>>>> upstream/18.0
@@ -4845,6 +6227,7 @@ msgid ""
 "to the days allocated to the employee. If you need to change the "
 "configuration of the allocation, delete and create a new one."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Această alocare a fost deja executată o dată, orice modificare nu va fi "
 "valabilă pentru zilele alocate angajatului. Dacă trebuie să modificați "
@@ -4867,10 +6250,22 @@ msgstr ""
 "Această zonă este completată automat de utilizatorul care validează "
 "concediul"
 >>>>>>> upstream/18.0
+=======
+"Această alocare a fost deja rulată o dată, orice modificare nu va afecta "
+"zilele alocate angajatului. Dacă trebuie să schimbați configurația alocării, "
+"ștergeți și creați una nouă."
+
+#. module: hr_holidays
+#: model:ir.model.fields,help:hr_holidays.field_hr_leave__first_approver_id
+msgid "This area is automatically filled by the user who validate the time off"
+msgstr ""
+"Această zonă este completată automat de utilizatorul care validează concediul"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__second_approver_id
 msgid ""
+<<<<<<< HEAD
 "This area is automatically filled by the user who validate the time off with"
 " second level (If time off type need second validation)"
 msgstr ""
@@ -4883,6 +6278,14 @@ msgstr ""
 "concediul la al doilea nivel (dacă tipul de concediu necesită a doua "
 "validare)"
 >>>>>>> upstream/18.0
+=======
+"This area is automatically filled by the user who validate the time off with "
+"second level (If time off type need second validation)"
+msgstr ""
+"Această zonă este completată automat de utilizatorul care validează "
+"concediul la al doilea nivel (dacă tipul de concediu necesită a doua "
+"validare)"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_allocation__approver_id
@@ -4890,8 +6293,12 @@ msgid ""
 "This area is automatically filled by the user who validates the allocation"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Această zonă este completată automat de către utilizatorul care validează "
 "alocarea"
+=======
+"Această zonă este completată automat de utilizatorul care validează alocarea"
+>>>>>>> upstream/18.0
 =======
 "Această zonă este completată automat de utilizatorul care validează alocarea"
 >>>>>>> upstream/18.0
@@ -4903,18 +6310,27 @@ msgid ""
 "with second level (If time off type need second validation)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Această zonă este completată automat de utilizatorul care validează alocarea"
 " la al doilea nivel (dacă tipul de concediu necesită a doua validare)"
+>>>>>>> upstream/18.0
+=======
+"Această zonă este completată automat de utilizatorul care validează alocarea "
+"la al doilea nivel (dacă tipul de concediu necesită a doua validare)"
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__accrual_validity_type
 msgid "This field defines the unit of time after which the accrual ends."
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 =======
 "Acest câmp definește unitatea de timp după care acumularea se încheie."
+>>>>>>> upstream/18.0
+=======
+msgstr "Acest câmp definește unitatea de timp după care acumularea se încheie."
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -4927,7 +6343,11 @@ msgstr "Acest câmp definește unitatea de timp după care începe acumularea."
 msgid "This indicates if it is still possible to use this type of leave"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Acest lucru indică dacă este încă posibil să utilizați acest tip de concediu"
+=======
+"Aceasta indică dacă este încă posibil să folosiți acest tip de concediu"
+>>>>>>> upstream/18.0
 =======
 "Aceasta indică dacă este încă posibil să folosiți acest tip de concediu"
 >>>>>>> upstream/18.0
@@ -4943,7 +6363,11 @@ msgstr "Această modificare nu este permisă în starea actuală."
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "This time off cannot be cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acest concediu nu poate fi anulat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Acest concediu nu poate fi anulat."
 >>>>>>> upstream/18.0
@@ -4955,8 +6379,13 @@ msgid ""
 "value."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Această valoare este dată de suma tuturor solicitarilor de concediu cu o "
 "valoare negativă."
+=======
+"Această valoare este dată de suma tuturor cererilor de concediu cu valoare "
+"negativă."
+>>>>>>> upstream/18.0
 =======
 "Această valoare este dată de suma tuturor cererilor de concediu cu valoare "
 "negativă."
@@ -4969,8 +6398,13 @@ msgid ""
 "value."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Această valoare este dată de suma tuturor solicitărilor de concediu cu o "
 "valoare pozitivă."
+=======
+"Această valoare este dată de suma tuturor cererilor de concediu cu valoare "
+"pozitivă."
+>>>>>>> upstream/18.0
 =======
 "Această valoare este dată de suma tuturor cererilor de concediu cu valoare "
 "pozitivă."
@@ -5005,7 +6439,11 @@ msgstr "Concediu"
 #: model:ir.model,name:hr_holidays.model_hr_leave_allocation
 msgid "Time Off Allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocare Concediu"
+=======
+msgstr "Alocare concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocare concediu"
 >>>>>>> upstream/18.0
@@ -5018,7 +6456,11 @@ msgstr "Alocare concediu"
 #: model:ir.actions.act_window,name:hr_holidays.hr_leave_report_action
 msgid "Time Off Analysis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analiză Concediu"
+=======
+msgstr "Analiză concedii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiză concedii"
 >>>>>>> upstream/18.0
@@ -5028,7 +6470,11 @@ msgstr "Analiză concedii"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_holiday_status_normal_tree
 msgid "Time Off Approval"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aprobare Concediu"
+=======
+msgstr "Aprobare concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobare concediu"
 >>>>>>> upstream/18.0
@@ -5037,7 +6483,11 @@ msgstr "Aprobare concediu"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_employee_tree_inherit_leave
 msgid "Time Off Approver"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aprobator Timp Liber"
+=======
+msgstr "Aprobator concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobator concediu"
 >>>>>>> upstream/18.0
@@ -5046,7 +6496,11 @@ msgstr "Aprobator concediu"
 #: model:ir.model,name:hr_holidays.model_hr_leave_report_calendar
 msgid "Time Off Calendar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Calender Concediu"
+=======
+msgstr "Calendar concedii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Calendar concedii"
 >>>>>>> upstream/18.0
@@ -5055,7 +6509,11 @@ msgstr "Calendar concedii"
 #: model:ir.model.fields,field_description:hr_holidays.field_resource_calendar__associated_leaves_count
 msgid "Time Off Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărătoarea concediilor"
+=======
+msgstr "Număr concedii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr concedii"
 >>>>>>> upstream/18.0
@@ -5065,7 +6523,11 @@ msgstr "Număr concedii"
 #: code:addons/hr_holidays/models/hr_employee.py:0
 msgid "Time Off Dashboard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tablou de bord privind concediile"
+=======
+msgstr "Tablou de bord concedii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tablou de bord concedii"
 >>>>>>> upstream/18.0
@@ -5074,7 +6536,11 @@ msgstr "Tablou de bord concedii"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__private_name
 msgid "Time Off Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Descriere Concediu"
+=======
+msgstr "Descriere concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descriere concediu"
 >>>>>>> upstream/18.0
@@ -5083,7 +6549,11 @@ msgstr "Descriere concediu"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__leave_notif_subtype_id
 msgid "Time Off Notification Subtype"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Notificare Subtype Concediu"
+=======
+msgstr "Subtip notificare concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subtip notificare concediu"
 >>>>>>> upstream/18.0
@@ -5093,6 +6563,7 @@ msgstr "Subtip notificare concediu"
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_approve_department
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_my
 msgid ""
+<<<<<<< HEAD
 "Time Off Officers allocate time off days to employees (e.g. paid time off).<br>\n"
 "                Employees request allocations to Time Off Officers (e.g. recuperation days)."
 msgstr ""
@@ -5102,6 +6573,17 @@ msgstr ""
 =======
 "Responsabilii de concediu alocă zile de concediu angajaților (de exemplu, concediu plătit).<br>\n"
 "                Angajații solicită alocări către responsabilii de concediu (de exemplu, zile de recuperare)."
+>>>>>>> upstream/18.0
+=======
+"Time Off Officers allocate time off days to employees (e.g. paid time off)."
+"<br>\n"
+"                Employees request allocations to Time Off Officers (e.g. "
+"recuperation days)."
+msgstr ""
+"Responsabilii de concediu alocă zile de concediu angajaților (de exemplu, "
+"concediu plătit).<br>\n"
+"                Angajații solicită alocări către responsabilii de concediu "
+"(de exemplu, zile de recuperare)."
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -5119,7 +6601,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
 msgid "Time Off Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cerere Concediu"
+=======
+msgstr "Cerere concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cerere concediu"
 >>>>>>> upstream/18.0
@@ -5130,7 +6616,11 @@ msgstr "Cerere concediu"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_tree
 msgid "Time Off Requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cereri Concediu"
+=======
+msgstr "Cereri concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cereri concediu"
 >>>>>>> upstream/18.0
@@ -5139,7 +6629,11 @@ msgstr "Cereri concediu"
 #: model:res.groups,name:hr_holidays.group_hr_holidays_responsible
 msgid "Time Off Responsible"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Responsabil concedii"
+=======
+msgstr "Responsabil concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Responsabil concediu"
 >>>>>>> upstream/18.0
@@ -5148,7 +6642,11 @@ msgstr "Responsabil concediu"
 #: model:mail.activity.type,name:hr_holidays.mail_act_leave_second_approval
 msgid "Time Off Second Approve"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "A doua aprobare a concediului"
+=======
+msgstr "A doua aprobare concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "A doua aprobare concediu"
 >>>>>>> upstream/18.0
@@ -5163,7 +6661,11 @@ msgstr "A doua aprobare concediu"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_summary_employee
 msgid "Time Off Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rezumat Concediu"
+=======
+msgstr "Sumar concedii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumar concedii"
 >>>>>>> upstream/18.0
@@ -5173,7 +6675,11 @@ msgstr "Sumar concedii"
 #: model:ir.model,name:hr_holidays.model_hr_leave_report
 msgid "Time Off Summary / Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rezumat / Raport Concediu"
+=======
+msgstr "Sumar / Raport concedii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumar / Raport concedii"
 >>>>>>> upstream/18.0
@@ -5182,7 +6688,11 @@ msgstr "Sumar / Raport concedii"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_holiday_status_view_kanban
 msgid "Time Off Taken:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Concediu Luat:"
+=======
+msgstr "Concediu luat:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu luat:"
 >>>>>>> upstream/18.0
@@ -5205,7 +6715,11 @@ msgstr "Concediu luat:"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Time Off Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip Concediu"
+=======
+msgstr "Tip concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip concediu"
 >>>>>>> upstream/18.0
@@ -5216,7 +6730,11 @@ msgstr "Tip concediu"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_holidays_status_filter
 msgid "Time Off Types"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipuri de Concediu"
+=======
+msgstr "Tipuri de concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipuri de concediu"
 >>>>>>> upstream/18.0
@@ -5225,7 +6743,11 @@ msgstr "Tipuri de concediu"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__leave_validation_type
 msgid "Time Off Validation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Validarea concediului"
+=======
+msgstr "Validare concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Validare concediu"
 >>>>>>> upstream/18.0
@@ -5234,7 +6756,11 @@ msgstr "Validare concediu"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Time Off of Your Team Member"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Concediul unui membru al echipei tale"
+=======
+msgstr "Concediu membru echipă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu membru echipă"
 >>>>>>> upstream/18.0
@@ -5243,7 +6769,11 @@ msgstr "Concediu membru echipă"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_department__leave_to_approve_count
 msgid "Time Off to Approve"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Concediu pentru aprobare"
+=======
+msgstr "Concediu de aprobat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu de aprobat"
 >>>>>>> upstream/18.0
@@ -5257,7 +6787,11 @@ msgstr "Concediu."
 #: model:ir.actions.server,name:hr_holidays.hr_leave_cron_cancel_invalid_ir_actions_server
 msgid "Time Off: Cancel invalid leaves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Concediu: Anularea concediilor invalide"
+=======
+msgstr "Concediu: Anulează concediile invalide"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu: Anulează concediile invalide"
 >>>>>>> upstream/18.0
@@ -5276,7 +6810,11 @@ msgstr "Concediu deja luat"
 #: model:ir.actions.server,name:hr_holidays.action_hr_holidays_by_employee_and_type_report
 msgid "Time off Analysis by Employee and Time Off Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analiza concediului în funcție de angajat și de tipul de concediu"
+=======
+msgstr "Analiză concedii după angajat și tip concediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiză concedii după angajat și tip concediu"
 >>>>>>> upstream/18.0
@@ -5291,7 +6829,11 @@ msgstr "Sumar concedii"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__leaves_taken
 msgid "Time off Taken"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Concediu efectuat deja"
+=======
+msgstr "Concediu efectuat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu efectuat"
 >>>>>>> upstream/18.0
@@ -5309,7 +6851,12 @@ msgid ""
 "Time off request must be confirmed (\"To Approve\") in order to approve it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cererea de închidere trebuie confirmată („To Approve”) pentru a o aproba."
+=======
+"Cererea de concediu trebuie să fie confirmată („De aprobat”) pentru a o "
+"aproba."
+>>>>>>> upstream/18.0
 =======
 "Cererea de concediu trebuie să fie confirmată („De aprobat”) pentru a o "
 "aproba."
@@ -5320,7 +6867,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Time off request must be confirmed in order to approve it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cererea de concediu trebuie confirmată pentru a o aproba."
+=======
+msgstr "Cererea de concediu trebuie să fie confirmată pentru a o aproba."
+>>>>>>> upstream/18.0
 =======
 msgstr "Cererea de concediu trebuie să fie confirmată pentru a o aproba."
 >>>>>>> upstream/18.0
@@ -5331,10 +6882,14 @@ msgstr "Cererea de concediu trebuie să fie confirmată pentru a o aproba."
 msgid "Time off request must be confirmed or validated in order to refuse it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cererea de concediu trebuie confirmată sau validată pentru a o refuza."
 =======
 "Cererea de concediu trebuie să fie confirmată sau validată pentru a o "
 "refuza."
+>>>>>>> upstream/18.0
+=======
+"Cererea de concediu trebuie să fie confirmată sau validată pentru a o refuza."
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -5345,6 +6900,11 @@ msgid ""
 "reset to \"Confirmed\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Starea cererii de concediu trebuie să fie „Refuzat” sau „Anulat” pentru a "
+"putea fi resetată la „Confirmat”."
+>>>>>>> upstream/18.0
 =======
 "Starea cererii de concediu trebuie să fie „Refuzat” sau „Anulat” pentru a "
 "putea fi resetată la „Confirmat”."
@@ -5424,6 +6984,7 @@ msgstr "Număr total de zile alocate."
 #: model:ir.model.fields,help:hr_holidays.field_hr_employee_public__remaining_leaves
 msgid ""
 "Total number of paid time off allocated to this employee, change this value "
+<<<<<<< HEAD
 "to create allocation/time off request. Total based on all the time off types"
 " without overriding limit."
 msgstr ""
@@ -5434,12 +6995,24 @@ msgstr ""
 =======
 "Total bazat pe toate tipurile de concediu fără limită superioară."
 >>>>>>> upstream/18.0
+=======
+"to create allocation/time off request. Total based on all the time off types "
+"without overriding limit."
+msgstr ""
+"Numărul total de concedii plătite alocate acestui angajat, modificați "
+"această valoare pentru a crea o solicitare de alocare / cerere concediu. "
+"Total bazat pe toate tipurile de concediu fără limită superioară."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:hr.leave.type,name:hr_holidays.holiday_status_training
 msgid "Training Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Timpul liber pentru formare"
+=======
+msgstr "Concediu pentru formare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu pentru formare"
 >>>>>>> upstream/18.0
@@ -5486,7 +7059,11 @@ msgstr "Tip"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__type_request_unit
 msgid "Type Request Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip Cerere Unitate"
+=======
+msgstr "Tip unitate cerere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip unitate cerere"
 >>>>>>> upstream/18.0
@@ -5496,7 +7073,11 @@ msgstr "Tip unitate cerere"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_allocation__activity_exception_decoration
 msgid "Type of the exception activity on record."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul de activitate de excepție înregistrată."
+=======
+msgstr "Tipul activității de excepție înregistrate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipul activității de excepție înregistrate."
 >>>>>>> upstream/18.0
@@ -5505,7 +7086,11 @@ msgstr "Tipul activității de excepție înregistrate."
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__tz
 msgid "Tz"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tz"
+=======
+msgstr "Fus orar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fus orar"
 >>>>>>> upstream/18.0
@@ -5514,7 +7099,11 @@ msgstr "Fus orar"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__tz_mismatch
 msgid "Tz Mismatch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nepotrivire Tz"
+=======
+msgstr "Nepotrivire fus orar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nepotrivire fus orar"
 >>>>>>> upstream/18.0
@@ -5600,7 +7189,11 @@ msgstr "Validat"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__validation_type
 msgid "Validation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip Validare"
+=======
+msgstr "Tip validare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip validare"
 >>>>>>> upstream/18.0
@@ -5613,9 +7206,14 @@ msgid ""
 "company"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Data de sfârșit a valabilității a fost actualizată deoarece angajatul nu mai"
 " lucrează în companie"
+>>>>>>> upstream/18.0
+=======
+"Data de sfârșit a valabilității a fost actualizată deoarece angajatul nu mai "
+"lucrează în companie"
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -5629,7 +7227,11 @@ msgstr "Perioadă de valabilitate"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_tree
 msgid "Validity Start"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Început de valabilitate"
+=======
+msgstr "Început valabilitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Început valabilitate"
 >>>>>>> upstream/18.0
@@ -5638,7 +7240,11 @@ msgstr "Început valabilitate"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_tree
 msgid "Validity Stop"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sfârșit de valabilitate"
+=======
+msgstr "Sfârșit valabilitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sfârșit valabilitate"
 >>>>>>> upstream/18.0
@@ -5654,7 +7260,11 @@ msgstr "Concediu virtual rămas"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_employee_public__current_leave_state__confirm
 msgid "Waiting Approval"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Asteapta aprobare"
+=======
+msgstr "Așteaptă aprobare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Așteaptă aprobare"
 >>>>>>> upstream/18.0
@@ -5671,7 +7281,11 @@ msgstr "În așteptarea mea"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_employee_public__current_leave_state__validate1
 msgid "Waiting Second Approval"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Se asteapta a doua aprobare"
+=======
+msgstr "Așteaptă a doua aprobare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Așteaptă a doua aprobare"
 >>>>>>> upstream/18.0
@@ -5686,7 +7300,11 @@ msgstr "În așteptarea aprobării"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__website_message_ids
 msgid "Website Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesaje de pe site-ul web"
+=======
+msgstr "Mesaje site web"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaje site web"
 >>>>>>> upstream/18.0
@@ -5696,7 +7314,11 @@ msgstr "Mesaje site web"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_allocation__website_message_ids
 msgid "Website communication history"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Istoricul comunicării pe site-ul web"
+=======
+msgstr "Istoric comunicare site web"
+>>>>>>> upstream/18.0
 =======
 msgstr "Istoric comunicare site web"
 >>>>>>> upstream/18.0
@@ -5720,10 +7342,17 @@ msgid ""
 "with a maximum)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Când se ajunge la timpul de reportare, conform setărilor planului, selectați"
 " ce doriți să se întâmple cu timpul de concediu neutilizat: Niciunul (timpul"
 " va fi resetat la zero), Tot timpul acumulat se reportează în perioada "
+"următoare sau Reportare cu o valoare maximă."
+>>>>>>> upstream/18.0
+=======
+"Când se ajunge la timpul de reportare, conform setărilor planului, selectați "
+"ce doriți să se întâmple cu timpul de concediu neutilizat: Niciunul (timpul "
+"va fi resetat la zero), Tot timpul acumulat se reportează în perioada "
 "următoare sau Reportare cu o valoare maximă."
 >>>>>>> upstream/18.0
 
@@ -5734,9 +7363,14 @@ msgid ""
 "plan will never exceed the specified amount."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Când acest câmp este bifat, soldul unei alocări care folosește acest plan de"
 " acumulare nu va depăși niciodată valoarea specificată."
+>>>>>>> upstream/18.0
+=======
+"Când acest câmp este bifat, soldul unei alocări care folosește acest plan de "
+"acumulare nu va depăși niciodată valoarea specificată."
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -5746,6 +7380,11 @@ msgid ""
 "at the specified amount"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Când acest câmp este bifat, suma totală acumulată anual va fi plafonată la "
+"valoarea specificată"
+>>>>>>> upstream/18.0
 =======
 "Când acest câmp este bifat, suma totală acumulată anual va fi plafonată la "
 "valoarea specificată"
@@ -5785,7 +7424,11 @@ msgstr "Lună anuală"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__maximum_leave_yearly
 msgid "Yearly limit to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Limită anuală la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Limită anuală la"
 >>>>>>> upstream/18.0
@@ -5805,6 +7448,7 @@ msgstr "Da"
 msgid ""
 "Yes: Time off requests need to have a valid allocation.\n"
 "\n"
+<<<<<<< HEAD
 "              No Limit: Time Off requests can be taken without any prior allocation."
 msgstr ""
 <<<<<<< HEAD
@@ -5814,13 +7458,26 @@ msgstr ""
 >>>>>>> upstream/18.0
 "\n"
 "              Fără limită: Cererile de concediu pot fi luate fără nicio alocare prealabilă."
+=======
+"              No Limit: Time Off requests can be taken without any prior "
+"allocation."
+msgstr ""
+"Da: Cererile de concediu trebuie să aibă o alocare validă.\n"
+"\n"
+"              Fără limită: Cererile de concediu pot fi luate fără nicio "
+"alocare prealabilă."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "You are not allowed to request time off on a Mandatory Day"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu aveți permisiunea să solicitați concediu într-o zi obligatorie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu aveți permisiunea să solicitați concediu într-o zi obligatorie"
 >>>>>>> upstream/18.0
@@ -5828,11 +7485,17 @@ msgstr "Nu aveți permisiunea să solicitați concediu într-o zi obligatorie"
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__accrual_validity_count
 msgid ""
+<<<<<<< HEAD
 "You can define a period of time where the days carried over will be "
 "available"
 msgstr ""
 <<<<<<< HEAD
 =======
+"Puteți defini o perioadă de timp în care zilele reportate vor fi disponibile"
+>>>>>>> upstream/18.0
+=======
+"You can define a period of time where the days carried over will be available"
+msgstr ""
 "Puteți defini o perioadă de timp în care zilele reportate vor fi disponibile"
 >>>>>>> upstream/18.0
 
@@ -5855,7 +7518,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "You cannot delete a time off which is in %s state"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu puteți șterge un concediu care este în %s vigoare"
+=======
+msgstr "Nu puteți șterge un concediu care este în starea %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți șterge un concediu care este în starea %s"
 >>>>>>> upstream/18.0
@@ -5871,11 +7538,15 @@ msgstr "Nu puteți șterge un concediu care este în trecut"
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
 "You cannot delete an allocation request which has some validated leaves."
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 "Nu puteți șterge o cerere de alocare care are unele zile libere validate."
 =======
 "Nu puteți șterge o cerere de alocare care are unele concedii validate."
+>>>>>>> upstream/18.0
+=======
+msgstr "Nu puteți șterge o cerere de alocare care are unele concedii validate."
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -5883,7 +7554,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "You cannot delete an allocation request which is in %s state."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu puteți șterge o cerere de alocare care se află în %s stare."
+=======
+msgstr "Nu puteți șterge o cerere de alocare care este în starea %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți șterge o cerere de alocare care este în starea %s."
 >>>>>>> upstream/18.0
@@ -5892,6 +7567,7 @@ msgstr "Nu puteți șterge o cerere de alocare care este în starea %s."
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot first approve a time off for %s, because you are not his time off"
 " manager"
 msgstr ""
@@ -5902,16 +7578,29 @@ msgstr ""
 "Nu puteți aproba inițial un concediu pentru %s, deoarece nu sunteți "
 "managerul său de concediu"
 >>>>>>> upstream/18.0
+=======
+"You cannot first approve a time off for %s, because you are not his time off "
+"manager"
+msgstr ""
+"Nu puteți aproba inițial un concediu pentru %s, deoarece nu sunteți "
+"managerul său de concediu"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan_level.py:0
+<<<<<<< HEAD
 msgid ""
 "You cannot have a cap on accrued time without setting a maximum amount."
 msgstr ""
 <<<<<<< HEAD
 "Nu puteți stabili un plafon pentru timpul acumulat fără a stabili o sumă "
 =======
+"Nu puteți stabili un plafon pentru timpul acumulat fără a seta o valoare "
+>>>>>>> upstream/18.0
+=======
+msgid "You cannot have a cap on accrued time without setting a maximum amount."
+msgstr ""
 "Nu puteți stabili un plafon pentru timpul acumulat fără a seta o valoare "
 >>>>>>> upstream/18.0
 "maximă."
@@ -5923,6 +7612,11 @@ msgid ""
 "amount."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu puteți stabili un plafon pentru timpul acumulat anual fără a seta o "
+"valoare maximă."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți stabili un plafon pentru timpul acumulat anual fără a seta o "
 "valoare maximă."
@@ -5938,10 +7632,17 @@ msgid ""
 "affected by this change."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Nu puteți modifica setarea „Sărbători legale incluse” deoarece unul sau mai "
 "multe concedii pentru acest tip de concediu se suprapun cu sărbători legale,"
 " ceea ce înseamnă că soldul acelor angajați ar fi afectat de această "
+"modificare."
+>>>>>>> upstream/18.0
+=======
+"Nu puteți modifica setarea „Sărbători legale incluse” deoarece unul sau mai "
+"multe concedii pentru acest tip de concediu se suprapun cu sărbători legale, "
+"ceea ce înseamnă că soldul acelor angajați ar fi afectat de această "
 "modificare."
 >>>>>>> upstream/18.0
 
@@ -5949,11 +7650,17 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot reduce the duration below the duration of leaves already taken by"
 " the employee."
 <<<<<<< HEAD
 msgstr ""
 =======
+msgstr "Nu puteți reduce durata sub durata concediilor deja luate de angajat."
+>>>>>>> upstream/18.0
+=======
+"You cannot reduce the duration below the duration of leaves already taken by "
+"the employee."
 msgstr "Nu puteți reduce durata sub durata concediilor deja luate de angajat."
 >>>>>>> upstream/18.0
 
@@ -5967,9 +7674,21 @@ msgstr ""
 "Nu puteți refuza această cerere de alocare deoarece angajatul a luat deja "
 "concedii pentru aceasta. Vă rugăm să refuzați sau să ștergeți mai întâi "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "aceste concedii."
 =======
 "acele concedii."
+>>>>>>> upstream/18.0
+=======
+"acele concedii."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid ""
+"You do not have any allocation for this time off type.\n"
+"Please request an allocation before submitting your time off request."
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -5979,7 +7698,12 @@ msgid ""
 "You don't have the rights to apply second approval on a time off request"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu aveți drepturile de a aplica a doua aprobare la o cerere de concediu"
+=======
+"Nu aveți drepturile necesare pentru a aplica a doua aprobare la o cerere de "
+"concediu"
+>>>>>>> upstream/18.0
 =======
 "Nu aveți drepturile necesare pentru a aplica a doua aprobare la o cerere de "
 "concediu"
@@ -5999,6 +7723,11 @@ msgid ""
 "validate this allocation request."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Trebuie să fiți fie aprobatorul de concediu al lui %s, fie administratorul "
+"de concediu pentru a valida această cerere de alocare."
+>>>>>>> upstream/18.0
 =======
 "Trebuie să fiți fie aprobatorul de concediu al lui %s, fie administratorul "
 "de concediu pentru a valida această cerere de alocare."
@@ -6021,8 +7750,13 @@ msgid ""
 "leave"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pentru a aproba acest concediu, trebuie să fiți responsabil de concediu sau "
 "manager de concediu"
+=======
+"Trebuie să fiți responsabil de concediu sau manager de concediu pentru a "
+"aproba acest concediu"
+>>>>>>> upstream/18.0
 =======
 "Trebuie să fiți responsabil de concediu sau manager de concediu pentru a "
 "aproba acest concediu"
@@ -6039,8 +7773,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
+<<<<<<< HEAD
 "You must have manager rights to modify/validate a time off that already "
 "begun"
+=======
+"You must have manager rights to modify/validate a time off that already begun"
+>>>>>>> upstream/18.0
 msgstr ""
 "Trebuie să aveți drepturi de manager pentru a modifica / valida un concediu "
 "deja început"
@@ -6051,11 +7789,21 @@ msgstr ""
 msgid ""
 "You've already booked time off which overlaps with this period:\n"
 "%s\n"
+<<<<<<< HEAD
 "Attempting to double-book your time off won't magically make your vacation 2x better!\n"
 msgstr ""
 "Ați rezervat deja concediu care se suprapune cu această perioadă:\n"
 "%s\n"
 "Încercarea de a vă rezerva de două ori concediu nu va face ca prin magie vacanța dvs. de două ori mai bună!\n"
+=======
+"Attempting to double-book your time off won't magically make your vacation "
+"2x better!\n"
+msgstr ""
+"Ați rezervat deja concediu care se suprapune cu această perioadă:\n"
+"%s\n"
+"Încercarea de a vă rezerva de două ori concediu nu va face ca prin magie "
+"vacanța dvs. de două ori mai bună!\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
@@ -6067,8 +7815,12 @@ msgstr "%(leave_type)s planificat la %(date)s a fost acceptată"
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Your %(leave_type)s planned on %(date)s has been refused"
+<<<<<<< HEAD
 msgstr ""
 "Cererea dvs. de %(leave_type)s planificată la %(date)s a fost refuzată"
+=======
+msgstr "Cererea dvs. de %(leave_type)s planificată la %(date)s a fost refuzată"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
@@ -6081,7 +7833,11 @@ msgstr "Concediul dumneavoastră"
 #: code:addons/hr_holidays/wizard/hr_holidays_cancel_leave.py:0
 msgid "Your time off has been cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Concediul dumneavoastră a fost anulat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediul dumneavoastră a fost anulat."
 >>>>>>> upstream/18.0
@@ -6177,7 +7933,11 @@ msgstr "zile)"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
 msgid "e.g. Extra recuperation, Company unavailability, ..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "de exemplu, recuperare suplimentară, indisponibilitate companie, ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "de exemplu, recuperare suplimentară, indisponibilitate companie, ..."
 >>>>>>> upstream/18.0
@@ -6202,7 +7962,11 @@ msgstr "de la %(date_from)s la %(date_to)s - %(state)s"
 #: code:addons/hr_holidays/static/src/leave_stats/leave_stats.xml:0
 msgid "hour(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "oră/ore"
+>>>>>>> upstream/18.0
 =======
 msgstr "oră/ore"
 >>>>>>> upstream/18.0

@@ -5,11 +5,16 @@
 # Translators:
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -209,6 +214,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"POT-Creation-Date: 2025-05-23 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -261,6 +271,7 @@ msgstr "<span>Prognozat: </span>"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,10 +420,15 @@ msgstr "<span>Prognozat: </span>"
 >>>>>>> upstream/18.0
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr ""
+=======
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr "<strong class=\"d-block mt-3\">Adresă de livrare:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: purchase_stock
@@ -562,11 +578,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">Adresă de livrare</strong>"
+
+#. module: purchase_stock
+#: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
 msgid "<strong>Incoterm:</strong>"
 msgstr "<strong>Incoterm:</strong>"
 
 #. module: purchase_stock
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -865,6 +888,11 @@ msgstr ""
 msgid "A storable product is a product for which you manage stock."
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__is_storable
+msgid "A storable product is a product for which you manage stock."
+msgstr "Un produs stocabil este un produs pentru care gestionați stocul."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__qty_received_method
@@ -924,7 +952,11 @@ msgstr "Setări de configurare"
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_res_partner
 msgid "Contact"
+<<<<<<< HEAD
 msgstr "Contactați"
+=======
+msgstr "Contact"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
@@ -951,7 +983,11 @@ msgstr "Descriere Personalizată"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_picking__days_to_arrive
 msgid "Days To Arrive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zile până la sosire"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_stock
@@ -963,7 +999,11 @@ msgstr "Zile necesare pentru confirmarea unui CA"
 #: model:ir.model.fields,help:purchase_stock.field_res_config_settings__days_to_purchase
 msgid "Days needed to confirm a PO, define when a PO should be validated"
 msgstr ""
+<<<<<<< HEAD
 "Zilele necesare pentru confirmarea unui PO, definiți când trebuie să fie "
+=======
+"Zilele necesare pentru confirmarea unui CA, definiți când trebuie să fie "
+>>>>>>> upstream/18.0
 "validat un CA"
 
 #. module: purchase_stock
@@ -977,7 +1017,11 @@ msgstr "Zile pentru Achiziție"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_picking__delay_pass
 msgid "Delay Pass"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trecere întârziere"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__picking_type_id
@@ -1029,12 +1073,20 @@ msgstr "Dată efectivă"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.vendor_delay_report_filter
 msgid "Effective Date Last Year"
+<<<<<<< HEAD
 msgstr "Data intrării în vigoare anul trecut"
+=======
+msgstr "Data efectivă anul trecut"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_report__days_to_arrival
 msgid "Effective Days To Arrival"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zile efective până la sosire"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
@@ -1065,7 +1117,11 @@ msgstr "Complet primit"
 #. odoo-javascript
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 msgid "Generate the draft vendor bill."
+<<<<<<< HEAD
 msgstr "Generați facturi furnizor ciornă."
+=======
+msgstr "Generează factura furnizor ciornă."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-javascript
@@ -1097,17 +1153,29 @@ msgstr "Locație Incoterm"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__is_shipped
 msgid "Is Shipped"
+<<<<<<< HEAD
 msgstr "E expediat"
+=======
+msgstr "Este expediat"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_res_config_settings__is_installed_sale
 msgid "Is the Sale Module Installed"
+<<<<<<< HEAD
 msgstr "Este Instalat Modulul de Vânzare"
+=======
+msgstr "Este instalat modulul de vânzare"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_account_move
 msgid "Journal Entry"
+<<<<<<< HEAD
 msgstr "Înregistrare de jurnal "
+=======
+msgstr "Înregistrare de jurnal"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_account_move_line
@@ -1122,12 +1190,20 @@ msgstr "Ultima achiziție"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_procurement_group__purchase_line_ids
 msgid "Linked Purchase Order Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linii de comandă de achiziție asociate"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__location_final_id
 msgid "Location from procurement"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Locație din aprovizionare"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_purchase
@@ -1137,7 +1213,11 @@ msgstr "Logistică"
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_stock_lot
 msgid "Lot/Serial"
+<<<<<<< HEAD
 msgstr "Lot/Serial"
+=======
+msgstr "Lot/Serie"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
@@ -1151,25 +1231,44 @@ msgid ""
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
 msgstr ""
+<<<<<<< HEAD
 "Marja de eroare pentru timpul de livrare a furnizorului. Când sistemul "
 "generează comenzi de achiziție pentru comandare de produse, acestea vor fi "
 "programate cu mai multe zile mai devreme, să facă față întârzierilor "
 "neașteptate ale furnizorului."
+=======
+"Marja de eroare pentru termenele de livrare ale furnizorului. Când sistemul "
+"generează comenzi de achiziție pentru reaprovizionarea produselor, acestea "
+"vor fi programate cu atâtea zile mai devreme pentru a face față "
+"întârzierilor neașteptate ale furnizorului."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_stock_warehouse_orderpoint
 msgid "Minimum Inventory Rule"
+<<<<<<< HEAD
 msgstr "Regula inventarului minim"
+=======
+msgstr "Regula stocului minim"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_stock
 msgid "Move forward expected request creation date by"
+<<<<<<< HEAD
 msgstr "Mutare înainte a datei de creare a cererii așteptate cu"
+=======
+msgstr "Mută înainte data estimată de creare a cererii cu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
 msgid "Next transfer(s) impacted:"
+<<<<<<< HEAD
 msgstr "Transferul (transferurile) următoare:"
+=======
+msgstr "Următorul(e) transfer(uri) afectat(e):"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_partner_view_purchase_buttons_inherit
@@ -1179,12 +1278,20 @@ msgstr "Nu există date încă"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_help_message_template
 msgid "No receipt yet! Automate them with purchase orders."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nicio recepție încă! Automatizați-le cu comenzi de achiziție."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields.selection,name:purchase_stock.selection__purchase_order__receipt_status__pending
 msgid "Not Received"
+<<<<<<< HEAD
 msgstr "Nu a fost primit"
+=======
+msgstr "Neprimit"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
@@ -1193,8 +1300,13 @@ msgid ""
 "Odoo is not able to generate the anglo saxon entries. The total valuation of"
 " %s is zero."
 msgstr ""
+<<<<<<< HEAD
 "Odoo nu este capabil să genereze intrări anglo saxon. Evaluarea totală a%s "
 "este 0."
+=======
+"Odoo nu poate genera înregistrările anglo-saxone. Evaluarea totală a %s este"
+" zero."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.vendor_delay_report_view_graph
@@ -1212,7 +1324,11 @@ msgstr "Rată livrare la timp"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_vendor_delay_report__qty_on_time
 msgid "On-Time Quantity"
+<<<<<<< HEAD
 msgstr "Cantitatea la timp"
+=======
+msgstr "Cantitate la timp"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.actions.act_window,name:purchase_stock.action_purchase_vendor_delay_report
@@ -1223,12 +1339,20 @@ msgstr "Livrare la timp"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_partner_view_purchase_buttons_inherit
 msgid "On-time Rate"
+<<<<<<< HEAD
 msgstr "Rata la timp"
+=======
+msgstr "Rată la timp"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__orderpoint_id
 msgid "Orderpoint"
+<<<<<<< HEAD
 msgstr "Orderpoint"
+=======
+msgstr "Punct de comandă"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order__on_time_rate
@@ -1240,7 +1364,11 @@ msgid ""
 "purchase_stock.on_time_delivery_days or the default 365"
 msgstr ""
 "În ultimele x zile; numărul de produse primite la timp împărțit la numărul "
+<<<<<<< HEAD
 "de produse comandate. x este fie Parametrul de Sistem "
+=======
+"de produse comandate. x este fie parametrul de sistem "
+>>>>>>> upstream/18.0
 "purchase_stock.on_time_delivery_days sau implicit 365"
 
 #. module: purchase_stock
@@ -1264,7 +1392,11 @@ msgstr "Cont diferență de preț"
 #. odoo-javascript
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 msgid "Process all the receipt quantities."
+<<<<<<< HEAD
 msgstr "Procesați toate cantitățile de primire."
+=======
+msgstr "Procesează toate cantitățile de recepție."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_procurement_group
@@ -1275,7 +1407,11 @@ msgstr "Grup de aprovizionare"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__group_id
 msgid "Procurement group that generated this line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupul de aprovizionare care a generat această linie"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_product_template
@@ -1297,7 +1433,11 @@ msgstr "Reaprovizionare produs"
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_stock_replenish_mixin
 msgid "Product Replenish Mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mixin reaprovizionare produs"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_warehouse_orderpoint__product_supplier_id
@@ -1313,7 +1453,11 @@ msgstr "Variantă de produs"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__propagate_cancel
 msgid "Propagate cancellation"
+<<<<<<< HEAD
 msgstr "Propagare anulare"
+=======
+msgstr "Propagă anularea"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_res_partner__purchase_line_ids
@@ -1343,13 +1487,21 @@ msgstr "Comenzi de achiziție"
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_purchase_report
 msgid "Purchase Report"
+<<<<<<< HEAD
 msgstr "Raport Achiziție"
+=======
+msgstr "Raport achiziție"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "Purchase Security Lead Time"
+<<<<<<< HEAD
 msgstr "Perioadă Termen Achiziție Securitate"
+=======
+msgstr "Perioadă de siguranță achiziție"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_warehouse_orderpoint__purchase_visibility_days
@@ -1359,7 +1511,11 @@ msgstr "Zile vizibilitate achiziție"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_lot__purchase_order_count
 msgid "Purchase order count"
+<<<<<<< HEAD
 msgstr "Nr. Comenzi de achiziție"
+=======
+msgstr "Număr comenzi de achiziție"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order__dest_address_id
@@ -1367,8 +1523,13 @@ msgid ""
 "Put an address if you want to deliver directly from the vendor to the "
 "customer. Otherwise, keep empty to deliver to your own company."
 msgstr ""
+<<<<<<< HEAD
 "Puneți o adresă dacă doriți să livrați direct de la furnizor către client. "
 "În caz contrar, păstrați-vă gol pentru a vă livra companiei."
+=======
+"Introduceți o adresă dacă doriți să livrați direct de la furnizor către "
+"client. În caz contrar, lăsați gol pentru a livra către propria companie."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_order_view_form_inherit
@@ -1383,13 +1544,21 @@ msgstr "Stare recepție"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_order_view_form_inherit
 msgid "Receive Products"
+<<<<<<< HEAD
 msgstr "Primire Produse"
+=======
+msgstr "Primește produse"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-javascript
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 msgid "Receive the ordered products."
+<<<<<<< HEAD
 msgstr "Primiți produsele comandate"
+=======
+msgstr "Primește produsele comandate"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__qty_received_method
@@ -1408,11 +1577,21 @@ msgid ""
 "            Orange: To process today\n"
 "            Green: On time"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Roșu: Întârziat\n"
+"            Portocaliu: De procesat azi\n"
+"            Verde: La timp"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_purchase
 msgid "Request your vendors to deliver to your customers"
+<<<<<<< HEAD
 msgstr "Solicitați furnizorilor să livreze clienților"
+=======
+msgstr "Solicitați furnizorilor să livreze clienților dvs."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-javascript
@@ -1449,18 +1628,30 @@ msgstr "Setează ca furnizor"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_product_supplierinfo__show_set_supplier_button
 msgid "Show Set Supplier Button"
+<<<<<<< HEAD
 msgstr "Afișare buton Setează Furnizor"
+=======
+msgstr "Afișează butonul Setează Furnizor"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_product_replenish__show_vendor
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_replenish_mixin__show_vendor
 msgid "Show Vendor"
+<<<<<<< HEAD
 msgstr "Afișare Furnizor"
+=======
+msgstr "Afișează Furnizor"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_warehouse_orderpoint__show_supplier
 msgid "Show supplier column"
+<<<<<<< HEAD
 msgstr "Afișare coloană furnizor"
+=======
+msgstr "Afișează coloana furnizor"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_stock_move
@@ -1512,7 +1703,11 @@ msgstr "Furnizor"
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_product_supplierinfo
 msgid "Supplier Pricelist"
+<<<<<<< HEAD
 msgstr "Lista de preturi Furnizor"
+=======
+msgstr "Listă de prețuri Furnizor"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_replenishment_info__supplierinfo_ids
@@ -1522,13 +1717,21 @@ msgstr "Informații furnizor"
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order__default_location_dest_id_usage
 msgid "Technical field used to display the Drop Ship Address"
+<<<<<<< HEAD
 msgstr "Câmpul tehnic utilizat pentru afișarea adresei de livrare directe"
+=======
+msgstr "Câmp tehnic folosit pentru afișarea adresei de livrare directă"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
 #: code:addons/purchase_stock/models/stock.py:0
 msgid "The following replenishment order has been generated"
+<<<<<<< HEAD
 msgstr "A fost generată următoarea comandă de completare"
+=======
+msgstr "A fost generată următoarea comandă de reaprovizionare"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
@@ -1537,8 +1740,13 @@ msgid ""
 "The quantities on your purchase order indicate less than billed. You should "
 "ask for a refund."
 msgstr ""
+<<<<<<< HEAD
 "Cantitățile din comanda dvs. de achiziție indică mai puțin decât facturarea."
 " Ar trebui să solicitați o stornare."
+=======
+"Cantitățile din comanda dvs. de achiziție indică mai puțin decât facturatul."
+" Ar trebui să solicitați o rambursare."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
@@ -1548,6 +1756,13 @@ msgid ""
 "location (%(location)s) of reordering rule (%(reordering_rule)s) for product"
 " %(product)s. Change the operation type or cancel the request for quotation."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Depozitul de tip operațiune (%(operation_type)s) nu este consistent cu "
+"locația (%(location)s) regulii de reaprovizionare (%(reordering_rule)s) "
+"pentru produsul %(product)s. Schimbați tipul de operațiune sau anulați "
+"cererea de ofertă."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
@@ -1557,10 +1772,17 @@ msgid ""
 " %s (no vendor defined, minimum quantity not reached, dates not valid, ...)."
 " Go on the product form and complete the list of vendors."
 msgstr ""
+<<<<<<< HEAD
 "Nu există niciun furnizor pentru a genera comanda de achiziție pentru "
 "produsului %s (nu a fost definit furnizorul, cantitatea minimă neatinsă, "
 "datele nevalide, ...). Accesați formularul de produs și completați lista "
 "furnizori."
+=======
+"Nu există niciun preț de furnizor potrivit pentru a genera comanda de "
+"achiziție pentru produsul %s (nu este definit niciun furnizor, cantitatea "
+"minimă nu este atinsă, datele nu sunt valide, ...). Accesați formularul de "
+"produs și completați lista de furnizori."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_product_product__property_account_creditor_price_difference
@@ -1570,9 +1792,15 @@ msgid ""
 "difference between a purchase order and its related vendor bill when "
 "validating this vendor bill."
 msgstr ""
+<<<<<<< HEAD
 "Acest cont este utilizat în evaluare automatizată a inventarului pentru a "
 "înregistra diferența de preț între o comandă de Achiziție și factura "
 "furnizorului aferent atunci când se validează această factură de furnizor."
+=======
+"Acest cont este folosit în evaluarea automată a stocului pentru a înregistra"
+" diferența de preț între o comandă de achiziție și factura furnizorului "
+"aferentă la validarea acesteia."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_product_category__property_account_creditor_price_difference_categ
@@ -1580,7 +1808,11 @@ msgid ""
 "This account will be used to value price difference between purchase price "
 "and accounting cost."
 msgstr ""
+<<<<<<< HEAD
 "Acest cont va fi utilizat pentru a evalua diferența de preț între prețul de "
+=======
+"Acest cont va fi folosit pentru a evalua diferența de preț între prețul de "
+>>>>>>> upstream/18.0
 "achiziție și costul contabil."
 
 #. module: purchase_stock
@@ -1592,16 +1824,28 @@ msgid ""
 "on-demand flow. The requested delivery address will be the customer delivery"
 " address and not your warehouse."
 msgstr ""
+<<<<<<< HEAD
 "Acest lucru adaugă un traseu de livrare directă  aplicabil le produse  in "
 "comandă pentru a solicita furnizorilor să le livreze clienților. Un produs "
 "cu livrare directă va genera o cerere de achiziție pentru ofertă odată "
 "confirmată comanda de vânzare. Acesta este un flux la cerere. Adresa de "
 "livrare solicitată va fi adresa de livrare a clientului și nu depozitul dvs."
+=======
+"Aceasta adaugă o rută de livrare directă ce se aplică produselor pentru a "
+"solicita furnizorilor să livreze clienților dvs. Un produs cu livrare "
+"directă va genera o cerere de ofertă de achiziție odată ce comanda de "
+"vânzare este confirmată. Acesta este un flux la cerere. Adresa de livrare "
+"solicitată va fi adresa clientului, nu a depozitului dvs."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order__picking_type_id
 msgid "This will determine operation type of incoming shipment"
+<<<<<<< HEAD
 msgstr "Aceasta va determina tipul de operație pentru recepție"
+=======
+msgstr "Aceasta va determina tipul de operațiune pentru recepția de intrare"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
@@ -1610,18 +1854,28 @@ msgid ""
 "Those dates couldn’t be modified accordingly on the receipt %s which had "
 "already been validated."
 msgstr ""
+<<<<<<< HEAD
 "Nu se pot modifica aceste date în consecință pe recepția %s care a fost deja"
 " validată."
+=======
+"Acele date nu au putut fi modificate corespunzător pe recepția %s care a "
+"fost deja validată."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
 #: code:addons/purchase_stock/models/purchase_order.py:0
 msgid "Those dates have been updated accordingly on the receipt %s."
+<<<<<<< HEAD
 msgstr "Aceste date au fost actualizate în consecință pe recepția %s."
+=======
+msgstr "Aceste date au fost actualizate corespunzător pe recepția %s."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_vendor_delay_report__qty_total
 msgid "Total Quantity"
+<<<<<<< HEAD
 msgstr "Cantitatea totală"
 
 #. module: purchase_stock
@@ -1921,6 +2175,16 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Cantitate totală"
+
+#. module: purchase_stock
+#: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__is_storable
+msgid "Track Inventory"
+msgstr "Urmărește stocul"
+
+#. module: purchase_stock
+>>>>>>> upstream/18.0
 #: model:ir.model,name:purchase_stock.model_stock_picking
 msgid "Transfer"
 msgstr "Transfer"
@@ -1932,12 +2196,21 @@ msgid ""
 "Unable to cancel purchase order(s): %s since they have receipts that are "
 "already done."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nu se pot anula comenzile de achiziție: %s deoarece au recepții deja "
+"finalizate."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-javascript
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 msgid "Validate the receipt of all ordered products."
+<<<<<<< HEAD
 msgstr "Validați primirea tuturor produselor comandate."
+=======
+msgstr "Validați recepția tuturor produselor comandate."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_product_replenish__supplier_id
@@ -1957,12 +2230,20 @@ msgstr "Raport întârziere furnizor"
 #. odoo-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "Vendor Lead Time"
+<<<<<<< HEAD
 msgstr "Termen Livrare Vânzători"
+=======
+msgstr "Termen livrare furnizor"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.actions.act_window,help:purchase_stock.action_purchase_vendor_delay_report
 msgid "Vendor On-time Delivery analysis"
+<<<<<<< HEAD
 msgstr "Analiză Furnizor Livrare la timp"
+=======
+msgstr "Analiză livrare la timp furnizor"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.view_stock_replenishment_info_stock_purchase_inherit
@@ -1983,8 +2264,12 @@ msgstr "Depozit"
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_stock_warehouse__buy_to_resupply
 msgid "When products are bought, they can be delivered to this warehouse"
+<<<<<<< HEAD
 msgstr ""
 "Când produsele sunt achiziționate, se pot trimite către această magazie"
+=======
+msgstr "Când produsele sunt cumpărate, pot fi livrate către acest depozit"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
@@ -1994,8 +2279,13 @@ msgid ""
 "created to fulfill the need.<br/>Note: This rule will be used in combination"
 " with the rules<br/>of the reception route(s)"
 msgstr ""
+<<<<<<< HEAD
 "Când produsele sunt necesare în <b>%s</b>, <br/> se creează o cerere de "
 "ofertă pentru a satisface nevoia.<br/>Notă: Această regulă va fi utilizată "
+=======
+"Când produsele sunt necesare în <b>%s</b>, <br/>se creează o cerere de "
+"ofertă pentru a acoperi necesarul.<br/>Notă: Această regulă va fi folosită "
+>>>>>>> upstream/18.0
 "în combinație cu regulile<br/>traseului de recepție"
 
 #. module: purchase_stock
@@ -2006,13 +2296,21 @@ msgid ""
 "Create a return first."
 msgstr ""
 "Nu puteți scădea cantitatea comandată sub cantitatea primită.\n"
+<<<<<<< HEAD
 "Creați mai întâi o întoarcere."
+=======
+"Creați mai întâi un retur."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
 #: code:addons/purchase_stock/models/purchase_order.py:0
 msgid "You must set a Vendor Location for this partner %s"
+<<<<<<< HEAD
 msgstr "Trebuie să setați un Punct de Vânzare pentru acest partener %s"
+=======
+msgstr "Trebuie să setați o Locație Furnizor pentru acest partener %s"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_stock
@@ -2022,7 +2320,11 @@ msgstr "zile"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
 msgid "of"
+<<<<<<< HEAD
 msgstr "de"
+=======
+msgstr "din"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po

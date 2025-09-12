@@ -88,6 +88,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Sergio Zanchetta <primes2h@gmail.com>, 2024
 # Marianna Ciofani, 2025
 # Wil Odoo, 2025
@@ -511,6 +512,11 @@
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 # Marianna Ciofani, 2025
 >>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
+# Marianna Ciofani, 2025
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -518,6 +524,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -855,6 +862,9 @@ msgstr ""
 =======
 "Last-Translator: Marianna Ciofani, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -947,7 +957,11 @@ msgstr ""
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
 msgid "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" title=\"Company\"/>"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" title=\"Azienda\"/>"
+=======
+msgstr "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Azienda\" title=\"Azienda\"/>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
@@ -1204,7 +1218,11 @@ msgstr "Procedura guidata pianificazione attività"
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid "Add a new employee"
+<<<<<<< HEAD
 msgstr "Aggiungi nuovo dipendente"
+=======
+msgstr "Aggiungi un nuovo dipendente"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_departure_wizard__departure_description
@@ -1379,7 +1397,11 @@ msgstr "Presenza"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Attendance/Point of Sale"
+<<<<<<< HEAD
 msgstr "Presenza/Punto Vendita"
+=======
+msgstr "Presenza/Punto vendita"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__mail_alias__alias_contact__employees
@@ -1389,12 +1411,20 @@ msgstr "Dipendenti autenticati"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.discuss_channel_view_form
 msgid "Auto Subscribe Departments"
+<<<<<<< HEAD
 msgstr "Dipartimenti ad iscrizione automatica"
+=======
+msgstr "Iscrizione automatica uffici"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_discuss_channel__subscription_department_ids
 msgid "Automatically subscribe members of those departments to the channel."
+<<<<<<< HEAD
 msgstr "Iscrivere automaticamente al canale i membri di questi reparti."
+=======
+msgstr "Iscrizione automatica al canale per gli affiliati a questi uffici."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1427,25 +1457,41 @@ msgstr "Avatar"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_1024
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_1024
 msgid "Avatar 1024"
+<<<<<<< HEAD
 msgstr "Avatar 1024"
+=======
+msgstr "Avatar a 1024"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_128
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_128
 msgid "Avatar 128"
+<<<<<<< HEAD
 msgstr "Avatar 128"
+=======
+msgstr "Avatar a 128"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_256
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_256
 msgid "Avatar 256"
+<<<<<<< HEAD
 msgstr "Avatar 256"
+=======
+msgstr "Avatar a 256"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_512
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_512
 msgid "Avatar 512"
+<<<<<<< HEAD
 msgstr "Avatar 512"
+=======
+msgstr "Avatar a 512"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -1472,7 +1518,11 @@ msgstr "Laurea o superiore"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__barcode
 #: model:ir.model.fields,field_description:hr.field_res_users__barcode
 msgid "Badge ID"
+<<<<<<< HEAD
 msgstr "Badge ID"
+=======
+msgstr "ID tesserino"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__bank_account_id
@@ -1527,7 +1577,11 @@ msgstr "File binario"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__can_edit
 msgid "Can Edit"
+<<<<<<< HEAD
 msgstr "Può Modificare"
+=======
+msgstr "Può modificare"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_users_simple_form
@@ -1549,12 +1603,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee__certificate
 #: model:ir.model.fields,field_description:hr.field_res_users__certificate
 msgid "Certificate Level"
+<<<<<<< HEAD
 msgstr "Livello certificato"
+=======
+msgstr "Grado diploma"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.res_users_action_my
 msgid "Change my Preferences"
+<<<<<<< HEAD
 msgstr "Modifica preferenze personali"
+=======
+msgstr "Cambia preferenze personali"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
@@ -1575,7 +1637,11 @@ msgstr "Direttore tecnico"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__child_ids
 msgid "Child Departments"
+<<<<<<< HEAD
 msgstr "Dipartimenti secondari"
+=======
+msgstr "Uffici secondari"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
@@ -1607,7 +1673,11 @@ msgstr "Istruttore"
 #. odoo-python
 #: code:addons/hr/models/mail_activity_plan_template.py:0
 msgid "Coach of employee %s is not set."
+<<<<<<< HEAD
 msgstr "Supervisore non impostato per il dipendente %s."
+=======
+msgstr "Istruttore non impostato per il dipendente %s."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__code
@@ -1650,7 +1720,11 @@ msgstr "Azienda"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__company_country_id
 msgid "Company Country"
+<<<<<<< HEAD
 msgstr "Paese dell'azienda"
+=======
+msgstr "Nazione azienda"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.print_employee_badge
@@ -1708,7 +1782,11 @@ msgstr "Nome contatto"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__emergency_phone
 #: model:ir.model.fields,field_description:hr.field_res_users__emergency_phone
 msgid "Contact Phone"
+<<<<<<< HEAD
 msgstr "Contatto telefono"
+=======
+msgstr "Telefono contatto"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_contract_type
@@ -1756,20 +1834,32 @@ msgstr "Data creazione"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_users_simple_form_inherit_hr
 msgid "Create Employee"
+<<<<<<< HEAD
 msgstr "Crea Dipendente"
+=======
+msgstr "Crea dipendente"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Create User"
+<<<<<<< HEAD
 msgstr "Crea Utente"
+=======
+msgstr "Crea utente"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
 msgid "Create a new department"
+<<<<<<< HEAD
 msgstr "Crea un nuovo reparto"
+=======
+msgstr "Crea un nuovo ufficio"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_contract_type_action
@@ -1835,7 +1925,11 @@ msgstr "Valuta"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__no_of_employee
 msgid "Current Number of Employees"
+<<<<<<< HEAD
 msgstr "Numero attuale di dipendenti"
+=======
+msgstr "Attuale numero di dipendenti"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1927,7 +2021,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 #: model_terms:ir.ui.view,arch_db:hr.view_job_filter
 msgid "Department"
+<<<<<<< HEAD
 msgstr "Dipartimento"
+=======
+msgstr "Ufficio"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_mail_activity_plan__department_assignable
@@ -1937,7 +2035,11 @@ msgstr "Dipartimento assegnabile"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__name
 msgid "Department Name"
+<<<<<<< HEAD
 msgstr "Nome dipartimento"
+=======
+msgstr "Nome ufficio"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
@@ -1951,7 +2053,11 @@ msgstr "Organizzazione dipartimento"
 #: model:ir.ui.menu,name:hr.menu_hr_department_kanban
 #: model_terms:ir.ui.view,arch_db:hr.view_department_filter
 msgid "Departments"
+<<<<<<< HEAD
 msgstr "Dipartimenti"
+=======
+msgstr "Uffici"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
@@ -1991,7 +2097,11 @@ msgstr "Persone a carico"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__child_ids
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__child_ids
 msgid "Direct subordinates"
+<<<<<<< HEAD
 msgstr "Sottoposti diretti"
+=======
+msgstr "Subordinati diretti"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_employee
@@ -2153,7 +2263,11 @@ msgstr "Modifica dei dipendenti"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.print_employee_badge
 msgid "Employee Image"
+<<<<<<< HEAD
 msgstr "Immagine Dipendente"
+=======
+msgstr "Immagine dipendente"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__private_lang
@@ -2164,7 +2278,11 @@ msgstr "Lingua dipendente"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__name
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 msgid "Employee Name"
+<<<<<<< HEAD
 msgstr "Nome Dipendente"
+=======
+msgstr "Nome dipendente"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.mail_activity_plan_action
@@ -2214,7 +2332,11 @@ msgstr "Numero conto bancario del dipendente"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_country_id
 msgid "Employee's Country"
+<<<<<<< HEAD
 msgstr "Nazione dipendente"
+=======
+msgstr "Nazione del dipendente"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
@@ -2258,12 +2380,20 @@ msgstr "Dipendenti"
 #: model:ir.model.fields,field_description:hr.field_res_partner__employees_count
 #: model:ir.model.fields,field_description:hr.field_res_users__employees_count
 msgid "Employees Count"
+<<<<<<< HEAD
 msgstr "Conteggio Dipendenti"
+=======
+msgstr "Numero dipendenti"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_category_list
 msgid "Employees Tags"
+<<<<<<< HEAD
 msgstr "Cartellini dei dipendenti"
+=======
+msgstr "Etichette dipendenti"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__contract_type_id
@@ -2298,8 +2428,13 @@ msgstr "Amplia la tua conoscenza di vari settori commerciali"
 msgid ""
 "Expected number of employees for this job position after new recruitment."
 msgstr ""
+<<<<<<< HEAD
 "Numero atteso di dipendenti per questa posizione lavorativa dopo le nuove "
 "assunzioni."
+=======
+"Numero atteso di dipendenti, dopo la nuova selezione, per questa posizione "
+"lavorativa."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2336,7 +2471,11 @@ msgstr "Stato di famiglia"
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__gender__female
 msgid "Female"
+<<<<<<< HEAD
 msgstr "Femmina"
+=======
+msgstr "Donna"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__study_field
@@ -2347,7 +2486,11 @@ msgstr "Campo di studio"
 #. module: hr
 #: model:hr.departure.reason,name:hr.departure_fired
 msgid "Fired"
+<<<<<<< HEAD
 msgstr "Licenziato"
+=======
+msgstr "Licenziamento"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_follower_ids
@@ -2460,7 +2603,11 @@ msgstr "Raggruppa per"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_discuss_channel__subscription_department_ids
 msgid "HR Departments"
+<<<<<<< HEAD
 msgstr "Reparti risorse umane"
+=======
+msgstr "Uffici risorse umane"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.server,name:hr.ir_cron_data_check_work_permit_validity_ir_actions_server
@@ -2476,7 +2623,11 @@ msgstr "Stato Presenza risorse umane"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "HR Settings"
+<<<<<<< HEAD
 msgstr "Impostazioni risorse umane"
+=======
+msgstr "Impostazioni RU"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_manager_department_report__has_department_manager_access
@@ -2533,7 +2684,11 @@ msgstr "Unità distanza casa-lavoro"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__hr_icon_display
 #: model:ir.model.fields,field_description:hr.field_resource_resource__hr_icon_display
 msgid "Hr Icon Display"
+<<<<<<< HEAD
 msgstr "Icona RU visualizzata"
+=======
+msgstr "Visualizzazione icona RU"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_manager_department_report
@@ -2546,7 +2701,11 @@ msgstr "Rapporto del dipartimento del manager hr"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__hr_presence_state
 #: model:ir.model.fields,field_description:hr.field_res_users__hr_presence_state
 msgid "Hr Presence State"
+<<<<<<< HEAD
 msgstr "Stato Presenza Hr"
+=======
+msgstr "Stato presenza RU"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_main
@@ -2580,7 +2739,11 @@ msgstr "Copia della carta d'identità"
 #: model:ir.model.fields,help:hr.field_hr_employee__barcode
 #: model:ir.model.fields,help:hr.field_res_users__barcode
 msgid "ID used for employee identification."
+<<<<<<< HEAD
 msgstr "ID usato per identificazione dipendente."
+=======
+msgstr "ID utilizzato per identificare il dipendente."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__im_status
@@ -2605,7 +2768,11 @@ msgstr "Icona per indicare un'attività eccezione."
 #: model:ir.model.fields,field_description:hr.field_hr_employee__identification_id
 #: model:ir.model.fields,field_description:hr.field_res_users__identification_id
 msgid "Identification No"
+<<<<<<< HEAD
 msgstr "Doc. identificativo"
+=======
+msgstr "N° carta identità"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_department__message_needaction
@@ -2630,8 +2797,13 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the resource "
 "record without removing it."
 msgstr ""
+<<<<<<< HEAD
 "Se il campo attivo è impostato a falso, permetterà di nascondere il record "
 "risorsa senza rimuoverlo."
+=======
+"Se il campo Attivo è impostato a falso, consente di nascondere il record "
+"della risorsa senza rimuoverlo."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__private_car_plate
@@ -2648,31 +2820,51 @@ msgstr "Immagine"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_1024
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_1024
 msgid "Image 1024"
+<<<<<<< HEAD
 msgstr "Immagine 1024"
+=======
+msgstr "Immagine a 1024"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_128
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_128
 msgid "Image 128"
+<<<<<<< HEAD
 msgstr "Immagine 128"
+=======
+msgstr "Immagine a 128"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_256
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_256
 msgid "Image 256"
+<<<<<<< HEAD
 msgstr "Immagine 256"
+=======
+msgstr "Immagine a 256"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_512
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_512
 msgid "Image 512"
+<<<<<<< HEAD
 msgstr "Immagine 512"
+=======
+msgstr "Immagine a 512"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "Import Template for Employees"
+<<<<<<< HEAD
 msgstr "Importa un modello per dipendenti"
+=======
+msgstr "Importa modello per dipendenti"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_interim
@@ -2758,13 +2950,21 @@ msgstr "Descrizione Lavoro"
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Job Title"
+<<<<<<< HEAD
 msgstr "Qualifica"
+=======
+msgstr "Figura professionale"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__jobs_ids
 #: model_terms:ir.ui.view,arch_db:hr.view_job_filter
 msgid "Jobs"
+<<<<<<< HEAD
 msgstr "Posizioni lavorative"
+=======
+msgstr "Lavori"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__lang
@@ -2790,7 +2990,11 @@ msgstr "Ultima attività"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__last_activity_time
 #: model:ir.model.fields,field_description:hr.field_res_users__last_activity_time
 msgid "Last Activity Time"
+<<<<<<< HEAD
 msgstr "Tempo dell'ultima attività"
+=======
+msgstr "Orario ultima attività"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__write_uid
@@ -2828,7 +3032,11 @@ msgstr "Attività in ritardo"
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_tree
 msgid "Launch Plan"
+<<<<<<< HEAD
 msgstr "Lancia il Piano"
+=======
+msgstr "Avvia piano"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2857,7 +3065,11 @@ msgstr "Creiamo una posizione lavorativa."
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Location"
+<<<<<<< HEAD
 msgstr "Ubicazione"
+=======
+msgstr "Luogo"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__location_number
@@ -2899,7 +3111,11 @@ msgstr "Allegato principale"
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__gender__male
 msgid "Male"
+<<<<<<< HEAD
 msgstr "Maschio"
+=======
+msgstr "Uomo"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.department,name:hr.dep_management
@@ -2934,7 +3150,11 @@ msgstr "Stato civile"
 #. module: hr
 #: model:hr.job,name:hr.job_marketing
 msgid "Marketing and Community Manager"
+<<<<<<< HEAD
 msgstr "Responsabile marketing e community"
+=======
+msgstr "Responsabile marketing e comunità"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -2945,12 +3165,20 @@ msgstr "Sposato/a"
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__master
 msgid "Master"
+<<<<<<< HEAD
 msgstr "Master"
+=======
+msgstr "Laurea magistrale"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__master_department_id
 msgid "Master Department"
+<<<<<<< HEAD
 msgstr "Dipartimento principale"
+=======
+msgstr "Ufficio principale"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2973,7 +3201,11 @@ msgstr "Membro del dipartimento"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__member_ids
 msgid "Members"
+<<<<<<< HEAD
 msgstr "Soci"
+=======
+msgstr "Iscritti"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_ir_ui_menu
@@ -3015,7 +3247,11 @@ msgstr "Scadenza mie attività"
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "My Department"
+<<<<<<< HEAD
 msgstr "Il mio dipartimento"
+=======
+msgstr "Il mio ufficio"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
@@ -3027,7 +3263,11 @@ msgstr "Il mio profilo"
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "My Team"
+<<<<<<< HEAD
 msgstr "Mio team"
+=======
+msgstr "Il mio team"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__name
@@ -3039,7 +3279,11 @@ msgstr "Nome"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__country_id
 msgid "Nationality (Country)"
+<<<<<<< HEAD
 msgstr "Nazionalità"
+=======
+msgstr "Nazionalità (nazione)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -3177,7 +3421,12 @@ msgstr "Numero di dipendenti"
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job__no_of_employee
 msgid "Number of employees currently occupying this job position."
+<<<<<<< HEAD
 msgstr "Numero di dipendenti attualmente occupanti questa posizione."
+=======
+msgstr ""
+"Numero di dipendenti che occupano attualmente la posizione lavorativa."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_has_error_counter
@@ -3203,7 +3452,11 @@ msgstr "Numero di messaggi con errore di consegna"
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job__no_of_recruitment
 msgid "Number of new employees you expect to recruit."
+<<<<<<< HEAD
 msgstr "Numero di dipendenti che si intende assumere."
+=======
+msgstr "Numero atteso di nuovi dipendenti da assumere."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__work_location_type__office
@@ -3307,7 +3560,11 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__parent_id
 msgid "Parent Department"
+<<<<<<< HEAD
 msgstr "Dipartimento principale"
+=======
+msgstr "Ufficio superiore"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__parent_path
@@ -3318,7 +3575,11 @@ msgstr "Percorso primario"
 #: model:ir.model.fields,help:hr.field_hr_employee__user_partner_id
 #: model:ir.model.fields,help:hr.field_hr_employee_public__user_partner_id
 msgid "Partner-related data of the user"
+<<<<<<< HEAD
 msgstr "Dati utente collegati al partner"
+=======
+msgstr "Dati utente correlati al partner"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -3335,7 +3596,11 @@ msgstr "Passione per i prodotti software"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__passport_id
 #: model:ir.model.fields,field_description:hr.field_res_users__passport_id
 msgid "Passport No"
+<<<<<<< HEAD
 msgstr "N. passaporto"
+=======
+msgstr "N° passaporto"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -3398,7 +3663,11 @@ msgstr "Luogo di nascita"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__plan_ids
 msgid "Plan"
+<<<<<<< HEAD
 msgstr "Pianificazione"
+=======
+msgstr "Piano"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -3461,7 +3730,11 @@ msgstr ""
 "Politica di pubblicazione messaggi su documenti usando il gateway di posta.\n"
 "- tutti: tutti possono pubblicare\n"
 "- partner: solo partner autenticati\n"
+<<<<<<< HEAD
 "- follower: solo chi segue il documento collegato o gli iscritti ai relativi canali\n"
+=======
+"- chi sta seguendo: solo chi segue il documento collegato o gli iscritti ai relativi canali\n"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
@@ -3481,7 +3754,11 @@ msgstr "Presenza dei dipendenti"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Presence reporting screen, email and IP address control."
+<<<<<<< HEAD
 msgstr "Rapporto presenze a schermo con controllo e-mail e indirizzi IP."
+=======
+msgstr "Rapporto presenze a schermo con controllo e-mail e indirizzi IP"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
@@ -3499,7 +3776,11 @@ msgstr "Presente"
 #: model:ir.actions.report,name:hr.hr_employee_print_badge
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Print Badge"
+<<<<<<< HEAD
 msgstr "Stampa Badge"
+=======
+msgstr "Stampa tesserino"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -3622,7 +3903,11 @@ msgstr "Valutazioni"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.action_hr_job
 msgid "Ready to recruit more efficiently?"
+<<<<<<< HEAD
 msgstr "Pronto per assumere più efficientemente?"
+=======
+msgstr "Pronto per una selezione più efficiente?"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -3659,7 +3944,11 @@ msgid "Recruitment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Selezione del personale"
+=======
+msgstr "Assunzioni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assunzioni"
 >>>>>>> upstream/18.0
@@ -3709,7 +3998,11 @@ msgstr "Contatti correlati"
 #. odoo-python
 #: code:addons/hr/models/res_partner.py:0 code:addons/hr/models/res_users.py:0
 msgid "Related Employees"
+<<<<<<< HEAD
 msgstr "Dipendenti collegati"
+=======
+msgstr "Dipendenti correlati"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__related_partners_count
@@ -3719,7 +4012,11 @@ msgstr "Numero partner correlati"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Related User"
+<<<<<<< HEAD
 msgstr "Utente collegato"
+=======
+msgstr "Utente correlato"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_ids
@@ -3734,7 +4031,11 @@ msgstr "Dipendenti correlati in base al loro indirizzo privato"
 #. module: hr
 #: model:ir.model.fields,help:hr.field_resource_resource__user_id
 msgid "Related user name for the resource to manage its access."
+<<<<<<< HEAD
 msgstr "Nome utente legato alla risorsa per gestirne l'accesso."
+=======
+msgstr "Nome utente correlato per gestire l'accesso alla risorsa."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_homeworking
@@ -3745,6 +4046,7 @@ msgstr "Lavoro da remoto"
 #: model:ir.ui.menu,name:hr.hr_menu_hr_reports
 #: model:ir.ui.menu,name:hr.menu_hr_reporting_timesheet
 msgid "Reporting"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4082,6 +4384,9 @@ msgstr "Resoconti"
 =======
 msgstr "Resoconti"
 >>>>>>> upstream/18.0
+=======
+msgstr "Resoconti"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__requirements
@@ -4146,7 +4451,11 @@ msgstr "Pensionamento"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__sinid
 msgid "SIN No"
+<<<<<<< HEAD
 msgstr "Codice Fiscale"
+=======
+msgstr "N° CF"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_has_sms_error
@@ -4159,7 +4468,11 @@ msgstr "Errore di consegna SMS"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__ssnid
 #: model:ir.model.fields,field_description:hr.field_res_users__ssnid
 msgid "SSN No"
+<<<<<<< HEAD
 msgstr "Numero SSN"
+=======
+msgstr "N° prev. sociale"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.department,name:hr.dep_sales
@@ -4174,7 +4487,11 @@ msgstr "Salva"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Schedule"
+<<<<<<< HEAD
 msgstr "Pianifica"
+=======
+msgstr "Orario"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__study_school
@@ -4196,8 +4513,13 @@ msgid ""
 "Select the \"Employee\" who is the coach of this employee.\n"
 "The \"Coach\" has no specific rights or responsibilities by default."
 msgstr ""
+<<<<<<< HEAD
 "Seleziona il \"Dipendente\" che è il coach di questo dipendente.\n"
 "Il \"Coach\" non ha diritti o responsabilità specifiche per impostazione predefinita."
+=======
+"Selezionare l'istruttore per questo dipendente.\n"
+"Per impostazione predefinita non ha diritti o responsabilità specifiche."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__sequence
@@ -4255,13 +4577,21 @@ msgstr "Gestione competenze"
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__sinid
 msgid "Social Insurance Number"
+<<<<<<< HEAD
 msgstr "Numero tessera sanitaria"
+=======
+msgstr "Codice fiscale"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__ssnid
 #: model:ir.model.fields,help:hr.field_res_users__ssnid
 msgid "Social Security Number"
+<<<<<<< HEAD
 msgstr "Numero posizione previdenziale"
+=======
+msgstr "Numero di previdenza sociale"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -4410,7 +4740,11 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__create_employee
 msgid "Technical field, whether to create an employee"
+<<<<<<< HEAD
 msgstr "Campo tecnico se bisogna creare un dipendente"
+=======
+msgstr "Campo tecnico, indica se creare un dipendente"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_temporary
@@ -4433,7 +4767,11 @@ msgid ""
 "The Badge ID must be unique, this one is already assigned to another "
 "employee."
 msgstr ""
+<<<<<<< HEAD
 "Il Badge ID deve essere unico, questo indicato risulta già assegnato ad un "
+=======
+"L'ID del tesserino deve essere univoco, questo risulta già assegnato a un "
+>>>>>>> upstream/18.0
 "altro dipendente."
 
 #. module: hr
@@ -4506,8 +4844,13 @@ msgstr "Il responsabile di %s dovrebbe essere collegato ad un utente."
 #: model:ir.model.constraint,message:hr.constraint_hr_job_name_company_uniq
 msgid "The name of the job position must be unique per department in company!"
 msgstr ""
+<<<<<<< HEAD
 "Il nome della posizione lavorativa deve essere unico per dipartimento "
 "nell'azienda!"
+=======
+"Il nome della posizione lavorativa deve essere univoco per ufficio "
+"aziendale."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -4518,7 +4861,11 @@ msgstr "L'utente del coach di %s non è configurato."
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_user
 msgid "The user will be able to approve document created by employees."
+<<<<<<< HEAD
 msgstr "L'utente potrà approvare i documenti creati dai dipendenti."
+=======
+msgstr "Utente in grado di approvare documenti creati dai dipendenti."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_manager
@@ -4526,8 +4873,13 @@ msgid ""
 "The user will have access to the human resources configuration as well as "
 "statistic reports."
 msgstr ""
+<<<<<<< HEAD
 "L'utente avrà accesso alla configurazione delle risorse umane ed ai report "
 "statistici."
+=======
+"Utente con accesso alla configurazione delle risorse umane e alle "
+"statistiche."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -4614,7 +4966,11 @@ msgstr "Attività odierne"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__expected_employees
 msgid "Total Forecasted Employees"
+<<<<<<< HEAD
 msgstr "Totale Previsione Dipendenti"
+=======
+msgstr "Dipendenti totali previsti"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.job,name:hr.job_trainee
@@ -4879,18 +5235,30 @@ msgstr "Permesso di lavoro"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_permit_expiration_date
 msgid "Work Permit Expiration Date"
+<<<<<<< HEAD
 msgstr "Data di scadenza del permesso di lavoro"
+=======
+msgstr "Data di scadenza permesso di lavoro"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__permit_no
 #: model:ir.model.fields,field_description:hr.field_res_users__permit_no
 msgid "Work Permit No"
+<<<<<<< HEAD
 msgstr "Permesso di lavoro n."
+=======
+msgstr "N. permesso di lavoro"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_permit_scheduled_activity
 msgid "Work Permit Scheduled Activity"
+<<<<<<< HEAD
 msgstr "Permesso di lavoro Attività programmata"
+=======
+msgstr "Attività programmata permesso di lavoro"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_phone
@@ -4909,7 +5277,11 @@ msgstr "Dipendente"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__resource_calendar_id
 msgid "Working Hours"
+<<<<<<< HEAD
 msgstr "Ore lavorative"
+=======
+msgstr "Orario lavorativo"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_resource_calendar_view
@@ -4933,8 +5305,13 @@ msgid ""
 "You are only allowed to update your preferences. Please contact a HR officer"
 " to update other information."
 msgstr ""
+<<<<<<< HEAD
 "Puoi aggiornare solo le tue preferenze. Si prega di contattare un "
 "responsabile HR per aggiornare altre informazioni."
+=======
+"È consentito aggiornare solo le proprie preferenze. Per aggiornare altre "
+"informazioni, contattare un addetto alle RU."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
@@ -4947,7 +5324,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr/models/hr_department.py:0
 msgid "You cannot create recursive departments."
+<<<<<<< HEAD
 msgstr "Non puoi creare dipartimenti ricorsivi."
+=======
+msgstr "Impossibile creare uffici ricorsivi."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python

@@ -79,7 +79,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Fernanda Alvarez, 2024
+=======
+# Fernanda Alvarez, 2025
+>>>>>>> upstream/18.0
 =======
 # Fernanda Alvarez, 2025
 >>>>>>> upstream/18.0
@@ -387,7 +391,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Fernanda Alvarez, 2024\n"
+=======
+"Last-Translator: Fernanda Alvarez, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Fernanda Alvarez, 2025\n"
 >>>>>>> upstream/18.0
@@ -624,8 +632,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 msgid "A private key is required to decrypt data."
+<<<<<<< HEAD
 msgstr ""
 "Es necesario que cuente con una clave privada para descifrar los datos."
+=======
+msgstr "Necesitas una clave privada para descifrar los datos."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__active
@@ -636,12 +648,20 @@ msgstr "Activo"
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Add, edit and delete certificates."
+<<<<<<< HEAD
 msgstr "Agregue, edite y elimine certificados."
+=======
+msgstr "Agrega, edita y elimina certificados."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Add, edit and delete keys."
+<<<<<<< HEAD
 msgstr "Agregue, edite y elimine claves."
+=======
+msgstr "Agrega, edita y elimina claves."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
@@ -706,17 +726,29 @@ msgstr "Empresa"
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__country_code
 msgid "Country Code"
+<<<<<<< HEAD
 msgstr "Código de país"
+=======
+msgstr "Código del país"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.actions.act_window,help:certificate.certificate_certificate_action_view_list
 msgid "Create a first certificate"
+<<<<<<< HEAD
 msgstr "Cree el primer certificado"
+=======
+msgstr "Crea el primer certificado"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.actions.act_window,help:certificate.certificate_key_action_view_list
 msgid "Create a first key"
+<<<<<<< HEAD
 msgstr "Cree la primera clave"
+=======
+msgstr "Crea la primera clave"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__create_uid
@@ -817,17 +849,29 @@ msgstr "Error al cargar"
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 msgid "Make sure to use a private key to sign documents."
+<<<<<<< HEAD
 msgstr "Asegúrese de utilizar una clave privada para firmar los documentos."
+=======
+msgstr "Asegúrate de utilizar una clave privada para firmar los documentos."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Manage your certificates"
+<<<<<<< HEAD
 msgstr "Gestione sus certificados"
+=======
+msgstr "Gestiona tus certificados"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Manage your keys"
+<<<<<<< HEAD
 msgstr "Gestione sus claves"
+=======
+msgstr "Gestiona tus claves"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__name
@@ -927,7 +971,11 @@ msgid ""
 "You can use this field for quick search."
 msgstr ""
 "El código ISO del país en dos caracteres.\n"
+<<<<<<< HEAD
 "Puede utilizar este campo para realizar una búsqueda rápida."
+=======
+"Puedes utilizar este campo para realizar una búsqueda rápida."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -1029,7 +1077,10 @@ msgstr "La fecha en que inicia la validez del certificado (UTC)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1258,6 +1309,9 @@ msgstr "El tamaño de la clave debe ser de al menos 512 bytes."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1488,7 +1542,10 @@ msgstr "No se pudo cargar la clave privada."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1718,6 +1775,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1914,8 +1974,13 @@ msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported for "
 "decryption: RSA."
 msgstr ""
+<<<<<<< HEAD
 "El algoritmo de criptografía asimétrica \"%s\" no es compatible, puede usar "
 "RSA para descifrarlo."
+=======
+"El algoritmo de criptografía asimétrica \"%s\" no es compatible, puedes usar"
+" RSA para descifrarlo."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -1924,8 +1989,13 @@ msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported for "
 "signature: EC and RSA."
 msgstr ""
+<<<<<<< HEAD
 "El algoritmo de criptografía asimétrica \"%s\" no es compatible, puede usar "
 "EC y RSA para la firma."
+=======
+"El algoritmo de criptografía asimétrica \"%s\" no es compatible, puedes usar"
+" EC y RSA para firmar."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -1934,8 +2004,13 @@ msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC,"
 " RSA."
 msgstr ""
+<<<<<<< HEAD
 "El algoritmo de criptografía asimétrica \"%s\" no es compatible, puede usar "
 "EC y RSA para descifrarlo."
+=======
+"El algoritmo de criptografía asimétrica \"%s\" no es compatible, puedes usar"
+" EC y RSA"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__public_key_id

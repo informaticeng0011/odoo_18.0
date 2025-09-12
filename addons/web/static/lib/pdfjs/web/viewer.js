@@ -6702,6 +6702,11 @@ class PDFPrintService {
     this.pageStyleSheet = document.createElement("style");
     this.pageStyleSheet.textContent = `@page { size: ${width}pt ${height}pt;}`;
     body.append(this.pageStyleSheet);
+<<<<<<< HEAD
+=======
+    // ODOO PATCH PRINT PREVIEW MOBILE
+    this.hasFinishPrint = null;
+>>>>>>> upstream/18.0
   }
   destroy() {
     if (activeService !== this) {
@@ -6766,6 +6771,7 @@ class PDFPrintService {
   }
   performPrint() {
     this.throwIfInactive();
+<<<<<<< HEAD
     return new Promise(resolve => {
       setTimeout(() => {
         if (!this.active) {
@@ -6776,6 +6782,27 @@ class PDFPrintService {
         setTimeout(resolve, 20);
       }, 0);
     });
+=======
+    // ODOO PATCH PRINT PREVIEW MOBILE
+    const hasFinishPrintPromise = new Promise((resolve) => {
+      if ("afterprint" in window) {
+        this.hasFinishPrint = resolve;
+      } else {
+        setTimeout(resolve, 20);
+      }
+    });
+    setTimeout(() => {
+      if (!this.active) {
+        // ODOO PATCH PRINT PREVIEW MOBILE
+        this.hasFinishPrint();
+        return;
+      }
+
+      print.call(window);
+    }, 0);
+    // ODOO PATCH PRINT PREVIEW MOBILE
+    return hasFinishPrintPromise;
+>>>>>>> upstream/18.0
   }
   get active() {
     return this === activeService;
@@ -6810,12 +6837,26 @@ window.print = function () {
       return;
     }
     const activeServiceOnEntry = activeService;
+<<<<<<< HEAD
     activeService.renderPages().then(function () {
       return activeServiceOnEntry.performPrint();
     }).catch(function () {}).then(function () {
       if (activeServiceOnEntry.active) {
         // ODOO Patch: https://github.com/mozilla/pdf.js/issues/10630#issuecomment-855754913
         setTimeout(abort, 1000);
+=======
+    // ODOO: FIX MOBILE PRINT PREVIEW
+    const timeBeforeRendering = new Date().getTime();
+    activeService.renderPages().then(function () {
+      // ODOO: FIX MOBILE PRINT PREVIEW
+      return Promise.all([
+        activeServiceOnEntry.performPrint(),
+        new Promise(resolve => setTimeout(resolve, 1000 + new Date().getTime() - timeBeforeRendering))
+      ]);
+    }).catch(function () {}).then(function () {
+      if (activeServiceOnEntry.active) {
+        abort();
+>>>>>>> upstream/18.0
       }
     });
   }
@@ -6853,6 +6894,14 @@ window.addEventListener("keydown", function (event) {
 }, true);
 if ("onbeforeprint" in window) {
   const stopPropagationIfNeeded = function (event) {
+<<<<<<< HEAD
+=======
+    // ODOO PATCH PRINT PREVIEW MOBILE
+    if (activeService?.hasFinishPrint && event.type === "afterprint") {
+      activeService.hasFinishPrint();
+      return;
+    }
+>>>>>>> upstream/18.0
     if (event.detail !== "custom") {
       event.stopImmediatePropagation();
     }

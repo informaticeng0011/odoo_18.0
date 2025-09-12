@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* delivery
 # 
 # Translators:
@@ -58,11 +59,21 @@
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * delivery
+#
+# Translators:
+# Wil Odoo, 2024
+# Larissa Manderfeld, 2024
+# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2025
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +134,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-08-25 10:08+0000\n"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
+"Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/delivery/"
+"es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #. odoo-python
@@ -498,7 +522,11 @@ msgstr "Descartar"
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__display_name
 #: model:ir.model.fields,field_description:delivery.field_delivery_zip_prefix__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.actions.act_window,help:delivery.action_delivery_carrier_form
@@ -558,7 +586,11 @@ msgid "Excluded Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etiquetas no incluidas"
+=======
+msgstr "Etiquetas excluidas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etiquetas excluidas"
 >>>>>>> upstream/18.0
@@ -810,7 +842,11 @@ msgid "Must Have Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etiquetas que se debe usar"
+=======
+msgstr "Etiquetas que deben existir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etiquetas que deben existir"
 >>>>>>> upstream/18.0

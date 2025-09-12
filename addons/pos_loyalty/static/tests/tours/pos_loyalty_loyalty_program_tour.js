@@ -193,7 +193,11 @@ registry.category("web_tour.tours").add("PosLoyaltyDontGrantPointsForRewardOrder
             Dialog.confirm("Open Register"),
 
             ProductScreen.clickPartnerButton(),
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Test Partner"),
+=======
+            ProductScreen.clickCustomer("A Test Partner"),
+>>>>>>> upstream/18.0
 
             ProductScreen.addOrderline("Desk Organizer", "1"),
             ProductScreen.addOrderline("Whiteboard Pen", "1"),
@@ -339,7 +343,10 @@ registry.category("web_tour.tours").add("PosCheapestProductTaxInclude", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -480,7 +487,11 @@ registry.category("web_tour.tours").add("test_not_create_loyalty_card_expired_pr
             Chrome.startPoS(),
             Dialog.confirm("Open Register"),
             ProductScreen.clickPartnerButton(),
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Test Partner"),
+=======
+            ProductScreen.clickCustomer("A Test Partner"),
+>>>>>>> upstream/18.0
             ProductScreen.addOrderline("Desk Organizer", "3"),
             PosLoyalty.finalizeOrder("Cash", "15.3"),
         ].flat(),
@@ -553,6 +564,7 @@ registry.category("web_tour.tours").add("test_not_create_loyalty_card_expired_pr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -597,6 +609,8 @@ registry.category("web_tour.tours").add("test_not_create_loyalty_card_expired_pr
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -707,7 +721,11 @@ registry.category("web_tour.tours").add("PosOrderNoPoints", {
         [
             Chrome.startPoS(),
             ProductScreen.clickPartnerButton(),
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Test Partner 2"),
+=======
+            ProductScreen.clickCustomer("AAA Test Partner 2"),
+>>>>>>> upstream/18.0
             ProductScreen.addOrderline("Desk Organizer", "3"),
             PosLoyalty.isPointsDisplayed(false),
             PosLoyalty.finalizeOrder("Cash", "15.3"),
@@ -759,6 +777,9 @@ registry.category("web_tour.tours").add("PosOrderNoPoints", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -859,7 +880,11 @@ registry.category("web_tour.tours").add("PosLoyaltyMultipleOrders", {
             // Order1: Add a product and leave the order in draft.
             ProductScreen.addOrderline("Whiteboard Pen", "2"),
             ProductScreen.clickPartnerButton(),
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Test Partner"),
+=======
+            ProductScreen.clickCustomer("A Test Partner"),
+>>>>>>> upstream/18.0
             ProductScreen.clickPayButton(),
             PaymentScreen.clickPaymentMethod("Cash"),
 
@@ -896,6 +921,7 @@ registry.category("web_tour.tours").add("PosLoyaltyMultipleOrders", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -948,6 +974,28 @@ registry.category("web_tour.tours").add("PosLoyaltyMultipleOrders", {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+registry.category("web_tour.tours").add("test_combo_product_dont_grant_point", {
+    steps: () =>
+        [
+            Chrome.startPoS(),
+            Dialog.confirm("Open Register"),
+            ProductScreen.clickDisplayedProduct("Office Combo"),
+            combo.select("Combo Product 1"),
+            combo.select("Combo Product 4"),
+            combo.select("Combo Product 6"),
+            Dialog.confirm(),
+            ProductScreen.clickDisplayedProduct("Office Combo"),
+            combo.select("Combo Product 1"),
+            combo.select("Combo Product 4"),
+            combo.select("Combo Product 6"),
+            Dialog.confirm(),
+            Order.hasLine({ productName: "100% on the cheapest product" }),
+            ProductScreen.totalAmountIs("50.00"),
+        ].flat(),
+});
 >>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("test_buy_x_get_y_reward_qty", {
@@ -993,6 +1041,7 @@ registry.category("web_tour.tours").add("test_buy_x_get_y_reward_qty", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1045,4 +1094,23 @@ registry.category("web_tour.tours").add("test_buy_x_get_y_reward_qty", {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+registry.category("web_tour.tours").add("test_max_usage_partner_with_point", {
+    steps: () =>
+        [
+            Chrome.startPoS(),
+            Dialog.confirm("Open Register"),
+            ProductScreen.clickPartnerButton(),
+            ProductScreen.clickCustomer("AAA Test Partner 2"),
+            ProductScreen.addOrderline("Desk Organizer", "3"),
+            PosLoyalty.claimReward("100% on your order"),
+            PosLoyalty.finalizeOrder("Cash", "0"),
+            ProductScreen.clickPartnerButton(),
+            ProductScreen.clickCustomer("AAA Test Partner 3"),
+            ProductScreen.addOrderline("Desk Organizer", "3"),
+            PosLoyalty.isRewardButtonHighlighted(false),
+        ].flat(),
+});
 >>>>>>> upstream/18.0

@@ -18,6 +18,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Translators:
+# Ujjawal Pathak, 2025
+# 
+>>>>>>> upstream/18.0
 =======
 # Translators:
 # Ujjawal Pathak, 2025
@@ -120,6 +126,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Last-Translator: Ujjawal Pathak, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Ujjawal Pathak, 2025\n"
 >>>>>>> upstream/18.0
@@ -180,6 +190,11 @@ msgstr ""
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "A bank account is required for EMV QR Code generation."
 msgstr ""
+<<<<<<< HEAD
+=======
+"EMV क्यूआर कोड का इस्तेमाल करके डिजिटल पेमेंट लेने के लिए, आपका बैंक खाता "
+"होना ज़रूरी है."
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #: model:ir.model,name:account_qr_code_emv.model_res_partner_bank
@@ -200,7 +215,11 @@ msgid "Bank Accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक खाता"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक खाता"
 >>>>>>> upstream/18.0
@@ -254,54 +273,90 @@ msgstr "बैंक खाता"
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_account_setup_bank_manual_config__display_qr_setting
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_res_partner_bank__display_qr_setting
 msgid "Display Qr Setting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्यूआर सेटिंग दिखाएं"
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #. odoo-python
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "EMV Merchant-Presented QR-code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EMV मर्चेंट-प्रेजेंटेड क्यूआर कोड"
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #: model_terms:ir.ui.view,arch_db:account_qr_code_emv.view_partner_bank_form_inherit_account
 msgid "EMV QR Configuration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EMV क्यूआर कॉन्फ़िगरेशन"
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_account_setup_bank_manual_config__include_reference
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_res_partner_bank__include_reference
 msgid "Include Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेफ़रंस शामिल है"
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #: model:ir.model.fields,help:account_qr_code_emv.field_account_setup_bank_manual_config__include_reference
 #: model:ir.model.fields,help:account_qr_code_emv.field_res_partner_bank__include_reference
 msgid "Include the reference in the QR code."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्यूआर कोड में रेफरेंस शामिल करें"
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #. odoo-python
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Merchant Account Information."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "व्यापारी के खाते से जुड़ी ज़रूरी जानकारी मौजूद नहीं है."
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #. odoo-python
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Merchant City."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "व्यापारी के शहर की जानकारी नहीं है."
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #. odoo-python
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Proxy Type."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉक्सी टाइप मौजूद नहीं है."
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #. odoo-python
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Proxy Value."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉक्सी वैल्यू मौजूद नहीं है"
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #. odoo-python
@@ -310,6 +365,11 @@ msgid ""
 "No EMV QR Code is available for the country of the account "
 "%(account_number)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"जिस देश का आपका बैंक खाता %(account_number)s है, वहां EMV क्यूआर कोड बनाने "
+"की सुविधा अभी मौजूद नहीं है."
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #: model:ir.model.fields.selection,name:account_qr_code_emv.selection__res_partner_bank__proxy_type__none
@@ -324,7 +384,11 @@ msgid "None"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई नहीं"
+>>>>>>> upstream/18.0
 =======
 msgstr "कोई नहीं"
 >>>>>>> upstream/18.0
@@ -360,10 +424,18 @@ msgstr "कोई नहीं"
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_account_setup_bank_manual_config__proxy_type
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_res_partner_bank__proxy_type
 msgid "Proxy Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉक्सी टाइ"
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_account_setup_bank_manual_config__proxy_value
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_res_partner_bank__proxy_value
 msgid "Proxy Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉक्सी वैल्यू"
+>>>>>>> upstream/18.0

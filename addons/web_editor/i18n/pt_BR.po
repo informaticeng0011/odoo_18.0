@@ -1,16 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
+<<<<<<< HEAD
 # 
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Maitê Dietze, 2024
 # 
+=======
+#
+# Translators:
+# Martin Trigaux, 2024
+# Wil Odoo, 2024
+# Maitê Dietze, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,6 +262,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-08-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Maitê Dietze, 2025\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/"
+"41243/pt_BR/)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -2377,12 +2400,15 @@ msgstr "Posição"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Preset #{number}"
 msgstr "Predefinição #{number}"
 
 #. module: web_editor
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3187,8 +3213,13 @@ msgid ""
 "The document was already saved from someone with a different history for "
 "model \"%(model)s\", field \"%(field)s\" with id \"%(id)d\"."
 msgstr ""
+<<<<<<< HEAD
 "O documento já foi salvo por alguém com um histórico diferente para o modelo"
 " \"%(model)s\", campo \"%(field)s\" com id \"%(id)d\"."
+=======
+"O documento já foi salvo por alguém com um histórico diferente para o modelo "
+"\"%(model)s\", campo \"%(field)s\" com id \"%(id)d\"."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -3213,10 +3244,19 @@ msgstr "O URL fornecido não é válido"
 #: code:addons/web_editor/static/src/js/wysiwyg/conflict_dialog.xml:0
 msgid ""
 "The version from the database will be used.\n"
+<<<<<<< HEAD
 "                            If you need to keep your changes, copy the content below and edit the new document."
 msgstr ""
 "Será usada a versão da base de dados.\n"
 "                            Se você precisa manter as alterações, copie o conteúdo abaixo e edite o novo documento."
+=======
+"                            If you need to keep your changes, copy the "
+"content below and edit the new document."
+msgstr ""
+"Será usada a versão da base de dados.\n"
+"                            Se você precisa manter as alterações, copie o "
+"conteúdo abaixo e edite o novo documento."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -3291,8 +3331,13 @@ msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
 "it, please first download it from the original source and upload it in Odoo."
 msgstr ""
+<<<<<<< HEAD
 "O corte deste tipo de imagem não é suportado.<br/>Se você quiser recortá-la,"
 " primeiro faça download da fonte original e carregue-a no Odoo."
+=======
+"O corte deste tipo de imagem não é suportado.<br/>Se você quiser recortá-la, "
+"primeiro faça download da fonte original e carregue-a no Odoo."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -3401,8 +3446,12 @@ msgstr "Transformar a imagem"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Transform the picture (click twice to reset transformation)"
+<<<<<<< HEAD
 msgstr ""
 "Transforme a imagem (clique duas vezes para redefinir a transformação)"
+=======
+msgstr "Transforme a imagem (clique duas vezes para redefinir a transformação)"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -3560,6 +3609,15 @@ msgstr "Teste do conversor do Web Editor"
 
 #. module: web_editor
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
+msgid "WebP compression not supported on this browser"
+msgstr ""
+
+#. module: web_editor
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Widgets"
@@ -3600,7 +3658,11 @@ msgstr "Escreva algo…"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "XL"
+<<<<<<< HEAD
 msgstr "XL"
+=======
+msgstr "GG"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -3754,12 +3816,15 @@ msgstr "adicionar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "all"
 msgstr "todos"
 
 #. module: web_editor
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3955,6 +4020,7 @@ msgstr "escuro"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "database"
@@ -4077,11 +4143,14 @@ msgstr "database"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "exclusion"
 msgstr "exclusão"
 
 #. module: web_editor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4280,11 +4349,14 @@ msgstr "lg"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "lighten"
 msgstr "claro"
 
 #. module: web_editor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4465,11 +4537,14 @@ msgstr "media-library"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "multiply"
 msgstr "multiplicar"
 
 #. module: web_editor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4656,6 +4731,8 @@ msgstr "contorno,círculo"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "overlay"
 msgstr "sobreposição"
@@ -4667,6 +4744,7 @@ msgid "px"
 msgstr "px"
 
 #. module: web_editor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4847,6 +4925,8 @@ msgstr "círculo"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "screen"
 msgstr "tela"
@@ -4911,12 +4991,15 @@ msgstr "tela"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "sm"
 msgstr "sm"
 
 #. module: web_editor
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

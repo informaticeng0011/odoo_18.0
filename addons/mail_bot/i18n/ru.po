@@ -1,15 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* mail_bot
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
+=======
+# * mail_bot
+#
+# Translators:
+# Wil Odoo, 2024
+#
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
 "Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
@@ -18,6 +28,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"PO-Revision-Date: 2025-09-09 07:04+0000\n"
+"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
+"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/mail_bot/"
+"ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #. odoo-python
@@ -49,6 +73,14 @@ msgid ""
 "conversation%(bold_end)s or start the tour again with typing "
 "%(command_start)sstart the tour%(command_end)s. Enjoy discovering Odoo!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Отлично, вы можете настраивать заготовленные ответы в модуле "
+"Обсуждения.%(new_line)s%(new_line)s%(bold_start)sОбзор завершен%(bold_end)s, "
+"теперь вы можете %(bold_start)sзакрыть этот диалог%(bold_end)s или начать "
+"тур заново, набрав %(command_start)sstart the tour%(command_end)s. Надеемся, "
+"вам понравится работать с Odoo!"
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #. odoo-python
@@ -58,6 +90,12 @@ msgid ""
 "sentence with%(bold_end)s %(command_start)s/%(command_end)s. Try getting "
 "help."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Отлично! 👍%(new_line)sЧтобы получить доступ к специальным командам, "
+"%(bold_start)sначните свое сообщение с%(bold_end)s %(command_start)s/"
+"%(command_end)s. Попробуйте запросить помощь."
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #. odoo-python
@@ -84,6 +122,11 @@ msgid ""
 "I'm not smart enough to answer your question.%(new_line)sTo follow my guide,"
 " ask: %(command_start)sstart the tour%(command_end)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Мне пока сложно ответить на ваш вопрос.%(new_line)sЧтобы следовать моему "
+"гиду, введите: %(command_start)sstart the tour%(command_end)s."
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__idle
@@ -103,6 +146,12 @@ msgid ""
 "%(bold_start)stype%(bold_end)s%(command_start)s :)%(command_end)s and press "
 "enter."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Не совсем так. Чтобы продолжить тур, отправьте эмодзи: "
+"%(bold_start)sнаберите%(bold_end)s%(command_start)s :)%(command_end)s и "
+"нажмите Enter."
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__not_initialized
@@ -117,6 +166,12 @@ msgid ""
 "and wait for the propositions. Select %(command_start)shelp%(command_end)s "
 "and press enter."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Не понимаю, что вы делаете. Пожалуйста, введите %(command_start)s/"
+"%(command_end)s и дождитесь предложений. Выберите "
+"%(command_start)sпомощь%(command_end)s и нажмите Enter."
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #. odoo-python
@@ -125,6 +180,12 @@ msgid ""
 "Not sure what you are doing. Please, type %(command_start)s:%(command_end)s "
 "and wait for the propositions. Select one of them and press enter."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Не понимаю, что вы делаете. Пожалуйста, введите "
+"%(command_start)s:%(command_end)s и дождитесь предложений. Выберите один из "
+"вариантов и нажмите Enter."
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #. odoo-python
@@ -179,6 +240,12 @@ msgid ""
 "human language...%(new_line)sI can show you features if you write: "
 "%(command_start)sstart the tour%(command_end)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Извините, меня клонит в сон. А может и нет! Возможно, я просто пытаюсь "
+"скрыть свое незнание человеческого языка...%(new_line)sЯ могу показать вам "
+"функции, если вы введете: %(command_start)sstart the tour%(command_end)s."
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #. odoo-python
@@ -188,6 +255,12 @@ msgid ""
 "him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
 "me."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Извините, я не слушаю. Чтобы привлечь чьё-то внимание, %(bold_start)"
+"sупомяните его%(bold_end)s. Напишите %(command_start)s@OdooBot%(command_end)"
+"s и выберите меня."
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #. odoo-python
@@ -199,7 +272,11 @@ msgstr "Спасибо"
 #. odoo-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid "Thanks for your feedback. Goodbye!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Спасибо за ваш отзыв. До свидания!"
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #. odoo-python
@@ -211,7 +288,11 @@ msgstr "Это некрасиво! Я бот, но у меня есть чувс
 #. odoo-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid "This is a temporary canned response to see how canned responses work."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Это шаблон заготовленного ответа, чтобы посмотреть, как они работают."
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #. odoo-python
@@ -220,6 +301,11 @@ msgid ""
 "To %(bold_start)ssend an attachment%(bold_end)s, click on the "
 "%(paperclip_icon)s icon and select a file."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Чтобы %(bold_start)sотправить вложение%(bold_end)s, нажмите на значок "
+"%(paperclip_icon)s и выберите файл."
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #. odoo-python
@@ -242,6 +328,13 @@ msgid ""
 "documentation%(document_link_end)s or %(slides_link_start)sour "
 "videos%(slides_link_end)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"К сожалению, я всего лишь бот 😞 Я не понимаю! Если вам нужна помощь в "
+"знакомстве с нашим продуктом, пожалуйста, ознакомьтесь с "
+"%(document_link_start)sнашей документацией%(document_link_end)s или "
+"%(slides_link_start)sнашими видео%(slides_link_end)s."
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #: model:ir.model,name:mail_bot.model_res_users
@@ -255,6 +348,12 @@ msgid ""
 "Wonderful! 😇%(new_line)sTry typing %(command_start)s:%(command_end)s to use "
 "canned responses. I've created a temporary one for you."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Замечательно! 😇%(new_line)sПопробуйте ввести "
+"%(command_start)s:%(command_end)s для использования быстрых ответов. Я "
+"создал для вас шаблон."
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #. odoo-python
@@ -264,6 +363,13 @@ msgid ""
 "attention. %(bold_start)sTry to ping me using%(bold_end)s "
 "%(command_start)s@OdooBot%(command_end)s in a sentence."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ух ты, у вас здорово получается!%(new_line)sПинганите кого-то с помощью @"
+"имя_пользователя, чтобы привлечь его внимание. %(bold_start)sПопробуйте "
+"упомянуть меня, используя%(bold_end)s %(command_start)s@OdooBot%(command_end)"
+"s в сообщении."
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #. odoo-python
@@ -272,6 +378,11 @@ msgid ""
 "Yep, I am here! 🎉 %(new_line)sNow, try %(bold_start)ssending an "
 "attachment%(bold_end)s, like a picture of your cute dog..."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Да, я здесь! 🎉%(new_line)sТеперь попробуйте %(bold_start)sотправить "
+"вложение%(bold_end)s, например, фотографию вашего милого щенка…"
+>>>>>>> upstream/18.0
 
 #. module: mail_bot
 #. odoo-python

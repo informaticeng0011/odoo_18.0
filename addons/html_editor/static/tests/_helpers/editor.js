@@ -15,7 +15,11 @@ import { getContent, getSelection, setContent } from "./selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { animationFrame } from "@odoo/hoot-mock";
+=======
+import { animationFrame, tick } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame, tick } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -146,11 +150,15 @@ export async function setupEditor(content, options = {}) {
     // awaiting for mountWithCleanup is not enough when mounted in an iframe,
     // @see Wysiwyg.onMounted
     const editor = await attachedEditor;
+<<<<<<< HEAD
     const plugins = new Map(
         editor.plugins.map((plugin) => {
             return [plugin.constructor.id, plugin];
         })
     );
+=======
+    const plugins = new Map(editor.plugins.map((plugin) => [plugin.constructor.id, plugin]));
+>>>>>>> upstream/18.0
     if (plugins.get("embeddedComponents")) {
         // await an extra animation frame for embedded components mounting
         // TODO @phoenix: would be more accurate to register mounting
@@ -193,7 +201,11 @@ export async function testEditor(config) {
     if (!compareFunction) {
         compareFunction = (content, expected, phase) => {
             expect(content).toBe(expected, {
+<<<<<<< HEAD
                 message: `(testEditor) ${phase} is strictly equal to %actual%"`,
+=======
+                message: `(testEditor) ${phase} should be strictly equal to ${expected}`,
+>>>>>>> upstream/18.0
             });
         };
     }
@@ -285,6 +297,7 @@ export async function testEditor(config) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     // Wait for selectionchange handlers to react before any actual testing.
     await Promise.resolve();
@@ -528,6 +541,11 @@ export async function testEditor(config) {
 =======
     // Wait for selectionchange handlers to react before any actual testing.
     await Promise.resolve();
+
+>>>>>>> upstream/18.0
+=======
+    // Wait for selectionchange handlers to react before any actual testing.
+    await tick();
 
 >>>>>>> upstream/18.0
 =======

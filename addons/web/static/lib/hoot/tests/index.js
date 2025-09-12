@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import { start } from "@odoo/hoot";
 import { whenReady } from "@odoo/owl";
+=======
+import { isHootReady, start } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 
 import "./core/expect.test.js";
 import "./core/runner.test.js";
@@ -12,7 +16,14 @@ import "./hoot_utils.test.js";
 import "./mock/navigator.test.js";
 import "./mock/network.test.js";
 import "./mock/window.test.js";
+<<<<<<< HEAD
 import "./ui/hoot_test_result.test.js";
 import "./ui/hoot_technical_value.test.js";
 
 whenReady(() => start());
+=======
+import "./ui/hoot_technical_value.test.js";
+import "./ui/hoot_test_result.test.js";
+
+isHootReady.then(start);
+>>>>>>> upstream/18.0

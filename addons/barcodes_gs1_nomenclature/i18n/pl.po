@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* barcodes_gs1_nomenclature
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Marta Wacławek, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Marta Wacławek, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
@@ -19,6 +28,27 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marta Wacławek, 2025\n"
+"Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#. module: barcodes_gs1_nomenclature
+#. odoo-python
+#: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
+msgid ""
+"A GS1 barcode nomenclature pattern was matched. However, the barcode failed "
+"to be converted to a valid date: '%(error_message)'"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__gs1_content_type__alpha
@@ -170,8 +200,13 @@ msgstr "Ilość"
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid "The FNC1 Separator Alternative is not a valid Regex: %(error)s"
 msgstr ""
+<<<<<<< HEAD
 "Alternatywa separatora FNC1 nie jest prawidłowym wyrażeniem regularnym: "
 "%(error)s"
+=======
+"Alternatywa separatora FNC1 nie jest prawidłowym wyrażeniem regularnym: %"
+"(error)s"
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields,help:barcodes_gs1_nomenclature.field_barcode_rule__gs1_content_type
@@ -183,8 +218,13 @@ msgid ""
 "encoding;        * Alpha-Numeric Name: variable length barcode."
 msgstr ""
 "Typ zawartości GS1 określa, jako jakiego rodzaju dane reguła przetworzy kod "
+<<<<<<< HEAD
 "kreskowy: * Data: kod kreskowy zostanie przekonwertowany na Odoo datetime; *"
 " Miara: wartość kodu kreskowego jest związana z konkretnym JM; * "
+=======
+"kreskowy: * Data: kod kreskowy zostanie przekonwertowany na Odoo datetime; * "
+"Miara: wartość kodu kreskowego jest związana z konkretnym JM; * "
+>>>>>>> upstream/18.0
 "Identyfikator numeryczny: kod kreskowy o stałej długości po określonym "
 "kodowaniu; * Nazwa alfanumeryczna: kod kreskowy o zmiennej długości."
 
@@ -205,20 +245,38 @@ msgstr ""
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_rule.py:0
 msgid "The rule pattern '%(rule)s' is not a valid Regex: %(error)s"
 msgstr ""
+<<<<<<< HEAD
 "Wzorzec reguły \"%(rule)s\" nie jest prawidłowym wyrażeniem regularnym: "
 "%(error)s"
+=======
+"Wzorzec reguły \"%(rule)s\" nie jest prawidłowym wyrażeniem regularnym: %"
+"(error)s"
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #. odoo-python
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid ""
 "There is something wrong with the barcode rule \"%s\" pattern.\n"
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
 "Coś jest nie tak z regułą kodu kreskowego \"%s\" .\n"
 "Jeśli reguła używa wartości dziesiętnych, sprawdź, czy nie może uzyskać czegoś innego niż cyfra jako ostatni znak dla identyfikatora aplikacji.\n"
 "Sprawdź również, czy możliwe dopasowane wartości mogą być tylko cyframi, w przeciwnym razie wartość nie może być rzutowana jako środek."
+=======
+"If this rule uses decimal, check it can't get sometime else than a digit as "
+"last char for the Application Identifier.\n"
+"Check also the possible matched values can only be digits, otherwise the "
+"value can't be casted as a measure."
+msgstr ""
+"Coś jest nie tak z regułą kodu kreskowego \"%s\" .\n"
+"Jeśli reguła używa wartości dziesiętnych, sprawdź, czy nie może uzyskać "
+"czegoś innego niż cyfra jako ostatni znak dla identyfikatora aplikacji.\n"
+"Sprawdź również, czy możliwe dopasowane wartości mogą być tylko cyframi, w "
+"przeciwnym razie wartość nie może być rzutowana jako środek."
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields,help:barcodes_gs1_nomenclature.field_barcode_nomenclature__is_gs1_nomenclature
@@ -242,8 +300,12 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/barcodes_gs1_nomenclature/static/src/js/barcode_parser.js:0
 msgid "This barcode can't be partially or fully parsed."
+<<<<<<< HEAD
 msgstr ""
 "Tego kodu kreskowego nie można przeanalizować częściowo ani w całości."
+=======
+msgstr "Tego kodu kreskowego nie można przeanalizować częściowo ani w całości."
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields,help:barcodes_gs1_nomenclature.field_barcode_rule__encoding

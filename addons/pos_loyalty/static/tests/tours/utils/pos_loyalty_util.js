@@ -157,7 +157,10 @@ export function customerIs(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -302,6 +305,9 @@ export function isPointsDisplayed(isDisplayed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -453,6 +459,19 @@ export function createManualGiftCard(code, amount, date = false) {
     return steps;
 }
 
+<<<<<<< HEAD
+=======
+export function clickGiftCardProgram(name) {
+    return [
+        {
+            content: `Click gift card program '${name}'`,
+            trigger: `button.selection-item:has(span:contains("${name}"))`,
+            run: "click",
+        },
+    ];
+}
+
+>>>>>>> upstream/18.0
 export function clickPhysicalGiftCard(code = "Sell physical gift card?") {
     return [
         {

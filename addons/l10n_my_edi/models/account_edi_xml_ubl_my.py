@@ -120,7 +120,12 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # The issue time must be the current time set in the UTC time zone
+=======
+            # The issue date and time must be the current time set in the UTC time zone
+            'issue_date': datetime.now(tz=UTC).strftime("%Y-%m-%d"),
+>>>>>>> upstream/18.0
 =======
             # The issue date and time must be the current time set in the UTC time zone
             'issue_date': datetime.now(tz=UTC).strftime("%Y-%m-%d"),
@@ -177,6 +182,7 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
             # Exchange rate information must be provided if applicable
             'tax_exchange_rate': self._l10n_my_edi_get_tax_exchange_rate(invoice),
             'invoice_incoterm_code': invoice.invoice_incoterm_id.code,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -454,11 +460,22 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
             'custom_form_reference': invoice.l10n_my_edi_custom_form_reference if document_type_code in {"11", "12", "13", "14"} else None,
             'export_custom_form_reference': invoice.l10n_my_edi_custom_form_reference if document_type_code in {"01", "02", "03", "04"} else None,
 >>>>>>> upstream/18.0
+=======
+            # Depending on the move type, it will either be about exports (invoices) or imports (bills)
+            'custom_form_reference': invoice.l10n_my_edi_custom_form_reference if document_type_code in {"11", "12", "13", "14"} else None,
+            'export_custom_form_reference': invoice.l10n_my_edi_custom_form_reference if document_type_code in {"01", "02", "03", "04"} else None,
+>>>>>>> upstream/18.0
         })
 
         # these are optional, and since we can't have the correct one at the time of generating, we avoid adding them.
         vals['vals'].pop('payment_means_vals_list', None)
 
+<<<<<<< HEAD
+=======
+        # For Myinvois, prepaid amount is defined as a separate node.
+        vals['vals'].get('monetary_total_vals', {}).pop('prepaid_amount', None)
+
+>>>>>>> upstream/18.0
         # We add the company industrial classification to the supplier vals.
         vals['vals']['accounting_supplier_party_vals']['party_vals'].update({
             'industry_classification_code_attrs': {'name': invoice.company_id.l10n_my_edi_industrial_classification.name},
@@ -466,6 +483,7 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
         })
         # We ensure that the customer does not have their ttx set (it could be on the record if they're also supplier)
         customer_identification_vals = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -683,10 +701,14 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 =======
             vals for vals in vals['vals']['accounting_customer_party_vals']['party_vals']['party_identification_vals'] if vals.get('id_attrs', {}) != {'schemeID': 'TTX'}
 >>>>>>> upstream/18.0
+=======
+            vals for vals in vals['vals']['accounting_customer_party_vals']['party_vals']['party_identification_vals'] if vals.get('id_attrs', {}) != {'schemeID': 'TTX'}
+>>>>>>> upstream/18.0
         ]
         vals['vals']['accounting_customer_party_vals']['party_vals']['party_identification_vals'] = customer_identification_vals
 
         # Debit/Credit note original invoice ref.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -706,6 +728,8 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
                     'id': original_document.name,
                     'uuid': original_document.l10n_my_edi_external_uuid,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -750,6 +774,7 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -778,6 +803,19 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
                 },
             })
 
+=======
+                },
+            })
+
+        vals['vals'].update({
+            'prepaid_payment_vals': {
+                'currency': invoice.currency_id,
+                'currency_dp': self._get_currency_decimal_places(invoice.currency_id),
+                'amount': invoice.amount_total - invoice.amount_residual,
+            },
+        })
+
+>>>>>>> upstream/18.0
         return vals
 
     def _get_delivery_vals_list(self, invoice):
@@ -814,6 +852,7 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
         # The API expects the iso3166-2 code for the state, in the same way as it expects the iso3166 code for the countries.
         # In Odoo, we mostly use these (although there is no standard format) so we'll try to use what Odoo gives us.
         # For malaysia, the codes where updated, but we use a mapping to ensure that outdated data will still end up correct.
+<<<<<<< HEAD
         subentity_code = partner.state_id.code or ''
 
         if partner.country_id.code == 'MY' and partner.state_id.code in MALAYSIAN_SUBDIVISION_CODES:
@@ -822,6 +861,32 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
         # The API does not expect the country code inside the state code, only the number part.
         if f'{partner.country_id.code}-' in subentity_code:
             subentity_code = subentity_code.split('-')[1]
+=======
+
+        subentity_code = ''
+
+        if partner.state_id:
+            if (
+                partner._l10n_my_edi_get_tin_for_myinvois() == 'EI00000000010'
+                and partner.l10n_my_identification_number == 'NA'
+            ):
+                # Special case for consolidated entities (e.g., general public).
+                # When TIN is 'EI00000000010' and Identification Number is 'NA', MyInvois requires
+                # the CountrySubentityCode to be fixed as '17' regardless of the actual state.
+                subentity_code = '17'
+            elif partner.country_id.code != 'MY':
+                # For non-Malaysian partners return the state name instead of state code
+                subentity_code = partner.state_id.name
+            else:
+                # Get the subentity code for the partner, based on its state.
+                subentity_code = partner.state_id.code
+                # Map outdated subdivision codes to their latest expected values
+                # to ensure compatibility with the current version.
+                subentity_code = MALAYSIAN_SUBDIVISION_CODES.get(subentity_code, subentity_code)
+
+            # Strip 'MY-' prefix if present as we only need number part
+            subentity_code = subentity_code.split('-')[1] if 'MY-' in subentity_code else subentity_code
+>>>>>>> upstream/18.0
 
         vals.update({
             'address_lines': [partner.street or '', partner.street2 or ''],
@@ -846,6 +911,7 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
         Additionally, companies registered to use SST (sales & services tax) must provide their SST number.
         Finally, if a supplier is using TTX (tourism tax), once again that number must be provided.
         """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -990,6 +1056,8 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # OVERRIDE 'account_edi_ubl_cii'
         vals = [{
             'id_attrs': {'schemeID': 'TIN'},
@@ -1040,6 +1108,9 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1200,12 +1271,15 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if phone_number:
                 phone = self._l10n_my_edi_get_formatted_phone_number(phone_number)
                 if E_164_REGEX.match(phone) is None:
                     self._l10n_my_edi_make_validation_error(constraints, 'phone_number_format', partner_type, partner.display_name)
             else:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1242,6 +1316,9 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1302,10 +1379,13 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         document_type_code, original_document = self._l10n_my_edi_get_document_type_code(invoice)
         if document_type_code != '01' and not original_document:
             self._l10n_my_edi_make_validation_error(constraints, 'adjustment_origin', invoice.id, invoice.display_name)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1547,10 +1627,13 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "You must set a Tax Exemption Reason on the invoice : %(invoice_name)s as some taxes have the type 'Tax exemption'.",
                 invoice_name=record_name
             ),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1590,6 +1673,9 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -7,6 +7,10 @@
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
@@ -18,7 +22,11 @@ msgstr ""
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -348,7 +356,11 @@ msgstr ""
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "This work entry is validated. You can't delete it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Această intrare de lucru este validată. Nu o puteți șterge."
+>>>>>>> upstream/18.0
 =======
 msgstr "Această intrare de lucru este validată. Nu o puteți șterge."
 >>>>>>> upstream/18.0
@@ -362,7 +374,11 @@ msgstr "Opțiuni concediu"
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__date_stop
 msgid "To"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Către"
+=======
+msgstr "Până la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Până la"
 >>>>>>> upstream/18.0
@@ -386,7 +402,11 @@ msgstr "Tip"
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "Undefined"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nedefinit(ă)"
+=======
+msgstr "Nedefinit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nedefinit"
 >>>>>>> upstream/18.0
@@ -402,7 +422,11 @@ msgstr "Tip nedefinit"
 #: model:ir.model.fields,help:hr_work_entry.field_hr_work_entry_type__external_code
 msgid "Use this code to export your data to a third party"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utilizați acest cod pentru a vă exporta datele către o terță parte"
+=======
+msgstr "Utilizați acest cod pentru a exporta datele către o terță parte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Utilizați acest cod pentru a exporta datele către o terță parte"
 >>>>>>> upstream/18.0
@@ -417,7 +441,11 @@ msgstr "Validat"
 #: model:ir.model.constraint,message:hr_work_entry.constraint_hr_work_entry__work_entries_no_validated_conflict
 msgid "Validated work entries cannot overlap"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Intrările de muncă validate nu se pot suprapune"
+=======
+msgstr "Intrările de lucru validate nu se pot suprapune"
+>>>>>>> upstream/18.0
 =======
 msgstr "Intrările de lucru validate nu se pot suprapune"
 >>>>>>> upstream/18.0
@@ -436,7 +464,11 @@ msgstr "Intrări de lucru"
 #: model:ir.model,name:hr_work_entry.model_hr_user_work_entry_employee
 msgid "Work Entries Employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Intrări Lucru Angajați"
+=======
+msgstr "Angajați cu intrări de lucru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Angajați cu intrări de lucru"
 >>>>>>> upstream/18.0
@@ -448,7 +480,11 @@ msgstr "Angajați cu intrări de lucru"
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "Work Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Intrare Lucru"
+=======
+msgstr "Intrare de lucru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Intrare de lucru"
 >>>>>>> upstream/18.0
@@ -457,7 +493,11 @@ msgstr "Intrare de lucru"
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "Work Entry Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume Intrare Lucru"
+=======
+msgstr "Nume intrare de lucru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume intrare de lucru"
 >>>>>>> upstream/18.0
@@ -470,7 +510,11 @@ msgstr "Nume intrare de lucru"
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.resource_calendar_leaves_view_search_inherit
 msgid "Work Entry Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip Intrare Lucru"
+=======
+msgstr "Tip intrare de lucru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip intrare de lucru"
 >>>>>>> upstream/18.0
@@ -479,7 +523,11 @@ msgstr "Tip intrare de lucru"
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_form
 msgid "Work Entry Type Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume Tip Intrare Lucru"
+=======
+msgstr "Nume tip intrare de lucru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume tip intrare de lucru"
 >>>>>>> upstream/18.0
@@ -488,7 +536,11 @@ msgstr "Nume tip intrare de lucru"
 #: model:ir.actions.act_window,name:hr_work_entry.hr_work_entry_type_action
 msgid "Work Entry Types"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipuri Intrare Lucru"
+=======
+msgstr "Tipuri de intrare de lucru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipuri de intrare de lucru"
 >>>>>>> upstream/18.0
@@ -498,8 +550,13 @@ msgstr "Tipuri de intrare de lucru"
 msgid "Work entry must end. Please define an end date or a duration."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Intrarea în muncă trebuie să se încheie. Vă rugăm să definiți o dată de "
 "încheiere sau o durată."
+=======
+"Intrarea de lucru trebuie să se încheie. Vă rugăm să definiți o dată de "
+"sfârșit sau o durată."
+>>>>>>> upstream/18.0
 =======
 "Intrarea de lucru trebuie să se încheie. Vă rugăm să definiți o dată de "
 "sfârșit sau o durată."
@@ -513,6 +570,12 @@ msgid ""
 "used by the system. You need to delete related working entries first."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu puteți schimba țara acestui tip de intrare de lucru deoarece este "
+"folosită în prezent de sistem. Trebuie să ștergeți mai întâi intrările de "
+"lucru asociate."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți schimba țara acestui tip de intrare de lucru deoarece este "
 "folosită în prezent de sistem. Trebuie să ștergeți mai întâi intrările de "
@@ -524,7 +587,11 @@ msgstr ""
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "You can't change the country of this specific work entry type."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu puteți schimba țara acestui tip specific de intrare de lucru."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți schimba țara acestui tip specific de intrare de lucru."
 >>>>>>> upstream/18.0

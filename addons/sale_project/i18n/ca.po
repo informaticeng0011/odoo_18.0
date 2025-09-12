@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Santiago Payà <santiagopim@gmail.com>, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,12 +326,18 @@
 # Noemi Pla, 2025
 # Wil Odoo, 2025
 # Santiago Payà <santiagopim@gmail.com>, 2025
+>>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
+# Santiago Payà <santiagopim@gmail.com>, 2025
+# Noemi Pla, 2025
 >>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -688,6 +695,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Santiago Payà <santiagopim@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-06 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Noemi Pla, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -719,13 +731,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "%(name)s's Sales Order Items"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elements de la comanda de venda de %(name)s"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "%(name)s's Sales Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Comandes de venda de %(name)s"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
@@ -736,6 +756,14 @@ msgid ""
 "the cancellation of the sales order.\" invisible=\"sale_order_state != "
 "'cancel'\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning\" title=\"The sales "
+"order associated with this project has been cancelled. We recommend either "
+"updating the sales order item or cancelling this project in alignment with "
+"the cancellation of the sales order.\" invisible=\"sale_order_state != "
+"'cancel'\"/>"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_sale_project_inherit_form
@@ -746,6 +774,14 @@ msgid ""
 "cancellation of the sales order.\" invisible=\"sale_order_state != "
 "'cancel'\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning\" title=\"The sales "
+"order associated with this task has been cancelled. We recommend either "
+"updating the sales order item or cancelling this task in alignment with the "
+"cancellation of the sales order.\" invisible=\"sale_order_state != "
+"'cancel'\"/>"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
@@ -757,6 +793,15 @@ msgid ""
 "                            Make Billable\n"
 "                        </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                            <span class=\"o_stat_value\">0</span> Comanda de venda\n"
+"                        </span>\n"
+"                        <span class=\"o_stat_text\">\n"
+"                            Convertir en facturable\n"
+"                        </span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
@@ -765,6 +810,12 @@ msgid ""
 "                            Sales Orders\n"
 "                        </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                            Comandes de venda\n"
+"                        </span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
@@ -772,6 +823,11 @@ msgid ""
 "<span class=\"o_stat_text\">Customer</span>\n"
 "                        <span class=\"o_stat_text\">Preview</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">Client</span>\n"
+"                        <span class=\"o_stat_text\">Vista prèvia</span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_form
@@ -849,7 +905,11 @@ msgid "<span>)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>)</span>"
 >>>>>>> upstream/18.0
@@ -1150,7 +1210,10 @@ msgstr "Paràmetres de configuració"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1319,6 +1382,7 @@ msgstr "Cost dels béns venuts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1361,6 +1425,8 @@ msgstr "Cost dels béns venuts"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1466,6 +1532,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1536,6 +1603,11 @@ msgstr ""
 #: model:ir.actions.server,name:sale_project.model_sale_order_action_create_project
 msgid "Create Project"
 msgstr ""
+=======
+#: model:ir.actions.server,name:sale_project.model_sale_order_action_create_project
+msgid "Create Project"
+msgstr "Crear projecte"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -1562,6 +1634,10 @@ msgstr ""
 #: code:addons/sale_project/models/product_template.py:0
 msgid "Create a task in an existing project to track the time spent."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Crea una tasca en un projecte existent per fer seguiment del temps invertit."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -1581,6 +1657,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Creeu un projecte buit per a la comanda per poder fer un seguiment del temps"
+" dedicat."
+>>>>>>> upstream/18.0
 =======
 "Creeu un projecte buit per a la comanda per poder fer un seguiment del temps"
 " dedicat."
@@ -1643,6 +1724,11 @@ msgid ""
 "Create projects or tasks later, and link them to order to track the time "
 "spent."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Crea projectes o tasques després i vincula'ls a la comanda per fer seguiment"
+" del temps invertit."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_project__partner_id
@@ -1670,7 +1756,11 @@ msgstr "Lliurat"
 #. module: sale_project
 #: model:product.template,name:sale_project.product_service_create_project_only_product_template
 msgid "Digital Marketing Campaign (project)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campanya de màrqueting digital (projecte)"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_task__display_sale_order_button
@@ -1692,12 +1782,20 @@ msgstr "Bestretes"
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.product_template_form_view_invoice_policy_inherit_sale_project
 msgid "Empty project"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projecte en blanc"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:product.template,name:sale_project.product_product_flooring_product_template
 msgid "Flooring Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Serveis de pavimentació"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -1787,7 +1885,11 @@ msgstr "Fites"
 #. odoo-python
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid "New Sales Order Item"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nou element de la comanda de venda"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_form
@@ -1799,7 +1901,11 @@ msgstr "No facturable"
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.portal_tasks_list_inherit
 msgid "Not Billed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No facturat"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:product.template,name:sale_project.product_service_create_task_only_product_template
@@ -1812,6 +1918,10 @@ msgstr ""
 msgid ""
 "Once the quotation is confirmed by the customer, it becomes a sales order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Un cop el pressupost és confirmat pel client, esdevé una comanda de venda."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -1822,7 +1932,11 @@ msgstr "Altres serveis"
 #. module: sale_project
 #: model:product.template,name:sale_project.product_product_painting_product_template
 msgid "Painting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pintura"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_milestone__quantity_percentage
@@ -1840,6 +1954,7 @@ msgstr ""
 
 #. module: sale_project
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2137,6 +2252,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: code:addons/sale_project/models/project_task.py:0
+msgid "Portal Sale Order"
+msgstr "Comanda de venda en el portal"
+
+#. module: sale_project
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/sale_project/models/product_template.py:0
 msgid "Prepaid/Fixed Price"
 msgstr "Prepagat/Preu Fix"
@@ -2216,7 +2339,11 @@ msgstr "Quantitat"
 #: model:ir.model.fields,field_description:sale_project.field_project_milestone__quantity_percentage
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_tree
 msgid "Quantity (%)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantitat (%)"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_sale_order_template_line
@@ -2330,7 +2457,11 @@ msgstr "Cerca a les comandes de venda"
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.project_project_view_form_simplified_inherit
 msgid "Select who to bill..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecciona a qui facturar"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_product_product__service_policy
@@ -2381,6 +2512,10 @@ msgstr "Anàlisi de tasques"
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid "The Sale Order Item should contain a service product."
 msgstr ""
+<<<<<<< HEAD
+=======
+"L'element de la comanda de venda hauria d'incloure un producte de servei."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -2419,12 +2554,22 @@ msgid ""
 "The project couldn't be created as the Sales Order must be confirmed, is "
 "already linked to a project, or doesn't involve any services."
 msgstr ""
+<<<<<<< HEAD
+=======
+"No s'ha pogut crear el projecte perquè la comanda de venda no ha estat "
+"confirmada, ja està vinculada a un projecte o no inclou cap servei."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/sale_order.py:0
 msgid "This Sales Order must contain at least one product of type \"Service\"."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Aquesta comanda de venda ha d'incloure, com a mínim, un producte del tipus "
+"«Servei»."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -2460,7 +2605,11 @@ msgstr "Factures de proveïdors "
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_tree
 msgid "View Sales Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visualitzar la comanda de venda"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:product.template,name:sale_project.product_service_create_project_and_task_product_template
@@ -2470,7 +2619,11 @@ msgstr ""
 #. module: sale_project
 #: model:product.template,name:sale_project.product_product_wiring_product_template
 msgid "Wiring Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Serveis de cablejat"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -2486,4 +2639,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "You will be able to create an invoice and collect the payment."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podràs crear una factura i rebre el pagament."
+>>>>>>> upstream/18.0

@@ -419,6 +419,14 @@ def load_modules(registry, force_demo=False, status=None, update_module=False):
             cr.execute("SELECT model || '.' || name FROM ir_model_fields WHERE translate IS TRUE")
             registry._database_translated_fields = {row[0] for row in cr.fetchall()}
 
+<<<<<<< HEAD
+=======
+            # determine the fields which are currently company dependent in the database
+            if odoo.tools.sql.column_exists(cr, 'ir_model_fields', 'company_dependent'):
+                cr.execute("SELECT model || '.' || name FROM ir_model_fields WHERE company_dependent IS TRUE")
+                registry._database_company_dependent_fields = {row[0] for row in cr.fetchall()}
+
+>>>>>>> upstream/18.0
         # processed_modules: for cleanup step after install
         # loaded_modules: to avoid double loading
         report = registry._assertion_report

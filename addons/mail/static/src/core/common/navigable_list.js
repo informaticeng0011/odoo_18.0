@@ -91,6 +91,12 @@ export class NavigableList extends Component {
 
     selectOption(ev, index, params = {}) {
         const option = this.props.options[index];
+<<<<<<< HEAD
+=======
+        if (!option) {
+            return;
+        }
+>>>>>>> upstream/18.0
         if (option.unselectable) {
             this.close();
             return;
@@ -258,9 +264,13 @@ export class NavigableList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onOptionMouseEnter(index) {
         this.state.activeIndex = index;
     }
+=======
+    onOptionMouseEnter(index) {}
+>>>>>>> upstream/18.0
 =======
     onOptionMouseEnter(index) {}
 >>>>>>> upstream/18.0

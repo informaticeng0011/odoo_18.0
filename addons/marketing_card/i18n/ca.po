@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* marketing_card
 # 
+=======
+# * marketing_card
+#
+>>>>>>> upstream/18.0
 # Translators:
 # RGB Consulting <odoo@rgbconsulting.com>, 2024
 # eriiikgt, 2024
@@ -21,11 +26,16 @@
 # Josep Anton Belchi, 2024
 # Manel Fernandez Ramirez <manelfera@outlook.com>, 2024
 # Noemi Pla, 2025
+<<<<<<< HEAD
 # 
+=======
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -299,12 +309,29 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:37+0000\n"
+"PO-Revision-Date: 2025-08-25 13:41+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
+"Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
+"marketing_card/ca/>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "%(card_campaign_name)s Mailings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Correus de %(card_campaign_name)s"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_kanban
@@ -312,16 +339,34 @@ msgid ""
 "<i class=\"fa fa-fw fa-mouse-pointer\" aria-label=\"Clicks\" role=\"img\" "
 "title=\"Clicks\"/>"
 msgstr ""
+<<<<<<< HEAD
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_kanban
 msgid "<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" title=\"Shares\"/>"
 msgstr ""
+=======
+"<i class=\"fa fa-fw fa-mouse-pointer\" aria-label=\"Clicks\" role=\"img\" "
+"title=\"Clicks\"/>"
+
+#. module: marketing_card
+#: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_kanban
+msgid ""
+"<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" "
+"title=\"Shares\"/>"
+msgstr ""
+"<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" title="
+"\"Shares\"/>"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
 msgid "<small>Where does this link to?</small>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<small>A on dirigeix aquest enllaç?</small>"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
@@ -330,6 +375,12 @@ msgid ""
 "                                Cards\n"
 "                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                Targetes\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
@@ -338,6 +389,12 @@ msgid ""
 "                                Clicks\n"
 "                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                Clics\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
@@ -346,6 +403,12 @@ msgid ""
 "                                Mailings\n"
 "                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                Correus\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
@@ -354,6 +417,12 @@ msgid ""
 "                                Opened\n"
 "                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                Oberta\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
@@ -362,6 +431,12 @@ msgid ""
 "                                Shared\n"
 "                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                Compartida\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__message_needaction
@@ -403,7 +478,11 @@ msgstr "Arxivat"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.mailing_mailing_view_form_inherit_marketing_card
 msgid "Are you sure you want to update all cards of the campaign?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estàs segur que vols actualitzar totes les targetes de la campanya?"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__message_attachment_count
@@ -448,44 +527,83 @@ msgstr "Targeta "
 #: model:ir.actions.act_window,name:marketing_card.card_campaign_action
 #: model:ir.model.fields,field_description:marketing_card.field_mailing_mailing__card_campaign_id
 msgid "Card Campaign"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campanya amb targetes"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #. odoo-python
 #: code:addons/marketing_card/models/mailing_mailing.py:0
 msgid "Card Campaign Mailing should target model %(model_name)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"El correu de la campanya de targetes hauria de ser dirigit al model "
+"%(model_name)s"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__card_click_count
 msgid "Card Click Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nombre de clics de la targeta"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__card_count
 msgid "Card Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nombre de targetes"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Card Layout"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Disseny de la targeta"
+
+#. module: marketing_card
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Card Preview"
+msgstr "Vista prèvia de la targeta"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_mailing_mailing__card_requires_sync_count
 msgid "Card Requires Sync Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nombre de targetes que necessiten sincronització"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__card_share_count
 msgid "Card Share Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nombre de vegades que s'ha compartit la targeta"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.actions.act_window,name:marketing_card.card_template_action
 #: model:ir.ui.menu,name:marketing_card.cards_template_menu
 msgid "Card Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plantilla de la targeta"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.mailing_mailing_view_form_inherit_marketing_card
@@ -495,7 +613,11 @@ msgstr "Targetes"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
 msgid "Click here for your reward!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fes clic aquí per obtindre la teva recompensa!"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign_tag__color
@@ -505,7 +627,11 @@ msgstr "Color"
 #. module: marketing_card
 #: model_terms:ir.actions.act_window,help:marketing_card.cards_card_action
 msgid "Create a Card Campaign to send cards to your partners"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Crea una campanya de targetes per enviar targetes als teus contactes"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.actions.act_window,help:marketing_card.card_campaign_action
@@ -630,6 +756,15 @@ msgstr ""
 #. module: marketing_card
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
+<<<<<<< HEAD
+=======
+msgid "Hello everyone"
+msgstr ""
+
+#. module: marketing_card
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+>>>>>>> upstream/18.0
 msgid "Help us share the news"
 msgstr ""
 
@@ -639,6 +774,15 @@ msgid "Helps you manage marketing card campaigns."
 msgstr ""
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Here's the link to advertise your participation."
+msgstr ""
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__id
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign_tag__id
 #: model:ir.model.fields,field_description:marketing_card.field_card_card__id
@@ -711,7 +855,11 @@ msgstr "És un seguidor"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Join me at this event!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uneix-te a aquest esdeveniment!"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__lang
@@ -747,7 +895,17 @@ msgstr "Enviament correu"
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__mailing_count
 msgid "Mailing Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nombre de correus"
+
+#. module: marketing_card
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Many thanks"
+msgstr "Moltes gràcies"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model,name:marketing_card.model_card_card
@@ -755,32 +913,56 @@ msgstr ""
 #: model:ir.ui.menu,name:marketing_card.card_menu
 #: model:ir.ui.menu,name:marketing_card.marketing_card_menu_technical
 msgid "Marketing Card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Targeta de màrqueting"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model,name:marketing_card.model_card_campaign
 msgid "Marketing Card Campaign"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campanya de targetes de màrqueting"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model,name:marketing_card.model_card_campaign_tag
 msgid "Marketing Card Campaign Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etiqueta de la campanya de targetes de màrqueting"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:res.groups,name:marketing_card.marketing_card_group_manager
 msgid "Marketing Card Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Responsable de targetes de màrqueting"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model,name:marketing_card.model_card_template
 msgid "Marketing Card Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plantilla de targetes de màrqueting"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:res.groups,name:marketing_card.marketing_card_group_user
 msgid "Marketing Card User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usuari de la targeta de màrqueting"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model,name:marketing_card.model_mailing_mailing
@@ -809,6 +991,16 @@ msgstr "Nom del model"
 msgid ""
 "Model of campaign %(campaign)s may not be changed as it already has cards"
 msgstr ""
+<<<<<<< HEAD
+=======
+"No és possible canviar el model de la campanya %(campaign)s perquè ja té "
+"targetes"
+
+#. module: marketing_card
+#: model:ir.model,name:marketing_card.model_ir_model
+msgid "Models"
+msgstr "Models"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__my_activity_date_deadline
@@ -818,7 +1010,11 @@ msgstr "Venciment de l'activitat"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_search
 msgid "My Campaigns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Les meves campanyes"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__name
@@ -850,7 +1046,11 @@ msgstr "Tipus de la següent activitat"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "No button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sense botó"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__message_needaction_counter
@@ -887,6 +1087,7 @@ msgstr "Odoo"
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -894,6 +1095,15 @@ msgstr ""
 "correu electrònic. Si no està establert, s'usarà la versió anglesa. Això "
 "normalment hauria de ser una expressió de substitució que proveeixi l'idioma"
 " apropiat, p. ex. {{ object.partner_id.lang }}."
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+msgstr ""
+"Idioma opcional de traducció (codi ISO) per a seleccionar en enviar un "
+"correu electrònic. Si no està establert, s'usarà la versió anglesa. Això "
+"normalment hauria de ser una expressió de substitució que proveeixi l'idioma "
+"apropiat, p. ex. {{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__target_url
@@ -903,18 +1113,31 @@ msgstr "Enllaç de la publicació"
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__post_suggestion
 msgid "Post Suggestion"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Suggeriment de publicació"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
 msgid "Powered By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amb la tecnologia de"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.actions.act_window,help:marketing_card.card_campaign_action
 msgid ""
 "Prepare a design and some content and let your community spread the word!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Crea un disseny, redacta el contingut i deixa que la comunitat ho "
+"comparteixi!"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
@@ -924,12 +1147,20 @@ msgstr "Vista prèvia"
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__preview_record_ref
 msgid "Preview On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vista prèvia en"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Preview on..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vista prèvia en..."
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_template__primary_color
@@ -939,7 +1170,11 @@ msgstr "Color primari"
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_template__primary_text_color
 msgid "Primary Text Color"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Color principal del text"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_1
@@ -948,7 +1183,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_4
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_5
 msgid "Profile Picture"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imatge del perfil"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__rating_ids
@@ -958,7 +1197,11 @@ msgstr "Valoracions"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Recipient Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Missatge del destinatari"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
@@ -988,7 +1231,11 @@ msgstr "Sol·licitud"
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__request_description
 msgid "Request Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Descripció de la sol·licitud"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_card__requires_sync
@@ -1019,12 +1266,20 @@ msgstr "Error de lliurament SMS"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_card_view_search
 msgid "Search Card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cercar targeta"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_search
 msgid "Search Share Campaign"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cercar campanya a compartir"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_template__secondary_color
@@ -1034,7 +1289,11 @@ msgstr "Color secundari"
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_template__secondary_text_color
 msgid "Secondary Text Color"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Color secundari del text"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_section
@@ -1044,7 +1303,11 @@ msgstr "Secció"
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_section_path
 msgid "Section Path"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ruta de la secció"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
@@ -1054,7 +1317,11 @@ msgstr "Seleccionar un camp"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
 msgid "Select where to share"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecciona on es compartirà"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
@@ -1065,17 +1332,29 @@ msgstr "Enviar"
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "Send Cards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enviar targetes"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Share Campaign"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Compartir campanya"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_card_view_list
 msgid "Share Card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Compartir targeta"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_card__share_status
@@ -1090,7 +1369,11 @@ msgstr "Compartir plantilla"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
 msgid "Share with your community!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Comparteix-la amb la teva comunitat!"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields.selection,name:marketing_card.selection__card_card__share_status__shared
@@ -1114,7 +1397,11 @@ msgstr ""
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_sub_header_color
 msgid "Sub Header Color"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Color del subtítol"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_sub_header
@@ -1155,6 +1442,7 @@ msgstr "Etiquetes"
 #. module: marketing_card
 #: model:ir.model.constraint,message:marketing_card.constraint_card_campaign_tag_name_uniq
 msgid "Tags may not reuse existing names."
+<<<<<<< HEAD
 msgstr ""
 
 #. module: marketing_card
@@ -1584,6 +1872,14 @@ msgid "Thank You Message"
 msgid "Thank You Message"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "Les etiquetes no poden reutilitzar noms existents."
+
+#. module: marketing_card
+#: model:ir.model.fields,field_description:marketing_card.field_card_campaign__reward_message
+msgid "Thank You Message"
+msgstr "Missatge d'agraïment"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #. odoo-python
@@ -1592,6 +1888,11 @@ msgid ""
 "The UTM source '%s' cannot be deleted as it is used to promote marketing "
 "cards campaigns."
 msgstr ""
+<<<<<<< HEAD
+=======
+"La font UTM '%s' no es pot eliminar perquè s'utilitza per promocionar les "
+"campanyes de les targetes de màrqueting."
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,help:marketing_card.field_card_campaign__activity_exception_decoration
@@ -1609,17 +1910,27 @@ msgid "Update"
 msgstr "Actualitza"
 
 #. module: marketing_card
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:marketing_card.robots
 msgid ""
 "User-agent: *\n"
 "                Allow: /cards/"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:marketing_card.mailing_mailing_view_form_inherit_marketing_card
+msgid "Update Cards"
+msgstr "Actualitzar targetes"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields.selection,name:marketing_card.selection__card_card__share_status__visited
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_card_view_search
 msgid "Visited"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visitat"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__website_message_ids
@@ -1642,11 +1953,26 @@ msgstr ""
 msgid ""
 "You should update all the cards for %(mailing)s before scheduling a mailing."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Cal actualitzar totes les targetes per a%(mailing)s abans de programar un "
+"correu."
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Your Home Page"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "La teva pàgina d'inici"
+
+#. module: marketing_card
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Your help with this promotion would be greatly appreciated!"
+msgstr "Agrairíem molt la teva ajuda amb aquesta promoció!"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_2
@@ -1658,6 +1984,7 @@ msgstr "text del botó"
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2190,11 +2517,24 @@ msgstr ""
 >>>>>>> upstream/18.0
 msgid "e.g. \"https://www.mycompany.com/reward\""
 msgstr ""
+=======
+msgid "e.g. \"Thanks for sharing, here is your reward!\""
+msgstr "p. ex.: «Gràcies per compartir, aquí tens la teva recompensa»"
+
+#. module: marketing_card
+#: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
+msgid "e.g. \"https://www.mycompany.com/reward\""
+msgstr "p. ex.: «https://www.lamevaempresa.com/recompensa»"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "e.g. Aug 24, Brussels Expo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "p. ex.: 24 d'agost, Brussels Expo"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form

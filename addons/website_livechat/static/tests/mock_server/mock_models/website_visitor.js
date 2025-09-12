@@ -6,7 +6,11 @@ export class WebsiteVisitor extends models.ServerModel {
     _name = "website.visitor";
 
     country_id = fields.Many2one({ relation: "res.country", string: "Country" }); // FIXME: somehow not fetched properly
+<<<<<<< HEAD
     history = fields.Char();
+=======
+    history_data = fields.Char();
+>>>>>>> upstream/18.0
     lang_id = fields.Many2one({ relation: "res.lang", string: "Language" }); // FIXME: somehow not fetched properly
     name = fields.Char({ string: "Name" }); // FIXME: somehow not fetched
     partner_id = fields.Many2one({ relation: "res.partner", string: "Contact" }); // FIXME: somehow not fetched properly

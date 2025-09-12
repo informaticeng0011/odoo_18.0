@@ -6,6 +6,10 @@
 # Lyall Kindmurr, 2024
 # Maria Muntean, 2024
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -13,7 +17,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,11 +35,20 @@ msgid ""
 "<i>Your order has been confirmed.</i><br>Please come to the store to pay for"
 " your products."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i>Comanda dvs. a fost confirmată.</i><br>Vă rugăm să veniți la magazin "
+"pentru a plăti produsele."
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.payment_confirmation_status
 msgid "<span class=\"text-muted\"> (In-store pickup)</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\"> (Ridicare din magazin)</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-javascript
@@ -54,12 +71,20 @@ msgstr "Setări de configurare"
 #. module: website_sale_collect
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.res_config_settings_form
 msgid "Configure Pickup Locations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Configurează locațiile de ridicare"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model:ir.model.fields,field_description:website_sale_collect.field_payment_provider__custom_mode
 msgid "Custom Mode"
+<<<<<<< HEAD
 msgstr "Mod personalizare"
+=======
+msgstr "Mod personalizat"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-python
@@ -70,7 +95,11 @@ msgstr "Metode de livrare"
 #. module: website_sale_collect
 #: model:ir.model.fields,field_description:website_sale_collect.field_website__in_store_dm_id
 msgid "In-store Delivery Method"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metodă de livrare în magazin"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-javascript
@@ -89,7 +118,11 @@ msgstr "Doar"
 #. odoo-python
 #: code:addons/website_sale_collect/models/sale_order.py:0
 msgid "Only %(new_qty)s available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doar %(new_qty)s disponibile"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model:ir.model.fields,field_description:website_sale_collect.field_stock_warehouse__opening_hours
@@ -105,13 +138,21 @@ msgstr "Stoc epuizat"
 #. module: website_sale_collect
 #: model:payment.provider,name:website_sale_collect.payment_provider_on_site
 msgid "Pay on Site"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plătește la fața locului"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model:ir.model.fields.selection,name:website_sale_collect.selection__payment_provider__custom_mode__on_site
 #: model:payment.method,name:website_sale_collect.payment_method_pay_on_site
 msgid "Pay on site"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plătește la fața locului"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model:ir.model,name:website_sale_collect.model_payment_provider
@@ -121,7 +162,11 @@ msgstr "Procesator de plată"
 #. module: website_sale_collect
 #: model:ir.model,name:website_sale_collect.model_payment_transaction
 msgid "Payment Transaction"
+<<<<<<< HEAD
 msgstr "Tranzacție plată"
+=======
+msgstr "Tranzacție de plată"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-javascript
@@ -130,13 +175,21 @@ msgstr "Tranzacție plată"
 #: model:ir.model.fields.selection,name:website_sale_collect.selection__delivery_carrier__delivery_type__in_store
 #: model:product.template,name:website_sale_collect.product_pick_up_in_store_product_template
 msgid "Pick up in store"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ridicare din magazin"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-python
 #: code:addons/website_sale_collect/controllers/main.py:0
 msgid "Please choose a store to collect your order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vă rugăm să alegeți un magazin de unde să ridicați comanda."
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model:ir.model,name:website_sale_collect.model_product_template
@@ -166,38 +219,63 @@ msgstr "Metode de expediere"
 #. module: website_sale_collect
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.unavailable_products_warning
 msgid "Some of the products are not available at"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unele produse nu sunt disponibile la"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-python
 #: code:addons/website_sale_collect/controllers/main.py:0
 #: code:addons/website_sale_collect/models/sale_order.py:0
 msgid "Some products are not available in the selected store."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unele produse nu sunt disponibile în magazinul selectat."
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-python
 #: code:addons/website_sale_collect/controllers/main.py:0
 msgid "Sorry, we are unable to ship your order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne pare rău, nu putem expedia comanda dvs."
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model:ir.model.fields,field_description:website_sale_collect.field_delivery_carrier__warehouse_ids
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.delivery_carrier_form
 msgid "Stores"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Magazine"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-python
 #: code:addons/website_sale_collect/models/delivery_carrier.py:0
 msgid "The delivery method and a warehouse must share the same company"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Metoda de livrare și un depozit trebuie să aparțină aceleiași companii"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-python
 #: code:addons/website_sale_collect/models/delivery_carrier.py:0
 msgid "The delivery method must have at least one warehouse to be published."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Metoda de livrare trebuie să aibă cel puțin un depozit pentru a fi "
+"publicată."
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model:ir.model,name:website_sale_collect.model_stock_warehouse
@@ -216,6 +294,11 @@ msgid ""
 "You can only pay on site when selecting the pick up in store delivery "
 "method."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Puteți plăti la fața locului doar dacă alegeți metoda de livrare ridicare "
+"din magazin."
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model_terms:payment.provider,auth_msg:website_sale_collect.payment_provider_on_site
@@ -243,4 +326,8 @@ msgstr "disponibil"
 #. odoo-python
 #: code:addons/website_sale_collect/models/payment_provider.py:0
 msgid "no in-store delivery methods available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nu există metode de livrare în magazin disponibile"
+>>>>>>> upstream/18.0

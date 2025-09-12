@@ -143,7 +143,11 @@ class AccountMove(models.Model):
         # Ensure the move is posted
         if self.state != 'posted':
             return _("Cannot send an entry that is not posted to TicketBAI.")
+<<<<<<< HEAD
         if self.l10n_es_tbai_state in ('sent', 'cancelled'):
+=======
+        if self.l10n_es_tbai_state in ('sent', 'cancelled') and not self.env.context.get('batuz_correction'):
+>>>>>>> upstream/18.0
             return _("This entry has already been posted.")
         if self.company_id.l10n_es_tbai_tax_agency == 'bizkaia' and self.is_purchase_document() and not self.ref:
             return _("You need to fill in the Reference field as the invoice number from your vendor.")
@@ -188,6 +192,17 @@ class AccountMove(models.Model):
     # WEB SERVICE CALLS
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
+=======
+    def l10n_es_tbai_resend_bill(self):
+        self.ensure_one()
+        self.l10n_es_tbai_post_document_id = False
+        if error := self.with_context(batuz_correction=True)._l10n_es_tbai_post():
+            error = error + "\n\n" + _("Be careful if you modified this vendor bill, "
+                                       "because the official version is still the previous one sent. ")
+            raise UserError(error)  # This way, we rollback when rejected and the old accepted document is kept
+
+>>>>>>> upstream/18.0
     def l10n_es_tbai_send_bill(self):
         for bill in self:
             error = bill._l10n_es_tbai_post()
@@ -289,6 +304,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tax_amls = self.line_ids.filtered(lambda x: x.display_type == 'tax')
 =======
         tax_amls = self.line_ids.filtered('tax_repartition_line_id')
@@ -304,6 +320,16 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
         tax_lines = [self._prepare_tax_line_for_taxes_computation(x) for x in tax_amls]
         self.env['l10n_es_edi_tbai.document']._add_base_lines_tax_amounts(base_lines, self.company_id, tax_lines=tax_lines)
+=======
+        tax_amls = self.line_ids.filtered('tax_repartition_line_id')
+        tax_lines = [self._prepare_tax_line_for_taxes_computation(x) for x in tax_amls]
+        self.env['l10n_es_edi_tbai.document']._add_base_lines_tax_amounts(base_lines, self.company_id, tax_lines=tax_lines)
+        for base_line in base_lines:
+            sign = base_line['is_refund'] and -1 or 1
+            base_line['gross_price_unit'] = sign * base_line['gross_price_unit']
+            base_line['discount_amount'] = sign * base_line['discount_amount']
+            base_line['price_total'] = sign * base_line['price_total']
+>>>>>>> upstream/18.0
         taxes = self.invoice_line_ids.tax_ids.flatten_taxes_hierarchy()
         is_oss = any(tax._l10n_es_get_regime_code() == '17' for tax in taxes)
 
@@ -365,7 +391,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'tipofactura': 'F5' if self._l10n_es_is_dua() else 'F1',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -475,8 +504,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         values['regime_key'] = ['09'] if intracom else ['01']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -583,6 +615,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -688,8 +723,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -795,6 +833,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

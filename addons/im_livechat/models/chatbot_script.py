@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
 from odoo import api, models, fields
+=======
+from odoo import api, Command, models, fields
+>>>>>>> upstream/18.0
 from odoo.http import request
 from odoo.tools import email_normalize, get_lang, html2plaintext, is_html_empty, plaintext2html
 from odoo.exceptions import ValidationError
@@ -35,6 +39,15 @@ class ChatbotScript(models.Model):
             if step.step_type == "question_selection" and not step.answer_ids:
                 raise ValidationError(self.env._("Step of type 'Question' must have answers."))
 
+<<<<<<< HEAD
+=======
+    @api.onchange("script_step_ids")
+    def _onchange_script_step_ids(self):
+        for step in self.script_step_ids:
+            if step.step_type != "question_selection" and step.answer_ids:
+                step.answer_ids = [Command.clear()]
+
+>>>>>>> upstream/18.0
     def _compute_livechat_channel_count(self):
         channels_data = self.env['im_livechat.channel.rule']._read_group(
             [('chatbot_script_id', 'in', self.ids)], ['chatbot_script_id'], ['channel_id:count_distinct'])

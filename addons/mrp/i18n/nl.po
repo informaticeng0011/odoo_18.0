@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* mrp
 # 
 # Translators:
@@ -268,10 +269,21 @@
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * mrp
+#
+# Translators:
+# Jolien De Paepe, 2024
+# Wil Odoo, 2024
+# Manon Rondou, 2025
+# Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -617,6 +629,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"POT-Creation-Date: 2025-06-13 18:36+0000\n"
+"PO-Revision-Date: 2025-08-19 22:20+0000\n"
+"Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
+"Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18/mrp/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__state
@@ -2106,7 +2130,11 @@ msgid "Component Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Onderdeel status"
+=======
+msgstr "Onderdeelstatus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Onderdeelstatus"
 >>>>>>> upstream/18.0
@@ -2794,6 +2822,10 @@ msgstr "Demontageorder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -3336,6 +3368,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Verwachte aantal (berekend als: Fysiek beschikbare voorraad - Uitgaand + Inkomend). \n"
 "Bij gebruik van een enkele voorraadlocatie, omvat dit de goederen opgeslagen in deze locatie, of één van de onderliggende locaties. \n"
 "Bij gebruik van een enkel magazijn, omvat dit de goederen die in de voorraadlocatie van dit magazijn zijn opgeslagen, of één van de onderliggende locaties. \n"
@@ -3659,6 +3692,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Verwachte aantal (berekend als: Fysiek aanwezige voorraad - Uitgaand + Inkomend). \n"
 "Bij gebruik van een enkele voorraadlocatie, omvat dit de goederen opgeslagen in deze locatie, of één van de onderliggende locaties. \n"
 "Bij gebruik van een enkel magazijn, omvat dit de goederen die in de voorraadlocatie van dit magazijn zijn opgeslagen, of één van de onderliggende locaties. \n"
@@ -3678,6 +3713,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3900,6 +3938,7 @@ msgstr "Heeft routingregels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3918,6 +3957,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3995,6 +4036,9 @@ msgstr "Heeft werkbon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6007,7 +6051,11 @@ msgid "Product to build..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Te bouwen producten..."
+=======
+msgstr "Te produceren producten..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Te produceren producten..."
 >>>>>>> upstream/18.0
@@ -6872,7 +6920,11 @@ msgstr "Start"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_work_order_search
 msgid "Start Date"
+<<<<<<< HEAD
 msgstr "Begindatum"
+=======
+msgstr "Startdatum"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__state
@@ -6902,7 +6954,11 @@ msgid ""
 msgstr ""
 "Status gebaseerd op activiteiten\n"
 "Te laat: Datum is al gepasseerd\n"
+<<<<<<< HEAD
 "Vandaag: Activiteit datum is vandaag\n"
+=======
+"Vandaag: Datum van activiteit is vandaag\n"
+>>>>>>> upstream/18.0
 "Gepland: Toekomstige activiteiten."
 
 #. module: mrp
@@ -7768,7 +7824,11 @@ msgid "Units"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stuks"
+=======
+msgstr "Stuk(s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stuk(s)"
 >>>>>>> upstream/18.0
@@ -8906,6 +8966,7 @@ msgstr "werkorders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -8926,6 +8987,8 @@ msgstr "{{ props.isFolded ? 'Unfold' : 'Fold' }}"
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

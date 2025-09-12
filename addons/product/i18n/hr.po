@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* product
 # 
+=======
+# * product
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Đurđica Žarković <durdica.zarkovic@storm.hr>, 2024
 # Milan Tribuson <one.mile.code@gmail.com>, 2024
@@ -16,6 +21,7 @@
 # hrvoje sić <hrvoje.sic@gmail.com>, 2024
 # Bole <bole@dajmi5.com>, 2024
 # Zvonimir Galic, 2025
+<<<<<<< HEAD
 # Luka Carević <luka@uvid.hr>, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -388,10 +394,18 @@
 # Ivica Dimjašević, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Goran Kliska <gkliska@gmail.com>, 2025
+# Ivica Dimjašević, 2025
+# Luka Carević <luka@uvid.hr>, 2025
+# Alen Komljen <alen@uvid.hr>, 2025.
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -841,6 +855,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-05-14 20:47+0000\n"
+"PO-Revision-Date: 2025-08-26 14:55+0000\n"
+"Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/product/"
+"hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -1203,7 +1231,11 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__access_token
 msgid "Access Token"
+<<<<<<< HEAD
 msgstr "Token pristupa"
+=======
+msgstr "Pristupni token"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
@@ -1338,7 +1370,11 @@ msgid "Add Products to pricelist report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj proizvode u izvješće cjenika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj proizvode u izvješće cjenika"
 >>>>>>> upstream/18.0
@@ -1537,6 +1573,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dodajte proizvode pomoću gumba \"Dodaj proizvode\" u gornjem desnom kutu\n"
+"                                kako bi ih prikazali u izvješću."
+>>>>>>> upstream/18.0
 =======
 "Dodajte proizvode pomoću gumba \"Dodaj proizvode\" u gornjem desnom kutu\n"
 "                                kako bi ih prikazali u izvješću."
@@ -1818,10 +1859,15 @@ msgstr "Sve varijante proizvoda koje koriste ovu oznaku"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
@@ -2326,7 +2372,11 @@ msgid "Bye-bye, record!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pa-pa, zapisu!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pa-pa, zapisu!"
 >>>>>>> upstream/18.0
@@ -2457,12 +2507,20 @@ msgstr "Ormarić sa vratima"
 #: model:ir.model.fields,field_description:product.field_product_product__can_image_1024_be_zoomed
 #: model:ir.model.fields,field_description:product.field_product_template__can_image_1024_be_zoomed
 msgid "Can Image 1024 be zoomed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Može li se slika 1024 povećati"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__can_image_variant_1024_be_zoomed
 msgid "Can Variant Image 1024 be zoomed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Može li se slika varijante 1024 povećati?"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.update_product_attribute_value_form
@@ -2537,7 +2595,11 @@ msgstr "Kolone"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__combination_indices
 msgid "Combination Indices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Indeksi kombinacija"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_combo_item__combo_id
@@ -2721,7 +2783,11 @@ msgid "Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Potrvdi"
+=======
+msgstr "Potvrdi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potvrdi"
 >>>>>>> upstream/18.0
@@ -3223,7 +3289,11 @@ msgstr "Definirajte jedinicu mjere mase"
 #: code:addons/product/static/src/js/product_attribute_value_list.js:0
 #: model_terms:ir.ui.view,arch_db:product.product_document_kanban
 msgid "Delete"
+<<<<<<< HEAD
 msgstr "Briši"
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__delay
@@ -3635,7 +3705,11 @@ msgstr ""
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.res_config_settings_view_form
 msgid "Google Images"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google slike"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_view_search
@@ -4119,7 +4193,11 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__display_type__multi
 msgid "Multi-checkbox"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Višestruki izbor"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_attribute_check_multi_checkbox_no_variant
@@ -4516,7 +4594,11 @@ msgid "Price Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip cijene"
+=======
+msgstr "Vrsta cijene"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta cijene"
 >>>>>>> upstream/18.0
@@ -4854,7 +4936,11 @@ msgstr "Broj proizvoda"
 #. module: product
 #: model:res.groups,name:product.group_product_manager
 msgid "Product Creation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izrada proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_document
@@ -5057,7 +5143,11 @@ msgid "Product Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip proizvoda"
+=======
+msgstr "Vrsta proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta proizvoda"
 >>>>>>> upstream/18.0
@@ -5380,7 +5470,11 @@ msgid "Quantity (%s UoM)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Količina /%s JM)"
+=======
+msgstr "Količina (%s JM)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Količina (%s JM)"
 >>>>>>> upstream/18.0
@@ -5553,6 +5647,11 @@ msgid ""
 "Register the prices requested by your vendors for each product, based on the"
 " quantity and the period."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Zabilježite cijene koje su ponudili vaši dobavljači za svaki proizvod, "
+"ovisno o količini i razdoblju."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__product_tmpl_ids
@@ -5567,7 +5666,11 @@ msgstr "Povezanih varijanti"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__ir_attachment_id
 msgid "Related attachment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezani prilog"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -5747,7 +5850,11 @@ msgid "Show Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži naziv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži naziv"
 >>>>>>> upstream/18.0
@@ -5901,7 +6008,11 @@ msgstr "Veličina"
 #: model:ir.model.fields,field_description:product.field_res_partner__specific_property_product_pricelist
 #: model:ir.model.fields,field_description:product.field_res_users__specific_property_product_pricelist
 msgid "Specific Property Product Pricelist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodijeljen specifičan cjenik proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__categ_id
@@ -6017,7 +6128,11 @@ msgstr "Oznake"
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_tag_action
 msgid "Tags are used to search product for a given theme."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznake se koriste za pretraživanje proizvoda prema određenoj temi."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__template_value_ids
@@ -6074,7 +6189,11 @@ msgid "The Internal Reference '%s' already exists."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Interna oznaka '%s' već postoji."
+>>>>>>> upstream/18.0
 =======
 msgstr "Interna oznaka '%s' već postoji."
 >>>>>>> upstream/18.0
@@ -6261,7 +6380,11 @@ msgid "The Reference '%s' already exists."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vezna oznaka '%s' već postoji."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vezna oznaka '%s' već postoji."
 >>>>>>> upstream/18.0
@@ -6684,7 +6807,11 @@ msgid "UOM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JM"
+>>>>>>> upstream/18.0
 =======
 msgstr "JM"
 >>>>>>> upstream/18.0
@@ -7008,7 +7135,11 @@ msgid "Validity Period"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Period valjanosti"
+=======
+msgstr "Razdoblje valjanosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razdoblje valjanosti"
 >>>>>>> upstream/18.0
@@ -7191,7 +7322,11 @@ msgstr "Broj varijanti"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__create_variant
 msgid "Variant Creation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiranje varijante"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_variant_1920
@@ -7388,7 +7523,11 @@ msgstr "Drvo"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__write_date
 msgid "Write Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum unosa"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -7657,12 +7796,20 @@ msgstr "popust"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_form_normalized
 msgid "e.g. 1234567890"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. 1234567890"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_combo_view_form
 msgid "e.g. Burger Choice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Izbor burgera"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_form_normalized
@@ -7673,7 +7820,11 @@ msgstr "npr. Boja za drvo"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_category_form_view
 msgid "e.g. Lamps"
+<<<<<<< HEAD
 msgstr "npr. Lamps"
+=======
+msgstr "npr. Lampe"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
@@ -7782,7 +7933,11 @@ msgid "sales price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "prodajna cijena"
+>>>>>>> upstream/18.0
 =======
 msgstr "prodajna cijena"
 >>>>>>> upstream/18.0

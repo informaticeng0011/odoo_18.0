@@ -138,7 +138,11 @@ class MailTemplate(models.Model):
         value = [value] if isinstance(value, str) else value
         operator = 'in' if operator in ("in", "=") else 'not in'
 
+<<<<<<< HEAD
         templates_with_xmlid = self.env['ir.model.data']._search([
+=======
+        templates_with_xmlid = self.env['ir.model.data'].sudo()._search([
+>>>>>>> upstream/18.0
             ('model', '=', 'mail.template'),
             ('module', '!=', '__export__')
         ]).subselect('res_id')

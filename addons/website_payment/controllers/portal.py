@@ -6,6 +6,10 @@ from odoo.exceptions import ValidationError
 from odoo.http import request
 from odoo.tools.json import scriptsafe as json_safe
 
+<<<<<<< HEAD
+=======
+from odoo.addons.account_payment.controllers import portal as account_payment_portal
+>>>>>>> upstream/18.0
 from odoo.addons.payment import utils as payment_utils
 from odoo.addons.payment.controllers import portal as payment_portal
 
@@ -151,3 +155,12 @@ class PaymentPortal(payment_portal.PaymentPortal):
             for provider_sudo in providers_sudo:
                 res[provider_sudo.id] = False
         return res
+<<<<<<< HEAD
+=======
+
+
+class PortalAccount(account_payment_portal.PortalAccount):
+    def _invoice_get_page_view_values(self, *args, **kwargs):
+        """Override of `account_payment` to make the providers filtering website-aware."""
+        return super()._invoice_get_page_view_values(*args, website_id=request.website.id, **kwargs)
+>>>>>>> upstream/18.0

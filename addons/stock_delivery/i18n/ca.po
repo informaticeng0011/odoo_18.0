@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* stock_delivery
 # 
+=======
+# * stock_delivery
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Albert Parera, 2024
 # Josep Anton Belchi, 2024
@@ -16,12 +21,17 @@
 # Quim - coopdevs <quim.rebull@coopdevs.org>, 2024
 # Ivan Espinola, 2024
 # marcescu, 2025
+<<<<<<< HEAD
 # 
+=======
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: marcescu, 2025\n"
 "Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
@@ -30,12 +40,28 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"PO-Revision-Date: 2025-08-07 20:26+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
+"Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
+"stock_delivery/ca/>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #. odoo-python
 #: code:addons/stock_delivery/models/sale_order.py:0
 msgid "%(name)s (Estimated Cost: %(cost)s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (Cost estimat: %(cost)s)"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model_terms:ir.ui.view,arch_db:stock_delivery.view_quant_package_weight_form
@@ -62,12 +88,20 @@ msgstr "<span>Pes d'enviament:</span>"
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_delivery_document2
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_shipping2
 msgid "<strong>Carrier</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Transportista</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_shipping2
 msgid "<strong>Shipping Method:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Mètode d'enviament:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_package_barcode_delivery
@@ -86,12 +120,20 @@ msgstr ""
 #. module: stock_delivery
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_delivery_document2
 msgid "<strong>Total Weight</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Pes total</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_delivery_document2
 msgid "<strong>Tracking Number</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Número de seguiment</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_package_barcode_delivery
@@ -101,12 +143,20 @@ msgstr "<strong>Pes: </strong>"
 #. module: stock_delivery
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_shipping2
 msgid "<strong>Weight</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Pes</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model:ir.model.fields,field_description:stock_delivery.field_stock_route__shipping_selectable
 msgid "Applicable on Shipping Methods"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aplicable als mètodes d'enviament"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model_terms:ir.ui.view,arch_db:stock_delivery.view_picking_withcarrier_out_form
@@ -149,7 +199,11 @@ msgstr "Empresa"
 #. odoo-python
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid "Cost: %(price).2f %(currency)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cost: %(price).2f %(currency)s"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model:ir.model.fields,field_description:stock_delivery.field_choose_delivery_package__create_uid
@@ -213,12 +267,22 @@ msgid ""
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Cost estimat: es facturarà al client el cost estimat de l'enviament.\n"
+"Cost real: es facturarà al client el cost real de l'enviament i, un cop "
+"entregat, aquest cost s'actualitzarà en la comanda de venda."
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #. odoo-python
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid "Exception occurred with respect to carrier on the transfer"
 msgstr ""
+<<<<<<< HEAD
+=======
+"S'ha produït un error relacionat amb el transportista durant el trasllat"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #. odoo-python
@@ -273,7 +337,11 @@ msgstr "Última actualització el"
 #. odoo-python
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid "Manual actions might be needed."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potser és necessari efectuar accions manuals."
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model:ir.model.fields.selection,name:stock_delivery.selection__stock_package_type__package_carrier_type__none
@@ -402,6 +470,11 @@ msgid ""
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number "
 "%(ref)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Paquet enviat al transportista %(carrier_name)s per efectuar l'enviament amb "
+"número de seguiment %(ref)s"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model:ir.model.fields,field_description:stock_delivery.field_stock_picking__carrier_price
@@ -434,6 +507,11 @@ msgstr "Pes de l'enviament "
 #: model:ir.model.fields,help:stock_delivery.field_product_template__hs_code
 msgid "Standardized code for international shipping and goods declaration."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Codi estandarditzat per a enviaments internacionals i la declaració de "
+"mercaderies."
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model:ir.model,name:stock_delivery.model_stock_move
@@ -532,7 +610,11 @@ msgstr "L'URL de seguiment"
 #. odoo-python
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid "Tracking links for shipment:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enllaços de seguiment per a l'enviament:"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model_terms:ir.ui.view,arch_db:stock_delivery.sale_order_portal_content_inherit_sale_stock_inherit_website_sale
@@ -577,6 +659,12 @@ msgid ""
 "carriers (i.e. check that all of their transfers have a carrier assigned and"
 " are using the same carrier)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"No és possible empaquetar productes en el mateix paquet si tenen "
+"transportistes diferents. Cal comprovar que tots els paquets tenen un "
+"transportista assignat i que utilitzen el mateix."
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model_terms:ir.ui.view,arch_db:stock_delivery.delivery_tracking_url_warning_form

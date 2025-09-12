@@ -298,6 +298,7 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             per_user = dict()
             for activity in activity_data['activities'].filtered(lambda act: act.user_id):
                 if activity.user_id not in per_user:
@@ -334,11 +335,17 @@ class MailActivity(models.Model):
                 if activity.res_id not in per_user[activity.user_id]:
 >>>>>>> upstream/18.0
                     per_user[activity.user_id].append(activity.res_id)
+=======
+            per_user = defaultdict(set)
+            for activity in activity_data['activities'].filtered(lambda act: act.user_id):
+                per_user[activity.user_id].add(activity.res_id)
+>>>>>>> upstream/18.0
             for user, res_ids in per_user.items():
                 pids = user.partner_id.ids if user.partner_id in readable_user_partners else user.sudo().partner_id.ids
                 self.env[model].browse(res_ids).message_subscribe(partner_ids=pids)
 
         # send notifications about activity creation
+<<<<<<< HEAD
         todo_activities = activities.filtered(lambda act: act.date_deadline <= fields.Date.today())
         if todo_activities:
             activity.user_id._bus_send("mail.activity/updated", {"activity_created": True})
@@ -371,6 +378,61 @@ class MailActivity(models.Model):
         if todo_activities:
             todo_activities.user_id._bus_send("mail.activity/updated", {"activity_deleted": True})
         return super(MailActivity, self).unlink()
+=======
+        todo_activities = activities.filtered(lambda act: act.active and act.date_deadline <= fields.Date.today())
+        if todo_activities:
+            for user, user_activities in todo_activities.grouped('user_id').items():
+                user._bus_send("mail.activity/updated", {"activity_created": True, "count_diff": len(user_activities)})
+        return activities
+
+    def write(self, values):
+        today = fields.Date.today()
+
+        def get_user_todo_activity_count(activities):
+            return {
+                user: len(user_activities.filtered(lambda a: a.active and a.date_deadline <= today))
+                for user, user_activities in activities.grouped('user_id').items()
+            }
+
+        original_user_todo_activity_count = None
+        if 'date_deadline' in values or 'active' in values or 'user_id' in values:
+            original_user_todo_activity_count = get_user_todo_activity_count(self)
+
+        new_user_activities = self.env['mail.activity']
+        if values.get('user_id'):
+            new_user_activities = self.filtered(lambda activity: activity.user_id.id != values.get('user_id'))
+
+        res = super().write(values)
+
+        # notify new responsibles
+        if 'user_id' in values:
+            if values['user_id'] != self.env.uid:
+                if not self.env.context.get('mail_activity_quick_update', False):
+                    new_user_activities.action_notify()
+            new_user = self.env['res.users'].browse(values['user_id'])
+            for res_model, model_activities in new_user_activities.grouped('res_model').items():
+                res_ids = list(set(model_activities.mapped('res_id')))
+                self.env[res_model].browse(res_ids).message_subscribe(partner_ids=new_user.partner_id.ids)
+
+        # update activity counter
+        if original_user_todo_activity_count is not None:
+            new_user_todo_activity_count = get_user_todo_activity_count(self)
+            for user in new_user_todo_activity_count.keys() | original_user_todo_activity_count.keys():
+                count_diff = new_user_todo_activity_count.get(user, 0) - original_user_todo_activity_count.get(user, 0)
+                if count_diff > 0:
+                    user._bus_send("mail.activity/updated", {"activity_created": True, "count_diff": count_diff})
+                elif count_diff < 0:
+                    user._bus_send("mail.activity/updated", {"activity_deleted": True, "count_diff": count_diff})
+
+        return res
+
+    def unlink(self):
+        todo_activities = self.filtered(lambda act: act.active and act.date_deadline <= fields.Date.today())
+        if todo_activities:
+            for user, user_activities in todo_activities.grouped('user_id').items():
+                user._bus_send("mail.activity/updated", {"activity_deleted": True, "count_diff": -len(user_activities)})
+        return super().unlink()
+>>>>>>> upstream/18.0
 
     @api.model
     def _search(self, domain, offset=0, limit=None, order=None):
@@ -462,7 +524,11 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             records = self.env[res_model].browse(res_ids)
+=======
+            records = self.env[res_model].browse(res_ids).exists()
+>>>>>>> upstream/18.0
 =======
             records = self.env[res_model].browse(res_ids).exists()
 >>>>>>> upstream/18.0

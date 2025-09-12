@@ -45,13 +45,20 @@ patch(Thread.prototype, {
                         (channel_notifications === "mentions" &&
                             message.recipients?.includes(this.store.self)))))
         ) {
+<<<<<<< HEAD
             if (this.model === "discuss.channel") {
+=======
+            if (this.model === "discuss.channel" && this.inChathubOnNewMessage) {
+>>>>>>> upstream/18.0
                 let chatWindow = this.store.ChatWindow.get({ thread: this });
                 if (!chatWindow) {
                     chatWindow = this.store.ChatWindow.insert({ thread: this });
                     if (
                         this.autoOpenChatWindowOnNewMessage &&
+<<<<<<< HEAD
                         !this.store.discuss.isActive &&
+=======
+>>>>>>> upstream/18.0
                         this.store.chatHub.opened.length < this.store.chatHub.maxOpened
                     ) {
                         chatWindow.open();
@@ -63,6 +70,13 @@ patch(Thread.prototype, {
             this.store.env.services["mail.out_of_focus"].notify(message, this);
         }
     },
+<<<<<<< HEAD
+=======
+    /** Condition for whether the conversation should become present in chat hub on new message */
+    get inChathubOnNewMessage() {
+        return !this.store.discuss.isActive;
+    },
+>>>>>>> upstream/18.0
     get autoOpenChatWindowOnNewMessage() {
         return false;
     },
@@ -84,7 +98,11 @@ patch(Thread.prototype, {
         if (
             this.store.env.services.ui.isSmall &&
             this.model !== "mail.box" &&
+<<<<<<< HEAD
             !this.store.shouldDisplayWelcomeViewInitially
+=======
+            !this.store.shouldDisplayWelcomeView
+>>>>>>> upstream/18.0
         ) {
             this.open();
         }

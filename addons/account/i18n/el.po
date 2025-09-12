@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Alexandros Kapetanios <alexandros@gnugr.org>, 2024
 # Stelios Steiakakis <fs_corpse@yahoo.gr>, 2024
@@ -79,6 +83,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Charalampos Loukas, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +91,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -248,6 +255,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Maria Chalepiadou, 2025
 # Anastasia Mimou, 2025
 # Gerasimos Kanelatos, 2025
@@ -694,18 +702,27 @@
 # Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 # Gerasimos Kanelatos, 2025
 # Thomas Becquevort, 2025
 # Charalampos Loukas, 2025
 # Maria Chalepiadou, 2025
+<<<<<<< HEAD
 # Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
 # Anastasia Mimou, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Anastasia Mimou, 2025
+# Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1204,19 +1221,42 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-08-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Iasonas Polydoros <j.polydoros@dileanity.com>, 2025\n"
+"Language-Team: Greek (https://app.transifex.com/odoo/teams/41243/el/)\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_journal__type
 msgid ""
 "\n"
 "        Select 'Sale' for customer invoices journals.\n"
 "        Select 'Purchase' for vendor bills journals.\n"
+<<<<<<< HEAD
 "        Select 'Cash', 'Bank' or 'Credit Card' for journals that are used in customer or vendor payments.\n"
+=======
+"        Select 'Cash', 'Bank' or 'Credit Card' for journals that are used in "
+"customer or vendor payments.\n"
+>>>>>>> upstream/18.0
 "        Select 'General' for miscellaneous operations journals.\n"
 "        "
 msgstr ""
 "\n"
 "        Επέλεξε 'Πωλήσεις' για εγγραφές τιμολογίων πελατών.\n"
 "        Επέλεξε 'Έξοδα / Αγορές' για εγγραφές τιμολογίων προμηθευτών.\n"
+<<<<<<< HEAD
 "        Επέλεξε 'Μετρητά', 'Τράπεζα' or 'Πιστωτική Κάρτα' για εγγραφές εισπράξεων και πληρωμών από/προς πελάτες/προμηθευτές.\n"
+=======
+"        Επέλεξε 'Μετρητά', 'Τράπεζα' or 'Πιστωτική Κάρτα' για εγγραφές "
+"εισπράξεων και πληρωμών από/προς πελάτες/προμηθευτές.\n"
+>>>>>>> upstream/18.0
 "        Επέλεξε 'Γενικά' για λοιπές λογιστικές εγγραφές.\n"
 "        "
 
@@ -1312,11 +1352,19 @@ msgstr "%(amount)s Ληξηπρόθεσμο στις %(date)s"
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "%(attachment_name)s (detached by %(user)s on "
 "%(date)s)%(attachment_extension)s"
 msgstr ""
 "%(attachment_name)s (κατέβηκε από %(user)s την "
 "%(date)s)%(attachment_extension)s"
+=======
+"%(attachment_name)s (detached by %(user)s on %(date)s)%"
+"(attachment_extension)s"
+msgstr ""
+"%(attachment_name)s (κατέβηκε από %(user)s την %(date)s)%"
+"(attachment_extension)s"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -1329,7 +1377,12 @@ msgstr "%(exception)s για %(user)s%(end_datetime_string)s%(reason)s."
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "%(move)s reached an invalid state regarding its related statement line.\n"
+<<<<<<< HEAD
 "To be consistent, the journal entry must always have exactly one suspense line."
+=======
+"To be consistent, the journal entry must always have exactly one suspense "
+"line."
+>>>>>>> upstream/18.0
 msgstr ""
 "%(move)s Είναι σε ακατάλληλη κατάσταση εξ' αιτίας συσχετιζόμενης γραμμής "
 "δήλωσης. Για λόγους συνέπειας, η λογιστική εγγραφή πρέπει να έχει μόνο μια "
@@ -1345,21 +1398,37 @@ msgstr "%(name)s δόση / κατάθεση #%(number)s"
 #. odoo-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
+<<<<<<< HEAD
 "%(order)s - %(order_line)s; %(quantity_billed)s Billed, "
 "%(quantity_received)s Received at %(unit_price)s each"
 msgstr ""
 "%(order)s - %(order_line)s; %(quantity_billed)s Τιμολογήθηκαν, "
 "%(quantity_received)s Παραλήφθηκαν σε %(unit_price)s το καθένα"
+=======
+"%(order)s - %(order_line)s; %(quantity_billed)s Billed, %"
+"(quantity_received)s Received at %(unit_price)s each"
+msgstr ""
+"%(order)s - %(order_line)s; %(quantity_billed)s Τιμολογήθηκαν, %"
+"(quantity_received)s Παραλήφθηκαν σε %(unit_price)s το καθένα"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
+<<<<<<< HEAD
 "%(order)s - %(order_line)s; %(quantity_invoiced)s Invoiced, "
 "%(quantity_delivered)s Delivered at %(unit_price)s each"
 msgstr ""
 "%(order)s - %(order_line)s; %(quantity_invoiced)s Τιμολογήθηκαν, "
 "%(quantity_delivered)s Παραδόθηκαν σε %(unit_price)s το καθένα"
+=======
+"%(order)s - %(order_line)s; %(quantity_invoiced)s Invoiced, %"
+"(quantity_delivered)s Delivered at %(unit_price)s each"
+msgstr ""
+"%(order)s - %(order_line)s; %(quantity_invoiced)s Τιμολογήθηκαν, %"
+"(quantity_delivered)s Παραδόθηκαν σε %(unit_price)s το καθένα"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -1381,6 +1450,7 @@ msgstr "%(tag)s (%(country_code)s)"
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1514,6 +1584,13 @@ msgid ""
 "%(tax_account)s (%(account_name)s) should be an account of type "
 "\"%(receivable)s\" or \"%(payable)s\" with both options "
 "\"%(allow_reconciliation)s\" and \"%(non_trade)s\" enabled."
+=======
+#: code:addons/account/models/account_tax.py:0
+msgid ""
+"%(tax_account)s (%(account_name)s) should be an account of type \"%"
+"(receivable)s\" or \"%(payable)s\" with both options \"%"
+"(allow_reconciliation)s\" and \"%(non_trade)s\" enabled."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -1560,6 +1637,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1783,11 +1863,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ". Please make sure that this is a wanted behavior."
 msgstr ". Παρακαλώ επιβεβαιώστε το αποτέλεσμα."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1970,7 +2053,11 @@ msgid "2023-01-01"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2023-01-01"
+>>>>>>> upstream/18.0
 =======
 msgstr "2023-01-01"
 >>>>>>> upstream/18.0
@@ -2257,7 +2344,11 @@ msgid "3.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "3.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "3.00"
 >>>>>>> upstream/18.0
@@ -2511,6 +2602,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2581,6 +2673,19 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid ""
+"<br/>\n"
+"                        <span>Please make sure that this is a wanted "
+"behavior.</span>"
+msgstr ""
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_document_preview
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_wizard_preview_inherit_account
+>>>>>>> upstream/18.0
 msgid "<br/> on this account:"
 msgstr "<br/> σε αυτόν τον λογαριασμό:"
 
@@ -2591,7 +2696,12 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n"
@@ -2599,12 +2709,18 @@ msgid ""
 "        <br/><br/>\n"
 "        Here is your\n"
 "        <t t-if=\"object.name\">\n"
+<<<<<<< HEAD
 "            credit note <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+=======
+"            credit note <span style=\"font-weight:bold;\" t-"
+"out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            credit note\n"
 "        </t>\n"
 "        <t t-if=\"object.invoice_origin\">\n"
+<<<<<<< HEAD
 "            (with reference: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
@@ -2614,6 +2730,22 @@ msgid ""
 "        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"            (with reference: <t t-out=\"object.invoice_origin or "
+"''\">SUB003</t>)\n"
+"        </t>\n"
+"        amounting in <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ "
+"143,750.00</span>\n"
+"        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+"        <br/><br/>\n"
+"        Do not hesitate to contact us if you have any questions.\n"
+"        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-"
+"o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-"
+"quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
@@ -2627,7 +2759,12 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n"
@@ -2635,15 +2772,29 @@ msgid ""
 "        <br/><br/>\n"
 "        Here is your\n"
 "        <t t-if=\"object.name\">\n"
+<<<<<<< HEAD
 "            invoice <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">INV/2021/05/0005</span>\n"
+=======
+"            invoice <span style=\"font-weight:bold;\" t-out=\"object.name or "
+"''\">INV/2021/05/0005</span>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            invoice\n"
 "        </t>\n"
 "        <t t-if=\"object.invoice_origin\">\n"
+<<<<<<< HEAD
 "            (with reference: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
+=======
+"            (with reference: <t t-out=\"object.invoice_origin or "
+"''\">SUB003</t>)\n"
+"        </t>\n"
+"        amounting in <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ "
+"143,750.00</span>\n"
+>>>>>>> upstream/18.0
 "        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
 "        <t t-if=\"object.payment_state in ('paid', 'in_payment')\">\n"
 "            This invoice is already paid.\n"
@@ -2652,13 +2803,22 @@ msgid ""
 "            Please remit payment at your earliest convenience.\n"
 "            <t t-if=\"object.payment_reference\">\n"
 "                <br/><br/>\n"
+<<<<<<< HEAD
 "                Please use the following communication for your payment: <strong t-out=\"object.payment_reference or ''\">INV/2021/05/0005</strong>\n"
 "                <t t-if=\"object.partner_bank_id\">\n"
 "                    on the account <strong t-out=\"object.partner_bank_id.acc_number\"/>\n"
+=======
+"                Please use the following communication for your payment: "
+"<strong t-out=\"object.payment_reference or ''\">INV/2021/05/0005</strong>\n"
+"                <t t-if=\"object.partner_bank_id\">\n"
+"                    on the account <strong t-"
+"out=\"object.partner_bank_id.acc_number\"/>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "                .\n"
 "            </t>\n"
 "        </t>\n"
+<<<<<<< HEAD
 "        <t t-if=\"hasattr(object, 'timesheet_count') and object.timesheet_count\">\n"
 "            <br/><br/>\n"
 "            PS: you can review your timesheets <a t-att-href=\"'/my/timesheets?search_in=invoice&amp;search=%s' % object.name\">from the portal.</a>\n"
@@ -2668,6 +2828,22 @@ msgid ""
 "        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-if=\"hasattr(object, 'timesheet_count') and "
+"object.timesheet_count\">\n"
+"            <br/><br/>\n"
+"            PS: you can review your timesheets <a t-att-href=\"'/my/"
+"timesheets?search_in=invoice&amp;search=%s' % object.name\">from the portal."
+"</a>\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        Do not hesitate to contact us if you have any questions.\n"
+"        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-"
+"o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-"
+"quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
@@ -2679,34 +2855,74 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or ''\">Azure Interior</t><br/><br/>\n"
 "        Thank you for your payment.\n"
 "        Here is your payment receipt <span style=\"font-weight:bold;\" t-out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</span> amounting\n"
 "        to <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</span> from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+=======
+"        Dear <t t-out=\"object.partner_id.name or ''\">Azure Interior</t><br/"
+"><br/>\n"
+"        Thank you for your payment.\n"
+"        Here is your payment receipt <span style=\"font-weight:bold;\" t-"
+"out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</span> "
+"amounting\n"
+"        to <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</"
+"span> from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+>>>>>>> upstream/18.0
 "        <br/><br/>\n"
 "        Do not hesitate to contact us if you have any questions.\n"
 "        <br/><br/>\n"
 "        Best regards,\n"
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-"
+"container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br "
+"data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 "        Αγαπητέ/ή <t t-out=\"object.partner_id.name or ''\">Azure Interior</t><br/><br/>\n"
 "        Σας ευχαριστούμε για την πληρωμή.\n"
 "        Δείτε την απόδειξη της πληρωμής σας <span style=\"font-weight:bold;\" t-out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</span> ποσού\n"
 "        των <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</span> από <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+=======
+"        Αγαπητέ/ή <t t-out=\"object.partner_id.name or ''\">Azure Interior</"
+"t><br/><br/>\n"
+"        Σας ευχαριστούμε για την πληρωμή.\n"
+"        Δείτε την απόδειξη της πληρωμής σας <span style=\"font-weight:bold;"
+"\" t-out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</"
+"span> ποσού\n"
+"        των <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</"
+"span> από <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+>>>>>>> upstream/18.0
 "        <br/><br/>\n"
 "        Μην διαστάσετε να επικοινωνήσετε για οποιαδήποτε απορία.\n"
 "        <br/><br/>\n"
 "       Με φιλικούς χαιρετισμούς,\n"
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-"
+"container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br "
+"data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
@@ -2718,18 +2934,37 @@ msgstr "<em>Πρόχειρο Τιμολόγιο</em>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o fw-bold\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-clock-o fw-bold\" aria-label=\"Date\" role=\"img\" "
+"title=\"Date\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o fw-bold\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-clock-o fw-bold\" role=\"img\" aria-label=\"Date\" "
+"title=\"Date\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_move_line_view_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
+msgstr ""
+"<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_invoice_page
@@ -2739,49 +2974,110 @@ msgstr "<i class=\"fa fa-download\"/> Λήψη"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Paid</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Εξοφλήθηκε </span>"
+=======
+"<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Paid</span>"
+msgstr ""
+"<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Εξοφλήθηκε </span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Reversed</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Αντιστράφηκε </span>"
+=======
+"<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Reversed</span>"
+msgstr ""
+"<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Αντιστράφηκε </span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" title=\"Processing Payment\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Processing Payment</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" title=\"Processing Payment\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Επεξεργασία Πληρωμής </span>"
+=======
+"<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" "
+"title=\"Processing Payment\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Processing Payment</span>"
+msgstr ""
+"<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" "
+"title=\"Processing Payment\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Επεξεργασία Πληρωμής </span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Waiting for Payment</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Αναμονή για Πληρωμή </span>"
+=======
+"<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Waiting for Payment</span>"
+msgstr ""
+"<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Αναμονή για Πληρωμή </span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.autopost_bills_wizard
 msgid ""
 "<i class=\"fa fa-lightbulb-o\" role=\"img\"/>\n"
+<<<<<<< HEAD
 "                        Don't worry, you can always change this setting later on the vendor's form.\n"
 "                        You also have the option to disable the feature for all vendors in the accounting settings."
 msgstr ""
 "<i class=\"fa fa-lightbulb-o\" role=\"img\"/>\n"
 "                        Μην ανησυχείτε, μπορείτε πάντα να αλλάξετε την ρύθμιη στην φόρμα του προμηθευτή.\n"
 "                        Μπορείτε επίσης να απενεργοποίησετε την επιλγοή για όλους τους προμηθευτές στις ρυθμίσεις λογιαστικής."
+=======
+"                        Don't worry, you can always change this setting "
+"later on the vendor's form.\n"
+"                        You also have the option to disable the feature for "
+"all vendors in the accounting settings."
+msgstr ""
+"<i class=\"fa fa-lightbulb-o\" role=\"img\"/>\n"
+"                        Μην ανησυχείτε, μπορείτε πάντα να αλλάξετε την "
+"ρύθμιη στην φόρμα του προμηθευτή.\n"
+"                        Μπορείτε επίσης να απενεργοποίησετε την επιλγοή για "
+"όλους τους προμηθευτές στις ρυθμίσεις λογιαστικής."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_terms_conditions_setting_banner
@@ -2809,17 +3105,28 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.portal_my_details_fields
 msgid ""
 "<small class=\"form-text text-muted\">\n"
+<<<<<<< HEAD
 "                    You can choose how you want us to send your invoices, and with which electronic format.\n"
 "                </small>"
 msgstr ""
 "<small class=\"form-text text-muted\">\n"
 "                    Μπορείτε να επιλέξετε πως θέλετε να αποστέλλουμε τα παραστατικά και σε ποια ηλεκτρονική μορφή.\n"
+=======
+"                    You can choose how you want us to send your invoices, "
+"and with which electronic format.\n"
+"                </small>"
+msgstr ""
+"<small class=\"form-text text-muted\">\n"
+"                    Μπορείτε να επιλέξετε πως θέλετε να αποστέλλουμε τα "
+"παραστατικά και σε ποια ηλεκτρονική μορφή.\n"
+>>>>>>> upstream/18.0
 "                </small>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
 "<span class=\"badge rounded-pill text-bg-warning\">\n"
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-fw fa-remove\" aria-label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Cancelled</span>\n"
 "                                </span>"
@@ -2827,12 +3134,26 @@ msgstr ""
 "<span class=\"badge rounded-pill text-bg-warning\">\n"
 "                                    <i class=\"fa fa-fw fa-remove\" aria-label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Ακυρώθηκε </span>\n"
+=======
+"                                    <i class=\"fa fa-fw fa-remove\" aria-"
+"label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Cancelled</span>\n"
+"                                </span>"
+msgstr ""
+"<span class=\"badge rounded-pill text-bg-warning\">\n"
+"                                    <i class=\"fa fa-fw fa-remove\" aria-"
+"label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Ακυρώθηκε </span>\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
 msgid ""
 "<span class=\"d-flex gap-2 w-100\">\n"
+<<<<<<< HEAD
 "                            <span invisible=\"allow_out_payment\" class=\"text-muted\">Untrusted</span>\n"
 "                            <span invisible=\"not allow_out_payment\" class=\"text-success\">Trusted</span>\n"
 "                        </span>"
@@ -2840,6 +3161,19 @@ msgstr ""
 "<span class=\"d-flex gap-2 w-100\">\n"
 "                            <span invisible=\"allow_out_payment\" class=\"text-muted\">Μη έμπιστο</span>\n"
 "                            <span invisible=\"not allow_out_payment\" class=\"text-success\">Έμπιστο</span>\n"
+=======
+"                            <span invisible=\"allow_out_payment\" "
+"class=\"text-muted\">Untrusted</span>\n"
+"                            <span invisible=\"not allow_out_payment\" "
+"class=\"text-success\">Trusted</span>\n"
+"                        </span>"
+msgstr ""
+"<span class=\"d-flex gap-2 w-100\">\n"
+"                            <span invisible=\"allow_out_payment\" "
+"class=\"text-muted\">Μη έμπιστο</span>\n"
+"                            <span invisible=\"not allow_out_payment\" "
+"class=\"text-success\">Έμπιστο</span>\n"
+>>>>>>> upstream/18.0
 "                        </span>"
 
 #. module: account
@@ -2848,12 +3182,18 @@ msgid ""
 "<span class=\"figure-caption\">Never miss a deadline, with automated "
 "statements and alerts.</span>"
 msgstr ""
+<<<<<<< HEAD
 "<span class=\"figure-caption\">Μην χάσετε ποτέ προθεσμίες, με την λειτουργία"
 " των αυτόματων δηλώσεων και ενημερώσεων.</span>"
+=======
+"<span class=\"figure-caption\">Μην χάσετε ποτέ προθεσμίες, με την λειτουργία "
+"των αυτόματων δηλώσεων και ενημερώσεων.</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span class=\"o_form_label mx-3 oe_edit_only\" groups=\"account.group_account_readonly\" invisible=\"move_type == 'entry'\">\n"
 "                                        <span groups=\"base.group_multi_currency\">in </span>\n"
@@ -2871,6 +3211,11 @@ msgid ""
 msgstr ""
 "<span class=\"o_form_label mx-3 oe_edit_only\" invisible=\"state != 'draft' "
 "or invoice_payment_term_id\"> ή </span>"
+=======
+"<span class=\"o_form_label mx-3 oe_edit_only text-center\" style=\"width: "
+"6ch;\" invisible=\"state != 'draft' or invoice_payment_term_id\">or</span>"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label mx-3 oe_edit_only text-center\" style=\"width: "
 "6ch;\" invisible=\"state != 'draft' or invoice_payment_term_id\">or</span>"
@@ -2898,11 +3243,19 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"match_amount != "
 "'between'\">and</span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"match_amount != "
 "'between'\">και</span>"
+=======
+"<span class=\"o_form_label\" invisible=\"match_amount != 'between'\">and</"
+"span>"
+msgstr ""
+"<span class=\"o_form_label\" invisible=\"match_amount != 'between'\">και</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_lock_exception_form
@@ -3001,22 +3354,37 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid ""
+<<<<<<< HEAD
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">11,750.00</span></span>"
+=======
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">11,750.00</"
+"span></span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid ""
+<<<<<<< HEAD
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">19,250.00</span></span>"
+=======
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">19,250.00</"
+"span></span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid ""
+<<<<<<< HEAD
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">7,500.00</span></span>"
+=======
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">7,500.00</"
+"span></span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -3059,10 +3427,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
 msgid ""
 "<span invisible=\"reconciled_invoices_type != 'invoice'\"> Invoice</span>\n"
+<<<<<<< HEAD
 "                                        <span invisible=\"reconciled_invoices_type == 'invoice'\"> Credit Note</span>"
 msgstr ""
 "<span invisible=\"reconciled_invoices_type != 'invoice'\">Τιμολόγιο</span>\n"
 "                                        <span invisible=\"reconciled_invoices_type == 'invoice'\">Πιστωτικό</span>"
+=======
+"                                        <span "
+"invisible=\"reconciled_invoices_type == 'invoice'\"> Credit Note</span>"
+msgstr ""
+"<span invisible=\"reconciled_invoices_type != 'invoice'\">Τιμολόγιο</span>\n"
+"                                        <span "
+"invisible=\"reconciled_invoices_type == 'invoice'\">Πιστωτικό</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
@@ -3105,11 +3482,14 @@ msgstr ""
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span> = </span>"
 msgstr ""
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
@@ -3145,7 +3525,11 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span>1 </span>"
+=======
+msgid "<span>1</span>"
+>>>>>>> upstream/18.0
 =======
 msgid "<span>1</span>"
 >>>>>>> upstream/18.0
@@ -3163,12 +3547,18 @@ msgstr "<span><b>Εξαιρετικά!</b>Ολοκληρώσατε όλα τα �
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span>=</span>"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<span>Amount In Currency</span>"
@@ -3218,6 +3608,7 @@ msgid "<span>New</span>"
 msgstr "<span>Nέο</span>"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3300,6 +3691,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid ""
+"<span>One or more Bank Accounts set on this partner are also used by others:"
+"</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>Operations</span>"
 msgstr "<span>Ενέργειες</span>"
@@ -3345,7 +3745,10 @@ msgstr "<span>Φόροι</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3387,6 +3790,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3418,8 +3824,13 @@ msgid ""
 "installing Accounting. Its balance has been imported separately.</span>"
 msgstr ""
 "<span>Αυτή η καταχώρηση δημιουργήθηκε μέσω της εφαρμογής Τιμολόγηση, πριν "
+<<<<<<< HEAD
 "από την εγκατάσταση του Λογιστηρίου. Το υπόλοιπό του έχει εισαχθεί "
 "ξεχωριστά.</span>"
+=======
+"από την εγκατάσταση του Λογιστηρίου. Το υπόλοιπό του έχει εισαχθεί ξεχωριστά."
+"</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_terms_conditions_setting_banner
@@ -3449,6 +3860,7 @@ msgstr "<span>Προβολή</span>"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span>Warning: this document might be a duplicate of</span>"
 msgstr ""
+<<<<<<< HEAD
 "<span>Προειδοποίηση: αυτό το παραστατικό μπορεί να είναι διπλοεγγραφή "
 "του</span>"
 
@@ -3600,6 +4012,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"<span>Προειδοποίηση: αυτό το παραστατικό μπορεί να είναι διπλοεγγραφή του</"
+"span>"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+>>>>>>> upstream/18.0
 msgid "<strong class=\"d-block mt-3\">Shipping Address</strong>"
 msgstr ""
 
@@ -3653,6 +4072,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3864,6 +4286,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4015,6 +4438,8 @@ msgstr "<strong>Διεύθυνση Αποστολής</strong>"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<strong>Source</strong>"
 msgstr "<strong>Προέλευση</strong>"
 
@@ -4031,11 +4456,25 @@ msgstr " <strong>Μερικό σύνολο</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_currency_form_inherit
 msgid ""
+<<<<<<< HEAD
 "<strong>This currency has already been used to generate accounting entries.</strong> <br/>\n"
 "                        Changing its rounding factor now will not change the rounding made on previous entries; possibly causing an inconsistency with the new ones."
 msgstr ""
 "<strong>Το νόμισμα αυτό έχει ήδη χρησιμοποιηθεί για τη δημιουργία λογιστικών εγγραφών.</strong> <br/>\n"
 "                        Η αλλαγή του συντελεστή στρογγυλοποίησης τώρα δεν θα αλλάξει τη στρογγυλοποίηση που έγινε σε προηγούμενες εγγραφές- ενδεχομένως να προκαλέσει ασυνέπεια με τις νέες εγγραφές."
+=======
+"<strong>This currency has already been used to generate accounting entries.</"
+"strong> <br/>\n"
+"                        Changing its rounding factor now will not change the "
+"rounding made on previous entries; possibly causing an inconsistency with "
+"the new ones."
+msgstr ""
+"<strong>Το νόμισμα αυτό έχει ήδη χρησιμοποιηθεί για τη δημιουργία λογιστικών "
+"εγγραφών.</strong> <br/>\n"
+"                        Η αλλαγή του συντελεστή στρογγυλοποίησης τώρα δεν θα "
+"αλλάξει τη στρογγυλοποίηση που έγινε σε προηγούμενες εγγραφές- ενδεχομένως "
+"να προκαλέσει ασυνέπεια με τις νέες εγγραφές."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
@@ -4116,7 +4555,10 @@ msgstr "<strong>Τύπος: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4319,6 +4761,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4459,11 +4904,22 @@ msgstr "@Από: %(email)s"
 #: model_terms:ir.actions.act_window,help:account.action_view_bank_statement_tree
 msgid ""
 "A Cash Register allows you to manage cash entries in your cash\n"
+<<<<<<< HEAD
 "                journals. This feature provides an easy way to follow up cash\n"
 "                payments on a daily basis."
 msgstr ""
 "Ένα Ταμειακό Σύστημα σας επιτρέπει να διαχειρίζεστε τις εισπράξεις μετρητών \n"
 "στα ημερολόγιά σας. Αυτή η δυνατότητα προσφέρει έναν εύκολο τρόπο για να παρακολουθείτε τις \n"
+=======
+"                journals. This feature provides an easy way to follow up "
+"cash\n"
+"                payments on a daily basis."
+msgstr ""
+"Ένα Ταμειακό Σύστημα σας επιτρέπει να διαχειρίζεστε τις εισπράξεις "
+"μετρητών \n"
+"στα ημερολόγιά σας. Αυτή η δυνατότητα προσφέρει έναν εύκολο τρόπο για να "
+"παρακολουθείτε τις \n"
+>>>>>>> upstream/18.0
 "πληρωμές μετρητών καθημερινά."
 
 #. module: account
@@ -4487,6 +4943,7 @@ msgid "A bank account can belong to only one journal."
 msgstr "Ένας τραπεζικός λογαριασμός μπορεί να ανήκει μόνο σε ένα ημερολόγιο."
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4896,13 +5353,39 @@ msgid ""
 msgstr ""
 "Μια τραπεζική κατάσταση είναι μια περίληψη όλων των χρηματοοικονομικών συναλλαγών \n"
 "που πραγματοποιούνται σε μια συγκεκριμένη χρονική περίοδο σε έναν τραπεζικό λογαριασμό. Θα \n"
+=======
+#. odoo-python
+#: code:addons/account/models/res_partner_bank.py:0
+msgid ""
+"A bank account with Account Number %(number)s already exists for Partner %"
+"(partner)s, but is archived. Please unarchive it instead."
+msgstr ""
+
+#. module: account
+#: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
+msgid ""
+"A bank statement is a summary of all financial transactions\n"
+"                occurring over a given period of time on a bank account. "
+"You\n"
+"                should receive this periodically from your bank."
+msgstr ""
+"Μια τραπεζική κατάσταση είναι μια περίληψη όλων των χρηματοοικονομικών "
+"συναλλαγών \n"
+"που πραγματοποιούνται σε μια συγκεκριμένη χρονική περίοδο σε έναν τραπεζικό "
+"λογαριασμό. Θα \n"
+>>>>>>> upstream/18.0
 "πρέπει να την λαμβάνετε περιοδικά από την τράπεζά σας."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_credit_statement_tree
 msgid ""
 "A credit statement is a summary of all financial transactions\n"
+<<<<<<< HEAD
 "                occurring over a given period of time on a credit account. You\n"
+=======
+"                occurring over a given period of time on a credit account. "
+"You\n"
+>>>>>>> upstream/18.0
 "                should receive this periodically from your bank."
 msgstr ""
 
@@ -4927,8 +5410,15 @@ msgid ""
 "A journal is used to record transactions of all accounting data\n"
 "                related to the day-to-day business."
 msgstr ""
+<<<<<<< HEAD
 "Ένα ημερολόγιο χρησιμοποιείται για την καταγραφή όλων των λογιστικών δεδομένων\n"
 "                που σχετίζονται με την καθημερινή επιχειρηματική δραστηριότητα."
+=======
+"Ένα ημερολόγιο χρησιμοποιείται για την καταγραφή όλων των λογιστικών "
+"δεδομένων\n"
+"                που σχετίζονται με την καθημερινή επιχειρηματική "
+"δραστηριότητα."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -4972,8 +5462,12 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_reconcile_model.py:0
+<<<<<<< HEAD
 msgid ""
 "A payment tolerance defined as an amount should always be higher than 0"
+=======
+msgid "A payment tolerance defined as an amount should always be higher than 0"
+>>>>>>> upstream/18.0
 msgstr ""
 "Η ανοχή πληρωμής, που ορίζεται ως ποσό, θα πρέπει πάντα να είναι μεγαλύτερη "
 "από 0"
@@ -5022,8 +5516,12 @@ msgstr ""
 #: code:addons/account/models/account_bank_statement.py:0
 msgid "A statement should only contain lines from the same journal."
 msgstr ""
+<<<<<<< HEAD
 "Μια δήλωση πρέπει να περιέχει αποκλειστικά γραμμές από το ίδιο "
 "σημειωματάριο."
+=======
+"Μια δήλωση πρέπει να περιέχει αποκλειστικά γραμμές από το ίδιο σημειωματάριο."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.constraint,message:account.constraint_account_account_tag_name_uniq
@@ -5126,8 +5624,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "Account %s cannot be unmerged as it already belongs to a single company. The"
 " unmerge operation only splits an account based on its companies."
+=======
+"Account %s cannot be unmerged as it already belongs to a single company. The "
+"unmerge operation only splits an account based on its companies."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -5377,8 +5880,13 @@ msgstr "Τύπος Λογαριασμού"
 #: model:ir.model.fields,help:account.field_account_move_line__account_type
 msgid ""
 "Account Type is used for information purpose, to generate country-specific "
+<<<<<<< HEAD
 "legal reports, and set the rules to close a fiscal year and generate opening"
 " entries."
+=======
+"legal reports, and set the rules to close a fiscal year and generate opening "
+"entries."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ο Τύπος Λογαριασμού έχει πληροφοριακή χρησιμότητα. Παράγει νομικές αναφορές "
 "εξειδικευμένες για την χώρα, θέτει τους κανόνες για το κλείσιμο ενός "
@@ -5398,15 +5906,24 @@ msgstr "Πρώτα 2 ψηφία κωδικών λογαριασμού"
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "Account codes must be unique. You can't create accounts with these duplicate"
 " codes: %s"
+=======
+"Account codes must be unique. You can't create accounts with these duplicate "
+"codes: %s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_config_settings__account_journal_early_pay_discount_loss_account_id
 msgid ""
+<<<<<<< HEAD
 "Account for the difference amount after the expense discount has been "
 "granted"
+=======
+"Account for the difference amount after the expense discount has been granted"
+>>>>>>> upstream/18.0
 msgstr "Λογαριασμός για το διαφορά ποσού μετά την παραχώρηση έκπτωσης εξόδων"
 
 #. module: account
@@ -5478,8 +5995,13 @@ msgid ""
 "used to keep track of the tax base amount."
 msgstr ""
 "Λογαριασμός που θα οριστεί στις γραμμές που δημιουργούνται στην καταχώρηση "
+<<<<<<< HEAD
 "ημερολογίου με βάση τα μετρητά και χρησιμοποιείται για την παρακολούθηση του"
 " ποσού της φορολογικής βάσης."
+=======
+"ημερολογίου με βάση τα μετρητά και χρησιμοποιείται για την παρακολούθηση του "
+"ποσού της φορολογικής βάσης."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_account__account_dest_id
@@ -5524,8 +6046,13 @@ msgstr "Λογαριασμός με Εγγραφές"
 #. module: account
 #: model:ir.actions.server,name:account.ir_cron_auto_post_draft_entry_ir_actions_server
 msgid ""
+<<<<<<< HEAD
 "Account: Post draft entries with auto_post enabled and accounting date up to"
 " today"
+=======
+"Account: Post draft entries with auto_post enabled and accounting date up to "
+"today"
+>>>>>>> upstream/18.0
 msgstr ""
 "Λογαριασμός: Δημοσίευση προσχεδίων εγγραφών με ενεργοποιημένο το auto_post "
 "και λογιστική ημερομηνία μέχρι σήμερα."
@@ -5604,8 +6131,13 @@ msgstr "Λογιστικά έγγραφα"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Accounting firm mode will change invoice/bill encoding:"
 msgstr ""
+<<<<<<< HEAD
 "Η λειτουργία της λογιστικής εταιρείας θα αλλάξει την κωδικοποίηση "
 "τιμολογίου/λογαριασμού:"
+=======
+"Η λειτουργία της λογιστικής εταιρείας θα αλλάξει την κωδικοποίηση τιμολογίου/"
+"λογαριασμού:"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
@@ -5655,11 +6187,20 @@ msgstr "Κινήσεις Δεδουλευμένων"
 #. odoo-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
+<<<<<<< HEAD
 "Accrual entry created on %(date)s: %(accrual_entry)s.                    And"
 " its reverse entry: %(reverse_entry)s."
 msgstr ""
 "Εγγραφή δεδουλευμένου που δημιουργήθηκε στις %(date)s: %(accrual_entry)s."
 "                  Και η αντίστροφη εγγραφή του: %(reverse_entry)s."
+=======
+"Accrual entry created on %(date)s: %(accrual_entry)s.                    And "
+"its reverse entry: %(reverse_entry)s."
+msgstr ""
+"Εγγραφή δεδουλευμένου που δημιουργήθηκε στις %(date)s: %"
+"(accrual_entry)s.                  Και η αντίστροφη εγγραφή του: %"
+"(reverse_entry)s."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -5811,8 +6352,13 @@ msgstr "Προσθήκη Σημείωσης"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Add a QR-code to your invoices so that your customers can pay instantly with"
 " their mobile banking application."
+=======
+"Add a QR-code to your invoices so that your customers can pay instantly with "
+"their mobile banking application."
+>>>>>>> upstream/18.0
 msgstr ""
 "Προσθέστε έναν κωδικό QR στα τιμολόγια σας, ώστε οι πελάτες σας να μπορούν "
 "να πληρώνουν άμεσα με την εφαρμογή mobile banking."
@@ -5881,11 +6427,18 @@ msgstr "Προσθήκη επαφών για ενημέρωση..."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+<<<<<<< HEAD
 msgid ""
 "Add your terms & conditions at the bottom of invoices/orders/quotations"
 msgstr ""
 "Προσθέστε τους όρους και τις προϋποθέσεις σας στο κάτω μέρος των "
 "τιμολογίων/παραγγελιών/προσφορών"
+=======
+msgid "Add your terms & conditions at the bottom of invoices/orders/quotations"
+msgstr ""
+"Προσθέστε τους όρους και τις προϋποθέσεις σας στο κάτω μέρος των τιμολογίων/"
+"παραγγελιών/προσφορών"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_company_form_view_onboarding
@@ -5914,14 +6467,23 @@ msgstr "Προσαρμοστική Εγγραφή"
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Adjusting Entry {link} {percent}%% of {amount} recognized from {date}"
 msgstr ""
+<<<<<<< HEAD
 "Ρυθμιστική εγγραφή {link} {percent}%% του {amount} που αναγνωρίστηκε από την"
 " {date}"
+=======
+"Ρυθμιστική εγγραφή {link} {percent}%% του {amount} που αναγνωρίστηκε από την "
+"{date}"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
+<<<<<<< HEAD
 msgid ""
 "Adjusting Entry {link} {percent}%% of {amount} recognized on {new_date}"
+=======
+msgid "Adjusting Entry {link} {percent}%% of {amount} recognized on {new_date}"
+>>>>>>> upstream/18.0
 msgstr ""
 "Ρυθμιστική εγγραφή {link} {percent}%% του {amount} που αναγνωρίστηκε την "
 "{new_date}"
@@ -6027,7 +6589,11 @@ msgid "Alerts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ειδοποιήσεις"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ειδοποιήσεις"
 >>>>>>> upstream/18.0
@@ -6259,7 +6825,11 @@ msgid "Alias Domain Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Όνομα Τομέα Ψευδονύμου"
+>>>>>>> upstream/18.0
 =======
 msgstr "Όνομα Τομέα Ψευδονύμου"
 >>>>>>> upstream/18.0
@@ -6510,7 +7080,11 @@ msgid "All Companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Όλες οι Εταιρείες"
+>>>>>>> upstream/18.0
 =======
 msgstr "Όλες οι Εταιρείες"
 >>>>>>> upstream/18.0
@@ -6932,9 +7506,17 @@ msgstr ""
 msgid ""
 "An account is part of a ledger allowing your company\n"
 "                to register all kinds of debit and credit transactions.\n"
+<<<<<<< HEAD
 "                Companies present their annual accounts in two main parts: the\n"
 "                balance sheet and the income statement (profit and loss\n"
 "                account). The annual accounts of a company are required by law\n"
+=======
+"                Companies present their annual accounts in two main parts: "
+"the\n"
+"                balance sheet and the income statement (profit and loss\n"
+"                account). The annual accounts of a company are required by "
+"law\n"
+>>>>>>> upstream/18.0
 "                to disclose a certain amount of information."
 msgstr ""
 "Ένας λογαριασμός είναι μέρος ενός συνολικού ποσού κατάθεσης επιτρέποντας "
@@ -6947,6 +7529,7 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6995,6 +7578,11 @@ msgstr "Παρουσιάστηκε σφάλμα."
 msgid ""
 "An error occurred when computing the inalterability. A gap has been detected"
 " in the sequence."
+=======
+msgid ""
+"An error occurred when computing the inalterability. A gap has been detected "
+"in the sequence."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -7140,8 +7728,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "Any journal item on a receivable account must have a due date and vice "
 "versa."
+=======
+"Any journal item on a receivable account must have a due date and vice versa."
+>>>>>>> upstream/18.0
 msgstr ""
 "Κάθε στοιχείο ημερολογίου σε λογαριασμό εισπρακτέου πρέπει να έχει "
 "ημερομηνία λήξης και το αντίστροφο."
@@ -7199,8 +7791,13 @@ msgid ""
 "Apply tax & account mappings on invoices automatically if the matching "
 "criterias (VAT/Country) are met."
 msgstr ""
+<<<<<<< HEAD
 "Εφαρμόστε αυτόματα τις αντιστοιχίσεις φόρου και λογαριασμών σε τιμολόγια εάν"
 " πληρούνται τα κριτήρια αντιστοίχισης (ΦΠΑ/Χώρα)."
+=======
+"Εφαρμόστε αυτόματα τις αντιστοιχίσεις φόρου και λογαριασμών σε τιμολόγια εάν "
+"πληρούνται τα κριτήρια αντιστοίχισης (ΦΠΑ/Χώρα)."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_company__fiscalyear_last_month__4
@@ -7567,7 +8164,11 @@ msgid "Bacon Burger"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μπέικον Μπέργκερ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μπέικον Μπέργκερ"
 >>>>>>> upstream/18.0
@@ -7877,8 +8478,13 @@ msgstr "Τραπεζικός Λογαριασμός"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Ο τραπεζικός λογαριασμός %(link)s με αριθμό %(number)s διαγράφηκε"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
@@ -8276,11 +8882,23 @@ msgstr "Όροι Τραπεζικών Συναλλαγών"
 #. module: account
 #: model:ir.model.fields,help:account.field_res_config_settings__account_journal_suspense_account_id
 msgid ""
+<<<<<<< HEAD
 "Bank Transactions are posted immediately after import or synchronization. Their counterparty is the bank suspense account.\n"
 "Reconciliation replaces the latter by the definitive account(s)."
 msgstr ""
 "Οι τραπεζικές συναλλαγές καταχωρούνται άμεσα μετά την εισαγωγή ή συγχρονισμό. Η αντίστοιχη πλευρά τους είναι ο λογαριασμός εκκρεμοτήτων της τράπεζας.\n"
 "Η συμφιλίωση αντικαθιστά τον τελευταίο από τον οριστικό λογαριασμό (τους οριστικούς λογαριασμούς)."
+=======
+"Bank Transactions are posted immediately after import or synchronization. "
+"Their counterparty is the bank suspense account.\n"
+"Reconciliation replaces the latter by the definitive account(s)."
+msgstr ""
+"Οι τραπεζικές συναλλαγές καταχωρούνται άμεσα μετά την εισαγωγή ή "
+"συγχρονισμό. Η αντίστοιχη πλευρά τους είναι ο λογαριασμός εκκρεμοτήτων της "
+"τράπεζας.\n"
+"Η συμφιλίωση αντικαθιστά τον τελευταίο από τον οριστικό λογαριασμό (τους "
+"οριστικούς λογαριασμούς)."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_setup_bank_manual_config__acc_type
@@ -8378,10 +8996,19 @@ msgstr "Με Βάση το Τιμολόγιο"
 #: model:ir.model.fields,help:account.field_account_tax__tax_exigibility
 msgid ""
 "Based on Invoice: the tax is due as soon as the invoice is validated.\n"
+<<<<<<< HEAD
 "Based on Payment: the tax is due as soon as the payment of the invoice is received."
 msgstr ""
 "Με βάση το τιμολόγιο: ο φόρος οφείλεται μόλις επικυρωθεί το τιμολόγιο.\n"
 "Με βάση την πληρωμή: ο φόρος οφείλεται μόλις παραληφθεί η πληρωμή του τιμολογίου."
+=======
+"Based on Payment: the tax is due as soon as the payment of the invoice is "
+"received."
+msgstr ""
+"Με βάση το τιμολόγιο: ο φόρος οφείλεται μόλις επικυρωθεί το τιμολόγιο.\n"
+"Με βάση την πληρωμή: ο φόρος οφείλεται μόλις παραληφθεί η πληρωμή του "
+"τιμολογίου."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_tax__tax_exigibility__on_payment
@@ -8577,8 +9204,13 @@ msgid ""
 "By unchecking the active field, you may hide a fiscal position without "
 "deleting it."
 msgstr ""
+<<<<<<< HEAD
 "Αποεπιλέγοντας το ενεργό πεδίο, μπορείτε να αποκρύψετε μια χρηματοοικονομική"
 " θέση χωρίς να την διαγράψετε."
+=======
+"Αποεπιλέγοντας το ενεργό πεδίο, μπορείτε να αποκρύψετε μια χρηματοοικονομική "
+"θέση χωρίς να την διαγράψετε."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_incoterms__active
@@ -8718,7 +9350,12 @@ msgid ""
 "Cannot find a chart of accounts for this company, You should configure it. \n"
 "Please go to Account Configuration."
 msgstr ""
+<<<<<<< HEAD
 "Αδύνατη η εύρεση πίνακα λογαριασμών για την εταιρία. Πρέπει να τον ρυθμίσετε. \n"
+=======
+"Αδύνατη η εύρεση πίνακα λογαριασμών για την εταιρία. Πρέπει να τον "
+"ρυθμίσετε. \n"
+>>>>>>> upstream/18.0
 "Παρακαλώ μεταβείτε στις Ρυθμίσεις Λογαριασμού."
 
 #. module: account
@@ -8811,7 +9448,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9013,6 +9653,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9368,7 +10011,11 @@ msgid "Catalog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κατάλογος"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κατάλογος"
 >>>>>>> upstream/18.0
@@ -9541,9 +10188,15 @@ msgid ""
 "be paid by the client to the tax authorities. Under no circumstances can"
 msgstr ""
 "Ορισμένα κράτη εφαρμόζουν παρακράτηση στην πηγή σχετικά με το ποσό των "
+<<<<<<< HEAD
 "τιμολογίων,, σύμφωνα με τη δική τους νομοθεσία. Οποιαδήποτε παρακράτηση στην"
 " πηγή θα πληρώνεται από τον πελάτη στις φορολογικές αρχές. Σε καμία "
 "περίπτωση δεν επιτρέπεται."
+=======
+"τιμολογίων,, σύμφωνα με τη δική τους νομοθεσία. Οποιαδήποτε παρακράτηση στην "
+"πηγή θα πληρώνεται από τον πελάτη στις φορολογικές αρχές. Σε καμία περίπτωση "
+"δεν επιτρέπεται."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_secure_entries_wizard__chains_to_hash_with_gaps
@@ -9565,8 +10218,12 @@ msgstr "Αλλαγή Περιόδου"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_register__writeoff_label
 msgid "Change label of the counterpart that will hold the payment difference"
+<<<<<<< HEAD
 msgstr ""
 "Αλλάξτε την ετικέτα του αντιγράφου που θα κρατήσει τη διαφορά πληρωμής"
+=======
+msgstr "Αλλάξτε την ετικέτα του αντιγράφου που θα κρατήσει τη διαφορά πληρωμής"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_lock_exception__lock_date
@@ -9587,11 +10244,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/controllers/portal.py:0
 msgid ""
+<<<<<<< HEAD
 "Changing your company name is not allowed once invoices have been issued for"
 " your account. Please contact us directly for this operation."
 msgstr ""
 "Η αλλαγή του ονόματος της εταιρείας δεν επιτρέπεται μόλις εκδοθούν τιμολόγια"
 " για τον λογαριασμό σας. Παρακαλούμε επικοινωνήστε απευθείας μαζί μας για "
+=======
+"Changing your company name is not allowed once invoices have been issued for "
+"your account. Please contact us directly for this operation."
+msgstr ""
+"Η αλλαγή του ονόματος της εταιρείας δεν επιτρέπεται μόλις εκδοθούν τιμολόγια "
+"για τον λογαριασμό σας. Παρακαλούμε επικοινωνήστε απευθείας μαζί μας για "
+>>>>>>> upstream/18.0
 "αυτήν την ενέργεια."
 
 #. module: account
@@ -9669,11 +10334,19 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__refund_sequence
 msgid ""
+<<<<<<< HEAD
 "Check this box if you don't want to share the same sequence for invoices and"
 " credit notes made from this journal"
 msgstr ""
 "Επιλέξτε αυτό το πλαίσιο αν δεν θέλετε να μοιραστείτε την ίδια ακολουθία για"
 " τιμολόγια και πιστωτικά σημειώματα που γίνονται από αυτό το ημερολόγιο"
+=======
+"Check this box if you don't want to share the same sequence for invoices and "
+"credit notes made from this journal"
+msgstr ""
+"Επιλέξτε αυτό το πλαίσιο αν δεν θέλετε να μοιραστείτε την ίδια ακολουθία για "
+"τιμολόγια και πιστωτικά σημειώματα που γίνονται από αυτό το ημερολόγιο"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__payment_sequence
@@ -9804,8 +10477,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Collect customer payments in one-click using Euro SEPA Service"
 msgstr ""
+<<<<<<< HEAD
 "Συλλέξτε πληρωμές πελατών με ένα κλικ χρησιμοποιώντας την υπηρεσία Euro "
 "SEPA."
+=======
+"Συλλέξτε πληρωμές πελατών με ένα κλικ χρησιμοποιώντας την υπηρεσία Euro SEPA."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -9846,6 +10523,7 @@ msgid "Commercial Entity"
 msgstr "Επιχειρηματική Οντότητα"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10002,6 +10680,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10229,6 +10909,9 @@ msgstr "Χώρα εμπορικού εταίρου"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10765,8 +11448,12 @@ msgstr "Όνομα Χώρας"
 #: model:ir.model.fields,help:account.field_account_account_tag__country_id
 msgid "Country for which this tag is available, when applied on taxes."
 msgstr ""
+<<<<<<< HEAD
 "Χώρα για την οποία αυτή η ετικέτα είναι διαθέσιμη όταν εφαρμόζεται σε "
 "φόρους."
+=======
+"Χώρα για την οποία αυτή η ετικέτα είναι διαθέσιμη όταν εφαρμόζεται σε φόρους."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.setup_bank_account_wizard
@@ -10807,6 +11494,11 @@ msgstr "Δημιουργία Αυτόματων Εγγραφών"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -11063,8 +11755,15 @@ msgstr "Δημιουργία πιστωτικού τιμολογίου προμ�
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_journal_group_list
 msgid ""
+<<<<<<< HEAD
 "Create as many ledger groups as needed to maintain separate ledgers for local GAAP, IFRS, or fiscal\n"
 "                    adjustments, ensuring compliance with diverse regulations."
+=======
+"Create as many ledger groups as needed to maintain separate ledgers for "
+"local GAAP, IFRS, or fiscal\n"
+"                    adjustments, ensuring compliance with diverse "
+"regulations."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -12001,8 +12700,12 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__invoice_cash_rounding_id
 #: model:ir.model.fields,help:account.field_account_move__invoice_cash_rounding_id
 msgid ""
+<<<<<<< HEAD
 "Defines the smallest coinage of the currency that can be used to pay by "
 "cash."
+=======
+"Defines the smallest coinage of the currency that can be used to pay by cash."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ορίζει το μικρότερο κέρμα του νομίσματος που μπορεί να χρησιμοποιηθεί για "
 "την πληρωμή με μετρητά."
@@ -12084,8 +12787,12 @@ msgstr "Περιγραφή"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_form
+<<<<<<< HEAD
 msgid ""
 "Description on invoice (e.g. Payment terms: 30 days after invoice date)"
+=======
+msgid "Description on invoice (e.g. Payment terms: 30 days after invoice date)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -12658,7 +13365,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12703,6 +13413,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12958,7 +13671,11 @@ msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email τομέα π.χ. 'example.com' στο 'odoo@example.com'"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email τομέα π.χ. 'example.com' στο 'odoo@example.com'"
 >>>>>>> upstream/18.0
@@ -13391,13 +14108,19 @@ msgstr ""
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__expected_currency_rate
 #: model:ir.model.fields,field_description:account.field_account_move__expected_currency_rate
 msgid "Expected Currency Rate"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_res_company__expects_chart_of_accounts
 msgid "Expects a Chart of Accounts"
@@ -13863,7 +14586,11 @@ msgid "Force"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Παράβλεψη και Συνέχεια"
+>>>>>>> upstream/18.0
 =======
 msgstr "Παράβλεψη και Συνέχεια"
 >>>>>>> upstream/18.0
@@ -14073,9 +14800,15 @@ msgid ""
 "reports and so, match this analysis to your needs."
 msgstr ""
 "Από αυτήν την αναφορά, μπορείτε να δείτε μια επισκόπηση του ποσού που "
+<<<<<<< HEAD
 "τιμολογήθηκε από τους  προμηθευτές σας. Το εργαλείο αναζήτησης μπορεί επίσης"
 " να χρησιμοποιηθεί για να προσαρμόσετε τις εκθέσεις τιμολογίων σας και έτσι,"
 " ταιριάζει την ανάλυση αυτή με τις ανάγκες σας."
+=======
+"τιμολογήθηκε από τους  προμηθευτές σας. Το εργαλείο αναζήτησης μπορεί επίσης "
+"να χρησιμοποιηθεί για να προσαρμόσετε τις εκθέσεις τιμολογίων σας και έτσι, "
+"ταιριάζει την ανάλυση αυτή με τις ανάγκες σας."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_invoice_report_all
@@ -14246,8 +14979,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
+<<<<<<< HEAD
 "Groupby feature isn't supported by aggregation engine. Please remove the "
 "groupby value on '%s'"
+=======
+"Groupby feature isn't supported by '%(engine)s' engine. Please remove the "
+"groupby value on '%(report_line)s'"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -14353,7 +15091,12 @@ msgstr ""
 msgid ""
 "Hi,\n"
 "    <br/><br/>\n"
+<<<<<<< HEAD
 "    Your email has been discarded. the e-mail address you have used only accepts new invoices:"
+=======
+"    Your email has been discarded. the e-mail address you have used only "
+"accepts new invoices:"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -14407,11 +15150,14 @@ msgid "How total tax amount is computed in orders and invoices"
 msgstr "Πώς υπολογίζεται το συνολικό ποσό φόρου σε παραγγελίες και τιμολόγια"
 
 #. module: account
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document_preview
 msgid "IBAN: BE76 4294 6878 9995"
 msgstr ""
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_account__id
 #: model:ir.model.fields,field_description:account.field_account_account_tag__id
 #: model:ir.model.fields,field_description:account.field_account_accrued_orders_wizard__id
@@ -14587,8 +15333,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax__is_base_affected
 msgid ""
+<<<<<<< HEAD
 "If set, taxes with a lower sequence might affect this one, provided they try"
 " to do it."
+=======
+"If set, taxes with a lower sequence might affect this one, provided they try "
+"to do it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -14608,8 +15359,15 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account__non_trade
 msgid ""
+<<<<<<< HEAD
 "If set, this account will belong to Non Trade Receivable/Payable in reports and filters.\n"
 "If not, this account will belong to Trade Receivable/Payable in reports and filters."
+=======
+"If set, this account will belong to Non Trade Receivable/Payable in reports "
+"and filters.\n"
+"If not, this account will belong to Trade Receivable/Payable in reports and "
+"filters."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -14621,8 +15379,13 @@ msgid ""
 msgstr ""
 "Εάν καθοριστεί, αυτή η τιμή θα χρησιμοποιείται στα έγγραφα ως ετικέτα ενός "
 "υποσυνόλου, εξαιρώντας αυτή την ομάδα φόρων πριν από την εμφάνισή της. Αν "
+<<<<<<< HEAD
 "δεν καθοριστεί, η ομάδα φόρου θα εμφανίζεται μετά το υποσύνολο \"Αφορολόγητο"
 " ποσό\"."
+=======
+"δεν καθοριστεί, η ομάδα φόρου θα εμφανίζεται μετά το υποσύνολο \"Αφορολόγητο "
+"ποσό\"."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term__active
@@ -14638,8 +15401,13 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_move__checked
 msgid ""
 "If this checkbox is not ticked, it means that the user was not sure of all "
+<<<<<<< HEAD
 "the related information at the time of the creation of the move and that the"
 " move needs to be checked again."
+=======
+"the related information at the time of the creation of the move and that the "
+"move needs to be checked again."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -14876,8 +15644,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/wizard/setup_wizards.py:0
 msgid ""
+<<<<<<< HEAD
 "Incorrect fiscal year date: day is out of range for month. Month: %(month)s;"
 " Day: %(day)s"
+=======
+"Incorrect fiscal year date: day is out of range for month. Month: %(month)s; "
+"Day: %(day)s"
+>>>>>>> upstream/18.0
 msgstr ""
 "Λανθασμένη ημερομηνία φορολογικού έτους: η ημέρα είναι εκτός εύρους για τον "
 "μήνα. Μήνας: %(month)s; Ημέρα: %(day)s"
@@ -14913,8 +15686,13 @@ msgstr "Συντομεύσεις"
 #: model:ir.model.fields,help:account.field_account_incoterms__name
 msgid ""
 "Incoterms are series of sales terms. They are used to divide transaction "
+<<<<<<< HEAD
 "costs and responsibilities between buyer and seller and reflect state-of-"
 "the-art transportation practices."
+=======
+"costs and responsibilities between buyer and seller and reflect state-of-the-"
+"art transportation practices."
+>>>>>>> upstream/18.0
 msgstr ""
 "Οι Διεθνείς Οικονομικοί Όροι είναι σειρές απο όρους  πωλήσεων. "
 "Χρησιμοποιούνται για να διαχωρίσει τα κόστη συναλλαγών και τις αρμοδιότητες "
@@ -15038,8 +15816,12 @@ msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report_line__domain_formula
+<<<<<<< HEAD
 msgid ""
 "Internal field to shorten expression_ids creation for the domain engine"
+=======
+msgid "Internal field to shorten expression_ids creation for the domain engine"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -15086,8 +15868,13 @@ msgstr "Μη έγκυρο"
 #. odoo-python
 #: code:addons/account/models/partner.py:0
 msgid ""
+<<<<<<< HEAD
 "Invalid \"Zip Range\", You have to configure both \"From\" and \"To\" values"
 " for the zip range and \"To\" should be greater than \"From\"."
+=======
+"Invalid \"Zip Range\", You have to configure both \"From\" and \"To\" values "
+"for the zip range and \"To\" should be greater than \"From\"."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -15310,8 +16097,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
+<<<<<<< HEAD
 "Invoice and credit note repartition should have at least one tax repartition"
 " line."
+=======
+"Invoice and credit note repartition should have at least one tax repartition "
+"line."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -15862,8 +16654,13 @@ msgstr "Στοιχεία ημερολογίου όπου ο αριθμός αν�
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid ""
+<<<<<<< HEAD
 "Journal items where the account allows reconciliation no matter the residual"
 " amount"
+=======
+"Journal items where the account allows reconciliation no matter the residual "
+"amount"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -15880,8 +16677,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__account_opening_journal_id
 msgid ""
+<<<<<<< HEAD
 "Journal where the opening entry of this company's accounting has been "
 "posted."
+=======
+"Journal where the opening entry of this company's accounting has been posted."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -15947,7 +16748,11 @@ msgid "Kanban Dashboard Graph"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Γράφημα Επισκόπησης Kanban"
+>>>>>>> upstream/18.0
 =======
 msgstr "Γράφημα Επισκόπησης Kanban"
 >>>>>>> upstream/18.0
@@ -16023,8 +16828,13 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_product_product__property_account_expense_id
 #: model:ir.model.fields,help:account.field_product_template__property_account_expense_id
 msgid ""
+<<<<<<< HEAD
 "Keep this field empty to use the default value from the product category. If"
 " anglo-saxon accounting with automated valuation method is configured, the "
+=======
+"Keep this field empty to use the default value from the product category. If "
+"anglo-saxon accounting with automated valuation method is configured, the "
+>>>>>>> upstream/18.0
 "expense account on the product category will be used."
 msgstr ""
 
@@ -16201,8 +17011,13 @@ msgstr "Τελευταίο Έτος"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__discount_date
 msgid ""
+<<<<<<< HEAD
 "Last date at which the discounted amount must be paid in order for the Early"
 " Payment Discount to be granted"
+=======
+"Last date at which the discounted amount must be paid in order for the Early "
+"Payment Discount to be granted"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -16481,8 +17296,12 @@ msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_audit_trail_report
+<<<<<<< HEAD
 msgid ""
 "Make sure you first activate the audit trail in the accounting settings"
+=======
+msgid "Make sure you first activate the audit trail in the accounting settings"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -16507,6 +17326,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_line_ids
 msgid ""
 "Manual: Get paid by any method outside of Odoo.\n"
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
@@ -16515,13 +17335,39 @@ msgstr ""
 "Πάροχοι Πληρωμών: Κάθε πάροχος πληρωμών διαθέτει τη δική του μέθοδο πληρωμής. Ζητήστε μια συναλλαγή σε/από μια κάρτα χρησιμοποιώντας έναν κωδικό πληρωμής που έχει αποθηκευτεί από τον συνεργάτη κατά την αγορά ή την εγγραφή online. \n"
 "Ομαδική Κατάθεση: Συγκεντρώστε αρκετές επιταγές πελατών ταυτόχρονα δημιουργώντας και υποβάλλοντας μια συγκεντρωτική κατάθεση στην τράπεζά σας. Απαιτείται το module account_batch_payment. \n"
 "Άμεση Χρέωση SEPA: Λάβετε πληρωμές στην περιοχή SEPA χάρη σε μια εντολή που θα σας έχει χορηγήσει ο συνεργάτης σας. Απαιτείται το module account_sepa.\n"
+=======
+"Payment Providers: Each payment provider has its own Payment Method. Request "
+"a transaction on/to a card thanks to a payment token saved by the partner "
+"when buying or subscribing online.\n"
+"Batch Deposit: Collect several customer checks at once generating and "
+"submitting a batch deposit to your bank. Module account_batch_payment is "
+"necessary.\n"
+"SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your "
+"partner will have granted to you. Module account_sepa is necessary.\n"
+msgstr ""
+"Χειροκίνητη: Λάβετε πληρωμές με οποιαδήποτε μέθοδο εκτός του Odoo. \n"
+"Πάροχοι Πληρωμών: Κάθε πάροχος πληρωμών διαθέτει τη δική του μέθοδο "
+"πληρωμής. Ζητήστε μια συναλλαγή σε/από μια κάρτα χρησιμοποιώντας έναν κωδικό "
+"πληρωμής που έχει αποθηκευτεί από τον συνεργάτη κατά την αγορά ή την εγγραφή "
+"online. \n"
+"Ομαδική Κατάθεση: Συγκεντρώστε αρκετές επιταγές πελατών ταυτόχρονα "
+"δημιουργώντας και υποβάλλοντας μια συγκεντρωτική κατάθεση στην τράπεζά σας. "
+"Απαιτείται το module account_batch_payment. \n"
+"Άμεση Χρέωση SEPA: Λάβετε πληρωμές στην περιοχή SEPA χάρη σε μια εντολή που "
+"θα σας έχει χορηγήσει ο συνεργάτης σας. Απαιτείται το module account_sepa.\n"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_line_ids
 msgid ""
 "Manual: Pay by any method outside of Odoo.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
+<<<<<<< HEAD
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
+=======
+"SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit "
+"Transfer file to your bank. Module account_sepa is necessary.\n"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -16529,6 +17375,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_line_id
 msgid ""
 "Manual: Pay or Get paid by any method outside of Odoo.\n"
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
@@ -16541,6 +17388,35 @@ msgstr ""
 "Ομαδική Κατάθεση: Συγκεντρώστε πολλές επιταγές πελατών ταυτόχρονα, δημιουργώντας και υποβάλλοντας μια ομαδική κατάθεση στην τράπεζά σας. Απαιτείται το module account_batch_payment. \n"
 "SEPA Πιστωτική Μεταφορά: Πληρώστε στην περιοχή SEPA υποβάλλοντας ένα αρχείο SEPA Πιστωτικής Μεταφοράς στην τράπεζά σας. Απαιτείται το module account_sepa. \n"
 "SEPA Άμεση Χρέωση: Λάβετε πληρωμές στην περιοχή SEPA χάρη σε μια εντολή που θα έχει χορηγήσει ο συνεργάτης σας. Απαιτείται το module account_sepa.\n"
+=======
+"Payment Providers: Each payment provider has its own Payment Method. Request "
+"a transaction on/to a card thanks to a payment token saved by the partner "
+"when buying or subscribing online.\n"
+"Check: Pay bills by check and print it from Odoo.\n"
+"Batch Deposit: Collect several customer checks at once generating and "
+"submitting a batch deposit to your bank. Module account_batch_payment is "
+"necessary.\n"
+"SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit "
+"Transfer file to your bank. Module account_sepa is necessary.\n"
+"SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your "
+"partner will have granted to you. Module account_sepa is necessary.\n"
+msgstr ""
+"Χειροκίνητη: Πληρώστε ή λάβετε πληρωμές με οποιαδήποτε μέθοδο εκτός του "
+"Odoo. \n"
+"Πάροχοι Πληρωμών: Κάθε πάροχος πληρωμών διαθέτει τη δική του μέθοδο "
+"πληρωμής. Ζητήστε μια συναλλαγή σε/από μια κάρτα χρησιμοποιώντας έναν κωδικό "
+"πληρωμής που έχει αποθηκευτεί από τον συνεργάτη κατά την αγορά ή την εγγραφή "
+"online. \n"
+"Επιταγή: Πληρωμή λογαριασμών με επιταγή και εκτύπωση μέσω του Odoo. \n"
+"Ομαδική Κατάθεση: Συγκεντρώστε πολλές επιταγές πελατών ταυτόχρονα, "
+"δημιουργώντας και υποβάλλοντας μια ομαδική κατάθεση στην τράπεζά σας. "
+"Απαιτείται το module account_batch_payment. \n"
+"SEPA Πιστωτική Μεταφορά: Πληρώστε στην περιοχή SEPA υποβάλλοντας ένα αρχείο "
+"SEPA Πιστωτικής Μεταφοράς στην τράπεζά σας. Απαιτείται το module "
+"account_sepa. \n"
+"SEPA Άμεση Χρέωση: Λάβετε πληρωμές στην περιοχή SEPA χάρη σε μια εντολή που "
+"θα έχει χορηγήσει ο συνεργάτης σας. Απαιτείται το module account_sepa.\n"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -16580,7 +17456,11 @@ msgid "Marc Demo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marc Demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marc Demo"
 >>>>>>> upstream/18.0
@@ -16741,8 +17621,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__matching_number
 msgid ""
+<<<<<<< HEAD
 "Matching number for this line, 'P' if it is only partially reconcile, or the"
 " name of the full reconcile if it exists."
+=======
+"Matching number for this line, 'P' if it is only partially reconcile, or the "
+"name of the full reconcile if it exists."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -17643,11 +18528,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "One or more Bank Accounts set on this partner are also used by other"
 msgstr ""
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18271,7 +19159,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18326,7 +19217,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18369,6 +19263,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18483,7 +19380,11 @@ msgid "Payment Communication:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επικοινωνία πληρωμής:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επικοινωνία πληρωμής:"
 >>>>>>> upstream/18.0
@@ -18588,7 +19489,11 @@ msgid "Payment Communications"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επικοινωνία πληρωμής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επικοινωνία πληρωμής"
 >>>>>>> upstream/18.0
@@ -18988,13 +19893,19 @@ msgstr ""
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/account/static/src/components/account_pick_currency_rate/account_pick_currency_rate.xml:0
 msgid "Pick the rate on a certain date"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/company.py:0
@@ -19030,8 +19941,12 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_reconcile_model.py:0
+<<<<<<< HEAD
 msgid ""
 "Please set at least one of the match texts to create a partner mapping."
+=======
+msgid "Please set at least one of the match texts to create a partner mapping."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -19649,6 +20564,7 @@ msgstr "Σχετικό"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_reference
 msgid ""
+<<<<<<< HEAD
 "Reference of the document used to issue this payment. Eg. check number, file"
 " name, etc."
 msgstr ""
@@ -19656,11 +20572,21 @@ msgstr ""
 #. module: account
 <<<<<<< HEAD
 =======
+=======
+"Reference of the document used to issue this payment. Eg. check number, file "
+"name, etc."
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Refresh currency rate to the invoice date"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_tax_repartition_line__document_type__refund
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -19738,8 +20664,13 @@ msgstr "Ανανέωση"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Reload accounting data (taxes, accounts, ...) if you notice inconsistencies."
 " This action is irreversible."
+=======
+"Reload accounting data (taxes, accounts, ...) if you notice inconsistencies. "
+"This action is irreversible."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -19992,6 +20923,16 @@ msgid "Reversed"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+msgid "Reversed on"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 #: model:onboarding.onboarding.step,button_text:account.onboarding_onboarding_step_chart_of_accounts
@@ -20125,7 +21066,11 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid "STANDARD TERMS AND CONDITIONS OF SALE"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ΤΥΠΙΚΟΙ ΌΡΟΙ ΚΑΙ ΠΡΟΫΠΟΘΕΣΕΙΣ ΠΩΛΗΣΗΣ"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:account.account,name:account.1_expense_salary
@@ -20270,7 +21215,11 @@ msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document_preview
+=======
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_qr_code_preview
+>>>>>>> upstream/18.0
 msgid "Scan this QR Code with<br/>your banking application"
 msgstr ""
 
@@ -20340,8 +21289,12 @@ msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_text_location_label
+<<<<<<< HEAD
 msgid ""
 "Search in the Statement's Label to find the Invoice/Payment's reference"
+=======
+msgid "Search in the Statement's Label to find the Invoice/Payment's reference"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -20439,8 +21392,13 @@ msgid ""
 msgstr ""
 "Επιλέξτε μια κατηγορία προϊόντων η οποία θα χρησιμοποιήσει τον αναλυτικό "
 "λογαριασμό που έχει καθοριστεί στην προεπιλογή analytic (π.χ. κατά τη "
+<<<<<<< HEAD
 "δημιουργία νέου τιμολογίου πελάτη ή παραγγελίας πωλήσεων, αν επιλέξουμε αυτό"
 " το προϊόν, θα ληφθεί αυτόματα ως αναλυτικός λογαριασμός)."
+=======
+"δημιουργία νέου τιμολογίου πελάτη ή παραγγελίας πωλήσεων, αν επιλέξουμε αυτό "
+"το προϊόν, θα ληφθεί αυτόματα ως αναλυτικός λογαριασμός)."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_analytic_distribution_model__product_id
@@ -20449,8 +21407,13 @@ msgid ""
 "create new customer invoice or Sales order if we select this product, it "
 "will automatically take this as an analytic account)"
 msgstr ""
+<<<<<<< HEAD
 "Επιλέξτε ένα προϊόν για το οποίο θα χρησιμοποιηθεί η αναλυτική διανομή (π.χ."
 " κατά τη δημιουργία νέου τιμολογίου πελάτη ή παραγγελίας πώλησης, αν "
+=======
+"Επιλέξτε ένα προϊόν για το οποίο θα χρησιμοποιηθεί η αναλυτική διανομή (π.χ. "
+"κατά τη δημιουργία νέου τιμολογίου πελάτη ή παραγγελίας πώλησης, αν "
+>>>>>>> upstream/18.0
 "επιλέξουμε αυτό το προϊόν, θα ληφθεί αυτόματα ως αναλυτικός λογαριασμός)."
 
 #. module: account
@@ -20497,7 +21460,12 @@ msgid ""
 "block the flow. The Message has to be written in the next field."
 msgstr ""
 "Εάν επιλέξετε την \"Προειδοποίηση\" θα ειδοποιήσει το χρήστη με το μήνυμα.\n"
+<<<<<<< HEAD
 "Εάν επιλέξετε το \"Μήνυμα αποκλεισμού\" η διαδικασία θα διακοπεί και θα εμφανιστεί ένα μήνυμα. Γράψτε το μήνυμα στο επόμενο πεδίο."
+=======
+"Εάν επιλέξετε το \"Μήνυμα αποκλεισμού\" η διαδικασία θα διακοπεί και θα "
+"εμφανιστεί ένα μήνυμα. Γράψτε το μήνυμα στο επόμενο πεδίο."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -20775,8 +21743,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report_line__action_id
 msgid ""
+<<<<<<< HEAD
 "Setting this field will turn the line into a link, executing the action when"
 " clicked."
+=======
+"Setting this field will turn the line into a link, executing the action when "
+"clicked."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -20805,8 +21778,13 @@ msgstr "Σύντομος Κωδικός"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__code
 msgid ""
+<<<<<<< HEAD
 "Shorter name used for display. The journal entries of this journal will also"
 " be named using this prefix by default."
+=======
+"Shorter name used for display. The journal entries of this journal will also "
+"be named using this prefix by default."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -20986,8 +21964,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_accrued_orders_wizard__amount
 msgid ""
+<<<<<<< HEAD
 "Specify an arbitrary value that will be accrued on a         default account"
 " for the entire order, regardless of the products on the different lines."
+=======
+"Specify an arbitrary value that will be accrued on a         default account "
+"for the entire order, regardless of the products on the different lines."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -21250,8 +22233,13 @@ msgstr "Ετικέτες"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__tax_tag_ids
 msgid ""
+<<<<<<< HEAD
 "Tags assigned to this line by the tax creating it, if any. It determines its"
 " impact on financial reports."
+=======
+"Tags assigned to this line by the tax creating it, if any. It determines its "
+"impact on financial reports."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -21588,8 +22576,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "Taxes exigible on payment and on invoice cannot be mixed on the same journal"
 " item if they share some tag."
+=======
+"Taxes exigible on payment and on invoice cannot be mixed on the same journal "
+"item if they share some tag."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -21608,8 +22601,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__account_enabled_tax_country_ids
 msgid ""
+<<<<<<< HEAD
 "Technical field containing the countries for which this company is using "
 "tax-related features(hence the ones for which l10n modules need to show tax-"
+=======
+"Technical field containing the countries for which this company is using tax-"
+"related features(hence the ones for which l10n modules need to show tax-"
+>>>>>>> upstream/18.0
 "related fields)."
 msgstr ""
 
@@ -21655,10 +22653,21 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__sequence_override_regex
 msgid ""
+<<<<<<< HEAD
 "Technical field used to enforce complex sequence composition that the system would normally misunderstand.\n"
 "This is a regex that can include all the following capture groups: prefix1, year, prefix2, month, prefix3, seq, suffix.\n"
 "The prefix* groups are the separators between the year, month and the actual increasing sequence number (seq).\n"
 "e.g: ^(?P<prefix1>.*?)(?P<year>\\d{4})(?P<prefix2>\\D*?)(?P<month>\\d{2})(?P<prefix3>\\D+?)(?P<seq>\\d+)(?P<suffix>\\D*?)$"
+=======
+"Technical field used to enforce complex sequence composition that the system "
+"would normally misunderstand.\n"
+"This is a regex that can include all the following capture groups: prefix1, "
+"year, prefix2, month, prefix3, seq, suffix.\n"
+"The prefix* groups are the separators between the year, month and the actual "
+"increasing sequence number (seq).\n"
+"e.g: ^(?P<prefix1>.*?)(?P<year>\\d{4})(?P<prefix2>\\D*?)(?P<month>\\d{2})(?"
+"P<prefix3>\\D+?)(?P<seq>\\d+)(?P<suffix>\\D*?)$"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -21725,8 +22734,15 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/sequence_mixin.py:0
 msgid ""
+<<<<<<< HEAD
 "The %(date_field)s (%(date)s) you've entered isn't aligned with the existing sequence number (%(sequence)s). Clear the sequence number to proceed.\n"
 "To maintain date-based sequences, select entries and use the resequence option from the actions menu, available in developer mode."
+=======
+"The %(date_field)s (%(date)s) you've entered isn't aligned with the existing "
+"sequence number (%(sequence)s). Clear the sequence number to proceed.\n"
+"To maintain date-based sequences, select entries and use the resequence "
+"option from the actions menu, available in developer mode."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -21761,8 +22777,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid ""
+<<<<<<< HEAD
 "The Early Payment Discount functionality can only be used with payment terms"
 " using a single 100% line. "
+=======
+"The Early Payment Discount functionality can only be used with payment terms "
+"using a single 100% line. "
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -21823,8 +22844,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The Unit of Measure (UoM) '%(uom)s' you have selected for product "
 "'%(product)s', is incompatible with its category : %(category)s."
+=======
+"The Unit of Measure (UoM) '%(uom)s' you have selected for product '%"
+"(product)s', is incompatible with its category : %(category)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -21872,8 +22898,13 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__amount_currency
 #: model:ir.model.fields,help:account.field_account_move_line__amount_currency
 msgid ""
+<<<<<<< HEAD
 "The amount expressed in an optional other currency if it is a multi-currency"
 " entry."
+=======
+"The amount expressed in an optional other currency if it is a multi-currency "
+"entry."
+>>>>>>> upstream/18.0
 msgstr ""
 "Το ποσό, εκφρασμένο σε ένα (προαιρετικό) διαφορετικό νόμισμα αν πρόκειται "
 "για εγγραφή πολλαπλών νομισμάτων."
@@ -21881,8 +22912,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.constraint,message:account.constraint_account_move_line_check_amount_currency_balance_sign
 msgid ""
+<<<<<<< HEAD
 "The amount expressed in the secondary currency must be positive when account"
 " is debited and negative when account is credited. If the currency is the "
+=======
+"The amount expressed in the secondary currency must be positive when account "
+"is debited and negative when account is credited. If the currency is the "
+>>>>>>> upstream/18.0
 "same as the one from the company, this amount must strictly be equal to the "
 "balance."
 msgstr ""
@@ -21895,7 +22931,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "The amount for %(partner_name)s appears unusual. Based on your historical data, the expected amount is %(mean)s (± %(wiggle)s).\n"
+=======
+"The amount for %(partner_name)s appears unusual. Based on your historical "
+"data, the expected amount is %(mean)s (± %(wiggle)s).\n"
+>>>>>>> upstream/18.0
 "Please verify if this amount is accurate."
 msgstr ""
 
@@ -21924,14 +22965,25 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_move_line__statement_id
 msgid "The bank statement used for bank reconciliation"
 msgstr ""
+<<<<<<< HEAD
 "Η κατάσταση Κίνησης Τραπεζικού Λογαριασμού που χρησιμοποιείται στην συμφωνία"
 " τραπεζών"
+=======
+"Η κατάσταση Κίνησης Τραπεζικού Λογαριασμού που χρησιμοποιείται στην συμφωνία "
+"τραπεζών"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "The billing frequency for %(partner_name)s appears unusual. Based on your historical data, the expected next invoice date is not before %(expected_date)s (every %(mean)s (± %(wiggle)s) days).\n"
+=======
+"The billing frequency for %(partner_name)s appears unusual. Based on your "
+"historical data, the expected next invoice date is not before %"
+"(expected_date)s (every %(mean)s (± %(wiggle)s) days).\n"
+>>>>>>> upstream/18.0
 "Please verify if this date is accurate."
 msgstr ""
 
@@ -21951,6 +23003,13 @@ msgid ""
 "order to be valid, any derogation must be expressly agreed to in advance in "
 "writing."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ο πελάτης αποποιείται ρητά τους δικούς του γενικούς όρους και προϋποθέσεις, "
+"ακόμη και αν αυτοί καταρτίστηκαν μεταγενέστερα από τους παρόντες όρους "
+"πώλησης. Για να είναι έγκυρη οποιαδήποτε απόκλιση, πρέπει να έχει συμφωνηθεί "
+"ρητά εκ των προτέρων εγγράφως."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -22015,7 +23074,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22149,6 +23211,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22242,8 +23307,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/partner.py:0
 msgid ""
+<<<<<<< HEAD
 "The country code of the foreign VAT number does not match any country in the"
 " group."
+=======
+"The country code of the foreign VAT number does not match any country in the "
+"group."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -22260,8 +23330,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
+<<<<<<< HEAD
 "The country set on the foreign VAT fiscal position must match the one set on"
 " the report."
+=======
+"The country set on the foreign VAT fiscal position must match the one set on "
+"the report."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -22272,6 +23347,15 @@ msgid "The country to use the tax reports from for this company"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "The currency rate must be strictly positive."
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_journal__currency_id
 msgid "The currency used to enter statement"
 msgstr "Νόμισμα Δήλωσης"
@@ -22285,8 +23369,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "The current total is %(current_total)s but the expected total is "
 "%(expected_total)s. In order to post the invoice/bill, you can adjust its "
+=======
+"The current total is %(current_total)s but the expected total is %"
+"(expected_total)s. In order to post the invoice/bill, you can adjust its "
+>>>>>>> upstream/18.0
 "lines or the expected Total (tax inc.)."
 msgstr ""
 
@@ -22321,8 +23410,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_lock_exception__sale_lock_date
 msgid ""
+<<<<<<< HEAD
 "The date the Sale Lock Date is set to by this exception. If the lock date is"
 " not changed it is set to the maximal date."
+=======
+"The date the Sale Lock Date is set to by this exception. If the lock date is "
+"not changed it is set to the maximal date."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -22377,8 +23471,13 @@ msgid ""
 "expense (Cost of Goods Sold account) is recognized at the customer invoice "
 "validation."
 msgstr ""
+<<<<<<< HEAD
 "Η δαπάνη καταχωρείται κατά την έγκριση του λογαριασμού του προμηθευτή, εκτός"
 " από την αγγλοσαξονική λογιστική που εφαρμόζει διαρκή αποτίμηση της "
+=======
+"Η δαπάνη καταχωρείται κατά την έγκριση του λογαριασμού του προμηθευτή, εκτός "
+"από την αγγλοσαξονική λογιστική που εφαρμόζει διαρκή αποτίμηση της "
+>>>>>>> upstream/18.0
 "απογραφής, όπου η δαπάνη (Λογαριασμός κόστους πωληθέντων αγαθών) "
 "αναγνωρίζεται κατά την έγκριση του τιμολογίου του πελάτη."
 
@@ -22442,7 +23541,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22487,6 +23589,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22535,8 +23640,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "The foreign currency set on the journal '%(journal)s' and the account "
 "'%(account)s' must be the same."
+=======
+"The foreign currency set on the journal '%(journal)s' and the account '%"
+"(account)s' must be the same."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -22548,7 +23658,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid ""
 "The hash chain is compliant: it is not possible to alter the\n"
+<<<<<<< HEAD
 "                                            data without breaking the hash chain for subsequent parts."
+=======
+"                                            data without breaking the hash "
+"chain for subsequent parts."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -22580,8 +23695,15 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The journal entry %s reached an invalid state regarding its related statement line.\n"
 "To be consistent, the journal entry must always have exactly one journal item involving the bank/cash account."
+=======
+"The journal entry %s reached an invalid state regarding its related "
+"statement line.\n"
+"To be consistent, the journal entry must always have exactly one journal "
+"item involving the bank/cash account."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -22616,8 +23738,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__fiscalyear_last_day
 #: model:ir.model.fields,help:account.field_account_financial_year_op__fiscalyear_last_month
+<<<<<<< HEAD
 msgid ""
 "The last day of the month will be used if the chosen day doesn't exist."
+=======
+msgid "The last day of the month will be used if the chosen day doesn't exist."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -22629,7 +23755,12 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_reconcile_model__partner_mapping_line_ids
 msgid ""
 "The mapping uses regular expressions.\n"
+<<<<<<< HEAD
 "- To Match the text at the beginning of the line (in label or notes), simply fill in your text.\n"
+=======
+"- To Match the text at the beginning of the line (in label or notes), simply "
+"fill in your text.\n"
+>>>>>>> upstream/18.0
 "- To Match the text anywhere (in label or notes), put your text between .*\n"
 "  e.g: .*N°48748 abc123.*"
 msgstr ""
@@ -22654,9 +23785,15 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The operation is refused as it would impact an already issued tax statement."
 " Please change the journal entry date or the following lock dates to "
 "proceed: %(lock_date_info)s."
+=======
+"The operation is refused as it would impact an already issued tax statement. "
+"Please change the journal entry date or the following lock dates to proceed: "
+"%(lock_date_info)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -22670,16 +23807,27 @@ msgid ""
 "The optional quantity expressed by this line, eg: number of product sold. "
 "The quantity is not a legal requirement but is very useful for some reports."
 msgstr ""
+<<<<<<< HEAD
 "Η προαιρετική ποσότητα εκφρασμένη από αυτή τη γραμμή: π.χ. πλήθος πωληθέντων"
 " ειδών. Η ποσότητα δεν είναι ένα νομικό προαπαιτούμενο, αλλά είναι πολύ "
+=======
+"Η προαιρετική ποσότητα εκφρασμένη από αυτή τη γραμμή: π.χ. πλήθος πωληθέντων "
+"ειδών. Η ποσότητα δεν είναι ένα νομικό προαπαιτούμενο, αλλά είναι πολύ "
+>>>>>>> upstream/18.0
 "χρήσιμη για κάποιες αναφορές."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_repartition_line__sequence
 msgid ""
+<<<<<<< HEAD
 "The order in which distribution lines are displayed and matched. For refunds"
 " to work properly, invoice distribution lines should be arranged in the same"
 " order as the credit note distribution lines they correspond to."
+=======
+"The order in which distribution lines are displayed and matched. For refunds "
+"to work properly, invoice distribution lines should be arranged in the same "
+"order as the credit note distribution lines they correspond to."
+>>>>>>> upstream/18.0
 msgstr ""
 "Η σειρά εμφάνισης και αντιστοίχισης των γραμμών διανομής είναι σημαντική. "
 "Για να διασφαλιστεί η σωστή λειτουργία των επιστροφών, οι γραμμές διανομής "
@@ -22732,21 +23880,36 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_partner_category_ids
 msgid ""
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected "
 "customer/vendor categories."
+=======
+"The reconciliation model will only be applied to the selected customer/"
+"vendor categories."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_partner_ids
 msgid ""
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected "
 "customers/vendors."
+=======
+"The reconciliation model will only be applied to the selected customers/"
+"vendors."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_nature
 msgid ""
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected transaction type:\n"
+=======
+"The reconciliation model will only be applied to the selected transaction "
+"type:\n"
+>>>>>>> upstream/18.0
 "        * Amount Received: Only applied when receiving an amount.\n"
 "        * Amount Paid: Only applied when paying an amount.\n"
 "        * Amount Paid/Received: Applied in both cases."
@@ -22769,12 +23932,22 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_label
 msgid ""
 "The reconciliation model will only be applied when the label:\n"
+<<<<<<< HEAD
 "        * Contains: The proposition label must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition label must contains this string (case "
+"insensitive).\n"
+>>>>>>> upstream/18.0
 "        * Not Contains: Negation of \"Contains\".\n"
 "        * Match Regex: Define your own regular expression."
 msgstr ""
 "Το μοντέλο συμφιλίωσης εφαρμόζεται μόνο όταν η ετικέτα:\n"
+<<<<<<< HEAD
 "        * Περιέχει: Η ετικέτα της πρότασης πρέπει να περιέχει αυτή τη συμβολοσειρά (χωρίς να λαμβάνεται υπόψη η πεζότητα).\n"
+=======
+"        * Περιέχει: Η ετικέτα της πρότασης πρέπει να περιέχει αυτή τη "
+"συμβολοσειρά (χωρίς να λαμβάνεται υπόψη η πεζότητα).\n"
+>>>>>>> upstream/18.0
 "        * Δεν εμπεριέχει: Περιέχει\".\n"
 "        * Match Regex: Ορίστε τη δική σας κανονική έκφραση."
 
@@ -22782,7 +23955,12 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_note
 msgid ""
 "The reconciliation model will only be applied when the note:\n"
+<<<<<<< HEAD
 "        * Contains: The proposition note must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition note must contains this string (case "
+"insensitive).\n"
+>>>>>>> upstream/18.0
 "        * Not Contains: Negation of \"Contains\".\n"
 "        * Match Regex: Define your own regular expression."
 msgstr ""
@@ -22791,7 +23969,12 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_transaction_type
 msgid ""
 "The reconciliation model will only be applied when the transaction type:\n"
+<<<<<<< HEAD
 "        * Contains: The proposition transaction type must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition transaction type must contains this "
+"string (case insensitive).\n"
+>>>>>>> upstream/18.0
 "        * Not Contains: Negation of \"Contains\".\n"
 "        * Match Regex: Define your own regular expression."
 msgstr ""
@@ -22865,7 +24048,12 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_automatic_entry_wizard_form
 msgid ""
+<<<<<<< HEAD
 "The selected destination account is set to use a specific currency. Every entry transferred to it will be converted into this currency, causing\n"
+=======
+"The selected destination account is set to use a specific currency. Every "
+"entry transferred to it will be converted into this currency, causing\n"
+>>>>>>> upstream/18.0
 "                        the loss of any pre-existing foreign currency amount."
 msgstr ""
 
@@ -22873,16 +24061,26 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_payment.py:0
 msgid ""
+<<<<<<< HEAD
 "The selected payment method is not available for this payment, please select"
 " the payment method again."
+=======
+"The selected payment method is not available for this payment, please select "
+"the payment method again."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move_send.py:0
 msgid ""
+<<<<<<< HEAD
 "The sending of invoices is not set up properly, make sure the report used is"
 " set for invoices."
+=======
+"The sending of invoices is not set up properly, make sure the report used is "
+"set for invoices."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -22902,7 +24100,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/sequence_mixin.py:0
 msgid ""
+<<<<<<< HEAD
 "The sequence regex should at least contain the seq grouping keys. For instance:\n"
+=======
+"The sequence regex should at least contain the seq grouping keys. For "
+"instance:\n"
+>>>>>>> upstream/18.0
 "^(?P<prefix1>.*?)(?P<seq>\\d*)(?P<suffix>\\D*?)$"
 msgstr ""
 
@@ -22957,8 +24160,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/wizard/account_resequence.py:0
 msgid ""
+<<<<<<< HEAD
 "The sequences of this journal are different for Invoices and Refunds but you"
 " selected some of both types."
+=======
+"The sequences of this journal are different for Invoices and Refunds but you "
+"selected some of both types."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23073,8 +24281,13 @@ msgstr ""
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid ""
 "There are still unreconciled bank statement lines before the selected date. "
+<<<<<<< HEAD
 "The entries from journal prefixes containing them will not be secured: "
 "%(prefix_info)s"
+=======
+"The entries from journal prefixes containing them will not be secured: %"
+"(prefix_info)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23155,8 +24368,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "This account is configured in %(journal_names)s journal(s) (ids "
 "%(journal_ids)s) as payment debit or credit account. This means that this "
+=======
+"This account is configured in %(journal_names)s journal(s) (ids %"
+"(journal_ids)s) as payment debit or credit account. This means that this "
+>>>>>>> upstream/18.0
 "account's type should be reconcilable."
 msgstr ""
 
@@ -23200,15 +24418,26 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "This allows accountants to manage analytic and crossovered budgets. Once the"
 " master budgets and the budgets are defined, the project managers can set "
 "the planned amount on each analytic account."
+=======
+"This allows accountants to manage analytic and crossovered budgets. Once the "
+"master budgets and the budgets are defined, the project managers can set the "
+"planned amount on each analytic account."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_config_settings__module_account_batch_payment
 msgid ""
+<<<<<<< HEAD
 "This allows you grouping payments into a single batch and eases the reconciliation process.\n"
+=======
+"This allows you grouping payments into a single batch and eases the "
+"reconciliation process.\n"
+>>>>>>> upstream/18.0
 "-This installs the account_batch_payment module."
 msgstr ""
 
@@ -23249,16 +24478,26 @@ msgid ""
 msgstr ""
 "Αυτό το εικονικό πεδίο μας δίνει τη δυνατότητα να εφαρμόσουμε μια "
 "εναλλακτική μέθοδο αναζήτησης στο πεδίο 'name'. Αυτό προσφέρει περισσότερη "
+<<<<<<< HEAD
 "ευελιξία στην αναζήτηση του 'name' σε σχέση με το 'filter_domain'. Ανατρέξτε"
 " στα '_search_name' και '_parse_name_search' για να κατανοήσετε γιατί αυτό "
+=======
+"ευελιξία στην αναζήτηση του 'name' σε σχέση με το 'filter_domain'. Ανατρέξτε "
+"στα '_search_name' και '_parse_name_search' για να κατανοήσετε γιατί αυτό "
+>>>>>>> upstream/18.0
 "δεν είναι εφικτό με το 'filter_domain'."
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "This entry contains one or more taxes that are incompatible with your fiscal"
 " country. Check company fiscal country in the settings and tax country in "
+=======
+"This entry contains one or more taxes that are incompatible with your fiscal "
+"country. Check company fiscal country in the settings and tax country in "
+>>>>>>> upstream/18.0
 "taxes configuration."
 msgstr ""
 
@@ -23266,8 +24505,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "This entry contains taxes that are not compatible with your fiscal position."
 " Check the country set in fiscal position and in your tax configuration."
+=======
+"This entry contains taxes that are not compatible with your fiscal position. "
+"Check the country set in fiscal position and in your tax configuration."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23415,7 +24659,12 @@ msgstr ""
 #: code:addons/account/models/product.py:0
 msgid ""
 "This product is already being used in posted Journal Entries.\n"
+<<<<<<< HEAD
 "If you want to change its Unit of Measure, please archive this product and create a new one."
+=======
+"If you want to change its Unit of Measure, please archive this product and "
+"create a new one."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23457,8 +24706,13 @@ msgstr ""
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_validate_account_move
 msgid ""
+<<<<<<< HEAD
 "This wizard will validate all journal entries selected. Once journal entries"
 " are validated, you can not update them anymore."
+=======
+"This wizard will validate all journal entries selected. Once journal entries "
+"are validated, you can not update them anymore."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23519,8 +24773,12 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.email_template_mail_gateway_failed
 msgid ""
+<<<<<<< HEAD
 "To add information to a previously sent invoice, reply to your \"sent\" "
 "email"
+=======
+"To add information to a previously sent invoice, reply to your \"sent\" email"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23532,7 +24790,12 @@ msgstr "Να ελεγχθεί"
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "To keep the audit trail, you can not delete journal entries once they have been posted.\n"
+=======
+"To keep the audit trail, you can not delete journal entries once they have "
+"been posted.\n"
+>>>>>>> upstream/18.0
 "Instead, you can cancel the journal entry."
 msgstr ""
 
@@ -23546,8 +24809,13 @@ msgstr ""
 #: code:addons/account/models/account_payment.py:0
 msgid ""
 "To record payments with %(method_name)s, the recipient bank account must be "
+<<<<<<< HEAD
 "manually validated. You should go on the partner bank account of %(partner)s"
 " in order to validate it."
+=======
+"manually validated. You should go on the partner bank account of %(partner)s "
+"in order to validate it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23555,8 +24823,13 @@ msgstr ""
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "To record payments with %(payment_method)s, the recipient bank account must "
+<<<<<<< HEAD
 "be manually validated. You should go on the partner bank account in order to"
 " validate it."
+=======
+"be manually validated. You should go on the partner bank account in order to "
+"validate it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23667,8 +24940,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "Total amount due (including sales orders and this document): "
 "%(total_credit)s"
+=======
+"Total amount due (including sales orders and this document): %(total_credit)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23815,8 +25092,13 @@ msgstr "Μεταφορά σε %s"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
 "Trigger alerts when creating Invoices and Sales Orders for Partners with a "
+<<<<<<< HEAD
 "Total Receivable amount exceeding a limit."
 "                                      Set a value greater than 0.0 to "
+=======
+"Total Receivable amount exceeding a "
+"limit.                                      Set a value greater than 0.0 to "
+>>>>>>> upstream/18.0
 "activate a credit limit check"
 msgstr ""
 
@@ -23853,7 +25135,11 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.partner_view_buttons
 msgid "Type a message..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Πληκτρολογίστε ένα μήνυμα..."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__qr_code_method
@@ -24191,6 +25477,7 @@ msgstr ""
 #. module: account
 #: model_terms:digest.tip,tip_description:account.digest_tip_account_0
 msgid ""
+<<<<<<< HEAD
 "Use the “<i>Send by Post</i>” option to post invoices automatically. For the"
 " cost of a local stamp, we do all the manual work: your invoice will be "
 "printed in the right country, put in an envelop and sent by snail mail. Use "
@@ -24198,6 +25485,15 @@ msgid ""
 msgstr ""
 "Χρησιμοποιήστε την επιλογή  “<i>Αποστολή με ταχυδρομείο</i>” για να στέλνετε"
 " αυτόματα τα τιμολόγιά σας. Με το κόστος ενός γραμματοσήμου, αναλαμβάνουμε "
+=======
+"Use the “<i>Send by Post</i>” option to post invoices automatically. For the "
+"cost of a local stamp, we do all the manual work: your invoice will be "
+"printed in the right country, put in an envelop and sent by snail mail. Use "
+"this feature from the list view to post hundreds of invoices in bulk."
+msgstr ""
+"Χρησιμοποιήστε την επιλογή  “<i>Αποστολή με ταχυδρομείο</i>” για να στέλνετε "
+"αυτόματα τα τιμολόγιά σας. Με το κόστος ενός γραμματοσήμου, αναλαμβάνουμε "
+>>>>>>> upstream/18.0
 "ολόκληρη τη διαδικασία: το τιμολόγιό σας θα εκτυπωθεί στη σωστή χώρα, θα "
 "τοποθετηθεί σε φάκελο και θα αποσταλεί ταχυδρομικώς. Μπορείτε να "
 "χρησιμοποιήσετε αυτή τη λειτουργία από την προβολή λίστας για να στείλετε "
@@ -24208,7 +25504,12 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_move__quick_edit_total_amount
 msgid ""
 "Use this field to encode the total amount of the invoice.\n"
+<<<<<<< HEAD
 "Odoo will automatically create one invoice line with default values to match it."
+=======
+"Odoo will automatically create one invoice line with default values to match "
+"it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -24266,7 +25567,11 @@ msgid "Used"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Χρησιμοποιημένα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Χρησιμοποιημένα"
 >>>>>>> upstream/18.0
@@ -24448,8 +25753,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__profit_account_id
 msgid ""
+<<<<<<< HEAD
 "Used to register a profit when the ending balance of a cash register differs"
 " from what the system computes"
+=======
+"Used to register a profit when the ending balance of a cash register differs "
+"from what the system computes"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -24566,8 +25876,15 @@ msgstr "Τιμή"
 msgid ""
 "Value for the amount of the writeoff line\n"
 "    * Percentage: Percentage of the balance, between 0 and 100.\n"
+<<<<<<< HEAD
 "    * Fixed: The fixed value of the writeoff. The amount will count as a debit if it is negative, as a credit if it is positive.\n"
 "    * From Label: There is no need for regex delimiter, only the regex is needed. For instance if you want to extract the amount from\n"
+=======
+"    * Fixed: The fixed value of the writeoff. The amount will count as a "
+"debit if it is negative, as a credit if it is positive.\n"
+"    * From Label: There is no need for regex delimiter, only the regex is "
+"needed. For instance if you want to extract the amount from\n"
+>>>>>>> upstream/18.0
 "R:9672938 10/07 AX 9415126318 T:5L:NA BRT: 3358,07 C:\n"
 "You could enter\n"
 "BRT: ([\\d,]+)"
@@ -24757,8 +26074,15 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/company.py:0
 msgid ""
+<<<<<<< HEAD
 "We cannot find a chart of accounts for this company, you should configure it. \n"
 "Please go to Account Configuration and select or install a fiscal localization."
+=======
+"We cannot find a chart of accounts for this company, you should configure "
+"it. \n"
+"Please go to Account Configuration and select or install a fiscal "
+"localization."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -24804,8 +26128,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report_line__print_on_new_page
 msgid ""
+<<<<<<< HEAD
 "When checked this line and everything after it will be printed on a new "
 "page."
+=======
+"When checked this line and everything after it will be printed on a new page."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -24816,8 +26144,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report_expression__blank_if_zero
 msgid ""
+<<<<<<< HEAD
 "When checked, 0 values will not show when displaying this expression's "
 "value."
+=======
+"When checked, 0 values will not show when displaying this expression's value."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -24843,7 +26175,12 @@ msgid ""
 "When the sale receipt is confirmed, you can record the customer\n"
 "                payment related to this sales receipt."
 msgstr ""
+<<<<<<< HEAD
 "Όταν επιβεβαιωθεί η απόδειξη πώλησης, μπορείτε να καταγράψετε την πληρωμή πελατών\n"
+=======
+"Όταν επιβεβαιωθεί η απόδειξη πώλησης, μπορείτε να καταγράψετε την πληρωμή "
+"πελατών\n"
+>>>>>>> upstream/18.0
 "                που σχετίζεται με αυτήν την απόδειξη πώλησης."
 
 #. module: account
@@ -24975,7 +26312,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25176,6 +26516,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25361,8 +26704,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 "You can only change the period/account for items that are not yet "
 "reconciled."
+=======
+"You can only change the period/account for items that are not yet reconciled."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -25392,8 +26739,12 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+<<<<<<< HEAD
 msgid ""
 "You can only request a cancellation for invoice sent to the government."
+=======
+msgid "You can only request a cancellation for invoice sent to the government."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -25458,6 +26809,7 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25591,13 +26943,22 @@ msgid ""
 "You can't create payments for entries belonging to different branches "
 "without access to parent company."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"You can't create payments for entries belonging to different branches "
+"without access to parent company."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
+<<<<<<< HEAD
 msgid ""
 "You can't create payments for entries belonging to different companies."
+=======
+msgid "You can't create payments for entries belonging to different companies."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -25624,32 +26985,52 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't have two payment method lines of the same payment type "
 "(%(payment_type)s) and with the same name (%(name)s) on a single journal."
+=======
+"You can't have two payment method lines of the same payment type (%"
+"(payment_type)s) and with the same name (%(name)s) on a single journal."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't open the register payment wizard without at least one "
 "receivable/payable line."
+=======
+"You can't open the register payment wizard without at least one receivable/"
+"payable line."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't provide a foreign currency without specifying an amount in 'Amount"
 " in Currency' field."
+=======
+"You can't provide a foreign currency without specifying an amount in 'Amount "
+"in Currency' field."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't provide an amount in foreign currency without specifying a foreign"
 " currency."
+=======
+"You can't provide an amount in foreign currency without specifying a foreign "
+"currency."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -25680,8 +27061,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't unlink this company from this account since there are some journal"
 " items linked to it."
+=======
+"You can't unlink this company from this account since there are some journal "
+"items linked to it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -25703,8 +27089,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the type of an account set as Bank Account on a journal to"
 " Receivable or Payable."
+=======
+"You cannot change the type of an account set as Bank Account on a journal to "
+"Receivable or Payable."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -25777,8 +27168,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/mail_template.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete this mail template, it is used in the invoice sending "
 "flow."
+=======
+"You cannot delete this mail template, it is used in the invoice sending flow."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -25807,7 +27202,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot do this modification on a reconciled journal entry. You can just change some non legal fields or you must unreconcile first.\n"
+=======
+"You cannot do this modification on a reconciled journal entry. You can just "
+"change some non legal fields or you must unreconcile first.\n"
+>>>>>>> upstream/18.0
 "Journal Entry (id): %(entry)s (%(id)s)"
 msgstr ""
 
@@ -26032,7 +27432,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26167,6 +27570,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26296,8 +27702,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot use this account (%s) in this journal, check the section "
 "'Control-Access' under tab 'Advanced Settings' on the related journal."
+=======
+"You cannot use this account (%s) in this journal, check the section 'Control-"
+"Access' under tab 'Advanced Settings' on the related journal."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -26325,6 +27736,7 @@ msgstr ""
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26401,6 +27813,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26565,6 +27979,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid "You should update this document to reflect your T&amp;C."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Θα πρέπει να ενημερώσετε αυτό το έγγραφο ώστε να αντικατοπτρίζει τους δικούς "
+"σας Όρους & Προϋποθέσεις."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_home_invoice
@@ -26693,7 +28112,11 @@ msgid "alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ψευδώνυμο"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ψευδώνυμο"
 >>>>>>> upstream/18.0
@@ -26944,8 +28367,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
 "cannot under any circumstances, be required by the client to appear as a "
+<<<<<<< HEAD
 "third party in the context of any claim for damages filed against the client"
 " by an end consumer."
+=======
+"third party in the context of any claim for damages filed against the client "
+"by an end consumer."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -27071,12 +28499,18 @@ msgstr ""
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "in"
 msgstr "σε"
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__payment_tolerance_type__fixed_amount
 msgid "in amount"
@@ -27116,7 +28550,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
 msgid ""
 "is a money transfer service and not a bank.\n"
+<<<<<<< HEAD
 "                            Double check if the account can be trusted by calling the vendor.<br/>"
+=======
+"                            Double check if the account can be trusted by "
+"calling the vendor.<br/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -27147,12 +28586,21 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
+<<<<<<< HEAD
 "must be notified of any claim by means of a letter sent by recorded delivery"
 " to its registered office within 8 days of the delivery of the goods or the "
 "provision of the services."
 msgstr ""
 "πρέπει να ειδοποιείται για οποιαδήποτε απαίτηση με επιστολή που αποστέλλεται"
 " με συστημένη παράδοση στην έδρα της εντός 8 ημερών από την παράδοση των "
+=======
+"must be notified of any claim by means of a letter sent by recorded delivery "
+"to its registered office within 8 days of the delivery of the goods or the "
+"provision of the services."
+msgstr ""
+"πρέπει να ειδοποιείται για οποιαδήποτε απαίτηση με επιστολή που αποστέλλεται "
+"με συστημένη παράδοση στην έδρα της εντός 8 ημερών από την παράδοση των "
+>>>>>>> upstream/18.0
 "αγαθών ή την παροχή των υπηρεσιών."
 
 #. module: account
@@ -27264,7 +28712,11 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "units"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "μονάδες"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-javascript
@@ -27328,6 +28780,10 @@ msgstr ""
 #. module: account
 #: model:mail.template,subject:account.mail_template_data_payment_receipt
 msgid ""
+<<<<<<< HEAD
 "{{ object.company_id.name }} Payment Receipt (Ref {{ object.name or 'n/a' "
 "}})"
+=======
+"{{ object.company_id.name }} Payment Receipt (Ref {{ object.name or 'n/a' }})"
+>>>>>>> upstream/18.0
 msgstr ""

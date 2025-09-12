@@ -19,15 +19,33 @@ class TestAutoComplete(TransactionCase):
         cls.website = cls.env['website'].browse(1)
         cls.WebsiteController = Website()
 
+<<<<<<< HEAD
     def _autocomplete(self, term, expected_count, expected_fuzzy_term):
         """ Calls the autocomplete for a given term and performs general checks """
         with MockRequest(self.env, website=self.website):
             suggestions = self.WebsiteController.autocomplete(
                 search_type="test", term=term, max_nb_chars=50, options={},
+=======
+    def _autocomplete(self, term, expected_count, expected_fuzzy_term, search_type="test", options=None):
+        """ Calls the autocomplete for a given term and performs general checks """
+        with MockRequest(self.env, website=self.website):
+            suggestions = self.WebsiteController.autocomplete(
+                search_type=search_type, term=term, max_nb_chars=50, options=options or {},
+>>>>>>> upstream/18.0
             )
         self.assertEqual(expected_count, suggestions['results_count'], "Wrong number of suggestions")
         self.assertEqual(expected_fuzzy_term, suggestions.get('fuzzy_search', 'Not found'), "Wrong fuzzy match")
 
+<<<<<<< HEAD
+=======
+    def _autocomplete_page(self, term, expected_count, expected_fuzzy_term):
+        self._autocomplete(term, expected_count, expected_fuzzy_term, search_type="pages", options={
+            'displayDescription': False, 'displayDetail': False,
+            'displayExtraDetail': False, 'displayExtraLink': False,
+            'displayImage': False, 'allowFuzzy': True
+        })
+
+>>>>>>> upstream/18.0
     def test_01_many_records(self):
         # REF1000~REF3999
         data = [{
@@ -97,6 +115,47 @@ class TestAutoComplete(TransactionCase):
                 }
             )
 
+<<<<<<< HEAD
+=======
+        test_page = self.env.ref('test_website.test_page')
+        test_page.name = 'testTotallyUnique'
+
+        # Editor and Designer see pages in result
+        self._autocomplete_page('testTotallyUnique', 1, None)
+
+        test_page.visibility = 'connected'
+        self._autocomplete_page('testTotallyUnique', 1, False)
+        test_page.visibility = False
+
+        test_page.groups_id = self.env.ref('base.group_public')
+        self._autocomplete_page('testTotallyUnique', 1, False)
+        test_page.groups_id = False
+
+        # Public user don't see restricted page
+        saved_env = self.env
+        self.website.env = self.env = self.env(user=self.website.user_id)
+        self._autocomplete_page('testTotallyUnique', 0, "Not found")
+
+        test_page.website_indexed = True
+        self._autocomplete_page('testTotallyUnique', 1, False)
+
+        test_page.groups_id = self.env.ref('base.group_system')
+        self._autocomplete_page('testTotallyUnique', 0, "Not found")
+
+        test_page.groups_id = self.env.ref('base.group_public')
+        self._autocomplete_page('testTotallyUnique', 1, False)
+        test_page.groups_id = False
+
+        test_page.visibility = 'password'
+        self._autocomplete_page('testTotallyUnique', 0, "Not found")
+
+        test_page.visibility = 'connected'
+        self._autocomplete_page('testTotallyUnique', 0, "Not found")
+
+        # restore website env for next tests
+        self.website.env = self.env = saved_env
+
+>>>>>>> upstream/18.0
     def test_indirect(self):
         self._autocomplete('module', 2, 'model')
         self._autocomplete('rechord', 1, 'record')

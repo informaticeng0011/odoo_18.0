@@ -7,6 +7,10 @@ import { useService } from '@web/core/utils/hooks';
 import { markup } from '@odoo/owl';
 import { escape } from '@web/core/utils/strings';
 import { FormControllerWithHTMLExpander } from '@resource/views/form_with_html_expander/form_controller_with_html_expander';
+<<<<<<< HEAD
+=======
+import { getHtmlFieldMetadata, setHtmlFieldMetadata } from "@html_editor/fields/html_field";
+>>>>>>> upstream/18.0
 
 export const subTaskDeleteConfirmationMessage = _t(
     `Deleting a task will also delete its associated sub-tasks. \
@@ -81,7 +85,12 @@ export class ProjectTaskFormController extends FormControllerWithHTMLExpander {
                         body: _t("Restoring will replace the current content with the selected version. Any unsaved changes will be lost."),
                         confirm: () => {
                             const restoredData = {};
+<<<<<<< HEAD
                             restoredData[versionedFieldName] = html;
+=======
+                            const contentMetadata = getHtmlFieldMetadata(record.data[versionedFieldName]);
+                            restoredData[versionedFieldName] = setHtmlFieldMetadata(html, contentMetadata);
+>>>>>>> upstream/18.0
                             record.update(restoredData);
                             close();
                         },

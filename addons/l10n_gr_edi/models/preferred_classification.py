@@ -563,6 +563,7 @@ INVOICE_TYPES_SELECTION = [
 
 CLASSIFICATION_CATEGORY_SELECTION = [
     # Income classification categories
+<<<<<<< HEAD
     ('category1_1', 'category1_1 - Commodity Sale Income (+)/(-)'),
     ('category1_2', 'category1_2 - Product Sale Income (+)/(-)'),
     ('category1_3', 'category1_3 - Provision of Services Income (+)/(-)'),
@@ -591,6 +592,36 @@ CLASSIFICATION_CATEGORY_SELECTION = [
     ('category2_13', 'category2_13 - Stock at Period Start (+)/(-)'),
     ('category2_14', 'category2_14 - Stock at Period End (+)/(-)'),
     ('category2_95', 'category2_95 - Other Expense-related Information (+)/(-)'),
+=======
+    ('category1_1', '1.1 - Commodity Sale Income'),
+    ('category1_2', '1.2 - Product Sale Income'),
+    ('category1_3', '1.3 - Provision of Services Income'),
+    ('category1_4', '1.4 - Sale of Fixed Assets Income'),
+    ('category1_5', '1.5 - Other Income/Profits'),
+    ('category1_6', '1.6 - Self-Deliveries/Self-Supplies'),
+    ('category1_7', '1.7 - Income on behalf of Third Parties'),
+    ('category1_8', '1.8 - Past fiscal years income'),
+    ('category1_9', '1.9 - Future fiscal years income'),
+    ('category1_10', '1.10 - Other Income Adjustment/Regularisation Entries'),
+    ('category1_95', '1.95 - Other Income-related Information'),
+
+    # Expense classification categories
+    ('category2_1', '2.1 - Commodity Purchases'),
+    ('category2_2', '2.2 - Raw and Adjuvant Material Purchases'),
+    ('category2_3', '2.3 - Services Receipt'),
+    ('category2_4', '2.4 - General Expenses Subject to VAT Deduction'),
+    ('category2_5', '2.5 - General Expenses Not Subject to VAT Deduction'),
+    ('category2_6', '2.6 - Personnel Fees and Benefits'),
+    ('category2_7', '2.7 - Fixed Asset Purchases'),
+    ('category2_8', '2.8 - Fixed Asset Amortisations'),
+    ('category2_9', '2.9 - Expenses on behalf of Third Parties'),
+    ('category2_10', '2.10 - Past fiscal years expenses'),
+    ('category2_11', '2.11 - Future fiscal years expenses'),
+    ('category2_12', '2.12 - Other Expense Adjustment/Regularisation Entries'),
+    ('category2_13', '2.13 - Stock at Period Start'),
+    ('category2_14', '2.14 - Stock at Period End'),
+    ('category2_95', '2.95 - Other Expense-related Information'),
+>>>>>>> upstream/18.0
 ]
 
 CLASSIFICATION_TYPE_SELECTION = [
@@ -859,6 +890,7 @@ class PreferredClassification(models.Model):
     priority = fields.Integer(string='Priority', default=1)
     l10n_gr_edi_inv_type = fields.Selection(
         selection=INVOICE_TYPES_SELECTION,
+<<<<<<< HEAD
         string='MyDATA Invoice Type',
     )
     l10n_gr_edi_cls_category = fields.Selection(
@@ -868,6 +900,17 @@ class PreferredClassification(models.Model):
     l10n_gr_edi_cls_type = fields.Selection(
         selection=CLASSIFICATION_TYPE_SELECTION,
         string='MyDATA Type',
+=======
+        string='Invoice Type',
+    )
+    l10n_gr_edi_cls_category = fields.Selection(
+        selection=CLASSIFICATION_CATEGORY_SELECTION,
+        string='myDATA Category',
+    )
+    l10n_gr_edi_cls_type = fields.Selection(
+        selection=CLASSIFICATION_TYPE_SELECTION,
+        string='myDATA Type',
+>>>>>>> upstream/18.0
     )
 
     l10n_gr_edi_available_inv_type = fields.Char(default=','.join(CLASSIFICATION_MAP.keys()))

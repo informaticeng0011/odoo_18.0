@@ -1,17 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* sale_management
+=======
+# * sale_management
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Uros Kalajdzic <ukalajdzic@gmail.com>, 2022
 # Martin Trigaux, 2022
+<<<<<<< HEAD
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022
 #
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-03 08:43+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2022-09-22 05:54+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, "
 "2022\n"
@@ -22,21 +31,46 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+=======
+"PO-Revision-Date: 2025-08-08 07:47+0000\n"
+"Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
+"Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
+"odoo-18/sale_management/sr_Latn/>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.report_saleorder_document_inherit_sale_management
 msgid "1.5"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1,5"
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_portal_content_inherit_sale_management
 msgid "<span class=\"btn btn-secondary\">Add to order</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"btn btn-secondary\">Dodaj na porudžbinu</span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
 msgid "<span invisible=\"not require_payment\">of</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"not require_payment\">od</span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.report_saleorder_document_inherit_sale_management
@@ -215,7 +249,11 @@ msgstr "Nema pristup, preskočite ove podatke za korisnički email pregled"
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.report_saleorder_document_inherit_sale_management
 msgid "Extra Chips"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Više čipsa"
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model:ir.model.constraint,message:sale_management.constraint_sale_order_template_line_non_accountable_fields_null
@@ -253,6 +291,11 @@ msgid ""
 "If set, SO with this template will invoice in this journal; otherwise the "
 "sales journal with the lowest sequence is used."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ako je podešeno, porudžbenice sa ovim šablonom će se fakturisati u ovom "
+"dnevniku; u suprotnom se koristi dnevnik prodaje sa najnižim redosledom."
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model:ir.model.fields,help:sale_management.field_sale_order_template__active
@@ -266,7 +309,11 @@ msgstr ""
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_template__journal_id
 msgid "Invoicing Journal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dnevnik knjiženja faktura"
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_digest_digest__kpi_all_sale_total_value
@@ -276,7 +323,11 @@ msgstr "Kpi Ukupna vrednost svih prodaja"
 #. module: sale_management
 #: model:sale.order.template.line,name:sale_management.sale_order_template_line_1
 msgid "Large Meeting Table"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Veliki sto za sastanke"
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_option__write_uid
@@ -359,13 +410,21 @@ msgstr "Opcije"
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_template__prepayment_percent
 msgid "Prepayment percentage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Procenat avansne uplate"
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #. odoo-python
 #: code:addons/sale_management/models/sale_order_template.py:0
 msgid "Prepayment percentage must be a valid percentage."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Procenat iznosa avansne uplate mora biti važeći procenat."
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_option__is_present
@@ -439,7 +498,11 @@ msgstr "Šabloni ponude"
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
 msgid "Quotation Validity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Važenje ponude"
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_portal_content_inherit_sale_management
@@ -562,7 +625,11 @@ msgstr ""
 #. module: sale_management
 #: model:ir.model.fields,help:sale_management.field_sale_order_template__prepayment_percent
 msgid "The percentage of the amount needed to be paid to confirm quotations."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Procenat iznosa koji je potrebno platiti za potvrdu ponuda."
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model:ir.model.fields,help:sale_management.field_sale_order_template__mail_template_id

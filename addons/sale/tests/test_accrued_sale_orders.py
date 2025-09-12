@@ -147,9 +147,13 @@ class TestAccruedSaleOrders(AccountTestInvoicingCommon):
             'amount': 50.0,
         }
         downpayment = self.env['sale.advance.payment.inv'].with_context(so_context).create(payment_params)
+<<<<<<< HEAD
         invoice = downpayment._create_invoices({
             'sale_orders': so_context,
         })
+=======
+        invoice = downpayment._create_invoices(self.sale_order)
+>>>>>>> upstream/18.0
         invoice.invoice_date = self.wizard.date
         invoice.action_post()
         self.wizard.create_entries()

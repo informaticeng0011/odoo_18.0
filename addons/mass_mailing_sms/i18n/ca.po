@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* mass_mailing_sms
 # 
+=======
+# * mass_mailing_sms
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Albert Parera, 2024
 # RGB Consulting <odoo@rgbconsulting.com>, 2024
@@ -22,11 +27,16 @@
 # Jonatan Gk, 2024
 # Ivan Espinola, 2025
 # Noemi Pla, 2025
+<<<<<<< HEAD
 # 
+=======
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,24 +278,49 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"POT-Creation-Date: 2025-09-05 18:39+0000\n"
+"PO-Revision-Date: 2025-09-05 22:20+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
+"Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
+"mass_mailing_sms/ca/>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-javascript
 #: code:addons/mass_mailing_sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid " (including link trackers and opt-out link)"
 msgstr ""
+<<<<<<< HEAD
+=======
+" (incloent-hi els rastrejadors d'enllaços i l'enllaç per donar-se de baixa)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-javascript
 #: code:addons/mass_mailing_sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid " (including link trackers)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (incloent-hi els rastrejadors d'enllaços)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-javascript
 #: code:addons/mass_mailing_sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid " (including opt-out link)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (incloent-hi l'enllaç de cancel·lació de la subscripció)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_sms_test_view_form
@@ -335,13 +370,26 @@ msgid ""
 "<span name=\"next_departure_text\" invisible=\"mailing_type != 'sms'\">This "
 "SMS marketing is scheduled for </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span name=\"next_departure_text\" invisible=\"mailing_type != "
+"'sms'\">Aquesta campanya de màrqueting per SMS està programada per al </span>"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
+<<<<<<< HEAD
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text"
 " Messages are being processed.</span>"
 msgstr ""
+=======
+"<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
+"Messages are being processed.</span>"
+msgstr ""
+"<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">S'estan "
+"processant els missatges SMS de text.</span>"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
@@ -371,22 +419,42 @@ msgstr "<span>Destinatàris vàlids SMS</span>"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 "<strong>\n"
+<<<<<<< HEAD
 "                            It appears you don't have enough IAP credits. Click here to buy credits.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "                            Sembla que no tens prou crèdits IAP. Feu clic aquí per comprar crèdits.\n"
+=======
+"                            It appears you don't have enough IAP credits. "
+"Click here to buy credits.\n"
+"                        </strong>"
+msgstr ""
+"<strong>\n"
+"                            Sembla que no tens prou crèdits IAP. Feu clic "
+"aquí per comprar crèdits.\n"
+>>>>>>> upstream/18.0
 "                        </strong>"
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 "<strong>\n"
+<<<<<<< HEAD
 "                            It appears your SMS account is not registered. Click here to set up your account.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "                            Sembla que el vostre compte SMS no està registrat. Feu clic aquí per configurar el vostre compte.\n"
+=======
+"                            It appears your SMS account is not registered. "
+"Click here to set up your account.\n"
+"                        </strong>"
+msgstr ""
+"<strong>\n"
+"                            Sembla que el vostre compte SMS no està "
+"registrat. Feu clic aquí per configurar el vostre compte.\n"
+>>>>>>> upstream/18.0
 "                        </strong>"
 
 #. module: mass_mailing_sms
@@ -457,8 +525,13 @@ msgid ""
 "Blacklist through SMS Marketing unsubscribe (mailing ID: %(mailing_id)s - "
 "model: %(model)s)"
 msgstr ""
+<<<<<<< HEAD
 "Llista negra a través de SMS Màrqueting de baixa (ID de correu: "
 "%(mailing_id)s - model: %(model)s)"
+=======
+"Llista negra a través de SMS Màrqueting de baixa (ID de correu: %"
+"(mailing_id)s - model: %(model)s)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_blacklist
@@ -636,8 +709,15 @@ msgid ""
 "For an Email, Subject your Recipients will see in their inbox.\n"
 "                    For an SMS Text Message, internal Title of the Message."
 msgstr ""
+<<<<<<< HEAD
 "Per a un correu electrònic, Assumpte que els vostres destinataris veuran a la seva safata d'entrada.\n"
 "                    Per a un missatge de text SMS, el títol intern del missatge."
+=======
+"Per a un correu electrònic, Assumpte que els vostres destinataris veuran a "
+"la seva safata d'entrada.\n"
+"                    Per a un missatge de text SMS, el títol intern del "
+"missatge."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_mailing__sms_subject
@@ -645,7 +725,12 @@ msgid ""
 "For an email, the subject your recipients will see in their inbox.\n"
 "For an SMS, the internal title of the message."
 msgstr ""
+<<<<<<< HEAD
 "Per a un correu electrònic, l'assumpte que els destinataris veuran a la seva safata d'entrada.\n"
+=======
+"Per a un correu electrònic, l'assumpte que els destinataris veuran a la seva "
+"safata d'entrada.\n"
+>>>>>>> upstream/18.0
 "Per a un SMS, el títol intern del missatge."
 
 #. module: mass_mailing_sms
@@ -678,8 +763,13 @@ msgstr "Si està marcat, alguns missatges tenen un error d'entrega."
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 msgstr ""
 "Si el número de telèfon sanejat està en la llista negra, el contacte no "
 "rebrà més sms de correu massiu, de cap llista"
@@ -687,11 +777,18 @@ msgstr ""
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_mailing__sms_force_send
 msgid ""
+<<<<<<< HEAD
 "Immediately send the SMS Mailing instead of queuing up. Use at your own "
 "risk."
 msgstr ""
 "Envia immediatament el SMS Mailing en lloc de fer cua. Utilitza sota la teva"
 " pròpia responsabilitat."
+=======
+"Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
+msgstr ""
+"Envia immediatament el SMS Mailing en lloc de fer cua. Utilitza sota la teva "
+"pròpia responsabilitat."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_allow_unsubscribe
@@ -880,8 +977,13 @@ msgstr "Encara no hi han dades!"
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_list_action_sms
 msgid ""
+<<<<<<< HEAD
 "No need to import mailing lists, you can send SMS to contacts saved in other"
 " Odoo apps."
+=======
+"No need to import mailing lists, you can send SMS to contacts saved in other "
+"Odoo apps."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mass_mailing_sms
@@ -939,8 +1041,13 @@ msgstr "Nombre(s)"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
+<<<<<<< HEAD
 "Once you send these text messages, they'll be making a grand entrance in all"
 " pockets, creating quite the bzzzzz!"
+=======
+"Once you send these text messages, they'll be making a grand entrance in all "
+"pockets, creating quite the bzzzzz!"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mass_mailing_sms
@@ -1211,7 +1318,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1388,6 +1498,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1532,7 +1645,11 @@ msgstr "Provar tramesa SMS"
 #. module: mass_mailing_sms
 #. odoo-python
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
+<<<<<<< HEAD
 msgid "Test SMS could not be sent to %(destination)s: %(state)s"
+=======
+msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mass_mailing_sms
@@ -1653,8 +1770,12 @@ msgstr "Selecció guanyadora"
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_mailing_action_sms
 msgid ""
+<<<<<<< HEAD
 "Write an appealing SMS Text Message, define recipients and track its "
 "results."
+=======
+"Write an appealing SMS Text Message, define recipients and track its results."
+>>>>>>> upstream/18.0
 msgstr ""
 "Escriu un missatge de text SMS atractiu, defineix els destinataris i fa un "
 "seguiment dels seus resultats."

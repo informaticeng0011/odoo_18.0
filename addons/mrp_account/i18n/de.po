@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* mrp_account
 # 
 # Translators:
@@ -336,10 +337,20 @@
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * mrp_account
+#
+# Translators:
+# Larissa Manderfeld, 2024
+# Wil Odoo, 2025
+#
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -745,6 +756,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"POT-Creation-Date: 2025-08-29 18:37+0000\n"
+"PO-Revision-Date: 2025-09-01 21:17+0000\n"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
+"Language-Team: German <https://translate.odoo.com/projects/odoo-18/"
+"mrp_account/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.report_wip
@@ -763,6 +787,15 @@ msgid "%s - Labour"
 msgstr "%s - Arbeit"
 
 #. module: mrp_account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mrp_account/models/stock_move.py:0
+msgid "%s - Unbuild Cost Difference"
+msgstr "%s - Differenz der Demontagekosten"
+
+#. module: mrp_account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp_account.report_wip
 msgid "2023-08-15"
 msgstr "15-08-2023"
@@ -1066,11 +1099,18 @@ msgstr "Zeile der Kostenstelle bei Fertigungsaufträgen"
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
+<<<<<<< HEAD
 msgid ""
 "Please make sure the total credit amount equals the total debit amount."
 msgstr ""
 "Bitte stellen Sie sicher, dass der Gesamtbetrag im Haben dem Gesamtbetrag im"
 " Soll entspricht."
+=======
+msgid "Please make sure the total credit amount equals the total debit amount."
+msgstr ""
+"Bitte stellen Sie sicher, dass der Gesamtbetrag im Haben dem Gesamtbetrag im "
+"Soll entspricht."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_wip_accounting_form
@@ -1156,6 +1196,7 @@ msgid "Stock Move"
 msgstr "Lagerbuchung"
 
 #. module: mrp_account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1554,6 +1595,8 @@ msgstr "Bestandsbewertungsebene"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp_account.field_account_bank_statement_line__wip_production_ids
 #: model:ir.model.fields,help:mrp_account.field_account_move__wip_production_ids
 msgid ""
@@ -1566,9 +1609,15 @@ msgstr ""
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_mrp_workcenter__expense_account_id
 msgid ""
+<<<<<<< HEAD
 "The expense is accounted for when the manufacturing order is marked as done."
 " If not set, it is the expense account of the final product that will be "
 "used instead."
+=======
+"The expense is accounted for when the manufacturing order is marked as done. "
+"If not set, it is the expense account of the final product that will be used "
+"instead."
+>>>>>>> upstream/18.0
 msgstr ""
 "Die Ausgabe wird verbucht, wenn der Fertigungsauftrag als erledigt markiert "
 "wird. Ist dies nicht der Fall, wird stattdessen das Aufwandskonto des "
@@ -1577,11 +1626,23 @@ msgstr ""
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_product_category__property_stock_account_production_cost_id
 msgid ""
+<<<<<<< HEAD
 "This account will be used as a valuation counterpart for both components and final products for manufacturing orders.\n"
 "                If there are any workcenter/employee costs, this value will remain on the account once the production is completed."
 msgstr ""
 "Dieses Konto wird als Bewertungsgegenstück für sowohl Komponenten und Endprodukte für Fertigungsaufträge verwendet\n"
 "                Wenn es Kosten für Arbeitsplätze/Mitarbeiter gibt, bleibt dieser Wert auf dem Konto, sobald die Produktion abgeschlossen ist."
+=======
+"This account will be used as a valuation counterpart for both components and "
+"final products for manufacturing orders.\n"
+"                If there are any workcenter/employee costs, this value will "
+"remain on the account once the production is completed."
+msgstr ""
+"Dieses Konto wird als Bewertungsgegenstück für sowohl Komponenten und "
+"Endprodukte für Fertigungsaufträge verwendet\n"
+"                Wenn es Kosten für Arbeitsplätze/Mitarbeiter gibt, bleibt "
+"dieser Wert auf dem Konto, sobald die Produktion abgeschlossen ist."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_wip_accounting_form
@@ -1688,3 +1749,9 @@ msgstr "Produktivitätsprotokoll des Arbeitsplatzes"
 #: code:addons/mrp_account/models/mrp_workorder.py:0
 msgid "[WC] %s"
 msgstr "[WC] %s"
+<<<<<<< HEAD
+=======
+
+#~ msgid "Stock Valuation Layer"
+#~ msgstr "Bestandsbewertungsebene"
+>>>>>>> upstream/18.0

@@ -1,9 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* survey
 # 
 # Translators:
 # Luka Carević <luka@uvid.hr>, 2024
+=======
+# * survey
+#
+# Translators:
+>>>>>>> upstream/18.0
 # Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2024
 # Vojislav Opačić <vojislav.opacic@gmail.com>, 2024
 # Ana-Maria Olujić <ana-maria.olujic@slobodni-programi.hr>, 2024
@@ -18,12 +24,20 @@
 # Igor Krizanovic <krizanovic.igor@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Bole <bole@dajmi5.com>, 2025
+<<<<<<< HEAD
 # 
+=======
+# Ivica Dimjašević, 2025
+# Luka Carević <luka@uvid.hr>, 2025
+# Alen Komljen <alen@uvid.hr>, 2025.
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Bole <bole@dajmi5.com>, 2025\n"
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
@@ -32,16 +46,37 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-08-28 08:59+0000\n"
+"Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/survey/"
+"hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__question_count
 msgid "# Questions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Pitanja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__random_questions_count
 msgid "# Questions Randomly Picked"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Nasumično odabrana pitanja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_1_choice_4
@@ -211,6 +246,12 @@ msgid ""
 "<br/>\n"
 "                                    <span class=\"text-muted\">Completed</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                    <span class=\"text-muted\""
+">Završeno</span>"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
@@ -218,6 +259,12 @@ msgid ""
 "<br/>\n"
 "                                    <span class=\"text-muted\">Registered</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                    <span class=\"text-muted\""
+">Registrirano</span>"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
@@ -390,6 +437,11 @@ msgid ""
 "<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\" id=\"enter-"
 "tooltip\"> or press CTRL+Enter</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\" id=\"enter-"
+"tooltip\"> ili pritisnite CTRL+Enter</span>"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_in_progress
@@ -406,6 +458,12 @@ msgid ""
 "                    <span id=\"enter-tooltip\">or press CTRL+Enter</span>\n"
 "                </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\">\n"
+"                    <span id=\"enter-tooltip\">ili pritisnite CTRL+Enter</span>\n"
+"                </span>"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
@@ -466,12 +524,20 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid "<span class=\"text-break text-muted\">Completed</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-break text-muted\">Završeno</span>"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid "<span class=\"text-break text-muted\">Registered</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-break text-muted\">Registrirano</span>"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
@@ -581,7 +647,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_button_retake
 msgid "<span>Number of attempts left</span>:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Broj pokušaja</span>:"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:survey.question,description:survey.survey_demo_quiz_p2_q1
@@ -638,7 +708,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "<span>Which is yellow?</span><br/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Koja je žuta?</span><br/>"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
@@ -723,7 +797,11 @@ msgstr "O sebi"
 #: model:ir.model.fields,field_description:survey.field_survey_invite__survey_access_mode
 #: model:ir.model.fields,field_description:survey.field_survey_survey__access_mode
 msgid "Access Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Način pristupa"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__access_token
@@ -773,7 +851,11 @@ msgstr "Ikona tipa aktivnosti"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Add a question"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodajte pitanje"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
@@ -793,7 +875,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__emails
 msgid "Additional emails"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodatne e-adrese"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:res.groups,name:survey.group_survey_manager
@@ -834,7 +920,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__questions_selection__all
 msgid "All questions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sva pitanja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_results_filters
@@ -849,7 +939,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Allow Roaming"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dozvoli roaming"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__allowed_triggering_question_ids
@@ -901,7 +995,11 @@ msgstr "Tip odgovora"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__deadline
 msgid "Answer deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Krajnji rok za odgovor"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question_answer__value_label
@@ -975,7 +1073,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__survey_type__assessment
 #: model_terms:ir.actions.act_window,help:survey.action_survey_form
 msgid "Assessment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evaluacija"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__message_attachment_count
@@ -992,18 +1094,30 @@ msgstr "Prilozi"
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__attempts_number
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_form
 msgid "Attempt n°"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokušaj br.°"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__answer_done_count
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_form
 msgid "Attempts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokušaji"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__attempts_count
 msgid "Attempts Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj pokušaja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_user_input__nickname
@@ -1048,7 +1162,11 @@ msgstr "Prosjek"
 #: model:ir.model.fields,field_description:survey.field_survey_survey__answer_duration_avg
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_inner
 msgid "Average Duration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosječno trajanje"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_inner
@@ -1063,7 +1181,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__answer_score_avg
 msgid "Avg Score (%)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosječni rezultat (%)"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q1_sug3
@@ -1169,12 +1291,20 @@ msgstr "Certificiranje"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__certification_badge_id
 msgid "Certification Badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Značka certifikata"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__certification_badge_id_dummy
 msgid "Certification Badge "
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Značka certifikata "
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-python
@@ -1195,7 +1325,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__certification_report_layout
 msgid "Certification template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predložak certifikata"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:mail.template,subject:survey.mail_template_certification
@@ -1223,12 +1357,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid "Certified"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Certificiran"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__certification_mail_template_id
 msgid "Certified Email Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predložak certificiranog emaila"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_1_question_2_choice_1
@@ -1281,17 +1423,29 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__certification_report_layout__classic_blue
 msgid "Classic Blue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klasična plava"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__certification_report_layout__classic_gold
 msgid "Classic Gold"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klasična zlatna"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__certification_report_layout__classic_purple
 msgid "Classic Purple"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klasična ljubičasta"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q6_row3
@@ -1313,7 +1467,11 @@ msgstr "Zatvori"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Close Live Session"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zatvorite sesiju uživo"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_1_question_3_choice_1
@@ -1347,12 +1505,20 @@ msgstr "Komentar"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__comments_message
 msgid "Comment Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poruka komentara"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__comment_count_as_answer
 msgid "Comment is an answer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Komentar je odgovor"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_res_partner__certifications_company_count
@@ -1386,7 +1552,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Conditional display"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvjetni prikaz"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-javascript
@@ -1394,7 +1564,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid ""
 "Conditional display is not available when questions are randomly picked."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvjetni prikaz nije dostupan kada se pitanja biraju nasumično."
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_1_question_2_choice_3
@@ -1491,7 +1665,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__answer_date
 msgid "Correct date answer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Točan odgovor s datumom"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__answer_date
@@ -1501,7 +1679,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__answer_datetime
 msgid "Correct datetime answer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Točan odgovor s datumom i vremenom"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__answer_numerical_box
@@ -1526,7 +1708,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Create Live Session"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirajte sesiju uživo"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_form
@@ -1584,17 +1770,29 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_question_id
 msgid "Current Question"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trenutno pitanje"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_question_start_time
 msgid "Current Question Start Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrijeme početka trenutnog pitanja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_start_time
 msgid "Current Session Start Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrijeme početka trenutne sesije"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__is_time_limited
@@ -1627,7 +1825,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__is_time_customized
 msgid "Customized speed rewards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilagođene nagrade za brzinu"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
@@ -1654,7 +1856,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line__value_datetime
 msgid "Datetime answer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum i vrijeme odgovora"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_user_input__deadline
@@ -1679,7 +1885,11 @@ msgstr "Definirajte vidljivost izazova po izbornicima"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid "Delete"
+<<<<<<< HEAD
 msgstr "Briši"
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__description
@@ -1698,7 +1908,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:survey.survey_user_input_line_action
 #: model:ir.ui.menu,name:survey.menu_survey_response_line_form
 msgid "Detailed Answers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detaljni odgovori"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q2_col2
@@ -1718,7 +1932,11 @@ msgstr "Naziv za prikaz"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__progression_mode
 msgid "Display Progress as"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži napredak kao"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-javascript
@@ -1779,7 +1997,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid "Edit Survey"
+<<<<<<< HEAD
 msgstr "Edit Survey"
+=======
+msgstr "Uredi anketu"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_void_content
@@ -1795,18 +2017,30 @@ msgstr "Email"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid "End Live Session"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Završite sesiju uživo"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__description_done
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "End Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Završna poruka"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__end_datetime
 msgid "End date and time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum i vrijeme završetka"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-javascript
@@ -1817,7 +2051,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_session_code
 msgid "Enter Session Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unesite šifru sesije"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__constr_error_msg
@@ -1837,7 +2075,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_search
 msgid "Exclude Tests"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isključi testove"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__existing_partner_ids
@@ -1983,7 +2225,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__certification_give_badge
 msgid "Give Badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodijeli značku"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p2_q3
@@ -2312,7 +2558,11 @@ msgstr "Slika"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_answer__value_image_filename
 msgid "Image Filename"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime datoteke slike"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-javascript
@@ -2370,7 +2620,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__validation_email
 msgid "Input must be an email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unos mora biti e-pošta"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-javascript
@@ -2381,7 +2635,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__invite_token
 msgid "Invite token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token za poziv"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__access_mode__token
@@ -2403,17 +2661,29 @@ msgstr "Je li pratitelj"
 #: model:ir.model.fields,field_description:survey.field_survey_survey__certification
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
 msgid "Is a Certification"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je certifikat"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__is_page
 msgid "Is a page?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je li stranica?"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__is_session_answer
 msgid "Is in a Session"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je u sesiji"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__is_placed_before_trigger
@@ -2423,7 +2693,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
 msgid "Is not a Certification"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije certifikat"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_user_input__is_session_answer
@@ -2542,7 +2816,11 @@ msgstr "Oznaka"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_answer__sequence
 msgid "Label Sequence order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redoslijed oznaka"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__matrix_row_ids
@@ -2589,7 +2867,11 @@ msgstr "Promijenjeno"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__last_displayed_page_id
 msgid "Last displayed question/page"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnje prikazano pitanje/stranica"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
@@ -2655,13 +2937,21 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Limit Attempts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ograničite pokušaje"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__is_attempts_limited
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__is_attempts_limited
 msgid "Limited number of attempts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ograničen broj pokušaja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-python
@@ -2669,7 +2959,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:survey.action_survey_form
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Live Session"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sesija uživo"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__session_available
@@ -2679,17 +2973,29 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Live Sessions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sesije uživo"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__survey_type__live_session
 msgid "Live session"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sesija uživo"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_available
 msgid "Live session available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sesija uživo dostupna"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-javascript
@@ -2726,7 +3032,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__matrix_subtype
 msgid "Matrix Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta matrice"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_question_validation_date
@@ -2762,7 +3072,11 @@ msgstr "Maksimalni datum"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__validation_max_datetime
 msgid "Maximum Datetime"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najkasniji datum i vrijeme"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__validation_length_max
@@ -2815,7 +3129,11 @@ msgstr "Minimalni datum"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__validation_min_datetime
 msgid "Minimum Datetime"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najraniji datum i vrijeme"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__validation_length_min
@@ -2830,17 +3148,29 @@ msgstr "Minimalna vrijednost"
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__certification_report_layout__modern_blue
 msgid "Modern Blue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderna plava"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__certification_report_layout__modern_gold
 msgid "Modern Gold"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderna zlatna"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__certification_report_layout__modern_purple
 msgid "Modern Purple"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderna ljubičasta"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q2_sug3
@@ -2870,7 +3200,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_question__question_type__text_box
 msgid "Multiple Lines Text Box"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tekstualno polje s više redaka"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -2986,7 +3320,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__nickname
 msgid "Nickname"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadimak"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_food_preferences_q1_sug2
@@ -3010,7 +3348,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:survey.action_survey_user_input
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid "No answers yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Još nema odgovora!"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-python
@@ -3026,7 +3368,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__scoring_type__no_scoring
 msgid "No scoring"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema bodovanja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.survey_question_answer_action
@@ -3036,7 +3382,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.survey_user_input_line_action
 msgid "No user input lines found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nisu pronađene linije unosa korisnika"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q3_sug2
@@ -3087,7 +3437,11 @@ msgstr "Broj akcija"
 #: model:ir.model.fields,field_description:survey.field_survey_survey__attempts_limit
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__attempts_limit
 msgid "Number of attempts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj pokušaja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_1_question_3_choice_5
@@ -3204,17 +3558,29 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__questions_layout__page_per_question
 msgid "One page per question"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedna stranica po pitanju"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__questions_layout__page_per_section
 msgid "One page per section"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedna stranica po odjeljku"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__questions_layout__one_page
 msgid "One page with all the questions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedna stranica sa svim pitanjima"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-javascript
@@ -3262,7 +3628,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Optional previous answers required"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opcionalno potrebni prethodni odgovori"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_invite__lang
@@ -3299,7 +3669,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__mail_server_id
 msgid "Outgoing mail server"
+<<<<<<< HEAD
 msgstr "Izlazni poslužitelj e-pošte"
+=======
+msgstr "Poslužitelj odlazne e-pošte"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-javascript
@@ -3325,7 +3699,11 @@ msgstr "Pages"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__questions_layout
 msgid "Pagination"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Raspored stranica"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q2_sug4
@@ -3359,7 +3737,11 @@ msgstr ""
 #. module: survey
 #: model:mail.template,subject:survey.mail_template_user_input_invite
 msgid "Participate to {{ object.survey_id.display_name }} survey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sudjelujte u {{ object.survey_id.display_name }} anketi"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:mail.message.subtype,name:survey.mt_survey_survey_user_input_completed
@@ -3377,7 +3759,11 @@ msgstr ""
 #: model:ir.ui.menu,name:survey.menu_survey_type_form1
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Participations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sudjelovanja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_search
@@ -3408,7 +3794,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__progression_mode__percent
 msgid "Percentage left"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preostali postotak"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-javascript
@@ -3429,17 +3819,29 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Pick a Badge..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite značku..."
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Pick a Style..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite stil..."
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Pick a Template..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite predložak..."
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p1_q1
@@ -3513,7 +3915,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__predefined_question_ids
 msgid "Predefined Questions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predefinirana pitanja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
@@ -3523,7 +3929,11 @@ msgstr "Pregled"
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_2
 msgid "Prices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cijene"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_header
@@ -3539,7 +3949,11 @@ msgstr ""
 #. module: survey
 #: model:ir.actions.server,name:survey.action_survey_print
 msgid "Print Survey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ispiši Anketu"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_1
@@ -3567,7 +3981,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_answer__matrix_question_id
 msgid "Question (as matrix row)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pitanje (kao redak matrice)"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_answer_view_form
@@ -3583,7 +4001,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:survey.field_survey_question__questions_selection
 #: model:ir.model.fields,field_description:survey.field_survey_survey__questions_selection
 msgid "Question Selection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odabir pitanja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__question_time_limit_reached
@@ -3594,7 +4016,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:survey.field_survey_question__question_type
 #: model:ir.model.fields,field_description:survey.field_survey_question_answer__question_type
 msgid "Question Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta pitanja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-python
@@ -3615,7 +4041,11 @@ msgstr "Pitanja"
 #. module: survey
 #: model:ir.ui.menu,name:survey.survey_menu_questions
 msgid "Questions & Answers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pitanja & odgovori"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__triggering_question_ids
@@ -3632,12 +4062,20 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__scoring_success
 msgid "Quizz Passed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kviz prošao"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_search
 msgid "Quizz passed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kviz prošao"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-javascript
@@ -3648,7 +4086,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__questions_selection__random
 msgid "Randomized per Section"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nasumično po odjeljku"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-python
@@ -3694,7 +4136,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_inner
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Registered"
+<<<<<<< HEAD
 msgstr "Registriran"
+=======
+msgstr "Registrirano"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__render_model
@@ -3710,12 +4156,20 @@ msgstr "Ponovo otvori"
 #: model:ir.model.fields,field_description:survey.field_survey_invite__survey_users_login_required
 #: model:ir.model.fields,field_description:survey.field_survey_survey__users_login_required
 msgid "Require Login"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrebna prijava"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__scoring_success_min
 msgid "Required Score (%)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potreban rezultat (%)"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__existing_text
@@ -3747,7 +4201,11 @@ msgstr "Odgovorna osoba"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__restrict_user_ids
 msgid "Restricted to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ograničeno na"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_button_retake
@@ -3762,7 +4220,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_speed_rating
 msgid "Reward quick answers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nagradi brze odgovore"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.gamification_badge_form_view_simplified
@@ -3772,7 +4234,11 @@ msgstr "Nagrade za izazove"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line__matrix_row_id
 msgid "Row answer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Red odgovora"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -3808,12 +4274,20 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__save_as_email
 msgid "Save as user email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spremi kao korisnički e-mail"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__save_as_nickname
 msgid "Save as user nickname"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spremi kao korisnički nadimak"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_question__question_type__scale
@@ -3824,12 +4298,20 @@ msgstr "Razmjer"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__scale_max_label
 msgid "Scale Maximum Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka maksimalne vrijednosti skale"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__scale_max
 msgid "Scale Maximum Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maksimalna vrijednost skale"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -3839,17 +4321,29 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__scale_mid_label
 msgid "Scale Middle Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Srednja oznaka skale"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__scale_min_label
 msgid "Scale Minimum Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka minimalne vrijednosti skale"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__scale_min
 msgid "Scale Minimum Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Minimalna vrijednost skale"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -3859,7 +4353,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line__value_scale
 msgid "Scale value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrijednost ljestvice"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p4
@@ -3880,7 +4378,11 @@ msgstr "Rezultat"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__scoring_percentage
 msgid "Score (%)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rezultat (%)"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__answer_score
@@ -3896,28 +4398,48 @@ msgstr ""
 #: model:ir.model.fields,field_description:survey.field_survey_survey__scoring_type
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__scoring_type
 msgid "Scoring"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovanje"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__scoring_type
 #: model:ir.model.fields,field_description:survey.field_survey_question_answer__scoring_type
 msgid "Scoring Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta bodovanja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__scoring_type__scoring_with_answers_after_page
 msgid "Scoring with answers after each page"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovanje s odgovorima nakon svake stranice"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__scoring_type__scoring_with_answers
 msgid "Scoring with answers at the end"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovanje s odgovorima na kraju"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__scoring_type__scoring_without_answers
 msgid "Scoring without answers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovanje bez odgovora"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_answer_view_search
@@ -3954,7 +4476,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid "See results"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pogledajte rezultate"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:survey.survey,description_done:survey.survey_demo_food_preferences
@@ -4015,7 +4541,11 @@ msgstr "Sekvenca"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_code
 msgid "Session Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šifra sesije"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_link
@@ -4025,7 +4555,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_state
 msgid "Session State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stanje sesije"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_session_code_unique
@@ -4047,7 +4581,11 @@ msgstr "Podjeli"
 #. odoo-python
 #: code:addons/survey/models/survey_survey.py:0
 msgid "Share a Survey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podijelite anketu"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.question_table_pagination
@@ -4102,7 +4640,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_question__question_type__char_box
 msgid "Single Line Text Box"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tekstni okvir s jednim redom"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-python
@@ -4110,7 +4652,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line__skipped
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_print
 msgid "Skipped"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preskočeno"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q3_sug2
@@ -4198,7 +4744,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid "Start Live Session"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokrenite sesiju uživo"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
@@ -4208,7 +4758,11 @@ msgstr "Započni anketu"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__start_datetime
 msgid "Start date and time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum i vrijeme početka"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__state
@@ -4262,7 +4816,11 @@ msgstr "Uspjeh"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__success_ratio
 msgid "Success Ratio (%)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postotak uspješnosti (%)"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_inner
@@ -4273,7 +4831,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:survey.survey_question_answer_action
 #: model:ir.ui.menu,name:survey.menu_survey_label_form1
 msgid "Suggested Values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preporučene vrijednosti"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line__suggested_answer_id
@@ -4334,7 +4896,11 @@ msgstr "Survey Answer Line"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__survey_first_submitted
 msgid "Survey First Submitted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prvo predavanje upitnika"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_gamification_badge__survey_ids
@@ -4373,12 +4939,20 @@ msgstr "Pitanja Upitnika"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Survey Time Limit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremensko ograničenje ankete"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__survey_time_limit_reached
 msgid "Survey Time Limit Reached"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dosegnuto je vremensko ograničenje ankete"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__title
@@ -4388,7 +4962,11 @@ msgstr "Naziv Upitnika"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__survey_type
 msgid "Survey Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta upitnika"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__survey_start_url
@@ -4448,7 +5026,11 @@ msgstr "Test"
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__test_entry
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_form
 msgid "Test Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testni unos"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:survey.question,description:survey.vendor_certification_page_3
@@ -4473,7 +5055,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_search
 msgid "Tests Only"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo testovi"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_user_input_line__answer_type__char_box
@@ -4536,6 +5122,11 @@ msgid ""
 "The attempts limit needs to be a positive number if the survey has a limited"
 " number of attempts."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ograničenje broja pokušaja mora biti pozitivan broj ako upitnik ima "
+"ograničen broj pokušaja."
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_badge_uniq
@@ -4603,7 +5194,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__is_time_limited
 msgid "The question is limited in time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pitanje je vremenski ograničeno"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_question_scale
@@ -4630,7 +5225,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__is_time_limited
 msgid "The survey is limited in time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anketa je vremenski ograničena"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__session_question_start_time
@@ -4644,6 +5243,11 @@ msgstr ""
 msgid ""
 "The time limit needs to be a positive number if the survey is time limited."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vremensko ograničenje mora biti pozitivan broj ako je upitnik vremenski "
+"ograničen."
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q2_row3
@@ -4737,7 +5341,11 @@ msgstr " Odgovor na ovo pitanje je obavezan."
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_print
 msgid "This question was skipped"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovo pitanje je preskočeno"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:survey.question,description:survey.survey_feedback_p1
@@ -4785,7 +5393,11 @@ msgstr "Anketa je samo za registrirane korisnike. Molimo"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Time & Scoring"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrijeme & bodovanje"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
@@ -4795,7 +5407,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Time Limit (seconds)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremensko ograničenje (sekunde)"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__time_limit
@@ -4806,7 +5422,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:survey.field_survey_question__time_limit
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_speed_rating_time_limit
 msgid "Time limit (seconds)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremensko ograničenje (sekunde)"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
@@ -4816,12 +5436,20 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
 msgid "Time limit for this survey:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremensko ograničenje za ovu anketu:"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Time limits are only available for Live Sessions."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremenska ograničenja dostupna su samo za uživo sesije."
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__title
@@ -4878,7 +5506,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__triggering_answer_ids
 msgid "Triggering Answers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokretanje odgovora"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__triggering_question_ids
@@ -5377,6 +6009,11 @@ msgid ""
 "You can share your links through different means: email, invite shortcut, "
 "live presentation, ..."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Možete dijeliti svoje poveznice na različite načine: e-poštom, putem "
+"pozivnice, uživo tijekom prezentacije, ..."
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-python
@@ -5474,7 +6111,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "attempts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pokušaja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-javascript
@@ -5487,21 +6128,37 @@ msgstr "zatvori"
 msgid ""
 "e.g.  'Rick Sanchez' <rick_sanchez@example.com>, hictor_vugo@example.com"
 msgstr ""
+<<<<<<< HEAD
+=======
+"npr.  'Rick Sanchez' <rick_sanchez@example.com>, hictor_vugo@example.com"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "e.g. \"Thank you very much for your feedback!\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"Puno Vam hvala na povratnim informacijama!\""
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "e.g. \"The following Survey will help us...\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"Sljedeća anketa će nam pomoći...\""
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "e.g. \"What is the...\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"Što je...\""
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_session_code
@@ -5511,7 +6168,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "e.g. Guidelines, instructions, picture, ... to help attendees answer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. smjernice, upute, slika, ... za pomoć sudionicima pri odgovaranju"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.gamification_badge_form_view_simplified
@@ -5521,12 +6182,20 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.gamification_badge_form_view_simplified
 msgid "e.g. Problem Solver"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Problem Solver"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "e.g. Satisfaction Survey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Anketa o zadovoljstvu"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question,question_placeholder:survey.survey_demo_quiz_p1_q1
@@ -5557,7 +6226,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/survey/static/src/js/survey_form.js:0
 msgid "or press CTRL+Enter"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ili pritisnite CTRL+Enter"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-javascript

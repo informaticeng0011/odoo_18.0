@@ -158,6 +158,15 @@ class PosOrder(models.Model):
             base_line['name'] = base_line['record'].name
         self.env['l10n_es_edi_tbai.document']._add_base_lines_tax_amounts(base_lines, self.company_id)
 
+<<<<<<< HEAD
+=======
+        for base_line in base_lines:
+            sign = base_line['is_refund'] and -1 or 1
+            base_line['gross_price_unit'] = sign * base_line['gross_price_unit']
+            base_line['discount_amount'] = sign * base_line['discount_amount']
+            base_line['price_total'] = sign * base_line['price_total']
+
+>>>>>>> upstream/18.0
         return {
             'is_sale': True,
             'partner': self.partner_id,
@@ -189,7 +198,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_origin': False,
+=======
+            'origin': 'manual',
+>>>>>>> upstream/18.0
 =======
             'origin': 'manual',
 >>>>>>> upstream/18.0

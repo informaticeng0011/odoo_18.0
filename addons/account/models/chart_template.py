@@ -99,7 +99,11 @@ class AccountChartTemplate(models.AbstractModel):
         field = self.env['ir.module.module']._fields['account_templates']
         modules = (
             self.env.cache.get_records(self.env['ir.module.module'], field)
+<<<<<<< HEAD
             or self.env['ir.module.module'].sudo().search([])
+=======
+            or self.env['ir.module.module'].sudo().search([('state', '!=', 'uninstallable')])
+>>>>>>> upstream/18.0
         )
 
         return {
@@ -298,7 +302,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.sudo()._load_data(self._get_demo_data(company))
+=======
+            self.sudo()._load_data(self._get_demo_data(company), ignore_duplicates=True)
+>>>>>>> upstream/18.0
 =======
             self.sudo()._load_data(self._get_demo_data(company), ignore_duplicates=True)
 >>>>>>> upstream/18.0
@@ -521,8 +529,13 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             data['res.company'][company.id].setdefault('anglo_saxon_accounting', company.anglo_saxon_accounting)
 
+=======
+            data['res.company'][company.id].clear()
+            data['res.company'][company.id].setdefault('anglo_saxon_accounting', company.anglo_saxon_accounting)
+>>>>>>> upstream/18.0
 =======
             data['res.company'][company.id].clear()
             data['res.company'][company.id].setdefault('anglo_saxon_accounting', company.anglo_saxon_accounting)
@@ -803,6 +816,14 @@ class AccountChartTemplate(models.AbstractModel):
         current_fiscal_positions =  self.env['account.fiscal.position'].with_context(active_test=False).search([
             *self.env['account.fiscal.position']._check_company_domain(company),
         ])
+<<<<<<< HEAD
+=======
+
+        current_tax_groups = self.env['account.tax.group'].with_context(active_test=False).search([
+            *self.env['account.tax.group']._check_company_domain(company)
+        ])
+
+>>>>>>> upstream/18.0
         unique_tax_name_key = lambda t: (t.name, t.type_tax_use, t.tax_scope, t.company_id)
         unique_tax_name_keys = set(current_taxes.mapped(unique_tax_name_key))
         xmlid2tax = {
@@ -813,6 +834,13 @@ class AccountChartTemplate(models.AbstractModel):
             xml_id.split('.')[1].split('_', maxsplit=1)[1]: self.env['account.fiscal.position'].browse(record)
             for record, xml_id in current_fiscal_positions.get_external_id().items() if xml_id.startswith('account.')
         }
+<<<<<<< HEAD
+=======
+        xmlid2tax_group = {
+            xml_id.split('.')[1].split('_', maxsplit=1)[1]: self.env['account.tax.group'].browse(res_id)
+            for res_id, xml_id in current_tax_groups.get_external_id().items() if xml_id.startswith('account.')
+        }
+>>>>>>> upstream/18.0
         def tax_template_changed(tax, template):
             template_line_ids = [x for x in template.get('repartition_line_ids', []) if x[0] != Command.CLEAR]
             return (
@@ -892,6 +920,7 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     # Only add tax mappings containing new taxes
                     if old_tax_ids := values.pop('tax_ids', []):
                         new_tax_ids = []
@@ -905,6 +934,8 @@ class AccountChartTemplate(models.AbstractModel):
                         if new_tax_ids:
                             values['tax_ids'] = new_tax_ids
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1100,6 +1131,7 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1218,6 +1250,13 @@ class AccountChartTemplate(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+                elif model_name == 'account.tax.group':
+                    if xmlid not in xmlid2tax_group and not force_create:
+                        skip_update.add((model_name, xmlid))
+                        continue
 >>>>>>> upstream/18.0
 
                 elif model_name == 'account.tax':
@@ -1383,7 +1422,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'account_fiscal_country_id' in data['res.company'][company.id]:
+=======
+        if 'account_fiscal_country_id' in data.get('res.company', {}).get(company.id, {}):
+>>>>>>> upstream/18.0
 =======
         if 'account_fiscal_country_id' in data.get('res.company', {}).get(company.id, {}):
 >>>>>>> upstream/18.0
@@ -1930,6 +1973,7 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _setup_utility_bank_accounts(self, template_code, company, template_data):
         """Define basic bank accounts for the company.
 
@@ -1943,6 +1987,8 @@ class AccountChartTemplate(models.AbstractModel):
         code_digits = int(template_data.get('code_digits', 6))
         accounts_data = {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2124,6 +2170,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2342,7 +2391,10 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2532,6 +2584,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2688,8 +2743,12 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         is_accounting_installed_next = self.env["ir.module.module"].search([('name', '=', 'accountant')]).state in ('to install', 'installed')
         if not company.parent_id and not is_accounting_installed_next:
+=======
+        if not company.parent_id:
+>>>>>>> upstream/18.0
 =======
         if not company.parent_id:
 >>>>>>> upstream/18.0
@@ -2792,6 +2851,7 @@ class AccountChartTemplate(models.AbstractModel):
         if taxes_in_country:
             return
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3017,11 +3077,15 @@ class AccountChartTemplate(models.AbstractModel):
 =======
         def create_foreign_tax_account(existing_account, additional_label, reconcilable=False):
 >>>>>>> upstream/18.0
+=======
+        def create_foreign_tax_account(existing_account, additional_label, reconcilable=False):
+>>>>>>> upstream/18.0
             new_code = self.env['account.account'].with_company(company)._search_new_account_code(existing_account.code)
             return self.env['account.account'].create({
                 'name': f"{existing_account.name} - {additional_label}",
                 'code': new_code,
                 'account_type': existing_account.account_type,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3102,6 +3166,11 @@ class AccountChartTemplate(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
                 'reconcile': reconcilable,
+>>>>>>> upstream/18.0
+=======
+                'reconcile': reconcilable or existing_account.reconcile,
+                'non_trade': existing_account.non_trade,
+                'company_ids': [Command.link(company.id)],
 >>>>>>> upstream/18.0
 =======
                 'reconcile': reconcilable or existing_account.reconcile,
@@ -3465,6 +3534,7 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('cash_basis_transition_account_id', '!=', False)
         ], limit=1)
         for tax_template in tax_data.values():
@@ -3486,6 +3556,8 @@ class AccountChartTemplate(models.AbstractModel):
                 continue
             existing_accounts[account_xml_id] = None
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3677,6 +3749,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3840,7 +3915,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 tax_group[field] = existing_accounts.get(account_template_xml_id)
+=======
+                tax_group[field] = existing_accounts.get(tax_group.get(field))
+>>>>>>> upstream/18.0
 =======
                 tax_group[field] = existing_accounts.get(tax_group.get(field))
 >>>>>>> upstream/18.0
@@ -4053,7 +4132,12 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tax_template['cash_basis_transition_account_id'] = existing_accounts[account_xml_id]
+=======
+            if account_xml_id:
+                tax_template['cash_basis_transition_account_id'] = existing_accounts[account_xml_id]
+>>>>>>> upstream/18.0
 =======
             if account_xml_id:
                 tax_template['cash_basis_transition_account_id'] = existing_accounts[account_xml_id]
@@ -4438,7 +4522,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "name": 'Create Bill',
+=======
+                "name": _('Create Bill'),
+>>>>>>> upstream/18.0
 =======
                 "name": _('Create Bill'),
 >>>>>>> upstream/18.0
@@ -4601,6 +4689,7 @@ class AccountChartTemplate(models.AbstractModel):
                     mapped_tag = tags.get(format_tag)
                     if not mapped_tag:
                         country = self.env['res.country'].browse(country_id)
+<<<<<<< HEAD
                         message = self.env._(
                             'Error while loading the localization: missing tax tag %(tag_name)s for country %(country_name)s. You should probably update your localization app first.',
                             tag_name=format_tag, country_name=country.name)
@@ -4608,6 +4697,20 @@ class AccountChartTemplate(models.AbstractModel):
                             raise UserError(message)
                         else:
                             _logger.error(message)
+=======
+                        if not self._context.get('ignore_missing_tags'):
+                            raise UserError(self.env._(
+                                'Error while loading the localization: missing tax tag %(tag_name)s for country %(country_name)s.'
+                                ' You should probably update your localization app first.',
+                                tag_name=format_tag, country_name=country.name
+                            ))
+                        else:
+                            _logger.error(
+                                'Error while loading the localization: missing tax tag %s for country %s.'
+                                ' You should probably update your localization app first.',
+                                format_tag, country.name
+                            )
+>>>>>>> upstream/18.0
                             continue
                     res.append(mapped_tag)
             return res

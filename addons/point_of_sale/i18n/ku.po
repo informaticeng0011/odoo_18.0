@@ -1,14 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
+<<<<<<< HEAD
 # 
 # Translators:
 # Raz Omer Hussein, 2025
 # 
+=======
+#
+# Translators:
+# Raz Omer Hussein, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,6 +289,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: ku\n"
+=======
+"POT-Creation-Date: 2025-08-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Raz Omer Hussein, 2025\n"
+"Language-Team: Kurdish (https://app.transifex.com/odoo/teams/41243/ku/)\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: point_of_sale
@@ -288,7 +306,14 @@ msgstr ""
 #: code:addons/point_of_sale/models/stock_picking.py:0
 msgid ""
 "\n"
+<<<<<<< HEAD
 "This issue occurs because the quantity becomes zero after rounding during the conversion. To fix this, adjust the conversion factors or rounding method to ensure that even the smallest quantity in the original unit does not round down to zero in the target unit."
+=======
+"This issue occurs because the quantity becomes zero after rounding during "
+"the conversion. To fix this, adjust the conversion factors or rounding "
+"method to ensure that even the smallest quantity in the original unit does "
+"not round down to zero in the target unit."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -513,7 +538,11 @@ msgid "42"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "42"
+>>>>>>> upstream/18.0
 =======
 msgstr "42"
 >>>>>>> upstream/18.0
@@ -683,10 +712,19 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <h4>\n"
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'Valuable Customer'\">Azure Interior</t>,\n"
 "    </h4>\n"
 "    <p style=\"font-size: 13px;\">\n"
 "We have a limited-time offer only for you, enjoy a flat 20% off on your next purchase with us.\n"
+=======
+"        Dear <t t-out=\"object.partner_id.name or 'Valuable "
+"Customer'\">Azure Interior</t>,\n"
+"    </h4>\n"
+"    <p style=\"font-size: 13px;\">\n"
+"We have a limited-time offer only for you, enjoy a flat 20% off on your next "
+"purchase with us.\n"
+>>>>>>> upstream/18.0
 "We can't wait to continue serving you.\n"
 "    </p>\n"
 "</div>\n"
@@ -716,9 +754,15 @@ msgstr ""
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid ""
+<<<<<<< HEAD
 "<p>Dear %(client_name)s,<br/>Here is your Receipt %(is_invoiced)sfor"
 "             %(pos_name)s amounting in %(amount)s from %(company_name)s. "
 "</p>"
+=======
+"<p>Dear %(client_name)s,<br/>Here is your Receipt %"
+"(is_invoiced)sfor             %(pos_name)s amounting in %(amount)s from %"
+"(company_name)s. </p>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -732,7 +776,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 "<span class=\"o_form_label\">Barcodes</span>\n"
+<<<<<<< HEAD
 "                                <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
+=======
+"                                <i class=\"fa fa-info-circle me-1\" "
+"title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -781,7 +830,11 @@ msgid "<span>Balance</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>هاوسەنگی</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>هاوسەنگی</span>"
 >>>>>>> upstream/18.0
@@ -954,7 +1007,11 @@ msgid "<span>Reporting</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ڕاپۆرتکردن</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ڕاپۆرتکردن</span>"
 >>>>>>> upstream/18.0
@@ -1247,7 +1304,11 @@ msgid "<span>View</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>بینین</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>بینین</span>"
 >>>>>>> upstream/18.0
@@ -1469,7 +1530,12 @@ msgstr "<span>بینین</span>"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_form
 msgid ""
 "<strong> &gt; Payment Terminals</strong>\n"
+<<<<<<< HEAD
 "                                    in order to install a Payment Terminal and make a fully integrated payment method."
+=======
+"                                    in order to install a Payment Terminal "
+"and make a fully integrated payment method."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -1582,7 +1648,11 @@ msgid "<strong>Total</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>کۆ</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>کۆ</strong>"
 >>>>>>> upstream/18.0
@@ -1819,6 +1889,14 @@ msgid "A note with this name already exists"
 msgstr ""
 
 #. module: point_of_sale
+<<<<<<< HEAD
+=======
+#: model:ir.model.constraint,message:point_of_sale.constraint_pos_payment_uuid_unique
+msgid "A payment with this uuid already exists"
+msgstr ""
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__login_number
 msgid ""
 "A sequence number that is incremented each time a user resumes the pos "
@@ -1920,7 +1998,11 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__access_warning
 msgid "Access warning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئاگادارکردنەوەی دەستڕاگەیشتن"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_search
@@ -2009,7 +2091,11 @@ msgid "Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەژمێر"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەژمێر"
 >>>>>>> upstream/18.0
@@ -2305,7 +2391,11 @@ msgid "Account Move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جوڵەی هەژمار"
+>>>>>>> upstream/18.0
 =======
 msgstr "جوڵەی هەژمار"
 >>>>>>> upstream/18.0
@@ -2417,8 +2507,13 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_payment_method__outstanding_account_id
 msgid ""
+<<<<<<< HEAD
 "Account used as outstanding account when creating accounting payment records"
 " for bank payments."
+=======
+"Account used as outstanding account when creating accounting payment records "
+"for bank payments."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -2506,7 +2601,11 @@ msgid "Accounting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمێریاری"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمێریاری"
 >>>>>>> upstream/18.0
@@ -2839,7 +2938,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کردەوەی پێویستە"
+>>>>>>> upstream/18.0
 =======
 msgstr "کردەوەی پێویستە"
 >>>>>>> upstream/18.0
@@ -3072,7 +3175,11 @@ msgid "Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کردارەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "کردارەکان"
 >>>>>>> upstream/18.0
@@ -3210,7 +3317,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاک"
+>>>>>>> upstream/18.0
 =======
 msgstr "چالاک"
 >>>>>>> upstream/18.0
@@ -3491,7 +3602,11 @@ msgid "Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاکیەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "چالاکیەکان"
 >>>>>>> upstream/18.0
@@ -3777,7 +3892,11 @@ msgid "Activity State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دۆخی چالاکییەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "دۆخی چالاکییەکان"
 >>>>>>> upstream/18.0
@@ -4058,7 +4177,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئایکۆنی جۆری چالاکیی"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئایکۆنی جۆری چالاکیی"
 >>>>>>> upstream/18.0
@@ -4340,7 +4463,11 @@ msgid "Add"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "زیادکردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "زیادکردن"
 >>>>>>> upstream/18.0
@@ -4707,7 +4834,11 @@ msgid "Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناونیشان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناونیشان"
 >>>>>>> upstream/18.0
@@ -4993,7 +5124,11 @@ msgid "Administrator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کارگێڕ"
+>>>>>>> upstream/18.0
 =======
 msgstr "کارگێڕ"
 >>>>>>> upstream/18.0
@@ -5248,8 +5383,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
+<<<<<<< HEAD
 "All payment methods must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
+=======
+"All payment methods must be in the same currency as the Sales Journal or the "
+"company currency if that is not set."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -5309,7 +5449,11 @@ msgid "Allowed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕێپێدراو"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕێپێدراو"
 >>>>>>> upstream/18.0
@@ -5480,7 +5624,11 @@ msgid "Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بڕ"
+>>>>>>> upstream/18.0
 =======
 msgstr "بڕ"
 >>>>>>> upstream/18.0
@@ -5780,6 +5928,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Amount:"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5792,6 +5941,11 @@ msgstr "بڕ:"
 msgstr "بڕ:"
 >>>>>>> upstream/18.0
 =======
+msgstr "بڕ:"
+>>>>>>> upstream/18.0
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+msgid "Amount:"
 msgstr "بڕ:"
 >>>>>>> upstream/18.0
 =======
@@ -6166,6 +6320,19 @@ msgid "An internal identification of the printer"
 msgstr ""
 
 #. module: point_of_sale
+<<<<<<< HEAD
+=======
+#: model:ir.model.constraint,message:point_of_sale.constraint_pos_order_line_uuid_unique
+msgid "An order line with this uuid already exists"
+msgstr ""
+
+#. module: point_of_sale
+#: model:ir.model.constraint,message:point_of_sale.constraint_pos_order_uuid_unique
+msgid "An order with this uuid already exists"
+msgstr ""
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid "Another session is already opened for this point of sale."
@@ -6246,7 +6413,11 @@ msgid "Apply"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جێبەجێکردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "جێبەجێکردن"
 >>>>>>> upstream/18.0
@@ -6518,7 +6689,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەرشیف کراوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەرشیف کراوە"
 >>>>>>> upstream/18.0
@@ -6756,7 +6931,12 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_res_company__point_of_sale_update_stock_quantities
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__update_stock_quantities
 msgid ""
+<<<<<<< HEAD
 "At the session closing: A picking is created for the entire session when it's closed\n"
+=======
+"At the session closing: A picking is created for the entire session when "
+"it's closed\n"
+>>>>>>> upstream/18.0
 " In real time: Each order sent to the server create its own picking"
 msgstr ""
 
@@ -6835,7 +7015,11 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی هاوپێچەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی هاوپێچەکان"
 >>>>>>> upstream/18.0
@@ -7045,7 +7229,11 @@ msgstr ""
 #: model:ir.ui.menu,name:point_of_sale.pos_menu_products_attribute_action
 msgid "Attributes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "سیفاتەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "سیفاتەکان"
 >>>>>>> upstream/18.0
@@ -7198,7 +7386,11 @@ msgid "Average Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تێکڕای نرخ"
+>>>>>>> upstream/18.0
 =======
 msgstr "تێکڕای نرخ"
 >>>>>>> upstream/18.0
@@ -7517,7 +7709,11 @@ msgid "Balance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هاوسەنگی"
+>>>>>>> upstream/18.0
 =======
 msgstr "هاوسەنگی"
 >>>>>>> upstream/18.0
@@ -7786,7 +7982,11 @@ msgid "Bank"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بانک"
+>>>>>>> upstream/18.0
 =======
 msgstr "بانک"
 >>>>>>> upstream/18.0
@@ -8082,7 +8282,11 @@ msgid "Bank Statement Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هێڵی بەیاننامەی بانکی"
+>>>>>>> upstream/18.0
 =======
 msgstr "هێڵی بەیاننامەی بانکی"
 >>>>>>> upstream/18.0
@@ -8385,7 +8589,11 @@ msgid "Barcode Nomenclature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناونانی بارکۆد"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناونانی بارکۆد"
 >>>>>>> upstream/18.0
@@ -8502,7 +8710,11 @@ msgid "Barcode Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "یاسای بارکۆد"
+>>>>>>> upstream/18.0
 =======
 msgstr "یاسای بارکۆد"
 >>>>>>> upstream/18.0
@@ -8707,7 +8919,11 @@ msgid "Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پسووڵەکان "
+>>>>>>> upstream/18.0
 =======
 msgstr "پسووڵەکان "
 >>>>>>> upstream/18.0
@@ -9158,7 +9374,11 @@ msgid "Cancel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕەتکردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕەتکردنەوە"
 >>>>>>> upstream/18.0
@@ -9542,7 +9762,11 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵوەشایەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "هەڵوەشایەوە"
 >>>>>>> upstream/18.0
@@ -9963,7 +10187,11 @@ msgid "Cash"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کاش"
+>>>>>>> upstream/18.0
 =======
 msgstr "کاش"
 >>>>>>> upstream/18.0
@@ -10517,7 +10745,11 @@ msgid "Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جۆر"
+>>>>>>> upstream/18.0
 =======
 msgstr "جۆر"
 >>>>>>> upstream/18.0
@@ -10816,8 +11048,12 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_product_product__to_weight
 #: model:ir.model.fields,help:point_of_sale.field_product_template__to_weight
 msgid ""
+<<<<<<< HEAD
 "Check if the product should be weighted using the hardware scale "
 "integration."
+=======
+"Check if the product should be weighted using the hardware scale integration."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -10888,6 +11124,15 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
+msgid "Choose the tax you want to apply"
+msgstr ""
+
+#. module: point_of_sale
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.xml:0
 msgid "Choose your store"
 msgstr ""
@@ -11024,7 +11269,11 @@ msgid "Close"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "داخستن"
+>>>>>>> upstream/18.0
 =======
 msgstr "داخستن"
 >>>>>>> upstream/18.0
@@ -11451,7 +11700,11 @@ msgid "Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕەنگ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕەنگ"
 >>>>>>> upstream/18.0
@@ -11674,7 +11927,11 @@ msgid "Companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کۆمپانیاکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "کۆمپانیاکان"
 >>>>>>> upstream/18.0
@@ -12038,7 +12295,11 @@ msgid "Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کۆمپانیا"
+>>>>>>> upstream/18.0
 =======
 msgstr "کۆمپانیا"
 >>>>>>> upstream/18.0
@@ -12433,7 +12694,11 @@ msgid "Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دڵنیاکردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "دڵنیاکردنەوە"
 >>>>>>> upstream/18.0
@@ -12818,8 +13083,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/point_of_sale/models/stock_picking.py:0
 msgid ""
+<<<<<<< HEAD
 "Conversion Error: The following unit of measure conversions result in a zero"
 " quantity due to rounding:"
+=======
+"Conversion Error: The following unit of measure conversions result in a zero "
+"quantity due to rounding:"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -12943,7 +13213,11 @@ msgid "Country"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "وڵات"
+>>>>>>> upstream/18.0
 =======
 msgstr "وڵات"
 >>>>>>> upstream/18.0
@@ -13300,7 +13574,11 @@ msgid "Country Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کۆدی وڵات"
+>>>>>>> upstream/18.0
 =======
 msgstr "کۆدی وڵات"
 >>>>>>> upstream/18.0
@@ -13569,7 +13847,11 @@ msgstr "کۆدی وڵات"
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_res_country_state
 msgid "Country state"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دۆخی وڵات"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.cozy_sweater_product_template
@@ -13673,7 +13955,11 @@ msgid "Create"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکردن"
 >>>>>>> upstream/18.0
@@ -13961,7 +14247,11 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.actions.act_window,help:point_of_sale.product_product_action
 msgid "Create a new product variant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جۆرێکی بەرهەمی نوێ دروست بکە"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -14079,7 +14369,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لەلایەن..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکراوە لەلایەن..."
 >>>>>>> upstream/18.0
@@ -14450,7 +14744,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لە"
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکراوە لە"
 >>>>>>> upstream/18.0
@@ -14817,7 +15115,11 @@ msgid "Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دراو"
+>>>>>>> upstream/18.0
 =======
 msgstr "دراو"
 >>>>>>> upstream/18.0
@@ -15174,7 +15476,11 @@ msgid "Currency Rate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نرخی دراو"
+>>>>>>> upstream/18.0
 =======
 msgstr "نرخی دراو"
 >>>>>>> upstream/18.0
@@ -15567,7 +15873,11 @@ msgid "Customer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کڕیار"
+>>>>>>> upstream/18.0
 =======
 msgstr "کڕیار"
 >>>>>>> upstream/18.0
@@ -15866,7 +16176,11 @@ msgid "Customer Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەژمێری کڕیار"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەژمێری کڕیار"
 >>>>>>> upstream/18.0
@@ -16058,7 +16372,11 @@ msgid "Customer Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فاکتورەی کڕیار"
+>>>>>>> upstream/18.0
 =======
 msgstr "فاکتورەی کڕیار"
 >>>>>>> upstream/18.0
@@ -16449,7 +16767,11 @@ msgid "Customers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کڕیاران"
+>>>>>>> upstream/18.0
 =======
 msgstr "کڕیاران"
 >>>>>>> upstream/18.0
@@ -16822,7 +17144,11 @@ msgid "Dashboard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "داشبۆرد"
+>>>>>>> upstream/18.0
 =======
 msgstr "داشبۆرد"
 >>>>>>> upstream/18.0
@@ -17185,7 +17511,11 @@ msgid "Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕێکەوت"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕێکەوت"
 >>>>>>> upstream/18.0
@@ -17549,7 +17879,11 @@ msgid "Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕۆژەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕۆژەکان"
 >>>>>>> upstream/18.0
@@ -17918,7 +18252,11 @@ msgid "Default"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بنەڕەتی"
+>>>>>>> upstream/18.0
 =======
 msgstr "بنەڕەتی"
 >>>>>>> upstream/18.0
@@ -18286,7 +18624,11 @@ msgid "Default Sale Tax"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "باجی فرۆشتنی پێشوەختە"
+>>>>>>> upstream/18.0
 =======
 msgstr "باجی فرۆشتنی پێشوەختە"
 >>>>>>> upstream/18.0
@@ -18509,7 +18851,11 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_order_line__product_uom_id
 msgid "Default unit of measure used for all stock operations."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "یەکەى پێوانەى پێشوەختە بەکاردێت بۆ هەموو کارەکانى پشکەکان."
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model_terms:ir.actions.act_window,help:point_of_sale.product_pos_category_action
@@ -18572,7 +18918,11 @@ msgid "Delete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "سڕینەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "سڕینەوە"
 >>>>>>> upstream/18.0
@@ -18831,7 +19181,11 @@ msgid "Disc.%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "داشکاندن.٪"
+>>>>>>> upstream/18.0
 =======
 msgstr "داشکاندن.٪"
 >>>>>>> upstream/18.0
@@ -19113,7 +19467,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕەتکردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕەتکردنەوە"
 >>>>>>> upstream/18.0
@@ -19382,7 +19740,11 @@ msgid "Discount (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "داشکاندن (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "داشکاندن (%)"
 >>>>>>> upstream/18.0
@@ -19591,7 +19953,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/navbar/sale_details_button/sales_detail_report.xml:0
 msgid "Discount:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "داشکاندن:"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields.selection,name:point_of_sale.selection__barcode_rule__type__discount
@@ -19684,8 +20050,15 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:point_of_sale.action_pos_printer_form
 msgid ""
 "Each Order Printer has an IP Address that defines the IoT Box/Hardware\n"
+<<<<<<< HEAD
 "            Proxy where the printer can be found, and a list of product categories.\n"
 "            An Order Printer will only print updates for products belonging to one of\n"
+=======
+"            Proxy where the printer can be found, and a list of product "
+"categories.\n"
+"            An Order Printer will only print updates for products belonging "
+"to one of\n"
+>>>>>>> upstream/18.0
 "            its categories."
 msgstr ""
 
@@ -19772,7 +20145,11 @@ msgid "Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئیمەیڵ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئیمەیڵ"
 >>>>>>> upstream/18.0
@@ -19882,7 +20259,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__user_id
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__user_id
 msgid "Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کارمەند"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_order__user_id
@@ -19985,7 +20366,11 @@ msgid "End Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەرواری کۆتایی"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەرواری کۆتایی"
 >>>>>>> upstream/18.0
@@ -20194,8 +20579,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
+<<<<<<< HEAD
 "Ensure that there is an existing bank journal. Check if chart of accounts is"
 " installed in your company."
+=======
+"Ensure that there is an existing bank journal. Check if chart of accounts is "
+"installed in your company."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -20240,7 +20630,11 @@ msgid "Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵە"
+>>>>>>> upstream/18.0
 =======
 msgstr "هەڵە"
 >>>>>>> upstream/18.0
@@ -20493,7 +20887,11 @@ msgid "Fiscal Position"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پێگەی دارایی"
+>>>>>>> upstream/18.0
 =======
 msgstr "پێگەی دارایی"
 >>>>>>> upstream/18.0
@@ -20750,7 +21148,11 @@ msgid "Fiscal Positions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پێگەی داراییەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "پێگەی داراییەکان"
 >>>>>>> upstream/18.0
@@ -20942,8 +21344,12 @@ msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,description_sale:point_of_sale.product_cheese_croissant_product_template
+<<<<<<< HEAD
 msgid ""
 "Flaky croissant filled with creamy cheese, a savory twist on a classic."
+=======
+msgid "Flaky croissant filled with creamy cheese, a savory twist on a classic."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -21027,7 +21433,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فۆڵۆوەرەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "فۆڵۆوەرەکان"
 >>>>>>> upstream/18.0
@@ -21277,7 +21687,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فۆڵۆوەرەکان (هاوبەشەکان)"
+>>>>>>> upstream/18.0
 =======
 msgstr "فۆڵۆوەرەکان (هاوبەشەکان)"
 >>>>>>> upstream/18.0
@@ -21639,7 +22053,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_session_search
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_report_pos_order_search
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "گروپ لەلایەن..."
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_uom_category__is_pos_groupable
@@ -21731,7 +22149,11 @@ msgid "Has Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامە هەیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "نامە هەیە"
 >>>>>>> upstream/18.0
@@ -21946,7 +22368,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -22201,7 +22627,11 @@ msgid "Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئایکۆن"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئایکۆن"
 >>>>>>> upstream/18.0
@@ -22450,7 +22880,11 @@ msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئایکۆن بۆ ئاماژەدان بە چالاکیەکی ئیستسناء."
+>>>>>>> upstream/18.0
 =======
 msgstr "ئایکۆن بۆ ئاماژەدان بە چالاکیەکی ئیستسناء."
 >>>>>>> upstream/18.0
@@ -22705,7 +23139,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەگەر پشکنینیان بۆ کرا، پەیامە نوێیەکان پێویستیان بە سەرنجی تۆ هەیە."
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەگەر پشکنینیان بۆ کرا، پەیامە نوێیەکان پێویستیان بە سەرنجی تۆ هەیە."
 >>>>>>> upstream/18.0
@@ -22957,7 +23395,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەگەر پشکنینیان بۆ کرا، هەندێک لە نامەکان هەڵەی گەیاندنیان هەیە."
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەگەر پشکنینیان بۆ کرا، هەندێک لە نامەکان هەڵەی گەیاندنیان هەیە."
 >>>>>>> upstream/18.0
@@ -23323,7 +23765,11 @@ msgid "Internal Notes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تێبینی ناوخۆیی"
+>>>>>>> upstream/18.0
 =======
 msgstr "تێبینی ناوخۆیی"
 >>>>>>> upstream/18.0
@@ -23595,7 +24041,11 @@ msgid "Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فاکتورە"
+>>>>>>> upstream/18.0
 =======
 msgstr "فاکتورە"
 >>>>>>> upstream/18.0
@@ -23871,7 +24321,11 @@ msgid "Invoiced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فاکتورە کراوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "فاکتورە کراوە"
 >>>>>>> upstream/18.0
@@ -24121,7 +24575,11 @@ msgid "Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فاکتورەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "فاکتورەکان"
 >>>>>>> upstream/18.0
@@ -24364,7 +24822,11 @@ msgid "Is Follower"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فۆڵۆوەرە"
+>>>>>>> upstream/18.0
 =======
 msgstr "فۆڵۆوەرە"
 >>>>>>> upstream/18.0
@@ -24690,7 +25152,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوایین نوێکردنەوە لەلایەن..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دوایین نوێکردنەوە لەلایەن..."
 >>>>>>> upstream/18.0
@@ -24953,7 +25419,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوایین نوێکردنەوە لە..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دوایین نوێکردنەوە لە..."
 >>>>>>> upstream/18.0
@@ -25174,7 +25644,12 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_pos_payment_method__receivable_account_id
 msgid ""
 "Leave empty to use the default account from the company setting.\n"
+<<<<<<< HEAD
 "Overrides the company's receivable account (for Point of Sale) used in the journal entries."
+=======
+"Overrides the company's receivable account (for Point of Sale) used in the "
+"journal entries."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -25186,9 +25661,18 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_pos_payment_method__journal_id
 msgid ""
 "Leave empty to use the receivable account of customer.\n"
+<<<<<<< HEAD
 "Defines the journal where to book the accumulated payments (or individual payment if Identify Customer is true) after closing the session.\n"
 "For cash journal, we directly write to the default account in the journal via statement lines.\n"
 "For bank journal, we write to the outstanding account specified in this payment method.\n"
+=======
+"Defines the journal where to book the accumulated payments (or individual "
+"payment if Identify Customer is true) after closing the session.\n"
+"For cash journal, we directly write to the default account in the journal "
+"via statement lines.\n"
+"For bank journal, we write to the outstanding account specified in this "
+"payment method.\n"
+>>>>>>> upstream/18.0
 "Only cash and bank journals are allowed."
 msgstr ""
 
@@ -25311,7 +25795,11 @@ msgid "Logo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "لۆگۆ"
+>>>>>>> upstream/18.0
 =======
 msgstr "لۆگۆ"
 >>>>>>> upstream/18.0
@@ -25530,8 +26018,13 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__available_pricelist_ids
 msgid ""
+<<<<<<< HEAD
 "Make several pricelists available in the Point of Sale. You can also apply a"
 " pricelist to specific customers from their contact form (in Sales tab). To "
+=======
+"Make several pricelists available in the Point of Sale. You can also apply a "
+"pricelist to specific customers from their contact form (in Sales tab). To "
+>>>>>>> upstream/18.0
 "be valid, this pricelist must be listed here as an available pricelist. "
 "Otherwise the default pricelist will apply."
 msgstr ""
@@ -25560,7 +26053,11 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields.selection,name:point_of_sale.selection__pos_order_line__price_type__manual
 msgid "Manual"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەدەستی"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.report_userlabel
@@ -25676,7 +26173,11 @@ msgid "Message Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامەکە هەڵەی گەیاندنی تیایە"
+>>>>>>> upstream/18.0
 =======
 msgstr "نامەکە هەڵەی گەیاندنی تیایە"
 >>>>>>> upstream/18.0
@@ -25914,7 +26415,11 @@ msgid "Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامەکان "
+>>>>>>> upstream/18.0
 =======
 msgstr "نامەکان "
 >>>>>>> upstream/18.0
@@ -26172,7 +26677,11 @@ msgid "Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مۆدێل"
+>>>>>>> upstream/18.0
 =======
 msgstr "مۆدێل"
 >>>>>>> upstream/18.0
@@ -26441,7 +26950,11 @@ msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوا وادەی چالاکییەکانم"
+>>>>>>> upstream/18.0
 =======
 msgstr "دوا وادەی چالاکییەکانم"
 >>>>>>> upstream/18.0
@@ -26694,7 +27207,11 @@ msgid "Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناو"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناو"
 >>>>>>> upstream/18.0
@@ -26979,7 +27496,11 @@ msgid "New"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نوێ"
+>>>>>>> upstream/18.0
 =======
 msgstr "نوێ"
 >>>>>>> upstream/18.0
@@ -27180,12 +27701,20 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاکییەکانی داهاتووی ڕووداوی ساڵنامە"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_date_deadline
 msgid "Next Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوا وادەی چالاکییەکانی داهاتوو"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_summary
@@ -27248,7 +27777,11 @@ msgid "Next Activity Summary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پوختەی چالاکییەکانی داهاتوو"
+>>>>>>> upstream/18.0
 =======
 msgstr "پوختەی چالاکییەکانی داهاتوو"
 >>>>>>> upstream/18.0
@@ -27485,7 +28018,11 @@ msgid "Next Activity Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جۆری چالاکیی داهاتوو"
+>>>>>>> upstream/18.0
 =======
 msgstr "جۆری چالاکیی داهاتوو"
 >>>>>>> upstream/18.0
@@ -27726,7 +28263,11 @@ msgid "No"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نەخێر"
+>>>>>>> upstream/18.0
 =======
 msgstr "نەخێر"
 >>>>>>> upstream/18.0
@@ -27929,8 +28470,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
+<<<<<<< HEAD
 "No chart of account configured, go to the \"configuration / settings\" menu,"
 " and install one from the Invoicing tab."
+=======
+"No chart of account configured, go to the \"configuration / settings\" menu, "
+"and install one from the Invoicing tab."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -28032,7 +28578,11 @@ msgid "Nomenclature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناونان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناونان"
 >>>>>>> upstream/18.0
@@ -28202,7 +28752,11 @@ msgid "Notes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تێبینیەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "تێبینیەکان"
 >>>>>>> upstream/18.0
@@ -28428,7 +28982,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی کردارەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی کردارەکان"
 >>>>>>> upstream/18.0
@@ -28669,7 +29227,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی هەڵەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی هەڵەکان"
 >>>>>>> upstream/18.0
@@ -28900,7 +29462,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی ئەو نامانەی کە پێویستیان بە کردار هەیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی ئەو نامانەی کە پێویستیان بە کردار هەیە"
 >>>>>>> upstream/18.0
@@ -29126,7 +29692,11 @@ msgid "Number of messages with delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی ئەو نامانەی کە هەڵەی گەیاندنیان هەیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی ئەو نامانەی کە هەڵەی گەیاندنیان هەیە"
 >>>>>>> upstream/18.0
@@ -29496,7 +30066,11 @@ msgid "Opening Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەرواری کردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەرواری کردنەوە"
 >>>>>>> upstream/18.0
@@ -29712,7 +30286,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__pos_order_id
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order__order_id
 msgid "Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "داواکای"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -29736,7 +30314,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_order_filter
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_report_pos_order_search
 msgid "Order Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەرواری داواکردن"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__sequence_id
@@ -29752,7 +30334,11 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__lines
 msgid "Order Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هێڵەکانی داواکاری"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__floating_order_name
@@ -29767,6 +30353,15 @@ msgid "Order Number"
 msgstr ""
 
 #. module: point_of_sale
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
+msgid "Order Outdated"
+msgstr ""
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__is_order_printer
 msgid "Order Printer"
 msgstr ""
@@ -29781,7 +30376,12 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:point_of_sale.action_pos_printer_form
 msgid ""
 "Order Printers are used by restaurants and bars to print the\n"
+<<<<<<< HEAD
 "            order updates in the kitchen/bar when the waiter updates the order."
+=======
+"            order updates in the kitchen/bar when the waiter updates the "
+"order."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -29795,7 +30395,11 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Order Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئاماژەی داواکاری"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__sequence_number
@@ -29852,7 +30456,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_session_form
 msgid "Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "داواکارییەکان"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_report_pos_order_all
@@ -29880,7 +30488,11 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
 msgid "Other Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "زانیاری تر"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -29947,7 +30559,11 @@ msgid "Outstanding Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "حسابی نەدراو"
+>>>>>>> upstream/18.0
 =======
 msgstr "حسابی نەدراو"
 >>>>>>> upstream/18.0
@@ -30251,7 +30867,11 @@ msgid "Paid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پارەی دا"
+>>>>>>> upstream/18.0
 =======
 msgstr "پارەی دا"
 >>>>>>> upstream/18.0
@@ -30492,7 +31112,11 @@ msgid "Pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پارەدان"
+>>>>>>> upstream/18.0
 =======
 msgstr "پارەدان"
 >>>>>>> upstream/18.0
@@ -30739,7 +31363,11 @@ msgid "Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پارەدان"
+>>>>>>> upstream/18.0
 =======
 msgstr "پارەدان"
 >>>>>>> upstream/18.0
@@ -30969,7 +31597,11 @@ msgid "Payment Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەرواری پارەدان"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەرواری پارەدان"
 >>>>>>> upstream/18.0
@@ -31236,7 +31868,11 @@ msgid "Payment Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئاماژەی پارەدان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئاماژەی پارەدان"
 >>>>>>> upstream/18.0
@@ -31461,7 +32097,11 @@ msgid "Payment Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دۆخی پارەدان"
+>>>>>>> upstream/18.0
 =======
 msgstr "دۆخی پارەدان"
 >>>>>>> upstream/18.0
@@ -31747,7 +32387,11 @@ msgid "Payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پارەدان"
+>>>>>>> upstream/18.0
 =======
 msgstr "پارەدان"
 >>>>>>> upstream/18.0
@@ -31996,7 +32640,14 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/printer/base_printer.js:0
 msgid ""
 "Please check if the printer is still connected. \n"
+<<<<<<< HEAD
 "Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
+=======
+"Some browsers don't allow HTTP calls from websites to devices in the network "
+"(for security reasons). If it is the case, you will need to follow Odoo's "
+"documentation for 'Self-signed certificate for ePOS printers' and 'Secure "
+"connection (HTTPS)' to solve the issue. "
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -32011,15 +32662,24 @@ msgstr ""
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_payment_method.py:0
 msgid ""
+<<<<<<< HEAD
 "Please close and validate the following open PoS Sessions before modifying this payment method.\n"
+=======
+"Please close and validate the following open PoS Sessions before modifying "
+"this payment method.\n"
+>>>>>>> upstream/18.0
 "Open sessions: %s"
 msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Please create/select a Point of Sale above to show the configuration "
 "options."
+=======
+"Please create/select a Point of Sale above to show the configuration options."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -32079,6 +32739,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
 msgid "Please register the voucher number"
 msgstr ""
@@ -32348,6 +33009,10 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
 >>>>>>> upstream/18.0
 =======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
+>>>>>>> upstream/18.0
+=======
+#: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
 >>>>>>> upstream/18.0
 msgid "Please scan the QR code with %s"
@@ -32748,7 +33413,11 @@ msgid "Posted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پۆست کراوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "پۆست کراوە"
 >>>>>>> upstream/18.0
@@ -32947,7 +33616,11 @@ msgid "Powered by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەهێزکراوە لەلایەن"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەهێزکراوە لەلایەن"
 >>>>>>> upstream/18.0
@@ -33124,7 +33797,11 @@ msgid "Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نرخ"
+>>>>>>> upstream/18.0
 =======
 msgstr "نرخ"
 >>>>>>> upstream/18.0
@@ -33367,7 +34044,11 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Pricing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نرخدانان"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -33433,7 +34114,11 @@ msgid "Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چاپ"
+>>>>>>> upstream/18.0
 =======
 msgstr "چاپ"
 >>>>>>> upstream/18.0
@@ -33782,7 +34467,11 @@ msgid "Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەرهەم"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەرهەم"
 >>>>>>> upstream/18.0
@@ -34024,7 +34713,11 @@ msgid "Product Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پۆلی بەرهەم"
+>>>>>>> upstream/18.0
 =======
 msgstr "پۆلی بەرهەم"
 >>>>>>> upstream/18.0
@@ -34205,7 +34898,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:point_of_sale.field_product_product__public_description
 #: model:ir.model.fields,field_description:point_of_sale.field_product_template__public_description
 msgid "Product Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "وەسفکردنی بەرهەم"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -34221,7 +34918,11 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_product_packaging
 msgid "Product Packaging"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پاکەتکردنی بەرهەم"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -34291,7 +34992,11 @@ msgid "Product Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بڕی بەرهەم"
+>>>>>>> upstream/18.0
 =======
 msgstr "بڕی بەرهەم"
 >>>>>>> upstream/18.0
@@ -34536,7 +35241,11 @@ msgid "Product Unit of Measure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "یەکەی پێوانەکردنی بەرهەم"
+>>>>>>> upstream/18.0
 =======
 msgstr "یەکەی پێوانەکردنی بەرهەم"
 >>>>>>> upstream/18.0
@@ -34771,7 +35480,11 @@ msgid "Product Variant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جۆری بەرهەم"
+>>>>>>> upstream/18.0
 =======
 msgstr "جۆری بەرهەم"
 >>>>>>> upstream/18.0
@@ -34942,7 +35655,11 @@ msgstr "جۆری بەرهەم"
 #: model:ir.actions.act_window,name:point_of_sale.product_product_action
 #: model:ir.ui.menu,name:point_of_sale.pos_config_menu_action_product_product
 msgid "Product Variants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جۆرەکانی بەرهەم"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -35025,7 +35742,11 @@ msgid "Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەرهەمەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەرهەمەکان"
 >>>>>>> upstream/18.0
@@ -35304,6 +36025,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -35531,7 +36256,11 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/product_screen.js:0
 #: code:addons/point_of_sale/static/src/app/screens/ticket_screen/ticket_screen.js:0
 msgid "Qty"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بڕ"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__qty
@@ -35588,7 +36317,11 @@ msgid "Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بڕ"
+>>>>>>> upstream/18.0
 =======
 msgstr "بڕ"
 >>>>>>> upstream/18.0
@@ -35801,7 +36534,11 @@ msgid "Quantity:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بڕ:"
+>>>>>>> upstream/18.0
 =======
 msgstr "بڕ:"
 >>>>>>> upstream/18.0
@@ -36027,7 +36764,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵسەنگاندنەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "هەڵسەنگاندنەکان"
 >>>>>>> upstream/18.0
@@ -36263,7 +37004,11 @@ msgid "Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هۆکار"
+>>>>>>> upstream/18.0
 =======
 msgstr "هۆکار"
 >>>>>>> upstream/18.0
@@ -36545,7 +37290,11 @@ msgid "Refund"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "گەڕاندنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "گەڕاندنەوە"
 >>>>>>> upstream/18.0
@@ -36810,7 +37559,11 @@ msgid "Refunds"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "گەڕاندنەوەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "گەڕاندنەوەکان"
 >>>>>>> upstream/18.0
@@ -37058,7 +37811,11 @@ msgid "Reporting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕاپۆرتکردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕاپۆرتکردن"
 >>>>>>> upstream/18.0
@@ -37294,7 +38051,11 @@ msgid "Responsible User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەکارهێنەری بەرپرسیار"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەکارهێنەری بەرپرسیار"
 >>>>>>> upstream/18.0
@@ -37503,8 +38264,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid ""
+<<<<<<< HEAD
 "Reversal of POS closing entry %(entry)s for order %(order)s from session "
 "%(session)s"
+=======
+"Reversal of POS closing entry %(entry)s for order %(order)s from session %"
+"(session)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -37563,7 +38329,11 @@ msgid "Reversal of: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پێچەوانەکردنەوەی: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "پێچەوانەکردنەوەی: %s"
 >>>>>>> upstream/18.0
@@ -37783,7 +38553,11 @@ msgid "Reverse"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پێچەوانە کردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "پێچەوانە کردنەوە"
 >>>>>>> upstream/18.0
@@ -38009,7 +38783,11 @@ msgid "Review"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پێداچوونەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "پێداچوونەوە"
 >>>>>>> upstream/18.0
@@ -38210,7 +38988,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__message_has_sms_error
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__message_has_sms_error
 msgid "SMS Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵەی گەیاندنی کورتەنامە"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__module_pos_sms
@@ -38293,7 +39075,11 @@ msgid "Sales"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فرۆشتنەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "فرۆشتنەکان"
 >>>>>>> upstream/18.0
@@ -38536,7 +39322,11 @@ msgid "Save"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵگرتن"
+>>>>>>> upstream/18.0
 =======
 msgstr "هەڵگرتن"
 >>>>>>> upstream/18.0
@@ -38883,7 +39673,11 @@ msgid "Send"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناردن"
 >>>>>>> upstream/18.0
@@ -39065,7 +39859,11 @@ msgid "Send Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئیمەیڵ بنێرە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئیمەیڵ بنێرە"
 >>>>>>> upstream/18.0
@@ -39227,7 +40025,11 @@ msgid "Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "زنجیرە"
+>>>>>>> upstream/18.0
 =======
 msgstr "زنجیرە"
 >>>>>>> upstream/18.0
@@ -39428,7 +40230,11 @@ msgid "Sequence Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی ڕیزبەندی"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی ڕیزبەندی"
 >>>>>>> upstream/18.0
@@ -39979,7 +40785,11 @@ msgid "Starting Balance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دەستپێکردنی هاوسەنگی "
+>>>>>>> upstream/18.0
 =======
 msgstr "دەستپێکردنی هاوسەنگی "
 >>>>>>> upstream/18.0
@@ -40186,7 +40996,11 @@ msgid "Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دۆخ"
+>>>>>>> upstream/18.0
 =======
 msgstr "دۆخ"
 >>>>>>> upstream/18.0
@@ -40392,7 +41206,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40541,6 +41358,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40853,7 +41673,11 @@ msgid "Tax"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "باج"
+>>>>>>> upstream/18.0
 =======
 msgstr "باج"
 >>>>>>> upstream/18.0
@@ -41053,7 +41877,11 @@ msgid "Tax Group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "گروپی باج"
+>>>>>>> upstream/18.0
 =======
 msgstr "گروپی باج"
 >>>>>>> upstream/18.0
@@ -41258,7 +42086,11 @@ msgid "Tax Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناوی باج"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناوی باج"
 >>>>>>> upstream/18.0
@@ -41469,7 +42301,11 @@ msgid "Taxes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "باجەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "باجەکان"
 >>>>>>> upstream/18.0
@@ -41703,8 +42539,15 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_screen.js:0
 msgid ""
+<<<<<<< HEAD
 "The amount of your payment lines must be rounded to validate the transaction.\n"
 "The rounding precision is %s so you should set %s as payment amount instead of %s."
+=======
+"The amount of your payment lines must be rounded to validate the "
+"transaction.\n"
+"The rounding precision is %s so you should set %s as payment amount instead "
+"of %s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -41799,7 +42642,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42056,6 +42902,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42238,8 +43087,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
+<<<<<<< HEAD
 "The default tip product is missing. Please manually specify the tip product."
 " (See Tips field.)"
+=======
+"The default tip product is missing. Please manually specify the tip product. "
+"(See Tips field.)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -42270,8 +43124,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
+<<<<<<< HEAD
 "The invoice journal must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
+=======
+"The invoice journal must be in the same currency as the Sales Journal or the "
+"company currency if that is not set."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -42286,8 +43145,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/navbar/closing_popup/closing_popup.js:0
 msgid ""
+<<<<<<< HEAD
 "The money counted doesn't match what we expected. Want to log the difference"
 " for the books?"
+=======
+"The money counted doesn't match what we expected. Want to log the difference "
+"for the books?"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -42315,6 +43179,20 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
+msgid ""
+"The order has been modified on another device. If you have modified existing "
+"order lines, check that your changes have not been overwritten.\n"
+"\n"
+"The order will be sent to the server with the last changes made on this "
+"device."
+msgstr ""
+
+#. module: point_of_sale
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/static/src/app/utils/hooks.js:0
 msgid ""
 "The order has been synchronized earlier. Please make the invoice from the "
@@ -42345,8 +43223,13 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__iface_available_categ_ids
 msgid ""
 "The point of sale will only display products which are within one of the "
+<<<<<<< HEAD
 "selected category trees. If no category is specified, all available products"
 " will be shown"
+=======
+"selected category trees. If no category is specified, all available products "
+"will be shown"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -42366,8 +43249,13 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__pricelist_id
 msgid ""
+<<<<<<< HEAD
 "The pricelist used if no customer is selected or if the customer has no Sale"
 " Pricelist configured if any."
+=======
+"The pricelist used if no customer is selected or if the customer has no Sale "
+"Pricelist configured if any."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -42403,8 +43291,12 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/models/pos_order_line.js:0
 msgid ""
+<<<<<<< HEAD
 "The requested quantity to be refunded is higher than the refundable "
 "quantity."
+=======
+"The requested quantity to be refunded is higher than the refundable quantity."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -42446,8 +43338,12 @@ msgstr ""
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
+<<<<<<< HEAD
 msgid ""
 "The session is being closed by another user. The page will be reloaded."
+=======
+msgid "The session is being closed by another user. The page will be reloaded."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -42482,24 +43378,39 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__module_pos_razorpay
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "The transactions are processed by Razorpay. Set your Razorpay credentials on"
 " the related payment method."
+=======
+"The transactions are processed by Razorpay. Set your Razorpay credentials on "
+"the related payment method."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__module_pos_six
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "The transactions are processed by Six. Set the IP address of the terminal on"
 " the related payment method."
+=======
+"The transactions are processed by Six. Set the IP address of the terminal on "
+"the related payment method."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__module_pos_stripe
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "The transactions are processed by Stripe. Set your Stripe credentials on the"
 " related payment method."
+=======
+"The transactions are processed by Stripe. Set your Stripe credentials on the "
+"related payment method."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -42529,7 +43440,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid ""
+<<<<<<< HEAD
 "There are still orders in draft state in the session. Pay or cancel the following orders to validate the session:\n"
+=======
+"There are still orders in draft state in the session. Pay or cancel the "
+"following orders to validate the session:\n"
+>>>>>>> upstream/18.0
 "%s"
 msgstr ""
 
@@ -42559,9 +43475,17 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_screen.js:0
 msgid ""
+<<<<<<< HEAD
 "There is no cash payment method available in this point of sale to handle the change.\n"
 "\n"
 " Please pay the exact amount or add a cash payment method in the point of sale configuration"
+=======
+"There is no cash payment method available in this point of sale to handle "
+"the change.\n"
+"\n"
+" Please pay the exact amount or add a cash payment method in the point of "
+"sale configuration"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -42611,8 +43535,13 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__amount_authorized_diff
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_amount_authorized_diff
 msgid ""
+<<<<<<< HEAD
 "This field depicts the maximum difference allowed between the ending balance"
 " and the theoretical cash when closing a session, for non-POS managers. If "
+=======
+"This field depicts the maximum difference allowed between the ending balance "
+"and the theoretical cash when closing a session, for non-POS managers. If "
+>>>>>>> upstream/18.0
 "this maximum is reached, the user will have an error message at the closing "
 "of his session saying that he needs to contact his manager."
 msgstr ""
@@ -42640,8 +43569,13 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__fiscal_position_ids
 msgid ""
+<<<<<<< HEAD
 "This is useful for restaurants with onsite and take-away services that imply"
 " specific tax rates."
+=======
+"This is useful for restaurants with onsite and take-away services that imply "
+"specific tax rates."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -42665,7 +43599,12 @@ msgstr ""
 msgid ""
 "This operation will destroy all ${\n"
 "                    paid ? \"paid\" : \"unpaid\"\n"
+<<<<<<< HEAD
 "                } orders in the browser. You will lose all the data. This operation cannot be undone."
+=======
+"                } orders in the browser. You will lose all the data. This "
+"operation cannot be undone."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -42677,6 +43616,7 @@ msgid ""
 msgstr ""
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43078,6 +44018,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid ""
+"This order has already been paid. You cannot set it back to draft or edit it."
+msgstr ""
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.js:0
 msgid ""
@@ -43231,7 +44180,11 @@ msgid "To Pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بۆ پارەدان"
+>>>>>>> upstream/18.0
 =======
 msgstr "بۆ پارەدان"
 >>>>>>> upstream/18.0
@@ -43380,7 +44333,13 @@ msgstr ""
 msgid ""
 "To delete a product, make sure all point of sale sessions are closed.\n"
 "\n"
+<<<<<<< HEAD
 "Deleting a product available in a session would be like attempting to snatch a hamburger from a customer’s hand mid-bite; chaos will ensue as ketchup and mayo go flying everywhere!"
+=======
+"Deleting a product available in a session would be like attempting to snatch "
+"a hamburger from a customer’s hand mid-bite; chaos will ensue as ketchup and "
+"mayo go flying everywhere!"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -43460,7 +44419,11 @@ msgid "Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کۆ"
+>>>>>>> upstream/18.0
 =======
 msgstr "کۆ"
 >>>>>>> upstream/18.0
@@ -43659,7 +44622,11 @@ msgid "Total Payments Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کۆی گشتی بڕی پارەدانەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "کۆی گشتی بڕی پارەدانەکان"
 >>>>>>> upstream/18.0
@@ -43900,7 +44867,11 @@ msgid "Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "گواستنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "گواستنەوە"
 >>>>>>> upstream/18.0
@@ -44089,7 +45060,11 @@ msgid "Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جۆر"
+>>>>>>> upstream/18.0
 =======
 msgstr "جۆر"
 >>>>>>> upstream/18.0
@@ -44233,7 +45208,11 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جۆری چالاکیی ئیستسنای تۆمارکراو."
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -44251,7 +45230,12 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid ""
 "Unable to close and validate the session.\n"
+<<<<<<< HEAD
 "Please set corresponding tax account in each repartition line of the following taxes: \n"
+=======
+"Please set corresponding tax account in each repartition line of the "
+"following taxes: \n"
+>>>>>>> upstream/18.0
 "%s"
 msgstr ""
 
@@ -44301,7 +45285,11 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_session_sales_details
 msgid "Unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "یەکە"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__price_unit
@@ -44346,7 +45334,11 @@ msgid "Unit Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نرخی یەکە"
+>>>>>>> upstream/18.0
 =======
 msgstr "نرخی یەکە"
 >>>>>>> upstream/18.0
@@ -44526,7 +45518,11 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
 msgid "UoM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Units of Measure"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_company__point_of_sale_update_stock_quantities
@@ -44652,7 +45648,11 @@ msgid "Validate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چەسپاندن"
+>>>>>>> upstream/18.0
 =======
 msgstr "چەسپاندن"
 >>>>>>> upstream/18.0
@@ -44824,7 +45824,11 @@ msgid "View"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بینین"
+>>>>>>> upstream/18.0
 =======
 msgstr "بینین"
 >>>>>>> upstream/18.0
@@ -45034,7 +46038,11 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئاگادار کردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئاگادار کردنەوە"
 >>>>>>> upstream/18.0
@@ -45215,7 +46223,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پەیامەکانی ماڵپەڕ"
+>>>>>>> upstream/18.0
 =======
 msgstr "پەیامەکانی ماڵپەڕ"
 >>>>>>> upstream/18.0
@@ -45381,7 +46393,11 @@ msgid "Website communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مێژووی پەیوەندی ماڵپەڕ"
+>>>>>>> upstream/18.0
 =======
 msgstr "مێژووی پەیوەندی ماڵپەڕ"
 >>>>>>> upstream/18.0
@@ -45545,8 +46561,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 "Whenever you close a session, one entry is generated in the following "
+<<<<<<< HEAD
 "accounting journal for all the orders not invoiced. Invoices are recorded in"
 " accounting separately."
+=======
+"accounting journal for all the orders not invoiced. Invoices are recorded in "
+"accounting separately."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -45612,7 +46633,12 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 msgid ""
+<<<<<<< HEAD
 "You are trying to sell products with serial/lot numbers, but some of them are not set.\n"
+=======
+"You are trying to sell products with serial/lot numbers, but some of them "
+"are not set.\n"
+>>>>>>> upstream/18.0
 "Would you like to proceed anyway?"
 msgstr ""
 
@@ -45651,8 +46677,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/point_of_sale/models/stock_picking.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot archive '%(picking_type)s' as it is used by POS configuration "
 "'%(config)s'."
+=======
+"You cannot archive '%(picking_type)s' as it is used by POS configuration '%"
+"(config)s'."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -45756,7 +46787,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45960,6 +46994,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46169,6 +47206,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/point_of_sale/models/account_cash_rounding.py:0
 #, python-format
 msgid ""
@@ -46178,6 +47216,8 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46390,8 +47430,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
+<<<<<<< HEAD
 "You must set the iot box's IP address to use an IoT-connected screen. You'll"
 " find the field under the 'IoT Box' option."
+=======
+"You must set the iot box's IP address to use an IoT-connected screen. You'll "
+"find the field under the 'IoT Box' option."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -46481,7 +47526,11 @@ msgid "by Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "لە ڕێگەی ئیمەیڵەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "لە ڕێگەی ئیمەیڵەوە"
 >>>>>>> upstream/18.0
@@ -46659,12 +47708,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. 0123456789"
 msgstr ""
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46864,12 +47916,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. john.doe@mail.com"
 msgstr ""
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47029,7 +48084,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/ticket_screen/ticket_screen.xml:0
 msgid "in"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "لە"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -47107,7 +48166,11 @@ msgid "on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "لەسەر"
+>>>>>>> upstream/18.0
 =======
 msgstr "لەسەر"
 >>>>>>> upstream/18.0
@@ -47261,7 +48324,11 @@ msgid "or"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "یان"
+>>>>>>> upstream/18.0
 =======
 msgstr "یان"
 >>>>>>> upstream/18.0
@@ -47476,6 +48543,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -47490,6 +48558,8 @@ msgid ""
 "{{ line.has_valid_product_lot() ? 'Valid product lot' : 'Invalid product "
 "lot'}}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

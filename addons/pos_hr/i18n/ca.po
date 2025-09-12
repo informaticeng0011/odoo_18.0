@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* pos_hr
 # 
+=======
+# * pos_hr
+#
+>>>>>>> upstream/18.0
 # Translators:
 # RGB Consulting <odoo@rgbconsulting.com>, 2024
 # Óscar Fonseca <tecnico@pyming.com>, 2024
@@ -14,12 +19,18 @@
 # Arnau Ros, 2024
 # marcescu, 2025
 # EstudiTIC - estuditic.com <odoo@estuditic.com>, 2025
+<<<<<<< HEAD
 # 
+=======
+# Noemi Pla, 2025
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: EstudiTIC - estuditic.com <odoo@estuditic.com>, 2025\n"
 "Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
@@ -28,16 +39,36 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"PO-Revision-Date: 2025-09-10 13:57+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
+"Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/pos_hr/"
+"ca/>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model,name:pos_hr.model_report_pos_hr_multi_employee_sales_report
 msgid "A collection of single session reports. One for each employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Un conjunt d'informes de sessió única. Un per a cada empleat"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.single_employee_sales_report
 msgid "Abigal Peterson"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Abigal Peterson"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
@@ -48,13 +79,21 @@ msgstr "Accés denegat"
 #. module: pos_hr
 #: model:ir.model.fields,field_description:pos_hr.field_pos_daily_sales_reports_wizard__add_report_per_employee
 msgid "Add a report per each employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegeix un informe per a cada empleat"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.pos_config_form_view_inherit
 #: model_terms:ir.ui.view,arch_db:pos_hr.res_config_settings_view_form
 msgid "Advanced rights"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Drets avançats"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.pos_config_form_view_inherit
@@ -79,12 +118,21 @@ msgid ""
 "Can't generate a report per employee! as selected session has no orders "
 "associated with any employee."
 msgstr ""
+<<<<<<< HEAD
+=======
+"No és possible generar un informe per empleat perquè la sessió seleccionada "
+"no té comandes associades a cap empleat."
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/components/closing_popup/closing_popup.xml:0
 msgid "Cash in/out"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Entrada/sortida d'efectiu"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,field_description:pos_hr.field_pos_order__employee_id
@@ -115,7 +163,11 @@ msgstr "Canviar el Caixer"
 #. odoo-python
 #: code:addons/pos_hr/models/pos_session.py:0
 msgid "Closed Register"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caixa registradora tancada"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model,name:pos_hr.model_res_config_settings

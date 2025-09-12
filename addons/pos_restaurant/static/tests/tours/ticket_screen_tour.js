@@ -6,6 +6,10 @@ import * as FloorScreen from "@pos_restaurant/../tests/tours/utils/floor_screen_
 import * as TicketScreen from "@point_of_sale/../tests/tours/utils/ticket_screen_util";
 import * as Chrome from "@point_of_sale/../tests/tours/utils/chrome_util";
 import { registry } from "@web/core/registry";
+<<<<<<< HEAD
+=======
+import * as DeviceSynchronization from "@pos_restaurant/../tests/tours/utils/devices_synchronization";
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("PosResTicketScreenTour", {
     steps: () =>
@@ -26,7 +30,10 @@ registry.category("web_tour.tours").add("PosResTicketScreenTour", {
             Chrome.clickMenuOption("Orders"),
             TicketScreen.deleteOrder("-0001"),
             Dialog.confirm(),
+<<<<<<< HEAD
             TicketScreen.clickDiscard(),
+=======
+>>>>>>> upstream/18.0
             Chrome.clickPlanButton(),
             FloorScreen.isShown(),
             FloorScreen.clickTable("5"),
@@ -50,3 +57,27 @@ registry.category("web_tour.tours").add("OrderNumberConflictTour", {
             TicketScreen.nthColumnContains(2, 3, "1"),
         ].flat(),
 });
+<<<<<<< HEAD
+=======
+
+registry.category("web_tour.tours").add("OrderSynchronisationTour", {
+    steps: () =>
+        [
+            Chrome.startPoS(),
+            Dialog.confirm("Open Register"),
+            DeviceSynchronization.createNewOrderOnTable("4", [
+                ["Coca-Cola", 50],
+                ["Water", 30],
+            ]),
+            FloorScreen.clickTable("4"),
+            ProductScreen.orderLineHas("Coca-Cola", "50.0"),
+            DeviceSynchronization.markOrderAsPaid(),
+            ProductScreen.isShown(),
+            Chrome.clickMenuOption("Orders"),
+            TicketScreen.selectFilter("Paid"),
+            TicketScreen.checkStatus("device_sync", "Paid"),
+            TicketScreen.selectOrder("device_sync"),
+            TicketScreen.confirmRefund(),
+        ].flat(),
+});
+>>>>>>> upstream/18.0

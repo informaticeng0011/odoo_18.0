@@ -65,6 +65,11 @@ class Page(models.Model):
 
     @api.depends_context('uid')
     def _compute_can_publish(self):
+<<<<<<< HEAD
+=======
+        # Note: this `if`'s purpose it to optimize the way this is computed for
+        # multiple records.
+>>>>>>> upstream/18.0
         if self.env.user.has_group('website.group_website_designer'):
             for record in self:
                 record.can_publish = True
@@ -182,7 +187,21 @@ class Page(models.Model):
         domain = [website.website_domain()]
         if not self.env.user.has_group('website.group_website_designer'):
             # Rule must be reinforced because of sudo.
+<<<<<<< HEAD
             domain.append([('website_published', '=', True)])
+=======
+            domain.append([
+                ('website_published', '=', True),
+                ('website_indexed', '=', True),
+            ])
+            # Prevent accessing unaccessible pages
+            domain.append([('visibility', '!=', 'password')])
+            if website.is_public_user():
+                domain.append([('visibility', '!=', 'connected')])
+            domain.append(expression.OR([
+                [('groups_id', '=', False)], [('groups_id', 'in', self.env.user.groups_id.ids)]
+            ]))
+>>>>>>> upstream/18.0
 
         search_fields = ['name', 'url']
         fetch_fields = ['id', 'name', 'url']
@@ -251,6 +270,7 @@ class Page(models.Model):
                 )
 
         def filter_page(search, page, all_pages):
+<<<<<<< HEAD
             # Search might have matched words in the xml tags and parameters therefore we make
             # sure the terms actually appear inside the text.
             text = '%s %s %s' % (page.name, page.url, text_from_html(page.arch))
@@ -258,6 +278,22 @@ class Page(models.Model):
             return re.findall('(%s)' % pattern, text, flags=re.I) if pattern else False
         if search and with_description:
             results = results.filtered(lambda result: filter_page(search, result, results))
+=======
+            # Exclude pages that do not pass ACL.
+            Rule = page.env['ir.rule'].sudo(False)
+            if not page.filtered_domain(Rule._compute_domain('website.page', 'read')):
+                return False
+            if not page.view_id.filtered_domain(Rule._compute_domain('ir.ui.view', 'read')):
+                return False
+            if search and with_description:
+                # Search might have matched words in the xml tags and parameters therefore we make
+                # sure the terms actually appear inside the text.
+                text = '%s %s %s' % (page.name, page.url, text_from_html(page.arch))
+                pattern = '|'.join([re.escape(search_term) for search_term in search.split()])
+                return re.findall('(%s)' % pattern, text, flags=re.I) if pattern else False
+            return True
+        results = results.filtered(lambda result: filter_page(search, result, results))
+>>>>>>> upstream/18.0
         return results[:limit], len(results)
 
     def action_page_debug_view(self):

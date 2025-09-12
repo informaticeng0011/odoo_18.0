@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* certificate
 # 
 # Translators:
@@ -9,11 +10,21 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * certificate
+#
+# Translators:
+# Wil Odoo, 2024
+# Anastasiia Koroleva, 2025
+#
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
@@ -26,12 +37,30 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"PO-Revision-Date: 2025-08-15 22:20+0000\n"
+"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
+"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
+"certificate/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 msgid "A private key is required to decrypt data."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Для расшифровки данных требуется закрытый ключ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__active
@@ -42,12 +71,20 @@ msgstr "Активный"
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Add, edit and delete certificates."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Добавлять, изменять и удалять сертификаты."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Add, edit and delete keys."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Добавлять, изменять и удалять ключи."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
@@ -58,17 +95,29 @@ msgstr "Архивировано"
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "Archived certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Архивированные сертификаты"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "Archived keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Архивированные ключи"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__date_start
 msgid "Available date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступная дата"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model,name:certificate.model_certificate_certificate
@@ -80,28 +129,48 @@ msgstr "Сертификат"
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__pkcs12_password
 msgid "Certificate Password"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пароль сертификата"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__pem_certificate
 msgid "Certificate in PEM format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сертификат в формате PEM"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__scope
 msgid "Certificate scope"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Область действия сертификата"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.actions.act_window,name:certificate.certificate_certificate_action_view_list
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сертификаты"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Certificates and Keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сертификаты и ключи"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__company_id
@@ -117,34 +186,58 @@ msgstr "Код страны"
 #. module: certificate
 #: model_terms:ir.actions.act_window,help:certificate.certificate_certificate_action_view_list
 msgid "Create a first certificate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создать первый сертификат"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.actions.act_window,help:certificate.certificate_key_action_view_list
 msgid "Create a first key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создать первый ключ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__create_uid
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__create_date
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model,name:certificate.model_certificate_key
 msgid "Cryptographic Keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Криптографические ключи"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields.selection,name:certificate.selection__certificate_certificate__content_format__der
 msgid "DER"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DER"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__display_name
@@ -166,7 +259,11 @@ msgstr "Общие"
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "General certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Общие сертификаты"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__id
@@ -188,25 +285,41 @@ msgstr "Ключ"
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__pem_key
 msgid "Key bytes in PEM format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Байты ключа в формате PEM"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__content
 msgid "Key file"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Файл ключа"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.actions.act_window,name:certificate.certificate_key_action_view_list
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ключи"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__write_uid
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -216,7 +329,11 @@ msgstr "Последнее обновление:"
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -225,23 +342,39 @@ msgstr "Дата последнего обновления:"
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__loading_error
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__loading_error
 msgid "Loading error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ошибка загрузки"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 msgid "Make sure to use a private key to sign documents."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Убедитесь, что используется закрытый ключ для подписания документов."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Manage your certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Управление сертификатами"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Manage your keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Управление ключами"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__name
@@ -255,31 +388,56 @@ msgstr "Имя"
 msgid ""
 "No private key linked to the certificate, it is required to sign documents."
 msgstr ""
+<<<<<<< HEAD
+=======
+"К сертификату не привязан закрытый ключ, он необходим для подписания "
+"документов."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "Not valid certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Недействительные сертификаты"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__content_format
 msgid "Original certificate format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Исходный формат сертификата"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields.selection,name:certificate.selection__certificate_certificate__content_format__pem
 msgid "PEM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEM"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields.selection,name:certificate.selection__certificate_certificate__content_format__pkcs12
 msgid "PKCS12"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PKCS12"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__pkcs12_password
 msgid "Password to decrypt the PKS file."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пароль для расшифровки файла PKS."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
@@ -294,12 +452,20 @@ msgstr "Приватный ключ"
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__password
 msgid "Private key password"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пароль закрытого ключа"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "Public"
+<<<<<<< HEAD
 msgstr "Публичный"
+=======
+msgstr "Открытый"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__public_key_id
@@ -309,28 +475,49 @@ msgstr "Открытый ключ"
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__public
 msgid "Public/Private key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Открытый/закрытый ключ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__serial_number
 msgid "Serial number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Серийный номер"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__active
 msgid "Set active to false to archive the certificate"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Чтобы архивировать сертификат, установите для статуса «Активный» значение "
+"false"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_key__active
 msgid "Set active to false to archive the key."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Чтобы архивировать ключ, установите для статуса «Активный» значение false."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__subject_common_name
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_list
 msgid "Subject Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Имя субъекта"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__country_code
@@ -345,64 +532,110 @@ msgstr ""
 #. odoo-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "The certificate and private key are not compatible."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сертификат и закрытый ключ несовместимы."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "The certificate and public key are not compatible."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сертификат и открытый ключ несовместимы."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__date_end
 msgid "The date on which the certificate expires (UTC)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дата окончания действия сертификата (UTC)"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__date_start
 msgid "The date on which the certificate starts to be valid (UTC)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дата начала действия сертификата (UTC)"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 msgid "The key size should be at least 512 bytes."
 msgstr ""
-
-#. module: certificate
-#. odoo-python
-#: code:addons/certificate/models/key.py:0
+=======
+msgid "The key size should be at least 512 bytes."
+msgstr "Размер ключа должен быть не менее 512 байт."
 >>>>>>> upstream/18.0
-msgid "The private key could not be loaded."
-msgstr ""
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 <<<<<<< HEAD
-=======
-msgid "The public exponent should be 65537 (or 3 for legacy purposes)."
+>>>>>>> upstream/18.0
+msgid "The private key could not be loaded."
 msgstr ""
+=======
+msgid "The private key could not be loaded."
+msgstr "Не удалось загрузить закрытый ключ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+msgid "The public exponent should be 65537 (or 3 for legacy purposes)."
+msgstr ""
+=======
+msgid "The public exponent should be 65537 (or 3 for legacy purposes)."
+msgstr ""
+"Публичная экспонента должна быть 65537 (или 3 в целях совместимости с "
+"устаревшими системами)."
+>>>>>>> upstream/18.0
+
+#. module: certificate
+#. odoo-python
+#: code:addons/certificate/models/key.py:0
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 msgid "The public key could not be loaded."
 msgstr ""
+=======
+msgid "The public key could not be loaded."
+msgstr "Не удалось загрузить открытый ключ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "The public key from the certificate could not be loaded."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Не удалось загрузить открытый ключ из сертификата."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__serial_number
 msgid "The serial number to add to electronic documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Серийный номер для добавления в электронные документы"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -410,13 +643,21 @@ msgstr ""
 msgid ""
 "This certificate could not be loaded. Either the content or the password is "
 "erroneous."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Не удалось загрузить сертификат. Содержимое или пароль неверны."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "This certificate is not valid, its validity has expired."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сертификат недействителен, срок его действия истек."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -424,7 +665,11 @@ msgstr ""
 msgid ""
 "This key could not be loaded. Either its content or its password is "
 "erroneous."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Не удалось загрузить ключ. Содержимое или пароль неверны."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -433,6 +678,11 @@ msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported for "
 "decryption: RSA."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Неподдерживаемый алгоритм асимметричного шифрования «%s». В данный момент "
+"поддерживается для расшифровки: RSA."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -441,6 +691,11 @@ msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported for "
 "signature: EC and RSA."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Неподдерживаемый алгоритм асимметричного шифрования «%s». В данный момент "
+"поддерживается для подписи: EC и RSA."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -449,6 +704,11 @@ msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC,"
 " RSA."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Неподдерживаемый алгоритм асимметричного шифрования «%s». В данный момент "
+"поддерживается: EC, RSA."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__public_key_id
@@ -457,6 +717,14 @@ msgid ""
 "                When a public key is set this way, it will be used instead of the one in the certificate.\n"
 "             "
 msgstr ""
+<<<<<<< HEAD
+=======
+"Эта опция используется, чтобы задать открытый ключ, если встроенный в "
+"сертификат ключ содержит ошибку.\n"
+"                Когда открытый ключ задан таким образом, он используется "
+"вместо ключа из сертификата.\n"
+"             "
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__is_valid
@@ -467,7 +735,11 @@ msgstr "Действительный"
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "Valid certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Действующие сертификаты"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_form
@@ -478,34 +750,62 @@ msgstr "Период действия"
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_form
 msgid "certificate form"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "форма сертификата"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_list
 msgid "certificate list"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "список сертификатов"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "certificate search"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "поиск сертификатов"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_form
 msgid "e.g. New Certificate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "например, Новый сертификат"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_form
 msgid "key form"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "форма ключа"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_list
 msgid "key list"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "список ключей"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "key search"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "поиск ключей"
+>>>>>>> upstream/18.0

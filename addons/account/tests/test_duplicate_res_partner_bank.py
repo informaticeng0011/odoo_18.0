@@ -1,6 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 from odoo.addons.base.tests.common import SavepointCaseWithUserDemo
 
 
@@ -34,3 +38,20 @@ class TestDuplicatePartnerBank(SavepointCaseWithUserDemo):
         self.partner_a.company_id = False
         self.partner_bank_a.company_id = False
         self.assertTrue(self.partner_bank_b.duplicate_bank_partner_ids, self.partner_a)
+<<<<<<< HEAD
+=======
+
+    def test_remove_bank_account_from_partner(self):
+        bank = self.env['res.bank'].create({'name': 'SBI Bank'})
+        self.partner_bank_a.write({
+            'acc_number': '99999',
+            'bank_id': bank.id,
+        })
+
+        self.assertEqual(len(self.partner_a.bank_ids), 1)
+
+        with Form(self.partner_a) as partner_form:
+            partner_form.bank_ids.remove(0)
+
+        self.assertEqual(len(self.partner_a.bank_ids), 0)
+>>>>>>> upstream/18.0

@@ -1,19 +1,30 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* data_recycle
 # 
+=======
+# * data_recycle
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2024
 # Tina Milas, 2024
 # Vladimir Olujić <olujic.vladimir@storm.hr>, 2024
 # Bole <bole@dajmi5.com>, 2024
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
+<<<<<<< HEAD
 # 
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Karolina Tonković <karolina.tonkovic@storm.hr>, 2024\n"
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
@@ -22,6 +33,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-08-12 22:21+0000\n"
+"Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
+"data_recycle/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.notification
@@ -71,7 +95,11 @@ msgstr "Postavke"
 #: model_terms:ir.actions.act_window,help:data_recycle.action_data_recycle_record
 #: model_terms:ir.actions.act_window,help:data_recycle.action_data_recycle_record_notification
 msgid "Configure rules to identify records to clean"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurirajte pravila za prepoznavanje zapisa za čišćenje"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__create_uid
@@ -110,7 +138,11 @@ msgstr "Dana"
 #. module: data_recycle
 #: model:ir.model.fields.selection,name:data_recycle.selection__data_recycle_model__recycle_action__unlink
 msgid "Delete"
+<<<<<<< HEAD
 msgstr "Briši"
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__time_field_delta
@@ -120,7 +152,11 @@ msgstr "Delta"
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__time_field_delta_unit
 msgid "Delta Unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Delta jedinica"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_recycle_record_list
@@ -142,7 +178,11 @@ msgstr "Naziv za prikaz"
 #: model:ir.actions.act_window,name:data_recycle.action_data_recycle_record
 #: model:ir.actions.act_window,name:data_recycle.action_data_recycle_record_notification
 msgid "Field Recycle Records"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapisi o čišćenju polja"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__domain
@@ -163,7 +203,11 @@ msgstr "Uključi arhivirane"
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__last_notification
 msgid "Last Notification"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Posljednja obavijest"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__write_uid
@@ -214,7 +258,11 @@ msgstr "Naziv"
 #: model_terms:ir.actions.act_window,help:data_recycle.action_data_recycle_record
 #: model_terms:ir.actions.act_window,help:data_recycle.action_data_recycle_record_notification
 msgid "No cleaning suggestions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema prijedloga za čišćenje"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__notify_frequency
@@ -224,12 +272,20 @@ msgstr "Obavijesti"
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__notify_frequency_period
 msgid "Notify Frequency Period"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razdoblje učestalosti obavijesti"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__notify_user_ids
 msgid "Notify Users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obavijestite korisnike"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_record__res_id
@@ -255,17 +311,29 @@ msgstr ""
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__recycle_action
 msgid "Recycle Action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Radnja recikliranja"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__recycle_mode
 msgid "Recycle Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Način recikliranja"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_record__recycle_model_id
 msgid "Recycle Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model reciklaže"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__recycle_record_ids
@@ -276,17 +344,29 @@ msgstr ""
 #: model:ir.ui.menu,name:data_recycle.menu_data_cleaning_config_rules_recycle
 #: model:ir.ui.menu,name:data_recycle.menu_data_recycle_record
 msgid "Recycle Records"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reciklirajte zapise"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_recycle_record_list
 msgid "Recycle Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravilo čišćenja"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_recycle_record_search
 msgid "Recycle Rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravilo čišćenja"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model,name:data_recycle.model_data_recycle_model
@@ -301,7 +381,11 @@ msgstr ""
 #. module: data_recycle
 #: model:ir.actions.act_window,name:data_recycle.action_data_recycle_config
 msgid "Recyle Records Rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravila za recikliranje zapisa"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.ui.menu,name:data_recycle.menu_data_cleaning_config_rules
@@ -332,7 +416,11 @@ msgstr ""
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__time_field_id
 msgid "Time Field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Polje za vrijeme"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #. odoo-python

@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* auth_totp_mail_enforce
 # 
 # Translators:
@@ -214,11 +215,21 @@
 # Tony Ng, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * auth_totp_mail_enforce
+#
+# Translators:
+# Wil Odoo, 2024
+# Tony Ng, 2025
+#
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -435,6 +446,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"PO-Revision-Date: 2025-08-12 22:21+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
+"projects/odoo-18/auth_totp_mail_enforce/zh_Hant/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
@@ -638,7 +661,11 @@ msgid "Scope"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作用範圍"
+=======
+msgstr "範圍"
+>>>>>>> upstream/18.0
 =======
 msgstr "範圍"
 >>>>>>> upstream/18.0
@@ -852,4 +879,8 @@ msgstr "您的賬戶達到了代碼驗證的上限"
 #. module: auth_totp_mail_enforce
 #: model:mail.template,subject:auth_totp_mail_enforce.mail_template_totp_mail_code
 msgid "Your two-factor authentication code"
+<<<<<<< HEAD
 msgstr "您的雙因素認證代碼"
+=======
+msgstr "你的雙重要素身份驗證碼"
+>>>>>>> upstream/18.0

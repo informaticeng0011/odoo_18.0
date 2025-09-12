@@ -12,6 +12,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import datetime
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime
 >>>>>>> upstream/18.0
@@ -524,7 +528,10 @@ class TestHrEmployee(TestHrCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -589,6 +596,9 @@ class TestHrEmployee(TestHrCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -618,6 +628,14 @@ class TestHrEmployee(TestHrCommon):
 @tagged('-at_install', 'post_install')
 class TestHrEmployeeWebJson(HttpCase):
 
+<<<<<<< HEAD
+=======
+    def setUp(self):
+        super().setUp()
+        # JSON route needs to be enabled for the tests
+        self.env['ir.config_parameter'].sudo().set_param('web.json.enabled', True)
+
+>>>>>>> upstream/18.0
     def test_webjson_employees(self):
         #check that json employees can be accessed
         url = "/json/1/employees"

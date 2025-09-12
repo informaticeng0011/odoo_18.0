@@ -6,7 +6,11 @@ class ResPartner(models.Model):
     _inherit = 'res.partner'
 
     l10n_gr_edi_branch_number = fields.Integer(
+<<<<<<< HEAD
         string="MyDATA Branch Number",
+=======
+        string="Branch Number",
+>>>>>>> upstream/18.0
         help="Branch number in the Tax Registry",
         compute='_compute_l10n_gr_edi_branch_number',
         store=True,

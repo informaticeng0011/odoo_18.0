@@ -170,6 +170,23 @@ export function viewMetadata({ component, env }) {
 
 debugRegistry.category("form").add("viewMetadata", viewMetadata);
 
+<<<<<<< HEAD
+=======
+function sortKeysDeep(obj) {
+    if (Array.isArray(obj)) {
+        return obj.map(sortKeysDeep);
+    } else if (obj && typeof obj === "object") {
+        return Object.keys(obj)
+            .sort()
+            .reduce((result, key) => {
+                result[key] = sortKeysDeep(obj[key]);
+                return result;
+            }, {});
+    }
+    return obj;
+}
+
+>>>>>>> upstream/18.0
 // -----------------------------------------------------------------------------
 // View Raw Record Data
 // -----------------------------------------------------------------------------
@@ -188,7 +205,11 @@ class RawRecordDialog extends Component {
     };
     get content() {
         const record = this.props.record;
+<<<<<<< HEAD
         return JSON.stringify(record, Object.keys(record).sort(), 2);
+=======
+        return JSON.stringify(sortKeysDeep(record), null, 2);
+>>>>>>> upstream/18.0
     }
 }
 
@@ -197,7 +218,11 @@ export function viewRawRecord({ component, env }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { resId, resModel } = component.model.config;
+=======
+    const { resId, resModel, fields } = component.model.config;
+>>>>>>> upstream/18.0
 =======
     const { resId, resModel, fields } = component.model.config;
 >>>>>>> upstream/18.0
@@ -218,6 +243,7 @@ export function viewRawRecord({ component, env }) {
         type: "item",
         description,
         callback: async () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,6 +269,13 @@ export function viewRawRecord({ component, env }) {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            const serializableFields = Object.entries(fields).reduce(
+                (acc, [k, v]) => (v.type !== "binary" && !v.propertyName ? acc.concat(k) : acc),
+                []
+            );
+            const records = await component.model.orm.read(resModel, [resId], serializableFields);
 >>>>>>> upstream/18.0
             env.services.dialog.add(RawRecordDialog, {
                 title: _t("Data: %(model)s(%(id)s)", { model: resModel, id: resId }),

@@ -37,6 +37,7 @@ export class ImageCropPlugin extends Plugin {
         };
     }
 
+<<<<<<< HEAD
     getSelectedImage() {
         const selectedNodes = this.dependencies.selection.getSelectedNodes();
         return selectedNodes.find((node) => node.tagName === "IMG");
@@ -49,6 +50,27 @@ export class ImageCropPlugin extends Plugin {
         }
 
         this.imageCropProps.media = selectedImg;
+=======
+    /**
+     * @deprecated
+     */
+    getSelectedImage() {
+        return this.getTargetedImage();
+    }
+
+    getTargetedImage() {
+        const targetedNodes = this.dependencies.selection.getTargetedNodes();
+        return targetedNodes.find((node) => node.tagName === "IMG");
+    }
+
+    async openCropImage() {
+        const targetedImg = this.getTargetedImage();
+        if (!targetedImg) {
+            return;
+        }
+
+        this.imageCropProps.media = targetedImg;
+>>>>>>> upstream/18.0
 
         const onClose = () => {
             registry.category("main_components").remove("ImageCropping");

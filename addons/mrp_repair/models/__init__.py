@@ -3,3 +3,7 @@
 
 from . import repair
 from . import production
+<<<<<<< HEAD
+=======
+from . import stock_move
+>>>>>>> upstream/18.0

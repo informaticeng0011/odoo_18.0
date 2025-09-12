@@ -89,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Xavier, 2024
 =======
 # Harcogourmet, 2024
@@ -269,6 +270,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Harcogourmet, 2024
 # Wil Odoo, 2025
 # Santiago Payà <santiagopim@gmail.com>, 2025
@@ -276,6 +279,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -288,6 +294,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -537,6 +544,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Noemi Pla, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-27 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Noemi Pla, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -623,6 +635,63 @@ msgid ""
 "                noContentHelper: markup(\n"
 "                    "
 msgstr ""
+<<<<<<< HEAD
+=======
+"\n"
+");\n"
+"\n"
+"export class ProjectTaskFormController extends FormControllerWithHTMLExpander {\n"
+"    setup() {\n"
+"        super.setup();\n"
+"        this.notifications = useService(\"notification\");\n"
+"    }\n"
+"\n"
+"    /**\n"
+"     * @override\n"
+"     */\n"
+"    getStaticActionMenuItems() {\n"
+"        return {\n"
+"            ...super.getStaticActionMenuItems(),\n"
+"            openHistoryDialog: {\n"
+"                sequence: 50,\n"
+"                icon: \"fa fa-history\",\n"
+"                description: _t(\"Version History\"),\n"
+"                callback: () => this.openHistoryDialog(),\n"
+"            },\n"
+"        };\n"
+"    }\n"
+"\n"
+"    get deleteConfirmationDialogProps() {\n"
+"        const deleteConfirmationDialogProps = super.deleteConfirmationDialogProps;\n"
+"        if (!this.model.root.data.subtask_count) {\n"
+"            return deleteConfirmationDialogProps;\n"
+"        }\n"
+"        return {\n"
+"            ...deleteConfirmationDialogProps,\n"
+"            body: subTaskDeleteConfirmationMessage,\n"
+"        }\n"
+"    }\n"
+"\n"
+"    async openHistoryDialog() {\n"
+"        const record = this.model.root;\n"
+"        const versionedFieldName = 'description';\n"
+"        const historyMetadata = record.data[\"html_field_history_metadata\"]?.[versionedFieldName];\n"
+"        if (!historyMetadata) {\n"
+"            this.notifications.add(\n"
+"                escape(_t(\n"
+"                    \"La descripció de la tasca no inclou contingut anterior que es pugui restablir en aquest moment.\"\n"
+"                ))\n"
+"            );\n"
+"            return;\n"
+"        }\n"
+"\n"
+"        this.dialogService.add(\n"
+"            HistoryDialog,\n"
+"            {\n"
+"                title: _t(\"Historial de descripció de la tasca\"),\n"
+"                noContentHelper: markup(\n"
+"                    "
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__rating_count
@@ -645,7 +714,10 @@ msgstr "# Valoracions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:project.field_project_milestone__task_count
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -688,13 +760,21 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "#{task.stage_id.name}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "#{task.stage_id.name}"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/views/widget/subtask_counter.js:0
 msgid "%(closedCount)s sub-tasks closed out of %(totalCount)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(closedCount)s subtasques tancades de %(totalCount)s"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -706,19 +786,31 @@ msgstr "%(closed_task_count)s / %(task_count)s"
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 msgid "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/views/widget/subtask_counter.js:0
 msgid "%(count1)s/%(count2)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count1)s/%(count2)s"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 msgid "%(name)s Dashboard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tauler de %(name)s"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -748,7 +840,11 @@ msgstr "Anàlisi de tasques de %(name)s"
 #. odoo-python
 #: code:addons/project/models/res_partner.py:0
 msgid "%(partner_name)s's Tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tasques de %(partner_name)s"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -763,7 +859,11 @@ msgstr "%s (còpia)"
 #. odoo-javascript
 #: code:addons/project/static/src/components/notebook_task_one2many_field/notebook_task_list_renderer.js:0
 msgid "%s closed tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s tasques tancades"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.milestone_deadline
@@ -779,7 +879,11 @@ msgstr "(última actualització del projecte),"
 #. odoo-javascript
 #: code:addons/project/static/src/project_sharing/components/depend_on_ids_one2many/depend_on_ids_list_renderer.xml:0
 msgid "(other) tasks to which you do not have access."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(altres) tasques a les quals no tens accés."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_message_user_assigned
@@ -981,7 +1085,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1318,6 +1425,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1566,7 +1676,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1748,6 +1861,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1921,7 +2037,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2052,6 +2171,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2225,7 +2347,11 @@ msgstr "<span class=\"fw-normal\"> Tasques</span>"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 msgid "<span class=\"o_stat_text\">Blocked Tasks</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Tasques bloquejades</span>"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
@@ -2328,13 +2454,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "A new task has been created and is not part of any project."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "S'ha creat una nova tasca i no està associada a cap projecte."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "A new task has been created in the \"%(project_name)s\" project."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "S'ha creat una nova tasca en el projecte \"%(project_name)s\"."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -2443,6 +2577,11 @@ msgid ""
 "Activity plans are used to assign a list of activities in just a few clicks\n"
 "                    (e.g. \"Progress Report\", \"Stand-up Meeting\", ...)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Els plans d'activitats s'utilitzen per assignar una llista d'activitats amb només uns clics\n"
+"                    (per exemple, «informe de progrés», «reunió setmanal», etc.)"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -2454,13 +2593,21 @@ msgstr "Afegir fita"
 #. odoo-javascript
 #: code:addons/project/static/src/components/subtask_kanban_list/subtask_kanban_create/subtask_kanban_create.js:0
 msgid "Add Sub-tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegir subtasques"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Add a sub-task"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegir una subtasca"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -2635,13 +2782,21 @@ msgstr "Estructura"
 #. odoo-javascript
 #: code:addons/project/static/src/views/analytic_account_form/analytic_account_form_controller.js:0
 msgid "Archive Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arxivar compte"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/views/analytic_account_list/analytic_account_list_controller.js:0
 msgid "Archive Accounts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arxivar comptes"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_stage_delete_wizard
@@ -2684,7 +2839,11 @@ msgstr "Esteu segur que voleu esborrar aquest registre?"
 #. odoo-javascript
 #: code:addons/project/static/src/views/project_task_form/project_task_form_controller.js:0
 msgid "Are you sure you want to restore this version ?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Segur que vols restaurar aquesta versió?"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
@@ -2763,6 +2922,11 @@ msgid ""
 "Attach all documents or links to the task directly, to have all research "
 "information centralized."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Adjunta tots els documents o enllaços directament a la tasca per tenir tota "
+"la informació de recerca centralitzada."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_milestone__message_attachment_count
@@ -2780,7 +2944,11 @@ msgstr "Adjunts"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__attachment_ids
 msgid "Attachments that don't come from a message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adjunts que no venen d'un missatge"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_update__user_id
@@ -2880,7 +3048,11 @@ msgid "Average Rating (1-5)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valoració mitjana (1-5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoració mitjana (1-5)"
 >>>>>>> upstream/18.0
@@ -3075,7 +3247,11 @@ msgstr "Bloquejat per"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Blocked Tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tasques bloquejades"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.actions.act_window,name:project.project_sharing_project_task_action_blocking_tasks
@@ -3126,7 +3302,11 @@ msgstr "Cancel·lat"
 #: model:mail.message.subtype,name:project.mt_project_task_changes_requested
 #: model:mail.message.subtype,name:project.mt_task_changes_requested
 msgid "Changes Requested"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modificacions sol·licitades"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -3136,6 +3316,11 @@ msgid ""
 "name of a customer, of a product, of a team, of a construction site, "
 "etc.</i>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tria un <b>nom</b> per al teu projecte. <i>Pots posar-li el nom que vulguis:"
+" el nom del client, el nom d'un producte, d'un equip, etc.</i>"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -3149,7 +3334,11 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_share_wizard_view_form
 msgid "Choose one of the following access modes for your collaborators:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tria un dels següents modes d'accés per als teus col·laboradors:"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -3161,12 +3350,20 @@ msgstr "Revisió del client"
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Close the sub-tasks list"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tancar la llista de subtasques"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__closed_depend_on_count
 msgid "Closed Depending on Tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tancat segons les tasques"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
@@ -3229,7 +3426,11 @@ msgid "Closed state"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estat tancat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estat tancat"
 >>>>>>> upstream/18.0
@@ -3418,6 +3619,11 @@ msgid ""
 "Communicate with customers on the task using the email gateway. Attach logo designs to the task, so that information flows from\n"
 "      designers to the workers who print the t-shirt."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Comunica't amb els clients des de la tasca mitjançant la passarel·la de correu electrònic. Adjunta dissenys de logotip a la tasca, de manera que la informació flueixi des de\n"
+"      els dissenyadors fins als treballadors que imprimeixen la samarreta."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_task
@@ -4539,7 +4745,11 @@ msgstr "Bústia d'entrada"
 #. module: project
 #: model:project.tags,name:project.project_tags_09
 msgid "Interior"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Interior"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:project.tags,name:project.project_tags_04
@@ -4584,7 +4794,11 @@ msgstr "Valor no vàlid: %s"
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__privacy_visibility__followers
 msgid "Invited internal users (private)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usuaris interns convidats (privat)"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__privacy_visibility__portal
@@ -4593,7 +4807,11 @@ msgid "Invited portal users and all internal users (public)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usuaris del portal convidats i tots els usuaris interns (públic) "
+>>>>>>> upstream/18.0
 =======
 msgstr "Usuaris del portal convidats i tots els usuaris interns (públic) "
 >>>>>>> upstream/18.0
@@ -4737,7 +4955,11 @@ msgid "Last Rating (1-5)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Última valoració (1-5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Última valoració (1-5)"
 >>>>>>> upstream/18.0
@@ -5052,7 +5274,11 @@ msgstr "Marcar com fet"
 #. odoo-javascript
 #: code:addons/project/static/src/components/project_right_side_panel/components/project_milestone.xml:0
 msgid "Mark as incomplete"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marcar com a no completat"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -5064,7 +5290,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Mark the task as <b>Cancelled</b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marcar la tasca com a <b>Cancel·lada</b>"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -5249,7 +5479,11 @@ msgstr "Ordres noves"
 #. odoo-javascript
 #: code:addons/project/static/src/views/project_project_calendar/project_project_calendar_controller.js:0
 msgid "New Project"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nou projecte"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -5267,7 +5501,11 @@ msgstr "Nova sol·licitud"
 #. odoo-javascript
 #: code:addons/project/static/src/views/project_task_calendar/project_task_calendar_controller.js:0
 msgid "New Task"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nova tasca"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -5322,7 +5560,11 @@ msgid "No Customer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sense client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sense client"
 >>>>>>> upstream/18.0
@@ -5505,6 +5747,11 @@ msgstr "A la pista"
 #: code:addons/project/controllers/portal.py:0
 msgid "Only jpeg, png, bmp and tiff images are allowed as attachments."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Només s'accepten imatges en format jpeg, png, bmp i tiff com a imatges "
+"adjuntes."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -5740,7 +5987,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Els usuaris portuaris seran retirats dels seguidors del projecte i de les "
+=======
+"Els usuaris del portal seran retirats dels seguidors del projecte i de les "
+>>>>>>> upstream/18.0
 =======
 "Els usuaris del portal seran retirats dels seguidors del projecte i de les "
 >>>>>>> upstream/18.0
@@ -6099,7 +6350,11 @@ msgid "Rating (1-5)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valoració (1-5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoració (1-5)"
 >>>>>>> upstream/18.0
@@ -6226,7 +6481,11 @@ msgstr "Recurrent"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_layout
 msgid "Recurrent tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tasques recurrents"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_res_config_settings__group_project_recurring_tasks
@@ -6260,7 +6519,11 @@ msgstr "Model de document relacionat"
 #. odoo-javascript
 #: code:addons/project/static/src/core/web/follower_list_patch.js:0
 msgid "Remove Collaborator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eliminar col·laborador"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -6415,7 +6678,11 @@ msgid "Search in Customer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cercar en Client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cercar en Client"
 >>>>>>> upstream/18.0
@@ -6492,7 +6759,11 @@ msgstr "Enviar correu"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_share_collaborator_wizard__send_invitation
 msgid "Send Invitation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enviar invitació"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__sequence
@@ -6573,7 +6844,11 @@ msgstr "Comparteix el projecte"
 #: model:ir.actions.act_window,name:project.portal_share_action
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Share Task"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Compartir tasca"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__show_display_in_project
@@ -6591,7 +6866,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/project/static/src/components/notebook_task_one2many_field/notebook_task_list_renderer.js:0
 msgid "Show closed tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mostrar les tasques tancades"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
@@ -6891,7 +7170,11 @@ msgid "Task Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tasca cancel·lada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tasca cancel·lada"
 >>>>>>> upstream/18.0
@@ -7121,6 +7404,10 @@ msgstr "Títol de la tasca..."
 msgid ""
 "Task Transferred from Project %(source_project)s to %(destination_project)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tasca transferida del projecte %(source_project)s a %(destination_project)s"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_waiting
@@ -7137,7 +7424,11 @@ msgstr "Tasca aprovada"
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_canceled
 msgid "Task cancelled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tasca cancel·lada"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_done
@@ -7289,7 +7580,11 @@ msgstr ""
 #: code:addons/project/models/project_project.py:0
 msgid ""
 "The project and the associated partner must be linked to the same company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "El projecte i el contacte han d'estar associats a la mateixa empresa."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -7325,7 +7620,11 @@ msgstr ""
 #: code:addons/project/models/project_task.py:0
 msgid ""
 "The task and the associated partner must be linked to the same company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "La tasca i el contacte han d'estar associats a la mateixa empresa."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -7460,24 +7759,43 @@ msgid ""
 " the project's company to align with the stage's company or remove the "
 "company designation from the stage"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Aquest projecte no està associat a cap empresa, malgrat que l'etapa està "
+"associada a %s. Hi ha dues opcions: o bé canvies el projecte d'empresa "
+"perquè coincideixi amb la de l'etapa o elimines l'assignació d'empresa de "
+"l'etapa."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "This task has sub-tasks, so it can't be private."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aquesta tasca inclou subtasques i, per això, no pot ser privada."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_state_selection.xml:0
 msgid "This task is blocked by another unfinished task"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aquesta tasca està bloquejada per una altra no finalitzada"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/project_sharing/components/depend_on_ids_one2many/depend_on_ids_list_renderer.xml:0
 msgid "This task is currently blocked by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aquesta tasca està bloquejada per"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_confirmation_wizard
@@ -7797,6 +8115,12 @@ msgid ""
 "customers. Add new people to the followers' list to make them aware of the "
 "main changes about this task."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Utilitza el chatter per <b>enviar correus electrònics</b> i comunicar-te "
+"eficientment amb els teus clients. Afegeix més gent a la llista de seguidors"
+" i notifica'ls sobre els canvis principals d'aquesta tasca."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__display_name
@@ -7810,6 +8134,17 @@ msgid ""
 "\n"
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Utilitza aquestes paraules clau al títol per crear noves tasques:\n"
+"\n"
+"        30 h Assigna 30 hores a la tasca\n"
+"        #etiquetes Afegeix etiquetes a la tasca\n"
+"        @usuari Assigna la tasca a un usuari\n"
+"        ! Marca la tasca com a prioritària\n"
+"\n"
+"        Assegura't d'utilitzar el forma i l'ordre correctes. Exemple: millorar la pantalla de configuració 5 h #funcionalitat #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:res.groups,name:project.group_project_user
@@ -7984,7 +8319,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "You can change the sub-task state here!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pots modificar l'estat de la subtasca aquí!"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -8004,6 +8343,11 @@ msgid ""
 "You cannot delete stages containing projects. You can either archive them or"
 " first delete all of their projects."
 msgstr ""
+<<<<<<< HEAD
+=======
+"No pots eliminar les etapes que contenen projectes. Pots arxivar-les o "
+"eliminar primer els projectes."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_stage_delete_wizard
@@ -8011,6 +8355,11 @@ msgid ""
 "You cannot delete stages containing projects. You should first delete all of"
 " their projects."
 msgstr ""
+<<<<<<< HEAD
+=======
+"No pots eliminar les etapes que contenen projectes. Primer hauries "
+"d'eliminar tots els projectes."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_wizard
@@ -8057,7 +8406,11 @@ msgstr "Ha estat assignat al"
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "You have been invited to follow %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Has estat convidat a seguir %s"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.task_invitation_follower
@@ -8227,7 +8580,11 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__rating_status__periodic
 msgid "on a periodic basis"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "de forma periòdica"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
@@ -8325,12 +8682,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "state.message"
 msgstr ""
 
 #. module: project
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

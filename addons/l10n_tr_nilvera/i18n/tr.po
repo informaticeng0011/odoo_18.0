@@ -4,10 +4,17 @@
 #
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-28 16:01+0000\n"
 "PO-Revision-Date: 2025-03-28 16:01+0000\n"
+=======
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-22 11:34+0000\n"
+"PO-Revision-Date: 2025-08-22 11:34+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -47,7 +54,10 @@ msgstr "Takma ad"
 #. module: l10n_tr_nilvera
 #. odoo-python
 #: code:addons/l10n_tr_nilvera/models/res_config_settings.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "An error occurred. Try again later."
 msgstr "Bir hata oluştu. Daha sonra tekrar deneyin."
 
@@ -224,6 +234,14 @@ msgid "Name"
 msgstr "İsim"
 
 #. module: l10n_tr_nilvera
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera.res_config_settings_view_form
+msgid "Nilvera"
+msgstr ""
+
+#. module: l10n_tr_nilvera
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_tr_nilvera.field_account_journal__l10n_tr_nilvera_api_key
 #: model:ir.model.fields,field_description:l10n_tr_nilvera.field_res_company__l10n_tr_nilvera_api_key
 #: model:ir.model.fields,field_description:l10n_tr_nilvera.field_res_config_settings__l10n_tr_nilvera_api_key
@@ -256,7 +274,10 @@ msgstr "Nilvera Durumu"
 #. module: l10n_tr_nilvera
 #. odoo-python
 #: code:addons/l10n_tr_nilvera/models/res_config_settings.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Nilvera connection successful but the tax number on Nilvera and Odoo doesn't"
 " match. Check Nilvera."
@@ -267,14 +288,20 @@ msgstr ""
 #. module: l10n_tr_nilvera
 #. odoo-python
 #: code:addons/l10n_tr_nilvera/models/res_config_settings.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Nilvera connection successful!"
 msgstr "Nilvera bağlantısı başarılı!"
 
 #. module: l10n_tr_nilvera
 #. odoo-python
 #: code:addons/l10n_tr_nilvera/models/res_config_settings.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Nilvera connection was unsuccessful, check the API key."
 msgstr "Nilvera bağlantısı başarısız oldu, API anahtarını kontrol edin."
 
@@ -314,6 +341,14 @@ msgid "Partner"
 msgstr "Ortak"
 
 #. module: l10n_tr_nilvera
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:l10n_tr_nilvera.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "Ürün Ölçü Birimi"
+
+#. module: l10n_tr_nilvera
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_tr_nilvera.selection__res_company__l10n_tr_nilvera_environment__production
 msgid "Production"
 msgstr "Üretim"
@@ -344,8 +379,13 @@ msgid "Test"
 msgstr ""
 
 #. module: l10n_tr_nilvera
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:l10n_tr_nilvera.selection__res_partner__ubl_cii_format__ubl_tr
 msgid "UBL TR 1.2"
+=======
+#: model:ir.model.fields.selection,name:l10n_tr_nilvera.selection__res_partner__invoice_edi_format__ubl_tr
+msgid "Türkiye (UBL TR 1.2)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_tr_nilvera

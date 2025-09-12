@@ -3,7 +3,11 @@ import { createRelatedModels } from "@point_of_sale/app/models/related_models";
 import { registry } from "@web/core/registry";
 import { Mutex } from "@web/core/utils/concurrency";
 import { markRaw } from "@odoo/owl";
+<<<<<<< HEAD
 import { batched } from "@web/core/utils/timing";
+=======
+import { debounce } from "@web/core/utils/timing";
+>>>>>>> upstream/18.0
 import IndexedDB from "./utils/indexed_db";
 import { DataServiceOptions } from "./data_service_options";
 import { getOnNotified, uuidv4 } from "@point_of_sale/utils";
@@ -45,12 +49,20 @@ export class PosData extends Reactive {
         this.initIndexedDB();
         await this.initData();
 
+<<<<<<< HEAD
         effect(
             batched((records) => {
                 this.syncDataWithIndexedDB(records);
             }),
             [this.records]
         );
+=======
+        this._debouncedSync = debounce((records) => {
+            this.syncDataWithIndexedDB(records);
+        }, 200);
+
+        effect(this._debouncedSync, [this.records]);
+>>>>>>> upstream/18.0
 
         browser.addEventListener("online", () => {
             if (this.network.offline) {
@@ -284,6 +296,7 @@ export class PosData extends Reactive {
 
         const order = data["pos.order"] || [];
         const orderlines = data["pos.order.line"] || [];
+<<<<<<< HEAD
 
         delete data["pos.order"];
         delete data["pos.order.line"];
@@ -558,6 +571,22 @@ export class PosData extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        const payments = data["pos.payment"] || [];
+
+        delete data["pos.order"];
+        delete data["pos.order.line"];
+        delete data["pos.payment"];
+
+        this.models.loadData(data, this.modelToLoad);
+        const dbData = await this.loadIndexedDBData();
+        this.models.loadData({
+            "pos.order": order,
+            "pos.order.line": orderlines,
+            "pos.payment": payments,
+        });
+        this.loadedIndexedDBProducts = dbData ? dbData["product.product"] : [];
+>>>>>>> upstream/18.0
         this.sanitizeData();
         this.network.loading = false;
     }
@@ -567,6 +596,7 @@ export class PosData extends Reactive {
             order.lines.some((line) => line.is_reward_line && !line.coupon_id)
         );
         for (const order of order_to_delete) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -832,6 +862,8 @@ export class PosData extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             for (let i = order.lines.length - 1; i >= 0; i--) {
                 order.lines[i].delete();
             }
@@ -907,6 +939,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* stock
+<<<<<<< HEAD
 # 
 # Translators:
 # JernejEditor, 2024
@@ -313,10 +314,22 @@
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# JernejEditor, 2024
+# Grega Vavtar <grega@hbs.si>, 2025
+# Tadej Lupšina <tadej@hbs.si>, 2025
+# Katja Deržič, 2025
+# Wil Odoo, 2025
+# Aleš Pipan, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -628,6 +641,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: sl\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-08-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Aleš Pipan, 2025\n"
+"Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -635,7 +660,12 @@ msgstr ""
 msgid ""
 "\n"
 "\n"
+<<<<<<< HEAD
 "Transfers %(transfer_list)s: You need to supply a Lot/Serial number for products %(product_list)s."
+=======
+"Transfers %(transfer_list)s: You need to supply a Lot/Serial number for "
+"products %(product_list)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -651,14 +681,22 @@ msgstr ""
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "\n"
+<<<<<<< HEAD
 "The quantity done for the product %(product)s doesn't respect the rounding precision defined on the unit of measure %(unit)s.\n"
 "Please change the quantity done or the rounding precision of your unit of measure."
+=======
+"The quantity done for the product %(product)s doesn't respect the rounding "
+"precision defined on the unit of measure %(unit)s.\n"
+"Please change the quantity done or the rounding precision of your unit of "
+"measure."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__state
 msgid ""
 " * Draft: The transfer is not confirmed yet. Reservation doesn't apply.\n"
+<<<<<<< HEAD
 " * Waiting another operation: This transfer is waiting for another operation before being ready.\n"
 " * Waiting: The transfer is waiting for the availability of some products.\n"
 "(a) The shipping policy is \"As soon as possible\": no product could be reserved.\n"
@@ -666,6 +704,20 @@ msgid ""
 " * Ready: The transfer is ready to be processed.\n"
 "(a) The shipping policy is \"As soon as possible\": at least one product has been reserved.\n"
 "(b) The shipping policy is \"When all products are ready\": all product have been reserved.\n"
+=======
+" * Waiting another operation: This transfer is waiting for another operation "
+"before being ready.\n"
+" * Waiting: The transfer is waiting for the availability of some products.\n"
+"(a) The shipping policy is \"As soon as possible\": no product could be "
+"reserved.\n"
+"(b) The shipping policy is \"When all products are ready\": not all the "
+"products could be reserved.\n"
+" * Ready: The transfer is ready to be processed.\n"
+"(a) The shipping policy is \"As soon as possible\": at least one product has "
+"been reserved.\n"
+"(b) The shipping policy is \"When all products are ready\": all product have "
+"been reserved.\n"
+>>>>>>> upstream/18.0
 " * Done: The transfer has been processed.\n"
 " * Cancelled: The transfer has been cancelled."
 msgstr ""
@@ -747,8 +799,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid ""
+<<<<<<< HEAD
 "%(operations)s have default source or destination locations within warehouse"
 " %(warehouse)s, therefore you cannot archive it."
+=======
+"%(operations)s have default source or destination locations within warehouse "
+"%(warehouse)s, therefore you cannot archive it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -761,9 +818,14 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 "%(product_name)s --> Product UoM is %(product_uom)s "
 "(%(product_uom_category)s) - Move UoM is %(move_uom)s "
 "(%(move_uom_category)s)"
+=======
+"%(product_name)s --> Product UoM is %(product_uom)s (%"
+"(product_uom_category)s) - Move UoM is %(move_uom)s (%(move_uom_category)s)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -838,8 +900,12 @@ msgstr ""
 
 #. module: stock
 #: model:ir.actions.report,print_report_name:stock.action_report_delivery
+<<<<<<< HEAD
 msgid ""
 "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+=======
+msgid "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -901,7 +967,12 @@ msgstr ""
 msgid ""
 "* New: The stock move is created but not confirmed.\n"
 "* Waiting Another Move: A linked stock move should be done before this one.\n"
+<<<<<<< HEAD
 "* Waiting Availability: The stock move is confirmed but the product can't be reserved.\n"
+=======
+"* Waiting Availability: The stock move is confirmed but the product can't be "
+"reserved.\n"
+>>>>>>> upstream/18.0
 "* Available: The product of the stock move is reserved.\n"
 "* Done: The product has been transferred and the transfer has been confirmed."
 msgstr ""
@@ -913,6 +984,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_move_line__location_dest_usage
 #: model:ir.model.fields,help:stock.field_stock_move_line__location_usage
 msgid ""
+<<<<<<< HEAD
 "* Vendor Location: Virtual location representing the source location for products coming from your vendors\n"
 "* View: Virtual location used to create a hierarchical structures for your warehouse, aggregating its child locations ; can't directly contain products\n"
 "* Internal Location: Physical locations inside your own warehouses,\n"
@@ -920,6 +992,22 @@ msgid ""
 "* Inventory Loss: Virtual location serving as counterpart for inventory operations used to correct stock levels (Physical inventories)\n"
 "* Production: Virtual counterpart location for production operations: this location consumes the components and produces finished products\n"
 "* Transit Location: Counterpart location that should be used in inter-company or inter-warehouses operations"
+=======
+"* Vendor Location: Virtual location representing the source location for "
+"products coming from your vendors\n"
+"* View: Virtual location used to create a hierarchical structures for your "
+"warehouse, aggregating its child locations ; can't directly contain "
+"products\n"
+"* Internal Location: Physical locations inside your own warehouses,\n"
+"* Customer Location: Virtual location representing the destination location "
+"for products sent to your customers\n"
+"* Inventory Loss: Virtual location serving as counterpart for inventory "
+"operations used to correct stock levels (Physical inventories)\n"
+"* Production: Virtual counterpart location for production operations: this "
+"location consumes the components and produces finished products\n"
+"* Transit Location: Counterpart location that should be used in inter-"
+"company or inter-warehouses operations"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -1002,7 +1090,11 @@ msgid "1 Day"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 Dan"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 Dan"
 >>>>>>> upstream/18.0
@@ -1259,7 +1351,11 @@ msgid "2023-01-01"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2023-01-01"
+>>>>>>> upstream/18.0
 =======
 msgstr "2023-01-01"
 >>>>>>> upstream/18.0
@@ -1515,7 +1611,11 @@ msgid "3.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "3.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "3.00"
 >>>>>>> upstream/18.0
@@ -1757,8 +1857,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 "<br>If the products are not available in <b>%s</b>, a rule will be triggered"
 " to bring the missing quantity in this location."
+=======
+"<br>If the products are not available in <b>%s</b>, a rule will be triggered "
+"to bring the missing quantity in this location."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -1774,6 +1879,7 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 "        Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
 "        We are glad to inform you that your order has been shipped.\n"
 "        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref\">\n"
@@ -1788,6 +1894,28 @@ msgid ""
 "                </t>\n"
 "                <t t-else=\"\">\n"
 "                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
+=======
+"        Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,"
+"<br/><br/>\n"
+"        We are glad to inform you that your order has been shipped.\n"
+"        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and "
+"object.carrier_tracking_ref\">\n"
+"            Your tracking reference is\n"
+"            <strong>\n"
+"            <t t-if=\"object.carrier_tracking_url\">\n"
+"                <t t-set=\"multiple_carrier_tracking\" t-"
+"value=\"object.get_multiple_carrier_tracking()\"/>\n"
+"                <t t-if=\"multiple_carrier_tracking\">\n"
+"                    <t t-foreach=\"multiple_carrier_tracking\" t-"
+"as=\"line\">\n"
+"                        <br/><a t-att-href=\"line[1]\" target=\"_blank\" t-"
+"out=\"line[0] or ''\"/>\n"
+"                    </t>\n"
+"                </t>\n"
+"                <t t-else=\"\">\n"
+"                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" "
+"target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "            </t>\n"
 "            <t t-else=\"\">\n"
@@ -1796,11 +1924,21 @@ msgid ""
 "            </strong>\n"
 "        </t>\n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
 "        Please find your delivery order attached for more details.<br/><br/>\n"
 "        Thank you,\n"
 "        <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "            <br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        Please find your delivery order attached for more details.<br/><br/"
+">\n"
+"        Thank you,\n"
+"        <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
+"            <br/>\n"
+"            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br "
+"data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
@@ -1809,17 +1947,34 @@ msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_scrap_view_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+msgstr ""
+"<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
+<<<<<<< HEAD
 "                                All products could not be reserved. Click on the \"Check Availability\" button to try to reserve products."
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
 "                                Vseh izdelkov ni bilo mogoče rezervirati. Kliknite na gumb \"Preveri razpoložljivost\", da poskusite rezervirati izdelke."
+=======
+"                                All products could not be reserved. Click on "
+"the \"Check Availability\" button to try to reserve products."
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle\"/>\n"
+"                                Vseh izdelkov ni bilo mogoče rezervirati. "
+"Kliknite na gumb \"Preveri razpoložljivost\", da poskusite rezervirati "
+"izdelke."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
@@ -1998,12 +2153,18 @@ msgstr ""
 
 #. module: stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
 msgid "<strong>Delivered</strong>"
 msgstr "<strong>Dostavljeno</strong>"
 
 #. module: stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Delivery address</strong>"
@@ -2013,8 +2174,13 @@ msgstr "<strong>Naslov za dostavo</strong>"
 #: model_terms:ir.ui.view,arch_db:stock.stock_inventory_conflict_form_view
 msgid ""
 "<strong>Due to some stock moves done between your initial update of the "
+<<<<<<< HEAD
 "quantity and now, the difference of quantity is not consistent "
 "anymore.</strong>"
+=======
+"quantity and now, the difference of quantity is not consistent anymore.</"
+"strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -2045,12 +2211,18 @@ msgstr ""
 
 #. module: stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
 msgid "<strong>Ordered</strong>"
 msgstr "<strong>Naročeno</strong>"
 
 #. module: stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
 msgid "<strong>Pack Date:</strong>"
@@ -2182,8 +2354,13 @@ msgstr "Potreben je ukrep"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location__replenish_location
 msgid ""
+<<<<<<< HEAD
 "Activate this function to get all quantities to replenish at this particular"
 " location"
+=======
+"Activate this function to get all quantities to replenish at this particular "
+"location"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -2261,8 +2438,17 @@ msgstr "Dodajte interno opombo, ki bo natisnjena na prevzemnem listu."
 #. module: stock
 #: model:ir.model.fields,help:stock.field_res_config_settings__group_stock_adv_location
 msgid ""
+<<<<<<< HEAD
 "Add and customize route operations to process product moves in your warehouse(s): e.g. unload > quality control > stock for incoming products, pick > pack > ship for outgoing products. \n"
 " You can also set putaway strategies on warehouse locations in order to send incoming products into specific child locations straight away (e.g. specific bins, racks)."
+=======
+"Add and customize route operations to process product moves in your "
+"warehouse(s): e.g. unload > quality control > stock for incoming products, "
+"pick > pack > ship for outgoing products. \n"
+" You can also set putaway strategies on warehouse locations in order to send "
+"incoming products into specific child locations straight away (e.g. specific "
+"bins, racks)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -2855,6 +3041,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Spodnje besedilo služi kot predlog in ne prevzema odgovornosti podjetja Odoo"
 " S.A."
@@ -3154,6 +3341,10 @@ msgstr ""
 =======
 "Spodnje besedilo služi kot predlog in ne prevzema odgovornosti podjetja Odoo"
 " S.A."
+>>>>>>> upstream/18.0
+=======
+"Spodnje besedilo služi kot predlog in ne prevzema odgovornosti podjetja Odoo "
+"S.A."
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -3330,8 +3521,13 @@ msgstr "Spremeni količino"
 #. odoo-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "Changing the Lot/Serial number for move lines with different products is not"
 " allowed."
+=======
+"Changing the Lot/Serial number for move lines with different products is not "
+"allowed."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -3508,14 +3704,24 @@ msgstr "Obdelava stroškov dostave in odprema preko DHL"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+=======
+msgid ""
+"Compute shipping costs and ship with DHL<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to "
+"install)</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with Easypost"
 msgstr "Obdelava stroškov dostave in odprema preko Easypost"
@@ -3528,14 +3734,24 @@ msgstr "Obdelava stroškov dostave in odprema preko FedEx"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with FedEx<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+=======
+msgid ""
+"Compute shipping costs and ship with FedEx<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to "
+"install)</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with Sendcloud"
 msgstr ""
@@ -3558,14 +3774,24 @@ msgstr "Obdelava stroškov dostave in odprema preko UPS"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with UPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+=======
+msgid ""
+"Compute shipping costs and ship with UPS<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to "
+"install)</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with USPS"
 msgstr "Obdelava stroškov dostave in odprema preko USPS"
@@ -3573,14 +3799,24 @@ msgstr "Obdelava stroškov dostave in odprema preko USPS"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with USPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+=======
+msgid ""
+"Compute shipping costs and ship with USPS<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to "
+"install)</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with bpost"
 msgstr "Obdelava stroškov dostave in odprema preko bpost"
@@ -3639,7 +3875,12 @@ msgstr "Konflikti"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__visibility_days
 msgid ""
+<<<<<<< HEAD
 "Consider product forecast these many days in the future upon product replenishment, set to 0 for just-in-time.\n"
+=======
+"Consider product forecast these many days in the future upon product "
+"replenishment, set to 0 for just-in-time.\n"
+>>>>>>> upstream/18.0
 "The value depends on the type of the route (Buy or Manufacture)"
 msgstr ""
 
@@ -3718,7 +3959,11 @@ msgid "Control panel buttons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gumbi nadzorne plošče"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gumbi nadzorne plošče"
 >>>>>>> upstream/18.0
@@ -3918,7 +4163,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation
 msgid ""
 "Create a backorder if you expect to process the remaining\n"
+<<<<<<< HEAD
 "                            products later. Do not create a backorder if you will not\n"
+=======
+"                            products later. Do not create a backorder if you "
+"will not\n"
+>>>>>>> upstream/18.0
 "                            process the remaining products."
 msgstr ""
 
@@ -4077,7 +4327,11 @@ msgid "Creation date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum nastanka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum nastanka"
 >>>>>>> upstream/18.0
@@ -4130,6 +4384,7 @@ msgstr "Tekoča zaloga"
 #: model:ir.model.fields,help:stock.field_product_product__qty_available
 msgid ""
 "Current quantity of products.\n"
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -4139,6 +4394,24 @@ msgstr ""
 "V kontekstu posamezne lokacije zaloge vključuje blago shranjeno na tej lokaciji ali njej podrejenih lokacijah.\n"
 "V kontekstu posameznega skladišča vključuje blago shranjeno na lokaciji zaloge tega skladišča ali njemu podrejenih.\n"
 "Drugače vključuje blago shranjeno na katerikoli lokaciji zaloge tipa 'Interna'."
+=======
+"In a context with a single Stock Location, this includes goods stored at "
+"this Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the "
+"Stock Location of this Warehouse, or any of its children.\n"
+"stored in the Stock Location of the Warehouse of this Shop, or any of its "
+"children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' "
+"type."
+msgstr ""
+"Trenutna količina proizvodov.\n"
+"V kontekstu posamezne lokacije zaloge vključuje blago shranjeno na tej "
+"lokaciji ali njej podrejenih lokacijah.\n"
+"V kontekstu posameznega skladišča vključuje blago shranjeno na lokaciji "
+"zaloge tega skladišča ali njemu podrejenih.\n"
+"Drugače vključuje blago shranjeno na katerikoli lokaciji zaloge tipa "
+"'Interna'."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__product_label_layout__move_quantity__custom
@@ -4227,12 +4500,18 @@ msgstr ""
 
 #. module: stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "DHL Connector"
 msgstr ""
 
 #. module: stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_dhl
 msgid "DHL Express Connector"
@@ -4311,8 +4590,15 @@ msgstr "Dan v mesecu"
 #: model:ir.model.fields,help:stock.field_res_company__annual_inventory_day
 #: model:ir.model.fields,help:stock.field_res_config_settings__annual_inventory_day
 msgid ""
+<<<<<<< HEAD
 "Day of the month when the annual inventory should occur. If zero or negative, then the first day of the month will be selected instead.\n"
 "        If greater than the last day of a month, then the last day of the month will be selected instead."
+=======
+"Day of the month when the annual inventory should occur. If zero or "
+"negative, then the first day of the month will be selected instead.\n"
+"        If greater than the last day of a month, then the last day of the "
+"month will be selected instead."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -4435,12 +4721,27 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location__removal_strategy_id
 msgid ""
+<<<<<<< HEAD
 "Defines the default method used for suggesting the exact location (shelf) where to take the products from, which lot etc. for this location. This method can be enforced at the product category level, and a fallback is made on the parent locations if none is set here.\n"
 "\n"
 "FIFO: products/lots that were stocked first will be moved out first.\n"
 "LIFO: products/lots that were stocked last will be moved out first.\n"
 "Closet location: products/lots closest to the target location will be moved out first.\n"
 "FEFO: products/lots with the closest removal date will be moved out first (the availability of this method depends on the \"Expiration Dates\" setting)."
+=======
+"Defines the default method used for suggesting the exact location (shelf) "
+"where to take the products from, which lot etc. for this location. This "
+"method can be enforced at the product category level, and a fallback is made "
+"on the parent locations if none is set here.\n"
+"\n"
+"FIFO: products/lots that were stocked first will be moved out first.\n"
+"LIFO: products/lots that were stocked last will be moved out first.\n"
+"Closet location: products/lots closest to the target location will be moved "
+"out first.\n"
+"FEFO: products/lots with the closest removal date will be moved out first "
+"(the availability of this method depends on the \"Expiration Dates\" "
+"setting)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -4786,7 +5087,11 @@ msgid "Destination location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ciljna lokacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ciljna lokacija"
 >>>>>>> upstream/18.0
@@ -5107,6 +5412,10 @@ msgstr ""
 
 #. module: stock
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -5231,10 +5540,17 @@ msgstr ""
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
+<<<<<<< HEAD
 "Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
+=======
+"Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast "
+"and works even without a stable internet connection. It supports all flows: "
+"inventory adjustments, batch picking, moving lots or pallets, low inventory "
+"checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -5256,7 +5572,11 @@ msgid "Ensure the traceability of a storable product in your warehouse."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zagotovite sledljivost skladiščenega izdelka v vašem skladišču."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zagotovite sledljivost skladiščenega izdelka v vašem skladišču."
 >>>>>>> upstream/18.0
@@ -5355,7 +5675,11 @@ msgstr "Priljubljeno"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__favorite_user_ids
 msgid "Favorite User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Priljubljeni uporabnik"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_pickingtype_filter
@@ -5370,6 +5694,10 @@ msgstr "Februar"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_fedex
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -5476,6 +5804,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_product_product__virtual_available
 msgid ""
 "Forecast quantity (computed as Quantity On Hand - Outgoing + Incoming)\n"
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -5484,14 +5813,39 @@ msgstr ""
 "V kontekstu posamezne lokacije zaloge vključuje blago shranjeno na tej lokaciji in njej podrejenih.\n"
 "V kontekstu posameznega skladišča vključuje blago shranjeno na lokaciji zaloge tega skladišča in njemu podrejenih.\n"
 "Drugače vključuje blago shranjeno na katerikoli lokaciji zaloge tipa 'interna'."
+=======
+"In a context with a single Stock Location, this includes goods stored in "
+"this location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the "
+"Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' "
+"type."
+msgstr ""
+"Napoved količine (izračunana kot količina pri roki - izhodna + vhodna)\n"
+"V kontekstu posamezne lokacije zaloge vključuje blago shranjeno na tej "
+"lokaciji in njej podrejenih.\n"
+"V kontekstu posameznega skladišča vključuje blago shranjeno na lokaciji "
+"zaloge tega skladišča in njemu podrejenih.\n"
+"Drugače vključuje blago shranjeno na katerikoli lokaciji zaloge tipa "
+"'interna'."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_product__free_qty
 msgid ""
 "Forecast quantity (computed as Quantity On Hand - reserved quantity)\n"
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
+=======
+"In a context with a single Stock Location, this includes goods stored in "
+"this location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the "
+"Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' "
+"type."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -5702,8 +6056,13 @@ msgstr "Prejemanje informativnih opozoril za partnerje"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_putaway_rule__sequence
 msgid ""
+<<<<<<< HEAD
 "Give to the more specialized category, a higher priority to have them in top"
 " of the list."
+=======
+"Give to the more specialized category, a higher priority to have them in top "
+"of the list."
+>>>>>>> upstream/18.0
 msgstr ""
 "Važnejšim kategorijam dajte višjo prioriteto, da bodo višje na seznamu."
 
@@ -5858,7 +6217,11 @@ msgid "Horizon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obzorje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obzorje"
 >>>>>>> upstream/18.0
@@ -6014,8 +6377,13 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "If a separator is defined, a QR code containing all serial numbers contained"
 " in package will be generated, using the defined character(s) to separate "
+=======
+"If a separator is defined, a QR code containing all serial numbers contained "
+"in package will be generated, using the defined character(s) to separate "
+>>>>>>> upstream/18.0
 "each numbers"
 msgstr ""
 
@@ -6045,8 +6413,13 @@ msgstr "Če je označeno, nekatera sporočila vsebujejo napako pri dostavi."
 #: model:ir.model.fields,help:stock.field_stock_move__propagate_cancel
 msgid "If checked, when this move is cancelled, cancel the linked move too"
 msgstr ""
+<<<<<<< HEAD
 "Če je označeno, velja, da se ob preklicu tega premika prekliče tudi povezani"
 " premik"
+=======
+"Če je označeno, velja, da se ob preklicu tega premika prekliče tudi povezani "
+"premik"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_line__result_package_id
@@ -6056,8 +6429,13 @@ msgstr "Če je nastavljeno, se operacije pakira v to pakiranje"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_lot_label_layout__label_quantity
 msgid ""
+<<<<<<< HEAD
 "If the UoM of a lot is not 'units', the lot will be considered as a unit and"
 " only one label will be printed for this lot."
+=======
+"If the UoM of a lot is not 'units', the lot will be considered as a unit and "
+"only one label will be printed for this lot."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -6073,8 +6451,12 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the route "
 "without removing it."
 msgstr ""
+<<<<<<< HEAD
 "Če je polje neoznačeno, bo omogočilo skrivanje proge, ne da bi jo "
 "odstranili."
+=======
+"Če je polje neoznačeno, bo omogočilo skrivanje proge, ne da bi jo odstranili."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_storage_category__allow_new_product__empty
@@ -6117,8 +6499,13 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_product_labels
 msgid ""
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a picking when it is validated."
+=======
+"If this checkbox is ticked, Odoo will automatically print the product labels "
+"of a picking when it is validated."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -6138,8 +6525,13 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_return_slip
 msgid ""
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the return slip of"
 " a picking when it is validated."
+=======
+"If this checkbox is ticked, Odoo will automatically print the return slip of "
+"a picking when it is validated."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -6154,8 +6546,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_operations
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_operations
 msgid ""
+<<<<<<< HEAD
 "If this checkbox is ticked, the pickings lines will represent detailed stock"
 " operations. If not, the picking lines will represent an aggregate of "
+=======
+"If this checkbox is ticked, the pickings lines will represent detailed stock "
+"operations. If not, the picking lines will represent an aggregate of "
+>>>>>>> upstream/18.0
 "detailed stock operations."
 msgstr ""
 
@@ -6181,8 +6578,13 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__return_id
 msgid ""
+<<<<<<< HEAD
 "If this picking was created as a return of another picking, this field links"
 " to the original picking."
+=======
+"If this picking was created as a return of another picking, this field links "
+"to the original picking."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -6191,8 +6593,13 @@ msgid ""
 "If this shipment was split, then this field links to the shipment which "
 "contains the already processed part."
 msgstr ""
+<<<<<<< HEAD
 "Če je bila odprema deljena, to polje poveže k odpremi, ki vsebuje že izveden"
 " del."
+=======
+"Če je bila odprema deljena, to polje poveže k odpremi, ki vsebuje že izveden "
+"del."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__picking_type_entire_packs
@@ -6252,8 +6659,15 @@ msgstr "Vhodni tip"
 #: model:ir.model.fields,help:stock.field_stock_move__date_deadline
 #: model:ir.model.fields,help:stock.field_stock_picking__date_deadline
 msgid ""
+<<<<<<< HEAD
 "In case of outgoing flow, validate the transfer before this date to allow to deliver at promised date to the customer.\n"
 "        In case of incoming flow, validate the transfer before this date in order to have these products in stock at the date promised by the supplier"
+=======
+"In case of outgoing flow, validate the transfer before this date to allow to "
+"deliver at promised date to the customer.\n"
+"        In case of incoming flow, validate the transfer before this date in "
+"order to have these products in stock at the date promised by the supplier"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -6310,8 +6724,13 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_quant__inventory_diff_quantity
 msgid ""
+<<<<<<< HEAD
 "Indicates the gap between the product's theoretical quantity and its counted"
 " quantity."
+=======
+"Indicates the gap between the product's theoretical quantity and its counted "
+"quantity."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -6412,8 +6831,13 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_lot__ref
 msgid ""
+<<<<<<< HEAD
 "Internal reference number in case it differs from the manufacturer's "
 "lot/serial number"
+=======
+"Internal reference number in case it differs from the manufacturer's lot/"
+"serial number"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -6681,7 +7105,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Janez Novak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Janez Novak"
 >>>>>>> upstream/18.0
@@ -6862,7 +7290,11 @@ msgid "Kanban Dashboard Graph"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Graf nadzorne plošče Kanban"
+>>>>>>> upstream/18.0
 =======
 msgstr "Graf nadzorne plošče Kanban"
 >>>>>>> upstream/18.0
@@ -7151,7 +7583,11 @@ msgid "Last 3 Months"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnji 3 meseci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadnji 3 meseci"
 >>>>>>> upstream/18.0
@@ -7307,7 +7743,11 @@ msgstr "Zadnjič posodobljeno"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_putaway_rule__sublocation__last_used
 msgid "Last Used"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazadnje uporabljeno"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_quant__last_count_date
@@ -7645,7 +8085,12 @@ msgstr "Loti/Serijske številke"
 #: model_terms:ir.actions.act_window,help:stock.action_production_lot_form
 msgid ""
 "Lots/Serial numbers help you tracking the path followed by your products.\n"
+<<<<<<< HEAD
 "            From their traceability report you will see the full history of their use, as well as their composition."
+=======
+"            From their traceability report you will see the full history of "
+"their use, as well as their composition."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -7692,8 +8137,12 @@ msgstr "Upravljanje potisnih in vlečnih tokov inventarja"
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Manage product packagings (e.g. pack of 6 bottles, box of 10 pieces)"
 msgstr ""
+<<<<<<< HEAD
 "Upravljajte z embalažo izdelkov (npr. paket 6 plastenk, škatla z 10-imi "
 "kosi)"
+=======
+"Upravljajte z embalažo izdelkov (npr. paket 6 plastenk, škatla z 10-imi kosi)"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse_orderpoint__trigger__manual
@@ -7901,8 +8350,13 @@ msgstr "Zgodovina premikov"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__group_id
 msgid ""
+<<<<<<< HEAD
 "Moves created through this orderpoint will be put in this procurement group."
 " If none is given, the moves generated by stock rules will be grouped into "
+=======
+"Moves created through this orderpoint will be put in this procurement group. "
+"If none is given, the moves generated by stock rules will be grouped into "
+>>>>>>> upstream/18.0
 "one big picking."
 msgstr ""
 
@@ -7935,8 +8389,13 @@ msgstr "Moj rok dejavnosti"
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
+<<<<<<< HEAD
 "My Company (Chicago) undertakes to do its best to supply performant services"
 " in due time in accordance with the agreed timeframes. However, none of its "
+=======
+"My Company (Chicago) undertakes to do its best to supply performant services "
+"in due time in accordance with the agreed timeframes. However, none of its "
+>>>>>>> upstream/18.0
 "obligations can be considered as being an obligation to achieve results. My "
 "Company (Chicago) cannot under any circumstances, be required by the client "
 "to appear as a third party in the context of any claim for damages filed "
@@ -8207,7 +8666,11 @@ msgid "No product found. Let's create one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ni najdenega izdelka. Ustvarimo enega!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ni najdenega izdelka. Ustvarimo enega!"
 >>>>>>> upstream/18.0
@@ -8550,9 +9013,18 @@ msgstr "Oktober"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid ""
+<<<<<<< HEAD
 "Odoo opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
 "                                        install the IoT App on a computer that is on the same local network as the\n"
 "                                        barcode operator and configure the routing of the reports.\n"
+=======
+"Odoo opens a PDF preview by default. If you (Enterprise users only) want to "
+"print instantly,\n"
+"                                        install the IoT App on a computer "
+"that is on the same local network as the\n"
+"                                        barcode operator and configure the "
+"routing of the reports.\n"
+>>>>>>> upstream/18.0
 "                                        <br/>"
 msgstr ""
 
@@ -8572,7 +9044,11 @@ msgid "Office Chair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pisarniški stol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pisarniški stol"
 >>>>>>> upstream/18.0
@@ -8778,7 +9254,11 @@ msgid "Operation not supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operacija ni podprta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operacija ni podprta"
 >>>>>>> upstream/18.0
@@ -9070,8 +9550,12 @@ msgstr "Opcijsko: vse povratni premiki, ki jih je ustvaril ta premik"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__move_dest_ids
 msgid "Optional: next stock move when chaining them"
+<<<<<<< HEAD
 msgstr ""
 "Opcijsko: naslednja transakcija zaloge, če gre za povezane transakcije"
+=======
+msgstr "Opcijsko: naslednja transakcija zaloge, če gre za povezane transakcije"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__move_orig_ids
@@ -9157,8 +9641,13 @@ msgid ""
 "timeframe is indicated on either the invoice or the order. In the event of "
 "non-payment by the due date, My Company (Chicago) reserves the right to "
 "request a fixed interest payment amounting to 10% of the sum remaining due. "
+<<<<<<< HEAD
 "My Company (Chicago) will be authorized to suspend any provision of services"
 " without prior warning in the event of late payment."
+=======
+"My Company (Chicago) will be authorized to suspend any provision of services "
+"without prior warning in the event of late payment."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -9420,11 +9909,23 @@ msgstr "Paketi"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_package_view
 msgid ""
+<<<<<<< HEAD
 "Packages are usually created via transfers (during pack operation) and can contain different products.\n"
 "                Once created, the whole package can be moved at once, or products can be unpacked and moved as single units again."
 msgstr ""
 "Paketi se običajno ustvarijo prek prenosov (med postopkom pakiranja) in lahko vsebujejo različne izdelke.\n"
 "Ko so ustvarjeni, se celoten paket lahko premakne naenkrat ali pa se izdelki razpakirajo in ponovno premaknejo kot posamezne enote."
+=======
+"Packages are usually created via transfers (during pack operation) and can "
+"contain different products.\n"
+"                Once created, the whole package can be moved at once, or "
+"products can be unpacked and moved as single units again."
+msgstr ""
+"Paketi se običajno ustvarijo prek prenosov (med postopkom pakiranja) in "
+"lahko vsebujejo različne izdelke.\n"
+"Ko so ustvarjeni, se celoten paket lahko premakne naenkrat ali pa se izdelki "
+"razpakirajo in ponovno premaknejo kot posamezne enote."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__product_packaging_id
@@ -9497,7 +9998,11 @@ msgid "Pallet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paleta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paleta"
 >>>>>>> upstream/18.0
@@ -10221,8 +10726,12 @@ msgstr "Dajte v paket"
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Put your products in packs (e.g. parcels, boxes) and track them"
 msgstr ""
+<<<<<<< HEAD
 "Polaganje proizvodov v pakiranja (npr. škatle, zaboji) in sledenje "
 "pakiranjem"
+=======
+"Polaganje proizvodov v pakiranja (npr. škatle, zaboji) in sledenje pakiranjem"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_putaway_rule
@@ -10422,18 +10931,36 @@ msgstr "Količina v privzeti EM proizvoda"
 #: model:ir.model.fields,help:stock.field_product_product__incoming_qty
 msgid ""
 "Quantity of planned incoming products.\n"
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods arriving to this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods arriving to the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods arriving to any Stock Location with 'internal' type."
+=======
+"In a context with a single Stock Location, this includes goods arriving to "
+"this Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods arriving to the "
+"Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods arriving to any Stock Location with "
+"'internal' type."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_product__outgoing_qty
 msgid ""
 "Quantity of planned outgoing products.\n"
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods leaving this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods leaving the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods leaving any Stock Location with 'internal' type."
+=======
+"In a context with a single Stock Location, this includes goods leaving this "
+"Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods leaving the Stock "
+"Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods leaving any Stock Location with 'internal' "
+"type."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -10629,7 +11156,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.help_message_template
 msgid ""
 "Reduce stockouts with alerts, barcode app, replenishment propositions,\n"
+<<<<<<< HEAD
 "                        locations management traceability, quality control, etc."
+=======
+"                        locations management traceability, quality control, "
+"etc."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -10876,8 +11408,17 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_category__packaging_reserve_method
 msgid ""
+<<<<<<< HEAD
 "Reserve Only Full Packagings: will not reserve partial packagings. If customer orders 2 pallets of 1000 units each and you only have 1600 in stock, then only 1000 will be reserved\n"
 "Reserve Partial Packagings: allow reserving partial packagings. If customer orders 2 pallets of 1000 units each and you only have 1600 in stock, then 1600 will be reserved"
+=======
+"Reserve Only Full Packagings: will not reserve partial packagings. If "
+"customer orders 2 pallets of 1000 units each and you only have 1600 in "
+"stock, then only 1000 will be reserved\n"
+"Reserve Partial Packagings: allow reserving partial packagings. If customer "
+"orders 2 pallets of 1000 units each and you only have 1600 in stock, then "
+"1600 will be reserved"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -11011,7 +11552,11 @@ msgid "Returns"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vračila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vračila"
 >>>>>>> upstream/18.0
@@ -11056,8 +11601,16 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_quant_package__package_use
 msgid ""
+<<<<<<< HEAD
 "Reusable boxes are used for batch picking and emptied afterwards to be reused. In the barcode application, scanning a reusable box will add the products in this box.\n"
 "        Disposable boxes aren't reused, when scanning a disposable box in the barcode application, the contained products are added to the transfer."
+=======
+"Reusable boxes are used for batch picking and emptied afterwards to be "
+"reused. In the barcode application, scanning a reusable box will add the "
+"products in this box.\n"
+"        Disposable boxes aren't reused, when scanning a disposable box in "
+"the barcode application, the contained products are added to the transfer."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -11117,8 +11670,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_replenishment_info__warehouseinfo_ids
 #: model:ir.model.fields,help:stock.field_stock_warehouse__resupply_route_ids
 msgid ""
+<<<<<<< HEAD
 "Routes will be created for these resupply warehouses and you can select them"
 " on products and product categories"
+=======
+"Routes will be created for these resupply warehouses and you can select them "
+"on products and product categories"
+>>>>>>> upstream/18.0
 msgstr ""
 "Proge bodo ustvarjene za ta oskrbovalna skladišča. Lahko jih izbirate na "
 "proizvodih in kategorijah proizvodov."
@@ -11128,8 +11686,13 @@ msgstr ""
 #: code:addons/stock/models/stock_location.py:0
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 "Rule %(rule)s belongs to %(rule_company)s while the route belongs to "
 "%(route_company)s."
+=======
+"Rule %(rule)s belongs to %(rule_company)s while the route belongs to %"
+"(route_company)s."
+>>>>>>> upstream/18.0
 msgstr ""
 "Pravilo%(rule)s pripada %(rule_company)s proga pa pripada %(route_company)s."
 
@@ -11269,7 +11832,11 @@ msgid "STANDARD TERMS AND CONDITIONS OF SALE"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "STANDARDNI POGOJI PRODAJE"
+>>>>>>> upstream/18.0
 =======
 msgstr "STANDARDNI POGOJI PRODAJE"
 >>>>>>> upstream/18.0
@@ -11595,10 +12162,19 @@ msgstr "Odpisano"
 #: model_terms:ir.actions.act_window,help:stock.action_stock_scrap
 msgid ""
 "Scrapping a product will remove it from your stock. The product will\n"
+<<<<<<< HEAD
 "                end up in a scrap location that can be used for reporting purpose."
 msgstr ""
 "Z odpisom izdelka ga boste odstranili iz zaloge. Izdelek bo\n"
 "                končal na odpisni lokaciji, ki jo je mogoče uporabiti za namene poročanja."
+=======
+"                end up in a scrap location that can be used for reporting "
+"purpose."
+msgstr ""
+"Z odpisom izdelka ga boste odstranili iz zaloge. Izdelek bo\n"
+"                končal na odpisni lokaciji, ki jo je mogoče uporabiti za "
+"namene poročanja."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -11666,8 +12242,12 @@ msgstr "Prodaja in nabava proizvodov v različnih merskih enotah"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Send an automatic confirmation SMS Text Message when Delivery Orders are "
 "done"
+=======
+"Send an automatic confirmation SMS Text Message when Delivery Orders are done"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -11779,7 +12359,11 @@ msgid "Sequence %(code)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaporedje %(code)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaporedje %(code)s"
 >>>>>>> upstream/18.0
@@ -11978,21 +12562,39 @@ msgstr "Serijske številke"
 #. odoo-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) already exists in location(s): "
 "%(location_list)s. Please correct the serial number encoded."
 msgstr ""
 "Serijska številka (%(serial_number)s) že obstaja na lokaciji "
 "(-ah):%(location_list)s. Prosimo, popravite v šifrantu serijskih številk."
+=======
+"Serial number (%(serial_number)s) already exists in location(s): %"
+"(location_list)s. Please correct the serial number encoded."
+msgstr ""
+"Serijska številka (%(serial_number)s) že obstaja na lokaciji (-ah):%"
+"(location_list)s. Prosimo, popravite v šifrantu serijskih številk."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but is located in location(s): %(other_locations)s.\n"
 "\n"
 "Please correct this to prevent inconsistent data."
 msgstr ""
 "Serijska številka (%(serial_number)s) se nahaja v %(source_location)s, ampak se nahaja na lokaciji(-ah):%(other_locations)s.\n"
+=======
+"Serial number (%(serial_number)s) is not located in %(source_location)s, but "
+"is located in location(s): %(other_locations)s.\n"
+"\n"
+"Please correct this to prevent inconsistent data."
+msgstr ""
+"Serijska številka (%(serial_number)s) se nahaja v %(source_location)s, ampak "
+"se nahaja na lokaciji(-ah):%(other_locations)s.\n"
+>>>>>>> upstream/18.0
 "\n"
 "Prosimo, popravite to, da preprečite nekonsistentne podatke."
 
@@ -12000,11 +12602,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but is located in location(s): %(other_locations)s.\n"
 "\n"
 "Source location for this move will be changed to %(recommended_location)s"
 msgstr ""
 "Serijska številka (%(serial_number)s) se ne nahaja v %(source_location)s, ampak se nahaja na lokaciji(-ah):%(other_locations)s.\n"
+=======
+"Serial number (%(serial_number)s) is not located in %(source_location)s, but "
+"is located in location(s): %(other_locations)s.\n"
+"\n"
+"Source location for this move will be changed to %(recommended_location)s"
+msgstr ""
+"Serijska številka (%(serial_number)s) se ne nahaja v %(source_location)s, "
+"ampak se nahaja na lokaciji(-ah):%(other_locations)s.\n"
+>>>>>>> upstream/18.0
 "\n"
 "Izvorna lokacija za to potezo bo spremenjena na %(recommended_location)s"
 
@@ -12032,6 +12644,7 @@ msgstr "Nastavite poti za skladišča"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_category__removal_strategy_id
 msgid ""
+<<<<<<< HEAD
 "Set a specific removal strategy that will be used regardless of the source location for this product category.\n"
 "\n"
 "FIFO: products/lots that were stocked first will be moved out first.\n"
@@ -12039,6 +12652,20 @@ msgid ""
 "Closest location: products/lots closest to the target location will be moved out first.\n"
 "FEFO: products/lots with the closest removal date will be moved out first (the availability of this method depends on the \"Expiration Dates\" setting).\n"
 "Least Packages: FIFO but with the least number of packages possible when there are several packages containing the same product."
+=======
+"Set a specific removal strategy that will be used regardless of the source "
+"location for this product category.\n"
+"\n"
+"FIFO: products/lots that were stocked first will be moved out first.\n"
+"LIFO: products/lots that were stocked last will be moved out first.\n"
+"Closest location: products/lots closest to the target location will be moved "
+"out first.\n"
+"FEFO: products/lots with the closest removal date will be moved out first "
+"(the availability of this method depends on the \"Expiration Dates\" "
+"setting).\n"
+"Least Packages: FIFO but with the least number of packages possible when "
+"there are several packages containing the same product."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -12117,8 +12744,13 @@ msgstr "Masa pošiljke"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Shipping connectors allow to compute accurate shipping costs, print shipping"
 " labels and request carrier picking at your warehouse to ship to the "
+=======
+"Shipping connectors allow to compute accurate shipping costs, print shipping "
+"labels and request carrier picking at your warehouse to ship to the "
+>>>>>>> upstream/18.0
 "customer. Apply shipping connector from delivery methods."
 msgstr ""
 "Povezovalniki za odpošiljanje omogočajo natančen izračun stroškov "
@@ -12165,7 +12797,11 @@ msgid "Shiprocket Connector"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Shiprocket Priključek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shiprocket Priključek"
 >>>>>>> upstream/18.0
@@ -12457,7 +13093,11 @@ msgstr "Vrsta izvorne lokacije"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.message_body
 msgid "Source Location:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokacija vira:"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_reception_report_label
@@ -12762,8 +13402,13 @@ msgstr ""
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_1
 msgid ""
+<<<<<<< HEAD
 "Store and retrieve information regarding every Lot/Serial Number (condition,"
 " product info, ...)."
+=======
+"Store and retrieve information regarding every Lot/Serial Number (condition, "
+"product info, ...)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -12884,7 +13529,11 @@ msgid "Tag name already exists!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime oznake že obstaja!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ime oznake že obstaja!"
 >>>>>>> upstream/18.0
@@ -13124,9 +13773,20 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__procure_method
 msgid ""
+<<<<<<< HEAD
 "Take From Stock: the products will be taken from the available stock of the source location.\n"
 "Trigger Another Rule: the system will try to find a stock rule to bring the products in the source location. The available stock will be ignored.\n"
 "Take From Stock, if Unavailable, Trigger Another Rule: the products will be taken from the available stock of the source location.If there is no stock available, the system will try to find a  rule to bring the products in the source location."
+=======
+"Take From Stock: the products will be taken from the available stock of the "
+"source location.\n"
+"Trigger Another Rule: the system will try to find a stock rule to bring the "
+"products in the source location. The available stock will be ignored.\n"
+"Take From Stock, if Unavailable, Trigger Another Rule: the products will be "
+"taken from the available stock of the source location.If there is no stock "
+"available, the system will try to find a  rule to bring the products in the "
+"source location."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -13164,8 +13824,13 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__auto
 msgid ""
+<<<<<<< HEAD
 "The 'Manual Operation' value will create a stock move after the current one."
 " With 'Automatic No Step Added', the location is replaced in the original "
+=======
+"The 'Manual Operation' value will create a stock move after the current one. "
+"With 'Automatic No Step Added', the location is replaced in the original "
+>>>>>>> upstream/18.0
 "move."
 msgstr ""
 
@@ -13187,9 +13852,20 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
+<<<<<<< HEAD
 "The Serial Number (%(serial_number)s) is already used in location(s): %(location_list)s.\n"
 "\n"
 "Is this expected? For example, this can occur if a delivery operation is validated before its corresponding receipt operation is validated. In this case the issue will be solved automatically once all steps are completed. Otherwise, the serial number should be corrected to prevent inconsistent data."
+=======
+"The Serial Number (%(serial_number)s) is already used in location(s): %"
+"(location_list)s.\n"
+"\n"
+"Is this expected? For example, this can occur if a delivery operation is "
+"validated before its corresponding receipt operation is validated. In this "
+"case the issue will be solved automatically once all steps are completed. "
+"Otherwise, the serial number should be corrected to prevent inconsistent "
+"data."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -13283,6 +13959,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Stranka se izrecno odpoveduje svojim splošnim pogojem poslovanja, tudi če so"
 " bili ti sestavljeni po teh splošnih prodajnih pogojih. Da bi bilo vsako "
@@ -13641,6 +14318,11 @@ msgstr ""
 =======
 "Stranka se izrecno odpoveduje svojim splošnim pogojem poslovanja, tudi če so"
 " bili ti sestavljeni po teh splošnih prodajnih pogojih. Da bi bilo vsako "
+"odstopanje veljavno, mora biti izrecno vnaprej dogovorjeno v pisni obliki."
+>>>>>>> upstream/18.0
+=======
+"Stranka se izrecno odpoveduje svojim splošnim pogojem poslovanja, tudi če so "
+"bili ti sestavljeni po teh splošnih prodajnih pogojih. Da bi bilo vsako "
 "odstopanje veljavno, mora biti izrecno vnaprej dogovorjeno v pisni obliki."
 >>>>>>> upstream/18.0
 
@@ -13648,7 +14330,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
+<<<<<<< HEAD
 "The combination of lot/serial number and product must be unique within a company including when no company is defined.\n"
+=======
+"The combination of lot/serial number and product must be unique within a "
+"company including when no company is defined.\n"
+>>>>>>> upstream/18.0
 "The following combinations contain duplicates:\n"
 "%(error_lines)s"
 msgstr ""
@@ -13752,8 +14439,15 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:stock.stock_picking_type_action
 msgid ""
 "The operation type system allows you to assign each stock\n"
+<<<<<<< HEAD
 "            operation a specific type which will alter its views accordingly.\n"
 "            On the operation type you could e.g. specify if packing is needed by default,\n"
+=======
+"            operation a specific type which will alter its views "
+"accordingly.\n"
+"            On the operation type you could e.g. specify if packing is "
+"needed by default,\n"
+>>>>>>> upstream/18.0
 "            if it should show the customer."
 msgstr ""
 
@@ -13795,7 +14489,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.stock_quant_relocate_view_form
 msgid ""
 "The quantities selected do not all belong to the same location.\n"
+<<<<<<< HEAD
 "                    You may not assign them a package without moving them to a common location."
+=======
+"                    You may not assign them a package without moving them to "
+"a common location."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -13913,6 +14612,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "This adds a dropshipping route to apply on products in order to request your"
 " vendors to deliver to your customers. A product to dropship will generate a"
 " purchase request for quotation once the sales order confirmed. This is a "
@@ -13923,6 +14623,18 @@ msgstr ""
 "dostavo neposredno kupcem. Tak proizvod ob potrditvi prodajnega naloga "
 "generira zahtevo po nabavnem predračunu. To je delotok na zahtevo. Zahtevani"
 " naslov za dostavo bo kupčev naslov za dostavo in ne vaše skladišče."
+=======
+"This adds a dropshipping route to apply on products in order to request your "
+"vendors to deliver to your customers. A product to dropship will generate a "
+"purchase request for quotation once the sales order confirmed. This is a on-"
+"demand flow. The requested delivery address will be the customer delivery "
+"address and not your warehouse."
+msgstr ""
+"To proizvodom doda drop-ship progo, da lahko od dobaviteljev zahtevate "
+"dostavo neposredno kupcem. Tak proizvod ob potrditvi prodajnega naloga "
+"generira zahtevo po nabavnem predračunu. To je delotok na zahtevo. Zahtevani "
+"naslov za dostavo bo kupčev naslov za dostavo in ne vaše skladišče."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -13930,8 +14642,12 @@ msgstr ""
 msgid ""
 "This analysis gives you an overview of the current stock level of your "
 "products."
+<<<<<<< HEAD
 msgstr ""
 "Ta analiza vam omogoča pregled trenutnega stanja zalog vaših izdelkov."
+=======
+msgstr "Ta analiza vam omogoča pregled trenutnega stanja zalog vaših izdelkov."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__picked
@@ -13956,8 +14672,13 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__default_location_src_id
 msgid ""
+<<<<<<< HEAD
 "This is the default source location when this operation is manually created."
 " However, it is possible to change it afterwards or that the routes use "
+=======
+"This is the default source location when this operation is manually created. "
+"However, it is possible to change it afterwards or that the routes use "
+>>>>>>> upstream/18.0
 "another one by default."
 msgstr ""
 
@@ -14004,15 +14725,27 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:stock.stock_move_action
 msgid ""
 "This menu gives you the full traceability of inventory\n"
+<<<<<<< HEAD
 "                operations on a specific product. You can filter on the product\n"
+=======
+"                operations on a specific product. You can filter on the "
+"product\n"
+>>>>>>> upstream/18.0
 "                to see all the past or future movements for the product."
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.stock_move_line_action
 msgid ""
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                    You can filter on the product to see all the past movements for the product."
+=======
+"This menu gives you the full traceability of inventory operations on a "
+"specific product.\n"
+"                    You can filter on the product to see all the past "
+"movements for the product."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -14030,8 +14763,13 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_template_property_form
 msgid ""
+<<<<<<< HEAD
 "This note is added to receipt orders (e.g. where to store the product in the"
 " warehouse)."
+=======
+"This note is added to receipt orders (e.g. where to store the product in the "
+"warehouse)."
+>>>>>>> upstream/18.0
 msgstr "Ta opomba se doda prejemkom (npr. Kje izdelek shraniti v skladišču). "
 
 #. module: stock
@@ -14040,8 +14778,12 @@ msgstr "Ta opomba se doda prejemkom (npr. Kje izdelek shraniti v skladišču). "
 msgid ""
 "This product has been used in at least one inventory movement. It is not "
 "advised to change the Product Type since it can lead to inconsistencies. A "
+<<<<<<< HEAD
 "better solution could be to archive the product and create a new one "
 "instead."
+=======
+"better solution could be to archive the product and create a new one instead."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ta izdelek je bil uporabljen pri vsaj enem popisu zalog. Ni priporočljivo "
 "spreminjati vrste izdelka, saj lahko povzroči neskladnost.  Namesto tega "
@@ -14059,8 +14801,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "This product's company cannot be changed as long as there are stock moves of"
 " it belonging to another company."
+=======
+"This product's company cannot be changed as long as there are stock moves of "
+"it belonging to another company."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -14087,8 +14834,13 @@ msgstr ""
 msgid ""
 "This sequence prefix is already being used by another operation type. It is "
 "recommended that you select a unique prefix to avoid issues and/or repeated "
+<<<<<<< HEAD
 "reference values or assign the existing reference sequence to this operation"
 " type."
+=======
+"reference values or assign the existing reference sequence to this operation "
+"type."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -14125,7 +14877,12 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_track_confirmation
 msgid ""
+<<<<<<< HEAD
 "Those products you added are tracked but lots/serials were not defined. Once applied those can't be changed.<br/>\n"
+=======
+"Those products you added are tracked but lots/serials were not defined. Once "
+"applied those can't be changed.<br/>\n"
+>>>>>>> upstream/18.0
 "                    Apply anyway?"
 msgstr ""
 
@@ -14372,7 +15129,11 @@ msgid "Total Reserved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skupaj rezervirano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skupaj rezervirano"
 >>>>>>> upstream/18.0
@@ -14566,8 +15327,13 @@ msgstr "Skupaj prog"
 #: model:ir.model.fields,help:stock.field_stock_picking__shipping_weight
 msgid ""
 "Total weight of packages and products not in a package. Packages with no "
+<<<<<<< HEAD
 "shipping weight specified will default to their products' total weight. This"
 " is the weight used to compute the cost of the shipping."
+=======
+"shipping weight specified will default to their products' total weight. This "
+"is the weight used to compute the cost of the shipping."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -14606,16 +15372,29 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_res_config_settings__module_product_expiry
 msgid ""
+<<<<<<< HEAD
 "Track following dates on lots & serial numbers: best before, removal, end of life, alert. \n"
 " Such dates are set automatically at lot/serial number creation based on values set on the product (in days)."
+=======
+"Track following dates on lots & serial numbers: best before, removal, end of "
+"life, alert. \n"
+" Such dates are set automatically at lot/serial number creation based on "
+"values set on the product (in days)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Track following dates on lots & serial numbers: best before, removal, end of"
 " life, alert. Such dates are set automatically at lot/serial number creation"
 " based on values set on the product (in days)."
+=======
+"Track following dates on lots & serial numbers: best before, removal, end of "
+"life, alert. Such dates are set automatically at lot/serial number creation "
+"based on values set on the product (in days)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -14830,7 +15609,11 @@ msgid "Type a message..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vnesite sporočilo ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vnesite sporočilo ..."
 >>>>>>> upstream/18.0
@@ -15054,6 +15837,10 @@ msgstr "Vnesite sporočilo ..."
 #: model:ir.model.fields,field_description:stock.field_stock_package_level__picking_type_code
 #: model:ir.model.fields,field_description:stock.field_stock_picking__picking_type_code
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__code
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking__picking_type_code
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.view_pickingtype_filter
 msgid "Type of Operation"
 msgstr "Tip operacije"
@@ -15067,6 +15854,10 @@ msgstr "Vrsta dejavnosti izjeme na zapisu. "
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_ups
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -15076,6 +15867,10 @@ msgstr "UPS povezovalnik"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_usps
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -15086,14 +15881,23 @@ msgstr "USPS povezovalnik"
 #. odoo-javascript
 #: code:addons/stock/static/src/components/reception_report_line/stock_reception_report_line.xml:0
 msgid "Unassign"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prekliči dodelitev"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 "Unavailable Serial numbers. Please correct the serial numbers encoded: "
 "%(serial_numbers_to_locations)s"
+=======
+"Unavailable Serial numbers. Please correct the serial numbers encoded: %"
+"(serial_numbers_to_locations)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -15184,8 +15988,13 @@ msgstr "Neznano pakiranje"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid ""
+<<<<<<< HEAD
 "Unless previously specified by the source document, this will be the default"
 " picking policy for this operation type."
+=======
+"Unless previously specified by the source document, this will be the default "
+"picking policy for this operation type."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -15262,7 +16071,13 @@ msgstr "Posodobi količino"
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
+<<<<<<< HEAD
 "Updating the location of this transfer will result in unreservation of the currently assigned items. An attempt to reserve items at the new location will be made and the link with preceding transfers will be discarded.\n"
+=======
+"Updating the location of this transfer will result in unreservation of the "
+"currently assigned items. An attempt to reserve items at the new location "
+"will be made and the link with preceding transfers will be discarded.\n"
+>>>>>>> upstream/18.0
 "\n"
 "To avoid this, please discard the source location change before saving."
 msgstr ""
@@ -15691,17 +16506,28 @@ msgstr "Ko izdelek prispe v"
 #. odoo-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 "When products are needed in <b>%(destination)s</b>, <br> "
 "<b>%(operation)s</b> are created from <b>%(source_location)s</b> to fulfill "
 "the need. %(suffix)s"
+=======
+"When products are needed in <b>%(destination)s</b>, <br> <b>%(operation)s</"
+"b> are created from <b>%(source_location)s</b> to fulfill the need. %"
+"(suffix)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 "When products arrive in <b>%(source_location)s</b>, <br> "
 "<b>%(operation)s</b> are created to send them to <b>%(destination)s</b>."
+=======
+"When products arrive in <b>%(source_location)s</b>, <br> <b>%(operation)s</"
+"b> are created to send them to <b>%(destination)s</b>."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -15721,9 +16547,15 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
+<<<<<<< HEAD
 "When the virtual stock goes below the Min Quantity specified for this field,"
 " Odoo generates a procurement to bring the forecasted quantity above of this"
 " Min Quantity."
+=======
+"When the virtual stock goes below the Min Quantity specified for this field, "
+"Odoo generates a procurement to bring the forecasted quantity above of this "
+"Min Quantity."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -15750,7 +16582,12 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking_type__create_backorder
 msgid ""
 "When validating a transfer:\n"
+<<<<<<< HEAD
 " * Ask: users are asked to choose if they want to make a backorder for remaining products\n"
+=======
+" * Ask: users are asked to choose if they want to make a backorder for "
+"remaining products\n"
+>>>>>>> upstream/18.0
 " * Always: a backorder is automatically created for the remaining products\n"
 " * Never: remaining products are cancelled"
 msgstr ""
@@ -15806,8 +16643,15 @@ msgstr "Včeraj"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_quant_relocate_view_form
 msgid ""
+<<<<<<< HEAD
 "You are about to move quantities in a package without moving the full package.\n"
 "                    Those quantities will be removed from the following package(s):"
+=======
+"You are about to move quantities in a package without moving the full "
+"package.\n"
+"                    Those quantities will be removed from the following "
+"package(s):"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -15831,16 +16675,26 @@ msgid ""
 "lead to inconsistencies in your stock."
 msgstr ""
 "Izdelka, povezanega s serijsko številko ali številko serije, ne smete "
+<<<<<<< HEAD
 "spremeniti, če je bilo s to številko že ustvarjenih nekaj premikov zalog. To"
 " bi povzročilo neskladja v zalogah."
+=======
+"spremeniti, če je bilo s to številko že ustvarjenih nekaj premikov zalog. To "
+"bi povzročilo neskladja v zalogah."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
 "You are not allowed to create a lot or serial number with this operation "
+<<<<<<< HEAD
 "type. To change this, go on the operation type and tick the box \"Create New"
 " Lots/Serial Numbers\"."
+=======
+"type. To change this, go on the operation type and tick the box \"Create New "
+"Lots/Serial Numbers\"."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -15861,8 +16715,13 @@ msgid ""
 "(example: 0.00001)."
 msgstr ""
 "Uporabljate enoto mere, ki je manjša od tiste, ki jo uporabljate za "
+<<<<<<< HEAD
 "skladiščenje izdelka. To lahko privede to težav z zaokroževanjem rezervirane"
 " količine. Za vrednotenje zaloge morate uporabiti manjšo možno mersko enoto "
+=======
+"skladiščenje izdelka. To lahko privede to težav z zaokroževanjem rezervirane "
+"količine. Za vrednotenje zaloge morate uporabiti manjšo možno mersko enoto "
+>>>>>>> upstream/18.0
 "ali pa spremeniti natančnost zaokroževanja na manjšo vrednost (primer: "
 "0,00001)."
 
@@ -15870,8 +16729,15 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:stock.action_routes_form
 msgid ""
 "You can define here the main routes that run through\n"
+<<<<<<< HEAD
 "                your warehouses and that define the flows of your products. These\n"
 "                routes can be assigned to a product, a product category or be fixed\n"
+=======
+"                your warehouses and that define the flows of your products. "
+"These\n"
+"                routes can be assigned to a product, a product category or "
+"be fixed\n"
+>>>>>>> upstream/18.0
 "                on procurement or sales order."
 msgstr ""
 
@@ -15893,15 +16759,23 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "You can not change the inventory tracking of a product that was already "
 "used."
+=======
+"You can not change the inventory tracking of a product that was already used."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_orderpoint.py:0
+<<<<<<< HEAD
 msgid ""
 "You can not create a snoozed orderpoint that is not manually triggered."
+=======
+msgid "You can not create a snoozed orderpoint that is not manually triggered."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -15966,8 +16840,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/res_config_settings.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't deactivate the multi-location if you have more than once warehouse"
 " by company"
+=======
+"You can't deactivate the multi-location if you have more than once warehouse "
+"by company"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -15980,8 +16859,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot archive location %(location)s because it is used by warehouse "
 "%(warehouse)s"
+=======
+"You cannot archive location %(location)s because it is used by warehouse %"
+"(warehouse)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -16009,8 +16893,12 @@ msgstr ""
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
+<<<<<<< HEAD
 msgid ""
 "You cannot change the UoM for a stock move that has been set to 'Done'."
+=======
+msgid "You cannot change the UoM for a stock move that has been set to 'Done'."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ne morete spremeniti enoto mere za premik zaloge, ki ima status že "
 "opravljeno."
@@ -16019,8 +16907,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the company of a lot/serial number currently in a location"
 " belonging to another company."
+=======
+"You cannot change the company of a lot/serial number currently in a location "
+"belonging to another company."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -16073,8 +16966,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot move the same package content more than once in the same transfer"
 " or split the same package into two location."
+=======
+"You cannot move the same package content more than once in the same transfer "
+"or split the same package into two location."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ne morete premakniti iste vsebine paketa več kot enkrat v istem prenosu ali "
 "razdeliti istega paketa na dve lokaciji."
@@ -16110,8 +17008,13 @@ msgid ""
 "You cannot set a scrap location as the destination location for a "
 "manufacturing type operation."
 msgstr ""
+<<<<<<< HEAD
 "Lokacije odpadkov ne morete nastaviti kot ciljno lokacijo za operacijo  tipa"
 " proizvodnja"
+=======
+"Lokacije odpadkov ne morete nastaviti kot ciljno lokacijo za operacijo  tipa "
+"proizvodnja"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -16192,8 +17095,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid ""
+<<<<<<< HEAD
 "You have to select a product unit of measure that is in the same category as"
 " the default unit of measure of the product"
+=======
+"You have to select a product unit of measure that is in the same category as "
+"the default unit of measure of the product"
+>>>>>>> upstream/18.0
 msgstr ""
 "Izbrati morate mersko enoto izdelka, ki je v isti kategoriji kot privzeta "
 "merska enota izdelka"
@@ -16313,7 +17221,11 @@ msgid "You should update this document to reflect your T&amp;C."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta dokument morate posodobiti, da bo odražal vaše T&amp;C."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ta dokument morate posodobiti, da bo odražal vaše T&amp;C."
 >>>>>>> upstream/18.0
@@ -16560,8 +17472,15 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint_replenish
 msgid ""
+<<<<<<< HEAD
 "You'll find here smart replenishment propositions based on inventory forecasts.\n"
 "            Choose the quantity to buy or manufacture and launch orders in a click.\n"
+=======
+"You'll find here smart replenishment propositions based on inventory "
+"forecasts.\n"
+"            Choose the quantity to buy or manufacture and launch orders in a "
+"click.\n"
+>>>>>>> upstream/18.0
 "            To save time in the future, set the rules as \"automated\"."
 msgstr ""
 
@@ -16615,7 +17534,11 @@ msgid "ZPL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ZPL"
+>>>>>>> upstream/18.0
 =======
 msgstr "ZPL"
 >>>>>>> upstream/18.0
@@ -16935,7 +17858,11 @@ msgid "in"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "v"
+>>>>>>> upstream/18.0
 =======
 msgstr "v"
 >>>>>>> upstream/18.0
@@ -17222,7 +18149,11 @@ msgid "reserved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "rezervirano"
+>>>>>>> upstream/18.0
 =======
 msgstr "rezervirano"
 >>>>>>> upstream/18.0

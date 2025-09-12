@@ -83,10 +83,18 @@ export function getBasicServerData() {
  *
  * @param {string} model
  * @param {Array<string>} columns
+<<<<<<< HEAD
  *
  * @returns { {definition: Object, columns: Array<Object>}}
  */
 export function generateListDefinition(model, columns) {
+=======
+ * @param {{name: string, asc: boolean}[]} orderBy
+ *
+ * @returns { {definition: Object, columns: Array<Object>}}
+ */
+export function generateListDefinition(model, columns, orderBy = []) {
+>>>>>>> upstream/18.0
     const cols = [];
     for (const name of columns) {
         const PyModel = Object.values(SpreadsheetModels).find((m) => m._name === model);
@@ -104,7 +112,11 @@ export function generateListDefinition(model, columns) {
             searchParams: {
                 domain: [],
                 context: {},
+<<<<<<< HEAD
                 orderBy: [],
+=======
+                orderBy,
+>>>>>>> upstream/18.0
             },
             name: "List",
         },
@@ -154,8 +166,11 @@ export function getBasicListArchs() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "partner,false,search": /* xml */ `<search/>`,
         "partner,false,form": /* xml */ `<form/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -583,8 +598,11 @@ export class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         form: /* xml */ `<Form/>`,
         search: /* xml */ `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

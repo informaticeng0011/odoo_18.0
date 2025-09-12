@@ -52,13 +52,22 @@ class ResCompany(models.Model):
     account_peppol_contact_email = fields.Char(
         string='Primary contact email',
         compute='_compute_account_peppol_contact_email', store=True, readonly=False,
+<<<<<<< HEAD
         help='Primary contact email for Peppol-related communication',
+=======
+        help='Primary contact email for Peppol connection related communications and notifications.\n'
+             'In particular, this email is used by Odoo to reconnect your Peppol account in case of database change.',
+>>>>>>> upstream/18.0
     )
     account_peppol_migration_key = fields.Char(string="Migration Key")
     account_peppol_phone_number = fields.Char(
         string='Mobile number',
         compute='_compute_account_peppol_phone_number', store=True, readonly=False,
+<<<<<<< HEAD
         help='You will receive a verification code to this mobile number',
+=======
+        help='This number is used for identification purposes only.',
+>>>>>>> upstream/18.0
     )
     account_peppol_proxy_state = fields.Selection(
         selection=[
@@ -138,7 +147,10 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -300,6 +312,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -466,8 +481,12 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not phonenumbers:
             raise ValidationError(_("Please install the phonenumbers library."))
+=======
+        self._check_phonenumbers_import()
+>>>>>>> upstream/18.0
 =======
         self._check_phonenumbers_import()
 >>>>>>> upstream/18.0
@@ -811,4 +830,9 @@ class ResCompany(models.Model):
         config_param = self.env['ir.config_parameter'].sudo().get_param('account_peppol.edi.mode')
         # by design, we can only have zero or one proxy user per company with type Peppol
         peppol_user = self.sudo().account_edi_proxy_client_ids.filtered(lambda u: u.proxy_type == 'peppol')
+<<<<<<< HEAD
         return peppol_user.edi_mode or config_param or 'prod'
+=======
+        demo_if_demo_identifier = 'demo' if self.peppol_eas == 'odemo' else False
+        return demo_if_demo_identifier or peppol_user.edi_mode or config_param or 'prod'
+>>>>>>> upstream/18.0

@@ -33,6 +33,10 @@ from . import account_cash_rounding
 from . import account_incoterms
 from . import decimal_precision
 from . import digest
+<<<<<<< HEAD
+=======
+from . import kpi_provider
+>>>>>>> upstream/18.0
 from . import res_users
 from . import ir_attachment
 from . import ir_actions_report

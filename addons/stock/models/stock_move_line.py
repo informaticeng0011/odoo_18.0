@@ -585,6 +585,13 @@ class StockMoveLine(models.Model):
     def _sorting_move_lines(self):
         return (self.id,)
 
+<<<<<<< HEAD
+=======
+    def _exclude_requiring_lot(self):
+        self.ensure_one()
+        return self.move_id.picking_type_id or self.is_inventory or self.lot_id or self.move_id.scrap_id
+
+>>>>>>> upstream/18.0
     def _action_done(self):
         """ This method is called during a move's `action_done`. It'll actually move a quant from
         the source location to the destination location, and unreserve if needed in the source
@@ -621,6 +628,7 @@ class StockMoveLine(models.Model):
                 if ml.product_id.tracking == 'none':
                     continue
                 picking_type_id = ml.move_id.picking_type_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -746,6 +754,9 @@ class StockMoveLine(models.Model):
 =======
                 if not picking_type_id and not ml.is_inventory and not ml.lot_id and not ml.move_id.scrap_id:
 >>>>>>> upstream/18.0
+=======
+                if not ml._exclude_requiring_lot():
+>>>>>>> upstream/18.0
                     ml_ids_tracked_without_lot.add(ml.id)
                     continue
                 if not picking_type_id or ml.lot_id or (not picking_type_id.use_create_lots and not picking_type_id.use_existing_lots):
@@ -810,7 +821,11 @@ class StockMoveLine(models.Model):
             available_qty, in_date = ml._synchronize_quant(-ml.quantity_product_uom, ml.location_id)
             ml._synchronize_quant(ml.quantity_product_uom, ml.location_dest_id, package=ml.result_package_id, in_date=in_date)
             if available_qty < 0:
+<<<<<<< HEAD
                 ml._free_reservation(
+=======
+                ml.with_context(quants_cache=None)._free_reservation(
+>>>>>>> upstream/18.0
                     ml.product_id, ml.location_id,
                     abs(available_qty), lot_id=ml.lot_id, package_id=ml.package_id,
                     owner_id=ml.owner_id, ml_ids_to_ignore=ml_ids_to_ignore)

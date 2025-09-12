@@ -1591,6 +1591,45 @@ class TestTemplating(ViewCase):
             " the main view's"
         )
 
+<<<<<<< HEAD
+=======
+    def test_branding_remove_add_text(self):
+        view1 = self.View.create({
+            'name': "Base view",
+            'type': 'qweb',
+            'arch': """<root>
+                <item order="1">
+                    <item/>
+                </item>
+            </root>""",
+        })
+        view2 = self.View.create({
+            'name': "Extension",
+            'type': 'qweb',
+            'inherit_id': view1.id,
+            'arch': """
+            <data>
+                <xpath expr="/root/item/item" position="replace" />
+                <xpath expr="/root/item" position="inside">A<div/>B</xpath>
+            </data>
+            """
+        })
+
+        arch_string = view1.with_context(inherit_branding=True).get_combined_arch()
+        arch = etree.fromstring(arch_string)
+        self.View.distribute_branding(arch)
+
+        expected = etree.fromstring(f"""
+        <root>
+            <item order="1">
+                A
+                <div data-oe-id="{view2.id}" data-oe-xpath="/data/xpath[2]/div" data-oe-model="ir.ui.view" data-oe-field="arch"/>
+                B
+            </item>
+        </root>
+        """)
+        self.assertEqual(arch, expected)
+>>>>>>> upstream/18.0
 
 class TestViews(ViewCase):
 
@@ -1909,6 +1948,18 @@ class TestViews(ViewCase):
             '''Field "not_a_field" does not exist in model "ir.ui.view"''',
         )
 
+<<<<<<< HEAD
+=======
+    def test_invalid_type(self):
+        """Ensure invalid root tag infers an invalid type and raises ValidationError"""
+        with self.assertRaises(ValidationError):
+            self.View.create({
+                'name': 'invalid_view',
+                'arch': '<template></template>',
+                'inherit_id': False,
+            })
+
+>>>>>>> upstream/18.0
     def test_context_in_view(self):
         arch = """
             <form string="View">
@@ -3571,7 +3622,10 @@ class TestViewTranslations(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3793,6 +3847,9 @@ class TestViewTranslations(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4742,11 +4799,16 @@ class TestRenderAllViews(TransactionCaseWithUserDemo):
             count, self.env.user.name, elapsed)
 
 
+<<<<<<< HEAD
 @common.tagged('post_install', '-at_install')
+=======
+@common.tagged('post_install', '-at_install', 'post_install_l10n')
+>>>>>>> upstream/18.0
 class TestInvisibleField(TransactionCaseWithUserDemo):
     def test_uncommented_invisible_field(self):
         # NEVER add new name in this list ! The new addons must add comment for all always invisible field.
         only_log_modules = (
+<<<<<<< HEAD
 <<<<<<< HEAD
             'base_setup',
             'analytic',
@@ -5055,6 +5117,8 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'sale_timesheet_enterprise',
             'helpdesk_repair',
 =======
+=======
+>>>>>>> upstream/18.0
             'account',
             'account_3way_match',
             'account_accountant',
@@ -5485,6 +5549,9 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'whatsapp',
             'whatsapp_payment',
             'worksheet',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         )
 
@@ -5497,8 +5564,13 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             module_name = view.model_data_id.module
             view_name = view.model_data_id.name
 <<<<<<< HEAD
+<<<<<<< HEAD
             for field, _val, comment in re.findall(uncommented_regexp, view.arch_db):
                 if (not comment or not comment.startswith('<!--')):
+=======
+            for field, _val, suffix in re.findall(uncommented_regexp, view.arch_db):
+                if not suffix.startswith('<!--'):
+>>>>>>> upstream/18.0
 =======
             for field, _val, suffix in re.findall(uncommented_regexp, view.arch_db):
                 if not suffix.startswith('<!--'):
@@ -5515,7 +5587,11 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
         if module_log_views:
             msg_info = '\n'.join(f'Addons: {module!r}   Views: {names}' for module, names in module_log_views.items())
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.info('%s\n%s', msg, msg_info)
+=======
+            _logger.runbot('%s\n%s', msg, msg_info)
+>>>>>>> upstream/18.0
 =======
             _logger.runbot('%s\n%s', msg, msg_info)
 >>>>>>> upstream/18.0
@@ -5526,8 +5602,13 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
                 error_lines.append(f"Addon: {module!r}")
                 for view, fields in view_errors.items():
 <<<<<<< HEAD
+<<<<<<< HEAD
                     error_lines.extend([f"{' ' * 3}View: {view}\n{' ' * 6}Fields:"])
                     error_lines.extend(["\n".join(f"{' ' * 9}{field}" for field in fields)])
+=======
+                    error_lines.append(f"{' ' * 3}View: {view}\n{' ' * 6}Fields:")
+                    error_lines.append("\n".join(f"{' ' * 9}{field}" for field in fields))
+>>>>>>> upstream/18.0
 =======
                     error_lines.append(f"{' ' * 3}View: {view}\n{' ' * 6}Fields:")
                     error_lines.append("\n".join(f"{' ' * 9}{field}" for field in fields))

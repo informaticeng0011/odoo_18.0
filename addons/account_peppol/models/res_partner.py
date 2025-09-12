@@ -23,6 +23,10 @@ class ResPartner(models.Model):
     invoice_sending_method = fields.Selection(
         selection_add=[('peppol', 'by Peppol')],
     )
+<<<<<<< HEAD
+=======
+    peppol_eas = fields.Selection(selection_add=[('odemo', 'Odoo Demo ID')])  # Not a real EAS, used for demonstration.
+>>>>>>> upstream/18.0
     available_peppol_sending_methods = fields.Json(compute='_compute_available_peppol_sending_methods')
     available_peppol_edi_formats = fields.Json(compute='_compute_available_peppol_edi_formats')
     peppol_verification_state = fields.Selection(
@@ -57,6 +61,17 @@ class ResPartner(models.Model):
             else:
                 partner.available_peppol_edi_formats = list(dict(self._fields['invoice_edi_format'].selection))
 
+<<<<<<< HEAD
+=======
+    def _compute_available_peppol_eas(self):
+        # EXTENDS 'account_edi_ubl_cii'
+        super()._compute_available_peppol_eas()
+        eas_codes = set(self[:1].available_peppol_eas)
+        if self.env.company._get_peppol_edi_mode() != 'demo' and 'odemo' in eas_codes:
+            eas_codes.remove('odemo')
+            self.available_peppol_eas = list(eas_codes)
+
+>>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # HELPERS
     # -------------------------------------------------------------------------
@@ -231,7 +246,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self_partner.peppol_verification_state == 'valid':
+=======
+        if self_partner.peppol_verification_state == 'valid' and not self_partner.invoice_sending_method:
+>>>>>>> upstream/18.0
 =======
         if self_partner.peppol_verification_state == 'valid' and not self_partner.invoice_sending_method:
 >>>>>>> upstream/18.0

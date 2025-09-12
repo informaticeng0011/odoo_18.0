@@ -153,6 +153,20 @@ class AccountEdiProxyClientUser(models.Model):
 
         return response['result']
 
+<<<<<<< HEAD
+=======
+    def _get_iap_params(self, company, proxy_type, private_key_sudo):
+        edi_identification = self._get_proxy_identification(company, proxy_type)
+
+        return {
+            'dbuuid': company.env['ir.config_parameter'].get_param('database.uuid'),
+            'company_id': company.id,
+            'edi_identification': edi_identification,
+            'public_key': private_key_sudo._get_public_key_bytes(encoding='pem').decode(),
+            'proxy_type': proxy_type,
+        }
+
+>>>>>>> upstream/18.0
     def _register_proxy_user(self, company, proxy_type, edi_mode):
         ''' Generate the public_key/private_key that will be used to encrypt the file, send a request to the proxy
         to register the user with the public key and create the user with the private key.
@@ -170,6 +184,7 @@ class AccountEdiProxyClientUser(models.Model):
         else:
             try:
                 # b64encode returns a bytestring, we need it as a string
+<<<<<<< HEAD
                 response = self._make_request(self._get_server_url(proxy_type, edi_mode) + '/iap/account_edi/2/create_user', params={
                     'dbuuid': company.env['ir.config_parameter'].get_param('database.uuid'),
                     'company_id': company.id,
@@ -177,6 +192,12 @@ class AccountEdiProxyClientUser(models.Model):
                     'public_key': private_key_sudo._get_public_key_bytes(encoding='pem').decode(),
                     'proxy_type': proxy_type,
                 })
+=======
+                server_url = self._get_server_url(proxy_type, edi_mode)
+                response = self._make_request(
+                    f'{server_url}/iap/account_edi/2/create_user',
+                    params=self._get_iap_params(company, proxy_type, private_key_sudo))
+>>>>>>> upstream/18.0
             except AccountEdiProxyError as e:
                 raise UserError(e.message)
             if 'error' in response:

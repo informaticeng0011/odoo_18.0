@@ -45,7 +45,11 @@ def _make_mydata_request(company, endpoint, xml_content) -> dict[str, str] | dic
         response.raise_for_status()
         root = etree.fromstring(response.content)
     except (RequestException, ValueError) as err:
+<<<<<<< HEAD
         return {'error': err}
+=======
+        return {'error': str(err)}
+>>>>>>> upstream/18.0
 
     result = {}
     for response_element in root.xpath('//response'):
@@ -69,7 +73,11 @@ def _make_mydata_request(company, endpoint, xml_content) -> dict[str, str] | dic
 
 class GreeceEDIDocument(models.Model):
     _name = 'l10n_gr_edi.document'
+<<<<<<< HEAD
     _description = "Greece document object for tracking all sent XML to MyDATA"
+=======
+    _description = "Greece document object for tracking all sent XML to myDATA"
+>>>>>>> upstream/18.0
     _order = 'datetime DESC, id DESC'
 
     move_id = fields.Many2one(comodel_name='account.move', ondelete='cascade')
@@ -81,12 +89,20 @@ class GreeceEDIDocument(models.Model):
             ('bill_sent', "Expense classification sent"),
             ('bill_error', "Expense classification send failed"),
         ],
+<<<<<<< HEAD
         string='MyDATA Status',
+=======
+        string='myDATA Status',
+>>>>>>> upstream/18.0
         required=True,
         ondelete='cascade',
     )
     datetime = fields.Datetime(default=fields.Datetime.now)
+<<<<<<< HEAD
     attachment_id = fields.Many2one(comodel_name='ir.attachment', string='XML file')
+=======
+    attachment_id = fields.Many2one(comodel_name='ir.attachment', string='XML File')
+>>>>>>> upstream/18.0
     message = fields.Char()
 
     # Successful document fields

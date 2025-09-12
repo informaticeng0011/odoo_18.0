@@ -38,7 +38,12 @@ class PeppolSettingsButtons extends Component {
     }
 
     get ediMode() {
+<<<<<<< HEAD
         return this.props.record.data.edi_mode || this.props.record.data.account_peppol_edi_mode;
+=======
+        const demo_if_demo_identifier = this.props.record.data.peppol_eas === 'odemo' ? "demo": false
+        return demo_if_demo_identifier || this.props.record.data.edi_mode || this.props.record.data.account_peppol_edi_mode;
+>>>>>>> upstream/18.0
     }
 
     get modeConstraint() {
@@ -91,6 +96,7 @@ class PeppolSettingsButtons extends Component {
         });
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,6 +258,8 @@ class PeppolSettingsButtons extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     async deregister() {
         if (this.ediMode === 'demo' || !['sender', 'smp_registration', 'receiver'].includes(this.proxyState)) {
             await this._callConfigMethod("button_deregister_peppol_participant");
@@ -309,6 +317,9 @@ class PeppolSettingsButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

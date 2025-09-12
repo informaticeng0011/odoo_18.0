@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* mrp_account
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -336,10 +337,18 @@
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Thi Huong Nguyen, 2025
+# Wil Odoo, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -744,6 +753,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: vi\n"
+=======
+"POT-Creation-Date: 2025-08-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: mrp_account
@@ -763,6 +782,15 @@ msgid "%s - Labour"
 msgstr "%s - Nhân lực"
 
 #. module: mrp_account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mrp_account/models/stock_move.py:0
+msgid "%s - Unbuild Cost Difference"
+msgstr ""
+
+#. module: mrp_account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp_account.report_wip
 msgid "2023-08-15"
 msgstr "2023-08-15"
@@ -1066,8 +1094,12 @@ msgstr "Dòng tài khoản phân tích MO"
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
+<<<<<<< HEAD
 msgid ""
 "Please make sure the total credit amount equals the total debit amount."
+=======
+msgid "Please make sure the total credit amount equals the total debit amount."
+>>>>>>> upstream/18.0
 msgstr "Hãy đảm bảo tổng số tiền ghi có bằng tổng số tiền ghi nợ."
 
 #. module: mrp_account
@@ -1154,6 +1186,7 @@ msgid "Stock Move"
 msgstr "Điều chuyển tồn kho"
 
 #. module: mrp_account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1552,18 +1585,26 @@ msgstr "Lớp định giá tồn kho"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp_account.field_account_bank_statement_line__wip_production_ids
 #: model:ir.model.fields,help:mrp_account.field_account_move__wip_production_ids
 msgid ""
 "The MOs that this WIP entry was based on. Expected to be set at time of WIP "
 "entry creation."
 msgstr ""
+<<<<<<< HEAD
 "MO mà bút toán WIP này dựa trên. Dự kiến ​​sẽ được thiết lập tại thời điểm "
 "tạo bút toán WIP."
+=======
+"MO mà bút toán WIP này dựa trên. Dự kiến ​​sẽ được thiết lập tại thời điểm tạo "
+"bút toán WIP."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_mrp_workcenter__expense_account_id
 msgid ""
+<<<<<<< HEAD
 "The expense is accounted for when the manufacturing order is marked as done."
 " If not set, it is the expense account of the final product that will be "
 "used instead."
@@ -1571,15 +1612,35 @@ msgstr ""
 "Chi phí được tính khi lệnh sản xuất được đánh dấu là hoàn tất. Nếu không "
 "được thiết lập, thì tài khoản chi phí của sản phẩm cuối cùng sẽ được sử "
 "dụng."
+=======
+"The expense is accounted for when the manufacturing order is marked as done. "
+"If not set, it is the expense account of the final product that will be used "
+"instead."
+msgstr ""
+"Chi phí được tính khi lệnh sản xuất được đánh dấu là hoàn tất. Nếu không "
+"được thiết lập, thì tài khoản chi phí của sản phẩm cuối cùng sẽ được sử dụng."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_product_category__property_stock_account_production_cost_id
 msgid ""
+<<<<<<< HEAD
 "This account will be used as a valuation counterpart for both components and final products for manufacturing orders.\n"
 "                If there are any workcenter/employee costs, this value will remain on the account once the production is completed."
 msgstr ""
 "Tài khoản này sẽ được sử dụng làm tài khoản đối ứng định giá cho cả thành phần và thành phẩm của các lệnh sản xuất.\n"
 "Nếu có bất kỳ chi phí khu vực sản xuất/nhân viên nào, giá trị này sẽ vẫn còn trên tài khoản sau khi quá trình sản xuất hoàn tất."
+=======
+"This account will be used as a valuation counterpart for both components and "
+"final products for manufacturing orders.\n"
+"                If there are any workcenter/employee costs, this value will "
+"remain on the account once the production is completed."
+msgstr ""
+"Tài khoản này sẽ được sử dụng làm tài khoản đối ứng định giá cho cả thành "
+"phần và thành phẩm của các lệnh sản xuất.\n"
+"Nếu có bất kỳ chi phí khu vực sản xuất/nhân viên nào, giá trị này sẽ vẫn còn "
+"trên tài khoản sau khi quá trình sản xuất hoàn tất."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_wip_accounting_form
@@ -1686,3 +1747,9 @@ msgstr "Nhật ký sản xuất của khu vực sản xuất"
 #: code:addons/mrp_account/models/mrp_workorder.py:0
 msgid "[WC] %s"
 msgstr "[Khu vực sản xuất] %s"
+<<<<<<< HEAD
+=======
+
+#~ msgid "Stock Valuation Layer"
+#~ msgstr "Lớp định giá tồn kho"
+>>>>>>> upstream/18.0

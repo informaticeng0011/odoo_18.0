@@ -11,7 +11,10 @@ patch(ReceiptScreen.prototype, {
     continueSplitting() {
         const originalOrderUuid = this.currentOrder.uiState.splittedOrderUuid;
         this.currentOrder.uiState.screen_data.value = "";
+<<<<<<< HEAD
         this.currentOrder.uiState.locked = true;
+=======
+>>>>>>> upstream/18.0
         this.pos.selectedOrderUuid = originalOrderUuid;
         this.pos.showScreen("ProductScreen");
     },

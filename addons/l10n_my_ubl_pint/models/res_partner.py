@@ -5,7 +5,11 @@ from odoo import models, fields, api
 class ResPartner(models.Model):
     _inherit = 'res.partner'
 
+<<<<<<< HEAD
     invoice_edi_format = fields.Selection(selection_add=[('pint_my', "PINT Malaysia")])
+=======
+    invoice_edi_format = fields.Selection(selection_add=[('pint_my', "Malaysia (Peppol PINT MY)")])
+>>>>>>> upstream/18.0
     sst_registration_number = fields.Char(
         string="SST",
         help="Malaysian Sales and Service Tax Number",

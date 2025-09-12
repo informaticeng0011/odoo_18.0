@@ -21,6 +21,10 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import MailCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import MailCommon
 >>>>>>> upstream/18.0
@@ -98,7 +102,11 @@ from unittest.mock import patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestAccountPayment(AccountTestInvoicingCommon):
+=======
+class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
+>>>>>>> upstream/18.0
 =======
 class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 >>>>>>> upstream/18.0
@@ -449,7 +457,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -525,6 +536,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -879,7 +893,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1173,6 +1190,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1531,6 +1551,7 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1691,6 +1712,27 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def test_payment_memo_account_move_ref_inverse(self):
+        ''' Ensure that when the account payment's memo is updated,
+            the related account move's ref is also updated.
+        '''
+        bank_journal = self.company_data['default_journal_bank']
+        bank_journal.inbound_payment_method_line_ids.payment_account_id = self.inbound_payment_method_line.payment_account_id
+        payment = self.env['account.payment'].create({
+            'payment_type': 'inbound',
+            'partner_type': 'customer',
+            'partner_id': self.partner_a.id,
+            'journal_id': bank_journal.id,
+            'amount': 2629,
+            'memo': 'Test Memo'
+        })
+        payment.action_post()
+        payment.write({'memo': 'Updated Memo'})
+
+        self.assertEqual(payment.move_id.ref, payment.memo)
+
 >>>>>>> upstream/18.0
     def test_payment_state_with_unreconciliable_outstanding_account(self):
         unreconciliable_account = self.env['account.account'].create({
@@ -1791,6 +1833,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2047,16 +2092,29 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 
         payment.action_post()
 
+<<<<<<< HEAD
+=======
+        year = fields.Date.today().year
+>>>>>>> upstream/18.0
         wizard = self.env['account.resequence.wizard'].with_context({
             'active_ids': payment.move_id.ids,
             'active_model': 'account.move',
         }).create({
+<<<<<<< HEAD
             'first_name': 'PBNK1/2025/00002',
         })
         wizard.resequence()
 
         self.assertEqual(payment.move_id.name, 'PBNK1/2025/00002')
         self.assertEqual(payment.name, 'PBNK1/2025/00002')
+=======
+            'first_name': f'PBNK1/{year}/00002',
+        })
+        wizard.resequence()
+
+        self.assertEqual(payment.move_id.name, f'PBNK1/{year}/00002')
+        self.assertEqual(payment.name, f'PBNK1/{year}/00002')
+>>>>>>> upstream/18.0
 
     def test_vendor_payment_save_user_selected_journal_id(self):
         journal_bank = self.env['account.journal'].search([('name', '=', 'Bank')])
@@ -2125,7 +2183,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2236,6 +2297,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

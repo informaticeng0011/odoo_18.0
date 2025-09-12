@@ -56,6 +56,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    createMso,
+>>>>>>> upstream/18.0
 =======
     createMso,
 >>>>>>> upstream/18.0
@@ -221,7 +225,11 @@ import {
     normalizeColors,
     normalizeRem,
 } from "@mail/views/web/fields/html_mail_field/convert_inline";
+<<<<<<< HEAD
 import { afterEach, beforeEach, describe, expect, getFixture, test } from "@odoo/hoot";
+=======
+import { beforeEach, describe, expect, getFixture, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 import { enableTransitions } from "@odoo/hoot-mock";
 import {
     getGridHtml,
@@ -1061,15 +1069,21 @@ describe("Convert classes to inline styles", () => {
         editable = document.createElement("div");
 
         styleEl = document.createElement("style");
+<<<<<<< HEAD
         styleEl.type = "text/css";
+=======
+>>>>>>> upstream/18.0
         styleEl.title = "test-stylesheet";
         document.head.appendChild(styleEl);
         styleSheet = [...document.styleSheets].find((sheet) => sheet.title === "test-stylesheet");
     });
+<<<<<<< HEAD
     afterEach(() => {
         // @todo to adapt when hoot has a better way to remove it
         document.head.removeChild(styleEl);
     });
+=======
+>>>>>>> upstream/18.0
 
     test("convert Bootstrap classes to inline styles", async () => {
         enableTransitions();
@@ -1686,7 +1700,10 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1864,6 +1881,9 @@ describe("Properly add MSO conditions", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

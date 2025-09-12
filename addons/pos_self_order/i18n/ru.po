@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_self_order
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -9,10 +10,18 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Anastasiia Koroleva, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,11 +265,28 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.actions.report,print_report_name:pos_self_order.report_self_order_qr_codes_page
 msgid "\"QR codes\""
+<<<<<<< HEAD
 msgstr "\"QR-коды\""
+=======
+msgstr "«QR-коды»"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -269,6 +295,7 @@ msgid ""
 "%s is not available anymore, it has thus been removed from your order. "
 "Please review your order and validate it again."
 msgstr ""
+<<<<<<< HEAD
 "%s больше нет в наличии, поэтому он был удален из вашего заказа. Пожалуйста,"
 " пересмотрите ваш заказ и подтвердите его снова."
 
@@ -624,6 +651,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"%s больше нет в наличии, поэтому он был удален из вашего заказа. Пожалуйста, "
+"пересмотрите ваш заказ и подтвердите его снова."
+
+#. module: pos_self_order
+#. odoo-python
+#: code:addons/pos_self_order/models/pos_config.py:0
+msgid "(require Odoo Enterprise)"
+msgstr "(требуется Odoo Enterprise)"
+
+#. module: pos_self_order
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/store/order_change_receipt_template.xml:0
 msgid "/ Tracker number:"
@@ -642,6 +681,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_self_order.pos_self_order_product_pos_category_form_view
 msgid "<sup title=\"Only works for kiosk and mobile\">?</sup>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<sup title=\"Работает только для киосков и мобильных устройств\">?</sup>"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,help:pos_self_order.field_pos_config__self_ordering_default_user_id
@@ -697,11 +740,19 @@ msgstr "Все товары будут удалены из корзины."
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
 msgid "Allow self-order customers to set their order for takeout."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Разрешить клиентам оформлять заказ на вынос через киоск самообслуживания."
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
 msgid "Allow takeout order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Разрешить заказ на вынос"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -713,7 +764,11 @@ msgstr "Произошла ошибка"
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "Any items already sent will not be cancelled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Товары, которые уже были отправлены, отменены не будут"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -724,12 +779,20 @@ msgstr "Вы уверены, что хотите отменить этот за�
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_category__hour_after
 msgid "Availability After"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступно после"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_category__hour_until
 msgid "Availability Until"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступно до"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -747,7 +810,11 @@ msgstr "Доступные языки"
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.pos_self_order_product_pos_category_form_view
 msgid "Available between"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступно в интервале"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.product_template_search_view_pos
@@ -812,6 +879,10 @@ msgstr "Назад"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 >>>>>>> upstream/18.0
@@ -960,6 +1031,10 @@ msgstr "Отменить заказ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.js:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.js:0
 >>>>>>> upstream/18.0
@@ -1117,7 +1192,11 @@ msgstr "Комбинированный"
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_order_line__combo_id
 msgid "Combo reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Справочная информация по комбо-набору"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_res_config_settings
@@ -1140,7 +1219,11 @@ msgstr "Продолжить"
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Continue with table"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Продолжить с выбранным столом"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -1151,12 +1234,20 @@ msgstr "Не могли бы вы подтвердить номер вашего
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -1175,8 +1266,13 @@ msgid ""
 "Custom links that the restaurant can configure to be displayed on the self "
 "order screen"
 msgstr ""
+<<<<<<< HEAD
 "Пользовательские ссылки, которые ресторан может настроить для отображения на"
 " экране самостоятельного заказа"
+=======
+"Пользовательские ссылки, которые ресторан может настроить для отображения на "
+"экране самостоятельного заказа"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
@@ -1245,7 +1341,11 @@ msgstr "Скачать QR-коды"
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Download your receipt here"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Скачать чек можно здесь"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-python
@@ -1256,11 +1356,23 @@ msgstr "Каждый заказ"
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid ""
+<<<<<<< HEAD
 "Each table in your floor plan is assigned a unique QR code based on your configuration. For security reasons,\n"
 "                    both the point of sale and table names are encrypted in the generated URL, as shown in the example below:."
 msgstr ""
 "Каждому столу в вашем плане этажа присваивается уникальный QR-код, основанный на вашей конфигурации. В целях безопасности\n"
 "                    названия торговых точек и столов шифруются в генерируемом URL, как показано в примере ниже:."
+=======
+"Each table in your floor plan is assigned a unique QR code based on your "
+"configuration. For security reasons,\n"
+"                    both the point of sale and table names are encrypted in "
+"the generated URL, as shown in the example below:."
+msgstr ""
+"Каждому столу в вашем плане этажа присваивается уникальный QR-код, "
+"основанный на вашей конфигурации. В целях безопасности\n"
+"                    названия торговых точек и столов шифруются в "
+"генерируемом URL, как показано в примере ниже:."
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -1276,6 +1388,16 @@ msgstr "Редактировать"
 
 #. module: pos_self_order
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/overrides/components/qr_order_button/qr_order_button.js:0
+msgid ""
+"Enable QR menu in the Restaurant settings to get QR codes for free on tables."
+msgstr ""
+
+#. module: pos_self_order
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/pos_self_order/static/src/app/components/attribute_selection/attribute_selection.xml:0
 msgid "Enter your custom value"
 msgstr "Введите пользовательское значение"
@@ -1283,11 +1405,19 @@ msgstr "Введите пользовательское значение"
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid ""
+<<<<<<< HEAD
 "Feel free to use and print this QR code as many times as needed according to"
 " your requirements."
 msgstr ""
 "Не стесняйтесь использовать и распечатывать этот QR-код столько раз, сколько"
 " необходимо в соответствии с вашими требованиями."
+=======
+"Feel free to use and print this QR code as many times as needed according to "
+"your requirements."
+msgstr ""
+"Не стесняйтесь использовать и распечатывать этот QR-код столько раз, сколько "
+"необходимо в соответствии с вашими требованиями."
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_ir_binary
@@ -1313,6 +1443,21 @@ msgstr "Общий"
 
 #. module: pos_self_order
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/overrides/components/qr_order_button/qr_order_button.xml:0
+msgid "Get QR Codes"
+msgstr ""
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/overrides/components/qr_order_button/qr_order_button.js:0
+msgid "Get QR codes"
+msgstr ""
+
+#. module: pos_self_order
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/pos_self_order/static/src/app/pages/stand_number_page/stand_number_page.xml:0
 msgid "Get a tracker and enter its number here"
 msgstr "Получите трекер и введите его номер здесь"
@@ -1325,7 +1470,11 @@ msgstr "Маршрутизация HTTP"
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_config__has_paper
 msgid "Has paper"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Есть чековая лента"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -1367,16 +1516,32 @@ msgstr "ID"
 #: model:ir.model.fields,help:pos_self_order.field_product_product__self_order_available
 #: model:ir.model.fields,help:pos_self_order.field_product_template__self_order_available
 msgid "If this product is available in the Self Order screens"
+<<<<<<< HEAD
 msgstr "Если этот продукт доступен на экранах самозаказа"
+=======
+msgstr "Если этот товар должен отображаться на экране самообслуживания"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid ""
+<<<<<<< HEAD
 "If you need customized QR codes, start by scanning the relevant QR code to acquire the URL. Then, make\n"
 "                use of a QR code generator like https://www.qrcode-monkey.com or https://www.qr-code-generator.com"
 msgstr ""
 "Если вам нужны персонализированные QR-коды, начните со сканирования соответствующего QR-кода, чтобы получить URL. Затем воспользуйтесь\n"
 "                воспользуйтесь генератором QR-кодов, например https://www.qrcode-monkey.com или https://www.qr-code-generator.com"
+=======
+"If you need customized QR codes, start by scanning the relevant QR code to "
+"acquire the URL. Then, make\n"
+"                use of a QR code generator like https://www.qrcode-"
+"monkey.com or https://www.qr-code-generator.com"
+msgstr ""
+"Если вам нужны персонализированные QR-коды, начните со сканирования "
+"соответствующего QR-кода, чтобы получить URL. Затем воспользуйтесь\n"
+"                воспользуйтесь генератором QR-кодов, например https://"
+"www.qrcode-monkey.com или https://www.qr-code-generator.com"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,help:pos_self_order.field_pos_config__self_ordering_image_brand
@@ -1392,8 +1557,13 @@ msgstr "Изображение для отображения на экране �
 msgid ""
 "In Self-Order mode, you must have at least one table to generate QR codes"
 msgstr ""
+<<<<<<< HEAD
 "В режиме самозаказа для генерации QR-кодов необходимо иметь как минимум одну"
 " таблицу"
+=======
+"В режиме самозаказа для генерации QR-кодов необходимо иметь как минимум одну "
+"таблицу"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_config__status__inactive
@@ -1411,7 +1581,11 @@ msgstr "Информация"
 msgid ""
 "It seems there hasn't been any activity on this kiosk. Would you like to "
 "continue?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Похоже, что в этом киоске не было активности. Хотите продолжить?"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-python
@@ -1442,7 +1616,11 @@ msgstr "Языки, доступные для режима киоска"
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -1451,7 +1629,11 @@ msgstr "Последнее обновление:"
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -1668,7 +1850,11 @@ msgstr "Зона подбора"
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Please wait until the price is loaded"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пожалуйста, подождите, пока загрузится цена"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-python
@@ -1679,37 +1865,65 @@ msgstr "PoS Заказ по сессии"
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_pos_load_mixin
 msgid "PoS data loading mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mixin загрузки данных POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_pos_category
 msgid "Point of Sale Category"
+<<<<<<< HEAD
 msgstr "Категория Точки продаж"
+=======
+msgstr "Категория в POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_pos_config
 msgid "Point of Sale Configuration"
+<<<<<<< HEAD
 msgstr "Конфигурация точки продаж"
+=======
+msgstr "Конфигурация POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_pos_order_line
 msgid "Point of Sale Order Lines"
+<<<<<<< HEAD
 msgstr "Линии заказов в точках продаж"
+=======
+msgstr "Строки заказов в POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_pos_order
 msgid "Point of Sale Orders"
+<<<<<<< HEAD
 msgstr "Заказы в торговых точках"
+=======
+msgstr "Заказы в POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_pos_payment_method
 msgid "Point of Sale Payment Methods"
+<<<<<<< HEAD
 msgstr "Способы оплаты в торговых точках"
+=======
+msgstr "Методы оплаты в POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_pos_session
 msgid "Point of Sale Session"
+<<<<<<< HEAD
 msgstr "Сессия в торговой точке"
+=======
+msgstr "Сессия POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
@@ -1719,7 +1933,11 @@ msgstr "Место продажи:"
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__pos_config_ids
 msgid "Points of Sale"
+<<<<<<< HEAD
 msgstr "Торговые точки"
+=======
+msgstr "POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__link_html
@@ -1806,6 +2024,10 @@ msgstr "Товар"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 >>>>>>> upstream/18.0
@@ -1987,7 +2209,11 @@ msgstr "Информация о товаре"
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_product_product
 msgid "Product Variant"
+<<<<<<< HEAD
 msgstr "Вариант продукта"
+=======
+msgstr "Вариация товара"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -2083,18 +2309,30 @@ msgstr "Токен безопасности"
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Select a table"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выбрать стол"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,help:pos_self_order.field_pos_self_order_custom_link__pos_config_ids
 msgid ""
 "Select for which points of sale you want to display this link. Leave empty "
+<<<<<<< HEAD
 "to display it for all points of sale. You have to select among the points of"
 " sale that have the 'QR Code Menu' feature enabled."
 msgstr ""
 "Выберите, для каких торговых точек вы хотите отобразить эту ссылку. Оставьте"
 " пустым, чтобы отображать ее для всех торговых точек. Вы должны выбрать те "
 "торговые точки, в которых включена функция \"Меню QR-кодов\"."
+=======
+"to display it for all points of sale. You have to select among the points of "
+"sale that have the 'QR Code Menu' feature enabled."
+msgstr ""
+"Выберите, в каких POS отображать эту ссылку. Если оставить поле пустым – "
+"ссылка будет доступна во всех POS с включенной функцией «QR-меню»."
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_config__self_ordering_image_brand
@@ -2133,7 +2371,11 @@ msgstr "Режим самозаказа"
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_config__self_ordering_service_mode
 #: model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_ordering_service_mode
 msgid "Self Ordering Service Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Режим самообслуживания"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_config__self_ordering_url
@@ -2144,19 +2386,31 @@ msgstr "Урл для самостоятельного заказа"
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_config__self_ordering_takeaway
 #: model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_ordering_takeaway
 msgid "Self Takeaway"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Самовывоз (самообслуживание)"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Self-Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Заказ через киоск"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_popup/product_info_popup.xml:0
 msgid "Self-ordering:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Самообслуживание:"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__sequence
@@ -2260,35 +2514,61 @@ msgstr "Спасибо большое!"
 #. odoo-python
 #: code:addons/pos_self_order/models/pos_category.py:0
 msgid "The Availability After must be set between 00:00 and 24:00"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поле «Доступно после» должно быть в пределах от 00:00 до 24:00"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-python
 #: code:addons/pos_self_order/models/pos_category.py:0
 msgid "The Availability Until must be greater than Availability After."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поле «Доступно до» должно быть больше значения в «Доступно после»"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-python
 #: code:addons/pos_self_order/models/pos_category.py:0
 msgid "The Availability Until must be set between 00:00 and 24:00"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поле «Доступно до» должно быть в пределах от 00:00 до 24:00"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "The Self-Order default user must be a POS user"
+<<<<<<< HEAD
 msgstr "Пользователь по умолчанию \"Самозаказ\" должен быть пользователем POS"
+=======
+msgstr ""
+"Пользователь по умолчанию для режима самообслуживания должен быть "
+"пользователем POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,help:pos_self_order.field_pos_category__hour_after
 msgid "The product will be available after this hour."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Товар будет доступен после указанного времени."
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,help:pos_self_order.field_pos_category__hour_until
 msgid "The product will be available until this hour."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Товар будет доступен до указанного времени."
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-python
@@ -2329,7 +2609,11 @@ msgstr "Недоступно"
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/pages/product_list_page/product_list_page.xml:0
 msgid "Unavailable at this time of the day"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Недоступно в это время суток"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -2367,6 +2651,7 @@ msgstr "Да"
 
 #. module: pos_self_order
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2578,6 +2863,18 @@ msgstr ""
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid "You cannot add cash payment methods in kiosk mode."
 msgstr ""
+=======
+#: code:addons/pos_self_order/controllers/orders.py:0
+msgid "You are not authorized to remove this order"
+msgstr "У вас нет прав на удаление этого заказа"
+
+#. module: pos_self_order
+#. odoo-python
+#: code:addons/pos_self_order/models/pos_config.py:0
+#: code:addons/pos_self_order/models/res_config_settings.py:0
+msgid "You cannot add cash payment methods in kiosk mode."
+msgstr "Нельзя использовать наличный расчет в режиме киоска."
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -2605,6 +2902,7 @@ msgid "Your Selection"
 msgstr "Ваш выбор"
 
 #. module: pos_self_order
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2816,6 +3114,18 @@ msgstr ""
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Your order has been cancelled"
 msgstr ""
+=======
+#. odoo-python
+#: code:addons/pos_self_order/controllers/orders.py:0
+msgid "Your order does not exist or has been removed"
+msgstr "Заказ не найден или был удален"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/self_order_service.js:0
+msgid "Your order has been cancelled"
+msgstr "Заказ отменен"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -2843,6 +3153,7 @@ msgstr "и"
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
 msgid "empty = all points of sale"
+<<<<<<< HEAD
 msgstr "пусто = все точки продаж"
 
 #. module: pos_self_order
@@ -3025,6 +3336,11 @@ msgstr "пол"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "пусто = все POS"
+
+#. module: pos_self_order
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
 msgid "https://odoo.com"

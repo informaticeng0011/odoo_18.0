@@ -205,6 +205,7 @@ test.skip("Fold state of chat window is sync among browser tabs", async () => {
     pyEnv["discuss.channel"].create({ name: "General" });
     const env1 = await start({ asTab: true });
     const env2 = await start({ asTab: true });
+<<<<<<< HEAD
     await click(".o_menu_systray i[aria-label='Messages']", { target: env1 });
     await click(".o-mail-NotificationItem", { target: env1 });
     await contains(".o-mail-ChatWindow-header", { target: env2 });
@@ -217,6 +218,20 @@ test.skip("Fold state of chat window is sync among browser tabs", async () => {
     await click("[title*='Close Chat Window']", { target: env1 });
     await contains(".o-mail-ChatWindow", { count: 0, target: env1 });
     await contains(".o-mail-ChatWindow", { count: 0, target: env2 });
+=======
+    await click(`${env1.selector} .o_menu_systray i[aria-label='Messages']`);
+    await click(`${env1.selector} .o-mail-NotificationItem`);
+    await contains(`${env2.selector} .o-mail-ChatWindow-header`);
+    await click(`${env1.selector} .o-mail-ChatWindow-header`); // Fold
+    await contains(`${env1.selector} .o-mail-Thread`, { count: 0 });
+    await contains(`${env2.selector} .o-mail-Thread`, { count: 0 });
+    await click(`${env2.selector} .o-mail-ChatBubble`); // Unfold
+    await contains(`${env1.selector} .o-mail-ChatWindow .o-mail-Thread`);
+    await contains(`${env2.selector} .o-mail-ChatWindow .o-mail-Thread`);
+    await click(`${env1.selector} [title*='Close Chat Window']`);
+    await contains(`${env1.selector} .o-mail-ChatWindow`, { count: 0 });
+    await contains(`${env2.selector} .o-mail-ChatWindow`, { count: 0 });
+>>>>>>> upstream/18.0
 });
 
 test("Mobile: opening a chat window should not update channel state on the server", async () => {
@@ -772,6 +787,7 @@ test("chat window: composer state conservation on toggle discuss", async () => {
     });
     // Set attachments of the composer
     await inputFiles(".o-mail-Composer-coreMain .o_input_file", [textFile1, textFile2]);
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard .fa-check", { count: 2 });
     await openDiscuss();
     await contains(".o-mail-ChatWindow", { count: 0 });
@@ -779,6 +795,16 @@ test("chat window: composer state conservation on toggle discuss", async () => {
     await contains(".o-mail-Composer-footer .o-mail-AttachmentList .o-mail-AttachmentCard", {
         count: 2,
     });
+=======
+    await contains(".o-mail-AttachmentCard:not(.o-isUploading) .fa-check", { count: 2 });
+    await openDiscuss();
+    await contains(".o-mail-ChatWindow", { count: 0 });
+    await openFormView("discuss.channel", channelId);
+    await contains(
+        ".o-mail-Composer-footer .o-mail-AttachmentList .o-mail-AttachmentCard:not(.o-isUploading)",
+        { count: 2 }
+    );
+>>>>>>> upstream/18.0
     await contains(".o-mail-Composer-input", { value: "XDU for the win !" });
 });
 
@@ -1180,7 +1206,10 @@ test("Ctrl+k opens the command palette", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1498,6 +1527,9 @@ test("Do not squash logged notes", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

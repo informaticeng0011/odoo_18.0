@@ -4,8 +4,14 @@
 # 
 # Translators:
 # Lyall Kindmurr, 2024
+<<<<<<< HEAD
 # Dorin Hongu <dhongu@gmail.com>, 2025
 # Wil Odoo, 2025
+=======
+# Dorin Hongu <dhongu@gmail.com>, 2024
+# Wil Odoo, 2025
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -13,7 +19,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,11 +37,20 @@ msgid ""
 "<small class=\"text-center text-wrap lh-sm\">Scan me in your banking "
 "app</small>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<small class=\"text-center text-wrap lh-sm\">Scanează-mă în aplicația ta "
+"bancară</small>"
+>>>>>>> upstream/18.0
 
 #. module: payment_custom
 #: model_terms:ir.ui.view,arch_db:payment_custom.custom_state_header
 msgid "<strong class=\"mt-auto\">Communication: </strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong class=\"mt-auto\">Comunicație: </strong>"
+>>>>>>> upstream/18.0
 
 #. module: payment_custom
 #. odoo-python
@@ -43,7 +62,11 @@ msgstr "Cont bancar"
 #. odoo-python
 #: code:addons/payment_custom/models/payment_provider.py:0
 msgid "Bank Accounts"
+<<<<<<< HEAD
 msgstr "Conturi Bancare"
+=======
+msgstr "Conturi bancare"
+>>>>>>> upstream/18.0
 
 #. module: payment_custom
 #: model:ir.model.fields,field_description:payment_custom.field_payment_provider__code
@@ -58,17 +81,29 @@ msgstr "Personalizat"
 #. module: payment_custom
 #: model:ir.model.fields,field_description:payment_custom.field_payment_provider__custom_mode
 msgid "Custom Mode"
+<<<<<<< HEAD
 msgstr "Mod personalizare"
+=======
+msgstr "Mod personalizat"
+>>>>>>> upstream/18.0
 
 #. module: payment_custom
 #: model:ir.model.fields,field_description:payment_custom.field_payment_provider__qr_code
 msgid "Enable QR Codes"
+<<<<<<< HEAD
 msgstr "Activare Coduri QR"
+=======
+msgstr "Activează coduri QR"
+>>>>>>> upstream/18.0
 
 #. module: payment_custom
 #: model:ir.model.fields,help:payment_custom.field_payment_provider__qr_code
 msgid "Enable the use of QR-codes when paying by wire transfer."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Permite utilizarea codurilor QR la plata prin transfer bancar."
+>>>>>>> upstream/18.0
 
 #. module: payment_custom
 #: model_terms:ir.ui.view,arch_db:payment_custom.custom_state_header
@@ -79,7 +114,11 @@ msgstr "Finalizați plata"
 #. odoo-python
 #: code:addons/payment_custom/models/payment_transaction.py:0
 msgid "No transaction found matching reference %s."
+<<<<<<< HEAD
 msgstr "Nu s-a găsit nicio tranzacție care să se potrivească cu referința %s."
+=======
+msgstr "Nu s-a găsit nicio tranzacție care să corespundă referinței %s."
+>>>>>>> upstream/18.0
 
 #. module: payment_custom
 #: model_terms:ir.ui.view,arch_db:payment_custom.custom_state_header
@@ -89,7 +128,11 @@ msgstr "SAU"
 #. module: payment_custom
 #: model:ir.model.constraint,message:payment_custom.constraint_payment_provider_custom_providers_setup
 msgid "Only custom providers should have a custom mode."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doar furnizorii personalizați ar trebui să aibă un mod personalizat."
+>>>>>>> upstream/18.0
 
 #. module: payment_custom
 #: model:ir.model,name:payment_custom.model_payment_provider
@@ -99,29 +142,49 @@ msgstr "Procesator de plată"
 #. module: payment_custom
 #: model:ir.model,name:payment_custom.model_payment_transaction
 msgid "Payment Transaction"
+<<<<<<< HEAD
 msgstr "Tranzacție plată"
+=======
+msgstr "Tranzacție de plată"
+>>>>>>> upstream/18.0
 
 #. module: payment_custom
 #. odoo-python
 #: code:addons/payment_custom/models/payment_provider.py:0
 msgid "Please use the following transfer details"
+<<<<<<< HEAD
 msgstr "Vă rugăm să utilizați următoarele detalii de transfer"
+=======
+msgstr "Vă rugăm să folosiți următoarele detalii pentru transfer"
+>>>>>>> upstream/18.0
 
 #. module: payment_custom
 #: model_terms:ir.ui.view,arch_db:payment_custom.payment_provider_form
 msgid "Reload Pending Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reîncarcă mesajul în așteptare"
+>>>>>>> upstream/18.0
 
 #. module: payment_custom
 #. odoo-python
 #: code:addons/payment_custom/models/payment_transaction.py:0
 msgid "The customer has selected %(provider_name)s to make the payment."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Clientul a selectat %(provider_name)s pentru a efectua plata."
+>>>>>>> upstream/18.0
 
 #. module: payment_custom
 #: model:ir.model.fields,help:payment_custom.field_payment_provider__code
 msgid "The technical code of this payment provider."
+<<<<<<< HEAD
 msgstr "Cod tehnic al acestui procesator de plată"
+=======
+msgstr "Codul tehnic al acestui procesator de plată"
+>>>>>>> upstream/18.0
 
 #. module: payment_custom
 #: model:ir.model.fields.selection,name:payment_custom.selection__payment_provider__custom_mode__wire_transfer

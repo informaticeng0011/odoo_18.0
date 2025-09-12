@@ -72,6 +72,10 @@ class MrpUnbuild(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        digits='Product Unit of Measure',
+>>>>>>> upstream/18.0
 =======
         digits='Product Unit of Measure',
 >>>>>>> upstream/18.0
@@ -332,7 +336,11 @@ class MrpUnbuild(models.Model):
         return {
             'move_id': finished_move.id,
             'lot_id': self.lot_id.id,
+<<<<<<< HEAD
             'quantity': finished_move.product_uom_qty,
+=======
+            'quantity': finished_move.product_uom_qty - finished_move.quantity,
+>>>>>>> upstream/18.0
             'product_id': finished_move.product_id.id,
             'product_uom_id': finished_move.product_uom.id,
             'location_id': finished_move.location_id.id,
@@ -377,12 +385,23 @@ class MrpUnbuild(models.Model):
             raise UserError(_('Some of your byproducts are tracked, you have to specify a manufacturing order in order to retrieve the correct byproducts.'))
 
         for finished_move in finished_moves:
+<<<<<<< HEAD
             finished_move_line_vals = self._prepare_finished_move_line_vals(finished_move)
             self.env['stock.move.line'].create(finished_move_line_vals)
+=======
+            if float_compare(finished_move.product_uom_qty, finished_move.quantity, precision_rounding=finished_move.product_uom.rounding) > 0:
+                finished_move_line_vals = self._prepare_finished_move_line_vals(finished_move)
+                self.env['stock.move.line'].create(finished_move_line_vals)
+>>>>>>> upstream/18.0
 
         # TODO: Will fail if user do more than one unbuild with lot on the same MO. Need to check what other unbuild has aready took
         qty_already_used = defaultdict(float)
         for move in produce_moves | consume_moves:
+<<<<<<< HEAD
+=======
+            if float_compare(move.product_uom_qty, move.quantity, precision_rounding=move.product_uom.rounding) < 1:
+                continue
+>>>>>>> upstream/18.0
             original_move = move in produce_moves and self.mo_id.move_raw_ids or self.mo_id.move_finished_ids
             original_move = original_move.filtered(lambda m: m.product_id == move.product_id)
             if not original_move:
@@ -398,6 +417,7 @@ class MrpUnbuild(models.Model):
                 taken_quantity = float_round(taken_quantity, precision_rounding=move.product_uom.rounding)
                 if taken_quantity:
                     move_line_vals = self._prepare_move_line_vals(move, move_line, taken_quantity)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -502,6 +522,10 @@ class MrpUnbuild(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+                    if move_line.owner_id:
+                        move_line_vals['owner_id'] = move_line.owner_id.id
+>>>>>>> upstream/18.0
                     unbuild_move_line = self.env["stock.move.line"].create(move_line_vals)
                     needed_quantity -= taken_quantity
                     qty_already_used[move_line] += taken_quantity
@@ -539,6 +563,9 @@ class MrpUnbuild(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

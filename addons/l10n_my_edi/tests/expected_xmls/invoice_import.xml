@@ -14,7 +14,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <cbc:IssueDate>2019-01-01</cbc:IssueDate>
+=======
+  <cbc:IssueDate>2024-07-15</cbc:IssueDate>
+>>>>>>> upstream/18.0
 =======
   <cbc:IssueDate>2024-07-15</cbc:IssueDate>
 >>>>>>> upstream/18.0
@@ -153,6 +157,12 @@
   <cac:PaymentTerms>
     <cbc:Note>Payment terms: Immediate Payment</cbc:Note>
   </cac:PaymentTerms>
+<<<<<<< HEAD
+=======
+	<cac:PrepaidPayment>
+		<cbc:PaidAmount currencyID="MYR">0.00</cbc:PaidAmount>
+	</cac:PrepaidPayment>
+>>>>>>> upstream/18.0
   <cac:TaxTotal>
     <cbc:TaxAmount currencyID="MYR">100.00</cbc:TaxAmount>
     <cac:TaxSubtotal>
@@ -172,7 +182,10 @@
     <cbc:LineExtensionAmount currencyID="MYR">1000.00</cbc:LineExtensionAmount>
     <cbc:TaxExclusiveAmount currencyID="MYR">1000.00</cbc:TaxExclusiveAmount>
     <cbc:TaxInclusiveAmount currencyID="MYR">1100.00</cbc:TaxInclusiveAmount>
+<<<<<<< HEAD
     <cbc:PrepaidAmount currencyID="MYR">0.00</cbc:PrepaidAmount>
+=======
+>>>>>>> upstream/18.0
     <cbc:PayableAmount currencyID="MYR">1100.00</cbc:PayableAmount>
   </cac:LegalMonetaryTotal>
   <cac:InvoiceLine>

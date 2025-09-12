@@ -1,7 +1,11 @@
 import { describe, expect, test } from "@odoo/hoot";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
+<<<<<<< HEAD
 import { splitBlock, keydownTab, undo } from "../_helpers/user_actions";
+=======
+import { splitBlock, keydownTab, undo, tripleClick } from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 import { getContent } from "../_helpers/selection";
 
 describe("Checklist", () => {
@@ -1118,10 +1122,50 @@ describe("with selection", () => {
                     <li class="oe-nested">
                         <ol>
                             <li>[b</li>
+<<<<<<< HEAD
+=======
+                            <li class="oe-nested">
+                                <ol>
+                                    <li>]c</li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>`),
+        });
+    });
+
+    test("should only indent elements with selected content (mix lists - triple click)", async () => {
+        await testEditor({
+            contentBefore: unformat(`
+                <ul>
+                    <li>a</li>
+                    <li>
+                        [b
+                    </li><li class="oe-nested">
+                        <ol>
+>>>>>>> upstream/18.0
                             <li>]c</li>
                         </ol>
                     </li>
                 </ul>`),
+<<<<<<< HEAD
+=======
+            stepFunction: async (editor) => {
+                await tripleClick(editor.editable.querySelectorAll("li")[1]);
+                await keydownTab(editor);
+            },
+            contentAfter: unformat(`
+                <ul>
+                    <li>a</li>
+                    <li class="oe-nested">
+                        <ol>
+                            <li>[b]</li>
+                            <li>c</li>
+                        </ol>
+                    </li>
+                </ul>`),
+>>>>>>> upstream/18.0
         });
     });
 

@@ -13,7 +13,11 @@ class IrRule(models.Model):
     _name = 'ir.rule'
     _description = 'Record Rule'
     _order = 'model_id DESC,id'
+<<<<<<< HEAD
     _MODES = ['read', 'write', 'create', 'unlink']
+=======
+    _MODES = ('read', 'write', 'create', 'unlink')
+>>>>>>> upstream/18.0
     _allow_sudo_commands = False
 
     name = fields.Char(index=True)

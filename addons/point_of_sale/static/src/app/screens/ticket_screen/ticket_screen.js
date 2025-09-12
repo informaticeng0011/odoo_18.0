@@ -131,7 +131,11 @@ export class TicketScreen extends Component {
     onClickOrder(clickedOrder) {
         this.setSelectedOrder(clickedOrder);
         this.numberBuffer.reset();
+<<<<<<< HEAD
         if ((!clickedOrder || clickedOrder.uiState.locked) && !this.getSelectedOrderlineId()) {
+=======
+        if ((!clickedOrder || clickedOrder.finalized) && !this.getSelectedOrderlineId()) {
+>>>>>>> upstream/18.0
             // Automatically select the first orderline of the selected order.
             const firstLine = this.getSelectedOrder().get_orderlines()[0];
             if (firstLine) {
@@ -156,7 +160,11 @@ export class TicketScreen extends Component {
         this.setSelectedOrder(order);
     }
     onClickOrderline(orderline) {
+<<<<<<< HEAD
         if (this.getSelectedOrder()?.uiState.locked) {
+=======
+        if (this.getSelectedOrder()?.finalized) {
+>>>>>>> upstream/18.0
             const order = this.getSelectedOrder();
             this.state.selectedOrderlineIds[order.id] = orderline.id;
             this.numberBuffer.reset();
@@ -332,7 +340,11 @@ export class TicketScreen extends Component {
     }
     get isOrderSynced() {
         return (
+<<<<<<< HEAD
             this.getSelectedOrder()?.uiState.locked &&
+=======
+            this.getSelectedOrder()?.finalized &&
+>>>>>>> upstream/18.0
             (this.getSelectedOrder().get_screen_data().name === "" ||
                 this.state.filter === "SYNCED")
         );
@@ -401,7 +413,11 @@ export class TicketScreen extends Component {
     }
     getStatus(order) {
         if (
+<<<<<<< HEAD
             order.uiState?.locked &&
+=======
+            order.finalized &&
+>>>>>>> upstream/18.0
             (order.get_screen_data().name === "" || this.state.filter === "SYNCED")
         ) {
             return _t("Paid");

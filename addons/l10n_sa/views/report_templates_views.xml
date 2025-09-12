@@ -4,36 +4,85 @@
         <span t-if="report_type == 'pdf' and additional_footer_text" class="text-muted text-center" t-out="additional_footer_text"/><br/>
     </template>
     <template id="l10n_sa_external_layout_standard" inherit_id="web.external_layout_standard">
+<<<<<<< HEAD
+=======
+        <!-- support for custom header -->
+        <xpath expr="//img" position="after">
+            <t t-if="custom_header" t-out="custom_header"/>
+        </xpath>
+>>>>>>> upstream/18.0
         <xpath expr="//span[hasclass('page')]/.." position="before">
             <t t-call="l10n_sa.l10n_sa_additional_footer"/>
         </xpath>
     </template>
     <template id="l10n_sa_external_layout_boxed" inherit_id="web.external_layout_boxed">
+<<<<<<< HEAD
+=======
+        <!-- support for custom header -->
+        <xpath expr="//img" position="after">
+            <t t-if="custom_header" t-out="custom_header"/>
+        </xpath>
+>>>>>>> upstream/18.0
         <xpath expr="//span[hasclass('page')]/.." position="before">
             <t t-call="l10n_sa.l10n_sa_additional_footer"/>
         </xpath>
     </template>
     <template id="l10n_sa_external_layout_bold" inherit_id="web.external_layout_bold">
+<<<<<<< HEAD
+=======
+        <!-- support for custom header -->
+        <xpath expr="//img" position="after">
+            <t t-if="custom_header" t-out="custom_header"/>
+        </xpath>
+>>>>>>> upstream/18.0
         <xpath expr="//span[hasclass('page')]/.." position="before">
             <t t-call="l10n_sa.l10n_sa_additional_footer"/>
         </xpath>
     </template>
     <template id="l10n_sa_external_layout_striped" inherit_id="web.external_layout_striped">
+<<<<<<< HEAD
+=======
+        <!-- support for custom header -->
+        <xpath expr="//img" position="after">
+            <t t-if="custom_header" t-out="custom_header"/>
+        </xpath>
+>>>>>>> upstream/18.0
         <xpath expr="//span[hasclass('page')]/.." position="before">
             <t t-call="l10n_sa.l10n_sa_additional_footer"/>
         </xpath>
     </template>
     <template id="l10n_sa_external_layout_folder" inherit_id="web.external_layout_folder">
+<<<<<<< HEAD
+=======
+        <!-- support for custom header -->
+        <xpath expr="//img" position="after">
+            <t t-if="custom_header" t-out="custom_header"/>
+        </xpath>
+>>>>>>> upstream/18.0
         <xpath expr="//span[hasclass('page')]/.." position="before">
             <t t-call="l10n_sa.l10n_sa_additional_footer"/>
         </xpath>
     </template>
     <template id="l10n_sa_external_layout_wave" inherit_id="web.external_layout_wave">
+<<<<<<< HEAD
+=======
+        <!-- support for custom header -->
+        <xpath expr="//img" position="after">
+            <t t-if="custom_header" t-out="custom_header"/>
+        </xpath>
+>>>>>>> upstream/18.0
         <xpath expr="//span[hasclass('page')]/.." position="before">
             <t t-call="l10n_sa.l10n_sa_additional_footer"/>
         </xpath>
     </template>
     <template id="l10n_sa_external_layout_bubble" inherit_id="web.external_layout_bubble">
+<<<<<<< HEAD
+=======
+        <!-- support for custom header -->
+        <xpath expr="//img" position="after">
+            <t t-if="custom_header" t-out="custom_header"/>
+        </xpath>
+>>>>>>> upstream/18.0
         <xpath expr="//span[hasclass('page')]/.." position="before">
             <t t-call="l10n_sa.l10n_sa_additional_footer"/>
         </xpath>

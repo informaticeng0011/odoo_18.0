@@ -6,17 +6,23 @@
 # Fred Gilson <fgi@odoo.com>, 2024
 # Jolien De Paepe, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Manon Rondou, 2025
 =======
 # Manon Rondou, 2025
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
+# Manon Rondou, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -25,6 +31,11 @@ msgstr ""
 "POT-Creation-Date: 2025-07-11 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Manon Rondou, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -1469,6 +1480,7 @@ msgstr "Calculer les frais d'expédition et expédier avec Shiprocket"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "Calculer les frais d'expédition et expédier avec DHL"
 
@@ -1487,6 +1499,8 @@ msgstr "Calculer les frais d'expédition et expédier avec UPS"
 msgid "Compute shipping costs and ship with USPS"
 msgstr "Calculer les frais d'expédition et expédier avec USPS"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
 "                            <strong>(please go to Home&gt;Apps to install)</strong>"
@@ -1520,6 +1534,9 @@ msgid ""
 msgstr ""
 "Calculer les frais de livraison et expédier avec USPS<br/>\n"
 "                            <strong>(allez dans Accueil > Applications pour l’installer)</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_sale
@@ -1534,11 +1551,20 @@ msgstr "Calculer les frais d'expédition des commandes"
 
 #. module: website_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/checkout.js:0
 msgid "Computed after delivery"
 msgstr ""
+
+#. module: website_sale
+>>>>>>> upstream/18.0
+=======
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/checkout.js:0
+msgid "Computed after delivery"
+msgstr "Calculé après la livraison"
 
 #. module: website_sale
 >>>>>>> upstream/18.0
@@ -1778,6 +1804,7 @@ msgstr "Personnalisation des modèles d'e-mail"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "DHL Express Connector"
 msgstr "Connecteur DHL Express"
 
@@ -1785,6 +1812,10 @@ msgstr "Connecteur DHL Express"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "DHL Shipping Methods"
 msgstr "Modes d'expédition DHL"
+=======
+msgid "DHL"
+msgstr "DHL"
+>>>>>>> upstream/18.0
 =======
 msgid "DHL"
 msgstr "DHL"
@@ -2028,12 +2059,18 @@ msgstr "Voulez-vous vider votre panier avant d'ajouter de nouveaux produits ?"
 
 #. module: website_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Documentation"
 msgstr "Documentation"
 
 #. module: website_sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "Documents"
@@ -2261,11 +2298,14 @@ msgstr "FedEx"
 
 #. module: website_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "FedEx Shipping Methods"
 msgstr "Modes d'expédition FedEx"
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_extra_field__field_id
@@ -4740,11 +4780,14 @@ msgstr "USPS"
 
 #. module: website_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "USPS Shipping Methods"
 msgstr "Modes d'expédition USPS"
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:product.public.category,name:website_sale.public_category_drawers_underbed

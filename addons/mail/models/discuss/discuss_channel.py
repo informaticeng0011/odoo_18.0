@@ -272,7 +272,11 @@ class Channel(models.Model):
                                 field_name=field_name,
                             )
                         )
+<<<<<<< HEAD
             membership_pids = [cmd[2]['partner_id'] for cmd in membership_ids_cmd if cmd[0] == 0]
+=======
+            membership_pids = [cmd[2]['partner_id'] for cmd in membership_ids_cmd if cmd[0] == 0 and 'partner_id' in cmd[2]]
+>>>>>>> upstream/18.0
 
             partner_ids_to_add = partner_ids
             # always add current user to new channel to have right values for
@@ -661,6 +665,10 @@ class Channel(models.Model):
 
     def _notify_by_web_push_prepare_payload(self, message, msg_vals=False):
         payload = super()._notify_by_web_push_prepare_payload(message, msg_vals=msg_vals)
+<<<<<<< HEAD
+=======
+        msg_vals = msg_vals or {}
+>>>>>>> upstream/18.0
         payload['options']['data']['action'] = 'mail.action_discuss'
         record_name = msg_vals.get('record_name') if msg_vals and 'record_name' in msg_vals else message.record_name
         author_id = [msg_vals["author_id"]] if msg_vals and msg_vals.get("author_id") else message.author_id.ids
@@ -763,6 +771,25 @@ class Channel(models.Model):
         considered. """
         raise UserError(_('Adding followers on channels is not possible. Consider adding members instead.'))
 
+<<<<<<< HEAD
+=======
+    def _get_access_action(self, access_uid=None, force_website=False):
+        """ Redirect to Discuss instead of form view. """
+        self.ensure_one()
+        if not self.env.user._is_internal() or force_website:
+            return {
+                "type": "ir.actions.act_url",
+                "url": f"/discuss/channel/{self.id}",
+                "target": "self",
+                "target_type": "public",
+            }
+        return {
+            "type": "ir.actions.act_url",
+            "url": f"/odoo/action-mail.action_discuss?active_id={self.id}",
+            "target": "self",
+        }
+
+>>>>>>> upstream/18.0
     # ------------------------------------------------------------
     # BROADCAST
     # ------------------------------------------------------------
@@ -1284,6 +1311,7 @@ class Channel(models.Model):
             )
         else:
             if members := self.channel_member_ids.filtered(lambda m: not m.is_self):
+<<<<<<< HEAD
                 msg = _(
                     "You are in a private conversation with %(member_names)s.",
                     member_names=html_escape(
@@ -1293,6 +1321,15 @@ class Channel(models.Model):
                         f"member_{member.id}": member._get_html_link(for_persona=True)
                         for member in members
                     },
+=======
+                member_names = html_escape(format_list(self.env, [f"%(member_{member.id})s" for member in members])) % {
+                    f"member_{member.id}": member._get_html_link(for_persona=True)
+                    for member in members
+                }
+                msg = _(
+                    "You are in a private conversation with %(member_names)s.",
+                    member_names=member_names,
+>>>>>>> upstream/18.0
                 )
             else:
                 msg = _("You are alone in a private conversation.")
@@ -1326,6 +1363,7 @@ class Channel(models.Model):
                 list_params.append(_("more"))
             else:
                 list_params.append(_("you"))
+<<<<<<< HEAD
             msg = _(
                 "Users in this channel: %(members)s.",
                 members=html_escape(format_list(self.env, list_params))
@@ -1333,6 +1371,15 @@ class Channel(models.Model):
                     f"member_{member.id}": member._get_html_link(for_persona=True)
                     for member in members
                 },
+=======
+            member_names = html_escape(format_list(self.env, list_params)) % {
+                f"member_{member.id}": member._get_html_link(for_persona=True)
+                for member in members
+            }
+            msg = _(
+                "Users in this channel: %(members)s.",
+                members=member_names,
+>>>>>>> upstream/18.0
             )
         else:
             msg = _("You are alone in this channel.")

@@ -18,6 +18,10 @@ class TestGetOperator(TestImLivechatCommon):
                 "channel_member_ids": [Command.create({"partner_id": operator.partner_id.id})],
             }
         )
+<<<<<<< HEAD
+=======
+        channel.with_user(operator).message_post(body="Hello, how can I help you?")
+>>>>>>> upstream/18.0
         if in_call:
             self.env["discuss.channel.rtc.session"].create(
                 {
@@ -202,3 +206,22 @@ class TestGetOperator(TestImLivechatCommon):
         self._create_chat(livechat_channel, second_operator)
         self._create_chat(livechat_channel, second_operator)
         self.assertEqual(first_operator, livechat_channel._get_operator())
+<<<<<<< HEAD
+=======
+
+    def test_operator_freed_after_chat_ends(self):
+        first_operator = self._create_operator()
+        second_operator = self._create_operator()
+        livechat_channel = self.env["im_livechat.channel"].create(
+            {
+                "name": "Livechat Channel",
+                "user_ids": [first_operator.id, second_operator.id],
+            }
+        )
+        self.assertEqual(first_operator, livechat_channel._get_operator())
+        chat = self._create_chat(livechat_channel, first_operator)
+        self.assertEqual(second_operator, livechat_channel._get_operator())
+        chat.livechat_active = False
+        chat.flush_recordset(["livechat_active"])
+        self.assertEqual(first_operator, livechat_channel._get_operator())
+>>>>>>> upstream/18.0

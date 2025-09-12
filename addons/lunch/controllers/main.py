@@ -116,6 +116,10 @@ class LunchController(http.Controller):
             'username': user.sudo().name,
             'userimage': '/web/image?model=res.users&id=%s&field=avatar_128' % user.id,
             'wallet': request.env['lunch.cashmove'].get_wallet_balance(user, False),
+<<<<<<< HEAD
+=======
+            'wallet_with_config': request.env['lunch.cashmove'].get_wallet_balance(user),
+>>>>>>> upstream/18.0
             'is_manager': is_manager,
             'group_portal_id': request.env.ref('base.group_portal').id,
             'locations': request.env['lunch.location'].search_read([], ['name']),

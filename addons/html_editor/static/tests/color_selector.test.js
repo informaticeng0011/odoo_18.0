@@ -9,6 +9,10 @@ import {
     edit,
     queryAllValues,
     queryAll,
+<<<<<<< HEAD
+=======
+    manuallyDispatchProgrammaticEvent,
+>>>>>>> upstream/18.0
 } from "@odoo/hoot-dom";
 import { animationFrame } from "@odoo/hoot-mock";
 import { setupEditor } from "./_helpers/editor";
@@ -49,6 +53,10 @@ import { execCommand } from "./_helpers/userCommands";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -198,8 +206,12 @@ test("can set foreground color", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -352,8 +364,12 @@ test("can set background color", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -506,8 +522,12 @@ test("should add opacity to custom background colors but not to theme colors", a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -630,6 +650,28 @@ test("should add opacity to custom background colors but not to theme colors", a
     expect(backgroundColor).toBe("rgb(113, 75, 103)");
 });
 
+<<<<<<< HEAD
+=======
+test("default opacity should get applied when applying background color to icon", async () => {
+    const { el } = await setupEditor('<p>[ab<span class="fa fa-glass"></span>cd]</p>');
+
+    await waitFor(".o-we-toolbar");
+    expect(".o_font_color_selector").toHaveCount(0);
+
+    await click(".o-select-color-background");
+    await animationFrame();
+    expect(".o_font_color_selector").toHaveCount(1);
+
+    await click(".o_color_button[data-color='#FF0000']");
+    await animationFrame();
+    await expectElementCount(".o-we-toolbar", 1);
+    expect(".o_font_color_selector").toHaveCount(0); // selector closed
+    expect(getContent(el)).toBe(
+        `<p><font style="background-color: rgba(255, 0, 0, 0.6);">[ab</font><font style="background-color: rgba(255, 0, 0, 0.6);">\ufeff<span class="fa fa-glass" contenteditable="false">\u200b</span>\ufeff</font><font style="background-color: rgba(255, 0, 0, 0.6);">cd]</font></p>`
+    );
+});
+
+>>>>>>> upstream/18.0
 test("can render and apply color theme", async () => {
     await setupEditor("<p>[test]</p>");
 
@@ -772,7 +814,10 @@ test("custom background colors used in the editor are shown in the colorpicker",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -962,6 +1007,9 @@ test("applied custom color should be shown in colorpicker after switching tab", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1309,6 +1357,22 @@ test("gradient picker correctly shows the current selected gradient", async () =
     expect("input[name='secondColorPercentage']").toHaveValue(90);
 });
 
+<<<<<<< HEAD
+=======
+test("custom colorpicker should show default color when selected text has gradient", async () => {
+    await setupEditor(
+        `<p><font style="background-image: linear-gradient(2deg, rgb(255, 204, 51) 10%, rgb(226, 51, 255) 90%);" class="text-gradient">[test]</font></p>`
+    );
+    await waitFor(".o-we-toolbar");
+    expect(".o_font_color_selector").toHaveCount(0);
+    await click(".o-we-toolbar .o-select-color-foreground");
+    await expectElementCount(".o_font_color_selector", 1);
+    await click(".btn:contains('Custom')");
+    await expectElementCount(".o_hex_input", 1);
+    expect(".o_hex_input").toHaveValue("#FF0000");
+});
+
+>>>>>>> upstream/18.0
 test("gradient picker does change the selector gradient color", async () => {
     await setupEditor(
         `<p><font style="background-image: linear-gradient(2deg, rgb(255, 204, 51) 10%, rgb(226, 51, 255) 90%);" class="text-gradient">[test]</font></p>`
@@ -1475,12 +1539,20 @@ describe("color preview", () => {
             <table class="table table-bordered o_table o_selected_table">
                 <tbody>
                     <tr>
+<<<<<<< HEAD
                         <td class="" style="background-color: rgb(206, 0, 0); ${defaultTextColor}">
+=======
+                        <td class="" style="background-color: rgba(206, 0, 0, 0.6); ${defaultTextColor}">
+>>>>>>> upstream/18.0
                             <p>[<br></p>
                         </td>
                     </tr>
                     <tr>
+<<<<<<< HEAD
                         <td class="" style="background-color: rgb(206, 0, 0); ${defaultTextColor}">
+=======
+                        <td class="" style="background-color: rgba(206, 0, 0, 0.6); ${defaultTextColor}">
+>>>>>>> upstream/18.0
                             <p>]<br></p>
                         </td>
                     </tr>
@@ -1540,7 +1612,11 @@ describe("color preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -1744,6 +1820,7 @@ describe("color preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
 =======
         await expectElementCount(".o-we-toolbar", 1);
@@ -1846,6 +1923,33 @@ describe("color preview", () => {
 >>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+    });
+
+    test("should preview background color on moving opacity slider in custom tab", async () => {
+        await setupEditor(`<p>[test]</p>`);
+        await expectElementCount(".o-we-toolbar", 1);
+        await click(".o-select-color-background");
+        await animationFrame();
+        await click(".btn:contains('Custom')");
+        const newColor = "#FF0000";
+        await contains(".o_hex_input").edit(newColor);
+        const slider = document.querySelector(".o_opacity_slider");
+        const rect = slider.getBoundingClientRect();
+        const middleY = rect.top + rect.height / 2;
+        manuallyDispatchProgrammaticEvent(slider, "mousedown", {
+            clientX: rect.left,
+            clientY: middleY,
+        });
+        const fontEl = queryOne("font");
+        const bgColor = fontEl.style.backgroundColor;
+        expect(bgColor).toMatch(/^rgba\(255,\s*0,\s*0,\s*0\.\d+\)$/);
+        manuallyDispatchProgrammaticEvent(slider, "mouseup", {
+            clientX: rect.left,
+            clientY: middleY,
+        });
 >>>>>>> upstream/18.0
     });
 });

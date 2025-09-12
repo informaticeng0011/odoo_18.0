@@ -39,6 +39,7 @@ class SaleOrder(models.Model):
             elif order.l10n_in_gst_treatment == 'special_economic_zone':
                 # Special Economic Zone
                 return foreign_state
+<<<<<<< HEAD
             
             # Computing Place of Supply for particular order
             partner_state = (
@@ -51,6 +52,20 @@ class SaleOrder(models.Model):
             if partner_state.country_id.code != 'IN':
                 partner_state = foreign_state
             return partner_state
+=======
+
+            # Computing Place of Supply for particular order
+            partner = (
+                order.partner_id.commercial_partner_id == order.partner_shipping_id.commercial_partner_id
+                and order.partner_shipping_id
+                or order.partner_id
+            )
+            if partner.country_id and partner.country_id.code != 'IN':
+                return foreign_state
+            partner_state = partner.state_id or order.partner_id.commercial_partner_id.state_id or order.company_id.state_id
+            country_code = partner_state.country_id.code or order.country_code
+            return partner_state if country_code == 'IN' else foreign_state
+>>>>>>> upstream/18.0
 
         FiscalPosition = self.env['account.fiscal.position']
         foreign_state = self.env['res.country.state'].search([('code', '!=', 'IN')], limit=1)

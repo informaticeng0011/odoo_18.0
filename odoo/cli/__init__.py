@@ -19,3 +19,8 @@ from . import neutralize
 from . import obfuscate
 from . import genproxytoken
 from . import db
+<<<<<<< HEAD
+=======
+
+COMMAND = None
+>>>>>>> upstream/18.0

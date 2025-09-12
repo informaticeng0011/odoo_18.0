@@ -69,6 +69,13 @@ class MassSMSCase(SMSCase, MockLinkTracker):
             ('mass_mailing_id', 'in', mailing.ids),
             ('res_id', 'in', records.ids)
         ])
+<<<<<<< HEAD
+=======
+        debug_info = '\n'.join(
+            f'Trace: to {t.sms_number} - state {t.trace_status} - res_id {t.res_id}'
+            for t in traces
+        )
+>>>>>>> upstream/18.0
 
         traces_info = []
         for trace in traces:
@@ -159,6 +166,7 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             partner = recipient_info.get('partner', self.env['res.partner'])
             number = recipient_info.get('number')
             status = recipient_info.get('trace_status', 'outgoing')
@@ -166,6 +174,8 @@ class MassSMSCase(SMSCase, MockLinkTracker):
             if number is None and partner:
                 number = partner._sms_get_recipients_info()[partner.id]['sanitized']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -306,6 +316,11 @@ class MassSMSCase(SMSCase, MockLinkTracker):
                 # trace info
                 'failure_type',
                 'trace_status',
+<<<<<<< HEAD
+=======
+                # check control
+                'check_sms',
+>>>>>>> upstream/18.0
             }
             if invalid:
                 raise AssertionError(f"assertSMSTraces: invalid input {invalid}")
@@ -386,6 +401,7 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -516,16 +532,33 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            # checks
+            recipient_check_sms = recipient_info.get('check_sms', check_sms)
 >>>>>>> upstream/18.0
 
             trace = traces.filtered(
                 lambda t: t.sms_number == number and t.trace_status == status and (t.res_id == record.id if record else True)
             )
+<<<<<<< HEAD
             self.assertTrue(len(trace) == 1,
                             'SMS: found %s notification for number %s, (status: %s) (1 expected)\n%s' % (len(trace), number, status, debug_info))
             self.assertTrue(bool(trace.sms_id_int))
 
             if check_sms:
+=======
+            self.assertTrue(
+                len(trace) == 1,
+                'SMS: found %s notification for number %s (res_id: %s) (status: %s) (1 expected)\n--MOCKED DATA\n%s' % (
+                    len(trace), number, record.id,
+                    status, debug_info
+                )
+            )
+            self.assertTrue(bool(trace.sms_id_int))
+
+            if recipient_check_sms:
+>>>>>>> upstream/18.0
                 if status in {'process', 'pending', 'sent'}:
                     if sent_unlink:
                         self.assertSMSIapSent([number], content=content)
@@ -599,7 +632,10 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     failure_type = recipient_info['failure_type'] if status in ('error', 'cancel', 'bounce') else None
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -829,8 +865,11 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def gateway_sms_click(self, mailing, record):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1037,6 +1076,9 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1238,6 +1280,7 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         sms_sent = self._find_sms_sent(self.env['res.partner'], trace.sms_number)
         self.assertTrue(bool(sms_sent))
         return self.gateway_sms_sent_click(sms_sent)
@@ -1255,6 +1298,8 @@ class MassSMSCase(SMSCase, MockLinkTracker):
         shortened links. """
         for url in re.findall(mail.TEXT_URL_REGEX, sms_sent['body']):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1480,6 +1525,9 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

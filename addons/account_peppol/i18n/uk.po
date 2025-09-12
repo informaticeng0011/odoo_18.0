@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* account_peppol
 # 
 # Translators:
@@ -337,10 +338,18 @@
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * account_peppol
+#
+# Translators:
+# Wil Odoo, 2025
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -746,6 +755,22 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+=======
+"POT-Creation-Date: 2025-07-25 18:39+0000\n"
+"PO-Revision-Date: 2025-08-07 08:39+0000\n"
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
+"Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
+"account_peppol/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
+"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
+"14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
+"100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -787,6 +812,7 @@ msgstr "%s надіслав запит на прийом електронних 
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -988,6 +1014,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                In Belgium, electronic invoicing is <u>mandatory as of January 2026</u> - don't wait to register."
 msgstr ""
 "<br/>\n"
@@ -1037,6 +1065,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1181,6 +1212,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " If you have previously registered to an alternative Peppol service, please "
 "deregister from that service, or request a migration key before trying "
 "again. "
@@ -1291,6 +1323,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 " If you have previously registered to a Peppol service, please deregister."
 msgstr ""
 "Учасник із цими даними вже зареєстрований у мережі. Якщо ви раніше "
@@ -1310,6 +1344,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1486,7 +1523,11 @@ msgstr "Неможливо отримати цей формат"
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Cannot register a user with a %s application"
+<<<<<<< HEAD
 msgstr "Неможливо зареєструвати користувача із заявкою %s "
+=======
+msgstr "Неможливо зареєструвати користувача із заявкою %s"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -1498,6 +1539,11 @@ msgstr "Перевірити партнера(ів)"
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__peppol_eas
 #: model:ir.model.fields,help:account_peppol.field_res_company__peppol_eas
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_eas
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:account_peppol.field_res_partner__peppol_eas
+#: model:ir.model.fields,help:account_peppol.field_res_users__peppol_eas
+>>>>>>> upstream/18.0
 msgid ""
 "Code used to identify the Endpoint for BIS Billing 3.0 and its derivatives.\n"
 "             List available at https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
@@ -1653,7 +1699,11 @@ msgstr "Користувач EDI має бути типом Peppol"
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_edi_identification
 msgid "Edi Identification"
+<<<<<<< HEAD
 msgstr "Ідентифікація Edi "
+=======
+msgstr "Ідентифікація Edi"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__edi_mode_constraint
@@ -1742,7 +1792,10 @@ msgstr "Помилка"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1944,6 +1997,9 @@ msgstr "Під час створення документа EDI виникли �
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2191,6 +2247,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "In Belgium, electronic invoicing will be <u>mandatory as of January "
@@ -2198,6 +2255,8 @@ msgid ""
 msgstr "У Бельгії електронні рахунки будуть <u>обовʼязкові з січня 2026</u>."
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2400,6 +2459,14 @@ msgid "Odoo"
 msgstr "Odoo"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_eas__odemo
+msgid "Odoo Demo ID"
+msgstr "Odoo Demo ID"
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Odoo keeps you up to date with the new regulation."
@@ -2525,6 +2592,7 @@ msgstr "PEPPOL: оновити статус учасника"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "PS: <b style=\"color: $o-enterprise-action-color;\">We did not send your "
@@ -2543,6 +2611,8 @@ msgstr ""
 "color\">надіслано на Peppol</b>."
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2744,6 +2814,7 @@ msgstr "Peppol Endpoint"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2772,6 +2843,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2957,6 +3030,9 @@ msgstr "Peppol ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3118,6 +3194,11 @@ msgstr "Електронна адреса Peppol (EAS)"
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__peppol_eas
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_eas
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_eas
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_eas
+#: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_eas
+>>>>>>> upstream/18.0
 msgid "Peppol e-address (EAS)"
 msgstr "Peppol e-address (EAS)"
 
@@ -3432,7 +3513,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This feature is deprecated. Contact odoo support if you need a migration "
+=======
+"This feature is deprecated. Contact Odoo support if you need a migration "
+>>>>>>> upstream/18.0
 =======
 "This feature is deprecated. Contact Odoo support if you need a migration "
 >>>>>>> upstream/18.0
@@ -3487,6 +3572,7 @@ msgstr ""
 " ключ міграції."
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3669,6 +3755,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3786,6 +3874,9 @@ msgstr "Цей рахунок також"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4156,6 +4247,7 @@ msgstr "через Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "invoices and credit notes."
 msgstr "Рахунки-фактури та сторно."
@@ -4185,6 +4277,11 @@ msgstr "Рахунки-фактури та сторно."
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
+msgid "could not be sent via Peppol"
+msgstr "неможливо надіслати через Peppol"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
@@ -4470,7 +4567,11 @@ msgid "sent via Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "надіслано через Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "надіслано через Peppol"
 >>>>>>> upstream/18.0
@@ -4659,7 +4760,11 @@ msgid "to send invoices, but this one"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "надіслати рахунки, але цей"
+>>>>>>> upstream/18.0
 =======
 msgstr "надіслати рахунки, але цей"
 >>>>>>> upstream/18.0
@@ -4848,6 +4953,7 @@ msgid "uses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4882,6 +4988,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "використовує"
 >>>>>>> upstream/18.0
 =======
 msgstr "використовує"

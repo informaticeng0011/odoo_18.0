@@ -119,7 +119,11 @@ class TestSMSMassPerformance(BaseMailPerformance, sms_common.MockSMS):
             'mass_keep_log': False,
         })
 
+<<<<<<< HEAD
         with self.mockSMSGateway(sms_allow_unlink=True), self.assertQueryCount(employee=56):
+=======
+        with self.mockSMSGateway(sms_allow_unlink=True), self.assertQueryCount(employee=57):
+>>>>>>> upstream/18.0
             composer.action_send_sms()
 
     @mute_logger('odoo.addons.sms.models.sms_sms')
@@ -135,5 +139,9 @@ class TestSMSMassPerformance(BaseMailPerformance, sms_common.MockSMS):
             'mass_keep_log': True,
         })
 
+<<<<<<< HEAD
         with self.mockSMSGateway(sms_allow_unlink=True), self.assertQueryCount(employee=59):
+=======
+        with self.mockSMSGateway(sms_allow_unlink=True), self.assertQueryCount(employee=60):
+>>>>>>> upstream/18.0
             composer.action_send_sms()

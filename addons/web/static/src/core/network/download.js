@@ -159,7 +159,11 @@ function decodefield(str) {
  * @return {ContentDisposition}
  * @public
  */
+<<<<<<< HEAD
 function parse(string) {
+=======
+export function parse(string) {
+>>>>>>> upstream/18.0
     if (!string || typeof string !== "string") {
         throw new TypeError("argument string is required");
     }

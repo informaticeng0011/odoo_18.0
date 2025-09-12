@@ -1385,7 +1385,10 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1558,6 +1561,10 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
         components = self.env['product.product'].create([{
             'name': f'comp {i}',
             'is_storable': True,
+<<<<<<< HEAD
+=======
+            'purchase_method': 'purchase',
+>>>>>>> upstream/18.0
             'standard_price': 5,
             'list_price': 5,
         } for i in (1, 2)])
@@ -1573,10 +1580,23 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
         ]})
         purchase_order = self.env['purchase.order'].create({
             'partner_id': self.partner_a.id,
+<<<<<<< HEAD
             'order_line': [Command.create({
                 'product_id': kit_product.id,
                 'product_qty': 1,
             })],
+=======
+            'order_line': [
+                Command.create({
+                    'product_id': components[0].id,
+                    'product_qty': 1,
+                }),
+                Command.create({
+                    'product_id': kit_product.id,
+                    'product_qty': 1,
+                }),
+            ],
+>>>>>>> upstream/18.0
         })
         purchase_order.button_confirm()
         purchase_order.action_create_invoice()
@@ -1596,9 +1616,18 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
         self.assertRecordValues(
             self.env['account.move.line'].search([], order='id asc'),
             [
+<<<<<<< HEAD
                 {'account_id': stock_input_account.id,       'product_id': kit_product.id,     'reconciled': True,    'debit': 10.0,   'credit':  0.0},
                 {'account_id': tax_paid_account.id,          'product_id': False,              'reconciled': False,   'debit':  1.5,   'credit':  0.0},
                 {'account_id': account_payable_account.id,   'product_id': False,              'reconciled': False,   'debit':  0.0,   'credit': 11.5},
+=======
+                {'account_id': stock_input_account.id,       'product_id': components[0].id,   'reconciled': True,    'debit': 5.0,    'credit':  0.0},
+                {'account_id': stock_input_account.id,       'product_id': kit_product.id,     'reconciled': True,    'debit': 10.0,   'credit':  0.0},
+                {'account_id': tax_paid_account.id,          'product_id': False,              'reconciled': False,   'debit': 2.25,   'credit':  0.0},
+                {'account_id': account_payable_account.id,   'product_id': False,              'reconciled': False,   'debit':  0.0,   'credit':  17.25},
+                {'account_id': stock_input_account.id,       'product_id': components[0].id,   'reconciled': True,    'debit':  0.0,   'credit':  5.0},
+                {'account_id': stock_valuation_account.id,   'product_id': components[0].id,   'reconciled': False,   'debit':  5.0,   'credit':  0.0},
+>>>>>>> upstream/18.0
                 {'account_id': stock_input_account.id,       'product_id': components[0].id,   'reconciled': True,    'debit':  0.0,   'credit':  5.0},
                 {'account_id': stock_valuation_account.id,   'product_id': components[0].id,   'reconciled': False,   'debit':  5.0,   'credit':  0.0},
                 {'account_id': stock_input_account.id,       'product_id': components[1].id,   'reconciled': True,    'debit':  0.0,   'credit':  5.0},
@@ -1681,6 +1710,9 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

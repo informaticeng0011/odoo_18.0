@@ -174,12 +174,36 @@
                 max-height: 500px;
                 overflow: auto;
             }
+<<<<<<< HEAD
+=======
+
+            &.o_calendar_disabled {
+                background-color: $gray-200;
+            }
+>>>>>>> upstream/18.0
         }
 
         .o_calendar_disabled {
             background-color: rgba($gray-200, .5);
         }
 
+<<<<<<< HEAD
+=======
+        .fc-daygrid-day-bottom {
+            display: flex;
+            justify-content: center;
+
+            .fc-more-link {
+                color: $link-color;
+                cursor: pointer;
+
+                &:hover {
+                    background: none;
+                }
+            }
+        }
+
+>>>>>>> upstream/18.0
         // ======  Specific agenda types ======
         // ====================================
 
@@ -476,6 +500,7 @@
                 background: none;
             }
 
+<<<<<<< HEAD
             .fc-more-cell {
                 text-align: center;
 
@@ -485,6 +510,8 @@
                 }
             }
 
+=======
+>>>>>>> upstream/18.0
             .fc-event {
                 padding: 0 map-get($spacers, 1);
 

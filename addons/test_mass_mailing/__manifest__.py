@@ -12,6 +12,10 @@ test_mail. """,
     'depends': [
         'mass_mailing',
         'mass_mailing_sms',
+<<<<<<< HEAD
+=======
+        'sms_twilio',
+>>>>>>> upstream/18.0
         'test_mail',
         'test_mail_sms',
     ],

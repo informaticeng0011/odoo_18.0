@@ -1658,6 +1658,33 @@ class PropertiesCase(TestPropertiesMixin):
         self.assertEqual(values['value'], (tag.id, 'Test Tag'))
 
     @users('test')
+<<<<<<< HEAD
+=======
+    def test_properties_field_update_parent(self):
+        """ Check that the user does not get an `AccessError` when modifying the
+        parent of a record and thereby making it forbidden. The default values
+        of the new property definition should be added should be added even if
+        the record is not accessible.
+        """
+        self.env['ir.rule'].sudo().create({
+            'name': 'only discussion_1',
+            'model_id': self.env['ir.model']._get('test_new_api.message').id,
+            'domain_force': [('discussion', '=', self.discussion_1.id)],
+        })
+
+        message = self.env['test_new_api.message'].create({
+            'name': 'Test Message',
+            'discussion': self.discussion_1.id,
+            'author': self.user.id,
+        })
+        self.env.invalidate_all()
+
+        # this makes message inaccessible, but flush_all() should not crash
+        message.discussion = self.discussion_2
+        self.env.flush_all()
+
+    @users('test')
+>>>>>>> upstream/18.0
     def test_properties_field_no_parent_access(self):
         """We can read the child, but not the definition record.
 
@@ -1698,6 +1725,10 @@ class PropertiesCase(TestPropertiesMixin):
                 'value': 'red',
             }],
         })
+<<<<<<< HEAD
+=======
+        email.invalidate_recordset()
+>>>>>>> upstream/18.0
 
         values = email.read(['attributes'])
         self.assertEqual(values[0]['attributes'][0]['value'], 'red')

@@ -150,7 +150,10 @@ test("Convert self closing t elements to opening/closing tags", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -198,6 +201,7 @@ test("Remove `width`, `height` attributes from image and apply them to style", a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -222,4 +226,17 @@ test("Remove `width`, `height` attributes from image and apply them to style", a
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+test("Remove `width`, `height` attributes from image and apply them to style with default unit (px)", async () => {
+    const { el } = await setupEditor(`
+        <div>
+            <img src="#" width="50" height="50">
+        </div>
+    `);
+    expect(el.innerHTML.trim().replace(/\s+/g, " ")).toBe(
+        `<div class="o-paragraph"> <img src="#" style="width: 50px; height: 50px;"> </div>`
+    );
+});
 >>>>>>> upstream/18.0

@@ -842,7 +842,11 @@ class IrActionsServer(models.Model):
             record_cached = self._context['onchange_self']
             for field, new_value in res.items():
                 record_cached[field] = new_value
+<<<<<<< HEAD
         else:
+=======
+        elif self.update_path:
+>>>>>>> upstream/18.0
             starting_record = self.env[self.model_id.model].browse(self._context.get('active_id'))
             _, _, target_records = self._traverse_path(record=starting_record)
             target_records.write(res)
@@ -1057,6 +1061,10 @@ class IrActionsServer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    eval_context['records'] = eval_context['record'] = records.browse(active_id)
+>>>>>>> upstream/18.0
 =======
                     eval_context['records'] = eval_context['record'] = records.browse(active_id)
 >>>>>>> upstream/18.0
@@ -1409,6 +1417,7 @@ class IrActionsActClient(models.Model):
             params = record.params
             record.params_store = repr(params) if isinstance(params, dict) else params
 
+<<<<<<< HEAD
     def _get_default_form_view(self):
         doc = super(IrActionsActClient, self)._get_default_form_view()
         params = doc.find(".//field[@name='params']")
@@ -1417,6 +1426,8 @@ class IrActionsActClient(models.Model):
         params_store.getparent().remove(params_store)
         return doc
 
+=======
+>>>>>>> upstream/18.0
 
     def _get_readable_fields(self):
         return super()._get_readable_fields() | {

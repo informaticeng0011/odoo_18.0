@@ -578,9 +578,14 @@ var VariantMixin = {
             .trigger('change');
 
         $parent
+<<<<<<< HEAD
             .find('.o_product_tags')
             .first()
             .html(combination.product_tags);
+=======
+            .find('.o_product_tags:first')
+            .replaceWith(combination.product_tags);
+>>>>>>> upstream/18.0
 
         this.handleCustomValues($(ev.target));
     },

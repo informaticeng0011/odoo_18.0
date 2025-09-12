@@ -22,15 +22,27 @@ class XenditController(http.Controller):
     _return_url = '/payment/xendit/return'
 
     @http.route('/payment/xendit/payment', type='json', auth='public')
+<<<<<<< HEAD
     def xendit_payment(self, reference, token_ref):
+=======
+    def xendit_payment(self, reference, token_ref, auth_id=None):
+>>>>>>> upstream/18.0
         """ Make a payment by token request and handle the response.
 
         :param str reference: The reference of the transaction.
         :param str token_ref: The reference of the Xendit token to use to make the payment.
+<<<<<<< HEAD
         :return: None
         """
         tx_sudo = request.env['payment.transaction'].sudo().search([('reference', '=', reference)])
         tx_sudo._xendit_create_charge(token_ref)
+=======
+        :param str auth_id: The authentication id to use to make the payment.
+        :return: None
+        """
+        tx_sudo = request.env['payment.transaction'].sudo().search([('reference', '=', reference)])
+        tx_sudo._xendit_create_charge(token_ref, auth_id=auth_id)
+>>>>>>> upstream/18.0
 
     @http.route(_webhook_url, type='http', methods=['POST'], auth='public', csrf=False)
     def xendit_webhook(self):

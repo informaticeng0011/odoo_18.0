@@ -64,7 +64,11 @@ import { createUrlFromId } from "../core/url";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { lookup, normalize } from "../hoot_utils";
+=======
+import { lookup, parseQuery } from "../hoot_utils";
+>>>>>>> upstream/18.0
 =======
 import { lookup, parseQuery } from "../hoot_utils";
 >>>>>>> upstream/18.0
@@ -404,6 +408,19 @@ export class HootSideBar extends Component {
                         t-on-keydown="onSearchInputKeydown"
                     />
                 </div>
+<<<<<<< HEAD
+=======
+                <t t-if="env.runner.hasFilter">
+                    <button
+                        type="button"
+                        class="text-primary p-1 transition-colors"
+                        t-att-title="state.hideEmpty ? 'Show all suites' : 'Hide other suites'"
+                        t-on-click.stop="toggleHideEmpty"
+                    >
+                        <i t-attf-class="fa fa-{{ state.hideEmpty ? 'eye' : 'eye-slash' }}" />
+                    </button>
+                </t>
+>>>>>>> upstream/18.0
                 <t t-set="expanded" t-value="unfoldedIds.size === env.runner.suites.size" />
                 <button
                     type="button"
@@ -464,6 +481,10 @@ export class HootSideBar extends Component {
         this.uiState = useState(ui);
         this.state = useState({
             filter: "",
+<<<<<<< HEAD
+=======
+            hideEmpty: false,
+>>>>>>> upstream/18.0
             suites: [],
             /** @type {Set<string>} */
             unfoldedIds: new Set(),
@@ -474,6 +495,16 @@ export class HootSideBar extends Component {
             if (singleRootSuite.length === 1) {
                 // Unfolds only root suite containing jobs
                 this.unfoldAndSelect(singleRootSuite[0]);
+<<<<<<< HEAD
+=======
+            } else {
+                // As the runner might have registered suites after the initial render,
+                // with those suites not being read by this component yet, it will
+                // not have subscribed and re-rendered automatically.
+                // This here allows the opportunity to read all suites one last time
+                // before starting the run.
+                this.render();
+>>>>>>> upstream/18.0
             }
         });
 
@@ -486,6 +517,7 @@ export class HootSideBar extends Component {
      * Filters
      */
     getFilteredVisibleSuites() {
+<<<<<<< HEAD
         let allowedIds;
         let unfoldedIds;
         let rootSuites;
@@ -682,6 +714,17 @@ export class HootSideBar extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        const { runner } = this.env;
+        const { hideEmpty } = this.state;
+        const allSuites = runner.suites.values();
+        let allowedIds;
+        let unfoldedIds;
+        let rootSuites;
+
+        // Filtering suites
+
+>>>>>>> upstream/18.0
         const parsedQuery = parseQuery(this.state.filter);
         if (parsedQuery.length) {
             allowedIds = new Set();
@@ -748,6 +791,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -911,6 +957,7 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const addSuite = (suite) => {
 =======
         function addSuite(suite) {
@@ -985,6 +1032,14 @@ export class HootSideBar extends Component {
         function addSuite(suite) {
 >>>>>>> upstream/18.0
             if (!(suite instanceof Suite) || (allowedIds && !allowedIds.has(suite.id))) {
+=======
+        function addSuite(suite) {
+            if (
+                !(suite instanceof Suite) || // Not a suite
+                (allowedIds && !allowedIds.has(suite.id)) || // Not "allowed" (by parent)
+                (hideEmpty && !(suite.reporting.tests || suite.currentJobs.length)) // Filtered because empty
+            ) {
+>>>>>>> upstream/18.0
                 return;
             }
             unfoldedSuites.push(suite);
@@ -1018,7 +1073,11 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         };
+=======
+        }
+>>>>>>> upstream/18.0
 =======
         }
 >>>>>>> upstream/18.0
@@ -1162,6 +1221,7 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /**
          * @param {number} delta
          */
@@ -1181,6 +1241,8 @@ export class HootSideBar extends Component {
             case "ArrowDown": {
                 return selectElementAt(+1);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1254,6 +1316,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1330,7 +1395,11 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return selectElementAt(-1);
+=======
+                    return this.selectElementAt(currentTarget, -1);
+>>>>>>> upstream/18.0
 =======
                     return this.selectElementAt(currentTarget, -1);
 >>>>>>> upstream/18.0
@@ -1431,7 +1500,11 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return selectElementAt(+1);
+=======
+                    return this.selectElementAt(currentTarget, +1);
+>>>>>>> upstream/18.0
 =======
                     return this.selectElementAt(currentTarget, +1);
 >>>>>>> upstream/18.0
@@ -1509,6 +1582,7 @@ export class HootSideBar extends Component {
                 }
             }
             case "ArrowUp": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1697,10 +1771,13 @@ export class HootSideBar extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 return this.selectElementAt(currentTarget, -1);
             }
             case "Enter": {
                 ev.preventDefault();
+<<<<<<< HEAD
                 actualLocation.href = createUrlFromId({ suite: suite.id });
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1772,6 +1849,9 @@ export class HootSideBar extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+                actualLocation.href = createUrlFromId({ id: suite.id });
+>>>>>>> upstream/18.0
             }
         }
     }
@@ -1801,7 +1881,10 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1887,6 +1970,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1946,6 +2032,13 @@ export class HootSideBar extends Component {
         }
     }
 
+<<<<<<< HEAD
+=======
+    toggleHideEmpty() {
+        this.state.hideEmpty = !this.state.hideEmpty;
+    }
+
+>>>>>>> upstream/18.0
     /**
      * @param {Suite} suite
      * @param {boolean} [forceAdd]

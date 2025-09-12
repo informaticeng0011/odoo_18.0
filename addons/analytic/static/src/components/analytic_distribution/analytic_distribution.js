@@ -45,6 +45,10 @@ export class AnalyticDistribution extends Component {
         business_domain_compute: { type: String, optional: true },
         force_applicability: { type: String, optional: true },
         allow_save: { type: Boolean, optional: true },
+<<<<<<< HEAD
+=======
+        multi_edit: { type: Boolean, optional: true },
+>>>>>>> upstream/18.0
     }
 
     setup(){
@@ -54,6 +58,10 @@ export class AnalyticDistribution extends Component {
         this.state = useState({
             showDropdown: false,
             formattedData: [],
+<<<<<<< HEAD
+=======
+            update_plan: {},
+>>>>>>> upstream/18.0
         });
 
         this.widgetRef = useRef("analyticDistribution");
@@ -66,6 +74,10 @@ export class AnalyticDistribution extends Component {
         this.focusSelector = false;
 
         this.currentValue = this.props.record.data[this.props.name];
+<<<<<<< HEAD
+=======
+        this.initialFormattedData = [];
+>>>>>>> upstream/18.0
 
         onWillStart(this.willStart);
         useRecordObserver(this.willUpdateRecord.bind(this));
@@ -95,6 +107,10 @@ export class AnalyticDistribution extends Component {
             fieldString: _t("Analytic Distribution Model"),
         });
         this.allPlans = [];
+<<<<<<< HEAD
+=======
+        this.planIdToColumn = {};
+>>>>>>> upstream/18.0
         this.lastAccount = this.props.account_field && this.props.record.data[this.props.account_field] || false;
         this.lastProduct = this.props.product_field && this.props.record.data[this.props.product_field] || false;
     }
@@ -106,6 +122,13 @@ export class AnalyticDistribution extends Component {
             await this.fetchAllPlans(this.props);
         }
         await this.jsonToData(this.props.record.data[this.props.name]);
+<<<<<<< HEAD
+=======
+        if (this.props.multi_edit) {
+            this.initialFormattedData = this.state.formattedData;
+            this.state.formattedData = [];
+        }
+>>>>>>> upstream/18.0
     }
 
     async willUpdateRecord(record) {
@@ -127,6 +150,13 @@ export class AnalyticDistribution extends Component {
             this.lastAccount = accountChanged && currentAccount || this.lastAccount;
             this.lastProduct = productChanged && currentProduct || this.lastProduct;
             await this.jsonToData(record.data[this.props.name]);
+<<<<<<< HEAD
+=======
+            if (this.props.multi_edit) {
+                this.initialFormattedData = this.state.formattedData;
+                this.state.formattedData = [];
+            }
+>>>>>>> upstream/18.0
         }
         this.currentValue = record.data[this.props.name];
     }
@@ -141,7 +171,12 @@ export class AnalyticDistribution extends Component {
      */
     accountTotalsByPlan() {
         const accountTotals = {};
+<<<<<<< HEAD
         this.state.formattedData.map((line) => {
+=======
+        const formattedData = this.props.multi_edit ? this.initialFormattedData : this.state.formattedData;
+        formattedData.map((line) => {
+>>>>>>> upstream/18.0
             line.analyticAccounts.map((column) => {
                 if (column.accountId) {
                     let {
@@ -220,13 +255,21 @@ export class AnalyticDistribution extends Component {
     }
 
     async jsonToData(jsonFieldValue) {
+<<<<<<< HEAD
         const analyticAccountIds = jsonFieldValue ? Object.keys(jsonFieldValue).map((key) => key.split(',')).flat().map((id) => parseInt(id)) : [];
+=======
+        const analyticAccountIds = jsonFieldValue ? Object.keys(jsonFieldValue).filter((key) => key != '__update__' ).map((key) => key.split(',')).flat().map((id) => parseInt(id)) : [];
+>>>>>>> upstream/18.0
         const analyticAccountDict = analyticAccountIds.length ? await this.fetchAnalyticAccounts([["id", "in", analyticAccountIds]]) : [];
 
         let distribution = [];
         let accountNotFound = false;
 
         for (const [accountIds, percentage] of Object.entries(jsonFieldValue)) {
+<<<<<<< HEAD
+=======
+            if (accountIds == '__update__') continue;
+>>>>>>> upstream/18.0
             const defaultVals = this.plansToArray(); // empty if the popup was not opened
             const ids = accountIds.split(',');
 
@@ -272,7 +315,11 @@ export class AnalyticDistribution extends Component {
         const values = {};
         // Analytic Account fields
         line.analyticAccounts.map((account) => {
+<<<<<<< HEAD
             const fieldName = `x_plan${account.planId}_id`;
+=======
+            const fieldName = this.planIdToColumn[account.planId];
+>>>>>>> upstream/18.0
             recordFields[fieldName] = {
                 string: account.planName,
                 relation: "account.analytic.account",
@@ -354,6 +401,15 @@ export class AnalyticDistribution extends Component {
     async fetchAllPlans(props) {
         const argsPlan = this.fetchPlansArgs(props);
         this.allPlans = await this.orm.call("account.analytic.plan", "get_relevant_plans", [], argsPlan);
+<<<<<<< HEAD
+=======
+        this.planIdToColumn = Object.fromEntries(this.allPlans.map((plan) => [plan.id, plan.column_name]));
+        if (!this.props.multi_edit) {
+            this.allPlans.forEach(plan => {
+                this.state.update_plan[plan.column_name] = true;
+            });
+        }
+>>>>>>> upstream/18.0
     }
 
     async fetchAnalyticAccounts(domain) {
@@ -374,7 +430,11 @@ export class AnalyticDistribution extends Component {
     async lineChanged(record, changes, line) {
         // record analytic account changes to the state
         for (const account of line.analyticAccounts) {
+<<<<<<< HEAD
             const selected = record.data[`x_plan${account.planId}_id`];
+=======
+            const selected = record.data[this.planIdToColumn[account.planId]];
+>>>>>>> upstream/18.0
             account.accountId = selected[0];
             account.accountDisplayName = selected[1];
             account.accountColor = account.planColor;
@@ -446,6 +506,12 @@ export class AnalyticDistribution extends Component {
 
     dataToJson() {
         const result = {};
+<<<<<<< HEAD
+=======
+        if (this.props.multi_edit) {
+            result.__update__ = Object.entries(this.state.update_plan).filter((e) => e[1]).map((e) => e[0]);
+        }
+>>>>>>> upstream/18.0
         this.state.formattedData = this.state.formattedData.filter((line) => this.accountCount(line));
         this.state.formattedData.map((line) => {
             const key = line.analyticAccounts.reduce((p, n) => p.concat(n.accountId ? n.accountId : []), []);
@@ -456,6 +522,15 @@ export class AnalyticDistribution extends Component {
 
     async save() {
         await this.props.record.update({ [this.props.name]: this.dataToJson() });
+<<<<<<< HEAD
+=======
+        if (this.props.multi_edit) {
+            await this.jsonToData(this.props.record.data[this.props.name]);
+            this.initialFormattedData = this.state.formattedData;
+            this.state.formattedData = [];
+            this.state.update_plan = {};
+        }
+>>>>>>> upstream/18.0
     }
 
     onSaveNew() {
@@ -486,6 +561,12 @@ export class AnalyticDistribution extends Component {
         if (!this.allPlans.length) {
             await this.fetchAllPlans(this.props);
             await this.jsonToData(this.props.record.data[this.props.name]);
+<<<<<<< HEAD
+=======
+            if (this.props.multi_edit) {
+                this.state.formattedData = [];
+            }
+>>>>>>> upstream/18.0
         }
         if (!this.state.formattedData.length) {
             await this.addLine();
@@ -607,11 +688,22 @@ export class AnalyticDistribution extends Component {
 
     onWindowClick(ev) {
         /*
+<<<<<<< HEAD
         Dropdown should be closed only if all these condition are true:
             - dropdown is open
             - click is outside widget element (widgetRef)
             - there is no active modal containing a list/kanban view (search more modal)
             - there is no popover (click is not in search modal's search bar menu)
+=======
+        Dropdown should be closed only if all these conditions are true:
+            - dropdown is open
+            - click is outside widget element (widgetRef)
+            - Either:
+                - The click is not inside an active modal with a list/kanban view (search more modal)
+                    and not inside a popover (search bar menu)
+                OR
+                - The widget is inside an active modal
+>>>>>>> upstream/18.0
             - click is not targeting document dom element (drag and drop search more modal)
         */
 
@@ -621,7 +713,12 @@ export class AnalyticDistribution extends Component {
         ];
         if (this.isDropdownOpen
             && !this.widgetRef.el.contains(ev.target)
+<<<<<<< HEAD
             && !ev.target.closest(selectors.join(","))
+=======
+            && (!ev.target.closest(selectors.join(","))
+                || document.querySelector(".modal:not(.o_inactive_modal)").contains(this.widgetRef.el))
+>>>>>>> upstream/18.0
             && !ev.target.isSameNode(document.documentElement)
            ) {
             this.forceCloseEditor();
@@ -647,6 +744,14 @@ export const analyticDistribution = {
             type: "boolean",
         },
         {
+<<<<<<< HEAD
+=======
+            label: _t("Multi edit"),
+            name: "multi_edit",
+            type: "boolean",
+        },
+        {
+>>>>>>> upstream/18.0
             label: _t("Force applicability"),
             name: "force_applicability",
             type: "boolean",
@@ -683,6 +788,10 @@ export const analyticDistribution = {
         business_domain_compute: attrs.business_domain_compute,
         force_applicability: options.force_applicability,
         allow_save: !options.disable_save,
+<<<<<<< HEAD
+=======
+        multi_edit: options.multi_edit,
+>>>>>>> upstream/18.0
     }),
 };
 

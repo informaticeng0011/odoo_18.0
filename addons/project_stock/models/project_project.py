@@ -27,11 +27,21 @@ class ProjectProject(models.Model):
             context['restricted_picking_type_code'] = picking_type
             if picking_type == 'outgoing':
                 context['default_partner_id'] = self.partner_id.id
+<<<<<<< HEAD
+=======
+        view_mode = "list,kanban,form,calendar"
+        if picking_type != 'outgoing':
+            view_mode += ",activity"
+>>>>>>> upstream/18.0
         return {
             'name': action_name,
             'type': 'ir.actions.act_window',
             'res_model': 'stock.picking',
+<<<<<<< HEAD
             'view_mode': f"list,kanban,form,calendar,{'map' if picking_type == 'outgoing' else 'activity'}",
+=======
+            'view_mode': view_mode,
+>>>>>>> upstream/18.0
             'domain': domain,
             'context': context,
             'help': self.env['ir.ui.view']._render_template(

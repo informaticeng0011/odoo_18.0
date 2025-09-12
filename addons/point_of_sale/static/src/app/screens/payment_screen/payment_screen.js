@@ -141,7 +141,10 @@ export class PaymentScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.pos.addPendingOrder([order.id]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -591,7 +594,11 @@ export class PaymentScreen extends Component {
             }
         } catch (error) {
             if (error instanceof ConnectionLostError) {
+<<<<<<< HEAD
                 this.pos.showScreen(this.nextScreen);
+=======
+                this.afterOrderValidation();
+>>>>>>> upstream/18.0
                 Promise.reject(error);
             } else if (error instanceof RPCError) {
                 this.currentOrder.state = "draft";
@@ -641,7 +648,10 @@ export class PaymentScreen extends Component {
 
                 if (this.pos.config.iface_print_skip_screen) {
                     this.currentOrder.set_screen_data({ name: "" });
+<<<<<<< HEAD
                     this.currentOrder.uiState.locked = true;
+=======
+>>>>>>> upstream/18.0
                     switchScreen = this.currentOrder.uuid === this.pos.selectedOrderUuid;
                     nextScreen = "ProductScreen";
                     if (switchScreen) {
@@ -654,12 +664,23 @@ export class PaymentScreen extends Component {
         if (switchScreen) {
             this.pos.showScreen(nextScreen);
         }
+<<<<<<< HEAD
+=======
+
+        if (!this.pos.config.module_pos_restaurant) {
+            this.pos.checkPreparationStateAndSentOrderInPreparation(this.currentOrder);
+        }
+>>>>>>> upstream/18.0
     }
     selectNextOrder() {
         if (this.currentOrder.originalSplittedOrder) {
             this.pos.selectedOrderUuid = this.currentOrder.originalSplittedOrder.uuid;
         } else {
+<<<<<<< HEAD
             this.pos.add_new_order();
+=======
+            this.pos.selectEmptyOrder();
+>>>>>>> upstream/18.0
         }
     }
     /**
@@ -870,6 +891,19 @@ export class PaymentScreen extends Component {
     }
     async sendForceDone(line) {
         line.set_payment_status("done");
+<<<<<<< HEAD
+=======
+        const config = this.pos.config;
+        const currency = this.pos.currency;
+        const currentOrder = line.pos_order_id;
+        if (
+            currentOrder.is_paid() &&
+            floatIsZero(currentOrder.get_due(), currency.decimal_places) &&
+            config.auto_validate_terminal_payment
+        ) {
+            this.validateOrder(true);
+        }
+>>>>>>> upstream/18.0
     }
 
     check_cash_rounding_has_been_well_applied() {

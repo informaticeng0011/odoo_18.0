@@ -230,7 +230,11 @@ function bootstrapToTable(editable) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table');
+=======
+    const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table, .o_text_columns');
+>>>>>>> upstream/18.0
 =======
     const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table, .o_text_columns');
 >>>>>>> upstream/18.0
@@ -425,7 +429,11 @@ function bootstrapToTable(editable) {
             //    by sharing the available space between them.
             const flexColumns = bootstrapColumns.filter(column => !/\d/.test(column.className.match(RE_COL_MATCH)[0] || '0'));
             const colTotalSize = bootstrapColumns.map(child => _getColumnSize(child) + _getColumnOffsetSize(child)).reduce((a, b) => a + b, 0);
+<<<<<<< HEAD
             const colSize = Math.max(1, Math.round((12 - colTotalSize) / flexColumns.length));
+=======
+            const colSize = Math.max(1, Math.floor((12 - (colTotalSize)) / flexColumns.length));
+>>>>>>> upstream/18.0
             for (const flexColumn of flexColumns) {
                 flexColumn.classList.remove(flexColumn.className.match(RE_COL_MATCH)[0].trim());
                 flexColumn.classList.add(`col-${colSize}`);

@@ -20,9 +20,18 @@ import {
     serverState,
     stepAllNetworkCalls,
 } from "@web/../tests/web_test_helpers";
+<<<<<<< HEAD
 import { registry } from "@web/core/registry";
 import { X2ManyField, x2ManyField } from "@web/views/fields/x2many/x2many_field";
 import { Many2XAutocomplete } from "@web/views/fields/relational_utils";
+=======
+import { ConfirmationDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
+import { registry } from "@web/core/registry";
+import { useService } from "@web/core/utils/hooks";
+import { X2ManyField, x2ManyField } from "@web/views/fields/x2many/x2many_field";
+import { Many2XAutocomplete } from "@web/views/fields/relational_utils";
+import { ListRenderer } from "@web/views/list/list_renderer";
+>>>>>>> upstream/18.0
 
 describe.current.tags("desktop");
 
@@ -477,7 +486,10 @@ test("many2many kanban: conditional create/delete actions", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1054,7 +1066,10 @@ test("many2many list: conditional create/delete actions", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1217,7 +1232,10 @@ test("many2many field with link/unlink options (list)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1373,7 +1391,10 @@ test('many2many field with link/unlink options (list, create="0")', async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1530,7 +1551,10 @@ test("many2many field with link option (kanban)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1688,7 +1712,10 @@ test('many2many field with link option (kanban, create="0")', async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1981,6 +2008,70 @@ test("many2many list (editable): edition concurrence", async () => {
     expect.verifySteps(["get_views", "web_read", "web_save"]);
 });
 
+<<<<<<< HEAD
+=======
+test("many2many editable list: delete with confirmation (cancel, then delete again)", async () => {
+    class ListRendererWithConfirmation extends ListRenderer {
+        setup() {
+            this.dialog = useService("dialog");
+            super.setup();
+        }
+        onDeleteRecord(record) {
+            this.dialog.add(ConfirmationDialog, {
+                body: "Are you sure you want to delete this record?",
+                confirm: () => super.onDeleteRecord(record),
+                cancel: () => {},
+            });
+        }
+    }
+    class X2ManyFieldWithConfirmation extends X2ManyField {
+        static components = {
+            ...X2ManyField.components,
+            ListRenderer: ListRendererWithConfirmation,
+        };
+    }
+    const x2ManyFieldWithConfirmation = {
+        ...x2ManyField,
+        component: X2ManyFieldWithConfirmation,
+        additionalClasses: ["o_field_one2many"],
+    };
+    registry.category("fields").add("x2many_with_confirmation", x2ManyFieldWithConfirmation);
+
+    Partner._records[0].timmy = [1, 2];
+
+    await mountView({
+        type: "form",
+        resModel: "partner",
+        arch: `
+            <form>
+                <field name="timmy" widget="x2many_with_confirmation">
+                    <list editable="top">
+                        <field name="display_name"/>
+                    </list>
+                </field>
+            </form>`,
+        resId: 1,
+    });
+
+    expect(".o_data_row").toHaveCount(2);
+
+    await contains(".o_list_record_remove button").click();
+    expect(".o_dialog").toHaveCount(1);
+
+    await contains(".o_dialog footer .btn-secondary").click();
+    expect(".o_dialog").toHaveCount(0);
+    expect(".o_data_row").toHaveCount(2);
+
+    await runAllTimers(); // the button is disabled (programmatically) for a while
+    await contains(".o_list_record_remove button").click();
+    expect(".o_dialog").toHaveCount(1);
+
+    await contains(".o_dialog footer .btn-primary").click();
+    expect(".o_dialog").toHaveCount(0);
+    expect(".o_data_row").toHaveCount(1);
+});
+
+>>>>>>> upstream/18.0
 test("many2many list with onchange and edition of a record", async () => {
     Partner._fields.turtles = fields.Many2many({
         relation: "turtle",
@@ -2165,10 +2256,16 @@ test("onchange with 40+ commands for a many2many", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 0; i < 45; i++) {
         var id = 100 + i;
         PartnerType._records.push({ id: id, name: "type " + id });
         commands.push([4, id]);
+=======
+    for (let id = 100; id < 145; id++) {
+        PartnerType._records.push({ id, name: "type " + id });
+        commands.push(Command.link(id));
+>>>>>>> upstream/18.0
 =======
     for (let id = 100; id < 145; id++) {
         PartnerType._records.push({ id, name: "type " + id });
@@ -2465,10 +2562,16 @@ test("onchange with 40+ commands for a many2many on desktop", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 0; i < 45; i++) {
         var id = 100 + i;
         PartnerType._records.push({ id: id, name: "type " + id });
         commands.push([4, id]);
+=======
+    for (let id = 100; id < 145; id++) {
+        PartnerType._records.push({ id, name: "type " + id });
+        commands.push(Command.link(id));
+>>>>>>> upstream/18.0
 =======
     for (let id = 100; id < 145; id++) {
         PartnerType._records.push({ id, name: "type " + id });
@@ -2904,7 +3007,10 @@ test("select create with _view_ref as text", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -1,16 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* im_livechat
 # 
 # Translators:
 # Wil Odoo, 2024
 # Junko Augias, 2025
 # 
+=======
+# * im_livechat
+#
+# Translators:
+# Wil Odoo, 2024
+# Junko Augias, 2025
+#
+# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Junko Augias, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
@@ -19,6 +30,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"PO-Revision-Date: 2025-08-26 14:54+0000\n"
+"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
+"Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
+"im_livechat/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #. odoo-python
@@ -80,7 +103,13 @@ msgid ""
 "* 'Hide' hides the chat button on the pages.\n"
 msgstr ""
 "* '表示' はページ上にチャットボタンを表示します。\n"
+<<<<<<< HEAD
 "* '通知で表示'は'表示'に加え、ボタンのすぐ横にフローティングテキストを表示します。\n"
+=======
+"* "
+"'通知付きで表示'は'表示'に加え、ボタンのすぐ横にフローティングテキストを表示"
+"します。\n"
+>>>>>>> upstream/18.0
 "* '自動的に開く'はボタンを表示し、自動的に会話ペインを開きます。\n"
 "* '隠す'はページ上のチャットボタンを隠します。\n"
 
@@ -265,7 +294,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化"
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
@@ -666,7 +699,11 @@ msgstr "チャネル"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__input_placeholder
 msgid "Chat Input Placeholder"
+<<<<<<< HEAD
 msgstr "チャット入力ボックス"
+=======
+msgstr "チャット入力プレースホルダ"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_discuss_channel__channel_type
@@ -874,7 +911,11 @@ msgstr "活動日数"
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel__button_background_color
 msgid "Default background color of the Livechat button"
+<<<<<<< HEAD
 msgstr "Webチャットボタンのデフォルト背景色"
+=======
+msgstr "ライブチャットボタンのデフォルト背景色"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel__header_background_color
@@ -884,17 +925,29 @@ msgstr "チャンネルヘッダを開いたときのデフォルト背景色"
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel__button_text_color
 msgid "Default text color of the Livechat button"
+<<<<<<< HEAD
 msgstr "Webチャットボタンのデフォルト文字色"
+=======
+msgstr "ライブチャットボタンのデフォルト文字色"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel__button_text
 msgid "Default text displayed on the Livechat Support Button"
+<<<<<<< HEAD
 msgstr "Webチャットサポートボタンに表示されるデフォルトテキスト"
+=======
+msgstr "ライブチャットサポートボタンに表示されるデフォルトテキスト"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel__title_color
 msgid "Default title color of the channel once open"
+<<<<<<< HEAD
 msgstr "チャネルを開いたときのデフォルトタイトル色"
+=======
+msgstr "チャネルを開いたときのデフォルト件名色"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model_terms:ir.actions.act_window,help:im_livechat.im_livechat_channel_action
@@ -1001,7 +1054,11 @@ msgstr "オペレータが対応不可能な場合のみボットを有効にし
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule__chatbot_only_if_no_operator
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_rule_view_form
 msgid "Enabled only if no operator"
+<<<<<<< HEAD
 msgstr "オペレーターがいない場合のみ有効"
+=======
+msgstr "オペレータが不在の場合のみ有効"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #. odoo-javascript
@@ -1330,12 +1387,20 @@ msgstr "チャネルから退席"
 #: model:ir.ui.menu,name:im_livechat.menu_livechat_root
 #: model_terms:ir.ui.view,arch_db:im_livechat.digest_digest_view_form_inherit
 msgid "Live Chat"
+<<<<<<< HEAD
 msgstr "Webチャット"
+=======
+msgstr "ライブチャット"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule__action
 msgid "Live Chat Button"
+<<<<<<< HEAD
 msgstr "Webチャットボタン"
+=======
+msgstr "ライブチャットボタン"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_search
@@ -1354,18 +1419,30 @@ msgstr "ライブチャット"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Livechat Button"
+<<<<<<< HEAD
 msgstr "Webチャットボタン"
+=======
+msgstr "ライブチャットボタン"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Livechat Button Color"
+<<<<<<< HEAD
 msgstr "Webチャットボタン色"
+=======
+msgstr "ライブチャットボタン色"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_im_livechat_channel
 #: model_terms:ir.ui.view,arch_db:im_livechat.rating_rating_view_search_livechat
 msgid "Livechat Channel"
+<<<<<<< HEAD
 msgstr "Webチャットチャネル"
+=======
+msgstr "ライブチャットチャネル"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script__livechat_channel_count
@@ -1380,7 +1457,11 @@ msgstr "ライブチャットチャネル規則"
 #. module: im_livechat
 #: model:ir.model.fields.selection,name:im_livechat.selection__discuss_channel__channel_type__livechat
 msgid "Livechat Conversation"
+<<<<<<< HEAD
 msgstr "Webチャットの会話"
+=======
+msgstr "ライブチャットの会話"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.unit_embed_suite
@@ -1423,7 +1504,11 @@ msgstr "ライブチャット サポートオペレータ レポート"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_graph
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_pivot
 msgid "Livechat Support Statistics"
+<<<<<<< HEAD
 msgstr "Webチャットサポート統計"
+=======
+msgstr "ライブチャットサポート統計"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_res_users__livechat_username
@@ -1434,7 +1519,11 @@ msgstr "ライブチャットユーザ名"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Livechat Window"
+<<<<<<< HEAD
 msgstr "Webチャットウィンドウ"
+=======
+msgstr "ライブチャットウィンドウ"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_res_users_settings__livechat_lang_ids
@@ -1938,7 +2027,11 @@ msgstr "これらの回答がすべて選択されている場合のみ、この
 #. module: im_livechat
 #: model:ir.model.fields.selection,name:im_livechat.selection__im_livechat_channel_rule__action__display_button_and_text
 msgid "Show with notification"
+<<<<<<< HEAD
 msgstr "通知と表示する"
+=======
+msgstr "通知付きで表示"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script__source_id
@@ -2097,12 +2190,20 @@ msgstr "ヒント：定型文を使ってチャットを高速化する"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script__title
 msgid "Title"
+<<<<<<< HEAD
 msgstr "タイトル"
+=======
+msgstr "件名"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__title_color
 msgid "Title Color"
+<<<<<<< HEAD
 msgstr "タイトル色"
+=======
+msgstr "件名色"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
@@ -2202,7 +2303,11 @@ msgstr "ウェブページ"
 #. module: im_livechat
 #: model:ir.actions.act_window,name:im_livechat.im_livechat_channel_action
 msgid "Website Live Chat Channels"
+<<<<<<< HEAD
 msgstr "ウェブサイトWebチャットチャネル"
+=======
+msgstr "ウェブサイトライブチャットチャネル"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__website_message_ids

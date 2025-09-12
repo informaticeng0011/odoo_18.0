@@ -131,7 +131,17 @@ class AccountMove(models.Model):
 
     def _get_name_invoice_report(self):
         self.ensure_one()
+<<<<<<< HEAD
         if self.l10n_latam_use_documents and self.company_id.account_fiscal_country_id.code == 'CL':
+=======
+        if (
+            self.l10n_latam_use_documents and self.company_id.account_fiscal_country_id.code == "CL"
+            and (
+                self.move_type in {"out_invoice", "out_refund"}
+                or self.l10n_latam_document_type_id.code == "46"
+            )
+        ):
+>>>>>>> upstream/18.0
             return 'l10n_cl.report_invoice_document'
         return super()._get_name_invoice_report()
 
@@ -320,6 +330,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         values['vat_percent'] = '%.2f' % vat_percent if vat_percent > 0 else False
 =======
         values['vat_percent'] = '%.2f%%' % vat_percent if vat_percent > 0 else False
@@ -338,6 +349,9 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
         values['vat_percent'] = '%.2f%%' % vat_percent if vat_percent > 0 else False
+>>>>>>> upstream/18.0
+=======
+        values['vat_percent'] = '%.2f' % vat_percent if vat_percent > 0 else False
 >>>>>>> upstream/18.0
 =======
         values['vat_percent'] = '%.2f' % vat_percent if vat_percent > 0 else False

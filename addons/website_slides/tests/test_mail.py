@@ -45,6 +45,10 @@ class TestSlidesMail(SlidesCase):
         self.assertDictEqual(
             suggested_recipient,
             {
+<<<<<<< HEAD
+=======
+                'display_name': user_id.partner_id.display_name,
+>>>>>>> upstream/18.0
                 'lang': None, 'email': user_id.email, 'name': user_id.name,
                 'partner_id': user_id.partner_id.id, 'reason': 'Responsible'
             }

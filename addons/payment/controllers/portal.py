@@ -367,7 +367,11 @@ class PaymentPortal(portal.CustomerPortal):
             **(custom_create_values or {}),
         })  # In sudo mode to allow writing on callback fields
 
+<<<<<<< HEAD
         if flow == 'token':
+=======
+        if flow == 'token' and not request.env.context.get('delay_payment_request'):
+>>>>>>> upstream/18.0
             tx_sudo._send_payment_request()  # Payments by token process transactions immediately
         else:
             tx_sudo._log_sent_message()

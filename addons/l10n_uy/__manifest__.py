@@ -1,7 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Uruguay - Accounting',
+<<<<<<< HEAD
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations.html',
+=======
+    'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/uruguay.html',
+>>>>>>> upstream/18.0
     'icon': '/account/static/description/l10n.png',
     'countries': ['uy'],
     'version': '0.1',

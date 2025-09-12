@@ -19,3 +19,7 @@ class PosSession(models.Model):
             response['event.registration']['relations']['email']['compute'] = False
             response['event.registration']['relations']['phone']['compute'] = False
             response['event.registration']['relations']['name']['compute'] = False
+<<<<<<< HEAD
+=======
+            response['event.registration']['relations']['company_name']['compute'] = False
+>>>>>>> upstream/18.0

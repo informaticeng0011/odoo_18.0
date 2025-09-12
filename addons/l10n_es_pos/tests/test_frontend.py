@@ -210,7 +210,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -423,6 +426,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -557,4 +561,11 @@ class TestUi(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_simplified_partner_inactive_case(self):
+        self.main_pos_config.simplified_partner_id.active = False
+        self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id,
+                        'test_simplified_partner_inactive_case', login="pos_user")
 >>>>>>> upstream/18.0

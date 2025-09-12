@@ -3,6 +3,7 @@
 # 	* portal
 # 
 # Translators:
+<<<<<<< HEAD
 # Sergio Zanchetta <primes2h@gmail.com>, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,11 +267,17 @@
 # Wil Odoo, 2025
 # Marianna Ciofani, 2025
 >>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
+# Marianna Ciofani, 2025
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,6 +617,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marianna Ciofani, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-23 18:40+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -808,6 +820,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
+"            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
+"            <t t-set=\"signup_url\" t-value=\"object.user_id.partner_id and object.user_id.partner_id._get_signup_url() or object.partner_id and object.partner_id._get_signup_url()\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
 "            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
@@ -1117,6 +1135,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or ''\">Marc Demo</span>\n"
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
@@ -1135,6 +1154,9 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
+>>>>>>> upstream/18.0
+=======
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
@@ -1353,6 +1375,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Dear <t t-out=\"object.user_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
 "                        Welcome to <t t-out=\"object.user_id.company_id.name\">YourCompany</t>'s Portal!<br/><br/>\n"
 "                        An account has been created for you with the following login: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
@@ -1393,6 +1416,8 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1543,6 +1568,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1706,7 +1734,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
+=======
+"                    <t t-out=\"company_name\">YourCompany</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"company_name\">YourCompany</t>\n"
 >>>>>>> upstream/18.0
@@ -1936,11 +1968,17 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
+"            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
+"            <t t-set=\"signup_url\" t-value=\"object.user_id.partner_id and object.user_id.partner_id._get_signup_url() or object.partner_id and object.partner_id._get_signup_url()\"/>\n"
 >>>>>>> upstream/18.0
 =======
 "<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
@@ -2230,6 +2268,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or ''\">Marc Demo</span>\n"
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
@@ -2239,6 +2278,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
+>>>>>>> upstream/18.0
+=======
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
@@ -2442,6 +2484,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Gentile <t t-out=\"object.user_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
 "                        benvenuto nel portale dell'azienda <t t-out=\"object.user_id.company_id.name\">YourCompany</t>!<br/><br/>\n"
 "                        È stato creato un account per te, con le seguenti credenziali: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
@@ -2464,6 +2507,8 @@ msgstr ""
 "                        <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "                            <a t-att-href=\"object.user_id.partner_id._get_signup_url() or object.partner_id._get_signup_url()\" style=\"display: inline-block; padding: 10px; text-decoration: none; font-size: 12px; background-color: #875A7B; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2605,6 +2650,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2748,6 +2796,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2904,7 +2955,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
+=======
+"                    <t t-out=\"company_name\">YourCompany</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"company_name\">YourCompany</t>\n"
 >>>>>>> upstream/18.0
@@ -3118,6 +3173,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3267,7 +3325,11 @@ msgstr "Aggiungi nota"
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "Add attachment"
+<<<<<<< HEAD
 msgstr "Aggiunge allegato"
+=======
+msgstr "Aggiungi allegato"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_wizard
@@ -3277,7 +3339,11 @@ msgstr "Aggiungi contatti ai quali condividere il documento..."
 #. module: portal
 #: model:ir.model.fields,help:portal.field_portal_share__note
 msgid "Add extra content to display in the email"
+<<<<<<< HEAD
 msgstr "Aggiungi contenuti extra da visualizzare nell'e-mail"
+=======
+msgstr "Aggiunge contenuti supplementari da visualizzare nella e-mail"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
@@ -3292,7 +3358,11 @@ msgstr "Già registrato"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Are you sure you want to do this?"
+<<<<<<< HEAD
 msgstr "Sei sicuro di volerlo fare?"
+=======
+msgstr "Procedere veramente?"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
@@ -3319,8 +3389,13 @@ msgid ""
 "Changing VAT number is not allowed once document(s) have been issued for "
 "your account. Please contact us directly for this operation."
 msgstr ""
+<<<<<<< HEAD
 "Impossibile modificare la partita IVA dopo l'emissione dei documenti per il "
 "conto. Per questa operazione contattarci direttamente."
+=======
+"Non è consentito cambiare la partita IVA dopo l'emissione dei documenti per "
+"il conto. Per questa operazione contattarci direttamente."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
@@ -3328,8 +3403,13 @@ msgid ""
 "Changing company name is not allowed once document(s) have been issued for "
 "your account. Please contact us directly for this operation."
 msgstr ""
+<<<<<<< HEAD
 "Impossibile modificare il nome dell'azienda dopo l'emissione dei documenti "
 "per il conto. Per questa operazione contattarci direttamente."
+=======
+"Non è consentito cambiare il nome dell'azienda dopo l'emissione dei "
+"documenti per il conto. Per questa operazione contattarci direttamente."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
@@ -3344,7 +3424,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/portal/static/src/js/portal_security.js:0
 msgid "Check failed"
+<<<<<<< HEAD
 msgstr "Controllo fallito"
+=======
+msgstr "Controllo non superato"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
@@ -3355,7 +3439,11 @@ msgstr "Città"
 #. odoo-javascript
 #: code:addons/portal/static/src/signature_form/signature_form.xml:0
 msgid "Click here to see your document."
+<<<<<<< HEAD
 msgstr "Clicca qui per vedere il tuo documento."
+=======
+msgstr "Fai clic per vedere il documento."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
@@ -3411,7 +3499,11 @@ msgstr "Contatto"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
 msgid "Contact Details"
+<<<<<<< HEAD
 msgstr "Dettagli Contatto"
+=======
+msgstr "Dettagli contatto"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
@@ -3446,7 +3538,11 @@ msgstr "Data creazione"
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_res_config_settings__portal_allow_api_keys
 msgid "Customer API Keys"
+<<<<<<< HEAD
 msgstr "Chiavi API Clienti"
+=======
+msgstr "Chiavi API cliente"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,help:portal.field_portal_mixin__access_url
@@ -3461,7 +3557,11 @@ msgstr "I clienti possono generare chiavi API"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_template
 msgid "Dear"
+<<<<<<< HEAD
 msgstr "Spett.le"
+=======
+msgstr "Gentile"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
@@ -3548,7 +3648,11 @@ msgstr "Discussione e-mail"
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Enter a description of and purpose for the key."
+<<<<<<< HEAD
 msgstr "Inserisci una descrizione e lo scopo della chiave."
+=======
+msgstr "Inserire una descrizione e lo scopo della chiave."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
@@ -3600,13 +3704,22 @@ msgid ""
 "Here is your new API key, use it instead of a password for RPC access.\n"
 "                Your login is still necessary for interactive usage."
 msgstr ""
+<<<<<<< HEAD
 "Ecco la tua nuova chiave API, utilizzala al posto di una password per l'accesso RPC.\n"
 "                Il login è ancora necessario per l'utilizzo interattivo."
+=======
+"Questa è la nuova chiave API, utilizzarla al posto della password per l'accesso RPC.\n"
+"                Per l'utilizzo interattivo è ancora necessario l'accesso con nome utente."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_breadcrumbs
 msgid "Home"
+<<<<<<< HEAD
 msgstr "Home"
+=======
+msgstr "Pagina iniziale"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_share__id
@@ -3640,7 +3753,11 @@ msgstr "Indirizzo e-mail non valido"
 #. odoo-python
 #: code:addons/portal/controllers/portal.py:0
 msgid "Invalid Email! Please enter a valid email address."
+<<<<<<< HEAD
 msgstr "L'e-mail non è valida, inserire un indirizzo corretto."
+=======
+msgstr "E-mail non valida, inserire un indirizzo corretto."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
@@ -3681,6 +3798,7 @@ msgid ""
 "It is very important that this description be clear\n"
 "                and complete,"
 msgstr ""
+<<<<<<< HEAD
 "È molto importante che questa descrizione sia chiara\n"
 "e completa,"
 
@@ -3865,6 +3983,12 @@ msgstr "Descrizione chiave"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"È molto importante che la descrizione sia chiara\n"
+"                e completa,"
+
+#. module: portal
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:portal.field_portal_share__write_uid
 #: model:ir.model.fields,field_description:portal.field_portal_wizard__write_uid
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user__write_uid
@@ -3934,7 +4058,11 @@ msgstr "Nome"
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Name your key"
+<<<<<<< HEAD
 msgstr "Dai un nome alla tua chiave"
+=======
+msgstr "Nome della chiave"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
@@ -3952,7 +4080,11 @@ msgstr "Nuova password:"
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "Next"
+<<<<<<< HEAD
 msgstr "Succ"
+=======
+msgstr "Successivo"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_share__note
@@ -3976,8 +4108,12 @@ msgstr ""
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "Oops! Something went wrong. Try to reload the page and log in."
 msgstr ""
+<<<<<<< HEAD
 "Ops! Qualcosa è andato storto. Ricaricare la pagina e provare nuovamente ad "
 "accedere."
+=======
+"Ops! Qualcosa è andato storto. Ricaricare la pagina e riprovare ad accedere."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard__partner_ids
@@ -4017,7 +4153,11 @@ msgstr ""
 #: code:addons/portal/wizard/portal_wizard.py:0
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Portal Access Management"
+<<<<<<< HEAD
 msgstr "Gestione degli accessi al portale"
+=======
+msgstr "Gestione accessi al portale"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_mixin__access_url
@@ -4037,7 +4177,11 @@ msgstr "Condivisione portale"
 #. module: portal
 #: model:ir.model,name:portal.model_portal_wizard_user
 msgid "Portal User Config"
+<<<<<<< HEAD
 msgstr "Configurazione Utente Portale"
+=======
+msgstr "Configurazione utente portale"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:mail.template,name:portal.mail_template_data_portal_welcome
@@ -4082,17 +4226,29 @@ msgstr "Destinatari"
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_share__resource_ref
 msgid "Related Document"
+<<<<<<< HEAD
 msgstr "Documento collegato"
+=======
+msgstr "Documento correlato"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_share__res_id
 msgid "Related Document ID"
+<<<<<<< HEAD
 msgstr "ID documento collegato"
+=======
+msgstr "ID documento correlato"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_share__res_model
 msgid "Related Document Model"
+<<<<<<< HEAD
 msgstr "Modello documento collegato"
+=======
+msgstr "Modello documento correlato"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
@@ -4185,7 +4341,10 @@ msgstr "Sicurezza"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal/static/src/xml/portal_security.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4317,9 +4476,15 @@ msgid ""
 "                        The email address of each selected contact must be valid and unique.\n"
 "                        If necessary, you can fix any contact's email address directly in the list."
 msgstr ""
+<<<<<<< HEAD
 "Seleziona quali contatti dovrebbero poter accedere al portale dalla lista sottostante.\n"
 "                        L'indirizo email di ogni contatto selezionato deve essere univoco e valido.\n"
 "                        Se necessario, puoi modificare l'indirizzo email di un contatto direttamente all'interno della lista."
+=======
+"Selezionare dall'elenco sottostante quali contatti aggiungere al portale.\n"
+"                        L'indirizzo e-mail di ciascun contatto selezionato deve essere valido e univoco.\n"
+"                        Se necessario, correggere l'indirizzo e-mail direttamente dall'elenco."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
@@ -4342,7 +4507,11 @@ msgstr "Condividi documento"
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_ir_ui_view__customize_show
 msgid "Show As Optional Inherit"
+<<<<<<< HEAD
 msgstr "Mostra come eredità opzionale"
+=======
+msgstr "Mostra come ereditata opzionale"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.user_sign_in
@@ -4422,7 +4591,11 @@ msgstr "L'allegato non esiste o mancano i diritti di accesso."
 #. odoo-python
 #: code:addons/portal/wizard/portal_wizard.py:0
 msgid "The contact \"%s\" does not have a valid email."
+<<<<<<< HEAD
 msgstr "Il contatto \"%s\" non ha un indirizzo e-mail valido."
+=======
+msgstr "Il contatto \"%s\" non ha una e-mail valida."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
@@ -4487,7 +4660,11 @@ msgstr "Questo documento non esiste."
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
 msgid "This is a preview of the customer portal."
+<<<<<<< HEAD
 msgstr "Questa è una anteprima del portale clienti."
+=======
+msgstr "Anteprima del portale clienti."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
@@ -4509,7 +4686,11 @@ msgstr ""
 #: model:ir.model.fields,help:portal.field_portal_wizard__welcome_message
 msgid "This text is included in the email sent to new users of the portal."
 msgstr ""
+<<<<<<< HEAD
 "Questo testo è contenuto nell'e-mail inviata ai nuovi utenti del portale."
+=======
+"Questo testo viene incluso nella e-mail inviata ai nuovi utenti del portale."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
@@ -4646,7 +4827,11 @@ msgstr "Scrivi un messaggio..."
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Write down your key"
+<<<<<<< HEAD
 msgstr "Annota la tua chiave"
+=======
+msgstr "Annotare la chiave"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
@@ -4678,6 +4863,7 @@ msgstr "Devi prima concedere l'accesso al portale al partner \"%s\"."
 
 #. module: portal
 #: model:mail.template,subject:portal.mail_template_data_portal_welcome
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4826,6 +5012,8 @@ msgstr "Il tuo account con {{ object.user_id.company_id.name }}"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Your account at {{ object.user_id.company_id.name or "
 "object.partner_id.company_id.name }}"
@@ -4878,10 +5066,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Il tuo account presso {{ object.user_id.company_id.name or "
+"object.partner_id.company_id.name }}"
 >>>>>>> upstream/18.0
 =======
 "Il tuo account presso {{ object.user_id.company_id.name or "
@@ -5119,7 +5312,11 @@ msgstr "password"
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "to post a comment."
+<<<<<<< HEAD
 msgstr "per inviare un commento."
+=======
+msgstr "per pubblicare un commento."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript

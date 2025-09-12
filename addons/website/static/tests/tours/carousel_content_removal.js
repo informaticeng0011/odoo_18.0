@@ -105,8 +105,41 @@ registerWebsitePreviewTour(
         // Reorder the slides and make it the second one.
         changeOption("GalleryElement", 'we-button[data-position="prev"]'),
         checkSlides(3, 2),
+<<<<<<< HEAD
         ...clickOnSave(),
         // Check that saving always sets the first slide as active.
         checkSlides(3, 1),
+=======
+        // Ensure quickly adding/removing slides doesn’t give a traceback
+        // (Includes delays to better simulate real user interactions and
+        // expose potential race conditions.)
+        {
+            content: "Add a slide",
+            trigger: ".snippet-option-CarouselItem .o_we_bg_success",
+            async run(helpers) {
+                helpers.click();
+                await delay(360);
+            },
+        },
+        {
+            content: "Remove a slide",
+            trigger: ".snippet-option-CarouselItem .o_we_bg_danger",
+            async run(helpers) {
+                helpers.click();
+                await delay(360);
+            },
+        },
+        {
+            content: "Add a slide",
+            trigger: ".snippet-option-CarouselItem .o_we_bg_success",
+            async run(helpers) {
+                helpers.click();
+                await delay(360);
+            },
+        },
+        ...clickOnSave(),
+        // Check that saving always sets the first slide as active.
+        checkSlides(4, 1),
+>>>>>>> upstream/18.0
     ]
 );

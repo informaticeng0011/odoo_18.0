@@ -79,7 +79,11 @@ class MrpProduction(models.Model):
             workorders = defaultdict(self.env['mrp.workorder'].browse)
             for wo in mo.workorder_ids:
                 account = wo.workcenter_id.expense_account_id or product_accounts['expense']
+<<<<<<< HEAD
                 labour_amounts[account] += wo._cal_cost()
+=======
+                labour_amounts[account] += wo.company_id.currency_id.round(wo._cal_cost())
+>>>>>>> upstream/18.0
                 workorders[account] |= wo
             workcenter_cost = sum(labour_amounts.values())
 

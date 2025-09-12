@@ -56,7 +56,11 @@ class PosOrder(models.Model):
         id_mapping = {item['old_id']: int(item['id']) for item in coupon_updates}
         history_lines_create_vals = []
         for coupon in coupon_data:
+<<<<<<< HEAD
             card_id = id_mapping.get(int(coupon['card_id'], False)) or int(coupon['card_id'])
+=======
+            card_id = id_mapping.get(int(coupon['card_id']), False) or int(coupon['card_id'])
+>>>>>>> upstream/18.0
             if not self.env['loyalty.card'].browse(card_id).exists():
                 continue
             issued = coupon['won']
@@ -85,6 +89,10 @@ class PosOrder(models.Model):
         coupon_data = {int(k): v for k, v in coupon_data.items()}
 
         self._check_existing_loyalty_cards(coupon_data)
+<<<<<<< HEAD
+=======
+        self._remove_duplicate_coupon_data(coupon_data)
+>>>>>>> upstream/18.0
         # Map negative id to newly created ids.
         coupon_new_id_map = {k: k for k in coupon_data.keys() if k > 0}
 
@@ -144,6 +152,29 @@ class PosOrder(models.Model):
                     filtered(lambda c: c.trigger == 'create').pos_report_print_id
             for report in report_per_program[coupon.program_id]:
                 coupon_per_report[report.id].append(coupon.id)
+<<<<<<< HEAD
+=======
+
+        # Adding loyalty history lines
+        loyalty_points = [
+            {
+                'order_id': self.id,
+                'card_id': coupon_id,
+                'spent': -coupon_vals['points'] if coupon_vals['points'] < 0 else 0,
+                'won': coupon_vals['points'] if coupon_vals['points'] > 0 else 0,
+            }
+            for coupon_id, coupon_vals in coupon_data.items()
+        ]
+        coupon_updates = [
+            {
+                'id': coupon.id,
+                'old_id': coupon_new_id_map[coupon.id],
+            }
+            for coupon in all_coupons
+        ]
+        self.add_loyalty_history_lines(loyalty_points, coupon_updates)
+
+>>>>>>> upstream/18.0
         return {
             'coupon_updates': [{
                 'old_id': coupon_new_id_map[coupon.id],
@@ -175,15 +206,37 @@ class PosOrder(models.Model):
         for coupon_id, coupon_vals in coupon_data.items():
             partner_id = coupon_vals.get('partner_id', False)
             if partner_id:
+<<<<<<< HEAD
                 partner_coupons = self.env['loyalty.card'].search(
                     [('partner_id', '=', partner_id), ('program_type', '=', 'loyalty')])
                 existing_coupon_for_program = partner_coupons.filtered(lambda c: c.program_id.id == coupon_vals['program_id'])
+=======
+                existing_coupon_for_program = self.env['loyalty.card'].search(
+                    [('partner_id', '=', partner_id), ('program_type', 'in', ['loyalty', 'ewallet']), ('program_id', '=', coupon_vals['program_id'])])
+>>>>>>> upstream/18.0
                 if existing_coupon_for_program:
                     coupon_vals['coupon_id'] = existing_coupon_for_program[0].id
                     coupon_key_to_modify.append([coupon_id, existing_coupon_for_program[0].id])
         for old_key, new_key in coupon_key_to_modify:
             coupon_data[new_key] = coupon_data.pop(old_key)
 
+<<<<<<< HEAD
+=======
+    def _remove_duplicate_coupon_data(self, coupon_data):
+        # to prevent duplicates, it is necessary to check if the history line already exists
+        items_to_remove = []
+        for coupon_id, coupon_vals in coupon_data.items():
+            existing_history = self.env['loyalty.history'].search_count([
+                ('card_id.program_id', '=', coupon_vals['program_id']),
+                ('order_model', '=', self._name),
+                ('order_id', '=', self.id),
+            ])
+            if existing_history:
+                items_to_remove.append(coupon_id)
+        for item in items_to_remove:
+            coupon_data.pop(item)
+
+>>>>>>> upstream/18.0
     def _get_fields_for_order_line(self):
         fields = super(PosOrder, self)._get_fields_for_order_line()
         fields.extend(['is_reward_line', 'reward_id', 'coupon_id', 'reward_identifier_code', 'points_cost'])

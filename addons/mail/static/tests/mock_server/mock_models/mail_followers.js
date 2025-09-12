@@ -5,6 +5,17 @@ import { getKwArgs, makeKwArgs, models } from "@web/../tests/web_test_helpers";
 export class MailFollowers extends models.ServerModel {
     _name = "mail.followers";
 
+<<<<<<< HEAD
+=======
+    /* override */
+    _compute_display_name() {
+        for (const record of this) {
+            const [partner] = this.env["res.partner"].browse(record.partner_id);
+            record.display_name = partner.display_name;
+        }
+    }
+
+>>>>>>> upstream/18.0
     _to_store(ids, store, fields) {
         const kwargs = getKwArgs(arguments, "ids", "store", "fields");
         fields = kwargs.fields;

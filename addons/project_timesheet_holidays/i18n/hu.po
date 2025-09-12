@@ -8,7 +8,11 @@
 # Tamás Dombos, 2024
 # Tamás Németh <ntomasz81@gmail.com>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # gezza <geza.nagy@oregional.hu>, 2024
+=======
+# gezza <geza.nagy@oregional.hu>, 2025
+>>>>>>> upstream/18.0
 =======
 # gezza <geza.nagy@oregional.hu>, 2025
 >>>>>>> upstream/18.0
@@ -20,7 +24,11 @@ msgstr ""
 "POT-Creation-Date: 2025-02-10 13:24+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: gezza <geza.nagy@oregional.hu>, 2024\n"
+=======
+"Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
 >>>>>>> upstream/18.0
@@ -50,6 +58,12 @@ msgid ""
 "internal project and task empty."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Belső projekt és feladat is szükséges időkimutatás generáláshoz a következő "
+"szabadság kapcsán: %s. Ha nem szeretne időkimutatást, akkor hagyja üresen a "
+"belső projekt és a feladat mezőket."
+>>>>>>> upstream/18.0
 =======
 "Belső projekt és feladat is szükséges időkimutatás generáláshoz a következő "
 "szabadság kapcsán: %s. Ha nem szeretne időkimutatást, akkor hagyja üresen a "
@@ -75,7 +89,11 @@ msgstr "Munkavállaló"
 #: model:ir.model.fields,field_description:project_timesheet_holidays.field_hr_leave_type__timesheet_generate
 msgid "Generate Timesheets"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatások generálása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatások generálása"
 >>>>>>> upstream/18.0
@@ -84,7 +102,11 @@ msgstr "Időkimutatások generálása"
 #: model_terms:ir.ui.view,arch_db:project_timesheet_holidays.hr_holiday_status_view_form_inherit
 msgid "Generate timesheets when validating time off requests of this type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generáljon időkimutatást ezen típusú szabadságkérések jóváhagyásakor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Generáljon időkimutatást ezen típusú szabadságkérések jóváhagyásakor."
 >>>>>>> upstream/18.0
@@ -96,6 +118,11 @@ msgid ""
 "Vacation Project of the company."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ha be van jelölve, akkor szabadságok jóváhagyásakor időkimutatás generálódik"
+" a vállalati Szabadság projektbe."
+>>>>>>> upstream/18.0
 =======
 "Ha be van jelölve, akkor szabadságok jóváhagyásakor időkimutatás generálódik"
 " a vállalati Szabadság projektbe."
@@ -128,7 +155,11 @@ msgstr "Projekt"
 #: model:ir.model,name:project_timesheet_holidays.model_resource_calendar_leaves
 msgid "Resource Time Off Detail"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Erőforrás szabadság részletek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Erőforrás szabadság részletek"
 >>>>>>> upstream/18.0
@@ -149,6 +180,12 @@ msgid ""
 "individually."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alapértelmezett projekt szabadság kérésekből történő időkimutatások "
+"automatikus generálásához. Megadható másik projekt is az egyes szabadság "
+"típusoknál."
+>>>>>>> upstream/18.0
 =======
 "Alapértelmezett projekt szabadság kérésekből történő időkimutatások "
 "automatikus generálásához. Megadható másik projekt is az egyes szabadság "
@@ -162,6 +199,12 @@ msgid ""
 "requests. You can specify another task on each time off type individually."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alapértelmezett feladat szabadság kérésekből történő időkimutatások "
+"automatikus generálásához. Megadható másik feladat is az egyes szabadság "
+"típusoknál."
+>>>>>>> upstream/18.0
 =======
 "Alapértelmezett feladat szabadság kérésekből történő időkimutatások "
 "automatikus generálásához. Megadható másik feladat is az egyes szabadság "
@@ -183,7 +226,11 @@ msgstr "Szabadság"
 #: code:addons/project_timesheet_holidays/models/resource_calendar_leaves.py:0
 msgid "Time Off (%(index)s/%(total)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szabadság (%(index)s/%(total)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szabadság (%(index)s/%(total)s)"
 >>>>>>> upstream/18.0
@@ -193,7 +240,11 @@ msgstr "Szabadság (%(index)s/%(total)s)"
 #: model:ir.model.fields,field_description:project_timesheet_holidays.field_res_config_settings__leave_timesheet_task_id
 msgid "Time Off Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szabadság feladat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szabadság feladat"
 >>>>>>> upstream/18.0
@@ -207,7 +258,11 @@ msgstr "Szabadság típus"
 #: model:ir.model.fields,field_description:project_timesheet_holidays.field_project_task__leave_types_count
 msgid "Time Off Types Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szabadság típusok száma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szabadság típusok száma"
 >>>>>>> upstream/18.0
@@ -222,7 +277,11 @@ msgstr "Időkimutatások"
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid "View Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szabadság megtekintése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szabadság megtekintése"
 >>>>>>> upstream/18.0
@@ -235,6 +294,12 @@ msgid ""
 "Please use the Time Off application to request new time off instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nem lehet létrehozni olyan időkimutatásokat, melyek szabadság kéréshez "
+"kapcsolt feladathoz kapcsolódnak. Kérjük, használja a Szabadság alkalmazást "
+"a kérés létrehozásához."
+>>>>>>> upstream/18.0
 =======
 "Nem lehet létrehozni olyan időkimutatásokat, melyek szabadság kéréshez "
 "kapcsolt feladathoz kapcsolódnak. Kérjük, használja a Szabadság alkalmazást "
@@ -246,7 +311,11 @@ msgstr ""
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid "You cannot delete timesheets that are linked to global time off."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nem törölhetőek globális szabadsághoz kapcsolt időkimutatások"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nem törölhetőek globális szabadsághoz kapcsolt időkimutatások"
 >>>>>>> upstream/18.0
@@ -259,6 +328,12 @@ msgid ""
 "cancel your time off request from the Time Off application instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nem lehet törölni olyan időkimutatásokat, melyek szabadság kéréshez "
+"kapcsolódnak. Kérjük, használja a Szabadság alkalmazást a kérés "
+"visszavonásáshoz."
+>>>>>>> upstream/18.0
 =======
 "Nem lehet törölni olyan időkimutatásokat, melyek szabadság kéréshez "
 "kapcsolódnak. Kérjük, használja a Szabadság alkalmazást a kérés "
@@ -273,6 +348,12 @@ msgid ""
 "use the Time Off application to modify your time off requests instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nem lehet módosítani olyan időkimutatásokat, melyek szabadság kéréshez "
+"kapcsolódnak. Kérjük, használja a Szabadság alkalmazást a kérés "
+"módosításához."
+>>>>>>> upstream/18.0
 =======
 "Nem lehet módosítani olyan időkimutatásokat, melyek szabadság kéréshez "
 "kapcsolódnak. Kérjük, használja a Szabadság alkalmazást a kérés "

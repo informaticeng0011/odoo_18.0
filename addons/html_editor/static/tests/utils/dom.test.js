@@ -9,6 +9,10 @@ import {
 import { getContent } from "../_helpers/selection";
 import { parseHTML } from "@html_editor/utils/html";
 import { unformat } from "../_helpers/format";
+<<<<<<< HEAD
+=======
+import { queryOne } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 
 describe("splitAroundUntil", () => {
     test("should split a slice of text from its inline ancestry (1)", async () => {
@@ -60,7 +64,11 @@ describe("splitAroundUntil", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(result.tagName === "FONT").toBe(true);
+=======
+        expect(result.tagName).toBe("FONT");
+>>>>>>> upstream/18.0
 =======
         expect(result.tagName).toBe("FONT");
 >>>>>>> upstream/18.0
@@ -239,7 +247,11 @@ describe("splitAroundUntil", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(result.tagName === "FONT").toBe(true);
+=======
+        expect(result.tagName).toBe("FONT");
+>>>>>>> upstream/18.0
 =======
         expect(result.tagName).toBe("FONT");
 >>>>>>> upstream/18.0
@@ -407,7 +419,12 @@ describe("splitAroundUntil", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(result.tagName === "FONT" && result !== font).toBe(true);
+=======
+        expect(result.tagName).toBe("FONT");
+        expect(result).not.toBe(font);
+>>>>>>> upstream/18.0
 =======
         expect(result.tagName).toBe("FONT");
         expect(result).not.toBe(font);
@@ -613,6 +630,7 @@ describe("splitAroundUntil", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(result === p.childNodes[1]).toBe(true);
 =======
         expect(result).toBe(p.childNodes[1]);
@@ -733,6 +751,100 @@ describe("splitAroundUntil", () => {
 >>>>>>> upstream/18.0
         expect(p.outerHTML).toBe("<p>a<font><span>bcd</span></font>e</p>");
     });
+=======
+        expect(result).toBe(p.childNodes[1]);
+        expect(p.outerHTML).toBe("<p>a<font><span>bcd</span></font>e</p>");
+    });
+
+    test("should split when node is first child of inline ancestry (1)", async () => {
+        const { editor, el } = await setupEditor("<p>a<font>b<span>cde</span>f</font>g</p>");
+        const [p] = el.childNodes;
+        const cde = p.childNodes[1].childNodes[1].firstChild;
+        splitTextNode(cde, 2);
+        const cd = cde.previousSibling;
+        const result = editor.shared.split.splitAroundUntil(cd, p.childNodes[1]);
+        expect(result.tagName).toBe("FONT");
+        expect(p.outerHTML).toBe(
+            "<p>a<font>b</font><font><span>cd</span></font><font><span>e</span>f</font>g</p>"
+        );
+    });
+
+    test("should split when node is first child of inline ancestry (2)", async () => {
+        const { editor, el } = await setupEditor("<p>a<font><span>bcd</span></font>e</p>");
+        const [p] = el.childNodes;
+        const bcd = p.childNodes[1].childNodes[0].firstChild;
+        splitTextNode(bcd, 2);
+        const bc = bcd.previousSibling;
+        const result = editor.shared.split.splitAroundUntil(bc, p.childNodes[1]);
+        expect(result.tagName).toBe("FONT");
+        expect(p.outerHTML).toBe(
+            "<p>a<font><span>bc</span></font><font><span>d</span></font>e</p>"
+        );
+    });
+
+    test("should split when node is first child of inline ancestry (3)", async () => {
+        const { editor, el } = await setupEditor("<p>a<font>b<span>cde</span></font>f</p>");
+        const [p] = el.childNodes;
+        const cde = p.childNodes[1].childNodes[1].firstChild;
+        splitTextNode(cde, 2);
+        const cd = cde.previousSibling;
+        const result = editor.shared.split.splitAroundUntil(cd, p.childNodes[1]);
+        expect(result.tagName).toBe("FONT");
+        expect(p.outerHTML).toBe(
+            "<p>a<font>b</font><font><span>cd</span></font><font><span>e</span></font>f</p>"
+        );
+    });
+
+    test("should split when node is last child of inline ancestry (1)", async () => {
+        const { editor, el } = await setupEditor("<p>a<font>b<span>cde</span>f</font>g</p>");
+        const [p] = el.childNodes;
+        const cde = p.childNodes[1].childNodes[1].firstChild;
+        splitTextNode(cde, 2);
+        const result = editor.shared.split.splitAroundUntil(cde, p.childNodes[1]);
+        expect(result.tagName).toBe("FONT");
+        expect(p.outerHTML).toBe(
+            "<p>a<font>b<span>cd</span></font><font><span>e</span></font><font>f</font>g</p>"
+        );
+    });
+
+    test("should split when node is last child of inline ancestry (2)", async () => {
+        const { editor, el } = await setupEditor("<p>a<font><span>bcd</span></font>e</p>");
+        const [p] = el.childNodes;
+        const bcd = p.childNodes[1].childNodes[0].firstChild;
+        splitTextNode(bcd, 2);
+        const result = editor.shared.split.splitAroundUntil(bcd, p.childNodes[1]);
+        expect(result.tagName).toBe("FONT");
+        expect(p.outerHTML).toBe(
+            "<p>a<font><span>bc</span></font><font><span>d</span></font>e</p>"
+        );
+    });
+
+    test("should split when node is last child of inline ancestry (3)", async () => {
+        const { editor, el } = await setupEditor("<p>a<font><span>bcd</span>e</font>f</p>");
+        const [p] = el.childNodes;
+        const bcd = p.childNodes[1].childNodes[0].firstChild;
+        splitTextNode(bcd, 2);
+        const result = editor.shared.split.splitAroundUntil(bcd, p.childNodes[1]);
+        expect(result.tagName).toBe("FONT");
+        expect(p.outerHTML).toBe(
+            "<p>a<font><span>bc</span></font><font><span>d</span></font><font>e</font>f</p>"
+        );
+    });
+
+    test("should split a multi-node inline range near end of ancestry", async () => {
+        const { editor, el } = await setupEditor(
+            "<p>a<font>b<strong>cde</strong>fgh<u>ijk</u>l</font>m</p>"
+        );
+        const [p] = el.childNodes;
+        const cde = queryOne("strong").firstChild;
+        const ijk = queryOne("u").firstChild;
+        const result = editor.shared.split.splitAroundUntil([cde, ijk], p.childNodes[1]);
+        expect(result.tagName).toBe("FONT");
+        expect(p.outerHTML).toBe(
+            "<p>a<font>b</font><font><strong>cde</strong>fgh<u>ijk</u></font><font>l</font>m</p>"
+        );
+    });
+>>>>>>> upstream/18.0
 });
 
 describe("cleanTextNode", () => {

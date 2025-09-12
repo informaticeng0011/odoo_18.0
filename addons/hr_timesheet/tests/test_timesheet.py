@@ -4,7 +4,11 @@
 from lxml import etree
 
 from odoo.fields import Command
+<<<<<<< HEAD
 from odoo.tests import Form, TransactionCase
+=======
+from odoo.tests import Form, TransactionCase, new_test_user
+>>>>>>> upstream/18.0
 from odoo.exceptions import AccessError, RedirectWarning, UserError, ValidationError
 
 
@@ -93,12 +97,38 @@ class TestCommonTimesheet(TransactionCase):
             'user_id': cls.user_manager.id,
             'employee_type': 'freelance',
         })
+<<<<<<< HEAD
+=======
+        cls.project = cls.env['project.project'].create({
+            'name': 'Test Project',
+            'privacy_visibility': 'followers',
+            'task_ids': [Command.create({
+                'name': 'Test Task',
+            })],
+        })
+        cls.timesheet = cls.env['account.analytic.line'].create({
+            'name': 'Test Timesheet',
+            'project_id': cls.project.id,
+            'task_id': cls.project.task_ids[0].id,
+            'employee_id':   cls.empl_employee.id,
+        })
+        cls.timesheet_manager_no_project_user = new_test_user(
+            cls.env,
+            login='no_project_user',
+            groups='hr_timesheet.group_timesheet_manager'
+        )
+>>>>>>> upstream/18.0
 
 
 class TestTimesheet(TestCommonTimesheet):
 
     def setUp(self):
         super(TestTimesheet, self).setUp()
+<<<<<<< HEAD
+=======
+        # Make sure to clean the plan fields
+        self.env.registry.setup_models(self.env.cr)
+>>>>>>> upstream/18.0
 
         # Crappy hack to disable the rule from timesheet grid, if it exists
         # The registry doesn't contain the field timesheet_manager_id.
@@ -390,6 +420,17 @@ class TestTimesheet(TestCommonTimesheet):
 
         self.assertEqual(timesheet.project_id, second_project, 'The project_id of non-validated timesheet should have changed')
 
+<<<<<<< HEAD
+=======
+    def test_compute_display_name(self):
+        self.timesheet.with_user(self.timesheet_manager_no_project_user)._compute_display_name()
+        self.assertEqual(
+            self.timesheet.display_name,
+            "Test Project - Test Task",
+            "Display name should be correctly computed without raising AccessError."
+        )
+
+>>>>>>> upstream/18.0
     def test_create_timesheet_employee_not_in_company(self):
         ''' ts.employee_id only if the user has an employee in the company or one employee for all companies.
         '''
@@ -771,7 +812,10 @@ class TestTimesheet(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -853,6 +897,7 @@ class TestTimesheet(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -865,4 +910,24 @@ class TestTimesheet(TestCommonTimesheet):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_split_analytic_dynamic_update(self):
+        self.empl_employee.hourly_cost = 10.0
+        another_account = self.project.account_id.copy()
+
+        line = self.env['account.analytic.line'].create({
+            'name': 'Timesheet',
+            'unit_amount': 1,
+            'project_id': self.project_customer.id,
+            'account_id': self.project.account_id.id,
+            'employee_id': self.empl_employee.id,
+        })
+        self.assertEqual(line.amount, -10)
+        line.analytic_distribution = {
+            f"{self.project.account_id.id}": 50,
+            f"{another_account.id}": 50,
+        }
+        self.assertEqual(line.amount, -5)  # the line is split in 2
 >>>>>>> upstream/18.0

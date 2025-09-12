@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* calendar
 # 
 # Translators:
@@ -358,11 +359,21 @@
 # Junko Augias, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * calendar
+#
+# Translators:
+# Wil Odoo, 2024
+# Junko Augias, 2025
+#
+# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -723,6 +734,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"PO-Revision-Date: 2025-08-26 14:54+0000\n"
+"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
+"Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
+"calendar/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_res_partner__meeting_count
@@ -999,7 +1022,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            却下</a>\n"
+=======
+"            辞退</a>\n"
+>>>>>>> upstream/18.0
 =======
 "            辞退</a>\n"
 >>>>>>> upstream/18.0
@@ -1565,7 +1592,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            却下</a>\n"
+=======
+"            辞退</a>\n"
+>>>>>>> upstream/18.0
 =======
 "            辞退</a>\n"
 >>>>>>> upstream/18.0
@@ -2264,9 +2295,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            承認</a>\n"
 "        <a t-attf-href=\"/calendar/{{ 'recurrence' if recurrent else 'meeting' }}/decline?token={{ object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "            却下</a>\n"
+=======
+"            承諾</a>\n"
+"        <a t-attf-href=\"/calendar/{{ 'recurrence' if recurrent else 'meeting' }}/decline?token={{ object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
+"            辞退</a>\n"
+>>>>>>> upstream/18.0
 =======
 "            承諾</a>\n"
 "        <a t-attf-href=\"/calendar/{{ 'recurrence' if recurrent else 'meeting' }}/decline?token={{ object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
@@ -2954,7 +2991,11 @@ msgid "Accept"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "受理"
+=======
+msgstr "承諾"
+>>>>>>> upstream/18.0
 =======
 msgstr "承諾"
 >>>>>>> upstream/18.0
@@ -3319,7 +3360,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化"
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
@@ -3575,7 +3620,11 @@ msgstr "説明を追加"
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Add title"
+<<<<<<< HEAD
 msgstr "タイトルを追加"
+=======
+msgstr "件名を追加"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__body
@@ -3719,7 +3768,11 @@ msgid "Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "処理可能"
+=======
+msgstr "利用可能"
+>>>>>>> upstream/18.0
 =======
 msgstr "利用可能"
 >>>>>>> upstream/18.0
@@ -4220,7 +4273,11 @@ msgid "Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "確認"
+=======
+msgstr "確定"
+>>>>>>> upstream/18.0
 =======
 msgstr "確定"
 >>>>>>> upstream/18.0
@@ -5894,7 +5951,11 @@ msgstr "木曜"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__event_tz
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__event_tz
 msgid "Timezone"
+<<<<<<< HEAD
 msgstr "時間帯"
+=======
+msgstr "タイムゾーン"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_attendee__mail_tz

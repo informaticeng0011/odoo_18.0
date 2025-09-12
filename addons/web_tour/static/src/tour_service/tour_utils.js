@@ -318,6 +318,10 @@ export const stepUtils = {
             content: `Navigate to ${url}`,
             trigger: "body",
             run: `goToUrl ${url}`,
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         };
     },
 };

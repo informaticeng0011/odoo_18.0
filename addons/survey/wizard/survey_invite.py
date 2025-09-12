@@ -155,9 +155,15 @@ class SurveyInvite(models.TransientModel):
 
     @api.depends('template_id', 'partner_ids')
     def _compute_subject(self):
+<<<<<<< HEAD
         for invite in self:
             if invite.subject:
                 continue
+=======
+        for invite in self.filtered(lambda inv: not inv.subject):
+            if invite.template_id and invite.template_id.subject:
+                invite.subject = invite.template_id.subject
+>>>>>>> upstream/18.0
             else:
                 invite.subject = _("Participate to %(survey_name)s", survey_name=invite.survey_id.display_name)
 

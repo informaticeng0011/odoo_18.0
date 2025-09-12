@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 13:25+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,8 +33,13 @@ msgid ""
 "If set, an SMS Text Message will be automatically sent to the customer when "
 "the project reaches this stage."
 msgstr ""
+<<<<<<< HEAD
 "Se selezionato, al cliente verrà inviato automaticamente un messaggio di "
 "testo SMS quando il progetto raggiunge questa fase."
+=======
+"Se impostato, viene inviato un messaggio SMS al cliente in modo automatico "
+"quando il progetto raggiunge questa fase."
+>>>>>>> upstream/18.0
 
 #. module: project_sms
 #: model:ir.model.fields,help:project_sms.field_project_task_type__sms_template_id
@@ -34,8 +47,13 @@ msgid ""
 "If set, an SMS Text Message will be automatically sent to the customer when "
 "the task reaches this stage."
 msgstr ""
+<<<<<<< HEAD
 "Se selezionato, al cliente verrà inviato automaticamente un messaggio di "
 "testo SMS quando il progetto raggiunge questa fase."
+=======
+"Se impostato, viene inviato un messaggio SMS al cliente in modo automatico "
+"quando il lavoro raggiunge questa fase."
+>>>>>>> upstream/18.0
 
 #. module: project_sms
 #: model:ir.model,name:project_sms.model_project_project
@@ -45,7 +63,11 @@ msgstr "Progetto"
 #. module: project_sms
 #: model:ir.model,name:project_sms.model_project_project_stage
 msgid "Project Stage"
+<<<<<<< HEAD
 msgstr "Fase Progetto"
+=======
+msgstr "Fase progetto"
+>>>>>>> upstream/18.0
 
 #. module: project_sms
 #: model:ir.model.fields,field_description:project_sms.field_project_project_stage__sms_template_id

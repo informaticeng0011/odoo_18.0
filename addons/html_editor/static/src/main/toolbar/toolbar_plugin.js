@@ -18,7 +18,11 @@ import { closestElement } from "@html_editor/utils/dom_traversal";
 /**
  * @typedef {Object} ToolbarNamespace
  * @property {string} id
+<<<<<<< HEAD
  * @property {(traversedNodes: Node[]) => boolean} isApplied
+=======
+ * @property {(targetedNodes: Node[]) => boolean} isApplied
+>>>>>>> upstream/18.0
  *
  *
  * @typedef {Object} ToolbarGroup
@@ -272,6 +276,7 @@ export class ToolbarPlugin extends Plugin {
         }
     }
 
+<<<<<<< HEAD
     getFilterTraverseNodes() {
         return this.dependencies.selection
             .getTraversedNodes()
@@ -474,6 +479,23 @@ export class ToolbarPlugin extends Plugin {
                 (node) => !isTextNode(node) || (node.textContent.trim().length && !isZWS(node))
             );
 >>>>>>> upstream/18.0
+=======
+    /**
+     * @deprecated
+     */
+    getFilterTraverseNodes() {
+        return this.getFilteredTargetedNodes();
+    }
+
+    getFilteredTargetedNodes() {
+        return this.dependencies.selection
+            .getTargetedNodes()
+            .filter(
+                (node) =>
+                    this.dependencies.selection.isNodeEditable(node) &&
+                    (!isTextNode(node) || (node.textContent.trim().length && !isZWS(node)))
+            );
+>>>>>>> upstream/18.0
     }
 
     updateToolbarVisibility(selectionData) {
@@ -506,7 +528,11 @@ export class ToolbarPlugin extends Plugin {
         if (isCollapsed) {
             return !!closestElement(selectionData.editableSelection.anchorNode, "td.o_selected_td");
         }
+<<<<<<< HEAD
         return this.getFilterTraverseNodes().length;
+=======
+        return this.getFilteredTargetedNodes().length;
+>>>>>>> upstream/18.0
     }
 
     shouldPreventClosing(selectionData) {
@@ -517,9 +543,15 @@ export class ToolbarPlugin extends Plugin {
     }
 
     updateNamespace() {
+<<<<<<< HEAD
         const traversedNodes = this.getFilterTraverseNodes();
         for (const namespace of this.getResource("toolbar_namespaces")) {
             if (namespace.isApplied(traversedNodes)) {
+=======
+        const targetedNodes = this.getFilteredTargetedNodes();
+        for (const namespace of this.getResource("toolbar_namespaces")) {
+            if (namespace.isApplied(targetedNodes)) {
+>>>>>>> upstream/18.0
                 this.state.namespace = namespace.id;
                 return;
             }
@@ -542,7 +574,11 @@ export class ToolbarPlugin extends Plugin {
         if (!selection) {
             return;
         }
+<<<<<<< HEAD
         const nodes = this.getFilterTraverseNodes();
+=======
+        const nodes = this.getFilteredTargetedNodes();
+>>>>>>> upstream/18.0
         for (const buttonGroup of this.buttonGroups) {
             if (buttonGroup.namespace === this.state.namespace) {
                 for (const button of buttonGroup.buttons) {

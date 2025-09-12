@@ -1,6 +1,10 @@
 import { leftPos, rightPos } from "@html_editor/utils/position";
 import { expect, test } from "@odoo/hoot";
+<<<<<<< HEAD
 import { pointerDown, pointerUp, waitForNone } from "@odoo/hoot-dom";
+=======
+import { animationFrame, pointerDown, pointerUp, waitForNone } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 import { tick } from "@odoo/hoot-mock";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { getContent, setSelection } from "../_helpers/selection";
@@ -118,6 +122,10 @@ test("should have collapsed selection when mouse down on a table cell", async ()
     const lastCell = el.querySelector("td:last-child");
     pointerDown(lastCell);
     await waitForNone(".o-we-toolbar");
+<<<<<<< HEAD
+=======
+    await animationFrame();
+>>>>>>> upstream/18.0
     const selection = document.getSelection();
     expect(selection.isCollapsed).toBe(true);
 });

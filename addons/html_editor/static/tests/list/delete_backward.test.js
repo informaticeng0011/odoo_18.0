@@ -1330,7 +1330,11 @@ describe("Selection collapsed", () => {
     });
     describe("Mixed", () => {
         describe("Ordered to unordered", () => {
+<<<<<<< HEAD
             test("should merge an ordered list into an unordered list", async () => {
+=======
+            test("should merge an ordered list into an unordered list (1)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore: "<ul><li>a</li></ul><ol><li>[]b</li></ol>",
                     stepFunction: async (editor) => {
@@ -1339,6 +1343,11 @@ describe("Selection collapsed", () => {
                     },
                     contentAfter: "<ul><li>a[]b</li></ul>",
                 });
+<<<<<<< HEAD
+=======
+            });
+            test("should merge an ordered list into an unordered list (2)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore: "<ul><li>a</li></ul><ol><li><p>[]b</p></li></ol>",
                     stepFunction: async (editor) => {
@@ -1347,6 +1356,11 @@ describe("Selection collapsed", () => {
                     },
                     contentAfter: "<ul><li>a[]b</li></ul>",
                 });
+<<<<<<< HEAD
+=======
+            });
+            test("should merge an ordered list into an unordered list (3)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore: "<ul><li><p>a</p></li></ul><ol><li>[]b</li></ol>",
                     stepFunction: async (editor) => {
@@ -1355,6 +1369,11 @@ describe("Selection collapsed", () => {
                     },
                     contentAfter: "<ul><li><p>a[]b</p></li></ul>",
                 });
+<<<<<<< HEAD
+=======
+            });
+            test("should merge an ordered list into an unordered list (4)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore: "<ul><li><p>a</p></li></ul><ol><li><p>[]b</p></li></ol>",
                     stepFunction: async (editor) => {

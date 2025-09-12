@@ -1,13 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* analytic
 # 
+=======
+# * analytic
+#
+>>>>>>> upstream/18.0
 # Translators:
 # f1b3a33e3b33fcf18004a5292e501f50_3500ca8 <373b677b151624c4521d9efc77b996fd_750224>, 2024
 # Gergő Kertész <gergo.kertesz@maxflow.hu>, 2024
 # Tamás Németh <ntomasz81@gmail.com>, 2024
 # Tamás Dombos, 2024
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,10 +182,13 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Martin Trigaux, 2024
 # krnkris, 2024
 # Valics Lehel, 2025
 # gezza <geza.nagy@oregional.hu>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,10 +353,14 @@
 =======
 >>>>>>> upstream/18.0
 # 
+=======
+# Tamás Dombos <tdombos@gmail.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -577,6 +590,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"POT-Creation-Date: 2025-08-15 18:36+0000\n"
+"PO-Revision-Date: 2025-08-22 22:20+0000\n"
+"Last-Translator: Tamás Dombos <tdombos@gmail.com>\n"
+"Language-Team: Hungarian <https://translate.odoo.com/projects/odoo-18/"
+"analytic/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
@@ -585,6 +611,15 @@ msgid "%s (copy)"
 msgstr "%s (másolat)"
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/analytic/models/analytic_line.py:0
+msgid "%s analytic lines created"
+msgstr ""
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "<span class=\"o_stat_text\">Analytic Accounts</span>"
 msgstr ""
@@ -697,6 +732,10 @@ msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_distribution
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_distribution
 msgid "Analytic Distribution"
 msgstr "Analitikus felosztás"
@@ -768,6 +807,10 @@ msgstr "Analitikus tervek"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_precision
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_precision
 msgid "Analytic Precision"
 msgstr "Analitikus pontosság"
@@ -930,8 +973,13 @@ msgid ""
 "Costs will be created automatically when you register supplier\n"
 "                invoices, expenses or timesheets."
 msgstr ""
+<<<<<<< HEAD
 "Költségek automatikusan létrehozásre kerülnek bejövő (szállítói) számlákból,"
 " kiadásokból vagy időkimutatásokból."
+=======
+"Költségek automatikusan létrehozásre kerülnek bejövő (szállítói) számlákból, "
+"kiadásokból vagy időkimutatásokból."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__create_uid
@@ -978,7 +1026,11 @@ msgstr "Dátum"
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__active
 msgid "Deactivate the account."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számla deaktiválása."
+>>>>>>> upstream/18.0
 =======
 msgstr "Számla deaktiválása."
 >>>>>>> upstream/18.0
@@ -1052,6 +1104,15 @@ msgid "Domain"
 msgstr "Tartomány"
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "Don't update"
+msgstr ""
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:account.analytic.account,name:analytic.analytic_rd_finance
 msgid "Finance"
 msgstr "Pénzügy"
@@ -1110,19 +1171,34 @@ msgstr "Ha be van jelölve, akkor az új üzenetek figyelmet igényelnek."
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__message_has_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
 "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+=======
+msgstr "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "In Odoo, sales orders and projects are implemented using\n"
+<<<<<<< HEAD
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
 "A rendszerben a vevői rendelések és projektek alapértelmezésben használják az\n"
 "                analitkus számlákat. Könnyedén nyomonkövetheti a költségeit és bevételeit a haszon \n"
+=======
+"                analytic accounts. You can track costs and revenues to "
+"analyse\n"
+"                your margins easily."
+msgstr ""
+"A rendszerben a vevői rendelések és projektek alapértelmezésben használják "
+"az\n"
+"                analitkus számlákat. Könnyedén nyomonkövetheti a költségeit "
+"és bevételeit a haszon \n"
+>>>>>>> upstream/18.0
 "                elemzéséhez."
 
 #. module: analytic
@@ -1195,6 +1271,15 @@ msgid "Miscellaneous"
 msgstr "Egyéb"
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
+msgid "Multi edit"
+msgstr ""
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__name
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_list
 msgid "Name"
@@ -1387,6 +1472,7 @@ msgid "Project Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Projekt főkönyvi számla"
@@ -1552,6 +1638,9 @@ msgstr "Projekt főkönyvi számla"
 >>>>>>> upstream/18.0
 =======
 msgstr "Projekt főkönyvi számla"
+>>>>>>> upstream/18.0
+=======
+msgstr "Projekt analitikus számla"
 >>>>>>> upstream/18.0
 
 #. module: analytic
@@ -1575,6 +1664,7 @@ msgstr "Kutatás, fejlesztés"
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "Revenues will be created automatically when you create customer\n"
+<<<<<<< HEAD
 "                invoices. Customer invoices can be created based on sales orders\n"
 "                (fixed price invoices), on timesheets (based on the work done) or\n"
 "                on expenses (e.g. reinvoicing of travel costs)."
@@ -1582,6 +1672,19 @@ msgstr ""
 "Bevételek  automatikusan létrehozásra kerülnek kimenő (vevői) számla \n"
 "                elkészítésekor. Kimenő (vevői) számlák elkészíthetőek a vevői rendelések alapján \n"
 "                (fix árú számlák), az időkimutatásokból (elvégzett munka alapján) vagy \n"
+=======
+"                invoices. Customer invoices can be created based on sales "
+"orders\n"
+"                (fixed price invoices), on timesheets (based on the work "
+"done) or\n"
+"                on expenses (e.g. reinvoicing of travel costs)."
+msgstr ""
+"Bevételek  automatikusan létrehozásra kerülnek kimenő (vevői) számla \n"
+"                elkészítésekor. Kimenő (vevői) számlák elkészíthetőek a "
+"vevői rendelések alapján \n"
+"                (fix árú számlák), az időkimutatásokból (elvégzett munka "
+"alapján) vagy \n"
+>>>>>>> upstream/18.0
 "                kiadásokból (pl. utazási költség elszámolás)."
 
 #. module: analytic
@@ -1683,6 +1786,15 @@ msgid "UoM Category"
 msgstr ""
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "Update"
+msgstr ""
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__user_id
 msgid "User"
 msgstr "Felhasználó"
@@ -1691,8 +1803,13 @@ msgstr "Felhasználó"
 #. odoo-python
 #: code:addons/analytic/models/analytic_account.py:0
 msgid ""
+<<<<<<< HEAD
 "Whoa there! Making this change would wipe out your current data. Let's avoid"
 " that, shall we?"
+=======
+"Whoa there! Making this change would wipe out your current data. Let's avoid "
+"that, shall we?"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: analytic

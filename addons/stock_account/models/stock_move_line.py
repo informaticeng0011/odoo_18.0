@@ -118,9 +118,12 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'quantity' in vals:
             for move_line in self:
                 move_line._update_svl_quantity(vals['quantity'] - move_line.quantity)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -392,7 +395,10 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -655,6 +661,9 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -860,6 +869,11 @@ class StockMoveLine(models.Model):
         self.ensure_one()
         if self.state != 'done':
             return
+<<<<<<< HEAD
+=======
+        if self.product_id.lot_valuated and not self.lot_id:
+            raise UserError(_('This product is valuated by lot: an explicit Lot/Serial number is required when adding quantity'))
+>>>>>>> upstream/18.0
         product_uom = self.product_id.uom_id
         added_uom_qty = self.product_uom_id._compute_quantity(added_qty, product_uom, rounding_method='HALF-UP')
         if float_is_zero(added_uom_qty, precision_rounding=product_uom.rounding):

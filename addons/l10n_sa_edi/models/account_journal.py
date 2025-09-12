@@ -90,7 +90,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         help="The serial number of the Taxpayer solution unit. Provided by ZATCA")
+=======
+                                        help="Unique Serial Number automatically filled when the journal is onboarded")
+>>>>>>> upstream/18.0
 =======
                                         help="Unique Serial Number automatically filled when the journal is onboarded")
 >>>>>>> upstream/18.0
@@ -188,7 +192,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -361,6 +368,7 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -447,6 +455,8 @@ class AccountJournal(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -484,6 +494,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -601,6 +614,7 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -818,6 +832,8 @@ class AccountJournal(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -850,6 +866,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -938,6 +957,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # Regenerate a new chain sequence
+            self._l10n_sa_edi_icv_onboarding()
+>>>>>>> upstream/18.0
 =======
             # Regenerate a new chain sequence
             self._l10n_sa_edi_icv_onboarding()
@@ -1185,8 +1209,14 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if CCSID_data.get('error'):
             raise UserError(_("Could not obtain Compliance CSID: %s", CCSID_data['error']))
+=======
+        if CCSID_data.get('errors') or CCSID_data.get('error'):
+            raise UserError(_("Could not obtain Compliance CSID: %s",
+                              CCSID_data['errors'][0]['message'] if CCSID_data.get('errors') else CCSID_data['error']))
+>>>>>>> upstream/18.0
 =======
         if CCSID_data.get('errors') or CCSID_data.get('error'):
             raise UserError(_("Could not obtain Compliance CSID: %s",
@@ -1413,7 +1443,11 @@ class AccountJournal(models.Model):
         xml_content = self._l10n_sa_prepare_invoice_xml(xml_raw)
         signed_xml = self.env.ref('l10n_sa_edi.edi_sa_zatca')._l10n_sa_sign_xml(xml_content, certificate, signature)
         if xml_name.startswith('simplified'):
+<<<<<<< HEAD
             qr_code_str = self.env['account.move']._l10n_sa_get_qr_code(self, signed_xml, certificate, signature, True)
+=======
+            qr_code_str = self.env['account.move']._l10n_sa_get_qr_code(self.company_id, signed_xml, certificate, signature, True)
+>>>>>>> upstream/18.0
             root = etree.fromstring(signed_xml)
             qr_node = root.xpath('//*[local-name()="ID"][text()="QR"]/following-sibling::*/*')[0]
             qr_node.text = b64encode(qr_code_str).decode()
@@ -1498,7 +1532,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1676,6 +1713,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1838,12 +1878,16 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.l10n_sa_chain_sequence_id = self.env['ir.sequence'].create({
                 'name': f'ZATCA account move sequence for Journal {self.name} (id: {self.id})',
                 'code': f'l10n_sa_edi.account.move.{self.id}',
                 'implementation': 'no_gap',
                 'company_id': self.company_id.id,
             })
+=======
+            self.l10n_sa_chain_sequence_id = self._l10n_sa_edi_create_new_chain()
+>>>>>>> upstream/18.0
 =======
             self.l10n_sa_chain_sequence_id = self._l10n_sa_edi_create_new_chain()
 >>>>>>> upstream/18.0
@@ -2248,6 +2292,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        status_code = False
+>>>>>>> upstream/18.0
 =======
         status_code = False
 >>>>>>> upstream/18.0
@@ -2517,6 +2565,7 @@ class AccountJournal(models.Model):
                                                 headers={
                                                     **self._l10n_sa_api_headers(),
                                                     **request_data.get('header')
+<<<<<<< HEAD
                                                 }, timeout=(30, 30))
             request_response.raise_for_status()
         except (ValueError, HTTPError) as ex:
@@ -2792,6 +2841,15 @@ class AccountJournal(models.Model):
             # In the 401+ cases, it is like the server is overloaded e.g. and we still need to resend later.  We do not
             # erase the index chain (excepted) because for ZATCA, one ICV (index chain) needs to correspond to one invoice.
             if (status_code := ex.response.status_code) != 400:
+=======
+                                                }, timeout=30)
+            request_response.raise_for_status()
+        except (ValueError, HTTPError) as ex:
+            # The 400 case means that it is rejected by ZATCA, but we need to update the hash as done for accepted.
+            # In the 401+ cases, it is like the server is overloaded e.g. and we still need to resend later.  We do not
+            # erase the index chain (excepted) because for ZATCA, one ICV (index chain) needs to correspond to one invoice.
+            if (status_code := ex.response.status_code) not in {400, 409}:
+>>>>>>> upstream/18.0
                 return {
                     'error': (Markup("<b>[%s]</b>") % status_code) + _("Server returned an unexpected error: %(error)s",
                                error=(request_response.text or str(ex))),
@@ -2886,6 +2944,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3154,7 +3215,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3420,6 +3484,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3602,6 +3669,7 @@ class AccountJournal(models.Model):
                 'error': _("JSON response from ZATCA could not be decoded"),
                 'blocking_level': 'error'
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3878,6 +3946,13 @@ class AccountJournal(models.Model):
 >>>>>>> upstream/18.0
         response_data['status_code'] = request_response.status_code
 
+=======
+        response_data['status_code'] = request_response.status_code
+
+        if status_code == 409:
+            return response_data
+
+>>>>>>> upstream/18.0
         val_res = response_data.get('validationResults', {})
         if not request_response.ok and (val_res.get('errorMessages') or val_res.get('warningMessages')):
             error = "" if not status_code else Markup("<b>[%s]</b>") % (status_code)
@@ -3979,6 +4054,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

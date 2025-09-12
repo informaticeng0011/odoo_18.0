@@ -56,6 +56,7 @@ import { CommandResult } from "@spreadsheet/o_spreadsheet/cancelled_reason";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { user } from "@web/core/user";
 import { localization } from "@web/core/l10n/localization";
 =======
@@ -270,6 +271,16 @@ import { Partner, Product } from "../../helpers/data";
 import { Partner, Product } from "../../helpers/data";
 >>>>>>> upstream/18.0
 =======
+import { Partner, Product } from "../../helpers/data";
+>>>>>>> upstream/18.0
+=======
+import { localization } from "@web/core/l10n/localization";
+import { user } from "@web/core/user";
+
+import { Model } from "@odoo/o-spreadsheet";
+
+import * as spreadsheet from "@odoo/o-spreadsheet";
+import { waitForDataLoaded } from "@spreadsheet/helpers/model";
 import { Partner, Product } from "../../helpers/data";
 >>>>>>> upstream/18.0
 const { toZone } = spreadsheet.helpers;
@@ -888,7 +899,11 @@ test("display loading while data is not fully available", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc(async ({ kwargs, model, method, parent }) => {
+=======
+    onRpc(async ({ kwargs, model, method }) => {
+>>>>>>> upstream/18.0
 =======
     onRpc(async ({ kwargs, model, method }) => {
 >>>>>>> upstream/18.0
@@ -996,7 +1011,10 @@ test("display loading while data is not fully available", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return parent();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2085,7 +2103,17 @@ test("can import a pivot with a calculated field", async function () {
 test("Can duplicate a pivot", async () => {
     const { model, pivotId } = await createSpreadsheetWithPivot();
     const matching = { chain: "product_id", type: "many2one" };
+<<<<<<< HEAD
     const filter = { ...THIS_YEAR_GLOBAL_FILTER, id: "42" };
+=======
+    const filter = {
+        id: "42",
+        type: "relation",
+        modelName: "product",
+        label: "Product",
+        defaultValue: [41],
+    };
+>>>>>>> upstream/18.0
     await addGlobalFilter(model, filter, {
         pivot: { [pivotId]: matching },
     });
@@ -2099,6 +2127,11 @@ test("Can duplicate a pivot", async () => {
 
     expect(model.getters.getPivotFieldMatching(pivotId, "42")).toEqual(matching);
     expect(model.getters.getPivotFieldMatching("2", "42")).toEqual(matching);
+<<<<<<< HEAD
+=======
+    expect(model.getters.getPivotComputedDomain(pivotId)).toEqual([["product_id", "in", [41]]]);
+    expect(model.getters.getPivotComputedDomain("2")).toEqual([["product_id", "in", [41]]]);
+>>>>>>> upstream/18.0
 });
 
 test("Duplicate pivot respects the formula id increment", async () => {
@@ -2514,7 +2547,10 @@ test("Can change display type of a measure", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2646,12 +2682,15 @@ test("can group by property", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2836,6 +2875,9 @@ test("date are between two years are correctly grouped by weeks and days", async
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

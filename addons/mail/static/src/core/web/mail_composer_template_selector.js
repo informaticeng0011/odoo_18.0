@@ -37,7 +37,11 @@ export class MailComposerTemplateSelector extends Component {
         if (templates.length < this.limit) {
             templates.push(...await this.orm.searchRead("mail.template", [
                 ["model", "=", this.props.record.data.render_model],
+<<<<<<< HEAD
                 ["user_id", "!=", user.userId]
+=======
+                ["user_id", "=", false]
+>>>>>>> upstream/18.0
             ], fields, { limit: this.limit - templates.length }));
         }
         this.state.templates = templates;

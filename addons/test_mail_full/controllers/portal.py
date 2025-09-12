@@ -29,8 +29,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -109,6 +112,7 @@ class PortalTest(http.Controller):
         record = request.env["mail.test.portal"]._get_thread_with_access(res_id, **kwargs)
         values = {
             "object": record,
+<<<<<<< HEAD
             "token": kwargs.get("access_token", None),
             "hash": kwargs.get("hash", None),
             "pid": kwargs.get("pid", None),
@@ -206,6 +210,25 @@ class PortalTest(http.Controller):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+            "token": kwargs.get("token"),
+            "hash": kwargs.get("hash"),
+            "pid": kwargs.get("pid"),
+        }
+        return request.render("test_mail_full.test_portal_template", values)
+
+    @http.route("/my/test_portal_rating_records/<int:res_id>", type="http", auth="public", website=True)
+    def test_portal_rating_record_page(self, res_id, **kwargs):
+        record = request.env["mail.test.rating"]._get_thread_with_access(res_id, **kwargs)
+        values = {
+            "display_rating": True,
+            "hash": kwargs.get("hash"),
+            "object": record,
+            "pid": kwargs.get("pid"),
+            "token": kwargs.get("token"),
+        }
+        return request.render("test_mail_full.test_portal_template", values)
+>>>>>>> upstream/18.0
 
     @http.route('/test_portal/public_type/<int:res_id>', type='http', auth='public', methods=['GET'])
     def test_public_record_view(self, res_id):
@@ -240,6 +263,9 @@ class PortalTest(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

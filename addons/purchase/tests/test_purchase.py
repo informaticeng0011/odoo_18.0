@@ -890,6 +890,12 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        with po_1.order_line.new() as po_line:
+            po_line.display_type = 'line_note'
+            po_line.name = 'Test Note'
+>>>>>>> upstream/18.0
 =======
         with po_1.order_line.new() as po_line:
             po_line.display_type = 'line_note'
@@ -1016,6 +1022,12 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        with po_2.order_line.new() as po_line:
+            po_line.display_type = 'line_section'
+            po_line.name = 'Test section'
+>>>>>>> upstream/18.0
 =======
         with po_2.order_line.new() as po_line:
             po_line.display_type = 'line_section'
@@ -1235,7 +1247,10 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1487,6 +1502,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1581,6 +1597,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1686,6 +1704,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1710,6 +1729,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1761,6 +1782,18 @@ class TestPurchase(AccountTestInvoicingCommon):
                 'date_end': fields.Date.today() + timedelta(days=3),
                 'product_code': 'HHH',
             },
+<<<<<<< HEAD
+=======
+            {
+                'partner_id': self.partner_a.id,
+                'product_id': self.product_a.id,
+                'min_qty': 20,
+                'price': 80,
+                'date_start': fields.Date.today() - timedelta(days=5),
+                'date_end': fields.Date.today() + timedelta(days=3),
+                'product_code': 'HHH-min_qty_20',
+            },
+>>>>>>> upstream/18.0
         ])
         po_form = Form(self.env['purchase.order'])
         po_form.partner_id = self.partner_a
@@ -1782,6 +1815,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1808,4 +1842,22 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_currency_computed_from_partner(self):
+        """Test that the currency of the purchase order is computed from the partner
+        when the partner is set, and that default_currency_id in context overrides compute.
+        """
+        eur = self.env.ref('base.EUR')
+        gbp = self.env.ref('base.GBP')
+        self.partner_a.property_purchase_currency_id = eur
+        po = self.env['purchase.order'].create({
+            'partner_id': self.partner_a.id,
+        })
+        self.assertEqual(po.currency_id, eur, "The currency should be computed from the partner's purchase currency")
+        po_2 = self.env['purchase.order'].with_context(default_currency_id=gbp).create({
+            'partner_id': self.partner_a.id,
+        })
+        self.assertEqual(po_2.currency_id, gbp, "The currency should be set from context default_currency_id, bypassing the compute")
 >>>>>>> upstream/18.0

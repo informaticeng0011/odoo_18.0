@@ -16,7 +16,12 @@ COLUMN_HEADER_MAP = {
     "firstName": "first_name",
     "middleName": "middle_name",
     "address": "address",
+<<<<<<< HEAD
     "nature": "product_name",
+=======
+    "zip_code": "zip",
+    "nature": "tax_description",
+>>>>>>> upstream/18.0
     "ATC": "atc",
     "income_payment": "price_subtotal",
     "ewt_rate": "amount",
@@ -48,17 +53,36 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
     worksheet.write_row(0, 0, list(COLUMN_HEADER_MAP.keys()))
     worksheet_row = 1
     for move in moves:
+<<<<<<< HEAD
         partner = move.partner_id
         partner_address_info = [partner.street, partner.street2, partner.city, partner.state_id.name, partner.country_id.name]
+=======
+        partner = move.commercial_partner_id
+        partner_address_info = [partner.street, partner.street2, partner.city, partner.state_id.name, partner.country_id.name]
+        first_name = middle_name = last_name = ''
+        if partner.company_type == 'person':
+            first_name = partner.first_name or ''
+            middle_name = partner.middle_name or ''
+            last_name = partner.last_name or ''
+>>>>>>> upstream/18.0
         values = {
             'invoice_date': format_date(move.env, move.invoice_date, date_format="MM/dd/yyyy"),
             'vat': re.sub(r'-', '', partner.vat)[:9] if partner.vat else '',
             'branch_code': partner.branch_code or '000',
+<<<<<<< HEAD
             'company_name': partner.commercial_partner_id.name,
             'first_name': partner.first_name or '',
             'middle_name': partner.middle_name or '',
             'last_name': partner.last_name or '',
             'address': ', '.join([val for val in partner_address_info if val])
+=======
+            'company_name': partner.name if partner.company_type == 'company' else '',
+            'first_name': first_name,
+            'middle_name': middle_name,
+            'last_name': last_name,
+            'address': ', '.join([val for val in partner_address_info if val]),
+            'zip': partner.zip or '',
+>>>>>>> upstream/18.0
         }
         aggregated_taxes = move._prepare_invoice_aggregated_taxes()
         for invoice_line, tax_details_for_line in aggregated_taxes['tax_details_per_record'].items():
@@ -66,8 +90,12 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
                 if not tax.l10n_ph_atc:
                     continue
 
+<<<<<<< HEAD
                 product_name = invoice_line.product_id.name or invoice_line.name
                 values['product_name'] = re.sub(r'[()]', '', product_name) if product_name else ""
+=======
+                values['tax_description'] = tax.description or ''
+>>>>>>> upstream/18.0
                 values['atc'] = tax.l10n_ph_atc
                 values['price_subtotal'] = tax_detail['base_amount']
                 values['amount'] = abs(tax.amount)

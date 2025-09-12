@@ -123,7 +123,30 @@ paymentForm.include({
                 is_multiple_use: processingValues['should_tokenize'],
                 amount: processingValues['rounded_amount'],
             },
+<<<<<<< HEAD
             (err, token) => this._xenditHandleResponse(err, token, processingValues),
+=======
+            (err, token) =>  
+                {
+                    // if any errors are reported, immediately report it
+                    if (err) {
+                        this._xenditHandleResponse(err, token, processingValues, '');
+                    }
+                    // For multiple use tokens, we have to create an authentication first before
+                    // charging.
+                    if (processingValues['should_tokenize']) {
+                        Xendit.card.createAuthentication({
+                            amount: processingValues.amount,
+                            token_id: token.id
+                        }, (err, result) => {
+                            this._xenditHandleResponse(err, result, processingValues, 'auth')
+                        })
+                    }
+                    else {
+                        this._xenditHandleResponse(err, token, processingValues, 'token')
+                    }
+                },
+>>>>>>> upstream/18.0
         );
     },
 
@@ -134,9 +157,16 @@ paymentForm.include({
      * @param {object} err - The error with the cause.
      * @param {object} token - The created token's data.
      * @param {object} processingValues - The processing values of the transaction.
+<<<<<<< HEAD
      * @return {void}
      */
     _xenditHandleResponse(err, token, processingValues) {
+=======
+     * @param {string} mode - The mode of the charge: 'auth' or 'token'.
+     * @return {void}
+     */
+    _xenditHandleResponse(err, token, processingValues, mode) {
+>>>>>>> upstream/18.0
         if (err) {
             let errMessage = err.message;
 
@@ -148,11 +178,30 @@ paymentForm.include({
             return;
         }
         if (token.status === 'VERIFIED') {
+<<<<<<< HEAD
             rpc('/payment/xendit/payment', {
                 'reference': processingValues.reference,
                 'partner_id': processingValues.partner_id,
                 'token_ref': token.id,
             }).then(() => {
+=======
+            const payload = {
+                'reference': processingValues.reference,
+                'partner_id': processingValues.partner_id,
+            }
+            // Verified state could come from either authorization or tokenization. If it comes from
+            // authentication, we must pass auth_id.
+            if (mode === 'auth') {
+                Object.assign(payload, {
+                    'token_ref': token.credit_card_token_id,
+                    'auth_id': token.id,
+                });
+            }
+            else { // 'token'
+                payload['token_ref'] = token.id;
+            }
+            rpc('/payment/xendit/payment', payload).then(() => {
+>>>>>>> upstream/18.0
                 window.location = '/payment/status'
             }).catch(error => {
                 if (error instanceof RPCError) {

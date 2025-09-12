@@ -227,6 +227,11 @@ class UserInputSession(http.Controller):
           The number of answers to the current question. """
 
         question = survey.session_question_id
+<<<<<<< HEAD
+=======
+        if not question:
+            return {}
+>>>>>>> upstream/18.0
         answers_validity = []
         if (any(answer.is_correct for answer in question.suggested_answer_ids)):
             answers_validity = [answer.is_correct for answer in question.suggested_answer_ids]

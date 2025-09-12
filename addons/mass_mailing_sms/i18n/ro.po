@@ -1,16 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing_sms
+<<<<<<< HEAD
 # 
 # Translators:
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
 # Foldi Robert <foldirobert@nexterp.ro>, 2025
 # 
+=======
+#
+# Translators:
+# Lyall Kindmurr, 2024
+# Wil Odoo, 2024
+# Larisa_nexterp, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Foldi Robert <foldirobert@nexterp.ro>, 2025\n"
@@ -20,24 +30,48 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+=======
+"POT-Creation-Date: 2025-09-05 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+"Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-javascript
 #: code:addons/mass_mailing_sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid " (including link trackers and opt-out link)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (inclusiv urmărirea linkurilor și linkul de dezabonare)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-javascript
 #: code:addons/mass_mailing_sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid " (including link trackers)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (inclusiv urmărirea linkurilor)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-javascript
 #: code:addons/mass_mailing_sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid " (including opt-out link)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (inclusiv linkul de dezabonare)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_sms_test_view_form
@@ -52,7 +86,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "24H Stats of %(mailing_type)s \"%(mailing_name)s\""
+<<<<<<< HEAD
 msgstr "24H Statistici de %(mailing_type)s \"%(mailing_name)s\""
+=======
+msgstr "Statistici 24H pentru %(mailing_type)s \"%(mailing_name)s\""
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_list_view_kanban
@@ -62,6 +100,13 @@ msgid ""
 "                        <i class=\"fa fa-phone\"/> Contacts\n"
 "                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                    <span class=\"text-muted\">\n"
+"                        <i class=\"fa fa-phone\"/> Contacte\n"
+"                    </span>"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
@@ -69,6 +114,11 @@ msgid ""
 "<span name=\"canceled_text_sms\" invisible=\"mailing_type != 'sms'\">SMS "
 "Text Message have been cancelled and will not be sent.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span name=\"canceled_text_sms\" invisible=\"mailing_type != 'sms'\">Mesajul "
+"text SMS a fost anulat și nu va fi trimis.</span>"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
@@ -76,6 +126,11 @@ msgid ""
 "<span name=\"failed_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
 "Messages could not be delivered.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span name=\"failed_text_sms\" invisible=\"mailing_type != 'sms'\">Mesajele "
+"text SMS nu au putut fi livrate.</span>"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
@@ -83,13 +138,26 @@ msgid ""
 "<span name=\"next_departure_text\" invisible=\"mailing_type != 'sms'\">This "
 "SMS marketing is scheduled for </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span name=\"next_departure_text\" invisible=\"mailing_type != 'sms'\">Acest "
+"SMS de marketing este programat pentru </span>"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
+<<<<<<< HEAD
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text"
 " Messages are being processed.</span>"
 msgstr ""
+=======
+"<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
+"Messages are being processed.</span>"
+msgstr ""
+"<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">Mesajele "
+"text SMS sunt procesate.</span>"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
@@ -97,6 +165,11 @@ msgid ""
 "<span name=\"scheduled_text_sms\" invisible=\"mailing_type != 'sms'\">SMS "
 "Text Messages are in queue and will be sent soon.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span name=\"scheduled_text_sms\" invisible=\"mailing_type != "
+"'sms'\">Mesajele text SMS sunt în coadă și vor fi trimise în curând.</span>"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
@@ -104,6 +177,11 @@ msgid ""
 "<span name=\"sent_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
 "Messages have been sent.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span name=\"sent_sms\" invisible=\"mailing_type != 'sms'\">Mesajele text "
+"SMS au fost trimise.</span>"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
@@ -113,34 +191,62 @@ msgstr "<span widget=\"statinfo\">Deschide destinatarul</span>"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_list_view_kanban
 msgid "<span>Valid SMS Recipients</span>"
+<<<<<<< HEAD
 msgstr "<span>Destinatari SMS Valizi</span>"
+=======
+msgstr "<span>Destinatari SMS valizi</span>"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 "<strong>\n"
+<<<<<<< HEAD
 "                            It appears you don't have enough IAP credits. Click here to buy credits.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "                            Se pare că nu aveți credite suficiente IAP. Click aici pentru cumărare credite.\n"
+=======
+"                            It appears you don't have enough IAP credits. "
+"Click here to buy credits.\n"
+"                        </strong>"
+msgstr ""
+"<strong>\n"
+"                            Se pare că nu aveți suficiente credite IAP. "
+"Faceți clic aici pentru a cumpăra credite.\n"
+>>>>>>> upstream/18.0
 "                        </strong>"
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 "<strong>\n"
+<<<<<<< HEAD
 "                            It appears your SMS account is not registered. Click here to set up your account.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "                            Se pare că contul dvs. SMS nu este înregistrat. Faceți clic aici pentru a vă configura contul.\n"
+=======
+"                            It appears your SMS account is not registered. "
+"Click here to set up your account.\n"
+"                        </strong>"
+msgstr ""
+"<strong>\n"
+"                            Se pare că contul dvs. SMS nu este înregistrat. "
+"Faceți clic aici pentru a vă configura contul.\n"
+>>>>>>> upstream/18.0
 "                        </strong>"
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
 msgid "<strong>This SMS could not be delivered.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Acest SMS nu a putut fi livrat.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
@@ -162,7 +268,11 @@ msgstr "Test A/B"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__ab_testing_mailings_sms_count
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_utm_campaign__ab_testing_mailings_sms_count
 msgid "A/B Test Mailings SMS #"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testări A/B SMS #"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
@@ -184,19 +294,31 @@ msgstr "Număr atașamente"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Average of Bounced"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Media respingerilor"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Average of Clicked"
+<<<<<<< HEAD
 msgstr "Media de clicuri"
+=======
+msgstr "Media clicurilor"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "BOUNCED (%i)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RESPINS (%i)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
@@ -205,8 +327,13 @@ msgid ""
 "Blacklist through SMS Marketing unsubscribe (mailing ID: %(mailing_id)s - "
 "model: %(model)s)"
 msgstr ""
+<<<<<<< HEAD
 "Listă neagră prin dezabonare prin SMS Marketing (ID mailing%(mailing_id)s - "
 "model: %(model)s)"
+=======
+"Adăugat pe lista neagră prin dezabonare SMS Marketing (ID mailing: %"
+"(mailing_id)s - model: %(model)s)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_blacklist
@@ -221,7 +348,11 @@ msgstr "Telefonul din lista neagră este mobil"
 #. module: mass_mailing_sms
 #: model:ir.ui.menu,name:mass_mailing_sms.phone_blacklist_menu
 msgid "Blacklisted Phone Numbers"
+<<<<<<< HEAD
 msgstr "Numere de telefon listate la negru"
+=======
+msgstr "Numere de telefon pe lista neagră"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__phone_blacklisted
@@ -232,13 +363,21 @@ msgstr "Telefonul pe lista neagră este telefon"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Bounced (%)"
+<<<<<<< HEAD
 msgstr "Sărit (%)"
+=======
+msgstr "Respins (%)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "CLICKED (%i)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CLICK-URI (%i)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_sms_composer__utm_campaign_id
@@ -255,13 +394,21 @@ msgstr "Campanii"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_sms_test__numbers
 msgid "Carriage-return-separated list of phone numbers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Listă de numere de telefon separate prin enter"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Clicked (%)"
+<<<<<<< HEAD
 msgstr "Click (%)"
+=======
+msgstr "Click-uri (%)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_trace__sms_code
@@ -273,6 +420,11 @@ msgstr "Cod"
 msgid ""
 "Come back once some SMS Mailings are sent to check out aggregated results."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Reveniți după ce au fost trimise unele SMS-uri pentru a vedea rezultatele "
+"agregate."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.ui.menu,name:mass_mailing_sms.mass_mailing_sms_menu_configuration
@@ -282,12 +434,20 @@ msgstr "Configurare"
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_country_not_supported
 msgid "Country Not Supported"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Țară neacceptată"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_registration_needed
 msgid "Country-specific Registration Required"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este necesară înregistrarea specifică țării"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_list_action_sms
@@ -297,7 +457,11 @@ msgstr "Creați o listă de corespondență"
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_mailing_action_sms
 msgid "Create a SMS Marketing Mailing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creați o expediere SMS Marketing"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_contact_action_sms
@@ -312,7 +476,11 @@ msgstr "Creat de"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_sms_test__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
@@ -323,7 +491,11 @@ msgstr "Dată"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_sms_test_view_form
 msgid "Discard"
+<<<<<<< HEAD
 msgstr "Abandonează"
+=======
+msgstr "Renunță"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_sms_test__display_name
@@ -334,18 +506,30 @@ msgstr "Nume afișat"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_duplicate
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Duplicate"
+<<<<<<< HEAD
 msgstr "Duplicare"
+=======
+msgstr "Duplicat"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
 #: code:addons/mass_mailing_sms/models/res_users.py:0
 msgid "Email Marketing"
+<<<<<<< HEAD
 msgstr "Marketing E-mail"
+=======
+msgstr "Marketing prin e-mail"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_contact_view_search
 msgid "Exclude Blacklisted Phone"
+<<<<<<< HEAD
 msgstr "Excludeți telefonul pe lista neagră"
+=======
+msgstr "Exclude telefonul de pe lista neagră"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_expired
@@ -355,7 +539,11 @@ msgstr "Expirat"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_trace__failure_type
 msgid "Failure type"
+<<<<<<< HEAD
 msgstr "Tip Eșec"
+=======
+msgstr "Tip eșec"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__phone_sanitized
@@ -363,8 +551,13 @@ msgid ""
 "Field used to store sanitized phone number. Helps speeding up searches and "
 "comparisons."
 msgstr ""
+<<<<<<< HEAD
 "Câmp folosit pentru a stoca numărul de telefon. Ajută la accelerarea "
 "căutărilor și a comparațiilor."
+=======
+"Câmp folosit pentru a stoca numărul de telefon dezinfectat. Ajută la "
+"accelerarea căutărilor și comparațiilor."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_follower_ids
@@ -382,7 +575,11 @@ msgid ""
 "For an Email, Subject your Recipients will see in their inbox.\n"
 "                    For an SMS Text Message, internal Title of the Message."
 msgstr ""
+<<<<<<< HEAD
 "Pentru un e-mail, Subiecți Destinatarii dvs. vor vedea în căsuța de e-mail.\n"
+=======
+"Pentru un e-mail, subiectul pe care destinatarii îl vor vedea în inbox.\n"
+>>>>>>> upstream/18.0
 "                    Pentru un mesaj text SMS, titlul intern al mesajului."
 
 #. module: mass_mailing_sms
@@ -391,7 +588,11 @@ msgid ""
 "For an email, the subject your recipients will see in their inbox.\n"
 "For an SMS, the internal title of the message."
 msgstr ""
+<<<<<<< HEAD
 "Pentru un e-mail, subiectul pe care îl vor vedea destinatarii dvs. în căsuța de e-mail.\n"
+=======
+"Pentru un e-mail, subiectul pe care destinatarii îl vor vedea în inbox.\n"
+>>>>>>> upstream/18.0
 "Pentru un SMS, titlul intern al mesajului."
 
 #. module: mass_mailing_sms
@@ -402,7 +603,11 @@ msgstr "Are mesaj"
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__utm_campaign__ab_testing_sms_winner_selection__clicks_ratio
 msgid "Highest Click Rate"
+<<<<<<< HEAD
 msgstr "Cea mai mare rata de clicuri"
+=======
+msgstr "Cea mai mare rată de click-uri"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_sms_test__id
@@ -412,37 +617,64 @@ msgstr "ID"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr "Dacă este bifat, mesaje noi necesită atenția dumneavoastră."
+=======
+msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__message_has_error
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr "Dacă este bifată, există mesaje cu eroare de livrare."
+=======
+msgstr "Dacă este bifat, unele mesaje au o eroare de livrare."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
 msgstr ""
 "Dacă numărul de telefon dezinfectat se află pe lista neagră, persoana de "
 "contact nu va mai primi mesaje prin e-mail în masă, din nicio listă"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+msgstr ""
+"Dacă numărul de telefon dezinfectat se află pe lista neagră, contactul nu va "
+"mai primi SMS-uri în masă, din nicio listă."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_mailing__sms_force_send
 msgid ""
+<<<<<<< HEAD
 "Immediately send the SMS Mailing instead of queuing up. Use at your own "
 "risk."
 msgstr ""
 "Trimiteți imediat mesajul SMS în loc să faceți coada. Folosiți pe propria "
 "răspundere."
+=======
+"Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
+msgstr ""
+"Trimiteți imediat expedierea SMS în loc să fie pusă în coadă. Utilizați pe "
+"propria răspundere."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_allow_unsubscribe
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_sms_composer__mass_sms_allow_unsubscribe
 msgid "Include opt-out link"
+<<<<<<< HEAD
 msgstr "Includeți un link de renunțare"
+=======
+msgstr "Includeți link de dezabonare"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__mobile_blacklisted
@@ -451,9 +683,15 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+<<<<<<< HEAD
 "Indică dacă un număr de telefon dezinfectat este un număr de mobil. Ajută la"
 " diferențierea numărului care este pe lista neagră             când există "
 "atât un câmp de mobil și telefon într-un model."
+=======
+"Indică dacă un număr de telefon dezinfectat de pe lista neagră este un număr "
+"de mobil. Ajută la diferențierea numărului care este pe lista neagră când "
+"există atât câmp de mobil cât și de telefon într-un model."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__phone_blacklisted
@@ -462,9 +700,15 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+<<<<<<< HEAD
 "Indică dacă un număr de telefon dezinfectat este un număr de telefon. Ajută "
 "la diferențierea numărului care este pe lista neagră             când există"
 " atât un câmp de mobil și telefon într-un model."
+=======
+"Indică dacă un număr de telefon dezinfectat de pe lista neagră este un număr "
+"de telefon. Ajută la diferențierea numărului care este pe lista neagră când "
+"există atât câmp de mobil cât și de telefon într-un model."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_credit
@@ -484,13 +728,21 @@ msgstr "Credite insuficiente"
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_invalid_destination
 msgid "Invalid Destination"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Destinație invalidă"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
 #: code:addons/mass_mailing_sms/controllers/main.py:0
 msgid "Invalid number %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Număr invalid %s"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_is_follower
@@ -500,22 +752,38 @@ msgstr "Este urmăritor"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_sms_test__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_sms_test__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model,name:mass_mailing_sms.model_sms_tracker
 msgid "Link SMS to mailing/sms tracking models"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Leagă SMS de modelele de urmărire mailing/SMS"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.ui.menu,name:mass_mailing_sms.link_tracker_menu
 msgid "Link Tracker"
+<<<<<<< HEAD
 msgstr "Urmărire Link"
+=======
+msgstr "Urmărire link"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_sms_test__mailing_id
@@ -527,40 +795,68 @@ msgstr "Expediere"
 #. module: mass_mailing_sms
 #: model:ir.model,name:mass_mailing_sms.model_mailing_contact
 msgid "Mailing Contact"
+<<<<<<< HEAD
 msgstr "Contact Corespondență"
+=======
+msgstr "Contact expediere"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model,name:mass_mailing_sms.model_mailing_list
 msgid "Mailing List"
+<<<<<<< HEAD
 msgstr "Listă de discuții"
+=======
+msgstr "Listă de expediere"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.actions.act_window,name:mass_mailing_sms.mailing_contact_action_sms
 #: model:ir.ui.menu,name:mass_mailing_sms.mailing_contact_menu_sms
 msgid "Mailing List Contacts"
+<<<<<<< HEAD
 msgstr "Persoane de contact cu lista de corespondență"
+=======
+msgstr "Contacte listă de expediere"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.actions.act_window,name:mass_mailing_sms.mailing_list_action_sms
 #: model:ir.ui.menu,name:mass_mailing_sms.mailing_list_menu_sms
 #: model:ir.ui.menu,name:mass_mailing_sms.mass_mailing_sms_menu_contacts
 msgid "Mailing Lists"
+<<<<<<< HEAD
 msgstr "Liste de e-mail"
+=======
+msgstr "Liste de expediere"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model,name:mass_mailing_sms.model_mailing_trace
 msgid "Mailing Statistics"
+<<<<<<< HEAD
 msgstr "Statistici corespondență"
+=======
+msgstr "Statistici expediere"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_sms_tracker__mailing_trace_id
 msgid "Mailing Trace"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urmărire expediere"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__mailing_type
 msgid "Mailing Type"
+<<<<<<< HEAD
 msgstr "Tip Mailing"
+=======
+msgstr "Tip expediere"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_contact_action_sms
@@ -568,6 +864,11 @@ msgid ""
 "Mailing contacts allow you to separate your marketing audience from your "
 "contact directory."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Contactele de expediere vă permit să separați audiența de marketing de "
+"directorul de contacte."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__utm_campaign__ab_testing_sms_winner_selection__manual
@@ -583,7 +884,11 @@ msgstr "Marketing"
 #: model:ir.model,name:mass_mailing_sms.model_mailing_mailing
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_sms_sms__mailing_id
 msgid "Mass Mailing"
+<<<<<<< HEAD
 msgstr "Emailuri în masă"
+=======
+msgstr "Expediere în masă"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_utm_campaign__mailing_sms_ids
@@ -593,7 +898,11 @@ msgstr "SMS în masă"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr "Eroare de livrare a mesajului"
+=======
+msgstr "Eroare livrare mesaj"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_ids
@@ -613,7 +922,11 @@ msgstr "Mobil"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_search_sms
 msgid "My SMS Marketing"
+<<<<<<< HEAD
 msgstr "Mesajul meu de Marketing"
+=======
+msgstr "Marketingul meu SMS"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_trace_report_action_sms
@@ -623,9 +936,17 @@ msgstr "Nu există date încă!"
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_list_action_sms
 msgid ""
+<<<<<<< HEAD
 "No need to import mailing lists, you can send SMS to contacts saved in other"
 " Odoo apps."
 msgstr ""
+=======
+"No need to import mailing lists, you can send SMS to contacts saved in other "
+"Odoo apps."
+msgstr ""
+"Nu este nevoie să importați liste de expediere, puteți trimite SMS-uri către "
+"contacte salvate în alte aplicații Odoo."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_not_allowed
@@ -657,7 +978,11 @@ msgstr "Număr de acțiuni"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_utm_campaign__mailing_sms_count
 msgid "Number of Mass SMS"
+<<<<<<< HEAD
 msgstr "Nr. de SMS in masă"
+=======
+msgstr "Număr de SMS-uri în masă"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_has_error_counter
@@ -682,9 +1007,17 @@ msgstr "Număr(e)"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
+<<<<<<< HEAD
 "Once you send these text messages, they'll be making a grand entrance in all"
 " pockets, creating quite the bzzzzz!"
 msgstr ""
+=======
+"Once you send these text messages, they'll be making a grand entrance in all "
+"pockets, creating quite the bzzzzz!"
+msgstr ""
+"Odată ce trimiteți aceste mesaje text, vor face o intrare grandioasă în "
+"toate buzunarele, creând un adevărat bzzzzz!"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_tree_sms
@@ -694,7 +1027,11 @@ msgstr "Deschide destinatar"
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_optout
 msgid "Opted Out"
+<<<<<<< HEAD
 msgstr "Optat pentru a nu primi"
+=======
+msgstr "Dezabonat"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
@@ -704,7 +1041,11 @@ msgstr "Opțiuni"
 #. module: mass_mailing_sms
 #: model:ir.model,name:mass_mailing_sms.model_sms_sms
 msgid "Outgoing SMS"
+<<<<<<< HEAD
 msgstr " Ieșiri SMS"
+=======
+msgstr "SMS ieșire"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__phone_sanitized_blacklisted
@@ -719,7 +1060,11 @@ msgstr "Telefon/Mobil"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_main
 msgid "Please enter your phone number"
+<<<<<<< HEAD
 msgstr "Vă rugăm să introduceți numărul dvs. de telefon"
+=======
+msgstr "Vă rugăm să introduceți numărul de telefon"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
@@ -730,7 +1075,11 @@ msgstr "PRIMIT (%i)"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__rating_ids
 msgid "Ratings"
+<<<<<<< HEAD
 msgstr "Ratings"
+=======
+msgstr "Evaluări"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
@@ -747,7 +1096,11 @@ msgstr "Respins"
 #. odoo-python
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "Report for %(expected)i %(mailing_type)s Sent"
+<<<<<<< HEAD
 msgstr "Raport pentru %(expected)i %(mailing_type)s Trimis"
+=======
+msgstr "Raport pentru %(expected)i %(mailing_type)s trimis"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.ui.menu,name:mass_mailing_sms.mass_mailing_sms_menu_reporting
@@ -766,7 +1119,11 @@ msgstr "SMS"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__body_plaintext
 msgid "SMS Body"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Corp SMS"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_list__contact_count_sms
@@ -788,7 +1145,11 @@ msgstr "Eroare livrare SMS"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
 msgid "SMS ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID SMS"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
@@ -798,18 +1159,30 @@ msgstr ""
 #: model:ir.ui.menu,name:mass_mailing_sms.mass_mailing_sms_menu_root
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
 msgid "SMS Marketing"
+<<<<<<< HEAD
 msgstr "SMS Marketing"
+=======
+msgstr "Marketing SMS"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.actions.act_window,name:mass_mailing_sms.mailing_trace_report_action_sms
 msgid "SMS Marketing Analysis"
+<<<<<<< HEAD
 msgstr "SMS Analiză Marketing"
+=======
+msgstr "Analiză Marketing SMS"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_main
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_number
 msgid "SMS Subscription"
+<<<<<<< HEAD
 msgstr "Abonament SMS"
+=======
+msgstr "Abonare SMS"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_template_id
@@ -835,24 +1208,40 @@ msgstr "Urmăriri SMS"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_trace__sms_tracker_ids
 msgid "SMS Trackers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urmăritori SMS"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__ab_testing_sms_winner_selection
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_utm_campaign__ab_testing_sms_winner_selection
 msgid "SMS Winner Selection"
+<<<<<<< HEAD
 msgstr "Selectarea câștigătorului SMS"
+=======
+msgstr "Selectare câștigător SMS"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
 #: code:addons/mass_mailing_sms/wizard/sms_composer.py:0
 msgid "STOP SMS: %(unsubscribe_url)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OPREȘTE SMS: %(unsubscribe_url)s"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__phone_sanitized
 msgid "Sanitized Number"
+<<<<<<< HEAD
 msgstr "Număr sancționat"
+=======
+msgstr "Număr dezinfectat"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
@@ -878,12 +1267,20 @@ msgstr "Trimite SMS"
 #. module: mass_mailing_sms
 #: model:ir.model,name:mass_mailing_sms.model_sms_composer
 msgid "Send SMS Wizard"
+<<<<<<< HEAD
 msgstr "Trimite SMS Wizard"
+=======
+msgstr "Asistent trimitere SMS"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_sms_test_view_form
 msgid "Send Test"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trimite test"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_sms_test_view_form
@@ -893,7 +1290,16 @@ msgstr "Trimite un SMS de probă"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_sms_test_view_form
 msgid "Send a sample SMS for testing purpose to the numbers below."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trimite un SMS de test către numerele de mai jos."
+
+#. module: mass_mailing_sms
+#: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
+msgid "Send to all"
+msgstr "Trimite la toți"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_server
@@ -903,7 +1309,11 @@ msgstr "Eroare server"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_sms_sms__mailing_trace_ids
 msgid "Statistics"
+<<<<<<< HEAD
 msgstr "Statistica"
+=======
+msgstr "Statistici"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
@@ -915,24 +1325,40 @@ msgstr "Stare"
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 #: model:ir.actions.act_window,name:mass_mailing_sms.mailing_sms_test_action
 msgid "Test Mailing"
+<<<<<<< HEAD
 msgstr "Test mail"
+=======
+msgstr "Test expediere"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model,name:mass_mailing_sms.model_mailing_sms_test
 msgid "Test SMS Mailing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Test expediere SMS"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
+<<<<<<< HEAD
 msgid "Test SMS could not be sent to %(destination)s: %(state)s"
+=======
+msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mass_mailing_sms
 #. odoo-python
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
 msgid "Test SMS successfully sent to %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS-ul de test a fost trimis cu succes către %s"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
@@ -941,6 +1367,11 @@ msgid ""
 "The UTM medium '%s' cannot be deleted as it is used in some main functional "
 "flows, such as the SMS Marketing."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Mediul UTM '%s' nu poate fi șters deoarece este folosit în unele fluxuri "
+"funcționale principale, cum ar fi Marketingul SMS."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
@@ -958,8 +1389,13 @@ msgstr "A apărut o eroare la încercarea de dezabonare"
 msgid ""
 "This phone number is blacklisted for SMS Marketing. Click to unblacklist."
 msgstr ""
+<<<<<<< HEAD
 "Acest număr de telefon este inclus pe lista neagră pentru SMS Marketing. "
 "Faceți clic pentru a debloca lista."
+=======
+"Acest număr de telefon este pe lista neagră pentru Marketing SMS. Faceți "
+"clic pentru a-l elimina de pe listă."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_subject
@@ -973,7 +1409,11 @@ msgstr "Titlu"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Total Sent"
+<<<<<<< HEAD
 msgstr "Trimise total"
+=======
+msgstr "Total trimise"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_trace__trace_type
@@ -1014,7 +1454,11 @@ msgstr "Dezabonați-mă"
 #. odoo-python
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "Unsupported %s for mass SMS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s nu este suportat pentru SMS-uri în masă"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model,name:mass_mailing_sms.model_res_users
@@ -1029,41 +1473,79 @@ msgstr "Destinatari SMS valizi"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__website_message_ids
 msgid "Website Messages"
+<<<<<<< HEAD
 msgstr "Mesaje de pe site-ul web"
+=======
+msgstr "Mesaje website"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__website_message_ids
 msgid "Website communication history"
+<<<<<<< HEAD
 msgstr "Istoricul comunicării pe site-ul web"
+=======
+msgstr "Istoric comunicare website"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid "Winner Selection"
+<<<<<<< HEAD
 msgstr "Selectarea câștigătorului"
+=======
+msgstr "Selectare câștigător"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_mailing_action_sms
 msgid ""
+<<<<<<< HEAD
 "Write an appealing SMS Text Message, define recipients and track its "
 "results."
 msgstr ""
+=======
+"Write an appealing SMS Text Message, define recipients and track its results."
+msgstr ""
+"Scrieți un mesaj text SMS atractiv, definiți destinatarii și urmăriți "
+"rezultatele."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_number_format
 msgid "Wrong Number Format"
+<<<<<<< HEAD
 msgstr "Format greșit de număr"
+=======
+msgstr "Format greșit al numărului"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid "e.g. Black Friday SMS coupon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: cupon SMS Black Friday"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_number
 msgid "has been successfully blacklisted"
+<<<<<<< HEAD
 msgstr "a fost înscris cu succes pe lista neagră"
+=======
+msgstr "a fost adăugat cu succes pe lista neagră"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_number
 msgid "has been successfully removed from"
 msgstr "a fost eliminat cu succes din"
+<<<<<<< HEAD
+=======
+
+#~ msgid "Test SMS could not be sent to %(destination)s: %(state)s"
+#~ msgstr ""
+#~ "SMS-ul de test nu a putut fi trimis către %(destination)s: %(state)s"
+>>>>>>> upstream/18.0

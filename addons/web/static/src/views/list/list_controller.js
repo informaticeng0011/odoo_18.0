@@ -60,6 +60,10 @@ export class ListController extends Component {
         editable: { type: Boolean, optional: true },
         onSelectionChanged: { type: Function, optional: true },
         showButtons: { type: Boolean, optional: true },
+<<<<<<< HEAD
+=======
+        allowOpenAction: { type: Boolean, optional: true },
+>>>>>>> upstream/18.0
         Model: Function,
         Renderer: Function,
         buttonTemplate: String,
@@ -71,6 +75,10 @@ export class ListController extends Component {
         editable: true,
         selectRecord: () => {},
         showButtons: true,
+<<<<<<< HEAD
+=======
+        allowOpenAction: true,
+>>>>>>> upstream/18.0
     };
 
     setup() {
@@ -184,12 +192,18 @@ export class ListController extends Component {
 
         useEffect(
             () => {
+<<<<<<< HEAD
                 if (this.props.onSelectionChanged) {
                     const resIds = this.model.root.selection.map((record) => record.resId);
                     this.props.onSelectionChanged(resIds);
                 }
             },
             () => [this.model.root.selection.length]
+=======
+                this.onSelectionChanged();
+            },
+            () => [this.model.root.selection.length, this.model.root.isDomainSelected]
+>>>>>>> upstream/18.0
         );
         this.searchBarToggler = useSearchBarToggler();
         this.firstLoad = true;
@@ -259,6 +273,16 @@ export class ListController extends Component {
      */
     async onRecordSaved(record) {}
 
+<<<<<<< HEAD
+=======
+    async onSelectionChanged() {
+        if (this.props.onSelectionChanged) {
+            const resIds = await this.model.root.getResIds(true);
+            this.props.onSelectionChanged(resIds);
+        }
+    }
+
+>>>>>>> upstream/18.0
     /**
      * onWillSaveRecord is a callBack that will be executed before the
      * record save if the record is valid if the record is valid.
@@ -288,7 +312,11 @@ export class ListController extends Component {
         if (dirty) {
             await record.save();
         }
+<<<<<<< HEAD
         if (this.archInfo.openAction) {
+=======
+        if (this.props.allowOpenAction && this.archInfo.openAction) {
+>>>>>>> upstream/18.0
             this.actionService.doActionButton({
                 name: this.archInfo.openAction.action,
                 type: this.archInfo.openAction.type,
@@ -429,10 +457,13 @@ export class ListController extends Component {
 
     async onSelectDomain() {
         await this.model.root.selectDomain(true);
+<<<<<<< HEAD
         if (this.props.onSelectionChanged) {
             const resIds = await this.model.root.getResIds(true);
             this.props.onSelectionChanged(resIds);
         }
+=======
+>>>>>>> upstream/18.0
     }
 
     onUnselectAll() {

@@ -1,15 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* marketing_card
 # 
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 # 
+=======
+# * marketing_card
+#
+# Translators:
+# Wil Odoo, 2024
+# Larissa Manderfeld, 2025
+#
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +294,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:37+0000\n"
+"PO-Revision-Date: 2025-08-11 22:21+0000\n"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
+"Language-Team: German <https://translate.odoo.com/projects/odoo-18/"
+"marketing_card/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #. odoo-python
@@ -301,8 +325,17 @@ msgstr ""
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" title=\"Shares\"/>"
 msgstr "<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" title=\"Shares\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" "
+"title=\"Shares\"/>"
+msgstr ""
+"<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" "
+"title=\"Shares\"/>"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
@@ -475,6 +508,15 @@ msgid "Card Layout"
 msgstr "Kartenlayout"
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Card Preview"
+msgstr "Kartenvorschau"
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:marketing_card.field_mailing_mailing__card_requires_sync_count
 msgid "Card Requires Sync Count"
 msgstr "Anzahl der für diese Karte erforderlichen Synchronisierungen"
@@ -634,6 +676,15 @@ msgstr "Kopfzeilenpfad"
 #. module: marketing_card
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
+<<<<<<< HEAD
+=======
+msgid "Hello everyone"
+msgstr "Hallo zusammen!"
+
+#. module: marketing_card
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+>>>>>>> upstream/18.0
 msgid "Help us share the news"
 msgstr "Helfen Sie uns, die Neuigkeiten zu verbreiten"
 
@@ -643,6 +694,15 @@ msgid "Helps you manage marketing card campaigns."
 msgstr "Hilft Ihnen bei der Verwaltung von Marketingkartenkampagnen."
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Here's the link to advertise your participation."
+msgstr "Mit diesem Link können Sie Ihre Teilnahme veröffentlichen."
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__id
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign_tag__id
 #: model:ir.model.fields,field_description:marketing_card.field_card_card__id
@@ -669,8 +729,12 @@ msgstr "Falls markiert, erfordern neue Nachrichten Ihre Aufmerksamkeit."
 #: model:ir.model.fields,help:marketing_card.field_card_campaign__message_has_error
 #: model:ir.model.fields,help:marketing_card.field_card_campaign__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
 "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+=======
+msgstr "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_card__image
@@ -754,6 +818,15 @@ msgid "Mailing Count"
 msgstr "Anzahl Mailings"
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Many thanks"
+msgstr "Vielen Dank!"
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model:ir.model,name:marketing_card.model_card_card
 #: model:ir.module.category,name:marketing_card.module_category_marketing_card
 #: model:ir.ui.menu,name:marketing_card.card_menu
@@ -813,8 +886,19 @@ msgstr "Modellname"
 msgid ""
 "Model of campaign %(campaign)s may not be changed as it already has cards"
 msgstr ""
+<<<<<<< HEAD
 "Modell der Kampagne %(campaign)s sollte nicht geändert werden, da es bereits"
 " Karten hat"
+=======
+"Modell der Kampagne %(campaign)s sollte nicht geändert werden, da es bereits "
+"Karten hat"
+
+#. module: marketing_card
+#: model:ir.model,name:marketing_card.model_ir_model
+#, fuzzy
+msgid "Models"
+msgstr "Modelle"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__my_activity_date_deadline
@@ -893,6 +977,7 @@ msgstr "Odoo"
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -900,6 +985,15 @@ msgstr ""
 "keinen Eintrag gibt, wird die englische Version verwendet. Es sollte sich "
 "normalerweise um einen Platzhalterausdruck handeln, der die passende Sprache"
 " enthält, z. B. {{ object.partner_id.lang }}."
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+msgstr ""
+"Optionale Übersetzung (ISO-Code) zur Auswahl beim E-Mail-Versand. Falls es "
+"keinen Eintrag gibt, wird die englische Version verwendet. Es sollte sich "
+"normalerweise um einen Platzhalterausdruck handeln, der die passende Sprache "
+"enthält, z. B. {{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__target_url
@@ -1167,6 +1261,7 @@ msgstr ""
 "Stichwörter können möglicherweise keine bestehenden Namen wiederverwenden."
 
 #. module: marketing_card
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1592,6 +1687,10 @@ msgid "Thank You Message"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__reward_message
 msgid "Thank You Message"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:marketing_card.field_card_campaign__reward_message
+msgid "Thank You Message"
+>>>>>>> upstream/18.0
 msgstr "Danksagungsnachricht"
 
 #. module: marketing_card
@@ -1678,7 +1777,10 @@ msgstr "Aktualisieren"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1798,6 +1900,7 @@ msgid "Update Cards"
 msgstr "Karten aktualisieren"
 
 #. module: marketing_card
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1979,6 +2082,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:marketing_card.selection__card_card__share_status__visited
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_card_view_search
 msgid "Visited"
@@ -2006,8 +2111,13 @@ msgstr ""
 msgid ""
 "You should update all the cards for %(mailing)s before scheduling a mailing."
 msgstr ""
+<<<<<<< HEAD
 "Sie sollten alle Karten für %(mailing)s aktualisieren, bevor Sie ein Mailing"
 " planen."
+=======
+"Sie sollten alle Karten für %(mailing)s aktualisieren, bevor Sie ein Mailing "
+"planen."
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
@@ -2015,6 +2125,15 @@ msgid "Your Home Page"
 msgstr "Ihre Startseite"
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Your help with this promotion would be greatly appreciated!"
+msgstr "Wir würden uns sehr über Ihre Unterstützung freuen!"
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_2
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_3
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_4
@@ -2112,7 +2231,10 @@ msgstr "Schaltflächentext"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2379,6 +2501,9 @@ msgstr "z. B. „Danke fürs Teilen, hier ist Ihre Belohnung!“"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

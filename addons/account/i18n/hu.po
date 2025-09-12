@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* account
 # 
+=======
+# * account
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Daniel Gerstenbrand <daniel.gerstenbrand@gmail.com>, 2024
 # A . <tibor@inventati.org>, 2024
@@ -19,6 +24,7 @@
 # Bence Fazekas, 2025
 # Krisztián Juhász <juhasz.krisztian@josafar.hu>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Tamás Németh <ntomasz81@gmail.com>, 2025
 # Pammer József, 2025
 <<<<<<< HEAD
@@ -287,11 +293,15 @@
 =======
 # Pammer József, 2025
 >>>>>>> upstream/18.0
+=======
+# Pammer József, 2025
+>>>>>>> upstream/18.0
 # krnkris, 2025
 # Veronika Kocsis, 2025
 # Valics Lehel, 2025
 # Thomas Becquevort, 2025
 # gezza <geza.nagy@oregional.hu>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -403,10 +413,16 @@
 # Tamás Németh <ntomasz81@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Tamás Németh <ntomasz81@gmail.com>, 2025
+# Krisztián Juhász <juhasz.krisztian@uzletimegoldasok.hu>, 2025.
+# Tamás Dombos <tdombos@gmail.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -905,19 +921,44 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-08-29 18:37+0000\n"
+"PO-Revision-Date: 2025-08-22 22:21+0000\n"
+"Last-Translator: Tamás Dombos <tdombos@gmail.com>\n"
+"Language-Team: Hungarian <https://translate.odoo.com/projects/odoo-18/"
+"account/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_journal__type
 msgid ""
 "\n"
 "        Select 'Sale' for customer invoices journals.\n"
 "        Select 'Purchase' for vendor bills journals.\n"
+<<<<<<< HEAD
 "        Select 'Cash', 'Bank' or 'Credit Card' for journals that are used in customer or vendor payments.\n"
+=======
+"        Select 'Cash', 'Bank' or 'Credit Card' for journals that are used in "
+"customer or vendor payments.\n"
+>>>>>>> upstream/18.0
 "        Select 'General' for miscellaneous operations journals.\n"
 "        "
 msgstr ""
 "\n"
 "        Válassza az 'Értékesítés'-t a vevői számlák naplókhoz.\n"
 "        Válassza a 'Beszerzés'-t a szállítói számlák naplókhoz.\n"
+<<<<<<< HEAD
 "        Válassza a 'Készpénz', 'Bank' vagy 'Hitelkártya'-t olyan naplókhoz melyek a vevői vagy szállítói fizetéseket rögzítik.\n"
+=======
+"        Válassza a 'Készpénz', 'Bank' vagy 'Hitelkártya'-t olyan naplókhoz "
+"melyek a vevői vagy szállítói fizetéseket rögzítik.\n"
+>>>>>>> upstream/18.0
 "        Válassza az 'Általános'-t az különféle műveleti naplókhoz. "
 
 #. module: account
@@ -1011,11 +1052,19 @@ msgstr "%(amount)s esedékes %(date)s"
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "%(attachment_name)s (detached by %(user)s on "
 "%(date)s)%(attachment_extension)s"
 msgstr ""
 "%(attachment_name)s (leválasztva %(user)s által %(date)s "
 "dátummal)%(attachment_extension)s"
+=======
+"%(attachment_name)s (detached by %(user)s on %(date)s)%"
+"(attachment_extension)s"
+msgstr ""
+"%(attachment_name)s (leválasztva %(user)s által %(date)s dátummal)%"
+"(attachment_extension)s"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -1029,10 +1078,19 @@ msgstr ""
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "%(move)s reached an invalid state regarding its related statement line.\n"
+<<<<<<< HEAD
 "To be consistent, the journal entry must always have exactly one suspense line."
 msgstr ""
 "%(move)s érvénytelen állapotot ért el a nyilatkozatsort illetően.\n"
 "A következetesség érdekében a könyvelési tételnek mindig pontosan egy függő tételsort kell tartalmaznia."
+=======
+"To be consistent, the journal entry must always have exactly one suspense "
+"line."
+msgstr ""
+"%(move)s érvénytelen állapotot ért el a nyilatkozatsort illetően.\n"
+"A következetesség érdekében a könyvelési tételnek mindig pontosan egy függő "
+"tételsort kell tartalmaznia."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -1044,21 +1102,37 @@ msgstr "%(name)s fizetési részlet #%(number)s"
 #. odoo-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
+<<<<<<< HEAD
 "%(order)s - %(order_line)s; %(quantity_billed)s Billed, "
 "%(quantity_received)s Received at %(unit_price)s each"
 msgstr ""
 "%(order)s - %(order_line)s; %(quantity_billed)s számlázva, "
 "%(quantity_received)s megkapva, darabonként %(unit_price)s"
+=======
+"%(order)s - %(order_line)s; %(quantity_billed)s Billed, %"
+"(quantity_received)s Received at %(unit_price)s each"
+msgstr ""
+"%(order)s - %(order_line)s; %(quantity_billed)s számlázva, %"
+"(quantity_received)s megkapva, darabonként %(unit_price)s"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
+<<<<<<< HEAD
 "%(order)s - %(order_line)s; %(quantity_invoiced)s Invoiced, "
 "%(quantity_delivered)s Delivered at %(unit_price)s each"
 msgstr ""
 "%(order)s - %(order_line)s; %(quantity_invoiced)s számlázva, "
 "%(quantity_delivered)s kiszállítva, daraboként %(unit_price)s"
+=======
+"%(order)s - %(order_line)s; %(quantity_invoiced)s Invoiced, %"
+"(quantity_delivered)s Delivered at %(unit_price)s each"
+msgstr ""
+"%(order)s - %(order_line)s; %(quantity_invoiced)s számlázva, %"
+"(quantity_delivered)s kiszállítva, daraboként %(unit_price)s"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -1080,6 +1154,7 @@ msgstr "%(tag)s (%(country_code)s)"
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1213,6 +1288,13 @@ msgid ""
 "%(tax_account)s (%(account_name)s) should be an account of type "
 "\"%(receivable)s\" or \"%(payable)s\" with both options "
 "\"%(allow_reconciliation)s\" and \"%(non_trade)s\" enabled."
+=======
+#: code:addons/account/models/account_tax.py:0
+msgid ""
+"%(tax_account)s (%(account_name)s) should be an account of type \"%"
+"(receivable)s\" or \"%(payable)s\" with both options \"%"
+"(allow_reconciliation)s\" and \"%(non_trade)s\" enabled."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -1259,6 +1341,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1482,11 +1567,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ". Please make sure that this is a wanted behavior."
 msgstr ". Kérjük győződjön meg róla, hogy ez egy elvárt viselkedés."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1770,6 +1858,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1840,6 +1929,19 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid ""
+"<br/>\n"
+"                        <span>Please make sure that this is a wanted "
+"behavior.</span>"
+msgstr ""
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_document_preview
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_wizard_preview_inherit_account
+>>>>>>> upstream/18.0
 msgid "<br/> on this account:"
 msgstr "Bankszámla:"
 
@@ -1850,7 +1952,12 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n"
@@ -1858,12 +1965,18 @@ msgid ""
 "        <br/><br/>\n"
 "        Here is your\n"
 "        <t t-if=\"object.name\">\n"
+<<<<<<< HEAD
 "            credit note <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+=======
+"            credit note <span style=\"font-weight:bold;\" t-"
+"out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            credit note\n"
 "        </t>\n"
 "        <t t-if=\"object.invoice_origin\">\n"
+<<<<<<< HEAD
 "            (with reference: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
@@ -1873,6 +1986,22 @@ msgid ""
 "        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"            (with reference: <t t-out=\"object.invoice_origin or "
+"''\">SUB003</t>)\n"
+"        </t>\n"
+"        amounting in <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ "
+"143,750.00</span>\n"
+"        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+"        <br/><br/>\n"
+"        Do not hesitate to contact us if you have any questions.\n"
+"        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-"
+"o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-"
+"quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
@@ -1882,7 +2011,12 @@ msgstr ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Kedves\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n"
@@ -1890,12 +2024,18 @@ msgstr ""
 "        <br/><br/>\n"
 "        Itt találja az ön\n"
 "        <t t-if=\"object.name\">\n"
+<<<<<<< HEAD
 "            jóváírási értesítését <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+=======
+"            jóváírási értesítését <span style=\"font-weight:bold;\" t-"
+"out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            jóváírási értesítés\n"
 "        </t>\n"
 "        <t t-if=\"object.invoice_origin\">\n"
+<<<<<<< HEAD
 "            (hivatkozás: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        amelynek összege <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
@@ -1905,6 +2045,22 @@ msgstr ""
 "        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"            (hivatkozás: <t t-out=\"object.invoice_origin or ''\">SUB003</"
+"t>)\n"
+"        </t>\n"
+"        amelynek összege <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ "
+"143,750.00</span>\n"
+"        innen: <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+"        <br/><br/>\n"
+"        Ne habozzon kapcsolatba lépni velünk, ha bármilyen kérdése van.\n"
+"        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-"
+"o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-"
+"quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
@@ -1917,7 +2073,12 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n"
@@ -1925,15 +2086,29 @@ msgid ""
 "        <br/><br/>\n"
 "        Here is your\n"
 "        <t t-if=\"object.name\">\n"
+<<<<<<< HEAD
 "            invoice <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">INV/2021/05/0005</span>\n"
+=======
+"            invoice <span style=\"font-weight:bold;\" t-out=\"object.name or "
+"''\">INV/2021/05/0005</span>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            invoice\n"
 "        </t>\n"
 "        <t t-if=\"object.invoice_origin\">\n"
+<<<<<<< HEAD
 "            (with reference: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
+=======
+"            (with reference: <t t-out=\"object.invoice_origin or "
+"''\">SUB003</t>)\n"
+"        </t>\n"
+"        amounting in <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ "
+"143,750.00</span>\n"
+>>>>>>> upstream/18.0
 "        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
 "        <t t-if=\"object.payment_state in ('paid', 'in_payment')\">\n"
 "            This invoice is already paid.\n"
@@ -1942,13 +2117,22 @@ msgid ""
 "            Please remit payment at your earliest convenience.\n"
 "            <t t-if=\"object.payment_reference\">\n"
 "                <br/><br/>\n"
+<<<<<<< HEAD
 "                Please use the following communication for your payment: <strong t-out=\"object.payment_reference or ''\">INV/2021/05/0005</strong>\n"
 "                <t t-if=\"object.partner_bank_id\">\n"
 "                    on the account <strong t-out=\"object.partner_bank_id.acc_number\"/>\n"
+=======
+"                Please use the following communication for your payment: "
+"<strong t-out=\"object.payment_reference or ''\">INV/2021/05/0005</strong>\n"
+"                <t t-if=\"object.partner_bank_id\">\n"
+"                    on the account <strong t-"
+"out=\"object.partner_bank_id.acc_number\"/>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "                .\n"
 "            </t>\n"
 "        </t>\n"
+<<<<<<< HEAD
 "        <t t-if=\"hasattr(object, 'timesheet_count') and object.timesheet_count\">\n"
 "            <br/><br/>\n"
 "            PS: you can review your timesheets <a t-att-href=\"'/my/timesheets?search_in=invoice&amp;search=%s' % object.name\">from the portal.</a>\n"
@@ -1958,6 +2142,22 @@ msgid ""
 "        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-if=\"hasattr(object, 'timesheet_count') and "
+"object.timesheet_count\">\n"
+"            <br/><br/>\n"
+"            PS: you can review your timesheets <a t-att-href=\"'/my/"
+"timesheets?search_in=invoice&amp;search=%s' % object.name\">from the portal."
+"</a>\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        Do not hesitate to contact us if you have any questions.\n"
+"        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-"
+"o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-"
+"quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
@@ -1967,7 +2167,12 @@ msgstr ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Kedves\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n"
@@ -1975,15 +2180,29 @@ msgstr ""
 "        <br/><br/>\n"
 "        Itt találja az ön\n"
 "        <t t-if=\"object.name\">\n"
+<<<<<<< HEAD
 "            számláját<span style=\"font-weight:bold;\" t-out=\"object.name or ''\">INV/2021/05/0005</span>\n"
+=======
+"            számláját<span style=\"font-weight:bold;\" t-out=\"object.name "
+"or ''\">INV/2021/05/0005</span>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            Számla\n"
 "        </t>\n"
 "        <t t-if=\"object.invoice_origin\">\n"
+<<<<<<< HEAD
 "            (hivatkozás: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        amelynek összege <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
+=======
+"            (hivatkozás: <t t-out=\"object.invoice_origin or ''\">SUB003</"
+"t>)\n"
+"        </t>\n"
+"        amelynek összege <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ "
+"143,750.00</span>\n"
+>>>>>>> upstream/18.0
 "        innen: <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
 "        <t t-if=\"object.payment_state in ('paid', 'in_payment')\">\n"
 "            Ez a számla már fizetve van.\n"
@@ -1992,13 +2211,22 @@ msgstr ""
 "            Kérjük, a lehető leghamarabb utalja át a fizetést.\n"
 "            <t t-if=\"object.payment_reference\">\n"
 "                <br/><br/>\n"
+<<<<<<< HEAD
 "                Kérjük, fizetéséhez használja az alábbi azonosítót: <strong t-out=\"object.payment_reference or ''\">INV/2021/05/0005</strong>\n"
 "                <t t-if=\"object.partner_bank_id\">\n"
 "                    az alábbi számlán: <strong t-out=\"object.partner_bank_id.acc_number\"/>\n"
+=======
+"                Kérjük, fizetéséhez használja az alábbi azonosítót: <strong "
+"t-out=\"object.payment_reference or ''\">INV/2021/05/0005</strong>\n"
+"                <t t-if=\"object.partner_bank_id\">\n"
+"                    az alábbi számlán: <strong t-"
+"out=\"object.partner_bank_id.acc_number\"/>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "                .\n"
 "            </t>\n"
 "        </t>\n"
+<<<<<<< HEAD
 "        <t t-if=\"hasattr(object, 'timesheet_count') and object.timesheet_count\">\n"
 "            <br/><br/>\n"
 "            U.I.: átnézheti a munkaidő nyílvántartásait <a t-att-href=\"'/my/timesheets?search_in=invoice&amp;search=%s' % object.name\">a portálon.</a>\n"
@@ -2008,6 +2236,21 @@ msgstr ""
 "        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-if=\"hasattr(object, 'timesheet_count') and "
+"object.timesheet_count\">\n"
+"            <br/><br/>\n"
+"            U.I.: átnézheti a munkaidő nyílvántartásait <a t-att-href=\"'/my/"
+"timesheets?search_in=invoice&amp;search=%s' % object.name\">a portálon.</a>\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        Ne habozzon kapcsolatba lépni velünk, ha bármilyen kérdése van.\n"
+"        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-"
+"o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-"
+"quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
@@ -2018,34 +2261,74 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or ''\">Azure Interior</t><br/><br/>\n"
 "        Thank you for your payment.\n"
 "        Here is your payment receipt <span style=\"font-weight:bold;\" t-out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</span> amounting\n"
 "        to <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</span> from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+=======
+"        Dear <t t-out=\"object.partner_id.name or ''\">Azure Interior</t><br/"
+"><br/>\n"
+"        Thank you for your payment.\n"
+"        Here is your payment receipt <span style=\"font-weight:bold;\" t-"
+"out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</span> "
+"amounting\n"
+"        to <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</"
+"span> from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+>>>>>>> upstream/18.0
 "        <br/><br/>\n"
 "        Do not hesitate to contact us if you have any questions.\n"
 "        <br/><br/>\n"
 "        Best regards,\n"
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-"
+"container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br "
+"data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 "        Kedves <t t-out=\"object.partner_id.name or ''\">Azure Interior</t><br/><br/>\n"
 "        Köszönjük a fizetését.\n"
 "        Itt találja a fizetési bizonylatot <span style=\"font-weight:bold;\" t-out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</span> azonosítóval amelynek összege\n"
 "        <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</span> innen:<t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+=======
+"        Kedves <t t-out=\"object.partner_id.name or ''\">Azure Interior</"
+"t><br/><br/>\n"
+"        Köszönjük a fizetését.\n"
+"        Itt találja a fizetési bizonylatot <span style=\"font-weight:bold;\" "
+"t-out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</"
+"span> azonosítóval amelynek összege\n"
+"        <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</"
+"span> innen:<t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+>>>>>>> upstream/18.0
 "        <br/><br/>\n"
 "        Ne habozzon kapcsolatba lépni velünk, ha bármilyen kérdése van.\n"
 "        <br/><br/>\n"
 "        Üdvözlettel,\n"
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-"
+"container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br "
+"data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
@@ -2057,6 +2340,7 @@ msgstr "<em>Számlatervezet</em>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o fw-bold\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-clock-o fw-bold\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
 
@@ -2069,6 +2353,30 @@ msgstr "<i class=\"fa fa-clock-o fw-bold\" role=\"img\" aria-label=\"Date\" titl
 #: model_terms:ir.ui.view,arch_db:account.account_move_line_view_kanban
 msgid "<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-clock-o fw-bold\" aria-label=\"Date\" role=\"img\" "
+"title=\"Date\"/>"
+msgstr ""
+"<i class=\"fa fa-clock-o fw-bold\" aria-label=\"Date\" role=\"img\" "
+"title=\"Date\"/>"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_payment_kanban
+msgid ""
+"<i class=\"fa fa-clock-o fw-bold\" role=\"img\" aria-label=\"Date\" "
+"title=\"Date\"/>"
+msgstr ""
+"<i class=\"fa fa-clock-o fw-bold\" role=\"img\" aria-label=\"Date\" "
+"title=\"Date\"/>"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.account_move_line_view_kanban
+msgid ""
+"<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
+msgstr ""
+"<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_invoice_page
@@ -2078,49 +2386,110 @@ msgstr "<i class=\"fa fa-download\"/> Letöltés"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Paid</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Fizetve</span>"
+=======
+"<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Paid</span>"
+msgstr ""
+"<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Fizetve</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Reversed</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Fordított</span>"
+=======
+"<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Reversed</span>"
+msgstr ""
+"<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Fordított</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" title=\"Processing Payment\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Processing Payment</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" title=\"Processing Payment\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Fizetés feldolgozása</span>"
+=======
+"<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" "
+"title=\"Processing Payment\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Processing Payment</span>"
+msgstr ""
+"<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" "
+"title=\"Processing Payment\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Fizetés feldolgozása</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Waiting for Payment</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" role=\"img\"/>\n"
 "                                     <span class=\"d-none d-md-inline\">Fizetésre vár</span>"
+=======
+"<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Waiting for Payment</span>"
+msgstr ""
+"<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" "
+"role=\"img\"/>\n"
+"                                     <span class=\"d-none d-md-"
+"inline\">Fizetésre vár</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.autopost_bills_wizard
 msgid ""
 "<i class=\"fa fa-lightbulb-o\" role=\"img\"/>\n"
+<<<<<<< HEAD
 "                        Don't worry, you can always change this setting later on the vendor's form.\n"
 "                        You also have the option to disable the feature for all vendors in the accounting settings."
 msgstr ""
 "<i class=\"fa fa-lightbulb-o\" role=\"img\"/>\n"
 "                        Ne aggódjon, ezt a beállítást később bármikor módosíthatja a szállító űrlapján.\n"
 "                        Arra is lehetősége van, hogy a könyvelési beállításokban letiltja a funkciót az összes szállítónál."
+=======
+"                        Don't worry, you can always change this setting "
+"later on the vendor's form.\n"
+"                        You also have the option to disable the feature for "
+"all vendors in the accounting settings."
+msgstr ""
+"<i class=\"fa fa-lightbulb-o\" role=\"img\"/>\n"
+"                        Ne aggódjon, ezt a beállítást később bármikor "
+"módosíthatja a szállító űrlapján.\n"
+"                        Arra is lehetősége van, hogy a könyvelési "
+"beállításokban letiltja a funkciót az összes szállítónál."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_terms_conditions_setting_banner
@@ -2148,17 +2517,28 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.portal_my_details_fields
 msgid ""
 "<small class=\"form-text text-muted\">\n"
+<<<<<<< HEAD
 "                    You can choose how you want us to send your invoices, and with which electronic format.\n"
 "                </small>"
 msgstr ""
 "<small class=\"form-text text-muted\">\n"
 "                    Kiválaszthatja, hogyan és milyen elektronikus formátumban küldjük ki számláit.\n"
+=======
+"                    You can choose how you want us to send your invoices, "
+"and with which electronic format.\n"
+"                </small>"
+msgstr ""
+"<small class=\"form-text text-muted\">\n"
+"                    Kiválaszthatja, hogyan és milyen elektronikus "
+"formátumban küldjük ki számláit.\n"
+>>>>>>> upstream/18.0
 "                </small>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
 "<span class=\"badge rounded-pill text-bg-warning\">\n"
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-fw fa-remove\" aria-label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Cancelled</span>\n"
 "                                </span>"
@@ -2166,12 +2546,26 @@ msgstr ""
 "<span class=\"badge rounded-pill text-bg-warning\">\n"
 "                                    <i class=\"fa fa-fw fa-remove\" aria-label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Visszavonva</span>\n"
+=======
+"                                    <i class=\"fa fa-fw fa-remove\" aria-"
+"label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Cancelled</span>\n"
+"                                </span>"
+msgstr ""
+"<span class=\"badge rounded-pill text-bg-warning\">\n"
+"                                    <i class=\"fa fa-fw fa-remove\" aria-"
+"label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Visszavonva</span>\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
 msgid ""
 "<span class=\"d-flex gap-2 w-100\">\n"
+<<<<<<< HEAD
 "                            <span invisible=\"allow_out_payment\" class=\"text-muted\">Untrusted</span>\n"
 "                            <span invisible=\"not allow_out_payment\" class=\"text-success\">Trusted</span>\n"
 "                        </span>"
@@ -2179,6 +2573,19 @@ msgstr ""
 "<span class=\"d-flex gap-2 w-100\">\n"
 "                            <span invisible=\"allow_out_payment\" class=\"text-muted\">Nem megbízható</span>\n"
 "                            <span invisible=\"not allow_out_payment\" class=\"text-success\">Megbízható</span>\n"
+=======
+"                            <span invisible=\"allow_out_payment\" "
+"class=\"text-muted\">Untrusted</span>\n"
+"                            <span invisible=\"not allow_out_payment\" "
+"class=\"text-success\">Trusted</span>\n"
+"                        </span>"
+msgstr ""
+"<span class=\"d-flex gap-2 w-100\">\n"
+"                            <span invisible=\"allow_out_payment\" "
+"class=\"text-muted\">Nem megbízható</span>\n"
+"                            <span invisible=\"not allow_out_payment\" "
+"class=\"text-success\">Megbízható</span>\n"
+>>>>>>> upstream/18.0
 "                        </span>"
 
 #. module: account
@@ -2193,6 +2600,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span class=\"o_form_label mx-3 oe_edit_only\" groups=\"account.group_account_readonly\" invisible=\"move_type == 'entry'\">\n"
 "                                        <span groups=\"base.group_multi_currency\">in </span>\n"
@@ -2210,6 +2618,11 @@ msgid ""
 msgstr ""
 "<span class=\"o_form_label mx-3 oe_edit_only\" invisible=\"state != 'draft' "
 "or invoice_payment_term_id\"> vagy </span>"
+=======
+"<span class=\"o_form_label mx-3 oe_edit_only text-center\" style=\"width: "
+"6ch;\" invisible=\"state != 'draft' or invoice_payment_term_id\">or</span>"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label mx-3 oe_edit_only text-center\" style=\"width: "
 "6ch;\" invisible=\"state != 'draft' or invoice_payment_term_id\">or</span>"
@@ -2237,11 +2650,19 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"match_amount != "
 "'between'\">and</span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"match_amount != "
 "'between'\">és</span>"
+=======
+"<span class=\"o_form_label\" invisible=\"match_amount != 'between'\">and</"
+"span>"
+msgstr ""
+"<span class=\"o_form_label\" invisible=\"match_amount != 'between'\">és</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_lock_exception_form
@@ -2329,7 +2750,12 @@ msgid ""
 "                            </span>"
 msgstr ""
 "<span class=\"text-muted ms-2\">\n"
+<<<<<<< HEAD
 "                                <i>bezárólag, hogy megváltoztathatatlanok legyenek</i>\n"
+=======
+"                                <i>bezárólag, hogy megváltoztathatatlanok "
+"legyenek</i>\n"
+>>>>>>> upstream/18.0
 "                            </span>"
 
 #. module: account
@@ -2346,29 +2772,53 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid ""
+<<<<<<< HEAD
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">11,750.00</span></span>"
 msgstr ""
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">11,750.00</span></span>"
+=======
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">11,750.00</"
+"span></span>"
+msgstr ""
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">11,750.00</"
+"span></span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid ""
+<<<<<<< HEAD
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">19,250.00</span></span>"
 msgstr ""
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">19,250.00</span></span>"
+=======
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">19,250.00</"
+"span></span>"
+msgstr ""
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">19,250.00</"
+"span></span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid ""
+<<<<<<< HEAD
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">7,500.00</span></span>"
 msgstr ""
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">7,500.00</span></span>"
+=======
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">7,500.00</"
+"span></span>"
+msgstr ""
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">7,500.00</"
+"span></span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
@@ -2390,8 +2840,13 @@ msgstr "<span class=\"text-warning\">Közepes kockázat</span>: Iban"
 msgid ""
 "<span invisible=\"name or name_placeholder or quick_edit_mode\">Draft</span>"
 msgstr ""
+<<<<<<< HEAD
 "<span invisible=\"name or name_placeholder or "
 "quick_edit_mode\">Piszkozat</span>"
+=======
+"<span invisible=\"name or name_placeholder or quick_edit_mode\">Piszkozat</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.autopost_bills_wizard
@@ -2401,7 +2856,12 @@ msgstr "<span invisible=\"nb_unmodified_bills &lt; 10\">10+</span>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_form
 msgid "<span invisible=\"not early_discount\"> % if paid within </span>"
+<<<<<<< HEAD
 msgstr "<span invisible=\"not early_discount\"> % ha ezen belül fizetve: </span>"
+=======
+msgstr ""
+"<span invisible=\"not early_discount\"> % ha ezen belül fizetve: </span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_form
@@ -2412,10 +2872,20 @@ msgstr "<span invisible=\"not early_discount\"> nap</span>"
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
 msgid ""
 "<span invisible=\"reconciled_invoices_type != 'invoice'\"> Invoice</span>\n"
+<<<<<<< HEAD
 "                                        <span invisible=\"reconciled_invoices_type == 'invoice'\"> Credit Note</span>"
 msgstr ""
 "<span invisible=\"reconciled_invoices_type != 'invoice'\"> Számla</span>\n"
 "                                        <span invisible=\"reconciled_invoices_type == 'invoice'\"> Jóváírás értesítés</span>"
+=======
+"                                        <span "
+"invisible=\"reconciled_invoices_type == 'invoice'\"> Credit Note</span>"
+msgstr ""
+"<span invisible=\"reconciled_invoices_type != 'invoice'\"> Számla</span>\n"
+"                                        <span "
+"invisible=\"reconciled_invoices_type == 'invoice'\"> Jóváírás értesítés</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
@@ -2458,11 +2928,14 @@ msgstr "<span> (DR)</span>"
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span> = </span>"
 msgstr "<span> = </span>"
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
@@ -2498,11 +2971,16 @@ msgstr "<span>$ <span class=\"oe_currency_value\">19,250.00</span></span>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span>1 </span>"
 msgstr "<span>1 </span>"
 =======
 msgid "<span>1</span>"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "<span>1</span>"
+msgstr "<span>1</span>"
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -2518,10 +2996,18 @@ msgstr ""
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span>=</span>"
 msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "<span>=</span>"
+msgstr "<span>=</span>"
 
 #. module: account
 >>>>>>> upstream/18.0
@@ -2573,6 +3059,7 @@ msgid "<span>New</span>"
 msgstr "<span>Új</span>"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2655,6 +3142,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid ""
+"<span>One or more Bank Accounts set on this partner are also used by others:"
+"</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>Operations</span>"
 msgstr "<span>Műveletek</span>"
@@ -2700,7 +3196,10 @@ msgstr "<span>Adó</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2742,6 +3241,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2778,16 +3280,25 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_terms_conditions_setting_banner
 msgid "<span>This is a preview of your Terms &amp; Conditions.</span>"
+<<<<<<< HEAD
 msgstr ""
 "<span>Ez az előnézete a Te Általános Szerződési Feltételeidnek.</span>"
+=======
+msgstr "<span>Ez az előnézete a Te Általános Szerződési Feltételeidnek.</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_register_form
 msgid "<span>This payment has the same partner, amount and date as </span>"
 msgstr ""
+<<<<<<< HEAD
 "<span>Ennek a kifizetésnek ugyanaz a partnere, összege és dátuma, mint "
 "</span>"
+=======
+"<span>Ennek a kifizetésnek ugyanaz a partnere, összege és dátuma, mint </"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
@@ -2808,6 +3319,7 @@ msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2920,6 +3432,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3033,6 +3547,9 @@ msgstr "<strong class=\"d-block mt-3\">Szállítási cím</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3220,11 +3737,14 @@ msgstr "<strong>Hivatkozás</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>Szállítási Cím</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3339,11 +3859,25 @@ msgstr "<strong>Részösszeg</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_currency_form_inherit
 msgid ""
+<<<<<<< HEAD
 "<strong>This currency has already been used to generate accounting entries.</strong> <br/>\n"
 "                        Changing its rounding factor now will not change the rounding made on previous entries; possibly causing an inconsistency with the new ones."
 msgstr ""
 "<strong>Ezt a pénznemet már használták a könyvelési tételek generálására.</strong> <br/>\n"
 "                        A kerekítési tényező mostani módosítása nem változtatja meg a korábbi bejegyzések kerekítését; esetleg inkonzisztenciát okoz az újakkal."
+=======
+"<strong>This currency has already been used to generate accounting entries.</"
+"strong> <br/>\n"
+"                        Changing its rounding factor now will not change the "
+"rounding made on previous entries; possibly causing an inconsistency with "
+"the new ones."
+msgstr ""
+"<strong>Ezt a pénznemet már használták a könyvelési tételek generálására.</"
+"strong> <br/>\n"
+"                        A kerekítési tényező mostani módosítása nem "
+"változtatja meg a korábbi bejegyzések kerekítését; esetleg inkonzisztenciát "
+"okoz az újakkal."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
@@ -3424,7 +3958,10 @@ msgstr "<strong>Típus: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3627,6 +4164,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3767,10 +4307,19 @@ msgstr "@Feladó: %(email)s"
 #: model_terms:ir.actions.act_window,help:account.action_view_bank_statement_tree
 msgid ""
 "A Cash Register allows you to manage cash entries in your cash\n"
+<<<<<<< HEAD
 "                journals. This feature provides an easy way to follow up cash\n"
 "                payments on a daily basis."
 msgstr ""
 "A pénztárgép lehetővé teszi a pénztári naplók pénztári bejegyzéseinek kezelését.\n"
+=======
+"                journals. This feature provides an easy way to follow up "
+"cash\n"
+"                payments on a daily basis."
+msgstr ""
+"A pénztárgép lehetővé teszi a pénztári naplók pénztári bejegyzéseinek "
+"kezelését.\n"
+>>>>>>> upstream/18.0
 "Ez a funkció egyszerű módot biztosít a készpénzes fizetések\n"
 "napi nyomon követésére."
 
@@ -3795,6 +4344,7 @@ msgid "A bank account can belong to only one journal."
 msgstr "Egy bankszámla csak egy naplóhoz tartozhat."
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4200,6 +4750,21 @@ msgstr ""
 msgid ""
 "A bank statement is a summary of all financial transactions\n"
 "                occurring over a given period of time on a bank account. You\n"
+=======
+#. odoo-python
+#: code:addons/account/models/res_partner_bank.py:0
+msgid ""
+"A bank account with Account Number %(number)s already exists for Partner %"
+"(partner)s, but is archived. Please unarchive it instead."
+msgstr ""
+
+#. module: account
+#: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
+msgid ""
+"A bank statement is a summary of all financial transactions\n"
+"                occurring over a given period of time on a bank account. "
+"You\n"
+>>>>>>> upstream/18.0
 "                should receive this periodically from your bank."
 msgstr ""
 "A bankszámlakivonat a bankszámlán egy adott időszak alatt lezajlott\n"
@@ -4210,7 +4775,12 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:account.action_credit_statement_tree
 msgid ""
 "A credit statement is a summary of all financial transactions\n"
+<<<<<<< HEAD
 "                occurring over a given period of time on a credit account. You\n"
+=======
+"                occurring over a given period of time on a credit account. "
+"You\n"
+>>>>>>> upstream/18.0
 "                should receive this periodically from your bank."
 msgstr ""
 "A hitelkimutatás a hitelszámlán egy adott időszak alatt lezajlott\n"
@@ -4285,8 +4855,12 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_reconcile_model.py:0
+<<<<<<< HEAD
 msgid ""
 "A payment tolerance defined as an amount should always be higher than 0"
+=======
+msgid "A payment tolerance defined as an amount should always be higher than 0"
+>>>>>>> upstream/18.0
 msgstr ""
 "Az összegként meghatározott fizetési tűrésnek mindig 0-nál nagyobbnak kell "
 "lennie"
@@ -4437,8 +5011,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "Account %s cannot be unmerged as it already belongs to a single company. The"
 " unmerge operation only splits an account based on its companies."
+=======
+"Account %s cannot be unmerged as it already belongs to a single company. The "
+"unmerge operation only splits an account based on its companies."
+>>>>>>> upstream/18.0
 msgstr ""
 "A számla %s nem bontható fel, mivel már egyetlen céghez tartozik. Az "
 "szétbontási művelet csak a vállalatok alapján oszt fel egy számlát."
@@ -4687,8 +5266,13 @@ msgstr "Főkönyvi számla típus"
 #: model:ir.model.fields,help:account.field_account_move_line__account_type
 msgid ""
 "Account Type is used for information purpose, to generate country-specific "
+<<<<<<< HEAD
 "legal reports, and set the rules to close a fiscal year and generate opening"
 " entries."
+=======
+"legal reports, and set the rules to close a fiscal year and generate opening "
+"entries."
+>>>>>>> upstream/18.0
 msgstr ""
 "A főkönyi számla típus információs célokra használható, országspecifikus "
 "törvényekhez kapcsolódó egyedi riportok létrehozásához, a nyitó tételek "
@@ -4708,8 +5292,13 @@ msgstr "Számla kód első 2 számjegye"
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "Account codes must be unique. You can't create accounts with these duplicate"
 " codes: %s"
+=======
+"Account codes must be unique. You can't create accounts with these duplicate "
+"codes: %s"
+>>>>>>> upstream/18.0
 msgstr ""
 "A számla kódoknak egyedinek kell lenniük. Nem hozhatsz létre számlákat "
 "ezekkel a kódokkal: %s"
@@ -4717,16 +5306,24 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_res_config_settings__account_journal_early_pay_discount_loss_account_id
 msgid ""
+<<<<<<< HEAD
 "Account for the difference amount after the expense discount has been "
 "granted"
+=======
+"Account for the difference amount after the expense discount has been granted"
+>>>>>>> upstream/18.0
 msgstr "A különbözet ​​összegét a költségkedvezmény megadása után számolja el"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_config_settings__account_journal_early_pay_discount_gain_account_id
 msgid ""
 "Account for the difference amount after the income discount has been granted"
+<<<<<<< HEAD
 msgstr ""
 "A különbözet ​​összegét a jövedelemkedvezmény megadása után számolja el"
+=======
+msgstr "A különbözet ​​összegét a jövedelemkedvezmény megadása után számolja el"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_group_search
@@ -4788,8 +5385,13 @@ msgid ""
 "Account that will be set on lines created in cash basis journal entry and "
 "used to keep track of the tax base amount."
 msgstr ""
+<<<<<<< HEAD
 "Az a számla, amely a pénzforgalmi szemléletű könyvelési tételben létrehozott"
 " sorokon lesz beállítva, és az adóalap összegének nyomon követésére szolgál."
+=======
+"Az a számla, amely a pénzforgalmi szemléletű könyvelési tételben létrehozott "
+"sorokon lesz beállítva, és az adóalap összegének nyomon követésére szolgál."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_account__account_dest_id
@@ -4832,8 +5434,13 @@ msgstr "Számla könyvelési tételekkel"
 #. module: account
 #: model:ir.actions.server,name:account.ir_cron_auto_post_draft_entry_ir_actions_server
 msgid ""
+<<<<<<< HEAD
 "Account: Post draft entries with auto_post enabled and accounting date up to"
 " today"
+=======
+"Account: Post draft entries with auto_post enabled and accounting date up to "
+"today"
+>>>>>>> upstream/18.0
 msgstr ""
 "Számla: Auto könyvelésre jelölt piszkozat tételek könyvelése a mai "
 "könyvelési dátumig"
@@ -4962,8 +5569,13 @@ msgstr "Elhatárolási tételek"
 #. odoo-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
+<<<<<<< HEAD
 "Accrual entry created on %(date)s: %(accrual_entry)s.                    And"
 " its reverse entry: %(reverse_entry)s."
+=======
+"Accrual entry created on %(date)s: %(accrual_entry)s.                    And "
+"its reverse entry: %(reverse_entry)s."
+>>>>>>> upstream/18.0
 msgstr ""
 "Elhatárolási tétel létrehozva %(date)s: %(accrual_entry)s. És a "
 "visszafordító tétel: %(reverse_entry)s."
@@ -5118,8 +5730,13 @@ msgstr "Megjegyzés hozzáadása"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Add a QR-code to your invoices so that your customers can pay instantly with"
 " their mobile banking application."
+=======
+"Add a QR-code to your invoices so that your customers can pay instantly with "
+"their mobile banking application."
+>>>>>>> upstream/18.0
 msgstr ""
 "Adjon QR-kódot a számláihoz, hogy ügyfelei azonnal fizethessenek mobilbanki "
 "alkalmazásukkal."
@@ -5188,8 +5805,12 @@ msgstr "Értesíteni kívánt kapcsolatok hozzáadása..."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+<<<<<<< HEAD
 msgid ""
 "Add your terms & conditions at the bottom of invoices/orders/quotations"
+=======
+msgid "Add your terms & conditions at the bottom of invoices/orders/quotations"
+>>>>>>> upstream/18.0
 msgstr "Adja meg feltételeit a számlák/megrendelések/árajánlatok alján"
 
 #. module: account
@@ -5224,11 +5845,17 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
+<<<<<<< HEAD
 msgid ""
 "Adjusting Entry {link} {percent}%% of {amount} recognized on {new_date}"
 msgstr ""
 "Módosító tétel {link} {amount} {percent}%%-a elszámolva {new_date} "
 "időpontban"
+=======
+msgid "Adjusting Entry {link} {percent}%% of {amount} recognized on {new_date}"
+msgstr ""
+"Módosító tétel {link} {amount} {percent}%%-a elszámolva {new_date} időpontban"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:res.groups,name:account.group_account_manager
@@ -5574,14 +6201,19 @@ msgstr "Egy mérlegen kívüli számlához nem tartozhat adó"
 msgid ""
 "An account fiscal position could be defined only one time on same accounts."
 msgstr ""
+<<<<<<< HEAD
 "Egy számla pénzügyi pozíció csak egyszer határozható meg ugyanazon a "
 "számlán."
+=======
+"Egy számla pénzügyi pozíció csak egyszer határozható meg ugyanazon a számlán."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_form
 msgid ""
 "An account is part of a ledger allowing your company\n"
 "                to register all kinds of debit and credit transactions.\n"
+<<<<<<< HEAD
 "                Companies present their annual accounts in two main parts: the\n"
 "                balance sheet and the income statement (profit and loss\n"
 "                account). The annual accounts of a company are required by law\n"
@@ -5592,11 +6224,29 @@ msgstr ""
 "                 Vállalatok két fő részletben mutatják be az éves könyvelésüket:\n"
 "                 a számla egyenlegen és a bevételi kimutatáson (nyereség\n"
 "                és veszteség számla). A vállalkozás éves elszámolásához a törvény\n"
+=======
+"                Companies present their annual accounts in two main parts: "
+"the\n"
+"                balance sheet and the income statement (profit and loss\n"
+"                account). The annual accounts of a company are required by "
+"law\n"
+"                to disclose a certain amount of information."
+msgstr ""
+"Egy számla a főkönyvi karton része amire a vállalkozása\n"
+"                be tud jegyezni bármilyen tartozás és követelés "
+"tranzakciót.\n"
+"                 Vállalatok két fő részletben mutatják be az éves "
+"könyvelésüket:\n"
+"                 a számla egyenlegen és a bevételi kimutatáson (nyereség\n"
+"                és veszteség számla). A vállalkozás éves elszámolásához a "
+"törvény\n"
+>>>>>>> upstream/18.0
 "                szerint be kell mutatni számos információt."
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5645,6 +6295,11 @@ msgstr "Hiba történt."
 msgid ""
 "An error occurred when computing the inalterability. A gap has been detected"
 " in the sequence."
+=======
+msgid ""
+"An error occurred when computing the inalterability. A gap has been detected "
+"in the sequence."
+>>>>>>> upstream/18.0
 msgstr ""
 "Hiba történt a megváltoztathatatlanság számításakor. Megszakadás észlelhető "
 "a sorszámozásban."
@@ -5766,8 +6421,13 @@ msgid ""
 "does not allow any exception."
 msgstr ""
 "Minden tétel a megadott dátumig bezárólag későbbre lesz halasztva, a napló "
+<<<<<<< HEAD
 "sorszámozásának megfelelően. Ez a zárolási dátum visszafordíthatatlan és nem"
 " enged meg kivételt."
+=======
+"sorszámozásának megfelelően. Ez a zárolási dátum visszafordíthatatlan és nem "
+"enged meg kivételt."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__fiscalyear_lock_date
@@ -5802,11 +6462,18 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "Any journal item on a receivable account must have a due date and vice "
 "versa."
 msgstr ""
 "Minden, követelés számlán szereplő könyvelési tételnek esedékességi dátummal"
 " kell rendelkeznie, és fordítva."
+=======
+"Any journal item on a receivable account must have a due date and vice versa."
+msgstr ""
+"Minden, követelés számlán szereplő könyvelési tételnek esedékességi dátummal "
+"kell rendelkeznie, és fordítva."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__purchase_lock_date
@@ -5814,8 +6481,13 @@ msgid ""
 "Any purchase entry prior to and including this date will be postponed to a "
 "later date, in accordance with its journal's sequence."
 msgstr ""
+<<<<<<< HEAD
 "Bármely vásárlási bejegyzés, amely ezen a napon vagy azt megelőzően történt,"
 " későbbi időpontra lesz halasztva, a folyóiratának sorrendje szerint."
+=======
+"Bármely vásárlási bejegyzés, amely ezen a napon vagy azt megelőzően történt, "
+"későbbi időpontra lesz halasztva, a folyóiratának sorrendje szerint."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__sale_lock_date
@@ -6303,8 +6975,13 @@ msgstr "Bankszámla"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Banki számla %(link)s a %(number)s számmal törölve"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
@@ -6701,7 +7378,12 @@ msgstr "Banki Tranzakciók Feltételei"
 #. module: account
 #: model:ir.model.fields,help:account.field_res_config_settings__account_journal_suspense_account_id
 msgid ""
+<<<<<<< HEAD
 "Bank Transactions are posted immediately after import or synchronization. Their counterparty is the bank suspense account.\n"
+=======
+"Bank Transactions are posted immediately after import or synchronization. "
+"Their counterparty is the bank suspense account.\n"
+>>>>>>> upstream/18.0
 "Reconciliation replaces the latter by the definitive account(s)."
 msgstr ""
 "A banki tranzakciók az importálás vagy szinkronizálás után azonnal "
@@ -6802,7 +7484,12 @@ msgstr "Számla alapján"
 #: model:ir.model.fields,help:account.field_account_tax__tax_exigibility
 msgid ""
 "Based on Invoice: the tax is due as soon as the invoice is validated.\n"
+<<<<<<< HEAD
 "Based on Payment: the tax is due as soon as the payment of the invoice is received."
+=======
+"Based on Payment: the tax is due as soon as the payment of the invoice is "
+"received."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -7239,7 +7926,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7441,6 +8131,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7802,16 +8495,26 @@ msgid ""
 "Changing VAT number is not allowed once invoices have been issued for your "
 "account. Please contact us directly for this operation."
 msgstr ""
+<<<<<<< HEAD
 "Adószám megváltoztatása nem megengedett számla létrehozás történt a főkönyvi"
 " számlán. Kérem vegye fel velünk közvetlenül a kapcsolatot ehhez a "
 "művelethez."
+=======
+"Adószám megváltoztatása nem megengedett számla létrehozás történt a főkönyvi "
+"számlán. Kérem vegye fel velünk közvetlenül a kapcsolatot ehhez a művelethez."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/controllers/portal.py:0
 msgid ""
+<<<<<<< HEAD
 "Changing your company name is not allowed once invoices have been issued for"
 " your account. Please contact us directly for this operation."
+=======
+"Changing your company name is not allowed once invoices have been issued for "
+"your account. Please contact us directly for this operation."
+>>>>>>> upstream/18.0
 msgstr ""
 "A cégnevének megváltoztatása nem engedélyezett, miután számlákat állítottak "
 "ki az Ön fiókjához. Kérjük, lépjen kapcsolatba velünk közvetlenül e "
@@ -7824,9 +8527,14 @@ msgid ""
 "Changing your name is not allowed once invoices have been issued for your "
 "account. Please contact us directly for this operation."
 msgstr ""
+<<<<<<< HEAD
 "Nevének megváltoztatása nem megengedett számla létrehozás történt a főkönyvi"
 " számlán. Kérem vegye fel velünk közvetlenül a kapcsolatot ehhez a "
 "művelethez."
+=======
+"Nevének megváltoztatása nem megengedett számla létrehozás történt a főkönyvi "
+"számlán. Kérem vegye fel velünk közvetlenül a kapcsolatot ehhez a művelethez."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__chart_template
@@ -7893,12 +8601,20 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__refund_sequence
 msgid ""
+<<<<<<< HEAD
 "Check this box if you don't want to share the same sequence for invoices and"
 " credit notes made from this journal"
 msgstr ""
 "Jelöld be ezt a négyzetet, ha nem szeretnéd megosztani ugyanazt a sorrendet "
 "a számlák és a hitelesítések esetében, amelyeket ebből a naplóból "
 "készítettek"
+=======
+"Check this box if you don't want to share the same sequence for invoices and "
+"credit notes made from this journal"
+msgstr ""
+"Jelöld be ezt a négyzetet, ha nem szeretnéd megosztani ugyanazt a sorrendet "
+"a számlák és a hitelesítések esetében, amelyeket ebből a naplóból készítettek"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__payment_sequence
@@ -8057,8 +8773,13 @@ msgid ""
 "Comma-separated list of fields from account.move.line (Journal Item). When "
 "set, this line will generate sublines grouped by those keys."
 msgstr ""
+<<<<<<< HEAD
 "Vesszővel elválasztott mezők listája az account.move.line-ból (Napló tétel)."
 " Ha be van állítva, ez a sor azokat a kulcsokat csoportosítva alá tételeket "
+=======
+"Vesszővel elválasztott mezők listája az account.move.line-ból (Napló tétel). "
+"Ha be van állítva, ez a sor azokat a kulcsokat csoportosítva alá tételeket "
+>>>>>>> upstream/18.0
 "generál."
 
 #. module: account
@@ -8069,6 +8790,7 @@ msgid "Commercial Entity"
 msgstr "Jogi személy"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8225,6 +8947,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8452,6 +9176,9 @@ msgstr "Kereskedelmi partner országa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8848,8 +9575,12 @@ msgstr ""
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Contains hashed entries, but %s also has hashed entries."
 msgstr ""
+<<<<<<< HEAD
 "Tartalmazott hashelt bejegyzéseket, de %s is tartalmaz hashelt "
 "bejegyzéseket."
+=======
+"Tartalmazott hashelt bejegyzéseket, de %s is tartalmaz hashelt bejegyzéseket."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_send_wizard__mail_body
@@ -8880,8 +9611,13 @@ msgstr "Menő, úgy tűnik, hogy nincs kifizetetlen összeged."
 #: code:addons/account/models/company.py:0
 msgid "Corrupted data on journal entry with id %(id)s (%(name)s)."
 msgstr ""
+<<<<<<< HEAD
 "A sérült adatok a naplóbejegyzésen, amelynek az azonosítója %(id)s "
 "(%(name)s)."
+=======
+"A sérült adatok a naplóbejegyzésen, amelynek az azonosítója %(id)s (%"
+"(name)s)."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:account.account,name:account.1_cost_of_goods_sold
@@ -8906,8 +9642,13 @@ msgid ""
 "Could not compute any code for the copy automatically. Please create it "
 "manually."
 msgstr ""
+<<<<<<< HEAD
 "Nem sikerült automatikusan kódot generálni a másolathoz. Kérjük, készítse el"
 " manuálisan."
+=======
+"Nem sikerült automatikusan kódot generálni a másolathoz. Kérjük, készítse el "
+"manuálisan."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -9036,6 +9777,11 @@ msgstr "Automatikus bejegyzések létrehozása"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -9275,8 +10021,13 @@ msgid ""
 "Create a structured report with multiple sections for convenient navigation "
 "and simultaneous printing."
 msgstr ""
+<<<<<<< HEAD
 "Hozzon létre egy strukturált jelentést több szekcióval a kényelmes navigáció"
 " és a párhuzamos nyomtatás érdekében"
+=======
+"Hozzon létre egy strukturált jelentést több szekcióval a kényelmes navigáció "
+"és a párhuzamos nyomtatás érdekében"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_in_invoice
@@ -9292,8 +10043,15 @@ msgstr "Hozzon létre egy szállítói jóváíró nyilatkozatot"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_journal_group_list
 msgid ""
+<<<<<<< HEAD
 "Create as many ledger groups as needed to maintain separate ledgers for local GAAP, IFRS, or fiscal\n"
 "                    adjustments, ensuring compliance with diverse regulations."
+=======
+"Create as many ledger groups as needed to maintain separate ledgers for "
+"local GAAP, IFRS, or fiscal\n"
+"                    adjustments, ensuring compliance with diverse "
+"regulations."
+>>>>>>> upstream/18.0
 msgstr ""
 "Hozzon létre annyi főkönyv csoportot, amennyire szükség van a helyi GAAP, "
 "IFRS vagy pénzügyi kiigazítások külön főkönyveinek fenntartásához, "
@@ -10243,8 +11001,12 @@ msgstr "Meghatározza, hogy a mező fiók előtagját meg kell-e jeleníteni"
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__invoice_cash_rounding_id
 #: model:ir.model.fields,help:account.field_account_move__invoice_cash_rounding_id
 msgid ""
+<<<<<<< HEAD
 "Defines the smallest coinage of the currency that can be used to pay by "
 "cash."
+=======
+"Defines the smallest coinage of the currency that can be used to pay by cash."
+>>>>>>> upstream/18.0
 msgstr ""
 "Meghatározza a valuta legkisebb érméjét, amely készpénzes fizetésre "
 "használható."
@@ -10326,8 +11088,12 @@ msgstr "Leírás"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_form
+<<<<<<< HEAD
 msgid ""
 "Description on invoice (e.g. Payment terms: 30 days after invoice date)"
+=======
+msgid "Description on invoice (e.g. Payment terms: 30 days after invoice date)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -10902,7 +11668,10 @@ msgstr "Esedékes feltételek"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10947,6 +11716,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11290,8 +12062,13 @@ msgstr "Saját tőke"
 msgid ""
 "Error importing attachment '%(file_name)s' as invoice (decoder=%(decoder)s)"
 msgstr ""
+<<<<<<< HEAD
 "Hiba a '%(file_name)s' melléklet számlaként való importálásakor "
 "(dekóder=%(decoder)s)"
+=======
+"Hiba a '%(file_name)s' melléklet számlaként való importálásakor (dekóder=%"
+"(decoder)s)"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -11379,13 +12156,19 @@ msgstr "Kizárt folyóiratok"
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__expected_currency_rate
 #: model:ir.model.fields,field_description:account.field_account_move__expected_currency_rate
 msgid "Expected Currency Rate"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_res_company__expects_chart_of_accounts
 msgid "Expects a Chart of Accounts"
@@ -11831,8 +12614,13 @@ msgstr "A százalékhoz adjon meg egy 0-100 közti arányszám értéket."
 #: code:addons/account/models/account_move.py:0
 msgid "For this entry to be automatically posted, it required a bill date."
 msgstr ""
+<<<<<<< HEAD
 "Ahhoz, hogy ez a bejegyzés automatikusan közzétételre kerüljön, szükség volt"
 " egy számladátumra"
+=======
+"Ahhoz, hogy ez a bejegyzés automatikusan közzétételre kerüljön, szükség volt "
+"egy számladátumra"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.constraint,message:account.constraint_account_move_line_check_non_accountable_fields_null
@@ -11926,8 +12714,13 @@ msgid ""
 "expression), in case it is different from the parent line."
 msgstr ""
 "A képlet a line_code.expression_label formában. Ez lehetővé teszi a cél "
+<<<<<<< HEAD
 "beállítását a carryover számára ehhez a kifejezéshez (egy "
 "_carryover_*-címkézett kifejezés esetén), ha az eltér a szülő sortól."
+=======
+"beállítását a carryover számára ehhez a kifejezéshez (egy _carryover_*-"
+"címkézett kifejezés esetén), ha az eltér a szülő sortól."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_group_form
@@ -11992,8 +12785,13 @@ msgid ""
 "reports and so, match this analysis to your needs."
 msgstr ""
 "Ebből a kimutatásból, áttekintheti a beszállítói által számlázott "
+<<<<<<< HEAD
 "összegeket. A kereső eszközzel egyénivé teheti a Számla kimutatásait és így,"
 " az a kívánsága szerinti lesz."
+=======
+"összegeket. A kereső eszközzel egyénivé teheti a Számla kimutatásait és így, "
+"az a kívánsága szerinti lesz."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_invoice_report_all
@@ -12003,8 +12801,13 @@ msgid ""
 "reports and so, match this analysis to your needs."
 msgstr ""
 "Ebből a kimutatásból, áttekintheti a vásárlóihoz tartozó számlázott "
+<<<<<<< HEAD
 "összegeket. A kereső eszközzel egyénivé teheti a Számla kimutatásait és így,"
 " az a kívánsága szerinti lesz."
+=======
+"összegeket. A kereső eszközzel egyénivé teheti a Számla kimutatásait és így, "
+"az a kívánsága szerinti lesz."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_payment_register__installments_mode__full
@@ -12165,11 +12968,17 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
+<<<<<<< HEAD
 "Groupby feature isn't supported by aggregation engine. Please remove the "
 "groupby value on '%s'"
 msgstr ""
 "A csoportosítási funkciót nem támogatja az aggregáló motor. Kérjük, "
 "távolítsa el a csoportosítási értéket a '%s'-ról"
+=======
+"Groupby feature isn't supported by '%(engine)s' engine. Please remove the "
+"groupby value on '%(report_line)s'"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_merge_wizard_line__grouping_key
@@ -12274,7 +13083,12 @@ msgstr "Szia!"
 msgid ""
 "Hi,\n"
 "    <br/><br/>\n"
+<<<<<<< HEAD
 "    Your email has been discarded. the e-mail address you have used only accepts new invoices:"
+=======
+"    Your email has been discarded. the e-mail address you have used only "
+"accepts new invoices:"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -12332,11 +13146,14 @@ msgstr ""
 "Hogyan számítják ki a teljes adóösszeget a megrendelésekben és számlákban"
 
 #. module: account
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document_preview
 msgid "IBAN: BE76 4294 6878 9995"
 msgstr ""
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_account__id
 #: model:ir.model.fields,field_description:account.field_account_account_tag__id
 #: model:ir.model.fields,field_description:account.field_account_accrued_orders_wizard__id
@@ -12490,8 +13307,12 @@ msgstr "Ha be van jelölve, akkor az új üzenetek figyelmet igényelnek."
 #: model:ir.model.fields,help:account.field_res_partner_bank__message_has_error
 #: model:ir.model.fields,help:account.field_res_partner_bank__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
 "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+=======
+msgstr "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -12499,8 +13320,13 @@ msgid ""
 "If empty, the discount will be discounted directly on the income/expense "
 "account. If set, discount on invoices will be realized in separate accounts."
 msgstr ""
+<<<<<<< HEAD
 "Ha üres, a kedvezmény közvetlenül a bevételi/költségszámlán lesz levonva. Ha"
 " be van állítva, a számlákon a kedvezmény külön számlákon valósul meg"
+=======
+"Ha üres, a kedvezmény közvetlenül a bevételi/költségszámlán lesz levonva. Ha "
+"be van állítva, a számlákon a kedvezmény külön számlákon valósul meg"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_reversal__journal_id
@@ -12519,8 +13345,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax__is_base_affected
 msgid ""
+<<<<<<< HEAD
 "If set, taxes with a lower sequence might affect this one, provided they try"
 " to do it."
+=======
+"If set, taxes with a lower sequence might affect this one, provided they try "
+"to do it."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ha be van állítva, az alacsonyabb sorrendű adók hatással lehetnek erre, "
 "feltéve, hogy megpróbálják."
@@ -12543,6 +13374,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account__non_trade
 msgid ""
+<<<<<<< HEAD
 "If set, this account will belong to Non Trade Receivable/Payable in reports and filters.\n"
 "If not, this account will belong to Trade Receivable/Payable in reports and filters."
 msgstr ""
@@ -12550,6 +13382,17 @@ msgstr ""
 "követelések/kötelezettségek közé fog tartozni a jelentésekben és szűrőkben. "
 "Ha nem, ez a számla a kereskedelmi követelések/kötelezettségek közé fog "
 "tartozni a jelentésekben és szűrőkben"
+=======
+"If set, this account will belong to Non Trade Receivable/Payable in reports "
+"and filters.\n"
+"If not, this account will belong to Trade Receivable/Payable in reports and "
+"filters."
+msgstr ""
+"Ha be van állítva, ez a számla a nem kereskedelmi követelések/"
+"kötelezettségek közé fog tartozni a jelentésekben és szűrőkben. Ha nem, ez a "
+"számla a kereskedelmi követelések/kötelezettségek közé fog tartozni a "
+"jelentésekben és szűrőkben"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_group__preceding_subtotal
@@ -12560,8 +13403,13 @@ msgid ""
 msgstr ""
 "Ha be van állítva, ez az érték a dokumentumokon a részösszeg címkéjeként "
 "lesz használva, amely kizárja ezt az adócsoportot a megjelenítés előtt. Ha "
+<<<<<<< HEAD
 "nincs beállítva, az adócsoport a 'Nincs adózott összeg' részösszeg után lesz"
 " megjelenítve"
+=======
+"nincs beállítva, az adócsoport a 'Nincs adózott összeg' részösszeg után lesz "
+"megjelenítve"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term__active
@@ -12577,8 +13425,13 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_move__checked
 msgid ""
 "If this checkbox is not ticked, it means that the user was not sure of all "
+<<<<<<< HEAD
 "the related information at the time of the creation of the move and that the"
 " move needs to be checked again."
+=======
+"the related information at the time of the creation of the move and that the "
+"move needs to be checked again."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ha ez a jelölőnégyzet nincs bepipálva, az azt jelenti, hogy a felhasználó "
 "nem volt biztos az összes kapcsolódó információban a lépés létrehozásakor, "
@@ -12619,8 +13472,12 @@ msgstr ""
 msgid ""
 "If you have not installed a chart of account, please install one first.<br>"
 msgstr ""
+<<<<<<< HEAD
 "Ha még nem telepített egy számlatükröt, kérjük, először telepítsen "
 "egyet.<br>"
+=======
+"Ha még nem telepített egy számlatükröt, kérjük, először telepítsen egyet.<br>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -12630,8 +13487,13 @@ msgid ""
 "of where you are located."
 msgstr ""
 "Ha árukat és szolgáltatásokat értékesít külföldi EU-s országban élő "
+<<<<<<< HEAD
 "ügyfeleknek, akkor az áfát a szállítási cím alapján kell felszámítania. Ez a"
 " szabály független attól, hogy hol tartózkodik."
+=======
+"ügyfeleknek, akkor az áfát a szállítási cím alapján kell felszámítania. Ez a "
+"szabály független attól, hogy hol tartózkodik."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -12828,8 +13690,13 @@ msgstr "Bejövő kifizetések"
 #. odoo-python
 #: code:addons/account/wizard/setup_wizards.py:0
 msgid ""
+<<<<<<< HEAD
 "Incorrect fiscal year date: day is out of range for month. Month: %(month)s;"
 " Day: %(day)s"
+=======
+"Incorrect fiscal year date: day is out of range for month. Month: %(month)s; "
+"Day: %(day)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -12863,12 +13730,21 @@ msgstr "Incoterm"
 #: model:ir.model.fields,help:account.field_account_incoterms__name
 msgid ""
 "Incoterms are series of sales terms. They are used to divide transaction "
+<<<<<<< HEAD
 "costs and responsibilities between buyer and seller and reflect state-of-"
 "the-art transportation practices."
 msgstr ""
 "Az Incoterms (Nemzetközi Kereskedelmi Feltételek) értékesítési feltételek "
 "fogalmaz meg. Célja az ügyletek költségeinek és felelősségeinek a vevő és az"
 " eladó közti felosztása, és a legkorszerűbb szállítási gyakorlatok kezelése."
+=======
+"costs and responsibilities between buyer and seller and reflect state-of-the-"
+"art transportation practices."
+msgstr ""
+"Az Incoterms (Nemzetközi Kereskedelmi Feltételek) értékesítési feltételek "
+"fogalmaz meg. Célja az ügyletek költségeinek és felelősségeinek a vevő és az "
+"eladó közti felosztása, és a legkorszerűbb szállítási gyakorlatok kezelése."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_incoterms_tree
@@ -12997,8 +13873,12 @@ msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report_line__domain_formula
+<<<<<<< HEAD
 msgid ""
 "Internal field to shorten expression_ids creation for the domain engine"
+=======
+msgid "Internal field to shorten expression_ids creation for the domain engine"
+>>>>>>> upstream/18.0
 msgstr ""
 "Belső mező az expression_ids létrehozásának lerövidítésére a domain motor "
 "számára"
@@ -13034,8 +13914,13 @@ msgid ""
 "International Commercial Terms are a series of predefined commercial terms "
 "used in international transactions."
 msgstr ""
+<<<<<<< HEAD
 "A Nemzetközi Kereskedelmi Feltételek olyan előredefiniált üzleti feltételek,"
 " melyeket nemzetközi ügyleteknél használnak."
+=======
+"A Nemzetközi Kereskedelmi Feltételek olyan előredefiniált üzleti feltételek, "
+"melyeket nemzetközi ügyleteknél használnak."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_intrastat
@@ -13051,11 +13936,19 @@ msgstr "Érvénytelen"
 #. odoo-python
 #: code:addons/account/models/partner.py:0
 msgid ""
+<<<<<<< HEAD
 "Invalid \"Zip Range\", You have to configure both \"From\" and \"To\" values"
 " for the zip range and \"To\" should be greater than \"From\"."
 msgstr ""
 "Érvénytelen \"Irányítószám tartomány\", mindkét \"Tól\" és \"Ig\" értéket be"
 " kell állítania az irányítószám tartományhoz, és az \"Ig\"-nek nagyobbnak "
+=======
+"Invalid \"Zip Range\", You have to configure both \"From\" and \"To\" values "
+"for the zip range and \"To\" should be greater than \"From\"."
+msgstr ""
+"Érvénytelen \"Irányítószám tartomány\", mindkét \"Tól\" és \"Ig\" értéket be "
+"kell állítania az irányítószám tartományhoz, és az \"Ig\"-nek nagyobbnak "
+>>>>>>> upstream/18.0
 "kell lennie, mint a \"Tól\"."
 
 #. module: account
@@ -13252,8 +14145,13 @@ msgid ""
 "Invoice and credit note distribution should have a total factor (+) equals "
 "to 100."
 msgstr ""
+<<<<<<< HEAD
 "A számla és a jóváírási értesítő elosztásának összesített tényezője (+) "
 "100-nak kell lennie"
+=======
+"A számla és a jóváírási értesítő elosztásának összesített tényezője (+) 100-"
+"nak kell lennie"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -13262,8 +14160,13 @@ msgid ""
 "Invoice and credit note distribution should have a total factor (-) equals "
 "to 100."
 msgstr ""
+<<<<<<< HEAD
 "A számla és a jóváírási értesítő elosztásának összesített tényezője (-) "
 "100-nak kell lennie"
+=======
+"A számla és a jóváírási értesítő elosztásának összesített tényezője (-) 100-"
+"nak kell lennie"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -13281,15 +14184,25 @@ msgid ""
 "Invoice and credit note distribution should match (same percentages, in the "
 "same order)."
 msgstr ""
+<<<<<<< HEAD
 "A számla és a jóváírási értesítő elosztásának meg kell egyeznie (ugyanazok a"
 " százalékok, ugyanabban a sorrendben)"
+=======
+"A számla és a jóváírási értesítő elosztásának meg kell egyeznie (ugyanazok a "
+"százalékok, ugyanabban a sorrendben)"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
+<<<<<<< HEAD
 "Invoice and credit note repartition should have at least one tax repartition"
 " line."
+=======
+"Invoice and credit note repartition should have at least one tax repartition "
+"line."
+>>>>>>> upstream/18.0
 msgstr ""
 "A számla és a jóváírási értesítő elosztásának legalább egy adóelméleti sort "
 "kell tartalmaznia."
@@ -13847,11 +14760,19 @@ msgstr "Napló tételek ahol egyeztetett számok nincsenek beállítva"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid ""
+<<<<<<< HEAD
 "Journal items where the account allows reconciliation no matter the residual"
 " amount"
 msgstr ""
 "Journal tételek, ahol a számla lehetővé teszi a kiegyenlítést, függetlenül a"
 " fennmaradó összegtől"
+=======
+"Journal items where the account allows reconciliation no matter the residual "
+"amount"
+msgstr ""
+"Journal tételek, ahol a számla lehetővé teszi a kiegyenlítést, függetlenül a "
+"fennmaradó összegtől"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -13870,8 +14791,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__account_opening_journal_id
 msgid ""
+<<<<<<< HEAD
 "Journal where the opening entry of this company's accounting has been "
 "posted."
+=======
+"Journal where the opening entry of this company's accounting has been posted."
+>>>>>>> upstream/18.0
 msgstr ""
 "Napló, ahová ennek a cégnek a könyvelésének nyitó bejegyzése került "
 "rögzítésre"
@@ -13953,8 +14878,13 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_product_product__property_account_expense_id
 #: model:ir.model.fields,help:account.field_product_template__property_account_expense_id
 msgid ""
+<<<<<<< HEAD
 "Keep this field empty to use the default value from the product category. If"
 " anglo-saxon accounting with automated valuation method is configured, the "
+=======
+"Keep this field empty to use the default value from the product category. If "
+"anglo-saxon accounting with automated valuation method is configured, the "
+>>>>>>> upstream/18.0
 "expense account on the product category will be used."
 msgstr ""
 "Hagyja üresen ezt a mezőt, hogy a termékkategória alapértelmezett értékét "
@@ -14134,11 +15064,19 @@ msgstr "Előző év"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__discount_date
 msgid ""
+<<<<<<< HEAD
 "Last date at which the discounted amount must be paid in order for the Early"
 " Payment Discount to be granted"
 msgstr ""
 "Az utolsó dátum, amelyen a kedvezményes összeget be kell fizetni ahhoz, hogy"
 " a korai kifizetési kedvezményt megkapja"
+=======
+"Last date at which the discounted amount must be paid in order for the Early "
+"Payment Discount to be granted"
+msgstr ""
+"Az utolsó dátum, amelyen a kedvezményes összeget be kell fizetni ahhoz, hogy "
+"a korai kifizetési kedvezményt megkapja"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -14420,11 +15358,18 @@ msgstr "Készítsen halmozott bejegyzéseket"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_audit_trail_report
+<<<<<<< HEAD
 msgid ""
 "Make sure you first activate the audit trail in the accounting settings"
 msgstr ""
 "Győződjön meg róla, hogy először aktiválja az audit nyomvonalat a könyvelési"
 " beállításokban"
+=======
+msgid "Make sure you first activate the audit trail in the accounting settings"
+msgstr ""
+"Győződjön meg róla, hogy először aktiválja az audit nyomvonalat a könyvelési "
+"beállításokban"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.ui.menu,name:account.account_management_menu
@@ -14448,9 +15393,20 @@ msgstr "Kézi bevitel"
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_line_ids
 msgid ""
 "Manual: Get paid by any method outside of Odoo.\n"
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
+=======
+"Payment Providers: Each payment provider has its own Payment Method. Request "
+"a transaction on/to a card thanks to a payment token saved by the partner "
+"when buying or subscribing online.\n"
+"Batch Deposit: Collect several customer checks at once generating and "
+"submitting a batch deposit to your bank. Module account_batch_payment is "
+"necessary.\n"
+"SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your "
+"partner will have granted to you. Module account_sepa is necessary.\n"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -14458,7 +15414,12 @@ msgstr ""
 msgid ""
 "Manual: Pay by any method outside of Odoo.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
+<<<<<<< HEAD
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
+=======
+"SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit "
+"Transfer file to your bank. Module account_sepa is necessary.\n"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -14466,11 +15427,25 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_line_id
 msgid ""
 "Manual: Pay or Get paid by any method outside of Odoo.\n"
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
+=======
+"Payment Providers: Each payment provider has its own Payment Method. Request "
+"a transaction on/to a card thanks to a payment token saved by the partner "
+"when buying or subscribing online.\n"
+"Check: Pay bills by check and print it from Odoo.\n"
+"Batch Deposit: Collect several customer checks at once generating and "
+"submitting a batch deposit to your bank. Module account_batch_payment is "
+"necessary.\n"
+"SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit "
+"Transfer file to your bank. Module account_sepa is necessary.\n"
+"SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your "
+"partner will have granted to you. Module account_sepa is necessary.\n"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -14596,8 +15571,13 @@ msgstr "Megfelelő kategóriák"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__matching_number
 msgid ""
+<<<<<<< HEAD
 "Matching number for this line, 'P' if it is only partially reconcile, or the"
 " name of the full reconcile if it exists."
+=======
+"Matching number for this line, 'P' if it is only partially reconcile, or the "
+"name of the full reconcile if it exists."
+>>>>>>> upstream/18.0
 msgstr ""
 "A sorhoz tartozó egyező szám, 'P', ha csak részben egyezik, vagy a teljes "
 "egyezés neve, ha létezik."
@@ -15500,8 +16480,13 @@ msgid ""
 "Once installed, set 'Bank Feeds' to 'File Import' in bank account "
 "settings.This adds a button to import from the Accounting dashboard."
 msgstr ""
+<<<<<<< HEAD
 "Miután telepítette, állítsa a 'Banki adatfolyamok'-at 'Fájl importálás'-ra a"
 " banki fiók beállításaiban. Ez hozzáad egy gombot az importáláshoz a "
+=======
+"Miután telepítette, állítsa a 'Banki adatfolyamok'-at 'Fájl importálás'-ra a "
+"banki fiók beállításaiban. Ez hozzáad egy gombot az importáláshoz a "
+>>>>>>> upstream/18.0
 "Számviteli irányítópulton."
 
 #. module: account
@@ -15524,6 +16509,7 @@ msgstr "Miután a számlája elkészült, erősítse meg azt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "One or more Bank Accounts set on this partner are also used by other"
 msgstr ""
@@ -15531,6 +16517,8 @@ msgstr ""
 "által is használva van"
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15717,8 +16705,12 @@ msgstr "Választható"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account__tag_ids
 msgid "Optional tags you may want to assign for custom reporting"
+<<<<<<< HEAD
 msgstr ""
 "Választható címkék, melyeket hozzárendelhet jelentések szerkesztéséhez"
+=======
+msgstr "Választható címkék, melyeket hozzárendelhet jelentések szerkesztéséhez"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_resequence_wizard__ordering
@@ -16165,7 +17157,10 @@ msgstr "A partner(ek)nek rendelkeznie kell egy e-mail címmel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16220,7 +17215,10 @@ msgstr "A hashelt bejegyzésekben használt partnerek nem egyesíthetők."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16263,6 +17261,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16688,13 +17689,19 @@ msgstr ""
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/account/static/src/components/account_pick_currency_rate/account_pick_currency_rate.xml:0
 msgid "Pick the rate on a certain date"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/company.py:0
@@ -16734,8 +17741,12 @@ msgstr "Kérjük, állítson be egy szigorúan pozitív kerekítési értéket"
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_reconcile_model.py:0
+<<<<<<< HEAD
 msgid ""
 "Please set at least one of the match texts to create a partner mapping."
+=======
+msgid "Please set at least one of the match texts to create a partner mapping."
+>>>>>>> upstream/18.0
 msgstr ""
 "Kérjük, állítson be legalább egy egyező szöveget a partneri térkép "
 "létrehozásához"
@@ -16833,8 +17844,13 @@ msgid ""
 "default on all incoming payments created for this customer"
 msgstr ""
 "A preferált fizetési mód ennek az ügyfélnek történő értékesítéskor. Ez "
+<<<<<<< HEAD
 "alapértelmezés szerint be lesz állítva az összes bejövő kifizetésre, amelyet"
 " ennek az ügyfélnek hoztak létre"
+=======
+"alapértelmezés szerint be lesz állítva az összes bejövő kifizetésre, amelyet "
+"ennek az ügyfélnek hoztak létre"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_report__prefix_groups_threshold
@@ -17363,20 +18379,31 @@ msgstr "Hivatkozás"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_reference
 msgid ""
+<<<<<<< HEAD
 "Reference of the document used to issue this payment. Eg. check number, file"
 " name, etc."
+=======
+"Reference of the document used to issue this payment. Eg. check number, file "
+"name, etc."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ehhez a fizetés ügyhöz felhasznált dokumentum bizonylat. Pl. csekk szám, "
 "fájl név, stb."
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Refresh currency rate to the invoice date"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_tax_repartition_line__document_type__refund
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -17454,8 +18481,13 @@ msgstr "Újratöltés"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Reload accounting data (taxes, accounts, ...) if you notice inconsistencies."
 " This action is irreversible."
+=======
+"Reload accounting data (taxes, accounts, ...) if you notice inconsistencies. "
+"This action is irreversible."
+>>>>>>> upstream/18.0
 msgstr ""
 "Töltse újra a könyvelési adatokat (adókat, számlákat, ...) ha eltéréseket "
 "észlel. Ez a művelet visszafordíthatatlan"
@@ -17712,6 +18744,16 @@ msgid "Reversed"
 msgstr "Megfordított"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+msgid "Reversed on"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 #: model:onboarding.onboarding.step,button_text:account.onboarding_onboarding_step_chart_of_accounts
@@ -17988,7 +19030,11 @@ msgstr "Olvasd be a banki alkalmazásoddal."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document_preview
+=======
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_qr_code_preview
+>>>>>>> upstream/18.0
 msgid "Scan this QR Code with<br/>your banking application"
 msgstr "Scanneld ezt a QR kódot a<br/>banki alkalmazásoddal"
 
@@ -18058,8 +19104,12 @@ msgstr "Termék keresése"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_text_location_label
+<<<<<<< HEAD
 msgid ""
 "Search in the Statement's Label to find the Invoice/Payment's reference"
+=======
+msgid "Search in the Statement's Label to find the Invoice/Payment's reference"
+>>>>>>> upstream/18.0
 msgstr ""
 "Keresés a nyilatkozat címkéjében, hogy megtalálja a számla/fizetés "
 "hivatkozását"
@@ -18529,8 +19579,13 @@ msgstr "Adja meg vállalata adatait a dokumentumok fej- és láblécéhez."
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report_line__action_id
 msgid ""
+<<<<<<< HEAD
 "Setting this field will turn the line into a link, executing the action when"
 " clicked."
+=======
+"Setting this field will turn the line into a link, executing the action when "
+"clicked."
+>>>>>>> upstream/18.0
 msgstr ""
 "A mező beállítása linkké alakítja a sort, amely végrehajtja a műveletet, "
 "amikor rákattintanak."
@@ -18561,8 +19616,13 @@ msgstr "Rövidített kód"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__code
 msgid ""
+<<<<<<< HEAD
 "Shorter name used for display. The journal entries of this journal will also"
 " be named using this prefix by default."
+=======
+"Shorter name used for display. The journal entries of this journal will also "
+"be named using this prefix by default."
+>>>>>>> upstream/18.0
 msgstr ""
 "Rövidebb név, amely a megjelenítéshez használatos. Ennek a naplónak a "
 "naplóbejegyzéseit alapértelmezés szerint ezzel a előtaggal is elnevezik"
@@ -18655,8 +19715,13 @@ msgstr "Aktív adók megjelenítése"
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_search
 msgid "Show all records which has next action date is before today"
 msgstr ""
+<<<<<<< HEAD
 "Az összes olyan rekord megjelenítése, melynél a következő akció dátuma a mai"
 " nap előtti"
+=======
+"Az összes olyan rekord megjelenítése, melynél a következő akció dátuma a mai "
+"nap előtti"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -18717,7 +19782,12 @@ msgid ""
 "Some payment methods supposed to be unique already exists somewhere else.\n"
 "(%s)"
 msgstr ""
+<<<<<<< HEAD
 "Néhány fizetési mód, amelynek egyedinek kellene lennie, már létezik máshol.  \n"
+=======
+"Néhány fizetési mód, amelynek egyedinek kellene lennie, már létezik "
+"máshol.  \n"
+>>>>>>> upstream/18.0
 "(%s)"
 
 #. module: account
@@ -18750,8 +19820,13 @@ msgstr "Forrás e-mail"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_accrued_orders_wizard__amount
 msgid ""
+<<<<<<< HEAD
 "Specify an arbitrary value that will be accrued on a         default account"
 " for the entire order, regardless of the products on the different lines."
+=======
+"Specify an arbitrary value that will be accrued on a         default account "
+"for the entire order, regardless of the products on the different lines."
+>>>>>>> upstream/18.0
 msgstr ""
 "Adjon meg egy tetszőleges értéket, amely a teljes rendelésre, függetlenül a "
 "különböző sorokon lévő termékektől, egy default számlán kerül jóváírásra"
@@ -19020,11 +20095,19 @@ msgstr "Címkék"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__tax_tag_ids
 msgid ""
+<<<<<<< HEAD
 "Tags assigned to this line by the tax creating it, if any. It determines its"
 " impact on financial reports."
 msgstr ""
 "A vonatkozó adó által ennek a sorra kijelölt címkék, ha vannak. Meghatározza"
 " a pénzügyi jelentésekre gyakorolt hatását"
+=======
+"Tags assigned to this line by the tax creating it, if any. It determines its "
+"impact on financial reports."
+msgstr ""
+"A vonatkozó adó által ennek a sorra kijelölt címkék, ha vannak. Meghatározza "
+"a pénzügyi jelentésekre gyakorolt hatását"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_product_product__account_tag_ids
@@ -19032,8 +20115,13 @@ msgstr ""
 msgid ""
 "Tags to be set on the base and tax journal items created for this product."
 msgstr ""
+<<<<<<< HEAD
 "Címkék, amelyeket be kell állítani a termékhez létrehozott alap- és adónapló"
 " tételeken."
+=======
+"Címkék, amelyeket be kell állítani a termékhez létrehozott alap- és adónapló "
+"tételeken."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_report_external_value__target_report_expression_id
@@ -19366,8 +20454,13 @@ msgstr "Az adók a számlákon helyi pénznemben is megjelennek"
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "Taxes exigible on payment and on invoice cannot be mixed on the same journal"
 " item if they share some tag."
+=======
+"Taxes exigible on payment and on invoice cannot be mixed on the same journal "
+"item if they share some tag."
+>>>>>>> upstream/18.0
 msgstr ""
 "A kifizetésre és a számlára vonatkozó adókat nem lehet keverni ugyanazon "
 "naplóbejegyzésben, ha közös címkével rendelkeznek"
@@ -19389,8 +20482,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__account_enabled_tax_country_ids
 msgid ""
+<<<<<<< HEAD
 "Technical field containing the countries for which this company is using "
 "tax-related features(hence the ones for which l10n modules need to show tax-"
+=======
+"Technical field containing the countries for which this company is using tax-"
+"related features(hence the ones for which l10n modules need to show tax-"
+>>>>>>> upstream/18.0
 "related fields)."
 msgstr ""
 "Technikai terület, amely tartalmazza azokat az országokat, amelyekben ez a "
@@ -19429,8 +20527,13 @@ msgid ""
 "Technical field used to display a warning if the IBAN country is different "
 "than the holder country."
 msgstr ""
+<<<<<<< HEAD
 "Technikai mező, amely figyelmeztetést jelenít meg, ha az IBAN ország eltér a"
 " tulajdonos országától"
+=======
+"Technikai mező, amely figyelmeztetést jelenít meg, ha az IBAN ország eltér a "
+"tulajdonos országától"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_setup_bank_manual_config__has_money_transfer_warning
@@ -19445,10 +20548,21 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__sequence_override_regex
 msgid ""
+<<<<<<< HEAD
 "Technical field used to enforce complex sequence composition that the system would normally misunderstand.\n"
 "This is a regex that can include all the following capture groups: prefix1, year, prefix2, month, prefix3, seq, suffix.\n"
 "The prefix* groups are the separators between the year, month and the actual increasing sequence number (seq).\n"
 "e.g: ^(?P<prefix1>.*?)(?P<year>\\d{4})(?P<prefix2>\\D*?)(?P<month>\\d{2})(?P<prefix3>\\D+?)(?P<seq>\\d+)(?P<suffix>\\D*?)$"
+=======
+"Technical field used to enforce complex sequence composition that the system "
+"would normally misunderstand.\n"
+"This is a regex that can include all the following capture groups: prefix1, "
+"year, prefix2, month, prefix3, seq, suffix.\n"
+"The prefix* groups are the separators between the year, month and the actual "
+"increasing sequence number (seq).\n"
+"e.g: ^(?P<prefix1>.*?)(?P<year>\\d{4})(?P<prefix2>\\D*?)(?P<month>\\d{2})(?"
+"P<prefix3>\\D+?)(?P<seq>\\d+)(?P<suffix>\\D*?)$"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -19515,11 +20629,24 @@ msgstr "Ez a nyitó bejegyzés dátuma"
 #. odoo-python
 #: code:addons/account/models/sequence_mixin.py:0
 msgid ""
+<<<<<<< HEAD
 "The %(date_field)s (%(date)s) you've entered isn't aligned with the existing sequence number (%(sequence)s). Clear the sequence number to proceed.\n"
 "To maintain date-based sequences, select entries and use the resequence option from the actions menu, available in developer mode."
 msgstr ""
 "A megadott %(date_field)s (%(date)s) nem illeszkedik a meglévő sorszámhoz (%(sequence)s). Törölje a sorszámot a folytatáshoz.  \n"
 "A dátum alapú sorrend fenntartásához válassza ki a bejegyzéseket, és használja a sorszámozás opciót a műveletek menüből, amely elérhető fejlesztői módban."
+=======
+"The %(date_field)s (%(date)s) you've entered isn't aligned with the existing "
+"sequence number (%(sequence)s). Clear the sequence number to proceed.\n"
+"To maintain date-based sequences, select entries and use the resequence "
+"option from the actions menu, available in developer mode."
+msgstr ""
+"A megadott %(date_field)s (%(date)s) nem illeszkedik a meglévő sorszámhoz (%"
+"(sequence)s). Törölje a sorszámot a folytatáshoz.  \n"
+"A dátum alapú sorrend fenntartásához válassza ki a bejegyzéseket, és "
+"használja a sorszámozás opciót a műveletek menüből, amely elérhető "
+"fejlesztői módban."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -19560,8 +20687,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid ""
+<<<<<<< HEAD
 "The Early Payment Discount functionality can only be used with payment terms"
 " using a single 100% line. "
+=======
+"The Early Payment Discount functionality can only be used with payment terms "
+"using a single 100% line. "
+>>>>>>> upstream/18.0
 msgstr ""
 "A korai kifizetési kedvezmény funkció csak olyan kifizetési feltételekkel "
 "használható, amelyek egyetlen 100%-os tételt használnak"
@@ -19633,8 +20765,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The Unit of Measure (UoM) '%(uom)s' you have selected for product "
 "'%(product)s', is incompatible with its category : %(category)s."
+=======
+"The Unit of Measure (UoM) '%(uom)s' you have selected for product '%"
+"(product)s', is incompatible with its category : %(category)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -19647,8 +20784,12 @@ msgstr "A %(name)s (%(code)s) fiók elavult."
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid "The account code can only contain alphanumeric characters and dots."
+<<<<<<< HEAD
 msgstr ""
 "A fiók kódja csak alfanumerikus karaktereket és pontokat tartalmazhat."
+=======
+msgstr "A fiók kódja csak alfanumerikus karaktereket és pontokat tartalmazhat."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -19690,8 +20831,13 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__amount_currency
 #: model:ir.model.fields,help:account.field_account_move_line__amount_currency
 msgid ""
+<<<<<<< HEAD
 "The amount expressed in an optional other currency if it is a multi-currency"
 " entry."
+=======
+"The amount expressed in an optional other currency if it is a multi-currency "
+"entry."
+>>>>>>> upstream/18.0
 msgstr ""
 "Szabadon választott más pénznemben kifejezett összeg, ha a tétel több "
 "pénznembeli devizás."
@@ -19699,21 +20845,37 @@ msgstr ""
 #. module: account
 #: model:ir.model.constraint,message:account.constraint_account_move_line_check_amount_currency_balance_sign
 msgid ""
+<<<<<<< HEAD
 "The amount expressed in the secondary currency must be positive when account"
 " is debited and negative when account is credited. If the currency is the "
+=======
+"The amount expressed in the secondary currency must be positive when account "
+"is debited and negative when account is credited. If the currency is the "
+>>>>>>> upstream/18.0
 "same as the one from the company, this amount must strictly be equal to the "
 "balance."
 msgstr ""
 "A másodlagos pénznemben kifejezett összegnek pozitívnak kell lennie, amikor "
+<<<<<<< HEAD
 "a számla terhelve van, és negatívnak, amikor a számla jóváírásra kerül. Ha a"
 " pénznem megegyezik a cég pénznemével, akkor ennek az összegnek szigorúan "
 "meg kell egyeznie a egyenleggel"
+=======
+"a számla terhelve van, és negatívnak, amikor a számla jóváírásra kerül. Ha a "
+"pénznem megegyezik a cég pénznemével, akkor ennek az összegnek szigorúan meg "
+"kell egyeznie a egyenleggel"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "The amount for %(partner_name)s appears unusual. Based on your historical data, the expected amount is %(mean)s (± %(wiggle)s).\n"
+=======
+"The amount for %(partner_name)s appears unusual. Based on your historical "
+"data, the expected amount is %(mean)s (± %(wiggle)s).\n"
+>>>>>>> upstream/18.0
 "Please verify if this amount is accurate."
 msgstr ""
 "A %(partner_name)s összeg szokatlannak tűnik. A történeti adatai alapján a "
@@ -19753,6 +20915,7 @@ msgstr "A bank egyeztetéshez használt bankkivonat"
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "The billing frequency for %(partner_name)s appears unusual. Based on your historical data, the expected next invoice date is not before %(expected_date)s (every %(mean)s (± %(wiggle)s) days).\n"
 "Please verify if this date is accurate."
 msgstr ""
@@ -19760,6 +20923,17 @@ msgstr ""
 "adatai alapján a várható következő számla dátuma nem lehet korábban, mint "
 "%(expected_date)s (minden %(mean)s (± %(wiggle)s) nap). Kérjük, ellenőrizze,"
 " hogy ez a dátum pontos-e."
+=======
+"The billing frequency for %(partner_name)s appears unusual. Based on your "
+"historical data, the expected next invoice date is not before %"
+"(expected_date)s (every %(mean)s (± %(wiggle)s) days).\n"
+"Please verify if this date is accurate."
+msgstr ""
+"A %(partner_name)s számlázási gyakorisága szokatlannak tűnik. A történeti "
+"adatai alapján a várható következő számla dátuma nem lehet korábban, mint %"
+"(expected_date)s (minden %(mean)s (± %(wiggle)s) nap). Kérjük, ellenőrizze, "
+"hogy ez a dátum pontos-e."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__tax_cash_basis_created_move_ids
@@ -19779,9 +20953,15 @@ msgid ""
 "order to be valid, any derogation must be expressly agreed to in advance in "
 "writing."
 msgstr ""
+<<<<<<< HEAD
 "A kliens kifejezetten lemond a saját általános szerződési feltételeiről, még"
 " akkor is, ha ezek a standard értékesítési feltételek után készültek. Ahhoz,"
 " hogy érvényes legyen, bármilyen eltérésnek előre, írásban kifejezetten meg "
+=======
+"A kliens kifejezetten lemond a saját általános szerződési feltételeiről, még "
+"akkor is, ha ezek a standard értékesítési feltételek után készültek. Ahhoz, "
+"hogy érvényes legyen, bármilyen eltérésnek előre, írásban kifejezetten meg "
+>>>>>>> upstream/18.0
 "kell egyeznie."
 
 #. module: account
@@ -19850,7 +21030,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19984,6 +21167,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20077,8 +21263,13 @@ msgstr "A cég, amelyhez ez a terjesztési vonal tartozik"
 #. odoo-python
 #: code:addons/account/models/partner.py:0
 msgid ""
+<<<<<<< HEAD
 "The country code of the foreign VAT number does not match any country in the"
 " group."
+=======
+"The country code of the foreign VAT number does not match any country in the "
+"group."
+>>>>>>> upstream/18.0
 msgstr ""
 "A külföldi ÁFA szám országkódja nem egyezik meg a csoportban szereplő "
 "országok egyikével sem"
@@ -20097,8 +21288,13 @@ msgstr "Az ország, amelyre ez az adó vonatkozik"
 #. odoo-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
+<<<<<<< HEAD
 "The country set on the foreign VAT fiscal position must match the one set on"
 " the report."
+=======
+"The country set on the foreign VAT fiscal position must match the one set on "
+"the report."
+>>>>>>> upstream/18.0
 msgstr ""
 "A külföldi áfa fiskális pozícióban beállított országnak meg kell egyeznie a "
 "jelentésben beállítottal"
@@ -20111,6 +21307,15 @@ msgid "The country to use the tax reports from for this company"
 msgstr "Az ország, ahonnan a cég számára a adójelentéseket használni kell"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "The currency rate must be strictly positive."
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_journal__currency_id
 msgid "The currency used to enter statement"
 msgstr "Számlakivonat tételek rögzítésének pénzneme"
@@ -20124,12 +21329,21 @@ msgstr "A jelenlegi legmagasabb szám"
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "The current total is %(current_total)s but the expected total is "
 "%(expected_total)s. In order to post the invoice/bill, you can adjust its "
 "lines or the expected Total (tax inc.)."
 msgstr ""
 "A jelenlegi összeg %(current_total)s, de a várt összeg %(expected_total)s. A"
 " számla/bill közzétételéhez módosíthatja a sorait vagy a várt összeget "
+=======
+"The current total is %(current_total)s but the expected total is %"
+"(expected_total)s. In order to post the invoice/bill, you can adjust its "
+"lines or the expected Total (tax inc.)."
+msgstr ""
+"A jelenlegi összeg %(current_total)s, de a várt összeg %(expected_total)s. A "
+"számla/bill közzétételéhez módosíthatja a sorait vagy a várt összeget "
+>>>>>>> upstream/18.0
 "(adóval együtt)"
 
 #. module: account
@@ -20169,8 +21383,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_lock_exception__sale_lock_date
 msgid ""
+<<<<<<< HEAD
 "The date the Sale Lock Date is set to by this exception. If the lock date is"
 " not changed it is set to the maximal date."
+=======
+"The date the Sale Lock Date is set to by this exception. If the lock date is "
+"not changed it is set to the maximal date."
+>>>>>>> upstream/18.0
 msgstr ""
 "A dátum, amelyet a Sale Lock Date a kivétel által beállít. Ha a zárdátumot "
 "nem változtatják meg, akkor a maximális dátumra van beállítva"
@@ -20230,8 +21449,13 @@ msgid ""
 "expense (Cost of Goods Sold account) is recognized at the customer invoice "
 "validation."
 msgstr ""
+<<<<<<< HEAD
 "A költséget akkor számolják el, amikor egy beszállítói számla érvényesítésre"
 " kerül, kivéve az angolszász könyvelés esetét, ahol a folyamatos "
+=======
+"A költséget akkor számolják el, amikor egy beszállítói számla érvényesítésre "
+"kerül, kivéve az angolszász könyvelés esetét, ahol a folyamatos "
+>>>>>>> upstream/18.0
 "készletértékelés van, ebben az esetben a költség (Eladott áruk költsége "
 "számla) a vevői számla érvényesítésekor kerül elismerésre"
 
@@ -20300,7 +21524,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20345,6 +21572,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20393,11 +21623,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "The foreign currency set on the journal '%(journal)s' and the account "
 "'%(account)s' must be the same."
 msgstr ""
 "A '%(journal)s' naplóban és a '%(account)s' számlán beállított devizanak meg"
 " kell egyeznie."
+=======
+"The foreign currency set on the journal '%(journal)s' and the account '%"
+"(account)s' must be the same."
+msgstr ""
+"A '%(journal)s' naplóban és a '%(account)s' számlán beállított devizanak meg "
+"kell egyeznie."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report_external_value__foreign_vat_fiscal_position_id
@@ -20408,7 +21646,12 @@ msgstr "A külföldi fiskális helyzet, amelyhez ez a külső érték készült"
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid ""
 "The hash chain is compliant: it is not possible to alter the\n"
+<<<<<<< HEAD
 "                                            data without breaking the hash chain for subsequent parts."
+=======
+"                                            data without breaking the hash "
+"chain for subsequent parts."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -20416,8 +21659,12 @@ msgstr ""
 #: code:addons/account/models/account_journal.py:0
 msgid "The holder of a journal's bank account must be the company (%s)."
 msgstr ""
+<<<<<<< HEAD
 "A főkönyvi napló bankszámla tulajdonosának a vállalkozásnak kell lennie "
 "(%s)."
+=======
+"A főkönyvi napló bankszámla tulajdonosának a vállalkozásnak kell lennie (%s)."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -20442,8 +21689,15 @@ msgstr "A számla nem tervezet, nem lett frissítve a mellékletből."
 #. odoo-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The journal entry %s reached an invalid state regarding its related statement line.\n"
 "To be consistent, the journal entry must always have exactly one journal item involving the bank/cash account."
+=======
+"The journal entry %s reached an invalid state regarding its related "
+"statement line.\n"
+"To be consistent, the journal entry must always have exactly one journal "
+"item involving the bank/cash account."
+>>>>>>> upstream/18.0
 msgstr ""
 "A naplóbejegyzés %s érvénytelen állapotba került a kapcsolódó nyilatkozati "
 "sorral kapcsolatban. A következetesség érdekében a naplóbejegyzésnek mindig "
@@ -20483,8 +21737,12 @@ msgstr "A naplóelem nincs összekapcsolva a megfelelő pénzügyi számlával"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__fiscalyear_last_day
 #: model:ir.model.fields,help:account.field_account_financial_year_op__fiscalyear_last_month
+<<<<<<< HEAD
 msgid ""
 "The last day of the month will be used if the chosen day doesn't exist."
+=======
+msgid "The last day of the month will be used if the chosen day doesn't exist."
+>>>>>>> upstream/18.0
 msgstr ""
 "A hónap utolsó napját fogják használni, ha a választott nap nem létezik"
 
@@ -20497,7 +21755,12 @@ msgstr "A kezdő és a záró kódelőtag hossza azonos kell, hogy legyen"
 #: model:ir.model.fields,help:account.field_account_reconcile_model__partner_mapping_line_ids
 msgid ""
 "The mapping uses regular expressions.\n"
+<<<<<<< HEAD
 "- To Match the text at the beginning of the line (in label or notes), simply fill in your text.\n"
+=======
+"- To Match the text at the beginning of the line (in label or notes), simply "
+"fill in your text.\n"
+>>>>>>> upstream/18.0
 "- To Match the text anywhere (in label or notes), put your text between .*\n"
 "  e.g: .*N°48748 abc123.*"
 msgstr ""
@@ -20522,9 +21785,15 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The operation is refused as it would impact an already issued tax statement."
 " Please change the journal entry date or the following lock dates to "
 "proceed: %(lock_date_info)s."
+=======
+"The operation is refused as it would impact an already issued tax statement. "
+"Please change the journal entry date or the following lock dates to proceed: "
+"%(lock_date_info)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -20545,9 +21814,15 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_repartition_line__sequence
 msgid ""
+<<<<<<< HEAD
 "The order in which distribution lines are displayed and matched. For refunds"
 " to work properly, invoice distribution lines should be arranged in the same"
 " order as the credit note distribution lines they correspond to."
+=======
+"The order in which distribution lines are displayed and matched. For refunds "
+"to work properly, invoice distribution lines should be arranged in the same "
+"order as the credit note distribution lines they correspond to."
+>>>>>>> upstream/18.0
 msgstr ""
 "A disztribúciós sorok megjelenítési és párosítási sorrendje. A "
 "visszatérítések megfelelő működéséhez a számla disztribúciós sorait "
@@ -20602,8 +21877,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_partner_category_ids
 msgid ""
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected "
 "customer/vendor categories."
+=======
+"The reconciliation model will only be applied to the selected customer/"
+"vendor categories."
+>>>>>>> upstream/18.0
 msgstr ""
 "A kiegyenlítési modellt csak a kiválasztott ügyfél/szállító kategóriákra "
 "fogják alkalmazni"
@@ -20611,8 +21891,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_partner_ids
 msgid ""
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected "
 "customers/vendors."
+=======
+"The reconciliation model will only be applied to the selected customers/"
+"vendors."
+>>>>>>> upstream/18.0
 msgstr ""
 "A kiegyenlítési modellt csak a kiválasztott ügyfelekre/szállítókra fogják "
 "alkalmazni"
@@ -20620,7 +21905,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_nature
 msgid ""
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected transaction type:\n"
+=======
+"The reconciliation model will only be applied to the selected transaction "
+"type:\n"
+>>>>>>> upstream/18.0
 "        * Amount Received: Only applied when receiving an amount.\n"
 "        * Amount Paid: Only applied when paying an amount.\n"
 "        * Amount Paid/Received: Applied in both cases."
@@ -20647,7 +21937,12 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_label
 msgid ""
 "The reconciliation model will only be applied when the label:\n"
+<<<<<<< HEAD
 "        * Contains: The proposition label must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition label must contains this string (case "
+"insensitive).\n"
+>>>>>>> upstream/18.0
 "        * Not Contains: Negation of \"Contains\".\n"
 "        * Match Regex: Define your own regular expression."
 msgstr ""
@@ -20656,7 +21951,12 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_note
 msgid ""
 "The reconciliation model will only be applied when the note:\n"
+<<<<<<< HEAD
 "        * Contains: The proposition note must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition note must contains this string (case "
+"insensitive).\n"
+>>>>>>> upstream/18.0
 "        * Not Contains: Negation of \"Contains\".\n"
 "        * Match Regex: Define your own regular expression."
 msgstr ""
@@ -20665,7 +21965,12 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_transaction_type
 msgid ""
 "The reconciliation model will only be applied when the transaction type:\n"
+<<<<<<< HEAD
 "        * Contains: The proposition transaction type must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition transaction type must contains this "
+"string (case insensitive).\n"
+>>>>>>> upstream/18.0
 "        * Not Contains: Negation of \"Contains\".\n"
 "        * Match Regex: Define your own regular expression."
 msgstr ""
@@ -20746,19 +22051,33 @@ msgstr "A kiválasztott dátum"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_automatic_entry_wizard_form
 msgid ""
+<<<<<<< HEAD
 "The selected destination account is set to use a specific currency. Every entry transferred to it will be converted into this currency, causing\n"
 "                        the loss of any pre-existing foreign currency amount."
 msgstr ""
 "A kiválasztott cél számla be van állítva, hogy egy adott valutát használjon."
 " Minden átutalt tétel erre a valutára lesz átváltva, ami a meglévő külföldi "
+=======
+"The selected destination account is set to use a specific currency. Every "
+"entry transferred to it will be converted into this currency, causing\n"
+"                        the loss of any pre-existing foreign currency amount."
+msgstr ""
+"A kiválasztott cél számla be van állítva, hogy egy adott valutát használjon. "
+"Minden átutalt tétel erre a valutára lesz átváltva, ami a meglévő külföldi "
+>>>>>>> upstream/18.0
 "valuta összeg elvesztését okozza"
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_payment.py:0
 msgid ""
+<<<<<<< HEAD
 "The selected payment method is not available for this payment, please select"
 " the payment method again."
+=======
+"The selected payment method is not available for this payment, please select "
+"the payment method again."
+>>>>>>> upstream/18.0
 msgstr ""
 "A kiválasztott fizetési mód nem elérhető ehhez a tranzakcióhoz, kérjük, "
 "válassza ki újra a fizetési módot."
@@ -20767,8 +22086,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_send.py:0
 msgid ""
+<<<<<<< HEAD
 "The sending of invoices is not set up properly, make sure the report used is"
 " set for invoices."
+=======
+"The sending of invoices is not set up properly, make sure the report used is "
+"set for invoices."
+>>>>>>> upstream/18.0
 msgstr ""
 "A számlák küldése nincs megfelelően beállítva, győződjön meg arról, hogy a "
 "használt jelentés számlákra van beállítva"
@@ -20790,7 +22114,12 @@ msgstr "A szekvencia formátuma megváltozott"
 #. odoo-python
 #: code:addons/account/models/sequence_mixin.py:0
 msgid ""
+<<<<<<< HEAD
 "The sequence regex should at least contain the seq grouping keys. For instance:\n"
+=======
+"The sequence regex should at least contain the seq grouping keys. For "
+"instance:\n"
+>>>>>>> upstream/18.0
 "^(?P<prefix1>.*?)(?P<seq>\\d*)(?P<suffix>\\D*?)$"
 msgstr ""
 
@@ -20801,8 +22130,13 @@ msgid ""
 "The sequence will never restart.\n"
 "The incrementing number in this case is '%(formatted_seq)s'."
 msgstr ""
+<<<<<<< HEAD
 "A sorozat soha nem fog újraindulni. Az ebben az esetben növekvő szám "
 "'%(formatted_seq)s'."
+=======
+"A sorozat soha nem fog újraindulni. Az ebben az esetben növekvő szám '%"
+"(formatted_seq)s'."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -20842,9 +22176,15 @@ msgid ""
 "The year detected here is '%(year)s' and the month is '%(month)s'.\n"
 "The incrementing number in this case is '%(formatted_seq)s'."
 msgstr ""
+<<<<<<< HEAD
 "A sorozat minden hónap elején 1-től újraindul. Az itt észlelt év '%(year)s',"
 " a hónap pedig '%(month)s'. Az ebben az esetben növekvő szám "
 "'%(formatted_seq)s'"
+=======
+"A sorozat minden hónap elején 1-től újraindul. Az itt észlelt év '%(year)s', "
+"a hónap pedig '%(month)s'. Az ebben az esetben növekvő szám '%"
+"(formatted_seq)s'"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -20854,15 +22194,25 @@ msgid ""
 "The year detected here is '%(year)s'.\n"
 "The incrementing number in this case is '%(formatted_seq)s'."
 msgstr ""
+<<<<<<< HEAD
 "A sorozat minden év elején 1-től újraindul. Az itt észlelt év '%(year)s'. Az"
 " ebben az esetben növekvő szám '%(formatted_seq)s'."
+=======
+"A sorozat minden év elején 1-től újraindul. Az itt észlelt év '%(year)s'. Az "
+"ebben az esetben növekvő szám '%(formatted_seq)s'."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_resequence.py:0
 msgid ""
+<<<<<<< HEAD
 "The sequences of this journal are different for Invoices and Refunds but you"
 " selected some of both types."
+=======
+"The sequences of this journal are different for Invoices and Refunds but you "
+"selected some of both types."
+>>>>>>> upstream/18.0
 msgstr ""
 "A folyóirat sorozatai eltérőek a számlák és a visszatérítések esetében, de "
 "Ön mindkét típusból választott néhányat."
@@ -20929,8 +22279,12 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_cash_rounding__rounding_method
 msgid "The tie-breaking rule used for float rounding operations"
 msgstr ""
+<<<<<<< HEAD
 "A lebegő számok kerekítési műveleteihez használt döntetlenmegszüntető "
 "szabály"
+=======
+"A lebegő számok kerekítési műveleteihez használt döntetlenmegszüntető szabály"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -21003,8 +22357,13 @@ msgstr ""
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid ""
 "There are still unreconciled bank statement lines before the selected date. "
+<<<<<<< HEAD
 "The entries from journal prefixes containing them will not be secured: "
 "%(prefix_info)s"
+=======
+"The entries from journal prefixes containing them will not be secured: %"
+"(prefix_info)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -21033,8 +22392,12 @@ msgstr ""
 msgid ""
 "There is no journal entry flagged for accounting data inalterability yet."
 msgstr ""
+<<<<<<< HEAD
 "Még nincs naplóbejegyzés megjelölve a számviteli adatok "
 "változhatatlanságára."
+=======
+"Még nincs naplóbejegyzés megjelölve a számviteli adatok változhatatlanságára."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -21096,8 +22459,13 @@ msgstr "Tárgyév"
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "This account is configured in %(journal_names)s journal(s) (ids "
 "%(journal_ids)s) as payment debit or credit account. This means that this "
+=======
+"This account is configured in %(journal_names)s journal(s) (ids %"
+"(journal_ids)s) as payment debit or credit account. This means that this "
+>>>>>>> upstream/18.0
 "account's type should be reconcilable."
 msgstr ""
 "Ez a fiók a %(journal_names)s naplóban (azonosítók: %(journal_ids)s) van "
@@ -21145,22 +22513,40 @@ msgstr "Ez a művelet nem elérhető ehhez a dokumentumhoz."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "This allows accountants to manage analytic and crossovered budgets. Once the"
 " master budgets and the budgets are defined, the project managers can set "
 "the planned amount on each analytic account."
 msgstr ""
 "Ez lehetővé teszi a könyvelők számára, hogy kezeljék az analitikai és átfedő"
 " költségvetéseket. Miután a fő költségvetések és a költségvetések "
+=======
+"This allows accountants to manage analytic and crossovered budgets. Once the "
+"master budgets and the budgets are defined, the project managers can set the "
+"planned amount on each analytic account."
+msgstr ""
+"Ez lehetővé teszi a könyvelők számára, hogy kezeljék az analitikai és átfedő "
+"költségvetéseket. Miután a fő költségvetések és a költségvetések "
+>>>>>>> upstream/18.0
 "meghatározásra kerültek, a projektmenedzserek beállíthatják a tervezett "
 "összeget minden analitikai számlán."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_config_settings__module_account_batch_payment
 msgid ""
+<<<<<<< HEAD
 "This allows you grouping payments into a single batch and eases the reconciliation process.\n"
 "-This installs the account_batch_payment module."
 msgstr ""
 "Ez lehetővé teszi a kifizetések egyetlen tételbe való csoportosítását, és megkönnyíti a könyvelési folyamatot  \n"
+=======
+"This allows you grouping payments into a single batch and eases the "
+"reconciliation process.\n"
+"-This installs the account_batch_payment module."
+msgstr ""
+"Ez lehetővé teszi a kifizetések egyetlen tételbe való csoportosítását, és "
+"megkönnyíti a könyvelési folyamatot  \n"
+>>>>>>> upstream/18.0
 "-Ez telepíti a account_batch_payment modult"
 
 #. module: account
@@ -21200,8 +22586,13 @@ msgid ""
 "'filter_domain'.See '_search_name' and '_parse_name_search' for why this is "
 "not possible with 'filter_domain'."
 msgstr ""
+<<<<<<< HEAD
 "Ez a dummy mező lehetővé teszi, hogy egy másik keresési módszert használjunk"
 " a 'name' mezőn. Ez nagyobb szabadságot ad a 'name' keresésére a "
+=======
+"Ez a dummy mező lehetővé teszi, hogy egy másik keresési módszert használjunk "
+"a 'name' mezőn. Ez nagyobb szabadságot ad a 'name' keresésére a "
+>>>>>>> upstream/18.0
 "'filter_domain'-hoz képest. Lásd az '_search_name' és '_parse_name_search' "
 "funkciókat, hogy miért nem lehetséges ez a 'filter_domain'-nal."
 
@@ -21209,20 +22600,34 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "This entry contains one or more taxes that are incompatible with your fiscal"
 " country. Check company fiscal country in the settings and tax country in "
 "taxes configuration."
 msgstr ""
 "Ez a bejegyzés egy vagy több olyan adót tartalmaz, amely nem kompatibilis az"
 " Ön adózási országával. Ellenőrizze a cég adózási országát a beállításokban "
+=======
+"This entry contains one or more taxes that are incompatible with your fiscal "
+"country. Check company fiscal country in the settings and tax country in "
+"taxes configuration."
+msgstr ""
+"Ez a bejegyzés egy vagy több olyan adót tartalmaz, amely nem kompatibilis az "
+"Ön adózási országával. Ellenőrizze a cég adózási országát a beállításokban "
+>>>>>>> upstream/18.0
 "és az adó országát az adóbeállításokban"
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "This entry contains taxes that are not compatible with your fiscal position."
 " Check the country set in fiscal position and in your tax configuration."
+=======
+"This entry contains taxes that are not compatible with your fiscal position. "
+"Check the country set in fiscal position and in your tax configuration."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ez a bejegyzés olyan adókat tartalmaz, amelyek nem kompatibilisek az Ön "
 "pénzügyi helyzetével. Ellenőrizze a pénzügyi helyzetben beállított országot "
@@ -21387,7 +22792,12 @@ msgstr ""
 #: code:addons/account/models/product.py:0
 msgid ""
 "This product is already being used in posted Journal Entries.\n"
+<<<<<<< HEAD
 "If you want to change its Unit of Measure, please archive this product and create a new one."
+=======
+"If you want to change its Unit of Measure, please archive this product and "
+"create a new one."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ez a termék már használatban van a közzétett naplóbejegyzésekben. Ha meg "
 "szeretné változtatni az egységét, kérjük, archíválja ezt a terméket, és "
@@ -21435,8 +22845,13 @@ msgstr ""
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_validate_account_move
 msgid ""
+<<<<<<< HEAD
 "This wizard will validate all journal entries selected. Once journal entries"
 " are validated, you can not update them anymore."
+=======
+"This wizard will validate all journal entries selected. Once journal entries "
+"are validated, you can not update them anymore."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ez a varázsló a napló minden könyvelési tételét jóváhagyja. Miután "
 "jóváhagyásra kerültek, többé nem lesznek módosíthatóak."
@@ -21447,7 +22862,12 @@ msgid ""
 "Those can be used to quickly create a journal items when reconciling\n"
 "                a bank statement or an account."
 msgstr ""
+<<<<<<< HEAD
 "Ezeket a gyors napló tételek létrehozásához használhatja ha egy bank kivonatot\n"
+=======
+"Ezeket a gyors napló tételek létrehozásához használhatja ha egy bank "
+"kivonatot\n"
+>>>>>>> upstream/18.0
 "                vagy főkönyvi számlát egyeztet."
 
 #. module: account
@@ -21455,8 +22875,13 @@ msgstr ""
 msgid ""
 "Tick this checkbox if you want accounts to be grouped by name for merging."
 msgstr ""
+<<<<<<< HEAD
 "Jelölje be ezt a jelölőnégyzetet, ha azt szeretné, hogy a fiókok név szerint"
 " legyenek csoportosítva egyesítéshez."
+=======
+"Jelölje be ezt a jelölőnégyzetet, ha azt szeretné, hogy a fiókok név szerint "
+"legyenek csoportosítva egyesítéshez."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:digest.tip,name:account.digest_tip_account_0
@@ -21503,8 +22928,12 @@ msgstr "Jóváhagyásra vár"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.email_template_mail_gateway_failed
 msgid ""
+<<<<<<< HEAD
 "To add information to a previously sent invoice, reply to your \"sent\" "
 "email"
+=======
+"To add information to a previously sent invoice, reply to your \"sent\" email"
+>>>>>>> upstream/18.0
 msgstr ""
 "A korábban elküldött számlához információt hozzáadni, válaszoljon az "
 "\"elküldött\" e-mailjére"
@@ -21518,7 +22947,12 @@ msgstr "Ellenőrzéshez"
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "To keep the audit trail, you can not delete journal entries once they have been posted.\n"
+=======
+"To keep the audit trail, you can not delete journal entries once they have "
+"been posted.\n"
+>>>>>>> upstream/18.0
 "Instead, you can cancel the journal entry."
 msgstr ""
 "Az audit nyomvonal megőrzése érdekében a naplóbejegyzéseket nem lehet "
@@ -21534,8 +22968,13 @@ msgstr "Fizetni"
 #: code:addons/account/models/account_payment.py:0
 msgid ""
 "To record payments with %(method_name)s, the recipient bank account must be "
+<<<<<<< HEAD
 "manually validated. You should go on the partner bank account of %(partner)s"
 " in order to validate it."
+=======
+"manually validated. You should go on the partner bank account of %(partner)s "
+"in order to validate it."
+>>>>>>> upstream/18.0
 msgstr ""
 "A %(method_name)s használatával történő kifizetések rögzítéséhez a címzett "
 "banki számlát manuálisan kell érvényesíteni. A %(partner)s partner banki "
@@ -21546,8 +22985,13 @@ msgstr ""
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "To record payments with %(payment_method)s, the recipient bank account must "
+<<<<<<< HEAD
 "be manually validated. You should go on the partner bank account in order to"
 " validate it."
+=======
+"be manually validated. You should go on the partner bank account in order to "
+"validate it."
+>>>>>>> upstream/18.0
 msgstr ""
 "A %(payment_method)s használatával történő kifizetések rögzítéséhez a "
 "címzett banki számlát manuálisan kell érvényesíteni. A partner banki "
@@ -21661,8 +23105,12 @@ msgstr "Összes aláírt"
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "Total amount due (including sales orders and this document): "
 "%(total_credit)s"
+=======
+"Total amount due (including sales orders and this document): %(total_credit)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -21809,6 +23257,7 @@ msgstr "Belső utalás ide %s"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
 "Trigger alerts when creating Invoices and Sales Orders for Partners with a "
+<<<<<<< HEAD
 "Total Receivable amount exceeding a limit."
 "                                      Set a value greater than 0.0 to "
 "activate a credit limit check"
@@ -21816,6 +23265,15 @@ msgstr ""
 "Riasztások aktiválása számlák és értékesítési megrendelések létrehozásakor "
 "olyan partnerek számára, akiknek a követelés összegük meghaladja a határt."
 "                                      Állítson be egy 0,0-nál nagyobb "
+=======
+"Total Receivable amount exceeding a "
+"limit.                                      Set a value greater than 0.0 to "
+"activate a credit limit check"
+msgstr ""
+"Riasztások aktiválása számlák és értékesítési megrendelések létrehozásakor "
+"olyan partnerek számára, akiknek a követelés összegük meghaladja a "
+"határt.                                      Állítson be egy 0,0-nál nagyobb "
+>>>>>>> upstream/18.0
 "értéket a hitelkeret ellenőrzésének aktiválásához"
 
 #. module: account
@@ -22193,8 +23651,13 @@ msgstr "Használja a jelentés dátumán érvényes legfrissebb árfolyamot"
 #. module: account
 #: model_terms:digest.tip,tip_description:account.digest_tip_account_0
 msgid ""
+<<<<<<< HEAD
 "Use the “<i>Send by Post</i>” option to post invoices automatically. For the"
 " cost of a local stamp, we do all the manual work: your invoice will be "
+=======
+"Use the “<i>Send by Post</i>” option to post invoices automatically. For the "
+"cost of a local stamp, we do all the manual work: your invoice will be "
+>>>>>>> upstream/18.0
 "printed in the right country, put in an envelop and sent by snail mail. Use "
 "this feature from the list view to post hundreds of invoices in bulk."
 msgstr ""
@@ -22204,7 +23667,12 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_move__quick_edit_total_amount
 msgid ""
 "Use this field to encode the total amount of the invoice.\n"
+<<<<<<< HEAD
 "Odoo will automatically create one invoice line with default values to match it."
+=======
+"Odoo will automatically create one invoice line with default values to match "
+"it."
+>>>>>>> upstream/18.0
 msgstr ""
 "Használja ezt a mezőt a számla teljes összegének kódolására. Az Odoo "
 "automatikusan létrehoz egy számlasort alapértelmezett értékekkel, hogy "
@@ -22246,8 +23714,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__profit_account_id
 msgid ""
+<<<<<<< HEAD
 "Used to register a profit when the ending balance of a cash register differs"
 " from what the system computes"
+=======
+"Used to register a profit when the ending balance of a cash register differs "
+"from what the system computes"
+>>>>>>> upstream/18.0
 msgstr ""
 "Nyereség rögzítésére használja, ha a záró egyenleg a kasszánál eltér a "
 "rendszer által számítottól"
@@ -22369,8 +23842,15 @@ msgstr "Érték"
 msgid ""
 "Value for the amount of the writeoff line\n"
 "    * Percentage: Percentage of the balance, between 0 and 100.\n"
+<<<<<<< HEAD
 "    * Fixed: The fixed value of the writeoff. The amount will count as a debit if it is negative, as a credit if it is positive.\n"
 "    * From Label: There is no need for regex delimiter, only the regex is needed. For instance if you want to extract the amount from\n"
+=======
+"    * Fixed: The fixed value of the writeoff. The amount will count as a "
+"debit if it is negative, as a credit if it is positive.\n"
+"    * From Label: There is no need for regex delimiter, only the regex is "
+"needed. For instance if you want to extract the amount from\n"
+>>>>>>> upstream/18.0
 "R:9672938 10/07 AX 9415126318 T:5L:NA BRT: 3358,07 C:\n"
 "You could enter\n"
 "BRT: ([\\d,]+)"
@@ -22560,15 +24040,27 @@ msgid ""
 "We can't leave this document without any company. Please select a company "
 "for this document."
 msgstr ""
+<<<<<<< HEAD
 "Nem hagyhatjuk el ezt a dokumentumot cég nélkül. Kérjük, válasszon egy céget"
 " ehhez a dokumentumhoz."
+=======
+"Nem hagyhatjuk el ezt a dokumentumot cég nélkül. Kérjük, válasszon egy céget "
+"ehhez a dokumentumhoz."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/company.py:0
 msgid ""
+<<<<<<< HEAD
 "We cannot find a chart of accounts for this company, you should configure it. \n"
 "Please go to Account Configuration and select or install a fiscal localization."
+=======
+"We cannot find a chart of accounts for this company, you should configure "
+"it. \n"
+"Please go to Account Configuration and select or install a fiscal "
+"localization."
+>>>>>>> upstream/18.0
 msgstr ""
 "Nem találunk számlatükröt ehhez a céghez, be kell állítania. Kérjük, menjen "
 "az Számla konfigurációhoz, és válasszon vagy telepítsen egy pénzügyi "
@@ -22619,8 +24111,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report_line__print_on_new_page
 msgid ""
+<<<<<<< HEAD
 "When checked this line and everything after it will be printed on a new "
 "page."
+=======
+"When checked this line and everything after it will be printed on a new page."
+>>>>>>> upstream/18.0
 msgstr ""
 "Amikor be van jelölve, ez a sor és minden utána következő új oldalon lesz "
 "kinyomtatva"
@@ -22633,8 +24129,12 @@ msgstr "Ha be van jelölve, 0 érték nem fog megjelenni ebben az oszlopban"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report_expression__blank_if_zero
 msgid ""
+<<<<<<< HEAD
 "When checked, 0 values will not show when displaying this expression's "
 "value."
+=======
+"When checked, 0 values will not show when displaying this expression's value."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ha be van jelölve, 0 értékek nem fognak megjelenni ennek a kifejezésnek az "
 "értékének megjelenítésekor"
@@ -22655,8 +24155,13 @@ msgid ""
 "When the purchase receipt is confirmed, you can record the\n"
 "                vendor payment related to this purchase receipt."
 msgstr ""
+<<<<<<< HEAD
 "Ha egy beszerzési bizonylat leigazolt, akkor adatbázis bejegyzést rögzíthető"
 " a kereskedő kifizetéséről, mely összefügg ezzel a beszerzési bizonylattal."
+=======
+"Ha egy beszerzési bizonylat leigazolt, akkor adatbázis bejegyzést rögzíthető "
+"a kereskedő kifizetéséről, mely összefügg ezzel a beszerzési bizonylattal."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_out_receipt_type
@@ -22664,8 +24169,13 @@ msgid ""
 "When the sale receipt is confirmed, you can record the customer\n"
 "                payment related to this sales receipt."
 msgstr ""
+<<<<<<< HEAD
 "Ha az értékesítési bizonylat leigazolt, akkor adatbázis bejegyzést rögzíthet"
 " a vásárlói fizetésekről az ide vonatkozó értékesítési bizonylathoz."
+=======
+"Ha az értékesítési bizonylat leigazolt, akkor adatbázis bejegyzést rögzíthet "
+"a vásárlói fizetésekről az ide vonatkozó értékesítési bizonylathoz."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__show_on_dashboard
@@ -22798,7 +24308,10 @@ msgstr "Hibás hitel- vagy terhelési érték a könyvelési tételben!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22999,6 +24512,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23190,8 +24706,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 "You can only change the period/account for items that are not yet "
 "reconciled."
+=======
+"You can only change the period/account for items that are not yet reconciled."
+>>>>>>> upstream/18.0
 msgstr ""
 "Csak azokat az időszakokat/számlákat módosíthatja, amelyek még nincsenek "
 "egyeztetve."
@@ -23223,8 +24743,12 @@ msgstr "Csak a közzétett naplóbejegyzésekhez lehet regisztrálni a kifizeté
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+<<<<<<< HEAD
 msgid ""
 "You can only request a cancellation for invoice sent to the government."
+=======
+msgid "You can only request a cancellation for invoice sent to the government."
+>>>>>>> upstream/18.0
 msgstr "Csak a kormány részére küldött számla lemondását kérheti."
 
 #. module: account
@@ -23284,9 +24808,15 @@ msgid ""
 "account set either on the company or the %(payment_method)s payment method "
 "in the %(journal)s journal."
 msgstr ""
+<<<<<<< HEAD
 "Nem hozhat létre új kifizetést, ha nincs fennálló kifizetések/nyugták számla"
 " beállítva sem a cégnél, sem a %(payment_method)s kifizetési módszernél a "
 "%(journal)s naplóban"
+=======
+"Nem hozhat létre új kifizetést, ha nincs fennálló kifizetések/nyugták számla "
+"beállítva sem a cégnél, sem a %(payment_method)s kifizetési módszernél a %"
+"(journal)s naplóban"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -23301,6 +24831,7 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23369,6 +24900,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "You can't create payments for entries belonging to different branches "
 "without access to parent company."
@@ -23394,6 +24927,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23441,8 +24977,12 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
+<<<<<<< HEAD
 msgid ""
 "You can't create payments for entries belonging to different companies."
+=======
+msgid "You can't create payments for entries belonging to different companies."
+>>>>>>> upstream/18.0
 msgstr ""
 "Nem hozhat létre kifizetéseket különböző cégekhez tartozó bejegyzésekhez."
 
@@ -23473,8 +25013,13 @@ msgstr "Nem tudsz olyan számlákat generálni, amelyek nincsenek közzétéve."
 #. odoo-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't have two payment method lines of the same payment type "
 "(%(payment_type)s) and with the same name (%(name)s) on a single journal."
+=======
+"You can't have two payment method lines of the same payment type (%"
+"(payment_type)s) and with the same name (%(name)s) on a single journal."
+>>>>>>> upstream/18.0
 msgstr ""
 "Nem lehet két azonos típusú (%(payment_type)s) és azonos nevű (%(name)s) "
 "fizetési mód sor egyetlen naplóban."
@@ -23483,8 +25028,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't open the register payment wizard without at least one "
 "receivable/payable line."
+=======
+"You can't open the register payment wizard without at least one receivable/"
+"payable line."
+>>>>>>> upstream/18.0
 msgstr ""
 "Nem nyithatja meg a regisztrációs kifizetési varázslót legalább egy "
 "követelés/kötelezettség sor nélkül."
@@ -23493,8 +25043,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't provide a foreign currency without specifying an amount in 'Amount"
 " in Currency' field."
+=======
+"You can't provide a foreign currency without specifying an amount in 'Amount "
+"in Currency' field."
+>>>>>>> upstream/18.0
 msgstr ""
 "Nem adhat meg devizát anélkül, hogy megadná az összeget az 'Összeg "
 "devizában' mezőben."
@@ -23503,8 +25058,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't provide an amount in foreign currency without specifying a foreign"
 " currency."
+=======
+"You can't provide an amount in foreign currency without specifying a foreign "
+"currency."
+>>>>>>> upstream/18.0
 msgstr ""
 "Nem adhat meg összeget külföldi valutában anélkül, hogy megadná a külföldi "
 "valutát."
@@ -23543,8 +25103,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't unlink this company from this account since there are some journal"
 " items linked to it."
+=======
+"You can't unlink this company from this account since there are some journal "
+"items linked to it."
+>>>>>>> upstream/18.0
 msgstr ""
 "Nem tudod leválasztani ezt a céget erről a fiókról, mivel vannak hozzá "
 "kapcsolódó naplóelemek."
@@ -23569,8 +25134,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the type of an account set as Bank Account on a journal to"
 " Receivable or Payable."
+=======
+"You cannot change the type of an account set as Bank Account on a journal to "
+"Receivable or Payable."
+>>>>>>> upstream/18.0
 msgstr ""
 "Nem változtathatja meg a Bank Account típusú fiók típusát egy naplóban "
 "Követelésre vagy Kötelezettségre."
@@ -23602,8 +25172,13 @@ msgid ""
 "You cannot create a move already in the posted state. Please create a draft "
 "move and post it after."
 msgstr ""
+<<<<<<< HEAD
 "Nem hozhat létre olyan lépést, amely már a közzétett állapotban van. Kérjük,"
 " hozzon létre egy tervezet lépést, és azt követően tegye közzé."
+=======
+"Nem hozhat létre olyan lépést, amely már a közzétett állapotban van. Kérjük, "
+"hozzon létre egy tervezet lépést, és azt követően tegye közzé."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -23657,8 +25232,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/mail_template.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete this mail template, it is used in the invoice sending "
 "flow."
+=======
+"You cannot delete this mail template, it is used in the invoice sending flow."
+>>>>>>> upstream/18.0
 msgstr ""
 "Nem törölheti ezt a levél sablont, mert az a számla küldési folyamatban van "
 "használatban"
@@ -23670,8 +25249,13 @@ msgid ""
 "You cannot delete this report (%s), it is used by the accounting PDF "
 "generation engine."
 msgstr ""
+<<<<<<< HEAD
 "Nem törölheti ezt a jelentést (%s), mert azt a könyvelési PDF-generáló motor"
 " használja."
+=======
+"Nem törölheti ezt a jelentést (%s), mert azt a könyvelési PDF-generáló motor "
+"használja."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -23695,7 +25279,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot do this modification on a reconciled journal entry. You can just change some non legal fields or you must unreconcile first.\n"
+=======
+"You cannot do this modification on a reconciled journal entry. You can just "
+"change some non legal fields or you must unreconcile first.\n"
+>>>>>>> upstream/18.0
 "Journal Entry (id): %(entry)s (%(id)s)"
 msgstr ""
 
@@ -23723,8 +25312,13 @@ msgid ""
 "sequence."
 msgstr ""
 "Nem szerkesztheted egy számla mozgásának naplóját, ha azt egyszer már "
+<<<<<<< HEAD
 "közzétették, hacsak a nevet nem távolítják el vagy nem állítják \"/\"-ra. Ez"
 " hiányt okozhat a sorozatban"
+=======
+"közzétették, hacsak a nevet nem távolítják el vagy nem állítják \"/\"-ra. Ez "
+"hiányt okozhat a sorozatban"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -23734,8 +25328,13 @@ msgid ""
 "assigned, unless the name is removed or set to \"/\". This might create a "
 "gap in the sequence."
 msgstr ""
+<<<<<<< HEAD
 "Nem szerkesztheti egy olyan számla mozgás naplóját, amelyhez sorozatszám van"
 " rendelve, hacsak a nevet nem távolítják el vagy nem állítják \"/\"-ra. Ez "
+=======
+"Nem szerkesztheti egy olyan számla mozgás naplóját, amelyhez sorozatszám van "
+"rendelve, hacsak a nevet nem távolítják el vagy nem állítják \"/\"-ra. Ez "
+>>>>>>> upstream/18.0
 "rés keletkezését okozhatja a sorozatban"
 
 #. module: account
@@ -23814,8 +25413,12 @@ msgstr ""
 msgid ""
 "You cannot perform this action on an account that contains journal items."
 msgstr ""
+<<<<<<< HEAD
 "Nem végezheti el ezt a műveletet olyan fiókon, amely naplóelemeket "
 "tartalmaz."
+=======
+"Nem végezheti el ezt a műveletet olyan fiókon, amely naplóelemeket tartalmaz."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -23950,7 +25553,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24085,6 +25691,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24222,8 +25831,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot use this account (%s) in this journal, check the section "
 "'Control-Access' under tab 'Advanced Settings' on the related journal."
+=======
+"You cannot use this account (%s) in this journal, check the section 'Control-"
+"Access' under tab 'Advanced Settings' on the related journal."
+>>>>>>> upstream/18.0
 msgstr ""
 "Nem használhatja ezt a fiókot (%s) ebben a naplóban, ellenőrizze a 'Control-"
 "Access' szakaszt az 'Advanced Settings' fül alatt a kapcsolódó naplóban"
@@ -24301,6 +25915,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -24334,6 +25949,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24540,8 +26157,13 @@ msgid ""
 "[(Total Receivable/Total Revenue) * number of days since the first invoice] "
 "for this customer"
 msgstr ""
+<<<<<<< HEAD
 "[(Összes követelés/Összes bevétel) * a napok száma az első számla óta] ennek"
 " az ügyfélnek"
+=======
+"[(Összes követelés/Összes bevétel) * a napok száma az első számla óta] ennek "
+"az ügyfélnek"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
@@ -24634,8 +26256,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
 "cannot under any circumstances, be required by the client to appear as a "
+<<<<<<< HEAD
 "third party in the context of any claim for damages filed against the client"
 " by an end consumer."
+=======
+"third party in the context of any claim for damages filed against the client "
+"by an end consumer."
+>>>>>>> upstream/18.0
 msgstr ""
 "a kliens által nem lehet semmilyen körülmények között harmadik félként "
 "megjelenni a kliens ellen egy végfelhasználó által benyújtott kártérítési "
@@ -24764,10 +26391,18 @@ msgstr "itt"
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "in"
 msgstr "hüvelyk"
+
+#. module: account
+>>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "in"
+msgstr "ebben"
 
 #. module: account
 >>>>>>> upstream/18.0
@@ -24811,10 +26446,19 @@ msgstr "ez egy kulcsfontosságú lépés. Átnézted mindent?"
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
 msgid ""
 "is a money transfer service and not a bank.\n"
+<<<<<<< HEAD
 "                            Double check if the account can be trusted by calling the vendor.<br/>"
 msgstr ""
 "ez egy pénzátutalási szolgáltatás, és nem bank. \n"
 "                            Ellenőrizze, hogy a fiók megbízható-e a szolgáltató felhívásával.<br/>"
+=======
+"                            Double check if the account can be trusted by "
+"calling the vendor.<br/>"
+msgstr ""
+"ez egy pénzátutalási szolgáltatás, és nem bank. \n"
+"                            Ellenőrizze, hogy a fiók megbízható-e a "
+"szolgáltató felhívásával.<br/>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
@@ -24844,12 +26488,21 @@ msgstr "az alábbiakban felsorolva ennek a szolgáltatónak."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
+<<<<<<< HEAD
 "must be notified of any claim by means of a letter sent by recorded delivery"
 " to its registered office within 8 days of the delivery of the goods or the "
 "provision of the services."
 msgstr ""
 "tájékoztatni kell minden követelésről egy, a bejegyzett székhelyére ajánlott"
 " levélben, a termékek kézbesítésétől vagy a szolgáltatások nyújtásától "
+=======
+"must be notified of any claim by means of a letter sent by recorded delivery "
+"to its registered office within 8 days of the delivery of the goods or the "
+"provision of the services."
+msgstr ""
+"tájékoztatni kell minden követelésről egy, a bejegyzett székhelyére ajánlott "
+"levélben, a termékek kézbesítésétől vagy a szolgáltatások nyújtásától "
+>>>>>>> upstream/18.0
 "számított 8 napon belül"
 
 #. module: account
@@ -24959,8 +26612,13 @@ msgid ""
 msgstr ""
 "vállalja, hogy a legjobb tudása szerint teljesítményorientált "
 "szolgáltatásokat nyújt a megállapodott határidőknek megfelelően. Azonban "
+<<<<<<< HEAD
 "egyik kötelezettsége sem tekinthető olyan kötelezettségnek, amely eredmények"
 " elérésére vonatkozik"
+=======
+"egyik kötelezettsége sem tekinthető olyan kötelezettségnek, amely eredmények "
+"elérésére vonatkozik"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
@@ -25035,8 +26693,22 @@ msgstr ""
 #. module: account
 #: model:mail.template,subject:account.mail_template_data_payment_receipt
 msgid ""
+<<<<<<< HEAD
 "{{ object.company_id.name }} Payment Receipt (Ref {{ object.name or 'n/a' "
 "}})"
 msgstr ""
 "{{ object.company_id.name }} Fizetési bizonylat (Hivatkozás {{ object.name "
 "or 'n/a' }})"
+=======
+"{{ object.company_id.name }} Payment Receipt (Ref {{ object.name or 'n/a' }})"
+msgstr ""
+"{{ object.company_id.name }} Fizetési bizonylat (Hivatkozás {{ object.name "
+"or 'n/a' }})"
+
+#~ msgid ""
+#~ "Groupby feature isn't supported by aggregation engine. Please remove the "
+#~ "groupby value on '%s'"
+#~ msgstr ""
+#~ "A csoportosítási funkciót nem támogatja az aggregáló motor. Kérjük, "
+#~ "távolítsa el a csoportosítási értéket a '%s'-ról"
+>>>>>>> upstream/18.0

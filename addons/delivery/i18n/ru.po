@@ -9,6 +9,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -32,7 +36,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Ilya Rozhkov, 2024\n"
+=======
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Anastasiia Koroleva, 2025\n"
 >>>>>>> upstream/18.0
@@ -65,6 +73,11 @@ msgid ""
 "%s\n"
 "Free Shipping"
 msgstr ""
+<<<<<<< HEAD
+=======
+"%s\n"
+"Бесплатная доставка"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #. odoo-python
@@ -120,7 +133,11 @@ msgstr ""
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.delivery_report_saleorder_document
 msgid "<strong>Shipping Description</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Информация о доставке</strong>"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__carrier_description
@@ -220,6 +237,11 @@ msgid ""
 "Carrier %s cannot have the same tag in both Must Have Tags and Excluded "
 "Tags."
 msgstr ""
+<<<<<<< HEAD
+=======
+"У перевозчика %s не может быть один и тот же тег и в «Обязательные теги», и "
+"в «Исключенные теги»."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__carrier_description
@@ -234,7 +256,11 @@ msgid "Choose a pick-up point"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выберите пункт самовывоза"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выберите пункт самовывоза"
 >>>>>>> upstream/18.0
@@ -257,7 +283,11 @@ msgid "Choose this location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выбрать эту локацию"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выбрать эту локацию"
 >>>>>>> upstream/18.0
@@ -314,7 +344,11 @@ msgstr "Страны"
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__create_uid
 #: model:ir.model.fields,field_description:delivery.field_delivery_zip_prefix__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__create_date
@@ -322,7 +356,11 @@ msgstr "Создано"
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__create_date
 #: model:ir.model.fields,field_description:delivery.field_delivery_zip_prefix__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__currency_id
@@ -516,6 +554,11 @@ msgid ""
 "Filling this form allows you to make the shipping method available according"
 " to the content of the order or its destination."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Заполнение этой формы позволяет сделать способ доставки доступным в "
+"зависимости от содержимого заказа или пункта назначения."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__fixed_margin
@@ -575,14 +618,22 @@ msgstr ""
 msgid ""
 "If the total volume of the order is over this volume, the method won't be "
 "available."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Если общий объем заказа превышает этот объем, метод будет недоступен."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__max_weight
 msgid ""
 "If the total weight of the order is over this weight, the method won't be "
 "available."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Если общий вес заказа превышает этот вес, метод будет недоступен."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
@@ -621,7 +672,11 @@ msgstr "Доставка"
 #: model:ir.model.fields,field_description:delivery.field_delivery_zip_prefix__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -633,7 +688,11 @@ msgstr "Последнее обновление:"
 #: model:ir.model.fields,field_description:delivery.field_delivery_zip_prefix__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -670,7 +729,11 @@ msgstr "Управление почтовыми префиксами доста�
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Map view"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Карта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Карта"
 >>>>>>> upstream/18.0
@@ -693,7 +756,11 @@ msgstr "Маржа по ставке"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__max_volume
 msgid "Max Volume"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Максимальный объем"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__max_weight
@@ -708,7 +775,11 @@ msgstr "Максимальное значение"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__must_have_tag_ids
 msgid "Must Have Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Обязательные теги"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__name
@@ -725,7 +796,11 @@ msgstr "Новые поставщики"
 #. odoo-python
 #: code:addons/delivery/models/sale_order.py:0
 msgid "No pick-up points are available for this delivery address."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нет доступных пунктов самовывоза для этого адреса доставки."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #. odoo-javascript
@@ -745,7 +820,11 @@ msgstr "Не доступно для текущего заказа"
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "Opening hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Часы работы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Часы работы"
 >>>>>>> upstream/18.0
@@ -763,7 +842,11 @@ msgstr "Заказ"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order__pickup_location_data
 msgid "Pickup Location Data"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Данные пункта самовывоза"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
@@ -952,6 +1035,11 @@ msgid ""
 "The method is NOT available if at least one product of the order has one of "
 "these tags."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Метод НЕ будет доступен, если хотя бы один товар в заказе имеет один из "
+"указанных тегов."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__must_have_tag_ids
@@ -959,6 +1047,11 @@ msgid ""
 "The method is available only if at least one product of the order has one of"
 " these tags."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Метод будет доступен только в том случае, если хотя бы один товар в заказе "
+"имеет один из указанных тегов."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__get_return_label_from_portal
@@ -989,7 +1082,11 @@ msgstr ""
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "There was an error loading the map"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ошибка загрузки карты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ошибка загрузки карты"
 >>>>>>> upstream/18.0
@@ -1016,6 +1113,11 @@ msgid ""
 "This option adds a link for the customer in the portal to track their "
 "package easily. Use <shipmenttrackingnumber> as a placeholder in your URL."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Эта опция добавляет клиенту ссылку в портале для отслеживания посылки. "
+"Используйте <shipmenttrackingnumber> как плейсхолдер в вашем URL."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__margin
@@ -1030,7 +1132,11 @@ msgstr "Общий вес заказа"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__tracking_url
 msgid "Tracking Link"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ссылка для отслеживания"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.choose_delivery_carrier_view_form
@@ -1116,7 +1222,11 @@ msgstr ""
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Your postal code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ваш индекс"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ваш индекс"
 >>>>>>> upstream/18.0
@@ -1140,3 +1250,7 @@ msgstr "нап. UPS Экспресс"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "i.e. https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"например, https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
+>>>>>>> upstream/18.0

@@ -63,6 +63,10 @@ def main():
 
     if command in commands:
         o = commands[command]()
+<<<<<<< HEAD
+=======
+        odoo.cli.COMMAND = command
+>>>>>>> upstream/18.0
         o.run(args)
     else:
         sys.exit('Unknown command %r' % (command,))

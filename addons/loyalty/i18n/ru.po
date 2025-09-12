@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* loyalty
 # 
 # Translators:
@@ -190,10 +191,20 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * loyalty
+#
+# Translators:
+# Wil Odoo, 2024
+# Anastasiia Koroleva, 2025
+#
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -551,6 +562,21 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-07-18 18:39+0000\n"
+"PO-Revision-Date: 2025-09-09 08:28+0000\n"
+"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
+"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/loyalty/"
+"ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__trigger
@@ -608,7 +634,11 @@ msgstr "%g%% on"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "%s on "
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s на "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -641,7 +671,11 @@ msgstr "(без учета налогов)"
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 msgid "-> View History"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "-> Посмотреть историю"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:loyalty.program,name:loyalty.10_percent_coupon
@@ -706,6 +740,62 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div style=\"background: #ffffff\">\n"
+"                <div style=\"margin:0px; font-size:24px; font-family:arial, "
+"'helvetica neue', helvetica, sans-serif; line-height:36px; color:#333333; "
+"text-align: center\">\n"
+"                    Ваш подарочный сертификат!\n"
+"                </div>\n"
+"                <div style=\"padding-top:20px; padding-bottom:20px\">\n"
+"                    <img src=\"/loyalty/static/img/gift_card.png\" style="
+"\"display:block; border:0; outline:none; text-decoration:none; margin:auto;\""
+" width=\"300\"/>\n"
+"                </div>\n"
+"                <div style=\"padding:0; margin:0px; padding-top:35px; "
+"padding-bottom:35px; text-align:center;\">\n"
+"                    <h3 style=\"margin:0px; line-height:48px; font-family:"
+"arial, 'helvetica neue', helvetica, sans-serif; font-size:40px; font-"
+"style:normal; font-weight:normal; color:#333333; text-align:center\">\n"
+"                        <strong t-out="
+"\"format_amount(object.points, object.currency_id) or ''\">150,00 "
+"$</strong></h3>\n"
+"                </div>\n"
+"                <div style=\"padding:0; margin:0px; padding-top:35px; "
+"padding-bottom:35px; background-color:#efefef; text-align:center;\">\n"
+"                    <p style=\"margin:0px; font-size:14px;font-family:arial, "
+"'helvetica neue', helvetica, sans-serif; line-height:21px; color:#333333\">\n"
+"                        <strong>Код подарочного сертификата</strong>\n"
+"                    </p>\n"
+"                    <p style=\"margin:0px; font-size:25px;font-family:arial, "
+"'helvetica neue', helvetica, sans-serif; line-height:38px; color:#A9A9A9\" "
+"t-out=\"object.code or ''\">4f10-15d6-41b7-b04c-7b3e</p>\n"
+"                </div>\n"
+"                <div t-if=\"object.expiration_date\" style=\"padding:0; "
+"margin:0px; padding-top:10px; padding-bottom:10px; text-align:center;\">\n"
+"                    <h3 style=\"margin:0px; line-height:17px; font-family:"
+"arial, 'helvetica neue', helvetica, sans-serif; font-size:14px; font-"
+"style:normal; font-weight:normal; color:#A9A9A9; text-align:center\">Срок "
+"действия сертификата истекает <t t-out="
+"\"format_date(object.expiration_date) or ''\">05/05/2021</t></h3>\n"
+"                </div>\n"
+"                <div style=\"padding:20px; margin:0px; text-align:center;\">"
+"\n"
+"                    <span style=\"background-color:#999999; display:inline-"
+"block; width:auto; border-radius:5px;\">\n"
+"                        <a t-attf-href=\"{{ object.get_base_url() }}/shop\" "
+"target=\"_blank\" style=\"text-decoration:none; font-family:arial, "
+"'helvetica neue', helvetica, sans-serif; font-size:22px; color:#FFFFFF; "
+"border-style:solid; border-color:#999999; border-width:20px 30px; display"
+":inline-block; background-color:#999999; border-radius:5px; font-weight:bold;"
+" font-style:normal; line-height:26px; width:auto; text-align:center\""
+">Воспользуйтесь сертификатом как можно скорее!</a>\n"
+"                    </span>\n"
+"                </div>\n"
+"            </div>\n"
+"        "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
@@ -801,7 +891,11 @@ msgstr ""
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.portal_loyalty_history_breadcrumbs
 msgid "<span>History</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>История</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -880,6 +974,68 @@ msgid ""
 "</tbody></table>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style="
+"\"width:100%; margin:0px auto; background:#ffffff; color:#333333;\"><tbody>\n"
+"<tr>\n"
+"    <td valign=\"top\" style=\"text-align: center; font-size: 14px;\">\n"
+"        <t t-if=\"object._get_mail_partner().name\">\n"
+"            Поздравляем, <t t-out=\"object._get_mail_partner().name or ''\""
+">Брэндон Фримен</t>!<br/>\n"
+"        </t>\n"
+"\n"
+"        Ваше бонусное вознаграждение от компании <t t-out="
+"\"object.program_id.company_id.name or ''\">YourCompany</t>.<br/>\n"
+"\n"
+"        <t t-foreach=\"object.program_id.reward_ids\" t-as=\"reward\">\n"
+"            <t t-if=\"reward.required_points &lt;= object.points\">\n"
+"                <span style=\"font-size: 50px; color: #875A7B; font-weight: "
+"bold;\" t-esc=\"reward.description\">Описание</span>\n"
+"                <br/>\n"
+"            </t>\n"
+"        </t>\n"
+"    </td>\n"
+"</tr>\n"
+"<tr style=\"margin-top: 16px\">\n"
+"    <td valign=\"top\" style=\"text-align: center; font-size: 14px;\">\n"
+"        Воспользуйтесь этим промокодом до\n"
+"        <t t-if=\"object.expiration_date\">\n"
+"            before <t t-out=\"object.expiration_date or ''\">2021-06-16</t>\n"
+"        </t>\n"
+"        <p style=\"margin-top: 16px;\">\n"
+"            <strong style=\"padding: 16px 8px 16px 8px; border-radius: 3px; "
+"background-color: #F1F1F1;\" t-out=\"object.code or ''\""
+">15637502648479132902</strong>\n"
+"        </p>\n"
+"        <t t-foreach=\"object.program_id.rule_ids\" t-as=\"rule\">\n"
+"            <t t-if=\"rule.minimum_qty not in [0, 1]\">\n"
+"                <span style=\"font-size: 14px;\">\n"
+"                    Действует при покупке от <t t-out="
+"\"rule.minimum_qty or ''\">10</t> товаров\n"
+"                </span><br/>\n"
+"            </t>\n"
+"            <t t-if=\"rule.minimum_amount != 0.00\">\n"
+"                <span style=\"font-size: 14px;\">\n"
+"                    Действителен при покупке на сумму свыше <t t-out="
+"\"rule.company_id.currency_id.symbol or ''\">$</t><t t-out="
+"\"'%0.2f' % float(rule.minimum_amount) or ''\">10,00</t>\n"
+"                </span><br/>\n"
+"            </t>\n"
+"        </t>\n"
+"        <br/>\n"
+"        Спасибо,\n"
+"        <t t-if=\"object._get_signature()\" data-o-mail-quote-container=\"1\""
+">\n"
+"            <br/>\n"
+"            <t t-out=\"object._get_signature() or ''\" data-o-mail-quote="
+"\"1\">--<br data-o-mail-quote=\"1\"/>Митчелл Админ</t>\n"
+"        </t>\n"
+"    </td>\n"
+"</tr>\n"
+"</tbody></table>\n"
+"        "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -901,13 +1057,21 @@ msgstr "В программе должно быть хотя бы одно во�
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_buttons
 msgid "A reward is waiting for you"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вас ждет вознаграждение"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "A reward product can't be of type \"combo\"."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вознаграждение не может быть товаром типа «комбо»."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -973,7 +1137,11 @@ msgstr "Среди"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "Among:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Среди:"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_generate_wizard__mode__anonymous
@@ -988,7 +1156,11 @@ msgstr "Приложение"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "Applied to:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Применено к:"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__applies_on
@@ -1253,7 +1425,11 @@ msgstr "Создать запись"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__create_uid
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__create_date
@@ -1265,7 +1441,11 @@ msgstr "Создано"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__create_date
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1489,7 +1669,11 @@ msgstr "Дата окончания"
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "Example: Gift for customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пример: Подарок для клиента"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__expiration_date
@@ -1500,7 +1684,11 @@ msgstr "Дата окончания"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_card.py:0
 msgid "Expiration date cannot be set on a loyalty card."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Срок действия не может быть установлен на бонусной карте."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1538,7 +1726,11 @@ msgstr "Для"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "For all customers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Для всех клиентов"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1617,6 +1809,7 @@ msgid "Generate eWallet"
 msgstr "Создайте электронный кошелек"
 
 #. module: loyalty
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1797,6 +1990,8 @@ msgstr "Сгенерировать {{props.context.program_item_name}}"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Get 10% off on some products, with a code"
@@ -1855,7 +2050,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_generate_wizard.py:0
 msgid "Gift For Customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Подарок для клиента"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.actions.act_window,name:loyalty.loyalty_program_gift_ewallet_action
@@ -1866,7 +2065,11 @@ msgstr "Подарочные карты и электронный кошелек
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_card_update_balance.py:0
 msgid "Gift for customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Подарок для клиента"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__points_granted
@@ -1907,12 +2110,20 @@ msgstr "История"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_form
 msgid "History Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Строки истории"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_history
 msgid "History for Loyalty cards and Ewallets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "История для бонусных карт и электронных кошельков"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__id
@@ -1986,7 +2197,11 @@ msgstr "Программа оплаты"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_history__issued
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
 msgid "Issued"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выдано"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__coupon_count_display
@@ -2003,7 +2218,11 @@ msgstr "Иван Иванов"
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 msgid "Last Transactions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Последние транзакции"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__write_uid
@@ -2016,7 +2235,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -2032,7 +2255,11 @@ msgstr "Последнее обновление:"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -2094,7 +2321,11 @@ msgstr "Правило лояльности"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
 msgid "Loyalty Transaction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Операция с баллами"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -2157,13 +2388,21 @@ msgstr "Мультипродукт"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card_update_balance__new_balance
 msgid "New Balance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Новый баланс"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_card_update_balance.py:0
 msgid "New Balance should be positive and different then old balance."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Новый баланс должен быть положительным и отличаться от старого."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -2228,7 +2467,11 @@ msgstr "Заказ"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_history__order_model
 msgid "Order Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Модель заказа"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__partner_id
@@ -2278,6 +2521,10 @@ msgid "Portal Visible"
 msgstr "Портал Видимый"
 
 #. module: loyalty
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:loyalty.model_product_pricelist
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__pricelist_ids
 msgid "Pricelist"
 msgstr "Прайс-лист"
@@ -2556,7 +2803,11 @@ msgid "Taxes to add on the discount line."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Налоги, которые нужно добавить к строке скидки."
+>>>>>>> upstream/18.0
 =======
 msgstr "Налоги, которые нужно добавить к строке скидки."
 >>>>>>> upstream/18.0
@@ -2648,7 +2899,11 @@ msgstr ""
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
 msgid "There are currently no transaction lines for this card."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "В настоящее время для этой карты нет строк транзакций."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_card_action
@@ -2671,6 +2926,19 @@ msgstr ""
 
 #. module: loyalty
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/loyalty/models/product_pricelist.py:0
+msgid ""
+"This pricelist may not be archived. It is being used for active promotion "
+"programs: %s"
+msgstr ""
+"Этот прайс-лист не может быть архивирован. Он используется для текущих акций:"
+" %s"
+
+#. module: loyalty
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/loyalty/models/product_product.py:0
 msgid ""
 "This product may not be archived. It is being used for an active promotion "
@@ -2682,7 +2950,11 @@ msgstr ""
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__pricelist_ids
 msgid "This program is specific to this pricelist set."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Эта акция привязана к этому набору прайс-листов."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:product.template,name:loyalty.ewallet_product_50_product_template
@@ -2700,6 +2972,7 @@ msgid "Trigger"
 msgstr "Триггер"
 
 #. module: loyalty
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3029,16 +3302,32 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/loyalty/models/loyalty_reward.py:0
+msgid "Unsupported search operator"
+msgstr "Недопустимый оператор поиска"
+
+#. module: loyalty
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_card.py:0
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
 msgid "Update Balance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Обновить баланс"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_card_update_balance
 msgid "Update Loyalty Card Points"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Обновить баллы на бонусной карте"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__use_count
@@ -3083,7 +3372,11 @@ msgstr "Действует до"
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 msgid "Valid until"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Действителен до"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__website_message_ids
@@ -3152,7 +3445,11 @@ msgstr "С промокодом"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
 msgid "You are about to change the balance of the card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вы собираетесь изменить баланс карты"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -3178,6 +3475,11 @@ msgid ""
 "You're about to generate %(program_type)s with a value of %(value)s for "
 "%(customer_number)i customers"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Вы собираетесь сгенерировать %(program_type)s со значением %(value)s для "
+"клиентов %(customer_number)i"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:mail.template,subject:loyalty.mail_template_gift_card
@@ -3253,7 +3555,11 @@ msgstr "вознаграждение за лояльность"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "on the cheapest product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "на самый дешевый товар"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -3263,7 +3569,11 @@ msgstr "на ваш следующий заказ"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "on your order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "на ваш заказ"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -3297,12 +3607,20 @@ msgstr "потрачено"
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_rule__minimum_amount_tax_mode__excl
 msgid "tax excluded"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "без учета налога"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_rule__minimum_amount_tax_mode__incl
 msgid "tax included"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "с учетом налога"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -3313,7 +3631,11 @@ msgstr "самый дешевый товар"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "the value of the coupon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "номинал купона"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -3326,6 +3648,7 @@ msgid "usages"
 msgstr "использования"
 
 #. module: loyalty
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3586,10 +3909,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
+msgid "used)"
+msgstr "использовано)"
+
+#. module: loyalty
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "your order"
 msgstr "ваш заказ"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3654,6 +3985,8 @@ msgstr "ваш заказ"
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "{{loyalty_el_title}}"
 msgstr "{{loyalty_el_title}}"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

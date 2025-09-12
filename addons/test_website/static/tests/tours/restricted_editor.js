@@ -147,3 +147,17 @@ registerWebsitePreviewTour('test_restricted_editor_test_admin', {
     },
     ...clickOnSave(),
 ]);
+<<<<<<< HEAD
+=======
+
+registerWebsitePreviewTour('test_restricted_editor_tester', {
+    url: '/test_model/1',
+}, () => [
+    ...clickOnEditAndWaitEditMode(),
+    {
+        content: "Footer should not be be editable for restricted user",
+        trigger: ":iframe :has(.o_editable) footer:not(.o_editable):not(:has(.o_editable))",
+    },
+    ...clickOnSave(),
+]);
+>>>>>>> upstream/18.0

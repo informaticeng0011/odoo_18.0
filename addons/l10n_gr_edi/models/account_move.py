@@ -31,12 +31,20 @@ class AccountMove(models.Model):
     _inherit = 'account.move'
 
     l10n_gr_edi_mark = fields.Char(
+<<<<<<< HEAD
         string='MyDATA Mark',
+=======
+        string='Mark',
+>>>>>>> upstream/18.0
         compute='_compute_from_l10n_gr_edi_document_ids',
         store=True,
     )
     l10n_gr_edi_cls_mark = fields.Char(
+<<<<<<< HEAD
         string='MyDATA Classification Mark',
+=======
+        string='Classification Mark',
+>>>>>>> upstream/18.0
         compute='_compute_from_l10n_gr_edi_document_ids',
         store=True,
     )
@@ -52,7 +60,11 @@ class AccountMove(models.Model):
             ('bill_fetched', "Expense classification ready to send"),
             ('bill_sent', "Expense classification sent"),
         ],
+<<<<<<< HEAD
         string='MyDATA Status',
+=======
+        string='myDATA Status',
+>>>>>>> upstream/18.0
         compute='_compute_from_l10n_gr_edi_document_ids',
         store=True,
         tracking=True,
@@ -60,18 +72,30 @@ class AccountMove(models.Model):
     l10n_gr_edi_available_inv_type = fields.Char(compute='_compute_l10n_gr_edi_available_inv_type')
     l10n_gr_edi_correlation_id = fields.Many2one(
         comodel_name='account.move',
+<<<<<<< HEAD
         string='MyDATA Correlated Invoice',
     )
     l10n_gr_edi_inv_type = fields.Selection(
         selection=INVOICE_TYPES_SELECTION,
         string='MyDATA Invoice Type',
+=======
+        string='Correlated Invoice',
+    )
+    l10n_gr_edi_inv_type = fields.Selection(
+        selection=INVOICE_TYPES_SELECTION,
+        string='myDATA Invoice Type',
+>>>>>>> upstream/18.0
         compute='_compute_l10n_gr_edi_inv_type',
         store=True,
         readonly=False,
     )
     l10n_gr_edi_payment_method = fields.Selection(
         selection=PAYMENT_METHOD_SELECTION,
+<<<<<<< HEAD
         string='MyDATA Payment Method',
+=======
+        string='Payment Method',
+>>>>>>> upstream/18.0
         compute='_compute_l10n_gr_edi_payment_method',
         store=True,
     )
@@ -127,7 +151,11 @@ class AccountMove(models.Model):
     @api.depends('l10n_gr_edi_state')
     def _compute_show_reset_to_draft_button(self):
         # EXTENDS 'account'
+<<<<<<< HEAD
         """ Prevent user from resetting the move to draft if it's already sent to MyDATA """
+=======
+        """ Prevent user from resetting the move to draft if it's already sent to myDATA """
+>>>>>>> upstream/18.0
         super()._compute_show_reset_to_draft_button()
         for move in self:
             if move.l10n_gr_edi_state in ('invoice_sent', 'bill_sent'):
@@ -189,10 +217,17 @@ class AccountMove(models.Model):
     @api.depends('fiscal_position_id', 'l10n_gr_edi_available_inv_type')
     def _compute_l10n_gr_edi_inv_type(self):
         for move in self:
+<<<<<<< HEAD
             if move._l10n_gr_edi_eligible_for_mydata():
                 if move.l10n_gr_edi_inv_type or move.move_type == 'entry':
                     # If we have previously calculated the inv_type, reuse it here.
                     # For entry moves, we want the inv_type to be False. (we don't send anything to MyDATA on entry moves)
+=======
+            if move.country_code == 'GR':
+                if move.l10n_gr_edi_inv_type or move.move_type == 'entry':
+                    # If we have previously calculated the inv_type, reuse it here.
+                    # For entry moves, we want the inv_type to be False. (we don't send anything to myDATA on entry moves)
+>>>>>>> upstream/18.0
                     move.l10n_gr_edi_inv_type = move.l10n_gr_edi_inv_type
                 elif move.move_type in ('out_refund', 'in_refund'):
                     # inv_type specific for credit notes
@@ -285,7 +320,11 @@ class AccountMove(models.Model):
         return etree.tostring(element_or_tree=cleanup_xml_node(xml_content), encoding='ISO-8859-7', standalone='yes')
 
     def _l10n_gr_edi_eligible_for_mydata(self):
+<<<<<<< HEAD
         """Shorthand for getting the eligibility of the current move to send to MyDATA."""
+=======
+        """Shorthand for getting the eligibility of the current move to send to myDATA."""
+>>>>>>> upstream/18.0
         self.ensure_one()
         return all((
             self.country_code == 'GR',
@@ -357,7 +396,11 @@ class AccountMove(models.Model):
         conditional_address_keys = ('issuer_name', 'issuer_postal_code', 'issuer_city', 'counterpart_vat', 'counterpart_country',
                                     'counterpart_branch', 'counterpart_name', 'counterpart_postal_code', 'counterpart_city')
         values.update({
+<<<<<<< HEAD
             'issuer_vat_number': self.company_id.vat,
+=======
+            'issuer_vat_number': self.company_id.vat.replace('EL', '').replace('GR', ''),
+>>>>>>> upstream/18.0
             'issuer_country': self.company_id.country_code,
             'issuer_branch': self.company_id.l10n_gr_edi_branch_number or 0,
             **dict.fromkeys(conditional_address_keys),
@@ -372,7 +415,11 @@ class AccountMove(models.Model):
 
         if inv_type_allows_counterpart:
             values.update({
+<<<<<<< HEAD
                 'counterpart_vat': self.commercial_partner_id.vat,
+=======
+                'counterpart_vat': self.commercial_partner_id.vat.replace('EL', '').replace('GR', ''),
+>>>>>>> upstream/18.0
                 'counterpart_country': self.commercial_partner_id.country_code,
                 'counterpart_branch': (self.commercial_partner_id.l10n_gr_edi_branch_number or 0),
             })
@@ -588,22 +635,46 @@ class AccountMove(models.Model):
 
     def _l10n_gr_edi_get_pre_error_dict(self):
         """
+<<<<<<< HEAD
         Try to catch all possible errors before sending to MyDATA.
+=======
+        Try to catch all possible errors before sending to myDATA.
+>>>>>>> upstream/18.0
         Returns an error dictionary in the format of Actionable Error JSON.
         """
         self.ensure_one()
         errors = {}
         error_action_company = {'action_text': _("View Company"), 'action': self.company_id._get_records_action(name=_("Company"))}
         error_action_partner = {'action_text': _("View Partner"), 'action': self.commercial_partner_id._get_records_action(name=_("Partner"))}
+<<<<<<< HEAD
 
         if self.state != 'posted':
             errors['l10n_gr_edi_move_not_posted'] = {
                 'message': _("You can only send to MyDATA from a posted invoice."),
+=======
+        error_action_gr_settings = {
+            'action_text': _("View Settings"),
+            'action': {
+                'name': _("Settings"),
+                'type': 'ir.actions.act_url',
+                'target': 'self',
+                'url': '/odoo/settings#l10n_gr_edi_aade_settings',
+            },
+        }
+
+        if self.state != 'posted':
+            errors['l10n_gr_edi_move_not_posted'] = {
+                'message': _("You can only send to myDATA from a posted invoice."),
+>>>>>>> upstream/18.0
             }
         if not self.company_id.l10n_gr_edi_aade_id or not self.company_id.l10n_gr_edi_aade_key:
             errors['l10n_gr_edi_company_no_cred'] = {
                 'message': _("You need to set AADE ID and Key in the company settings."),
+<<<<<<< HEAD
                 **error_action_company,
+=======
+                **error_action_gr_settings,
+>>>>>>> upstream/18.0
             }
         if self.company_id.country_code != 'GR' and (not self.company_id.city or not self.company_id.zip):
             errors['l10n_gr_edi_company_no_zip_street'] = {
@@ -617,11 +688,19 @@ class AccountMove(models.Model):
             }
         if not self.l10n_gr_edi_inv_type:
             errors['l10n_gr_edi_no_inv_type'] = {
+<<<<<<< HEAD
                 'message': _("Missing MyDATA Invoice Type."),
             }
         if not self.commercial_partner_id:
             errors['l10n_gr_edi_no_partner'] = {
                 'message': _("Partner must be filled to be able to send to MyDATA."),
+=======
+                'message': _("Missing myDATA Invoice Type."),
+            }
+        if not self.commercial_partner_id:
+            errors['l10n_gr_edi_no_partner'] = {
+                'message': _("Partner must be filled to be able to send to myDATA."),
+>>>>>>> upstream/18.0
             }
         if self.commercial_partner_id:
             if not self.commercial_partner_id.vat:
@@ -643,23 +722,39 @@ class AccountMove(models.Model):
                 continue
             if move_disallow_classification and line.l10n_gr_edi_cls_category:
                 errors[f'l10n_gr_edi_{line_no}_forbidden_classification'] = {
+<<<<<<< HEAD
                     'message': _('MyDATA classification is not allowed on line %s.', line_no),
                 }
             if not line.l10n_gr_edi_cls_category and line.l10n_gr_edi_available_cls_category and not move_disallow_classification:
                 errors[f'l10n_gr_edi_line_{line_no}_missing_cls_category'] = {
                     'message': _('Missing MyDATA classification category on line %s.', line_no),
+=======
+                    'message': _('myDATA classification is not allowed on line %s.', line_no),
+                }
+            if not line.l10n_gr_edi_cls_category and line.l10n_gr_edi_available_cls_category and not move_disallow_classification:
+                errors[f'l10n_gr_edi_line_{line_no}_missing_cls_category'] = {
+                    'message': _('Missing myDATA classification category on line %s.', line_no),
+>>>>>>> upstream/18.0
                 }
             if not line.l10n_gr_edi_cls_type \
                     and line.l10n_gr_edi_available_cls_type \
                     and (line.move_id.l10n_gr_edi_inv_type, line.l10n_gr_edi_cls_category) \
                     not in COMBINATIONS_WITH_POSSIBLE_EMPTY_TYPE:
                 errors[f'l10n_gr_edi_line_{line_no}_missing_cls_type'] = {
+<<<<<<< HEAD
                     'message': _('Missing MyDATA classification type on line %s.', line_no),
+=======
+                    'message': _('Missing myDATA classification type on line %s.', line_no),
+>>>>>>> upstream/18.0
                 }
             taxes = line.tax_ids.flatten_taxes_hierarchy()
             if len(taxes) > 1:
                 errors[f'l10n_gr_edi_line_{line_no}_multi_tax'] = {
+<<<<<<< HEAD
                     'message': _('MyDATA does not support multiple taxes on line %s.', line_no),
+=======
+                    'message': _('myDATA does not support multiple taxes on line %s.', line_no),
+>>>>>>> upstream/18.0
                 }
             if not taxes and self.l10n_gr_edi_inv_type not in TYPES_WITH_VAT_CATEGORY_8:
                 errors[f'l10n_gr_edi_line_{line_no}_missing_tax'] = {
@@ -667,7 +762,11 @@ class AccountMove(models.Model):
                 }
             if len(taxes) == 1 and taxes.amount == 0 and not line.l10n_gr_edi_tax_exemption_category:
                 errors[f'l10n_gr_edi_line_{line_no}_missing_tax_exempt'] = {
+<<<<<<< HEAD
                     'message': _('Missing MyDATA Tax Exemption Category for line %s.', line_no),
+=======
+                    'message': _('Missing myDATA Tax Exemption Category for line %s.', line_no),
+>>>>>>> upstream/18.0
                 }
             if len(taxes) == 1 and taxes.amount not in VALID_TAX_AMOUNTS:
                 errors[f'l10n_gr_edi_line_{line_no}_invalid_tax_amount'] = {
@@ -703,7 +802,11 @@ class AccountMove(models.Model):
             # If the request failed at this stage, it is probably caused by connection/credentials issues.
             # In such case, we don't need to attach the xml here as it won't be helpful for the user.
             for move in move_ids:
+<<<<<<< HEAD
                 move._l10n_gr_edi_create_error_document(result['error'])
+=======
+                move._l10n_gr_edi_create_error_document(result)
+>>>>>>> upstream/18.0
         else:
             for result_id, result_dict in result.items():
                 move = move_ids[result_id]
@@ -712,7 +815,11 @@ class AccountMove(models.Model):
                 # Delete previous error documents
                 move.l10n_gr_edi_document_ids.filtered(lambda d: d.state in ('invoice_error', 'bill_error')).unlink()
                 if 'error' in result_dict:
+<<<<<<< HEAD
                     # In this stage, the sending process has succeeded, and any error we receive is generated from the MyDATA API.
+=======
+                    # In this stage, the sending process has succeeded, and any error we receive is generated from the myDATA API.
+>>>>>>> upstream/18.0
                     # Previous error(s) without attachments (generated from pre-compute) are now useless and can be unlinked.
                     move._l10n_gr_edi_create_error_document(document_values)
                 else:
@@ -722,7 +829,11 @@ class AccountMove(models.Model):
             self._cr.commit()
 
     def _l10n_gr_edi_send_invoices(self):
+<<<<<<< HEAD
         """ Send batches of invoice SendInvoice XML to MyDATA. """
+=======
+        """ Send batches of invoice SendInvoice XML to myDATA. """
+>>>>>>> upstream/18.0
         for company, invoices in self.grouped('company_id').items():
             xml_vals = invoices._l10n_gr_edi_get_invoices_xml_vals()
             xml_content = invoices._l10n_gr_edi_generate_xml_content('l10n_gr_edi.mydata_invoice', xml_vals)
@@ -730,7 +841,11 @@ class AccountMove(models.Model):
             self._l10n_gr_edi_handle_send_result(result, xml_vals)
 
     def _l10n_gr_edi_send_expense_classification(self):
+<<<<<<< HEAD
         """ Send batches of bill SendExpensesClassification XML to MyDATA. """
+=======
+        """ Send batches of bill SendExpensesClassification XML to myDATA. """
+>>>>>>> upstream/18.0
         for company, bills in self.grouped('company_id').items():
             xml_vals = bills._l10n_gr_edi_get_expense_classification_xml_vals()
             xml_content = bills._l10n_gr_edi_generate_xml_content('l10n_gr_edi.mydata_expense_classification', xml_vals)
@@ -771,8 +886,14 @@ class AccountMove(models.Model):
     def _l10n_gr_edi_try_send_batch(self):
         """ Only available for Vendor Bills. In case of invoices, user should use Send & Print instead. """
         if any(move.is_sale_document(include_receipts=True) for move in self):
+<<<<<<< HEAD
             raise UserError(_("You should use Send & Print wizard for sending customer invoices to MyDATA."))
         if any(not move.l10n_gr_edi_enable_send_expense_classification for move in self):
             raise UserError(_("Some of the selected moves does not meet the requirements to be sent to MyDATA."))
+=======
+            raise UserError(_("You should use Send & Print wizard for sending customer invoices to myDATA."))
+        if any(not move.l10n_gr_edi_enable_send_expense_classification for move in self):
+            raise UserError(_("Some of the selected moves does not meet the requirements to be sent to myDATA."))
+>>>>>>> upstream/18.0
 
         self.l10n_gr_edi_try_send_expense_classification()

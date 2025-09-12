@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,12 +30,20 @@ msgstr ""
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__purchase_num_invoiced
 msgid "# Invoiced in Purchase"
+<<<<<<< HEAD
 msgstr "N. fatturati in acquisti"
+=======
+msgstr "N. fatturati negli acquisti"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__sale_num_invoiced
 msgid "# Invoiced in Sale"
+<<<<<<< HEAD
 msgstr "N. fatturati in vendite"
+=======
+msgstr "N. fatturati nelle vendite"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_tree
@@ -93,7 +109,11 @@ msgstr "Nome visualizzato"
 #: model:ir.model.fields.selection,name:product_margin.selection__product_margin__invoice_state__draft_open_paid
 #: model:ir.model.fields.selection,name:product_margin.selection__product_product__invoice_state__draft_open_paid
 msgid "Draft, Open and Paid"
+<<<<<<< HEAD
 msgstr "«Bozza», «Aperta» e «Pagata»"
+=======
+msgstr "In bozza, aperta e pagata"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__expected_margin
@@ -103,7 +123,11 @@ msgstr "Margine atteso"
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__expected_margin_rate
 msgid "Expected Margin (%)"
+<<<<<<< HEAD
 msgstr "Margine previsto (%)"
+=======
+msgstr "Margine atteso (%)"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__sale_expected
@@ -113,7 +137,11 @@ msgstr "Vendita attesa"
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__expected_margin
 msgid "Expected Sale - Normal Cost"
+<<<<<<< HEAD
 msgstr "Vendita attesa - Costo standard"
+=======
+msgstr "Vendita attesa - Costo normale"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__sales_gap
@@ -159,12 +187,20 @@ msgstr "Ultimo aggiornamento il"
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__date_from
 msgid "Margin Date From"
+<<<<<<< HEAD
 msgstr "Margini Dalla Data"
+=======
+msgstr "Margine dalla data"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__date_to
 msgid "Margin Date To"
+<<<<<<< HEAD
 msgstr "Margini Alla Data"
+=======
+msgstr "Margine alla data"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_form
@@ -174,23 +210,39 @@ msgstr "Margini"
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__normal_cost
 msgid "Normal Cost"
+<<<<<<< HEAD
 msgstr "Costo standard"
+=======
+msgstr "Costo normale"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__purchase_gap
 msgid "Normal Cost - Total Cost"
+<<<<<<< HEAD
 msgstr "Costo standard - Costo totale"
+=======
+msgstr "Costo normale - Costo totale"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.product_margin_form_view
 msgid "Open Margins"
+<<<<<<< HEAD
 msgstr "Margini aperti"
+=======
+msgstr "Apri margini"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields.selection,name:product_margin.selection__product_margin__invoice_state__open_paid
 #: model:ir.model.fields.selection,name:product_margin.selection__product_product__invoice_state__open_paid
 msgid "Open and Paid"
+<<<<<<< HEAD
 msgstr "«Aperta» e «Pagata»"
+=======
+msgstr "Aperta e pagata"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields.selection,name:product_margin.selection__product_margin__invoice_state__paid
@@ -227,7 +279,11 @@ msgstr "Categorie proprietà"
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__purchase_gap
 msgid "Purchase Gap"
+<<<<<<< HEAD
 msgstr "Margine di acquisto"
+=======
+msgstr "Intervallo acquisti"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_form
@@ -254,22 +310,34 @@ msgstr "Prezzo standard"
 #: model:ir.model.fields,help:product_margin.field_product_product__normal_cost
 msgid "Sum of Multiplication of Cost price and quantity of Vendor Bills"
 msgstr ""
+<<<<<<< HEAD
 "Totale del prodotto del costo per la quantità nelle fatture di acquisto"
+=======
+"Somma del prodotto tra prezzo di costo e quantità delle fatture fornitore"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__turnover
 msgid ""
 "Sum of Multiplication of Invoice price and quantity of Customer Invoices"
 msgstr ""
+<<<<<<< HEAD
 "Somma del Prodotto del prezzo di Vendita Fattura e quantità delle Fatture "
 "Clienti"
+=======
+"Somma del prodotto tra prezzo in fattura e quantità delle fatture cliente"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__total_cost
 msgid "Sum of Multiplication of Invoice price and quantity of Vendor Bills "
 msgstr ""
+<<<<<<< HEAD
 "Totale del prodotto del prezzo in fattura per la quantità nelle fatture di "
 "acquisto"
+=======
+"Somma del prodotto tra prezzo in fattura e quantità delle fatture fornitore"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__sale_expected
@@ -277,18 +345,31 @@ msgid ""
 "Sum of Multiplication of Sale Catalog price and quantity of Customer "
 "Invoices"
 msgstr ""
+<<<<<<< HEAD
 "Somma del Prodotto del prezzo di Vendita da Catalogo e quantità delle "
 "Fatture Clienti"
+=======
+"Somma del prodotto tra prezzo di vendita da catalogo e quantità delle "
+"fatture cliente"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__sale_num_invoiced
 msgid "Sum of Quantity in Customer Invoices"
+<<<<<<< HEAD
 msgstr "Somma della quantità nelle fatture clienti"
+=======
+msgstr "Somma della quantità nelle fatture cliente"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__purchase_num_invoiced
 msgid "Sum of Quantity in Vendor Bills"
+<<<<<<< HEAD
 msgstr "Somma della quantità nelle fatture di acquisto"
+=======
+msgstr "Somma della quantità nelle fatture fornitore"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_margin__to_date
@@ -310,18 +391,30 @@ msgstr "Margine totale"
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__total_margin_rate
 msgid "Total Margin Rate(%)"
+<<<<<<< HEAD
 msgstr "Tasso Totale Margine(%)"
+=======
+msgstr "Tasso di margine totale(%)"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__total_margin_rate
 msgid "Total margin * 100 / Turnover"
+<<<<<<< HEAD
 msgstr "Margine totale * 100 / Fatturato"
+=======
+msgstr "Margine totale * 100 / Volume di affari"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__turnover
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_tree
 msgid "Turnover"
+<<<<<<< HEAD
 msgstr "Fatturato"
+=======
+msgstr "Volume di affari"
+>>>>>>> upstream/18.0
 
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__total_margin

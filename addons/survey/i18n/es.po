@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* survey
 # 
 # Translators:
@@ -266,11 +267,21 @@
 # Larissa Manderfeld, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * survey
+#
+# Translators:
+# Wil Odoo, 2025
+# Larissa Manderfeld, 2025
+#
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -487,16 +498,37 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-09-08 07:09+0000\n"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
+"Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/survey/"
+"es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__question_count
 msgid "# Questions"
+<<<<<<< HEAD
 msgstr "# Preguntas"
+=======
+msgstr "N.° de preguntas"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__random_questions_count
 msgid "# Questions Randomly Picked"
+<<<<<<< HEAD
 msgstr "# Preguntas seleccionadas al azar"
+=======
+msgstr "N.° de preguntas seleccionadas al azar"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_1_choice_4
@@ -715,6 +747,7 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
 "        <tbody>\n"
@@ -736,6 +769,39 @@ msgstr ""
 "                    .\n"
 "                </p>\n"
 "                <p>¡Enhorabuena por aprobar el cuestionario con una puntuación de <strong t-out=\"object.scoring_percentage\"/> %!</p>\n"
+=======
+"<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-"
+"family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
+"    <table style=\"width:600px;margin:5px auto;\">\n"
+"        <tbody>\n"
+"            <tr><td>\n"
+"                <!-- Usamos el logotipo de la compañía que realizó la "
+"encuesta (para gestionar casos de varias empresas) -->\n"
+"                <a href=\"/\"><img t-if="
+"\"not object.survey_id.create_uid.company_id.uses_default_logo\" t-attf-src="
+"\"/logo.png?company={{ object.survey_id.create_uid.company_id.id }}\" style"
+"=\"vertical-align:baseline;max-width:100px;\"/></a>\n"
+"            </td><td style=\"text-align:right;vertical-align:middle;\">\n"
+"                    Certificación: <t t-out="
+"\"object.survey_id.display_name or ''\">Formulario de comentarios</t>\n"
+"            </td></tr>\n"
+"        </tbody>\n"
+"    </table>\n"
+"    <table style="
+"\"width:600px;margin:0px auto;background:white;border:1px solid #e1e1e1;\">\n"
+"        <tbody>\n"
+"            <tr><td style=\"padding:15px 20px 10px 20px;\">\n"
+"                <p>Estimado/a <span t-out="
+"\"object.partner_id.name or 'participante'\">participante</span>:</p>\n"
+"                <p>\n"
+"                    Adjuntamos su certificación de\n"
+"                        <strong t-out=\"object.survey_id.display_name or ''\""
+">Creación de mobiliario</strong>\n"
+"                    .\n"
+"                </p>\n"
+"                <p>¡Enhorabuena por aprobar el cuestionario con una "
+"puntuación de <strong t-out=\"object.scoring_percentage\"/> %!</p>\n"
+>>>>>>> upstream/18.0
 "            </td></tr>\n"
 "        </tbody>\n"
 "    </table>\n"
@@ -779,6 +845,7 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 "        Estimado/a <t t-out=\"object.partner_id.name or 'participant'\">participante</t><br/><br/>\n"
 "        <t t-if=\"object.survey_id.certification\">\n"
 <<<<<<< HEAD
@@ -996,6 +1063,21 @@ msgstr ""
 "        </t>\n"
 "        <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+=======
+"        Estimado/a <t t-out=\"object.partner_id.name or 'participant'\""
+">participante</t>:<br/><br/>\n"
+"        <t t-if=\"object.survey_id.certification\">\n"
+"            Ha sido invitado a obtener una nueva certificación.\n"
+"        </t>\n"
+"        <t t-else=\"\">\n"
+"            Estamos realizando una encuesta y agradeceríamos su "
+"participación.\n"
+"        </t>\n"
+"        <div style=\"margin: 16px 0px 16px 0px;\">\n"
+"            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
+"color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
+"#fff; border-radius: 5px; font-size:13px;\">\n"
+>>>>>>> upstream/18.0
 "                <t t-if=\"object.survey_id.certification\">\n"
 "                    Iniciar certificación\n"
 "                </t>\n"
@@ -1005,7 +1087,12 @@ msgstr ""
 "            </a>\n"
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
+<<<<<<< HEAD
 "            Responda la encuesta antes del <t t-out=\"format_date(object.deadline) or ''\">05-05-2021</t>.<br><br>\n"
+=======
+"            Responda la encuesta antes del <t t-out="
+"\"format_date(object.deadline) or ''\">05-05-2021</t>.<br><br>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-if=\"object.survey_id.certification\">\n"
 "            ¡Buena suerte!\n"
@@ -1063,7 +1150,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Le agradecemos de antemano su participación.\n"
+=======
+"            Gracias de antemano por su participación.\n"
+>>>>>>> upstream/18.0
 =======
 "            Gracias de antemano por su participación.\n"
 >>>>>>> upstream/18.0
@@ -2420,7 +2511,11 @@ msgstr "Silla de conferencias"
 #: model_terms:web_tour.tour,rainbow_man_message:survey.survey_tour
 msgid "Congratulations! You are now ready to collect feedback like a pro :-)"
 msgstr ""
+<<<<<<< HEAD
 "¡Enhorabuena! Ya está listo para recibir retroalimentación como todo un "
+=======
+"¡Enhorabuena! Ya está listo para recibir comentarios como todo un "
+>>>>>>> upstream/18.0
 "profesional. :)"
 
 #. module: survey
@@ -2741,7 +2836,11 @@ msgstr "En desacuerdo"
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__display_name
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__progression_mode
@@ -2907,7 +3006,11 @@ msgstr "Fanta"
 #: code:addons/survey/models/survey_survey_template.py:0
 #: model:survey.survey,title:survey.survey_feedback
 msgid "Feedback Form"
+<<<<<<< HEAD
 msgstr "Formulario de retroalimentación"
+=======
+msgstr "Formulario de comentarios"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q5_row2
@@ -3000,7 +3103,11 @@ msgstr "Desafío de ludificación"
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_form
 msgid "Gather feedbacks from your employees and customers"
+<<<<<<< HEAD
 msgstr "Recopile retroalimentación de sus empleados y clientes"
+=======
+msgstr "Recopile comentarios de sus empleados y clientes"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p2
@@ -5585,7 +5692,11 @@ msgstr "Gracias por su participación, esperamos que la haya pasado bien."
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Thank you very much for your feedback. We highly value your opinion!"
+<<<<<<< HEAD
 msgstr "Muchas gracias por su retroalimentación. ¡Valoramos mucho su opinión!"
+=======
+msgstr "Muchas gracias por sus comentarios. ¡Valoramos mucho su opinión!"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
@@ -6660,7 +6771,11 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "e.g. \"Thank you very much for your feedback!\""
+<<<<<<< HEAD
 msgstr "p. ej. \"¡Le agradecemos su retroalimentación!\""
+=======
+msgstr "p. ej. \"¡Le agradecemos sus comentarios!\""
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form

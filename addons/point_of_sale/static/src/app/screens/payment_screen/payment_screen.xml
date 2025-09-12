@@ -67,6 +67,7 @@
     </t>
 
     <t t-name="point_of_sale.PaymentScreenValidate">
+<<<<<<< HEAD
         <t t-if="ui.isSmall">
             <button class="btn-switchpane validation-button btn btn-primary btn-lg flex-fill py-3 lh-lg"
                 t-att-class="{ secondary: !(currentOrder.is_paid() and currentOrder._isValidEmptyOrder()) }"
@@ -81,6 +82,17 @@
                 <span class="next_text">Validate</span>
             </button>
         </t>
+=======
+        <button class="validation-button next btn btn-primary btn-lg py-3 lh-lg"
+            t-on-click="() => this.validateOrder()"
+            t-attf-class="
+                {{ ui.isSmall ? 'btn-switchpane flex-fill' : 'button next w-50' }}
+                {{ currentOrder.is_paid() and currentOrder._isValidEmptyOrder() ? 'highlight' : 'disabled' }}
+            "
+        >
+            <span>Validate</span>
+        </button>
+>>>>>>> upstream/18.0
     </t>
 
     <t t-name="point_of_sale.PaymentScreenBack">

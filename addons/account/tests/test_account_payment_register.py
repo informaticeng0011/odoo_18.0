@@ -35,6 +35,7 @@ from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from itertools import product
 >>>>>>> upstream/18.0
@@ -127,6 +128,10 @@ from itertools import product
 >>>>>>> upstream/18.0
 =======
 from itertools import product
+>>>>>>> upstream/18.0
+=======
+from itertools import product
+from unittest.mock import patch
 >>>>>>> upstream/18.0
 
 from odoo import fields, Command
@@ -135,10 +140,18 @@ from odoo.tests import tagged, Form
 from odoo.tests.common import Like
 
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
+<<<<<<< HEAD
 
 
 @tagged('post_install', '-at_install')
 class TestAccountPaymentRegister(AccountTestInvoicingCommon):
+=======
+from odoo.addons.payment.tests.common import PaymentCommon
+
+
+@tagged('post_install', '-at_install')
+class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
+>>>>>>> upstream/18.0
 
     @classmethod
     def setUpClass(cls):
@@ -338,7 +351,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -435,6 +451,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -662,7 +681,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
         })._create_payments()
 
         self.assertRecordValues(payments, [{
+<<<<<<< HEAD
             'memo': Like(f'BATCH/{self.current_year}/...'),
+=======
+            'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
+>>>>>>> upstream/18.0
             'payment_method_line_id': self.outbound_payment_method_line.id,
         }])
         self.assertRecordValues(payments.move_id.line_ids.sorted('balance'), [
@@ -705,7 +728,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
         })._create_payments()
 
         self.assertRecordValues(payments, [{
+<<<<<<< HEAD
             'memo': Like(f'BATCH/{self.current_year}/...'),
+=======
+            'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
+>>>>>>> upstream/18.0
             'payment_method_line_id': self.outbound_payment_method_line.id,
         }])
         self.assertRecordValues(payments.move_id.line_ids.sorted('balance'), [
@@ -861,7 +888,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 
         self.assertRecordValues(payments, [
             {
+<<<<<<< HEAD
                 'memo': Like(f'BATCH/{self.current_year}/...'),
+=======
+                'memo': 'BILL/2017/01/0001, BILL/2017/01/0002, RBILL/2017/01/0001',
+>>>>>>> upstream/18.0
                 'payment_method_line_id': self.outbound_payment_method_line.id,
             },
         ])
@@ -982,7 +1013,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 
         self.assertRecordValues(payments, [
             {
+<<<<<<< HEAD
                 'memo': Like(f'BATCH/{self.current_year}/...'),
+=======
+                'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
+>>>>>>> upstream/18.0
                 'payment_method_line_id': self.outbound_payment_method_line.id,
             },
             {
@@ -1124,6 +1159,29 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
                 .with_context(active_model='account.move', active_ids=self.out_invoice_2.ids)\
                 .create({})
 
+<<<<<<< HEAD
+=======
+    def test_register_payment_doesnt_send_email(self):
+        ''' When registering a payment manually with a payment register,
+        we shouldn't sent email notification automatically.
+        '''
+        self.env['ir.config_parameter'].set_param('sale.automatic_invoice', True)
+        if self.env['ir.module.module']._get('payment_demo').state == 'installed':
+            payment_token = self._create_token(provider_id=self._prepare_provider(code='demo').id,
+                                               demo_simulated_state='done')
+        else:
+            payment_token = self._create_token()
+        payment_register = self.env['account.payment.register']\
+                               .with_context(active_model='account.move', active_ids=self.out_invoice_4.ids)\
+                               .create({'payment_token_id': payment_token.id})
+        with patch(
+            'odoo.addons.sale.models.payment_transaction.PaymentTransaction'
+            '._send_invoice'
+        ) as patched:
+            payment_register._create_payments()
+            patched.assert_not_called()
+
+>>>>>>> upstream/18.0
     def test_register_payment_multi_currency_rounding_issue_positive_delta(self):
         ''' When registering a payment using a different currency than the invoice one, the invoice must be fully paid
         at the end whatever the currency rate.
@@ -2053,7 +2111,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
             'installments_mode': 'next',
             'installments_switch_amount': 1333.33,
             'currency_id': self.company.currency_id.id,  # Different currencies, so we get the company's one
+<<<<<<< HEAD
             'communication': Like(f'BATCH/{self.current_year}/...'),
+=======
+>>>>>>> upstream/18.0
         }])
 
         wizard = self.env['account.payment.register'].with_context(
@@ -2090,7 +2151,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
             'payment_difference': 0.5,
             'installments_mode': 'next',
             'installments_switch_amount': 357.83,  # 24.5 for in_invoice_epd_applied + 1000 / 3 (rate) for the second
+<<<<<<< HEAD
             'communication': Like(f'BATCH/{self.current_year}/...'),
+=======
+>>>>>>> upstream/18.0
         }])
 
         # Clicking on the button to full gets the amount from js, so we need to put it by hand here
@@ -2104,7 +2168,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
             'payment_difference': 0.5,
             'installments_mode': 'full',
             'installments_switch_amount': 57.83,  # The previous 'next' amount
+<<<<<<< HEAD
             'communication': Like(f'BATCH/{self.current_year}/...'),
+=======
+>>>>>>> upstream/18.0
         }])
 
     def test_payment_register_with_next_payment_date(self):
@@ -2160,6 +2227,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_group_payment_method_with_branch(self):
         # create a new branch
         self.env.company.write({
@@ -2182,6 +2250,8 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
             self.partner_a.with_company(branch).write({
                 'property_account_receivable_id': receivable_account.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2306,6 +2376,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2371,6 +2444,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
             branch_invoices |= self.init_invoice('out_invoice', products=self.product_a, company=branch)
 
         parent_invoice = self.init_invoice('out_invoice', products=self.product_a)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2493,6 +2567,8 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2680,6 +2756,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2830,6 +2909,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

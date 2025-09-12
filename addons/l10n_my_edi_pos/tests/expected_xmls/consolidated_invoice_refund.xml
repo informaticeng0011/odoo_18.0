@@ -64,7 +64,11 @@
             <cac:PostalAddress>
                 <cbc:CityName>NA</cbc:CityName>
                 <cbc:CountrySubentity>Johor</cbc:CountrySubentity>
+<<<<<<< HEAD
                 <cbc:CountrySubentityCode>01</cbc:CountrySubentityCode>
+=======
+                <cbc:CountrySubentityCode>17</cbc:CountrySubentityCode>
+>>>>>>> upstream/18.0
                 <cac:AddressLine>
                     <cbc:Line>NA</cbc:Line>
                 </cac:AddressLine>
@@ -94,7 +98,11 @@
             <cac:PostalAddress>
                 <cbc:CityName>NA</cbc:CityName>
                 <cbc:CountrySubentity>Johor</cbc:CountrySubentity>
+<<<<<<< HEAD
                 <cbc:CountrySubentityCode>01</cbc:CountrySubentityCode>
+=======
+                <cbc:CountrySubentityCode>17</cbc:CountrySubentityCode>
+>>>>>>> upstream/18.0
                 <cac:AddressLine>
                     <cbc:Line>NA</cbc:Line>
                 </cac:AddressLine>
@@ -108,6 +116,12 @@
             </cac:PartyLegalEntity>
         </cac:DeliveryParty>
     </cac:Delivery>
+<<<<<<< HEAD
+=======
+    <cac:PrepaidPayment>
+		<cbc:PaidAmount currencyID="USD">420.00</cbc:PaidAmount>
+	</cac:PrepaidPayment>
+>>>>>>> upstream/18.0
     <cac:TaxExchangeRate>
         <cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
         <cbc:TargetCurrencyCode>MYR</cbc:TargetCurrencyCode>
@@ -132,7 +146,10 @@
         <cbc:LineExtensionAmount currencyID="USD">400.00</cbc:LineExtensionAmount>
         <cbc:TaxExclusiveAmount currencyID="USD">400.00</cbc:TaxExclusiveAmount>
         <cbc:TaxInclusiveAmount currencyID="USD">420.00</cbc:TaxInclusiveAmount>
+<<<<<<< HEAD
         <cbc:PrepaidAmount currencyID="USD">420.00</cbc:PrepaidAmount>
+=======
+>>>>>>> upstream/18.0
         <cbc:PayableAmount currencyID="USD">0.00</cbc:PayableAmount>
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>

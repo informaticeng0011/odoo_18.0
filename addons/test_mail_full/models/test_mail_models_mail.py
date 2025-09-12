@@ -72,7 +72,10 @@ class MailTestPortalNoPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -187,6 +190,9 @@ class MailTestPortalPublicAccessAction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -306,6 +312,13 @@ class MailTestRating(models.Model):
     def _rating_get_partner(self):
         return self.customer_id
 
+<<<<<<< HEAD
+=======
+    @api.model
+    def _allow_publish_rating_stats(self):
+        return True
+
+>>>>>>> upstream/18.0
 
 class MailTestRatingThread(models.Model):
     """A model inheriting from mail.thread with minimal fields for testing

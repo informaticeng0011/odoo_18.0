@@ -15,6 +15,25 @@ export function selectNthOrder(n) {
     ];
 }
 
+<<<<<<< HEAD
+=======
+export function settleSaleOrderByPrice(price) {
+    return [
+        ...ProductScreen.clickControlButton("Quotation/Order"),
+        {
+            content: `select sale order with price ${price}`,
+            trigger: `.modal:not(.o_inactive_modal) table.o_list_table tbody tr.o_data_row td:contains('${price}')`,
+            run: "click",
+        },
+        {
+            content: `Choose to settle the order`,
+            trigger: `.modal:not(.o_inactive_modal) .selection-item:contains('Settle the order')`,
+            run: "click",
+        },
+    ];
+}
+
+>>>>>>> upstream/18.0
 export function settleNthOrder(n, options = {}) {
     const { loadSN } = options;
     const step = [
@@ -62,12 +81,19 @@ export function checkOrdersListEmpty() {
 }
 
 export function selectedOrderLinesHasLots(productName, lots) {
+<<<<<<< HEAD
     const getSerialStep = (index, serialNumber) => {
         return {
             content: `check lot${index} is linked`,
             trigger: `.info-list li:contains(${serialNumber})`,
         };
     };
+=======
+    const getSerialStep = (index, serialNumber) => ({
+        content: `check lot${index} is linked`,
+        trigger: `.info-list li:contains(${serialNumber})`,
+    });
+>>>>>>> upstream/18.0
     const lotSteps = lots.reduce((acc, serial, i) => acc.concat(getSerialStep(i, serial)), []);
     return [...ProductScreen.selectedOrderlineHas(productName), ...lotSteps];
 }

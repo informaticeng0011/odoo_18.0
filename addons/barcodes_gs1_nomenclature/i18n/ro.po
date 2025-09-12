@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* barcodes_gs1_nomenclature
+<<<<<<< HEAD
 # 
 # Translators:
 # Lyall Kindmurr, 2024
@@ -46,10 +47,19 @@
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Lyall Kindmurr, 2024
+# Wil Odoo, 2024
+# Larisa_nexterp, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -99,6 +109,26 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+"Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+
+#. module: barcodes_gs1_nomenclature
+#. odoo-python
+#: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
+msgid ""
+"A GS1 barcode nomenclature pattern was matched. However, the barcode failed "
+"to be converted to a valid date: '%(error_message)'"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__gs1_content_type__alpha
@@ -121,8 +151,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Delimitator alternativ regex pentru FNC1. Delimitatorul nu trebuie să se "
 "potrivească la începutul / sfârșitul oricărui model de reguli asociat."
+=======
+"Delimitator regex alternativ pentru FNC1. Separatorul nu trebuie să se "
+"potrivească la începutul/sfârșitul niciunui model de reguli asociat."
+>>>>>>> upstream/18.0
 =======
 "Delimitator regex alternativ pentru FNC1. Separatorul nu trebuie să se "
 "potrivească la începutul/sfârșitul niciunui model de reguli asociat."
@@ -212,7 +247,11 @@ msgid "Encoding"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Codificare:"
+=======
+msgstr "Codificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codificare"
 >>>>>>> upstream/18.0
@@ -284,6 +323,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă este adevărat, utilizați ultima cifră a AI pentru a determina unde este"
 =======
 "Dacă este adevărat, folosește ultima cifră a AI pentru a determina unde este"
@@ -316,6 +356,10 @@ msgstr ""
 "Dacă este adevărat, folosește ultima cifră a AI pentru a determina unde este"
 >>>>>>> upstream/18.0
 " prima zecimală"
+=======
+"Dacă este adevărat, folosește ultima cifră a AI pentru a determina unde este "
+"prima zecimală"
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #. odoo-javascript
@@ -389,7 +433,11 @@ msgid "The FNC1 Separator Alternative is not a valid Regex: %(error)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Separatorul FNC1 alternativ nu este un Regex valid: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Separatorul FNC1 alternativ nu este un Regex valid: %(error)s"
 >>>>>>> upstream/18.0
@@ -440,12 +488,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tipul conținutului GS1 definește ce fel de date va procesa regulile codul de"
 " bare ca* Dată: codul de bare va fi convertit într-o dată Odoo;* Măsurare: "
 "valoarea codului de bare este legată de o anumită UM;* Identificator "
 "numeric: cod de bare cu lungime fixă care urmează un anumit codificare;* "
 "Nume alfanumeric: cod de bare cu lungime variabilă."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -478,6 +529,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -524,7 +578,11 @@ msgid "The rule pattern '%(rule)s' is not a valid Regex: %(error)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modelul regulii '%(rule)s' nu este un Regex valid: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modelul regulii '%(rule)s' nu este un Regex valid: %(error)s"
 >>>>>>> upstream/18.0
@@ -561,6 +619,7 @@ msgstr "Modelul regulii '%(rule)s' nu este un Regex valid: %(error)s"
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid ""
 "There is something wrong with the barcode rule \"%s\" pattern.\n"
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
@@ -617,6 +676,18 @@ msgstr ""
 "Dacă această regulă folosește zecimale, verificați să nu poată obține altceva decât o cifră ca ultim caracter pentru Identificatorul Aplicației.\n"
 "Verificați și ca valorile posibile să fie doar cifre, altfel valoarea nu poate fi convertită într-o măsură."
 >>>>>>> upstream/18.0
+=======
+"If this rule uses decimal, check it can't get sometime else than a digit as "
+"last char for the Application Identifier.\n"
+"Check also the possible matched values can only be digits, otherwise the "
+"value can't be casted as a measure."
+msgstr ""
+"Există ceva greșit cu modelul regulii \"%s\".\n"
+"Dacă această regulă folosește zecimale, verificați să nu poată obține "
+"altceva decât o cifră ca ultim caracter pentru Identificatorul Aplicației.\n"
+"Verificați și ca valorile posibile să fie doar cifre, altfel valoarea nu "
+"poate fi convertită într-o măsură."
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields,help:barcodes_gs1_nomenclature.field_barcode_nomenclature__is_gs1_nomenclature
@@ -625,6 +696,7 @@ msgid ""
 "This Nomenclature use the GS1 specification, only GS1-128 encoding rules is "
 "accepted is this kind of nomenclature."
 msgstr ""
+<<<<<<< HEAD
 "Această nomenclatură folosește specificația GS1, doar regulile de codificare"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -667,13 +739,21 @@ msgstr ""
 =======
 " GS1-128 sunt acceptate pentru acest tip de nomenclatură."
 >>>>>>> upstream/18.0
+=======
+"Această nomenclatură folosește specificația GS1, doar regulile de codificare "
+"GS1-128 sunt acceptate pentru acest tip de nomenclatură."
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #. odoo-javascript
 #: code:addons/barcodes_gs1_nomenclature/static/src/js/barcode_parser.js:0
 msgid "This barcode can't be parsed by any barcode rules."
+<<<<<<< HEAD
 msgstr ""
 "Acest cod de bare nu poate fi analizat de nicio regulă de cod de bare."
+=======
+msgstr "Acest cod de bare nu poate fi analizat de nicio regulă de cod de bare."
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #. odoo-javascript
@@ -697,7 +777,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Această regulă se va aplica numai dacă codul de bare este codificat cu "
+=======
+"Această regulă se va aplica doar dacă codul de bare este codificat cu "
+>>>>>>> upstream/18.0
 =======
 "Această regulă se va aplica doar dacă codul de bare este codificat cu "
 >>>>>>> upstream/18.0

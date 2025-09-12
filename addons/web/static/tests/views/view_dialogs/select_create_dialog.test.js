@@ -15,6 +15,10 @@ import {
     fields,
     getService,
     models,
+<<<<<<< HEAD
+=======
+    mockService,
+>>>>>>> upstream/18.0
     mountView,
     mountWithCleanup,
     onRpc,
@@ -101,6 +105,7 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(kwargs).toEqual(
             {
                 context: {
@@ -109,6 +114,10 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
                     tz: "taht",
                     uid: 7,
                 },
+=======
+        expect(kwargs).toMatchObject(
+            {
+>>>>>>> upstream/18.0
 =======
         expect(kwargs).toMatchObject(
             {
@@ -191,6 +200,7 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(kwargs).toEqual(
                 {
                     context: {
@@ -201,6 +211,10 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
                         tz: "taht",
                         uid: 7,
                     }, // not part of the test, may change
+=======
+            expect(kwargs).toMatchObject(
+                {
+>>>>>>> upstream/18.0
 =======
             expect(kwargs).toMatchObject(
                 {
@@ -279,6 +293,7 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(kwargs).toEqual(
                 {
                     context: {
@@ -289,6 +304,10 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
                         tz: "taht",
                         uid: 7,
                     }, // not part of the test, may change
+=======
+            expect(kwargs).toMatchObject(
+                {
+>>>>>>> upstream/18.0
 =======
             expect(kwargs).toMatchObject(
                 {
@@ -436,7 +455,10 @@ test("SelectCreateDialog list view in readonly", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search"] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -818,7 +840,10 @@ test("SelectCreateDialog empty list, default no content helper", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search"] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -955,7 +980,10 @@ test("SelectCreateDialog empty list, noContentHelp props", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search"] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1053,3 +1081,75 @@ test("SelectCreateDialog empty list, noContentHelp props", async () => {
         `<div class="o_nocontent_help"><p class="custom_classname">Hello</p><p>I'm an helper</p></div>`
     );
 });
+<<<<<<< HEAD
+=======
+
+test("SelectCreateDialog with open action", async () => {
+    Instrument._records = [];
+    for (let i = 0; i < 25; i++) {
+        Instrument._records.push({
+            id: i + 1,
+            name: "Instrument " + i,
+        });
+    }
+    mockService("action", {
+        doActionButton(params) {
+            const { name } = params;
+            expect.step(`execute_action: ${name}`, params);
+        },
+    });
+    Instrument._views["list"] = /* xml */ `
+        <list action="test_action" type="object">
+            <field name="name"/>
+        </list>
+    `;
+    await mountView({
+        type: "form",
+        resModel: "partner",
+        resId: 1,
+        arch: /* xml */ `
+            <form>
+                <field name="instrument"/>
+            </form>
+        `,
+    });
+    await contains(`.o_field_widget[name="instrument"] .dropdown input`).click();
+    await contains(`.o_field_widget[name="instrument"] .o_m2o_dropdown_option_search_more`).click();
+    await contains(
+        `.o_list_renderer .o_data_row .o_field_cell.o_list_char[data-tooltip="Instrument 10"]`
+    ).click();
+    expect("input").toHaveValue("Instrument 10");
+    expect.verifySteps([]);
+});
+
+test("SelectCreateDialog: enable select when grouped with domain selection", async () => {
+    Partner._views["list"] = `
+        <list string="Partner">
+            <field name="name"/>
+            <field name="foo"/>
+        </list>
+    `;
+    Partner._views["search"] = `
+        <search>
+            <group expand="0" string="Group By">
+                <filter name="groupby_bar" context="{'group_by' : 'bar'}"/>
+            </group>
+        </search>
+    `;
+
+    await mountWithCleanup(WebClient);
+    getService("dialog").add(SelectCreateDialog, {
+        noCreate: true,
+        resModel: "partner",
+        domain: [["name", "like", "a"]],
+        context: {
+            search_default_groupby_bar: true,
+        },
+    });
+    await animationFrame();
+    await contains("thead .o_list_record_selector input").click();
+
+    await animationFrame();
+    expect(".o_select_button:not([disabled])").toHaveCount(1);
+});
+>>>>>>> upstream/18.0

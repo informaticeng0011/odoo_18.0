@@ -10,6 +10,7 @@ import { insertText, setupEditor, testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 import { setSelection } from "../_helpers/selection";
 
+<<<<<<< HEAD
 function getProcessSelection(selection) {
     const { anchorNode, anchorOffset, focusNode, focusOffset } = selection;
     return [anchorNode, anchorOffset, focusNode, focusOffset];
@@ -305,6 +306,8 @@ describe("getTraversedNodes", () => {
     });
 });
 
+=======
+>>>>>>> upstream/18.0
 describe("ensureFocus", () => {
     // TODO @phoenix: unskipped when ensureFocus is add in the code base
     test.todo(
@@ -407,6 +410,7 @@ describe("ensureFocus", () => {
     );
 });
 
+<<<<<<< HEAD
 describe("setSelection", () => {
     describe("collapsed", () => {
         test("should collapse the cursor at the beginning of an element", async () => {
@@ -792,6 +796,8 @@ describe("setCursorEnd", () => {
     });
 });
 
+=======
+>>>>>>> upstream/18.0
 describe("getCursorDirection", () => {
     test("should identify a forward selection", async () => {
         await testEditor({
@@ -833,6 +839,7 @@ describe("getCursorDirection", () => {
     });
 });
 
+<<<<<<< HEAD
 describe("getSelectedNodes", () => {
     test("should return nothing if the range is collapsed", async () => {
         await testEditor({
@@ -907,6 +914,8 @@ describe("getSelectedNodes", () => {
     });
 });
 
+=======
+>>>>>>> upstream/18.0
 describe("getAdjacentCharacter", () => {
     test("should return the ZWS character before the cursor", async () => {
         const { editor, el } = await setupEditor("<p><span>abc</span>\u200b</p>");

@@ -247,6 +247,11 @@ class TestHttpSession(TestHttpBase):
 class TestSessionStore(HttpCaseWithUserDemo):
     def setUp(self):
         super().setUp()
+<<<<<<< HEAD
+=======
+        if os.getenv("ODOO_FAKETIME_TEST_MODE"):
+            self.skipTest("Those tests are not working in with faketime (filesystem times are used)")
+>>>>>>> upstream/18.0
         self.tmpdir = TemporaryDirectory()
         self.addCleanup(self.tmpdir.cleanup)
 

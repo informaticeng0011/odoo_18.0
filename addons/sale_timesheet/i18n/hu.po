@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Tamás Dombos, 2024
 # Tamás Németh <ntomasz81@gmail.com>, 2024
 <<<<<<< HEAD
@@ -411,6 +412,11 @@
 # Tamás Dombos, 2024
 # gezza <geza.nagy@oregional.hu>, 2025
 >>>>>>> upstream/18.0
+=======
+# Tamás Németh <ntomasz81@gmail.com>, 2024
+# Tamás Dombos, 2024
+# gezza <geza.nagy@oregional.hu>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -418,6 +424,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:04+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -771,6 +778,9 @@ msgstr ""
 =======
 "Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Hungarian (https://app.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -790,6 +800,16 @@ msgid ""
 "                </p>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"\n"
+"                <p class=\"o_view_nocontent_smiling_face\">\n"
+"                    Nem található tevékenység. Készítsen egyet!\n"
+"                </p><p>\n"
+"                    Kövesse nyomon a munkaóráit projektenként minden nap és számlázza ki az időt az ügyfeleinek.\n"
+"                </p>\n"
+"            "
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -806,6 +826,18 @@ msgid ""
 "                </p>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"\n"
+"                <p class=\"o_view_nocontent_smiling_face\">\n"
+"                    Rögzítsen időkimutatásokat\n"
+"                </p><p>\n"
+"                    Rögzítheti és nyomon kötvetheti a munkaóráit projektenként minden\n"
+"                    nap. Minden projekten eltöltött idő költséggé válik és kiszámlázható\n"
+"                    az ügyfeleknek, ha szükséges.\n"
+"                </p>\n"
+"            "
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -815,18 +847,31 @@ msgid ""
 "distribution of the sale order item '%(so_line_name)s' linked to the "
 "timesheet."
 msgstr ""
+<<<<<<< HEAD
+=======
+"'%(missing_plan_names)s' analitikus terv(ek) szükséges(ek) az időkimutatához"
+" kapcsolt '%(so_line_name)s' vevői rendelés tétel analitikus felosztásán."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_sale_page
 msgid "- Timesheet product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- Időkimutatás termék"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,job_details:sale_timesheet.job_engineer
 #: model_terms:hr.job,job_details:sale_timesheet.job_interior_designer
 #: model_terms:hr.job,job_details:sale_timesheet.job_labour
 msgid "1 Onsite Interview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 helyszíni interjú"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,job_details:sale_timesheet.job_engineer
@@ -847,24 +892,40 @@ msgstr "12 nap / év, amiből <br>6 nap választható."
 #: model_terms:hr.job,job_details:sale_timesheet.job_interior_designer
 #: model_terms:hr.job,job_details:sale_timesheet.job_labour
 msgid "2 open days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2 nyitott nap"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,job_details:sale_timesheet.job_engineer
 #: model_terms:hr.job,job_details:sale_timesheet.job_interior_designer
 #: model_terms:hr.job,job_details:sale_timesheet.job_labour
 msgid "4 Days after Interview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 nap az interjú után"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_form
 msgid "<b>Daily Cost: </b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Napi költség: </b>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_form
 msgid "<b>Unit Price: </b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Egységár: </b>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_form
@@ -875,6 +936,14 @@ msgid ""
 "                            To bill the same service at a different rate, create separate sales order items.\n"
 "                        </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-lightbulb-o\"/>\n"
+"                        <span>\n"
+"                            Adja meg a munkavállaló idejének számlázási egységárát a szaktudás, készségek, tapasztalatok, stb. alapján.\n"
+"                            Ha szeretné eltérő áron számlázni ugyanazt a szolgáltatást, akkor hozzon létre külön vevői rendelés tételeket.\n"
+"                        </span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -906,7 +975,11 @@ msgid "<small><b>READ</b></small>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<small><b>OLVAS</b></small>"
+=======
+msgstr "<small><b>OLVASÁS</b></small>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<small><b>OLVASÁS</b></small>"
 >>>>>>> upstream/18.0
@@ -1015,6 +1088,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning\" title=\"The sales "
+"order associated with this timesheet entry has been cancelled.\" "
+"invisible=\"sale_order_state != 'cancel'\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-exclamation-triangle text-warning\" title=\"The sales "
 "order associated with this timesheet entry has been cancelled.\" "
@@ -1169,7 +1248,11 @@ msgid "<span class=\"o_stat_text\">Invoice</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Számla</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Számla</span>"
 >>>>>>> upstream/18.0
@@ -1310,7 +1393,11 @@ msgid "<span class=\"o_stat_text\">Sales Order</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Vevői rendelés</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Vevői rendelés</span>"
 >>>>>>> upstream/18.0
@@ -1482,7 +1569,11 @@ msgstr "<span class=\"o_stat_text\">Vevői rendelés</span>"
 #: model_terms:hr.job,job_details:sale_timesheet.job_interior_designer
 #: model_terms:hr.job,job_details:sale_timesheet.job_labour
 msgid "<span class=\"text-muted small\">Days to get an Offer</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted small\">Napok száma ajánlatküldésig</span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,job_details:sale_timesheet.job_engineer
@@ -1501,12 +1592,20 @@ msgstr "<span class=\"text-muted small\">Válaszolási idő</span>"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_task_inherit
 msgid "<strong>Amount Due:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Esedékes összeg:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_task_inherit
 msgid "<strong>Invoiced:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Számlázott:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_task_inherit
@@ -1536,7 +1635,11 @@ msgid "<strong>Invoices:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Számlák:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Számlák:</strong>"
 >>>>>>> upstream/18.0
@@ -1641,7 +1744,11 @@ msgid "<strong>Sales Order:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Vevői rendelés:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Vevői rendelés:</strong>"
 >>>>>>> upstream/18.0
@@ -1721,7 +1828,11 @@ msgstr "<strong>Vevői rendelés:</strong>"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_timesheet_table_inherit
 msgid "<strong>Time Remaining on SO: </strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Vevői rendelés maradék idő: </strong>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_update_default_description
@@ -1751,7 +1862,11 @@ msgid "<u>Profitability</u>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<u>Nyereségesség</u>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<u>Nyereségesség</u>"
 >>>>>>> upstream/18.0
@@ -1844,6 +1959,7 @@ msgid ""
 "  - Timesheet: the quantity is the sum of hours recorded on tasks linked to this sale line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2184,6 +2300,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A termék konfigurációjától függően a szállított mennyiség az alábbi módokon számítható:\n"
 "  - Manuális: a mennyiség kézi megadása a soron\n"
 "  - Analitikus kiadás: a mennyiség a könyvelésre küldött kiadások összesítéséből számítódik\n"
@@ -2213,6 +2331,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2268,6 +2389,7 @@ msgstr ""
 #: model_terms:hr.job,website_description:sale_timesheet.job_interior_designer
 #: model_terms:hr.job,website_description:sale_timesheet.job_labour
 msgid "Achieve monthly sales objectives"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2369,6 +2491,9 @@ msgstr "Havi értékesítési célok elérése"
 =======
 msgstr "Havi értékesítési célok elérése"
 >>>>>>> upstream/18.0
+=======
+msgstr "Havi értékesítési célok elérése"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -2388,13 +2513,21 @@ msgstr "Adminisztrációs munka"
 #: model:account.analytic.account,name:sale_timesheet.account_analytic_account_project_support
 #: model:project.project,name:sale_timesheet.project_support
 msgid "After-Sales Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Értékesítés utáni szolgáltatások"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_project__allocated_hours
 msgid "Allocated Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kiosztott idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kiosztott idő"
 >>>>>>> upstream/18.0
@@ -2490,7 +2623,11 @@ msgid "Amount to invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számlázandó összeg"
+>>>>>>> upstream/18.0
 =======
 msgstr "Számlázandó összeg"
 >>>>>>> upstream/18.0
@@ -2762,6 +2899,11 @@ msgid ""
 "An employee cannot be selected more than once in the mapping. Please remove "
 "duplicate(s) and try again."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Egy munkavállaló nem szereplhet többször az összerendelésben. Kérjük "
+"távolítsa el a duplikációkat és próbálja újra."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_account_analytic_line
@@ -2788,6 +2930,18 @@ msgid ""
 "                        outside the box. We expect the candidate to be proactive and have a \"get it done\"\n"
 "                        spirit. To be successful, you will have solid solving problem skills."
 msgstr ""
+<<<<<<< HEAD
+=======
+"A vállalat munkavállalójaként <b>együtt fog dolgozni minden részleggel, \n"
+"                        hogy együttes erővel kiváló termékeket hozzanak létre.</b> Csatlakozzon egy növekvő vállalathoz\n"
+"                        és kapjon nagyszerű jutattásokat, lehetőségeket a tanulásra, előlépésre\n"
+"                        harcedzett vezetőink mellett. Tapasztalt, kiváló tagot keresünk\n"
+"                        a csapatunkba.\n"
+"                        <br><br>\n"
+"                        Ez a pozíció egyszerre <b>kreatív és szigorú</b>, gondolkodást igényel\n"
+"                        a dobozon kívűl is. Elvásárunk, hogy a jelölt proaktív és megoldásra fókuszált legyen \n"
+"                        A sikeresség alapfeltétele az erős problémamegoldó képesség."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -2801,6 +2955,7 @@ msgstr "Önállóság"
 #: model_terms:hr.job,website_description:sale_timesheet.job_interior_designer
 #: model_terms:hr.job,website_description:sale_timesheet.job_labour
 msgid "Bachelor Degree or Higher"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2902,12 +3057,19 @@ msgstr "Főiskolai végzettség vagy magasabb"
 =======
 msgstr "Főiskolai végzettség vagy magasabb"
 >>>>>>> upstream/18.0
+=======
+msgstr "Főiskolai végzettség vagy magasabb"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/product_template.py:0
 msgid "Based on Timesheets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás alapján"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_analytic_line__allow_billable
@@ -2967,7 +3129,11 @@ msgid "Billable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számlázható"
+>>>>>>> upstream/18.0
 =======
 msgstr "Számlázható"
 >>>>>>> upstream/18.0
@@ -3162,7 +3328,11 @@ msgid "Billable Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számlázható idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Számlázható idő"
 >>>>>>> upstream/18.0
@@ -3243,11 +3413,16 @@ msgstr "Számlázható idő"
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_analytic_line__timesheet_invoice_type
 #: model:ir.model.fields,field_description:sale_timesheet.field_timesheets_analysis_report__timesheet_invoice_type
 msgid "Billable Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számlázhatóság típus"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_update_default_description
 msgid "Billed"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3349,38 +3524,61 @@ msgstr "Számlázott"
 =======
 msgstr "Számlázott"
 >>>>>>> upstream/18.0
+=======
+msgstr "Számlázott"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__billable_manual
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__billable_manual
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_view_search
 msgid "Billed Manually"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kézi számlázás"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_view_search
 msgid "Billed at a Fixed Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rögzített áron számlázva"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__billable_fixed
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__billable_fixed
 msgid "Billed at a Fixed price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rögzített áron számlázva"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__billable_milestones
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__billable_milestones
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_view_search
 msgid "Billed on Milestones"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mérföldkő alapján számlázva"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__billable_time
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__billable_time
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_view_search
 msgid "Billed on Timesheets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás alapján számlázva"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
@@ -3391,17 +3589,29 @@ msgstr "Számlázás"
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_project__billing_type
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_view_search
 msgid "Billing Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számlázás típus"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.ui.menu,name:sale_timesheet.menu_timesheet_billing_analysis
 msgid "By Billing Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számlázás típusonként"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_invoice__sale_order_id
 msgid "Choose the Sales Order to invoice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Válassza ki a számlázandó vevői rendelést"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_analytic_line__commercial_partner_id
@@ -3431,7 +3641,11 @@ msgid "Commercial Partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Üzleti partner"
+>>>>>>> upstream/18.0
 =======
 msgstr "Üzleti partner"
 >>>>>>> upstream/18.0
@@ -3541,7 +3755,11 @@ msgid "Configure your services"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szolgáltatások beállítása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szolgáltatások beállítása"
 >>>>>>> upstream/18.0
@@ -3637,12 +3855,20 @@ msgstr "Számla létrehozása"
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_project_create_invoice
 msgid "Create Invoice from project"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számla létrehozása projektből"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_create_invoice_view_form
 msgid "Create Sales Order from Project"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevői rendelés létrehozása projektből"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -3650,6 +3876,10 @@ msgstr ""
 #: model_terms:hr.job,website_description:sale_timesheet.job_labour
 msgid "Create content that will help our users on a daily basis"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Hozzon létre olyan tartalmat, ami segíti a felhasználókat a napi munkában"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_invoice__create_uid
@@ -3671,17 +3901,29 @@ msgstr "Pénznem"
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_project__partner_id
 msgid "Customer"
+<<<<<<< HEAD
 msgstr "Ügyfél"
+=======
+msgstr "Vevő"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_service_order_timesheet_product_template
 msgid "Customer Care (Prepaid Hours)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevő támogatás (előrefizetett órák)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_kanban_inherit_sale_timesheet
 msgid "Customer Ratings"
+<<<<<<< HEAD
 msgstr "Ügyfél általi értékelések"
+=======
+msgstr "Vevő általi értékelések"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -3693,12 +3935,20 @@ msgstr "Vevői kapcsolattartás"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_timesheets_inherit
 msgid "Days Ordered,"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nap rendelt, "
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_timesheets_inherit
 msgid "Days Remaining)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nap maradék)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_create_invoice_view_form
@@ -3710,6 +3960,7 @@ msgstr "Elvetés"
 #: model_terms:hr.job,website_description:sale_timesheet.job_interior_designer
 #: model_terms:hr.job,website_description:sale_timesheet.job_labour
 msgid "Discover our products."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3811,6 +4062,9 @@ msgstr "Fedezze fel termékeinket."
 =======
 msgstr "Fedezze fel termékeinket."
 >>>>>>> upstream/18.0
+=======
+msgstr "Fedezze fel termékeinket."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_invoice__display_name
@@ -3834,6 +4088,14 @@ msgid ""
 "                    Several activities are often organized all over the year, such as weekly\n"
 "                    sports sessions, team building events, monthly drink, and much more"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Minden munkavállaló láthatja a munkája hatását.\n"
+"                    Valódi hozzájárulás a vállalat sikeréhez.\n"
+"                    <br>\n"
+"                    Számos tevékenységet gyakran egész évre elosztva szerveznek, például heti\n"
+"                    sport események, csapatépítők, havi közös kocsmázás és sok minden más"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -3870,7 +4132,11 @@ msgid "Elevator Installation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lift telepítés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lift telepítés"
 >>>>>>> upstream/18.0
@@ -3956,7 +4222,11 @@ msgstr "Munkavállaló"
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__project_project__pricing_type__employee_rate
 msgid "Employee rate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Munkavállaló ráta"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_advance_payment_inv__date_end_invoice_timesheet
@@ -3968,7 +4238,11 @@ msgstr "Befejező dátum"
 #: model_terms:hr.job,website_description:sale_timesheet.job_interior_designer
 #: model_terms:hr.job,website_description:sale_timesheet.job_labour
 msgid "Expand your knowledge of various business industries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bővítse a tudását különféle iparágakról"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_update_default_description
@@ -3985,7 +4259,11 @@ msgstr "Tapasztalat online tartalmak készítésében"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.product_template_view_search_sale_timesheet
 msgid "Fixed price services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rögzített áras szolgáltatások"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -3997,7 +4275,11 @@ msgstr "Gyümölcs, kávé és <br>ennivaló biztosítva."
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_service_deliver_manual_product_template
 msgid "Furniture Delivery (Manual)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bútorszállítás (kézi)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -4012,6 +4294,7 @@ msgstr "Google Adwords tapasztalat"
 #: model_terms:hr.job,website_description:sale_timesheet.job_labour
 msgid "Great team of smart people, in a friendly and open culture"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4114,16 +4397,27 @@ msgstr ""
 =======
 "Okos emberekből álló nagyszerű csapat barátságos és nyitott környezetben"
 >>>>>>> upstream/18.0
+=======
+"Okos emberekből álló nagyszerű csapat barátságos és nyitott környezetben"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:hr.job,name:sale_timesheet.job_labour
 msgid "Handyman"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szerelő"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_task__has_multi_sol
 msgid "Has Multi Sol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Több vevői rendelés sor"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -4160,7 +4454,11 @@ msgid "Hourly Cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Óradíj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Óradíj"
 >>>>>>> upstream/18.0
@@ -4240,12 +4538,20 @@ msgstr "Óradíj"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_timesheets_inherit
 msgid "Hours Ordered,"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "óra rendelt,"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_timesheets_inherit
 msgid "Hours Remaining)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "óra maradék)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_invoice__id
@@ -4256,12 +4562,20 @@ msgstr "ID"
 #. module: sale_timesheet
 #: model:hr.job,name:sale_timesheet.job_interior_designer
 msgid "Interior Designer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Belsőépítész"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_product_interior_designing_product_template
 msgid "Interior Designing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Belső építészet"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -4278,23 +4592,36 @@ msgstr "Számla"
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_res_config_settings__invoice_policy
 msgid "Invoice Policy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számlázási szabály"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/product_template.py:0
 msgid "Invoice based on timesheets (delivered quantity)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számlázás időkimutatások alapján (szállított mennyiség)."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_account_analytic_line__timesheet_invoice_id
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__timesheet_invoice_id
 msgid "Invoice created from the timesheet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számla létrehozva az időkimutatásból"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_update_default_description
 msgid "Invoiced"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4396,6 +4723,9 @@ msgstr "Számlázott"
 =======
 msgstr "Számlázott"
 >>>>>>> upstream/18.0
+=======
+msgstr "Számlázott"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -4411,12 +4741,20 @@ msgstr "Számlázás"
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_task__is_project_map_empty
 msgid "Is Project map empty"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt összerendelés üres"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_analytic_line__is_so_line_edited
 msgid "Is Sales Order Item Manually Edited"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevői rendelés tétel kézzel módosított"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_account_move
@@ -4431,12 +4769,20 @@ msgstr "Könyvelési tétel"
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_service_deliver_timesheet_2_product_template
 msgid "Junior Architect (Invoice on Timesheets)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kezdő építész (Számlázás időkimutatásból)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_service_deliver_milestones_product_template
 msgid "Kitchen Assembly (Milestones)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konyhaszerelés (mérföldkövek)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_invoice__write_uid
@@ -4480,7 +4826,11 @@ msgid "Lead the entire sales cycle"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Felügyelet a teljes értékesítési cikluson"
+=======
+msgstr "A teljes értékesítési ciklus vezetése"
+>>>>>>> upstream/18.0
 =======
 msgstr "A teljes értékesítési ciklus vezetése"
 >>>>>>> upstream/18.0
@@ -4629,6 +4979,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Kézi mennyiség a rendelésen: számlázás a kézzel megadott mennyiség alapján analitikus számla létrehozása nélkül.\n"
 "Szerződéses munkaidő: számlázás a kapcsolódó időnyilvántartásokon megadott órák alapján.\n"
@@ -4822,6 +5173,11 @@ msgstr ""
 =======
 "Kézi mennyiség a rendelésen: számlázás a kézzel megadott mennyiség alapján analitikus számla létrehozása nélkül.\n"
 "Szerződéses munkaidő: számlázás a kapcsolódó időnyilvántartásokon megadott órák alapján.\n"
+"Feladat létrehozása és idő követése: vevői rendelés megerősítésekor feladat létrehozása és munkaidő rögzítése."
+>>>>>>> upstream/18.0
+=======
+"Kézi mennyiség a rendelésen: számlázás a kézzel megadott mennyiség alapján analitikus számla létrehozása nélkül.\n"
+"Szerződéses munkaidő: számlázás a kapcsolódó időkimutatásokon megadott órák alapján.\n"
 "Feladat létrehozása és idő követése: vevői rendelés megerősítésekor feladat létrehozása és munkaidő rögzítése."
 >>>>>>> upstream/18.0
 =======
@@ -4961,7 +5317,11 @@ msgstr "Árrés"
 #: model_terms:hr.job,website_description:sale_timesheet.job_interior_designer
 #: model_terms:hr.job,website_description:sale_timesheet.job_labour
 msgid "Master demos of our software"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szoftver demo mester"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -4977,7 +5337,11 @@ msgstr "Szállított mennyiség frissítésének módszere"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.product_template_view_search_sale_timesheet
 msgid "Milestone services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mérföldkő szolgáltatások"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -5009,7 +5373,11 @@ msgid "Must Have"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "kötelező"
+=======
+msgstr "Kötelező"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kötelező"
 >>>>>>> upstream/18.0
@@ -5123,7 +5491,11 @@ msgid "Nice to have"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Jó ha van"
+=======
+msgstr "Jó lenne"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jó lenne"
 >>>>>>> upstream/18.0
@@ -5235,6 +5607,11 @@ msgstr ""
 msgid ""
 "No waste of time in enterprise processes, real responsibilities and autonomy"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nincs elvesztegett idő a vállalati folyamatokban, valós felelősségek és "
+"autonómia"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__non_billable
@@ -5266,7 +5643,11 @@ msgid "Non-Billable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nem számlázható"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nem számlázható"
 >>>>>>> upstream/18.0
@@ -5355,7 +5736,11 @@ msgstr "Nem számlázható"
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_timesheets_analysis_report__non_billable_time
 msgid "Non-billable Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nem számlázható idő"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_timesheets_inherit
@@ -5415,7 +5800,11 @@ msgid "Not Billed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nem számlázott"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nem számlázott"
 >>>>>>> upstream/18.0
@@ -5585,17 +5974,29 @@ msgstr "Nem számlázott"
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__timesheet_revenues
 msgid "Number of hours spent multiplied by the unit price per hour/day."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eltöltött órák szorozva a napi/óradíj egységárral"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__billable_time
 msgid "Number of hours/days linked to a SOL."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevői rendelés sorhoz kapcsolt órák/napok száma"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__non_billable_time
 msgid "Number of hours/days not linked to a SOL."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevői rendelés sorhoz nem kapcsolt órák/napok száma"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_sale_advance_payment_inv__date_end_invoice_timesheet
@@ -5607,6 +6008,13 @@ msgid ""
 "yet invoiced (and validated, if applicable) will be invoiced without "
 "distinction."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Csak a még nem számlázott (és jóváhagyott, ahol releváns) időkimutatások "
+"kerülnek számlázásra az időszakból. Ha nincs megadott időszak, akkor az "
+"összes még nem számlázott (és jóváhagyott, ahol releváns) időkimutatás "
+"számlázásra kerül."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -5648,7 +6056,11 @@ msgid "Other costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Egyéb költségek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Egyéb költségek"
 >>>>>>> upstream/18.0
@@ -5754,7 +6166,11 @@ msgid "Other revenues"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Egyéb bevételek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Egyéb bevételek"
 >>>>>>> upstream/18.0
@@ -5868,7 +6284,11 @@ msgid "Passion for software products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Elhivatottság szoftveres termékek iránt"
+=======
+msgstr "Szoftveres termékek iránti szenvedély"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szoftveres termékek iránti szenvedély"
 >>>>>>> upstream/18.0
@@ -5952,6 +6372,12 @@ msgid ""
 "Percentage of time delivered compared to the prepaid amount that must be "
 "reached for the upselling opportunity activity to be triggered."
 msgstr ""
+<<<<<<< HEAD
+=======
+"A teljesített idő összehasonlítása az előre fizetett összeggel, amit el kell"
+" érni ahhoz, hogy felülértékesítési lehetőséghez kapcsolódó tevékenységek "
+"induljanak."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -5983,7 +6409,11 @@ msgid "Perfect written English"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tökéletes angol tudás"
+=======
+msgstr "Tökéletes írott angol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tökéletes írott angol"
 >>>>>>> upstream/18.0
@@ -6104,7 +6534,11 @@ msgid "Play any sport with colleagues, <br>the bill is covered."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sportoljon a kollégáival, <br>a számlát cégünk fizeti."
+=======
+msgstr "Sportoljon a kollégáival, <br>a számlát mi álljuk."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sportoljon a kollégáival, <br>a számlát mi álljuk."
 >>>>>>> upstream/18.0
@@ -6209,7 +6643,11 @@ msgstr "Projekt"
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_project_sale_line_employee_map
 msgid "Project Sales line, employee mapping"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt értékesítés sor, munkavállaló összerendelés"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_product_product__project_template_id
@@ -6270,7 +6708,11 @@ msgid "Project Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt sablon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projekt sablon"
 >>>>>>> upstream/18.0
@@ -6465,7 +6907,11 @@ msgid "Project Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt állapot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projekt állapot"
 >>>>>>> upstream/18.0
@@ -6570,7 +7016,11 @@ msgid "Project rate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt ráta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projekt ráta"
 >>>>>>> upstream/18.0
@@ -6650,14 +7100,22 @@ msgstr "Projekt ráta"
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_create_invoice__project_id
 msgid "Project to make billable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számlázható projekt"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
 #: model_terms:hr.job,website_description:sale_timesheet.job_interior_designer
 #: model_terms:hr.job,website_description:sale_timesheet.job_labour
 msgid "Qualify the customer needs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevőigények minősítése"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -6676,7 +7134,11 @@ msgstr "Igazi felelősségek és kihívások egy gyorsan fejlődő vállalatnál
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_task__remaining_hours_available
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_line__remaining_hours_available
 msgid "Remaining Hours Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elérhető maradék óra"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -6695,6 +7157,11 @@ msgstr "Bevételek"
 msgid ""
 "Review your timesheets by billing type and make sure your time is billable."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Időkimutatások jóváhagyása számlázási típusonként a számlázhatóság "
+"ellenőrzésével."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_product_roofing_product_template
@@ -6724,7 +7191,11 @@ msgid "Roofing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tetőfedés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tetőfedés"
 >>>>>>> upstream/18.0
@@ -6829,7 +7300,11 @@ msgid "S0001"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "S0001"
+>>>>>>> upstream/18.0
 =======
 msgstr "S0001"
 >>>>>>> upstream/18.0
@@ -6953,6 +7428,12 @@ msgid ""
 "If you would like to bill the same service at a different rate, you need to create two separate sales order items as each sales order item can only have a single unit price at a time.\n"
 "You can also define the hourly company cost of your employees for their timesheets on this project specifically. It will bypass the timesheet cost set on the employee."
 msgstr ""
+<<<<<<< HEAD
+=======
+"A vevői rendelés tétel, amely alapértelmezésben kiválasztásra kerül kapcsolódó munkavállaló időkimutatásain. Ez felülbírálja a projekten és a feladaton beállított vevői rendelés tételt, és módosítható minden egyes időkimutatáson, ha szükséges. Másképp fogalmazva: azt a díjat adja meg, amin a munkavállaló ideje számlázásra kerül, figyelembe véve a tapasztalatait és készségeit.\n"
+"Ha szeretné ugyanazt a szolgáltatást eltérő díjon számlázni, akkor létre kell hoznia két különböző vevői rendelés tételt, mivel egy vevői rendelési tételen csak egy árat lehet megadni.\n"
+"Megadhatja továbbá a munkavállalók óradíját a projekthez kapcsolódó időkimutatásokhoz a projekt beállításainál. Ez felülbírálja a munkavállaló beállításainál megadott időkimutatás költséget."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_account_analytic_line__so_line
@@ -7022,6 +7503,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Vevői rendelés tétel, melyhez az eltöltött idő hozzáadásra kerül vevő "
 "részére történő számlázás céljából. Távolítsa el a vevői rendelés tétel "
@@ -7201,6 +7683,11 @@ msgstr ""
 "Vevői rendelés tétel, melyhez az eltöltött idő hozzáadásra kerül vevő "
 "részére történő számlázás céljából. Távolítsa el a vevői rendelés tétel "
 "kapcsolatot a munkaidő tételről ha nem szeretné kiszámlázni."
+>>>>>>> upstream/18.0
+=======
+"Vevői rendelés tétel, melyhez az eltöltött idő hozzáadásra kerül vevő "
+"részére történő számlázás céljából. Távolítsa el a vevői rendelés tétel "
+"kapcsolatot az időkimutatás tételről ha nem szeretné kiszámlázni."
 >>>>>>> upstream/18.0
 =======
 "Vevői rendelés tétel, melyhez az eltöltött idő hozzáadásra kerül vevő "
@@ -7383,7 +7870,11 @@ msgid "Sales order to which the task is linked."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevői rendelés, melyhez a feladat kapcsolásra került."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevői rendelés, melyhez a feladat kapcsolásra került."
 >>>>>>> upstream/18.0
@@ -7600,7 +8091,11 @@ msgid "Search in Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számla keresés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Számla keresés"
 >>>>>>> upstream/18.0
@@ -7826,7 +8321,11 @@ msgid "Search in Sales Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevői rendelés keresés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevői rendelés keresés"
 >>>>>>> upstream/18.0
@@ -8001,18 +8500,30 @@ msgstr "Szolgáltatások értékesítése és a munkaidő kiszámlázása"
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_service_deliver_timesheet_1_product_template
 msgid "Senior Architect (Invoice on Timesheets)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tapasztalt építész (időkimutatás számlázás)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__service_revenues
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__service_revenues
 msgid "Service Revenues"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szolgáltatás bevételek"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.time_product_product_template
 msgid "Service on Timesheets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás szolgáltatás"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_project__timesheet_product_id
@@ -8022,6 +8533,12 @@ msgid ""
 "task. It can be modified on each task individually by selecting a specific "
 "sales order item."
 msgstr ""
+<<<<<<< HEAD
+=======
+"A szolgáltatás, mely alapértelmezésben használatra kerül a feladaton "
+"eltöltött idő számlázásakor. Módosítható feladatonként másik vevői rendelés "
+"tétel kiválasztásával."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.actions.act_window,name:sale_timesheet.product_template_action_default_services
@@ -8032,12 +8549,20 @@ msgstr "Szolgáltatások"
 #. module: sale_timesheet
 #: model:hr.job,name:sale_timesheet.job_engineer
 msgid "Site Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Telephely menedzser"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_product_solar_installation_product_template
 msgid "Solar Panel Installation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napelem telepítés"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -8079,7 +8604,11 @@ msgid "Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Státusz"
+=======
+msgstr "Állapot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Állapot"
 >>>>>>> upstream/18.0
@@ -8196,7 +8725,11 @@ msgid "Task rate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Feladat ráta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Feladat ráta"
 >>>>>>> upstream/18.0
@@ -8293,6 +8826,11 @@ msgid ""
 "The %s product is required by the Timesheets app and cannot be archived nor "
 "deleted."
 msgstr ""
+<<<<<<< HEAD
+=======
+"%s terméket nem lehet archiválni vagy törölni, mert használja az "
+"Időkimutatás alkalmazás."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -8301,12 +8839,22 @@ msgid ""
 "The %s product is required by the Timesheets app and cannot be linked to a "
 "company."
 msgstr ""
+<<<<<<< HEAD
+=======
+"%s terméket nem lehet vállalathoz kapcsolni mert használja az Időkimutatás "
+"alkalmazás."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/wizard/project_create_invoice.py:0
 msgid "The selected Sales Order should contain something to invoice."
 msgstr ""
+<<<<<<< HEAD
+=======
+"A kiválasztott vevői rendelési tételnek tartalmaznia kell számlázható "
+"tételt."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_project__pricing_type
@@ -8320,6 +8868,16 @@ msgid ""
 "senior consultants would deliver the same service (= consultancy), but at a "
 "different rate because of their level of seniority."
 msgstr ""
+<<<<<<< HEAD
+=======
+"A feladat díj ajánlott, ha eltérő szolgáltatásokat eltérő áron szeretne "
+"számlázni eltérő ügyfeleknek. A rögzített díj ajánlott, ha fix áron szeretne"
+" számlázni egy szolgáltatást napi vagy óradíjon függetlenül attól, hogy "
+"melyik munkavállaló végezte el. A munkavállaló díj ajánlott, ha a "
+"munkavállalók eltérő díjon nyújtják ugyanazt a szolgáltatást. Például kezdő "
+"vagy tapasztalt tanácsadók ugyanazt a szolgáltatatást (tanácsadást) "
+"nyújtják, de eltérő díjon a tapasztalati szintjük miatt."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_sale_line_employee_map__cost
@@ -8327,6 +8885,11 @@ msgid ""
 "This cost overrides the employee's default employee hourly wage in "
 "employee's HR Settings"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ez a költség felülírja a munkavállaló HR beállításokban megadott "
+"alapértelmezett költségét"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_product_product__service_upsell_threshold
@@ -8357,7 +8920,11 @@ msgid "Threshold"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Küszöb"
+>>>>>>> upstream/18.0
 =======
 msgstr "Küszöb"
 >>>>>>> upstream/18.0
@@ -8445,7 +9012,11 @@ msgstr "Időalapú számlázás"
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_line__remaining_hours
 msgid "Time Remaining on SO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevői rendelés maradék idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevői rendelés maradék idő"
 >>>>>>> upstream/18.0
@@ -8459,7 +9030,11 @@ msgstr "Eltöltött idő"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.product_template_view_search_sale_timesheet
 msgid "Time-based services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időalapú szolgáltatások"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.actions.act_window,name:sale_timesheet.timesheet_action_from_plan
@@ -8491,7 +9066,11 @@ msgid "Timesheet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Munkaidő-nyilvántartás"
+=======
+msgstr "Időkimutatás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás"
 >>>>>>> upstream/18.0
@@ -8596,7 +9175,11 @@ msgid "Timesheet Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Munkaidő-nyilvántartás tevékenységek"
+=======
+msgstr "Időkimutatás tevékenységek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás tevékenységek"
 >>>>>>> upstream/18.0
@@ -8704,6 +9287,7 @@ msgid "Timesheet Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Munkaidő-nyilvántartás költségek"
 =======
 msgstr "Időkimutatás költségek"
@@ -8780,12 +9364,19 @@ msgstr "Időkimutatás költségek"
 =======
 msgstr "Időkimutatás költségek"
 >>>>>>> upstream/18.0
+=======
+msgstr "Időkimutatás költség"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_project__timesheet_product_id
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_task__timesheet_product_id
 msgid "Timesheet Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás termék"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.hr_timesheet_report_search_sale_timesheet
@@ -8815,7 +9406,11 @@ msgid "Timesheet Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás jelentés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás jelentés"
 >>>>>>> upstream/18.0
@@ -8897,13 +9492,21 @@ msgstr "Időkimutatás jelentés"
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__timesheet_revenues
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__timesheet_revenues
 msgid "Timesheet Revenues"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás bevételek"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_bank_statement_line__timesheet_total_duration
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_move__timesheet_total_duration
 msgid "Timesheet Total Duration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás teljes időtartam"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -8923,37 +9526,61 @@ msgstr "Időkimutatások"
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Billed Manually)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatások (kézi számlázás)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Billed on Milestones)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatások (mérföldkő számlázás)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Billed on Timesheets)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatások (időkimutatás számlázás)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Fixed Price)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatások (rögzített ár)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Non-Billable)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatások (nem számlázható)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheets_analysis_report_pivot_invoice_type
 msgid "Timesheets Analysis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás elemzés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás elemzés"
 >>>>>>> upstream/18.0
@@ -8962,7 +9589,11 @@ msgstr "Időkimutatás elemzés"
 #: model:ir.model,name:sale_timesheet.model_timesheets_analysis_report
 msgid "Timesheets Analysis Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás elemzés riport"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás elemzés riport"
 >>>>>>> upstream/18.0
@@ -8970,24 +9601,40 @@ msgstr "Időkimutatás elemzés riport"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.sale_advance_payment_inv_timesheet_view_form
 msgid "Timesheets Period"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás időszak"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.actions.act_window,name:sale_timesheet.timesheet_action_billing_report
 msgid "Timesheets by Billing Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatások számlázási típusonként"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_sale_page
 msgid "Timesheets for the"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatások ehhez:"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets of %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatások: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatások: %s"
 >>>>>>> upstream/18.0
@@ -8995,33 +9642,57 @@ msgstr "Időkimutatások: %s"
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__product_template__service_type__timesheet
 msgid "Timesheets on project (one fare per SO/Project)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt időkimutatások (egy díj per vevői rendelés/projekt)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets revenues"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás bevételek"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__margin
 msgid "Timesheets revenues minus the costs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás bevételek költségekkel csökkentve"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
 msgid "Timesheets taken into account when invoicing your time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Idő számlázása során figyelembe vett időkimutatások"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_res_config_settings__invoice_policy
 msgid "Timesheets taken when invoicing time spent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eltöltött idő számlázáshoz használt időkimutatások"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_form
 msgid "Timesheets without a sales order item are reported as"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevői rendelés tétel nélküli időkimutatások jelentése: "
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_update_default_description
@@ -9045,6 +9716,11 @@ msgid ""
 "Total amount to invoice on the sales order, including all items (services, "
 "storables, expenses, ...)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vevői rendelés teljes számlázható összege minden tételt figyelembe véve "
+"(szolgáltatások, termékek, kiadások...)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_account_bank_statement_line__timesheet_total_duration
@@ -9054,6 +9730,10 @@ msgid ""
 "Total recorded duration, expressed in the encoding UoM, and rounded to the "
 "unit"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Teljes rögzített időtartam az időrögzítés mértékegységében, arra kerekítve"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_product_product__service_type
@@ -9069,8 +9749,13 @@ msgid ""
 " customers."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Kövesse nyomon a projektek kapcsán eltöltött munkaidejét és számlázza ki a "
+"vevőknek."
+>>>>>>> upstream/18.0
+=======
+"Kövesse nyomon a projektek kapcsán eltöltött munkaidőt és számlázza ki a "
 "vevőknek."
 >>>>>>> upstream/18.0
 
@@ -9097,23 +9782,40 @@ msgstr "Érvényes munkavállalási engedély Belgiumban"
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Value does not exist in the pricing type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Árazási típusban nem szereplő érték"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_invoice_page_inherit
 msgid "View Timesheet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás megtekintése"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_invoice_page_inherit
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.sale_order_portal_content_inherit
 msgid "View Timesheets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatások megtekintése"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.view_product_timesheet_form
 msgid "Warn the salesperson for an upsell when work done exceeds"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Értékesítő figyelmeztetése felülértékesítésre, ha az elvégzett munka "
+"meghaladja"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -9133,7 +9835,11 @@ msgstr "Miért nagyszerű ez a munka?"
 #. odoo-python
 #: code:addons/sale_timesheet/wizard/project_create_invoice.py:0
 msgid "You can only apply this action from a project."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ez az akció csak egy projektből használható"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -9142,6 +9848,11 @@ msgid ""
 "You cannot link a billable project to a sales order item that comes from an "
 "expense or a vendor bill."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nem kapcsolható számlázható projekt olyan vevői rendelés tételhez, amely "
+"kiadásból vagy szállítói számlából származik."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -9150,39 +9861,68 @@ msgid ""
 "You cannot link a billable project to a sales order item that is not a "
 "service."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nem kapcsolható számlázható projekt olyan vevői rendelés tételhez, amely nem"
+" szolgáltatás."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/hr_timesheet.py:0
 msgid "You cannot modify timesheets that are already invoiced."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nem módosíthatók olyan időkimutatások, melyek már számlázásra kerültek."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/hr_timesheet.py:0
 msgid "You cannot remove a timesheet that has already been invoiced."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nem távolíthatók el olyan időkimutatások, melyek már számlázásra kerültek."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__project_project__billing_type__manually
 msgid "billed manually"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "kézi számlázás"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/sale_order_line.py:0
 msgid "days remaining"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "maradék nap"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__project_project__billing_type__not_billable
 msgid "not billable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nem számlázható"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.view_product_timesheet_form
 msgid "of hours sold."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "eladott óra."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -9213,7 +9953,11 @@ msgid "remaining"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "hátravan"
+=======
+msgstr "maradék"
+>>>>>>> upstream/18.0
 =======
 msgstr "maradék"
 >>>>>>> upstream/18.0

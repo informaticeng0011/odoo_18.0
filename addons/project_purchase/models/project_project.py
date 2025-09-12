@@ -181,6 +181,10 @@ class Project(models.Model):
             domain = [
                 ('move_id.move_type', 'in', ['in_invoice', 'in_refund']),
                 ('parent_state', 'in', ['draft', 'posted']),
+<<<<<<< HEAD
+=======
+                ('price_subtotal', '!=', 0),
+>>>>>>> upstream/18.0
                 ('id', 'not in', purchase_order_line_invoice_line_ids),
             ]
             self._get_costs_items_from_purchase(domain, profitability_items, with_action=with_action)

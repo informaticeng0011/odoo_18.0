@@ -93,8 +93,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Sergio Zanchetta <primes2h@gmail.com>, 2024
 # Marianna Ciofani, 2025
+=======
+# Marianna Ciofani, 2025
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Marianna Ciofani, 2025
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
@@ -542,7 +547,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Marianna Ciofani, 2025\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -870,7 +879,11 @@ msgstr ""
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
 msgid "<i class=\"fa fa-fw fa-check-circle\"/> Paid"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Pagata"
+=======
+msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Pagato"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
@@ -931,13 +944,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A payment transaction with reference %s already exists."
+<<<<<<< HEAD
 msgstr "Un'operazione di pagamento con riferimento %s esiste già."
+=======
+msgstr "Esiste già una transazione di pagamento con riferimento %s."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A token is required to create a new payment transaction."
+<<<<<<< HEAD
 msgstr "Per creare una nuova transazione di pagamento è richiesto un token."
+=======
+msgstr "Per creare una nuova operazione di pagamento è richiesto un token."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:onboarding.onboarding.step,button_text:account_payment.onboarding_onboarding_step_payment_provider
@@ -1071,7 +1092,11 @@ msgstr "Generazione link di pagamento vendite"
 #. module: account_payment
 #: model:ir.actions.act_window,name:account_payment.action_invoice_order_generate_link
 msgid "Generate a Payment Link"
+<<<<<<< HEAD
 msgstr "Genera un link di pagamento"
+=======
+msgstr "Genera link di pagamento"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__has_eligible_epd
@@ -1132,7 +1157,11 @@ msgstr "Fatture"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_transaction__invoices_count
 msgid "Invoices Count"
+<<<<<<< HEAD
 msgstr "Conteggio Fatture"
+=======
+msgstr "Numero fatture"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_account_payment
@@ -1292,11 +1321,16 @@ msgstr "Metodi di pagamento"
 #: model:ir.model,name:account_payment.model_payment_provider
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_method_line__payment_provider_id
 msgid "Payment Provider"
+<<<<<<< HEAD
 msgstr "Fornitore di pagamenti"
+=======
+msgstr "Fornitore di pagamento"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.ui.menu,name:account_payment.payment_provider_menu
 msgid "Payment Providers"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1650,6 +1684,9 @@ msgstr "Fornitori di pagamento"
 =======
 msgstr "Fornitori di pagamento"
 >>>>>>> upstream/18.0
+=======
+msgstr "Fornitori di pagamento"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_payment_refund_wizard
@@ -1709,7 +1746,11 @@ msgstr "Rimborso"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__amount_to_refund
 msgid "Refund Amount"
+<<<<<<< HEAD
 msgstr "Importo rimborsi"
+=======
+msgstr "Importo rimborso"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__refunded_amount
@@ -1724,7 +1765,11 @@ msgstr "Rimborsi"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__refunds_count
 msgid "Refunds Count"
+<<<<<<< HEAD
 msgstr "Conteggio rimborsi"
+=======
+msgstr "Numero rimborsi"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.view_account_journal_form
@@ -1734,7 +1779,11 @@ msgstr "SETUP"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__payment_token_id
 msgid "Saved Payment Token"
+<<<<<<< HEAD
 msgstr "token di pagamento salvato"
+=======
+msgstr "Token di pagamento salvato"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_token_id
@@ -1749,7 +1798,11 @@ msgstr "Pagamento di origine"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_method_line__payment_provider_state
 msgid "State"
+<<<<<<< HEAD
 msgstr "Provincia"
+=======
+msgstr "Stato"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:onboarding.onboarding.step,done_text:account_payment.onboarding_onboarding_step_payment_provider

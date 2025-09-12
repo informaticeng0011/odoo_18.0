@@ -1,16 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* hr_recruitment
 # 
+=======
+# * hr_recruitment
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Noma Yuki, 2024
 # Wil Odoo, 2024
 # Junko Augias, 2025
+<<<<<<< HEAD
 # 
+=======
+#
+# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,6 +295,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"POT-Creation-Date: 2025-08-29 18:37+0000\n"
+"PO-Revision-Date: 2025-08-26 14:54+0000\n"
+"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
+"Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
+"hr_recruitment/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_candidate__accepted_applications_count
@@ -332,6 +356,7 @@ msgid ""
 "<div><b>Try to send an email</b> to the applicant.</div><div><i>Tips: All "
 "emails sent or received are saved in the history here</i>"
 msgstr ""
+<<<<<<< HEAD
 "<div>志望者に<b>メールを送信</b>しましょう！</div><div><i>注意: "
 "送受信されたメールの履歴はすべてここの履歴に保存されます。</i>"
 
@@ -344,6 +369,28 @@ msgstr "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" title=
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
 msgid "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
 msgstr "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
+=======
+"<div>志望者に<b>メールを送信</b>しましょう！</div><div><i>注意: 送受信された"
+"メールの履歴はすべてここの履歴に保存されます。</i>"
+
+#. module: hr_recruitment
+#: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
+msgid ""
+"<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" "
+"title=\"Company\"/>"
+msgstr ""
+"<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" "
+"title=\"Company\"/>"
+
+#. module: hr_recruitment
+#: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
+msgid ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" "
+"title=\"Alias\"/>"
+msgstr ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" "
+"title=\"Alias\"/>"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_candidate_view_kanban
@@ -354,11 +401,19 @@ msgstr "<i class=\"fa fa-paperclip\" role=\"img\" aria-label=\"Documents\"/>"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.applicant_get_refuse_reason_view_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"mx-2\" style=\"padding-top: 1px; padding-bottom: "
 "1px;\">to</span>"
 msgstr ""
 "<span class=\"mx-2\" style=\"padding-top: 1px; padding-bottom: "
 "1px;\">から</span>"
+=======
+"<span class=\"mx-2\" style=\"padding-top: 1px; padding-bottom: 1px;\">to</"
+"span>"
+msgstr ""
+"<span class=\"mx-2\" style=\"padding-top: 1px; padding-bottom: 1px;\">から</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_form
@@ -380,18 +435,36 @@ msgstr "<span invisible=\"address_id\" class=\"oe_read_only\">リモート</span
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form
 msgid ""
 "<span invisible=\"not is_warning_visible\">\n"
+<<<<<<< HEAD
 "                                <span class=\"fa fa-exclamation-triangle text-danger ps-3\">\n"
 "                                </span>\n"
 "                                <span class=\"text-danger\">\n"
 "                                    All applications will lose their hired date and hired status.\n"
+=======
+"                                <span class=\"fa fa-exclamation-triangle "
+"text-danger ps-3\">\n"
+"                                </span>\n"
+"                                <span class=\"text-danger\">\n"
+"                                    All applications will lose their hired "
+"date and hired status.\n"
+>>>>>>> upstream/18.0
 "                                </span>\n"
 "                            </span>"
 msgstr ""
 "<span invisible=\"not is_warning_visible\">\n"
+<<<<<<< HEAD
 "                                <span class=\"fa fa-exclamation-triangle text-danger ps-3\">\n"
 "                                </span>\n"
 "                                <span class=\"text-danger\">\n"
 "                                    全ての応募は採用日と採用ステータスを失います。\n"
+=======
+"                                <span class=\"fa fa-exclamation-triangle "
+"text-danger ps-3\">\n"
+"                                </span>\n"
+"                                <span class=\"text-danger\">\n"
+"                                    全ての応募は採用日と採用ステータスを失い"
+"ます。\n"
+>>>>>>> upstream/18.0
 "                                </span>\n"
 "                            </span>"
 
@@ -423,12 +496,19 @@ msgstr "<span>閲覧</span>"
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.email_template_data_applicant_congratulations
 msgid ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"background-color: white; border-collapse: collapse; margin-left: 20px;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"background-color: white; border-collapse: collapse; margin-left: "
+"20px;\">\n"
+>>>>>>> upstream/18.0
 "    <tr>\n"
 "        <td valign=\"top\" style=\"padding: 0px 10px;\">\n"
 "            <div style=\"font-size: 13px; margin: 0px; padding: 0px;\">\n"
 "                Hello,\n"
 "                <br/><br/>\n"
+<<<<<<< HEAD
 "                We confirm we successfully received your application for the job\n"
 "                \"<a t-att-href=\"hasattr(object.job_id, 'website_url') and object.job_id.website_url or ''\" style=\"color:#9A6C8E;\"><strong t-out=\"object.job_id.name or ''\">Experienced Developer</strong></a>\" at <strong t-out=\"object.company_id.name or ''\">YourCompany</strong>.\n"
 "                <br/><br/>\n"
@@ -451,10 +531,52 @@ msgid ""
 "\n"
 "                <h3 style=\"color:#9A6C8E;\"><strong>What is the next step?</strong></h3>\n"
 "                We usually <strong>answer applications within a few days.</strong><br/><br/>\n"
+=======
+"                We confirm we successfully received your application for the "
+"job\n"
+"                \"<a t-att-href=\"hasattr(object.job_id, 'website_url') and "
+"object.job_id.website_url or ''\" style=\"color:#9A6C8E;\"><strong t-"
+"out=\"object.job_id.name or ''\">Experienced Developer</strong></a>\" at "
+"<strong t-out=\"object.company_id.name or ''\">YourCompany</strong>.\n"
+"                <br/><br/>\n"
+"                We will come back to you shortly.\n"
+"\n"
+"                <div t-if=\"'website_url' in object.job_id and "
+"object.job_id.website_url\" style=\"padding: 16px 8px 16px 8px;\">\n"
+"                    <a t-att-href=\"object.job_id.website_url\" "
+"style=\"background-color: #875a7b; text-decoration: none; color: #fff; "
+"padding: 8px 16px 8px 16px; border-radius: 5px;\">Job Description</a>\n"
+"                </div>\n"
+"\n"
+"                <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;\"/>\n"
+"                <t t-if=\"object.user_id\">\n"
+"                    <h3 style=\"color:#9A6C8E;\"><strong>Your Contact:</"
+"strong></h3>\n"
+"                    <p>\n"
+"                        <strong t-out=\"object.user_id.name or ''\">Mitchell "
+"Admin</strong><br/>\n"
+"                        <span>Email: <t t-out=\"object.user_id.email or "
+"''\">admin@yourcompany.example.com</t></span><br/>\n"
+"                        <span>Phone: <t t-out=\"object.user_id.phone or "
+"''\">+1 650-123-4567</t></span>\n"
+"                    </p>\n"
+"                    <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;\"/>\n"
+"                </t>\n"
+"\n"
+"                <h3 style=\"color:#9A6C8E;\"><strong>What is the next step?</"
+"strong></h3>\n"
+"                We usually <strong>answer applications within a few days.</"
+"strong><br/><br/>\n"
+>>>>>>> upstream/18.0
 "                Feel free to <strong>contact us if you want a faster\n"
 "                feedback</strong> or if you don't get news from us\n"
 "                quickly enough (just reply to this email).\n"
 "\n"
+<<<<<<< HEAD
 "                <hr width=\"97%\" style=\"background-color: rgb(204,204,204); border: medium none; clear: both; display: block; font-size: 0px; min-height: 1px; line-height: 0; margin: 17px 0px 16px 0px;\"/>\n"
 "                <t t-set=\"location\" t-value=\"''\"/>\n"
 "                <t t-if=\"object.job_id.address_id.name\">\n"
@@ -484,6 +606,52 @@ msgid ""
 "                <t t-if=\"object.job_id.address_id.country_id.name\">\n"
 "                    <t t-out=\"object.job_id.address_id.country_id.name or ''\">Argentina</t><br/>\n"
 "                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.job_id.address_id.country_id.name)\"/>\n"
+=======
+"                <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 17px 0px 16px 0px;\"/>\n"
+"                <t t-set=\"location\" t-value=\"''\"/>\n"
+"                <t t-if=\"object.job_id.address_id.name\">\n"
+"                    <strong t-out=\"object.job_id.address_id.name or "
+"''\">Teksa SpA</strong><br/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.street\">\n"
+"                    <t t-out=\"object.job_id.address_id.street or "
+"''\">Puerto Madero 9710</t><br/>\n"
+"                    <t t-set=\"location\" t-"
+"value=\"object.job_id.address_id.street\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.street2\">\n"
+"                    <t t-out=\"object.job_id.address_id.street2 or ''\">Of "
+"A15, Santiago (RM)</t><br/>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.street2)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.city\">\n"
+"                    <t t-out=\"object.job_id.address_id.city or "
+"''\">Pudahuel</t>,\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.city)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.state_id.name\">\n"
+"                    <t t-out=\"object.job_id.address_id.state_id.name or "
+"''\">C1</t>,\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.state_id.name)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.zip\">\n"
+"                    <t t-out=\"object.job_id.address_id.zip or ''\">98450</"
+"t>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.zip)\"/>\n"
+"                </t>\n"
+"                <br/>\n"
+"                <t t-if=\"object.job_id.address_id.country_id.name\">\n"
+"                    <t t-out=\"object.job_id.address_id.country_id.name or "
+"''\">Argentina</t><br/>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.country_id.name)\"/>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "                <br/>\n"
 "            </div>\n"
@@ -491,13 +659,20 @@ msgid ""
 "    </tr>\n"
 "</table>"
 msgstr ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"background-color: white; border-collapse: collapse; margin-left: 20px;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"background-color: white; border-collapse: collapse; margin-left: "
+"20px;\">\n"
+>>>>>>> upstream/18.0
 "    <tr>\n"
 "        <td valign=\"top\" style=\"padding: 0px 10px;\">\n"
 "            <div style=\"font-size: 13px; margin: 0px; padding: 0px;\">\n"
 "                こんにちは。\n"
 "                <br/><br/>\n"
 "                以下の職位\n"
+<<<<<<< HEAD
 "                \"<a t-att-href=\"hasattr(object.job_id, 'website_url') and object.job_id.website_url or ''\" style=\"color:#9A6C8E;\"><strong t-out=\"object.job_id.name or ''\">開発者経験者</strong></a>\"  <strong t-out=\"object.company_id.name or ''\">YourCompany</strong>への応募を受け付けました。\n"
 "                <br/><br/>\n"
 "                追ってご連絡致します。\n"
@@ -518,11 +693,50 @@ msgstr ""
 "                </t>\n"
 "\n"
 "                <h3 style=\"color:#9A6C8E;\"><strong>次のステップ:</strong></h3>\n"
+=======
+"                \"<a t-att-href=\"hasattr(object.job_id, 'website_url') and "
+"object.job_id.website_url or ''\" style=\"color:#9A6C8E;\"><strong t-"
+"out=\"object.job_id.name or ''\">開発者経験者</strong></a>\"  <strong t-"
+"out=\"object.company_id.name or ''\">YourCompany</strong>への応募を受け付けま"
+"した。\n"
+"                <br/><br/>\n"
+"                追ってご連絡致します。\n"
+"\n"
+"                <div t-if=\"'website_url' in object.job_id and "
+"object.job_id.website_url\" style=\"padding: 16px 8px 16px 8px;\">\n"
+"                    <a t-att-href=\"object.job_id.website_url\" "
+"style=\"background-color: #875a7b; text-decoration: none; color: #fff; "
+"padding: 8px 16px 8px 16px; border-radius: 5px;\">職位説明</a>\n"
+"                </div>\n"
+"\n"
+"                <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;\"/>\n"
+"                <t t-if=\"object.user_id\">\n"
+"                    <h3 style=\"color:#9A6C8E;\"><strong>ご連絡先:</strong></"
+"h3>\n"
+"                    <p>\n"
+"                        <strong t-out=\"object.user_id.name or ''\">Mitchell "
+"Admin</strong><br/>\n"
+"                        <span>Eメール: <t t-out=\"object.user_id.email or "
+"''\">admin@yourcompany.example.com</t></span><br/>\n"
+"                        <span>電話: <t t-out=\"object.user_id.phone or "
+"''\">+1 650-123-4567</t></span>\n"
+"                    </p>\n"
+"                    <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;\"/>\n"
+"                </t>\n"
+"\n"
+"                <h3 style=\"color:#9A6C8E;\"><strong>次のステップ:</strong></"
+"h3>\n"
+>>>>>>> upstream/18.0
 "                通常、 <strong>数日以内にご連絡します。</strong><br/><br/>\n"
 "                もし <strong>返信をお急ぎ\n"
 "                の場合</strong> または時間がたっても当社から\n"
 "                連絡のない場合(このメールにご返信下さい)。\n"
 "\n"
+<<<<<<< HEAD
 "                <hr width=\"97%\" style=\"background-color: rgb(204,204,204); border: medium none; clear: both; display: block; font-size: 0px; min-height: 1px; line-height: 0; margin: 17px 0px 16px 0px;\"/>\n"
 "                <t t-set=\"location\" t-value=\"''\"/>\n"
 "                <t t-if=\"object.job_id.address_id.name\">\n"
@@ -552,6 +766,52 @@ msgstr ""
 "                <t t-if=\"object.job_id.address_id.country_id.name\">\n"
 "                    <t t-out=\"object.job_id.address_id.country_id.name or ''\">Argentina</t><br/>\n"
 "                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.job_id.address_id.country_id.name)\"/>\n"
+=======
+"                <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 17px 0px 16px 0px;\"/>\n"
+"                <t t-set=\"location\" t-value=\"''\"/>\n"
+"                <t t-if=\"object.job_id.address_id.name\">\n"
+"                    <strong t-out=\"object.job_id.address_id.name or "
+"''\">Teksa SpA</strong><br/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.street\">\n"
+"                    <t t-out=\"object.job_id.address_id.street or "
+"''\">Puerto Madero 9710</t><br/>\n"
+"                    <t t-set=\"location\" t-"
+"value=\"object.job_id.address_id.street\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.street2\">\n"
+"                    <t t-out=\"object.job_id.address_id.street2 or ''\">Of "
+"A15, Santiago (RM)</t><br/>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.street2)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.city\">\n"
+"                    <t t-out=\"object.job_id.address_id.city or "
+"''\">Pudahuel</t>,\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.city)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.state_id.name\">\n"
+"                    <t t-out=\"object.job_id.address_id.state_id.name or "
+"''\">C1</t>,\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.state_id.name)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.zip\">\n"
+"                    <t t-out=\"object.job_id.address_id.zip or ''\">98450</"
+"t>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.zip)\"/>\n"
+"                </t>\n"
+"                <br/>\n"
+"                <t t-if=\"object.job_id.address_id.country_id.name\">\n"
+"                    <t t-out=\"object.job_id.address_id.country_id.name or "
+"''\">Argentina</t><br/>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.country_id.name)\"/>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "                <br/>\n"
 "            </div>\n"
@@ -562,12 +822,23 @@ msgstr ""
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.email_template_data_applicant_interest
 msgid ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"background-color: white; border-collapse: collapse; margin-left: 20px;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"background-color: white; border-collapse: collapse; margin-left: "
+"20px;\">\n"
+>>>>>>> upstream/18.0
 "    <tr>\n"
 "        <td valign=\"top\" style=\"padding: 0px 10px;\">\n"
 "            <div style=\"text-align: center\">\n"
 "                <h2>Congratulations!</h2>\n"
+<<<<<<< HEAD
 "                <div style=\"color:grey;\">Your resume has been positively reviewed.</div>\n"
+=======
+"                <div style=\"color:grey;\">Your resume has been positively "
+"reviewed.</div>\n"
+>>>>>>> upstream/18.0
 "            </div>\n"
 "            <div style=\"font-size: 13px; margin: 0px; padding: 0px;\">\n"
 "                We just reviewed your resume, and it caught our\n"
@@ -575,21 +846,39 @@ msgid ""
 "                position, your application has been short listed for a\n"
 "                call or an interview.\n"
 "                <br/><br/>\n"
+<<<<<<< HEAD
 "                <div t-if=\"'website_url' in object.job_id and object.job_id.website_url\" style=\"padding: 16px 8px 16px 8px;\">\n"
 "                    <a t-att-href=\"object.job_id.website_url\" style=\"background-color: #875a7b; text-decoration: none; color: #fff; padding: 8px 16px 8px 16px; border-radius: 5px;\">Job Description</a>\n"
+=======
+"                <div t-if=\"'website_url' in object.job_id and "
+"object.job_id.website_url\" style=\"padding: 16px 8px 16px 8px;\">\n"
+"                    <a t-att-href=\"object.job_id.website_url\" "
+"style=\"background-color: #875a7b; text-decoration: none; color: #fff; "
+"padding: 8px 16px 8px 16px; border-radius: 5px;\">Job Description</a>\n"
+>>>>>>> upstream/18.0
 "                </div>\n"
 "\n"
 "                <t t-if=\"object.user_id\">\n"
 "                    You will soon be contacted by:<br/>\n"
+<<<<<<< HEAD
 "                    <strong t-out=\"object.user_id.name or ''\">Mitchell Admin</strong><br/>\n"
 "                    <span>Email: <t t-out=\"object.user_id.email or ''\">admin@yourcompany.example.com</t></span><br/>\n"
 "                    <span>Phone: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t></span>\n"
+=======
+"                    <strong t-out=\"object.user_id.name or ''\">Mitchell "
+"Admin</strong><br/>\n"
+"                    <span>Email: <t t-out=\"object.user_id.email or "
+"''\">admin@yourcompany.example.com</t></span><br/>\n"
+"                    <span>Phone: <t t-out=\"object.user_id.phone or ''\">+1 "
+"650-123-4567</t></span>\n"
+>>>>>>> upstream/18.0
 "                    <br/><br/>\n"
 "                </t>\n"
 "                See you soon,\n"
 "                <div style=\"font-size: 11px; color: grey;\">\n"
 "                    -- <br/>\n"
 "                    The HR Team\n"
+<<<<<<< HEAD
 "                    <t t-if=\"'website_url' in object.job_id and hasattr(object.job_id, 'website_url') and object.job_id.website_url\">\n"
 "                        Discover <a href=\"/jobs\" style=\"text-decoration:none;color:#717188;\">all our jobs</a>.<br/>\n"
 "                    </t>\n"
@@ -598,6 +887,22 @@ msgid ""
 "                <hr width=\"97%\" style=\"background-color: rgb(204,204,204); border: medium none; clear: both; display: block; font-size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;\"/>\n"
 "                <h3 style=\"color:#9A6C8E;\"><strong>What is the next step?</strong></h3>\n"
 "                We usually <strong>answer applications within a few days</strong>.\n"
+=======
+"                    <t t-if=\"'website_url' in object.job_id and "
+"hasattr(object.job_id, 'website_url') and object.job_id.website_url\">\n"
+"                        Discover <a href=\"/jobs\" style=\"text-"
+"decoration:none;color:#717188;\">all our jobs</a>.<br/>\n"
+"                    </t>\n"
+"                </div>\n"
+"\n"
+"                <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;\"/>\n"
+"                <h3 style=\"color:#9A6C8E;\"><strong>What is the next step?</"
+"strong></h3>\n"
+"                We usually <strong>answer applications within a few days</"
+"strong>.\n"
+>>>>>>> upstream/18.0
 "                <br/><br/>\n"
 "                The next step is either a call or a meeting in our offices.\n"
 "                <br/>\n"
@@ -606,6 +911,7 @@ msgid ""
 "                quickly enough (just reply to this email).\n"
 "                <br/>\n"
 "\n"
+<<<<<<< HEAD
 "                <hr width=\"97%\" style=\"background-color: rgb(204,204,204); border: medium none; clear: both; display: block; font-size: 0px; min-height: 1px; line-height: 0; margin: 17px 0px 16px 0px;\"/>\n"
 "                <t t-set=\"location\" t-value=\"''\"/>\n"
 "                <t t-if=\"object.job_id.address_id.name\">\n"
@@ -635,6 +941,52 @@ msgid ""
 "                <t t-if=\"object.job_id.address_id.country_id.name\">\n"
 "                    <t t-out=\"object.job_id.address_id.country_id.name or ''\">Argentina</t><br/>\n"
 "                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.job_id.address_id.country_id.name)\"/>\n"
+=======
+"                <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 17px 0px 16px 0px;\"/>\n"
+"                <t t-set=\"location\" t-value=\"''\"/>\n"
+"                <t t-if=\"object.job_id.address_id.name\">\n"
+"                    <strong t-out=\"object.job_id.address_id.name or "
+"''\">Teksa SpA</strong><br/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.street\">\n"
+"                    <t t-out=\"object.job_id.address_id.street or "
+"''\">Puerto Madero 9710</t><br/>\n"
+"                    <t t-set=\"location\" t-"
+"value=\"object.job_id.address_id.street\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.street2\">\n"
+"                    <t t-out=\"object.job_id.address_id.street2 or ''\">Of "
+"A15, Santiago (RM)</t><br/>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.street2)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.city\">\n"
+"                    <t t-out=\"object.job_id.address_id.city or "
+"''\">Pudahuel</t>,\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.city)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.state_id.name\">\n"
+"                    <t t-out=\"object.job_id.address_id.state_id.name or "
+"''\">C1</t>,\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.state_id.name)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.zip\">\n"
+"                    <t t-out=\"object.job_id.address_id.zip or ''\">98450</"
+"t>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.zip)\"/>\n"
+"                </t>\n"
+"                <br/>\n"
+"                <t t-if=\"object.job_id.address_id.country_id.name\">\n"
+"                    <t t-out=\"object.job_id.address_id.country_id.name or "
+"''\">Argentina</t><br/>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.country_id.name)\"/>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "                <br/>\n"
 "            </div>\n"
@@ -642,12 +994,23 @@ msgid ""
 "    </tr>\n"
 "</table>"
 msgstr ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"background-color: white; border-collapse: collapse; margin-left: 20px;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"background-color: white; border-collapse: collapse; margin-left: "
+"20px;\">\n"
+>>>>>>> upstream/18.0
 "    <tr>\n"
 "        <td valign=\"top\" style=\"padding: 0px 10px;\">\n"
 "            <div style=\"text-align: center\">\n"
 "                <h2>おめでとうございます。</h2>\n"
+<<<<<<< HEAD
 "                <div style=\"color:grey;\">あなたの履歴書が前向きに評価されました。</div>\n"
+=======
+"                <div style=\"color:grey;\">あなたの履歴書が前向きに評価されま"
+"した。</div>\n"
+>>>>>>> upstream/18.0
 "            </div>\n"
 "            <div style=\"font-size: 13px; margin: 0px; padding: 0px;\">\n"
 "                あなたの履歴書を拝見し、ぜひ次の選考に\n"
@@ -655,21 +1018,39 @@ msgstr ""
 "                近日中に、電話面接、または面接を\n"
 "予定させて頂きます。\n"
 "                <br/><br/>\n"
+<<<<<<< HEAD
 "                <div t-if=\"'website_url' in object.job_id and object.job_id.website_url\" style=\"padding: 16px 8px 16px 8px;\">\n"
 "                    <a t-att-href=\"object.job_id.website_url\" style=\"background-color: #875a7b; text-decoration: none; color: #fff; padding: 8px 16px 8px 16px; border-radius: 5px;\">募集職種</a>\n"
+=======
+"                <div t-if=\"'website_url' in object.job_id and "
+"object.job_id.website_url\" style=\"padding: 16px 8px 16px 8px;\">\n"
+"                    <a t-att-href=\"object.job_id.website_url\" "
+"style=\"background-color: #875a7b; text-decoration: none; color: #fff; "
+"padding: 8px 16px 8px 16px; border-radius: 5px;\">募集職種</a>\n"
+>>>>>>> upstream/18.0
 "                </div>\n"
 "\n"
 "                <t t-if=\"object.user_id\">\n"
 "                    間もなく担当者から連絡させて頂きます:<br/>\n"
+<<<<<<< HEAD
 "                    <strong t-out=\"object.user_id.name or ''\">Mitchell Admin</strong><br/>\n"
 "                    <span>Eメール: <t t-out=\"object.user_id.email or ''\">admin@yourcompany.example.com</t></span><br/>\n"
 "                    <span>電話番号: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t></span>\n"
+=======
+"                    <strong t-out=\"object.user_id.name or ''\">Mitchell "
+"Admin</strong><br/>\n"
+"                    <span>Eメール: <t t-out=\"object.user_id.email or "
+"''\">admin@yourcompany.example.com</t></span><br/>\n"
+"                    <span>電話番号: <t t-out=\"object.user_id.phone or "
+"''\">+1 650-123-4567</t></span>\n"
+>>>>>>> upstream/18.0
 "                    <br/><br/>\n"
 "                </t>\n"
 "                宜しくお願い致します。\n"
 "                <div style=\"font-size: 11px; color: grey;\">\n"
 "                    -- <br/>\n"
 "                    人事部\n"
+<<<<<<< HEAD
 "                    <t t-if=\"'website_url' in object.job_id and hasattr(object.job_id, 'website_url') and object.job_id.website_url\">\n"
 "                        <a href=\"/jobs\" style=\"text-decoration:none;color:#717188;\">当社の募集職種</a>を見る<br/>\n"
 "                    </t>\n"
@@ -678,10 +1059,27 @@ msgstr ""
 "                <hr width=\"97%\" style=\"background-color: rgb(204,204,204); border: medium none; clear: both; display: block; font-size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;\"/>\n"
 "                <h3 style=\"color:#9A6C8E;\"><strong>今後のステップ</strong></h3>\n"
 "                通常 <strong>応募から数日以内にご連絡させて頂きます</strong>。\n"
+=======
+"                    <t t-if=\"'website_url' in object.job_id and "
+"hasattr(object.job_id, 'website_url') and object.job_id.website_url\">\n"
+"                        <a href=\"/jobs\" style=\"text-"
+"decoration:none;color:#717188;\">当社の募集職種</a>を見る<br/>\n"
+"                    </t>\n"
+"                </div>\n"
+"\n"
+"                <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;\"/>\n"
+"                <h3 style=\"color:#9A6C8E;\"><strong>今後のステップ</"
+"strong></h3>\n"
+"                通常 <strong>応募から数日以内にご連絡させて頂きます</"
+"strong>。\n"
+>>>>>>> upstream/18.0
 "                <br/><br/>\n"
 "                次は電話または当社オフィスでの面接となります。\n"
 "                <br/>\n"
 "                <strong>お急ぎで返信が必要な場合\n"
+<<<<<<< HEAD
 "                </strong> または、時間がたっても返信がない場合は、ご連絡下さい。\n"
 "                 (本メールにご返信下さい)。\n"
 "                <br/>\n"
@@ -715,6 +1113,57 @@ msgstr ""
 "                <t t-if=\"object.job_id.address_id.country_id.name\">\n"
 "                    <t t-out=\"object.job_id.address_id.country_id.name or ''\">Argentina</t><br/>\n"
 "                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.job_id.address_id.country_id.name)\"/>\n"
+=======
+"                </strong> または、時間がたっても返信がない場合は、ご連絡下さ"
+"い。\n"
+"                 (本メールにご返信下さい)。\n"
+"                <br/>\n"
+"\n"
+"                <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 17px 0px 16px 0px;\"/>\n"
+"                <t t-set=\"location\" t-value=\"''\"/>\n"
+"                <t t-if=\"object.job_id.address_id.name\">\n"
+"                    <strong t-out=\"object.job_id.address_id.name or "
+"''\">Teksa SpA</strong><br/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.street\">\n"
+"                    <t t-out=\"object.job_id.address_id.street or "
+"''\">Puerto Madero 9710</t><br/>\n"
+"                    <t t-set=\"location\" t-"
+"value=\"object.job_id.address_id.street\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.street2\">\n"
+"                    <t t-out=\"object.job_id.address_id.street2 or ''\">Of "
+"A15, Santiago (RM)</t><br/>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.street2)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.city\">\n"
+"                    <t t-out=\"object.job_id.address_id.city or "
+"''\">Pudahuel</t>,\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.city)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.state_id.name\">\n"
+"                    <t t-out=\"object.job_id.address_id.state_id.name or "
+"''\">C1</t>,\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.state_id.name)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.zip\">\n"
+"                    <t t-out=\"object.job_id.address_id.zip or ''\">98450</"
+"t>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.zip)\"/>\n"
+"                </t>\n"
+"                <br/>\n"
+"                <t t-if=\"object.job_id.address_id.country_id.name\">\n"
+"                    <t t-out=\"object.job_id.address_id.country_id.name or "
+"''\">Argentina</t><br/>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.country_id.name)\"/>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "                <br/>\n"
 "            </div>\n"
@@ -725,18 +1174,30 @@ msgstr ""
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.email_template_data_applicant_not_interested
 msgid ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; "
+"border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "    <tr>\n"
 "        <td valign=\"top\">\n"
 "            <div style=\"font-size: 13px; margin: 0px; padding: 0px;\">\n"
 "                Dear,<br/><br/>\n"
+<<<<<<< HEAD
 "                We would like to thank you for your interest and your time.<br/>\n"
+=======
+"                We would like to thank you for your interest and your time."
+"<br/>\n"
+>>>>>>> upstream/18.0
 "                We wish you all the best in your future endeavors.\n"
 "                <br/><br/>\n"
 "                Best<br/>\n"
 "                <div style=\"font-size: 11px; color: grey;\">\n"
 "                    <t t-if=\"object.user_id\">\n"
 "                        -- <br/>\n"
+<<<<<<< HEAD
 "                        <strong t-out=\"object.user_id.name or ''\">Marc Demo</strong><br/>\n"
 "                        Email: <t t-out=\"object.user_id.email or ''\">mark.brown23@example.com</t><br/>\n"
 "                        Phone: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t>\n"
@@ -744,6 +1205,19 @@ msgid ""
 "                    <t t-else=\"\">\n"
 "                        -- <br/>\n"
 "                        <t t-out=\"object.company_id.name or ''\">YourCompany</t><br/>\n"
+=======
+"                        <strong t-out=\"object.user_id.name or ''\">Marc "
+"Demo</strong><br/>\n"
+"                        Email: <t t-out=\"object.user_id.email or "
+"''\">mark.brown23@example.com</t><br/>\n"
+"                        Phone: <t t-out=\"object.user_id.phone or ''\">+1 "
+"650-123-4567</t>\n"
+"                    </t>\n"
+"                    <t t-else=\"\">\n"
+"                        -- <br/>\n"
+"                        <t t-out=\"object.company_id.name or "
+"''\">YourCompany</t><br/>\n"
+>>>>>>> upstream/18.0
 "                        The HR Team<br/>\n"
 "                    </t>\n"
 "                </div>\n"
@@ -753,18 +1227,30 @@ msgid ""
 "</table>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; "
+"border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "    <tr>\n"
 "        <td valign=\"top\">\n"
 "            <div style=\"font-size: 13px; margin: 0px; padding: 0px;\">\n"
 "                様、<br/><br/>\n"
+<<<<<<< HEAD
 "                当社にご興味を持って頂き、またお時間を頂きありがとうございました。<br/>\n"
+=======
+"                当社にご興味を持って頂き、またお時間を頂きありがとうございま"
+"した。<br/>\n"
+>>>>>>> upstream/18.0
 "                今後のご活躍をお祈りしています。\n"
 "                <br/><br/>\n"
 "                宜しくお願い致します。<br/>\n"
 "                <div style=\"font-size: 11px; color: grey;\">\n"
 "                    <t t-if=\"object.user_id\">\n"
 "                        -- <br/>\n"
+<<<<<<< HEAD
 "                        <strong t-out=\"object.user_id.name or ''\">Marc Demo</strong><br/>\n"
 "                        Email: <t t-out=\"object.user_id.email or ''\">mark.brown23@example.com</t><br/>\n"
 "                        Phone: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t>\n"
@@ -772,6 +1258,19 @@ msgstr ""
 "                    <t t-else=\"\">\n"
 "                        -- <br/>\n"
 "                        <t t-out=\"object.company_id.name or ''\">YourCompany</t><br/>\n"
+=======
+"                        <strong t-out=\"object.user_id.name or ''\">Marc "
+"Demo</strong><br/>\n"
+"                        Email: <t t-out=\"object.user_id.email or "
+"''\">mark.brown23@example.com</t><br/>\n"
+"                        Phone: <t t-out=\"object.user_id.phone or ''\">+1 "
+"650-123-4567</t>\n"
+"                    </t>\n"
+"                    <t t-else=\"\">\n"
+"                        -- <br/>\n"
+"                        <t t-out=\"object.company_id.name or "
+"''\">YourCompany</t><br/>\n"
+>>>>>>> upstream/18.0
 "                        人事部<br/>\n"
 "                    </t>\n"
 "                </div>\n"
@@ -784,13 +1283,24 @@ msgstr ""
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.email_template_data_applicant_refuse
 msgid ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; "
+"border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "    <tr>\n"
 "        <td valign=\"top\">\n"
 "            <div style=\"font-size: 13px; margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
 "                Thank you for your interest in joining the\n"
+<<<<<<< HEAD
 "                <b><t t-out=\"object.company_id.name or ''\">YourCompany</t></b> team.  We\n"
+=======
+"                <b><t t-out=\"object.company_id.name or ''\">YourCompany</"
+"t></b> team.  We\n"
+>>>>>>> upstream/18.0
 "                wanted to let you know that, although your resume is\n"
 "                competitive, our hiring team reviewed your application\n"
 "                and <b>did not select it for further consideration</b>.\n"
@@ -812,6 +1322,7 @@ msgid ""
 "                <div style=\"font-size: 11px; color: grey;\">\n"
 "                    <t t-if=\"object.user_id\">\n"
 "                        -- <br/>\n"
+<<<<<<< HEAD
 "                        <strong t-out=\"object.user_id.name or ''\">Mitchell Admin</strong><br/>\n"
 "                        Email: <t t-out=\"object.user_id.email or ''\">admin@yourcompany.example.com</t><br/>\n"
 "                        Phone: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t>\n"
@@ -819,6 +1330,19 @@ msgid ""
 "                    <t t-else=\"\">\n"
 "                        -- <br/>\n"
 "                        <t t-out=\"object.company_id.name or ''\">YourCompany</t><br/>\n"
+=======
+"                        <strong t-out=\"object.user_id.name or ''\">Mitchell "
+"Admin</strong><br/>\n"
+"                        Email: <t t-out=\"object.user_id.email or "
+"''\">admin@yourcompany.example.com</t><br/>\n"
+"                        Phone: <t t-out=\"object.user_id.phone or ''\">+1 "
+"650-123-4567</t>\n"
+"                    </t>\n"
+"                    <t t-else=\"\">\n"
+"                        -- <br/>\n"
+"                        <t t-out=\"object.company_id.name or "
+"''\">YourCompany</t><br/>\n"
+>>>>>>> upstream/18.0
 "                        The HR Team\n"
 "                    </t>\n"
 "                </div>\n"
@@ -828,19 +1352,35 @@ msgid ""
 "</table>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; "
+"border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "    <tr>\n"
 "        <td valign=\"top\">\n"
 "            <div style=\"font-size: 13px; margin: 0px; padding: 0px;\">\n"
 "                お世話になっております。<br/><br/>\n"
 "                弊社\n"
+<<<<<<< HEAD
 "                <b><t t-out=\"object.company_id.name or ''\">YourCompany</t></b> チームの求人にご興味をお持ちいただきありがとうございます。\n"
+=======
+"                <b><t t-out=\"object.company_id.name or ''\">YourCompany</"
+"t></b> チームの求人にご興味をお持ちいただきありがとうございます。\n"
+>>>>>>> upstream/18.0
 "                頂いた履歴書を拝見し、素晴らしい経歴をお持ちですが、\n"
 "                弊社の採用チームで検討いたしました結果、\n"
 "                <b>今回の採用は見送らさせて頂きます</b>。\n"
 "                <br/><br/>\n"
 "                採用プロセスは時に複雑で\n"
+<<<<<<< HEAD
 "                時として弊社の方で誤りということもあります。もし、弊社が間違っている、あるいは\n"
+=======
+"                時として弊社の方で誤りということもあります。もし、弊社が間"
+"違っている、あるいは\n"
+>>>>>>> upstream/18.0
 "                当社の決断に対して、さらに情報をお望みということであれば\n"
 "                メールにてご連絡下さい。\n"
 "                <br/><br/>\n"
@@ -856,6 +1396,7 @@ msgstr ""
 "                <div style=\"font-size: 11px; color: grey;\">\n"
 "                    <t t-if=\"object.user_id\">\n"
 "                        -- <br/>\n"
+<<<<<<< HEAD
 "                        <strong t-out=\"object.user_id.name or ''\">Mitchell Admin</strong><br/>\n"
 "                        Email: <t t-out=\"object.user_id.email or ''\">admin@yourcompany.example.com</t><br/>\n"
 "                        Phone: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t>\n"
@@ -863,6 +1404,19 @@ msgstr ""
 "                    <t t-else=\"\">\n"
 "                        -- <br/>\n"
 "                        <t t-out=\"object.company_id.name or ''\">YourCompany</t><br/>\n"
+=======
+"                        <strong t-out=\"object.user_id.name or ''\">Mitchell "
+"Admin</strong><br/>\n"
+"                        Email: <t t-out=\"object.user_id.email or "
+"''\">admin@yourcompany.example.com</t><br/>\n"
+"                        Phone: <t t-out=\"object.user_id.phone or ''\">+1 "
+"650-123-4567</t>\n"
+"                    </t>\n"
+"                    <t t-else=\"\">\n"
+"                        -- <br/>\n"
+"                        <t t-out=\"object.company_id.name or "
+"''\">YourCompany</t><br/>\n"
+>>>>>>> upstream/18.0
 "                        The HR Team\n"
 "                    </t>\n"
 "                </div>\n"
@@ -877,7 +1431,13 @@ msgstr ""
 msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
+<<<<<<< HEAD
 msgstr "このエイリアスの新しいレコードを作成する時にデフォルト値を与えるためのPython辞書です。"
+=======
+msgstr ""
+"このエイリアスの新しいレコードを作成する時にデフォルト値を与えるためのPython"
+"辞書です。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__message_needaction
@@ -962,7 +1522,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化"
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
@@ -1324,6 +1888,14 @@ msgid "All Applications"
 msgstr "全ての応募"
 
 #. module: hr_recruitment
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__allowed_user_ids
+msgid "Allowed User"
+msgstr ""
+
+#. module: hr_recruitment
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
 msgid "Analysis"
 msgstr "分析"
@@ -1397,12 +1969,24 @@ msgstr "応募者が採用されました"
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
+<<<<<<< HEAD
 "Applicants and their attached résumé are created automatically when an email is sent.\n"
 "                If you install the document management modules, all resumes are indexed automatically,\n"
 "                so that you can easily search through their content."
 msgstr ""
 "メールが送信されると、応募者と添付された履歴書が自動的に作成されます。\n"
 "　　　　ドキュメント管理モジュールをインストールすると、全ての履歴書が自動的にインデックス化され\n"
+=======
+"Applicants and their attached résumé are created automatically when an email "
+"is sent.\n"
+"                If you install the document management modules, all resumes "
+"are indexed automatically,\n"
+"                so that you can easily search through their content."
+msgstr ""
+"メールが送信されると、応募者と添付された履歴書が自動的に作成されます。\n"
+"　　　　ドキュメント管理モジュールをインストールすると、全ての履歴書が自動的"
+"にインデックス化され\n"
+>>>>>>> upstream/18.0
 "　　　　簡単に内容を検索することができます。"
 
 #. module: hr_recruitment
@@ -1450,7 +2034,13 @@ msgstr "応募"
 msgid ""
 "Applications received from this Email won't be linked to a contact.There "
 "will be no email address set on the Applicant either."
+<<<<<<< HEAD
 msgstr "このメールから受信した応募は、連絡先にリンクされません。応募者にもメールアドレスは設定されません。"
+=======
+msgstr ""
+"このメールから受信した応募は、連絡先にリンクされません。応募者にもメールアド"
+"レスは設定されません。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__create_date
@@ -1492,9 +2082,16 @@ msgstr "割当済"
 #. odoo-python
 #: code:addons/hr_recruitment/wizard/applicant_refuse_reason.py:0
 msgid ""
+<<<<<<< HEAD
 "At least one applicant doesn't have a email; you can't use send email "
 "option."
 msgstr "少なくとも1人の応募者がEメールを持っていません。Eメール送信オプションを使用できません。"
+=======
+"At least one applicant doesn't have a email; you can't use send email option."
+msgstr ""
+"少なくとも1人の応募者がEメールを持っていません。Eメール送信オプションを使用で"
+"きません。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.applicant_send_mail_view_form
@@ -1586,8 +2183,14 @@ msgid ""
 "statistics according to the source of the application: LinkedIn, Monster, "
 "Indeed, etc."
 msgstr ""
+<<<<<<< HEAD
 "募集職位にエイリアスを設定することで、このアドレスに送信されたメールは自動的に応募を作成します。複数のトラッカーを使用して、応募元に応じて統計を取ることもできます:"
 " LinkedIn、Monster、Indeedなど。"
+=======
+"募集職位にエイリアスを設定することで、このアドレスに送信されたメールは自動的"
+"に応募を作成します。複数のトラッカーを使用して、応募元に応じて統計を取ること"
+"もできます: LinkedIn、Monster、Indeedなど。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_calendar_event
@@ -1748,7 +2351,12 @@ msgstr "署名済みの契約"
 #. odoo-javascript
 #: code:addons/hr_recruitment/static/src/js/tours/hr_recruitment.js:0
 msgid "Copy this email address, to paste it in your email composer, to apply."
+<<<<<<< HEAD
 msgstr "このメールアドレスをコピーし、メールコンポーザに貼り付けてご応募下さい。"
+=======
+msgstr ""
+"このメールアドレスをコピーし、メールコンポーザに貼り付けてご応募下さい。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_candidate__message_bounce
@@ -1868,13 +2476,24 @@ msgid ""
 "Define a specific contact address for this job position. If you keep it "
 "empty, the default email address will be used which is in human resources "
 "settings"
+<<<<<<< HEAD
 msgstr "この求人職位の特定の連絡先アドレスを定義します。空欄にしておくと、人事設定にあるデフォルトのメールアドレスが使用されます。"
+=======
+msgstr ""
+"この求人職位の特定の連絡先アドレスを定義します。空欄にしておくと、人事設定に"
+"あるデフォルトのメールアドレスが使用されます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.hr_job_stage_act
 msgid ""
 "Define here your stages of the recruitment process, for example:\n"
+<<<<<<< HEAD
 "                    qualification call, first interview, second interview, refused,\n"
+=======
+"                    qualification call, first interview, second interview, "
+"refused,\n"
+>>>>>>> upstream/18.0
 "                    hired."
 msgstr ""
 "ここで、採用プロセスのステージを定義します。例:\n"
@@ -1994,7 +2613,13 @@ msgstr "応募フォームに履歴書を表示"
 #. odoo-python
 #: code:addons/hr_recruitment/models/digest.py:0
 msgid "Do not have access, skip this data for user's digest email"
+<<<<<<< HEAD
 msgstr "アクセス権がありません。ユーザのダイジェストメールにこのデータをスキップしてください"
+=======
+msgstr ""
+"アクセス権がありません。ユーザのダイジェストメールにこのデータをスキップして"
+"ください"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:hr.recruitment.degree,name:hr_recruitment.degree_bac5
@@ -2073,7 +2698,13 @@ msgstr "メールテンプレート"
 msgid ""
 "Email alias for this job position. New emails will automatically create new "
 "applicants for this job position."
+<<<<<<< HEAD
 msgstr "この職種のEメールエイリアス。新規メールがこの職種の新規応募者を自動的に作成します。"
+=======
+msgstr ""
+"この職種のEメールエイリアス。新規メールがこの職種の新規応募者を自動的に作成し"
+"ます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__email_cc
@@ -2188,7 +2819,13 @@ msgstr "お気に入りユーザ"
 msgid ""
 "Field used to store sanitized phone number. Helps speeding up searches and "
 "comparisons."
+<<<<<<< HEAD
 msgstr "サニタイズされた電話番号を保存するためのフィールド。検索や比較のスピードアップに役立ちます。"
+=======
+msgstr ""
+"サニタイズされた電話番号を保存するためのフィールド。検索や比較のスピードアッ"
+"プに役立ちます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.ir_attachment_hr_recruitment_list_view
@@ -2302,7 +2939,11 @@ msgid "Get Refuse Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "不採用理由を入手"
+=======
+msgstr "不採用理由の選択"
+>>>>>>> upstream/18.0
 =======
 msgstr "不採用理由の選択"
 >>>>>>> upstream/18.0
@@ -2550,8 +3191,13 @@ msgstr "メッセージあり"
 #. odoo-python
 #: code:addons/hr_recruitment/models/hr_applicant.py:0
 msgid ""
+<<<<<<< HEAD
 "Have you tried to <a>add skills to your job position</a> and search into the"
 " Reserve ?"
+=======
+"Have you tried to <a>add skills to your job position</a> and search into the "
+"Reserve ?"
+>>>>>>> upstream/18.0
 msgstr "<a>職位にスキルを追加</a>または保留の中を検索してみましたか？"
 
 #. module: hr_recruitment
@@ -2597,9 +3243,17 @@ msgstr "ID"
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_parent_thread_id
 msgid ""
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr "エイリアスを保持する親レコードのID(例：プロジェクトは、タスク作成エイリアスを保持)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+msgstr ""
+"エイリアスを保持する親レコードのID(例：プロジェクトは、タスク作成エイリアスを"
+"保持)"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__activity_exception_icon
@@ -2631,21 +3285,38 @@ msgstr "チェックした場合は、一部のメッセージに配信エラー
 #: model:ir.model.fields,help:hr_recruitment.field_hr_recruitment_stage__hired_stage
 msgid ""
 "If checked, this stage is used to determine the hire date of an applicant"
+<<<<<<< HEAD
 msgstr "チェックを付けると、このステージが応募者の採用日を決定するために使われます"
+=======
+msgstr ""
+"チェックを付けると、このステージが応募者の採用日を決定するために使われます"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_recruitment_stage__template_id
 msgid ""
 "If set, a message is posted on the applicant using the template when the "
 "applicant is set to the stage."
+<<<<<<< HEAD
 msgstr "設定されている場合、申請者がステージに設定されると、テンプレートを使用して申請者にメッセージが投稿されます。"
+=======
+msgstr ""
+"設定されている場合、申請者がステージに設定されると、テンプレートを使用して申"
+"請者にメッセージが投稿されます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_bounced_content
 msgid ""
 "If set, this content will automatically be sent out to unauthorized users "
 "instead of the default message."
+<<<<<<< HEAD
 msgstr "設定されている場合、このコンテンツはデフォルトのメッセージではなく、許可されていないユーザーに自動的に送信されます。"
+=======
+msgstr ""
+"設定されている場合、このコンテンツはデフォルトのメッセージではなく、許可され"
+"ていないユーザーに自動的に送信されます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__emp_is_active
@@ -2653,7 +3324,13 @@ msgstr "設定されている場合、このコンテンツはデフォルトの
 msgid ""
 "If the active field is set to False, it will allow you to hide the resource "
 "record without removing it."
+<<<<<<< HEAD
 msgstr "アクティブ項目をFalse にセットすると、リソースレコードは削除することなく非表示にできます。"
+=======
+msgstr ""
+"アクティブ項目をFalse にセットすると、リソースレコードは削除することなく非表"
+"示にできます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__active
@@ -2667,14 +3344,28 @@ msgstr "もしこの項目が誤りならば、この事例を削除しないで
 msgid ""
 "If the email address is on the blacklist, the contact won't receive mass "
 "mailing anymore, from any list"
+<<<<<<< HEAD
 msgstr "メールアドレスがブラックリストに含まれている場合、連絡先はどのリストからも大量のメールを受信しなくなります"
+=======
+msgstr ""
+"メールアドレスがブラックリストに含まれている場合、連絡先はどのリストからも大"
+"量のメールを受信しなくなります"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_candidate__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
 msgstr "サニタイズされた電話番号がブラックリストに登録されている場合、その連絡先は、どのリストからも、一括送信のSMSを受信できなくなります。"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+msgstr ""
+"サニタイズされた電話番号がブラックリストに登録されている場合、その連絡先は、"
+"どのリストからも、一括送信のSMSを受信できなくなります。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #. odoo-python
@@ -2700,7 +3391,12 @@ msgid ""
 "Incoming emails create applications automatically. Use it for direct "
 "applications or when posting job offers on LinkedIn, Monster, etc."
 msgstr ""
+<<<<<<< HEAD
 " 受信したEメールは、自動的に応募を作成します。直接応募の場合や、LinkedIn、Monsterなどに求人情報を掲載する場合にご利用下さい。"
+=======
+" 受信したEメールは、自動的に応募を作成します。直接応募の場合や、LinkedIn、"
+"Monsterなどに求人情報を掲載する場合にご利用下さい。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_candidate__mobile_blacklisted
@@ -2709,7 +3405,13 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+<<<<<<< HEAD
 "ブラックリストに登録された電話番号が携帯電話番号であるかどうかを示します。モデル内に携帯電話フィールドと電話番号フィールドの両方がある場合に、　　　どちらの番号がブラックリストに登録されているかを区別するのに役立ちます。"
+=======
+"ブラックリストに登録された電話番号が携帯電話番号であるかどうかを示します。モ"
+"デル内に携帯電話フィールドと電話番号フィールドの両方がある場合に、　　　どち"
+"らの番号がブラックリストに登録されているかを区別するのに役立ちます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_candidate__phone_blacklisted
@@ -2718,7 +3420,14 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+<<<<<<< HEAD
 "ブラックリストに登録されたサニタイズされた電話番号が電話番号であるかどうかを示します。モデル内に携帯電話フィールドと電話フィールドの両方がある場合に、　　　どちらの番号がブラックリストに登録されているかを区別するのに役立ちます。"
+=======
+"ブラックリストに登録されたサニタイズされた電話番号が電話番号であるかどうかを"
+"示します。モデル内に携帯電話フィールドと電話フィールドの両方がある場合"
+"に、　　　どちらの番号がブラックリストに登録されているかを区別するのに役立ち"
+"ます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__industry_id
@@ -2777,7 +3486,12 @@ msgstr "警告表示中"
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__date_from
 msgid ""
 "Is set, update candidates availability once hired for that specific mission."
+<<<<<<< HEAD
 msgstr "設定すると、特定の任務に採用された場合の候補者の勤務可能性を更新します。"
+=======
+msgstr ""
+"設定すると、特定の任務に採用された場合の候補者の勤務可能性を更新します。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__duration_tracking
@@ -2972,7 +3686,11 @@ msgid "Kanban Ongoing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "かんばん進行中"
+=======
+msgstr "かんばん 選考中"
+>>>>>>> upstream/18.0
 =======
 msgstr "かんばん 選考中"
 >>>>>>> upstream/18.0
@@ -3329,7 +4047,11 @@ msgid "Kanban State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "かんばん状態"
+=======
+msgstr "かんばん ステータス"
+>>>>>>> upstream/18.0
 =======
 msgstr "かんばん ステータス"
 >>>>>>> upstream/18.0
@@ -3686,7 +4408,11 @@ msgid "Kanban Valid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "かんばん有効"
+=======
+msgstr "かんばん 有効"
+>>>>>>> upstream/18.0
 =======
 msgstr "かんばん 有効"
 >>>>>>> upstream/18.0
@@ -4030,7 +4756,13 @@ msgstr "職位を作成しましょう"
 msgid ""
 "Let's create the position. An email will be setup for applications, and a "
 "public job description, if you use the Website app."
+<<<<<<< HEAD
 msgstr "職位を作成しましょう。応募用のEメールが設定され、ウェブサイトアプリを使用する場合は、公開求人説明が設定されます。"
+=======
+msgstr ""
+"職位を作成しましょう。応募用のEメールが設定され、ウェブサイトアプリを使用する"
+"場合は、公開求人説明が設定されます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #. odoo-javascript
@@ -4373,8 +5105,16 @@ msgstr "配信エラーが発生されたメッセージ数"
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
 "Odoo helps you track applicants in the recruitment\n"
+<<<<<<< HEAD
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr "Odooは各候補者の選考状況を追跡し、管理作業や面談・面接の設定など全てのオペレーションをサポートします。"
+=======
+"                process and follow up all operations: meetings, interviews, "
+"etc."
+msgstr ""
+"Odooは各候補者の選考状況を追跡し、管理作業や面談・面接の設定など全てのオペ"
+"レーションをサポートします。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:res.groups,name:hr_recruitment.group_hr_recruitment_user
@@ -4390,6 +5130,7 @@ msgstr "過去の応募者"
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_applicant__application_status__ongoing
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_search
 msgid "Ongoing"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4743,6 +5484,9 @@ msgstr "選考中"
 =======
 msgstr "選考中"
 >>>>>>> upstream/18.0
+=======
+msgstr "選考中"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_res_config_settings__module_website_hr_recruitment
@@ -4762,7 +5506,13 @@ msgid ""
 "Optional ID of a thread (record) to which all incoming messages will be "
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
+<<<<<<< HEAD
 msgstr "すべての受信メッセージに添付されるスレッド(レコード)のオプションIDです。設定した場合は新しいレコードの作成を無効にします。"
+=======
+msgstr ""
+"すべての受信メッセージに添付されるスレッド(レコード)のオプションIDです。設定"
+"した場合は新しいレコードの作成を無効にします。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_applicant_send_mail__lang
@@ -4770,12 +5520,21 @@ msgstr "すべての受信メッセージに添付されるスレッド(レコ�
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
 "メールを送信時に、オプションで選択可能な翻訳言語 "
 "(ISOコード)。セットしてない場合は、英語版が使われます。これは通常、適切な言語を提供するプレースホルダ式であります、例: {{ "
 "object.partner_id.lang }}"
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+msgstr ""
+"メールを送信時に、オプションで選択可能な翻訳言語 (ISOコード)。セットしてない"
+"場合は、英語版が使われます。これは通常、適切な言語を提供するプレースホルダ式"
+"であります、例: {{ object.partner_id.lang }}"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #. odoo-javascript
@@ -4817,11 +5576,21 @@ msgstr "親レコードスレッドID"
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_parent_model_id
 msgid ""
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
 "エイリアスを保持する親モデル。エイリアスの参照を保持しているモデルは、必ずしもalias_model_idによって与えられたモデルではありません(例：プロジェクト(parent_model)とタスク(model))"
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+"(parent_model) and task (model))"
+msgstr ""
+"エイリアスを保持する親モデル。エイリアスの参照を保持しているモデルは、必ずし"
+"もalias_model_idによって与えられたモデルではありません(例：プロジェクト"
+"(parent_model)とタスク(model))"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__partner_name
@@ -4856,6 +5625,7 @@ msgid ""
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
 msgstr ""
 "メールゲートウェイを使用したメッセージドキュメント投稿のポリシー\n"
@@ -5312,6 +6082,16 @@ msgstr ""
 "- 取引先: 認証済みの取引先のみ\n"
 "- フォロワー: 関連ドキュメントのフォロワーか、フォローしているチャネルのメンバーのみ\n"
 >>>>>>> upstream/18.0
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+msgstr ""
+"メールゲートウェイを使用したメッセージドキュメント投稿のポリシー\n"
+"- 全員: 誰でも投稿可能\n"
+"- 取引先: 認証済みの取引先のみ\n"
+"- フォロワー: 関連ドキュメントのフォロワーか、フォローしているチャネルのメン"
+"バーのみ\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__probability
@@ -5514,7 +6294,12 @@ msgstr "不採用"
 msgid ""
 "Refused automatically because this application has been identified as a "
 "duplicate of %(link)s"
+<<<<<<< HEAD
 msgstr "この応募は以下の応募と重複しているため、自動的に不採用となります:%(link)s"
+=======
+msgstr ""
+"この応募は以下の応募と重複しているため、自動的に不採用となります:%(link)s"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:hr.applicant.refuse.reason,name:hr_recruitment.refuse_reason_2
@@ -5662,9 +6447,17 @@ msgstr "二次面接"
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__address_id
 msgid ""
+<<<<<<< HEAD
 "Select the location where the applicant will work. Addresses listed here are"
 " defined on the company's contact information."
 msgstr "勤務地を選択して下さい。ここに記載されている住所は、会社の連絡先情報に定義されています。"
+=======
+"Select the location where the applicant will work. Addresses listed here are "
+"defined on the company's contact information."
+msgstr ""
+"勤務地を選択して下さい。ここに記載されている住所は、会社の連絡先情報に定義さ"
+"れています。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.applicant_send_mail_view_form
@@ -5693,6 +6486,7 @@ msgid "Send Interview Survey"
 msgstr "インタビュー調査を送付"
 
 #. module: hr_recruitment
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5893,6 +6687,8 @@ msgstr "インタビュー調査を送付"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.res_config_settings_view_form
 msgid "Send SMS"
 msgstr "SMS配信"
@@ -5936,7 +6732,13 @@ msgstr "シーケンス"
 msgid ""
 "Set this template to a recruitment stage to send it when applications reach "
 "that stage"
+<<<<<<< HEAD
 msgstr "このテンプレートを採用ステージに設定すると、応募がそのステージに達したときに送信されます。"
+=======
+msgstr ""
+"このテンプレートを採用ステージに設定すると、応募がそのステージに達したときに"
+"送信されます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.action_hr_recruitment_configuration
@@ -6006,7 +6808,12 @@ msgstr "スパム"
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_recruitment_stage__job_ids
 msgid "Specific jobs that use this stage. Other jobs will not use this stage."
+<<<<<<< HEAD
 msgstr "このステージを使用する特定の職位。他の職位はこのステージを使用しません。"
+=======
+msgstr ""
+"このステージを使用する特定の職位。他の職位はこのステージを使用しません。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__stage_id
@@ -6041,7 +6848,12 @@ msgstr "ステージ変更"
 msgid ""
 "Stage of the applicant before being in the current stage. Used for lost "
 "cases analysis."
+<<<<<<< HEAD
 msgstr "現在のステージに入る前の応募者のステージ。ロストケース分析に使用します。"
+=======
+msgstr ""
+"現在のステージに入る前の応募者のステージ。ロストケース分析に使用します。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.hr_recruitment_stage_act
@@ -6102,7 +6914,13 @@ msgstr "タグ"
 msgid ""
 "The Email must be unique, this one already corresponds to another Job "
 "Platform."
+<<<<<<< HEAD
 msgstr "Eメールは一意でなければなりません。これは既に別の求人プラットフォームに割当てられています。"
+=======
+msgstr ""
+"Eメールは一意でなければなりません。これは既に別の求人プラットフォームに割当て"
+"られています。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__interviewer_ids
@@ -6112,16 +6930,30 @@ msgid ""
 "they can refuse him. You don't need to have Recruitment rights to be set as "
 "an interviewer."
 msgstr ""
+<<<<<<< HEAD
 "求人ポジションに設定された面接者は、応募者全員を見ることができます。面接者は応募者の情報、添付ファイル、ミーティング管理へのアクセスが可能で、応募者を拒否することもできます。面接者として設定されるのに、採用権を持っている必要はありません。"
+=======
+"求人ポジションに設定された面接者は、応募者全員を見ることができます。面接者は"
+"応募者の情報、添付ファイル、ミーティング管理へのアクセスが可能で、応募者を拒"
+"否することもできます。面接者として設定されるのに、採用権を持っている必要はあ"
+"りません。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__user_id
 msgid ""
+<<<<<<< HEAD
 "The Recruiter will be the default value for all Applicants in this job"
 "             position. The Recruiter is automatically added to all meetings "
 "with the Applicant."
 msgstr ""
 "採用担当者は、この求人ポジションの全ての応募者の採用担当者フィールドのデフォルト値となります。採用担当者は、応募者との全てのミーティングに自動的に追加されます。"
+=======
+"The Recruiter will be the default value for all Applicants Recruiter's field "
+"in this job position. The Recruiter is automatically added to all meetings "
+"with the Applicant."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #. odoo-python
@@ -6129,15 +6961,29 @@ msgstr ""
 msgid ""
 "The UTM campaign '%s' cannot be deleted as it is used in the recruitment "
 "process."
+<<<<<<< HEAD
 msgstr "UTMキャンペーン '%s' は採用プロセスで使用されるため、削除することはできません。"
+=======
+msgstr ""
+"UTMキャンペーン '%s' は採用プロセスで使用されるため、削除することはできませ"
+"ん。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #. odoo-python
 #: code:addons/hr_recruitment/models/hr_candidate.py:0
 msgid ""
+<<<<<<< HEAD
 "The candidate is linked to an employee, to avoid losing information, archive"
 " it instead."
 msgstr "候補者は従業員にリンクされ、情報が削除されるのを回避し、代わりにアーカイブします。"
+=======
+"The candidate is linked to an employee, to avoid losing information, archive "
+"it instead."
+msgstr ""
+"候補者は従業員にリンクされ、情報が削除されるのを回避し、代わりにアーカイブし"
+"ます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__availability
@@ -6160,11 +7006,21 @@ msgstr "以下の候補者にはEメールがありません: %s"
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_model_id
 msgid ""
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
 "このエイリアスに対応した(Odooドキュメント種別)モデル。既存のレコードに返信しない任意の受信メールは、このモデルの新しいレコード(例えば、プロジェクトタスク)の作成を引き起こします"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+msgstr ""
+"このエイリアスに対応した(Odooドキュメント種別)モデル。既存のレコードに返信し"
+"ない任意の受信メールは、このモデルの新しいレコード(例えば、プロジェクトタス"
+"ク)の作成を引き起こします"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.constraint,message:hr_recruitment.constraint_hr_recruitment_degree_name_uniq
@@ -6176,14 +7032,28 @@ msgstr "採用の度合いの名前はユニークでなければいけません
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
+<<<<<<< HEAD
 msgstr "eメールのエイリアス.例えば<jobs@example.odoo.com>のメールを受け取りたい場合'jobs’を選択"
+=======
+msgstr ""
+"eメールのエイリアス.例えば<jobs@example.odoo.com>のメールを受け取りたい場"
+"合'jobs’を選択"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_platform__regex
 msgid ""
+<<<<<<< HEAD
 "The regex facilitates to extract information from the subject or body of the"
 " received email to autopopulate the Applicant's name field"
 msgstr "正規表現を使用すると、受信したメールの件名または本文から情報を抽出して、応募者の名前フィールドに自動入力することができます。"
+=======
+"The regex facilitates to extract information from the subject or body of the "
+"received email to autopopulate the Applicant's name field"
+msgstr ""
+"正規表現を使用すると、受信したメールの件名または本文から情報を抽出して、応募"
+"者の名前フィールドに自動入力することができます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #. odoo-javascript
@@ -6198,30 +7068,59 @@ msgstr "これらの職種と全ての応募者はアーカイブされます。
 msgid ""
 "This displays how the applicant has reached out, e.g. via Email, LinkedIn, "
 "Website, etc."
+<<<<<<< HEAD
 msgstr "これは、応募者がどのように連絡してきたか(例えば、Eメール、LinkedIn、ウェブサイトなど)を表示します。"
+=======
+msgstr ""
+"これは、応募者がどのように連絡してきたか(例えば、Eメール、LinkedIn、ウェブサ"
+"イトなど)を表示します。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__email_normalized
 #: model:ir.model.fields,help:hr_recruitment.field_hr_candidate__email_normalized
 msgid ""
+<<<<<<< HEAD
 "This field is used to search on email address as the primary email field can"
 " contain more than strictly an email address."
 msgstr ""
 "プライマリ電子メールフィールドには厳密に電子メールアドレス以上のものを含めることができるため、このフィールドは電子メールアドレスを検索するために使用されます。"
+=======
+"This field is used to search on email address as the primary email field can "
+"contain more than strictly an email address."
+msgstr ""
+"プライマリ電子メールフィールドには厳密に電子メールアドレス以上のものを含める"
+"ことができるため、このフィールドは電子メールアドレスを検索するために使用され"
+"ます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__campaign_id
 msgid ""
+<<<<<<< HEAD
 "This is a name that helps you keep track of your different campaign efforts,"
 " e.g. Fall_Drive, Christmas_Special"
 msgstr "これは、Fall_Drive、Christmas_Specialなど、さまざまなキャンペーンの取り組みを追跡するのに役立つ名前です。"
+=======
+"This is a name that helps you keep track of your different campaign efforts, "
+"e.g. Fall_Drive, Christmas_Special"
+msgstr ""
+"これは、Fall_Drive、Christmas_Specialなど、さまざまなキャンペーンの取り組みを"
+"追跡するのに役立つ名前です。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__source_id
 msgid ""
 "This is the source of the link, e.g. Search Engine, another domain, or name "
 "of email list"
+<<<<<<< HEAD
 msgstr "これはリンクのソースです。たとえば、検索エンジン、別のドメイン、またはメーリングリストの名前です。"
+=======
+msgstr ""
+"これはリンクのソースです。たとえば、検索エンジン、別のドメイン、またはメーリ"
+"ングリストの名前です。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #. odoo-javascript
@@ -6237,7 +7136,13 @@ msgstr "この職種と全ての応募者はアーカイブされます。よろ
 msgid ""
 "This stage is folded in the kanban view when there are no records in that "
 "stage to display."
+<<<<<<< HEAD
 msgstr "このステージは、そのステージにレコードが表示されていないときに、かんばんのビューで折り込まれます。"
+=======
+msgstr ""
+"このステージは、そのステージにレコードが表示されていないときに、かんばんの"
+"ビューで折り込まれます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:digest.tip,name:hr_recruitment.digest_tip_hr_recruitment_0
@@ -6287,7 +7192,13 @@ msgstr " ウェブサイトアプリで、オンラインで求人情報を公�
 msgid ""
 "Try to add some records, or make sure that there is no active filter in the "
 "search bar."
+<<<<<<< HEAD
 msgstr "レコードを追加するか、検索バーに有効なフィルタが設定されていないことを確認して下さい。"
+=======
+msgstr ""
+"レコードを追加するか、検索バーに有効なフィルタが設定されていないことを確認し"
+"て下さい。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__activity_exception_decoration
@@ -6344,9 +7255,17 @@ msgstr "Eメールとリンクトラッカーを使用"
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.res_config_settings_view_form
 msgid ""
 "Use interview forms tailored to each job position during the recruitment "
+<<<<<<< HEAD
 "process. Select the form to use in the job position detail form. This relies"
 " on the Survey app."
 msgstr "採用プロセスでは、各職種に合わせた面接フォームを使用します。職種詳細フォームで使用するフォームを選択します。これは調査アプリを使用します。"
+=======
+"process. Select the form to use in the job position detail form. This relies "
+"on the Survey app."
+msgstr ""
+"採用プロセスでは、各職種に合わせた面接フォームを使用します。職種詳細フォーム"
+"で使用するフォームを選択します。これは調査アプリを使用します。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_res_users
@@ -6396,6 +7315,7 @@ msgstr "何の求人募集を行いますか？職位を選択して下さい。
 #: model:mail.template,description:hr_recruitment.email_template_data_applicant_not_interested
 #: model:mail.template,description:hr_recruitment.email_template_data_applicant_refuse
 msgid "When you refuse an application, you can choose this template"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6641,6 +7561,9 @@ msgstr "応募者を不採用にするとき、このテンプレートを選択
 =======
 msgstr "応募者を不採用にするとき、このテンプレートを選択できます。"
 >>>>>>> upstream/18.0
+=======
+msgstr "応募者を不採用にするとき、このテンプレートを選択できます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_form
@@ -6667,7 +7590,12 @@ msgstr "このアクションを実行する権限がありません。"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form
 msgid ""
+<<<<<<< HEAD
 "You can define here the labels that will be displayed for the kanban state instead\n"
+=======
+"You can define here the labels that will be displayed for the kanban state "
+"instead\n"
+>>>>>>> upstream/18.0
 "                            of the default labels."
 msgstr ""
 "ここでは、デフォルトラベルの代わりにかんばん状態で表示\n"
@@ -6678,14 +7606,25 @@ msgstr ""
 msgid ""
 "You can define the requirements here. They will be displayed when you hover "
 "over the stage title."
+<<<<<<< HEAD
 msgstr "ここで要件を定義できます。ステージタイトルにカーソルを合わせると、要件が表示されます。"
+=======
+msgstr ""
+"ここで要件を定義できます。ステージ件名にカーソルを合わせると、要件が表示され"
+"ます。"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #. odoo-python
 #: code:addons/hr_recruitment/wizard/applicant_refuse_reason.py:0
 msgid ""
 "You can't select Send email option.\n"
+<<<<<<< HEAD
 "The email will not be sent to the following applicant(s) as they don't have an email address:"
+=======
+"The email will not be sent to the following applicant(s) as they don't have "
+"an email address:"
+>>>>>>> upstream/18.0
 msgstr ""
 "メールを送信オプションを選択できません。\n"
 "以下の応募者はアドレスを持っていないため、Eメールは送信されません:"
@@ -6701,10 +7640,19 @@ msgstr "候補者とは別の会社に応募者を作成することはできま
 #. odoo-python
 #: code:addons/hr_recruitment/models/utm_source.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete these UTM Sources as they are linked to the following recruitment sources in Recruitment:\n"
 "%(recruitment_sources)s"
 msgstr ""
 "これらのUTMソースは採用における以下の採用ソースにリンクされているため、削除することはできません:\n"
+=======
+"You cannot delete these UTM Sources as they are linked to the following "
+"recruitment sources in Recruitment:\n"
+"%(recruitment_sources)s"
+msgstr ""
+"これらのUTMソースは採用における以下の採用ソースにリンクされているため、削除す"
+"ることはできません:\n"
+>>>>>>> upstream/18.0
 "%(recruitment_sources)s"
 
 #. module: hr_recruitment
@@ -6814,3 +7762,15 @@ msgstr "又は"
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.applicant_get_refuse_reason_view_form
 msgid "other application(s)"
 msgstr "他の応募"
+<<<<<<< HEAD
+=======
+
+#~ msgid ""
+#~ "The Recruiter will be the default value for all Applicants in this "
+#~ "job             position. The Recruiter is automatically added to all "
+#~ "meetings with the Applicant."
+#~ msgstr ""
+#~ "採用担当者は、この求人ポジションの全ての応募者の採用担当者フィールドのデ"
+#~ "フォルト値となります。採用担当者は、応募者との全てのミーティングに自動的に"
+#~ "追加されます。"
+>>>>>>> upstream/18.0

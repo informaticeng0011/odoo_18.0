@@ -83,7 +83,11 @@ options.registry.TableOfContent = options.Class.extend({
      * @returns {Object}
      */
     _getTocAndHeadingId(headingEl) {
+<<<<<<< HEAD
         const match = /^table_of_content_heading_(\d+)_(\d+)$/.exec(headingEl.getAttribute("id"));
+=======
+        const match = /^table_of_content_heading_(\d+)_(\d+)$/.exec(headingEl && headingEl.getAttribute("id"));
+>>>>>>> upstream/18.0
         if (match) {
             return { tocId: parseInt(match[1]), headingId: parseInt(match[2]) };
         }

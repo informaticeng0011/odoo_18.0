@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* loyalty
 # 
+=======
+# * loyalty
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Tiffany Chang, 2024
 # Joakim Weckman, 2024
@@ -63,6 +68,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Jessica Jakara, 2025
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025
 =======
@@ -226,10 +232,16 @@
 # Jessica Jakara, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025
+# Jessica Jakara, 2025
+# "Jessica Tuulia Sade Jäkärä (jtsj)" <jtsj@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -551,6 +563,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"POT-Creation-Date: 2025-07-18 18:39+0000\n"
+"PO-Revision-Date: 2025-08-26 14:54+0000\n"
+"Last-Translator: \"Jessica Tuulia Sade Jäkärä (jtsj)\" <jtsj@odoo.com>\n"
+"Language-Team: Finnish <https://translate.odoo.com/projects/odoo-18/loyalty/"
+"fi/>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__trigger
@@ -1753,12 +1778,15 @@ msgstr "Luo eWallet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "Generate {{props.context.program_item_name}}"
 msgstr "Luo {{props.context.program_item_name}}"
 
 #. module: loyalty
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2345,6 +2373,10 @@ msgid "Portal Visible"
 msgstr "Portaali näkyvissä"
 
 #. module: loyalty
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:loyalty.model_product_pricelist
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__pricelist_ids
 msgid "Pricelist"
 msgstr "Hinnasto"
@@ -2430,24 +2462,40 @@ msgstr "Kampanjakoodi"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Promo point(s)"
+<<<<<<< HEAD
 msgstr "Myynninedistämispisteet"
+=======
+msgstr "Promopiste(et)"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Promos"
+<<<<<<< HEAD
 msgstr "Myynninedistämiset"
+=======
+msgstr "Promootiot"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Promotional Program"
+<<<<<<< HEAD
 msgstr "Myynninedistämisohjelma"
+=======
+msgstr "Promo-ohjelma"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__promotion
 msgid "Promotions"
+<<<<<<< HEAD
 msgstr "Kampanjat"
+=======
+msgstr "Promootiot"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__coupon_qty
@@ -2696,6 +2744,19 @@ msgstr ""
 
 #. module: loyalty
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/loyalty/models/product_pricelist.py:0
+msgid ""
+"This pricelist may not be archived. It is being used for active promotion "
+"programs: %s"
+msgstr ""
+"Tätä hinnastoa ei ehkä ole arkistoitu. Sitä käytetään aktiivisessa "
+"mainosohjelmassa: %s"
+
+#. module: loyalty
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/loyalty/models/product_product.py:0
 msgid ""
 "This product may not be archived. It is being used for an active promotion "
@@ -2726,6 +2787,7 @@ msgstr "Liipaisin"
 
 #. module: loyalty
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2824,6 +2886,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2947,6 +3011,9 @@ msgstr "Hakuoperaattoria ei tueta"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3366,6 +3433,7 @@ msgstr "käyttötarkoitukset"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3570,6 +3638,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "used)"
 msgstr "käytetty)"
@@ -3578,6 +3648,9 @@ msgstr "käytetty)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3647,12 +3720,15 @@ msgstr "tilauksesi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: loyalty
 #. odoo-javascript
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "{{loyalty_el_title}}"
 msgstr "{{loyalty_el_title}}"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

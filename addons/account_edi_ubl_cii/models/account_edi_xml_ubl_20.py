@@ -19,7 +19,13 @@ from odoo import _, models, Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import html2plaintext, cleanup_xml_node
+=======
+from odoo.tools import html2plaintext, cleanup_xml_node, float_is_zero, float_repr, float_round
+from odoo.addons.account.tools import dict_to_xml
+from odoo.addons.account_edi_ubl_cii.tools import Invoice, CreditNote, DebitNote
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import html2plaintext, cleanup_xml_node, float_is_zero, float_repr, float_round
 from odoo.addons.account.tools import dict_to_xml
@@ -129,7 +135,10 @@ UBL_NAMESPACES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -217,6 +226,9 @@ class FloatFmt(float):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -349,6 +361,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if partner.ref:
+            return [{'id': partner.ref}]
+>>>>>>> upstream/18.0
 =======
         if partner.ref:
             return [{'id': partner.ref}]
@@ -757,7 +774,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1030,6 +1050,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1302,6 +1325,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'person_vals': self._get_partner_person_vals(partner),
+>>>>>>> upstream/18.0
 =======
             'person_vals': self._get_partner_person_vals(partner),
 >>>>>>> upstream/18.0
@@ -1761,6 +1788,13 @@ class AccountEdiXmlUBL20(models.AbstractModel):
             'name': product.name or description,
             'sellers_item_identification_vals': {'id': product.code},
             'classified_tax_category_vals': tax_category_vals_list,
+<<<<<<< HEAD
+=======
+            'standard_item_identification_vals': {
+                'id': product.barcode,
+                'id_attrs': {'schemeID': '0160'},  # GTIN
+            } if product.barcode else {},
+>>>>>>> upstream/18.0
         }
 
     def _get_document_allowance_charge_vals_list(self, invoice, taxes_vals=None):
@@ -1859,7 +1893,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2030,6 +2067,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2203,7 +2243,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         else:
             gross_price_subtotal = net_price_subtotal / (1.0 - (line.discount or 0.0) / 100.0)
         # Price subtotal with discount / quantity:
+<<<<<<< HEAD
         gross_price_unit = gross_price_subtotal / line.quantity if line.quantity else 0.0
+=======
+        gross_price_unit = gross_price_subtotal / line.quantity if line.quantity and not line.currency_id.is_zero(gross_price_subtotal) else 0.0
+>>>>>>> upstream/18.0
 
         uom = self._get_uom_unece_code(line.product_uom_id)
 
@@ -2267,7 +2311,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2281,6 +2328,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2297,11 +2347,14 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'tax_inclusive_amount': invoice.amount_total,
             'allowance_total_amount': allowance_total_amount or None,
             'charge_total_amount': charge_total_amount or None,
             'prepaid_amount': invoice.amount_total - invoice.amount_residual,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2316,6 +2369,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2505,6 +2561,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ExchangeRateType_template': 'account_edi_ubl_cii.ubl_20_ExchangeRateType',
+>>>>>>> upstream/18.0
 =======
             'ExchangeRateType_template': 'account_edi_ubl_cii.ubl_20_ExchangeRateType',
 >>>>>>> upstream/18.0
@@ -2750,6 +2810,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'pricing_exchange_rate_vals_list': self._get_pricing_exchange_rate_vals_list(invoice),
+>>>>>>> upstream/18.0
 =======
                 'pricing_exchange_rate_vals_list': self._get_pricing_exchange_rate_vals_list(invoice),
 >>>>>>> upstream/18.0
@@ -3019,7 +3083,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # ==== Document level AllowanceCharge, Prepaid Amounts, Invoice Lines ====
+=======
+        # ==== Document level AllowanceCharge, Prepaid Amounts, Invoice Lines, Payable Rounding Amount ====
+>>>>>>> upstream/18.0
 =======
         # ==== Document level AllowanceCharge, Prepaid Amounts, Invoice Lines, Payable Rounding Amount ====
 >>>>>>> upstream/18.0
@@ -3044,7 +3112,12 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         line_vals = allowance_charges_line_vals + invoice_line_vals
+=======
+        rounding_line_vals, rounding_logs = self._import_rounding_amount(invoice, tree, './{*}LegalMonetaryTotal/{*}PayableRoundingAmount', qty_factor)
+        line_vals = allowance_charges_line_vals + invoice_line_vals + rounding_line_vals
+>>>>>>> upstream/18.0
 =======
         rounding_line_vals, rounding_logs = self._import_rounding_amount(invoice, tree, './{*}LegalMonetaryTotal/{*}PayableRoundingAmount', qty_factor)
         line_vals = allowance_charges_line_vals + invoice_line_vals + rounding_line_vals
@@ -3071,7 +3144,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         logs += partner_logs + currency_logs + line_logs + allowance_charges_logs
+=======
+        logs += partner_logs + currency_logs + line_logs + allowance_charges_logs + rounding_logs
+>>>>>>> upstream/18.0
 =======
         logs += partner_logs + currency_logs + line_logs + allowance_charges_logs + rounding_logs
 >>>>>>> upstream/18.0
@@ -3107,6 +3184,16 @@ class AccountEdiXmlUBL20(models.AbstractModel):
             'tax_percentage': './{*}TaxCategory/{*}Percent',
         }
 
+<<<<<<< HEAD
+=======
+    def _get_invoice_line_xpaths(self, document_type=False, qty_factor=1):
+        return {
+            'deferred_start_date': './{*}InvoicePeriod/{*}StartDate',
+            'deferred_end_date': './{*}InvoicePeriod/{*}EndDate',
+            'date_format': '%Y-%m-%d',
+        }
+
+>>>>>>> upstream/18.0
     def _get_line_xpaths(self, document_type=False, qty_factor=1):
         return {
             'basis_qty': './cac:Price/cbc:BaseQuantity',
@@ -3142,9 +3229,12 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # For each tax in our tax total, get the amount as well as the total in the xml.
         for elem in tree.findall('.//{*}TaxTotal/{*}TaxSubtotal'):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3160,6 +3250,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3182,6 +3275,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     tax_total = float(amount.text)
                     tax_line = invoice.line_ids.filtered(lambda line: line.tax_line_id in taxes)[:1]
                     if tax_line:
@@ -3190,6 +3284,8 @@ class AccountEdiXmlUBL20(models.AbstractModel):
                         if abs(tax_total - tax_line_amount) <= 0.05:
                             tax_line.amount_currency = tax_total * sign
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3208,6 +3304,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3251,7 +3350,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3420,7 +3522,12 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals['base_lines'] = base_lines
+=======
+        vals['base_lines'] = [base_line for base_line in base_lines if base_line['special_type'] != 'cash_rounding']
+        vals['cash_rounding_base_lines'] = [base_line for base_line in base_lines if base_line['special_type'] == 'cash_rounding']
+>>>>>>> upstream/18.0
 =======
         vals['base_lines'] = [base_line for base_line in base_lines if base_line['special_type'] != 'cash_rounding']
         vals['cash_rounding_base_lines'] = [base_line for base_line in base_lines if base_line['special_type'] == 'cash_rounding']
@@ -3547,7 +3654,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3561,6 +3671,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3742,7 +3855,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3756,6 +3872,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for base_line in vals['cash_rounding_base_lines']:
                 tax_details = base_line['tax_details']
                 vals[f'cash_rounding_base_amount{currency_suffix}'] += tax_details[f'total_excluded{currency_suffix}']
@@ -3766,12 +3883,17 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             for base_line in vals.setdefault('cash_rounding_base_lines', []):
                 tax_details = base_line['tax_details']
                 vals[f'cash_rounding_base_amount{currency_suffix}'] += tax_details[f'total_excluded{currency_suffix}']
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3983,7 +4105,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3997,6 +4122,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4172,8 +4300,19 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         line_node['cac:Item'] = {
             'cbc:Description': {'_text': product.description_sale},
             'cbc:Name': {'_text': product.name},
+<<<<<<< HEAD
             'cac:StandardItemIdentification': {
                 'cbc:ID': {'_text': product.barcode},
+=======
+            'cac:SellersItemIdentification': {
+                'cbc:ID': {'_text': product.default_code},
+            },
+            'cac:StandardItemIdentification': {
+                'cbc:ID': {
+                    '_text': product.barcode,
+                    'schemeID': '0160',  # GTIN
+                } if product.barcode else None,
+>>>>>>> upstream/18.0
             },
             'cac:AdditionalItemProperty': [
                 {
@@ -4250,6 +4389,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if grouping_key
+>>>>>>> upstream/18.0
 =======
             if grouping_key
 >>>>>>> upstream/18.0
@@ -4307,6 +4450,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

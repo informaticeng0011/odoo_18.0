@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* analytic
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Malaz Abuidris <msea@odoo.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
@@ -19,6 +28,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+=======
+"POT-Creation-Date: 2025-08-15 18:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
+"Language-Team: Arabic (https://app.transifex.com/odoo/teams/41243/ar/)\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
@@ -27,6 +48,15 @@ msgid "%s (copy)"
 msgstr "%s (نسخة)"
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/analytic/models/analytic_line.py:0
+msgid "%s analytic lines created"
+msgstr ""
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "<span class=\"o_stat_text\">Analytic Accounts</span>"
 msgstr "<span class=\"o_stat_text\">الحساب التحليلي</span> "
@@ -141,6 +171,10 @@ msgstr "عدد الحسابات التحليلية "
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_distribution
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_distribution
 msgid "Analytic Distribution"
 msgstr "التوزيع التحليلي"
@@ -212,6 +246,10 @@ msgstr "الخطط التحليلية "
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_precision
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_precision
 msgid "Analytic Precision"
 msgstr "الدقة التحليلية "
@@ -492,6 +530,15 @@ msgid "Domain"
 msgstr "النطاق"
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "Don't update"
+msgstr ""
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:account.analytic.account,name:analytic.analytic_rd_finance
 msgid "Finance"
 msgstr "المالية"
@@ -557,7 +604,12 @@ msgstr "إذا كان محددًا، فقد حدث خطأ في تسليم بعض
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "In Odoo, sales orders and projects are implemented using\n"
+<<<<<<< HEAD
 "                analytic accounts. You can track costs and revenues to analyse\n"
+=======
+"                analytic accounts. You can track costs and revenues to "
+"analyse\n"
+>>>>>>> upstream/18.0
 "                your margins easily."
 msgstr ""
 "في أودو، يتم تشغيل أوامر البيع والمشاريع باستخدام\n"
@@ -634,6 +686,15 @@ msgid "Miscellaneous"
 msgstr "متفرقات "
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
+msgid "Multi edit"
+msgstr ""
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__name
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_list
 msgid "Name"
@@ -794,6 +855,7 @@ msgstr "البحث والتطوير "
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "Revenues will be created automatically when you create customer\n"
+<<<<<<< HEAD
 "                invoices. Customer invoices can be created based on sales orders\n"
 "                (fixed price invoices), on timesheets (based on the work done) or\n"
 "                on expenses (e.g. reinvoicing of travel costs)."
@@ -801,6 +863,19 @@ msgstr ""
 "سوف يتم تسجيل الأرباح تلقائيًا عند إنشاء\n"
 "                فواتير للعملاء. يمكن إنشاء فواتير العملاء بناءً على أوامر البيع\n"
 "                (فواتير بأسعار ثابتة)، أو الجداول الزمنية (بناءً على العمل المنجز) أو\n"
+=======
+"                invoices. Customer invoices can be created based on sales "
+"orders\n"
+"                (fixed price invoices), on timesheets (based on the work "
+"done) or\n"
+"                on expenses (e.g. reinvoicing of travel costs)."
+msgstr ""
+"سوف يتم تسجيل الأرباح تلقائيًا عند إنشاء\n"
+"                فواتير للعملاء. يمكن إنشاء فواتير العملاء بناءً على أوامر "
+"البيع\n"
+"                (فواتير بأسعار ثابتة)، أو الجداول الزمنية (بناءً على العمل "
+"المنجز) أو\n"
+>>>>>>> upstream/18.0
 "                النفقات (مثل إعادة إصدار فواتير لتكاليف السفر). "
 
 #. module: analytic
@@ -854,8 +929,13 @@ msgid ""
 "it will automatically take this as an analytic account)"
 msgstr ""
 "اختر فئة شريك سيتم استخدام التوزيع التحليلي من أجلها (مثال: إنشاء فاتورة "
+<<<<<<< HEAD
 "عميل جديدة أو أمر بيع إذا قمنا بتحديد هذا الشريك، سيقوم تلقائياً بأخذه كحساب"
 " تحليلي) "
+=======
+"عميل جديدة أو أمر بيع إذا قمنا بتحديد هذا الشريك، سيقوم تلقائياً بأخذه كحساب "
+"تحليلي) "
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__partner_id
@@ -911,6 +991,15 @@ msgid "UoM Category"
 msgstr "فئة وحدة القياس "
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "Update"
+msgstr ""
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__user_id
 msgid "User"
 msgstr "المستخدم"
@@ -919,6 +1008,7 @@ msgstr "المستخدم"
 #. odoo-python
 #: code:addons/analytic/models/analytic_account.py:0
 msgid ""
+<<<<<<< HEAD
 "Whoa there! Making this change would wipe out your current data. Let's avoid"
 " that, shall we?"
 <<<<<<< HEAD
@@ -1244,6 +1334,11 @@ msgstr "مهلاً! إجراء هذا التغيير سيمحو بياناتك �
 msgstr "مهلاً! إجراء هذا التغيير سيمحو بياناتك الحالية. فلنتجنب ذلك، حسناً؟ "
 >>>>>>> upstream/18.0
 =======
+msgstr "مهلاً! إجراء هذا التغيير سيمحو بياناتك الحالية. فلنتجنب ذلك، حسناً؟ "
+>>>>>>> upstream/18.0
+=======
+"Whoa there! Making this change would wipe out your current data. Let's avoid "
+"that, shall we?"
 msgstr "مهلاً! إجراء هذا التغيير سيمحو بياناتك الحالية. فلنتجنب ذلك، حسناً؟ "
 >>>>>>> upstream/18.0
 

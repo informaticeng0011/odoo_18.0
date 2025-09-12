@@ -5,6 +5,10 @@ import * as PartnerList from "@point_of_sale/../tests/tours/utils/partner_list_u
 import * as TextInputPopup from "@point_of_sale/../tests/tours/utils/text_input_popup_util";
 import * as Dialog from "@point_of_sale/../tests/tours/utils/dialog_util";
 import * as Chrome from "@point_of_sale/../tests/tours/utils/chrome_util";
+<<<<<<< HEAD
+=======
+import * as PaymentScreen from "@point_of_sale/../tests/tours/utils/payment_screen_util";
+>>>>>>> upstream/18.0
 
 export function clickLine(productName, quantity = "1.0") {
     return [
@@ -38,6 +42,37 @@ export function selectFloatingOrder(index) {
         },
     ];
 }
+<<<<<<< HEAD
+=======
+
+export function checkFloatingOrderCount(expectedCount) {
+    return [
+        {
+            isActive: ["mobile"],
+            trigger: ".fa-caret-down",
+            run: "click",
+        },
+        {
+            content: `check there are ${expectedCount} floating order`,
+            trigger: ".list-container-items .btn",
+            run: () => {
+                const btns = document.querySelectorAll(".list-container-items .btn");
+                if (btns.length !== expectedCount) {
+                    throw new Error(
+                        `Expected ${expectedCount} floating order buttons, found ${btns.length}`
+                    );
+                }
+            },
+        },
+        {
+            isActive: ["mobile"],
+            trigger: ".modal-header .oi-arrow-left",
+            run: "click",
+        },
+    ];
+}
+
+>>>>>>> upstream/18.0
 /**
  * Generates a sequence of actions to click on a displayed product, with optional additional
  * checks based on specific needs such as the next quantity and the next price.
@@ -367,6 +402,29 @@ export function clickFiscalPosition(name, checkIsNeeded = false) {
 
     return [...step, { ...back(), isActive: ["mobile"] }];
 }
+<<<<<<< HEAD
+=======
+export function checkFiscalPosition(name) {
+    return [
+        clickReview(),
+        ...clickControlButtonMore(),
+        {
+            content: `check fiscal position '${name}' is selected`,
+            trigger: `.o_fiscal_position_button:contains("${name}")`,
+            run: () => {},
+        },
+        Dialog.cancel(),
+    ];
+}
+export function checkFiscalPositionButton() {
+    return [
+        {
+            content: "click fiscal position button",
+            trigger: ".o_fiscal_position_button",
+        },
+    ];
+}
+>>>>>>> upstream/18.0
 export function closeWithCashAmount(val) {
     return [
         {
@@ -636,6 +694,7 @@ export function closePos() {
 
 export function finishOrder() {
     return [
+<<<<<<< HEAD
         {
             isActive: ["desktop"],
             content: "validate the order",
@@ -648,6 +707,9 @@ export function finishOrder() {
             trigger: ".payment-screen .btn-switchpane:contains('Validate')",
             run: "click",
         },
+=======
+        ...PaymentScreen.clickValidate(),
+>>>>>>> upstream/18.0
         Chrome.isSyncStatusConnected(),
         {
             isActive: ["desktop"],

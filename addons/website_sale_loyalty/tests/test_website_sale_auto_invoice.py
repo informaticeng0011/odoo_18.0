@@ -38,6 +38,11 @@ class TestWebsiteSaleAutoInvoice(WebsiteSaleCommon):
             }
         )
 
+<<<<<<< HEAD
+=======
+        self.cart.carrier_id = self.free_delivery
+
+>>>>>>> upstream/18.0
         # Apply discount
         self.cart._try_apply_code("100code")
         self.cart._apply_program_reward(program.reward_ids, program.coupon_ids)

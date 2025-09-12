@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Wil Odoo, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324,11 +325,16 @@
 # Wil Odoo, 2025
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -728,6 +734,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-06 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -891,7 +902,11 @@ msgid "<span>)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>)</span>"
 >>>>>>> upstream/18.0
@@ -1146,8 +1161,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A project must be defined on the quotation or on the form of products creating a task on order.\n"
 "The following products need a project in which to put their task: %(product_names)s"
+=======
+"A project must be defined on the quotation %(order)s or on the form of products creating a task on order.\n"
+"The following product need a project in which to put its task: %(product_name)s"
+>>>>>>> upstream/18.0
 =======
 "A project must be defined on the quotation %(order)s or on the form of products creating a task on order.\n"
 "The following product need a project in which to put its task: %(product_name)s"
@@ -1517,7 +1537,10 @@ msgstr "Uredi nastavitve"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1686,6 +1709,7 @@ msgstr "Strošek prodanega blaga"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1728,6 +1752,8 @@ msgstr "Strošek prodanega blaga"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1833,6 +1859,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2133,7 +2162,11 @@ msgid "Non-billable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neobračunljivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neobračunljivo"
 >>>>>>> upstream/18.0
@@ -2178,7 +2211,11 @@ msgid "Not Billed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ni zaračunano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ni zaračunano"
 >>>>>>> upstream/18.0
@@ -2296,7 +2333,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2447,6 +2487,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2650,7 +2693,11 @@ msgid "Project Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projektni račun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projektni račun"
 >>>>>>> upstream/18.0
@@ -2968,6 +3015,11 @@ msgid ""
 "Sales order item that will be selected by default on the tasks and timesheets of this project, except if the employee set on the timesheets is explicitely linked to another sales order item on the project.\n"
 "It can be modified on each task and timesheet entry individually if necessary."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Postavka prodajnega naročila, ki bo privzeto izbrana v opravilih in časovnih listih tega projekta, razen če je zaposleni, nastavljen na časovnih listih, izrecno povezan z drugo postavko prodajnega naročila v projektu.\n"
+"Po potrebi jo je mogoče spremeniti za vsako opravilo in vnos časovnega lista posebej."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_task__sale_order_id
@@ -3028,7 +3080,11 @@ msgstr ""
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_project_task_recurrence
 msgid "Task Recurrence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponavljanje naloge"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:project.project,label_tasks:sale_project.so_template_project
@@ -3108,7 +3164,10 @@ msgstr "Analiza opravil"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3310,6 +3369,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

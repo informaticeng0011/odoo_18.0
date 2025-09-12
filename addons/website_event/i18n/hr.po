@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* website_event
 # 
+=======
+# * website_event
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Antonijo Kovacevic, 2024
 # Mario Jureša <mario.juresa@uvid.hr>, 2024
@@ -15,11 +20,16 @@
 # Martin Trigaux, 2024
 # Zvonimir Galic, 2025
 # Luka Carević <luka@uvid.hr>, 2025
+<<<<<<< HEAD
 # 
+=======
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,6 +235,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-05-23 18:38+0000\n"
+"PO-Revision-Date: 2025-08-18 14:44+0000\n"
+"Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
+"website_event/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_website_visitor__event_registration_count
@@ -647,7 +671,11 @@ msgstr "Zajednica"
 #: model:ir.model.fields,field_description:website_event.field_event_type__community_menu
 #: model:ir.model.fields.selection,name:website_event.selection__website_event_menu__menu_type__community
 msgid "Community Menu"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbornik zajednice"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.s_speaker_bio
@@ -738,7 +766,11 @@ msgstr "Naziv za prikaz"
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_type__website_menu
 msgid "Display a dedicated menu on Website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži namjenski izbornik na web stranici"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:ir.model.fields,help:website_event.field_event_event__community_menu
@@ -827,7 +859,11 @@ msgstr ""
 #. module: website_event
 #: model:ir.actions.act_window,name:website_event.action_event_pages_list
 msgid "Event Pages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stranice događaja"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:ir.model,name:website_event.model_event_registration
@@ -848,7 +884,11 @@ msgstr "Registracija za događaje"
 #: model:ir.model.fields,field_description:website_event.field_event_event__subtitle
 #: model_terms:ir.ui.view,arch_db:website_event.event_description_full
 msgid "Event Subtitle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podnaslov događaja"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:ir.model,name:website_event.model_event_tag
@@ -868,7 +908,11 @@ msgstr ""
 #. module: website_event
 #: model:ir.model,name:website_event.model_event_type
 msgid "Event Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predložak događaja"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.event_description_full
@@ -1035,7 +1079,11 @@ msgstr "Uvod"
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event__introduction_menu
 msgid "Introduction Menu"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbornik za uvod"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event__introduction_menu_ids
@@ -1106,7 +1154,11 @@ msgstr "Lokacija"
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event__location_menu
 msgid "Location Menu"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbornik lokacija"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event__location_menu_ids
@@ -1139,7 +1191,11 @@ msgstr "Izbornik"
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_website_event_menu__menu_type
 msgid "Menu Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta izbornika"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:ir.actions.act_window,name:website_event.website_event_menu_action
@@ -1170,7 +1226,11 @@ msgstr "Sljedeći događaji"
 #. module: website_event
 #: model_terms:ir.actions.act_window,help:website_event.website_event_menu_action
 msgid "No Website Menu Items yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Još nema stavki na izborniku web stranice!"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.events_list
@@ -1195,7 +1255,11 @@ msgstr "Rezultati nisu pronađeni za '"
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.event_pages_kanban_view
 msgid "Not Published"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije objavljeno"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.event_location
@@ -1238,7 +1302,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/website_event/models/event_event.py:0
 msgid "Past Events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prethodni događaji"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:event.question.answer,name:website_event.event_0_question_0_answer_2
@@ -1290,12 +1358,20 @@ msgstr "Registracija"
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event__register_menu
 msgid "Register Menu"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbornik za registraciju"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event__register_menu_ids
 msgid "Register Menus"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbornici za registraciju"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_website_visitor__event_registered_ids
@@ -1404,12 +1480,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event.event_registration_view_search
 #: model_terms:ir.ui.view,arch_db:website_event.event_registration_view_tree
 msgid "Selected Answers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odabrani odgovori"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event__seo_name
 msgid "Seo name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SEO naziv"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.event_description_full
@@ -1420,7 +1504,11 @@ msgstr "Podjeli"
 #: model_terms:ir.ui.view,arch_db:website_event.event_tag_category_view_form
 #: model_terms:ir.ui.view,arch_db:website_event.event_tag_category_view_tree
 msgid "Show on Website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži na web stranici"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.s_dynamic_snippet_options_template
@@ -1515,7 +1603,11 @@ msgstr ""
 #. module: website_event
 #: model_terms:ir.actions.act_window,help:website_event.website_event_menu_action
 msgid "This technical menu displays all event sub-menu items."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj tehnički izbornik prikazuje sve stavke podizbornika događaja."
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #. odoo-python
@@ -1599,7 +1691,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1750,6 +1845,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1856,12 +1954,20 @@ msgstr "Nadolazeći"
 #: code:addons/website_event/models/event_event.py:0
 #: model:website.snippet.filter,name:website_event.website_snippet_filter_event_list
 msgid "Upcoming Events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadolazeći događaji"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:website.snippet.filter,name:website_event.website_snippet_filter_event_list_unfinished
 msgid "Upcoming and Ongoing Events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadolazeći i događaji u tijeku"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #. odoo-javascript
@@ -1990,7 +2096,11 @@ msgstr "URL web stranice"
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event__website_visibility
 msgid "Website Visibility"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vidljivost web stranice"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:ir.model,name:website_event.model_website_visitor
@@ -2015,7 +2125,11 @@ msgstr "Web meta naslov"
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event__website_meta_og_img
 msgid "Website opengraph image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OpenGraph slika web stranice"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:event.question,title:website_event.event_5_question_1

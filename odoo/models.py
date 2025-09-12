@@ -1883,7 +1883,11 @@ class BaseModel(metaclass=MetaModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             except ValueError:
+=======
+            except (ValueError, TypeError):
+>>>>>>> upstream/18.0
 =======
             except (ValueError, TypeError):
 >>>>>>> upstream/18.0
@@ -3890,7 +3894,11 @@ class BaseModel(metaclass=MetaModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     field.args['translate'] for field in reversed(fields_) if 'translate' in field.args
+=======
+                    field._args__['translate'] for field in reversed(fields_) if 'translate' in field._args__
+>>>>>>> upstream/18.0
 =======
                     field._args__['translate'] for field in reversed(fields_) if 'translate' in field._args__
 >>>>>>> upstream/18.0
@@ -4064,6 +4072,23 @@ class BaseModel(metaclass=MetaModel):
                     # patch the field definition by adding an override
                     _logger.debug("Patching %s.%s with translate=True", cls._name, name)
                     fields_.append(type(fields_[0])(translate=True))
+<<<<<<< HEAD
+=======
+            if f'{cls._name}.{name}' in cls.pool._database_company_dependent_fields:
+                # the field is currently company dependent in the database; ensure
+                # the field is company dependent to avoid converting its column to
+                # the base data type
+                company_dependent = next((
+                    field._args__['company_dependent'] for field in reversed(fields_) if 'company_dependent' in field._args__
+                ), False)
+                if not company_dependent:
+                    # validate column type again in case the column type is changed by upgrade script
+                    rows = self.env.execute_query(SQL('SELECT data_type FROM information_schema.columns WHERE table_name = %s AND column_name = %s', cls._table, name))
+                    if rows and rows[0][0] == 'jsonb':
+                        # patch the field definition by adding an override
+                        _logger.warning("Patching %s.%s with company_dependent=True", cls._name, name)
+                        fields_.append(type(fields_[0])(company_dependent=True))
+>>>>>>> upstream/18.0
             if len(fields_) == 1 and fields_[0]._direct and fields_[0].model_name == cls._name:
                 cls._fields[name] = fields_[0]
             else:
@@ -4124,7 +4149,11 @@ class BaseModel(metaclass=MetaModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self._add_field(name, Field(_base_fields=fields_))
+=======
+                self._add_field(name, Field(_base_fields=tuple(fields_)))
+>>>>>>> upstream/18.0
 =======
                 self._add_field(name, Field(_base_fields=tuple(fields_)))
 >>>>>>> upstream/18.0
@@ -5029,6 +5058,7 @@ class BaseModel(metaclass=MetaModel):
             root_company_msg = _lt("- Only a root company can be set on “%(record)s”. Currently set to “%(company)s”")
             for record, name, corecords in inconsistencies[:5]:
                 if record._name == 'res.company':
+<<<<<<< HEAD
                     msg, company = company_msg, record
                 elif record == corecords and name == 'company_id':
                     msg, company = root_company_msg, record.company_id
@@ -5038,6 +5068,18 @@ class BaseModel(metaclass=MetaModel):
                 lines.append(str(msg) % {
                     'record': record.display_name,
                     'company': company.display_name,
+=======
+                    msg, companies = company_msg, record
+                elif record == corecords and name == 'company_id':
+                    msg, companies = root_company_msg, record.company_id
+                else:
+                    msg = record_msg
+                    companies = record.company_id if 'company_id' in record else record.company_ids
+                field = self.env['ir.model.fields']._get(self._name, name)
+                lines.append(str(msg) % {
+                    'record': record.display_name,
+                    'company': ", ".join(company.display_name for company in companies),
+>>>>>>> upstream/18.0
                     'field': field.field_description,
                     'fname': field.name,
                     'values': ", ".join(repr(rec.display_name) for rec in corecords),
@@ -5873,7 +5915,11 @@ class BaseModel(metaclass=MetaModel):
                     self.env.cache.set(record, field, field.convert_to_cache(None, record))
             for fname, value in vals.items():
                 field = self._fields[fname]
+<<<<<<< HEAD
                 if field.type in ('one2many', 'many2many'):
+=======
+                if field.type in ('one2many', 'many2many', 'html'):
+>>>>>>> upstream/18.0
                     cachetoclear.append((record, field))
                 else:
                     cache_value = field.convert_to_cache(value, record)
@@ -6079,7 +6125,11 @@ class BaseModel(metaclass=MetaModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             to_write[fname] = dict(self[fname], **field_converter(values.pop(fname), self))
+=======
+            to_write[fname] = dict(self[fname] or {}, **field_converter(values.pop(fname), self))
+>>>>>>> upstream/18.0
 =======
             to_write[fname] = dict(self[fname] or {}, **field_converter(values.pop(fname), self))
 >>>>>>> upstream/18.0
@@ -7922,6 +7972,12 @@ class BaseModel(metaclass=MetaModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def __deepcopy__(self, memo):
+        return self
+
+>>>>>>> upstream/18.0
 =======
     def __deepcopy__(self, memo):
         return self

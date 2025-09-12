@@ -69,10 +69,13 @@ class AnalyticPlanFields(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_analytic_distribution(self):
         account_ids = self._get_analytic_accounts().ids
         return {} if not account_ids else {",".join(str(account_id) for account_id in account_ids): 100}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -94,6 +97,9 @@ class AnalyticPlanFields(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -191,7 +197,11 @@ class AnalyticPlanFields(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if account_node is not None or account_filter_node is not None:
+=======
+            if account_node is not None:
+>>>>>>> upstream/18.0
 =======
             if account_node is not None:
 >>>>>>> upstream/18.0
@@ -327,9 +337,12 @@ class AnalyticPlanFields(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if account_filter_node is not None:
                         account_filter_node.addnext(E.filter(name=fname, context=f"{{'group_by': '{fname}'}}"))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -430,6 +443,9 @@ class AnalyticPlanFields(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -559,6 +575,51 @@ class AccountAnalyticLine(models.Model):
         [('other', 'Other')],
         default='other',
     )
+<<<<<<< HEAD
+=======
+    analytic_distribution = fields.Json(
+        'Analytic Distribution',
+        compute="_compute_analytic_distribution",
+        inverse='_inverse_analytic_distribution',
+    )
+    analytic_precision = fields.Integer(
+        store=False,
+        default=lambda self: self.env['decimal.precision'].precision_get("Percentage Analytic"),
+    )
+
+    def _compute_analytic_distribution(self):
+        for line in self:
+            line.analytic_distribution = {line._get_distribution_key(): 100}
+
+    def _inverse_analytic_distribution(self):
+        empty_account = dict.fromkeys(self._get_plan_fnames(), False)
+        to_create_vals = []
+        for line in self:
+            final_distribution = self.env['analytic.mixin']._merge_distribution(
+                {line._get_distribution_key(): 100},
+                line.analytic_distribution or {},
+            )
+            amount_fname = line._split_amount_fname()
+            vals_list = [
+                {amount_fname: line[amount_fname] * percent / 100} | empty_account | {
+                    account.plan_id._column_name(): account.id
+                    for account in self.env['account.analytic.account'].browse(int(aid) for aid in account_ids.split(','))
+                }
+                for account_ids, percent in final_distribution.items()
+            ]
+
+            line.write(vals_list[0])
+            to_create_vals += [line.copy_data(vals)[0] for vals in vals_list[1:]]
+        if to_create_vals:
+            self.create(to_create_vals)
+            self.env.user._bus_send('simple_notification', {
+                'type': 'success',
+                'message': self.env._("%s analytic lines created", len(to_create_vals)),
+            })
+
+    def _split_amount_fname(self):
+        return 'amount'
+>>>>>>> upstream/18.0
 
     def _condition_to_sql(self, alias: str, fname: str, operator: str, value, query: Query) -> SQL:
         if fname == 'date' and value == 'fiscal_start_year':

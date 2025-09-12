@@ -5,6 +5,10 @@
 # Translators:
 # Wil Odoo, 2024
 # Marianna Ciofani, 2025
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +16,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Marianna Ciofani, 2025\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,7 +63,11 @@ msgstr "<span> giorni che precedono la data di scadenza</span>"
 #: model:ir.model.fields,field_description:product_expiry.field_product_template__alert_time
 #: model:ir.model.fields,field_description:product_expiry.field_stock_lot__alert_date
 msgid "Alert Date"
+<<<<<<< HEAD
 msgstr "Data Avviso"
+=======
+msgstr "Data avviso"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:mail.activity.type,name:product_expiry.mail_activity_type_alert_date_reached
@@ -116,8 +128,13 @@ msgid ""
 "Date to determine the expired lots and serial numbers using the filter "
 "\"Expiration Alerts\"."
 msgstr ""
+<<<<<<< HEAD
 "Data utilizzata per determinare i numeri di lotti e di serie scaduti con il "
 "filtro \"Avvisi di scadenza\"."
+=======
+"Data per determinare i numeri di lotto e di serie scaduti usando il filtro "
+"\"Avvisi di scadenza\"."
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_move_form_expiry
@@ -138,7 +155,11 @@ msgstr "Abbandona"
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_res_config_settings__group_expiry_date_on_delivery_slip
 msgid "Display Expiration Dates on Delivery Slips"
+<<<<<<< HEAD
 msgstr "Visualizza le date di scadenza sulle bolle di consegna"
+=======
+msgstr "Visualizzare date di scadenza su distinte di consegna"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_expiry_picking_confirmation__display_name
@@ -170,7 +191,11 @@ msgstr "Data di scadenza"
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.res_config_settings_view_form_stock
 msgid "Expiration dates will appear on the delivery slip"
+<<<<<<< HEAD
 msgstr "Le date di scadenza compaiono nella distinta di consegna"
+=======
+msgstr "Mostra le date di scadenza nelle distinte di consegna"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_production_lot_view_kanban
@@ -230,9 +255,16 @@ msgid ""
 "stock after production) after which the goods may become dangerous and must "
 "not be consumed. It will be computed on the lot/serial number."
 msgstr ""
+<<<<<<< HEAD
 "Numero di giorni dopo il ricevimento dei prodotti (dal venditore o in "
 "magazzino dopo la produzione) dopo i quali la merce può diventare pericolosa"
 " e non deve essere consumata. Sarà calcolato sul numero di lotto/seriale."
+=======
+"Numero di giorni successivi alla ricezione dei prodotti (dal fornitore o in "
+"giacenza dopo la produzione) dopo i quali le merci possono diventare "
+"pericolose e non devono essere consumate. Viene calcolato sul numero di "
+"lotto/serie."
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_product_product__alert_time
@@ -242,8 +274,13 @@ msgid ""
 "raised on the lot/serial number. It will be computed on the lot/serial "
 "number."
 msgstr ""
+<<<<<<< HEAD
 "Numero di giorni prima della data di scadenza dopo i quali dovrebbe essere "
 "generato un allarme sul lotto/numero di serie. Sarà calcolato sul numero di "
+=======
+"Numero di giorni prima della data di scadenza dopo il quale deve essere "
+"generato un avviso sul lotto/numero di serie. Viene calcolato sul numero di "
+>>>>>>> upstream/18.0
 "lotto/seriale."
 
 #. module: product_expiry
@@ -253,8 +290,13 @@ msgid ""
 "Number of days before the Expiration Date after which the goods should be "
 "removed from the stock. It will be computed on the lot/serial number."
 msgstr ""
+<<<<<<< HEAD
 "Numero di giorni prima della data di scadenza dopo i quali la merce deve "
 "essere rimossa dallo stock. Sarà calcolato sul numero di lotto/seriale."
+=======
+"Numero di giorni prima della data di scadenza dopo il quale le merci devono "
+"essere rimosse dalla giacenza. Viene calcolato sul numero di lotto/serie."
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_product_product__use_time
@@ -264,9 +306,15 @@ msgid ""
 "deteriorating, without being dangerous yet. It will be computed on the "
 "lot/serial number."
 msgstr ""
+<<<<<<< HEAD
 "Numero di giorni prima della data di scadenza dopo i quali la merce inizia a"
 " deteriorarsi, senza essere ancora pericolosa. Sarà calcolato sul numero di "
 "lotto/seriale."
+=======
+"Numero di giorni prima della data di scadenza dopo il quale le merci "
+"iniziano a deteriorarsi, senza ancora essere pericolose. Viene calcolato sul"
+" numero di lotto/serie."
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_expiry_picking_confirmation__picking_ids
@@ -276,7 +324,11 @@ msgstr "Prelievo"
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.confirm_expiry_view
 msgid "Proceed except for expired one"
+<<<<<<< HEAD
 msgstr "Procedere tranne che per quello scaduto"
+=======
+msgstr "Procedi tranne per quello scaduto"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_procurement_group
@@ -342,8 +394,12 @@ msgstr "È stata raggiunta la data di scadenza."
 #. odoo-python
 #: code:addons/product_expiry/models/production_lot.py:0
 msgid "The alert date has been reached for this lot/serial number"
+<<<<<<< HEAD
 msgstr ""
 "La data di avviso è stata raggiunta per questo numero di lotto/di serie"
+=======
+msgstr "Data di avviso raggiunta per questo numero di lotto/serie"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_stock_lot__expiration_date
@@ -353,8 +409,13 @@ msgid ""
 "This is the date on which the goods with this Serial Number may become "
 "dangerous and must not be consumed."
 msgstr ""
+<<<<<<< HEAD
 "In questa data l'uso dei beni con questo Numero di Serie diventa "
 "potenzialmente pericoloso, e non devono essere consumati."
+=======
+"Data nella quale le merci con questo numero di serie possono diventare "
+"pericolose e non devono essere consumate."
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_stock_lot__removal_date
@@ -363,7 +424,11 @@ msgid ""
 "This is the date on which the goods with this Serial Number should be "
 "removed from the stock. This date will be used in FEFO removal strategy."
 msgstr ""
+<<<<<<< HEAD
 "Data nella quale la merce con questo numero di serie deve essere rimossa "
+=======
+"Data nella quale le merci con questo numero di serie devono essere rimosse "
+>>>>>>> upstream/18.0
 "dalla giacenza. Viene utilizzata nella strategia di rimozione FEFO."
 
 #. module: product_expiry
@@ -372,8 +437,13 @@ msgid ""
 "This is the date on which the goods with this Serial Number start "
 "deteriorating, without being dangerous yet."
 msgstr ""
+<<<<<<< HEAD
 "In questa data i beni con questo Numero di Serie iniziano a deteriorarsi, "
 "senza tuttavia essere pericolosi."
+=======
+"Data nella quale le merci con il presente numero di serie iniziano a "
+"deteriorarsi, senza tuttavia essere pericolose."
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_stock_picking
@@ -402,9 +472,15 @@ msgid ""
 " product expiration, on the product and on the corresponding lot/serial "
 "numbers"
 msgstr ""
+<<<<<<< HEAD
 "Quando questa casella è spuntata, si ha la possibilità di specificare le "
 "date per gestire la scadenza del prodotto, sul prodotto e sui numeri di "
 "lotto/serie corrispondenti"
+=======
+"Quando questa casella viene selezionata è possibile specificare le date, sul"
+" prodotto e sui numeri di lotto/serie corrispondenti, per gestire la "
+"scadenza"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #. odoo-python

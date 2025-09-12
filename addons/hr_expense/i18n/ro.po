@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_expense
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -121,10 +122,19 @@
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Lyall Kindmurr, 2024
+# Wil Odoo, 2025
+# Larisa_nexterp, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,6 +234,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+"Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -260,8 +282,12 @@ msgstr "%(employee_name)s: %(expense_name)s"
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
+<<<<<<< HEAD
 msgid ""
 "%(user)s confirms this expense is not a duplicate with similar expense."
+=======
+msgid "%(user)s confirms this expense is not a duplicate with similar expense."
+>>>>>>> upstream/18.0
 msgstr ""
 "%(user)s confirmă că această cheltuială nu este o cheltuială duplicată."
 
@@ -290,8 +316,13 @@ msgid ""
 "''))"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Expenses - %s - %s' % (object.employee_id.name, (object.name).replace('/', "
 "''))"
+=======
+"'Cheltuieli - %s - %s' % (object.employee_id.name, "
+"(object.name).replace('/', ''))"
+>>>>>>> upstream/18.0
 =======
 "'Cheltuieli - %s - %s' % (object.employee_id.name, "
 "(object.name).replace('/', ''))"
@@ -301,7 +332,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "(incl"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(incl)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(incl)"
 >>>>>>> upstream/18.0
@@ -323,6 +358,10 @@ msgstr "2023-08-11"
 msgid "<b>Wasting time recording your receipts?</b> Let’s try a better way."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<b>Pierdeți timp înregistrând chitanțele?</b> Să încercăm o metodă mai bună."
+>>>>>>> upstream/18.0
 =======
 "<b>Pierdeți timp înregistrând chitanțele?</b> Să încercăm o metodă mai bună."
 >>>>>>> upstream/18.0
@@ -331,7 +370,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "<i class=\"oi oi-arrow-right\"/> Setup your alias domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right\"/> Configurați domeniul aliasului"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right\"/> Configurați domeniul aliasului"
 >>>>>>> upstream/18.0
@@ -376,7 +419,11 @@ msgstr "<span>Plătit de:</span>"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_split
 msgid "<span>The total amount doesn't match the original amount.</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Suma totală nu se potrivește cu suma inițială.</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Suma totală nu se potrivește cu suma inițială.</span>"
 >>>>>>> upstream/18.0
@@ -390,10 +437,16 @@ msgid ""
 "method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Un cont implicit de datorii trebuie definit în setări pentru cheltuielile "
 "plătite de companie. Sau specificați unul în Jurnal pentru metoda de plată "
 "%(method)s."
+>>>>>>> upstream/18.0
+=======
+"Un cont implicit de datorii trebuie definit în setări pentru cheltuielile "
+"plătite de companie. Sau specificați unul în Jurnal pentru metoda de plată %"
+"(method)s."
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -475,7 +528,12 @@ msgstr "Toate rapoartele"
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
+<<<<<<< HEAD
 msgid "All expenses in an expense report must have the same \"paid by\" criteria."
+=======
+msgid ""
+"All expenses in an expense report must have the same \"paid by\" criteria."
+>>>>>>> upstream/18.0
 msgstr ""
 "Toate cheltuielile dintr-un raport de cheltuieli trebuie să aibă același "
 "criteriu \"plătit de\"."
@@ -494,7 +552,11 @@ msgstr "Valoare scadentă"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "An"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Un"
+>>>>>>> upstream/18.0
 =======
 msgstr "Un"
 >>>>>>> upstream/18.0
@@ -509,7 +571,11 @@ msgstr "A apărut o eroare în timpul încărcării"
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__account_id
 msgid "An expense account is expected"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "A apărut o eroare în timpul încărcării"
+=======
+msgstr "Se așteaptă un cont de cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Se așteaptă un cont de cheltuieli"
 >>>>>>> upstream/18.0
@@ -573,7 +639,11 @@ msgstr "Aprobă"
 #: code:addons/hr_expense/static/src/views/list.xml:0
 msgid "Approve Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aprobați raportul"
+=======
+msgstr "Aprobă raportul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobă raportul"
 >>>>>>> upstream/18.0
@@ -585,7 +655,11 @@ msgstr "Aprobă raportul"
 #: model:mail.message.subtype,name:hr_expense.mt_expense_approved
 msgid "Approved"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aprobat(a)"
+=======
+msgstr "Aprobat(ă)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobat(ă)"
 >>>>>>> upstream/18.0
@@ -594,7 +668,11 @@ msgstr "Aprobat(ă)"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__approved_by
 msgid "Approved By"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aprobat de către"
+=======
+msgstr "Aprobat de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobat de"
 >>>>>>> upstream/18.0
@@ -615,7 +693,11 @@ msgstr "Arhivat"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "Attach Receipt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Atașați chitanța"
+=======
+msgstr "Atașează chitanța"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atașează chitanța"
 >>>>>>> upstream/18.0
@@ -625,7 +707,11 @@ msgstr "Atașează chitanța"
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Attach a receipt - usually an image or a PDF file."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Atașați o chitanță - de obicei o imagine sau un fișier PDF."
+=======
+msgstr "Atașează o chitanță - de obicei o imagine sau un fișier PDF."
+>>>>>>> upstream/18.0
 =======
 msgstr "Atașează o chitanță - de obicei o imagine sau un fișier PDF."
 >>>>>>> upstream/18.0
@@ -655,7 +741,11 @@ msgstr "Atașamente"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__attachment_ids
 msgid "Attachments of expenses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anexe la cheltuieli"
+=======
+msgstr "Atașamente la cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atașamente la cheltuieli"
 >>>>>>> upstream/18.0
@@ -664,7 +754,11 @@ msgstr "Atașamente la cheltuieli"
 #: model:ir.model,name:hr_expense.model_hr_employee_base
 msgid "Basic Employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "BAngajat de bază"
+=======
+msgstr "Angajat de bază"
+>>>>>>> upstream/18.0
 =======
 msgstr "Angajat de bază"
 >>>>>>> upstream/18.0
@@ -675,8 +769,13 @@ msgid ""
 "Both price-included and price-excluded taxes will behave as price-included "
 "taxes for expenses."
 msgstr ""
+<<<<<<< HEAD
 "Atât taxele incluse în preț, cât și cele excluse din preț se vor comporta ca"
 " taxe incluse în preț pentru cheltuieli."
+=======
+"Atât taxele incluse în preț, cât și cele excluse din preț se vor comporta ca "
+"taxe incluse în preț pentru cheltuieli."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -692,7 +791,11 @@ msgstr "Poate aproba"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__can_reset
 msgid "Can Reset"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Se poate reseta"
+=======
+msgstr "Poate reseta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poate reseta"
 >>>>>>> upstream/18.0
@@ -708,7 +811,11 @@ msgstr "Anulează"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__cannot_approve_reason
 msgid "Cannot Approve Reason"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu se poate aproba Motivul"
+=======
+msgstr "Motiv pentru care nu se poate aproba"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motiv pentru care nu se poate aproba"
 >>>>>>> upstream/18.0
@@ -734,7 +841,11 @@ msgstr "Categorie:"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid "Category: not found"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Categoria: nu a fost găsită"
+=======
+msgstr "Categorie: nu a fost găsită"
+>>>>>>> upstream/18.0
 =======
 msgstr "Categorie: nu a fost găsită"
 >>>>>>> upstream/18.0
@@ -781,8 +892,13 @@ msgid ""
 "same category. The conversion will be made based on the ratios."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Conversia între Unitățile de Măsură poate fi efectuată numai dacă acestea "
 "aparțin aceleiași categorii. Conversia va fi făcută pe baza indicilor."
+=======
+"Conversia între Unități de Măsură poate fi efectuată doar dacă aparțin "
+"aceleiași categorii. Conversia se va face pe baza raportului."
+>>>>>>> upstream/18.0
 =======
 "Conversia între Unități de Măsură poate fi efectuată doar dacă aparțin "
 "aceleiași categorii. Conversia se va face pe baza raportului."
@@ -801,7 +917,11 @@ msgstr "Cost:"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "Create Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați un raport"
+=======
+msgstr "Creează raport"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează raport"
 >>>>>>> upstream/18.0
@@ -811,7 +931,11 @@ msgstr "Creează raport"
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_all_all
 msgid "Create a new expense report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați un nou raport de cheltuieli"
+=======
+msgstr "Creează un nou raport de cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează un nou raport de cheltuieli"
 >>>>>>> upstream/18.0
@@ -822,8 +946,12 @@ msgstr "Creează un nou raport de cheltuieli"
 msgid "Create a report to submit one or more expenses to your manager."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Creați un raport pentru a prezenta managerului dvs. una sau mai multe "
 "cheltuieli."
+=======
+"Creează un raport pentru a trimite una sau mai multe cheltuieli managerului."
+>>>>>>> upstream/18.0
 =======
 "Creează un raport pentru a trimite una sau mai multe cheltuieli managerului."
 >>>>>>> upstream/18.0
@@ -832,7 +960,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Create expenses from incoming emails"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați cheltuieli din e-mailurile primite"
+=======
+msgstr "Creează cheltuieli din emailurile primite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează cheltuieli din emailurile primite"
 >>>>>>> upstream/18.0
@@ -841,7 +973,11 @@ msgstr "Creează cheltuieli din emailurile primite"
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_all
 msgid "Create new expenses to get statistics."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați noi cheltuieli pentru a obține statistici."
+=======
+msgstr "Creează cheltuieli noi pentru a obține statistici."
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează cheltuieli noi pentru a obține statistici."
 >>>>>>> upstream/18.0
@@ -865,7 +1001,11 @@ msgstr "Creat de"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -887,7 +1027,11 @@ msgstr "Monedă"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__currency_rate
 msgid "Currency Rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Curs Valutar"
+=======
+msgstr "Curs valutar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Curs valutar"
 >>>>>>> upstream/18.0
@@ -907,7 +1051,11 @@ msgstr "Dragă"
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__hr_expense_alias_prefix
 msgid "Default Alias Name for Expenses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume implicit alias pentru cheltuieli"
+=======
+msgstr "Nume alias implicit pentru cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume alias implicit pentru cheltuieli"
 >>>>>>> upstream/18.0
@@ -927,7 +1075,11 @@ msgstr "Jurnal contabil implicit pentru cheltuielile plătite de angajați."
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Default outstanding account for expenses paid by company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cont implicit neachitat pentru cheltuielile plătite de companie."
+>>>>>>> upstream/18.0
 =======
 msgstr "Cont implicit neachitat pentru cheltuielile plătite de companie."
 >>>>>>> upstream/18.0
@@ -949,7 +1101,11 @@ msgstr "Descriere"
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Digitalize your receipts with OCR and Artificial Intelligence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Digitalizați-vă chitanțele cu OCR și inteligență artificială"
+=======
+msgstr "Digitalizează chitanțele cu OCR și Inteligență Artificială"
+>>>>>>> upstream/18.0
 =======
 msgstr "Digitalizează chitanțele cu OCR și Inteligență Artificială"
 >>>>>>> upstream/18.0
@@ -984,7 +1140,11 @@ msgid "Distribution Analytic Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cont analitic de distribuție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cont analitic de distribuție"
 >>>>>>> upstream/18.0
@@ -1042,6 +1202,7 @@ msgid ""
 "Artificial Intelligence will fill the data automatically."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu mai păstrați biletele de cheltuieli în buzunare. Faceți doar o fotografie"
 " a chitanței dvs. și lăsați-o Odoo să o digitalizeze pentru dvs. OCR și "
 "Inteligența artificială vor completa datele automat."
@@ -1049,6 +1210,11 @@ msgstr ""
 "Nu mai păstrați bonurile de cheltuieli în buzunar. Faceți o poză la chitanță"
 " și lăsați Odoo să o digitalizeze pentru dvs. OCR și Inteligența Artificială"
 " vor completa automat datele."
+>>>>>>> upstream/18.0
+=======
+"Nu mai păstrați bonurile de cheltuieli în buzunar. Faceți o poză la chitanță "
+"și lăsați Odoo să o digitalizeze pentru dvs. OCR și Inteligența Artificială "
+"vor completa automat datele."
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -1059,10 +1225,16 @@ msgid ""
 "again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Chiar doriți să facturați propria companie? Eliminați „Numele companiei” din"
 " partener pentru a corecta configurația. Anulați această factură și începeți"
 " din nou."
+>>>>>>> upstream/18.0
+=======
+"Chiar doriți să facturați propria companie? Eliminați „Numele companiei” din "
+"partener pentru a corecta configurația. Anulați această factură și începeți "
+"din nou."
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -1075,7 +1247,11 @@ msgstr "Domeniu"
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense_sheet__state__done
 msgid "Done"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Efectuat"
+=======
+msgstr "Finalizat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Finalizat"
 >>>>>>> upstream/18.0
@@ -1085,7 +1261,11 @@ msgstr "Finalizat"
 #: code:addons/hr_expense/static/src/mixins/qrcode.js:0
 msgid "Download our App"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Descărcați aplicația noastră"
+=======
+msgstr "Descarcă aplicația noastră"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descarcă aplicația noastră"
 >>>>>>> upstream/18.0
@@ -1101,7 +1281,11 @@ msgstr "Ciornă"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__duplicate_expense_ids
 msgid "Duplicate Expense"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Duplicare cheltuială"
+=======
+msgstr "Cheltuială duplicată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cheltuială duplicată"
 >>>>>>> upstream/18.0
@@ -1120,7 +1304,11 @@ msgstr "Angajat"
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense__payment_mode__own_account
 msgid "Employee (to reimburse)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Angajat (pentru a rambursa)"
+=======
+msgstr "Angajat (de rambursat)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Angajat (de rambursat)"
 >>>>>>> upstream/18.0
@@ -1135,7 +1323,11 @@ msgstr "Jurnal cheltuieli angajat"
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_account_employee_expenses
 msgid "Employee Expenses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cheltuielile angajaților"
+=======
+msgstr "Cheltuieli angajați"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cheltuieli angajați"
 >>>>>>> upstream/18.0
@@ -1144,6 +1336,7 @@ msgstr "Cheltuieli angajați"
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid ""
+<<<<<<< HEAD
 "Enter a name then choose a category and configure the amount of your "
 "expense."
 msgstr ""
@@ -1151,6 +1344,11 @@ msgstr ""
 "Introduceți un nume, apoi alegeți o categorie și configurați valoarea "
 "cheltuielilor dvs."
 =======
+"Introduceți un nume, alegeți o categorie și configurați suma cheltuielii."
+>>>>>>> upstream/18.0
+=======
+"Enter a name then choose a category and configure the amount of your expense."
+msgstr ""
 "Introduceți un nume, alegeți o categorie și configurați suma cheltuielii."
 >>>>>>> upstream/18.0
 
@@ -1174,7 +1372,11 @@ msgstr "Cheltuială"
 #: model:mail.activity.type,name:hr_expense.mail_act_expense_approval
 msgid "Expense Approval"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aprobarea cheltuielilor"
+=======
+msgstr "Aprobare cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobare cheltuieli"
 >>>>>>> upstream/18.0
@@ -1183,7 +1385,11 @@ msgstr "Aprobare cheltuieli"
 #: model:ir.model,name:hr_expense.model_hr_expense_approve_duplicate
 msgid "Expense Approve Duplicate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Duplicare aprobare cheltuieli"
+=======
+msgstr "Aprobă cheltuieli duplicate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobă cheltuieli duplicate"
 >>>>>>> upstream/18.0
@@ -1192,7 +1398,11 @@ msgstr "Aprobă cheltuieli duplicate"
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_employee_tree_inherit_expense
 msgid "Expense Approver"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aprobator de cheltuieli"
+=======
+msgstr "Aprobator cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobator cheltuieli"
 >>>>>>> upstream/18.0
@@ -1203,7 +1413,11 @@ msgstr "Aprobator cheltuieli"
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "Expense Categories"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Categorii de cheltuieli"
+=======
+msgstr "Categorii cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Categorii cheltuieli"
 >>>>>>> upstream/18.0
@@ -1213,7 +1427,11 @@ msgstr "Categorii cheltuieli"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Expense Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data Cheltuielii"
+=======
+msgstr "Data cheltuielii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data cheltuielii"
 >>>>>>> upstream/18.0
@@ -1222,7 +1440,11 @@ msgstr "Data cheltuielii"
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Expense Digitalization (OCR)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Digitalizarea cheltuielilor (OCR)"
+=======
+msgstr "Digitalizare cheltuieli (OCR)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Digitalizare cheltuieli (OCR)"
 >>>>>>> upstream/18.0
@@ -1241,7 +1463,11 @@ msgstr "Linii cheltuieli"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__is_editable
 msgid "Expense Lines Are Editable By Current User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Liniile de cheltuieli sunt editabile de către utilizatorul curent"
+=======
+msgstr "Liniile de cheltuieli sunt editabile de utilizatorul curent"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liniile de cheltuieli sunt editabile de utilizatorul curent"
 >>>>>>> upstream/18.0
@@ -1255,7 +1481,11 @@ msgstr "Manager cheltuieli"
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Expense Outstanding Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cont neachitat cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cont neachitat cheltuieli"
 >>>>>>> upstream/18.0
@@ -1277,7 +1507,11 @@ msgstr "Raport de cheltuieli"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__accounting_date
 msgid "Expense Report Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data raportului de cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data raportului de cheltuieli"
 >>>>>>> upstream/18.0
@@ -1286,7 +1520,11 @@ msgstr "Data raportului de cheltuieli"
 #: model:ir.actions.report,name:hr_expense.action_report_expense_sheet_img
 msgid "Expense Report Image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raport cheltuieli"
+=======
+msgstr "Imagine raport cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imagine raport cheltuieli"
 >>>>>>> upstream/18.0
@@ -1295,7 +1533,11 @@ msgstr "Imagine raport cheltuieli"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__name
 msgid "Expense Report Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rezumatul raportului de cheltuieli"
+=======
+msgstr "Rezumat raport cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rezumat raport cheltuieli"
 >>>>>>> upstream/18.0
@@ -1329,7 +1571,11 @@ msgstr "Lista de cheltuieli"
 #: model:ir.model,name:hr_expense.model_hr_expense_split
 msgid "Expense Split"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Repartizarea cheltuielilor"
+=======
+msgstr "Defalcare cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Defalcare cheltuieli"
 >>>>>>> upstream/18.0
@@ -1338,7 +1584,11 @@ msgstr "Defalcare cheltuieli"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__expense_split_line_ids
 msgid "Expense Split Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linie de repartizare a cheltuielilor"
+=======
+msgstr "Linie defalcare cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linie defalcare cheltuieli"
 >>>>>>> upstream/18.0
@@ -1347,7 +1597,11 @@ msgstr "Linie defalcare cheltuieli"
 #: model:ir.model,name:hr_expense.model_hr_expense_split_wizard
 msgid "Expense Split Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Wizard pentru repartizarea cheltuielilor"
+=======
+msgstr "Expert defalcare cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Expert defalcare cheltuieli"
 >>>>>>> upstream/18.0
@@ -1360,15 +1614,23 @@ msgstr "Validare cheltuieli duplicate"
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_product
 msgid "Expense categories can be reinvoiced to your customers."
+<<<<<<< HEAD
 msgstr ""
 "Categoriile de cheltuieli pot fi refacturate clienților dumneavoastră."
+=======
+msgstr "Categoriile de cheltuieli pot fi refacturate clienților dumneavoastră."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/account_move.py:0
 msgid "Expense entry created from: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrare de cheltuieli creată de la: %s"
+=======
+msgstr "Înregistrare de cheltuieli creată din: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrare de cheltuieli creată din: %s"
 >>>>>>> upstream/18.0
@@ -1377,7 +1639,11 @@ msgstr "Înregistrare de cheltuieli creată din: %s"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
 msgid "Expense refuse reason"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Motivul refuzului de cheltuieli"
+=======
+msgstr "Motiv refuz cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motiv refuz cheltuieli"
 >>>>>>> upstream/18.0
@@ -1386,7 +1652,11 @@ msgstr "Motiv refuz cheltuieli"
 #: model:mail.message.subtype,description:hr_expense.mt_expense_approved
 msgid "Expense report approved, entry created for accountant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Raport de cheltuieli aprobat, înregistrare creată pentru contabil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport de cheltuieli aprobat, înregistrare creată pentru contabil"
 >>>>>>> upstream/18.0
@@ -1400,7 +1670,11 @@ msgstr "Raport de cheltuieli plătit"
 #: model:mail.message.subtype,description:hr_expense.mt_expense_refused
 msgid "Expense report refused"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raportul cheltuielilor refuzat"
+=======
+msgstr "Raport de cheltuieli refuzat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport de cheltuieli refuzat"
 >>>>>>> upstream/18.0
@@ -1409,7 +1683,11 @@ msgstr "Raport de cheltuieli refuzat"
 #: model:mail.message.subtype,description:hr_expense.mt_expense_reset
 msgid "Expense report reset to Draft"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raportul de cheltuieli resetat la schiță"
+=======
+msgstr "Raport de cheltuieli resetat la ciornă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport de cheltuieli resetat la ciornă"
 >>>>>>> upstream/18.0
@@ -1427,7 +1705,11 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Expense split"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Repartizarea cheltuielilor"
+=======
+msgstr "Defalcare cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Defalcare cheltuieli"
 >>>>>>> upstream/18.0
@@ -1459,7 +1741,11 @@ msgstr "Cheltuieli"
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_pivot
 msgid "Expenses Analysis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analiza Cheltuielilor"
+=======
+msgstr "Analiza cheltuielilor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiza cheltuielilor"
 >>>>>>> upstream/18.0
@@ -1469,7 +1755,11 @@ msgstr "Analiza cheltuielilor"
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Expenses Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raportul cheltuielilor"
+=======
+msgstr "Raport cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport cheltuieli"
 >>>>>>> upstream/18.0
@@ -1495,7 +1785,11 @@ msgstr "Cheltuielile membrilor echipei tale"
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Expenses with a similar receipt to %(other_expense_name)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cheltuieli cu o chitanță similară cu %(other_expense_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cheltuieli cu o chitanță similară cu %(other_expense_name)s"
 >>>>>>> upstream/18.0
@@ -1529,7 +1823,11 @@ msgstr "Urmăritori (Parteneri)"
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictogramă Font awesome, de ex. fa-sarcini"
+=======
+msgstr "Pictogramă Font awesome, ex. fa-tasks"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă Font awesome, ex. fa-tasks"
 >>>>>>> upstream/18.0
@@ -1551,7 +1849,11 @@ msgstr "Activități viitoare"
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Generate Expenses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Generarea cheltuielilor"
+=======
+msgstr "Generează cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generează cheltuieli"
 >>>>>>> upstream/18.0
@@ -1565,7 +1867,11 @@ msgstr "Cadouri"
 #: model_terms:product.template,description:hr_expense.expense_product_gift_product_template
 msgid "Gifts to customers or vendors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cadouri oferite clienților sau furnizorilor"
+=======
+msgstr "Cadouri pentru clienți sau furnizori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cadouri pentru clienți sau furnizori"
 >>>>>>> upstream/18.0
@@ -1587,7 +1893,11 @@ msgid "Go to settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mergi la setări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mergi la setări"
 >>>>>>> upstream/18.0
@@ -1638,7 +1948,11 @@ msgstr "Grupează după"
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "Guideline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ghid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ghid"
 >>>>>>> upstream/18.0
@@ -1647,7 +1961,11 @@ msgstr "Ghid"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__is_multiple_currency
 msgid "Handle lines with different currencies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Manipulați liniile cu diferite valute"
+=======
+msgstr "Gestionează linii cu valute diferite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gestionează linii cu valute diferite"
 >>>>>>> upstream/18.0
@@ -1667,7 +1985,11 @@ msgstr "Hotel, bilet de avion, taxi, etc."
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__hr_expense_alias_domain_id
 msgid "Hr Expense Alias Domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Domeniu alias cheltuieli HR"
+>>>>>>> upstream/18.0
 =======
 msgstr "Domeniu alias cheltuieli HR"
 >>>>>>> upstream/18.0
@@ -1693,7 +2015,11 @@ msgstr "Pictogramă"
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__activity_exception_icon
 msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictograma care indică o activitate de excepție."
+=======
+msgstr "Pictogramă pentru a indica o activitate de excepție."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă pentru a indica o activitate de excepție."
 >>>>>>> upstream/18.0
@@ -1703,7 +2029,11 @@ msgstr "Pictogramă pentru a indica o activitate de excepție."
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__message_needaction
 msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifat, mesaje noi necesită atenția dumneavoastră."
+=======
+msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
 >>>>>>> upstream/18.0
@@ -1715,7 +2045,11 @@ msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifată, există mesaje cu eroare de livrare."
+=======
+msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
 >>>>>>> upstream/18.0
@@ -1734,7 +2068,11 @@ msgstr "Taxe incluse"
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Incoming Emails"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "E-mailuri primite"
+=======
+msgstr "Emailuri primite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Emailuri primite"
 >>>>>>> upstream/18.0
@@ -1743,7 +2081,11 @@ msgstr "Emailuri primite"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__description
 msgid "Internal Notes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Note Interne"
+=======
+msgstr "Note interne"
+>>>>>>> upstream/18.0
 =======
 msgstr "Note interne"
 >>>>>>> upstream/18.0
@@ -1758,7 +2100,11 @@ msgstr "Atașamente nevalide!"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__is_editable
 msgid "Is Editable By Current User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Este editabil de către utilizatorul actual"
+=======
+msgstr "Este editabil de utilizatorul curent"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este editabil de utilizatorul curent"
 >>>>>>> upstream/18.0
@@ -1773,7 +2119,11 @@ msgstr "Este urmăritor"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__is_multiple_currency
 msgid "Is currency_id different from the company_currency_id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Currency_id diferit de company_currency_id"
+=======
+msgstr "Este currency_id diferit de company_currency_id"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este currency_id diferit de company_currency_id"
 >>>>>>> upstream/18.0
@@ -1799,7 +2149,11 @@ msgstr "Jurnal"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__account_move_ids
 msgid "Journal Entries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrări în jurnal"
+=======
+msgstr "Înregistrări jurnal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrări jurnal"
 >>>>>>> upstream/18.0
@@ -1808,7 +2162,11 @@ msgstr "Înregistrări jurnal"
 #: model:ir.model,name:hr_expense.model_account_move
 msgid "Journal Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrare de jurnal "
+=======
+msgstr "Înregistrare jurnal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrare jurnal"
 >>>>>>> upstream/18.0
@@ -1822,7 +2180,11 @@ msgstr "Înregistrare jurnal ștearsă"
 #: model:mail.message.subtype,name:hr_expense.mt_expense_entry_draft
 msgid "Journal Entry Reset to Draft"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Înregistrare jurnal resetată la ciornă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrare jurnal resetată la ciornă"
 >>>>>>> upstream/18.0
@@ -1831,7 +2193,11 @@ msgstr "Înregistrare jurnal resetată la ciornă"
 #: model:ir.model,name:hr_expense.model_account_move_line
 msgid "Journal Item"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Element de jurnal"
+=======
+msgstr "Element jurnal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Element jurnal"
 >>>>>>> upstream/18.0
@@ -1841,7 +2207,11 @@ msgstr "Element jurnal"
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "Journal entries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Intrări în jurnal"
+=======
+msgstr "Înregistrări jurnal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrări jurnal"
 >>>>>>> upstream/18.0
@@ -1855,7 +2225,11 @@ msgstr "Înregistrare jurnal ștearsă"
 #: model:mail.message.subtype,description:hr_expense.mt_expense_entry_draft
 msgid "Journal entry reset to draft"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Înregistrare jurnal resetată la ciornă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrare jurnal resetată la ciornă"
 >>>>>>> upstream/18.0
@@ -1864,7 +2238,11 @@ msgstr "Înregistrare jurnal resetată la ciornă"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__label_currency_rate
 msgid "Label Currency Rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etichetă Curs valutar"
+=======
+msgstr "Etichetă curs valutar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etichetă curs valutar"
 >>>>>>> upstream/18.0
@@ -1878,7 +2256,11 @@ msgstr "Etichetă curs valutar"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare de"
 >>>>>>> upstream/18.0
@@ -1892,7 +2274,11 @@ msgstr "Ultima actualizare de"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -1907,7 +2293,11 @@ msgstr "Activități întârziate"
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__hr_expense_use_mailgateway
 msgid "Let your employees record expenses by email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lăsați angajații să înregistreze cheltuielile prin e-mail"
+=======
+msgstr "Permiteți angajaților să înregistreze cheltuieli prin email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permiteți angajaților să înregistreze cheltuieli prin email"
 >>>>>>> upstream/18.0
@@ -1917,7 +2307,11 @@ msgstr "Permiteți angajaților să înregistreze cheltuieli prin email"
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Let's check out where you can manage all your employees expenses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Să analizăm unde puteți gestiona toate cheltuielile angajaților dvs"
+=======
+msgstr "Să vedem unde puteți gestiona toate cheltuielile angajaților"
+>>>>>>> upstream/18.0
 =======
 msgstr "Să vedem unde puteți gestiona toate cheltuielile angajaților"
 >>>>>>> upstream/18.0
@@ -1927,7 +2321,11 @@ msgstr "Să vedem unde puteți gestiona toate cheltuielile angajaților"
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Let's go back to your expenses."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Să revenim la cheltuielile dvs."
+=======
+msgstr "Să revenim la cheltuielile tale."
+>>>>>>> upstream/18.0
 =======
 msgstr "Să revenim la cheltuielile tale."
 >>>>>>> upstream/18.0
@@ -1937,7 +2335,11 @@ msgstr "Să revenim la cheltuielile tale."
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Lunch with customer $12.32"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Prânz cu client $12.32"
+=======
+msgstr "Prânz cu clientul $12.32"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prânz cu clientul $12.32"
 >>>>>>> upstream/18.0
@@ -1961,8 +2363,13 @@ msgid ""
 "accounting entries."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Managerii pot aproba raportul aici, apoi un contabil poate posta "
 "înregistrările contabile."
+=======
+"Managerii pot aproba raportul aici, apoi un contabil poate posta notele "
+"contabile."
+>>>>>>> upstream/18.0
 =======
 "Managerii pot aproba raportul aici, apoi un contabil poate posta notele "
 "contabile."
@@ -1989,7 +2396,11 @@ msgstr "Mese"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_has_error
 msgid "Message Delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Eroare de livrare a mesajului"
+=======
+msgstr "Eroare livrare mesaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eroare livrare mesaj"
 >>>>>>> upstream/18.0
@@ -2015,7 +2426,11 @@ msgstr "Mitchell Admin"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__my_activity_date_deadline
 msgid "My Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită a activității mele"
+=======
+msgstr "Termen limită activitate proprie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită activitate proprie"
 >>>>>>> upstream/18.0
@@ -2110,7 +2525,11 @@ msgstr "Nu s-au găsit categorii de cheltuieli. Să creăm una!"
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_my_all
 msgid "No expense report found. Let's create one!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu a fost găsit niciun raport de cheltuieli. Să creăm una!"
+=======
+msgstr "Nu a fost găsit niciun raport de cheltuieli. Să creăm unul!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu a fost găsit niciun raport de cheltuieli. Să creăm unul!"
 >>>>>>> upstream/18.0
@@ -2187,7 +2606,11 @@ msgstr "Numărul de mesaje cu eroare de livrare"
 #: code:addons/hr_expense/static/src/components/expense_dashboard.xml:0
 msgid "Numbers computed from your personal expenses."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numere calculate din cheltuielile personale."
+>>>>>>> upstream/18.0
 =======
 msgstr "Numere calculate din cheltuielile personale."
 >>>>>>> upstream/18.0
@@ -2230,7 +2653,11 @@ msgstr ""
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Open bugger menu."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deschideți meniul principal."
+>>>>>>> upstream/18.0
 =======
 msgstr "Deschideți meniul principal."
 >>>>>>> upstream/18.0
@@ -2239,7 +2666,11 @@ msgstr "Deschideți meniul principal."
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_split
 msgid "Original Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoare"
+=======
+msgstr "Valoare inițială"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare inițială"
 >>>>>>> upstream/18.0
@@ -2249,7 +2680,11 @@ msgstr "Valoare inițială"
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__expense_outstanding_account_id
 msgid "Outstanding Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conturi neachitate"
+=======
+msgstr "Cont neachitat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cont neachitat"
 >>>>>>> upstream/18.0
@@ -2328,6 +2763,11 @@ msgid ""
 "Please specify an expense journal in order to generate accounting entries."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vă rugăm să specificați un jurnal de cheltuieli pentru a genera note "
+"contabile."
+>>>>>>> upstream/18.0
 =======
 "Vă rugăm să specificați un jurnal de cheltuieli pentru a genera note "
 "contabile."
@@ -2341,6 +2781,11 @@ msgid ""
 "the employee"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vă rugăm să specificați dacă cheltuielile din acest raport au fost plătite "
+"de companie sau de angajat"
+>>>>>>> upstream/18.0
 =======
 "Vă rugăm să specificați dacă cheltuielile din acest raport au fost plătite "
 "de companie sau de angajat"
@@ -2407,7 +2852,11 @@ msgstr "Variante produs"
 #: model:ir.model,name:hr_expense.model_hr_employee_public
 msgid "Public Employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Angajați Publici"
+=======
+msgstr "Angajat public"
+>>>>>>> upstream/18.0
 =======
 msgstr "Angajat public"
 >>>>>>> upstream/18.0
@@ -2423,7 +2872,11 @@ msgstr "Cantitate"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__rating_ids
 msgid "Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ratings"
+=======
+msgstr "Evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluări"
 >>>>>>> upstream/18.0
@@ -2437,9 +2890,14 @@ msgid ""
 "navigate."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Gata? Puteți salvați manual sau să eliminați modificările de aici. Nu este "
 "<em>necesar să salvați</em> - Odoo va salva totul pentru dvs. atunci când "
 "navigați."
+=======
+"Gata? Puteți salva manual sau să eliminați modificările de aici. Nu "
+"<em>trebuie să salvați</em> - Odoo va salva totul pentru dvs. când navigați."
+>>>>>>> upstream/18.0
 =======
 "Gata? Puteți salva manual sau să eliminați modificările de aici. Nu "
 "<em>trebuie să salvați</em> - Odoo va salva totul pentru dvs. când navigați."
@@ -2466,7 +2924,11 @@ msgstr "Referință"
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Refund employees via their payslips."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rambursați angajații prin fluturașii de salariu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Rambursați angajații prin fluturașii de salariu."
 >>>>>>> upstream/18.0
@@ -2482,7 +2944,11 @@ msgstr "Refuzați"
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_refuse_wizard_action
 msgid "Refuse Expense"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Refuzați cheltuielile"
+=======
+msgstr "Refuzați cheltuiala"
+>>>>>>> upstream/18.0
 =======
 msgstr "Refuzați cheltuiala"
 >>>>>>> upstream/18.0
@@ -2505,7 +2971,11 @@ msgstr "Cheltuieli refuzate"
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__module_hr_payroll_expense
 msgid "Reimburse Expenses in Payslip"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rambursați cheltuielile în PaySlip"
+=======
+msgstr "Rambursați cheltuielile în fluturașul de salariu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rambursați cheltuielile în fluturașul de salariu"
 >>>>>>> upstream/18.0
@@ -2514,7 +2984,11 @@ msgstr "Rambursați cheltuielile în fluturașul de salariu"
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Reimburse in Payslip"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rambursare în Payslip"
+=======
+msgstr "Rambursați în fluturașul de salariu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rambursați în fluturașul de salariu"
 >>>>>>> upstream/18.0
@@ -2529,7 +3003,11 @@ msgstr "Acțiune raport"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__company_currency_id
 msgid "Report Company Currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raportați moneda companiei"
+=======
+msgstr "Moneda companiei raportate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moneda companiei raportate"
 >>>>>>> upstream/18.0
@@ -2543,7 +3021,11 @@ msgstr "Raportare"
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Reset to Draft"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Resetare la Ciornă"
+=======
+msgstr "Resetați la ciornă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resetați la ciornă"
 >>>>>>> upstream/18.0
@@ -2558,7 +3040,11 @@ msgstr "Utilizator responsabil"
 #: model_terms:product.template,description:hr_expense.expense_product_meal_product_template
 msgid "Restaurants, business lunches, etc."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Restaurants, business lunches, etc."
+=======
+msgstr "Restaurante, prânzuri de afaceri, etc."
+>>>>>>> upstream/18.0
 =======
 msgstr "Restaurante, prânzuri de afaceri, etc."
 >>>>>>> upstream/18.0
@@ -2573,7 +3059,11 @@ msgstr "Eroare livrare SMS"
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_categories_tree_view
 msgid "Sales Price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Preț vânzare"
+=======
+msgstr "Preț de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preț de vânzare"
 >>>>>>> upstream/18.0
@@ -2582,7 +3072,11 @@ msgstr "Preț de vânzare"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__same_receipt_expense_ids
 msgid "Same Receipt Expense"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cheltuială cu aceeași chitanță"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cheltuială cu aceeași chitanță"
 >>>>>>> upstream/18.0
@@ -2593,7 +3087,11 @@ msgstr "Cheltuială cu aceeași chitanță"
 #: code:addons/hr_expense/static/src/views/list.xml:0
 msgid "Scan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scanare"
+=======
+msgstr "Scanează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scanează"
 >>>>>>> upstream/18.0
@@ -2609,6 +3107,7 @@ msgstr "Scanați acest cod QR pentru a obține aplicația Odoo:"
 #: model:ir.model.fields,help:hr_expense.field_res_users__expense_manager_id
 msgid ""
 "Select the user responsible for approving \"Expenses\" of this employee.\n"
+<<<<<<< HEAD
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
 msgstr ""
 "Selectați utilizatorul responsabil pentru aprobarea „Cheltuielilor” acestui angajat.\n"
@@ -2616,6 +3115,15 @@ msgstr ""
 " Dacă este goală, aprobarea se face de către un administrator sau un aprobator (stabilit în setări / utilizatori)."
 =======
 "Dacă este gol, aprobarea se face de către un Administrator sau Aprobator (stabilit în setări/utilizatori)."
+>>>>>>> upstream/18.0
+=======
+"If empty, the approval is done by an Administrator or Approver (determined "
+"in settings/users)."
+msgstr ""
+"Selectați utilizatorul responsabil pentru aprobarea „Cheltuielilor” acestui "
+"angajat.\n"
+"Dacă este gol, aprobarea se face de către un Administrator sau Aprobator "
+"(stabilit în setări/utilizatori)."
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -2633,6 +3141,7 @@ msgid ""
 "subject to set it on the expense too."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trimiteți un e-mail la acest alias de e-mail cu chitanța în atașament pentru"
 " a crea o cheltuială cu un singur clic. Dacă primul cuvânt din subiectul "
 "mesajului conține referința internă a categoriei sau numele categoriei, "
@@ -2645,12 +3154,23 @@ msgstr ""
 "va fi setată automat. Introduceți suma cheltuielii în subiectul e-mailului "
 "pentru a o seta și pe cheltuială."
 >>>>>>> upstream/18.0
+=======
+"Trimiteți un e-mail la acest alias cu chitanța atașată pentru a crea o "
+"cheltuială dintr-un singur clic. Dacă primul cuvânt din subiectul e-mailului "
+"conține referința internă sau numele categoriei, categoria corespunzătoare "
+"va fi setată automat. Introduceți suma cheltuielii în subiectul e-mailului "
+"pentru a o seta și pe cheltuială."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__module_hr_expense_extract
 msgid "Send bills to OCR to generate expenses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimiteți facturi către OCR pentru a genera cheltuieli"
+=======
+msgstr "Trimiteți facturile la OCR pentru a genera cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimiteți facturile la OCR pentru a genera cheltuieli"
 >>>>>>> upstream/18.0
@@ -2672,7 +3192,11 @@ msgstr "Foaie"
 #: model:ir.model.fields,field_description:hr_expense.field_account_move__show_commercial_partner_warning
 msgid "Show Commercial Partner Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afișează avertisment partener comercial"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează avertisment partener comercial"
 >>>>>>> upstream/18.0
@@ -2682,6 +3206,7 @@ msgstr "Afișează avertisment partener comercial"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Show all records which has next action date is before today"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Afișați toate înregistrările care au data următoarei acțiuni înainte de data"
 " de astăzi"
@@ -2695,13 +3220,21 @@ msgstr "Afișați angajații cu email lipsă"
 "Afișează toate înregistrările care au data următoarei acțiuni înainte de "
 "astăzi"
 >>>>>>> upstream/18.0
+=======
+"Afișează toate înregistrările care au data următoarei acțiuni înainte de "
+"astăzi"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__accounting_date
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__accounting_date
 msgid "Specify the bill date of the related vendor bill."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Specificați data facturii pentru factura furnizorului asociat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Specificați data facturii pentru factura furnizorului asociat."
 >>>>>>> upstream/18.0
@@ -2717,7 +3250,11 @@ msgstr "Specificați dacă produsul poate fi selectat într-o cheltuială."
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "Split Expense"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Defalcare cheltuieli"
+=======
+msgstr "Defalcare cheltuială"
+>>>>>>> upstream/18.0
 =======
 msgstr "Defalcare cheltuială"
 >>>>>>> upstream/18.0
@@ -2732,7 +3269,11 @@ msgstr "Defalcare cheltuieli"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__split_possible
 msgid "Split Possible"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Defalacare posibilă"
+=======
+msgstr "Defalcare posibilă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Defalcare posibilă"
 >>>>>>> upstream/18.0
@@ -2741,7 +3282,11 @@ msgstr "Defalcare posibilă"
 #: model:ir.model.fields,field_description:hr_expense.field_product_product__standard_price_update_warning
 msgid "Standard Price Update Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avertisment de actualizare a prețului standard"
+=======
+msgstr "Avertisment actualizare preț standard"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertisment actualizare preț standard"
 >>>>>>> upstream/18.0
@@ -2765,7 +3310,11 @@ msgid ""
 msgstr ""
 "Stare bazată pe activități\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Întârziată: data activitații este deja trecută\n"
+=======
+"Întârziată: data scadentă a trecut\n"
+>>>>>>> upstream/18.0
 =======
 "Întârziată: data scadentă a trecut\n"
 >>>>>>> upstream/18.0
@@ -2784,7 +3333,11 @@ msgstr "Trimite"
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Submit to Manager"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimiteti Directorului"
+=======
+msgstr "Trimiteți managerului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimiteți managerului"
 >>>>>>> upstream/18.0
@@ -2833,7 +3386,11 @@ msgstr "Valoare taxă"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__tax_amount_currency
 msgid "Tax amount in Currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoarea taxei în valută"
+=======
+msgstr "Valoare taxă în valută"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare taxă în valută"
 >>>>>>> upstream/18.0
@@ -2842,7 +3399,11 @@ msgstr "Valoare taxă în valută"
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__tax_amount
 msgid "Tax amount in company currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoarea taxei în moneda societății"
+=======
+msgstr "Valoare taxă în moneda companiei"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare taxă în moneda companiei"
 >>>>>>> upstream/18.0
@@ -2851,7 +3412,11 @@ msgstr "Valoare taxă în moneda companiei"
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__tax_amount_currency
 msgid "Tax amount in currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoarea taxei în valută"
+=======
+msgstr "Valoare taxă în valută"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare taxă în valută"
 >>>>>>> upstream/18.0
@@ -2869,7 +3434,11 @@ msgstr "Taxe"
 #: model:res.groups,name:hr_expense.group_hr_expense_team_approver
 msgid "Team Approver"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aprobator de echipă"
+=======
+msgstr "Aprobator echipă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobator echipă"
 >>>>>>> upstream/18.0
@@ -2881,6 +3450,10 @@ msgid ""
 "The account used to record the outstanding amount of the company expenses."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Contul folosit pentru a înregistra suma restantă a cheltuielilor companiei."
+>>>>>>> upstream/18.0
 =======
 "Contul folosit pentru a înregistra suma restantă a cheltuielilor companiei."
 >>>>>>> upstream/18.0
@@ -2888,6 +3461,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_res_company__expense_journal_id
 #: model:ir.model.fields,help:hr_expense.field_res_config_settings__expense_journal_id
+<<<<<<< HEAD
 msgid ""
 "The company's default journal used when an employee expense is created."
 msgstr ""
@@ -2898,6 +3472,12 @@ msgstr ""
 "Jurnalul implicit al companiei utilizat la crearea unei cheltuieli de "
 "angajat."
 >>>>>>> upstream/18.0
+=======
+msgid "The company's default journal used when an employee expense is created."
+msgstr ""
+"Jurnalul implicit al companiei utilizat la crearea unei cheltuieli de "
+"angajat."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -2905,7 +3485,11 @@ msgstr ""
 msgid "The current user has no related employee. Please, create one."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Utilizatorul actual nu are niciun angajat înrudit. Te rog, creează unul."
+=======
+"Utilizatorul curent nu are niciun angajat asociat. Vă rugăm să creați unul."
+>>>>>>> upstream/18.0
 =======
 "Utilizatorul curent nu are niciun angajat asociat. Vă rugăm să creați unul."
 >>>>>>> upstream/18.0
@@ -2913,12 +3497,19 @@ msgstr ""
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid ""
+<<<<<<< HEAD
 "The first word of the email subject did not correspond to any category code."
 " You'll have to set the category manually on the expense."
 msgstr ""
 <<<<<<< HEAD
 "Primul cuvânt din subiectul e-mailului nu corespunde niciunui cod de "
 =======
+"Primul cuvânt din subiectul emailului nu corespunde niciunui cod de "
+>>>>>>> upstream/18.0
+=======
+"The first word of the email subject did not correspond to any category code. "
+"You'll have to set the category manually on the expense."
+msgstr ""
 "Primul cuvânt din subiectul emailului nu corespunde niciunui cod de "
 >>>>>>> upstream/18.0
 "categorie. Va trebui să setați manual categoria pe cheltuială."
@@ -2931,9 +3522,15 @@ msgid ""
 "contain duplicates."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Următoarele cheltuieli aprobate au angajat deja asociat, sumă și categorie "
 "similare cu unele cheltuieli din acest raport. Vă rugăm să verificați dacă "
 "acest raport nu conține duplicate."
+=======
+"Următoarele cheltuieli aprobate au același angajat, sumă și categorie ca "
+"unele cheltuieli din acest raport. Vă rugăm să verificați ca raportul să nu "
+"conțină duplicate."
+>>>>>>> upstream/18.0
 =======
 "Următoarele cheltuieli aprobate au același angajat, sumă și categorie ca "
 "unele cheltuieli din acest raport. Vă rugăm să verificați ca raportul să nu "
@@ -2944,7 +3541,11 @@ msgstr ""
 #: model:ir.model.constraint,message:hr_expense.constraint_hr_expense_sheet_journal_id_required_posted
 msgid "The journal must be set on posted expense"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Jurnalul trebuie stabilit pe cheltuiala înregistrată"
+=======
+msgstr "Jurnalul trebuie setat pe cheltuiala postată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jurnalul trebuie setat pe cheltuiala postată"
 >>>>>>> upstream/18.0
@@ -2953,7 +3554,11 @@ msgstr "Jurnalul trebuie setat pe cheltuiala postată"
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__employee_journal_id
 msgid "The journal used when the expense is paid by employee."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Jurnalul utilizat atunci când cheltuiala este plătită de angajat."
+=======
+msgstr "Jurnalul folosit când cheltuiala este plătită de angajat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Jurnalul folosit când cheltuiala este plătită de angajat."
 >>>>>>> upstream/18.0
@@ -2962,8 +3567,12 @@ msgstr "Jurnalul folosit când cheltuiala este plătită de angajat."
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__payment_method_line_id
 msgid "The payment method used when the expense is paid by the company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Metoda de plată utilizată atunci când cheltuiala este plătită de companie."
+=======
+msgstr "Metoda de plată folosită când cheltuiala este plătită de companie."
+>>>>>>> upstream/18.0
 =======
 msgstr "Metoda de plată folosită când cheltuiala este plătită de companie."
 >>>>>>> upstream/18.0
@@ -2973,7 +3582,11 @@ msgstr "Metoda de plată folosită când cheltuiala este plătită de companie."
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "The status of all your current expenses is visible from here."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Statusul tuturor cheltuielilor curente este afișată aici."
+=======
+msgstr "Statusul tuturor cheltuielilor curente este vizibil de aici."
+>>>>>>> upstream/18.0
 =======
 msgstr "Statusul tuturor cheltuielilor curente este vizibil de aici."
 >>>>>>> upstream/18.0
@@ -2981,6 +3594,7 @@ msgstr "Statusul tuturor cheltuielilor curente este vizibil de aici."
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_split_wizard__split_possible
 msgid "The sum of after split shut remain the same"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "Suma de după defalcare rămâne aceeași"
 
@@ -2996,6 +3610,9 @@ msgstr ""
 =======
 msgstr "Suma după defalcare trebuie să rămână aceeași"
 >>>>>>> upstream/18.0
+=======
+msgstr "Suma după defalcare trebuie să rămână aceeași"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -3006,8 +3623,13 @@ msgid ""
 "do."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Există cheltuieli nesolicitate legate de această categorie. Actualizarea "
 "costului categoriei va modifica valoarea cheltuielilor. Asigurați-vă că "
+=======
+"Există cheltuieli neînregistrate legate de această categorie. Actualizarea "
+"costului categoriei va modifica valorile cheltuielilor. Asigurați-vă că "
+>>>>>>> upstream/18.0
 =======
 "Există cheltuieli neînregistrate legate de această categorie. Actualizarea "
 "costului categoriei va modifica valorile cheltuielilor. Asigurați-vă că "
@@ -3027,6 +3649,11 @@ msgid ""
 "report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Acest raport de cheltuieli este gol. Nu puteți trimite sau aproba un raport "
+"de cheltuieli gol."
+>>>>>>> upstream/18.0
 =======
 "Acest raport de cheltuieli este gol. Nu puteți trimite sau aproba un raport "
 "de cheltuieli gol."
@@ -3036,15 +3663,23 @@ msgstr ""
 #: model:digest.tip,name:hr_expense.digest_tip_hr_expense_0
 #: model_terms:digest.tip,tip_description:hr_expense.digest_tip_hr_expense_0
 msgid "Tip: Snap pictures of your receipts with the remote app"
+<<<<<<< HEAD
 msgstr ""
 "Sfat: Faceți fotografii cu chitanțele dvs. cu aplicația de la distanță"
+=======
+msgstr "Sfat: Faceți fotografii cu chitanțele dvs. cu aplicația de la distanță"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Tip: try sending receipts by email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sfat: încercați să trimiteți chitanțele prin email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sfat: încercați să trimiteți chitanțele prin email"
 >>>>>>> upstream/18.0
@@ -3061,7 +3696,11 @@ msgstr "A raporta"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "To Submit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "De Depus"
+=======
+msgstr "De depus"
+>>>>>>> upstream/18.0
 =======
 msgstr "De depus"
 >>>>>>> upstream/18.0
@@ -3070,7 +3709,11 @@ msgstr "De depus"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "To be Reimbursed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "De rambursat"
+>>>>>>> upstream/18.0
 =======
 msgstr "De rambursat"
 >>>>>>> upstream/18.0
@@ -3116,7 +3759,11 @@ msgstr "Suma totală neimpozitată în valută"
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_split_wizard__total_amount_currency_original
 msgid "Total amount of the original Expense that we are splitting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoarea totală a cheltuielilor inițiale pe care le defalcăm"
+=======
+msgstr "Valoarea totală a cheltuielii inițiale pe care o defalcăm"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoarea totală a cheltuielii inițiale pe care o defalcăm"
 >>>>>>> upstream/18.0
@@ -3136,7 +3783,11 @@ msgstr "Călătorii & cazare"
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__activity_exception_decoration
 msgid "Type of the exception activity on record."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul de activitate de excepție înregistrată."
+=======
+msgstr "Tipul activității de excepție înregistrate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipul activității de excepție înregistrate."
 >>>>>>> upstream/18.0
@@ -3145,7 +3796,11 @@ msgstr "Tipul activității de excepție înregistrate."
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Under Validation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sub validare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sub validare"
 >>>>>>> upstream/18.0
@@ -3184,7 +3839,11 @@ msgstr "Încărcare"
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_all
 msgid "Upload or drop an expense receipt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Încărcați sau trageți o chitanță de cheltuieli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Încărcați sau trageți o chitanță de cheltuieli"
 >>>>>>> upstream/18.0
@@ -3194,7 +3853,11 @@ msgstr "Încărcați sau trageți o chitanță de cheltuieli"
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Use the breadcrumbs to go back to the list of expenses."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Folosiți fișierele pentru a reveni la lista de cheltuieli."
+=======
+msgstr "Folosiți navigarea pentru a reveni la lista de cheltuieli."
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosiți navigarea pentru a reveni la lista de cheltuieli."
 >>>>>>> upstream/18.0
@@ -3208,7 +3871,11 @@ msgstr "Utilizator"
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_approve_duplicate_action
 msgid "Validate Duplicate Expenses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Validarea cheltuielilor duplicate"
+=======
+msgstr "Validare cheltuieli duplicate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Validare cheltuieli duplicate"
 >>>>>>> upstream/18.0
@@ -3227,7 +3894,11 @@ msgstr "Vizualizați atașamentele"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid "View Expense"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vizualizați cheltuielile"
+=======
+msgstr "Vizualizați cheltuiala"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vizualizați cheltuiala"
 >>>>>>> upstream/18.0
@@ -3236,7 +3907,11 @@ msgstr "Vizualizați cheltuiala"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "View Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vizualizează raportul"
+=======
+msgstr "Vizualizați raportul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vizualizați raportul"
 >>>>>>> upstream/18.0
@@ -3252,7 +3927,11 @@ msgstr "Mesaje de pe site-ul web"
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__website_message_ids
 msgid "Website communication history"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Istoricul comunicării pe site-ul web"
+=======
+msgstr "Istoric comunicare pe site-ul web"
+>>>>>>> upstream/18.0
 =======
 msgstr "Istoric comunicare pe site-ul web"
 >>>>>>> upstream/18.0
@@ -3260,6 +3939,7 @@ msgstr "Istoric comunicare pe site-ul web"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid ""
+<<<<<<< HEAD
 "When the cost of an expense product is different than 0, then the user"
 "                                             using this product won't be "
 "able to change the amount of the expense,"
@@ -3271,11 +3951,25 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 =======
+=======
+"When the cost of an expense product is different than 0, then the "
+"user                                             using this product won't be "
+"able to change the amount of the "
+"expense,                                             only the quantity. Use "
+"a cost different than 0 for expense categories funded "
+"by                                             the company at fixed cost "
+"like allowances for mileage, per diem, "
+"accommodation                                             or meal."
+msgstr ""
+>>>>>>> upstream/18.0
 "Când costul unui produs de cheltuieli este diferit de 0, utilizatorul care "
 "folosește acest produs nu va putea modifica valoarea cheltuielii, ci doar "
 "cantitatea. Folosiți un cost diferit de 0 pentru categoriile de cheltuieli "
 "finanțate de companie la cost fix, cum ar fi indemnizațiile pentru "
 "kilometraj, diurnă, cazare sau masă."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -3283,7 +3977,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__product_has_tax
 msgid "Whether tax is defined on a selected product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă taxa este definită pentru un produs selectat"
+=======
+msgstr "Dacă taxa este definită pentru produsul selectat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă taxa este definită pentru produsul selectat"
 >>>>>>> upstream/18.0
@@ -3321,7 +4019,11 @@ msgstr "Acum îl puteți trimite managerului de pe următorul link."
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "You can only generate an accounting entry for approved expense(s)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Puteți genera o notă contabilă doar pentru cheltuieli aprobate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Puteți genera o notă contabilă doar pentru cheltuieli aprobate."
 >>>>>>> upstream/18.0
@@ -3340,7 +4042,11 @@ msgid ""
 " %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu puteți autoriza:\n"
+=======
+"Nu puteți aproba:\n"
+>>>>>>> upstream/18.0
 =======
 "Nu puteți aproba:\n"
 >>>>>>> upstream/18.0
@@ -3352,6 +4058,10 @@ msgstr ""
 msgid "You cannot cancel an expense sheet linked to a posted journal entry"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu puteți anula o listă de cheltuieli asociată cu o notă contabilă postată"
+>>>>>>> upstream/18.0
 =======
 "Nu puteți anula o listă de cheltuieli asociată cu o notă contabilă postată"
 >>>>>>> upstream/18.0
@@ -3363,9 +4073,13 @@ msgid ""
 "You cannot create accounting entries for an expense report without expenses."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Nu puteți crea note contabile pentru un raport de cheltuieli fără "
 "cheltuieli."
+>>>>>>> upstream/18.0
+=======
+"Nu puteți crea note contabile pentru un raport de cheltuieli fără cheltuieli."
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -3373,7 +4087,11 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You cannot delete a posted or approved expense."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu puteți șterge o cheltuială înregistrată sau aprobată."
+=======
+msgstr "Nu puteți șterge o cheltuială postată sau aprobată."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți șterge o cheltuială postată sau aprobată."
 >>>>>>> upstream/18.0
@@ -3388,17 +4106,22 @@ msgstr "Nu puteți șterge o cheltuială postată sau plătită."
 #. odoo-python
 #: code:addons/hr_expense/models/analytic.py:0
 msgid "You cannot delete an analytic account that is used in an expense."
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 "Nu puteți șterge un cont analitic care este utilizat într-o cheltuială."
 =======
 "Nu puteți șterge un cont analitic care este folosit într-o cheltuială."
 >>>>>>> upstream/18.0
+=======
+msgstr "Nu puteți șterge un cont analitic care este folosit într-o cheltuială."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete only some entries linked to an expense report. All entries"
 " must be deleted at the same time."
 msgstr ""
@@ -3406,6 +4129,13 @@ msgstr ""
 <<<<<<< HEAD
 "Toate intrările trebuie șterse în același timp."
 =======
+"Toate intrările trebuie șterse simultan."
+>>>>>>> upstream/18.0
+=======
+"You cannot delete only some entries linked to an expense report. All entries "
+"must be deleted at the same time."
+msgstr ""
+"Nu puteți șterge doar unele intrări asociate unui raport de cheltuieli. "
 "Toate intrările trebuie șterse simultan."
 >>>>>>> upstream/18.0
 
@@ -3418,7 +4148,11 @@ msgid ""
 msgstr ""
 "Nu puteți șterge doar unele plăți asociate unui raport de cheltuieli. Toate "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "plățile trebuie șterse în același timp."
+=======
+"plățile trebuie șterse simultan."
+>>>>>>> upstream/18.0
 =======
 "plățile trebuie șterse simultan."
 >>>>>>> upstream/18.0
@@ -3431,8 +4165,13 @@ msgid ""
 "report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu puteți efectua această modificare deoarece plata este asociată cu un "
 "raport de cheltuieli."
+=======
+"Nu puteți face această modificare deoarece plata este asociată cu un raport "
+"de cheltuieli."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți face această modificare deoarece plata este asociată cu un raport "
 "de cheltuieli."
@@ -3456,6 +4195,11 @@ msgid ""
 "report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu puteți elimina toate cheltuielile dintr-un raport de cheltuieli trimis, "
+"aprobat sau plătit."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți elimina toate cheltuielile dintr-un raport de cheltuieli trimis, "
 "aprobat sau plătit."
@@ -3474,7 +4218,11 @@ msgstr ""
 msgid "You cannot report expenses for different employees in the same report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu puteți raporta cheltuielile pentru diferiți angajați în același raport."
+=======
+"Nu puteți raporta cheltuieli pentru angajați diferiți în același raport."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți raporta cheltuieli pentru angajați diferiți în același raport."
 >>>>>>> upstream/18.0
@@ -3484,7 +4232,11 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You cannot report the expenses without amount!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu puteți raporta cheltuielile fără valoare!"
+=======
+msgstr "Nu puteți raporta cheltuieli fără valoare!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți raporta cheltuieli fără valoare!"
 >>>>>>> upstream/18.0
@@ -3499,11 +4251,18 @@ msgstr "Nu puteți raporta de două ori aceeași linie!"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot set the expense total in currency to 0 if it's linked to a "
 "report."
 msgstr ""
 <<<<<<< HEAD
 =======
+"Nu puteți seta totalul cheltuielii în valută la 0 dacă este asociată cu un "
+"raport."
+>>>>>>> upstream/18.0
+=======
+"You cannot set the expense total in currency to 0 if it's linked to a report."
+msgstr ""
 "Nu puteți seta totalul cheltuielii în valută la 0 dacă este asociată cu un "
 "raport."
 >>>>>>> upstream/18.0
@@ -3514,6 +4273,10 @@ msgstr ""
 msgid "You cannot set the expense total to 0 if it's linked to a report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu puteți seta totalul cheltuielii la 0 dacă este asociată cu un raport."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți seta totalul cheltuielii la 0 dacă este asociată cu un raport."
 >>>>>>> upstream/18.0
@@ -3525,6 +4288,7 @@ msgid ""
 "You do not have the rights to add or remove any expenses on an approved or "
 "paid expense report."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 #. module: hr_expense
@@ -3553,12 +4317,32 @@ msgstr ""
 #. module: hr_expense
 #. odoo-python
 >>>>>>> upstream/18.0
+=======
+"Nu aveți drepturi să adăugați sau să eliminați cheltuieli dintr-un raport de "
+"cheltuieli aprobat sau plătit."
+
+#. module: hr_expense
+#. odoo-python
+#: code:addons/hr_expense/models/hr_expense.py:0
+msgid ""
+"You don't have the rights to attach a document to a submitted expense. "
+"Please reset the expense report to draft first."
+msgstr ""
+
+#. module: hr_expense
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
 "You don't have the rights to bypass the validation process of this expense "
 "report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu aveți drepturi să ocoliți procesul de validare al acestui raport de "
+"cheltuieli."
+>>>>>>> upstream/18.0
 =======
 "Nu aveți drepturi să ocoliți procesul de validare al acestui raport de "
 "cheltuieli."
@@ -3571,6 +4355,7 @@ msgid ""
 "You don't have the rights to bypass the validation process of this expense."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: hr_expense
 #. odoo-python
@@ -3591,10 +4376,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Nu aveți drepturi să ocoliți procesul de validare al acestei cheltuieli."
 
 #. module: hr_expense
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You have no expense to report"
@@ -3605,7 +4395,11 @@ msgstr "Nu aveți cheltuieli de raportat"
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You need to add a manual payment method on the journal (%s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trebuie să adăugați o metodă de plată manuală pe jurnal (%s)"
+=======
+msgstr "Trebuie să adăugați o metodă de plată manuală în jurnal (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trebuie să adăugați o metodă de plată manuală în jurnal (%s)"
 >>>>>>> upstream/18.0
@@ -3614,6 +4408,7 @@ msgstr "Trebuie să adăugați o metodă de plată manuală în jurnal (%s)"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
+<<<<<<< HEAD
 "You need to have at least one category that can be expensed in your database"
 " to proceed!"
 msgstr ""
@@ -3621,6 +4416,13 @@ msgstr ""
 "Pentru a continua, trebuie să aveți cel puțin o categorie care poate fi "
 "trecută pe cheltuieli în baza dvs. de date!"
 =======
+"Trebuie să aveți cel puțin o categorie care poate fi trecută pe cheltuieli "
+"în baza de date pentru a continua!"
+>>>>>>> upstream/18.0
+=======
+"You need to have at least one category that can be expensed in your database "
+"to proceed!"
+msgstr ""
 "Trebuie să aveți cel puțin o categorie care poate fi trecută pe cheltuieli "
 "în baza de date pentru a continua!"
 >>>>>>> upstream/18.0
@@ -3657,7 +4459,11 @@ msgid "alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "alias"
 >>>>>>> upstream/18.0
@@ -3720,7 +4526,11 @@ msgstr "alias"
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "e.g. Lunch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "de exemplu. Masa de prânz"
+=======
+msgstr "ex: Prânz"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Prânz"
 >>>>>>> upstream/18.0
@@ -3729,7 +4539,11 @@ msgstr "ex: Prânz"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "e.g. Lunch with Customer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "de exemplu. Prânz cu clientul"
+=======
+msgstr "ex: Prânz cu clientul"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Prânz cu clientul"
 >>>>>>> upstream/18.0
@@ -3738,7 +4552,11 @@ msgstr "ex: Prânz cu clientul"
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "e.g. Restaurants: only week days, for lunch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Restaurante: doar zilele lucrătoare, pentru prânz"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Restaurante: doar zilele lucrătoare, pentru prânz"
 >>>>>>> upstream/18.0
@@ -3747,7 +4565,11 @@ msgstr "ex: Restaurante: doar zilele lucrătoare, pentru prânz"
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "e.g. Trip to NY"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "de exemplu. Excursie la NY"
+=======
+msgstr "ex: Excursie la NY"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Excursie la NY"
 >>>>>>> upstream/18.0
@@ -3755,6 +4577,7 @@ msgstr "ex: Excursie la NY"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "e.g. mycompany.com"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3832,12 +4655,19 @@ msgstr "de exemplu, companiamea.com"
 =======
 msgstr "ex: companiamea.com"
 >>>>>>> upstream/18.0
+=======
+msgstr "ex: companiamea.com"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "expense"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "cheltuială"
+>>>>>>> upstream/18.0
 =======
 msgstr "cheltuială"
 >>>>>>> upstream/18.0
@@ -3851,7 +4681,11 @@ msgstr "a fost refuzat"
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "no taxes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "fără taxe"
+>>>>>>> upstream/18.0
 =======
 msgstr "fără taxe"
 >>>>>>> upstream/18.0
@@ -3865,7 +4699,11 @@ msgstr "per"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "tax)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "taxă)"
+>>>>>>> upstream/18.0
 =======
 msgstr "taxă)"
 >>>>>>> upstream/18.0
@@ -3875,7 +4713,11 @@ msgstr "taxă)"
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "to be reimbursed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "să fie rambursat"
+=======
+msgstr "de rambursat"
+>>>>>>> upstream/18.0
 =======
 msgstr "de rambursat"
 >>>>>>> upstream/18.0
@@ -3885,7 +4727,11 @@ msgstr "de rambursat"
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "to submit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "pentru a trimite"
+=======
+msgstr "de trimis"
+>>>>>>> upstream/18.0
 =======
 msgstr "de trimis"
 >>>>>>> upstream/18.0
@@ -3900,7 +4746,11 @@ msgstr "sub validare"
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "use OCR to fill data from a picture of the bill"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "utilizați OCR pentru a completa datele dintr-o imagine a facturii"
+=======
+msgstr "folosiți OCR pentru a completa datele dintr-o imagine a facturii"
+>>>>>>> upstream/18.0
 =======
 msgstr "folosiți OCR pentru a completa datele dintr-o imagine a facturii"
 >>>>>>> upstream/18.0
@@ -3909,7 +4759,11 @@ msgstr "folosiți OCR pentru a completa datele dintr-o imagine a facturii"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "with the same receipt already exists."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "cu aceeași chitanță există deja."
+>>>>>>> upstream/18.0
 =======
 msgstr "cu aceeași chitanță există deja."
 >>>>>>> upstream/18.0

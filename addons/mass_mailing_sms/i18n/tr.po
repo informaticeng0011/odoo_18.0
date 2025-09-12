@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing_sms
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # emre oktem, 2024
 # Buket Şeker <buket_skr@hotmail.com>, 2024
@@ -74,6 +78,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener, 2025
 >>>>>>> upstream/18.0
@@ -231,10 +236,15 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -555,6 +565,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: tr\n"
+=======
+"POT-Creation-Date: 2025-09-05 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+"Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: mass_mailing_sms
@@ -623,8 +643,13 @@ msgstr ""
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
+<<<<<<< HEAD
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text"
 " Messages are being processed.</span>"
+=======
+"<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
+"Messages are being processed.</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mass_mailing_sms
@@ -655,22 +680,42 @@ msgstr "<span>Geçerli SMS Alıcıları</span>"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 "<strong>\n"
+<<<<<<< HEAD
 "                            It appears you don't have enough IAP credits. Click here to buy credits.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "                            Görünüşe göre yeterli IAP krediniz yok. Kredi satın almak için buraya tıklayın.\n"
+=======
+"                            It appears you don't have enough IAP credits. "
+"Click here to buy credits.\n"
+"                        </strong>"
+msgstr ""
+"<strong>\n"
+"                            Görünüşe göre yeterli IAP krediniz yok. Kredi "
+"satın almak için buraya tıklayın.\n"
+>>>>>>> upstream/18.0
 "                        </strong>"
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 "<strong>\n"
+<<<<<<< HEAD
 "                            It appears your SMS account is not registered. Click here to set up your account.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "                            It appears your SMS account is not registered. Click here to set up your account.\n"
+=======
+"                            It appears your SMS account is not registered. "
+"Click here to set up your account.\n"
+"                        </strong>"
+msgstr ""
+"<strong>\n"
+"                            It appears your SMS account is not registered. "
+"Click here to set up your account.\n"
+>>>>>>> upstream/18.0
 "                        </strong>"
 
 #. module: mass_mailing_sms
@@ -961,8 +1006,13 @@ msgstr "İşaretliyse, bazı mesajlar gönderi hatası içermektedir."
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 msgstr ""
 "Temizlenen telefon numarası kara listedeyse, kişi artık herhangi bir "
 "listeden toplu e-posta sms almaz"
@@ -970,8 +1020,12 @@ msgstr ""
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_mailing__sms_force_send
 msgid ""
+<<<<<<< HEAD
 "Immediately send the SMS Mailing instead of queuing up. Use at your own "
 "risk."
+=======
+"Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
+>>>>>>> upstream/18.0
 msgstr ""
 "Kuyruğa girmek yerine hemen SMS Posta gönderin. Kendi sorumluluğunuzda "
 "kullanın."
@@ -991,8 +1045,13 @@ msgid ""
 msgstr ""
 "Kara listeye alınmış, temizlenmiş bir telefon numarasının bir cep telefonu "
 "numarası olup olmadığını gösterir. Bir modelde hem cep telefonu hem de "
+<<<<<<< HEAD
 "telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye"
 " yardımcı olur."
+=======
+"telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye "
+"yardımcı olur."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__phone_blacklisted
@@ -1003,8 +1062,13 @@ msgid ""
 msgstr ""
 "Kara listeye alınmış, temizlenmiş bir telefon numarasının bir telefon "
 "numarası olup olmadığını gösterir. Bir modelde hem cep telefonu hem de "
+<<<<<<< HEAD
 "telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye"
 " yardımcı olur."
+=======
+"telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye "
+"yardımcı olur."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_credit
@@ -1165,8 +1229,13 @@ msgstr "Henüz veri yok!"
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_list_action_sms
 msgid ""
+<<<<<<< HEAD
 "No need to import mailing lists, you can send SMS to contacts saved in other"
 " Odoo apps."
+=======
+"No need to import mailing lists, you can send SMS to contacts saved in other "
+"Odoo apps."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mass_mailing_sms
@@ -1224,8 +1293,13 @@ msgstr "Numara(lar)"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
+<<<<<<< HEAD
 "Once you send these text messages, they'll be making a grand entrance in all"
 " pockets, creating quite the bzzzzz!"
+=======
+"Once you send these text messages, they'll be making a grand entrance in all "
+"pockets, creating quite the bzzzzz!"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mass_mailing_sms
@@ -1441,7 +1515,11 @@ msgid "STOP SMS: %(unsubscribe_url)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Daha fazla SMS almamak için: %(unsubscribe_url)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Daha fazla SMS almamak için: %(unsubscribe_url)s"
 >>>>>>> upstream/18.0
@@ -1698,7 +1776,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1857,6 +1938,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1989,7 +2073,11 @@ msgstr "SMS Postalarını Test Edin"
 #. module: mass_mailing_sms
 #. odoo-python
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
+<<<<<<< HEAD
 msgid "Test SMS could not be sent to %(destination)s: %(state)s"
+=======
+msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mass_mailing_sms
@@ -2024,8 +2112,13 @@ msgstr "Aboneliği iptal etmeye çalışırken bir hata oluştu"
 msgid ""
 "This phone number is blacklisted for SMS Marketing. Click to unblacklist."
 msgstr ""
+<<<<<<< HEAD
 "Bu telefon numarası SMS Pazarlama için kara listeye alınmıştır. Kara listeyi"
 " kaldırmak için tıklayın."
+=======
+"Bu telefon numarası SMS Pazarlama için kara listeye alınmıştır. Kara listeyi "
+"kaldırmak için tıklayın."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_subject
@@ -2110,11 +2203,18 @@ msgstr "Kazanan Seçimi"
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_mailing_action_sms
 msgid ""
+<<<<<<< HEAD
 "Write an appealing SMS Text Message, define recipients and track its "
 "results."
 msgstr ""
 "Çekici bir SMS Metin Mesajı yazın, alıcıları tanımlayın ve sonuçlarını takip"
 " edin."
+=======
+"Write an appealing SMS Text Message, define recipients and track its results."
+msgstr ""
+"Çekici bir SMS Metin Mesajı yazın, alıcıları tanımlayın ve sonuçlarını takip "
+"edin."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_number_format

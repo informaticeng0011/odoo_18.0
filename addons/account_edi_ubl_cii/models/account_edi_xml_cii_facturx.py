@@ -15,6 +15,15 @@ CII_NAMESPACES = {
     'udt': "urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100",
 }
 
+<<<<<<< HEAD
+=======
+# Imcomplete, full list on https://service.unece.org/trade/untdid/d16b/tred/tred4461.htm
+PAYMENT_MEAN_CODES = {
+    'Payment to bank account': 42,
+    'SEPA direct debit': 59
+}
+
+>>>>>>> upstream/18.0
 
 class AccountEdiXmlCII(models.AbstractModel):
     _name = "account.edi.xml.cii"
@@ -256,6 +265,7 @@ class AccountEdiXmlCII(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         template_values['billing_start'] = invoice.invoice_date
         template_values['billing_end'] = invoice.invoice_date_due
@@ -590,12 +600,32 @@ class AccountEdiXmlCII(models.AbstractModel):
         template_values['billing_start'] = invoice.invoice_date
         template_values['billing_end'] = invoice.invoice_date_due
 
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # data used for IncludedSupplyChainTradeLineItem / SpecifiedLineTradeSettlement
         for line_vals in template_values['invoice_line_vals_list']:
             line = line_vals['line']
             line_vals['unece_uom_code'] = self._get_uom_unece_code(line.product_uom_id)
 
+<<<<<<< HEAD
+=======
+            if line._fields.get('deferred_start_date') and (line.deferred_start_date or line.deferred_end_date):
+                line_vals['billing_start'] = line.deferred_start_date
+                line_vals['billing_end'] = line.deferred_end_date
+
+        # [BR - IC - 11] - In an Invoice with a VAT breakdown (BG-23) where the VAT category code (BT-118) is
+        # "Intra-community supply" the Actual delivery date (BT-72) or the Invoicing period (BG-14) shall not be blank.
+        billing_start_dates = [invoice.invoice_date] if invoice.invoice_date else []
+        billing_start_dates += [line_vals['billing_start'] for line_vals in template_values['invoice_line_vals_list'] if line_vals.get('billing_start')]
+        billing_end_dates = [invoice.invoice_date_due] if invoice.invoice_date_due else []
+        billing_end_dates += [line_vals['billing_end'] for line_vals in template_values['invoice_line_vals_list'] if line_vals.get('billing_end')]
+        if billing_start_dates:
+            template_values['billing_start'] = min(billing_start_dates)
+        if billing_end_dates:
+            template_values['billing_end'] = max(billing_end_dates)
+
+>>>>>>> upstream/18.0
         # data used for ApplicableHeaderTradeSettlement / ApplicableTradeTax (at the end of the xml)
         for tax_detail_vals in template_values['tax_details']['tax_details'].values():
             # /!\ -0.0 == 0.0 in python but not in XSLT, so it can raise a fatal error when validating the XML
@@ -605,12 +635,15 @@ class AccountEdiXmlCII(models.AbstractModel):
 
             if tax_detail_vals.get('tax_category_code') == 'K':
                 template_values['intracom_delivery'] = True
+<<<<<<< HEAD
             # [BR - IC - 11] - In an Invoice with a VAT breakdown (BG-23) where the VAT category code (BT-118) is
             # "Intra-community supply" the Actual delivery date (BT-72) or the Invoicing period (BG-14) shall not be blank.
             if tax_detail_vals.get('tax_category_code') == 'K' and not template_values['scheduled_delivery_time']:
                 date_range = self._get_invoicing_period(invoice)
                 template_values['billing_start'] = min(date_range)
                 template_values['billing_end'] = max(date_range)
+=======
+>>>>>>> upstream/18.0
 
         # Fixed taxes: add them as charges on the invoice lines
         for line_vals in template_values['invoice_line_vals_list']:
@@ -639,6 +672,14 @@ class AccountEdiXmlCII(models.AbstractModel):
         template_values['tax_basis_total_amount'] = tax_details['base_amount_currency']
         template_values['tax_total_amount'] = tax_details['tax_amount_currency']
 
+<<<<<<< HEAD
+=======
+        if self.env['account.payment']._fields.get('sdd_mandate_id') and invoice.matched_payment_ids.sdd_mandate_id:
+            template_values['payment_means_code'] = PAYMENT_MEAN_CODES['SEPA direct debit']
+        else:
+            template_values['payment_means_code'] = PAYMENT_MEAN_CODES['Payment to bank account']
+
+>>>>>>> upstream/18.0
         return template_values
 
     def _export_invoice(self, invoice):
@@ -732,6 +773,16 @@ class AccountEdiXmlCII(models.AbstractModel):
             'tax_percentage': './{*}CategoryTradeTax/{*}RateApplicablePercent',
         }
 
+<<<<<<< HEAD
+=======
+    def _get_invoice_line_xpaths(self, document_type=False, qty_factor=1):
+        return {
+            'deferred_start_date': './{*}SpecifiedLineTradeSettlement/{*}BillingSpecifiedPeriod/{*}StartDateTime/{*}DateTimeString',
+            'deferred_end_date': './{*}SpecifiedLineTradeSettlement/{*}BillingSpecifiedPeriod/{*}EndDateTime/{*}DateTimeString',
+            'date_format': DEFAULT_FACTURX_DATE_FORMAT,
+        }
+
+>>>>>>> upstream/18.0
     def _get_line_xpaths(self, document_type=False, qty_factor=1):
         return {
             'basis_qty': (
@@ -841,6 +892,10 @@ class AccountEdiXmlCII(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return None, None
+>>>>>>> upstream/18.0
 =======
         return None, None
 >>>>>>> upstream/18.0

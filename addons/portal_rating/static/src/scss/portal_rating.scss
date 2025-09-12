@@ -40,9 +40,18 @@ $o-w-rating-star-color: #FACC2E;
                 color: $red;
             }
         }
+<<<<<<< HEAD
         .o_website_rating_table_row:not(o_website_rating_table_row_selected) {
             cursor: pointer;
         }
+=======
+        .o_website_rating_table_row:not(.o_website_rating_table_row_selected) {
+            cursor: pointer;
+        }
+        .o_website_rating_table_row td {
+            padding-bottom: 0.4rem;
+        }
+>>>>>>> upstream/18.0
     }
 }
 

@@ -32,12 +32,17 @@ class Certificate(models.Model):
             return
 
         company_id = journal.company_id
+<<<<<<< HEAD
+=======
+        parent_company_id = journal.company_id.parent_id
+>>>>>>> upstream/18.0
         version_info = service.common.exp_version()
         builder = x509.CertificateSigningRequestBuilder()
         subject_names = (
             # Country Name
             (NameOID.COUNTRY_NAME, company_id.country_id.code),
             # Organization Unit Name
+<<<<<<< HEAD
             (NameOID.ORGANIZATIONAL_UNIT_NAME, (company_id.vat or '')[:10]),
             # Organization Name
             (NameOID.ORGANIZATION_NAME, company_id.name),
@@ -85,6 +90,15 @@ class Certificate(models.Model):
 >>>>>>> upstream/18.0
             # Organization Identifier
             (ObjectIdentifier('2.5.4.97'), company_id.vat),
+=======
+            (NameOID.ORGANIZATIONAL_UNIT_NAME, company_id.name if parent_company_id else company_id.vat[:10]),
+            # Organization Name
+            (NameOID.ORGANIZATION_NAME, parent_company_id.name if parent_company_id else company_id.name),
+            # Subject Common Name
+            (NameOID.COMMON_NAME, "%s-%s-%s" % (journal.code, journal.name, company_id.name)),
+            # Organization Identifier
+            (ObjectIdentifier('2.5.4.97'), parent_company_id.vat if parent_company_id else company_id.vat),
+>>>>>>> upstream/18.0
             # State/Province Name
             (NameOID.STATE_OR_PROVINCE_NAME, company_id.state_id.name),
             # Locality Name
@@ -101,7 +115,11 @@ class Certificate(models.Model):
                 # EGS Serial Number. Manufacturer or Solution Provider Name, Model or Version and Serial Number.
                 # To be written in the following format: "1-... |2-... |3-..."
                 x509.NameAttribute(ObjectIdentifier('2.5.4.4'), '1-Odoo|2-%s|3-%s' % (
+<<<<<<< HEAD
                     version_info['server_version_info'][0], journal.l10n_sa_serial_number)),
+=======
+                    version_info['server_serie'], journal.l10n_sa_serial_number)),
+>>>>>>> upstream/18.0
                 # Organisation Identifier (UID)
                 x509.NameAttribute(NameOID.USER_ID, company_id.vat),
                 # Invoice Type. 4-digit numerical input using 0 & 1

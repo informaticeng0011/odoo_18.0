@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,11 +34,20 @@ msgid ""
 "'%(missing_plan_names)s' analytic plan(s) required on the project "
 "'%(project_name)s' linked to the stock picking."
 msgstr ""
+<<<<<<< HEAD
+=======
+"На проекте «%(project_name)s», связанном со складской операцией, отсутствуют"
+" аналитические планы: %(missing_plan_names)s"
+>>>>>>> upstream/18.0
 
 #. module: project_stock_account
 #: model:ir.model.fields,field_description:project_stock_account.field_stock_picking_type__analytic_costs
 msgid "Analytic Costs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Анализ затрат"
+>>>>>>> upstream/18.0
 
 #. module: project_stock_account
 #: model:ir.model,name:project_stock_account.model_account_analytic_line
@@ -55,7 +72,11 @@ msgstr "Домен"
 #. module: project_stock_account
 #: model:ir.model.fields.selection,name:project_stock_account.selection__account_analytic_line__category__picking_entry
 msgid "Inventory Transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перемещение запасов"
+>>>>>>> upstream/18.0
 
 #. module: project_stock_account
 #. odoo-python
@@ -81,7 +102,11 @@ msgstr "Движение запасов"
 #. module: project_stock_account
 #: model:ir.model.fields.selection,name:project_stock_account.selection__account_analytic_applicability__business_domain__stock_picking
 msgid "Stock Picking"
+<<<<<<< HEAD
 msgstr "Выбор акций"
+=======
+msgstr "Складская операция"
+>>>>>>> upstream/18.0
 
 #. module: project_stock_account
 #: model:ir.model.fields,help:project_stock_account.field_stock_picking_type__analytic_costs
@@ -89,3 +114,9 @@ msgid ""
 "Validating stock pickings will generate analytic entries for the selected "
 "project. Products set for re-invoicing will also be billed to the customer."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Подтверждение складских операций приведет к созданию аналитических записей "
+"по выбранному проекту. Товары, настроенные для повторного выставления, будут"
+" выставлены клиенту."
+>>>>>>> upstream/18.0

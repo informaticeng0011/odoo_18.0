@@ -16,7 +16,11 @@ class View(models.Model):
             }
             for (type_, display_name)
             in self.fields_get(['type'], ['selection'])['type']['selection']
+<<<<<<< HEAD
             if type_ != 'qweb'
+=======
+            if type_ != 'qweb' and type_ in _view_info
+>>>>>>> upstream/18.0
         }
 
     def _get_view_info(self):

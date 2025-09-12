@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* gamification
 # 
+=======
+# * gamification
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Milan Tribuson <one.mile.code@gmail.com>, 2024
 # Vladimir Olujić <olujic.vladimir@storm.hr>, 2024
@@ -12,12 +17,18 @@
 # Davor Bojkić <davor.bojkic@storm.hr>, 2024
 # Tina Milas, 2024
 # Bole <bole@dajmi5.com>, 2024
+<<<<<<< HEAD
 # 
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Bole <bole@dajmi5.com>, 2024\n"
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
@@ -26,6 +37,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-08-19 22:21+0000\n"
+"Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
+"gamification/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,body_html:gamification.email_template_goal_reminder
@@ -516,7 +540,11 @@ msgstr "Napredne opcije"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__rule_auth
 msgid "Allowance to Grant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naknada za dodjelu"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__challenge_category
@@ -616,6 +644,12 @@ msgid ""
 "end date of a challenge (if no periodicity is set) or when the challenge is "
 "manually closed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Značke se dodjeljuju kada je izazov završen. To može biti na kraju tekućeg "
+"razdoblja (npr. kraj mjeseca za mjesečni izazov), na datumu završetka "
+"izazova (ako nije postavljena periodičnost) ili kada se izazov ručno zatvori."
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__batch_mode
@@ -1404,7 +1438,11 @@ msgstr "U tijeku"
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__visibility_mode__personal
 msgid "Individual Goals"
+<<<<<<< HEAD
 msgstr "Poedinačni ciljevi"
+=======
+msgstr "Pojedinačni ciljevi"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__model_inherited_ids
@@ -1460,7 +1498,11 @@ msgstr "Datum zadnjeg izvještaja"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__last_update
 msgid "Last Update"
+<<<<<<< HEAD
 msgstr "Zadnja promjena"
+=======
+msgstr "Zadnje ažuriranje"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__write_uid
@@ -1493,7 +1535,11 @@ msgstr "Promijenjeno"
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__visibility_mode__ranking
 msgid "Leader Board (Group Ranking)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ljestvica najboljih (grupni poredak)"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__rule_max_number
@@ -1593,17 +1639,29 @@ msgstr ""
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__stat_my_monthly_sending
 msgid "My Monthly Sending Total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moj ukupni mjesečni iznos slanja"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__stat_my_this_month
 msgid "My Monthly Total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moj mjesečni zbroj"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__stat_my
 msgid "My Total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moj ukupno"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line__name
@@ -1692,12 +1750,20 @@ msgstr "Nitko nije ispunio potrebne uvjete za dobivanje posebnih znački."
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__period__once
 msgid "Non recurring"
+<<<<<<< HEAD
 msgstr "Jednokratno"
+=======
+msgstr "Neponavljajući"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__remind_update_delay
 msgid "Non-updated manual goals will be reminded after"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za neažurirane ručne ciljeve podsjetnik stiže nakon"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -1924,12 +1990,20 @@ msgstr ""
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__remind_update_delay
 msgid "Remind delay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgoda podsjetnika"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Reminders for Manual Goals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podsjetnici za ciljeve unesene ručno"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__report_message_frequency
@@ -1983,7 +2057,11 @@ msgstr ""
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_failure
 msgid "Reward Bests if not Succeeded?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nagradi najbolje ako nisu već uspješni?"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_realtime
@@ -2056,6 +2134,11 @@ msgid ""
 "Security rules to define who is allowed to manually grant badges. Not "
 "enforced for administrator."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Sigurnosna pravila za definiranje tko smije ručno dodijeliti značke. Ne "
+"odnosi se na administratore."
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -2120,7 +2203,11 @@ msgstr "Postavi vremensku zonu"
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__challenge_category__other
 msgid "Settings / Gamification Tools"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postavke / Gamifikacijski alati"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.challenge,name:gamification.challenge_base_configure
@@ -2146,7 +2233,11 @@ msgstr "Izvor"
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__origin_ref_model_name
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
 msgid "Source Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta izvora"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
@@ -2652,7 +2743,11 @@ msgstr "npr. Mjesečni ciljevi prodaje"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "e.g. Problem Solver"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Problem Solver"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form

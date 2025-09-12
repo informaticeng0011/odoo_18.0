@@ -1,10 +1,17 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* loyalty
 # 
 # Translators:
 # Vladimir Vrgoč, 2024
 # Luka Carević <luka@uvid.hr>, 2024
+=======
+# * loyalty
+#
+# Translators:
+# Vladimir Vrgoč, 2024
+>>>>>>> upstream/18.0
 # storm_mpildek <matija.pildek@storm.hr>, 2024
 # Matija Gudlin, 2024
 # Milan Tribuson <one.mile.code@gmail.com>, 2024
@@ -98,6 +105,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Goran Kliska <gkliska@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -342,10 +350,17 @@
 # Goran Kliska <gkliska@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Goran Kliska <gkliska@gmail.com>, 2025
+# Ivica Dimjašević, 2025
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -841,6 +856,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-07-18 18:39+0000\n"
+"PO-Revision-Date: 2025-08-11 22:21+0000\n"
+"Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/loyalty/"
+"hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__trigger
@@ -1499,7 +1528,11 @@ msgid "Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Potrvdi"
+=======
+msgstr "Potvrdi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potvrdi"
 >>>>>>> upstream/18.0
@@ -1810,7 +1843,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__coupons
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_tree
 msgid "Coupons"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kuponi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_program_gift_ewallet_action
@@ -2112,7 +2149,11 @@ msgstr "Pratitelji (partneri)"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__mode
 msgid "For"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
@@ -2151,7 +2192,11 @@ msgstr ""
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__applies_on__future
 msgid "Future orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Buduće narudžbe"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-javascript
@@ -2250,12 +2295,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "Generate {{props.context.program_item_name}}"
 msgstr ""
 
 #. module: loyalty
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2837,6 +2885,10 @@ msgid "Portal Visible"
 msgstr ""
 
 #. module: loyalty
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:loyalty.model_product_pricelist
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__pricelist_ids
 msgid "Pricelist"
 msgstr "Cjenik"
@@ -3068,7 +3120,11 @@ msgstr ""
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_reward__discount_applicability__specific
 msgid "Specific Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Specifični proizvodi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__reward_point_split
@@ -3176,6 +3232,17 @@ msgstr ""
 
 #. module: loyalty
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/loyalty/models/product_pricelist.py:0
+msgid ""
+"This pricelist may not be archived. It is being used for active promotion "
+"programs: %s"
+msgstr ""
+
+#. module: loyalty
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/loyalty/models/product_product.py:0
 msgid ""
 "This product may not be archived. It is being used for an active promotion "
@@ -3203,6 +3270,7 @@ msgid "Trigger"
 msgstr "Pokreni"
 
 #. module: loyalty
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3450,6 +3518,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "Unsupported search operator"
@@ -3504,6 +3574,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3846,7 +3919,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "specific products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "specifični proizvodi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
@@ -3928,7 +4005,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4060,6 +4140,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4207,12 +4290,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: loyalty
 #. odoo-javascript
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "{{loyalty_el_title}}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

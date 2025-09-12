@@ -228,7 +228,11 @@ class IrSequence(models.Model):
         try:
             interpolated_prefix = _interpolate(self.prefix, d)
             interpolated_suffix = _interpolate(self.suffix, d)
+<<<<<<< HEAD
         except (ValueError, TypeError):
+=======
+        except (ValueError, TypeError, KeyError):
+>>>>>>> upstream/18.0
             raise UserError(_('Invalid prefix or suffix for sequence “%s”', self.name))
         return interpolated_prefix, interpolated_suffix
 
@@ -334,7 +338,10 @@ class IrSequenceDateRange(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -394,6 +401,9 @@ class IrSequenceDateRange(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

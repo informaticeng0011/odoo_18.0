@@ -1,5 +1,9 @@
 import { expect, test } from "@odoo/hoot";
+<<<<<<< HEAD
 import { click, waitFor } from "@odoo/hoot-dom";
+=======
+import { click, tick, waitFor } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 import { setupEditor } from "./_helpers/editor";
 import { animationFrame } from "@odoo/hoot-mock";
 import { getContent, setContent, setSelection } from "./_helpers/selection";
@@ -38,6 +42,10 @@ import { undo } from "./_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -301,7 +309,11 @@ test("Can spin an icon", async () => {
 });
 
 test("Can set icon color", async () => {
+<<<<<<< HEAD
     await setupEditor(`<p><span class="fa fa-glass">[]</span></p>`);
+=======
+    const { el } = await setupEditor(`<p><span class="fa fa-glass">[]</span></p>`);
+>>>>>>> upstream/18.0
     await waitFor(".o-we-toolbar");
     expect(".o_font_color_selector").toHaveCount(0);
     await click(".o-select-color-foreground");
@@ -309,6 +321,7 @@ test("Can set icon color", async () => {
     expect(".o_font_color_selector").toHaveCount(1);
     await click(".o_color_button[data-color='#6BADDE']");
     await animationFrame();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448,6 +461,13 @@ test("Can set icon color", async () => {
 >>>>>>> upstream/18.0
     expect(".o_font_color_selector").toHaveCount(0); // selector closed
     expect("span.fa-glass").toHaveStyle({ color: "rgb(107, 173, 222)" });
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+    expect(".o_font_color_selector").toHaveCount(0); // selector closed
+    expect(getContent(el)).toBe(
+        `<p>[<font style="color: rgb(107, 173, 222);">\ufeff<span class="fa fa-glass" contenteditable="false">\u200b</span>\ufeff</font>]</p>`
+    );
+>>>>>>> upstream/18.0
 });
 
 test("Can undo to 1x size after applying 2x size", async () => {
@@ -475,3 +495,54 @@ test("Can undo to 1x size after applying 2x size", async () => {
     expect("span.fa-glass").toHaveCount(1);
     expect("span.fa-glass.fa-2x").toHaveCount(0);
 });
+<<<<<<< HEAD
+=======
+
+test("Should be able to undo after adding spin effect to an icon", async () => {
+    const { el, editor } = await setupEditor('<p><span class="fa fa-glass"></span></p>');
+    expect(getContent(el)).toBe(
+        `<p>\ufeff<span class="fa fa-glass" contenteditable="false">\u200b</span>\ufeff</p>`
+    );
+    // Selection normalization include U+FEFF, moving the cursor outside the
+    // icon and triggering the normal toolbar. To prevent this, we exclude
+    // U+FEFF from selection.
+    setSelection({
+        anchorNode: el.firstChild,
+        anchorOffset: 1,
+        focusNode: el.firstChild,
+        focusOffset: 2,
+    });
+    editor.shared.history.stageSelection();
+    expect(getContent(el)).toBe(
+        `<p>\ufeff[<span class="fa fa-glass" contenteditable="false">\u200b</span>]\ufeff</p>`
+    );
+    await waitFor(".o-we-toolbar");
+    expect(".btn-group[name='icon_spin']").toHaveCount(1);
+    expect(".btn-group[name='icon_spin']").not.toHaveClass("active");
+    await click("button[name='icon_spin']");
+    await animationFrame();
+    expect("span.fa-glass.fa-spin").toHaveCount(1);
+    expect(".btn-group[name='icon_spin'] button").toHaveClass("active");
+    undo(editor);
+    await animationFrame();
+    expect("span.fa-glass.fa-spin").toHaveCount(0);
+    expect(".btn-group[name='icon_spin']").not.toHaveClass("active");
+    expect("span.fa-glass").toHaveCount(1);
+    expect("span.fa-glass.fa-spin").toHaveCount(0);
+});
+
+test("Icon should be fully selected if the selection covers the ZWS inside the span", async () => {
+    const { el } = await setupEditor('<p><span class="fa fa-glass"></span></p>');
+    expect(getContent(el)).toBe(
+        `<p>\ufeff<span class="fa fa-glass" contenteditable="false">\u200b</span>\ufeff</p>`
+    );
+    setContent(
+        el,
+        `<p>\ufeff<span class="fa fa-glass" contenteditable="false">[]\u200b</span>\ufeff</p>`
+    );
+    await tick();
+    expect(getContent(el)).toBe(
+        `<p>\ufeff[<span class="fa fa-glass" contenteditable="false">\u200b</span>]\ufeff</p>`
+    );
+});
+>>>>>>> upstream/18.0

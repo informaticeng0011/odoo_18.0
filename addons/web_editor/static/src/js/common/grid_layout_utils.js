@@ -74,6 +74,10 @@ export function _gridCleanUp(rowEl, columnEl) {
     columnEl.style.removeProperty('position');
     columnEl.style.removeProperty('top');
     columnEl.style.removeProperty('left');
+<<<<<<< HEAD
+=======
+    columnEl.style.removeProperty('right');
+>>>>>>> upstream/18.0
     columnEl.style.removeProperty('height');
     columnEl.style.removeProperty('width');
     rowEl.style.removeProperty('position');
@@ -164,6 +168,10 @@ function _placeColumns(columnEls, rowSize, rowGap, columnSize, columnGap) {
     const columnSpans = [];
     let zIndex = 1;
     const imageColumns = []; // array of boolean telling if it is a column with only an image.
+<<<<<<< HEAD
+=======
+    const isRtl = columnEls[0]?.closest(".o_rtl, [dir='rtl']");
+>>>>>>> upstream/18.0
 
     for (const columnEl of columnEls) {
         // Finding out if the images are alone in their column.
@@ -178,7 +186,17 @@ function _placeColumns(columnEls, rowSize, rowGap, columnSize, columnGap) {
         const style = window.getComputedStyle(columnEl);
         // Horizontal placement.
         const borderLeft = parseFloat(style.borderLeft);
+<<<<<<< HEAD
         const columnLeft = isImageWithoutPadding && !borderLeft ? imageEl.offsetLeft : columnEl.offsetLeft;
+=======
+        let columnLeft = isImageWithoutPadding && !borderLeft ? imageEl.offsetLeft : columnEl.offsetLeft;
+        if (isRtl) {
+            const parentWidth = columnEl.offsetParent.clientWidth;
+            columnLeft = isImageWithoutPadding && !borderLeft
+                ? parentWidth - imageEl.offsetLeft - imageEl.offsetWidth
+                : parentWidth - columnEl.offsetLeft - columnEl.offsetWidth;
+        }
+>>>>>>> upstream/18.0
         // Getting the width of the column.
         const paddingLeft = parseFloat(style.paddingLeft);
         let width = isImageWithoutPadding ? parseFloat(imageEl.scrollWidth)

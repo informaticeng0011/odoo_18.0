@@ -5,6 +5,10 @@
 # Translators:
 # Wil Odoo, 2024
 # Corina Calin, 2025
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +16,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Corina Calin, 2025\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +34,11 @@ msgid ""
 "<i class=\"fa fa-exclamation-triangle me-2\" role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                    <span class=\"o_wbooth_registration_error_message\"/>"
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"fa fa-exclamation-triangle me-2\" role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
+=======
+"<i class=\"fa fa-exclamation-triangle me-2\" role=\"img\" aria-label=\"Eroare\" title=\"Eroare\"/>\n"
+>>>>>>> upstream/18.0
 "                    <span class=\"o_wbooth_registration_error_message\"/>"
 
 #. module: website_event_booth
@@ -36,32 +48,56 @@ msgid ""
 "                                        <span>Sorry, several booths are now sold out. Please change your choices before validating again.</span>"
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
+<<<<<<< HEAD
 "                                        <span>Ne pare rău, mai multe standuri sunt vândute. Vă rugăm să vă schimbați opțiunile înainte de a valida din nou.</span>"
+=======
+"                                        <span>Ne pare rău, mai multe standuri sunt acum epuizate. Vă rugăm să vă schimbați opțiunile înainte de a valida din nou.</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
 msgid "<i class=\"fa fa-map-o me-1\"/>View Plan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-map-o me-1\"/>Vezi planul"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
 msgid "<span class=\"fa fa-gear me-1\"/> Configure Booths"
+<<<<<<< HEAD
 msgstr "<span class=\"fa fa-gear me-1\"/> Configurare standuri"
+=======
+msgstr "<span class=\"fa fa-gear me-1\"/> Configurează standuri"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
 msgid "<span class=\"text-nowrap\">Sold Out</span>"
+<<<<<<< HEAD
 msgstr "<span class=\"text-nowrap\">Vândut</span>"
+=======
+msgstr "<span class=\"text-nowrap\">Epuizat</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
 msgid "<span>Book my Booth<small>(s)</small></span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Rezervă standul meu<small>(uri)</small></span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
 msgid "<span>Book my Booths</span>"
+<<<<<<< HEAD
 msgstr "<span>Rezervați-mi standurile</span>"
+=======
+msgstr "<span>Rezervă standurile mele</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_order_progress
@@ -69,11 +105,20 @@ msgid ""
 "<span>Booth Selection</span><span class=\"fa fa-angle-right d-inline-block "
 "align-middle mx-2 mx-lg-3 opacity-75\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span>Selectare stand</span><span class=\"fa fa-angle-right d-inline-block "
+"align-middle mx-2 mx-lg-3 opacity-75\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_order_progress
 msgid "<span>Confirmed</span>"
+<<<<<<< HEAD
 msgstr "<span>Confirmată </span>"
+=======
+msgstr "<span>Confirmat</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
@@ -81,7 +126,11 @@ msgid ""
 "<span>Email</span>\n"
 "                            <span> *</span>"
 msgstr ""
+<<<<<<< HEAD
 "<span>E-mail</span>\n"
+=======
+"<span>Email</span>\n"
+>>>>>>> upstream/18.0
 "                            <span> *</span>"
 
 #. module: website_event_booth
@@ -96,7 +145,11 @@ msgstr ""
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_type_view_form
 msgid "Booth Menu Item"
+<<<<<<< HEAD
 msgstr "Articol din meniul standului"
+=======
+msgstr "Element meniu stand"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model:ir.model.fields,field_description:website_event_booth.field_event_event__booth_menu
@@ -107,7 +160,11 @@ msgstr "Registru standuri"
 #. odoo-javascript
 #: code:addons/website_event_booth/static/src/xml/event_booth_registration_templates.xml:0
 msgid "Booth Registration completed!"
+<<<<<<< HEAD
 msgstr "Înregistrare stand finalizată!"
+=======
+msgstr "Înregistrarea la stand a fost finalizată!"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #. odoo-javascript
@@ -133,7 +190,11 @@ msgstr "Alegeți tipul de stand"
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
 msgid "Contact Details"
+<<<<<<< HEAD
 msgstr "Detalii Contact"
+=======
+msgstr "Detalii de contact"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_order_progress
@@ -141,6 +202,11 @@ msgid ""
 "Contact Details<span class=\"fa fa-angle-right d-inline-block align-middle "
 "mx-2 mx-lg-3 opacity-75\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Detalii de contact<span class=\"fa fa-angle-right d-inline-block align-"
+"middle mx-2 mx-lg-3 opacity-75\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
@@ -155,12 +221,20 @@ msgstr "Eveniment"
 #. module: website_event_booth
 #: model:ir.model.fields.selection,name:website_event_booth.selection__website_event_menu__menu_type__booth
 msgid "Event Booth Menus"
+<<<<<<< HEAD
 msgstr "Meniuri pentru standul de evenimente"
+=======
+msgstr "Meniuri stand eveniment"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model:ir.model.fields,field_description:website_event_booth.field_event_event__booth_menu_ids
 msgid "Event Booths Menus"
+<<<<<<< HEAD
 msgstr "Meniuri pentru standuri de evenimente"
+=======
+msgstr "Meniuri standuri eveniment"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
@@ -170,7 +244,11 @@ msgstr "Eveniment finalizat"
 #. module: website_event_booth
 #: model:ir.model,name:website_event_booth.model_event_type
 msgid "Event Template"
+<<<<<<< HEAD
 msgstr "Șablon Eveniment"
+=======
+msgstr "Șablon eveniment"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model:ir.model.fields,field_description:website_event_booth.field_event_event__exhibition_map
@@ -194,7 +272,11 @@ msgstr "Înapoi"
 #. odoo-javascript
 #: code:addons/website_event_booth/static/src/js/booth_register.js:0
 msgid "It looks like your email is linked to an existing account."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Se pare că adresa dvs. de email este asociată unui cont existent."
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
@@ -219,7 +301,11 @@ msgstr "Locație"
 #. module: website_event_booth
 #: model:ir.model.fields,field_description:website_event_booth.field_website_event_menu__menu_type
 msgid "Menu Type"
+<<<<<<< HEAD
 msgstr "Tip Meniu"
+=======
+msgstr "Tip meniu"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
@@ -229,7 +315,11 @@ msgstr "Telefon"
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
 msgid "Please Sign In."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vă rugăm să vă autentificați."
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #. odoo-javascript
@@ -245,7 +335,11 @@ msgstr "Înregistrarea nu este deschisă."
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
 msgid "Sorry, all the booths are sold out."
+<<<<<<< HEAD
 msgstr "Ne pare rău, toate standurile sunt epuizate"
+=======
+msgstr "Ne pare rău, toate standurile sunt epuizate."
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #. odoo-javascript

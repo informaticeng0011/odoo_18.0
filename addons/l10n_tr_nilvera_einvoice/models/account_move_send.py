@@ -33,6 +33,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if invalid_tr_partners := moves.filtered(
 =======
         if tr_partners_missing_address := moves.filtered(
@@ -58,11 +59,26 @@ class AccountMoveSend(models.AbstractModel):
 =======
         if tr_partners_missing_address := moves.filtered(
 >>>>>>> upstream/18.0
+=======
+        moves_to_check = moves.filtered(self._is_tr_nilvera_applicable)
+        if tr_companies_missing_required_codes := moves_to_check.company_id.filtered(
+            lambda c: c.country_code == 'TR' and not (c.partner_id.category_id.parent_id and self.env["res.partner.category"]._get_l10n_tr_official_mandatory_categories())
+        ):
+            alerts["tr_companies_missing_required_codes"] = {
+                "message": _("Please ensure that your company contact has either the 'MERSISNO' or 'TICARETSICILNO' tag with a value assigned."),
+                "action_text": _("View Company(s)"),
+                "action": tr_companies_missing_required_codes.partner_id._get_records_action(name=_("Check tags on company(s)")),
+                "level": "danger",
+            }
+
+        if tr_partners_missing_address := moves_to_check.filtered(
+>>>>>>> upstream/18.0
                 lambda m: 'tr_nilvera' in moves_data[m]['extra_edis'] and (m.partner_id.country_code != 'TR' or not m.partner_id.city or not m.partner_id.state_id or not m.partner_id.street)
         ).partner_id:
             alerts["partner_data_missing"] = {
                 "message": _("The following partner(s) are either not Turkish or are missing one of those fields: city, state and street."),
                 "action_text": _("View Partner(s)"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98,6 +114,19 @@ class AccountMoveSend(models.AbstractModel):
                 "message": _("The following E-Invoice partner(s) must have the reference field set to the tax office name."),
                 "action_text": _("View Partner(s)"),
                 "action": tr_einvoice_partners_missing_ref._get_records_action(name=_("Check reference on Partner(s)")
+=======
+                "action": tr_partners_missing_address._get_records_action(name=_("Check data on Partner(s)")),
+            }
+
+        if tr_invalid_subscription_dates := moves_to_check.filtered(
+            lambda move: move._l10n_tr_nilvera_einvoice_check_invalid_subscription_dates()
+        ):
+            alerts["critical_invalid_subscription_dates"] = {
+                "message": _("The following invoice(s) need to have the same Start Date and End Date on all their respective Invoice Lines."),
+                "action_text": _("View Invoice(s)"),
+                "action": tr_invalid_subscription_dates._get_records_action(
+                    name=_("Check data on Invoice(s)"),
+>>>>>>> upstream/18.0
                 ),
                 "level": "danger",
             }
@@ -109,6 +138,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -123,6 +153,28 @@ class AccountMoveSend(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        if tr_einvoice_partners_missing_ref := moves_to_check.partner_id.filtered(
+            lambda p: p.l10n_tr_nilvera_customer_status == "einvoice" and not p.ref
+        ):
+            alerts["critical_partner_data_missing"] = {
+                "message": _("The following partner(s) are either not Turkish or are missing one of those fields: city, state and street."),
+                "action_text": _("View Partner(s)"),
+                "action": tr_einvoice_partners_missing_ref._get_records_action(name=_("Check reference on Partner(s)")),
+                "level": "danger",
+            }
+
+        if invalid_negative_lines := moves_to_check.filtered(
+            lambda move: move._l10n_tr_nilvera_einvoice_check_negative_lines(),
+        ):
+            alerts["critical_invalid_negative_lines"] = {
+                "message": _("Nilvera portal cannot process negative quantity nor negative price on invoice lines"),
+                "action_text": _("View Invoice(s)"),
+                "action": invalid_negative_lines._get_records_action(name=_("Check data on Invoice(s)")),
+                "level": "danger",
+            }
+
 >>>>>>> upstream/18.0
         return alerts
 

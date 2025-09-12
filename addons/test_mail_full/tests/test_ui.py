@@ -1,12 +1,23 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
+=======
+from urllib.parse import urlencode
+
+>>>>>>> upstream/18.0
 from odoo import tests
 from odoo.addons.test_mail_full.tests.test_portal import TestPortal
 
 
 @tests.common.tagged("post_install", "-at_install")
 class TestUIPortal(TestPortal):
+<<<<<<< HEAD
     def test_star_message(self):
+=======
+
+    def setUp(self):
+        super().setUp()
+>>>>>>> upstream/18.0
         self.env["mail.message"].create(
             {
                 "author_id": self.user_employee.partner_id.id,
@@ -16,8 +27,39 @@ class TestUIPortal(TestPortal):
                 "subtype_id": self.ref("mail.mt_comment"),
             }
         )
+<<<<<<< HEAD
+=======
+
+    def test_star_message(self):
+>>>>>>> upstream/18.0
         self.start_tour(
             f"/my/test_portal_records/{self.record_portal.id}",
             "star_message_tour",
             login=self.user_employee.login,
         )
+<<<<<<< HEAD
+=======
+
+    def test_no_copy_link_for_non_readable_portal_record(self):
+        # mail.test.portal has read access only for base.group_user
+        self.start_tour(
+            f"/my/test_portal_records/{self.record_portal.id}?{urlencode({'token': self.record_portal.access_token})}",
+            "portal_no_copy_link_tour",
+            login=None,
+        )
+
+    def test_copy_link_for_readable_portal_record(self):
+        # mail.test.portal has read access only for base.group_user
+        self.start_tour(
+            f"/my/test_portal_records/{self.record_portal.id}?{urlencode({'token': self.record_portal.access_token})}",
+            "portal_copy_link_tour",
+            login=self.user_employee.login,
+        )
+
+    def test_rating_record_portal(self):
+        record_rating = self.env["mail.test.rating"].create({"name": "Test rating record"})
+        self.start_tour(
+            f"/my/test_portal_rating_records/{record_rating.id}?token={record_rating._portal_ensure_token()}",
+            "portal_rating_tour",
+        )
+>>>>>>> upstream/18.0

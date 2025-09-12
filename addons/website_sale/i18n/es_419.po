@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* website_sale
 # 
 # Translators:
@@ -354,10 +355,21 @@
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * website_sale
+#
+# Translators:
+# Javier Alejandro Sánchez Torres, 2024
+# Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+# Wil Odoo, 2025
+# Fernanda Alvarez, 2025
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -645,6 +657,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2025-09-08 22:09+0000\n"
+"Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
+"Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
+"odoo-18/website_sale/es_419/>\n"
+"Language: es_419\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
@@ -849,7 +875,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Envío: 2-3 días laborales"
+=======
+"                Envío: 2-3 días hábiles"
+>>>>>>> upstream/18.0
 =======
 "                Envío: 2-3 días hábiles"
 >>>>>>> upstream/18.0
@@ -1334,7 +1364,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span><b>¡Bien hecho!</b> Terminó todos los pasos de este recorrido.</span>"
+=======
+"<span><b>¡Bien hecho!</b> Terminaste todos los pasos de este "
+"recorrido.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span><b>¡Bien hecho!</b> Terminaste todos los pasos de este "
 "recorrido.</span>"
@@ -1548,7 +1583,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <div style=\"text-align: center;\"><strong>Gracias por comprar en <t t-out=\"company.name or ''\">My Company (San Francisco)</t>.</strong></div>\n"
+=======
+"                    <div style=\"text-align: center;\"><strong>Gracias por comprar en <t t-out=\"company.name or ''\">Mi Empresa (San Francisco)</t>.</strong></div>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <div style=\"text-align: center;\"><strong>Gracias por comprar en <t t-out=\"company.name or ''\">Mi Empresa (San Francisco)</t>.</strong></div>\n"
 >>>>>>> upstream/18.0
@@ -2053,7 +2092,11 @@ msgstr "Pago rápido anónimo para la orden %s del contacto"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "Apartment, suite, etc."
+<<<<<<< HEAD
 msgstr "Departamento, suite, etc. "
+=======
+msgstr "Departamento, suite, etc."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.coupon_form
@@ -2171,7 +2214,11 @@ msgid "Automatically send abandoned checkout emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Envío automático de correos electrónicos de pagos abandonados"
+=======
+msgstr "Envío automático de correos electrónicos por carritos abandonados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Envío automático de correos electrónicos por carritos abandonados"
 >>>>>>> upstream/18.0
@@ -2921,6 +2968,7 @@ msgstr "Calcule los costos de envío y haga sus envíos con Shiprocket"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "Calcule los costos de envío y haga sus envíos con DHL"
 
@@ -2939,6 +2987,8 @@ msgstr "Calcule los costos de envío y haga sus envíos con UPS"
 msgid "Compute shipping costs and ship with USPS"
 msgstr "Calcule los costos de envío y haga sus envíos con USPS"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
 "                            <strong>(please go to Home&gt;Apps to install)</strong>"
@@ -2972,6 +3022,9 @@ msgid ""
 msgstr ""
 "Calcule los gastos de envío y haga sus envíos con USPS<br/>\n"
 "                            <strong>(vaya a Inicio > Aplicaciones para instalar el módulo)</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_sale
@@ -2986,11 +3039,20 @@ msgstr "Calcular los costos de envío en órdenes"
 
 #. module: website_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/checkout.js:0
 msgid "Computed after delivery"
 msgstr ""
+
+#. module: website_sale
+>>>>>>> upstream/18.0
+=======
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/checkout.js:0
+msgid "Computed after delivery"
+msgstr "Calculado después de la entrega"
 
 #. module: website_sale
 >>>>>>> upstream/18.0
@@ -3049,7 +3111,11 @@ msgstr "Contacto"
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "Contact Us"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contáctenos"
+=======
+msgstr "Contáctanos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contáctanos"
 >>>>>>> upstream/18.0
@@ -3089,7 +3155,11 @@ msgid "Continue Shopping"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Continuar comprando"
+=======
+msgstr "Seguir comprando"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seguir comprando"
 >>>>>>> upstream/18.0
@@ -3211,7 +3281,11 @@ msgid "Continue shopping"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Continuar comprando"
+=======
+msgstr "Seguir comprando"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seguir comprando"
 >>>>>>> upstream/18.0
@@ -3433,6 +3507,7 @@ msgstr "Personalizar plantillas de correo"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "DHL Express Connector"
 msgstr "Conector DHL Express"
 
@@ -3440,6 +3515,10 @@ msgstr "Conector DHL Express"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "DHL Shipping Methods"
 msgstr "Métodos de envío de DHL"
+=======
+msgid "DHL"
+msgstr "DHL"
+>>>>>>> upstream/18.0
 =======
 msgid "DHL"
 msgstr "DHL"
@@ -3675,7 +3754,11 @@ msgstr ""
 msgid "Do not have access, skip this data for user's digest email"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No tiene acceso, omita esta información para el correo electrónico de "
+=======
+"No tienes acceso, omite esta información para el correo electrónico de "
+>>>>>>> upstream/18.0
 =======
 "No tienes acceso, omite esta información para el correo electrónico de "
 >>>>>>> upstream/18.0
@@ -3689,12 +3772,18 @@ msgstr "¿Desea vaciar su carrito antes de agregarle productos?"
 
 #. module: website_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Documentation"
 msgstr "Documentación"
 
 #. module: website_sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "Documents"
@@ -3820,7 +3909,11 @@ msgid "Ecommerce Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Descripción de comercio electrónico"
+=======
+msgstr "Descripción para comercio electrónico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descripción para comercio electrónico"
 >>>>>>> upstream/18.0
@@ -4023,11 +4116,14 @@ msgstr "FedEx"
 
 #. module: website_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "FedEx Shipping Methods"
 msgstr "Métodos de envío de FedEx"
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_extra_field__field_id
@@ -4122,7 +4218,11 @@ msgstr "Escritorios para gaming"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Gap"
+<<<<<<< HEAD
 msgstr "Brecha"
+=======
+msgstr "Espacio"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -4219,8 +4319,12 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Si se encuentra seleccionado, hay nuevos mensajes que requieren su atención."
+=======
+msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
 >>>>>>> upstream/18.0
@@ -4242,7 +4346,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Si se encuentra seleccionado, algunos mensajes tienen error de envío."
+=======
+msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
 >>>>>>> upstream/18.0
@@ -5257,7 +5365,11 @@ msgid "Prevent Sale of Zero Priced Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evitar la venta de un producto con costo cero"
+=======
+msgstr "Evitar la venta de un producto si su precio es cero"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evitar la venta de un producto si su precio es cero"
 >>>>>>> upstream/18.0
@@ -5490,13 +5602,21 @@ msgstr "Precio"
 #. odoo-python
 #: code:addons/website_sale/models/website.py:0
 msgid "Price - High to Low"
+<<<<<<< HEAD
 msgstr "Precio - alto a bajo"
+=======
+msgstr "Precio - Alto a bajo"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-python
 #: code:addons/website_sale/models/website.py:0
 msgid "Price - Low to High"
+<<<<<<< HEAD
 msgstr "Precio - bajo a alto"
+=======
+msgstr "Precio - Bajo a alto"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -6020,7 +6140,11 @@ msgstr "Cinta"
 #: code:addons/website_sale/static/src/js/website_sale.editor.js:0
 #: model:ir.model.fields,field_description:website_sale.field_product_ribbon__name
 msgid "Ribbon Name"
+<<<<<<< HEAD
 msgstr "Nombre de la cinta de opciones"
+=======
+msgstr "Nombre de la cinta"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields.selection,name:website_sale.selection__product_ribbon__position__right
@@ -6426,7 +6550,11 @@ msgstr "Gabinetes de almacenamiento"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "Street and Number"
+<<<<<<< HEAD
 msgstr "Número y calle"
+=======
+msgstr "Calle y número"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -6804,11 +6932,14 @@ msgstr "USPS"
 
 #. module: website_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "USPS Shipping Methods"
 msgstr "Métodos de envío de USPS"
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:product.public.category,name:website_sale.public_category_drawers_underbed
@@ -6857,6 +6988,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/website_sale/controllers/main.py:0
 msgid "VAT"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6934,6 +7066,9 @@ msgstr "Número de identificación fiscal (RFC, RIF, RUT, NIT, etc.)"
 =======
 msgstr "Número de identificación fiscal (RFC, RIF, RUT, NIT, etc.)"
 >>>>>>> upstream/18.0
+=======
+msgstr "Número de identificación fiscal (RFC, RIF, RUT, NIT, etc.)"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_add_to_cart_options
@@ -6943,7 +7078,11 @@ msgstr "Variante"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product__variant_ribbon_id
 msgid "Variant Ribbon"
+<<<<<<< HEAD
 msgstr "Listón de variante"
+=======
+msgstr "Cinta de la variante"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -7154,7 +7293,11 @@ msgstr "Historial de comunicación del sitio web"
 #: model:ir.model.fields,field_description:website_sale.field_product_template__website_meta_description
 msgid "Website meta description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Meta descripción del sitio web"
+=======
+msgstr "Metadescripción del sitio web"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metadescripción del sitio web"
 >>>>>>> upstream/18.0
@@ -7273,7 +7416,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        Si quiere modificar su dirección de facturación, cree"
+=======
+"                                        Si quiere modificar su dirección de facturación, cree una"
+>>>>>>> upstream/18.0
 =======
 "                                        Si quiere modificar su dirección de facturación, cree una"
 >>>>>>> upstream/18.0
@@ -7377,7 +7524,11 @@ msgstr ""
 #: code:addons/website_sale/static/src/js/website_sale_form_editor.js:0
 msgid "Your Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su correo electrónico"
+=======
+msgstr "Tu correo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu correo"
 >>>>>>> upstream/18.0
@@ -7387,7 +7538,11 @@ msgstr "Tu correo"
 #: code:addons/website_sale/static/src/js/website_sale_form_editor.js:0
 msgid "Your Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su nombre"
+=======
+msgstr "Tu nombre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu nombre"
 >>>>>>> upstream/18.0
@@ -7397,7 +7552,11 @@ msgstr "Tu nombre"
 #: model_terms:ir.ui.view,arch_db:website_sale.billing_address_row
 msgid "Your address"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su dirección"
+=======
+msgstr "Tu dirección"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu dirección"
 >>>>>>> upstream/18.0
@@ -7407,7 +7566,11 @@ msgstr "Tu dirección"
 #: model_terms:ir.ui.view,arch_db:website_sale.checkout_layout
 msgid "Your cart is empty!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "¡Su carrito está vacío!"
+=======
+msgstr "¡Tu carrito está vacío!"
+>>>>>>> upstream/18.0
 =======
 msgstr "¡Tu carrito está vacío!"
 >>>>>>> upstream/18.0
@@ -7510,7 +7673,11 @@ msgid "eCommerce Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Descripción del comercio electrónico"
+=======
+msgstr "Descripción para comercio electrónico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descripción para comercio electrónico"
 >>>>>>> upstream/18.0

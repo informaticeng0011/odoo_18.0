@@ -336,7 +336,11 @@ export const editorCommands = {
                         const [left, right] = splitElement(currentNode.parentElement, offset);
                         if (isUnbreakable(nodeToInsert) && container.childNodes.length === 1) {
                             fillEmpty(right);
+<<<<<<< HEAD
                         } else if (isEmptyBlock(right)) {
+=======
+                        } else if (isEmptyBlock(right) && !insertBefore) {
+>>>>>>> upstream/18.0
                             right.remove();
                         }
                         currentNode = insertBefore && right.isConnected ? right : left;
@@ -488,8 +492,11 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedBlocks = [...new Set(getTraversedNodes(editor.editable, range).map(closestBlock))];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -611,6 +618,9 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -847,7 +857,11 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (hasAnyFontSizeClass(element)) {
+=======
+            if (!hasFontSizeClass && closestElement(node, hasAnyFontSizeClass)) {
+>>>>>>> upstream/18.0
 =======
             if (!hasFontSizeClass && closestElement(node, hasAnyFontSizeClass)) {
 >>>>>>> upstream/18.0
@@ -1134,9 +1148,25 @@ export const editorCommands = {
         if (isEmptyBlock(range.endContainer)) {
             selectionNodes.push(range.endContainer, ...descendants(range.endContainer));
         }
+<<<<<<< HEAD
         const selectedNodes = mode === "backgroundColor"
             ? selectionNodes.filter(node => !closestElement(node, 'table.o_selected_table'))
             : selectionNodes;
+=======
+        let selectedNodes = mode === "backgroundColor"
+            ? selectionNodes.filter(node => !closestElement(node, 'table.o_selected_table'))
+            : selectionNodes;
+        const findTopMostDecoration = (current) => {
+            const decoration = closestElement(current.parentNode, "s, u");
+            return decoration?.textContent === current.textContent
+                ? findTopMostDecoration(decoration)
+                : current;
+        };
+        selectedNodes = selectedNodes.map((node) => {
+            return findTopMostDecoration(node);
+        });
+
+>>>>>>> upstream/18.0
         const selectedFieldNodes = new Set(getSelectedNodes(editor.editable)
                 .map(n => closestElement(n, "*[t-field],*[t-out],*[t-esc]"))
                 .filter(Boolean));
@@ -1212,7 +1242,11 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     (isColorGradient(color) || !hasInlineGradient)
+=======
+                    (isColorGradient(color) || color === "" || !hasInlineGradient)
+>>>>>>> upstream/18.0
 =======
                     (isColorGradient(color) || color === "" || !hasInlineGradient)
 >>>>>>> upstream/18.0
@@ -1487,7 +1521,11 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         const closestGradientEl = closestElement(node, '[style*="background-image"]');
+=======
+                        const closestGradientEl = closestElement(node, 'font[style*="background-image"], span[style*="background-image"]');
+>>>>>>> upstream/18.0
 =======
                         const closestGradientEl = closestElement(node, 'font[style*="background-image"], span[style*="background-image"]');
 >>>>>>> upstream/18.0

@@ -12,6 +12,10 @@ tests independently to functional aspects of other models. """,
     'depends': [
         'mail',
         'sms',
+<<<<<<< HEAD
+=======
+        'sms_twilio',
+>>>>>>> upstream/18.0
         'test_performance',
     ],
     'data': [

@@ -55,6 +55,11 @@ T = typing.TypeVar('T')
 
 _logger = logging.getLogger(__name__)
 
+<<<<<<< HEAD
+=======
+MAX_FIXPOINT_ITERATIONS = 10
+
+>>>>>>> upstream/18.0
 
 class NewId:
     """ Pseudo-ids for new records, encapsulating an optional origin id (actual
@@ -839,6 +844,7 @@ class Environment(Mapping):
 
     def _recompute_all(self):
         """ Process all pending computations. """
+<<<<<<< HEAD
         for field in list(self.fields_to_compute()):
             self[field.model_name]._recompute_field(field)
 
@@ -847,6 +853,29 @@ class Environment(Mapping):
         self._recompute_all()
         for model_name in OrderedSet(field.model_name for field in self.cache.get_dirty_fields()):
             self[model_name].flush_model()
+=======
+        for _ in range(MAX_FIXPOINT_ITERATIONS):
+            # fields to compute on real records (new records are not recomputed)
+            fields_ = [field for field, ids in self.transaction.tocompute.items() if any(ids)]
+            if not fields_:
+                break
+            for field in fields_:
+                self[field.model_name]._recompute_field(field)
+        else:
+            _logger.warning("Too many iterations for recomputing fields!")
+
+    def flush_all(self):
+        """ Flush all pending computations and updates to the database. """
+        for _ in range(MAX_FIXPOINT_ITERATIONS):
+            self._recompute_all()
+            model_names = OrderedSet(field.model_name for field in self.cache.get_dirty_fields())
+            if not model_names:
+                break
+            for model_name in model_names:
+                self[model_name].flush_model()
+        else:
+            _logger.warning("Too many iterations for flushing fields!")
+>>>>>>> upstream/18.0
 
     def is_protected(self, field, record):
         """ Return whether `record` is protected against invalidation or
@@ -1142,6 +1171,11 @@ class Cache:
             cache_value = field_cache[record._ids[0]]
             if field.translate and cache_value is not None:
                 lang = (record.env.lang or 'en_US') if field.translate is True else record.env._lang
+<<<<<<< HEAD
+=======
+                if not (field.compute or field.store and record._origin):
+                    return cache_value.get(lang, cache_value.get('en_US'))
+>>>>>>> upstream/18.0
                 return cache_value[lang]
             return cache_value
         except KeyError:
@@ -1168,6 +1202,11 @@ class Cache:
             lang = record.env.lang or 'en_US'
             cache_value = field_cache.get(record_id) or {}
             cache_value[lang] = value
+<<<<<<< HEAD
+=======
+            if not (field.compute or field.store and record._origin):
+                cache_value.setdefault('en_US', value)
+>>>>>>> upstream/18.0
             value = cache_value
 
         field_cache[record_id] = value
@@ -1200,6 +1239,7 @@ class Cache:
         """
         if field.translate:
             # only for model translated fields
+<<<<<<< HEAD
             lang = records.env.lang or 'en_US'
             field_cache = self._get_field_cache(records, field)
             cache_values = []
@@ -1209,6 +1249,19 @@ class Cache:
                 else:
                     cache_value = field_cache.get(id_) or {}
                     cache_value[lang] = value
+=======
+            lang = (records.env.lang or 'en_US') if dirty or field.translate is True else records.env._lang
+            field_cache = self._get_field_cache(records, field)
+            cache_values = []
+            for record, value in zip(records, values):
+                if value is None:
+                    cache_values.append(None)
+                else:
+                    cache_value = field_cache.get(record.id) or {}
+                    cache_value[lang] = value
+                    if not (field.compute or field.store and record._origin):
+                        cache_value.setdefault('en_US', value)
+>>>>>>> upstream/18.0
                     cache_values.append(cache_value)
             values = cache_values
 
@@ -1342,7 +1395,11 @@ class Cache:
         """ Return the subset of ``records`` that has not ``value`` for ``field``. """
         field_cache = self._get_field_cache(records, field)
         if field.translate:
+<<<<<<< HEAD
             lang = records.env.lang or 'en_US'
+=======
+            lang = (records.env.lang or 'en_US') if field.translate is True else records.env._lang
+>>>>>>> upstream/18.0
 
             def get_value(id_):
                 cache_value = field_cache[id_]

@@ -17,6 +17,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
@@ -40,7 +44,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Nadir Gazioglu <nadirgazioglu@gmail.com>, 2024\n"
+=======
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -64,19 +72,31 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_edi/models/account_move.py:0
 msgid "%(count)s Electronic invoicing error(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s Elektronik faturalama hatası/hataları"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #. odoo-python
 #: code:addons/account_edi/models/account_move.py:0
 msgid "%(count)s Electronic invoicing info(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s Elektronik faturalama bilgisi/bilgileri"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #. odoo-python
 #: code:addons/account_edi/models/account_move.py:0
 msgid "%(count)s Electronic invoicing warning(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s Elektronik faturalama uyarısı/uyarıları"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #. odoo-python
@@ -105,6 +125,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"EDI belgesinin iptal edilmesini beklemeden bu faturayı iptal etmek "
+"istediğinizden emin misiniz?"
+>>>>>>> upstream/18.0
 =======
 "EDI belgesinin iptal edilmesini beklemeden bu faturayı iptal etmek "
 "istediğinizden emin misiniz?"
@@ -218,7 +243,11 @@ msgstr "Bu yevmiyedeki hareketleri destekleyen EDI formatı"
 #. module: account_edi
 #: model:ir.actions.server,name:account_edi.ir_cron_edi_network_ir_actions_server
 msgid "EDI: Perform web services operations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EDI: Web servis işlemlerini gerçekleştir"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_bank_statement_line__edi_blocking_level
@@ -270,7 +299,11 @@ msgstr "Edi Göster İptal Düğmesi"
 #: model:ir.model.fields,field_description:account_edi.field_account_bank_statement_line__edi_show_force_cancel_button
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_show_force_cancel_button
 msgid "Edi Show Force Cancel Button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EDI Zorla İptal Et Düğmesini Göster"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_bank_statement_line__edi_web_services_to_process
@@ -294,7 +327,11 @@ msgstr "Elektronik faturalama"
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_account_invoice_filter
 msgid "Electronic invoicing processing needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elektronik fatura işleme gerekli"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_account_invoice_filter
@@ -315,7 +352,11 @@ msgid "Force Cancel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zorla İptal Et"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zorla İptal Et"
 >>>>>>> upstream/18.0
@@ -339,7 +380,11 @@ msgstr "Biçim Adı"
 #: model:ir.model.fields,help:account_edi.field_account_move__edi_error_count
 msgid "How many EDIs are in error for this move?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu muhasebe hareketi için kaç adet EDI hatası var?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu muhasebe hareketi için kaç adet EDI hatası var?"
 >>>>>>> upstream/18.0
@@ -468,7 +513,11 @@ msgstr ""
 msgid ""
 "The following documents have already been sent and cannot be resequenced: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aşağıdaki belgeler zaten gönderilmiş ve yeniden sıralanamaz: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aşağıdaki belgeler zaten gönderilmiş ve yeniden sıralanamaz: %s"
 >>>>>>> upstream/18.0
@@ -477,7 +526,11 @@ msgstr "Aşağıdaki belgeler zaten gönderilmiş ve yeniden sıralanamaz: %s"
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "The invoice will soon be sent to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fatura yakında şu adrese gönderilecektir:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fatura yakında şu adrese gönderilecektir:"
 >>>>>>> upstream/18.0
@@ -508,6 +561,11 @@ msgid ""
 " request."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu fatura iptal edildi ancak EDI belgeleri %s için hâlâ bekleyen bir iptal "
+"talebi var."
+>>>>>>> upstream/18.0
 =======
 "Bu fatura iptal edildi ancak EDI belgeleri %s için hâlâ bekleyen bir iptal "
 "talebi var."

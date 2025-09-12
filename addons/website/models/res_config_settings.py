@@ -66,7 +66,11 @@ class ResConfigSettings(models.TransientModel):
         related='website_id.google_analytics_key',
         readonly=False)
     google_search_console = fields.Char(
+<<<<<<< HEAD
         'Google Search Console',
+=======
+        'Google Search Console Key',
+>>>>>>> upstream/18.0
         related='website_id.google_search_console',
         readonly=False)
     plausible_shared_key = fields.Char(
@@ -109,7 +113,11 @@ class ResConfigSettings(models.TransientModel):
         compute='_compute_has_google_analytics',
         inverse='_inverse_has_google_analytics')
     has_google_search_console = fields.Boolean(
+<<<<<<< HEAD
         "Console Google Search",
+=======
+        "Google Search Console",
+>>>>>>> upstream/18.0
         compute='_compute_has_google_search_console',
         inverse='_inverse_has_google_search_console')
     has_default_share_image = fields.Boolean(
@@ -210,6 +218,10 @@ class ResConfigSettings(models.TransientModel):
 
     def action_website_create_new(self):
         return {
+<<<<<<< HEAD
+=======
+            'name': _('Add Website'),
+>>>>>>> upstream/18.0
             'view_mode': 'form',
             'view_id': self.env.ref('website.view_website_form_view_themes_modal').id,
             'res_model': 'website',

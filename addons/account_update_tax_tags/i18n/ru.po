@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* account_update_tax_tags
 # 
 # Translators:
@@ -10,11 +11,22 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * account_update_tax_tags
+#
+# Translators:
+# Wil Odoo, 2024
+# Ilya Rozhkov, 2025
+# Anastasiia Koroleva, 2025
+#
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 "Last-Translator: Ilya Rozhkov, 2025\n"
@@ -27,6 +39,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"PO-Revision-Date: 2025-08-13 13:59+0000\n"
+"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
+"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
+"account_update_tax_tags/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
 #: model:ir.model.fields,field_description:account_update_tax_tags.field_account_update_tax_tags_wizard__company_id
@@ -36,17 +62,29 @@ msgstr "Компания"
 #. module: account_update_tax_tags
 #: model:ir.model.fields,field_description:account_update_tax_tags.field_account_update_tax_tags_wizard__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
 #: model:ir.model.fields,field_description:account_update_tax_tags.field_account_update_tax_tags_wizard__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
 #: model:ir.model.fields,help:account_update_tax_tags.field_account_update_tax_tags_wizard__date_from
 msgid "Date from which journal items will be updated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дата, начиная с которой будут обновлены бухгалтерские проводки."
+>>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
 #: model_terms:ir.ui.view,arch_db:account_update_tax_tags.view_account_update_tax_tags_wizard_form
@@ -56,7 +94,11 @@ msgstr "Отменить"
 #. module: account_update_tax_tags
 #: model:ir.model.fields,field_description:account_update_tax_tags.field_account_update_tax_tags_wizard__display_lock_date_warning
 msgid "Display Lock Date Warning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отображать предупреждение о дате блокировки"
+>>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
 #: model:ir.model.fields,field_description:account_update_tax_tags.field_account_update_tax_tags_wizard__display_name
@@ -72,7 +114,11 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:account_update_tax_tags.field_account_update_tax_tags_wizard__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -81,7 +127,11 @@ msgstr "Последнее обновление:"
 #: model:ir.model.fields,field_description:account_update_tax_tags.field_account_update_tax_tags_wizard__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -89,13 +139,23 @@ msgstr "Дата последнего обновления:"
 #. module: account_update_tax_tags
 #: model:ir.model.fields,field_description:account_update_tax_tags.field_account_update_tax_tags_wizard__date_from
 msgid "Starting from"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Начало периода"
+>>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
 #: model_terms:ir.ui.view,arch_db:account_update_tax_tags.view_account_update_tax_tags_wizard_form
 msgid ""
 "The date you chose is violating the tax lock date, do this at your own risk."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Указанная дата нарушает установленную дату блокировки по налогам. Продолжая, "
+"вы берете на себя все возможные риски, связанные с некорректным расчетом "
+"налогов."
+>>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
 #: model_terms:ir.ui.view,arch_db:account_update_tax_tags.view_account_update_tax_tags_wizard_form
@@ -105,7 +165,11 @@ msgstr "Обновить"
 #. module: account_update_tax_tags
 #: model:ir.model,name:account_update_tax_tags.model_account_update_tax_tags_wizard
 msgid "Update Tax Tags Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Инструмент для обновления налоговых тегов"
+>>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
 #: model:ir.actions.act_window,name:account_update_tax_tags.action_open_wizard
@@ -120,6 +184,11 @@ msgid ""
 "Update with children taxes that are child of multiple parents is not "
 "supported."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Обновление не поддерживается: дочерние налоги, относящиеся к нескольким "
+"родительским налогам."
+>>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
 #: model_terms:ir.ui.view,arch_db:account_update_tax_tags.view_account_update_tax_tags_wizard_form

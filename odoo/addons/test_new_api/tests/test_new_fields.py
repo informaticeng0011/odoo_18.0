@@ -938,6 +938,27 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
         self.assertEqual(user1.group_count, 1)
         self.assertEqual(user2.group_count, 1)
 
+<<<<<<< HEAD
+=======
+    def test_18_flush_all(self):
+        """ check that env.flush_all() effectively recomputes all fields. """
+        self.env.invalidate_all()
+        self.assertFalse(self.env['test_new_api.compute.created'].search_count([('name', '=', 'foo')]))
+
+        # the computation of field 'created_id' should create a new record with
+        # a stored computed field
+        record = self.env['test_new_api.compute.creator'].create({'name': 'foo'})
+        self.assertIn(record._fields['created_id'], self.env.fields_to_compute())
+
+        # now recompute and flush all fields; make sure there is no leftover
+        self.env.flush_all()
+        self.assertFalse(self.env.fields_to_compute())
+
+        # check the computed field of the created record
+        self.env.invalidate_all()
+        self.assertEqual(record.created_id.value, 3)
+
+>>>>>>> upstream/18.0
     def test_20_float(self):
         """ test rounding of float fields """
         record = self.env['test_new_api.mixed'].create({})
@@ -3827,6 +3848,7 @@ class TestHtmlField(TransactionCase):
             'comment2': '<p>comment</p>',
         })
 
+<<<<<<< HEAD
         # in a perfect world this should be 1, but at the moment the value is
         # sanitized more than once during creation of the record
         self.assertEqual(patch.call_count, 2)
@@ -3836,6 +3858,17 @@ class TestHtmlField(TransactionCase):
         self.assertEqual(patch.call_count, 3)
 
         # the value is already sanitized for flushing
+=======
+        # the new value is sanitized upon insertion in db,
+        # but not put in cache, therefore not sanitized a second time
+        self.assertEqual(patch.call_count, 1)
+
+        # new value sanitized for insertion in cache
+        record.comment2 = '<p>comment</p>'
+        self.assertEqual(patch.call_count, 2)
+
+        # the value in cache is dirty -> sanitize for db insertion while flushing
+>>>>>>> upstream/18.0
         record.flush_recordset()
         self.assertEqual(patch.call_count, 3)
 

@@ -20,10 +20,16 @@ addons/*
 # BlackList libs
 addons/web/static/lib/**/*
 
+<<<<<<< HEAD
 # Whitelist Hoot (but not its libs)
 !addons/web/static/lib/hoot
 !addons/web/static/lib/hoot/**/*
 addons/web/static/lib/hoot/lib/**/*
+=======
+# Whitelist Hoot
+!addons/web/static/lib/hoot
+!addons/web/static/lib/hoot/**/*
+>>>>>>> upstream/18.0
 
 # Ignore everything in web legacy but the top level (adapters)
 addons/web/static/src/legacy/**/*
@@ -241,6 +247,11 @@ addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+!addons/website_slides
+!addons/website_slides/**/*
+>>>>>>> upstream/18.0
 =======
 !addons/website_slides
 !addons/website_slides/**/*

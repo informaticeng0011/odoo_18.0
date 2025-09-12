@@ -1,6 +1,7 @@
 /** @odoo-module */
 
 import { App } from "@odoo/owl";
+<<<<<<< HEAD
 import {
     defineRootNode,
     getActiveElement,
@@ -253,6 +254,14 @@ import { getViewPortHeight, getViewPortWidth } from "../mock/window";
 =======
 import { getViewPortHeight, getViewPortWidth } from "../mock/window";
 >>>>>>> upstream/18.0
+=======
+import { getActiveElement, getCurrentDimensions } from "@web/../lib/hoot-dom/helpers/dom";
+import { setupEventActions } from "@web/../lib/hoot-dom/helpers/events";
+import { isInstanceOf } from "@web/../lib/hoot-dom/hoot_dom_utils";
+import { HootError } from "../hoot_utils";
+import { subscribeToTransitionChange } from "../mock/animation";
+import { getViewPortHeight, getViewPortWidth } from "../mock/window";
+>>>>>>> upstream/18.0
 
 /**
  * @typedef {Parameters<typeof import("@odoo/owl").mount>[2] & {
@@ -294,7 +303,11 @@ import { getViewPortHeight, getViewPortWidth } from "../mock/window";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const { customElements, document, getSelection, HTMLElement, WeakSet } = globalThis;
+=======
+const { customElements, document, getSelection, HTMLElement, Promise, WeakSet } = globalThis;
+>>>>>>> upstream/18.0
 =======
 const { customElements, document, getSelection, HTMLElement, Promise, WeakSet } = globalThis;
 >>>>>>> upstream/18.0
@@ -396,7 +409,10 @@ const { customElements, document, getSelection, HTMLElement, Promise, WeakSet } 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -473,6 +489,9 @@ function waitForIframe(iframe) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -534,7 +553,11 @@ let shouldPrepareNextFixture = true; // Prepare setup for first test
  * @param {App | import("@odoo/owl").Component} target
  */
 export function destroy(target) {
+<<<<<<< HEAD
     const app = target instanceof App ? target : target.__owl__.app;
+=======
+    const app = isInstanceOf(target, App) ? target : target.__owl__.app;
+>>>>>>> upstream/18.0
     if (destroyed.has(app)) {
         return;
     }
@@ -570,7 +593,11 @@ export function makeFixtureManager(runner) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const cleanupFixture = () => {
+=======
+    function cleanup() {
+>>>>>>> upstream/18.0
 =======
     function cleanup() {
 >>>>>>> upstream/18.0
@@ -672,11 +699,14 @@ export function makeFixtureManager(runner) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
     };
 
     const getFixture = () => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -751,6 +781,9 @@ export function makeFixtureManager(runner) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -803,6 +836,7 @@ export function makeFixtureManager(runner) {
         }
         if (!currentFixture) {
             // Prepare fixture once to not force layouts/reflows
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1119,6 +1153,10 @@ export function makeFixtureManager(runner) {
 >>>>>>> upstream/18.0
             currentFixture = document.createElement(HootFixtureElement.TAG_NAME);
             if (runner.debug || runner.config.headless) {
+=======
+            currentFixture = document.createElement(HootFixtureElement.TAG_NAME);
+            if (runner.debug || runner.headless) {
+>>>>>>> upstream/18.0
                 currentFixture.show();
             }
 
@@ -1135,6 +1173,7 @@ export function makeFixtureManager(runner) {
         return currentFixture;
     }
 
+<<<<<<< HEAD
     function globalCleanup() {
         HootFixtureElement.styleElement.remove();
     }
@@ -1215,6 +1254,9 @@ export function makeFixtureManager(runner) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+    function setup() {
+>>>>>>> upstream/18.0
         allowFixture = true;
 
         if (shouldPrepareNextFixture) {
@@ -1224,6 +1266,7 @@ export function makeFixtureManager(runner) {
             getActiveElement().blur();
             getSelection().removeAllRanges();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1567,10 +1610,13 @@ export function makeFixtureManager(runner) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     }
 
     return {
         cleanup,
+<<<<<<< HEAD
         globalCleanup,
         globalSetup,
         setup,
@@ -1644,6 +1690,9 @@ export function makeFixtureManager(runner) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        setup,
+>>>>>>> upstream/18.0
         get: getFixture,
     };
 }
@@ -1659,6 +1708,7 @@ export class HootFixtureElement extends HTMLElement {
 
     static {
         customElements.define(this.TAG_NAME, this);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1868,6 +1918,11 @@ export class HootFixtureElement extends HTMLElement {
 =======
         this.styleElement.textContent = /* css */ `
 >>>>>>> upstream/18.0
+=======
+
+        this.styleElement.id = "hoot-fixture-style";
+        this.styleElement.textContent = /* css */ `
+>>>>>>> upstream/18.0
             ${this.TAG_NAME} {
                 position: fixed !important;
                 height: 100vh;
@@ -1893,6 +1948,7 @@ export class HootFixtureElement extends HTMLElement {
         `;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2077,6 +2133,8 @@ export class HootFixtureElement extends HTMLElement {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     get hasIframes() {
         return this._iframes.size > 0;
     }
@@ -2088,6 +2146,7 @@ export class HootFixtureElement extends HTMLElement {
      * @type {Map<HTMLIFrameElement, Promise<void>>}
      */
     _iframes = new Map();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2435,6 +2494,10 @@ export class HootFixtureElement extends HTMLElement {
 
     connectedCallback() {
 >>>>>>> upstream/18.0
+=======
+
+    connectedCallback() {
+>>>>>>> upstream/18.0
         setupEventActions(this);
         subscribeToTransitionChange((allowTransitions) =>
             this.classList.toggle(this.constructor.CLASSES.transitions, allowTransitions)
@@ -2442,6 +2505,7 @@ export class HootFixtureElement extends HTMLElement {
 
         this._observer.observe(this, { childList: true, subtree: true });
         this._lookForIframes();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2813,6 +2877,8 @@ export class HootFixtureElement extends HTMLElement {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     }
 
     disconnectedCallback() {
@@ -2841,6 +2907,9 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2955,10 +3024,13 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     show() {
         this.classList.add(this.constructor.CLASSES.show);
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3120,10 +3192,14 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._iframes.set(
                 iframe,
                 new Promise((resolve) => iframe.addEventListener("load", resolve))
             );
+=======
+            this._iframes.set(iframe, waitForIframe(iframe));
+>>>>>>> upstream/18.0
 =======
             this._iframes.set(iframe, waitForIframe(iframe));
 >>>>>>> upstream/18.0
@@ -3272,6 +3348,9 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

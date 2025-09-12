@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_expense
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2025
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2025
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,6 +56,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025\n"
+"Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -83,8 +106,12 @@ msgstr "%(employee_name)s: %(expense_name)s"
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
+<<<<<<< HEAD
 msgid ""
 "%(user)s confirms this expense is not a duplicate with similar expense."
+=======
+msgid "%(user)s confirms this expense is not a duplicate with similar expense."
+>>>>>>> upstream/18.0
 msgstr ""
 "%(user)s підтверджує, що ці витрати не є дублікатами аналогічних витрат."
 
@@ -271,8 +298,15 @@ msgstr "Усі звіти"
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
+<<<<<<< HEAD
 msgid "All expenses in an expense report must have the same \"paid by\" criteria."
 msgstr "Усі витрати у звіті про витрати повинні мати ті ж критерії \"оплачено\"."
+=======
+msgid ""
+"All expenses in an expense report must have the same \"paid by\" criteria."
+msgstr ""
+"Усі витрати у звіті про витрати повинні мати ті ж критерії \"оплачено\"."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
@@ -431,8 +465,13 @@ msgid ""
 "Both price-included and price-excluded taxes will behave as price-included "
 "taxes for expenses."
 msgstr ""
+<<<<<<< HEAD
 "Обидва податки, включені в ціну, і податки без неї, будуть діяти як податки,"
 " включені в ціну, для витрат."
+=======
+"Обидва податки, включені в ціну, і податки без неї, будуть діяти як податки, "
+"включені в ціну, для витрат."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -524,8 +563,13 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
+<<<<<<< HEAD
 "Перетворення між одиницями вимірювання може відбуватися лише у тому випадку,"
 " якщо вони належать до однієї і тієї ж категорії. Конвертація буде "
+=======
+"Перетворення між одиницями вимірювання може відбуватися лише у тому випадку, "
+"якщо вони належать до однієї і тієї ж категорії. Конвертація буде "
+>>>>>>> upstream/18.0
 "здійснюватися на основі співвідношення."
 
 #. module: hr_expense
@@ -749,8 +793,12 @@ msgstr "Витрати співробітників"
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid ""
+<<<<<<< HEAD
 "Enter a name then choose a category and configure the amount of your "
 "expense."
+=======
+"Enter a name then choose a category and configure the amount of your expense."
+>>>>>>> upstream/18.0
 msgstr "Введіть назву, виберіть категорію та налаштуйте суму своїх витрат."
 
 #. module: hr_expense
@@ -1863,10 +1911,20 @@ msgstr "Відскайнуйте цей QR-код, щоб отримати мо�
 #: model:ir.model.fields,help:hr_expense.field_res_users__expense_manager_id
 msgid ""
 "Select the user responsible for approving \"Expenses\" of this employee.\n"
+<<<<<<< HEAD
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
 msgstr ""
 "Виберіть користувача, відповідального за затвердження \"Витрат\" цього працівника.\n"
 "Якщо залишити пустим, затвердження здійснюється адміністратором або схваленням (визначається в налаштуваннях/користувачах)."
+=======
+"If empty, the approval is done by an Administrator or Approver (determined "
+"in settings/users)."
+msgstr ""
+"Виберіть користувача, відповідального за затвердження \"Витрат\" цього "
+"працівника.\n"
+"Якщо залишити пустим, затвердження здійснюється адміністратором або "
+"схваленням (визначається в налаштуваннях/користувачах)."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__selectable_payment_method_line_ids
@@ -1882,8 +1940,13 @@ msgid ""
 "category will automatically be set. Type the expense amount in the mail "
 "subject to set it on the expense too."
 msgstr ""
+<<<<<<< HEAD
 "Надішліть електронний лист на цей псевдонім електронної пошти з квитанцією у"
 " вкладенні, щоб створити витрати в один клік. Якщо перше слово теми листа "
+=======
+"Надішліть електронний лист на цей псевдонім електронної пошти з квитанцією у "
+"вкладенні, щоб створити витрати в один клік. Якщо перше слово теми листа "
+>>>>>>> upstream/18.0
 "містить внутрішнє посилання на категорію або назву категорії, відповідна "
 "категорія буде встановлена автоматично. Введіть суму витрат у темі листа, "
 "щоб установити її також і на витрати."
@@ -1919,12 +1982,15 @@ msgstr "Показати всі записи, які мають дату нас�
 
 #. module: hr_expense
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "Show missing work email employees"
 msgstr "Показати відсутні робочі електронні адреси співробітників"
 
 #. module: hr_expense
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__accounting_date
@@ -2074,8 +2140,12 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_res_company__expense_journal_id
 #: model:ir.model.fields,help:hr_expense.field_res_config_settings__expense_journal_id
+<<<<<<< HEAD
 msgid ""
 "The company's default journal used when an employee expense is created."
+=======
+msgid "The company's default journal used when an employee expense is created."
+>>>>>>> upstream/18.0
 msgstr ""
 "Стандартний журнал компанії, який використовується під час створення витрат "
 "на співробітників."
@@ -2089,8 +2159,13 @@ msgstr "Поточний користувач не має пов'язаного 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid ""
+<<<<<<< HEAD
 "The first word of the email subject did not correspond to any category code."
 " You'll have to set the category manually on the expense."
+=======
+"The first word of the email subject did not correspond to any category code. "
+"You'll have to set the category manually on the expense."
+>>>>>>> upstream/18.0
 msgstr ""
 "Перше слово теми електронного листа не відповідало жодному коду категорії. "
 "Вам доведеться вручну встановити категорію на рахунок."
@@ -2103,8 +2178,13 @@ msgid ""
 "contain duplicates."
 msgstr ""
 "Нижче наведені затверджені витрати мають аналогічну кількість працівників, "
+<<<<<<< HEAD
 "суму та категорію, ніж деякі витрати цього звіту. Будь ласка, переконайтеся,"
 " що цей звіт не містить дублікатів."
+=======
+"суму та категорію, ніж деякі витрати цього звіту. Будь ласка, переконайтеся, "
+"що цей звіт не містить дублікатів."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.constraint,message:hr_expense.constraint_hr_expense_sheet_journal_id_required_posted
@@ -2135,6 +2215,7 @@ msgstr "Сума після розділеного закриття залиша
 #. module: hr_expense
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
 "The work email of some employees is missing. Please add it on the employee "
@@ -2147,6 +2228,8 @@ msgstr ""
 #. odoo-python
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/product_product.py:0
 msgid ""
 "There are unsubmitted expenses linked to this category. Updating the "
@@ -2154,8 +2237,12 @@ msgid ""
 "do."
 msgstr ""
 "Є неподані витрати, пов’язані з цією категорією. Оновлення вартості "
+<<<<<<< HEAD
 "категорії змінить суми витрат. Переконайтеся, що це те, що ви хочете "
 "зробити."
+=======
+"категорії змінить суми витрат. Переконайтеся, що це те, що ви хочете зробити."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:web_tour.tour,rainbow_man_message:hr_expense.hr_expense_tour
@@ -2349,6 +2436,7 @@ msgstr "Історія бесіди на сайті"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid ""
+<<<<<<< HEAD
 "When the cost of an expense product is different than 0, then the user"
 "                                             using this product won't be "
 "able to change the amount of the expense,"
@@ -2357,6 +2445,16 @@ msgid ""
 "                                             the company at fixed cost like "
 "allowances for mileage, per diem, accommodation"
 "                                             or meal."
+=======
+"When the cost of an expense product is different than 0, then the "
+"user                                             using this product won't be "
+"able to change the amount of the "
+"expense,                                             only the quantity. Use "
+"a cost different than 0 for expense categories funded "
+"by                                             the company at fixed cost "
+"like allowances for mileage, per diem, "
+"accommodation                                             or meal."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -2451,8 +2549,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_expense/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete only some entries linked to an expense report. All entries"
 " must be deleted at the same time."
+=======
+"You cannot delete only some entries linked to an expense report. All entries "
+"must be deleted at the same time."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ви не можете видалити лише деякі записи, пов’язані зі звітом про витрати. "
 "Всі записи повинні бути видалені одночасно."
@@ -2524,8 +2627,12 @@ msgstr "Ви не можете звітувати двічі той же ряд�
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot set the expense total in currency to 0 if it's linked to a "
 "report."
+=======
+"You cannot set the expense total in currency to 0 if it's linked to a report."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -2551,6 +2658,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2563,6 +2671,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: code:addons/hr_expense/models/hr_expense.py:0
+msgid ""
+"You don't have the rights to attach a document to a submitted expense. "
+"Please reset the expense report to draft first."
+msgstr ""
+
+#. module: hr_expense
+#. odoo-python
 >>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
@@ -2585,6 +2703,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2612,8 +2733,13 @@ msgstr "Вам потрібно додати спосіб оплати вруч�
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
+<<<<<<< HEAD
 "You need to have at least one category that can be expensed in your database"
 " to proceed!"
+=======
+"You need to have at least one category that can be expensed in your database "
+"to proceed!"
+>>>>>>> upstream/18.0
 msgstr ""
 "Щоб продовжити, у вашій базі даних має бути принаймні одна категорія, яку "
 "можна витратити!"

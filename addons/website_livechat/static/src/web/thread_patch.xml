@@ -23,7 +23,11 @@
                     </div>
                     <div class="mt-1">
                         <i class="me-1 fa fa-history" aria-label="History"/>
+<<<<<<< HEAD
                         <span t-esc="visitor.history"/>
+=======
+                        <span t-esc="visitor.historyLocalized or visitor.history"/>
+>>>>>>> upstream/18.0
                     </div>
                 </div>
             </div>

@@ -73,6 +73,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2025-04-07 20:36+0000\n"
 =======
@@ -342,6 +343,10 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
 "PO-Revision-Date: 2025-05-14 20:46+0000\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-08-29 18:37+0000\n"
+"PO-Revision-Date: 2025-08-29 18:37+0000\n"
 >>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -774,6 +779,14 @@ msgid "A note with this name already exists"
 msgstr ""
 
 #. module: point_of_sale
+<<<<<<< HEAD
+=======
+#: model:ir.model.constraint,message:point_of_sale.constraint_pos_payment_uuid_unique
+msgid "A payment with this uuid already exists"
+msgstr ""
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__login_number
 msgid ""
 "A sequence number that is incremented each time a user resumes the pos "
@@ -1268,6 +1281,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -1513,6 +1530,19 @@ msgid "An internal identification of the printer"
 msgstr ""
 
 #. module: point_of_sale
+<<<<<<< HEAD
+=======
+#: model:ir.model.constraint,message:point_of_sale.constraint_pos_order_line_uuid_unique
+msgid "An order line with this uuid already exists"
+msgstr ""
+
+#. module: point_of_sale
+#: model:ir.model.constraint,message:point_of_sale.constraint_pos_order_uuid_unique
+msgid "An order with this uuid already exists"
+msgstr ""
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid "Another session is already opened for this point of sale."
@@ -2311,6 +2341,15 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
+msgid "Choose the tax you want to apply"
+msgstr ""
+
+#. module: point_of_sale
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.xml:0
 msgid "Choose your store"
 msgstr ""
@@ -5254,6 +5293,15 @@ msgid "Order Number"
 msgstr ""
 
 #. module: point_of_sale
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
+msgid "Order Outdated"
+msgstr ""
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__is_order_printer
 msgid "Order Printer"
 msgstr ""
@@ -5806,6 +5854,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
 msgid "Please register the voucher number"
 msgstr ""
@@ -6079,6 +6128,10 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
 >>>>>>> upstream/18.0
 =======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
+>>>>>>> upstream/18.0
+=======
+#: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
 >>>>>>> upstream/18.0
 msgid "Please scan the QR code with %s"
@@ -6944,6 +6997,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -8619,7 +8676,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8888,6 +8948,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9155,6 +9218,18 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
+msgid ""
+"The order has been modified on another device. If you have modified existing order lines, check that your changes have not been overwritten.\n"
+"\n"
+"The order will be sent to the server with the last changes made on this device."
+msgstr ""
+
+#. module: point_of_sale
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/static/src/app/utils/hooks.js:0
 msgid ""
 "The order has been synchronized earlier. Please make the invoice from the "
@@ -9584,7 +9659,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9791,6 +9869,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10783,7 +10864,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10990,6 +11074,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11202,6 +11289,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/point_of_sale/models/account_cash_rounding.py:0
 #, python-format
 msgid ""
@@ -11211,6 +11299,8 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11547,12 +11637,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. 0123456789"
 msgstr ""
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11755,12 +11848,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. john.doe@mail.com"
 msgstr ""
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12074,6 +12170,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -12088,6 +12185,8 @@ msgid ""
 "{{ line.has_valid_product_lot() ? 'Valid product lot' : 'Invalid product "
 "lot'}}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

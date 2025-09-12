@@ -39,7 +39,10 @@ class Partner(models.Model):
         for partner in self:
             if partner.website_id:
                 partner.display_name += f' [{partner.website_id.name}]'
+<<<<<<< HEAD
 
     def _compute_can_publish(self):
         self2 = self.with_context(can_publish_unsudo_main_object=False)
         super(Partner, self2)._compute_can_publish()
+=======
+>>>>>>> upstream/18.0

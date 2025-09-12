@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* portal
 # 
+=======
+# * portal
+#
+>>>>>>> upstream/18.0
 # Translators:
 # hrvoje sić <hrvoje.sic@gmail.com>, 2024
 # Igor Krizanovic <krizanovic.igor@gmail.com>, 2024
@@ -16,6 +21,7 @@
 # Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2024
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
 # Bole <bole@dajmi5.com>, 2025
+<<<<<<< HEAD
 # Luka Carević <luka@uvid.hr>, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,10 +348,16 @@
 # Goran Kliska <gkliska@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Goran Kliska <gkliska@gmail.com>, 2025
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -795,6 +807,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-05-23 18:40+0000\n"
+"PO-Revision-Date: 2025-08-25 08:08+0000\n"
+"Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/portal/"
+"hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
@@ -970,6 +996,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
+"            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
+"            <t t-set=\"signup_url\" t-value=\"object.user_id.partner_id and object.user_id.partner_id._get_signup_url() or object.partner_id and object.partner_id._get_signup_url()\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
 "            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
@@ -1279,6 +1311,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or ''\">Marc Demo</span>\n"
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
@@ -1297,6 +1330,9 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
+>>>>>>> upstream/18.0
+=======
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
@@ -1515,6 +1551,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Dear <t t-out=\"object.user_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
 "                        Welcome to <t t-out=\"object.user_id.company_id.name\">YourCompany</t>'s Portal!<br/><br/>\n"
 "                        An account has been created for you with the following login: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
@@ -1555,6 +1592,8 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1705,6 +1744,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1868,7 +1910,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
+=======
+"                    <t t-out=\"company_name\">YourCompany</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"company_name\">YourCompany</t>\n"
 >>>>>>> upstream/18.0
@@ -2097,7 +2143,11 @@ msgstr ""
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Added On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodano dana"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields.selection,name:portal.selection__portal_wizard_user__email_state__exist
@@ -2194,6 +2244,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/portal/static/src/js/portal_security.js:0
 msgid "Confirm"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2519,6 +2570,9 @@ msgstr "Potvrdi"
 =======
 msgstr "Potvrdi"
 >>>>>>> upstream/18.0
+=======
+msgstr "Potvrdi"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
@@ -2589,7 +2643,11 @@ msgstr "URL portala za kupce"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.res_config_settings_view_form
 msgid "Customers can generate API Keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupci mogu generirati API ključeve"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_template
@@ -2600,7 +2658,11 @@ msgstr "Poštovani"
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "Delete"
+<<<<<<< HEAD
 msgstr "Briši"
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
@@ -2676,7 +2738,11 @@ msgstr "Nit e-pošte"
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Enter a description of and purpose for the key."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unesite opis i svrhu ključa."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
@@ -2693,7 +2759,11 @@ msgstr "Zaboravljena lozinka?"
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Give a duration for the key's validity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odredite rokk trajanja valjanosti ključa"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
@@ -2807,6 +2877,7 @@ msgid ""
 "It is very important that this description be clear\n"
 "                and complete,"
 msgstr ""
+<<<<<<< HEAD
 
 #. module: portal
 <<<<<<< HEAD
@@ -2989,6 +3060,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Vrlo je važno da ovaj opis bude jasan\n"
+"                i potpun, "
+
+#. module: portal
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:portal.field_portal_share__write_uid
 #: model:ir.model.fields,field_description:portal.field_portal_wizard__write_uid
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user__write_uid
@@ -3021,7 +3098,11 @@ msgstr "Veza"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Log out from all devices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odjavi se sa svih uređaja"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model,name:portal.model_mail_message
@@ -3300,7 +3381,10 @@ msgstr "Sigurnost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal/static/src/xml/portal_security.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3457,7 +3541,11 @@ msgstr "Dijeli Dokument"
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_ir_ui_view__customize_show
 msgid "Show As Optional Inherit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži kao opcionalno nasljeđivanje"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.user_sign_in
@@ -3551,7 +3639,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "The key will be deleted once this period has elapsed."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ključ će biti izbrisan nakon što ovaj rok istekne."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
@@ -3835,9 +3927,12 @@ msgstr "Prvo trebate odobriti pristup portalu kontaktu \"%s\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Your account at {{ object.user_id.company_id.name }}"
 msgstr "Vaš račun {{ object.user_id.company_id.name }}"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3986,6 +4081,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4112,6 +4210,11 @@ msgid ""
 "it will be the only way to\n"
 "                identify the key once created"
 msgstr ""
+<<<<<<< HEAD
+=======
+"jer će to biti jedini način za\n"
+"                identifikaciju ključa nakon što bude kreiran."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript

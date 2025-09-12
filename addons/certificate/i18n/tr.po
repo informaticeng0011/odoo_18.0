@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* certificate
 # 
+=======
+# * certificate
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Ediz Duman <neps1192@gmail.com>, 2024
 # Levent Karakaş <levent@mektup.at>, 2024
@@ -68,6 +73,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener, 2025
 >>>>>>> upstream/18.0
@@ -243,11 +249,16 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# "Deniz Guvener Unal (degu)" <degu@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -488,12 +499,28 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+=======
+"PO-Revision-Date: 2025-08-19 22:20+0000\n"
+"Last-Translator: \"Deniz Guvener Unal (degu)\" <degu@odoo.com>\n"
+"Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
+"certificate/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 msgid "A private key is required to decrypt data."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verilerin şifresini çözmek için özel anahtar gereklidir."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__active
@@ -504,12 +531,20 @@ msgstr "Etkin"
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Add, edit and delete certificates."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sertifika ekleyin, düzenleyin ve silin."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Add, edit and delete keys."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtar ekleyin, düzenleyin ve silin."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
@@ -520,17 +555,29 @@ msgstr "Arşivlendi"
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "Archived certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arşivlenmiş sertifikalar"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "Archived keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arşivlenmiş anahtarlar"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__date_start
 msgid "Available date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geçerlilik tarihi"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model,name:certificate.model_certificate_certificate
@@ -542,28 +589,48 @@ msgstr "Sertifika"
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__pkcs12_password
 msgid "Certificate Password"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sertifika Parolası"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__pem_certificate
 msgid "Certificate in PEM format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEM formatında sertifika"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__scope
 msgid "Certificate scope"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sertifika kapsamı"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.actions.act_window,name:certificate.certificate_certificate_action_view_list
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sertifikalar"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Certificates and Keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sertifikalar ve Anahtarlar"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__company_id
@@ -579,12 +646,20 @@ msgstr "Ülke Kodu"
 #. module: certificate
 #: model_terms:ir.actions.act_window,help:certificate.certificate_certificate_action_view_list
 msgid "Create a first certificate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İlk sertifikayı oluşturun"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.actions.act_window,help:certificate.certificate_key_action_view_list
 msgid "Create a first key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İlk anahtarı oluşturun"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__create_uid
@@ -605,7 +680,11 @@ msgid "Cryptographic Keys"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kriptografik Anahtarlar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kriptografik Anahtarlar"
 >>>>>>> upstream/18.0
@@ -622,7 +701,11 @@ msgstr "Kriptografik Anahtarlar"
 #. module: certificate
 #: model:ir.model.fields.selection,name:certificate.selection__certificate_certificate__content_format__der
 msgid "DER"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DER"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__display_name
@@ -691,7 +774,11 @@ msgid "Expiration date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Son kullanma tarihi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Son kullanma tarihi"
 >>>>>>> upstream/18.0
@@ -876,7 +963,11 @@ msgstr "Genel"
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "General certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genel sertifikalar"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__id
@@ -898,18 +989,30 @@ msgstr "Anahtar"
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__pem_key
 msgid "Key bytes in PEM format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEM formatında anahtar baytları"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__content
 msgid "Key file"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtar dosyası"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.actions.act_window,name:certificate.certificate_key_action_view_list
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtarlar"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__write_uid
@@ -927,23 +1030,39 @@ msgstr "Son Güncelleme"
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__loading_error
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__loading_error
 msgid "Loading error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yükleme hatası"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 msgid "Make sure to use a private key to sign documents."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Belgeleri imzalamak için özel anahtar kullandığınızdan emin olun."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Manage your certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sertifikalarınızı yönetin"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Manage your keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtarlarınızı yönetin"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__name
@@ -957,31 +1076,55 @@ msgstr "Adı"
 msgid ""
 "No private key linked to the certificate, it is required to sign documents."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Sertifikaya bağlı özel anahtar yok; belgeleri imzalamak için gereklidir."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "Not valid certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geçerli olmayan sertifikalar"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__content_format
 msgid "Original certificate format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Orijinal sertifika formatı"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields.selection,name:certificate.selection__certificate_certificate__content_format__pem
 msgid "PEM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEM"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields.selection,name:certificate.selection__certificate_certificate__content_format__pkcs12
 msgid "PKCS12"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PKCS12"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__pkcs12_password
 msgid "Password to decrypt the PKS file."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PKS dosyasının şifresini çözmek için parola."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
@@ -996,7 +1139,11 @@ msgstr "Özel Anahtar"
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__password
 msgid "Private key password"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Özel anahtar parolası"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
@@ -1011,28 +1158,48 @@ msgstr "Genel Anahtar"
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__public
 msgid "Public/Private key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Açık/Özel anahtar"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__serial_number
 msgid "Serial number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seri numarası"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__active
 msgid "Set active to false to archive the certificate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sertifikayı arşivlemek için aktif değerini “yanlış” olarak ayarlayın"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_key__active
 msgid "Set active to false to archive the key."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtarı arşivlemek için aktif değerini “yanlış” olarak ayarlayın."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__subject_common_name
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_list
 msgid "Subject Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Özne Adı"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__country_code
@@ -1047,27 +1214,44 @@ msgstr ""
 #. odoo-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "The certificate and private key are not compatible."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sertifika ile özel anahtar uyumlu değil."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "The certificate and public key are not compatible."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sertifika ile açık anahtar uyumlu değil."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__date_end
 msgid "The date on which the certificate expires (UTC)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sertifikanın sona erdiği tarih (UTC)"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__date_start
 msgid "The date on which the certificate starts to be valid (UTC)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sertifikanın geçerli olmaya başladığı tarih (UTC)"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1243,10 +1427,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 msgid "The key size should be at least 512 bytes."
 msgstr ""
+=======
+msgid "The key size should be at least 512 bytes."
+msgstr "Anahtar boyutu en az 512 bayt olmalıdır."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1421,10 +1610,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 msgid "The private key could not be loaded."
 msgstr ""
+=======
+msgid "The private key could not be loaded."
+msgstr "Özel anahtar yüklenemedi."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1600,10 +1794,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 msgid "The public exponent should be 65537 (or 3 for legacy purposes)."
 msgstr ""
+=======
+msgid "The public exponent should be 65537 (or 3 for legacy purposes)."
+msgstr "Açık üstel değer 65537 olmalıdır (eski sistemler için 3)."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1778,17 +1977,29 @@ msgstr ""
 >>>>>>> upstream/18.0
 msgid "The public key could not be loaded."
 msgstr ""
+=======
+msgid "The public key could not be loaded."
+msgstr "Açık anahtar yüklenemedi."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "The public key from the certificate could not be loaded."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sertifikadaki açık anahtar yüklenemedi."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__serial_number
 msgid "The serial number to add to electronic documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elektronik belgelere eklenecek seri numarası"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -1796,13 +2007,21 @@ msgstr ""
 msgid ""
 "This certificate could not be loaded. Either the content or the password is "
 "erroneous."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu sertifika yüklenemedi. İçerik veya parola hatalı."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "This certificate is not valid, its validity has expired."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu sertifika geçerli değil; geçerlilik süresi dolmuş."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -1810,7 +2029,11 @@ msgstr ""
 msgid ""
 "This key could not be loaded. Either its content or its password is "
 "erroneous."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu anahtar yüklenemedi. İçeriği veya parolası hatalı."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -1819,6 +2042,11 @@ msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported for "
 "decryption: RSA."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Desteklenmeyen asimetrik kriptografi algoritması '%s'. Şu anda şifre çözme "
+"için desteklenen: RSA."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -1827,6 +2055,11 @@ msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported for "
 "signature: EC and RSA."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Desteklenmeyen asimetrik kriptografi algoritması '%s'. Şu anda imza için "
+"desteklenenler: EC ve RSA."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -1835,6 +2068,11 @@ msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC,"
 " RSA."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Desteklenmeyen asimetrik kriptografi algoritması '%s'. Şu anda "
+"desteklenenler: EC, RSA."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__public_key_id
@@ -1843,6 +2081,14 @@ msgid ""
 "                When a public key is set this way, it will be used instead of the one in the certificate.\n"
 "             "
 msgstr ""
+<<<<<<< HEAD
+=======
+"Sertifikanın içinde yer alan açık anahtarın hatalı olduğu durumlarda açık "
+"anahtar atamak için kullanılır.\n"
+"                Bu şekilde bir açık anahtar atandığında, sertifikadaki "
+"yerine o kullanılacaktır.\n"
+"             "
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__is_valid
@@ -1853,7 +2099,11 @@ msgstr "Geçerli"
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "Valid certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geçerli sertifikalar"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_form
@@ -1864,34 +2114,62 @@ msgstr "Geçerlilik"
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_form
 msgid "certificate form"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "sertifika formu"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_list
 msgid "certificate list"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "sertifika listesi"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "certificate search"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "sertifika arama"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_form
 msgid "e.g. New Certificate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "örn. Yeni Sertifika"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_form
 msgid "key form"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "anahtar formu"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_list
 msgid "key list"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "anahtar listesi"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "key search"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "anahtar arama"
+>>>>>>> upstream/18.0

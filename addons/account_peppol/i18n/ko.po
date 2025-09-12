@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* account_peppol
 # 
 # Translators:
@@ -403,10 +404,21 @@
 # Sarah Park, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * account_peppol
+#
+# Translators:
+# Daye Jeong, 2025
+# Wil Odoo, 2025
+# Sarah Park, 2025
+#
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -812,6 +824,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"POT-Creation-Date: 2025-07-25 18:39+0000\n"
+"PO-Revision-Date: 2025-08-18 12:31+0000\n"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
+"Language-Team: Korean <https://translate.odoo.com/projects/odoo-18/"
+"account_peppol/ko/>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -853,6 +878,7 @@ msgstr "%s가 Peppol에서 전자 청구서 수신을 요청하였습니다."
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1066,6 +1092,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                In Belgium, electronic invoicing is <u>mandatory as of January 2026</u> - don't wait to register."
 msgstr ""
 "<br/>\n"
@@ -1109,6 +1137,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1241,6 +1272,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " If you have previously registered to an alternative Peppol service, please "
 "deregister from that service, or request a migration key before trying "
 "again. "
@@ -1282,6 +1314,11 @@ msgstr ""
 =======
 " If you have previously registered to a Peppol service, please deregister."
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+" If you have previously registered to a Peppol service, please deregister."
+msgstr ""
+"해당 정보로 사용자가 이미 네트워크에 등록되어 있습니다. 이전에 Peppol 서비스에 등록한 적이 있는 경우에는 등록을 취소하세요."
 >>>>>>> upstream/18.0
 =======
 " If you have previously registered to a Peppol service, please deregister."
@@ -1562,6 +1599,11 @@ msgstr "협력사 확인"
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__peppol_eas
 #: model:ir.model.fields,help:account_peppol.field_res_company__peppol_eas
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_eas
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:account_peppol.field_res_partner__peppol_eas
+#: model:ir.model.fields,help:account_peppol.field_res_users__peppol_eas
+>>>>>>> upstream/18.0
 msgid ""
 "Code used to identify the Endpoint for BIS Billing 3.0 and its derivatives.\n"
 "             List available at https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
@@ -1804,7 +1846,10 @@ msgstr "오류"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2006,6 +2051,9 @@ msgstr "EDI 문서 생성 중 오류 발생 (형식: %s):"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2248,6 +2296,7 @@ msgstr "Peppol 청구서를 받으려면 설정이 유효한지 확인하세요.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "In Belgium, electronic invoicing will be <u>mandatory as of January "
@@ -2255,6 +2304,8 @@ msgid ""
 msgstr "벨기에에서는 <u>2026년 1월부터 전자 청구서</u>가 의무화됩니다."
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2457,6 +2508,14 @@ msgid "Odoo"
 msgstr "Odoo"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_eas__odemo
+msgid "Odoo Demo ID"
+msgstr "Odoo 데모용 ID"
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Odoo keeps you up to date with the new regulation."
@@ -2578,6 +2637,7 @@ msgstr "PEPPOL: 참가자 상태 업데이트"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "PS: <b style=\"color: $o-enterprise-action-color;\">We did not send your "
@@ -2596,6 +2656,8 @@ msgstr ""
 "발송</b>되었습니다."
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2797,7 +2859,10 @@ msgstr "Peppol Endpoint"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2998,6 +3063,9 @@ msgstr "Peppol ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3169,6 +3237,11 @@ msgstr "페폴 전자 주소 (EAS)"
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__peppol_eas
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_eas
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_eas
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_eas
+#: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_eas
+>>>>>>> upstream/18.0
 msgid "Peppol e-address (EAS)"
 msgstr "Peppol 전자 주소 (EAS)"
 
@@ -3473,6 +3546,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This feature is deprecated. Contact odoo support if you need a migration "
 "key."
 msgstr "이 기능은 더 이상 사용되지 않습니다. 마이그레이션 키가 필요한 경우 Odoo 지원팀에 문의하십시오."
@@ -3683,6 +3757,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This feature is deprecated. Contact Odoo support if you need a migration "
 "key."
 msgstr "더 이상 지원되지 않는 기능입니다. 마이그레이션 키가 필요한 경우 Odoo 지원팀에 문의하세요."
@@ -3712,6 +3788,9 @@ msgstr "더 이상 지원되지 않는 기능입니다. 마이그레이션 키�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3811,6 +3890,9 @@ msgstr "또한 이 청구서는"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4163,6 +4245,7 @@ msgstr "by Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "invoices and credit notes."
 msgstr "청구서 및 대변 전표."
@@ -4198,6 +4281,11 @@ msgstr "청구서 및 대변 전표."
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
+msgid "could not be sent via Peppol"
+msgstr "Peppol을 통해 전송 불가"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
@@ -4474,7 +4562,11 @@ msgid "sent via Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEPPOL을 통해 전송"
+>>>>>>> upstream/18.0
 =======
 msgstr "PEPPOL을 통해 전송"
 >>>>>>> upstream/18.0
@@ -4678,7 +4770,11 @@ msgid "to send invoices, but this one"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "청구서 전송, 다만 이 건은"
+>>>>>>> upstream/18.0
 =======
 msgstr "청구서 전송, 다만 이 건은"
 >>>>>>> upstream/18.0
@@ -4867,6 +4963,7 @@ msgid "uses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4874,6 +4971,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "사용"
 >>>>>>> upstream/18.0
 =======
 msgstr "사용"

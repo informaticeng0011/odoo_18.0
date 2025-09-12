@@ -846,6 +846,11 @@ class Picking(models.Model):
     @api.depends('move_ids.state', 'move_ids.date', 'move_type')
     def _compute_scheduled_date(self):
         for picking in self:
+<<<<<<< HEAD
+=======
+            if not picking.id:
+                continue
+>>>>>>> upstream/18.0
             moves_dates = picking.move_ids.filtered(lambda move: move.state not in ('done', 'cancel')).mapped('date')
             if picking.move_type == 'direct':
                 picking.scheduled_date = min(moves_dates, default=picking.scheduled_date or fields.Datetime.now())
@@ -1464,6 +1469,10 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self = self.filtered(lambda p: p.state != 'done')
+>>>>>>> upstream/18.0
 =======
         self = self.filtered(lambda p: p.state != 'done')
 >>>>>>> upstream/18.0
@@ -1892,7 +1901,10 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2101,6 +2113,9 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2308,6 +2323,7 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 moves_to_backorder = picking.move_ids.filtered(lambda x: x.state not in ('done', 'cancel'))
             moves_to_backorder._recompute_state()
             if moves_to_backorder:
@@ -2318,6 +2334,8 @@ class Picking(models.Model):
                     'backorder_id': picking.id
                 })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2517,6 +2535,9 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

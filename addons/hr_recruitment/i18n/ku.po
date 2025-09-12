@@ -1,14 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_recruitment
+<<<<<<< HEAD
 # 
 # Translators:
 # Raz Omer Hussein, 2025
 # 
+=======
+#
+# Translators:
+# Raz Omer Hussein, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,6 +289,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: ku\n"
+=======
+"POT-Creation-Date: 2025-08-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Raz Omer Hussein, 2025\n"
+"Language-Team: Kurdish (https://app.transifex.com/odoo/teams/41243/ku/)\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: hr_recruitment
@@ -333,12 +351,24 @@ msgstr ""
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" title=\"Company\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" "
+"title=\"Company\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" "
+"title=\"Alias\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -350,8 +380,13 @@ msgstr ""
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.applicant_get_refuse_reason_view_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"mx-2\" style=\"padding-top: 1px; padding-bottom: "
 "1px;\">to</span>"
+=======
+"<span class=\"mx-2\" style=\"padding-top: 1px; padding-bottom: 1px;\">to</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -374,10 +409,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form
 msgid ""
 "<span invisible=\"not is_warning_visible\">\n"
+<<<<<<< HEAD
 "                                <span class=\"fa fa-exclamation-triangle text-danger ps-3\">\n"
 "                                </span>\n"
 "                                <span class=\"text-danger\">\n"
 "                                    All applications will lose their hired date and hired status.\n"
+=======
+"                                <span class=\"fa fa-exclamation-triangle "
+"text-danger ps-3\">\n"
+"                                </span>\n"
+"                                <span class=\"text-danger\">\n"
+"                                    All applications will lose their hired "
+"date and hired status.\n"
+>>>>>>> upstream/18.0
 "                                </span>\n"
 "                            </span>"
 msgstr ""
@@ -467,7 +511,11 @@ msgid "<span>New</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>نوێ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>نوێ</span>"
 >>>>>>> upstream/18.0
@@ -760,7 +808,11 @@ msgid "<span>Reporting</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ڕاپۆرتکردن</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ڕاپۆرتکردن</span>"
 >>>>>>> upstream/18.0
@@ -1053,7 +1105,11 @@ msgid "<span>View</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>بینین</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>بینین</span>"
 >>>>>>> upstream/18.0
@@ -1274,12 +1330,19 @@ msgstr "<span>بینین</span>"
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.email_template_data_applicant_congratulations
 msgid ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"background-color: white; border-collapse: collapse; margin-left: 20px;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"background-color: white; border-collapse: collapse; margin-left: "
+"20px;\">\n"
+>>>>>>> upstream/18.0
 "    <tr>\n"
 "        <td valign=\"top\" style=\"padding: 0px 10px;\">\n"
 "            <div style=\"font-size: 13px; margin: 0px; padding: 0px;\">\n"
 "                Hello,\n"
 "                <br/><br/>\n"
+<<<<<<< HEAD
 "                We confirm we successfully received your application for the job\n"
 "                \"<a t-att-href=\"hasattr(object.job_id, 'website_url') and object.job_id.website_url or ''\" style=\"color:#9A6C8E;\"><strong t-out=\"object.job_id.name or ''\">Experienced Developer</strong></a>\" at <strong t-out=\"object.company_id.name or ''\">YourCompany</strong>.\n"
 "                <br/><br/>\n"
@@ -1302,10 +1365,52 @@ msgid ""
 "\n"
 "                <h3 style=\"color:#9A6C8E;\"><strong>What is the next step?</strong></h3>\n"
 "                We usually <strong>answer applications within a few days.</strong><br/><br/>\n"
+=======
+"                We confirm we successfully received your application for the "
+"job\n"
+"                \"<a t-att-href=\"hasattr(object.job_id, 'website_url') and "
+"object.job_id.website_url or ''\" style=\"color:#9A6C8E;\"><strong t-"
+"out=\"object.job_id.name or ''\">Experienced Developer</strong></a>\" at "
+"<strong t-out=\"object.company_id.name or ''\">YourCompany</strong>.\n"
+"                <br/><br/>\n"
+"                We will come back to you shortly.\n"
+"\n"
+"                <div t-if=\"'website_url' in object.job_id and "
+"object.job_id.website_url\" style=\"padding: 16px 8px 16px 8px;\">\n"
+"                    <a t-att-href=\"object.job_id.website_url\" "
+"style=\"background-color: #875a7b; text-decoration: none; color: #fff; "
+"padding: 8px 16px 8px 16px; border-radius: 5px;\">Job Description</a>\n"
+"                </div>\n"
+"\n"
+"                <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;\"/>\n"
+"                <t t-if=\"object.user_id\">\n"
+"                    <h3 style=\"color:#9A6C8E;\"><strong>Your Contact:</"
+"strong></h3>\n"
+"                    <p>\n"
+"                        <strong t-out=\"object.user_id.name or ''\">Mitchell "
+"Admin</strong><br/>\n"
+"                        <span>Email: <t t-out=\"object.user_id.email or "
+"''\">admin@yourcompany.example.com</t></span><br/>\n"
+"                        <span>Phone: <t t-out=\"object.user_id.phone or "
+"''\">+1 650-123-4567</t></span>\n"
+"                    </p>\n"
+"                    <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;\"/>\n"
+"                </t>\n"
+"\n"
+"                <h3 style=\"color:#9A6C8E;\"><strong>What is the next step?</"
+"strong></h3>\n"
+"                We usually <strong>answer applications within a few days.</"
+"strong><br/><br/>\n"
+>>>>>>> upstream/18.0
 "                Feel free to <strong>contact us if you want a faster\n"
 "                feedback</strong> or if you don't get news from us\n"
 "                quickly enough (just reply to this email).\n"
 "\n"
+<<<<<<< HEAD
 "                <hr width=\"97%\" style=\"background-color: rgb(204,204,204); border: medium none; clear: both; display: block; font-size: 0px; min-height: 1px; line-height: 0; margin: 17px 0px 16px 0px;\"/>\n"
 "                <t t-set=\"location\" t-value=\"''\"/>\n"
 "                <t t-if=\"object.job_id.address_id.name\">\n"
@@ -1335,6 +1440,52 @@ msgid ""
 "                <t t-if=\"object.job_id.address_id.country_id.name\">\n"
 "                    <t t-out=\"object.job_id.address_id.country_id.name or ''\">Argentina</t><br/>\n"
 "                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.job_id.address_id.country_id.name)\"/>\n"
+=======
+"                <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 17px 0px 16px 0px;\"/>\n"
+"                <t t-set=\"location\" t-value=\"''\"/>\n"
+"                <t t-if=\"object.job_id.address_id.name\">\n"
+"                    <strong t-out=\"object.job_id.address_id.name or "
+"''\">Teksa SpA</strong><br/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.street\">\n"
+"                    <t t-out=\"object.job_id.address_id.street or "
+"''\">Puerto Madero 9710</t><br/>\n"
+"                    <t t-set=\"location\" t-"
+"value=\"object.job_id.address_id.street\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.street2\">\n"
+"                    <t t-out=\"object.job_id.address_id.street2 or ''\">Of "
+"A15, Santiago (RM)</t><br/>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.street2)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.city\">\n"
+"                    <t t-out=\"object.job_id.address_id.city or "
+"''\">Pudahuel</t>,\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.city)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.state_id.name\">\n"
+"                    <t t-out=\"object.job_id.address_id.state_id.name or "
+"''\">C1</t>,\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.state_id.name)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.zip\">\n"
+"                    <t t-out=\"object.job_id.address_id.zip or ''\">98450</"
+"t>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.zip)\"/>\n"
+"                </t>\n"
+"                <br/>\n"
+"                <t t-if=\"object.job_id.address_id.country_id.name\">\n"
+"                    <t t-out=\"object.job_id.address_id.country_id.name or "
+"''\">Argentina</t><br/>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.country_id.name)\"/>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "                <br/>\n"
 "            </div>\n"
@@ -1346,12 +1497,23 @@ msgstr ""
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.email_template_data_applicant_interest
 msgid ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"background-color: white; border-collapse: collapse; margin-left: 20px;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"background-color: white; border-collapse: collapse; margin-left: "
+"20px;\">\n"
+>>>>>>> upstream/18.0
 "    <tr>\n"
 "        <td valign=\"top\" style=\"padding: 0px 10px;\">\n"
 "            <div style=\"text-align: center\">\n"
 "                <h2>Congratulations!</h2>\n"
+<<<<<<< HEAD
 "                <div style=\"color:grey;\">Your resume has been positively reviewed.</div>\n"
+=======
+"                <div style=\"color:grey;\">Your resume has been positively "
+"reviewed.</div>\n"
+>>>>>>> upstream/18.0
 "            </div>\n"
 "            <div style=\"font-size: 13px; margin: 0px; padding: 0px;\">\n"
 "                We just reviewed your resume, and it caught our\n"
@@ -1359,21 +1521,39 @@ msgid ""
 "                position, your application has been short listed for a\n"
 "                call or an interview.\n"
 "                <br/><br/>\n"
+<<<<<<< HEAD
 "                <div t-if=\"'website_url' in object.job_id and object.job_id.website_url\" style=\"padding: 16px 8px 16px 8px;\">\n"
 "                    <a t-att-href=\"object.job_id.website_url\" style=\"background-color: #875a7b; text-decoration: none; color: #fff; padding: 8px 16px 8px 16px; border-radius: 5px;\">Job Description</a>\n"
+=======
+"                <div t-if=\"'website_url' in object.job_id and "
+"object.job_id.website_url\" style=\"padding: 16px 8px 16px 8px;\">\n"
+"                    <a t-att-href=\"object.job_id.website_url\" "
+"style=\"background-color: #875a7b; text-decoration: none; color: #fff; "
+"padding: 8px 16px 8px 16px; border-radius: 5px;\">Job Description</a>\n"
+>>>>>>> upstream/18.0
 "                </div>\n"
 "\n"
 "                <t t-if=\"object.user_id\">\n"
 "                    You will soon be contacted by:<br/>\n"
+<<<<<<< HEAD
 "                    <strong t-out=\"object.user_id.name or ''\">Mitchell Admin</strong><br/>\n"
 "                    <span>Email: <t t-out=\"object.user_id.email or ''\">admin@yourcompany.example.com</t></span><br/>\n"
 "                    <span>Phone: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t></span>\n"
+=======
+"                    <strong t-out=\"object.user_id.name or ''\">Mitchell "
+"Admin</strong><br/>\n"
+"                    <span>Email: <t t-out=\"object.user_id.email or "
+"''\">admin@yourcompany.example.com</t></span><br/>\n"
+"                    <span>Phone: <t t-out=\"object.user_id.phone or ''\">+1 "
+"650-123-4567</t></span>\n"
+>>>>>>> upstream/18.0
 "                    <br/><br/>\n"
 "                </t>\n"
 "                See you soon,\n"
 "                <div style=\"font-size: 11px; color: grey;\">\n"
 "                    -- <br/>\n"
 "                    The HR Team\n"
+<<<<<<< HEAD
 "                    <t t-if=\"'website_url' in object.job_id and hasattr(object.job_id, 'website_url') and object.job_id.website_url\">\n"
 "                        Discover <a href=\"/jobs\" style=\"text-decoration:none;color:#717188;\">all our jobs</a>.<br/>\n"
 "                    </t>\n"
@@ -1382,6 +1562,22 @@ msgid ""
 "                <hr width=\"97%\" style=\"background-color: rgb(204,204,204); border: medium none; clear: both; display: block; font-size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;\"/>\n"
 "                <h3 style=\"color:#9A6C8E;\"><strong>What is the next step?</strong></h3>\n"
 "                We usually <strong>answer applications within a few days</strong>.\n"
+=======
+"                    <t t-if=\"'website_url' in object.job_id and "
+"hasattr(object.job_id, 'website_url') and object.job_id.website_url\">\n"
+"                        Discover <a href=\"/jobs\" style=\"text-"
+"decoration:none;color:#717188;\">all our jobs</a>.<br/>\n"
+"                    </t>\n"
+"                </div>\n"
+"\n"
+"                <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;\"/>\n"
+"                <h3 style=\"color:#9A6C8E;\"><strong>What is the next step?</"
+"strong></h3>\n"
+"                We usually <strong>answer applications within a few days</"
+"strong>.\n"
+>>>>>>> upstream/18.0
 "                <br/><br/>\n"
 "                The next step is either a call or a meeting in our offices.\n"
 "                <br/>\n"
@@ -1390,6 +1586,7 @@ msgid ""
 "                quickly enough (just reply to this email).\n"
 "                <br/>\n"
 "\n"
+<<<<<<< HEAD
 "                <hr width=\"97%\" style=\"background-color: rgb(204,204,204); border: medium none; clear: both; display: block; font-size: 0px; min-height: 1px; line-height: 0; margin: 17px 0px 16px 0px;\"/>\n"
 "                <t t-set=\"location\" t-value=\"''\"/>\n"
 "                <t t-if=\"object.job_id.address_id.name\">\n"
@@ -1419,6 +1616,52 @@ msgid ""
 "                <t t-if=\"object.job_id.address_id.country_id.name\">\n"
 "                    <t t-out=\"object.job_id.address_id.country_id.name or ''\">Argentina</t><br/>\n"
 "                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.job_id.address_id.country_id.name)\"/>\n"
+=======
+"                <hr width=\"97%\" style=\"background-color: "
+"rgb(204,204,204); border: medium none; clear: both; display: block; font-"
+"size: 0px; min-height: 1px; line-height: 0; margin: 17px 0px 16px 0px;\"/>\n"
+"                <t t-set=\"location\" t-value=\"''\"/>\n"
+"                <t t-if=\"object.job_id.address_id.name\">\n"
+"                    <strong t-out=\"object.job_id.address_id.name or "
+"''\">Teksa SpA</strong><br/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.street\">\n"
+"                    <t t-out=\"object.job_id.address_id.street or "
+"''\">Puerto Madero 9710</t><br/>\n"
+"                    <t t-set=\"location\" t-"
+"value=\"object.job_id.address_id.street\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.street2\">\n"
+"                    <t t-out=\"object.job_id.address_id.street2 or ''\">Of "
+"A15, Santiago (RM)</t><br/>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.street2)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.city\">\n"
+"                    <t t-out=\"object.job_id.address_id.city or "
+"''\">Pudahuel</t>,\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.city)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.state_id.name\">\n"
+"                    <t t-out=\"object.job_id.address_id.state_id.name or "
+"''\">C1</t>,\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.state_id.name)\"/>\n"
+"                </t>\n"
+"                <t t-if=\"object.job_id.address_id.zip\">\n"
+"                    <t t-out=\"object.job_id.address_id.zip or ''\">98450</"
+"t>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.zip)\"/>\n"
+"                </t>\n"
+"                <br/>\n"
+"                <t t-if=\"object.job_id.address_id.country_id.name\">\n"
+"                    <t t-out=\"object.job_id.address_id.country_id.name or "
+"''\">Argentina</t><br/>\n"
+"                    <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.country_id.name)\"/>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "                <br/>\n"
 "            </div>\n"
@@ -1430,18 +1673,30 @@ msgstr ""
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.email_template_data_applicant_not_interested
 msgid ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; "
+"border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "    <tr>\n"
 "        <td valign=\"top\">\n"
 "            <div style=\"font-size: 13px; margin: 0px; padding: 0px;\">\n"
 "                Dear,<br/><br/>\n"
+<<<<<<< HEAD
 "                We would like to thank you for your interest and your time.<br/>\n"
+=======
+"                We would like to thank you for your interest and your time."
+"<br/>\n"
+>>>>>>> upstream/18.0
 "                We wish you all the best in your future endeavors.\n"
 "                <br/><br/>\n"
 "                Best<br/>\n"
 "                <div style=\"font-size: 11px; color: grey;\">\n"
 "                    <t t-if=\"object.user_id\">\n"
 "                        -- <br/>\n"
+<<<<<<< HEAD
 "                        <strong t-out=\"object.user_id.name or ''\">Marc Demo</strong><br/>\n"
 "                        Email: <t t-out=\"object.user_id.email or ''\">mark.brown23@example.com</t><br/>\n"
 "                        Phone: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t>\n"
@@ -1449,6 +1704,19 @@ msgid ""
 "                    <t t-else=\"\">\n"
 "                        -- <br/>\n"
 "                        <t t-out=\"object.company_id.name or ''\">YourCompany</t><br/>\n"
+=======
+"                        <strong t-out=\"object.user_id.name or ''\">Marc "
+"Demo</strong><br/>\n"
+"                        Email: <t t-out=\"object.user_id.email or "
+"''\">mark.brown23@example.com</t><br/>\n"
+"                        Phone: <t t-out=\"object.user_id.phone or ''\">+1 "
+"650-123-4567</t>\n"
+"                    </t>\n"
+"                    <t t-else=\"\">\n"
+"                        -- <br/>\n"
+"                        <t t-out=\"object.company_id.name or "
+"''\">YourCompany</t><br/>\n"
+>>>>>>> upstream/18.0
 "                        The HR Team<br/>\n"
 "                    </t>\n"
 "                </div>\n"
@@ -1462,13 +1730,24 @@ msgstr ""
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.email_template_data_applicant_refuse
 msgid ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; "
+"border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "    <tr>\n"
 "        <td valign=\"top\">\n"
 "            <div style=\"font-size: 13px; margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
 "                Thank you for your interest in joining the\n"
+<<<<<<< HEAD
 "                <b><t t-out=\"object.company_id.name or ''\">YourCompany</t></b> team.  We\n"
+=======
+"                <b><t t-out=\"object.company_id.name or ''\">YourCompany</"
+"t></b> team.  We\n"
+>>>>>>> upstream/18.0
 "                wanted to let you know that, although your resume is\n"
 "                competitive, our hiring team reviewed your application\n"
 "                and <b>did not select it for further consideration</b>.\n"
@@ -1490,6 +1769,7 @@ msgid ""
 "                <div style=\"font-size: 11px; color: grey;\">\n"
 "                    <t t-if=\"object.user_id\">\n"
 "                        -- <br/>\n"
+<<<<<<< HEAD
 "                        <strong t-out=\"object.user_id.name or ''\">Mitchell Admin</strong><br/>\n"
 "                        Email: <t t-out=\"object.user_id.email or ''\">admin@yourcompany.example.com</t><br/>\n"
 "                        Phone: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t>\n"
@@ -1497,6 +1777,19 @@ msgid ""
 "                    <t t-else=\"\">\n"
 "                        -- <br/>\n"
 "                        <t t-out=\"object.company_id.name or ''\">YourCompany</t><br/>\n"
+=======
+"                        <strong t-out=\"object.user_id.name or ''\">Mitchell "
+"Admin</strong><br/>\n"
+"                        Email: <t t-out=\"object.user_id.email or "
+"''\">admin@yourcompany.example.com</t><br/>\n"
+"                        Phone: <t t-out=\"object.user_id.phone or ''\">+1 "
+"650-123-4567</t>\n"
+"                    </t>\n"
+"                    <t t-else=\"\">\n"
+"                        -- <br/>\n"
+"                        <t t-out=\"object.company_id.name or "
+"''\">YourCompany</t><br/>\n"
+>>>>>>> upstream/18.0
 "                        The HR Team\n"
 "                    </t>\n"
 "                </div>\n"
@@ -1587,7 +1880,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کردەوەی پێویستە"
+>>>>>>> upstream/18.0
 =======
 msgstr "کردەوەی پێویستە"
 >>>>>>> upstream/18.0
@@ -1870,7 +2167,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاک"
+>>>>>>> upstream/18.0
 =======
 msgstr "چالاک"
 >>>>>>> upstream/18.0
@@ -2154,7 +2455,11 @@ msgid "Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاکیەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "چالاکیەکان"
 >>>>>>> upstream/18.0
@@ -2463,7 +2768,11 @@ msgid "Activity State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دۆخی چالاکییەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "دۆخی چالاکییەکان"
 >>>>>>> upstream/18.0
@@ -2745,7 +3054,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئایکۆنی جۆری چالاکیی"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئایکۆنی جۆری چالاکیی"
 >>>>>>> upstream/18.0
@@ -3055,7 +3368,11 @@ msgid "Administrator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کارگێڕ"
+>>>>>>> upstream/18.0
 =======
 msgstr "کارگێڕ"
 >>>>>>> upstream/18.0
@@ -3336,7 +3653,11 @@ msgid "Alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناوی نادیار"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناوی نادیار"
 >>>>>>> upstream/18.0
@@ -3642,7 +3963,11 @@ msgid "Alias Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناوی نادیار"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناوی نادیار"
 >>>>>>> upstream/18.0
@@ -3877,6 +4202,14 @@ msgid "All Applications"
 msgstr ""
 
 #. module: hr_recruitment
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__allowed_user_ids
+msgid "Allowed User"
+msgstr ""
+
+#. module: hr_recruitment
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
 msgid "Analysis"
 msgstr ""
@@ -3950,8 +4283,15 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
+<<<<<<< HEAD
 "Applicants and their attached résumé are created automatically when an email is sent.\n"
 "                If you install the document management modules, all resumes are indexed automatically,\n"
+=======
+"Applicants and their attached résumé are created automatically when an email "
+"is sent.\n"
+"                If you install the document management modules, all resumes "
+"are indexed automatically,\n"
+>>>>>>> upstream/18.0
 "                so that you can easily search through their content."
 msgstr ""
 
@@ -4021,7 +4361,11 @@ msgid "Archive"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەرشیف"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەرشیف"
 >>>>>>> upstream/18.0
@@ -4119,7 +4463,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەرشیف کراوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەرشیف کراوە"
 >>>>>>> upstream/18.0
@@ -4334,8 +4682,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_recruitment/wizard/applicant_refuse_reason.py:0
 msgid ""
+<<<<<<< HEAD
 "At least one applicant doesn't have a email; you can't use send email "
 "option."
+=======
+"At least one applicant doesn't have a email; you can't use send email option."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -4408,7 +4760,11 @@ msgid "Attach a file"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فایلێک هاوپێچ بکە"
+>>>>>>> upstream/18.0
 =======
 msgstr "فایلێک هاوپێچ بکە"
 >>>>>>> upstream/18.0
@@ -4678,7 +5034,11 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی هاوپێچەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی هاوپێچەکان"
 >>>>>>> upstream/18.0
@@ -4950,7 +5310,11 @@ msgid "Attachments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هاوپێچەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "هاوپێچەکان"
 >>>>>>> upstream/18.0
@@ -5226,7 +5590,11 @@ msgid "Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەردەست بوون"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەردەست بوون"
 >>>>>>> upstream/18.0
@@ -5545,7 +5913,11 @@ msgid "Blocked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بلۆک کراوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "بلۆک کراوە"
 >>>>>>> upstream/18.0
@@ -5946,7 +6318,11 @@ msgid "Cancel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕەتکردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕەتکردنەوە"
 >>>>>>> upstream/18.0
@@ -6371,7 +6747,11 @@ msgid "Companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کۆمپانیاکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "کۆمپانیاکان"
 >>>>>>> upstream/18.0
@@ -6731,7 +7111,11 @@ msgid "Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کۆمپانیا"
+>>>>>>> upstream/18.0
 =======
 msgstr "کۆمپانیا"
 >>>>>>> upstream/18.0
@@ -7124,7 +7508,11 @@ msgid "Contents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناوەڕۆک"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناوەڕۆک"
 >>>>>>> upstream/18.0
@@ -7502,7 +7890,11 @@ msgid "Create"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکردن"
 >>>>>>> upstream/18.0
@@ -7897,7 +8289,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لەلایەن..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکراوە لەلایەن..."
 >>>>>>> upstream/18.0
@@ -8263,7 +8659,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لە"
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکراوە لە"
 >>>>>>> upstream/18.0
@@ -8568,7 +8968,11 @@ msgid "Creation Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەرواری دروستکردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەرواری دروستکردن"
 >>>>>>> upstream/18.0
@@ -8766,7 +9170,11 @@ msgid "Default Values"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەهاکانی پێشوەختە"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەهاکانی پێشوەختە"
 >>>>>>> upstream/18.0
@@ -8986,7 +9394,12 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_recruitment.hr_job_stage_act
 msgid ""
 "Define here your stages of the recruitment process, for example:\n"
+<<<<<<< HEAD
 "                    qualification call, first interview, second interview, refused,\n"
+=======
+"                    qualification call, first interview, second interview, "
+"refused,\n"
+>>>>>>> upstream/18.0
 "                    hired."
 msgstr ""
 
@@ -9046,7 +9459,11 @@ msgid "Delete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "سڕینەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "سڕینەوە"
 >>>>>>> upstream/18.0
@@ -9179,7 +9596,11 @@ msgid "Departments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەشەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەشەکان"
 >>>>>>> upstream/18.0
@@ -9343,7 +9764,11 @@ msgid "Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "وەسف"
+>>>>>>> upstream/18.0
 =======
 msgstr "وەسف"
 >>>>>>> upstream/18.0
@@ -9638,7 +10063,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕەتکردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕەتکردنەوە"
 >>>>>>> upstream/18.0
@@ -9887,7 +10316,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__document_ids
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_job_survey
 msgid "Documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەڵگەنامەکان"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:hr.applicant.refuse.reason,name:hr_recruitment.refuse_reason_1
@@ -9954,7 +10387,11 @@ msgid "Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئیمەیڵ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئیمەیڵ"
 >>>>>>> upstream/18.0
@@ -10100,7 +10537,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__employee_id
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_candidate__employee_id
 msgid "Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کارمەند"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__emp_is_active
@@ -10128,7 +10569,11 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.ui.menu,name:hr_recruitment.menu_hr_recruitment_config_employees
 msgid "Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کارمەندان"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.ui.menu,name:hr_recruitment.menu_hr_recruitment_contract_type
@@ -10166,7 +10611,11 @@ msgstr ""
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_search
 msgid "Extended Filters"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فلتەرە درێژکراوەکان"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__extended_interviewer_ids
@@ -10270,7 +10719,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فۆڵۆوەرەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "فۆڵۆوەرەکان"
 >>>>>>> upstream/18.0
@@ -10520,7 +10973,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فۆڵۆوەرەکان (هاوبەشەکان)"
+>>>>>>> upstream/18.0
 =======
 msgstr "فۆڵۆوەرەکان (هاوبەشەکان)"
 >>>>>>> upstream/18.0
@@ -10775,7 +11232,11 @@ msgid "Future Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاکییەکانی داهاتوو"
+>>>>>>> upstream/18.0
 =======
 msgstr "چالاکییەکانی داهاتوو"
 >>>>>>> upstream/18.0
@@ -11016,7 +11477,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_search_bis
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_candidate_view_search
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "گروپ لەلایەن..."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_source__has_domain
@@ -11058,7 +11523,11 @@ msgid "Has Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامە هەیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "نامە هەیە"
 >>>>>>> upstream/18.0
@@ -11157,8 +11626,13 @@ msgstr "نامە هەیە"
 #. odoo-python
 #: code:addons/hr_recruitment/models/hr_applicant.py:0
 msgid ""
+<<<<<<< HEAD
 "Have you tried to <a>add skills to your job position</a> and search into the"
 " Reserve ?"
+=======
+"Have you tried to <a>add skills to your job position</a> and search into the "
+"Reserve ?"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -11260,7 +11734,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -11448,8 +11926,13 @@ msgstr "ID"
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_parent_thread_id
 msgid ""
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -11517,7 +12000,11 @@ msgid "Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئایکۆن"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئایکۆن"
 >>>>>>> upstream/18.0
@@ -11767,7 +12254,11 @@ msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئایکۆن بۆ ئاماژەدان بە چالاکیەکی ئیستسناء."
+>>>>>>> upstream/18.0
 =======
 msgstr "ئایکۆن بۆ ئاماژەدان بە چالاکیەکی ئیستسناء."
 >>>>>>> upstream/18.0
@@ -12017,7 +12508,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەگەر پشکنینیان بۆ کرا، پەیامە نوێیەکان پێویستیان بە سەرنجی تۆ هەیە."
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەگەر پشکنینیان بۆ کرا، پەیامە نوێیەکان پێویستیان بە سەرنجی تۆ هەیە."
 >>>>>>> upstream/18.0
@@ -12269,7 +12764,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەگەر پشکنینیان بۆ کرا، هەندێک لە نامەکان هەڵەی گەیاندنیان هەیە."
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەگەر پشکنینیان بۆ کرا، هەندێک لە نامەکان هەڵەی گەیاندنیان هەیە."
 >>>>>>> upstream/18.0
@@ -12499,8 +12998,13 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_candidate__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -12621,7 +13125,11 @@ msgid "Is Follower"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فۆڵۆوەرە"
+>>>>>>> upstream/18.0
 =======
 msgstr "فۆڵۆوەرە"
 >>>>>>> upstream/18.0
@@ -12947,7 +13455,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوایین نوێکردنەوە لەلایەن..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دوایین نوێکردنەوە لەلایەن..."
 >>>>>>> upstream/18.0
@@ -13206,7 +13718,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوایین نوێکردنەوە لە..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دوایین نوێکردنەوە لە..."
 >>>>>>> upstream/18.0
@@ -13456,7 +13972,11 @@ msgid "Late Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاکییەکانی دواتر"
+>>>>>>> upstream/18.0
 =======
 msgstr "چالاکییەکانی دواتر"
 >>>>>>> upstream/18.0
@@ -13773,7 +14293,11 @@ msgid "Main Attachment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هاوپێچی سەرەکی"
+>>>>>>> upstream/18.0
 =======
 msgstr "هاوپێچی سەرەکی"
 >>>>>>> upstream/18.0
@@ -14060,7 +14584,11 @@ msgid "Menu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مێنۆ"
+>>>>>>> upstream/18.0
 =======
 msgstr "مێنۆ"
 >>>>>>> upstream/18.0
@@ -14298,7 +14826,11 @@ msgid "Message Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامەکە هەڵەی گەیاندنی تیایە"
+>>>>>>> upstream/18.0
 =======
 msgstr "نامەکە هەڵەی گەیاندنی تیایە"
 >>>>>>> upstream/18.0
@@ -14536,7 +15068,11 @@ msgid "Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامەکان "
+>>>>>>> upstream/18.0
 =======
 msgstr "نامەکان "
 >>>>>>> upstream/18.0
@@ -14779,7 +15315,11 @@ msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوا وادەی چالاکییەکانم"
+>>>>>>> upstream/18.0
 =======
 msgstr "دوا وادەی چالاکییەکانم"
 >>>>>>> upstream/18.0
@@ -15038,7 +15578,11 @@ msgid "Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناو"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناو"
 >>>>>>> upstream/18.0
@@ -15276,7 +15820,11 @@ msgid "New"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نوێ"
+>>>>>>> upstream/18.0
 =======
 msgstr "نوێ"
 >>>>>>> upstream/18.0
@@ -15495,13 +16043,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__activity_calendar_event_id
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_candidate__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاکییەکانی داهاتووی ڕووداوی ساڵنامە"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__activity_date_deadline
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_candidate__activity_date_deadline
 msgid "Next Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوا وادەی چالاکییەکانی داهاتوو"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__activity_summary
@@ -15565,7 +16121,11 @@ msgid "Next Activity Summary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پوختەی چالاکییەکانی داهاتوو"
+>>>>>>> upstream/18.0
 =======
 msgstr "پوختەی چالاکییەکانی داهاتوو"
 >>>>>>> upstream/18.0
@@ -15803,7 +16363,11 @@ msgid "Next Activity Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جۆری چالاکیی داهاتوو"
+>>>>>>> upstream/18.0
 =======
 msgstr "جۆری چالاکیی داهاتوو"
 >>>>>>> upstream/18.0
@@ -16031,7 +16595,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_applicant__priority__0
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_candidate__priority__0
 msgid "Normal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئاسایی"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__email_normalized
@@ -16097,7 +16665,11 @@ msgid "Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تێبینی"
+>>>>>>> upstream/18.0
 =======
 msgstr "تێبینی"
 >>>>>>> upstream/18.0
@@ -16323,7 +16895,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی کردارەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی کردارەکان"
 >>>>>>> upstream/18.0
@@ -16567,7 +17143,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی هەڵەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی هەڵەکان"
 >>>>>>> upstream/18.0
@@ -16799,7 +17379,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی ئەو نامانەی کە پێویستیان بە کردار هەیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی ئەو نامانەی کە پێویستیان بە کردار هەیە"
 >>>>>>> upstream/18.0
@@ -17025,7 +17609,11 @@ msgid "Number of messages with delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی ئەو نامانەی کە هەڵەی گەیاندنیان هەیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی ئەو نامانەی کە هەڵەی گەیاندنیان هەیە"
 >>>>>>> upstream/18.0
@@ -17197,7 +17785,12 @@ msgstr "ژمارەی ئەو نامانەی کە هەڵەی گەیاندنیان 
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
 "Odoo helps you track applicants in the recruitment\n"
+<<<<<<< HEAD
 "                process and follow up all operations: meetings, interviews, etc."
+=======
+"                process and follow up all operations: meetings, interviews, "
+"etc."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -17281,7 +17874,11 @@ msgid "Operation not supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئۆپەراسیۆنەکە پشتگیری ناکرێت"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئۆپەراسیۆنەکە پشتگیری ناکرێت"
 >>>>>>> upstream/18.0
@@ -17462,8 +18059,13 @@ msgstr ""
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -17506,8 +18108,13 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_parent_model_id
 msgid ""
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 "(parent_model) and task (model))"
 msgstr ""
 
@@ -17569,7 +18176,11 @@ msgid "Partner Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناوی هاوبەش"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناوی هاوبەش"
 >>>>>>> upstream/18.0
@@ -17771,7 +18382,11 @@ msgid "Phone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تەلەفۆن"
+>>>>>>> upstream/18.0
 =======
 msgstr "تەلەفۆن"
 >>>>>>> upstream/18.0
@@ -17888,7 +18503,12 @@ msgid ""
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -17984,7 +18604,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵسەنگاندنەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "هەڵسەنگاندنەکان"
 >>>>>>> upstream/18.0
@@ -18217,7 +18841,11 @@ msgid "Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هۆکار"
+>>>>>>> upstream/18.0
 =======
 msgstr "هۆکار"
 >>>>>>> upstream/18.0
@@ -18591,7 +19219,11 @@ msgid "Reporting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕاپۆرتکردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕاپۆرتکردن"
 >>>>>>> upstream/18.0
@@ -18817,7 +19449,11 @@ msgid "Responsible User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەکارهێنەری بەرپرسیار"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەکارهێنەری بەرپرسیار"
 >>>>>>> upstream/18.0
@@ -19004,7 +19640,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__message_has_sms_error
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_candidate__message_has_sms_error
 msgid "SMS Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵەی گەیاندنی کورتەنامە"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__salary_expected
@@ -19072,8 +19712,13 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__address_id
 msgid ""
+<<<<<<< HEAD
 "Select the location where the applicant will work. Addresses listed here are"
 " defined on the company's contact information."
+=======
+"Select the location where the applicant will work. Addresses listed here are "
+"defined on the company's contact information."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -19129,7 +19774,11 @@ msgid "Send"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناردن"
 >>>>>>> upstream/18.0
@@ -19319,7 +19968,11 @@ msgid "Send Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئیمەیڵ بنێرە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئیمەیڵ بنێرە"
 >>>>>>> upstream/18.0
@@ -19477,8 +20130,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.act_window,name:hr_recruitment.action_hr_applicant_mass_sms
 #: model:ir.actions.act_window,name:hr_recruitment.action_hr_candidate_mass_sms
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19696,7 +20352,11 @@ msgid "Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "زنجیرە"
+>>>>>>> upstream/18.0
 =======
 msgstr "زنجیرە"
 >>>>>>> upstream/18.0
@@ -19910,7 +20570,11 @@ msgid "Show all records which has next action date is before today"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەموو تۆمارەکان پیشان بدە کە بەرواری کارکردنی پێش ئەمڕۆیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "هەموو تۆمارەکان پیشان بدە کە بەرواری کارکردنی پێش ئەمڕۆیە"
 >>>>>>> upstream/18.0
@@ -20086,7 +20750,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__source_id
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_source__source_id
 msgid "Source"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "سەرچاوە"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_recruitment_source
@@ -20218,7 +20886,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20367,6 +21038,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20523,7 +21197,11 @@ msgid "Subject"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بابەت"
+>>>>>>> upstream/18.0
 =======
 msgstr "بابەت"
 >>>>>>> upstream/18.0
@@ -20724,7 +21402,11 @@ msgid "Tag Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناوی تاگ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناوی تاگ"
 >>>>>>> upstream/18.0
@@ -20937,7 +21619,11 @@ msgid "Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تاگەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "تاگەکان"
 >>>>>>> upstream/18.0
@@ -21105,8 +21791,13 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__user_id
 msgid ""
+<<<<<<< HEAD
 "The Recruiter will be the default value for all Applicants in this job"
 "             position. The Recruiter is automatically added to all meetings "
+=======
+"The Recruiter will be the default value for all Applicants Recruiter's field "
+"in this job position. The Recruiter is automatically added to all meetings "
+>>>>>>> upstream/18.0
 "with the Applicant."
 msgstr ""
 
@@ -21122,8 +21813,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_recruitment/models/hr_candidate.py:0
 msgid ""
+<<<<<<< HEAD
 "The candidate is linked to an employee, to avoid losing information, archive"
 " it instead."
+=======
+"The candidate is linked to an employee, to avoid losing information, archive "
+"it instead."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -21147,9 +21843,15 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_model_id
 msgid ""
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -21167,8 +21869,13 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_platform__regex
 msgid ""
+<<<<<<< HEAD
 "The regex facilitates to extract information from the subject or body of the"
 " received email to autopopulate the Applicant's name field"
+=======
+"The regex facilitates to extract information from the subject or body of the "
+"received email to autopopulate the Applicant's name field"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -21190,15 +21897,25 @@ msgstr ""
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__email_normalized
 #: model:ir.model.fields,help:hr_recruitment.field_hr_candidate__email_normalized
 msgid ""
+<<<<<<< HEAD
 "This field is used to search on email address as the primary email field can"
 " contain more than strictly an email address."
+=======
+"This field is used to search on email address as the primary email field can "
+"contain more than strictly an email address."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__campaign_id
 msgid ""
+<<<<<<< HEAD
 "This is a name that helps you keep track of your different campaign efforts,"
 " e.g. Fall_Drive, Christmas_Special"
+=======
+"This is a name that helps you keep track of your different campaign efforts, "
+"e.g. Fall_Drive, Christmas_Special"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -21281,7 +21998,11 @@ msgid "Today Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاکییەکانی ئەمڕۆ"
+>>>>>>> upstream/18.0
 =======
 msgstr "چالاکییەکانی ئەمڕۆ"
 >>>>>>> upstream/18.0
@@ -21450,7 +22171,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__activity_exception_decoration
 #: model:ir.model.fields,help:hr_recruitment.field_hr_candidate__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جۆری چالاکیی ئیستسنای تۆمارکراو."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_utm_campaign
@@ -21501,8 +22226,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.res_config_settings_view_form
 msgid ""
 "Use interview forms tailored to each job position during the recruitment "
+<<<<<<< HEAD
 "process. Select the form to use in the job position detail form. This relies"
 " on the Survey app."
+=======
+"process. Select the form to use in the job position detail form. This relies "
+"on the Survey app."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -21524,7 +22254,11 @@ msgstr ""
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_candidate_view_search
 msgid "Waiting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چاوەڕوان کردن"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_sources
@@ -21575,7 +22309,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پەیامەکانی ماڵپەڕ"
+>>>>>>> upstream/18.0
 =======
 msgstr "پەیامەکانی ماڵپەڕ"
 >>>>>>> upstream/18.0
@@ -21741,7 +22479,11 @@ msgid "Website communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مێژووی پەیوەندی ماڵپەڕ"
+>>>>>>> upstream/18.0
 =======
 msgstr "مێژووی پەیوەندی ماڵپەڕ"
 >>>>>>> upstream/18.0
@@ -21900,7 +22642,12 @@ msgstr ""
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form
 msgid ""
+<<<<<<< HEAD
 "You can define here the labels that will be displayed for the kanban state instead\n"
+=======
+"You can define here the labels that will be displayed for the kanban state "
+"instead\n"
+>>>>>>> upstream/18.0
 "                            of the default labels."
 msgstr ""
 
@@ -21916,7 +22663,12 @@ msgstr ""
 #: code:addons/hr_recruitment/wizard/applicant_refuse_reason.py:0
 msgid ""
 "You can't select Send email option.\n"
+<<<<<<< HEAD
 "The email will not be sent to the following applicant(s) as they don't have an email address:"
+=======
+"The email will not be sent to the following applicant(s) as they don't have "
+"an email address:"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment
@@ -21930,7 +22682,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_recruitment/models/utm_source.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete these UTM Sources as they are linked to the following recruitment sources in Recruitment:\n"
+=======
+"You cannot delete these UTM Sources as they are linked to the following "
+"recruitment sources in Recruitment:\n"
+>>>>>>> upstream/18.0
 "%(recruitment_sources)s"
 msgstr ""
 
@@ -22061,7 +22818,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بۆ نموونە. mycompany.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "بۆ نموونە. mycompany.com"
 >>>>>>> upstream/18.0
@@ -22220,7 +22981,11 @@ msgid "or"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "یان"
+>>>>>>> upstream/18.0
 =======
 msgstr "یان"
 >>>>>>> upstream/18.0

@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_self_order
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
@@ -26,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
@@ -84,10 +89,15 @@
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Ujjawal Pathak, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -210,6 +220,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: hi\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Ujjawal Pathak, 2025\n"
+"Language-Team: Hindi (https://app.transifex.com/odoo/teams/41243/hi/)\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_self_order
@@ -401,6 +421,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 >>>>>>> upstream/18.0
@@ -489,6 +513,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.js:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.js:0
 >>>>>>> upstream/18.0
@@ -619,7 +647,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्फ़िगरेशन सेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "कॉन्फ़िगरेशन सेटिंग"
 >>>>>>> upstream/18.0
@@ -705,7 +737,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -754,7 +790,11 @@ msgid "Current"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "करंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "करंट"
 >>>>>>> upstream/18.0
@@ -811,7 +851,11 @@ msgid "Default"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिफ़ॉल्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिफ़ॉल्ट"
 >>>>>>> upstream/18.0
@@ -875,7 +919,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_config__self_ordering_mode__nothing
 msgid "Disable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बंद करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "बंद करें"
 >>>>>>> upstream/18.0
@@ -900,7 +948,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खारिज करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "खारिज करें"
 >>>>>>> upstream/18.0
@@ -963,7 +1015,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -1042,8 +1098,15 @@ msgstr ""
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid ""
+<<<<<<< HEAD
 "Each table in your floor plan is assigned a unique QR code based on your configuration. For security reasons,\n"
 "                    both the point of sale and table names are encrypted in the generated URL, as shown in the example below:."
+=======
+"Each table in your floor plan is assigned a unique QR code based on your "
+"configuration. For security reasons,\n"
+"                    both the point of sale and table names are encrypted in "
+"the generated URL, as shown in the example below:."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_self_order
@@ -1060,6 +1123,16 @@ msgstr "संपादित"
 
 #. module: pos_self_order
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/overrides/components/qr_order_button/qr_order_button.js:0
+msgid ""
+"Enable QR menu in the Restaurant settings to get QR codes for free on tables."
+msgstr ""
+
+#. module: pos_self_order
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/pos_self_order/static/src/app/components/attribute_selection/attribute_selection.xml:0
 msgid "Enter your custom value"
 msgstr ""
@@ -1067,8 +1140,13 @@ msgstr ""
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid ""
+<<<<<<< HEAD
 "Feel free to use and print this QR code as many times as needed according to"
 " your requirements."
+=======
+"Feel free to use and print this QR code as many times as needed according to "
+"your requirements."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_self_order
@@ -1092,7 +1170,11 @@ msgid "Fiscal Position"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वित्तीय स्थिति"
+>>>>>>> upstream/18.0
 =======
 msgstr "वित्तीय स्थिति"
 >>>>>>> upstream/18.0
@@ -1147,6 +1229,21 @@ msgstr ""
 
 #. module: pos_self_order
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/overrides/components/qr_order_button/qr_order_button.xml:0
+msgid "Get QR Codes"
+msgstr ""
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/overrides/components/qr_order_button/qr_order_button.js:0
+msgid "Get QR codes"
+msgstr ""
+
+#. module: pos_self_order
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/pos_self_order/static/src/app/pages/stand_number_page/stand_number_page.xml:0
 msgid "Get a tracker and enter its number here"
 msgstr ""
@@ -1212,7 +1309,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -1280,8 +1381,15 @@ msgstr ""
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid ""
+<<<<<<< HEAD
 "If you need customized QR codes, start by scanning the relevant QR code to acquire the URL. Then, make\n"
 "                use of a QR code generator like https://www.qrcode-monkey.com or https://www.qr-code-generator.com"
+=======
+"If you need customized QR codes, start by scanning the relevant QR code to "
+"acquire the URL. Then, make\n"
+"                use of a QR code generator like https://www.qrcode-"
+"monkey.com or https://www.qr-code-generator.com"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_self_order
@@ -1312,7 +1420,11 @@ msgid "Inactive"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "निष्क्रि"
+>>>>>>> upstream/18.0
 =======
 msgstr "निष्क्रि"
 >>>>>>> upstream/18.0
@@ -1357,7 +1469,11 @@ msgid "Info"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जानकारी"
+>>>>>>> upstream/18.0
 =======
 msgstr "जानकारी"
 >>>>>>> upstream/18.0
@@ -1419,7 +1535,11 @@ msgid "Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लेबल"
+>>>>>>> upstream/18.0
 =======
 msgstr "लेबल"
 >>>>>>> upstream/18.0
@@ -1464,7 +1584,11 @@ msgid "Language"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भाषा"
+>>>>>>> upstream/18.0
 =======
 msgstr "भाषा"
 >>>>>>> upstream/18.0
@@ -1515,7 +1639,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -1560,7 +1688,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -1696,7 +1828,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_popup/product_info_popup.xml:0
 msgid "Not available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपलब्ध नहीं"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.product_template_search_view_pos
@@ -1766,7 +1902,11 @@ msgid "Pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चुकाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "चुकाएं"
 >>>>>>> upstream/18.0
@@ -1903,7 +2043,11 @@ msgid "Preview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रीव्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रीव्यू"
 >>>>>>> upstream/18.0
@@ -1976,6 +2120,10 @@ msgstr "उत्पाद"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 >>>>>>> upstream/18.0
@@ -2078,7 +2226,11 @@ msgid "QR Codes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्यूआर कोड"
+>>>>>>> upstream/18.0
 =======
 msgstr "क्यूआर कोड"
 >>>>>>> upstream/18.0
@@ -2159,7 +2311,11 @@ msgstr ""
 #: code:addons/pos_self_order/static/src/app/pages/payment_page/payment_page.xml:0
 msgid "Retry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दोबारा कोशिश करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "दोबारा कोशिश करें"
 >>>>>>> upstream/18.0
@@ -2182,7 +2338,11 @@ msgid "Security Token"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिक्योरिटी टोकन"
+>>>>>>> upstream/18.0
 =======
 msgstr "सिक्योरिटी टोकन"
 >>>>>>> upstream/18.0
@@ -2224,8 +2384,13 @@ msgstr ""
 #: model:ir.model.fields,help:pos_self_order.field_pos_self_order_custom_link__pos_config_ids
 msgid ""
 "Select for which points of sale you want to display this link. Leave empty "
+<<<<<<< HEAD
 "to display it for all points of sale. You have to select among the points of"
 " sale that have the 'QR Code Menu' feature enabled."
+=======
+"to display it for all points of sale. You have to select among the points of "
+"sale that have the 'QR Code Menu' feature enabled."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_self_order
@@ -2455,7 +2620,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 msgid "Unavailable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपलब्ध नहीं"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -2479,7 +2648,11 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चेतावनी"
+>>>>>>> upstream/18.0
 =======
 msgstr "चेतावनी"
 >>>>>>> upstream/18.0
@@ -2546,7 +2719,10 @@ msgstr "हाँ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2607,6 +2783,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2694,7 +2873,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2755,6 +2937,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2845,12 +3030,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "floor"
 msgstr ""
 
 #. module: pos_self_order
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

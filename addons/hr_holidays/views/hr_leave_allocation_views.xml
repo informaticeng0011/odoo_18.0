@@ -368,7 +368,11 @@
         <field name="name">hr.leave.allocation.view.kanban</field>
         <field name="model">hr.leave.allocation</field>
         <field name="arch" type="xml">
+<<<<<<< HEAD
             <kanban class="o_kanban_mobile" create="0" sample="1">
+=======
+            <kanban class="o_kanban_mobile" sample="1">
+>>>>>>> upstream/18.0
                 <field name="can_approve"/>
                 <templates>
                     <t t-name="menu" groups="base.group_user">

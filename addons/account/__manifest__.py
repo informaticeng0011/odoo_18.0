@@ -59,6 +59,10 @@ You could use this simplified accounting in case you work with an (external) acc
         'views/account_cash_rounding_view.xml',
         'views/ir_actions_views.xml',
         'views/ir_module_views.xml',
+<<<<<<< HEAD
+=======
+        'views/base_document_layout_views.xml',
+>>>>>>> upstream/18.0
         'views/res_config_settings_views.xml',
         'views/partner_view.xml',
         'views/account_journal_dashboard_view.xml',
@@ -81,7 +85,10 @@ You could use this simplified accounting in case you work with an (external) acc
         'views/uom_uom_views.xml',
         'views/product_views.xml',
         'views/tests_shared_js_python.xml',
+<<<<<<< HEAD
         'views/base_document_layout_views.xml',
+=======
+>>>>>>> upstream/18.0
         'views/account_lock_exception_views.xml',
         'views/report_templates.xml',
         'wizard/account_merge_wizard_views.xml',

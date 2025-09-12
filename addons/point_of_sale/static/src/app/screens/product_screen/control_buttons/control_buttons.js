@@ -54,7 +54,11 @@ export class ControlButtons extends Component {
 
         const selectedFiscalPosition = await makeAwaitable(this.dialog, SelectionPopup, {
             list: fiscalPosList,
+<<<<<<< HEAD
             title: _t("Please register the voucher number"),
+=======
+            title: _t("Choose the tax you want to apply"),
+>>>>>>> upstream/18.0
         });
 
         if (!selectedFiscalPosition) {

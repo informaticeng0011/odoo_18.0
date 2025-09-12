@@ -21,6 +21,7 @@ class Oui extends models.Model {
 }
 
 defineModels([Oui]);
+<<<<<<< HEAD
 
 test("model name can be implicitly extracted from its constructor name", async () => {
 <<<<<<< HEAD
@@ -147,6 +148,11 @@ test("model name can be implicitly extracted from its constructor name", async (
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+describe.current.tags("headless");
+
+test("model name can be implicitly extracted from its constructor name", async () => {
+>>>>>>> upstream/18.0
     const [AnonymousClass, Foo, ResCurrency, ResPartner] = [
         class extends models.Model {},
         class Foo extends models.Model {},
@@ -195,6 +201,9 @@ test("model name can be implicitly extracted from its constructor name", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -335,7 +344,10 @@ test("model should be defined on the mock server", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -416,6 +428,11 @@ test("models can be extended by having the same name", async () => {
     class First extends models.Model {
         _name = "same.model";
 
+<<<<<<< HEAD
+=======
+        description = fields.Char();
+
+>>>>>>> upstream/18.0
         same_method() {
             return "1";
         }
@@ -424,6 +441,11 @@ test("models can be extended by having the same name", async () => {
     class Second extends models.Model {
         _name = "same.model";
 
+<<<<<<< HEAD
+=======
+        description = fields.Text();
+
+>>>>>>> upstream/18.0
         second_method() {
             return "added by 2";
         }
@@ -436,6 +458,11 @@ test("models can be extended by having the same name", async () => {
     class Third extends models.Model {
         _name = "same.model";
 
+<<<<<<< HEAD
+=======
+        title = fields.Char();
+
+>>>>>>> upstream/18.0
         third_method() {
             return "added by 3";
         }
@@ -449,12 +476,20 @@ test("models can be extended by having the same name", async () => {
 
     await makeMockEnv();
 
+<<<<<<< HEAD
+=======
+    expect(MockServer.env["same.model"]).toBeInstanceOf(Second);
+    expect(MockServer.env["same.model"]._fields.description.type).toBe("text");
+    expect(MockServer.env["same.model"]._fields).not.toInclude("title");
+
+>>>>>>> upstream/18.0
     const orm = getService("orm");
 
     await expect(orm.call("same.model", "same_method")).resolves.toBe("1 & 2");
     await expect(orm.call("same.model", "second_method")).resolves.toBe("added by 2");
     await expect(orm.call("same.model", "third_method")).rejects.toThrow();
 
+<<<<<<< HEAD
     expect(MockServer.env["same.model"]).toBeInstanceOf(Second);
 
     defineModels([Third]);
@@ -464,6 +499,17 @@ test("models can be extended by having the same name", async () => {
     await expect(orm.call("same.model", "third_method")).resolves.toBe("added by 3");
 
     expect(MockServer.env["same.model"]).toBeInstanceOf(Third);
+=======
+    defineModels([Third]);
+
+    expect(MockServer.env["same.model"]).toBeInstanceOf(Third);
+    expect(MockServer.env["same.model"]._fields.description.type).toBe("text");
+    expect(MockServer.env["same.model"]._fields.title.type).toBe("char");
+
+    await expect(orm.call("same.model", "same_method")).resolves.toBe("overridden by 3");
+    await expect(orm.call("same.model", "second_method")).resolves.toBe("added by 2");
+    await expect(orm.call("same.model", "third_method")).resolves.toBe("added by 3");
+>>>>>>> upstream/18.0
 });
 
 test("cannot access _records on models after init", async () => {
@@ -515,6 +561,9 @@ test("cannot access _records on models after init", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

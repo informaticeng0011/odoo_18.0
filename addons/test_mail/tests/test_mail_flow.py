@@ -176,6 +176,10 @@ class TestMailFlow(MailCommon, TestRecipients):
                 'email': 'portal@zboing.com',
                 'lang': None,
                 'name': 'Portal Zboing',
+<<<<<<< HEAD
+=======
+                'display_name': 'Portal Zboing',
+>>>>>>> upstream/18.0
                 'reason': 'CC Email',
                 'partner_id': self.customer_portal_zboing.id,
             },

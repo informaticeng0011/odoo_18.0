@@ -164,6 +164,10 @@ export class FormController extends Component {
 
     setup() {
         this.evaluateBooleanExpr = evaluateBooleanExpr;
+<<<<<<< HEAD
+=======
+        this.actionService = useService("action");
+>>>>>>> upstream/18.0
         this.dialogService = useService("dialog");
         this.orm = useService("orm");
         this.viewService = useService("view");
@@ -433,6 +437,20 @@ export class FormController extends Component {
                     discard();
                     resolve(true);
                 },
+<<<<<<< HEAD
+=======
+                onRedirect: async ({ action, additionalContext }) => {
+                    this.allowLeavingWithoutSaving = true;
+                    try {
+                        await this.actionService.doAction(action, {
+                            additionalContext,
+                        });
+                    } finally {
+                        this.allowLeavingWithoutSaving = false;
+                        resolve(false);
+                    }
+                },
+>>>>>>> upstream/18.0
                 onStayHere: () => resolve(false),
             });
         });
@@ -471,7 +489,11 @@ export class FormController extends Component {
     }
 
     async beforeLeave() {
+<<<<<<< HEAD
         if (this.model.root.dirty) {
+=======
+        if (this.model.root.dirty && !this.allowLeavingWithoutSaving) {
+>>>>>>> upstream/18.0
             return this.save({
                 reload: false,
                 onError: this.onSaveError.bind(this),
@@ -654,6 +676,12 @@ export class FormController extends Component {
     }
 
     saveButtonClicked(params = {}) {
+<<<<<<< HEAD
+=======
+        if (!("onError" in params)) {
+            params.onError = this.onSaveError.bind(this);
+        }
+>>>>>>> upstream/18.0
         return executeButtonCallback(this.ui.activeElement, () => this.save(params));
     }
 

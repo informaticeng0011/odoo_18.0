@@ -52,7 +52,10 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -148,6 +151,9 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -244,6 +250,10 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                filter_tax_function: filter_tax_function,
+>>>>>>> upstream/18.0
 =======
                 filter_tax_function: filter_tax_function,
 >>>>>>> upstream/18.0
@@ -382,6 +392,29 @@ export class TestsSharedJsPython extends Component {
             );
             return {tax_totals: taxTotals, soft_checking: params.soft_checking};
         }
+<<<<<<< HEAD
+=======
+        if (params.test === "base_lines_tax_details") {
+            const document = this.populateDocument(params.document);
+            return {
+                base_lines_tax_details: document.lines.map(line => ({
+                    total_excluded_currency: line.tax_details.total_excluded_currency,
+                    total_excluded: line.tax_details.total_excluded,
+                    total_included_currency: line.tax_details.total_included_currency,
+                    total_included: line.tax_details.total_included,
+                    delta_total_excluded_currency: line.tax_details.delta_total_excluded_currency,
+                    delta_total_excluded: line.tax_details.delta_total_excluded,
+                    taxes_data: line.tax_details.taxes_data.map(tax_data => ({
+                        tax_id: tax_data.tax.id,
+                        tax_amount_currency: tax_data.tax_amount_currency,
+                        tax_amount: tax_data.tax_amount,
+                        base_amount_currency: tax_data.base_amount_currency,
+                        base_amount: tax_data.base_amount,
+                    })),
+                })),
+            };
+        }
+>>>>>>> upstream/18.0
     }
 
     async processTests() {

@@ -20,6 +20,7 @@ export class Follower extends Record {
     is_active;
     partner = Record.one("Persona");
 
+<<<<<<< HEAD
     /** @returns {boolean} */
     get isEditable() {
         const hasWriteAccess = this.thread ? this.thread.hasWriteAccess : false;
@@ -222,6 +223,18 @@ export class Follower extends Record {
             : hasWriteAccess;
 >>>>>>> upstream/18.0
 =======
+        return this.partner.eq(this.thread?.effectiveSelf)
+            ? this.thread.hasReadAccess
+            : hasWriteAccess;
+>>>>>>> upstream/18.0
+=======
+    get displayName() {
+        return this.partner.name || this.display_name;
+    }
+
+    /** @returns {boolean} */
+    get isEditable() {
+        const hasWriteAccess = this.thread ? this.thread.hasWriteAccess : false;
         return this.partner.eq(this.thread?.effectiveSelf)
             ? this.thread.hasReadAccess
             : hasWriteAccess;

@@ -3,7 +3,11 @@
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.tests import Form, tagged
 from odoo import fields, Command
+<<<<<<< HEAD
 from odoo.exceptions import UserError
+=======
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 
 from collections import defaultdict
 from unittest.mock import patch
@@ -4060,7 +4064,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4312,6 +4319,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5242,7 +5252,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5477,6 +5490,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5505,6 +5519,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5673,6 +5689,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5775,4 +5792,38 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_multiple_currency_change(self):
+        """
+        Test amount currency and balance are correctly recomputed when switching currency multiple times
+        """
+        currency_a = self.env.company.currency_id
+        currency_b = self.other_currency
+
+        invoice = self.init_invoice(move_type='out_invoice', partner=self.partner_a, invoice_date='2016-01-20', products=self.product_a, currency=currency_b)
+        initial_balance = invoice.line_ids[0].balance
+        # Simulate updating currency: Foreign currency -> Company currency -> Foreign Currency -> Save
+        with Form(invoice) as move_form:
+            for currency in (currency_a, currency_b):
+                move_form.currency_id = currency
+        self.assertEqual(invoice.line_ids[0].balance, initial_balance, "Balance with original currency should be the same.")
+
+    def test_invoice_currency_rate_onchange_sets_to_one(self):
+        """ Ensure that invoice_currency_rate is set to 1 if set to 0 or negative for foreign currency invoices. """
+        invoice = self.invoice
+        invoice.currency_id = self.other_currency
+
+        # Test invoice_currency_rate with 0 value
+        with self.assertRaises(ValidationError):
+            with Form(invoice) as move_form:
+                move_form.invoice_currency_rate = 0
+        self.assertEqual(invoice.invoice_currency_rate, 2.0)
+
+        # Test invoice_currency_rate with negative value
+        with self.assertRaises(ValidationError):
+            with Form(invoice) as move_form:
+                move_form.invoice_currency_rate = -420
+        self.assertEqual(invoice.invoice_currency_rate, 2.0)
 >>>>>>> upstream/18.0

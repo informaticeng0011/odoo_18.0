@@ -4,12 +4,18 @@ import {
     isAllowedContent,
     isButton,
     isContentEditable,
+<<<<<<< HEAD
     isEditorTab,
     isEmpty,
     isInPre,
     isMediaElement,
     isProtected,
     isSelfClosingElement,
+=======
+    isEmpty,
+    isInPre,
+    isProtected,
+>>>>>>> upstream/18.0
     isShrunkBlock,
     isTangible,
     isTextNode,
@@ -69,7 +75,11 @@ import { compareListTypes } from "@html_editor/main/list/utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { hasTouch, isBrowserChrome } from "@web/core/browser/feature_detection";
+=======
+import { hasTouch, isBrowserChrome, isMacOS } from "@web/core/browser/feature_detection";
+>>>>>>> upstream/18.0
 =======
 import { hasTouch, isBrowserChrome, isMacOS } from "@web/core/browser/feature_detection";
 >>>>>>> upstream/18.0
@@ -193,7 +203,11 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static dependencies = ["baseContainer", "selection", "history", "input"];
+=======
+    static dependencies = ["baseContainer", "selection", "history", "input", "userCommand"];
+>>>>>>> upstream/18.0
 =======
     static dependencies = ["baseContainer", "selection", "history", "input", "userCommand"];
 >>>>>>> upstream/18.0
@@ -344,7 +358,10 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -450,6 +467,9 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -520,6 +540,22 @@ export class DeletePlugin extends Plugin {
         if (selection.isCollapsed) {
             return;
         }
+<<<<<<< HEAD
+=======
+        // Delete only if the targeted nodes are all editable or if every
+        // non-editable node's editable ancestor is fully selected. We use the
+        // targeted nodes here to be sure to include a partial text node
+        // selection.
+        const selectedNodes = this.dependencies.selection.getTargetedNodes();
+        const canBeDeleted = (node) =>
+            this.dependencies.selection.isNodeEditable(node) ||
+            selectedNodes.includes(
+                closestElement(node, (node) => this.dependencies.selection.isNodeEditable(node))
+            );
+        if (selectedNodes.some((node) => !canBeDeleted(node))) {
+            return;
+        }
+>>>>>>> upstream/18.0
 
         let range = this.adjustRange(selection, [
             this.expandRangeToIncludeNonEditables,
@@ -991,7 +1027,15 @@ export class DeletePlugin extends Plugin {
             // The joinable in this case is its sibling (previous for the start
             // side, next for the end side), but only if inline.
             const sibling = childNodes(commonAncestor)[side === "start" ? offset - 1 : offset];
+<<<<<<< HEAD
             if (sibling && !isBlock(sibling) && !(sibling.nodeType === Node.TEXT_NODE && !isVisibleTextNode(sibling))) {
+=======
+            if (
+                sibling &&
+                !isBlock(sibling) &&
+                !(sibling.nodeType === Node.TEXT_NODE && !isVisibleTextNode(sibling))
+            ) {
+>>>>>>> upstream/18.0
                 return { node: sibling, type: "inline" };
             }
             // No fragment to join.
@@ -1289,10 +1333,13 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { startContainer, endContainer, commonAncestorContainer: commonAncestor } = range;
         const isNonEditable = (node) => !isContentEditable(node);
         const startUneditable = findFurthest(startContainer, commonAncestor, isNonEditable);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1335,6 +1382,9 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1371,7 +1421,11 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const leaf = previousLeaf(startUneditable);
+=======
+            const leaf = previousLeaf(startUneditable, this.editable);
+>>>>>>> upstream/18.0
 =======
             const leaf = previousLeaf(startUneditable, this.editable);
 >>>>>>> upstream/18.0
@@ -1422,8 +1476,11 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const endUneditable = findFurthest(endContainer, commonAncestor, isNonEditable);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1458,6 +1515,9 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1661,9 +1721,16 @@ export class DeletePlugin extends Plugin {
         if (leaf.nodeName === "BR" && isFakeLineBreak(leaf)) {
             return true;
         }
+<<<<<<< HEAD
         // @todo: register these as resources by other plugins?
         if (
             [isSelfClosingElement, isMediaElement, isEditorTab].some((predicate) => predicate(leaf))
+=======
+        if (
+            this.getResource("functional_empty_node_predicates").some((predicate) =>
+                predicate(leaf)
+            )
+>>>>>>> upstream/18.0
         ) {
             return false;
         }

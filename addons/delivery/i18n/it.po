@@ -6,6 +6,10 @@
 # Wil Odoo, 2024
 # pezzin <christian.pezzin@gmail.com>, 2024
 # Marianna Ciofani, 2024
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -13,7 +17,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Marianna Ciofani, 2024\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,7 +85,11 @@ msgstr "<span class=\"o_stat_text text-danger\">Nessun debug</span>"
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "<span class=\"text-success\">Debug requests</span>"
+<<<<<<< HEAD
 msgstr "<span class=\"text-success\">Richieste debug</span>"
+=======
+msgstr "<span class=\"text-success\">Richieste di debug</span>"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
@@ -280,7 +292,11 @@ msgstr "Cliente"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__debug_logging
 msgid "Debug logging"
+<<<<<<< HEAD
 msgstr "Registrazione richieste"
+=======
+msgstr "Registrazione debug"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_res_partner__property_delivery_carrier_id
@@ -291,7 +307,11 @@ msgstr "Metodo di consegna predefinito utilizzato negli ordini di vendita."
 #. module: delivery
 #: model_terms:ir.actions.act_window,help:delivery.action_delivery_carrier_form
 msgid "Define a new delivery method"
+<<<<<<< HEAD
 msgstr "Definire un nuovo metodo di consegna"
+=======
+msgstr "Definisci un nuovo metodo di consegna"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_search
@@ -312,7 +332,11 @@ msgstr "Costo di consegna"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__delivery_message
 #: model:ir.model.fields,field_description:delivery.field_sale_order__delivery_message
 msgid "Delivery Message"
+<<<<<<< HEAD
 msgstr "Messaggio per la consegna"
+=======
+msgstr "Messaggio di consegna"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__name
@@ -337,12 +361,20 @@ msgstr "Prezzo di consegna"
 #. module: delivery
 #: model:ir.model,name:delivery.model_delivery_price_rule
 msgid "Delivery Price Rules"
+<<<<<<< HEAD
 msgstr "Regole per le tariffe di consegna"
+=======
+msgstr "Regole prezzo di consegna"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__product_id
 msgid "Delivery Product"
+<<<<<<< HEAD
 msgstr "Prodotto «Consegna»"
+=======
+msgstr "Prodotto consegna"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order__delivery_set
@@ -479,7 +511,11 @@ msgstr "Gratuito se ordine con importo maggiore di"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__return_label_on_delivery
 msgid "Generate Return Label"
+<<<<<<< HEAD
 msgstr "Genera etichetta di reso"
+=======
+msgstr "Generare etichetta di reso"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_carrier__integration_level__rate
@@ -534,7 +570,11 @@ msgstr ""
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Install more Providers"
+<<<<<<< HEAD
 msgstr "Aggiungere altri corrieri"
+=======
+msgstr "Installa altri corrieri"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__shipping_insurance
@@ -597,7 +637,11 @@ msgstr "Consegna locale"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__debug_logging
 msgid "Log requests in order to ease debugging"
+<<<<<<< HEAD
 msgstr "Registrare le richieste per facilitare la risoluzione errori"
+=======
+msgstr "Registrazione delle richieste per facilitare il debug"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.actions.act_window,help:delivery.action_delivery_zip_prefix_list
@@ -654,7 +698,11 @@ msgstr "Nome"
 #. odoo-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "New Providers"
+<<<<<<< HEAD
 msgstr "Nuovi fornitori"
+=======
+msgstr "Nuovi corrieri"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #. odoo-python
@@ -736,12 +784,20 @@ msgstr "Prezzo"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_price_rule_form
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_price_rule_tree
 msgid "Price Rules"
+<<<<<<< HEAD
 msgstr "Regole tariffarie"
+=======
+msgstr "Regole sul prezzo"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Pricing"
+<<<<<<< HEAD
 msgstr "Definizione prezzi"
+=======
+msgstr "Tariffazione"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__price_rule_ids
@@ -756,7 +812,11 @@ msgstr "Categoria prodotto"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order_line__product_qty
 msgid "Product Qty"
+<<<<<<< HEAD
 msgstr "Q.tà Prodotto"
+=======
+msgstr "Q.tà prodotto"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__delivery_type
@@ -817,7 +877,11 @@ msgstr "Prodotto servizio"
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__prod_environment
 msgid "Set to True if your credentials are certified for production."
 msgstr ""
+<<<<<<< HEAD
 "Impostare a «True» se le credenziali sono certificate per la produzione."
+=======
+"Impostare a vero se le credenziali sono certificate per la produzione."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__carrier_id
@@ -953,7 +1017,11 @@ msgstr ""
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__margin
 msgid "This percentage will be added to the shipping price."
+<<<<<<< HEAD
 msgstr "Questa percentuale verrà aggiunta al prezzo di spedizione."
+=======
+msgstr "Questa percentuale viene aggiunta al prezzo di spedizione."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__total_weight
@@ -1018,7 +1086,11 @@ msgstr "Nome UDM peso"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__weight_uom_name
 msgid "Weight unit of measure label"
+<<<<<<< HEAD
 msgstr "Etichetta unità di misura del peso"
+=======
+msgstr "Etichetta unità di misura peso"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #. odoo-python

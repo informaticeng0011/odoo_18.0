@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_expense
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Maitê Dietze, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Maitê Dietze, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,6 +56,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Maitê Dietze, 2025\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/"
+"41243/pt_BR/)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -83,11 +105,17 @@ msgstr "%(employee_name)s: %(expense_name)s"
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
+<<<<<<< HEAD
 msgid ""
 "%(user)s confirms this expense is not a duplicate with similar expense."
 msgstr ""
 "%(user)s confirma que esta despesa não é a duplicação de uma despesa "
 "similar."
+=======
+msgid "%(user)s confirms this expense is not a duplicate with similar expense."
+msgstr ""
+"%(user)s confirma que esta despesa não é a duplicação de uma despesa similar."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -276,7 +304,12 @@ msgstr "Todos os relatórios"
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
+<<<<<<< HEAD
 msgid "All expenses in an expense report must have the same \"paid by\" criteria."
+=======
+msgid ""
+"All expenses in an expense report must have the same \"paid by\" criteria."
+>>>>>>> upstream/18.0
 msgstr ""
 "Todas as despesas em um relatório de despesas devem ter o mesmo critério "
 "\"pago por\"."
@@ -439,8 +472,13 @@ msgid ""
 "Both price-included and price-excluded taxes will behave as price-included "
 "taxes for expenses."
 msgstr ""
+<<<<<<< HEAD
 "Os impostos com preço incluído ou não se comportarão como impostos com preço"
 " incluído em despesas."
+=======
+"Os impostos com preço incluído ou não se comportarão como impostos com preço "
+"incluído em despesas."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -682,9 +720,15 @@ msgid ""
 "picture of your receipt and let Odoo digitalizes it for you. The OCR and "
 "Artificial Intelligence will fill the data automatically."
 msgstr ""
+<<<<<<< HEAD
 "Não guarde mais seus recibos de despesas no bolso: basta tirar uma foto dele"
 " e deixar que Odoo o digitalize para você. O OCR e a Inteligência Artificial"
 " preencherão os dados automaticamente."
+=======
+"Não guarde mais seus recibos de despesas no bolso: basta tirar uma foto dele "
+"e deixar que Odoo o digitalize para você. O OCR e a Inteligência Artificial "
+"preencherão os dados automaticamente."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_move_form_inherit_expense
@@ -756,8 +800,12 @@ msgstr "Despesas do funcionário"
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid ""
+<<<<<<< HEAD
 "Enter a name then choose a category and configure the amount of your "
 "expense."
+=======
+"Enter a name then choose a category and configure the amount of your expense."
+>>>>>>> upstream/18.0
 msgstr ""
 "Insira um nome, escolha uma categoria e configure o valor da sua despesa."
 
@@ -1748,8 +1796,13 @@ msgid ""
 "navigate."
 msgstr ""
 "Pronto? Você pode salvá-lo manualmente ou descartar as modificações aqui. "
+<<<<<<< HEAD
 "Você <em>não precisa salvar</em> – o Odoo salvará tudo para você quando você"
 " sair."
+=======
+"Você <em>não precisa salvar</em> – o Odoo salvará tudo para você quando você "
+"sair."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard__reason
@@ -1875,10 +1928,20 @@ msgstr "Escaneie este QR Code para baixar o app Odoo:"
 #: model:ir.model.fields,help:hr_expense.field_res_users__expense_manager_id
 msgid ""
 "Select the user responsible for approving \"Expenses\" of this employee.\n"
+<<<<<<< HEAD
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
 msgstr ""
 "Selecione o usuário responsável pela aprovação de “Despesas” deste funcionário.\n"
 "Se estiver vazio, a aprovação é feita por um Administrador ou Aprovador (determinado nas definições/usuários)."
+=======
+"If empty, the approval is done by an Administrator or Approver (determined "
+"in settings/users)."
+msgstr ""
+"Selecione o usuário responsável pela aprovação de “Despesas” deste "
+"funcionário.\n"
+"Se estiver vazio, a aprovação é feita por um Administrador ou Aprovador "
+"(determinado nas definições/usuários)."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__selectable_payment_method_line_ids
@@ -1932,12 +1995,15 @@ msgstr ""
 
 #. module: hr_expense
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "Show missing work email employees"
 msgstr "Mostrar funcionários com e-mail de trabalho ausente"
 
 #. module: hr_expense
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__accounting_date
@@ -2082,14 +2148,22 @@ msgstr "Aprovador da equipe"
 #: model:ir.model.fields,help:hr_expense.field_res_config_settings__expense_outstanding_account_id
 msgid ""
 "The account used to record the outstanding amount of the company expenses."
+<<<<<<< HEAD
 msgstr ""
 "A conta usada para registrar o valor pendente das despesas da empresa."
+=======
+msgstr "A conta usada para registrar o valor pendente das despesas da empresa."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_res_company__expense_journal_id
 #: model:ir.model.fields,help:hr_expense.field_res_config_settings__expense_journal_id
+<<<<<<< HEAD
 msgid ""
 "The company's default journal used when an employee expense is created."
+=======
+msgid "The company's default journal used when an employee expense is created."
+>>>>>>> upstream/18.0
 msgstr ""
 "O diário padrão da empresa usado quando é criada uma despesa de funcionário."
 
@@ -2103,8 +2177,13 @@ msgstr ""
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid ""
+<<<<<<< HEAD
 "The first word of the email subject did not correspond to any category code."
 " You'll have to set the category manually on the expense."
+=======
+"The first word of the email subject did not correspond to any category code. "
+"You'll have to set the category manually on the expense."
+>>>>>>> upstream/18.0
 msgstr ""
 "A primeira palavra do assunto do e-mail não corresponde a nenhum código de "
 "categoria. Você terá que definir a categoria manualmente na despesa."
@@ -2117,8 +2196,13 @@ msgid ""
 "contain duplicates."
 msgstr ""
 "As seguintes despesas aprovadas têm funcionários, valores e categorias "
+<<<<<<< HEAD
 "semelhantes a algumas despesas deste relatório. Verifique se o relatório não"
 " contém duplicatas."
+=======
+"semelhantes a algumas despesas deste relatório. Verifique se o relatório não "
+"contém duplicatas."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.constraint,message:hr_expense.constraint_hr_expense_sheet_journal_id_required_posted
@@ -2149,6 +2233,7 @@ msgstr "A soma após o fechamento da divisão deve permanecer a mesma"
 #. module: hr_expense
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
 "The work email of some employees is missing. Please add it on the employee "
@@ -2161,14 +2246,21 @@ msgstr ""
 #. odoo-python
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/product_product.py:0
 msgid ""
 "There are unsubmitted expenses linked to this category. Updating the "
 "category cost will change expense amounts. Make sure it is what you want to "
 "do."
 msgstr ""
+<<<<<<< HEAD
 "Há despesas não enviadas vinculadas a essa categoria. A atualização do custo"
 " da categoria alterará os valores das despesas. Certifique-se de que é isso "
+=======
+"Há despesas não enviadas vinculadas a essa categoria. A atualização do custo "
+"da categoria alterará os valores das despesas. Certifique-se de que é isso "
+>>>>>>> upstream/18.0
 "que você deseja fazer."
 
 #. module: hr_expense
@@ -2365,6 +2457,7 @@ msgstr "Histórico de comunicação do site"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid ""
+<<<<<<< HEAD
 "When the cost of an expense product is different than 0, then the user"
 "                                             using this product won't be "
 "able to change the amount of the expense,"
@@ -2373,12 +2466,27 @@ msgid ""
 "                                             the company at fixed cost like "
 "allowances for mileage, per diem, accommodation"
 "                                             or meal."
+=======
+"When the cost of an expense product is different than 0, then the "
+"user                                             using this product won't be "
+"able to change the amount of the "
+"expense,                                             only the quantity. Use "
+"a cost different than 0 for expense categories funded "
+"by                                             the company at fixed cost "
+"like allowances for mileage, per diem, "
+"accommodation                                             or meal."
+>>>>>>> upstream/18.0
 msgstr ""
 "Quando o custo de um produto de despesa for diferente de 0, o usuário que "
 "estiver usando esse produto não poderá alterar o valor da despesa, apenas a "
 "quantidade. Use um custo diferente de 0 para categorias de despesas "
+<<<<<<< HEAD
 "financiadas pela empresa a um custo fixo, como subsídios para quilometragem,"
 " diárias, hospedagem ou refeição."
+=======
+"financiadas pela empresa a um custo fixo, como subsídios para quilometragem, "
+"diárias, hospedagem ou refeição."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__product_has_tax
@@ -2475,8 +2583,13 @@ msgstr "Você não pode excluir uma conta analítica que é usada em uma despesa
 #. odoo-python
 #: code:addons/hr_expense/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete only some entries linked to an expense report. All entries"
 " must be deleted at the same time."
+=======
+"You cannot delete only some entries linked to an expense report. All entries "
+"must be deleted at the same time."
+>>>>>>> upstream/18.0
 msgstr ""
 "Você não pode excluir somente alguns lançamentos vinculados a um relatório "
 "de despesas. Todos os lançamentos devem ser excluídos ao mesmo tempo."
@@ -2553,8 +2666,12 @@ msgstr "Você não pode relatar a mesma linha duas vezes."
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot set the expense total in currency to 0 if it's linked to a "
 "report."
+=======
+"You cannot set the expense total in currency to 0 if it's linked to a report."
+>>>>>>> upstream/18.0
 msgstr ""
 "Você não pode definir o total de despesas em moeda como 0 se ele estiver "
 "vinculado a um relatório."
@@ -2586,6 +2703,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2598,6 +2716,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: code:addons/hr_expense/models/hr_expense.py:0
+msgid ""
+"You don't have the rights to attach a document to a submitted expense. "
+"Please reset the expense report to draft first."
+msgstr ""
+
+#. module: hr_expense
+#. odoo-python
 >>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
@@ -2608,6 +2736,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "You don't have the rights to bypass the validation process of this expense "
 "report."
@@ -2623,6 +2752,10 @@ msgstr ""
 =======
 "You don't have the rights to bypass the validation process of this expense "
 "report."
+>>>>>>> upstream/18.0
+=======
+"Você não tem o direito de ignorar o processo de validação desse relatório de "
+"despesas."
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -2635,6 +2768,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: hr_expense
 #. odoo-python
@@ -2665,6 +2799,12 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Você não tem o direito de ignorar o processo de validação dessa despesa."
+
+#. module: hr_expense
+#. odoo-python
 >>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You have no expense to report"
@@ -2680,8 +2820,13 @@ msgstr "Você precisa adicionar um método de pagamento manual no diário (%s)"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
+<<<<<<< HEAD
 "You need to have at least one category that can be expensed in your database"
 " to proceed!"
+=======
+"You need to have at least one category that can be expensed in your database "
+"to proceed!"
+>>>>>>> upstream/18.0
 msgstr ""
 "Para continuar. você precisa ter ao menos uma categoria que pode ser uma "
 "despesa em sua base de dados."

@@ -167,7 +167,11 @@ class AccountEdiFormat(models.Model):
                 return {invoice: {
                     "success": False,
                     "error": error_message,
+<<<<<<< HEAD
                     "blocking_level": ("404" in error_codes) and "warning" or "error",
+=======
+                    "blocking_level": "warning" if {'404', 'timeout'} & set(error_codes) else "error",
+>>>>>>> upstream/18.0
                 }}
         if not response.get("error"):
             json_dump = json.dumps(response.get("data"))
@@ -304,7 +308,10 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -463,6 +470,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

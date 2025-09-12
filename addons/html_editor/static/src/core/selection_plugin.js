@@ -31,7 +31,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     previousLeaf,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -120,7 +123,11 @@ import { Plugin } from "../plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { DIRECTIONS, endPos, leftPos, nodeSize, rightPos } from "../utils/position";
+=======
+import { DIRECTIONS, leftPos, nodeSize, rightPos } from "../utils/position";
+>>>>>>> upstream/18.0
 =======
 import { DIRECTIONS, leftPos, nodeSize, rightPos } from "../utils/position";
 >>>>>>> upstream/18.0
@@ -261,7 +268,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isElement } from "../utils/dom_info";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -443,9 +453,12 @@ export function isNotAllowedContent(node) {
     return isArtificialVoidElement(node) || VOID_ELEMENT_NAMES.includes(node.nodeName);
 }
 
+<<<<<<< HEAD
 /**
  * @returns edges nodes if they do not have content selected
  */
+=======
+>>>>>>> upstream/18.0
 function getUnselectedEdgeNodes(selection) {
     const startEdgeNodes = (node, offset) =>
         node === selection.commonAncestorContainer || offset < nodeSize(node)
@@ -474,6 +487,7 @@ function scrollToSelection(selection) {
         return;
     }
     let rect = range.getBoundingClientRect();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -657,6 +671,8 @@ function scrollToSelection(selection) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     // If the range is invisible (0 width & height),
     // We call `getBoundingClientRect` on closest element.
     if (rect.width === 0 && rect.height === 0 && selection.isCollapsed) {
@@ -716,6 +732,9 @@ function scrollToSelection(selection) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -833,6 +852,7 @@ function scrollToSelection(selection) {
     const offsetTop = rect.top - containerRect.top + container.scrollTop;
     const offsetBottom = rect.bottom - containerRect.top + container.scrollTop;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1035,6 +1055,10 @@ function scrollToSelection(selection) {
     if (rect.bottom > containerRect.top && rect.top < containerRect.bottom) {
         // If selection is partially visible, no need to scroll.
 >>>>>>> upstream/18.0
+=======
+    if (rect.bottom > containerRect.top && rect.top < containerRect.bottom) {
+        // If selection is partially visible, no need to scroll.
+>>>>>>> upstream/18.0
         return;
     }
     // Simulate the "nearest" behavior by scrolling to the closest top/bottom edge
@@ -1054,9 +1078,18 @@ function scrollToSelection(selection) {
  * @property { SelectionPlugin['getSelectionData'] } getSelectionData
  * @property { SelectionPlugin['getTraversedBlocks'] } getTraversedBlocks
  * @property { SelectionPlugin['getTraversedNodes'] } getTraversedNodes
+<<<<<<< HEAD
  * @property { SelectionPlugin['modifySelection'] } modifySelection
  * @property { SelectionPlugin['preserveSelection'] } preserveSelection
  * @property { SelectionPlugin['rectifySelection'] } rectifySelection
+=======
+ * @property { SelectionPlugin['getTargetedBlocks'] } getTargetedBlocks
+ * @property { SelectionPlugin['getTargetedNodes'] } getTargetedNodes
+ * @property { SelectionPlugin['modifySelection'] } modifySelection
+ * @property { SelectionPlugin['preserveSelection'] } preserveSelection
+ * @property { SelectionPlugin['rectifySelection'] } rectifySelection
+ * @property { SelectionPlugin['areNodeContentsFullySelected'] } areNodeContentsFullySelected
+>>>>>>> upstream/18.0
  * @property { SelectionPlugin['resetActiveSelection'] } resetActiveSelection
  * @property { SelectionPlugin['resetSelection'] } resetSelection
  * @property { SelectionPlugin['setCursorEnd'] } setCursorEnd
@@ -1075,20 +1108,39 @@ export class SelectionPlugin extends Plugin {
         "extractContent",
         "preserveSelection",
         "resetSelection",
+<<<<<<< HEAD
         "getSelectedNodes",
         "getTraversedNodes",
         "getTraversedBlocks",
         "modifySelection",
         "rectifySelection",
+=======
+        "getSelectedNodes", // Deprecated. Prefer `getTargetedNodes`.
+        "getTraversedNodes", // Deprecated. Prefer `getTargetedNodes`.
+        "getTraversedBlocks", // Deprecated. Prefer `getTargetedBlocks`.
+        "getTargetedNodes",
+        "getTargetedBlocks",
+        "modifySelection",
+        "rectifySelection",
+        "areNodeContentsFullySelected",
+>>>>>>> upstream/18.0
         // todo: ideally, this should not be shared
         "resetActiveSelection",
         "focusEditable",
         // "collapseIfZWS",
         "isSelectionInEditable",
+<<<<<<< HEAD
+=======
+        "isNodeEditable",
+>>>>>>> upstream/18.0
     ];
     resources = {
         user_commands: { id: "selectAll", run: this.selectAll.bind(this) },
         shortcuts: [{ hotkey: "control+a", commandId: "selectAll" }],
+<<<<<<< HEAD
+=======
+        is_node_editable_predicates: (node) => node.parentElement?.isContentEditable,
+>>>>>>> upstream/18.0
     };
 
     setup() {
@@ -1101,6 +1153,7 @@ export class SelectionPlugin extends Plugin {
             }
         });
         this.addDomListener(this.editable, "mousedown", (ev) => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1323,6 +1376,10 @@ export class SelectionPlugin extends Plugin {
             if (ev.detail === 2) {
                 this.correctDoubleClick = true;
 >>>>>>> upstream/18.0
+=======
+            if (ev.detail === 2) {
+                this.correctDoubleClick = true;
+>>>>>>> upstream/18.0
             }
             this.handleEmptySelection();
         });
@@ -1365,7 +1422,10 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1446,6 +1506,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1538,7 +1601,10 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1626,6 +1692,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1740,6 +1809,7 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (this.correctTripleClick) {
                 this.correctTripleClick = false;
                 let { anchorNode, anchorOffset, focusNode, focusOffset } = this.activeSelection;
@@ -1764,6 +1834,8 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1909,6 +1981,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2352,11 +2427,44 @@ export class SelectionPlugin extends Plugin {
     }
 
     /**
+<<<<<<< HEAD
+=======
+     * Returns a function that returns true if the given node's contents are
+     * fully selected.
+     *
+     * @param {Node} node
+     * @param {boolean} [_useLeaves=true] @deprecated this is a legacy argument,
+     *                                    only used to preserve the behavior of
+     *                                    deprecated methods.
+     * @returns {() => boolean}
+     */
+    areNodeContentsFullySelected(node, _useLeaves = true) {
+        const selection = this.getEditableSelection();
+        const range = new Range();
+        range.setStart(selection.startContainer, selection.startOffset);
+        range.setEnd(selection.endContainer, selection.endOffset);
+
+        const firstLeafNode = _useLeaves ? firstLeaf(node) : node;
+        const lastLeafNode = _useLeaves ? lastLeaf(node) : node;
+        return (
+            // Custom rules
+            this.getResource("fully_selected_node_predicates").some((cb) => cb(node, selection)) ||
+            // Default rule
+            (range.isPointInRange(firstLeafNode, 0) &&
+                range.isPointInRange(lastLeafNode, nodeSize(lastLeafNode)))
+        );
+    }
+
+    /**
+     * @deprecated use `getTargetedNodes` instead.
+     *
+>>>>>>> upstream/18.0
      * Returns an array containing all the nodes fully contained in the selection.
      *
      * @returns {Node[]}
      */
     getSelectedNodes() {
+<<<<<<< HEAD
         const selection = this.getSelectionData().editableSelection;
         const range = new Range();
         range.setStart(selection.startContainer, selection.startOffset);
@@ -2370,6 +2478,16 @@ export class SelectionPlugin extends Plugin {
     }
 
     /**
+=======
+        return this.getTraversedNodes().filter((node) =>
+            this.areNodeContentsFullySelected(node, false)
+        );
+    }
+
+    /**
+     * @deprecated use `getTargetedNodes` instead.
+     *
+>>>>>>> upstream/18.0
      * Returns the nodes intersected by the current selection, up to the common
      * ancestor container (inclusive).
      *
@@ -2404,6 +2522,79 @@ export class SelectionPlugin extends Plugin {
     }
 
     /**
+<<<<<<< HEAD
+=======
+     * Returns the nodes targeted by the current selection, from top to bottom
+     * and left to right.
+     * This includes nodes intersected by the selection, as well as the deepest
+     * anchor and offset nodes that are at least partly contained in the
+     * selection.
+     * An element is considered intersected by the selection when reading the
+     * normalized selection's HTML contents would involve reading the opening or
+     * closing tags of the element.
+     * A collapsed selection returns the node in which it is collapsed.
+     *
+     * @example
+     * <p>a[]b</p> -> ["ab"]
+     * @example
+     * <p>a[b</p><h1>c]d</h1> -> [P, "ab", H1, "cd"]
+     * @example
+     * <p>a[b</p><h1>]cd</h1> -> [P, "ab", H1]
+     * @example
+     * <div><p>a[b</p><h1>cd</h1></div><h2>e]f</h2> -> [DIV, P, "ab", H1, "cd", H2, "ef"]
+     *
+     * @returns {Node[]}
+     */
+    getTargetedNodes() {
+        const selectionData = this.getSelectionData();
+        const selection = selectionData.deepEditableSelection;
+        const { commonAncestorContainer: root } = selectionData.editableSelection;
+
+        let targetedNodes = [];
+        if (selection.isCollapsed && selection.anchorNode.nodeType !== Node.TEXT_NODE) {
+            targetedNodes = [root];
+        }
+        targetedNodes.push(...descendants(root));
+        if (!targetedNodes.length) {
+            targetedNodes = [root];
+        }
+
+        targetedNodes = targetedNodes.filter(
+            (node) =>
+                selectionData.editableSelection.intersectsNode(node) ||
+                (node.nodeType === Node.TEXT_NODE &&
+                    (node === selection.anchorNode || node === selection.focusNode))
+        );
+
+        const modifiers = [
+            // Remove the editable from the list
+            (nodes) => (nodes[0] === this.editable ? nodes.slice(1) : nodes),
+            // Filter out text nodes that have no content selected
+            (nodes) => {
+                if (selection.isCollapsed) {
+                    return nodes;
+                } else {
+                    const edgeTextNodes = new Set(
+                        [...getUnselectedEdgeNodes(selection)].filter(
+                            (node) => node.nodeType === Node.TEXT_NODE
+                        )
+                    );
+                    return nodes.filter((node) => !edgeTextNodes.has(node));
+                }
+            },
+            // Custom modifiers
+            ...this.getResource("traversed_nodes_processors"),
+        ];
+        for (const modifier of modifiers) {
+            targetedNodes = modifier(targetedNodes);
+        }
+        return targetedNodes;
+    }
+
+    /**
+     * @deprecated use `getTargetedBlocks` instead.
+     *
+>>>>>>> upstream/18.0
      * Returns a Set of traversed blocks within the given range.
      *
      * @returns {Set<HTMLElement>}
@@ -2411,6 +2602,18 @@ export class SelectionPlugin extends Plugin {
     getTraversedBlocks() {
         return new Set(this.getTraversedNodes().map(closestBlock).filter(Boolean));
     }
+<<<<<<< HEAD
+=======
+
+    /**
+     * Returns a Set of targeted blocks within the given range.
+     *
+     * @returns {Set<HTMLElement>}
+     */
+    getTargetedBlocks() {
+        return new Set(this.getTargetedNodes().map(closestBlock).filter(Boolean));
+    }
+>>>>>>> upstream/18.0
     resetActiveSelection() {
         const selection = this.document.getSelection();
         selection.setBaseAndExtent(
@@ -2612,6 +2815,7 @@ export class SelectionPlugin extends Plugin {
         );
     }
 
+<<<<<<< HEAD
     focusEditable() {
         const { editableSelection, documentSelectionIsInEditable } = this.getSelectionData();
         if (documentSelectionIsInEditable) {
@@ -2623,6 +2827,30 @@ export class SelectionPlugin extends Plugin {
         const selection = this.document.getSelection();
         if (selection) {
             selection.setBaseAndExtent(anchorNode, anchorOffset, focusNode, focusOffset);
+=======
+    isNodeEditable(node) {
+        return this.getResource("is_node_editable_predicates").some((p) => p(node));
+    }
+
+    focusEditable() {
+        if (this.editable.contains(this.document.activeElement)) {
+            // Editor has focus — nothing to do.
+            return;
+        }
+
+        const { editableSelection, documentSelectionIsInEditable } = this.getSelectionData();
+
+        // Manualy focusing the editable is necessary to avoid some non-deterministic error in the HOOT unit tests.
+        this.editable.focus({ preventScroll: true });
+
+        if (!documentSelectionIsInEditable) {
+            // Selection is outside the editor — restore it.
+            const { anchorNode, anchorOffset, focusNode, focusOffset } = editableSelection;
+            const selection = this.document.getSelection();
+            if (selection) {
+                selection.setBaseAndExtent(anchorNode, anchorOffset, focusNode, focusOffset);
+            }
+>>>>>>> upstream/18.0
         }
     }
 }

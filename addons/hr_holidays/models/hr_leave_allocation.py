@@ -45,6 +45,7 @@ from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo import api, fields, models, _
 <<<<<<< HEAD
@@ -107,6 +108,11 @@ from odoo.addons.resource.models.utils import HOURS_PER_DAY
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+from calendar import monthrange
+
+from odoo import api, fields, models, _
 >>>>>>> upstream/18.0
 =======
 from calendar import monthrange
@@ -558,13 +564,21 @@ class HolidaysAllocation(models.Model):
                         default_holiday_status_id = self._default_holiday_status_id()
                     allocation.holiday_status_id = default_holiday_status_id
 
+<<<<<<< HEAD
     @api.depends('holiday_status_id', 'number_of_hours_display', 'number_of_days_display', 'type_request_unit')
+=======
+    @api.depends('holiday_status_id', 'number_of_hours_display', 'number_of_days_display', 'type_request_unit', 'employee_id')
+>>>>>>> upstream/18.0
     def _compute_number_of_days(self):
         for allocation in self:
             allocation_unit = allocation.type_request_unit
             if allocation_unit != 'hour':
                 allocation.number_of_days = allocation.number_of_days_display
+<<<<<<< HEAD
             else:
+=======
+            elif allocation_unit == 'hour' and allocation.employee_id:
+>>>>>>> upstream/18.0
                 allocation.number_of_days = allocation.number_of_hours_display / allocation.employee_id._get_hours_per_day(allocation.date_from)
 
     @api.depends('holiday_status_id', 'allocation_type')
@@ -652,7 +666,13 @@ class HolidaysAllocation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             carryover_date = date(date_from.year, MONTHS_TO_INTEGER[accrual_plan.carryover_month], accrual_plan.carryover_day)
+=======
+            max_day = monthrange(date_from.year, MONTHS_TO_INTEGER[accrual_plan.carryover_month])[1]
+            day = min(accrual_plan.carryover_day, max_day)
+            carryover_date = date(date_from.year, MONTHS_TO_INTEGER[accrual_plan.carryover_month], day)
+>>>>>>> upstream/18.0
 =======
             max_day = monthrange(date_from.year, MONTHS_TO_INTEGER[accrual_plan.carryover_month])[1]
             day = min(accrual_plan.carryover_day, max_day)
@@ -963,6 +983,10 @@ class HolidaysAllocation(models.Model):
         already_accrued = {allocation.id: allocation.already_accrued or (allocation.number_of_days != 0 and allocation.accrual_plan_id.accrued_gain_time == 'start') for allocation in self}
         first_allocation = _("""This allocation have already ran once, any modification won't be effective to the days allocated to the employee. If you need to change the configuration of the allocation, delete and create a new one.""")
         for allocation in self:
+<<<<<<< HEAD
+=======
+            expiration_date = False
+>>>>>>> upstream/18.0
             level_ids = allocation.accrual_plan_id.level_ids.sorted('sequence')
             if not level_ids:
                 continue
@@ -1057,6 +1081,11 @@ class HolidaysAllocation(models.Model):
                 if allocation.nextcall == carryover_date:
                     allocation.last_executed_carryover_date = carryover_date
                     if current_level.action_with_unused_accruals in ['lost', 'maximum']:
+<<<<<<< HEAD
+=======
+                        if current_level != first_level or (nextcall == expiration_date and allocation.number_of_days - leaves_taken == 0):
+                            allocation._add_days_to_allocation(current_level, current_level_maximum_leave, leaves_taken, period_start, period_end)
+>>>>>>> upstream/18.0
                         allocated_days_left = allocation.number_of_days - leaves_taken
                         allocation_max_days = 0 # default if unused_accrual are lost
                         if current_level.action_with_unused_accruals == 'maximum':
@@ -1137,7 +1166,13 @@ class HolidaysAllocation(models.Model):
                         current_level_maximum_leave = current_level.maximum_leave
                     else:
                         current_level_maximum_leave = current_level.maximum_leave / allocation.employee_id._get_hours_per_day(allocation.date_from)
+<<<<<<< HEAD
                 if allocation.actual_lastcall in {period_start, allocation.date_from} | set(level_start.keys()):
+=======
+                if allocation.actual_lastcall in {period_start, allocation.date_from} | set(level_start.keys())\
+                        or (allocation.actual_lastcall - get_timedelta(current_level.accrual_validity_count, current_level.accrual_validity_type)
+                            in {period_start, allocation.date_from} | set(level_start.keys())):
+>>>>>>> upstream/18.0
                     allocation._add_days_to_allocation(current_level, current_level_maximum_leave, leaves_taken, period_start, allocation.nextcall)
                     allocation.already_accrued = True
 
@@ -1276,6 +1311,10 @@ class HolidaysAllocation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    allocation.actual_lastcall = allocation.lastcall
+>>>>>>> upstream/18.0
 =======
                     allocation.actual_lastcall = allocation.lastcall
 >>>>>>> upstream/18.0
@@ -1720,7 +1759,11 @@ class HolidaysAllocation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         model_id = self.env.ref('hr_holidays.model_hr_leave_allocation').id
+=======
+        model_id = self.env['ir.model']._get_id('hr.leave.allocation')
+>>>>>>> upstream/18.0
 =======
         model_id = self.env['ir.model']._get_id('hr.leave.allocation')
 >>>>>>> upstream/18.0

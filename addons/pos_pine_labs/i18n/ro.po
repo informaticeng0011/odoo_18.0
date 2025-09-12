@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Wil Odoo, 2025
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2025-05-09 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,32 +30,56 @@ msgstr ""
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_client
 msgid "A client id issued directly to the merchant by Pine Labs."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Un ID de client emis direct comerciantului de către Pine Labs."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_merchant
 msgid "A merchant id issued directly to the merchant by Pine Labs."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Un ID de comerciant emis direct comerciantului de către Pine Labs."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_security_token
 msgid "A security token issued directly to the merchant by Pine Labs."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Un token de securitate emis direct comerciantului de către Pine Labs."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_store
 msgid "A store id issued directly to the merchant by Pine Labs."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Un ID de magazin emis direct comerciantului de către Pine Labs."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_allowed_payment_mode
 msgid "Accepted payment modes by Pine Labs for transactions."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moduri de plată acceptate de Pine Labs pentru tranzacții."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields.selection,name:pos_pine_labs.selection__pos_payment_method__pine_labs_allowed_payment_mode__all
 msgid "All"
+<<<<<<< HEAD
 msgstr "Tot"
+=======
+msgstr "Toate"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-javascript
@@ -63,23 +95,39 @@ msgstr "Card"
 #. module: pos_pine_labs
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_allowed_payment_mode
 msgid "Pine Labs Allowed Payment Modes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moduri de plată permise Pine Labs"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_client
 msgid "Pine Labs Client ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID Client Pine Labs"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-javascript
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Pine Labs Error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eroare Pine Labs"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_merchant
 msgid "Pine Labs Merchant ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID Comerciant Pine Labs"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-python
@@ -87,49 +135,86 @@ msgstr ""
 msgid ""
 "Pine Labs POS transaction cancelled. Retry again for collecting payment."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tranzacția POS Pine Labs a fost anulată. Încercați din nou pentru a colecta "
+"plata."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment__pine_labs_plutus_transaction_ref
 msgid "Pine Labs PlutusTransactionReferenceID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID Referință Tranzacție Plutus Pine Labs"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_security_token
 msgid "Pine Labs Security Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token de securitate Pine Labs"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_store
 msgid "Pine Labs Store ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID Magazin Pine Labs"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_test_mode
 msgid "Pine Labs Test Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mod Test Pine Labs"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-javascript
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Pine Labs get payment status request failed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cererea de verificare a statusului plății Pine Labs a eșuat"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-javascript
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Pine Labs make payment request failed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cererea de efectuare a plății Pine Labs a eșuat"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-javascript
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Pine Labs payment cancellation request failed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cererea de anulare a plății Pine Labs a eșuat"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model,name:pos_pine_labs.model_pos_payment_method
 msgid "Point of Sale Payment Methods"
+<<<<<<< HEAD
 msgstr "Metode plată Punct de Vânzare"
+=======
+msgstr "Metode de plată Punct de Vânzare"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model,name:pos_pine_labs.model_pos_payment
@@ -149,11 +234,21 @@ msgid ""
 "https://developer.pinelabs.com/in/instore/cloud-integration#Example-JSON-"
 "request-for-Void-ICB-on-UPI-transaction"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Necesar în timpul procesului de rambursare a comenzii: "
+"https://developer.pinelabs.com/in/instore/cloud-integration#Example-JSON-"
+"request-for-Void-ICB-on-UPI-transaction"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_test_mode
 msgid "Test Pine Labs transaction process."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testează procesul de tranzacție Pine Labs."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-python
@@ -162,6 +257,11 @@ msgid ""
 "The expected error code for the Pine Labs POS status request was not "
 "included in the response."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Codul de eroare așteptat pentru cererea de status POS Pine Labs nu a fost "
+"inclus în răspuns."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-python
@@ -173,9 +273,17 @@ msgstr "Acest terminal de plată este valabil numai pentru moneda INR"
 #. odoo-javascript
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Transaction failed due to inactivity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tranzacția a eșuat din cauza inactivității"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields.selection,name:pos_pine_labs.selection__pos_payment_method__pine_labs_allowed_payment_mode__upi
 msgid "Upi"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upi"
+>>>>>>> upstream/18.0

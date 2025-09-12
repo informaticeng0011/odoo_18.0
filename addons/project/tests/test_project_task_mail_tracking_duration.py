@@ -2,9 +2,16 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo.addons.mail.tests.mail_tracking_duration_mixin_case import MailTrackingDurationMixinCase
+<<<<<<< HEAD
 from odoo.tests import Form
 
 
+=======
+from odoo.tests import Form, tagged
+
+
+@tagged('is_query_count')
+>>>>>>> upstream/18.0
 class TestProjectTaskMailTrackingDuration(MailTrackingDurationMixinCase):
 
     @classmethod

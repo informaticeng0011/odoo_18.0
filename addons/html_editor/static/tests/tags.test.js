@@ -34,11 +34,22 @@ describe("to paragraph", () => {
         });
     });
 
+<<<<<<< HEAD
     test.skip("should turn a heading 1 into a paragraph after a triple click", async () => {
         await testEditor({
             contentBefore: "<h1>[ab</h1><h2>]cd</h2>",
             stepFunction: setTag("p"),
             contentAfter: "<p>[ab</p><h2>]cd</h2>",
+=======
+    test("should turn a heading 1 into a paragraph after a triple click", async () => {
+        await testEditor({
+            contentBefore: "<h1>[ab</h1><h2>]cd</h2>",
+            stepFunction: async (editor) => {
+                await tripleClick(editor.editable.querySelector("h1"));
+                setTag("p")(editor);
+            },
+            contentAfter: "<p>[ab]</p><h2>cd</h2>",
+>>>>>>> upstream/18.0
         });
     });
 
@@ -138,6 +149,7 @@ describe("to heading 1", () => {
         });
     });
 
+<<<<<<< HEAD
     test("should just turn the paragraph with selected content into a heading 1", async () => {
         await testEditor({
             contentBefore: "<p>[ab</p><p>]cd</p>",
@@ -151,6 +163,24 @@ describe("to heading 1", () => {
             contentBefore: "<p>ab[</p><p>cd]</p>",
             stepFunction: setTag("h1"),
             contentAfter: "<p>ab[</p><h1>cd]</h1>",
+=======
+    test("should turn the paragraph into a heading 1 (after triple click)", async () => {
+        await testEditor({
+            contentBefore: "<p>[ab</p><p>]cd</p>",
+            stepFunction: async (editor) => {
+                await tripleClick(editor.editable.querySelector("p"));
+                setTag("h1")(editor);
+            },
+            contentAfter: "<h1>[ab]</h1><p>cd</p>",
+        });
+    });
+
+    test("should turn two paragraphs into a heading 1 (from right inner edge)", async () => {
+        await testEditor({
+            contentBefore: "<p>ab[</p><p>cd]</p>",
+            stepFunction: setTag("h1"),
+            contentAfter: "<h1>ab[</h1><h1>cd]</h1>",
+>>>>>>> upstream/18.0
         });
     });
 
@@ -162,11 +192,22 @@ describe("to heading 1", () => {
         });
     });
 
+<<<<<<< HEAD
     test.skip("should turn a paragraph into a heading 1 after a triple click", async () => {
         await testEditor({
             contentBefore: "<p>[ab</p><h2>]cd</h2>",
             stepFunction: setTag("h1"),
             contentAfter: "<h1>[ab</h1><h2>]cd</h2>",
+=======
+    test("should turn a paragraph into a heading 1 after a triple click", async () => {
+        await testEditor({
+            contentBefore: "<p>[ab</p><h2>]cd</h2>",
+            stepFunction: async (editor) => {
+                await tripleClick(editor.editable.querySelector("p"));
+                setTag("h1")(editor);
+            },
+            contentAfter: "<h1>[ab]</h1><h2>cd</h2>",
+>>>>>>> upstream/18.0
         });
     });
 
@@ -255,7 +296,10 @@ describe("to heading 1", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -445,6 +489,9 @@ describe("to heading 1", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -589,12 +636,20 @@ describe("to heading 2", () => {
         });
     });
 
+<<<<<<< HEAD
     test.skip("should turn a paragraph into a heading 2 after a triple click", async () => {
         await testEditor({
             contentBefore: "<p>[ab</p><h1>]cd</h1>",
             stepFunction: setTag("h2"),
             contentAfter: "<h2>[ab</h2><h1>]cd</h1>",
         });
+=======
+    test("should turn a paragraph into a heading 2 after a triple click", async () => {
+        const { el, editor } = await setupEditor("<p>[ab</p><h1>]cd</h1>");
+        await tripleClick(el.querySelector("p"));
+        setTag("h2")(editor);
+        expect(getContent(el)).toBe("<h2>[ab]</h2><h1>cd</h1>");
+>>>>>>> upstream/18.0
     });
 
     test("should turn a div into a heading 2 (if div is eligible for a baseContainer)", async () => {
@@ -650,11 +705,22 @@ describe("to heading 3", () => {
         });
     });
 
+<<<<<<< HEAD
     test.skip("should turn a paragraph into a heading 3 after a triple click", async () => {
         await testEditor({
             contentBefore: "<p>[ab</p><h1>]cd</h1>",
             stepFunction: setTag("h3"),
             contentAfter: "<h3>[ab</h3><h1>]cd</h1>",
+=======
+    test("should turn a paragraph into a heading 3 after a triple click", async () => {
+        await testEditor({
+            contentBefore: "<p>[ab</p><h1>]cd</h1>",
+            stepFunction: async (editor) => {
+                await tripleClick(editor.editable.querySelector("p"));
+                setTag("h3")(editor);
+            },
+            contentAfter: "<h3>[ab]</h3><h1>cd</h1>",
+>>>>>>> upstream/18.0
         });
     });
 
@@ -775,11 +841,22 @@ describe("to blockquote", () => {
         });
     });
 
+<<<<<<< HEAD
     test.skip("should turn a heading 1 into a blockquote after a triple click", async () => {
         await testEditor({
             contentBefore: "<h1>[ab</h1><h2>]cd</h2>",
             stepFunction: setTag("blockquote"),
             contentAfter: "<blockquote>[ab</blockquote><h2>]cd</h2>",
+=======
+    test("should turn a heading 1 into a blockquote after a triple click", async () => {
+        await testEditor({
+            contentBefore: "<h1>[ab</h1><h2>]cd</h2>",
+            stepFunction: async (editor) => {
+                await tripleClick(editor.editable.querySelector("h1"));
+                setTag("blockquote")(editor);
+            },
+            contentAfter: "<blockquote>[ab]</blockquote><h2>cd</h2>",
+>>>>>>> upstream/18.0
         });
     });
 
@@ -879,6 +956,10 @@ describe("to blockquote", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        await manuallyDispatchProgrammaticEvent(anchorNode, "click", { detail: 6 });
+>>>>>>> upstream/18.0
 =======
         await manuallyDispatchProgrammaticEvent(anchorNode, "click", { detail: 6 });
 >>>>>>> upstream/18.0

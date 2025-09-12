@@ -32,6 +32,10 @@ export class DynamicModelFieldSelectorChar extends CharField {
     //---- Getters ----
     get getSelectorProps() {
         return {
+<<<<<<< HEAD
+=======
+            allowEmpty: !this.props.required,
+>>>>>>> upstream/18.0
             path: this.props.record.data[this.props.name],
             resModel: this.getResModel(),
             readonly: this.props.readonly,
@@ -55,7 +59,10 @@ export class DynamicModelFieldSelectorChar extends CharField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -87,6 +94,9 @@ export class DynamicModelFieldSelectorChar extends CharField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

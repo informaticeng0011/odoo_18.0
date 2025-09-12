@@ -2,7 +2,11 @@
 <templates id="template" xml:space="preserve">
     <t t-inherit="point_of_sale.ReceiptHeader" t-inherit-mode="extension">
         <xpath expr="//div[hasclass('pos-receipt-contact')]" position="after">
+<<<<<<< HEAD
             <t t-if="props.data.is_gcc_country">
+=======
+            <t t-if="props.data.is_gcc_country and props.data.show_title">
+>>>>>>> upstream/18.0
                 <br/>
                 <br/>
                 <div class="pos-receipt-header">
@@ -43,7 +47,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div>Served by / خدم بواسطة <t t-esc="props.data.cashier"/></div>
+=======
+                <div>Served by / خدم بواسطة <t t-esc="props.data.gcc_cashier"/></div>
+>>>>>>> upstream/18.0
 =======
                 <div>Served by / خدم بواسطة <t t-esc="props.data.gcc_cashier"/></div>
 >>>>>>> upstream/18.0

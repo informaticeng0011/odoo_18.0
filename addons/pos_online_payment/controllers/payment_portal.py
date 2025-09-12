@@ -122,7 +122,11 @@ class PaymentPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             user_sudo = request.env.ref('base.public_user')
+=======
+            user_sudo = pos_order_sudo.company_id._get_public_user()
+>>>>>>> upstream/18.0
 =======
             user_sudo = pos_order_sudo.company_id._get_public_user()
 >>>>>>> upstream/18.0
@@ -308,7 +312,11 @@ class PaymentPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             user_sudo = request.env.ref('base.public_user')
+=======
+            user_sudo = pos_order_sudo.company_id._get_public_user()
+>>>>>>> upstream/18.0
 =======
             user_sudo = pos_order_sudo.company_id._get_public_user()
 >>>>>>> upstream/18.0
@@ -497,7 +505,19 @@ class PaymentPortal(payment_portal.PaymentPortal):
         tx_sudo._process_pos_online_payment()
 
         rendering_context['state'] = 'success'
+<<<<<<< HEAD
         return self._render_pay_confirmation(rendering_context)
 
+=======
+        self._on_payment_successful(pos_order_sudo)
+
+        if exit_route:
+            return request.redirect(exit_route)
+        return self._render_pay_confirmation(rendering_context)
+
+    def _on_payment_successful(self, pos_order):
+        return
+
+>>>>>>> upstream/18.0
     def _render_pay_confirmation(self, rendering_context):
         return request.render('pos_online_payment.pay_confirmation', rendering_context)

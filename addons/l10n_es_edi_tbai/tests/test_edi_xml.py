@@ -90,7 +90,11 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_date': date(2022, 1, 1),
+=======
+            'invoice_date': date(2025, 1, 1),
+>>>>>>> upstream/18.0
 =======
             'invoice_date': date(2025, 1, 1),
 >>>>>>> upstream/18.0
@@ -305,6 +309,23 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
             })],
         })
 
+<<<<<<< HEAD
+=======
+    def create_total_refund(self):
+        move_reversal = self.env['account.move.reversal'].with_context(
+            active_model="account.move",
+            active_ids=self.out_invoice.ids
+        ).create({
+            'date': '2020-02-01',
+            'reason': 'no reason',
+            'journal_id': self.out_invoice.journal_id.id,
+        })
+        reversal = move_reversal.refund_moves()
+        reverse_move = self.env['account.move'].browse(reversal['res_id'])
+        reverse_move.action_post()
+        return reverse_move
+
+>>>>>>> upstream/18.0
     def test_xml_tree_post(self):
         """Test of Customer Invoice XML"""
         with freeze_time(self.frozen_today):
@@ -315,6 +336,25 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
             xml_expected = etree.fromstring(super()._get_sample_xml('xml_post.xml'))
             self.assertXmlTreeEqual(xml_doc, xml_expected)
 
+<<<<<<< HEAD
+=======
+    def test_xml_tree_post_refund(self):
+        """Test of Customer Invoice XML"""
+        with freeze_time(self.frozen_today):
+            edi_document = self.out_invoice._l10n_es_tbai_create_edi_document(cancel=False)
+            edi_document._generate_xml(self.out_invoice._l10n_es_tbai_get_values(cancel=False))
+            self.out_invoice.action_post()
+            self.out_invoice.l10n_es_tbai_post_document_id = edi_document.id
+            refund = self.create_total_refund()
+            edi_document = refund._l10n_es_tbai_create_edi_document(cancel=False)
+            edi_document._generate_xml(refund._l10n_es_tbai_get_values(cancel=False))
+            xml_doc = edi_document._get_xml()
+            xml_doc.remove(xml_doc.find("Signature", namespaces=NS_MAP))
+
+            xml_expected = etree.fromstring(super()._get_sample_xml('xml_post_refund.xml'))
+            self.assertXmlTreeEqual(xml_doc, xml_expected)
+
+>>>>>>> upstream/18.0
     def test_xml_tree_post_generic_sequence(self):
         """Test TBAI on moves whose sequence does not contain a '/'"""
         with freeze_time(self.frozen_today):
@@ -388,7 +428,11 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'invoice_date': date(2022, 1, 1),
+=======
+                'invoice_date': date(2025, 1, 1),
+>>>>>>> upstream/18.0
 =======
                 'invoice_date': date(2025, 1, 1),
 >>>>>>> upstream/18.0
@@ -739,7 +783,10 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <OperacionEnRecargoDeEquivalenciaORegimenSimplificado>N</OperacionEnRecargoDeEquivalenciaORegimenSimplificado>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1097,7 +1144,11 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <CabeceraFactura><FechaExpedicionFactura>01-01-2022</FechaExpedicionFactura></CabeceraFactura>
+=======
+<CabeceraFactura><FechaExpedicionFactura>01-01-2025</FechaExpedicionFactura></CabeceraFactura>
+>>>>>>> upstream/18.0
 =======
 <CabeceraFactura><FechaExpedicionFactura>01-01-2025</FechaExpedicionFactura></CabeceraFactura>
 >>>>>>> upstream/18.0

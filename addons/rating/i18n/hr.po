@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* rating
 # 
+=======
+# * rating
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Davor Bojkić <davor.bojkic@storm.hr>, 2024
 # Tina Milas, 2024
@@ -10,12 +15,18 @@
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
 # Milan Tribuson <one.mile.code@gmail.com>, 2024
 # Vladimir Vrgoč, 2024
+<<<<<<< HEAD
 # 
+=======
+# Ivica Dimjašević, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Vladimir Vrgoč, 2024\n"
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
@@ -24,6 +35,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-08-25 13:42+0000\n"
+"Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/rating/"
+"hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_external_page_invalid_partner
@@ -69,12 +93,20 @@ msgstr "Broj priloga"
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__rating_avg
 #: model:ir.model.fields,field_description:rating.field_rating_parent_mixin__rating_avg
 msgid "Average Rating"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosječna ocjena"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_parent_mixin__rating_avg_percentage
 msgid "Average Rating (%)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosječna ocjena (%)"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__feedback
@@ -134,7 +166,11 @@ msgstr ""
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__consumed
 msgid "Filled Rating"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Popunjena ocjena"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__message_follower_ids
@@ -321,17 +357,29 @@ msgstr ""
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__parent_res_id
 msgid "Parent Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadređeni dokument"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__parent_res_model
 msgid "Parent Document Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model nadređenog dokumenta"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__parent_res_name
 msgid "Parent Document Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv nadređenog dokumenta"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_form
@@ -346,7 +394,11 @@ msgstr ""
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__parent_res_model_id
 msgid "Parent Related Document Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model nadređenog povezanog dokumenta"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_parent_mixin__rating_percentage_satisfaction
@@ -357,7 +409,11 @@ msgstr "Postotak zadovoljavajućih ocjena"
 #: model:ir.model.fields,field_description:rating.field_rating_rating__rated_partner_id
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Rated Operator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocijenjeni operater"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model,name:rating.model_rating_rating
@@ -409,7 +465,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__rating_percentage_satisfaction
 #: model:ir.model.fields,field_description:rating.field_rating_parent_mixin__rating_percentage_satisfaction
 msgid "Rating Satisfaction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocjena zadovoljstva"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__rating_last_text
@@ -504,7 +564,11 @@ msgstr ""
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__res_name
 msgid "Resource name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv resursa"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #. odoo-python
@@ -533,7 +597,11 @@ msgstr "Pošalji povratnu informaciju"
 #: model:ir.model.fields,field_description:rating.field_rating_rating__create_date
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Submitted on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podneseno"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_external_page_submit
@@ -553,7 +621,11 @@ msgstr "Trenutno nema ocjenjivanja za ovaj objekt."
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__is_internal
 msgid "Visible Internally Only"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vidljivo samo interno"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #. odoo-python

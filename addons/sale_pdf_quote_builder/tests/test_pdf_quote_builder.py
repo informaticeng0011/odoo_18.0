@@ -8,6 +8,10 @@ from unittest.mock import patch
 from werkzeug.datastructures import FileStorage
 
 from odoo import Command
+<<<<<<< HEAD
+=======
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 from odoo.tests import Form, tagged
 from odoo.tools.misc import file_open
 
@@ -115,6 +119,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
         self.sale_order.commitment_date = '2121-12-21 12:21:12'
         sol_1, sol_2 = self.sale_order.order_line
         sol_1.update({
+<<<<<<< HEAD
+=======
+            'sequence': 0,
+>>>>>>> upstream/18.0
             'discount': 4.99,
             'tax_id': [
                 Command.create({'name': "test tax1"}),
@@ -142,7 +150,11 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
             'date_test': "11/04/2020",
             'datetime_test': "12/21/2121 13:21:12",
             'float_test': "4.99",
+<<<<<<< HEAD
             'integer_test': "10",
+=======
+            'integer_test': "0",
+>>>>>>> upstream/18.0
             'selection_test': "Quotation",
             'monetary_test': self.sale_order.currency_id.format(720.01),
 
@@ -234,7 +246,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -389,6 +404,7 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
         so_form.sale_order_template_id = so_tmpl_2
         so_form.save()
 
+<<<<<<< HEAD
         self.assertNotEqual(self.sale_order.quotation_document_ids, self.header)
 
 <<<<<<< HEAD
@@ -596,6 +612,30 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        self.assertIn(self.header, self.sale_order.available_product_document_ids)
+        so_form.record.quotation_document_ids[0].unlink()
+        so_form.save()
+        self.assertNotIn(self.header, self.sale_order.available_product_document_ids)
+        self.assertEqual(len(self.sale_order.quotation_document_ids), 0)
+
+    def test_non_pdf_attachment_inside_quote_form_save(self):
+        non_pdf_att = self.env['ir.attachment'].create({
+            'name': 'Not a PDF',
+            'datas': b64encode(b"hello"),
+            'mimetype': 'text/plain',
+        })
+
+        product_document = self.product_document
+
+        product_document.write({
+            'ir_attachment_id': non_pdf_att.id,
+        })
+        with self.assertRaises(ValidationError):
+            with Form(product_document) as doc_form:
+                doc_form.attached_on_sale = 'inside'
+
+>>>>>>> upstream/18.0
     def test_onchange_product_removes_previously_selected_documents(self):
         """ Check that changing a line that has a selected document unselect said document. """
 
@@ -618,6 +658,61 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
         msg = "There shouldn't be any selected product documents left."
         self.assertFalse(self.sale_order.order_line[0].product_document_ids, msg=msg)
 
+<<<<<<< HEAD
+=======
+    def test_available_documents_order(self):
+        product_document = self.product_document.copy()
+        product_document.sequence = self.product_document.sequence - 1
+        docs = self.sale_order.order_line[0].available_product_document_ids
+        self.assertEqual(len(docs), 2, "There should be 2 available documents.")
+        self.assertEqual(docs[0], product_document, "The first available document should be the one with the lowest sequence.")
+        self.assertEqual(
+            docs[1], self.product_document, "The second available document should be the one with the highest sequence."
+        )
+
+    def test_available_documents_multiple_products(self):
+        product_doc_copy = self.product_document.copy()
+        product2 = self._create_product(name="Test Product 2")
+        product_template_document2 = self.product_document.copy(
+            {'res_model': 'product.template', 'res_id': product2.product_tmpl_id.id, 'sequence': 1}
+        )
+        product_document2 = self.product_document.copy({'res_model': 'product.product', 'res_id': product2.id, 'sequence': 99})
+        self.sale_order.write(
+            {
+                'order_line': [
+                    Command.create({'product_id': self.product.id}),
+                    Command.create({'product_id': product2.id}),
+                ]
+            }
+        )
+        self.assertEqual(
+            self.sale_order.order_line[0].available_product_document_ids,
+            self.product_document | product_doc_copy,
+        )
+        self.assertFalse(
+            self.sale_order.order_line[1].available_product_document_ids,
+            "The second order line should not have any available product documents.",
+        )
+        self.assertEqual(
+            self.sale_order.order_line[0].available_product_document_ids,
+            self.sale_order.order_line[2].available_product_document_ids,
+            "The first and third order lines should have the same available product documents.",
+        )
+        self.assertEqual(
+            self.sale_order.order_line[3].available_product_document_ids[0].res_model,
+            'product.product',
+            "Alphabetical order of res_model should be respected.",
+        )
+        self.assertEqual(
+            self.sale_order.order_line[3].available_product_document_ids[0],
+            product_document2,
+        )
+        self.assertEqual(
+            self.sale_order.order_line[3].available_product_document_ids[1],
+            product_template_document2,
+        )
+
+>>>>>>> upstream/18.0
     def test_quotation_document_upload_no_template(self):
         """Check that uploading quotation documents get assigned the active company."""
         if 'website' not in self.env:

@@ -13,6 +13,10 @@
 # Bole <bole@dajmi5.com>, 2024
 # Igor Krizanovic <krizanovic.igor@gmail.com>, 2024
 # Vladimir Vrgoč, 2024
+<<<<<<< HEAD
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -20,7 +24,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Vladimir Vrgoč, 2024\n"
+=======
+"Last-Translator: Luka Carević <luka@uvid.hr>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,6 +51,15 @@ msgid ""
 "                                        Active Users\n"
 "                                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label\" invisible=\"active_user_count &gt; 1\">\n"
+"                                        Aktivni korisnici\n"
+"                                    </span>\n"
+"                                    <span class=\"o_form_label\" invisible=\"active_user_count &lt;= 1\">\n"
+"                                        Aktivni korisnici\n"
+"                                    </span>"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -80,6 +97,11 @@ msgid ""
 "<strong>Save</strong> this page and come back here to set up Cloudflare "
 "turnstile."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<strong>Spremite </strong> ovu stranicu i vratite se ovdje kako biste "
+"postavili Cloudflare Turnstile."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -105,6 +127,11 @@ msgid ""
 "API Keys allow your users to access Odoo with external tools when multi-"
 "factor authentication is enabled."
 msgstr ""
+<<<<<<< HEAD
+=======
+"API ključevi omogućuju vašim korisnicima pristup Odoo-u putem vanjskih alata"
+" kada je omogućena višefaktorska autentifikacija."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -157,7 +184,11 @@ msgstr "Omogućuje rad u multivalutnoj okolini"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Automatically enrich your contact base with company data"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatski obogatite svoju bazu kontakata podacima o tvrtkama."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -199,7 +230,11 @@ msgstr ""
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_informations
 msgid "Company Informations"
+<<<<<<< HEAD
 msgstr "Podaci o tvrtci"
+=======
+msgstr "Podaci o tvrtki"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_name
@@ -250,7 +285,11 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Document Layout"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izgled dokumenta"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__external_report_layout_id
@@ -268,6 +307,11 @@ msgid ""
 "Enable the profiling tool. Profiling may impact performance while being "
 "active."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Omogući alat za profiliranje. Profiliranje može utjecati na performanse dok "
+"je aktivno."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -293,7 +337,11 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Geolocate your partners"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geolocirajte svoje partnere"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -318,7 +366,11 @@ msgstr "Uvoz i Izvoz"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Integrate with mail client plugins"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Integracija s dodacima za klijente e-pošte"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -354,12 +406,20 @@ msgstr "Raspored"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Mail Plugin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodatak za mail"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Manage API Keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljanje API ključevima"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -434,12 +494,20 @@ msgstr "Pregled dokumenta"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__profiling_enabled_until
 msgid "Profiling enabled until"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Profiliranje omogućeno do"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Progressive Web App"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Progresivna web aplikacija"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -449,7 +517,11 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Protect your forms with CF Turnstile."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaštitite svoje obrasce CF Turnstileom."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_sms
@@ -469,7 +541,11 @@ msgstr "Šaljite poruke vašim kontaktima"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Set custom access rights for new users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postavljanje prilagođenih prava pristupa za nove korisnike"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.actions.act_window,name:base_setup.action_general_configuration
@@ -479,7 +555,11 @@ msgstr "Postavke"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__show_effect
 msgid "Show Effect"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži učinak"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_res_config_settings__company_country_code
@@ -496,6 +576,11 @@ msgid ""
 "This name will be used for the application when Odoo is installed through "
 "the browser."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ovaj će se naziv koristiti za aplikaciju kada se Odoo instalira putem "
+"preglednika."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_web_unsplash
@@ -552,6 +637,15 @@ msgid ""
 msgstr ""
 
 #. module: base_setup
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/base_setup/models/res_users.py:0
+msgid "You have to install the Discuss application to use this feature."
+msgstr ""
+
+#. module: base_setup
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_recaptcha
 msgid "reCAPTCHA"
 msgstr ""

@@ -5,6 +5,10 @@
 # Translators:
 # Wil Odoo, 2024
 # Ilya Rozhkov, 2024
+<<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +16,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Ilya Rozhkov, 2024\n"
+=======
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,6 +46,23 @@ msgid ""
 "                    </option>\n"
 "                </select>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<select id=\"simulated_payment_state\" class=\"form-select\">\n"
+"                    <option value=\"done\" title=\"Successful payment\">\n"
+"                        Успешный\n"
+"                    </option>\n"
+"                    <option value=\"pending\" title=\"Payment processing\">\n"
+"                        Обрабатывается\n"
+"                    </option>\n"
+"                    <option value=\"cancel\" title=\"Payment cancelled by customer\">\n"
+"                        Отменено\n"
+"                    </option>\n"
+"                    <option value=\"error\" title=\"Processing error\">\n"
+"                        Ошибка\n"
+"                    </option>\n"
+"                </select>"
+>>>>>>> upstream/18.0
 
 #. module: payment_demo
 #: model_terms:ir.ui.view,arch_db:payment_demo.express_inline_form

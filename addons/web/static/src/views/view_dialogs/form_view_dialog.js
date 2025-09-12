@@ -115,6 +115,12 @@ export class FormViewDialog extends Component {
                 res_model: this.props.resModel,
                 res_id: this.currentResId,
                 views: [[false, "form"]],
+<<<<<<< HEAD
+=======
+                context: {
+                    ...this.props.context,
+                },
+>>>>>>> upstream/18.0
             });
         }
     }

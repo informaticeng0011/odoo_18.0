@@ -6,6 +6,10 @@
 # Lyall Kindmurr, 2024
 # Corina Calin, 2024
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -13,7 +17,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,6 +87,12 @@ msgid ""
 "Adding %(user_name)s in this team will remove them from %(team_names)s. "
 "Working in multiple teams? Activate the option under Configuration>Settings."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Adăugarea lui %(user_name)s în această echipă îl va elimina din "
+"%(team_names)s. Lucrați în mai multe echipe? Activați opțiunea din "
+"Configurare>Setări."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #. odoo-python
@@ -86,6 +100,11 @@ msgstr ""
 msgid ""
 "Adding %(user_names)s in this team will remove them from %(team_names)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Adăugarea lui %(user_names)s în această echipă îi va elimina din "
+"%(team_names)s."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:res.groups,name:sales_team.group_sale_manager
@@ -351,7 +370,11 @@ msgstr ""
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__member_company_ids
 msgid "Member Company"
+<<<<<<< HEAD
 msgstr "Companie membru"
+=======
+msgstr "Companie membră"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__member_warning
@@ -366,7 +389,11 @@ msgstr "Membri"
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__member_warning
 msgid "Membership Issue Warning"
+<<<<<<< HEAD
 msgstr "Avertisment privind numărul de membru"
+=======
+msgstr "Avertisment privind problema membrului"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_has_error
@@ -389,7 +416,11 @@ msgstr "Mobil"
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__is_membership_multi
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__is_membership_multi
 msgid "Multiple Memberships Allowed"
+<<<<<<< HEAD
 msgstr "Sunt permise mai multe abonamente"
+=======
+msgstr "Sunt permise mai multe apartenențe"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__name
@@ -449,7 +480,11 @@ msgstr "Produs"
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__rating_ids
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__rating_ids
 msgid "Ratings"
+<<<<<<< HEAD
 msgstr "Ratings"
+=======
+msgstr "Evaluări"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.team_sales_department
@@ -460,12 +495,20 @@ msgstr "Vânzări"
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_tree
 msgid "Sales Men"
+<<<<<<< HEAD
 msgstr "Agent Vânzări"
+=======
+msgstr "Agenți de vânzări"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_search
 msgid "Sales Person"
+<<<<<<< HEAD
 msgstr "Agent vânzări"
+=======
+msgstr "Agent de vânzări"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_crm_team
@@ -491,7 +534,11 @@ msgstr "Membrii echipei de vânzări"
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__crm_team_member_all_ids
 msgid "Sales Team Members (incl. inactive)"
+<<<<<<< HEAD
 msgstr "Membrii echipei de vânzări (inclusiv inactiv)"
+=======
+msgstr "Membrii echipei de vânzări (inclusiv inactivi)"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.actions.act_window,name:sales_team.crm_team_action_config
@@ -519,7 +566,11 @@ msgstr "Căutare echipe de vânzări"
 #. odoo-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Sample data"
+<<<<<<< HEAD
 msgstr "Eșantion de date"
+=======
+msgstr "Date de probă"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__sequence
@@ -534,7 +585,11 @@ msgstr "Servicii"
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__is_favorite
 msgid "Show on dashboard"
+<<<<<<< HEAD
 msgstr "Arată pe tabloul de bord"
+=======
+msgstr "Afișează pe tabloul de bord"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor2
@@ -549,7 +604,11 @@ msgstr "Nume etichetă"
 #. module: sales_team
 #: model:ir.model.constraint,message:sales_team.constraint_crm_tag_name_uniq
 msgid "Tag name already exists!"
+<<<<<<< HEAD
 msgstr "Nume etichetă existent deja!"
+=======
+msgstr "Numele etichetei există deja!"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.actions.act_window,name:sales_team.sales_team_crm_tag_action
@@ -561,7 +620,11 @@ msgstr "Etichete"
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Team Details"
+<<<<<<< HEAD
 msgstr "Detalii despre echipă"
+=======
+msgstr "Detalii echipă"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__user_id
@@ -577,7 +640,11 @@ msgstr "Membrii echipei"
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_member_action
 msgid "Team Members are salespersons assigned to specific teams."
+<<<<<<< HEAD
 msgstr "Membrii echipei sunt agenți de vânzări repartizați în anumite echipe."
+=======
+msgstr "Membrii echipei sunt agenți de vânzări alocați unor echipe specifice."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.actions.act_window,name:sales_team.crm_team_action_pipeline
@@ -600,27 +667,46 @@ msgid ""
 "Those represent the different categories of things you have to do (e.g. "
 "\"Call\" or \"Prepare meeting\")."
 msgstr ""
+<<<<<<< HEAD
 "Acestea reprezintă diferitele categorii de lucruri pe care trebuie să le "
 "faceți (de exemplu, \"Apel\" sau \"Pregătire întâlnire\")."
+=======
+"Acestea reprezintă diferite categorii de lucruri pe care trebuie să le faci "
+"(de exemplu, \"Apel\" sau \"Pregătire întâlnire\")."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor6
 msgid "Training"
+<<<<<<< HEAD
 msgstr "Instructaj"
+=======
+msgstr "Instruire"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_member__user_in_teams_ids
 msgid ""
 "UX: Give users not to add in the currently chosen team to avoid duplicates"
 msgstr ""
+<<<<<<< HEAD
 "UX: oferiți utilizatorilor să nu adauge în echipa aleasă în prezent pentru a"
 " evita duplicatele"
+=======
+"UX: Nu permiteți utilizatorilor să adauge în echipa selectată pentru a evita"
+" duplicatele"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__member_company_ids
 #: model:ir.model.fields,help:sales_team.field_crm_team_member__user_company_ids
 msgid "UX: Limit to team company or all if no company"
+<<<<<<< HEAD
 msgstr "UX: Limitați la compania echipei sau la toate dacă nu există companie"
+=======
+msgstr ""
+"UX: Limitează la compania echipei sau la toate dacă nu există companie"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #. odoo-python
@@ -633,8 +719,13 @@ msgstr "Model grafic nedefinit pentru echipa de vânzări: %s"
 msgid ""
 "Use Sales Teams to organize your sales departments and draw up reports."
 msgstr ""
+<<<<<<< HEAD
 "Utilizați echipele de vânzări pentru a vă organiza departamentele de vânzări"
 " și pentru a întocmi rapoarte."
+=======
+"Folosiți echipele de vânzări pentru a vă organiza departamentele de vânzări "
+"și pentru a întocmi rapoarte."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_pipeline
@@ -652,7 +743,11 @@ msgid ""
 "Use Tags to manage and track your Opportunities (product structure, sales "
 "type, ...)"
 msgstr ""
+<<<<<<< HEAD
 "Utilizați etichete pentru a vă gestiona și urmări oportunitățile (structura "
+=======
+"Utilizați etichete pentru a gestiona și urmări oportunitățile (structura "
+>>>>>>> upstream/18.0
 "produsului, tipul vânzărilor, ...)"
 
 #. module: sales_team
@@ -673,7 +768,11 @@ msgstr "Utilizator în echipe"
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_res_users__sale_team_id
 msgid "User Sales Team"
+<<<<<<< HEAD
 msgstr "Echipa de vânzări a utilizatorilor"
+=======
+msgstr "Echipa de vânzări a utilizatorului"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:res.groups,name:sales_team.group_sale_salesman_all_leads
@@ -683,12 +782,20 @@ msgstr "Utilizator: Toate documentele"
 #. module: sales_team
 #: model:res.groups,name:sales_team.group_sale_salesman
 msgid "User: Own Documents Only"
+<<<<<<< HEAD
 msgstr "Utilizator: Numai documente proprii"
+=======
+msgstr "Utilizator: Doar documente proprii"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__member_ids
 msgid "Users assigned to this team."
+<<<<<<< HEAD
 msgstr "Utilizatorii desemnați acestei echipe."
+=======
+msgstr "Utilizatori alocați acestei echipe."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.salesteam_website_sales
@@ -701,6 +808,10 @@ msgstr "Site web"
 msgid ""
 "Working in multiple teams? Activate the option under Configuration>Settings."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Lucrați în mai multe echipe? Activați opțiunea din Configurare>Setări."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #. odoo-python
@@ -709,18 +820,31 @@ msgid ""
 "You are trying to create duplicate membership(s). We found that "
 "%(duplicates)s already exist(s)."
 msgstr ""
+<<<<<<< HEAD
 "Încercați să creați membru(i) duplicat(i). S-a detectat că %(duplicates)s "
 "există deja."
+=======
+"Încercați să creați apartenențe duplicate. Am găsit că %(duplicates)s există"
+" deja."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "e.g. North America"
+<<<<<<< HEAD
 msgstr "de exemplu. America de Nord"
+=======
+msgstr "ex: America de Nord"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.sales_team_crm_tag_view_form
 msgid "e.g. Services"
+<<<<<<< HEAD
 msgstr "de exemplu. Servicii"
+=======
+msgstr "ex: Servicii"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:res.groups,comment:sales_team.group_sale_salesman_all_leads
@@ -728,8 +852,13 @@ msgid ""
 "the user will have access to all records of everyone in the sales "
 "application."
 msgstr ""
+<<<<<<< HEAD
 "utilizatorul va avea acces la toate înregistrările tuturor celor din "
 "aplicația de vânzări."
+=======
+"utilizatorul va avea acces la toate înregistrările tuturor din aplicația de "
+"vânzări."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:res.groups,comment:sales_team.group_sale_salesman
@@ -743,5 +872,9 @@ msgid ""
 "the user will have an access to the sales configuration as well as statistic"
 " reports."
 msgstr ""
+<<<<<<< HEAD
 "utilizatorul va avea acces atât la configurarea vânzărilor, cât și la "
+=======
+"utilizatorul va avea acces la configurarea vânzărilor precum și la "
+>>>>>>> upstream/18.0
 "rapoartele statistice."

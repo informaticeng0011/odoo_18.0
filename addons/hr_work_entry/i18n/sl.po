@@ -51,6 +51,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -242,7 +246,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -392,7 +400,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_employee.py:0
 msgid "%s work entries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s delovni vnosi"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_employee_view_form
@@ -405,6 +417,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                            Delovni vnosi\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                            Delovni vnosi\n"
@@ -429,7 +447,11 @@ msgstr ""
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "<span>Hours</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Ure</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__active
@@ -453,7 +475,11 @@ msgstr "Prisotnost"
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_tree
 msgid "Beginning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Začetek"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields.selection,name:hr_work_entry.selection__hr_work_entry__state__cancelled
@@ -471,6 +497,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Previdno, koda se uporablja v številnih referencah, njena sprememba lahko "
+"povzroči neželene spremembe."
+>>>>>>> upstream/18.0
 =======
 "Previdno, koda se uporablja v številnih referencah, njena sprememba lahko "
 "povzroči neželene spremembe."
@@ -506,7 +537,11 @@ msgid "Conflict"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konflikt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konflikt"
 >>>>>>> upstream/18.0
@@ -523,7 +558,11 @@ msgstr "Konflikt"
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_search
 msgid "Conflicting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nasprotujoče si"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__conflict
@@ -544,7 +583,11 @@ msgstr "Koda države"
 #. module: hr_work_entry
 #: model_terms:ir.actions.act_window,help:hr_work_entry.hr_work_entry_type_action
 msgid "Create a new work entry type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustvari novo vrsto vnosa dela"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__create_uid
@@ -610,13 +653,21 @@ msgstr "Kader"
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_tree
 msgid "End"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konec"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__external_code
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry_type__external_code
 msgid "External Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zunanja koda"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__date_start
@@ -627,7 +678,11 @@ msgstr "Od"
 #: model:ir.model,name:hr_work_entry.model_hr_work_entry
 msgid "HR Work Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vnos dela v kadrovsko službo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vnos dela v kadrovsko službo"
 >>>>>>> upstream/18.0
@@ -636,7 +691,11 @@ msgstr "Vnos dela v kadrovsko službo"
 #: model:ir.model,name:hr_work_entry.model_hr_work_entry_type
 msgid "HR Work Entry Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta vnosa dela v kadrovsko službo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta vnosa dela v kadrovsko službo"
 >>>>>>> upstream/18.0
@@ -644,7 +703,11 @@ msgstr "Vrsta vnosa dela v kadrovsko službo"
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_employee__has_work_entries
 msgid "Has Work Entries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima delovne vnose"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__id
@@ -659,6 +722,11 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the work "
 "entry type without removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Če je aktivno polje nastavljeno na »false«, lahko skrijete vrsto vnosa dela,"
+" ne da bi jo odstranili."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__write_uid
@@ -693,12 +761,20 @@ msgstr "Ni podatkov za prikaz"
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "Note: Validated work entries cannot be modified."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opomba: Potrjenih vnosov dela ni mogoče spreminjati."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.overtime_work_entry_type
 msgid "Overtime Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadure"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__code
@@ -719,7 +795,11 @@ msgid "Resource Time Off Detail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podrobnosti o prostem času vira"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podrobnosti o prostem času vira"
 >>>>>>> upstream/18.0
@@ -754,12 +834,20 @@ msgstr "Podrobnosti o prostem času vira"
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_search
 msgid "Search Work Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iskanje delovnega vnosa"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_search
 msgid "Search Work Entry Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta vnosa iskanja dela"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry_type__sequence
@@ -770,7 +858,11 @@ msgstr "Zaporedje"
 #. odoo-javascript
 #: code:addons/hr_work_entry/static/src/xml/work_entry_templates.xml:0
 msgid "Solve conflicts first"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najprej rešite konflikte"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_search
@@ -780,7 +872,11 @@ msgstr "Začetni datum"
 #. module: hr_work_entry
 #: model:ir.model.constraint,message:hr_work_entry.constraint_hr_work_entry__work_entry_start_before_end
 msgid "Starting time should be before end time."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Začetni čas mora biti pred končnim časom."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__state
@@ -806,12 +902,20 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "This work entry is validated. You can't delete it."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta delovni vnos je potrjen. Ne morete ga izbrisati."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_form
 msgid "Time Off Options"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Možnosti prostega časa"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__date_stop
@@ -828,6 +932,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Poskusite dodati nekaj zapisov ali pa se prepričajte, da v iskalni vrstici "
+"ni aktivnega filtra."
+>>>>>>> upstream/18.0
 =======
 "Poskusite dodati nekaj zapisov ali pa se prepričajte, da v iskalni vrstici "
 "ni aktivnega filtra."
@@ -860,13 +969,21 @@ msgstr "Nedoločeno"
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "Undefined Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nedoločen tip"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,help:hr_work_entry.field_hr_work_entry__external_code
 #: model:ir.model.fields,help:hr_work_entry.field_hr_work_entry_type__external_code
 msgid "Use this code to export your data to a third party"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporabite to kodo za izvoz podatkov tretji osebi"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields.selection,name:hr_work_entry.selection__hr_work_entry__state__validated
@@ -877,7 +994,11 @@ msgstr "Potrjeno"
 #. module: hr_work_entry
 #: model:ir.model.constraint,message:hr_work_entry.constraint_hr_work_entry__work_entries_no_validated_conflict
 msgid "Validated work entries cannot overlap"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preverjeni vnosi dela se ne smejo prekrivati"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_resource_calendar_attendance
@@ -933,7 +1054,11 @@ msgid "Work Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Delovni vnosi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Delovni vnosi"
 >>>>>>> upstream/18.0
@@ -1076,7 +1201,11 @@ msgstr "Delovni vnosi"
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_hr_user_work_entry_employee
 msgid "Work Entries Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Delovni vnosi Zaposleni"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.actions.act_window,name:hr_work_entry.hr_work_entry_action
@@ -1085,7 +1214,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "Work Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vnos dela"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vnos dela"
 >>>>>>> upstream/18.0
@@ -1093,7 +1226,11 @@ msgstr "Vnos dela"
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "Work Entry Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime delovnega vnosa"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__work_entry_type_id
@@ -1103,7 +1240,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.resource_calendar_leaves_view_search_inherit
 msgid "Work Entry Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta vnosa dela"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta vnosa dela"
 >>>>>>> upstream/18.0
@@ -1111,17 +1252,29 @@ msgstr "Vrsta vnosa dela"
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_form
 msgid "Work Entry Type Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime vrste vnosa dela"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.actions.act_window,name:hr_work_entry.hr_work_entry_type_action
 msgid "Work Entry Types"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrste vnosov dela"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.constraint,message:hr_work_entry.constraint_hr_work_entry__work_entry_has_end
 msgid "Work entry must end. Please define an end date or a duration."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vnos dela se mora končati. Določite končni datum ali trajanje."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #. odoo-python
@@ -1130,14 +1283,27 @@ msgid ""
 "You can't change the Country of this work entry type cause it's currently "
 "used by the system. You need to delete related working entries first."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Države za to vrsto delovnega vnosa ne morete spremeniti, ker jo sistem "
+"trenutno uporablja. Najprej morate izbrisati povezane delovne vnose."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "You can't change the country of this specific work entry type."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Države za to specifično vrsto vnosa dela ne morete spremeniti."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.constraint,message:hr_work_entry.constraint_hr_user_work_entry_employee_user_id_employee_id_unique
 msgid "You cannot have the same employee twice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Istega zaposlenega ne moreš imeti dvakrat."
+>>>>>>> upstream/18.0

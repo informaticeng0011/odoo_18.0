@@ -40,7 +40,11 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
             },
         },
         {
+<<<<<<< HEAD
             trigger: ".o-mail-AttachmentCard:not(.o-isUploading)", // waiting the attachment to be uploaded
+=======
+            trigger: '.o-mail-AttachmentCard:not(.o-isUploading):contains("file1.txt")',
+>>>>>>> upstream/18.0
         },
         {
             content: "Open full composer",
@@ -105,7 +109,11 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
                 const files = [new File(["hi there"], "file2.txt", { type: "text/plain" })];
                 await dragenterFiles(".o_mail_composer_form_view .o_form_renderer", files);
                 await dropFiles(".o-Dropzone", files);
+<<<<<<< HEAD
             }
+=======
+            },
+>>>>>>> upstream/18.0
         },
         {
             content: "Check the attachment is listed",
@@ -122,6 +130,23 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
                 '.mail-composer-template-dropdown.popover .o-dropdown-item:contains("Test template")',
         },
         {
+<<<<<<< HEAD
+=======
+            content: "Verify admin template is NOT listed",
+            trigger: ".mail-composer-template-dropdown.popover",
+            run() {
+                const hasAdminTemplate = [...document.querySelectorAll(".o-dropdown-item")].some(
+                    (item) => item.textContent.includes("Test template for admin")
+                );
+                if (hasAdminTemplate) {
+                    console.error(
+                        "Template assigned to the admin is visible to a non-assigned user! This should not happen."
+                    );
+                }
+            },
+        },
+        {
+>>>>>>> upstream/18.0
             content: "Send message from full composer",
             trigger: ".o_mail_send",
             run: "click",
@@ -173,7 +198,11 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
                 if ((bodyContent.match(/--\nErnest/g) || []).length !== 1) {
                     console.log("Full composer should contain the user's signature once.");
                 }
+<<<<<<< HEAD
             }
+=======
+            },
+>>>>>>> upstream/18.0
         },
         {
             content: "Write something in full composer",
@@ -220,7 +249,11 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
                 if ((bodyContent.match(/--\nErnest/g) || []).length !== 0) {
                     console.error("The composer should not contain the user's signature.");
                 }
+<<<<<<< HEAD
             }
+=======
+            },
+>>>>>>> upstream/18.0
         },
         {
             content: "Close full composer",
@@ -234,8 +267,13 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
         },
         {
             content: "Send message from chatter",
+<<<<<<< HEAD
             trigger: ".o-mail-Composer-send",
             run: "click"
+=======
+            trigger: ".o-mail-Composer-send:enabled",
+            run: "click",
+>>>>>>> upstream/18.0
         },
         {
             content: "Check message is shown",
@@ -255,8 +293,13 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
         },
         {
             content: "Send message from chatter",
+<<<<<<< HEAD
             trigger: ".o-mail-Composer-send",
             run: "click"
+=======
+            trigger: ".o-mail-Composer-send:enabled",
+            run: "click",
+>>>>>>> upstream/18.0
         },
         {
             content: "Check message is shown",

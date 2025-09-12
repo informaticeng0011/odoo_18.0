@@ -1,7 +1,12 @@
 import { normalizeCSSColor } from "@web/core/utils/colors";
 import { removeClass } from "./dom";
 import { isBold, isDirectionSwitched, isItalic, isStrikeThrough, isUnderline } from "./dom_info";
+<<<<<<< HEAD
 import { closestElement } from "./dom_traversal";
+=======
+import { closestElement, closestPath, findNode } from "./dom_traversal";
+import { isBlock } from "./blocks";
+>>>>>>> upstream/18.0
 
 /**
  * Array of all the classes used by the editor to change the font size.
@@ -82,7 +87,12 @@ export const formatsSpecs = {
             ),
     },
     fontSize: {
+<<<<<<< HEAD
         isFormatted: (node) => closestElement(node)?.style["font-size"],
+=======
+        isFormatted: (node) =>
+            !!findNode(closestPath(node), (el) => el.style?.["font-size"], isBlock),
+>>>>>>> upstream/18.0
         hasStyle: (node) => node.style && node.style["font-size"],
         addStyle: (node, props) => {
             node.style["font-size"] = props.size;
@@ -92,7 +102,15 @@ export const formatsSpecs = {
     },
     setFontSizeClassName: {
         isFormatted: (node) =>
+<<<<<<< HEAD
             FONT_SIZE_CLASSES.find((cls) => closestElement(node)?.classList?.contains(cls)),
+=======
+            !!findNode(
+                closestPath(node),
+                (el) => FONT_SIZE_CLASSES.find((cls) => el.classList?.contains(cls)),
+                isBlock
+            ),
+>>>>>>> upstream/18.0
         hasStyle: (node, props) => FONT_SIZE_CLASSES.find((cls) => node.classList.contains(cls)),
         addStyle: (node, props) => {
             node.style.removeProperty("font-size");

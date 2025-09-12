@@ -94,7 +94,10 @@ class TestRedirect(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -231,6 +234,9 @@ class TestRedirect(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -372,16 +378,26 @@ class TestRedirect(HttpCase):
             self.assertURLEqual(resp.headers.get('Location'), f"/test_website/308/name-{rec_unpublished.id}")
 
             resp = self.url_open(f"/test_website/308/name-{rec_unpublished.id}", allow_redirects=False)
+<<<<<<< HEAD
             self.assertEqual(resp.status_code, 403)
             self.assertEqual(resp.text, "CUSTOM 403")
+=======
+            self.assertEqual(resp.status_code, 404)
+            self.assertEqual(resp.text, "CUSTOM 404")
+>>>>>>> upstream/18.0
 
             resp = self.url_open(f"/test_website/200/xx-{rec_unpublished.id}", allow_redirects=False)
             self.assertEqual(resp.status_code, 308)
             self.assertURLEqual(resp.headers.get('Location'), f"/test_website/308/xx-{rec_unpublished.id}")
 
             resp = self.url_open(f"/test_website/308/xx-{rec_unpublished.id}", allow_redirects=False)
+<<<<<<< HEAD
             self.assertEqual(resp.status_code, 403)
             self.assertEqual(resp.text, "CUSTOM 403")
+=======
+            self.assertEqual(resp.status_code, 404)
+            self.assertEqual(resp.text, "CUSTOM 404")
+>>>>>>> upstream/18.0
 
             # with seo_name as slug
             rec_published.seo_name = "seo_name"
@@ -399,8 +415,13 @@ class TestRedirect(HttpCase):
             self.assertURLEqual(resp.headers.get('Location'), f"/test_website/308/xx-{rec_unpublished.id}")
 
             resp = self.url_open(f"/test_website/308/xx-{rec_unpublished.id}", allow_redirects=False)
+<<<<<<< HEAD
             self.assertEqual(resp.status_code, 403)
             self.assertEqual(resp.text, "CUSTOM 403")
+=======
+            self.assertEqual(resp.status_code, 404)
+            self.assertEqual(resp.text, "CUSTOM 404")
+>>>>>>> upstream/18.0
 
             resp = self.url_open("/test_website/200/xx-100", allow_redirects=False)
             self.assertEqual(resp.status_code, 308)
@@ -435,10 +456,17 @@ class TestRedirect(HttpCase):
         r = self.url_open(url_rec1)
         self.assertEqual(r.status_code, 200)
 
+<<<<<<< HEAD
         # 2. Accessing unpublished record: expecting 403 by default
         rec1.is_published = False
         r = self.url_open(url_rec1)
         self.assertEqual(r.status_code, 403)
+=======
+        # 2. Accessing unpublished record: expecting 404 for public users
+        rec1.is_published = False
+        r = self.url_open(url_rec1)
+        self.assertEqual(r.status_code, 404)
+>>>>>>> upstream/18.0
 
         # 3. Accessing unpublished record with redirect to a 404: expecting 404
         redirect = self.env['website.rewrite'].create({

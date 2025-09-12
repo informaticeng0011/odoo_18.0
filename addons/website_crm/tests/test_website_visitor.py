@@ -9,7 +9,11 @@ from odoo.tests import tagged
 from odoo.tests.common import users
 
 
+<<<<<<< HEAD
 @tagged('website_visitor')
+=======
+@tagged('website_visitor', 'is_query_count')
+>>>>>>> upstream/18.0
 class TestWebsiteVisitor(TestCrmCommon, WebsiteVisitorTestsCommon):
 
     def setUp(self):

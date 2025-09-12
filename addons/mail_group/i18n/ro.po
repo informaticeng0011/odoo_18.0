@@ -25,6 +25,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
@@ -108,7 +112,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Dorin Hongu <dhongu@gmail.com>, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -176,13 +184,21 @@ msgstr ""
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
 msgid ") <span invisible=\"not send_email\">and send them an email</span>."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr ") <span invisible=\"not send_email\">și trimiteți-le un e-mail</span>."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.confirmation_subscription
 msgid "<br/> You'll be notified as soon as some new content is posted."
+<<<<<<< HEAD
 msgstr ""
 "<br/> Vei fi notificat cândva cândva cândva cândva cândva cândva cândva."
+=======
+msgstr "<br/> Vei fi notificat imediat ce este publicat conținut nou."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:mail.template,body_html:mail_group.mail_template_list_subscribe
@@ -239,6 +255,15 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div>\n"
+"                <p>Bună <t t-out=\"object.partner_id.name or ''\"/>,</p>\n"
+"                <p>Mai jos găsești instrucțiunile pentru lista de distribuție <t t-out=\"object.mail_group_id.name\"/>.</p>\n"
+"                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg or ''\"/></p>\n"
+"            </div>\n"
+"        "
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.message_footer
@@ -272,6 +297,11 @@ msgid ""
 "<i class=\"oi oi-arrow-left\" role=\"img\" aria-label=\"Previous message\" "
 "title=\"Previous message\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-left\" role=\"img\" aria-label=\"Mesaj anterior\" "
+"title=\"Mesaj anterior\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.group_message
@@ -279,6 +309,11 @@ msgid ""
 "<i class=\"oi oi-arrow-right\" role=\"img\" aria-label=\"Next message\" "
 "title=\"Next message\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\" role=\"img\" aria-label=\"Mesaj următor\" "
+"title=\"Mesaj următor\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.message_attachments
@@ -286,6 +321,11 @@ msgid ""
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\""
 " title=\"Show attachments\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Afișează "
+"atașamente\" title=\"Afișează atașamente\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.messages_short
@@ -293,6 +333,11 @@ msgid ""
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show replies\" "
 "title=\"Show replies\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Afișează "
+"răspunsuri\" title=\"Afișează răspunsuri\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.message_attachments
@@ -300,6 +345,11 @@ msgid ""
 "<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Hide "
 "attachments\" title=\"Hide attachments\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Ascunde "
+"atașamente\" title=\"Ascunde atașamente\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.messages_short
@@ -307,6 +357,11 @@ msgid ""
 "<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Hide replies\" "
 "title=\"Hide replies\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Ascunde "
+"răspunsuri\" title=\"Ascunde răspunsuri\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.messages_short
@@ -319,6 +374,11 @@ msgid ""
 "<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != 'allow'\">Whitelisted</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" invisible=\"author_moderation != 'ban'\">Banned</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != 'allow'\">Listă albă</span>\n"
+"                            <span class=\"ms-2 badge text-bg-danger\" invisible=\"author_moderation != 'ban'\">Interzis</span>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.message_footer
@@ -337,7 +397,11 @@ msgid ""
 "                    <br/>"
 msgstr ""
 "<span>Nu există încă niciun grup de mesaje.</span>\n"
+<<<<<<< HEAD
 "                    <br/>"
+=======
+"<br/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_defaults
@@ -345,7 +409,11 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
+<<<<<<< HEAD
 "Un dicționar Python care va fi citit pentru a oferi valori implicite la "
+=======
+"Un dicționar Python care va fi evaluat pentru a oferi valori implicite la "
+>>>>>>> upstream/18.0
 "crearea de noi înregistrări pentru acest alias."
 
 #. module: mail_group
@@ -358,7 +426,11 @@ msgstr "Acceptă"
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group_message__moderation_status__accepted
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
 msgid "Accepted"
+<<<<<<< HEAD
 msgstr "Acceptat(ă)"
+=======
+msgstr "Acceptat"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__action
@@ -377,8 +449,13 @@ msgid ""
 "Add this email address to white list of people and accept all pending "
 "messages from the same author."
 msgstr ""
+<<<<<<< HEAD
 "Adaugă această adresă de email la lista albă a persoanelor și acceptă toate "
 "mesajele în așteptare de la același autor."
+=======
+"Adaugă această adresă de email la lista albă și acceptă toate mesajele în "
+"așteptare de la același autor."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_id
@@ -389,32 +466,56 @@ msgstr "Alias"
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_contact
 msgid "Alias Contact Security"
+<<<<<<< HEAD
 msgstr "Alias Contact Securitate"
+=======
+msgstr "Securitate contact alias"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_domain_id
 msgid "Alias Domain"
+<<<<<<< HEAD
 msgstr "Alias Domeniu"
+=======
+msgstr "Domeniu alias"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_domain
 msgid "Alias Domain Name"
+<<<<<<< HEAD
 msgstr "Alias Nume de domeniu"
+=======
+msgstr "Nume domeniu alias"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_full_name
 msgid "Alias Email"
+<<<<<<< HEAD
 msgstr "Alias Email"
+=======
+msgstr "Email alias"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_name
 msgid "Alias Name"
+<<<<<<< HEAD
 msgstr "Alias nume"
+=======
+msgstr "Nume alias"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_status
 msgid "Alias Status"
+<<<<<<< HEAD
 msgstr "Stare Alias"
+=======
+msgstr "Stare alias"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_status
@@ -424,7 +525,11 @@ msgstr "Starea aliasului evaluată pe ultimul mesaj primit."
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_model_id
 msgid "Aliased Model"
+<<<<<<< HEAD
 msgstr "Model de Alias"
+=======
+msgstr "Model alias"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -434,17 +539,29 @@ msgstr "Toate mesajele acestui grup"
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_moderation_view_search
 msgid "Allowed Emails"
+<<<<<<< HEAD
 msgstr "E-mailuri permise"
+=======
+msgstr "Email-uri permise"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Alone we can do so little, together we can do so much"
+<<<<<<< HEAD
 msgstr "Singuri putem face atât de puțin, împreună putem face atât de multe"
+=======
+msgstr "Singuri putem face atât de puțin, împreună putem face atât de mult"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group_moderation__status__allow
 msgid "Always Allow"
+<<<<<<< HEAD
 msgstr "Permite Întotdeauna"
+=======
+msgstr "Permite întotdeauna"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #. odoo-javascript
@@ -475,7 +592,11 @@ msgstr "Autor"
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__author_moderation
 msgid "Author Moderation Status"
+<<<<<<< HEAD
 msgstr "Starea de moderare a autorului"
+=======
+msgstr "Stare moderare autor"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group_message__author_id
@@ -483,8 +604,13 @@ msgid ""
 "Author of the message. If not set, email_from may hold an email address that"
 " did not match any partner."
 msgstr ""
+<<<<<<< HEAD
 "Autorul mesajului. Dacă nu este selectat, email_from (expeditor_email) poate"
 " să conțină o adresa de email care nu s-a potrivit cu nici un partener."
+=======
+"Autorul mesajului. Dacă nu este setat, email_from poate conține o adresă de "
+"email care nu se potrivește cu niciun partener."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__access_group_id
@@ -502,7 +628,11 @@ msgstr "Notificare automată"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_list
 msgid "Ban"
+<<<<<<< HEAD
 msgstr "Prohibit"
+=======
+msgstr "Interzice"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
@@ -516,8 +646,13 @@ msgid ""
 "Ban this email address and reject all pending messages from the same author "
 "and send an email to the author"
 msgstr ""
+<<<<<<< HEAD
 "Interzice această adresă de email și respinge toate mesajele în așteptare de"
 " la același autor și trimite un e-mail autorului"
+=======
+"Interzice această adresă de email, respinge toate mesajele în așteptare de "
+"la același autor și trimite un e-mail autorului"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group_message__author_moderation__ban
@@ -527,7 +662,11 @@ msgstr "Interzis"
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_moderation_view_search
 msgid "Banned Emails"
+<<<<<<< HEAD
 msgstr "Email-uri prohibite"
+=======
+msgstr "Email-uri interzise"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.group_archive_menu
@@ -547,12 +686,20 @@ msgstr "Poate gestiona membrii"
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__group_message_child_ids
 msgid "Children"
+<<<<<<< HEAD
 msgstr "Subordonati"
+=======
+msgstr "Submesaje"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Choose or configure a custom domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alege sau configurează un domeniu personalizat"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:mail.template,subject:mail_group.mail_template_list_subscribe
@@ -562,23 +709,39 @@ msgstr "Confirmă abonarea la {{ object.name }}"
 #. module: mail_group
 #: model:mail.template,subject:mail_group.mail_template_list_unsubscribe
 msgid "Confirm unsubscription to {{ object.name }}"
+<<<<<<< HEAD
 msgstr "Confirmă dezabonarea la {{ object.name }}"
+=======
+msgstr "Confirmă dezabonarea de la {{ object.name }}"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__body
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__body
 msgid "Contents"
+<<<<<<< HEAD
 msgstr "Conținuturi"
+=======
+msgstr "Conținut"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.actions.act_window,help:mail_group.mail_group_action
 msgid "Create a Mail Group"
+<<<<<<< HEAD
 msgstr "Crează un grup de mail"
+=======
+msgstr "Creează un grup de email"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Create a new group"
+<<<<<<< HEAD
 msgstr "Crează un nou grup"
+=======
+msgstr "Creează un nou grup"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__create_uid
@@ -595,7 +758,11 @@ msgstr "Creat de"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__create_date
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_moderation__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__is_moderator
@@ -641,7 +808,11 @@ msgstr "E-mail"
 #. odoo-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Email %s is invalid"
+<<<<<<< HEAD
 msgstr "Email-ul %s este invalid"
+=======
+msgstr "E-mailul %s este invalid"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_email
@@ -661,22 +832,38 @@ msgid ""
 "found and replaces the author_id field in the chatter."
 msgstr ""
 "Adresa de e-mail a expeditorului. Acest câmp este setat când nu se găsește "
+<<<<<<< HEAD
 "partener și înlocuiește câmpul autor_id în chat."
+=======
+"un partener și înlocuiește câmpul author_id în chat."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
+<<<<<<< HEAD
 msgstr "Domeniu de e-mail de ex. „example.com” în „odoo@example.com”"
+=======
+msgstr "Domeniu de e-mail, ex. 'example.com' în 'odoo@example.com'"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Emails"
+<<<<<<< HEAD
 msgstr "Email-uri"
+=======
+msgstr "E-mailuri"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Emails waiting an action for this group"
+<<<<<<< HEAD
 msgstr "Email-uri care așteaptă o acțiune pentru acest grup"
+=======
+msgstr "E-mailuri care așteaptă o acțiune pentru acest grup"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group__access_mode__public
@@ -724,8 +911,13 @@ msgstr "Nume grup"
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Group message can only be linked to mail group. Current model is %s."
 msgstr ""
+<<<<<<< HEAD
 "Mesajul de grup poate fi doar legat de grupul de mail. Modelul curent este "
 "%s."
+=======
+"Mesajul de grup poate fi legat doar de grupul de e-mail. Modelul curent este"
+" %s."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__moderation_guidelines_msg
@@ -758,8 +950,13 @@ msgid ""
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr ""
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID-ul înregistrării părinte care deține aliasul (exemplu: proiect care "
+"deține aliasul de creare a sarcinii)"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_bounced_content
@@ -768,7 +965,11 @@ msgid ""
 "instead of the default message."
 msgstr ""
 "Dacă este setat, acest conținut va fi trimis automat utilizatorilor "
+<<<<<<< HEAD
 "neautorizați în loc de mesajul implicit."
+=======
+"neautorizați în locul mesajului implicit."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__image_128
@@ -785,7 +986,11 @@ msgstr "Acțiune invalidă pentru generarea URL-ului (%s)"
 #. odoo-python
 #: code:addons/mail_group/models/mail_group_moderation.py:0
 msgid "Invalid email address “%s”"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adresă de e-mail nevalidă “%s”"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.invalid_token_subscription
@@ -805,7 +1010,11 @@ msgstr "Este interzis"
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__is_group_moderated
 msgid "Is Group Moderated"
+<<<<<<< HEAD
 msgstr "Este moderat de grup"
+=======
+msgstr "Este grupul moderat"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__is_member
@@ -825,7 +1034,11 @@ msgstr "Aderă"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__write_uid
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_moderation__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__write_date
@@ -834,7 +1047,11 @@ msgstr "Ultima actualizare făcută de"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__write_date
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_moderation__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -846,13 +1063,22 @@ msgstr "Părăsește"
 #: model_terms:ir.actions.act_window,help:mail_group.mail_group_member_action
 msgid "Let people subscribe to your list online or manually add them here."
 msgstr ""
+<<<<<<< HEAD
 "Lasați oamenii să se aboneze la lista dvs. online sau adăugați-i manual "
 "aici."
+=======
+"Permiteți oamenilor să se aboneze la lista dvs. online sau adăugați-i manual"
+" aici."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_incoming_local
 msgid "Local-part based incoming detection"
+<<<<<<< HEAD
 msgstr "Detectare bazată pe partea locală a destinatarului"
+=======
+msgstr "Detectare a mesajelor primite bazată pe partea locală"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model,name:mail_group.model_mail_group
@@ -863,7 +1089,11 @@ msgstr "Grup de e-mail"
 #. module: mail_group
 #: model:res.groups,name:mail_group.group_mail_group_manager
 msgid "Mail Group Administrator"
+<<<<<<< HEAD
 msgstr "Administrator de grup de e-mail"
+=======
+msgstr "Administrator grup de e-mail"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:mail.template,name:mail_group.mail_template_list_subscribe
@@ -878,7 +1108,11 @@ msgstr "Grup de e-mail: Dezabonare de la lista de distribuție"
 #. module: mail_group
 #: model:mail.template,name:mail_group.mail_template_guidelines
 msgid "Mail Group: Send Guidelines"
+<<<<<<< HEAD
 msgstr "Grup de e-mail: Trimiteți ghidurile"
+=======
+msgstr "Grup de e-mail: Trimite instrucțiuni"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.actions.act_window,name:mail_group.mail_group_action
@@ -890,32 +1124,56 @@ msgstr "Grupuri de e-mail"
 #. module: mail_group
 #: model:ir.actions.server,name:mail_group.ir_cron_mail_notify_group_moderators_ir_actions_server
 msgid "Mail List: Notify group moderators"
+<<<<<<< HEAD
 msgstr "Listă de e-mail: Notificați moderatorii de grup"
+=======
+msgstr "Listă de e-mail: Notificați moderatorii grupului"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__mail_message_id
 msgid "Mail Message"
+<<<<<<< HEAD
 msgstr "Mesaj prin e-mail"
+=======
+msgstr "Mesaj e-mail"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model,name:mail_group.model_mail_group_member
 msgid "Mailing List Member"
+<<<<<<< HEAD
 msgstr "Membru al listei de distribuție"
+=======
+msgstr "Membru listă de distribuție"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model,name:mail_group.model_mail_group_message
 msgid "Mailing List Message"
+<<<<<<< HEAD
 msgstr "Mesaj de listă de distribuție"
+=======
+msgstr "Mesaj listă de distribuție"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model,name:mail_group.model_mail_group_moderation
 msgid "Mailing List black/white list"
+<<<<<<< HEAD
 msgstr "Listă neagră / albă de distribuție"
+=======
+msgstr "Listă neagră/albă listă de distribuție"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.portal_breadcrumbs_group
 msgid "Mailing Lists"
+<<<<<<< HEAD
 msgstr "Liste de e-mail"
+=======
+msgstr "Liste de distribuție"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.actions.act_window,help:mail_group.mail_group_action
@@ -923,8 +1181,13 @@ msgid ""
 "Mailing groups are communities that like to discuss a specific topic "
 "together."
 msgstr ""
+<<<<<<< HEAD
 "Grupurile de distribuție sunt comunități care doresc să discute un subiect "
 "specific împreună."
+=======
+"Grupurile de distribuție sunt comunități care doresc să discute împreună un "
+"subiect specific."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_footer
@@ -948,17 +1211,29 @@ msgstr "Membri"
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__member_count
 msgid "Members Count"
+<<<<<<< HEAD
 msgstr "Număr de membri"
+=======
+msgstr "Număr membri"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Members of this group"
+<<<<<<< HEAD
 msgstr "Membri ai acestui grup"
+=======
+msgstr "Membrii acestui grup"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group__access_mode__members
 msgid "Members only"
+<<<<<<< HEAD
 msgstr "Numai membrii"
+=======
+msgstr "Doar membri"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__mail_group_message_id
@@ -968,7 +1243,11 @@ msgstr "Mesaj"
 #. module: mail_group
 #: model:ir.actions.act_window,name:mail_group.mail_group_message_reject_action
 msgid "Message Rejection Explanation"
+<<<<<<< HEAD
 msgstr "Explicație de respingere a mesajului"
+=======
+msgstr "Explicație respingere mesaj"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.actions.act_window,name:mail_group.mail_group_message_action
@@ -978,7 +1257,11 @@ msgstr "Mesaje"
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__mail_group_message_count
 msgid "Messages Count"
+<<<<<<< HEAD
 msgstr "Număr de mesaje"
+=======
+msgstr "Număr mesaje"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__mail_group_message_last_month_count
@@ -989,22 +1272,38 @@ msgstr "Mesaje pe lună"
 #. odoo-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Messages are pending moderation"
+<<<<<<< HEAD
 msgstr "Mesajele așteaptă moderarea"
+=======
+msgstr "Mesajele sunt în așteptarea moderării"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__mail_group_message_moderation_count
 msgid "Messages that need an action"
+<<<<<<< HEAD
 msgstr "Mesaje care necesită o acțiune"
+=======
+msgstr "Mesaje care necesită acțiune"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_notify_moderation
 msgid "Moderate Messages"
+<<<<<<< HEAD
 msgstr "Moderare Mesaje"
+=======
+msgstr "Moderează mesaje"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__moderation
 msgid "Moderate this group"
+<<<<<<< HEAD
 msgstr "Moderare acest grup"
+=======
+msgstr "Moderează acest grup"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_list
@@ -1020,12 +1319,20 @@ msgstr "Moderat de"
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__moderation_rule_ids
 msgid "Moderated Emails"
+<<<<<<< HEAD
 msgstr "E-mailuri Moderate"
+=======
+msgstr "E-mailuri moderate"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__moderation_rule_count
 msgid "Moderated emails count"
+<<<<<<< HEAD
 msgstr "Numărul de e-mailuri moderate"
+=======
+msgstr "Număr e-mailuri moderate"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -1047,7 +1354,11 @@ msgstr "Moderare"
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_moderation_view_tree
 msgid "Moderation Lists"
+<<<<<<< HEAD
 msgstr "Liste Moderare"
+=======
+msgstr "Liste de moderare"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.ui.menu,name:mail_group.mail_group_moderation_menu
@@ -1079,7 +1390,11 @@ msgstr "Moderatorii trebuie să aibă o adresă de e-mail."
 #. module: mail_group
 #: model:mail.group,name:mail_group.mail_group_1
 msgid "My Company News"
+<<<<<<< HEAD
 msgstr "Știri despre compania mea"
+=======
+msgstr "Știri compania mea"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__name
@@ -1092,12 +1407,22 @@ msgid ""
 "Need to unsubscribe? <br/>It's right here! <span class=\"oi fa-2x oi-arrow-"
 "down float-end\" role=\"img\" aria-label=\"\" title=\"Read this !\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ai nevoie să te dezabonezi? <br/>Este chiar aici! <span class=\"oi fa-2x oi-"
+"arrow-down float-end\" role=\"img\" aria-label=\"\" title=\"Citește "
+"aici!\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__moderation_guidelines
 msgid ""
 "Newcomers on this moderated group will automatically receive the guidelines."
+<<<<<<< HEAD
 msgstr "Noii veniți în acest grup moderat vor primi automat regulile."
+=======
+msgstr "Noii veniți în acest grup moderat vor primi automat instrucțiunile."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.actions.act_window,help:mail_group.mail_group_member_action
@@ -1122,12 +1447,20 @@ msgstr "De la normalizat"
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__moderation_notify_msg
 msgid "Notification message"
+<<<<<<< HEAD
 msgstr "Mesaj Notificare"
+=======
+msgstr "Mesaj de notificare"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Notify Members"
+<<<<<<< HEAD
 msgstr "Notifică Membrii"
+=======
+msgstr "Notifică membrii"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__mail_group_message_count
@@ -1140,20 +1473,33 @@ msgstr "Numărul de mesaje în acest grup"
 msgid ""
 "Only an administrator or a moderator can send guidelines to group members."
 msgstr ""
+<<<<<<< HEAD
 "Numai un administrator sau un moderator poate trimite regulile membrilor "
+=======
+"Doar un administrator sau un moderator poate trimite instrucțiuni membrilor "
+>>>>>>> upstream/18.0
 "grupului."
 
 #. module: mail_group
 #. odoo-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Only members can send email to the mailing list."
+<<<<<<< HEAD
 msgstr "Numai membrii pot trimite e-mailuri la lista de distribuție."
+=======
+msgstr "Doar membrii pot trimite e-mailuri către lista de distribuție."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #. odoo-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Only selected groups of users can send email to the mailing list."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Doar grupurile selectate de utilizatori pot trimite e-mailuri către lista de"
+" distribuție."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_force_thread_id
@@ -1162,8 +1508,13 @@ msgid ""
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
 msgstr ""
+<<<<<<< HEAD
 "Id-ul optional al unei înregistrări la care vor fi atașate toate mesajele "
 "primite, chiar dacă nu i-au răspuns. Dacă este setat, acesta va dezactiva "
+=======
+"ID opțional al unui fir (înregistrare) la care vor fi atașate toate mesajele"
+" primite, chiar dacă nu au răspuns la acesta. Dacă este setat, va dezactiva "
+>>>>>>> upstream/18.0
 "complet crearea de înregistrări noi."
 
 #. module: mail_group
@@ -1179,7 +1530,11 @@ msgstr "Model părinte"
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_parent_thread_id
 msgid "Parent Record Thread ID"
+<<<<<<< HEAD
 msgstr "ID-ul thread-ului înregistrării părinte"
+=======
+msgstr "ID fir înregistrare părinte"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_parent_model_id
@@ -1189,8 +1544,13 @@ msgid ""
 "(parent_model) and task (model))"
 msgstr ""
 "Modelul părinte care deține aliasul. Modelul care deține referința alias nu "
+<<<<<<< HEAD
 "este neapărat modelul dat de alias_model_id (example: project (parent_model)"
 " and task (model))"
+=======
+"este neapărat modelul dat de alias_model_id (exemplu: proiect (parent_model)"
+" și sarcină (model))"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_member__partner_id
@@ -1200,7 +1560,11 @@ msgstr "Partener"
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__member_partner_ids
 msgid "Partners Member"
+<<<<<<< HEAD
 msgstr "Parteneri Membri"
+=======
+msgstr "Parteneri membri"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__mail_group_message_ids
@@ -1210,12 +1574,20 @@ msgstr "Mesaje în așteptare"
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__mail_group_message_moderation_count
 msgid "Pending Messages Count"
+<<<<<<< HEAD
 msgstr "Numărul de mesaje în așteptare"
+=======
+msgstr "Număr mesaje în așteptare"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group_message__moderation_status__pending_moderation
 msgid "Pending Moderation"
+<<<<<<< HEAD
 msgstr "Moderație în așteptare"
+=======
+msgstr "Moderare în așteptare"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__moderation_notify
@@ -1239,15 +1611,26 @@ msgid ""
 "- partners: only authenticated partners\n"
 "- followers: only followers of the related document or members of following channels\n"
 msgstr ""
+<<<<<<< HEAD
 "Politica de a posta un mesaj pe document folosind mailgateway.\n"
 "- toată lumea: toată lumea poate posta\n"
 "- parteneri: numai parteneri autentificați\n"
 "- adepți: numai urmăritori ai documentului aferent sau membri ai canalelor următoare\n"
+=======
+"Politica de postare a unui mesaj pe document folosind mailgateway.\n"
+"- toți: toată lumea poate posta\n"
+"- parteneri: doar partenerii autentificați\n"
+"- urmăritori: doar urmăritorii documentului aferent sau membrii canalelor următoare\n"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_footer
 msgid "Post to:"
+<<<<<<< HEAD
 msgstr "Postează la:"
+=======
+msgstr "Postează către:"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__create_date
@@ -1274,7 +1657,11 @@ msgstr "Re: %s"
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_force_thread_id
 msgid "Record Thread ID"
+<<<<<<< HEAD
 msgstr "ID Înregistrare Thread"
+=======
+msgstr "ID fir înregistrare"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.group_message
@@ -1329,17 +1716,29 @@ msgstr "Căutare mesaj grup"
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_member_view_search
 msgid "Search Mail Group Member"
+<<<<<<< HEAD
 msgstr "Căutare membru grup de mesaje"
+=======
+msgstr "Căutare membru grup de e-mail"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_search
 msgid "Search Mail group"
+<<<<<<< HEAD
 msgstr "Căutare grup de mesaje"
+=======
+msgstr "Căutare grup de e-mail"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_moderation_view_search
 msgid "Search Moderation List"
+<<<<<<< HEAD
 msgstr "Căutăre Listă Moderare"
+=======
+msgstr "Căutare listă de moderare"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group__access_mode__groups
@@ -1365,33 +1764,58 @@ msgstr "Trimite și respinge"
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__send_email
 msgid "Send Email"
+<<<<<<< HEAD
 msgstr "Trimiteți e-mail"
+=======
+msgstr "Trimite e-mail"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Send Guidelines"
+<<<<<<< HEAD
 msgstr "Trimiteți ghiduri"
+=======
+msgstr "Trimite instrucțiuni"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group_message_reject__send_email
 msgid "Send an email to the author of the message"
+<<<<<<< HEAD
 msgstr "Trimiteți un e-mail autorului mesajului"
+=======
+msgstr "Trimite un e-mail autorului mesajului"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__moderation_guidelines
 msgid "Send guidelines to new subscribers"
+<<<<<<< HEAD
 msgstr "Trimiteți instrucțiuni noilor abonați"
+=======
+msgstr "Trimite instrucțiuni noilor abonați"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:mail.template,description:mail_group.mail_template_guidelines
 msgid "Sent to people who subscribed to a mailing group with group guidelines"
 msgstr ""
+<<<<<<< HEAD
 "Trimis persoanelor care s-au abonat la un grup de mesaje cu ghiduri de grup"
+=======
+"Trimis persoanelor care s-au abonat la un grup de e-mail cu instrucțiuni de "
+"grup"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:mail.template,description:mail_group.mail_template_list_unsubscribe
 msgid "Sent to people who unsubscribed from a mailing group"
+<<<<<<< HEAD
 msgstr "Trimis persoanelor care s-au dezabonat de la un grup de mesaje"
+=======
+msgstr "Trimis persoanelor care s-au dezabonat de la un grup de e-mail"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__moderation_status
@@ -1403,7 +1827,11 @@ msgstr "Stare"
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Stay in touch with our Community"
+<<<<<<< HEAD
 msgstr "Păstrează contactul cu compania ta"
+=======
+msgstr "Păstrează legătura cu comunitatea noastră"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__subject
@@ -1416,12 +1844,20 @@ msgstr "Subiect"
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Subscribe"
+<<<<<<< HEAD
 msgstr "Abonare"
+=======
+msgstr "Abonează-te"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:mail.template,description:mail_group.mail_template_list_subscribe
 msgid "Subscription confirmation to a mailing group"
+<<<<<<< HEAD
 msgstr "Confirmare abonare la un grup de mesaje"
+=======
+msgstr "Confirmare abonare la un grup de e-mail"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #. odoo-python
@@ -1430,9 +1866,15 @@ msgid ""
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has"
 " been sent. Please contact an administrator to fix this issue."
 msgstr ""
+<<<<<<< HEAD
 "Șablonul \"mail_group.mail_template_guidelines\" nu a fost găsit. Niciun "
 "e-mail nu a fost trimis. Vă rugăm să contactați un administrator pentru a "
 "rezolva"
+=======
+"Șablonul \"mail_group.mail_template_guidelines\" nu a fost găsit. Nu s-a "
+"trimis niciun e-mail. Vă rugăm să contactați un administrator pentru a "
+"remedia această problemă."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_notify_moderation
@@ -1443,7 +1885,11 @@ msgstr "Vă mulțumim!"
 #. odoo-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The \"Authorized Group\" is missing."
+<<<<<<< HEAD
 msgstr "Grupul \"Autorizat\" lipsește."
+=======
+msgstr "\"Grupul autorizat\" lipsește."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.confirmation_subscription
@@ -1466,13 +1912,21 @@ msgstr "Grupul mesajului nu se potrivește."
 #. odoo-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The guidelines description is empty."
+<<<<<<< HEAD
 msgstr "Descrierea ghidurilor este goală."
+=======
+msgstr "Descrierea instrucțiunilor este goală."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #. odoo-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The guidelines description is missing."
+<<<<<<< HEAD
 msgstr "Descrierea ghidurilor lipsește."
+=======
+msgstr "Descrierea instrucțiunilor lipsește."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_model_id
@@ -1481,9 +1935,15 @@ msgid ""
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
+<<<<<<< HEAD
 "Modelul (tipul de document Odoo) căruia îi corespunde acest alias. Orice "
 "e-mail care nu răspunde la o înregistrare existentă va determina crearea "
 "unei noi înregistrări a acestui model (de exemplu, o sarcină de proiect)"
+=======
+"Modelul (Tip document Odoo) la care corespunde acest alias. Orice e-mail "
+"primit care nu răspunde la o înregistrare existentă va genera crearea unei "
+"noi înregistrări din acest model (de exemplu, o sarcină de proiect)"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_name
@@ -1491,7 +1951,11 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
+<<<<<<< HEAD
 "Numele aliasului de e-mail, de ex. „locuri de muncă” dacă doriți să primiți "
+=======
+"Numele aliasului de e-mail, de exemplu „jobs” dacă doriți să primiți "
+>>>>>>> upstream/18.0
 "e-mailuri pentru <jobs@example.odoo.com>"
 
 #. module: mail_group
@@ -1551,7 +2015,11 @@ msgstr "De verificat"
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Unsubscribe"
+<<<<<<< HEAD
 msgstr "Dezabonare"
+=======
+msgstr "Dezabonează-te"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_footer
@@ -1563,7 +2031,11 @@ msgstr "Dezabonare:"
 msgid ""
 "When people send an email to the alias of the list, they will appear here."
 msgstr ""
+<<<<<<< HEAD
 "Când oamenii trimit un e-mail la aliasul listei, aceștia vor apărea aici."
+=======
+"Când oamenii trimit un e-mail la aliasul listei, acesta va apărea aici."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
@@ -1591,7 +2063,11 @@ msgstr ""
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_notify_moderation
 msgid "You have messages to moderate, please go for the proceedings."
+<<<<<<< HEAD
 msgstr "Aveți mesaje moderate, vă rugăm să mergeți la procedură."
+=======
+msgstr "Aveți mesaje de moderat, vă rugăm să continuați cu procedura."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_footer
@@ -1620,7 +2096,11 @@ msgid "alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "alias"
 >>>>>>> upstream/18.0
@@ -1682,7 +2162,11 @@ msgstr "alias"
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
 msgid "and send an email to the author ("
+<<<<<<< HEAD
 msgstr "și trimiteți un e-mail autorului ("
+=======
+msgstr "și trimite un e-mail autorului ("
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.message_attachments
@@ -1702,6 +2186,7 @@ msgstr "ex. \"Newsletter\""
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "e.g. mycompany.com"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1778,6 +2263,9 @@ msgstr "de exemplu, companiamea.com"
 >>>>>>> upstream/18.0
 =======
 msgstr "de exemplu, companiamea.com"
+>>>>>>> upstream/18.0
+=======
+msgstr "ex. companiamea.com"
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -1832,4 +2320,8 @@ msgstr "dezabonat de la"
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "your email..."
+<<<<<<< HEAD
 msgstr "emailul dvs...."
+=======
+msgstr "emailul tău..."
+>>>>>>> upstream/18.0

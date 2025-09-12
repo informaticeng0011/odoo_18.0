@@ -175,8 +175,24 @@ ANY_IN = {'any': 'in', 'not any': 'not in'}
 TRUE_LEAF = (1, '=', 1)
 FALSE_LEAF = (0, '=', 1)
 
+<<<<<<< HEAD
 TRUE_DOMAIN = [TRUE_LEAF]
 FALSE_DOMAIN = [FALSE_LEAF]
+=======
+
+class _ProtectedDomain(tuple):
+    __slots__ = ()
+    __hash__ = None
+
+    def __eq__(self, other): return list(self).__eq__(other)
+    def __add__(self, other): return tuple(self) + tuple(other) if isinstance(other, (list, tuple)) else NotImplemented
+    def __radd__(self, other): return tuple(other) + tuple(self) if isinstance(other, (list, tuple)) else NotImplemented
+    def copy(self): return list(self)
+
+
+TRUE_DOMAIN = _ProtectedDomain([TRUE_LEAF])
+FALSE_DOMAIN = _ProtectedDomain([FALSE_LEAF])
+>>>>>>> upstream/18.0
 
 SQL_OPERATORS = {
     '=': SQL('='),

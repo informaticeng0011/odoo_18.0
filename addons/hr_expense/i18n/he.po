@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_expense
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Lilach Gilliam <lilach@apprcase.com>, 2024
 # yacov mosbacher <ymosba@gmail.com>, 2024
@@ -25,6 +29,7 @@
 # Yihya Hugirat <hugirat@gmail.com>, 2024
 # yael terner, 2024
 # ZVI BLONDER <ZVIBLONDER@gmail.com>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,10 +143,16 @@
 # or balmas, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Yoram Lavi, 2025
+# or balmas, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,6 +264,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: he\n"
 "Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: or balmas, 2025\n"
+"Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
+"1 == 0) ? 1: 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -289,8 +312,12 @@ msgstr "%(employee_name)s: %(expense_name)s"
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
+<<<<<<< HEAD
 msgid ""
 "%(user)s confirms this expense is not a duplicate with similar expense."
+=======
+msgid "%(user)s confirms this expense is not a duplicate with similar expense."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -355,7 +382,11 @@ msgid "<span class=\"o_stat_text\">Expense Report</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">דוח הוצאות</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">דוח הוצאות</span>"
 >>>>>>> upstream/18.0
@@ -386,7 +417,11 @@ msgid "<span>Date:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>תאריך:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>תאריך:</span>"
 >>>>>>> upstream/18.0
@@ -407,7 +442,11 @@ msgid "<span>Employee:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>עובד:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>עובד:</span>"
 >>>>>>> upstream/18.0
@@ -428,7 +467,11 @@ msgid "<span>Manager:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>מנהל:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>מנהל:</span>"
 >>>>>>> upstream/18.0
@@ -449,7 +492,11 @@ msgid "<span>Paid by:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>שולם ע\"י:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>שולם ע\"י:</span>"
 >>>>>>> upstream/18.0
@@ -470,7 +517,11 @@ msgid "<span>The total amount doesn't match the original amount.</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>הסכום הכולל לא תואם לסכום המקורי.</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>הסכום הכולל לא תואם לסכום המקורי.</span>"
 >>>>>>> upstream/18.0
@@ -572,7 +623,12 @@ msgstr "כל הדוחות"
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
+<<<<<<< HEAD
 msgid "All expenses in an expense report must have the same \"paid by\" criteria."
+=======
+msgid ""
+"All expenses in an expense report must have the same \"paid by\" criteria."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -582,7 +638,11 @@ msgid "All payment methods allowed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כל שיטות התשלום מותרות"
+>>>>>>> upstream/18.0
 =======
 msgstr "כל שיטות התשלום מותרות"
 >>>>>>> upstream/18.0
@@ -739,7 +799,11 @@ msgid "Attachments of expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קבצים מצורפים להוצאות"
+>>>>>>> upstream/18.0
 =======
 msgstr "קבצים מצורפים להוצאות"
 >>>>>>> upstream/18.0
@@ -855,8 +919,13 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
+<<<<<<< HEAD
 "המרה בין יחידות מידה יכולה להתרחש רק אם הן שייכות לאותה קטגוריה. ההמרה תיעשה"
 " על בסיס היחס בניהן."
+=======
+"המרה בין יחידות מידה יכולה להתרחש רק אם הן שייכות לאותה קטגוריה. ההמרה תיעשה "
+"על בסיס היחס בניהן."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_kanban_view
@@ -1068,7 +1137,11 @@ msgid "Employee Expense Journal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "יומן הוצאות עובדים"
+>>>>>>> upstream/18.0
 =======
 msgstr "יומן הוצאות עובדים"
 >>>>>>> upstream/18.0
@@ -1092,8 +1165,12 @@ msgstr "הוצאות עובד"
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid ""
+<<<<<<< HEAD
 "Enter a name then choose a category and configure the amount of your "
 "expense."
+=======
+"Enter a name then choose a category and configure the amount of your expense."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -1124,7 +1201,11 @@ msgid "Expense Approve Duplicate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אשר הוצאות כפולות"
+>>>>>>> upstream/18.0
 =======
 msgstr "אשר הוצאות כפולות"
 >>>>>>> upstream/18.0
@@ -1241,7 +1322,11 @@ msgid "Expense Sheet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דף הוצאות"
+>>>>>>> upstream/18.0
 =======
 msgstr "דף הוצאות"
 >>>>>>> upstream/18.0
@@ -1288,7 +1373,11 @@ msgid "Expense entry created from: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תנועת יומן מסוג הוצאה נוצרה מ: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "תנועת יומן מסוג הוצאה נוצרה מ: %s"
 >>>>>>> upstream/18.0
@@ -1329,7 +1418,11 @@ msgid "Expense report reset to Draft"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "העברה דוח הוצאות למצב טיוטה"
+>>>>>>> upstream/18.0
 =======
 msgstr "העברה דוח הוצאות למצב טיוטה"
 >>>>>>> upstream/18.0
@@ -1420,7 +1513,11 @@ msgid "Filter For Expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סנן להוצאות"
+>>>>>>> upstream/18.0
 =======
 msgstr "סנן להוצאות"
 >>>>>>> upstream/18.0
@@ -1441,7 +1538,11 @@ msgid "Flight Ticket"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כרטיס טיסה"
+>>>>>>> upstream/18.0
 =======
 msgstr "כרטיס טיסה"
 >>>>>>> upstream/18.0
@@ -1493,7 +1594,11 @@ msgid "Generate Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ייצר הוצאות"
+>>>>>>> upstream/18.0
 =======
 msgstr "ייצר הוצאות"
 >>>>>>> upstream/18.0
@@ -1667,7 +1772,11 @@ msgid "Journal Entry Deleted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פקודת היומן נמחקה"
+>>>>>>> upstream/18.0
 =======
 msgstr "פקודת היומן נמחקה"
 >>>>>>> upstream/18.0
@@ -1688,7 +1797,11 @@ msgid "Journal Entry Reset to Draft"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "העבר פקודת יומן למצב טיוטה"
+>>>>>>> upstream/18.0
 =======
 msgstr "העבר פקודת יומן למצב טיוטה"
 >>>>>>> upstream/18.0
@@ -1715,7 +1828,11 @@ msgid "Journal entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פקודות יומן"
+>>>>>>> upstream/18.0
 =======
 msgstr "פקודות יומן"
 >>>>>>> upstream/18.0
@@ -1736,7 +1853,11 @@ msgid "Journal entry deleted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פקודת היומן נמחקה"
+>>>>>>> upstream/18.0
 =======
 msgstr "פקודת היומן נמחקה"
 >>>>>>> upstream/18.0
@@ -1757,7 +1878,11 @@ msgid "Journal entry reset to draft"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "העבר פקודת יומן למצב טיוטה"
+>>>>>>> upstream/18.0
 =======
 msgstr "העבר פקודת יומן למצב טיוטה"
 >>>>>>> upstream/18.0
@@ -1862,7 +1987,11 @@ msgid "Meals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ארוחות"
+>>>>>>> upstream/18.0
 =======
 msgstr "ארוחות"
 >>>>>>> upstream/18.0
@@ -1918,7 +2047,11 @@ msgid "Mitchell Admin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mitchell Admin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mitchell Admin"
 >>>>>>> upstream/18.0
@@ -2033,7 +2166,11 @@ msgid "New Expense Report, paid by %(paid_by)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דוח הוצאה חדש, שולם ע\"י %(paid_by)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "דוח הוצאה חדש, שולם ע\"י %(paid_by)s"
 >>>>>>> upstream/18.0
@@ -2055,7 +2192,11 @@ msgid "New Expense Reports"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דוחות הוצאה חדשים"
+>>>>>>> upstream/18.0
 =======
 msgstr "דוחות הוצאה חדשים"
 >>>>>>> upstream/18.0
@@ -2133,7 +2274,11 @@ msgid "Not Refused"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא סורב"
+>>>>>>> upstream/18.0
 =======
 msgstr "לא סורב"
 >>>>>>> upstream/18.0
@@ -2536,7 +2681,12 @@ msgstr ""
 #: model:ir.model.fields,help:hr_expense.field_res_users__expense_manager_id
 msgid ""
 "Select the user responsible for approving \"Expenses\" of this employee.\n"
+<<<<<<< HEAD
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
+=======
+"If empty, the approval is done by an Administrator or Approver (determined "
+"in settings/users)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -2585,12 +2735,15 @@ msgstr "הצג את כל הרשומות שתאריך הפעולה הבא שלה�
 
 #. module: hr_expense
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "Show missing work email employees"
 msgstr ""
 
 #. module: hr_expense
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__accounting_date
@@ -2771,7 +2924,11 @@ msgid "Tax 15%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מע\"מ 15%"
+>>>>>>> upstream/18.0
 =======
 msgstr "מע\"מ 15%"
 >>>>>>> upstream/18.0
@@ -3052,8 +3209,12 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_res_company__expense_journal_id
 #: model:ir.model.fields,help:hr_expense.field_res_config_settings__expense_journal_id
+<<<<<<< HEAD
 msgid ""
 "The company's default journal used when an employee expense is created."
+=======
+msgid "The company's default journal used when an employee expense is created."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -3065,8 +3226,13 @@ msgstr ""
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid ""
+<<<<<<< HEAD
 "The first word of the email subject did not correspond to any category code."
 " You'll have to set the category manually on the expense."
+=======
+"The first word of the email subject did not correspond to any category code. "
+"You'll have to set the category manually on the expense."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -3106,6 +3272,7 @@ msgstr ""
 #. module: hr_expense
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
 "The work email of some employees is missing. Please add it on the employee "
@@ -3114,6 +3281,8 @@ msgstr ""
 
 #. module: hr_expense
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/product_product.py:0
@@ -3315,6 +3484,7 @@ msgstr "היסטורית התקשרויות מאתר האינטרנט"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid ""
+<<<<<<< HEAD
 "When the cost of an expense product is different than 0, then the user"
 "                                             using this product won't be "
 "able to change the amount of the expense,"
@@ -3323,6 +3493,16 @@ msgid ""
 "                                             the company at fixed cost like "
 "allowances for mileage, per diem, accommodation"
 "                                             or meal."
+=======
+"When the cost of an expense product is different than 0, then the "
+"user                                             using this product won't be "
+"able to change the amount of the "
+"expense,                                             only the quantity. Use "
+"a cost different than 0 for expense categories funded "
+"by                                             the company at fixed cost "
+"like allowances for mileage, per diem, "
+"accommodation                                             or meal."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -3414,8 +3594,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_expense/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete only some entries linked to an expense report. All entries"
 " must be deleted at the same time."
+=======
+"You cannot delete only some entries linked to an expense report. All entries "
+"must be deleted at the same time."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -3478,8 +3663,12 @@ msgstr "אינך יכול לדווח פעמיים על אותה שורה!"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot set the expense total in currency to 0 if it's linked to a "
 "report."
+=======
+"You cannot set the expense total in currency to 0 if it's linked to a report."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -3505,6 +3694,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3517,6 +3707,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: code:addons/hr_expense/models/hr_expense.py:0
+msgid ""
+"You don't have the rights to attach a document to a submitted expense. "
+"Please reset the expense report to draft first."
+msgstr ""
+
+#. module: hr_expense
+#. odoo-python
 >>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
@@ -3539,6 +3739,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3566,8 +3769,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
+<<<<<<< HEAD
 "You need to have at least one category that can be expensed in your database"
 " to proceed!"
+=======
+"You need to have at least one category that can be expensed in your database "
+"to proceed!"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense

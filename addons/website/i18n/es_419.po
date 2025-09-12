@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* website
 # 
 # Translators:
@@ -346,10 +347,20 @@
 # Fernanda Alvarez, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * website
+#
+# Translators:
+# Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+# Wil Odoo, 2025
+# Fernanda Alvarez, 2025
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -745,6 +756,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:37+0000\n"
+"PO-Revision-Date: 2025-09-11 21:23+0000\n"
+"Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
+"Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
+"odoo-18/website/es_419/>\n"
+"Language: es_419\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -817,8 +842,13 @@ msgstr "\"URL a\" no puede estar vacía."
 #: code:addons/website/models/website_rewrite.py:0
 msgid ""
 "\"URL to\" cannot be set to \"/\". To change the homepage content, use the "
+<<<<<<< HEAD
 "\"Homepage URL\" field in the website settings or the page properties on any"
 " custom page."
+=======
+"\"Homepage URL\" field in the website settings or the page properties on any "
+"custom page."
+>>>>>>> upstream/18.0
 msgstr ""
 "\"URL a\" no puede estar configurada como \"/\". Para cambiar el contenido "
 "de la página de inicio use el campo \"URL de la página de inicio\" en los "
@@ -834,8 +864,15 @@ msgstr "\"URL a\" no puede estar configurada con una página existente."
 #. module: website
 #. odoo-python
 #: code:addons/website/models/website_rewrite.py:0
+<<<<<<< HEAD
 msgid "\"URL to\" cannot contain parameter %s which is not used in \"URL from\"."
 msgstr "\"URL a\" no puede contener un parámetro %s que no se utilice en \"URL de\"."
+=======
+msgid ""
+"\"URL to\" cannot contain parameter %s which is not used in \"URL from\"."
+msgstr ""
+"\"URL a\" no puede contener un parámetro %s que no se utilice en \"URL de\"."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-python
@@ -1082,10 +1119,19 @@ msgstr ", autor:"
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
 ".\n"
+<<<<<<< HEAD
 "                                                The website will still work if you reject or discard those cookies."
 msgstr ""
 ".\n"
 "                                                El sitio web seguirá funcionando aunque rechace o descarte las cookies."
+=======
+"                                                The website will still work "
+"if you reject or discard those cookies."
+msgstr ""
+".\n"
+"                                                El sitio web seguirá "
+"funcionando aunque rechace o descarte las cookies."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model:website,contact_us_button_url:website.default_website
@@ -1241,11 +1287,19 @@ msgstr "25%"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_links
 msgid ""
+<<<<<<< HEAD
 "250 Executive Park Blvd, Suite 3400 <br/> San Francisco CA 94134 <br/>United"
 " States"
 msgstr ""
 "250 Executive Park Blvd, Suite 3400 <br/> San Francisco CA 94134 "
 "<br/>Estados Unidos"
+=======
+"250 Executive Park Blvd, Suite 3400 <br/> San Francisco CA 94134 <br/>United "
+"States"
+msgstr ""
+"250 Executive Park Blvd, Suite 3400 <br/> San Francisco CA 94134 <br/"
+">Estados Unidos"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_centered
@@ -1418,8 +1472,12 @@ msgstr "<b>Haga clic en editar</b> en el menú desplegable"
 #. odoo-javascript
 #: code:addons/website/static/src/js/tours/tour_utils.js:0
 msgid "<b>Click Edit</b> to start designing your homepage."
+<<<<<<< HEAD
 msgstr ""
 "<b>Haga clic en editar</b> para empezar a diseñar su pagina de inicio."
+=======
+msgstr "<b>Haga clic en editar</b> para empezar a diseñar su pagina de inicio."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -1495,7 +1553,11 @@ msgid ""
 "Francisco CA 94134 <br/>United States"
 msgstr ""
 "<b>Mi Empresa</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
+<<<<<<< HEAD
 "Francisco CA 94134 <br/>Estados Unidos"
+=======
+"Francisco, CA 94134 <br/>Estados Unidos"
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -1549,12 +1611,21 @@ msgstr "<br/>Daniel Foster"
 #: model_terms:ir.ui.view,arch_db:website.s_empowerment
 msgid ""
 "<br/>Delivering tailored, innovative tools to help you overcome challenges "
+<<<<<<< HEAD
 "and<br/> achieve your goals, ensuring your journey is fully "
 "supported.<br/><br/>"
 msgstr ""
 "<br/>Le brindamos novedosas herramientas personalizadas para ayudarle a "
 "superar cualquier tipo de obstáculo <br/>y a alcanzar sus "
 "objetivos.<br/><br/>"
+=======
+"and<br/> achieve your goals, ensuring your journey is fully supported.<br/"
+"><br/>"
+msgstr ""
+"<br/>Le brindamos novedosas herramientas personalizadas para ayudarle a "
+"superar cualquier tipo de obstáculo <br/>y a alcanzar sus objetivos.<br/><br/"
+">"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_company_team_detail
@@ -1565,8 +1636,13 @@ msgstr "<br/>Emily Carter"
 #: model_terms:ir.ui.view,arch_db:website.s_sidegrid
 msgid ""
 "<br/>Every groundbreaking innovation, whether meticulously engineered or "
+<<<<<<< HEAD
 "born from spontaneous creativity, contains stories waiting to be "
 "discovered.<br/><br/>"
+=======
+"born from spontaneous creativity, contains stories waiting to be discovered."
+"<br/><br/>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<br/>Todas las innovaciones vanguardistas, sin importar si fueron diseñadas "
 "cuidadosamente o si surgieron espontáneamente, tienen historias que esperan "
@@ -1580,8 +1656,13 @@ msgstr "<br/>Florencia"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_numbers_list
 msgid ""
+<<<<<<< HEAD
 "<br/>From revenue growth to customer retention and market expansion, our key"
 " metrics of company achievements underscore our strategic prowess and "
+=======
+"<br/>From revenue growth to customer retention and market expansion, our key "
+"metrics of company achievements underscore our strategic prowess and "
+>>>>>>> upstream/18.0
 "dedication to driving sustainable business success."
 msgstr ""
 "<br/>Desde el crecimiento de los ingresos hasta la retención de clientes y "
@@ -1622,8 +1703,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.s_text_cover
 msgid ""
 "<br/>Sell online easily with a user-friendly platform that streamlines all "
+<<<<<<< HEAD
 "the steps, including setup, inventory management, and payment "
 "processing.<br/>"
+=======
+"the steps, including setup, inventory management, and payment processing.<br/"
+">"
+>>>>>>> upstream/18.0
 msgstr ""
 "<br/>Venda en línea sin complicaciones desde una plataforma fácil de usar "
 "que agiliza todos los pasos, incluyendo la configuración, gestión de "
@@ -1648,9 +1734,15 @@ msgstr ""
 "<br/>El primer paso del proceso es <b>crear una cuenta</b>, deberá "
 "registrarse en nuestra plataforma con su correo electrónico o alguna de sus "
 "cuentas de redes sociales. Una vez que haya creado una cuenta, recibirá un "
+<<<<<<< HEAD
 "correo de confirmación con un enlace para activarla. Luego de activarla debe"
 " completar su perfil, configurar sus preferencias, agregar la información de"
 " pago necesaria y seleccionar las funciones o módulos que desea usar."
+=======
+"correo de confirmación con un enlace para activarla. Luego de activarla debe "
+"completar su perfil, configurar sus preferencias, agregar la información de "
+"pago necesaria y seleccionar las funciones o módulos que desea usar."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_banner
@@ -1666,8 +1758,13 @@ msgstr ""
 msgid ""
 "<br/>Users can participate in beta testing programs, providing feedback on "
 "upcoming releases and influencing the future direction of the platform. By "
+<<<<<<< HEAD
 "staying current with updates, you can take advantage of the latest tools and"
 " features, ensuring your business remains competitive and efficient."
+=======
+"staying current with updates, you can take advantage of the latest tools and "
+"features, ensuring your business remains competitive and efficient."
+>>>>>>> upstream/18.0
 msgstr ""
 "<br/>Los usuarios pueden participar en programas de pruebas beta para "
 "proporcionar comentarios sobre las próximas versiones y ayudar a determinar "
@@ -1678,11 +1775,21 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_big_number
 msgid ""
+<<<<<<< HEAD
 "<font class=\"text-gradient\" style=\"background-image: linear-gradient(0deg, rgb(222, 222, 222) 25%, rgb(29, 32, 48) 80%);\">\n"
 "                            87%\n"
 "                        </font>"
 msgstr ""
 "<font class=\"text-gradient\" style=\"background-image: linear-gradient(0deg, rgb(222, 222, 222) 25%, rgb(29, 32, 48) 80%);\">\n"
+=======
+"<font class=\"text-gradient\" style=\"background-image: linear-"
+"gradient(0deg, rgb(222, 222, 222) 25%, rgb(29, 32, 48) 80%);\">\n"
+"                            87%\n"
+"                        </font>"
+msgstr ""
+"<font class=\"text-gradient\" style=\"background-image: linear-"
+"gradient(0deg, rgb(222, 222, 222) 25%, rgb(29, 32, 48) 80%);\">\n"
+>>>>>>> upstream/18.0
 "                            87%\n"
 "                        </font>"
 
@@ -1690,11 +1797,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.contactus
 #: model_terms:ir.ui.view,arch_db:website.contactus_thanks_ir_ui_view
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-1x fa-fw fa-envelope "
 "me-2\"/><span>info@yourcompany.example.com</span>"
 msgstr ""
 "<i class=\"fa fa-1x fa-fw fa-envelope "
 "me-2\"/><span>info@suempresa.ejemplo.com</span>"
+=======
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/"
+"><span>info@yourcompany.example.com</span>"
+msgstr ""
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/"
+"><span>info@suempresa.ejemplo.com</span>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
@@ -1709,10 +1824,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.header_text_element
 msgid ""
 "<i class=\"fa fa-1x fa-fw fa-phone me-1\"/>\n"
+<<<<<<< HEAD
 "                        <span class=\"o_force_ltr\"><small>+1 555-555-5556</small></span>"
 msgstr ""
 "<i class=\"fa fa-1x fa-fw fa-phone me-1\"/>\n"
 "                        <span class=\"o_force_ltr\"><small>+1 555-555-5556</small></span>"
+=======
+"                        <span class=\"o_force_ltr\"><small>+1 555-555-5556</"
+"small></span>"
+msgstr ""
+"<i class=\"fa fa-1x fa-fw fa-phone me-1\"/>\n"
+"                        <span class=\"o_force_ltr\"><small>+1 555-555-5556</"
+"small></span>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.header_text_element
@@ -1727,7 +1851,12 @@ msgstr "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"URL\"/>"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_cta_card
 msgid "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/>  Complete access"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/>  Acceso completo"
+=======
+msgstr ""
+"<i class=\"fa fa-check text-o-color-1\" role=\"img\"/>  Acceso completo"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_cta_card
@@ -1736,29 +1865,51 @@ msgstr "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/>  Soporte rápid
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_cta_card
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/>  Wonderful experience"
+=======
+msgid ""
+"<i class=\"fa fa-check text-o-color-1\" role=\"img\"/>  Wonderful experience"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/>  Una experiencia "
 "maravillosa"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-check text-success\" role=\"img\"/>  24/7 toll-free support"
+=======
+msgid ""
+"<i class=\"fa fa-check text-success\" role=\"img\"/>  24/7 toll-free support"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-check text-success\" role=\"img\"/>  Soporte telefónico "
 "gratuito 24/7"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-check text-success\" role=\"img\"/>  Access all modules"
+=======
+msgid ""
+"<i class=\"fa fa-check text-success\" role=\"img\"/>  Access all modules"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-check text-success\" role=\"img\"/>  Acceso a todos los "
 "módulos"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-check text-success\" role=\"img\"/>  Account management"
 msgstr "<i class=\"fa fa-check text-success\" role=\"img\"/>  Gestión de cuentas"
+=======
+msgid ""
+"<i class=\"fa fa-check text-success\" role=\"img\"/>  Account management"
+msgstr ""
+"<i class=\"fa fa-check text-success\" role=\"img\"/>  Gestión de cuentas"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
@@ -1787,7 +1938,12 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-check text-success\" role=\"img\"/>  Limited customization"
+=======
+msgid ""
+"<i class=\"fa fa-check text-success\" role=\"img\"/>  Limited customization"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-check text-success\" role=\"img\"/>  Personalización "
 "limitada"
@@ -1803,14 +1959,24 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-check text-success\" role=\"img\"/>  Unlimited CRM support"
+=======
+msgid ""
+"<i class=\"fa fa-check text-success\" role=\"img\"/>  Unlimited CRM support"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-check text-success\" role=\"img\"/>  Soporte para CRM "
 "ilimitado"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-check text-success\" role=\"img\"/>  Unlimited customization"
+=======
+msgid ""
+"<i class=\"fa fa-check text-success\" role=\"img\"/>  Unlimited customization"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-check text-success\" role=\"img\"/>  Personalización "
 "ilimitada"
@@ -1885,7 +2051,12 @@ msgstr "<i class=\"fa fa-fw fa-thumbs-up\"/> Pulgares"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_form
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-fw o_button_icon fa-circle text-danger\" title=\"Offline\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-fw o_button_icon fa-circle text-danger\" title=\"Offline\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-fw o_button_icon fa-circle text-danger\" title=\"Sin "
 "conexión\"/>"
@@ -1917,10 +2088,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.protected_403
 msgid ""
 "<i class=\"fa fa-lock fa-2x\"/><br/>\n"
+<<<<<<< HEAD
 "                            <span class=\"mt-1\">A password is required to access this page.</span>"
 msgstr ""
 "<i class=\"fa fa-lock fa-2x\"/><br/>\n"
 "                            <span class=\"mt-1\">Se requiere una contraseña para tener acceso a esta página.</span>"
+=======
+"                            <span class=\"mt-1\">A password is required to "
+"access this page.</span>"
+msgstr ""
+"<i class=\"fa fa-lock fa-2x\"/><br/>\n"
+"                            <span class=\"mt-1\">Se requiere una contraseña "
+"para tener acceso a esta página.</span>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.protected_403
@@ -1954,7 +2134,12 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
 msgid "<i class=\"fa fa-times text-danger\" role=\"img\"/>  No customization"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-times text-danger\" role=\"img\"/>  Sin personalización"
+=======
+msgstr ""
+"<i class=\"fa fa-times text-danger\" role=\"img\"/>  Sin personalización"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
@@ -2044,7 +2229,12 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_thumbnails
+<<<<<<< HEAD
 msgid "<i class=\"s_mega_menu_thumbnails_icon fa fa-comments me-2\"/> Contact us"
+=======
+msgid ""
+"<i class=\"s_mega_menu_thumbnails_icon fa fa-comments me-2\"/> Contact us"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"s_mega_menu_thumbnails_icon fa fa-comments me-2\"/> Contáctenos"
 
@@ -2058,8 +2248,13 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_thumbnails
 msgid ""
+<<<<<<< HEAD
 "<i class=\"s_mega_menu_thumbnails_icon fa fa-shopping-basket me-2\"/> Pickup"
 " in store"
+=======
+"<i class=\"s_mega_menu_thumbnails_icon fa fa-shopping-basket me-2\"/> Pickup "
+"in store"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"s_mega_menu_thumbnails_icon fa fa-shopping-basket me-2\"/> "
 "Recolectar en tienda"
@@ -2081,6 +2276,7 @@ msgstr "<p>Archivos adjuntos:</p>"
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 msgid ""
 "<select id=\"exampleSelect\" class=\"form-select\">\n"
+<<<<<<< HEAD
 "                                                            <option selected=\"true\">Open this select menu</option>\n"
 "                                                            <option value=\"1\">One</option>\n"
 "                                                            <option value=\"2\">Two</option>\n"
@@ -2092,6 +2288,27 @@ msgstr ""
 "                                                            <option value=\"1\">Uno</option>\n"
 "                                                            <option value=\"2\">Dos</option>\n"
 "                                                            <option value=\"3\">Tres</option>\n"
+=======
+"                                                            <option "
+"selected=\"true\">Open this select menu</option>\n"
+"                                                            <option "
+"value=\"1\">One</option>\n"
+"                                                            <option "
+"value=\"2\">Two</option>\n"
+"                                                            <option "
+"value=\"3\">Three</option>\n"
+"                                                        </select>"
+msgstr ""
+"<select id=\"exampleSelect\" class=\"form-select\">\n"
+"                                                            <option "
+"selected=\"true\">Abra este menú de selección</option>\n"
+"                                                            <option "
+"value=\"1\">Uno</option>\n"
+"                                                            <option "
+"value=\"2\">Dos</option>\n"
+"                                                            <option "
+"value=\"3\">Tres</option>\n"
+>>>>>>> upstream/18.0
 "                                                        </select>"
 
 #. module: website
@@ -2102,11 +2319,21 @@ msgid ""
 "                        Low Price Guarantee\n"
 "                    </small>\n"
 "                    <small class=\"d-flex align-items-center\">\n"
+<<<<<<< HEAD
 "                        <i class=\"fa fa-1x fa-fw fa-shopping-basket fa-stack me-1\"/>\n"
 "                        30 Days Online Returns\n"
 "                    </small>\n"
 "                    <small class=\"d-flex align-items-center\">\n"
 "                        <i class=\"fa fa-1x fa-fw fa-truck fa-stack me-1\"/>\n"
+=======
+"                        <i class=\"fa fa-1x fa-fw fa-shopping-basket fa-"
+"stack me-1\"/>\n"
+"                        30 Days Online Returns\n"
+"                    </small>\n"
+"                    <small class=\"d-flex align-items-center\">\n"
+"                        <i class=\"fa fa-1x fa-fw fa-truck fa-stack me-1\"/"
+">\n"
+>>>>>>> upstream/18.0
 "                        Standard Shipping\n"
 "                    </small>"
 msgstr ""
@@ -2115,11 +2342,21 @@ msgstr ""
 "                        Precio bajo garantizado\n"
 "                    </small>\n"
 "                    <small class=\"d-flex align-items-center\">\n"
+<<<<<<< HEAD
 "                        <i class=\"fa fa-1x fa-fw fa-shopping-basket fa-stack me-1\"/>\n"
 "                        30 días para devoluciones en línea\n"
 "                    </small>\n"
 "                    <small class=\"d-flex align-items-center\">\n"
 "                        <i class=\"fa fa-1x fa-fw fa-truck fa-stack me-1\"/>\n"
+=======
+"                        <i class=\"fa fa-1x fa-fw fa-shopping-basket fa-"
+"stack me-1\"/>\n"
+"                        30 días para devoluciones en línea\n"
+"                    </small>\n"
+"                    <small class=\"d-flex align-items-center\">\n"
+"                        <i class=\"fa fa-1x fa-fw fa-truck fa-stack me-1\"/"
+">\n"
+>>>>>>> upstream/18.0
 "                        Envío estándar\n"
 "                    </small>"
 
@@ -2128,29 +2365,57 @@ msgstr ""
 msgid ""
 "<small class=\"text-center\">Instant setup, satisfied or reimbursed.</small>"
 msgstr ""
+<<<<<<< HEAD
 "<small class=\"text-center\">Configuración instantánea, satisfacción total o"
 " le devolvemos su dinero.</small>"
+=======
+"<small class=\"text-center\">Configuración instantánea. Te devolvemos tu "
+"dinero si no quedas satisfecho.</small>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid ""
 "<small class=\"text-muted\">\n"
+<<<<<<< HEAD
 "                                        Block 3rd-party services that track users (e.g. YouTube, Google Maps, Facebook...) when the user has not given their consent.\n"
 "                                    </small>"
 msgstr ""
 "<small class=\"text-muted\">\n"
 "                                        Bloquee los servicios externos que puedan rastrear a los usuarios (como YouTube, Google Maps, Facebook...) cuando estos no han proporcionado su consentimiento.\n"
+=======
+"                                        Block 3rd-party services that track "
+"users (e.g. YouTube, Google Maps, Facebook...) when the user has not given "
+"their consent.\n"
+"                                    </small>"
+msgstr ""
+"<small class=\"text-muted\">\n"
+"                                        Bloquee los servicios externos que "
+"puedan rastrear a los usuarios (como YouTube, Google Maps, Facebook...) "
+"cuando estos no han proporcionado su consentimiento.\n"
+>>>>>>> upstream/18.0
 "                                    </small>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid ""
 "<small class=\"text-muted\">\n"
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-info\"/>: type some of the first chars after 'google' is enough, we'll guess the rest.\n"
 "                                </small>"
 msgstr ""
 "<small class=\"text-muted\">\n"
 "                                    <i class=\"fa fa-info\"/>: teclear algunos de los primeros caracteres después de 'google' es suficiente, pues el resto lo adivinaremos.\n"
+=======
+"                                    <i class=\"fa fa-info\"/>: type some of "
+"the first chars after 'google' is enough, we'll guess the rest.\n"
+"                                </small>"
+msgstr ""
+"<small class=\"text-muted\">\n"
+"                                    <i class=\"fa fa-info\"/>: teclear "
+"algunos de los primeros caracteres después de 'google' es suficiente, pues "
+"el resto lo adivinaremos.\n"
+>>>>>>> upstream/18.0
 "                                </small>"
 
 #. module: website
@@ -2206,13 +2471,23 @@ msgstr "<small class=\"text-muted\">25/12/2024</small>"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 msgid "<small class=\"text-muted\">Last updated 3 mins ago</small>"
+<<<<<<< HEAD
 msgstr "<small class=\"text-muted\">Última actualización hace 3 minutos</small>"
+=======
+msgstr ""
+"<small class=\"text-muted\">Última actualización hace 3 minutos</small>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
 msgid ""
+<<<<<<< HEAD
 "<small id=\"emailHelp\" class=\"form-text text-muted\">Form field help "
 "text</small>"
+=======
+"<small id=\"emailHelp\" class=\"form-text text-muted\">Form field help text</"
+"small>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<small id=\"emailHelp\" class=\"form-text text-muted\">Texto de ayuda del "
 "campo del formulario</small>"
@@ -2408,12 +2683,18 @@ msgstr "<span class=\"display-5\">85%</span>"
 #: model_terms:ir.ui.view,arch_db:website.s_accordion
 msgid "<span class=\"flex-grow-1\">How can I contact customer support ?</span>"
 msgstr ""
+<<<<<<< HEAD
 "<span class=\"flex-grow-1\">¿Cómo puedo contactar a soporte al "
 "cliente?</span>"
+=======
+"<span class=\"flex-grow-1\">¿Cómo puedo contactar a soporte al cliente?</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_accordion
 msgid "<span class=\"flex-grow-1\">What is your return policy ?</span>"
+<<<<<<< HEAD
 msgstr "<span class=\"flex-grow-1\">¿Cuál es su política de devoluciones?</span>"
 
 #. module: website
@@ -2422,6 +2703,18 @@ msgid "<span class=\"flex-grow-1\">What services does your company offer ?</span
 msgstr ""
 "<span class=\"flex-grow-1\">¿Cuáles son los servicios que ofrece la "
 "empresa?</span>"
+=======
+msgstr ""
+"<span class=\"flex-grow-1\">¿Cuál es su política de devoluciones?</span>"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_accordion
+msgid ""
+"<span class=\"flex-grow-1\">What services does your company offer ?</span>"
+msgstr ""
+"<span class=\"flex-grow-1\">¿Cuáles son los servicios que ofrece la empresa?"
+"</span>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_numbers_list
@@ -2476,6 +2769,7 @@ msgstr "<span class=\"mx-2\">a</span>"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_timeline_list
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_dot o_not_editable position-absolute translate-middle-x rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
 "                        <small class=\"text-muted\">Apr 03, 2024</small>\n"
 "                        <strong>New Dashboard Features for Custom Reports</strong>"
@@ -2483,10 +2777,25 @@ msgstr ""
 "<span class=\"o_dot o_not_editable position-absolute translate-middle-x rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
 "                        <small class=\"text-muted\">3 de abril de 2024</small>\n"
 "                        <strong>Nuevas funciones de tablero para reportes personalizados</strong>"
+=======
+"<span class=\"o_dot o_not_editable position-absolute translate-middle-x "
+"rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
+"                        <small class=\"text-muted\">Apr 03, 2024</small>\n"
+"                        <strong>New Dashboard Features for Custom Reports</"
+"strong>"
+msgstr ""
+"<span class=\"o_dot o_not_editable position-absolute translate-middle-x "
+"rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
+"                        <small class=\"text-muted\">3 de abril de 2024</"
+"small>\n"
+"                        <strong>Nuevas funciones de tablero para reportes "
+"personalizados</strong>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_timeline_list
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_dot o_not_editable position-absolute translate-middle-x rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
 "                        <small class=\"text-muted\">Aug 27, 2024</small>\n"
 "                        <strong>Improved Security Protocols Implemented</strong>"
@@ -2494,10 +2803,25 @@ msgstr ""
 "<span class=\"o_dot o_not_editable position-absolute translate-middle-x rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
 "                        <small class=\"text-muted\">27 de agosto de 2024</small>\n"
 "                        <strong>Implementamos protocolos de seguridad mejorados</strong>"
+=======
+"<span class=\"o_dot o_not_editable position-absolute translate-middle-x "
+"rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
+"                        <small class=\"text-muted\">Aug 27, 2024</small>\n"
+"                        <strong>Improved Security Protocols Implemented</"
+"strong>"
+msgstr ""
+"<span class=\"o_dot o_not_editable position-absolute translate-middle-x "
+"rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
+"                        <small class=\"text-muted\">27 de agosto de 2024</"
+"small>\n"
+"                        <strong>Implementamos protocolos de seguridad "
+"mejorados</strong>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_timeline_list
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_dot o_not_editable position-absolute translate-middle-x rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
 "                        <small class=\"text-muted\">Dec 22, 2024</small>\n"
 "                        <strong>Advanced Analytics Tools Introduced</strong>"
@@ -2505,10 +2829,24 @@ msgstr ""
 "<span class=\"o_dot o_not_editable position-absolute translate-middle-x rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
 "                        <small class=\"text-muted\">22 de diciembre de 2024</small>\n"
 "                        <strong>Agregamos herramientas avanzadas de análisis</strong>"
+=======
+"<span class=\"o_dot o_not_editable position-absolute translate-middle-x "
+"rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
+"                        <small class=\"text-muted\">Dec 22, 2024</small>\n"
+"                        <strong>Advanced Analytics Tools Introduced</strong>"
+msgstr ""
+"<span class=\"o_dot o_not_editable position-absolute translate-middle-x "
+"rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
+"                        <small class=\"text-muted\">22 de diciembre de 2024</"
+"small>\n"
+"                        <strong>Agregamos herramientas avanzadas de "
+"análisis</strong>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_timeline_list
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_dot o_not_editable position-absolute translate-middle-x rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
 "                        <small class=\"text-muted\">Feb 11, 2024</small>\n"
 "                        <strong>Enhanced User Interface for Better Navigation</strong>"
@@ -2516,21 +2854,49 @@ msgstr ""
 "<span class=\"o_dot o_not_editable position-absolute translate-middle-x rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
 "                        <small class=\"text-muted\">11 de febrero de 2024</small>\n"
 "                        <strong>Mejoramos la interfaz de usuario para ofrecer una mejor experiencia de navegación</strong>"
+=======
+"<span class=\"o_dot o_not_editable position-absolute translate-middle-x "
+"rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
+"                        <small class=\"text-muted\">Feb 11, 2024</small>\n"
+"                        <strong>Enhanced User Interface for Better "
+"Navigation</strong>"
+msgstr ""
+"<span class=\"o_dot o_not_editable position-absolute translate-middle-x "
+"rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
+"                        <small class=\"text-muted\">11 de febrero de 2024</"
+"small>\n"
+"                        <strong>Mejoramos la interfaz de usuario para "
+"ofrecer una mejor experiencia de navegación</strong>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_timeline_list
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_dot o_not_editable position-absolute translate-middle-x rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
 "                        <small class=\"text-muted\">Jun 15, 2024</small>\n"
 "                        <strong>Integrated Multi-Language Support Added</strong>"
 msgstr ""
 "<span class=\"o_dot o_not_editable position-absolute translate-middle-x rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
 "                        <small class=\"text-muted\">15 de junio de 2024</small>\n"
+=======
+"<span class=\"o_dot o_not_editable position-absolute translate-middle-x "
+"rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
+"                        <small class=\"text-muted\">Jun 15, 2024</small>\n"
+"                        <strong>Integrated Multi-Language Support Added</"
+"strong>"
+msgstr ""
+"<span class=\"o_dot o_not_editable position-absolute translate-middle-x "
+"rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
+"                        <small class=\"text-muted\">15 de junio de 2024</"
+"small>\n"
+>>>>>>> upstream/18.0
 "                        <strong>Agregamos soporte en varios idiomas</strong>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_timeline_list
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_dot o_not_editable position-absolute translate-middle-x rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
 "                        <small class=\"text-muted\">Oct 09, 2024</small>\n"
 "                        <strong>Mobile App Compatibility Expanded</strong>"
@@ -2538,6 +2904,19 @@ msgstr ""
 "<span class=\"o_dot o_not_editable position-absolute translate-middle-x rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
 "                        <small class=\"text-muted\">9 de octubre de 2024</small>\n"
 "                        <strong>Aumentamos la compatibilidad con la aplicación para celulares</strong>"
+=======
+"<span class=\"o_dot o_not_editable position-absolute translate-middle-x "
+"rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
+"                        <small class=\"text-muted\">Oct 09, 2024</small>\n"
+"                        <strong>Mobile App Compatibility Expanded</strong>"
+msgstr ""
+"<span class=\"o_dot o_not_editable position-absolute translate-middle-x "
+"rounded-circle pe-none text-o-color-1\" contenteditable=\"false\"/>\n"
+"                        <small class=\"text-muted\">9 de octubre de 2024</"
+"small>\n"
+"                        <strong>Aumentamos la compatibilidad con la "
+"aplicación para celulares</strong>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.footer_copyright_company_name
@@ -2559,12 +2938,22 @@ msgstr "<span class=\"o_force_ltr\">+1 555-555-5556</span>"
 msgid ""
 "<span class=\"o_small\">\n"
 "                                    <strong>Iris DOE</strong><br/>\n"
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Manager of MyCompany</span>\n"
+=======
+"                                    <span class=\"text-muted\">Manager of "
+"MyCompany</span>\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 msgstr ""
 "<span class=\"o_small\">\n"
 "                                    <strong>Iris DOE</strong><br/>\n"
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Gerente de MiEmpresa</span>\n"
+=======
+"                                    <span class=\"text-muted\">Gerente de "
+"MiEmpresa</span>\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 
 #. module: website
@@ -2573,12 +2962,22 @@ msgstr ""
 msgid ""
 "<span class=\"o_small\">\n"
 "                                    <strong>Jane DOE</strong><br/>\n"
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">CEO of MyCompany</span>\n"
+=======
+"                                    <span class=\"text-muted\">CEO of "
+"MyCompany</span>\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 msgstr ""
 "<span class=\"o_small\">\n"
 "                                    <strong>Jane DOE</strong><br/>\n"
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Directora general de MiEmpresa</span>\n"
+=======
+"                                    <span class=\"text-muted\">Directora "
+"general de MiEmpresa</span>\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 
 #. module: website
@@ -2587,12 +2986,22 @@ msgstr ""
 msgid ""
 "<span class=\"o_small\">\n"
 "                                    <strong>John DOE</strong><br/>\n"
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">CCO of MyCompany</span>\n"
+=======
+"                                    <span class=\"text-muted\">CCO of "
+"MyCompany</span>\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 msgstr ""
 "<span class=\"o_small\">\n"
 "                                    <strong>John DOE</strong><br/>\n"
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Director comercial de MiEmpresa</span>\n"
+=======
+"                                    <span class=\"text-muted\">Director "
+"comercial de MiEmpresa</span>\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 
 #. module: website
@@ -2605,7 +3014,12 @@ msgid ""
 msgstr ""
 "<span class=\"o_small\">\n"
 "                                    <strong>Paul Dawson</strong><br/>\n"
+<<<<<<< HEAD
 "                                    <span>Director general de MiEmpresa</span>\n"
+=======
+"                                    <span>Director general de MiEmpresa</"
+"span>\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 
 #. module: website
@@ -2618,7 +3032,12 @@ msgid ""
 msgstr ""
 "<span class=\"o_small\">\n"
 "                    <strong>Paul Dawson</strong><br/>\n"
+<<<<<<< HEAD
 "                    <span class=\"text-muted\">Director general de MiEmpresa</span>\n"
+=======
+"                    <span class=\"text-muted\">Director general de "
+"MiEmpresa</span>\n"
+>>>>>>> upstream/18.0
 "                </span>"
 
 #. module: website
@@ -2643,11 +3062,21 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_badge
 msgid ""
+<<<<<<< HEAD
 "<span class=\"s_badge badge text-bg-secondary o_animable\" data-name=\"Badge\" data-vxml=\"001\">\n"
 "        <i class=\"fa fa-fw fa-folder o_not-animable\"/>Category\n"
 "    </span>"
 msgstr ""
 "<span class=\"s_badge badge text-bg-secondary o_animable\" data-name=\"Badge\" data-vxml=\"001\">\n"
+=======
+"<span class=\"s_badge badge text-bg-secondary o_animable\" data-"
+"name=\"Badge\" data-vxml=\"001\">\n"
+"        <i class=\"fa fa-fw fa-folder o_not-animable\"/>Category\n"
+"    </span>"
+msgstr ""
+"<span class=\"s_badge badge text-bg-secondary o_animable\" data-"
+"name=\"Badge\" data-vxml=\"001\">\n"
+>>>>>>> upstream/18.0
 "        <i class=\"fa fa-fw fa-folder o_not-animable\"/>Categoría\n"
 "    </span>"
 
@@ -2676,6 +3105,7 @@ msgid ""
 "                                <span class=\"h5-fs\">Amazing pages</span>"
 msgstr ""
 "<span class=\"s_number display-1-fs\">Más de 8</span><br/>\n"
+<<<<<<< HEAD
 "                                <span class=\"h5-fs\">increíbles páginas</span>"
 
 #. module: website
@@ -2750,10 +3180,20 @@ msgstr "<span class=\"s_progress_bar_text small d-none\">25%</span>"
 msgid "<span class=\"s_progress_bar_text small d-none\">25%</span>"
 msgstr "<span class=\"s_progress_bar_text small d-none\">25%</span>"
 >>>>>>> upstream/18.0
+=======
+"                                <span class=\"h5-fs\">increíbles páginas</"
+"span>"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_numbers_charts
+msgid "<span class=\"s_progress_bar_text small d-none\">25%</span>"
+msgstr "<span class=\"s_progress_bar_text small d-none\">25%</span>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_numbers_charts
 msgid "<span class=\"s_progress_bar_text small d-none\">80%</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2773,6 +3213,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "<span class=\"s_progress_bar_text small d-none\">80%</span>"
+
+#. module: website
 >>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"s_progress_bar_text small d-none\">80%</span>"
@@ -2836,25 +3281,48 @@ msgstr "<span class=\"s_website_form_label_content\">Empresa</span>"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
 msgid "<span class=\"s_website_form_label_content\">Email To</span>"
+<<<<<<< HEAD
 msgstr "<span class=\"s_website_form_label_content\">Correo electrónico a</span>"
+=======
+msgstr ""
+"<span class=\"s_website_form_label_content\">Correo electrónico a</span>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Email</span>\n"
+<<<<<<< HEAD
 "                                                        <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Correo electrónico</span>\n"
 "                                                        <span class=\"s_website_form_mark\"> *</span>"
+=======
+"                                                        <span "
+"class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Correo electrónico</span>\n"
+"                                                        <span "
+"class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Name</span>\n"
+<<<<<<< HEAD
 "                                                        <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Nombre</span>\n"
 "                                                        <span class=\"s_website_form_mark\"> *</span>"
+=======
+"                                                        <span "
+"class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Nombre</span>\n"
+"                                                        <span "
+"class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
@@ -2866,19 +3334,37 @@ msgstr "<span class=\"s_website_form_label_content\">Número de teléfono</span>
 #: model_terms:ir.ui.view,arch_db:website.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Question</span>\n"
+<<<<<<< HEAD
 "                                                        <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Pregunta</span>\n"
 "                                                        <span class=\"s_website_form_mark\"> *</span>"
+=======
+"                                                        <span "
+"class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Pregunta</span>\n"
+"                                                        <span "
+"class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
+<<<<<<< HEAD
 "                                                        <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Asunto</span>\n"
 "                                                        <span class=\"s_website_form_mark\"> *</span>"
+=======
+"                                                        <span "
+"class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Asunto</span>\n"
+"                                                        <span "
+"class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_website_form
@@ -2929,8 +3415,13 @@ msgstr "<span invisible=\"name_slugified\" class=\"bg-300\">...</span>"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_page_properties_view_form
 msgid ""
+<<<<<<< HEAD
 "<span invisible=\"website_indexed\">Won't appear in search engine "
 "results</span>"
+=======
+"<span invisible=\"website_indexed\">Won't appear in search engine results</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<span invisible=\"website_indexed\">No aparecerá en los resultados de los "
 "motores de búsqueda</span>"
@@ -2998,8 +3489,12 @@ msgstr "<strong>¿El sitio web es fácil de usar?</strong>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.view_edit_third_party_domains
+<<<<<<< HEAD
 msgid ""
 "<strong>Social platforms:</strong> Facebook, Instagram, Twitter, TikTok"
+=======
+msgid "<strong>Social platforms:</strong> Facebook, Instagram, Twitter, TikTok"
+>>>>>>> upstream/18.0
 msgstr "<strong>Redes sociales:</strong> Facebook, Instagram, Twitter, TikTok"
 
 #. module: website
@@ -3063,8 +3558,13 @@ msgstr "<u>info@suempresa.ejemplo.com</u>"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "A CDN helps you serve your website’s content with high availability and high"
 " performance to any visitor wherever they are located."
+=======
+"A CDN helps you serve your website’s content with high availability and high "
+"performance to any visitor wherever they are located."
+>>>>>>> upstream/18.0
 msgstr ""
 "Una CDN le ayuda a proporcionar el contenido de su sitio web con alta "
 "disponibilidad y alto rendimiento a cualquier visitante sin importar su "
@@ -3135,10 +3635,17 @@ msgid ""
 "action cannot be run through the website."
 msgstr ""
 "Un controlador especializado permite ejecutar una acción de servidor de "
+<<<<<<< HEAD
 "código desde el sitio web. La dirección es "
 "<base>/website/action/<website_path>. Establezca este campo como \"true\" "
 "para permitir que los usuarios ejecuten esta acción. Si se establece como "
 "\"false\", la acción no se podrá ejecutar a través del sitio web."
+=======
+"código desde el sitio web. La dirección es <base>/website/action/"
+"<website_path>. Establezca este campo como \"true\" para permitir que los "
+"usuarios ejecuten esta acción. Si se establece como \"false\", la acción no "
+"se podrá ejecutar a través del sitio web."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_color_blocks_2
@@ -3153,11 +3660,19 @@ msgstr "Una línea de soluciones increíbles adaptadas a sus necesidades"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_product_catalog
 msgid ""
+<<<<<<< HEAD
 "A creamy, smooth cheesecake with a graham cracker crust, topped with a layer"
 " of fresh fruit or chocolate ganache."
 msgstr ""
 "Un cheesecake cremoso con una base de harina de trigo, cubierto con una capa"
 " de fruta fresca o ganache de chocolate."
+=======
+"A creamy, smooth cheesecake with a graham cracker crust, topped with a layer "
+"of fresh fruit or chocolate ganache."
+msgstr ""
+"Un cheesecake cremoso con una base de harina de trigo, cubierto con una capa "
+"de fruta fresca o ganache de chocolate."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_product_catalog
@@ -3221,18 +3736,35 @@ msgid "A map and a listing of your stores"
 msgstr "Agregue un mapa y una lista de sus tiendas"
 
 #. module: website
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website.s_product_catalog
 msgid ""
 "A moist, red-hued cake with layers of cream cheese frosting, perfect for any"
 " special occasion."
+=======
+#. odoo-python
+#: code:addons/website/models/website_menu.py:0
+msgid "A mega menu cannot have a parent or child menu."
+msgstr "Un mega menú no puede tener un menú principal o secundario."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_product_catalog
+msgid ""
+"A moist, red-hued cake with layers of cream cheese frosting, perfect for any "
+"special occasion."
+>>>>>>> upstream/18.0
 msgstr ""
 "Un pastel esponjoso de color rojo con capas de betún de queso crema, "
 "perfecto para cualquier ocasión especial."
 
 #. module: website
 #: model:ir.model.fields,help:website.field_website_visitor__visit_count
+<<<<<<< HEAD
 msgid ""
 "A new visit is considered if last connection was more than 8 hours ago."
+=======
+msgid "A new visit is considered if last connection was more than 8 hours ago."
+>>>>>>> upstream/18.0
 msgstr ""
 "Se considera una nueva visita si la última conexión fue hace más de 8 horas."
 
@@ -3423,8 +3955,12 @@ msgstr "Activo"
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
 msgid ""
 "Adapt these three columns to fit your design need. To duplicate, delete or "
+<<<<<<< HEAD
 "move columns, select the column and use the top icons to perform your "
 "action."
+=======
+"move columns, select the column and use the top icons to perform your action."
+>>>>>>> upstream/18.0
 msgstr ""
 "Adapte estas tres columnas para que se ajusten a sus necesidades de diseño. "
 "Para duplicar, eliminar o mover columnas, seleccione la columna y use los "
@@ -3448,8 +3984,13 @@ msgstr "Agregue"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.view_edit_third_party_domains
 msgid ""
+<<<<<<< HEAD
 "Add 3rd-party service domains <em>(\"www.example.com\" or "
 "\"example.com\")</em>, one per line."
+=======
+"Add 3rd-party service domains <em>(\"www.example.com\" or \"example.com\")</"
+"em>, one per line."
+>>>>>>> upstream/18.0
 msgstr ""
 "Agregue los dominios de servicio de terceros <em>(\"www.ejemplo.com\" o "
 "\"ejemplo.com\")</em>, uno por línea."
@@ -3539,6 +4080,15 @@ msgid "Add Text Highlight Effects"
 msgstr "Agregar efectos de resaltado de texto"
 
 #. module: website
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/website/models/res_config_settings.py:0
+msgid "Add Website"
+msgstr "Agregar sitio web"
+
+#. module: website
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/website/static/src/xml/website.editor.xml:0
 msgid "Add a Custom Font"
@@ -3591,7 +4141,12 @@ msgstr "Agregar sitios web externos"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.view_view_form_extend
 msgid "Add groups in the \"Access Rights\" tab below."
+<<<<<<< HEAD
 msgstr "Agregue grupos en la pestaña \"Permisos de acceso\" en la parte inferior."
+=======
+msgstr ""
+"Agregue grupos en la pestaña \"Permisos de acceso\" en la parte inferior."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-python
@@ -3689,12 +4244,21 @@ msgstr "Ajuste el ancho de la imagen"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_s_showcase
 msgid ""
+<<<<<<< HEAD
 "Adjust volume, skip tracks, answer calls, and activate voice assistants with"
 " a simple tap, keeping your hands free and your focus on what matters most."
 msgstr ""
 "Ajuste el volumen, omita canciones, responda llamadas y active el asistente "
 "de voz, ¡todo con solo pulsar un botón! De este modo tendrá las manos libres"
 " y podrá concentrarse en lo que más le importa."
+=======
+"Adjust volume, skip tracks, answer calls, and activate voice assistants with "
+"a simple tap, keeping your hands free and your focus on what matters most."
+msgstr ""
+"Ajuste el volumen, omita canciones, responda llamadas y active el asistente "
+"de voz, ¡todo con solo pulsar un botón! De este modo tendrá las manos libres "
+"y podrá concentrarse en lo que más le importa."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -3713,8 +4277,13 @@ msgid ""
 "Advanced solution for enterprises. Cutting-edge features and top-tier "
 "support for maximum performance."
 msgstr ""
+<<<<<<< HEAD
 "Una solución avanzada para empresas. Funciones novedosas y soporte de primer"
 " nivel para el mejor rendimiento. "
+=======
+"Una solución avanzada para empresas. Funciones novedosas y soporte de primer "
+"nivel para el mejor rendimiento. "
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -4006,7 +4575,11 @@ msgid "Always Underline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Siempre subrayar"
+=======
+msgstr "Siempre subrayado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Siempre subrayado"
 >>>>>>> upstream/18.0
@@ -4200,7 +4773,11 @@ msgstr "Páginas sorprendentes"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_map
 msgid "An address must be specified for a map to be embedded"
+<<<<<<< HEAD
 msgstr "Se debe especificar una dirección para poder insertar un mapa"
+=======
+msgstr "Es necesario especificar una dirección para poder insertar un mapa"
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -4242,9 +4819,14 @@ msgstr "Analítica<br/>(opcional)"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_numbers
 msgid ""
+<<<<<<< HEAD
 "Analyzing the numbers behind our success: <br class=\"d-none d-xxl-"
 "inline\"/>an in-depth look at the key metrics driving our company's "
 "achievements"
+=======
+"Analyzing the numbers behind our success: <br class=\"d-none d-xxl-inline\"/"
+">an in-depth look at the key metrics driving our company's achievements"
+>>>>>>> upstream/18.0
 msgstr ""
 "Los números detrás de nuestro éxito: <br class=\"d-none d-xxl-inline\"/>un "
 "análisis profundo a los indicadores clave de los logros de nuestra empresa."
@@ -4262,7 +4844,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website/static/src/js/editor/snippets.options.js:0
 msgid "Anchor copied to clipboard<br>Link: %s"
+<<<<<<< HEAD
 msgstr "Enlace ancla pegado al portapapeles<br>Enlace: %s"
+=======
+msgstr "Enlace ancla copiado al portapapeles<br>Enlace: %s"
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -4379,8 +4965,13 @@ msgstr "Flechas"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_pricelist_cafe
 msgid ""
+<<<<<<< HEAD
 "Artisanal espresso with a focus on direct trade and exceptional quality in a"
 " chic, comfortable setting."
+=======
+"Artisanal espresso with a focus on direct trade and exceptional quality in a "
+"chic, comfortable setting."
+>>>>>>> upstream/18.0
 msgstr ""
 "Espresso artesanal con un enfoque en comercio directo y calidad excepcional "
 "en un entorno moderno y cómodo."
@@ -4426,11 +5017,23 @@ msgstr "Archivo adjunto que utiliza una copia mía"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
+<<<<<<< HEAD
 "Authenticate users, protect user data and allow the website to deliver the services users expects,\n"
 "                                                such as maintaining the content of their cart, or allowing file uploads."
 msgstr ""
 "Autentique usuarios, proteja los datos de los usuarios y permita que el sitio web proporcione los servicios que los usuarios esperan,\n"
 "                                                como almacenar el contenido de sus carritos o permitir subir archivos."
+=======
+"Authenticate users, protect user data and allow the website to deliver the "
+"services users expects,\n"
+"                                                such as maintaining the "
+"content of their cart, or allowing file uploads."
+msgstr ""
+"Autentique usuarios, proteja los datos de los usuarios y permita que el "
+"sitio web proporcione los servicios que los usuarios esperan,\n"
+"                                                como almacenar el contenido "
+"de sus carritos o permitir subir archivos."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_view_search
@@ -4458,8 +5061,13 @@ msgid ""
 "Automatically opens the pop-up if the user stays on a page longer than the "
 "specified time."
 msgstr ""
+<<<<<<< HEAD
 "Abre la ventana emergente en automático si el usuario permanece en la página"
 " por más tiempo del esperado."
+=======
+"Abre la ventana emergente en automático si el usuario permanece en la página "
+"por más tiempo del esperado."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__auto_redirect_lang
@@ -4579,7 +5187,11 @@ msgstr "Vista base"
 #: code:addons/website/static/src/components/dialog/add_page_dialog.js:0
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_groups
 msgid "Basic"
+<<<<<<< HEAD
 msgstr "Básico"
+=======
+msgstr "Básica"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
@@ -4604,8 +5216,13 @@ msgstr "Principiante"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_key_benefits
 msgid ""
+<<<<<<< HEAD
 "Benefit from tax-free shopping, simplifying your purchase and enhancing your"
 " savings without any extra costs."
+=======
+"Benefit from tax-free shopping, simplifying your purchase and enhancing your "
+"savings without any extra costs."
+>>>>>>> upstream/18.0
 msgstr ""
 "Aproveche las compras sin impuestos, facilite su adquisición y mejore sus "
 "ahorros gracias a que no hay costos adicionales."
@@ -4700,7 +5317,11 @@ msgstr "Publicación de blog"
 #. module: website
 #: model:website.configurator.feature,description:website.feature_module_news
 msgid "Blogging and posting relevant content"
+<<<<<<< HEAD
 msgstr "Publique contenido relevante en sus blogs y artículos."
+=======
+msgstr "Publica contenido relevante en tus blogs y artículos."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -4817,7 +5438,11 @@ msgstr "Cuadro de llamada a la acción"
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 #: model_terms:ir.ui.view,arch_db:website.snippet_options_carousel
 msgid "Boxed"
+<<<<<<< HEAD
 msgstr "Con caja"
+=======
+msgstr "Con tabla marcada"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_countdown_options
@@ -4900,8 +5525,13 @@ msgid ""
 "By Crafting unique and compelling brand identities that leave a lasting "
 "impact."
 msgstr ""
+<<<<<<< HEAD
 "Crear identidades únicas y atractivas que tengan un impacto duradero para la"
 " marca."
+=======
+"Crear identidades únicas y atractivas que tengan un impacto duradero para la "
+"marca."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.view_edit_third_party_domains
@@ -5204,8 +5834,13 @@ msgstr "Cambiar iconos"
 #. odoo-javascript
 #: code:addons/website/static/src/js/editor/snippets.options.js:0
 msgid ""
+<<<<<<< HEAD
 "Changing the color palette will reset all your color customizations, are you"
 " sure you want to proceed?"
+=======
+"Changing the color palette will reset all your color customizations, are you "
+"sure you want to proceed?"
+>>>>>>> upstream/18.0
 msgstr ""
 "Cambiar la paleta de colores restablecerá todas sus personalizaciones de "
 "color, ¿está seguro de que desea continuar?"
@@ -5367,8 +6002,13 @@ msgstr "Cheesecake tradicional"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_pricelist_boxed
 msgid ""
+<<<<<<< HEAD
 "Classic pizza with fresh mozzarella, San Marzano tomatoes, and basil leaves,"
 " drizzled with extra virgin olive oil."
+=======
+"Classic pizza with fresh mozzarella, San Marzano tomatoes, and basil leaves, "
+"drizzled with extra virgin olive oil."
+>>>>>>> upstream/18.0
 msgstr ""
 "Pizza clásica con queso mozzarella fresco, tomates San Marzano y hojas de "
 "albahaca, rociada con un poco de aceite de oliva extra virgen."
@@ -5538,6 +6178,7 @@ msgstr "Filtro de color"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Color Presets"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5815,12 +6456,20 @@ msgstr "Valores predeterminados de color"
 =======
 msgstr "Valores predeterminados de color"
 >>>>>>> upstream/18.0
+=======
+msgstr "Valores predeterminados de color"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_color_blocks_2
 msgid ""
+<<<<<<< HEAD
 "Color blocks are a simple and effective way to <b>present and highlight your"
 " content</b>. Choose an image or a color for the background. You can even "
+=======
+"Color blocks are a simple and effective way to <b>present and highlight your "
+"content</b>. Choose an image or a color for the background. You can even "
+>>>>>>> upstream/18.0
 "resize and duplicate the blocks to create your own layout. Add images or "
 "icons to customize the blocks."
 msgstr ""
@@ -5917,8 +6566,13 @@ msgid ""
 "Comprehensive tools for growing businesses. Optimize your processes and "
 "productivity across your team."
 msgstr ""
+<<<<<<< HEAD
 "Herramientas para empresas en crecimiento. Mejore sus procesos y la "
 "productividad de su equipo."
+=======
+"Herramientas integrales para hacer crecer tu negocio. Optimiza tus procesos "
+"y la productividad de todo tu equipo."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -5994,11 +6648,14 @@ msgstr ""
 "sea eficiente, con interrupciones mínimas y respuestas rápidas."
 
 #. module: website
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:website.field_res_config_settings__has_google_search_console
 msgid "Console Google Search"
 msgstr "Consola de búsqueda de Google"
 
 #. module: website
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_s_features
 msgid "Consulting"
 msgstr "Consultoría"
@@ -6032,7 +6689,11 @@ msgstr "Información de contacto"
 #: model_terms:ir.ui.view,arch_db:website.s_text_block_h2_contact
 msgid "Contact Us"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contáctenos"
+=======
+msgstr "Contáctanos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contáctanos"
 >>>>>>> upstream/18.0
@@ -6058,7 +6719,11 @@ msgstr "Contactar visitante"
 #: model_terms:ir.ui.view,arch_db:website.template_footer_headline
 msgid "Contact us"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contáctenos"
+=======
+msgstr "Contáctanos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contáctanos"
 >>>>>>> upstream/18.0
@@ -6067,10 +6732,20 @@ msgstr "Contáctanos"
 #: model_terms:ir.ui.view,arch_db:website.contactus
 msgid ""
 "Contact us about anything related to our company or services.<br/>\n"
+<<<<<<< HEAD
 "                                    We'll do our best to get back to you as soon as possible."
 msgstr ""
 "Contáctenos sobre cualquier cosa relacionada con nuestra empresa o servicios.<br/>\n"
 "                                    Haremos todo lo posible por responderle a la brevedad."
+=======
+"                                    We'll do our best to get back to you as "
+"soon as possible."
+msgstr ""
+"Contáctenos sobre cualquier cosa relacionada con nuestra empresa o servicios."
+"<br/>\n"
+"                                    Haremos todo lo posible por responderle "
+"a la brevedad."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_contact
@@ -6088,9 +6763,14 @@ msgid ""
 "Contact us today to embark on your path to a healthier, more vibrant you. "
 "Your fitness journey begins here."
 msgstr ""
+<<<<<<< HEAD
 "Póngase en contacto con nosotros ahora mismo para iniciar su viaje hacia una"
 " vida más sana y alegre. Su camino hacia un buen estado físico comienza "
 "aquí."
+=======
+"Póngase en contacto con nosotros ahora mismo para iniciar su viaje hacia una "
+"vida más sana y alegre. Su camino hacia un buen estado físico comienza aquí."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_search
@@ -6143,8 +6823,15 @@ msgstr "Contenido por traducir"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_media_list
+<<<<<<< HEAD
 msgid "Continue reading <i class=\"fa fa-long-arrow-right align-middle ms-1\"/>"
 msgstr "Continuar leyendo <i class=\"fa fa-long-arrow-right align-middle ms-1\"/>"
+=======
+msgid ""
+"Continue reading <i class=\"fa fa-long-arrow-right align-middle ms-1\"/>"
+msgstr ""
+"Continuar leyendo <i class=\"fa fa-long-arrow-right align-middle ms-1\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_ui_view__controller_page_ids
@@ -6175,6 +6862,7 @@ msgstr "Barra de cookies"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
+<<<<<<< HEAD
 "Cookies are small bits of text sent by our servers to your computer or device when you access our services.\n"
 "                            They are stored in your browser and later sent back to our servers so that we can provide contextual content.\n"
 "                            Without cookies, using the web would be a much more frustrating experience.\n"
@@ -6193,6 +6881,46 @@ msgstr ""
 "                            Las cookies también nos permiten entender sus preferencias según la actividad previa o actual en nuestro sitio web (las páginas que ha\n"
 "                            visitado), su idioma y país, así podemos proporcionarle un mejor servicio.\n"
 "                            También utilizamos las cookies para ayudarnos a recopilar datos agregados sobre el tráfico y las interacciones del sitio para que podamos ofrecer\n"
+=======
+"Cookies are small bits of text sent by our servers to your computer or "
+"device when you access our services.\n"
+"                            They are stored in your browser and later sent "
+"back to our servers so that we can provide contextual content.\n"
+"                            Without cookies, using the web would be a much "
+"more frustrating experience.\n"
+"                            We use them to support your activities on our "
+"website. For example, your session (so you don't have to login again) or "
+"your shopping cart.\n"
+"                            <br/>\n"
+"                            Cookies are also used to help us understand your "
+"preferences based on previous or current activity on our website (the pages "
+"you have\n"
+"                            visited), your language and country, which "
+"enables us to provide you with improved services.\n"
+"                            We also use cookies to help us compile aggregate "
+"data about site traffic and site interaction so that we can offer\n"
+"                            better site experiences and tools in the future."
+msgstr ""
+"Las cookies son pequeños fragmentos de texto que nuestros servidores envían "
+"a su computadora o dispositivo cuando accede a nuestros servicios.\n"
+"                            Se almacenan en su navegador y después se envían "
+"de vuelta a nuestros servidores para que podamos proporcionar contenido "
+"contextual.\n"
+"                            Sin cookies, usar la web sería una experiencia "
+"mucho más frustrante.\n"
+"                            Las utilizamos para apoyar sus actividades en "
+"nuestro sitio web. Por ejemplo, su sesión (para que no tenga que volver a "
+"iniciar sesión) o su carrito de compras.\n"
+"                            <br/>\n"
+"                            Las cookies también nos permiten entender sus "
+"preferencias según la actividad previa o actual en nuestro sitio web (las "
+"páginas que ha\n"
+"                            visitado), su idioma y país, así podemos "
+"proporcionarle un mejor servicio.\n"
+"                            También utilizamos las cookies para ayudarnos a "
+"recopilar datos agregados sobre el tráfico y las interacciones del sitio "
+"para que podamos ofrecer\n"
+>>>>>>> upstream/18.0
 "                            mejores experiencias y herramientas en el futuro."
 
 #. module: website
@@ -6335,9 +7063,15 @@ msgstr "Crear nuevo"
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
 "Create pages from scratch by dragging and dropping customizable building "
+<<<<<<< HEAD
 "blocks. This system simplifies web design, making it accessible to all skill"
 " levels. Combine headers, images, and text sections to build cohesive "
 "layouts quickly and efficiently."
+=======
+"blocks. This system simplifies web design, making it accessible to all skill "
+"levels. Combine headers, images, and text sections to build cohesive layouts "
+"quickly and efficiently."
+>>>>>>> upstream/18.0
 msgstr ""
 "Arrastre y suelte bloques de creación personalizables para crear páginas "
 "desde cero. Este sistema simplifica el diseño web y lo hace accesible para "
@@ -6544,7 +7278,11 @@ msgstr "D - H - M - S"
 #. odoo-javascript
 #: code:addons/website/static/src/components/wysiwyg_adapter/wysiwyg_adapter.js:0
 msgid "DRAG BUILDING BLOCKS HERE"
+<<<<<<< HEAD
 msgstr "ARRASTRE BLOQUES DE CREACIÓN AQUÍ"
+=======
+msgstr "ARRASTRA LOS BLOQUES DE CREACIÓN AQUÍ"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_alert_options
@@ -6848,9 +7586,15 @@ msgid ""
 "blogs."
 msgstr ""
 "Diseñe plantillas de Odoo con facilidad gracias a un formato HTML limpio y "
+<<<<<<< HEAD
 "CSS de Bootstrap. Estas plantillas ofrecen un diseño responsivo y compatible"
 " con celulares, lo que facilita su personalización y hace que sean perfectas"
 " para cualquier proyecto web, desde sitios corporativos hasta blogs "
+=======
+"CSS de Bootstrap. Estas plantillas ofrecen un diseño responsivo y compatible "
+"con celulares, lo que facilita su personalización y hace que sean perfectas "
+"para cualquier proyecto web, desde sitios corporativos hasta blogs "
+>>>>>>> upstream/18.0
 "personales."
 
 #. module: website
@@ -6877,8 +7621,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_s_text_cover
 msgid "Designed to provide an immersive audio experience on the go."
 msgstr ""
+<<<<<<< HEAD
 "Diseñado para ofrecer una experiencia de audio envolvente en cualquier "
 "lugar."
+=======
+"Diseñado para ofrecer una experiencia de audio envolvente en cualquier lugar."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -6987,7 +7735,12 @@ msgstr "Más información"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_media_list
 msgid "Discover more <i class=\"fa fa-long-arrow-right align-middle ms-1\"/>"
+<<<<<<< HEAD
 msgstr "Más información <i class=\"fa fa-long-arrow-right align-middle ms-1\"/>"
+=======
+msgstr ""
+"Más información <i class=\"fa fa-long-arrow-right align-middle ms-1\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_services_s_image_text
@@ -6995,8 +7748,13 @@ msgid ""
 "Discover our comprehensive marketing service designed to amplify your "
 "brand's reach and impact."
 msgstr ""
+<<<<<<< HEAD
 "Descubra nuestros servicios de marketing diseñados para ampliar el alcance y"
 " el impacto de su marca."
+=======
+"Descubra nuestros servicios de marketing diseñados para ampliar el alcance y "
+"el impacto de su marca."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_big_icons_subtitles
@@ -7402,8 +8160,13 @@ msgstr "Por ejemplo, https://www.midominio.com"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_horizontal
 msgid ""
+<<<<<<< HEAD
 "Each update is thoroughly tested to guarantee compatibility and reliability,"
 " and we provide detailed release notes to keep you informed of new features "
+=======
+"Each update is thoroughly tested to guarantee compatibility and reliability, "
+"and we provide detailed release notes to keep you informed of new features "
+>>>>>>> upstream/18.0
 "and improvements."
 msgstr ""
 "Probamos todas las actualizaciones con minuciosidad para garantizar la "
@@ -7485,7 +8248,11 @@ msgid "Easily track your visitor with Plausible"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rastree con facilidad a su visitante con Plausible"
+=======
+msgstr "Use Plausible para rastrear a sus visitantes con facilidad"
+>>>>>>> upstream/18.0
 =======
 msgstr "Use Plausible para rastrear a sus visitantes con facilidad"
 >>>>>>> upstream/18.0
@@ -7880,7 +8647,11 @@ msgid "Email Marketing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Marketing por correo electrónico"
+=======
+msgstr "Marketing por correo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marketing por correo"
 >>>>>>> upstream/18.0
@@ -7942,9 +8713,15 @@ msgid ""
 "beginnings. What started as a simple idea in a garage has evolved into an "
 "innovative force in the industry."
 msgstr ""
+<<<<<<< HEAD
 "Hagamos un viaje a través del tiempo, le contaremos nuestra historia. Lo que"
 " empezó como una simple idea en un garaje se convirtió en una de las "
 "empresas más innovadoras del sector."
+=======
+"Hagamos un viaje a través del tiempo, le contaremos nuestra historia. Lo que "
+"empezó como una simple idea en un garaje se convirtió en una de las empresas "
+"más innovadoras del sector."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -8210,7 +8987,11 @@ msgid "Every Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cada vez"
+=======
+msgstr "Siempre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Siempre"
 >>>>>>> upstream/18.0
@@ -8623,8 +9404,13 @@ msgstr "Descubra nuestra variedad de opciones prácticas y útiles."
 #: model_terms:ir.ui.view,arch_db:website.s_quadrant
 msgid ""
 "Explore how our cutting-edge solutions redefine industry standards. To "
+<<<<<<< HEAD
 "achieve excellence, we focus on what truly matters to our customers. "
 "<br/><br/> Begin by identifying their needs and exceed their expectations."
+=======
+"achieve excellence, we focus on what truly matters to our customers. <br/"
+"><br/> Begin by identifying their needs and exceed their expectations."
+>>>>>>> upstream/18.0
 msgstr ""
 "Descubra cómo es que nuestras novedosas soluciones redefinen los estándares "
 "del sector. Nos centramos en lo que realmente les importa a nuestros "
@@ -8640,8 +9426,13 @@ msgstr "Buscar en"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_gallery_s_text_block_2nd
 msgid ""
+<<<<<<< HEAD
 "Explore our captivating gallery, a visual journey showcasing our finest work"
 " and creative projects. Immerse yourself in a collection of images that "
+=======
+"Explore our captivating gallery, a visual journey showcasing our finest work "
+"and creative projects. Immerse yourself in a collection of images that "
+>>>>>>> upstream/18.0
 "capture the essence of our craftsmanship, innovation, and dedication to "
 "excellence."
 msgstr ""
@@ -8652,8 +9443,12 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_pricelist_cafe
 msgid ""
+<<<<<<< HEAD
 "Explore our curated selection of coffee, tea, and more. Delight in every "
 "sip!"
+=======
+"Explore our curated selection of coffee, tea, and more. Delight in every sip!"
+>>>>>>> upstream/18.0
 msgstr "Conozca nuestra selección de café, té y más. ¡Disfrute de cada sorbo!"
 
 #. module: website
@@ -8870,10 +9665,20 @@ msgstr "Subir archivo"
 #: model:ir.model.fields,help:website.field_website_page__arch_fs
 msgid ""
 "File from where the view originates.\n"
+<<<<<<< HEAD
 "                                                          Useful to (hard) reset broken views or to read arch from file in dev-xml mode."
 msgstr ""
 "Archivo desde el que se origina la vista.\n"
 "                                                          Útil para restablecer (por completo) vistas dañadas o para leer la arquitectura del archivo en modo dev-xml."
+=======
+"                                                          Useful to (hard) "
+"reset broken views or to read arch from file in dev-xml mode."
+msgstr ""
+"Archivo desde el que se origina la vista.\n"
+"                                                          Útil para "
+"restablecer (por completo) vistas dañadas o para leer la arquitectura del "
+"archivo en modo dev-xml."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model:ir.model,name:website.model_ir_binary
@@ -8931,11 +9736,19 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_cards
 msgid ""
+<<<<<<< HEAD
 "Find out how we were able helping them and set in place solutions adapted to"
 " their needs."
 msgstr ""
 "Descubra cómo pudimos ayudarles y poner en marcha soluciones adaptadas a sus"
 " necesidades."
+=======
+"Find out how we were able helping them and set in place solutions adapted to "
+"their needs."
+msgstr ""
+"Descubra cómo pudimos ayudarles y poner en marcha soluciones adaptadas a sus "
+"necesidades."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_big_icons_subtitles
@@ -9107,8 +9920,13 @@ msgid ""
 "Form action label. Ex: crm.lead could be 'Send an e-mail' and project.issue "
 "could be 'Create an Issue'."
 msgstr ""
+<<<<<<< HEAD
 "Etiqueta de acción del formulario. Por ejemplo: crm.lead podría ser \"Enviar"
 " un correo electrónico\" y project.issue podría ser \"Crear un ticket\"."
+=======
+"Etiqueta de acción del formulario. Por ejemplo: crm.lead podría ser \"Enviar "
+"un correo electrónico\" y project.issue podría ser \"Crear un ticket\"."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -9132,6 +9950,7 @@ msgstr "Paquete básico"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_company_team
 msgid ""
+<<<<<<< HEAD
 "Founder and chief visionary, Tony is the driving force behind the company. He loves\n"
 "                                to keep his hands full by participating in the development of the software,\n"
 "                                marketing, and customer experience strategies."
@@ -9139,6 +9958,21 @@ msgstr ""
 "Tony es el fundador y director, además también impulsa a la empresa. Le encanta\n"
 "                                participar en el desarrollo del software y en\n"
 "                                las estrategias de marketing y de experiencia del cliente."
+=======
+"Founder and chief visionary, Tony is the driving force behind the company. "
+"He loves\n"
+"                                to keep his hands full by participating in "
+"the development of the software,\n"
+"                                marketing, and customer experience "
+"strategies."
+msgstr ""
+"Tony es el fundador y director, además también impulsa a la empresa. Le "
+"encanta\n"
+"                                participar en el desarrollo del software y "
+"en\n"
+"                                las estrategias de marketing y de "
+"experiencia del cliente."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_team_0_s_three_columns
@@ -9256,8 +10090,13 @@ msgid ""
 "your brand remains relevant and resonates with your audience."
 msgstr ""
 "Desde la renovación de su identidad visual hasta la adaptación de sus "
+<<<<<<< HEAD
 "mensajes al entorno digital, le guiaremos a través de un proceso estratégico"
 " que garantice que su marca siga siendo relevante y tenga impacto en su "
+=======
+"mensajes al entorno digital, le guiaremos a través de un proceso estratégico "
+"que garantice que su marca siga siendo relevante y tenga impacto en su "
+>>>>>>> upstream/18.0
 "público."
 
 #. module: website
@@ -9472,8 +10311,13 @@ msgid ""
 "language."
 msgstr ""
 "Para escribir un buen texto debe entender cómo su producto o servicio ayuda "
+<<<<<<< HEAD
 "a sus clientes. Las palabras simples dicen mucho más que un lenguaje pomposo"
 " y rimbombante."
+=======
+"a sus clientes. Las palabras simples dicen mucho más que un lenguaje pomposo "
+"y rimbombante."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -9508,12 +10352,24 @@ msgid "Google Maps API Key"
 msgstr "Clave de la API de Google Maps"
 
 #. module: website
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:website.field_res_config_settings__google_search_console
+=======
+#: model:ir.model.fields,field_description:website.field_res_config_settings__has_google_search_console
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:website.field_website__google_search_console
 msgid "Google Search Console"
 msgstr "Search Console de Google"
 
 #. module: website
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:website.field_res_config_settings__google_search_console
+msgid "Google Search Console Key"
+msgstr "Clave de Search Console de Google"
+
+#. module: website
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:website.field_res_config_settings__google_search_console
 #: model:ir.model.fields,help:website.field_website__google_search_console
 msgid "Google key, or Enable to access first reply"
@@ -9537,6 +10393,7 @@ msgstr "Gran valor"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_text_block
 msgid ""
+<<<<<<< HEAD
 "Great stories are <b>for everyone</b> even when only written <b>for just one"
 " person</b>. If you try to write with a wide, general audience in mind, your"
 " story will sound fake and lack emotion. No one will be interested. Write "
@@ -9546,16 +10403,35 @@ msgstr ""
 "<b>para una sola persona</b>. Si trata de escribirla pensando en un público "
 "amplio y general, su historia sonará falsa y no será emocionante. A nadie le"
 " interesará. Escriba para una persona. Si es genuina para una persona, lo "
+=======
+"Great stories are <b>for everyone</b> even when only written <b>for just one "
+"person</b>. If you try to write with a wide, general audience in mind, your "
+"story will sound fake and lack emotion. No one will be interested. Write for "
+"one person. If it’s genuine for the one, it’s genuine for the rest."
+msgstr ""
+"Las grandes historias son <b>para todos</b> incluso si se escribieron "
+"<b>para una sola persona</b>. Si trata de escribirla pensando en un público "
+"amplio y general, su historia sonará falsa y no será emocionante. A nadie le "
+"interesará. Escriba para una persona. Si es genuina para una persona, lo "
+>>>>>>> upstream/18.0
 "será para las demás."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_text_block
 msgid ""
+<<<<<<< HEAD
 "Great stories have a <b>personality</b>. Consider telling a great story that"
 " provides personality. Writing a story with personality for potential "
 "clients will assist with making a relationship connection. This shows up in "
 "small quirks like word choices or phrases. Write from your point of view, "
 "not from someone else's experience."
+=======
+"Great stories have a <b>personality</b>. Consider telling a great story that "
+"provides personality. Writing a story with personality for potential clients "
+"will assist with making a relationship connection. This shows up in small "
+"quirks like word choices or phrases. Write from your point of view, not from "
+"someone else's experience."
+>>>>>>> upstream/18.0
 msgstr ""
 "Las grandes historias tienen <b>personalidad</b>. Considere contar una gran "
 "historia llena de personalidad. Escribir una historia con personalidad para "
@@ -9582,7 +10458,11 @@ msgstr "Mayor impacto"
 #: model_terms:ir.ui.view,arch_db:website.s_website_controller_page_listing_layout
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Grid"
+<<<<<<< HEAD
 msgstr "Tabla"
+=======
+msgstr "Cuadrícula"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
@@ -9793,7 +10673,10 @@ msgstr "Título 1"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/website/static/src/xml/website.editor.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9977,8 +10860,11 @@ msgstr "Título 1"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website/static/src/xml/website.editor.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10158,8 +11044,11 @@ msgstr "Título 2"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website/static/src/xml/website.editor.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10339,8 +11228,11 @@ msgstr "Título 3"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website/static/src/xml/website.editor.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10520,8 +11412,11 @@ msgstr "Título 4"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website/static/src/xml/website.editor.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10701,8 +11596,11 @@ msgstr "Título 5"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website/static/src/xml/website.editor.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11021,7 +11919,11 @@ msgid "Highlights Key Attributes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Destaca atributos Clave"
+=======
+msgstr "Destaque atributos clave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Destaque atributos clave"
 >>>>>>> upstream/18.0
@@ -11245,11 +12147,18 @@ msgstr ""
 #: code:addons/website/static/src/components/dialog/edit_menu.xml:0
 #: code:addons/website/static/src/js/editor/snippets.options.js:0
 #: code:addons/website/static/src/xml/web_editor.xml:0
+<<<<<<< HEAD
 msgid ""
 "Hint: Type '/' to search an existing page and '#' to link to an anchor."
 msgstr ""
 "Consejo: escriba '/' para buscar en una página existente y '#' para vincular"
 " a un ancla."
+=======
+msgid "Hint: Type '/' to search an existing page and '#' to link to an anchor."
+msgstr ""
+"Consejo: escriba '/' para buscar en una página existente y '#' para vincular "
+"a un ancla."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -11441,8 +12350,13 @@ msgid ""
 "Ideal for newcomers. Essential features to kickstart sales and marketing. "
 "Perfect for small teams."
 msgstr ""
+<<<<<<< HEAD
 "Ideal para principiantes. Funciones indispensables para impulsar ventas y "
 "marketing. Perfecto para equipos pequeños."
+=======
+"Ideal para quienes recién empiezan. Funciones esenciales para impulsar tus "
+"ventas y marketing. Perfecto para equipos pequeños."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model:ir.model.fields,help:website.field_website__specific_user_account
@@ -11479,8 +12393,13 @@ msgid ""
 "If this error is caused by a change of yours in the templates, you have the "
 "possibility to reset the template to its <strong>factory settings</strong>."
 msgstr ""
+<<<<<<< HEAD
 "Puede restablecer la plantilla a la <strong>configuración de "
 "fábrica</strong> si alguno de los cambios ocasionó un error."
+=======
+"Puede restablecer la plantilla a la <strong>configuración de fábrica</"
+"strong> si alguno de los cambios ocasionó un error."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model:ir.model.fields,help:website.field_website_controller_page__groups_id
@@ -11499,12 +12418,22 @@ msgstr ""
 msgid ""
 "If this view is inherited,\n"
 "* if True, the view always extends its parent\n"
+<<<<<<< HEAD
 "* if False, the view currently does not extend its parent but can be enabled\n"
+=======
+"* if False, the view currently does not extend its parent but can be "
+"enabled\n"
+>>>>>>> upstream/18.0
 "         "
 msgstr ""
 "Si se hereda esta vista, \n"
 "* Si es \"TRUE\", la vista siempre extiende a la vista principal \n"
+<<<<<<< HEAD
 "* Si es \"FALSE\", la vista actual no extiende la vista principal, pero se puede habilitar\n"
+=======
+"* Si es \"FALSE\", la vista actual no extiende la vista principal, pero se "
+"puede habilitar\n"
+>>>>>>> upstream/18.0
 "             "
 
 #. module: website
@@ -11514,8 +12443,13 @@ msgid ""
 "If you discard the current edits, all unsaved changes will be lost. You can "
 "cancel to return to edit mode."
 msgstr ""
+<<<<<<< HEAD
 "Todos los cambios sin guardar se perderán si descarta las ediciones "
 "actuales. Puede cancelar para regresar al modo de edición."
+=======
+"Perderás todos los cambios sin guardar si descartas las ediciones actuales. "
+"Cancela para regresar al modo de edición."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -11642,7 +12576,11 @@ msgstr "Menú de imagen"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_media_list_options
 msgid "Image Size"
+<<<<<<< HEAD
 msgstr "Tamaño de la imagen "
+=======
+msgstr "Tamaño de la imagen"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -11701,6 +12639,7 @@ msgstr "Muro de imágenes"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "In"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11934,6 +12873,9 @@ msgstr "Entrada"
 =======
 msgstr "Entrada"
 >>>>>>> upstream/18.0
+=======
+msgstr "Entrada"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_pages_kanban_view
@@ -11960,11 +12902,23 @@ msgstr "Mientras tanto, le invitamos a visitar nuestro"
 #. odoo-javascript
 #: code:addons/website/static/src/components/translator/translator.xml:0
 msgid ""
+<<<<<<< HEAD
 "In this mode, you can only translate texts. To change the structure of the page, you must edit the master page.\n"
 "            Each modification on the master page is automatically applied to all translated versions."
 msgstr ""
 "En este modo, solo puede traducir textos. Debe editar la página maestra para cambiar la estructura de la página.\n"
 "            Cada modificación a la página maestra se aplica de forma automática a todas las versiones traducidas."
+=======
+"In this mode, you can only translate texts. To change the structure of the "
+"page, you must edit the master page.\n"
+"            Each modification on the master page is automatically applied to "
+"all translated versions."
+msgstr ""
+"En este modo, solo puede traducir textos. Debe editar la página maestra para "
+"cambiar la estructura de la página.\n"
+"            Cada modificación a la página maestra se aplica de forma "
+"automática a todas las versiones traducidas."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_accordion_image
@@ -12171,8 +13125,13 @@ msgstr "Insertar un snippet de separador horizontal"
 msgid ""
 "Insert text styles like headers, bold, italic, lists, and fonts with a "
 "simple WYSIWYG editor. Flexible and easy to use, it lets you design and "
+<<<<<<< HEAD
 "format documents in real time. No coding knowledge is needed, making content"
 " creation straightforward and enjoyable for everyone."
+=======
+"format documents in real time. No coding knowledge is needed, making content "
+"creation straightforward and enjoyable for everyone."
+>>>>>>> upstream/18.0
 msgstr ""
 "Inserte estilos de texto como encabezados, negrita, cursiva, listas y "
 "fuentes con un editor WYSIWYG sencillo. Es flexible y fácil de usar, le "
@@ -12480,7 +13439,12 @@ msgid ""
 msgstr ""
 "Parece que su sitio web aún utiliza el antiguo sistema de colores de\n"
 "            Odoo 13.0 para algunas cosas. Todo funciona bien\n"
+<<<<<<< HEAD
 "            pero le recomendamos que pruebe el nuevo sistema de colores, también\n"
+=======
+"            pero le recomendamos que pruebe el nuevo sistema de colores, "
+"también\n"
+>>>>>>> upstream/18.0
 "            es personalizable."
 
 #. module: website
@@ -12878,8 +13842,12 @@ msgstr "Conozca más acerca de nuestra oferta"
 #: model_terms:ir.ui.view,arch_db:website.s_striped
 msgid "Learn about the key decisions that have shaped our identity."
 msgstr ""
+<<<<<<< HEAD
 "Conozca más acerca de las decisiones clave que han formado nuestra "
 "identidad."
+=======
+"Conozca más acerca de las decisiones clave que han formado nuestra identidad."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_horizontal
@@ -13123,7 +14091,11 @@ msgid "Link Style"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Estilo de enlace"
+=======
+msgstr "Estilo del enlace"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estilo del enlace"
 >>>>>>> upstream/18.0
@@ -13429,8 +14401,11 @@ msgstr "LinkedIn"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website/static/src/xml/website.editor.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13657,6 +14632,10 @@ msgstr "Widget de chat en vivo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/website/static/src/js/editor/html_editor.js:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/website/static/src/js/editor/html_editor.js:0
 >>>>>>> upstream/18.0
@@ -13817,9 +14796,15 @@ msgid ""
 "Make sure to wait if errors keep being shown: sometimes enabling an API "
 "allows to use it immediately but Google keeps triggering errors for a while"
 msgstr ""
+<<<<<<< HEAD
 "Manténgase atento por si siguen apareciendo errores, algunas veces habilitar"
 " una API permite su uso de inmediato, pero Google sigue mostrando errores "
 "por un tiempo."
+=======
+"Manténgase atento por si siguen apareciendo errores, algunas veces habilitar "
+"una API permite su uso de inmediato, pero Google sigue mostrando errores por "
+"un tiempo."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -13914,8 +14899,13 @@ msgstr "Cuadros"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_about_s_features
 msgid ""
+<<<<<<< HEAD
 "Mastering frontend craftsmanship with expertise in HTML, CSS, and JavaScript"
 " to craft captivating and responsive user experiences."
+=======
+"Mastering frontend craftsmanship with expertise in HTML, CSS, and JavaScript "
+"to craft captivating and responsive user experiences."
+>>>>>>> upstream/18.0
 msgstr ""
 "Dominar el frontend con experiencia en HTML, CSS y JavaScript para crear la "
 "mejor experiencia de usuario."
@@ -14090,6 +15080,21 @@ msgid "Menus"
 msgstr "Menús"
 
 #. module: website
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/website/models/website_menu.py:0
+msgid "Menus cannot have more than two levels of hierarchy."
+msgstr "Los menús no pueden tener más de dos niveles de jerarquía."
+
+#. module: website
+#. odoo-python
+#: code:addons/website/models/website_menu.py:0
+msgid "Menus with child menus cannot be added as a submenu."
+msgstr "No puedes agregar menús con menús secundarios como submenú."
+
+#. module: website
+>>>>>>> upstream/18.0
 #: model:ir.model,name:website.model_base_partner_merge_automatic_wizard
 msgid "Merge Partner Wizard"
 msgstr "Asistente de fusión de contactos"
@@ -14123,8 +15128,13 @@ msgstr "Mich Stark, COO"
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_team_s_text_image
 msgid ""
 "Mich loves taking on challenges. With his multi-year experience as "
+<<<<<<< HEAD
 "Commercial Director in the software industry, Mich has helped the company to"
 " get where it is today."
+=======
+"Commercial Director in the software industry, Mich has helped the company to "
+"get where it is today."
+>>>>>>> upstream/18.0
 msgstr ""
 "Mich cuenta con varios años de experiencia como director comercial en el "
 "sector informático. Le encantan los desafíos y ha ayudado a la empresa a "
@@ -14136,8 +15146,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.s_company_team
 msgid ""
 "Mich loves taking on challenges. With his multi-year experience as "
+<<<<<<< HEAD
 "Commercial Director in the software industry, Mich has helped the company to"
 " get where it is today. Mich is among the best minds."
+=======
+"Commercial Director in the software industry, Mich has helped the company to "
+"get where it is today. Mich is among the best minds."
+>>>>>>> upstream/18.0
 msgstr ""
 "Mich cuenta con varios años de experiencia como director comercial en el "
 "sector informático. Le encantan los desafíos y ha ayudado a la empresa a "
@@ -14325,7 +15340,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "aplicación Marketing social de Odoo. Interactúe con ellos con solo un clic "
+=======
+"aplicación Redes sociales de Odoo. Interactúe con ellos con solo un clic "
+>>>>>>> upstream/18.0
 =======
 "aplicación Redes sociales de Odoo. Interactúe con ellos con solo un clic "
 >>>>>>> upstream/18.0
@@ -14565,8 +15584,12 @@ msgstr "¿Necesita ayuda?"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_cards
 msgid ""
+<<<<<<< HEAD
 "Need to pick up your order at one of our stores? Discover the nearest to "
 "you."
+=======
+"Need to pick up your order at one of our stores? Discover the nearest to you."
+>>>>>>> upstream/18.0
 msgstr ""
 "¿Necesita recoger su orden en una de nuestras tiendas? Descubra la más "
 "cercana a usted."
@@ -14632,7 +15655,11 @@ msgstr "Noticias"
 #: model_terms:ir.ui.view,arch_db:website.external_snippets
 msgid "Newsletter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Boletín informativo"
+=======
+msgstr "Boletín"
+>>>>>>> upstream/18.0
 =======
 msgstr "Boletín"
 >>>>>>> upstream/18.0
@@ -14646,7 +15673,11 @@ msgstr "Bloque de boletín"
 #: model_terms:ir.ui.view,arch_db:website.external_snippets
 msgid "Newsletter Popup"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ventana emergente de boletín informativo"
+=======
+msgstr "Ventana emergente de boletín"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ventana emergente de boletín"
 >>>>>>> upstream/18.0
@@ -14818,8 +15849,13 @@ msgid ""
 "Note that the \"Website / Editor and Designer\" group is implicitly added "
 "when saving if any group is specified."
 msgstr ""
+<<<<<<< HEAD
 "Tenga en cuenta que el grupo \"Sitio web / Editor y diseñador\" se agrega de"
 " forma implícita al guardar si especifica algún grupo."
+=======
+"Tenga en cuenta que el grupo \"Sitio web / Editor y diseñador\" se agrega de "
+"forma implícita al guardar si especifica algún grupo."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -15052,7 +16088,11 @@ msgid "On Hover"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Al deslizar el mouse"
+=======
+msgstr "Al pasar el cursor por encima"
+>>>>>>> upstream/18.0
 =======
 msgstr "Al pasar el cursor por encima"
 >>>>>>> upstream/18.0
@@ -15343,9 +16383,17 @@ msgstr "Permitir solo las cookies necesarias"
 #: model:ir.model.fields,help:website.field_website_controller_page__mode
 #: model:ir.model.fields,help:website.field_website_page__mode
 msgid ""
+<<<<<<< HEAD
 "Only applies if this view inherits from an other one (inherit_id is not False/Null).\n"
 "\n"
 "* if extension (default), if this view is requested the closest primary view\n"
+=======
+"Only applies if this view inherits from an other one (inherit_id is not "
+"False/Null).\n"
+"\n"
+"* if extension (default), if this view is requested the closest primary "
+"view\n"
+>>>>>>> upstream/18.0
 "is looked up (via inherit_id), then all views inheriting from it with this\n"
 "view's model are applied\n"
 "* if primary, the closest primary view is fully resolved (even if it uses a\n"
@@ -15355,11 +16403,23 @@ msgid ""
 msgstr ""
 "Solo aplica si esta vista hereda de otra (inherit_id no es False/Null).\n"
 "\n"
+<<<<<<< HEAD
 "* Si tiene extensión (predeterminada), cuando se solicita esta vista, se busca\n"
 "la vista primaria más cercana (via inherit_id), y luego se aplica a todas las vistas\n"
 "que hereden de ella\n"
 "* Si es primaria, la vista primaria más cercana se resuelve completamente (incluso si utiliza un\n"
 "modelo diferente a este), las especificaciones de herencia se aplican después \n"
+=======
+"* Si tiene extensión (predeterminada), cuando se solicita esta vista, se "
+"busca\n"
+"la vista primaria más cercana (via inherit_id), y luego se aplica a todas "
+"las vistas\n"
+"que hereden de ella\n"
+"* Si es primaria, la vista primaria más cercana se resuelve completamente "
+"(incluso si utiliza un\n"
+"modelo diferente a este), las especificaciones de herencia se aplican "
+"después \n"
+>>>>>>> upstream/18.0
 "(<xpath/>) y el resultado se utiliza como si fuera la arquitectura real\n"
 "de esta vista.\n"
 
@@ -15466,8 +16526,13 @@ msgstr "Nuestro enfoque"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_services_0_s_three_columns
 msgid ""
+<<<<<<< HEAD
 "Our Coaching combines personalized fitness plans with mindfulness practices,"
 " ensuring you achieve harmony in your body and peace in your mind."
+=======
+"Our Coaching combines personalized fitness plans with mindfulness practices, "
+"ensuring you achieve harmony in your body and peace in your mind."
+>>>>>>> upstream/18.0
 msgstr ""
 "Nuestro asesoramiento combina planes personalizados de entrenamiento físico "
 "con prácticas de mindfulness para garantizar la armonía del cuerpo y de la "
@@ -15537,8 +16602,13 @@ msgstr "Nuestros valores"
 #: model_terms:ir.ui.view,arch_db:website.s_accordion
 msgid ""
 "Our company specializes in consulting, product development, and customer "
+<<<<<<< HEAD
 "support. We tailor our services to fit the unique needs of businesses across"
 " various sectors, helping them grow and succeed in a competitive market."
+=======
+"support. We tailor our services to fit the unique needs of businesses across "
+"various sectors, helping them grow and succeed in a competitive market."
+>>>>>>> upstream/18.0
 msgstr ""
 "Nuestra empresa se especializa en consultoría, desarrollo de productos y "
 "soporte al cliente. Adaptamos nuestros servicios para satisfacer las "
@@ -15572,14 +16642,21 @@ msgid ""
 "ensuring a polished, responsive result."
 msgstr ""
 "Nuestras funciones de diseño ofrecen varias herramientas para crear sitios "
+<<<<<<< HEAD
 "web impresionantes. Use editores WYSIWYG, bloques de creación para arrastrar"
 " y soltar y plantillas basadas en Bootstrap para personalizar sus páginas "
 "sin complicaciones. Nuestros temas profesionales y sistema intuitivo le "
+=======
+"web impresionantes. Use editores WYSIWYG, bloques de creación para arrastrar "
+"y soltar y plantillas basadas en Bootstrap para personalizar sus páginas sin "
+"complicaciones. Nuestros temas profesionales y sistema intuitivo le "
+>>>>>>> upstream/18.0
 "permitirán diseñar un sitio web responsivo con facilidad y precisión."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_horizontal
 msgid ""
+<<<<<<< HEAD
 "Our development team works tirelessly to enhance the platform's performance,"
 " security, and functionality, ensuring it remains at the cutting edge of "
 "innovation."
@@ -15587,6 +16664,15 @@ msgstr ""
 "Nuestro equipo de desarrollo trabaja arduamente para mejorar el rendimiento,"
 " la seguridad y la funcionalidad de la plataforma mientras se aseguran de "
 "que sea novedosa."
+=======
+"Our development team works tirelessly to enhance the platform's performance, "
+"security, and functionality, ensuring it remains at the cutting edge of "
+"innovation."
+msgstr ""
+"Nuestro equipo de desarrollo trabaja arduamente para mejorar el rendimiento, "
+"la seguridad y la funcionalidad de la plataforma mientras se aseguran de que "
+"sea novedosa."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_2_s_three_columns
@@ -15688,10 +16774,17 @@ msgid ""
 "exceptional value without compromising on features or performance."
 msgstr ""
 "Nuestros planes de software están diseñados para satisfacer una gran "
+<<<<<<< HEAD
 "variedad de necesidades, garantizando que encuentre el que mejor se adapte a"
 " sus requisitos. Desde usuarios individuales a empresas de todos los "
 "tamaños, ofrecemos opciones de precios que proporcionan un valor excepcional"
 " sin comprometer las funciones o el rendimiento."
+=======
+"variedad de necesidades, garantizando que encuentre el que mejor se adapte a "
+"sus requisitos. Desde usuarios individuales a empresas de todos los tamaños, "
+"ofrecemos opciones de precios que proporcionan un valor excepcional sin "
+"comprometer las funciones o el rendimiento."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_discovery
@@ -15917,7 +17010,11 @@ msgid "Page Layout"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Diseño de página"
+=======
+msgstr "Diseño de la página"
+>>>>>>> upstream/18.0
 =======
 msgstr "Diseño de la página"
 >>>>>>> upstream/18.0
@@ -16245,14 +17342,24 @@ msgid ""
 "Paragraph text. Lorem <b>ipsum dolor sit amet</b>, consectetur adipiscing "
 "elit. <i>Integer posuere erat a ante</i>."
 msgstr ""
+<<<<<<< HEAD
 "Texto del párrafo. Lorem <b>ipsum dolor sit amet</b>, consectetur adipiscing"
 " elit. <i>Integer posuere erat a ante</i>."
+=======
+"Texto del párrafo. Lorem <b>ipsum dolor sit amet</b>, consectetur adipiscing "
+"elit. <i>Integer posuere erat a ante</i>."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 msgid ""
+<<<<<<< HEAD
 "Paragraph with <strong>bold</strong>, <span class=\"text-"
 "muted\">muted</span> and <em>italic</em> texts"
+=======
+"Paragraph with <strong>bold</strong>, <span class=\"text-muted\">muted</"
+"span> and <em>italic</em> texts"
+>>>>>>> upstream/18.0
 msgstr ""
 "Párrafo con texto <strong>en negritas</strong>, <span class=\"text-"
 "muted\">silenciado</span> y <em>en cursiva</em>"
@@ -16339,8 +17446,13 @@ msgid ""
 "Penne pasta tossed in a spicy tomato and garlic sauce with a hint of chili "
 "peppers, finished with fresh parsley."
 msgstr ""
+<<<<<<< HEAD
 "Pasta penne mezclada con salsa picante de tomate y ajo con un toque de chile"
 " y perejil fresco."
+=======
+"Pasta penne mezclada con salsa picante de tomate y ajo con un toque de chile "
+"y perejil fresco."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -16669,12 +17781,15 @@ msgstr "Primario"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website/static/src/xml/website.editor.xml:0
 msgid "Primary Buttons"
 msgstr "Botones primarios"
 
 #. module: website
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17041,6 +18156,7 @@ msgstr "Imagen llamativa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -17059,6 +18175,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17199,6 +18317,9 @@ msgstr "Dominio de punycode o código púny"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17722,7 +18843,11 @@ msgid "Required"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Requerido"
+=======
+msgstr "Obligatorio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obligatorio"
 >>>>>>> upstream/18.0
@@ -17968,7 +19093,11 @@ msgstr "Restablecer la familia de fuentes de los encabezados"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Reset to Paragraph Font Family"
+<<<<<<< HEAD
 msgstr "Restablecer la familia de fuentes de párrafo"
+=======
+msgstr "Restablecer a la familia de fuente del párrafo"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500
@@ -18227,8 +19356,13 @@ msgid ""
 "Savor our fresh, local cuisine with a modern twist.<br/>Deliciously crafted "
 "for every taste!"
 msgstr ""
+<<<<<<< HEAD
 "Disfrute de nuestra oferta gastronómica fresca y local con un toque "
 "moderno.<br/> ¡Preparamos nuestros platillos pensando en todos los gustos!"
+=======
+"Disfrute de nuestra oferta gastronómica fresca y local con un toque moderno."
+"<br/> ¡Preparamos nuestros platillos pensando en todos los gustos!"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_features
@@ -18332,9 +19466,15 @@ msgid ""
 "free and high quality photos, makes it possible for you to get the perfect "
 "picture, in just a few clicks."
 msgstr ""
+<<<<<<< HEAD
 "Busque en el cuadro de diálogo de medios cuando necesite fotos para ilustrar"
 " su sitio web. La integración de Odoo con Unsplash, con millones de fotos de"
 " calidad y libres de derechos de autor, hace que sea posible obtener la "
+=======
+"Busque en el cuadro de diálogo de medios cuando necesite fotos para ilustrar "
+"su sitio web. La integración de Odoo con Unsplash, con millones de fotos de "
+"calidad y libres de derechos de autor, hace que sea posible obtener la "
+>>>>>>> upstream/18.0
 "imagen perfecta en tan solo unos clics."
 
 #. module: website
@@ -18445,12 +19585,15 @@ msgstr "Secundario"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website/static/src/xml/website.editor.xml:0
 msgid "Secondary Buttons"
 msgstr "Botones secundarios"
 
 #. module: website
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18777,7 +19920,11 @@ msgid "Serve font from Google servers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utilizar fuente de servidores de Google"
+=======
+msgstr "Almacenar la fuente en los servidores de Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almacenar la fuente en los servidores de Google"
 >>>>>>> upstream/18.0
@@ -19167,7 +20314,11 @@ msgid "Show/Hide on Desktop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mostrar/ocultar en el escritorio"
+=======
+msgstr "Mostrar/ocultar en escritorio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostrar/ocultar en escritorio"
 >>>>>>> upstream/18.0
@@ -19346,8 +20497,13 @@ msgid ""
 "Sleek, minimalist space offering meticulously brewed coffee and espresso "
 "drinks using freshly roasted beans."
 msgstr ""
+<<<<<<< HEAD
 "Espacio elegante y minimalista que ofrece cafés preparados con granos recién"
 " tostados."
+=======
+"Espacio elegante y minimalista que ofrece cafés preparados con granos recién "
+"tostados."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_tabs_options
@@ -19482,8 +20638,13 @@ msgid ""
 "Some quick example text to build on the card title and make up the bulk of "
 "the card's content."
 msgstr ""
+<<<<<<< HEAD
 "Un texto de ejemplo rápido que se basa en el título de la tarjeta y conforma"
 " la mayor parte de su contenido."
+=======
+"Un texto de ejemplo rápido que se basa en el título de la tarjeta y conforma "
+"la mayor parte de su contenido."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
@@ -19505,8 +20666,13 @@ msgstr "Sophia Langston"
 #: model_terms:ir.ui.view,arch_db:website.s_company_team_detail
 msgid "Sophia evaluates financial data and provides strategic insights."
 msgstr ""
+<<<<<<< HEAD
 "Sophia se encarga de evaluar los datos financieros y proporciona información"
 " estratégica."
+=======
+"Sophia se encarga de evaluar los datos financieros y proporciona información "
+"estratégica."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_thumbnails
@@ -19556,8 +20722,12 @@ msgstr "Especifique un término de búsqueda."
 
 #. module: website
 #: model:ir.model.fields,help:website.field_ir_model__website_form_default_field_id
+<<<<<<< HEAD
 msgid ""
 "Specify the field which will contain meta and custom form fields datas."
+=======
+msgid "Specify the field which will contain meta and custom form fields datas."
+>>>>>>> upstream/18.0
 msgstr ""
 "Especifique el campo que contendrá los datos de los campos meta y "
 "personalizados del formulario."
@@ -19582,8 +20752,13 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_pricelist_boxed
 msgid ""
+<<<<<<< HEAD
 "Spicy pepperoni paired with fiery chili flakes, mozzarella, and tomato sauce"
 " for a flavorful kick."
+=======
+"Spicy pepperoni paired with fiery chili flakes, mozzarella, and tomato sauce "
+"for a flavorful kick."
+>>>>>>> upstream/18.0
 msgstr ""
 "Pepperoni picante acompañado de pimienta roja triturada, mozzarella y salsa "
 "de tomate para un toque de sabor."
@@ -19680,7 +20855,11 @@ msgid "Start After"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Iniciar después"
+=======
+msgstr "Iniciar después de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iniciar después de"
 >>>>>>> upstream/18.0
@@ -19916,9 +21095,15 @@ msgid ""
 "innovative force. Our journey, born in a garage, reflects the power of "
 "passion and hard work."
 msgstr ""
+<<<<<<< HEAD
 "Sumérjase en nuestro pasado y sea testigo de la transformación de una simple"
 " idea en una fuerza innovadora. Nuestra historia comenzó en un garaje, lo "
 "que refleja el poder de la pasión y el trabajo duro."
+=======
+"Sumérjase en nuestro pasado y sea testigo de la transformación de una simple "
+"idea en una fuerza innovadora. Nuestra historia comenzó en un garaje, lo que "
+"refleja el poder de la pasión y el trabajo duro."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -20298,8 +21483,11 @@ msgstr "Pruebe sus Robots.txt con la consola de búsqueda de Google"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website/static/src/xml/website.editor.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20498,14 +21686,23 @@ msgstr "El nombre de la página de Instagram no es válido"
 #. odoo-javascript
 #: code:addons/website/static/src/xml/website.editor.xml:0
 msgid "The chosen name already exists"
+<<<<<<< HEAD
 msgstr "El nombre que eligió ya existe"
+=======
+msgstr "Ese nombre ya existe"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_s_showcase
 msgid ""
 "The compact charging case offers convenient on-the-go charging with a "
+<<<<<<< HEAD
 "battery life that lasts up to 17h, you can enjoy your favorite tunes without"
 " interruption."
+=======
+"battery life that lasts up to 17h, you can enjoy your favorite tunes without "
+"interruption."
+>>>>>>> upstream/18.0
 msgstr ""
 "El estuche de carga compacto ofrece una carga práctica en cualquier lugar "
 "con una duración de la batería de hasta 17 horas. Podrá disfrutar de sus "
@@ -20520,10 +21717,19 @@ msgstr "La empresa a la que pertenece este sitio web"
 #. odoo-python
 #: code:addons/website/models/res_company.py:0
 msgid ""
+<<<<<<< HEAD
 "The company “%(company_name)s” cannot be archived because it has a linked website “%(website_name)s”.\n"
 "Change that website's company first."
 msgstr ""
 "La empresa %(company_name)s no se puede archivar ya que el sitio web %(website_name)s está vinculado a ella.\n"
+=======
+"The company “%(company_name)s” cannot be archived because it has a linked "
+"website “%(website_name)s”.\n"
+"Change that website's company first."
+msgstr ""
+"La empresa %(company_name)s no se puede archivar ya que el sitio web %"
+"(website_name)s está vinculado a ella.\n"
+>>>>>>> upstream/18.0
 "Primero cambie la empresa de ese sitio web."
 
 #. module: website
@@ -20533,8 +21739,13 @@ msgid ""
 "The description will be generated by search engines based on page content "
 "unless you specify one."
 msgstr ""
+<<<<<<< HEAD
 "Los motores de búsqueda generarán la descripción en función del contenido de"
 " la página, a menos que usted especifique una."
+=======
+"Los motores de búsqueda generarán la descripción en función del contenido de "
+"la página, a menos que usted especifique una."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -20698,7 +21909,10 @@ msgstr "El límite debe estar entre 1 y 16."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20900,6 +22114,9 @@ msgstr "El logo es demasiado grande. Suba un logo que pese menos de 2.5 MB."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21050,8 +22267,13 @@ msgstr "El mensaje será visible cuando el contador termine"
 msgid ""
 "The name is used to generate the URL and is shown in the browser title bar"
 msgstr ""
+<<<<<<< HEAD
 "El nombre se utiliza para generar la URL y aparece en la barra de título del"
 " navegador"
+=======
+"El nombre se utiliza para generar la URL y aparece en la barra de título del "
+"navegador"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model:ir.model.fields,help:website.field_website_controller_page__name_slugified
@@ -21163,8 +22385,12 @@ msgstr "Por el momento no hay páginas para este sitio web."
 #: code:addons/website/models/website_visitor.py:0
 msgid "There are no contact and/or no email linked to this visitor."
 msgstr ""
+<<<<<<< HEAD
 "No hay contacto o dirección de correo electrónico vinculado a este "
 "visitante."
+=======
+"No hay contacto o dirección de correo electrónico vinculado a este visitante."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -21232,8 +22458,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website/static/src/snippets/s_website_form/options.js:0
 msgid ""
+<<<<<<< HEAD
 "This field is mandatory for this action. You cannot remove it. Try hiding it"
 " with the 'Visibility' option instead and add it a default value."
+=======
+"This field is mandatory for this action. You cannot remove it. Try hiding it "
+"with the 'Visibility' option instead and add it a default value."
+>>>>>>> upstream/18.0
 msgstr ""
 "Este campo es obligatorio para realizar esta acción y no se puede eliminar. "
 "Ocúltelo con la opción \"Visibilidad\" y agregue un valor predeterminado."
@@ -21255,11 +22486,23 @@ msgstr ""
 #: model:ir.model.fields,help:website.field_website_controller_page__arch
 #: model:ir.model.fields,help:website.field_website_page__arch
 msgid ""
+<<<<<<< HEAD
 "This field should be used when accessing view arch. It will use translation.\n"
 "                               Note that it will read `arch_db` or `arch_fs` if in dev-xml mode."
 msgstr ""
 "Este campo debe usarse al acceder a la arquitectura de la vista y utilizará la traducción.\n"
 "                               Tenga en cuenta que leerá `arch_db` o `arch_fs` si está en modo dev-xml."
+=======
+"This field should be used when accessing view arch. It will use "
+"translation.\n"
+"                               Note that it will read `arch_db` or `arch_fs` "
+"if in dev-xml mode."
+msgstr ""
+"Este campo debe usarse al acceder a la arquitectura de la vista y utilizará "
+"la traducción.\n"
+"                               Tenga en cuenta que leerá `arch_db` o "
+"`arch_fs` si está en modo dev-xml."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model:ir.model.fields,help:website.field_website_controller_page__arch_db
@@ -21272,17 +22515,31 @@ msgstr "Este campo almacena la arquitectura de la vista."
 #: model:ir.model.fields,help:website.field_website_page__arch_prev
 msgid ""
 "This field will save the current `arch_db` before writing on it.\n"
+<<<<<<< HEAD
 "                                                                         Useful to (soft) reset a broken view."
 msgstr ""
 "Este campo almacenará la `arch_db` actual antes de escribir en ella.\n"
 "                                                                         Es útil para restablecer (de forma parcial) una vista con errores."
+=======
+"                                                                         Useful "
+"to (soft) reset a broken view."
+msgstr ""
+"Este campo almacenará la `arch_db` actual antes de escribir en ella.\n"
+"                                                                         Es "
+"útil para restablecer (de forma parcial) una vista con errores."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
 #: code:addons/website/static/src/js/editor/snippets.options.js:0
 msgid ""
+<<<<<<< HEAD
 "This font already exists, you can only add it as a local font to replace the"
 " server version."
+=======
+"This font already exists, you can only add it as a local font to replace the "
+"server version."
+>>>>>>> upstream/18.0
 msgstr ""
 "Esta fuente ya existe, solo puede agregarla como una fuente local para "
 "reemplazar la versión del servidor. "
@@ -21306,6 +22563,7 @@ msgstr "Esto es un \""
 msgid ""
 "This is a paragraph. Ambitioni dedisse scripsisse iudicaretur. Nihilne te "
 "nocturnum praesidium Palati, nihil urbis vigiliae. Unam incolunt Belgae, "
+<<<<<<< HEAD
 "aliam Aquitani, tertiam. Integer legentibus erat a ante historiarum dapibus."
 " Phasellus laoreet lorem vel dolor tempus vehicula."
 msgstr ""
@@ -21313,6 +22571,15 @@ msgstr ""
 "nocturnum praesidium Palati, nihil urbis vigiliae. Unam incolunt Belgae, "
 "aliam Aquitani, tertiam. Integer legentibus erat a ante historiarum dapibus."
 " Phasellus laoreet lorem vel dolor tempus vehicula."
+=======
+"aliam Aquitani, tertiam. Integer legentibus erat a ante historiarum dapibus. "
+"Phasellus laoreet lorem vel dolor tempus vehicula."
+msgstr ""
+"Este es un párrafo. Ambitioni dedisse scripsisse iudicaretur. Nihilne te "
+"nocturnum praesidium Palati, nihil urbis vigiliae. Unam incolunt Belgae, "
+"aliam Aquitani, tertiam. Integer legentibus erat a ante historiarum dapibus. "
+"Phasellus laoreet lorem vel dolor tempus vehicula."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_framed_intro
@@ -21404,8 +22671,13 @@ msgid ""
 "This value will be escaped to be compliant with all major browsers and used "
 "in url. Keep it empty to use the default name of the record."
 msgstr ""
+<<<<<<< HEAD
 "Este valor se escapará para que sea compatible con la mayoría de navegadores"
 " y se utilizará en la URL. Déjelo vacío para usar el nombre predeterminado "
+=======
+"Este valor se escapará para que sea compatible con la mayoría de navegadores "
+"y se utilizará en la URL. Déjelo vacío para usar el nombre predeterminado "
+>>>>>>> upstream/18.0
 "del registro."
 
 #. module: website
@@ -21425,11 +22697,24 @@ msgstr "Este sitio web no tiene un dominio configurado."
 #. odoo-javascript
 #: code:addons/website/static/src/systray_items/website_switcher.js:0
 msgid ""
+<<<<<<< HEAD
 "This website does not have a domain configured. To avoid unexpected behaviours during website edition, we recommend closing (or refreshing) other browser tabs.\n"
 "To remove this message please set a domain in your website settings"
 msgstr ""
 "Este sitio web no tiene un dominio configurado. Para evitar comportamientos inesperados durante la edición del sitio web, recomendamos cerrar (o actualizar) otras pestañas del navegador.\n"
 "Para eliminar este mensaje, establezca un dominio en los ajustes de su sitio web."
+=======
+"This website does not have a domain configured. To avoid unexpected "
+"behaviours during website edition, we recommend closing (or refreshing) "
+"other browser tabs.\n"
+"To remove this message please set a domain in your website settings"
+msgstr ""
+"Este sitio web no tiene un dominio configurado. Para evitar comportamientos "
+"inesperados durante la edición del sitio web, recomendamos cerrar (o "
+"actualizar) otras pestañas del navegador.\n"
+"Para eliminar este mensaje, establezca un dominio en los ajustes de su sitio "
+"web."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.view_edit_third_party_domains
@@ -21466,8 +22751,12 @@ msgstr "Cuenta de TikTok"
 #. module: website
 #: model:ir.model.fields,help:website.field_website_visitor__time_since_last_action
 msgid "Time since last page view. E.g.: 2 minutes ago"
+<<<<<<< HEAD
 msgstr ""
 "Tiempo desde la última visita a la página. Por ejemplo: hace 2 minutos"
+=======
+msgstr "Tiempo desde la última visita a la página. Por ejemplo: hace 2 minutos"
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -21557,8 +22846,13 @@ msgstr "Posición del título"
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
 msgid ""
 "To add a fourth column, reduce the size of these three columns using the "
+<<<<<<< HEAD
 "right icon of each block. Then, duplicate one of the columns to create a new"
 " one as a copy."
+=======
+"right icon of each block. Then, duplicate one of the columns to create a new "
+"one as a copy."
+>>>>>>> upstream/18.0
 msgstr ""
 "Para agregar una cuarta columna, reduzca el tamaño de estas tres columnas "
 "con el icono correspondiente de cada bloque y luego duplique una para crear "
@@ -21594,16 +22888,26 @@ msgid ""
 "description accordingly to boost your traffic."
 msgstr ""
 "Use las palabras claves que se buscan con frecuencia en Google para obtener "
+<<<<<<< HEAD
 "más visitantes. Con la herramienta de SEO integrada, Odoo le recomendará las"
 " mejores palabras clave una vez que defina algunas. Luego adapte su título y"
 " descripción de acuerdo a ellas para mejorar su tráfico."
+=======
+"más visitantes. Con la herramienta de SEO integrada, Odoo le recomendará las "
+"mejores palabras clave una vez que defina algunas. Luego adapte su título y "
+"descripción de acuerdo a ellas para mejorar su tráfico."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
 #: code:addons/website/static/src/xml/website.cookies_warning.xml:0
 msgid "To see the interactive content, you need to accept optional cookies."
+<<<<<<< HEAD
 msgstr ""
 "Debe aceptar las cookies opcionales para ver el contenido interactivo."
+=======
+msgstr "Debe aceptar las cookies opcionales para ver el contenido interactivo."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -21840,8 +23144,12 @@ msgid ""
 "Type '<i class=\"confirm_word\">yes</i>' in the box below if you want to "
 "confirm."
 msgstr ""
+<<<<<<< HEAD
 "Escriba '<i class=\"confirm_word\">sí</i>' a continuación si desea "
 "confirmar."
+=======
+"Escriba '<i class=\"confirm_word\">sí</i>' a continuación si desea confirmar."
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -21855,13 +23163,24 @@ msgid ""
 "Type of redirect/Rewrite:\n"
 "\n"
 "        301 Moved permanently: The browser will keep in cache the new url.\n"
+<<<<<<< HEAD
 "        302 Moved temporarily: The browser will not keep in cache the new url and ask again the next time the new url.\n"
 "        404 Not Found: If you want remove a specific page/controller (e.g. Ecommerce is installed, but you don't want /shop on a specific website)\n"
 "        308 Redirect / Rewrite: If you want rename a controller with a new url. (Eg: /shop -> /garden - Both url will be accessible but /shop will automatically be redirected to /garden)\n"
+=======
+"        302 Moved temporarily: The browser will not keep in cache the new "
+"url and ask again the next time the new url.\n"
+"        404 Not Found: If you want remove a specific page/controller (e.g. "
+"Ecommerce is installed, but you don't want /shop on a specific website)\n"
+"        308 Redirect / Rewrite: If you want rename a controller with a new "
+"url. (Eg: /shop -> /garden - Both url will be accessible but /shop will "
+"automatically be redirected to /garden)\n"
+>>>>>>> upstream/18.0
 "    "
 msgstr ""
 "Tipo de redireccionamiento/reescritura:\n"
 "\n"
+<<<<<<< HEAD
 "        301 Movido permanentemente: el navegador mantendrá la nueva URL en el caché.\n"
 "        302 Movido temporalmente: el navegador no mantendrá la nueva URL en el caché y volverá a preguntar por la nueva URL la próxima vez.\n"
 "        404 no encontrado: si desea eliminar una página/controlador específico (por ejemplo, el comercio electrónico está instalado, pero no desea /tienda en un sitio web específico)\n"
@@ -21970,6 +23289,21 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"        301 Movido permanentemente: el navegador mantendrá la nueva URL en "
+"el caché.\n"
+"        302 Movido temporalmente: el navegador no mantendrá la nueva URL en "
+"el caché y volverá a preguntar por la nueva URL la próxima vez.\n"
+"        404 no encontrado: si desea eliminar una página/controlador "
+"específico (por ejemplo, el comercio electrónico está instalado, pero no "
+"desea /tienda en un sitio web específico)\n"
+"        308 Redirigir/Reescribir: si desea cambiar el nombre de un "
+"controlador con una URL nueva. (Por ejemplo: /tienda -> /jardín - Ambas URL "
+"serán accesibles pero /tienda será redirigido automáticamente a /jardín)\n"
+"    "
+
+#. module: website
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/website/static/src/xml/html_editor.xml:0
 msgid "Type your URL"
@@ -22009,6 +23343,9 @@ msgstr "Escriba su URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22126,6 +23463,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -22145,6 +23483,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22223,6 +23563,9 @@ msgstr "La URL no debe comenzar con \"#\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22318,7 +23661,12 @@ msgid ""
 "Understand how visitors engage with our website, via Google Analytics.\n"
 "                                                Learn more about"
 msgstr ""
+<<<<<<< HEAD
 "Entienda cómo los visitantes interactúan con nuestro sitio web a través de Google Analytics.\n"
+=======
+"Entienda cómo los visitantes interactúan con nuestro sitio web a través de "
+"Google Analytics.\n"
+>>>>>>> upstream/18.0
 "                                                Leer más"
 
 #. module: website
@@ -22495,8 +23843,13 @@ msgid ""
 "or right-aligned image alongside textual content. Duplicate the element to "
 "create a list that fits your needs."
 msgstr ""
+<<<<<<< HEAD
 "Utilice este snippet para crear varios tipos de componentes que incluyan una"
 " imagen alineada a la izquierda o a la derecha y texto. Duplique los "
+=======
+"Utilice este snippet para crear varios tipos de componentes que incluyan una "
+"imagen alineada a la izquierda o a la derecha y texto. Duplique los "
+>>>>>>> upstream/18.0
 "elementos para crear una lista que se adapte a sus necesidades."
 
 #. module: website
@@ -22553,20 +23906,46 @@ msgstr "Se utiliza en el título de la página"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
+<<<<<<< HEAD
 "Used to collect information about your interactions with the website, the pages you've seen,\n"
 "                                                and any specific marketing campaign that brought you to the website."
 msgstr ""
 "Se utiliza para recopilar información sobre sus interacciones con el sitio web, las páginas que ha visto\n"
 "                                                y la campaña de marketing que le haya traído al sitio web."
+=======
+"Used to collect information about your interactions with the website, the "
+"pages you've seen,\n"
+"                                                and any specific marketing "
+"campaign that brought you to the website."
+msgstr ""
+"Se utiliza para recopilar información sobre sus interacciones con el sitio "
+"web, las páginas que ha visto\n"
+"                                                y la campaña de marketing "
+"que le haya traído al sitio web."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
+<<<<<<< HEAD
 "Used to make advertising more engaging to users and more valuable to publishers and advertisers,\n"
 "                                                such as providing more relevant ads when you visit other websites that display ads or to improve reporting on ad campaign performance."
 msgstr ""
 "Se utiliza para que la publicidad sea más atractiva para los usuarios y más valiosa para los editores y anunciantes,\n"
 "                                                tales como proporcionar publicidad más relevante cuando visita otros sitios web que muestren publicidad o mejorar los reportes de rendimiento de campañas."
+=======
+"Used to make advertising more engaging to users and more valuable to "
+"publishers and advertisers,\n"
+"                                                such as providing more "
+"relevant ads when you visit other websites that display ads or to improve "
+"reporting on ad campaign performance."
+msgstr ""
+"Se utiliza para que la publicidad sea más atractiva para los usuarios y más "
+"valiosa para los editores y anunciantes,\n"
+"                                                tales como proporcionar "
+"publicidad más relevante cuando visita otros sitios web que muestren "
+"publicidad o mejorar los reportes de rendimiento de campañas."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.footer_custom
@@ -22598,8 +23977,12 @@ msgstr "Lista del usuario de dominios de terceros bloqueados"
 #: model:ir.model.fields,help:website.field_website_menu__group_ids
 msgid "User needs to be at least in one of these groups to see the menu"
 msgstr ""
+<<<<<<< HEAD
 "El usuario debe de estar en por lo menos uno de estos grupos para ver el "
 "menú"
+=======
+"El usuario debe de estar en por lo menos uno de estos grupos para ver el menú"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_features_wave
@@ -22850,8 +24233,12 @@ msgstr "Visitas"
 
 #. module: website
 #: model_terms:ir.actions.act_window,help:website.website_visitor_view_action
+<<<<<<< HEAD
 msgid ""
 "Wait for visitors to come to your website to see the pages they viewed."
+=======
+msgid "Wait for visitors to come to your website to see the pages they viewed."
+>>>>>>> upstream/18.0
 msgstr ""
 "Espere a que los visitantes visiten su sitio web para ver las páginas que "
 "vieron."
@@ -22905,17 +24292,36 @@ msgid ""
 "ensuring that our platform continues to evolve to meet your needs."
 msgstr ""
 "También proporcionamos actualizaciones regulares y funciones nuevas basadas "
+<<<<<<< HEAD
 "en los comentarios que nos proporcionan los usuarios, asegurando que nuestra"
 " plataforma siga evolucionando para satisfacer sus necesidades."
+=======
+"en los comentarios que nos proporcionan los usuarios, asegurando que nuestra "
+"plataforma siga evolucionando para satisfacer sus necesidades."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.footer_custom
 msgid ""
+<<<<<<< HEAD
 "We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build great products to solve your business problems.\n"
 "                            <br/><br/>Our products are designed for small to medium size companies willing to optimize their performance."
 msgstr ""
 "Somos un equipo de personas apasionadas cuyo objetivo es mejorar la vida de todos a través de productos revolucionarios. Creamos productos para resolver sus problemas empresariales.\n"
 "                            <br/><br/>Estos productos están diseñados para pequeñas y medianas empresas dispuestas a optimizar su rendimiento."
+=======
+"We are a team of passionate people whose goal is to improve everyone's life "
+"through disruptive products. We build great products to solve your business "
+"problems.\n"
+"                            <br/><br/>Our products are designed for small to "
+"medium size companies willing to optimize their performance."
+msgstr ""
+"Somos un equipo de personas apasionadas cuyo objetivo es mejorar la vida de "
+"todos a través de productos revolucionarios. Creamos productos para resolver "
+"sus problemas empresariales.\n"
+"                            <br/><br/>Estos productos están diseñados para "
+"pequeñas y medianas empresas dispuestas a optimizar su rendimiento."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_descriptive
@@ -22933,8 +24339,13 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_headline
 msgid ""
+<<<<<<< HEAD
 "We are a team of passionate people whose goal is to improve everyone's "
 "life.<br/>Our services are designed for small to medium size companies."
+=======
+"We are a team of passionate people whose goal is to improve everyone's life."
+"<br/>Our services are designed for small to medium size companies."
+>>>>>>> upstream/18.0
 msgstr ""
 "Somos un equipo de personas apasionadas cuyo objetivo es mejorar la vida de "
 "todos.<br/>Nuestros servicios están diseñados para pequeñas y medianas "
@@ -22977,15 +24388,25 @@ msgid ""
 "understanding your fitness aspirations, your current lifestyle, and any "
 "challenges you face."
 msgstr ""
+<<<<<<< HEAD
 "Creemos que cada viaje es único. Nuestro enfoque comienza con la comprensión"
 " de sus aspiraciones, su estilo de vida actual, y cualquier desafío que "
+=======
+"Creemos que cada viaje es único. Nuestro enfoque comienza con la comprensión "
+"de sus aspiraciones, su estilo de vida actual, y cualquier desafío que "
+>>>>>>> upstream/18.0
 "enfrenta."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_list
 msgid ""
+<<<<<<< HEAD
 "We collaborate with trusted, high-quality partners to bring you reliable and"
 " top-notch products and services."
+=======
+"We collaborate with trusted, high-quality partners to bring you reliable and "
+"top-notch products and services."
+>>>>>>> upstream/18.0
 msgstr ""
 "Colaboramos con aliados confiables y de alta calidad para brindarle los "
 "mejores productos y servicios."
@@ -22997,8 +24418,13 @@ msgid ""
 "success, ensuring sustainable growth and competitive advantage in a dynamic "
 "market."
 msgstr ""
+<<<<<<< HEAD
 "Combinamos ideas estratégicas y soluciones innovadoras para mejorar el éxito"
 " empresarial y garantizar un crecimiento sostenible así como ventajas "
+=======
+"Combinamos ideas estratégicas y soluciones innovadoras para mejorar el éxito "
+"empresarial y garantizar un crecimiento sostenible así como ventajas "
+>>>>>>> upstream/18.0
 "competitivas dentro de un mercado dinámico."
 
 #. module: website
@@ -23010,8 +24436,13 @@ msgstr "No pudimos encontrar la página de Facebook"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_list
 msgid ""
+<<<<<<< HEAD
 "We deliver personalized solutions, ensuring that every customer receives "
 "top-tier service tailored to their needs."
+=======
+"We deliver personalized solutions, ensuring that every customer receives top-"
+"tier service tailored to their needs."
+>>>>>>> upstream/18.0
 msgstr ""
 "Proporcionamos soluciones personalizadas y nos aseguramos de que todos "
 "nuestros clientes reciban un servicio de primera clase adaptado a sus "
@@ -23024,8 +24455,13 @@ msgid ""
 "exceed expectations, driving meaningful results and lasting success."
 msgstr ""
 "Ofrecemos soluciones innovadoras que no solo satisfarán sus necesidades, "
+<<<<<<< HEAD
 "sino que superarán sus expectativas, generarán resultados útiles y harán que"
 " su éxito sea duradero."
+=======
+"sino que superarán sus expectativas, generarán resultados útiles y harán que "
+"su éxito sea duradero."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
@@ -23046,8 +24482,13 @@ msgstr "Encontramos esto:"
 #: model_terms:ir.ui.view,arch_db:website.s_cards_soft
 msgid "We make every moment count with solutions designed just for you."
 msgstr ""
+<<<<<<< HEAD
 "Hacemos que cada momento cuente gracias a las soluciones diseñadas solo para"
 " usted."
+=======
+"Hacemos que cada momento cuente gracias a las soluciones diseñadas solo para "
+"usted."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
@@ -23089,8 +24530,13 @@ msgid ""
 "Leveraging the latest technology, we help you achieve your goals."
 msgstr ""
 "Ofrecemos productos y servicios novedosos para que pueda solucionar sus "
+<<<<<<< HEAD
 "obstáculos. Usamos la última tecnología más novedosa para que pueda alcanzar"
 " sus objetivos."
+=======
+"obstáculos. Usamos la última tecnología más novedosa para que pueda alcanzar "
+"sus objetivos."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_cards
@@ -23138,16 +24584,26 @@ msgid ""
 "new to our platform, so we have designed a step-by-step guide to walk you "
 "through every stage, ensuring that you can hit the ground running.<br/>"
 msgstr ""
+<<<<<<< HEAD
 "Sabemos que la configuración inicial puede ser intimidante, sobre todo si no"
 " está familiarizado con nuestra plataforma, así que diseñamos una guía para "
+=======
+"Sabemos que la configuración inicial puede ser intimidante, sobre todo si no "
+"está familiarizado con nuestra plataforma, así que diseñamos una guía para "
+>>>>>>> upstream/18.0
 "guiarle en todas las etapas.<br/>"
 
 #. module: website
 #. odoo-javascript
 #: code:addons/website/static/src/xml/website.cookies_bar.xml:0
 msgid ""
+<<<<<<< HEAD
 "We use cookies to provide improved experience on this website. You can learn"
 " more about our cookies and how we use them in our"
+=======
+"We use cookies to provide improved experience on this website. You can learn "
+"more about our cookies and how we use them in our"
+>>>>>>> upstream/18.0
 msgstr ""
 "Utilizamos cookies para proporcionar una mejor experiencia en este sitio "
 "web. Puede aprender más sobre nuestras cookies y su uso en"
@@ -23155,8 +24611,12 @@ msgstr ""
 #. module: website
 #. odoo-javascript
 #: code:addons/website/static/src/xml/website.cookies_bar.xml:0
+<<<<<<< HEAD
 msgid ""
 "We use cookies to provide you a better user experience on this website."
+=======
+msgid "We use cookies to provide you a better user experience on this website."
+>>>>>>> upstream/18.0
 msgstr ""
 "Utilizamos cookies para proporcionarle una mejor experiencia de usuario en "
 "este sitio web."
@@ -23175,8 +24635,13 @@ msgid ""
 "Thank you for getting in touch!"
 msgstr ""
 "¡Nos encantaría saber de usted! No dude en ponerse en contacto con nosotros "
+<<<<<<< HEAD
 "si tiene alguna pregunta, comentario o necesita ayuda. Use nuestros datos de"
 " contacto, nuestro equipo está aquí para ayudarle y le responderá lo antes "
+=======
+"si tiene alguna pregunta, comentario o necesita ayuda. Use nuestros datos de "
+"contacto, nuestro equipo está aquí para ayudarle y le responderá lo antes "
+>>>>>>> upstream/18.0
 "posible. Gracias por contactarnos."
 
 #. module: website
@@ -23188,8 +24653,13 @@ msgstr "Le ayudaremos a iniciar el proceso en solo"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_about_full_s_text_image
 msgid ""
+<<<<<<< HEAD
 "We're driven by the aspiration to redefine industry standards, to exceed the"
 " expectations of our clients, and to foster a culture of continuous growth."
+=======
+"We're driven by the aspiration to redefine industry standards, to exceed the "
+"expectations of our clients, and to foster a culture of continuous growth."
+>>>>>>> upstream/18.0
 msgstr ""
 "Nos impulsa la ambición de redefinir los estándares del sector, superar las "
 "expectativas de nuestros clientes y fomentar una cultura de crecimiento "
@@ -23426,7 +24896,11 @@ msgstr "Menú del sitio web"
 #: model:ir.model.fields,field_description:website.field_website_seo_metadata__website_meta_description
 msgid "Website meta description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Meta descripción del sitio web"
+=======
+msgstr "Metadescripción del sitio web"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metadescripción del sitio web"
 >>>>>>> upstream/18.0
@@ -23534,8 +25008,13 @@ msgid ""
 "We’re committed to providing prompt and effective solutions to ensure your "
 "satisfaction."
 msgstr ""
+<<<<<<< HEAD
 "Estamos comprometidos a proporcionar soluciones rápidas y efectivas para "
 "garantizar su satisfacción."
+=======
+"Nos comprometemos a ofrecerte soluciones rápidas y efectivas para garantizar "
+"que estés feliz con nuestro servicio."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_about_personal_s_text_block_h2
@@ -23635,9 +25114,14 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_services_0_s_three_columns
 msgid ""
+<<<<<<< HEAD
 "With personalized fitness plans, tailored nutrition guidance, and consistent"
 " support, you'll shed unwanted pounds while building healthy habits that "
 "last."
+=======
+"With personalized fitness plans, tailored nutrition guidance, and consistent "
+"support, you'll shed unwanted pounds while building healthy habits that last."
+>>>>>>> upstream/18.0
 msgstr ""
 "Gracias a las rutinas y planes nutritivos personalizados, así como a un "
 "apoyo constante, podrá deshacerse de los kilos de más y crear hábitos "
@@ -23720,6 +25204,7 @@ msgstr "Cuenta de X"
 
 #. module: website
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23908,6 +25393,16 @@ msgid ""
 msgstr ""
 "Está a punto de ser redirigido al dominio configurado para su sitio web ( %s"
 " ). Esto es necesario para editar o ver su sitio web desde la aplicación "
+=======
+#: code:addons/website/static/src/client_actions/website_preview/website_preview.js:0
+msgid ""
+"You are about to be redirected to the domain configured for your website "
+"( %s ). This is necessary to edit or view your website from the Website app. "
+"You might need to log back in."
+msgstr ""
+"Está a punto de ser redirigido al dominio configurado para su sitio web "
+"( %s ). Esto es necesario para editar o ver su sitio web desde la aplicación "
+>>>>>>> upstream/18.0
 "Sitio web. Es posible que tenga que volver a iniciar sesión."
 
 #. module: website
@@ -23919,11 +25414,24 @@ msgstr "Está a punto de entrar en el modo de traducción."
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
+<<<<<<< HEAD
 "You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies.\n"
 "                            Each browser is a little different, so look at your browser's Help menu to learn the correct way to modify your cookies."
 msgstr ""
 "Puede elegir entre dos opciones: que su computadora le advierta cada vez que se envía una cookie o desactivar todas las cookies.\n"
 "                            Cada navegador es distinto, así que consulte el menú de Ayuda de su navegador para aprender la forma correcta de modificar sus cookies."
+=======
+"You can choose to have your computer warn you each time a cookie is being "
+"sent, or you can choose to turn off all cookies.\n"
+"                            Each browser is a little different, so look at "
+"your browser's Help menu to learn the correct way to modify your cookies."
+msgstr ""
+"Puede elegir entre dos opciones: que su computadora le advierta cada vez que "
+"se envía una cookie o desactivar todas las cookies.\n"
+"                            Cada navegador es distinto, así que consulte el "
+"menú de Ayuda de su navegador para aprender la forma correcta de modificar "
+"sus cookies."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_features_grid
@@ -23942,16 +25450,25 @@ msgstr ""
 #. odoo-python
 #: code:addons/website/models/website_snippet_filter.py:0
 msgid "You can only use template prefixed by dynamic_filter_template_ "
+<<<<<<< HEAD
 msgstr ""
 "Solo puede utilizar plantillas con el prefijo dynamic_filter_template_"
+=======
+msgstr "Solo puede utilizar plantillas con el prefijo dynamic_filter_template_"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_accordion
 msgid ""
 "You can reach our customer support team by emailing "
 "info@yourcompany.example.com, calling +1 555-555-5556, or using the live "
+<<<<<<< HEAD
 "chat on our website. Our dedicated team is available 24/7 to assist with any"
 " inquiries or issues."
+=======
+"chat on our website. Our dedicated team is available 24/7 to assist with any "
+"inquiries or issues."
+>>>>>>> upstream/18.0
 msgstr ""
 "Comuníquese con nuestro equipo de soporte al cliente en "
 "info@yourcompany.example.com, llame al +1 555-555-5556 o use el chat que se "
@@ -24017,11 +25534,19 @@ msgstr "No tiene permiso para editar este registro."
 #. odoo-javascript
 #: code:addons/website/static/src/components/dialog/seo.xml:0
 msgid ""
+<<<<<<< HEAD
 "You have hidden this page from search results. It won't be indexed by search"
 " engines."
 msgstr ""
 "Ocultó esta página de los resultados de búsqueda. Los motores de búsqueda no"
 " la indexarán."
+=======
+"You have hidden this page from search results. It won't be indexed by search "
+"engines."
+msgstr ""
+"Ocultó esta página de los resultados de búsqueda. Los motores de búsqueda no "
+"la indexarán."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
@@ -24069,7 +25594,11 @@ msgstr ""
 #: code:addons/website/static/src/js/send_mail_form.js:0
 msgid "Your Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su correo electrónico"
+=======
+msgstr "Tu correo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu correo"
 >>>>>>> upstream/18.0
@@ -24099,7 +25628,11 @@ msgstr "Su recorrido inicia aquí,"
 #: code:addons/website/static/src/js/send_mail_form.js:0
 msgid "Your Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su nombre"
+=======
+msgstr "Tu nombre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu nombre"
 >>>>>>> upstream/18.0
@@ -24128,8 +25661,12 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website/static/src/components/resource_editor/resource_editor_warning.xml:0
 msgid "Your changes might be lost during future Odoo upgrade."
+<<<<<<< HEAD
 msgstr ""
 "Los cambios podrían perderse durante una futura actualización de Odoo."
+=======
+msgstr "Los cambios podrían perderse durante una futura actualización de Odoo."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_list
@@ -24158,8 +25695,13 @@ msgid ""
 "Your experience may be degraded if you discard those cookies, but the "
 "website will still work."
 msgstr ""
+<<<<<<< HEAD
 "Su experiencia puede verse afectada si descarta estas cookies, pero el sitio"
 " web seguirá funcionando."
+=======
+"Su experiencia puede verse afectada si descarta estas cookies, pero el sitio "
+"web seguirá funcionando."
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_instagram_page_options
@@ -24311,6 +25853,7 @@ msgstr "y"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -24330,6 +25873,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24408,6 +25953,9 @@ msgstr "La URL base de \"URL a\" no debe ser la misma que la de \"URL de\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24499,6 +26047,7 @@ msgstr "btn-secondary"
 #. odoo-javascript
 #: code:addons/website/static/src/client_actions/configurator/configurator.xml:0
 msgid "business"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24744,6 +26293,9 @@ msgstr ", "
 =======
 msgstr ", "
 >>>>>>> upstream/18.0
+=======
+msgstr ", "
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -24762,8 +26314,13 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
 msgid ""
+<<<<<<< HEAD
 "cite, testimonials, endorsements, reviews, feedback, statements, references,"
 " sayings, comments, appreciations, citations"
+=======
+"cite, testimonials, endorsements, reviews, feedback, statements, references, "
+"sayings, comments, appreciations, citations"
+>>>>>>> upstream/18.0
 msgstr ""
 "citas, testimonios, recomendaciones, reseñas, retroalimentación, "
 "declaraciones, referencias, frases, comentarios, valoraciones, menciones"
@@ -24891,8 +26448,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.snippets
 msgid ""
 "content, picture, photo, illustration, media, visual, article, story, "
+<<<<<<< HEAD
 "combination, trendy, pattern, design, shape, geometric, patterned, contrast,"
 " collage, arrangement, gallery, creative, mosaic"
+=======
+"combination, trendy, pattern, design, shape, geometric, patterned, contrast, "
+"collage, arrangement, gallery, creative, mosaic"
+>>>>>>> upstream/18.0
 msgstr ""
 "contenido, imagen, foto, ilustración, medios de comunicación, visual, "
 "artículo, historia, combinación, tendencia, patrón, diseño, forma, "
@@ -24947,8 +26509,13 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
 msgid ""
+<<<<<<< HEAD
 "description, containers, layouts, structures, multi-columns, modules, boxes,"
 " content, picture, photo, illustration, media, visual, article, story, "
+=======
+"description, containers, layouts, structures, multi-columns, modules, boxes, "
+"content, picture, photo, illustration, media, visual, article, story, "
+>>>>>>> upstream/18.0
 "combination, showcase, announcement, reveal"
 msgstr ""
 "descripción, contenedores, diseños, estructuras, varias columnas, módulos, "
@@ -24958,16 +26525,26 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
 msgid ""
+<<<<<<< HEAD
 "description, containers, layouts, structures, multi-columns, modules, boxes,"
 " content, picture, photo, illustration, media, visual, article, story, "
+=======
+"description, containers, layouts, structures, multi-columns, modules, boxes, "
+"content, picture, photo, illustration, media, visual, article, story, "
+>>>>>>> upstream/18.0
 "combination, showcase, announcement, reveal, trendy, design, shape, "
 "geometric, engage, call to action, cta, button"
 msgstr ""
 "descripción, contenedores, formatos, estructuras, múltiples columnas, "
 "módulos, cajas, contenido, imágenes, foto, ilustración, medios, visual, "
 "artículo, historia, combinación, showcase, anuncio, revelación, "
+<<<<<<< HEAD
 "vanguardista, diseño, forma, geométrico, participación, call to action, cta,"
 " botón"
+=======
+"vanguardista, diseño, forma, geométrico, participación, call to action, cta, "
+"botón"
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -25023,6 +26600,7 @@ msgstr "fonts.google.com"
 #. odoo-javascript
 #: code:addons/website/static/src/client_actions/configurator/configurator.xml:0
 msgid "for my"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25268,6 +26846,9 @@ msgstr "para mi negocio de"
 =======
 msgstr "para mi negocio de"
 >>>>>>> upstream/18.0
+=======
+msgstr "para mi negocio de"
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -25294,10 +26875,17 @@ msgid ""
 "mixed, collection, stacking, visual-grid, showcase, visuals, portfolio, "
 "thumbnails, engage, call to action, cta, showcase"
 msgstr ""
+<<<<<<< HEAD
 "cuatro secciones, columna, tabla, división, separación, segmentos, imágenes,"
 " ilustraciones, media, fotos, celdas, arreglo, galería, tabla de imágenes, "
 "combinado, colección, arreglo, tabla visual, showcase, visuales, portafolio,"
 " miniaturas, participación call to action, cta, showcase"
+=======
+"cuatro secciones, columna, tabla, división, separación, segmentos, imágenes, "
+"ilustraciones, media, fotos, celdas, arreglo, galería, tabla de imágenes, "
+"combinado, colección, arreglo, tabla visual, showcase, visuales, portafolio, "
+"miniaturas, participación call to action, cta, showcase"
+>>>>>>> upstream/18.0
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.brand_promotion
@@ -25348,8 +26936,13 @@ msgstr "google1234567890123456.html"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
 msgid ""
+<<<<<<< HEAD
 "graph, table, diagram, pie, plot, bar, metrics, figures, data-visualization,"
 " statistics, stats, analytics, infographic, skills, report"
+=======
+"graph, table, diagram, pie, plot, bar, metrics, figures, data-visualization, "
+"statistics, stats, analytics, infographic, skills, report"
+>>>>>>> upstream/18.0
 msgstr ""
 "gráfico, tabla, diagrama, gráfico circular, gráfico de puntos, gráfico de "
 "barras, métricas, cifras, visualización de datos, estadísticas, datos, "
@@ -25483,8 +27076,13 @@ msgstr ""
 msgid ""
 "hero, jumbotron, headline, header, introduction, home, content, "
 "introduction, overview, spotlight, presentation, welcome, context, "
+<<<<<<< HEAD
 "description, primary, highlight, lead, journey, skills, expertises, experts,"
 " accomplishments, knowledge"
+=======
+"description, primary, highlight, lead, journey, skills, expertises, experts, "
+"accomplishments, knowledge"
+>>>>>>> upstream/18.0
 msgstr ""
 "héroe, jumbotron, encabezado, título, introducción, inicio, contenido, "
 "introducción, resumen, destacado, presentación, bienvenida, contexto, "
@@ -25592,8 +27190,13 @@ msgstr "ir.ui.view"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
 msgid ""
+<<<<<<< HEAD
 "journey, exploration, travel, outdoor, excitement, quest, start, onboarding,"
 " discovery, thrill"
+=======
+"journey, exploration, travel, outdoor, excitement, quest, start, onboarding, "
+"discovery, thrill"
+>>>>>>> upstream/18.0
 msgstr ""
 "viaje, exploración, viajar, exterior, emoción, aventura, inicio, "
 "capacitación, descubrimiento, excitación"
@@ -25700,8 +27303,13 @@ msgid ""
 "organization, structure, people, team, name, role, position, image, "
 "portrait, photo, employees, shapes"
 msgstr ""
+<<<<<<< HEAD
 "organización, estructura, personas, equipo, nombre, función, puesto, imagen,"
 " retrato, foto, empleados, formas"
+=======
+"organización, estructura, personas, equipo, nombre, función, puesto, imagen, "
+"retrato, foto, empleados, formas"
+>>>>>>> upstream/18.0
 
 #. module: website
 #. odoo-javascript
@@ -25927,8 +27535,13 @@ msgstr ""
 msgid ""
 "statistics, stats, KPI, metrics, dashboard, analytics, highlights, figures, "
 "skills, achievements, benchmarks, milestones, indicators, data, "
+<<<<<<< HEAD
 "measurements, reports, trends, results, analytics, summaries, summary, "
 "large-figures, prominent, standout"
+=======
+"measurements, reports, trends, results, analytics, summaries, summary, large-"
+"figures, prominent, standout"
+>>>>>>> upstream/18.0
 msgstr ""
 "estadísticas, KPI, métricas, tablero, analíticas, destacado, cifras, "
 "habilidades, logros, puntos de referencia, objetivos, indicadores, datos, "

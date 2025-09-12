@@ -145,7 +145,10 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -249,6 +252,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -320,6 +326,14 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
         self.start_tour('/odoo', 'task_create_sol_tour', login='admin')
 
     def test_project_create_sol_ui(self):
+<<<<<<< HEAD
+=======
+        self.product_order_service5 = self.env['product.product'].create({
+            'name': 'New Sale order line',
+            'type': 'service',
+            'invoice_policy': 'delivery',
+        })
+>>>>>>> upstream/18.0
         self.start_tour('/odoo', 'project_create_sol_tour', login='admin')
 
     def test_sale_order_with_project_task(self):
@@ -408,6 +422,10 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'name': f"{self.product_order_service2.name}\n[TEST1]\nGlobal project",
+>>>>>>> upstream/18.0
 =======
             'name': f"{self.product_order_service2.name}\n[TEST1]\nGlobal project",
 >>>>>>> upstream/18.0
@@ -661,6 +679,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         so_line_order_new_task_new_project = SaleOrderLine.create({
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -791,6 +810,8 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
             'name': f"{self.product_order_service3.display_name}\n[TEST2]\nNew project",
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -910,6 +931,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1073,10 +1097,13 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         #  service_tracking 'task_in_project'
         self.assertTrue(so_line_order_new_task_new_project.project_id, "Sales order line should be linked to newly created project")
         self.assertTrue(so_line_order_new_task_new_project.task_id, "Sales order line should be linked to newly created task")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1305,6 +1332,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1369,6 +1397,8 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1485,6 +1515,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1938,7 +1971,10 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2069,7 +2105,11 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expected_analytic_distribution = analytic_distribution_manual | {str(sale_order.order_line.project_id.account_id.id): 100}
+=======
+        expected_analytic_distribution = {f"{self.analytic_account_sale.id},{sale_order.order_line.project_id.account_id.id}": 100}
+>>>>>>> upstream/18.0
 =======
         expected_analytic_distribution = {f"{self.analytic_account_sale.id},{sale_order.order_line.project_id.account_id.id}": 100}
 >>>>>>> upstream/18.0
@@ -2211,6 +2251,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """
         distribution_model = self.env['account.analytic.distribution.model'].create({
             'product_id': self.product_a.id,
@@ -2218,6 +2259,8 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
             'company_id': self.company.id,
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2340,6 +2383,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2456,8 +2502,11 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expected_analytic_distribution = distribution_model.analytic_distribution | {str(project.account_id.id): 100}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2561,6 +2610,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2666,8 +2718,11 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(sale_order.order_line.analytic_distribution, distribution_model.analytic_distribution)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2771,6 +2826,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2883,6 +2941,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3536,8 +3597,11 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         so.action_confirm()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3596,6 +3660,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

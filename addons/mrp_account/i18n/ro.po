@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* mrp_account
+<<<<<<< HEAD
 # 
 # Translators:
 # Lyall Kindmurr, 2024
@@ -287,10 +288,20 @@
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Lyall Kindmurr, 2024
+# Foldi Robert <foldirobert@nexterp.ro>, 2024
+# Wil Odoo, 2025
+# Larisa_nexterp, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -696,6 +707,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+=======
+"POT-Creation-Date: 2025-08-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+"Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.report_wip
@@ -711,6 +734,15 @@ msgstr "5000 lei"
 #. odoo-python
 #: code:addons/mrp_account/models/mrp_production.py:0
 msgid "%s - Labour"
+<<<<<<< HEAD
+=======
+msgstr "%s - Muncă"
+
+#. module: mrp_account
+#. odoo-python
+#: code:addons/mrp_account/models/stock_move.py:0
+msgid "%s - Unbuild Cost Difference"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp_account
@@ -766,7 +798,11 @@ msgstr "<span>Unitate de măsură</span>"
 #. module: mrp_account
 #: model:ir.model.constraint,message:mrp_account.constraint_mrp_account_wip_accounting_line_check_debit_credit
 msgid "A single line cannot be both credit and debit."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O singură linie nu poate fi atât credit cât și debit."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting_line__account_id
@@ -792,7 +828,11 @@ msgid "Account Move Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linie mișcare contabilă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linie mișcare contabilă"
 >>>>>>> upstream/18.0
@@ -846,6 +886,11 @@ msgstr "Linie mișcare contabilă"
 #: model:ir.model,name:mrp_account.model_mrp_account_wip_accounting_line
 msgid "Account move line to be created when posting WIP account move"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Linia de mișcare contabilă care va fi creată la postarea mișcării contabile "
+"WIP"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.report_wip
@@ -986,7 +1031,11 @@ msgid "Distribution Analytic Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cont analitic de distribuție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cont analitic de distribuție"
 >>>>>>> upstream/18.0
@@ -1065,7 +1114,11 @@ msgstr "Jurnal"
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_account_move
 msgid "Journal Entry"
+<<<<<<< HEAD
 msgstr "Înregistrare de jurnal "
+=======
+msgstr "Înregistrare de jurnal"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_account_move_line
@@ -1103,7 +1156,11 @@ msgstr "Raport general CP"
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Manual Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Înregistrare manuală"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_production
@@ -1130,7 +1187,11 @@ msgstr "Număr comenzi de producție"
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Manufacturing WIP - %(orders_list)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "WIP producție - %(orders_list)s"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting__mo_ids
@@ -1145,24 +1206,43 @@ msgstr "CP Linie cont analitic"
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
+<<<<<<< HEAD
 msgid ""
 "Please make sure the total credit amount equals the total debit amount."
 msgstr ""
+=======
+msgid "Please make sure the total credit amount equals the total debit amount."
+msgstr ""
+"Vă rugăm să vă asigurați că suma totală a creditului este egală cu suma "
+"totală a debitului."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_wip_accounting_form
 msgid "Post Manufacturing WIP"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postează WIP producție"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_wip_accounting_form
 msgid "Post WIP"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postează WIP"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.actions.act_window,name:mrp_account.action_wip_accounting
 msgid "Post WIP Accounting Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postează înregistrare contabilă WIP"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_product_template
@@ -1203,7 +1283,11 @@ msgstr "Referință"
 #: model:ir.model.fields,field_description:mrp_account.field_account_bank_statement_line__wip_production_ids
 #: model:ir.model.fields,field_description:mrp_account.field_account_move__wip_production_ids
 msgid "Relevant WIP MOs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CP relevante WIP"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting__reversal_date
@@ -1214,13 +1298,21 @@ msgstr "Data Inversare"
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Reversal date must be after the posting date."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data inversării trebuie să fie după data postării."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Reversal of: %s"
+<<<<<<< HEAD
 msgstr "Inversare de:%s"
+=======
+msgstr "Inversare de: %s"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_production__show_valuation
@@ -1233,6 +1325,7 @@ msgid "Stock Move"
 msgstr "Mișcare de stoc"
 
 #. module: mrp_account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1631,29 +1724,58 @@ msgstr "Nivel evaluare stoc"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp_account.field_account_bank_statement_line__wip_production_ids
 #: model:ir.model.fields,help:mrp_account.field_account_move__wip_production_ids
 msgid ""
 "The MOs that this WIP entry was based on. Expected to be set at time of WIP "
 "entry creation."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Comenzile de producție pe care se bazează această înregistrare WIP. Se "
+"așteaptă să fie setate la momentul creării înregistrării WIP."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_mrp_workcenter__expense_account_id
 msgid ""
+<<<<<<< HEAD
 "The expense is accounted for when the manufacturing order is marked as done."
 " If not set, it is the expense account of the final product that will be "
 "used instead."
 msgstr ""
+=======
+"The expense is accounted for when the manufacturing order is marked as done. "
+"If not set, it is the expense account of the final product that will be used "
+"instead."
+msgstr ""
+"Cheltuiala este contabilizată când comanda de producție este marcată ca "
+"finalizată. Dacă nu este setat, se va folosi contul de cheltuieli al "
+"produsului final."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_product_category__property_stock_account_production_cost_id
 msgid ""
+<<<<<<< HEAD
 "This account will be used as a valuation counterpart for both components and final products for manufacturing orders.\n"
 "                If there are any workcenter/employee costs, this value will remain on the account once the production is completed."
 msgstr ""
 "Acest cont va fi folosit ca un cont de contrapartidă pentru atât componentele, cât și produsele finale pentru comenzile de fabricație.\n"
 "                Dacă există costuri de centru de lucru/angajat, această valoare va rămâne pe cont odată ce producția este finalizată."
+=======
+"This account will be used as a valuation counterpart for both components and "
+"final products for manufacturing orders.\n"
+"                If there are any workcenter/employee costs, this value will "
+"remain on the account once the production is completed."
+msgstr ""
+"Acest cont va fi folosit ca un cont de contrapartidă pentru atât "
+"componentele, cât și produsele finale pentru comenzile de fabricație.\n"
+"                Dacă există costuri de centru de lucru/angajat, această "
+"valoare va rămâne pe cont odată ce producția este finalizată."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_wip_accounting_form
@@ -1674,19 +1796,31 @@ msgstr "Buc"
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "WIP - Component Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "WIP - Valoare componentă"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "WIP - Overhead"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "WIP - Cheltuieli indirecte"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/models/account_move.py:0
 msgid "WIP MOs of %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CP WIP ale %s"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.report_wip
@@ -1696,12 +1830,20 @@ msgstr "Raport WIP pentru"
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting__line_ids
 msgid "WIP accounting lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linii contabile WIP"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting_line__wip_accounting_id
 msgid "WIP accounting wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asistent contabilitate WIP"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.actions.report,name:mrp_account.wip_report
@@ -1716,7 +1858,11 @@ msgstr "CL Linie cont analitic"
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_account_wip_accounting
 msgid "Wizard to post Manufacturing WIP account move"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asistent pentru postarea mișcării contabile WIP producție"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_workcenter
@@ -1760,3 +1906,9 @@ msgstr "Jurnal productivitate centru de lucru"
 #: code:addons/mrp_account/models/mrp_workorder.py:0
 msgid "[WC] %s"
 msgstr "[CL] %s"
+<<<<<<< HEAD
+=======
+
+#~ msgid "Stock Valuation Layer"
+#~ msgstr "Nivel evaluare stoc"
+>>>>>>> upstream/18.0

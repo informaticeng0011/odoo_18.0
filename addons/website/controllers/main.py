@@ -167,11 +167,19 @@ class Website(Home):
         """
         path = '/' + path
         mode_edit = bool(kw.pop('enable_editor', False))
+<<<<<<< HEAD
+=======
+        mode_debug = kw.get('debug', 0)
+>>>>>>> upstream/18.0
         if kw:
             path += '?' + werkzeug.urls.url_encode(kw)
 
         if request.env.user._is_internal():
+<<<<<<< HEAD
             path = request.website.get_client_action_url(path, mode_edit)
+=======
+            path = request.website.get_client_action_url(path, mode_edit, mode_debug)
+>>>>>>> upstream/18.0
 
         return request.redirect(path)
 
@@ -243,8 +251,11 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return request.render('website.robots', {'url_root': request.httprequest.url_root}, mimetype='text/plain')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -296,6 +307,9 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -893,7 +907,11 @@ class Website(Home):
             req.raise_for_status()
             response = req.content
         except OSError:
+<<<<<<< HEAD
             return []
+=======
+            return json.dumps([])
+>>>>>>> upstream/18.0
         xmlroot = ET.fromstring(response)
         return json.dumps([sugg[0].attrib['data'] for sugg in xmlroot if len(sugg) and sugg[0].attrib['data']])
 

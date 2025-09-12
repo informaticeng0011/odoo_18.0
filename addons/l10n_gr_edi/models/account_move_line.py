@@ -21,35 +21,55 @@ class AccountMoveLine(models.Model):
 
     l10n_gr_edi_detail_type = fields.Selection(
         selection=[('1', '1'), ('2', '2')],
+<<<<<<< HEAD
         string='MyDATA Detail Type',
+=======
+        string='Detail Type',
+>>>>>>> upstream/18.0
         compute='_compute_l10n_gr_edi_detail_type',
         store=True,
         readonly=False,
     )
     l10n_gr_edi_cls_category = fields.Selection(
         selection=CLASSIFICATION_CATEGORY_SELECTION,
+<<<<<<< HEAD
         string='MyDATA Category',
+=======
+        string='myDATA Category',
+>>>>>>> upstream/18.0
         compute='_compute_l10n_gr_edi_cls_category',
         store=True,
         readonly=False,
     )
     l10n_gr_edi_cls_type = fields.Selection(
         selection=CLASSIFICATION_TYPE_SELECTION,
+<<<<<<< HEAD
         string='MyDATA Type',
+=======
+        string='myDATA Type',
+>>>>>>> upstream/18.0
         compute='_compute_l10n_gr_edi_cls_type',
         store=True,
         readonly=False,
     )
     l10n_gr_edi_cls_vat = fields.Selection(
         selection=CLASSIFICATION_VAT_SELECTION,
+<<<<<<< HEAD
         string='MyDATA VAT Classification',
+=======
+        string='VAT Classification',
+>>>>>>> upstream/18.0
         compute='_compute_l10n_gr_edi_cls_vat',
         store=True,
         readonly=False,
     )
     l10n_gr_edi_tax_exemption_category = fields.Selection(
         selection=TAX_EXEMPTION_CATEGORY_SELECTION,
+<<<<<<< HEAD
         string='MyDATA Tax Exemption Category',
+=======
+        string='Tax Exemption Category',
+>>>>>>> upstream/18.0
         compute='_compute_l10n_gr_edi_tax_exemption_category',
         store=True,
         readonly=False,
@@ -143,6 +163,27 @@ class AccountMoveLine(models.Model):
         if not preferred_id and self.product_id:
             preferred_id = self.product_id.product_tmpl_id.l10n_gr_edi_preferred_classification_ids.filtered_domain(domain)[:1]
 
+<<<<<<< HEAD
+=======
+        # If by the end nothing is still found, set the default preferred classification as [ 1.1 inv-type | 1.2 category | E3_561_007 type ]
+        if not preferred_id:
+            preferred_id = self.env.ref('l10n_gr_edi.default_preferred_classification', raise_if_not_found=False)
+        if not preferred_id:
+            preferred_id = self.env['l10n_gr_edi.preferred_classification'].create([{
+                'l10n_gr_edi_inv_type': '1.1',
+                'l10n_gr_edi_cls_category': 'category1_2',
+                'l10n_gr_edi_cls_type': 'E3_561_007',
+            }])
+            # Save the newly made preferred cls so that we don't have to create a new one everytime.
+            self.env['ir.model.data'].create([{
+                'name': 'default_preferred_classification',
+                'module': 'l10n_gr_edi',
+                'model': 'l10n_gr_edi.preferred_classification',
+                'res_id': preferred_id.id,
+                'noupdate': True,
+            }])
+
+>>>>>>> upstream/18.0
         return preferred_id
 
     @api.depends(

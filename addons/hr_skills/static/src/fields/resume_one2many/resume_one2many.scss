@@ -10,6 +10,10 @@
         padding: $o-hrs-timeline-entry-padding;
 
         &.o_resume_timeline_cell {
+<<<<<<< HEAD
+=======
+            overflow: hidden !important;
+>>>>>>> upstream/18.0
             div {
                 width: $o-hrs-timeline-dot-size;
                 height: $o-hrs-timeline-dot-size;
@@ -33,6 +37,13 @@
         }
     }
 
+<<<<<<< HEAD
+=======
+    .o_resume_line_desc {
+        overflow: auto;
+    }
+
+>>>>>>> upstream/18.0
     .o_resume_line_title, .o_resume_line_desc {
         white-space: normal;
     }

@@ -102,6 +102,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        tracking=True,
+>>>>>>> upstream/18.0
 =======
         tracking=True,
 >>>>>>> upstream/18.0
@@ -328,7 +332,11 @@ class AccountPayment(models.Model):
         ('customer', 'Customer'),
         ('supplier', 'Vendor'),
     ], default='customer', tracking=True, required=True)
+<<<<<<< HEAD
     memo = fields.Char(string="Memo", tracking=True)
+=======
+    memo = fields.Char(string="Memo", tracking=True, inverse='_inverse_memo')
+>>>>>>> upstream/18.0
     payment_reference = fields.Char(string="Payment Reference", copy=False, tracking=True,
         help="Reference of the document used to issue this payment. Eg. check number, file name, etc.")
     currency_id = fields.Many2one(
@@ -515,7 +523,12 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.journal_id.outbound_payment_method_line_ids.payment_account_id
+=======
+            self.journal_id.outbound_payment_method_line_ids.payment_account_id |
+            self.outstanding_account_id
+>>>>>>> upstream/18.0
 =======
             self.journal_id.outbound_payment_method_line_ids.payment_account_id |
             self.outstanding_account_id
@@ -799,7 +812,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if partner or payment_type:
+=======
+            if not bool(payment._origin) and (partner or payment_type):
+>>>>>>> upstream/18.0
 =======
             if not bool(payment._origin) and (partner or payment_type):
 >>>>>>> upstream/18.0
@@ -1004,11 +1021,14 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment.journal_id = self.env['account.journal'].search([
                 *self.env['account.journal']._check_company_domain(company),
                 ('type', 'in', ['bank', 'cash', 'credit']),
             ], limit=1)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1158,6 +1178,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1264,6 +1287,10 @@ class AccountPayment(models.Model):
 
     @api.depends('invoice_ids.payment_state', 'move_id.line_ids.amount_residual')
     def _compute_state(self):
+<<<<<<< HEAD
+=======
+        payments_is_matched_to_recompute = self.env['account.payment']
+>>>>>>> upstream/18.0
         for payment in self:
             if not payment.state:
                 payment.state = 'draft'
@@ -1272,6 +1299,7 @@ class AccountPayment(models.Model):
                 liquidity, _counterpart, _writeoff = payment._seek_for_lines()
                 payment.state = (
                     'paid'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1601,6 +1629,19 @@ class AccountPayment(models.Model):
                 )
             if payment.state == 'in_process' and payment.invoice_ids and all(invoice.payment_state == 'paid' for invoice in payment.invoice_ids):
                 payment.state = 'paid'
+=======
+                    if move.company_currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) or not any(liquidity.account_id.mapped('reconcile')) else
+                    'in_process'
+                )
+            if payment.state == 'in_process' and payment.invoice_ids and all(invoice.payment_state == 'paid' for invoice in payment.invoice_ids):
+                # The access to invoice.payment_state will trigger a flush_model on account_payment.is_matched in its compute.
+                # This flush will then trigger _compute_reconciliation_status. However, the payment.state will then be changed by this next line of code.
+                # As the _compute_reconciliation_status was already tiggered once, we have to force the recompute after the payment state has been updated,
+                # since the values computed by that method depends on it.
+                payment.state = 'paid'
+                payments_is_matched_to_recompute |= payment
+        self.env.add_to_compute(self._fields['is_matched'], payments_is_matched_to_recompute)
+>>>>>>> upstream/18.0
 
     @api.depends('move_id.line_ids.amount_residual', 'move_id.line_ids.amount_residual_currency', 'move_id.line_ids.account_id', 'state')
     def _compute_reconciliation_status(self):
@@ -1699,7 +1740,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     from_amount=payment.amount,
+=======
+                    from_amount=payment.amount_signed,
+>>>>>>> upstream/18.0
 =======
                     from_amount=payment.amount_signed,
 >>>>>>> upstream/18.0
@@ -1877,6 +1922,7 @@ class AccountPayment(models.Model):
         for pay in self:
             pay.currency_id = pay.journal_id.currency_id or pay.journal_id.company_id.currency_id
 
+<<<<<<< HEAD
     @api.depends('journal_id')
     def _compute_partner_id(self):
         for pay in self:
@@ -1884,6 +1930,10 @@ class AccountPayment(models.Model):
                 pay.partner_id = False
             else:
                 pay.partner_id = pay.partner_id
+=======
+    def _compute_partner_id(self):
+        pass
+>>>>>>> upstream/18.0
 
     @api.depends('payment_method_line_id')
     def _compute_outstanding_account_id(self):
@@ -2116,11 +2166,23 @@ class AccountPayment(models.Model):
     # ONCHANGE METHODS
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
+=======
+    def _inverse_memo(self):
+        for payment in self:
+            move = payment.move_id
+            if move:
+                move.ref = payment.memo
+
+>>>>>>> upstream/18.0
     def _inverse_partner_id(self):
         # todo: remove in master
         pass
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # CONSTRAINT METHODS
     # -------------------------------------------------------------------------
@@ -2262,7 +2324,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2323,6 +2388,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2371,6 +2439,11 @@ class AccountPayment(models.Model):
             return
 
         for pay in self:
+<<<<<<< HEAD
+=======
+            if pay.move_id.state == 'posted':
+                continue
+>>>>>>> upstream/18.0
             liquidity_lines, counterpart_lines, writeoff_lines = pay._seek_for_lines()
             # Make sure to preserve the write-off amount.
             # This allows to create a new payment with custom 'line_ids'.
@@ -2395,6 +2468,7 @@ class AccountPayment(models.Model):
                 line_ids_commands.append((0, 0, extra_line_vals))
             # Update the existing journal items.
             # If dealing with multiple write-off lines, they are dropped and a new one is generated.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2750,11 +2824,15 @@ class AccountPayment(models.Model):
 =======
             to_write = {
 >>>>>>> upstream/18.0
+=======
+            to_write = {
+>>>>>>> upstream/18.0
                 'date': pay.date,
                 'partner_id': pay.partner_id.id,
                 'currency_id': pay.currency_id.id,
                 'partner_bank_id': pay.partner_bank_id.id,
                 'line_ids': line_ids_commands,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3101,6 +3179,8 @@ class AccountPayment(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             }
             if 'journal_id' in changed_fields:
                 to_write.update({
@@ -3113,6 +3193,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3136,6 +3219,7 @@ class AccountPayment(models.Model):
         need_move = self.filtered(lambda p: not p.move_id and p.outstanding_account_id)
         assert len(self) == 1 or (not write_off_line_vals and not force_balance and not line_ids)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3239,6 +3323,8 @@ class AccountPayment(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         move_vals = [
             pay._generate_move_vals(write_off_line_vals, force_balance, line_ids)
             for pay in need_move
@@ -3270,6 +3356,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3357,7 +3446,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3461,6 +3553,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

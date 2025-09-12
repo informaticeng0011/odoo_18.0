@@ -76,9 +76,15 @@ class AccountMove(models.Model):
                         'quantity': relevant_qty,
                         'price_unit': price_unit_val_dif,
                         'price_subtotal': relevant_qty * price_unit_val_dif,
+<<<<<<< HEAD
                         'amount_currency': relevant_qty * price_unit_val_dif * line.move_id.direction_sign,
                         'balance': line.currency_id._convert(
                             relevant_qty * price_unit_val_dif * line.move_id.direction_sign,
+=======
+                        'amount_currency': relevant_qty * price_unit_val_dif,
+                        'balance': line.currency_id._convert(
+                            relevant_qty * price_unit_val_dif,
+>>>>>>> upstream/18.0
                             line.company_currency_id,
                             line.company_id, fields.Date.today(),
                         ),
@@ -99,9 +105,15 @@ class AccountMove(models.Model):
                         'quantity': relevant_qty,
                         'price_unit': -price_unit_val_dif,
                         'price_subtotal': relevant_qty * -price_unit_val_dif,
+<<<<<<< HEAD
                         'amount_currency': relevant_qty * -price_unit_val_dif * line.move_id.direction_sign,
                         'balance': line.currency_id._convert(
                             relevant_qty * -price_unit_val_dif * line.move_id.direction_sign,
+=======
+                        'amount_currency': relevant_qty * -price_unit_val_dif,
+                        'balance': line.currency_id._convert(
+                            relevant_qty * -price_unit_val_dif,
+>>>>>>> upstream/18.0
                             line.company_currency_id,
                             line.company_id, fields.Date.today(),
                         ),

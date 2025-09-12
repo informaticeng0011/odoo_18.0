@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* utm
 # 
+=======
+# * utm
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Marko Carević <marko.carevic@live.com>, 2024
 # Stjepan Lovasić <stjepan.lovasic@gmail.com>, 2024
@@ -11,12 +16,18 @@
 # Bole <bole@dajmi5.com>, 2024
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
 # hrvoje sić <hrvoje.sic@gmail.com>, 2024
+<<<<<<< HEAD
 # 
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: hrvoje sić <hrvoje.sic@gmail.com>, 2024\n"
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
@@ -25,6 +36,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-08-21 14:30+0000\n"
+"Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/utm/hr/>"
+"\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-python
@@ -47,7 +71,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Approval-based Flow"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tok temeljen na odobrenjima"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
@@ -76,12 +104,20 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Audience-driven Flow"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tok vođen publikom"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__is_auto_campaign
 msgid "Automatically Generated Campaign"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatski generirana kampanja"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_mixin__campaign_id
@@ -91,7 +127,11 @@ msgstr "Kampanja"
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__name
 msgid "Campaign Identifier"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identifikator kampanje"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__title
@@ -124,6 +164,11 @@ msgid ""
 "Campaigns are used to centralize your marketing efforts and track their "
 "results."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kampanje se koriste za centralizaciju vaših marketinških aktivnosti i "
+"praćenje njihovih rezultata."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.view_utm_campaign_view_search
@@ -140,6 +185,10 @@ msgstr ""
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Collect ideas, design creative content and publish it once reviewed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Prikupite ideje, osmislite kreativni sadržaj i objavite ga nakon pregleda."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__color
@@ -195,12 +244,20 @@ msgstr "Kreirano"
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Creative Flow"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreativni tok"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_kanban
 msgid "Delete"
+<<<<<<< HEAD
 msgstr "Briši"
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
@@ -212,7 +269,11 @@ msgstr "Pokreni"
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Deployed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pušteno u rad"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
@@ -255,13 +316,21 @@ msgstr "E-mail kampanja - usluge"
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Event-driven Flow"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tok vođen događajima"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Gather Data"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikupite podatke"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
@@ -270,6 +339,11 @@ msgid ""
 "Gather data, build a recipient list and write content based on your "
 "Marketing target."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Prikupite podatke, izradite popis primatelja i napišite sadržaj na temelju "
+"svog marketinškog cilja."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.view_utm_campaign_view_search
@@ -329,7 +403,11 @@ msgstr "Praćenje linkova"
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "List-Building"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izrada popisa"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:utm.tag,name:utm.utm_tag_1
@@ -345,19 +423,31 @@ msgstr "Medij"
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_medium__name
 msgid "Medium Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv medija"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.actions.act_window,name:utm.utm_medium_action
 #: model:ir.ui.menu,name:utm.menu_utm_medium
 #: model_terms:ir.ui.view,arch_db:utm.utm_medium_view_tree
 msgid "Mediums"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kanali"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.view_utm_campaign_view_search
 msgid "My Campaigns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moje kampanje"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_source_mixin__name
@@ -389,13 +479,22 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Pre-Launch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prije lansiranja"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Prepare Campaigns and get them approved before making them go live."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pripremite kampanje i osigurajte njihovo odobrenje prije nego što ih "
+"objavite."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
@@ -404,6 +503,11 @@ msgid ""
 "Prepare your Campaign, test it with part of your audience and deploy it "
 "fully afterwards."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pripremite svoju kampanju, testirajte je s dijelom svoje publike i nakon "
+"toga je u potpunosti implementirajte."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
@@ -471,13 +575,21 @@ msgstr "Sekvenca"
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Soft-Launch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postupno pokretanje"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Soft-Launch Flow"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proces postupnog pokretanja"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_mixin__source_id
@@ -580,7 +692,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "To be Approved"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrebno odobrenje"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
@@ -589,6 +705,11 @@ msgid ""
 "Track incoming events (e.g. Christmas, Black Friday, ...) and publish timely"
 " content."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pratite nadolazeće događaje (npr. Božić, Crni petak, ...) i objavljujte "
+"sadržaj u pravo vrijeme."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model,name:utm.model_utm_campaign
@@ -655,7 +776,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Use This For My Campaigns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi ovo za moje kampanje"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-python
@@ -673,15 +798,27 @@ msgstr ""
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_source_view_tree
 msgid "e.g. \"Christmas Mailing\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"Božićna pošta\""
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_medium_view_tree
 msgid "e.g. \"Email\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"Email\""
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_form
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_form_quick_create
 msgid "e.g. Black Friday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Crni petak"
+>>>>>>> upstream/18.0

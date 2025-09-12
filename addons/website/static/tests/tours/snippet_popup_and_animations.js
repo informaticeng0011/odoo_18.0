@@ -1,5 +1,9 @@
 /** @odoo-module */
 
+<<<<<<< HEAD
+=======
+import { waitUntil } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 import {
     changeOption,
     clickOnEditAndWaitEditMode,
@@ -75,6 +79,7 @@ registerWebsitePreviewTour("snippet_popup_and_animations", {
     },
     {
         content: "Wait for the page to be scrolled to the top.",
+<<<<<<< HEAD
         trigger: ":iframe .s_three_columns .row > :last-child:not(.o_animating)",
         run() {
             // If the column has been animated successfully, the animation delay
@@ -85,6 +90,15 @@ registerWebsitePreviewTour("snippet_popup_and_animations", {
                 throw new Error("The scroll animation in the page did not end properly with the cookies bar open.");
             }
         },
+=======
+        trigger: ":iframe .s_three_columns .row > .o_animating:last-child",
+        isActive: [`:iframe .s_three_columns .row > .o_animating:last-child`],
+        run: (helpers) =>
+            waitUntil(
+                () => !helpers.anchor.classList.contains(`o_animating`),
+                { timeout: 10000 }
+            ),
+>>>>>>> upstream/18.0
     },
     {
         content: "Close the Cookies Bar.",
@@ -127,6 +141,7 @@ registerWebsitePreviewTour("snippet_popup_and_animations", {
     },
     {
         content: "Wait until the column is no longer animated/visible.",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,6 +272,15 @@ registerWebsitePreviewTour("snippet_popup_and_animations", {
                 throw new Error("The scroll animation in the modal did not end properly.");
             }
         },
+=======
+        trigger: ":iframe .s_three_columns .row > .o_animating:last-child",
+        isActive: [`:iframe .s_three_columns .row > .o_animating:last-child`],
+        run: (helpers) =>
+            waitUntil(
+                () => !helpers.anchor.classList.contains(`o_animating`),
+                { timeout: 10000 }
+            ),
+>>>>>>> upstream/18.0
     },
     {
         content: "Close the Popup",

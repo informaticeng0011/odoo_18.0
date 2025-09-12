@@ -1,6 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Canada - Accounting',
+<<<<<<< HEAD
+=======
+    'version': '1.1',
+>>>>>>> upstream/18.0
     'icon': '/account/static/description/l10n.png',
     'countries': ['ca'],
     'author': 'Savoir-faire Linux (https://www.savoirfairelinux.com); Odoo SA',

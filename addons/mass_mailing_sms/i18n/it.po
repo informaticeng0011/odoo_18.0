@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* mass_mailing_sms
 # 
 # Translators:
@@ -400,10 +401,20 @@
 # Marianna Ciofani, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * mass_mailing_sms
+#
+# Translators:
+# Wil Odoo, 2024
+# Marianna Ciofani, 2025
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+# "Marianna Ciofani (cima)" <cima@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -865,6 +876,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-09-05 18:39+0000\n"
+"PO-Revision-Date: 2025-09-08 07:09+0000\n"
+"Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
+"Language-Team: Italian <https://translate.odoo.com/projects/odoo-18/"
+"mass_mailing_sms/it/>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-javascript
@@ -942,8 +967,13 @@ msgstr ""
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
+<<<<<<< HEAD
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text"
 " Messages are being processed.</span>"
+=======
+"<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
+"Messages are being processed.</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">I "
 "messaggi di testo SMS sono in fase di elaborazione.</span>"
@@ -980,22 +1010,42 @@ msgstr "<span>Destinatari SMS validi</span>"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 "<strong>\n"
+<<<<<<< HEAD
 "                            It appears you don't have enough IAP credits. Click here to buy credits.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "                            Sembra che tu non abbia abbastanza crediti IAP. Clicca qui per acquistare crediti.\n"
+=======
+"                            It appears you don't have enough IAP credits. "
+"Click here to buy credits.\n"
+"                        </strong>"
+msgstr ""
+"<strong>\n"
+"                            Sembra che i crediti IAP non siano sufficienti, "
+"fare clic qui per acquistarli.\n"
+>>>>>>> upstream/18.0
 "                        </strong>"
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 "<strong>\n"
+<<<<<<< HEAD
 "                            It appears your SMS account is not registered. Click here to set up your account.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "                            Sembra che il tuo account SMS non sia registrato. Clicca qui per impostare il tuo account.\n"
+=======
+"                            It appears your SMS account is not registered. "
+"Click here to set up your account.\n"
+"                        </strong>"
+msgstr ""
+"<strong>\n"
+"                            Sembra che il conto SMS non sia registrato, fare "
+"clic qui per impostarlo.\n"
+>>>>>>> upstream/18.0
 "                        </strong>"
 
 #. module: mass_mailing_sms
@@ -1045,13 +1095,21 @@ msgstr "Numero allegati"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Average of Bounced"
+<<<<<<< HEAD
 msgstr "Media bounce"
+=======
+msgstr "Media non recapitati"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Average of Clicked"
+<<<<<<< HEAD
 msgstr "Media cliccate"
+=======
+msgstr "Media con clic"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
@@ -1066,8 +1124,13 @@ msgid ""
 "Blacklist through SMS Marketing unsubscribe (mailing ID: %(mailing_id)s - "
 "model: %(model)s)"
 msgstr ""
+<<<<<<< HEAD
 "Lista nera tramite annullamento iscrizione per invio SMS (ID invio: "
 "%(mailing_id)s - modello: %(model)s)"
+=======
+"Lista nera tramite annullamento iscrizione per invio SMS (ID invio: %"
+"(mailing_id)s - modello: %(model)s)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_blacklist
@@ -1099,7 +1162,11 @@ msgstr "Non recapitate (%)"
 #. odoo-python
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "CLICKED (%i)"
+<<<<<<< HEAD
 msgstr "CLICCATO (%i)"
+=======
+msgstr "CON CLIC (%i)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_sms_composer__utm_campaign_id
@@ -1116,7 +1183,11 @@ msgstr "Campagne"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_sms_test__numbers
 msgid "Carriage-return-separated list of phone numbers"
+<<<<<<< HEAD
 msgstr "Elenco di numeri di telefono separati da caratteri ritorno a capo"
+=======
+msgstr "Elenco dei numeri di telefono separati da ritorno a capo"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
@@ -1196,7 +1267,11 @@ msgstr "Nome visualizzato"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_duplicate
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Duplicate"
+<<<<<<< HEAD
 msgstr "Duplicazione"
+=======
+msgstr "Duplica"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
@@ -1285,20 +1360,34 @@ msgstr "Se selezionata, alcuni messaggi presentano un errore di consegna."
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
 msgstr ""
 "Se il numero di telefono pulito è in lista nera, il contatto non sarà più "
 "soggetto all'invio massivo di sms, da nessuna lista."
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+msgstr ""
+"Se il numero di telefono pulito è in lista nera, il contatto non sarà più "
+"soggetto all'invio massivo di SMS, da nessuna lista."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_mailing__sms_force_send
 msgid ""
+<<<<<<< HEAD
 "Immediately send the SMS Mailing instead of queuing up. Use at your own "
 "risk."
 msgstr ""
 "Invia immediatamente l'SMS Mailing invece di fare la coda. Usa a tuo "
 "rischio."
+=======
+"Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
+msgstr ""
+"Invia immediatamente l'SMS Mailing invece di fare la coda. Usa a tuo rischio."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_allow_unsubscribe
@@ -1313,9 +1402,15 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+<<<<<<< HEAD
 "Indica se un numero di telefono pulito in lista nera è un cellulare. Aiuta a"
 " distinguere qual'è il numero in lista nera             quando in un modello"
 " sono presenti sia il campo cellulare che telefono."
+=======
+"Indica se un numero di telefono pulito in lista nera è un cellulare. Aiuta a "
+"distinguere qual è il numero in lista nera             quando in un modello "
+"sono presenti sia il campo cellulare che telefono."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__phone_blacklisted
@@ -1325,23 +1420,39 @@ msgid ""
 "mobile and phone field in a model."
 msgstr ""
 "Indica se un numero di telefono pulito in lista nera è un fisso. Aiuta a "
+<<<<<<< HEAD
 "distinguere qual'è il numero in lista nera             quando in un modello "
+=======
+"distinguere qual è il numero in lista nera             quando in un modello "
+>>>>>>> upstream/18.0
 "sono presenti sia il campo cellulare che telefono."
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_credit
 msgid "Insufficient Credit"
+<<<<<<< HEAD
 msgstr "Credito insufficiente"
+=======
+msgstr "Credito non sufficiente"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_has_insufficient_credit
 msgid "Insufficient IAP credits"
+<<<<<<< HEAD
 msgstr "Crediti acquisti in-app insufficienti"
+=======
+msgstr "Crediti IAP non sufficienti"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_kanban_sms
 msgid "Insufficient credits"
+<<<<<<< HEAD
 msgstr "Crediti insufficienti"
+=======
+msgstr "Crediti non sufficienti"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_invalid_destination
@@ -1394,7 +1505,11 @@ msgstr "Contatto per invio e-mail"
 #. module: mass_mailing_sms
 #: model:ir.model,name:mass_mailing_sms.model_mailing_list
 msgid "Mailing List"
+<<<<<<< HEAD
 msgstr "Mailing list"
+=======
+msgstr "Lista invio e-mail"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.actions.act_window,name:mass_mailing_sms.mailing_contact_action_sms
@@ -1430,8 +1545,13 @@ msgid ""
 "Mailing contacts allow you to separate your marketing audience from your "
 "contact directory."
 msgstr ""
+<<<<<<< HEAD
 "I contatti di mailing ti permettono di separare il tuo pubblico di marketing"
 " dal tuo elenco di contatti."
+=======
+"I contatti di mailing ti permettono di separare il tuo pubblico di marketing "
+"dal tuo elenco di contatti."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__utm_campaign__ab_testing_sms_winner_selection__manual
@@ -1472,7 +1592,11 @@ msgstr "Numero mancante"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__mobile
 msgid "Mobile"
+<<<<<<< HEAD
 msgstr "Dispositivo mobile"
+=======
+msgstr "Cellulare"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_search_sms
@@ -1487,8 +1611,13 @@ msgstr "Ancora nessun dato"
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_list_action_sms
 msgid ""
+<<<<<<< HEAD
 "No need to import mailing lists, you can send SMS to contacts saved in other"
 " Odoo apps."
+=======
+"No need to import mailing lists, you can send SMS to contacts saved in other "
+"Odoo apps."
+>>>>>>> upstream/18.0
 msgstr ""
 "Non c'è bisogno di importare le mailing list, puoi inviare SMS ai contatti "
 "salvati in altre applicazioni Odoo."
@@ -1548,8 +1677,13 @@ msgstr "Numero/i"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
+<<<<<<< HEAD
 "Once you send these text messages, they'll be making a grand entrance in all"
 " pockets, creating quite the bzzzzz!"
+=======
+"Once you send these text messages, they'll be making a grand entrance in all "
+"pockets, creating quite the bzzzzz!"
+>>>>>>> upstream/18.0
 msgstr ""
 "Una volta inviati, i messaggi di testo faranno un ingresso in grande stile "
 "in tutte le tasche, creando scalpore!"
@@ -1620,6 +1754,7 @@ msgstr "Rapporto per %(expected)i%(mailing_type)s Inviato"
 #. module: mass_mailing_sms
 #: model:ir.ui.menu,name:mass_mailing_sms.mass_mailing_sms_menu_reporting
 msgid "Reporting"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1957,6 +2092,9 @@ msgstr "Resoconti"
 =======
 msgstr "Resoconti"
 >>>>>>> upstream/18.0
+=======
+msgstr "Resoconti"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_trace__sms_id
@@ -1992,7 +2130,11 @@ msgstr "Errore di consegna SMS"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
 msgid "SMS ID"
+<<<<<<< HEAD
 msgstr "SMS ID"
+=======
+msgstr "ID SMS"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
@@ -2012,7 +2154,11 @@ msgid "SMS Marketing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "SMS Marketing"
+=======
+msgstr "SMS marketing"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS marketing"
 >>>>>>> upstream/18.0
@@ -2069,12 +2215,20 @@ msgstr "Messaggio SMS"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
 msgid "SMS Trace"
+<<<<<<< HEAD
 msgstr "Traccia SMS"
+=======
+msgstr "Monitoraggio SMS"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_tree_sms
 msgid "SMS Traces"
+<<<<<<< HEAD
 msgstr "Tracce SMS"
+=======
+msgstr "Monitoraggi SMS"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_trace__sms_tracker_ids
@@ -2106,7 +2260,11 @@ msgstr "Invia"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_force_send
 msgid "Send Directly"
+<<<<<<< HEAD
 msgstr "Invia direttamente"
+=======
+msgstr "Invio diretto"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
@@ -2199,7 +2357,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2376,6 +2537,9 @@ msgstr "Invia a tutti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2520,9 +2684,15 @@ msgstr "Prova invio SMS"
 #. module: mass_mailing_sms
 #. odoo-python
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
+<<<<<<< HEAD
 msgid "Test SMS could not be sent to %(destination)s: %(state)s"
 msgstr ""
 "Non è stato possibile inviare un SMS di prova a %(destination)s: %(state)s"
+=======
+msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
+msgstr ""
+"Impossibile inviare l'SMS di prova a %(destination)s: %(failure_reason)s"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
@@ -2556,8 +2726,13 @@ msgstr "Errore durante il tentativo di annullare l'iscrizione"
 msgid ""
 "This phone number is blacklisted for SMS Marketing. Click to unblacklist."
 msgstr ""
+<<<<<<< HEAD
 "Il numero di telefono è nella lista nera del marketing via SMS. Fai clic per"
 " toglierlo."
+=======
+"Il numero di telefono è nella lista nera del marketing via SMS. Fai clic per "
+"toglierlo."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_subject
@@ -2591,17 +2766,29 @@ msgstr "Mezzo UTM"
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_acc
 msgid "Unregistered Account"
+<<<<<<< HEAD
 msgstr "Account non registrato"
+=======
+msgstr "Conto non registrato"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_has_unregistered_account
 msgid "Unregistered IAP account"
+<<<<<<< HEAD
 msgstr "Conto acquisti integrati (IAP) non registrato"
+=======
+msgstr "Conto IAP non registrato"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_kanban_sms
 msgid "Unregistered account"
+<<<<<<< HEAD
 msgstr "Account non registrato"
+=======
+msgstr "Conto non registrato"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_main
@@ -2642,8 +2829,12 @@ msgstr "Selezione vincitore"
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_mailing_action_sms
 msgid ""
+<<<<<<< HEAD
 "Write an appealing SMS Text Message, define recipients and track its "
 "results."
+=======
+"Write an appealing SMS Text Message, define recipients and track its results."
+>>>>>>> upstream/18.0
 msgstr ""
 "Scrivi un messaggio di testo SMS accattivante, definisci i destinatari e "
 "traccia i suoi risultati."
@@ -2667,3 +2858,10 @@ msgstr "aggiunti con successo alla lista nera"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_number
 msgid "has been successfully removed from"
 msgstr "rimossi con successo dalla lista nera"
+<<<<<<< HEAD
+=======
+
+#~ msgid "Test SMS could not be sent to %(destination)s: %(state)s"
+#~ msgstr ""
+#~ "Non è stato possibile inviare un SMS di prova a %(destination)s: %(state)s"
+>>>>>>> upstream/18.0

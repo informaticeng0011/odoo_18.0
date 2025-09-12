@@ -11,6 +11,7 @@
     }
 }
 
+<<<<<<< HEAD
 table.o_skill_table, .o_hr_skills_dialog_form {
     .o_progressbar {
         display: flex;
@@ -20,5 +21,20 @@ table.o_skill_table, .o_hr_skills_dialog_form {
             width: auto;
         }
     }
+=======
+table.o_skill_table {
+    .o_hr_skills_dialog_form {
+        .o_progressbar {
+            display: flex;
+            align-items: center;
+
+            .o_progressbar_value input {
+                width: auto;
+            }
+        }
+    }
+
+    table-layout: fixed;
+>>>>>>> upstream/18.0
 }
 

@@ -1,6 +1,10 @@
 <templates xml:space="preserve">
     <t t-name="html_editor.ColorSelector">
+<<<<<<< HEAD
         <Dropdown state="dropdown">
+=======
+        <Dropdown state="dropdown" menuRef="menuRef">
+>>>>>>> upstream/18.0
             <button class="btn btn-light" t-attf-class="o-select-color-{{props.type}} {{dropdown.isOpen ? 'active' : ''}}" t-att-title="props.title">
                 <t t-if="mode === 'color'">
                     <i class="fa fa-fw fa-font py-1" t-att-style="this.getSelectedColorStyle()"/>
@@ -60,7 +64,11 @@
                             <div class="p-1">
                                 <div class="o_colorpicker_section" t-on-click="onColorApply" t-on-mouseover="onColorHover" t-on-mouseout="onColorHoverOut">
                                     <t t-foreach="this.usedCustomColors" t-as="color" t-key="color_index">
+<<<<<<< HEAD
                                         <button t-if="color !== this.currentCustomColor.color.toLowerCase()" class="o_color_button btn" t-att-data-color="color" t-attf-style="background-color: {{color}}"/>
+=======
+                                        <button t-if="color !== this.currentCustomColor.color?.toLowerCase()" class="o_color_button btn" t-att-data-color="color" t-attf-style="background-color: {{color}}"/>
+>>>>>>> upstream/18.0
                                     </t>
                                     <button class="o_color_button btn selected" t-att-data-color="this.currentCustomColor.color" t-attf-style="background-color: {{this.currentCustomColor.color}}"/>
                                 </div>
@@ -131,7 +139,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     defaultColor="this.defaultColor"
+=======
+                                    defaultColor="this.currentCustomColor.color"
+>>>>>>> upstream/18.0
 =======
                                     defaultColor="this.currentCustomColor.color"
 >>>>>>> upstream/18.0

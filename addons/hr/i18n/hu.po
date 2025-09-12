@@ -1,14 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* hr
 # 
+=======
+# * hr
+#
+>>>>>>> upstream/18.0
 # Translators:
 # f1b3a33e3b33fcf18004a5292e501f50_3500ca8 <373b677b151624c4521d9efc77b996fd_750224>, 2024
 # Daniel Gerstenbrand <daniel.gerstenbrand@gmail.com>, 2024
 # Kovács Tibor <kovika@gmail.com>, 2024
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # gezza <geza.nagy@oregional.hu>, 2024
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # krnkris, 2024
@@ -16,15 +24,21 @@
 # Martin Trigaux, 2024
 # Tamás Németh <ntomasz81@gmail.com>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # gezza <geza.nagy@oregional.hu>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# gezza <geza.nagy@oregional.hu>, 2025
+# Tamás Dombos <tdombos@gmail.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 "Last-Translator: Tamás Németh <ntomasz81@gmail.com>, 2025\n"
@@ -37,6 +51,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"PO-Revision-Date: 2025-08-20 22:20+0000\n"
+"Last-Translator: Tamás Dombos <tdombos@gmail.com>\n"
+"Language-Team: Hungarian <https://translate.odoo.com/projects/odoo-18/hr/hu/>"
+"\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_company__hr_presence_control_email_amount
@@ -64,7 +90,11 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "1 Onsite Interview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 helyszíni interjú"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -97,7 +127,11 @@ msgstr "12 nap / év, amiből <br>6 nap választható."
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "2 open days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2 nyitott nap"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -108,7 +142,11 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "4 Days after Interview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 nap az interjú után"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -216,7 +254,11 @@ msgstr "<span class=\"o_stat_value\">Munkavállaló</span>"
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "<span class=\"text-muted small\">Days to get an Offer</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted small\">Napok száma ajánlatküldésig</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -940,7 +982,11 @@ msgstr ""
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_work_location_action
 msgid "Create a new work location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Új munkavégzési hely létrehozása"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.mail_activity_plan_action
@@ -957,6 +1003,10 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Create content that will help our users on a daily basis"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Hozzon létre olyan tartalmat, ami segíti a felhasználókat a napi munkában"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form
@@ -1194,7 +1244,11 @@ msgstr "Elvált"
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__doctor
 msgid "Doctor"
+<<<<<<< HEAD
 msgstr "Doktor"
+=======
+msgstr "Doktori fokozat"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__driving_license
@@ -1251,7 +1305,11 @@ msgstr "E-mail álnevek"
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Emergency"
+<<<<<<< HEAD
 msgstr "Vész esetén"
+=======
+msgstr "Vész esetén értesítendő"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -1429,7 +1487,11 @@ msgstr "Bővítse munkavállalói profilját kompetenciákkal és önéletrajzok
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Expand your knowledge of various business industries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bővítse a tudását különféle iparágakról"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job__expected_employees
@@ -1616,7 +1678,11 @@ msgstr "Személyzeti beállítások"
 #: model:ir.model.fields,field_description:hr.field_hr_manager_department_report__has_department_manager_access
 msgid "Has Department Manager Access"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Részlegvezető hozzáférése van"
+>>>>>>> upstream/18.0
 =======
 msgstr "Részlegvezető hozzáférése van"
 >>>>>>> upstream/18.0
@@ -1996,12 +2062,20 @@ msgstr "Hozzon létre egy munkakört!"
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Location"
+<<<<<<< HEAD
 msgstr "Lokáció"
+=======
+msgstr "Hely"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__location_number
 msgid "Location Number"
+<<<<<<< HEAD
 msgstr "Lokáció szám"
+=======
+msgstr "Munkavégzési hely száma"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.department,name:hr.dep_rd_ltp
@@ -2075,7 +2149,11 @@ msgstr "Házas"
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__master
 msgid "Master"
+<<<<<<< HEAD
 msgstr "Mester"
+=======
+msgstr "Mesterfokozat"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__master_department_id
@@ -2091,7 +2169,11 @@ msgstr "Fő részleg"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Master demos of our software"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szoftver demo mester"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__member_of_department
@@ -2267,6 +2349,11 @@ msgstr ""
 msgid ""
 "No waste of time in enterprise processes, real responsibilities and autonomy"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nincs elvesztegett idő a vállalati folyamatokban, valós felelősségek és "
+"autonómia"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -2713,7 +2800,11 @@ msgstr "Nyilvános alkalmazott"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Qualify the customer needs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevőigények minősítése"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
@@ -2900,7 +2991,11 @@ msgstr "SMS kézbesítési hiba"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__ssnid
 #: model:ir.model.fields,field_description:hr.field_res_users__ssnid
 msgid "SSN No"
+<<<<<<< HEAD
 msgstr "Adószám"
+=======
+msgstr "TAJ-szám"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.department,name:hr.dep_sales
@@ -3421,7 +3516,11 @@ msgstr "Érvényes munkavállalási engedély Belgiumban"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__visa_expire
 #: model:ir.model.fields,field_description:hr.field_res_users__visa_expire
 msgid "Visa Expiration Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vízum lejáratának dátuma"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__visa_no
@@ -3544,7 +3643,11 @@ msgstr "Munkahelyi adatok"
 #: model_terms:ir.ui.view,arch_db:hr.hr_work_location_form_view
 #: model_terms:ir.ui.view,arch_db:hr.hr_work_location_tree_view
 msgid "Work Location"
+<<<<<<< HEAD
 msgstr "Munkahely"
+=======
+msgstr "Munkavégzés helye"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_location_name
@@ -3552,7 +3655,11 @@ msgstr "Munkahely"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__work_location_name
 #: model:ir.model.fields,field_description:hr.field_res_users__work_location_name
 msgid "Work Location Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Munkavégzés helyének neve"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_location_type
@@ -3560,13 +3667,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__work_location_type
 #: model:ir.model.fields,field_description:hr.field_res_users__work_location_type
 msgid "Work Location Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Munkavégzés helyének típusa"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_work_location_action
 #: model:ir.ui.menu,name:hr.menu_hr_work_location_tree
 msgid "Work Locations"
+<<<<<<< HEAD
 msgstr "Munkahelyek"
+=======
+msgstr "Munkavégzési helyek"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__mobile_phone

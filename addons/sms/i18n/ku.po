@@ -1,14 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sms
+<<<<<<< HEAD
 # 
 # Translators:
 # Raz Omer Hussein, 2025
 # 
+=======
+#
+# Translators:
+# Raz Omer Hussein, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Raz Omer Hussein, 2025\n"
@@ -17,6 +25,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: ku\n"
+=======
+"POT-Creation-Date: 2025-09-05 18:40+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Raz Omer Hussein, 2025\n"
+"Language-Team: Kurdish (https://app.transifex.com/odoo/teams/41243/ku/)\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: sms
@@ -72,7 +90,11 @@ msgid "%s (copy)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s (لەبەرگرتنەوە)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s (لەبەرگرتنەوە)"
 >>>>>>> upstream/18.0
@@ -216,7 +238,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid ""
 "<span class=\"o_stat_text\">Add</span>\n"
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Context Action</span>"
+=======
+"                                <span class=\"o_stat_text\">Context Action</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -228,18 +255,29 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid ""
 "<span class=\"o_stat_text\">Remove</span>\n"
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Context Action</span>"
+=======
+"                                <span class=\"o_stat_text\">Context Action</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_preview_form
+<<<<<<< HEAD
 msgid "<span class=\"text-warning\" invisible=\"not no_record\">No records</span>"
+=======
+msgid ""
+"<span class=\"text-warning\" invisible=\"not no_record\">No records</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.ir_actions_server_view_form
 msgid ""
 "<span invisible=\"sms_method != 'sms'\">\n"
+<<<<<<< HEAD
 "                                The message will be sent as an SMS to the recipients of the template\n"
 "                                and will not appear in the messaging history.\n"
 "                            </span>\n"
@@ -250,6 +288,23 @@ msgid ""
 "                            <span invisible=\"sms_method != 'comment'\">\n"
 "                                The SMS will be sent as an SMS to the recipients of the\n"
 "                                template and it will also be posted as an internal note\n"
+=======
+"                                The message will be sent as an SMS to the "
+"recipients of the template\n"
+"                                and will not appear in the messaging "
+"history.\n"
+"                            </span>\n"
+"                            <span invisible=\"sms_method != 'note'\">\n"
+"                                The SMS will not be sent, it will only be "
+"posted as an\n"
+"                                internal note in the messaging history.\n"
+"                            </span>\n"
+"                            <span invisible=\"sms_method != 'comment'\">\n"
+"                                The SMS will be sent as an SMS to the "
+"recipients of the\n"
+"                                template and it will also be posted as an "
+"internal note\n"
+>>>>>>> upstream/18.0
 "                                in the messaging history.\n"
 "                            </span>"
 msgstr ""
@@ -360,7 +415,11 @@ msgid "Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەژمێر"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەژمێر"
 >>>>>>> upstream/18.0
@@ -686,7 +745,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کردەوەی پێویستە"
+>>>>>>> upstream/18.0
 =======
 msgstr "کردەوەی پێویستە"
 >>>>>>> upstream/18.0
@@ -1009,7 +1072,11 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی هاوپێچەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی هاوپێچەکان"
 >>>>>>> upstream/18.0
@@ -1300,7 +1367,11 @@ msgid "Base"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بناغە"
+>>>>>>> upstream/18.0
 =======
 msgstr "بناغە"
 >>>>>>> upstream/18.0
@@ -1704,7 +1775,11 @@ msgid "Cancel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕەتکردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕەتکردنەوە"
 >>>>>>> upstream/18.0
@@ -2061,7 +2136,11 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵوەشایەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "هەڵوەشایەوە"
 >>>>>>> upstream/18.0
@@ -2442,6 +2521,7 @@ msgid "Close"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "داخستن"
@@ -2706,6 +2786,14 @@ msgstr "داخستن"
 >>>>>>> upstream/18.0
 =======
 msgstr "داخستن"
+>>>>>>> upstream/18.0
+=======
+msgstr "داخستن"
+
+#. module: sms
+#: model:ir.model,name:sms.model_res_company
+msgid "Companies"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -2843,7 +2931,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لەلایەن..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکراوە لەلایەن..."
 >>>>>>> upstream/18.0
@@ -3210,7 +3302,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لە"
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکراوە لە"
 >>>>>>> upstream/18.0
@@ -3572,7 +3668,11 @@ msgid "Customer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کڕیار"
+>>>>>>> upstream/18.0
 =======
 msgstr "کڕیار"
 >>>>>>> upstream/18.0
@@ -3922,7 +4022,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕەتکردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕەتکردنەوە"
 >>>>>>> upstream/18.0
@@ -4228,7 +4332,11 @@ msgid "Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵە"
+>>>>>>> upstream/18.0
 =======
 msgstr "هەڵە"
 >>>>>>> upstream/18.0
@@ -4415,7 +4523,11 @@ msgid "Expired"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەسەرچوو"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەسەرچوو"
 >>>>>>> upstream/18.0
@@ -4634,8 +4746,12 @@ msgstr ""
 
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_template__template_fs
+<<<<<<< HEAD
 msgid ""
 "File from where the template originates. Used to reset broken template."
+=======
+msgid "File from where the template originates. Used to reset broken template."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -4702,7 +4818,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فۆڵۆوەرەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "فۆڵۆوەرەکان"
 >>>>>>> upstream/18.0
@@ -4951,7 +5071,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فۆڵۆوەرەکان (هاوبەشەکان)"
+>>>>>>> upstream/18.0
 =======
 msgstr "فۆڵۆوەرەکان (هاوبەشەکان)"
 >>>>>>> upstream/18.0
@@ -5181,7 +5305,11 @@ msgid "Has Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامە هەیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "نامە هەیە"
 >>>>>>> upstream/18.0
@@ -5366,7 +5494,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -5615,7 +5747,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەگەر پشکنینیان بۆ کرا، پەیامە نوێیەکان پێویستیان بە سەرنجی تۆ هەیە."
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەگەر پشکنینیان بۆ کرا، پەیامە نوێیەکان پێویستیان بە سەرنجی تۆ هەیە."
 >>>>>>> upstream/18.0
@@ -5894,7 +6030,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەگەر پشکنینیان بۆ کرا، هەندێک لە نامەکان هەڵەی گەیاندنیان هەیە."
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەگەر پشکنینیان بۆ کرا، هەندێک لە نامەکان هەڵەی گەیاندنیان هەیە."
 >>>>>>> upstream/18.0
@@ -6082,8 +6222,13 @@ msgstr "ئەگەر پشکنینیان بۆ کرا، هەندێک لە نامەک
 #. module: sms
 #: model:ir.model.fields,help:sms.field_res_partner__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -6177,7 +6322,11 @@ msgid "Is Follower"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فۆڵۆوەرە"
+>>>>>>> upstream/18.0
 =======
 msgstr "فۆڵۆوەرە"
 >>>>>>> upstream/18.0
@@ -6361,7 +6510,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوایین نوێکردنەوە لەلایەن..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دوایین نوێکردنەوە لەلایەن..."
 >>>>>>> upstream/18.0
@@ -6620,7 +6773,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوایین نوێکردنەوە لە..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دوایین نوێکردنەوە لە..."
 >>>>>>> upstream/18.0
@@ -6894,7 +7051,11 @@ msgid "Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامە"
+>>>>>>> upstream/18.0
 =======
 msgstr "نامە"
 >>>>>>> upstream/18.0
@@ -7131,7 +7292,11 @@ msgid "Message Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامەکە هەڵەی گەیاندنی تیایە"
+>>>>>>> upstream/18.0
 =======
 msgstr "نامەکە هەڵەی گەیاندنی تیایە"
 >>>>>>> upstream/18.0
@@ -7373,7 +7538,11 @@ msgid "Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامەکان "
+>>>>>>> upstream/18.0
 =======
 msgstr "نامەکان "
 >>>>>>> upstream/18.0
@@ -7621,7 +7790,11 @@ msgid "Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناو"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناو"
 >>>>>>> upstream/18.0
@@ -7892,7 +8065,11 @@ msgid "Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارە"
 >>>>>>> upstream/18.0
@@ -8122,7 +8299,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی کردارەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی کردارەکان"
 >>>>>>> upstream/18.0
@@ -8347,7 +8528,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی هەڵەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی هەڵەکان"
 >>>>>>> upstream/18.0
@@ -8572,7 +8757,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی ئەو نامانەی کە پێویستیان بە کردار هەیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی ئەو نامانەی کە پێویستیان بە کردار هەیە"
 >>>>>>> upstream/18.0
@@ -8797,7 +8986,11 @@ msgid "Number of messages with delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی ئەو نامانەی کە هەڵەی گەیاندنیان هەیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی ئەو نامانەی کە هەڵەی گەیاندنیان هەیە"
 >>>>>>> upstream/18.0
@@ -8967,8 +9160,13 @@ msgstr "ژمارەی ئەو نامانەی کە هەڵەی گەیاندنیان 
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_composer__res_ids_count
 msgid ""
+<<<<<<< HEAD
 "Number of recipients that will receive the SMS if sent in mass mode, without"
 " applying the Active Domain value"
+=======
+"Number of recipients that will receive the SMS if sent in mass mode, without "
+"applying the Active Domain value"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -8981,8 +9179,13 @@ msgstr ""
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -9048,7 +9251,11 @@ msgid "Partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هاوبەش"
+>>>>>>> upstream/18.0
 =======
 msgstr "هاوبەش"
 >>>>>>> upstream/18.0
@@ -9318,7 +9525,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵسەنگاندنەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "هەڵسەنگاندنەکان"
 >>>>>>> upstream/18.0
@@ -9531,7 +9742,11 @@ msgid "Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هۆکار"
+>>>>>>> upstream/18.0
 =======
 msgstr "هۆکار"
 >>>>>>> upstream/18.0
@@ -9804,7 +10019,11 @@ msgid "Rejected"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕەتکرایەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕەتکرایەوە"
 >>>>>>> upstream/18.0
@@ -10079,7 +10298,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms.field_res_partner__message_has_sms_error
 #: model:ir.model.fields,field_description:sms.field_res_users__message_has_sms_error
 msgid "SMS Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵەی گەیاندنی کورتەنامە"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #. odoo-javascript
@@ -10283,6 +10506,7 @@ msgstr ""
 #. module: sms
 #. odoo-python
 #: code:addons/sms/models/ir_actions_server.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10636,6 +10860,9 @@ msgid "Sending SMS can only be done on a not transient mail.thread model"
 =======
 msgid "Sending SMS can only be done on a not transient mail.thread model"
 >>>>>>> upstream/18.0
+=======
+msgid "Sending SMS can only be done on a not transient mail.thread model"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -10690,7 +10917,11 @@ msgid "Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناردن"
 >>>>>>> upstream/18.0
@@ -11062,7 +11293,11 @@ msgid "Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جۆر"
+>>>>>>> upstream/18.0
 =======
 msgstr "جۆر"
 >>>>>>> upstream/18.0
@@ -11201,11 +11436,22 @@ msgid ""
 "- 'Update a Record': update the values of a record\n"
 "- 'Create Activity': create an activity (Discuss)\n"
 "- 'Send Email': post a message, a note or send an email (Discuss)\n"
+<<<<<<< HEAD
 "- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': add or remove followers to a record (Discuss)\n"
 "- 'Create Record': create a new record with new values\n"
 "- 'Execute Code': a block of Python code that will be executed\n"
 "- 'Send Webhook Notification': send a POST request to an external system, also known as a Webhook\n"
 "- 'Execute Existing Actions': define an action that triggers several other server actions\n"
+=======
+"- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': "
+"add or remove followers to a record (Discuss)\n"
+"- 'Create Record': create a new record with new values\n"
+"- 'Execute Code': a block of Python code that will be executed\n"
+"- 'Send Webhook Notification': send a POST request to an external system, "
+"also known as a Webhook\n"
+"- 'Execute Existing Actions': define an action that triggers several other "
+"server actions\n"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -11248,7 +11494,12 @@ msgid ""
 "'comment': generated by user input e.g. through discuss or composer\n"
 "'email_outgoing': generated by a mailing\n"
 "'notification': generated by system e.g. tracking messages\n"
+<<<<<<< HEAD
 "'auto_comment': generated by automated notification mechanism e.g. acknowledgment\n"
+=======
+"'auto_comment': generated by automated notification mechanism e.g. "
+"acknowledgment\n"
+>>>>>>> upstream/18.0
 "'user_notification': generated for a specific recipient"
 msgstr ""
 
@@ -11283,7 +11534,11 @@ msgid "Verification Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کۆدی پشتڕاستکردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "کۆدی پشتڕاستکردنەوە"
 >>>>>>> upstream/18.0
@@ -11418,7 +11673,11 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئاگادار کردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئاگادار کردنەوە"
 >>>>>>> upstream/18.0
@@ -11597,7 +11856,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پەیامەکانی ماڵپەڕ"
+>>>>>>> upstream/18.0
 =======
 msgstr "پەیامەکانی ماڵپەڕ"
 >>>>>>> upstream/18.0
@@ -11762,7 +12025,11 @@ msgid "Website communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مێژووی پەیوەندی ماڵپەڕ"
+>>>>>>> upstream/18.0
 =======
 msgstr "مێژووی پەیوەندی ماڵپەڕ"
 >>>>>>> upstream/18.0
@@ -11950,8 +12217,15 @@ msgstr ""
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
 msgid ""
+<<<<<<< HEAD
 "Your sender name must be between 3 and 11 characters long and only contain alphanumeric characters.\n"
 "                        It must fit your company name, and you aren't allowed to modify it once you registered one, choose it carefully."
+=======
+"Your sender name must be between 3 and 11 characters long and only contain "
+"alphanumeric characters.\n"
+"                        It must fit your company name, and you aren't "
+"allowed to modify it once you registered one, choose it carefully."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -12026,7 +12300,11 @@ msgid "out of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "لە دەرەوەی"
+>>>>>>> upstream/18.0
 =======
 msgstr "لە دەرەوەی"
 >>>>>>> upstream/18.0

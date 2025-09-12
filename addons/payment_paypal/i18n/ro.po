@@ -6,6 +6,10 @@
 # Maria Muntean, 2024
 # Wil Odoo, 2024
 # Lyall Kindmurr, 2024
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -13,7 +17,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Lyall Kindmurr, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +54,11 @@ msgstr "Nu s-a putut stabili conexiunea cu API-ul."
 #. odoo-python
 #: code:addons/payment_paypal/models/payment_provider.py:0
 msgid "Could not generate a new access token."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu s-a putut genera un nou token de acces."
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_provider__paypal_email_account
@@ -67,13 +79,21 @@ msgstr "Cum vă configurați contul de paypal?"
 #. odoo-python
 #: code:addons/payment_paypal/controllers/main.py:0
 msgid "Invalid response format, can't normalize."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Format de răspuns invalid, nu se poate normaliza."
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #. odoo-python
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "Missing value for txn_id (%(txn_id)s) or txn_type (%(txn_type)s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valoare lipsă pentru txn_id (%(txn_id)s) sau txn_type (%(txn_type)s)."
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #. odoo-python
@@ -89,32 +109,56 @@ msgstr "PayPal"
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_provider__paypal_access_token
 msgid "PayPal Access Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token de acces PayPal"
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_provider__paypal_access_token_expiry
 msgid "PayPal Access Token Expiry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Expirare token de acces PayPal"
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_provider__paypal_client_id
 msgid "PayPal Client ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID Client PayPal"
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_provider__paypal_client_secret
 msgid "PayPal Client Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Secret Client PayPal"
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_transaction__paypal_type
 msgid "PayPal Transaction Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip tranzacție PayPal"
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_provider__paypal_webhook_id
 msgid "PayPal Webhook ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID Webhook PayPal"
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #: model:ir.model,name:payment_paypal.model_payment_provider
@@ -136,7 +180,11 @@ msgstr "Procesarea plății a eșuat"
 #. odoo-python
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "Received data with invalid payment status: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Date primite cu status de plată invalid: %s"
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #. odoo-python
@@ -153,18 +201,31 @@ msgstr "Clientul a ieșit de pe pagina de plată."
 #. module: payment_paypal
 #: model:ir.model.fields,help:payment_paypal.field_payment_provider__paypal_access_token_expiry
 msgid "The moment at which the access token becomes invalid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Momentul în care tokenul de acces devine invalid."
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #: model:ir.model.fields,help:payment_paypal.field_payment_provider__paypal_email_account
 msgid ""
 "The public business email solely used to identify the account with PayPal"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Adresa de e-mail publică de business folosită doar pentru identificarea "
+"contului la PayPal"
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #: model:ir.model.fields,help:payment_paypal.field_payment_provider__paypal_access_token
 msgid "The short-lived token used to access Paypal APIs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tokenul cu durată scurtă folosit pentru accesarea API-urilor Paypal"
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #: model:ir.model.fields,help:payment_paypal.field_payment_provider__code
@@ -174,10 +235,18 @@ msgstr "Cod tehnic al acestui procesator de plată"
 #. module: payment_paypal
 #: model_terms:ir.ui.view,arch_db:payment_paypal.payment_provider_form
 msgid "Webhook ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID Webhook"
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #. odoo-python
 #: code:addons/payment_paypal/models/payment_provider.py:0
 msgid "You must have an HTTPS connection to generate a webhook."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trebuie să aveți o conexiune HTTPS pentru a genera un webhook."
+>>>>>>> upstream/18.0

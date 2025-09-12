@@ -64,7 +64,19 @@ export class SelectTranslateDialog extends Component {
     </WebsiteDialog>
     `;
     static props = {
+<<<<<<< HEAD
         node: String,
+=======
+        node: {
+            // type: Object doesn't work in firefox.
+            // the node is in an iframe, so its Object prototype
+            // isn't the same as the rest of the page.
+            validate: (node) => {
+                // if the object has those two, should be a node
+                return "nodeType" in node && "nodeName" in node;
+            },
+        },
+>>>>>>> upstream/18.0
         close: Function,
     };
     setup() {
@@ -277,7 +289,15 @@ export class WebsiteTranslator extends WebsiteEditorComponent {
         };
         for (const translationEl of $editable) {
             if (translationEl.closest('.o_not_editable')) {
+<<<<<<< HEAD
                 translationEl.addEventListener('click', showNotification);
+=======
+                translationEl.addEventListener('click', (ev) => {
+                    ev.stopPropagation();
+                    ev.preventDefault();
+                    showNotification(ev);
+                });
+>>>>>>> upstream/18.0
             }
             if (translationEl.closest('.s_table_of_content_navbar_wrap')) {
                 // Make sure the same translation ids are used.

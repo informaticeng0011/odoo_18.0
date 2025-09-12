@@ -13,6 +13,13 @@
         &.o-compact {
             height: 10%;
             min-height: #{"max(10%, 100px)"};
+<<<<<<< HEAD
+=======
+            &.o-hasVideo.o-selfInCall {
+                width: 100%;
+                height: calc(100vw * 9 / 16);
+            }
+>>>>>>> upstream/18.0
         }
     }
 }

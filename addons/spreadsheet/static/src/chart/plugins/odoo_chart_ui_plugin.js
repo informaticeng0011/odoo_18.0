@@ -194,6 +194,7 @@ export class OdooChartUIPlugin extends OdooUIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (!items.length) {
                     return;
                 }
@@ -294,6 +295,9 @@ export class OdooChartUIPlugin extends OdooUIPlugin {
 =======
                 if (!items.length ||  !env || items[0].datasetIndex >= datasets.length ) {
 >>>>>>> upstream/18.0
+=======
+                if (!items.length || !env || items[0].datasetIndex >= datasets.length) {
+>>>>>>> upstream/18.0
                     return;
                 }
                 const { datasetIndex, index } = items[0];
@@ -382,6 +386,10 @@ export class OdooChartUIPlugin extends OdooUIPlugin {
         const definition = this.getters.getChart(chartId).getDefinitionForDataSource();
         const dataSourceId = this._getOdooChartDataSourceId(chartId);
         this.charts[dataSourceId] = new ChartDataSource(this.custom, definition);
+<<<<<<< HEAD
+=======
+        this._addDomain(chartId);
+>>>>>>> upstream/18.0
     }
 
     /**

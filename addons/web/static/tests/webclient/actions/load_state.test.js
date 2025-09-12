@@ -180,7 +180,11 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         kanban: `
+=======
+        "kanban,1": /* xml */ `
+>>>>>>> upstream/18.0
 =======
         "kanban,1": /* xml */ `
 >>>>>>> upstream/18.0
@@ -345,9 +349,12 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         list: `<list><field name="foo"/></list>`,
         form: `
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -468,6 +475,9 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -595,8 +605,11 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search><field name="foo" string="Foo"/></search>`,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -716,6 +729,9 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1759,6 +1775,7 @@ describe(`new urls`, () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Partner._views = {
             ...Partner._views,
             "search,false": `
@@ -1768,6 +1785,8 @@ describe(`new urls`, () => {
             `,
         };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1887,6 +1906,9 @@ describe(`new urls`, () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2177,7 +2199,11 @@ describe(`new urls`, () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Partner._views["form,false"] = /* xml */ `
+=======
+        Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
 =======
         Partner._views["form"] = /* xml */ `
 >>>>>>> upstream/18.0
@@ -2407,6 +2433,10 @@ describe(`new urls`, () => {
 
         expect(`.o_kanban_view`).toHaveCount(1);
         expect.verifySteps([
+<<<<<<< HEAD
+=======
+            "get menu_id-null",
+>>>>>>> upstream/18.0
             'set current_action-{"type":"ir.actions.act_window","res_model":"partner","res_id":1,"views":[[false,"form"]]}',
             'set current_action-{"type":"ir.actions.act_window","res_model":"partner","views":[[1,"kanban"]],"context":{"lang":"en","tz":"taht","uid":7,"allowed_company_ids":[1],"active_model":"partner","active_id":1,"active_ids":[1]}}',
         ]);
@@ -2419,11 +2449,80 @@ describe(`new urls`, () => {
         await animationFrame();
         expect(`.o_kanban_view`).toHaveCount(1);
         expect.verifySteps([
+<<<<<<< HEAD
             'get current_action-{"type":"ir.actions.act_window","res_model":"partner","views":[[1,"kanban"]],"context":{"lang":"en","tz":"taht","uid":7,"allowed_company_ids":[1],"active_model":"partner","active_id":1,"active_ids":[1]}}',
             'set current_action-{"type":"ir.actions.act_window","res_model":"partner","views":[[1,"kanban"]],"context":{"lang":"en","tz":"taht","uid":7,"active_model":"partner","active_id":1,"active_ids":[1]}}',
             "get menu_id-null",
         ]);
     });
+=======
+            "get menu_id-null",
+            'get current_action-{"type":"ir.actions.act_window","res_model":"partner","views":[[1,"kanban"]],"context":{"lang":"en","tz":"taht","uid":7,"allowed_company_ids":[1],"active_model":"partner","active_id":1,"active_ids":[1]}}',
+            'set current_action-{"type":"ir.actions.act_window","res_model":"partner","views":[[1,"kanban"]],"context":{"lang":"en","tz":"taht","uid":7,"active_model":"partner","active_id":1,"active_ids":[1]}}',
+        ]);
+    });
+
+    test("menu jumping fix: multiple menus sharing same action", async () => {
+        // Test case for menu jumping issue when multiple menus share the same action
+        // Scenario: User navigates to Sale->Customers, then F5 reload should stay in Sale, not jump to Account
+        defineActions([
+            {
+                id: 9001,
+                name: "Partners",
+                res_model: "partner", 
+                type: "ir.actions.act_window",
+                views: [[false, "list"], [false, "form"]],
+            },
+        ]);
+
+        defineMenus([
+            { id: 0 }, // prevents auto-loading
+            // Sale App
+            { id: 100, name: "Sale", appID: 100, children: [101] },
+            { id: 101, name: "Customers", appID: 100, actionID: 9001, parent_id: 100 },
+            // Account App  
+            { id: 200, name: "Accounting", appID: 200, children: [201] },
+            { id: 201, name: "Customers", appID: 200, actionID: 9001, parent_id: 200 }, // Same action!
+        ]);
+
+        patchWithCleanup(browser.sessionStorage, {
+            setItem(key, value) {
+                expect.step(`set ${key}-${value}`);
+                super.setItem(key, value);
+            },
+            getItem(key) {
+                const res = super.getItem(key);
+                expect.step(`get ${key}-${res}`);
+                return res;
+            },
+        });
+
+        // Step 1: Navigate to Sale->Customers with explicit menu_id
+        redirect("/odoo/action-9001?menu_id=100");
+        logHistoryInteractions();
+
+        await mountWebClient();
+        expect(`.o_list_view`).toHaveCount(1);
+
+        // Step 2: Emulate F5 reload
+        routerBus.trigger("ROUTE_CHANGE");
+        await animationFrame();
+        await animationFrame();
+
+        expect(`.o_list_view`).toHaveCount(1);
+
+        expect.verifySteps([
+            "get menu_id-null",
+            "set menu_id-100",
+            'set current_action-{"binding_type":"action","binding_view_types":"list,form","id":9001,"type":"ir.actions.act_window","xml_id":9001,"name":"Partners","res_model":"partner","views":[[false,"list"],[false,"form"]],"context":{},"embedded_action_ids":[],"group_ids":[],"limit":80,"mobile_view_mode":"kanban","target":"current","view_ids":[],"view_mode":"list,form"}',
+            "pushState http://example.com/odoo/action-9001",
+            "get menu_id-100", // F5 reload checks stored menu
+            'set current_action-{"binding_type":"action","binding_view_types":"list,form","id":9001,"type":"ir.actions.act_window","xml_id":9001,"name":"Partners","res_model":"partner","views":[[false,"list"],[false,"form"]],"context":{},"embedded_action_ids":[],"group_ids":[],"limit":80,"mobile_view_mode":"kanban","target":"current","view_ids":[],"view_mode":"list,form"}',
+            "Update the state without updating URL, nextState: actionStack,action",
+        ]);
+    });
+
+>>>>>>> upstream/18.0
 });
 
 describe(`legacy urls`, () => {
@@ -2872,6 +2971,7 @@ describe(`legacy urls`, () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Partner._views = {
             ...Partner._views,
             "search,false": `
@@ -2881,6 +2981,8 @@ describe(`legacy urls`, () => {
             `,
         };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3000,6 +3102,9 @@ describe(`legacy urls`, () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

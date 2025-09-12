@@ -1,16 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* web_editor
 # 
+=======
+# * web_editor
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
+<<<<<<< HEAD
 # 
+=======
+#
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,6 +263,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"POT-Creation-Date: 2025-08-29 18:38+0000\n"
+"PO-Revision-Date: 2025-08-29 08:47+0000\n"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
+"Language-Team: German <https://translate.odoo.com/projects/odoo-18/"
+"web_editor/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -280,8 +304,13 @@ msgid ""
 "displayed (slow connection, missing image, screen reader ...)."
 msgstr ""
 "„Alt-Tag“ gibt einen alternativen Text für ein Bild an, wenn das Bild nicht "
+<<<<<<< HEAD
 "angezeigt werden kann (langsame Verbindung, fehlendes Bild, Bildschirmleser "
 "...)."
+=======
+"angezeigt werden kann (langsame Verbindung, fehlendes Bild, "
+"Bildschirmleser ...)."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -1548,7 +1577,11 @@ msgid "Gradient"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gradient"
+=======
+msgstr "Farbverlauf"
+>>>>>>> upstream/18.0
 =======
 msgstr "Farbverlauf"
 >>>>>>> upstream/18.0
@@ -1929,7 +1962,11 @@ msgid "Image padding"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Bildauffüllung"
+=======
+msgstr "Bildabstand"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bildabstand"
 >>>>>>> upstream/18.0
@@ -2732,12 +2769,15 @@ msgstr "Position"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Preset #{number}"
 msgstr "Voreingestellte #{number}"
 
 #. module: web_editor
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3413,8 +3453,13 @@ msgid ""
 "Someone with escalated rights previously modified this area, you are "
 "therefore not able to modify it yourself."
 msgstr ""
+<<<<<<< HEAD
 "Jemand mit erweiterten Rechten hat diesen Bereich zuvor geändert, Sie können"
 " ihn also nicht selbst ändern."
+=======
+"Jemand mit erweiterten Rechten hat diesen Bereich zuvor geändert, Sie können "
+"ihn also nicht selbst ändern."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
@@ -3571,10 +3616,19 @@ msgstr "Die angegebene URL ist nicht gültig."
 #: code:addons/web_editor/static/src/js/wysiwyg/conflict_dialog.xml:0
 msgid ""
 "The version from the database will be used.\n"
+<<<<<<< HEAD
 "                            If you need to keep your changes, copy the content below and edit the new document."
 msgstr ""
 "Es wird die Version aus der Datenbank verwendet.\n"
 "Wenn Sie Ihre Änderungen beibehalten möchten, kopieren Sie den Inhalt unten und bearbeiten Sie das neue Dokument."
+=======
+"                            If you need to keep your changes, copy the "
+"content below and edit the new document."
+msgstr ""
+"Es wird die Version aus der Datenbank verwendet.\n"
+"Wenn Sie Ihre Änderungen beibehalten möchten, kopieren Sie den Inhalt unten "
+"und bearbeiten Sie das neue Dokument."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -3679,8 +3733,13 @@ msgid ""
 "To save a snippet, we need to save all your previous modifications and "
 "reload the page."
 msgstr ""
+<<<<<<< HEAD
 "Um ein Snippet zu speichern, müssen wir alle vorherigen Änderungen speichern"
 " und die Seite neu laden."
+=======
+"Um ein Snippet zu speichern, müssen wir alle vorherigen Änderungen speichern "
+"und die Seite neu laden."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -3835,8 +3894,13 @@ msgstr "Bild hochladen"
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "Uploaded image's format is not supported. Try with: "
 msgstr ""
+<<<<<<< HEAD
 "Das Format des hochgeladenen Bildes wird nicht unterstützt. Versuchen Sie es"
 " mit:"
+=======
+"Das Format des hochgeladenen Bildes wird nicht unterstützt. Versuchen Sie es "
+"mit:"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -3922,6 +3986,15 @@ msgstr "Test des Web-Editor-Konverters"
 
 #. module: web_editor
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
+msgid "WebP compression not supported on this browser"
+msgstr "WebP-Komprimierung wird von diesem Browser nicht unterstützt."
+
+#. module: web_editor
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Widgets"
@@ -4118,12 +4191,15 @@ msgstr "hinzufügen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "all"
 msgstr "allen"
 
 #. module: web_editor
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4319,6 +4395,7 @@ msgstr "verdunkeln"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "database"
@@ -4441,11 +4518,14 @@ msgstr "Datenbank"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "exclusion"
 msgstr "Ausschluss"
 
 #. module: web_editor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4644,11 +4724,14 @@ msgstr "groß"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "lighten"
 msgstr "aufhellen"
 
 #. module: web_editor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4829,11 +4912,14 @@ msgstr "Mediathek"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "multiply"
 msgstr "multiplizieren"
 
 #. module: web_editor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5020,6 +5106,8 @@ msgstr "Umriss, runder Kreis"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "overlay"
 msgstr "überlagern"
@@ -5031,6 +5119,7 @@ msgid "px"
 msgstr "px"
 
 #. module: web_editor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5211,6 +5300,8 @@ msgstr "runder Kreis"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "screen"
 msgstr "Bildschirm"
@@ -5275,12 +5366,15 @@ msgstr "Bildschirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "sm"
 msgstr "klein"
 
 #. module: web_editor
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

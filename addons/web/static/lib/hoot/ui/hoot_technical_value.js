@@ -9,6 +9,7 @@ import {
     useState,
 } from "@odoo/owl";
 import { isNode, toSelector } from "@web/../lib/hoot-dom/helpers/dom";
+<<<<<<< HEAD
 import { isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
 import { logger } from "../core/logger";
 <<<<<<< HEAD
@@ -83,6 +84,10 @@ import { getTypeOf, Markup, S_ANY, S_NONE, stringify, toExplicitString } from ".
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+import { isInstanceOf, isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
+import { logger } from "../core/logger";
+>>>>>>> upstream/18.0
 import {
     getTypeOf,
     isSafe,
@@ -115,6 +120,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -210,8 +218,13 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const xml = (template, ...substitutions) =>
     owlXml({
+=======
+function xml(template, ...substitutions) {
+    return owlXml({
+>>>>>>> upstream/18.0
 =======
 function xml(template, ...substitutions) {
     return owlXml({
@@ -336,6 +349,10 @@ function xml(template, ...substitutions) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -574,6 +591,10 @@ export class HootTechnicalValue extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.isSafe = isSafe(this.value);
+>>>>>>> upstream/18.0
 =======
             this.isSafe = isSafe(this.value);
 >>>>>>> upstream/18.0
@@ -659,10 +680,17 @@ export class HootTechnicalValue extends Component {
     }
 
     getLabelAndSize() {
+<<<<<<< HEAD
         if (this.value instanceof Date) {
             return [this.value.toISOString(), null];
         }
         if (this.value instanceof RegExp) {
+=======
+        if (isInstanceOf(this.value, Date)) {
+            return [this.value.toISOString(), null];
+        }
+        if (isInstanceOf(this.value, RegExp)) {
+>>>>>>> upstream/18.0
             return [String(this.value), null];
         }
         return [this.value.constructor.name, this.getSize()];
@@ -670,6 +698,7 @@ export class HootTechnicalValue extends Component {
 
     getSize() {
         for (const Class of INVARIABLE_OBJECTS) {
+<<<<<<< HEAD
             if (this.value instanceof Class) {
                 return null;
             }
@@ -818,6 +847,15 @@ export class HootTechnicalValue extends Component {
             return 0;
         }
 >>>>>>> upstream/18.0
+=======
+            if (isInstanceOf(this.value, Class)) {
+                return null;
+            }
+        }
+        if (!this.isSafe) {
+            return 0;
+        }
+>>>>>>> upstream/18.0
         const values = isIterable(this.value) ? [...this.value] : $keys(this.value);
         return values.length;
     }
@@ -842,7 +880,11 @@ export class HootTechnicalValue extends Component {
     }
 
     wrapPromiseValue(promise) {
+<<<<<<< HEAD
         if (!(promise instanceof Promise)) {
+=======
+        if (!isInstanceOf(promise, Promise)) {
+>>>>>>> upstream/18.0
             return;
         }
         this.state.promiseState = ["pending", null];

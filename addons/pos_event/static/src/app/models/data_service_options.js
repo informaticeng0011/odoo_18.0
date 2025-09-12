@@ -27,4 +27,10 @@ patch(DataServiceOptions.prototype, {
     get dynamicModels() {
         return [...super.dynamicModels, "event.registration", "event.registration.answer"];
     },
+<<<<<<< HEAD
+=======
+    get pohibitedAutoLoadedModels() {
+        return [...super.pohibitedAutoLoadedModels, "event.registration"];
+    },
+>>>>>>> upstream/18.0
 });

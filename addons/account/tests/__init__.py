@@ -27,8 +27,15 @@ from . import test_company_branch
 from . import test_digest
 from . import test_download_docs
 from . import test_fiscal_position
+<<<<<<< HEAD
 from . import test_sequence_mixin
 from . import test_tax
+=======
+from . import test_kpi_provider
+from . import test_sequence_mixin
+from . import test_tax
+from . import test_taxes_base_lines_tax_details
+>>>>>>> upstream/18.0
 from . import test_taxes_computation
 from . import test_taxes_tax_totals_summary
 from . import test_invoice_taxes
@@ -102,6 +109,10 @@ from . import test_account_payment_register
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_account_report
+>>>>>>> upstream/18.0
 =======
 from . import test_account_report
 >>>>>>> upstream/18.0
@@ -321,6 +332,7 @@ from . import test_account_move_attachment
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from . import test_account_move_auto_post
 >>>>>>> upstream/18.0
@@ -391,6 +403,11 @@ from . import test_dict_to_xml
 =======
 from . import test_account_move_auto_post
 from . import test_dict_to_xml
+>>>>>>> upstream/18.0
+=======
+from . import test_account_move_auto_post
+from . import test_dict_to_xml
+from . import test_duplicate_res_partner_bank
 >>>>>>> upstream/18.0
 =======
 from . import test_account_move_auto_post

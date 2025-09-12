@@ -4,8 +4,13 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 # Manon Rondou, 2025
+=======
+# Manon Rondou, 2025
+# Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -13,7 +18,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Manon Rondou, 2025\n"
+=======
+"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -241,7 +250,11 @@ msgstr "Einddatum lidmaatschap"
 #. module: membership
 #: model:ir.model.constraint,message:membership.constraint_product_template_membership_date_greater
 msgid "Error! Ending Date cannot be set before Beginning Date."
+<<<<<<< HEAD
 msgstr "Fout! De einddatum kan niet voor de begindatum liggen."
+=======
+msgstr "Fout! De einddatum kan niet voor de startdatum liggen."
+>>>>>>> upstream/18.0
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_report_membership_search
@@ -617,7 +630,11 @@ msgstr "Selecteer als je een gratis lidmaatschap wilt geven."
 #: model_terms:ir.ui.view,arch_db:membership.membership_product_search_form_view
 #: model_terms:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "Start Date"
+<<<<<<< HEAD
 msgstr "Begindatum"
+=======
+msgstr "Startdatum"
+>>>>>>> upstream/18.0
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_res_partner_member_filter

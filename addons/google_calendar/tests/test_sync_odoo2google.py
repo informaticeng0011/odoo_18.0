@@ -23,6 +23,7 @@ from .test_token_access import TestTokenAccess
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('odoo2google')
 =======
 
@@ -47,6 +48,10 @@ from .test_token_access import TestTokenAccess
 =======
 
 @tagged('odoo2google', 'calendar_performance')
+>>>>>>> upstream/18.0
+=======
+
+@tagged('odoo2google', 'calendar_performance', 'is_query_count')
 >>>>>>> upstream/18.0
 @patch.object(User, '_get_google_calendar_token', lambda user: 'dummy-token')
 class TestSyncOdoo2Google(TestSyncGoogle):
@@ -116,7 +121,11 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=615):
+=======
+        with self.assertQueryCount(__system__=526):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(__system__=526):
 >>>>>>> upstream/18.0
@@ -155,10 +164,16 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=29):
             events.unlink()
 
 
+=======
+        with self.assertQueryCount(__system__=24):
+            events.unlink()
+
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(__system__=24):
             events.unlink()
@@ -207,7 +222,11 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=86):
+=======
+        with self.assertQueryCount(__system__=105):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(__system__=105):
 >>>>>>> upstream/18.0
@@ -248,7 +267,11 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=38):
+=======
+        with self.assertQueryCount(__system__=29):  # gc: 34
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(__system__=29):  # gc: 34
 >>>>>>> upstream/18.0
@@ -780,6 +803,7 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> upstream/18.0
 =======
@@ -870,6 +894,8 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1242,6 +1268,7 @@ class TestSyncOdoo2Google(TestSyncGoogle):
         }, timeout=3)
 
     @patch_api
+<<<<<<< HEAD
     def test_event_duplication_allday_google_calendar(self):
         event = self.env['calendar.event'].with_user(self.organizer_user).create({
             'name': "Event",
@@ -1423,6 +1450,10 @@ class TestSyncOdoo2Google(TestSyncGoogle):
     @patch_api
     @patch.object(User, '_sync_request')
     def test_skip_sync_for_non_synchronized_users_new_events(self, mock_sync_request):
+=======
+    @patch.object(User, '_sync_request')
+    def test_skip_google_sync_for_non_synchronized_users_new_events(self, mock_sync_request):
+>>>>>>> upstream/18.0
         """
         Skip the synchro of new events by attendees when the organizer is not synchronized with Google.
         Otherwise, the event ownership will be lost to the attendee and it could generate duplicates in
@@ -1513,6 +1544,7 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1590,6 +1622,47 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    @patch_api
+    def test_event_duplication_allday_google_calendar(self):
+        event = self.env['calendar.event'].with_user(self.organizer_user).create({
+            'name': "Event",
+            'allday': True,
+            'partner_ids': [(4, self.organizer_user.partner_id.id), (4, self.attendee_user.partner_id.id)],
+            'start': datetime(2020, 1, 15),
+            'stop': datetime(2020, 1, 15),
+            'need_sync': False,
+        })
+        event._sync_odoo2google(self.google_service)
+        event_response_data = {
+            'id': False,
+            'start': {'date': '2020-01-15', 'dateTime': None},
+            'end': {'date': '2020-01-16', 'dateTime': None},
+            'summary': 'Event',
+            'description': '',
+            'location': '',
+            'guestsCanModify': True,
+            'organizer': {'email': self.organizer_user.email, 'self': True},
+            'attendees': [
+                            {'email': self.attendee_user.email, 'responseStatus': 'needsAction'},
+                            {'email': self.organizer_user.email, 'responseStatus': 'accepted'}
+                         ],
+            'reminders': {'overrides': [], 'useDefault': False},
+            'transparency': 'opaque',
+        }
+        self.assertGoogleEventInsertedMultiTime({
+            **event_response_data,
+            'extendedProperties': {'shared': {'%s_odoo_id' % self.env.cr.dbname: event.id}},
+        })
+
+        event2 = event.copy()
+        event2._sync_odoo2google(self.google_service)
+        self.assertGoogleEventInsertedMultiTime({
+            **event_response_data,
+            'extendedProperties': {'shared': {'%s_odoo_id' % self.env.cr.dbname: event2.id}},
+        })
+
 >>>>>>> upstream/18.0
     def test_event_over_send_updates(self):
         """Test that events that are over don't sent updates to attendees."""
@@ -1691,6 +1764,7 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1725,6 +1799,9 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
 >>>>>>> upstream/18.0
 =======
 

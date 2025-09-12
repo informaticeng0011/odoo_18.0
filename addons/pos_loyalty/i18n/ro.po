@@ -3,10 +3,16 @@
 # 	* pos_loyalty
 # 
 # Translators:
+<<<<<<< HEAD
 # Lyall Kindmurr, 2024
 # Corina Calin, 2024
 # Wil Odoo, 2024
 # Betty Keresztesi, 2025
+=======
+# Corina Calin, 2024
+# Wil Odoo, 2024
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -14,7 +20,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Betty Keresztesi, 2025\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,7 +63,11 @@ msgstr "15% la comanda dvs"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "A better global discount is already applied."
+<<<<<<< HEAD
 msgstr "Un discount global mai bun este deja aplicat."
+=======
+msgstr "O reducere globală mai bună este deja aplicată."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -65,7 +79,11 @@ msgstr "Un cupon/card de fidelitate trebuie să aibă un cod unic."
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "A reward could not be loaded"
+<<<<<<< HEAD
 msgstr "Nu s-a putut încărca o recompensă"
+=======
+msgstr "O recompensă nu a putut fi încărcată"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__promo_barcode
@@ -73,20 +91,33 @@ msgid ""
 "A technical field used as an alternative to the promo code. This is "
 "automatically generated when the promo code is changed."
 msgstr ""
+<<<<<<< HEAD
 "Un câmp tehnic utilizat ca alternativă la codul promoțional. Acesta este "
 "generat automat atunci când codul promoțional este modificat."
+=======
+"Un câmp tehnic folosit ca alternativă la codul promoțional. Acesta este "
+"generat automat când codul promoțional este modificat."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_res_partner__loyalty_card_count
 #: model:ir.model.fields,field_description:pos_loyalty.field_res_users__loyalty_card_count
 msgid "Active loyalty cards"
+<<<<<<< HEAD
 msgstr "Carduri de fidelitate active"
+=======
+msgstr "Carduri de loialitate active"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/utils/manage_giftcard_popup/manage_giftcard_popup.xml:0
 msgid "Add Balance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adaugă sold"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model_terms:ir.ui.view,arch_db:pos_loyalty.loyalty_program_view_form_inherit_pos_loyalty
@@ -112,13 +143,21 @@ msgid ""
 " You will still be able to claim it through the reward button."
 msgstr ""
 "Sunteți sigur că doriți să eliminați %s din această comandă?\n"
+<<<<<<< HEAD
 " Veți putea în continuare să îl revendicați prin intermediul butonului de recompensă."
+=======
+" Veți putea în continuare să îl revendicați prin butonul de recompensă."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "Available rewards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Recompense disponibile"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -141,7 +180,11 @@ msgstr "Regulă cod de bare"
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_res_partner
 msgid "Contact"
+<<<<<<< HEAD
 msgstr "Contactați"
+=======
+msgstr "Contact"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_pos_order_line__coupon_id
@@ -153,12 +196,20 @@ msgstr "Cupon"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/order_receipt/order_receipt.xml:0
 msgid "Coupon Codes"
+<<<<<<< HEAD
 msgstr "Coduri promoționale"
+=======
+msgstr "Coduri de cupon"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:loyalty.program,portal_point_name:pos_loyalty.15_pc_on_next_order
 msgid "Coupon point(s)"
+<<<<<<< HEAD
 msgstr "Punct(e) promoționale"
+=======
+msgstr "Punct(e) cupon"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -170,25 +221,41 @@ msgstr "Sold curent:"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/order_receipt/order_receipt.xml:0
 msgid "Customer"
+<<<<<<< HEAD
 msgstr "ClientClient"
+=======
+msgstr "Client"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "Customer needed"
+<<<<<<< HEAD
 msgstr "Completare Client necesar"
+=======
+msgstr "Client necesar"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "Deactivating reward"
+<<<<<<< HEAD
 msgstr "Dezactivarea recompensei"
+=======
+msgstr "Dezactivare recompensă"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.ui.menu,name:pos_loyalty.menu_discount_loyalty_type_config
 #: model_terms:ir.ui.view,arch_db:pos_loyalty.res_config_view_form_inherit_pos_loyalty
 msgid "Discount & Loyalty"
+<<<<<<< HEAD
 msgstr "Discount și loialitate"
+=======
+msgstr "Reducere și loialitate"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -201,13 +268,21 @@ msgstr "Introduceți codul"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "Enter Gift Card Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Introduceți numărul cardului cadou"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/utils/manage_giftcard_popup/manage_giftcard_popup.xml:0
 msgid "Enter amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Introduceți suma"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -257,39 +332,65 @@ msgstr "Carduri cadou și portofel electronic"
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__points_cost
 msgid "How many point this reward cost on the coupon."
+<<<<<<< HEAD
 msgstr "Câte puncte valorează această recompensă pe cupon."
+=======
+msgstr "Câte puncte costă această recompensă pe cupon."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Invalid gift card program reward. Use 1 currency per point discount."
 msgstr ""
+<<<<<<< HEAD
 "Recompensă card cadou invalidă. Utilizați 1 monedă per punct de reducere."
+=======
+"Recompensă invalidă pentru programul de carduri cadou. Folosiți 1 monedă per"
+" punct de reducere."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Invalid gift card program rule. Use 1 point per currency spent."
 msgstr ""
+<<<<<<< HEAD
 "Regulă card cadou invalidă. Utilizați 1 punct pentru fiecare monedă "
 "cheltuită."
+=======
+"Regulă invalidă pentru programul de carduri cadou. Folosiți 1 punct pentru "
+"fiecare monedă cheltuită."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Invalid gift card program. More than one reward."
+<<<<<<< HEAD
 msgstr "Card cadou invalid. Mai mult de o recompensă."
+=======
+msgstr "Program de carduri cadou invalid. Mai mult de o recompensă."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Invalid gift card program. More than one rule."
+<<<<<<< HEAD
 msgstr "Card cadou invalid. Mai mult de o singură regulă."
+=======
+msgstr "Program de carduri cadou invalid. Mai mult de o regulă."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_pos_order_line__is_reward_line
 msgid "Is Reward Line"
+<<<<<<< HEAD
 msgstr "Este o linie de recompensă"
+=======
+msgstr "Este linie de recompensă"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_loyalty_mail
@@ -304,7 +405,11 @@ msgstr "Cupon de loialitate"
 #. module: pos_loyalty
 #: model:loyalty.program,portal_point_name:pos_loyalty.loyalty_program
 msgid "Loyalty Points"
+<<<<<<< HEAD
 msgstr "Puncte de Loialitate"
+=======
+msgstr "Puncte de loialitate"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_loyalty_program
@@ -320,7 +425,11 @@ msgstr "Recompensă de loialitate"
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_loyalty_rule
 msgid "Loyalty Rule"
+<<<<<<< HEAD
 msgstr "Regulă Loialitate"
+=======
+msgstr "Regulă de loialitate"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -332,7 +441,11 @@ msgstr "Nu"
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "No reward can be claimed with this coupon."
+<<<<<<< HEAD
 msgstr "Nici o recompensă nu poate fi revendicată cu acest cupon."
+=======
+msgstr "Nicio recompensă nu poate fi revendicată cu acest cupon."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -344,18 +457,30 @@ msgstr "Nu s-a găsit niciun eWallet valid"
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_order.py:0
 msgid "Onsite %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "La fața locului %s"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "Please select a product for this reward"
+<<<<<<< HEAD
 msgstr "Selectați un produs pentru această recompensă"
+=======
+msgstr "Vă rugăm să selectați un produs pentru această recompensă"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pos_order_count
 msgid "PoS Order Count"
+<<<<<<< HEAD
 msgstr "Numărul de comenzi PoS"
+=======
+msgstr "Număr comenzi PoS"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_card__source_pos_order_id
@@ -376,17 +501,29 @@ msgstr "Punct de vânzare"
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_pos_config
 msgid "Point of Sale Configuration"
+<<<<<<< HEAD
 msgstr "Configurarea Punctului de Vânzare"
+=======
+msgstr "Configurare Punct de vânzare"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_pos_order_line
 msgid "Point of Sale Order Lines"
+<<<<<<< HEAD
 msgstr "Liniile Punctului de vânzare"
+=======
+msgstr "Linii comandă Punct de vânzare"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_pos_order
 msgid "Point of Sale Orders"
+<<<<<<< HEAD
 msgstr "Comenzile Punctului de vânzare"
+=======
+msgstr "Comenzi Punct de vânzare"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_pos_session
@@ -396,7 +533,11 @@ msgstr "Sesiune Punct de vânzare"
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pos_config_ids
 msgid "Point of Sales"
+<<<<<<< HEAD
 msgstr "Punct de Vânzare"
+=======
+msgstr "Puncte de vânzare"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -407,36 +548,60 @@ msgstr "Puncte"
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_pos_order_line__points_cost
 msgid "Points Cost"
+<<<<<<< HEAD
 msgstr "Costul în puncte"
+=======
+msgstr "Cost în puncte"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_mail__pos_report_print_id
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pos_report_print_id
 msgid "Print Report"
+<<<<<<< HEAD
 msgstr "Tipărire raport"
+=======
+msgstr "Tipărește raport"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_product_product
 msgid "Product Variant"
+<<<<<<< HEAD
 msgstr "Variantă de produs"
+=======
+msgstr "Variantă produs"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Program: %(name)s, Reward Product: `%(reward_product)s`"
+<<<<<<< HEAD
 msgstr "Program: %(name)s, Produs recompensă: `%(reward_product)s``"
+=======
+msgstr "Program: %(name)s, Produs recompensă: `%(reward_product)s`"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Program: %(name)s, Rule Product: `%(rule_product)s`"
+<<<<<<< HEAD
 msgstr "Program: %(name)s, Regulă produs: `%(rule_product)s`"
+=======
+msgstr "Program: %(name)s, Produs regulă: `%(rule_product)s`"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "Refund with eWallet"
+<<<<<<< HEAD
 msgstr "Rambursare cu portofel electronic (eWallet)"
+=======
+msgstr "Rambursează cu eWallet"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -445,19 +610,32 @@ msgid ""
 "Refunding a top up or reward product for an eWallet or gift card program is "
 "not allowed."
 msgstr ""
+<<<<<<< HEAD
 "Nu este permisă rambursarea unui produs returnat sau plătit cu puncte de "
 "loialitate cu eWallet sau cu card cadou."
+=======
+"Rambursarea unui produs de încărcare sau recompensă pentru un program "
+"eWallet sau card cadou nu este permisă."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "Reset Programs"
+<<<<<<< HEAD
 msgstr "Resetare programe"
+=======
+msgstr "Resetează programe"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__pos_config_ids
 msgid "Restrict publishing to those shops."
+<<<<<<< HEAD
 msgstr "Limitați publicarea la magazinele respective."
+=======
+msgstr "Restricționează publicarea la aceste magazine."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -475,19 +653,31 @@ msgstr "Cod identificare recompensă"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "Select program"
+<<<<<<< HEAD
 msgstr "Selectare program"
+=======
+msgstr "Selectează program"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.xml:0
 msgid "Sell physical gift card?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vindeți card cadou fizic?"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "Sell/Manage physical gift card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vinde/Gestionează card cadou fizic"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:product.template,name:pos_loyalty.simple_pen_product_template
@@ -501,7 +691,11 @@ msgid ""
 "Some coupons are invalid. The applied coupons have been updated. Please "
 "check the order."
 msgstr ""
+<<<<<<< HEAD
 "Unele cupoane nu sunt valabile. Cupoanele folosite au fost actualizate. Vă "
+=======
+"Unele cupoane nu sunt valide. Cupoanele aplicate au fost actualizate. Vă "
+>>>>>>> upstream/18.0
 "rugăm să verificați comanda."
 
 #. module: pos_loyalty
@@ -513,19 +707,31 @@ msgstr "Cheltuit:"
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__any_product
 msgid "Technical field, whether all product match"
+<<<<<<< HEAD
 msgstr "Domeniul tehnic, dacă toate produsele coincid"
+=======
+msgstr "Câmp tehnic, dacă toate produsele se potrivesc"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That coupon code has already been scanned and activated."
+<<<<<<< HEAD
 msgstr "Acest cod promoțional a fost deja scanat și activat."
+=======
+msgstr "Acest cod de cupon a fost deja scanat și activat."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program has already been activated."
+<<<<<<< HEAD
 msgstr "Acest program de coduri promoționale a fost deja activat."
+=======
+msgstr "Acest program de cod promoțional a fost deja activat."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -537,19 +743,31 @@ msgstr "Acest program de cod promoțional a expirat."
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program is not yet valid."
+<<<<<<< HEAD
 msgstr "Acest cod promoțional nu este încă valabil."
+=======
+msgstr "Acest program de cod promoțional nu este încă valabil."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program requires a specific pricelist."
 msgstr ""
+<<<<<<< HEAD
 "Acest program de coduri promoționale necesită o listă de prețuri specifică."
+=======
+"Acest program de cod promoțional necesită o listă de prețuri specifică."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__coupon_id
 msgid "The coupon used to claim that reward."
+<<<<<<< HEAD
 msgstr "Cuponul utilizat pentru a revendica acea recompensă."
+=======
+msgstr "Cuponul folosit pentru a revendica acea recompensă."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -567,8 +785,13 @@ msgid ""
 "The report action to be executed when creating a coupon/gift card/loyalty "
 "card in the PoS."
 msgstr ""
+<<<<<<< HEAD
 "Acțiunea de raportare care trebuie executată la crearea unui cupon/card "
 "cadou/card de fidelitate în PoS."
+=======
+"Acțiunea de raport care trebuie executată la crearea unui cupon/card "
+"cadou/card de loialitate în PoS."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -577,8 +800,13 @@ msgid ""
 "The reward \"%s\" contain an error in its domain, your domain must be "
 "compatible with the PoS client"
 msgstr ""
+<<<<<<< HEAD
 "Recompensa \"%s\" conține o eroare în domeniul său, domeniul dumneavoastră "
 "trebuie să fie compatibil cu clientul PoS"
+=======
+"Recompensa \"%s\" conține o eroare în domeniul său, domeniul dvs. trebuie să"
+" fie compatibil cu clientul PoS"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_id
@@ -589,27 +817,43 @@ msgstr "Recompensa asociată acestei linii."
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "The reward could not be applied."
+<<<<<<< HEAD
 msgstr "Recompensa nu poate fi aplicată."
+=======
+msgstr "Recompensa nu a putut fi aplicată."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_order.py:0
 msgid "There are not enough points for the coupon: %s."
+<<<<<<< HEAD
 msgstr "Nu există suficiente puncte pentru cuponul: %s."
+=======
+msgstr "Nu sunt suficiente puncte pentru cuponul: %s."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "There are not enough points on the coupon to claim this reward."
 msgstr ""
+<<<<<<< HEAD
 "Nu există suficiente puncte pe cupon pentru a revendica această recompensă."
+=======
+"Nu sunt suficiente puncte pe cupon pentru a revendica această recompensă."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "There are not enough products in the basket to claim this reward."
 msgstr ""
+<<<<<<< HEAD
 "Nu există suficiente produse în coș pentru a revendica această recompensă."
+=======
+"Nu sunt suficiente produse în coș pentru a revendica această recompensă."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -618,8 +862,13 @@ msgid ""
 "There is no email template on the gift card program and your pos is set to "
 "print them."
 msgstr ""
+<<<<<<< HEAD
 "Nu există niciun șablon de e-mail în programul de carduri cadou, iar pos-ul "
 "dvs. este setat să le tipărească."
+=======
+"Nu există niciun șablon de e-mail pentru programul de carduri cadou, iar "
+"PoS-ul dvs. este setat să le tipărească."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -629,18 +878,30 @@ msgid ""
 "print them."
 msgstr ""
 "Nu există niciun raport de tipărire pentru programul de carduri cadou, iar "
+<<<<<<< HEAD
 "pos-ul dvs. este setat să le tipărească."
+=======
+"PoS-ul dvs. este setat să le tipărească."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__valid_product_ids
 msgid "These are the products that are valid for this rule."
+<<<<<<< HEAD
 msgstr "Acestea sunt produsele care sunt valabile pentru această regulă."
+=======
+msgstr "Acestea sunt produsele valabile pentru această regulă."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "This Gift card has already been sold."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acest card cadou a fost deja vândut."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -652,7 +913,11 @@ msgstr "Acest cupon este expirat (%s)."
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This coupon is invalid (%s)."
+<<<<<<< HEAD
 msgstr "Acest cupon este nevalid (%s)."
+=======
+msgstr "Acest cupon nu este valid (%s)."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -673,20 +938,33 @@ msgid ""
 "This gift card is not linked to any order. Do you really want to apply its "
 "reward?"
 msgstr ""
+<<<<<<< HEAD
 "Acest card cadou nu este asociat cu nicio comandă. Chiar doriți să aplicați "
 "recompensa acesteia?"
+=======
+"Acest card cadou nu este asociat cu nicio comandă. Sigur doriți să aplicați "
+"recompensa acestuia?"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__pos_report_print_id
 msgid "This is used to print the generated gift cards from PoS."
 msgstr ""
+<<<<<<< HEAD
 "Aceasta este utilizată pentru a imprima cardurile cadou generate de la PoS."
+=======
+"Aceasta este folosită pentru a tipări cardurile cadou generate din PoS."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This programs requires a code to be applied."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acest program necesită aplicarea unui cod."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -694,8 +972,13 @@ msgstr ""
 msgid ""
 "To continue, make the following reward products available in Point of Sale."
 msgstr ""
+<<<<<<< HEAD
 "Pentru a continua, puneți la dispoziție următoarele produse de recompensare "
 "în punctul de vânzare."
+=======
+"Pentru a continua, puneți la dispoziție următoarele produse de recompensă în"
+" Punctul de Vânzare."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_barcode_rule__type
@@ -724,7 +1007,11 @@ msgstr "Card cadou neachitat respins."
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "Use eWallet to pay"
+<<<<<<< HEAD
 msgstr "Utilizați eWallet pentru a plăti"
+=======
+msgstr "Folosiți eWallet pentru a plăti"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__valid_product_ids
@@ -746,13 +1033,21 @@ msgstr "Eroare de validare"
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__is_reward_line
 msgid "Whether this line is part of a reward or not."
+<<<<<<< HEAD
 msgstr "Indiferent dacă această linie face parte dintr-o recompensă sau nu."
+=======
+msgstr "Dacă această linie face parte dintr-o recompensă sau nu."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/order_receipt/order_receipt.xml:0
 msgid "Won:"
+<<<<<<< HEAD
 msgstr "Câștigător:"
+=======
+msgstr "Câștigat:"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -766,22 +1061,34 @@ msgstr "Da"
 msgid "You cannot set negative quantity or price to gift card or ewallet."
 msgstr ""
 "Nu puteți seta o cantitate sau un preț negativ pentru cardul cadou sau "
+<<<<<<< HEAD
 "ewallet."
+=======
+"eWallet."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid ""
 "You either have not created an eWallet or all your eWallets have expired."
+<<<<<<< HEAD
 msgstr ""
 "Fie nu ați creat un portofel electronic, fie toate portofelele dvs. "
 "electronice au expirat."
+=======
+msgstr "Fie nu ați creat un eWallet, fie toate eWallet-urile dvs. au expirat."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/loyalty_program.py:0
 msgid "You must set '%(mail_template)s' before setting '%(report)s'."
+<<<<<<< HEAD
 msgstr "Trebuie să setați \"%(mail_template)s\" înainte de a seta \"%(report)s\"."
+=======
+msgstr "Trebuie să setați '%(mail_template)s' înainte de a seta '%(report)s'."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -793,28 +1100,48 @@ msgstr "eWallet"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "eWallet Pay"
+<<<<<<< HEAD
 msgstr "plată eWallet"
+=======
+msgstr "Plată eWallet"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "eWallet Refund"
+<<<<<<< HEAD
 msgstr "rambursare eWallet"
+=======
+msgstr "Rambursare eWallet"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "eWallet requires a customer to be selected"
+<<<<<<< HEAD
 msgstr "eWallet solicită selectarea unui client"
+=======
+msgstr "eWallet necesită selectarea unui client"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/order_receipt/order_receipt.xml:0
 msgid "no expiration"
+<<<<<<< HEAD
 msgstr "fără dată de expirare"
+=======
+msgstr "fără expirare"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "the gift cards"
+<<<<<<< HEAD
 msgstr "carduri cadou"
+=======
+msgstr "cardurile cadou"
+>>>>>>> upstream/18.0

@@ -1,17 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* product
 # 
+=======
+# * product
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Trigaux, 2024
 # 226408 台北 <226408@so8d.com>, 2024
 # Wil Odoo, 2024
 # Tony Ng, 2025
+<<<<<<< HEAD
 # 
+=======
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157,6 +167,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"POT-Creation-Date: 2025-05-14 20:47+0000\n"
+"PO-Revision-Date: 2025-08-22 22:20+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
+"projects/odoo-18/product/zh_Hant/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -445,8 +468,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>儲存</strong>本頁，然後返回\n"
 "                                此處，以設定功能。"
+=======
+"請<strong>儲存</strong>變更，然後返回此處，\n"
+"                                進一步設定功能。"
+>>>>>>> upstream/18.0
 =======
 "請<strong>儲存</strong>變更，然後返回此處，\n"
 "                                進一步設定功能。"
@@ -548,7 +576,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您想與客戶溝通的產品說明。 此說明將被複製到每個銷售訂單，交貨訂單和客戶憑單/折讓單"
+=======
+msgstr "你希望傳達給客戶的產品描述。此描述將會複製至每份銷售單、送貨單，以及客戶發票/退款單。"
+>>>>>>> upstream/18.0
 =======
 msgstr "你希望傳達給客戶的產品描述。此描述將會複製至每份銷售單、送貨單，以及客戶發票/退款單。"
 >>>>>>> upstream/18.0
@@ -798,10 +830,15 @@ msgstr "使用此標籤的所有產品變體"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
@@ -1061,7 +1098,11 @@ msgstr "屬性"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__attribute_line_id
 msgid "Attribute Line"
+<<<<<<< HEAD
 msgstr "屬性明細"
+=======
+msgstr "屬性資料行"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
@@ -1883,7 +1924,11 @@ msgstr "具有此屬性值的變體在銷售價格上的額外價格.例如.200 
 #. module: product
 #: model:product.attribute,name:product.fabric_attribute
 msgid "Fabric"
+<<<<<<< HEAD
 msgstr "Fabric"
+=======
+msgstr "材質"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__is_favorite
@@ -2065,7 +2110,12 @@ msgstr "有訊息"
 msgid ""
 "Here you can set a specific HTML color index (e.g. #ff0000) to display the "
 "color if the attribute type is 'Color'."
+<<<<<<< HEAD
 msgstr "在這裡，您可以設定特定的 HTML 色彩索引(例如#ff0000)，如果屬性類型為\"Color\"，則可以顯示顏色."
+=======
+msgstr "若屬性類型是「顏色」，你可在此處設定 HTML 色彩索引（例如 "
+"#ff0000），用以顯示指定顏色。"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_form
@@ -2244,7 +2294,11 @@ msgstr "個人工作站"
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__create_variant__always
 msgid "Instantly"
+<<<<<<< HEAD
 msgstr "即刻"
+=======
+msgstr "即時"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
@@ -2394,7 +2448,11 @@ msgstr "腿部"
 #: model:ir.model.fields,field_description:product.field_product_attribute__attribute_line_ids
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__pav_attribute_line_ids
 msgid "Lines"
+<<<<<<< HEAD
 msgstr "明細列表"
+=======
+msgstr "資料行"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_local_delivery_product_template
@@ -3195,7 +3253,11 @@ msgstr "產品模板屬性排除"
 #. module: product
 #: model:ir.model,name:product.model_product_template_attribute_line
 msgid "Product Template Attribute Line"
+<<<<<<< HEAD
 msgstr "產品模板屬性明細行"
+=======
+msgstr "產品範本屬性資料行"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_template_attribute_value
@@ -3348,7 +3410,11 @@ msgid "Purchase Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "採購說明"
+=======
+msgstr "採購描述"
+>>>>>>> upstream/18.0
 =======
 msgstr "採購描述"
 >>>>>>> upstream/18.0
@@ -3619,7 +3685,11 @@ msgid "Services"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "服務介紹"
+=======
+msgstr "服務"
+>>>>>>> upstream/18.0
 =======
 msgstr "服務"
 >>>>>>> upstream/18.0
@@ -4254,12 +4324,20 @@ msgstr "使用者名"
 #: model:ir.model.fields,field_description:product.field_product_product__valid_product_template_attribute_line_ids
 #: model:ir.model.fields,field_description:product.field_product_template__valid_product_template_attribute_line_ids
 msgid "Valid Product Attribute Lines"
+<<<<<<< HEAD
 msgstr "有效的產品屬性明細"
+=======
+msgstr "有效的產品屬性資料行"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
 msgid "Validity"
+<<<<<<< HEAD
 msgstr "驗證"
+=======
+msgstr "有效期"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -4499,7 +4577,11 @@ msgstr "重量計量單位標籤"
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_3
 msgid "White"
+<<<<<<< HEAD
 msgstr "白"
+=======
+msgstr "白色"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_color_wood

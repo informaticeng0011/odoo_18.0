@@ -25,7 +25,11 @@ class MockVisitor(common.BaseCase):
             yield
 
 
+<<<<<<< HEAD
 @tagged('-at_install', 'post_install', 'website_visitor')
+=======
+@tagged('-at_install', 'post_install', 'website_visitor', 'is_query_count')
+>>>>>>> upstream/18.0
 class WebsiteVisitorTestsCommon(MockVisitor, HttpCaseWithUserDemo):
 
     def setUp(self):

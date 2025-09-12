@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account_edi_ubl_cii
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -336,10 +337,18 @@
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Rasareeyar Lappiam, 2025
+# Wil Odoo, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -744,12 +753,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: th\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1013,6 +1033,11 @@ msgstr ""
 "e-address (EAS code 0106 or 0190)."
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"%s should have a KVK or OIN number set in Company ID field or as Peppol e-"
+"address (EAS code 0106 or 0190)."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
@@ -1020,11 +1045,14 @@ msgid "1.0"
 msgstr "1.0"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_facturx_export_22
 msgid "42"
 msgstr "42"
 
 #. module: account_edi_ubl_cii
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "A payment of %s was detected."
@@ -1032,13 +1060,19 @@ msgstr "ตรวจพบการชำระเงินของ %s "
 
 #. module: account_edi_ubl_cii
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "A rounding amount of %s was detected."
 msgstr ""
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:account_edi_ubl_cii.model_account_edi_xml_ubl_a_nz
 msgid "A-NZ BIS Billing 3.0"
@@ -1079,7 +1113,10 @@ msgstr "A-NZ BIS Billing 3.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1184,6 +1221,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1275,8 +1315,13 @@ msgstr "บทความ 226 ข้อ 11 ถึง 15 Directive 2006/112/EN"
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid ""
+<<<<<<< HEAD
 "At least one of the following fields %(field_list)s is required on "
 "%(record)s."
+=======
+"At least one of the following fields %(field_list)s is required on %"
+"(record)s."
+>>>>>>> upstream/18.0
 msgstr "ต้องมีฟิลด์ %(field_list)s อย่างน้อยหนึ่งฟิลด์ต่อไปนี้ใน %(record)s"
 
 #. module: account_edi_ubl_cii
@@ -1291,6 +1336,14 @@ msgid "Australia ABN"
 msgstr "ABN ประเทศออสเตรเลีย"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__ubl_a_nz
+msgid "Australia BIS Billing 3.0 A-NZ"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9914
 msgid "Austria UID"
 msgstr "UID ประเทศออสเตรีย"
@@ -1301,6 +1354,7 @@ msgid "Austria VOKZ"
 msgstr "VOKZ ประเทศออสเตรีย"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__ubl_bis3
 msgid "BIS Billing 3.0"
 msgstr "BIS Billing 3.0"
@@ -1314,6 +1368,12 @@ msgstr "BIS Billing 3.0 A-NZ"
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__ubl_sg
 msgid "BIS Billing 3.0 SG"
 msgstr "BIS Billing 3.0 SG"
+=======
+#: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_partner__available_peppol_eas
+#: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_users__available_peppol_eas
+msgid "Available Peppol Eas"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model,name:account_edi_ubl_cii.model_account_edi_xml_ubl_de
@@ -1356,7 +1416,12 @@ msgstr "ตรวจสอบพาร์ทเนอร์"
 #: model:ir.model.fields,help:account_edi_ubl_cii.field_res_users__peppol_eas
 msgid ""
 "Code used to identify the Endpoint for BIS Billing 3.0 and its derivatives.\n"
+<<<<<<< HEAD
 "             List available at https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
+=======
+"             List available at https://docs.peppol.eu/poacc/billing/3.0/"
+"codelist/eas/"
+>>>>>>> upstream/18.0
 msgstr ""
 "รหัสที่ใช้ระบุปลายทางสำหรับ BIS Billing 3.0 และอนุพันธ์\n"
 "             ดูรายชื่อได้ที่ https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
@@ -1400,18 +1465,29 @@ msgstr "ติดต่อ"
 msgid ""
 "Could not retrieve a partner corresponding to '%s'. A new partner was "
 "created."
+<<<<<<< HEAD
 msgstr ""
 "ไม่สามารถดึงข้อมูลพาร์ทเนอร์ที่สอดคล้องกับ '%s' สร้างพาร์ทเนอร์ใหม่แล้ว"
+=======
+msgstr "ไม่สามารถดึงข้อมูลพาร์ทเนอร์ที่สอดคล้องกับ '%s' สร้างพาร์ทเนอร์ใหม่แล้ว"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid ""
+<<<<<<< HEAD
 "Could not retrieve currency: %s. Did you enable the multicurrency option and"
 " activate the currency?"
 msgstr ""
 "ไม่สามารถดึงข้อมูลสกุลเงิน: %s "
 "คุณได้เปิดใช้งานตัวเลือกหลายสกุลเงินและเปิดใช้งานสกุลเงินหรือไม่?"
+=======
+"Could not retrieve currency: %s. Did you enable the multicurrency option and "
+"activate the currency?"
+msgstr ""
+"ไม่สามารถดึงข้อมูลสกุลเงิน: %s คุณได้เปิดใช้งานตัวเลือกหลายสกุลเงินและเปิดใช้งานสกุลเงินหรือไม่?"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -1423,14 +1499,22 @@ msgstr "ไม่สามารถเรียกข้อมูลภาษี
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "Could not retrieve the tax: %(tax_percentage)s %% for line '%(line)s'."
+<<<<<<< HEAD
 msgstr ""
 "ไม่สามารถเรียกข้อมูลภาษี: %(tax_percentage)s %% สำหรับบรรทัด '%(line)s' ได้"
+=======
+msgstr "ไม่สามารถเรียกข้อมูลภาษี: %(tax_percentage)s %% สำหรับบรรทัด '%(line)s' ได้"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
+<<<<<<< HEAD
 msgid ""
 "Could not retrieve the tax: %s for the document level allowance/charge."
+=======
+msgid "Could not retrieve the tax: %s for the document level allowance/charge."
+>>>>>>> upstream/18.0
 msgstr "ไม่สามารถเรียกข้อมูลภาษี: %s สำหรับค่าเผื่อ/ค่าธรรมเนียมระดับเอกสาร"
 
 #. module: account_edi_ubl_cii
@@ -1489,6 +1573,14 @@ msgid "EN 16931"
 msgstr "EN 16931"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__ubl_bis3
+msgid "EU Standard (Peppol Bis 3.0)"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid "Each invoice line shall have one and only one tax."
@@ -1541,7 +1633,10 @@ msgstr "แต่ละบรรทัดใบแจ้งหนี้ควร
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1646,6 +1741,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1744,7 +1842,10 @@ msgstr "ภาษีมูลค่าเพิ่มของประเทศ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1787,6 +1888,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1816,11 +1920,14 @@ msgid "Export outside the EU"
 msgstr "ส่งออกนอกสหภาพยุโรป"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__facturx
 msgid "Factur-X (CII)"
 msgstr "Factur-X (CII)"
 
 #. module: account_edi_ubl_cii
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account_edi_ubl_cii.model_account_edi_xml_cii
 msgid "Factur-x/XRechnung CII 2.2.0"
 msgstr "Factur-x/XRechnung CII 2.2.0"
@@ -1860,7 +1967,10 @@ msgstr "Factur-x/XRechnung CII 2.2.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1965,6 +2075,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2052,9 +2165,13 @@ msgstr "ภาษีมูลค่าเพิ่มของประเทศ
 msgid ""
 "For intracommunity supply, the actual delivery date or the invoicing period "
 "should be included."
+<<<<<<< HEAD
 msgstr ""
 "สำหรับการจัดหาภายในคอมมูนิตี้ "
 "ควรระบุวันที่จัดส่งจริงหรือระยะเวลาการออกใบแจ้งหนี้ด้วย"
+=======
+msgstr "สำหรับการจัดหาภายในคอมมูนิตี้ ควรระบุวันที่จัดส่งจริงหรือระยะเวลาการออกใบแจ้งหนี้ด้วย"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -2069,6 +2186,24 @@ msgid "Format used to import the invoice: %s"
 msgstr "รูปแบบที่ใช้ในการนำเข้าใบแจ้งหนี้: %s"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__facturx
+msgid "France (FacturX)"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0225
+msgid "France FRCTC Electronic Address"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0240
+msgid "France Register of legal persons"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0002
 msgid "France SIRENE"
 msgstr "SIRENE ประเทศฝรั่งเศส"
@@ -2089,6 +2224,14 @@ msgid "GS1 identification keys"
 msgstr "คีย์ระบุ GS1"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__xrechnung
+msgid "Germany (XRechnung)"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0204
 msgid "Germany Leitweg-ID"
 msgstr "รหัสเส้นทางประเทศเยอรมนี"
@@ -2177,6 +2320,14 @@ msgid "Kennziffer des Unternehmensregisters"
 msgstr "เลขประจำตัวผู้จดทะเบียนบริษัท"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0218
+msgid "Latvia Unified registration number"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9939
 msgid "Latvia VAT"
 msgstr "ภาษีมูลค่าเพิ่มของประเทศลัตเวีย"
@@ -2233,8 +2384,13 @@ msgstr "ภาษีมูลค่าเพิ่มของประเทศ
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__nlcius
+<<<<<<< HEAD
 msgid "NLCIUS"
 msgstr "NLCIUS"
+=======
+msgid "Netherlands (NLCIUS)"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0106
@@ -2298,7 +2454,10 @@ msgstr "Org.nr. ประเทศนอร์เวย์"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2403,6 +2562,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2552,7 +2714,10 @@ msgstr "Peppol Endpoint"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2753,6 +2918,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2980,7 +3148,10 @@ msgstr "ภาษีมูลค่าเพิ่มของประเทศ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3181,6 +3352,9 @@ msgstr "การดําเนินการรายงาน"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3318,13 +3492,19 @@ msgstr "ภาษีมูลค่าเพิ่มของประเทศ
 
 #. module: account_edi_ubl_cii
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "Rounding"
 msgstr "การปัดเศษ"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9918
 msgid "S.W.I.F.T"
@@ -3361,6 +3541,14 @@ msgid "Serbia VAT"
 msgstr "ภาษีมูลค่าเพิ่มของประเทศเซอร์เบีย"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__ubl_sg
+msgid "Singapore BIS Billing 3.0 SG"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0195
 msgid "Singapore UEN"
 msgstr "UEN ประเทศสิงคโปร์"
@@ -3435,9 +3623,13 @@ msgstr "ตำแหน่งข้อมูล Peppol ไม่ถูกต้�
 msgid ""
 "The VAT number of the supplier does not seem to be valid. It should be of "
 "the form: NO179728982MVA."
+<<<<<<< HEAD
 msgstr ""
 "ดูเหมือนว่าหมายเลข VAT ของซัพพลายเออร์ไม่ถูกต้อง ควรอยู่ในรูปแบบ: "
 "NO179728982MVA"
+=======
+msgstr "ดูเหมือนว่าหมายเลข VAT ของซัพพลายเออร์ไม่ถูกต้อง ควรอยู่ในรูปแบบ: NO179728982MVA"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -3472,8 +3664,12 @@ msgstr "ฟิลด์ %(field)s จำเป็นต้องกรอกใ�
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_cii_facturx.py:0
+<<<<<<< HEAD
 msgid ""
 "The field 'Sanitized Account Number' is required on the Recipient Bank."
+=======
+msgid "The field 'Sanitized Account Number' is required on the Recipient Bank."
+>>>>>>> upstream/18.0
 msgstr "ต้องระบุข้อมูล 'หมายเลขบัญชีที่ผ่านการรับรอง' ในธนาคารผู้รับ"
 
 #. module: account_edi_ubl_cii
@@ -3491,6 +3687,14 @@ msgid "Turkey VAT"
 msgstr "ภาษีมูลค่าเพิ่มของประเทศตุรกี"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0235
+msgid "UAE Tax Identification Number (TIN)"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account_edi_ubl_cii.model_account_edi_xml_ubl_20
 msgid "UBL 2.0"
 msgstr "UBL 2.0"
@@ -3528,8 +3732,13 @@ msgid ""
 "Unique identifier used by the BIS Billing 3.0 and its derivatives, also "
 "known as 'Endpoint ID'."
 msgstr ""
+<<<<<<< HEAD
 "ตัวระบุเฉพาะที่ใช้โดย BIS Billing 3.0 และอนุพันธ์ของ BIS Billing 3.0 "
 "หรือที่เรียกว่า 'Endpoint ID'"
+=======
+"ตัวระบุเฉพาะที่ใช้โดย BIS Billing 3.0 และอนุพันธ์ของ BIS Billing 3.0 หรือที่เรียกว่า "
+"'Endpoint ID'"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9932
@@ -3592,7 +3801,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3697,6 +3909,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3770,21 +3985,32 @@ msgid "XML UBL"
 msgstr "XML UBL"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__xrechnung
 msgid "XRechnung CIUS"
 msgstr "XRechnung CIUS"
 
 #. module: account_edi_ubl_cii
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_cii_facturx.py:0
 msgid ""
 "You should include at least one tax per invoice line. [BR-CO-04]-Each "
+<<<<<<< HEAD
 "Invoice line (BG-25) shall be categorized with an Invoiced item VAT category"
 " code (BT-151)."
 msgstr ""
 "คุณควรรวมภาษีอย่างน้อยหนึ่งรายการต่อบรรทัดใบแจ้งหนี้ [BR-"
 "CO-04]-แต่ละบรรทัดใบแจ้งหนี้ (BG-25) จะถูกจัดประเภทด้วยรหัสหมวดหมู่ VAT "
 "ของรายการในใบแจ้งหนี้ (BT-151)"
+=======
+"Invoice line (BG-25) shall be categorized with an Invoiced item VAT category "
+"code (BT-151)."
+msgstr ""
+"คุณควรรวมภาษีอย่างน้อยหนึ่งรายการต่อบรรทัดใบแจ้งหนี้ [BR-CO-04]-แต่ละบรรทัดใบแจ้งหนี้ "
+"(BG-25) จะถูกจัดประเภทด้วยรหัสหมวดหมู่ VAT ของรายการในใบแจ้งหนี้ (BT-151)"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.view_partner_property_form
@@ -3811,3 +4037,24 @@ msgstr "fx"
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
 msgid "urn:factur-x:pdfa:CrossIndustryDocument:invoice:1p0#"
 msgstr "urn:factur-x:pdfa:CrossIndustryDocument:invoice:1p0#"
+<<<<<<< HEAD
+=======
+
+#~ msgid "BIS Billing 3.0"
+#~ msgstr "BIS Billing 3.0"
+
+#~ msgid "BIS Billing 3.0 A-NZ"
+#~ msgstr "BIS Billing 3.0 A-NZ"
+
+#~ msgid "BIS Billing 3.0 SG"
+#~ msgstr "BIS Billing 3.0 SG"
+
+#~ msgid "Factur-X (CII)"
+#~ msgstr "Factur-X (CII)"
+
+#~ msgid "NLCIUS"
+#~ msgstr "NLCIUS"
+
+#~ msgid "XRechnung CIUS"
+#~ msgstr "XRechnung CIUS"
+>>>>>>> upstream/18.0

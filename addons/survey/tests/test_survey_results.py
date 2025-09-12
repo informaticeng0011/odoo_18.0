@@ -2,11 +2,20 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 import json
 
+<<<<<<< HEAD
+=======
+from odoo.tests import tagged
+
+>>>>>>> upstream/18.0
 from odoo.addons.survey.controllers.main import Survey
 from odoo.addons.survey.tests import common
 from odoo.addons.website.tools import MockRequest
 
 
+<<<<<<< HEAD
+=======
+@tagged("is_query_count")
+>>>>>>> upstream/18.0
 class TestSurveyResults(common.TestSurveyResultsCommon):
     """ Check the results and the performance of the different filters combinations.
     The filters can be combined but their query count doesn't add up if their

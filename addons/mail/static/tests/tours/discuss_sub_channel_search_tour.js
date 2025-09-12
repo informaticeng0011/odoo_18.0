@@ -109,8 +109,16 @@ registry.category("web_tour.tours").add("create_thread_for_attachment_without_bo
             },
         },
         {
+<<<<<<< HEAD
             content: "Click on send button",
             trigger: ".o-mail-Composer-send",
+=======
+            trigger: '.o-mail-AttachmentCard:not(.o-isUploading):contains("file2.txt")',
+        },
+        {
+            content: "Click on send button",
+            trigger: ".o-mail-Composer-send:enabled",
+>>>>>>> upstream/18.0
             run: "click",
         },
         {

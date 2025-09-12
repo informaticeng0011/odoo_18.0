@@ -132,6 +132,10 @@ class TestSurveyInvite(common.TestSurveyCommon, MailCommon):
             set([self.customer.email]))
         self.assertEqual(answers.mapped('partner_id'), self.customer)
         self.assertEqual(set(answers.mapped('deadline')), set([deadline]))
+<<<<<<< HEAD
+=======
+        self.assertEqual(invite.subject, self.env["mail.template"].browse(invite_form._env.context['default_template_id']).subject)
+>>>>>>> upstream/18.0
 
         with self.subTest('Warning when inviting an already invited partner'):
             invite_form = Form.from_action(self.env, self.survey.action_send_survey())

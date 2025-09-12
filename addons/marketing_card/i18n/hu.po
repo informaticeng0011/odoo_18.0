@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* marketing_card
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # f1b3a33e3b33fcf18004a5292e501f50_3500ca8 <373b677b151624c4521d9efc77b996fd_750224>, 2024
 # Kovács Tibor <kovika@gmail.com>, 2024
@@ -11,11 +15,16 @@
 # krnkris, 2024
 # Tamás Németh <ntomasz81@gmail.com>, 2024
 # gezza <geza.nagy@oregional.hu>, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-02-03 08:35+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: gezza <geza.nagy@oregional.hu>, 2024\n"
@@ -24,6 +33,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: hu\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: gezza <geza.nagy@oregional.hu>, 2024\n"
+"Language-Team: Hungarian (https://app.transifex.com/odoo/teams/41243/hu/)\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: marketing_card
@@ -41,7 +60,13 @@ msgstr ""
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" title=\"Shares\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" "
+"title=\"Shares\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: marketing_card
@@ -198,6 +223,15 @@ msgid "Card Layout"
 msgstr ""
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Card Preview"
+msgstr ""
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:marketing_card.field_mailing_mailing__card_requires_sync_count
 msgid "Card Requires Sync Count"
 msgstr ""
@@ -356,6 +390,15 @@ msgstr ""
 #. module: marketing_card
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
+<<<<<<< HEAD
+=======
+msgid "Hello everyone"
+msgstr ""
+
+#. module: marketing_card
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+>>>>>>> upstream/18.0
 msgid "Help us share the news"
 msgstr ""
 
@@ -365,6 +408,15 @@ msgid "Helps you manage marketing card campaigns."
 msgstr ""
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Here's the link to advertise your participation."
+msgstr ""
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__id
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign_tag__id
 #: model:ir.model.fields,field_description:marketing_card.field_card_card__id
@@ -391,8 +443,12 @@ msgstr "Ha be van jelölve, akkor az új üzenetek figyelmet igényelnek."
 #: model:ir.model.fields,help:marketing_card.field_card_campaign__message_has_error
 #: model:ir.model.fields,help:marketing_card.field_card_campaign__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
 "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+=======
+msgstr "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_card__image
@@ -476,6 +532,15 @@ msgid "Mailing Count"
 msgstr ""
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Many thanks"
+msgstr ""
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model:ir.model,name:marketing_card.model_card_card
 #: model:ir.module.category,name:marketing_card.module_category_marketing_card
 #: model:ir.ui.menu,name:marketing_card.card_menu
@@ -537,6 +602,14 @@ msgid ""
 msgstr ""
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:marketing_card.model_ir_model
+msgid "Models"
+msgstr ""
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__my_activity_date_deadline
 msgid "My Activity Deadline"
 msgstr "Tevékenységeim határideje"
@@ -613,6 +686,7 @@ msgstr "Odoo"
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -620,6 +694,15 @@ msgstr ""
 "ki. Ha nincs beállítva, akkor az angol nyelv kerül felhasználásra. Ez "
 "általában csak egy kitöltő kifejezés, mely megadja a megfelelő nyelvet, pld:"
 " {{ object.partner_id.lang }}."
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+msgstr ""
+"Opcionális fordítási nyelv (ISO kód), mely e-mail küldése során választható "
+"ki. Ha nincs beállítva, akkor az angol nyelv kerül felhasználásra. Ez "
+"általában csak egy kitöltő kifejezés, mely megadja a megfelelő nyelvet, pld: "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__target_url
@@ -884,6 +967,7 @@ msgid "Tags may not reuse existing names."
 msgstr ""
 
 #. module: marketing_card
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Thanks for sharing, here is your reward!"
 msgstr ""
@@ -891,6 +975,10 @@ msgstr ""
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__reward_message
 msgid "Thanks to You Message"
+=======
+#: model:ir.model.fields,field_description:marketing_card.field_card_campaign__reward_message
+msgid "Thank You Message"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: marketing_card
@@ -917,10 +1005,15 @@ msgid "Update"
 msgstr "Frissítés"
 
 #. module: marketing_card
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:marketing_card.robots
 msgid ""
 "User-agent: *\n"
 "                Allow: /cards/"
+=======
+#: model_terms:ir.ui.view,arch_db:marketing_card.mailing_mailing_view_form_inherit_marketing_card
+msgid "Update Cards"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: marketing_card
@@ -957,6 +1050,15 @@ msgid "Your Home Page"
 msgstr ""
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Your help with this promotion would be greatly appreciated!"
+msgstr ""
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_2
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_3
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_4
@@ -966,6 +1068,14 @@ msgstr ""
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
+<<<<<<< HEAD
+=======
+msgid "e.g. \"Thanks for sharing, here is your reward!\""
+msgstr ""
+
+#. module: marketing_card
+#: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
+>>>>>>> upstream/18.0
 msgid "e.g. \"https://www.mycompany.com/reward\""
 msgstr ""
 

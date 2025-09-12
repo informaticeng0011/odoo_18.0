@@ -237,6 +237,17 @@ describe('Format', () => {
                 contentAfter: `<p>${strong('[a')}</p><p contenteditable="false">b</p><p>${strong('c]')}</p>`,
             });
         });
+<<<<<<< HEAD
+=======
+        it("should remove bold format when having newline character nodes in selection", async () => {
+            await testEditor(BasicEditor, {
+                contentBefore:
+                    "<p><strong>[abc</strong></p>\n<p><strong>def</strong></p>\n<p><strong>ghi]</strong></p>",
+                stepFunction: bold,
+                contentAfter: "<p>[abc</p>\n<p>def</p>\n<p>ghi]</p>",
+            });
+        });
+>>>>>>> upstream/18.0
 
         describe('inside container or inline with class already bold', () => {
             it('should force the font-weight to normal with an inline with class', async () => {
@@ -1147,7 +1158,10 @@ describe('Format', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1274,6 +1288,9 @@ describe('Format', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1503,7 +1520,10 @@ describe('Format', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1630,6 +1650,9 @@ describe('Format', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

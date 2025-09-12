@@ -145,7 +145,11 @@ class Message(models.Model):
             raise UserError(self.env._('Operation not supported'))
         return [('model', '=', model)] + res_id_domain
 
+<<<<<<< HEAD
     @api.ondelete(at_uninstall=True)
+=======
+    @api.ondelete(at_uninstall=False)
+>>>>>>> upstream/18.0
     def _except_audit_log(self):
         if self.env.context.get('bypass_audit') is bypass_token:
             return

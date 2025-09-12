@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* stock_picking_batch
 # 
+=======
+# * stock_picking_batch
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Батболд <batbold.ts@gmail.com>, 2024
 # Onii Onii <onii0223@yahoo.com>, 2024
@@ -17,12 +22,16 @@
 # Otgonbayar.A <gobi.mn@gmail.com>, 2024
 # Batmunkh Ganbat <batmunkh2522@gmail.com>, 2024
 # Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2025
+<<<<<<< HEAD
 # 
+=======
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2025\n"
 "Language-Team: Mongolian (https://app.transifex.com/odoo/teams/41243/mn/)\n"
@@ -31,6 +40,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: mn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"PO-Revision-Date: 2025-08-28 08:59+0000\n"
+"Last-Translator: Lodoikhuu <baskhuujacara@gmail.com>\n"
+"Language-Team: Mongolian <https://translate.odoo.com/projects/odoo-18/"
+"stock_picking_batch/mn/>\n"
+"Language: mn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -40,7 +61,11 @@ msgstr ""
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
 msgid "<span class=\"col-6\">Waves</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Давалгаа</span>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
@@ -48,6 +73,11 @@ msgid ""
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" "
 "style=\"white-space: nowrap;\">Wave Grouping</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" style"
+"=\"white-space: nowrap;\">Давалгаа бүлэглэлт</span>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
@@ -55,11 +85,20 @@ msgid ""
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\">Batch "
 "Grouping</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\">Багц "
+"бүлэглэлт</span>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "<strong>FROM</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ГАРАХ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -79,12 +118,20 @@ msgstr "<strong>Барааны баркод</strong>"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "<strong>Responsible:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Хариуцагч:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "<strong>TO</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ОЧИХ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -97,6 +144,12 @@ msgid ""
 "A transfer will not be automatically added to batches that will exceed this number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Багцад дараах тооны бэлтгэх мөр нэмэгдсэн тохиолдолд нэмж мөр автоматаар "
+"оноохгүй.\n"
+"'0'-р орхивол мөрийн тоог хязгаарлахгүйгээр оноолт хийнэ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_pickings
@@ -104,6 +157,12 @@ msgid ""
 "A transfer will not be automatically added to batches that will exceed this number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Багц руу дараах тооны бэлтгэх баримт оноолт хийсэн тохиолдолд нэмж баримт "
+"оноохгүй.\n"
+"'0'-р орхивол оноох баримтын тоонд хязгаарлалт үйлчлэхгүй."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_needaction
@@ -135,12 +194,20 @@ msgstr "Ажилбарын төрлийн зураг"
 #: code:addons/stock_picking_batch/models/stock_picking.py:0
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "Add Operations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Багц руу оноох"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_to_batch_form
 msgid "Add pickings to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Багц руу баримт оноох"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_add_to_wave_form
@@ -154,17 +221,29 @@ msgstr "Нэмэх"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_add_to_wave_form
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_move_line_tree_detailed_wave
 msgid "Add to Wave"
+<<<<<<< HEAD
 msgstr "Давалгаанд нэмэх"
+=======
+msgstr "Түүвэр ажиллагаа руу нэмэх"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_picking_to_batch_action_stock_picking
 msgid "Add to batch"
+<<<<<<< HEAD
 msgstr "Багц баримт руу хийх"
+=======
+msgstr "Багц ажиллагаа руу хийх"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_add_to_wave_action_stock_picking
 msgid "Add to wave"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Түүвэр ажиллагаа руу нэмэх"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
@@ -174,13 +253,21 @@ msgstr "Хуваарилалт"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__allowed_picking_ids
 msgid "Allowed Picking"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Зөвшөөрөгдсөн бэлтгэх баримт"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking.py:0
 msgid "Assigned to %s Responsible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s Хариуцагч руу оноогдлоо"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_attachment_count
@@ -190,38 +277,66 @@ msgstr "Хавсралтын тоо"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_auto_confirm
 msgid "Auto-confirm"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Авто-батлалт"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__auto_batch
 msgid "Automatic Batches"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Автомат багцлалт"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_group_by_partner
 msgid "Automatically group batches by contacts."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Харилцагчаар бүлэглэж автоматаар багцлах."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_group_by_destination
 msgid "Automatically group batches by destination country."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Харилцагчийн улсаас хамаарч автоматаар багцлах."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_group_by_dest_loc
 msgid "Automatically group batches by their destination location."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Очих байрлалаас хамаарч автоматаар багцлах."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_group_by_src_loc
 msgid "Automatically group batches by their source location."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Гарах байрлалаас хамаарч автоматаар багцлах."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__auto_batch
 msgid ""
 "Automatically put pickings into batches as they are confirmed when possible."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бэлтгэх баримт батлагдах үед тэдгээрийг автоматаар багц руу оноох."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -237,7 +352,11 @@ msgstr "Багц"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Batch & Wave Transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Багц & Түүвэр ажиллагаа"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -247,7 +366,11 @@ msgstr "Багцын нэр"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_properties_definition
 msgid "Batch Properties"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Багцын тохиргоо"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
@@ -263,12 +386,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_internal_search_inherit
 msgid "Batch Transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Багц ажиллагаа"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_picking_to_batch
 msgid "Batch Transfer Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Багц баримтын мөрүүд"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_picking_batch_action
@@ -279,19 +410,31 @@ msgstr "Багц шилжүүлэг"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Batch Transfers not finished"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Багц баримт дуусаагүй байна"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_move_line__batch_id
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking__batch_id
 msgid "Batch associated to this transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Энэ бэлтгэх баримтыг багцалж буй толгой"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Batch transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Багц баримт"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
@@ -319,12 +462,20 @@ msgstr "Цуцлагдсан"
 #. odoo-python
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "Cannot create wave transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Түүвэр ажиллагааны баримт үүсгэж чадсангүй"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_category_ids
 msgid "Categories to consider when grouping waves."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бүлэглэх түүвэрлэх ангилалуул."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
@@ -347,7 +498,11 @@ msgstr "Хэвлэх шошгоны загварыг сонго"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Cluster transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бүсчилсэн шилжүүлэг"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__company_id
@@ -370,12 +525,20 @@ msgstr "Харилцах хаяг"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__count_picking_batch
 msgid "Count Picking Batch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Багц ажиллагааны баримтын тоо"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__count_picking_wave
 msgid "Count Picking Wave"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Түүвэр ажиллагааны баримтын тоо"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__create_uid
@@ -400,7 +563,11 @@ msgstr "Тайлбар"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_group_by_destination
 msgid "Destination Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Очих хаяг улс"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
@@ -460,12 +627,20 @@ msgstr "Бүлэглэлт"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_group_by_dest_loc
 msgid "Group by Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Очих байрлалаар бүлэглэх"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_group_by_src_loc
 msgid "Group by Source Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Гарах байрлалаар бүлэглэх"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -512,6 +687,11 @@ msgid ""
 "If the Automatic Batches feature is enabled, at least one 'Group by' option "
 "must be selected."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Автоматаар багцлах тохиргоо идэвхижсэн тохиолдолд, дор хаяж нэг 'Бүлэглэх' "
+"сонгол хийгдсэн байх шаардлагатай."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
@@ -564,6 +744,11 @@ msgid ""
 "Launch picking orders by aisle or area and regroup at packing zone. Ideal "
 "for large warehouses."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Тавиурын эгнээ эсвэл бүсээр нь түүвэрлэлт эхлүүлээд, савлах бүсэд дахин "
+"нэгтгэнэ. Том агуулахад хамгийн тохиромжтой."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__line_ids
@@ -573,7 +758,11 @@ msgstr "Мөр"
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__picking_ids
 msgid "List of transfers associated to this batch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Энэхүү багцад оролцож буй бэлтгэх баримтын жагсаалт"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__wave_group_by_location
@@ -583,17 +772,29 @@ msgstr "Байрлал"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Location From Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Гарах байрлалын нэр"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Location To Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Очих байрлалын нэр"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_location_ids
 msgid "Locations to consider when grouping waves."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Түүвэрлэн сонгож багцлах байрлалууд."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -667,7 +868,11 @@ msgid "Lot Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Цувралын дугаар"
+>>>>>>> upstream/18.0
 =======
 msgstr "Цувралын дугаар"
 >>>>>>> upstream/18.0
@@ -879,12 +1084,20 @@ msgstr "Цувралын дугаар"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid "Maximum lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Мөрийн тоон хязгаар"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid "Maximum transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бэлтгэх баримтын тоон хязгаар"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_has_error
@@ -970,7 +1183,11 @@ msgstr "Үйл ажиллагаа"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Package ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Савлагааны ID"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
@@ -979,6 +1196,12 @@ msgid ""
 "Pick multiple orders in one trip and prepare orders as you pick. This "
 "reduces packing time and is ideal for small products."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Олон баримтнаас бараануудыг түүвэрлэн сонгож нэг явалтаар бүгдийг нь "
+"бэлтгэнэ. Ингэснээр савлах хугацаа багасч, жижиг бүтээгдэхүүнд хамгийн "
+"тохиромжтой."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__picking_ids
@@ -1001,7 +1224,11 @@ msgstr ""
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
 msgid "Prepare Batch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Багц баримт бүрдүүлэх"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.action_prepare_wave
@@ -1010,7 +1237,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_wave_kanban
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_wave_tree
 msgid "Prepare Wave"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Түүвэр баримт бүрдүүлэх"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
@@ -1031,7 +1262,11 @@ msgstr "Бараа"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Product Barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Барааны баркод"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__wave_group_by_category
@@ -1080,6 +1315,11 @@ msgid ""
 "Regroup multiple orders into one picking and consolidate at the packing "
 "zone."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Олон захиалгаас бараануудыг түүвэрлэн авч бэлтгэх ба, савлах бүсэд нэг дор "
+"нэгтгэнэ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__user_id
@@ -1097,7 +1337,11 @@ msgstr "Эд хариуцагч"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Result Package ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Очих савлагааны ID"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_has_sms_error
@@ -1118,31 +1362,61 @@ msgid ""
 "              - If not manually changed and transfers are added/removed/updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in batch."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Шилжүүлэг боловсруулах товлогдсон огноо.\n"
+"              - Гараар тохируулбал багцад багтсан бүх шилжүүлгийн товлогдсон "
+"огноо автоматаар энэ огноо болж шинэчлэгдэнэ.\n"
+"              - Хэрэв гараар өөрчлөгдөөгүй бөгөөд шилжүүлгийг нэмэх/хасах/"
+"шинэчлэх үед тухайн шилжүүлгүүдийн хамгийн эртний товлогдсон огноо энд "
+"харагдана. Гэхдээ энэ огноо нь багцын бүх шилжүүлэгт автоматаар "
+"тохируулагдахгүй."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Search Batch Transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Багц шилжүүлэг хайх"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Select locations you want to group"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бүлэглэх байрлалаа сонгоно уу"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Select product categories you want to group"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бүлэглэх ангилалаа сонгоно уу"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking__batch_sequence
 msgid "Sequence"
+<<<<<<< HEAD
 msgstr "Дугаарлалт"
+=======
+msgstr "Дараалал"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__show_allocation
 msgid "Show Allocation Button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Хуваарилах товч харуулах"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__show_check_availability
@@ -1172,6 +1446,11 @@ msgid ""
 "Split transfers by defined locations, then group transfers with the same "
 "location."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Заасан байрлалаас хамаарч хөдөлгөөнүүдийг хуваах  ба, ижил байрлалтай "
+"хөдөлгөөнүүдийг бүлэглэж шилжүүлэг хийнэ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_group_by_category
@@ -1179,12 +1458,22 @@ msgid ""
 "Split transfers by product category, then group transfers that have the same"
 " product category."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Заагдсан ангилалаар хөдөлгөөнүүдийг хуваах ба, ижил ангилалын барааны "
+"хөдөлгөөнүүдийг бүлэглэж шилжүүлэг хийнэ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_group_by_product
 msgid ""
 "Split transfers by product then group transfers that have the same product."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Заагдсан барааны хөдөлгөөнүүдийг хуваах ба, ижил барааны хөдөлгөөнүүдийг "
+"бүлэглэж шилжүүлэг хийнэ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:mail.message.subtype,description:stock_picking_batch.mt_batch_state
@@ -1220,7 +1509,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_tree
 msgid "Stock Batch Transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Багц шилжүүлэг"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_move
@@ -1235,12 +1528,20 @@ msgstr "Барааны очих баглаа"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__move_line_ids
 msgid "Stock move lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Барааны хөдөлгөөний мөр"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__move_ids
 msgid "Stock moves"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Барааны хөдөлгөөн"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -1255,35 +1556,62 @@ msgid ""
 "\n"
 "Incompatibilities: %(incompatible_transfers)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Дараа баримтуудыг %(batch)s багц руу оноох боломжгүй. Тэдгээрийн төлөв болон "
+"ажиллагааны төрлийг шалгана уу.\n"
+"\n"
+"Зөрчил: %(incompatible_transfers)s"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "The selected operations should belong to a unique company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ижил компаны хөдөлгөөнүүдийг сонгох шаардлагатай."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/wizard/stock_picking_to_batch.py:0
 msgid "The selected pickings should belong to an unique company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ижил компаны баримтуудыг сонгох шаардлагатай."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "The selected transfers should belong to a unique company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ижил компаны баримтуудаас сонгох шаардлагатай."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "The selected transfers should belong to the same operation type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ижил ажиллагааны төрөлтэй баримтуудаас сонголоо хийх шаардлагатай"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__is_wave
 msgid "This batch is a wave"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Энэ багц нь түүвэр ажиллагаа болно"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
@@ -1304,12 +1632,20 @@ msgstr "Шилжүүлэг"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Transfer Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Шилжүүлэгийн баримтын нэр"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Transfer Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Баримтын нэр"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
@@ -1337,7 +1673,11 @@ msgstr "Бичлэг дээрх асуудал бүхий ажилбарын т�
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking.py:0
 msgid "Unassigned responsible from %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s цаашид уг баримтыг хариуцахаа больсон"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.actions.server,name:stock_picking_batch.action_unreserve_batch_picking
@@ -1358,34 +1698,58 @@ msgstr "Агуулах"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__wave_location_ids
 msgid "Wave Locations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Түүвэрлэх байрлалууд"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__wave_category_ids
 msgid "Wave Product Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Түүвэрлэх барааны ангилалууд"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__wave_id
 msgid "Wave Transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Түүвэр шилжүүлэг"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_add_to_wave
 msgid "Wave Transfer Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Түүвэр шилжүүлгийн мөр"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.action_picking_tree_wave
 #: model:ir.ui.menu,name:stock_picking_batch.stock_picking_wave_menu
 msgid "Wave Transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Түүвэр шилжүүлэг"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Wave transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Түүвэр шилжүүлэг"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__website_message_ids
@@ -1400,19 +1764,31 @@ msgstr "Вебсайтын харилцааны түүх"
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_to_batch__is_create_draft
 msgid "When checked, create the batch in draft status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Хэрэв сонговол, багцын баримтыг ноорог төлөвтэй үүсгэнэ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "You cannot delete Done batch transfers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дууссан төлөвтэй багц баримтыг устгах боломжгүй."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "You have to set some pickings to batch."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Та багц руу ямар нэг бэлтгэх баримтуудаас оноосон байх шаардлагатай."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields.selection,name:stock_picking_batch.selection__stock_picking_to_batch__mode__new
@@ -1422,7 +1798,11 @@ msgstr "шинээр багц баримт үүсгэх"
 #. module: stock_picking_batch
 #: model:ir.model.fields.selection,name:stock_picking_batch.selection__stock_add_to_wave__mode__new
 msgid "a new wave transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "шинээр түүвэр баримт үүсгэх"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields.selection,name:stock_picking_batch.selection__stock_picking_to_batch__mode__existing
@@ -1432,14 +1812,26 @@ msgstr "бэлэн багц баримтаас сонгох"
 #. module: stock_picking_batch
 #: model:ir.model.fields.selection,name:stock_picking_batch.selection__stock_add_to_wave__mode__existing
 msgid "an existing wave transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "бэлэн түүвэр баримтаас сонгох"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__estimated_shipping_volume
 msgid "shipping_volume"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "бэлтгэх барааны эзлэхүүн"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__estimated_shipping_weight
 msgid "shipping_weight"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "бэлтгэх барааны жин"
+>>>>>>> upstream/18.0

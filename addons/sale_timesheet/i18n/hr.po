@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* sale_timesheet
 # 
+=======
+# * sale_timesheet
+#
+>>>>>>> upstream/18.0
 # Translators:
 # KRISTINA PALAŠ <kristina.palas@storm.hr>, 2024
 # Milan Tribuson <one.mile.code@gmail.com>, 2024
@@ -12,17 +17,24 @@
 # Kristina Palaš, 2024
 # Bole <bole@dajmi5.com>, 2024
 # Vladimir Vrgoč, 2024
+<<<<<<< HEAD
 # Luka Carević <luka@uvid.hr>, 2025
 <<<<<<< HEAD
 =======
 # Ivica Dimjašević, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Ivica Dimjašević, 2025
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:04+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 "Last-Translator: Luka Carević <luka@uvid.hr>, 2025\n"
@@ -35,6 +47,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-08-22 22:21+0000\n"
+"Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
+"sale_timesheet/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -221,7 +246,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:sale_timesheet.job_interior_designer
 #: model_terms:hr.job,website_description:sale_timesheet.job_labour
 msgid "A full-time position <br>Attractive salary package."
+<<<<<<< HEAD
 msgstr "Pozicija na puno radno vrijeme <br>Privlačan paket plaća."
+=======
+msgstr "Pozicija na puno radno vrijeme <br>Privlačan paket primanja."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_sale_order_line__qty_delivered_method
@@ -342,7 +371,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_analytic_line__timesheet_invoice_type
 #: model:ir.model.fields,field_description:sale_timesheet.field_timesheets_analysis_report__timesheet_invoice_type
 msgid "Billable Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta naplate"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_update_default_description
@@ -354,32 +387,52 @@ msgstr "Naplaćeno"
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__billable_manual
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_view_search
 msgid "Billed Manually"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naplaćeno ručno"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_view_search
 msgid "Billed at a Fixed Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naplaćeno po fiksnoj cijeni"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__billable_fixed
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__billable_fixed
 msgid "Billed at a Fixed price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naplaćeno po fiksnoj cijeni"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__billable_milestones
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__billable_milestones
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_view_search
 msgid "Billed on Milestones"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naplaćeno po etapi"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__billable_time
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__billable_time
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_view_search
 msgid "Billed on Timesheets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naplaćeno po radnim listama"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
@@ -390,12 +443,20 @@ msgstr "Izdavanje računa"
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_project__billing_type
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_view_search
 msgid "Billing Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta naplate"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.ui.menu,name:sale_timesheet.menu_timesheet_billing_analysis
 msgid "By Billing Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prema vrsti naplate"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_invoice__sale_order_id
@@ -415,7 +476,11 @@ msgstr "Konfiguracijske postavke"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
 msgid "Configure your services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurirajte svoje usluge"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_sale_line_employee_map__cost
@@ -681,7 +746,11 @@ msgstr "Politika izdavanja računa"
 #. odoo-python
 #: code:addons/sale_timesheet/models/product_template.py:0
 msgid "Invoice based on timesheets (delivered quantity)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faktura na temelju radnih sati."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_account_analytic_line__timesheet_invoice_id
@@ -713,7 +782,11 @@ msgstr ""
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_analytic_line__is_so_line_edited
 msgid "Is Sales Order Item Manually Edited"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavka prodajnog naloga je ručno uređena"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_account_move
@@ -859,7 +932,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__non_billable
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_view_search
 msgid "Non-Billable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenaplatno"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.hr_timesheet_line_form_inherit
@@ -868,7 +945,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheete_analysis_report_form
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheets_analysis_report_list_inherited
 msgid "Non-billable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenaplatno"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_timesheets_analysis_report__non_billable_time
@@ -1013,7 +1094,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_timesheet.field_product_product__project_template_id
 #: model:ir.model.fields,field_description:sale_timesheet.field_product_template__project_template_id
 msgid "Project Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predložak projekta"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_project_update
@@ -1160,7 +1245,11 @@ msgstr ""
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
 msgid "Sell services and invoice time spent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajte usluge i fakturirajte utrošeno vrijeme"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_service_deliver_timesheet_1_product_template
@@ -1176,7 +1265,11 @@ msgstr ""
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.time_product_product_template
 msgid "Service on Timesheets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usluga prema utrošenim satima"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_project__timesheet_product_id
@@ -1302,7 +1395,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
 msgid "Time Billing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naplata vremena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naplata vremena"
 >>>>>>> upstream/18.0
@@ -1312,7 +1409,11 @@ msgstr "Naplata vremena"
 #: model:ir.model.fields,field_description:sale_timesheet.field_report_project_task_user__remaining_hours_so
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_line__remaining_hours
 msgid "Time Remaining on SO"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preostalo vrijeme na prodajnoj narudžbi"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.view_hr_timesheet_line_graph_employee_per_date
@@ -1349,7 +1450,11 @@ msgstr "Troškovi evidencije"
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_project__timesheet_product_id
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_task__timesheet_product_id
 msgid "Timesheet Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvod za evidenciju vremena"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.hr_timesheet_report_search_sale_timesheet
@@ -1361,7 +1466,11 @@ msgstr "Izvještaj evidencija"
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__timesheet_revenues
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__timesheet_revenues
 msgid "Timesheet Revenues"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prihodi od radnih sati"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_bank_statement_line__timesheet_total_duration
@@ -1387,13 +1496,21 @@ msgstr "Evidencije rada"
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Billed Manually)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evidencija radnog vremena (naplaćeno ručno)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Billed on Milestones)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evidencija radnog vremena (naplata po etapi)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -1431,7 +1548,11 @@ msgstr ""
 #. module: sale_timesheet
 #: model:ir.actions.act_window,name:sale_timesheet.timesheet_action_billing_report
 msgid "Timesheets by Billing Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evidencija radnog vremena prema vrsti naplate"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_sale_page
@@ -1463,7 +1584,11 @@ msgstr ""
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
 msgid "Timesheets taken into account when invoicing your time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Radni listovi koji se uzimaju u obzir pri fakturiranju vašeg vremena"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_res_config_settings__invoice_policy
@@ -1474,6 +1599,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_form
 msgid "Timesheets without a sales order item are reported as"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Evidencije radnog vremena bez stavke prodajne narudžbe prijavljuju se kao"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_update_default_description
@@ -1614,7 +1743,11 @@ msgstr ""
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__project_project__billing_type__manually
 msgid "billed manually"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "naplaćuje se ručno"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -1625,7 +1758,11 @@ msgstr ""
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__project_project__billing_type__not_billable
 msgid "not billable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nije naplativo"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.view_product_timesheet_form

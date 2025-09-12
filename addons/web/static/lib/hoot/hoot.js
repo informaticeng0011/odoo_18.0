@@ -116,8 +116,12 @@ export const globals = {
 };
 export const __debug__ = runner;
 
+<<<<<<< HEAD
 //-----------------------------------------------------------------------------
 // Main
 //-----------------------------------------------------------------------------
 
 setupHootUI();
+=======
+export const isHootReady = setupHootUI();
+>>>>>>> upstream/18.0

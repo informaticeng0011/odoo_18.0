@@ -5,7 +5,11 @@ from odoo.tests.common import tagged
 from odoo.addons.base.tests.common import HttpCaseWithUserPortal, HttpCaseWithUserDemo
 
 
+<<<<<<< HEAD
 @tagged("post_install", "-at_install")
+=======
+@tagged("post_install", "-at_install", "is_tour")
+>>>>>>> upstream/18.0
 class TestMailPublicPage(HttpCaseWithUserPortal, HttpCaseWithUserDemo):
     """Checks that the invite page redirects to the channel and that all
     modules load correctly on the welcome and channel page when authenticated as various users"""
@@ -44,12 +48,22 @@ class TestMailPublicPage(HttpCaseWithUserPortal, HttpCaseWithUserDemo):
 
     def _open_channel_page_as_user(self, login):
         self.start_tour(self.channel.invitation_url, self.tour, login=login)
+<<<<<<< HEAD
+=======
+        # Update the body to a unique value to ensure the second run does not confuse the 2 messages.
+        self.channel._get_last_messages().body = "a-very-unique-body-in-channel"
+>>>>>>> upstream/18.0
         # Second run of the tour as the first call has side effects, like creating user settings or adding members to
         # the channel, so we need to run it again to test different parts of the code.
         self.start_tour(self.channel.invitation_url, self.tour, login=login)
 
     def _open_group_page_as_user(self, login):
         self.start_tour(self.group.invitation_url, self.tour, login=login)
+<<<<<<< HEAD
+=======
+        # Update the body to a unique value to ensure the second run does not confuse the 2 messages.
+        self.channel._get_last_messages().body = "a-very-unique-body-in-group"
+>>>>>>> upstream/18.0
         # Second run of the tour as the first call has side effects, like creating user settings or adding members to
         # the channel, so we need to run it again to test different parts of the code.
         self.start_tour(self.group.invitation_url, self.tour, login=login)

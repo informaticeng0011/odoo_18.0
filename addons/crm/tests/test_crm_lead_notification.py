@@ -123,6 +123,10 @@ class NewLeadNotification(TestCrmCommon):
                         'email': 'philip.j.fry@test.example.com',
                         'lang': self.contact_1.lang,
                         'reason': 'Customer',
+<<<<<<< HEAD
+=======
+                        'display_name': 'Planet Express, Philip J Fry',
+>>>>>>> upstream/18.0
                         'create_values': {}
                   }],
                 [{
@@ -130,6 +134,10 @@ class NewLeadNotification(TestCrmCommon):
                   'name': 'Test Partner',
                   'lang': partner_no_email.lang,
                   'reason': 'Customer',
+<<<<<<< HEAD
+=======
+                  'display_name': 'Test Partner',
+>>>>>>> upstream/18.0
                   'create_values': {}
                   }],
                 [
@@ -144,6 +152,10 @@ class NewLeadNotification(TestCrmCommon):
                       'partner_id': partner_no_email.id,
                       'name': 'Test Partner',
                       'lang': partner_no_email.lang,
+<<<<<<< HEAD
+=======
+                      'display_name': 'Test Partner',
+>>>>>>> upstream/18.0
                       'reason': 'Customer',
                       'create_values':{}
                     }

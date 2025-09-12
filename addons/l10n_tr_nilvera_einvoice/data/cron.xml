@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+<<<<<<< HEAD
     <record id="ir_cron_nilvera_get_new_documents" model="ir.cron">
         <field name="name">Nilvera: retrieve new documents</field>
         <field name="model_id" ref="model_account_move"/>
@@ -9,6 +10,36 @@
         <field name="interval_type">hours</field>
         <field name="nextcall" eval="(DateTime.now() + timedelta(hours=12)).strftime('%Y-%m-%d %H:%M:%S')"/>
         <field name="active" eval="True"/>
+=======
+    <record id="ir_cron_nilvera_get_new_purchase_documents" model="ir.cron">
+        <field name="name">Nilvera: retrieve new purchase documents</field>
+        <field name="model_id" ref="model_account_move"/>
+        <field name="state">code</field>
+        <field name="code">model._cron_nilvera_get_new_einvoice_purchase_documents()</field>
+        <field name="interval_number">12</field>
+        <field name="interval_type">hours</field>
+        <field name="nextcall" eval="(DateTime.now() + timedelta(hours=12)).strftime('%Y-%m-%d %H:%M:%S')"/>
+    </record>
+
+    <record id="ir_cron_nilvera_get_new_einvoice_sale_documents" model="ir.cron">
+        <field name="name">Nilvera: retrieve E-Invoice new sale documents</field>
+        <field name="model_id" ref="model_account_move"/>
+        <field name="state">code</field>
+        <field name="code">model._cron_nilvera_get_new_einvoice_sale_documents()</field>
+        <field name="interval_number">12</field>
+        <field name="interval_type">hours</field>
+        <field name="nextcall" eval="(DateTime.now() + timedelta(hours=12)).strftime('%Y-%m-%d %H:%M:%S')"/>
+    </record>
+
+    <record id="ir_cron_nilvera_get_new_earchive_sale_documents" model="ir.cron">
+        <field name="name">Nilvera: retrieve new E-Archive sale documents</field>
+        <field name="model_id" ref="model_account_move"/>
+        <field name="state">code</field>
+        <field name="code">model._cron_nilvera_get_new_earchive_sale_documents()</field>
+        <field name="interval_number">12</field>
+        <field name="interval_type">hours</field>
+        <field name="nextcall" eval="(DateTime.now() + timedelta(hours=12)).strftime('%Y-%m-%d %H:%M:%S')"/>
+>>>>>>> upstream/18.0
     </record>
 
     <record id="ir_cron_nilvera_get_invoice_status" model="ir.cron">
@@ -19,6 +50,9 @@
         <field name="interval_number">12</field>
         <field name="interval_type">hours</field>
         <field name="nextcall" eval="(DateTime.now() + timedelta(hours=12)).strftime('%Y-%m-%d %H:%M:%S')"/>
+<<<<<<< HEAD
         <field name="active" eval="True"/>
+=======
+>>>>>>> upstream/18.0
     </record>
 </odoo>

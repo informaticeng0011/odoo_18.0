@@ -1,18 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* base
+=======
+# * base
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Bojan Borovnjak <bojan.borovnjak@modoolar.com>, 2022
 # Uros Kalajdzic <ukalajdzic@gmail.com>, 2022
 # Martin Trigaux, 2022
+<<<<<<< HEAD
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023
 #
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-15 14:12+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2022-09-22 05:44+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, "
 "2023\n"
@@ -23,6 +32,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+=======
+"PO-Revision-Date: 2025-08-27 15:44+0000\n"
+"Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
+"Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
+"odoo-18/base/sr_Latn/>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_at_reports
@@ -10382,7 +10404,12 @@ msgstr "Administracija"
 #: model:ir.model.fields,help:base.field_res_country_state__name
 msgid ""
 "Administrative divisions of a country. E.g. Fed. State, Departement, Canton"
+<<<<<<< HEAD
 msgstr "Administrativne regije jedne zemlje..."
+=======
+msgstr ""
+"Administrativne regije jedne zemlje. Npr. Savezna država, pokrajina, kanton"
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_N
@@ -11785,7 +11812,11 @@ msgstr "Belgija"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be
 msgid "Belgium - Accounting"
+<<<<<<< HEAD
 msgstr "Belgija -  Računovodstvo"
+=======
+msgstr "Belgija - Računovodstvo"
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_reports
@@ -12606,7 +12637,11 @@ msgstr "Čad"
 #. module: base
 #: model:ir.actions.act_window,name:base.action_res_users_my
 msgid "Change My Preferences"
+<<<<<<< HEAD
 msgstr "Izmena postavki"
+=======
+msgstr "Izmena mojih postavki"
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:ir.actions.act_window,name:base.change_password_wizard_action
@@ -12644,7 +12679,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Changing the model of a field is forbidden!"
+<<<<<<< HEAD
 msgstr "Nije dopušteno mjenjanje modela polja."
+=======
+msgstr "Nije dozvoljeno menjanje modela polja!"
+>>>>>>> upstream/18.0
 
 #. module: base
 #. odoo-python
@@ -13311,7 +13350,11 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_product_configurator
 msgid "Configure your products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurišite svoj proizvod"
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_upgrade
@@ -17056,7 +17099,11 @@ msgstr "GPL Version 3"
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_module_module__license__gpl-2_or_any_later_version
 msgid "GPL-2 or later version"
+<<<<<<< HEAD
 msgstr "GPL-2  ili novija verzija"
+=======
+msgstr "GPL-2 ili novija verzija"
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_module_module__license__gpl-3_or_any_later_version
@@ -18371,7 +18418,13 @@ msgstr ""
 msgid ""
 "If you check this box, your customized translations will be overwritten and "
 "replaced by the official ones."
+<<<<<<< HEAD
 msgstr "Kreiraj _Menu"
+=======
+msgstr ""
+"Ako označite ovu kućicu, vaši prilagođeni prevodi će biti prepisani i "
+"zamenjeni zvaničnim prevodima."
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:ir.model.fields,help:base.field_base_language_import__overwrite
@@ -23502,7 +23555,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window_view__multi
 #: model:ir.model.fields,field_description:base.field_ir_actions_report__multi
 msgid "On Multiple Doc."
+<<<<<<< HEAD
 msgstr "Na više dokumenata"
+=======
+msgstr "Na više dokumenata."
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_fields__on_delete
@@ -27188,7 +27245,11 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__search_view_id
 msgid "Search View Ref."
+<<<<<<< HEAD
 msgstr "Ref Pregled pretrage"
+=======
+msgstr "Pregled pretrage Ref."
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
@@ -30015,7 +30076,11 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,help:base.field_res_lang__code
 msgid "This field is used to set/get locales for user"
+<<<<<<< HEAD
 msgstr "Ovo se polje koristi da postavi/da lokalizme  korisnike"
+=======
+msgstr "Ovo polje se koristi da postavi/da lokalizme za korisnika"
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_ui_view__arch
@@ -31891,7 +31956,11 @@ msgstr "Naziv pregleda"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__view_id
 msgid "View Ref."
+<<<<<<< HEAD
 msgstr "Vezani pregled"
+=======
+msgstr "Ref. pregleda."
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window_view__view_mode

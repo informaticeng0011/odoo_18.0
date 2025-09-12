@@ -68,6 +68,10 @@ class Lead(models.Model):
 
                         normalized_email = tools.email_normalize(lead.email_from)
                         if not normalized_email:
+<<<<<<< HEAD
+=======
+                            lead.write({'iap_enrich_done': True})
+>>>>>>> upstream/18.0
                             lead.message_post_with_source(
                                 'crm_iap_enrich.mail_message_lead_enrich_no_email',
                                 subtype_xmlid='mail.mt_note',

@@ -103,6 +103,7 @@ export class HootTestPath extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             type="'suite'"
                             id="suite.id"
 =======
@@ -260,6 +261,9 @@ export class HootTestPath extends Component {
 >>>>>>> upstream/18.0
 =======
                             ids="{ suite: suite.id }"
+>>>>>>> upstream/18.0
+=======
+                            ids="{ id: suite.id }"
 >>>>>>> upstream/18.0
                             class="'text-gray hover:text-primary hover:underline whitespace-nowrap font-bold p-1 hidden md:inline transition-colors'"
                             title="'Run ' + suite.fullName"

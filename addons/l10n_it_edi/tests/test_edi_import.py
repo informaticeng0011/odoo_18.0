@@ -116,7 +116,10 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -229,6 +232,7 @@ class TestItEdiImport(TestItEdi):
                 'price_unit': 10.0,
                 'discount': 52.5,
                 'debit': 23.75,
+<<<<<<< HEAD
             }],
         }])
 
@@ -370,6 +374,17 @@ class TestItEdiImport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            },
+            {
+                'quantity': 1.0,
+                'price_unit': 0.0,
+                'discount': 0.0,
+                'debit': 0.0,
+            }],
+        }])
+
 >>>>>>> upstream/18.0
     def test_receive_negative_vendor_bill(self):
         """ Same vendor bill as test_receive_vendor_bill but negative unit price """
@@ -612,3 +627,28 @@ class TestItEdiImport(TestItEdi):
         user = new_test_user(self.env, login='jag', groups='account.group_account_invoice')
         move = self.env['account.move'].create({'move_type': 'in_invoice'})
         move.with_user(user).read(['l10n_it_edi_is_self_invoice'])  # should not raise
+<<<<<<< HEAD
+=======
+
+    def test_import_vendor_bill_with_ref_service_valid_tax(self):
+        """Ensure that importing vendor bill with a referenced service product, with a service tax of 22% S
+        only applies one tax on the product
+        """
+        sale_tax = self.env['account.tax'].search([('display_name', '=', '22%'), ('company_id', '=', self.company.id)])[0]
+        supplier_tax = self.env['account.tax'].search([('display_name', '=', '22% S'), ('company_id', '=', self.company.id)])[0]
+        self.env['product.product'].create({
+            'name': 'Servizio tecnico',
+            'default_code': 'abcdefgh',
+            'type': 'service',
+            'list_price': 150.0,
+            'taxes_id': [Command.set([sale_tax.id])],
+            'supplier_taxes_id': [Command.set([supplier_tax.id])],
+        })
+
+        self._assert_import_invoice('IT01234567889_FPR03.xml', [{
+            'move_type': 'in_invoice',
+            'invoice_date': fields.Date.from_string('2014-12-18'),
+            'amount_untaxed': 25.0,
+            'amount_tax': 5.5,
+        }])
+>>>>>>> upstream/18.0

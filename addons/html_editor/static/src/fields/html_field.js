@@ -26,6 +26,11 @@ import { HtmlViewer } from "./html_viewer";
 import { withSequence } from "@html_editor/utils/resource";
 import { fixInvalidHTML, instanceofMarkup } from "@html_editor/utils/sanitize";
 
+<<<<<<< HEAD
+=======
+const HTML_FIELD_METADATA_ATTRIBUTES = ["data-last-history-steps"];
+
+>>>>>>> upstream/18.0
 /**
  * Check whether the current value contains nodes that would break
  * on insertion inside an existing body.
@@ -295,6 +300,10 @@ export class HtmlField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ...config.resources,
+>>>>>>> upstream/18.0
 =======
                 ...config.resources,
 >>>>>>> upstream/18.0
@@ -524,6 +533,10 @@ export const htmlField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            editorConfig.classList = ["overflow-auto"];
+>>>>>>> upstream/18.0
 =======
             editorConfig.classList = ["overflow-auto"];
 >>>>>>> upstream/18.0
@@ -797,3 +810,26 @@ export const htmlField = {
 };
 
 registry.category("fields").add("html", htmlField, { force: true });
+<<<<<<< HEAD
+=======
+
+export function getHtmlFieldMetadata(content) {
+    const metadata = {};
+    for (const attribute of HTML_FIELD_METADATA_ATTRIBUTES) {
+        const regex = new RegExp(`${attribute}\\s*=\\s*"([^"]+)"`);
+        metadata[attribute] = content.match(regex)?.[1];
+    }
+    return metadata;
+}
+export function setHtmlFieldMetadata(content, metadata) {
+    const htmlContent = content.toString() || "<div></div>";
+    const parser = new DOMParser();
+    const contentDocument = parser.parseFromString(htmlContent, "text/html");
+    for (const [attribute, value] of Object.entries(metadata)) {
+        if (value) {
+            contentDocument.body.firstChild.setAttribute(attribute, value);
+        }
+    }
+    return contentDocument.body.innerHTML;
+}
+>>>>>>> upstream/18.0

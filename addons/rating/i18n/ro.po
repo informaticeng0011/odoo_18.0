@@ -5,6 +5,10 @@
 # Translators:
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +16,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,27 +31,47 @@ msgstr ""
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_external_page_invalid_partner
 msgid "\" or someone from the same company can give it a rating."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "\" sau cineva din aceeași companie poate oferi o evaluare."
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_parent_mixin__rating_count
 msgid "# Ratings"
+<<<<<<< HEAD
 msgstr "Evaluări"
+=======
+msgstr "Număr evaluări"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_external_page_view
 msgid "<i class=\"fa fa-arrow-left me-1\"/> Back to the Homepage"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-arrow-left me-1\"/> Înapoi la pagina de pornire"
+=======
+msgstr "<i class=\"fa fa-arrow-left me-1\"/> Înapoi la pagina principală"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_kanban_stars
 msgid "<i class=\"fa fa-clock-o me-2\" aria-label=\"Create date\"/>"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-clock-o me-2\" aria-label=\"Create date\"/>"
+=======
+msgstr "<i class=\"fa fa-clock-o me-2\" aria-label=\"Data creării\"/>"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_kanban_stars
 msgid "<i class=\"fa fa-folder me-2\" aria-label=\"Open folder\"/>"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-folder me-2\" aria-label=\"Open folder\"/>"
+=======
+msgstr "<i class=\"fa fa-folder me-2\" aria-label=\"Deschide folder\"/>"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_kanban_stars
@@ -64,12 +92,20 @@ msgstr "Număr atașamente"
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__rating_avg
 #: model:ir.model.fields,field_description:rating.field_rating_parent_mixin__rating_avg
 msgid "Average Rating"
+<<<<<<< HEAD
 msgstr "Rating mediu"
+=======
+msgstr "Evaluare medie"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_parent_mixin__rating_avg_percentage
 msgid "Average Rating (%)"
+<<<<<<< HEAD
 msgstr "Rating mediu (%)"
+=======
+msgstr "Evaluare medie (%)"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__feedback
@@ -85,7 +121,11 @@ msgstr "Creat de"
 #: model:ir.model.fields,field_description:rating.field_rating_rating__partner_id
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Customer"
+<<<<<<< HEAD
 msgstr "ClientClient"
+=======
+msgstr "Client"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__display_name
@@ -119,17 +159,30 @@ msgstr "Model document"
 #. module: rating
 #: model:ir.model,name:rating.model_mail_thread
 msgid "Email Thread"
+<<<<<<< HEAD
 msgstr "Fir E-mail"
+=======
+msgstr "Fir e-mail"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_external_page_submit
 msgid "Feel free to share feedback on your experience:"
+<<<<<<< HEAD
 msgstr "Nu ezita să ne trimiți feedback despre experiența ta:"
+=======
+msgstr ""
+"Nu ezitați să ne transmiteți feedback despre experiența dumneavoastră:"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__consumed
 msgid "Filled Rating"
+<<<<<<< HEAD
 msgstr "Rating completat"
+=======
+msgstr "Evaluare completată"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__message_follower_ids
@@ -161,7 +214,11 @@ msgstr "Are mesaj"
 msgid ""
 "Hide to public / portal users, independently from subtype configuration."
 msgstr ""
+<<<<<<< HEAD
 "Ascundeți utilizatorii publicului / portalului, independent de configurația "
+=======
+"Ascunde pentru utilizatorii publici / portal, independent de configurația "
+>>>>>>> upstream/18.0
 "subtipului."
 
 #. module: rating
@@ -177,12 +234,20 @@ msgstr "ID"
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_mixin__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr "Dacă este bifat, mesaje noi necesită atenția dumneavoastră."
+=======
+msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_mixin__message_has_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr "Dacă este bifată, există mesaje cu eroare de livrare."
+=======
+msgstr "Dacă este bifat, unele mesaje au o eroare de livrare."
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__rating_image
@@ -192,19 +257,31 @@ msgstr "Imagine"
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__rating_image_url
 msgid "Image URL"
+<<<<<<< HEAD
 msgstr "URL Imagine "
+=======
+msgstr "URL imagine"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #. odoo-python
 #: code:addons/rating/controllers/main.py:0
 msgid "Incorrect rating: should be 1, 3 or 5 (received %d)"
+<<<<<<< HEAD
 msgstr "Evaluare incorectă: ar trebui să fie 1, 3 sau 5 (primită %d)"
+=======
+msgstr "Evaluare incorectă: ar trebui să fie 1, 3 sau 5 (primit %d)"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #. odoo-python
 #: code:addons/rating/models/mail_thread.py:0
 msgid "Invalid token or rating."
+<<<<<<< HEAD
 msgstr "Simbol sau evaluare nevalidă."
+=======
+msgstr "Token sau evaluare invalidă."
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__message_is_follower
@@ -214,12 +291,20 @@ msgstr "Este urmăritor"
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Last 30 Days"
+<<<<<<< HEAD
 msgstr "Ultimele 30 zile"
+=======
+msgstr "Ultimele 30 de zile"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Last 365 Days"
+<<<<<<< HEAD
 msgstr "Ultimile 365 de zile"
+=======
+msgstr "Ultimele 365 de zile"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
@@ -229,12 +314,20 @@ msgstr "Ultimele 7 zile"
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de către"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model,name:rating.model_mail_message
@@ -245,7 +338,11 @@ msgstr "Mesaj"
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr "Eroare de livrare a mesajului"
+=======
+msgstr "Eroare la livrarea mesajului"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__message_ids
@@ -270,7 +367,11 @@ msgstr "Nume"
 #: model:ir.model.fields.selection,name:rating.selection__rating_rating__rating_text__none
 #: model:ir.model.fields.selection,name:rating.selection__slide_channel__rating_avg_text__none
 msgid "No Rating yet"
+<<<<<<< HEAD
 msgstr "Nici o evaluare încă"
+=======
+msgstr "Nicio evaluare încă"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.actions.act_window,help:rating.rating_rating_action
@@ -308,17 +409,29 @@ msgstr "Numărul de mesaje cu eroare de livrare"
 #: model:ir.model.fields.selection,name:rating.selection__slide_channel__rating_avg_text__ok
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Okay"
+<<<<<<< HEAD
 msgstr "Ok"
+=======
+msgstr "Bine"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_external_page_invalid_partner
 msgid "Only the customer of \""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doar clientul \""
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__parent_res_id
 msgid "Parent Document"
+<<<<<<< HEAD
 msgstr "Document Părinte"
+=======
+msgstr "Document părinte"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__parent_res_model
@@ -328,7 +441,11 @@ msgstr "Model document părinte"
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__parent_res_name
 msgid "Parent Document Name"
+<<<<<<< HEAD
 msgstr "Document Părinte"
+=======
+msgstr "Nume document părinte"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_form
@@ -343,18 +460,30 @@ msgstr "Ref. părinte"
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__parent_res_model_id
 msgid "Parent Related Document Model"
+<<<<<<< HEAD
 msgstr "Modelul Documentului Asociat"
+=======
+msgstr "Model document asociat părinte"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_parent_mixin__rating_percentage_satisfaction
 msgid "Percentage of happy ratings"
+<<<<<<< HEAD
 msgstr "Procentul de evaluări pozitive"
+=======
+msgstr "Procent de evaluări pozitive"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__rated_partner_id
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Rated Operator"
+<<<<<<< HEAD
 msgstr "Operator Evaluat"
+=======
+msgstr "Operator evaluat"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model,name:rating.model_rating_rating
@@ -375,43 +504,75 @@ msgstr "Evaluare (/5)"
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__rating_avg_text
 msgid "Rating Avg Text"
+<<<<<<< HEAD
 msgstr "Textul mediu al evaluării"
+=======
+msgstr "Text mediu evaluare"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__rating_last_feedback
 msgid "Rating Last Feedback"
+<<<<<<< HEAD
 msgstr "Evaluare Ultimul feedback"
+=======
+msgstr "Ultimul feedback evaluare"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__rating_last_image
 msgid "Rating Last Image"
+<<<<<<< HEAD
 msgstr "Evaluare ultima imagine"
+=======
+msgstr "Ultima imagine evaluare"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__rating_last_value
 msgid "Rating Last Value"
+<<<<<<< HEAD
 msgstr "Evaluare ultima valoare"
+=======
+msgstr "Ultima valoare evaluare"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model,name:rating.model_rating_mixin
 msgid "Rating Mixin"
+<<<<<<< HEAD
 msgstr "Evaluare Mixin"
+=======
+msgstr "Mixin evaluare"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model,name:rating.model_rating_parent_mixin
 msgid "Rating Parent Mixin"
+<<<<<<< HEAD
 msgstr "Evaluare amestec părinte"
+=======
+msgstr "Mixin părinte evaluare"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__rating_percentage_satisfaction
 #: model:ir.model.fields,field_description:rating.field_rating_parent_mixin__rating_percentage_satisfaction
 msgid "Rating Satisfaction"
+<<<<<<< HEAD
 msgstr "Evaluare satisfacție"
+=======
+msgstr "Satisfacție evaluare"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__rating_last_text
 msgid "Rating Text"
+<<<<<<< HEAD
 msgstr "Evaluare text"
+=======
+msgstr "Text evaluare"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_mail_mail__rating_value
@@ -423,7 +584,11 @@ msgstr "Valoare evaluare"
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__rating_count
 msgid "Rating count"
+<<<<<<< HEAD
 msgstr "Număr de evaluări"
+=======
+msgstr "Număr evaluări"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.constraint,message:rating.constraint_rating_rating_rating_range
@@ -475,18 +640,30 @@ msgstr "Evaluare:"
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_tree
 msgid "Ratings"
+<<<<<<< HEAD
 msgstr "Ratings"
+=======
+msgstr "Evaluări"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__res_model_id
 msgid "Related Document Model"
+<<<<<<< HEAD
 msgstr "Modelul Documentului Asociat"
+=======
+msgstr "Model document asociat"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_mail_mail__rating_ids
 #: model:ir.model.fields,field_description:rating.field_mail_message__rating_ids
 msgid "Related ratings"
+<<<<<<< HEAD
 msgstr "Evaluări conexe"
+=======
+msgstr "Evaluări asociate"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
@@ -524,7 +701,11 @@ msgstr "Token de securitate"
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_external_page_submit
 msgid "Send Feedback"
+<<<<<<< HEAD
 msgstr "Trimitere Feedback"
+=======
+msgstr "Trimite feedback"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__create_date
@@ -550,20 +731,33 @@ msgstr "Momentan nu există o evaluare pentru acest obiect."
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__is_internal
 msgid "Visible Internally Only"
+<<<<<<< HEAD
 msgstr "Vizibil numai intern"
+=======
+msgstr "Vizibil doar intern"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #. odoo-python
 #: code:addons/rating/models/mail_thread.py:0
 msgid "Wrong rating value. A rate should be between 0 and 5 (received %d)."
 msgstr ""
+<<<<<<< HEAD
 "Valoare greșită a evaluării. O rată trebuie să fie între 0 și 5 (primită "
 "%d)."
+=======
+"Valoare greșită a evaluării. O evaluare trebuie să fie între 0 și 5 (primită"
+" %d)."
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_external_page_invalid_partner
 msgid "You cannot rate this"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu puteți evalua acest lucru"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_kanban

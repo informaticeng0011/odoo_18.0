@@ -1,15 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* analytic
 # 
 # Translators:
 # Wil Odoo, 2024
 # Manon Rondou, 2025
 # 
+=======
+# * analytic
+#
+# Translators:
+# Wil Odoo, 2024
+# Manon Rondou, 2025
+#
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manon Rondou, 2025\n"
@@ -19,6 +30,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-08-15 18:36+0000\n"
+"PO-Revision-Date: 2025-08-20 09:39+0000\n"
+"Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
+"Language-Team: French <https://translate.odoo.com/projects/odoo-18/analytic/"
+"fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
@@ -27,6 +52,15 @@ msgid "%s (copy)"
 msgstr "%s (copie)"
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/analytic/models/analytic_line.py:0
+msgid "%s analytic lines created"
+msgstr "%s écritures analytiques créées"
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "<span class=\"o_stat_text\">Analytic Accounts</span>"
 msgstr "<span class=\"o_stat_text\">Comptes analytiques</span>"
@@ -141,6 +175,10 @@ msgstr "Nombre de comptes analytiques"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_distribution
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_distribution
 msgid "Analytic Distribution"
 msgstr "Répartition analytique"
@@ -212,6 +250,10 @@ msgstr "Dimensions analytiques"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_precision
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_precision
 msgid "Analytic Precision"
 msgstr "Précision analytique"
@@ -364,8 +406,13 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
+<<<<<<< HEAD
 "Il est possible de convertir deux unités de mesures si elles appartiennent à"
 " la même catégorie. Cette conversion utilise les facteurs définis pour ces "
+=======
+"Il est possible de convertir deux unités de mesures si elles appartiennent à "
+"la même catégorie. Cette conversion utilise les facteurs définis pour ces "
+>>>>>>> upstream/18.0
 "unités."
 
 #. module: analytic
@@ -442,7 +489,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "factures fournisseurs, des notes de frais ou des feuilles de temps."
+=======
+"factures fournisseurs, des dépenses ou des feuilles de temps."
+>>>>>>> upstream/18.0
 =======
 "factures fournisseurs, des dépenses ou des feuilles de temps."
 >>>>>>> upstream/18.0
@@ -757,6 +808,15 @@ msgid "Domain"
 msgstr "Domaine"
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "Don't update"
+msgstr "Ne pas mettre à jour"
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:account.analytic.account,name:analytic.analytic_rd_finance
 msgid "Finance"
 msgstr "Finance"
@@ -822,11 +882,22 @@ msgstr "Si coché, certains messages ont une erreur de livraison."
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "In Odoo, sales orders and projects are implemented using\n"
+<<<<<<< HEAD
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
 "Dans Odoo, les commandes clients et les projets sont implémentés en utilisant les\n"
 "                comptes analytiques. Vous pouvez suivre les coûts et les revenus pour analyser\n"
+=======
+"                analytic accounts. You can track costs and revenues to "
+"analyse\n"
+"                your margins easily."
+msgstr ""
+"Dans Odoo, les commandes clients et les projets sont implémentés en "
+"utilisant les\n"
+"                comptes analytiques. Vous pouvez suivre les coûts et les "
+"revenus pour analyser\n"
+>>>>>>> upstream/18.0
 "                vos marges facilement."
 
 #. module: analytic
@@ -899,6 +970,15 @@ msgid "Miscellaneous"
 msgstr "Divers"
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
+msgid "Multi edit"
+msgstr "Modification multiple"
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__name
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_list
 msgid "Name"
@@ -1060,6 +1140,7 @@ msgstr "Recherche & Développement"
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "Revenues will be created automatically when you create customer\n"
+<<<<<<< HEAD
 "                invoices. Customer invoices can be created based on sales orders\n"
 "                (fixed price invoices), on timesheets (based on the work done) or\n"
 "                on expenses (e.g. reinvoicing of travel costs)."
@@ -1067,6 +1148,19 @@ msgstr ""
 "Les revenus seront créés automatiquement quand vous créerez des factures\n"
 " clients. Les factures clients peuvent être créées en fonction des commandes clients\n"
 " (factures au forfait), des feuilles de temps (sur la base du travail effectué) ou\n"
+=======
+"                invoices. Customer invoices can be created based on sales "
+"orders\n"
+"                (fixed price invoices), on timesheets (based on the work "
+"done) or\n"
+"                on expenses (e.g. reinvoicing of travel costs)."
+msgstr ""
+"Les revenus seront créés automatiquement quand vous créerez des factures\n"
+" clients. Les factures clients peuvent être créées en fonction des commandes "
+"clients\n"
+" (factures au forfait), des feuilles de temps (sur la base du travail "
+"effectué) ou\n"
+>>>>>>> upstream/18.0
 " des dépenses (par ex. la refacturation des frais de déplacement)."
 
 #. module: analytic
@@ -1122,8 +1216,13 @@ msgid ""
 msgstr ""
 "Sélectionnez une catégorie de partenaires pour laquelle la répartition "
 "analytique sera utilisée (par exemple, pour créer une nouvelle facture "
+<<<<<<< HEAD
 "client ou une nouvelle commande client, si nous sélectionnons ce partenaire,"
 " il sera automatiquement considéré comme un compte analytique)."
+=======
+"client ou une nouvelle commande client, si nous sélectionnons ce partenaire, "
+"il sera automatiquement considéré comme un compte analytique)."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__partner_id
@@ -1180,6 +1279,15 @@ msgid "UoM Category"
 msgstr "Catégorie d'UdM"
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "Update"
+msgstr "Mettre à jour"
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__user_id
 msgid "User"
 msgstr "Utilisateur"
@@ -1188,6 +1296,7 @@ msgstr "Utilisateur"
 #. odoo-python
 #: code:addons/analytic/models/analytic_account.py:0
 msgid ""
+<<<<<<< HEAD
 "Whoa there! Making this change would wipe out your current data. Let's avoid"
 " that, shall we?"
 msgstr ""
@@ -1593,6 +1702,13 @@ msgstr ""
 "actuelles. Faisons en sorte d'éviter cela !"
 >>>>>>> upstream/18.0
 =======
+"Attention ! Cette modification entraînerait l'effacement de vos données "
+"actuelles. Faisons en sorte d'éviter cela !"
+>>>>>>> upstream/18.0
+=======
+"Whoa there! Making this change would wipe out your current data. Let's avoid "
+"that, shall we?"
+msgstr ""
 "Attention ! Cette modification entraînerait l'effacement de vos données "
 "actuelles. Faisons en sorte d'éviter cela !"
 >>>>>>> upstream/18.0

@@ -390,7 +390,10 @@ export class CalendarCommonRenderer extends Component {
     wrapMoreLink({ el }) {
         const wrapper = document.createElement("div");
         wrapper.classList.add("fc-more-cell");
+<<<<<<< HEAD
         el.classList.remove("fc-daygrid-more-link");
+=======
+>>>>>>> upstream/18.0
         el.parentNode.insertBefore(wrapper, el);
         wrapper.appendChild(el);
     }

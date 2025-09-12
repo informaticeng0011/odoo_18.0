@@ -3,18 +3,31 @@
 # 	* loyalty
 # 
 # Translators:
+<<<<<<< HEAD
 # Larisa_nexterp, 2024
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
 # Corina Calin, 2024
+=======
+# Lyall Kindmurr, 2024
+# Wil Odoo, 2024
+# Corina Calin, 2024
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Corina Calin, 2024\n"
+=======
+"POT-Creation-Date: 2025-07-18 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,8 +44,14 @@ msgid ""
 "        "
 msgstr ""
 "\n"
+<<<<<<< HEAD
 "         Automat: Clienții vor fi eligibili pentru o recompensă în mod automat în coșul lor.\n"
 "         Utilizați un cod: Clienții vor fi eligibili pentru o recompensă dacă introduc un cod."
+=======
+"        Automat: Clienții vor fi eligibili pentru o recompensă automat în coșul lor.\n"
+"        Folosiți un cod: Clienții vor fi eligibili pentru o recompensă dacă introduc un cod.\n"
+"        "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__available_on
@@ -53,14 +72,22 @@ msgid ""
 "        "
 msgstr ""
 "\n"
+<<<<<<< HEAD
 "        Afișați în portalul web, biletul pentru clienți PoS, finalizarea eCommerce, numărul de puncte disponibile și utilizate de recompensă.\n"
+=======
+"        Afișați în portalul web, biletul clientului PoS, finalizarea eCommerce, numărul de puncte disponibile și utilizate pentru recompensă.\n"
+>>>>>>> upstream/18.0
 "        "
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid " (Max %s)"
+<<<<<<< HEAD
 msgstr " (Max %s)"
+=======
+msgstr " (Maxim %s)"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -71,13 +98,21 @@ msgstr "100 $"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "%g%% on "
+<<<<<<< HEAD
 msgstr "%g%% în "
+=======
+msgstr "%g%% la "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "%s on "
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s la "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -89,12 +124,20 @@ msgstr "%s per punct"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "%s per point on "
+<<<<<<< HEAD
 msgstr "%s per punct pe "
+=======
+msgstr "%s per punct la "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "( Max"
+<<<<<<< HEAD
 msgstr "( Max"
+=======
+msgstr "( Maxim"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
@@ -110,7 +153,11 @@ msgstr "(fără taxe)"
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 msgid "-> View History"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "-> Vezi Istoric"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:loyalty.program,name:loyalty.10_percent_coupon
@@ -121,7 +168,11 @@ msgstr "Cupoane de reducere 10%"
 #: model:loyalty.reward,description:loyalty.10_percent_coupon_reward
 #: model:loyalty.reward,description:loyalty.10_percent_with_code_reward
 msgid "10% on your order"
+<<<<<<< HEAD
 msgstr "10% la comanda dvs."
+=======
+msgstr "10% la comanda ta"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.gift_card_report
@@ -132,7 +183,11 @@ msgstr "1000"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "2+1 Free"
+<<<<<<< HEAD
 msgstr "2+1 Gratis"
+=======
+msgstr "2+1 Gratuit"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -179,38 +234,62 @@ msgstr ""
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "<i class=\"fa fa-cube fa-fw\" title=\"Product Domain\"/>"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Product Domain\"/>"
+=======
+msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Domeniu produs\"/>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "<i class=\"fa fa-cube fa-fw\" title=\"Products\"/>"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Products\"/>"
+=======
+msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Produse\"/>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "<i class=\"fa fa-cube fa-fw\" title=\"Products\"/><span>All Products</span>"
+<<<<<<< HEAD
 msgstr ""
 "<i class=\"fa fa-cube fa-fw\" title=\"Products\"/><span>Toate "
 "produsele</span>"
+=======
+msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Produse\"/><span>Toate produsele</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "<i class=\"fa fa-cubes fa-fw\" title=\"Product Categories\"/>"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-cubes fa-fw\" title=\"Product Categories\"/>"
+=======
+msgstr "<i class=\"fa fa-cubes fa-fw\" title=\"Categorii de produse\"/>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "<i class=\"fa fa-search fa-fw\" title=\"Product Domain\"/>"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-search fa-fw\" title=\"Product Domain\"/>"
+=======
+msgstr "<i class=\"fa fa-search fa-fw\" title=\"Domeniu produs\"/>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "<i class=\"fa fa-tags fa-fw\" title=\"Product Tags\"/>"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-tags fa-fw\" title=\"Product Tags\"/>"
+=======
+msgstr "<i class=\"fa fa-tags fa-fw\" title=\"Etichete produs\"/>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -225,7 +304,11 @@ msgstr ""
 "<span class=\"o_stat_text\" invisible=\"program_type not in ('coupons', 'next_order_coupons')\">Cupoane</span>\n"
 "                                <span class=\"o_stat_text\" invisible=\"program_type != 'loyalty'\">Carduri de loialitate</span>\n"
 "                                <span class=\"o_stat_text\" invisible=\"program_type not in ('promotion', 'buy_x_get_y')\">Promoții</span>\n"
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\" invisible=\"program_type != 'promo_code'\">Discount-uri</span>\n"
+=======
+"                                <span class=\"o_stat_text\" invisible=\"program_type != 'promo_code'\">Reducere</span>\n"
+>>>>>>> upstream/18.0
 "                                <span class=\"o_stat_text\" invisible=\"program_type != 'gift_card'\">Carduri cadou</span>\n"
 "                                <span class=\"o_stat_text\" invisible=\"program_type != 'ewallet'\">Portofele electronice</span>"
 
@@ -245,7 +328,11 @@ msgid ""
 " of coupon points defined as the coupon value</span>"
 msgstr ""
 "<span colspan=\"2\" invisible=\"program_type != 'coupons'\">Acordați suma de"
+<<<<<<< HEAD
 " puncte pe cupon definită ca valoare a cuponului</span>"
+=======
+" puncte cupon definite ca valoare a cuponului</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
@@ -263,16 +350,27 @@ msgid ""
 "                        </span>"
 msgstr ""
 "<span invisible=\"not will_send_mail\">\n"
+<<<<<<< HEAD
 "                            Generați și trimiteți \n"
 "                        </span>\n"
 "                        <span invisible=\"will_send_mail\">\n"
 "                            Generați \n"
+=======
+"                            Generează și trimite \n"
+"                        </span>\n"
+"                        <span invisible=\"will_send_mail\">\n"
+"                            Generează \n"
+>>>>>>> upstream/18.0
 "                        </span>"
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.portal_loyalty_history_breadcrumbs
 msgid "<span>History</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Istoric</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -282,7 +380,11 @@ msgstr "<span>Achiziție minimă de</span>"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "<span>Valid for purchase above</span>"
+<<<<<<< HEAD
 msgstr "<span>Valabil pentru achiziția mai sus</span>"
+=======
+msgstr "<span>Valabil pentru achiziții peste</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
@@ -351,12 +453,67 @@ msgid ""
 "</tbody></table>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%; margin:0px auto; background:#ffffff; color:#333333;\"><tbody>\n"
+"<tr>\n"
+"    <td valign=\"top\" style=\"text-align: center; font-size: 14px;\">\n"
+"        <t t-if=\"object._get_mail_partner().name\">\n"
+"            Felicitări <t t-out=\"object._get_mail_partner().name or ''\">Brandon Freeman</t>,<br/>\n"
+"        </t>\n"
+"\n"
+"        Iată recompensa ta de la <t t-out=\"object.program_id.company_id.name or ''\">YourCompany</t>.<br/>\n"
+"\n"
+"        <t t-foreach=\"object.program_id.reward_ids\" t-as=\"reward\">\n"
+"            <t t-if=\"reward.required_points &lt;= object.points\">\n"
+"                <span style=\"font-size: 50px; color: #875A7B; font-weight: bold;\" t-esc=\"reward.description\">Descriere recompensă</span>\n"
+"                <br/>\n"
+"            </t>\n"
+"        </t>\n"
+"    </td>\n"
+"</tr>\n"
+"<tr style=\"margin-top: 16px\">\n"
+"    <td valign=\"top\" style=\"text-align: center; font-size: 14px;\">\n"
+"        Folosește acest cod promoțional\n"
+"        <t t-if=\"object.expiration_date\">\n"
+"            înainte de <t t-out=\"object.expiration_date or ''\">2021-06-16</t>\n"
+"        </t>\n"
+"        <p style=\"margin-top: 16px;\">\n"
+"            <strong style=\"padding: 16px 8px 16px 8px; border-radius: 3px; background-color: #F1F1F1;\" t-out=\"object.code or ''\">15637502648479132902</strong>\n"
+"        </p>\n"
+"        <t t-foreach=\"object.program_id.rule_ids\" t-as=\"rule\">\n"
+"            <t t-if=\"rule.minimum_qty not in [0, 1]\">\n"
+"                <span style=\"font-size: 14px;\">\n"
+"                    Achiziție minimă de <t t-out=\"rule.minimum_qty or ''\">10</t> produse\n"
+"                </span><br/>\n"
+"            </t>\n"
+"            <t t-if=\"rule.minimum_amount != 0.00\">\n"
+"                <span style=\"font-size: 14px;\">\n"
+"                    Valabil pentru achiziții peste <t t-out=\"rule.company_id.currency_id.symbol or ''\">$</t><t t-out=\"'%0.2f' % float(rule.minimum_amount) or ''\">10.00</t>\n"
+"                </span><br/>\n"
+"            </t>\n"
+"        </t>\n"
+"        <br/>\n"
+"        Mulțumim,\n"
+"        <t t-if=\"object._get_signature()\" data-o-mail-quote-container=\"1\">\n"
+"            <br/>\n"
+"            <t t-out=\"object._get_signature() or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+"        </t>\n"
+"    </td>\n"
+"</tr>\n"
+"</tbody></table>\n"
+"        "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_rule.py:0
 msgid "A coupon with the same code was found."
+<<<<<<< HEAD
 msgstr "A fost identificat un cupon cu același cod."
+=======
+msgstr "A fost găsit un cupon cu același cod."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.constraint,message:loyalty.constraint_loyalty_card_card_code_unique
@@ -372,13 +529,21 @@ msgstr "Un program trebuie să aibă cel puțin o recompensă."
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_buttons
 msgid "A reward is waiting for you"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O recompensă te așteaptă"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "A reward product can't be of type \"combo\"."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Un produs de recompensă nu poate fi de tip \"combo\"."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -444,7 +609,11 @@ msgstr "Printre"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "Among:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Printre:"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_generate_wizard__mode__anonymous
@@ -459,7 +628,11 @@ msgstr "Aplicare"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "Applied to:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aplicat la:"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__applies_on
@@ -522,19 +695,31 @@ msgstr ""
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Buy 2 products and get a third one for free"
+<<<<<<< HEAD
 msgstr "Cumpărați 2 produse și-l primiți pe al treilea gratuit"
+=======
+msgstr "Cumpărați 2 produse și primiți al treilea gratuit"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:loyalty.program,name:loyalty.3_cabinets_plus_1_free
 msgid "Buy 3 large cabinets, get one for free"
+<<<<<<< HEAD
 msgstr "Cumpărați 3 dulapuri mari, obțineți unul gratuit"
+=======
+msgstr "Cumpărați 3 dulapuri mari, primiți unul gratuit"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__buy_x_get_y
 msgid "Buy X Get Y"
+<<<<<<< HEAD
 msgstr "Cumpărați X Obțineți Y"
+=======
+msgstr "Cumpărați X, primiți Y"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -567,17 +752,29 @@ msgstr "Categorii"
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_reward__discount_applicability__cheapest
 msgid "Cheapest Product"
+<<<<<<< HEAD
 msgstr "Produsul cel mai ieftin"
+=======
+msgstr "Cel mai ieftin produs"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__clear_wallet
 msgid "Clear Wallet"
+<<<<<<< HEAD
 msgstr "Ștergeți portofelul"
+=======
+msgstr "Șterge portofelul"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "Clear all promo point(s)"
+<<<<<<< HEAD
 msgstr "Ștergeți toate punctele promoționale"
+=======
+msgstr "Șterge toate punctele promoționale"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__code
@@ -587,7 +784,11 @@ msgstr "Cod"
 #. module: loyalty
 #: model:loyalty.program,name:loyalty.10_percent_with_code
 msgid "Code for 10% on orders"
+<<<<<<< HEAD
 msgstr "Cod pentru 10% la comenzi"
+=======
+msgstr "Cod pentru 10% reducere la comenzi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__communication_plan_ids
@@ -632,7 +833,11 @@ msgstr "Confirmă"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__confirmation_message
 msgid "Confirmation Message"
+<<<<<<< HEAD
 msgstr "Mesaj de confiirmare"
+=======
+msgstr "Mesaj de confirmare"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -642,13 +847,21 @@ msgstr "Felicitări"
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_res_partner
 msgid "Contact"
+<<<<<<< HEAD
 msgstr "Contactați"
+=======
+msgstr "Contact"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-javascript
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "Control panel buttons"
+<<<<<<< HEAD
 msgstr "Butoane panou control"
+=======
+msgstr "Butoane panou de control"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -665,13 +878,21 @@ msgstr "Cod cupon"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__coupon_count
 msgid "Coupon Count"
+<<<<<<< HEAD
 msgstr "Nr. Cupoane"
+=======
+msgstr "Număr cupoane"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Coupon point(s)"
+<<<<<<< HEAD
 msgstr "Punct(e) promoționale"
+=======
+msgstr "Punct(e) cupon"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:loyalty.program,portal_point_name:loyalty.10_percent_coupon
@@ -686,7 +907,11 @@ msgstr "Valoare cupon"
 #. module: loyalty
 #: model:mail.template,name:loyalty.mail_template_loyalty_card
 msgid "Coupon: Coupon Information"
+<<<<<<< HEAD
 msgstr "Cupon: Informații despre cupon"
+=======
+msgstr "Cupon: Informații cupon"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -701,18 +926,31 @@ msgstr "Cupoane"
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_program_gift_ewallet_action
 msgid "Create a new one from scratch, or use one of the templates below."
 msgstr ""
+<<<<<<< HEAD
 "Creați unul nou de la zero sau utilizați unul dintre modelele de mai jos."
+=======
+"Creați unul nou de la zero sau folosiți unul dintre șabloanele de mai jos."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_program_discount_loyalty_action
 msgid "Create one from scratch, or use a templates below:"
+<<<<<<< HEAD
 msgstr "Creați unul de la zero sau folosiți modelele de mai jos:"
+=======
+msgstr ""
+"Creați unul de la zero sau folosiți unul dintre șabloanele de mai jos:"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-javascript
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "Create record"
+<<<<<<< HEAD
 msgstr "Creați o înregistrare"
+=======
+msgstr "Creează înregistrare"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__create_uid
@@ -756,7 +994,11 @@ msgstr "Monedă"
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__currency_symbol
 msgid "Currency sign, to be used when printing amounts."
+<<<<<<< HEAD
 msgstr "Semnul monedei, care va fi folosit la imprimarea sumelor."
+=======
+msgstr "Simbolul monedei, folosit la afișarea sumelor."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__applies_on__both
@@ -833,7 +1075,11 @@ msgstr "Reducere"
 #: model:ir.actions.act_window,name:loyalty.loyalty_program_discount_loyalty_action
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Discount & Loyalty"
+<<<<<<< HEAD
 msgstr "Discount și loialitate"
+=======
+msgstr "Reducere și loialitate"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_applicability
@@ -843,12 +1089,20 @@ msgstr "Aplicabilitate reducere"
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__promo_code
 msgid "Discount Code"
+<<<<<<< HEAD
 msgstr "Cod discount"
+=======
+msgstr "Cod reducere"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_line_product_id
 msgid "Discount Line Product"
+<<<<<<< HEAD
 msgstr "Produs cu linie de discount"
+=======
+msgstr "Produs linie reducere"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_mode
@@ -858,12 +1112,20 @@ msgstr "Mod reducere"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__payment_program_discount_product_id
 msgid "Discount Product"
+<<<<<<< HEAD
 msgstr "Reducere produs"
+=======
+msgstr "Produs cu reducere"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_product_domain
 msgid "Discount Product Domain"
+<<<<<<< HEAD
 msgstr "Domeniu de produs cu discount"
+=======
+msgstr "Domeniu produs cu reducere"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -871,14 +1133,22 @@ msgstr "Domeniu de produs cu discount"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__code
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "Discount code"
+<<<<<<< HEAD
 msgstr "Cod discount"
+=======
+msgstr "Cod reducere"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 #: model:loyalty.program,portal_point_name:loyalty.10_percent_with_code
 msgid "Discount point(s)"
+<<<<<<< HEAD
 msgstr "Punct(e) de reducere"
+=======
+msgstr "Punct(e) reducere"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
@@ -888,7 +1158,11 @@ msgstr "Produs cu reducere"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_product_category_id
 msgid "Discounted Prod. Categories"
+<<<<<<< HEAD
 msgstr "Categorii de produse la preț redus"
+=======
+msgstr "Categorii produse reduse"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_product_tag_id
@@ -929,9 +1203,15 @@ msgid ""
 "Drive repeat purchases by sending a unique, single-use coupon code for the "
 "next purchase when a customer buys something in your store."
 msgstr ""
+<<<<<<< HEAD
 "Promovați achizițiile frecvente prin trimiterea unui cod de cupon de unică "
 "folosință pentru următoarea achiziție, atunci când un client cumpără ceva "
 "din magazinul dvs."
+=======
+"Încurajați achizițiile repetate trimițând un cod de cupon unic, de o singură"
+" utilizare, pentru următoarea achiziție când un client cumpără ceva din "
+"magazinul dvs."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -939,8 +1219,13 @@ msgid ""
 "Each rule can grant points to the customer he will be able to exchange "
 "against rewards"
 msgstr ""
+<<<<<<< HEAD
 "Fiecare regulă poate acorda puncte clientului, pe care acesta le va putea "
 "schimba cu recompense"
+=======
+"Fiecare regulă poate acorda puncte clientului, pe care acesta le poate "
+"schimba pentru recompense"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_mail__mail_template_id
@@ -961,7 +1246,11 @@ msgstr "Dată sfârșit"
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "Example: Gift for customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exemplu: Cadou pentru client"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__expiration_date
@@ -972,26 +1261,42 @@ msgstr "Data expirării"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_card.py:0
 msgid "Expiration date cannot be set on a loyalty card."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data expirării nu poate fi setată pe un card de loialitate."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Fidelity Card"
+<<<<<<< HEAD
 msgstr "Card Fidelitate"
+=======
+msgstr "Card de fidelitate"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Fidelity Cards"
+<<<<<<< HEAD
 msgstr "Carduri Fidelitate"
+=======
+msgstr "Carduri de fidelitate"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Fill in your eWallet, to pay future orders"
+<<<<<<< HEAD
 msgstr ""
 "Introduceți portofelul dvs. electronic, pentru a plăti comenzile viitoare"
+=======
+msgstr "Alimentează portofelul electronic pentru a plăti comenzile viitoare"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_follower_ids
@@ -1011,7 +1316,11 @@ msgstr "Pentru"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "For all customers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pentru toți clienții"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1029,7 +1338,11 @@ msgstr "Produs gratuit - %s"
 #. module: loyalty
 #: model:loyalty.reward,description:loyalty.3_cabinets_plus_1_free_reward
 msgid "Free Product - Large Cabinet"
+<<<<<<< HEAD
 msgstr "Produs gratuit - dulap mare"
+=======
+msgstr "Produs gratuit - Dulap mare"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1053,7 +1366,11 @@ msgstr "Comenzi viitoare"
 #: model:ir.actions.act_window,name:loyalty.loyalty_generate_wizard_action
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "Generate"
+<<<<<<< HEAD
 msgstr "Generați"
+=======
+msgstr "Generează"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -1062,31 +1379,51 @@ msgid ""
 "Point of Sale or regular orders to claim the Reward. You can define "
 "constraints on its usage through conditional rule."
 msgstr ""
+<<<<<<< HEAD
 "Generați &amp; partajați coduri promoționale manual. Acesta poate fi "
 "utilizat în comerțul electronic, punctul de vânzare sau în comenzile "
 "obișnuite pentru a solicita recompensa. Puteți defini constrângeri privind "
 "utilizarea acestuia prin intermediul regulilor condiționale."
+=======
+"Generează și partajează coduri de cupon manual. Acestea pot fi utilizate în "
+"eCommerce, Punct de Vânzare sau comenzi obișnuite pentru a revendica "
+"recompensa. Poți defini constrângeri privind utilizarea prin reguli "
+"condiționale."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_generate_wizard
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Generate Coupons"
+<<<<<<< HEAD
 msgstr "Generați cupoane"
+=======
+msgstr "Generează cupoane"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Generate Gift Cards"
+<<<<<<< HEAD
 msgstr "Generați carduri cadou"
+=======
+msgstr "Generează carduri cadou"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Generate and share unique coupons with your customers"
+<<<<<<< HEAD
 msgstr "Generați și partajați cupoane unice cu clienții dvs."
+=======
+msgstr "Generează și partajează cupoane unice cu clienții tăi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Generate eWallet"
+<<<<<<< HEAD
 msgstr "Generați portofelul electronic"
 
 #. module: loyalty
@@ -1094,17 +1431,28 @@ msgstr "Generați portofelul electronic"
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "Generate {{props.context.program_item_name}}"
 msgstr ""
+=======
+msgstr "Generează portofel electronic"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Get 10% off on some products, with a code"
+<<<<<<< HEAD
 msgstr "Obțineți 10% reducere la unele produse, cu un cod"
+=======
+msgstr "Obține 10% reducere la unele produse, cu un cod"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_gift_ewallet_view_form
 msgid "Gift &amp; Ewallet"
+<<<<<<< HEAD
 msgstr "Cadou &amp; Portofel electronic"
+=======
+msgstr "Cadou & Portofel electronic"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1120,7 +1468,11 @@ msgstr "Card cadou"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Gift Card Products"
+<<<<<<< HEAD
 msgstr "Produse cu carduri cadou"
+=======
+msgstr "Produse cu card cadou"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
@@ -1130,7 +1482,11 @@ msgstr "Valoare card cadou"
 #. module: loyalty
 #: model:mail.template,name:loyalty.mail_template_gift_card
 msgid "Gift Card: Gift Card Information"
+<<<<<<< HEAD
 msgstr "Card cadou: Informații despre cardul cadou"
+=======
+msgstr "Card cadou: Informații card cadou"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1146,15 +1502,25 @@ msgid ""
 "                                    <br/>\n"
 "                                    Then, Gift Cards can be used to pay orders."
 msgstr ""
+<<<<<<< HEAD
 "Cardurile cadou sunt create manual sau trimise automat prin e-mail atunci când clientul comandă un produs cu card cadou.\n"
 "                                     <br/>\n"
 "                                    Apoi, cardurile cadou pot fi utilizate pentru plata comenzilor."
+=======
+"Cardurile cadou sunt create manual sau trimise automat prin e-mail când clientul comandă un produs cu card cadou.\n"
+"                                     <br/>\n"
+"                                    Apoi, cardurile cadou pot fi folosite pentru plata comenzilor."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_generate_wizard.py:0
 msgid "Gift For Customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cadou pentru client"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.actions.act_window,name:loyalty.loyalty_program_gift_ewallet_action
@@ -1165,7 +1531,11 @@ msgstr "Carduri cadou și portofel electronic"
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_card_update_balance.py:0
 msgid "Gift for customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cadou pentru client"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__points_granted
@@ -1206,12 +1576,20 @@ msgstr "Istoric"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_form
 msgid "History Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linii istoric"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_history
 msgid "History for Loyalty cards and Ewallets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Istoric pentru carduri de loialitate și portofele electronice"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__id
@@ -1228,13 +1606,21 @@ msgstr "ID"
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_card__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr "Dacă este bifat, mesaje noi necesită atenția dumneavoastră."
+=======
+msgstr "Dacă este bifat, mesajele noi necesită atenția ta."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_card__message_has_error
 #: model:ir.model.fields,help:loyalty.field_loyalty_card__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr "Dacă este bifată, există mesaje cu eroare de livrare."
+=======
+msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
@@ -1266,7 +1652,11 @@ msgstr "Este urmăritor"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__is_global_discount
 msgid "Is Global Discount"
+<<<<<<< HEAD
 msgstr "Este o reducere globală"
+=======
+msgstr "Este reducere globală"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__is_nominative
@@ -1276,7 +1666,11 @@ msgstr "Este nominal"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__is_payment_program
 msgid "Is Payment Program"
+<<<<<<< HEAD
 msgstr "Este programul de plată"
+=======
+msgstr "Este program de plată"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1284,13 +1678,21 @@ msgstr "Este programul de plată"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_history__issued
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
 msgid "Issued"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Emis"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__coupon_count_display
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_tree
 msgid "Items"
+<<<<<<< HEAD
 msgstr "Elemente"
+=======
+msgstr "Articole"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -1301,7 +1703,11 @@ msgstr "John Doe"
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 msgid "Last Transactions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ultimele tranzacții"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__write_uid
@@ -1313,7 +1719,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__write_uid
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de către"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__write_date
@@ -1325,7 +1735,11 @@ msgstr "Ultima actualizare făcută de"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__write_date
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_mail_view_tree
@@ -1340,7 +1754,11 @@ msgstr "Limitare utilizare"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "Logo"
+<<<<<<< HEAD
 msgstr "Sigla"
+=======
+msgstr "Siglă"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1379,12 +1797,20 @@ msgstr "Recompensă de loialitate"
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_rule
 msgid "Loyalty Rule"
+<<<<<<< HEAD
 msgstr "Regulă Loialitate"
+=======
+msgstr "Regulă de loialitate"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
 msgid "Loyalty Transaction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tranzacție de loialitate"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1412,7 +1838,11 @@ msgstr ""
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_base_partner_merge_automatic_wizard
 msgid "Merge Partner Wizard"
+<<<<<<< HEAD
 msgstr "Expert partener îmbinare"
+=======
+msgstr "Expert de îmbinare parteneri"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_has_error
@@ -1427,7 +1857,11 @@ msgstr "Mesaje"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__minimum_amount_tax_mode
 msgid "Minimum Amount Tax Mode"
+<<<<<<< HEAD
 msgstr "Mod de impozitare cu sumă minimă"
+=======
+msgstr "Mod de impozitare pentru sumă minimă"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__minimum_amount
@@ -1437,7 +1871,11 @@ msgstr "Achiziție minimă"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__minimum_qty
 msgid "Minimum Quantity"
+<<<<<<< HEAD
 msgstr "Cantitatea minimă"
+=======
+msgstr "Cantitate minimă"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__multi_product
@@ -1447,13 +1885,21 @@ msgstr "Produs multiplu"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card_update_balance__new_balance
 msgid "New Balance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sold nou"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_card_update_balance.py:0
 msgid "New Balance should be positive and different then old balance."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Soldul nou trebuie să fie pozitiv și diferit de soldul vechi."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1476,7 +1922,11 @@ msgstr "Nu au fost găsite cupoane."
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_program_gift_ewallet_action
 msgid "No loyalty program found."
+<<<<<<< HEAD
 msgstr "Nu a fost găsit niciun program de fidelitate."
+=======
+msgstr "Nu a fost găsit niciun program de loialitate."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_program_discount_loyalty_action
@@ -1518,7 +1968,11 @@ msgstr "Comandă"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_history__order_model
 msgid "Order Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model comandă"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__partner_id
@@ -1560,14 +2014,25 @@ msgstr "Puncte necesare"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__point_name
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__reward_point_name
 msgid "Portal Point Name"
+<<<<<<< HEAD
 msgstr "Portal Point Name"
+=======
+msgstr "Nume punct portal"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__portal_visible
 msgid "Portal Visible"
+<<<<<<< HEAD
 msgstr "Portal vizibil"
 
 #. module: loyalty
+=======
+msgstr "Vizibil în portal"
+
+#. module: loyalty
+#: model:ir.model,name:loyalty.model_product_pricelist
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__pricelist_ids
 msgid "Pricelist"
 msgstr "Listă de prețuri"
@@ -1581,7 +2046,11 @@ msgstr "Produs"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__product_domain
 msgid "Product Domain"
+<<<<<<< HEAD
 msgstr "Domeniu Produs"
+=======
+msgstr "Domeniu produs"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_tag_id
@@ -1592,7 +2061,11 @@ msgstr "Etichetă produs"
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_product_product
 msgid "Product Variant"
+<<<<<<< HEAD
 msgstr "Variantă de produs"
+=======
+msgstr "Variantă produs"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__payment_program_discount_product_id
@@ -1605,8 +2078,13 @@ msgid ""
 "Product used in the sales order to apply the discount. Each reward has its "
 "own product for reporting purpose"
 msgstr ""
+<<<<<<< HEAD
 "Produsul utilizat în comanda de vânzare pentru aplicarea reducerii. Fiecare "
 "recompensă are propriul său produs în scopul raportării"
+=======
+"Produs utilizat în comanda de vânzare pentru aplicarea reducerii. Fiecare "
+"recompensă are propriul produs pentru raportare"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__trigger_product_ids
@@ -1641,7 +2119,11 @@ msgstr "Tip program"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Program trigger"
+<<<<<<< HEAD
 msgstr "Declanșare program"
+=======
+msgstr "Declanșator program"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1653,7 +2135,11 @@ msgstr "Cod promoțional"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Promo point(s)"
+<<<<<<< HEAD
 msgstr "Punct(e) promoțional(e)"
+=======
+msgstr "Punct(e) promo"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1690,7 +2176,11 @@ msgstr "Cantitate de generat"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__rating_ids
 msgid "Ratings"
+<<<<<<< HEAD
 msgstr "Ratings"
+=======
+msgstr "Evaluări"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__reward_point_amount
@@ -1701,22 +2191,38 @@ msgstr "Recompensă"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__reward_point_mode
 msgid "Reward Point Mode"
+<<<<<<< HEAD
 msgstr "Mod de punct de recompensă"
+=======
+msgstr "Mod puncte recompensă"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_domain
 msgid "Reward Product Domain"
+<<<<<<< HEAD
 msgstr "Domeniu de produs recompensă"
+=======
+msgstr "Domeniu produs recompensă"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_qty
 msgid "Reward Product Qty"
+<<<<<<< HEAD
 msgstr "Cantitate produs de recompensă"
+=======
+msgstr "Cantitate produs recompensă"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_uom_id
 msgid "Reward Product Uom"
+<<<<<<< HEAD
 msgstr "Unitate de măsură produs de recompensă"
+=======
+msgstr "Unitate de măsură produs recompensă"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_ids
@@ -1737,12 +2243,20 @@ msgstr "Recompense"
 #. module: loyalty
 #: model:ir.model.constraint,message:loyalty.constraint_loyalty_rule_reward_point_amount_positive
 msgid "Rule points reward must be strictly positive."
+<<<<<<< HEAD
 msgstr "Recompensa regulii punctelor trebuie să fie strict pozitivă."
+=======
+msgstr "Recompensa punctelor regulii trebuie să fie strict pozitivă."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Rules & Rewards"
+<<<<<<< HEAD
 msgstr "Reguli și Recompense"
+=======
+msgstr "Reguli și recompense"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_has_sms_error
@@ -1758,7 +2272,11 @@ msgstr "Clienți selectați"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Sell Gift Cards, that allows to purchase products"
+<<<<<<< HEAD
 msgstr "Vindeți carduri cadou, care permit achiziționarea de produse"
+=======
+msgstr "Vindeți carduri cadou care permit achiziționarea de produse"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_tree
@@ -1780,7 +2298,11 @@ msgstr "Trimis clientului care a achiziționat un card cadou"
 #. module: loyalty
 #: model:mail.template,description:loyalty.mail_template_loyalty_card
 msgid "Sent to customer with coupon information"
+<<<<<<< HEAD
 msgstr "Trimis către client cu informații despre cupon"
+=======
+msgstr "Trimis clientului cu informații despre cupon"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__sequence
@@ -1799,7 +2321,11 @@ msgstr ""
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Show points Unit"
+<<<<<<< HEAD
 msgstr "Afișați unitatea de puncte"
+=======
+msgstr "Afișează unitatea de puncte"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_reward__discount_applicability__specific
@@ -1809,20 +2335,32 @@ msgstr "Produse specifice"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__reward_point_split
 msgid "Split per unit"
+<<<<<<< HEAD
 msgstr "Împărțit pe unitate"
+=======
+msgstr "Împarte pe unitate"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_rule.py:0
 msgid "Split per unit is not allowed for Loyalty and eWallet programs."
 msgstr ""
+<<<<<<< HEAD
 "Divizarea pe unitate nu este permisă pentru programele de loialitate și "
+=======
+"Împărțirea pe unitate nu este permisă pentru programele de loialitate și "
+>>>>>>> upstream/18.0
 "portofel electronic."
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__date_from
 msgid "Start Date"
+<<<<<<< HEAD
 msgstr "Dată început"
+=======
+msgstr "Data început"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__currency_symbol
@@ -1837,12 +2375,20 @@ msgstr "Taxe"
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_reward__tax_ids
 msgid "Taxes to add on the discount line."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Taxe de adăugat pe linia de reducere."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "Thank you,"
+<<<<<<< HEAD
 msgstr "Mulțumesc,"
+=======
+msgstr "Mulțumim,"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.constraint,message:loyalty.constraint_loyalty_reward_discount_positive
@@ -1853,7 +2399,11 @@ msgstr "Reducerea trebuie să fie strict pozitivă."
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__date_to
 msgid "The end date is included in the validity period of this program"
 msgstr ""
+<<<<<<< HEAD
 "Data de încheiere este inclusă în perioada de valabilitate a acestui program"
+=======
+"Data de sfârșit este inclusă în perioada de valabilitate a acestui program"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1884,7 +2434,11 @@ msgstr "Cantitatea produsului de recompensă trebuie să fie strict pozitivă."
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__date_from
 msgid "The start date is included in the validity period of this program"
 msgstr ""
+<<<<<<< HEAD
 "Data de începere este inclusă în perioada de valabilitate a acestui program"
+=======
+"Data de început este inclusă în perioada de valabilitate a acestui program"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1893,19 +2447,31 @@ msgid ""
 "The validity period's start date must be anterior or equal to its end date."
 msgstr ""
 "Data de început a perioadei de valabilitate trebuie să fie anterioară sau "
+<<<<<<< HEAD
 "egală cu data de sfârșit a acesteia."
+=======
+"egală cu data de sfârșit."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
 msgid "There are currently no transaction lines for this card."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Momentan nu există linii de tranzacție pentru acest card."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_card_action
 msgid "There haven't been any coupons generated yet."
+<<<<<<< HEAD
 msgstr "Încă nu s-au generat cupoane."
+=======
+msgstr "Nu au fost generate încă cupoane."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_reward__reward_product_ids
@@ -1917,8 +2483,21 @@ msgstr "Acestea sunt produsele care pot fi revendicate cu această regulă."
 msgid ""
 "This is the max amount this reward may discount, leave to 0 for no limit."
 msgstr ""
+<<<<<<< HEAD
 "Aceasta este suma maximă pe care această recompensă o poate reduce, lăsați "
 "la 0 fără limită."
+=======
+"Aceasta este suma maximă pe care această recompensă o poate reduce, lăsați 0"
+" pentru fără limită."
+
+#. module: loyalty
+#. odoo-python
+#: code:addons/loyalty/models/product_pricelist.py:0
+msgid ""
+"This pricelist may not be archived. It is being used for active promotion "
+"programs: %s"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1927,13 +2506,22 @@ msgid ""
 "This product may not be archived. It is being used for an active promotion "
 "program."
 msgstr ""
+<<<<<<< HEAD
 "Acest produs nu poate fi arhivat. Acesta este utilizat pentru un program de "
 "promovare activ."
+=======
+"Acest produs nu poate fi arhivat. Este utilizat într-un program de promovare"
+" activ."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__pricelist_ids
 msgid "This program is specific to this pricelist set."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acest program este specific acestui set de liste de prețuri."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:product.template,name:loyalty.ewallet_product_50_product_template
@@ -1943,7 +2531,11 @@ msgstr "Încărcare portofel electronic"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__total_order_count
 msgid "Total Order Count"
+<<<<<<< HEAD
 msgstr "Numărul total de comenzi"
+=======
+msgstr "Număr total comenzi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__trigger
@@ -1951,41 +2543,72 @@ msgid "Trigger"
 msgstr "Declanșator"
 
 #. module: loyalty
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "Untaxed discount"
 msgstr ""
+=======
+#. odoo-python
+#: code:addons/loyalty/models/loyalty_reward.py:0
+msgid "Unsupported search operator"
+msgstr "Operator de căutare neacceptat"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_card.py:0
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
 msgid "Update Balance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualizează soldul"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_card_update_balance
 msgid "Update Loyalty Card Points"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualizează punctele cardului de loialitate"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__use_count
 msgid "Use Count"
+<<<<<<< HEAD
 msgstr "Utilizați numărătoarea"
+=======
+msgstr "Număr utilizări"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__trigger__with_code
 msgid "Use a code"
+<<<<<<< HEAD
 msgstr "Utilizează un cod"
+=======
+msgstr "Folosește un cod"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Use points on"
+<<<<<<< HEAD
 msgstr "Utilizați punctele pe"
+=======
+msgstr "Folosește puncte pe"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "Use this promo code before"
+<<<<<<< HEAD
 msgstr "Utilizați acest cod promoțional înainte"
+=======
+msgstr "Folosește acest cod promoțional înainte de"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1999,7 +2622,11 @@ msgstr "Folosit"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__user_has_debug
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__user_has_debug
 msgid "User Has Debug"
+<<<<<<< HEAD
 msgstr "Utilizatorul are funcția de depanare"
+=======
+msgstr "Utilizatorul are depanare"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__valid_until
@@ -2010,17 +2637,29 @@ msgstr "Valabil până la"
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 msgid "Valid until"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valabil până la"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__website_message_ids
 msgid "Website Messages"
+<<<<<<< HEAD
 msgstr "Mesaje de pe site-ul web"
+=======
+msgstr "Mesaje website"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_card__website_message_ids
 msgid "Website communication history"
+<<<<<<< HEAD
 msgstr "Istoricul comunicării pe site-ul web"
+=======
+msgstr "Istoric comunicare website"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_mail__trigger
@@ -2030,7 +2669,11 @@ msgstr "Când"
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_mail__trigger__points_reach
 msgid "When Reaching"
+<<<<<<< HEAD
 msgstr "Când ajungeți la"
+=======
+msgstr "La atingere"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -2038,8 +2681,13 @@ msgid ""
 "When customers make an order, they accumulate points they can exchange for "
 "rewards on the current order or on a future one."
 msgstr ""
+<<<<<<< HEAD
 "Atunci când clienții fac o comandă, ei acumulează puncte pe care le pot "
 "schimba în recompense pentru comanda curentă sau pentru una viitoare."
+=======
+"Când clienții fac o comandă, acumulează puncte pe care le pot schimba pentru"
+" recompense la comanda curentă sau la una viitoare."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -2047,8 +2695,13 @@ msgid ""
 "When generating coupon, you can define a specific points value that can be "
 "exchanged for rewards."
 msgstr ""
+<<<<<<< HEAD
 "La generarea cuponului, puteți defini o valoare specifică a punctelor care "
 "pot fi schimbate pentru recompense."
+=======
+"La generarea cuponului, puteți defini o valoare specifică de puncte care "
+"poate fi schimbată pentru recompense."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_rule__reward_point_split
@@ -2056,9 +2709,15 @@ msgid ""
 "Whether to separate reward coupons per matched unit, only applies to "
 "'future' programs and trigger mode per money spent or unit paid.."
 msgstr ""
+<<<<<<< HEAD
 "Dacă se separă cupoanele de recompensă pentru fiecare unitate asociată, se "
 "aplică numai la programele \"viitoare\" și la modul de declanșare pentru "
 "banii cheltuiți sau unitatea plătită.."
+=======
+"Dacă se separă cupoanele de recompensă pe unitate potrivită, se aplică doar "
+"la programele 'viitoare' și la modul de declanșare per bani cheltuiți sau "
+"unitate plătită."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__will_send_mail
@@ -2069,7 +2728,11 @@ msgstr "Va trimite e-mail"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Win points with each purchase, and claim gifts"
+<<<<<<< HEAD
 msgstr "Câștigați puncte cu fiecare achiziție și solicitați cadouri"
+=======
+msgstr "Câștigă puncte la fiecare achiziție și revendică cadouri"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_rule__mode__with_code
@@ -2079,7 +2742,11 @@ msgstr "Cu un cod promoțional"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
 msgid "You are about to change the balance of the card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sunteți pe cale să modificați soldul cardului"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -2105,6 +2772,11 @@ msgid ""
 "You're about to generate %(program_type)s with a value of %(value)s for "
 "%(customer_number)i customers"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Sunteți pe cale să generați %(program_type)s cu o valoare de %(value)s "
+"pentru %(customer_number)i clienți"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:mail.template,subject:loyalty.mail_template_gift_card
@@ -2138,12 +2810,20 @@ msgstr "de ex. 10% reducere la laptopuri"
 #: code:addons/loyalty/models/loyalty_reward.py:0
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__ewallet
 msgid "eWallet"
+<<<<<<< HEAD
 msgstr "eWallet"
+=======
+msgstr "portofel electronic"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "eWallet Products"
+<<<<<<< HEAD
 msgstr "Produse pentru portofelul electronic"
+=======
+msgstr "Produse pentru portofel electronic"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
@@ -2163,7 +2843,11 @@ msgid ""
 "                                    <br/>\n"
 "                                    Then, eWallets are proposed during the checkout, to pay orders."
 msgstr ""
+<<<<<<< HEAD
 "Portofelele sunt create manual sau automat atunci când clientul comandă un produs eWallet.\n"
+=======
+"Portofelele electronice sunt create manual sau automat atunci când clientul comandă un produs eWallet.\n"
+>>>>>>> upstream/18.0
 "                                      <br/>\n"
 "                                         Apoi, portofelele electronice sunt propuse în timpul procesului de plată, pentru a achita comenzile."
 
@@ -2175,12 +2859,20 @@ msgstr "articol(e) cumpărat(e)"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "loyalty Reward"
+<<<<<<< HEAD
 msgstr "recompensă pentru loialitate"
+=======
+msgstr "recompensă de loialitate"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "on the cheapest product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pe produsul cel mai ieftin"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -2190,13 +2882,21 @@ msgstr "la următoarea comandă"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "on your order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "la comanda ta"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_rule.py:0
 msgid "per %s spent"
+<<<<<<< HEAD
 msgstr "pe %s cheltuit"
+=======
+msgstr "pentru fiecare %s cheltuit"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -2208,7 +2908,11 @@ msgstr "per comandă"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_rule.py:0
 msgid "per unit paid"
+<<<<<<< HEAD
 msgstr "pe unitate plătită"
+=======
+msgstr "pentru fiecare unitate plătită"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -2224,12 +2928,20 @@ msgstr "cheltuit"
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_rule__minimum_amount_tax_mode__excl
 msgid "tax excluded"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "fără taxe"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_rule__minimum_amount_tax_mode__incl
 msgid "tax included"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "cu taxe incluse"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -2240,7 +2952,11 @@ msgstr "produsul cel mai ieftin"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "the value of the coupon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "valoarea cuponului"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -2253,13 +2969,24 @@ msgid "usages"
 msgstr "utilizări"
 
 #. module: loyalty
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
+msgid "used)"
+msgstr "folosit)"
+
+#. module: loyalty
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "your order"
 msgstr "comanda dvs."
+<<<<<<< HEAD
 
 #. module: loyalty
 #. odoo-javascript
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "{{loyalty_el_title}}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0

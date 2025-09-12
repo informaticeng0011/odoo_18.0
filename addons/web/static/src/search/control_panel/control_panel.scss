@@ -34,7 +34,11 @@
         }
 
         .o_cp_switch_buttons {
+<<<<<<< HEAD
             .btn, .btn:focus {
+=======
+            .btn, .btn:focus, .btn.active {
+>>>>>>> upstream/18.0
                 // Boostrap plays around with the z-index of buttons, but this is not needed here
                 // It was causing issues with the hotkey overlay
                 z-index: 0;

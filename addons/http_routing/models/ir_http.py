@@ -510,8 +510,13 @@ class IrHttp(models.AbstractModel):
             if request.httprequest.method in ('GET', 'HEAD'):
                 try:
                     _, path = rule.build(args)
+<<<<<<< HEAD
                 except odoo.exceptions.MissingError:
                     raise werkzeug.exceptions.NotFound()
+=======
+                except odoo.exceptions.MissingError as exc:
+                    raise werkzeug.exceptions.NotFound() from exc
+>>>>>>> upstream/18.0
                 assert path is not None
                 generated_path = werkzeug.urls.url_unquote_plus(path)
                 current_path = werkzeug.urls.url_unquote_plus(request.httprequest.path)
@@ -664,10 +669,13 @@ class IrHttp(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             endpoint = router.match(path, method='POST', query_args=query_args)
         except werkzeug.exceptions.MethodNotAllowed:
             endpoint = router.match(path, method='GET', query_args=query_args)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -786,6 +794,9 @@ class IrHttp(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

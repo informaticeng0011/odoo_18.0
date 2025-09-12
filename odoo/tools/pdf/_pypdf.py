@@ -64,8 +64,13 @@ class PdfWriter(_Writer):
     def appendPagesFromReader(self, reader):
         return self.append_pages_from_reader(reader)
 
+<<<<<<< HEAD
     def addBlankPage(self):
         return self.add_blank_page()
+=======
+    def addBlankPage(self, width=None, height=None):
+        return self.add_blank_page(width=width, height=height)
+>>>>>>> upstream/18.0
 
     def addAttachment(self, fname, data):
         return self.add_attachment(fname, data)

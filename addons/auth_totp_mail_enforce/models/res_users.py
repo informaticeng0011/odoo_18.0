@@ -43,6 +43,12 @@ class Users(models.Model):
         if self._mfa_type() == 'totp_mail':
             return '/web/login/totp'
 
+<<<<<<< HEAD
+=======
+    def _rpc_api_keys_only(self):
+        return self._mfa_type() == 'totp_mail' or super()._rpc_api_keys_only()
+
+>>>>>>> upstream/18.0
     def _totp_check(self, code):
         self._totp_rate_limit('code_check')
         user = self.sudo()

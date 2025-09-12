@@ -11,7 +11,11 @@ class EventRegistration(models.Model):
         for record in self.filtered("pos_order_id.id"):
             if record.pos_order_id.state in ['paid', 'done', 'invoiced']:
                 record.sale_status = 'sold'
+<<<<<<< HEAD
                 record.state = 'done'
+=======
+                record.state = 'open'
+>>>>>>> upstream/18.0
             else:
                 record.sale_status = 'to_pay'
                 record.state = 'draft'

@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* analytic
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
@@ -25,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
@@ -83,10 +88,15 @@
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Ujjawal Pathak, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -171,6 +181,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: hi\n"
+=======
+"POT-Creation-Date: 2025-08-15 18:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Ujjawal Pathak, 2025\n"
+"Language-Team: Hindi (https://app.transifex.com/odoo/teams/41243/hi/)\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: analytic
@@ -193,6 +213,7 @@ msgid "%s (copy)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "%s (कॉपी)"
@@ -241,17 +262,34 @@ msgstr "%s (कॉपी)"
 >>>>>>> upstream/18.0
 =======
 msgstr "%s (कॉपी)"
+>>>>>>> upstream/18.0
+=======
+msgstr "%s (कॉपी)"
+
+#. module: analytic
+#. odoo-python
+#: code:addons/analytic/models/analytic_line.py:0
+msgid "%s analytic lines created"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "<span class=\"o_stat_text\">Analytic Accounts</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">एनालिटिक अकाउंट</span>"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
 msgid "<span class=\"o_stat_text\">Gross Margin</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ग्रास मार्जिन</span>"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
@@ -260,12 +298,21 @@ msgid ""
 "A 'Project' plan needs to exist and its id needs to be set as "
 "`analytic.project_plan` in the system variables"
 msgstr ""
+<<<<<<< HEAD
+=======
+"एक 'प्रोजेक्ट प्लान' ज़रूर होना चाहिए और उसकी आईडी सिस्टम में analytic.project_plan "
+"रखनी ज़रूरी है."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Account field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट फ़ील्ड"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__account_ids
@@ -286,7 +333,11 @@ msgid "Accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट"
 >>>>>>> upstream/18.0
@@ -355,7 +406,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की ज़रूरत है"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की ज़रूरत है"
 >>>>>>> upstream/18.0
@@ -413,29 +468,49 @@ msgstr "सक्रिय"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_active_account
 msgid "Active account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिव अकाउंट"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Add a Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लाइन जोड़ें"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.action_account_analytic_account_form
 #: model_terms:ir.actions.act_window,help:analytic.action_analytic_account_form
 msgid "Add a new analytic account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक नया एनालिटिक अकाउंट जोड़ें"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_administratif
 msgid "Administrative"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एडमिन"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__all_account_count
 msgid "All Analytic Accounts Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी एनालिटिक अकाउंट काउंट"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__amount
@@ -447,7 +522,11 @@ msgstr "रकम"
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Amount field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अमाउंट फ़ील्ड"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
@@ -469,7 +548,11 @@ msgid "Analytic"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक"
 >>>>>>> upstream/18.0
@@ -543,7 +626,11 @@ msgid "Analytic Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक अकाउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक अकाउंट"
 >>>>>>> upstream/18.0
@@ -613,7 +700,11 @@ msgid "Analytic Accounting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक अकाउंटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक अकाउंटिंग"
 >>>>>>> upstream/18.0
@@ -683,7 +774,11 @@ msgid "Analytic Accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक अकाउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक अकाउंट"
 >>>>>>> upstream/18.0
@@ -736,6 +831,7 @@ msgstr "एनालिटिक अकाउंट"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__account_count
 msgid "Analytic Accounts Count"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -807,6 +903,16 @@ msgstr "एनालिटिक डिस्ट्रिब्यूशन"
 =======
 msgstr "एनालिटिक डिस्ट्रिब्यूशन"
 >>>>>>> upstream/18.0
+=======
+msgstr "एनालिटिक अकाउंट काउंट"
+
+#. module: analytic
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_distribution
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
+#: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_distribution
+msgid "Analytic Distribution"
+msgstr "एनालिटिक डिस्ट्रिब्यूशन"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
@@ -831,7 +937,11 @@ msgid "Analytic Distribution Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक डिस्ट्रिब्यूशन मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक डिस्ट्रिब्यूशन मॉडल"
 >>>>>>> upstream/18.0
@@ -900,7 +1010,11 @@ msgid "Analytic Distribution Models"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक डिस्ट्रिब्यूशन मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक डिस्ट्रिब्यूशन मॉडल"
 >>>>>>> upstream/18.0
@@ -953,7 +1067,11 @@ msgstr "एनालिटिक डिस्ट्रिब्यूशन म�
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_form
 msgid "Analytic Item"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक आइटम"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.account_analytic_line_action_entries
@@ -977,7 +1095,11 @@ msgid "Analytic Items"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक आइटम"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक आइटम"
 >>>>>>> upstream/18.0
@@ -1046,7 +1168,11 @@ msgid "Analytic Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक लाइन"
 >>>>>>> upstream/18.0
@@ -1115,7 +1241,11 @@ msgid "Analytic Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक लाइन"
 >>>>>>> upstream/18.0
@@ -1168,17 +1298,29 @@ msgstr "एनालिटिक लाइन"
 #. module: analytic
 #: model:ir.model,name:analytic.model_analytic_mixin
 msgid "Analytic Mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक मिक्सिन"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__analytic_plan_id
 msgid "Analytic Plan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक प्लान"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model,name:analytic.model_analytic_plan_fields_mixin
 msgid "Analytic Plan Fields"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक प्लान फ़ील्ड"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model,name:analytic.model_account_analytic_applicability
@@ -1199,7 +1341,11 @@ msgid "Analytic Plan's Applicabilities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक प्लान की ऐप्लिकेबिलिटी"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक प्लान की ऐप्लिकेबिलिटी"
 >>>>>>> upstream/18.0
@@ -1255,6 +1401,7 @@ msgstr "एनालिटिक प्लान की ऐप्लिकेब
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_tree_view
 msgid "Analytic Plans"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1390,18 +1537,36 @@ msgstr "एनालिटिक प्रीसीज़न"
 =======
 msgstr "एनालिटिक प्रीसीज़न"
 >>>>>>> upstream/18.0
+=======
+msgstr "एनालिटिक प्लान"
+
+#. module: analytic
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_precision
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
+#: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_precision
+msgid "Analytic Precision"
+msgstr "एनालिटिक प्रीसीज़न"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_plan.py:0
 msgid "Analytical Accounts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिकल अकाउंट"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_plan.py:0
 msgid "Analytical Plans"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिकल प्लान"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__applicability
@@ -1424,7 +1589,11 @@ msgid "Applicability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐप्लिकेबिलिटी"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐप्लिकेबिलिटी"
 >>>>>>> upstream/18.0
@@ -1494,7 +1663,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहीत किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "संग्रहीत किया गया"
 >>>>>>> upstream/18.0
@@ -1547,18 +1720,30 @@ msgstr "संग्रहीत किया गया"
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_search
 msgid "Associated Partner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "असोसिएटेड पार्टनर"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_asustek
 msgid "Asustek"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asustek"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_line.py:0
 msgid "At least one analytic account must be set"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कम से कम एक एनालिटिक अकाउंट सेट होना चाहिए"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_attachment_count
@@ -1579,7 +1764,11 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट काउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट काउंट"
 >>>>>>> upstream/18.0
@@ -1649,7 +1838,11 @@ msgid "Balance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैलेंस"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैलेंस"
 >>>>>>> upstream/18.0
@@ -1718,7 +1911,11 @@ msgid "Balance:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैलेंस"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैलेंस"
 >>>>>>> upstream/18.0
@@ -1772,17 +1969,29 @@ msgstr "बैलेंस"
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Business domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिज़नेस डोमेन"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_partners_camp_to_camp
 msgid "Camp to Camp"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैम्प टू कैम्प"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_integration_c2c
 msgid "CampToCamp"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CampToCamp"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__category
@@ -1792,22 +2001,38 @@ msgstr "वर्ग"
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.action_analytic_account_form
 msgid "Chart of Analytic Accounts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक खातों की सूची"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__children_count
 msgid "Children Plans Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चिल्ड्रेन प्लान काउंट"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__children_ids
 msgid "Childrens"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चिल्ड्रेंस"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_plan_action
 msgid "Click to add a new analytic account plan."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया एनालिटिक अकाउंट प्लान जोड़ने के लिए क्लिक करें"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
@@ -1831,7 +2056,11 @@ msgid "Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कलर"
+>>>>>>> upstream/18.0
 =======
 msgstr "कलर"
 >>>>>>> upstream/18.0
@@ -1888,7 +2117,11 @@ msgid "Color Index"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कलर इंडेक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "कलर इंडेक्स"
 >>>>>>> upstream/18.0
@@ -1932,7 +2165,11 @@ msgstr "कलर इंडेक्स"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_commercial_marketing
 msgid "Commercial & Marketing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कमर्शियल और मार्केटिंग"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__company_id
@@ -1945,12 +2182,20 @@ msgstr "संस्था"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__complete_name
 msgid "Complete Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरा नाम"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_form_view
 msgid "Conditions to meet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरा करने के लिए शर्तें"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model,name:analytic.model_res_config_settings
@@ -1968,7 +2213,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्फ़िगरेशन सेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "कॉन्फ़िगरेशन सेटिंग"
 >>>>>>> upstream/18.0
@@ -2023,6 +2272,11 @@ msgid ""
 "Costs will be created automatically when you register supplier\n"
 "                invoices, expenses or timesheets."
 msgstr ""
+<<<<<<< HEAD
+=======
+"जब आप सप्लायर के इनवॉइस, खर्चों या टाइमशीट को सिस्टम में डालेंगे, \n"
+"तो उनसे जुड़ी लागतें अपने आप दर्ज हो जाएंगी."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__create_uid
@@ -2053,7 +2307,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -2111,7 +2369,11 @@ msgid "Credit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्रेडिट"
+>>>>>>> upstream/18.0
 =======
 msgstr "क्रेडिट"
 >>>>>>> upstream/18.0
@@ -2172,7 +2434,11 @@ msgid "Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "करेंसी"
+>>>>>>> upstream/18.0
 =======
 msgstr "करेंसी"
 >>>>>>> upstream/18.0
@@ -2236,7 +2502,11 @@ msgstr "तिथि"
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__active
 msgid "Deactivate the account."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खाते को बंद करें."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__debit
@@ -2255,7 +2525,11 @@ msgid "Debit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डेबिट"
+>>>>>>> upstream/18.0
 =======
 msgstr "डेबिट"
 >>>>>>> upstream/18.0
@@ -2299,22 +2573,38 @@ msgstr "डेबिट"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_agrolait
 msgid "Deco Addict"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deco Addict"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__default_applicability
 msgid "Default Applicability"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिफ़ॉल्ट ऐप्लिकेबिलिटी"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_deltapc
 msgid "Delta PC"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डेल्टा पीसी"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.plan,name:analytic.analytic_plan_departments
 msgid "Departments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिपार्टमेंट"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__name
@@ -2325,13 +2615,21 @@ msgstr "विवरण"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_desertic_hispafuentes
 msgid "Desertic - Hispafuentes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desertic - Hispafuentes"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Disable save"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेव करें को बंद करें"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__display_name
@@ -2359,7 +2657,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -2435,7 +2737,11 @@ msgid "Distribution Analytic Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्ट्रिब्यूशन एनालिटिक अकाउं"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्ट्रिब्यूशन एनालिटिक अकाउं"
 >>>>>>> upstream/18.0
@@ -2479,7 +2785,11 @@ msgstr "डिस्ट्रिब्यूशन एनालिटिक अ�
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_form_view
 msgid "Distribution to apply"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अप्लाई करने के लिए डिस्ट्रिब्यूशन"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__business_domain
@@ -2497,6 +2807,7 @@ msgid "Domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "डोमेन"
@@ -2536,12 +2847,25 @@ msgstr "डोमेन"
 >>>>>>> upstream/18.0
 =======
 msgstr "डोमेन"
+>>>>>>> upstream/18.0
+=======
+msgstr "डोमेन"
+
+#. module: analytic
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "Don't update"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_rd_finance
 msgid "Finance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ाइनेंस"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_follower_ids
@@ -2556,7 +2880,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर"
 >>>>>>> upstream/18.0
@@ -2601,7 +2929,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर (पार्टनर)"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर (पार्टनर)"
 >>>>>>> upstream/18.0
@@ -2637,12 +2969,20 @@ msgstr "फ़ॉलोवर (पार्टनर)"
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Force applicability"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फोर्स ऐप्लिकेबिलिटी"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.account_analytic_line_action
 msgid "Gross Margin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रास मार्जिन"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_search
@@ -2663,7 +3003,11 @@ msgid "Has Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज है"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज है"
 >>>>>>> upstream/18.0
@@ -2698,7 +3042,11 @@ msgstr "मैसेज है"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_rd_hr
 msgid "Human Resources"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मानव संसाध"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__id
@@ -2726,7 +3074,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -2798,7 +3150,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
 >>>>>>> upstream/18.0
@@ -2843,7 +3199,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
 >>>>>>> upstream/18.0
@@ -2880,14 +3240,28 @@ msgstr "अगर बॉक्स पर टिक है, तो कुछ म�
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "In Odoo, sales orders and projects are implemented using\n"
+<<<<<<< HEAD
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
+=======
+"                analytic accounts. You can track costs and revenues to "
+"analyse\n"
+"                your margins easily."
+msgstr ""
+"Odoo में, सेल्स ऑर्डर और प्रोजेक्ट एनालिटिक अकाउंट्स से चलते हैं. \n"
+"आप खर्च और कमाई देख सकते हैं, \n"
+"जिससे अपना फायदा जानना आसान हो जाता है."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.plan,name:analytic.analytic_plan_internal
 msgid "Internal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इंटरनल"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_is_follower
@@ -2902,7 +3276,11 @@ msgid "Is Follower"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर है"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर है"
 >>>>>>> upstream/18.0
@@ -2951,7 +3329,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -3000,7 +3382,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -3035,23 +3421,39 @@ msgstr "आखिरी बार अपडेट हुआ"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_rd_legal
 msgid "Legal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लीगल"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_think_big_systems
 msgid "Lumber Inc"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lumber Inc"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_luminous_technologies
 msgid "Luminous Technologies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Luminous Technologies"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_applicability__applicability__mandatory
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_plan__default_applicability__mandatory
 msgid "Mandatory"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अनिवार्य"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_has_error
@@ -3066,7 +3468,11 @@ msgid "Message Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज डिलीवरी में गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज डिलीवरी में गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -3106,7 +3512,11 @@ msgstr "संदेश"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_millennium_industries
 msgid "Millennium Industries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Millennium Industries"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_applicability__business_domain__general
@@ -3121,6 +3531,7 @@ msgid "Miscellaneous"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "विविध"
@@ -3151,6 +3562,15 @@ msgstr "विविध"
 >>>>>>> upstream/18.0
 =======
 msgstr "विविध"
+>>>>>>> upstream/18.0
+=======
+msgstr "विविध"
+
+#. module: analytic
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
+msgid "Multi edit"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: analytic
@@ -3162,29 +3582,49 @@ msgstr "नाम"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_nebula
 msgid "Nebula"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nebula"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "New Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया मॉडल"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid "No activity yet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अभी तक कोई ऐक्टिविटी नहीं"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 msgid "No activity yet on this account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अभी तक इस खाते में कोई गतिविधि नहीं"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "No analytic plans found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई एनालिटिक प्लान नहीं मिला"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_needaction_counter
@@ -3199,7 +3639,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की संख्या"
 >>>>>>> upstream/18.0
@@ -3244,7 +3688,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गलतियों की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "गलतियों की संख्या"
 >>>>>>> upstream/18.0
@@ -3289,7 +3737,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
 >>>>>>> upstream/18.0
@@ -3334,7 +3786,11 @@ msgid "Number of messages with delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
 >>>>>>> upstream/18.0
@@ -3370,6 +3826,7 @@ msgstr "ऐसे मैसेज की संख्या जिनमें �
 #. odoo-python
 #: code:addons/analytic/models/analytic_mixin.py:0
 msgid "One or more lines require a 100% analytic distribution."
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3420,18 +3877,29 @@ msgstr ""
 =======
 "एक या एक से ज़्यादा लाइनें ऐसी हैं जिनके लिए '100% विश्लेषणात्मक वितरण' "
 "ज़रूरी है."
+>>>>>>> upstream/18.0
+=======
+msgstr "एक या एक से ज़्यादा लाइनें ऐसी हैं जिनके लिए '100% विश्लेषणात्मक वितरण' ज़रूरी है."
 >>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_internal
 msgid "Operating Costs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑपरेशन को चलाने का खर्च"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_mixin.py:0
 msgid "Operation not supported"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑपरेशन काम नहीं करता"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_applicability__applicability__optional
@@ -3447,7 +3915,11 @@ msgid "Optional"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वैकल्पिक"
+>>>>>>> upstream/18.0
 =======
 msgstr "वैकल्पिक"
 >>>>>>> upstream/18.0
@@ -3492,7 +3964,11 @@ msgid "Other"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अन्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "अन्य"
 >>>>>>> upstream/18.0
@@ -3527,7 +4003,11 @@ msgstr "अन्य"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_our_super_product
 msgid "Our Super Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमारा सुपर प्रॉडक्ट"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__parent_id
@@ -3542,7 +4022,11 @@ msgid "Parent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पैरेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "पैरेंट"
 >>>>>>> upstream/18.0
@@ -3577,7 +4061,11 @@ msgstr "पैरेंट"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__parent_path
 msgid "Parent Path"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पैरंट पाथ"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__partner_id
@@ -3588,7 +4076,11 @@ msgstr "साथी"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__partner_category_id
 msgid "Partner Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पार्टनर कैटगरी"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
@@ -3604,7 +4096,11 @@ msgid "Percentage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिशत"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिशत"
 >>>>>>> upstream/18.0
@@ -3639,13 +4135,21 @@ msgstr "प्रतिशत"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__plan_id
 msgid "Plan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्लान"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Product field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉडक्ट फ़ील्ड"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_rd_production
@@ -3655,14 +4159,22 @@ msgstr "उत्पादन"
 #. module: analytic
 #: model:account.analytic.plan,name:analytic.analytic_plan_projects
 msgid "Project"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोजेक्ट"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__account_id
 #: model:ir.model.fields,field_description:analytic.field_analytic_plan_fields_mixin__account_id
 msgid "Project Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोजेक्ट अमाउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रोजेक्ट अमाउंट"
 >>>>>>> upstream/18.0
@@ -3681,17 +4193,35 @@ msgstr "संदर्भ"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_rd_department
 msgid "Research & Development"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिसर्च और डेवलपमेंट"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "Revenues will be created automatically when you create customer\n"
+<<<<<<< HEAD
 "                invoices. Customer invoices can be created based on sales orders\n"
 "                (fixed price invoices), on timesheets (based on the work done) or\n"
 "                on expenses (e.g. reinvoicing of travel costs)."
 msgstr ""
+=======
+"                invoices. Customer invoices can be created based on sales "
+"orders\n"
+"                (fixed price invoices), on timesheets (based on the work "
+"done) or\n"
+"                on expenses (e.g. reinvoicing of travel costs)."
+msgstr ""
+"जब आप ग्राहकों के लिए इनवॉइस बनाएंगे, तो आपकी कमाई अपने-आप \n"
+"दर्ज हो जाएगी. ये ग्राहकों के बिल तीन तरीकों से बनाए जा सकते हैं: \n"
+"या तो सेल्स ऑर्डर के आधार पर (निश्चित कीमतों वाले बिल), या कर्मचारियों द्वारा किए गए "
+"काम (टाइमशीट) के हिसाब से, \n"
+"या फिर किए गए खर्चों (जैसे यात्रा खर्चों को दोबारा बिल करना) के आधार पर."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__root_id
@@ -3706,7 +4236,11 @@ msgid "Root"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रूट"
+>>>>>>> upstream/18.0
 =======
 msgstr "रूट"
 >>>>>>> upstream/18.0
@@ -3741,29 +4275,49 @@ msgstr "रूट"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__root_plan_id
 msgid "Root Plan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रूट प्लान"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Save as new analytic distribution model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नए एनालिटिक डिस्ट्रिब्यूशन मॉडल के तौर पर सेव करें"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_seagate_p2
 msgid "Seagate P2"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seagate P2"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_filter
 msgid "Search Analytic Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक लाइन खोजें"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_account.py:0
 msgid "See them"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उन्हें देखें"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__company_id
@@ -3772,6 +4326,12 @@ msgid ""
 "create new customer invoice or Sales order if we select this company, it "
 "will automatically take this as an analytic account)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"कोई ऐसी कंपनी कैटगरी चुनें जिसके लिए एनालिटिक डिस्ट्रिब्यूशन का इस्तेमाल किया जाएगा. जैसे, "
+"अगर हम इस कंपनी को चुनेंगे, तो ग्राहक के बिल या सेल्स ऑर्डर में अपने आप वही एनालिटिक "
+"अकाउंट आ जाएगा."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__partner_category_id
@@ -3780,6 +4340,12 @@ msgid ""
 "(e.g. create new customer invoice or Sales order if we select this partner, "
 "it will automatically take this as an analytic account)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"कोई ऐसी पार्टनर कैटगरी चुनें जिसके लिए एनालिटिक डिस्ट्रिब्यूशन का इस्तेमाल किया जाएगा. "
+"जैसे, अगर हम इस पार्टनर को चुनेंगे, तो ग्राहक के बिल या सेल्स ऑर्डर में अपने आप वही "
+"एनालिटिक अकाउंट आ जाएगा."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__partner_id
@@ -3788,6 +4354,12 @@ msgid ""
 "create new customer invoice or Sales order if we select this partner, it "
 "will automatically take this as an analytic account)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"कोई ऐसा पार्टनर चुनें जिसके लिए एनालिटिक डिस्ट्रिब्यूशन का इस्तेमाल किया जाएगा. जैसे, अगर "
+"हम इस पार्टनर को चुनेंगे, तो ग्राहक के बिल या सेल्स ऑर्डर में अपने आप वही एनालिटिक अकाउंट "
+"आ जाएगा."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__sequence
@@ -3798,17 +4370,29 @@ msgstr "अनुक्रम"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_spark
 msgid "Spark Systems"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spark Systems"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "Subplans"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सबप्लान"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_absences
 msgid "Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टाइम ऑफ़"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_tree
@@ -3820,7 +4404,11 @@ msgid "Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कुल"
+>>>>>>> upstream/18.0
 =======
 msgstr "कुल"
 >>>>>>> upstream/18.0
@@ -3847,7 +4435,11 @@ msgstr "कुल"
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_applicability__applicability__unavailable
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_plan__default_applicability__unavailable
 msgid "Unavailable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपलब्ध नहीं"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__product_uom_id
@@ -3860,6 +4452,15 @@ msgid "UoM Category"
 msgstr ""
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "Update"
+msgstr ""
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__user_id
 msgid "User"
 msgstr "उपयोगकर्ता"
@@ -3868,9 +4469,15 @@ msgstr "उपयोगकर्ता"
 #. odoo-python
 #: code:addons/analytic/models/analytic_account.py:0
 msgid ""
+<<<<<<< HEAD
 "Whoa there! Making this change would wipe out your current data. Let's avoid"
 " that, shall we?"
 msgstr ""
+=======
+"Whoa there! Making this change would wipe out your current data. Let's avoid "
+"that, shall we?"
+msgstr "ध्यान दें! यह बदलाव आपका सारा डेटा मिटा देगा। ऐसा न करें, ठीक है?"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
@@ -3879,12 +4486,20 @@ msgid ""
 "You can't set a different company on your analytic account since there are "
 "some analytic items linked to it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"आप अपने एनालिटिक अकाउंट पर दूसरी कंपनी नहीं डाल सकते, क्योंकि उससे कुछ चीज़ें पहले से जुड़ी हैं."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_plan.py:0
 msgid "You cannot add a parent to the base plan '%s'"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप बेस प्लान '%s' में कोई बड़ा प्लान नहीं जोड़ सकते."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
@@ -3893,8 +4508,17 @@ msgid ""
 "You defined a distribution with analytic account(s) belonging to a specific "
 "company but a model shared between companies or with a different company"
 msgstr ""
+<<<<<<< HEAD
+=======
+"आपने डिस्ट्रिब्यूशन के लिए व्यवस्था बनाई है, जिसमें एक कंपनी का हिसाब (एनालिटिक अकाउंट) "
+"है, लेकिन उसका मॉडल या तो कई कंपनियों का है या किसी और कंपनी का है"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
 msgid "e.g. Project XYZ"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, प्रोजेक्ट XYZ"
+>>>>>>> upstream/18.0

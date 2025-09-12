@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing_sms
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Robin Calvin, 2024
 # Mikael Åkerberg <mikael.akerberg@mariaakerberg.com>, 2024
@@ -14,11 +18,16 @@
 # Kim Asplund <kim.asplund@gmail.com>, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2025
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Anders Wallenquist <anders.wallenquist@vertel.se>, 2025\n"
@@ -27,6 +36,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: sv\n"
+=======
+"POT-Creation-Date: 2025-09-05 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Anders Wallenquist <anders.wallenquist@vertel.se>, 2025\n"
+"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: mass_mailing_sms
@@ -105,8 +124,13 @@ msgstr ""
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
+<<<<<<< HEAD
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text"
 " Messages are being processed.</span>"
+=======
+"<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
+"Messages are being processed.</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS "
 "textmeddelanden bearbetas.</span>"
@@ -143,22 +167,42 @@ msgstr "<span>Validera mottagare av SMS</span>"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 "<strong>\n"
+<<<<<<< HEAD
 "                            It appears you don't have enough IAP credits. Click here to buy credits.\n"
 "                        </strong>"
 msgstr ""
 "<strong> <strong>Ja\n"
 "                            Det verkar som om du inte har tillräckligt med IAP-krediter. Klicka här för att köpa krediter.\n"
+=======
+"                            It appears you don't have enough IAP credits. "
+"Click here to buy credits.\n"
+"                        </strong>"
+msgstr ""
+"<strong> <strong>Ja\n"
+"                            Det verkar som om du inte har tillräckligt med "
+"IAP-krediter. Klicka här för att köpa krediter.\n"
+>>>>>>> upstream/18.0
 "                        <strong> </strong>"
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 "<strong>\n"
+<<<<<<< HEAD
 "                            It appears your SMS account is not registered. Click here to set up your account.\n"
 "                        </strong>"
 msgstr ""
 "<strong> <strong>SMS\n"
 "                            Det verkar som om ditt SMS-konto inte är registrerat. Klicka här för att skapa ditt konto.\n"
+=======
+"                            It appears your SMS account is not registered. "
+"Click here to set up your account.\n"
+"                        </strong>"
+msgstr ""
+"<strong> <strong>SMS\n"
+"                            Det verkar som om ditt SMS-konto inte är "
+"registrerat. Klicka här för att skapa ditt konto.\n"
+>>>>>>> upstream/18.0
 "                        <strong> </strong>"
 
 #. module: mass_mailing_sms
@@ -229,8 +273,13 @@ msgid ""
 "Blacklist through SMS Marketing unsubscribe (mailing ID: %(mailing_id)s - "
 "model: %(model)s)"
 msgstr ""
+<<<<<<< HEAD
 "Svartlista via SMS Marketing avregistrera (post-ID:%(mailing_id)s - modell: "
 "%(model)s)"
+=======
+"Svartlista via SMS Marketing avregistrera (post-ID:%(mailing_id)s - modell: %"
+"(model)s)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_blacklist
@@ -417,7 +466,12 @@ msgid ""
 "For an email, the subject your recipients will see in their inbox.\n"
 "For an SMS, the internal title of the message."
 msgstr ""
+<<<<<<< HEAD
 "För ett e-postmeddelande, det ämne som dina mottagare kommer att se i sin inkorg.\n"
+=======
+"För ett e-postmeddelande, det ämne som dina mottagare kommer att se i sin "
+"inkorg.\n"
+>>>>>>> upstream/18.0
 "För ett SMS, den interna titeln på meddelandet."
 
 #. module: mass_mailing_sms
@@ -449,8 +503,13 @@ msgstr "Om markerad, några meddelanden har leveransfel."
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 msgstr ""
 "Om sanerade telefonnummer är på svartlistan kommer kontakten inte få mass-"
 "SMS alls, från någon lista"
@@ -458,8 +517,12 @@ msgstr ""
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_mailing__sms_force_send
 msgid ""
+<<<<<<< HEAD
 "Immediately send the SMS Mailing instead of queuing up. Use at your own "
 "risk."
+=======
+"Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
+>>>>>>> upstream/18.0
 msgstr "Skicka SMS Mailing direkt istället för att köa. Använd på egen risk."
 
 #. module: mass_mailing_sms
@@ -487,8 +550,13 @@ msgid ""
 "mobile and phone field in a model."
 msgstr ""
 "Indikerar om ett svartlistat sanerat telefonnummer är ett mobilnummer. "
+<<<<<<< HEAD
 "Hjälper till att skilja vilket nummer som är svartlistat             när det"
 " finns både ett mobil- och telefonfält i en modell."
+=======
+"Hjälper till att skilja vilket nummer som är svartlistat             när det "
+"finns både ett mobil- och telefonfält i en modell."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_credit
@@ -649,8 +717,13 @@ msgstr "Ingen data ännu!"
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_list_action_sms
 msgid ""
+<<<<<<< HEAD
 "No need to import mailing lists, you can send SMS to contacts saved in other"
 " Odoo apps."
+=======
+"No need to import mailing lists, you can send SMS to contacts saved in other "
+"Odoo apps."
+>>>>>>> upstream/18.0
 msgstr ""
 "Inget behov av att importera e-postlistor, du kan skicka SMS till kontakter "
 "som sparats i andra Odoo-appar."
@@ -710,8 +783,13 @@ msgstr "Nummer(n)"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
+<<<<<<< HEAD
 "Once you send these text messages, they'll be making a grand entrance in all"
 " pockets, creating quite the bzzzzz!"
+=======
+"Once you send these text messages, they'll be making a grand entrance in all "
+"pockets, creating quite the bzzzzz!"
+>>>>>>> upstream/18.0
 msgstr ""
 "När du väl skickat dessa textmeddelanden kommer de att göra en storslagen "
 "entré i alla fickor, vilket skapar riktigt bzzzzz!"
@@ -926,6 +1004,14 @@ msgid "Send a sample SMS for testing purpose to the numbers below."
 msgstr "Skicka ett SMS för teständamål till numren nedan."
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
+msgid "Send to all"
+msgstr ""
+
+#. module: mass_mailing_sms
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_server
 msgid "Server Error"
 msgstr "Server Fel"
@@ -955,8 +1041,13 @@ msgstr "Testa utskick av SMS"
 #. module: mass_mailing_sms
 #. odoo-python
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
+<<<<<<< HEAD
 msgid "Test SMS could not be sent to %(destination)s: %(state)s"
 msgstr "Test-SMS kunde inte skickas till%(destination)s: %(state)s"
+=======
+msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
@@ -990,8 +1081,13 @@ msgstr "Det uppstod ett fel när du försökte avsluta prenumerationen"
 msgid ""
 "This phone number is blacklisted for SMS Marketing. Click to unblacklist."
 msgstr ""
+<<<<<<< HEAD
 "Detta telefonnummer är svartlistat för SMS-marknadsföring. Klicka för att ta"
 " bort svartlistningen."
+=======
+"Detta telefonnummer är svartlistat för SMS-marknadsföring. Klicka för att ta "
+"bort svartlistningen."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_subject
@@ -1076,8 +1172,12 @@ msgstr "Vinnarurval"
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_mailing_action_sms
 msgid ""
+<<<<<<< HEAD
 "Write an appealing SMS Text Message, define recipients and track its "
 "results."
+=======
+"Write an appealing SMS Text Message, define recipients and track its results."
+>>>>>>> upstream/18.0
 msgstr ""
 "Skriv ett tilltalande SMS, definiera mottagare och följ upp resultatet."
 
@@ -1100,3 +1200,9 @@ msgstr "har framgångsrikt svartlistats"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_number
 msgid "has been successfully removed from"
 msgstr "har framgångsrikt avlägsnats från"
+<<<<<<< HEAD
+=======
+
+#~ msgid "Test SMS could not be sent to %(destination)s: %(state)s"
+#~ msgstr "Test-SMS kunde inte skickas till%(destination)s: %(state)s"
+>>>>>>> upstream/18.0

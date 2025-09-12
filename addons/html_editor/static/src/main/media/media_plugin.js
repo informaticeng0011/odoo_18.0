@@ -1,7 +1,13 @@
 import { Plugin } from "@html_editor/plugin";
 import {
     ICON_SELECTOR,
+<<<<<<< HEAD
     isIconElement,
+=======
+    EDITABLE_MEDIA_CLASS,
+    isIconElement,
+    isMediaElement,
+>>>>>>> upstream/18.0
     isProtected,
     isProtecting,
 } from "@html_editor/utils/dom_info";
@@ -65,6 +71,11 @@ export class MediaPlugin extends Plugin {
         normalize_handlers: this.normalizeMedia.bind(this),
 
         unsplittable_node_predicates: isIconElement, // avoid merge
+<<<<<<< HEAD
+=======
+        functional_empty_node_predicates: isMediaElement,
+        is_node_editable_predicates: this.isEditableMediaElement.bind(this),
+>>>>>>> upstream/18.0
 
         selectors_for_feff_providers: () => ICON_SELECTOR,
     };
@@ -73,9 +84,22 @@ export class MediaPlugin extends Plugin {
         return this.config.getRecordInfo ? this.config.getRecordInfo() : {};
     }
 
+<<<<<<< HEAD
     replaceImage() {
         const selectedNodes = this.dependencies.selection.getSelectedNodes();
         const node = selectedNodes.find((node) => node.tagName === "IMG");
+=======
+    isEditableMediaElement(node) {
+        return (
+            (isMediaElement(node) || node.nodeName === "IMG") &&
+            node.classList.contains(EDITABLE_MEDIA_CLASS)
+        );
+    }
+
+    replaceImage() {
+        const targetedNodes = this.dependencies.selection.getTargetedNodes();
+        const node = targetedNodes.find((node) => node.tagName === "IMG");
+>>>>>>> upstream/18.0
         if (node) {
             this.openMediaDialog({ node });
             this.dependencies.history.addStep();

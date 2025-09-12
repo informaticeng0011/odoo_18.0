@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* calendar
 # 
+=======
+# * calendar
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Csaba Tóth <i3rendszerhaz@gmail.com>, 2024
 # f1b3a33e3b33fcf18004a5292e501f50_3500ca8 <373b677b151624c4521d9efc77b996fd_750224>, 2024
@@ -12,6 +17,7 @@
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
 # krnkris, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,11 +411,17 @@
 # gezza <geza.nagy@oregional.hu>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Valics Lehel, 2025
+# gezza <geza.nagy@oregional.hu>, 2025
+# Tamás Dombos <tdombos@gmail.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -742,6 +754,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"PO-Revision-Date: 2025-08-20 14:39+0000\n"
+"Last-Translator: Tamás Dombos <tdombos@gmail.com>\n"
+"Language-Team: Hungarian <https://translate.odoo.com/projects/odoo-18/"
+"calendar/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_res_partner__meeting_count
@@ -1215,6 +1239,12 @@ msgid ""
 "['weekly', 'custom'] or (rrule_type_ui == 'custom' and rrule_type != "
 "'weekly')\">Repeat on</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold text-nowrap\" invisible=\"rrule_type_ui not in "
+"['weekly', 'custom'] or (rrule_type_ui == 'custom' and rrule_type != "
+"'weekly')\">Ismétlés minden</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
@@ -1240,7 +1270,11 @@ msgstr ""
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "<span> Attendees</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> Résztvevők</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -1321,12 +1355,20 @@ msgstr "Tevékenység ütemezés terv varázsló"
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Add attendees..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adjon hozzá résztvevőket..."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Add description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adjon hozzá leírást"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
@@ -1389,7 +1431,11 @@ msgstr "Résztvevők"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__attendees_count
 msgid "Attendees Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Résztvevők száma"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__current_status
@@ -1452,7 +1498,11 @@ msgid "Bye-bye, record!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Viszlát, rekord!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Viszlát, rekord!"
 >>>>>>> upstream/18.0
@@ -1676,7 +1726,11 @@ msgstr "Kapcsolat"
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Contact Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Üzenet küldése a résztvevőknek"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__count
@@ -1710,7 +1764,11 @@ msgstr "Létrehozva"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__current_attendee
 msgid "Current Attendee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jelenlegi résztvevő"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__rrule_type_ui__custom
@@ -1783,6 +1841,11 @@ msgstr ""
 #: model:ir.model.fields,help:calendar.field_res_users_settings__calendar_default_privacy
 msgid "Default privacy setting for whom the calendar events will be visible."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Alapértelmezett beállítás, hogy kinek számára lesznek láthatóak a "
+"naptáresemények."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
@@ -1842,7 +1905,11 @@ msgstr ""
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__display_description
 msgid "Display Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Leírás megjelenítése"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__display_name
@@ -2246,7 +2313,11 @@ msgstr "Meghívó részletei"
 #. module: calendar
 #: model:mail.template,description:calendar.calendar_template_meeting_invitation
 msgid "Invitation email to new attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meghívó email az új résztvevőknek"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
@@ -2331,7 +2402,11 @@ msgstr "Találkozó automatikus ismétlése ebben az intervallumban"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__location
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Location"
+<<<<<<< HEAD
 msgstr "Lokáció"
+=======
+msgstr "Helyszín"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
@@ -2348,7 +2423,11 @@ msgstr ""
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_popover.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__state__tentative
 msgid "Maybe"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "talán"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_filters__user_id
@@ -2526,7 +2605,11 @@ msgid "No, keep it"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nem, maradjon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nem, maradjon"
 >>>>>>> upstream/18.0
@@ -2609,7 +2692,11 @@ msgstr "Értesítés - 30 perc"
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__alarm_ids
 msgid "Notifications sent to all attendees to remind of the meeting."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Az összes résztvevőknek küldött emlékeztető."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__message_needaction_counter
@@ -2722,7 +2809,11 @@ msgstr "A felhasználó partner-kapcsolati adatai"
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__privacy
 msgid "People to whom this event will be visible."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kinek számára lesz látható ez az esemény."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__phone
@@ -2732,7 +2823,11 @@ msgstr "Telefon"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__privacy
 msgid "Privacy"
+<<<<<<< HEAD
 msgstr "Adatvédelem"
+=======
+msgstr "Láthatóság"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__privacy__private
@@ -2775,7 +2870,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__recurrency
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Recurrent"
+<<<<<<< HEAD
 msgstr "Időszakos"
+=======
+msgstr "Ismétlődő"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__rrule
@@ -2893,7 +2992,11 @@ msgid "Reschedule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Újraütemezés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Újraütemezés"
 >>>>>>> upstream/18.0
@@ -3152,7 +3255,11 @@ msgstr "Válassza ki a résztvevőket..."
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Send Email to attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email küldése a résztvevőknek"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -3167,12 +3274,20 @@ msgstr "Levél küldése"
 #. module: calendar
 #: model:mail.template,description:calendar.calendar_template_meeting_reminder
 msgid "Sent to all attendees if a reminder is set"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Az összes résztvevőnek küldve, ha be van állítva emlékeztető"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,description:calendar.calendar_template_meeting_changedate
 msgid "Sent to all attendees if the schedule change"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Az összes résztvevőnek küldve, ha az eseményt átütemezték"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.actions.act_window,name:calendar.calendar_settings_action
@@ -3199,7 +3314,11 @@ msgstr "Szundi"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__start
 msgid "Start"
+<<<<<<< HEAD
 msgstr "Indítás"
+=======
+msgstr "Kezdete"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__start_date
@@ -3216,7 +3335,11 @@ msgstr ""
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__state
 msgid "Status"
+<<<<<<< HEAD
 msgstr "Státusz"
+=======
+msgstr "Állapot"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -3361,7 +3484,11 @@ msgstr "Az ismétlés száma nem lehet negatív."
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "There are no attendees on these events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ezeknek az eseményeknek nincs résztvevője"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__byday__3
@@ -3459,7 +3586,11 @@ msgstr "Eddig"
 #. module: calendar
 #: model:mail.template,description:calendar.calendar_template_meeting_update
 msgid "Used to manually notifiy attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A résztvevők egyedi értesítésére használt"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_res_users
@@ -3485,7 +3616,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Videocall URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Videóhívás URL"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
@@ -3563,7 +3698,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/calendar/models/calendar_attendee.py:0
 msgid "You cannot duplicate a calendar attendee."
+<<<<<<< HEAD
 msgstr "Nem sokszorozhat meg egy naptári résztvevőt."
+=======
+msgstr "Nem adhat hozzá többször egy résztvevőt az eseményhez."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
@@ -3587,12 +3726,20 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "résztvevő"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "awaiting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "válaszra vár"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
@@ -3613,13 +3760,21 @@ msgstr ""
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "maybe,"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "talán,"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/fields/attendee_tags_list.xml:0
 msgid "no email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nincs email"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -3641,7 +3796,11 @@ msgstr ""
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "yes,"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "igen,"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_reminder

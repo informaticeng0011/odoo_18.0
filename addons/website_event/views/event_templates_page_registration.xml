@@ -43,7 +43,11 @@
             </div>
         </t>
 
+<<<<<<< HEAD
         <section id="o_wevent_event_main" class="h-100" t-cache="event if not editable and event.website_published else None">
+=======
+        <section id="o_wevent_event_main" class="h-100" t-cache="(event, event.is_participating) if not editable and event.website_published else None">
+>>>>>>> upstream/18.0
             <div class="container overflow-hidden pb-5">
                 <div class="row">
                     <div class="col pe-xxl-5">

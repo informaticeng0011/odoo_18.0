@@ -1,6 +1,10 @@
 import { Plugin } from "../plugin";
 import { closestBlock, isBlock } from "../utils/blocks";
+<<<<<<< HEAD
 import { hasAnyNodesColor } from "@html_editor/utils/color";
+=======
+import { hasAnyNodesColor, TEXT_CLASSES_REGEX, BG_CLASSES_REGEX } from "@html_editor/utils/color";
+>>>>>>> upstream/18.0
 import { cleanTextNode, splitTextNode, unwrapContents } from "../utils/dom";
 import {
     areSimilarElements,
@@ -86,6 +90,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isEmptyBlock,
+>>>>>>> upstream/18.0
 =======
     isEmptyBlock,
 >>>>>>> upstream/18.0
@@ -413,8 +421,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { childNodes, closestElement, descendants, selectElements } from "../utils/dom_traversal";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -659,6 +670,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1024,6 +1038,10 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        selectionchange_handlers: this.removeEmptyInlineElement.bind(this),
+>>>>>>> upstream/18.0
 =======
         selectionchange_handlers: this.removeEmptyInlineElement.bind(this),
 >>>>>>> upstream/18.0
@@ -1269,6 +1287,7 @@ export class FormatPlugin extends Plugin {
     };
 
     removeFormat() {
+<<<<<<< HEAD
         const traversedNodes = this.dependencies.selection.getTraversedNodes();
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1430,11 +1449,19 @@ export class FormatPlugin extends Plugin {
             if (
                 !formatsSpecs[format].removeStyle ||
                 !this.hasSelectionFormat(format, traversedNodes)
+=======
+        const targetedNodes = this.dependencies.selection.getTargetedNodes();
+        for (const format of Object.keys(formatsSpecs)) {
+            if (
+                !formatsSpecs[format].removeStyle ||
+                !this.hasSelectionFormat(format, targetedNodes)
+>>>>>>> upstream/18.0
             ) {
                 continue;
             }
             this._formatSelection(format, { applyStyle: false });
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1553,6 +1580,9 @@ export class FormatPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        this.dispatchTo("remove_format_handlers");
+>>>>>>> upstream/18.0
         this.dependencies.history.addStep();
     }
 
@@ -1561,6 +1591,7 @@ export class FormatPlugin extends Plugin {
      * node
      *
      * @param {String} format 'bold'|'italic'|'underline'|'strikeThrough'|'switchDirection'
+<<<<<<< HEAD
      * @param {Node[]} [traversedNodes]
      * @returns {boolean}
      */
@@ -1568,6 +1599,15 @@ export class FormatPlugin extends Plugin {
         const selectedNodes = traversedNodes.filter(isTextNode);
         const isFormatted = formatsSpecs[format].isFormatted;
         return selectedNodes.some((n) => isFormatted(n, this.editable));
+=======
+     * @param {Node[]} [targetedNodes]
+     * @returns {boolean}
+     */
+    hasSelectionFormat(format, targetedNodes = this.dependencies.selection.getTargetedNodes()) {
+        const targetedTextNodes = targetedNodes.filter(isTextNode);
+        const isFormatted = formatsSpecs[format].isFormatted;
+        return targetedTextNodes.some((n) => isFormatted(n, this.editable));
+>>>>>>> upstream/18.0
     }
     /**
      * Return true if the current selection on the editable appears as the given
@@ -1575,6 +1615,7 @@ export class FormatPlugin extends Plugin {
      * text node in it appears as that format.
      *
      * @param {String} format 'bold'|'italic'|'underline'|'strikeThrough'|'switchDirection'
+<<<<<<< HEAD
      * @param {Node[]} [traversedNodes]
      * @returns {boolean}
      */
@@ -1587,24 +1628,53 @@ export class FormatPlugin extends Plugin {
                 (node) =>
                     isZwnbsp(node) || isEmptyTextNode(node) || isFormatted(node, this.editable)
             )
+=======
+     * @param {Node[]} [targetedNodes]
+     * @returns {boolean}
+     */
+    isSelectionFormat(format, targetedNodes = this.dependencies.selection.getTargetedNodes()) {
+        const targetedTextNodes = targetedNodes.filter(
+            (node) =>
+                isTextNode(node) &&
+                !isZwnbsp(node) &&
+                !isEmptyTextNode(node) &&
+                (!/^\n+$/.test(node.nodeValue) || !isBlock(closestElement(node)))
+        );
+        const isFormatted = formatsSpecs[format].isFormatted;
+        return (
+            targetedTextNodes.length && targetedTextNodes.every((node) => isFormatted(node, this.editable))
+>>>>>>> upstream/18.0
         );
     }
 
     // @todo: issues:
     // - the calls to hasAnyColor should probably be replaced by calls to predicates
     //   registered as resources (e.g. by the ColorPlugin).
+<<<<<<< HEAD
     hasAnyFormat(traversedNodes) {
         for (const format of Object.keys(formatsSpecs)) {
             if (
                 formatsSpecs[format].removeStyle &&
                 this.hasSelectionFormat(format, traversedNodes)
+=======
+    hasAnyFormat(targetedNodes) {
+        for (const format of Object.keys(formatsSpecs)) {
+            if (
+                formatsSpecs[format].removeStyle &&
+                this.hasSelectionFormat(format, targetedNodes)
+>>>>>>> upstream/18.0
             ) {
                 return true;
             }
         }
         return (
+<<<<<<< HEAD
             hasAnyNodesColor(traversedNodes, "color") ||
             hasAnyNodesColor(traversedNodes, "backgroundColor")
+=======
+            hasAnyNodesColor(targetedNodes, "color") ||
+            hasAnyNodesColor(targetedNodes, "backgroundColor")
+>>>>>>> upstream/18.0
         );
     }
 
@@ -1637,12 +1707,25 @@ export class FormatPlugin extends Plugin {
             }
         }
 
+<<<<<<< HEAD
         const selectedNodes = /** @type { Text[] } **/ (
             this.dependencies.selection
                 .getSelectedNodes()
                 .filter(
                     (n) =>
                         ((isTextNode(n) && (isVisibleTextNode(n) || isZWS(n))) ||
+=======
+        const selectedTextNodes = /** @type { Text[] } **/ (
+            this.dependencies.selection
+                .getTargetedNodes()
+                .filter(
+                    (n) =>
+                        this.dependencies.selection.areNodeContentsFullySelected(n) &&
+                        ((isTextNode(n) &&
+                            (isVisibleTextNode(n) ||
+                                isZWS(n) ||
+                                (/^\n+$/.test(n.nodeValue) && !applyStyle))) ||
+>>>>>>> upstream/18.0
                             (n.nodeName === "BR" &&
                                 (isFakeLineBreak(n) ||
                                     previousLeaf(n, closestBlock(n))?.nodeName === "BR"))) &&
@@ -1650,14 +1733,24 @@ export class FormatPlugin extends Plugin {
                 )
         );
 
+<<<<<<< HEAD
         const selectedFieldNodes = new Set(
             this.dependencies.selection
                 .getSelectedNodes()
+=======
+        const tagetedFieldNodes = new Set(
+            this.dependencies.selection
+                .getTargetedNodes()
+>>>>>>> upstream/18.0
                 .map((n) => closestElement(n, "*[t-field],*[t-out],*[t-esc]"))
                 .filter(Boolean)
         );
         const formatSpec = formatsSpecs[formatName];
+<<<<<<< HEAD
         for (const node of selectedNodes) {
+=======
+        for (const node of selectedTextNodes) {
+>>>>>>> upstream/18.0
             const inlineAncestors = [];
             /** @type { Node } */
             let currentNode = node;
@@ -1672,7 +1765,16 @@ export class FormatPlugin extends Plugin {
                 !isBlock(parentNode) &&
                 !this.dependencies.split.isUnsplittable(parentNode) &&
                 (parentNode.classList.length === 0 ||
+<<<<<<< HEAD
                     [...parentNode.classList].every((cls) => FONT_SIZE_CLASSES.includes(cls)))
+=======
+                    [...parentNode.classList].every(
+                        (cls) =>
+                            FONT_SIZE_CLASSES.includes(cls) ||
+                            TEXT_CLASSES_REGEX.test(cls) ||
+                            BG_CLASSES_REGEX.test(cls)
+                    ))
+>>>>>>> upstream/18.0
             ) {
                 const isUselessZws =
                     parentNode.tagName === "SPAN" &&
@@ -1717,11 +1819,19 @@ export class FormatPlugin extends Plugin {
             }
         }
 
+<<<<<<< HEAD
         for (const selectedFieldNode of selectedFieldNodes) {
             if (applyStyle) {
                 formatSpec.addStyle(selectedFieldNode, formatProps);
             } else {
                 formatSpec.removeStyle(selectedFieldNode);
+=======
+        for (const targetedFieldNode of tagetedFieldNodes) {
+            if (applyStyle) {
+                formatSpec.addStyle(targetedFieldNode, formatProps);
+            } else {
+                formatSpec.removeStyle(targetedFieldNode);
+>>>>>>> upstream/18.0
             }
         }
 
@@ -1729,8 +1839,13 @@ export class FormatPlugin extends Plugin {
             const siblings = [...zws.parentElement.childNodes];
             if (
                 !isBlock(zws.parentElement) &&
+<<<<<<< HEAD
                 selectedNodes.includes(siblings[0]) &&
                 selectedNodes.includes(siblings[siblings.length - 1])
+=======
+                selectedTextNodes.includes(siblings[0]) &&
+                selectedTextNodes.includes(siblings[siblings.length - 1])
+>>>>>>> upstream/18.0
             ) {
                 zws.parentElement.setAttribute("data-oe-zws-empty-inline", "");
             } else {
@@ -1742,6 +1857,7 @@ export class FormatPlugin extends Plugin {
         }
 
         if (
+<<<<<<< HEAD
             selectedNodes.length === 1 &&
             selectedNodes[0] &&
             selectedNodes[0].textContent === "\u200B"
@@ -1750,6 +1866,16 @@ export class FormatPlugin extends Plugin {
         } else if (selectedNodes.length) {
             const firstNode = selectedNodes[0];
             const lastNode = selectedNodes[selectedNodes.length - 1];
+=======
+            selectedTextNodes.length === 1 &&
+            selectedTextNodes[0] &&
+            selectedTextNodes[0].textContent === "\u200B"
+        ) {
+            this.dependencies.selection.setCursorStart(selectedTextNodes[0]);
+        } else if (selectedTextNodes.length) {
+            const firstNode = selectedTextNodes[0];
+            const lastNode = selectedTextNodes[selectedTextNodes.length - 1];
+>>>>>>> upstream/18.0
             let newSelection;
             if (selection.direction === DIRECTIONS.RIGHT) {
                 newSelection = {
@@ -1769,7 +1895,11 @@ export class FormatPlugin extends Plugin {
             this.dependencies.selection.setSelection(newSelection, { normalize: false });
             return true;
         }
+<<<<<<< HEAD
         if (selectedFieldNodes.size > 0) {
+=======
+        if (tagetedFieldNodes.size > 0) {
+>>>>>>> upstream/18.0
             return true;
         }
     }
@@ -1880,7 +2010,10 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2141,6 +2274,9 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -6,7 +6,11 @@ from odoo import models, fields, api, _
 class Warehouse(models.Model):
     _inherit = "stock.warehouse"
 
+<<<<<<< HEAD
     pos_type_id = fields.Many2one('stock.picking.type', string="Point of Sale Operation Type")
+=======
+    pos_type_id = fields.Many2one('stock.picking.type', string="Point of Sale Operation Type", copy=False)
+>>>>>>> upstream/18.0
 
     def _get_sequence_values(self, name=False, code=False):
         sequence_values = super(Warehouse, self)._get_sequence_values(name=name, code=code)

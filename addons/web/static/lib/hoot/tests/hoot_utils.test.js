@@ -62,6 +62,7 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isIterable, isRegExpFilter } from "@web/../lib/hoot-dom/hoot_dom_utils";
 =======
 import { isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
@@ -246,6 +247,10 @@ import { isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
 =======
 import { isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
 >>>>>>> upstream/18.0
+=======
+import { queryOne } from "@odoo/hoot-dom";
+import { isInstanceOf, isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
+>>>>>>> upstream/18.0
 import {
     deepEqual,
     formatHumanReadable,
@@ -254,6 +259,7 @@ import {
     levenshtein,
     lookup,
     match,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -502,6 +508,13 @@ import {
     toExplicitString,
 } from "../hoot_utils";
 import { parseUrl } from "./local_helpers";
+=======
+    parseQuery,
+    title,
+    toExplicitString,
+} from "../hoot_utils";
+import { mountForTest, parseUrl } from "./local_helpers";
+>>>>>>> upstream/18.0
 
 describe(parseUrl(import.meta.url), () => {
     test("deepEqual", () => {
@@ -596,7 +609,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: (_, r) => [a, r`==`, b],
+=======
+                message: [a, `==`, b],
+>>>>>>> upstream/18.0
 =======
                 message: [a, `==`, b],
 >>>>>>> upstream/18.0
@@ -697,7 +714,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: (_, r) => [a, r`!=`, b],
+=======
+                message: [a, `!=`, b],
+>>>>>>> upstream/18.0
 =======
                 message: [a, `!=`, b],
 >>>>>>> upstream/18.0
@@ -798,11 +819,14 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: (_, r) => [a, r`!=`, b],
             });
             expect(deepEqual(a, b, { ignoreOrder: true })).toBe(true, {
                 message: (_, r) => [a, r`==`, b, r`(unordered))`],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -876,6 +900,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -997,6 +1024,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                [Symbol("s")]: "value",
+>>>>>>> upstream/18.0
 =======
                 [Symbol("s")]: "value",
 >>>>>>> upstream/18.0
@@ -1051,6 +1082,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  Symbol(s): "value",
+>>>>>>> upstream/18.0
 =======
   Symbol(s): "value",
 >>>>>>> upstream/18.0
@@ -1126,6 +1161,45 @@ describe(parseUrl(import.meta.url), () => {
         expect(generateHash("abc")).not.toBe(generateHash("def"));
     });
 
+<<<<<<< HEAD
+=======
+    test("isInstanceOf", async () => {
+        await mountForTest(/* xml */ `
+            <iframe srcdoc="" />
+        `);
+
+        expect(() => isInstanceOf()).toThrow(TypeError);
+        expect(() => isInstanceOf("a")).toThrow(TypeError);
+
+        expect(isInstanceOf(null, null)).toBe(false);
+        expect(isInstanceOf(undefined, undefined)).toBe(false);
+        expect(isInstanceOf("", String)).toBe(false);
+        expect(isInstanceOf(24, Number)).toBe(false);
+        expect(isInstanceOf(true, Boolean)).toBe(false);
+
+        class List extends Array {}
+
+        class A {}
+        class B extends A {}
+
+        expect(isInstanceOf([], Array)).toBe(true);
+        expect(isInstanceOf(new List(), Array)).toBe(true);
+        expect(isInstanceOf(new B(), B)).toBe(true);
+        expect(isInstanceOf(new B(), A)).toBe(true);
+        expect(isInstanceOf(new Error("error"), Error)).toBe(true);
+        expect(isInstanceOf(/a/, RegExp, Date)).toBe(true);
+        expect(isInstanceOf(new Date(), RegExp, Date)).toBe(true);
+
+        const { contentDocument, contentWindow } = queryOne("iframe");
+
+        expect(isInstanceOf(queryOne("iframe"), HTMLIFrameElement)).toBe(true);
+        expect(contentWindow instanceof Window).toBe(false);
+        expect(isInstanceOf(contentWindow, Window)).toBe(true);
+        expect(contentDocument.body instanceof HTMLBodyElement).toBe(false);
+        expect(isInstanceOf(contentDocument.body, HTMLBodyElement)).toBe(true);
+    });
+
+>>>>>>> upstream/18.0
     test("isIterable", () => {
         expect(isIterable([1, 2, 3])).toBe(true);
         expect(isIterable(new Set([1, 2, 3]))).toBe(true);
@@ -1135,6 +1209,7 @@ describe(parseUrl(import.meta.url), () => {
         expect(isIterable({})).toBe(false);
     });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1326,6 +1401,8 @@ describe(parseUrl(import.meta.url), () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     test("levenshtein", () => {
         expect(levenshtein("abc", "abc")).toBe(0);
         expect(levenshtein("abc", "àbc ")).toBe(2);
@@ -1333,6 +1410,7 @@ describe(parseUrl(import.meta.url), () => {
         expect(levenshtein("abc", "adc")).toBe(1);
     });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1519,6 +1597,8 @@ describe(parseUrl(import.meta.url), () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     test("parseQuery & lookup", () => {
         /**
          * @param {string} query
@@ -1559,7 +1639,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         { message: (_, r) => [r`query`, query, r`should match`, expected] }
+=======
+                        { message: `query ${query} should match ${expected}` }
+>>>>>>> upstream/18.0
 =======
                         { message: `query ${query} should match ${expected}` }
 >>>>>>> upstream/18.0
@@ -1745,6 +1829,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

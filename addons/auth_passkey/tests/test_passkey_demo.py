@@ -7,6 +7,10 @@ from unittest.mock import patch
 from odoo.http import request
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import tagged
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import tagged
 >>>>>>> upstream/18.0
@@ -446,7 +450,10 @@ class PasskeyTest(HttpCaseWithUserDemo):
             self.assertTrue(response.url.endswith('/odoo'))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -468,6 +475,9 @@ class PasskeyTestTours(PasskeyTest):
             self.start_tour("/odoo?debug=tests", 'passkeys_tour_verify', login="admin")
         self.start_tour("/odoo?debug=tests", 'passkeys_tour_delete', login="admin")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

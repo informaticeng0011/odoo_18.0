@@ -1,6 +1,10 @@
 import logging
 
+<<<<<<< HEAD
 from odoo import _, models, SUPERUSER_ID
+=======
+from odoo import _, api, models, SUPERUSER_ID
+>>>>>>> upstream/18.0
 from odoo.exceptions import UserError
 
 _logger = logging.getLogger(__name__)
@@ -9,6 +13,41 @@ _logger = logging.getLogger(__name__)
 class AccountMoveSend(models.AbstractModel):
     _inherit = 'account.move.send'
 
+<<<<<<< HEAD
+=======
+    @api.model
+    def _is_es_facturae_applicable(self, move) -> bool:
+        """Check if the Factura-e applies to the given move."""
+        return move._l10n_es_edi_facturae_get_default_enable() and move.partner_id.country_code == 'ES'
+
+    def _get_all_extra_edis(self) -> dict:
+        """Extend the EDI providers with the Factura-e option."""
+        res = super()._get_all_extra_edis()
+        res.update({
+            'es_facturae': {
+                'label': _("Factura-e"),
+                'is_applicable': self._is_es_facturae_applicable,
+            },
+        })
+        return res
+
+    # -------------------------------------------------------------------------
+    # ALERTS
+    # -------------------------------------------------------------------------
+
+    @api.model
+    def _get_alerts(self, moves, moves_data):
+        # EXTENDS 'account'
+        alerts = super()._get_alerts(moves, moves_data)
+        if es_moves := moves.filtered(lambda m:
+            'es_facturae' in moves_data[m]['extra_edis']
+            or moves_data[m]['invoice_edi_format'] == 'es_facturae'
+        ):
+            if es_alerts := es_moves._l10n_es_edi_facturae_export_data_check():
+                alerts.update(**es_alerts)
+        return alerts
+
+>>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # ATTACHMENTS
     # -------------------------------------------------------------------------
@@ -17,6 +56,7 @@ class AccountMoveSend(models.AbstractModel):
         # EXTENDS 'account'
         return super()._get_invoice_extra_attachments(move) + move.l10n_es_edi_facturae_xml_id
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -553,6 +593,18 @@ class AccountMoveSend(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+    def _get_placeholder_mail_attachments_data(self, move, invoice_edi_format=None, extra_edis=None):
+        if extra_edis is None:
+            extra_edis = {}
+        # EXTENDS 'account'
+        results = super()._get_placeholder_mail_attachments_data(move, invoice_edi_format=invoice_edi_format, extra_edis=extra_edis)
+
+        if (
+            ('es_facturae' in extra_edis or invoice_edi_format == 'es_facturae')
+            and move._l10n_es_edi_facturae_get_default_enable()
+        ):
+>>>>>>> upstream/18.0
             filename = f'{move.name.replace("/", "_")}_facturae_signed.xml'
             results.append({
                 'id': f'placeholder_{filename}',
@@ -571,7 +623,14 @@ class AccountMoveSend(models.AbstractModel):
         # EXTENDS 'account'
         super()._hook_invoice_document_before_pdf_report_render(invoice, invoice_data)
 
+<<<<<<< HEAD
         if invoice_data['invoice_edi_format'] == 'es_facturae' and invoice._l10n_es_edi_facturae_get_default_enable():
+=======
+        if (
+            ('es_facturae' in invoice_data['extra_edis'] or invoice_data['invoice_edi_format'] == 'es_facturae')
+            and invoice._l10n_es_edi_facturae_get_default_enable()
+        ):
+>>>>>>> upstream/18.0
             try:
                 xml_content, errors = invoice._l10n_es_edi_facturae_render_facturae()
                 if errors:

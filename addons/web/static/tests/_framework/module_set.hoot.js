@@ -1,9 +1,14 @@
 // ! WARNING: this module cannot depend on modules not ending with ".hoot" (except libs) !
 
 import { describe, dryRun, globals, start, stop } from "@odoo/hoot";
+<<<<<<< HEAD
 import { Deferred } from "@odoo/hoot-dom";
 import { watchKeys, watchListeners } from "@odoo/hoot-mock";
 import { whenReady } from "@odoo/owl";
+=======
+import { Deferred, delay } from "@odoo/hoot-dom";
+import { watchAddedNodes, watchKeys, watchListeners } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 
 import { mockBrowserFactory } from "./mock_browser.hoot";
 import { mockCurrencyFactory } from "./mock_currency.hoot";
@@ -33,6 +38,7 @@ const { define, loader } = odoo;
 /**
  * @param {Record<any, any>} object
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,6 +160,8 @@ const clearObject = (object) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function clearObject(object) {
     for (const key in object) {
         delete object[key];
@@ -197,6 +205,9 @@ function clearObject(object) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -319,7 +330,11 @@ function clearObject(object) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const defineModuleSet = async (fileSuffix, entryPoints, additionalAddons) => {
+=======
+async function defineModuleSet(fileSuffix, entryPoints, additionalAddons) {
+>>>>>>> upstream/18.0
 =======
 async function defineModuleSet(fileSuffix, entryPoints, additionalAddons) {
 >>>>>>> upstream/18.0
@@ -512,7 +527,11 @@ async function defineModuleSet(fileSuffix, entryPoints, additionalAddons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -674,7 +693,11 @@ async function defineModuleSet(fileSuffix, entryPoints, additionalAddons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const describeDrySuite = async (fileSuffix, entryPoints) => {
+=======
+async function describeDrySuite(fileSuffix, entryPoints) {
+>>>>>>> upstream/18.0
 =======
 async function describeDrySuite(fileSuffix, entryPoints) {
 >>>>>>> upstream/18.0
@@ -816,6 +839,7 @@ async function describeDrySuite(fileSuffix, entryPoints) {
         });
     }
 
+<<<<<<< HEAD
     moduleSetLoader.cleanup();
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -974,6 +998,10 @@ async function describeDrySuite(fileSuffix, entryPoints) {
 =======
 }
 >>>>>>> upstream/18.0
+=======
+    await moduleSetLoader.cleanup();
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {Set<string>} addons
@@ -1017,7 +1045,11 @@ async function describeDrySuite(fileSuffix, entryPoints) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const fetchDependencies = async (addons) => {
+=======
+async function fetchDependencies(addons) {
+>>>>>>> upstream/18.0
 =======
 async function fetchDependencies(addons) {
 >>>>>>> upstream/18.0
@@ -1208,7 +1240,11 @@ async function fetchDependencies(addons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1369,7 +1405,11 @@ async function fetchDependencies(addons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const findMockFactory = (name) => {
+=======
+function findMockFactory(name) {
+>>>>>>> upstream/18.0
 =======
 function findMockFactory(name) {
 >>>>>>> upstream/18.0
@@ -1535,8 +1575,11 @@ function findMockFactory(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1712,6 +1755,9 @@ function freezeModel(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1832,7 +1878,13 @@ function freezeModel(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getAddonName = (name) => name.match(R_PATH_ADDON)?.[1];
+=======
+function getAddonName(name) {
+    return name.match(R_PATH_ADDON)?.[1];
+}
+>>>>>>> upstream/18.0
 =======
 function getAddonName(name) {
     return name.match(R_PATH_ADDON)?.[1];
@@ -2071,7 +2123,11 @@ function getAddonName(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getDependencies = (addons) => {
+=======
+function getDependencies(addons) {
+>>>>>>> upstream/18.0
 =======
 function getDependencies(addons) {
 >>>>>>> upstream/18.0
@@ -2239,7 +2295,11 @@ function getDependencies(addons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -2400,7 +2460,13 @@ function getDependencies(addons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getSuitePath = (name) => name.replace("../tests/", "");
+=======
+function getSuitePath(name) {
+    return name.replace("../tests/", "");
+}
+>>>>>>> upstream/18.0
 =======
 function getSuitePath(name) {
     return name.replace("../tests/", "");
@@ -2641,7 +2707,11 @@ function getSuitePath(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const makeFixedFactory = (name) => {
+=======
+function makeFixedFactory(name) {
+>>>>>>> upstream/18.0
 =======
 function makeFixedFactory(name) {
 >>>>>>> upstream/18.0
@@ -2804,7 +2874,11 @@ function makeFixedFactory(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -2971,7 +3045,11 @@ function makeFixedFactory(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const orm = async (model, method, args, kwargs) => {
+=======
+async function orm(model, method, args, kwargs) {
+>>>>>>> upstream/18.0
 =======
 async function orm(model, method, args, kwargs) {
 >>>>>>> upstream/18.0
@@ -3145,7 +3223,11 @@ async function orm(model, method, args, kwargs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -3307,7 +3389,11 @@ async function orm(model, method, args, kwargs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const resolveAddonDependencies = (dependencies) => {
+=======
+function resolveAddonDependencies(dependencies) {
+>>>>>>> upstream/18.0
 =======
 function resolveAddonDependencies(dependencies) {
 >>>>>>> upstream/18.0
@@ -3484,8 +3570,11 @@ function resolveAddonDependencies(dependencies) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3614,6 +3703,9 @@ function unfreezeModel(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3745,7 +3837,11 @@ function unfreezeModel(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const __gcAndLogMemory = async (label, testCount) => {
+=======
+async function __gcAndLogMemory(label, testCount) {
+>>>>>>> upstream/18.0
 =======
 async function __gcAndLogMemory(label, testCount) {
 >>>>>>> upstream/18.0
@@ -3930,7 +4026,11 @@ async function __gcAndLogMemory(label, testCount) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -4052,6 +4152,10 @@ async function __gcAndLogMemory(label, testCount) {
 /** @extends {OdooModuleLoader} */
 class ModuleSetLoader extends loader.constructor {
     cleanups = [];
+<<<<<<< HEAD
+=======
+    preventGlobalDefine = false;
+>>>>>>> upstream/18.0
 
     /**
      * @param {ModuleSet} moduleSet
@@ -4085,7 +4189,15 @@ class ModuleSetLoader extends loader.constructor {
         return !filter || filter(name) || R_DEFAULT_MODULE.test(name);
     }
 
+<<<<<<< HEAD
     cleanup() {
+=======
+    async cleanup() {
+        // Wait for side-effects to be properly caught up by the different "watchers"
+        // (like mutation records).
+        await delay();
+
+>>>>>>> upstream/18.0
         odoo.define = define;
         odoo.loader = loader;
 
@@ -4099,7 +4211,11 @@ class ModuleSetLoader extends loader.constructor {
      * @type {typeof loader["define"]}
      */
     define(name, deps, factory) {
+<<<<<<< HEAD
         if (!loader.factories.has(name)) {
+=======
+        if (!this.preventGlobalDefine && !loader.factories.has(name)) {
+>>>>>>> upstream/18.0
             // Lazy-loaded modules are added to the main loader for next ModuleSetLoader
             // instances.
             loader.define(name, deps, factory, true);
@@ -4115,7 +4231,12 @@ class ModuleSetLoader extends loader.constructor {
         this.cleanups.push(
             watchKeys(window.odoo),
             watchKeys(window, ALLOWED_GLOBAL_KEYS),
+<<<<<<< HEAD
             watchListeners()
+=======
+            watchListeners(window),
+            watchAddedNodes(window)
+>>>>>>> upstream/18.0
         );
 
         // Load module set modules (without entry point)
@@ -4211,6 +4332,7 @@ const ALLOWED_GLOBAL_KEYS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Chart", // Chart.js
 =======
     // Bootstrap.js is voluntarily ignored as it is deprecated
@@ -4515,12 +4637,19 @@ const ALLOWED_GLOBAL_KEYS = [
 =======
     // Bootstrap.js is voluntarily ignored as it is deprecated
     "Chart", // Chart.js
+    "DOMPurify", // DOMPurify
+>>>>>>> upstream/18.0
+=======
+    // Bootstrap.js is voluntarily ignored as it is deprecated
+    "Chart", // Chart.js
+    "DiffMatchPatch", // Diff Match Patch
     "DOMPurify", // DOMPurify
 >>>>>>> upstream/18.0
     "FullCalendar", // Full Calendar
     "L", // Leaflet
     "lamejs", // LameJS
     "luxon", // Luxon
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4705,10 +4834,13 @@ const ALLOWED_GLOBAL_KEYS = [
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     "odoo", // Odoo global object
     "owl", // Owl
     "pdfjsLib", // PDF JS
     "Popper", // Popper
+<<<<<<< HEAD
     "SignaturePad", // Signature Pad
     "StackTrace", // StackTrace
     "ZXing", // ZXing
@@ -4893,6 +5025,12 @@ const ALLOWED_GLOBAL_KEYS = [
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+    "Prism", // PrismJS
+    "SignaturePad", // Signature Pad
+    "StackTrace", // StackTrace
+    "ZXing", // ZXing
+>>>>>>> upstream/18.0
 ];
 const AUTO_INCLUDED_ADDONS = {
     /**
@@ -4974,7 +5112,11 @@ const moduleNamesCache = new Map();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** @type {Map<string, Record<string, any>>} */
+=======
+/** @type {Map<string, Record<string, unknown>>} */
+>>>>>>> upstream/18.0
 =======
 /** @type {Map<string, Record<string, unknown>>} */
 >>>>>>> upstream/18.0
@@ -5175,7 +5317,11 @@ export async function fetchModelDefinitions(modelNames) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             serverModelCache.set(modelName, modelDef);
+=======
+            serverModelCache.set(modelName, freezeModel(modelDef));
+>>>>>>> upstream/18.0
 =======
             serverModelCache.set(modelName, freezeModel(modelDef));
 >>>>>>> upstream/18.0
@@ -5336,8 +5482,11 @@ export async function fetchModelDefinitions(modelNames) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return [...modelNames].map((modelName) => [modelName, serverModelCache.get(modelName)]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5457,6 +5606,9 @@ export async function fetchModelDefinitions(modelNames) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5598,10 +5750,14 @@ export async function runTests(options) {
     await Promise.all(Object.values(defs));
 
     // Dry run
+<<<<<<< HEAD
     const [{ suites }] = await Promise.all([
         dryRun(() => describeDrySuite(fileSuffix, testModuleNames)),
         whenReady(),
     ]);
+=======
+    const { suites } = await dryRun(() => describeDrySuite(fileSuffix, testModuleNames));
+>>>>>>> upstream/18.0
 
     // Run all test files
     const filteredSuitePaths = new Set(suites.map((s) => s.fullName));
@@ -5634,7 +5790,11 @@ export async function runTests(options) {
         // Run recently added tests
         const running = await start(suite);
 
+<<<<<<< HEAD
         moduleSetLoader.cleanup();
+=======
+        await moduleSetLoader.cleanup();
+>>>>>>> upstream/18.0
         await __gcAndLogMemory(suite.fullName, suite.reporting.tests);
 
         if (!running) {

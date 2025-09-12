@@ -5,6 +5,10 @@
 # Translators:
 # Wil Odoo, 2024
 # Marianna Ciofani, 2025
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +16,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Marianna Ciofani, 2025\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -103,7 +111,11 @@ msgstr "Modalità di funzionamento EDI"
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,field_description:account_edi_proxy_client.field_account_edi_proxy_client_user__edi_identification
 msgid "Edi Identification"
+<<<<<<< HEAD
 msgstr "Identificazione EDI"
+=======
+msgstr "Identificativo EDI"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,field_description:account_edi_proxy_client.field_account_edi_proxy_client_user__id
@@ -165,7 +177,11 @@ msgstr "Modalità di prova"
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,help:account_edi_proxy_client.field_account_edi_proxy_client_user__private_key_id
 msgid "The key to encrypt all the user's data"
+<<<<<<< HEAD
 msgstr "La chiave per criptare tutti i dati dell'utente"
+=======
+msgstr "La chiave per cifrare tutti i dati dell'utente"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,help:account_edi_proxy_client.field_account_edi_proxy_client_user__edi_identification
@@ -189,8 +205,12 @@ msgid ""
 "The url that this service requested returned an error. The url it tried to "
 "contact was %s"
 msgstr ""
+<<<<<<< HEAD
 "L'url richiesto da questo servizio ha restituito un errore. L'url che ha "
 "cercato di contattare era %s"
+=======
+"L'URL richiesto dal servizio ha restituito un errore. URL richiesto: %s"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_proxy_client
 #. odoo-python

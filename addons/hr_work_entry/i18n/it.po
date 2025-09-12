@@ -5,6 +5,10 @@
 # Translators:
 # Marianna Ciofani, 2024
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +16,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +32,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_employee.py:0
 msgid "%s work entries"
+<<<<<<< HEAD
 msgstr "%s voci di lavoro"
+=======
+msgstr "%s voci lavorative"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_employee_view_form
@@ -69,7 +81,11 @@ msgstr "Inizio"
 #. module: hr_work_entry
 #: model:ir.model.fields.selection,name:hr_work_entry.selection__hr_work_entry__state__cancelled
 msgid "Cancelled"
+<<<<<<< HEAD
 msgstr "Annullato"
+=======
+msgstr "Annullata"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,help:hr_work_entry.field_hr_work_entry__code
@@ -95,7 +111,11 @@ msgstr "Azienda"
 #. module: hr_work_entry
 #: model:ir.model.fields.selection,name:hr_work_entry.selection__hr_work_entry__state__conflict
 msgid "Conflict"
+<<<<<<< HEAD
 msgstr "Conflitto"
+=======
+msgstr "In conflitto"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_search
@@ -248,7 +268,11 @@ msgstr "Ultimo aggiornamento il"
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__user_id
 msgid "Me"
+<<<<<<< HEAD
 msgstr "Io"
+=======
+msgstr "Me stesso"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__name
@@ -343,7 +367,11 @@ msgstr "La voce lavorativa è stata convalidata. Non è possibile eliminarla."
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_form
 msgid "Time Off Options"
+<<<<<<< HEAD
 msgstr "Opzioni Congedo"
+=======
+msgstr "Opzioni ferie"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__date_stop
@@ -386,7 +414,11 @@ msgstr "Utilizza questo codice per esportare i tuoi dati verso terze parti"
 #: model:ir.model.fields.selection,name:hr_work_entry.selection__hr_work_entry__state__validated
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_search
 msgid "Validated"
+<<<<<<< HEAD
 msgstr "Validata"
+=======
+msgstr "Convalidata"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.constraint,message:hr_work_entry.constraint_hr_work_entry__work_entries_no_validated_conflict
@@ -396,7 +428,11 @@ msgstr "Le voci di lavoro convalidate non possono sovrapporsi"
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_resource_calendar_attendance
 msgid "Work Detail"
+<<<<<<< HEAD
 msgstr "Dettagli del lavoro"
+=======
+msgstr "Dettaglio lavoro"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_pivot

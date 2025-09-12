@@ -59,6 +59,7 @@ from odoo.exceptions import UserError, ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_repr, format_list
 =======
 from odoo.tools import float_is_zero, float_repr, format_list
@@ -231,6 +232,13 @@ from odoo.tools import float_is_zero, float_repr, format_list
 from odoo.tools.float_utils import float_round
 from odoo.tools.misc import clean_context, formatLang, html_escape
 from odoo.tools.xml_utils import find_xml_value
+=======
+from odoo.tools import float_is_zero, float_repr, format_list
+from odoo.tools.float_utils import float_round
+from odoo.tools.misc import clean_context, formatLang, html_escape
+from odoo.tools.xml_utils import find_xml_value
+from datetime import datetime
+>>>>>>> upstream/18.0
 
 # -------------------------------------------------------------------------
 # UNIT OF MEASURE
@@ -269,6 +277,10 @@ UOM_TO_UNECE_CODE = {
 # -------------------------------------------------------------------------
 EAS_MAPPING = {
     'AD': {'9922': 'vat'},
+<<<<<<< HEAD
+=======
+    'AE': {'0235': 'vat'},
+>>>>>>> upstream/18.0
     'AL': {'9923': 'vat'},
     'AT': {'9915': 'vat'},
     'AU': {'0151': 'vat'},
@@ -296,7 +308,11 @@ EAS_MAPPING = {
     'LI': {'9936': 'vat'},
     'LT': {'9937': 'vat'},
     'LU': {'9938': 'vat'},
+<<<<<<< HEAD
     'LV': {'9939': 'vat'},
+=======
+    'LV': {'0218': 'company_registry', '9939': 'vat'},
+>>>>>>> upstream/18.0
     'MC': {'9940': 'vat'},
     'ME': {'9941': 'vat'},
     'MK': {'9942': 'vat'},
@@ -317,6 +333,22 @@ EAS_MAPPING = {
     'SM': {'9951': 'vat'},
     'TR': {'9952': 'vat'},
     'VA': {'9953': 'vat'},
+<<<<<<< HEAD
+=======
+    # DOM-TOM
+    'BL': {'0009': 'siret', '9957': 'vat', '0002': None},  # Saint Barthélemy
+    'GF': {'0009': 'siret', '9957': 'vat', '0002': None},  # French Guiana
+    'GP': {'0009': 'siret', '9957': 'vat', '0002': None},  # Guadeloupe
+    'MF': {'0009': 'siret', '9957': 'vat', '0002': None},  # Saint Martin
+    'MQ': {'0009': 'siret', '9957': 'vat', '0002': None},  # Martinique
+    'NC': {'0009': 'siret', '9957': 'vat', '0002': None},  # New Caledonia
+    'PF': {'0009': 'siret', '9957': 'vat', '0002': None},  # French Polynesia
+    'PM': {'0009': 'siret', '9957': 'vat', '0002': None},  # Saint Pierre and Miquelon
+    'RE': {'0009': 'siret', '9957': 'vat', '0002': None},  # Réunion
+    'TF': {'0009': 'siret', '9957': 'vat', '0002': None},  # French Southern and Antarctic Lands
+    'WF': {'0009': 'siret', '9957': 'vat', '0002': None},  # Wallis and Futuna
+    'YT': {'0009': 'siret', '9957': 'vat', '0002': None},  # Mayotte
+>>>>>>> upstream/18.0
 }
 
 
@@ -448,7 +480,10 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -514,6 +549,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -740,13 +778,22 @@ class AccountEdiCommon(models.AbstractModel):
         banks_to_create = []
         acc_number_partner_bank_dict = {
             bank.sanitized_acc_number: bank
+<<<<<<< HEAD
             for bank in ResPartnerBank.search(
+=======
+            for bank in ResPartnerBank.with_context(active_test=False).search(
+>>>>>>> upstream/18.0
                 [('company_id', 'in', [False, invoice.company_id.id]), ('acc_number', 'in', bank_details)]
             )
         }
         for account_number in bank_details:
             partner_bank = acc_number_partner_bank_dict.get(account_number, ResPartnerBank)
             if partner_bank.partner_id == partner:
+<<<<<<< HEAD
+=======
+                if not partner_bank.active:
+                    partner_bank.active = True
+>>>>>>> upstream/18.0
                 invoice.partner_bank_id = partner_bank
                 return
             elif not partner_bank and account_number:
@@ -837,7 +884,10 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -882,6 +932,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -906,6 +959,7 @@ class AccountEdiCommon(models.AbstractModel):
 
     def _retrieve_invoice_line_vals(self, tree, document_type=False, qty_factor=1):
         # Start and End date (enterprise fields)
+<<<<<<< HEAD
         deferred_values = {}
         start_date = end_date = None
         if self.env['account.move.line']._fields.get('deferred_start_date'):
@@ -914,6 +968,17 @@ class AccountEdiCommon(models.AbstractModel):
             if start_date_node is not None and end_date_node is not None:  # there is a constraint forcing none or the two to be set
                 start_date = start_date_node.text
                 end_date = end_date_node.text
+=======
+        xpath_dict = self._get_invoice_line_xpaths(document_type, qty_factor)
+        deferred_values = {}
+        start_date = end_date = None
+        if self.env['account.move.line']._fields.get('deferred_start_date'):
+            start_date_node = tree.find(xpath_dict['deferred_start_date'])
+            end_date_node = tree.find(xpath_dict['deferred_end_date'])
+            if start_date_node is not None and end_date_node is not None:  # there is a constraint forcing none or the two to be set
+                start_date = datetime.strptime(start_date_node.text.strip(), xpath_dict['date_format'])
+                end_date = datetime.strptime(end_date_node.text.strip(), xpath_dict['date_format'])
+>>>>>>> upstream/18.0
             deferred_values = {
                 'deferred_start_date': start_date,
                 'deferred_end_date': end_date,
@@ -1107,6 +1172,7 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             discount = 100 * (1 - (price_subtotal - charge_amount) / (delivered_qty * price_unit))
 =======
             inferred_discount = 100 * (1 - (price_subtotal - charge_amount) / (delivered_qty * price_unit))
@@ -1223,6 +1289,11 @@ class AccountEdiCommon(models.AbstractModel):
 =======
             inferred_discount = 100 * (1 - (price_subtotal - charge_amount) / (delivered_qty * price_unit))
             discount = inferred_discount if not float_is_zero(inferred_discount, 2) else 0.0
+>>>>>>> upstream/18.0
+=======
+            currency = self.env.company.currency_id
+            inferred_discount = 100 * (1 - (price_subtotal - charge_amount) / currency.round(delivered_qty * price_unit))
+            discount = inferred_discount if not float_is_zero(inferred_discount, currency.decimal_places) else 0.0
 >>>>>>> upstream/18.0
 =======
             currency = self.env.company.currency_id

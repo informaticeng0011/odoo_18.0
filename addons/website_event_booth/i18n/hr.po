@@ -6,14 +6,24 @@
 # Bole <bole@dajmi5.com>, 2024
 # Gordana Bilas, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Martin Trigaux, 2024\n"
+=======
+"POT-Creation-Date: 2025-03-19 20:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Luka Carević <luka@uvid.hr>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -163,7 +173,11 @@ msgstr ""
 #. module: website_event_booth
 #: model:ir.model,name:website_event_booth.model_event_type
 msgid "Event Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predložak događaja"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model:ir.model.fields,field_description:website_event_booth.field_event_event__exhibition_map
@@ -184,6 +198,15 @@ msgid "Go back"
 msgstr "Natrag"
 
 #. module: website_event_booth
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/website_event_booth/static/src/js/booth_register.js:0
+msgid "It looks like your email is linked to an existing account."
+msgstr ""
+
+#. module: website_event_booth
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
 msgid "It's no longer possible to book a booth."
 msgstr ""
@@ -206,7 +229,11 @@ msgstr "Lokacija"
 #. module: website_event_booth
 #: model:ir.model.fields,field_description:website_event_booth.field_website_event_menu__menu_type
 msgid "Menu Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta izbornika"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
@@ -214,6 +241,14 @@ msgid "Phone"
 msgstr "Telefon"
 
 #. module: website_event_booth
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
+msgid "Please Sign In."
+msgstr ""
+
+#. module: website_event_booth
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/website_event_booth/static/src/js/booth_register.js:0
 msgid "Please fill out the form correctly."

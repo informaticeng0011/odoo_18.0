@@ -4,6 +4,10 @@ import { browser } from "@web/core/browser/browser";
 
 patch(PosStore.prototype, {
     async setup() {
+<<<<<<< HEAD
+=======
+        this.employeeBuffer = [];
+>>>>>>> upstream/18.0
         await super.setup(...arguments);
         if (this.config.module_pos_hr) {
             this.login = Boolean(odoo.from_backend) && !this.config.module_pos_hr;
@@ -11,7 +15,10 @@ patch(PosStore.prototype, {
                 this.showScreen("LoginScreen");
             }
         }
+<<<<<<< HEAD
         this.employeeBuffer = [];
+=======
+>>>>>>> upstream/18.0
         browser.addEventListener("online", () => {
             this.employeeBuffer.forEach((employee) =>
                 this.data.write("pos.session", [this.config.current_session_id.id], {

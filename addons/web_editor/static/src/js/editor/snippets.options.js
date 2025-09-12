@@ -1987,7 +1987,11 @@ const MediapickerUserValueWidget = UserValueWidget.extend({
             noDocuments: true,
             isForBgVideo: true,
             vimeoPreviewIds: ['528686125', '430330731', '509869821', '397142251', '763851966', '486931161',
+<<<<<<< HEAD
                 '499761556', '392935303', '728584384', '865314310', '511727912', '466830211'],
+=======
+                '499761556', '1092009120', '728584384', '865314310', '511727912', '466830211'],
+>>>>>>> upstream/18.0
             'res_model': $editable.data('oe-model'),
             'res_id': $editable.data('oe-id'),
             save,
@@ -4619,6 +4623,10 @@ registry.sizing = SnippetOptionWidget.extend({
         const self = this;
         const def = this._super.apply(this, arguments);
         let isMobile = weUtils.isMobileView(this.$target[0]);
+<<<<<<< HEAD
+=======
+        const isRtl = this.options.direction === "rtl";
+>>>>>>> upstream/18.0
 
         this.$handles = this.$overlay.find('.o_handle');
 
@@ -4661,6 +4669,17 @@ registry.sizing = SnippetOptionWidget.extend({
                 XY = 'YX';
             }
 
+<<<<<<< HEAD
+=======
+            if (isRtl) {
+                if (compass.includes("e")) {
+                    compass = compass.replace("e", "w");
+                } else if (compass.includes("w")) {
+                    compass = compass.replace("w", "e");
+                }
+            }
+
+>>>>>>> upstream/18.0
             // Don't call the normal resize methods if we are in a grid and
             // vice-versa.
             const isGrid = Object.keys(resizeValues).length === 4;
@@ -4743,7 +4762,16 @@ registry.sizing = SnippetOptionWidget.extend({
                 for (const dir of directions) {
                     // dd is the number of pixels by which the mouse moved,
                     // compared to the initial position of the handle.
+<<<<<<< HEAD
                     const dd = ev['page' + dir.XY] - dir.xy + dir.resize[1][dir.begin];
+=======
+                    let ddRaw = ev["page" + dir.XY] - dir.xy;
+                    // In RTL mode, reverse only horizontal movement (X axis).
+                    if (dir.XY === "X" && isRtl) {
+                        ddRaw = -ddRaw;
+                    }
+                    const dd = ddRaw + dir.resize[1][dir.begin];
+>>>>>>> upstream/18.0
                     const next = dir.current + (dir.current + 1 === dir.resize[1].length ? 0 : 1);
                     const prev = dir.current ? (dir.current - 1) : 0;
 
@@ -6116,7 +6144,10 @@ registry.ReplaceMedia = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6268,6 +6299,9 @@ registry.ReplaceMedia = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6689,12 +6723,18 @@ const ImageHandlerOption = SnippetOptionWidget.extend({
             $select.append(`<we-button data-select-format="${Math.round(value)} ${targetFormat}" class="o_we_badge_at_end">${label} <span class="badge rounded-pill text-bg-dark">${targetFormat.split('/')[1]}</span></we-button>`);
         });
 
+<<<<<<< HEAD
         if (!['image/jpeg', 'image/webp'].includes(this._getImageMimetype(img))) {
             const optQuality = uiFragment.querySelector('we-range[data-set-quality]');
             if (optQuality) {
                 optQuality.remove();
             }
         }
+=======
+        // TODO: remove in saas-18.4 since XML is static and will be up to date
+        const optQuality = uiFragment.querySelector('we-range[data-set-quality]');
+        optQuality.setAttribute('data-name', 'quality_range_opt');
+>>>>>>> upstream/18.0
     },
     /**
      * Returns a list of valid formats for a given image or an empty list if
@@ -7387,6 +7427,21 @@ registry.ImageTools = ImageHandlerOption.extend({
         if (hoverEffectsOptionsEl && animationEffectWidget) {
             animationEffectWidget.getParent().$el[0].append(hoverEffectsOptionsEl);
         }
+<<<<<<< HEAD
+=======
+        // Disable quality option if partially not supported
+        const unsupportedQuality = this._unsupportedQualityOption();
+        const inputQuality = this.el.querySelector('we-range[data-set-quality] input');
+        if (inputQuality) {
+            if (!unsupportedQuality) {
+                inputQuality.disabled = false;
+                inputQuality.removeAttribute('title');
+            } else if (unsupportedQuality !== true) {
+                inputQuality.disabled = true;
+                inputQuality.setAttribute('title', unsupportedQuality);
+            }
+        }
+>>>>>>> upstream/18.0
     },
 
     //--------------------------------------------------------------------------
@@ -7406,6 +7461,36 @@ registry.ImageTools = ImageHandlerOption.extend({
         return this.$target.hasClass('o_we_image_cropped');
     },
     /**
+<<<<<<< HEAD
+=======
+     * Determines if the quality of the image can be adjusted.
+     *
+     * @returns {boolean|string}
+     * - `false`: supported
+     * - `true`: not supported
+     * - `string`: reason why partially not supported
+     */
+    _unsupportedQualityOption() {
+        const img = this._getImg();
+        const mimetype = this._getImageMimetype(img);
+        if (!['image/jpeg', 'image/webp'].includes(mimetype)) {
+            return true;
+        }
+        // disable WebP quality change if unsupported
+        if ('image/webp' === mimetype) {
+            if (this.canvasSupportWebp === undefined) {
+                const canvas = document.createElement('canvas');
+                canvas.width = canvas.height = 1;
+                this.canvasSupportWebp = canvas.toDataURL('image/webp').slice(0, 16) === 'data:image/webp;';
+            }
+            if (this.canvasSupportWebp === false) {
+                return _t('WebP compression not supported on this browser');
+            }
+        }
+        return false;
+    },
+    /**
+>>>>>>> upstream/18.0
      * @override
      */
     async _applyOptions() {
@@ -7706,6 +7791,12 @@ registry.ImageTools = ImageHandlerOption.extend({
             const colors = img.dataset.shapeColors.split(';');
             return colors[parseInt(params.colorId)];
         }
+<<<<<<< HEAD
+=======
+        if (widgetName == 'quality_range_opt' && this._unsupportedQualityOption() === true) {
+            return false;
+        }
+>>>>>>> upstream/18.0
         if (widgetName === "shape_anim_speed_opt") {
             return this._isAnimatedShape();
         }
@@ -8292,6 +8383,12 @@ registry.ImageTools = ImageHandlerOption.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (ev._complete) {
+                ev._complete();
+            }
+>>>>>>> upstream/18.0
 =======
             if (ev._complete) {
                 ev._complete();
@@ -8748,6 +8845,14 @@ registry.BackgroundToggler = SnippetOptionWidget.extend({
      */
     toggleBgImage(previewMode, widgetValue, params) {
         if (!widgetValue) {
+<<<<<<< HEAD
+=======
+            // When background image with position "Repeat pattern" is removed,
+            // remove background size to avoid repeating gradient
+            const targetEl = this.$target[0];
+            targetEl.style.removeProperty("background-size");
+            targetEl.classList.remove("o_bg_img_opt_repeat");
+>>>>>>> upstream/18.0
             this.$target.find('> .o_we_bg_filter').remove();
             // TODO: use setWidgetValue instead of calling background directly when possible
             const [bgImageWidget] = this._requestUserValueWidgets('bg_image_opt');
@@ -9563,7 +9668,13 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
     backgroundType: function (previewMode, widgetValue, params) {
         this.$target.toggleClass('o_bg_img_opt_repeat', widgetValue === 'repeat-pattern');
         this.$target.css('background-position', '');
+<<<<<<< HEAD
         this.$target.css('background-size', widgetValue !== 'repeat-pattern' ? '' : '100px');
+=======
+        // Set image size to "100px" for repeating, and "cover" for gradient.
+        // Ensures gradient doesn’t repeat while image does.
+        this.$target[0].style.backgroundSize = widgetValue !== "repeat-pattern" ? "" : "100px, cover";
+>>>>>>> upstream/18.0
     },
     /**
      * Saves current background position and enables overlay.
@@ -9608,10 +9719,28 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
      * @override
      */
     selectStyle: function (previewMode, widgetValue, params) {
+<<<<<<< HEAD
         if (params.cssProperty === 'background-size'
                 && !this.$target.hasClass('o_bg_img_opt_repeat')) {
             // Disable the option when the image is in cover mode, otherwise
             // the background-size: auto style may be forced.
+=======
+        if (params.cssProperty === "background-size") {
+            const targetEl = this.$target[0];
+            if (!targetEl.classList.contains("o_bg_img_opt_repeat")) {
+                // Disable the option when the image is in cover mode, otherwise
+                // the background-size: auto style may be forced.
+                return;
+            }
+            const sizeLayers = getComputedStyle(targetEl)
+                .getPropertyValue("background-size")
+                .split(",")
+                .map((bgSize) => bgSize.trim());
+            // Update only the image layer's background-size (first layer)
+            // while keeping other layers (e.g., gradient) unchanged.
+            sizeLayers[0] = widgetValue;
+            targetEl.style.setProperty("background-size", sizeLayers.join(", "));
+>>>>>>> upstream/18.0
             return;
         }
         this._super(...arguments);
@@ -9631,8 +9760,22 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
      * @override
      */
     _computeWidgetState: function (methodName, params) {
+<<<<<<< HEAD
         if (methodName === 'backgroundType') {
             return this.$target.css('background-repeat') === 'repeat' ? 'repeat-pattern' : 'cover';
+=======
+        const computedStyle = getComputedStyle(this.$target[0]);
+        if (methodName === "backgroundType") {
+            return computedStyle.backgroundRepeat.includes("no-repeat")
+                ? "cover"
+                : "repeat-pattern";
+        }
+        if (methodName === "selectStyle" && params.cssProperty === "background-size") {
+            const bgSize = computedStyle.getPropertyValue("background-size").trim();
+            // Handle multi-layer background (image + gradient)
+            // return first layer's size
+            return bgSize.split(",")[0].trim();
+>>>>>>> upstream/18.0
         }
         return this._super(...arguments);
     },
@@ -9684,11 +9827,14 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.$bgDragger.css({
             width: `${this.$target.innerWidth()}px`,
             height: `${this.$target.innerHeight()}px`,
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9715,6 +9861,9 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

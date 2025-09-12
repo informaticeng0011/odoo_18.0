@@ -1,6 +1,10 @@
 /** @odoo-module **/
 import convertInline from '@web_editor/js/backend/convert_inline';
 import {getGridHtml, getTableHtml, getRegularGridHtml, getRegularTableHtml, getTdHtml, removeComments} from '@web_editor/../tests/test_utils';
+<<<<<<< HEAD
+=======
+import { unformat } from '@web_editor/js/editor/odoo-editor/test/utils';
+>>>>>>> upstream/18.0
 
 const TEST_WIDTH = 800;
 const TEST_HEIGHT = 600;
@@ -1081,6 +1085,30 @@ QUnit.module('convert_inline', {}, function () {
             "Should remove nested mso hide condition");
     });
 
+<<<<<<< HEAD
+=======
+    QUnit.test('Should properly calculate colspan', async function (assert) {
+        const editable = document.createElement("div");
+        const container = document.createElement("div");
+        editable.append(container);
+        container.classList.add("container");
+        container.append(document.createElement("div"));
+        container.firstChild.classList.add("row");
+        container.firstChild.innerHTML = `<div class="col-sm">a</div><div class="col-1">b</div><div class="col-sm">c</div>`;
+        convertInline.bootstrapToTable(editable);
+        assert.strictEqual(editable.innerHTML,
+            unformat(`<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\" align=\"center\" role=\"presentation\" style=\"width: 100% !important; border-collapse: collapse; text-align: inherit; font-size: unset; line-height: inherit;\">
+                <tr>
+                    <td colspan=\"5\" class=\"o_converted_col\" style=\"max-width: 0px;\">a</td>
+                    <td colspan=\"1\" class=\"o_converted_col\" style=\"max-width: 0px;\">b</td>
+                    <td colspan=\"5\" class=\"o_converted_col\" style=\"max-width: 0px;\">c</td>
+                    <td colspan=\"1\" class=\"o_converted_col\" style=\"max-width: 0px;\"></td>
+                </tr>
+            </table>`),
+            "Should have one row only");
+    });
+
+>>>>>>> upstream/18.0
     QUnit.test('Correct border attributes for outlook', async function (assert) {
         assert.expect(3);
 

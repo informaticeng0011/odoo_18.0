@@ -1,5 +1,9 @@
 import { Record } from "./record";
+<<<<<<< HEAD
 import { IS_DELETED_SYM, STORE_SYM } from "./misc";
+=======
+import { STORE_SYM } from "./misc";
+>>>>>>> upstream/18.0
 import { reactive, toRaw } from "@odoo/owl";
 
 /** @typedef {import("./record_list").RecordList} RecordList */
@@ -24,6 +28,10 @@ export class Store extends Record {
         this._.UPDATE++;
         const res = fn();
         this._.UPDATE--;
+<<<<<<< HEAD
+=======
+        const deletingRecordsByLocalId = new Map();
+>>>>>>> upstream/18.0
         if (this._.UPDATE === 0) {
             // pretend an increased update cycle so that nothing in queue creates many small update cycles
             this._.UPDATE++;
@@ -117,7 +125,13 @@ export class Store extends Record {
                     RD_QUEUE.delete(record);
                     for (const [localId, names] of record._.uses.data.entries()) {
                         for (const [name2, count] of names.entries()) {
+<<<<<<< HEAD
                             const usingRecord2 = toRaw(this.recordByLocalId).get(localId);
+=======
+                            const usingRecord2 =
+                                toRaw(this.recordByLocalId).get(localId) ||
+                                deletingRecordsByLocalId.get(localId);
+>>>>>>> upstream/18.0
                             if (!usingRecord2) {
                                 // record already deleted, clean inverses
                                 record._.uses.data.delete(localId);
@@ -132,6 +146,11 @@ export class Store extends Record {
                             }
                         }
                     }
+<<<<<<< HEAD
+=======
+                    deletingRecordsByLocalId.set(record.localId, record);
+                    this.recordByLocalId.delete(record.localId);
+>>>>>>> upstream/18.0
                     this._.ADD_QUEUE("hard_delete", toRaw(record));
                 }
                 while (RHD_QUEUE.size > 0) {
@@ -139,9 +158,13 @@ export class Store extends Record {
                     /** @type {Record} */
                     const record = RHD_QUEUE.keys().next().value;
                     RHD_QUEUE.delete(record);
+<<<<<<< HEAD
                     record._[IS_DELETED_SYM] = true;
                     delete record.Model.records[record.localId];
                     this.recordByLocalId.delete(record.localId);
+=======
+                    deletingRecordsByLocalId.delete(record.localId);
+>>>>>>> upstream/18.0
                 }
             }
             this._.UPDATE--;

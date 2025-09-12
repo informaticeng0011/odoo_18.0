@@ -19,7 +19,13 @@ import { defineModels } from "./_framework/mock_server/mock_server";
 import { globalCachedFetch } from "./_framework/module_set.hoot";
 
 /**
+<<<<<<< HEAD
  * @typedef {import("./_framework/mock_server/mock_fields").FieldType} FieldType
+=======
+ * @typedef {import("./_framework/dom_test_helpers").DragAndDropOptions} DragAndDropOptions
+ * @typedef {import("./_framework/mock_server/mock_fields").FieldType} FieldType
+ * @typedef {import("./_framework/mock_server/mock_server").MockServerEnvironment} MockServerEnvironment
+>>>>>>> upstream/18.0
  * @typedef {import("./_framework/mock_server/mock_model").ModelRecord} ModelRecord
  */
 
@@ -71,7 +77,11 @@ export {
     validateKanbanColumn,
     validateKanbanRecord,
 } from "./_framework/kanban_test_helpers";
+<<<<<<< HEAD
 export { Command } from "./_framework/mock_server/mock_model";
+=======
+export { Command, registerInlineViewArchs } from "./_framework/mock_server/mock_model";
+>>>>>>> upstream/18.0
 export {
     authenticate,
     defineActions,
@@ -154,12 +164,29 @@ export function defineWebModels() {
 
 /**
  * @param {string} bundleName
+<<<<<<< HEAD
  */
 export function preloadBundle(bundleName) {
     before(async function preloadBundle() {
         mockFetch(globalCachedFetch);
         await loadBundle(bundleName);
         mockFetch(null);
+=======
+ * @param {{ once?: boolean }} [options]
+ */
+export function preloadBundle(bundleName, options) {
+    const once = options?.once || false;
+    before(async function preloadBundle() {
+        if (once) {
+            odoo.loader.preventGlobalDefine = true;
+        }
+        mockFetch(globalCachedFetch);
+        await loadBundle(bundleName);
+        mockFetch(null);
+        if (once) {
+            odoo.loader.preventGlobalDefine = false;
+        }
+>>>>>>> upstream/18.0
     });
 }
 

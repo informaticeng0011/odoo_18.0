@@ -21,6 +21,10 @@ export const OR_SYM = Symbol("or");
 const AND_SYM = Symbol("and");
 export const IS_RECORD_SYM = Symbol("isRecord");
 export const IS_FIELD_SYM = Symbol("isField");
+<<<<<<< HEAD
+=======
+/** @deprecated equivalent to IS_DELETED_SYM */
+>>>>>>> upstream/18.0
 export const IS_DELETING_SYM = Symbol("isDeleting");
 export const IS_DELETED_SYM = Symbol("isDeleted");
 export const STORE_SYM = Symbol("store");

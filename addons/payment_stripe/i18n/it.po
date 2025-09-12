@@ -92,6 +92,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -451,7 +455,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -743,7 +751,11 @@ msgstr "Connect Stripe"
 #. odoo-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Could not establish the connection to the API."
+<<<<<<< HEAD
 msgstr "Impossibile stabilire la connessione all'API."
+=======
+msgstr "Impossibile stabilire la connessione con le API."
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #. odoo-javascript
@@ -802,11 +814,16 @@ msgstr "Altri fornitori di pagamento"
 #. module: payment_stripe
 #: model:ir.model,name:payment_stripe.model_payment_provider
 msgid "Payment Provider"
+<<<<<<< HEAD
 msgstr "Fornitore di pagamenti"
+=======
+msgstr "Fornitore di pagamento"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #: model:ir.actions.act_window,name:payment_stripe.action_payment_provider_onboarding
 msgid "Payment Providers"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1160,6 +1177,9 @@ msgstr "Fornitori di pagamento"
 =======
 msgstr "Fornitori di pagamento"
 >>>>>>> upstream/18.0
+=======
+msgstr "Fornitori di pagamento"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #: model:ir.model,name:payment_stripe.model_payment_token
@@ -1209,7 +1229,11 @@ msgstr "Dati ricevuti con riferimento commerciante mancante"
 #. module: payment_stripe
 #: model:ir.model.fields,field_description:payment_stripe.field_payment_provider__stripe_secret_key
 msgid "Secret Key"
+<<<<<<< HEAD
 msgstr "Chiave segreta"
+=======
+msgstr "Chiave privata"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #: model:ir.model.fields.selection,name:payment_stripe.selection__payment_provider__code__stripe
@@ -1234,7 +1258,11 @@ msgstr "Mandato Stripe"
 #. module: payment_stripe
 #: model:ir.model.fields,field_description:payment_stripe.field_payment_token__stripe_payment_method
 msgid "Stripe Payment Method ID"
+<<<<<<< HEAD
 msgstr "ID di metodo di pagamento Stripe"
+=======
+msgstr "ID metodo di pagamento Stripe"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #. odoo-python
@@ -1295,13 +1323,21 @@ msgstr ""
 #. module: payment_stripe
 #: model:ir.model.fields,help:payment_stripe.field_payment_provider__code
 msgid "The technical code of this payment provider."
+<<<<<<< HEAD
 msgstr "Codice tecnico del fornitore di pagamenti."
+=======
+msgstr "Codice tecnico del fornitore di pagamento."
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #. odoo-python
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid "The transaction is not linked to a token."
+<<<<<<< HEAD
 msgstr "La transazione non è legata a un token."
+=======
+msgstr "La transazione non è collegata a un token."
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #. odoo-python

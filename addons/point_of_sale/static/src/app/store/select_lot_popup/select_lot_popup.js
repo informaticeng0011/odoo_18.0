@@ -123,12 +123,27 @@ export class EditListPopup extends Component {
     }
     hasValidValue(itemId, text) {
         return (
+<<<<<<< HEAD
             !this.props.isLotNameUsed(text) &&
             (this.props.customInput || this.props.options.includes(text)) &&
+=======
+            this.isValidValue(text) &&
+>>>>>>> upstream/18.0
             (!this.props.uniqueValues ||
                 !this.state.array.some((elem) => elem._id !== itemId && elem.text === text))
         );
     }
+<<<<<<< HEAD
+=======
+    isValidValue(text) {
+        return (
+            !this.props.isLotNameUsed(text) &&
+            (this.props.customInput ||
+                this.props.options.includes(text) ||
+                this.props.array.some((i) => i.text === text))
+        );
+    }
+>>>>>>> upstream/18.0
     onInputChange(itemId, text) {
         const item = this.state.array.find((elem) => elem._id === itemId);
         item.text = text;
@@ -187,10 +202,14 @@ export class EditListPopup extends Component {
             this.state.array
                 .filter((item) => {
                     const itemValue = item.text.trim();
+<<<<<<< HEAD
                     const isValidValue =
                         itemValue !== "" &&
                         !this.props.isLotNameUsed(itemValue) &&
                         (this.props.customInput || this.props.options.includes(itemValue));
+=======
+                    const isValidValue = itemValue !== "" && this.isValidValue(itemValue);
+>>>>>>> upstream/18.0
                     if (!isValidValue) {
                         return false;
                     }

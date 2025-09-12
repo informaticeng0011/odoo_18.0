@@ -69,7 +69,11 @@ from itertools import product
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command, api, models
+=======
+from odoo import Command, _, api, models
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, _, api, models
 >>>>>>> upstream/18.0
@@ -413,9 +417,12 @@ class Company(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             foreign_taxes[tax_amount] = self.env['account.tax'].create({
                                 'name': f'{tax_amount}% {destination_country.code} {destination_country.vat_label}',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -621,6 +628,9 @@ class Company(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

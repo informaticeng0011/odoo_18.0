@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sms
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
@@ -26,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
@@ -84,10 +89,15 @@
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Ujjawal Pathak, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -172,6 +182,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: hi\n"
+=======
+"POT-Creation-Date: 2025-09-05 18:40+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Ujjawal Pathak, 2025\n"
+"Language-Team: Hindi (https://app.transifex.com/odoo/teams/41243/hi/)\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: sms
@@ -212,7 +232,11 @@ msgid "%s (copy)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s (कॉपी)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s (कॉपी)"
 >>>>>>> upstream/18.0
@@ -311,7 +335,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid ""
 "<span class=\"o_stat_text\">Add</span>\n"
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Context Action</span>"
+=======
+"                                <span class=\"o_stat_text\">Context Action</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -323,18 +352,29 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid ""
 "<span class=\"o_stat_text\">Remove</span>\n"
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Context Action</span>"
+=======
+"                                <span class=\"o_stat_text\">Context Action</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_preview_form
+<<<<<<< HEAD
 msgid "<span class=\"text-warning\" invisible=\"not no_record\">No records</span>"
+=======
+msgid ""
+"<span class=\"text-warning\" invisible=\"not no_record\">No records</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.ir_actions_server_view_form
 msgid ""
 "<span invisible=\"sms_method != 'sms'\">\n"
+<<<<<<< HEAD
 "                                The message will be sent as an SMS to the recipients of the template\n"
 "                                and will not appear in the messaging history.\n"
 "                            </span>\n"
@@ -345,6 +385,23 @@ msgid ""
 "                            <span invisible=\"sms_method != 'comment'\">\n"
 "                                The SMS will be sent as an SMS to the recipients of the\n"
 "                                template and it will also be posted as an internal note\n"
+=======
+"                                The message will be sent as an SMS to the "
+"recipients of the template\n"
+"                                and will not appear in the messaging "
+"history.\n"
+"                            </span>\n"
+"                            <span invisible=\"sms_method != 'note'\">\n"
+"                                The SMS will not be sent, it will only be "
+"posted as an\n"
+"                                internal note in the messaging history.\n"
+"                            </span>\n"
+"                            <span invisible=\"sms_method != 'comment'\">\n"
+"                                The SMS will be sent as an SMS to the "
+"recipients of the\n"
+"                                template and it will also be posted as an "
+"internal note\n"
+>>>>>>> upstream/18.0
 "                                in the messaging history.\n"
 "                            </span>"
 msgstr ""
@@ -392,7 +449,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की ज़रूरत है"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की ज़रूरत है"
 >>>>>>> upstream/18.0
@@ -506,7 +567,11 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट काउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट काउंट"
 >>>>>>> upstream/18.0
@@ -575,7 +640,11 @@ msgid "Base"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बेस"
+>>>>>>> upstream/18.0
 =======
 msgstr "बेस"
 >>>>>>> upstream/18.0
@@ -712,6 +781,14 @@ msgid "Close"
 msgstr "बंद"
 
 #. module: sms
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:sms.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: sms
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_sms_composer__composition_mode
 msgid "Composition Mode"
 msgstr ""
@@ -786,7 +863,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -868,7 +949,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खारिज करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "खारिज करें"
 >>>>>>> upstream/18.0
@@ -941,7 +1026,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -1077,7 +1166,11 @@ msgid "Expired"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खत्म हो चुका"
+>>>>>>> upstream/18.0
 =======
 msgstr "खत्म हो चुका"
 >>>>>>> upstream/18.0
@@ -1137,8 +1230,12 @@ msgstr ""
 
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_template__template_fs
+<<<<<<< HEAD
 msgid ""
 "File from where the template originates. Used to reset broken template."
+=======
+msgid "File from where the template originates. Used to reset broken template."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -1154,7 +1251,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर"
 >>>>>>> upstream/18.0
@@ -1199,7 +1300,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर (पार्टनर)"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर (पार्टनर)"
 >>>>>>> upstream/18.0
@@ -1255,7 +1360,11 @@ msgid "Has Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज है"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज है"
 >>>>>>> upstream/18.0
@@ -1335,7 +1444,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -1407,7 +1520,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
 >>>>>>> upstream/18.0
@@ -1482,7 +1599,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
 >>>>>>> upstream/18.0
@@ -1517,8 +1638,13 @@ msgstr "अगर बॉक्स पर टिक है, तो कुछ म�
 #. module: sms
 #: model:ir.model.fields,help:sms.field_res_partner__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -1591,7 +1717,11 @@ msgid "Is Follower"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर है"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर है"
 >>>>>>> upstream/18.0
@@ -1646,7 +1776,11 @@ msgid "Language"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भाषा"
+>>>>>>> upstream/18.0
 =======
 msgstr "भाषा"
 >>>>>>> upstream/18.0
@@ -1701,7 +1835,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -1756,7 +1894,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -1829,7 +1971,11 @@ msgid "Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज"
 >>>>>>> upstream/18.0
@@ -1874,7 +2020,11 @@ msgid "Message Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज डिलीवरी में गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज डिलीवरी में गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -1944,7 +2094,11 @@ msgid "Models"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडल"
 >>>>>>> upstream/18.0
@@ -2038,7 +2192,11 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_resend_recipient__notification_id
 msgid "Notification"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नोटिफ़िकेशन"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_mail_notification__notification_type
@@ -2058,7 +2216,11 @@ msgid "Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "संख्या"
 >>>>>>> upstream/18.0
@@ -2108,7 +2270,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की संख्या"
 >>>>>>> upstream/18.0
@@ -2153,7 +2319,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गलतियों की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "गलतियों की संख्या"
 >>>>>>> upstream/18.0
@@ -2198,7 +2368,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
 >>>>>>> upstream/18.0
@@ -2243,7 +2417,11 @@ msgid "Number of messages with delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
 >>>>>>> upstream/18.0
@@ -2278,8 +2456,13 @@ msgstr "ऐसे मैसेज की संख्या जिनमें �
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_composer__res_ids_count
 msgid ""
+<<<<<<< HEAD
 "Number of recipients that will receive the SMS if sent in mass mode, without"
 " applying the Active Domain value"
+=======
+"Number of recipients that will receive the SMS if sent in mass mode, without "
+"applying the Active Domain value"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -2292,6 +2475,7 @@ msgstr ""
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -2355,6 +2539,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+msgstr ""
+"यह एक वैकल्पिक भाषा (ISO कोड) है जिसे आप ईमेल भेजते समय चुन सकते हैं, ताकि ईमेल उस भाषा "
+"में अनुवादित हो. अगर आप इसे सेट नहीं करते हैं, तो ईमेल अंग्रेजी में जाएगा. इसे आमतौर पर एक "
+"प्लेसहोल्डर (जैसे {{ object.partner_id.lang }}) के रूप में सेट करना चाहिए, जो अपने-आप "
+"सही भाषा कोड ले लेगा."
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -2428,7 +2621,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "रेटिंग"
 >>>>>>> upstream/18.0
@@ -2484,7 +2681,11 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_resend__recipient_ids
 msgid "Recipients"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रसीद"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_composer__numbers
@@ -2538,7 +2739,11 @@ msgid "Rejected"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अस्वीकार किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "अस्वीकार किया गया"
 >>>>>>> upstream/18.0
@@ -2583,7 +2788,11 @@ msgid "Related Document Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इससे जुड़े हुए डॉक्यूमेंट मॉड"
+>>>>>>> upstream/18.0
 =======
 msgstr "इससे जुड़े हुए डॉक्यूमेंट मॉड"
 >>>>>>> upstream/18.0
@@ -2633,7 +2842,11 @@ msgid "Rendering Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेंडरिंग मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "रेंडरिंग मॉडल"
 >>>>>>> upstream/18.0
@@ -2690,7 +2903,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.sms_tsms_view_form
 msgid "Retry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दोबारा कोशिश करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "दोबारा कोशिश करें"
 >>>>>>> upstream/18.0
@@ -2706,7 +2923,11 @@ msgstr "दोबारा कोशिश करें"
 #: model:ir.ui.menu,name:sms.sms_sms_menu
 #: model_terms:ir.ui.view,arch_db:sms.sms_tsms_view_form
 msgid "SMS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एसएमएस"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #. odoo-javascript
@@ -2781,7 +3002,11 @@ msgid "SMS Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एसएमएस डिलीवरी में गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "एसएमएस डिलीवरी में गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -3015,6 +3240,7 @@ msgstr ""
 #. module: sms
 #. odoo-python
 #: code:addons/sms/models/ir_actions_server.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3368,6 +3594,9 @@ msgid "Sending SMS can only be done on a not transient mail.thread model"
 =======
 msgid "Sending SMS can only be done on a not transient mail.thread model"
 >>>>>>> upstream/18.0
+=======
+msgid "Sending SMS can only be done on a not transient mail.thread model"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -3383,7 +3612,11 @@ msgid "Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भेजा गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "भेजा गया"
 >>>>>>> upstream/18.0
@@ -3418,7 +3651,11 @@ msgstr "भेजा गया"
 #. module: sms
 #: model:ir.model,name:sms.model_ir_actions_server
 msgid "Server Action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सर्वर ऐक्श"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_server
@@ -3466,7 +3703,11 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_template_preview__sms_template_id
 msgid "Sms Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एसएमएस टेंप्लेट"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_composer__recipient_single_number
@@ -3605,11 +3846,22 @@ msgid ""
 "- 'Update a Record': update the values of a record\n"
 "- 'Create Activity': create an activity (Discuss)\n"
 "- 'Send Email': post a message, a note or send an email (Discuss)\n"
+<<<<<<< HEAD
 "- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': add or remove followers to a record (Discuss)\n"
 "- 'Create Record': create a new record with new values\n"
 "- 'Execute Code': a block of Python code that will be executed\n"
 "- 'Send Webhook Notification': send a POST request to an external system, also known as a Webhook\n"
 "- 'Execute Existing Actions': define an action that triggers several other server actions\n"
+=======
+"- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': "
+"add or remove followers to a record (Discuss)\n"
+"- 'Create Record': create a new record with new values\n"
+"- 'Execute Code': a block of Python code that will be executed\n"
+"- 'Send Webhook Notification': send a POST request to an external system, "
+"also known as a Webhook\n"
+"- 'Execute Existing Actions': define an action that triggers several other "
+"server actions\n"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -3652,7 +3904,12 @@ msgid ""
 "'comment': generated by user input e.g. through discuss or composer\n"
 "'email_outgoing': generated by a mailing\n"
 "'notification': generated by system e.g. tracking messages\n"
+<<<<<<< HEAD
 "'auto_comment': generated by automated notification mechanism e.g. acknowledgment\n"
+=======
+"'auto_comment': generated by automated notification mechanism e.g. "
+"acknowledgment\n"
+>>>>>>> upstream/18.0
 "'user_notification': generated for a specific recipient"
 msgstr ""
 
@@ -3677,7 +3934,11 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चेतावनी"
+>>>>>>> upstream/18.0
 =======
 msgstr "चेतावनी"
 >>>>>>> upstream/18.0
@@ -3724,7 +3985,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "वेबसाइट मैसेज"
 >>>>>>> upstream/18.0
@@ -3754,7 +4019,11 @@ msgid "Website communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट कम्यूनिकेशन हिस्ट्री"
+>>>>>>> upstream/18.0
 =======
 msgstr "वेबसाइट कम्यूनिकेशन हिस्ट्री"
 >>>>>>> upstream/18.0
@@ -3834,8 +4103,15 @@ msgstr ""
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
 msgid ""
+<<<<<<< HEAD
 "Your sender name must be between 3 and 11 characters long and only contain alphanumeric characters.\n"
 "                        It must fit your company name, and you aren't allowed to modify it once you registered one, choose it carefully."
+=======
+"Your sender name must be between 3 and 11 characters long and only contain "
+"alphanumeric characters.\n"
+"                        It must fit your company name, and you aren't "
+"allowed to modify it once you registered one, choose it carefully."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -3877,7 +4153,11 @@ msgid "out of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "से"
+>>>>>>> upstream/18.0
 =======
 msgstr "से"
 >>>>>>> upstream/18.0

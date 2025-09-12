@@ -7,6 +7,7 @@ from unittest.mock import patch
 from odoo import exceptions, tools
 from odoo.addons.mail.tests.common import MailCommon
 from odoo.addons.phone_validation.tools import phone_validation
+<<<<<<< HEAD
 from odoo.addons.sms.models.sms_sms import SmsApi, SmsSms
 from odoo.tests import common
 
@@ -276,6 +277,14 @@ class MockSMS(common.HttpCase):
 =======
 class MockSMS(common.HttpCase):
 >>>>>>> upstream/18.0
+=======
+from odoo.addons.sms.models.sms_sms import SmsSms
+from odoo.addons.sms.tools.sms_api import SmsApi
+from odoo.tests import common
+
+
+class MockSMS(common.HttpCase):
+>>>>>>> upstream/18.0
 
     def tearDown(self):
         super(MockSMS, self).tearDown()
@@ -374,6 +383,7 @@ class MockSMS(common.HttpCase):
             return sms_send_origin(records, unlink_failed=False, unlink_sent=False, raise_exception=raise_exception)
 
         try:
+<<<<<<< HEAD
             with patch.object(SmsApi, '_contact_iap', side_effect=_contact_iap), \
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -773,6 +783,13 @@ class MockSMS(common.HttpCase):
                     patch.object(SmsSms, '_send', autospec=True, wraps=SmsSms, side_effect=_sms_sms_send):
                 self._mock_sms_create = sms_create
 >>>>>>> upstream/18.0
+=======
+            with patch.object(SmsApi, '_contact_iap', side_effect=_contact_iap) as _sms_api_contact_iap_mock, \
+                    patch.object(SmsSms, 'create', autospec=True, wraps=SmsSms, side_effect=_sms_sms_create) as sms_create, \
+                    patch.object(SmsSms, '_send', autospec=True, wraps=SmsSms, side_effect=_sms_sms_send):
+                self._sms_api_contact_iap_mock = _sms_api_contact_iap_mock
+                self._mock_sms_create = sms_create
+>>>>>>> upstream/18.0
                 yield
         finally:
             pass
@@ -868,8 +885,11 @@ class SMSCase(MockSMS):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise AssertionError('sent sms not found for %s (number: %s)' % (partner, number))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1070,6 +1090,9 @@ class SMSCase(MockSMS):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1282,8 +1305,11 @@ class SMSCase(MockSMS):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise AssertionError('sms.sms not found for %s (number: %s / status %s)' % (partner, number, status))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1419,6 +1445,7 @@ class SMSCase(MockSMS):
                 for sms in self._new_sms
             )
             raise AssertionError(
+<<<<<<< HEAD
                 f'sms.sms not found for {partner} (number: {number} / status {status})\n{debug_info}'
             )
 <<<<<<< HEAD
@@ -1617,6 +1644,10 @@ class SMSCase(MockSMS):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+                f'sms.sms not found for {partner} (number: {number} / status {status})\n--MOCKED DATA\n{debug_info}'
+            )
+>>>>>>> upstream/18.0
         if len(sms) > 1:
             raise NotImplementedError(
                 f'Found {len(sms)} sms.sms for {partner} (number: {number} / status {status})'
@@ -1624,8 +1655,15 @@ class SMSCase(MockSMS):
         return sms
 
     def assertSMSIapSent(self, numbers, content=None):
+<<<<<<< HEAD
         """ Check sent SMS. Order is not checked. Each number should have received
         the same content. Useful to check batch sending.
+=======
+        """ Check sent SMS (to IAP, but other providers like twilio should be
+        mocked to fill up 'self._sms', allowing tests to pass). Order is not
+        checked. Each number should have received the same content. Useful to
+        check batch sending.
+>>>>>>> upstream/18.0
 
         :param numbers: list of numbers;
         :param content: content to check for each number;
@@ -1713,6 +1751,25 @@ class SMSCase(MockSMS):
         self.assertEqual(notifications.mapped('res_partner_id'), partners)
 
         for recipient_info in recipients_info:
+<<<<<<< HEAD
+=======
+            # sanity check
+            extra_keys = recipient_info.keys() - {
+                # notification
+                'failure_reason',
+                'failure_type',
+                'state',
+                # sms
+                'sms_fields_values',
+                # recipient
+                'number',
+                'partner',
+                'recipient_check_sms',
+            }
+            if extra_keys:
+                raise ValueError(f'Unsupported values: {extra_keys}')
+
+>>>>>>> upstream/18.0
             partner = recipient_info.get('partner', self.env['res.partner'])
             number = recipient_info.get('number')
             state = recipient_info.get('state', 'pending')
@@ -1731,13 +1788,24 @@ class SMSCase(MockSMS):
             self.assertEqual(notif.author_id, notif.mail_message_id.author_id, 'SMS: Message and notification should have the same author')
             for field_name, expected_value in (mail_message_values or {}).items():
                 self.assertEqual(notif.mail_message_id[field_name], expected_value)
+<<<<<<< HEAD
             if state not in {'process', 'sent', 'ready', 'canceled', 'pending'}:
                 self.assertEqual(notif.failure_type, recipient_info['failure_type'])
             if check_sms:
+=======
+            if 'failure_reason' in recipient_info:
+                self.assertEqual(notif.failure_reason, recipient_info['failure_reason'])
+            if state not in {'process', 'sent', 'ready', 'canceled', 'pending'}:
+                self.assertEqual(notif.failure_type, recipient_info['failure_type'])
+
+            if recipient_info.get('recipient_check_sms', check_sms):
+                fields_values = recipient_info.get('sms_fields_values') or {}
+>>>>>>> upstream/18.0
                 if state in {'process', 'pending', 'sent'}:
                     if sent_unlink:
                         self.assertSMSIapSent([number], content=content)
                     else:
+<<<<<<< HEAD
                         self.assertSMS(partner, number, state, content=content)
                 elif state == 'ready':
                     self.assertSMS(partner, number, 'outgoing', content=content)
@@ -1745,6 +1813,15 @@ class SMSCase(MockSMS):
                     self.assertSMS(partner, number, 'error', failure_type=recipient_info['failure_type'], content=content)
                 elif state == 'canceled':
                     self.assertSMS(partner, number, 'canceled', failure_type=recipient_info['failure_type'], content=content)
+=======
+                        self.assertSMS(partner, number, state, content=content, fields_values=fields_values)
+                elif state == 'ready':
+                    self.assertSMS(partner, number, 'outgoing', content=content, fields_values=fields_values)
+                elif state == 'exception':
+                    self.assertSMS(partner, number, 'error', failure_type=recipient_info['failure_type'], content=content, fields_values=fields_values)
+                elif state == 'canceled':
+                    self.assertSMS(partner, number, 'canceled', failure_type=recipient_info['failure_type'], content=content, fields_values=fields_values)
+>>>>>>> upstream/18.0
                 else:
                     raise NotImplementedError('Not implemented')
 
@@ -1833,11 +1910,15 @@ class SMSCommon(MailCommon, SMSCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(SMSCommon, cls).setUpClass()
         cls.user_employee.write({'login': 'employee'})
 
         # update country to belgium in order to test sanitization of numbers
         cls.user_employee.company_id.write({'country_id': cls.env.ref('base.be').id})
+=======
+        super().setUpClass()
+>>>>>>> upstream/18.0
 =======
         super().setUpClass()
 >>>>>>> upstream/18.0

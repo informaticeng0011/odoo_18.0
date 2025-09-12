@@ -10,6 +10,10 @@
 # Murat Kaplan <muratk@projetgrup.com>, 2024
 # abc Def <hdogan1974@gmail.com>, 2024
 # Ediz Duman <neps1192@gmail.com>, 2025
+<<<<<<< HEAD
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -17,7 +21,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Ediz Duman <neps1192@gmail.com>, 2025\n"
+=======
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,12 +51,20 @@ msgstr "Şifre Anahtarı Ekle"
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_res_users_identitycheck__auth_method
 msgid "Auth Method"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kimlik Doğrulama Yöntemi"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_res_users__auth_passkey_key_ids
 msgid "Auth Passkey Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kimlik Doğrulama Anahtar Bilgisi"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_key_create_view_form
@@ -65,17 +81,29 @@ msgstr "Oluştur"
 #. odoo-python
 #: code:addons/auth_passkey/models/res_users.py:0
 msgid "Create Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtar Oluştur"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.actions.act_window,name:auth_passkey.action_auth_passkey_key_create
 msgid "Create Passkey Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtar Oluşturma Sihirbazı"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_auth_passkey_key_create
 msgid "Create a Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir Anahtar Oluştur"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__create_uid
@@ -93,12 +121,20 @@ msgstr "Oluşturuldu"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Created:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oluşturulma:"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__credential_identifier
 msgid "Credential Identifier"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kimlik Bilgisi Tanımlayıcısı"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
@@ -125,6 +161,11 @@ msgid ""
 "Incorrect Passkey. Please provide a valid passkey or use a different "
 "authentication method."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Geçersiz Anahtar. Lütfen geçerli bir anahtar girin veya farklı bir kimlik "
+"doğrulama yöntemi kullanın."
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__write_uid
@@ -142,12 +183,20 @@ msgstr "Son Güncelleme"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Last used:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Son kullanım:"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_login
 msgid "Log in with Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtar ile Giriş Yap"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__name
@@ -158,19 +207,31 @@ msgstr "Adı"
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Or choose a different method:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Veya farklı bir yöntem seçin:"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_auth_passkey_key
 #: model:ir.model.fields.selection,name:auth_passkey.selection__res_users_identitycheck__auth_method__webauthn
 msgid "Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtar"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Passkeys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtarlar"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
@@ -178,6 +239,11 @@ msgid ""
 "Passkeys are a replacement for your username and password, offering a more "
 "secure way of logging in."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Anahtarlar, kullanıcı adı ve parolanızın yerine geçen, daha güvenli bir "
+"giriş yöntemidir."
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_res_users_identitycheck
@@ -198,7 +264,11 @@ msgstr "Adını değiştir"
 #. odoo-python
 #: code:addons/auth_passkey/models/auth_passkey_key.py:0
 msgid "Rename Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtarı Yeniden Adlandır"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_key_rename
@@ -214,28 +284,48 @@ msgstr "Güvenlik Kontrolü"
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__sign_count
 msgid "Sign Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oturum Sayısı"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.constraint,message:auth_passkey.constraint_auth_passkey_key_unique_identifier
 msgid "The credential identifier should be unique."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kimlik bilgisi tanımlayıcısı benzersiz olmalıdır."
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #. odoo-python
 #: code:addons/auth_passkey/models/res_users.py:0
 msgid "Unknown passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bilinmeyen anahtar"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Use Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtar ile Giriş Yap"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Use password"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parola kullan"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_res_users

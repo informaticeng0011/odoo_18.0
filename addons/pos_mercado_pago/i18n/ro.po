@@ -3,8 +3,13 @@
 # 	* pos_mercado_pago
 # 
 # Translators:
+<<<<<<< HEAD
 # Wil Odoo, 2024
 # Lyall Kindmurr, 2024
+=======
+# Lyall Kindmurr, 2024
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +17,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Lyall Kindmurr, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,18 +32,30 @@ msgstr ""
 #. module: pos_mercado_pago
 #: model_terms:ir.ui.view,arch_db:pos_mercado_pago.pos_payment_method_view_form_inherit_pos_mercado_pago
 msgid "1494126963"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1494126963"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model_terms:ir.ui.view,arch_db:pos_mercado_pago.pos_payment_method_view_form_inherit_pos_mercado_pago
 msgid "APP_USR-..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "APP_USR-..."
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #. odoo-python
 #: code:addons/pos_mercado_pago/models/pos_payment_method.py:0
 msgid "Do not have access to fetch token from Mercado Pago"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu aveți acces pentru a prelua tokenul de la Mercado Pago"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model:ir.model.fields,help:pos_mercado_pago.field_pos_payment_method__mp_id_point_smart
@@ -42,11 +63,20 @@ msgid ""
 "Enter your Point Smart terminal serial number written on the back of your "
 "terminal (after the S/N:)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Introduceți numărul de serie al terminalului Point Smart scris pe spatele "
+"terminalului (după S/N:)"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model_terms:ir.ui.view,arch_db:pos_mercado_pago.pos_payment_method_view_form_inherit_pos_mercado_pago
 msgid "Force PDV"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forțează PDV"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model:ir.model.fields,help:pos_mercado_pago.field_pos_payment_method__mp_bearer_token
@@ -54,6 +84,11 @@ msgid ""
 "Mercado Pago customer production user token: "
 "https://www.mercadopago.com.mx/developers/en/reference"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Token de utilizator producție pentru clientul Mercado Pago: "
+"https://www.mercadopago.com.mx/developers/en/reference"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model:ir.model.fields,help:pos_mercado_pago.field_pos_payment_method__mp_webhook_secret_key
@@ -61,41 +96,70 @@ msgid ""
 "Mercado Pago production secret key from integration application: "
 "https://www.mercadopago.com.mx/developers/panel/app"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Cheia secretă de producție Mercado Pago din aplicația de integrare: "
+"https://www.mercadopago.com.mx/developers/panel/app"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model:ir.model.fields,field_description:pos_mercado_pago.field_pos_payment_method__mp_id_point_smart_complet
 msgid "Mp Id Point Smart Complet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mp Id Point Smart Complet"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #. odoo-javascript
 #: code:addons/pos_mercado_pago/static/src/app/payment_mercado_pago.js:0
 msgid "Payment has been canceled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plata a fost anulată"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #. odoo-javascript
 #: code:addons/pos_mercado_pago/static/src/app/payment_mercado_pago.js:0
 msgid "Payment has been processed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plata a fost procesată"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #. odoo-javascript
 #: code:addons/pos_mercado_pago/static/src/app/payment_mercado_pago.js:0
 msgid "Payment has been rejected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plata a fost respinsă"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #. odoo-javascript
 #: code:addons/pos_mercado_pago/static/src/app/payment_mercado_pago.js:0
 msgid "Payment has to be canceled on terminal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plata trebuie anulată pe terminal"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #. odoo-javascript
 #: code:addons/pos_mercado_pago/static/src/app/payment_mercado_pago.js:0
 msgid "Payment not found (canceled/finished on terminal)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plata nu a fost găsită (anulată/finalizată pe terminal)"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #. odoo-javascript
@@ -108,28 +172,49 @@ msgstr "Starea de plată nu a putut fi confirmată"
 #: code:addons/pos_mercado_pago/models/pos_payment_method.py:0
 msgid "Please verify your production user token as it was rejected"
 msgstr ""
+<<<<<<< HEAD
 "Tokenul de utilizator producție a fost respins. Vă rugăm să verificați "
 "tokenul."
+=======
+"Vă rugăm să verificați tokenul de utilizator producție deoarece a fost "
+"respins"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model:ir.model,name:pos_mercado_pago.model_pos_payment_method
 msgid "Point of Sale Payment Methods"
+<<<<<<< HEAD
 msgstr "Metode plată Punct de Vânzare"
+=======
+msgstr "Metode de plată Punct de Vânzare"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model:ir.model,name:pos_mercado_pago.model_pos_session
 msgid "Point of Sale Session"
+<<<<<<< HEAD
 msgstr "Sesiune Punct de vânzare"
+=======
+msgstr "Sesiune Punct de Vânzare"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model:ir.model.fields,field_description:pos_mercado_pago.field_pos_payment_method__mp_webhook_secret_key
 msgid "Production secret key"
+<<<<<<< HEAD
 msgstr "Cheia secretă producție"
+=======
+msgstr "Cheie secretă producție"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model:ir.model.fields,field_description:pos_mercado_pago.field_pos_payment_method__mp_bearer_token
 msgid "Production user token"
+<<<<<<< HEAD
 msgstr "Token de utilizator producție"
+=======
+msgstr "Token utilizator producție"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model:ir.model.fields,field_description:pos_mercado_pago.field_pos_payment_method__mp_id_point_smart
@@ -140,19 +225,31 @@ msgstr "S/N Terminal"
 #. odoo-python
 #: code:addons/pos_mercado_pago/models/pos_payment_method.py:0
 msgid "The terminal serial number is not registered on Mercado Pago"
+<<<<<<< HEAD
 msgstr "Numărul de serial al terminalului nu este înregistrat de Mercado Pago"
+=======
+msgstr "Numărul de serie al terminalului nu este înregistrat la Mercado Pago"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #. odoo-python
 #: code:addons/pos_mercado_pago/models/pos_payment_method.py:0
 msgid "Unexpected Mercado Pago response: %s"
+<<<<<<< HEAD
 msgstr "Eroare Mercado Pago: %s"
+=======
+msgstr "Răspuns Mercado Pago neașteptat: %s"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #. odoo-javascript
 #: code:addons/pos_mercado_pago/static/src/app/payment_mercado_pago.js:0
 msgid "Unknown payment status"
+<<<<<<< HEAD
 msgstr "Stare plată nerecunoscută"
+=======
+msgstr "Stare de plată necunoscută"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model_terms:ir.ui.view,arch_db:pos_mercado_pago.pos_payment_method_view_form_inherit_pos_mercado_pago

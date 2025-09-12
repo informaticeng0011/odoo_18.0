@@ -2,6 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 from odoo.tests import TransactionCase
 from odoo.exceptions import UserError
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 
 import odoo.tests
 
@@ -33,3 +37,34 @@ class TestGeoLocalize(TransactionCase):
         self.assertFalse(test_partner.partner_longitude)
         self.assertFalse(test_partner.partner_latitude)
         self.assertFalse(test_partner.date_localization)
+<<<<<<< HEAD
+=======
+
+
+@odoo.tests.tagged('-at_install', 'post_install')
+class TestPartnerGeoLocalization(TransactionCase):
+
+    def test_geo_localization_notification(self):
+        """ Warning message is sent to the user when geolocation fails. """
+        partner = self.env['res.partner']
+        user_partner = self.env.user.partner_id
+
+        with patch.object(self.env.registry['bus.bus'], '_sendone') as mock_send:
+            partner1 = partner.create({'name': 'Test A'})
+            partner1.with_context(force_geo_localize=True).geo_localize()
+            mock_send.assert_called_with(user_partner, 'simple_notification', {
+                'type': 'danger',
+                'title': "Warning",
+                'message': "No match found for Test A address(es).",
+            })
+            mock_send.reset_mock()
+
+            partner2 = partner.create({'name': "", 'parent_id': partner1.id, 'type': 'other'})
+            partner2.with_context(force_geo_localize=True).geo_localize()
+            mock_send.assert_called_with(user_partner, 'simple_notification', {
+                'type': 'danger',
+                'title': "Warning",
+                'message': "No match found for Test A, Other Address address(es).",
+            })
+            mock_send.reset_mock()
+>>>>>>> upstream/18.0

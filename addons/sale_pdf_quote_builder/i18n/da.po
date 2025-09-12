@@ -39,6 +39,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Kira Petersen, 2025
+>>>>>>> upstream/18.0
 =======
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
@@ -170,7 +174,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Martin Trigaux, 2024\n"
+=======
+"Last-Translator: Kira Petersen, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Kira Petersen, 2025\n"
 >>>>>>> upstream/18.0
@@ -283,12 +291,20 @@ msgstr ""
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "<span class=\"pe-2\">Templates:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"pe-2\">Skabeloner:</span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "<span>Document type:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Dokumenttype:</span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
@@ -297,6 +313,11 @@ msgid ""
 "A form field set as used in product documents can't be linked to a quotation"
 " document."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Formularfelter, der er oprettet til brug i produktdokumenter, kan ikke "
+"bruges i tilbudsdokumenter."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
@@ -305,6 +326,11 @@ msgid ""
 "A form field set as used in quotation documents can't be linked to a product"
 " document."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Formularfelter, der er oprettet til brug i produktdokumenter, kan ikke "
+"bruges i tilbudsdokumenter."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__access_token
@@ -338,6 +364,16 @@ msgid ""
 "e.g. this option can be useful to share User Manual or digital content bought on ecommerce. \n"
 "Inside quote: The document will be included in the pdf of the quotation and sale order between the header pages and the quote table. "
 msgstr ""
+<<<<<<< HEAD
+=======
+"Gør det muligt at dele dokumentet med dine kunder i forbindelse med et salg.\n"
+"Lad feltet stå tomt, hvis du ikke ønsker at dele dokumentet med kunden.\n"
+"På tilbud: Dokumentet bliver sendt til kunden og vil være tilgængeligt for dem til enhver tid.\n"
+"Eksempel: Denne mulighed er nyttig til at dele produktbeskrivelsesfiler.\n"
+"På ordrebekræftelse: Dokumentet sendes til kunden og er tilgængeligt for dem.\n"
+"Eksempel: Her kan det være praktisk at dele brugervejledninger eller digitalt indhold købt via e-handel.\n"
+"På tilbuddet: Dokumentet indsættes i tilbuds-PDF’en mellem sidehovedet og tilbudstabellen, både i tilbuddet og på salgsordren. "
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
@@ -359,7 +395,11 @@ msgstr "Vedhæftet URL"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order__available_product_document_ids
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order_line__available_product_document_ids
 msgid "Available Product Documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilgængelige produktdokumenter"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__checksum
@@ -370,7 +410,11 @@ msgstr "Checksum/SHA1"
 #. odoo-javascript
 #: code:addons/sale_pdf_quote_builder/static/src/js/custom_content_kanban_like_widget/custom_field_card/custom_field_card.js:0
 msgid "Click to write content for the PDF quote..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klik for at skrive indhold til PDF-tilbuddet ..."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__company_id
@@ -381,12 +425,20 @@ msgstr "Virksomhed"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.product_document_form
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Configure dynamic fields"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfiguér dynamiske felter"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.product_document_form
 msgid "Configure the path to fill the form fields."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurér stien til udfyldning af formularfelter"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__create_uid
@@ -408,12 +460,20 @@ msgstr "Oprettelse"
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search
 msgid "Customizable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kan tilpasses"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order__customizable_pdf_form_fields
 msgid "Customizable PDF Form Fields"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PDF-formularfelter kan tilpasses"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__db_datas
@@ -445,7 +505,11 @@ msgstr "Dokument Type"
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "Document type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dokumenttype"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
@@ -487,30 +551,50 @@ msgstr "Sidefod"
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__name
 msgid "Form Field Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navn på formularfelt"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/product_document.py:0
 #: code:addons/sale_pdf_quote_builder/models/quotation_document.py:0
 msgid "Form Fields"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Formularfelter"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_product_document__form_field_ids
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__form_field_ids
 msgid "Form Fields Included"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Formularfelter inkluderet"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.constraint,message:sale_pdf_quote_builder.constraint_sale_pdf_form_field_unique_name_per_doc_type
 msgid "Form field name must be unique for a given document type."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navnet på formularfeltet skal være unikt for en given dokumenttype."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model,name:sale_pdf_quote_builder.model_sale_pdf_form_field
 msgid "Form fields of inside quotation documents."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Formularfelter i dokumenter oprettet som en del af et tilbud."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
@@ -527,12 +611,20 @@ msgstr "Overskrift"
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__sale_pdf_form_field__document_type__quotation_document
 msgid "Header/Footer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sidehoved/sidefod"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order_template__quotation_document_ids
 msgid "Headers and footers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sidehoved og sidefødder"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.act_window,name:sale_pdf_quote_builder.quotation_document_action
@@ -540,7 +632,11 @@ msgstr ""
 #: model:ir.ui.menu,name:sale_pdf_quote_builder.sale_menu_quotation_document_action
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.res_config_settings_view_form
 msgid "Headers/Footers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sidehoved/sidefødder"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
@@ -559,6 +655,11 @@ msgid ""
 "If unchecked, it will allow you to hide the header or footer without "
 "removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Hvis feltet ikke er markeret, vil du kunne skjule sidehoved eller sidefod "
+"uden at fjerne dem."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__image_height
@@ -583,7 +684,11 @@ msgstr "Indekseret indhold"
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__product_document__attached_on_sale__inside
 msgid "Inside quote pdf"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "I PDF-tilbud"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
@@ -592,6 +697,11 @@ msgid ""
 "Invalid form field name %(field_name)s. A form field name in a header or a "
 "footer can not start with \"sol_id_\"."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ugyldigt formularfeltnavn %(field_name)s. Et formularfeltnavn i et sidehoved"
+" eller en sidefod kan ikke begynde med \"sol_id_\"."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
@@ -600,6 +710,11 @@ msgid ""
 "Invalid form field name %(field_name)s. It should only contain "
 "alphanumerics, hyphens or underscores."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ugyldigt formularfeltnavn %(field_name)s. Det må kun indeholde alfanumeriske"
+" tegn, bindestreger eller understregninger."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
@@ -608,11 +723,20 @@ msgid ""
 "Invalid path %(path)s. It should only contain alphanumerics, hyphens, "
 "underscores or points."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ugyldig sti %(field_name)s. Det må kun indeholde alfanumeriske tegn, "
+"bindestreger eller understregningstegn."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order__is_pdf_quote_builder_available
 msgid "Is Pdf Quote Builder Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Er PDF-tilbudsgenerator klar"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__public
@@ -626,6 +750,11 @@ msgid ""
 "It seems that we're not able to process this pdf inside a quotation. It is "
 "either encrypted, or encoded in a format we do not support."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Det ser ud til, at vi ikke kan behandle denne PDF i et tilbud. Den er enten "
+"krypteret eller gemt i et format, vi ikke understøtter."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__key
@@ -647,7 +776,11 @@ msgstr "Sidst opdateret den"
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Mark fields as safe to fill in the quote."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Markér felter som sikre for at udfylde tilbuddet."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__mimetype
@@ -675,7 +808,11 @@ msgstr "Kun PDF-dokumenter kan vedhæftes i et tilbud."
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/quotation_document.py:0
 msgid "Only PDF documents can be used as header or footer."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kun PDF-dokumenter kan bruges som sidehoved eller sidefod."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__original_id
@@ -694,12 +831,22 @@ msgid ""
 "                <br>\n"
 "                to boost your sales."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tilpas dine tilbud med iøjnefaldende sider med sidehoved og sidefod\n"
+"                <br>\n"
+"                for at øge dine salg."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid "Please use only relational fields until the last value of your path."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brug venligst kun relationsfelter indtil stiens sidste værdi."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
@@ -717,7 +864,11 @@ msgstr "Produktdokument"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order_line__product_document_ids
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__product_document_ids
 msgid "Product Documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktdokumenter"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.sale_order_template_form
@@ -728,6 +879,14 @@ msgid ""
 "                        details of the quote and then the footer pages. <br/>\n"
 "                        If empty, it will use those define in the company settings. <br/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Indsæt sider med sidehoveder og sidefødder for at lave attraktive tilbud med flere oplysninger\n"
+"                        om din virksomhed, dine produkter og dine tjenester. <br/>\n"
+"                        PDF'en med dit tilbud sammensættes af sidehoveder, produktbeskrivelser,\n"
+"                        detaljerede oplysninger om tilbuddet og til sidst sidefødder. <br/>\n"
+"                        Hvis du lader feltet være tomt, anvendes de værdier, der er defineret i virksomhedsindstillingerne. <br/>"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.report,name:sale_pdf_quote_builder.action_report_saleorder_raw
@@ -737,12 +896,20 @@ msgstr "Tilbud / ordre"
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "Quotation Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilbudsdokument"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__quotation_document_ids
 msgid "Quotation Documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilbudsdokumenter"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model,name:sale_pdf_quote_builder.model_sale_order_template
@@ -758,13 +925,21 @@ msgstr "Tilbudsskabeloner"
 #. module: sale_pdf_quote_builder
 #: model:ir.model,name:sale_pdf_quote_builder.model_quotation_document
 msgid "Quotation's Headers & Footers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sidehoveder og sidefødder på tilbud"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.sale_order_form_inherit_sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.sale_order_template_form
 msgid "Quote Builder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilbudsgenerator"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__ir_attachment_id
@@ -799,12 +974,21 @@ msgstr "Navn på ressourse"
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_product_document__attached_on_sale
 msgid "Sale : Visible at"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Salg: Synlig hos"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.server,name:sale_pdf_quote_builder.cron_post_upgrade_assign_missing_form_fields_ir_actions_server
 msgid "Sale Pdf Quote Builder: assign form fields to documents post upgrade"
 msgstr ""
+<<<<<<< HEAD
+=======
+"PDF-salgstilbudsgenerator: Tildel formularfelter til dokumenter efter "
+"opgraderingen"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model,name:sale_pdf_quote_builder.model_sale_order
@@ -830,12 +1014,20 @@ msgstr "Gemt filnavn"
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid "The field %(field_name)s doesn't exist on model %(model_name)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Feltet %(field_name)s findes ikke i modellen %(model_name)s "
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,help:sale_pdf_quote_builder.field_sale_pdf_form_field__name
 msgid "The form field name as written in the PDF."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navnet på formularfeltet som skrevet i PDF'en."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,help:sale_pdf_quote_builder.field_sale_pdf_form_field__path
@@ -843,6 +1035,11 @@ msgid ""
 "The path to follow to dynamically fill the form field. \n"
 "Leave empty to be able to customized it in the quotation form."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Stien, der bruges til at udfylde formularfeltet dynamisk. \n"
+"Lad feltet stå tomt for at kunne tilpasse det direkte i tilbudsformularen."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,help:sale_pdf_quote_builder.field_sale_order_line__product_document_ids
@@ -850,6 +1047,11 @@ msgid ""
 "The product documents for this order line that will be merged in the PDF "
 "quote."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Produktdokumenterne for denne ordrelinje, der flettes sammen med PDF-"
+"tilbuddet."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__theme_template_id
@@ -859,7 +1061,11 @@ msgstr "Tema skabelon"
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search
 msgid "This document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dette dokument"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__type
@@ -869,7 +1075,11 @@ msgstr "Type"
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.actions.act_window,help:sale_pdf_quote_builder.quotation_document_action
 msgid "Upload quotation headers and footers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upload sidehoveder og sidefødder til tilbud"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__url
@@ -910,7 +1120,11 @@ msgid "Visible to all"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kan ses af alle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kan ses af alle"
 >>>>>>> upstream/18.0
@@ -1008,7 +1222,11 @@ msgstr "Kan ses af alle"
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__voice_ids
 msgid "Voice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stemme"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__website_id
@@ -1020,6 +1238,11 @@ msgstr "Hjemmeside"
 #: code:addons/sale_pdf_quote_builder/models/product_document.py:0
 msgid "When attached inside a quote, the document must be a file, not a URL."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Hvis du ønsker at vedhæfte dokumentet et tilbud, skal det være en fil og "
+"ikke en URL-adresse."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python

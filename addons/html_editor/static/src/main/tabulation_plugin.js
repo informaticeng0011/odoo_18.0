@@ -79,11 +79,14 @@ import { Plugin } from "@html_editor/plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { closestBlock } from "@html_editor/utils/blocks";
 import { splitTextNode } from "@html_editor/utils/dom";
 import { isEditorTab, isTextNode, isZWS } from "@html_editor/utils/dom_info";
 import { descendants, getAdjacentPreviousSiblings } from "@html_editor/utils/dom_traversal";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -330,6 +333,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -551,8 +557,13 @@ export class TabulationPlugin extends Plugin {
         if (selection.isCollapsed) {
             this.insertTab();
         } else {
+<<<<<<< HEAD
             const traversedBlocks = this.dependencies.selection.getTraversedBlocks();
             this.indentBlocks(traversedBlocks);
+=======
+            const targetedBlocks = this.dependencies.selection.getTargetedBlocks();
+            this.indentBlocks(targetedBlocks);
+>>>>>>> upstream/18.0
         }
         this.dependencies.history.addStep();
     }
@@ -561,8 +572,13 @@ export class TabulationPlugin extends Plugin {
         if (this.delegateTo("shift_tab_overrides")) {
             return;
         }
+<<<<<<< HEAD
         const traversedBlocks = this.dependencies.selection.getTraversedBlocks();
         this.outdentBlocks(traversedBlocks);
+=======
+        const targetedBlocks = this.dependencies.selection.getTargetedBlocks();
+        this.outdentBlocks(targetedBlocks);
+>>>>>>> upstream/18.0
         this.dependencies.history.addStep();
     }
 
@@ -647,8 +663,11 @@ export class TabulationPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.dependencies.dom.insert(parseHTML(this.document, tabHtml));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -897,6 +916,9 @@ export class TabulationPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

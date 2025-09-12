@@ -9,8 +9,17 @@ import {
 } from "@mail/../tests/mail_test_helpers";
 import { expect, test } from "@odoo/hoot";
 import { mockDate } from "@odoo/hoot-mock";
+<<<<<<< HEAD
 import { getMockEnv } from "@web/../tests/_framework/env_test_helpers";
 import { mockService, preloadBundle, serverState } from "@web/../tests/web_test_helpers";
+=======
+import {
+    getMockEnv,
+    mockService,
+    preloadBundle,
+    serverState,
+} from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 import { actionService } from "@web/webclient/actions/action_service";
 
 defineCalendarModels();

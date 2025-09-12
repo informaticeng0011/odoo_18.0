@@ -5,7 +5,12 @@
         <span name="order_note" position="before">
             <p t-if="doc.carrier_id.carrier_description" id="carrier_description">
                 <strong>Shipping Description</strong>
+<<<<<<< HEAD
                 <div t-out="doc.carrier_id.carrier_description"/>
+=======
+                <span class="d-block" t-out="doc.carrier_id.carrier_description"/>
+                <div class="d-none" t-out="doc.carrier_id.carrier_description"/>
+>>>>>>> upstream/18.0
             </p>
         </span>
     </template>

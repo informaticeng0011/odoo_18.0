@@ -9,6 +9,10 @@ from . import mail_message
 from . import mail_notification
 from . import mail_thread
 from . import models
+<<<<<<< HEAD
+=======
+from . import res_company
+>>>>>>> upstream/18.0
 from . import res_partner
 from . import sms_sms
 from . import sms_template

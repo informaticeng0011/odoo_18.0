@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models
 =======
 =======
@@ -24,6 +25,13 @@ from odoo import api, models
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+import math
+from num2words import num2words
+
+from odoo import _, api, models
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 
 
 class AccountEdiXmlUblTr(models.AbstractModel):
@@ -45,6 +53,7 @@ class AccountEdiXmlUblTr(models.AbstractModel):
             # To send an invoice to Nlvera, the format needs to follow ABC2009123456789.
             parts = invoice.name.split('/')
             prefix, year, number = parts[0], parts[1], parts[2].zfill(9)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,6 +267,12 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 =======
             return f"{prefix.upper()}{year}{number}"
 >>>>>>> upstream/18.0
+=======
+            return f"{prefix.upper()}{year}{number}"
+
+        if invoice._l10n_tr_nilvera_einvoice_check_negative_lines():
+            raise UserError(_("Nilvera portal cannot process negative quantity nor negative price on invoice lines"))
+>>>>>>> upstream/18.0
 
         # EXTENDS account.edi.xml.ubl_21
         vals = super()._export_invoice_vals(invoice)
@@ -266,6 +281,17 @@ class AccountEdiXmlUblTr(models.AbstractModel):
         if invoice.partner_id.l10n_tr_nilvera_customer_status == 'not_checked':
             invoice.partner_id.check_nilvera_customer()
 
+<<<<<<< HEAD
+=======
+        # Update the Invoice Template
+        if self.env.ref('l10n_tr_nilvera_einvoice.ubl_tr_InvoiceType', raise_if_not_found=False):
+            vals['InvoiceType_template'] = 'l10n_tr_nilvera_einvoice.ubl_tr_InvoiceType'
+        else:
+            raise UserError(_(
+                "To continue sending e-Invoices to Nilvera, please upgrade the 'Türkiye - Nilvera E-Invoice' module."
+            ))
+
+>>>>>>> upstream/18.0
         vals['vals'].update({
             'id': _get_formatted_id(invoice),
             'customization_id': 'TR1.2',
@@ -276,6 +302,7 @@ class AccountEdiXmlUblTr(models.AbstractModel):
             'due_date': False,
             'line_count_numeric': len(invoice.line_ids),
             'order_issue_date': invoice.invoice_date,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -447,6 +474,8 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 >>>>>>> upstream/18.0
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -522,6 +551,7 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -570,10 +600,16 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
         vals['vals']['note_vals'].append({'note': self._l10n_tr_get_amount_integer_partn_text_note(invoice.amount_residual_signed, self.env.ref('base.TRY')), 'note_attrs': {}})
         if vals['invoice'].currency_id.name != 'TRY':
             vals['vals']['note_vals'].append({'note': self._l10n_tr_get_amount_integer_partn_text_note(invoice.amount_residual, vals['invoice'].currency_id), 'note_attrs': {}})
+<<<<<<< HEAD
+=======
+            vals['vals']['note_vals'].append({'note': self._get_invoice_currency_exchange_rate(invoice)})
+>>>>>>> upstream/18.0
         return vals
 
     @api.model
@@ -589,12 +625,25 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def _get_invoice_currency_exchange_rate(self, invoice):
+        conversion_rate = self.env['res.currency']._get_conversion_rate(
+            from_currency=invoice.currency_id,
+            to_currency=invoice.company_currency_id,
+            company=invoice.company_id,
+            date=invoice.invoice_date,
+        )
+        # Nilvera Portal accepts the exchange rate for 6 decimals places only.
+        return f'KUR : {conversion_rate:.6f} TL'
+
 >>>>>>> upstream/18.0
     def _get_country_vals(self, country):
         # EXTENDS account.edi.xml.ubl_21
@@ -629,6 +678,12 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Nilvera will reject any <ID> without a <schemeID>, so remove all items not
+        # having the following structure : {'id': '...', 'id_attrs': {'schemeID': '...'}}
+        vals = [v for v in vals if v.get('id') and v.get('id_attrs', {}).get('schemeID')]
+>>>>>>> upstream/18.0
 =======
         # Nilvera will reject any <ID> without a <schemeID>, so remove all items not
         # having the following structure : {'id': '...', 'id_attrs': {'schemeID': '...'}}
@@ -755,6 +810,21 @@ class AccountEdiXmlUblTr(models.AbstractModel):
             },
             'id': partner.vat,
         })
+<<<<<<< HEAD
+=======
+
+        official_categories = partner.category_id._get_l10n_tr_official_categories()
+        for category in partner.category_id:
+            if category.parent_id not in official_categories:
+                continue
+            vals.append({
+                'id_attrs': {
+                    'schemeID': category.parent_id.name,
+                },
+                'id': category.name,
+            })
+
+>>>>>>> upstream/18.0
         return vals
 
     def _get_partner_address_vals(self, partner):
@@ -770,6 +840,7 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 
     def _get_partner_party_tax_scheme_vals_list(self, partner, role):
         # EXTENDS account.edi.xml.ubl_21
+<<<<<<< HEAD
         vals_list = super()._get_partner_party_tax_scheme_vals_list(partner, role)
         for vals in vals_list:
             vals.pop('registration_address_vals', None)
@@ -796,10 +867,31 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        # Cleans the PartyTaxScheme node values for Turkey (TR).
+        #
+        # Expected XML structure:
+        # <cac:PartyTaxScheme t-foreach="vals.get('party_tax_scheme_vals', [])" t-as="foreach_vals">
+        #     <cac:TaxScheme>
+        #         <cbc:Name>TAX OFFICE NAME</cbc:Name>
+        #     </cac:TaxScheme>
+        # </cac:PartyTaxScheme>
+        #
+        # Note: Adding any extra nodes may cause blocking validation errors on Nilvera's side
+        # when tax office is not set on E-Archive Invoice.
+
+        vals_list = super()._get_partner_party_tax_scheme_vals_list(partner, role)
+        for vals in vals_list:
+            vals.pop('registration_address_vals', None)
+            vals.pop('registration_name', None)
+            vals.pop('company_id', None)
+            vals.pop('tax_level_code', None)
+>>>>>>> upstream/18.0
             vals["tax_scheme_vals"].update(
                 {
                     "id": "",
                     "name": partner.ref,
+<<<<<<< HEAD
                 }
             )
 <<<<<<< HEAD
@@ -823,6 +915,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                },
+            )
 >>>>>>> upstream/18.0
         return vals_list
 
@@ -921,7 +1017,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1193,6 +1292,9 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1456,7 +1558,13 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for subtotal_vals in vals.get('tax_subtotal_vals', []):
+=======
+            vals['currency_dp'] = 2
+            for subtotal_vals in vals.get('tax_subtotal_vals', []):
+                subtotal_vals['currency_dp'] = 2
+>>>>>>> upstream/18.0
 =======
             vals['currency_dp'] = 2
             for subtotal_vals in vals.get('tax_subtotal_vals', []):
@@ -1732,6 +1840,7 @@ class AccountEdiXmlUblTr(models.AbstractModel):
         vals = super()._get_invoice_monetary_total_vals(invoice, taxes_vals, line_extension_amount, allowance_total_amount, charge_total_amount)
         # allowance_total_amount needs to have a value even if 0.0 otherwise it's blank in the Nilvera PDF.
         vals['allowance_total_amount'] = allowance_total_amount
+<<<<<<< HEAD
         if invoice.currency_id.is_zero(vals.get('prepaid_amount', 1)):
             del vals['prepaid_amount']
 <<<<<<< HEAD
@@ -1946,12 +2055,61 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 =======
         vals['currency_dp'] = 2
 >>>>>>> upstream/18.0
+=======
+
+        # <cac:PrepaidAmount> node is not supported by Nilvera, so it is removed and added to the payable_amount so that
+        # the total invoice amount (in invoice currency) is preserved.
+        vals['payable_amount'] += vals.pop('prepaid_amount', 0.0)
+        vals['currency_dp'] = 2
+        return vals
+
+    def _get_invoice_period_vals_list(self, invoice):
+        if invoice.invoice_line_ids._fields.get('deferred_start_date'):
+            # Returns the start and end date of first invoice line since it is required that all lines must have
+            # the same start and end date.
+            line_ids = invoice.invoice_line_ids.filtered(lambda line: line.display_type == 'product' and line.deferred_start_date)
+            if line_ids:
+                return [
+                    {
+                        'start_date': line_ids[0].deferred_start_date,
+                        'end_date': line_ids[0].deferred_end_date,
+                    },
+                ]
+        return super()._get_invoice_period_vals_list(invoice)
+
+    def _get_document_allowance_charge_vals_list(self, invoice, taxes_vals=None):
+        # EXTENDS account.edi.xml.ubl_21
+        vals = super()._get_document_allowance_charge_vals_list(invoice)
+        for val in vals:
+            # The allowance_charge_reason_code is not supported in UBL TR so we need to remove that.
+            val.pop('allowance_charge_reason_code', None)
+
+        invoice_lines = invoice.invoice_line_ids.filtered(lambda line: line.display_type not in {'line_note', 'line_section'})
+        total_discount_amount = sum(
+            line.currency_id.round(line.price_unit * line.quantity * (line.discount / 100))
+            for line in invoice_lines
+        )
+        if total_discount_amount:
+            vals.append({
+                # Must be false since this is a discount.
+                'charge_indicator': 'false',
+                'amount': total_discount_amount,
+                'currency_dp': 2,
+                'currency_name': invoice.currency_id.name,
+                'allowance_charge_reason': "Discount",
+            })
+>>>>>>> upstream/18.0
         return vals
 
     def _get_invoice_line_item_vals(self, line, taxes_vals):
         # EXTENDS account.edi.xml.ubl_21
         line_item_vals = super()._get_invoice_line_item_vals(line, taxes_vals)
         line_item_vals['classified_tax_category_vals'] = False
+<<<<<<< HEAD
+=======
+        # standard_item_identification_vals not supported in UBL TR
+        line_item_vals.pop('standard_item_identification_vals')
+>>>>>>> upstream/18.0
         return line_item_vals
 
     def _get_additional_document_reference_list(self, invoice):
@@ -2018,7 +2176,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2129,6 +2290,7 @@ class AccountEdiXmlUblTr(models.AbstractModel):
         for vals in vals_list:
             vals.pop('allowance_charge_reason_code', None)
             vals['currency_dp'] = 2
+<<<<<<< HEAD
         return vals_list
 
 <<<<<<< HEAD
@@ -2288,6 +2450,11 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+            vals['multiplier_factor'] = line.discount / 100 if line.discount else 0
+        return vals_list
+
+>>>>>>> upstream/18.0
     def _get_invoice_line_price_vals(self, line):
         # EXTEND 'account.edi.common'
         invoice_line_price_vals = super()._get_invoice_line_price_vals(line)
@@ -2345,6 +2512,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        invoice_line_price_vals['currency_dp'] = 2
+>>>>>>> upstream/18.0
 =======
         invoice_line_price_vals['currency_dp'] = 2
 >>>>>>> upstream/18.0
@@ -2562,6 +2733,7 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return invoice_line_vals
 
 =======
@@ -2670,6 +2842,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
         invoice_line_vals['currency_dp'] = 2
+=======
+        invoice_line_vals['currency_dp'] = 2
+        invoice_line_vals.pop('invoice_period_vals_list', None)
+>>>>>>> upstream/18.0
         return invoice_line_vals
 
     def _get_pricing_exchange_rate_vals_list(self, invoice):
@@ -2735,6 +2911,9 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

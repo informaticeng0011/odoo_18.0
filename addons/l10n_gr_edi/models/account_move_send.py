@@ -11,7 +11,11 @@ class AccountMoveSend(models.AbstractModel):
     def _get_all_extra_edis(self) -> dict:
         # EXTENDS 'account'
         res = super()._get_all_extra_edis()
+<<<<<<< HEAD
         res['gr_edi'] = {'label': _("MyDATA"), 'is_applicable': self._is_gr_edi_applicable}
+=======
+        res['gr_edi'] = {'label': _("myDATA"), 'is_applicable': self._is_gr_edi_applicable}
+>>>>>>> upstream/18.0
         return res
 
     # -------------------------------------------------------------------------
@@ -27,7 +31,11 @@ class AccountMoveSend(models.AbstractModel):
             alerts = invoices_with_alert.l10n_gr_edi_alerts
         elif len(invoices_with_alert) > 1:
             alerts['l10n_gr_edi_not_ready_invoice'] = {
+<<<<<<< HEAD
                 'message': _("The following invoice(s) are not ready to be sent to MyDATA: \n%s",
+=======
+                'message': _("The following invoice(s) are not ready to be sent to myDATA: \n%s",
+>>>>>>> upstream/18.0
                              '\n'.join(f"- {move.display_name}" for move in invoices_with_alert)),
                 'action_text': _("View Invoice(s)"),
                 'action': invoices_with_alert._get_records_action(name=_("Check Invoice(s)")),
@@ -53,8 +61,14 @@ class AccountMoveSend(models.AbstractModel):
             invoices.l10n_gr_edi_try_send_invoices()
 
         for invoice, invoice_data in invoices_data.items():
+<<<<<<< HEAD
             if invoice in invoices and invoice.l10n_gr_edi_state == 'invoice_error':
                 invoice_data['error'] = {
                     'error_title': _("Error when sending invoice to MyDATA"),
+=======
+            if invoice in invoices and invoice.l10n_gr_edi_state != 'invoice_sent':
+                invoice_data['error'] = {
+                    'error_title': _("Error when sending invoice to myDATA"),
+>>>>>>> upstream/18.0
                     'errors': [invoice.l10n_gr_edi_document_ids.sorted()[0].message],
                 }

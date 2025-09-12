@@ -5,6 +5,10 @@ import portalComposer from "@portal/js/portal_composer";
 import { _t } from "@web/core/l10n/translation";
 import { renderToElement } from "@web/core/utils/render";
 import { user } from "@web/core/user";
+<<<<<<< HEAD
+=======
+import { Component } from "@odoo/owl";
+>>>>>>> upstream/18.0
 
 const PortalComposer = portalComposer.PortalComposer;
 
@@ -36,6 +40,7 @@ const RatingPopupComposer = publicWidget.Widget.extend({
             'csrf_token': odoo.csrf_token,
             'user_id': user.userId,
         }, options, {});
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -178,6 +183,11 @@ const RatingPopupComposer = publicWidget.Widget.extend({
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        Component.env.bus.addEventListener("reload_rating_popup_composer", (ev) =>
+            this._onReloadRatingPopupComposer(ev.detail)
+        );
+>>>>>>> upstream/18.0
 
         return def;
     },
@@ -271,6 +281,11 @@ const RatingPopupComposer = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Change the text of send button
+        this.options.send_button_label = this.options.default_message_id ? _t("Update review") : _t("Post review");
+>>>>>>> upstream/18.0
 =======
         // Change the text of send button
         this.options.send_button_label = this.options.default_message_id ? _t("Update review") : _t("Post review");
@@ -477,10 +492,17 @@ const RatingPopupComposer = publicWidget.Widget.extend({
 
     /**
      * @private
+<<<<<<< HEAD
      * @param {OdooEvent} event
      */
     _onReloadRatingPopupComposer: function (event) {
         const data = event.data;
+=======
+     * @param {OdooEvent|Object} eventOrData
+     */
+    _onReloadRatingPopupComposer: function (eventOrData) {
+        const data = eventOrData.data || eventOrData;
+>>>>>>> upstream/18.0
 
         // Refresh the internal state of the widget
         this.rating_avg = data.rating_avg || data["mail.thread"][0].rating_avg;
@@ -497,6 +519,7 @@ const RatingPopupComposer = publicWidget.Widget.extend({
     },
 
     _update_options: function (data) {
+<<<<<<< HEAD
         const defaultOptions = {
             default_message:
                 data.default_message ||
@@ -504,6 +527,22 @@ const RatingPopupComposer = publicWidget.Widget.extend({
             default_message_id: data.default_message_id || data["mail.message"][0].id,
             default_attachment_ids: data.default_attachment_ids || data["ir.attachment"],
             default_rating_value: data.default_rating_value || this.rating_value,
+=======
+        const message = data["mail.message"] && data["mail.message"][0];
+        const defaultOptions = {
+            default_message:
+                data.default_message || (message && message.body.replace(/<[^>]+>/g, "")),
+            default_message_id:
+                data.default_message_id ||
+                (message &&
+                    (message.body.replace(/<[^>]+>/g, "") ||
+                        message.attachment_ids.length ||
+                        message.rating_id) &&
+                    message.id),
+            default_attachment_ids: data.default_attachment_ids || data["ir.attachment"],
+            default_rating_value:
+                data.default_rating_value || this.rating_value || 4,
+>>>>>>> upstream/18.0
         };
         Object.assign(data, defaultOptions);
         this.options = Object.assign(this.options, data);

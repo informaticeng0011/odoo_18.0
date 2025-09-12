@@ -42,9 +42,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime, date, timezone, timedelta
 from dateutil.relativedelta import relativedelta
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -172,6 +175,9 @@ import pytz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -370,7 +376,10 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -701,6 +710,9 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -820,7 +832,11 @@ class HrEmployeeBase(models.AbstractModel):
             employee_remaining_leaves = 0
             employee_max_leaves = 0
             for leave_type in leaves_taken[employee]:
+<<<<<<< HEAD
                 if leave_type.requires_allocation == 'no' or not leave_type.show_on_dashboard:
+=======
+                if leave_type.requires_allocation == 'no' or not leave_type.show_on_dashboard or not leave_type.active:
+>>>>>>> upstream/18.0
                     continue
                 for allocation in leaves_taken[employee][leave_type]:
                     if allocation and allocation.date_from <= current_date\

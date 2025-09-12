@@ -39,6 +39,10 @@ from odoo import api, fields, models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.resource.models.utils import Intervals, sum_intervals
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.resource.models.utils import Intervals, sum_intervals
 >>>>>>> upstream/18.0
@@ -263,6 +267,10 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    has_worksheet = fields.Boolean(compute='_compute_has_worksheet')
+>>>>>>> upstream/18.0
 =======
     has_worksheet = fields.Boolean(compute='_compute_has_worksheet')
 >>>>>>> upstream/18.0
@@ -627,7 +635,11 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 enddate = datetime.now()
+=======
+                enddate = fields.Datetime.now()
+>>>>>>> upstream/18.0
 =======
                 enddate = fields.Datetime.now()
 >>>>>>> upstream/18.0
@@ -775,7 +787,10 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -871,6 +886,9 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1160,6 +1178,7 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for wo in self:
             if date:
                 duration = sum(wo.time_ids.filtered(lambda t: t.date_end and t.date_end <= date).mapped('duration'))
@@ -1167,6 +1186,8 @@ class MrpWorkorder(models.Model):
                 duration = sum(wo.time_ids.mapped('duration'))
             total += (duration / 60.0) * wo.workcenter_id.costs_hour
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1270,6 +1291,9 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1391,6 +1415,10 @@ class MrpWorkorder(models.Model):
 
     def button_finish(self):
         date_finished = fields.Datetime.now()
+<<<<<<< HEAD
+=======
+        all_vals_dict = defaultdict(lambda: self.env['mrp.workorder'])
+>>>>>>> upstream/18.0
         for workorder in self:
             if workorder.state in ('done', 'cancel'):
                 continue
@@ -1413,7 +1441,13 @@ class MrpWorkorder(models.Model):
             }
             if not workorder.date_start or date_finished < workorder.date_start:
                 vals['date_start'] = date_finished
+<<<<<<< HEAD
             workorder.with_context(bypass_duration_calculation=True).write(vals)
+=======
+            all_vals_dict[frozenset(vals.items())] |= workorder
+        for frozen_vals, workorders in all_vals_dict.items():
+            workorders.with_context(bypass_duration_calculation=True).write(dict(frozen_vals))
+>>>>>>> upstream/18.0
         return True
 
     def end_previous(self, doall=False):

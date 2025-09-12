@@ -101,7 +101,10 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -232,6 +235,9 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -598,7 +604,10 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -805,6 +814,10 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'full_time_required_hours': 40.0,
+>>>>>>> upstream/18.0
 =======
             'full_time_required_hours': 40.0,
 >>>>>>> upstream/18.0
@@ -947,6 +960,7 @@ class TestTimesheetHolidays(TestCommonTimesheet):
             ('date', '<=', self.leave_end_datetime),
             ('employee_id', '=', self.empl_employee.id),
         ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1300,6 +1314,8 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(len(timesheet), 3, "Three timesheets should be created for each leave day")
         self.assertEqual(sum(timesheet.mapped('unit_amount')), 24, "The duration of the timesheet for flexible employee leave "
                                                         "should be number of days * hours per day")
@@ -1334,10 +1350,27 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_timeoff_validation_fully_flexible_employee(self):
+        self.empl_employee.resource_calendar_id = False
+
+        time_off = self.Requests.with_user(self.user_employee).create({
+            'name': 'Test Fully Flexible Employee Validation',
+            'employee_id': self.empl_employee.id,
+            'holiday_status_id': self.hr_leave_type_with_ts.id,
+            'request_date_from': datetime(2025, 8, 12),
+            'request_date_to': datetime(2025, 8, 12)
+        })
+        time_off.with_user(SUPERUSER_ID).action_validate()
+
+        self.assertEqual(time_off.state, 'validate', "The time off for a fully flexible employee should be validated")
 >>>>>>> upstream/18.0

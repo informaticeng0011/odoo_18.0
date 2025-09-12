@@ -6,6 +6,21 @@ import { parseUrl } from "../local_helpers";
 import { Suite } from "../../core/suite";
 import { Test } from "../../core/test";
 
+<<<<<<< HEAD
+=======
+function disableHighlighting() {
+    if (!window.Prism) {
+        return () => {};
+    }
+    const { highlight } = window.Prism;
+    window.Prism.highlight = (text) => text;
+
+    return function restoreHighlighting() {
+        window.Prism.highlight = highlight;
+    };
+}
+
+>>>>>>> upstream/18.0
 describe(parseUrl(import.meta.url), () => {
     test("should have a hashed id", () => {
         expect(new Test(null, "a test", {}).id).toMatch(/^\w{8}$/);
@@ -24,6 +39,11 @@ describe(parseUrl(import.meta.url), () => {
     });
 
     test("run is async and lazily formatted", () => {
+<<<<<<< HEAD
+=======
+        const restoreHighlighting = disableHighlighting();
+
+>>>>>>> upstream/18.0
         const testName = "some test";
         const t = new Test(null, testName, {});
         const runFn = () => {
@@ -41,7 +61,11 @@ describe(parseUrl(import.meta.url), () => {
         expect(t.runFnString).toBe(runFn.toString());
         expect(t.formatted).toBe(false);
 
+<<<<<<< HEAD
         expect(t.code).toBe(
+=======
+        expect(String(t.code)).toBe(
+>>>>>>> upstream/18.0
             `
 test("${testName}", () => {
     // Synchronous
@@ -50,5 +74,10 @@ test("${testName}", () => {
 `.trim()
         );
         expect(t.formatted).toBe(true);
+<<<<<<< HEAD
+=======
+
+        restoreHighlighting();
+>>>>>>> upstream/18.0
     });
 });

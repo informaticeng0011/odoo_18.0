@@ -8,6 +8,7 @@ patch(helpers, {
         ...helpers.SUPPORTED_M2X_AVATAR_MODELS,
         "hr.employee",
         "hr.employee.public",
+<<<<<<< HEAD
     ],
     buildOpenChatParams(resModel, id) {
         if (["hr.employee", "hr.employee.public"].includes(resModel)) {
@@ -15,4 +16,16 @@ patch(helpers, {
         }
         return super.buildOpenChatParams(...arguments);
     }
+=======
+        "hr.candidate",
+    ],
+    buildOpenChatParams(resModel, id) {
+        if (resModel === "hr.candidate") {
+            return;
+        } else if (["hr.employee", "hr.employee.public"].includes(resModel)) {
+            return { employeeId: id };
+        }
+        return super.buildOpenChatParams(...arguments);
+    },
+>>>>>>> upstream/18.0
 });

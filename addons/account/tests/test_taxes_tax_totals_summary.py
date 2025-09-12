@@ -1458,10 +1458,13 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Note: this is a work in progress. The remaining stuff is coming...
         """
         self.env.company.tax_calculation_rounding_method = 'round_globally'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1708,6 +1711,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2015,6 +2021,7 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'base_amount_currency': 293.79,
             'tax_amount_currency': 52.89,
             'total_amount_currency': 346.68,
@@ -2023,6 +2030,8 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
                     'name': "Untaxed Amount",
                     'base_amount_currency': 293.79,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2270,6 +2279,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2532,7 +2544,10 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3340,6 +3355,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3513,6 +3531,76 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
                 invoice = self.convert_document_to_invoice(document)
                 self.assert_invoice_tax_totals_summary(invoice, expected_values)
 
+<<<<<<< HEAD
+=======
+    def test_taxes_l10n_pt_vendor_bill_manual_tax_amount(self):
+        self.env.company.tax_calculation_rounding_method = 'round_globally'
+        self.change_company_country(self.env.company, self.env.ref('base.pt'))
+        tax_23 = self.percent_tax(23)
+
+        invoice = self.env['account.move'].create({
+            'move_type': 'in_invoice',
+            'invoice_date': '2020-01-01',
+            'invoice_line_ids': [
+                Command.create({
+                    'product_id': self.product_a.id,
+                    'price_unit': 123.0,
+                    'tax_ids': [Command.set(tax_23.ids)],
+                })
+            ],
+        })
+        expected_values = {
+            'same_tax_base': True,
+            'currency_id': self.currency.id,
+            'base_amount_currency': 123.0,
+            'tax_amount_currency': 28.29,
+            'total_amount_currency': 151.29,
+            'subtotals': [
+                {
+                    'name': "Untaxed Amount",
+                    'base_amount_currency': 123.0,
+                    'tax_amount_currency': 28.29,
+                    'tax_groups': [
+                        {
+                            'id': self.tax_groups[0].id,
+                            'base_amount_currency': 123.0,
+                            'tax_amount_currency': 28.29,
+                            'display_base_amount_currency': 123.0,
+                        },
+                    ],
+                },
+            ],
+        }
+        self._assert_tax_totals_summary(invoice.tax_totals, expected_values)
+
+        # Manual edition of the tax amount.
+        tax_line = invoice.line_ids.filtered('tax_repartition_line_id')
+        invoice.line_ids = [Command.update(tax_line.id, {'amount_currency': 28.30})]
+        expected_values = {
+            'same_tax_base': True,
+            'currency_id': self.currency.id,
+            'base_amount_currency': 123.0,
+            'tax_amount_currency': 28.30,
+            'total_amount_currency': 151.30,
+            'subtotals': [
+                {
+                    'name': "Untaxed Amount",
+                    'base_amount_currency': 123.0,
+                    'tax_amount_currency': 28.30,
+                    'tax_groups': [
+                        {
+                            'id': self.tax_groups[0].id,
+                            'base_amount_currency': 123.0,
+                            'tax_amount_currency': 28.30,
+                            'display_base_amount_currency': 123.0,
+                        },
+                    ],
+                },
+            ],
+        }
+        self._assert_tax_totals_summary(invoice.tax_totals, expected_values)
+
+>>>>>>> upstream/18.0
     def _test_reverse_charge_taxes_1(self):
         tax = self.percent_tax(
             21.0,

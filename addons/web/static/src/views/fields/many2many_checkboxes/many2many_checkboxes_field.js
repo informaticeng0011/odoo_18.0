@@ -14,13 +14,23 @@ export class Many2ManyCheckboxesField extends Component {
     static props = {
         ...standardFieldProps,
         domain: { type: [Array, Function], optional: true },
+<<<<<<< HEAD
+=======
+        context: { type: Object, optional: true },
+>>>>>>> upstream/18.0
     };
 
     setup() {
         this.specialData = useSpecialData((orm, props) => {
             const { relation } = props.record.fields[props.name];
             const domain = getFieldDomain(props.record, props.name, props.domain);
+<<<<<<< HEAD
             return orm.call(relation, "name_search", ["", domain]);
+=======
+            return orm.call(relation, "name_search", ["", domain], {
+                context: this.props.context || {},
+            });
+>>>>>>> upstream/18.0
         });
         // these two sets track pending changes in the relation, and allow us to
         // batch consecutive changes into a single replaceWith, thus saving
@@ -79,6 +89,10 @@ export const many2ManyCheckboxesField = {
     extractProps(fieldInfo, dynamicInfo) {
         return {
             domain: dynamicInfo.domain,
+<<<<<<< HEAD
+=======
+            context: dynamicInfo.context,
+>>>>>>> upstream/18.0
         };
     },
 };

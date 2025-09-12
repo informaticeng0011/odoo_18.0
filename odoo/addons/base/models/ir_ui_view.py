@@ -490,7 +490,11 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.constrains('type', 'groups_id', 'inherit_id')
+=======
+    @api.constrains('groups_id', 'inherit_id', 'mode')
+>>>>>>> upstream/18.0
 =======
     @api.constrains('groups_id', 'inherit_id', 'mode')
 >>>>>>> upstream/18.0
@@ -744,13 +748,31 @@ actual arch.
             except (etree.ParseError, ValueError) as e:
                 view.warning_info = str(e)
 
+<<<<<<< HEAD
     @api.model_create_multi
     def create(self, vals_list):
+=======
+    def _validate_xml_encoding(self, text):
+        if isinstance(text, str) and re.search(r'<\?xml[^>]*encoding=.*?\?>', text, re.IGNORECASE):
+            raise UserError(_(
+                "Unicode strings with encoding declaration are not supported in XML.\n"
+                "Remove the encoding declaration."
+            ))
+
+    @api.model_create_multi
+    def create(self, vals_list):
+        valid_types = self._fields['type']._selection
+>>>>>>> upstream/18.0
         for values in vals_list:
             if 'arch_db' in values and not values['arch_db']:
                 # delete empty arch_db to avoid triggering _check_xml before _inverse_arch_base is called
                 del values['arch_db']
 
+<<<<<<< HEAD
+=======
+            if values.get('arch_base'):
+                self._validate_xml_encoding(values['arch_base'])
+>>>>>>> upstream/18.0
             if not values.get('type'):
                 if values.get('inherit_id'):
                     values['type'] = self.browse(values['inherit_id']).type
@@ -760,6 +782,16 @@ actual arch.
                         if not values.get('arch') and not values.get('arch_base'):
                             raise ValidationError(_('Missing view architecture.'))
                         values['type'] = etree.fromstring(values.get('arch') or values.get('arch_base')).tag
+<<<<<<< HEAD
+=======
+                        if values['type'] not in valid_types:
+                            raise ValidationError(_(
+                                "Invalid view type: '%(view_type)s'.\n"
+                                "You might have used an invalid starting tag in the architecture.\n"
+                                "Allowed types are: %(valid_types)s",
+                                view_type=values['type'], valid_types=', '.join(valid_types)
+                            ))
+>>>>>>> upstream/18.0
                     except LxmlError:
                         # don't raise here, the constraint that runs `self._check_xml` will
                         # do the job properly.
@@ -802,6 +834,11 @@ actual arch.
         if 'arch_db' in vals and not self.env.context.get('no_save_prev'):
             vals['arch_prev'] = self.arch_db
 
+<<<<<<< HEAD
+=======
+        if vals.get('arch_base'):
+            self._validate_xml_encoding(vals['arch_base'])
+>>>>>>> upstream/18.0
         res = super(View, self).write(self._compute_defaults(vals))
 
         # Check the xml of the view if it gets re-activated.
@@ -2714,6 +2751,11 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            elif field.type == "binary" and not isinstance(field, fields.Image) and not field.store:
+                continue
+>>>>>>> upstream/18.0
 =======
             elif field.type == "binary" and not isinstance(field, fields.Image) and not field.store:
                 continue
@@ -3050,7 +3092,10 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3173,6 +3218,9 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3320,7 +3368,11 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch, models = view.postprocess_and_fields(arch, model=self._name, **options)
+=======
+        arch, models = self._get_view_postprocessed(view, arch, **options)
+>>>>>>> upstream/18.0
 =======
         arch, models = self._get_view_postprocessed(view, arch, **options)
 >>>>>>> upstream/18.0

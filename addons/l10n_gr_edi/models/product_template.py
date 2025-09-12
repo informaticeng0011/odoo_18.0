@@ -6,6 +6,10 @@ class ProductTemplate(models.Model):
 
     l10n_gr_edi_preferred_classification_ids = fields.One2many(
         comodel_name='l10n_gr_edi.preferred_classification',
+<<<<<<< HEAD
         string='Preferred MyDATA Classification',
+=======
+        string='Preferred myDATA Classification',
+>>>>>>> upstream/18.0
         inverse_name='product_template_id',
     )

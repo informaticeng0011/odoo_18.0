@@ -1,6 +1,10 @@
 /** @odoo-module */
 
+<<<<<<< HEAD
 import { reactive } from "@odoo/owl";
+=======
+import { markup, reactive } from "@odoo/owl";
+>>>>>>> upstream/18.0
 import { HootError, stringify } from "../hoot_utils";
 import { Job } from "./job";
 import { Tag } from "./tag";
@@ -22,7 +26,10 @@ import { Tag } from "./tag";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50,7 +57,11 @@ import { Tag } from "./tag";
 //-----------------------------------------------------------------------------
 
 const {
+<<<<<<< HEAD
     Object: { freeze: $freeze },
+=======
+    Object: { assign: $assign, freeze: $freeze },
+>>>>>>> upstream/18.0
 } = globalThis;
 
 //-----------------------------------------------------------------------------
@@ -75,6 +86,9 @@ const SHARED_RESULTS = $freeze([]);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104,8 +118,16 @@ const SHARED_RESULTS = $freeze([]);
  */
 export function testError({ name, parent }, ...message) {
     const parentString = parent ? ` (in suite ${stringify(parent.name)})` : "";
+<<<<<<< HEAD
     return new HootError(
         `error while registering test ${stringify(name)}${parentString}: ${message.join("\n")}`
+=======
+    return $assign(
+        new HootError(
+            `error while registering test ${stringify(name)}${parentString}: ${message.join("\n")}`
+        ),
+        { global: true }
+>>>>>>> upstream/18.0
     );
 }
 
@@ -131,6 +153,17 @@ export class Test extends Job {
         if (!this.formatted) {
             this.formatted = true;
             this.runFnString = this.formatFunctionSource(this.runFnString);
+<<<<<<< HEAD
+=======
+            if (window.Prism) {
+                const highlighted = window.Prism.highlight(
+                    this.runFnString,
+                    Prism.languages.javascript,
+                    "javascript"
+                );
+                this.runFnString = markup(highlighted);
+            }
+>>>>>>> upstream/18.0
         }
         return this.runFnString;
     }
@@ -207,7 +240,10 @@ export class Test extends Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -250,6 +286,9 @@ export class Test extends Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

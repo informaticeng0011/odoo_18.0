@@ -50,6 +50,11 @@ class MassMailing(models.Model):
     _rec_name = "subject"
     _systray_view = 'list'
 
+<<<<<<< HEAD
+=======
+    _unrestricted_rendering = True
+
+>>>>>>> upstream/18.0
     @api.model
     def default_get(self, fields_list):
         vals = super(MassMailing, self).default_get(fields_list)
@@ -456,7 +461,12 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for mailing in self:
+=======
+        self.warning_message = False
+        for mailing in self.filtered(lambda mailing: mailing.mailing_type == "mail"):
+>>>>>>> upstream/18.0
 =======
         self.warning_message = False
         for mailing in self.filtered(lambda mailing: mailing.mailing_type == "mail"):
@@ -1506,15 +1516,29 @@ class MassMailing(models.Model):
             ).create(composer_values)
 
             # auto-commit except in testing mode
+<<<<<<< HEAD
             composer._action_send_mail(
                 auto_commit=not getattr(threading.current_thread(), 'testing', False)
             )
+=======
+            auto_commit = not getattr(threading.current_thread(), 'testing', False)
+            composer._action_send_mail(auto_commit=auto_commit)
+
+>>>>>>> upstream/18.0
             mailing.write({
                 'state': 'done',
                 'sent_date': fields.Datetime.now(),
                 # send the KPI mail only if it's the first sending
                 'kpi_mail_required': not mailing.sent_date,
             })
+<<<<<<< HEAD
+=======
+
+            # ensure mailing state update after auto-commit
+            if auto_commit is True:
+                self.env.cr.commit()
+
+>>>>>>> upstream/18.0
         return True
 
     def convert_links(self):

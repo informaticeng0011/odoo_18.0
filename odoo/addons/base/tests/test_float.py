@@ -22,7 +22,11 @@ class TestFloatPrecision(TransactionCase):
         try_round(2.675,'2.68')   # in Python 2.7.2, round(2.675,2) gives 2.67
         try_round(-2.675,'-2.68') # in Python 2.7.2, round(2.675,2) gives 2.67
         try_round(0.001,'0.00')
+<<<<<<< HEAD
         try_round(-0.001,'-0.00')
+=======
+        try_round(-0.001, '0.00')
+>>>>>>> upstream/18.0
         try_round(0.0049,'0.00')   # 0.0049 is closer to 0 than to 0.01, so should round down
         try_round(0.005,'0.01')   # the rule is to round half away from zero
         try_round(-0.005,'-0.01') # the rule is to round half away from zero
@@ -81,7 +85,11 @@ class TestFloatPrecision(TransactionCase):
         try_round(2.6744, '2.674')
         try_round(-2.6744, '-2.674')
         try_round(0.0004, '0.000')
+<<<<<<< HEAD
         try_round(-0.0004, '-0.000')
+=======
+        try_round(-0.0004, '0.000')
+>>>>>>> upstream/18.0
         try_round(357.4555, '357.456')
         try_round(-357.4555, '-357.456')
         try_round(457.4554, '457.455')
@@ -95,7 +103,11 @@ class TestFloatPrecision(TransactionCase):
         try_round(2.6744, '2.674', method='HALF-DOWN')
         try_round(-2.6744, '-2.674', method='HALF-DOWN')
         try_round(0.0004, '0.000', method='HALF-DOWN')
+<<<<<<< HEAD
         try_round(-0.0004, '-0.000', method='HALF-DOWN')
+=======
+        try_round(-0.0004, '0.000', method='HALF-DOWN')
+>>>>>>> upstream/18.0
         try_round(357.4555, '357.455', method='HALF-DOWN')
         try_round(-357.4555, '-357.455', method='HALF-DOWN')
         try_round(457.4554, '457.455', method='HALF-DOWN')
@@ -109,7 +121,11 @@ class TestFloatPrecision(TransactionCase):
         try_round(2.6744, '2.674', method='HALF-EVEN')
         try_round(-2.6744, '-2.674', method='HALF-EVEN')
         try_round(0.0004, '0.000', method='HALF-EVEN')
+<<<<<<< HEAD
         try_round(-0.0004, '-0.000', method='HALF-EVEN')
+=======
+        try_round(-0.0004, '0.000', method='HALF-EVEN')
+>>>>>>> upstream/18.0
         try_round(357.4555, '357.456', method='HALF-EVEN')
         try_round(-357.4555, '-357.456', method='HALF-EVEN')
         try_round(457.4554, '457.455', method='HALF-EVEN')
@@ -228,7 +244,11 @@ class TestFloatPrecision(TransactionCase):
         try_split(2.675, ('2', '68'), float_split_str)   # in Python 2.7.2, round(2.675,2) gives 2.67
         try_split(-2.675, ('-2', '68'), float_split_str) # in Python 2.7.2, round(2.675,2) gives 2.67
         try_split(0.001, ('0', '00'), float_split_str)
+<<<<<<< HEAD
         try_split(-0.001, ('-0', '00'), float_split_str)
+=======
+        try_split(-0.001, ('0', '00'), float_split_str)
+>>>>>>> upstream/18.0
         try_split(42, ('42', '00'), float_split_str)
         try_split(0.1, ('0', '10'), float_split_str)
         try_split(13.0, ('13', ''), float_split_str, rounding=0)

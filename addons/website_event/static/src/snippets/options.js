@@ -56,7 +56,11 @@ options.registry.WebsiteEvent = options.Class.extend({
      * @private
      */
     _getEventObjectId() {
+<<<<<<< HEAD
         const objectIds = this.currentWebsiteUrl.match(/\d+(?![-\w])/);
+=======
+        const objectIds = this.currentWebsiteUrl.match(/\d+(?=\/|$)/);
+>>>>>>> upstream/18.0
         return parseInt(objectIds[0]) | 0;
     },
 });

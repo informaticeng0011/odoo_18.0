@@ -114,7 +114,11 @@ export function oeTab(size, contenteditable = true) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         (size ? ` style="width: ${size.toFixed(1)}px;"` : "") +
+=======
+        (size ? ` style="width: ${Number(size.toFixed(1))}px;"` : "") +
+>>>>>>> upstream/18.0
 =======
         (size ? ` style="width: ${Number(size.toFixed(1))}px;"` : "") +
 >>>>>>> upstream/18.0
@@ -262,7 +266,11 @@ function compare(contentEl, contentSpec, mode) {
     const { text: expectedContent, widths: expectedWidths } = extractWidth(contentSpec);
 
     expect(receivedContent).toBe(expectedContent, {
+<<<<<<< HEAD
         message: `(testEditor) ${mode} is strictly equal to %actual%`,
+=======
+        message: `(testEditor) ${mode} should be strictly equal to ${expectedContent}`,
+>>>>>>> upstream/18.0
     });
 
     const diffs = expectedWidths.map((width, i) => Math.abs(width - receivedWidths[i]));

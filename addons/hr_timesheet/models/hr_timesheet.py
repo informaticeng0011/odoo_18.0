@@ -105,7 +105,11 @@ class AccountAnalyticLine(models.Model):
         super(AccountAnalyticLine, self - analytic_line_with_project)._compute_display_name()
         for analytic_line in analytic_line_with_project:
             if analytic_line.task_id:
+<<<<<<< HEAD
                 analytic_line.display_name = f"{analytic_line.project_id.display_name} - {analytic_line.task_id.display_name}"
+=======
+                analytic_line.display_name = f"{analytic_line.project_id.sudo().display_name} - {analytic_line.task_id.sudo().display_name}"
+>>>>>>> upstream/18.0
             else:
                 analytic_line.display_name = analytic_line.project_id.display_name
 
@@ -204,8 +208,11 @@ class AccountAnalyticLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             vals.update(self._timesheet_preprocess_get_accounts(vals))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -229,6 +236,9 @@ class AccountAnalyticLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -341,8 +351,11 @@ class AccountAnalyticLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         values.update(self._timesheet_preprocess_get_accounts(values))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -366,6 +379,9 @@ class AccountAnalyticLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -479,6 +495,14 @@ class AccountAnalyticLine(models.Model):
                 })
         return result
 
+<<<<<<< HEAD
+=======
+    def _split_amount_fname(self):
+        # split the quantity instead of the amount, since the amount is postprocessed
+        # based on the quantity
+        return 'unit_amount' if self.project_id else super()._split_amount_fname()
+
+>>>>>>> upstream/18.0
     def _is_timesheet_encode_uom_day(self):
         company_uom = self.env.company.timesheet_encode_uom_id
         return company_uom == self.env.ref('uom.product_uom_day')
@@ -592,7 +616,10 @@ class AccountAnalyticLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -801,6 +828,9 @@ class AccountAnalyticLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

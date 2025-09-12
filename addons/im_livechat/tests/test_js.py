@@ -12,6 +12,10 @@ class ExternalTestSuite(odoo.tests.HttpCase):
             "",
             login='admin',
             timeout=1800,
+<<<<<<< HEAD
             success_signal="[HOOT] test suite succeeded",
+=======
+            success_signal="[HOOT] Test suite succeeded",
+>>>>>>> upstream/18.0
             error_checker=unit_test_error_checker
         )

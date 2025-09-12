@@ -5,11 +5,16 @@
 # Translators:
 # Wil Odoo, 2024
 # Marianna Ciofani, 2025
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,6 +250,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marianna Ciofani, 2025\n"
+=======
+"POT-Creation-Date: 2025-07-18 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -300,7 +310,11 @@ msgstr "100 €"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "%g%% on "
+<<<<<<< HEAD
 msgstr "%g%% su"
+=======
+msgstr "%g%% "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -318,7 +332,11 @@ msgstr "%s per punto"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "%s per point on "
+<<<<<<< HEAD
 msgstr "%s per punto su"
+=======
+msgstr "%s per punto "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
@@ -350,7 +368,11 @@ msgstr "Buoni sconto 10%"
 #: model:loyalty.reward,description:loyalty.10_percent_coupon_reward
 #: model:loyalty.reward,description:loyalty.10_percent_with_code_reward
 msgid "10% on your order"
+<<<<<<< HEAD
 msgstr "10% sul tuo ordine"
+=======
+msgstr "10% sull'ordine"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.gift_card_report
@@ -435,7 +457,11 @@ msgstr ""
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "<i class=\"fa fa-cube fa-fw\" title=\"Product Domain\"/>"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Product Domain\"/>"
+=======
+msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Dominio prodotto\"/>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
@@ -447,14 +473,22 @@ msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Prodotti\"/>"
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "<i class=\"fa fa-cube fa-fw\" title=\"Products\"/><span>All Products</span>"
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"fa fa-cube fa-fw\" title=\"Products\"/><span>Tutti i "
+=======
+"<i class=\"fa fa-cube fa-fw\" title=\"Prodotti\"/><span>Tutti i "
+>>>>>>> upstream/18.0
 "prodotti</span>"
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "<i class=\"fa fa-cubes fa-fw\" title=\"Product Categories\"/>"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-cubes fa-fw\" title=\"Categorie prodotti\"/>"
+=======
+msgstr "<i class=\"fa fa-cubes fa-fw\" title=\"Categorie prodotto\"/>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
@@ -466,7 +500,11 @@ msgstr "<i class=\"fa fa-search fa-fw\" title=\"Dominio prodotto\"/>"
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "<i class=\"fa fa-tags fa-fw\" title=\"Product Tags\"/>"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-tags fa-fw\" title=\"Etichette Prodotti\"/>"
+=======
+msgstr "<i class=\"fa fa-tags fa-fw\" title=\"Etichette prodotto\"/>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -553,7 +591,11 @@ msgstr "<span>prodotti</span>"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.gift_card_report
 msgid "<strong>Gift Card Code</strong>"
+<<<<<<< HEAD
 msgstr "<strong>Codice buono regalo</strong>"
+=======
+msgstr "<strong>Codice carta regalo</strong>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:mail.template,body_html:loyalty.mail_template_loyalty_card
@@ -871,7 +913,11 @@ msgstr "Categorie"
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_reward__discount_applicability__cheapest
 msgid "Cheapest Product"
+<<<<<<< HEAD
 msgstr "Prodotto meno caro"
+=======
+msgstr "Prodotto più economico"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__clear_wallet
@@ -990,7 +1036,11 @@ msgstr "Valore buono sconto"
 #. module: loyalty
 #: model:mail.template,name:loyalty.mail_template_loyalty_card
 msgid "Coupon: Coupon Information"
+<<<<<<< HEAD
 msgstr "Buoni sconto: informazioni sui buoni"
+=======
+msgstr "Buono sconto: informazioni"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -999,7 +1049,11 @@ msgstr "Buoni sconto: informazioni sui buoni"
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__coupons
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_tree
 msgid "Coupons"
+<<<<<<< HEAD
 msgstr "Buono sconto"
+=======
+msgstr "Buoni sconto"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_program_gift_ewallet_action
@@ -1059,12 +1113,20 @@ msgstr "Valuta"
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__currency_symbol
 msgid "Currency sign, to be used when printing amounts."
+<<<<<<< HEAD
 msgstr "Simbolo corrente, da usare per la stampa di importi."
+=======
+msgstr "Segno della valuta, da utilizzare nella stampa di importi."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__applies_on__both
 msgid "Current & Future orders"
+<<<<<<< HEAD
 msgstr "Ordini correnti e futuri"
+=======
+msgstr "Ordini attuali e futuri"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__applies_on__current
@@ -1074,7 +1136,11 @@ msgstr "Ordine corrente"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__customer_tag_ids
 msgid "Customer Tags"
+<<<<<<< HEAD
 msgstr "Etichette clienti"
+=======
+msgstr "Etichette cliente"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__customer_ids
@@ -1123,7 +1189,11 @@ msgstr "Descrizione"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "Description on order"
+<<<<<<< HEAD
 msgstr "Descrizione sull'ordine"
+=======
+msgstr "Descrizione su ordine"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount
@@ -1136,7 +1206,11 @@ msgstr "Sconto"
 #: model:ir.actions.act_window,name:loyalty.loyalty_program_discount_loyalty_action
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Discount & Loyalty"
+<<<<<<< HEAD
 msgstr "Sconti e fedeltà"
+=======
+msgstr "Sconto e fedeltà"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_applicability
@@ -1191,12 +1265,20 @@ msgstr "Prodotto sconto"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_product_category_id
 msgid "Discounted Prod. Categories"
+<<<<<<< HEAD
 msgstr "Prodotti scontati Categorie"
+=======
+msgstr "Categorie prod. con sconto"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_product_tag_id
 msgid "Discounted Prod. Tag"
+<<<<<<< HEAD
 msgstr "Prodotto scontato etichetta"
+=======
+msgstr "Etichetta prod. con sconto"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_product_ids
@@ -1374,12 +1456,20 @@ msgstr ""
 #: model:ir.model,name:loyalty.model_loyalty_generate_wizard
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Generate Coupons"
+<<<<<<< HEAD
 msgstr "Generazione buoni sconto"
+=======
+msgstr "Genera buoni sconto"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Generate Gift Cards"
+<<<<<<< HEAD
 msgstr "Genera buoni regalo"
+=======
+msgstr "Genera carte regalo"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1390,6 +1480,7 @@ msgstr "Crea e condividi con i tuoi clienti buoni sconto unici"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Generate eWallet"
+<<<<<<< HEAD
 msgstr "Genera eWallet"
 
 #. module: loyalty
@@ -1573,6 +1664,11 @@ msgstr "Genera {{props.context.program_item_name}}"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Genera portafoglio digitale"
+
+#. module: loyalty
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Get 10% off on some products, with a code"
@@ -1581,7 +1677,11 @@ msgstr "Ottieni uno sconto di 10$ su alcuni prodotti grazie ad un codice"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_gift_ewallet_view_form
 msgid "Gift &amp; Ewallet"
+<<<<<<< HEAD
 msgstr "Regalo e portafoglio elettronico"
+=======
+msgstr "Regalo e portafoglio digitale"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1636,7 +1736,11 @@ msgstr "Regalo cliente"
 #. module: loyalty
 #: model:ir.actions.act_window,name:loyalty.loyalty_program_gift_ewallet_action
 msgid "Gift cards & eWallet"
+<<<<<<< HEAD
 msgstr "Carte regalo e portafoglio elettronico"
+=======
+msgstr "Carte regalo e portafoglio digitale"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1743,7 +1847,11 @@ msgstr "Sta seguendo"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__is_global_discount
 msgid "Is Global Discount"
+<<<<<<< HEAD
 msgstr "È sconto globale"
+=======
+msgstr "È uno sconto globale"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__is_nominative
@@ -1831,7 +1939,11 @@ msgstr "Carta fedeltà"
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.res_partner_form
 msgid "Loyalty Cards"
+<<<<<<< HEAD
 msgstr "Carte di Fedeltà"
+=======
+msgstr "Carte fedeltà"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_mail
@@ -1952,7 +2064,11 @@ msgstr "Nessun buono sconto trovato."
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_program_gift_ewallet_action
 msgid "No loyalty program found."
+<<<<<<< HEAD
 msgstr "Nessun programma di fedeltà trovato."
+=======
+msgstr "Nessun programma fedeltà trovato."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_program_discount_loyalty_action
@@ -1989,7 +2105,11 @@ msgstr "Odoo"
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_reward__discount_applicability__order
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
 msgid "Order"
+<<<<<<< HEAD
 msgstr "Ordina"
+=======
+msgstr "Ordine"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_history__order_model
@@ -2044,6 +2164,10 @@ msgid "Portal Visible"
 msgstr "Portale visibile"
 
 #. module: loyalty
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:loyalty.model_product_pricelist
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__pricelist_ids
 msgid "Pricelist"
 msgstr "Listino prezzi"
@@ -2063,7 +2187,11 @@ msgstr "Dominio prodotto"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_tag_id
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__product_tag_id
 msgid "Product Tag"
+<<<<<<< HEAD
 msgstr "Etichette prodotto"
+=======
+msgstr "Etichetta prodotto"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_product_product
@@ -2161,7 +2289,11 @@ msgstr "Quantità ricompense"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "Quantity to generate"
+<<<<<<< HEAD
 msgstr "Quantità da creare"
+=======
+msgstr "Quantità da generare"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__rating_ids
@@ -2182,17 +2314,29 @@ msgstr "Modalità punti premio"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_domain
 msgid "Reward Product Domain"
+<<<<<<< HEAD
 msgstr "Campo prodotto ricompensa"
+=======
+msgstr "Dominio prodotto premio"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_qty
 msgid "Reward Product Qty"
+<<<<<<< HEAD
 msgstr "Prodotto premio Quantità"
+=======
+msgstr "Q.tà prodotto premio"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_uom_id
 msgid "Reward Product Uom"
+<<<<<<< HEAD
 msgstr "Prodotto premio unità di misura"
+=======
+msgstr "UdM prodotto premio"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_ids
@@ -2202,7 +2346,11 @@ msgstr "Prodotti premio"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_type
 msgid "Reward Type"
+<<<<<<< HEAD
 msgstr "Tipo di riconoscimento"
+=======
+msgstr "Tipo di premio"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__reward_ids
@@ -2346,12 +2494,20 @@ msgstr ""
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_rule.py:0
 msgid "The promo code must be unique."
+<<<<<<< HEAD
 msgstr "Il codice promozionale deve essere unico."
+=======
+msgstr "Il codice promozionale deve essere univoco."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.constraint,message:loyalty.constraint_loyalty_reward_required_points_positive
 msgid "The required points for a reward must be strictly positive."
+<<<<<<< HEAD
 msgstr "I punti richiesti per un premio devono essere positivi."
+=======
+msgstr "I punti richiesti per un premio devono essere strettamente positivi."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.constraint,message:loyalty.constraint_loyalty_reward_product_qty_positive
@@ -2401,6 +2557,19 @@ msgstr ""
 
 #. module: loyalty
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/loyalty/models/product_pricelist.py:0
+msgid ""
+"This pricelist may not be archived. It is being used for active promotion "
+"programs: %s"
+msgstr ""
+"Questo listino prezzi non può essere archiviato. Viene utilizzato per un "
+"programma di promozione attivo: %s"
+
+#. module: loyalty
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/loyalty/models/product_product.py:0
 msgid ""
 "This product may not be archived. It is being used for an active promotion "
@@ -2422,7 +2591,11 @@ msgstr "Ricarica eWallet"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__total_order_count
 msgid "Total Order Count"
+<<<<<<< HEAD
 msgstr "Conteggio totale degli ordini"
+=======
+msgstr "Numero totale ordini"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__trigger
@@ -2480,7 +2653,10 @@ msgstr "Attivazione"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2631,6 +2807,9 @@ msgstr "Operatore di ricerca non supportato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2746,7 +2925,11 @@ msgstr "Conteggio Uso"
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__trigger__with_code
 msgid "Use a code"
+<<<<<<< HEAD
 msgstr "Usa un codice"
+=======
+msgstr "Utilizzare un codice"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -2756,7 +2939,11 @@ msgstr "Utilizza punti per"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "Use this promo code before"
+<<<<<<< HEAD
 msgstr "Usa questo codice promo prima"
+=======
+msgstr "Utilizza questo codice promozionale prima del"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -2856,7 +3043,11 @@ msgstr "Stai per modificare il saldo della carta"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "You can not delete a program in an active state"
+<<<<<<< HEAD
 msgstr "Non è possibile eliminare un programma in stato attivo."
+=======
+msgstr "Impossibile eliminare un programma con stato attivo"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -2866,8 +3057,13 @@ msgid ""
 "You cannot delete %(name)s as it is used in 'Coupons & Loyalty'. Please "
 "archive it instead."
 msgstr ""
+<<<<<<< HEAD
 "Non è possibile eliminare %(name)s in quanto è utilizzato in \"Buoni sconto "
 "e fedeltà\". Per favore, archivialo."
+=======
+"Impossibile eliminare %(name)s, è utilizzato in \"Buoni sconto e fedeltà\". "
+"Procedere invece all'archiviazione."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -2902,7 +3098,11 @@ msgstr "di sconto"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "e.g. 10% discount on laptops"
+<<<<<<< HEAD
 msgstr "per esempio 10% di sconto sui laptop"
+=======
+msgstr "es. 10% di sconto sui portatili"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -2910,23 +3110,39 @@ msgstr "per esempio 10% di sconto sui laptop"
 #: code:addons/loyalty/models/loyalty_reward.py:0
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__ewallet
 msgid "eWallet"
+<<<<<<< HEAD
 msgstr "eWallet"
+=======
+msgstr "Portafoglio digitale"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "eWallet Products"
+<<<<<<< HEAD
 msgstr "Prodotti e-wallet"
+=======
+msgstr "Prodotti portafoglio digitale"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "eWallet value"
+<<<<<<< HEAD
 msgstr "Valore portafoglio elettronico"
+=======
+msgstr "Valore portafoglio digitale"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "eWallets"
+<<<<<<< HEAD
 msgstr "Portafoglio elettronico"
+=======
+msgstr "Portafogli digitali"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -3007,7 +3223,11 @@ msgstr "imposta inclusa"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "the cheapest product"
+<<<<<<< HEAD
 msgstr "il prodotto meno caro"
+=======
+msgstr "sul prodotto più economico"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
@@ -3025,6 +3245,7 @@ msgid "usages"
 msgstr "utilizzi"
 
 #. module: loyalty
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3086,6 +3307,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3169,6 +3392,7 @@ msgid "used)"
 msgstr "usati)"
 
 #. module: loyalty
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3470,4 +3694,10 @@ msgstr "{{loyalty_el_title}}"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/loyalty/models/loyalty_reward.py:0
+msgid "your order"
+msgstr "sull'ordine"
 >>>>>>> upstream/18.0

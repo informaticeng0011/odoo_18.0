@@ -53,6 +53,7 @@ import uuid
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from lxml import etree, html
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,6 +97,11 @@ from urllib.parse import urlparse
 from urllib.parse import urlparse
 >>>>>>> upstream/18.0
 =======
+from urllib.parse import urlparse
+>>>>>>> upstream/18.0
+=======
+from datetime import datetime
+from lxml import etree, html
 from urllib.parse import urlparse
 >>>>>>> upstream/18.0
 =======
@@ -454,7 +460,10 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -613,6 +622,9 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -868,7 +880,10 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1031,6 +1046,9 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1423,6 +1441,12 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _idna_url(self, url):
+        return get_base_domain(url.lower(), True).encode('idna').decode('ascii')
+
+>>>>>>> upstream/18.0
 =======
     def _idna_url(self, url):
         return get_base_domain(url.lower(), True).encode('idna').decode('ascii')
@@ -1915,7 +1939,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return get_base_domain(url.lower(), True) == get_base_domain(self.domain.lower(), True)
+=======
+        return self._idna_url(url) == self._idna_url(self.domain)
+>>>>>>> upstream/18.0
 =======
         return self._idna_url(url) == self._idna_url(self.domain)
 >>>>>>> upstream/18.0
@@ -2250,7 +2278,13 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company = self.get_current_website().company_id
+=======
+        theme = self.env["ir.module.module"].search([("name", "=", "theme_default")])
+        current_website = self.get_current_website()
+        company = current_website.company_id
+>>>>>>> upstream/18.0
 =======
         theme = self.env["ir.module.module"].search([("name", "=", "theme_default")])
         current_website = self.get_current_website()
@@ -2576,6 +2610,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if current_website.configurator_done:
+            r['redirect_url'] = theme.button_choose_theme()
+>>>>>>> upstream/18.0
 =======
         if current_website.configurator_done:
             r['redirect_url'] = theme.button_choose_theme()
@@ -3128,9 +3167,16 @@ class Website(models.Model):
                     'database_id': database_id,
                 })
                 name_replace_parser = re.compile(r"XXXX", re.MULTILINE)
+<<<<<<< HEAD
                 for key in generated_content:
                     if response.get(key):
                         generated_content[key] = (name_replace_parser.sub(website.name, response[key], 0))
+=======
+                website_name = re.escape(website.name)
+                for key in generated_content:
+                    if response.get(key):
+                        generated_content[key] = (name_replace_parser.sub(website_name, response[key], 0))
+>>>>>>> upstream/18.0
             except AccessError:
                 # If IAP is broken continue normally (without generating text)
                 pass
@@ -3722,7 +3768,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             website_domain = get_base_domain(website.domain)
+=======
+            website_domain = get_base_domain(website.domain_punycode)
+>>>>>>> upstream/18.0
 =======
             website_domain = get_base_domain(website.domain_punycode)
 >>>>>>> upstream/18.0
@@ -3936,8 +3986,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         found_websites = self.search([('domain', 'ilike', _remove_port(domain_name))])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4102,6 +4155,9 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4266,7 +4322,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 view = views.filter_duplicate()
+=======
+                view = views.filter_duplicate()[:1]
+>>>>>>> upstream/18.0
 =======
                 view = views.filter_duplicate()[:1]
 >>>>>>> upstream/18.0
@@ -4435,9 +4495,12 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if page['write_date']:
                 record['lastmod'] = page['write_date'].date()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4564,6 +4627,9 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4789,12 +4855,21 @@ class Website(models.Model):
             return self.env["ir.actions.actions"]._for_xml_id("website.backend_dashboard")
         return self.env["ir.actions.actions"]._for_xml_id("website.action_website")
 
+<<<<<<< HEAD
     def get_client_action_url(self, url, mode_edit=False):
+=======
+    def get_client_action_url(self, url, mode_edit=False, mode_debug=0):
+>>>>>>> upstream/18.0
         action_params = {
             "path": url,
         }
         if mode_edit:
             action_params["enable_editor"] = 1
+<<<<<<< HEAD
+=======
+        if mode_debug:
+            action_params["debug"] = mode_debug
+>>>>>>> upstream/18.0
         return "/odoo/action-website.website_preview?" + urls.url_encode(action_params)
 
     def get_client_action(self, url, mode_edit=False, website_id=False):

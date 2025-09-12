@@ -67,6 +67,11 @@ class PaymentPortal(payment_portal.PaymentPortal):
         if compare_amounts(order_sudo.amount_paid, order_sudo.amount_total) == 0:
             raise UserError(_("The cart has already been paid. Please refresh the page."))
 
+<<<<<<< HEAD
+=======
+        if delay_payment_request := kwargs.get('flow') == 'token':
+            request.update_context(delay_payment_request=True)  # wait until after tx validation
+>>>>>>> upstream/18.0
         tx_sudo = self._create_transaction(
             custom_create_values={'sale_order_ids': [Command.set([order_id])]}, **kwargs,
         )
@@ -76,5 +81,10 @@ class PaymentPortal(payment_portal.PaymentPortal):
         request.session['__website_sale_last_tx_id'] = tx_sudo.id
 
         self._validate_transaction_for_order(tx_sudo, order_sudo)
+<<<<<<< HEAD
+=======
+        if delay_payment_request:
+            tx_sudo._send_payment_request()
+>>>>>>> upstream/18.0
 
         return tx_sudo._get_processing_values()

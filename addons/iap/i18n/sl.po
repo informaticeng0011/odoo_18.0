@@ -5,6 +5,10 @@
 # Translators:
 # JernejEditor, 2024
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +16,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,6 +34,11 @@ msgid ""
 "<i class=\"oi oi-arrow-right\"/>\n"
 "                                    Buy Credit"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                                    Kupite kredit"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_form
@@ -35,13 +48,22 @@ msgstr "Podatki o računu"
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__account_token
 msgid "Account Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Žeton računa"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.model.fields,help:iap.field_iap_account__account_token
 msgid ""
 "Account token is your authentication key for this service. Do not share it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Žeton računa je vaš ključ za preverjanje pristnosti za to storitev. Ne "
+"delite ga z drugimi."
+>>>>>>> upstream/18.0
 
 #. module: iap
 #. odoo-python
@@ -50,6 +72,12 @@ msgid ""
 "An error occurred while reaching %s. Please contact Odoo support if this "
 "error persists."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pri doseganju %s. je prišlo do napake. Če se napaka ponovi, se obrnite na podporo Odoo. \n"
+" \n"
+" "
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__balance
@@ -59,7 +87,11 @@ msgstr "Saldo"
 #. module: iap
 #: model:ir.model.fields.selection,name:iap.selection__iap_account__state__banned
 msgid "Banned"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prepovedano"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #. odoo-javascript
@@ -93,7 +125,11 @@ msgstr "Ustvarjeno"
 #. module: iap
 #: model:iap.service,unit_name:iap.iap_service_reveal
 msgid "Credits"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zasluge"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__description
@@ -110,12 +146,20 @@ msgstr "Prikazani naziv"
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__warning_user_ids
 msgid "Email Alert Recipients"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prejemniki e-poštnih opozoril"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__warning_threshold
 msgid "Email Alert Threshold"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prag e-poštnih opozoril"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:iap.service,description:iap.iap_service_reveal
@@ -124,11 +168,22 @@ msgid ""
 "leads, generate leads based on a set of criteria and enrich the company data"
 " of your opportunities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pridobite kakovostne potencialne stranke in priložnosti: pretvorite "
+"obiskovalce svojega spletnega mesta v potencialne stranke, ustvarite "
+"potencialne stranke na podlagi nabora meril in obogatite podatke o podjetju "
+"za vaše priložnosti."
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.ui.menu,name:iap.iap_root_menu
 msgid "IAP"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponudnik dostopa do interneta IAP"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.actions.act_window,name:iap.iap_account_action
@@ -146,12 +201,20 @@ msgstr "IAP Računi"
 #. module: iap
 #: model:ir.model,name:iap.model_iap_enrich_api
 msgid "IAP Lead Enrichment API"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "IAP - API za obogatitev potencialnih strank"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.model,name:iap.model_iap_service
 msgid "IAP Service"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Storitev ponudnika dostopa do interneta IAP"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__id
@@ -163,12 +226,20 @@ msgstr "ID"
 #. odoo-javascript
 #: code:addons/iap/static/src/xml/iap_templates.xml:0
 msgid "Insufficient credit to perform this service."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za izvedbo te storitve ni dovolj kreditne sposobnosti."
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_service__integer_balance
 msgid "Integer Balance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Celoštevilsko stanje"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__write_uid
@@ -186,7 +257,11 @@ msgstr "Zadnjič posodobljeno"
 #. odoo-javascript
 #: code:addons/iap/static/src/action_buttons_widget/action_buttons_widget.xml:0
 msgid "Manage Service & Buy Credits"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljanje storitev in nakup kreditov"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__name
@@ -197,7 +272,11 @@ msgstr "Naziv"
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
 msgid "Odoo IAP"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoo IAP"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #. odoo-python
@@ -206,17 +285,30 @@ msgid ""
 "One of the email alert recipients doesn't have an email address set. Users: "
 "%s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Eden od prejemnikov e-poštnih opozoril nima nastavljenega e-poštnega "
+"naslova. Uporabniki: %s"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.model.constraint,message:iap.constraint_iap_service_unique_technical_name
 msgid "Only one service can exist with a specific technical_name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo ena storitev lahko obstaja z določenim tehničnim imenom."
+>>>>>>> upstream/18.0
 
 #. module: iap
 #. odoo-python
 #: code:addons/iap/models/iap_account.py:0
 msgid "Please set a positive email alert threshold."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavite pozitiven prag za e-poštna opozorila."
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.model.fields.selection,name:iap.selection__iap_account__state__registered
@@ -231,13 +323,21 @@ msgstr "Storitev"
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__service_locked
 msgid "Service Locked"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Storitev zaklenjena"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #. odoo-javascript
 #: code:addons/iap/static/src/js/insufficient_credit_error_handler.js:0
 msgid "Start a Trial at Odoo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Začnite preizkusno obdobje na Odoo"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__state
@@ -257,11 +357,20 @@ msgid ""
 "The request to the service timed out. Please contact the author of the app. "
 "The URL it tried to contact was %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Zahteva za storitev je potekla. Obrnite se na avtorja aplikacije. URL, s "
+"katerim se je poskušala povezati, je bil %s"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_service__unit_name
 msgid "Unit Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime enote"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model:ir.model.fields.selection,name:iap.selection__iap_account__state__unregistered
@@ -273,9 +382,17 @@ msgstr "Neregistriran"
 #: code:addons/iap/static/src/action_buttons_widget/action_buttons_widget.xml:0
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
 msgid "View My Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ogled mojih storitev"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
 msgid "View your IAP Services and recharge your credits"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oglejte si svoje storitve IAP in napolnite svoje kredite"
+>>>>>>> upstream/18.0

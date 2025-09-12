@@ -52,7 +52,11 @@
                     <div class="row justify-content-between position-relative w-100 m-0 mb-2">
                         <div class="oe_title mw-75 ps-0 pe-2">
                             <h1 class="d-flex flex-row align-items-center">
+<<<<<<< HEAD
                                 <div invisible="not user_id" class="me-2">
+=======
+                                <div invisible="1" class="me-2">
+>>>>>>> upstream/18.0
                                     <widget name="hr_employee_chat" invisible="not context.get('chat_icon')"/>
                                 </div>
                                 <field name="partner_name" placeholder="Candidate's Name"
@@ -284,6 +288,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     <record id="action_hr_candidate_mass_sms" model="ir.actions.act_window">
         <field name="name">Send SMS</field>
@@ -298,6 +303,8 @@
         <field name="binding_model_id" ref="hr_recruitment.model_hr_candidate"/>
         <field name="binding_view_types">list</field>
     </record>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

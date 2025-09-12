@@ -2295,6 +2295,13 @@ export class OdooEditor extends EventTarget {
             && (startBlock.tagName !== 'TD' && endBlock.tagName !== 'TD')
             && !(firstLeafOfStartBlock === start && lastLeafOfEndBlock === end);
         let next = nextLeaf(end, this.editable);
+<<<<<<< HEAD
+=======
+        if (isBlock(end)) {
+            // end can be block so we take the next leaf at the endOffset
+            next = nextLeaf(end.childNodes[endOffset], this.editable);
+        }
+>>>>>>> upstream/18.0
 
         // Get the boundaries of the range so as to get the state to restore.
         if (end.nodeType === Node.TEXT_NODE) {
@@ -2415,6 +2422,10 @@ export class OdooEditor extends EventTarget {
             doJoin &&
             next &&
             !(next.previousSibling && next.previousSibling === joinWith) &&
+<<<<<<< HEAD
+=======
+            !(joinWith.nodeType === Node.ELEMENT_NODE && joinWith.contains(next) && childNodeIndex(next) === range.endOffset) &&
+>>>>>>> upstream/18.0
             this.editable.contains(next) && (closestElement(joinWith, 'TD') === closestElement(next, 'TD'))
         ) {
             const restore = preserveCursor(this.document);
@@ -2772,6 +2783,12 @@ export class OdooEditor extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    if (!isBlock(node) && node.textContent === "\u200b") {
+                        node.setAttribute('data-oe-zws-empty-inline', '');
+                    }
+>>>>>>> upstream/18.0
 =======
                     if (!isBlock(node) && node.textContent === "\u200b") {
                         node.setAttribute('data-oe-zws-empty-inline', '');
@@ -3588,7 +3605,10 @@ export class OdooEditor extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3620,6 +3640,9 @@ export class OdooEditor extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3818,6 +3841,10 @@ export class OdooEditor extends EventTarget {
         const isInMedia = this.toolbar.classList.contains('oe-media');
         const linkNode = getInSelection(this.document, 'a');
         const linkButton = this.toolbar.querySelector('#create-link');
+<<<<<<< HEAD
+=======
+        const transformButton = this.toolbar.querySelector("#image-transform");
+>>>>>>> upstream/18.0
         linkButton && linkButton.classList.toggle('active', !!linkNode);
         // Hide unlink button if no link in selection, always hide on media
         // elements.
@@ -3832,7 +3859,13 @@ export class OdooEditor extends EventTarget {
         const range = getDeepRange(this.editable, { sel, correctTripleClick: true });
         const spansBlocks = [...range.commonAncestorContainer.childNodes].some(isBlock);
         linkButton?.classList.toggle('d-none', spansBlocks || isInMedia);
+<<<<<<< HEAD
 
+=======
+        if (this.options.disableTransform) {
+            transformButton.classList.add("d-none");
+        }
+>>>>>>> upstream/18.0
         // Hide link button group if it has no visible button.
         const linkBtnGroup = this.toolbar.querySelector('#link.btn-group');
         linkBtnGroup?.classList.toggle('d-none', !linkBtnGroup.querySelector('.btn:not(.d-none)'));
@@ -4560,7 +4593,11 @@ export class OdooEditor extends EventTarget {
     _onKeyDown(ev) {
         delete this._isNavigatingByMouse;
         const selection = this.document.getSelection();
+<<<<<<< HEAD
         if (selection.anchorNode && isProtected(selection.anchorNode)) {
+=======
+        if ((!selection?.anchorNode) || (isProtected(selection.anchorNode))) {
+>>>>>>> upstream/18.0
             return;
         }
         if (this.document.querySelector(".transfo-container")) {
@@ -4619,13 +4656,21 @@ export class OdooEditor extends EventTarget {
             const sel = this.document.getSelection();
             const closestUnbreakable = closestElement(sel.anchorNode, isUnbreakable);
             const closestTableOrLi = closestElement(sel.anchorNode, 'table, li');
+<<<<<<< HEAD
             const closestUnbreakableOrLi = closestElement(sel.anchorNode, ["li", closestUnbreakable.nodeName].join(","));
+=======
+            const closestUnbreakableOrLi = closestElement(sel.anchorNode, ["li", closestUnbreakable?.nodeName].join(","));
+>>>>>>> upstream/18.0
             if (closestTableOrLi && closestTableOrLi.nodeName === 'TABLE') {
                 this._onTabulationInTable(ev);
             } else if (
                 !ev.shiftKey &&
                 sel.isCollapsed &&
+<<<<<<< HEAD
                 closestUnbreakableOrLi.nodeName !== 'LI'
+=======
+                closestUnbreakableOrLi?.nodeName !== 'LI'
+>>>>>>> upstream/18.0
             ) {
                 // Indent text (collapsed selection).
                 this.execCommand('insert', parseHTML(this.document, tabHtml));
@@ -5158,9 +5203,15 @@ export class OdooEditor extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (
                 !allWhitespaceRegex.test(emptyElement.textContent) ||
                 emptyElement.hasAttribute("data-oe-field")
+=======
+            const isEmptyArch = emptyElement.getAttribute("data-oe-field") === "arch" && emptyElement.textContent === "\u200b";
+            if (
+                (!allWhitespaceRegex.test(emptyElement.textContent) || emptyElement.hasAttribute("data-oe-field")) && !isEmptyArch
+>>>>>>> upstream/18.0
 =======
             const isEmptyArch = emptyElement.getAttribute("data-oe-field") === "arch" && emptyElement.textContent === "\u200b";
             if (

@@ -9,7 +9,11 @@ patch(DiscussClientAction.prototype, {
     setup() {
         super.setup(...arguments);
         this.publicState = useState({
+<<<<<<< HEAD
             welcome: this.store.shouldDisplayWelcomeViewInitially,
+=======
+            welcome: this.store.shouldDisplayWelcomeView,
+>>>>>>> upstream/18.0
         });
         if (this.store.isChannelTokenSecret) {
             // Change the URL to avoid leaking the invitation link.
@@ -31,9 +35,19 @@ patch(DiscussClientAction.prototype, {
     async restoreDiscussThread() {
         await super.restoreDiscussThread(...arguments);
         this.publicState.welcome ||=
+<<<<<<< HEAD
             this.store.discuss.thread?.defaultDisplayMode === "video_full_screen";
     },
     closeWelcomePage() {
         this.publicState.welcome = false;
+=======
+            this.store.shouldDisplayWelcomeView ??
+            this.store.discuss.thread?.defaultDisplayMode === "video_full_screen";
+        this.store.shouldDisplayWelcomeView = this.publicState.welcome;
+    },
+    closeWelcomePage() {
+        this.publicState.welcome = false;
+        this.store.shouldDisplayWelcomeView = false;
+>>>>>>> upstream/18.0
     },
 });

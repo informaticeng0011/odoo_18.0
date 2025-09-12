@@ -9,7 +9,12 @@ from odoo.osv.expression import AND
 
 
 class ProductTemplate(models.Model):
+<<<<<<< HEAD
     _inherit = 'product.template'
+=======
+    _name = 'product.template'
+    _inherit = ['product.template', 'pos.load.mixin']
+>>>>>>> upstream/18.0
 
     available_in_pos = fields.Boolean(string='Available in POS', help='Check if you want this product to appear in the Point of Sale.', default=False)
     to_weight = fields.Boolean(string='To Weigh With Scale', help="Check if the product should be weighted using the hardware scale integration.")
@@ -57,6 +62,17 @@ class ProductTemplate(models.Model):
                 if combo_name:
                     raise UserError(_('You must first remove this product from the %s combo', combo_name))
 
+<<<<<<< HEAD
+=======
+    @api.model
+    def _load_pos_data_fields(self, config_id):
+        return ['id']
+
+    @api.model
+    def _load_pos_data_domain(self, data):
+        return [('id', 'in', list({p['product_tmpl_id'] for p in data['product.product']['data']}))]
+
+>>>>>>> upstream/18.0
 
 class ProductProduct(models.Model):
     _name = 'product.product'
@@ -205,8 +221,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         taxes = self.taxes_id.compute_all(price, config.currency_id, quantity, self)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -289,6 +308,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -366,7 +388,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pricelist_list = [{'name': pl.name, 'price': price_per_pricelist_id[pl.id]} for pl in pricelists]
+=======
+        pricelist_list = [{'id': pl.id, 'name': pl.name, 'price': price_per_pricelist_id[pl.id]} for pl in pricelists]
+>>>>>>> upstream/18.0
 =======
         pricelist_list = [{'id': pl.id, 'name': pl.name, 'price': price_per_pricelist_id[pl.id]} for pl in pricelists]
 >>>>>>> upstream/18.0
@@ -430,7 +456,16 @@ class ProductAttribute(models.Model):
 
     @api.model
     def _load_pos_data_fields(self, config_id):
+<<<<<<< HEAD
         return ['name', 'display_type', 'template_value_ids', 'attribute_line_ids', 'create_variant']
+=======
+        return ['name', 'display_type', 'create_variant']
+
+    @api.model
+    def _load_pos_data_domain(self, data):
+        loaded_attribute_ids = {ptal['attribute_id'] for ptal in data['product.template.attribute.line']['data']}
+        return [('id', 'in', list(loaded_attribute_ids))]
+>>>>>>> upstream/18.0
 
 
 class ProductAttributeCustomValue(models.Model):
@@ -518,7 +553,11 @@ class ProductAttributeCustomValue(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['custom_value', 'custom_product_template_attribute_value_id', 'pos_order_line_id']
+=======
+        return ['custom_value', 'custom_product_template_attribute_value_id', 'pos_order_line_id', 'write_date']
+>>>>>>> upstream/18.0
 =======
         return ['custom_value', 'custom_product_template_attribute_value_id', 'pos_order_line_id', 'write_date']
 >>>>>>> upstream/18.0

@@ -67,13 +67,26 @@ class AccountSecureEntries(models.TransientModel):
     def _compute_max_hash_date(self):
         today = fields.Date.context_today(self)
         for wizard in self:
+<<<<<<< HEAD
             chains_to_hash = wizard._get_chains_to_hash(wizard.company_id, today)
+=======
+            chains_to_hash = wizard.with_context(chain_info_warnings=False)._get_chains_to_hash(wizard.company_id, today)
+>>>>>>> upstream/18.0
             moves = self.env['account.move'].concat(
                 *[chain['moves'] for chain in chains_to_hash],
                 *[chain['not_hashable_unlocked_moves'] for chain in chains_to_hash],
             )
             if moves:
+<<<<<<< HEAD
                 wizard.max_hash_date = min(move.date for move in moves) - timedelta(days=1)
+=======
+                min_date = self.env.execute_query(
+                    self.env['account.move']
+                    ._search([('id', 'in', moves.ids)])
+                    .select('MIN(date)')
+                )[0][0]
+                wizard.max_hash_date = min_date - timedelta(days=1)
+>>>>>>> upstream/18.0
             else:
                 wizard.max_hash_date = False
 
@@ -81,6 +94,7 @@ class AccountSecureEntries(models.TransientModel):
     def _get_chains_to_hash(self, company_id, hash_date):
         self.ensure_one()
         res = []
+<<<<<<< HEAD
         moves = self.env['account.move'].sudo().search(
             self._get_unhashed_moves_in_hashed_period_domain(company_id, hash_date, [('state', '=', 'posted')])
         )
@@ -105,6 +119,32 @@ class AccountSecureEntries(models.TransientModel):
                     not_hashable_unlocked_moves = self.env['account.move']
                 chain_info['not_hashable_unlocked_moves'] = not_hashable_unlocked_moves
                 res.append(chain_info)
+=======
+        for *__, chain_moves in self.env['account.move'].sudo()._read_group(
+            domain=self._get_unhashed_moves_in_hashed_period_domain(company_id, hash_date, [('state', '=', 'posted')]),
+            groupby=['journal_id', 'sequence_prefix'],
+            aggregates=['id:recordset']
+        ):
+            chain_info = chain_moves._get_chain_info(force_hash=True)
+            if not chain_info:
+                continue
+
+            last_move_hashed = chain_info['last_move_hashed']
+            # It is possible that some moves cannot be hashed (i.e. after upgrade).
+            # We show a warning ('account_not_hashable_unlocked_moves') if that is the case.
+            # These moves are ignored for the warning and max_hash_date in case they are protected by the Hard Lock Date
+            if last_move_hashed:
+                # remaining_moves either have a hash already or have a higher sequence_number than the last_move_hashed
+                not_hashable_unlocked_moves = chain_info['remaining_moves'].filtered(
+                    lambda move: (not move.inalterable_hash
+                                  and move.sequence_number < last_move_hashed.sequence_number
+                                  and move.date > self.company_id.user_hard_lock_date)
+                )
+            else:
+                not_hashable_unlocked_moves = self.env['account.move']
+            chain_info['not_hashable_unlocked_moves'] = not_hashable_unlocked_moves
+            res.append(chain_info)
+>>>>>>> upstream/18.0
         return res
 
     @api.depends('company_id', 'company_id.user_hard_lock_date', 'hash_date')

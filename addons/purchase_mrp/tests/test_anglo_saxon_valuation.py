@@ -2,7 +2,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo.fields import Date, Datetime
+<<<<<<< HEAD
 from odoo.tools import float_is_zero, mute_logger
+=======
+from odoo.tools import mute_logger
+>>>>>>> upstream/18.0
 from odoo.tests import Form, tagged
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.addons.stock_account.tests.test_stockvaluation import _create_accounting_data
@@ -275,6 +279,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
         manufacturing_order.move_raw_ids.quantity = 1
 
         self.assertEqual(self.product_a.standard_price, 100)
+<<<<<<< HEAD
 
     def test_average_cost_unbuild_valuation(self):
         """ Ensure that an unbuild for some avg cost product won't leave the `Cost of Production`
@@ -347,3 +352,5 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
             ]).mapped('balance')),
             precision_rounding=self.env.company.currency_id.rounding
         ))
+=======
+>>>>>>> upstream/18.0

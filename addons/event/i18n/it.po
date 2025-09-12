@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* event
 # 
 # Translators:
@@ -466,11 +467,23 @@
 # Marianna Ciofani, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * event
+#
+# Translators:
+# Tiffany Chang, 2024
+# pezzin <christian.pezzin@gmail.com>, 2024
+# Wil Odoo, 2025
+# Marianna Ciofani, 2025
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+# "Marianna Ciofani (cima)" <cima@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -815,6 +828,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-09-11 17:19+0000\n"
+"Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
+"Language-Team: Italian <https://translate.odoo.com/projects/odoo-18/event/it/"
+">\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_partner__event_count
@@ -1030,7 +1056,11 @@ msgid ""
 "evening events aren't included."
 msgstr ""
 "<b>L'intero evento è aperto al pubblico!</b> <br>Chiediamo una quota di "
+<<<<<<< HEAD
 "partecipazione di 49.50€ per i costi delle 3 giornate (pause caffè, "
+=======
+"partecipazione di 49,50€ per i costi delle 3 giornate (pause caffè, "
+>>>>>>> upstream/18.0
 "ristorazione, bevande e un sorprendente concerto con festa della birra).<br>"
 " Per chi non vuole contribuire c'è un biglietto gratuito nel quale, di "
 "conseguenza, non sono inclusi la ristorazione e l'accesso agli eventi "
@@ -1160,7 +1190,11 @@ msgid ""
 "end\">SPEAKER</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary o_wevent_badge float-"
+<<<<<<< HEAD
 "end\">ORATORE</span>"
+=======
+"end\">RELATORE</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
@@ -2649,8 +2683,13 @@ msgid ""
 "Add a navigation menu to your event web pages with schedule, tracks, a track"
 " proposal form, etc."
 msgstr ""
+<<<<<<< HEAD
 "Aggiungere un menu di navigazione alla pagina web dell'evento con orario, "
 "percorsi, un modulo proposta percorso, ecc."
+=======
+"Aggiunge un menù di navigazione alle pagine web dell'evento con programma, "
+"tracce, modulo di proposta tracce ecc."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
@@ -2679,13 +2718,21 @@ msgstr "Sponsorizzazione evoluta"
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_type__after_sub
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_type__after_sub
 msgid "After each registration"
+<<<<<<< HEAD
 msgstr "Dopo ogni iscrizione"
+=======
+msgstr "dopo ciascuna registrazione"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_type__after_event
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_type__after_event
 msgid "After the event"
+<<<<<<< HEAD
 msgstr "Dopo l'evento"
+=======
+msgstr "dopo l'evento"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag.category,name:event.event_tag_category_1
@@ -2920,7 +2967,11 @@ msgid ""
 " of the century during our three day event."
 msgstr ""
 "Nella tre giorni di evento gruppi come Bar Fighters, Led Slippers e Link "
+<<<<<<< HEAD
 "Floyd offriranno lo spettacolo del secondo."
+=======
+"Floyd offriranno lo spettacolo del secolo."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__barcode
@@ -2947,7 +2998,11 @@ msgstr "Il codice a barre deve essere unico"
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_type__before_event
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_type__before_event
 msgid "Before the event"
+<<<<<<< HEAD
 msgstr "Prima dell'evento"
+=======
+msgstr "prima dell'evento"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -2999,7 +3054,11 @@ msgstr ""
 #. module: event
 #: model:event.event,name:event.event_4
 msgid "Business workshops"
+<<<<<<< HEAD
 msgstr "Laboratori azienda"
+=======
+msgstr "Laboratori aziendali"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__utm_campaign_id
@@ -3045,7 +3104,11 @@ msgid ""
 "Chamber Works reserves the right to cancel, re-name or re-locate the event "
 "or change the dates on which it is held."
 msgstr ""
+<<<<<<< HEAD
 "Chamber Works si riserva il diritto di annullare, rinominare o spostare "
+=======
+"Chamber Works si riserva il diritto di annullare, rinominare o trasferire "
+>>>>>>> upstream/18.0
 "l'evento oppure cambiare le date di svolgimento dello stesso."
 
 #. module: event
@@ -3275,7 +3338,11 @@ msgstr "Intervallo data"
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__days
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__days
 msgid "Days"
+<<<<<<< HEAD
 msgstr "Giorni"
+=======
+msgstr "giorno/i"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_ticket__seats_max
@@ -3403,7 +3470,11 @@ msgstr "Data fine"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_end_located
 msgid "End Date Located"
+<<<<<<< HEAD
 msgstr "Data fine impostata"
+=======
+msgstr "Data fine localizzata"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__pipe_end
@@ -3441,7 +3512,11 @@ msgstr "Evento"
 #. module: event
 #: model:ir.model,name:event.model_event_mail
 msgid "Event Automated Mailing"
+<<<<<<< HEAD
 msgstr "Messaggi automatici dell'evento"
+=======
+msgstr "Invio automatico e-mail per evento"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__event_type_id
@@ -3460,7 +3535,11 @@ msgstr "Etichetta categoria evento"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__event_end_date
 msgid "Event End Date"
+<<<<<<< HEAD
 msgstr "Data di fine evento"
+=======
+msgstr "Data fine evento"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -3475,6 +3554,7 @@ msgstr "Informazioni evento"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_mail_form
 msgid "Event Mail Scheduler"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3720,11 +3800,18 @@ msgstr "Pianificatore e-mail evento"
 =======
 msgstr "Pianificatore e-mail evento"
 >>>>>>> upstream/18.0
+=======
+msgstr "Pianificatore e-mail evento"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_mail_tree
 msgid "Event Mail Schedulers"
+<<<<<<< HEAD
 msgstr "Schedulatori messaggi evento"
+=======
+msgstr "Pianificatori e-mail evento"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -3893,7 +3980,11 @@ msgstr "Biglietto evento"
 #: model:ir.model.fields,field_description:event.field_event_question__event_type_id
 #: model:ir.model.fields,field_description:event.field_event_type_mail__event_type_id
 msgid "Event Type"
+<<<<<<< HEAD
 msgstr "Tipo di evento"
+=======
+msgstr "Tipo evento"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.event_registration_action_tree
@@ -3917,6 +4008,7 @@ msgstr "Biglietto evento"
 #. module: event
 #: model:ir.actions.server,name:event.event_mail_scheduler_ir_actions_server
 msgid "Event: Mail Scheduler"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4162,6 +4254,9 @@ msgstr "Evento: pianificatore e-mail"
 =======
 msgstr "Evento: pianificatore e-mail"
 >>>>>>> upstream/18.0
+=======
+msgstr "Evento: pianificatore e-mail"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,name:event.event_registration_mail_template_badge
@@ -4193,7 +4288,11 @@ msgstr "Eventi"
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_mail
 msgid "Events Mail Schedulers"
+<<<<<<< HEAD
 msgstr "Schedulatori messaggi eventi"
+=======
+msgstr "Pianificatori e-mail eventi"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
@@ -4230,9 +4329,15 @@ msgid ""
 "sessions, etc...."
 msgstr ""
 "Ogni anno invitiamo la nostra comunità, i partner e gli utenti finali a "
+<<<<<<< HEAD
 "venire a trovarci. È l'evento ideale per stare insieme e per presentare le "
 "nuove funzionalità, il piano d'azione per le versioni future, i "
 "miglioramenti al software, i laboratori, le sessioni di formazione ecc..."
+=======
+"venire a trovarci. È l'evento ideale per incontrarsi e presentare le nuove "
+"funzionalità, il piano di azione per le versioni future, i risultati del "
+"software, i laboratori, le sessioni di formazione ecc..."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.type,name:event.event_type_0
@@ -4465,7 +4570,11 @@ msgstr "Home"
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__hours
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__hours
 msgid "Hours"
+<<<<<<< HEAD
 msgstr "Ore"
+=======
+msgstr "ora/e"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
@@ -4575,7 +4684,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__now
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__now
 msgid "Immediately"
+<<<<<<< HEAD
 msgstr "Immediatamente"
+=======
+msgstr "Subito"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,ticket_instructions:event.event_0
@@ -4672,8 +4785,13 @@ msgstr "È in corso"
 #: model:ir.model.fields,help:event.field_event_type__seats_max
 msgid "It will select this default maximum value when you choose this event"
 msgstr ""
+<<<<<<< HEAD
 "Verrà selezionato questo valore predefinito massimo quando si sceglie questo"
 " evento."
+=======
+"Quando viene scelto l'evento, come massimo predefinito viene selezionato "
+"questo valore."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
@@ -4696,12 +4814,20 @@ msgstr ""
 #: model_terms:event.event,description:event.event_6
 #: model_terms:ir.ui.view,arch_db:event.event_default_descripton
 msgid "Join us for this 24 hours Event"
+<<<<<<< HEAD
 msgstr "Partecipa alla 24 ore di evento"
+=======
+msgstr "Unisciti a noi per questo evento di 24 ore"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "Join us for this 3-day Event"
+<<<<<<< HEAD
 msgstr "Partecipa alla 3 giorni di evento"
+=======
+msgstr "Unisciti a noi per questo evento di 3 giorni"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__legend_blocked
@@ -4835,38 +4961,66 @@ msgstr "Festival di musica dal vivo"
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__notification_type__mail
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__template_ref__mail_template
 msgid "Mail"
+<<<<<<< HEAD
 msgstr "Messaggio di posta"
+=======
+msgstr "E-mail"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__mail_registration_ids
 msgid "Mail Registration"
+<<<<<<< HEAD
 msgstr "Registrazione messaggi"
+=======
+msgstr "Registrazione e-mail"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__event_mail_ids
 #: model:ir.model.fields,field_description:event.field_event_type__event_type_mail_ids
 msgid "Mail Schedule"
+<<<<<<< HEAD
 msgstr "Programma messaggi"
+=======
+msgstr "Programmazione e-mail"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__scheduler_id
 msgid "Mail Scheduler"
+<<<<<<< HEAD
 msgstr "Pianificatore messaggi"
+=======
+msgstr "Pianificatore e-mail"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.ui.menu,name:event.menu_event_mail_schedulers
 msgid "Mail Schedulers"
+<<<<<<< HEAD
 msgstr "Pianificatori messaggi"
+=======
+msgstr "Pianificatori e-mail"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_type_mail
 msgid "Mail Scheduling on Event Category"
+<<<<<<< HEAD
 msgstr "Pianificazione e-mail  su categoria evento"
+=======
+msgstr "Pianificazione e-mail su categoria evento"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__mail_sent
 msgid "Mail Sent"
+<<<<<<< HEAD
 msgstr "Messaggio inviato"
+=======
+msgstr "E-mail inviata"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -4943,7 +5097,11 @@ msgstr "Messaggi"
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__months
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__months
 msgid "Months"
+<<<<<<< HEAD
 msgstr "Mesi"
+=======
+msgstr "mesi"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_2_tag_2
@@ -5122,7 +5280,11 @@ msgstr "Eventi in corso"
 #: model:event.tag,name:event.event_tag_category_3_tag_1
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 msgid "Online"
+<<<<<<< HEAD
 msgstr "In linea"
+=======
+msgstr "Online"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
@@ -5159,7 +5321,11 @@ msgid ""
 " event or change the dates on which it is held."
 msgstr ""
 "OpenElec Applications si riserva il diritto di annullare, rinominare o "
+<<<<<<< HEAD
 "spostare l'evento oppure cambiare le date di svolgimento dello stesso."
+=======
+"trasferire l'evento oppure cambiare le date di svolgimento dello stesso."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_7
@@ -5332,7 +5498,11 @@ msgstr "Domande"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_track_quiz
 msgid "Quiz on Tracks"
+<<<<<<< HEAD
 msgstr "Quiz per le sessioni"
+=======
+msgstr "Quiz per le tracce"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__rating_ids
@@ -5406,11 +5576,16 @@ msgstr "Fine registrazione"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Registration ID"
+<<<<<<< HEAD
 msgstr "ID iscrizione"
+=======
+msgstr "ID registrazione"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_mail_registration
 msgid "Registration Mail Scheduler"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5656,11 +5831,18 @@ msgstr "Pianificatore e-mail di iscrizione"
 =======
 msgstr "Pianificatore e-mail di iscrizione"
 >>>>>>> upstream/18.0
+=======
+msgstr "Pianificatore e-mail di registrazione"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_mail_form
 msgid "Registration Mails"
+<<<<<<< HEAD
 msgstr "Messaggi iscrizione"
+=======
+msgstr "E-mail di registrazione"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__registration_properties_definition
@@ -5681,7 +5863,11 @@ msgstr "Registrazione per %s"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_mail_form
 msgid "Registration mail"
+<<<<<<< HEAD
 msgstr "Messaggio iscrizione"
+=======
+msgstr "E-mail di registrazione"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__event_registrations_open
@@ -5719,6 +5905,7 @@ msgstr "Le registrazioni sono iniziate"
 #. module: event
 #: model:ir.ui.menu,name:event.menu_reporting_events
 msgid "Reporting"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6056,6 +6243,9 @@ msgstr "Rendicontazione"
 =======
 msgstr "Rendicontazione"
 >>>>>>> upstream/18.0
+=======
+msgstr "Rendicontazione"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_reserved
@@ -6115,7 +6305,11 @@ msgstr "Scansiona o tocca"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Schedule & Tracks"
+<<<<<<< HEAD
 msgstr "Programma e percorsi"
+=======
+msgstr "Programma e tracce"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__scheduled_date
@@ -6139,7 +6333,11 @@ msgstr "Pianificato"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__scheduled_date
 msgid "Scheduled Time"
+<<<<<<< HEAD
 msgstr "Ora programmata"
+=======
+msgstr "Orario programmato"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__mail_registration_ids
@@ -6181,7 +6379,11 @@ msgstr "Selezione"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Sell tickets on your website"
+<<<<<<< HEAD
 msgstr "Vendita biglietti sul sito web"
+=======
+msgstr "Vendita biglietti nel sito web"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -6197,12 +6399,20 @@ msgstr "Vendita biglietti con ordini di vendita"
 #: model:ir.model.fields,field_description:event.field_event_mail__notification_type
 #: model:ir.model.fields,field_description:event.field_event_type_mail__notification_type
 msgid "Send"
+<<<<<<< HEAD
 msgstr "Invia"
+=======
+msgstr "Invio"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 msgid "Send by Email"
+<<<<<<< HEAD
 msgstr "Invia con email"
+=======
+msgstr "Invia con e-mail"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__mail_done
@@ -6315,7 +6525,11 @@ msgstr "Descrizione fase"
 #: model:event.event.ticket,name:event.event_3_ticket_0
 #: model:event.event.ticket,name:event.event_7_ticket_1
 msgid "Standard"
+<<<<<<< HEAD
 msgstr "Normale"
+=======
+msgstr "Ordinario"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_begin
@@ -6326,7 +6540,11 @@ msgstr "Data inizio"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_begin_located
 msgid "Start Date Located"
+<<<<<<< HEAD
 msgstr "Data inizio assegnata"
+=======
+msgstr "Data inizio localizzata"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__start_sale_datetime
@@ -6468,7 +6686,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "The closing date cannot be earlier than the beginning date."
+<<<<<<< HEAD
 msgstr "La data di chiusura deve essere successiva alla data di inizio."
+=======
+msgstr "La data di chiusura non può precedere la data di inizio."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,description:event.event_stage_cancelled
@@ -6717,7 +6939,11 @@ msgstr "Registrazioni totali per l'evento"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_track
 msgid "Tracks and Agenda"
+<<<<<<< HEAD
 msgstr "Percorsi e agenda"
+=======
+msgstr "Tracce e programma"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.type,name:event.event_type_1
@@ -6741,7 +6967,11 @@ msgstr "Attivazione"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__interval_type
 msgid "Trigger "
+<<<<<<< HEAD
 msgstr "Attivazione"
+=======
+msgstr "Attivazione "
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag.category,name:event.event_tag_category_3
@@ -6804,12 +7034,20 @@ msgstr "Unità"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 msgid "Upcoming events from today"
+<<<<<<< HEAD
 msgstr "Eventi del giorno"
+=======
+msgstr "Prossimi eventi da oggi"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 msgid "Upcoming/Running"
+<<<<<<< HEAD
 msgstr "In arrivo/In corso"
+=======
+msgstr "Prossimi/In corso"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__use_barcode
@@ -6833,7 +7071,12 @@ msgstr ""
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Use the <b>breadcrumbs</b> to go back to your kanban overview."
 msgstr ""
+<<<<<<< HEAD
 "Utilizza i <b>percorsi di navigazione</b> per ritornare alla vista kanban."
+=======
+"Utilizza i <b>percorsi di navigazione</b> per ritornare alla panoramica del "
+"kanban."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_used
@@ -6874,6 +7117,7 @@ msgstr "Luogo (formattato per una riga)"
 #. odoo-python
 #: code:addons/event/models/event_mail.py:0
 msgid "WARNING: Event Scheduler Error for event: %s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7119,6 +7363,9 @@ msgstr "AVVISO: errore del pianificatore per l'evento: %s"
 =======
 msgstr "AVVISO: errore del pianificatore per l'evento: %s"
 >>>>>>> upstream/18.0
+=======
+msgstr "AVVISO: errore del pianificatore per l'evento: %s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.act_event_registration_from_event
@@ -7171,7 +7418,11 @@ msgstr "Cronologia comunicazioni sito web"
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__weeks
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__weeks
 msgid "Weeks"
+<<<<<<< HEAD
 msgstr "Settimane"
+=======
+msgstr "settimana/e"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -7229,7 +7480,11 @@ msgid ""
 "You can define here labels that will be displayed for the state instead\n"
 "                            of the default labels in the kanban view."
 msgstr ""
+<<<<<<< HEAD
 "Qui è possibile indicare le etichette da visualizzare nella vista kanban\n"
+=======
+"Qui è possibile indicare le etichette da visualizzare per lo stato kanban\n"
+>>>>>>> upstream/18.0
 "                            al posto di quelle predefinite."
 
 #. module: event
@@ -7317,12 +7572,20 @@ msgstr "es. Biglietto VIP"
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "events@odoo.com"
+<<<<<<< HEAD
 msgstr "eventi@odoo.com"
+=======
+msgstr "events@odoo.com"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_7
 msgid "events@penwood.example.com"
+<<<<<<< HEAD
 msgstr "eventi@openwood.example.com"
+=======
+msgstr "events@openwood.example.com"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -7341,19 +7604,31 @@ msgstr "https://www.example.com"
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "in %d days"
+<<<<<<< HEAD
 msgstr "in %d giorni"
+=======
+msgstr "tra %d giorni"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "next month"
+<<<<<<< HEAD
 msgstr "mese successio"
+=======
+msgstr "prossimo mese"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "next week"
+<<<<<<< HEAD
 msgstr "settimana successiva"
+=======
+msgstr "prossima settimana"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python

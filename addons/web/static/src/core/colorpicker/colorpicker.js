@@ -10,6 +10,11 @@ import { debounce, useThrottleForAnimation } from "@web/core/utils/timing";
 
 import { Component, onMounted, onWillUpdateProps, useExternalListener, useRef } from "@odoo/owl";
 
+<<<<<<< HEAD
+=======
+const DEFAULT_COLOR = "#FF0000";
+
+>>>>>>> upstream/18.0
 export class Colorpicker extends Component {
     static template = "web.Colorpicker";
     static props = {
@@ -24,7 +29,11 @@ export class Colorpicker extends Component {
     };
     static defaultProps = {
         document: window.document,
+<<<<<<< HEAD
         defaultColor: "#FF0000",
+=======
+        defaultColor: DEFAULT_COLOR,
+>>>>>>> upstream/18.0
         noTransparency: false,
         stopClickPropagation: false,
         onColorSelect: () => {},
@@ -79,7 +88,12 @@ export class Colorpicker extends Component {
             const defaultCssColor = this.props.selectedColor
                 ? this.props.selectedColor
                 : this.props.defaultColor;
+<<<<<<< HEAD
             const rgba = convertCSSColorToRgba(defaultCssColor);
+=======
+            const rgba =
+                convertCSSColorToRgba(defaultCssColor) || convertCSSColorToRgba(DEFAULT_COLOR);
+>>>>>>> upstream/18.0
             if (rgba) {
                 this._updateRgba(rgba.red, rgba.green, rgba.blue, rgba.opacity);
             }

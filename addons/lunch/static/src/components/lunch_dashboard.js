@@ -37,7 +37,11 @@ export class LunchOrderLine extends Component {
         let price = this.line.product[3]
         this.line.toppings.forEach((line) => price += line[3])
         const unpaid = parseFloat(this.props.infos.unpaid_subtotal)
+<<<<<<< HEAD
         return this.canEdit && (this.props.infos.wallet - unpaid) > price;
+=======
+        return this.canEdit && (this.props.infos.wallet_with_config - unpaid) >= price;
+>>>>>>> upstream/18.0
     }
 
     get canEdit() {

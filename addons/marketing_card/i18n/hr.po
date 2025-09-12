@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* marketing_card
 # 
+=======
+# * marketing_card
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2024
 # Stjepan Lovasić <stjepan.lovasic@gmail.com>, 2024
@@ -13,11 +18,16 @@
 # Milan Tribuson <one.mile.code@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Luka Carević <luka@uvid.hr>, 2025
+<<<<<<< HEAD
 # 
+=======
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -291,6 +301,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:37+0000\n"
+"PO-Revision-Date: 2025-08-21 14:30+0000\n"
+"Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
+"marketing_card/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #. odoo-python
@@ -307,7 +331,13 @@ msgstr ""
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" title=\"Shares\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" "
+"title=\"Shares\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: marketing_card
@@ -440,7 +470,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:marketing_card.card_campaign_action
 #: model:ir.model.fields,field_description:marketing_card.field_mailing_mailing__card_campaign_id
 msgid "Card Campaign"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kampanja kartica"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #. odoo-python
@@ -464,6 +498,15 @@ msgid "Card Layout"
 msgstr ""
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Card Preview"
+msgstr ""
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:marketing_card.field_mailing_mailing__card_requires_sync_count
 msgid "Card Requires Sync Count"
 msgstr ""
@@ -477,7 +520,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:marketing_card.card_template_action
 #: model:ir.ui.menu,name:marketing_card.cards_template_menu
 msgid "Card Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predložak kartice"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.mailing_mailing_view_form_inherit_marketing_card
@@ -528,7 +575,11 @@ msgstr "Kreirano"
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_template__default_background
 msgid "Default Background"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadana pozadina"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,help:marketing_card.field_card_campaign__post_suggestion
@@ -622,6 +673,15 @@ msgstr ""
 #. module: marketing_card
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
+<<<<<<< HEAD
+=======
+msgid "Hello everyone"
+msgstr ""
+
+#. module: marketing_card
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+>>>>>>> upstream/18.0
 msgid "Help us share the news"
 msgstr ""
 
@@ -631,6 +691,15 @@ msgid "Helps you manage marketing card campaigns."
 msgstr ""
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Here's the link to advertise your participation."
+msgstr ""
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__id
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign_tag__id
 #: model:ir.model.fields,field_description:marketing_card.field_card_card__id
@@ -741,6 +810,15 @@ msgid "Mailing Count"
 msgstr ""
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Many thanks"
+msgstr ""
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model:ir.model,name:marketing_card.model_card_card
 #: model:ir.module.category,name:marketing_card.module_category_marketing_card
 #: model:ir.ui.menu,name:marketing_card.card_menu
@@ -802,6 +880,14 @@ msgid ""
 msgstr ""
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:marketing_card.model_ir_model
+msgid "Models"
+msgstr ""
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__my_activity_date_deadline
 msgid "My Activity Deadline"
 msgstr "Rok za moju aktivnost"
@@ -809,7 +895,11 @@ msgstr "Rok za moju aktivnost"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_search
 msgid "My Campaigns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moje kampanje"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__name
@@ -878,8 +968,13 @@ msgstr "Odoo"
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: marketing_card
@@ -926,7 +1021,11 @@ msgstr "Primarna boja"
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_template__primary_text_color
 msgid "Primary Text Color"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primarna boja teksta"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_1
@@ -1021,7 +1120,11 @@ msgstr "Sekundarna boja"
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_template__secondary_text_color
 msgid "Secondary Text Color"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Boja sekundarnog teksta"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_section
@@ -1036,7 +1139,11 @@ msgstr ""
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Select a field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite polje"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
@@ -1072,7 +1179,11 @@ msgstr ""
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_template_view_form
 msgid "Share Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dijeli predložak"
+>>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
@@ -1145,6 +1256,7 @@ msgid "Tags may not reuse existing names."
 msgstr ""
 
 #. module: marketing_card
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1570,6 +1682,10 @@ msgid "Thank You Message"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__reward_message
 msgid "Thank You Message"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:marketing_card.field_card_campaign__reward_message
+msgid "Thank You Message"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: marketing_card
@@ -1654,7 +1770,10 @@ msgstr "Ažuriraj"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1774,6 +1893,7 @@ msgid "Update Cards"
 msgstr ""
 
 #. module: marketing_card
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1953,6 +2073,8 @@ msgid ""
 msgstr ""
 
 #. module: marketing_card
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:marketing_card.selection__card_card__share_status__visited
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_card_view_search
 msgid "Visited"
@@ -1986,6 +2108,15 @@ msgid "Your Home Page"
 msgstr ""
 
 #. module: marketing_card
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/marketing_card/models/card_campaign.py:0
+msgid "Your help with this promotion would be greatly appreciated!"
+msgstr ""
+
+#. module: marketing_card
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_2
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_3
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_4
@@ -2083,7 +2214,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2350,6 +2484,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

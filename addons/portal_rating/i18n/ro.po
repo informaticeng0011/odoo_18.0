@@ -1,14 +1,23 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* portal_rating
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Larisa_nexterp, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
@@ -24,13 +33,29 @@ msgstr ""
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 msgid "#{Math.round(val * 100) / 100} stars on 5"
 msgstr ""
+=======
+"POT-Creation-Date: 2025-08-22 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+"Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/js/portal_rating_composer.js:0
 #: model_terms:ir.ui.view,arch_db:portal_rating.rating_stars_static_popup_composer
 msgid "Add Review"
+<<<<<<< HEAD
 msgstr "Adaugă Evaluare"
+=======
+msgstr "Adaugă recenzie"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
@@ -59,7 +84,11 @@ msgstr "Comentat de"
 #. module: portal_rating
 #: model:ir.model.fields,field_description:portal_rating.field_rating_rating__publisher_datetime
 msgid "Commented on"
+<<<<<<< HEAD
 msgstr "Comentat în"
+=======
+msgstr "Comentat la"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
@@ -77,33 +106,53 @@ msgstr "Detalii"
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/chatter/frontend/message_patch.xml:0
 msgid "Edit"
+<<<<<<< HEAD
 msgstr "Editare"
+=======
+msgstr "Editează"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/js/portal_rating_composer.js:0
 #: model_terms:ir.ui.view,arch_db:portal_rating.rating_stars_static_popup_composer
 msgid "Edit Review"
+<<<<<<< HEAD
 msgstr "Editează Recenzia"
+=======
+msgstr "Editează recenzia"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #: model:ir.model,name:portal_rating.model_mail_thread
 msgid "Email Thread"
+<<<<<<< HEAD
 msgstr "Fir E-mail"
+=======
+msgstr "Fir de e-mail"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/chatter/frontend/composer_patch.xml:0
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 msgid "Empty star"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stea goală"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/chatter/frontend/composer_patch.xml:0
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 msgid "Full star"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stea plină"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #: model:ir.model,name:portal_rating.model_ir_http
@@ -120,7 +169,11 @@ msgstr "Jumătate de stea"
 #. odoo-python
 #: code:addons/portal_rating/controllers/portal_rating.py:0
 msgid "Invalid rating"
+<<<<<<< HEAD
 msgstr "Rating Nevalid"
+=======
+msgstr "Rating nevalid"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #: model:ir.model,name:portal_rating.model_mail_message
@@ -131,13 +184,21 @@ msgstr "Mesaj"
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/xml/portal_rating_composer.xml:0
 msgid "Modify your review"
+<<<<<<< HEAD
 msgstr "Modificare evaluare"
+=======
+msgstr "Modifică recenzia"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/js/portal_rating_composer.js:0
 msgid "Post review"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Publică recenzie"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
@@ -149,30 +210,50 @@ msgstr "Bară de progres"
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/chatter/frontend/message_patch.xml:0
 msgid "Published on"
+<<<<<<< HEAD
 msgstr "Publicat în"
+=======
+msgstr "Publicat la"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #: model:ir.model.fields,field_description:portal_rating.field_rating_rating__publisher_comment
 msgid "Publisher comment"
+<<<<<<< HEAD
 msgstr "Comentariu Editor"
+=======
+msgstr "Comentariu editor"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #: model:ir.model,name:portal_rating.model_rating_rating
 msgid "Rating"
+<<<<<<< HEAD
 msgstr "Evaluare"
+=======
+msgstr "Rating"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 msgid "Remove Selection"
+<<<<<<< HEAD
 msgstr "Eliminare Selecție"
+=======
+msgstr "Elimină selecția"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/js/portal_rating_composer.js:0
 #: model_terms:ir.ui.view,arch_db:portal_rating.rating_stars_static_popup_composer
 msgid "Review"
+<<<<<<< HEAD
 msgstr "Examinare"
+=======
+msgstr "Recenzie"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
@@ -181,28 +262,51 @@ msgid ""
 "The rating is required. Please make sure to select one before sending your "
 "review."
 msgstr ""
+<<<<<<< HEAD
 "Ratingul este obligatoriu. Vă rugăm să vă asigurați că selectați unul "
 "înainte de a trimite recenzia dvs."
+=======
+"Ratingul este obligatoriu. Vă rugăm să selectați unul înainte de a trimite "
+"recenzia."
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/js/portal_rating_composer.js:0
 msgid "Update review"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualizează recenzia"
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-python
 #: code:addons/portal_rating/models/rating_rating.py:0
 msgid "Updating rating comment require write access on related record"
 msgstr ""
+<<<<<<< HEAD
 "Actualizarea comentariului privind ratingul necesită acces în scris la "
+=======
+"Actualizarea comentariului la rating necesită acces de scriere la "
+>>>>>>> upstream/18.0
 "înregistrarea aferentă"
 
 #. module: portal_rating
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/xml/portal_rating_composer.xml:0
 msgid "Write a review"
+<<<<<<< HEAD
 msgstr "Scrieți o recenzie"
+=======
+msgstr "Scrie o recenzie"
+
+#. module: portal_rating
+#. odoo-javascript
+#: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
+msgid "comments"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: portal_rating
 #. odoo-javascript

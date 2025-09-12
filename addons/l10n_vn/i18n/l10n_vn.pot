@@ -60,7 +60,10 @@ msgstr ""
 #. module: l10n_vn
 #: model:ir.model.fields,help:l10n_vn.field_account_bank_statement_line__l10n_vn_e_invoice_number
 #: model:ir.model.fields,help:l10n_vn.field_account_move__l10n_vn_e_invoice_number
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_vn.field_account_payment__l10n_vn_e_invoice_number
+=======
+>>>>>>> upstream/18.0
 msgid "Electronic Invoicing number."
 msgstr ""
 
@@ -88,6 +91,37 @@ msgid ""
 msgstr ""
 
 #. module: l10n_vn
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/l10n_vn/models/res_bank.py:0
+#, python-format
+msgid "Missing Merchant Account Information."
+msgstr ""
+
+#. module: l10n_vn
+#. odoo-python
+#: code:addons/l10n_vn/models/res_bank.py:0
+#, python-format
+msgid "Missing Merchant City or State."
+msgstr ""
+
+#. module: l10n_vn
+#. odoo-python
+#: code:addons/l10n_vn/models/res_bank.py:0
+#, python-format
+msgid "Missing Proxy Type."
+msgstr ""
+
+#. module: l10n_vn
+#. odoo-python
+#: code:addons/l10n_vn/models/res_bank.py:0
+#, python-format
+msgid "Missing Proxy Value."
+msgstr ""
+
+#. module: l10n_vn
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_vn.selection__res_partner_bank__proxy_type__payment_service
 msgid "Payment Service"
 msgstr ""
@@ -222,6 +256,9 @@ msgstr ""
 #. module: l10n_vn
 #: model:ir.model.fields,field_description:l10n_vn.field_account_bank_statement_line__l10n_vn_e_invoice_number
 #: model:ir.model.fields,field_description:l10n_vn.field_account_move__l10n_vn_e_invoice_number
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_vn.field_account_payment__l10n_vn_e_invoice_number
+=======
+>>>>>>> upstream/18.0
 msgid "eInvoice Number"
 msgstr ""

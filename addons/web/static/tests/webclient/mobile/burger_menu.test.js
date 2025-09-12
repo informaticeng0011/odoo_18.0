@@ -12,6 +12,10 @@ import {
 } from "@web/../tests/web_test_helpers";
 import { config as transitionConfig } from "@web/core/transition";
 import { WebClient } from "@web/webclient/webclient";
+<<<<<<< HEAD
+=======
+import { registry } from "@web/core/registry";
+>>>>>>> upstream/18.0
 
 describe.current.tags("mobile");
 
@@ -165,3 +169,31 @@ test("Burger menu closes when click on menu item", async () => {
     expect(queryAll(".o_burger_menu_content", { root: document.body })).toHaveCount(0);
     expect(queryAll(".test_client_action", { root: document.body })).toHaveCount(1);
 });
+<<<<<<< HEAD
+=======
+
+test("Burger menu closes when click on user menu item", async () => {
+    registry.category("user_menuitems").add("ring_item", () => ({
+        type: "item",
+        id: "ring",
+        description: "Ring",
+        callback: () => {
+            expect.step("callback ring_item");
+        },
+        sequence: 5,
+    }));
+
+    await mountWithCleanup(WebClient);
+
+    expect(queryAll(".o_burger_menu", { root: document.body })).toHaveCount(0);
+
+    await click(queryAll(".o_mobile_menu_toggle", { root: document.body }));
+    await animationFrame();
+    expect(queryAll(".o_burger_menu", { root: document.body })).toHaveCount(1);
+
+    await click(queryAll(".o_burger_menu .o_user_menu_mobile a", { root: document.body }));
+    await animationFrame();
+    expect(queryAll(".o_burger_menu", { root: document.body })).toHaveCount(0);
+    expect.verifySteps(["callback ring_item"]);
+});
+>>>>>>> upstream/18.0

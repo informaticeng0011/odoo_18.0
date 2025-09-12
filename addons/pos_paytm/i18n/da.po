@@ -5,6 +5,10 @@
 # Translators:
 # Martin Trigaux, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
+<<<<<<< HEAD
+=======
+# Kira Petersen, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +16,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Sanne Kristensen <sanne@vkdata.dk>, 2024\n"
+=======
+"Last-Translator: Kira Petersen, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,6 +59,11 @@ msgid ""
 "Choose accept payment mode: \n"
 " Manually or Automatically"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vælg, hvordan du accepterer betalinger: \n"
+" Manuelt eller automatisk"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields,help:pos_paytm.field_pos_payment_method__allowed_payment_modes
@@ -58,11 +71,20 @@ msgid ""
 "Choose allow payment mode: \n"
 " All/Card or QR"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vælg den tilladte betalingsform:\n"
+" Alle/kort eller QR-koder"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields,help:pos_paytm.field_pos_payment_method__paytm_mid
 msgid "Go to https://business.paytm.com/ and create the merchant account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gå til https://business.paytm.com/, og opret en forhandlerkonto"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields.selection,name:pos_paytm.selection__pos_payment_method__accept_payment__manual
@@ -75,6 +97,11 @@ msgid ""
 "Merchant/AES key \n"
 " ex: B1o6Ivjy8L1@abc9"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Forhandler/AES-nøgle \n"
+" f.eks.: B1o6Ivjy8L1@abc9"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__channel_id
@@ -135,6 +162,11 @@ msgid ""
 "Terminal model or Activation code \n"
 " ex: 70000123"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Terminalmodel eller aktiveringskode \n"
+" f.eks.: "
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #. odoo-python
@@ -145,7 +177,11 @@ msgstr "Denne betalingsterminal er kun gyldig for INR valuta"
 #. module: pos_paytm
 #: model:ir.model.fields,help:pos_paytm.field_pos_payment_method__paytm_test_mode
 msgid "Turn it on when in Test Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tænd i testtilstand"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #. odoo-python

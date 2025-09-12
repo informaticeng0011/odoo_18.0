@@ -209,17 +209,29 @@ class TestMyDATAInvoice(AccountTestInvoicingCommon):
         invoice = self._create_mydata_invoice()
         invoice.l10n_gr_edi_inv_type = False
         invoice.l10n_gr_edi_try_send_invoices()
+<<<<<<< HEAD
         self.assert_mydata_error(invoice, 'Missing MyDATA Invoice Type.')
+=======
+        self.assert_mydata_error(invoice, 'Missing myDATA Invoice Type.')
+>>>>>>> upstream/18.0
 
         # No classification category
         invoice = self._create_mydata_invoice(cls_category='')
         invoice.l10n_gr_edi_try_send_invoices()
+<<<<<<< HEAD
         self.assert_mydata_error(invoice, 'Missing MyDATA classification category on line 1.')
+=======
+        self.assert_mydata_error(invoice, 'Missing myDATA classification category on line 1.')
+>>>>>>> upstream/18.0
 
         # No classification type, and inv_type + cls_category combination doesn't allow empty cls_type
         invoice = self._create_mydata_invoice(cls_type='')
         invoice.l10n_gr_edi_try_send_invoices()
+<<<<<<< HEAD
         self.assert_mydata_error(invoice, 'Missing MyDATA classification type on line 1.')
+=======
+        self.assert_mydata_error(invoice, 'Missing myDATA classification type on line 1.')
+>>>>>>> upstream/18.0
 
     def test_l10n_gr_edi_try_send_invoices_allowed_no_cls_type(self):
         """Allow no cls_type on some combinations with available cls_type"""
@@ -244,7 +256,11 @@ class TestMyDATAInvoice(AccountTestInvoicingCommon):
         """ Multiple tax should raises error. """
         invoice = self._create_mydata_invoice(tax_ids=[Command.set((self.tax_24 + self.tax_0).ids)])
         invoice.l10n_gr_edi_try_send_invoices()
+<<<<<<< HEAD
         self.assert_mydata_error(invoice, 'MyDATA does not support multiple taxes on line 1.')
+=======
+        self.assert_mydata_error(invoice, 'myDATA does not support multiple taxes on line 1.')
+>>>>>>> upstream/18.0
 
     def test_l10n_gr_edi_try_send_invoices_invalid_tax_nonexistent(self):
         """ No tax should raises error. """
@@ -259,4 +275,8 @@ class TestMyDATAInvoice(AccountTestInvoicingCommon):
         invoice = self._create_mydata_invoice(tax_ids=[Command.set(self.tax_0.ids)])
         invoice.with_context(skip_readonly_check=True).invoice_line_ids.l10n_gr_edi_tax_exemption_category = False
         invoice.l10n_gr_edi_try_send_invoices()
+<<<<<<< HEAD
         self.assert_mydata_error(invoice, 'Missing MyDATA Tax Exemption Category for line 1.')
+=======
+        self.assert_mydata_error(invoice, 'Missing myDATA Tax Exemption Category for line 1.')
+>>>>>>> upstream/18.0

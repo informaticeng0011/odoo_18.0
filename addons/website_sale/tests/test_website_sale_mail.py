@@ -44,4 +44,8 @@ class TestWebsiteSaleMail(HttpCase):
                                                     order='create_date DESC', limit=1)
             self.assertTrue(new_mail)
             self.assertIn('Your', new_mail.body_html)
+<<<<<<< HEAD
             self.assertIn('Order', new_mail.body_html)
+=======
+            self.assertIn('order', new_mail.body_html)
+>>>>>>> upstream/18.0

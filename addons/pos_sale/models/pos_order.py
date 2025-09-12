@@ -93,7 +93,13 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if sale_orders[0].payment_term_id:
+=======
+            if sale_orders[0].payment_term_id and not sale_orders[0].payment_term_id.early_discount:
+                invoice_vals['invoice_payment_term_id'] = sale_orders[0].payment_term_id.id
+            else:
+>>>>>>> upstream/18.0
 =======
             if sale_orders[0].payment_term_id and not sale_orders[0].payment_term_id.early_discount:
                 invoice_vals['invoice_payment_term_id'] = sale_orders[0].payment_term_id.id
@@ -473,8 +479,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     new_qty = so_line.product_uom_qty - so_line.qty_delivered
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -617,6 +626,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -790,17 +802,39 @@ class PosOrderLine(models.Model):
 
     @api.depends('order_id.state', 'order_id.picking_ids', 'order_id.picking_ids.state', 'order_id.picking_ids.move_ids.quantity')
     def _compute_qty_delivered(self):
+<<<<<<< HEAD
+=======
+        product_qty_left_to_assign = {}
+>>>>>>> upstream/18.0
         for order_line in self:
             if order_line.order_id.state in ['paid', 'done', 'invoiced']:
                 outgoing_pickings = order_line.order_id.picking_ids.filtered(
                     lambda pick: pick.state == 'done' and pick.picking_type_code == 'outgoing'
                 )
 
+<<<<<<< HEAD
                 if outgoing_pickings:
                     moves = outgoing_pickings.move_ids.filtered(
                         lambda m: m.state == 'done' and m.product_id == order_line.product_id
                     )
                     order_line.qty_delivered = sum(moves.mapped('quantity'))
+=======
+                if outgoing_pickings and order_line.order_id.shipping_date:
+                    moves = outgoing_pickings.move_ids.filtered(
+                        lambda m: m.state == 'done' and m.product_id == order_line.product_id
+                    )
+                    qty_left = product_qty_left_to_assign.get(order_line.product_id.id, False)
+                    if (qty_left):
+                        order_line.qty_delivered = min(order_line.qty, qty_left)
+                        product_qty_left_to_assign[order_line.product_id.id] -= order_line.qty_delivered
+                    else:
+                        order_line.qty_delivered = min(order_line.qty, sum(moves.mapped('quantity')))
+                        product_qty_left_to_assign[order_line.product_id.id] = sum(moves.mapped('quantity')) - order_line.qty_delivered
+
+                elif outgoing_pickings:
+                    # If the order is not delivered later, and in a "paid", "done" or "invoiced" state, it fully delivered
+                    order_line.qty_delivered = order_line.qty
+>>>>>>> upstream/18.0
                 else:
                     order_line.qty_delivered = 0
 

@@ -548,7 +548,11 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         self.product_a.taxes_id = None
         self.product_a.available_in_pos = True
         self.product_a.name = 'Product A'
+<<<<<<< HEAD
         self.env['res.partner'].create({'name': 'Test Partner AAA'})
+=======
+        self.env['res.partner'].create({'name': 'A Test Partner AAA'})
+>>>>>>> upstream/18.0
         sale_order = self.env['sale.order'].create({
             'partner_id': self.env['res.partner'].create({'name': 'Test Partner BBB'}).id,
             'order_line': [(0, 0, {
@@ -955,10 +959,13 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_settle_order_ship_later_delivered_qty(self):
         """This test create an order, settle it in the PoS and ship it later.
             We need to make sure that the quantity delivered on the original sale is updated correctly
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1095,6 +1102,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1237,7 +1247,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1376,6 +1389,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1474,6 +1490,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
             'street': 'Rue du burger',
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1655,6 +1672,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
         sale_order_single = self.env['sale.order'].create({
 >>>>>>> upstream/18.0
+=======
+        sale_order_single = self.env['sale.order'].create({
+>>>>>>> upstream/18.0
             'partner_id': partner_test.id,
             'order_line': [(0, 0, {
                 'product_id': product_a.id,
@@ -1664,6 +1684,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
                 'price_unit': product_a.lst_price,
             })],
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1726,6 +1747,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         pickings.button_validate()
         self.assertEqual(sale_order.order_line[0].qty_delivered, 1)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1897,6 +1920,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2144,7 +2170,11 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
             })]
         })
         partner_test = self.env['res.partner'].create({
+<<<<<<< HEAD
             'name': 'Test Partner',
+=======
+            'name': 'A Test Partner',
+>>>>>>> upstream/18.0
             'property_payment_term_id': payment_term.id,
         })
 
@@ -2263,6 +2293,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'order_line': [(0, 0, {
                 'product_id': product.id,
                 'name': product.name,
@@ -2271,6 +2302,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
                 'price_unit': product.lst_price,
             })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2404,6 +2437,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2570,7 +2606,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2750,6 +2789,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         })
         self.main_pos_config.down_payment_product_id = self.env.ref("pos_sale.default_downpayment_product")
         self.main_pos_config.open_ui()
+<<<<<<< HEAD
         self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_down_payment_displayed', login="accountman")
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2991,6 +3031,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        self.start_pos_tour('test_down_payment_displayed', "accountman")
+>>>>>>> upstream/18.0
 
     def test_amount_to_invoice(self):
         """
@@ -3138,6 +3181,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3174,6 +3218,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3410,6 +3456,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3518,4 +3565,208 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_settle_order_with_different_uom(self):
+        """Verify that a qty has changed according to UOM"""
+        product_a = self.env['product.product'].create({
+            'name': 'Product A',
+            'available_in_pos': True,
+            'is_storable': True,
+            'lst_price': 10.0,
+        })
+        test_partner = self.env['res.partner'].create({'name': 'Test Partner'})
+        # Create a sale order
+        sale_order = self.env['sale.order'].create({
+            'partner_id': test_partner.id,
+            'order_line': [Command.create({
+                    'product_id': product_a.id,
+                    'name': product_a.name,
+                    'product_uom_qty': 1,
+                    'product_uom':  self.env.ref('uom.product_uom_dozen').id,
+                    'price_unit': product_a.lst_price,
+                })]
+        })
+        sale_order.action_confirm()
+
+        self.main_pos_config.open_ui()
+        self.start_pos_tour('PoSSettleQuotation', login="accountman")
+        pos_order = self.env['pos.order'].search([('partner_id', '=', test_partner.id)], limit=1)
+
+        self.assertEqual(pos_order.lines[0].qty, 12.0, "quantity should be 12.0")
+        self.assertEqual(pos_order.lines[0].price_unit, 0.83, "price of product should be 0.83")
+
+    def test_quantity_updated_settle(self):
+        """
+        Tests that the quantity is updated when partially settling an order, so that the
+        settle displays the right amount that still needs to be settled.
+        """
+        product_a = self.env['product.product'].create({
+            'name': 'Product A',
+            'lst_price': 10.0,
+        })
+        self.env['sale.order'].create({
+            'partner_id': self.env['res.partner'].create({'name': 'Test Partner'}).id,
+            'order_line': [(0, 0, {
+                'product_id': product_a.id,
+                'product_uom_qty': 5,
+                'price_unit': product_a.lst_price,
+            })]
+        })
+        self.main_pos_config.open_ui()
+        self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_quantity_updated_settle', login="accountman")
+
+    def test_sale_order_fp_different_from_partner_one(self):
+        """
+        Tests that the fiscal position of the sale order is not the same as the partner's fiscal position.
+        The PoS should always use the fiscal position of the sale order when settling it.
+        """
+        tax = self.env['account.tax'].create({
+            'name': 'Base Tax',
+            'amount': 15,
+        })
+        tax_override_1 = self.env['account.tax'].create({
+            'name': 'Tax Override 1',
+            'amount': 100,
+            'amount_type': 'percent',
+        })
+        tax_override_2 = self.env['account.tax'].create({
+            'name': 'Tax Override 2',
+            'amount': 0,
+            'amount_type': 'percent',
+        })
+        fp_1 = self.env['account.fiscal.position'].create({
+            'name': "Partner FP",
+            'tax_ids': [(0, 0, {
+                'tax_src_id': tax.id,
+                'tax_dest_id': tax_override_1.id
+            })]
+        })
+        fp_2 = self.env['account.fiscal.position'].create({
+            'name': "Sale Order FP",
+            'tax_ids': [(0, 0, {
+                'tax_src_id': tax.id,
+                'tax_dest_id': tax_override_2.id
+            })]
+        })
+        product_a = self.env['product.product'].create({
+            'name': 'Product A',
+            'available_in_pos': True,
+            'lst_price': 10.0,
+            'taxes_id': [tax.id],
+        })
+        partner_test = self.env['res.partner'].create({
+            'name': 'Test Partner',
+            'property_account_position_id': fp_1.id,
+        })
+        sale_a = self.env['sale.order'].create({
+            'partner_id': partner_test.id,
+            'order_line': [(0, 0, {
+                'product_id': product_a.id,
+                'product_uom_qty': 1,
+                'price_unit': product_a.lst_price,
+            })]
+        })
+        sale_b = self.env['sale.order'].create({
+            'partner_id': partner_test.id,
+            'fiscal_position_id': fp_2.id,
+            'order_line': [(0, 0, {
+                'product_id': product_a.id,
+                'product_uom_qty': 1,
+                'price_unit': product_a.lst_price,
+            })]
+        })
+        # Disable fiscal position in POS, it should works anyway.
+        self.main_pos_config.write({
+            'tax_regime_selection': False,
+            'default_fiscal_position_id': False,
+            'fiscal_position_ids': [odoo.Command.clear()],
+        })
+        self.assertEqual(sale_a.fiscal_position_id, fp_1, "Sale order should have the fiscal position of the partner")
+        self.assertEqual(sale_a.amount_total, 20, "Sale order amount should be 20 with the tax override 1")
+        self.assertEqual(sale_a.amount_untaxed, 10, "Sale order untaxed amount should be 10 with the tax override 1")
+        self.assertEqual(sale_b.fiscal_position_id, fp_2, "Sale order should have the fiscal position set on the sale order")
+        self.assertEqual(sale_b.amount_total, 10, "Sale order amount should be 10 with the tax override 2")
+        self.assertEqual(sale_b.amount_untaxed, 10, "Sale order untaxed amount should be 10 with the tax override 2")
+        self.start_pos_tour("test_sale_order_fp_different_from_partner_one", login="accountman")
+
+        pos_order_a = self.env['pos.order'].search([('fiscal_position_id', '=', fp_1.id)], limit=1, order='id desc')
+        pos_order_b = self.env['pos.order'].search([('fiscal_position_id', '=', fp_2.id)], limit=1, order='id desc')
+        self.assertEqual(pos_order_a.amount_total, 20, "PoS order amount should be 20 with the tax override 1")
+        self.assertEqual(pos_order_a.amount_tax, 10, "PoS order untaxed amount should be 10 with the tax override 1")
+        self.assertEqual(pos_order_a.lines[0].tax_ids, tax_override_1, "PoS order should have the tax override 1")
+        self.assertEqual(pos_order_b.amount_total, 10, "PoS order amount should be 10 with the tax override 2")
+        self.assertEqual(pos_order_b.amount_tax, 0, "PoS order untaxed amount should be 10 with the tax override 2")
+        self.assertEqual(pos_order_b.lines[0].tax_ids, tax_override_2, "PoS order should have the tax override 2")
+
+    def test_multiple_lots_sale_order(self):
+        self.product = self.env['product.product'].create({
+            'name': 'Product',
+            'available_in_pos': True,
+            'is_storable': True,
+            'lst_price': 10.0,
+            'taxes_id': False,
+            'categ_id': self.product_category.id,
+            'tracking': 'lot',
+        })
+
+        self.warehouse = self.env['stock.warehouse'].search([('company_id', '=', self.env.company.id)], limit=1)
+        self.shelf_1 = self.env['stock.location'].create({
+            'name': 'Shelf 1',
+            'usage': 'internal',
+            'location_id': self.warehouse.lot_stock_id.id,
+        })
+        self.shelf_2 = self.env['stock.location'].create({
+            'name': 'Shelf 2',
+            'usage': 'internal',
+            'location_id': self.warehouse.lot_stock_id.id,
+        })
+
+        quants = self.env['stock.quant'].with_context(inventory_mode=True).create({
+            'product_id': self.product.id,
+            'inventory_quantity': 1,
+            'location_id': self.shelf_1.id,
+            'lot_id': self.env['stock.lot'].create({
+                'name': '1001',
+                'product_id': self.product.id,
+                'location_id': self.shelf_1.id,
+            }).id,
+        })
+        quants |= self.env['stock.quant'].with_context(inventory_mode=True).create({
+            'product_id': self.product.id,
+            'inventory_quantity': 2,
+            'location_id': self.shelf_2.id,
+            'lot_id': self.env['stock.lot'].create({
+                'name': '1002',
+                'product_id': self.product.id,
+                'location_id': self.shelf_2.id,
+            }).id,
+        })
+        quants.action_apply_inventory()
+
+        partner_test = self.env['res.partner'].create({'name': 'Test Partner'})
+
+        sale_order = self.env['sale.order'].create({
+            'partner_id': partner_test.id,
+            'order_line': [(0, 0, {
+                'product_id': self.product.id,
+                'name': self.product.name,
+                'product_uom_qty': 3,
+                'product_uom': self.product.uom_id.id,
+                'price_unit': self.product.lst_price,
+            })],
+        })
+        self.main_pos_config.open_ui()
+        self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_multiple_lots_sale_order_1', login="accountman")
+        sale_order.action_confirm()
+        self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_multiple_lots_sale_order_2', login="accountman")
+        self.main_pos_config.current_session_id.action_pos_session_close()
+        picking = sale_order.pos_order_line_ids.order_id.picking_ids
+        self.assertEqual(picking.move_ids.quantity, 3)
+        self.assertEqual(len(picking.move_ids.move_line_ids), 2)
+        self.assertEqual(picking.move_ids.move_line_ids[0].lot_id.name, '1001')
+        self.assertEqual(picking.move_ids.move_line_ids[0].quantity, 1)
+        self.assertEqual(picking.move_ids.move_line_ids[1].lot_id.name, '1002')
+        self.assertEqual(picking.move_ids.move_line_ids[1].quantity, 2)
 >>>>>>> upstream/18.0

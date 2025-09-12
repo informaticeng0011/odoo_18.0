@@ -1,16 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* hr_expense
 # 
+=======
+# * hr_expense
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Wil Odoo, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 # Manon Rondou, 2025
+<<<<<<< HEAD
 # 
+=======
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,6 +58,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:37+0000\n"
+"PO-Revision-Date: 2025-08-20 13:43+0000\n"
+"Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
+"Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18/hr_expense/"
+"nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -84,8 +107,12 @@ msgstr "%(employee_name)s: %(expense_name)s"
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
+<<<<<<< HEAD
 msgid ""
 "%(user)s confirms this expense is not a duplicate with similar expense."
+=======
+msgid "%(user)s confirms this expense is not a duplicate with similar expense."
+>>>>>>> upstream/18.0
 msgstr ""
 "%(user)s bevestigt dat deze declaratie geen duplicaat is met vergelijkbare "
 "declaraties."
@@ -138,8 +165,13 @@ msgstr "2023-08-11"
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "<b>Wasting time recording your receipts?</b> Let’s try a better way."
 msgstr ""
+<<<<<<< HEAD
 "<b>Verspil je tijd met het noteren van je bonnetjes?</b> Laten we een betere"
 " manier proberen."
+=======
+"<b>Verspil je tijd met het noteren van je bonnetjes?</b> Laten we een betere "
+"manier proberen."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
@@ -186,8 +218,13 @@ msgstr "<span>Betaald door:</span>"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_split
 msgid "<span>The total amount doesn't match the original amount.</span>"
 msgstr ""
+<<<<<<< HEAD
 "<span>Het totaalbedrag komt niet overeen met het oorspronkelijke "
 "bedrag.</span>"
+=======
+"<span>Het totaalbedrag komt niet overeen met het oorspronkelijke bedrag.</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -198,8 +235,13 @@ msgid ""
 "method."
 msgstr ""
 "Een standaard openstaande rekening moet worden gedefinieerd in de "
+<<<<<<< HEAD
 "instellingen voor door het bedrijf betaalde kosten. Of specificeer er een in"
 " het dagboek voor de %(method)s betaalmethode."
+=======
+"instellingen voor door het bedrijf betaalde kosten. Of specificeer er een in "
+"het dagboek voor de %(method)s betaalmethode."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__account_id
@@ -214,6 +256,7 @@ msgstr "Boekhouding"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__accounting_date
 msgid "Accounting Date"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -539,6 +582,9 @@ msgstr "Boekingsdatum"
 =======
 msgstr "Boekingsdatum"
 >>>>>>> upstream/18.0
+=======
+msgstr "Boekingsdatum"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_needaction
@@ -604,7 +650,12 @@ msgstr "Alle rapportages"
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
+<<<<<<< HEAD
 msgid "All expenses in an expense report must have the same \"paid by\" criteria."
+=======
+msgid ""
+"All expenses in an expense report must have the same \"paid by\" criteria."
+>>>>>>> upstream/18.0
 msgstr ""
 "Alle declaraties in een declaratierapport moeten hetzelfde criterium "
 "\"betaald door\" hebben."
@@ -1025,9 +1076,15 @@ msgid ""
 "from the partner to fix the configuration. Cancel this invoice and start "
 "again."
 msgstr ""
+<<<<<<< HEAD
 "Wens je echt je eigen bedrijf te factureren? Verwijder de “Bedrijfsnaam” van"
 " de partner om de configuratie te herstellen. Annuleer deze factuur en begin"
 " opnieuw."
+=======
+"Wens je echt je eigen bedrijf te factureren? Verwijder de “Bedrijfsnaam” van "
+"de partner om de configuratie te herstellen. Annuleer deze factuur en begin "
+"opnieuw."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_account_analytic_applicability__business_domain
@@ -1088,8 +1145,12 @@ msgstr "Declaraties van werknemer"
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid ""
+<<<<<<< HEAD
 "Enter a name then choose a category and configure the amount of your "
 "expense."
+=======
+"Enter a name then choose a category and configure the amount of your expense."
+>>>>>>> upstream/18.0
 msgstr ""
 "Voer een naam in, kies een categorie en configureer het bedrag van je "
 "declaratie."
@@ -1475,7 +1536,11 @@ msgid "Generate Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Declaratie genereren"
+=======
+msgstr "Genereer onkosten"
+>>>>>>> upstream/18.0
 =======
 msgstr "Genereer onkosten"
 >>>>>>> upstream/18.0
@@ -2208,8 +2273,13 @@ msgid ""
 "Once your <b>Expense Report</b> is ready, you can submit it to your manager "
 "and wait for approval."
 msgstr ""
+<<<<<<< HEAD
 "Zodra je <b>Declaratie</b> gereed is, kun je deze indienen bij je manager en"
 " wachten op goedkeuring."
+=======
+"Zodra je <b>Declaratie</b> gereed is, kun je deze indienen bij je manager en "
+"wachten op goedkeuring."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -2317,8 +2387,13 @@ msgid ""
 "Please specify if the expenses for this report were paid by the company, or "
 "the employee"
 msgstr ""
+<<<<<<< HEAD
 "Geef aan of de kosten voor dit rapport zijn betaald door het bedrijf of door"
 " de werknemer"
+=======
+"Geef aan of de kosten voor dit rapport zijn betaald door het bedrijf of door "
+"de werknemer"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
@@ -2530,10 +2605,20 @@ msgstr "Scan deze QR-code om de Odoo-app te krijgen:"
 #: model:ir.model.fields,help:hr_expense.field_res_users__expense_manager_id
 msgid ""
 "Select the user responsible for approving \"Expenses\" of this employee.\n"
+<<<<<<< HEAD
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
 msgstr ""
 "Selecteer de gebruiker die verantwoordelijk is voor het goedkeuren van \"declaraties\" van deze werknemer.\n"
 "Indien leeg, wordt de goedkeuring gedaan door een Beheerder of Goedkeurder (bepaald in instellingen / gebruikers)."
+=======
+"If empty, the approval is done by an Administrator or Approver (determined "
+"in settings/users)."
+msgstr ""
+"Selecteer de gebruiker die verantwoordelijk is voor het goedkeuren van "
+"\"declaraties\" van deze werknemer.\n"
+"Indien leeg, wordt de goedkeuring gedaan door een Beheerder of Goedkeurder "
+"(bepaald in instellingen / gebruikers)."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__selectable_payment_method_line_ids
@@ -2550,8 +2635,13 @@ msgid ""
 "subject to set it on the expense too."
 msgstr ""
 "Stuur een e-mail naar deze e-mailalias met het kassabon in bijlage om met "
+<<<<<<< HEAD
 "één klik een onkostennota te maken. Als het eerste woord van het "
 "e-mailonderwerp de interne referentie van de categorie of de categorienaam "
+=======
+"één klik een onkostennota te maken. Als het eerste woord van het e-"
+"mailonderwerp de interne referentie van de categorie of de categorienaam "
+>>>>>>> upstream/18.0
 "bevat, wordt automatisch de bijbehorende categorie ingesteld. Typ het "
 "declaratiebedrag in het e-mailonderwerp om het ook op de declaratie in te "
 "stellen."
@@ -2587,12 +2677,15 @@ msgstr "Toon alle records welke een actiedatum voor vandaag hebben"
 
 #. module: hr_expense
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "Show missing work email employees"
 msgstr "Toon werknemers met ontbrekende werkmail"
 
 #. module: hr_expense
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__accounting_date
@@ -2647,7 +2740,11 @@ msgid ""
 msgstr ""
 "Status gebaseerd op activiteiten\n"
 "Te laat: Datum is al gepasseerd\n"
+<<<<<<< HEAD
 "Vandaag: Activiteit datum is vandaag\n"
+=======
+"Vandaag: Datum van activiteit is vandaag\n"
+>>>>>>> upstream/18.0
 "Gepland: Toekomstige activiteiten."
 
 #. module: hr_expense
@@ -2744,8 +2841,12 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_res_company__expense_journal_id
 #: model:ir.model.fields,help:hr_expense.field_res_config_settings__expense_journal_id
+<<<<<<< HEAD
 msgid ""
 "The company's default journal used when an employee expense is created."
+=======
+msgid "The company's default journal used when an employee expense is created."
+>>>>>>> upstream/18.0
 msgstr ""
 "Het standaarddagboek van het bedrijf dat wordt gebruikt wanneer een "
 "personeelskosten wordt gemaakt."
@@ -2760,8 +2861,13 @@ msgstr ""
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid ""
+<<<<<<< HEAD
 "The first word of the email subject did not correspond to any category code."
 " You'll have to set the category manually on the expense."
+=======
+"The first word of the email subject did not correspond to any category code. "
+"You'll have to set the category manually on the expense."
+>>>>>>> upstream/18.0
 msgstr ""
 "Het eerste woord van het onderwerp van de e-mail kwam niet overeen met een "
 "categoriecode. Je moet de categorie handmatig instellen op de declaratie."
@@ -2807,6 +2913,7 @@ msgstr "De som van na split-shut blijft hetzelfde"
 #. module: hr_expense
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
 "The work email of some employees is missing. Please add it on the employee "
@@ -2819,14 +2926,21 @@ msgstr ""
 #. odoo-python
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/product_product.py:0
 msgid ""
 "There are unsubmitted expenses linked to this category. Updating the "
 "category cost will change expense amounts. Make sure it is what you want to "
 "do."
 msgstr ""
+<<<<<<< HEAD
 "Er zijn nog niet ingediende declaraties gekoppeld aan deze categorie. Als je"
 " de categoriekosten bijwerkt, veranderen de declaratiebedragen. Zorg ervoor "
+=======
+"Er zijn nog niet ingediende declaraties gekoppeld aan deze categorie. Als je "
+"de categoriekosten bijwerkt, veranderen de declaratiebedragen. Zorg ervoor "
+>>>>>>> upstream/18.0
 "dat dit is wat je wilt doen."
 
 #. module: hr_expense
@@ -2841,8 +2955,12 @@ msgid ""
 "This expense report is empty. You cannot submit or approve an empty expense "
 "report."
 msgstr ""
+<<<<<<< HEAD
 "Deze declaratie is leeg. Je kunt geen leeg declaratie indienen of "
 "goedkeuren."
+=======
+"Deze declaratie is leeg. Je kunt geen leeg declaratie indienen of goedkeuren."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:digest.tip,name:hr_expense.digest_tip_hr_expense_0
@@ -3024,6 +3142,7 @@ msgstr "Website communicatie geschiedenis"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid ""
+<<<<<<< HEAD
 "When the cost of an expense product is different than 0, then the user"
 "                                             using this product won't be "
 "able to change the amount of the expense,"
@@ -3041,6 +3160,26 @@ msgstr ""
 "                                            het bedrijf worden gefinancierd "
 "tegen vaste kosten, zoals kilometervergoedingen, dagvergoedingen, "
 "huisvesting                                             of maaltijden."
+=======
+"When the cost of an expense product is different than 0, then the "
+"user                                             using this product won't be "
+"able to change the amount of the "
+"expense,                                             only the quantity. Use "
+"a cost different than 0 for expense categories funded "
+"by                                             the company at fixed cost "
+"like allowances for mileage, per diem, "
+"accommodation                                             or meal."
+msgstr ""
+"Als de kosten van een declaratieproduct anders zijn dan 0, dan kan de "
+"gebruiker                                             dit product gebruikt "
+"het bedrag van de declaratie niet "
+"wijzigen,                                             alleen het aantal. "
+"Gebruik een kostprijs anders dan 0 voor declaratiecategorieën die "
+"door                                            het bedrijf worden "
+"gefinancierd tegen vaste kosten, zoals kilometervergoedingen, "
+"dagvergoedingen, huisvesting                                             of "
+"maaltijden."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__product_has_tax
@@ -3103,8 +3242,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "You cannot cancel an expense sheet linked to a posted journal entry"
+<<<<<<< HEAD
 msgstr ""
 "Je kunt een declaratie die aan een boeking is gekoppeld niet annuleren"
+=======
+msgstr "Je kunt een declaratie die aan een boeking is gekoppeld niet annuleren"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -3138,8 +3281,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_expense/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete only some entries linked to an expense report. All entries"
 " must be deleted at the same time."
+=======
+"You cannot delete only some entries linked to an expense report. All entries "
+"must be deleted at the same time."
+>>>>>>> upstream/18.0
 msgstr ""
 "Je kunt niet slechts bepaalde boekingen gekoppeld aan een declaratie "
 "verwijderen. Alle boekingen moeten tegelijkertijd worden verwijderd."
@@ -3216,8 +3364,12 @@ msgstr "Je kunt dezelfde regel niet twee keer rapporteren!"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot set the expense total in currency to 0 if it's linked to a "
 "report."
+=======
+"You cannot set the expense total in currency to 0 if it's linked to a report."
+>>>>>>> upstream/18.0
 msgstr ""
 "Je kunt het declaratietotaal in valuta niet op 0 instellen als het aan een "
 "rapport is gekoppeld."
@@ -3249,6 +3401,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3261,11 +3414,24 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: code:addons/hr_expense/models/hr_expense.py:0
+msgid ""
+"You don't have the rights to attach a document to a submitted expense. "
+"Please reset the expense report to draft first."
+msgstr ""
+"Je hebt niet de rechten om een document aan een ingediende onkostennota toe "
+"te voegen. Zet het onkostendossier eerst terug naar conceptstatus."
+
+#. module: hr_expense
+#. odoo-python
 >>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
 "You don't have the rights to bypass the validation process of this expense "
 "report."
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3282,6 +3448,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Je kunt het validatieproces van deze onkostendeclaratie niet omzeilen."
+>>>>>>> upstream/18.0
+=======
+msgstr "Je kunt het validatieproces van deze onkostendeclaratie niet omzeilen."
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -3293,6 +3462,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr_expense
@@ -3305,6 +3475,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3318,6 +3490,9 @@ msgstr "Je kunt het validatieproces van deze kosten niet omzeilen."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3333,15 +3508,24 @@ msgstr "Je hebt geen declaraties in te dienen"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You need to add a manual payment method on the journal (%s)"
+<<<<<<< HEAD
 msgstr ""
 "Je moet een handmatige betalingsmethode toevoegen aan het dagboek (%s)"
+=======
+msgstr "Je moet een handmatige betalingsmethode toevoegen aan het dagboek (%s)"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
+<<<<<<< HEAD
 "You need to have at least one category that can be expensed in your database"
 " to proceed!"
+=======
+"You need to have at least one category that can be expensed in your database "
+"to proceed!"
+>>>>>>> upstream/18.0
 msgstr ""
 "Je moet minstens één categorie hebben die in je database kan worden "
 "opgenomen om door te gaan!"
