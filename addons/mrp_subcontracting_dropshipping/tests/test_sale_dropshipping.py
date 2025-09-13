@@ -303,7 +303,10 @@ class TestSaleDropshippingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -387,6 +390,7 @@ class TestSaleDropshippingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -415,6 +419,8 @@ class TestSaleDropshippingFlows(TestMrpSubcontractingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_dropship_standard_perpetual_anglosaxon_ordered_return_internal_aml(self):
         """
@@ -484,4 +490,7 @@ class TestSaleDropshippingFlows(TestMrpSubcontractingCommon):
             {'credit': 10, 'debit': 0, 'account_id': stock_interim_delivered.id},
             {'credit': 0, 'debit': 10, 'account_id': stock_valuation_account.id},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

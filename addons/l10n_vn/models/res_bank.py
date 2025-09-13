@@ -66,6 +66,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import re
+
+>>>>>>> upstream/18.0
 =======
 import re
 
@@ -356,6 +361,7 @@ class ResPartnerBank(models.Model):
         super(ResPartnerBank, self - bank_vn)._compute_display_qr_setting()
 
     def _get_merchant_account_info(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
         if self.country_code == 'VN':
             proxy_type_mapping = {
@@ -707,6 +713,8 @@ class ResPartnerBank(models.Model):
         return super()._get_additional_data_field(comment)
 
 =======
+=======
+>>>>>>> upstream/18.0
 
         proxy_type_mapping = {
             'merchant_id': 'QRPUSH',
@@ -742,6 +750,9 @@ class ResPartnerBank(models.Model):
             res[8] = (60, merchant_city)
         return res
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_error_messages_for_qr(self, qr_method, debtor_partner, currency):
         if qr_method == 'emv_qr' and self.country_code == 'VN':
@@ -756,11 +767,14 @@ class ResPartnerBank(models.Model):
 
     def _check_for_qr_code_errors(self, qr_method, amount, currency, debtor_partner, free_communication, structured_communication):
 <<<<<<< HEAD
+<<<<<<< HEAD
         if qr_method == 'emv_qr' and self.country_code == 'VN' and self.proxy_type not in ['merchant_id', 'payment_service', 'atm_card', 'bank_acc']:
             return _("The proxy type %s is not supported for Vietnamese partners. It must be either Merchant ID, ATM Card Number or Bank Account", self.proxy_type)
 
         return super()._check_for_qr_code_errors(qr_method, amount, currency, debtor_partner, free_communication, structured_communication)
 =======
+=======
+>>>>>>> upstream/18.0
         if qr_method != 'emv_qr' or self.country_code != 'VN':
             return super()._check_for_qr_code_errors(qr_method, amount, currency, debtor_partner, free_communication, structured_communication)
 
@@ -774,4 +788,7 @@ class ResPartnerBank(models.Model):
             return _("Missing Proxy Value.")
         if not self._get_merchant_account_info():
             return _("Missing Merchant Account Information.")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

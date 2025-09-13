@@ -1,6 +1,11 @@
 # coding: utf-8
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
+=======
+import json
+from base64 import b64decode
+>>>>>>> upstream/18.0
 =======
 import json
 from base64 import b64decode
@@ -13,6 +18,7 @@ from odoo.addons.account_edi.tests.common import AccountEdiTestCommon
 
 @tagged('post_install_l10n', '-at_install', 'post_install')
 class TestSaEdiCommon(AccountEdiTestCommon):
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     @classmethod
@@ -174,6 +180,8 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     """
     Base test class for Saudi Arabia EDI functionality.
 
@@ -334,6 +342,9 @@ class TestSaEdiCommon(AccountEdiTestCommon):
         # Common replacements for all document types
         common_replacements = '''
             <xpath expr="(//*[local-name()='Invoice']/*[local-name()='ID'])[1]" position="replace">
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
             </xpath>
@@ -347,11 +358,17 @@ class TestSaEdiCommon(AccountEdiTestCommon):
                 <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
             </xpath>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         '''
 
         # Invoice-specific replacements
         cls.invoice_applied_xpath = common_replacements + '''
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             <xpath expr="//*[local-name()='PaymentMeans']/*[local-name()='InstructionID']" position="replace">
                 <cbc:InstructionID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:InstructionID>
@@ -361,6 +378,7 @@ class TestSaEdiCommon(AccountEdiTestCommon):
             </xpath>
             <xpath expr="//*[local-name()='InvoiceLine']/*[local-name()='ID']" position="replace">
                 <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -473,11 +491,16 @@ class TestSaEdiCommon(AccountEdiTestCommon):
                 <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
             </xpath>
 =======
+=======
+>>>>>>> upstream/18.0
             </xpath>
         '''
 
         # Credit note specific replacements
         cls.credit_note_applied_xpath = common_replacements + '''
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             <xpath expr="(//*[local-name()='OrderReference']/*[local-name()='ID'])[1]" position="replace">
                 <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
@@ -493,6 +516,7 @@ class TestSaEdiCommon(AccountEdiTestCommon):
             </xpath>
             <xpath expr="//*[local-name()='InvoiceLine']/*[local-name()='ID']" position="replace">
                 <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -708,6 +732,8 @@ class TestSaEdiCommon(AccountEdiTestCommon):
         reverse_move.state = 'posted'
         return reverse_move
 =======
+=======
+>>>>>>> upstream/18.0
             </xpath>
         '''
 
@@ -864,4 +890,7 @@ class TestSaEdiCommon(AccountEdiTestCommon):
         reversal = move_reversal.reverse_moves()
 
         return self.env['account.move'].browse(reversal['res_id'])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

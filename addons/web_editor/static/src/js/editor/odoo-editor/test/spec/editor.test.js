@@ -28,11 +28,17 @@ async function twoDeleteForward(editor) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 const pressEnter = editor => {
     editor.document.execCommand('insertParagraph');
 };
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 describe('Editor', () => {
     describe('init', () => {
@@ -1244,7 +1250,10 @@ X[]
                 });
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             it('should not add a BR', async () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p><span class="h4-fs">[a]</span></p>',
@@ -1252,6 +1261,9 @@ X[]
                     contentAfter: '<p><span class="h4-fs">[]\u200b</span></p>',
                 });
             });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             it('should delete styling nodes when delete if empty', async () => {
                 // deleteBackward selection
@@ -1730,7 +1742,10 @@ X[]
                 });
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             it('should not delete text on the next container', async () => {
                 await testEditor(BasicEditor, {
                     contentBefore: unformat(`
@@ -1742,6 +1757,9 @@ X[]
                     contentAfter: '<p>keep<br>[]keep</p>',
                 });
             });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         });
     });
@@ -1942,7 +1960,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 it('should not break unbreakables', async () => {
+=======
+                it('should not break unbreakables (1)', async () => {
+>>>>>>> upstream/18.0
 =======
                 it('should not break unbreakables (1)', async () => {
 >>>>>>> upstream/18.0
@@ -2002,6 +2024,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (2)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (2)", async () => {
@@ -2074,6 +2101,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (3)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (3)", async () => {
@@ -2146,6 +2178,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (4)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (4)", async () => {
@@ -2217,6 +2254,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (5)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (5)", async () => {
@@ -2288,6 +2330,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (6)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (6)", async () => {
@@ -2367,6 +2414,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (7)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (7)", async () => {
@@ -2446,6 +2498,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (8)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (8)", async () => {
@@ -4503,7 +4560,10 @@ X[]
                     });
                 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 it('should keep the last line break in the old paragraph (1)', async () => {
                     await testEditor(BasicEditor, {
                         contentBefore: '<div><p>abc<br>[]<br></p></div>',
@@ -4539,6 +4599,9 @@ X[]
                         contentAfter: "<div><p><br><br></p><p>[]<br></p></div>",
                     });
                 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 it('should insert a paragraph break outside the starting edge of an anchor', async () => {
                     await testEditor(BasicEditor, {
@@ -6477,8 +6540,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             stepFunction: async editor => editor.execCommand('applyColor', 'aquamarine', 'color'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6728,6 +6794,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

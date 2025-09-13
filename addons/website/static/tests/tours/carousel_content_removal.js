@@ -106,10 +106,13 @@ registerWebsitePreviewTour(
         changeOption("GalleryElement", 'we-button[data-position="prev"]'),
         checkSlides(3, 2),
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...clickOnSave(),
         // Check that saving always sets the first slide as active.
         checkSlides(3, 1),
 =======
+=======
+>>>>>>> upstream/18.0
         // Ensure quickly adding/removing slides doesn’t give a traceback
         // (Includes delays to better simulate real user interactions and
         // expose potential race conditions.)
@@ -140,6 +143,9 @@ registerWebsitePreviewTour(
         ...clickOnSave(),
         // Check that saving always sets the first slide as active.
         checkSlides(4, 1),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     ]
 );

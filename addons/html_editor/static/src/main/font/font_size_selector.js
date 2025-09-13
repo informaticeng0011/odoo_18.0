@@ -10,6 +10,7 @@ import { useDebounced } from "@web/core/utils/timing";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { cookie } from "@web/core/browser/cookie";
 import { getCSSVariableValue, getHtmlStyle } from "@html_editor/utils/formatting";
@@ -31,10 +32,15 @@ import { cookie } from "@web/core/browser/cookie";
 import { getCSSVariableValue, getHtmlStyle } from "@html_editor/utils/formatting";
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 import { cookie } from "@web/core/browser/cookie";
 import { getCSSVariableValue, getHtmlStyle } from "@html_editor/utils/formatting";
 import { useDropdownAutoVisibility } from "@html_editor/dropdown_autovisibility_hook";
 import { useChildRef } from "@web/core/utils/hooks";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 const MAX_FONT_SIZE = 144;
@@ -46,6 +52,7 @@ export class FontSizeSelector extends Component {
         getDisplay: Function,
         onFontSizeInput: Function,
         onSelected: Function,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71,6 +78,10 @@ export class FontSizeSelector extends Component {
         onBlur: { type: Function, optional: true },
         document: { validate: (p) => p.nodeType === Node.DOCUMENT_NODE },
 >>>>>>> upstream/18.0
+=======
+        onBlur: { type: Function, optional: true },
+        document: { validate: (p) => p.nodeType === Node.DOCUMENT_NODE },
+>>>>>>> upstream/18.0
         ...toolbarButtonProps,
     };
     static components = { Dropdown, DropdownItem };
@@ -80,6 +91,11 @@ export class FontSizeSelector extends Component {
         this.state = useState(this.props.getDisplay());
         this.dropdown = useDropdownState();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.menuRef = useChildRef();
+        useDropdownAutoVisibility(this.env.overlayState, this.menuRef);
+>>>>>>> upstream/18.0
 =======
         this.menuRef = useChildRef();
         useDropdownAutoVisibility(this.env.overlayState, this.menuRef);
@@ -89,6 +105,7 @@ export class FontSizeSelector extends Component {
 
         onMounted(() => {
             const iframeEl = this.iframeContentRef.el;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,6 +380,8 @@ export class FontSizeSelector extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
             const initFontSizeInput = () => {
                 const iframeDoc = iframeEl.contentWindow.document;
@@ -379,7 +398,10 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -402,6 +424,9 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -429,6 +454,11 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    backgroundColor: backgroundColor,
+                    color: color,
+>>>>>>> upstream/18.0
 =======
                     backgroundColor: backgroundColor,
                     color: color,
@@ -571,6 +601,9 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -739,6 +772,7 @@ export class FontSizeSelector extends Component {
         );
         useEffect(
             () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1230,6 +1264,8 @@ export class FontSizeSelector extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
                 if (this.fontSizeInput) {
                     // Focus input on dropdown open, blur on close.
                     if (this.dropdown.isOpen) {
@@ -1241,6 +1277,9 @@ export class FontSizeSelector extends Component {
                         this.props.onBlur?.();
                     }
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             },
             () => [this.dropdown.isOpen]
@@ -1340,6 +1379,10 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.fontSizeInput.focus();
+>>>>>>> upstream/18.0
 =======
         this.fontSizeInput.focus();
 >>>>>>> upstream/18.0

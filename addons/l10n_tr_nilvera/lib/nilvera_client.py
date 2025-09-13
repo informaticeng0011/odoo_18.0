@@ -3,7 +3,10 @@ import requests
 from datetime import datetime
 from json import JSONDecodeError
 <<<<<<< HEAD
+<<<<<<< HEAD
 from pprint import pformat
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -64,7 +67,11 @@ class NilveraClient:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.error("Network error during request: %s", e)
+=======
+            _logger.info("Network error during request: %s", e)
+>>>>>>> upstream/18.0
 =======
             _logger.info("Network error during request: %s", e)
 >>>>>>> upstream/18.0
@@ -119,6 +126,7 @@ class NilveraClient:
     def _log_request(self, method, start, end, url, params, json, response):
         _logger.info(
 <<<<<<< HEAD
+<<<<<<< HEAD
             "%(method)s\nstart=%(start)s\nend=%(end)s\nurl=%(url)s\nparams=%(params)s\njson=%(json)s\nresponse=%(response)s",
             {
                 "method": method,
@@ -129,12 +137,17 @@ class NilveraClient:
                 "json": pformat(json),
                 "response": pformat(response),
 =======
+=======
+>>>>>>> upstream/18.0
             '"%(method)s %(url)s" %(status)s %(duration).3f',
             {
                 'method': method,
                 'url': url,
                 'status': response.status_code,
                 'duration': (end - start).total_seconds(),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             },
         )

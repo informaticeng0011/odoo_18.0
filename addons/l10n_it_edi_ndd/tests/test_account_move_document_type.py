@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
 from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo import Command
 from odoo.tests import tagged
 from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 from odoo.addons.l10n_it_edi.tests.test_edi_reverse_charge import TestItEdiReverseCharge
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -47,7 +53,10 @@ class TestItAccountMoveDocumentType(TestItEdi):
         credit_note_y = invoice_y.reversal_move_ids[0]
         self.assertEqual(credit_note_y.l10n_it_document_type, dt_credit_note)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 
 @tagged('post_install_l10n', 'post_install', '-at_install')
@@ -98,4 +107,7 @@ class TestItReverseChargeDocumentType(TestItEdiReverseCharge):
         credit_note.action_post()
 
         self._assert_export_invoice(credit_note, 'credit_note_export_document_type.xml')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -101,12 +101,18 @@ class MarketingCardController(Controller):
 
         campaign_sudo = card.sudo().campaign_id
 <<<<<<< HEAD
+<<<<<<< HEAD
         redirect_url = campaign_sudo.link_tracker_id.short_url or campaign_sudo.target_url or campaign_sudo.get_base_url()
 =======
+=======
+>>>>>>> upstream/18.0
         # don't count clicks from preview
         redirect_url = campaign_sudo.target_url or campaign_sudo.get_base_url()
         if card.active:
             redirect_url = campaign_sudo.link_tracker_id.short_url or redirect_url
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         if _is_crawler(request):

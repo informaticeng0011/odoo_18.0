@@ -33,6 +33,10 @@ class Certificate(models.Model):
 
         company_id = journal.company_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        parent_company_id = journal.company_id.parent_id
+>>>>>>> upstream/18.0
 =======
         parent_company_id = journal.company_id.parent_id
 >>>>>>> upstream/18.0
@@ -42,6 +46,7 @@ class Certificate(models.Model):
             # Country Name
             (NameOID.COUNTRY_NAME, company_id.country_id.code),
             # Organization Unit Name
+<<<<<<< HEAD
 <<<<<<< HEAD
             (NameOID.ORGANIZATIONAL_UNIT_NAME, (company_id.vat or '')[:10]),
             # Organization Name
@@ -91,6 +96,8 @@ class Certificate(models.Model):
             # Organization Identifier
             (ObjectIdentifier('2.5.4.97'), company_id.vat),
 =======
+=======
+>>>>>>> upstream/18.0
             (NameOID.ORGANIZATIONAL_UNIT_NAME, company_id.name if parent_company_id else company_id.vat[:10]),
             # Organization Name
             (NameOID.ORGANIZATION_NAME, parent_company_id.name if parent_company_id else company_id.name),
@@ -98,6 +105,9 @@ class Certificate(models.Model):
             (NameOID.COMMON_NAME, "%s-%s-%s" % (journal.code, journal.name, company_id.name)),
             # Organization Identifier
             (ObjectIdentifier('2.5.4.97'), parent_company_id.vat if parent_company_id else company_id.vat),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             # State/Province Name
             (NameOID.STATE_OR_PROVINCE_NAME, company_id.state_id.name),
@@ -116,7 +126,11 @@ class Certificate(models.Model):
                 # To be written in the following format: "1-... |2-... |3-..."
                 x509.NameAttribute(ObjectIdentifier('2.5.4.4'), '1-Odoo|2-%s|3-%s' % (
 <<<<<<< HEAD
+<<<<<<< HEAD
                     version_info['server_version_info'][0], journal.l10n_sa_serial_number)),
+=======
+                    version_info['server_serie'], journal.l10n_sa_serial_number)),
+>>>>>>> upstream/18.0
 =======
                     version_info['server_serie'], journal.l10n_sa_serial_number)),
 >>>>>>> upstream/18.0

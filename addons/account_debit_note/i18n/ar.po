@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* account_debit_note
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-05 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2024\n"
@@ -39,6 +48,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_debit_note
@@ -60,8 +72,13 @@ msgstr "إلغاء"
 #: model:ir.model.fields,help:account_debit_note.field_account_journal__debit_sequence
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Check this box if you don't want to share the same sequence for invoices and"
 " debit notes made from this journal"
+=======
+"Check this box if you don't want to share the same sequence for invoices and "
+"debit notes made from this journal"
+>>>>>>> upstream/18.0
 =======
 "Check this box if you don't want to share the same sequence for invoices and "
 "debit notes made from this journal"
@@ -219,7 +236,11 @@ msgstr "الإشعارات المدينة التي تم إنشاؤها لهذه 
 #. module: account_debit_note
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
+=======
+#: code:addons/account_debit_note/models/account_move.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/account_debit_note/models/account_move.py:0
 >>>>>>> upstream/18.0
@@ -252,8 +273,13 @@ msgstr "يمكنك فقط خصم الحركات المُرحّلة. "
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't make a debit note for an invoice that is already linked to a debit"
 " note."
+=======
+"You can't make a debit note for an invoice that is already linked to a debit "
+"note."
+>>>>>>> upstream/18.0
 =======
 "You can't make a debit note for an invoice that is already linked to a debit "
 "note."

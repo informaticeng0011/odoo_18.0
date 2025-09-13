@@ -580,7 +580,11 @@ class HrEmployeePrivate(models.Model):
             user_fields_to_empty = self._get_user_m2o_to_empty_on_archived_employees()
             employee_domain = [[(field, 'in', archived_employees.ids)] for field in employee_fields_to_empty]
 <<<<<<< HEAD
+<<<<<<< HEAD
             user_domain = [[(field, 'in', archived_employees.user_id.ids) for field in user_fields_to_empty]]
+=======
+            user_domain = [[(field, 'in', archived_employees.user_id.ids)] for field in user_fields_to_empty]
+>>>>>>> upstream/18.0
 =======
             user_domain = [[(field, 'in', archived_employees.user_id.ids)] for field in user_fields_to_empty]
 >>>>>>> upstream/18.0

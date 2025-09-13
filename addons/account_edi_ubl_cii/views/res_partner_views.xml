@@ -8,6 +8,7 @@
                 <label for="peppol_eas" string="Peppol Address" invisible="1"/> <!-- TODO remove in master -->
                 <div id="peppol_address" class="row" invisible="1"/> <!-- TODO remove in master -->
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="peppol_eas"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,12 +364,17 @@
 >>>>>>> upstream/18.0
                        nolabel="1"
 =======
+=======
+>>>>>>> upstream/18.0
                 <field name="available_peppol_eas" invisible="1"/>
                 <field name="peppol_eas"
                        placeholder="Peppol ID"
                        nolabel="1"
                        widget="filterable_selection"
                        options="{'whitelist_fname': 'available_peppol_eas'}"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                        class="o_field_peppol_eas_selection"/>
                 <field name="peppol_endpoint" nolabel="1" placeholder="Your endpoint"/>

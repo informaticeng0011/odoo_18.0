@@ -4,7 +4,11 @@
 from datetime import timedelta
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields
+=======
+from odoo import fields, Command
+>>>>>>> upstream/18.0
 =======
 from odoo import fields, Command
 >>>>>>> upstream/18.0
@@ -184,7 +188,10 @@ class TestSaleMrpLeadTime(TestStockCommon):
             msg="Deadline date of manufacturing order should be equal to the deadline of sale picking"
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_mutiple_resupply_warehouse_delays(self):
         """
@@ -225,4 +232,7 @@ class TestSaleMrpLeadTime(TestStockCommon):
         })
         order.action_confirm()
         self.assertEqual(order.mrp_production_ids.date_finished, order.date_order - timedelta(days=3))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

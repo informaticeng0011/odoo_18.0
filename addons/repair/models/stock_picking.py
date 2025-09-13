@@ -181,7 +181,12 @@ class PickingType(models.Model):
         picking_type_id_to_dates = {i: [] for i in repair_picking_types.ids}
         picking_type_id_to_dates.update({r[0].id: r[1] for r in repair_records})
 <<<<<<< HEAD
+<<<<<<< HEAD
         repair_records = [(i, d, _('Confirmed')) for i, d in picking_type_id_to_dates.items()]
+=======
+        label = self.env._('Confirmed')
+        repair_records = [(i, d, label) for i, d in picking_type_id_to_dates.items()]
+>>>>>>> upstream/18.0
 =======
         label = self.env._('Confirmed')
         repair_records = [(i, d, label) for i, d in picking_type_id_to_dates.items()]

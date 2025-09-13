@@ -6,6 +6,10 @@
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -49,7 +57,11 @@ msgstr "A fost creată o nouă comandă."
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order__amount_unpaid
 msgid "Amount To Pay In POS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Suma de plată în POS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suma de plată în POS"
 >>>>>>> upstream/18.0
@@ -59,6 +71,10 @@ msgstr "Suma de plată în POS"
 msgid "Amount left to pay in POS to avoid double payment or double invoicing."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Suma rămasă de plată în POS pentru a evita plata sau facturarea dublă."
+>>>>>>> upstream/18.0
 =======
 "Suma rămasă de plată în POS pentru a evita plata sau facturarea dublă."
 >>>>>>> upstream/18.0
@@ -68,7 +84,11 @@ msgstr ""
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Apply a down payment (fixed amount)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aplicați un avans (sumă fixă)"
+=======
+msgstr "Aplică un avans (sumă fixă)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aplică un avans (sumă fixă)"
 >>>>>>> upstream/18.0
@@ -78,7 +98,11 @@ msgstr "Aplică un avans (sumă fixă)"
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Apply a down payment (percentage)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aplicați un avans (procent)"
+=======
+msgstr "Aplică un avans (procent)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aplică un avans (procent)"
 >>>>>>> upstream/18.0
@@ -92,7 +116,11 @@ msgstr "Setări de configurare"
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order__currency_rate
 msgid "Currency Rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Curs Valutar"
+=======
+msgstr "Curs valutar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Curs valutar"
 >>>>>>> upstream/18.0
@@ -106,7 +134,11 @@ msgstr "Livrat din"
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__qty_delivered
 msgid "Delivery Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cantitate de livrare"
+=======
+msgstr "Cantitate livrată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cantitate livrată"
 >>>>>>> upstream/18.0
@@ -127,7 +159,11 @@ msgstr "Plată în avans"
 #: model:product.template,name:pos_sale.default_downpayment_product_product_template
 msgid "Down Payment (POS)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Plată avans (POS)"
+=======
+msgstr "Plată în avans (POS)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plată în avans (POS)"
 >>>>>>> upstream/18.0
@@ -136,7 +172,11 @@ msgstr "Plată în avans (POS)"
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__down_payment_details
 msgid "Down Payment Details"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Detalii plată avans"
+=======
+msgstr "Detalii plată în avans"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detalii plată în avans"
 >>>>>>> upstream/18.0
@@ -147,7 +187,11 @@ msgstr "Detalii plată în avans"
 #: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
 msgid "Down Payment Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Produs cu plată în avans"
+=======
+msgstr "Produs pentru plată în avans"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produs pentru plată în avans"
 >>>>>>> upstream/18.0
@@ -160,6 +204,11 @@ msgid ""
 " %(date)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Plată în avans (ref: %(order_reference)s din \n"
+" %(date)s)"
+>>>>>>> upstream/18.0
 =======
 "Plată în avans (ref: %(order_reference)s din \n"
 " %(date)s)"
@@ -170,7 +219,11 @@ msgstr ""
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Due balance: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sold datorat: %s"
+=======
+msgstr "Sold de plată: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sold de plată: %s"
 >>>>>>> upstream/18.0
@@ -180,7 +233,11 @@ msgstr "Sold de plată: %s"
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Error amount too high"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoarea erorii este prea mare"
+=======
+msgstr "Suma este prea mare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suma este prea mare"
 >>>>>>> upstream/18.0
@@ -203,8 +260,14 @@ msgid ""
 "sale. You can go to your point of sale configuration to choose one."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se pare că nu ați configurat un produs  Avans în punctul de vânzare. Puteți "
 "merge la configurarea punctului de vânzare pentru a crea unul."
+=======
+"Se pare că nu ați configurat un produs pentru plată în avans în punctul de "
+"vânzare. Puteți merge la configurarea punctului de vânzare pentru a alege "
+"unul."
+>>>>>>> upstream/18.0
 =======
 "Se pare că nu ați configurat un produs pentru plată în avans în punctul de "
 "vânzare. Puteți merge la configurarea punctului de vânzare pentru a alege "
@@ -221,7 +284,11 @@ msgstr "Comenzi POS asociate"
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_origin_id
 msgid "Linked Sale Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comanda de vânzare asociată"
+=======
+msgstr "Comandă de vânzare asociată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comandă de vânzare asociată"
 >>>>>>> upstream/18.0
@@ -237,7 +304,11 @@ msgstr "Comenzi de vânzare asociate"
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "No down payment product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu exista produsul plata în avans"
+=======
+msgstr "Nu există produs pentru plată în avans"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există produs pentru plată în avans"
 >>>>>>> upstream/18.0
@@ -268,7 +339,11 @@ msgstr "Comandă"
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order_line__pos_order_line_ids
 msgid "Order lines Transfered to Point of Sale"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linii comandă transferata către Punctul de vânzare"
+=======
+msgstr "Linii de comandă transferate către Punctul de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linii de comandă transferate către Punctul de vânzare"
 >>>>>>> upstream/18.0
@@ -328,7 +403,11 @@ msgstr "Variantă de produs"
 #: code:addons/pos_sale/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "Quotation/Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Oferte/Comenzi vânzare"
+=======
+msgstr "Ofertă/Comandă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ofertă/Comandă"
 >>>>>>> upstream/18.0
@@ -338,7 +417,11 @@ msgstr "Ofertă/Comandă"
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "SN/Lots Loading"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "SN/Lots Încărcare"
+=======
+msgstr "Încărcare SN/Loturi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Încărcare SN/Loturi"
 >>>>>>> upstream/18.0
@@ -348,7 +431,11 @@ msgstr "Încărcare SN/Loturi"
 #: code:addons/pos_sale/static/src/overrides/components/orderline/orderline.xml:0
 msgid "SO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "SO"
+=======
+msgstr "CV"
+>>>>>>> upstream/18.0
 =======
 msgstr "CV"
 >>>>>>> upstream/18.0
@@ -357,7 +444,11 @@ msgstr "CV"
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order__sale_order_count
 msgid "Sale Order Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul comenzilor de vânzare"
+=======
+msgstr "Număr comenzi de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr comenzi de vânzare"
 >>>>>>> upstream/18.0
@@ -371,7 +462,11 @@ msgstr "Vânzări"
 #: model:ir.model,name:pos_sale.model_sale_report
 msgid "Sales Analysis Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raport de analiză a vânzărilor"
+=======
+msgstr "Raport analiză vânzări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport analiză vânzări"
 >>>>>>> upstream/18.0
@@ -399,7 +494,11 @@ msgstr "Echipă de vânzări"
 #: model:ir.model.fields,field_description:pos_sale.field_res_config_settings__pos_crm_team_id
 msgid "Sales Team (PoS)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Echipa de vânzări (PoS)"
+=======
+msgstr "Echipă de vânzări (POS)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Echipă de vânzări (POS)"
 >>>>>>> upstream/18.0
@@ -413,7 +512,11 @@ msgstr "Vânzările sunt raportate următoarei echipe de vânzări"
 #: model_terms:ir.ui.view,arch_db:pos_sale.crm_team_view_kanban_dashboard
 msgid "Session Running"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sesiune în curs"
+=======
+msgstr "Sesiune în desfășurare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sesiune în desfășurare"
 >>>>>>> upstream/18.0
@@ -422,7 +525,11 @@ msgstr "Sesiune în desfășurare"
 #: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_order_amount_total
 msgid "Session Sale Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Suma de vânzare a sesiunii"
+=======
+msgstr "Sumă vânzare sesiune"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumă vânzare sesiune"
 >>>>>>> upstream/18.0
@@ -431,7 +538,11 @@ msgstr "Sumă vânzare sesiune"
 #: model_terms:ir.ui.view,arch_db:pos_sale.crm_team_view_kanban_dashboard
 msgid "Sessions Running"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sesiuni în curs"
+=======
+msgstr "Sesiuni în desfășurare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sesiuni în desfășurare"
 >>>>>>> upstream/18.0
@@ -441,7 +552,11 @@ msgstr "Sesiuni în desfășurare"
 #: code:addons/pos_sale/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "Set Sale Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Setați comanda de vânzare"
+=======
+msgstr "Setează comandă de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează comandă de vânzare"
 >>>>>>> upstream/18.0
@@ -451,7 +566,11 @@ msgstr "Setează comandă de vânzare"
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Settle the order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Preia comand în POS"
+=======
+msgstr "Încasează comanda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Încasează comanda"
 >>>>>>> upstream/18.0
@@ -460,7 +579,11 @@ msgstr "Încasează comanda"
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_line_id
 msgid "Source Sale Order Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sursă Vânzare Linia comandă"
+=======
+msgstr "Linie sursă comandă de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linie sursă comandă de vânzare"
 >>>>>>> upstream/18.0
@@ -476,7 +599,11 @@ msgid ""
 "The rate of the currency to the currency of rate applicable at the date of "
 "the order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rata monedei la moneda de curs aplicabilă la data comenzii"
+=======
+msgstr "Rata monedei față de moneda de referință la data comenzii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rata monedei față de moneda de referință la data comenzii"
 >>>>>>> upstream/18.0
@@ -494,7 +621,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
 msgid "This product will be applied when down payment is made"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Acest produs va fi utilizat la încasarea avansului"
+=======
+msgstr "Acest produs va fi aplicat la plata avansului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acest produs va fi aplicat la plata avansului"
 >>>>>>> upstream/18.0
@@ -504,7 +635,11 @@ msgstr "Acest produs va fi aplicat la plata avansului"
 #: model:ir.model.fields,help:pos_sale.field_res_config_settings__pos_down_payment_product_id
 msgid "This product will be used as down payment on a sale order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Acest produs va fi utilizat ca avans pentru comandă de vânzare."
+=======
+msgstr "Acest produs va fi folosit ca avans la o comandă de vânzare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Acest produs va fi folosit ca avans la o comandă de vânzare."
 >>>>>>> upstream/18.0
@@ -521,6 +656,11 @@ msgid ""
 "                                from Sale"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Transferat<br/>\n"
+"                                din Vânzare"
+>>>>>>> upstream/18.0
 =======
 "Transferat<br/>\n"
 "                                din Vânzare"
@@ -533,6 +673,11 @@ msgid ""
 "                                to POS"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Transferat<br/>\n"
+"                                către POS"
+>>>>>>> upstream/18.0
 =======
 "Transferat<br/>\n"
 "                                către POS"
@@ -543,7 +688,11 @@ msgstr ""
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "What do you want to do?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ce dorești să faci?"
+=======
+msgstr "Ce doriți să faceți?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ce doriți să faceți?"
 >>>>>>> upstream/18.0
@@ -556,8 +705,13 @@ msgid ""
 "paid, %s will be applied to the purchase order line."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ați încercat să percepeți un avans de %s, dar mai rămâne de plătit doar %s, "
 "%s va fi aplicat la linia comenzii."
+=======
+"Ați încercat să încasați un avans de %s, dar mai rămâne de plătit doar %s, "
+"%s va fi aplicat la linia comenzii de achiziție."
+>>>>>>> upstream/18.0
 =======
 "Ați încercat să încasați un avans de %s, dar mai rămâne de plătit doar %s, "
 "%s va fi aplicat la linia comenzii de achiziție."

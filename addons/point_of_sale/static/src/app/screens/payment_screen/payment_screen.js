@@ -142,7 +142,10 @@ export class PaymentScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.pos.addPendingOrder([order.id]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -595,7 +598,11 @@ export class PaymentScreen extends Component {
         } catch (error) {
             if (error instanceof ConnectionLostError) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.pos.showScreen(this.nextScreen);
+=======
+                this.afterOrderValidation();
+>>>>>>> upstream/18.0
 =======
                 this.afterOrderValidation();
 >>>>>>> upstream/18.0
@@ -649,7 +656,10 @@ export class PaymentScreen extends Component {
                 if (this.pos.config.iface_print_skip_screen) {
                     this.currentOrder.set_screen_data({ name: "" });
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.currentOrder.uiState.locked = true;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     switchScreen = this.currentOrder.uuid === this.pos.selectedOrderUuid;
@@ -665,11 +675,17 @@ export class PaymentScreen extends Component {
             this.pos.showScreen(nextScreen);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         if (!this.pos.config.module_pos_restaurant) {
             this.pos.checkPreparationStateAndSentOrderInPreparation(this.currentOrder);
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     selectNextOrder() {
@@ -677,7 +693,11 @@ export class PaymentScreen extends Component {
             this.pos.selectedOrderUuid = this.currentOrder.originalSplittedOrder.uuid;
         } else {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.pos.add_new_order();
+=======
+            this.pos.selectEmptyOrder();
+>>>>>>> upstream/18.0
 =======
             this.pos.selectEmptyOrder();
 >>>>>>> upstream/18.0
@@ -892,7 +912,10 @@ export class PaymentScreen extends Component {
     async sendForceDone(line) {
         line.set_payment_status("done");
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         const config = this.pos.config;
         const currency = this.pos.currency;
         const currentOrder = line.pos_order_id;
@@ -903,6 +926,9 @@ export class PaymentScreen extends Component {
         ) {
             this.validateOrder(true);
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 

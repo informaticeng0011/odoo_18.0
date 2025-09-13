@@ -16,13 +16,19 @@ CII_NAMESPACES = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 # Imcomplete, full list on https://service.unece.org/trade/untdid/d16b/tred/tred4461.htm
 PAYMENT_MEAN_CODES = {
     'Payment to bank account': 42,
     'SEPA direct debit': 59
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class AccountEdiXmlCII(models.AbstractModel):
@@ -266,6 +272,7 @@ class AccountEdiXmlCII(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         template_values['billing_start'] = invoice.invoice_date
         template_values['billing_end'] = invoice.invoice_date_due
@@ -600,6 +607,8 @@ class AccountEdiXmlCII(models.AbstractModel):
         template_values['billing_start'] = invoice.invoice_date
         template_values['billing_end'] = invoice.invoice_date_due
 
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -609,7 +618,10 @@ class AccountEdiXmlCII(models.AbstractModel):
             line_vals['unece_uom_code'] = self._get_uom_unece_code(line.product_uom_id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             if line._fields.get('deferred_start_date') and (line.deferred_start_date or line.deferred_end_date):
                 line_vals['billing_start'] = line.deferred_start_date
                 line_vals['billing_end'] = line.deferred_end_date
@@ -625,6 +637,9 @@ class AccountEdiXmlCII(models.AbstractModel):
         if billing_end_dates:
             template_values['billing_end'] = max(billing_end_dates)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # data used for ApplicableHeaderTradeSettlement / ApplicableTradeTax (at the end of the xml)
         for tax_detail_vals in template_values['tax_details']['tax_details'].values():
@@ -636,12 +651,15 @@ class AccountEdiXmlCII(models.AbstractModel):
             if tax_detail_vals.get('tax_category_code') == 'K':
                 template_values['intracom_delivery'] = True
 <<<<<<< HEAD
+<<<<<<< HEAD
             # [BR - IC - 11] - In an Invoice with a VAT breakdown (BG-23) where the VAT category code (BT-118) is
             # "Intra-community supply" the Actual delivery date (BT-72) or the Invoicing period (BG-14) shall not be blank.
             if tax_detail_vals.get('tax_category_code') == 'K' and not template_values['scheduled_delivery_time']:
                 date_range = self._get_invoicing_period(invoice)
                 template_values['billing_start'] = min(date_range)
                 template_values['billing_end'] = max(date_range)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -673,12 +691,18 @@ class AccountEdiXmlCII(models.AbstractModel):
         template_values['tax_total_amount'] = tax_details['tax_amount_currency']
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if self.env['account.payment']._fields.get('sdd_mandate_id') and invoice.matched_payment_ids.sdd_mandate_id:
             template_values['payment_means_code'] = PAYMENT_MEAN_CODES['SEPA direct debit']
         else:
             template_values['payment_means_code'] = PAYMENT_MEAN_CODES['Payment to bank account']
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return template_values
 
@@ -774,7 +798,10 @@ class AccountEdiXmlCII(models.AbstractModel):
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_invoice_line_xpaths(self, document_type=False, qty_factor=1):
         return {
             'deferred_start_date': './{*}SpecifiedLineTradeSettlement/{*}BillingSpecifiedPeriod/{*}StartDateTime/{*}DateTimeString',
@@ -782,6 +809,9 @@ class AccountEdiXmlCII(models.AbstractModel):
             'date_format': DEFAULT_FACTURX_DATE_FORMAT,
         }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_line_xpaths(self, document_type=False, qty_factor=1):
         return {
@@ -893,6 +923,10 @@ class AccountEdiXmlCII(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return None, None
+>>>>>>> upstream/18.0
 =======
         return None, None
 >>>>>>> upstream/18.0

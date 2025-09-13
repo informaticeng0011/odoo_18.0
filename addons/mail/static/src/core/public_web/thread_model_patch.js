@@ -46,7 +46,11 @@ patch(Thread.prototype, {
                             message.recipients?.includes(this.store.self)))))
         ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (this.model === "discuss.channel") {
+=======
+            if (this.model === "discuss.channel" && this.inChathubOnNewMessage) {
+>>>>>>> upstream/18.0
 =======
             if (this.model === "discuss.channel" && this.inChathubOnNewMessage) {
 >>>>>>> upstream/18.0
@@ -56,7 +60,10 @@ patch(Thread.prototype, {
                     if (
                         this.autoOpenChatWindowOnNewMessage &&
 <<<<<<< HEAD
+<<<<<<< HEAD
                         !this.store.discuss.isActive &&
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                         this.store.chatHub.opened.length < this.store.chatHub.maxOpened
@@ -71,11 +78,17 @@ patch(Thread.prototype, {
         }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /** Condition for whether the conversation should become present in chat hub on new message */
     get inChathubOnNewMessage() {
         return !this.store.discuss.isActive;
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     get autoOpenChatWindowOnNewMessage() {
         return false;
@@ -99,7 +112,11 @@ patch(Thread.prototype, {
             this.store.env.services.ui.isSmall &&
             this.model !== "mail.box" &&
 <<<<<<< HEAD
+<<<<<<< HEAD
             !this.store.shouldDisplayWelcomeViewInitially
+=======
+            !this.store.shouldDisplayWelcomeView
+>>>>>>> upstream/18.0
 =======
             !this.store.shouldDisplayWelcomeView
 >>>>>>> upstream/18.0

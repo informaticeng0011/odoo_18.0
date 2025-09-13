@@ -1,24 +1,31 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_paypal
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * payment_paypal
 #
 # Translators:
 # Wil Odoo, 2024
 #
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-09 07:04+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
@@ -41,6 +50,9 @@ msgstr ""
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_paypal
@@ -69,7 +81,11 @@ msgstr "Не удалось установить соединение с API."
 #: code:addons/payment_paypal/models/payment_provider.py:0
 msgid "Could not generate a new access token."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Не удалось сгенерировать новый токен доступа."
+>>>>>>> upstream/18.0
 =======
 msgstr "Не удалось сгенерировать новый токен доступа."
 >>>>>>> upstream/18.0
@@ -94,7 +110,11 @@ msgstr "Как настроить свою учетную запись PayPal?"
 #: code:addons/payment_paypal/controllers/main.py:0
 msgid "Invalid response format, can't normalize."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Неверный формат ответа, невозможно нормализовать."
+>>>>>>> upstream/18.0
 =======
 msgstr "Неверный формат ответа, невозможно нормализовать."
 >>>>>>> upstream/18.0
@@ -121,7 +141,11 @@ msgstr "PayPal"
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_provider__paypal_access_token
 msgid "PayPal Access Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Токен доступа PayPal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Токен доступа PayPal"
 >>>>>>> upstream/18.0
@@ -130,7 +154,11 @@ msgstr "Токен доступа PayPal"
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_provider__paypal_access_token_expiry
 msgid "PayPal Access Token Expiry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Срок действия токена доступа PayPal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Срок действия токена доступа PayPal"
 >>>>>>> upstream/18.0
@@ -139,7 +167,11 @@ msgstr "Срок действия токена доступа PayPal"
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_provider__paypal_client_id
 msgid "PayPal Client ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID клиента PayPal"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID клиента PayPal"
 >>>>>>> upstream/18.0
@@ -158,7 +190,11 @@ msgstr "Тип транзакции PayPal"
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_provider__paypal_webhook_id
 msgid "PayPal Webhook ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID вебхука PayPal"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID вебхука PayPal"
 >>>>>>> upstream/18.0
@@ -201,7 +237,11 @@ msgstr "Клиент покинул страницу оплаты."
 #: model:ir.model.fields,help:payment_paypal.field_payment_provider__paypal_access_token_expiry
 msgid "The moment at which the access token becomes invalid."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Момент, когда токен доступа становится недействительным."
+>>>>>>> upstream/18.0
 =======
 msgstr "Момент, когда токен доступа становится недействительным."
 >>>>>>> upstream/18.0
@@ -218,7 +258,11 @@ msgstr ""
 #: model:ir.model.fields,help:payment_paypal.field_payment_provider__paypal_access_token
 msgid "The short-lived token used to access Paypal APIs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кратковременный токен, используемый для доступа к API PayPal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кратковременный токен, используемый для доступа к API PayPal"
 >>>>>>> upstream/18.0
@@ -232,7 +276,11 @@ msgstr "Технический код данного провайдера пла
 #: model_terms:ir.ui.view,arch_db:payment_paypal.payment_provider_form
 msgid "Webhook ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID вебхука"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID вебхука"
 >>>>>>> upstream/18.0
@@ -242,7 +290,11 @@ msgstr "ID вебхука"
 #: code:addons/payment_paypal/models/payment_provider.py:0
 msgid "You must have an HTTPS connection to generate a webhook."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Для создания вебхука у вас должно быть HTTPS-соединение."
+>>>>>>> upstream/18.0
 =======
 msgstr "Для создания вебхука у вас должно быть HTTPS-соединение."
 >>>>>>> upstream/18.0

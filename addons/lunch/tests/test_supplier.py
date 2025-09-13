@@ -245,7 +245,10 @@ env['lunch.supplier'].browse([{self.supplier_kothai.id}])._send_auto_email()""")
         })
         self.assertFalse(supplier.topping_ids_3)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_lunch_order_with_minimum_threshold(self):
         """ Test that lunch order is allowed within the overdraft threshold. """
@@ -261,4 +264,7 @@ env['lunch.supplier'].browse([{self.supplier_kothai.id}])._send_auto_email()""")
 
         order.action_order()
         self.assertEqual(order.state, "ordered")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

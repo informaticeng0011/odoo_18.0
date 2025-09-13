@@ -57,7 +57,11 @@ class PosOrder(models.Model):
         history_lines_create_vals = []
         for coupon in coupon_data:
 <<<<<<< HEAD
+<<<<<<< HEAD
             card_id = id_mapping.get(int(coupon['card_id'], False)) or int(coupon['card_id'])
+=======
+            card_id = id_mapping.get(int(coupon['card_id']), False) or int(coupon['card_id'])
+>>>>>>> upstream/18.0
 =======
             card_id = id_mapping.get(int(coupon['card_id']), False) or int(coupon['card_id'])
 >>>>>>> upstream/18.0
@@ -90,6 +94,10 @@ class PosOrder(models.Model):
 
         self._check_existing_loyalty_cards(coupon_data)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._remove_duplicate_coupon_data(coupon_data)
+>>>>>>> upstream/18.0
 =======
         self._remove_duplicate_coupon_data(coupon_data)
 >>>>>>> upstream/18.0
@@ -153,7 +161,10 @@ class PosOrder(models.Model):
             for report in report_per_program[coupon.program_id]:
                 coupon_per_report[report.id].append(coupon.id)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         # Adding loyalty history lines
         loyalty_points = [
@@ -174,6 +185,9 @@ class PosOrder(models.Model):
         ]
         self.add_loyalty_history_lines(loyalty_points, coupon_updates)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return {
             'coupon_updates': [{
@@ -207,9 +221,14 @@ class PosOrder(models.Model):
             partner_id = coupon_vals.get('partner_id', False)
             if partner_id:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 partner_coupons = self.env['loyalty.card'].search(
                     [('partner_id', '=', partner_id), ('program_type', '=', 'loyalty')])
                 existing_coupon_for_program = partner_coupons.filtered(lambda c: c.program_id.id == coupon_vals['program_id'])
+=======
+                existing_coupon_for_program = self.env['loyalty.card'].search(
+                    [('partner_id', '=', partner_id), ('program_type', 'in', ['loyalty', 'ewallet']), ('program_id', '=', coupon_vals['program_id'])])
+>>>>>>> upstream/18.0
 =======
                 existing_coupon_for_program = self.env['loyalty.card'].search(
                     [('partner_id', '=', partner_id), ('program_type', 'in', ['loyalty', 'ewallet']), ('program_id', '=', coupon_vals['program_id'])])
@@ -221,7 +240,10 @@ class PosOrder(models.Model):
             coupon_data[new_key] = coupon_data.pop(old_key)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _remove_duplicate_coupon_data(self, coupon_data):
         # to prevent duplicates, it is necessary to check if the history line already exists
         items_to_remove = []
@@ -236,6 +258,9 @@ class PosOrder(models.Model):
         for item in items_to_remove:
             coupon_data.pop(item)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_fields_for_order_line(self):
         fields = super(PosOrder, self)._get_fields_for_order_line()

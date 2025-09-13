@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mass_mailing
 # 
+=======
+# * mass_mailing
+#
+>>>>>>> upstream/18.0
 =======
 # * mass_mailing
 #
@@ -21,8 +26,13 @@
 # Davor Bojkić <davor.bojkic@storm.hr>, 2024
 # Matej Mijoč, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Vladimir Olujić <olujic.vladimir@storm.hr>, 2024
 # Martin Trigaux, 2024
+=======
+# Martin Trigaux, 2024
+# Vladimir Olujić <olujic.vladimir@storm.hr>, 2024
+>>>>>>> upstream/18.0
 =======
 # Martin Trigaux, 2024
 # Vladimir Olujić <olujic.vladimir@storm.hr>, 2024
@@ -34,7 +44,13 @@
 # Bole <bole@dajmi5.com>, 2024
 # Servisi RAM d.o.o. <support@servisiram.hr>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Ivica Dimjašević, 2025
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Ivica Dimjašević, 2025
 # Luka Carević <luka@uvid.hr>, 2025
@@ -44,6 +60,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-02-10 13:22+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -55,6 +72,8 @@ msgstr ""
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2025-08-27 11:50+0000\n"
 "Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
@@ -67,6 +86,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mass_mailing
@@ -107,7 +129,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_form
 msgid "% Opt-out"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "% Otkazivanje pretplate"
+>>>>>>> upstream/18.0
 =======
 msgstr "% Otkazivanje pretplate"
 >>>>>>> upstream/18.0
@@ -167,7 +193,11 @@ msgstr "100%"
 #: model:ir.model.fields,field_description:mass_mailing.field_res_config_settings__mass_mailing_reports
 msgid "24H Stat Mailing Reports"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "24-satna statistika izvještaja o slanju"
+>>>>>>> upstream/18.0
 =======
 msgstr "24-satna statistika izvještaja o slanju"
 >>>>>>> upstream/18.0
@@ -391,6 +421,11 @@ msgstr ""
 msgid "<i class=\"oi oi-arrow-right\"></i> Configure Opt-out Reasons"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\"></i> Konfiguriraj razloge za otkazivanje "
+"pretplate"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-right\"></i> Konfiguriraj razloge za otkazivanje "
 "pretplate"
@@ -683,7 +718,11 @@ msgstr "Jedinstvena vrijednost"
 #: model:ir.model.fields,field_description:mass_mailing.field_utm_campaign__ab_testing_winner_mailing_id
 msgid "A/B Campaign Winner Mailing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slanje pobjedničke A/B kampanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slanje pobjedničke A/B kampanje"
 >>>>>>> upstream/18.0
@@ -716,7 +755,11 @@ msgstr "A/B Test: %s"
 #: model:ir.model.fields,field_description:mass_mailing.field_utm_campaign__ab_testing_completed
 msgid "A/B Testing Campaign Finished"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A/B testna kampanja je završena"
+>>>>>>> upstream/18.0
 =======
 msgstr "A/B testna kampanja je završena"
 >>>>>>> upstream/18.0
@@ -738,7 +781,11 @@ msgstr "A/B postotak testiranja"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_search
 msgid "A/B Tests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A/B testiranja"
+>>>>>>> upstream/18.0
 =======
 msgstr "A/B testiranja"
 >>>>>>> upstream/18.0
@@ -747,7 +794,11 @@ msgstr "A/B testiranja"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_search
 msgid "A/B Tests to review"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A/B testiranja za pregled"
+>>>>>>> upstream/18.0
 =======
 msgstr "A/B testiranja za pregled"
 >>>>>>> upstream/18.0
@@ -844,7 +895,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "Add to Templates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj u predloške"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj u predloške"
 >>>>>>> upstream/18.0
@@ -929,7 +984,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__ab_testing_enabled
 msgid "Allow A/B Testing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dopusti A/B testiranje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dopusti A/B testiranje"
 >>>>>>> upstream/18.0
@@ -938,7 +997,11 @@ msgstr "Dopusti A/B testiranje"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_optout_view_tree
 msgid "Allow Feedback"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dopusti povratne informacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dopusti povratne informacije"
 >>>>>>> upstream/18.0
@@ -947,7 +1010,11 @@ msgstr "Dopusti povratne informacije"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Allow recipients to blacklist themselves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dopusti primateljima da se sami stave na crnu listu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dopusti primateljima da se sami stave na crnu listu"
 >>>>>>> upstream/18.0
@@ -1070,7 +1137,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_subscription_optout__is_feedback
 msgid "Ask For Feedback"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zatražite povratne informacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zatražite povratne informacije"
 >>>>>>> upstream/18.0
@@ -1175,7 +1246,11 @@ msgstr "Crna lista"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_tree
 msgid "Blacklist (%s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Crna lista (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Crna lista (%s)"
 >>>>>>> upstream/18.0
@@ -1184,7 +1259,11 @@ msgstr "Crna lista (%s)"
 #: model:ir.model.fields,field_description:mass_mailing.field_res_config_settings__show_blacklist_buttons
 msgid "Blacklist Option when Unsubscribing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opcija za stavljanje na crnu listu prilikom otkazivanja pretplate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opcija za stavljanje na crnu listu prilikom otkazivanja pretplate"
 >>>>>>> upstream/18.0
@@ -1297,7 +1376,11 @@ msgstr "Odbij"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_tree
 msgid "Bounce (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neisporučeno (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neisporučeno (%)"
 >>>>>>> upstream/18.0
@@ -1325,7 +1408,11 @@ msgstr "Odbijeno"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_tree
 msgid "Bounced (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neisporučeno (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neisporučeno (%)"
 >>>>>>> upstream/18.0
@@ -1346,7 +1433,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mass_mailing_kpi_link_trackers
 msgid "Button Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Labela tipke"
+=======
+msgstr "Oznaka gumba"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznaka gumba"
 >>>>>>> upstream/18.0
@@ -1361,7 +1452,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__calendar_date
 msgid "Calendar Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum u kalendaru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum u kalendaru"
 >>>>>>> upstream/18.0
@@ -1456,7 +1551,11 @@ msgstr "Promijeni ikone"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Check how well your mailing is doing a day after it has been sent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Provjerite koliko dobro vaša pošta napreduje dan nakon što je poslana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Provjerite koliko dobro vaša pošta napreduje dan nakon što je poslana"
 >>>>>>> upstream/18.0
@@ -1465,7 +1564,11 @@ msgstr "Provjerite koliko dobro vaša pošta napreduje dan nakon što je poslana
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_reports
 msgid "Check how well your mailing is doing a day after it has been sent."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Provjerite koliko dobro vaša pošta napreduje dan nakon što je poslana."
+>>>>>>> upstream/18.0
 =======
 msgstr "Provjerite koliko dobro vaša pošta napreduje dan nakon što je poslana."
 >>>>>>> upstream/18.0
@@ -1534,7 +1637,11 @@ msgstr "Kliknuto"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_tree
 msgid "Clicked (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kliknuto (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kliknuto (%)"
 >>>>>>> upstream/18.0
@@ -1543,7 +1650,11 @@ msgstr "Kliknuto (%)"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_trace__links_click_datetime
 msgid "Clicked On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kliknuto na"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kliknuto na"
 >>>>>>> upstream/18.0
@@ -1589,6 +1700,11 @@ msgstr ""
 msgid "Come back later to discover why contacts unsubscribe.<br>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vratite se kasnije kako biste otkrili zašto su kontakti otkazali "
+"pretplatu.<br>"
+>>>>>>> upstream/18.0
 =======
 "Vratite se kasnije kako biste otkrili zašto su kontakti otkazali "
 "pretplatu.<br>"
@@ -1638,7 +1754,11 @@ msgstr "Postavke"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Configure Outgoing Mail Servers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfiguriraj izlazne poslužitelje pošte."
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfiguriraj izlazne poslužitelje pošte."
 >>>>>>> upstream/18.0
@@ -1744,7 +1864,11 @@ msgstr "Naslovna slika"
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_mailing_action_mail
 msgid "Create a Mailing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirajte slanje pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreirajte slanje pošte"
 >>>>>>> upstream/18.0
@@ -1856,7 +1980,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 msgid "Dedicated Server"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Namjenski poslužitelj (Dedicated Server)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Namjenski poslužitelj (Dedicated Server)"
 >>>>>>> upstream/18.0
@@ -1880,7 +2008,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_kanban
 msgid "Delete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Briši"
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obriši"
 >>>>>>> upstream/18.0
@@ -1910,7 +2042,11 @@ msgstr "Isporučeno"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_tree
 msgid "Delivered (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isporučeno (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Isporučeno (%)"
 >>>>>>> upstream/18.0
@@ -1932,6 +2068,11 @@ msgstr ""
 msgid "Design a striking email, define recipients and track its results."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dizajnirajte upečatljivu e-poruku, odredite primatelje i pratite njezine "
+"rezultate."
+>>>>>>> upstream/18.0
 =======
 "Dizajnirajte upečatljivu e-poruku, odredite primatelje i pratite njezine "
 "rezultate."
@@ -2090,7 +2231,11 @@ msgstr "Email"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_view_tree
 msgid "Email Blacklisted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email na crnoj listi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email na crnoj listi"
 >>>>>>> upstream/18.0
@@ -2178,7 +2323,11 @@ msgstr "Iznimka"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_view_search
 msgid "Exclude Blacklisted Emails"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isključi emailove s crne liste"
+>>>>>>> upstream/18.0
 =======
 msgstr "Isključi emailove s crne liste"
 >>>>>>> upstream/18.0
@@ -2233,7 +2382,11 @@ msgstr "Omiljeni"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__favorite_date
 msgid "Favorite Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omiljeni datum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Omiljeni datum"
 >>>>>>> upstream/18.0
@@ -2242,7 +2395,11 @@ msgstr "Omiljeni datum"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__mailing_filter_id
 msgid "Favorite Filter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omiljeni filter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Omiljeni filter"
 >>>>>>> upstream/18.0
@@ -2252,7 +2409,11 @@ msgstr "Omiljeni filter"
 #: model:ir.ui.menu,name:mass_mailing.mailing_filter_menu_action
 msgid "Favorite Filters"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omiljeni filteri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Omiljeni filteri"
 >>>>>>> upstream/18.0
@@ -2261,7 +2422,11 @@ msgstr "Omiljeni filteri"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__mailing_filter_domain
 msgid "Favorite filter domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Domena omiljenog filtera"
+>>>>>>> upstream/18.0
 =======
 msgstr "Domena omiljenog filtera"
 >>>>>>> upstream/18.0
@@ -2333,7 +2498,11 @@ msgstr "Prve značajke"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__first_name
 msgid "First Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ime"
 >>>>>>> upstream/18.0
@@ -2467,7 +2636,11 @@ msgstr "Zaglavlja"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options
 msgid "Heading 1"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaglavlje 1"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaglavlje 1"
 >>>>>>> upstream/18.0
@@ -2476,7 +2649,11 @@ msgstr "Zaglavlje 1"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options
 msgid "Heading 2"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaglavlje 2"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaglavlje 2"
 >>>>>>> upstream/18.0
@@ -2485,7 +2662,11 @@ msgstr "Zaglavlje 2"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options
 msgid "Heading 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaglavlje 3"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaglavlje 3"
 >>>>>>> upstream/18.0
@@ -2647,7 +2828,11 @@ msgstr "Uvoz kontakata"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_import_view_form
 msgid "Import Mailing Contacts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvoz kontakata za slanje pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvoz kontakata za slanje pošte"
 >>>>>>> upstream/18.0
@@ -2662,7 +2847,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_import_view_form
 msgid "Import contacts in"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvezi kontakte u"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvezi kontakte u"
 >>>>>>> upstream/18.0
@@ -2756,7 +2945,11 @@ msgstr "Pridružite nam se i učinite vaše poduzeće boljim mjestom."
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__kpi_mail_required
 msgid "KPI mail required"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrebna je KPI e-pošta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrebna je KPI e-pošta"
 >>>>>>> upstream/18.0
@@ -2792,7 +2985,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__last_name
 msgid "Last Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prezime"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prezime"
 >>>>>>> upstream/18.0
@@ -2921,7 +3118,11 @@ msgstr "Mail"
 #: model:ir.model,name:mass_mailing.model_mail_blacklist
 msgid "Mail Blacklist"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Crna lista pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Crna lista pošte"
 >>>>>>> upstream/18.0
@@ -2962,7 +3163,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing.field_res_config_settings__mass_mailing_mail_server_id
 msgid "Mail Server"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mail Server"
+=======
+msgstr "Poslužitelj e-pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslužitelj e-pošte"
 >>>>>>> upstream/18.0
@@ -3005,7 +3210,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_trace_report__campaign
 msgid "Mailing Campaign"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mailing kampanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mailing kampanja"
 >>>>>>> upstream/18.0
@@ -3022,7 +3231,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_tree
 msgid "Mailing Contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontakt za slanje pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontakt za slanje pošte"
 >>>>>>> upstream/18.0
@@ -3079,7 +3292,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_view_tree
 msgid "Mailing List Contacts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontakti mailing liste"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontakti mailing liste"
 >>>>>>> upstream/18.0
@@ -3115,7 +3332,11 @@ msgstr "Liste za slanje mailova"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "Mailing Lists:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liste za slanje mailova:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liste za slanje mailova:"
 >>>>>>> upstream/18.0
@@ -3163,7 +3384,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__mailing_type
 msgid "Mailing Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta slanja e-mail pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta slanja e-mail pošte"
 >>>>>>> upstream/18.0
@@ -3222,7 +3447,11 @@ msgstr "Upravljaj kampanjama masovne pošte"
 #: code:addons/mass_mailing/controllers/main.py:0
 msgid "Manage Subscriptions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljajte pretplatama"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravljajte pretplatama"
 >>>>>>> upstream/18.0
@@ -3231,7 +3460,11 @@ msgstr "Upravljajte pretplatama"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Manage mass mailing campaigns"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljaj kampanjama masovne pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravljaj kampanjama masovne pošte"
 >>>>>>> upstream/18.0
@@ -3465,7 +3698,11 @@ msgstr "Moja tvrtka"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_filter_view_search
 msgid "My Filters"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moji filteri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moji filteri"
 >>>>>>> upstream/18.0
@@ -3474,7 +3711,11 @@ msgstr "Moji filteri"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_search
 msgid "My Mailings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moja poslana e-pošta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moja poslana e-pošta"
 >>>>>>> upstream/18.0
@@ -3506,7 +3747,11 @@ msgstr ""
 #: model:utm.campaign,title:mass_mailing.mass_mail_campaign_1
 msgid "Newsletter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Bilten"
+=======
+msgstr "Newsletter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Newsletter"
 >>>>>>> upstream/18.0
@@ -3576,7 +3821,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_trace_report_action_mail
 msgid "No Mailing Data yet!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Još nema podataka o slanju!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Još nema podataka o slanju!"
 >>>>>>> upstream/18.0
@@ -3604,7 +3853,11 @@ msgstr "Još nema podataka!"
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_subscription_optout_action
 msgid "No data yet."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Još nema podataka."
+>>>>>>> upstream/18.0
 =======
 msgstr "Još nema podataka."
 >>>>>>> upstream/18.0
@@ -3634,7 +3887,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_filter_action
 msgid "No saved filter yet!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Još nema spremljenog filtera!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Još nema spremljenog filtera!"
 >>>>>>> upstream/18.0
@@ -3660,7 +3917,11 @@ msgstr "Ništa"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__email_normalized
 msgid "Normalized Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Normalizirani Email"
+=======
+msgstr "Uobičajena email adresa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uobičajena email adresa"
 >>>>>>> upstream/18.0
@@ -3811,7 +4072,11 @@ msgstr "Otvoren"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_tree
 msgid "Opened (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otvoreno (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otvoreno (%)"
 >>>>>>> upstream/18.0
@@ -3845,7 +4110,11 @@ msgstr ""
 #: model:ir.ui.menu,name:mass_mailing.mailing_menu_report_subscribe_reason
 msgid "Opt-Out Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvještaj o otkazivanju pretplate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvještaj o otkazivanju pretplate"
 >>>>>>> upstream/18.0
@@ -3859,7 +4128,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_blacklist__opt_out_reason_id
 msgid "Opt-out Reason"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razlog otkazivanja pretplate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razlog otkazivanja pretplate"
 >>>>>>> upstream/18.0
@@ -3952,6 +4225,10 @@ msgstr ""
 msgid "Pick a dedicated outgoing mail server for your mass mailings"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Odaberi namjenski poslužitelj za izlaznu poštu za svoje masovne pošiljke."
+>>>>>>> upstream/18.0
 =======
 "Odaberi namjenski poslužitelj za izlaznu poštu za svoje masovne pošiljke."
 >>>>>>> upstream/18.0
@@ -4010,7 +4287,11 @@ msgstr "Pregled"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "Preview Text"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregled teksta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pregled teksta"
 >>>>>>> upstream/18.0
@@ -4139,7 +4420,11 @@ msgstr "Model primatelja"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__mailing_model_name
 msgid "Recipients Model Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv modela primatelja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv modela primatelja"
 >>>>>>> upstream/18.0
@@ -4206,7 +4491,11 @@ msgstr "Odgovoreno"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_tree
 msgid "Replied (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovoreno (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odgovoreno (%)"
 >>>>>>> upstream/18.0
@@ -4295,7 +4584,11 @@ msgstr ""
 #: code:addons/mass_mailing/static/src/xml/mailing_filter_widget.xml:0
 msgid "Save as Favorite Filter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spremi kao omiljeni filtar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spremi kao omiljeni filtar"
 >>>>>>> upstream/18.0
@@ -4305,7 +4598,11 @@ msgstr "Spremi kao omiljeni filtar"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_filter_view_tree
 msgid "Saved by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spremljeno od"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spremljeno od"
 >>>>>>> upstream/18.0
@@ -4333,7 +4630,11 @@ msgstr "Zakazani datum"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_trace_report_view_tree
 msgid "Scheduled On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zakazano za"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zakazano za"
 >>>>>>> upstream/18.0
@@ -4342,7 +4643,11 @@ msgstr "Zakazano za"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_trace_report_view_search
 msgid "Scheduled Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zakazano razdoblje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zakazano razdoblje"
 >>>>>>> upstream/18.0
@@ -4357,7 +4662,11 @@ msgstr "Datum zakazivanja"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing_schedule_date__schedule_date
 msgid "Scheduled for"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zakazano za"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zakazano za"
 >>>>>>> upstream/18.0
@@ -4366,7 +4675,11 @@ msgstr "Zakazano za"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_kanban
 msgid "Scheduled on #{record.next_departure.value}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Planirano za #{record.next_departure.value}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planirano za #{record.next_departure.value}"
 >>>>>>> upstream/18.0
@@ -4375,7 +4688,11 @@ msgstr "Planirano za #{record.next_departure.value}"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_kanban
 msgid "Scheduled on #{record.schedule_date.value}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Planirano za #{record.schedule_date.value}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planirano za #{record.schedule_date.value}"
 >>>>>>> upstream/18.0
@@ -4417,7 +4734,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_filter_view_form
 msgid "Select a Target Model..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite ciljani model..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite ciljani model..."
 >>>>>>> upstream/18.0
@@ -4454,7 +4775,11 @@ msgstr "Pošalji"
 #: model:ir.model.fields,field_description:mass_mailing.field_utm_campaign__ab_testing_schedule_datetime
 msgid "Send Final On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Završni dan slanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Završni dan slanja"
 >>>>>>> upstream/18.0
@@ -4463,7 +4788,11 @@ msgstr "Završni dan slanja"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__email_from
 msgid "Send From"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji s adrese"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošalji s adrese"
 >>>>>>> upstream/18.0
@@ -4474,7 +4803,11 @@ msgstr "Pošalji s adrese"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.utm_campaign_view_form
 msgid "Send Mailing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji poštu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošalji poštu"
 >>>>>>> upstream/18.0
@@ -4525,12 +4858,18 @@ msgstr ""
 
 #. module: mass_mailing
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "Send to all"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing.selection__mailing_mailing__state__sending
 msgid "Sending"
@@ -4572,7 +4911,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_search
 msgid "Sent Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razdoblje slanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razdoblje slanja"
 >>>>>>> upstream/18.0
@@ -4593,7 +4936,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Separate Mailing Contact Names into two fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odvojite imena kontakata za slanje pošte u dva polja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odvojite imena kontakata za slanje pošte u dva polja"
 >>>>>>> upstream/18.0
@@ -4602,7 +4949,11 @@ msgstr "Odvojite imena kontakata za slanje pošte u dva polja"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Separator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Separator"
+=======
+msgstr "Razdjelnik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razdjelnik"
 >>>>>>> upstream/18.0
@@ -4633,7 +4984,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_list__is_public
 msgid "Show In Preferences"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži u postavkama"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži u postavkama"
 >>>>>>> upstream/18.0
@@ -4699,7 +5054,11 @@ msgstr "Specificirane e-mail adrese"
 #: model:ir.model.fields,field_description:mass_mailing.field_res_config_settings__mass_mailing_split_contact_name
 msgid "Split First and Last Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podijeli ime i prezime"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podijeli ime i prezime"
 >>>>>>> upstream/18.0
@@ -4708,7 +5067,11 @@ msgstr "Podijeli ime i prezime"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_themes
 msgid "Start From Scratch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Krenite od početka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Krenite od početka"
 >>>>>>> upstream/18.0
@@ -4781,7 +5144,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_tree
 msgid "Subscription Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum pretplate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum pretplate"
 >>>>>>> upstream/18.0
@@ -5190,7 +5557,11 @@ msgstr "Datum odjave pretplate"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_import_view_form
 msgid "Upload a file"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Umetnite datoteku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Umetnite datoteku"
 >>>>>>> upstream/18.0
@@ -5236,6 +5607,12 @@ msgid ""
 "                    From here, you'll be able to overview the rate of replies, clicks, bounces..."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koristi ovaj izbornik za praćenje rezultata svojih slanja.<br>\n"
+"                    Ovdje ćete moći pregledati stopu odgovora, klikova, "
+"odbijenih poruka..."
+>>>>>>> upstream/18.0
 =======
 "Koristi ovaj izbornik za praćenje rezultata svojih slanja.<br>\n"
 "                    Ovdje ćete moći pregledati stopu odgovora, klikova, "
@@ -5294,7 +5671,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_import_view_form
 msgid "Want to import country, company name and more?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Želite li uvesti državu, naziv tvrtke i još mnogo toga?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Želite li uvesti državu, naziv tvrtke i još mnogo toga?"
 >>>>>>> upstream/18.0
@@ -5368,13 +5749,19 @@ msgid ""
 "                by clicking on <i class=\"fa fa-floppy-o text-warning\"></i> icon next to \"Recipients\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Prilikom dizajniranja mailing kampanje možete definirati pravila za "
 "filtriranje primatelja.\n"
 "                Da biste sačuvali iste kriterije za buduću upotrebu, možete "
 "ih dodati u popis favorita\n"
 "                klikom na ikonu <i class=\"fa fa-floppy-o text-warning\"></"
 "i> pored 'Primatelji'."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mass_mailing
@@ -5388,7 +5775,11 @@ msgstr "Širina"
 #: model:ir.model.fields,field_description:mass_mailing.field_utm_campaign__ab_testing_winner_selection
 msgid "Winner Selection"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odabir pobjednika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odabir pobjednika"
 >>>>>>> upstream/18.0
@@ -5423,6 +5814,11 @@ msgid ""
 "                    Each line will be imported as a mailing list contact."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Upišite ili zalijepite e-mail adrese u polje ispod.\n"
+"                    Svaki redak bit će uvezen kao kontakt mailing liste."
+>>>>>>> upstream/18.0
 =======
 "Upišite ili zalijepite e-mail adrese u polje ispod.\n"
 "                    Svaki redak bit će uvezen kao kontakt mailing liste."
@@ -5560,7 +5956,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_filter_view_form
 msgid "e.g. \"B2B Canadian Customers\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"B2B kanadski kupci\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"B2B kanadski kupci\""
 >>>>>>> upstream/18.0
@@ -5585,7 +5985,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_view_form
 msgid "e.g. \"VIP\", \"Roadshow\", ..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"VIP\", \"Roadshow\", ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"VIP\", \"Roadshow\", ..."
 >>>>>>> upstream/18.0
@@ -5594,7 +5998,11 @@ msgstr "npr. \"VIP\", \"Roadshow\", ..."
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "e.g. Check it out before it's too late!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Provjerite prije nego što bude prekasno!"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Provjerite prije nego što bude prekasno!"
 >>>>>>> upstream/18.0
@@ -5609,7 +6017,11 @@ msgstr "npr. newsletter za potrošače"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mail_blacklist_view_form
 msgid "e.g. I received too many emails"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. primio/la sam previše e-poruka"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. primio/la sam previše e-poruka"
 >>>>>>> upstream/18.0
@@ -5618,7 +6030,11 @@ msgstr "npr. primio/la sam previše e-poruka"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_view_form
 msgid "e.g. John Smith"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Ivan Horvat"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Ivan Horvat"
 >>>>>>> upstream/18.0
@@ -5627,7 +6043,11 @@ msgstr "npr. Ivan Horvat"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "e.g. New Sale on all T-shirts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Nova rasprodaja svih majica"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Nova rasprodaja svih majica"
 >>>>>>> upstream/18.0

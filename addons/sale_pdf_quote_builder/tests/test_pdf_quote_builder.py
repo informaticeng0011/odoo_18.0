@@ -9,6 +9,10 @@ from werkzeug.datastructures import FileStorage
 
 from odoo import Command
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import ValidationError
 >>>>>>> upstream/18.0
@@ -120,6 +124,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
         sol_1, sol_2 = self.sale_order.order_line
         sol_1.update({
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'sequence': 0,
+>>>>>>> upstream/18.0
 =======
             'sequence': 0,
 >>>>>>> upstream/18.0
@@ -151,7 +159,11 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
             'datetime_test': "12/21/2121 13:21:12",
             'float_test': "4.99",
 <<<<<<< HEAD
+<<<<<<< HEAD
             'integer_test': "10",
+=======
+            'integer_test': "0",
+>>>>>>> upstream/18.0
 =======
             'integer_test': "0",
 >>>>>>> upstream/18.0
@@ -247,7 +259,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -404,6 +419,7 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
         so_form.sale_order_template_id = so_tmpl_2
         so_form.save()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.assertNotEqual(self.sale_order.quotation_document_ids, self.header)
 
@@ -613,6 +629,8 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertIn(self.header, self.sale_order.available_product_document_ids)
         so_form.record.quotation_document_ids[0].unlink()
         so_form.save()
@@ -635,6 +653,9 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
             with Form(product_document) as doc_form:
                 doc_form.attached_on_sale = 'inside'
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_onchange_product_removes_previously_selected_documents(self):
         """ Check that changing a line that has a selected document unselect said document. """
@@ -659,7 +680,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
         self.assertFalse(self.sale_order.order_line[0].product_document_ids, msg=msg)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_available_documents_order(self):
         product_document = self.product_document.copy()
         product_document.sequence = self.product_document.sequence - 1
@@ -712,6 +736,9 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
             product_template_document2,
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_quotation_document_upload_no_template(self):
         """Check that uploading quotation documents get assigned the active company."""

@@ -110,8 +110,11 @@ class AccountPaymentRegister(models.TransientModel):
             for wizard in self:
                 # To avoid displaying things for nothing, also ensure to only consider withholding taxes matching the payment type.
 <<<<<<< HEAD
+<<<<<<< HEAD
                 wizard_domain = self.env['account.withholding.line']._get_withholding_tax_domain(company=wizard.company_id, payment_type=wizard.payment_type)
 =======
+=======
+>>>>>>> upstream/18.0
                 payment_type = wizard.payment_type
                 if any(line.is_refund for line in wizard.line_ids):
                     # In case of refunds, the payment type won't match the type_tax_use, we need to invert it.
@@ -121,6 +124,9 @@ class AccountPaymentRegister(models.TransientModel):
                         payment_type = 'inbound'
 
                 wizard_domain = self.env['account.withholding.line']._get_withholding_tax_domain(company=wizard.company_id, payment_type=payment_type)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 wizard_withholding_taxes = withholding_taxes.filtered_domain(wizard_domain)
 

@@ -5,6 +5,10 @@
 # Translators:
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -16,7 +20,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Anastasiia Koroleva, 2025\n"
 >>>>>>> upstream/18.0
@@ -35,6 +43,11 @@ msgid ""
 "'%(project_name)s' linked to the stock picking."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"На проекте «%(project_name)s», связанном со складской операцией, отсутствуют"
+" аналитические планы: %(missing_plan_names)s"
+>>>>>>> upstream/18.0
 =======
 "На проекте «%(project_name)s», связанном со складской операцией, отсутствуют"
 " аналитические планы: %(missing_plan_names)s"
@@ -44,7 +57,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:project_stock_account.field_stock_picking_type__analytic_costs
 msgid "Analytic Costs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Анализ затрат"
+>>>>>>> upstream/18.0
 =======
 msgstr "Анализ затрат"
 >>>>>>> upstream/18.0
@@ -73,7 +90,11 @@ msgstr "Домен"
 #: model:ir.model.fields.selection,name:project_stock_account.selection__account_analytic_line__category__picking_entry
 msgid "Inventory Transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перемещение запасов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Перемещение запасов"
 >>>>>>> upstream/18.0
@@ -103,7 +124,11 @@ msgstr "Движение запасов"
 #: model:ir.model.fields.selection,name:project_stock_account.selection__account_analytic_applicability__business_domain__stock_picking
 msgid "Stock Picking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Выбор акций"
+=======
+msgstr "Складская операция"
+>>>>>>> upstream/18.0
 =======
 msgstr "Складская операция"
 >>>>>>> upstream/18.0
@@ -115,6 +140,12 @@ msgid ""
 "project. Products set for re-invoicing will also be billed to the customer."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Подтверждение складских операций приведет к созданию аналитических записей "
+"по выбранному проекту. Товары, настроенные для повторного выставления, будут"
+" выставлены клиенту."
+>>>>>>> upstream/18.0
 =======
 "Подтверждение складских операций приведет к созданию аналитических записей "
 "по выбранному проекту. Товары, настроенные для повторного выставления, будут"

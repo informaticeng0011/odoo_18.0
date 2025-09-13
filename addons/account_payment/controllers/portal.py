@@ -12,15 +12,21 @@ from odoo.addons.payment.controllers.portal import PaymentPortal
 class PortalAccount(portal.PortalAccount, PaymentPortal):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _invoice_get_page_view_values(self, invoice, access_token, payment=False, **kwargs):
         # EXTENDS account
 
         values = super()._invoice_get_page_view_values(invoice, access_token, **kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
     def _invoice_get_page_view_values(self, invoice, access_token, payment=False, amount=None, **kwargs):
         # EXTENDS account
 
         values = super()._invoice_get_page_view_values(invoice, access_token, amount=amount, **kwargs)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         if not invoice._has_to_be_paid():
@@ -47,7 +53,11 @@ class PortalAccount(portal.PortalAccount, PaymentPortal):
             **kwargs)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         amount_custom = float(kwargs['amount']) if kwargs.get('amount') else 0.0
+=======
+        amount_custom = float(amount or 0.0)
+>>>>>>> upstream/18.0
 =======
         amount_custom = float(amount or 0.0)
 >>>>>>> upstream/18.0
@@ -136,6 +146,10 @@ class PortalAccount(portal.PortalAccount, PaymentPortal):
             currency_id=invoices_data['currency'].id,
             report=availability_report,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            **kwargs,
+>>>>>>> upstream/18.0
 =======
             **kwargs,
 >>>>>>> upstream/18.0

@@ -2,9 +2,12 @@ import { animationFrame } from "@odoo/hoot-mock";
 import { Model } from "@odoo/o-spreadsheet";
 import { OdooDataProvider } from "@spreadsheet/data_sources/odoo_data_provider";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { getMockEnv } from "@web/../tests/_framework/env_test_helpers";
 import { defineActions, defineMenus, makeMockEnv, onRpc } from "@web/../tests/web_test_helpers";
 =======
+=======
+>>>>>>> upstream/18.0
 import {
     defineActions,
     defineMenus,
@@ -12,6 +15,9 @@ import {
     makeMockEnv,
     onRpc,
 } from "@web/../tests/web_test_helpers";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { setCellContent } from "./commands";
 import { addRecordsFromServerData, addViewsFromServerData } from "./data";
@@ -20,7 +26,11 @@ import { addRecordsFromServerData, addViewsFromServerData } from "./data";
  * @typedef {import("@spreadsheet/../tests/helpers/data").ServerData} ServerData
  * @typedef {import("@spreadsheet/helpers/model").OdooSpreadsheetModel} OdooSpreadsheetModel
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {import("@web/../tests/_framework/mock_server/mock_server").MockServerEnvironment} MockServerEnvironment
+=======
+ * @typedef {import("@web/../tests/web_test_helpers").MockServerEnvironment} MockServerEnvironment
+>>>>>>> upstream/18.0
 =======
  * @typedef {import("@web/../tests/web_test_helpers").MockServerEnvironment} MockServerEnvironment
 >>>>>>> upstream/18.0

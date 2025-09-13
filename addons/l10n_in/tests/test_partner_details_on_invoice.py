@@ -16,6 +16,10 @@ class TestReports(L10nInTestInvoicingCommon):
         cls.partner_a.l10n_in_gst_treatment = 'composition'
         cls.partner_foreign.l10n_in_gst_treatment = 'overseas'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.partner_foreign_no_state.l10n_in_gst_treatment = 'overseas'
+>>>>>>> upstream/18.0
 =======
         cls.partner_foreign_no_state.l10n_in_gst_treatment = 'overseas'
 >>>>>>> upstream/18.0
@@ -135,7 +139,10 @@ class TestReports(L10nInTestInvoicingCommon):
             }]
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_foreign_customer_without_state(self):
         """ Verify foreign customer without state_id gets foreign state reference """
@@ -146,4 +153,7 @@ class TestReports(L10nInTestInvoicingCommon):
                 'l10n_in_state_id': self.env.ref("l10n_in.state_in_oc").id,
             }]
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

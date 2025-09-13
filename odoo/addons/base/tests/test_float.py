@@ -23,7 +23,11 @@ class TestFloatPrecision(TransactionCase):
         try_round(-2.675,'-2.68') # in Python 2.7.2, round(2.675,2) gives 2.67
         try_round(0.001,'0.00')
 <<<<<<< HEAD
+<<<<<<< HEAD
         try_round(-0.001,'-0.00')
+=======
+        try_round(-0.001, '0.00')
+>>>>>>> upstream/18.0
 =======
         try_round(-0.001, '0.00')
 >>>>>>> upstream/18.0
@@ -86,7 +90,11 @@ class TestFloatPrecision(TransactionCase):
         try_round(-2.6744, '-2.674')
         try_round(0.0004, '0.000')
 <<<<<<< HEAD
+<<<<<<< HEAD
         try_round(-0.0004, '-0.000')
+=======
+        try_round(-0.0004, '0.000')
+>>>>>>> upstream/18.0
 =======
         try_round(-0.0004, '0.000')
 >>>>>>> upstream/18.0
@@ -104,7 +112,11 @@ class TestFloatPrecision(TransactionCase):
         try_round(-2.6744, '-2.674', method='HALF-DOWN')
         try_round(0.0004, '0.000', method='HALF-DOWN')
 <<<<<<< HEAD
+<<<<<<< HEAD
         try_round(-0.0004, '-0.000', method='HALF-DOWN')
+=======
+        try_round(-0.0004, '0.000', method='HALF-DOWN')
+>>>>>>> upstream/18.0
 =======
         try_round(-0.0004, '0.000', method='HALF-DOWN')
 >>>>>>> upstream/18.0
@@ -122,7 +134,11 @@ class TestFloatPrecision(TransactionCase):
         try_round(-2.6744, '-2.674', method='HALF-EVEN')
         try_round(0.0004, '0.000', method='HALF-EVEN')
 <<<<<<< HEAD
+<<<<<<< HEAD
         try_round(-0.0004, '-0.000', method='HALF-EVEN')
+=======
+        try_round(-0.0004, '0.000', method='HALF-EVEN')
+>>>>>>> upstream/18.0
 =======
         try_round(-0.0004, '0.000', method='HALF-EVEN')
 >>>>>>> upstream/18.0
@@ -245,7 +261,11 @@ class TestFloatPrecision(TransactionCase):
         try_split(-2.675, ('-2', '68'), float_split_str) # in Python 2.7.2, round(2.675,2) gives 2.67
         try_split(0.001, ('0', '00'), float_split_str)
 <<<<<<< HEAD
+<<<<<<< HEAD
         try_split(-0.001, ('-0', '00'), float_split_str)
+=======
+        try_split(-0.001, ('0', '00'), float_split_str)
+>>>>>>> upstream/18.0
 =======
         try_split(-0.001, ('0', '00'), float_split_str)
 >>>>>>> upstream/18.0

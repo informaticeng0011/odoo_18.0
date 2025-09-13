@@ -16,6 +16,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
@@ -67,7 +71,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -116,8 +124,13 @@ msgid ""
 "try again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "O eroare a apărut pe durata procesării tranzacției (status %s). Vă rugăm să "
 "reîcercați."
+=======
+"O eroare a apărut în timpul procesării plății dumneavoastră (status %s). Vă "
+"rugăm să încercați din nou."
+>>>>>>> upstream/18.0
 =======
 "O eroare a apărut în timpul procesării plății dumneavoastră (status %s). Vă "
 "rugăm să încercați din nou."
@@ -143,7 +156,11 @@ msgstr "Flutterwave"
 #: model:ir.model.fields,field_description:payment_flutterwave.field_payment_token__flutterwave_customer_email
 msgid "Flutterwave Customer Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email client Flutterwave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email client Flutterwave"
 >>>>>>> upstream/18.0
@@ -152,7 +169,11 @@ msgstr "Email client Flutterwave"
 #: model:ir.model.fields,field_description:payment_flutterwave.field_payment_provider__flutterwave_public_key
 msgid "Flutterwave Public Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cheie publică Flutterwave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cheie publică Flutterwave"
 >>>>>>> upstream/18.0
@@ -161,7 +182,11 @@ msgstr "Cheie publică Flutterwave"
 #: model:ir.model.fields,field_description:payment_flutterwave.field_payment_provider__flutterwave_secret_key
 msgid "Flutterwave Secret Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cheie secretă Flutterwave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cheie secretă Flutterwave"
 >>>>>>> upstream/18.0
@@ -170,7 +195,11 @@ msgstr "Cheie secretă Flutterwave"
 #: model:ir.model.fields,field_description:payment_flutterwave.field_payment_provider__flutterwave_webhook_secret
 msgid "Flutterwave Webhook Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Secret webhook Flutterwave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Secret webhook Flutterwave"
 >>>>>>> upstream/18.0
@@ -180,7 +209,11 @@ msgstr "Secret webhook Flutterwave"
 #: code:addons/payment_flutterwave/models/payment_transaction.py:0
 msgid "No transaction found matching reference %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu s-a găsit nicio tranzacție care să se potrivească cu referința %s."
+=======
+msgstr "Nu a fost găsită nicio tranzacție care să corespundă referinței %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu a fost găsită nicio tranzacție care să corespundă referinței %s."
 >>>>>>> upstream/18.0
@@ -189,7 +222,11 @@ msgstr "Nu a fost găsită nicio tranzacție care să corespundă referinței %s
 #: model:ir.model,name:payment_flutterwave.model_payment_provider
 msgid "Payment Provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Procesator de plată"
+=======
+msgstr "Procesator de plăți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procesator de plăți"
 >>>>>>> upstream/18.0
@@ -203,7 +240,11 @@ msgstr "Token de plată"
 #: model:ir.model,name:payment_flutterwave.model_payment_transaction
 msgid "Payment Transaction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tranzacție plată"
+=======
+msgstr "Tranzacție de plată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tranzacție de plată"
 >>>>>>> upstream/18.0
@@ -222,7 +263,11 @@ msgid "Public Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cheie publică"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cheie publică"
 >>>>>>> upstream/18.0
@@ -267,7 +312,11 @@ msgstr "Date primite fără referință."
 #: model_terms:ir.ui.view,arch_db:payment_flutterwave.payment_provider_form
 msgid "Secret Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cheie Secret"
+=======
+msgstr "Cheie secretă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cheie secretă"
 >>>>>>> upstream/18.0
@@ -280,6 +329,11 @@ msgid ""
 "information: '%s'"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Comunicarea cu API-ul a eșuat. Flutterwave ne-a oferit următoarea "
+"informație: '%s'"
+>>>>>>> upstream/18.0
 =======
 "Comunicarea cu API-ul a eșuat. Flutterwave ne-a oferit următoarea "
 "informație: '%s'"
@@ -289,7 +343,11 @@ msgstr ""
 #: model:ir.model.fields,help:payment_flutterwave.field_payment_token__flutterwave_customer_email
 msgid "The email of the customer at the time the token was created."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Emailul clientului la momentul creării tokenului."
+>>>>>>> upstream/18.0
 =======
 msgstr "Emailul clientului la momentul creării tokenului."
 >>>>>>> upstream/18.0
@@ -298,7 +356,11 @@ msgstr "Emailul clientului la momentul creării tokenului."
 #: model:ir.model.fields,help:payment_flutterwave.field_payment_provider__flutterwave_public_key
 msgid "The key solely used to identify the account with Flutterwave."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cheia folosită exclusiv pentru identificarea contului la Flutterwave."
+>>>>>>> upstream/18.0
 =======
 msgstr "Cheia folosită exclusiv pentru identificarea contului la Flutterwave."
 >>>>>>> upstream/18.0
@@ -307,7 +369,11 @@ msgstr "Cheia folosită exclusiv pentru identificarea contului la Flutterwave."
 #: model:ir.model.fields,help:payment_flutterwave.field_payment_provider__code
 msgid "The technical code of this payment provider."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cod tehnic al acestui procesator de plată"
+=======
+msgstr "Codul tehnic al acestui procesator de plăți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codul tehnic al acestui procesator de plăți"
 >>>>>>> upstream/18.0
@@ -323,7 +389,11 @@ msgstr "Tranzacția nu este legată de un token."
 #: code:addons/payment_flutterwave/models/payment_transaction.py:0
 msgid "Unknown payment status: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status plată necunoscut: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status plată necunoscut: %s"
 >>>>>>> upstream/18.0
@@ -332,7 +402,11 @@ msgstr "Status plată necunoscut: %s"
 #: model_terms:ir.ui.view,arch_db:payment_flutterwave.payment_provider_form
 msgid "Webhook Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Secret webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Secret webhook"
 >>>>>>> upstream/18.0

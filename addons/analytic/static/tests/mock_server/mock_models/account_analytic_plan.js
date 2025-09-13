@@ -6,7 +6,10 @@ export class AccountAnalyticPlan extends models.ServerModel {
     name = fields.Char()
     parent_id = fields.Many2one({ relation: "account.analytic.plan" })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     get_relevant_plans() {
         return this.filter((plan) => !plan.parent_id).map((plan) => {
@@ -20,5 +23,8 @@ export class AccountAnalyticPlan extends models.ServerModel {
             }
         })
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }

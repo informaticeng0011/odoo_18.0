@@ -1,23 +1,30 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes_gs1_nomenclature
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * barcodes_gs1_nomenclature
 #
 # Translators:
 # Wil Odoo, 2024
 #
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-08 18:38+0000\n"
 "PO-Revision-Date: 2025-08-15 16:52+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
@@ -52,6 +61,9 @@ msgid ""
 msgstr ""
 "Найдено соответствие шаблону номенклатуры штрихкода GS1. Однако не удалось "
 "преобразовать штрихкод в допустимую дату: «%(error_message)»"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
@@ -66,8 +78,13 @@ msgid ""
 "begin/end of any related rules pattern."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Альтернативный разделитель regex для FNC1. Разделитель не должен совпадать с"
 " началом/концом любого связанного шаблона правил."
+=======
+"Альтернативный разделитель regex для FNC1. Разделитель не должен совпадать с "
+"началом/концом любого связанного шаблона правил."
+>>>>>>> upstream/18.0
 =======
 "Альтернативный разделитель regex для FNC1. Разделитель не должен совпадать с "
 "началом/концом любого связанного шаблона правил."
@@ -210,6 +227,11 @@ msgstr "Количество"
 msgid "The FNC1 Separator Alternative is not a valid Regex: %(error)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Альтернативный разделитель FNC1 не является допустимым регулярным выражением:"
+" %(error)s"
+>>>>>>> upstream/18.0
 =======
 "Альтернативный разделитель FNC1 не является допустимым регулярным выражением:"
 " %(error)s"
@@ -248,6 +270,11 @@ msgstr ""
 msgid "The rule pattern '%(rule)s' is not a valid Regex: %(error)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Шаблон правила «%(rule)s» не является допустимым регулярным выражением: "
+"%(error)s"
+>>>>>>> upstream/18.0
 =======
 "Шаблон правила «%(rule)s» не является допустимым регулярным выражением: "
 "%(error)s"
@@ -259,6 +286,7 @@ msgstr ""
 msgid ""
 "There is something wrong with the barcode rule \"%s\" pattern.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
@@ -266,6 +294,8 @@ msgstr ""
 "Если это правило использует десятичную систему счисления, проверьте, не может ли оно получить в качестве последнего символа идентификатора приложения что-то еще, кроме цифры.\n"
 "Проверьте также, что возможные совпадающие значения могут быть только цифрами, иначе значение не может быть преобразовано в меру."
 =======
+=======
+>>>>>>> upstream/18.0
 "If this rule uses decimal, check it can't get sometime else than a digit as "
 "last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the "
@@ -277,6 +307,9 @@ msgstr ""
 "приложения что-то еще, кроме цифры.\n"
 "Проверьте также, что возможные совпадающие значения могут быть только "
 "цифрами, иначе значение не может быть преобразовано в меру."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature

@@ -7,7 +7,11 @@ from unittest.mock import patch
 from odoo import fields
 from odoo.tests import new_test_user
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import tagged, TransactionCase
+=======
+from odoo.tests.common import tagged, TransactionCase, freeze_time
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import tagged, TransactionCase, freeze_time
 >>>>>>> upstream/18.0
@@ -46,7 +50,10 @@ class TestHrAttendance(TransactionCase):
         assert self.test_employee.attendance_state == 'checked_out'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_employee_group_id(self):
         # Create attendance for one of them
         self.env['hr.attendance'].create({
@@ -87,6 +94,9 @@ class TestHrAttendance(TransactionCase):
         self.assertIn(self.test_employee.id, grouped_employee_ids)
         self.assertIn(self.employee_kiosk.id, grouped_employee_ids)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_hours_today(self):
         """ Test day start is correctly computed according to the employee's timezone """
@@ -110,7 +120,10 @@ class TestHrAttendance(TransactionCase):
         with patch.object(fields.Datetime, 'now', lambda: tz_datetime(2019, 3, 2, 14, 0).astimezone(pytz.utc).replace(tzinfo=None)):
             self.assertEqual(employee.hours_today, 5, "It should have counted 5 hours")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @freeze_time("2024-02-1")
     def test_change_in_out_mode_when_manual_modification(self):
@@ -140,4 +153,7 @@ class TestHrAttendance(TransactionCase):
         self.assertEqual(attendance.in_mode, 'manual')
         self.assertEqual(attendance.out_mode, 'manual')
         self.assertEqual(attendance.color, 0)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

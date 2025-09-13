@@ -755,7 +755,10 @@ class TestProjectPurchaseProfitability(TestProjectProfitabilityCommon, TestPurch
             'to_bill': 0.0,
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_profitability_foreign_currency_rate_on_bill_date(self):
         """Test that project profitability uses the correct currency rate (on bill date) for vendor bills in foreign currency."""
@@ -823,4 +826,7 @@ class TestProjectPurchaseProfitability(TestProjectProfitabilityCommon, TestPurch
             float_compare(actual_billed, expected_cost, precision_digits=2) == 0,
             f"Expected billed {expected_cost}, got {actual_billed}"
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

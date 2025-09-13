@@ -3,6 +3,10 @@
 from odoo.tests import TransactionCase
 from odoo.exceptions import UserError
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
@@ -38,7 +42,10 @@ class TestGeoLocalize(TransactionCase):
         self.assertFalse(test_partner.partner_latitude)
         self.assertFalse(test_partner.date_localization)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 
 @odoo.tests.tagged('-at_install', 'post_install')
@@ -67,4 +74,7 @@ class TestPartnerGeoLocalization(TransactionCase):
                 'message': "No match found for Test A, Other Address address(es).",
             })
             mock_send.reset_mock()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

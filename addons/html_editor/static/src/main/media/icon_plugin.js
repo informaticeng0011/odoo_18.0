@@ -3,6 +3,11 @@ import { Plugin } from "../../plugin";
 import { _t } from "@web/core/l10n/translation";
 import { ColorSelector } from "../font/color_selector";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { isZWS } from "@html_editor/utils/dom_info";
+import { nodeSize } from "@html_editor/utils/position";
+>>>>>>> upstream/18.0
 =======
 import { isZWS } from "@html_editor/utils/dom_info";
 import { nodeSize } from "@html_editor/utils/position";
@@ -49,6 +54,7 @@ export class IconPlugin extends Plugin {
             {
                 id: "icon",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 isApplied: (traversedNodes) =>
                     traversedNodes.every(
                         (node) =>
@@ -57,6 +63,9 @@ export class IconPlugin extends Plugin {
                             node.parentElement.classList.contains("fa") ||
                             (node.querySelector?.(".fa") && node.isContentEditable !== false)
                     ),
+=======
+                isApplied: this.isSelectingOnlyIcons.bind(this),
+>>>>>>> upstream/18.0
 =======
                 isApplied: this.isSelectingOnlyIcons.bind(this),
 >>>>>>> upstream/18.0
@@ -131,6 +140,7 @@ export class IconPlugin extends Plugin {
             },
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
         color_apply_overrides: this.applyIconColor.bind(this),
     };
 
@@ -152,6 +162,8 @@ export class IconPlugin extends Plugin {
         if (size !== "1") {
             selectedIcon.classList.add(`fa-${size}x`);
 =======
+=======
+>>>>>>> upstream/18.0
         /** Handlers */
         selectionchange_handlers: this.normalizeIconSelection.bind(this),
     };
@@ -209,6 +221,9 @@ export class IconPlugin extends Plugin {
         }
         if (size !== "1") {
             targetedIcon.classList.add(`fa-${size}x`);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         this.dependencies.history.addStep();
@@ -216,7 +231,11 @@ export class IconPlugin extends Plugin {
 
     toggleSpinIcon() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedIcon = this.getSelectedIcon();
+=======
+        const selectedIcon = this.getTargetedIcon();
+>>>>>>> upstream/18.0
 =======
         const selectedIcon = this.getTargetedIcon();
 >>>>>>> upstream/18.0
@@ -225,16 +244,22 @@ export class IconPlugin extends Plugin {
         }
         selectedIcon.classList.toggle("fa-spin");
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 
     hasIconSize(size) {
         const selectedIcon = this.getSelectedIcon();
 =======
+=======
+>>>>>>> upstream/18.0
         this.dependencies.history.addStep();
     }
 
     hasIconSize(size) {
         const selectedIcon = this.getTargetedIcon();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (!selectedIcon) {
             return;
@@ -249,7 +274,11 @@ export class IconPlugin extends Plugin {
 
     hasSpinIcon() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedIcon = this.getSelectedIcon();
+=======
+        const selectedIcon = this.getTargetedIcon();
+>>>>>>> upstream/18.0
 =======
         const selectedIcon = this.getTargetedIcon();
 >>>>>>> upstream/18.0
@@ -258,6 +287,7 @@ export class IconPlugin extends Plugin {
         }
         return selectedIcon.classList.contains("fa-spin");
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     applyIconColor(color, mode) {
@@ -268,6 +298,8 @@ export class IconPlugin extends Plugin {
         this.dependencies.color.colorElement(selectedIcon, color, mode);
         return true;
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 }

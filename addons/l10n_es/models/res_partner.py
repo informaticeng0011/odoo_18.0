@@ -9,7 +9,10 @@ class ResPartner(models.Model):
 
         return self.country_id.code not in ('ES', False) or (self.vat or '').startswith("ESN")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _l10n_es_edi_get_partner_info(self):
         """ Used in SII and Veri*factu"""
@@ -37,4 +40,7 @@ class ResPartner(models.Model):
             if self.country_id:
                 partner_info['IDOtro']['CodigoPais'] = self.country_id.code
         return partner_info
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

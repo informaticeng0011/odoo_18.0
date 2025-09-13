@@ -19,6 +19,10 @@ class StockPicking(models.Model):
         default='SEVK',
         tracking=True,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -28,6 +32,10 @@ class StockPicking(models.Model):
         help="Used when the dispatch is made through a third-party carrier company. Populating this makes the Vehicle Plate and Drivers optional.",
         comodel_name='res.partner',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -37,6 +45,10 @@ class StockPicking(models.Model):
         help="Used for the original party who purchases the good when the Delivery Address is for another recipient",
         comodel_name='res.partner',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -46,6 +58,10 @@ class StockPicking(models.Model):
         help="Used for the information of the supplier of the goods in the delivery note.",
         comodel_name='res.partner',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -55,14 +71,20 @@ class StockPicking(models.Model):
         help="Used for the original initiator of the goods acquisition and requesting process.",
         comodel_name='res.partner',
 <<<<<<< HEAD
+<<<<<<< HEAD
     )
     l10n_tr_nilvera_delivery_printed_number = fields.Char(string="Printed Delivery Note Number")
     l10n_tr_nilvera_delivery_date = fields.Date(string="Printed Delivery Note Date")
 =======
+=======
+>>>>>>> upstream/18.0
         copy=False,
     )
     l10n_tr_nilvera_delivery_printed_number = fields.Char(string="Printed Delivery Note Number", copy=False)
     l10n_tr_nilvera_delivery_date = fields.Date(string="Printed Delivery Note Date", copy=False)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     l10n_tr_vehicle_plate = fields.Many2one(
         string="Vehicle Plate",
@@ -70,6 +92,10 @@ class StockPicking(models.Model):
         comodel_name='l10n_tr.nilvera.trailer.plate',
         domain="[('plate_number_type', '=', 'vehicle')]",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -81,6 +107,10 @@ class StockPicking(models.Model):
         domain="[('plate_number_type', '=', 'trailer')]",
         relation='l10n_tr_nilvera_delivery_vehicle_rel',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -90,8 +120,14 @@ class StockPicking(models.Model):
         help="Used for the individuals driving the truck.",
         comodel_name='res.partner',
 <<<<<<< HEAD
+<<<<<<< HEAD
     )
     l10n_tr_nilvera_delivery_notes = fields.Char(string="Delivery Notes")
+=======
+        copy=False,
+    )
+    l10n_tr_nilvera_delivery_notes = fields.Char(string="Delivery Notes", copy=False)
+>>>>>>> upstream/18.0
 =======
         copy=False,
     )
@@ -102,6 +138,10 @@ class StockPicking(models.Model):
         selection=[('to_send', "To Send"), ('sent', "Sent")],
         tracking=True,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -117,13 +157,19 @@ class StockPicking(models.Model):
     def _compute_edispatch_warnings(self):
         for picking in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
             if picking.country_code == 'TR' and picking.picking_type_code == 'outgoing' and picking.state == 'done':
 =======
+=======
+>>>>>>> upstream/18.0
             if (
                 picking.country_code == "TR"
                 and picking.picking_type_code == "outgoing"
                 and picking.state in {"assigned", "done"}
             ):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 picking.l10n_tr_nilvera_edispatch_warnings = picking._l10n_tr_validate_edispatch_fields()
             else:
@@ -131,6 +177,7 @@ class StockPicking(models.Model):
 
     def button_validate(self):
         res = super().button_validate()
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.filtered(
             lambda p: p.country_code == 'TR' and p.state == 'done' and p.picking_type_code == 'outgoing'
@@ -149,6 +196,8 @@ class StockPicking(models.Model):
         partners = (
             self.company_id.partner_id
 =======
+=======
+>>>>>>> upstream/18.0
         for picking in self:
             if picking.country_code != 'TR' or picking.picking_type_code != 'outgoing' or picking.state != 'done':
                 continue
@@ -165,6 +214,9 @@ class StockPicking(models.Model):
             self.company_id.partner_id
             | self.partner_id
             | self.partner_id.commercial_partner_id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             | self.l10n_tr_nilvera_carrier_id
             | self.l10n_tr_nilvera_buyer_id
@@ -172,10 +224,15 @@ class StockPicking(models.Model):
             | self.l10n_tr_nilvera_buyer_originator_id
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
         # `is_delivery_partner` ensures that Delivery Partner's ZIP is present regardless of the partner country.
         error_messages = self.partner_id._l10n_tr_nilvera_validate_partner_details(is_delivery_partner=True)
         partners = partners - self.partner_id
         error_messages.update(partners._l10n_tr_nilvera_validate_partner_details())
+=======
+
+        error_messages = partners._l10n_tr_nilvera_validate_partner_details()
+>>>>>>> upstream/18.0
 =======
 
         error_messages = partners._l10n_tr_nilvera_validate_partner_details()
@@ -244,7 +301,10 @@ class StockPicking(models.Model):
         return error_messages or False
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _l10n_tr_validate_edispatch_fields(self):
         self.ensure_one()
         if self.state not in {'assigned', 'done'}:
@@ -262,6 +322,9 @@ class StockPicking(models.Model):
         if self.state == 'done':
             return self._l10n_tr_validate_edispatch_on_done()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _l10n_tr_generate_edispatch_xml(self):
         dispatch_uuid = str(uuid.uuid4())
@@ -297,6 +360,10 @@ class StockPicking(models.Model):
             'default_tckn': '22222222222',
             'dispatch_scenario': 'TEMELIRSALIYE',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'copy_indicator': 'false',
+>>>>>>> upstream/18.0
 =======
             'copy_indicator': 'false',
 >>>>>>> upstream/18.0

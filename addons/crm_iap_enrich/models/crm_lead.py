@@ -69,6 +69,10 @@ class Lead(models.Model):
                         normalized_email = tools.email_normalize(lead.email_from)
                         if not normalized_email:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            lead.write({'iap_enrich_done': True})
+>>>>>>> upstream/18.0
 =======
                             lead.write({'iap_enrich_done': True})
 >>>>>>> upstream/18.0

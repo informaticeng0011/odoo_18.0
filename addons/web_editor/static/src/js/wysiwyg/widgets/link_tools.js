@@ -517,13 +517,19 @@ export class LinkTools extends Link {
         this._updateOptionsUI();
         this._adaptPreview();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         // Reactivate the snippet to update the Button snippet editor's visibility
         // if the element type has changed (e.g., from button to link or vice versa).
         this.props.wysiwyg.snippetsMenuBus.trigger("ACTIVATE_SNIPPET", {
             $snippet: $(this.linkEl),
             onSuccess: () => { },
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     /**

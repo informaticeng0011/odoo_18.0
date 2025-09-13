@@ -164,9 +164,12 @@ class ThreadController(http.Controller):
         message = message.sudo()
         body = Markup(body) if body else body  # may contain HTML such as @mentions
 <<<<<<< HEAD
+<<<<<<< HEAD
         guest.env[message.model].browse([message.res_id])._message_update_content(
             message, body=body, attachment_ids=attachment_ids, partner_ids=partner_ids
 =======
+=======
+>>>>>>> upstream/18.0
         thread = request.env[message.model].browse(message.res_id)
         update_data = {
             "attachment_ids": attachment_ids,
@@ -181,6 +184,9 @@ class ThreadController(http.Controller):
                 for key, value in update_data.items()
                 if key in thread._get_allowed_message_update_params()
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         )
         return Store(message, for_current_user=True).get_result()

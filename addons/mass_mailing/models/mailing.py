@@ -51,6 +51,11 @@ class MassMailing(models.Model):
     _systray_view = 'list'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _unrestricted_rendering = True
+
+>>>>>>> upstream/18.0
 =======
     _unrestricted_rendering = True
 
@@ -462,7 +467,12 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for mailing in self:
+=======
+        self.warning_message = False
+        for mailing in self.filtered(lambda mailing: mailing.mailing_type == "mail"):
+>>>>>>> upstream/18.0
 =======
         self.warning_message = False
         for mailing in self.filtered(lambda mailing: mailing.mailing_type == "mail"):
@@ -1517,9 +1527,15 @@ class MassMailing(models.Model):
 
             # auto-commit except in testing mode
 <<<<<<< HEAD
+<<<<<<< HEAD
             composer._action_send_mail(
                 auto_commit=not getattr(threading.current_thread(), 'testing', False)
             )
+=======
+            auto_commit = not getattr(threading.current_thread(), 'testing', False)
+            composer._action_send_mail(auto_commit=auto_commit)
+
+>>>>>>> upstream/18.0
 =======
             auto_commit = not getattr(threading.current_thread(), 'testing', False)
             composer._action_send_mail(auto_commit=auto_commit)
@@ -1532,12 +1548,18 @@ class MassMailing(models.Model):
                 'kpi_mail_required': not mailing.sent_date,
             })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
             # ensure mailing state update after auto-commit
             if auto_commit is True:
                 self.env.cr.commit()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return True
 

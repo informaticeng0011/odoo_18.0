@@ -2,7 +2,10 @@ import { livechatModels } from "@im_livechat/../tests/livechat_test_helpers";
 import { fields } from "@web/../tests/web_test_helpers";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 function historyDataToString(history) {
     const formatDateTime = (dateTime) => {
         const match = dateTime.match(/.* ([0-9]{2}:[0-9]{2}:)/);
@@ -11,6 +14,9 @@ function historyDataToString(history) {
     return history.map((h) => `${h[0]} (${formatDateTime(h[1])})`).join(" → ");
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 export class DiscussChannel extends livechatModels.DiscussChannel {
     livechat_visitor_id = fields.Many2one({ relation: "website.visitor", string: "Visitor" }); // FIXME: somehow not fetched properly
@@ -40,11 +46,14 @@ export class DiscussChannel extends livechatModels.DiscussChannel {
                 const [partner] = ResPartner.browse(visitor.partner_id);
                 const [country] = ResCountry.browse(visitor.country_id);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 channelInfo.visitor = {
                     country: country ? { id: country.id, code: country.code } : false,
                     name: partner?.name || partner?.display_name || visitor.display_name || `Visitor #${visitor.id}`,
                     history: visitor.history, // TODO should be computed
 =======
+=======
+>>>>>>> upstream/18.0
                 const visitorHistoryData = JSON.parse(visitor.history_data || "[]");
 
                 channelInfo.visitor = {
@@ -52,6 +61,9 @@ export class DiscussChannel extends livechatModels.DiscussChannel {
                     name: partner?.name || partner?.display_name || visitor.display_name || `Visitor #${visitor.id}`,
                     history: historyDataToString(visitorHistoryData),
                     history_data: visitorHistoryData,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     id: visitor.id,
                     is_connected: visitor.is_connected,

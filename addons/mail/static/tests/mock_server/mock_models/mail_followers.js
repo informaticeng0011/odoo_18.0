@@ -6,7 +6,10 @@ export class MailFollowers extends models.ServerModel {
     _name = "mail.followers";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /* override */
     _compute_display_name() {
         for (const record of this) {
@@ -15,6 +18,9 @@ export class MailFollowers extends models.ServerModel {
         }
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     _to_store(ids, store, fields) {
         const kwargs = getKwArgs(arguments, "ids", "store", "fields");

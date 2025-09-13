@@ -5,6 +5,10 @@
 # Translators:
 # Martin Trigaux, 2018
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2025.
 >>>>>>> upstream/18.0
@@ -13,6 +17,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-05 12:31+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2018-09-21 13:17+0000\n"
 "Last-Translator: Martin Trigaux, 2018\n"
@@ -24,6 +29,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-07 20:26+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -35,6 +42,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_ldap
@@ -58,7 +68,10 @@ msgid ""
 "    "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "    Filter koji se koristi za pretragu korisničkih naloga u LDAP bazi "
 "podataka. To je    proizvoljni LDAP filter u string reprezentaciji. Bilo "
 "koji `%s` rezervisani tekst    biće zamenjen prijavnim imenom "
@@ -76,6 +89,9 @@ msgstr ""
 "\n"
 "        (|(mail=%s)(uid=%s))\n"
 "    "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_ldap
@@ -101,7 +117,11 @@ msgstr "Kompanija"
 #: model:ir.model,name:auth_ldap.model_res_company_ldap
 msgid "Company LDAP configuration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podešavanje kompanijskog LDAP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podešavanje kompanijskog LDAP"
 >>>>>>> upstream/18.0
@@ -110,7 +130,11 @@ msgstr "Podešavanje kompanijskog LDAP"
 #: model:ir.model,name:auth_ldap.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podešavanja konfiguracije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podešavanja konfiguracije"
 >>>>>>> upstream/18.0
@@ -119,7 +143,11 @@ msgstr "Podešavanja konfiguracije"
 #: model:ir.model.fields,field_description:auth_ldap.field_res_company_ldap__create_user
 msgid "Create User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj korisnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj korisnika"
 >>>>>>> upstream/18.0
@@ -141,6 +169,11 @@ msgid ""
 "for users."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"DN opsega pretrage korisnika: svi potomci ove baze će biti pretraživani za "
+"korisnike."
+>>>>>>> upstream/18.0
 =======
 "DN opsega pretrage korisnika: svi potomci ove baze će biti pretraživani za "
 "korisnike."
@@ -172,7 +205,11 @@ msgstr "LDAP parametri"
 #: model_terms:ir.ui.view,arch_db:auth_ldap.res_config_settings_view_form
 msgid "LDAP Server"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "LDAP Server"
+>>>>>>> upstream/18.0
 =======
 msgstr "LDAP Server"
 >>>>>>> upstream/18.0
@@ -228,6 +265,11 @@ msgstr "Informacije o Prijavi"
 msgid "No local user found for LDAP login and not configured to create one"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nije pronađen lokalni korisnik za LDAP prijavu i nije konfigurisan za "
+"kreiranje jednog"
+>>>>>>> upstream/18.0
 =======
 "Nije pronađen lokalni korisnik za LDAP prijavu i nije konfigurisan za "
 "kreiranje jednog"
@@ -296,7 +338,11 @@ msgstr "Koristi TLS"
 #: model:ir.model,name:auth_ldap.model_res_users
 msgid "User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korisnik"
 >>>>>>> upstream/18.0

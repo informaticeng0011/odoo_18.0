@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* marketing_card
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -12,17 +13,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Ilya Rozhkov, 2025
 # Anastasiia Koroleva, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,6 +307,8 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-08 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Anastasiia Koroleva, 2025\n"
@@ -311,6 +320,9 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: marketing_card
@@ -318,7 +330,11 @@ msgstr ""
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "%(card_campaign_name)s Mailings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Рассылки по кампании «%(card_campaign_name)s»"
+>>>>>>> upstream/18.0
 =======
 msgstr "Рассылки по кампании «%(card_campaign_name)s»"
 >>>>>>> upstream/18.0
@@ -333,7 +349,13 @@ msgstr ""
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" title=\"Shares\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" "
+"title=\"Shares\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" "
@@ -345,7 +367,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
 msgid "<small>Where does this link to?</small>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<small>Куда ведет эта ссылка?</small>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<small>Куда ведет эта ссылка?</small>"
 >>>>>>> upstream/18.0
@@ -358,6 +384,12 @@ msgid ""
 "                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                Карточки\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                                Карточки\n"
@@ -372,6 +404,12 @@ msgid ""
 "                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                Переходы по ссылке\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                                Переходы по ссылке\n"
@@ -386,6 +424,12 @@ msgid ""
 "                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                Рассылки\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                                Рассылки\n"
@@ -400,6 +444,12 @@ msgid ""
 "                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                Количество открытий\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                                Количество открытий\n"
@@ -414,6 +464,12 @@ msgid ""
 "                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                Поделились\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                                Поделились\n"
@@ -435,7 +491,11 @@ msgstr "Активный"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__activity_ids
 msgid "Activities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Активность"
+=======
+msgstr "Дела"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дела"
 >>>>>>> upstream/18.0
@@ -444,7 +504,11 @@ msgstr "Дела"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__activity_exception_decoration
 msgid "Activity Exception Decoration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Оформление исключения активности"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -453,7 +517,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__activity_state
 msgid "Activity State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Состояние активности"
+=======
+msgstr "Статус дела"
+>>>>>>> upstream/18.0
 =======
 msgstr "Статус дела"
 >>>>>>> upstream/18.0
@@ -462,7 +530,11 @@ msgstr "Статус дела"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__activity_type_icon
 msgid "Activity Type Icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Значок типа активности"
+=======
+msgstr "Иконка категории дела"
+>>>>>>> upstream/18.0
 =======
 msgstr "Иконка категории дела"
 >>>>>>> upstream/18.0
@@ -477,7 +549,11 @@ msgstr "Архивировано"
 #: model_terms:ir.ui.view,arch_db:marketing_card.mailing_mailing_view_form_inherit_marketing_card
 msgid "Are you sure you want to update all cards of the campaign?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вы уверены, что хотите обновить все карточки кампании?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вы уверены, что хотите обновить все карточки кампании?"
 >>>>>>> upstream/18.0
@@ -526,7 +602,11 @@ msgstr "Карта"
 #: model:ir.model.fields,field_description:marketing_card.field_mailing_mailing__card_campaign_id
 msgid "Card Campaign"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кампания"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кампания"
 >>>>>>> upstream/18.0
@@ -536,7 +616,11 @@ msgstr "Кампания"
 #: code:addons/marketing_card/models/mailing_mailing.py:0
 msgid "Card Campaign Mailing should target model %(model_name)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Рассылка по кампании должна быть нацелена на модель %(model_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Рассылка по кампании должна быть нацелена на модель %(model_name)s"
 >>>>>>> upstream/18.0
@@ -545,7 +629,11 @@ msgstr "Рассылка по кампании должна быть нацел�
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__card_click_count
 msgid "Card Click Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Количество переходов по карточке"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество переходов по карточке"
 >>>>>>> upstream/18.0
@@ -554,7 +642,11 @@ msgstr "Количество переходов по карточке"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__card_count
 msgid "Card Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Количество карточек"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество карточек"
 >>>>>>> upstream/18.0
@@ -563,13 +655,19 @@ msgstr "Количество карточек"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Card Layout"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Макет карточки"
 
 #. module: marketing_card
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "Card Preview"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -577,7 +675,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:marketing_card.field_mailing_mailing__card_requires_sync_count
 msgid "Card Requires Sync Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Количество карточек, требующих синхронизации"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество карточек, требующих синхронизации"
 >>>>>>> upstream/18.0
@@ -586,7 +688,11 @@ msgstr "Количество карточек, требующих синхрон
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__card_share_count
 msgid "Card Share Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Количество поделившихся карточкой"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество поделившихся карточкой"
 >>>>>>> upstream/18.0
@@ -596,7 +702,11 @@ msgstr "Количество поделившихся карточкой"
 #: model:ir.ui.menu,name:marketing_card.cards_template_menu
 msgid "Card Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Шаблон карточки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Шаблон карточки"
 >>>>>>> upstream/18.0
@@ -610,7 +720,11 @@ msgstr "Карточки"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
 msgid "Click here for your reward!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нажмите здесь, чтобы получить бонус!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Нажмите здесь, чтобы получить бонус!"
 >>>>>>> upstream/18.0
@@ -624,7 +738,11 @@ msgstr "Цвет"
 #: model_terms:ir.actions.act_window,help:marketing_card.cards_card_action
 msgid "Create a Card Campaign to send cards to your partners"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создайте карточки для кампании, чтобы отправлять их вашим партнерам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создайте карточки для кампании, чтобы отправлять их вашим партнерам"
 >>>>>>> upstream/18.0
@@ -633,7 +751,11 @@ msgstr "Создайте карточки для кампании, чтобы о
 #: model_terms:ir.actions.act_window,help:marketing_card.card_campaign_action
 msgid "Create a Sharing Campaign!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создайте кампанию, которой можно поделиться!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создайте кампанию, которой можно поделиться!"
 >>>>>>> upstream/18.0
@@ -642,7 +764,11 @@ msgstr "Создайте кампанию, которой можно подел�
 #: model_terms:ir.actions.act_window,help:marketing_card.card_template_action
 msgid "Create a design to use in Card Campaigns"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создайте дизайн карточек для использования в кампаниях"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создайте дизайн карточек для использования в кампаниях"
 >>>>>>> upstream/18.0
@@ -654,7 +780,11 @@ msgstr "Создайте дизайн карточек для использов
 #: model:ir.model.fields,field_description:marketing_card.field_card_template__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -666,7 +796,11 @@ msgstr "Создано:"
 #: model:ir.model.fields,field_description:marketing_card.field_card_template__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -675,7 +809,11 @@ msgstr "Дата создания:"
 #: model:ir.model.fields,field_description:marketing_card.field_card_template__default_background
 msgid "Default Background"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Фон по умолчанию"
+>>>>>>> upstream/18.0
 =======
 msgstr "Фон по умолчанию"
 >>>>>>> upstream/18.0
@@ -684,7 +822,11 @@ msgstr "Фон по умолчанию"
 #: model:ir.model.fields,help:marketing_card.field_card_campaign__post_suggestion
 msgid "Description below the card and default text when sharing on X"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Описание под карточкой и текст по умолчанию при публикации в X"
+>>>>>>> upstream/18.0
 =======
 msgstr "Описание под карточкой и текст по умолчанию при публикации в X"
 >>>>>>> upstream/18.0
@@ -706,7 +848,11 @@ msgstr "Отображаемое имя"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Dynamic Field?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Динамическое поле?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Динамическое поле?"
 >>>>>>> upstream/18.0
@@ -715,7 +861,11 @@ msgstr "Динамическое поле?"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_image1_path
 msgid "Dynamic Image 1"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Динамическое изображение 1"
+>>>>>>> upstream/18.0
 =======
 msgstr "Динамическое изображение 1"
 >>>>>>> upstream/18.0
@@ -724,7 +874,11 @@ msgstr "Динамическое изображение 1"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_image2_path
 msgid "Dynamic Image 2"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Динамическое изображение 2"
+>>>>>>> upstream/18.0
 =======
 msgstr "Динамическое изображение 2"
 >>>>>>> upstream/18.0
@@ -733,7 +887,11 @@ msgstr "Динамическое изображение 2"
 #: model:ir.model.constraint,message:marketing_card.constraint_card_card_campaign_record_unique
 msgid "Each record should be unique for a campaign"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Каждая запись в кампании должна быть уникальной"
+>>>>>>> upstream/18.0
 =======
 msgstr "Каждая запись в кампании должна быть уникальной"
 >>>>>>> upstream/18.0
@@ -742,7 +900,11 @@ msgstr "Каждая запись в кампании должна быть ун
 #: model:ir.model,name:marketing_card.model_mail_compose_message
 msgid "Email composition wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Мастер составления Email"
+=======
+msgstr "Инструмент для создания писем"
+>>>>>>> upstream/18.0
 =======
 msgstr "Инструмент для создания писем"
 >>>>>>> upstream/18.0
@@ -751,7 +913,11 @@ msgstr "Инструмент для создания писем"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_card_view_search
 msgid "Filter By"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Фильтровать по"
+>>>>>>> upstream/18.0
 =======
 msgstr "Фильтровать по"
 >>>>>>> upstream/18.0
@@ -770,7 +936,11 @@ msgstr "Подписчики"
 #: model:ir.model.fields,help:marketing_card.field_card_campaign__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Шрифт, отличный значок, например. к.-а.-задачи"
+=======
+msgstr "Иконка Font awesome, например, fa-tasks"
+>>>>>>> upstream/18.0
 =======
 msgstr "Иконка Font awesome, например, fa-tasks"
 >>>>>>> upstream/18.0
@@ -800,13 +970,19 @@ msgstr "Цвет заголовка"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_header_path
 msgid "Header Path"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Путь к заголовку"
 
 #. module: marketing_card
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "Hello everyone"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -815,7 +991,11 @@ msgstr ""
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "Help us share the news"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Помогите нам поделиться новостями"
+>>>>>>> upstream/18.0
 =======
 msgstr "Помогите нам поделиться новостями"
 >>>>>>> upstream/18.0
@@ -824,13 +1004,19 @@ msgstr "Помогите нам поделиться новостями"
 #: model:ir.module.category,description:marketing_card.module_category_marketing_card
 msgid "Helps you manage marketing card campaigns."
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Помогает управлять кампаниями с маркетинговыми карточками."
 
 #. module: marketing_card
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "Here's the link to advertise your participation."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -851,7 +1037,11 @@ msgstr "Иконка"
 #: model:ir.model.fields,help:marketing_card.field_card_campaign__activity_exception_icon
 msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Значок, обозначающий исключение Дела."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -877,7 +1067,11 @@ msgstr "Изображение"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__image_preview
 msgid "Image Preview"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Предварительный просмотр изображения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Предварительный просмотр изображения"
 >>>>>>> upstream/18.0
@@ -886,7 +1080,11 @@ msgstr "Предварительный просмотр изображения"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_header_dyn
 msgid "Is Dynamic Header"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Динамический заголовок"
+>>>>>>> upstream/18.0
 =======
 msgstr "Динамический заголовок"
 >>>>>>> upstream/18.0
@@ -895,7 +1093,11 @@ msgstr "Динамический заголовок"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_section_dyn
 msgid "Is Dynamic Section"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Динамический раздел"
+>>>>>>> upstream/18.0
 =======
 msgstr "Динамический раздел"
 >>>>>>> upstream/18.0
@@ -904,7 +1106,11 @@ msgstr "Динамический раздел"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_sub_header_dyn
 msgid "Is Dynamic Sub-Header"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Динамический подзаголовок"
+>>>>>>> upstream/18.0
 =======
 msgstr "Динамический подзаголовок"
 >>>>>>> upstream/18.0
@@ -913,7 +1119,11 @@ msgstr "Динамический подзаголовок"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_sub_section1_dyn
 msgid "Is Dynamic Sub-Section 1"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Динамический подраздел 1"
+>>>>>>> upstream/18.0
 =======
 msgstr "Динамический подраздел 1"
 >>>>>>> upstream/18.0
@@ -922,7 +1132,11 @@ msgstr "Динамический подраздел 1"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_sub_section2_dyn
 msgid "Is Dynamic Sub-Section 2"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Динамический подраздел 2"
+>>>>>>> upstream/18.0
 =======
 msgstr "Динамический подраздел 2"
 >>>>>>> upstream/18.0
@@ -936,7 +1150,11 @@ msgstr "Является подписчиком"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Join me at this event!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Присоединяйся ко мне на этом мероприятии!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Присоединяйся ко мне на этом мероприятии!"
 >>>>>>> upstream/18.0
@@ -954,7 +1172,11 @@ msgstr "Язык"
 msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -970,7 +1192,11 @@ msgstr "Последнее обновление:"
 msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -992,13 +1218,19 @@ msgstr "Рассылка"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__mailing_count
 msgid "Mailing Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Количество рассылок"
 
 #. module: marketing_card
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "Many thanks"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1009,7 +1241,11 @@ msgstr ""
 #: model:ir.ui.menu,name:marketing_card.marketing_card_menu_technical
 msgid "Marketing Card"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Маркетинговая карта"
+=======
+msgstr "Маркетинговая карточка"
+>>>>>>> upstream/18.0
 =======
 msgstr "Маркетинговая карточка"
 >>>>>>> upstream/18.0
@@ -1018,7 +1254,11 @@ msgstr "Маркетинговая карточка"
 #: model:ir.model,name:marketing_card.model_card_campaign
 msgid "Marketing Card Campaign"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кампания с маркетинговыми карточками"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кампания с маркетинговыми карточками"
 >>>>>>> upstream/18.0
@@ -1027,7 +1267,11 @@ msgstr "Кампания с маркетинговыми карточками"
 #: model:ir.model,name:marketing_card.model_card_campaign_tag
 msgid "Marketing Card Campaign Tag"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Тег кампании с маркетинговыми карточками"
+>>>>>>> upstream/18.0
 =======
 msgstr "Тег кампании с маркетинговыми карточками"
 >>>>>>> upstream/18.0
@@ -1036,7 +1280,11 @@ msgstr "Тег кампании с маркетинговыми карточка
 #: model:res.groups,name:marketing_card.marketing_card_group_manager
 msgid "Marketing Card Manager"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Менеджер маркетинговых карточек"
+>>>>>>> upstream/18.0
 =======
 msgstr "Менеджер маркетинговых карточек"
 >>>>>>> upstream/18.0
@@ -1045,7 +1293,11 @@ msgstr "Менеджер маркетинговых карточек"
 #: model:ir.model,name:marketing_card.model_card_template
 msgid "Marketing Card Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Шаблон маркетинговой карточки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Шаблон маркетинговой карточки"
 >>>>>>> upstream/18.0
@@ -1054,7 +1306,11 @@ msgstr "Шаблон маркетинговой карточки"
 #: model:res.groups,name:marketing_card.marketing_card_group_user
 msgid "Marketing Card User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пользователь маркетинговой карточки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пользователь маркетинговой карточки"
 >>>>>>> upstream/18.0
@@ -1087,7 +1343,10 @@ msgid ""
 "Model of campaign %(campaign)s may not be changed as it already has cards"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Модель кампании %(campaign)s не может быть изменена, так как в ней уже есть "
 "карточки"
 
@@ -1095,13 +1354,20 @@ msgstr ""
 #: model:ir.model,name:marketing_card.model_ir_model
 msgid "Models"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__my_activity_date_deadline
 msgid "My Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Крайний срок моей активности"
+=======
+msgstr "Срок выполнения дела"
+>>>>>>> upstream/18.0
 =======
 msgstr "Срок выполнения дела"
 >>>>>>> upstream/18.0
@@ -1122,7 +1388,11 @@ msgstr "Имя"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Следующее событие календаря активности"
+=======
+msgstr "Следующее дело в календаре"
+>>>>>>> upstream/18.0
 =======
 msgstr "Следующее дело в календаре"
 >>>>>>> upstream/18.0
@@ -1131,7 +1401,11 @@ msgstr "Следующее дело в календаре"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__activity_date_deadline
 msgid "Next Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Следующий срок мероприятия"
+=======
+msgstr "Срок выполнения следующего дела"
+>>>>>>> upstream/18.0
 =======
 msgstr "Срок выполнения следующего дела"
 >>>>>>> upstream/18.0
@@ -1140,7 +1414,11 @@ msgstr "Срок выполнения следующего дела"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__activity_summary
 msgid "Next Activity Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Резюме следующего действия"
+=======
+msgstr "Краткое описание следующего дела"
+>>>>>>> upstream/18.0
 =======
 msgstr "Краткое описание следующего дела"
 >>>>>>> upstream/18.0
@@ -1149,7 +1427,11 @@ msgstr "Краткое описание следующего дела"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__activity_type_id
 msgid "Next Activity Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Следующий Тип Мероприятия"
+=======
+msgstr "Категория следующего дела"
+>>>>>>> upstream/18.0
 =======
 msgstr "Категория следующего дела"
 >>>>>>> upstream/18.0
@@ -1158,7 +1440,11 @@ msgstr "Категория следующего дела"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "No button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Без кнопки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Без кнопки"
 >>>>>>> upstream/18.0
@@ -1199,6 +1485,7 @@ msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -1206,12 +1493,17 @@ msgstr ""
 "электронной почты. Если он не задан, будет использоваться английская версия."
 " Как правило, это должно быть выражение-заполнитель, обеспечивающее "
 =======
+=======
+>>>>>>> upstream/18.0
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 msgstr ""
 "Необязательный язык перевода (код ISO) для выбора при отправке сообщения "
 "электронной почты. Если он не задан, будет использоваться английская версия. "
 "Как правило, это должно быть выражение-заполнитель, обеспечивающее "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "соответствующий язык, например {{ object.partner_id.lang }}."
 
@@ -1224,7 +1516,11 @@ msgstr "Опубликовать ссылку"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__post_suggestion
 msgid "Post Suggestion"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Предложение публикации"
+>>>>>>> upstream/18.0
 =======
 msgstr "Предложение публикации"
 >>>>>>> upstream/18.0
@@ -1233,7 +1529,11 @@ msgstr "Предложение публикации"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
 msgid "Powered By"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Работает на базе"
+>>>>>>> upstream/18.0
 =======
 msgstr "Работает на базе"
 >>>>>>> upstream/18.0
@@ -1244,6 +1544,10 @@ msgid ""
 "Prepare a design and some content and let your community spread the word!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Подготовьте дизайн и контент – и пусть сарафанное радио сделает свое дело!"
+>>>>>>> upstream/18.0
 =======
 "Подготовьте дизайн и контент – и пусть сарафанное радио сделает свое дело!"
 >>>>>>> upstream/18.0
@@ -1257,7 +1561,11 @@ msgstr "Предпросмотр"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__preview_record_ref
 msgid "Preview On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Предпросмотр на"
+>>>>>>> upstream/18.0
 =======
 msgstr "Предпросмотр на"
 >>>>>>> upstream/18.0
@@ -1266,7 +1574,11 @@ msgstr "Предпросмотр на"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Preview on..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Предпросмотр на..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Предпросмотр на..."
 >>>>>>> upstream/18.0
@@ -1280,7 +1592,11 @@ msgstr "Основной цвет"
 #: model:ir.model.fields,field_description:marketing_card.field_card_template__primary_text_color
 msgid "Primary Text Color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Основной цвет текста"
+>>>>>>> upstream/18.0
 =======
 msgstr "Основной цвет текста"
 >>>>>>> upstream/18.0
@@ -1293,7 +1609,11 @@ msgstr "Основной цвет текста"
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_5
 msgid "Profile Picture"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Фотография профиля"
+>>>>>>> upstream/18.0
 =======
 msgstr "Фотография профиля"
 >>>>>>> upstream/18.0
@@ -1307,7 +1627,11 @@ msgstr "Рейтинги"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Recipient Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сообщение для получателя"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сообщение для получателя"
 >>>>>>> upstream/18.0
@@ -1321,7 +1645,11 @@ msgstr "Получатели"
 #: model:ir.model.fields,field_description:marketing_card.field_mailing_mailing__mailing_model_id
 msgid "Recipients Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Получатели Модель"
+=======
+msgstr "Модель получателей"
+>>>>>>> upstream/18.0
 =======
 msgstr "Модель получателей"
 >>>>>>> upstream/18.0
@@ -1345,7 +1673,11 @@ msgstr "Запрос"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__request_description
 msgid "Request Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Описание запроса"
+>>>>>>> upstream/18.0
 =======
 msgstr "Описание запроса"
 >>>>>>> upstream/18.0
@@ -1354,7 +1686,11 @@ msgstr "Описание запроса"
 #: model:ir.model.fields,field_description:marketing_card.field_card_card__requires_sync
 msgid "Requires Sync"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Требует синхронизации"
+>>>>>>> upstream/18.0
 =======
 msgstr "Требует синхронизации"
 >>>>>>> upstream/18.0
@@ -1374,7 +1710,11 @@ msgstr "Ответственный пользователь"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__reward_target_url
 msgid "Reward Link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ссылка на бонусное вознаграждение"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ссылка на бонусное вознаграждение"
 >>>>>>> upstream/18.0
@@ -1383,7 +1723,11 @@ msgstr "Ссылка на бонусное вознаграждение"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__message_has_sms_error
 msgid "SMS Delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ошибка доставки SMS"
+=======
+msgstr "Ошибка доставки СМС"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ошибка доставки СМС"
 >>>>>>> upstream/18.0
@@ -1392,7 +1736,11 @@ msgstr "Ошибка доставки СМС"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_card_view_search
 msgid "Search Card"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поиск карточки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поиск карточки"
 >>>>>>> upstream/18.0
@@ -1401,7 +1749,11 @@ msgstr "Поиск карточки"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_search
 msgid "Search Share Campaign"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поиск кампании"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поиск кампании"
 >>>>>>> upstream/18.0
@@ -1415,7 +1767,11 @@ msgstr "Вторичный цвет"
 #: model:ir.model.fields,field_description:marketing_card.field_card_template__secondary_text_color
 msgid "Secondary Text Color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дополнительный цвет текста"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дополнительный цвет текста"
 >>>>>>> upstream/18.0
@@ -1429,7 +1785,11 @@ msgstr "Раздел"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_section_path
 msgid "Section Path"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Путь к разделу"
+>>>>>>> upstream/18.0
 =======
 msgstr "Путь к разделу"
 >>>>>>> upstream/18.0
@@ -1443,7 +1803,11 @@ msgstr "Выберите поле"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
 msgid "Select where to share"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выберите, где поделиться"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выберите, где поделиться"
 >>>>>>> upstream/18.0
@@ -1458,7 +1822,11 @@ msgstr "Отправить"
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "Send Cards"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отправить карточки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отправить карточки"
 >>>>>>> upstream/18.0
@@ -1467,7 +1835,11 @@ msgstr "Отправить карточки"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Share Campaign"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поделиться кампанией"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поделиться кампанией"
 >>>>>>> upstream/18.0
@@ -1476,7 +1848,11 @@ msgstr "Поделиться кампанией"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_card_view_list
 msgid "Share Card"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поделиться карточкой"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поделиться карточкой"
 >>>>>>> upstream/18.0
@@ -1485,7 +1861,11 @@ msgstr "Поделиться карточкой"
 #: model:ir.model.fields,field_description:marketing_card.field_card_card__share_status
 msgid "Share Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Статус распространения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Статус распространения"
 >>>>>>> upstream/18.0
@@ -1499,7 +1879,11 @@ msgstr "Поделится Шаблоном"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
 msgid "Share with your community!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поделитесь с вашим сообществом!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поделитесь с вашим сообществом!"
 >>>>>>> upstream/18.0
@@ -1519,22 +1903,32 @@ msgid ""
 "Planned: Future activities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Статус, основанный на мероприятии\n"
 "Просроченная: Дата, уже прошла\n"
 "Сегодня: Дата мероприятия сегодня\n"
 "Запланировано: будущая деятельность."
 =======
+=======
+>>>>>>> upstream/18.0
 "Статус дел\n"
 "Просроченные: Срок выполнения уже прошел\n"
 "Сегодня: Срок выполнения сегодня\n"
 "Запланированные: Будущие дела."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_sub_header_color
 msgid "Sub Header Color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Цвет подзаголовка"
+>>>>>>> upstream/18.0
 =======
 msgstr "Цвет подзаголовка"
 >>>>>>> upstream/18.0
@@ -1543,7 +1937,11 @@ msgstr "Цвет подзаголовка"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_sub_header
 msgid "Sub-Header"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Подзаголовок"
+>>>>>>> upstream/18.0
 =======
 msgstr "Подзаголовок"
 >>>>>>> upstream/18.0
@@ -1552,7 +1950,11 @@ msgstr "Подзаголовок"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_sub_header_path
 msgid "Sub-Header Path"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Путь к подзаголовку"
+>>>>>>> upstream/18.0
 =======
 msgstr "Путь к подзаголовку"
 >>>>>>> upstream/18.0
@@ -1561,7 +1963,11 @@ msgstr "Путь к подзаголовку"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_sub_section1
 msgid "Sub-Section 1"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Подраздел 1"
+>>>>>>> upstream/18.0
 =======
 msgstr "Подраздел 1"
 >>>>>>> upstream/18.0
@@ -1570,7 +1976,11 @@ msgstr "Подраздел 1"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_sub_section1_path
 msgid "Sub-Section 1 Path"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Путь к подразделу 1"
+>>>>>>> upstream/18.0
 =======
 msgstr "Путь к подразделу 1"
 >>>>>>> upstream/18.0
@@ -1579,7 +1989,11 @@ msgstr "Путь к подразделу 1"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_sub_section2
 msgid "Sub-Section 2"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Подраздел 2"
+>>>>>>> upstream/18.0
 =======
 msgstr "Подраздел 2"
 >>>>>>> upstream/18.0
@@ -1588,7 +2002,11 @@ msgstr "Подраздел 2"
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__content_sub_section2_path
 msgid "Sub-Section 2 Path"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Путь к подразделу 2"
+>>>>>>> upstream/18.0
 =======
 msgstr "Путь к подразделу 2"
 >>>>>>> upstream/18.0
@@ -1602,6 +2020,7 @@ msgstr "Теги"
 #. module: marketing_card
 #: model:ir.model.constraint,message:marketing_card.constraint_card_campaign_tag_name_uniq
 msgid "Tags may not reuse existing names."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -2033,12 +2452,17 @@ msgid "Thank You Message"
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Теги не могут использовать уже существующие названия"
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__reward_message
 msgid "Thank You Message"
 msgstr "Сообщение благодарности"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: marketing_card
@@ -2049,6 +2473,11 @@ msgid ""
 "cards campaigns."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Источник UTM «%s» не может быть удален, так как он используется для "
+"продвижения кампаний с маркетинговыми карточками"
+>>>>>>> upstream/18.0
 =======
 "Источник UTM «%s» не может быть удален, так как он используется для "
 "продвижения кампаний с маркетинговыми карточками"
@@ -2058,7 +2487,11 @@ msgstr ""
 #: model:ir.model.fields,help:marketing_card.field_card_campaign__activity_exception_decoration
 msgid "Type of the exception activity on record."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Тип Дела для исключения в записи."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -2074,6 +2507,7 @@ msgid "Update"
 msgstr "Обновить"
 
 #. module: marketing_card
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2437,6 +2871,8 @@ msgstr ""
 msgid "Visited"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:marketing_card.mailing_mailing_view_form_inherit_marketing_card
 msgid "Update Cards"
 msgstr "Обновить карточки"
@@ -2446,13 +2882,20 @@ msgstr "Обновить карточки"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_card_view_search
 msgid "Visited"
 msgstr "Просмотрено"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__website_message_ids
 msgid "Website Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Веб-сайт сообщения"
+=======
+msgstr "Сообщения с вебсайта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сообщения с вебсайта"
 >>>>>>> upstream/18.0
@@ -2467,6 +2910,10 @@ msgstr "История общений с сайта"
 msgid "Whether the image needs to be updated to match the campaign template."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Нужно ли обновлять изображение, чтобы оно соответствовало шаблону кампании."
+>>>>>>> upstream/18.0
 =======
 "Нужно ли обновлять изображение, чтобы оно соответствовало шаблону кампании."
 >>>>>>> upstream/18.0
@@ -2478,6 +2925,11 @@ msgid ""
 "You should update all the cards for %(mailing)s before scheduling a mailing."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Перед планированием рассылки вам нужно обновить все карточки для «%"
+"(mailing)s»."
+>>>>>>> upstream/18.0
 =======
 "Перед планированием рассылки вам нужно обновить все карточки для «%"
 "(mailing)s»."
@@ -2487,13 +2939,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "Your Home Page"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Ваша домашняя страница"
 
 #. module: marketing_card
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "Your help with this promotion would be greatly appreciated!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -2596,6 +3054,7 @@ msgstr "текст кнопки"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3041,6 +3500,8 @@ msgstr ""
 msgid "e.g. \"https://www.mycompany.com/reward\""
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "e.g. \"Thanks for sharing, here is your reward!\""
 msgstr "например, «Спасибо за репост! Вам полагается бонус!»"
 
@@ -3048,13 +3509,20 @@ msgstr "например, «Спасибо за репост! Вам полаг�
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "e.g. \"https://www.mycompany.com/reward\""
 msgstr "например, «https://www.mycompany.com/reward»"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "e.g. Aug 24, Brussels Expo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "например, 24 августа, Brussels Expo"
+>>>>>>> upstream/18.0
 =======
 msgstr "например, 24 августа, Brussels Expo"
 >>>>>>> upstream/18.0
@@ -3063,7 +3531,11 @@ msgstr "например, 24 августа, Brussels Expo"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "e.g. By Lionel Messy"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "например, Лионель Месси"
+>>>>>>> upstream/18.0
 =======
 msgstr "например, Лионель Месси"
 >>>>>>> upstream/18.0
@@ -3072,7 +3544,11 @@ msgstr "например, Лионель Месси"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "e.g. CFO Chief Football Officer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "например, главный футбольный директор"
+>>>>>>> upstream/18.0
 =======
 msgstr "например, главный футбольный директор"
 >>>>>>> upstream/18.0
@@ -3081,7 +3557,11 @@ msgstr "например, главный футбольный директор"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "e.g. Join Odoo Experience 2024"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "например, Присоединяйтесь к Odoo Experience 2024"
+>>>>>>> upstream/18.0
 =======
 msgstr "например, Присоединяйтесь к Odoo Experience 2024"
 >>>>>>> upstream/18.0
@@ -3090,7 +3570,11 @@ msgstr "например, Присоединяйтесь к Odoo Experience 2024
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "e.g. Odoo Experience Talks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "например, лекции для Odoo Experience"
+>>>>>>> upstream/18.0
 =======
 msgstr "например, лекции для Odoo Experience"
 >>>>>>> upstream/18.0
@@ -3099,7 +3583,11 @@ msgstr "например, лекции для Odoo Experience"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "e.g. Sample Talk"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "например, пример лекции"
+>>>>>>> upstream/18.0
 =======
 msgstr "например, пример лекции"
 >>>>>>> upstream/18.0
@@ -3108,7 +3596,11 @@ msgstr "например, пример лекции"
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "e.g. Why people should share on their network?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "например, Почему люди должны делиться этим в своих сетях?"
+>>>>>>> upstream/18.0
 =======
 msgstr "например, Почему люди должны делиться этим в своих сетях?"
 >>>>>>> upstream/18.0

@@ -91,11 +91,17 @@ try:
         return phonenumbers.format_number(phone_nbr, phone_fmt)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def phone_get_country_code_for_number(number):
         region_data = phone_get_region_data_for_number(number)
         return region_data['code']
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def phone_get_region_data_for_number(number):
         try:
@@ -128,6 +134,12 @@ except ImportError:
         return number
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def phone_get_country_code_for_number(number):
+        return ''
+
+>>>>>>> upstream/18.0
 =======
     def phone_get_country_code_for_number(number):
         return ''

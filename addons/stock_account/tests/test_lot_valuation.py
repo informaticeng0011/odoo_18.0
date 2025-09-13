@@ -449,7 +449,10 @@ class TestLotValuation(TestStockValuationCommon):
         self.assertEqual(self.product1.standard_price, 6.43, "product cost changed too")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_average_manual_product_revaluation_with_lots(self):
         self.product1.categ_id.property_cost_method = 'average'
 
@@ -476,6 +479,9 @@ class TestLotValuation(TestStockValuationCommon):
         self.assertEqual(self.lot2.value_svl, 23.2, "lot2 value changed")
         self.assertEqual(self.product1.standard_price, 6.66, "product cost changed too")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_lot_move_update_after_done(self):
         """validate a stock move. Edit the move line in done state."""
@@ -848,7 +854,10 @@ class TestLotValuation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1135,6 +1144,7 @@ class TestLotValuation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1301,6 +1311,8 @@ class TestLotValuation(TestStockValuationCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_adjustment_post_validation(self):
         """
@@ -1314,4 +1326,7 @@ class TestLotValuation(TestStockValuationCommon):
                 with picking_form.move_ids_without_package.edit(0) as mv:
                     mv.quantity = 5.0
         self.assertEqual(in_move.quantity, 2)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

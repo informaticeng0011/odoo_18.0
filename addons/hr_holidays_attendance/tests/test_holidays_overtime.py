@@ -122,8 +122,13 @@ class TestHolidaysOvertime(TransactionCase):
 
         leave.action_reset_confirm()
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertFalse(leave.overtime_id.exists(), "Overtime should not be created")
         self.assertEqual(self.employee.total_overtime, 8)
+=======
+        self.assertTrue(leave.overtime_id.exists(), "Overtime should created")
+        self.assertEqual(self.employee.total_overtime, 0)
+>>>>>>> upstream/18.0
 =======
         self.assertTrue(leave.overtime_id.exists(), "Overtime should created")
         self.assertEqual(self.employee.total_overtime, 0)
@@ -271,7 +276,10 @@ class TestHolidaysOvertime(TransactionCase):
         self.assertEqual(self.employee.total_overtime, 0, "Should have 0 hours of overtime as the public holiday doesn't impact his company")
         self.assertEqual(self.manager.total_overtime, 8, 'Should have 8 hours of overtime (there is one hour of lunch)')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_overtime_approval_after_refusal(self):
         self.new_attendance(check_in=datetime(2021, 1, 2, 8), check_out=datetime(2021, 1, 2, 16))
@@ -293,4 +301,7 @@ class TestHolidaysOvertime(TransactionCase):
 
         leave.with_user(self.user_manager).action_approve(check_state=False)
         self.assertEqual(self.employee.total_overtime, 8)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

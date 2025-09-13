@@ -57,7 +57,11 @@ class TestWishlistProcess(HttpCase):
         self.env.ref('base.user_admin').name = 'Mitchell Admin'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.start_tour("/", 'shop_wishlist')
+=======
+        self.start_tour("/", 'shop_wishlist', timeout=120)
+>>>>>>> upstream/18.0
 =======
         self.start_tour("/", 'shop_wishlist', timeout=120)
 >>>>>>> upstream/18.0

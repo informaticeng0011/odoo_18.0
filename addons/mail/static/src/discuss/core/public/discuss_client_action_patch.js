@@ -10,7 +10,11 @@ patch(DiscussClientAction.prototype, {
         super.setup(...arguments);
         this.publicState = useState({
 <<<<<<< HEAD
+<<<<<<< HEAD
             welcome: this.store.shouldDisplayWelcomeViewInitially,
+=======
+            welcome: this.store.shouldDisplayWelcomeView,
+>>>>>>> upstream/18.0
 =======
             welcome: this.store.shouldDisplayWelcomeView,
 >>>>>>> upstream/18.0
@@ -36,11 +40,14 @@ patch(DiscussClientAction.prototype, {
         await super.restoreDiscussThread(...arguments);
         this.publicState.welcome ||=
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.store.discuss.thread?.defaultDisplayMode === "video_full_screen";
     },
     closeWelcomePage() {
         this.publicState.welcome = false;
 =======
+=======
+>>>>>>> upstream/18.0
             this.store.shouldDisplayWelcomeView ??
             this.store.discuss.thread?.defaultDisplayMode === "video_full_screen";
         this.store.shouldDisplayWelcomeView = this.publicState.welcome;
@@ -48,6 +55,9 @@ patch(DiscussClientAction.prototype, {
     closeWelcomePage() {
         this.publicState.welcome = false;
         this.store.shouldDisplayWelcomeView = false;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
 });

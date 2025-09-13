@@ -9,7 +9,11 @@ from urllib.parse import urlencode
 import requests
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _, fields, models
+=======
+from odoo import _, api, fields, models
+>>>>>>> upstream/18.0
 =======
 from odoo import _, api, fields, models
 >>>>>>> upstream/18.0
@@ -136,7 +140,10 @@ class PaymentProvider(models.Model):
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     # === CONSTRAINT METHODS === #
 
     @api.constrains('state')
@@ -153,6 +160,9 @@ class PaymentProvider(models.Model):
                         " your account"
                     ))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # === BUSINESS METHODS - OAUTH === #
 

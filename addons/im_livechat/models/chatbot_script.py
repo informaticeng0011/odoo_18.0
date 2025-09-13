@@ -2,7 +2,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, models, fields
+=======
+from odoo import api, Command, models, fields
+>>>>>>> upstream/18.0
 =======
 from odoo import api, Command, models, fields
 >>>>>>> upstream/18.0
@@ -40,13 +44,19 @@ class ChatbotScript(models.Model):
                 raise ValidationError(self.env._("Step of type 'Question' must have answers."))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.onchange("script_step_ids")
     def _onchange_script_step_ids(self):
         for step in self.script_step_ids:
             if step.step_type != "question_selection" and step.answer_ids:
                 step.answer_ids = [Command.clear()]
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _compute_livechat_channel_count(self):
         channels_data = self.env['im_livechat.channel.rule']._read_group(

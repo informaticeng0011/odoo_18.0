@@ -12,7 +12,11 @@
     ],
     'external_dependencies': {
 <<<<<<< HEAD
+<<<<<<< HEAD
         'python': ['ldap'],
+=======
+        'python': ['python-ldap'],
+>>>>>>> upstream/18.0
 =======
         'python': ['python-ldap'],
 >>>>>>> upstream/18.0

@@ -6,6 +6,10 @@
 # Wil Odoo, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -21,7 +25,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Anastasiia Koroleva, 2025\n"
 >>>>>>> upstream/18.0
@@ -44,7 +52,11 @@ msgstr "1.5"
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_portal_content_inherit_sale_management
 msgid "<span class=\"btn btn-secondary\">Add to order</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"btn btn-secondary\">Добавить в заказ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"btn btn-secondary\">Добавить в заказ</span>"
 >>>>>>> upstream/18.0
@@ -152,7 +164,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_management.res_config_settings_view_form
 msgid "Create standardized offers with default products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создавайте стандартные предложения с продуктами по умолчанию"
+=======
+msgstr "Создавайте стандартные предложения с товарами по умолчанию"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создавайте стандартные предложения с товарами по умолчанию"
 >>>>>>> upstream/18.0
@@ -169,7 +185,11 @@ msgstr "Создайте ваш шаблон коммерческого пред
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -181,7 +201,11 @@ msgstr "Создано:"
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -251,9 +275,13 @@ msgstr "Дополнительные чипсы"
 #: model:ir.model.constraint,message:sale_management.constraint_sale_order_template_line_non_accountable_fields_null
 msgid "Forbidden product, quantity and UoM on non-accountable sale quote line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Запрещенный продукт, количество и UoM в строке котировок для неучтенных "
 "продаж"
+=======
+msgstr "Запрещенный товар, количество и ЕИ в строке КП для неучтенных продаж"
+>>>>>>> upstream/18.0
 =======
 msgstr "Запрещенный товар, количество и ЕИ в строке КП для неучтенных продаж"
 >>>>>>> upstream/18.0
@@ -263,8 +291,12 @@ msgstr "Запрещенный товар, количество и ЕИ в ст�
 msgid "Gives the sequence order when displaying a list of optional products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Указывает порядок следования при отображении списка дополнительных "
 "продуктов."
+=======
+"Указывает порядок следования при отображении списка дополнительных товаров."
+>>>>>>> upstream/18.0
 =======
 "Указывает порядок следования при отображении списка дополнительных товаров."
 >>>>>>> upstream/18.0
@@ -326,7 +358,11 @@ msgstr " Общая стоимость"
 msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -342,7 +378,11 @@ msgstr "Последнее обновление:"
 msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -365,8 +405,12 @@ msgstr "Линии"
 #: model:ir.model.constraint,message:sale_management.constraint_sale_order_template_line_accountable_product_id_required
 msgid "Missing required product and UoM on accountable sale quote line."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Отсутствует необходимый продукт и UoM в строке котировки подотчетных продаж."
+=======
+msgstr "Отсутствует необходимый товар и ЕИ в строке КП подотчетных продаж."
+>>>>>>> upstream/18.0
 =======
 msgstr "Отсутствует необходимый товар и ЕИ в строке КП подотчетных продаж."
 >>>>>>> upstream/18.0
@@ -398,7 +442,11 @@ msgstr "Онлайн-подпись"
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
 msgid "Optional Products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дополнительные продукты"
+=======
+msgstr "Дополнительные товары"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дополнительные товары"
 >>>>>>> upstream/18.0
@@ -408,7 +456,11 @@ msgstr "Дополнительные товары"
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_line__sale_order_option_ids
 msgid "Optional Products Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Строки для  дополнительных продуктов"
+=======
+msgstr "Строки для дополнительных товаров"
+>>>>>>> upstream/18.0
 =======
 msgstr "Строки для дополнительных товаров"
 >>>>>>> upstream/18.0
@@ -596,15 +648,21 @@ msgid ""
 "capacity, etc. Make sale orders encoding easier and error-proof."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Затрудняетесь со сложным каталогом продукции? Попробуйте воспользоваться "
 "Конфигуратором продукта, чтобы помочь продавцам сконфигурировать продукт с "
 "помощью различных опций: цвета, размера, объема и т. д. Упростите "
 "кодирование заказов на продажу и исключите ошибки."
 =======
+=======
+>>>>>>> upstream/18.0
 "Трудно справиться со сложным каталогом товаров? Воспользуйтесь "
 "конфигуратором товаров – он поможет менеджеру продаж быстро подбирать товары"
 " с нужными параметрами: цвет, размер, объем и т. д. Упростите оформление "
 "заказов на продажу, и исключите ошибки."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_management
@@ -650,8 +708,13 @@ msgid ""
 "in the quotation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Это поле будет отмечено, если продукт из \"Дополнительные продукты\" уже "
 "присутствует в предложении."
+=======
+"Это поле будет автоматически отмечено, если выбранный товар уже добавлен в "
+"коммерческое предложение."
+>>>>>>> upstream/18.0
 =======
 "Это поле будет автоматически отмечено, если выбранный товар уже добавлен в "
 "коммерческое предложение."
@@ -662,7 +725,11 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:sale_management.digest_tip_sale1_management_0
 msgid "Tip: Odoo supports configurable products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Совет: Odoo поддерживает настраиваемые продукты"
+=======
+msgstr "Совет: Odoo поддерживает настраиваемые товары"
+>>>>>>> upstream/18.0
 =======
 msgstr "Совет: Odoo поддерживает настраиваемые товары"
 >>>>>>> upstream/18.0
@@ -732,8 +799,13 @@ msgid ""
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Коммерческое предложение содержит продукты компании %(product_company)s, хотя само предложение относится к компании %(quote_company)s.\n"
 "Пожалуйста, измените компанию для предложения или уберите продукты, которые относятся к другим компаниям (%(bad_products)s)."
+=======
+"В вашем коммерческом предложении есть товары из компании %(product_company)s, тогда как само предложение оформлено от компании %(quote_company)s.\n"
+"Пожалуйста, либо смените компанию в КП, либо удалите товары, относящиеся к другим компаниям: %(bad_products)s."
+>>>>>>> upstream/18.0
 =======
 "В вашем коммерческом предложении есть товары из компании %(product_company)s, тогда как само предложение оформлено от компании %(quote_company)s.\n"
 "Пожалуйста, либо смените компанию в КП, либо удалите товары, относящиеся к другим компаниям: %(bad_products)s."
@@ -744,7 +816,11 @@ msgstr ""
 #: code:addons/sale_management/models/sale_order_template.py:0
 msgid "Your template cannot contain products from multiple companies."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ваш шаблон не может содержать продукты от нескольких компаний."
+=======
+msgstr "Ваш шаблон не может содержать товары нескольких компаний."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ваш шаблон не может содержать товары нескольких компаний."
 >>>>>>> upstream/18.0
@@ -757,8 +833,13 @@ msgid ""
 " Please change the company of your template or remove the products from other companies."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ваш шаблон содержит продукты от компании %(product_company)s, в то время как ваш шаблон принадлежит компании %(template_company)s.\n"
 " Пожалуйста, измените компанию вашего шаблона или удалите продукты из других компаний."
+=======
+"В шаблоне указаны товары из компании %(product_company)s, а сам шаблон оформлен на следующую компанию: %(template_company)s.\n"
+"Пожалуйста, либо смените компанию в шаблоне, либо удалите товары, относящиеся к другим компаниям."
+>>>>>>> upstream/18.0
 =======
 "В шаблоне указаны товары из компании %(product_company)s, а сам шаблон оформлен на следующую компанию: %(template_company)s.\n"
 "Пожалуйста, либо смените компанию в шаблоне, либо удалите товары, относящиеся к другим компаниям."

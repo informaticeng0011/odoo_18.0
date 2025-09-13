@@ -163,7 +163,11 @@ class TestAccountComposerPerformance(AccountTestInvoicingCommon, MailCommon):
             self.env['account.move.send']._generate_and_send_invoices(
                 test_moves,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sending_methods=['email'],
+=======
+                sending_methods={'email'},
+>>>>>>> upstream/18.0
 =======
                 sending_methods={'email'},
 >>>>>>> upstream/18.0
@@ -773,6 +777,12 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(wizard.summary_data, {
+            'email': {'count': 1, 'label': 'by Email'},  # Only one will be actually sent by email
+        })
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(wizard.summary_data, {
             'email': {'count': 1, 'label': 'by Email'},  # Only one will be actually sent by email
@@ -1259,7 +1269,10 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
             })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_invoice_multi_child_contact(self):
         """ Test bulk invoice sending will retrieve info from the main partner. """
         self.partner_a.write({'invoice_sending_method': 'manual'})
@@ -1275,6 +1288,9 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
             'manual': {'count': 2, 'label': 'Manually'}
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_invoice_mail_attachments_widget(self):
         invoice = self.init_invoice("out_invoice", amounts=[1000], post=True)
@@ -1555,7 +1571,13 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         wizard = self.create_send_and_print(invoice, mail_template_id=None, mail_subject=custom_subject)
+=======
+        wizard = self.create_send_and_print(invoice)
+        wizard.mail_template_id = None
+        wizard.mail_subject = custom_subject
+>>>>>>> upstream/18.0
 =======
         wizard = self.create_send_and_print(invoice)
         wizard.mail_template_id = None
@@ -2256,6 +2278,10 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertFalse(wizard.sending_methods)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(wizard.sending_methods)
 >>>>>>> upstream/18.0
@@ -2533,9 +2559,15 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
         
         expected_results = {
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sending_methods': ['email'],
             'invoice_edi_format': False,
             'extra_edis': [],
+=======
+            'sending_methods': {'email'},
+            'invoice_edi_format': False,
+            'extra_edis': {},
+>>>>>>> upstream/18.0
 =======
             'sending_methods': {'email'},
             'invoice_edi_format': False,
@@ -2554,7 +2586,10 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
         results = wizard._get_sending_settings()
         self.assertDictEqual(results, expected_results)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_invoice_email_subtitle(self):
         """ Test email notification subtitle for Invoice with and without partner name. """
@@ -2585,4 +2620,7 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
         wizard_2 = self.create_send_and_print(move2)
         wizard_2.action_send_and_print()
         self.assertEqual(move2.message_main_attachment_id.name, f"CustomName_{move2._get_report_base_filename().replace('/', '_')}.pdf")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

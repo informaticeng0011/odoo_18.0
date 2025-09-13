@@ -66,6 +66,7 @@ class HRLeave(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 leave.overtime_id.sudo().unlink()
 >>>>>>> upstream/18.0
@@ -114,6 +115,8 @@ class HRLeave(models.Model):
                 raise ValidationError(_('The employee does not have enough extra hours to request this leave.'))
             if not leave.sudo().overtime_id:
 =======
+=======
+>>>>>>> upstream/18.0
                 leave.sudo().overtime_id.unlink()
                 continue
             employee = leave.employee_id.sudo()
@@ -123,6 +126,9 @@ class HRLeave(models.Model):
                     if employee.user_id == self.env.user:
                         raise ValidationError(_('You do not have enough extra hours to request this leave'))
                     raise ValidationError(_('The employee does not have enough extra hours to request this leave.'))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 leave.sudo().overtime_id = self.env['hr.attendance.overtime'].sudo().create({
                     'employee_id': employee.id,
@@ -134,6 +140,7 @@ class HRLeave(models.Model):
     def action_reset_confirm(self):
         overtime_leaves = self.filtered('overtime_deductible')
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = super().action_reset_confirm()
         overtime_leaves.overtime_id.sudo().unlink()
         return res
@@ -141,12 +148,17 @@ class HRLeave(models.Model):
     def action_confirm(self):
         res = super().action_confirm()
 =======
+=======
+>>>>>>> upstream/18.0
         self._check_overtime_deductible(self)
         res = super().action_reset_confirm()
         return res
 
     def action_approve(self, check_state=True):
         res = super().action_approve(check_state)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self._check_overtime_deductible(self)
         return res

@@ -504,7 +504,10 @@ test("date field with max_precision option", async () => {
     expect(".o_field_widget[name='date'] input").toHaveValue("01/12/2017");
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("DateField with onchange forcing a specific date", async () => {
     mockDate("2009-05-04 10:00:00", +1);
@@ -544,4 +547,7 @@ test("DateField with onchange forcing a specific date", async () => {
     await contains(getPickerCell("22")).click(); // 22 May 2009
     expect(".o_field_date input").toHaveValue("05/04/2009"); // value forced by the onchange
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -3,8 +3,14 @@
 
 from odoo.addons.sms.tests.common import SMSCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.test_mail_sms.tests.common import TestSMSRecipients
 from odoo.tests import tagged
+=======
+from odoo.addons.sms_twilio.tests.common import MockSmsTwilioApi
+from odoo.addons.test_mail_sms.tests.common import TestSMSRecipients
+from odoo.tests import tagged, users
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.sms_twilio.tests.common import MockSmsTwilioApi
 from odoo.addons.test_mail_sms.tests.common import TestSMSRecipients
@@ -298,6 +304,10 @@ class TestSMSComposerComment(SMSCommon, TestSMSRecipients):
 @tagged('sms_composer')
 class TestSMSComposerBatch(SMSCommon):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -351,7 +361,10 @@ class TestSMSComposerBatch(SMSCommon):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 @tagged('sms_composer', 'twilio')
 class TestSMSComposerBatchTwilio(SMSCommon, MockSmsTwilioApi):
 
@@ -386,6 +399,9 @@ class TestSMSComposerBatchTwilio(SMSCommon, MockSmsTwilioApi):
             )
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 @tagged('sms_composer')
 class TestSMSComposerMass(SMSCommon):
@@ -675,7 +691,10 @@ class TestSMSComposerMass(SMSCommon):
             content="Hello %s ceci est en français." % test_record_2.display_name
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 
 @tagged('sms_composer', 'twilio')
@@ -710,4 +729,7 @@ class TestSMSComposerMassTwilio(SMSCommon, MockSmsTwilioApi):
                 partner, None,
                 content='Hello %s zizisse an SMS.' % record.name
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

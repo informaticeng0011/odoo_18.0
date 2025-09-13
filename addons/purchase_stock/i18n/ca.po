@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase_stock
 # 
+=======
+# * purchase_stock
+#
+>>>>>>> upstream/18.0
 =======
 # * purchase_stock
 #
@@ -14,6 +19,7 @@
 # Eugeni Chafer <eugeni@chafer.cat>, 2024
 # Santiago Payà <santiagopim@gmail.com>, 2024
 # jabiri7, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,6 +233,9 @@
 =======
 # Harcogourmet, 2024
 >>>>>>> upstream/18.0
+=======
+# Harcogourmet, 2024
+>>>>>>> upstream/18.0
 # Josep Anton Belchi, 2024
 # Óscar Fonseca <tecnico@pyming.com>, 2024
 # Jonatan Gk, 2024
@@ -239,7 +248,11 @@
 # RGB Consulting <odoo@rgbconsulting.com>, 2024
 # Noemi Pla, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
 >>>>>>> upstream/18.0
@@ -247,6 +260,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -454,6 +468,8 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
 "PO-Revision-Date: 2025-08-13 13:59+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
@@ -465,6 +481,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_stock
@@ -498,6 +517,11 @@ msgstr "<span class=\"o_stat_value\">%</span>"
 msgid "<span invisible=\"on_time_rate &gt;= 0\">No On-time Delivery Data</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"on_time_rate &gt;= 0\">No hi ha dades sobre els "
+"lliuraments a temps</span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"on_time_rate &gt;= 0\">No hi ha dades sobre els "
 "lliuraments a temps</span>"
@@ -511,6 +535,7 @@ msgstr "<span> dies</span>"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.product_view_kanban_catalog_purchase_only
 msgid "<span>Forecasted: </span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -668,17 +693,23 @@ msgstr "<strong>termes internacionals de comerç:</strong>"
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "<span>Previsió: </span>"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr "<strong class=\"d-block mt-3\">Adreça d'enviament:</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
@@ -829,10 +860,14 @@ msgstr ""
 =======
 msgstr "<strong class=\"d-block mt-3\">Adreça d'enviament</strong>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">Adreça d'enviament</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1085,12 +1120,20 @@ msgstr "<strong>termes internacionals de comerç:</strong>"
 msgid "<strong>Incoterm:</strong>"
 msgstr "<strong>termes internacionals de comerç:</strong>"
 >>>>>>> upstream/18.0
+=======
+msgid "<strong>Incoterm:</strong>"
+msgstr "<strong>termes internacionals de comerç:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__is_storable
 msgid "A storable product is a product for which you manage stock."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Un producte emmagatzemable és un producte del qual en gestiones l'estoc."
+>>>>>>> upstream/18.0
 =======
 "Un producte emmagatzemable és un producte del qual en gestiones l'estoc."
 >>>>>>> upstream/18.0
@@ -1165,7 +1208,11 @@ msgstr "No s'ha trobat el rebut corresponent."
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_move__created_purchase_line_ids
 msgid "Created Purchase Order Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Línies creades de la comanda de compra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Línies creades de la comanda de compra"
 >>>>>>> upstream/18.0
@@ -1185,7 +1232,11 @@ msgstr "Descripció personalitzada"
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_picking__days_to_arrive
 msgid "Days To Arrive"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termini d'arribada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termini d'arribada"
 >>>>>>> upstream/18.0
@@ -1245,7 +1296,11 @@ msgstr "Nom mostrat"
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__move_dest_ids
 msgid "Downstream moves alt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moviments descendents"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moviments descendents"
 >>>>>>> upstream/18.0
@@ -1275,7 +1330,11 @@ msgstr "Data efectiva de l'últim any"
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_report__days_to_arrival
 msgid "Effective Days To Arrival"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termini real d'arribada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termini real d'arribada"
 >>>>>>> upstream/18.0
@@ -1366,7 +1425,11 @@ msgstr "Última compra"
 #: model:ir.model.fields,field_description:purchase_stock.field_procurement_group__purchase_line_ids
 msgid "Linked Purchase Order Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Línies vinculades de la comanda de compra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Línies vinculades de la comanda de compra"
 >>>>>>> upstream/18.0
@@ -1375,7 +1438,11 @@ msgstr "Línies vinculades de la comanda de compra"
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__location_final_id
 msgid "Location from procurement"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ubicació d'aprovisionament"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ubicació d'aprovisionament"
 >>>>>>> upstream/18.0
@@ -1430,7 +1497,11 @@ msgstr "Encara no hi ha dades"
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_help_message_template
 msgid "No receipt yet! Automate them with purchase orders."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Encara no hi ha recepcions. Automatitza-les amb comandes de compra."
+>>>>>>> upstream/18.0
 =======
 msgstr "Encara no hi ha recepcions. Automatitza-les amb comandes de compra."
 >>>>>>> upstream/18.0
@@ -1494,6 +1565,12 @@ msgid ""
 "purchase_stock.on_time_delivery_days or the default 365"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Durant els últims x dies, el nombre de productes rebuts a temps dividit pel "
+"nombre de productes demanats.x és el paràmetre "
+"purchase_stock.on_time_delivery_days del sistema o 365"
+>>>>>>> upstream/18.0
 =======
 "Durant els últims x dies, el nombre de productes rebuts a temps dividit pel "
 "nombre de productes demanats.x és el paràmetre "
@@ -1533,7 +1610,11 @@ msgstr "Grup de proveïment "
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__group_id
 msgid "Procurement group that generated this line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grup de subministrament que ha generat aquesta línia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grup de subministrament que ha generat aquesta línia"
 >>>>>>> upstream/18.0
@@ -1559,7 +1640,11 @@ msgstr "Reaprovisionar productes"
 #: model:ir.model,name:purchase_stock.model_stock_replenish_mixin
 msgid "Product Replenish Mixin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mixin de reposició de producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mixin de reposició de producte"
 >>>>>>> upstream/18.0
@@ -1674,6 +1759,12 @@ msgid ""
 "            Green: On time"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vermell: retard\n"
+"            Taronja: a processar avui\n"
+"            Verd: a temps"
+>>>>>>> upstream/18.0
 =======
 "Vermell: retard\n"
 "            Taronja: a processar avui\n"
@@ -1727,7 +1818,11 @@ msgstr "Mostra el botó Estableix el proveïdor"
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_replenish_mixin__show_vendor
 msgid "Show Vendor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mostrar proveïdor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostrar proveïdor"
 >>>>>>> upstream/18.0
@@ -1824,11 +1919,17 @@ msgid ""
 " %(product)s. Change the operation type or cancel the request for quotation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "El magatzem del tipus d'operació (%(operation_type)s) és inconsistent amb la "
 "ubicació %(location)s de la regla de reordenació %(reordering_rule)s per al "
 "producte%(product)s. Canviar el tipus d'operació o cancel·lar la sol·licitud "
 "de pressupost."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_stock
@@ -1925,6 +2026,11 @@ msgid ""
 "already done."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"No és possible cancel·lar les comandes de compra: %s perquè ja s'han "
+"completat algunes recepcions."
+>>>>>>> upstream/18.0
 =======
 "No és possible cancel·lar les comandes de compra: %s perquè ja s'han "
 "completat algunes recepcions."

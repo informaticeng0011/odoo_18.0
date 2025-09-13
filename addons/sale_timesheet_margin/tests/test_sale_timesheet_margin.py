@@ -134,6 +134,7 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -276,6 +277,8 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
 
     def test_no_recompute_purchase_price_not_timesheet(self):
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_no_recompute_purchase_price_not_timesheet(self):
         """
@@ -284,6 +287,9 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
         We also check that the pruchase price of new sale order lines added after the confirmation
         is computed correctly.
         """
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         project = self.env['project.project'].create({
             'name': "Test",
@@ -298,7 +304,10 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
             'standard_price': 2,
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         simple_service = self.env['product.product'].create({
             'name': "Simple service",
             'list_price': 1.0,
@@ -307,6 +316,9 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
             'service_type': 'timesheet',
             'standard_price': 5,
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         sale_order = self.env['sale.order'].create({
             'name': 'Test_SO0002',
@@ -325,7 +337,10 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
         # Confirm the sales order, create project and task.
         sale_order.action_confirm()
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Add timesheet line
@@ -340,6 +355,7 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
             'so_line': sale_order.order_line.id,
         })
         self.env.flush_all()
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.assertEqual(sale_order.order_line.purchase_price, 3)
 <<<<<<< HEAD
@@ -551,6 +567,8 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(sale_order.order_line.filtered(lambda sol: sol.product_id == self.product_1).purchase_price, 3)
         sale_order.order_line = [Command.create({
             'product_id': simple_service.id,
@@ -559,4 +577,7 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
             'product_uom_qty': 1.0,
         })]
         self.assertEqual(sale_order.order_line.filtered(lambda sol: sol.product_id == simple_service).purchase_price, 5)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

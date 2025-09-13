@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* maintenance
 # 
+=======
+# * maintenance
+#
+>>>>>>> upstream/18.0
 =======
 # * maintenance
 #
@@ -20,7 +25,12 @@
 # Martin Trigaux, 2024
 # Vladimir Vrgoč, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Luka Carević <luka@uvid.hr>, 2025
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
@@ -31,6 +41,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Vladimir Vrgoč, 2024\n"
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
@@ -40,6 +51,8 @@ msgstr ""
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-04 16:46+0000\n"
 "Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
@@ -51,6 +64,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: maintenance
@@ -365,7 +381,11 @@ msgstr "Trošak"
 #: model_terms:ir.ui.view,arch_db:maintenance.res_config_settings_view_form
 msgid "Create custom worksheet templates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izradi prilagođene predloške radnih listova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izradi prilagođene predloške radnih listova"
 >>>>>>> upstream/18.0
@@ -414,7 +434,11 @@ msgstr "Prilagođena poruka odbijanja"
 #: model:ir.model.fields,field_description:maintenance.field_res_config_settings__module_maintenance_worksheet
 msgid "Custom Maintenance Worksheets"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilagođeni radni listovi za održavanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prilagođeni radni listovi za održavanje"
 >>>>>>> upstream/18.0
@@ -423,7 +447,11 @@ msgstr "Prilagođeni radni listovi za održavanje"
 #: model_terms:ir.ui.view,arch_db:maintenance.res_config_settings_view_form
 msgid "Custom Worksheets"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilagođeni radni listovi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prilagođeni radni listovi"
 >>>>>>> upstream/18.0
@@ -467,7 +495,11 @@ msgstr "Zadane vrijednosti"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_kanban
 msgid "Delete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Briši"
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obriši"
 >>>>>>> upstream/18.0
@@ -614,7 +646,11 @@ msgstr "Predviđeno vrijeme prije sljedećeg kvara (u danima)"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_mixin__expected_mtbf
 msgid "Expected MTBF"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Očekivani MTBF"
+>>>>>>> upstream/18.0
 =======
 msgstr "Očekivani MTBF"
 >>>>>>> upstream/18.0
@@ -625,7 +661,11 @@ msgstr "Očekivani MTBF"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Expected Mean Time Between Failure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Očekivano prosječno vrijeme između kvarova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Očekivano prosječno vrijeme između kvarova"
 >>>>>>> upstream/18.0
@@ -671,7 +711,11 @@ msgstr "Font awesome ikona npr. fa-tasks"
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__repeat_type__forever
 msgid "Forever"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zauvjek"
+=======
+msgstr "Zauvijek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zauvijek"
 >>>>>>> upstream/18.0
@@ -687,7 +731,11 @@ msgstr "Buduće aktivnosti"
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__instruction_type__google_slide
 msgid "Google Slide"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google prezentacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google prezentacija"
 >>>>>>> upstream/18.0
@@ -801,7 +849,11 @@ msgstr "Upute"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
 msgid "Instructions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "upute"
+=======
+msgstr "Upute"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upute"
 >>>>>>> upstream/18.0
@@ -1019,7 +1071,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Mean Time Between Failure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosječno vrijeme između kvarova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prosječno vrijeme između kvarova"
 >>>>>>> upstream/18.0
@@ -1082,7 +1138,11 @@ msgstr "Rok za moju aktivnost"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "My Equipment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moja oprema"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moja oprema"
 >>>>>>> upstream/18.0
@@ -1341,7 +1401,11 @@ msgstr "Ponavljaj svakih"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__repeat_unit
 msgid "Repeat Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponavljajuća jedinica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponavljajuća jedinica"
 >>>>>>> upstream/18.0
@@ -1617,6 +1681,11 @@ msgid ""
 "                You will be able to manage allocations, issues and maintenance of your equipment."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pratite opremu i povežite je s zaposlenikom ili odjelom.\n"
+"                Moći ćete upravljati dodjelama, problemima i održavanjem opreme."
+>>>>>>> upstream/18.0
 =======
 "Pratite opremu i povežite je s zaposlenikom ili odjelom.\n"
 "                Moći ćete upravljati dodjelama, problemima i održavanjem opreme."
@@ -1632,7 +1701,11 @@ msgstr "Vrsta aktivnosti iznimke na zapisu."
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "Unassigned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nedodjeljen"
+=======
+msgstr "Nedodijeljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nedodijeljeno"
 >>>>>>> upstream/18.0
@@ -1713,7 +1786,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
 msgid "Your instructions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaše upute"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vaše upute"
 >>>>>>> upstream/18.0

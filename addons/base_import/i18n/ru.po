@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_import
 # 
+=======
+# * base_import
+#
+>>>>>>> upstream/18.0
 =======
 # * base_import
 #
@@ -13,10 +18,15 @@
 # Ilya Rozhkov, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Anastasiia Koroleva, 2025
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
@@ -26,6 +36,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -40,6 +51,8 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-15 16:52+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
@@ -52,6 +65,9 @@ msgstr ""
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import
@@ -59,7 +75,11 @@ msgstr ""
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.js:0
 msgid "%(number)s file(s) selected"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "количество выбранных файлов: %(number)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "количество выбранных файлов: %(number)s"
 >>>>>>> upstream/18.0
@@ -111,6 +131,11 @@ msgid ""
 "After each batch import, this delay is applied to avoid unthrottled calls"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"После каждой пакетной загрузки данных применяется эта задержка, чтобы "
+"избежать слишком частых вызовов"
+>>>>>>> upstream/18.0
 =======
 "После каждой пакетной загрузки данных применяется эта задержка, чтобы "
 "избежать слишком частых вызовов"
@@ -174,7 +199,11 @@ msgstr "Ограничение партии"
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "But, you can also use .csv files"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Но можно также использовать файлы .csv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Но можно также использовать файлы .csv"
 >>>>>>> upstream/18.0
@@ -247,7 +276,11 @@ msgstr "Создание новых значений"
 #: model:ir.model.fields,field_description:base_import.field_base_import_mapping__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -257,7 +290,11 @@ msgstr "Создано:"
 #: model:ir.model.fields,field_description:base_import.field_base_import_mapping__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -267,7 +304,11 @@ msgstr "Дата создания:"
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Data to import"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Данные для импорта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Данные для импорта"
 >>>>>>> upstream/18.0
@@ -302,6 +343,10 @@ msgstr "Разделитель десятичных дробей:"
 msgid "Defines how many megabytes can be imported in each batch import"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Определяет, сколько мегабайт можно импортировать за одну пакетную загрузку"
+>>>>>>> upstream/18.0
 =======
 "Определяет, сколько мегабайт можно импортировать за одну пакетную загрузку"
 >>>>>>> upstream/18.0
@@ -311,7 +356,11 @@ msgstr ""
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Delay after each batch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Задержка после каждой пакетной загрузки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Задержка после каждой пакетной загрузки"
 >>>>>>> upstream/18.0
@@ -340,7 +389,11 @@ msgstr "Скачать"
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "Drop or upload a file to import"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перетащите или загрузите файл для импорта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Перетащите или загрузите файл для импорта"
 >>>>>>> upstream/18.0
@@ -453,7 +506,11 @@ msgstr ""
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Files to import"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Файлы для импорта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Файлы для импорта"
 >>>>>>> upstream/18.0
@@ -593,6 +650,12 @@ msgid ""
 "format: %(cell_format)s, as (%(format_type)s) formats are not supported."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Недопустимый формат ячейки в строке %(row)s, столбце %(col)s: %(cell_value)"
+"s, с форматом: %(cell_format)s, так как формат (%(format_type)s) не "
+"поддерживается."
+>>>>>>> upstream/18.0
 =======
 "Недопустимый формат ячейки в строке %(row)s, столбце %(col)s: %(cell_value)"
 "s, с форматом: %(cell_format)s, так как формат (%(format_type)s) не "
@@ -613,7 +676,11 @@ msgstr ""
 msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -627,7 +694,11 @@ msgstr "Последнее обновление:"
 msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -640,7 +711,11 @@ msgstr "Дата последнего обновления:"
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "Load Data File"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Загрузить файл с данными"
+>>>>>>> upstream/18.0
 =======
 msgstr "Загрузить файл с данными"
 >>>>>>> upstream/18.0
@@ -662,7 +737,11 @@ msgstr "Загрузка..."
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Max size per batch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Максимальный размер на одну пакетную загрузку"
+>>>>>>> upstream/18.0
 =======
 msgstr "Максимальный размер на одну пакетную загрузку"
 >>>>>>> upstream/18.0
@@ -701,7 +780,11 @@ msgstr "Без разделителя"
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.js:0
 msgid "No file selected"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Файл не выбран"
+>>>>>>> upstream/18.0
 =======
 msgstr "Файл не выбран"
 >>>>>>> upstream/18.0
@@ -723,7 +806,11 @@ msgstr "Поле Odoo"
 #: code:addons/base_import/static/src/import_action/import_action.js:0
 msgid "Please upload a single file."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пожалуйста, загрузите один файл."
+>>>>>>> upstream/18.0
 =======
 msgstr "Пожалуйста, загрузите один файл."
 >>>>>>> upstream/18.0
@@ -733,7 +820,11 @@ msgstr "Пожалуйста, загрузите один файл."
 #: code:addons/base_import/static/src/import_action/import_action.js:0
 msgid "Please upload an Excel (.xls or .xlsx) or .csv file to import."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пожалуйста, загрузите файл Excel (.xls или .xlsx) или .csv для импорта."
+>>>>>>> upstream/18.0
 =======
 msgstr "Пожалуйста, загрузите файл Excel (.xls или .xlsx) или .csv для импорта."
 >>>>>>> upstream/18.0
@@ -969,7 +1060,11 @@ msgstr "Без названия"
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "Upload Data File"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Загрузить файл с данными"
+>>>>>>> upstream/18.0
 =======
 msgstr "Загрузить файл с данными"
 >>>>>>> upstream/18.0
@@ -979,7 +1074,11 @@ msgstr "Загрузить файл с данными"
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Upload your files"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Загрузите ваши файлы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Загрузите ваши файлы"
 >>>>>>> upstream/18.0

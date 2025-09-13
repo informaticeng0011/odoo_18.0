@@ -7,6 +7,10 @@ import * as TicketScreen from "@point_of_sale/../tests/tours/utils/ticket_screen
 import * as Chrome from "@point_of_sale/../tests/tours/utils/chrome_util";
 import { registry } from "@web/core/registry";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as DeviceSynchronization from "@pos_restaurant/../tests/tours/utils/devices_synchronization";
+>>>>>>> upstream/18.0
 =======
 import * as DeviceSynchronization from "@pos_restaurant/../tests/tours/utils/devices_synchronization";
 >>>>>>> upstream/18.0
@@ -31,7 +35,10 @@ registry.category("web_tour.tours").add("PosResTicketScreenTour", {
             TicketScreen.deleteOrder("-0001"),
             Dialog.confirm(),
 <<<<<<< HEAD
+<<<<<<< HEAD
             TicketScreen.clickDiscard(),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             Chrome.clickPlanButton(),
@@ -58,7 +65,10 @@ registry.category("web_tour.tours").add("OrderNumberConflictTour", {
         ].flat(),
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("OrderSynchronisationTour", {
     steps: () =>
@@ -80,4 +90,7 @@ registry.category("web_tour.tours").add("OrderSynchronisationTour", {
             TicketScreen.confirmRefund(),
         ].flat(),
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

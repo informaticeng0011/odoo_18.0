@@ -12,7 +12,11 @@ from odoo.osv.expression import AND
 from odoo.http import request
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import email_normalize
+=======
+from odoo.tools import email_normalize, escape_psql
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import email_normalize, escape_psql
 >>>>>>> upstream/18.0
@@ -304,6 +308,7 @@ class WebsiteHrRecruitment(WebsiteForm):
         field_domain = {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'name': [('partner_name', '=ilike', value)],
             'email': [('email_normalized', '=', email_normalize(value))],
             'phone': [('partner_phone', '=', value)],
@@ -311,11 +316,16 @@ class WebsiteHrRecruitment(WebsiteForm):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'name': [('partner_name', '=ilike', escape_psql(value))],
             'email': [('email_normalized', '=', email_normalize(value))],
             'phone': [('partner_phone', '=', value)],
             'linkedin': [('linkedin_profile', '=ilike', escape_psql(value))],
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

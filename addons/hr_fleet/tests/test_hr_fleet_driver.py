@@ -64,7 +64,10 @@ class TestHrFleetDriver(common.TransactionCase):
         self.assertEqual(self.car2.future_driver_id.id, False)
         self.assertEqual(self.car2.driver_id.id, False)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_driver_employee_multi_company(self):
         other_company = self.env['res.company'].create({
@@ -85,4 +88,7 @@ class TestHrFleetDriver(common.TransactionCase):
         ])
         self.assertEqual(len(assignation_log), 1)
         self.assertEqual(assignation_log.driver_employee_id, test_employee2)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

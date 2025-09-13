@@ -8,7 +8,13 @@ import subprocess
 import tempfile
 import zipfile
 <<<<<<< HEAD
+<<<<<<< HEAD
 from contextlib import closing
+=======
+
+from contextlib import closing
+from datetime import datetime
+>>>>>>> upstream/18.0
 =======
 
 from contextlib import closing
@@ -109,7 +115,10 @@ def _initialize_db(id, db_name, demo, lang, user_password, login='admin', countr
         _logger.exception('CREATE DATABASE failed:')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 def _check_faketime_mode(db_name):
     if os.getenv('ODOO_FAKETIME_TEST_MODE') and db_name in odoo.tools.config['db_name'].split(','):
@@ -134,6 +143,9 @@ def _check_faketime_mode(db_name):
             _logger.warning("Unable to set fakedtimed NOW() : %s", e)
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 def _create_empty_database(name):
     db = odoo.sql_db.db_connect('postgres')
@@ -143,6 +155,10 @@ def _create_empty_database(name):
                    (name,), log_exceptions=False)
         if cr.fetchall():
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            _check_faketime_mode(name)
+>>>>>>> upstream/18.0
 =======
             _check_faketime_mode(name)
 >>>>>>> upstream/18.0
@@ -177,6 +193,10 @@ def _create_empty_database(name):
     except psycopg2.Error as e:
         _logger.warning("Unable to create PostgreSQL extensions : %s", e)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _check_faketime_mode(name)
+>>>>>>> upstream/18.0
 =======
     _check_faketime_mode(name)
 >>>>>>> upstream/18.0

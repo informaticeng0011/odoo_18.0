@@ -3,7 +3,11 @@ import { setupEditor, testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 import { strong } from "../_helpers/tags";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { setFontSize } from "../_helpers/user_actions";
+=======
+import { setFontSize, tripleClick } from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 =======
 import { setFontSize, tripleClick } from "../_helpers/user_actions";
 >>>>>>> upstream/18.0
@@ -34,12 +38,18 @@ test("should change the font size of a whole heading after a triple click", asyn
     await testEditor({
         contentBefore: "<h1>[ab</h1><p>]cd</p>",
 <<<<<<< HEAD
+<<<<<<< HEAD
         stepFunction: setFontSize("36px"),
 =======
+=======
+>>>>>>> upstream/18.0
         stepFunction: async (editor) => {
             await tripleClick(editor.editable.querySelector("h1"));
             setFontSize("36px")(editor);
         },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         contentAfter: '<h1><span style="font-size: 36px;">[ab]</span></h1><p>cd</p>',
     });

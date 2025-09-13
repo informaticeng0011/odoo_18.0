@@ -11,16 +11,22 @@ class AccountChartTemplate(models.AbstractModel):
         return {
             'code_digits': '4',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'property_account_receivable_id': 'chart131',
             'property_account_payable_id': 'chart331',
             'property_account_expense_categ_id': 'chart1561',
             'property_account_income_categ_id': 'chart5111',
 =======
+=======
+>>>>>>> upstream/18.0
             'property_account_receivable_id': 'chart1311',
             'property_account_payable_id': 'chart3311',
             'property_account_expense_categ_id': 'chart1561',
             'property_account_income_categ_id': 'chart5111',
             'property_stock_valuation_account_id': 'chart1551',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'display_invoice_amount_total_words': True,
         }
@@ -35,7 +41,11 @@ class AccountChartTemplate(models.AbstractModel):
                 'cash_account_code_prefix': '111',
                 'transfer_account_code_prefix': '113',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'account_default_pos_receivable_account_id': 'chart131',
+=======
+                'account_default_pos_receivable_account_id': 'chart1311',
+>>>>>>> upstream/18.0
 =======
                 'account_default_pos_receivable_account_id': 'chart1311',
 >>>>>>> upstream/18.0
@@ -47,12 +57,18 @@ class AccountChartTemplate(models.AbstractModel):
                 'account_purchase_tax_id': 'tax_purchase_vat10',
                 'transfer_account_id': 'chart1131',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 'deferred_expense_account_id': 'chart2421',
                 'deferred_revenue_account_id': 'chart33871',
                 'account_production_wip_account_id': 'chart1542',
                 'default_cash_difference_income_account_id': 'chart711',
                 'default_cash_difference_expense_account_id': 'chart811',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             },
         }

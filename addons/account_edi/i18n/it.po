@@ -6,6 +6,10 @@
 # Wil Odoo, 2024
 # Marianna Ciofani, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Marianna Ciofani, 2024\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -106,7 +114,11 @@ msgstr "Annullamento della cancellazione EDI"
 #: model:ir.model.fields.selection,name:account_edi.selection__account_move__edi_state__cancelled
 msgid "Cancelled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Annullata"
+=======
+msgstr "Annullato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Annullato"
 >>>>>>> upstream/18.0
@@ -184,7 +196,11 @@ msgstr "Livello errore EDI"
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_document__edi_content
 msgid "Edi Content"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contenuto Edi"
+=======
+msgstr "Contenuto EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contenuto EDI"
 >>>>>>> upstream/18.0
@@ -206,7 +222,11 @@ msgstr "Numero errori EDI"
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_error_message
 msgid "Edi Error Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Errore EDI"
+=======
+msgstr "Messaggio di errore EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Messaggio di errore EDI"
 >>>>>>> upstream/18.0
@@ -307,7 +327,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Configurazione della fattura non valida:\n"
+=======
+"Configurazione fattura non valida:\n"
+>>>>>>> upstream/18.0
 =======
 "Configurazione fattura non valida:\n"
 >>>>>>> upstream/18.0
@@ -356,7 +380,11 @@ msgstr "Un solo documento EDI per movimento per formato"
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "Process now"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Elaborare ora"
+=======
+msgstr "Elabora ora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elabora ora"
 >>>>>>> upstream/18.0
@@ -391,7 +419,11 @@ msgstr "Invio di fatture XML/EDI"
 #: model:ir.model.fields.selection,name:account_edi.selection__account_move__edi_state__sent
 msgid "Sent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Invio effettuato"
+=======
+msgstr "Inviato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Inviato"
 >>>>>>> upstream/18.0
@@ -406,9 +438,13 @@ msgstr "Stato"
 #: model:ir.model.fields,help:account_edi.field_account_move__edi_state
 msgid "The aggregated state of all the EDIs with web-service of this move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Stato aggregato di tutti gli EDI che richiedono servizi web per questa "
 "registrazione"
+=======
+msgstr "Stato complessivo di tutte le EDI con servizio web del movimento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stato complessivo di tutte le EDI con servizio web del movimento"
 >>>>>>> upstream/18.0
@@ -503,8 +539,13 @@ msgid ""
 "You can't unlink an attachment being an EDI document sent to the government."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non si può scollegare un allegato che consiste in un documento EDI inviato "
 "al governo."
+=======
+"Impossibile rimuovere il collegamento a un documento EDI allegato inviato a "
+"un'agenzia governativa."
+>>>>>>> upstream/18.0
 =======
 "Impossibile rimuovere il collegamento a un documento EDI allegato inviato a "
 "un'agenzia governativa."

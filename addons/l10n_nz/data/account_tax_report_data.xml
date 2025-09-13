@@ -16,7 +16,11 @@
             <record id="tax_report_sale_and_income" model="account.report.line">
                 <field name="name">Sales and Income</field>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="aggregation_formula">NZBOX5.balance + NZBOX6.balance + NZBOX9.balance</field>
+=======
+                <field name="aggregation_formula">NZBOX5.balance + NZBOX9.balance</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="aggregation_formula">NZBOX5.balance + NZBOX9.balance</field>
 >>>>>>> upstream/18.0

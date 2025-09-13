@@ -21,16 +21,22 @@ import {
     stepAllNetworkCalls,
 } from "@web/../tests/web_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { registry } from "@web/core/registry";
 import { X2ManyField, x2ManyField } from "@web/views/fields/x2many/x2many_field";
 import { Many2XAutocomplete } from "@web/views/fields/relational_utils";
 =======
+=======
+>>>>>>> upstream/18.0
 import { ConfirmationDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 import { registry } from "@web/core/registry";
 import { useService } from "@web/core/utils/hooks";
 import { X2ManyField, x2ManyField } from "@web/views/fields/x2many/x2many_field";
 import { Many2XAutocomplete } from "@web/views/fields/relational_utils";
 import { ListRenderer } from "@web/views/list/list_renderer";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 describe.current.tags("desktop");
@@ -487,7 +493,10 @@ test("many2many kanban: conditional create/delete actions", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1067,7 +1076,10 @@ test("many2many list: conditional create/delete actions", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1233,7 +1245,10 @@ test("many2many field with link/unlink options (list)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1392,7 +1407,10 @@ test('many2many field with link/unlink options (list, create="0")', async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1552,7 +1570,10 @@ test("many2many field with link option (kanban)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1713,7 +1734,10 @@ test('many2many field with link option (kanban, create="0")', async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2009,7 +2033,10 @@ test("many2many list (editable): edition concurrence", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("many2many editable list: delete with confirmation (cancel, then delete again)", async () => {
     class ListRendererWithConfirmation extends ListRenderer {
         setup() {
@@ -2071,6 +2098,9 @@ test("many2many editable list: delete with confirmation (cancel, then delete aga
     expect(".o_data_row").toHaveCount(1);
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test("many2many list with onchange and edition of a record", async () => {
     Partner._fields.turtles = fields.Many2many({
@@ -2257,10 +2287,16 @@ test("onchange with 40+ commands for a many2many", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 0; i < 45; i++) {
         var id = 100 + i;
         PartnerType._records.push({ id: id, name: "type " + id });
         commands.push([4, id]);
+=======
+    for (let id = 100; id < 145; id++) {
+        PartnerType._records.push({ id, name: "type " + id });
+        commands.push(Command.link(id));
+>>>>>>> upstream/18.0
 =======
     for (let id = 100; id < 145; id++) {
         PartnerType._records.push({ id, name: "type " + id });
@@ -2563,10 +2599,16 @@ test("onchange with 40+ commands for a many2many on desktop", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 0; i < 45; i++) {
         var id = 100 + i;
         PartnerType._records.push({ id: id, name: "type " + id });
         commands.push([4, id]);
+=======
+    for (let id = 100; id < 145; id++) {
+        PartnerType._records.push({ id, name: "type " + id });
+        commands.push(Command.link(id));
+>>>>>>> upstream/18.0
 =======
     for (let id = 100; id < 145; id++) {
         PartnerType._records.push({ id, name: "type " + id });
@@ -3008,7 +3050,10 @@ test("select create with _view_ref as text", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

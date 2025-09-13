@@ -2,7 +2,12 @@ import { normalizeCSSColor } from "@web/core/utils/colors";
 import { removeClass } from "./dom";
 import { isBold, isDirectionSwitched, isItalic, isStrikeThrough, isUnderline } from "./dom_info";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { closestElement } from "./dom_traversal";
+=======
+import { closestElement, closestPath, findNode } from "./dom_traversal";
+import { isBlock } from "./blocks";
+>>>>>>> upstream/18.0
 =======
 import { closestElement, closestPath, findNode } from "./dom_traversal";
 import { isBlock } from "./blocks";
@@ -88,7 +93,12 @@ export const formatsSpecs = {
     },
     fontSize: {
 <<<<<<< HEAD
+<<<<<<< HEAD
         isFormatted: (node) => closestElement(node)?.style["font-size"],
+=======
+        isFormatted: (node) =>
+            !!findNode(closestPath(node), (el) => el.style?.["font-size"], isBlock),
+>>>>>>> upstream/18.0
 =======
         isFormatted: (node) =>
             !!findNode(closestPath(node), (el) => el.style?.["font-size"], isBlock),
@@ -103,13 +113,19 @@ export const formatsSpecs = {
     setFontSizeClassName: {
         isFormatted: (node) =>
 <<<<<<< HEAD
+<<<<<<< HEAD
             FONT_SIZE_CLASSES.find((cls) => closestElement(node)?.classList?.contains(cls)),
 =======
+=======
+>>>>>>> upstream/18.0
             !!findNode(
                 closestPath(node),
                 (el) => FONT_SIZE_CLASSES.find((cls) => el.classList?.contains(cls)),
                 isBlock
             ),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         hasStyle: (node, props) => FONT_SIZE_CLASSES.find((cls) => node.classList.contains(cls)),
         addStyle: (node, props) => {

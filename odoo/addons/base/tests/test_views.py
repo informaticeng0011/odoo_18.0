@@ -1592,7 +1592,10 @@ class TestTemplating(ViewCase):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_branding_remove_add_text(self):
         view1 = self.View.create({
             'name': "Base view",
@@ -1629,6 +1632,9 @@ class TestTemplating(ViewCase):
         </root>
         """)
         self.assertEqual(arch, expected)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class TestViews(ViewCase):
@@ -1949,7 +1955,10 @@ class TestViews(ViewCase):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_invalid_type(self):
         """Ensure invalid root tag infers an invalid type and raises ValidationError"""
         with self.assertRaises(ValidationError):
@@ -1959,6 +1968,9 @@ class TestViews(ViewCase):
                 'inherit_id': False,
             })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_context_in_view(self):
         arch = """
@@ -3623,7 +3635,10 @@ class TestViewTranslations(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3848,6 +3863,9 @@ class TestViewTranslations(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4800,7 +4818,11 @@ class TestRenderAllViews(TransactionCaseWithUserDemo):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @common.tagged('post_install', '-at_install')
+=======
+@common.tagged('post_install', '-at_install', 'post_install_l10n')
+>>>>>>> upstream/18.0
 =======
 @common.tagged('post_install', '-at_install', 'post_install_l10n')
 >>>>>>> upstream/18.0
@@ -4808,6 +4830,7 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
     def test_uncommented_invisible_field(self):
         # NEVER add new name in this list ! The new addons must add comment for all always invisible field.
         only_log_modules = (
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'base_setup',
@@ -5117,6 +5140,8 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'sale_timesheet_enterprise',
             'helpdesk_repair',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             'account',
@@ -5550,6 +5575,9 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'whatsapp_payment',
             'worksheet',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5565,8 +5593,13 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             view_name = view.model_data_id.name
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for field, _val, comment in re.findall(uncommented_regexp, view.arch_db):
                 if (not comment or not comment.startswith('<!--')):
+=======
+            for field, _val, suffix in re.findall(uncommented_regexp, view.arch_db):
+                if not suffix.startswith('<!--'):
+>>>>>>> upstream/18.0
 =======
             for field, _val, suffix in re.findall(uncommented_regexp, view.arch_db):
                 if not suffix.startswith('<!--'):
@@ -5588,7 +5621,11 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             msg_info = '\n'.join(f'Addons: {module!r}   Views: {names}' for module, names in module_log_views.items())
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.info('%s\n%s', msg, msg_info)
+=======
+            _logger.runbot('%s\n%s', msg, msg_info)
+>>>>>>> upstream/18.0
 =======
             _logger.runbot('%s\n%s', msg, msg_info)
 >>>>>>> upstream/18.0
@@ -5603,8 +5640,13 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
                 for view, fields in view_errors.items():
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     error_lines.extend([f"{' ' * 3}View: {view}\n{' ' * 6}Fields:"])
                     error_lines.extend(["\n".join(f"{' ' * 9}{field}" for field in fields)])
+=======
+                    error_lines.append(f"{' ' * 3}View: {view}\n{' ' * 6}Fields:")
+                    error_lines.append("\n".join(f"{' ' * 9}{field}" for field in fields))
+>>>>>>> upstream/18.0
 =======
                     error_lines.append(f"{' ' * 3}View: {view}\n{' ' * 6}Fields:")
                     error_lines.append("\n".join(f"{' ' * 9}{field}" for field in fields))

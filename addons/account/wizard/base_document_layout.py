@@ -32,6 +32,7 @@ class BaseDocumentLayout(models.TransientModel):
     def _get_render_information(self, styles):
         res = super()._get_render_information(styles)
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (
             self.env.context.get('active_model') == 'account.move'
             and self.env.context.get('active_id')
@@ -41,6 +42,8 @@ class BaseDocumentLayout(models.TransientModel):
                 'qr_code': self.qr_code,
             })
 =======
+=======
+>>>>>>> upstream/18.0
 
         if (
             self.env.context.get('active_model') == 'account.move'
@@ -57,6 +60,9 @@ class BaseDocumentLayout(models.TransientModel):
                 'account_number': self.account_number,
             })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return res
 
@@ -69,11 +75,14 @@ class BaseDocumentLayout(models.TransientModel):
                 record.account_number = ''
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _inverse_account_number(self):
         for record in self:
             if record.partner_id.bank_ids and record.account_number:
                 record.partner_id.bank_ids[0].acc_number = record.account_number
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('qr_code', 'account_number')
     def _compute_preview(self):
         # EXTENDS 'web' to add dependencies
@@ -85,6 +94,9 @@ class BaseDocumentLayout(models.TransientModel):
                 bank = record.partner_id.bank_ids[0]
                 if bank.acc_number != record.account_number:
                     bank.acc_number = record.account_number
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             elif record.account_number:
                 record.partner_id.bank_ids = [

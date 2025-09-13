@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* calendar
 # 
 # Translators:
@@ -8,17 +9,23 @@
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * calendar
 #
 # Translators:
 # Wil Odoo, 2024
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2024, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2024\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-11 17:19+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
@@ -42,6 +51,9 @@ msgstr ""
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
 "100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: calendar
@@ -197,7 +209,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div>\n"
 "\n"
 "    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': "
@@ -385,6 +400,9 @@ msgstr ""
 "    </t>\n"
 "</div>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: calendar
@@ -496,7 +514,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div>\n"
 "    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': "
 "'green', 'tentative': '#FFFF00', 'declined': 'red'}\"/>\n"
@@ -661,6 +682,9 @@ msgstr ""
 "    </t>\n"
 "</div>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: calendar
@@ -748,7 +772,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div>\n"
 "    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': "
 "'green', 'tentative': '#FFFF00', 'declined': 'red'}\"/>\n"
@@ -867,6 +894,9 @@ msgstr ""
 "    </t>\n"
 "</div>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: calendar
@@ -964,7 +994,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div>\n"
 "    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': "
 "'green', 'tentative': '#FFFF00', 'declined': 'red'}\"/>\n"
@@ -1111,6 +1144,9 @@ msgstr ""
 "    </t>\n"
 "</div>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: calendar
@@ -1120,6 +1156,11 @@ msgid ""
 "title=\"Meetings\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-calendar me-1\" aria-label=\"Meetings\" role=\"img\" title="
+"\"Meetings\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-calendar me-1\" aria-label=\"Meetings\" role=\"img\" title="
 "\"Meetings\"/>"
@@ -1225,7 +1266,11 @@ msgid ""
 msgstr ""
 "Дії повинні запустити конкретну дію, таку як відкриття календаря або "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "автоматичне позначення як зроблено після завантаження документа."
+=======
+"автоматичне позначення як зроблено після завантаження документа"
+>>>>>>> upstream/18.0
 =======
 "автоматичне позначення як зроблено після завантаження документа"
 >>>>>>> upstream/18.0
@@ -1412,7 +1457,11 @@ msgstr "Інформація календаря учасника"
 #: model_terms:ir.ui.view,arch_db:calendar.res_users_form_view_calendar_default_privacy
 msgid "Calendar Default Privacy"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Типова приватність календаря"
+>>>>>>> upstream/18.0
 =======
 msgstr "Типова приватність календаря"
 >>>>>>> upstream/18.0
@@ -1667,7 +1716,11 @@ msgstr "За замовчуванням"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Default Privacy"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Типова приватність"
+>>>>>>> upstream/18.0
 =======
 msgstr "Типова приватність"
 >>>>>>> upstream/18.0
@@ -1677,6 +1730,11 @@ msgstr "Типова приватність"
 msgid "Default privacy setting for whom the calendar events will be visible."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Налаштування конфіденційності за замовчуванням, для яких будуть видимі події "
+"календаря."
+>>>>>>> upstream/18.0
 =======
 "Налаштування конфіденційності за замовчуванням, для яких будуть видимі події "
 "календаря."
@@ -2220,7 +2278,11 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:calendar.field_res_users__calendar_last_notif_ack
 msgid "Last notification marked as read from base Calendar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Останнє повідомлення позначено як прочитане з базового календаря."
+=======
+msgstr "Останнє повідомлення позначено як прочитане з базового календаря"
+>>>>>>> upstream/18.0
 =======
 msgstr "Останнє повідомлення позначено як прочитане з базового календаря"
 >>>>>>> upstream/18.0
@@ -2605,7 +2667,11 @@ msgstr "Правило повторення"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__end_type
 msgid "Recurrence Termination"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Термін дії "
+=======
+msgstr "Термін дії"
+>>>>>>> upstream/18.0
 =======
 msgstr "Термін дії"
 >>>>>>> upstream/18.0
@@ -2817,7 +2883,11 @@ msgstr "Дата завершення події, не містить часу, 
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Stop synchro"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Зупинити синхронізацію"
+>>>>>>> upstream/18.0
 =======
 msgstr "Зупинити синхронізацію"
 >>>>>>> upstream/18.0
@@ -2849,7 +2919,11 @@ msgstr "Неділя"
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Synchro is paused"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Синхронізація зупинена"
+>>>>>>> upstream/18.0
 =======
 msgstr "Синхронізація зупинена"
 >>>>>>> upstream/18.0
@@ -2859,7 +2933,11 @@ msgstr "Синхронізація зупинена"
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Synchronize with"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Синхронізувати з"
+>>>>>>> upstream/18.0
 =======
 msgstr "Синхронізувати з"
 >>>>>>> upstream/18.0
@@ -2931,6 +3009,12 @@ msgid ""
 "Meeting “%(name)s” starts at %(start_time)s and ends at %(end_time)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Дата та час завершення не можуть бути раніше за дату та час початку.\n"
+"Зустріч “%(name)s” починається о %(start_time)s та закінчується о "
+"%(end_time)s"
+>>>>>>> upstream/18.0
 =======
 "Дата та час завершення не можуть бути раніше за дату та час початку.\n"
 "Зустріч “%(name)s” починається о %(start_time)s та закінчується о "
@@ -2945,6 +3029,11 @@ msgid ""
 "Meeting “%(name)s” starts on %(start_date)s and ends on %(end_date)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Дата завершення не може бути раніше за дату початку.\n"
+"Зустріч “%(name)s” починається %(start_date)s та закінчується %(end_date)s"
+>>>>>>> upstream/18.0
 =======
 "Дата завершення не може бути раніше за дату початку.\n"
 "Зустріч “%(name)s” починається %(start_date)s та закінчується %(end_date)s"
@@ -3160,6 +3249,11 @@ msgid ""
 "due to privacy constraints."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ви не можете змінювати налаштування конфіденційності календаря за "
+"замовчуванням для іншого користувача через обмеження конфіденційності."
+>>>>>>> upstream/18.0
 =======
 "Ви не можете змінювати налаштування конфіденційності календаря за "
 "замовчуванням для іншого користувача через обмеження конфіденційності."
@@ -3232,7 +3326,11 @@ msgstr "можливо,"
 #: code:addons/calendar/static/src/views/fields/attendee_tags_list.xml:0
 msgid "no email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "немає листів"
+>>>>>>> upstream/18.0
 =======
 msgstr "немає листів"
 >>>>>>> upstream/18.0

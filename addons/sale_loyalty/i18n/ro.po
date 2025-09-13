@@ -6,6 +6,10 @@
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
@@ -15,9 +19,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"POT-Creation-Date: 2025-03-19 20:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -35,7 +45,11 @@ msgstr ""
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid " - On products with the following taxes: %(taxes)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " - La produsele cu următoarele taxe: %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr " - La produsele cu următoarele taxe: %(taxes)s"
 >>>>>>> upstream/18.0
@@ -49,7 +63,11 @@ msgstr "<span class=\"fa fa-clipboard\"/> Copiază"
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_order_portal_loyalty_content
 msgid "<strong>Loyalty Card</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Card de fidelitate</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Card de fidelitate</strong>"
 >>>>>>> upstream/18.0
@@ -67,8 +85,13 @@ msgid ""
 "A minimum of %(amount)s %(currency)s should be purchased to get the reward"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pentru a obține recompensa trebuie achiziționat minimum "
 "%(amount)s%(currency)s"
+=======
+"Pentru a obține recompensa trebuie achiziționat minimum %(amount)s "
+"%(currency)s"
+>>>>>>> upstream/18.0
 =======
 "Pentru a obține recompensa trebuie achiziționat minimum %(amount)s "
 "%(currency)s"
@@ -116,7 +139,11 @@ msgstr "Cod cupon"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__coupon_point_ids
 msgid "Coupon Point"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cupon punct"
+=======
+msgstr "Punct cupon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Punct cupon"
 >>>>>>> upstream/18.0
@@ -159,7 +186,11 @@ msgstr "Abandonează"
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "Discount %(desc)s%(tax_str)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reducere %(desc)s%(tax_str)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reducere %(desc)s%(tax_str)s"
 >>>>>>> upstream/18.0
@@ -211,7 +242,11 @@ msgstr "Carduri cadou și portofel electronic"
 #: model:ir.model,name:sale_loyalty.model_loyalty_history
 msgid "History for Loyalty cards and Ewallets"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Istoric pentru carduri de loialitate și portofele electronice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Istoric pentru carduri de loialitate și portofele electronice"
 >>>>>>> upstream/18.0
@@ -249,7 +284,11 @@ msgstr "Este o linie a programului de recompensă "
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_order_portal_loyalty_content
 msgid "Issued"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Emis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Emis"
 >>>>>>> upstream/18.0
@@ -259,7 +298,11 @@ msgstr "Emis"
 #: code:addons/sale_loyalty/static/src/views/fields/loyalty_total/loyalty_data_field.xml:0
 msgid "Issued :"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Emis :"
+>>>>>>> upstream/18.0
 =======
 msgstr "Emis :"
 >>>>>>> upstream/18.0
@@ -283,7 +326,11 @@ msgstr "Ultima actualizare pe"
 #: code:addons/sale_loyalty/static/src/views/fields/loyalty_total/loyalty_data_field.xml:0
 msgid "Loyalty Card :"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Card de fidelitate :"
+>>>>>>> upstream/18.0
 =======
 msgstr "Card de fidelitate :"
 >>>>>>> upstream/18.0
@@ -297,7 +344,11 @@ msgstr "Cupon de loialitate"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__loyalty_data
 msgid "Loyalty Data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Date de loialitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Date de loialitate"
 >>>>>>> upstream/18.0
@@ -340,12 +391,15 @@ msgstr ""
 #. module: sale_loyalty
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "No product is compatible with this promotion."
 msgstr ""
 
 #. module: sale_loyalty
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/sale_loyalty/wizard/sale_loyalty_reward_wizard.py:0
@@ -382,7 +436,11 @@ msgstr "Comandă %s"
 #: model:ir.model.fields,field_description:sale_loyalty.field_loyalty_program__order_count
 msgid "Order Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de Comenzi"
+=======
+msgstr "Număr de comenzi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de comenzi"
 >>>>>>> upstream/18.0
@@ -403,7 +461,11 @@ msgstr "Puncte"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_line__points_cost
 msgid "Points Cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Costul în puncte"
+=======
+msgstr "Cost în puncte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cost în puncte"
 >>>>>>> upstream/18.0
@@ -419,7 +481,11 @@ msgstr "Recompensă"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__reward_amount
 msgid "Reward Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoarea recompenselor"
+=======
+msgstr "Valoare recompensă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare recompensă"
 >>>>>>> upstream/18.0
@@ -438,7 +504,11 @@ msgstr "Produse recompensă"
 #: model:ir.model,name:sale_loyalty.model_sale_loyalty_coupon_wizard
 msgid "Sale Loyalty - Apply Coupon Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Loialitate vânzări - Aplică asistentul de cupoane"
+=======
+msgstr "Loialitate vânzări - Asistent aplicare cupon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Loialitate vânzări - Asistent aplicare cupon"
 >>>>>>> upstream/18.0
@@ -454,8 +524,13 @@ msgid ""
 "Sale Order Coupon Points - Keeps track of how a sale order impacts a coupon"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Puncte de cupon pentru comanda de vânzare - ține evidența modului în care o "
 "comandă de vânzare afectează un cupon"
+=======
+"Puncte cupon comandă de vânzare - Ține evidența modului în care o comandă de"
+" vânzare afectează un cupon"
+>>>>>>> upstream/18.0
 =======
 "Puncte cupon comandă de vânzare - Ține evidența modului în care o comandă de"
 " vânzare afectează un cupon"
@@ -499,7 +574,11 @@ msgid ""
 "together."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Domeniu tehnic utilizat pentru a lega mai multe linii de recompensă de la "
+=======
+"Câmp tehnic folosit pentru a lega mai multe linii de recompensă de la "
+>>>>>>> upstream/18.0
 =======
 "Câmp tehnic folosit pentru a lega mai multe linii de recompensă de la "
 >>>>>>> upstream/18.0
@@ -576,6 +655,11 @@ msgid ""
 "Please remove it in order to apply this one."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Acest discount (%(discount)s) nu este compatibil cu \"%(other_discount)s\". "
+"Vă rugăm să îl eliminați pentru a-l aplica pe acesta."
+>>>>>>> upstream/18.0
 =======
 "Acest discount (%(discount)s) nu este compatibil cu \"%(other_discount)s\". "
 "Vă rugăm să îl eliminați pentru a-l aplica pe acesta."
@@ -586,7 +670,11 @@ msgstr ""
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This program cannot be applied with code."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acest program nu poate fi aplicat cu cod."
+>>>>>>> upstream/18.0
 =======
 msgstr "Acest program nu poate fi aplicat cu cod."
 >>>>>>> upstream/18.0
@@ -620,8 +708,13 @@ msgstr "Acest cod promoțional este deja aplicat."
 msgid "Update current promotional lines and select new rewards if applicable."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Actualizează liniile promoționale curente și selectează noi recompense, dacă"
 " este cazul."
+=======
+"Actualizați liniile promoționale curente și selectați noi recompense, dacă "
+"este cazul."
+>>>>>>> upstream/18.0
 =======
 "Actualizați liniile promoționale curente și selectați noi recompense, dacă "
 "este cazul."
@@ -637,7 +730,11 @@ msgstr "Folosit"
 #: code:addons/sale_loyalty/static/src/views/fields/loyalty_total/loyalty_data_field.xml:0
 msgid "Used :"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folosit :"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosit :"
 >>>>>>> upstream/18.0
@@ -647,7 +744,11 @@ msgstr "Folosit :"
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "You don't have the required product quantities on your sales order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu aveți cantitățile de produs necesare în comanda dvs. de vânzare."
+=======
+msgstr "Nu aveți cantitățile de produse necesare în comanda dvs. de vânzare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu aveți cantitățile de produse necesare în comanda dvs. de vânzare."
 >>>>>>> upstream/18.0
@@ -659,8 +760,13 @@ msgid ""
 "You can use it starting right now."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Veți găsi mai jos codurile cardurilor cadou. A fost trimis un e-mail cu ele."
 " Le puteți folosi începând chiar acum."
+=======
+"Mai jos veți găsi codul cardului dvs. cadou. Un e-mail a fost trimis cu "
+"acesta. Îl puteți folosi chiar acum."
+>>>>>>> upstream/18.0
 =======
 "Mai jos veți găsi codul cardului dvs. cadou. Un e-mail a fost trimis cu "
 "acesta. Îl puteți folosi chiar acum."

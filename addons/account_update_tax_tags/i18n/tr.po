@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_update_tax_tags
 # 
 # Translators:
@@ -8,18 +9,24 @@
 # Levent Karakaş <levent@mektup.at>, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * account_update_tax_tags
 #
 # Translators:
 # emre oktem, 2024
 # Levent Karakaş <levent@mektup.at>, 2024
 # "Deniz Guvener Unal (degu)" <degu@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Levent Karakaş <levent@mektup.at>, 2024\n"
@@ -30,6 +37,8 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-07 08:39+0000\n"
 "Last-Translator: \"Deniz Guvener Unal (degu)\" <degu@odoo.com>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
@@ -40,6 +49,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
@@ -61,7 +73,11 @@ msgstr "Oluşturuldu"
 #: model:ir.model.fields,help:account_update_tax_tags.field_account_update_tax_tags_wizard__date_from
 msgid "Date from which journal items will be updated."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yevmiye kayıtlarının güncelleneceği başlangıç tarihi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Yevmiye kayıtlarının güncelleneceği başlangıç tarihi."
 >>>>>>> upstream/18.0
@@ -75,7 +91,11 @@ msgstr "Sil"
 #: model:ir.model.fields,field_description:account_update_tax_tags.field_account_update_tax_tags_wizard__display_lock_date_warning
 msgid "Display Lock Date Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kilit Tarihi Uyarısını Göster"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kilit Tarihi Uyarısını Göster"
 >>>>>>> upstream/18.0
@@ -104,7 +124,11 @@ msgstr "Son Güncelleme"
 #: model:ir.model.fields,field_description:account_update_tax_tags.field_account_update_tax_tags_wizard__date_from
 msgid "Starting from"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Başlangıç tarihi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Başlangıç tarihi"
 >>>>>>> upstream/18.0
@@ -115,6 +139,11 @@ msgid ""
 "The date you chose is violating the tax lock date, do this at your own risk."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Seçtiğiniz tarih vergi kilit tarihini ihlal ediyor, bu işlemi riski size ait "
+"olmak üzere gerçekleştirin."
+>>>>>>> upstream/18.0
 =======
 "Seçtiğiniz tarih vergi kilit tarihini ihlal ediyor, bu işlemi riski size ait "
 "olmak üzere gerçekleştirin."
@@ -129,7 +158,11 @@ msgstr "Güncelle"
 #: model:ir.model,name:account_update_tax_tags.model_account_update_tax_tags_wizard
 msgid "Update Tax Tags Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vergi Etiketlerini Güncelleme Sihirbazı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vergi Etiketlerini Güncelleme Sihirbazı"
 >>>>>>> upstream/18.0
@@ -139,7 +172,11 @@ msgstr "Vergi Etiketlerini Güncelleme Sihirbazı"
 #: model_terms:ir.ui.view,arch_db:account_update_tax_tags.res_config_settings_view_form
 msgid "Update tax tags on existing Journal Entries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mevcut Yevmiye Kayıtlarındaki vergi etiketlerini güncelle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mevcut Yevmiye Kayıtlarındaki vergi etiketlerini güncelle"
 >>>>>>> upstream/18.0
@@ -152,6 +189,10 @@ msgid ""
 "supported."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Birden fazla üst vergiye bağlı alt vergilerle güncelleme desteklenmiyor."
+>>>>>>> upstream/18.0
 =======
 "Birden fazla üst vergiye bağlı alt vergilerle güncelleme desteklenmiyor."
 >>>>>>> upstream/18.0
@@ -166,7 +207,10 @@ msgid ""
 "                    so that it matches with the current configuration of your taxes.<br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Mevcut yevmiye kayıtlarındaki vergi etiketlerini güncellemek <b>geri "
 "alınamaz</b> bir işlemdir ve\n"
 "                    raporlarınızı etkiler.<br/>\n"
@@ -176,4 +220,7 @@ msgstr ""
 "geçmişinizdeki vergi etiketlerini mevcut vergi,\n"
 "                    yapılandırmanıza uygun olacak şekilde değiştirecektir.<"
 "br/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

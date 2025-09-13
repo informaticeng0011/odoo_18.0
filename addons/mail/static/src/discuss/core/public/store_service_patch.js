@@ -13,12 +13,18 @@ const storeServicePatch = {
         this.discuss_public_thread = Record.one("Thread");
         this.shouldDisplayWelcomeViewInitially;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         this.shouldDisplayWelcomeView = Record.attr(undefined, {
             compute() {
                 return this.shouldDisplayWelcomeView ?? this.shouldDisplayWelcomeViewInitially;
             },
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
 };

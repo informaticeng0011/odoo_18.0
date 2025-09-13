@@ -53,12 +53,18 @@ class AccountAnalyticDistributionModel(models.Model):
     @api.depends('analytic_precision')
     def _compute_prefix_placeholder(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         expense_account = self.env['account.account'].search([('account_type', '=', 'expense')], limit=1)
 =======
+=======
+>>>>>>> upstream/18.0
         expense_account = self.env['account.account'].search([
             *self.env['account.account']._check_company_domain(self.env.company),
             ('account_type', '=', 'expense'),
         ], limit=1)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         for model in self:
             account_prefixes = "60, 61, 62"

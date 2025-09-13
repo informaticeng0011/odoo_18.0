@@ -201,7 +201,10 @@ class ChatbotCase(chatbot_common.ChatbotCase):
             chatbot_operator,
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_chatbot_clear_answers_on_step_type_change(self):
         chatbot = self.env['chatbot.script'].create({
@@ -238,4 +241,7 @@ class ChatbotCase(chatbot_common.ChatbotCase):
         self.assertFalse(step.answer_ids, "Answers were not cleared after step_type was changed.")
         self.assertFalse(step_2.triggering_answer_ids, "Step 2 still has stale triggering answers.")
         self.assertFalse(step_3.triggering_answer_ids, "Step 3 still has stale triggering answers.")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

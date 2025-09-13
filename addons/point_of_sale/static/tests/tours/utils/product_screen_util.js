@@ -6,6 +6,10 @@ import * as TextInputPopup from "@point_of_sale/../tests/tours/utils/text_input_
 import * as Dialog from "@point_of_sale/../tests/tours/utils/dialog_util";
 import * as Chrome from "@point_of_sale/../tests/tours/utils/chrome_util";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as PaymentScreen from "@point_of_sale/../tests/tours/utils/payment_screen_util";
+>>>>>>> upstream/18.0
 =======
 import * as PaymentScreen from "@point_of_sale/../tests/tours/utils/payment_screen_util";
 >>>>>>> upstream/18.0
@@ -43,7 +47,10 @@ export function selectFloatingOrder(index) {
     ];
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 export function checkFloatingOrderCount(expectedCount) {
     return [
@@ -72,6 +79,9 @@ export function checkFloatingOrderCount(expectedCount) {
     ];
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * Generates a sequence of actions to click on a displayed product, with optional additional
@@ -403,7 +413,10 @@ export function clickFiscalPosition(name, checkIsNeeded = false) {
     return [...step, { ...back(), isActive: ["mobile"] }];
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 export function checkFiscalPosition(name) {
     return [
         clickReview(),
@@ -424,6 +437,9 @@ export function checkFiscalPositionButton() {
         },
     ];
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 export function closeWithCashAmount(val) {
     return [
@@ -695,6 +711,7 @@ export function closePos() {
 export function finishOrder() {
     return [
 <<<<<<< HEAD
+<<<<<<< HEAD
         {
             isActive: ["desktop"],
             content: "validate the order",
@@ -707,6 +724,9 @@ export function finishOrder() {
             trigger: ".payment-screen .btn-switchpane:contains('Validate')",
             run: "click",
         },
+=======
+        ...PaymentScreen.clickValidate(),
+>>>>>>> upstream/18.0
 =======
         ...PaymentScreen.clickValidate(),
 >>>>>>> upstream/18.0

@@ -320,8 +320,11 @@
                     <filter string="Responsible" name="responsible" context="{'group_by': 'user_id'}"/>
                     <filter string="Template" name="event_type_id" context="{'group_by': 'event_type_id'}"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <filter string="Stage" name="stage_id" context="{'group_by': 'stage_id'}"/>
 =======
+=======
+>>>>>>> upstream/18.0
                     <!--
                     TODO the "groups" attribute is not directly useful here: the
                     whole event app is supposed to be hidden for those lambda
@@ -332,6 +335,9 @@
                     See WEBSITE_RECORDS_VIEWS_ACCESS_RIGHTS.
                     -->
                     <filter string="Stage" name="stage_id" context="{'group_by': 'stage_id'}" groups="event.group_event_registration_desk"/>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     <filter string="Start Date" name="date_begin" domain="[]" context="{'group_by': 'date_begin'}"/>
                     <filter string="Venue" name="venue" context="{'group_by': 'address_id'}"/>

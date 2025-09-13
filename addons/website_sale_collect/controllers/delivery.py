@@ -35,7 +35,10 @@ class InStoreDelivery(Delivery):
             order_sudo.set_delivery_line(in_store_dm, in_store_dm.product_id.list_price)
         order_sudo._set_pickup_location(pickup_location_data)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @classmethod
     def _get_delivery_methods_express_checkout(cls, order_sudo):
@@ -45,4 +48,7 @@ class InStoreDelivery(Delivery):
             if dm.delivery_type == 'in_store':
                 del dm_rate_mapping[dm]
         return dm_rate_mapping
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

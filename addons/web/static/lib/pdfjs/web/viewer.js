@@ -6703,6 +6703,11 @@ class PDFPrintService {
     this.pageStyleSheet.textContent = `@page { size: ${width}pt ${height}pt;}`;
     body.append(this.pageStyleSheet);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    // ODOO PATCH PRINT PREVIEW MOBILE
+    this.hasFinishPrint = null;
+>>>>>>> upstream/18.0
 =======
     // ODOO PATCH PRINT PREVIEW MOBILE
     this.hasFinishPrint = null;
@@ -6772,6 +6777,7 @@ class PDFPrintService {
   performPrint() {
     this.throwIfInactive();
 <<<<<<< HEAD
+<<<<<<< HEAD
     return new Promise(resolve => {
       setTimeout(() => {
         if (!this.active) {
@@ -6783,6 +6789,8 @@ class PDFPrintService {
       }, 0);
     });
 =======
+=======
+>>>>>>> upstream/18.0
     // ODOO PATCH PRINT PREVIEW MOBILE
     const hasFinishPrintPromise = new Promise((resolve) => {
       if ("afterprint" in window) {
@@ -6802,6 +6810,9 @@ class PDFPrintService {
     }, 0);
     // ODOO PATCH PRINT PREVIEW MOBILE
     return hasFinishPrintPromise;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   get active() {
@@ -6838,6 +6849,7 @@ window.print = function () {
     }
     const activeServiceOnEntry = activeService;
 <<<<<<< HEAD
+<<<<<<< HEAD
     activeService.renderPages().then(function () {
       return activeServiceOnEntry.performPrint();
     }).catch(function () {}).then(function () {
@@ -6845,6 +6857,8 @@ window.print = function () {
         // ODOO Patch: https://github.com/mozilla/pdf.js/issues/10630#issuecomment-855754913
         setTimeout(abort, 1000);
 =======
+=======
+>>>>>>> upstream/18.0
     // ODOO: FIX MOBILE PRINT PREVIEW
     const timeBeforeRendering = new Date().getTime();
     activeService.renderPages().then(function () {
@@ -6856,6 +6870,9 @@ window.print = function () {
     }).catch(function () {}).then(function () {
       if (activeServiceOnEntry.active) {
         abort();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       }
     });
@@ -6895,12 +6912,18 @@ window.addEventListener("keydown", function (event) {
 if ("onbeforeprint" in window) {
   const stopPropagationIfNeeded = function (event) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     // ODOO PATCH PRINT PREVIEW MOBILE
     if (activeService?.hasFinishPrint && event.type === "afterprint") {
       activeService.hasFinishPrint();
       return;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     if (event.detail !== "custom") {
       event.stopImmediatePropagation();

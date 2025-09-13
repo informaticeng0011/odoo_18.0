@@ -6,6 +6,10 @@
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Martin Trigaux, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Kira Petersen, 2025
+>>>>>>> upstream/18.0
 =======
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Martin Trigaux, 2024\n"
+=======
+"Last-Translator: Kira Petersen, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Kira Petersen, 2025\n"
 >>>>>>> upstream/18.0
@@ -37,7 +45,11 @@ msgstr "Alle"
 #: model:ir.model.fields.selection,name:pos_razorpay.selection__pos_payment_method__razorpay_allowed_payment_modes__bharatqr
 msgid "BHARATQR"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BHARATQR"
+>>>>>>> upstream/18.0
 =======
 msgstr "BHARATQR"
 >>>>>>> upstream/18.0
@@ -47,7 +59,11 @@ msgstr "BHARATQR"
 #: code:addons/pos_razorpay/models/razorpay_pos_request.py:0
 msgid "Cannot decode Razorpay POS response"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svar fra Razorpay-POS kan ikke afkodes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svar fra Razorpay-POS kan ikke afkodes"
 >>>>>>> upstream/18.0
@@ -70,6 +86,11 @@ msgid ""
 " All/Card/UPI or QR"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vælg den tilladte betalingsform:\n"
+" Alle/kort/UPI eller QR-koder"
+>>>>>>> upstream/18.0
 =======
 "Vælg den tilladte betalingsform:\n"
 " Alle/kort/UPI eller QR-koder"
@@ -92,6 +113,11 @@ msgid ""
 " ex: 7000012300"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Enhedens serienr. \n"
+" f.eks.: 7000012300"
+>>>>>>> upstream/18.0
 =======
 "Enhedens serienr. \n"
 " f.eks.: 7000012300"
@@ -105,6 +131,11 @@ msgid ""
 "on terminal or proceed to cancel this transaction"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Betalingen er sat i kø. Du kan enten vente, til den bliver udløst på "
+"terminalen, eller annullere transaktionen."
+>>>>>>> upstream/18.0
 =======
 "Betalingen er sat i kø. Du kan enten vente, til den bliver udløst på "
 "terminalen, eller annullere transaktionen."
@@ -124,7 +155,11 @@ msgstr "Point of Sale betalinger"
 #: model:ir.model.fields,field_description:pos_razorpay.field_pos_payment_method__razorpay_api_key
 msgid "Razorpay API Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay API-nøgle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay API-nøgle"
 >>>>>>> upstream/18.0
@@ -133,7 +168,11 @@ msgstr "Razorpay API-nøgle"
 #: model:ir.model.fields,field_description:pos_razorpay.field_pos_payment_method__razorpay_allowed_payment_modes
 msgid "Razorpay Allowed Payment Modes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betalingsformer tilladt af Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Betalingsformer tilladt af Razorpay"
 >>>>>>> upstream/18.0
@@ -142,7 +181,11 @@ msgstr "Betalingsformer tilladt af Razorpay"
 #: model:ir.model.fields,field_description:pos_razorpay.field_pos_payment_method__razorpay_tid
 msgid "Razorpay Device Serial No"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Serienummer på Razorpay-enhed"
+>>>>>>> upstream/18.0
 =======
 msgstr "Serienummer på Razorpay-enhed"
 >>>>>>> upstream/18.0
@@ -152,7 +195,11 @@ msgstr "Serienummer på Razorpay-enhed"
 #: code:addons/pos_razorpay/static/src/app/payment_razorpay.js:0
 msgid "Razorpay Error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay-fejl"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay-fejl"
 >>>>>>> upstream/18.0
@@ -165,6 +212,11 @@ msgid ""
 "response"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Den forventede errorCode for Razorpay POS-anmodningen om annullering af "
+"betaling blev ikke fundet i svaret"
+>>>>>>> upstream/18.0
 =======
 "Den forventede errorCode for Razorpay POS-anmodningen om annullering af "
 "betaling blev ikke fundet i svaret"
@@ -177,6 +229,11 @@ msgid ""
 "Razorpay POS payment request expected errorCode not found in the response"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Den forventede errorCode for Razorpay POS-anmodningen om betaling blev ikke "
+"fundet i svaret"
+>>>>>>> upstream/18.0
 =======
 "Den forventede errorCode for Razorpay POS-anmodningen om betaling blev ikke "
 "fundet i svaret"
@@ -190,6 +247,11 @@ msgid ""
 "response"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Den forventede errorCode for Razorpay POS-anmodningen om betalingsstatus "
+"blev ikke fundet i svaret"
+>>>>>>> upstream/18.0
 =======
 "Den forventede errorCode for Razorpay POS-anmodningen om betalingsstatus "
 "blev ikke fundet i svaret"
@@ -200,7 +262,11 @@ msgstr ""
 #: code:addons/pos_razorpay/models/pos_payment_method.py:0
 msgid "Razorpay POS transaction canceled successfully"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay-POS-transaktion annulleret"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay-POS-transaktion annulleret"
 >>>>>>> upstream/18.0
@@ -210,7 +276,11 @@ msgstr "Razorpay-POS-transaktion annulleret"
 #: code:addons/pos_razorpay/models/pos_payment_method.py:0
 msgid "Razorpay POS transaction failed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay-POS-transaktion mislykkedes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay-POS-transaktion mislykkedes"
 >>>>>>> upstream/18.0
@@ -219,7 +289,11 @@ msgstr "Razorpay-POS-transaktion mislykkedes"
 #: model:ir.model.fields,field_description:pos_razorpay.field_pos_payment__razorpay_reverse_ref_no
 msgid "Razorpay Reverse Reference No."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay-annulleringsreferencenummer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay-annulleringsreferencenummer"
 >>>>>>> upstream/18.0
@@ -228,7 +302,11 @@ msgstr "Razorpay-annulleringsreferencenummer"
 #: model:ir.model.fields,field_description:pos_razorpay.field_pos_payment_method__razorpay_test_mode
 msgid "Razorpay Test Mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay-testtilstand"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay-testtilstand"
 >>>>>>> upstream/18.0
@@ -237,7 +315,11 @@ msgstr "Razorpay-testtilstand"
 #: model:ir.model.fields,field_description:pos_razorpay.field_pos_payment_method__razorpay_username
 msgid "Razorpay Username"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay-brugernavn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay-brugernavn"
 >>>>>>> upstream/18.0
@@ -259,7 +341,11 @@ msgstr "Denne betalingsterminal er kun gyldig for INR valuta"
 #: code:addons/pos_razorpay/static/src/app/payment_razorpay.js:0
 msgid "Transaction failed due to inactivity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transaktionen mislykkedes på grund af inaktivitet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transaktionen mislykkedes på grund af inaktivitet"
 >>>>>>> upstream/18.0
@@ -268,7 +354,11 @@ msgstr "Transaktionen mislykkedes på grund af inaktivitet"
 #: model:ir.model.fields,help:pos_razorpay.field_pos_payment_method__razorpay_test_mode
 msgid "Turn it on when in Test Mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tænd i testtilstand"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tænd i testtilstand"
 >>>>>>> upstream/18.0
@@ -277,7 +367,11 @@ msgstr "Tænd i testtilstand"
 #: model:ir.model.fields.selection,name:pos_razorpay.selection__pos_payment_method__razorpay_allowed_payment_modes__upi
 msgid "UPI"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UPI"
+>>>>>>> upstream/18.0
 =======
 msgstr "UPI"
 >>>>>>> upstream/18.0
@@ -289,6 +383,11 @@ msgid ""
 "https://razorpay.com/docs/payments/dashboard/account-settings/api-keys/"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Anvendes, når der oprettes forbindelse til Razorpay: "
+"https://razorpay.com/docs/payments/dashboard/account-settings/api-keys/"
+>>>>>>> upstream/18.0
 =======
 "Anvendes, når der oprettes forbindelse til Razorpay: "
 "https://razorpay.com/docs/payments/dashboard/account-settings/api-keys/"
@@ -301,6 +400,11 @@ msgid ""
 " ex: 1234500121"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Brugernavn(enhedslogin) \n"
+" f.eks.: 1234500121"
+>>>>>>> upstream/18.0
 =======
 "Brugernavn(enhedslogin) \n"
 " f.eks.: 1234500121"

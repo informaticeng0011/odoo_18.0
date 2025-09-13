@@ -1,7 +1,11 @@
 import logging
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _, models, SUPERUSER_ID
+=======
+from odoo import _, api, models, SUPERUSER_ID
+>>>>>>> upstream/18.0
 =======
 from odoo import _, api, models, SUPERUSER_ID
 >>>>>>> upstream/18.0
@@ -14,7 +18,10 @@ class AccountMoveSend(models.AbstractModel):
     _inherit = 'account.move.send'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.model
     def _is_es_facturae_applicable(self, move) -> bool:
         """Check if the Factura-e applies to the given move."""
@@ -47,6 +54,9 @@ class AccountMoveSend(models.AbstractModel):
                 alerts.update(**es_alerts)
         return alerts
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # ATTACHMENTS
@@ -56,6 +66,7 @@ class AccountMoveSend(models.AbstractModel):
         # EXTENDS 'account'
         return super()._get_invoice_extra_attachments(move) + move.l10n_es_edi_facturae_xml_id
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -594,6 +605,8 @@ class AccountMoveSend(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_placeholder_mail_attachments_data(self, move, invoice_edi_format=None, extra_edis=None):
         if extra_edis is None:
             extra_edis = {}
@@ -604,6 +617,9 @@ class AccountMoveSend(models.AbstractModel):
             ('es_facturae' in extra_edis or invoice_edi_format == 'es_facturae')
             and move._l10n_es_edi_facturae_get_default_enable()
         ):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             filename = f'{move.name.replace("/", "_")}_facturae_signed.xml'
             results.append({
@@ -624,12 +640,18 @@ class AccountMoveSend(models.AbstractModel):
         super()._hook_invoice_document_before_pdf_report_render(invoice, invoice_data)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if invoice_data['invoice_edi_format'] == 'es_facturae' and invoice._l10n_es_edi_facturae_get_default_enable():
 =======
+=======
+>>>>>>> upstream/18.0
         if (
             ('es_facturae' in invoice_data['extra_edis'] or invoice_data['invoice_edi_format'] == 'es_facturae')
             and invoice._l10n_es_edi_facturae_get_default_enable()
         ):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             try:
                 xml_content, errors = invoice._l10n_es_edi_facturae_render_facturae()

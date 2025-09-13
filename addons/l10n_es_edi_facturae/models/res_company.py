@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models
+=======
+from odoo import _, fields, models
+>>>>>>> upstream/18.0
 =======
 from odoo import _, fields, models
 >>>>>>> upstream/18.0
@@ -12,7 +16,10 @@ class Company(models.Model):
     l10n_es_edi_facturae_certificate_ids = fields.One2many(string='Facturae EDI signing certificate',
         comodel_name='certificate.certificate', inverse_name='company_id', domain=[('scope', '=', 'facturae')])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _l10n_es_edi_facturae_export_check(self):
         checks = {
@@ -44,4 +51,7 @@ class Company(models.Model):
                 },
             }
         return errors
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

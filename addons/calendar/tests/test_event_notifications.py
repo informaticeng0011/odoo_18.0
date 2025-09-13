@@ -486,7 +486,10 @@ class TestEventNotifications(TransactionCase, MailCase, CronMixinCase):
                     'alarm_ids': [(4, alarm.id)]
                 })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_get_next_potential_limit_alarm(self):
         """
@@ -560,4 +563,7 @@ class TestEventNotifications(TransactionCase, MailCase, CronMixinCase):
 
         for expected, actual in zip(expected_alarms, actual_alarms):
             self.assertEqual(actual, expected)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

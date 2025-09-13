@@ -6,6 +6,10 @@
 # Wil Odoo, 2024
 # Marianna Ciofani, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Marianna Ciofani, 2024\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -38,7 +46,11 @@ msgstr "%(product)s: %(quantity)s già fuori "
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.stock_landed_cost_view_kanban
 msgid "<i class=\"fa fa-clock-o\" title=\"Date\" role=\"img\" aria-label=\"Date\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-clock-o\" title=\"Data\" role=\"img\" aria-label=\"Date\"/>"
+=======
+msgstr "<i class=\"fa fa-clock-o\" title=\"Data\" role=\"img\" aria-label=\"Data\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-clock-o\" title=\"Data\" role=\"img\" aria-label=\"Data\"/>"
 >>>>>>> upstream/18.0
@@ -97,7 +109,11 @@ msgstr "Costo sbarcato aggiuntivo"
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__target_model
 msgid "Apply On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Applica a"
+=======
+msgstr "Applicare a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Applicare a"
 >>>>>>> upstream/18.0
@@ -112,7 +128,11 @@ msgstr "Numero allegati"
 #: model:ir.model.fields.selection,name:stock_landed_costs.selection__stock_landed_cost_lines__split_method__by_current_cost_price
 msgid "By Current Cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Per costo attuale"
+=======
+msgstr "Per costo corrente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Per costo corrente"
 >>>>>>> upstream/18.0
@@ -144,7 +164,11 @@ msgstr "Annulla"
 #: model:ir.model.fields.selection,name:stock_landed_costs.selection__stock_landed_cost__state__cancel
 msgid "Cancelled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Annullata"
+=======
+msgstr "Annullato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Annullato"
 >>>>>>> upstream/18.0
@@ -193,8 +217,13 @@ msgid ""
 "landed costs."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Le righe di costo e di aggiustamento non corrispondono. Ricalcolare i costi "
 "di spedizione."
+=======
+"Il costo e le righe di rettifica non corrispondono. I costi sbarcati devono "
+"forse essere ricalcolati."
+>>>>>>> upstream/18.0
 =======
 "Il costo e le righe di rettifica non corrispondono. I costi sbarcati devono "
 "forse essere ricalcolati."
@@ -275,7 +304,11 @@ msgstr "Nome visualizzato"
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_search
 msgid "Done"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Completata"
+=======
+msgstr "Completato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Completato"
 >>>>>>> upstream/18.0
@@ -291,7 +324,11 @@ msgstr "Bozza"
 #: model:ir.model.fields.selection,name:stock_landed_costs.selection__stock_landed_cost_lines__split_method__equal
 msgid "Equal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uguale"
+=======
+msgstr "Equo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Equo"
 >>>>>>> upstream/18.0
@@ -583,7 +620,11 @@ msgstr "Prelievo"
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Please configure Stock Expense Account for product: %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Configurare il conto di ammortamento giacenza del prodotto: %s."
+=======
+msgstr "Configurare il conto di costo giacenza del prodotto: %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Configurare il conto di costo giacenza del prodotto: %s."
 >>>>>>> upstream/18.0
@@ -594,8 +635,12 @@ msgstr "Configurare il conto di costo giacenza del prodotto: %s."
 msgid "Please define %s on which those additional costs should apply."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Per favore, definisci %s su quale/i costi aggiuntivi dovrebbero essere "
 "applicati."
+=======
+"Definire i/gli %s ai quali devono essere applicati i costi aggiuntivi."
+>>>>>>> upstream/18.0
 =======
 "Definire i/gli %s ai quali devono essere applicati i costi aggiuntivi."
 >>>>>>> upstream/18.0
@@ -651,7 +696,11 @@ msgstr "Mostra tutti i record con data prossima azione precedente a oggi"
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines__split_method
 msgid "Split Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Metodo divisione"
+=======
+msgstr "Metodo di suddivisione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metodo di suddivisione"
 >>>>>>> upstream/18.0
@@ -683,7 +732,11 @@ msgstr ""
 #: model:ir.model,name:stock_landed_costs.model_stock_landed_cost
 msgid "Stock Landed Cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Costi di spedizione magazzino"
+=======
+msgstr "Costo sbarcato di magazzino"
+>>>>>>> upstream/18.0
 =======
 msgstr "Costo sbarcato di magazzino"
 >>>>>>> upstream/18.0
@@ -730,7 +783,11 @@ msgstr "Tipo di attività eccezione sul record."
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_form
 msgid "Validate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Convalida"
+=======
+msgstr "Valida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valida"
 >>>>>>> upstream/18.0
@@ -755,7 +812,11 @@ msgstr "Righe di rettifica valutazione"
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_form
 msgid "Valuation Adjustments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rettifiche della valuorizzazione"
+=======
+msgstr "Rettifiche valutazione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rettifiche valutazione"
 >>>>>>> upstream/18.0

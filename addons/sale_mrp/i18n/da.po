@@ -6,6 +6,10 @@
 # Martin Trigaux, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Kira Petersen, 2025
+>>>>>>> upstream/18.0
 =======
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Sanne Kristensen <sanne@vkdata.dk>, 2024\n"
+=======
+"Last-Translator: Kira Petersen, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Kira Petersen, 2025\n"
 >>>>>>> upstream/18.0
@@ -32,7 +40,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_mrp.sale_order_portal_content_inherit_sale_mrp
 msgid "<i class=\"fa fa-fw fa-check\"/> <b>Manufactured</b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check\"/> <b>Produceret</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check\"/> <b>Produceret</b>"
 >>>>>>> upstream/18.0
@@ -46,7 +58,11 @@ msgstr "<i class=\"fa fa-fw fa-clock-o\"/> <b>Bekræftet</b>"
 #: model_terms:ir.ui.view,arch_db:sale_mrp.sale_order_portal_content_inherit_sale_mrp
 msgid "<i class=\"fa fa-fw fa-clock-o\"/> <b>In progress</b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-clock-o\"/> <b>Under forberedelse</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-clock-o\"/> <b>Under forberedelse</b>"
 >>>>>>> upstream/18.0
@@ -70,7 +86,11 @@ msgstr "<span class=\"o_stat_text\">Salg</span>"
 #: model_terms:ir.ui.view,arch_db:sale_mrp.sale_order_portal_content_inherit_sale_mrp
 msgid "<strong>Manufacturing Orders</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Produktionsordrer</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Produktionsordrer</strong>"
 >>>>>>> upstream/18.0
@@ -83,6 +103,11 @@ msgid ""
 "The error concerns these products: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Du kan ikke fjerne disse styklister, så længe der er salgsordrelinjer, der endnu ikke er leveret eller faktureret, og som er knyttet til dem.\n"
+"Fejlen vedrører følgende produkter: %s"
+>>>>>>> upstream/18.0
 =======
 "Du kan ikke fjerne disse styklister, så længe der er salgsordrelinjer, der endnu ikke er leveret eller faktureret, og som er knyttet til dem.\n"
 "Fejlen vedrører følgende produkter: %s"
@@ -128,7 +153,11 @@ msgstr "Produktionsordre Genereret af %s"
 #: model:ir.model.fields,field_description:sale_mrp.field_sale_order__mrp_production_ids
 msgid "Manufacturing orders associated with this sales order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionsordrer tilknyttet denne salgsordre."
+>>>>>>> upstream/18.0
 =======
 msgstr "Produktionsordrer tilknyttet denne salgsordre."
 >>>>>>> upstream/18.0
@@ -137,7 +166,11 @@ msgstr "Produktionsordrer tilknyttet denne salgsordre."
 #: model:ir.model.fields,field_description:sale_mrp.field_mrp_production__sale_line_id
 msgid "Origin sale order line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oprindelige salgsordrelinje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oprindelige salgsordrelinje"
 >>>>>>> upstream/18.0

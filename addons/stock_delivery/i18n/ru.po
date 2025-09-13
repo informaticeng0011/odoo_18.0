@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_delivery
 # 
+=======
+# * stock_delivery
+#
+>>>>>>> upstream/18.0
 =======
 # * stock_delivery
 #
@@ -11,6 +16,7 @@
 # Nadia Martynova, 2024
 # Ilya Rozhkov, 2025
 # Wil Odoo, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -22,11 +28,17 @@
 #
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Anastasiia Koroleva, 2025
+#
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -42,6 +54,9 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 =======
 "PO-Revision-Date: 2025-09-11 17:20+0000\n"
+=======
+"PO-Revision-Date: 2025-09-12 15:31+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
 "stock_delivery/ru/>\n"
@@ -53,6 +68,9 @@ msgstr ""
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_delivery
@@ -60,7 +78,11 @@ msgstr ""
 #: code:addons/stock_delivery/models/sale_order.py:0
 msgid "%(name)s (Estimated Cost: %(cost)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (Расчетная стоимость: %(cost)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (Расчетная стоимость: %(cost)s)"
 >>>>>>> upstream/18.0
@@ -91,7 +113,11 @@ msgstr "<span>Вес при транспортировке: </span>"
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_shipping2
 msgid "<strong>Carrier</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Перевозчик</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Перевозчик</strong>"
 >>>>>>> upstream/18.0
@@ -100,7 +126,11 @@ msgstr "<strong>Перевозчик</strong>"
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_shipping2
 msgid "<strong>Shipping Method:</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Метод доставки:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Метод доставки:</strong>"
 >>>>>>> upstream/18.0
@@ -123,7 +153,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_delivery_document2
 msgid "<strong>Total Weight</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Общий вес</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Общий вес</strong>"
 >>>>>>> upstream/18.0
@@ -132,7 +166,11 @@ msgstr "<strong>Общий вес</strong>"
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_delivery_document2
 msgid "<strong>Tracking Number</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Номер отслеживания</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Номер отслеживания</strong>"
 >>>>>>> upstream/18.0
@@ -146,7 +184,11 @@ msgstr "<strong>Вес: </strong>"
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_shipping2
 msgid "<strong>Weight</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Вес</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Вес</strong>"
 >>>>>>> upstream/18.0
@@ -202,7 +244,11 @@ msgstr "Стоимость: %(price).2f %(currency)s"
 #: model:ir.model.fields,field_description:stock_delivery.field_choose_delivery_package__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -211,7 +257,11 @@ msgstr "Создано:"
 #: model:ir.model.fields,field_description:stock_delivery.field_choose_delivery_package__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -321,7 +371,11 @@ msgstr "Собирает ли возврат"
 msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -334,7 +388,11 @@ msgstr "Последнее обновление:"
 msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -510,6 +568,10 @@ msgstr "Вес:"
 msgid "Standardized code for international shipping and goods declaration."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Стандартизированный код для международной доставки и декларирования товаров."
+>>>>>>> upstream/18.0
 =======
 "Стандартизированный код для международной доставки и декларирования товаров."
 >>>>>>> upstream/18.0

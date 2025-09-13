@@ -1046,6 +1046,10 @@ export function getAdjacentCharacter(editable, side) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    [focusNode, focusOffset] = getDeepestPosition(focusNode, focusOffset);
+>>>>>>> upstream/18.0
 =======
     [focusNode, focusOffset] = getDeepestPosition(focusNode, focusOffset);
 >>>>>>> upstream/18.0
@@ -1505,7 +1509,12 @@ export const formatSelection = (editor, formatName, {applyStyle, formatProps} = 
     const selectedNodes = getSelectedNodes(editor.editable).filter(
         (n) =>
 <<<<<<< HEAD
+<<<<<<< HEAD
             ((n.nodeType === Node.TEXT_NODE && (isVisibleTextNode(n) || isZWS(n))) ||
+=======
+            ((n.nodeType === Node.TEXT_NODE &&
+                (isVisibleTextNode(n) || isZWS(n) || (/^\n+$/.test(n.nodeValue) && !applyStyle))) ||
+>>>>>>> upstream/18.0
 =======
             ((n.nodeType === Node.TEXT_NODE &&
                 (isVisibleTextNode(n) || isZWS(n) || (/^\n+$/.test(n.nodeValue) && !applyStyle))) ||
@@ -1525,6 +1534,7 @@ export const formatSelection = (editor, formatName, {applyStyle, formatProps} = 
         let parentNode = node.parentElement;
 
         // Remove the format on all inline ancestors until a block or an element
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1650,6 +1660,8 @@ export const formatSelection = (editor, formatName, {applyStyle, formatProps} = 
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         // with a class that is not related to font size or color (in case the
         // formatting comes from the class).
         while (
@@ -1696,6 +1708,9 @@ export const formatSelection = (editor, formatName, {applyStyle, formatProps} = 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2136,15 +2151,21 @@ export function hasAnyFontSizeClass(node) {
  */
 export function isSelectionFormat(editable, format) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     const selectedNodes = getTraversedNodes(editable)
         .filter((n) => n.nodeType === Node.TEXT_NODE && n.nodeValue.replaceAll(ZWNBSP_CHAR, '').length);
 =======
+=======
+>>>>>>> upstream/18.0
     const selectedNodes = getTraversedNodes(editable).filter(
         (n) =>
             n.nodeType === Node.TEXT_NODE &&
             n.nodeValue.replaceAll(ZWNBSP_CHAR, "").length &&
             (!/^\n+$/.test(n.nodeValue) || !isBlock(closestElement(n)))
     );
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const isFormatted =
         format === "setFontSizeClassName" ? hasAnyFontSizeClass : formatsSpecs[format].isFormatted;
@@ -2241,7 +2262,12 @@ export function isUnremovable(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) // Node is in DOM but not in editable.
+=======
+        (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) || // Node is in DOM but not in editable.
+        (node.dataset && node.dataset.bsToggle === 'tab')
+>>>>>>> upstream/18.0
 =======
         (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) || // Node is in DOM but not in editable.
         (node.dataset && node.dataset.bsToggle === 'tab')
@@ -2965,7 +2991,11 @@ export function isEmptyBlock(blockEl) {
         // There is no text and no double BR, the only thing that could make
         // this visible is a "visible empty" node like an image.
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (node.nodeName != 'BR' && (isSelfClosingElement(node) || isIconElement(node))) {
+=======
+        if (node.nodeName != 'BR' && (isSelfClosingElement(node) || isIconElement(node) || isZWS(node))) {
+>>>>>>> upstream/18.0
 =======
         if (node.nodeName != 'BR' && (isSelfClosingElement(node) || isIconElement(node) || isZWS(node))) {
 >>>>>>> upstream/18.0
@@ -3247,7 +3277,10 @@ export function fillEmpty(el) {
         el.setAttribute("data-oe-zws-empty-inline", "");
         fillers.zws = zws;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         // If the parent was filled with BR and we are filling the `el` here
         // we should remove the parent `br` otherwise we fill the el twice.
         // we do that only for visible el as in `cleanForSave` we remove the 
@@ -3257,6 +3290,9 @@ export function fillEmpty(el) {
             fillers.br.remove();
             delete fillers.br;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const previousSibling = el.previousSibling;
         if (previousSibling && previousSibling.nodeName === "BR") {
@@ -3630,11 +3666,14 @@ const priorityRestoreStateRules = [
         // Replace a space by &nbsp; when it was visible thanks to a BR which
         // is now gone.
 <<<<<<< HEAD
+<<<<<<< HEAD
         { direction: DIRECTIONS.RIGHT, cType1: CTGROUPS.BR, cType2: CTYPES.SPACE | CTGROUPS.BLOCK },
         { spaceVisibility: true },
     ],
     [
 =======
+=======
+>>>>>>> upstream/18.0
         { direction: DIRECTIONS.RIGHT, cType1: CTGROUPS.BR, cType2: CTYPES.SPACE },
         { spaceVisibility: true },
     ],
@@ -3646,6 +3685,9 @@ const priorityRestoreStateRules = [
         { spaceVisibility: true, brVisibility: true },
     ],
     [
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // Remove all collapsed spaces when a space is removed.
         { cType1: CTYPES.SPACE },

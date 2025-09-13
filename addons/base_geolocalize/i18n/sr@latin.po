@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_geolocalize
+=======
+# * base_geolocalize
+>>>>>>> upstream/18.0
 =======
 # * base_geolocalize
 >>>>>>> upstream/18.0
@@ -10,8 +14,12 @@
 # Uros Kalajdzic <ukalajdzic@gmail.com>, 2022
 # Martin Trigaux, 2022
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022
 #
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
+>>>>>>> upstream/18.0
 =======
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
 >>>>>>> upstream/18.0
@@ -20,6 +28,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2022-09-22 05:45+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, "
@@ -32,6 +41,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-12 22:21+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -43,13 +54,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model:ir.model.fields,field_description:base_geolocalize.field_res_config_settings__geoloc_provider_id
 msgid "API"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API"
+>>>>>>> upstream/18.0
 =======
 msgstr "API"
 >>>>>>> upstream/18.0
@@ -63,6 +81,12 @@ msgid ""
 "for more information."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"API ključ za GeoCoding (Mesta) je obavezan.\n"
+"Posetite https://developers.google.com/maps/documentation/geocoding/get-api-"
+"key za više informacija."
+>>>>>>> upstream/18.0
 =======
 "API ključ za GeoCoding (Mesta) je obavezan.\n"
 "Posetite https://developers.google.com/maps/documentation/geocoding/get-api-"
@@ -73,7 +97,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.res_config_settings_view_form
 msgid "API:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API:"
+>>>>>>> upstream/18.0
 =======
 msgstr "API:"
 >>>>>>> upstream/18.0
@@ -82,7 +110,11 @@ msgstr "API:"
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Compute Localization"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izračunaj lokalizaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izračunaj lokalizaciju"
 >>>>>>> upstream/18.0
@@ -91,7 +123,11 @@ msgstr "Izračunaj lokalizaciju"
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Compute based on address"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izdračuna na osnovu adrese"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izdračuna na osnovu adrese"
 >>>>>>> upstream/18.0
@@ -126,7 +162,11 @@ msgstr "Naziv za prikaz"
 #: code:addons/base_geolocalize/models/base_geocoder.py:0
 msgid "Error with geolocation server:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Greška u vezi sa serverom za geolokaciju:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Greška u vezi sa serverom za geolokaciju:"
 >>>>>>> upstream/18.0
@@ -135,7 +175,11 @@ msgstr "Greška u vezi sa serverom za geolokaciju:"
 #: model:ir.model,name:base_geolocalize.model_base_geocoder
 msgid "Geo Coder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geo Coder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geo Coder"
 >>>>>>> upstream/18.0
@@ -144,7 +188,11 @@ msgstr "Geo Coder"
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Geo Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geo Lokacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geo Lokacija"
 >>>>>>> upstream/18.0
@@ -153,7 +201,11 @@ msgstr "Geo Lokacija"
 #: model:ir.model,name:base_geolocalize.model_base_geo_provider
 msgid "Geo Provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geo Provajder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geo Provajder"
 >>>>>>> upstream/18.0
@@ -168,7 +220,11 @@ msgstr "Geolokacija"
 #: model:ir.model.fields,field_description:base_geolocalize.field_res_users__date_localization
 msgid "Geolocation Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum Geolokacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum Geolokacije"
 >>>>>>> upstream/18.0
@@ -177,7 +233,11 @@ msgstr "Datum Geolokacije"
 #: model:ir.model.fields,field_description:base_geolocalize.field_res_config_settings__geoloc_provider_googlemap_key
 msgid "Google Map API Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Map API ključ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Map API ključ"
 >>>>>>> upstream/18.0
@@ -191,7 +251,11 @@ msgstr "ID"
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.res_config_settings_view_form
 msgid "Key:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ključ:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ključ:"
 >>>>>>> upstream/18.0
@@ -210,7 +274,11 @@ msgstr "Poslednje ažuriranje dana"
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Lat :"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lat :"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lat :"
 >>>>>>> upstream/18.0
@@ -219,7 +287,11 @@ msgstr "Lat :"
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Long:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Long:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Long:"
 >>>>>>> upstream/18.0
@@ -234,7 +306,11 @@ msgstr "Ime"
 #: code:addons/base_geolocalize/models/res_partner.py:0
 msgid "No match found for %(partner_names)s address(es)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije pronađeno podudaranje za %(partner_names)s adresu(e)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nije pronađeno podudaranje za %(partner_names)s adresu(e)."
 >>>>>>> upstream/18.0
@@ -243,7 +319,11 @@ msgstr "Nije pronađeno podudaranje za %(partner_names)s adresu(e)."
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Partner Assignment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodela partnera"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodela partnera"
 >>>>>>> upstream/18.0
@@ -253,7 +333,11 @@ msgstr "Dodela partnera"
 #: code:addons/base_geolocalize/models/base_geocoder.py:0
 msgid "Provider %s is not implemented for geolocation service."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Provajder %s nije implementiran za uslugu geolokacije."
+>>>>>>> upstream/18.0
 =======
 msgstr "Provajder %s nije implementiran za uslugu geolokacije."
 >>>>>>> upstream/18.0
@@ -262,7 +346,11 @@ msgstr "Provajder %s nije implementiran za uslugu geolokacije."
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Refresh"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Osveži"
+>>>>>>> upstream/18.0
 =======
 msgstr "Osveži"
 >>>>>>> upstream/18.0
@@ -271,7 +359,11 @@ msgstr "Osveži"
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Refresh Localization"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Osveži lokalizaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Osveži lokalizaciju"
 >>>>>>> upstream/18.0
@@ -281,7 +373,11 @@ msgstr "Osveži lokalizaciju"
 #: model:ir.model.fields,field_description:base_geolocalize.field_res_config_settings__geoloc_provider_techname
 msgid "Technical Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tehnički naziv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tehnički naziv"
 >>>>>>> upstream/18.0
@@ -299,7 +395,10 @@ msgid ""
 "Geocoding, Maps Static, Maps Javascript.\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Geolociranje nije moguće, dobijena je greška:\n"
 "%s\n"
 "\n"
@@ -307,13 +406,20 @@ msgstr ""
 "Prvo treba da omogućite naplatu na svom Google nalogu. \n"
 "Zatim, idite na Konzolu za programere i omogućite API-je:\n"
 "Geokodiranje, Statičke mape, Javaskript mapa.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Updated on:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ažurirano dana:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ažurirano dana:"
 >>>>>>> upstream/18.0
@@ -325,6 +431,11 @@ msgid ""
 "for more information."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Posetite https://developers.google.com/maps/documentation/geocoding/get-api-"
+"key za više informacija."
+>>>>>>> upstream/18.0
 =======
 "Posetite https://developers.google.com/maps/documentation/geocoding/get-api-"
 "key za više informacija."

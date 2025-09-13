@@ -39,7 +39,10 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
         self.assertEqual(len(loyalty_card.history_ids), 1,
                         "Loyalty History line should be created on pos oder confirmation")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_duplicate_coupon_confirm(self):
         """ Test that duplicate coupon confirm calls do not affect the coupon."""
@@ -121,4 +124,7 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
         # Confirm the coupon again
         new_pos_order.confirm_coupon_programs(coupon_data)
         check_coupon(40, 2)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

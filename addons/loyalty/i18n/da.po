@@ -25,6 +25,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Kira Petersen, 2025
+>>>>>>> upstream/18.0
 =======
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
@@ -72,6 +76,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151,6 +156,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-30 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Kira Petersen, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-07-18 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Kira Petersen, 2025\n"
 >>>>>>> upstream/18.0
@@ -479,7 +489,11 @@ msgstr "Der blev fundet en kupon med samme kode."
 #: model:ir.model.constraint,message:loyalty.constraint_loyalty_card_card_code_unique
 msgid "A coupon/loyalty card must have a unique code."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "En rabatkupon/medlemskort skal have en unik kode."
+>>>>>>> upstream/18.0
 =======
 msgstr "En rabatkupon/medlemskort skal have en unik kode."
 >>>>>>> upstream/18.0
@@ -533,7 +547,11 @@ msgstr "Aktiv"
 #: model:ir.model.fields,field_description:loyalty.field_res_users__loyalty_card_count
 msgid "Active loyalty cards"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktive medlemskort"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktive medlemskort"
 >>>>>>> upstream/18.0
@@ -734,7 +752,11 @@ msgid "Communications"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kommunikation"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kommunikation"
 >>>>>>> upstream/18.0
@@ -1270,12 +1292,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "Generate {{props.context.program_item_name}}"
 msgstr ""
 
 #. module: loyalty
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1415,7 +1440,11 @@ msgstr ""
 #: model:ir.model,name:loyalty.model_loyalty_history
 msgid "History for Loyalty cards and Ewallets"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Historik for loyalitetskort og digitale tegnebøger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Historik for loyalitetskort og digitale tegnebøger"
 >>>>>>> upstream/18.0
@@ -1492,7 +1521,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
 msgid "Issued"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udstedt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udstedt"
 >>>>>>> upstream/18.0
@@ -1652,7 +1685,11 @@ msgstr "Minimum antal"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__multi_product
 msgid "Multi Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Multi-produkt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Multi-produkt"
 >>>>>>> upstream/18.0
@@ -1782,6 +1819,10 @@ msgstr ""
 
 #. module: loyalty
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:loyalty.model_product_pricelist
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:loyalty.model_product_pricelist
 >>>>>>> upstream/18.0
@@ -1937,7 +1978,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_ids
 msgid "Reward Products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Belønningsprodukter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Belønningsprodukter"
 >>>>>>> upstream/18.0
@@ -2119,7 +2164,11 @@ msgstr ""
 #: model:ir.model.fields,help:loyalty.field_loyalty_reward__reward_product_ids
 msgid "These are the products that can be claimed with this rule."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Disse produkter er omfattet af denne regel."
+>>>>>>> upstream/18.0
 =======
 msgstr "Disse produkter er omfattet af denne regel."
 >>>>>>> upstream/18.0
@@ -2133,7 +2182,10 @@ msgstr ""
 #. module: loyalty
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/loyalty/models/product_pricelist.py:0
 msgid ""
 "This pricelist may not be archived. It is being used for active promotion "
@@ -2142,6 +2194,9 @@ msgstr ""
 
 #. module: loyalty
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/loyalty/models/product_product.py:0
 msgid ""
@@ -2185,7 +2240,10 @@ msgstr "Trigger"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2231,6 +2289,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2555,7 +2616,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2600,6 +2664,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2645,12 +2712,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: loyalty
 #. odoo-javascript
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "{{loyalty_el_title}}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

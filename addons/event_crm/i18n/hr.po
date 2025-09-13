@@ -1,16 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* event_crm
 # 
 # Translators:
 # Đurđica Žarković <durdica.zarkovic@storm.hr>, 2024
 # Luka Carević <luka@uvid.hr>, 2024
 =======
+=======
+>>>>>>> upstream/18.0
 # * event_crm
 #
 # Translators:
 # Đurđica Žarković <durdica.zarkovic@storm.hr>, 2024
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # storm_mpildek <matija.pildek@storm.hr>, 2024
 # Vladimir Vrgoč, 2024
@@ -19,7 +25,12 @@
 # Bole <bole@dajmi5.com>, 2024
 # Martin Trigaux, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Luka Carević <luka@uvid.hr>, 2025
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
@@ -30,6 +41,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Martin Trigaux, 2024\n"
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
@@ -39,6 +51,8 @@ msgstr ""
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-25 13:42+0000\n"
 "Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
@@ -50,6 +64,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event_crm
@@ -57,7 +74,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:event_crm.field_event_registration__lead_count
 msgid "# Leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# Potencijala"
+=======
+msgstr "# Leadovi"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Leadovi"
 >>>>>>> upstream/18.0
@@ -103,7 +124,11 @@ msgstr "Polaznici su kreirani"
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_creation_trigger__confirm
 msgid "Attendees are registered"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Polaznici su prijavljeni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Polaznici su prijavljeni"
 >>>>>>> upstream/18.0
@@ -173,7 +198,11 @@ msgstr "Kreirano"
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_search
 msgid "Creation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta stvaranja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta stvaranja"
 >>>>>>> upstream/18.0
@@ -289,7 +318,11 @@ msgstr "ID"
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
 msgid "If the Attendees meet these Conditions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ako Sudionici ispunjavaju ove uvjete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ako Sudionici ispunjavaju ove uvjete"
 >>>>>>> upstream/18.0
@@ -313,7 +346,11 @@ msgstr "Potencijal"
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_tree
 msgid "Lead Creation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta stvaranja potencijala"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta stvaranja potencijala"
 >>>>>>> upstream/18.0
@@ -322,7 +359,11 @@ msgstr "Vrsta stvaranja potencijala"
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
 msgid "Lead Default Values"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadane vrijednosti potencijala"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadane vrijednosti potencijala"
 >>>>>>> upstream/18.0
@@ -522,6 +563,11 @@ msgstr ""
 msgid "Those automatically create leads when attendees register."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Oni automatski stvaraju potencijalne klijente kada se sudionici "
+"registriraju."
+>>>>>>> upstream/18.0
 =======
 "Oni automatski stvaraju potencijalne klijente kada se sudionici "
 "registriraju."
@@ -531,7 +577,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_search
 msgid "Trigger Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta okidača"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta okidača"
 >>>>>>> upstream/18.0
@@ -562,7 +612,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
 msgid "e.g. B2B Fairs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. B2B sajmovi"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. B2B sajmovi"
 >>>>>>> upstream/18.0

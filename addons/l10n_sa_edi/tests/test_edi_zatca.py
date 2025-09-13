@@ -1,5 +1,6 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
 from freezegun import freeze_time
 import logging
@@ -13,6 +14,8 @@ from .common import TestSaEdiCommon
 
 _logger = logging.getLogger(__name__)
 =======
+=======
+>>>>>>> upstream/18.0
 import base64
 
 from datetime import datetime
@@ -25,11 +28,15 @@ from odoo.exceptions import ValidationError
 from odoo.tests import tagged
 from odoo.tools import misc
 from odoo.addons.l10n_sa_edi.tests.common import TestSaEdiCommon
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
 @tagged('post_install_l10n', '-at_install', 'post_install')
 class TestEdiZatca(TestSaEdiCommon):
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     def testInvoiceStandard(self):
@@ -567,6 +574,8 @@ class TestEdiZatca(TestSaEdiCommon):
                 'partner_id': self.partner_us.id,
                 'pricelist_id': pricelist.id,
 =======
+=======
+>>>>>>> upstream/18.0
     # """Test ZATCA EDI compliance for Saudi Arabia."""
 
     def _test_document_generation(self, test_file_path, expected_xpath, freeze_time_at, additional_xpath='', document_type=False, move=False, move_data=False):
@@ -772,6 +781,9 @@ class TestEdiZatca(TestSaEdiCommon):
             sale_order = self.env['sale.order'].create({
                 'partner_id': self.partner_sa.id,
                 'pricelist_id': saudi_pricelist.id,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 'order_line': [
                     Command.create({
@@ -785,6 +797,10 @@ class TestEdiZatca(TestSaEdiCommon):
             sale_order.action_confirm()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # Context for wizards
+>>>>>>> upstream/18.0
 =======
             # Context for wizards
 >>>>>>> upstream/18.0
@@ -792,6 +808,7 @@ class TestEdiZatca(TestSaEdiCommon):
                 'active_model': 'sale.order',
                 'active_ids': [sale_order.id],
                 'active_id': sale_order.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
                 'default_journal_id': self.company_data['default_journal_sale'].id,
             }
@@ -1568,6 +1585,8 @@ class TestEdiZatca(TestSaEdiCommon):
             'l10n_gcc_invoice_tax_amount': 150
         }])
 =======
+=======
+>>>>>>> upstream/18.0
                 'default_journal_id': self.customer_invoice_journal.id,
             }
 
@@ -1685,4 +1704,7 @@ class TestEdiZatca(TestSaEdiCommon):
         qr_company_name = decoded_qr[2:2 + length].decode()
 
         self.assertEqual(xml_company_name, qr_company_name, "Seller name on the xml does not match the seller name on the QR code")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -56,6 +56,11 @@ T = typing.TypeVar('T')
 _logger = logging.getLogger(__name__)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+MAX_FIXPOINT_ITERATIONS = 10
+
+>>>>>>> upstream/18.0
 =======
 MAX_FIXPOINT_ITERATIONS = 10
 
@@ -845,6 +850,7 @@ class Environment(Mapping):
     def _recompute_all(self):
         """ Process all pending computations. """
 <<<<<<< HEAD
+<<<<<<< HEAD
         for field in list(self.fields_to_compute()):
             self[field.model_name]._recompute_field(field)
 
@@ -854,6 +860,8 @@ class Environment(Mapping):
         for model_name in OrderedSet(field.model_name for field in self.cache.get_dirty_fields()):
             self[model_name].flush_model()
 =======
+=======
+>>>>>>> upstream/18.0
         for _ in range(MAX_FIXPOINT_ITERATIONS):
             # fields to compute on real records (new records are not recomputed)
             fields_ = [field for field, ids in self.transaction.tocompute.items() if any(ids)]
@@ -875,6 +883,9 @@ class Environment(Mapping):
                 self[model_name].flush_model()
         else:
             _logger.warning("Too many iterations for flushing fields!")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def is_protected(self, field, record):
@@ -1172,6 +1183,11 @@ class Cache:
             if field.translate and cache_value is not None:
                 lang = (record.env.lang or 'en_US') if field.translate is True else record.env._lang
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if not (field.compute or field.store and record._origin):
+                    return cache_value.get(lang, cache_value.get('en_US'))
+>>>>>>> upstream/18.0
 =======
                 if not (field.compute or field.store and record._origin):
                     return cache_value.get(lang, cache_value.get('en_US'))
@@ -1203,6 +1219,11 @@ class Cache:
             cache_value = field_cache.get(record_id) or {}
             cache_value[lang] = value
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not (field.compute or field.store and record._origin):
+                cache_value.setdefault('en_US', value)
+>>>>>>> upstream/18.0
 =======
             if not (field.compute or field.store and record._origin):
                 cache_value.setdefault('en_US', value)
@@ -1240,6 +1261,7 @@ class Cache:
         if field.translate:
             # only for model translated fields
 <<<<<<< HEAD
+<<<<<<< HEAD
             lang = records.env.lang or 'en_US'
             field_cache = self._get_field_cache(records, field)
             cache_values = []
@@ -1250,6 +1272,8 @@ class Cache:
                     cache_value = field_cache.get(id_) or {}
                     cache_value[lang] = value
 =======
+=======
+>>>>>>> upstream/18.0
             lang = (records.env.lang or 'en_US') if dirty or field.translate is True else records.env._lang
             field_cache = self._get_field_cache(records, field)
             cache_values = []
@@ -1261,6 +1285,9 @@ class Cache:
                     cache_value[lang] = value
                     if not (field.compute or field.store and record._origin):
                         cache_value.setdefault('en_US', value)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     cache_values.append(cache_value)
             values = cache_values
@@ -1396,7 +1423,11 @@ class Cache:
         field_cache = self._get_field_cache(records, field)
         if field.translate:
 <<<<<<< HEAD
+<<<<<<< HEAD
             lang = records.env.lang or 'en_US'
+=======
+            lang = (records.env.lang or 'en_US') if field.translate is True else records.env._lang
+>>>>>>> upstream/18.0
 =======
             lang = (records.env.lang or 'en_US') if field.translate is True else records.env._lang
 >>>>>>> upstream/18.0

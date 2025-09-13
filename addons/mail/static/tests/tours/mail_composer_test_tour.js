@@ -41,7 +41,11 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o-mail-AttachmentCard:not(.o-isUploading)", // waiting the attachment to be uploaded
+=======
+            trigger: '.o-mail-AttachmentCard:not(.o-isUploading):contains("file1.txt")',
+>>>>>>> upstream/18.0
 =======
             trigger: '.o-mail-AttachmentCard:not(.o-isUploading):contains("file1.txt")',
 >>>>>>> upstream/18.0
@@ -110,7 +114,11 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
                 await dragenterFiles(".o_mail_composer_form_view .o_form_renderer", files);
                 await dropFiles(".o-Dropzone", files);
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+>>>>>>> upstream/18.0
 =======
             },
 >>>>>>> upstream/18.0
@@ -131,7 +139,10 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             content: "Verify admin template is NOT listed",
             trigger: ".mail-composer-template-dropdown.popover",
             run() {
@@ -146,6 +157,9 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
             },
         },
         {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             content: "Send message from full composer",
             trigger: ".o_mail_send",
@@ -199,7 +213,11 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
                     console.log("Full composer should contain the user's signature once.");
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+>>>>>>> upstream/18.0
 =======
             },
 >>>>>>> upstream/18.0
@@ -250,7 +268,11 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
                     console.error("The composer should not contain the user's signature.");
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+>>>>>>> upstream/18.0
 =======
             },
 >>>>>>> upstream/18.0
@@ -268,8 +290,13 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
         {
             content: "Send message from chatter",
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o-mail-Composer-send",
             run: "click"
+=======
+            trigger: ".o-mail-Composer-send:enabled",
+            run: "click",
+>>>>>>> upstream/18.0
 =======
             trigger: ".o-mail-Composer-send:enabled",
             run: "click",
@@ -294,8 +321,13 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
         {
             content: "Send message from chatter",
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o-mail-Composer-send",
             run: "click"
+=======
+            trigger: ".o-mail-Composer-send:enabled",
+            run: "click",
+>>>>>>> upstream/18.0
 =======
             trigger: ".o-mail-Composer-send:enabled",
             run: "click",

@@ -1,5 +1,6 @@
 declare module "mock_models" {
 <<<<<<< HEAD
+<<<<<<< HEAD
     import { IrModelFields as IrModelFields2 } from "@web/../tests/_framework/mock_server/mock_models/ir_model_fields";
     import { ResGroups as ResGroups2 } from "@web/../tests/_framework/mock_server/mock_models/res_groups";
 
@@ -10,6 +11,8 @@ declare module "mock_models" {
         "ir.model.fields": IrModelFields,
         "res.groups": ResGroups,
 =======
+=======
+>>>>>>> upstream/18.0
     import { webModels } from "@web/../tests/web_test_helpers";
 
     export interface IrModelFields extends webModels.IrModelFields {}
@@ -18,6 +21,9 @@ declare module "mock_models" {
     export interface Models {
         "ir.model.fields": IrModelFields;
         "res.groups": ResGroups;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 }

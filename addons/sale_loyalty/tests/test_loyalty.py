@@ -381,7 +381,10 @@ class TestLoyalty(TestSaleCouponCommon):
         self.assertEqual(loyalty_card.points, 90)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_multiple_rewards_after_confirm(self):
         """
         Check that multiple rewards from a loyalty promotion program are correctly applied to a SO
@@ -433,6 +436,9 @@ class TestLoyalty(TestSaleCouponCommon):
         self.assertEqual(sum(order.order_line.mapped('points_cost')), 2)
         self.assertEqual(coupon.points, 0)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_points_awarded_discount_code_no_domain_program(self):
         """

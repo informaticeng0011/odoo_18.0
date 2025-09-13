@@ -52,7 +52,12 @@ class PublicPageController(http.Controller):
     @http.route("/discuss/channel/<int:channel_id>", methods=["GET"], type="http", auth="public")
     @add_guest_to_context
 <<<<<<< HEAD
+<<<<<<< HEAD
     def discuss_channel(self, channel_id):
+=======
+    def discuss_channel(self, channel_id, *, highlight_message_id=None):
+        # highlight_message_id is used JS side by parsing the query string
+>>>>>>> upstream/18.0
 =======
     def discuss_channel(self, channel_id, *, highlight_message_id=None):
         # highlight_message_id is used JS side by parsing the query string

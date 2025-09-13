@@ -286,7 +286,11 @@ class TestHolidaysMultiContract(TestHolidayContract):
             'name': 'Leave Type',
             'time_type': 'leave',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'requires_allocation': 'yes',
+=======
+            'requires_allocation': 'no',
+>>>>>>> upstream/18.0
 =======
             'requires_allocation': 'no',
 >>>>>>> upstream/18.0

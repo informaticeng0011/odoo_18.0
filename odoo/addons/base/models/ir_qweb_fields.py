@@ -399,6 +399,7 @@ class ImageConverter(models.AbstractModel):
             raise ValueError("Invalid image content") from None
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if img_b64 and guess_mimetype(img_b64, '') == 'image/webp':
             return self.env["ir.qweb"]._get_converted_image_data_uri(value)
 
@@ -412,6 +413,8 @@ class ImageConverter(models.AbstractModel):
 
         return "data:%s;base64,%s" % (Image.MIME[image.format], value.decode('ascii'))
 =======
+=======
+>>>>>>> upstream/18.0
         mimetype = guess_mimetype(img_b64, '') if img_b64 else None
         if mimetype == 'image/webp':
             return self.env["ir.qweb"]._get_converted_image_data_uri(value)
@@ -426,6 +429,9 @@ class ImageConverter(models.AbstractModel):
                 raise ValueError("Invalid image content") from exc
 
         return "data:%s;base64,%s" % (mimetype, value.decode('ascii'))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @api.model

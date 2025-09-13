@@ -603,7 +603,10 @@ registry.category("web_tour.tours").add("PosLoyalty2DiscountsSpecificGlobal", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -882,6 +885,9 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificProductDiscountWithGl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1134,7 +1140,10 @@ registry.category("web_tour.tours").add("RefundRulesProduct", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1184,6 +1193,7 @@ registry.category("web_tour.tours").add("test_scan_loyalty_card_select_customer"
             Chrome.startPoS(),
             Dialog.confirm("Open Register"),
             scan_barcode("0444-e050-4548"),
+<<<<<<< HEAD
 <<<<<<< HEAD
             ProductScreen.customerIsSelected("Test Partner"),
         ].flat(),
@@ -1248,6 +1258,11 @@ registry.category("web_tour.tours").add("test_scan_loyalty_card_select_customer"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            ProductScreen.customerIsSelected("A Test Partner"),
+        ].flat(),
+});
 >>>>>>> upstream/18.0
 =======
             ProductScreen.customerIsSelected("A Test Partner"),

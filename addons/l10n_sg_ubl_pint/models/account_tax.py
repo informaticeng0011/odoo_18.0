@@ -15,6 +15,10 @@ class AccountTax(models.Model):
             ('SROVR-RS', "SG - Supply of remote services accountable by the electronic marketplace under the Overseas Vendor Registration Regime"),
             ('SROVR-LVG', "SG - Supply of low-value goods accountable by the redeliverer or electronic marketplace on behalf of third-party suppliers"),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('SRRC', "SG - Reverse charge regime for Business-to-Business (“B2B”) supplies of imported services"),
+>>>>>>> upstream/18.0
 =======
             ('SRRC', "SG - Reverse charge regime for Business-to-Business (“B2B”) supplies of imported services"),
 >>>>>>> upstream/18.0

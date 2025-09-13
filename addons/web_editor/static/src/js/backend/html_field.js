@@ -750,6 +750,12 @@ export const htmlField = {
 	        wysiwygOptions.inlineStyle = Boolean(options['style-inline']);
 	    }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if ('disableTransform' in options) {
+            wysiwygOptions.disableTransform = Boolean(options['disableTransform']);
+        }
+>>>>>>> upstream/18.0
 =======
         if ('disableTransform' in options) {
             wysiwygOptions.disableTransform = Boolean(options['disableTransform']);

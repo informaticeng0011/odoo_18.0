@@ -93,7 +93,10 @@ describe("findAdjacentPosition method", () => {
                 assertAdjacentPositions(editor, previous, next);
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             test("Should find position before filebox", async () => {
                 const content = `<div>\ufeff<span contenteditable="false" class="o_file_box"></span>\ufeff[]</div>`;
                 const { editor, el } = await setupEditor(content);
@@ -103,6 +106,9 @@ describe("findAdjacentPosition method", () => {
                     `<div class="o-paragraph o-we-hint" placeholder='Type "/" for commands'>\ufeff[]<span contenteditable="false" class="o_file_box"></span>\ufeff<br></div>`
                 );
             });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         });
         describe("Blocks", () => {

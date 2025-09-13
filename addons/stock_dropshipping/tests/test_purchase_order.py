@@ -60,7 +60,10 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
                     f'picking_type={picking_type.code}, cost_method={cost_method}'
                 )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_project_propagation_from_so_with_dropshipping(self):
         """ Test that the project is propagated from the sale order to the purchase order
@@ -103,4 +106,7 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
 
         self.assertTrue(po, "A Purchase Order should be created from the Sale Order.")
         self.assertEqual(po.project_id, project, "The project should be propagated from the Sale Order to the Purchase Order.")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

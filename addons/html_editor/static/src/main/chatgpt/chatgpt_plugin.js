@@ -72,7 +72,11 @@ export class ChatGPTPlugin extends Plugin {
         const isEmpty = !selection.textContent().replace(/\s+/g, "");
         const cannotReplace = this.dependencies.selection
 <<<<<<< HEAD
+<<<<<<< HEAD
             .getTraversedNodes()
+=======
+            .getTargetedNodes()
+>>>>>>> upstream/18.0
 =======
             .getTargetedNodes()
 >>>>>>> upstream/18.0

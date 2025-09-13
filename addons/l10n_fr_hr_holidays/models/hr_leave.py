@@ -117,8 +117,11 @@ class HrLeave(models.Model):
             fr_leaves_by_company = fr_leaves.grouped('company_id')
             for company, leaves in fr_leaves_by_company.items():
 <<<<<<< HEAD
+<<<<<<< HEAD
                 duration_by_leave_id.update(leaves._get_durations(resource_calendar=company.resource_calendar_id))
 =======
+=======
+>>>>>>> upstream/18.0
                 company_cal = company.resource_calendar_id
                 for leave in leaves:
                     if leave.request_unit_half:
@@ -145,6 +148,9 @@ class HrLeave(models.Model):
 
                     duration_by_leave_id[leave.id] = (legal_days, hours)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             return duration_by_leave_id
         return super()._get_durations(resource_calendar=resource_calendar)

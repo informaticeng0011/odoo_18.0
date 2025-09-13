@@ -1459,10 +1459,13 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Note: this is a work in progress. The remaining stuff is coming...
         """
         self.env.company.tax_calculation_rounding_method = 'round_globally'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1712,6 +1715,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2022,6 +2028,7 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'base_amount_currency': 293.79,
             'tax_amount_currency': 52.89,
             'total_amount_currency': 346.68,
@@ -2030,6 +2037,8 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
                     'name': "Untaxed Amount",
                     'base_amount_currency': 293.79,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2280,6 +2289,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2545,7 +2557,10 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3356,6 +3371,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3532,7 +3550,10 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
                 self.assert_invoice_tax_totals_summary(invoice, expected_values)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_taxes_l10n_pt_vendor_bill_manual_tax_amount(self):
         self.env.company.tax_calculation_rounding_method = 'round_globally'
         self.change_company_country(self.env.company, self.env.ref('base.pt'))
@@ -3600,6 +3621,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
         }
         self._assert_tax_totals_summary(invoice.tax_totals, expected_values)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _test_reverse_charge_taxes_1(self):
         tax = self.percent_tax(

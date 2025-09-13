@@ -23,7 +23,11 @@ class PurchaseOrder(models.Model):
     _order = 'priority desc, id desc'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('order_line.price_subtotal', 'company_id')
+=======
+    @api.depends('order_line.price_subtotal', 'company_id', 'currency_id')
+>>>>>>> upstream/18.0
 =======
     @api.depends('order_line.price_subtotal', 'company_id', 'currency_id')
 >>>>>>> upstream/18.0
@@ -90,6 +94,7 @@ class PurchaseOrder(models.Model):
         help="Depicts the date within which the Quotation should be confirmed and converted into a purchase order.")
     date_approve = fields.Datetime('Confirmation Date', readonly=True, index=True, copy=False)
 <<<<<<< HEAD
+<<<<<<< HEAD
     partner_id = fields.Many2one('res.partner', string='Vendor', required=True, change_default=True, tracking=True, check_company=True, help="You can find a vendor by its Name, TIN, Email or Internal Reference.")
     dest_address_id = fields.Many2one('res.partner', check_company=True, string='Dropship Address',
         help="Put an address if you want to deliver directly from the vendor to the customer. "
@@ -97,6 +102,8 @@ class PurchaseOrder(models.Model):
     currency_id = fields.Many2one('res.currency', 'Currency', required=True,
         default=lambda self: self.env.company.currency_id.id)
 =======
+=======
+>>>>>>> upstream/18.0
     partner_id = fields.Many2one('res.partner', string='Vendor', required=True, index=True, change_default=True, tracking=True, check_company=True, help="You can find a vendor by its Name, TIN, Email or Internal Reference.")
     dest_address_id = fields.Many2one('res.partner', check_company=True, string='Dropship Address',
         help="Put an address if you want to deliver directly from the vendor to the customer. "
@@ -108,6 +115,9 @@ class PurchaseOrder(models.Model):
         readonly=False,
         precompute=True,
     )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     state = fields.Selection([
         ('draft', 'RFQ'),
@@ -351,6 +361,7 @@ class PurchaseOrder(models.Model):
         # if not defined, with_company doesn't change anything.
         self = self.with_company(self.company_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
         default_currency = self._context.get("default_currency_id")
         if not self.partner_id:
             self.fiscal_position_id = False
@@ -360,18 +371,26 @@ class PurchaseOrder(models.Model):
             self.payment_term_id = self.partner_id.property_supplier_payment_term_id.id
             self.currency_id = default_currency or self.partner_id.property_purchase_currency_id.id or self.env.company.currency_id.id
 =======
+=======
+>>>>>>> upstream/18.0
         if not self.partner_id:
             self.fiscal_position_id = False
         else:
             self.fiscal_position_id = self.env['account.fiscal.position']._get_fiscal_position(self.partner_id)
             self.payment_term_id = self.partner_id.property_supplier_payment_term_id.id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             if self.partner_id.buyer_id:
                 self.user_id = self.partner_id.buyer_id
         return {}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('partner_id', 'company_id')
     def _compute_currency_id(self):
         for order in self:
@@ -381,6 +400,9 @@ class PurchaseOrder(models.Model):
             else:
                 order.currency_id = order.partner_id.property_purchase_currency_id or order.company_id.currency_id
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.onchange('fiscal_position_id', 'company_id')
     def _compute_tax_id(self):
@@ -801,7 +823,12 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     existing_line = oldest_rfq.order_line.filtered(lambda l: l.product_id == rfq_line.product_id and
+=======
+                    existing_line = oldest_rfq.order_line.filtered(lambda l: l.display_type not in ['line_note', 'line_section'] and
+                                                                                l.product_id == rfq_line.product_id and
+>>>>>>> upstream/18.0
 =======
                     existing_line = oldest_rfq.order_line.filtered(lambda l: l.display_type not in ['line_note', 'line_section'] and
                                                                                 l.product_id == rfq_line.product_id and
@@ -1200,14 +1227,20 @@ class PurchaseOrder(models.Model):
         )
         if seller:
 <<<<<<< HEAD
+<<<<<<< HEAD
             product_infos.update(
                 price=seller.price_discounted,
 =======
+=======
+>>>>>>> upstream/18.0
             price = seller.price_discounted
             if seller.currency_id != self.currency_id:
                 price = seller.currency_id._convert(seller.price_discounted, self.currency_id)
             product_infos.update(
                 price=price,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 min_qty=seller.min_qty,
             )
@@ -1354,14 +1387,20 @@ class PurchaseOrder(models.Model):
                 uom_id=pol.product_uom)
             if seller:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # Fix the PO line's price on the seller's one.
                 pol.price_unit = seller.price_discounted
 =======
+=======
+>>>>>>> upstream/18.0
                 price = seller.price_discounted
                 if seller.currency_id != self.currency_id:
                     price = seller.currency_id._convert(seller.price_discounted, self.currency_id)
                 # Fix the PO line's price on the seller's one.
                 pol.price_unit = price
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return pol.price_unit_discounted
 

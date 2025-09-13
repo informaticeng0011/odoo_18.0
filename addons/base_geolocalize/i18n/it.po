@@ -6,6 +6,10 @@
 # Wil Odoo, 2024
 # Marianna Ciofani, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Marianna Ciofani, 2024\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -41,8 +49,13 @@ msgid ""
 "Visit https://developers.google.com/maps/documentation/geocoding/get-api-key for more information."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "È richiesta la chiave API per il GeoCoding (Luoghi).\n"
 "Visita https://developers.google.com/maps/documentation/geocoding/get-api-key per maggiori informazioni."
+=======
+"È richiesta la chiave API per la geocodifica (luoghi).\n"
+"Visitare https://developers.google.com/maps/documentation/geocoding/get-api-key per maggiori informazioni."
+>>>>>>> upstream/18.0
 =======
 "È richiesta la chiave API per la geocodifica (luoghi).\n"
 "Visitare https://developers.google.com/maps/documentation/geocoding/get-api-key per maggiori informazioni."
@@ -98,7 +111,11 @@ msgstr "Errore server di geolocalizzazione: %s"
 #: model:ir.model,name:base_geolocalize.model_base_geocoder
 msgid "Geo Coder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Geo Coder"
+=======
+msgstr "Programmatore geo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Programmatore geo"
 >>>>>>> upstream/18.0
@@ -128,7 +145,11 @@ msgstr "Data geolocalizzazione"
 #: model:ir.model.fields,field_description:base_geolocalize.field_res_config_settings__geoloc_provider_googlemap_key
 msgid "Google Map API Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Chiave API Google Map"
+=======
+msgstr "Chiave API per mappe Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chiave API per mappe Google"
 >>>>>>> upstream/18.0
@@ -185,8 +206,12 @@ msgstr "Assegnazione partner"
 #: code:addons/base_geolocalize/models/base_geocoder.py:0
 msgid "Provider %s is not implemented for geolocation service."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Il provider %s non è implementato per il servizio di geolocalizzazione."
+=======
+msgstr "Fornitore %s non implementato per il servizio di geolocalizzazione."
+>>>>>>> upstream/18.0
 =======
 msgstr "Fornitore %s non implementato per il servizio di geolocalizzazione."
 >>>>>>> upstream/18.0
@@ -220,6 +245,7 @@ msgid ""
 "Geocoding, Maps Static, Maps Javascript.\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossibile geolocalizzare, ha ricevuto il seguente errore:\n"
 "%s\n"
 "\n"
@@ -227,12 +253,17 @@ msgstr ""
 "Dovresti prima attivare la fatturazione sul tuo account Google.\n"
 "Poi, vai su Developer Console e abilita le API:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Impossibile geolocalizzare, ricevuto l'errore:\n"
 "%s\n"
 "\n"
 "Google ha reso questa funzionalità a pagamento.\n"
 "Per prima cosa deve essere attivata la fatturazione sull'account Google.\n"
 "Andare quindi alla console per sviluppatori e abilitare le API:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Geocoding, Maps Static, Maps Javascript.\n"
 

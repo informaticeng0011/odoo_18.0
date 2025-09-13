@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account
 # 
+=======
+# * account
+#
+>>>>>>> upstream/18.0
 =======
 # * account
 #
@@ -19,6 +24,7 @@
 # ievaputnina <ievai.putninai@gmail.com>, 2025
 # Larissa Manderfeld, 2025
 # Will Sensors, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2025
@@ -328,10 +334,16 @@
 # Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2025
 # Aleksejs Ivanovs <ai@myacc.pro>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Thomas Becquevort, 2025
+# Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2025
+# Aleksejs Ivanovs <ai@myacc.pro>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -832,6 +844,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-07-18 18:38+0000\n"
 "PO-Revision-Date: 2025-09-03 19:38+0000\n"
 "Last-Translator: Aleksejs Ivanovs <ai@myacc.pro>\n"
@@ -845,6 +859,9 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_journal__type
 msgid ""
@@ -856,7 +873,10 @@ msgid ""
 "        "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 "        Izvēlēties \"Pārdošana\" klientu rēķinu žurnāliem..\n"
 "        Izvēlēties 'Iegāde' piegādātāju rēķinu žurnāliem.\n"
@@ -864,6 +884,9 @@ msgstr ""
 "izmanto klientu vai piegādātāju maksājumos.\n"
 "        Izvēlēties 'Vispārīgi' dažādu darbību žurnāliem.\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -886,7 +909,11 @@ msgstr ""
 #: code:addons/account/models/account_lock_exception.py:0
 msgid " for '%s'"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " priekš '%s'"
+>>>>>>> upstream/18.0
 =======
 msgstr " priekš '%s'"
 >>>>>>> upstream/18.0
@@ -896,7 +923,11 @@ msgstr " priekš '%s'"
 #: code:addons/account/models/account_lock_exception.py:0
 msgid " valid until %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "derīgs līdz %s"
+=======
+msgstr " derīgs līdz %s"
+>>>>>>> upstream/18.0
 =======
 msgstr " derīgs līdz %s"
 >>>>>>> upstream/18.0
@@ -960,6 +991,10 @@ msgid ""
 "%(date)s)%(attachment_extension)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(attachment_name)s (atdalīja %(user)s %(date)s)%(attachment_extension)s"
+>>>>>>> upstream/18.0
 =======
 "%(attachment_name)s (atdalīja %(user)s %(date)s)%(attachment_extension)s"
 >>>>>>> upstream/18.0
@@ -969,7 +1004,11 @@ msgstr ""
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "%(exception)s for %(user)s%(end_datetime_string)s%(reason)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(exception)s priekš %(user)s%(end_datetime_string)s%(reason)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(exception)s priekš %(user)s%(end_datetime_string)s%(reason)s."
 >>>>>>> upstream/18.0
@@ -1074,7 +1113,10 @@ msgstr "%(tag)s (%(country_code)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1213,6 +1255,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1394,7 +1439,11 @@ msgid ""
 msgstr ""
 "- Jauns lauks \"Kopā (ar nodokļiem)\", lai paātrinātu un kontrolētu "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "kodēšanu, automatizējot rindas izveidi ar pareizo kontu &amp; amp; nodoklis."
+=======
+"kodēšanu, automatizējot rindas izveidi ar pareizo kontu &amp; nodoklis."
+>>>>>>> upstream/18.0
 =======
 "kodēšanu, automatizējot rindas izveidi ar pareizo kontu &amp; nodoklis."
 >>>>>>> upstream/18.0
@@ -1442,11 +1491,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ". Please make sure that this is a wanted behavior."
 msgstr ". Lūdzu, pārliecinieties, ka šī ir vēlamā darbība."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1654,7 +1706,11 @@ msgstr "30 dienas"
 #: model:account.payment.term,name:account.account_payment_term_advance
 msgid "30% Advance End of Following Month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "30% avanss, līdz nākošā mēneša beigām"
+=======
+msgstr "30% Priekšapmaksa līdz nākošā mēneša beigām"
+>>>>>>> upstream/18.0
 =======
 msgstr "30% Priekšapmaksa līdz nākošā mēneša beigām"
 >>>>>>> upstream/18.0
@@ -1737,7 +1793,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1770,6 +1829,7 @@ msgid ""
 "                        <span>Please make sure that this is a wanted behavior.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -1810,11 +1870,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "<br/>\n"
 "                        <span>Lūdzu, pārliecinieties, ka šīs ir vēlamais "
 "sistēmas darba rezultāts.</span>"
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<br/> on this account:"
@@ -2166,6 +2231,7 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_form_label mx-3 oe_edit_only\" groups=\"account.group_account_readonly\" invisible=\"move_type == 'entry'\">\n"
 "                                        <span groups=\"base.group_multi_currency\">in </span>\n"
 "                                    </span>"
@@ -2189,6 +2255,8 @@ msgstr ""
 #. module: account
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_form_label mx-3 oe_edit_only text-center\" style=\"width: "
 "6ch;\" invisible=\"state != 'draft' or invoice_payment_term_id\">or</span>"
 msgstr ""
@@ -2197,6 +2265,9 @@ msgstr ""
 ">vai</span>"
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_line_form
 msgid ""
@@ -2319,6 +2390,12 @@ msgid ""
 "                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\">\n"
+"                                <i>Aizsargāt ierakstus līdz</i>\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted\">\n"
 "                                <i>Aizsargāt ierakstus līdz</i>\n"
@@ -2441,11 +2518,14 @@ msgstr "<span> (DR)</span>"
 #. module: account
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span> = </span>"
 msgstr "<span> = </span>"
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2484,11 +2564,16 @@ msgstr "<span>$ <span class=\"oe_currency_value\">19,250.00</span></span>"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span>1 </span>"
 msgstr "<span>1 </span>"
 =======
 msgid "<span>1</span>"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "<span>1</span>"
+msgstr "<span>1</span>"
 >>>>>>> upstream/18.0
 =======
 msgid "<span>1</span>"
@@ -2510,6 +2595,7 @@ msgstr ""
 #. module: account
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span>=</span>"
@@ -2518,11 +2604,16 @@ msgstr ""
 #. module: account
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span>=</span>"
 msgstr "<span>=</span>"
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<span>Amount In Currency</span>"
@@ -2586,7 +2677,10 @@ msgstr "<span>Jauns</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2633,6 +2727,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2674,7 +2771,11 @@ msgstr "<span>Daudzums</span>"
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<span>Reference</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>Reference</span>"
+=======
+msgstr "<span>Atsauce</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Atsauce</span>"
 >>>>>>> upstream/18.0
@@ -2710,7 +2811,10 @@ msgstr "<span>Nodokļi</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2755,6 +2859,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2869,7 +2976,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3022,6 +3132,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3183,6 +3296,7 @@ msgstr "<strong>Kvīts datums</strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Reference</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<strong>Reference</strong>"
 
 #. module: account
@@ -3340,10 +3454,15 @@ msgstr "<strong>Piegādes adrese</strong>"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "<strong>Atsauce</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "<strong>Source</strong>"
 msgstr "<strong>Avots</strong>"
@@ -3447,7 +3566,10 @@ msgstr "<strong>Veids: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3653,6 +3775,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3890,7 +4015,10 @@ msgstr "Bankas konts var piederēt tikai vienam žurnālam."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4097,6 +4225,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4261,7 +4392,11 @@ msgid ""
 "                which is either a debit or a credit transaction."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Žurnāla ieraksts sastāv no vairākiem žurnāla posteņiem, no kuriem katrs ir\n"
+=======
+"Žurnāla ieraksts sastāv no vairākiem žurnāla posteņiem, no kuriem katrs\n"
+>>>>>>> upstream/18.0
 =======
 "Žurnāla ieraksts sastāv no vairākiem žurnāla posteņiem, no kuriem katrs\n"
 >>>>>>> upstream/18.0
@@ -4929,7 +5064,12 @@ msgstr "Grāmatvedības dokumenti"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Accounting firm mode will change invoice/bill encoding:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Grāmatvedības uzņēmuma režīms mainīs rēķinu/rēķinu kodējumu:"
+=======
+msgstr ""
+"Grāmatvedības uzņēmuma režīms mainīs Izejošu un Ienākošu rēķinu kodējumu:"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Grāmatvedības uzņēmuma režīms mainīs Izejošu un Ienākošu rēķinu kodējumu:"
@@ -5625,12 +5765,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "An error has occurred."
 msgstr "Ir notikusi kļūda."
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6310,8 +6453,13 @@ msgstr "Bankas konts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Bankas konts %(link)s ar numuru %(number)s dzēsts"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
@@ -6716,8 +6864,14 @@ msgid ""
 "Reconciliation replaces the latter by the definitive account(s)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bank Transactions are posted immediately after import or synchronization. Their counterparty is the bank suspense account.\n"
 "Reconciliation replaces the latter by the definitive account(s)."
+=======
+"Bankas darījumi tiek iegrāmatoti uzreiz pēc importēšanas vai "
+"sinhronizēšanas. To darījuma partneris ir bankas pagaidu konts.\n"
+"Saskaņošana to aizstāj ar galīgo(-ajiem) kontu(-iem)."
+>>>>>>> upstream/18.0
 =======
 "Bankas darījumi tiek iegrāmatoti uzreiz pēc importēšanas vai "
 "sinhronizēšanas. To darījuma partneris ir bankas pagaidu konts.\n"
@@ -6879,7 +7033,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__bank_bic
 msgid "Bic"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Bic"
+=======
+msgstr "BIK"
+>>>>>>> upstream/18.0
 =======
 msgstr "BIK"
 >>>>>>> upstream/18.0
@@ -7255,7 +7413,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7460,6 +7621,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8083,6 +8247,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.account_move_view_activity
 msgid "Commercial Entity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Commercial Entity"
 
 #. module: account
@@ -8395,6 +8560,11 @@ msgstr "Komercsabiedrība"
 
 #. module: account
 >>>>>>> upstream/18.0
+=======
+msgstr "Komercsabiedrība"
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "Komerciālā partnera valsts"
@@ -8475,6 +8645,9 @@ msgstr "Komerciālā partnera valsts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8701,7 +8874,11 @@ msgstr "Uzņēmums"
 #: model:ir.model.fields,field_description:account.field_mail_message__account_audit_log_company_id
 msgid "Company "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uzņēmums"
+=======
+msgstr "Uzņēmums "
+>>>>>>> upstream/18.0
 =======
 msgstr "Uzņēmums "
 >>>>>>> upstream/18.0
@@ -9057,6 +9234,11 @@ msgstr "Automātisko ierakstu izveide"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -9745,7 +9927,11 @@ msgstr "Klients"
 #: model:ir.model.fields,field_description:account.field_res_config_settings__group_sale_delivery_address
 msgid "Customer Addresses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Customer Addresses"
+=======
+msgstr "Klientu adreses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klientu adreses"
 >>>>>>> upstream/18.0
@@ -10172,7 +10358,11 @@ msgstr "Nosacījumi pēc noklusējuma"
 #: model:ir.model.fields,field_description:account.field_res_company__invoice_terms
 msgid "Default Terms and Conditions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Default Terms and Conditions"
+=======
+msgstr "Noklusējuma noteikumi un nosacījumi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Noklusējuma noteikumi un nosacījumi"
 >>>>>>> upstream/18.0
@@ -10929,7 +11119,10 @@ msgstr "Parāda nosacījumi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10977,6 +11170,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11296,7 +11492,11 @@ msgstr "Ieraksta nosaukums"
 #: model:ir.model.fields,field_description:account.field_account_move_line__epd_dirty
 msgid "Epd Dirty"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Epd Dirty"
+=======
+msgstr "Epd izmainīts"
+>>>>>>> upstream/18.0
 =======
 msgstr "Epd izmainīts"
 >>>>>>> upstream/18.0
@@ -11415,7 +11615,10 @@ msgstr "Izslēgtie žurnāli"
 #. module: account
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__expected_currency_rate
@@ -11425,6 +11628,9 @@ msgstr ""
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11778,7 +11984,11 @@ msgstr "Fiksēts"
 #: model:account.account,name:account.1_fixed_assets
 msgid "Fixed Asset"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "&Pamatlīdzeklis"
+=======
+msgstr "Pamatlīdzeklis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pamatlīdzeklis"
 >>>>>>> upstream/18.0
@@ -11803,7 +12013,11 @@ msgstr "Apgrozāmā summa"
 #: model:ir.model.fields,field_description:account.field_account_report_line__foldable
 msgid "Foldable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Foldable"
+=======
+msgstr "Salokāms"
+>>>>>>> upstream/18.0
 =======
 msgstr "Salokāms"
 >>>>>>> upstream/18.0
@@ -12872,7 +13086,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_incoterm_id
 msgid "Incoterm"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Incoterm"
+=======
+msgstr "Inkoterms"
+>>>>>>> upstream/18.0
 =======
 msgstr "Inkoterms"
 >>>>>>> upstream/18.0
@@ -12897,7 +13115,11 @@ msgstr "Incoterm standarta kods"
 #: model_terms:ir.ui.view,arch_db:account.view_incoterms_tree
 msgid "Incoterms"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Incoterms"
+=======
+msgstr "Inkoterms"
+>>>>>>> upstream/18.0
 =======
 msgstr "Inkoterms"
 >>>>>>> upstream/18.0
@@ -14464,10 +14686,13 @@ msgid ""
 msgstr ""
 "Rokasgrāmata: Saņemiet samaksu, izmantojot jebkuru metodi ārpus Odoo.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Maksājumu pakalpojumu sniedzēji: Katram maksājumu pakalpojumu sniedzējam ir sava Maksājuma metode. Pieprasiet darījumu uz/uz karti, pateicoties partnera saglabātajam maksājuma žetonam, kad pērkat vai abonējat tiešsaistē.\n"
 "Partijas iemaksa: Ievākt vairākus klientu čekus vienlaicīgi, ģenerējot un iesniedzot sērijveida depozītu bankai. Nepieciešams modulis account_batch_payment.\n"
 "SEPA tiešais debets: Saņemiet maksājumus SEPA zonā, pateicoties pilnvarai, ko jums būs piešķīris jūsu partneris. Nepieciešams modulis account_sepa.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Maksājumu pakalpojumu sniedzēji: Katram maksājumu pakalpojumu sniedzējam ir "
 "sava Maksājuma metode. Pieprasiet darījumu uz karti, pateicoties partnera "
 "saglabātajam maksājuma tokenam, kad pērkat vai abonējat tiešsaistē.\n"
@@ -14476,6 +14701,9 @@ msgstr ""
 "account_batch_payment.\n"
 "SEPA tiešais debets: Saņemiet maksājumus SEPA zonā, pateicoties pilnvarai, "
 "ko jums būs piešķīris jūsu partneris. Nepieciešams modulis account_sepa.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -14502,12 +14730,15 @@ msgid ""
 msgstr ""
 "Rokasgrāmata: Maksāt vai saņemt samaksu ar jebkuru metodi ārpus Odoo.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Maksājumu pakalpojumu sniedzēji: Katram maksājumu pakalpojumu sniedzējam ir sava Maksājuma metode. Pieprasiet darījumu uz/uz karti, pateicoties partnera saglabātajam maksājuma žetonam, kad pērkat vai abonējat tiešsaistē.\n"
 "Pārbaudiet: Apmaksājiet rēķinus ar čeku un izdrukājiet to no Odoo.\n"
 "Partijas iemaksa: Apkopējiet vairākus klientu čekus vienlaicīgi, ģenerējot un iesniedzot partijas depozītu bankai. Nepieciešams modulis account_batch_payment.\n"
 "SEPA kredīta pārskaitījums: Maksājiet SEPA zonā, iesniedzot bankai SEPA kredīta pārveduma failu. Nepieciešams modulis account_sepa.\n"
 "SEPA tiešais debets: Saņemiet maksājumu SEPA zonā, izmantojot jūsu partnera jums piešķirto mandātu. Nepieciešams modulis account_sepa.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Maksājumu pakalpojumu sniedzēji: Katram maksājumu pakalpojumu sniedzējam ir "
 "sava Maksājuma metode. Pieprasiet darījumu uz karti, pateicoties partnera "
 "saglabātajam maksājuma tokenam, kad pērkat vai abonējat tiešsaistē.\n"
@@ -14519,6 +14750,9 @@ msgstr ""
 "kredīta pārveduma failu. Nepieciešams modulis account_sepa.\n"
 "SEPA tiešais debets: Saņemiet maksājumu SEPA zonā, izmantojot jūsu partnera "
 "jums piešķirto mandātu. Nepieciešams modulis account_sepa.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -14541,7 +14775,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "Marc Demo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Marc Demo"
+=======
+msgstr "Marks Demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marks Demo"
 >>>>>>> upstream/18.0
@@ -14692,7 +14930,11 @@ msgstr "Piezīme"
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "Memo:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Memo:"
+=======
+msgstr "Piezīme:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Piezīme:"
 >>>>>>> upstream/18.0
@@ -14821,7 +15063,11 @@ msgstr "Trūkst ārvalstu valūtu daļās, kurām ir id: %s"
 #: model:ir.model.constraint,message:account.constraint_account_move_line_check_accountable_required_fields
 msgid "Missing required account on accountable line."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trūkst nepieciešamā konta konta rindā."
+=======
+msgstr "Trūkst nepieciešamā konta norēķinu rindā."
+>>>>>>> upstream/18.0
 =======
 msgstr "Trūkst nepieciešamā konta norēķinu rindā."
 >>>>>>> upstream/18.0
@@ -15578,6 +15824,7 @@ msgstr "Kad rēķins ir sagatavots, apstipriniet to."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "One or more Bank Accounts set on this partner are also used by other"
 msgstr ""
@@ -15585,6 +15832,8 @@ msgstr ""
 "citi partneri"
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16220,7 +16469,10 @@ msgstr "Parnerim(-iem) jābūt e-pasta adresei."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16278,7 +16530,10 @@ msgstr "Partnerus, kas tiek izmantoti šifrētos ierakstos, nevar apvienot."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16324,6 +16579,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16749,7 +17007,10 @@ msgstr "Pikšķerēšanas risks: Vidējs"
 #. module: account
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-javascript
@@ -16759,6 +17020,9 @@ msgstr ""
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17420,7 +17684,11 @@ msgstr "Ats."
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
 msgid "Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reference"
+=======
+msgstr "Atsauce"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atsauce"
 >>>>>>> upstream/18.0
@@ -17437,7 +17705,10 @@ msgstr ""
 #. module: account
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
@@ -17446,6 +17717,9 @@ msgstr ""
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17610,7 +17884,11 @@ msgstr "Nepieciešams partnera bankas konts"
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__res_partner_bank_id
 msgid "Res Partner Bank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Res Partner Bank"
+=======
+msgstr "Partnera banka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partnera banka"
 >>>>>>> upstream/18.0
@@ -17788,7 +18066,10 @@ msgstr "Apgriezts"
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
@@ -17796,6 +18077,9 @@ msgid "Reversed on"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
@@ -18789,7 +19073,11 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_setup_bank_manual_config__bank_bic
 msgid "Sometimes called BIC or Swift."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sometimes called BIC or Swift."
+=======
+msgstr "Dažkārt to sauc par BIK vai Swift."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dažkārt to sauc par BIK vai Swift."
 >>>>>>> upstream/18.0
@@ -19543,7 +19831,11 @@ msgstr "Noteikumi"
 #: model:ir.model.fields,field_description:account.field_res_config_settings__invoice_terms
 msgid "Terms & Conditions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Terms & Conditions"
+=======
+msgstr "Noteikumi & nosacījumi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Noteikumi & nosacījumi"
 >>>>>>> upstream/18.0
@@ -19907,7 +20199,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20044,6 +20339,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20347,7 +20645,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20395,6 +20696,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20573,8 +20877,13 @@ msgid ""
 "<jobs@example.odoo.com>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
+=======
+"E-pasta aizstājvārda nosaukums, piemēram, 'darbs', ja vēlaties uztvert e-"
+"pasta ziņojumus <darbs@paraugs.odoo.com>"
+>>>>>>> upstream/18.0
 =======
 "E-pasta aizstājvārda nosaukums, piemēram, 'darbs', ja vēlaties uztvert e-"
 "pasta ziņojumus <darbs@paraugs.odoo.com>"
@@ -21112,7 +21421,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.portal_invoice_error
 msgid "There was an error processing this page."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "There was an error processing this page."
+=======
+msgstr "Šīs lapas apstrādes laikā ir pieļauta kļūda."
+>>>>>>> upstream/18.0
 =======
 msgstr "Šīs lapas apstrādes laikā ir pieļauta kļūda."
 >>>>>>> upstream/18.0
@@ -22354,7 +22667,11 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_partial_reconcile__company_currency_id
 msgid "Utility field to express amount currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utility field to express amount currency"
+=======
+msgstr "Tehniskais lauks summas valūtas izteikšanai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tehniskais lauks summas valūtas izteikšanai"
 >>>>>>> upstream/18.0
@@ -22854,7 +23171,10 @@ msgstr "Nepareiza kredīta vai debeta vērtība grāmatvedības ierakstā!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23058,6 +23378,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23387,7 +23710,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You can't create payments for entries belonging to different branches."
+=======
+msgid ""
+"You can't create payments for entries belonging to different branches "
+"without access to parent company."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "You can't create payments for entries belonging to different branches "
@@ -23992,7 +24321,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24130,6 +24462,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24344,6 +24679,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -24377,6 +24713,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24696,7 +25034,11 @@ msgstr "aizvērt"
 #: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
 msgid "dates for"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "datumi priekš"
+>>>>>>> upstream/18.0
 =======
 msgstr "datumi priekš"
 >>>>>>> upstream/18.0
@@ -24727,7 +25069,11 @@ msgstr "piemēram, GEBABEBB"
 #: code:addons/account/models/account_analytic_plan.py:0
 msgid "e.g. %(prefix)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "piemēram, %(prefix)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "piemēram, %(prefix)s"
 >>>>>>> upstream/18.0
@@ -24782,7 +25128,11 @@ msgstr "piem. https://www.odoo.com"
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "e.g. mycompany.com"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "piemēram, mycompany.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "piemēram, mycompany.com"
 >>>>>>> upstream/18.0
@@ -24803,7 +25153,11 @@ msgstr "ieraksti"
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "everyone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "visi"
+>>>>>>> upstream/18.0
 =======
 msgstr "visi"
 >>>>>>> upstream/18.0
@@ -24822,11 +25176,17 @@ msgstr "tika pielietots."
 #: model_terms:ir.ui.view,arch_db:account.view_account_position_form
 msgid "here"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "here"
 
 #. module: account
 <<<<<<< HEAD
 =======
+=======
+msgstr "šeit"
+
+#. module: account
+>>>>>>> upstream/18.0
 =======
 msgstr "šeit"
 
@@ -24838,6 +25198,9 @@ msgstr " "
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24864,7 +25227,11 @@ msgstr "procentos"
 #: code:addons/account/static/src/components/account_batch_sending_summary/account_batch_sending_summary.xml:0
 msgid "invoice(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "rēķini"
+>>>>>>> upstream/18.0
 =======
 msgstr "rēķini"
 >>>>>>> upstream/18.0
@@ -24946,6 +25313,7 @@ msgstr "vai"
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_register_form
 msgid "out of"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
@@ -24963,6 +25331,9 @@ msgstr ""
 "        </t>\n"
 "    </p>\n"
 "</div>"
+=======
+msgstr "no"
+>>>>>>> upstream/18.0
 =======
 msgstr "no"
 >>>>>>> upstream/18.0
@@ -25043,7 +25414,11 @@ msgstr "uzticams"
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "try our sample"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "izmēģiniet mūsu paraugu"
+>>>>>>> upstream/18.0
 =======
 msgstr "izmēģiniet mūsu paraugu"
 >>>>>>> upstream/18.0
@@ -25099,7 +25474,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.autopost_bills_wizard
 msgid "without making any corrections."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "neveicot nekādus labojumus."
+>>>>>>> upstream/18.0
 =======
 msgstr "neveicot nekādus labojumus."
 >>>>>>> upstream/18.0

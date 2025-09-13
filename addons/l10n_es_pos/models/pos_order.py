@@ -15,7 +15,10 @@ class PosOrder(models.Model):
                 order.l10n_es_simplified_invoice_number = False
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _generate_pos_order_invoice(self):
         # Extend 'point_of_sale'
         # Add the simplified partner in case we do a simplified invoice and no partner is set
@@ -28,6 +31,9 @@ class PosOrder(models.Model):
                 order.partner_id = self.config_id.simplified_partner_id
         return super()._generate_pos_order_invoice()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _prepare_invoice_vals(self):
         res = super()._prepare_invoice_vals()

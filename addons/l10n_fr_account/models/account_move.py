@@ -12,8 +12,14 @@ class AccountMove(models.Model):
         company = self.env.company
         if view_type == 'form' and company.country_code in company._get_france_country_codes():
 <<<<<<< HEAD
+<<<<<<< HEAD
             shipping_field = arch.xpath("//field[@name='partner_shipping_id']")[0]
             shipping_field.attrib.pop("groups", None)
+=======
+            shipping_fields = arch.xpath("//field[@name='partner_shipping_id']")
+            if shipping_fields:
+                shipping_fields[0].attrib.pop("groups", None)
+>>>>>>> upstream/18.0
 =======
             shipping_fields = arch.xpath("//field[@name='partner_shipping_id']")
             if shipping_fields:
@@ -43,6 +49,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def _post(self, soft=True):
         # EXTEND 'account'
@@ -50,6 +57,8 @@ class AccountMove(models.Model):
         for move in self.filtered(lambda m: m.show_delivery_date and not m.delivery_date):
             move.delivery_date = move.invoice_date
         return res
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

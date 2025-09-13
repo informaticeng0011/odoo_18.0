@@ -7,7 +7,11 @@
         <field name="model">l10n_it.document.type</field>
         <field name="arch" type="xml">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <list string="Document Type">
+=======
+            <list string="Document Type" duplicate="0">
+>>>>>>> upstream/18.0
 =======
             <list string="Document Type" duplicate="0">
 >>>>>>> upstream/18.0
@@ -18,7 +22,10 @@
     </record>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     <record id="l10n_it_document_type_form" model="ir.ui.view">
         <field name="name">l10n_it.document.type.form</field>
         <field name="model">l10n_it.document.type</field>
@@ -39,5 +46,8 @@
         </field>
     </record>
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 </odoo>

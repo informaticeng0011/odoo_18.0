@@ -10,6 +10,10 @@ from odoo.tools import mute_logger
 
 from odoo.addons.account_payment.controllers.payment import PaymentPortal
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.account_payment.controllers.portal import PortalAccount
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account_payment.controllers.portal import PortalAccount
 >>>>>>> upstream/18.0
@@ -209,7 +213,10 @@ class TestFlows(AccountPaymentCommon, PaymentHttpCommon):
         self.assertEqual(resp['state'], 'done')
         self.assertTrue(invoice.payment_state == invoice._get_invoice_in_payment_state())
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_out_invoice_get_page_view_values(self):
         """Test the invoice-specific portal page view values of an out invoice"""
@@ -232,4 +239,7 @@ class TestFlows(AccountPaymentCommon, PaymentHttpCommon):
         self.assertEqual(values['next_amount_to_pay'], 26.0)
         self.assertEqual(values['payment_state'], 'not_paid')
         self.assertTrue(values['payment'])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

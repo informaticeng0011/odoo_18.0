@@ -2,6 +2,7 @@
 {
     'author': 'Odoo',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'name': 'Greece - MyDATA',
     'version': '1.0',
     'category': 'Accounting/Localizations',
@@ -9,12 +10,17 @@
     'description': """
         MyDATA is a platform created by Greece's tax authority,
 =======
+=======
+>>>>>>> upstream/18.0
     'name': 'Greece - myDATA',
     'version': '1.0',
     'category': 'Accounting/Localizations',
     'summary': """Connect to myDATA API implementation for Greece""",
     'description': """
         myDATA is a platform created by Greece's tax authority,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         The Independent Authority for Public Revenue (IAPR),
         to digitize business tax and accounting information declaration.
@@ -32,6 +38,10 @@
         'views/report_invoice.xml',
         'views/res_company_views.xml',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'views/res_config_settings_views.xml',
+>>>>>>> upstream/18.0
 =======
         'views/res_config_settings_views.xml',
 >>>>>>> upstream/18.0

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mass_mailing
 # 
 # Translators:
@@ -8,6 +9,8 @@
 # Larissa Manderfeld, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * mass_mailing
 #
 # Translators:
@@ -15,11 +18,15 @@
 # Larissa Manderfeld, 2025
 #
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,6 +270,8 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2025-09-08 07:09+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
@@ -275,6 +284,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mass_mailing
@@ -318,7 +330,11 @@ msgstr "% Rebotados"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_form
 msgid "% Opt-out"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "% de exclusiones voluntarias"
+=======
+msgstr "% darse de baja"
+>>>>>>> upstream/18.0
 =======
 msgstr "% darse de baja"
 >>>>>>> upstream/18.0
@@ -468,7 +484,12 @@ msgid ""
 msgstr ""
 "<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Exclusión voluntaria</span>"
+=======
+"                                    <span class=\"text-muted\"> Darse de "
+"baja</span>"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"text-muted\"> Darse de "
 "baja</span>"
@@ -636,8 +657,12 @@ msgstr "<i class=\"fa fa-fw fa-thumbs-up\"/> Pulgares"
 msgid "<i class=\"oi oi-arrow-right\"></i> Configure Opt-out Reasons"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"oi oi-arrow-right\"></i> Configurar motivos de exclusión "
 "voluntaria"
+=======
+"<i class=\"oi oi-arrow-right\"></i> Configurar motivos para darse de baja"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-right\"></i> Configurar motivos para darse de baja"
 >>>>>>> upstream/18.0
@@ -723,7 +748,11 @@ msgstr "<span class=\"text-muted\">Envíos</span>"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_kanban
 msgid "<span class=\"text-muted\">Opt-out</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"text-muted\">Exclusión voluntaria</span>"
+=======
+msgstr "<span class=\"text-muted\">Darse de baja</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\">Darse de baja</span>"
 >>>>>>> upstream/18.0
@@ -1203,7 +1232,11 @@ msgstr "Permitir pruebas A/B"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_optout_view_tree
 msgid "Allow Feedback"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Permitir retroalimentación"
+=======
+msgstr "Permitir comentarios"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permitir comentarios"
 >>>>>>> upstream/18.0
@@ -1342,7 +1375,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_subscription_optout__is_feedback
 msgid "Ask For Feedback"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Solicitar retroalimentación"
+=======
+msgstr "Solicitar comentarios"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicitar comentarios"
 >>>>>>> upstream/18.0
@@ -1433,7 +1470,11 @@ msgstr "Gestión básica"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_numbers
 msgid "Beautiful snippets"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Hermosos snippets"
+=======
+msgstr "Hermosos fragmentos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hermosos fragmentos"
 >>>>>>> upstream/18.0
@@ -2235,7 +2276,11 @@ msgstr "Descubre todas las características"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_trace_report__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0
@@ -2523,7 +2568,11 @@ msgstr "Tabla de funciones"
 #: code:addons/mass_mailing/controllers/main.py:0
 msgid "Feedback from %(author_name)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Retroalimentación de %(author_name)s"
+=======
+msgstr "Comentarios de %(author_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comentarios de %(author_name)s"
 >>>>>>> upstream/18.0
@@ -3692,7 +3741,11 @@ msgstr "Nuevos contactos importados"
 #: model:utm.campaign,title:mass_mailing.mass_mail_campaign_1
 msgid "Newsletter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Boletín de noticias"
+=======
+msgstr "Boletín informativo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Boletín informativo"
 >>>>>>> upstream/18.0
@@ -4023,7 +4076,11 @@ msgstr ""
 #: model:ir.ui.menu,name:mass_mailing.mailing_menu_report_subscribe_reason
 msgid "Opt-Out Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Informe de exclusión voluntaria"
+=======
+msgstr "Informe de bajas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informe de bajas"
 >>>>>>> upstream/18.0
@@ -4032,7 +4089,11 @@ msgstr "Informe de bajas"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_tree
 msgid "Opt-out (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Exclusión voluntaria (%)"
+=======
+msgstr "Darse de baja (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Darse de baja (%)"
 >>>>>>> upstream/18.0
@@ -4041,7 +4102,11 @@ msgstr "Darse de baja (%)"
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_blacklist__opt_out_reason_id
 msgid "Opt-out Reason"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Motivo de la exclusión"
+=======
+msgstr "Motivo para darse de baja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motivo para darse de baja"
 >>>>>>> upstream/18.0
@@ -4719,7 +4784,10 @@ msgstr "Enviar prueba"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4899,6 +4967,9 @@ msgstr "Enviar a todos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5067,7 +5138,11 @@ msgstr "Enviado el #{record.sent_date.value}"
 #: code:addons/mass_mailing/static/src/xml/mailing_portal_subscription_feedback.xml:0
 msgid "Sent. Thanks you for your feedback!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Enviado. ¡Le agradecemos su retroalimentación!"
+=======
+msgstr "Enviado. ¡Le agradecemos sus comentarios!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Enviado. ¡Le agradecemos sus comentarios!"
 >>>>>>> upstream/18.0
@@ -5749,8 +5824,13 @@ msgid ""
 "create a list that fits your needs."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Utilice este snippet para crear varios tipos de componentes que incluyan una"
 " imagen alineada a la izquierda o a la derecha y texto. Duplique los "
+=======
+"Utilice este fragmento para crear varios tipos de componentes que incluyan "
+"una imagen alineada a la izquierda o a la derecha y texto. Duplique los "
+>>>>>>> upstream/18.0
 =======
 "Utilice este fragmento para crear varios tipos de componentes que incluyan "
 "una imagen alineada a la izquierda o a la derecha y texto. Duplique los "

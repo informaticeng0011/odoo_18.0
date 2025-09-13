@@ -148,7 +148,10 @@ class Product(models.Model):
         else:
             self.website_published = False
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def write(self, vals):
         if 'active' in vals and not vals['active']:
@@ -159,4 +162,7 @@ class Product(models.Model):
                 ('order_id', 'any', [('website_id', '!=', False)]),
             ]).unlink()
         return super().write(vals)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

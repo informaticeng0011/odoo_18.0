@@ -193,7 +193,10 @@ class TestRelatedTranslation(odoo.tests.TransactionCase):
         self.assertEqual(self.test3.with_context(lang='fr_FR').html, '<p>Nouveau couteau</p><p>Fourchette</p><p>Cuiller</p>')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_write_from_related_term_more(self):
         # same as above, but making sure that the related field's cache is invalidated
         self.assertEqual(self.test1.with_context(lang='en_US').html, '<p>Knife</p><p>Fork</p><p>Spoon</p>')
@@ -206,6 +209,9 @@ class TestRelatedTranslation(odoo.tests.TransactionCase):
         self.assertEqual(self.test2.with_context(lang='en_US').html, '<p>Nouveau couteau</p><p>Fork</p><p>Spoon</p>')
         self.assertEqual(self.test2.with_context(lang='fr_FR').html, '<p>Nouveau couteau</p><p>Fourchette</p><p>Cuiller</p>')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_delay_write_from_related_term(self):
         self.test3.with_context(lang='fr_FR', delay_translations=True).html = '<p>Nouveau couteau</p><p>Fourchette</p><p>Cuiller</p>'
@@ -281,7 +287,10 @@ class TestRelatedTranslation(odoo.tests.TransactionCase):
         self.assertEqual(self.test3.with_context(lang='fr_FR').mapped('name'), ['Nouveau couteau'])
         self.assertEqual(self.test3.with_context(lang='fr_FR').mapped('related_id.name'), ['Nouveau couteau'])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_new_records(self):
         self.env['res.lang']._activate_lang('nl_NL')
@@ -358,4 +367,7 @@ class TestRelatedTranslation(odoo.tests.TransactionCase):
         self.patch(self.env['test_new_api.related_translation_2']._fields['name'], 'readonly', True)
         self.patch(self.env['test_new_api.related_translation_2']._fields['name'], 'inverse', None)
         self.assertEqual(self.test2.with_context(lang='fr_FR', edit_translations=True).name, 'Couteau')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

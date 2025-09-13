@@ -2,6 +2,10 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form
 >>>>>>> upstream/18.0
@@ -39,7 +43,10 @@ class TestDuplicatePartnerBank(SavepointCaseWithUserDemo):
         self.partner_bank_a.company_id = False
         self.assertTrue(self.partner_bank_b.duplicate_bank_partner_ids, self.partner_a)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_remove_bank_account_from_partner(self):
         bank = self.env['res.bank'].create({'name': 'SBI Bank'})
@@ -54,4 +61,7 @@ class TestDuplicatePartnerBank(SavepointCaseWithUserDemo):
             partner_form.bank_ids.remove(0)
 
         self.assertEqual(len(self.partner_a.bank_ids), 0)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

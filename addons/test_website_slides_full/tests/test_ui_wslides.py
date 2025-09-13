@@ -40,6 +40,10 @@ class TestUi(AccountTestInvoicingCommon, TestUICommon):
             'company_id': self.env.company.id,
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cash_journal.inbound_payment_method_line_ids.filtered(lambda l: l.code == 'demo').payment_account_id = self.env['account.chart.template'].ref('account_journal_payment_debit_account_id')
+>>>>>>> upstream/18.0
 =======
         cash_journal.inbound_payment_method_line_ids.filtered(lambda l: l.code == 'demo').payment_account_id = self.env['account.chart.template'].ref('account_journal_payment_debit_account_id')
 >>>>>>> upstream/18.0

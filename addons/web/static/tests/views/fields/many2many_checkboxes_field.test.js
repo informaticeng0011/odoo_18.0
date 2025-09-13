@@ -160,7 +160,10 @@ test("Many2ManyCheckBoxesField: start non empty, then remove twice", async () =>
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("Many2ManyCheckBoxesField: many2many read, field context is properly sent", async () => {
     onRpc((args) => {
         expect.step(args.method);
@@ -182,6 +185,9 @@ test("Many2ManyCheckBoxesField: many2many read, field context is properly sent",
     expect.verifySteps(["get_views", "web_read", "name_search"]);
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test("Many2ManyCheckBoxesField: values are updated when domain changes", async () => {
     await mountView({

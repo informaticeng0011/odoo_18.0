@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* cloud_storage
 # 
 # Translators:
@@ -8,6 +9,8 @@
 # Ilya Rozhkov, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * cloud_storage
 #
 # Translators:
@@ -15,12 +18,16 @@
 # Ilya Rozhkov, 2025
 #
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 "Last-Translator: Ilya Rozhkov, 2025\n"
@@ -31,6 +38,8 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-21 14:33+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
@@ -43,6 +52,9 @@ msgstr ""
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: cloud_storage
@@ -60,7 +72,11 @@ msgstr "Облачное хранилище"
 #: model:ir.model.fields,field_description:cloud_storage.field_res_config_settings__cloud_storage_provider
 msgid "Cloud Storage Provider for new attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Провайдер облачного хранилища для новых вложений"
+>>>>>>> upstream/18.0
 =======
 msgstr "Провайдер облачного хранилища для новых вложений"
 >>>>>>> upstream/18.0
@@ -69,7 +85,11 @@ msgstr "Провайдер облачного хранилища для новы
 #: model_terms:ir.ui.view,arch_db:cloud_storage.cloud_storage_config_settings_view_form
 msgid "Cloud Storage Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Настройки облачного хранилища"
+>>>>>>> upstream/18.0
 =======
 msgstr "Настройки облачного хранилища"
 >>>>>>> upstream/18.0
@@ -79,7 +99,11 @@ msgstr "Настройки облачного хранилища"
 #: code:addons/cloud_storage/models/ir_attachment.py:0
 msgid "Cloud Storage is not enabled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Облачное хранилище не включено"
+>>>>>>> upstream/18.0
 =======
 msgstr "Облачное хранилище не включено"
 >>>>>>> upstream/18.0
@@ -90,6 +114,11 @@ msgstr "Облачное хранилище не включено"
 msgid "Cloud storage configuration has been changed. Please refresh the page."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Конфигурация облачного хранилища была изменена. Пожалуйста, обновите "
+"страницу."
+>>>>>>> upstream/18.0
 =======
 "Конфигурация облачного хранилища была изменена. Пожалуйста, обновите "
 "страницу."
@@ -100,7 +129,11 @@ msgstr ""
 #: code:addons/cloud_storage/static/src/core/common/attachment_upload_service_patch.js:0
 msgid "Cloud storage error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ошибка облачного хранилища"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ошибка облачного хранилища"
 >>>>>>> upstream/18.0
@@ -119,7 +152,11 @@ msgstr "Маршрутизация HTTP"
 #: model:ir.model.fields,field_description:cloud_storage.field_res_config_settings__cloud_storage_min_file_size
 msgid "Minimum File Size (bytes)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Минимальный размер файла (байты)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Минимальный размер файла (байты)"
 >>>>>>> upstream/18.0
@@ -129,6 +166,11 @@ msgstr "Минимальный размер файла (байты)"
 msgid "Minimum size(bytes) for attachments to be stored in the cloud storage"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Минимальный размер (байты) для вложений, которые будут храниться в облачном "
+"хранилище"
+>>>>>>> upstream/18.0
 =======
 "Минимальный размер (байты) для вложений, которые будут храниться в облачном "
 "хранилище"
@@ -139,7 +181,11 @@ msgstr ""
 #: code:addons/cloud_storage/models/res_config_settings.py:0
 msgid "Please configure the Cloud Storage before enabling it"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пожалуйста, настройте облачное хранилище перед включением"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пожалуйста, настройте облачное хранилище перед включением"
 >>>>>>> upstream/18.0
@@ -148,7 +194,11 @@ msgstr "Пожалуйста, настройте облачное хранили
 #: model_terms:ir.ui.view,arch_db:cloud_storage.cloud_storage_config_settings_view_form
 msgid "Select the cloud storage provider to store new attachments."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выберите провайдера облачного хранилища для сохранения новых вложений."
+>>>>>>> upstream/18.0
 =======
 msgstr "Выберите провайдера облачного хранилища для сохранения новых вложений."
 >>>>>>> upstream/18.0
@@ -163,7 +213,11 @@ msgstr "Тип"
 #: code:addons/cloud_storage/static/src/core/common/attachment_upload_service_patch.js:0
 msgid "You are not allowed to upload file to the cloud storage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "У вас нет прав на загрузку файлов в облачное хранилище"
+>>>>>>> upstream/18.0
 =======
 msgstr "У вас нет прав на загрузку файлов в облачное хранилище"
 >>>>>>> upstream/18.0
@@ -185,6 +239,12 @@ msgid ""
 "        the cloud storage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Веб-клиент может загружать файлы больше минимального размера\n"
+"        (в байтах) как вложения-ссылки на сервер, а затем отправлять файл\n"
+"        в облачное хранилище."
+>>>>>>> upstream/18.0
 =======
 "Веб-клиент может загружать файлы больше минимального размера\n"
 "        (в байтах) как вложения-ссылки на сервер, а затем отправлять файл\n"

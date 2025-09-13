@@ -263,10 +263,15 @@ class ImLivechatChannel(models.Model):
             LEFT OUTER JOIN operator_rtc_session rtc ON rtc.partner_id = c.livechat_operator_id
             WHERE c.channel_type = 'livechat' AND c.create_date > ((now() at time zone 'UTC') - interval '24 hours')
 <<<<<<< HEAD
+<<<<<<< HEAD
             AND (
                 c.livechat_active IS TRUE
                 OR m.create_date > ((now() at time zone 'UTC') - interval '30 minutes')
             )
+=======
+            AND c.livechat_active IS TRUE
+            AND m.create_date > ((now() at time zone 'UTC') - interval '30 minutes')
+>>>>>>> upstream/18.0
 =======
             AND c.livechat_active IS TRUE
             AND m.create_date > ((now() at time zone 'UTC') - interval '30 minutes')

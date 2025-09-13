@@ -3,11 +3,14 @@ from markupsafe import Markup
 from urllib.parse import quote, urlencode, urlparse
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models, _
 from odoo.exceptions import UserError
 from odoo.addons.l10n_tr_nilvera.lib.nilvera_client import _get_nilvera_client
 
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo import _, api, fields, models
 from odoo.exceptions import UserError
 from odoo.addons.l10n_tr_nilvera.lib.nilvera_client import _get_nilvera_client
@@ -28,6 +31,9 @@ CATEGORY_MOVE_TYPE_MAP = {
     "purchase": "in_invoice",
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class AccountMove(models.Model):
@@ -42,6 +48,10 @@ class AccountMove(models.Model):
         help="Universally unique identifier of the Invoice",
     )
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -61,7 +71,10 @@ class AccountMove(models.Model):
     )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _l10n_tr_types_to_update_status(self):
         return list(MOVE_TYPE_CATEGORY_MAP)
 
@@ -71,6 +84,9 @@ class AccountMove(models.Model):
     def _l10n_tr_get_category_move_type(self, document_category):
         return CATEGORY_MOVE_TYPE_MAP.get(document_category.lower())
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.model
     def _get_ubl_cii_builder_from_xml_tree(self, tree):
@@ -168,6 +184,7 @@ class AccountMove(models.Model):
         with _get_nilvera_client(self.env.company) as client:
             for invoice in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 response = client.request(
                     "GET",
                     f"/einvoice/sale/{invoice.l10n_tr_nilvera_uuid}/Status",
@@ -175,6 +192,8 @@ class AccountMove(models.Model):
 
                 nilvera_status = response.get('InvoiceStatus', {}).get('Code')
 =======
+=======
+>>>>>>> upstream/18.0
                 invoice_channel = invoice.partner_id.l10n_tr_nilvera_customer_status
                 document_category = invoice._l10n_tr_get_document_category(invoice_channel)
                 if not document_category or not invoice_channel:
@@ -186,6 +205,9 @@ class AccountMove(models.Model):
                 )
 
                 nilvera_status = response.get('InvoiceStatus', {}).get('Code') or response.get('StatusCode')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 if nilvera_status in dict(invoice._fields['l10n_tr_nilvera_send_status'].selection):
                     invoice.l10n_tr_nilvera_send_status = nilvera_status
@@ -196,8 +218,13 @@ class AccountMove(models.Model):
                             ) % (
                                 _("The invoice couldn't be sent to the recipient."),
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 response['InvoiceStatus'].get('Description'),
                                 response['InvoiceStatus'].get('DetailDescription'),
+=======
+                                response.get('InvoiceStatus', {}).get('Description') or response.get('StatusDetail'),
+                                response.get('InvoiceStatus', {}).get('DetailDescription') or response.get('ReportStatus'),
+>>>>>>> upstream/18.0
 =======
                                 response.get('InvoiceStatus', {}).get('Description') or response.get('StatusDetail'),
                                 response.get('InvoiceStatus', {}).get('DetailDescription') or response.get('ReportStatus'),
@@ -207,6 +234,7 @@ class AccountMove(models.Model):
                 else:
                     invoice.message_post(body=_("The invoice status couldn't be retrieved from Nilvera."))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     def _l10n_tr_nilvera_get_documents(self):
         with _get_nilvera_client(self.env.company) as client:
@@ -244,6 +272,8 @@ class AccountMove(models.Model):
             "GET",
             f"/einvoice/Purchase/{quote(document_uuid)}/xml",
 =======
+=======
+>>>>>>> upstream/18.0
     def _l10n_tr_nilvera_get_documents(self, invoice_channel="einvoice", document_category="Purchase", journal_type="in_invoice"):
         with _get_nilvera_client(self.env.company) as client:
             response = client.request("GET", f"/{invoice_channel}/{quote(document_category)}", params={"StatusCode": ["succeed"]})
@@ -295,6 +325,9 @@ class AccountMove(models.Model):
             "GET",
             f"/{invoice_channel}/{quote(document_category)}/{quote(document_uuid)}/xml",
             params={"StatusCode": ["succeed"]},
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         )
 
@@ -307,11 +340,14 @@ class AccountMove(models.Model):
 
         attachment = self.env['ir.attachment'].create(attachment_vals)
 <<<<<<< HEAD
+<<<<<<< HEAD
         try:
             move = journal.with_context(
                 default_move_type='in_invoice',
                 default_l10n_tr_nilvera_uuid=document_uuid,
 =======
+=======
+>>>>>>> upstream/18.0
         move_type = self._l10n_tr_get_category_move_type(document_category)
         try:
             move = journal.with_context(
@@ -319,6 +355,9 @@ class AccountMove(models.Model):
                 default_l10n_tr_nilvera_uuid=document_uuid,
                 default_message_main_attachment_id=attachment.id,
                 default_l10n_tr_nilvera_send_status='succeed',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             )._create_document_from_attachment(attachment.id)
 
@@ -330,12 +369,15 @@ class AccountMove(models.Model):
         except Exception:   # noqa: BLE001
             # If the invoice creation fails, create an empty invoice with the attachment. The PDF will be
 <<<<<<< HEAD
+<<<<<<< HEAD
             # added in a later step as well.
             move = self.env['account.move'].create({
                 'move_type': 'in_invoice',
                 'company_id': self.env.company.id,
                 'l10n_tr_nilvera_uuid': document_uuid,
 =======
+=======
+>>>>>>> upstream/18.0
             # added in a later step as well. Nilvera only returns uuid of the successful attachments.
             move = self.env['account.move'].create({
                 'move_type': move_type,
@@ -343,6 +385,9 @@ class AccountMove(models.Model):
                 'l10n_tr_nilvera_uuid': document_uuid,
                 'l10n_tr_nilvera_send_status': 'succeed',
                 'message_main_attachment_id': attachment.id,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             })
             attachment.write({
@@ -353,15 +398,21 @@ class AccountMove(models.Model):
         return move
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_tr_nilvera_add_pdf_to_invoice(self, client, invoice, document_uuid):
         response = client.request(
             "GET",
             f"/einvoice/Purchase/{quote(document_uuid)}/pdf",
 =======
+=======
+>>>>>>> upstream/18.0
     def _l10n_tr_nilvera_add_pdf_to_invoice(self, client, invoice, document_uuid, document_category="Purchase", invoice_channel="einvoice"):
         response = client.request(
             "GET",
             f"/{invoice_channel}/{quote(document_category)}/{quote(document_uuid)}/pdf",
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         )
 
@@ -376,11 +427,16 @@ class AccountMove(models.Model):
             'mimetype': 'application/pdf',
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if (invoice.message_main_attachment_id
                 and invoice.message_main_attachment_id.name.endswith('.xml')
                 and 'pdf' not in invoice.message_main_attachment_id.mimetype):
             invoice.message_main_attachment_id = attachment
+=======
+        # The created attachement coming form Nilvera should be the main attachment
+        invoice.message_main_attachment_id = attachment
+>>>>>>> upstream/18.0
 =======
         # The created attachement coming form Nilvera should be the main attachment
         invoice.message_main_attachment_id = attachment
@@ -401,7 +457,10 @@ class AccountMove(models.Model):
         return msg, error_codes
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _l10n_tr_nilvera_einvoice_check_invalid_subscription_dates(self):
         if 'deferred_start_date' not in self.invoice_line_ids._fields:
             return False
@@ -422,15 +481,21 @@ class AccountMove(models.Model):
             for line in self.invoice_line_ids
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # CRONS
     # -------------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _cron_nilvera_get_new_documents(self):
         self._l10n_tr_nilvera_get_documents()
 =======
+=======
+>>>>>>> upstream/18.0
     def _l10n_tr_nilvera_company_get_documents(self, invoice_channel, category, journal_type):
         for company in self.env.companies:
             if company.country_code != "TR" or not company.l10n_tr_nilvera_api_key:
@@ -445,12 +510,19 @@ class AccountMove(models.Model):
 
     def _cron_nilvera_get_new_earchive_sale_documents(self):
         self._l10n_tr_nilvera_company_get_documents("earchive", "Invoices", "sale")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _cron_nilvera_get_invoice_status(self):
         invoices_to_update = self.env['account.move'].search([
             ('l10n_tr_nilvera_send_status', 'in', ['waiting', 'sent']),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('move_type', 'in', self._l10n_tr_types_to_update_status()),
+>>>>>>> upstream/18.0
 =======
             ('move_type', 'in', self._l10n_tr_types_to_update_status()),
 >>>>>>> upstream/18.0

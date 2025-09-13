@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* mass_mailing_sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -24,7 +28,11 @@
 # Lilach Gilliam <lilach.gilliam@gmail.com>, 2025
 # ZVI BLONDER <ZVIBLONDER@gmail.com>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -32,6 +40,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275,6 +284,8 @@ msgstr ""
 "Language: he\n"
 "Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-05 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: ZVI BLONDER <ZVIBLONDER@gmail.com>, 2025\n"
@@ -285,6 +296,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
 "1 == 0) ? 1: 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
@@ -355,8 +369,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text"
 " Messages are being processed.</span>"
+=======
+"<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
+"Messages are being processed.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
 "Messages are being processed.</span>"
@@ -392,12 +411,15 @@ msgstr "<span>נמעני SMS תקפים</span>"
 msgid ""
 "<strong>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            It appears you don't have enough IAP credits. Click here to buy credits.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "                            נראה שאין לך מספיק אשראי IAP. לחץ כאן כדי לקנות אשראי.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            It appears you don't have enough IAP credits. "
 "Click here to buy credits.\n"
 "                        </strong>"
@@ -405,6 +427,9 @@ msgstr ""
 "<strong>\n"
 "                            נראה שאין לך מספיק אשראי IAP. לחץ כאן כדי לקנות "
 "אשראי.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </strong>"
 
@@ -413,7 +438,12 @@ msgstr ""
 msgid ""
 "<strong>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            It appears your SMS account is not registered. Click here to set up your account.\n"
+=======
+"                            It appears your SMS account is not registered. "
+"Click here to set up your account.\n"
+>>>>>>> upstream/18.0
 =======
 "                            It appears your SMS account is not registered. "
 "Click here to set up your account.\n"
@@ -493,8 +523,13 @@ msgid ""
 "model: %(model)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "הכנס לרשימה השחורה דרך ביטול הרישום של שיווק ב- SMS  (מזהה דיוור: "
 "%(mailing_id)s - מודל: %(model)s)"
+=======
+"הכנס לרשימה השחורה דרך ביטול הרישום של שיווק ב- SMS  (מזהה דיוור: %"
+"(mailing_id)s - מודל: %(model)s)"
+>>>>>>> upstream/18.0
 =======
 "הכנס לרשימה השחורה דרך ביטול הרישום של שיווק ב- SMS  (מזהה דיוור: %"
 "(mailing_id)s - מודל: %(model)s)"
@@ -673,8 +708,13 @@ msgid ""
 "                    For an SMS Text Message, internal Title of the Message."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "עבור דואר אלקטרוני, נושא הנמענים שלך יראו בתיבת הדואר הנכנס שלהם. עבור הודעת"
 " טקסט SMS, כותרת פנימית של ההודעה."
+=======
+"עבור דואר אלקטרוני, נושא הנמענים שלך יראו בתיבת הדואר הנכנס שלהם. עבור הודעת "
+"טקסט SMS, כותרת פנימית של ההודעה."
+>>>>>>> upstream/18.0
 =======
 "עבור דואר אלקטרוני, נושא הנמענים שלך יראו בתיבת הדואר הנכנס שלהם. עבור הודעת "
 "טקסט SMS, כותרת פנימית של ההודעה."
@@ -719,8 +759,13 @@ msgstr "אם מסומן, בחלק מההודעות קיימת שגיאת משל�
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__phone_sanitized_blacklisted
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 =======
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
@@ -733,8 +778,12 @@ msgstr ""
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_mailing__sms_force_send
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Immediately send the SMS Mailing instead of queuing up. Use at your own "
 "risk."
+=======
+"Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
+>>>>>>> upstream/18.0
 =======
 "Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
 >>>>>>> upstream/18.0
@@ -926,8 +975,13 @@ msgstr "אין מידע עדיין"
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_list_action_sms
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No need to import mailing lists, you can send SMS to contacts saved in other"
 " Odoo apps."
+=======
+"No need to import mailing lists, you can send SMS to contacts saved in other "
+"Odoo apps."
+>>>>>>> upstream/18.0
 =======
 "No need to import mailing lists, you can send SMS to contacts saved in other "
 "Odoo apps."
@@ -990,8 +1044,13 @@ msgstr "מספר(ים)"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Once you send these text messages, they'll be making a grand entrance in all"
 " pockets, creating quite the bzzzzz!"
+=======
+"Once you send these text messages, they'll be making a grand entrance in all "
+"pockets, creating quite the bzzzzz!"
+>>>>>>> upstream/18.0
 =======
 "Once you send these text messages, they'll be making a grand entrance in all "
 "pockets, creating quite the bzzzzz!"
@@ -1267,7 +1326,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1447,6 +1509,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1594,7 +1659,11 @@ msgstr "בדוק דיוור SMS"
 #. odoo-python
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Test SMS could not be sent to %(destination)s: %(state)s"
+=======
+msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
+>>>>>>> upstream/18.0
 =======
 msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
 >>>>>>> upstream/18.0
@@ -1715,8 +1784,12 @@ msgstr "בחירת הזוכה"
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_mailing_action_sms
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Write an appealing SMS Text Message, define recipients and track its "
 "results."
+=======
+"Write an appealing SMS Text Message, define recipients and track its results."
+>>>>>>> upstream/18.0
 =======
 "Write an appealing SMS Text Message, define recipients and track its results."
 >>>>>>> upstream/18.0

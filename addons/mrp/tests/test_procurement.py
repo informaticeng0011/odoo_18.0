@@ -3,7 +3,11 @@
 from datetime import timedelta
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields
+=======
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, fields
 >>>>>>> upstream/18.0
@@ -358,7 +362,10 @@ class TestProcurement(TestMrpCommon):
         self.assertEqual(move_dest.quantity, 10.0)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_mtso_with_empty_bom(self):
         """Test to ensure that a Manufacturing Order is created in 'draft' state
         via MTSO route when BoM has no components or operations.
@@ -403,6 +410,9 @@ class TestProcurement(TestMrpCommon):
         self.assertFalse(production.workorder_ids)
         self.assertEqual(production.state, "draft", "MO with empty BoM created via MTSO should remain in draft state.")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_auto_assign(self):
         """ When auto reordering rule exists, check for when:

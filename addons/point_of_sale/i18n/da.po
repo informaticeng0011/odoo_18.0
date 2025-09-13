@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -96,6 +100,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # lhmflexerp <lhm@flexerp.dk>, 2025
 =======
 >>>>>>> upstream/18.0
@@ -646,11 +651,14 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Sammi Iversen <sammi@vkdata.dk>, 2025
 # Ejner Sønniksen <ejner@vkdata.dk>, 2025
 # Wil Odoo, 2025
 # lhmflexerp <lhm@flexerp.dk>, 2025
 # Mikkel_Justesen, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Kira Petersen, 2025
 # Sanne Kristensen <sanne@vkdata.dk>, 2025
@@ -688,10 +696,16 @@
 # Kira Petersen, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Sanne Kristensen <sanne@vkdata.dk>, 2025
+# Kira Petersen, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1170,6 +1184,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: da\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Kira Petersen, 2025\n"
@@ -1178,6 +1194,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -1187,11 +1206,14 @@ msgstr ""
 msgid ""
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This issue occurs because the quantity becomes zero after rounding during the conversion. To fix this, adjust the conversion factors or rounding method to ensure that even the smallest quantity in the original unit does not round down to zero in the target unit."
 msgstr ""
 "\n"
 "Dette problem opstår, fordi mængden bliver nul efter afrunding under konverteringen. For at løse dette skal du justere konverteringsfaktorerne eller afrundingsmetoden for at sikre, at selv den mindste mængde i den oprindelige enhed ikke rundes ned til nul i målenheden."
 =======
+=======
+>>>>>>> upstream/18.0
 "This issue occurs because the quantity becomes zero after rounding during "
 "the conversion. To fix this, adjust the conversion factors or rounding "
 "method to ensure that even the smallest quantity in the original unit does "
@@ -1202,6 +1224,9 @@ msgstr ""
 "konverteringen. For at løse dette skal du justere konverteringsfaktorerne "
 "eller afrundingsmetoden for at sikre, at selv den mindste mængde i den "
 "oprindelige enhed ikke rundes ned til nul i målenheden."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -1226,7 +1251,11 @@ msgstr "% Rabat"
 #: code:addons/point_of_sale/models/stock_warehouse.py:0
 msgid "%(name)s Picking POS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Ordreplukning i POS-systemet"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Ordreplukning i POS-systemet"
 >>>>>>> upstream/18.0
@@ -1262,7 +1291,11 @@ msgstr "%(payment_method)s POS betaling på %(partner)s i %(session)s"
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid "%(product_name)s: Deleted line (quantity: %(qty)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product_name)s: Slettet linje (mængde: %(qty)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product_name)s: Slettet linje (mængde: %(qty)s)"
 >>>>>>> upstream/18.0
@@ -1284,7 +1317,11 @@ msgstr "%(refunded_order)s TILBAGEBETAL"
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid "%(title)s %(product_name)s with %(taxes)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(title)s %(product_name)s med %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(title)s %(product_name)s med %(taxes)s"
 >>>>>>> upstream/18.0
@@ -1320,7 +1357,11 @@ msgstr "%s importerede ordrer"
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid "%s untaxed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s ubeskattet"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s ubeskattet"
 >>>>>>> upstream/18.0
@@ -1439,7 +1480,11 @@ msgstr "5-lommers jeans i bomuldsdenim med let stretch for god komfort."
 #: model:product.template,description_sale:point_of_sale.blue_denim_jeans_slim_template
 msgid "5-pocket jeans in cotton denim.."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jeans med 5 lommer i bomuldsdenim."
+>>>>>>> upstream/18.0
 =======
 msgstr "Jeans med 5 lommer i bomuldsdenim."
 >>>>>>> upstream/18.0
@@ -1485,17 +1530,23 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <h4>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'Valuable Customer'\">Azure Interior</t>,\n"
 "    </h4>\n"
 "    <p style=\"font-size: 13px;\">\n"
 "We have a limited-time offer only for you, enjoy a flat 20% off on your next purchase with us.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Dear <t t-out=\"object.partner_id.name or 'Valuable "
 "Customer'\">Azure Interior</t>,\n"
 "    </h4>\n"
 "    <p style=\"font-size: 13px;\">\n"
 "We have a limited-time offer only for you, enjoy a flat 20% off on your next "
 "purchase with us.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "We can't wait to continue serving you.\n"
 "    </p>\n"
@@ -1529,11 +1580,14 @@ msgstr "<i class=\"fa fa-pencil\"/> Redigér"
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<p>Dear %(client_name)s,<br/>Here is your Receipt %(is_invoiced)sfor"
 "             %(pos_name)s amounting in %(amount)s from %(company_name)s. "
 "</p>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "<p>Dear %(client_name)s,<br/>Here is your Receipt %"
 "(is_invoiced)sfor             %(pos_name)s amounting in %(amount)s from %"
 "(company_name)s. </p>"
@@ -1541,6 +1595,9 @@ msgstr ""
 "<p>Hej %(client_name)s.<br/>Her er din kvittering %"
 "(is_invoiced)sfor             %(pos_name)s på %(amount)s fra %"
 "(company_name)s. </p>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -1550,6 +1607,11 @@ msgid ""
 "determined</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"float-end\" invisible=\"is_total_cost_computed\">Skal "
+"fastlægges</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"float-end\" invisible=\"is_total_cost_computed\">Skal "
 "fastlægges</span>"
@@ -1560,17 +1622,23 @@ msgstr ""
 msgid ""
 "<span class=\"o_form_label\">Barcodes</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
 msgstr ""
 "<span class=\"o_form_label\">Stregkoder</span>\n"
 "                                <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                <i class=\"fa fa-info-circle me-1\" "
 "title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
 msgstr ""
 "<span class=\"o_form_label\">Stregkoder</span>\n"
 "                                <i class=\"fa fa-info-circle me-1\" "
 "title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -1622,17 +1690,23 @@ msgstr "<span>Visning</span>"
 msgid ""
 "<strong> &gt; Payment Terminals</strong>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    in order to install a Payment Terminal and make a fully integrated payment method."
 msgstr ""
 "<strong> &gt; Betalingsterminaler</strong>\n"
 "                                    for at installere en betalingsterminal og lave en fuldt integreret betalingsmetode."
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    in order to install a Payment Terminal "
 "and make a fully integrated payment method."
 msgstr ""
 "<strong> &gt; Betalingsterminaler</strong>\n"
 "                                    for at installere en betalingsterminal "
 "og lave en fuldt integreret betalingsmetode."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -1669,7 +1743,11 @@ msgstr "<strong>Åbning af notat fra sessionen:</strong>"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.report_invoice_document
 msgid "<strong>Source Invoice</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Kildefaktura</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Kildefaktura</strong>"
 >>>>>>> upstream/18.0
@@ -1698,12 +1776,18 @@ msgstr ""
 #: model:ir.model.constraint,message:point_of_sale.constraint_pos_note_name_unique
 msgid "A note with this name already exists"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Der findes allerede en note med dette navn"
 
 #. module: point_of_sale
 #: model:ir.model.constraint,message:point_of_sale.constraint_pos_payment_uuid_unique
 msgid "A payment with this uuid already exists"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1755,8 +1839,12 @@ msgstr ""
 msgid "A short text that will be inserted as a header in the printed receipt."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "En kort tekst, der vil blive indsat som sidehoved på den printede "
 "kvittering."
+=======
+"En kort tekst, der vil blive indsat som sidehoved på den printede kvittering."
+>>>>>>> upstream/18.0
 =======
 "En kort tekst, der vil blive indsat som sidehoved på den printede kvittering."
 >>>>>>> upstream/18.0
@@ -1778,7 +1866,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Accept payments with Mercado Pago on a terminal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acceptér betalinger med Mercado Pago i en terminal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acceptér betalinger med Mercado Pago i en terminal"
 >>>>>>> upstream/18.0
@@ -1797,7 +1889,11 @@ msgstr "Accepter betalinger med en PayTM betalingsterminal"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Accept payments with a Razorpay payment terminal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acceptér betalinger med en Razorpay-betalingsterminal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acceptér betalinger med en Razorpay-betalingsterminal"
 >>>>>>> upstream/18.0
@@ -1858,14 +1954,20 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_pos_payment_method__outstanding_account_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Account used as outstanding account when creating accounting payment records"
 " for bank payments."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Account used as outstanding account when creating accounting payment records "
 "for bank payments."
 msgstr ""
 "Konto anvendt som midlertidig modkonto ved bogføring af bankbetalinger."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -1909,7 +2011,11 @@ msgstr "Handlinger"
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_module_pos_sms
 msgid "Activate SMS feature for point_of_sale"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivér SMS-funktion for point_of_sale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktivér SMS-funktion for point_of_sale"
 >>>>>>> upstream/18.0
@@ -1951,7 +2057,11 @@ msgstr "Tilføj"
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/customer_note_button/customer_note_button.js:0
 msgid "Add %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilføj %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilføj %s"
 >>>>>>> upstream/18.0
@@ -1970,8 +2080,13 @@ msgid ""
 "for an order on the portal."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tilføj en 5-cifret kode på kvitteringen for at give brugeren mulighed for at"
 " anmode om fakturaen for en ordre på portalen."
+=======
+"Tilføj en 5-cifret kode på kvitteringen for at give brugeren mulighed for at "
+"anmode om fakturaen for en ordre på portalen."
+>>>>>>> upstream/18.0
 =======
 "Tilføj en 5-cifret kode på kvitteringen for at give brugeren mulighed for at "
 "anmode om fakturaen for en ordre på portalen."
@@ -2026,7 +2141,11 @@ msgstr "Tilføj til ordre"
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid "Added %(payment_method)s with %(amount)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilføjet %(payment_method)s med %(amount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilføjet %(payment_method)s med %(amount)s"
 >>>>>>> upstream/18.0
@@ -2083,7 +2202,11 @@ msgstr "Adyen betalingsterminal"
 #: code:addons/point_of_sale/static/src/app/screens/partner_list/partner_line/partner_line.xml:0
 msgid "All Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alle ordrer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alle ordrer"
 >>>>>>> upstream/18.0
@@ -2110,7 +2233,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "All notes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alle noter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alle noter"
 >>>>>>> upstream/18.0
@@ -2120,8 +2247,13 @@ msgstr "Alle noter"
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "All payment methods must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
+=======
+"All payment methods must be in the same currency as the Sales Journal or the "
+"company currency if that is not set."
+>>>>>>> upstream/18.0
 =======
 "All payment methods must be in the same currency as the Sales Journal or the "
 "company currency if that is not set."
@@ -2194,7 +2326,11 @@ msgstr "Autoriseret beløbsforskel"
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid "Amount for %(old_pm)s changed from %(old_amount)s to %(new_amount)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Beløb for %(old_pm)s ændret fra %(old_amount)s til %(new_amount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Beløb for %(old_pm)s ændret fra %(old_amount)s til %(new_amount)s"
 >>>>>>> upstream/18.0
@@ -2279,6 +2415,10 @@ msgstr "Beløb i alt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -2511,6 +2651,11 @@ msgid ""
 "available in the next session. The page will be reloaded."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Der opstod en fejl under lukning af sessionen. Usynkroniserede ordre er "
+"tilgængelige i næste session. Siden genindlæses."
+>>>>>>> upstream/18.0
 =======
 "Der opstod en fejl under lukning af sessionen. Usynkroniserede ordre er "
 "tilgængelige i næste session. Siden genindlæses."
@@ -2521,7 +2666,11 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/models/data_service.js:0
 msgid "An error occurred while loading the Point of Sale: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der opstod en fejl under indlæsning af kassesystemet: \n"
+>>>>>>> upstream/18.0
 =======
 msgstr "Der opstod en fejl under indlæsning af kassesystemet: \n"
 >>>>>>> upstream/18.0
@@ -2538,7 +2687,10 @@ msgstr "En intern identifikation af printeren"
 
 #. module: point_of_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.constraint,message:point_of_sale.constraint_pos_order_line_uuid_unique
 msgid "An order line with this uuid already exists"
 msgstr ""
@@ -2549,6 +2701,9 @@ msgid "An order with this uuid already exists"
 msgstr ""
 
 #. module: point_of_sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_session.py:0
@@ -2559,7 +2714,11 @@ msgstr "En anden ekspedition er allerede åbnet for den kasse."
 #: model:product.template,name:point_of_sale.product_apple_pie_product_template
 msgid "Apple Pie"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Æblekage"
+>>>>>>> upstream/18.0
 =======
 msgstr "Æblekage"
 >>>>>>> upstream/18.0
@@ -2588,7 +2747,11 @@ msgstr "Er du sikker på at kunden vil betale"
 #: model:product.template,description_sale:point_of_sale.product_sourdough_loaf_product_template
 msgid "Artisan sourdough bread with a crisp crust and soft interior."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hjemmelavet surdejsbrød med sprød skorpe og blød indre."
+>>>>>>> upstream/18.0
 =======
 msgstr "Hjemmelavet surdejsbrød med sprød skorpe og blød indre."
 >>>>>>> upstream/18.0
@@ -2597,7 +2760,11 @@ msgstr "Hjemmelavet surdejsbrød med sprød skorpe og blød indre."
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_session_sales_details
 msgid "As of"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fra den"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fra den"
 >>>>>>> upstream/18.0
@@ -2615,6 +2782,11 @@ msgid ""
 "registering QR code payments with Bank apps."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Mindst én bankkonto skal angives i journalen for at kunne registrere QR-"
+"kodebetalinger via bankapps."
+>>>>>>> upstream/18.0
 =======
 "Mindst én bankkonto skal angives i journalen for at kunne registrere QR-"
 "kodebetalinger via bankapps."
@@ -2624,7 +2796,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:point_of_sale.selection__res_company__point_of_sale_update_stock_quantities__closing
 msgid "At the session closing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Når sessionen lukker"
+>>>>>>> upstream/18.0
 =======
 msgstr "Når sessionen lukker"
 >>>>>>> upstream/18.0
@@ -2634,17 +2810,23 @@ msgstr "Når sessionen lukker"
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__update_stock_quantities
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "At the session closing: A picking is created for the entire session when it's closed\n"
 " In real time: Each order sent to the server create its own picking"
 msgstr ""
 "Ved sessionens afslutning: Et pluk oprettes for hele sessionen når den afsluttes\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "At the session closing: A picking is created for the entire session when "
 "it's closed\n"
 " In real time: Each order sent to the server create its own picking"
 msgstr ""
 "Ved sessionens afslutning: Et pluk oprettes for hele sessionen når den "
 "afsluttes\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "I realtid: Hver ordre afsendt til serveren opretter dets eget pluk"
 
@@ -2652,7 +2834,11 @@ msgstr ""
 #: model:product.template,description_sale:point_of_sale.sport_shoes_product_template
 msgid "Athletic sport shoes, designed for comfort and performance."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atletiske sportssko designet med fokus på både komfort og ydeevne."
+>>>>>>> upstream/18.0
 =======
 msgstr "Atletiske sportssko designet med fokus på både komfort og ydeevne."
 >>>>>>> upstream/18.0
@@ -2723,7 +2909,11 @@ msgstr "Validerer automatisk ordrer betalt med en betalingsterminal."
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_module_pos_avatax
 msgid "AvaTax PoS Integration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "AvaTax-POS-integration"
+>>>>>>> upstream/18.0
 =======
 msgstr "AvaTax-POS-integration"
 >>>>>>> upstream/18.0
@@ -2737,7 +2927,11 @@ msgstr "Til rådighed"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__available_payment_method_ids
 msgid "Available Payment Methods"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilgængelige betalingsformer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilgængelige betalingsformer"
 >>>>>>> upstream/18.0
@@ -2791,7 +2985,11 @@ msgstr "Baggrundsbillede"
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_customer_display_bg_img_name
 msgid "Background Image Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navn på baggrundsbillede"
+>>>>>>> upstream/18.0
 =======
 msgstr "Navn på baggrundsbillede"
 >>>>>>> upstream/18.0
@@ -2805,7 +3003,11 @@ msgstr "ID skilt"
 #: model:product.template,name:point_of_sale.product_bagel_product_template
 msgid "Bagel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bagel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bagel"
 >>>>>>> upstream/18.0
@@ -2815,7 +3017,11 @@ msgstr "Bagel"
 #: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.js:0
 msgid "Bakery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bageri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bageri"
 >>>>>>> upstream/18.0
@@ -2825,7 +3031,11 @@ msgstr "Bageri"
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid "Bakery Shop"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bagerbutik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bagerbutik"
 >>>>>>> upstream/18.0
@@ -2884,7 +3094,11 @@ msgstr "Stregkode scanner/kortlæser"
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_basic_receipt
 msgid "Basic Receipt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Basiskvittering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Basiskvittering"
 >>>>>>> upstream/18.0
@@ -2908,6 +3122,7 @@ msgstr "Fakturaer"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Bills & Receipts"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2953,6 +3168,9 @@ msgstr "Fakturaer og kvitteringer"
 =======
 msgstr "Fakturaer og kvitteringer"
 >>>>>>> upstream/18.0
+=======
+msgstr "Fakturaer og kvitteringer"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:product.attribute.value,name:point_of_sale.product_attribute_value_black
@@ -2963,7 +3181,11 @@ msgstr "Sort"
 #: model:product.template,name:point_of_sale.t_shirt_black_embroidered_product_template
 msgid "Black embroidered t-shirt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sort, broderet T-shirt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sort, broderet T-shirt"
 >>>>>>> upstream/18.0
@@ -2972,7 +3194,11 @@ msgstr "Sort, broderet T-shirt"
 #: model:product.template,name:point_of_sale.blue_denim_jeans_template
 msgid "Blue Denim Jeans"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Blå denimjeans"
+>>>>>>> upstream/18.0
 =======
 msgstr "Blå denimjeans"
 >>>>>>> upstream/18.0
@@ -2981,7 +3207,11 @@ msgstr "Blå denimjeans"
 #: model:product.template,name:point_of_sale.product_blueberry_muffin_product_template
 msgid "Blueberry Muffin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bblåbærmuffin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bblåbærmuffin"
 >>>>>>> upstream/18.0
@@ -3003,7 +3233,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__card_brand
 msgid "Brand of card"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kortets brand"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kortets brand"
 >>>>>>> upstream/18.0
@@ -3012,7 +3246,11 @@ msgstr "Kortets brand"
 #: model:pos.category,name:point_of_sale.pos_category_breads
 msgid "Breads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brød"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brød"
 >>>>>>> upstream/18.0
@@ -3027,7 +3265,11 @@ msgstr "Buffer:"
 #: model:ir.model,name:point_of_sale.model_pos_bus_mixin
 msgid "Bus Mixin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bus-mixin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bus-mixin"
 >>>>>>> upstream/18.0
@@ -3036,7 +3278,11 @@ msgstr "Bus-mixin"
 #: model:product.template,name:point_of_sale.product_butter_croissant_product_template
 msgid "Butter Croissant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Smørcroissant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Smørcroissant"
 >>>>>>> upstream/18.0
@@ -3046,7 +3292,11 @@ msgstr "Smørcroissant"
 #: code:addons/point_of_sale/static/src/app/store/order_change_receipt_template.xml:0
 msgid "By:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Af:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Af:"
 >>>>>>> upstream/18.0
@@ -3096,7 +3346,11 @@ msgstr "Annuller ordre"
 #: code:addons/point_of_sale/static/src/app/navbar/closing_popup/closing_popup.js:0
 msgid "Cancel Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Annullér ordrer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Annullér ordrer"
 >>>>>>> upstream/18.0
@@ -3106,7 +3360,11 @@ msgstr "Annullér ordrer"
 #: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
 msgid "Cancel Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Annullér betaling"
+>>>>>>> upstream/18.0
 =======
 msgstr "Annullér betaling"
 >>>>>>> upstream/18.0
@@ -3141,7 +3399,11 @@ msgstr "Kan ikke returnere byttepenge uden en kontant betalingsmetode"
 #: code:addons/point_of_sale/static/src/app/screens/scale_screen/scale_service.js:0
 msgid "Cannot weigh product - IoT Box is disconnected"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kan ikke veje produkt – forbindelse til IoT-boks er afbrudt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kan ikke veje produkt – forbindelse til IoT-boks er afbrudt"
 >>>>>>> upstream/18.0
@@ -3152,6 +3414,10 @@ msgstr "Kan ikke veje produkt – forbindelse til IoT-boks er afbrudt"
 msgid "Cannot weigh product - Scale is not connected to IoT Box"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kan ikke veje produkt – forbindelse mellem vægt og IoT-boks ikke oprettet"
+>>>>>>> upstream/18.0
 =======
 "Kan ikke veje produkt – forbindelse mellem vægt og IoT-boks ikke oprettet"
 >>>>>>> upstream/18.0
@@ -3166,7 +3432,11 @@ msgstr "Kort"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__card_no
 msgid "Card Number(Last 4 Digit)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kortnummer (mindst 4 cifre)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kortnummer (mindst 4 cifre)"
 >>>>>>> upstream/18.0
@@ -3175,7 +3445,11 @@ msgstr "Kortnummer (mindst 4 cifre)"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__cardholder_name
 msgid "Card Owner name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navn på kortholder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Navn på kortholder"
 >>>>>>> upstream/18.0
@@ -3185,7 +3459,11 @@ msgstr "Navn på kortholder"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
 msgid "Card's Brand"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kortets mærke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kortets mærke"
 >>>>>>> upstream/18.0
@@ -3224,7 +3502,11 @@ msgstr "Kontant%(session_name)s"
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid "Cash Bakery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontantbageri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontantbageri"
 >>>>>>> upstream/18.0
@@ -3240,7 +3522,11 @@ msgstr "Kontant tøjbutik"
 #: code:addons/point_of_sale/static/src/app/navbar/closing_popup/closing_popup.xml:0
 msgid "Cash Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mængde kontanter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mængde kontanter"
 >>>>>>> upstream/18.0
@@ -3250,7 +3536,11 @@ msgstr "Mængde kontanter"
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid "Cash Furn. Shop"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontant møbelforretning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontant møbelforretning"
 >>>>>>> upstream/18.0
@@ -3266,7 +3556,11 @@ msgstr "Kontanter ind"
 #: code:addons/point_of_sale/static/src/app/navbar/closing_popup/closing_popup.xml:0
 msgid "Cash In / Out"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontanter ind / ud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontanter ind / ud"
 >>>>>>> upstream/18.0
@@ -3338,7 +3632,11 @@ msgstr "Kontantkontrol - åbning"
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid "Cash difference observed during the counting (Loss) - closing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontantunderskud registreret under optælling ved sessionens afslutning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontantunderskud registreret under optælling ved sessionens afslutning"
 >>>>>>> upstream/18.0
@@ -3348,7 +3646,11 @@ msgstr "Kontantunderskud registreret under optælling ved sessionens afslutning"
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid "Cash difference observed during the counting (Profit) - closing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontantoverskud registreret under optælling ved sessionens afslutning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontantoverskud registreret under optælling ved sessionens afslutning"
 >>>>>>> upstream/18.0
@@ -3396,7 +3698,11 @@ msgstr "Ekspedient"
 #: model:product.template,name:point_of_sale.casual_denim_short_product_template
 msgid "Casual Denim Short"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afslappet denimshort"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afslappet denimshort"
 >>>>>>> upstream/18.0
@@ -3405,7 +3711,11 @@ msgstr "Afslappet denimshort"
 #: model:product.template,name:point_of_sale.casual_t_shirt_product_template
 msgid "Casual T-shirt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afslappet T-shirt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afslappet T-shirt"
 >>>>>>> upstream/18.0
@@ -3415,6 +3725,10 @@ msgstr "Afslappet T-shirt"
 msgid "Casual denim shorts, comfortable and stylish for everyday wear."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Afslappede denimshort, der er behagelige og stilfulde til hverdagsbrug."
+>>>>>>> upstream/18.0
 =======
 "Afslappede denimshort, der er behagelige og stilfulde til hverdagsbrug."
 >>>>>>> upstream/18.0
@@ -3426,6 +3740,11 @@ msgid ""
 "available"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Slank afslappet T-shirt i ren bomuld med hvidt broderi. Fås i forskellige "
+"størrelser."
+>>>>>>> upstream/18.0
 =======
 "Slank afslappet T-shirt i ren bomuld med hvidt broderi. Fås i forskellige "
 "størrelser."
@@ -3435,7 +3754,11 @@ msgstr ""
 #: model:product.template,description_sale:point_of_sale.t_shirt_slim_product_template
 msgid "Casual slim t-shirt 100% cotton. Various sizes available"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slank afslappet T-shirt i ren bomuld. Fås i forskellige størrelser."
+>>>>>>> upstream/18.0
 =======
 msgstr "Slank afslappet T-shirt i ren bomuld. Fås i forskellige størrelser."
 >>>>>>> upstream/18.0
@@ -3445,6 +3768,10 @@ msgstr "Slank afslappet T-shirt i ren bomuld. Fås i forskellige størrelser."
 msgid "Casual t-shirt 100% cotton. Various colors and sizes available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Afslappet T-shirt i ren bomuld. Fås i forskellige farver og størrelser."
+>>>>>>> upstream/18.0
 =======
 "Afslappet T-shirt i ren bomuld. Fås i forskellige farver og størrelser."
 >>>>>>> upstream/18.0
@@ -3500,8 +3827,12 @@ msgstr "Skift drikkepenge"
 #: model:ir.model.fields,help:point_of_sale.field_product_template__to_weight
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Check if the product should be weighted using the hardware scale "
 "integration."
+=======
+"Check if the product should be weighted using the hardware scale integration."
+>>>>>>> upstream/18.0
 =======
 "Check if the product should be weighted using the hardware scale integration."
 >>>>>>> upstream/18.0
@@ -3543,7 +3874,11 @@ msgstr ""
 #: model:product.template,name:point_of_sale.product_cheese_croissant_product_template
 msgid "Cheese Croissant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ostecroissant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ostecroissant"
 >>>>>>> upstream/18.0
@@ -3552,7 +3887,11 @@ msgstr "Ostecroissant"
 #: model:product.template,name:point_of_sale.product_cherry_pie_product_template
 msgid "Cherry Pie"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kirsebærkage"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kirsebærkage"
 >>>>>>> upstream/18.0
@@ -3561,7 +3900,11 @@ msgstr "Kirsebærkage"
 #: model:product.template,description_sale:point_of_sale.product_bagel_product_template
 msgid "Chewy and dense bagel, perfect for sandwiches or with cream cheese."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fyldig bagel, perfekt som sandwich eller med flødeost."
+>>>>>>> upstream/18.0
 =======
 msgstr "Fyldig bagel, perfekt som sandwich eller med flødeost."
 >>>>>>> upstream/18.0
@@ -3585,7 +3928,11 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/generic_components/list_container/list_container.js:0
 msgid "Choose an order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg en ordre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vælg en ordre"
 >>>>>>> upstream/18.0
@@ -3595,13 +3942,19 @@ msgstr "Vælg en ordre"
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__point_of_sale_ticket_portal_url_display_mode
 msgid "Choose how the URL to the portal will be print on the receipt."
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Vælg, hvordan portalens URL skal vises på kvitteringen."
 
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
 msgid "Choose the tax you want to apply"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -3610,7 +3963,11 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.xml:0
 msgid "Choose your store"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg din butik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vælg din butik"
 >>>>>>> upstream/18.0
@@ -3619,7 +3976,11 @@ msgstr "Vælg din butik"
 #: model:product.template,name:point_of_sale.product_cinnamon_roll_product_template
 msgid "Cinnamon Roll"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kanelsnegl"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kanelsnegl"
 >>>>>>> upstream/18.0
@@ -3628,7 +3989,11 @@ msgstr "Kanelsnegl"
 #: model:product.template,name:point_of_sale.product_classic_brown_jacket_product_template
 msgid "Classic Brown Jacket"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klassisk brun jakke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klassisk brun jakke"
 >>>>>>> upstream/18.0
@@ -3637,7 +4002,11 @@ msgstr "Klassisk brun jakke"
 #: model:product.template,name:point_of_sale.classic_leather_belt_product_template
 msgid "Classic Leather Belt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klassisk læderbælte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klassisk læderbælte"
 >>>>>>> upstream/18.0
@@ -3646,7 +4015,11 @@ msgstr "Klassisk læderbælte"
 #: model:product.template,description_sale:point_of_sale.classic_leather_belt_product_template
 msgid "Classic leather belt, a must-have accessory for any wardrobe."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klassisk læderbælte, et uundværlig accessoire i enhver garderobe."
+>>>>>>> upstream/18.0
 =======
 msgstr "Klassisk læderbælte, et uundværlig accessoire i enhver garderobe."
 >>>>>>> upstream/18.0
@@ -3761,7 +4134,11 @@ msgid "Close Register"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Luk Kasse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Luk Kasse"
 >>>>>>> upstream/18.0
@@ -4103,7 +4480,11 @@ msgid "Closed Register"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lukket Kasse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lukket Kasse"
 >>>>>>> upstream/18.0
@@ -4365,7 +4746,11 @@ msgstr "Afslutningsdato"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Closing Entry by product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afsluttende postering efter produkt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afsluttende postering efter produkt"
 >>>>>>> upstream/18.0
@@ -4380,7 +4765,11 @@ msgstr "Afsluttende noter"
 #: code:addons/point_of_sale/static/src/app/navbar/closing_popup/closing_popup.xml:0
 msgid "Closing Register"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lukke kasse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lukke kasse"
 >>>>>>> upstream/18.0
@@ -4420,7 +4809,11 @@ msgstr "Tøj"
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid "Clothes Shop"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tøjbutik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tøjbutik"
 >>>>>>> upstream/18.0
@@ -4439,7 +4832,11 @@ msgid "Coin/Bill Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mønt/regningsværdi"
+=======
+msgstr "Mønt/fakturaværdi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mønt/fakturaværdi"
 >>>>>>> upstream/18.0
@@ -4488,7 +4885,11 @@ msgstr "Mønter/Sedler"
 #: code:addons/point_of_sale/static/src/app/utils/money_details_popup/money_details_popup.xml:0
 msgid "Coins/Notes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mønter/sedler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mønter/sedler"
 >>>>>>> upstream/18.0
@@ -4603,7 +5004,11 @@ msgstr "Bekræft"
 #: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
 msgid "Confirm Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bekræft betaling"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bekræft betaling"
 >>>>>>> upstream/18.0
@@ -4648,7 +5053,11 @@ msgstr "Opret forbindelse til Proxy"
 #: code:addons/point_of_sale/static/src/customer_display/utils.js:0
 msgid "Connecting to the IoT Box"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opretter forbindelse til IoT-boksen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opretter forbindelse til IoT-boksen"
 >>>>>>> upstream/18.0
@@ -4658,7 +5067,11 @@ msgstr "Opretter forbindelse til IoT-boksen"
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
 msgid "Connection Lost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forbindelsen blev afbrudt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Forbindelsen blev afbrudt"
 >>>>>>> upstream/18.0
@@ -4701,6 +5114,11 @@ msgid ""
 "connection."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Forbindelsen til serveren er blevet afbrudt. Kontrollér venligst din "
+"internetforbindelse."
+>>>>>>> upstream/18.0
 =======
 "Forbindelsen til serveren er blevet afbrudt. Kontrollér venligst din "
 "internetforbindelse."
@@ -4717,7 +5135,11 @@ msgstr "Kontakt"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
 msgid "Contact Info"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontaktoplysninger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontaktoplysninger"
 >>>>>>> upstream/18.0
@@ -4733,7 +5155,11 @@ msgstr "Fortsæt med at sælge"
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
 msgid "Continue with limited functionality"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fortsæt med begrænsede funktioner"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fortsæt med begrænsede funktioner"
 >>>>>>> upstream/18.0
@@ -4743,15 +5169,21 @@ msgstr "Fortsæt med begrænsede funktioner"
 #: code:addons/point_of_sale/models/stock_picking.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Conversion Error: The following unit of measure conversions result in a zero"
 " quantity due to rounding:"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Conversion Error: The following unit of measure conversions result in a zero "
 "quantity due to rounding:"
 msgstr ""
 "Konverteringsfejl: Følgende enhedsomregninger er blevet afrundet til nul "
 "mængde:"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -4803,7 +5235,11 @@ msgstr "Landestat"
 #: model:product.template,name:point_of_sale.cozy_sweater_product_template
 msgid "Cozy Sweater"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hyggelig sweater"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hyggelig sweater"
 >>>>>>> upstream/18.0
@@ -4812,7 +5248,11 @@ msgstr "Hyggelig sweater"
 #: model:product.template,description_sale:point_of_sale.cozy_sweater_product_template
 msgid "Cozy sweater, perfect for colder weather. Available in various colors."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hyggelig sweater perfekt til koldt vejr. Fås i flere farver."
+>>>>>>> upstream/18.0
 =======
 msgstr "Hyggelig sweater perfekt til koldt vejr. Fås i flere farver."
 >>>>>>> upstream/18.0
@@ -4828,7 +5268,11 @@ msgstr "Opret"
 #: code:addons/point_of_sale/static/src/app/navbar/navbar.xml:0
 msgid "Create Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opret produkt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opret produkt"
 >>>>>>> upstream/18.0
@@ -4861,7 +5305,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:point_of_sale.product_template_action_pos_product
 msgid "Create new product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opret nyt produkt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opret nyt produkt"
 >>>>>>> upstream/18.0
@@ -4908,7 +5356,11 @@ msgstr "Oprettet den"
 #: model:product.template,name:point_of_sale.product_crocheted_poncho_unisize_product_template
 msgid "Crocheted Poncho Unisize"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hæklet poncho i universalstørrelse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hæklet poncho i universalstørrelse"
 >>>>>>> upstream/18.0
@@ -5128,7 +5580,11 @@ msgstr "Standard prisliste"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__default_qr
 msgid "Default Qr"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Standard-QR"
+>>>>>>> upstream/18.0
 =======
 msgstr "Standard-QR"
 >>>>>>> upstream/18.0
@@ -5172,7 +5628,11 @@ msgstr "Opret en ny kategori"
 #: model_terms:ir.actions.act_window,help:point_of_sale.product_template_action_pos_product
 msgid "Define products and categories for POS retail and restaurant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Angiv produkter og kategorier for POS til detailhandel og restauranter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Angiv produkter og kategorier for POS til detailhandel og restauranter"
 >>>>>>> upstream/18.0
@@ -5210,7 +5670,11 @@ msgstr "Slet"
 #: code:addons/point_of_sale/static/src/app/debug/debug_widget.js:0
 msgid "Delete Orders?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slet ordrer?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slet ordrer?"
 >>>>>>> upstream/18.0
@@ -5247,7 +5711,11 @@ msgstr "Demo navn"
 #: model:product.template,description_sale:point_of_sale.product_rye_bread_product_template
 msgid "Dense and dark, made with rye flour, perfect for sandwiches."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fyldig og mørk med rugmel, perfekt til sandwiches."
+>>>>>>> upstream/18.0
 =======
 msgstr "Fyldig og mørk med rugmel, perfekt til sandwiches."
 >>>>>>> upstream/18.0
@@ -5305,7 +5773,11 @@ msgstr "Opsummering"
 #: code:addons/point_of_sale/static/src/app/store/order_change_receipt_template.xml:0
 msgid "Dine In"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spise på stedet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spise på stedet"
 >>>>>>> upstream/18.0
@@ -5321,7 +5793,11 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
 msgid "Dine in"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spise hjemme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spise hjemme"
 >>>>>>> upstream/18.0
@@ -5408,7 +5884,11 @@ msgstr "Vis navn"
 msgid ""
 "Display and update your products information through electronic price tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis og opdatér dine produktoplysninger med elektroniske prismærker"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vis og opdatér dine produktoplysninger med elektroniske prismærker"
 >>>>>>> upstream/18.0
@@ -5427,6 +5907,11 @@ msgid ""
 "generated closing entry."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vis en opdeling af salgslinjer pr. produkt i den automatisk genererede "
+"slutpost."
+>>>>>>> upstream/18.0
 =======
 "Vis en opdeling af salgslinjer pr. produkt i den automatisk genererede "
 "slutpost."
@@ -5436,7 +5921,11 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__module_pos_pricer
 msgid "Display the price of your products through electronic price tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis prisen på dine produkter med elektroniske prismærker"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vis prisen på dine produkter med elektroniske prismærker"
 >>>>>>> upstream/18.0
@@ -5471,20 +5960,31 @@ msgstr "Download en rapport med alt salg for den nuværende PoS session"
 msgid ""
 "Each Order Printer has an IP Address that defines the IoT Box/Hardware\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Proxy where the printer can be found, and a list of product categories.\n"
 "            An Order Printer will only print updates for products belonging to one of\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            Proxy where the printer can be found, and a list of product "
 "categories.\n"
 "            An Order Printer will only print updates for products belonging "
 "to one of\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            its categories."
 msgstr ""
 "Hver bestillings printer har en IP adresse som definerer IoT Boks/Hardware\n"
 "Proxy hvor printeren kan findes, og en liste af produkt kategorier\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "En bestillings printer vil kun printe opdateringer for produkter der tilhører en af\n"
+=======
+"En bestillings printer vil kun printe opdateringer for produkter der "
+"tilhører en af\n"
+>>>>>>> upstream/18.0
 =======
 "En bestillings printer vil kun printe opdateringer for produkter der "
 "tilhører en af\n"
@@ -5503,7 +6003,11 @@ msgstr "Rediger"
 #: code:addons/point_of_sale/static/src/app/screens/partner_list/partner_line/partner_line.xml:0
 msgid "Edit Details"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redigér oplysninger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redigér oplysninger"
 >>>>>>> upstream/18.0
@@ -5512,7 +6016,11 @@ msgstr "Redigér oplysninger"
 #: model:ir.actions.act_window,name:point_of_sale.res_partner_action_edit_pos
 msgid "Edit Partner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redigér partner"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redigér partner"
 >>>>>>> upstream/18.0
@@ -5522,7 +6030,11 @@ msgstr "Redigér partner"
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "Edit Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redigér betaling"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redigér betaling"
 >>>>>>> upstream/18.0
@@ -5531,7 +6043,11 @@ msgstr "Redigér betaling"
 #: model:ir.actions.act_window,name:point_of_sale.product_product_action_edit_pos
 msgid "Edit Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redigér produkt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redigér produkt"
 >>>>>>> upstream/18.0
@@ -5547,7 +6063,11 @@ msgstr "Redigeret"
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid "Edited order(s) during the session:%s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redigeret ordre/redigerede ordrer i sessionen:%s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redigeret ordre/redigerede ordrer i sessionen:%s"
 >>>>>>> upstream/18.0
@@ -5586,7 +6106,11 @@ msgstr "Medarbejder"
 #: model:ir.model.fields,help:point_of_sale.field_pos_order__user_id
 msgid "Employee who uses the cash register."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Medarbejder, som bruger kassen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Medarbejder, som bruger kassen."
 >>>>>>> upstream/18.0
@@ -5638,15 +6162,21 @@ msgstr "Afslutningsbalance"
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ensure that there is an existing bank journal. Check if chart of accounts is"
 " installed in your company."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Ensure that there is an existing bank journal. Check if chart of accounts is "
 "installed in your company."
 msgstr ""
 "Sørg for, at der findes en bankjournal. Kontrollér også, at din virksomhed "
 "har en installeret kontoplan."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -5713,7 +6243,11 @@ msgstr "Fejlede Pluk"
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 msgid "Failed in printing %s changes of the order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udskrivningen %s af ordreændringerne mislykkedes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udskrivningen %s af ordreændringerne mislykkedes"
 >>>>>>> upstream/18.0
@@ -5723,7 +6257,11 @@ msgstr "Udskrivningen %s af ordreændringerne mislykkedes"
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 msgid "Failure to generate Payment QR Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generering af QR-kode til betaling mislykkedes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generering af QR-kode til betaling mislykkedes"
 >>>>>>> upstream/18.0
@@ -5762,6 +6300,7 @@ msgstr "Bogføringsgrupper"
 #: model:product.template,description_sale:point_of_sale.product_butter_croissant_product_template
 msgid "Flaky all butter pastry, layered for a light and golden croissant."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: point_of_sale
@@ -5770,6 +6309,8 @@ msgid ""
 "Flaky croissant filled with creamy cheese, a savory twist on a classic."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Smørbaseret butterdej i lag, der giver en let og gylden croissant."
 
 #. module: point_of_sale
@@ -5778,6 +6319,9 @@ msgid "Flaky croissant filled with creamy cheese, a savory twist on a classic."
 msgstr ""
 "Butterdejscroissant fyldt med cremet ost, en velsmagende twist på en "
 "klassiker."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -5795,7 +6339,11 @@ msgstr "Fleksible skatter"
 #: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.js:0
 msgid "Floor plan, tips, self order, etc."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plantegning, drikkepenge, selvbestilling osv."
+>>>>>>> upstream/18.0
 =======
 msgstr "Plantegning, drikkepenge, selvbestilling osv."
 >>>>>>> upstream/18.0
@@ -5822,7 +6370,11 @@ msgstr "Skrifttype awesome icon f.eks. fa-opgaver"
 #: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.js:0
 msgid "Food, but over the counter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mad over disken"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mad over disken"
 >>>>>>> upstream/18.0
@@ -5906,7 +6458,11 @@ msgstr "Møbler"
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid "Furniture Shop"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Møbelforretning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Møbelforretning"
 >>>>>>> upstream/18.0
@@ -5919,7 +6475,11 @@ msgstr "Møbelforretning"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__general_note
 msgid "General Note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generel note"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generel note"
 >>>>>>> upstream/18.0
@@ -5989,7 +6549,11 @@ msgstr "Grøn"
 #: model:product.template,name:point_of_sale.product_green_hood_product_template
 msgid "Green Hood"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grøn elefanthue"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grøn elefanthue"
 >>>>>>> upstream/18.0
@@ -6000,7 +6564,11 @@ msgstr "Grøn elefanthue"
 #: code:addons/point_of_sale/static/src/customer_display/customer_display.xml:0
 msgid "Gross Weight:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bruttovægt:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bruttovægt:"
 >>>>>>> upstream/18.0
@@ -6063,7 +6631,11 @@ msgstr "Har kassekontrol"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__has_deleted_line
 msgid "Has Deleted Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Har slettet linje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Har slettet linje"
 >>>>>>> upstream/18.0
@@ -6093,7 +6665,11 @@ msgstr "Overskrift"
 #: model:product.template,description_sale:point_of_sale.product_multigrain_bread_product_template
 msgid "Hearty multigrain loaf with seeds and grains for extra nutrition."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Groft flerkornsbrød med frø og kerner for ekstra næring og smag."
+>>>>>>> upstream/18.0
 =======
 msgstr "Groft flerkornsbrød med frø og kerner for ekstra næring og smag."
 >>>>>>> upstream/18.0
@@ -6102,7 +6678,11 @@ msgstr "Groft flerkornsbrød med frø og kerner for ekstra næring og smag."
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__hide_qr_code_method
 msgid "Hide Qr Code Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skjul QR-kode-metode"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skjul QR-kode-metode"
 >>>>>>> upstream/18.0
@@ -6116,7 +6696,11 @@ msgstr "Skjul Brug betalingsterminal"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Hide pictures in POS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skjul billeder i POS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skjul billeder i POS"
 >>>>>>> upstream/18.0
@@ -6127,6 +6711,11 @@ msgid ""
 "High fibre loaf. Baked with fine wholemeal flour to give a soft texture."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Brød med højt fiberindhold. Bagt med fint fuldkornsmel for at give en blød "
+"konsistens."
+>>>>>>> upstream/18.0
 =======
 "Brød med højt fiberindhold. Bagt med fint fuldkornsmel for at give en blød "
 "konsistens."
@@ -6136,7 +6725,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "How to manage tax-included prices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sådan håndterer du priser inklusive moms"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sådan håndterer du priser inklusive moms"
 >>>>>>> upstream/18.0
@@ -6255,7 +6848,11 @@ msgstr "For at slette et salg, skal det være nyt eller annulleret."
 #: model:ir.model.fields.selection,name:point_of_sale.selection__res_company__point_of_sale_update_stock_quantities__real
 msgid "In real time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "I realtid"
+>>>>>>> upstream/18.0
 =======
 msgstr "I realtid"
 >>>>>>> upstream/18.0
@@ -6270,7 +6867,11 @@ msgstr "Fejl i leveringsadresse"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.product_template_form_view
 msgid "Information about your product."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oplysninger om dit produkt."
+>>>>>>> upstream/18.0
 =======
 msgstr "Oplysninger om dit produkt."
 >>>>>>> upstream/18.0
@@ -6295,7 +6896,12 @@ msgid ""
 msgstr ""
 "Installering af kontoplanen fra Generelle Indstillinger for \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              Fakturering/Bogføring applikationen, vil oprette Bank og Kontant betalingsmetoder autoamtisk."
+=======
+"              Fakturering/Bogføring applikationen, vil oprette Bank og "
+"Kontant betalingsmetoder autoamtisk."
+>>>>>>> upstream/18.0
 =======
 "              Fakturering/Bogføring applikationen, vil oprette Bank og "
 "Kontant betalingsmetoder autoamtisk."
@@ -6305,7 +6911,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_form
 msgid "Integrate with"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Integrér med"
+>>>>>>> upstream/18.0
 =======
 msgstr "Integrér med"
 >>>>>>> upstream/18.0
@@ -6314,7 +6924,11 @@ msgstr "Integrér med"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__payment_method_type
 msgid "Integration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Integration"
+>>>>>>> upstream/18.0
 =======
 msgstr "Integration"
 >>>>>>> upstream/18.0
@@ -6435,7 +7049,11 @@ msgstr "IoT boks IP adresser"
 #: code:addons/point_of_sale/static/src/customer_display/customer_display_data_service.js:0
 msgid "IoT Customer Display Error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "IoT-kundevisningsfejl"
+>>>>>>> upstream/18.0
 =======
 msgstr "IoT-kundevisningsfejl"
 >>>>>>> upstream/18.0
@@ -6517,7 +7135,11 @@ msgid ""
 "It seems like you don't have enough rights to create point of sale "
 "configurations."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Det ser ud til, at du ikke må oprette POS-konfigurationer."
+>>>>>>> upstream/18.0
 =======
 msgstr "Det ser ud til, at du ikke må oprette POS-konfigurationer."
 >>>>>>> upstream/18.0
@@ -6526,7 +7148,11 @@ msgstr "Det ser ud til, at du ikke må oprette POS-konfigurationer."
 #: model:product.template,name:point_of_sale.jean_jacket_product_template
 msgid "Jean Jacket"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cowboyjakke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cowboyjakke"
 >>>>>>> upstream/18.0
@@ -6662,7 +7288,11 @@ msgstr "Sidste udskrevne tilstand af ordren"
 #: code:addons/point_of_sale/static/src/app/components/tour_selector_popup/tour_selector_popup.xml:0
 msgid "Launch fake tours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Start falske ture"
+>>>>>>> upstream/18.0
 =======
 msgstr "Start falske ture"
 >>>>>>> upstream/18.0
@@ -6671,7 +7301,11 @@ msgstr "Start falske ture"
 #: model:product.template,name:point_of_sale.leather_jacket_product_template
 msgid "Leather Jacket"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Læderjakke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Læderjakke"
 >>>>>>> upstream/18.0
@@ -6687,8 +7321,12 @@ msgstr "Efterlad en grund her"
 msgid "Leave empty to use the default account from the company setting"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Lad være tomt for at anvende standard kontoen fra virksomhedens "
 "indstillinger"
+=======
+"Lad være tomt for at anvende standard kontoen fra virksomhedens indstillinger"
+>>>>>>> upstream/18.0
 =======
 "Lad være tomt for at anvende standard kontoen fra virksomhedens indstillinger"
 >>>>>>> upstream/18.0
@@ -6698,17 +7336,23 @@ msgstr ""
 msgid ""
 "Leave empty to use the default account from the company setting.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Overrides the company's receivable account (for Point of Sale) used in the journal entries."
 msgstr ""
 "Lad være tom for at bruge standardkontoen fra virksomhedsindstillingen.\n"
 "Tilsidesætter virksomhedens tilgodehavendekonto (for salgssted), der bruges i kladdeposterne."
 =======
+=======
+>>>>>>> upstream/18.0
 "Overrides the company's receivable account (for Point of Sale) used in the "
 "journal entries."
 msgstr ""
 "Lad være tom for at bruge standardkontoen fra virksomhedsindstillingen.\n"
 "Tilsidesætter virksomhedens tilgodehavendekonto (for salgssted), der bruges "
 "i kladdeposterne."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -6721,6 +7365,7 @@ msgstr "Lad være tom for at anvende kundens debitorkonto"
 msgid ""
 "Leave empty to use the receivable account of customer.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines the journal where to book the accumulated payments (or individual payment if Identify Customer is true) after closing the session.\n"
 "For cash journal, we directly write to the default account in the journal via statement lines.\n"
 "For bank journal, we write to the outstanding account specified in this payment method.\n"
@@ -6731,6 +7376,8 @@ msgstr ""
 "For kassekladde skriver vi direkte til standardkontoen i kladden via opgørelseslinjer.\n"
 "For bankkladde skriver vi til den udestående konto, der er angivet i denne betalingsmetode.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Defines the journal where to book the accumulated payments (or individual "
 "payment if Identify Customer is true) after closing the session.\n"
 "For cash journal, we directly write to the default account in the journal "
@@ -6747,6 +7394,9 @@ msgstr ""
 "opgørelseslinjer.\n"
 "For bankkladde skriver vi til den udestående konto, der er angivet i denne "
 "betalingsmetode.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Kun kontanter og bankjournaler er tilladt."
 
@@ -6759,7 +7409,11 @@ msgstr "Brevbakke"
 #: model:product.template,name:point_of_sale.blue_denim_jeans_slim_template
 msgid "Light Blue Jeans Slim"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lyseblå jeans i slank pasform"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lyseblå jeans i slank pasform"
 >>>>>>> upstream/18.0
@@ -6771,6 +7425,10 @@ msgid ""
 "down the front."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Let bomberjakke i hør med opretstående krave med ribkant og lynlås foran."
+>>>>>>> upstream/18.0
 =======
 "Let bomberjakke i hør med opretstående krave med ribkant og lynlås foran."
 >>>>>>> upstream/18.0
@@ -6802,7 +7460,11 @@ msgstr "Indlæs produktmenu"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Log in with Employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Log ind med Medarbejdere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Log ind med Medarbejdere"
 >>>>>>> upstream/18.0
@@ -6842,7 +7504,11 @@ msgstr "Lot/serie nummer"
 #: model:pos.category,name:point_of_sale.pos_category_lower
 msgid "Lower body"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Underdel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Underdel"
 >>>>>>> upstream/18.0
@@ -6861,8 +7527,13 @@ msgstr "Opret betaling"
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__available_pricelist_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Make several pricelists available in the Point of Sale. You can also apply a"
 " pricelist to specific customers from their contact form (in Sales tab). To "
+=======
+"Make several pricelists available in the Point of Sale. You can also apply a "
+"pricelist to specific customers from their contact form (in Sales tab). To "
+>>>>>>> upstream/18.0
 =======
 "Make several pricelists available in the Point of Sale. You can also apply a "
 "pricelist to specific customers from their contact form (in Sales tab). To "
@@ -6883,6 +7554,11 @@ msgid ""
 "database, then restart the IoT Box."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sørg for, at din Odoo-database har et aktivt IoT-boks-abonnement, og "
+"genstart derefter din IoT-boks."
+>>>>>>> upstream/18.0
 =======
 "Sørg for, at din Odoo-database har et aktivt IoT-boks-abonnement, og "
 "genstart derefter din IoT-boks."
@@ -6954,7 +7630,11 @@ msgstr "Maksimal værdi nået"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Mercado Pago"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mercado Pago"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mercado Pago"
 >>>>>>> upstream/18.0
@@ -6963,7 +7643,11 @@ msgstr "Mercado Pago"
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__module_pos_mercado_pago
 msgid "Mercado Pago Payment Terminal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mercado Pago-betalingsterminal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mercado Pago-betalingsterminal"
 >>>>>>> upstream/18.0
@@ -7021,7 +7705,11 @@ msgstr "Modul POS HR"
 #: model:product.template,description_sale:point_of_sale.product_blueberry_muffin_product_template
 msgid "Moist and fluffy muffins bursting with blueberries."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Saftige og luftige muffins spækket med blåbær."
+>>>>>>> upstream/18.0
 =======
 msgstr "Saftige og luftige muffins spækket med blåbær."
 >>>>>>> upstream/18.0
@@ -7036,7 +7724,11 @@ msgstr "Flere indstillinger:"
 #: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.js:0
 msgid "Multi colors and sizes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Flere farver og størrelser"
+>>>>>>> upstream/18.0
 =======
 msgstr "Flere farver og størrelser"
 >>>>>>> upstream/18.0
@@ -7045,7 +7737,11 @@ msgstr "Flere farver og størrelser"
 #: model:product.template,name:point_of_sale.product_multigrain_bread_product_template
 msgid "Multigrain Bread"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Flerkornsbrød"
+>>>>>>> upstream/18.0
 =======
 msgstr "Flerkornsbrød"
 >>>>>>> upstream/18.0
@@ -7117,7 +7813,11 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/customer_display/customer_display.xml:0
 msgid "Net Weight:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nettovægt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nettovægt"
 >>>>>>> upstream/18.0
@@ -7195,7 +7895,11 @@ msgstr "Nej"
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid "No PoS configuration found"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ingen POS-konfiguration fundet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ingen POS-konfiguration fundet"
 >>>>>>> upstream/18.0
@@ -7235,8 +7939,13 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No chart of account configured, go to the \"configuration / settings\" menu,"
 " and install one from the Invoicing tab."
+=======
+"No chart of account configured, go to the \"configuration / settings\" menu, "
+"and install one from the Invoicing tab."
+>>>>>>> upstream/18.0
 =======
 "No chart of account configured, go to the \"configuration / settings\" menu, "
 "and install one from the Invoicing tab."
@@ -7257,7 +7966,11 @@ msgstr "Ingen data endnu!"
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 msgid "No existing serial/lot number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ingen eksisterende serie- og partinummer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ingen eksisterende serie- og partinummer"
 >>>>>>> upstream/18.0
@@ -7287,6 +8000,11 @@ msgid ""
 "No open session available. Please open a new session to capture the order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ingen åben session er tilgængelig. Åbn venligst en ny session for at "
+"registrere ordren."
+>>>>>>> upstream/18.0
 =======
 "Ingen åben session er tilgængelig. Åbn venligst en ny session for at "
 "registrere ordren."
@@ -7303,7 +8021,11 @@ msgstr "Ingen ordre fundet"
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/product_screen.js:0
 msgid "No other products found for \"%s\"."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ingen produkter fundet for \"%s\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ingen produkter fundet for \"%s\"."
 >>>>>>> upstream/18.0
@@ -7356,7 +8078,11 @@ msgstr "Ikke faktureret"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_note_tree
 msgid "Note Models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Notatmodeller"
+>>>>>>> upstream/18.0
 =======
 msgstr "Notatmodeller"
 >>>>>>> upstream/18.0
@@ -7414,7 +8140,11 @@ msgstr "Antal beskeder med leveringsfejl"
 #: model:ir.model.fields,help:point_of_sale.field_pos_order__refund_orders_count
 msgid "Number of orders where items from this order were refunded"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal ordrer, hvor varer fra denne ordre er blevet refunderet."
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal ordrer, hvor varer fra denne ordre er blevet refunderet."
 >>>>>>> upstream/18.0
@@ -7434,7 +8164,11 @@ msgstr "Odoo server fejl"
 #: model:product.template,name:point_of_sale.product_odoo_sneakers_product_template
 msgid "Odoo Sneakers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoo-sneakers"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odoo-sneakers"
 >>>>>>> upstream/18.0
@@ -7609,7 +8343,11 @@ msgid "Open Register"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Åben Kasse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Åben Kasse"
 >>>>>>> upstream/18.0
@@ -7876,7 +8614,11 @@ msgstr "Åbner"
 #: code:addons/point_of_sale/static/src/app/store/opening_control_popup/opening_control_popup.xml:0
 msgid "Opening Balance Eg: 123"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Åbner saldo, f.eks.: 123"
+>>>>>>> upstream/18.0
 =======
 msgstr "Åbner saldo, f.eks.: 123"
 >>>>>>> upstream/18.0
@@ -7916,7 +8658,11 @@ msgstr "Åbningskontanter"
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid "Opening control message: "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kasseeftersyn ved åbning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kasseeftersyn ved åbning"
 >>>>>>> upstream/18.0
@@ -7994,7 +8740,11 @@ msgstr "Ordrelinjer"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__floating_order_name
 msgid "Order Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ordrenavn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ordrenavn"
 >>>>>>> upstream/18.0
@@ -8008,13 +8758,19 @@ msgstr "Ordrenummer"
 
 #. module: point_of_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 msgid "Order Outdated"
 msgstr ""
 
 #. module: point_of_sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__is_order_printer
 msgid "Order Printer"
@@ -8031,7 +8787,12 @@ msgstr "Ordrer udskrivninger"
 msgid ""
 "Order Printers are used by restaurants and bars to print the\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            order updates in the kitchen/bar when the waiter updates the order."
+=======
+"            order updates in the kitchen/bar when the waiter updates the "
+"order."
+>>>>>>> upstream/18.0
 =======
 "            order updates in the kitchen/bar when the waiter updates the "
 "order."
@@ -8068,7 +8829,11 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_pos_order__refunded_order_id
 msgid "Order from which items were refunded in this order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ordre, som indeholder varer fra denne ordre, der er blevet refunderet."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ordre, som indeholder varer fra denne ordre, der er blevet refunderet."
 >>>>>>> upstream/18.0
@@ -8095,8 +8860,12 @@ msgstr "Ordre gemt til senere"
 msgid "Orderlines in this field are the lines that refunded this orderline."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ordrelinjer i dette fejl er de ordrelinjer, der refunderede denne "
 "ordrelinje."
+=======
+"Ordrelinjer i dette fejl er de ordrelinjer, der refunderede denne ordrelinje."
+>>>>>>> upstream/18.0
 =======
 "Ordrelinjer i dette fejl er de ordrelinjer, der refunderede denne ordrelinje."
 >>>>>>> upstream/18.0
@@ -8130,7 +8899,11 @@ msgstr "Analyse af ordrer"
 #: model:ir.model.fields.selection,name:point_of_sale.selection__pos_order_line__price_type__original
 msgid "Original"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oprindelig"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oprindelig"
 >>>>>>> upstream/18.0
@@ -8140,7 +8913,11 @@ msgstr "Oprindelig"
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
 msgid "Original Tax"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oprindelige moms"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oprindelige moms"
 >>>>>>> upstream/18.0
@@ -8172,7 +8949,11 @@ msgstr "Udestående Konto"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.product_product_view_form_normalized_pos
 msgid "POS Category"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POS-kategori"
+>>>>>>> upstream/18.0
 =======
 msgstr "POS-kategori"
 >>>>>>> upstream/18.0
@@ -8240,7 +9021,11 @@ msgstr "POS session"
 #: model:ir.model.fields,field_description:point_of_sale.field_account_move__pos_session_ids
 msgid "POS Sessions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POS-sessioner"
+>>>>>>> upstream/18.0
 =======
 msgstr "POS-sessioner"
 >>>>>>> upstream/18.0
@@ -8264,7 +9049,11 @@ msgstr "Betalt"
 #: model:product.template,name:point_of_sale.product_pain_au_chocolat_product_template
 msgid "Pain au Chocolat"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chokoladecroissant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chokoladecroissant"
 >>>>>>> upstream/18.0
@@ -8278,7 +9067,11 @@ msgstr "Moder-kategori"
 #: model:pos.category,name:point_of_sale.pos_category_pastries
 msgid "Pastries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wienerbrød"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wienerbrød"
 >>>>>>> upstream/18.0
@@ -8320,7 +9113,11 @@ msgstr "Betaling"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__payment_method_authcode
 msgid "Payment APPR Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betalingens APPR-kode"
+>>>>>>> upstream/18.0
 =======
 msgstr "Betalingens APPR-kode"
 >>>>>>> upstream/18.0
@@ -8334,7 +9131,11 @@ msgstr "Betalingsdato"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__payment_method_issuer_bank
 msgid "Payment Issuer Bank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udstedende bank"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udstedende bank"
 >>>>>>> upstream/18.0
@@ -8365,7 +9166,11 @@ msgstr "Betalingsmetoder"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__payment_method_payment_mode
 msgid "Payment Mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betalingsform"
+>>>>>>> upstream/18.0
 =======
 msgstr "Betalingsform"
 >>>>>>> upstream/18.0
@@ -8412,7 +9217,11 @@ msgstr "Betaling Transaktion ID"
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid "Payment changes:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betalingsændringer:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Betalingsændringer:"
 >>>>>>> upstream/18.0
@@ -8426,7 +9235,11 @@ msgstr "Betalingsmetoder tilgængelige"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__payment_ref_no
 msgid "Payment reference number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betalingsreferencenummer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Betalingsreferencenummer"
 >>>>>>> upstream/18.0
@@ -8435,7 +9248,11 @@ msgstr "Betalingsreferencenummer"
 #: model:ir.model.fields,help:point_of_sale.field_pos_payment__payment_ref_no
 msgid "Payment reference number from payment provider terminal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betalingsreferencenummer fra betalingsudbyderterminal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Betalingsreferencenummer fra betalingsudbyderterminal"
 >>>>>>> upstream/18.0
@@ -8495,7 +9312,11 @@ msgstr "Betalinger:"
 #: model:product.template,name:point_of_sale.product_pecan_pie_product_template
 msgid "Pecan Pie"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pecantærte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pecantærte"
 >>>>>>> upstream/18.0
@@ -8504,7 +9325,11 @@ msgstr "Pecantærte"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Pick which product PoS categories are available"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg de produktkategorier, der skal være tilgængelige i kassesystemet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vælg de produktkategorier, der skal være tilgængelige i kassesystemet"
 >>>>>>> upstream/18.0
@@ -8559,11 +9384,14 @@ msgstr "Tjek venligst om IoT boksen stadig er forbundet."
 msgid ""
 "Please check if the printer is still connected. \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
 msgstr ""
 "Kontroller, om printeren stadig er tilsluttet.\n"
 "Nogle browsere tillader ikke HTTP-kald fra hjemmeside til enheder på netværket (af sikkerhedsmæssige årsager). Hvis det er tilfældet, skal du følge Odoos dokumentation for 'Selvsigneret certifikat til ePOS-printere' og 'Sikker forbindelse (HTTPS)' for at løse problemet."
 =======
+=======
+>>>>>>> upstream/18.0
 "Some browsers don't allow HTTP calls from websites to devices in the network "
 "(for security reasons). If it is the case, you will need to follow Odoo's "
 "documentation for 'Self-signed certificate for ePOS printers' and 'Secure "
@@ -8574,6 +9402,9 @@ msgstr ""
 "netværket (af sikkerhedsmæssige årsager). Hvis det er tilfældet, skal du "
 "følge Odoos dokumentation for 'Selvsigneret certifikat til ePOS-printere' og "
 "'Sikker forbindelse (HTTPS)' for at løse problemet."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -8584,7 +9415,12 @@ msgid ""
 "it. Open sessions are: %s "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Luk venligst alle point of sale sessioner for denne periode før du lukker den.\n"
+=======
+"Luk venligst alle point of sale sessioner for denne periode før du lukker "
+"den.\n"
+>>>>>>> upstream/18.0
 =======
 "Luk venligst alle point of sale sessioner for denne periode før du lukker "
 "den.\n"
@@ -8596,17 +9432,23 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_payment_method.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please close and validate the following open PoS Sessions before modifying this payment method.\n"
 "Open sessions: %s"
 msgstr ""
 "Luk og valider venligst følgende åbne PoS-sessioner, før du ændrer denne betalingsmetode.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Please close and validate the following open PoS Sessions before modifying "
 "this payment method.\n"
 "Open sessions: %s"
 msgstr ""
 "Luk og valider venligst følgende åbne PoS-sessioner, før du ændrer denne "
 "betalingsmetode.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Åbne sessioner: %s"
 
@@ -8614,8 +9456,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please create/select a Point of Sale above to show the configuration "
 "options."
+=======
+"Please create/select a Point of Sale above to show the configuration options."
+>>>>>>> upstream/18.0
 =======
 "Please create/select a Point of Sale above to show the configuration options."
 >>>>>>> upstream/18.0
@@ -8652,8 +9498,13 @@ msgid ""
 "used to record cash difference."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Gå venligst til %s journalen og definer en Tabs Konto. Denne konto vil blive"
 " brugt til at registrere kontant differencer."
+=======
+"Gå venligst til %s journalen og definer en Tabs Konto. Denne konto vil blive "
+"brugt til at registrere kontant differencer."
+>>>>>>> upstream/18.0
 =======
 "Gå venligst til %s journalen og definer en Tabs Konto. Denne konto vil blive "
 "brugt til at registrere kontant differencer."
@@ -8691,6 +9542,7 @@ msgstr "Sæt en partner til rådighed for salget."
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
 msgid "Please register the voucher number"
@@ -8966,10 +9818,15 @@ msgstr ""
 msgid "Please scan the QR code with %s"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
 msgid "Please scan the QR code with %s"
 msgstr "Scan venligst QR-koden med %s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -8977,7 +9834,11 @@ msgstr "Scan venligst QR-koden med %s"
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_status/payment_status.xml:0
 msgid "Please select a payment method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg venligst en betalingsform"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vælg venligst en betalingsform"
 >>>>>>> upstream/18.0
@@ -8993,7 +9854,11 @@ msgstr "Vælg venligst kunden"
 #: code:addons/point_of_sale/static/src/app/navbar/navbar.js:0
 msgid "PoS Customer Display opened in a new window"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POS-kundevisning åbnet i et nyt vindue"
+>>>>>>> upstream/18.0
 =======
 msgstr "POS-kundevisning åbnet i et nyt vindue"
 >>>>>>> upstream/18.0
@@ -9012,7 +9877,11 @@ msgstr ""
 #: model:ir.model,name:point_of_sale.model_pos_note
 msgid "PoS Note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POS-note"
+>>>>>>> upstream/18.0
 =======
 msgstr "POS-note"
 >>>>>>> upstream/18.0
@@ -9046,7 +9915,11 @@ msgstr "PoS produkt kategori"
 #: model:ir.model,name:point_of_sale.model_pos_load_mixin
 msgid "PoS data loading mixin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POS-dataindlæsningsmixin"
+>>>>>>> upstream/18.0
 =======
 msgstr "POS-dataindlæsningsmixin"
 >>>>>>> upstream/18.0
@@ -9217,6 +10090,10 @@ msgid ""
 "Poncho in a soft, crochet-look knit with a round, gently draped neckline."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Poncho i et blødt, hæklet look strikket med en rundt, let dyb udskæring."
+>>>>>>> upstream/18.0
 =======
 "Poncho i et blødt, hæklet look strikket med en rundt, let dyb udskæring."
 >>>>>>> upstream/18.0
@@ -9350,7 +10227,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Preparation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klargøring"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klargøring"
 >>>>>>> upstream/18.0
@@ -9391,7 +10272,11 @@ msgstr "Priskontrol"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__price_type
 msgid "Price Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pristype"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pristype"
 >>>>>>> upstream/18.0
@@ -9401,7 +10286,11 @@ msgstr "Pristype"
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid "Price discount from %(original_price)s to %(discounted_price)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prisnedslag fra %(original_price)s til %(discounted_price)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prisnedslag fra %(original_price)s til %(discounted_price)s"
 >>>>>>> upstream/18.0
@@ -9457,7 +10346,11 @@ msgstr "Pricer"
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__module_pos_pricer
 msgid "Pricer electronic price tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elektroniske prisskilte fra Pricer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elektroniske prisskilte fra Pricer"
 >>>>>>> upstream/18.0
@@ -9466,7 +10359,11 @@ msgstr "Elektroniske prisskilte fra Pricer"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Pricer tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pricer-prisskilte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pricer-prisskilte"
 >>>>>>> upstream/18.0
@@ -9492,7 +10389,11 @@ msgstr "Udskriv"
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "Print Basic Receipt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udskriv basiskvittering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udskriv basiskvittering"
 >>>>>>> upstream/18.0
@@ -9502,7 +10403,11 @@ msgstr "Udskriv basiskvittering"
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "Print Full Receipt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udskriv hele kvittering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udskriv hele kvittering"
 >>>>>>> upstream/18.0
@@ -9532,7 +10437,11 @@ msgstr "Print en rapport med alle salg for den nuværende PoS session"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Print basic ticket without prices. Can be used for gifts."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udskriv basiskvittering uden priser. Kan anvendes til gaver."
+>>>>>>> upstream/18.0
 =======
 msgstr "Udskriv basiskvittering uden priser. Kan anvendes til gaver."
 >>>>>>> upstream/18.0
@@ -9546,6 +10455,11 @@ msgid ""
 "invoice anytime, from Odoo's portal."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Udskriv oplysninger på kvitteringen, så kunden altid nemt har adgang til den "
+"via Odoos portal."
+>>>>>>> upstream/18.0
 =======
 "Udskriv oplysninger på kvitteringen, så kunden altid nemt har adgang til den "
 "via Odoos portal."
@@ -9616,7 +10530,11 @@ msgstr "Udprintning understøttes ikke af visse browsere"
 #: code:addons/point_of_sale/static/src/app/navbar/closing_popup/closing_popup.js:0
 msgid "Proceed Anyway"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fortsæt alligevel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fortsæt alligevel"
 >>>>>>> upstream/18.0
@@ -9641,7 +10559,11 @@ msgstr "Produkt"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Product & PoS categories"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produkt- og POS-kategorier"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produkt- og POS-kategorier"
 >>>>>>> upstream/18.0
@@ -9667,7 +10589,11 @@ msgstr "Produktkategori"
 #: model:ir.model,name:point_of_sale.model_product_combo
 msgid "Product Combo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktkombination"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produktkombination"
 >>>>>>> upstream/18.0
@@ -9676,7 +10602,11 @@ msgstr "Produktkombination"
 #: model:ir.model,name:point_of_sale.model_product_combo_item
 msgid "Product Combo Item"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktkombinationsvare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produktkombinationsvare"
 >>>>>>> upstream/18.0
@@ -9708,7 +10638,11 @@ msgid "Product Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktbeskrivelse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produktbeskrivelse"
 >>>>>>> upstream/18.0
@@ -9789,7 +10723,11 @@ msgstr "Produktinformation"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__note
 msgid "Product Note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktnote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produktnote"
 >>>>>>> upstream/18.0
@@ -10001,6 +10939,10 @@ msgstr "Lilla"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -10209,7 +11151,11 @@ msgstr "QR Kode"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__qr_code_method
 msgid "QR Code Format"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR-kodeformat"
+>>>>>>> upstream/18.0
 =======
 msgstr "QR-kodeformat"
 >>>>>>> upstream/18.0
@@ -10219,7 +11165,11 @@ msgstr "QR-kodeformat"
 #: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
 msgid "QR Code Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR-kodebetaling"
+>>>>>>> upstream/18.0
 =======
 msgstr "QR-kodebetaling"
 >>>>>>> upstream/18.0
@@ -10228,7 +11178,11 @@ msgstr "QR-kodebetaling"
 #: model:ir.model.fields.selection,name:point_of_sale.selection__res_company__point_of_sale_ticket_portal_url_display_mode__qr_code
 msgid "QR code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR-kode"
+>>>>>>> upstream/18.0
 =======
 msgstr "QR-kode"
 >>>>>>> upstream/18.0
@@ -10237,7 +11191,11 @@ msgstr "QR-kode"
 #: model:ir.model.fields.selection,name:point_of_sale.selection__res_company__point_of_sale_ticket_portal_url_display_mode__qr_code_and_url
 msgid "QR code + URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR-kode + URL"
+>>>>>>> upstream/18.0
 =======
 msgstr "QR-kode + URL"
 >>>>>>> upstream/18.0
@@ -10281,7 +11239,11 @@ msgstr "Bedømmelser"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Razorpay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay"
 >>>>>>> upstream/18.0
@@ -10290,7 +11252,11 @@ msgstr "Razorpay"
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__module_pos_razorpay
 msgid "Razorpay Payment Terminal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay-betalingsterminal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay-betalingsterminal"
 >>>>>>> upstream/18.0
@@ -10449,7 +11415,11 @@ msgstr "Krediteringer"
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid "Related Session: %(link)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilknyttet session: %(link)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilknyttet session: %(link)s"
 >>>>>>> upstream/18.0
@@ -10476,7 +11446,11 @@ msgstr "Fjern"
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid "Removed %(payment_method)s with %(amount)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fjernet %(payment_method)s med %(amount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fjernet %(payment_method)s med %(amount)s"
 >>>>>>> upstream/18.0
@@ -10502,7 +11476,11 @@ msgstr "Genudskriv faktura"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.ticket_request_with_code
 msgid "Request Invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anmod om faktura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anmod om faktura"
 >>>>>>> upstream/18.0
@@ -10518,7 +11496,11 @@ msgstr "Anmodning afsendt"
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid "Rescue Sessions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redningssessioner"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redningssessioner"
 >>>>>>> upstream/18.0
@@ -10580,8 +11562,13 @@ msgstr "Returneret"
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reversal of POS closing entry %(entry)s for order %(order)s from session "
 "%(session)s"
+=======
+"Reversal of POS closing entry %(entry)s for order %(order)s from session %"
+"(session)s"
+>>>>>>> upstream/18.0
 =======
 "Reversal of POS closing entry %(entry)s for order %(order)s from session %"
 "(session)s"
@@ -10619,7 +11606,11 @@ msgstr "Tilbagebetal betaling"
 #: model:ir.model.fields,field_description:point_of_sale.field_account_move__reversed_pos_order_id
 msgid "Reversed POS Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilbageført POS-ordre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilbageført POS-ordre"
 >>>>>>> upstream/18.0
@@ -10635,7 +11626,11 @@ msgstr "Gennemse"
 #: code:addons/point_of_sale/static/src/app/navbar/closing_popup/closing_popup.js:0
 msgid "Review Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gennemse ordrer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gennemse ordrer"
 >>>>>>> upstream/18.0
@@ -10644,7 +11639,11 @@ msgstr "Gennemse ordrer"
 #: model:product.template,description_sale:point_of_sale.product_pain_au_chocolat_product_template
 msgid "Rich buttery pastry with a dark chocolate center."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fyldig butterdej med mørk chokolade i midten."
+>>>>>>> upstream/18.0
 =======
 msgstr "Fyldig butterdej med mørk chokolade i midten."
 >>>>>>> upstream/18.0
@@ -10672,6 +11671,11 @@ msgstr "Afrundingsfejl i betalingslinjer"
 msgid "Running a fake tour will create random orders. Use at your own risk."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"At gennemføre en testtur kan resultere i tilfældige opgaver. Det sker på "
+"eget ansvar."
+>>>>>>> upstream/18.0
 =======
 "At gennemføre en testtur kan resultere i tilfældige opgaver. Det sker på "
 "eget ansvar."
@@ -10681,7 +11685,11 @@ msgstr ""
 #: model:product.template,name:point_of_sale.product_rye_bread_product_template
 msgid "Rye Bread"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rugbrød"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rugbrød"
 >>>>>>> upstream/18.0
@@ -10697,7 +11705,11 @@ msgstr "SMS leveringsfejl"
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_module_pos_sms
 msgid "SMS Enabled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS aktiveret"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS aktiveret"
 >>>>>>> upstream/18.0
@@ -10779,7 +11791,11 @@ msgstr "Vægt"
 #: code:addons/point_of_sale/static/src/app/screens/scale_screen/scale_screen.js:0
 msgid "Scale error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vægtfejl"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vægtfejl"
 >>>>>>> upstream/18.0
@@ -10838,7 +11854,11 @@ msgstr "Søg mere"
 #: code:addons/point_of_sale/static/src/app/navbar/navbar.xml:0
 msgid "Search products..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Søg produkter ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Søg produkter ..."
 >>>>>>> upstream/18.0
@@ -10894,7 +11914,11 @@ msgstr "Valgte attributter"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Self-ordering interfaces are not impacted."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selvbestillingsgrænseflader påvirkes ikke."
+>>>>>>> upstream/18.0
 =======
 msgstr "Selvbestillingsgrænseflader påvirkes ikke."
 >>>>>>> upstream/18.0
@@ -10904,7 +11928,11 @@ msgstr "Selvbestillingsgrænseflader påvirkes ikke."
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__point_of_sale_use_ticket_qr_code
 msgid "Self-service invoicing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selvfakturering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selvfakturering"
 >>>>>>> upstream/18.0
@@ -10942,7 +11970,11 @@ msgstr "Send betalingsanmodning"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Send Text receipt Using sms"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Send kvitteringen via SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Send kvitteringen via SMS"
 >>>>>>> upstream/18.0
@@ -10976,7 +12008,11 @@ msgstr "Serie/lot nummer"
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 msgid "Served by %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betjent af %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Betjent af %s"
 >>>>>>> upstream/18.0
@@ -10986,7 +12022,11 @@ msgstr "Betjent af %s"
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 msgid "Server communication problem"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Problem med serverkommunikation"
+>>>>>>> upstream/18.0
 =======
 msgstr "Problem med serverkommunikation"
 >>>>>>> upstream/18.0
@@ -11084,7 +12124,11 @@ msgstr "Angiv flere priser pr. produkt, automatiske rabatter osv."
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/order_summary/order_summary.js:0
 msgid "Set the new discount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Angiv den nye rabat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Angiv den nye rabat"
 >>>>>>> upstream/18.0
@@ -11094,7 +12138,11 @@ msgstr "Angiv den nye rabat"
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/order_summary/order_summary.js:0
 msgid "Set the new price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Angiv en ny pris"
+>>>>>>> upstream/18.0
 =======
 msgstr "Angiv en ny pris"
 >>>>>>> upstream/18.0
@@ -11144,7 +12192,11 @@ msgstr "Afsendelses måde"
 #: model:product.attribute,name:point_of_sale.product_attribute_size_number
 msgid "Shoes size"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skostørrelse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skostørrelse"
 >>>>>>> upstream/18.0
@@ -11153,7 +12205,11 @@ msgstr "Skostørrelse"
 #: model:product.template,description_sale:point_of_sale.product_apple_pie_product_template
 msgid "Shortcrust pastry with a Bramley apple filling."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mørdej med fyld af Bramley-æbler."
+>>>>>>> upstream/18.0
 =======
 msgstr "Mørdej med fyld af Bramley-æbler."
 >>>>>>> upstream/18.0
@@ -11162,7 +12218,11 @@ msgstr "Mørdej med fyld af Bramley-æbler."
 #: model:product.template,description_sale:point_of_sale.product_cherry_pie_product_template
 msgid "Shortcrust pastry with a Morello cherry filling."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mørdej med fyld af Morello-kirsebær."
+>>>>>>> upstream/18.0
 =======
 msgstr "Mørdej med fyld af Morello-kirsebær."
 >>>>>>> upstream/18.0
@@ -11183,7 +12243,11 @@ msgstr "Vis produktbilleder"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Show category images"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis kategoribilleder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vis kategoribilleder"
 >>>>>>> upstream/18.0
@@ -11193,7 +12257,11 @@ msgstr "Vis kategoribilleder"
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_show_category_images
 msgid "Show category images in the Point of Sale interface."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis kategoribilleder i POS-brugergrænsefladen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vis kategoribilleder i POS-brugergrænsefladen."
 >>>>>>> upstream/18.0
@@ -11219,7 +12287,11 @@ msgstr "Vis ansatte login skærm"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Show margins & costs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis avancer og omkostninger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vis avancer og omkostninger"
 >>>>>>> upstream/18.0
@@ -11238,7 +12310,11 @@ msgstr "Vis ordrer på klargøringsskærmen."
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Show product images"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis produktbilleder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vis produktbilleder"
 >>>>>>> upstream/18.0
@@ -11248,7 +12324,11 @@ msgstr "Vis produktbilleder"
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_show_product_images
 msgid "Show product images in the Point of Sale interface."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis produktbilleder i POS-brugergrænsefladen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vis produktbilleder i POS-brugergrænsefladen."
 >>>>>>> upstream/18.0
@@ -11294,7 +12374,11 @@ msgstr "Lille hylde"
 msgid ""
 "Soft dough with a buttery cinnamon filling, topped with cream cheese icing."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Blød dej med smørret kanelfyld, toppet med flødeostglasur."
+>>>>>>> upstream/18.0
 =======
 msgstr "Blød dej med smørret kanelfyld, toppet med flødeostglasur."
 >>>>>>> upstream/18.0
@@ -11326,8 +12410,13 @@ msgid ""
 "the issue has been resolved."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Visse ordre kunne ikke indsendes til serveren, på grund af fejl med internet"
 " forbindelsen. Du kan forlade Point of Sale, men luk ikke sessionen før "
+=======
+"Visse ordre kunne ikke indsendes til serveren, på grund af fejl med internet "
+"forbindelsen. Du kan forlade Point of Sale, men luk ikke sessionen før "
+>>>>>>> upstream/18.0
 =======
 "Visse ordre kunne ikke indsendes til serveren, på grund af fejl med internet "
 "forbindelsen. Du kan forlade Point of Sale, men luk ikke sessionen før "
@@ -11351,7 +12440,11 @@ msgstr ""
 #: model:product.template,name:point_of_sale.product_sourdough_loaf_product_template
 msgid "Sourdough Loaf"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Surdejsbrød"
+>>>>>>> upstream/18.0
 =======
 msgstr "Surdejsbrød"
 >>>>>>> upstream/18.0
@@ -11376,7 +12469,11 @@ msgstr "Specifik rute for produkter, der leveres senere."
 #: model:product.template,name:point_of_sale.sport_shoes_product_template
 msgid "Sport Shoes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sportssko"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sportssko"
 >>>>>>> upstream/18.0
@@ -11453,7 +12550,11 @@ msgstr "Lager bør opdateres ved lukning"
 #: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.js:0
 msgid "Stock, product configurator, replenishment, discounts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lagerbeholdning, produktkonfigurator, genopfyldning, rabatter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lagerbeholdning, produktkonfigurator, genopfyldning, rabatter"
 >>>>>>> upstream/18.0
@@ -11471,7 +12572,11 @@ msgstr "Stop"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Store edited orders in the backend"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gem redigerede ordrer i backend"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gem redigerede ordrer i backend"
 >>>>>>> upstream/18.0
@@ -11490,7 +12595,11 @@ msgstr "Stripe Betalingsterminal"
 #: model:product.template,description_sale:point_of_sale.leather_jacket_product_template
 msgid "Stylish leather jacket, durable and fashionable for all occasions."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stilfuld læderjake, slidstærk og moderne til alle lejligheder."
+>>>>>>> upstream/18.0
 =======
 msgstr "Stilfuld læderjake, slidstærk og moderne til alle lejligheder."
 >>>>>>> upstream/18.0
@@ -11520,7 +12629,11 @@ msgstr "Sum af subtotaler"
 #: model:product.template,name:point_of_sale.summer_hat_product_template
 msgid "Summer Hat"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sommerhat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sommerhat"
 >>>>>>> upstream/18.0
@@ -11529,7 +12642,11 @@ msgstr "Sommerhat"
 #: model:product.template,description_sale:point_of_sale.summer_hat_product_template
 msgid "Summer hat, ideal for beach days and sunny weather."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sommerhat, ideel til solrige dage ved stranden."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sommerhat, ideel til solrige dage ved stranden."
 >>>>>>> upstream/18.0
@@ -11539,7 +12656,11 @@ msgstr "Sommerhat, ideel til solrige dage ved stranden."
 msgid ""
 "Sweet pie filled with pecans, with a rich, buttery filling and flaky saltt."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sød tærte med pekannødder et rigt, cremet fyld og sprødt salt."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sød tærte med pekannødder et rigt, cremet fyld og sprødt salt."
 >>>>>>> upstream/18.0
@@ -11560,7 +12681,11 @@ msgstr "Synkronisér"
 #: model:product.template,name:point_of_sale.t_shirt_slim_product_template
 msgid "T shirt slim"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "T-shirt i slank pasform"
+>>>>>>> upstream/18.0
 =======
 msgstr "T-shirt i slank pasform"
 >>>>>>> upstream/18.0
@@ -11569,7 +12694,11 @@ msgstr "T-shirt i slank pasform"
 #: model:product.template,name:point_of_sale.product_t_shirt_pants_product_template
 msgid "T-shirt & Pants Combo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Set med T-shirt og bukser"
+>>>>>>> upstream/18.0
 =======
 msgstr "Set med T-shirt og bukser"
 >>>>>>> upstream/18.0
@@ -11591,7 +12720,11 @@ msgstr "Tabel"
 #: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.js:0
 msgid "Tables, menus, kitchen display, etc."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Borde, menuer, køkkenvisning osv."
+>>>>>>> upstream/18.0
 =======
 msgstr "Borde, menuer, køkkenvisning osv."
 >>>>>>> upstream/18.0
@@ -11613,7 +12746,11 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/screens/scale_screen/scale_screen.xml:0
 msgid "Tare"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Egenvægt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Egenvægt"
 >>>>>>> upstream/18.0
@@ -11623,7 +12760,11 @@ msgstr "Egenvægt"
 #: code:addons/point_of_sale/static/src/customer_display/customer_display.xml:0
 msgid "Tare Weight:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Egenvægt:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Egenvægt:"
 >>>>>>> upstream/18.0
@@ -11645,7 +12786,11 @@ msgstr "Momsvisning"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__price_subtotal
 msgid "Tax Excl."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ekskl. moms"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ekskl. moms"
 >>>>>>> upstream/18.0
@@ -11660,7 +12805,11 @@ msgstr "Momsgruppe"
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt/receipt_header/receipt_header.js:0
 msgid "Tax ID: %(vatId)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skattenummer: %(vatId)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skattenummer: %(vatId)s"
 >>>>>>> upstream/18.0
@@ -11669,7 +12818,11 @@ msgstr "Skattenummer: %(vatId)s"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__price_subtotal_incl
 msgid "Tax Incl."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Inkl. moms"
+>>>>>>> upstream/18.0
 =======
 msgstr "Inkl. moms"
 >>>>>>> upstream/18.0
@@ -11753,7 +12906,11 @@ msgstr "Telefon:"
 #: code:addons/point_of_sale/static/src/customer_display/customer_display.xml:0
 msgid "Thank you."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tak."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tak."
 >>>>>>> upstream/18.0
@@ -11818,10 +12975,13 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_screen.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The amount of your payment lines must be rounded to validate the transaction.\n"
 "The rounding precision is %s so you should set %s as payment amount instead of %s."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "The amount of your payment lines must be rounded to validate the "
 "transaction.\n"
 "The rounding precision is %s so you should set %s as payment amount instead "
@@ -11830,6 +12990,9 @@ msgstr ""
 "For at kunne gennemføre transaktionen skal betalingsbeløbet afrundes.\n"
 "Indtast derfor %s i stedet for %s i overensstemmelse med "
 "afrundingsnøjagtigheden %s."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -11925,7 +13088,10 @@ msgstr "Mærket på betalingskortet (f.eks. Visa, Dankort, ...)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12186,6 +13352,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12373,8 +13542,13 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The default tip product is missing. Please manually specify the tip product."
 " (See Tips field.)"
+=======
+"The default tip product is missing. Please manually specify the tip product. "
+"(See Tips field.)"
+>>>>>>> upstream/18.0
 =======
 "The default tip product is missing. Please manually specify the tip product. "
 "(See Tips field.)"
@@ -12391,6 +13565,11 @@ msgid ""
 "Continue without checking the validity of serial/lot numbers ?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"De eksisterende serie- og partinumre kunne ikke hentes. \n"
+"uden at kontrollere gyldigheden af serie- og partinumrene?"
+>>>>>>> upstream/18.0
 =======
 "De eksisterende serie- og partinumre kunne ikke hentes. \n"
 "uden at kontrollere gyldigheden af serie- og partinumrene?"
@@ -12422,8 +13601,13 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The invoice journal must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
+=======
+"The invoice journal must be in the same currency as the Sales Journal or the "
+"company currency if that is not set."
+>>>>>>> upstream/18.0
 =======
 "The invoice journal must be in the same currency as the Sales Journal or the "
 "company currency if that is not set."
@@ -12447,15 +13631,21 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/navbar/closing_popup/closing_popup.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The money counted doesn't match what we expected. Want to log the difference"
 " for the books?"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "The money counted doesn't match what we expected. Want to log the difference "
 "for the books?"
 msgstr ""
 "Det optalte beløb afviger fra det forventede. Ønsker du at bogføre "
 "differencen?"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -12484,7 +13674,10 @@ msgstr "Denne ordre kunne ikke sendes til serveren grundet en ukendt fejl"
 #. module: point_of_sale
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 msgid ""
 "The order has been modified on another device. If you have modified existing "
@@ -12496,6 +13689,9 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/point_of_sale/static/src/app/utils/hooks.js:0
 msgid ""
@@ -12510,7 +13706,11 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid "The paid amount is different from the total amount of the order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Det betalte beløb afviger fra ordrens samlede beløb."
+>>>>>>> upstream/18.0
 =======
 msgstr "Det betalte beløb afviger fra ordrens samlede beløb."
 >>>>>>> upstream/18.0
@@ -12536,8 +13736,13 @@ msgstr "Betalingsmetoderne i point of sale %s skal tilhøre dens virksomhed."
 msgid ""
 "The point of sale will only display products which are within one of the "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "selected category trees. If no category is specified, all available products"
 " will be shown"
+=======
+"selected category trees. If no category is specified, all available products "
+"will be shown"
+>>>>>>> upstream/18.0
 =======
 "selected category trees. If no category is specified, all available products "
 "will be shown"
@@ -12555,6 +13760,11 @@ msgid ""
 "invoice for it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kasseordren blev annulleret efter sessionsafslutningen for at muliggøre "
+"fakturering."
+>>>>>>> upstream/18.0
 =======
 "Kasseordren blev annulleret efter sessionsafslutningen for at muliggøre "
 "fakturering."
@@ -12565,7 +13775,11 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_note_ids
 msgid "The predefined notes of this point of sale."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "De forudindstillede noter i dette kassesystem."
+>>>>>>> upstream/18.0
 =======
 msgstr "De forudindstillede noter i dette kassesystem."
 >>>>>>> upstream/18.0
@@ -12574,8 +13788,13 @@ msgstr "De forudindstillede noter i dette kassesystem."
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__pricelist_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The pricelist used if no customer is selected or if the customer has no Sale"
 " Pricelist configured if any."
+=======
+"The pricelist used if no customer is selected or if the customer has no Sale "
+"Pricelist configured if any."
+>>>>>>> upstream/18.0
 =======
 "The pricelist used if no customer is selected or if the customer has no Sale "
 "Pricelist configured if any."
@@ -12622,14 +13841,20 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/models/pos_order_line.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The requested quantity to be refunded is higher than the refundable "
 "quantity."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "The requested quantity to be refunded is higher than the refundable quantity."
 msgstr ""
 "Det antal, der er anmodet om at få refunderet, er højere end det "
 "refundérbare antal."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -12646,8 +13871,13 @@ msgid ""
 "point of sale."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "De valgte prislister skal enten tilhøre ingen virksomhed, eller virksomheden"
 " for point of sale."
+=======
+"De valgte prislister skal enten tilhøre ingen virksomhed, eller virksomheden "
+"for point of sale."
+>>>>>>> upstream/18.0
 =======
 "De valgte prislister skal enten tilhøre ingen virksomhed, eller virksomheden "
 "for point of sale."
@@ -12685,9 +13915,14 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The session is being closed by another user. The page will be reloaded."
 msgstr ""
+=======
+msgid "The session is being closed by another user. The page will be reloaded."
+msgstr "Sessionen bliver lukket af en anden bruger. Siden genindlæses."
+>>>>>>> upstream/18.0
 =======
 msgid "The session is being closed by another user. The page will be reloaded."
 msgstr "Sessionen bliver lukket af en anden bruger. Siden genindlæses."
@@ -12707,7 +13942,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "The transactions are processed by Mercado Pago on terminal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transaktioner behandles af Mercado Pago i terminalen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transaktioner behandles af Mercado Pago i terminalen"
 >>>>>>> upstream/18.0
@@ -12719,6 +13958,11 @@ msgid ""
 "credentials on the related payment method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Transaktionerne håndteres af Transaktione. Sørg for at indtaste dine "
+"Transaktione-legitimationsoplysninger i den tilhørende betalingsmetode."
+>>>>>>> upstream/18.0
 =======
 "Transaktionerne håndteres af Transaktione. Sørg for at indtaste dine "
 "Transaktione-legitimationsoplysninger i den tilhørende betalingsmetode."
@@ -12739,15 +13983,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Razorpay. Set your Razorpay credentials on"
 " the related payment method."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "The transactions are processed by Razorpay. Set your Razorpay credentials on "
 "the related payment method."
 msgstr ""
 "Transaktionerne håndteres af Razorpay. Sørg for at indtaste dine Razorpay-"
 "legitimationsoplysninger i den tilhørende betalingsmetode."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -12755,8 +14005,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Six. Set the IP address of the terminal on"
 " the related payment method."
+=======
+"The transactions are processed by Six. Set the IP address of the terminal on "
+"the related payment method."
+>>>>>>> upstream/18.0
 =======
 "The transactions are processed by Six. Set the IP address of the terminal on "
 "the related payment method."
@@ -12770,8 +14025,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Stripe. Set your Stripe credentials on the"
 " related payment method."
+=======
+"The transactions are processed by Stripe. Set your Stripe credentials on the "
+"related payment method."
+>>>>>>> upstream/18.0
 =======
 "The transactions are processed by Stripe. Set your Stripe credentials on the "
 "related payment method."
@@ -12791,7 +14051,11 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_pos_payment__card_type
 msgid "The type of the payment card (e.g. CREDIT CARD OR DEBIT CARD)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betalingskortets type (f.eks. kreditkort eller debetkort)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Betalingskortets type (f.eks. kreditkort eller debetkort)"
 >>>>>>> upstream/18.0
@@ -12812,17 +14076,23 @@ msgstr "Der er ingen produkter i denne kategori."
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There are still orders in draft state in the session. Pay or cancel the following orders to validate the session:\n"
 "%s"
 msgstr ""
 "Der er stadig ordre i kladde tilstand i sessionen. Betal eller annuller ordre for at godkende sessionen:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "There are still orders in draft state in the session. Pay or cancel the "
 "following orders to validate the session:\n"
 "%s"
 msgstr ""
 "Der er stadig ordre i kladde tilstand i sessionen. Betal eller annuller "
 "ordre for at godkende sessionen:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "%s"
 
@@ -12857,6 +14127,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_screen.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There is no cash payment method available in this point of sale to handle the change.\n"
 "\n"
 " Please pay the exact amount or add a cash payment method in the point of sale configuration"
@@ -12865,6 +14136,8 @@ msgstr ""
 "\n"
 "Betal venligst det præcise beløb eller tilføj en kontantbetalingsmetode i kassekonfigurationen."
 =======
+=======
+>>>>>>> upstream/18.0
 "There is no cash payment method available in this point of sale to handle "
 "the change.\n"
 "\n"
@@ -12876,6 +14149,9 @@ msgstr ""
 "\n"
 "Betal venligst det præcise beløb eller tilføj en kontantbetalingsmetode i "
 "kassekonfigurationen."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -12898,6 +14174,11 @@ msgid ""
 "is not allowed from the Point of Sale app."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Det valgte produkt har ikke et serie- eller partinummer, og det er ikke "
+"muligt at oprette det i POS-appen."
+>>>>>>> upstream/18.0
 =======
 "Det valgte produkt har ikke et serie- eller partinummer, og det er ikke "
 "muligt at oprette det i POS-appen."
@@ -12935,8 +14216,13 @@ msgstr "Denne kombination eksistere ikke."
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_amount_authorized_diff
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This field depicts the maximum difference allowed between the ending balance"
 " and the theoretical cash when closing a session, for non-POS managers. If "
+=======
+"This field depicts the maximum difference allowed between the ending balance "
+"and the theoretical cash when closing a session, for non-POS managers. If "
+>>>>>>> upstream/18.0
 =======
 "This field depicts the maximum difference allowed between the ending balance "
 "and the theoretical cash when closing a session, for non-POS managers. If "
@@ -12977,8 +14263,13 @@ msgstr "Denne faktura er oprettet fra point of sale sessionen: %s"
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__fiscal_position_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is useful for restaurants with onsite and take-away services that imply"
 " specific tax rates."
+=======
+"This is useful for restaurants with onsite and take-away services that imply "
+"specific tax rates."
+>>>>>>> upstream/18.0
 =======
 "This is useful for restaurants with onsite and take-away services that imply "
 "specific tax rates."
@@ -13003,6 +14294,11 @@ msgid ""
 "being used by order %(pos_order)s in the active pos session %(pos_session)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Journalen er tilknyttet betalingsform %(payment_method)s, der bliver brugt "
+"af ordre %(pos_order)s i den aktive kassesessio %(pos_session)s"
+>>>>>>> upstream/18.0
 =======
 "Journalen er tilknyttet betalingsform %(payment_method)s, der bliver brugt "
 "af ordre %(pos_order)s i den aktive kassesessio %(pos_session)s"
@@ -13015,7 +14311,12 @@ msgid ""
 "This operation will destroy all ${\n"
 "                    paid ? \"paid\" : \"unpaid\"\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                } orders in the browser. You will lose all the data. This operation cannot be undone."
+=======
+"                } orders in the browser. You will lose all the data. This "
+"operation cannot be undone."
+>>>>>>> upstream/18.0
 =======
 "                } orders in the browser. You will lose all the data. This "
 "operation cannot be undone."
@@ -13033,6 +14334,7 @@ msgstr ""
 "tilknyttede kunde. Opret en ny ordre til den nye kunde."
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13436,6 +14738,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid ""
@@ -13445,6 +14749,9 @@ msgstr ""
 "redigeres."
 
 #. module: point_of_sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.js:0
@@ -13460,7 +14767,11 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_payment_method.py:0
 msgid "This payment method is not configured to generate QR codes."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betalingsformen er ikke konfigureret til at generere QR-koder."
+>>>>>>> upstream/18.0
 =======
 msgstr "Betalingsformen er ikke konfigureret til at generere QR-koder."
 >>>>>>> upstream/18.0
@@ -13522,7 +14833,11 @@ msgid ""
 "Tiger bloomer. Baked for a soft inside, with its distinctive savoury "
 "crackled crust."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tigerbrød. Blødt indeni med en karakteristisk krydret, sprød skorpe."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tigerbrød. Blødt indeni med en karakteristisk krydret, sprød skorpe."
 >>>>>>> upstream/18.0
@@ -13531,7 +14846,11 @@ msgstr "Tigerbrød. Blødt indeni med en karakteristisk krydret, sprød skorpe."
 #: model:product.template,name:point_of_sale.product_tiger_white_loaf_product_template
 msgid "Tiger white loaf"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hvidt tigerbrød"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hvidt tigerbrød"
 >>>>>>> upstream/18.0
@@ -13595,9 +14914,12 @@ msgid ""
 "To delete a product, make sure all point of sale sessions are closed.\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Deleting a product available in a session would be like attempting to snatch a hamburger from a customer’s hand mid-bite; chaos will ensue as ketchup and mayo go flying everywhere!"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Deleting a product available in a session would be like attempting to snatch "
 "a hamburger from a customer’s hand mid-bite; chaos will ensue as ketchup and "
 "mayo go flying everywhere!"
@@ -13607,6 +14929,9 @@ msgstr ""
 "At fjerne et produkt, der stadig er tilgængeligt i en åben session, svarer "
 "til at forsøge at snuppe en burger ud af hånden på en kunde midt i en bid – "
 "det ender i kaos med ketchup og mayonnaise over det hele!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -13617,6 +14942,11 @@ msgid ""
 "accounting application. "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"For at kunne følge op på forfaldne beløb skal du enten oprette en faktura "
+"eller installere regnskabsappen. "
+>>>>>>> upstream/18.0
 =======
 "For at kunne følge op på forfaldne beløb skal du enten oprette en faktura "
 "eller installere regnskabsappen. "
@@ -13715,7 +15045,11 @@ msgstr "Total:"
 #: code:addons/point_of_sale/static/src/app/utils/money_details_popup/money_details_popup.js:0
 msgid "Total: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "I alt: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "I alt: %s"
 >>>>>>> upstream/18.0
@@ -13726,7 +15060,11 @@ msgstr "I alt: %s"
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_order_edit_tracking
 msgid "Track orders edits"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spor ordrebehandlinger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spor ordrebehandlinger"
 >>>>>>> upstream/18.0
@@ -13738,6 +15076,10 @@ msgid ""
 "front."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sneakers i bomuldslærred med polstret overkant, tunge og snørebånd foran."
+>>>>>>> upstream/18.0
 =======
 "Sneakers i bomuldslærred med polstret overkant, tunge og snørebånd foran."
 >>>>>>> upstream/18.0
@@ -13779,7 +15121,11 @@ msgstr "Type"
 #: model:ir.model.fields,help:point_of_sale.field_pos_payment_method__qr_code_method
 msgid "Type of QR-code to be generated for this payment method."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Type QR-kode, der skal genereres for denne betalingsform."
+>>>>>>> upstream/18.0
 =======
 msgstr "Type QR-kode, der skal genereres for denne betalingsform."
 >>>>>>> upstream/18.0
@@ -13811,12 +15157,15 @@ msgstr "URL"
 msgid ""
 "Unable to close and validate the session.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please set corresponding tax account in each repartition line of the following taxes: \n"
 "%s"
 msgstr ""
 "Kune ikke lukke og godkende sessionen.\n"
 "Vær venlig at angive den tilsvarende afgifts konto i hver omdelings linje for følgende afgifter:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Please set corresponding tax account in each repartition line of the "
 "following taxes: \n"
 "%s"
@@ -13824,6 +15173,9 @@ msgstr ""
 "Kune ikke lukke og godkende sessionen.\n"
 "Vær venlig at angive den tilsvarende afgifts konto i hver omdelings linje "
 "for følgende afgifter:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "%s"
 
@@ -13911,7 +15263,11 @@ msgstr "Ukendt fejl"
 #: code:addons/point_of_sale/static/src/app/screens/scale_screen/scale_service.js:0
 msgid "Unnamed Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unavngivet produkt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unavngivet produkt"
 >>>>>>> upstream/18.0
@@ -13941,6 +15297,11 @@ msgid ""
 "limited functionality."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Odoo POS har nedsat funktionalitet, så længe forbindelsen ikke er "
+"genoprettet."
+>>>>>>> upstream/18.0
 =======
 "Odoo POS har nedsat funktionalitet, så længe forbindelsen ikke er "
 "genoprettet."
@@ -13962,7 +15323,11 @@ msgstr "Opdater mængde på lager"
 #: model:pos.category,name:point_of_sale.pos_category_upper
 msgid "Upper body"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overdel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Overdel"
 >>>>>>> upstream/18.0
@@ -13982,7 +15347,11 @@ msgstr "Anvend en prisliste."
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Use automatic taxes mapping with Avatax"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatisk sammenkobling af skatter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatisk sammenkobling af skatter"
 >>>>>>> upstream/18.0
@@ -13992,7 +15361,11 @@ msgstr "Automatisk sammenkobling af skatter"
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_module_pos_avatax
 msgid "Use automatic taxes mapping with Avatax in PoS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brug automatisk sammenkobling af skatter med Avatax i POS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brug automatisk sammenkobling af skatter med Avatax i POS"
 >>>>>>> upstream/18.0
@@ -14058,6 +15431,11 @@ msgid ""
 "closure."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alsidig hættetrøje, hvis hætte kan justeres med en snøre samt en lynlås "
+"foran."
+>>>>>>> upstream/18.0
 =======
 "Alsidig hættetrøje, hvis hætte kan justeres med en snøre samt en lynlås "
 "foran."
@@ -14073,6 +15451,10 @@ msgstr "Vis"
 msgid "Vintage jean jacket, a timeless piece for any casual outfit."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vintage-cowboyjakke, et tidløst beklædningstykke til et afslappet outfit."
+>>>>>>> upstream/18.0
 =======
 "Vintage-cowboyjakke, et tidløst beklædningstykke til et afslappet outfit."
 >>>>>>> upstream/18.0
@@ -14129,6 +15511,10 @@ msgid ""
 "Warning, the paid amount is higher than the total amount. (Difference: %s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Advarsel, det betalte beløb er højere end det samlede beløb. (Difference: %s)"
+>>>>>>> upstream/18.0
 =======
 "Advarsel, det betalte beløb er højere end det samlede beløb. (Difference: %s)"
 >>>>>>> upstream/18.0
@@ -14141,6 +15527,11 @@ msgid ""
 "Please use a modern browser."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Advarsel: IndexedDB understøttes ikke i din browser, og data kan derfor ikke "
+"gemmes. Vi anbefaler, at du anvender en moderne browser."
+>>>>>>> upstream/18.0
 =======
 "Advarsel: IndexedDB understøttes ikke i din browser, og data kan derfor ikke "
 "gemmes. Vi anbefaler, at du anvender en moderne browser."
@@ -14163,7 +15554,11 @@ msgstr "Hjemmesidens kommunikations historik"
 #: code:addons/point_of_sale/static/src/customer_display/customer_display.xml:0
 msgid "Weighing Product:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Veje produkt:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Veje produkt:"
 >>>>>>> upstream/18.0
@@ -14178,7 +15573,11 @@ msgstr "Vejet produkt"
 #: code:addons/point_of_sale/static/src/customer_display/customer_display.xml:0
 msgid "Welcome."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Velkommen:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Velkommen:"
 >>>>>>> upstream/18.0
@@ -14211,8 +15610,13 @@ msgstr ""
 msgid ""
 "Whenever you close a session, one entry is generated in the following "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "accounting journal for all the orders not invoiced. Invoices are recorded in"
 " accounting separately."
+=======
+"accounting journal for all the orders not invoiced. Invoices are recorded in "
+"accounting separately."
+>>>>>>> upstream/18.0
 =======
 "accounting journal for all the orders not invoiced. Invoices are recorded in "
 "accounting separately."
@@ -14241,7 +15645,11 @@ msgstr "Tavle pen"
 #: model:product.template,name:point_of_sale.product_wholemeal_loaf_product_template
 msgid "Wholemeal loaf"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fuldkornsbrød"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fuldkornsbrød"
 >>>>>>> upstream/18.0
@@ -14271,6 +15679,11 @@ msgid ""
 "data."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Du er i øjeblikket offline. Hvis du genindlæser siden, risikerer du, at dine "
+"data ikke bliver gemt."
+>>>>>>> upstream/18.0
 =======
 "Du er i øjeblikket offline. Hvis du genindlæser siden, risikerer du, at dine "
 "data ikke bliver gemt."
@@ -14284,8 +15697,13 @@ msgid ""
 "session using it is already opened."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du har ikke tilladelse til at ændre kontant afrundings konfigurationen imens"
 " pos sessionen der bruger den, allerede er åbnet."
+=======
+"Du har ikke tilladelse til at ændre kontant afrundings konfigurationen imens "
+"pos sessionen der bruger den, allerede er åbnet."
+>>>>>>> upstream/18.0
 =======
 "Du har ikke tilladelse til at ændre kontant afrundings konfigurationen imens "
 "pos sessionen der bruger den, allerede er åbnet."
@@ -14302,17 +15720,23 @@ msgstr "Du har ikke tilladelse til at ændre denne mængde"
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are trying to sell products with serial/lot numbers, but some of them are not set.\n"
 "Would you like to proceed anyway?"
 msgstr ""
 "Du forsøger at sælge produkter med serie-/lotnumre, men nogle af dem er ikke indstillet.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You are trying to sell products with serial/lot numbers, but some of them "
 "are not set.\n"
 "Would you like to proceed anyway?"
 msgstr ""
 "Du forsøger at sælge produkter med serie-/lotnumre, men nogle af dem er ikke "
 "indstillet.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Vil du alligevel fortsætte?"
 
@@ -14324,6 +15748,11 @@ msgid ""
 "orders."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Det er kun muligt at afbryde sessioner, der har status som kasseeftersyn ved "
+"sessionens start, og som ikke har nogen ordrer."
+>>>>>>> upstream/18.0
 =======
 "Det er kun muligt at afbryde sessioner, der har status som kasseeftersyn ved "
 "sessionens start, og som ikke har nogen ordrer."
@@ -14334,7 +15763,11 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid "You can only refund products from the same order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Du kan kun refundere produkter fra den samme ordre."
+>>>>>>> upstream/18.0
 =======
 msgstr "Du kan kun refundere produkter fra den samme ordre."
 >>>>>>> upstream/18.0
@@ -14358,15 +15791,21 @@ msgid ""
 "the form view in studio if no PoS order exist"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du kan ikke: oprette en pos ordre fra backend-grænsefladen, eller deaktivere"
 " prislisten, eller oprette en pos.order i en python-test med "
 "formularværktøjet, eller redigere formularvisningen i studiet, hvis der ikke"
 " findes en PoS-ordre"
 =======
+=======
+>>>>>>> upstream/18.0
 "Du kan ikke: oprette en pos ordre fra backend-grænsefladen, eller deaktivere "
 "prislisten, eller oprette en pos.order i en python-test med "
 "formularværktøjet, eller redigere formularvisningen i studiet, hvis der ikke "
 "findes en PoS-ordre"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -14374,15 +15813,21 @@ msgstr ""
 #: code:addons/point_of_sale/models/stock_picking.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot archive '%(picking_type)s' as it is used by POS configuration "
 "'%(config)s'."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot archive '%(picking_type)s' as it is used by POS configuration '%"
 "(config)s'."
 msgstr ""
 "Du kan ikke arkivere '%(picking_type)s', da det bruges af POS-"
 "konfigurationen '%(config)s'."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -14390,7 +15835,11 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid "You cannot change the payment of a printed order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Du kan ikke ændre betalingen på en ordre, der allerede er udskrevet."
+>>>>>>> upstream/18.0
 =======
 msgstr "Du kan ikke ændre betalingen på en ordre, der allerede er udskrevet."
 >>>>>>> upstream/18.0
@@ -14416,7 +15865,11 @@ msgstr "Du kan ikke lukke PoS når ordre stadig er i kladde"
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid "You cannot create a session starting before: %(lock_date_info)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Du kan ikke oprette en session, der starter inden: %(lock_date_info)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Du kan ikke oprette en session, der starter inden: %(lock_date_info)s"
 >>>>>>> upstream/18.0
@@ -14427,6 +15880,7 @@ msgstr "Du kan ikke oprette en session, der starter inden: %(lock_date_info)s"
 msgid ""
 "You cannot delete a point of sale category while a session is still opened."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Du kan ikke slette en point of sale kategori imens en session stadig er "
 "åben."
@@ -14631,16 +16085,22 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Du kan ikke slette en point of sale kategori imens en session stadig er åben."
 
 #. module: point_of_sale
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/point_of_sale/models/account_cash_rounding.py:0
 msgid ""
 "You cannot delete a rounding method that is used in a Point of Sale "
 "configuration."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 #. module: point_of_sale
@@ -14845,6 +16305,8 @@ msgstr ""
 msgid "You cannot edit a payment for a posted order."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Du kan ikke slette en afrundingsmetode, der bruges i en POS-konfiguration."
 
 #. module: point_of_sale
@@ -14854,6 +16316,9 @@ msgid "You cannot edit a payment for a posted order."
 msgstr ""
 "Det er ikke muligt at redigere en betaling på en ordre, der allerede er "
 "bogført."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -14864,6 +16329,7 @@ msgstr "Du kan ikke fakturere ordrer tilhørende forskellige firmaer."
 
 #. module: point_of_sale
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15074,6 +16540,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 "You cannot share open orders with configuration that does not use the same "
@@ -15096,6 +16564,11 @@ msgid ""
 "session with a different user"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Du har ikke tilladelse til at åbne en kassesession. Prøv venligst at logge "
+"ind med en anden bruger"
+>>>>>>> upstream/18.0
 =======
 "Du har ikke tilladelse til at åbne en kassesession. Prøv venligst at logge "
 "ind med en anden bruger"
@@ -15165,6 +16638,11 @@ msgid ""
 "method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"For at generere QR-koder til denne betalingsmetode skal du først vælge en QR-"
+"kodemetode."
+>>>>>>> upstream/18.0
 =======
 "For at generere QR-koder til denne betalingsmetode skal du først vælge en QR-"
 "kodemetode."
@@ -15175,8 +16653,13 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You must set the iot box's IP address to use an IoT-connected screen. You'll"
 " find the field under the 'IoT Box' option."
+=======
+"You must set the iot box's IP address to use an IoT-connected screen. You'll "
+"find the field under the 'IoT Box' option."
+>>>>>>> upstream/18.0
 =======
 "You must set the iot box's IP address to use an IoT-connected screen. You'll "
 "find the field under the 'IoT Box' option."
@@ -15210,8 +16693,13 @@ msgid ""
 "create a new one."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Din PoS Session har været åben siden %(date)s, vi tilråder, at du lukker den"
 " og opretter en ny."
+=======
+"Din PoS Session har været åben siden %(date)s, vi tilråder, at du lukker den "
+"og opretter en ny."
+>>>>>>> upstream/18.0
 =======
 "Din PoS Session har været åben siden %(date)s, vi tilråder, at du lukker den "
 "og opretter en ny."
@@ -15310,12 +16798,15 @@ msgstr "rabat"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. 0123456789"
 msgstr ""
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15518,12 +17009,15 @@ msgstr "f.eks. sodavand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. john.doe@mail.com"
 msgstr ""
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15657,7 +17151,11 @@ msgstr "email"
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "failed. Please try again"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "mislykkedes. Prøv venligst igen"
+>>>>>>> upstream/18.0
 =======
 msgstr "mislykkedes. Prøv venligst igen"
 >>>>>>> upstream/18.0
@@ -15696,7 +17194,11 @@ msgstr "i"
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "in progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "i gang"
+>>>>>>> upstream/18.0
 =======
 msgstr "i gang"
 >>>>>>> upstream/18.0
@@ -15712,7 +17214,11 @@ msgstr "i denne kategori."
 #: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.xml:0
 msgid "install a chart of accounts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "installér en kontoplan"
+>>>>>>> upstream/18.0
 =======
 msgstr "installér en kontoplan"
 >>>>>>> upstream/18.0
@@ -15785,7 +17291,11 @@ msgstr "kvitteringen"
 #: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.xml:0
 msgid "to activate the buttons."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "for at aktivere knapperne."
+>>>>>>> upstream/18.0
 =======
 msgstr "for at aktivere knapperne."
 >>>>>>> upstream/18.0
@@ -15794,6 +17304,7 @@ msgstr "for at aktivere knapperne."
 #: model_terms:ir.ui.view,arch_db:point_of_sale.report_invoice_document
 msgid "using"
 msgstr "bruger"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15982,6 +17493,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+#~ msgid "Please register the voucher number"
+#~ msgstr "Indtast venligst rabatkuponnummeret"
 >>>>>>> upstream/18.0
 =======
 

@@ -6,6 +6,12 @@ patch(PosStore.prototype, {
         const result = super.getReceiptHeaderData(...arguments);
         const company = this.company;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        result.is_simplified =
+            (order?.partner_id?.company_type === "person" || !order?.partner_id) &&
+            company.country_id?.code === "SA";
+>>>>>>> upstream/18.0
 =======
         result.is_simplified =
             (order?.partner_id?.company_type === "person" || !order?.partner_id) &&

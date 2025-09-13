@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* repair
 # 
 # Translators:
@@ -8,6 +9,8 @@
 # Marta Wacławek, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * repair
 #
 # Translators:
@@ -15,12 +18,16 @@
 # Marta Wacławek, 2025
 #
 # "Marta (wacm)" <wacm@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
@@ -31,6 +38,8 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-12 22:21+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/repair/pl/"
@@ -43,6 +52,9 @@ msgstr ""
 "n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -56,7 +68,11 @@ msgstr ""
 #: code:addons/repair/models/repair.py:0
 msgid "%(product)s: Insufficient Quantity To Repair"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s: Niewystarczająca ilość do naprawy"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product)s: Niewystarczająca ilość do naprawy"
 >>>>>>> upstream/18.0
@@ -481,7 +497,11 @@ msgstr "Zapewnij identyfikowalność produktu rejestrowanego w Twoim magazynie."
 #: code:addons/repair/models/repair.py:0
 msgid "Exp %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Exp %s"
+=======
+msgstr "Oczekiwano %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oczekiwano %s"
 >>>>>>> upstream/18.0
@@ -490,7 +510,11 @@ msgstr "Oczekiwano %s"
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__parts_availability_state__expected
 msgid "Expected"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Spodziewany"
+=======
+msgstr "Oczekiwano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oczekiwano"
 >>>>>>> upstream/18.0
@@ -1136,7 +1160,11 @@ msgstr "Tagi naprawy"
 #: code:addons/repair/models/repair.py:0
 msgid "Repair must be under repair in order to end reparation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Naprawa musi być w trakcie naprawy, aby zakończyć naprawę."
+=======
+msgstr "Status musi być w trakcie naprawy, aby zakończyć naprawianie."
+>>>>>>> upstream/18.0
 =======
 msgstr "Status musi być w trakcie naprawy, aby zakończyć naprawianie."
 >>>>>>> upstream/18.0
@@ -1279,7 +1307,11 @@ msgstr "Wyszukiwanie zleceń naprawy"
 #: code:addons/repair/models/repair.py:0
 msgid "Serial number is required for product to repair : %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wymagane jest podanie numeru seryjnego, aby naprawiać: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wymagane jest podanie numeru seryjnego, aby naprawiać: %s"
 >>>>>>> upstream/18.0
@@ -1371,9 +1403,13 @@ msgid ""
 "The product unit of measure you chose has a different category than the "
 "product unit of measure."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Wybrana jednostka miary produktu ma inną kategorię niż jednostka miary "
 "produktu."
+=======
+msgstr "Wybrana jednostka miary ma inną kategorię niż jednostka miary produktu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Wybrana jednostka miary ma inną kategorię niż jednostka miary produktu."
 >>>>>>> upstream/18.0

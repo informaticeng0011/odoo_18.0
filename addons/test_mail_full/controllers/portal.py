@@ -30,8 +30,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -112,6 +115,7 @@ class PortalTest(http.Controller):
         record = request.env["mail.test.portal"]._get_thread_with_access(res_id, **kwargs)
         values = {
             "object": record,
+<<<<<<< HEAD
 <<<<<<< HEAD
             "token": kwargs.get("access_token", None),
             "hash": kwargs.get("hash", None),
@@ -211,6 +215,8 @@ class PortalTest(http.Controller):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             "token": kwargs.get("token"),
             "hash": kwargs.get("hash"),
             "pid": kwargs.get("pid"),
@@ -228,6 +234,9 @@ class PortalTest(http.Controller):
             "token": kwargs.get("token"),
         }
         return request.render("test_mail_full.test_portal_template", values)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @http.route('/test_portal/public_type/<int:res_id>', type='http', auth='public', methods=['GET'])
@@ -264,6 +273,9 @@ class PortalTest(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

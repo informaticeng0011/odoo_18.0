@@ -124,8 +124,11 @@ paymentForm.include({
                 amount: processingValues['rounded_amount'],
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
             (err, token) => this._xenditHandleResponse(err, token, processingValues),
 =======
+=======
+>>>>>>> upstream/18.0
             (err, token) =>  
                 {
                     // if any errors are reported, immediately report it
@@ -146,6 +149,9 @@ paymentForm.include({
                         this._xenditHandleResponse(err, token, processingValues, 'token')
                     }
                 },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         );
     },
@@ -158,14 +164,20 @@ paymentForm.include({
      * @param {object} token - The created token's data.
      * @param {object} processingValues - The processing values of the transaction.
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return {void}
      */
     _xenditHandleResponse(err, token, processingValues) {
 =======
+=======
+>>>>>>> upstream/18.0
      * @param {string} mode - The mode of the charge: 'auth' or 'token'.
      * @return {void}
      */
     _xenditHandleResponse(err, token, processingValues, mode) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (err) {
             let errMessage = err.message;
@@ -179,12 +191,15 @@ paymentForm.include({
         }
         if (token.status === 'VERIFIED') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             rpc('/payment/xendit/payment', {
                 'reference': processingValues.reference,
                 'partner_id': processingValues.partner_id,
                 'token_ref': token.id,
             }).then(() => {
 =======
+=======
+>>>>>>> upstream/18.0
             const payload = {
                 'reference': processingValues.reference,
                 'partner_id': processingValues.partner_id,
@@ -201,6 +216,9 @@ paymentForm.include({
                 payload['token_ref'] = token.id;
             }
             rpc('/payment/xendit/payment', payload).then(() => {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 window.location = '/payment/status'
             }).catch(error => {

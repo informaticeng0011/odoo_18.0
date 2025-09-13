@@ -25,12 +25,15 @@ class ResCompany(models.Model):
         related='partner_id.l10n_sa_additional_identification_number', readonly=False)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_company_root_delegated_field_names(self):
         return super()._get_company_root_delegated_field_names() + [
             'l10n_sa_api_mode',
             'l10n_sa_private_key_id',
         ]
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def write(self, vals):

@@ -1,6 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from urllib.parse import urlencode
+
+>>>>>>> upstream/18.0
 =======
 from urllib.parse import urlencode
 
@@ -12,7 +17,13 @@ from odoo.addons.test_mail_full.tests.test_portal import TestPortal
 @tests.common.tagged("post_install", "-at_install")
 class TestUIPortal(TestPortal):
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_star_message(self):
+=======
+
+    def setUp(self):
+        super().setUp()
+>>>>>>> upstream/18.0
 =======
 
     def setUp(self):
@@ -28,6 +39,11 @@ class TestUIPortal(TestPortal):
             }
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def test_star_message(self):
+>>>>>>> upstream/18.0
 =======
 
     def test_star_message(self):
@@ -38,7 +54,10 @@ class TestUIPortal(TestPortal):
             login=self.user_employee.login,
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_no_copy_link_for_non_readable_portal_record(self):
         # mail.test.portal has read access only for base.group_user
@@ -62,4 +81,7 @@ class TestUIPortal(TestPortal):
             f"/my/test_portal_rating_records/{record_rating.id}?token={record_rating._portal_ensure_token()}",
             "portal_rating_tour",
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

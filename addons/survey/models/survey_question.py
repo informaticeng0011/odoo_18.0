@@ -638,17 +638,23 @@ class SurveyQuestion(models.Model):
             'suggested_answer': suggested_answer,
             'count': count_data[suggested_answer],
 <<<<<<< HEAD
+<<<<<<< HEAD
             'count_text': _("%s Votes", count_data[suggested_answer]),
             }
             for suggested_answer in suggested_answers]
         graph_data = [{
             'text': _('Other (see comments)') if not suggested_answer else suggested_answer.value_label,
 =======
+=======
+>>>>>>> upstream/18.0
             'count_text': self.env._("%s Votes", count_data[suggested_answer]),
             }
             for suggested_answer in suggested_answers]
         graph_data = [{
             'text': self.env._('Other (see comments)') if not suggested_answer else suggested_answer.value_label,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'count': count_data[suggested_answer]
             }

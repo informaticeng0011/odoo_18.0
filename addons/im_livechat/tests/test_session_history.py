@@ -19,12 +19,18 @@ class TestImLivechatSessionHistory(TestImLivechatCommon):
         channel = self.env["discuss.channel"].browse(data["discuss.channel"][0]["id"])
         channel.with_user(operator).message_post(body="Hello, how can I help you?")
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.start_tour("/odoo", "im_livechat_history_back_and_forth_tour", login="operator")
 =======
+=======
+>>>>>>> upstream/18.0
         action = self.env.ref("im_livechat.discuss_channel_action_from_livechat_channel")
         self.start_tour(
             f"/odoo/livechat/{self.livechat_channel.id}/action-{action.id}",
             "im_livechat_history_back_and_forth_tour",
             login="operator",
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

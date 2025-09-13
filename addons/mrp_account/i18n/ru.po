@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* mrp_account
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Olga Gutorova, 2024
@@ -341,6 +342,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Olga Gutorova, 2024
@@ -349,11 +352,15 @@
 # Wil Odoo, 2025
 # Anastasiia Koroleva, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -761,6 +768,8 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Anastasiia Koroleva, 2025\n"
@@ -772,6 +781,9 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp_account
@@ -792,13 +804,19 @@ msgstr ""
 
 #. module: mrp_account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp_account/models/stock_move.py:0
 msgid "%s - Unbuild Cost Difference"
 msgstr ""
 
 #. module: mrp_account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp_account.report_wip
 msgid "2023-08-15"
@@ -863,7 +881,11 @@ msgstr "Счёт"
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_workcenter_productivity__account_move_line_id
 msgid "Account Move Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Проводка бухгалтерии"
+>>>>>>> upstream/18.0
 =======
 msgstr "Проводка бухгалтерии"
 >>>>>>> upstream/18.0
@@ -955,7 +977,11 @@ msgstr "Затраты Счет часов"
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting_line__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -965,7 +991,11 @@ msgstr "Создано:"
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting_line__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -1058,7 +1088,11 @@ msgstr "Ноутбук"
 msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -1072,7 +1106,11 @@ msgstr "Последнее обновление:"
 msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -1132,8 +1170,12 @@ msgstr "Линия счетов Mo Analytic"
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Please make sure the total credit amount equals the total debit amount."
+=======
+msgid "Please make sure the total credit amount equals the total debit amount."
+>>>>>>> upstream/18.0
 =======
 msgid "Please make sure the total credit amount equals the total debit amount."
 >>>>>>> upstream/18.0
@@ -1223,6 +1265,7 @@ msgid "Stock Move"
 msgstr "Движение запасов"
 
 #. module: mrp_account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1624,6 +1667,8 @@ msgstr "Уровень оценки запасов"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp_account.field_account_bank_statement_line__wip_production_ids
 #: model:ir.model.fields,help:mrp_account.field_account_move__wip_production_ids
 msgid ""
@@ -1635,9 +1680,15 @@ msgstr ""
 #: model:ir.model.fields,help:mrp_account.field_mrp_workcenter__expense_account_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The expense is accounted for when the manufacturing order is marked as done."
 " If not set, it is the expense account of the final product that will be "
 "used instead."
+=======
+"The expense is accounted for when the manufacturing order is marked as done. "
+"If not set, it is the expense account of the final product that will be used "
+"instead."
+>>>>>>> upstream/18.0
 =======
 "The expense is accounted for when the manufacturing order is marked as done. "
 "If not set, it is the expense account of the final product that will be used "
@@ -1649,12 +1700,15 @@ msgstr ""
 #: model:ir.model.fields,help:mrp_account.field_product_category__property_stock_account_production_cost_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This account will be used as a valuation counterpart for both components and final products for manufacturing orders.\n"
 "                If there are any workcenter/employee costs, this value will remain on the account once the production is completed."
 msgstr ""
 "Этот счет будет использоваться в качестве аналога оценки как компонентов, так и готовой продукции для производственных заказов.\n"
 "                Если есть какие-либо затраты на рабочий центр/работников, это значение останется на счете после завершения производства."
 =======
+=======
+>>>>>>> upstream/18.0
 "This account will be used as a valuation counterpart for both components and "
 "final products for manufacturing orders.\n"
 "                If there are any workcenter/employee costs, this value will "
@@ -1664,6 +1718,9 @@ msgstr ""
 "так и готовой продукции для производственных заказов.\n"
 "                Если есть какие-либо затраты на рабочий центр/работников, "
 "это значение останется на счете после завершения производства."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp_account
@@ -1772,6 +1829,12 @@ msgstr "Журнал учета производительности рабоч�
 msgid "[WC] %s"
 msgstr "[WC] %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Stock Valuation Layer"
+#~ msgstr "Уровень оценки запасов"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Stock Valuation Layer"

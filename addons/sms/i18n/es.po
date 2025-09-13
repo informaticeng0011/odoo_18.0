@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sms
 # 
 # Translators:
@@ -449,6 +450,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * sms
 #
 # Translators:
@@ -456,11 +459,15 @@
 # Wil Odoo, 2025
 # Larissa Manderfeld, 2025
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -829,12 +836,25 @@ msgstr ""
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/sms/es/"
 ">\n"
+=======
+"POT-Creation-Date: 2025-09-05 18:40+0000\n"
+"PO-Revision-Date: 2025-09-12 14:12+0000\n"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
+"Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/sms/es/>"
+"\n"
+>>>>>>> upstream/18.0
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
 
@@ -842,7 +862,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms.field_sms_composer__recipient_invalid_count
 msgid "# Invalid recipients"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# Destinatarios no válidos"
+=======
+msgstr "N.° de destinatarios no válidos"
+>>>>>>> upstream/18.0
 =======
 msgstr "N.° de destinatarios no válidos"
 >>>>>>> upstream/18.0
@@ -851,7 +875,11 @@ msgstr "N.° de destinatarios no válidos"
 #: model:ir.model.fields,field_description:sms.field_sms_composer__recipient_valid_count
 msgid "# Valid recipients"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# Destinatarios válidos"
+=======
+msgstr "N.° de destinatarios válidos"
+>>>>>>> upstream/18.0
 =======
 msgstr "N.° de destinatarios válidos"
 >>>>>>> upstream/18.0
@@ -929,17 +957,23 @@ msgstr ""
 msgid ""
 "<span class=\"o_stat_text\">Add</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Context Action</span>"
 msgstr ""
 "<span class=\"o_stat_text\">Añadir</span>\n"
 "                                <span class=\"o_stat_text\">acción de contexto</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                <span class=\"o_stat_text\">Context Action</"
 "span>"
 msgstr ""
 "<span class=\"o_stat_text\">Añadir</span>\n"
 "                                <span class=\"o_stat_text\">acción de "
 "contexto</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -952,6 +986,7 @@ msgstr "<span class=\"o_stat_text\">Vista previa</span>"
 msgid ""
 "<span class=\"o_stat_text\">Remove</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Context Action</span>"
 msgstr ""
 "<span class=\"o_stat_text\">Eliminar</span>\n"
@@ -962,6 +997,8 @@ msgstr ""
 msgid "<span class=\"text-warning\" invisible=\"not no_record\">No records</span>"
 msgstr "<span class=\"text-warning\" invisible=\"not no_record\">Sin registros</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                <span class=\"o_stat_text\">Context Action</"
 "span>"
 msgstr ""
@@ -975,12 +1012,16 @@ msgid ""
 "<span class=\"text-warning\" invisible=\"not no_record\">No records</span>"
 msgstr ""
 "<span class=\"text-warning\" invisible=\"not no_record\">Sin registros</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.ir_actions_server_view_form
 msgid ""
 "<span invisible=\"sms_method != 'sms'\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                The message will be sent as an SMS to the recipients of the template\n"
 "                                and will not appear in the messaging history.\n"
@@ -993,6 +1034,8 @@ msgid ""
 "                                The SMS will be sent as an SMS to the recipients of the\n"
 "                                template and it will also be posted as an internal note\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                The message will be sent as an SMS to the "
 "recipients of the template\n"
 "                                and will not appear in the messaging "
@@ -1008,11 +1051,15 @@ msgid ""
 "recipients of the\n"
 "                                template and it will also be posted as an "
 "internal note\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                in the messaging history.\n"
 "                            </span>"
 msgstr ""
 "<span invisible=\"sms_method != 'sms'\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                El mensaje se enviará como un SMS a los destinatarios de la plantilla \n"
 "                                y no aparecerá en el historial de mensajes.\n"
@@ -1025,6 +1072,8 @@ msgstr ""
 "                                El mensaje se enviará como un SMS a los destinatarios de la\n"
 "                                plantilla y también se publicará como una nota interna\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                El mensaje se enviará como un SMS a los "
 "destinatarios de la plantilla \n"
 "                                y no aparecerá en el historial de mensajes.\n"
@@ -1039,6 +1088,9 @@ msgstr ""
 "destinatarios de la\n"
 "                                plantilla y también se publicará como una "
 "nota interna\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                en el historial de mensajes.\n"
 "                            </span>"
@@ -1081,8 +1133,13 @@ msgid ""
 "this template"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Añada una acción contextual en el modelo relacionado para abrir un editor de"
 " SMS con esta plantilla"
+=======
+"Añada una acción contextual en el modelo relacionado para abrir un editor de "
+"SMS con esta plantilla"
+>>>>>>> upstream/18.0
 =======
 "Añada una acción contextual en el modelo relacionado para abrir un editor de "
 "SMS con esta plantilla"
@@ -1230,10 +1287,18 @@ msgstr "Cerrar"
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model,name:sms.model_res_company
 msgid "Companies"
 msgstr ""
+
+#. module: sms
+>>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:sms.model_res_company
+msgid "Companies"
+msgstr "Compañías"
 
 #. module: sms
 >>>>>>> upstream/18.0
@@ -1344,7 +1409,11 @@ msgstr "Descartar"
 #: model:ir.model.fields,field_description:sms.field_sms_tracker__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0
@@ -1439,16 +1508,22 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_template__template_fs
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "File from where the template originates. Used to reset broken template."
 msgstr ""
 "Archivo desde el que se origina la plantilla. Se utiliza para restablecer la"
 " plantilla rota."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "File from where the template originates. Used to reset broken template."
 msgstr ""
 "Archivo desde el que se origina la plantilla. Se utiliza para restablecer la "
 "plantilla rota."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -1552,8 +1627,13 @@ msgstr "Si está marcada, algunos mensajes tienen error de envío."
 #: model:ir.model.fields,help:sms.field_res_partner__phone_sanitized_blacklisted
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 =======
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
@@ -1591,8 +1671,13 @@ msgid ""
 "mobile and phone field in a model."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Indica si el número de teléfono en la lista negra es un teléfono fijo. Sirve"
 " para distinguir qué número está en la lista negra cuando hay un campo de "
+=======
+"Indica si el número de teléfono en la lista negra es un teléfono fijo. Sirve "
+"para distinguir qué número está en la lista negra cuando hay un campo de "
+>>>>>>> upstream/18.0
 =======
 "Indica si el número de teléfono en la lista negra es un teléfono fijo. Sirve "
 "para distinguir qué número está en la lista negra cuando hay un campo de "
@@ -1823,8 +1908,13 @@ msgstr "Número de mensajes con error de envío"
 #: model:ir.model.fields,help:sms.field_sms_composer__res_ids_count
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Number of recipients that will receive the SMS if sent in mass mode, without"
 " applying the Active Domain value"
+=======
+"Number of recipients that will receive the SMS if sent in mass mode, without "
+"applying the Active Domain value"
+>>>>>>> upstream/18.0
 =======
 "Number of recipients that will receive the SMS if sent in mass mode, without "
 "applying the Active Domain value"
@@ -1844,8 +1934,13 @@ msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 =======
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
@@ -1855,8 +1950,13 @@ msgstr ""
 "correos electrónicos. Si no se selecciona esta opción, se utilizará la "
 "versión en inglés. Por lo general, se usa una expresión de marcador de "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "posición para indicar el idioma adecuado, por ejemplo, {{ "
 "object.partner_id.lang }}."
+=======
+"posición para indicar el idioma adecuado, por ejemplo, "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 =======
 "posición para indicar el idioma adecuado, por ejemplo, "
 "{{ object.partner_id.lang }}."
@@ -2409,8 +2509,14 @@ msgstr "Fallos de envío "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Sending SMS can only be done on a mail.thread or a transient model"
 msgstr "Solo se puede enviar SMS en mail.thread o un modelo transitorio"
+=======
+msgid "Sending SMS can only be done on a not transient mail.thread model"
+msgstr ""
+"Solo es posible enviar SMS en un modelo mail.thread que no es transitorio"
+>>>>>>> upstream/18.0
 =======
 msgid "Sending SMS can only be done on a not transient mail.thread model"
 msgstr ""
@@ -2961,8 +3067,13 @@ msgid ""
 "registrations are suspended."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El servicio SMS no está disponible para los usuarios nuevos y el registro de"
 " nuevas cuentas está suspendido."
+=======
+"El servicio SMS no está disponible para los usuarios nuevos y el registro de "
+"nuevas cuentas está suspendido."
+>>>>>>> upstream/18.0
 =======
 "El servicio SMS no está disponible para los usuarios nuevos y el registro de "
 "nuevas cuentas está suspendido."
@@ -3067,12 +3178,15 @@ msgid ""
 "- 'Create Activity': create an activity (Discuss)\n"
 "- 'Send Email': post a message, a note or send an email (Discuss)\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': add or remove followers to a record (Discuss)\n"
 "- 'Create Record': create a new record with new values\n"
 "- 'Execute Code': a block of Python code that will be executed\n"
 "- 'Send Webhook Notification': send a POST request to an external system, also known as a Webhook\n"
 "- 'Execute Existing Actions': define an action that triggers several other server actions\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': "
 "add or remove followers to a record (Discuss)\n"
 "- 'Create Record': create a new record with new values\n"
@@ -3081,11 +3195,15 @@ msgid ""
 "also known as a Webhook\n"
 "- 'Execute Existing Actions': define an action that triggers several other "
 "server actions\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "Tipo de acción de servidor. Los siguientes valores están disponibles:\n"
 "- 'Actualizar un registro': actualizar los valores de un registro\n"
 "- 'Crear actividad': crear una actividad (conversaciones)\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "- 'Enviar correo electrónico': publicar un mensaje, una nota o enviar un correo electrónico (Conversaciones)\n"
 "- 'Enviar SMS': enviar SMS y registrarlos en los documentos (SMS)- 'Añadir o eliminar seguidores': añadir o eliminar seguidores de un registro (Conversaciones)\n"
@@ -3094,6 +3212,8 @@ msgstr ""
 "- 'Enviar notificación webhook': enviar una solicitud POST a un sistema externo, también conocido como Webhook\n"
 "- 'Ejecutar acciones existentes': definir una acción que activa otras acciones de servidor\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "- 'Enviar correo electrónico': publicar un mensaje, una nota o enviar un "
 "correo electrónico (Conversaciones)\n"
 "- 'Enviar SMS': enviar SMS y registrarlos en los documentos (SMS)- 'Añadir o "
@@ -3105,6 +3225,9 @@ msgstr ""
 "externo, también conocido como Webhook\n"
 "- 'Ejecutar acciones existentes': definir una acción que activa otras "
 "acciones de servidor\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -3148,6 +3271,7 @@ msgid ""
 "'email_outgoing': generated by a mailing\n"
 "'notification': generated by system e.g. tracking messages\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'auto_comment': generated by automated notification mechanism e.g. acknowledgment\n"
 "'user_notification': generated for a specific recipient"
 msgstr ""
@@ -3158,6 +3282,8 @@ msgstr ""
 "'notification': generado por el sistema, por ejemplo, mensajes de seguimiento\n"
 "'auto_comment': generado por un mecanismo de notificación automatizado, por ejemplo un acuse de recibo\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "'auto_comment': generated by automated notification mechanism e.g. "
 "acknowledgment\n"
 "'user_notification': generated for a specific recipient"
@@ -3172,6 +3298,9 @@ msgstr ""
 "seguimiento\n"
 "'auto_comment': generado por un mecanismo de notificación automatizado, por "
 "ejemplo un acuse de recibo\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "'user_notification': generado para un destinatario específico"
 
@@ -3291,12 +3420,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your sender name must be between 3 and 11 characters long and only contain alphanumeric characters.\n"
 "                        It must fit your company name, and you aren't allowed to modify it once you registered one, choose it carefully."
 msgstr ""
 "El nombre del remitente debe tener entre 3 y 11 caracteres de longitud y solo puede incluir caracteres alfanuméricos.\n"
 "                        Elija uno que vaya con el nombre de su empresa. No podrá modificarlo una vez que haya registrado uno, así que elíjalo con mucho cuidado."
 =======
+=======
+>>>>>>> upstream/18.0
 "Your sender name must be between 3 and 11 characters long and only contain "
 "alphanumeric characters.\n"
 "                        It must fit your company name, and you aren't "
@@ -3307,6 +3439,9 @@ msgstr ""
 "                        Elija uno que vaya con el nombre de su empresa. No "
 "podrá modificarlo una vez que haya registrado uno, así que elíjalo con mucho "
 "cuidado."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms

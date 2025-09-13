@@ -353,6 +353,7 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if default_code:
             domains.append([('default_code', '=', default_code)])
         if barcode:
@@ -508,18 +509,26 @@ class ProductProduct(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if barcode:
             domains.append([('barcode', '=', barcode)])
         if default_code:
             domains.append([('default_code', '=', default_code)])
         if name:
 <<<<<<< HEAD
+<<<<<<< HEAD
             domains += [[('name', '=', name)], [('name', 'ilike', name)]]
 =======
+=======
+>>>>>>> upstream/18.0
             domains.append([('name', '=', name)])
             # avoid matching unrelated products whose names merely contain that short string
             if len(name) > 4:
                 domains.append([('name', 'ilike', name)])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         company = company or self.env.company
@@ -603,6 +612,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

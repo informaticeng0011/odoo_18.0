@@ -108,6 +108,7 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -232,12 +233,17 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
 
     isCellReadonly(column, record) {
 =======
+=======
+>>>>>>> upstream/18.0
 
     isCellReadonly(column, record) {
         if (!["name", "product_id"].includes(column.name)) {
             return super.isCellReadonly(column, record);
         }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // The isCellReadonly method from the ListRenderer is used to determine the classes to apply to the cell.
         // We need this override to make sure some readonly classes are not applied to the cell if it is still editable.
@@ -305,6 +311,9 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -651,7 +660,10 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -839,6 +851,9 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

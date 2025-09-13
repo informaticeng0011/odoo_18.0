@@ -21,10 +21,16 @@ addons/*
 addons/web/static/lib/**/*
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Whitelist Hoot (but not its libs)
 !addons/web/static/lib/hoot
 !addons/web/static/lib/hoot/**/*
 addons/web/static/lib/hoot/lib/**/*
+=======
+# Whitelist Hoot
+!addons/web/static/lib/hoot
+!addons/web/static/lib/hoot/**/*
+>>>>>>> upstream/18.0
 =======
 # Whitelist Hoot
 !addons/web/static/lib/hoot
@@ -248,6 +254,11 @@ addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+!addons/website_slides
+!addons/website_slides/**/*
+>>>>>>> upstream/18.0
 =======
 !addons/website_slides
 !addons/website_slides/**/*

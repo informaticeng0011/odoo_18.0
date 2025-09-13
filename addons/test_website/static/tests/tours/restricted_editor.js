@@ -148,7 +148,10 @@ registerWebsitePreviewTour('test_restricted_editor_test_admin', {
     ...clickOnSave(),
 ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registerWebsitePreviewTour('test_restricted_editor_tester', {
     url: '/test_model/1',
@@ -160,4 +163,7 @@ registerWebsitePreviewTour('test_restricted_editor_tester', {
     },
     ...clickOnSave(),
 ]);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

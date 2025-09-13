@@ -2,7 +2,11 @@ import { describe, expect, test } from "@odoo/hoot";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { splitBlock, keydownTab, undo } from "../_helpers/user_actions";
+=======
+import { splitBlock, keydownTab, undo, tripleClick } from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 =======
 import { splitBlock, keydownTab, undo, tripleClick } from "../_helpers/user_actions";
 >>>>>>> upstream/18.0
@@ -1123,7 +1127,10 @@ describe("with selection", () => {
                         <ol>
                             <li>[b</li>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                             <li class="oe-nested">
                                 <ol>
                                     <li>]c</li>
@@ -1144,13 +1151,19 @@ describe("with selection", () => {
                         [b
                     </li><li class="oe-nested">
                         <ol>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                             <li>]c</li>
                         </ol>
                     </li>
                 </ul>`),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             stepFunction: async (editor) => {
                 await tripleClick(editor.editable.querySelectorAll("li")[1]);
                 await keydownTab(editor);
@@ -1165,6 +1178,9 @@ describe("with selection", () => {
                         </ol>
                     </li>
                 </ul>`),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         });
     });

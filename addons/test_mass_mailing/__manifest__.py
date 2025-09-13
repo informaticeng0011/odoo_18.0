@@ -13,6 +13,10 @@ test_mail. """,
         'mass_mailing',
         'mass_mailing_sms',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'sms_twilio',
+>>>>>>> upstream/18.0
 =======
         'sms_twilio',
 >>>>>>> upstream/18.0

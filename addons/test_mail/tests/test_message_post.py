@@ -1203,7 +1203,11 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
         """
         xml_attachment, octet_attachment, pdf_attachment = (
 <<<<<<< HEAD
+<<<<<<< HEAD
             [('List1', b'<xml>My xml attachment</xml>')],
+=======
+            [('List1', b'<?xml version="1.0"?>My xml attachment<_/>')],
+>>>>>>> upstream/18.0
 =======
             [('List1', b'<?xml version="1.0"?>My xml attachment<_/>')],
 >>>>>>> upstream/18.0

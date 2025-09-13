@@ -56,7 +56,11 @@ export class PartnerList extends Component {
 
     goToOrders(partner) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.props.close();
+=======
+        this.clickPartner(this.props.partner);
+>>>>>>> upstream/18.0
 =======
         this.clickPartner(this.props.partner);
 >>>>>>> upstream/18.0

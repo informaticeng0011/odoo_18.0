@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* loyalty
 # 
 # Translators:
@@ -8,6 +9,8 @@
 # Tony Ng, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * loyalty
 #
 # Translators:
@@ -15,11 +18,15 @@
 # Tony Ng, 2025
 #
 # "Tony Ng (ngto)" <ngto@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,6 +270,8 @@ msgstr ""
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-07-18 18:39+0000\n"
 "PO-Revision-Date: 2025-08-12 22:21+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
@@ -274,6 +283,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: loyalty
@@ -431,7 +443,10 @@ msgid ""
 "        "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"background: #ffffff\">\n"
 "                <div style=\"margin:0px; font-size:24px; font-family:arial, 'helvetica neue', helvetica, sans-serif; line-height:36px; color:#333333; text-align: center\">\n"
 "                    這是你的禮品卡！\n"
@@ -459,6 +474,9 @@ msgstr ""
 "                </div>\n"
 "            </div>\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: loyalty
@@ -1417,12 +1435,15 @@ msgstr "生成電子錢包"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "Generate {{props.context.program_item_name}}"
 msgstr "產生 {{props.context.program_item_name}}"
 
 #. module: loyalty
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2010,6 +2031,10 @@ msgstr "門戶可見"
 
 #. module: loyalty
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:loyalty.model_product_pricelist
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:loyalty.model_product_pricelist
 >>>>>>> upstream/18.0
@@ -2353,7 +2378,10 @@ msgstr "這是此獎勵可以套用折扣的最大金額，保留為 0 表示無
 #. module: loyalty
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/loyalty/models/product_pricelist.py:0
 msgid ""
 "This pricelist may not be archived. It is being used for active promotion "
@@ -2362,6 +2390,9 @@ msgstr ""
 
 #. module: loyalty
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/loyalty/models/product_product.py:0
 msgid ""
@@ -2441,7 +2472,10 @@ msgstr "觸發器"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2595,6 +2629,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2838,7 +2875,11 @@ msgstr "你即將產生 %(program_type)s 計劃，價值為 %(value)s ，適用�
 #: model:mail.template,subject:loyalty.mail_template_gift_card
 msgid "Your Gift Card at {{ object.company_id.name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您在 {{ object.company_id.name }}的禮品卡"
+=======
+msgstr "你的 {{ object.company_id.name }} 禮品卡"
+>>>>>>> upstream/18.0
 =======
 msgstr "你的 {{ object.company_id.name }} 禮品卡"
 >>>>>>> upstream/18.0
@@ -2847,7 +2888,11 @@ msgstr "你的 {{ object.company_id.name }} 禮品卡"
 #: model:mail.template,subject:loyalty.mail_template_loyalty_card
 msgid "Your reward coupon from {{ object.program_id.company_id.name }} "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您透過 {{ object.program_id.company_id.name }} 活動獲得此優惠券 "
+=======
+msgstr "你的 {{ object.program_id.company_id.name }} 獎勵優惠券 "
+>>>>>>> upstream/18.0
 =======
 msgstr "你的 {{ object.program_id.company_id.name }} 獎勵優惠券 "
 >>>>>>> upstream/18.0
@@ -3032,7 +3077,10 @@ msgstr "使用"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3167,6 +3215,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3317,12 +3368,15 @@ msgstr "您的訂單"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: loyalty
 #. odoo-javascript
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "{{loyalty_el_title}}"
 msgstr "{{loyalty_el_title}}"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

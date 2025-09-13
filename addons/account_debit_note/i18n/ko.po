@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* account_debit_note
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -11,7 +15,11 @@
 # Daye Jeong, 2024
 # Sarah Park, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -19,6 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +38,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ko\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-05 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sarah Park, 2024\n"
@@ -37,6 +48,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -59,15 +73,21 @@ msgstr "취소"
 #: model:ir.model.fields,help:account_debit_note.field_account_journal__debit_sequence
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Check this box if you don't want to share the same sequence for invoices and"
 " debit notes made from this journal"
 msgstr "이 전표에서 생성된 청구서 및 직불 메모에 대해 동일한 순서를 공유하지 않으려면 이 확인란을 선택합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "Check this box if you don't want to share the same sequence for invoices and "
 "debit notes made from this journal"
 msgstr ""
 "이 전표에서 생성된 청구서 및 직불 메모에 대해 동일한 순서를 공유하지 않으려"
 "면 이 확인란을 선택합니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_debit_note
@@ -145,7 +165,13 @@ msgid ""
 "In case you need to do corrections for every line, it can be in handy to "
 "copy them.  We won't copy them for debit notes from credit notes. "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "전체 항목을 수정해야 할 경우, 복사하면 간편하게 사용할 수 있습니다. 차변전표에서 대변전표로는 복사할 수 없습니다."
+=======
+msgstr ""
+"전체 항목을 수정해야 할 경우, 복사하면 간편하게 사용할 수 있습니다. 차변전표"
+"에서 대변전표로는 복사할 수 없습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "전체 항목을 수정해야 할 경우, 복사하면 간편하게 사용할 수 있습니다. 차변전표"
@@ -222,7 +248,11 @@ msgstr "이 청구서에 대해 생성된 차변전표"
 #. module: account_debit_note
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
+=======
+#: code:addons/account_debit_note/models/account_move.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/account_debit_note/models/account_move.py:0
 >>>>>>> upstream/18.0
@@ -241,7 +271,13 @@ msgid ""
 "You can make a debit note only for a Customer Invoice, a Customer Credit "
 "Note, a Vendor Bill or a Vendor Credit Note."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "고객용 청구서/대변전표, 공급업체 청구서/대변전표에만 차변전표를 생성할 수 있습니다."
+=======
+msgstr ""
+"고객용 청구서/대변전표, 공급업체 청구서/대변전표에만 차변전표를 생성할 수 있"
+"습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "고객용 청구서/대변전표, 공급업체 청구서/대변전표에만 차변전표를 생성할 수 있"
@@ -259,12 +295,18 @@ msgstr "승인된 전표만 차변 입력할 수 있습니다."
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't make a debit note for an invoice that is already linked to a debit"
 " note."
 msgstr "차변전표를 생성할 수 없습니다. 이미 청구서에 차변전표가 연결되어 있습니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "You can't make a debit note for an invoice that is already linked to a debit "
 "note."
 msgstr ""
 "차변전표를 생성할 수 없습니다. 이미 청구서에 차변전표가 연결되어 있습니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

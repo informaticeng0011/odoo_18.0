@@ -1659,7 +1659,10 @@ class PropertiesCase(TestPropertiesMixin):
 
     @users('test')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_properties_field_update_parent(self):
         """ Check that the user does not get an `AccessError` when modifying the
         parent of a record and thereby making it forbidden. The default values
@@ -1684,6 +1687,9 @@ class PropertiesCase(TestPropertiesMixin):
         self.env.flush_all()
 
     @users('test')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_properties_field_no_parent_access(self):
         """We can read the child, but not the definition record.
@@ -1726,6 +1732,10 @@ class PropertiesCase(TestPropertiesMixin):
             }],
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        email.invalidate_recordset()
+>>>>>>> upstream/18.0
 =======
         email.invalidate_recordset()
 >>>>>>> upstream/18.0

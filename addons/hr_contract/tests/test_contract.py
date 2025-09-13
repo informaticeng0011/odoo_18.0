@@ -33,7 +33,10 @@ class TestHrContracts(TestContractCommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.resource_calendar_part_time = cls.env['resource.calendar'].create([{
             'name': "Test Calendar: Part Time",
             'two_weeks_calendar': False,
@@ -56,6 +59,9 @@ class TestHrContracts(TestContractCommon):
             ]],
         }])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def create_contract(self, state, kanban_state, start, end=None, employee_id=None):
         return self.env['hr.contract'].create({
@@ -254,7 +260,10 @@ class TestHrContracts(TestContractCommon):
             "Leave under active contract should update",
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_contract_unusual_days(self):
         """
@@ -314,4 +323,7 @@ class TestHrContracts(TestContractCommon):
         contract_1.state = 'draft'
         result = self.employee._get_unusual_days('2024-11-01 01:00:00', '2024-11-10 22:00:00')
         self.assertEqual(result, get_expected_days('full_time'), 'Full-time calendar should be selected (Contract B)')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

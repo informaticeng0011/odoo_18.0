@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_automation
 # 
+=======
+# * base_automation
+#
+>>>>>>> upstream/18.0
 =======
 # * base_automation
 #
@@ -20,6 +25,7 @@
 # Levent Karakaş <levent@mektup.at>, 2024
 # Murat Kaplan <muratk@projetgrup.com>, 2024
 # Tugay Hatıl <tugayh@projetgrup.com>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,11 +204,16 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 # "Deniz Guvener Unal (degu)" <degu@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# "Deniz Guvener Unal (degu)" <degu@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 12:50+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -385,6 +396,8 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-29 08:46+0000\n"
 "Last-Translator: \"Deniz Guvener Unal (degu)\" <degu@odoo.com>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
@@ -395,6 +408,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -412,7 +428,11 @@ msgstr ""
 #: code:addons/base_automation/static/src/kanban_header_patch.js:0
 msgid "\"%s\" tag is added"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "\"%s\" etiketi eklendi"
+>>>>>>> upstream/18.0
 =======
 msgstr "\"%s\" etiketi eklendi"
 >>>>>>> upstream/18.0
@@ -425,6 +445,11 @@ msgid ""
 "Code\" action type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\"Canlı güncellemede\" otomasyon kuralları yalnızca \"Python Kodu Çalıştır\""
+" eylem türüyle kullanılabilir."
+>>>>>>> upstream/18.0
 =======
 "\"Canlı güncellemede\" otomasyon kuralları yalnızca \"Python Kodu Çalıştır\""
 " eylem türüyle kullanılabilir."
@@ -435,7 +460,11 @@ msgstr ""
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "%s actions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s eylemler"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s eylemler"
 >>>>>>> upstream/18.0
@@ -445,7 +474,11 @@ msgstr "%s eylemler"
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "1 action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 eylem"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 eylem"
 >>>>>>> upstream/18.0
@@ -454,7 +487,11 @@ msgstr "1 eylem"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<code>env</code>: environment on which the action is triggered"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<code>env</code>: eylemin tetiklendiği ortam"
+>>>>>>> upstream/18.0
 =======
 msgstr "<code>env</code>: eylemin tetiklendiği ortam"
 >>>>>>> upstream/18.0
@@ -466,6 +503,11 @@ msgid ""
 " a void recordset"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<code>model</code>: işlemin tetiklendiği kaydın modeli; boş bir kayıt "
+"kümesidir"
+>>>>>>> upstream/18.0
 =======
 "<code>model</code>: işlemin tetiklendiği kaydın modeli; boş bir kayıt "
 "kümesidir"
@@ -478,6 +520,11 @@ msgid ""
 "as a dict."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<code>payload</code>: çağrının yükü (GET parametreleri, JSON gövdesi), bir "
+"dict olarak."
+>>>>>>> upstream/18.0
 =======
 "<code>payload</code>: çağrının yükü (GET parametreleri, JSON gövdesi), bir "
 "dict olarak."
@@ -496,7 +543,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
 msgid "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Actions\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Eylemler\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Eylemler\"/>"
 >>>>>>> upstream/18.0
@@ -508,6 +559,12 @@ msgid ""
 "out-of-the-box for any webhook coming from another Odoo instance."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-info-circle\"/>Varsayılan hedef kayıt alma yöntemi, başka "
+"bir Odoo örneğinden gelen herhangi bir webhook için kutudan çıkar çıkmaz "
+"çalışır."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-info-circle\"/>Varsayılan hedef kayıt alma yöntemi, başka "
 "bir Odoo örneğinden gelen herhangi bir webhook için kutudan çıkar çıkmaz "
@@ -522,6 +579,12 @@ msgid ""
 "save or not</em>."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-warning\"/>Kullanıcı arayüzündeki değişikliklerle "
+"tetiklenen otomasyon kuralları, izlenen alanlar <em>her değiştiğinde</em> "
+"<em>(kaydetmeseniz bile)</em> çalıştırılır. "
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-warning\"/>Kullanıcı arayüzündeki değişikliklerle "
 "tetiklenen otomasyon kuralları, izlenen alanlar <em>her değiştiğinde</em> "
@@ -532,7 +595,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<span class=\"text-muted\"> Available variables: </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\"> Kullanılabilir değişkenler: </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\"> Kullanılabilir değişkenler: </span>"
 >>>>>>> upstream/18.0
@@ -544,6 +611,12 @@ msgid ""
 "                                                        <span invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"evaluation_type != 'value'\">-{</span>\n"
+"                                                        <span invisible="
+"\"evaluation_type != 'equation'\">olarak</span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"evaluation_type != 'value'\">-{</span>\n"
 "                                                        <span invisible="
@@ -558,6 +631,12 @@ msgid ""
 "                                    <span invisible=\"trigger != 'on_time'\">after</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"trigger != 'on_time_created'\">oluşturulduktan sonra</span>\n"
+"                                    <span invisible=\"trigger != 'on_time_updated'\">son güncellemeden sonra</span>\n"
+"                                    <span invisible=\"trigger != 'on_time'\">ardından</span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"trigger != 'on_time_created'\">oluşturulduktan sonra</span>\n"
 "                                    <span invisible=\"trigger != 'on_time_updated'\">son güncellemeden sonra</span>\n"
@@ -568,7 +647,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<span>by adding</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ekleyerek</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ekleyerek</span>"
 >>>>>>> upstream/18.0
@@ -577,7 +660,11 @@ msgstr "<span>ekleyerek</span>"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<span>by clearing it</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>temizleyerek</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>temizleyerek</span>"
 >>>>>>> upstream/18.0
@@ -586,7 +673,11 @@ msgstr "<span>temizleyerek</span>"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<span>by removing</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>kaldırarak</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>kaldırarak</span>"
 >>>>>>> upstream/18.0
@@ -595,7 +686,11 @@ msgstr "<span>kaldırarak</span>"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<span>by setting it to</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>şu ayar ile:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>şu ayar ile:</span>"
 >>>>>>> upstream/18.0
@@ -604,7 +699,11 @@ msgstr "<span>şu ayar ile:</span>"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong><i class=\"fa fa-lock\"/> Gizli tutun, güvende tutun.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong><i class=\"fa fa-lock\"/> Gizli tutun, güvende tutun.</strong>"
 >>>>>>> upstream/18.0
@@ -624,7 +723,11 @@ msgstr "Aksiyonlar"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Actions To Do"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yapılacak Eylemler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yapılacak Eylemler"
 >>>>>>> upstream/18.0
@@ -638,7 +741,11 @@ msgstr "Etkin"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Add an action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir eylem ekleyin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bir eylem ekleyin"
 >>>>>>> upstream/18.0
@@ -652,7 +759,11 @@ msgid "Add followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Takipçileri ekle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Takipçileri ekle"
 >>>>>>> upstream/18.0
@@ -674,7 +785,11 @@ msgstr "Takipçileri ekle"
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid "Add followers: %(partner_names)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Takipçi ekleyin: %(partner_names)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Takipçi ekleyin: %(partner_names)s"
 >>>>>>> upstream/18.0
@@ -683,7 +798,11 @@ msgstr "Takipçi ekleyin: %(partner_names)s"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_time_created
 msgid "After creation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oluşturulduktan sonra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oluşturulduktan sonra"
 >>>>>>> upstream/18.0
@@ -692,7 +811,11 @@ msgstr "Oluşturulduktan sonra"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_time_updated
 msgid "After last update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Son güncellemeden sonra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Son güncellemeden sonra"
 >>>>>>> upstream/18.0
@@ -713,7 +836,11 @@ msgstr "Arşivlendi"
 #: model_terms:ir.actions.act_window,help:base_automation.base_automation_act
 msgid "Automate <em>everything</em> with Automation Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomasyon Kuralları ile <em>her şeyi</em> otomatikleştirin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomasyon Kuralları ile <em>her şeyi</em> otomatikleştirin"
 >>>>>>> upstream/18.0
@@ -769,7 +896,11 @@ msgid "Automation Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomasyon Kuralları"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomasyon Kuralları"
 >>>>>>> upstream/18.0
@@ -907,7 +1038,11 @@ msgstr "Otomasyon Kuralları"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__name
 msgid "Automation Rule Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomasyon Kuralı Adı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomasyon Kuralı Adı"
 >>>>>>> upstream/18.0
@@ -919,7 +1054,11 @@ msgstr "Otomasyon Kuralı Adı"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_tree
 msgid "Automation Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomasyon Kuralları"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomasyon Kuralları"
 >>>>>>> upstream/18.0
@@ -928,7 +1067,11 @@ msgstr "Otomasyon Kuralları"
 #: model:ir.actions.server,name:base_automation.ir_cron_data_base_automation_check_ir_actions_server
 msgid "Automation Rules: check and execute"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomasyon Kuralları: kontrol edin ve uygulayın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomasyon Kuralları: kontrol edin ve uygulayın"
 >>>>>>> upstream/18.0
@@ -943,7 +1086,11 @@ msgstr "Otomasyonlar"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_time
 msgid "Based on date field"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarih alanına göre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tarih alanına göre"
 >>>>>>> upstream/18.0
@@ -960,6 +1107,12 @@ msgid ""
 "have to update any automated system that calls this webhook to the new URL."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu URL'nin artık güvenli olmadığını düşünüyorsanız gizli anahtarını "
+"değiştirin. Bu webhook'u çağıran tüm otomatik sistemleri yeni URL ile "
+"güncellemeniz gerekir."
+>>>>>>> upstream/18.0
 =======
 "Bu URL'nin artık güvenli olmadığını düşünüyorsanız gizli anahtarını "
 "değiştirin. Bu webhook'u çağıran tüm otomatik sistemleri yeni URL ile "
@@ -977,7 +1130,11 @@ msgstr "Hesapla"
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid "Create %(model_name)s with name %(value)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(value)s adı ile %(model_name)s oluşturun"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(value)s adı ile %(model_name)s oluşturun"
 >>>>>>> upstream/18.0
@@ -993,7 +1150,11 @@ msgstr "Yeni Kayıt Oluştur"
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid "Create activity: %(activity_name)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivite oluşturun: %(activity_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktivite oluşturun: %(activity_name)s"
 >>>>>>> upstream/18.0
@@ -1045,6 +1206,12 @@ msgid ""
 "meeting."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tetikleme tarihinden sonraki gecikme. Toplantıdan 15 dakika önce hatırlatma "
+"göndermek gibi tetikleme tarihinden önce gerçekleşmesi gereken durumlar için"
+" negatif bir sayı girebilirsiniz."
+>>>>>>> upstream/18.0
 =======
 "Tetikleme tarihinden sonraki gecikme. Toplantıdan 15 dakika önce hatırlatma "
 "göndermek gibi tetikleme tarihinden önce gerçekleşmesi gereken durumlar için"
@@ -1065,7 +1232,11 @@ msgstr "Gecikme türü"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Delete Action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eylemi Sil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eylemi Sil"
 >>>>>>> upstream/18.0
@@ -1075,7 +1246,11 @@ msgstr "Eylemi Sil"
 #: code:addons/base_automation/static/src/base_automation_trigger_selection_field.js:0
 msgid "Deprecated (do not use)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kullanımdan kaldırıldı (kullanmayın)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kullanımdan kaldırıldı (kullanmayın)"
 >>>>>>> upstream/18.0
@@ -1090,7 +1265,11 @@ msgstr "Açıklama"
 #: code:addons/base_automation/static/src/base_automation_error_dialog.xml:0
 msgid "Disable Automation Rule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomasyon Kuralını Devre Dışı Bırak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomasyon Kuralını Devre Dışı Bırak"
 >>>>>>> upstream/18.0
@@ -1105,11 +1284,17 @@ msgid ""
 "                important and/or required fields."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Bu otomasyon kuralını devre dışı bırakmak iş akışınıza devam etmenizi sağlar \n"
 "                ancak, bu noktadan sonra oluşturulan veriler bozulabilir;\n"
 "                çünkü muhtemelen önemli ve/veya zorunlu alanları ayarlayan\n"
 "                bir özelleştirmeyi devre dışı bırakmış oluyorsunuz."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -1122,7 +1307,11 @@ msgstr "İsim Göster"
 #: code:addons/base_automation/static/src/base_automation_error_dialog.xml:0
 msgid "Edit Automation Rule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomasyon Kuralını Düzenle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomasyon Kuralını Düzenle"
 >>>>>>> upstream/18.0
@@ -1138,7 +1327,11 @@ msgstr "E-Posta"
 #: code:addons/base_automation/static/src/base_automation_trigger_selection_field.js:0
 msgid "Email Events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etkinlikleri E-Posta Yoluyla Gönderin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etkinlikleri E-Posta Yoluyla Gönderin"
 >>>>>>> upstream/18.0
@@ -1151,6 +1344,12 @@ msgid ""
 "records, as there are no more records to apply these changes to!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kayıtlar silinirken e-posta, takipçi veya aktivite işlem türleri "
+"kullanılamaz çünkü bu değişikliklerin uygulanabileceği başka kayıt "
+"kalmamıştır!"
+>>>>>>> upstream/18.0
 =======
 "Kayıtlar silinirken e-posta, takipçi veya aktivite işlem türleri "
 "kullanılamaz çünkü bu değişikliklerin uygulanabileceği başka kayıt "
@@ -1179,7 +1378,11 @@ msgstr "Dış"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Extra Conditions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İlave Koşullar"
+>>>>>>> upstream/18.0
 =======
 msgstr "İlave Koşullar"
 >>>>>>> upstream/18.0
@@ -1194,7 +1397,11 @@ msgstr "Değişikliği tetikleyen alanlar."
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Generic User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genel Kullanıcı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Genel Kullanıcı"
 >>>>>>> upstream/18.0
@@ -1220,7 +1427,11 @@ msgid ""
 "If present, this condition must be satisfied before executing the automation"
 " rule."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varsa, bu koşul otomasyon kuralı çalıştırılmadan önce sağlanmalıdır."
+>>>>>>> upstream/18.0
 =======
 msgstr "Varsa, bu koşul otomasyon kuralı çalıştırılmadan önce sağlanmalıdır."
 >>>>>>> upstream/18.0
@@ -1232,6 +1443,11 @@ msgid ""
 "record. Not checked on record creation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Varsa, bu koşul kaydın güncellenmesinden önce sağlanmalıdır. Kayıt "
+"oluşturulurken kontrol edilmez."
+>>>>>>> upstream/18.0
 =======
 "Varsa, bu koşul kaydın güncellenmesinden önce sağlanmalıdır. Kayıt "
 "oluşturulurken kontrol edilmez."
@@ -1241,7 +1457,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Keep track of what this automation does and why it exists..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu otomasyonun ne yaptığını ve neden var olduğunu takip edin..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu otomasyonun ne yaptığını ve neden var olduğunu takip edin..."
 >>>>>>> upstream/18.0
@@ -1270,7 +1490,11 @@ msgstr "Gecikme Mesajı"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__log_webhook_calls
 msgid "Log Calls"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aramaları Günlüğe Kaydet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aramaları Günlüğe Kaydet"
 >>>>>>> upstream/18.0
@@ -1313,6 +1537,11 @@ msgid ""
 "%(rule_name)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(action_name)s eyleminin modeli, %(rule_name)s otomasyon kuralınınkiyle "
+"eşleşmelidir."
+>>>>>>> upstream/18.0
 =======
 "%(action_name)s eyleminin modeli, %(rule_name)s otomasyon kuralınınkiyle "
 "eşleşmelidir."
@@ -1322,7 +1551,11 @@ msgstr ""
 #: model:ir.model.fields,help:base_automation.field_base_automation__model_id
 msgid "Model on which the automation rule runs."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomasyon kuralının çalıştığı model."
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomasyon kuralının çalıştığı model."
 >>>>>>> upstream/18.0
@@ -1339,7 +1572,11 @@ msgstr "Aylar"
 #: code:addons/base_automation/models/base_automation.py:0
 msgid "No record to run the automation on was found."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomasyonun çalıştırılacağı bir kayıt bulunamadı."
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomasyonun çalıştırılacağı bir kayıt bulunamadı."
 >>>>>>> upstream/18.0
@@ -1352,6 +1589,11 @@ msgid ""
 "schedule."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu otomasyon kuralının, zamanlamasından itibaren en fazla %d dakika sonra "
+"tetiklenebileceğini unutmayın."
+>>>>>>> upstream/18.0
 =======
 "Bu otomasyon kuralının, zamanlamasından itibaren en fazla %d dakika sonra "
 "tetiklenebileceğini unutmayın."
@@ -1371,7 +1613,11 @@ msgstr "Değişiklik Alanlarında Tetikleyici"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_change
 msgid "On UI change"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arayüzde değişiklik olunca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arayüzde değişiklik olunca"
 >>>>>>> upstream/18.0
@@ -1380,7 +1626,11 @@ msgstr "Arayüzde değişiklik olunca"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_archive
 msgid "On archived"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arşivlendiğinde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arşivlendiğinde"
 >>>>>>> upstream/18.0
@@ -1389,7 +1639,11 @@ msgstr "Arşivlendiğinde"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_create
 msgid "On creation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oluşturulduğunda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oluşturulduğunda"
 >>>>>>> upstream/18.0
@@ -1398,7 +1652,11 @@ msgstr "Oluşturulduğunda"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_unlink
 msgid "On deletion"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Silindiğinde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Silindiğinde"
 >>>>>>> upstream/18.0
@@ -1407,7 +1665,11 @@ msgstr "Silindiğinde"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_message_received
 msgid "On incoming message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelen mesajda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelen mesajda"
 >>>>>>> upstream/18.0
@@ -1416,7 +1678,11 @@ msgstr "Gelen mesajda"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_message_sent
 msgid "On outgoing message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Giden mesajda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Giden mesajda"
 >>>>>>> upstream/18.0
@@ -1425,7 +1691,11 @@ msgstr "Giden mesajda"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_create_or_write
 msgid "On save"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kaydedildiğinde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kaydedildiğinde"
 >>>>>>> upstream/18.0
@@ -1434,7 +1704,11 @@ msgstr "Kaydedildiğinde"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_unarchive
 msgid "On unarchived"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arşivden Çıkarıldığında"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arşivden Çıkarıldığında"
 >>>>>>> upstream/18.0
@@ -1443,7 +1717,11 @@ msgstr "Arşivden Çıkarıldığında"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_write
 msgid "On update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Güncellendiğinde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Güncellendiğinde"
 >>>>>>> upstream/18.0
@@ -1452,7 +1730,11 @@ msgstr "Güncellendiğinde"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_webhook
 msgid "On webhook"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhook tetiklendiğinde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Webhook tetiklendiğinde"
 >>>>>>> upstream/18.0
@@ -1473,7 +1755,11 @@ msgstr "Not Olarak Gönder"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_priority_set
 msgid "Priority is set to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Öncelik şuna ayarlandı:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Öncelik şuna ayarlandı:"
 >>>>>>> upstream/18.0
@@ -1482,7 +1768,11 @@ msgstr "Öncelik şuna ayarlandı:"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__record_getter
 msgid "Record Getter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kayıt Getirici"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kayıt Getirici"
 >>>>>>> upstream/18.0
@@ -1492,7 +1782,11 @@ msgstr "Kayıt Getirici"
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Remove followers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Takipçileri Kaldır"
+>>>>>>> upstream/18.0
 =======
 msgstr "Takipçileri Kaldır"
 >>>>>>> upstream/18.0
@@ -1502,7 +1796,11 @@ msgstr "Takipçileri Kaldır"
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid "Remove followers: %(partner_names)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Takipçiyi kaldır: %(partner_names)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Takipçiyi kaldır: %(partner_names)s"
 >>>>>>> upstream/18.0
@@ -1511,7 +1809,11 @@ msgstr "Takipçiyi kaldır: %(partner_names)s"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Rotate Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gizli Anahtarı Döndür"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gizli Anahtarı Döndür"
 >>>>>>> upstream/18.0
@@ -1520,7 +1822,11 @@ msgstr "Gizli Anahtarı Döndür"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Select a date field..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir tarih alanı seçin..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bir tarih alanı seçin..."
 >>>>>>> upstream/18.0
@@ -1529,7 +1835,11 @@ msgstr "Bir tarih alanı seçin..."
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Select a value..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir değer seçin..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bir değer seçin..."
 >>>>>>> upstream/18.0
@@ -1538,7 +1848,11 @@ msgstr "Bir değer seçin..."
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Select fields..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alanları seçin..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Alanları seçin..."
 >>>>>>> upstream/18.0
@@ -1554,7 +1868,11 @@ msgstr "SMS Gönder"
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid "Send SMS: %(template_name)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS Gönder: %(template_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS Gönder: %(template_name)s"
 >>>>>>> upstream/18.0
@@ -1564,7 +1882,11 @@ msgstr "SMS Gönder: %(template_name)s"
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid "Send Webhook Notification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhook Bildirimi Gönder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Webhook Bildirimi Gönder"
 >>>>>>> upstream/18.0
@@ -1577,6 +1899,12 @@ msgid ""
 "                tasks when a specific tag is added."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bir nesne durum değiştirdiğinde e-posta gönderin, bir ay boyunca \n"
+"                etkin olmayan kayıtları arşivleyin veya belirli bir etiket eklendiğinde görevleri takip etmek\n"
+"                için kendinize hatırlatma gönderin."
+>>>>>>> upstream/18.0
 =======
 "Bir nesne durum değiştirdiğinde e-posta gönderin, bir ay boyunca \n"
 "                etkin olmayan kayıtları arşivleyin veya belirli bir etiket eklendiğinde görevleri takip etmek\n"
@@ -1591,11 +1919,17 @@ msgid ""
 "added.<br>With Automation Rules, you can automate any workflow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Bir nesne durum değiştirdiğinde e-posta gönderin, bir aydan fazla "
 "kullanılmayan kayıtları arşivleyin ya da belirli bir etiket eklendiğinde "
 "takip hatırlatmaları gönderin.<br>Otomasyon Kuralları ile her türlü iş "
 "akışını otomatikleştirebilirsiniz."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -1609,7 +1943,11 @@ msgstr "E-posta Gönder"
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid "Send email: %(template_name)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-posta gönder: %(template_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-posta gönder: %(template_name)s"
 >>>>>>> upstream/18.0
@@ -1626,6 +1964,11 @@ msgid ""
 "store it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bazı tetikleyiciler, bir seçim alanına referans gerektirir. Bu alan, bu "
+"referansı saklamak için kullanılır."
+>>>>>>> upstream/18.0
 =======
 "Bazı tetikleyiciler, bir seçim alanına referans gerektirir. Bu alan, bu "
 "referansı saklamak için kullanılır."
@@ -1638,6 +1981,11 @@ msgid ""
 " it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bazı tetikleyicilerin başka bir alana referansa ihtiyacı vardır. Bu alan, o "
+"referansı saklamak için kullanılır."
+>>>>>>> upstream/18.0
 =======
 "Bazı tetikleyicilerin başka bir alana referansa ihtiyacı vardır. Bu alan, o "
 "referansı saklamak için kullanılır."
@@ -1653,7 +2001,11 @@ msgstr "Belirli Kullanıcı"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_stage_set
 msgid "Stage is set to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aşama şuna ayarlandı:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aşama şuna ayarlandı:"
 >>>>>>> upstream/18.0
@@ -1663,7 +2015,11 @@ msgstr "Aşama şuna ayarlandı:"
 #: code:addons/base_automation/static/src/kanban_header_patch.js:0
 msgid "Stage is set to \"%s\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aşama, \"%s\" olarak ayarlandı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aşama, \"%s\" olarak ayarlandı"
 >>>>>>> upstream/18.0
@@ -1672,7 +2028,11 @@ msgstr "Aşama, \"%s\" olarak ayarlandı"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_state_set
 msgid "State is set to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Durum şuna ayarlandı:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Durum şuna ayarlandı:"
 >>>>>>> upstream/18.0
@@ -1681,7 +2041,11 @@ msgstr "Durum şuna ayarlandı:"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_tag_set
 msgid "Tag is added"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etiket eklendi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etiket eklendi"
 >>>>>>> upstream/18.0
@@ -1690,7 +2054,11 @@ msgstr "Etiket eklendi"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Target Record"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hedef Kayıt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hedef Kayıt"
 >>>>>>> upstream/18.0
@@ -1702,6 +2070,10 @@ msgid ""
 "Target model of actions %(action_names)s are different from rule model."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(action_names)s eylemlerinin hedef modeli kural modeliyle uyumlu değil."
+>>>>>>> upstream/18.0
 =======
 "%(action_names)s eylemlerinin hedef modeli kural modeliyle uyumlu değil."
 >>>>>>> upstream/18.0
@@ -1723,6 +2095,11 @@ msgid ""
 "updated.If empty, all fields are watched."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Otomasyon kuralı, yalnızca bu alanlardan biri güncellendiğinde tetiklenir. "
+"Boş bırakılırsa, tüm alanlar izlenir."
+>>>>>>> upstream/18.0
 =======
 "Otomasyon kuralı, yalnızca bu alanlardan biri güncellendiğinde tetiklenir. "
 "Boş bırakılırsa, tüm alanlar izlenir."
@@ -1736,6 +2113,11 @@ msgid ""
 "                \""
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Hata, otomasyon kuralının yürütülmesi sırasında oluştu\n"
+"                \""
+>>>>>>> upstream/18.0
 =======
 "Hata, otomasyon kuralının yürütülmesi sırasında oluştu\n"
 "                \""
@@ -1748,6 +2130,11 @@ msgid ""
 "run."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Otomasyon kuralının hangi kayıt üzerinde çalıştırılacağını belirlemek için "
+"bu kod çalıştırılır."
+>>>>>>> upstream/18.0
 =======
 "Otomasyon kuralının hangi kayıt üzerinde çalıştırılacağını belirlemek için "
 "bu kod çalıştırılır."
@@ -1758,7 +2145,11 @@ msgstr ""
 #: code:addons/base_automation/static/src/base_automation_trigger_selection_field.js:0
 msgid "Timing Conditions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zamanlama Koşulları"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zamanlama Koşulları"
 >>>>>>> upstream/18.0
@@ -1768,7 +2159,11 @@ msgstr "Zamanlama Koşulları"
 #: model_terms:digest.tip,tip_description:base_automation.digest_tip_base_automation_0
 msgid "Tip: Automate everything with Automation Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İpucu: Otomasyon Kuralları ile her şeyi otomatikleştirin"
+>>>>>>> upstream/18.0
 =======
 msgstr "İpucu: Otomasyon Kuralları ile her şeyi otomatikleştirin"
 >>>>>>> upstream/18.0
@@ -1787,7 +2182,11 @@ msgstr "Tetikleyici Tarihi"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_selection_field_id
 msgid "Trigger Field"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tetikleyici Alan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tetikleyici Alan"
 >>>>>>> upstream/18.0
@@ -1796,7 +2195,11 @@ msgstr "Tetikleyici Alan"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_field_ref_model_name
 msgid "Trigger Field Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tetikleme Alanı Modeli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tetikleme Alanı Modeli"
 >>>>>>> upstream/18.0
@@ -1810,7 +2213,11 @@ msgstr "Tetikleyici Alanlar"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_field_ref
 msgid "Trigger Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tetikleyici Referansı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tetikleyici Referansı"
 >>>>>>> upstream/18.0
@@ -1829,7 +2236,11 @@ msgstr "URL"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "URL will be created once the rule is saved."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kural kaydedildiğinde URL oluşturulacak."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kural kaydedildiğinde URL oluşturulacak."
 >>>>>>> upstream/18.0
@@ -1866,7 +2277,11 @@ msgstr "Takvim'i kullanın"
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_user_set
 msgid "User is set"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kullanıcı atandı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kullanıcı atandı"
 >>>>>>> upstream/18.0
@@ -1876,7 +2291,11 @@ msgstr "Kullanıcı atandı"
 #: code:addons/base_automation/static/src/base_automation_trigger_selection_field.js:0
 msgid "Values Updated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Güncellenen Değerler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Güncellenen Değerler"
 >>>>>>> upstream/18.0
@@ -1892,7 +2311,11 @@ msgstr "Uyarı"
 #: code:addons/base_automation/models/base_automation.py:0
 msgid "Webhook Log"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhook Günlüğü"
+>>>>>>> upstream/18.0
 =======
 msgstr "Webhook Günlüğü"
 >>>>>>> upstream/18.0
@@ -1902,7 +2325,11 @@ msgstr "Webhook Günlüğü"
 #: code:addons/base_automation/models/base_automation.py:0
 msgid "Webhook Logs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhook Günlükleri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Webhook Günlükleri"
 >>>>>>> upstream/18.0
@@ -1911,7 +2338,11 @@ msgstr "Webhook Günlükleri"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__webhook_uuid
 msgid "Webhook UUID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhook UUID"
+>>>>>>> upstream/18.0
 =======
 msgstr "Webhook UUID"
 >>>>>>> upstream/18.0
@@ -1929,6 +2360,11 @@ msgid ""
 "calendar to compute the date based on working days."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Gün bazlı zamanlama koşulu hesaplanırken, çalışma günlerine göre tarihi "
+"hesaplamak için bir takvim kullanılabilir."
+>>>>>>> upstream/18.0
 =======
 "Gün bazlı zamanlama koşulu hesaplanırken, çalışma günlerine göre tarihi "
 "hesaplamak için bir takvim kullanılabilir."
@@ -1952,7 +2388,11 @@ msgstr "İşaretlenmemişse kural gizlidir ve yürütülmez."
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "When updating"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Güncellenirken"
+>>>>>>> upstream/18.0
 =======
 msgstr "Güncellenirken"
 >>>>>>> upstream/18.0
@@ -1964,6 +2404,11 @@ msgid ""
 "                <em>any</em> workflow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Otomasyon Kuralları ile\n"
+"                <em>herhangi</em> bir iş akışını otomatikleştirebilirsiniz."
+>>>>>>> upstream/18.0
 =======
 "Otomasyon Kuralları ile\n"
 "                <em>herhangi</em> bir iş akışını otomatikleştirebilirsiniz."
@@ -1976,6 +2421,11 @@ msgid ""
 "You can ask an administrator to disable or correct this automation rule."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bir yöneticiden bu otomasyon kuralını devre dışı bırakmasını veya "
+"düzeltmesini isteyebilirsiniz."
+>>>>>>> upstream/18.0
 =======
 "Bir yöneticiden bu otomasyon kuralını devre dışı bırakmasını veya "
 "düzeltmesini isteyebilirsiniz."
@@ -1987,6 +2437,11 @@ msgstr ""
 msgid "You can disable this automation rule or edit it to solve the issue."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu otomasyon kuralını devre dışı bırakabilir ya da sorunu çözmek için "
+"düzenleyebilirsiniz."
+>>>>>>> upstream/18.0
 =======
 "Bu otomasyon kuralını devre dışı bırakabilir ya da sorunu çözmek için "
 "düzenleyebilirsiniz."
@@ -2008,6 +2463,11 @@ msgid ""
 "Your webhook URL contains a secret. Don't share it online or carelessly."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Webhook URL’niz bir gizli anahtar içeriyor. Bunu çevrim içi ortamda ya da "
+"dikkatsizce paylaşmayın."
+>>>>>>> upstream/18.0
 =======
 "Webhook URL’niz bir gizli anahtar içeriyor. Bunu çevrim içi ortamda ya da "
 "dikkatsizce paylaşmayın."
@@ -2017,7 +2477,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
 msgid "based on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "şuna dayanarak:"
+>>>>>>> upstream/18.0
 =======
 msgstr "şuna dayanarak:"
 >>>>>>> upstream/18.0
@@ -2026,7 +2490,11 @@ msgstr "şuna dayanarak:"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "e.g. Support flow"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "örn. Destek süreci"
+>>>>>>> upstream/18.0
 =======
 msgstr "örn. Destek süreci"
 >>>>>>> upstream/18.0
@@ -2036,7 +2504,11 @@ msgstr "örn. Destek süreci"
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.xml:0
 msgid "no action defined..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "tanımlı bir eylem yok..."
+>>>>>>> upstream/18.0
 =======
 msgstr "tanımlı bir eylem yok..."
 >>>>>>> upstream/18.0

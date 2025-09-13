@@ -165,6 +165,10 @@ export class FormController extends Component {
     setup() {
         this.evaluateBooleanExpr = evaluateBooleanExpr;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.actionService = useService("action");
+>>>>>>> upstream/18.0
 =======
         this.actionService = useService("action");
 >>>>>>> upstream/18.0
@@ -438,7 +442,10 @@ export class FormController extends Component {
                     resolve(true);
                 },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 onRedirect: async ({ action, additionalContext }) => {
                     this.allowLeavingWithoutSaving = true;
                     try {
@@ -450,6 +457,9 @@ export class FormController extends Component {
                         resolve(false);
                     }
                 },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 onStayHere: () => resolve(false),
             });
@@ -490,7 +500,11 @@ export class FormController extends Component {
 
     async beforeLeave() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.model.root.dirty) {
+=======
+        if (this.model.root.dirty && !this.allowLeavingWithoutSaving) {
+>>>>>>> upstream/18.0
 =======
         if (this.model.root.dirty && !this.allowLeavingWithoutSaving) {
 >>>>>>> upstream/18.0
@@ -677,6 +691,12 @@ export class FormController extends Component {
 
     saveButtonClicked(params = {}) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!("onError" in params)) {
+            params.onError = this.onSaveError.bind(this);
+        }
+>>>>>>> upstream/18.0
 =======
         if (!("onError" in params)) {
             params.onError = this.onSaveError.bind(this);

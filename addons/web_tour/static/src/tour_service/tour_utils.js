@@ -319,6 +319,10 @@ export const stepUtils = {
             trigger: "body",
             run: `goToUrl ${url}`,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

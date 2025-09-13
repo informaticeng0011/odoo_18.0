@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* portal
+=======
+# * portal
+>>>>>>> upstream/18.0
 =======
 # * portal
 >>>>>>> upstream/18.0
@@ -10,8 +14,12 @@
 # Bojan Borovnjak <bojan.borovnjak@modoolar.com>, 2022
 # Martin Trigaux, 2022
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022
 #
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
+>>>>>>> upstream/18.0
 =======
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
 >>>>>>> upstream/18.0
@@ -20,6 +28,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-08 06:52+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2022-09-22 05:53+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, "
@@ -32,6 +41,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-08 07:47+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -43,6 +54,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: portal
@@ -55,7 +69,11 @@ msgstr "\" da potvrdite svoju akciju."
 #: code:addons/portal/static/src/js/portal_sidebar.js:0
 msgid "%s days overdue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s dana zakašnjenja"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s dana zakašnjenja"
 >>>>>>> upstream/18.0
@@ -79,7 +97,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:portal.my_account_link
 msgid "<i class=\"fa fa-fw fa-id-card-o me-1 small text-primary\"/> My Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-id-card-o me-1 small text-primary\"/> Mo nalog"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-id-card-o me-1 small text-primary\"/> Mo nalog"
 >>>>>>> upstream/18.0
@@ -88,7 +110,11 @@ msgstr "<i class=\"fa fa-fw fa-id-card-o me-1 small text-primary\"/> Mo nalog"
 #: model_terms:ir.ui.view,arch_db:portal.user_dropdown
 msgid "<i class=\"fa fa-fw fa-sign-out me-1 small text-primary\"/> Logout"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-sign-out me-1 small text-primary\"/> Odjavi se"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-sign-out me-1 small text-primary\"/> Odjavi se"
 >>>>>>> upstream/18.0
@@ -97,7 +123,11 @@ msgstr "<i class=\"fa fa-fw fa-sign-out me-1 small text-primary\"/> Odjavi se"
 #: model_terms:ir.ui.view,arch_db:portal.user_dropdown
 msgid "<i class=\"fa fa-fw fa-th me-1 small text-primary\"/> Apps"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-th me-1 small text-primary\"/> Aplikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-th me-1 small text-primary\"/> Aplikacije"
 >>>>>>> upstream/18.0
@@ -106,7 +136,11 @@ msgstr "<i class=\"fa fa-fw fa-th me-1 small text-primary\"/> Aplikacije"
 #: model_terms:ir.ui.view,arch_db:portal.side_content
 msgid "<i class=\"fa fa-pencil\"/> Edit information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-pencil\"/> Uredi informacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-pencil\"/> Uredi informacije"
 >>>>>>> upstream/18.0
@@ -115,7 +149,11 @@ msgstr "<i class=\"fa fa-pencil\"/> Uredi informacije"
 #: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
 msgid "<i class=\"oi oi-arrow-right me-1\"/>Back to edit mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>Nazad na uređivački mod"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>Nazad na uređivački mod"
 >>>>>>> upstream/18.0
@@ -127,6 +165,11 @@ msgid ""
 "title=\"Previous\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-left\" role=\"img\" aria-label=\"Prethodno\" title="
+"\"Prethodno\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-left\" role=\"img\" aria-label=\"Prethodno\" title="
 "\"Prethodno\"/>"
@@ -139,6 +182,11 @@ msgid ""
 "title=\"Next\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Sledeće\" title="
+"\"Sledeće\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Sledeće\" title="
 "\"Sledeće\"/>"
@@ -155,7 +203,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
 msgid "<option value=\"\">Country...</option>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<option value=\"\">Zemlja...</option>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<option value=\"\">Zemlja...</option>"
 >>>>>>> upstream/18.0
@@ -164,7 +216,11 @@ msgstr "<option value=\"\">Zemlja...</option>"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
 msgid "<option value=\"\">select...</option>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<option value=\"\">izaberi...</option>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<option value=\"\">izaberi...</option>"
 >>>>>>> upstream/18.0
@@ -179,12 +235,18 @@ msgid ""
 "            </small>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<small class=\"form-text text-muted\">\n"
 "                Promena imena kompanije ili PIB broja nije dozvoljena nakon "
 "izdavanja dokumenata za vaš nalog.\n"
 "                <br/>Za ovu operaciju, molimo da nas kontaktirate direktno.\n"
 "            </small>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: portal
@@ -194,6 +256,11 @@ msgid ""
 "title=\"Previous\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-chevron-left\" role=\"img\" aria-label=\"Prethodno\" "
+"title=\"Prethodno\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-chevron-left\" role=\"img\" aria-label=\"Prethodno\" "
 "title=\"Prethodno\"/>"
@@ -206,6 +273,11 @@ msgid ""
 "title=\"Next\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-chevron-right\" role=\"img\" aria-label=\"Sledeće\" "
+"title=\"Sledeće\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-chevron-right\" role=\"img\" aria-label=\"Sledeće\" "
 "title=\"Sledeće\"/>"
@@ -350,7 +422,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
 "16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
 "color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\""
@@ -467,13 +542,20 @@ msgstr ""
 "</td></tr>\n"
 "</table>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model,name:portal.model_res_users_apikeys_description
 msgid "API Key Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis API ključa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opis API ključa"
 >>>>>>> upstream/18.0
@@ -527,7 +609,11 @@ msgstr "Dodajte dopunski sadržaj za prikazivanje u email-u"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_home
 msgid "Add, remove or modify your addresses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodajte, uklonite ili izmenite svoje adrese"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodajte, uklonite ili izmenite svoje adrese"
 >>>>>>> upstream/18.0
@@ -541,7 +627,11 @@ msgstr "Dodato dana"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_home
 msgid "Addresses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adrese"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adrese"
 >>>>>>> upstream/18.0
@@ -601,6 +691,11 @@ msgid ""
 "your account. Please contact us directly for this operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Promena zemlje nije dozvoljena nakon izdavanja dokumenata za vaš nalog. Za "
+"ovu operaciju, molimo da nas kontaktirate direktno."
+>>>>>>> upstream/18.0
 =======
 "Promena zemlje nije dozvoljena nakon izdavanja dokumenata za vaš nalog. Za "
 "ovu operaciju, molimo da nas kontaktirate direktno."
@@ -646,7 +741,11 @@ msgstr "Podešavanje konfiguracije"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_home
 msgid "Configure your connection parameters"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podesite parametre svoje veze"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podesite parametre svoje veze"
 >>>>>>> upstream/18.0
@@ -668,7 +767,11 @@ msgstr "Potvrdi lozinku"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Connection &amp; Security"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Veza &amp; Bezbednost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Veza &amp; Bezbednost"
 >>>>>>> upstream/18.0
@@ -750,7 +853,11 @@ msgstr "URK korisničkog portala"
 #: model_terms:ir.ui.view,arch_db:portal.res_config_settings_view_form
 msgid "Customers can generate API Keys"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnici mogu da generišu API ključeve"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korisnici mogu da generišu API ključeve"
 >>>>>>> upstream/18.0
@@ -821,7 +928,11 @@ msgstr "Naziv za prikaz"
 #: code:addons/portal/static/src/js/portal_sidebar.js:0
 msgid "Due in %s days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dospeva za %s dan(a)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dospeva za %s dan(a)"
 >>>>>>> upstream/18.0
@@ -864,7 +975,11 @@ msgstr "Zaboravili ste lozinku?"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Go Back"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Idi nazad"
+>>>>>>> upstream/18.0
 =======
 msgstr "Idi nazad"
 >>>>>>> upstream/18.0
@@ -973,7 +1088,11 @@ msgstr "Pozivni email kontaktima da kreiraju korisnički nalog"
 #: code:addons/portal/wizard/portal_share.py:0
 msgid "Invitation to access %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozivnica za pristup %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozivnica za pristup %s"
 >>>>>>> upstream/18.0
@@ -1034,7 +1153,11 @@ msgstr "Link"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Log out from all devices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odjavite se sa svih uređaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odjavite se sa svih uređaja"
 >>>>>>> upstream/18.0
@@ -1044,7 +1167,11 @@ msgstr "Odjavite se sa svih uređaja"
 #: code:addons/portal/static/src/js/portal_security.js:0
 msgid "Log out from all devices?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odjavite se sa svih uređaja?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odjavite se sa svih uređaja?"
 >>>>>>> upstream/18.0
@@ -1074,7 +1201,11 @@ msgstr "Izveštaji za više kompanija nisu podržani."
 #: model_terms:ir.ui.view,arch_db:portal.portal_layout
 msgid "My account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moj nalog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moj nalog"
 >>>>>>> upstream/18.0
@@ -1217,7 +1348,11 @@ msgstr "Prethodno"
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "Public"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Javno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Javno"
 >>>>>>> upstream/18.0
@@ -1227,7 +1362,11 @@ msgstr "Javno"
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "Published on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Objavljeno dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Objavljeno dana"
 >>>>>>> upstream/18.0
@@ -1279,7 +1418,11 @@ msgstr "Opozovi pristup"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Revoke All Sessions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poništi sve sesije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poništi sve sesije"
 >>>>>>> upstream/18.0
@@ -1288,7 +1431,11 @@ msgstr "Poništi sve sesije"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
 msgid "Save"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sačuvaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sačuvaj"
 >>>>>>> upstream/18.0
@@ -1513,7 +1660,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "Toggle filters"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Toggle filters"
+=======
+msgstr "Uklj/isklj filtere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uklj/isklj filtere"
 >>>>>>> upstream/18.0
@@ -1523,7 +1674,11 @@ msgstr "Uklj/isklj filtere"
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Type in your password to confirm :"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukucajte svoju lozinku da potvrdite :"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ukucajte svoju lozinku da potvrdite :"
 >>>>>>> upstream/18.0
@@ -1669,6 +1824,11 @@ msgid ""
 "user's account."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Odjavićete se sa svih uređaja koji trenutno imaju pristup nalogu ovog "
+"korisnika."
+>>>>>>> upstream/18.0
 =======
 "Odjavićete se sa svih uređaja koji trenutno imaju pristup nalogu ovog "
 "korisnika."
@@ -1740,7 +1900,11 @@ msgstr "potpuni pristup"
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_template
 msgid "has invited you to access the following"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "vas je pozvao/la da pristupite sledećem"
+>>>>>>> upstream/18.0
 =======
 msgstr "vas je pozvao/la da pristupite sledećem"
 >>>>>>> upstream/18.0

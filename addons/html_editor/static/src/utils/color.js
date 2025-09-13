@@ -224,7 +224,12 @@ export function isColorGradient(value) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 export const TEXT_CLASSES_REGEX = /\btext-[^\s]*\b/;
+=======
+export const TEXT_CLASSES_REGEX =
+    /\btext-(primary|secondary|success|danger|warning|info|light|dark|body|muted|white|black|reset|gradient|opacity-\d{1,3}|o-[^\s]+|\d+)\b/;
+>>>>>>> upstream/18.0
 =======
 export const TEXT_CLASSES_REGEX =
     /\btext-(primary|secondary|success|danger|warning|info|light|dark|body|muted|white|black|reset|gradient|opacity-\d{1,3}|o-[^\s]+|\d+)\b/;
@@ -244,11 +249,17 @@ export function hasColor(element, mode) {
     const parent = element.parentNode;
     const classRegex = mode === "color" ? TEXT_CLASSES_REGEX : BG_CLASSES_REGEX;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     if (element.classList.contains("btn")) {
         // Ignore style applied on buttons from color detection
         return false;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     if (isColorGradient(style["background-image"])) {
         if (element.classList.contains("text-gradient")) {

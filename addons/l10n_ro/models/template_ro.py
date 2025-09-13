@@ -32,8 +32,13 @@ class AccountChartTemplate(models.AbstractModel):
                 'account_journal_early_pay_discount_loss_account_id': 'pcg_6092',
                 'account_journal_early_pay_discount_gain_account_id': 'pcg_709',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'account_sale_tax_id': 'tvac_19',
                 'account_purchase_tax_id': 'tvad_19',
+=======
+                'account_sale_tax_id': 'tvac_21',
+                'account_purchase_tax_id': 'tvad_21',
+>>>>>>> upstream/18.0
 =======
                 'account_sale_tax_id': 'tvac_21',
                 'account_purchase_tax_id': 'tvad_21',

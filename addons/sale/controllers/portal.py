@@ -283,7 +283,12 @@ class CustomerPortal(payment_portal.PaymentPortal):
                 'signature': signature,
             })
 <<<<<<< HEAD
+<<<<<<< HEAD
             request.env.cr.commit()
+=======
+            # flush now to make signature data available to PDF render request
+            request.env.cr.flush()
+>>>>>>> upstream/18.0
 =======
             # flush now to make signature data available to PDF render request
             request.env.cr.flush()

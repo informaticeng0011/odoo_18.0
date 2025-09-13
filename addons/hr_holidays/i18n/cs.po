@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* hr_holidays
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Jiří Podhorecký <jirka.p@volny.cz>, 2024
@@ -575,18 +576,28 @@
 =======
 # Stanislav Kurinec, 2025
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Jiří Podhorecký <jirka.p@volny.cz>, 2024
 # Aleš Fiala <f.ales1@seznam.cz>, 2024
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # Vojtěch Olšan, 2025
 # Denis Gobin, 2025
 # Marta Wacławek, 2025
 # Wil Odoo, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 # 
+=======
+# Stanislav Kurinec, 2025
+#
+>>>>>>> upstream/18.0
 =======
 # Stanislav Kurinec, 2025
 #
@@ -595,6 +606,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1016,6 +1028,8 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-08 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Stanislav Kurinec, 2025\n"
@@ -1026,6 +1040,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -1095,7 +1112,11 @@ msgstr "%(holiday_name)s byl odmítnut."
 msgid ""
 "%(leave_name)s has been cancelled with the justification: <br/> %(reason)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(leave_name)s bylo zroženo s odůvodněním: <br/> %(reason)s."
+=======
+msgstr "%(leave_name)s bylo zrušeno s odůvodněním: <br/> %(reason)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(leave_name)s bylo zrušeno s odůvodněním: <br/> %(reason)s."
 >>>>>>> upstream/18.0
@@ -1186,11 +1207,17 @@ msgstr "&lt;/th&gt;"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.report_holidayssummary
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-"
 "color:"
 msgstr ""
 "&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-"
 "color:"
+=======
+"&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-color:"
+msgstr ""
+"&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-color:"
+>>>>>>> upstream/18.0
 =======
 "&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-color:"
 msgstr ""
@@ -1271,7 +1298,12 @@ msgstr "<i class=\"fa fa-times\"/> Odmítnout"
 msgid ""
 "<span class=\"ml8\" invisible=\"request_unit == 'hour'\">Days</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span class=\"ml8\" invisible=\"request_unit != 'hour'\">Hours</span>"
+=======
+"                            <span class=\"ml8\" invisible=\"request_unit != "
+"'hour'\">Hours</span>"
+>>>>>>> upstream/18.0
 =======
 "                            <span class=\"ml8\" invisible=\"request_unit != "
 "'hour'\">Hours</span>"
@@ -1283,7 +1315,12 @@ msgstr ""
 msgid ""
 "<span class=\"ml8\" invisible=\"type_request_unit == 'hour'\">Days</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"ml8\" invisible=\"type_request_unit != 'hour'\">Hours</span>"
+=======
+"                                <span class=\"ml8\" "
+"invisible=\"type_request_unit != 'hour'\">Hours</span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"ml8\" "
 "invisible=\"type_request_unit != 'hour'\">Hours</span>"
@@ -1356,7 +1393,12 @@ msgstr "<span class=\"text-muted\">z </span>"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>The employee has a different timezone than yours! Here dates and times are displayed in the employee's timezone</span>\n"
+=======
+"<span>The employee has a different timezone than yours! Here dates and times "
+"are displayed in the employee's timezone</span>\n"
+>>>>>>> upstream/18.0
 =======
 "<span>The employee has a different timezone than yours! Here dates and times "
 "are displayed in the employee's timezone</span>\n"
@@ -1368,8 +1410,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>You can only take this time off in whole days, so if your schedule has"
 " half days, it won't be used efficiently.</span>"
+=======
+"<span>You can only take this time off in whole days, so if your schedule has "
+"half days, it won't be used efficiently.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>You can only take this time off in whole days, so if your schedule has "
 "half days, it won't be used efficiently.</span>"
@@ -1392,8 +1439,12 @@ msgstr "Zrušené volno nelze upravovat."
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_holiday_allocation_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A great way to keep track on employee’s PTOs, sick days, and approval "
 "status."
+=======
+"A great way to keep track on employee’s PTOs, sick days, and approval status."
+>>>>>>> upstream/18.0
 =======
 "A great way to keep track on employee’s PTOs, sick days, and approval status."
 >>>>>>> upstream/18.0
@@ -1405,8 +1456,13 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_new_request
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A great way to keep track on your time off requests, sick days, and approval"
 " status."
+=======
+"A great way to keep track on your time off requests, sick days, and approval "
+"status."
+>>>>>>> upstream/18.0
 =======
 "A great way to keep track on your time off requests, sick days, and approval "
 "status."
@@ -1593,7 +1649,10 @@ msgstr "Stav aktivity"
 #. module: hr_holidays
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:hr_holidays.model_mail_activity_type
@@ -1602,6 +1661,9 @@ msgstr "Typ aktivity"
 
 #. module: hr_holidays
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1793,7 +1855,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Allocation state must be \"Refused\" in order to be reset to \"To Approve\"."
+=======
+msgid ""
+"Allocation state must be \"Refused\" in order to be reset to \"To Approve\"."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Allocation state must be \"Refused\" in order to be reset to \"To Approve\"."
@@ -1838,7 +1905,12 @@ msgstr ""
 "- Podle společnosti: všichni zaměstnanci zadané společnosti\n"
 "- Podle oddělení: všichni zaměstnanci zadaného oddělení\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Podle značky zaměstnance: všichni zaměstnanci konkrétní kategorie skupiny zaměstnanců"
+=======
+"- Podle značky zaměstnance: všichni zaměstnanci konkrétní kategorie skupiny "
+"zaměstnanců"
+>>>>>>> upstream/18.0
 =======
 "- Podle značky zaměstnance: všichni zaměstnanci konkrétní kategorie skupiny "
 "zaměstnanců"
@@ -2013,7 +2085,12 @@ msgstr "Srpen"
 #: code:addons/hr_holidays/wizard/hr_leave_generate_multi_wizard.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Automatic time off spliting during batch generation is not managed for ovelapping time off declared in hours. Conflicting time off:\n"
+=======
+"Automatic time off spliting during batch generation is not managed for "
+"ovelapping time off declared in hours. Conflicting time off:\n"
+>>>>>>> upstream/18.0
 =======
 "Automatic time off spliting during batch generation is not managed for "
 "ovelapping time off declared in hours. Conflicting time off:\n"
@@ -2199,6 +2276,10 @@ msgstr "Možno obnovit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
@@ -2755,6 +2836,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
@@ -3144,8 +3229,13 @@ msgid ""
 "the type_request_unit"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pole umožňující zobrazit dobu alokace ve dnech nebo hodinách v závislosti na"
 " type_request_unit"
+=======
+"Pole umožňující zobrazit dobu alokace ve dnech nebo hodinách v závislosti na "
+"type_request_unit"
+>>>>>>> upstream/18.0
 =======
 "Pole umožňující zobrazit dobu alokace ve dnech nebo hodinách v závislosti na "
 "type_request_unit"
@@ -3217,8 +3307,13 @@ msgstr "Ikona v rámci awesome font, např. fa-tasks"
 msgid ""
 "For an Accrual Allocation, this field contains the theorical amount of time "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "given to the employee, due to a previous start date, on the first run of the"
 " plan. This can be manually edited."
+=======
+"given to the employee, due to a previous start date, on the first run of the "
+"plan. This can be manually edited."
+>>>>>>> upstream/18.0
 =======
 "given to the employee, due to a previous start date, on the first run of the "
 "plan. This can be manually edited."
@@ -3406,7 +3501,11 @@ msgid "Has Department Manager Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Má přístup manažera oddělení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Má přístup manažera oddělení"
 >>>>>>> upstream/18.0
@@ -3845,6 +3944,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pokud je zaškrtnuto, mohou uživatelé požádat o více než přidělený počet dní "
+"a zůstatek může být záporný."
+>>>>>>> upstream/18.0
 =======
 "Pokud je zaškrtnuto, mohou uživatelé požádat o více než přidělený počet dní "
 "a zůstatek může být záporný."
@@ -4354,8 +4458,12 @@ msgstr ""
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_type__virtual_remaining_leaves
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Maximum Time Off Allowed - Time Off Already Taken - Time Off Waiting "
 "Approval"
+=======
+"Maximum Time Off Allowed - Time Off Already Taken - Time Off Waiting Approval"
+>>>>>>> upstream/18.0
 =======
 "Maximum Time Off Allowed - Time Off Already Taken - Time Off Waiting Approval"
 >>>>>>> upstream/18.0
@@ -4545,17 +4653,23 @@ msgstr "Nová žádost o alokaci"
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "New Allocation Request created by %(user)s: %(count)s Days of "
 "%(allocation_type)s"
 msgstr ""
 "Nová žádost o alokaci vytvořená uživatelem %(user)s: %(count)s Dny "
 "%(allocation_type)s"
 =======
+=======
+>>>>>>> upstream/18.0
 "New Allocation Request created by %(user)s: %(count)s Days of %"
 "(allocation_type)s"
 msgstr ""
 "Nová žádost o alokaci vytvořená uživatelem %(user)s: %(count)s Dny %"
 "(allocation_type)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -4779,8 +4893,13 @@ msgstr "Pouze"
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Only %s's Time Off Approver, a time off Officer/Responsible or Administrator"
 " can approve or refuse allocation requests."
+=======
+"Only %s's Time Off Approver, a time off Officer/Responsible or Administrator "
+"can approve or refuse allocation requests."
+>>>>>>> upstream/18.0
 =======
 "Only %s's Time Off Approver, a time off Officer/Responsible or Administrator "
 "can approve or refuse allocation requests."
@@ -4809,8 +4928,12 @@ msgstr "Pouze manažer nepřítomnosti může resetovat odchod ostatních lidí.
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Only a Time Off Officer or Manager can approve/refuse its own requests."
+=======
+msgid "Only a Time Off Officer or Manager can approve/refuse its own requests."
+>>>>>>> upstream/18.0
 =======
 msgid "Only a Time Off Officer or Manager can approve/refuse its own requests."
 >>>>>>> upstream/18.0
@@ -5205,13 +5328,19 @@ msgstr "Vyberte typ volných dnu"
 msgid ""
 "Select the level of approval needed in case of request by employee\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            #     - No validation needed: The employee's request is automatically approved.\n"
 "            #     - Approved by Time Off Officer: The employee's request need to be manually approved\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            #     - No validation needed: The employee's request is "
 "automatically approved.\n"
 "            #     - Approved by Time Off Officer: The employee's request "
 "need to be manually approved\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            #       by the Time Off Officer, Employee's Approver or both."
 msgstr ""
@@ -5231,11 +5360,14 @@ msgstr "Zvolte požadavek, který jste již vytvořili"
 msgid ""
 "Select the user responsible for approving \"Time Off\" of this employee.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
 msgstr ""
 "Vyberte uživatele odpovědného za schválení „Volného času“ tohoto zaměstnance.\n"
 "Pokud je prázdné, schválení provede administrátor nebo schvalovatel (určeno v nastavení / uživatelé)."
 =======
+=======
+>>>>>>> upstream/18.0
 "If empty, the approval is done by an Administrator or Approver (determined "
 "in settings/users)."
 msgstr ""
@@ -5243,6 +5375,9 @@ msgstr ""
 "zaměstnance.\n"
 "Pokud je prázdné, schválení provede administrátor nebo schvalovatel (určeno "
 "v nastavení / uživatelé)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -5312,22 +5447,29 @@ msgstr ""
 msgid ""
 "Specify if this accrual plan can only be used with this Time Off Type.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Leave empty if this accrual plan can be used with any Time Off Type."
 msgstr ""
 "Zadejte, zda lze tento akruální plán použít pouze s tímto typem volna.\n"
 "                Pokud lze tento akruální plán použít s jakýmkoli typem volna, ponechte prázdné."
 =======
+=======
+>>>>>>> upstream/18.0
 "                Leave empty if this accrual plan can be used with any Time "
 "Off Type."
 msgstr ""
 "Zadejte, zda lze tento akruální plán použít pouze s tímto typem volna.\n"
 "                Pokud lze tento akruální plán použít s jakýmkoli typem "
 "volna, ponechte prázdné."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_plan__transition_mode
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Specify what occurs if a level transition takes place in the middle of a pay period.\n"
 "\n"
@@ -5336,6 +5478,8 @@ msgid ""
 "                'After this accrual's period' will keep the employee on the same accrual level until the ongoing pay period is complete.\n"
 "                After it is complete, the new level will take effect when the next pay period begins."
 =======
+=======
+>>>>>>> upstream/18.0
 "Specify what occurs if a level transition takes place in the middle of a pay "
 "period.\n"
 "\n"
@@ -5346,6 +5490,9 @@ msgid ""
 "same accrual level until the ongoing pay period is complete.\n"
 "                After it is complete, the new level will take effect when "
 "the next pay period begins."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -5465,8 +5612,12 @@ msgid ""
 "You can use this field for quick search."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ISO kód země ve dvou znacích. Toto pole můžete použít pro rychlé "
 "vyhledávání."
+=======
+"ISO kód země ve dvou znacích. Toto pole můžete použít pro rychlé vyhledávání."
+>>>>>>> upstream/18.0
 =======
 "ISO kód země ve dvou znacích. Toto pole můžete použít pro rychlé vyhledávání."
 >>>>>>> upstream/18.0
@@ -5475,8 +5626,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The Start Date of the Validity Period must be anterior to the End Date."
+=======
+msgid "The Start Date of the Validity Period must be anterior to the End Date."
+>>>>>>> upstream/18.0
 =======
 msgid "The Start Date of the Validity Period must be anterior to the End Date."
 >>>>>>> upstream/18.0
@@ -5490,8 +5645,13 @@ msgid ""
 "is used."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Časové rozlišení začíná po definovaném období od data zahájení alokace. Toto"
 " pole definuje počet dní, měsíců nebo let, po kterých se používá časové "
+=======
+"Časové rozlišení začíná po definovaném období od data zahájení alokace. Toto "
+"pole definuje počet dní, měsíců nebo let, po kterých se používá časové "
+>>>>>>> upstream/18.0
 =======
 "Časové rozlišení začíná po definovaném období od data zahájení alokace. Toto "
 "pole definuje počet dní, měsíců nebo let, po kterých se používá časové "
@@ -5555,7 +5715,12 @@ msgstr ""
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The leaves planned in the future are exceeding the maximum value of the allocation.\n"
+=======
+"The leaves planned in the future are exceeding the maximum value of the "
+"allocation.\n"
+>>>>>>> upstream/18.0
 =======
 "The leaves planned in the future are exceeding the maximum value of the "
 "allocation.\n"
@@ -5589,8 +5754,12 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_date_check3
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The request start date must be before or equal to the request end date."
+=======
+msgid "The request start date must be before or equal to the request end date."
+>>>>>>> upstream/18.0
 =======
 msgid "The request start date must be before or equal to the request end date."
 >>>>>>> upstream/18.0
@@ -5673,8 +5842,12 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__first_approver_id
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "This area is automatically filled by the user who validate the time off"
+=======
+msgid "This area is automatically filled by the user who validate the time off"
+>>>>>>> upstream/18.0
 =======
 msgid "This area is automatically filled by the user who validate the time off"
 >>>>>>> upstream/18.0
@@ -5685,8 +5858,13 @@ msgstr ""
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__second_approver_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This area is automatically filled by the user who validate the time off with"
 " second level (If time off type need second validation)"
+=======
+"This area is automatically filled by the user who validate the time off with "
+"second level (If time off type need second validation)"
+>>>>>>> upstream/18.0
 =======
 "This area is automatically filled by the user who validate the time off with "
 "second level (If time off type need second validation)"
@@ -5750,8 +5928,12 @@ msgid ""
 "This value is given by the sum of all time off requests with a positive "
 "value."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Tato hodnota je dána součtem všech žádostí o volno s kladnou hodnotou."
+=======
+msgstr "Tato hodnota je dána součtem všech žádostí o volno s kladnou hodnotou."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tato hodnota je dána součtem všech žádostí o volno s kladnou hodnotou."
 >>>>>>> upstream/18.0
@@ -5838,12 +6020,15 @@ msgstr "Podtyp oznámení o volných dnech"
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_my
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Time Off Officers allocate time off days to employees (e.g. paid time off).<br>\n"
 "                Employees request allocations to Time Off Officers (e.g. recuperation days)."
 msgstr ""
 "Pracovníci volného času přidělují zaměstnancům dny volna (např. Placené cc).<br>\n"
 "                Zaměstnanci požadují přidělení volným pracovníkům (např. Dny zotavení)."
 =======
+=======
+>>>>>>> upstream/18.0
 "Time Off Officers allocate time off days to employees (e.g. paid time off)."
 "<br>\n"
 "                Employees request allocations to Time Off Officers (e.g. "
@@ -5853,6 +6038,9 @@ msgstr ""
 "<br>\n"
 "                Zaměstnanci požadují přidělení volným pracovníkům (např. Dny "
 "zotavení)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -6013,8 +6201,12 @@ msgstr "Aby bylo možné žádost o volno schválit, musí být potvrzena."
 msgid "Time off request must be confirmed or validated in order to refuse it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aby bylo možné žádost o volné dny odmítnout, musí být potvrzena nebo "
 "ověřena."
+=======
+"Aby bylo možné žádost o volné dny odmítnout, musí být potvrzena nebo ověřena."
+>>>>>>> upstream/18.0
 =======
 "Aby bylo možné žádost o volné dny odmítnout, musí být potvrzena nebo ověřena."
 >>>>>>> upstream/18.0
@@ -6027,8 +6219,13 @@ msgid ""
 "reset to \"Confirmed\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Stav požadavku na volno musí být ve stavu „Odmítnuto“ nebo „Zrušeno“, aby se"
 " mohl vrátit do stavu „Potvrzeno“."
+=======
+"Stav požadavku na volno musí být ve stavu „Odmítnuto“ nebo „Zrušeno“, aby se "
+"mohl vrátit do stavu „Potvrzeno“."
+>>>>>>> upstream/18.0
 =======
 "Stav požadavku na volno musí být ve stavu „Odmítnuto“ nebo „Zrušeno“, aby se "
 "mohl vrátit do stavu „Potvrzeno“."
@@ -6109,8 +6306,13 @@ msgstr "Celkový počet alokovaných dnů."
 msgid ""
 "Total number of paid time off allocated to this employee, change this value "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "to create allocation/time off request. Total based on all the time off types"
 " without overriding limit."
+=======
+"to create allocation/time off request. Total based on all the time off types "
+"without overriding limit."
+>>>>>>> upstream/18.0
 =======
 "to create allocation/time off request. Total based on all the time off types "
 "without overriding limit."
@@ -6357,6 +6559,7 @@ msgid ""
 "When the field is checked the balance of an allocation using this accrual "
 "plan will never exceed the specified amount."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6667,6 +6870,10 @@ msgstr ""
 "Pokud je toto pole zaškrtnuto, zůstatek alokace pomocí tohoto plánu časového "
 "rozlišení nikdy nepřekročí zadanou částku."
 >>>>>>> upstream/18.0
+=======
+"Pokud je toto pole zaškrtnuto, zůstatek alokace pomocí tohoto plánu časového "
+"rozlišení nikdy nepřekročí zadanou částku."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__cap_accrued_time_yearly
@@ -6726,12 +6933,15 @@ msgid ""
 "Yes: Time off requests need to have a valid allocation.\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              No Limit: Time Off requests can be taken without any prior allocation."
 msgstr ""
 "Ano: Požadavky o volno musí mít platné alokace.\n"
 "\n"
 "              Bez omezení: Požadavky o volno lze přijímat bez předchozí alokace."
 =======
+=======
+>>>>>>> upstream/18.0
 "              No Limit: Time Off requests can be taken without any prior "
 "allocation."
 msgstr ""
@@ -6739,6 +6949,9 @@ msgstr ""
 "\n"
 "              Bez omezení: Požadavky o volno lze přijímat bez předchozí "
 "alokace."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -6751,8 +6964,12 @@ msgstr ""
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__accrual_validity_count
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can define a period of time where the days carried over will be "
 "available"
+=======
+"You can define a period of time where the days carried over will be available"
+>>>>>>> upstream/18.0
 =======
 "You can define a period of time where the days carried over will be available"
 >>>>>>> upstream/18.0
@@ -6770,8 +6987,13 @@ msgid ""
 "You can select the period you need to take off, from start date to end date"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Můžete si vybrat období, kdy potřebujete vzlétnout, od data zahájení do data"
 " ukončení"
+=======
+"Můžete si vybrat období, kdy potřebujete vzlétnout, od data zahájení do data "
+"ukončení"
+>>>>>>> upstream/18.0
 =======
 "Můžete si vybrat období, kdy potřebujete vzlétnout, od data zahájení do data "
 "ukončení"
@@ -6807,8 +7029,13 @@ msgstr "Nelze odstranit žádost o alokaci, která je ve stavu %s."
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot first approve a time off for %s, because you are not his time off"
 " manager"
+=======
+"You cannot first approve a time off for %s, because you are not his time off "
+"manager"
+>>>>>>> upstream/18.0
 =======
 "You cannot first approve a time off for %s, because you are not his time off "
 "manager"
@@ -6820,8 +7047,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan_level.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You cannot have a cap on accrued time without setting a maximum amount."
+=======
+msgid "You cannot have a cap on accrued time without setting a maximum amount."
+>>>>>>> upstream/18.0
 =======
 msgid "You cannot have a cap on accrued time without setting a maximum amount."
 >>>>>>> upstream/18.0
@@ -6843,6 +7074,7 @@ msgid ""
 "public holidays, meaning that the balance of those employees would be "
 "affected by this change."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7212,10 +7444,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Nastavení „Zahrnout státní svátky“ nelze změnit, protože jedna nebo "
 "více                               dovolených tohoto typu se překrývá se "
 "státními svátky, což znamená, že by tato změna měla vliv na zůstatek "
 "dovolené těchto zaměstnanců."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -7223,8 +7460,13 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot reduce the duration below the duration of leaves already taken by"
 " the employee."
+=======
+"You cannot reduce the duration below the duration of leaves already taken by "
+"the employee."
+>>>>>>> upstream/18.0
 =======
 "You cannot reduce the duration below the duration of leaves already taken by "
 "the employee."
@@ -7244,7 +7486,10 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "You do not have any allocation for this time off type.\n"
 "Please request an allocation before submitting your time off request."
 msgstr ""
@@ -7253,6 +7498,9 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "You don't have the rights to apply second approval on a time off request"
 msgstr "Nemáte práva použít druhé schválení na žádost o volno"
@@ -7299,8 +7547,12 @@ msgstr "V úrovních akruálního plánu musíte zadat sazbu vyšší než 0."
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You must have manager rights to modify/validate a time off that already "
 "begun"
+=======
+"You must have manager rights to modify/validate a time off that already begun"
+>>>>>>> upstream/18.0
 =======
 "You must have manager rights to modify/validate a time off that already begun"
 >>>>>>> upstream/18.0
@@ -7315,7 +7567,12 @@ msgid ""
 "You've already booked time off which overlaps with this period:\n"
 "%s\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Attempting to double-book your time off won't magically make your vacation 2x better!\n"
+=======
+"Attempting to double-book your time off won't magically make your vacation "
+"2x better!\n"
+>>>>>>> upstream/18.0
 =======
 "Attempting to double-book your time off won't magically make your vacation "
 "2x better!\n"

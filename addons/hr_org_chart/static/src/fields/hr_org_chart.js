@@ -7,8 +7,14 @@ import { usePopover } from "@web/core/popover/popover_hook";
 import { user } from "@web/core/user";
 import { onEmployeeSubRedirect } from './hooks';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, onWillStart, onWillRender, useState } from "@odoo/owl";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
+=======
+import { Component, useState } from "@odoo/owl";
+import { standardFieldProps } from "@web/views/fields/standard_field_props";
+import { useRecordObserver } from "@web/model/relational_model/utils";
+>>>>>>> upstream/18.0
 =======
 import { Component, useState } from "@odoo/owl";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
@@ -55,6 +61,7 @@ export class HrOrgChart extends Component {
         this.state = useState({'employee_id': null});
         this.lastParent = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._onEmployeeSubRedirect = onEmployeeSubRedirect();
 
         onWillStart(this.handleComponentUpdate.bind(this));
@@ -74,6 +81,8 @@ export class HrOrgChart extends Component {
         this.lastRecord = this.props.record;
         await this.fetchEmployeeData(this.state.employee_id, forceReload);
 =======
+=======
+>>>>>>> upstream/18.0
         this.max_level = null;
         this._onEmployeeSubRedirect = onEmployeeSubRedirect();
 
@@ -95,6 +104,9 @@ export class HrOrgChart extends Component {
             }
             this.state.employee_id = newEmployeeId;
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -113,16 +125,22 @@ export class HrOrgChart extends Component {
                 {
                     employee_id: employeeId,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     context: user.context,
                 }
             );
 =======
+=======
+>>>>>>> upstream/18.0
                     context: {
                         ...user.context,
                     max_level: this.max_level,
                     new_parent_id: this.lastParent,
                 },
             });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             if (Object.keys(orgData).length === 0) {
                 orgData = {
@@ -156,8 +174,13 @@ export class HrOrgChart extends Component {
 
     async _onEmployeeMoreManager(managerId) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.fetchEmployeeData(managerId);
         this.state.employee_id = managerId;
+=======
+        this.max_level = 100; // Set a high level to fetch all managers
+        await this.fetchEmployeeData(this.state.employee_id, true);
+>>>>>>> upstream/18.0
 =======
         this.max_level = 100; // Set a high level to fetch all managers
         await this.fetchEmployeeData(this.state.employee_id, true);

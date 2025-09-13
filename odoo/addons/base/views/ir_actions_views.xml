@@ -342,7 +342,11 @@
                         <div class="d-flex flex-row flex-wrap gap-2" invisible="state != 'object_write'">
                             <field name="evaluation_type" class="oe_inline"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <field name="update_path" widget="DynamicModelFieldSelectorChar" class="oe_inline" options="{'model': 'model_name'}"/>
+=======
+                            <field name="update_path" widget="DynamicModelFieldSelectorChar" class="oe_inline" options="{'model': 'model_name'}" required="state == 'object_write'"/>
+>>>>>>> upstream/18.0
 =======
                             <field name="update_path" widget="DynamicModelFieldSelectorChar" class="oe_inline" options="{'model': 'model_name'}" required="state == 'object_write'"/>
 >>>>>>> upstream/18.0

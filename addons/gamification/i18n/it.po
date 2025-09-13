@@ -6,6 +6,10 @@
 # Wil Odoo, 2024
 # Marianna Ciofani, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Marianna Ciofani, 2025\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -68,7 +76,11 @@ msgstr "%s ha accettato la sfida"
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "%s has refused the challenge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s ha rifiutato la sfida"
+=======
+msgstr "%s non ha accettato la sfida"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s non ha accettato la sfida"
 >>>>>>> upstream/18.0
@@ -131,6 +143,7 @@ msgstr ""
 "                    Hai raggiunto un nuovo livello: <strong t-out=\"object.rank_id.name or ''\">Matricola</strong>\n"
 "                </p>\n"
 "                <t t-if=\"object.next_rank_id.name\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,6 +393,9 @@ msgstr ""
 =======
 "                    <p>Continua a lavorare per raggiungere il livello di <strong t-out=\"object.next_rank_id.name or ''\">Studente</strong>!</p>\n"
 >>>>>>> upstream/18.0
+=======
+"                    <p>Continua a lavorare per raggiungere il livello di <strong t-out=\"object.next_rank_id.name or ''\">Studente</strong>!</p>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "                <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "                    <t t-set=\"gamification_redirection_data\" t-value=\"object.get_gamification_redirection_data()\"/>\n"
@@ -424,8 +440,13 @@ msgid ""
 "Failed\" aria-label=\"Goal Failed\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i role=\"img\" class=\"text-danger fa fa-times fa-3x\" title=\"Goal "
 "Failed\" aria-label=\"Goal Failed\"/>"
+=======
+"<i role=\"img\" class=\"text-danger fa fa-times fa-3x\" title=\"Obiettivo "
+"non raggiunto\" aria-label=\"Obiettivo non raggiunto\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i role=\"img\" class=\"text-danger fa fa-times fa-3x\" title=\"Obiettivo "
 "non raggiunto\" aria-label=\"Obiettivo non raggiunto\"/>"
@@ -438,8 +459,13 @@ msgid ""
 "Reached\" aria-label=\"Goal Reached\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i role=\"img\" class=\"text-success fa fa-check fa-3x\" title=\"Goal "
 "Reached\" aria-label=\"Goal Reached\"/>"
+=======
+"<i role=\"img\" class=\"text-success fa fa-check fa-3x\" title=\"Obiettivo "
+"raggiunto\" aria-label=\"Obiettivo raggiunto\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i role=\"img\" class=\"text-success fa fa-check fa-3x\" title=\"Obiettivo "
 "raggiunto\" aria-label=\"Obiettivo raggiunto\"/>"
@@ -1054,8 +1080,13 @@ msgid ""
 "value to reach"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un obiettivo viene considerato completato quando il valore corrente "
 "raggiunge il valore da raggiungere"
+=======
+"Un obiettivo viene considerato completato dopo il confronto tra il valore "
+"attuale e il valore da raggiungere"
+>>>>>>> upstream/18.0
 =======
 "Un obiettivo viene considerato completato dopo il confronto tra il valore "
 "attuale e il valore da raggiungere"
@@ -1083,7 +1114,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_badge__rule_auth__users
 msgid "A selected list of users"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Una lista di utenti selezionati"
+=======
+msgstr "Elenco selezionato di utenti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elenco selezionato di utenti"
 >>>>>>> upstream/18.0
@@ -1137,7 +1172,11 @@ msgstr "In archivio"
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Assign Challenge to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Assegnare sfida a"
+=======
+msgstr "Sfida assegnata a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sfida assegnata a"
 >>>>>>> upstream/18.0
@@ -1168,7 +1207,11 @@ msgstr "Utenti autorizzati"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__computation_mode__python
 msgid "Automatic: execute a specific Python code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Automatico: esegui codice specifico Python"
+=======
+msgstr "Automatico: esecuzione codice Python specifico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatico: esecuzione codice Python specifico"
 >>>>>>> upstream/18.0
@@ -1182,7 +1225,11 @@ msgstr "Automatico: numero di record"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__computation_mode__sum
 msgid "Automatic: sum on a field"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Automatico: somma di un campo"
+=======
+msgstr "Automatico: somma su un campo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatico: somma su un campo"
 >>>>>>> upstream/18.0
@@ -1191,7 +1238,11 @@ msgstr "Automatico: somma su un campo"
 #: model:gamification.karma.rank,name:gamification.rank_bachelor
 msgid "Bachelor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Laurea"
+=======
+msgstr "Laureato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laureato"
 >>>>>>> upstream/18.0
@@ -1203,7 +1254,11 @@ msgstr "Laureato"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "Badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etichetta di evidenziazione"
+=======
+msgstr "Riconoscimento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riconoscimento"
 >>>>>>> upstream/18.0
@@ -1212,7 +1267,11 @@ msgstr "Riconoscimento"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "Badge Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Descrizione badge"
+=======
+msgstr "Descrizione riconoscimento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descrizione riconoscimento"
 >>>>>>> upstream/18.0
@@ -1226,7 +1285,11 @@ msgstr "Livello riconoscimento"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_list_view
 msgid "Badge List"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista badge"
+=======
+msgstr "Elenco riconoscimenti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elenco riconoscimenti"
 >>>>>>> upstream/18.0
@@ -1235,7 +1298,11 @@ msgstr "Elenco riconoscimenti"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_user__badge_name
 msgid "Badge Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nome Badge"
+=======
+msgstr "Nome riconoscimento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome riconoscimento"
 >>>>>>> upstream/18.0
@@ -1246,7 +1313,11 @@ msgstr "Nome riconoscimento"
 #: model:ir.ui.menu,name:gamification.gamification_badge_menu
 msgid "Badges"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Medaglie"
+=======
+msgstr "Riconoscimenti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riconoscimenti"
 >>>>>>> upstream/18.0
@@ -1268,7 +1339,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__batch_mode
 msgid "Batch Mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modalità batch"
+=======
+msgstr "Modalità raggruppata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modalità raggruppata"
 >>>>>>> upstream/18.0
@@ -1277,7 +1352,11 @@ msgstr "Modalità raggruppata"
 #: model:gamification.badge,name:gamification.badge_idea
 msgid "Brilliant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Brillante"
+=======
+msgstr "Geniale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geniale"
 >>>>>>> upstream/18.0
@@ -1291,7 +1370,11 @@ msgstr "Bronzo"
 #: model:ir.model.fields,field_description:gamification.field_res_users__bronze_badge
 msgid "Bronze badges count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numero medaglie di bronzo"
+=======
+msgstr "Numero riconoscimenti di bronzo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numero riconoscimenti di bronzo"
 >>>>>>> upstream/18.0
@@ -1300,7 +1383,11 @@ msgstr "Numero riconoscimenti di bronzo"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view
 msgid "Can not grant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Non è possibile concederlo"
+=======
+msgstr "Non può essere assegnato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Non può essere assegnato"
 >>>>>>> upstream/18.0
@@ -1310,8 +1397,12 @@ msgstr "Non può essere assegnato"
 #: code:addons/gamification/models/gamification_goal.py:0
 msgid "Can not modify the configuration of a started goal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Non è possibile modificare la configurazione di un obiettivo già avviato"
+=======
+msgstr "Impossibile modificare la configurazione di un obiettivo avviato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Impossibile modificare la configurazione di un obiettivo avviato"
 >>>>>>> upstream/18.0
@@ -1388,7 +1479,11 @@ msgstr "Obiettivi con clic"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__closed
 msgid "Closed goal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obiettivi chiusi"
+=======
+msgstr "Obiettivo chiuso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obiettivo chiuso"
 >>>>>>> upstream/18.0
@@ -1408,7 +1503,11 @@ msgstr "Commento"
 #: model:gamification.challenge,name:gamification.challenge_base_discover
 msgid "Complete your Profile"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Completa il tuo profilo"
+=======
+msgstr "Completa il profilo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Completa il profilo"
 >>>>>>> upstream/18.0
@@ -1417,7 +1516,11 @@ msgstr "Completa il profilo"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__completeness
 msgid "Completeness"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Completamento"
+=======
+msgstr "Completezza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Completezza"
 >>>>>>> upstream/18.0
@@ -1450,7 +1553,11 @@ msgstr "Consolidamento dal %(from_date)s al %(end_date)s"
 #: model:ir.actions.act_window,name:gamification.action_new_simplified_res_users
 msgid "Create User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Crea Utente"
+=======
+msgstr "Crea utente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Crea utente"
 >>>>>>> upstream/18.0
@@ -1489,16 +1596,22 @@ msgid ""
 "specific access to the applications they need to use in the system."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Crea e gestisci gli utenti che si connetteranno al sistema. Gli utenti "
 "possono essere disattivati nel caso in cui ci sia un periodo durante il "
 "quale essi non dovranno/dovrebbero connettersi al sistema. È possibile "
 "assegnare loro gruppi per fornire un accesso specifico alle applicazioni che"
 " devono utilizzare nel sistema."
 =======
+=======
+>>>>>>> upstream/18.0
 "Crea e gestisce gli utenti che si collegheranno al sistema. Possono essere "
 "disattivati per un periodo di inattività o di preclusione all'accesso. Per "
 "fornire loro accessi ad applicazioni specifiche necessarie per l'utilizzo "
 "del sistema è possibile assegnare dei gruppi."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -1538,7 +1651,11 @@ msgstr "Attuale"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__current
 msgid "Current Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valore Attuale"
+=======
+msgstr "Valore attuale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valore attuale"
 >>>>>>> upstream/18.0
@@ -1578,7 +1695,11 @@ msgstr ""
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__challenge_category
 msgid "Define the visibility of the challenge through menus"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Definire la visibilità del challenge dal menu"
+=======
+msgstr "Definisce la visibilità della sfida attraverso i menù"
+>>>>>>> upstream/18.0
 =======
 msgstr "Definisce la visibilità della sfida attraverso i menù"
 >>>>>>> upstream/18.0
@@ -1592,7 +1713,11 @@ msgstr "Condizione definizione"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__definition_description
 msgid "Definition Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Definizione descrizione"
+=======
+msgstr "Descrizione definizione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descrizione definizione"
 >>>>>>> upstream/18.0
@@ -1609,9 +1734,13 @@ msgstr ""
 msgid ""
 "Describe the challenge: what is does, who it targets, why it matters..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Descrivi la sfida: obiettivi, persone a cui è assegnata, per quale motivo è "
 "importante..."
+=======
+msgstr "Descrivi la sfida: come si svolge, traguardi, perché è importante..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Descrivi la sfida: come si svolge, traguardi, perché è importante..."
 >>>>>>> upstream/18.0
@@ -1621,8 +1750,12 @@ msgstr "Descrivi la sfida: come si svolge, traguardi, perché è importante..."
 msgid "Describe what they did and why it matters (will be public)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Descrivi quel che hanno fatto e per quale motivo è importante (sarà visibile"
 " a tutti)"
+=======
+"Descrivi ciò che hanno fatto e perché è importante (verrà reso pubblico)"
+>>>>>>> upstream/18.0
 =======
 "Descrivi ciò che hanno fatto e perché è importante (verrà reso pubblico)"
 >>>>>>> upstream/18.0
@@ -1670,7 +1803,11 @@ msgstr "Campo distintivo per l'utente nel gruppo"
 #: model:gamification.karma.rank,name:gamification.rank_doctor
 msgid "Doctor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dottore"
+=======
+msgstr "Dottore di ricerca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dottore di ricerca"
 >>>>>>> upstream/18.0
@@ -1692,7 +1829,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "Done"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Completato"
+=======
+msgstr "Al completo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Al completo"
 >>>>>>> upstream/18.0
@@ -1741,7 +1882,11 @@ msgstr "Esclusivo (completato oppure no)"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal__state__failed
 msgid "Failed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Non riuscito"
+=======
+msgstr "Non raggiunto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Non raggiunto"
 >>>>>>> upstream/18.0
@@ -1755,7 +1900,11 @@ msgstr "Campo da sommare"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__domain
 msgid "Filter Domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dominio filtro"
+=======
+msgstr "Filtro dominio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtro dominio"
 >>>>>>> upstream/18.0
@@ -1776,7 +1925,11 @@ msgstr "Seguito da (partner)"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_first_id
 msgid "For 1st user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Per il primo utente"
+=======
+msgstr "Per il 1° utente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Per il 1° utente"
 >>>>>>> upstream/18.0
@@ -1785,7 +1938,11 @@ msgstr "Per il 1° utente"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_second_id
 msgid "For 2nd user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Per il secondo utente"
+=======
+msgstr "Per il 2° utente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Per il 2° utente"
 >>>>>>> upstream/18.0
@@ -1794,7 +1951,11 @@ msgstr "Per il 2° utente"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_third_id
 msgid "For 3rd user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Per il terzo utente"
+=======
+msgstr "Per il 3° utente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Per il 3° utente"
 >>>>>>> upstream/18.0
@@ -1813,7 +1974,11 @@ msgstr "Opzioni di formattazione"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__level
 msgid "Forum Badge Level"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Livello medaglia del forum"
+=======
+msgstr "Livello riconoscimenti del forum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Livello riconoscimenti del forum"
 >>>>>>> upstream/18.0
@@ -1837,7 +2002,11 @@ msgstr "Plusvalenza"
 #: model:ir.model,name:gamification.model_gamification_badge
 msgid "Gamification Badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Medaglia gamification"
+=======
+msgstr "Riconoscimento gamification"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riconoscimento gamification"
 >>>>>>> upstream/18.0
@@ -1846,7 +2015,11 @@ msgstr "Riconoscimento gamification"
 #: model:ir.model,name:gamification.model_gamification_challenge
 msgid "Gamification Challenge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Challenge gamification"
+=======
+msgstr "Sfida di gamification"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sfida di gamification"
 >>>>>>> upstream/18.0
@@ -1870,7 +2043,11 @@ msgstr "Procedura guidata obiettivo di gamification"
 #: model:ir.ui.menu,name:gamification.gamification_menu
 msgid "Gamification Tools"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Strumenti di Gamification"
+=======
+msgstr "Strumenti di gamification"
+>>>>>>> upstream/18.0
 =======
 msgstr "Strumenti di gamification"
 >>>>>>> upstream/18.0
@@ -1879,7 +2056,11 @@ msgstr "Strumenti di gamification"
 #: model:ir.model,name:gamification.model_gamification_badge_user
 msgid "Gamification User Badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Medaglia utente gamification"
+=======
+msgstr "Riconoscimento utente gamification"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riconoscimento utente gamification"
 >>>>>>> upstream/18.0
@@ -1944,7 +2125,11 @@ msgstr "Definizione obiettivo"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_list_view
 msgid "Goal Definitions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Definizioni Obiettivo"
+=======
+msgstr "Definizioni obiettivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Definizioni obiettivo"
 >>>>>>> upstream/18.0
@@ -1953,7 +2138,11 @@ msgstr "Definizioni obiettivo"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__description
 msgid "Goal Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Descrizione Obiettivo"
+=======
+msgstr "Descrizione obiettivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descrizione obiettivo"
 >>>>>>> upstream/18.0
@@ -1962,7 +2151,11 @@ msgstr "Descrizione obiettivo"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Goal Failed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obiettivo Fallito"
+=======
+msgstr "Obiettivo non raggiunto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obiettivo non raggiunto"
 >>>>>>> upstream/18.0
@@ -1971,7 +2164,11 @@ msgstr "Obiettivo non raggiunto"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_list_view
 msgid "Goal List"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista Obiettivi"
+=======
+msgstr "Elenco obiettivi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elenco obiettivi"
 >>>>>>> upstream/18.0
@@ -2008,7 +2205,11 @@ msgstr "Oro"
 #: model:ir.model.fields,field_description:gamification.field_res_users__gold_badge
 msgid "Gold badges count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numero medaglie d'oro"
+=======
+msgstr "Numero riconoscimenti d'oro"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numero riconoscimenti d'oro"
 >>>>>>> upstream/18.0
@@ -2017,7 +2218,11 @@ msgstr "Numero riconoscimenti d'oro"
 #: model:gamification.badge,name:gamification.badge_good_job
 msgid "Good Job"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Bel Lavoro"
+=======
+msgstr "Ottimo lavoro"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ottimo lavoro"
 >>>>>>> upstream/18.0
@@ -2026,7 +2231,11 @@ msgstr "Ottimo lavoro"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view
 msgid "Grant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Concedi"
+=======
+msgstr "Assegna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assegna"
 >>>>>>> upstream/18.0
@@ -2036,7 +2245,11 @@ msgstr "Assegna"
 #: model_terms:ir.ui.view,arch_db:gamification.view_badge_wizard_grant
 msgid "Grant Badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Assegna Badge"
+=======
+msgstr "Assegna riconoscimento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assegna riconoscimento"
 >>>>>>> upstream/18.0
@@ -2046,7 +2259,11 @@ msgstr "Assegna riconoscimento"
 #: model_terms:ir.ui.view,arch_db:gamification.view_goal_wizard_update_current
 msgid "Grant Badge To"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Assegna Badge a"
+=======
+msgstr "Assegna riconoscimento a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assegna riconoscimento a"
 >>>>>>> upstream/18.0
@@ -2055,7 +2272,11 @@ msgstr "Assegna riconoscimento a"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "Grant this Badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Assegna questo Badge"
+=======
+msgstr "Assegna il riconoscimento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assegna il riconoscimento"
 >>>>>>> upstream/18.0
@@ -2113,7 +2334,11 @@ msgstr "Calcolo dell'obiettivo"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__challenge_category__hr
 msgid "Human Resources / Engagement"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Risorse umane / Assunzione"
+=======
+msgstr "Risorse umane / Coinvolgimento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Risorse umane / Coinvolgimento"
 >>>>>>> upstream/18.0
@@ -2136,7 +2361,11 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__res_id_field
 msgid "ID Field of user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Campo ID dell'utente"
+=======
+msgstr "Campo ID utente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campo ID utente"
 >>>>>>> upstream/18.0
@@ -2169,7 +2398,11 @@ msgstr "Immagine"
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__image_1024
 msgid "Image 1024"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Immagine 1024"
+=======
+msgstr "Immagine a 1024"
+>>>>>>> upstream/18.0
 =======
 msgstr "Immagine a 1024"
 >>>>>>> upstream/18.0
@@ -2179,7 +2412,11 @@ msgstr "Immagine a 1024"
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__image_128
 msgid "Image 128"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Immagine 128"
+=======
+msgstr "Immagine a 128"
+>>>>>>> upstream/18.0
 =======
 msgstr "Immagine a 128"
 >>>>>>> upstream/18.0
@@ -2189,7 +2426,11 @@ msgstr "Immagine a 128"
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__image_256
 msgid "Image 256"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Immagine 256"
+=======
+msgstr "Immagine a 256"
+>>>>>>> upstream/18.0
 =======
 msgstr "Immagine a 256"
 >>>>>>> upstream/18.0
@@ -2199,7 +2440,11 @@ msgstr "Immagine a 256"
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__image_512
 msgid "Image 512"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Immagine 512"
+=======
+msgstr "Immagine a 512"
+>>>>>>> upstream/18.0
 =======
 msgstr "Immagine a 512"
 >>>>>>> upstream/18.0
@@ -2247,7 +2492,11 @@ msgstr "In corso"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__visibility_mode__personal
 msgid "Individual Goals"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obiettivi Individuali"
+=======
+msgstr "Obiettivi personali"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obiettivi personali"
 >>>>>>> upstream/18.0
@@ -2261,7 +2510,11 @@ msgstr "Modelli ereditati"
 #: model:gamification.goal.definition,name:gamification.definition_base_invite
 msgid "Invite new Users"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Invita nuovi Utenti"
+=======
+msgstr "Invito per nuovi utenti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Invito per nuovi utenti"
 >>>>>>> upstream/18.0
@@ -2355,7 +2608,11 @@ msgid "Last Report Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data ultimo Report"
+=======
+msgstr "Data ultimo resoconto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data ultimo resoconto"
 >>>>>>> upstream/18.0
@@ -2564,7 +2821,11 @@ msgstr "Righe"
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__line_ids
 msgid "List of goals that will be set"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista obiettivi assegnati"
+=======
+msgstr "Elenco obiettivi che verranno stabiliti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elenco obiettivi che verranno stabiliti"
 >>>>>>> upstream/18.0
@@ -2578,7 +2839,11 @@ msgstr "Manuale"
 #: model:gamification.karma.rank,name:gamification.rank_master
 msgid "Master"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Master"
+=======
+msgstr "Laureato magistrale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laureato magistrale"
 >>>>>>> upstream/18.0
@@ -2644,7 +2909,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "My Goals"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "I miei Obiettivi"
+=======
+msgstr "I miei obiettivi"
+>>>>>>> upstream/18.0
 =======
 msgstr "I miei obiettivi"
 >>>>>>> upstream/18.0
@@ -2663,7 +2932,11 @@ msgstr "Il mio totale inviato mensile"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__stat_my_this_month
 msgid "My Monthly Total"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Il Mio Totale Mensile"
+=======
+msgstr "Il mio totale mensile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Il mio totale mensile"
 >>>>>>> upstream/18.0
@@ -2672,7 +2945,11 @@ msgstr "Il mio totale mensile"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__stat_my
 msgid "My Total"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Il mio Totale"
+=======
+msgstr "Il mio totale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Il mio totale"
 >>>>>>> upstream/18.0
@@ -2722,7 +2999,11 @@ msgstr "Prossimo livello"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__next_report_date
 msgid "Next Report Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data prossimo Report"
+=======
+msgstr "Data prossimo resoconto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data prossimo resoconto"
 >>>>>>> upstream/18.0
@@ -2767,7 +3048,13 @@ msgstr ""
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "Nobody reached the required conditions to receive special badges."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nessuno ha raggiunto le condizioni per ricevere dei badge speciali."
+=======
+msgstr ""
+"Nessuno ha raggiunto le condizioni richieste per ricevere i riconoscimenti "
+"speciali."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Nessuno ha raggiunto le condizioni richieste per ricevere i riconoscimenti "
@@ -2788,7 +3075,11 @@ msgstr "Promemoria obiettivi manuali non aggiornati dopo"
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Notification Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Messaggi di Notifica"
+=======
+msgstr "Messaggi di notifica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Messaggi di notifica"
 >>>>>>> upstream/18.0
@@ -2865,7 +3156,11 @@ msgstr "Partecipanti"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_badge__rule_auth__having
 msgid "People having some badges"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Persone che hanno alcuni badge"
+=======
+msgstr "Persone con alcuni riconoscimenti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Persone con alcuni riconoscimenti"
 >>>>>>> upstream/18.0
@@ -2898,7 +3193,11 @@ msgstr "Totale precedente"
 #: model:gamification.badge,name:gamification.badge_problem_solver
 msgid "Problem Solver"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Problem Solver"
+=======
+msgstr "Risolutore di problemi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Risolutore di problemi"
 >>>>>>> upstream/18.0
@@ -2907,7 +3206,11 @@ msgstr "Risolutore di problemi"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__display_mode__progress
 msgid "Progressive (using numerical values)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Progressivo (utilizzando valori numerici)"
+=======
+msgstr "Progressivo (usando valori numerici)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Progressivo (usando valori numerici)"
 >>>>>>> upstream/18.0
@@ -3097,7 +3400,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_failure
 msgid "Reward Bests if not Succeeded?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Premiare i Migliori in caso di insuccesso?"
+=======
+msgstr "Premia migliori in caso di insuccesso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Premia migliori in caso di insuccesso"
 >>>>>>> upstream/18.0
@@ -3106,7 +3413,11 @@ msgstr "Premia migliori in caso di insuccesso"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_realtime
 msgid "Reward as soon as every goal is reached"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Premia non appena l'obiettivo viene raggiunto"
+=======
+msgstr "Premia non appena raggiunto l'obiettivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Premia non appena raggiunto l'obiettivo"
 >>>>>>> upstream/18.0
@@ -3115,7 +3426,11 @@ msgstr "Premia non appena raggiunto l'obiettivo"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__challenge_ids
 msgid "Reward of Challenges"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Premio per Sfide"
+=======
+msgstr "Premio per le sfide"
+>>>>>>> upstream/18.0
 =======
 msgstr "Premio per le sfide"
 >>>>>>> upstream/18.0
@@ -3124,7 +3439,11 @@ msgstr "Premio per le sfide"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__goal_definition_ids
 msgid "Rewarded by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Premiato per"
+=======
+msgstr "Premiato da"
+>>>>>>> upstream/18.0
 =======
 msgstr "Premiato da"
 >>>>>>> upstream/18.0
@@ -3133,7 +3452,11 @@ msgstr "Premiato da"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "Rewards for challenges"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Premi per Sfide"
+=======
+msgstr "Premi per sfide"
+>>>>>>> upstream/18.0
 =======
 msgstr "Premi per sfide"
 >>>>>>> upstream/18.0
@@ -3142,7 +3465,11 @@ msgstr "Premi per sfide"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "Running"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "In esecuzione"
+=======
+msgstr "In corso"
+>>>>>>> upstream/18.0
 =======
 msgstr "In corso"
 >>>>>>> upstream/18.0
@@ -3156,7 +3483,11 @@ msgstr "Sfide in corso"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Schedule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pianifica"
+=======
+msgstr "Programma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Programma"
 >>>>>>> upstream/18.0
@@ -3170,7 +3501,11 @@ msgstr "Ricerca riconoscimento"
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_search_view
 msgid "Search Challenges"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ricerca Sfide"
+=======
+msgstr "Ricerca sfide"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ricerca sfide"
 >>>>>>> upstream/18.0
@@ -3179,7 +3514,11 @@ msgstr "Ricerca sfide"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_search_view
 msgid "Search Goal Definitions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cerca Definizioni dell'Obiettivo"
+=======
+msgstr "Ricerca definizioni obiettivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ricerca definizioni obiettivo"
 >>>>>>> upstream/18.0
@@ -3188,7 +3527,11 @@ msgstr "Ricerca definizioni obiettivo"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "Search Goals"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ricerca Obiettivi"
+=======
+msgstr "Ricerca obiettivi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ricerca obiettivi"
 >>>>>>> upstream/18.0
@@ -3216,7 +3559,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Send Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Invia Report"
+=======
+msgstr "Invia resoconto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Invia resoconto"
 >>>>>>> upstream/18.0
@@ -3263,7 +3610,11 @@ msgstr "Sequenza"
 #: model_terms:ir.ui.view,arch_db:gamification.view_goal_wizard_update_current
 msgid "Set the current value you have reached for this goal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imposta il valore corrente raggiunto per questo obiettivo"
+=======
+msgstr "Imposta il valore corrente raggiunto per l'obiettivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imposta il valore corrente raggiunto per l'obiettivo"
 >>>>>>> upstream/18.0
@@ -3272,7 +3623,11 @@ msgstr "Imposta il valore corrente raggiunto per l'obiettivo"
 #: model:gamification.goal.definition,name:gamification.definition_base_company_data
 msgid "Set your Company Data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imposta i tuoi dati aziendali"
+=======
+msgstr "Impostazione dati aziendali"
+>>>>>>> upstream/18.0
 =======
 msgstr "Impostazione dati aziendali"
 >>>>>>> upstream/18.0
@@ -3281,7 +3636,11 @@ msgstr "Impostazione dati aziendali"
 #: model:gamification.goal.definition,name:gamification.definition_base_company_logo
 msgid "Set your Company Logo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imposta il tuo logo aziendale"
+=======
+msgstr "Impostazione logo aziendale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Impostazione logo aziendale"
 >>>>>>> upstream/18.0
@@ -3290,7 +3649,11 @@ msgstr "Impostazione logo aziendale"
 #: model:gamification.goal.definition,name:gamification.definition_base_timezone
 msgid "Set your Timezone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imposta la tua timezone"
+=======
+msgstr "Impostazione fuso orario"
+>>>>>>> upstream/18.0
 =======
 msgstr "Impostazione fuso orario"
 >>>>>>> upstream/18.0
@@ -3304,7 +3667,11 @@ msgstr "Impostazioni / Strumenti di gamification"
 #: model:gamification.challenge,name:gamification.challenge_base_configure
 msgid "Setup your Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imposta la tua azienda"
+=======
+msgstr "Imposta l'azienda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imposta l'azienda"
 >>>>>>> upstream/18.0
@@ -3318,7 +3685,11 @@ msgstr "Argento"
 #: model:ir.model.fields,field_description:gamification.field_res_users__silver_badge
 msgid "Silver badges count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numero medaglie d'argento"
+=======
+msgstr "Numero riconoscimenti d'argento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numero riconoscimenti d'argento"
 >>>>>>> upstream/18.0
@@ -3367,7 +3738,11 @@ msgstr "Avvia obiettivo"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Provincia"
+=======
+msgstr "Stato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stato"
 >>>>>>> upstream/18.0
@@ -3386,7 +3761,11 @@ msgstr "Studente"
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Subscriptions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Iscrizioni"
+=======
+msgstr "Sottoscrizioni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sottoscrizioni"
 >>>>>>> upstream/18.0
@@ -3402,7 +3781,11 @@ msgstr "Suffisso"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__invited_user_ids
 msgid "Suggest to users"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Suggerisci agli utenti"
+=======
+msgstr "Proponi agli utenti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proponi agli utenti"
 >>>>>>> upstream/18.0
@@ -3417,7 +3800,11 @@ msgstr "Traguardo"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line__target_goal
 msgid "Target Value to Reach"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valore da raggiungere"
+=======
+msgstr "Valore traguardo da raggiungere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valore traguardo da raggiungere"
 >>>>>>> upstream/18.0
@@ -3426,7 +3813,11 @@ msgstr "Valore traguardo da raggiungere"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_kanban_view
 msgid "Target: less than"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obiettivo: minore di"
+=======
+msgstr "Traguardo: minore di"
+>>>>>>> upstream/18.0
 =======
 msgstr "Traguardo: minore di"
 >>>>>>> upstream/18.0
@@ -3504,7 +3895,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__condition__higher
 msgid "The higher the better"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valori più alti sono considerati migliori"
+=======
+msgstr "Più alto possibile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Più alto possibile"
 >>>>>>> upstream/18.0
@@ -3528,7 +3923,11 @@ msgstr "Elenco di utenti unici che hanno ricevuto il riconoscimento."
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__condition__lower
 msgid "The lower the better"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valori più bassi sono considerati migliori"
+=======
+msgstr "Più basso possibile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Più basso possibile"
 >>>>>>> upstream/18.0
@@ -3581,7 +3980,12 @@ msgid ""
 "The number of time the current user has received this badge this month."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Il numero di volte che l'utente ha ricevuto questo badge, questo mese."
+=======
+"Numero di volte in cui l'utente attuale ha ricevuto il riconoscimento nel "
+"mese in corso."
+>>>>>>> upstream/18.0
 =======
 "Numero di volte in cui l'utente attuale ha ricevuto il riconoscimento nel "
 "mese in corso."
@@ -3591,7 +3995,12 @@ msgstr ""
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_my
 msgid "The number of time the current user has received this badge."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Il numero di volte che l'utente corrente ha ricevuto questo badge."
+=======
+msgstr ""
+"Numero di volte in cui l'utente attuale ha ricevuto il riconoscimento."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Numero di volte in cui l'utente attuale ha ricevuto il riconoscimento."
@@ -3614,7 +4023,12 @@ msgstr ""
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_this_month
 msgid "The number of time this badge has been received this month."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Il numero di volte che questo badge è stato assegnato questo mese."
+=======
+msgstr ""
+"Numero di volte in cui è stato ricevuto il riconoscimento nel mese in corso."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Numero di volte in cui è stato ricevuto il riconoscimento nel mese in corso."
@@ -3624,7 +4038,11 @@ msgstr ""
 #: model:ir.model.fields,help:gamification.field_gamification_badge__granted_count
 msgid "The number of time this badge has been received."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Il numero di volte che questo badge è stato assegnato."
+=======
+msgstr "Numero di volte in cui il riconoscimento è stato ricevuto."
+>>>>>>> upstream/18.0
 =======
 msgstr "Numero di volte in cui il riconoscimento è stato ricevuto."
 >>>>>>> upstream/18.0
@@ -3681,7 +4099,11 @@ msgstr ""
 #: code:addons/gamification/models/gamification_badge.py:0
 msgid "This badge can not be sent by users."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Questo badge non può essere inviato da utenti."
+=======
+msgstr "Gli utenti non possono inviare questo riconoscimento."
+>>>>>>> upstream/18.0
 =======
 msgstr "Gli utenti non possono inviare questo riconoscimento."
 >>>>>>> upstream/18.0
@@ -3690,7 +4112,11 @@ msgstr "Gli utenti non possono inviare questo riconoscimento."
 #: model_terms:ir.ui.view,arch_db:gamification.goal_kanban_view
 msgid "To"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Al"
+=======
+msgstr "al"
+>>>>>>> upstream/18.0
 =======
 msgstr "al"
 >>>>>>> upstream/18.0
@@ -3779,7 +4205,11 @@ msgstr "Creazione utente"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__user_domain
 msgid "User domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dominio Utente"
+=======
+msgstr "Dominio utente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dominio utente"
 >>>>>>> upstream/18.0
@@ -3805,7 +4235,11 @@ msgstr "Indica chi può assegnare il riconoscimento"
 #: model_terms:ir.ui.view,arch_db:gamification.view_badge_wizard_grant
 msgid "Who would you like to reward?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Chi vorresti premiare?"
+=======
+msgstr "A chi assegnare il premio"
+>>>>>>> upstream/18.0
 =======
 msgstr "A chi assegnare il premio"
 >>>>>>> upstream/18.0
@@ -3899,7 +4333,11 @@ msgstr "Tu ami imparare le cose. La curiosità è un bel modo per migliorare."
 #: model_terms:gamification.karma.rank,description:gamification.rank_student
 msgid "You're a young padawan now. May the force be with you!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adesso sei un giovane Padawan. Che la forza sia con te!"
+=======
+msgstr "Adesso sei un giovane Padawan. Che la Forza sia con te!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adesso sei un giovane Padawan. Che la Forza sia con te!"
 >>>>>>> upstream/18.0
@@ -3908,7 +4346,11 @@ msgstr "Adesso sei un giovane Padawan. Che la Forza sia con te!"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "badges this month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "badge questo mese"
+=======
+msgstr "riconoscimenti"
+>>>>>>> upstream/18.0
 =======
 msgstr "riconoscimenti"
 >>>>>>> upstream/18.0

@@ -273,7 +273,11 @@ class Channel(models.Model):
                             )
                         )
 <<<<<<< HEAD
+<<<<<<< HEAD
             membership_pids = [cmd[2]['partner_id'] for cmd in membership_ids_cmd if cmd[0] == 0]
+=======
+            membership_pids = [cmd[2]['partner_id'] for cmd in membership_ids_cmd if cmd[0] == 0 and 'partner_id' in cmd[2]]
+>>>>>>> upstream/18.0
 =======
             membership_pids = [cmd[2]['partner_id'] for cmd in membership_ids_cmd if cmd[0] == 0 and 'partner_id' in cmd[2]]
 >>>>>>> upstream/18.0
@@ -666,6 +670,10 @@ class Channel(models.Model):
     def _notify_by_web_push_prepare_payload(self, message, msg_vals=False):
         payload = super()._notify_by_web_push_prepare_payload(message, msg_vals=msg_vals)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        msg_vals = msg_vals or {}
+>>>>>>> upstream/18.0
 =======
         msg_vals = msg_vals or {}
 >>>>>>> upstream/18.0
@@ -772,7 +780,10 @@ class Channel(models.Model):
         raise UserError(_('Adding followers on channels is not possible. Consider adding members instead.'))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_access_action(self, access_uid=None, force_website=False):
         """ Redirect to Discuss instead of form view. """
         self.ensure_one()
@@ -789,6 +800,9 @@ class Channel(models.Model):
             "target": "self",
         }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # ------------------------------------------------------------
     # BROADCAST
@@ -1312,6 +1326,7 @@ class Channel(models.Model):
         else:
             if members := self.channel_member_ids.filtered(lambda m: not m.is_self):
 <<<<<<< HEAD
+<<<<<<< HEAD
                 msg = _(
                     "You are in a private conversation with %(member_names)s.",
                     member_names=html_escape(
@@ -1322,6 +1337,8 @@ class Channel(models.Model):
                         for member in members
                     },
 =======
+=======
+>>>>>>> upstream/18.0
                 member_names = html_escape(format_list(self.env, [f"%(member_{member.id})s" for member in members])) % {
                     f"member_{member.id}": member._get_html_link(for_persona=True)
                     for member in members
@@ -1329,6 +1346,9 @@ class Channel(models.Model):
                 msg = _(
                     "You are in a private conversation with %(member_names)s.",
                     member_names=member_names,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 )
             else:
@@ -1364,6 +1384,7 @@ class Channel(models.Model):
             else:
                 list_params.append(_("you"))
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg = _(
                 "Users in this channel: %(members)s.",
                 members=html_escape(format_list(self.env, list_params))
@@ -1372,6 +1393,8 @@ class Channel(models.Model):
                     for member in members
                 },
 =======
+=======
+>>>>>>> upstream/18.0
             member_names = html_escape(format_list(self.env, list_params)) % {
                 f"member_{member.id}": member._get_html_link(for_persona=True)
                 for member in members
@@ -1379,6 +1402,9 @@ class Channel(models.Model):
             msg = _(
                 "Users in this channel: %(members)s.",
                 members=member_names,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             )
         else:

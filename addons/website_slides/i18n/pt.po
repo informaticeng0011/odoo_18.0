@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* website_slides
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # NumerSpiral HBG, 2025
@@ -268,16 +269,22 @@
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # NumerSpiral HBG, 2025
 # Manuela Silva <mmsrs@sky.com>, 2025
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # cafonso <cafonso62@gmail.com>, 2025
 # Vasco Rodrigues, 2025
 # Wil Odoo, 2025
 # Daniel Reis, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -423,6 +430,10 @@
 # Rita Bastos, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Rita Bastos, 2025
+#
+>>>>>>> upstream/18.0
 =======
 # Rita Bastos, 2025
 #
@@ -431,6 +442,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -802,6 +814,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-15 18:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Rita Bastos, 2025\n"
@@ -812,6 +826,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -977,7 +994,12 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Hello<br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        You have been enrolled to a new course: <t t-out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+=======
+"        You have been enrolled to a new course: <t t-"
+"out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+>>>>>>> upstream/18.0
 =======
 "        You have been enrolled to a new course: <t t-"
 "out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
@@ -994,7 +1016,12 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Hello<br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        You have been invited to check out this course: <t t-out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+=======
+"        You have been invited to check out this course: <t t-"
+"out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+>>>>>>> upstream/18.0
 =======
 "        You have been invited to check out this course: <t t-"
 "out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
@@ -1009,6 +1036,7 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        <p style=\"margin: 0px;\">Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,</p><br/>\n"
 "                        <p><b>Congratulations!</b></p>\n"
@@ -1018,6 +1046,8 @@ msgid ""
 "                        <div style=\"padding: 16px 8px 16px 8px; text-align: center;\">\n"
 "                            <a href=\"/slides/all\" style=\"background-color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <div style=\"margin: 0px; padding: 0px; font-size: 13px;"
 "\">\n"
 "                        <p style=\"margin: 0px;\">Hello <t t-"
@@ -1032,22 +1062,31 @@ msgid ""
 "                            <a href=\"/slides/all\" style=\"background-"
 "color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                Explore courses\n"
 "                            </a>\n"
 "                        </div>\n"
 "                        Enjoy this exclusive content!\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"object.channel_id.user_id.signature\" data-o-mail-quote-container=\"1\">\n"
 "                            <br/>\n"
 "                            <t t-out=\"object.channel_id.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        <t t-if=\"object.channel_id.user_id.signature\" data-"
 "o-mail-quote-container=\"1\">\n"
 "                            <br/>\n"
 "                            <t t-out=\"object.channel_id.user_id.signature "
 "or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell "
 "Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                    </div>\n"
@@ -1059,6 +1098,7 @@ msgstr ""
 #: model:mail.template,body_html:website_slides.mail_template_channel_shared
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        Hello<br/><br/>\n"
@@ -1076,6 +1116,8 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;"
 "\">\n"
 "                        Hello<br/><br/>\n"
@@ -1103,6 +1145,9 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                    \n"
@@ -1114,6 +1159,7 @@ msgstr ""
 #: model:mail.template,body_html:website_slides.slide_template_shared
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        Hello<br/><br/>\n"
@@ -1130,6 +1176,8 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;"
 "\">\n"
 "                        Hello<br/><br/>\n"
@@ -1158,6 +1206,9 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                    \n"
@@ -1169,6 +1220,7 @@ msgstr ""
 #: model:mail.template,body_html:website_slides.slide_template_published
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        Hello<br/><br/>\n"
@@ -1189,6 +1241,8 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;"
 "\">\n"
 "                        Hello<br/><br/>\n"
@@ -1219,6 +1273,9 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                    \n"
@@ -1324,15 +1381,21 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_view_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-eye me-2\" aria-label=\"Views\" role=\"img\" title=\"Views\"/>"
 msgstr "<i class=\"fa fa-eye me-2\" aria-label=\"Views\" role=\"img\" title=“Vistas”/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-eye me-2\" aria-label=\"Views\" role=\"img\" "
 "title=\"Views\"/>"
 msgstr ""
 "<i class=\"fa fa-eye me-2\" aria-label=\"Views\" role=\"img\" title=“Vistas”/"
 ">"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -1348,17 +1411,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_view_kanban
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-file-image-o me-2\" aria-label=\"Infographic\" role=\"img\""
 " title=\"Infographic\"/>"
 msgstr ""
 "<i class=\"fa fa-file-image-o me-2\" aria-label=\"Infographic\" role=\"img\""
 " title=“Infografismo”/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<i class=\"fa fa-file-image-o me-2\" aria-label=\"Infographic\" role=\"img\" "
 "title=\"Infographic\"/>"
 msgstr ""
 "<i class=\"fa fa-file-image-o me-2\" aria-label=\"Infographic\" role=\"img\" "
 "title=“Infografismo”/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -1382,7 +1451,13 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_view_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-flag me-2\" aria-label=\"Quiz\" role=\"img\" title=\"Quiz\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-flag me-2\" aria-label=\"Quiz\" role=\"img\" title=\"Quiz\"/"
+">"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<i class=\"fa fa-flag me-2\" aria-label=\"Quiz\" role=\"img\" title=\"Quiz\"/"
@@ -1510,17 +1585,23 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-share-alt\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <span class=\"d-none d-md-inline-block ms-2\">Share</span>"
 msgstr ""
 "<i class=\"fa fa-share-alt\"/>\n"
 "                        <span class=\"d-none d-md-inline-block ms-2\">Partilhar</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        <span class=\"d-none d-md-inline-block ms-2\">Share</"
 "span>"
 msgstr ""
 "<i class=\"fa fa-share-alt\"/>\n"
 "                        <span class=\"d-none d-md-inline-block "
 "ms-2\">Partilhar</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -1588,8 +1669,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_sample
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-info badge-arrow-right fw-normal "
 "m-1\">New</span>"
+=======
+"<span class=\"badge text-bg-info badge-arrow-right fw-normal m-1\">New</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-info badge-arrow-right fw-normal m-1\">New</span>"
 >>>>>>> upstream/18.0
@@ -1599,8 +1684,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_slide
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-primary badge-hide fw-normal m-1\">Add "
 "Quiz</span>"
+=======
+"<span class=\"badge text-bg-primary badge-hide fw-normal m-1\">Add Quiz</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-primary badge-hide fw-normal m-1\">Add Quiz</"
 "span>"
@@ -1611,8 +1701,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_slide
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-success fw-normal "
 "m-1\"><span>Preview</span></span>"
+=======
+"<span class=\"badge text-bg-success fw-normal m-1\"><span>Preview</span></"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-success fw-normal m-1\"><span>Preview</span></"
 "span>"
@@ -1665,7 +1760,12 @@ msgstr ""
 msgid ""
 "<span class=\"o_form_label\">Slides</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-specific.\" groups=\"website.group_multi_website\"/>"
+=======
+"                    <span class=\"fa fa-lg fa-globe\" title=\"Values set "
+"here are website-specific.\" groups=\"website.group_multi_website\"/>"
+>>>>>>> upstream/18.0
 =======
 "                    <span class=\"fa fa-lg fa-globe\" title=\"Values set "
 "here are website-specific.\" groups=\"website.group_multi_website\"/>"
@@ -1689,6 +1789,7 @@ msgstr "<span class=\"o_stat_text\">Incorporar Visualizações</span>"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_card_information_arrow
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1772,10 +1873,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<span class=\"o_wslides_arrow badge bg-secondary mt-2 ms-2\">New Content</"
 "span>"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -1806,7 +1912,12 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-muted fw-bold col-4 col-md-3\">External sources</span>"
+=======
+msgid ""
+"<span class=\"text-muted fw-bold col-4 col-md-3\">External sources</span>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span class=\"text-muted fw-bold col-4 col-md-3\">External sources</span>"
@@ -1822,8 +1933,13 @@ msgstr "<span class=\"text-muted fw-bold me-3\">Classificação</span>"
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"text-muted text-truncate mw-100\" "
 "title=\"Invited\">Invited</span>"
+=======
+"<span class=\"text-muted text-truncate mw-100\" title=\"Invited\">Invited</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted text-truncate mw-100\" title=\"Invited\">Invited</"
 "span>"
@@ -1834,8 +1950,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"text-muted text-truncate mw-100\" "
 "title=\"Ongoing\">Ongoing</span>"
+=======
+"<span class=\"text-muted text-truncate mw-100\" title=\"Ongoing\">Ongoing</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted text-truncate mw-100\" title=\"Ongoing\">Ongoing</"
 "span>"
@@ -1845,7 +1966,12 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-muted text-truncate mw-100\" title=\"Total\">Total</span>"
+=======
+msgid ""
+"<span class=\"text-muted text-truncate mw-100\" title=\"Total\">Total</span>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span class=\"text-muted text-truncate mw-100\" title=\"Total\">Total</span>"
@@ -1868,6 +1994,7 @@ msgstr "<span class=\"text-muted\">Partes da ciência dos computadores</span>"
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span id=\"first\" class=\"me-1 me-sm-2\" title=\"First slide\" aria-label=\"First slide\" role=\"button\"><i class=\"fa fa-step-backward\"/></span>\n"
 "                                        <span id=\"previous\" class=\"mx-1 mx-sm-2\" title=\"Previous slide\" aria-label=\"Previous slide\" role=\"button\"><i class=\"fa fa-arrow-circle-left\"/></span>\n"
 "                                        <span id=\"next\" class=\"mx-1 mx-sm-2\" title=\"Next slide\" aria-label=\"Next slide\" role=\"button\"><i class=\"fa fa-arrow-circle-right\"/></span>\n"
@@ -1878,6 +2005,8 @@ msgstr ""
 "                                        <span id=\"next\" class=\"mx-1 mx-sm-2\" title=“Próximo slide” aria-label=\"Next slide\" role=\"button\"><i class=\"fa fa-arrow-circle-right\"/></span>\n"
 "                                        <span id=\"last\" class=\"mx-1 mx-sm-2\" title=“Último slide\" aria-label=\"Last slide\" role=\"button\"><i class=\"fa fa-step-forward\"/></span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span id=\"first\" class=\"me-1 me-sm-2\" title=\"First slide\" aria-"
 "label=\"First slide\" role=\"button\"><i class=\"fa fa-step-backward\"/></"
 "span>\n"
@@ -1903,11 +2032,15 @@ msgstr ""
 "                                        <span id=\"last\" class=\"mx-1 mx-"
 "sm-2\" title=“Último slide\" aria-label=\"Last slide\" role=\"button\"><i "
 "class=\"fa fa-step-forward\"/></span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span id=\"fullscreen\" class=\"ms-1 ms-sm-2\" title=\"View fullscreen\" aria-label=\"Fullscreen\" role=\"button\">\n"
 "                                            <i class=\"fa fa-arrows-alt\"/>\n"
@@ -1915,6 +2048,8 @@ msgid ""
 msgstr ""
 "<span id=\"fullscreen\" class=\"ms-1 ms-sm-2\" title=“Visualização em ecrã inteiro” aria-label=\"Fullscreen\" role=\"button\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span id=\"fullscreen\" class=\"ms-1 ms-sm-2\" title=\"View fullscreen\" "
 "aria-label=\"Fullscreen\" role=\"button\">\n"
 "                                            <i class=\"fa fa-arrows-alt\"/>\n"
@@ -1922,6 +2057,9 @@ msgstr ""
 msgstr ""
 "<span id=\"fullscreen\" class=\"ms-1 ms-sm-2\" title=“Visualização em ecrã "
 "inteiro” aria-label=\"Fullscreen\" role=\"button\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                            <i j=\"1/\">\n"
 "                                        </i></span>"
@@ -1930,12 +2068,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span id=\"zoomout\" class=\"d-inline ms-2 me-2\" title=\"Zoom out\" aria-label=\"Zoom out\" role=\"button\">\n"
 "                                            <i class=\"fa fa-search-minus\"/>\n"
 "                                        </span>\n"
 "                                        <span id=\"zoomin\" class=\"d-inline\" title=\"Zoom in\" aria-label=\"Zoom in\" role=\"button\">\n"
 "                                            <i class=\"fa fa-search-plus\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span id=\"zoomout\" class=\"d-inline ms-2 me-2\" title=\"Zoom out\" aria-"
 "label=\"Zoom out\" role=\"button\">\n"
 "                                            <i class=\"fa fa-search-minus\"/"
@@ -1945,6 +2086,9 @@ msgid ""
 "inline\" title=\"Zoom in\" aria-label=\"Zoom in\" role=\"button\">\n"
 "                                            <i class=\"fa fa-search-plus\"/"
 ">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                        </span>"
 msgstr ""
@@ -1960,8 +2104,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span name=\"members_completed_count_label\" "
 "class=\"o_stat_text\">Finished</span>"
+=======
+"<span name=\"members_completed_count_label\" class=\"o_stat_text\">Finished</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"members_completed_count_label\" class=\"o_stat_text\">Finished</"
 "span>"
@@ -2071,8 +2220,13 @@ msgstr "<strong>Ainda Não Há Participantes!</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Sharing is caring!</strong> Email(s) sent."
 msgstr "<strong>Partilhar é zelar!</strong> E-mail(s) enviado(s)."
+=======
+msgid "<strong>Sharing is caring!</strong> Your email(s) will arrive shortly."
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Sharing is caring!</strong> Your email(s) will arrive shortly."
 msgstr ""
@@ -2493,7 +2647,12 @@ msgstr ""
 #: code:addons/website_slides/models/slide_question.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "All questions must have at least one correct answer and one incorrect answer: \n"
+=======
+"All questions must have at least one correct answer and one incorrect "
+"answer: \n"
+>>>>>>> upstream/18.0
 =======
 "All questions must have at least one correct answer and one incorrect "
 "answer: \n"
@@ -2520,8 +2679,13 @@ msgid ""
 "your course."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Permitir aos participantes gostarem e comentarem o seu conteúdo e submeterem"
 " avaliações sobre o seu curso."
+=======
+"Permitir aos participantes gostarem e comentarem o seu conteúdo e submeterem "
+"avaliações sobre o seu curso."
+>>>>>>> upstream/18.0
 =======
 "Permitir aos participantes gostarem e comentarem o seu conteúdo e submeterem "
 "avaliações sobre o seu curso."
@@ -2828,7 +2992,11 @@ msgid "Body content is the same as the template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O conteúdo do corpo do texto é igual ao do modelo"
+>>>>>>> upstream/18.0
 =======
 msgstr "O conteúdo do corpo do texto é igual ao do modelo"
 >>>>>>> upstream/18.0
@@ -3422,8 +3590,13 @@ msgstr "Parabéns, chegou à última classificação!"
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Congratulations, you've created your first course.<br/>Click on the title of"
 " this content to see it in fullscreen mode."
+=======
+"Congratulations, you've created your first course.<br/>Click on the title of "
+"this content to see it in fullscreen mode."
+>>>>>>> upstream/18.0
 =======
 "Congratulations, you've created your first course.<br/>Click on the title of "
 "this content to see it in fullscreen mode."
@@ -3517,17 +3690,23 @@ msgstr "Tipo de Conteúdo"
 msgid ""
 "Content are the lessons that compose a course\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <br>and can be of different types (presentations, documents, videos, ...)."
 msgstr ""
 "O conteúdo são as lições que compõem um curso\n"
 "                    <br>e podem ser de diferentes tipos (apresentações, documentos, vídeos, ...)."
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <br>and can be of different types (presentations, "
 "documents, videos, ...)."
 msgstr ""
 "O conteúdo são as lições que compõem um curso\n"
 "                    <br>e podem ser de diferentes tipos (apresentações, "
 "documentos, vídeos, ...)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -3602,8 +3781,13 @@ msgid ""
 "video can be accessed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Não foi possível encontrar o seu vídeo. Verifique se o seu link está correto"
 " e se o vídeo pode ser acedido."
+=======
+"Não foi possível encontrar o seu vídeo. Verifique se o seu link está correto "
+"e se o vídeo pode ser acedido."
+>>>>>>> upstream/18.0
 =======
 "Não foi possível encontrar o seu vídeo. Verifique se o seu link está correto "
 "e se o vídeo pode ser acedido."
@@ -4182,7 +4366,11 @@ msgid "Done!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Concluído!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concluído!"
 >>>>>>> upstream/18.0
@@ -4484,12 +4672,15 @@ msgstr "Modelo de e-mail usado ao partilhar um slide"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_share_dialog/email_sharing_input.xml:0
 msgid "Email(s) sent."
 msgstr "E-mail(s) enviado(s)."
 
 #. module: website_slides
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4706,6 +4897,7 @@ msgstr "Nome do Ficheiro"
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_category.js:0
 msgid "File is too big. File size cannot exceed 25MB"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "O ficheiro é muito grande. O tamanho do ficheiro não pode exceder 25MB"
 
@@ -4861,6 +5053,11 @@ msgstr "O ficheiro é muito grande. O tamanho do ficheiro não pode exceder 25MB
 
 #. module: website_slides
 >>>>>>> upstream/18.0
+=======
+msgstr "O ficheiro é muito grande. O tamanho do ficheiro não pode exceder 25MB"
+
+#. module: website_slides
+>>>>>>> upstream/18.0
 #: model:ir.model,name:website_slides.model_ir_binary
 msgid "File streaming helper model for controllers"
 msgstr ""
@@ -4915,6 +5112,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5107,8 +5307,12 @@ msgstr "Prefácio"
 #: model_terms:slide.slide,description:website_slides.slide_slide_demo_4_0
 msgid "Foreword for this documentation: how to use it, main attention points"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Prefácio desta documentação: como usá-la, principais pontos de atenção"
+=======
+msgstr "Prefácio desta documentação: como usá-la, principais pontos de atenção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prefácio desta documentação: como usá-la, principais pontos de atenção"
 >>>>>>> upstream/18.0
@@ -5139,8 +5343,13 @@ msgid ""
 "From here you'll be able to monitor attendees and to track their progress."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A partir daqui, poderá monitorizar os participantes e acompanhar o progresso"
 " deles."
+=======
+"A partir daqui, poderá monitorizar os participantes e acompanhar o progresso "
+"deles."
+>>>>>>> upstream/18.0
 =======
 "A partir daqui, poderá monitorizar os participantes e acompanhar o progresso "
 "deles."
@@ -5325,8 +5534,12 @@ msgstr "Jardinagem Doméstica"
 msgid "How To Build a HIGH QUALITY Dining Table with LIMITED TOOLS"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Como Construir uma Mesa de Jantar de ALTA QUALIDADE com FERRAMENTAS "
 "LIMITADAS"
+=======
+"Como Construir uma Mesa de Jantar de ALTA QUALIDADE com FERRAMENTAS LIMITADAS"
+>>>>>>> upstream/18.0
 =======
 "Como Construir uma Mesa de Jantar de ALTA QUALIDADE com FERRAMENTAS LIMITADAS"
 >>>>>>> upstream/18.0
@@ -5523,17 +5736,23 @@ msgstr "Origem da Imagem"
 #: code:addons/website_slides/models/slide_channel.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible to send emails. Select a \"Channel Share Template\" for courses "
 "%(course_names)s first"
 msgstr ""
 "Impossível enviar e-mails. Selecione um \"Modelo de Partilha de Canal\" para"
 " os cursos %(course_names)s primeiro"
 =======
+=======
+>>>>>>> upstream/18.0
 "Impossible to send emails. Select a \"Channel Share Template\" for courses %"
 "(course_names)s first"
 msgstr ""
 "Impossível enviar e-mails. Selecione um \"Modelo de Partilha de Canal\" para "
 "os cursos %(course_names)s primeiro"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -5541,8 +5760,13 @@ msgstr ""
 #: code:addons/website_slides/models/slide_slide.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible to send emails. Select a \"Share Template\" for courses "
 "%(course_names)s first"
+=======
+"Impossible to send emails. Select a \"Share Template\" for courses %"
+"(course_names)s first"
+>>>>>>> upstream/18.0
 =======
 "Impossible to send emails. Select a \"Share Template\" for courses %"
 "(course_names)s first"
@@ -5644,7 +5868,12 @@ msgid ""
 "Here is the error message: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Erro interno do servidor, tente novamente mais tarde ou entre em contato com o administrador.\n"
+=======
+"Erro interno do servidor, tente novamente mais tarde ou entre em contato com "
+"o administrador.\n"
+>>>>>>> upstream/18.0
 =======
 "Erro interno do servidor, tente novamente mais tarde ou entre em contato com "
 "o administrador.\n"
@@ -5757,8 +5986,13 @@ msgid ""
 "Landscaping. Narrated by Leif Knecht, owner."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Jim e Todd plantam uma árvore envasada para um cliente da Knecht's Nurseries"
 " and Landscaping. Narrado por Leif Knecht, proprietário."
+=======
+"Jim e Todd plantam uma árvore envasada para um cliente da Knecht's Nurseries "
+"and Landscaping. Narrado por Leif Knecht, proprietário."
+>>>>>>> upstream/18.0
 =======
 "Jim e Todd plantam uma árvore envasada para um cliente da Knecht's Nurseries "
 "and Landscaping. Narrado por Leif Knecht, proprietário."
@@ -5843,17 +6077,23 @@ msgstr "Conheça-se a si próprio"
 #: model_terms:slide.channel,description_short:website_slides.slide_channel_demo_3_furn0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Knowing which kind of wood to use depending on your application is important. In this course you\n"
 "will learn the basics of wood characteristics."
 msgstr ""
 "Saber que tipo de madeira usar, dependendo da sua aplicação, é importante. Neste curso, irá\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Knowing which kind of wood to use depending on your application is "
 "important. In this course you\n"
 "will learn the basics of wood characteristics."
 msgstr ""
 "Saber que tipo de madeira usar, dependendo da sua aplicação, é importante. "
 "Neste curso, irá\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "aprender o básico das características da madeira."
 
@@ -5861,17 +6101,23 @@ msgstr ""
 #: model_terms:slide.slide,description:website_slides.slide_slide_demo_2_3
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Knowing wood characteristics is a requirement in order to know which kind of"
 " wood to use in a given situation."
 msgstr ""
 "Conhecer as características da madeira é um requisito para saber que tipo de"
 " madeira usar em determinadas situações."
 =======
+=======
+>>>>>>> upstream/18.0
 "Knowing wood characteristics is a requirement in order to know which kind of "
 "wood to use in a given situation."
 msgstr ""
 "Conhecer as características da madeira é um requisito para saber que tipo de "
 "madeira usar em determinadas situações."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -6021,8 +6267,12 @@ msgstr "Hiperligação"
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_slide__document_google_url
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Link of the document (we currently only support Google Drive as source)"
+=======
+msgid "Link of the document (we currently only support Google Drive as source)"
+>>>>>>> upstream/18.0
 =======
 msgid "Link of the document (we currently only support Google Drive as source)"
 >>>>>>> upstream/18.0
@@ -6284,8 +6534,13 @@ msgid ""
 "New {{ object.slide_category }} published on {{ object.channel_id.name }}"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Novo(a) {{ object.slide_category }} publicado(a) no(a) {{ "
 "object.channel_id.name }}"
+=======
+"Novo(a) {{ object.slide_category }} publicado(a) no(a) "
+"{{ object.channel_id.name }}"
+>>>>>>> upstream/18.0
 =======
 "Novo(a) {{ object.slide_category }} publicado(a) no(a) "
 "{{ object.channel_id.name }}"
@@ -6605,6 +6860,7 @@ msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -6613,6 +6869,8 @@ msgstr ""
 " expressão substituta que providencie o idioma apropriado, ex. {{ "
 "object.partner_id.lang }}."
 =======
+=======
+>>>>>>> upstream/18.0
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 msgstr ""
@@ -6620,6 +6878,9 @@ msgstr ""
 "Se não atribuído, a versão inglesa será utilizada. Deverá usualmente ser uma "
 "expressão substituta que providencie o idioma apropriado, ex. "
 "{{ object.partner_id.lang }}."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -6673,6 +6934,7 @@ msgstr "Por favor"
 #: code:addons/website_slides/static/src/js/slides_slide_like.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please <a href=\"/web/login?redirect=%(url)s\">login</a> or <a "
 "href=\"/web/signup?redirect=%(url)s\">create an account</a> to vote for this"
 " lesson"
@@ -6681,11 +6943,16 @@ msgstr ""
 "href=\"/web/signup?redirect=%(url)s\">crie uma conta</a> para votar esta "
 "lição"
 =======
+=======
+>>>>>>> upstream/18.0
 "Please <a href=\"/web/login?redirect=%(url)s\">login</a> or <a href=\"/web/"
 "signup?redirect=%(url)s\">create an account</a> to vote for this lesson"
 msgstr ""
 "Faça <a href=\"/web/login?redirect=%(url)s\">login</a> ou <a href=\"/web/"
 "signup?redirect=%(url)s\">crie uma conta</a> para votar esta lição"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -6859,8 +7126,13 @@ msgid ""
 "of the publisher group for documentation courses"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A publicação é exclusiva do responsável pelos cursos de treino ou membros do"
 " grupo de editores para cursos de documentação"
+=======
+"A publicação é exclusiva do responsável pelos cursos de treino ou membros do "
+"grupo de editores para cursos de documentação"
+>>>>>>> upstream/18.0
 =======
 "A publicação é exclusiva do responsável pelos cursos de treino ou membros do "
 "grupo de editores para cursos de documentação"
@@ -7065,8 +7337,12 @@ msgstr "Recurso"
 #. odoo-python
 #: code:addons/website_slides/models/slide_slide_resource.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Resource %(resource_name)s is a link and should not contain a data file"
+=======
+msgid "Resource %(resource_name)s is a link and should not contain a data file"
+>>>>>>> upstream/18.0
 =======
 msgid "Resource %(resource_name)s is a link and should not contain a data file"
 >>>>>>> upstream/18.0
@@ -7121,7 +7397,11 @@ msgid "Restrict to a specific website."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Restringir a um website específico."
+>>>>>>> upstream/18.0
 =======
 msgstr "Restringir a um website específico."
 >>>>>>> upstream/18.0
@@ -7204,6 +7484,11 @@ msgstr "Data da Avaliação"
 
 #. module: website_slides
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
@@ -7219,6 +7504,7 @@ msgid "Reviews"
 msgstr "Avaliações"
 
 #. module: website_slides
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7354,6 +7640,10 @@ msgstr "Avaliações"
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
 >>>>>>> upstream/18.0
+=======
+#. odoo-javascript
+#: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
+>>>>>>> upstream/18.0
 msgid "Reviews (%s)"
 msgstr "Avaliações (%s)"
 
@@ -7401,6 +7691,9 @@ msgstr "Avaliações (%s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7668,8 +7961,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
 msgid "Sell access to your courses on your website and track revenues."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Venda o acesso aos seus cursos no seu website e acompanhe as receitas."
+=======
+msgstr "Venda o acesso aos seus cursos no seu website e acompanhe as receitas."
+>>>>>>> upstream/18.0
 =======
 msgstr "Venda o acesso aos seus cursos no seu website e acompanhe as receitas."
 >>>>>>> upstream/18.0
@@ -7939,8 +8236,12 @@ msgstr "Imagem do Slide"
 #: code:addons/website_slides/controllers/main.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Slide with questions must be marked as done when submitting all good answers"
 " "
+=======
+"Slide with questions must be marked as done when submitting all good answers "
+>>>>>>> upstream/18.0
 =======
 "Slide with questions must be marked as done when submitting all good answers "
 >>>>>>> upstream/18.0
@@ -8068,17 +8369,23 @@ msgstr "Informação para Assinantes"
 #: model:ir.model.fields,help:website_slides.field_slide_slide__slide_type
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Subtype of the slide category, allows more precision on the actual file type"
 " / source type."
 msgstr ""
 "Subtipo da categoria de slide, permite mais precisão no tipo de "
 "ficheiro/origem corrente."
 =======
+=======
+>>>>>>> upstream/18.0
 "Subtype of the slide category, allows more precision on the actual file "
 "type / source type."
 msgstr ""
 "Subtipo da categoria de slide, permite mais precisão no tipo de ficheiro/"
 "origem corrente."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -8110,8 +8417,13 @@ msgstr "Nome de Etiqueta"
 msgid ""
 "Tag color used in both backend and website. No color means no display in "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "kanban or front-end, to distinguish internal tags from public categorization"
 " tags"
+=======
+"kanban or front-end, to distinguish internal tags from public categorization "
+"tags"
+>>>>>>> upstream/18.0
 =======
 "kanban or front-end, to distinguish internal tags from public categorization "
 "tags"
@@ -8211,8 +8523,13 @@ msgstr ""
 #: model:ir.model.constraint,message:website_slides.constraint_slide_channel_check_enroll
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Enroll Policy should be set to 'On Invitation' when visibility is set to"
 " 'Course Attendees'"
+=======
+"The Enroll Policy should be set to 'On Invitation' when visibility is set to "
+"'Course Attendees'"
+>>>>>>> upstream/18.0
 =======
 "The Enroll Policy should be set to 'On Invitation' when visibility is set to "
 "'Course Attendees'"
@@ -8227,8 +8544,13 @@ msgid ""
 "Google interface."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A hiperligação do Google Drive pode ser obtida usando o botão 'partilhar' na"
 " interface do Google."
+=======
+"A hiperligação do Google Drive pode ser obtida usando o botão 'partilhar' na "
+"interface do Google."
+>>>>>>> upstream/18.0
 =======
 "A hiperligação do Google Drive pode ser obtida usando o botão 'partilhar' na "
 "interface do Google."
@@ -8242,8 +8564,13 @@ msgid ""
 "button in the Google interface."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A hiperligação do Google Drive a usar aqui pode ser obtida clicando no botão"
 " “Partilhar\" na interface do Google."
+=======
+"A hiperligação do Google Drive a usar aqui pode ser obtida clicando no botão "
+"“Partilhar\" na interface do Google."
+>>>>>>> upstream/18.0
 =======
 "A hiperligação do Google Drive a usar aqui pode ser obtida clicando no botão "
 "“Partilhar\" na interface do Google."
@@ -8253,8 +8580,12 @@ msgstr ""
 #: model:ir.model.constraint,message:website_slides.constraint_slide_channel_partner_check_completion
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The completion of a channel is a percentage and should be between 0% and "
 "100."
+=======
+"The completion of a channel is a percentage and should be between 0% and 100."
+>>>>>>> upstream/18.0
 =======
 "The completion of a channel is a percentage and should be between 0% and 100."
 >>>>>>> upstream/18.0
@@ -8324,7 +8655,12 @@ msgstr "O voto deve ser 1, 0 ou -1."
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_dialog.xml:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Then, go into the file permissions and set it as \"Anyone with the link\"."
+=======
+msgid ""
+"Then, go into the file permissions and set it as \"Anyone with the link\"."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Then, go into the file permissions and set it as \"Anyone with the link\"."
@@ -8434,8 +8770,12 @@ msgstr "Esta é a resposta correta, parabéns"
 #: code:addons/website_slides/models/slide_question.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This question must have at least one correct answer and one incorrect "
 "answer."
+=======
+"This question must have at least one correct answer and one incorrect answer."
+>>>>>>> upstream/18.0
 =======
 "This question must have at least one correct answer and one incorrect answer."
 >>>>>>> upstream/18.0
@@ -8471,7 +8811,12 @@ msgstr "Este vídeo já existe neste canal no seguinte conteúdo: %s"
 msgid ""
 "Through Google Drive, we support most common types of documents.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Including regular documents (Google Doc, .docx), Sheets (Google Sheet, .xlsx), PowerPoints, ..."
+=======
+"            Including regular documents (Google Doc, .docx), Sheets (Google "
+"Sheet, .xlsx), PowerPoints, ..."
+>>>>>>> upstream/18.0
 =======
 "            Including regular documents (Google Doc, .docx), Sheets (Google "
 "Sheet, .xlsx), PowerPoints, ..."
@@ -9060,8 +9405,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Escreva um ou dois parágrafos descrevendo o seu produto ou serviço. <br>Para"
 " ter sucesso, o seu conteúdo precisa de ser útil para os seus leitores."
+=======
+"Escreva um ou dois parágrafos descrevendo o seu artigo ou serviço. <br>Para "
+"ter sucesso, o seu conteúdo precisa de ser útil para os seus leitores."
+>>>>>>> upstream/18.0
 =======
 "Escreva um ou dois parágrafos descrevendo o seu artigo ou serviço. <br>Para "
 "ter sucesso, o seu conteúdo precisa de ser útil para os seus leitores."
@@ -9352,7 +9702,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Escreva um ou dois parágrafos descrevendo o seu produto, serviços ou uma "
+=======
+"Escreva um ou dois parágrafos descrevendo o seu artigo, serviços ou uma "
+>>>>>>> upstream/18.0
 =======
 "Escreva um ou dois parágrafos descrevendo o seu artigo, serviços ou uma "
 >>>>>>> upstream/18.0
@@ -9548,17 +9902,23 @@ msgstr "Sim"
 #: code:addons/website_slides/models/slide_channel.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are not allowed to add members to this course. Please contact the course"
 " responsible or an administrator."
 msgstr ""
 "Não tem permissão para adicionar membros a este curso. Entre em contacto com"
 " o responsável do curso ou com um administrador."
 =======
+=======
+>>>>>>> upstream/18.0
 "You are not allowed to add members to this course. Please contact the course "
 "responsible or an administrator."
 msgstr ""
 "Não tem permissão para adicionar membros a este curso. Entre em contacto com "
 "o responsável do curso ou com um administrador."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -9776,6 +10136,7 @@ msgid ""
 msgstr ""
 "A sua plataforma de eLearning começa aqui!<br>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Carregue conteúdo, configure recompensas, gira participantes..."
 
 #. module: website_slides
@@ -9845,10 +10206,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "                    Carregue conteúdo, configure recompensas, gira "
 "participantes..."
 
 #. module: website_slides
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_share_dialog/email_sharing_input.xml:0
@@ -9878,6 +10244,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9930,8 +10299,13 @@ msgid ""
 "privacy settings"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "O seu ficheiro não pôde ser encontrado no Google Drive, verifique o link "
 "e/ou as configurações de privacidade"
+=======
+"O seu ficheiro não pôde ser encontrado no Google Drive, verifique o link e/"
+"ou as configurações de privacidade"
+>>>>>>> upstream/18.0
 =======
 "O seu ficheiro não pôde ser encontrado no Google Drive, verifique o link e/"
 "ou as configurações de privacidade"
@@ -9946,8 +10320,13 @@ msgid ""
 "a video."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A sua primeira seção foi criada, agora está na altura de adicionar lições ao"
 " seu curso. Clique em <b>Adicionar Conteúdo</b> para carregar um documento, "
+=======
+"A sua primeira seção foi criada, agora está na altura de adicionar lições ao "
+"seu curso. Clique em <b>Adicionar Conteúdo</b> para carregar um documento, "
+>>>>>>> upstream/18.0
 =======
 "A sua primeira seção foi criada, agora está na altura de adicionar lições ao "
 "seu curso. Clique em <b>Adicionar Conteúdo</b> para carregar um documento, "
@@ -9959,8 +10338,13 @@ msgstr ""
 #: code:addons/website_slides/models/slide_slide.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your video could not be found on Vimeo, please check the link and/or privacy"
 " settings"
+=======
+"Your video could not be found on Vimeo, please check the link and/or privacy "
+"settings"
+>>>>>>> upstream/18.0
 =======
 "Your video could not be found on Vimeo, please check the link and/or privacy "
 "settings"
@@ -10153,12 +10537,15 @@ msgstr "por exemplo, “Qual dos animais não pode voar?\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 msgid "e.g. \"{{placeholder || \"another animal\"}}\""
 msgstr ""
 
 #. module: website_slides
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10285,8 +10672,13 @@ msgstr "por exemplo, Ciência da Computação para crianças"
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "e.g. In this video, we'll give you the keys on how Odoo can help you to grow"
 " your business. At the end, we'll propose you a quiz to test your knowledge."
+=======
+"e.g. In this video, we'll give you the keys on how Odoo can help you to grow "
+"your business. At the end, we'll propose you a quiz to test your knowledge."
+>>>>>>> upstream/18.0
 =======
 "e.g. In this video, we'll give you the keys on how Odoo can help you to grow "
 "your business. At the end, we'll propose you a quiz to test your knowledge."
@@ -10382,13 +10774,19 @@ msgstr "iniciar sessão"
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_dialog.xml:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "mean? The Vimeo \"Private\" privacy setting means it is a video which can be viewed only by the users with the link to it.\n"
 "                Your video will never come up in the search results nor on your channel."
 =======
+=======
+>>>>>>> upstream/18.0
 "mean? The Vimeo \"Private\" privacy setting means it is a video which can be "
 "viewed only by the users with the link to it.\n"
 "                Your video will never come up in the search results nor on "
 "your channel."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -10397,8 +10795,13 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_dialog.xml:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "means? The YouTube \"unlisted\" means it is a video which can be viewed only"
 " by the users with the link to it. Your video will never come up in the "
+=======
+"means? The YouTube \"unlisted\" means it is a video which can be viewed only "
+"by the users with the link to it. Your video will never come up in the "
+>>>>>>> upstream/18.0
 =======
 "means? The YouTube \"unlisted\" means it is a video which can be viewed only "
 "by the users with the link to it. Your video will never come up in the "

@@ -67,12 +67,15 @@ export class WebClient extends Component {
         // the menu_id in the url is only possible if we came from an old url
         let menuId = Number(router.current.menu_id || 0);
 <<<<<<< HEAD
+<<<<<<< HEAD
         const firstAction = router.current.actionStack?.[0]?.action;
         if (!menuId && firstAction) {
             menuId = this.menuService
                 .getAll()
                 .find((m) => m.actionID === firstAction || m.actionPath === firstAction)?.appID;
 =======
+=======
+>>>>>>> upstream/18.0
         const storedMenuId = Number(browser.sessionStorage.getItem("menu_id"));
         const firstAction = router.current.actionStack?.[0]?.action;
         if (!menuId && firstAction) {
@@ -90,6 +93,9 @@ export class WebClient extends Component {
                     menuId = matchingMenus[0]?.appID;
                 }
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         if (menuId) {
@@ -118,7 +124,11 @@ export class WebClient extends Component {
             if (!menuId) {
                 // Setting the menu based on the session storage if no other menu was found
 <<<<<<< HEAD
+<<<<<<< HEAD
                 menuId = Number(browser.sessionStorage.getItem("menu_id"));
+=======
+                menuId = storedMenuId;
+>>>>>>> upstream/18.0
 =======
                 menuId = storedMenuId;
 >>>>>>> upstream/18.0

@@ -763,7 +763,10 @@ class TestStockValuationAVCO(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1059,6 +1062,7 @@ class TestStockValuationAVCO(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1233,6 +1237,8 @@ class TestStockValuationAVCO(TestStockValuationCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def test_change_quantity_from_other_company(self):
         """
         checks that a move on company A from a user logged in company B creates a svl with correct values (the ones from company A)
@@ -1280,6 +1286,9 @@ class TestStockValuationAVCO(TestStockValuationCommon):
         picking._action_done()
         self.assertEqual(self.env['stock.valuation.layer'].search([('stock_move_id', '=', cross_move.id)]).value, 100)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class TestStockValuationFIFO(TestStockValuationCommon):

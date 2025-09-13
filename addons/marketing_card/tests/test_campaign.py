@@ -3,6 +3,10 @@ import base64
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import datetime
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime
 >>>>>>> upstream/18.0
@@ -45,7 +49,10 @@ def _extract_values_from_document(rendered_document):
 class TestMarketingCardMail(MailCase, MarketingCardCommon):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def assertSentMailCorrectCard(self, sent_mails, cards):
         IrHttp = self.env['ir.http']
         sent_cards = self.env['card.card']
@@ -61,6 +68,9 @@ class TestMarketingCardMail(MailCase, MarketingCardCommon):
             self.assertIn(f'<img src="{image_url}"', sent_mail['body'])
         self.assertEqual(sent_cards, cards)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @users('marketing_card_user')
     @warmup
@@ -122,6 +132,7 @@ class TestMarketingCardMail(MailCase, MarketingCardCommon):
         cards = self.env['card.card'].search([('campaign_id', '=', campaign.id)])
         self.assertEqual(len(cards), 6)
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(len(cards.filtered(lambda card: not card.requires_sync)), 5)
         self.assertEqual(len(self._mails), 5)
 
@@ -135,6 +146,8 @@ class TestMarketingCardMail(MailCase, MarketingCardCommon):
             self.assertIn(f'<a href="{preview_url}"', sent_mail['body'])
             self.assertIn(f'<img src="{image_url}"', sent_mail['body'])
 =======
+=======
+>>>>>>> upstream/18.0
         sent_cards = cards.filtered(lambda card: not card.requires_sync)
         self.assertEqual(len(sent_cards), 5)
         self.assertEqual(len(self._mails), 5)
@@ -170,6 +183,9 @@ class TestMarketingCardMail(MailCase, MarketingCardCommon):
         self.assertEqual(len(self._mails), 10)
 
         self.assertSentMailCorrectCard(self._mails, cards)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -264,7 +280,10 @@ class TestMarketingCardRender(MarketingCardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -308,6 +327,9 @@ class TestMarketingCardRender(MarketingCardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -342,7 +364,10 @@ class TestMarketingCardRouting(HttpCase, MarketingCardCommon):
         self.assertTrue(card.image)
         self.assertEqual(card.share_status, 'visited')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(card.active, False, "preview card was updated and is thus considered not valid")
         self.campaign.flush_recordset()
         self.assertEqual(self.campaign.card_count, 19)
@@ -352,6 +377,9 @@ class TestMarketingCardRouting(HttpCase, MarketingCardCommon):
         # recipient opens the card they received
         card.active = True  # reset as if it were never used as preview
         image_request_headers = self.url_open(card._get_card_url())
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.campaign.flush_recordset()
         self.assertEqual(self.campaign.card_count, 20)
@@ -469,6 +497,7 @@ class TestMarketingCardSecurity(MarketingCardCommon):
         See _check_access_right_dynamic_template override.
         """
         campaign = self.campaign.with_user(self.marketing_card_manager)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -675,6 +704,8 @@ class TestMarketingCardSecurity(MarketingCardCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Will raise ZeroDivisionError if the template is executed
         arbitrary_qweb = """
         <img t-attf-src="data:image/png;base64,{{1 / 0}}"/>
@@ -748,6 +779,9 @@ class TestMarketingCardSecurity(MarketingCardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -955,7 +989,11 @@ class TestMarketingCardSecurity(MarketingCardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and field.readonly
+=======
+                and not field.readonly
+>>>>>>> upstream/18.0
 =======
                 and not field.readonly
 >>>>>>> upstream/18.0

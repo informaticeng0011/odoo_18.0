@@ -2,7 +2,11 @@
 
 import { Component, useRef, useState, xml } from "@odoo/owl";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useAutofocus, useWindowListener } from "../hoot_utils";
+=======
+import { useAutofocus, useHootKey, useWindowListener } from "../hoot_utils";
+>>>>>>> upstream/18.0
 =======
 import { useAutofocus, useHootKey, useWindowListener } from "../hoot_utils";
 >>>>>>> upstream/18.0
@@ -66,12 +70,16 @@ export class HootDropdown extends Component {
 
         useAutofocus(this.rootRef);
 <<<<<<< HEAD
+<<<<<<< HEAD
         useWindowListener("keydown", (ev) => {
             if (this.state.open && ev.key === "Escape") {
                 ev.preventDefault();
                 this.state.open = false;
             }
         });
+=======
+        useHootKey(["Escape"], this.close);
+>>>>>>> upstream/18.0
 =======
         useHootKey(["Escape"], this.close);
 >>>>>>> upstream/18.0
@@ -89,7 +97,10 @@ export class HootDropdown extends Component {
         );
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     /**
      * @param {KeyboardEvent} ev
@@ -100,5 +111,8 @@ export class HootDropdown extends Component {
             this.state.open = false;
         }
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }

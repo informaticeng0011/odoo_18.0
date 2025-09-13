@@ -124,8 +124,12 @@ export class EditListPopup extends Component {
     hasValidValue(itemId, text) {
         return (
 <<<<<<< HEAD
+<<<<<<< HEAD
             !this.props.isLotNameUsed(text) &&
             (this.props.customInput || this.props.options.includes(text)) &&
+=======
+            this.isValidValue(text) &&
+>>>>>>> upstream/18.0
 =======
             this.isValidValue(text) &&
 >>>>>>> upstream/18.0
@@ -134,7 +138,10 @@ export class EditListPopup extends Component {
         );
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     isValidValue(text) {
         return (
             !this.props.isLotNameUsed(text) &&
@@ -143,6 +150,9 @@ export class EditListPopup extends Component {
                 this.props.array.some((i) => i.text === text))
         );
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     onInputChange(itemId, text) {
         const item = this.state.array.find((elem) => elem._id === itemId);
@@ -203,10 +213,14 @@ export class EditListPopup extends Component {
                 .filter((item) => {
                     const itemValue = item.text.trim();
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const isValidValue =
                         itemValue !== "" &&
                         !this.props.isLotNameUsed(itemValue) &&
                         (this.props.customInput || this.props.options.includes(itemValue));
+=======
+                    const isValidValue = itemValue !== "" && this.isValidValue(itemValue);
+>>>>>>> upstream/18.0
 =======
                     const isValidValue = itemValue !== "" && this.isValidValue(itemValue);
 >>>>>>> upstream/18.0

@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 # 
+=======
+# * mrp
+#
+>>>>>>> upstream/18.0
 =======
 # * mrp
 #
@@ -12,7 +17,12 @@
 # Wil Odoo, 2024
 # Manon Rondou, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 #
 # "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
@@ -21,6 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -264,6 +275,8 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-06-13 18:36+0000\n"
 "PO-Revision-Date: 2025-09-01 21:17+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
@@ -275,6 +288,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -2391,6 +2407,10 @@ msgstr "Ordre de désassemblage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -2919,11 +2939,14 @@ msgid ""
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Quantité prévue (calculée comme quantité en stock - sortante + entrante)\n"
 "Dans le contexte d'un emplacement de stock seul, cela comprend les marchandises stockées dans cet emplacement et ses enfants.\n"
 "Dans le contexte d'un entrepôt seul, cela comprend les marchandises stockées dans l'emplacement de stock de cet entrepôt et ses enfants.\n"
 "Dans les autres cas, cela comprend les marchandises stockées dans tous les emplacements de type \"interne\""
 =======
+=======
+>>>>>>> upstream/18.0
 "Quantité prévue (calculée comme Quantité disponible – Sorties + Entrées)\n"
 "Dans un contexte avec un seul emplacement de stock, cela inclut les "
 "marchandises stockées dans cet emplacement ou dans l’un de ses sous-"
@@ -2933,6 +2956,9 @@ msgstr ""
 "sous-emplacements.\n"
 "Sinon, cela inclut les marchandises stockées dans tout emplacement de stock "
 "de type \"interne\"."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -2957,7 +2983,11 @@ msgstr "Virtuellement disponible"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "Free to Use / On Hand"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Virtuellement disponible / En stock"
+=======
+msgstr "Virtuellement disponible / Disponible"
+>>>>>>> upstream/18.0
 =======
 msgstr "Virtuellement disponible / Disponible"
 >>>>>>> upstream/18.0
@@ -2968,7 +2998,11 @@ msgstr "Virtuellement disponible / Disponible"
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Free to use / On Hand"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Virtuellement disponible / En stock"
+=======
+msgstr "Virtuellement disponible / Disponible"
+>>>>>>> upstream/18.0
 =======
 msgstr "Virtuellement disponible / Disponible"
 >>>>>>> upstream/18.0
@@ -3133,6 +3167,7 @@ msgstr "A des lignes d'acheminement"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3151,6 +3186,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3231,6 +3268,9 @@ msgstr "A une feuille de travail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4553,7 +4593,11 @@ msgstr "TRS"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 msgid "On Hand"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "En stock"
+=======
+msgstr "Disponible"
+>>>>>>> upstream/18.0
 =======
 msgstr "Disponible"
 >>>>>>> upstream/18.0
@@ -5178,7 +5222,11 @@ msgstr "Mouvements de produit (Ligne de mouvement de stock)"
 #: model:ir.model.fields,field_description:mrp.field_stock_move__product_qty_available
 msgid "Product On Hand Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Quantité de produits en stock"
+=======
+msgstr "Quantité de produits disponibles"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantité de produits disponibles"
 >>>>>>> upstream/18.0
@@ -6577,7 +6625,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "To"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vers"
+=======
+msgstr "Au"
+>>>>>>> upstream/18.0
 =======
 msgstr "Au"
 >>>>>>> upstream/18.0
@@ -6928,7 +6980,11 @@ msgid "Units"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Unités"
+=======
+msgstr "Unité(s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unité(s)"
 >>>>>>> upstream/18.0
@@ -8072,6 +8128,7 @@ msgstr "ordres de travail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -8092,6 +8149,8 @@ msgstr "{{ props.isFolded ? 'Unfold' : 'Fold' }}"
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

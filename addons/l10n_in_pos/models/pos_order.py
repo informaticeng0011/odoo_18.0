@@ -19,7 +19,10 @@ class PosOrder(models.Model):
             vals['l10n_in_gst_treatment'] = l10n_in_gst_treatment
         return vals
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _prepare_product_aml_dict(self, base_line_vals, update_base_line_vals, rate, sign):
         res = super()._prepare_product_aml_dict(base_line_vals, update_base_line_vals, rate, sign)
@@ -28,4 +31,7 @@ class PosOrder(models.Model):
                 'l10n_in_hsn_code': base_line_vals['l10n_in_hsn_code'],
             })
         return res
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

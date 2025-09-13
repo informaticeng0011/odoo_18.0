@@ -10,6 +10,10 @@ from . import mail_notification
 from . import mail_thread
 from . import models
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import res_company
+>>>>>>> upstream/18.0
 =======
 from . import res_company
 >>>>>>> upstream/18.0

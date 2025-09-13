@@ -6,7 +6,10 @@ from werkzeug.urls import url_join
 
 from odoo import fields, models, _
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.sms.tools.sms_api import SmsApi
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -28,6 +31,10 @@ class MassSMSTest(models.TransientModel):
         numbers = [number.strip() for number in self.numbers.splitlines()]
         sanitized_numbers = [self.env.user._phone_format(number=number) for number in numbers]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        valid_numbers = [number for sanitized, number in zip(sanitized_numbers, numbers) if sanitized]
+>>>>>>> upstream/18.0
 =======
         valid_numbers = [number for sanitized, number in zip(sanitized_numbers, numbers) if sanitized]
 >>>>>>> upstream/18.0
@@ -40,8 +47,13 @@ class MassSMSTest(models.TransientModel):
             body = self.env['mail.render.mixin']._render_template(body, self.mailing_id.mailing_model_real, record.ids)[record.id]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         new_sms_messages_sudo = self.env['sms.sms'].sudo().create([{'body': body, 'number': number} for number in sanitized_numbers])
         sms_api = SmsApi(self.env)
+=======
+        new_sms_messages_sudo = self.env['sms.sms'].sudo().create([{'body': body, 'number': number} for number in valid_numbers])
+        sms_api = self.env.company._get_sms_api_class()(self.env)
+>>>>>>> upstream/18.0
 =======
         new_sms_messages_sudo = self.env['sms.sms'].sudo().create([{'body': body, 'number': number} for number in valid_numbers])
         sms_api = self.env.company._get_sms_api_class()(self.env)
@@ -52,10 +64,13 @@ class MassSMSTest(models.TransientModel):
         }], delivery_reports_url=url_join(self[0].get_base_url(), '/sms/status'))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         error_messages = {}
         if any(sent_sms.get('state') != 'success' for sent_sms in sent_sms_list):
             error_messages = sms_api._get_sms_api_error_messages()
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         notification_messages = []
@@ -63,6 +78,7 @@ class MassSMSTest(models.TransientModel):
             notification_messages.append(_('The following numbers are not correctly encoded: %s',
                 ', '.join(invalid_numbers)))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         for sent_sms in sent_sms_list:
             if sent_sms.get('state') == 'success':
@@ -77,6 +93,8 @@ class MassSMSTest(models.TransientModel):
                     )
                 )
 =======
+=======
+>>>>>>> upstream/18.0
         for sent_sms, db_sms in zip(sent_sms_list, new_sms_messages_sudo):
             recipient = db_sms.number or sent_sms.get('res_id')
             # 'success' and 'sent' IAP/Twilio both resolve to 'pending' SMS state
@@ -93,6 +111,9 @@ class MassSMSTest(models.TransientModel):
                     failure_reason=failure_explanation or failure_reason or _("An error occurred."),
                 )
                 notification_messages.append(message)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         if notification_messages:

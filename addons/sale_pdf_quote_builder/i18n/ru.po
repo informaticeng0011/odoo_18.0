@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_pdf_quote_builder
 # 
+=======
+# * sale_pdf_quote_builder
+#
+>>>>>>> upstream/18.0
 =======
 # * sale_pdf_quote_builder
 #
@@ -11,6 +16,7 @@
 # Irina Fedulova <istartlin@gmail.com>, 2024
 # Wil Odoo, 2024
 # Ilya Rozhkov, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57,11 +63,16 @@
 # Anastasiia Koroleva, 2025
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Anastasiia Koroleva, 2025
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -112,6 +123,8 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-10 06:15+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
@@ -124,6 +137,9 @@ msgstr ""
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
@@ -139,7 +155,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "<span class=\"pe-2\">Templates:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"pe-2\">Шаблоны:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"pe-2\">Шаблоны:</span>"
 >>>>>>> upstream/18.0
@@ -148,7 +168,11 @@ msgstr "<span class=\"pe-2\">Шаблоны:</span>"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "<span>Document type:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Тип документа:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Тип документа:</span>"
 >>>>>>> upstream/18.0
@@ -161,6 +185,11 @@ msgid ""
 " document."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Поле формы, заданное как используемое в документах по товарам, нельзя "
+"связать с документом коммерческого предложения."
+>>>>>>> upstream/18.0
 =======
 "Поле формы, заданное как используемое в документах по товарам, нельзя "
 "связать с документом коммерческого предложения."
@@ -174,6 +203,11 @@ msgid ""
 " document."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Поле формы, заданное как используемое в коммерческих предложениях, нельзя "
+"связать с документом по товарам."
+>>>>>>> upstream/18.0
 =======
 "Поле формы, заданное как используемое в коммерческих предложениях, нельзя "
 "связать с документом по товарам."
@@ -222,7 +256,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -259,6 +296,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -302,7 +342,11 @@ msgstr "URL-адрес вложения"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order_line__available_product_document_ids
 msgid "Available Product Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступные документы по товарам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Доступные документы по товарам"
 >>>>>>> upstream/18.0
@@ -317,7 +361,11 @@ msgstr "Контрольная сумма/SHA1"
 #: code:addons/sale_pdf_quote_builder/static/src/js/custom_content_kanban_like_widget/custom_field_card/custom_field_card.js:0
 msgid "Click to write content for the PDF quote..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нажмите, чтобы ввести содержимое для PDF-предложения..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Нажмите, чтобы ввести содержимое для PDF-предложения..."
 >>>>>>> upstream/18.0
@@ -332,7 +380,11 @@ msgstr "Компания"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Configure dynamic fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Настроить динамические поля"
+>>>>>>> upstream/18.0
 =======
 msgstr "Настроить динамические поля"
 >>>>>>> upstream/18.0
@@ -341,7 +393,11 @@ msgstr "Настроить динамические поля"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.product_document_form
 msgid "Configure the path to fill the form fields."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Настроить путь для заполнения полей формы."
+>>>>>>> upstream/18.0
 =======
 msgstr "Настроить путь для заполнения полей формы."
 >>>>>>> upstream/18.0
@@ -351,7 +407,11 @@ msgstr "Настроить путь для заполнения полей фо�
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -361,7 +421,11 @@ msgstr "Создано:"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -375,7 +439,11 @@ msgstr "Создать"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search
 msgid "Customizable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "С возможностью настройки"
+>>>>>>> upstream/18.0
 =======
 msgstr "С возможностью настройки"
 >>>>>>> upstream/18.0
@@ -384,7 +452,11 @@ msgstr "С возможностью настройки"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order__customizable_pdf_form_fields
 msgid "Customizable PDF Form Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Настраиваемые поля PDF-формы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Настраиваемые поля PDF-формы"
 >>>>>>> upstream/18.0
@@ -420,7 +492,11 @@ msgstr "Тип документа"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "Document type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Тип документа"
+>>>>>>> upstream/18.0
 =======
 msgstr "Тип документа"
 >>>>>>> upstream/18.0
@@ -466,7 +542,11 @@ msgstr "Футер"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__name
 msgid "Form Field Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Название поля формы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Название поля формы"
 >>>>>>> upstream/18.0
@@ -477,7 +557,11 @@ msgstr "Название поля формы"
 #: code:addons/sale_pdf_quote_builder/models/quotation_document.py:0
 msgid "Form Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поля формы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поля формы"
 >>>>>>> upstream/18.0
@@ -487,7 +571,11 @@ msgstr "Поля формы"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__form_field_ids
 msgid "Form Fields Included"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Включенные поля формы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Включенные поля формы"
 >>>>>>> upstream/18.0
@@ -496,7 +584,11 @@ msgstr "Включенные поля формы"
 #: model:ir.model.constraint,message:sale_pdf_quote_builder.constraint_sale_pdf_form_field_unique_name_per_doc_type
 msgid "Form field name must be unique for a given document type."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Название поля формы должно быть уникальным для данного типа документа."
+>>>>>>> upstream/18.0
 =======
 msgstr "Название поля формы должно быть уникальным для данного типа документа."
 >>>>>>> upstream/18.0
@@ -505,7 +597,11 @@ msgstr "Название поля формы должно быть уникал�
 #: model:ir.model,name:sale_pdf_quote_builder.model_sale_pdf_form_field
 msgid "Form fields of inside quotation documents."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поля формы внутри документов коммерческого предложения."
+>>>>>>> upstream/18.0
 =======
 msgstr "Поля формы внутри документов коммерческого предложения."
 >>>>>>> upstream/18.0
@@ -526,7 +622,11 @@ msgstr "Заголовок"
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__sale_pdf_form_field__document_type__quotation_document
 msgid "Header/Footer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Верхний/нижний колонтитул"
+>>>>>>> upstream/18.0
 =======
 msgstr "Верхний/нижний колонтитул"
 >>>>>>> upstream/18.0
@@ -535,7 +635,11 @@ msgstr "Верхний/нижний колонтитул"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order_template__quotation_document_ids
 msgid "Headers and footers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Колонтитулы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Колонтитулы"
 >>>>>>> upstream/18.0
@@ -547,7 +651,11 @@ msgstr "Колонтитулы"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.res_config_settings_view_form
 msgid "Headers/Footers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Колонтитулы (верхний/нижний)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Колонтитулы (верхний/нижний)"
 >>>>>>> upstream/18.0
@@ -570,6 +678,11 @@ msgid ""
 "removing it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Если флажок не установлен, это позволит скрыть верхний или нижний колонтитул "
+"без его удаления."
+>>>>>>> upstream/18.0
 =======
 "Если флажок не установлен, это позволит скрыть верхний или нижний колонтитул "
 "без его удаления."
@@ -599,7 +712,11 @@ msgstr "Индексированное содержимое"
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__product_document__attached_on_sale__inside
 msgid "Inside quote pdf"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Внутри PDF-предложения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Внутри PDF-предложения"
 >>>>>>> upstream/18.0
@@ -612,6 +729,11 @@ msgid ""
 "footer can not start with \"sol_id_\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Недопустимое имя поля формы %(field_name)s. Имя поля формы в колонтитуле не "
+"может начинаться с «sol_id_»."
+>>>>>>> upstream/18.0
 =======
 "Недопустимое имя поля формы %(field_name)s. Имя поля формы в колонтитуле не "
 "может начинаться с «sol_id_»."
@@ -625,6 +747,11 @@ msgid ""
 "alphanumerics, hyphens or underscores."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Недопустимое имя поля формы %(field_name)s. Имя должно содержать только "
+"буквы, цифры, дефисы или подчеркивания."
+>>>>>>> upstream/18.0
 =======
 "Недопустимое имя поля формы %(field_name)s. Имя должно содержать только "
 "буквы, цифры, дефисы или подчеркивания."
@@ -638,6 +765,11 @@ msgid ""
 "underscores or points."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Недопустимый путь %(path)s. Путь должен содержать только буквы, цифры, "
+"дефисы, подчеркивания или точки."
+>>>>>>> upstream/18.0
 =======
 "Недопустимый путь %(path)s. Путь должен содержать только буквы, цифры, "
 "дефисы, подчеркивания или точки."
@@ -647,7 +779,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order__is_pdf_quote_builder_available
 msgid "Is Pdf Quote Builder Available"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступен ли конструктор коммерческих предложений в формате PDF"
+>>>>>>> upstream/18.0
 =======
 msgstr "Доступен ли конструктор коммерческих предложений в формате PDF"
 >>>>>>> upstream/18.0
@@ -679,7 +815,11 @@ msgstr "Ключ"
 msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -693,7 +833,11 @@ msgstr "Последнее обновление:"
 msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -705,7 +849,11 @@ msgstr "Дата последнего обновления:"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Mark fields as safe to fill in the quote."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пометить поля как доступные для заполнения в предложении."
+>>>>>>> upstream/18.0
 =======
 msgstr "Пометить поля как доступные для заполнения в предложении."
 >>>>>>> upstream/18.0
@@ -737,7 +885,11 @@ msgstr "В цитату можно вложить только документ�
 #: code:addons/sale_pdf_quote_builder/models/quotation_document.py:0
 msgid "Only PDF documents can be used as header or footer."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "В качестве колонтитулов можно использовать только PDF-документы."
+>>>>>>> upstream/18.0
 =======
 msgstr "В качестве колонтитулов можно использовать только PDF-документы."
 >>>>>>> upstream/18.0
@@ -760,11 +912,17 @@ msgid ""
 "                to boost your sales."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Персонализируйте коммерческие предложения с помощью красивых верхних и "
 "нижних колонтитулов,\n"
 "                <br>\n"
 "                чтобы увеличить продажи."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
@@ -773,6 +931,11 @@ msgstr ""
 msgid "Please use only relational fields until the last value of your path."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Пожалуйста, используйте только связанные поля до последнего значения вашего "
+"пути."
+>>>>>>> upstream/18.0
 =======
 "Пожалуйста, используйте только связанные поля до последнего значения вашего "
 "пути."
@@ -795,7 +958,11 @@ msgstr "Документ товара"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__product_document_ids
 msgid "Product Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Документы по товарам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Документы по товарам"
 >>>>>>> upstream/18.0
@@ -810,7 +977,10 @@ msgid ""
 "                        If empty, it will use those define in the company settings. <br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Добавьте верхний и нижний колонтитул, чтобы создать привлекательное "
 "коммерческое предложение с дополнительной информацией\n"
 "                        о вашей компании, товарах и услугах.<br/>\n"
@@ -820,6 +990,9 @@ msgstr ""
 "\n"
 "                        Если пусто, будут использованы значения из настроек "
 "компании.<br/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
@@ -831,7 +1004,11 @@ msgstr "Коммерческое предложение/заказ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "Quotation Document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Документ коммерческого предложения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Документ коммерческого предложения"
 >>>>>>> upstream/18.0
@@ -840,7 +1017,11 @@ msgstr "Документ коммерческого предложения"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__quotation_document_ids
 msgid "Quotation Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Документы коммерческих предложений"
+>>>>>>> upstream/18.0
 =======
 msgstr "Документы коммерческих предложений"
 >>>>>>> upstream/18.0
@@ -860,7 +1041,11 @@ msgstr "Шаблоны Коммерческого предложения"
 #: model:ir.model,name:sale_pdf_quote_builder.model_quotation_document
 msgid "Quotation's Headers & Footers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Колонтитулы коммерческого предложения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Колонтитулы коммерческого предложения"
 >>>>>>> upstream/18.0
@@ -870,7 +1055,11 @@ msgstr "Колонтитулы коммерческого предложения
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.sale_order_template_form
 msgid "Quote Builder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Конструктор коммерческих предложений"
+>>>>>>> upstream/18.0
 =======
 msgstr "Конструктор коммерческих предложений"
 >>>>>>> upstream/18.0
@@ -919,7 +1108,11 @@ msgid "Sale : Visible at"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Продажа : отображается в"
+>>>>>>> upstream/18.0
 =======
 msgstr "Продажа : отображается в"
 >>>>>>> upstream/18.0
@@ -959,6 +1152,11 @@ msgstr "Продажа : отображается в"
 msgid "Sale Pdf Quote Builder: assign form fields to documents post upgrade"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Конструктор PDF-предложений: назначение полей формы документам после "
+"обновления"
+>>>>>>> upstream/18.0
 =======
 "Конструктор PDF-предложений: назначение полей формы документам после "
 "обновления"
@@ -989,7 +1187,11 @@ msgstr "Сохраненное имя файла"
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid "The field %(field_name)s doesn't exist on model %(model_name)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поле %(field_name)s не существует в модели %(model_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поле %(field_name)s не существует в модели %(model_name)s"
 >>>>>>> upstream/18.0
@@ -998,7 +1200,11 @@ msgstr "Поле %(field_name)s не существует в модели %(mode
 #: model:ir.model.fields,help:sale_pdf_quote_builder.field_sale_pdf_form_field__name
 msgid "The form field name as written in the PDF."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Название поля формы как указано в PDF."
+>>>>>>> upstream/18.0
 =======
 msgstr "Название поля формы как указано в PDF."
 >>>>>>> upstream/18.0
@@ -1010,6 +1216,12 @@ msgid ""
 "Leave empty to be able to customized it in the quotation form."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Путь, по которому заполняется поле формы.\n"
+"Оставьте пустым, чтобы можно было настроить его в форме коммерческого "
+"предложения."
+>>>>>>> upstream/18.0
 =======
 "Путь, по которому заполняется поле формы.\n"
 "Оставьте пустым, чтобы можно было настроить его в форме коммерческого "
@@ -1023,6 +1235,11 @@ msgid ""
 "quote."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Документы по товарам для этой позиции заказа, которые будут объединены в "
+"коммерческое предложение в формате PDF."
+>>>>>>> upstream/18.0
 =======
 "Документы по товарам для этой позиции заказа, которые будут объединены в "
 "коммерческое предложение в формате PDF."
@@ -1037,7 +1254,11 @@ msgstr "Тематический шаблон"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search
 msgid "This document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Этот документ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Этот документ"
 >>>>>>> upstream/18.0
@@ -1051,7 +1272,11 @@ msgstr "Тип"
 #: model_terms:ir.actions.act_window,help:sale_pdf_quote_builder.quotation_document_action
 msgid "Upload quotation headers and footers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Загрузите колонтитулы коммерческого предложения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Загрузите колонтитулы коммерческого предложения"
 >>>>>>> upstream/18.0

@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* hr_expense
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Rasareeyar Lappiam, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Rasareeyar Lappiam, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
@@ -32,6 +39,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: th\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-08 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Rasareeyar Lappiam, 2024\n"
@@ -40,6 +49,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -79,8 +91,12 @@ msgstr "%(employee_name)s: %(expense_name)s"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "%(user)s confirms this expense is not a duplicate with similar expense."
+=======
+msgid "%(user)s confirms this expense is not a duplicate with similar expense."
+>>>>>>> upstream/18.0
 =======
 msgid "%(user)s confirms this expense is not a duplicate with similar expense."
 >>>>>>> upstream/18.0
@@ -190,8 +206,13 @@ msgid ""
 "method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "บัญชีค้างชำระเริ่มต้นจะต้องกำหนดไว้ในการตั้งค่าสำหรับค่าใช้จ่ายที่บริษัทชำระ"
 " หรือระบุในสมุดรายวันสำหรับวิธีการชำระเงิน %(method)s"
+=======
+"บัญชีค้างชำระเริ่มต้นจะต้องกำหนดไว้ในการตั้งค่าสำหรับค่าใช้จ่ายที่บริษัทชำระ "
+"หรือระบุในสมุดรายวันสำหรับวิธีการชำระเงิน %(method)s"
+>>>>>>> upstream/18.0
 =======
 "บัญชีค้างชำระเริ่มต้นจะต้องกำหนดไว้ในการตั้งค่าสำหรับค่าใช้จ่ายที่บริษัทชำระ "
 "หรือระบุในสมุดรายวันสำหรับวิธีการชำระเงิน %(method)s"
@@ -277,7 +298,12 @@ msgstr "การรายงานทั้งหมด"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "All expenses in an expense report must have the same \"paid by\" criteria."
+=======
+msgid ""
+"All expenses in an expense report must have the same \"paid by\" criteria."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "All expenses in an expense report must have the same \"paid by\" criteria."
@@ -441,8 +467,12 @@ msgid ""
 "Both price-included and price-excluded taxes will behave as price-included "
 "taxes for expenses."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ทั้งภาษีที่รวมราคาและไม่รวมราคาจะทำหน้าที่เป็นภาษีที่รวมราคาสำหรับค่าใช้จ่าย"
+=======
+msgstr "ทั้งภาษีที่รวมราคาและไม่รวมราคาจะทำหน้าที่เป็นภาษีที่รวมราคาสำหรับค่าใช้จ่าย"
+>>>>>>> upstream/18.0
 =======
 msgstr "ทั้งภาษีที่รวมราคาและไม่รวมราคาจะทำหน้าที่เป็นภาษีที่รวมราคาสำหรับค่าใช้จ่าย"
 >>>>>>> upstream/18.0
@@ -538,8 +568,12 @@ msgid ""
 "same category. The conversion will be made based on the ratios."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "การแปลงระหว่างหน่วยวัดจะเกิดขึ้นได้ก็ต่อเมื่ออยู่ในหมวดหมู่เดียวกัน "
 "การแปลงจะอิงตามอัตราส่วน"
+=======
+"การแปลงระหว่างหน่วยวัดจะเกิดขึ้นได้ก็ต่อเมื่ออยู่ในหมวดหมู่เดียวกัน การแปลงจะอิงตามอัตราส่วน"
+>>>>>>> upstream/18.0
 =======
 "การแปลงระหว่างหน่วยวัดจะเกิดขึ้นได้ก็ต่อเมื่ออยู่ในหมวดหมู่เดียวกัน การแปลงจะอิงตามอัตราส่วน"
 >>>>>>> upstream/18.0
@@ -569,8 +603,12 @@ msgstr "สร้างการรายงานรายจ่าย"
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Create a report to submit one or more expenses to your manager."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "สร้างรายงานเพื่อส่งค่าใช้จ่ายอย่างน้อยหนึ่งรายการให้กับผู้จัดการของคุณ"
+=======
+msgstr "สร้างรายงานเพื่อส่งค่าใช้จ่ายอย่างน้อยหนึ่งรายการให้กับผู้จัดการของคุณ"
+>>>>>>> upstream/18.0
 =======
 msgstr "สร้างรายงานเพื่อส่งค่าใช้จ่ายอย่างน้อยหนึ่งรายการให้กับผู้จัดการของคุณ"
 >>>>>>> upstream/18.0
@@ -697,8 +735,13 @@ msgid ""
 "Artificial Intelligence will fill the data automatically."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "อย่าเก็บตั๋วค่าใช้จ่ายไว้ในกระเป๋าของคุณอีกต่อไป เพียงถ่ายภาพใบเสร็จและให้ "
 "Odoo แปลงเป็นดิจิทัลให้กับคุณ OCR และปัญญาประดิษฐ์จะกรอกข้อมูลโดยอัตโนมัติ"
+=======
+"อย่าเก็บตั๋วค่าใช้จ่ายไว้ในกระเป๋าของคุณอีกต่อไป เพียงถ่ายภาพใบเสร็จและให้ Odoo "
+"แปลงเป็นดิจิทัลให้กับคุณ OCR และปัญญาประดิษฐ์จะกรอกข้อมูลโดยอัตโนมัติ"
+>>>>>>> upstream/18.0
 =======
 "อย่าเก็บตั๋วค่าใช้จ่ายไว้ในกระเป๋าของคุณอีกต่อไป เพียงถ่ายภาพใบเสร็จและให้ Odoo "
 "แปลงเป็นดิจิทัลให้กับคุณ OCR และปัญญาประดิษฐ์จะกรอกข้อมูลโดยอัตโนมัติ"
@@ -713,8 +756,12 @@ msgid ""
 msgstr ""
 "คุณต้องการออกใบแจ้งหนี้บริษัทของคุณเอง? ให้ทำการลบ \"ชื่อบริษัท\" "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ออกจากพาร์ทเนอร์เพื่อแก้ไขการกำหนดค่า "
 "ยกเลิกใบแจ้งหนี้นี้แล้วเริ่มใหม่อีกครั้ง"
+=======
+"ออกจากพาร์ทเนอร์เพื่อแก้ไขการกำหนดค่า ยกเลิกใบแจ้งหนี้นี้แล้วเริ่มใหม่อีกครั้ง"
+>>>>>>> upstream/18.0
 =======
 "ออกจากพาร์ทเนอร์เพื่อแก้ไขการกำหนดค่า ยกเลิกใบแจ้งหนี้นี้แล้วเริ่มใหม่อีกครั้ง"
 >>>>>>> upstream/18.0
@@ -779,8 +826,12 @@ msgstr "รายจ่ายพนักงาน"
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Enter a name then choose a category and configure the amount of your "
 "expense."
+=======
+"Enter a name then choose a category and configure the amount of your expense."
+>>>>>>> upstream/18.0
 =======
 "Enter a name then choose a category and configure the amount of your expense."
 >>>>>>> upstream/18.0
@@ -974,8 +1025,12 @@ msgstr "รายงานค่าใช้จ่ายรีเซ็ตเป
 msgid ""
 "Expense reports regroup all the expenses incurred during a specific event."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "รายงานรายจ่ายที่จัดกลุ่มรายจ่ายทั้งหมดที่เกิดขึ้นใหม่ระหว่างอีเวนต์เฉพาะ"
+=======
+msgstr "รายงานรายจ่ายที่จัดกลุ่มรายจ่ายทั้งหมดที่เกิดขึ้นใหม่ระหว่างอีเวนต์เฉพาะ"
+>>>>>>> upstream/18.0
 =======
 msgstr "รายงานรายจ่ายที่จัดกลุ่มรายจ่ายทั้งหมดที่เกิดขึ้นใหม่ระหว่างอีเวนต์เฉพาะ"
 >>>>>>> upstream/18.0
@@ -1346,9 +1401,13 @@ msgid ""
 "Managers can approve the report here, then an accountant can post the "
 "accounting entries."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ผู้จัดการสามารถอนุมัติรายงานได้ที่นี่ "
 "จากนั้นนักบัญชีสามารถผ่านรายการทางบัญชีได้"
+=======
+msgstr "ผู้จัดการสามารถอนุมัติรายงานได้ที่นี่ จากนั้นนักบัญชีสามารถผ่านรายการทางบัญชีได้"
+>>>>>>> upstream/18.0
 =======
 msgstr "ผู้จัดการสามารถอนุมัติรายงานได้ที่นี่ จากนั้นนักบัญชีสามารถผ่านรายการทางบัญชีได้"
 >>>>>>> upstream/18.0
@@ -1581,8 +1640,12 @@ msgid ""
 "and wait for approval."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "เมื่อ<b>รายงานค่าใช้จ่าย</b>ของคุณพร้อมแล้ว "
 "คุณสามารถส่งไปยังผู้จัดการของคุณและรอการอนุมัติได้"
+=======
+"เมื่อ<b>รายงานค่าใช้จ่าย</b>ของคุณพร้อมแล้ว คุณสามารถส่งไปยังผู้จัดการของคุณและรอการอนุมัติได้"
+>>>>>>> upstream/18.0
 =======
 "เมื่อ<b>รายงานค่าใช้จ่าย</b>ของคุณพร้อมแล้ว คุณสามารถส่งไปยังผู้จัดการของคุณและรอการอนุมัติได้"
 >>>>>>> upstream/18.0
@@ -1592,8 +1655,12 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "Only HR Officers or the concerned employee can reset to draft."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "เฉพาะเจ้าหน้าที่ฝ่ายทรัพยากรบุคคลหรือพนักงานที่เกี่ยวข้องเท่านั้นที่สามารถรีเซ็ตเป็นร่างได้"
+=======
+msgstr "เฉพาะเจ้าหน้าที่ฝ่ายทรัพยากรบุคคลหรือพนักงานที่เกี่ยวข้องเท่านั้นที่สามารถรีเซ็ตเป็นร่างได้"
+>>>>>>> upstream/18.0
 =======
 msgstr "เฉพาะเจ้าหน้าที่ฝ่ายทรัพยากรบุคคลหรือพนักงานที่เกี่ยวข้องเท่านั้นที่สามารถรีเซ็ตเป็นร่างได้"
 >>>>>>> upstream/18.0
@@ -1907,7 +1974,12 @@ msgstr "สแกนโค้ด QR นี้เพื่อดาวน์โ�
 msgid ""
 "Select the user responsible for approving \"Expenses\" of this employee.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
+=======
+"If empty, the approval is done by an Administrator or Approver (determined "
+"in settings/users)."
+>>>>>>> upstream/18.0
 =======
 "If empty, the approval is done by an Administrator or Approver (determined "
 "in settings/users)."
@@ -1931,10 +2003,16 @@ msgid ""
 "subject to set it on the expense too."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ส่งอีเมลไปยังอีเมลแทนพร้อมใบเสร็จในไฟล์แนบเพื่อสร้างค่าใช้จ่ายได้ในคลิกเดียว"
 " หากคำแรกของหัวเรื่องอีเมลมีการอ้างอิงภายในของหมวดหมู่หรือชื่อหมวดหมู่ "
 "หมวดหมู่ที่เกี่ยวข้องจะถูกตั้งค่าโดยอัตโนมัติ "
 "พิมพ์จำนวนเงินค่าใช้จ่ายในจดหมายเพื่อกำหนดค่าใช้จ่ายด้วย"
+=======
+"ส่งอีเมลไปยังอีเมลแทนพร้อมใบเสร็จในไฟล์แนบเพื่อสร้างค่าใช้จ่ายได้ในคลิกเดียว "
+"หากคำแรกของหัวเรื่องอีเมลมีการอ้างอิงภายในของหมวดหมู่หรือชื่อหมวดหมู่ "
+"หมวดหมู่ที่เกี่ยวข้องจะถูกตั้งค่าโดยอัตโนมัติ พิมพ์จำนวนเงินค่าใช้จ่ายในจดหมายเพื่อกำหนดค่าใช้จ่ายด้วย"
+>>>>>>> upstream/18.0
 =======
 "ส่งอีเมลไปยังอีเมลแทนพร้อมใบเสร็จในไฟล์แนบเพื่อสร้างค่าใช้จ่ายได้ในคลิกเดียว "
 "หากคำแรกของหัวเรื่องอีเมลมีการอ้างอิงภายในของหมวดหมู่หรือชื่อหมวดหมู่ "
@@ -1973,12 +2051,15 @@ msgstr "แสดงระเบียนทั้งหมดที่มีว
 #. module: hr_expense
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "Show missing work email employees"
 msgstr "แสดงอีเมลพนักงานที่ขาดหายไป"
 
 #. module: hr_expense
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2131,8 +2212,12 @@ msgstr "บัญชีที่ใช้บันทึกยอดคงค้
 #: model:ir.model.fields,help:hr_expense.field_res_company__expense_journal_id
 #: model:ir.model.fields,help:hr_expense.field_res_config_settings__expense_journal_id
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The company's default journal used when an employee expense is created."
+=======
+msgid "The company's default journal used when an employee expense is created."
+>>>>>>> upstream/18.0
 =======
 msgid "The company's default journal used when an employee expense is created."
 >>>>>>> upstream/18.0
@@ -2148,16 +2233,22 @@ msgstr "ผู้ใช้ปัจจุบันไม่มีพนักง
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The first word of the email subject did not correspond to any category code."
 " You'll have to set the category manually on the expense."
 msgstr ""
 "คำแรกของหัวเรื่องอีเมลไม่ตรงกับรหัสหมวดหมู่ใดๆ "
 "คุณจะต้องตั้งค่าหมวดหมู่ด้วยตนเองเกี่ยวกับรายจ่าย"
 =======
+=======
+>>>>>>> upstream/18.0
 "The first word of the email subject did not correspond to any category code. "
 "You'll have to set the category manually on the expense."
 msgstr ""
 "คำแรกของหัวเรื่องอีเมลไม่ตรงกับรหัสหมวดหมู่ใดๆ คุณจะต้องตั้งค่าหมวดหมู่ด้วยตนเองเกี่ยวกับรายจ่าย"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -2201,6 +2292,7 @@ msgstr "ผลรวมของหลังจากปิดการแยก
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
 "The work email of some employees is missing. Please add it on the employee "
@@ -2213,6 +2305,8 @@ msgstr "อีเมลที่ทำงานของพนักงานบ
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/product_product.py:0
 msgid ""
 "There are unsubmitted expenses linked to this category. Updating the "
@@ -2220,8 +2314,12 @@ msgid ""
 "do."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "มีค่าใช้จ่ายที่ยังไม่ได้ส่งที่เชื่อมโยงกับหมวดหมู่นี้ "
 "การอัปเดตต้นทุนหมวดหมู่จะเปลี่ยนจำนวนค่าใช้จ่าย "
+=======
+"มีค่าใช้จ่ายที่ยังไม่ได้ส่งที่เชื่อมโยงกับหมวดหมู่นี้ การอัปเดตต้นทุนหมวดหมู่จะเปลี่ยนจำนวนค่าใช้จ่าย "
+>>>>>>> upstream/18.0
 =======
 "มีค่าใช้จ่ายที่ยังไม่ได้ส่งที่เชื่อมโยงกับหมวดหมู่นี้ การอัปเดตต้นทุนหมวดหมู่จะเปลี่ยนจำนวนค่าใช้จ่าย "
 >>>>>>> upstream/18.0
@@ -2239,9 +2337,13 @@ msgid ""
 "This expense report is empty. You cannot submit or approve an empty expense "
 "report."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "รายงานค่าใช้จ่ายนี้ว่างเปล่า "
 "คุณไม่สามารถส่งหรืออนุมัติรายงานค่าใช้จ่ายที่ว่างเปล่าได้"
+=======
+msgstr "รายงานค่าใช้จ่ายนี้ว่างเปล่า คุณไม่สามารถส่งหรืออนุมัติรายงานค่าใช้จ่ายที่ว่างเปล่าได้"
+>>>>>>> upstream/18.0
 =======
 msgstr "รายงานค่าใช้จ่ายนี้ว่างเปล่า คุณไม่สามารถส่งหรืออนุมัติรายงานค่าใช้จ่ายที่ว่างเปล่าได้"
 >>>>>>> upstream/18.0
@@ -2426,6 +2528,7 @@ msgstr "ประวัติการสื่อสารของเว็บ
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When the cost of an expense product is different than 0, then the user"
 "                                             using this product won't be "
 "able to change the amount of the expense,"
@@ -2440,6 +2543,8 @@ msgstr ""
 "แต่จะสามารถเปลี่ยนเฉพาะปริมาณได้ ใช้ค่าใช้จ่ายที่แตกต่างจาก 0 "
 "สำหรับหมวดหมู่ค่าใช้จ่ายที่ได้รับทุนจากบริษัทโดยมีต้นทุนคงที่ เช่น "
 =======
+=======
+>>>>>>> upstream/18.0
 "When the cost of an expense product is different than 0, then the "
 "user                                             using this product won't be "
 "able to change the amount of the "
@@ -2452,6 +2557,9 @@ msgstr ""
 "เมื่อต้นทุนของผลิตภัณฑ์ค่าใช้จ่ายแตกต่างจาก 0 "
 "ผู้ใช้ที่ใช้ผลิตภัณฑ์นี้จะไม่สามารถเปลี่ยนจำนวนค่าใช้จ่ายได้ แต่จะสามารถเปลี่ยนเฉพาะปริมาณได้ "
 "ใช้ค่าใช้จ่ายที่แตกต่างจาก 0 สำหรับหมวดหมู่ค่าใช้จ่ายที่ได้รับทุนจากบริษัทโดยมีต้นทุนคงที่ เช่น "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "ค่าเบี้ยเลี้ยงระยะทาง เบี้ยเลี้ยง ที่พัก หรือมื้ออาหาร"
 
@@ -2516,8 +2624,12 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "You cannot cancel an expense sheet linked to a posted journal entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "คุณไม่สามารถยกเลิกแผ่นค่าใช้จ่ายที่เชื่อมโยงกับรายการบันทึกประจำวันที่ผ่านรายการแล้วได้"
+=======
+msgstr "คุณไม่สามารถยกเลิกแผ่นค่าใช้จ่ายที่เชื่อมโยงกับรายการบันทึกประจำวันที่ผ่านรายการแล้วได้"
+>>>>>>> upstream/18.0
 =======
 msgstr "คุณไม่สามารถยกเลิกแผ่นค่าใช้จ่ายที่เชื่อมโยงกับรายการบันทึกประจำวันที่ผ่านรายการแล้วได้"
 >>>>>>> upstream/18.0
@@ -2528,8 +2640,12 @@ msgstr "คุณไม่สามารถยกเลิกแผ่นค่
 msgid ""
 "You cannot create accounting entries for an expense report without expenses."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "คุณไม่สามารถสร้างรายการทางบัญชีสำหรับรายงานค่าใช้จ่ายโดยไม่มีค่าใช้จ่ายได้"
+=======
+msgstr "คุณไม่สามารถสร้างรายการทางบัญชีสำหรับรายงานค่าใช้จ่ายโดยไม่มีค่าใช้จ่ายได้"
+>>>>>>> upstream/18.0
 =======
 msgstr "คุณไม่สามารถสร้างรายการทางบัญชีสำหรับรายงานค่าใช้จ่ายโดยไม่มีค่าใช้จ่ายได้"
 >>>>>>> upstream/18.0
@@ -2557,16 +2673,22 @@ msgstr "คุณไม่สามารถลบบัญชีการวิ
 #: code:addons/hr_expense/models/account_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete only some entries linked to an expense report. All entries"
 " must be deleted at the same time."
 msgstr ""
 "คุณไม่สามารถลบเพียงบางรายการที่เชื่อมโยงกับรายงานค่าใช้จ่ายได้ "
 "รายการทั้งหมดจะต้องถูกลบพร้อมกัน"
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot delete only some entries linked to an expense report. All entries "
 "must be deleted at the same time."
 msgstr ""
 "คุณไม่สามารถลบเพียงบางรายการที่เชื่อมโยงกับรายงานค่าใช้จ่ายได้ รายการทั้งหมดจะต้องถูกลบพร้อมกัน"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -2586,8 +2708,12 @@ msgid ""
 "You cannot do this modification since the payment is linked to an expense "
 "report."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "คุณไม่สามารถทำการแก้ไขนี้ได้เนื่องจากการชำระเงินเชื่อมโยงกับรายงานค่าใช้จ่าย"
+=======
+msgstr "คุณไม่สามารถทำการแก้ไขนี้ได้เนื่องจากการชำระเงินเชื่อมโยงกับรายงานค่าใช้จ่าย"
+>>>>>>> upstream/18.0
 =======
 msgstr "คุณไม่สามารถทำการแก้ไขนี้ได้เนื่องจากการชำระเงินเชื่อมโยงกับรายงานค่าใช้จ่าย"
 >>>>>>> upstream/18.0
@@ -2610,8 +2736,12 @@ msgid ""
 "report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "คุณไม่สามารถลบค่าใช้จ่ายทั้งหมดออกจากรายงานค่าใช้จ่ายที่ส่ง "
 "ได้รับการอนุมัติหรือชำระเงินแล้ว"
+=======
+"คุณไม่สามารถลบค่าใช้จ่ายทั้งหมดออกจากรายงานค่าใช้จ่ายที่ส่ง ได้รับการอนุมัติหรือชำระเงินแล้ว"
+>>>>>>> upstream/18.0
 =======
 "คุณไม่สามารถลบค่าใช้จ่ายทั้งหมดออกจากรายงานค่าใช้จ่ายที่ส่ง ได้รับการอนุมัติหรือชำระเงินแล้ว"
 >>>>>>> upstream/18.0
@@ -2627,8 +2757,12 @@ msgstr "คุณไม่สามารถรายงานค่าใช้
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You cannot report expenses for different employees in the same report."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "คุณไม่สามารถรายงานรายจ่ายสำหรับพนักงานที่แตกต่างกันในรายงานฉบับเดียวกันได้"
+=======
+msgstr "คุณไม่สามารถรายงานรายจ่ายสำหรับพนักงานที่แตกต่างกันในรายงานฉบับเดียวกันได้"
+>>>>>>> upstream/18.0
 =======
 msgstr "คุณไม่สามารถรายงานรายจ่ายสำหรับพนักงานที่แตกต่างกันในรายงานฉบับเดียวกันได้"
 >>>>>>> upstream/18.0
@@ -2650,10 +2784,15 @@ msgstr "คุณไม่สามารถรายงานสองครั
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot set the expense total in currency to 0 if it's linked to a "
 "report."
 msgstr ""
 "คุณไม่สามารถตั้งค่าผลรวมค่าใช้จ่ายในสกุลเงินเป็น 0 ได้หากเชื่อมโยงกับรายงาน"
+=======
+"You cannot set the expense total in currency to 0 if it's linked to a report."
+msgstr "คุณไม่สามารถตั้งค่าผลรวมค่าใช้จ่ายในสกุลเงินเป็น 0 ได้หากเชื่อมโยงกับรายงาน"
+>>>>>>> upstream/18.0
 =======
 "You cannot set the expense total in currency to 0 if it's linked to a report."
 msgstr "คุณไม่สามารถตั้งค่าผลรวมค่าใช้จ่ายในสกุลเงินเป็น 0 ได้หากเชื่อมโยงกับรายงาน"
@@ -2672,6 +2811,7 @@ msgid ""
 "You do not have the rights to add or remove any expenses on an approved or "
 "paid expense report."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "คุณไม่มีสิทธิ์ในการเพิ่มหรือลบค่าใช้จ่ายในรายงานค่าใช้จ่ายที่ได้รับอนุมัติหรือชำระแล้ว"
 
@@ -2680,6 +2820,8 @@ msgstr ""
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "คุณไม่มีสิทธิ์ในการเพิ่มหรือลบค่าใช้จ่ายในรายงานค่าใช้จ่ายที่ได้รับอนุมัติหรือชำระแล้ว"
 
 #. module: hr_expense
@@ -2692,6 +2834,9 @@ msgstr ""
 
 #. module: hr_expense
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
@@ -2709,6 +2854,9 @@ msgstr ""
 #. module: hr_expense
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2727,10 +2875,16 @@ msgstr "คุณต้องเพิ่มวิธีการชำระเ
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to have at least one category that can be expensed in your database"
 " to proceed!"
 msgstr ""
 "คุณต้องมีอย่างน้อยหนึ่งหมวดหมู่ที่สามารถใช้จ่ายในฐานข้อมูลของคุณเพื่อดำเนินการต่อ!"
+=======
+"You need to have at least one category that can be expensed in your database "
+"to proceed!"
+msgstr "คุณต้องมีอย่างน้อยหนึ่งหมวดหมู่ที่สามารถใช้จ่ายในฐานข้อมูลของคุณเพื่อดำเนินการต่อ!"
+>>>>>>> upstream/18.0
 =======
 "You need to have at least one category that can be expensed in your database "
 "to proceed!"

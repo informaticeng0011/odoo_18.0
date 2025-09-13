@@ -57,7 +57,12 @@ class ResPartner(models.Model):
                 'type': 'danger',
                 'title': _("Warning"),
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'message': _('No match found for %(partner_names)s address(es).', partner_names=', '.join(partners_not_geo_localized.mapped('name')))
+=======
+                'message': _('No match found for %(partner_names)s address(es).',
+                             partner_names=', '.join(partners_not_geo_localized.mapped('display_name')))
+>>>>>>> upstream/18.0
 =======
                 'message': _('No match found for %(partner_names)s address(es).',
                              partner_names=', '.join(partners_not_geo_localized.mapped('display_name')))

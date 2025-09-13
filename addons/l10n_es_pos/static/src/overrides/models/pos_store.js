@@ -6,7 +6,11 @@ patch(PosStore.prototype, {
         const result = super.getReceiptHeaderData(...arguments);
         result.is_spanish = this.config.is_spanish;
 <<<<<<< HEAD
+<<<<<<< HEAD
         result.simplified_partner_id = this.config.simplified_partner_id.id;
+=======
+        result.simplified_partner_id = this.config.simplified_partner_id?.id;
+>>>>>>> upstream/18.0
 =======
         result.simplified_partner_id = this.config.simplified_partner_id?.id;
 >>>>>>> upstream/18.0

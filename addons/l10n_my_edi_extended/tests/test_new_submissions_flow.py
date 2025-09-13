@@ -624,7 +624,11 @@ class L10nMyEDITestNewSubmission(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif endpoint == 'api/l10n_my_edi/1/get_submission_statuses' and self.get_submission_status_count == 0:
+=======
+        elif endpoint == 'api/l10n_my_edi/1/get_submission_statuses' and self.get_submission_status_count < 4:
+>>>>>>> upstream/18.0
 =======
         elif endpoint == 'api/l10n_my_edi/1/get_submission_statuses' and self.get_submission_status_count < 4:
 >>>>>>> upstream/18.0
@@ -685,7 +689,11 @@ class L10nMyEDITestNewSubmission(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif endpoint == 'api/l10n_my_edi/1/get_submission_statuses' and self.get_submission_status_count == 1:
+=======
+        elif endpoint == 'api/l10n_my_edi/1/get_submission_statuses' and self.get_submission_status_count == 4:
+>>>>>>> upstream/18.0
 =======
         elif endpoint == 'api/l10n_my_edi/1/get_submission_statuses' and self.get_submission_status_count == 4:
 >>>>>>> upstream/18.0

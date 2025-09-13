@@ -241,9 +241,12 @@ export class SplitPlugin extends Plugin {
         let after = lastNode.nextSibling;
         let beforeSplit, afterSplit;
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!before && !after && elements[0] !== limitAncestor) {
             return this.splitAroundUntil(elements[0].parentElement, limitAncestor);
 =======
+=======
+>>>>>>> upstream/18.0
         if (
             !before &&
             !after &&
@@ -258,6 +261,9 @@ export class SplitPlugin extends Plugin {
             return this.splitAroundUntil([firstNode, lastNode.parentElement], limitAncestor);
         } else if (!before && firstNode.parentElement !== limitAncestor) {
             return this.splitAroundUntil([firstNode.parentElement, lastNode], limitAncestor);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         // Split up ancestors up to font

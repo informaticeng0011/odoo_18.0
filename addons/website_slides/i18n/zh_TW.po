@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_slides
 # 
 # Translators:
@@ -178,6 +179,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * website_slides
 #
 # Translators:
@@ -185,11 +188,15 @@
 # Tony Ng, 2025
 #
 # "Tony Ng (ngto)" <ngto@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -501,6 +508,8 @@ msgstr ""
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-15 18:36+0000\n"
 "PO-Revision-Date: 2025-08-12 22:21+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
@@ -512,6 +521,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -675,7 +687,12 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Hello<br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        You have been enrolled to a new course: <t t-out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+=======
+"        You have been enrolled to a new course: <t t-"
+"out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+>>>>>>> upstream/18.0
 =======
 "        You have been enrolled to a new course: <t t-"
 "out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
@@ -688,7 +705,12 @@ msgstr ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        你好！<br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        你已報名參加一門新課程： <t t-out=\"object.channel_id.name or ''\">園藝基礎</t>。\n"
+=======
+"        你已報名參加一門新課程： <t t-out=\"object.channel_id.name or ''\">園"
+"藝基礎</t>。\n"
+>>>>>>> upstream/18.0
 =======
 "        你已報名參加一門新課程： <t t-out=\"object.channel_id.name or ''\">園"
 "藝基礎</t>。\n"
@@ -704,7 +726,12 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Hello<br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        You have been invited to check out this course: <t t-out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+=======
+"        You have been invited to check out this course: <t t-"
+"out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+>>>>>>> upstream/18.0
 =======
 "        You have been invited to check out this course: <t t-"
 "out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
@@ -717,7 +744,12 @@ msgstr ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        你好！<br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        你獲邀請查看此課程： <t t-out=\"object.channel_id.name or ''\">園藝基礎</t>。\n"
+=======
+"        你獲邀請查看此課程： <t t-out=\"object.channel_id.name or ''\">園藝基"
+"礎</t>。\n"
+>>>>>>> upstream/18.0
 =======
 "        你獲邀請查看此課程： <t t-out=\"object.channel_id.name or ''\">園藝基"
 "礎</t>。\n"
@@ -731,6 +763,7 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        <p style=\"margin: 0px;\">Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,</p><br/>\n"
 "                        <p><b>Congratulations!</b></p>\n"
@@ -740,6 +773,8 @@ msgid ""
 "                        <div style=\"padding: 16px 8px 16px 8px; text-align: center;\">\n"
 "                            <a href=\"/slides/all\" style=\"background-color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <div style=\"margin: 0px; padding: 0px; font-size: 13px;"
 "\">\n"
 "                        <p style=\"margin: 0px;\">Hello <t t-"
@@ -754,22 +789,31 @@ msgid ""
 "                            <a href=\"/slides/all\" style=\"background-"
 "color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                Explore courses\n"
 "                            </a>\n"
 "                        </div>\n"
 "                        Enjoy this exclusive content!\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"object.channel_id.user_id.signature\" data-o-mail-quote-container=\"1\">\n"
 "                            <br/>\n"
 "                            <t t-out=\"object.channel_id.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        <t t-if=\"object.channel_id.user_id.signature\" data-"
 "o-mail-quote-container=\"1\">\n"
 "                            <br/>\n"
 "                            <t t-out=\"object.channel_id.user_id.signature "
 "or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell "
 "Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                    </div>\n"
@@ -777,6 +821,7 @@ msgid ""
 "            "
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    <div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        <p style=\"margin: 0px;\"><t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> 你好！</p><br/>\n"
@@ -787,6 +832,8 @@ msgstr ""
 "                        <div style=\"padding: 16px 8px 16px 8px; text-align: center;\">\n"
 "                            <a href=\"/slides/all\" style=\"background-color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <div style=\"margin: 0px; padding: 0px; font-size: 13px;"
 "\">\n"
 "                        <p style=\"margin: 0px;\"><t t-"
@@ -801,22 +848,31 @@ msgstr ""
 "                            <a href=\"/slides/all\" style=\"background-"
 "color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                探索課程\n"
 "                            </a>\n"
 "                        </div>\n"
 "                        希望你喜歡這獨家內容！\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"object.channel_id.user_id.signature\" data-o-mail-quote-container=\"1\">\n"
 "                            <br/>\n"
 "                            <t t-out=\"object.channel_id.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        <t t-if=\"object.channel_id.user_id.signature\" data-"
 "o-mail-quote-container=\"1\">\n"
 "                            <br/>\n"
 "                            <t t-out=\"object.channel_id.user_id.signature "
 "or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell "
 "Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                    </div>\n"
@@ -827,6 +883,7 @@ msgstr ""
 #: model:mail.template,body_html:website_slides.mail_template_channel_shared
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        Hello<br/><br/>\n"
@@ -844,6 +901,8 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;"
 "\">\n"
 "                        Hello<br/><br/>\n"
@@ -871,6 +930,9 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                    \n"
@@ -878,6 +940,7 @@ msgid ""
 "            "
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        你好！<br/><br/>\n"
@@ -895,6 +958,8 @@ msgstr ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;"
 "\">\n"
 "                        你好！<br/><br/>\n"
@@ -922,6 +987,9 @@ msgstr ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                    \n"
@@ -932,6 +1000,7 @@ msgstr ""
 #: model:mail.template,body_html:website_slides.slide_template_shared
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        Hello<br/><br/>\n"
@@ -948,6 +1017,8 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;"
 "\">\n"
 "                        Hello<br/><br/>\n"
@@ -976,6 +1047,9 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                    \n"
@@ -983,6 +1057,7 @@ msgid ""
 "            "
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        你好！<br/><br/>\n"
@@ -999,6 +1074,8 @@ msgstr ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;"
 "\">\n"
 "                        你好！<br/><br/>\n"
@@ -1027,6 +1104,9 @@ msgstr ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                    \n"
@@ -1037,6 +1117,7 @@ msgstr ""
 #: model:mail.template,body_html:website_slides.slide_template_published
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        Hello<br/><br/>\n"
@@ -1057,6 +1138,8 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;"
 "\">\n"
 "                        Hello<br/><br/>\n"
@@ -1087,6 +1170,9 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                    \n"
@@ -1094,6 +1180,7 @@ msgid ""
 "            "
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        你好！<br/><br/>\n"
@@ -1114,6 +1201,8 @@ msgstr ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;"
 "\">\n"
 "                        你好！<br/><br/>\n"
@@ -1143,6 +1232,9 @@ msgstr ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                    \n"
@@ -1166,8 +1258,13 @@ msgid ""
 "ms-1\">Lessons</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-bars\"/> <span class=\"d-none d-md-inline-block "
 "ms-1\">課節</span>"
+=======
+"<i class=\"fa fa-bars\"/> <span class=\"d-none d-md-inline-block ms-1\">課節"
+"</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-bars\"/> <span class=\"d-none d-md-inline-block ms-1\">課節"
 "</span>"
@@ -1205,7 +1302,13 @@ msgid ""
 "<i class=\"fa fa-clock-o me-2\" aria-label=\"Duration\" role=\"img\" "
 "title=\"Duration\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-clock-o me-2\" aria-label=\"時長\" role=\"img\" title=\"時長\"/>"
+=======
+msgstr ""
+"<i class=\"fa fa-clock-o me-2\" aria-label=\"時長\" role=\"img\" title=\"時長"
+"\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"fa fa-clock-o me-2\" aria-label=\"時長\" role=\"img\" title=\"時長"
@@ -1258,15 +1361,21 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_view_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-eye me-2\" aria-label=\"Views\" role=\"img\" title=\"Views\"/>"
 msgstr "<i class=\"fa fa-eye me-2\" aria-label=\"瀏覽次數\" role=\"img\" title=\"瀏覽次數\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-eye me-2\" aria-label=\"Views\" role=\"img\" "
 "title=\"Views\"/>"
 msgstr ""
 "<i class=\"fa fa-eye me-2\" aria-label=\"瀏覽次數\" role=\"img\" title=\"瀏覽"
 "次數\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -1275,7 +1384,13 @@ msgid ""
 "<i class=\"fa fa-file-code-o me-2\" aria-label=\"article\" role=\"img\" "
 "title=\"Article\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-file-code-o me-2\" aria-label=\"文章\" role=\"img\" title=\"文章\"/>"
+=======
+msgstr ""
+"<i class=\"fa fa-file-code-o me-2\" aria-label=\"文章\" role=\"img\" "
+"title=\"文章\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"fa fa-file-code-o me-2\" aria-label=\"文章\" role=\"img\" "
@@ -1286,15 +1401,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_view_kanban
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-file-image-o me-2\" aria-label=\"Infographic\" role=\"img\""
 " title=\"Infographic\"/>"
 msgstr "<i class=\"fa fa-file-image-o me-2\" aria-label=\"資訊圖\" role=\"img\" title=\"資訊圖\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<i class=\"fa fa-file-image-o me-2\" aria-label=\"Infographic\" role=\"img\" "
 "title=\"Infographic\"/>"
 msgstr ""
 "<i class=\"fa fa-file-image-o me-2\" aria-label=\"資訊圖\" role=\"img\" "
 "title=\"資訊圖\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -1303,7 +1424,13 @@ msgid ""
 "<i class=\"fa fa-file-pdf-o me-2\" aria-label=\"Document\" role=\"img\" "
 "title=\"Document\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-file-pdf-o me-2\" aria-label=\"文件\" role=\"img\" title=\"文件\"/>"
+=======
+msgstr ""
+"<i class=\"fa fa-file-pdf-o me-2\" aria-label=\"文件\" role=\"img\" "
+"title=\"文件\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"fa fa-file-pdf-o me-2\" aria-label=\"文件\" role=\"img\" "
@@ -1316,6 +1443,7 @@ msgid ""
 "<i class=\"fa fa-file-video-o me-2\" aria-label=\"Video\" role=\"img\" "
 "title=\"Video\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-file-video-o me-2\" aria-label=\"影片\" role=\"img\" title=\"影片\"/>"
 
 #. module: website_slides
@@ -1323,6 +1451,8 @@ msgstr "<i class=\"fa fa-file-video-o me-2\" aria-label=\"影片\" role=\"img\" 
 msgid "<i class=\"fa fa-flag me-2\" aria-label=\"Quiz\" role=\"img\" title=\"Quiz\"/>"
 msgstr "<i class=\"fa fa-flag me-2\" aria-label=\"測驗\" role=\"img\" title=\"測驗\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-file-video-o me-2\" aria-label=\"影片\" role=\"img\" "
 "title=\"影片\"/>"
@@ -1335,6 +1465,9 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-flag me-2\" aria-label=\"測驗\" role=\"img\" title=\"測驗\"/"
 ">"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -1384,8 +1517,13 @@ msgid ""
 "to course</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-home\"/> <span class=\"d-none d-md-inline-block "
 "ms-1\">返回課程</span>"
+=======
+"<i class=\"fa fa-home\"/> <span class=\"d-none d-md-inline-block ms-1\">返回"
+"課程</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-home\"/> <span class=\"d-none d-md-inline-block ms-1\">返回"
 "課程</span>"
@@ -1407,8 +1545,13 @@ msgid ""
 "Content</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-plus me-1\"/> <span class=\"d-none d-md-inline-"
 "block\">加入內容</span>"
+=======
+"<i class=\"fa fa-plus me-1\"/> <span class=\"d-none d-md-inline-block\">加入"
+"內容</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-plus me-1\"/> <span class=\"d-none d-md-inline-block\">加入"
 "內容</span>"
@@ -1443,7 +1586,13 @@ msgid ""
 "<i class=\"fa fa-question me-2\" aria-label=\"Number of Questions\" "
 "role=\"img\" title=\"Number of Questions\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-question me-2\" aria-label=\"問題數目\" role=\"img\" title=\"問題數目\"/>"
+=======
+msgstr ""
+"<i class=\"fa fa-question me-2\" aria-label=\"問題數目\" role=\"img\" "
+"title=\"問題數目\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"fa fa-question me-2\" aria-label=\"問題數目\" role=\"img\" "
@@ -1473,17 +1622,23 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-share-alt\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <span class=\"d-none d-md-inline-block ms-2\">Share</span>"
 msgstr ""
 "<i class=\"fa fa-share-alt\"/>\n"
 "                        <span class=\"d-none d-md-inline-block ms-2\">分享</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        <span class=\"d-none d-md-inline-block ms-2\">Share</"
 "span>"
 msgstr ""
 "<i class=\"fa fa-share-alt\"/>\n"
 "                        <span class=\"d-none d-md-inline-block ms-2\">分享</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -1498,8 +1653,13 @@ msgid ""
 "ms-1\">Exit Fullscreen</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-sign-out\"/> <span class=\"d-none d-md-inline-block "
 "ms-1\">離開全螢幕</span>"
+=======
+"<i class=\"fa fa-sign-out\"/> <span class=\"d-none d-md-inline-block ms-1\">"
+"離開全螢幕</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-sign-out\"/> <span class=\"d-none d-md-inline-block ms-1\">"
 "離開全螢幕</span>"
@@ -1563,8 +1723,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_sample
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-info badge-arrow-right fw-normal "
 "m-1\">New</span>"
+=======
+"<span class=\"badge text-bg-info badge-arrow-right fw-normal m-1\">New</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-info badge-arrow-right fw-normal m-1\">New</span>"
 >>>>>>> upstream/18.0
@@ -1575,24 +1739,35 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_slide
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-primary badge-hide fw-normal m-1\">Add "
 "Quiz</span>"
 msgstr ""
 "<span class=\"badge text-bg-primary badge-hide fw-normal m-1\">新增小測驗</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"badge text-bg-primary badge-hide fw-normal m-1\">Add Quiz</"
 "span>"
 msgstr ""
 "<span class=\"badge text-bg-primary badge-hide fw-normal m-1\">新增小測驗</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_slide
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-success fw-normal "
 "m-1\"><span>Preview</span></span>"
+=======
+"<span class=\"badge text-bg-success fw-normal m-1\"><span>Preview</span></"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-success fw-normal m-1\"><span>Preview</span></"
 "span>"
@@ -1652,17 +1827,23 @@ msgstr ""
 msgid ""
 "<span class=\"o_form_label\">Slides</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-specific.\" groups=\"website.group_multi_website\"/>"
 msgstr ""
 "<span class=\"o_form_label\">投影片</span>\n"
 "                    <span class=\"fa fa-lg fa-globe\" title=\"此處設定的值是特定於每個網站的。\" groups=\"website.group_multi_website\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <span class=\"fa fa-lg fa-globe\" title=\"Values set "
 "here are website-specific.\" groups=\"website.group_multi_website\"/>"
 msgstr ""
 "<span class=\"o_form_label\">投影片</span>\n"
 "                    <span class=\"fa fa-lg fa-globe\" title=\"此處設定的值是"
 "特定於每個網站的。\" groups=\"website.group_multi_website\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -1682,6 +1863,7 @@ msgstr "<span class=\"o_stat_text\">嵌入檢視</span>"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_card_information_arrow
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1766,11 +1948,16 @@ msgstr "<span class=\"o_wslides_arrow badge bg-secondary mt-2 ms-2\">新內容</
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<span class=\"o_wslides_arrow badge bg-secondary mt-2 ms-2\">New Content</"
 "span>"
 msgstr ""
 "<span class=\"o_wslides_arrow badge bg-secondary mt-2 ms-2\">新內容</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -1806,7 +1993,12 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-muted fw-bold col-4 col-md-3\">External sources</span>"
+=======
+msgid ""
+"<span class=\"text-muted fw-bold col-4 col-md-3\">External sources</span>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span class=\"text-muted fw-bold col-4 col-md-3\">External sources</span>"
@@ -1822,20 +2014,27 @@ msgstr "<span class=\"text-muted fw-bold me-3\">評分</span>"
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"text-muted text-truncate mw-100\" "
 "title=\"Invited\">Invited</span>"
 msgstr "<span class=\"text-muted text-truncate mw-100\" title=\"已邀請\">已邀請</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"text-muted text-truncate mw-100\" title=\"Invited\">Invited</"
 "span>"
 msgstr ""
 "<span class=\"text-muted text-truncate mw-100\" title=\"已邀請\">已邀請</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span class=\"text-muted text-truncate mw-100\" "
 "title=\"Ongoing\">Ongoing</span>"
@@ -1846,6 +2045,8 @@ msgstr "<span class=\"text-muted text-truncate mw-100\" title=\"進行中\">進�
 msgid "<span class=\"text-muted text-truncate mw-100\" title=\"Total\">Total</span>"
 msgstr "<span class=\"text-muted text-truncate mw-100\" title=\"總數\">總數</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"text-muted text-truncate mw-100\" title=\"Ongoing\">Ongoing</"
 "span>"
 msgstr ""
@@ -1858,6 +2059,9 @@ msgid ""
 "<span class=\"text-muted text-truncate mw-100\" title=\"Total\">Total</span>"
 msgstr ""
 "<span class=\"text-muted text-truncate mw-100\" title=\"總數\">總數</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -1874,6 +2078,7 @@ msgstr "<span class=\"text-muted\">計算機科學的部分</span>"
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span id=\"first\" class=\"me-1 me-sm-2\" title=\"First slide\" aria-label=\"First slide\" role=\"button\"><i class=\"fa fa-step-backward\"/></span>\n"
 "                                        <span id=\"previous\" class=\"mx-1 mx-sm-2\" title=\"Previous slide\" aria-label=\"Previous slide\" role=\"button\"><i class=\"fa fa-arrow-circle-left\"/></span>\n"
 "                                        <span id=\"next\" class=\"mx-1 mx-sm-2\" title=\"Next slide\" aria-label=\"Next slide\" role=\"button\"><i class=\"fa fa-arrow-circle-right\"/></span>\n"
@@ -1884,6 +2089,8 @@ msgstr ""
 "                                        <span id=\"next\" class=\"mx-1 mx-sm-2\" title=\"下頁\" aria-label=\"下頁\" role=\"button\"><i class=\"fa fa-arrow-circle-right\"/></span>\n"
 "                                        <span id=\"last\" class=\"mx-1 mx-sm-2\" title=\"最後一頁\" aria-label=\"最後一頁\" role=\"button\"><i class=\"fa fa-step-forward\"/></span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span id=\"first\" class=\"me-1 me-sm-2\" title=\"First slide\" aria-"
 "label=\"First slide\" role=\"button\"><i class=\"fa fa-step-backward\"/></"
 "span>\n"
@@ -1908,11 +2115,15 @@ msgstr ""
 "                                        <span id=\"last\" class=\"mx-1 mx-"
 "sm-2\" title=\"最後一頁\" aria-label=\"最後一頁\" role=\"button\"><i "
 "class=\"fa fa-step-forward\"/></span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span id=\"fullscreen\" class=\"ms-1 ms-sm-2\" title=\"View fullscreen\" aria-label=\"Fullscreen\" role=\"button\">\n"
 "                                            <i class=\"fa fa-arrows-alt\"/>\n"
@@ -1920,6 +2131,8 @@ msgid ""
 msgstr ""
 "<span id=\"fullscreen\" class=\"ms-1 ms-sm-2\" title=\"全螢幕檢視\" aria-label=\"全螢幕\" role=\"button\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span id=\"fullscreen\" class=\"ms-1 ms-sm-2\" title=\"View fullscreen\" "
 "aria-label=\"Fullscreen\" role=\"button\">\n"
 "                                            <i class=\"fa fa-arrows-alt\"/>\n"
@@ -1927,6 +2140,9 @@ msgstr ""
 msgstr ""
 "<span id=\"fullscreen\" class=\"ms-1 ms-sm-2\" title=\"全螢幕檢視\" aria-"
 "label=\"全螢幕\" role=\"button\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                            <i class=\"fa fa-arrows-alt\"/>\n"
 "                                        </span>"
@@ -1934,6 +2150,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span id=\"zoomout\" class=\"d-inline ms-2 me-2\" title=\"Zoom out\" aria-label=\"Zoom out\" role=\"button\">\n"
 "                                            <i class=\"fa fa-search-minus\"/>\n"
@@ -1948,6 +2165,8 @@ msgstr ""
 "                                        <span id=\"zoomin\" class=\"d-inline\" title=\"放大\" aria-label=\"放大\" role=\"button\">\n"
 "                                            <i class=\"fa fa-search-plus\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span id=\"zoomout\" class=\"d-inline ms-2 me-2\" title=\"Zoom out\" aria-"
 "label=\"Zoom out\" role=\"button\">\n"
 "                                            <i class=\"fa fa-search-minus\"/"
@@ -1968,6 +2187,9 @@ msgstr ""
 "inline\" title=\"放大\" aria-label=\"放大\" role=\"button\">\n"
 "                                            <i class=\"fa fa-search-plus\"/"
 ">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                        </span>"
 
@@ -1984,15 +2206,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span name=\"members_completed_count_label\" "
 "class=\"o_stat_text\">Finished</span>"
 msgstr "<span name=\"members_completed_count_label\" class=\"o_stat_text\">完成</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span name=\"members_completed_count_label\" class=\"o_stat_text\">Finished</"
 "span>"
 msgstr ""
 "<span name=\"members_completed_count_label\" class=\"o_stat_text\">完成</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -2098,6 +2326,7 @@ msgstr "<strong>未有參加者。</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Sharing is caring!</strong> Email(s) sent."
 msgstr "<strong>分享就是關愛！</strong>電子郵件已發送。"
 =======
@@ -2159,6 +2388,10 @@ msgstr ""
 =======
 msgid "<strong>Sharing is caring!</strong> Your email(s) will arrive shortly."
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "<strong>Sharing is caring!</strong> Your email(s) will arrive shortly."
+msgstr "<strong>好東西當然要分享開去！</strong>你的電郵會很快送達。"
 >>>>>>> upstream/18.0
 =======
 msgid "<strong>Sharing is caring!</strong> Your email(s) will arrive shortly."
@@ -2514,7 +2747,12 @@ msgstr "必須回答所有問題！"
 #: code:addons/website_slides/models/slide_question.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "All questions must have at least one correct answer and one incorrect answer: \n"
+=======
+"All questions must have at least one correct answer and one incorrect "
+"answer: \n"
+>>>>>>> upstream/18.0
 =======
 "All questions must have at least one correct answer and one incorrect "
 "answer: \n"
@@ -3106,7 +3344,13 @@ msgid ""
 "answering questions. In this course, you'll study those topics with "
 "activities about mathematics, science and logic."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "計算機科學家的常見任務是提出正確的問題並回答問題。在本課程中，您將通過有關數學、科學和邏輯的活動來學習這些主題。"
+=======
+msgstr ""
+"計算機科學家的常見任務是提出正確的問題並回答問題。在本課程中，您將通過有關數"
+"學、科學和邏輯的活動來學習這些主題。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "計算機科學家的常見任務是提出正確的問題並回答問題。在本課程中，您將通過有關數"
@@ -3218,7 +3462,13 @@ msgid ""
 "available here. The tag \"<b>New</b>\" indicates that this lesson was "
 "created less than 7 days ago."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "恭喜！你的第一課已經可用。讓我們看看這裡可用的選項。標籤 <b>新</b> ”表示這節課是在不到 7 天前建立的。"
+=======
+msgstr ""
+"恭喜！你的第一課已經可用。讓我們看看這裡可用的選項。標籤 <b>新</b> ”表示這節"
+"課是在不到 7 天前建立的。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "恭喜！你的第一課已經可用。讓我們看看這裡可用的選項。標籤 <b>新</b> ”表示這節"
@@ -3235,14 +3485,20 @@ msgstr "恭喜您，您已經達到了最近的排名！"
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Congratulations, you've created your first course.<br/>Click on the title of"
 " this content to see it in fullscreen mode."
 msgstr "恭喜，您已經建立了您的第一門課程。<br/>點選此內容的標題以全螢幕模式查看。"
 =======
+=======
+>>>>>>> upstream/18.0
 "Congratulations, you've created your first course.<br/>Click on the title of "
 "this content to see it in fullscreen mode."
 msgstr ""
 "恭喜，您已經建立了您的第一門課程。<br/>點選此內容的標題以全螢幕模式查看。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -3252,7 +3508,13 @@ msgid ""
 "Congratulations, your course has been created, but there isn't any content "
 "yet. First, let's add a <b>Section</b> to give your course a structure."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "恭喜，您的課程已建立，但還沒有任何內容。首先，讓我們添加一個<b>章節</b>來為您的課程提供一個結構。"
+=======
+msgstr ""
+"恭喜，您的課程已建立，但還沒有任何內容。首先，讓我們添加一個<b>章節</b>來為您"
+"的課程提供一個結構。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "恭喜，您的課程已建立，但還沒有任何內容。首先，讓我們添加一個<b>章節</b>來為您"
@@ -3334,7 +3596,12 @@ msgstr "內容類型"
 msgid ""
 "Content are the lessons that compose a course\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <br>and can be of different types (presentations, documents, videos, ...)."
+=======
+"                    <br>and can be of different types (presentations, "
+"documents, videos, ...)."
+>>>>>>> upstream/18.0
 =======
 "                    <br>and can be of different types (presentations, "
 "documents, videos, ...)."
@@ -4036,12 +4303,15 @@ msgstr "分享投影片時所用的電郵範本"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_share_dialog/email_sharing_input.xml:0
 msgid "Email(s) sent."
 msgstr "電郵已發送。"
 
 #. module: website_slides
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4308,7 +4578,10 @@ msgstr "文件太大。文件大小不能超過 25 MB"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4461,6 +4734,9 @@ msgstr "控制器檔案串流輔助模型"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4597,7 +4873,13 @@ msgid ""
 "First, create your lesson, then edit it with the website builder. You'll be "
 "able to drop building blocks on your page and edit them."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "首先，建立您的課程，然後使用網站構建器進行編輯。您將能夠在頁面上放置構建塊並對其進行編輯。"
+=======
+msgstr ""
+"首先，建立您的課程，然後使用網站構建器進行編輯。您將能夠在頁面上放置構建塊並"
+"對其進行編輯。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "首先，建立您的課程，然後使用網站構建器進行編輯。您將能夠在頁面上放置構建塊並"
@@ -4974,7 +5256,13 @@ msgid ""
 "If you want to be sure that attendees have understood and memorized the "
 "content, you can add a Quiz on the lesson. Click on <b>Add Quiz</b>."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果您想確保參加者已經理解並記住了內容，您可以在課程中添加測驗。點選<b>添加測驗</b>。"
+=======
+msgstr ""
+"如果您想確保參加者已經理解並記住了內容，您可以在課程中添加測驗。點選<b>添加測"
+"驗</b>。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果您想確保參加者已經理解並記住了內容，您可以在課程中添加測驗。點選<b>添加測"
@@ -4988,7 +5276,12 @@ msgid ""
 "If you want to use other types of files, you may want to use an external "
 "source (Google Drive) instead."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "若想使用其他類型文件，你可能需要改為使用外部來源（即 Google 雲端硬碟）。"
+=======
+msgstr ""
+"若想使用其他類型文件，你可能需要改為使用外部來源（即 Google 雲端硬碟）。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "若想使用其他類型文件，你可能需要改為使用外部來源（即 Google 雲端硬碟）。"
@@ -5051,8 +5344,13 @@ msgstr "圖片來源"
 #: code:addons/website_slides/models/slide_channel.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible to send emails. Select a \"Channel Share Template\" for courses "
 "%(course_names)s first"
+=======
+"Impossible to send emails. Select a \"Channel Share Template\" for courses %"
+"(course_names)s first"
+>>>>>>> upstream/18.0
 =======
 "Impossible to send emails. Select a \"Channel Share Template\" for courses %"
 "(course_names)s first"
@@ -5064,8 +5362,13 @@ msgstr "未能發送電郵。請先選擇「頻道分享範本」給課程 %(cou
 #: code:addons/website_slides/models/slide_slide.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible to send emails. Select a \"Share Template\" for courses "
 "%(course_names)s first"
+=======
+"Impossible to send emails. Select a \"Share Template\" for courses %"
+"(course_names)s first"
+>>>>>>> upstream/18.0
 =======
 "Impossible to send emails. Select a \"Share Template\" for courses %"
 "(course_names)s first"
@@ -5273,7 +5576,12 @@ msgid ""
 "Landscaping. Narrated by Leif Knecht, owner."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "吉姆和托德為 Knecht's Nurseries and Landscaping 的客戶種植盆栽樹。由業主 Leif Knecht 講述。"
+=======
+"吉姆和托德為 Knecht's Nurseries and Landscaping 的客戶種植盆栽樹。由業主 "
+"Leif Knecht 講述。"
+>>>>>>> upstream/18.0
 =======
 "吉姆和托德為 Knecht's Nurseries and Landscaping 的客戶種植盆栽樹。由業主 "
 "Leif Knecht 講述。"
@@ -5357,7 +5665,12 @@ msgstr "認識您自己"
 #: model_terms:slide.channel,description_short:website_slides.slide_channel_demo_3_furn0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Knowing which kind of wood to use depending on your application is important. In this course you\n"
+=======
+"Knowing which kind of wood to use depending on your application is "
+"important. In this course you\n"
+>>>>>>> upstream/18.0
 =======
 "Knowing which kind of wood to use depending on your application is "
 "important. In this course you\n"
@@ -5371,8 +5684,13 @@ msgstr ""
 #: model_terms:slide.slide,description:website_slides.slide_slide_demo_2_3
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Knowing wood characteristics is a requirement in order to know which kind of"
 " wood to use in a given situation."
+=======
+"Knowing wood characteristics is a requirement in order to know which kind of "
+"wood to use in a given situation."
+>>>>>>> upstream/18.0
 =======
 "Knowing wood characteristics is a requirement in order to know which kind of "
 "wood to use in a given situation."
@@ -5524,8 +5842,12 @@ msgstr "連結"
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_slide__document_google_url
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Link of the document (we currently only support Google Drive as source)"
+=======
+msgid "Link of the document (we currently only support Google Drive as source)"
+>>>>>>> upstream/18.0
 =======
 msgid "Link of the document (we currently only support Google Drive as source)"
 >>>>>>> upstream/18.0
@@ -5670,7 +5992,12 @@ msgid ""
 "Mighty forest just don't appear in a few weeks. Learn how time made our "
 "forests mighty and mysterious."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "強大的森林只是在幾週內不會出現。了解時間如何讓我們的森林變得強大而神秘。"
+=======
+msgstr ""
+"強大的森林只是在幾週內不會出現。了解時間如何讓我們的森林變得強大而神秘。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "強大的森林只是在幾週內不會出現。了解時間如何讓我們的森林變得強大而神秘。"
@@ -5783,7 +6110,12 @@ msgstr "新課程"
 msgid ""
 "New {{ object.slide_category }} published on {{ object.channel_id.name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "新的 {{ object.slide_category }} 已在 {{ object.channel_id.name }} 發佈"
+=======
+msgstr ""
+"新的 {{ object.slide_category }} 已在 {{ object.channel_id.name }} 發佈"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "新的 {{ object.slide_category }} 已在 {{ object.channel_id.name }} 發佈"
@@ -6103,17 +6435,23 @@ msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
 "發送電子郵件時要選擇的可選翻譯語言（ISO 代碼）。如果未設置，將使用英文版本。這通常應該是提供適當語言的佔位符表達式，例如{{ "
 "object.partner_id.lang }}。"
 =======
+=======
+>>>>>>> upstream/18.0
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 msgstr ""
 "發送電子郵件時要選擇的可選翻譯語言（ISO 代碼）。如果未設置，將使用英文版本。"
 "這通常應該是提供適當語言的佔位符表達式，例如{{ object.partner_id.lang }}。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -6167,6 +6505,7 @@ msgstr "請"
 #: code:addons/website_slides/static/src/js/slides_slide_like.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please <a href=\"/web/login?redirect=%(url)s\">login</a> or <a "
 "href=\"/web/signup?redirect=%(url)s\">create an account</a> to vote for this"
 " lesson"
@@ -6174,11 +6513,16 @@ msgstr ""
 "請<a href=\"/web/login?redirect=%(url)s\">登入</a>或<a "
 "href=\"/web/signup?redirect=%(url)s\">建立帳戶</a>，以對本課程投票"
 =======
+=======
+>>>>>>> upstream/18.0
 "Please <a href=\"/web/login?redirect=%(url)s\">login</a> or <a href=\"/web/"
 "signup?redirect=%(url)s\">create an account</a> to vote for this lesson"
 msgstr ""
 "請<a href=\"/web/login?redirect=%(url)s\">登入</a>或<a href=\"/web/signup?"
 "redirect=%(url)s\">建立帳戶</a>，以對本課程投票"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -6549,8 +6893,12 @@ msgstr "資源"
 #. odoo-python
 #: code:addons/website_slides/models/slide_slide_resource.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Resource %(resource_name)s is a link and should not contain a data file"
+=======
+msgid "Resource %(resource_name)s is a link and should not contain a data file"
+>>>>>>> upstream/18.0
 =======
 msgid "Resource %(resource_name)s is a link and should not contain a data file"
 >>>>>>> upstream/18.0
@@ -6618,6 +6966,11 @@ msgstr "評價日期"
 
 #. module: website_slides
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
@@ -6633,6 +6986,7 @@ msgid "Reviews"
 msgstr "評價"
 
 #. module: website_slides
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6768,6 +7122,10 @@ msgstr "評價"
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
 >>>>>>> upstream/18.0
+=======
+#. odoo-javascript
+#: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
+>>>>>>> upstream/18.0
 msgid "Reviews (%s)"
 msgstr "評價（%s）"
 
@@ -6815,6 +7173,9 @@ msgstr "評價（%s）"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7343,8 +7704,12 @@ msgstr "投影片圖片"
 #: code:addons/website_slides/controllers/main.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Slide with questions must be marked as done when submitting all good answers"
 " "
+=======
+"Slide with questions must be marked as done when submitting all good answers "
+>>>>>>> upstream/18.0
 =======
 "Slide with questions must be marked as done when submitting all good answers "
 >>>>>>> upstream/18.0
@@ -7470,8 +7835,13 @@ msgstr "訂閱者資訊"
 #: model:ir.model.fields,help:website_slides.field_slide_slide__slide_type
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Subtype of the slide category, allows more precision on the actual file type"
 " / source type."
+=======
+"Subtype of the slide category, allows more precision on the actual file "
+"type / source type."
+>>>>>>> upstream/18.0
 =======
 "Subtype of the slide category, allows more precision on the actual file "
 "type / source type."
@@ -7507,15 +7877,21 @@ msgstr "標籤名稱"
 msgid ""
 "Tag color used in both backend and website. No color means no display in "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "kanban or front-end, to distinguish internal tags from public categorization"
 " tags"
 msgstr "後端和網站中使用的標籤顏色。無顏色表示看板或前端不顯示，用於區分內部標籤和公共分類標籤"
 =======
+=======
+>>>>>>> upstream/18.0
 "kanban or front-end, to distinguish internal tags from public categorization "
 "tags"
 msgstr ""
 "後端和網站中使用的標籤顏色。無顏色表示看板或前端不顯示，用於區分內部標籤和公"
 "共分類標籤"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -7588,7 +7964,13 @@ msgid ""
 "document. You can change this number if your attendees will need more time "
 "to assimilate the content."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "課程的<b>持續時間</b>基於文件的頁數。如果您的與會者需要更多時間來理解內容，您可以更改此數字。"
+=======
+msgstr ""
+"課程的<b>持續時間</b>基於文件的頁數。如果您的與會者需要更多時間來理解內容，您"
+"可以更改此數字。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "課程的<b>持續時間</b>基於文件的頁數。如果您的與會者需要更多時間來理解內容，您"
@@ -7603,7 +7985,13 @@ msgid ""
 "you want.</br>A <b>Preview</b> of your file is available on the right side "
 "of the screen."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<b>您的課程標題</b>是自動完成的，但您可以根據需要進行更改。</br>屏幕右側提供文件<b>預覽</b>"
+=======
+msgstr ""
+"<b>您的課程標題</b>是自動完成的，但您可以根據需要進行更改。</br>屏幕右側提供"
+"文件<b>預覽</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<b>您的課程標題</b>是自動完成的，但您可以根據需要進行更改。</br>屏幕右側提供"
@@ -7614,8 +8002,13 @@ msgstr ""
 #: model:ir.model.constraint,message:website_slides.constraint_slide_channel_check_enroll
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Enroll Policy should be set to 'On Invitation' when visibility is set to"
 " 'Course Attendees'"
+=======
+"The Enroll Policy should be set to 'On Invitation' when visibility is set to "
+"'Course Attendees'"
+>>>>>>> upstream/18.0
 =======
 "The Enroll Policy should be set to 'On Invitation' when visibility is set to "
 "'Course Attendees'"
@@ -7642,8 +8035,12 @@ msgstr "此處使用的 Google 雲端硬碟連結，可在 Google 介面按「�
 #: model:ir.model.constraint,message:website_slides.constraint_slide_channel_partner_check_completion
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The completion of a channel is a percentage and should be between 0% and "
 "100."
+=======
+"The completion of a channel is a percentage and should be between 0% and 100."
+>>>>>>> upstream/18.0
 =======
 "The completion of a channel is a percentage and should be between 0% and 100."
 >>>>>>> upstream/18.0
@@ -7708,7 +8105,12 @@ msgstr "投票數值必須為 1、0 或 -1。"
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_dialog.xml:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Then, go into the file permissions and set it as \"Anyone with the link\"."
+=======
+msgid ""
+"Then, go into the file permissions and set it as \"Anyone with the link\"."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Then, go into the file permissions and set it as \"Anyone with the link\"."
@@ -7813,8 +8215,12 @@ msgstr "這是正確答案，恭喜"
 #: code:addons/website_slides/models/slide_question.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This question must have at least one correct answer and one incorrect "
 "answer."
+=======
+"This question must have at least one correct answer and one incorrect answer."
+>>>>>>> upstream/18.0
 =======
 "This question must have at least one correct answer and one incorrect answer."
 >>>>>>> upstream/18.0
@@ -7850,17 +8256,23 @@ msgstr "頻道已存在此影片，有關內容如下： %s"
 msgid ""
 "Through Google Drive, we support most common types of documents.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Including regular documents (Google Doc, .docx), Sheets (Google Sheet, .xlsx), PowerPoints, ..."
 msgstr ""
 "我們透過 Google 雲端硬碟，支援最常見的文件類型。\n"
 "            包括一般文書（Google 文件、.docx）、試算表（Google 試算表、.xlsx）、PowerPoint 簡報等。"
 =======
+=======
+>>>>>>> upstream/18.0
 "            Including regular documents (Google Doc, .docx), Sheets (Google "
 "Sheet, .xlsx), PowerPoints, ..."
 msgstr ""
 "我們透過 Google 雲端硬碟，支援最常見的文件類型。\n"
 "            包括一般文書（Google 文件、.docx）、試算表（Google 試算"
 "表、.xlsx）、PowerPoint 簡報等。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -8022,7 +8434,11 @@ msgid "Uncategorized"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "未歸類"
+=======
+msgstr "未分類"
+>>>>>>> upstream/18.0
 =======
 msgstr "未分類"
 >>>>>>> upstream/18.0
@@ -8420,7 +8836,11 @@ msgid "Website meta description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "網站 meta 說明"
+=======
+msgstr "網站 meta 描述"
+>>>>>>> upstream/18.0
 =======
 msgstr "網站 meta 描述"
 >>>>>>> upstream/18.0
@@ -8489,7 +8909,12 @@ msgid ""
 "Welcome on your course's home page. It's still empty for now. Click on "
 "\"<b>New</b>\" to write your first course."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "歡迎訪問您的課程主頁。目前它仍然是空的。點選<b>新建</b>來編輯您的第一門課程。"
+=======
+msgstr ""
+"歡迎訪問您的課程主頁。目前它仍然是空的。點選<b>新建</b>來編輯您的第一門課程。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "歡迎訪問您的課程主頁。目前它仍然是空的。點選<b>新建</b>來編輯您的第一門課程。"
@@ -8549,7 +8974,12 @@ msgid ""
 "With Quizzes you can keep your students focused and motivated by answering "
 "some questions and gaining some karma points"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "通過測驗，您可以通過回答一些問題並獲得一些活躍度來讓您的學生保持專注與積極"
+=======
+msgstr ""
+"通過測驗，您可以通過回答一些問題並獲得一些活躍度來讓您的學生保持專注與積極"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "通過測驗，您可以通過回答一些問題並獲得一些活躍度來讓您的學生保持專注與積極"
@@ -8598,7 +9028,13 @@ msgid ""
 "feature.<br> To be successful your content needs to be useful to your "
 "readers."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "寫一兩段文字，描述你的產品或服務，或個別特色及功能。<br>成功的內容必須對讀者有用。"
+=======
+msgstr ""
+"寫一兩段文字，描述你的產品或服務，或個別特色及功能。<br>成功的內容必須對讀者"
+"有用。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "寫一兩段文字，描述你的產品或服務，或個別特色及功能。<br>成功的內容必須對讀者"
@@ -8629,8 +9065,13 @@ msgstr "是"
 #: code:addons/website_slides/models/slide_channel.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are not allowed to add members to this course. Please contact the course"
 " responsible or an administrator."
+=======
+"You are not allowed to add members to this course. Please contact the course "
+"responsible or an administrator."
+>>>>>>> upstream/18.0
 =======
 "You are not allowed to add members to this course. Please contact the course "
 "responsible or an administrator."
@@ -8756,7 +9197,11 @@ msgstr "你獲邀請查看 {{ object.channel_id.name }}"
 #: model:mail.template,subject:website_slides.mail_template_slide_channel_enroll
 msgid "You have been invited to join {{ object.channel_id.name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您已受邀加入 {{ object.channel_id.name }}"
+=======
+msgstr "你獲邀請加入 {{ object.channel_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "你獲邀請加入 {{ object.channel_id.name }}"
 >>>>>>> upstream/18.0
@@ -8866,6 +9311,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -8900,6 +9346,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8954,6 +9402,9 @@ msgstr "你的電子郵件會很快送達。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9002,7 +9453,13 @@ msgid ""
 "Click on <b>Add Content</b> to upload a document, create an article or link "
 "a video."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "你已建立第一個章節，現在是時候向你的課程加入課節了。請按「<b>新增內容</b>」以上載文件、建立文章，或插入影片連結。"
+=======
+msgstr ""
+"你已建立第一個章節，現在是時候向你的課程加入課節了。請按「<b>新增內容</b>」以"
+"上載文件、建立文章，或插入影片連結。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "你已建立第一個章節，現在是時候向你的課程加入課節了。請按「<b>新增內容</b>」以"
@@ -9014,8 +9471,13 @@ msgstr ""
 #: code:addons/website_slides/models/slide_slide.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your video could not be found on Vimeo, please check the link and/or privacy"
 " settings"
+=======
+"Your video could not be found on Vimeo, please check the link and/or privacy "
+"settings"
+>>>>>>> upstream/18.0
 =======
 "Your video could not be found on Vimeo, please check the link and/or privacy "
 "settings"
@@ -9204,12 +9666,15 @@ msgstr "例：甚麼動物不會飛？"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 msgid "e.g. \"{{placeholder || \"another animal\"}}\""
 msgstr "例：{{placeholder || \"其他動物\"}}"
 
 #. module: website_slides
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9336,15 +9801,21 @@ msgstr "例：兒童計算機科學"
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "e.g. In this video, we'll give you the keys on how Odoo can help you to grow"
 " your business. At the end, we'll propose you a quiz to test your knowledge."
 msgstr "例如: 在本影片中，我們將向您介紹Odoo如何幫助您拓展業務。 最後，我們將為測試您的知識。"
 =======
+=======
+>>>>>>> upstream/18.0
 "e.g. In this video, we'll give you the keys on how Odoo can help you to grow "
 "your business. At the end, we'll propose you a quiz to test your knowledge."
 msgstr ""
 "例如: 在本影片中，我們將向您介紹Odoo如何幫助您拓展業務。 最後，我們將為測試您"
 "的知識。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides
@@ -9401,7 +9872,11 @@ msgid "eLearning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "網上教學"
+=======
+msgstr "網上學習"
+>>>>>>> upstream/18.0
 =======
 msgstr "網上學習"
 >>>>>>> upstream/18.0
@@ -9573,11 +10048,14 @@ msgstr "登入"
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_dialog.xml:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "mean? The Vimeo \"Private\" privacy setting means it is a video which can be viewed only by the users with the link to it.\n"
 "                Your video will never come up in the search results nor on your channel."
 msgstr ""
 "是甚麼意思？ － Vimeo 的「私人」私隱設定選項，是指影片只能由擁有連結的用戶觀看。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "mean? The Vimeo \"Private\" privacy setting means it is a video which can be "
 "viewed only by the users with the link to it.\n"
 "                Your video will never come up in the search results nor on "
@@ -9585,6 +10063,9 @@ msgstr ""
 msgstr ""
 "是甚麼意思？ － Vimeo 的「私人」私隱設定選項，是指影片只能由擁有連結的用戶觀"
 "看。\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                該影片永遠不會出現在搜尋結果或你的頻道中。"
 
@@ -9593,18 +10074,24 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_dialog.xml:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "means? The YouTube \"unlisted\" means it is a video which can be viewed only"
 " by the users with the link to it. Your video will never come up in the "
 "search results nor on your channel."
 msgstr ""
 "是甚麼意思？ － YouTube 的「不公開列出」私隱設定選項，是指影片只能由擁有連結的用戶觀看。該影片永遠不會出現在搜尋結果或你的頻道中。"
 =======
+=======
+>>>>>>> upstream/18.0
 "means? The YouTube \"unlisted\" means it is a video which can be viewed only "
 "by the users with the link to it. Your video will never come up in the "
 "search results nor on your channel."
 msgstr ""
 "是甚麼意思？ － YouTube 的「不公開列出」私隱設定選項，是指影片只能由擁有連結"
 "的用戶觀看。該影片永遠不會出現在搜尋結果或你的頻道中。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides

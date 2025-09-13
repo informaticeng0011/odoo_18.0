@@ -75,7 +75,10 @@ class TestAccountMoveDuplicate(AccountTestInvoicingCommon):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_in_invoice_multiple_duplicate_reference_batch_in_edit_mode(self):
         """
             Ensure duplicated ref are computed correctly even when updated in batch
@@ -94,6 +97,9 @@ class TestAccountMoveDuplicate(AccountTestInvoicingCommon):
             {'duplicated_ref_ids': (invoices_new[0]).ids},
         ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_in_invoice_single_duplicate_reference_diff_date(self):
         """ Ensure duplicated ref are computed correctly for different dates"""

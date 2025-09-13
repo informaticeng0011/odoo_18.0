@@ -629,8 +629,12 @@ class AccountMove(models.Model):
             'buyerPhoneNumber': commercial_partner_phone or '',
             'buyerEmail': self.commercial_partner_id.email or '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'buyerDistrictName': self.partner_id.state_id.name,
             'buyerCityName': self.partner_id.city,
+=======
+            'buyerCityName': self.partner_id.city or self.partner_id.state_id.name,
+>>>>>>> upstream/18.0
 =======
             'buyerCityName': self.partner_id.city or self.partner_id.state_id.name,
 >>>>>>> upstream/18.0
@@ -706,7 +710,11 @@ class AccountMove(models.Model):
                 'quantity': line.quantity,
                 # This amount should be without discount applied.
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'itemTotalAmountWithoutTax': line.currency_id.round(line.price_unit * line.quantity) * sign,
+=======
+                'itemTotalAmountWithoutTax': line.currency_id.round(line.price_unit * line.quantity),
+>>>>>>> upstream/18.0
 =======
                 'itemTotalAmountWithoutTax': line.currency_id.round(line.price_unit * line.quantity),
 >>>>>>> upstream/18.0
@@ -715,15 +723,21 @@ class AccountMove(models.Model):
                 # Most use cases will be -2 or a tax percentage, so we limit the support to these.
                 'taxPercentage': line.tax_ids and line.tax_ids[0].amount or -2,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'taxAmount': (line.price_total - line.price_subtotal) * sign,
                 'discount': line.discount,
                 'itemTotalAmountAfterDiscount': line.price_subtotal * sign,
                 'itemTotalAmountWithTax': line.price_total * sign,
 =======
+=======
+>>>>>>> upstream/18.0
                 'taxAmount': (line.price_total - line.price_subtotal),
                 'discount': line.discount,
                 'itemTotalAmountAfterDiscount': line.price_subtotal,
                 'itemTotalAmountWithTax': line.price_total,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             }
             if line.display_type in code_map:

@@ -17,6 +17,10 @@ export {
     setFrameRate,
     tick,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    unfreezeTime,
+>>>>>>> upstream/18.0
 =======
     unfreezeTime,
 >>>>>>> upstream/18.0
@@ -28,8 +32,11 @@ export { mockPermission, mockSendBeacon, mockUserAgent, mockVibrate } from "./mo
 export { mockFetch, mockLocation, mockWebSocket, mockWorker } from "./mock/network";
 export { flushNotifications } from "./mock/notification";
 <<<<<<< HEAD
+<<<<<<< HEAD
 export { mockMatchMedia, mockTouch, watchKeys, watchListeners } from "./mock/window";
 =======
+=======
+>>>>>>> upstream/18.0
 export {
     mockMatchMedia,
     mockTouch,
@@ -37,4 +44,7 @@ export {
     watchKeys,
     watchListeners,
 } from "./mock/window";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

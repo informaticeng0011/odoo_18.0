@@ -95,6 +95,10 @@ export class TipScreen extends Component {
             tip_amount: serverTipLine[0].price_subtotal_incl,
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0

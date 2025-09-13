@@ -48,7 +48,10 @@
             <attribute name="type">object</attribute>
             <attribute name="action">open_website_url</attribute>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             <!--
             TODO a bit bad (why grouping by responsible user?) but we want
             website views to be reachable by any internal user and those
@@ -58,6 +61,9 @@
             See WEBSITE_RECORDS_VIEWS_ACCESS_RIGHTS.
             -->
             <attribute name="default_group_by">user_id</attribute>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         </xpath>
         <xpath expr="//kanban" position="inside">

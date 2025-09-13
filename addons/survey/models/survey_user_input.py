@@ -752,7 +752,11 @@ class SurveyUserInputLine(models.Model):
                 line.display_name = fields.Date.to_string(line.value_date)
             elif line.answer_type == 'datetime':
 <<<<<<< HEAD
+<<<<<<< HEAD
                 line.display_name = fields.Datetime.to_string(line.value_datetime)
+=======
+                line.display_name = fields.Datetime.to_string(fields.Datetime.context_timestamp(self.env.user, line.value_datetime))
+>>>>>>> upstream/18.0
 =======
                 line.display_name = fields.Datetime.to_string(fields.Datetime.context_timestamp(self.env.user, line.value_datetime))
 >>>>>>> upstream/18.0

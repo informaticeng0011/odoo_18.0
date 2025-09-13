@@ -47,11 +47,14 @@ class Job(models.Model):
         'hr.employee', related='department_id.manager_id', string="Department Manager",
         readonly=True, store=True)
 <<<<<<< HEAD
+<<<<<<< HEAD
     user_id = fields.Many2one('res.users', "Recruiter",
         domain="[('share', '=', False), ('company_ids', 'in', company_id)]", default=lambda self: self.env.user,
         tracking=True, help="The Recruiter will be the default value for all Applicants in this job \
             position. The Recruiter is automatically added to all meetings with the Applicant.")
 =======
+=======
+>>>>>>> upstream/18.0
     user_id = fields.Many2one(
         "res.users",
         "Recruiter",
@@ -61,6 +64,9 @@ class Job(models.Model):
         help="The Recruiter will be the default value for all Applicants Recruiter's field in this job position. The Recruiter is automatically added to all meetings with the Applicant.",
     )
     allowed_user_ids = fields.Many2many('res.users', compute='_compute_allowed_user_ids', readonly=True)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     document_ids = fields.One2many('ir.attachment', compute='_compute_document_ids', string="Documents", readonly=True)
     documents_count = fields.Integer(compute='_compute_document_ids', string="Document Count")
@@ -69,14 +75,20 @@ class Job(models.Model):
     is_favorite = fields.Boolean(compute='_compute_is_favorite', inverse='_inverse_is_favorite')
     favorite_user_ids = fields.Many2many('res.users', 'job_favorite_user_rel', 'job_id', 'user_id', default=_get_default_favorite_user_ids)
 <<<<<<< HEAD
+<<<<<<< HEAD
     interviewer_ids = fields.Many2many('res.users', string='Interviewers', domain="[('share', '=', False), ('company_ids', 'in', company_id)]", help="The Interviewers set on the job position can see all Applicants in it. They have access to the information, the attachments, the meeting management and they can refuse him. You don't need to have Recruitment rights to be set as an interviewer.")
 =======
+=======
+>>>>>>> upstream/18.0
     interviewer_ids = fields.Many2many(
         "res.users",
         domain="[('id', 'in', allowed_user_ids)]",
         string="Interviewers",
         help="The Interviewers set on the job position can see all Applicants in it. They have access to the information, the attachments, the meeting management and they can refuse him. You don't need to have Recruitment rights to be set as an interviewer.",
     )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     extended_interviewer_ids = fields.Many2many('res.users', 'hr_job_extended_interviewer_res_users', compute='_compute_extended_interviewer_ids', store=True)
     industry_id = fields.Many2one('res.partner.industry', 'Industry')
@@ -154,7 +166,10 @@ class Job(models.Model):
             job.extended_interviewer_ids = [(6, 0, list(interviewers_by_job[job.id]))]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends("company_id")
     def _compute_allowed_user_ids(self):
         company_ids = self.mapped("company_id.id")
@@ -177,6 +192,9 @@ class Job(models.Model):
         for job in self:
             job.allowed_user_ids = users_by_company.get(job.company_id, all_users)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _compute_is_favorite(self):
         for job in self:

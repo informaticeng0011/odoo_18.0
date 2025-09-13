@@ -4,6 +4,11 @@
 import json
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 
@@ -33,7 +38,10 @@ class AccountMove(models.Model):
             ))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def action_retry_edi_documents_error(self):
         for move in self:
             if move.country_code == 'IN':
@@ -48,6 +56,9 @@ class AccountMove(models.Model):
                 ))
         return super().action_retry_edi_documents_error()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def button_cancel_posted_moves(self):
         """Mark the edi.document related to this move to be canceled."""

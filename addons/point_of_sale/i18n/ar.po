@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Farid Fox, 2024
@@ -430,6 +431,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Farid Fox, 2024
@@ -437,11 +440,15 @@
 # Wil Odoo, 2025
 # Malaz Abuidris <msea@odoo.com>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -921,6 +928,8 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
@@ -931,6 +940,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -939,11 +951,14 @@ msgstr ""
 msgid ""
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This issue occurs because the quantity becomes zero after rounding during the conversion. To fix this, adjust the conversion factors or rounding method to ensure that even the smallest quantity in the original unit does not round down to zero in the target unit."
 msgstr ""
 "\n"
 "تحدث هذه المشكلة لأن الكمية تصبح صفراً بعد تقريبها أثناء عملية التحويل. لإصلاح هذه المشكلة، قم بتعديل عوامل التحويل أو طريقة التقريب لضمان عدم تقريب أصغر كمية في الوحدة الأصلية إلى الصفر في الوحدة الهدف. "
 =======
+=======
+>>>>>>> upstream/18.0
 "This issue occurs because the quantity becomes zero after rounding during "
 "the conversion. To fix this, adjust the conversion factors or rounding "
 "method to ensure that even the smallest quantity in the original unit does "
@@ -953,6 +968,9 @@ msgstr ""
 "تحدث هذه المشكلة لأن الكمية تصبح صفراً بعد تقريبها أثناء عملية التحويل. "
 "لإصلاح هذه المشكلة، قم بتعديل عوامل التحويل أو طريقة التقريب لضمان عدم تقريب "
 "أصغر كمية في الوحدة الأصلية إلى الصفر في الوحدة الهدف. "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -1097,7 +1115,11 @@ msgid "%(product_name)s: Deleted line (quantity: %(qty)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product_name)s: بند محذوف (الكمية: %(qty)s) "
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product_name)s: بند محذوف (الكمية: %(qty)s) "
 >>>>>>> upstream/18.0
@@ -1471,7 +1493,11 @@ msgid "%(title)s %(product_name)s with %(taxes)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(title)s %(product_name)s مع %(taxes)s "
+>>>>>>> upstream/18.0
 =======
 msgstr "%(title)s %(product_name)s مع %(taxes)s "
 >>>>>>> upstream/18.0
@@ -1759,8 +1785,12 @@ msgid ""
 "%s has a total amount of %s, are you sure you want to delete this order?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%s يحتوي على مبلغ إجمالي قدره %s، هل أنت متأكد من أنك ترغب في حذف هذا الطلب؟"
 " "
+=======
+"%s يحتوي على مبلغ إجمالي قدره %s، هل أنت متأكد من أنك ترغب في حذف هذا الطلب؟ "
+>>>>>>> upstream/18.0
 =======
 "%s يحتوي على مبلغ إجمالي قدره %s، هل أنت متأكد من أنك ترغب في حذف هذا الطلب؟ "
 >>>>>>> upstream/18.0
@@ -1854,7 +1884,11 @@ msgid "%s untaxed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s غير شامل الضريبة "
+>>>>>>> upstream/18.0
 =======
 msgstr "%s غير شامل الضريبة "
 >>>>>>> upstream/18.0
@@ -2249,17 +2283,23 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <h4>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'Valuable Customer'\">Azure Interior</t>,\n"
 "    </h4>\n"
 "    <p style=\"font-size: 13px;\">\n"
 "We have a limited-time offer only for you, enjoy a flat 20% off on your next purchase with us.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Dear <t t-out=\"object.partner_id.name or 'Valuable "
 "Customer'\">Azure Interior</t>,\n"
 "    </h4>\n"
 "    <p style=\"font-size: 13px;\">\n"
 "We have a limited-time offer only for you, enjoy a flat 20% off on your next "
 "purchase with us.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "We can't wait to continue serving you.\n"
 "    </p>\n"
@@ -2269,17 +2309,23 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <h4>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        عزيزنا <t t-out=\"object.partner_id.name or 'Valuable Customer'\">Azure Interior</t>،\n"
 "    </h4>\n"
 "    <p style=\"font-size: 13px;\">\n"
 "لدينا عرض لفترة محدودة من أجلك! استمتع بخصم بنسبة 20% من عملية الشراء التالية التي تقوم بها لدينا.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        عزيزنا <t t-out=\"object.partner_id.name or 'Valuable "
 "Customer'\">Azure Interior</t>،\n"
 "    </h4>\n"
 "    <p style=\"font-size: 13px;\">\n"
 "لدينا عرض لفترة محدودة من أجلك! استمتع بخصم بنسبة 20% من عملية الشراء "
 "التالية التي تقوم بها لدينا.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "يسرنا أن نكون في خدمتك دائماً.\n"
 "    </p>\n"
@@ -2314,6 +2360,7 @@ msgstr "<i class=\"fa fa-pencil\"/> تحرير"
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<p>Dear %(client_name)s,<br/>Here is your Receipt %(is_invoiced)sfor"
 "             %(pos_name)s amounting in %(amount)s from %(company_name)s. "
 "</p>"
@@ -2322,6 +2369,8 @@ msgstr ""
 "             %(pos_name)s والذي تبلغ قيمته %(amount)s من %(company_name)s. "
 "</p> "
 =======
+=======
+>>>>>>> upstream/18.0
 "<p>Dear %(client_name)s,<br/>Here is your Receipt %"
 "(is_invoiced)sfor             %(pos_name)s amounting in %(amount)s from %"
 "(company_name)s. </p>"
@@ -2329,6 +2378,9 @@ msgstr ""
 "<p>عزيزنا %(client_name)s،<br/>إليك الإيصال %(is_invoiced)sالخاص "
 "بالطلب             %(pos_name)s والذي تبلغ قيمته %(amount)s من %"
 "(company_name)s. </p> "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -2345,11 +2397,14 @@ msgstr ""
 msgid ""
 "<span class=\"o_form_label\">Barcodes</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
 msgstr ""
 "<span class=\"o_form_label\">الباركودات</span>\n"
 "                                <i class=\"fa fa-info-circle me-1\" title=\"هذه الإعدادات مشتركة في كافة نقاط البيع. \" pos-data-toggle=\"tooltip\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                <i class=\"fa fa-info-circle me-1\" "
 "title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
 msgstr ""
@@ -2357,6 +2412,9 @@ msgstr ""
 "                                <i class=\"fa fa-info-circle me-1\" "
 "title=\"هذه الإعدادات مشتركة في كافة نقاط البيع. \" pos-data-"
 "toggle=\"tooltip\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -2407,17 +2465,23 @@ msgstr "<span>عرض</span>"
 msgid ""
 "<strong> &gt; Payment Terminals</strong>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    in order to install a Payment Terminal and make a fully integrated payment method."
 msgstr ""
 "<strong> &gt; أجهزة الدفع</strong>\n"
 "                                    لتتمكن من تثبيت جهاز الدفع وجعله طريقة دفع مدمجة تماماً. "
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    in order to install a Payment Terminal "
 "and make a fully integrated payment method."
 msgstr ""
 "<strong> &gt; أجهزة الدفع</strong>\n"
 "                                    لتتمكن من تثبيت جهاز الدفع وجعله طريقة "
 "دفع مدمجة تماماً. "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -2473,8 +2537,13 @@ msgid ""
 "conflicts in client-generated data."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "معرف فريد عالمياً لتهيئة نقطة البيع هذه، يُستخدَم لمنع التعارضات في البيانات"
 " التي تم إنشاؤها بواسطة العميل. "
+=======
+"معرف فريد عالمياً لتهيئة نقطة البيع هذه، يُستخدَم لمنع التعارضات في البيانات "
+"التي تم إنشاؤها بواسطة العميل. "
+>>>>>>> upstream/18.0
 =======
 "معرف فريد عالمياً لتهيئة نقطة البيع هذه، يُستخدَم لمنع التعارضات في البيانات "
 "التي تم إنشاؤها بواسطة العميل. "
@@ -2487,12 +2556,18 @@ msgstr "توجد بالفعل ملاحظة بها هذا الاسم "
 
 #. module: point_of_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.constraint,message:point_of_sale.constraint_pos_payment_uuid_unique
 msgid "A payment with this uuid already exists"
 msgstr ""
 
 #. module: point_of_sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__login_number
 msgid ""
@@ -2626,8 +2701,13 @@ msgstr "مدفوعات الحساب التي تمثل إجمالي المدفو�
 #: model:ir.model.fields,help:point_of_sale.field_pos_payment_method__outstanding_account_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Account used as outstanding account when creating accounting payment records"
 " for bank payments."
+=======
+"Account used as outstanding account when creating accounting payment records "
+"for bank payments."
+>>>>>>> upstream/18.0
 =======
 "Account used as outstanding account when creating accounting payment records "
 "for bank payments."
@@ -2850,8 +2930,13 @@ msgid ""
 msgstr ""
 "يجب أن تكون عملة كافة قوائم الأسعار المتاحة هي نفس عملة الشركة أو العملة "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "المذكورة في دفتر يومية المبيعات المُعين لنقطة البيع هذه إذا كنت تستخدم تطبيق"
 " المحاسبة. "
+=======
+"المذكورة في دفتر يومية المبيعات المُعين لنقطة البيع هذه إذا كنت تستخدم تطبيق "
+"المحاسبة. "
+>>>>>>> upstream/18.0
 =======
 "المذكورة في دفتر يومية المبيعات المُعين لنقطة البيع هذه إذا كنت تستخدم تطبيق "
 "المحاسبة. "
@@ -2867,8 +2952,13 @@ msgstr "كافة الملاحظات "
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "All payment methods must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
+=======
+"All payment methods must be in the same currency as the Sales Journal or the "
+"company currency if that is not set."
+>>>>>>> upstream/18.0
 =======
 "All payment methods must be in the same currency as the Sales Journal or the "
 "company currency if that is not set."
@@ -3021,6 +3111,10 @@ msgstr "إجمالي المبلغ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -3273,7 +3367,10 @@ msgstr "معرف داخلي للطابعة"
 
 #. module: point_of_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.constraint,message:point_of_sale.constraint_pos_order_line_uuid_unique
 msgid "An order line with this uuid already exists"
 msgstr ""
@@ -3284,6 +3381,9 @@ msgid "An order with this uuid already exists"
 msgstr ""
 
 #. module: point_of_sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_session.py:0
@@ -3338,8 +3438,13 @@ msgid ""
 "registering QR code payments with Bank apps."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "يجب تحديد حساب بنكي واحد على الأقل في دفتر اليومية للسماح بتسجيل مدفوعات كود"
 " QR في التطبيقات البنكية. "
+=======
+"يجب تحديد حساب بنكي واحد على الأقل في دفتر اليومية للسماح بتسجيل مدفوعات كود "
+"QR في التطبيقات البنكية. "
+>>>>>>> upstream/18.0
 =======
 "يجب تحديد حساب بنكي واحد على الأقل في دفتر اليومية للسماح بتسجيل مدفوعات كود "
 "QR في التطبيقات البنكية. "
@@ -3355,7 +3460,12 @@ msgstr "عند إقفال الجلسة "
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__update_stock_quantities
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "At the session closing: A picking is created for the entire session when it's closed\n"
+=======
+"At the session closing: A picking is created for the entire session when "
+"it's closed\n"
+>>>>>>> upstream/18.0
 =======
 "At the session closing: A picking is created for the entire session when "
 "it's closed\n"
@@ -3627,8 +3737,13 @@ msgstr ""
 "تمكن من تعزيز مبيعاتك باستخدام عدة أنواع من برامج الخصم: الكوبونات والعروض "
 "وبطاقات الهدايا والولاء. يمكن تعيين شروط معينة (المنتجات، العملاء، الحد "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "الأدنى لمبلغ الشراء، المدة الزمنية). وقد تكون المكافآت خصومات (نسبة مئوية أو"
 " مبالغ) أو منتجات مجانية. "
+=======
+"الأدنى لمبلغ الشراء، المدة الزمنية). وقد تكون المكافآت خصومات (نسبة مئوية أو "
+"مبالغ) أو منتجات مجانية. "
+>>>>>>> upstream/18.0
 =======
 "الأدنى لمبلغ الشراء، المدة الزمنية). وقد تكون المكافآت خصومات (نسبة مئوية أو "
 "مبالغ) أو منتجات مجانية. "
@@ -3836,7 +3951,11 @@ msgid "Cannot weigh product - IoT Box is disconnected"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تعذّر وزن المنتج - جهاز IoT غير متصل بصندوق إنترنت الأشياء "
+>>>>>>> upstream/18.0
 =======
 msgstr "تعذّر وزن المنتج - جهاز IoT غير متصل بصندوق إنترنت الأشياء "
 >>>>>>> upstream/18.0
@@ -4194,7 +4313,11 @@ msgid "Cannot weigh product - Scale is not connected to IoT Box"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تعذّر وزن المنتج - الميزان غير متصل بجهاز IoT "
+>>>>>>> upstream/18.0
 =======
 msgstr "تعذّر وزن المنتج - الميزان غير متصل بجهاز IoT "
 >>>>>>> upstream/18.0
@@ -4734,8 +4857,12 @@ msgstr "تغيير البقشيش "
 #: model:ir.model.fields,help:point_of_sale.field_product_template__to_weight
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Check if the product should be weighted using the hardware scale "
 "integration."
+=======
+"Check if the product should be weighted using the hardware scale integration."
+>>>>>>> upstream/18.0
 =======
 "Check if the product should be weighted using the hardware scale integration."
 >>>>>>> upstream/18.0
@@ -4802,8 +4929,13 @@ msgid ""
 "customer (tax exempt, onsite vs. takeaway, etc.)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "اختر وضعاً مالياً محدداً في الطلب بناءً على نوع العميل (معفي من الضرائب، "
 "الشراء في المحل مقابل الطلبية للتوصيل، وما إلى ذلك). "
+=======
+"اختر وضعاً مالياً محدداً في الطلب بناءً على نوع العميل (معفي من الضرائب، الشراء "
+"في المحل مقابل الطلبية للتوصيل، وما إلى ذلك). "
+>>>>>>> upstream/18.0
 =======
 "اختر وضعاً مالياً محدداً في الطلب بناءً على نوع العميل (معفي من الضرائب، الشراء "
 "في المحل مقابل الطلبية للتوصيل، وما إلى ذلك). "
@@ -4824,13 +4956,19 @@ msgstr "اختر كيفية طباعة رابط URL الخاص بالبوابة 
 #. module: point_of_sale
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
 msgid "Choose the tax you want to apply"
 msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.xml:0
 msgid "Choose your store"
@@ -4964,7 +5102,11 @@ msgid "Close Session Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "إغلاق معالج الجلسة "
+=======
+msgstr "معالج إغلاق الجلسة "
+>>>>>>> upstream/18.0
 =======
 msgstr "معالج إغلاق الجلسة "
 >>>>>>> upstream/18.0
@@ -5493,7 +5635,11 @@ msgid "Connecting to the IoT Box"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "الاتصال بجهاز IoT "
+>>>>>>> upstream/18.0
 =======
 msgstr "الاتصال بجهاز IoT "
 >>>>>>> upstream/18.0
@@ -5835,8 +5981,13 @@ msgstr "الاستمرار مع وظائف محدودة "
 #: code:addons/point_of_sale/models/stock_picking.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Conversion Error: The following unit of measure conversions result in a zero"
 " quantity due to rounding:"
+=======
+"Conversion Error: The following unit of measure conversions result in a zero "
+"quantity due to rounding:"
+>>>>>>> upstream/18.0
 =======
 "Conversion Error: The following unit of measure conversions result in a zero "
 "quantity due to rounding:"
@@ -6468,8 +6619,12 @@ msgid ""
 "generated closing entry."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "قم بعرض تفاصيل بنود البيع حسب المنتج في قيد الإقفال الذي يتم إنشاؤه "
 "تلقائياً. "
+=======
+"قم بعرض تفاصيل بنود البيع حسب المنتج في قيد الإقفال الذي يتم إنشاؤه تلقائياً. "
+>>>>>>> upstream/18.0
 =======
 "قم بعرض تفاصيل بنود البيع حسب المنتج في قيد الإقفال الذي يتم إنشاؤه تلقائياً. "
 >>>>>>> upstream/18.0
@@ -6508,13 +6663,19 @@ msgstr "قم بتنزيل تقرير يحتوي على كافة مبيعات ج�
 msgid ""
 "Each Order Printer has an IP Address that defines the IoT Box/Hardware\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Proxy where the printer can be found, and a list of product categories.\n"
 "            An Order Printer will only print updates for products belonging to one of\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            Proxy where the printer can be found, and a list of product "
 "categories.\n"
 "            An Order Printer will only print updates for products belonging "
 "to one of\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            its categories."
 msgstr ""
@@ -6646,8 +6807,13 @@ msgstr "الرصيد الختامي"
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ensure that there is an existing bank journal. Check if chart of accounts is"
 " installed in your company."
+=======
+"Ensure that there is an existing bank journal. Check if chart of accounts is "
+"installed in your company."
+>>>>>>> upstream/18.0
 =======
 "Ensure that there is an existing bank journal. Check if chart of accounts is "
 "installed in your company."
@@ -6765,8 +6931,12 @@ msgstr "معجنات بالزبدة، مع طبقات للحصول على كرو
 #. module: point_of_sale
 #: model:product.template,description_sale:point_of_sale.product_cheese_croissant_product_template
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Flaky croissant filled with creamy cheese, a savory twist on a classic."
+=======
+msgid "Flaky croissant filled with creamy cheese, a savory twist on a classic."
+>>>>>>> upstream/18.0
 =======
 msgid "Flaky croissant filled with creamy cheese, a savory twist on a classic."
 >>>>>>> upstream/18.0
@@ -6858,8 +7028,13 @@ msgid ""
 "journal entries for each customer. It could slow down the closing process."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "يقوم بفرض تعيين عميل عند استخدام طريقة الدفع هذه وتقسيم قيود دفتر ليومية لكل"
 " عميل. قد يبطئ ذلك من عملية الإقفال. "
+=======
+"يقوم بفرض تعيين عميل عند استخدام طريقة الدفع هذه وتقسيم قيود دفتر ليومية لكل "
+"عميل. قد يبطئ ذلك من عملية الإقفال. "
+>>>>>>> upstream/18.0
 =======
 "يقوم بفرض تعيين عميل عند استخدام طريقة الدفع هذه وتقسيم قيود دفتر ليومية لكل "
 "عميل. قد يبطئ ذلك من عملية الإقفال. "
@@ -7167,8 +7342,13 @@ msgid ""
 "shortest."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "إذا قمت بتوصيل كافة المنتجات دفعةً واحدة، ستتم جدولة عملية التوصيل بناءً على"
 " مهلة التوصيل الأعلى للمنتجات. وإلا ستكون مبنية على الأقصر. "
+=======
+"إذا قمت بتوصيل كافة المنتجات دفعةً واحدة، ستتم جدولة عملية التوصيل بناءً على "
+"مهلة التوصيل الأعلى للمنتجات. وإلا ستكون مبنية على الأقصر. "
+>>>>>>> upstream/18.0
 =======
 "إذا قمت بتوصيل كافة المنتجات دفعةً واحدة، ستتم جدولة عملية التوصيل بناءً على "
 "مهلة التوصيل الأعلى للمنتجات. وإلا ستكون مبنية على الأقصر. "
@@ -7329,8 +7509,13 @@ msgid ""
 "Invoice payment for %(order)s (%(account_move)s) using %(payment_method)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "دفع قيمة الفاتورة لـ %(order)s (%(account_move)s) باستخدام "
 "%(payment_method)s "
+=======
+"دفع قيمة الفاتورة لـ %(order)s (%(account_move)s) باستخدام %"
+"(payment_method)s "
+>>>>>>> upstream/18.0
 =======
 "دفع قيمة الفاتورة لـ %(order)s (%(account_move)s) باستخدام %"
 "(payment_method)s "
@@ -7430,8 +7615,13 @@ msgid ""
 "close the POS sessions before modifying the tax."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "لا يسمح بتعديل ضريبة مستخدمة في أمر نقطة بيع غير مرحل. يلزم إغلاق جلسات نقطة"
 " البيع قبل تعديل الضريبة."
+=======
+"لا يسمح بتعديل ضريبة مستخدمة في أمر نقطة بيع غير مرحل. يلزم إغلاق جلسات نقطة "
+"البيع قبل تعديل الضريبة."
+>>>>>>> upstream/18.0
 =======
 "لا يسمح بتعديل ضريبة مستخدمة في أمر نقطة بيع غير مرحل. يلزم إغلاق جلسات نقطة "
 "البيع قبل تعديل الضريبة."
@@ -7615,7 +7805,12 @@ msgstr "اتركه فارغاً حتى تستخدم الحساب الافترا�
 msgid ""
 "Leave empty to use the default account from the company setting.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Overrides the company's receivable account (for Point of Sale) used in the journal entries."
+=======
+"Overrides the company's receivable account (for Point of Sale) used in the "
+"journal entries."
+>>>>>>> upstream/18.0
 =======
 "Overrides the company's receivable account (for Point of Sale) used in the "
 "journal entries."
@@ -7634,6 +7829,7 @@ msgstr "اتركه فارغاً لاستخدام حساب المدين الخا�
 msgid ""
 "Leave empty to use the receivable account of customer.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines the journal where to book the accumulated payments (or individual payment if Identify Customer is true) after closing the session.\n"
 "For cash journal, we directly write to the default account in the journal via statement lines.\n"
 "For bank journal, we write to the outstanding account specified in this payment method.\n"
@@ -7643,6 +7839,8 @@ msgstr ""
 "يحدد دفتر اليومية الذي يتم تدوين المدفوعات المتراكمة فيه (أو مدفوعات الأفراد إذا تم تحديد العميل) بعد إغلاق الجلسة. \n"
 "لدفتر يومية الصندوق، نقوم بكتابة الحساب الافتراضي في دفتر اليومية عن طريق بنود كشف الحساب. \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Defines the journal where to book the accumulated payments (or individual "
 "payment if Identify Customer is true) after closing the session.\n"
 "For cash journal, we directly write to the default account in the journal "
@@ -7656,6 +7854,9 @@ msgstr ""
 "إذا تم تحديد العميل) بعد إغلاق الجلسة. \n"
 "لدفتر يومية الصندوق، نقوم بكتابة الحساب الافتراضي في دفتر اليومية عن طريق "
 "بنود كشف الحساب. \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "لدفتر يومية البنك، نقوم بالكتابة للحساب المستحَق المحدد في طريقة الدفع هذه. \n"
 "يُسمح فقط بدفاتر يومية الصندوق ودفاتر يومية البنك فقط. "
@@ -7755,8 +7956,13 @@ msgstr "القيام بالدفع "
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__available_pricelist_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Make several pricelists available in the Point of Sale. You can also apply a"
 " pricelist to specific customers from their contact form (in Sales tab). To "
+=======
+"Make several pricelists available in the Point of Sale. You can also apply a "
+"pricelist to specific customers from their contact form (in Sales tab). To "
+>>>>>>> upstream/18.0
 =======
 "Make several pricelists available in the Point of Sale. You can also apply a "
 "pricelist to specific customers from their contact form (in Sales tab). To "
@@ -8036,7 +8242,11 @@ msgid "Navigate to your PoS Customer Display on the other computer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "انتقل إلى شاشة عرض عملاء نقطة البيع الخاصة بك على جهاز الحاسوب الآخر "
+>>>>>>> upstream/18.0
 =======
 msgstr "انتقل إلى شاشة عرض عملاء نقطة البيع الخاصة بك على جهاز الحاسوب الآخر "
 >>>>>>> upstream/18.0
@@ -8434,8 +8644,13 @@ msgstr "لم يتم العثور على كشف مالي لهذه الجلسة. �
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No chart of account configured, go to the \"configuration / settings\" menu,"
 " and install one from the Invoicing tab."
+=======
+"No chart of account configured, go to the \"configuration / settings\" menu, "
+"and install one from the Invoicing tab."
+>>>>>>> upstream/18.0
 =======
 "No chart of account configured, go to the \"configuration / settings\" menu, "
 "and install one from the Invoicing tab."
@@ -8581,7 +8796,11 @@ msgid "No other products found for \"%s\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "لم يتم العثور على منتجات أخرى لـ \"%s\". "
+>>>>>>> upstream/18.0
 =======
 msgstr "لم يتم العثور على منتجات أخرى لـ \"%s\". "
 >>>>>>> upstream/18.0
@@ -9022,7 +9241,12 @@ msgstr "تطبيق التقريب عند الدفع نقداً فقط "
 msgid ""
 "Only journals of type 'Cash' or 'Bank' could be used with payment methods."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "يمكن فقط استخدام دفاتر اليومية من نوع \"نقد\" أو \"بنك\" مع طرق الدفع. "
+=======
+msgstr ""
+"يمكن فقط استخدام دفاتر اليومية من نوع \"نقد\" أو \"بنك\" مع طرق الدفع. "
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "يمكن فقط استخدام دفاتر اليومية من نوع \"نقد\" أو \"بنك\" مع طرق الدفع. "
@@ -9212,13 +9436,19 @@ msgstr "رقم الطلب "
 
 #. module: point_of_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 msgid "Order Outdated"
 msgstr ""
 
 #. module: point_of_sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__is_order_printer
 msgid "Order Printer"
@@ -9235,7 +9465,12 @@ msgstr "طابعات الطلبات"
 msgid ""
 "Order Printers are used by restaurants and bars to print the\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            order updates in the kitchen/bar when the waiter updates the order."
+=======
+"            order updates in the kitchen/bar when the waiter updates the "
+"order."
+>>>>>>> upstream/18.0
 =======
 "            order updates in the kitchen/bar when the waiter updates the "
 "order."
@@ -9698,11 +9933,14 @@ msgstr "يرجى التحقق ما إذا كان جهاز IoT لا يزال مت
 msgid ""
 "Please check if the printer is still connected. \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
 msgstr ""
 "يرجى التحقق مما إذا كانت الطابعة لا تزال متصلة. \n"
 "لا تسمح بعض المتصفحات باستدعاءات HTTP من المواقع الإلكترونية وإلى الأجهزة في الشبكة (لأسباب أمنية). إذا كان الأمر كذلك، ستحتاج إلى متابعة وثائق أودو عن 'الشهادة الموقعة ذاتياً لطابعات نقاط البيع الإلكترونية' و 'والاتصال الآمن (HTTPS)' لحل المشكلة "
 =======
+=======
+>>>>>>> upstream/18.0
 "Some browsers don't allow HTTP calls from websites to devices in the network "
 "(for security reasons). If it is the case, you will need to follow Odoo's "
 "documentation for 'Self-signed certificate for ePOS printers' and 'Secure "
@@ -9713,6 +9951,9 @@ msgstr ""
 "الشبكة (لأسباب أمنية). إذا كان الأمر كذلك، ستحتاج إلى متابعة وثائق أودو عن "
 "'الشهادة الموقعة ذاتياً لطابعات نقاط البيع الإلكترونية' و 'والاتصال الآمن "
 "(HTTPS)' لحل المشكلة "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -9730,17 +9971,23 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_payment_method.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please close and validate the following open PoS Sessions before modifying this payment method.\n"
 "Open sessions: %s"
 msgstr ""
 "يرجى إغلاق وتصديق جلسات نقاط البيع المفتوحة التالية قبل تعديل طريقة الدفع هذه. \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Please close and validate the following open PoS Sessions before modifying "
 "this payment method.\n"
 "Open sessions: %s"
 msgstr ""
 "يرجى إغلاق وتصديق جلسات نقاط البيع المفتوحة التالية قبل تعديل طريقة الدفع "
 "هذه. \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "الجلسات المفتوحة: %s "
 
@@ -9748,8 +9995,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please create/select a Point of Sale above to show the configuration "
 "options."
+=======
+"Please create/select a Point of Sale above to show the configuration options."
+>>>>>>> upstream/18.0
 =======
 "Please create/select a Point of Sale above to show the configuration options."
 >>>>>>> upstream/18.0
@@ -9783,8 +10034,13 @@ msgid ""
 "used to record cash difference."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "الرجاء الذهاب إلى يومية %s وتحديد حساب خسارة. سوف يُستَخدَم هذا الحساب "
 "لتسجيل الفرق في النقد. "
+=======
+"الرجاء الذهاب إلى يومية %s وتحديد حساب خسارة. سوف يُستَخدَم هذا الحساب لتسجيل "
+"الفرق في النقد. "
+>>>>>>> upstream/18.0
 =======
 "الرجاء الذهاب إلى يومية %s وتحديد حساب خسارة. سوف يُستَخدَم هذا الحساب لتسجيل "
 "الفرق في النقد. "
@@ -9824,6 +10080,7 @@ msgstr "يرجى اختيار شريك لعملية البيع. "
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
 msgid "Please register the voucher number"
@@ -10100,6 +10357,10 @@ msgstr "يُرجى تسجيل رقم القسيمة "
 #: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
 >>>>>>> upstream/18.0
+=======
+#: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
+>>>>>>> upstream/18.0
 msgid "Please scan the QR code with %s"
 msgstr "يُرجى مسح كود QR باستخدام %s "
 
@@ -10208,7 +10469,11 @@ msgid "PoS Customer Display opened in a new window"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تم فتح شاشة عرض عملاء نقطة البيع في نافذة جديدة "
+>>>>>>> upstream/18.0
 =======
 msgstr "تم فتح شاشة عرض عملاء نقطة البيع في نافذة جديدة "
 >>>>>>> upstream/18.0
@@ -10983,8 +11248,13 @@ msgid ""
 "invoice anytime, from Odoo's portal."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "قم بطباعة المعلومات على الإيصال للسماح للعميل بالوصول إلى الفاتورة في أي وقت"
 " من بوابة أودو. "
+=======
+"قم بطباعة المعلومات على الإيصال للسماح للعميل بالوصول إلى الفاتورة في أي وقت "
+"من بوابة أودو. "
+>>>>>>> upstream/18.0
 =======
 "قم بطباعة المعلومات على الإيصال للسماح للعميل بالوصول إلى الفاتورة في أي وقت "
 "من بوابة أودو. "
@@ -11328,6 +11598,10 @@ msgstr "بنفسجي"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -11867,8 +12141,13 @@ msgstr "تم الإرجاع "
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reversal of POS closing entry %(entry)s for order %(order)s from session "
 "%(session)s"
+=======
+"Reversal of POS closing entry %(entry)s for order %(order)s from session %"
+"(session)s"
+>>>>>>> upstream/18.0
 =======
 "Reversal of POS closing entry %(entry)s for order %(order)s from session %"
 "(session)s"
@@ -12933,13 +13212,19 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_screen.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The amount of your payment lines must be rounded to validate the transaction.\n"
 "The rounding precision is %s so you should set %s as payment amount instead of %s."
 =======
+=======
+>>>>>>> upstream/18.0
 "The amount of your payment lines must be rounded to validate the "
 "transaction.\n"
 "The rounding precision is %s so you should set %s as payment amount instead "
 "of %s."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "يجب أن يتم تقريب المبلغ في بنود الدفع حتى تتمكن من تصديق المعاملة.\n"
@@ -13038,7 +13323,10 @@ msgstr "العلامة التجارية للبطاقة المستخدمة للد
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13298,6 +13586,9 @@ msgstr "يجب أن تكون استراتيجية تقريب المال لنقط
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13478,8 +13769,13 @@ msgid ""
 "of sale."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "يجب ألّا تنتمي قائمة الأسعار الافتراضية إلى أي شركة أو أن تنتمي إلى شركة "
 "نقطة البيع. "
+=======
+"يجب ألّا تنتمي قائمة الأسعار الافتراضية إلى أي شركة أو أن تنتمي إلى شركة نقطة "
+"البيع. "
+>>>>>>> upstream/18.0
 =======
 "يجب ألّا تنتمي قائمة الأسعار الافتراضية إلى أي شركة أو أن تنتمي إلى شركة نقطة "
 "البيع. "
@@ -13490,8 +13786,13 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The default tip product is missing. Please manually specify the tip product."
 " (See Tips field.)"
+=======
+"The default tip product is missing. Please manually specify the tip product. "
+"(See Tips field.)"
+>>>>>>> upstream/18.0
 =======
 "The default tip product is missing. Please manually specify the tip product. "
 "(See Tips field.)"
@@ -13535,8 +13836,13 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The invoice journal must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
+=======
+"The invoice journal must be in the same currency as the Sales Journal or the "
+"company currency if that is not set."
+>>>>>>> upstream/18.0
 =======
 "The invoice journal must be in the same currency as the Sales Journal or the "
 "company currency if that is not set."
@@ -13560,8 +13866,13 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/navbar/closing_popup/closing_popup.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The money counted doesn't match what we expected. Want to log the difference"
 " for the books?"
+=======
+"The money counted doesn't match what we expected. Want to log the difference "
+"for the books?"
+>>>>>>> upstream/18.0
 =======
 "The money counted doesn't match what we expected. Want to log the difference "
 "for the books?"
@@ -13596,7 +13907,10 @@ msgstr "تعذّر إرسال الطلب إلى الخادم بسبب خطأ م�
 #. module: point_of_sale
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 msgid ""
 "The order has been modified on another device. If you have modified existing "
@@ -13608,14 +13922,21 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/point_of_sale/static/src/app/utils/hooks.js:0
 msgid ""
 "The order has been synchronized earlier. Please make the invoice from the "
 "backend for the order: "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "تمت مزامنة الطلب سابقاً. يرجى إنشاء الفاتورة من الواجهة الخلفية للطلب: "
+=======
+msgstr "تمت مزامنة الطلب سابقاً. يرجى إنشاء الفاتورة من الواجهة الخلفية للطلب: "
+>>>>>>> upstream/18.0
 =======
 msgstr "تمت مزامنة الطلب سابقاً. يرجى إنشاء الفاتورة من الواجهة الخلفية للطلب: "
 >>>>>>> upstream/18.0
@@ -13645,8 +13966,13 @@ msgstr "يجب أن تنتمي طرق دفع نقطة البيع %s إلى شر�
 msgid ""
 "The point of sale will only display products which are within one of the "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "selected category trees. If no category is specified, all available products"
 " will be shown"
+=======
+"selected category trees. If no category is specified, all available products "
+"will be shown"
+>>>>>>> upstream/18.0
 =======
 "selected category trees. If no category is specified, all available products "
 "will be shown"
@@ -13673,17 +13999,23 @@ msgstr "الملاحظات المحددة مسبقاً في نقطة البيع 
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__pricelist_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The pricelist used if no customer is selected or if the customer has no Sale"
 " Pricelist configured if any."
 msgstr ""
 "قائمة الأسعار المستخدمة إذا لم يتم تحديد عميل أو في حال لم يقم العميل بتهيئة"
 " قائمة أسعار المبيعات، إن وجدت. "
 =======
+=======
+>>>>>>> upstream/18.0
 "The pricelist used if no customer is selected or if the customer has no Sale "
 "Pricelist configured if any."
 msgstr ""
 "قائمة الأسعار المستخدمة إذا لم يتم تحديد عميل أو في حال لم يقم العميل بتهيئة "
 "قائمة أسعار المبيعات، إن وجدت. "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -13722,8 +14054,12 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/models/pos_order_line.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The requested quantity to be refunded is higher than the refundable "
 "quantity."
+=======
+"The requested quantity to be refunded is higher than the refundable quantity."
+>>>>>>> upstream/18.0
 =======
 "The requested quantity to be refunded is higher than the refundable quantity."
 >>>>>>> upstream/18.0
@@ -13775,8 +14111,12 @@ msgstr "هذه الجلسة مفتوحة منذ وقت طويل. ننصح بإغ
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The session is being closed by another user. The page will be reloaded."
+=======
+msgid "The session is being closed by another user. The page will be reloaded."
+>>>>>>> upstream/18.0
 =======
 msgid "The session is being closed by another user. The page will be reloaded."
 >>>>>>> upstream/18.0
@@ -13821,8 +14161,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Razorpay. Set your Razorpay credentials on"
 " the related payment method."
+=======
+"The transactions are processed by Razorpay. Set your Razorpay credentials on "
+"the related payment method."
+>>>>>>> upstream/18.0
 =======
 "The transactions are processed by Razorpay. Set your Razorpay credentials on "
 "the related payment method."
@@ -13836,8 +14181,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Six. Set the IP address of the terminal on"
 " the related payment method."
+=======
+"The transactions are processed by Six. Set the IP address of the terminal on "
+"the related payment method."
+>>>>>>> upstream/18.0
 =======
 "The transactions are processed by Six. Set the IP address of the terminal on "
 "the related payment method."
@@ -13851,8 +14201,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Stripe. Set your Stripe credentials on the"
 " related payment method."
+=======
+"The transactions are processed by Stripe. Set your Stripe credentials on the "
+"related payment method."
+>>>>>>> upstream/18.0
 =======
 "The transactions are processed by Stripe. Set your Stripe credentials on the "
 "related payment method."
@@ -13890,17 +14245,23 @@ msgstr "لا توجد منتجات في هذه الفئة. "
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There are still orders in draft state in the session. Pay or cancel the following orders to validate the session:\n"
 "%s"
 msgstr ""
 "لا تزال هناك طلبات في حالة المسودة في هذه الجلسة. قم بدفع أو إلغاء الطلبات التالية لتصديق الجلسة: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "There are still orders in draft state in the session. Pay or cancel the "
 "following orders to validate the session:\n"
 "%s"
 msgstr ""
 "لا تزال هناك طلبات في حالة المسودة في هذه الجلسة. قم بدفع أو إلغاء الطلبات "
 "التالية لتصديق الجلسة: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "%s "
 
@@ -13912,8 +14273,13 @@ msgid ""
 "orders, it is probably caused by taxes or accounting configurations changes."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "هناك فرق بين المبالغ لترحيلها ومبالغ الطلبات. هذا الفرق غالباً نتيجة للضرائب"
 " أو التغييرات التي أُجريت على تهيئة المحاسبة. "
+=======
+"هناك فرق بين المبالغ لترحيلها ومبالغ الطلبات. هذا الفرق غالباً نتيجة للضرائب "
+"أو التغييرات التي أُجريت على تهيئة المحاسبة. "
+>>>>>>> upstream/18.0
 =======
 "هناك فرق بين المبالغ لترحيلها ومبالغ الطلبات. هذا الفرق غالباً نتيجة للضرائب "
 "أو التغييرات التي أُجريت على تهيئة المحاسبة. "
@@ -13940,15 +14306,21 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_screen.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There is no cash payment method available in this point of sale to handle the change.\n"
 "\n"
 " Please pay the exact amount or add a cash payment method in the point of sale configuration"
 =======
+=======
+>>>>>>> upstream/18.0
 "There is no cash payment method available in this point of sale to handle "
 "the change.\n"
 "\n"
 " Please pay the exact amount or add a cash payment method in the point of "
 "sale configuration"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "ليس هناك طريقة دفع نقدي متاحة في نقطة البيع هذه للتعامل مع الباقي.\n"
@@ -13985,8 +14357,12 @@ msgid ""
 "and invoiced."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "يجب أن يكون هناك منتج واحد على الأقل في طلبك قبل أن تتمكن من تصديقه وفوترته."
 " "
+=======
+"يجب أن يكون هناك منتج واحد على الأقل في طلبك قبل أن تتمكن من تصديقه وفوترته. "
+>>>>>>> upstream/18.0
 =======
 "يجب أن يكون هناك منتج واحد على الأقل في طلبك قبل أن تتمكن من تصديقه وفوترته. "
 >>>>>>> upstream/18.0
@@ -14013,8 +14389,13 @@ msgstr "هذه التركيبة غير موجودة."
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_amount_authorized_diff
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This field depicts the maximum difference allowed between the ending balance"
 " and the theoretical cash when closing a session, for non-POS managers. If "
+=======
+"This field depicts the maximum difference allowed between the ending balance "
+"and the theoretical cash when closing a session, for non-POS managers. If "
+>>>>>>> upstream/18.0
 =======
 "This field depicts the maximum difference allowed between the ending balance "
 "and the theoretical cash when closing a session, for non-POS managers. If "
@@ -14053,17 +14434,23 @@ msgstr "لقد تم إنشاء هذه الفاتورة من جلسة نقطة ا
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__fiscal_position_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is useful for restaurants with onsite and take-away services that imply"
 " specific tax rates."
 msgstr ""
 "يكون هذا مفيدًا للمطاعم التي تقدم خدمات الأكل داخل المطعم أو الوجبات السريعة"
 " التي تتضمن رسوم ضريبية معينة."
 =======
+=======
+>>>>>>> upstream/18.0
 "This is useful for restaurants with onsite and take-away services that imply "
 "specific tax rates."
 msgstr ""
 "يكون هذا مفيدًا للمطاعم التي تقدم خدمات الأكل داخل المطعم أو الوجبات السريعة "
 "التي تتضمن رسوم ضريبية معينة."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -14162,6 +14549,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"يرتبط دفتر اليومية هذا بطريقة الدفع %(payment_method)s المستخدمة من قِبَل "
+"الطلب %(pos_order)s في جلسة نقاط البيع النشطة %(pos_session)s "
+>>>>>>> upstream/18.0
 =======
 "يرتبط دفتر اليومية هذا بطريقة الدفع %(payment_method)s المستخدمة من قِبَل "
 "الطلب %(pos_order)s في جلسة نقاط البيع النشطة %(pos_session)s "
@@ -14498,12 +14890,15 @@ msgid ""
 "This operation will destroy all ${\n"
 "                    paid ? \"paid\" : \"unpaid\"\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                } orders in the browser. You will lose all the data. This operation cannot be undone."
 msgstr ""
 "ستتخلص هذه العملية من كافة الطلبات ${\n"
 "                    المدفوعة ؟ \"مدفوع\" : \"غير مدفوع\"\n"
 "                } في المتصفح. سوف تفقد كافة البيانات. هذه العملية لا يمكن التراجع عنها. "
 =======
+=======
+>>>>>>> upstream/18.0
 "                } orders in the browser. You will lose all the data. This "
 "operation cannot be undone."
 msgstr ""
@@ -14511,6 +14906,9 @@ msgstr ""
 "                    المدفوعة ؟ \"مدفوع\" : \"غير مدفوع\"\n"
 "                } في المتصفح. سوف تفقد كافة البيانات. هذه العملية لا يمكن "
 "التراجع عنها. "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -14524,6 +14922,7 @@ msgstr ""
 "المرتبط به. قم بإنشاء طلب جديد للعميل الجديد. "
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15039,6 +15438,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid ""
@@ -15047,6 +15448,9 @@ msgstr ""
 "لقد تم دفع قيمة هذا الطلب بالفعل. لا يمكنك تعيينه مرة أخرى كمسودة أو تعديله. "
 
 #. module: point_of_sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.js:0
@@ -15054,8 +15458,12 @@ msgid ""
 "This order is not yet synced to server. Make sure it is synced then try "
 "again."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "هذا الطلب غير متزامن في الخادم بعد. تأكد من أنه متزامن ثم حاول مجدداً. "
+=======
+msgstr "هذا الطلب غير متزامن في الخادم بعد. تأكد من أنه متزامن ثم حاول مجدداً. "
+>>>>>>> upstream/18.0
 =======
 msgstr "هذا الطلب غير متزامن في الخادم بعد. تأكد من أنه متزامن ثم حاول مجدداً. "
 >>>>>>> upstream/18.0
@@ -15124,8 +15532,12 @@ msgid ""
 "crackled crust."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "تايغر بلومر. مخبوز ليكون طرياً في الداخل، مع قشرته المتشققة اللذيذة المميزة."
 "  "
+=======
+"تايغر بلومر. مخبوز ليكون طرياً في الداخل، مع قشرته المتشققة اللذيذة المميزة.  "
+>>>>>>> upstream/18.0
 =======
 "تايغر بلومر. مخبوز ليكون طرياً في الداخل، مع قشرته المتشققة اللذيذة المميزة.  "
 >>>>>>> upstream/18.0
@@ -15194,12 +15606,15 @@ msgid ""
 "To delete a product, make sure all point of sale sessions are closed.\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Deleting a product available in a session would be like attempting to snatch a hamburger from a customer’s hand mid-bite; chaos will ensue as ketchup and mayo go flying everywhere!"
 msgstr ""
 "لحذف منتج، تأكد من إغلاق كافة جلسات نقاط البيع.\n"
 "\n"
 "سيكون حذف منتج متاح في جلسة ما أشبه بمحاولة انتزاع شطيرة همبرغر من يد عميل في منتصف قضمتها؛ ستحدث فوضى عارمة حيث يتطاير الكاتشب والمايونيز في كل مكان! "
 =======
+=======
+>>>>>>> upstream/18.0
 "Deleting a product available in a session would be like attempting to snatch "
 "a hamburger from a customer’s hand mid-bite; chaos will ensue as ketchup and "
 "mayo go flying everywhere!"
@@ -15208,6 +15623,9 @@ msgstr ""
 "\n"
 "سيكون حذف منتج متاح في جلسة ما أشبه بمحاولة انتزاع شطيرة همبرغر من يد عميل "
 "في منتصف قضمتها؛ ستحدث فوضى عارمة حيث يتطاير الكاتشب والمايونيز في كل مكان! "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -15327,8 +15745,12 @@ msgid ""
 "front."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "حذاء رياضي من القماش القطني بتصميم حافة علوية مبطنة، ولسان، ورباط من الأمام."
 " "
+=======
+"حذاء رياضي من القماش القطني بتصميم حافة علوية مبطنة، ولسان، ورباط من الأمام. "
+>>>>>>> upstream/18.0
 =======
 "حذاء رياضي من القماش القطني بتصميم حافة علوية مبطنة، ولسان، ورباط من الأمام. "
 >>>>>>> upstream/18.0
@@ -15398,7 +15820,12 @@ msgstr "رابط URL "
 msgid ""
 "Unable to close and validate the session.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please set corresponding tax account in each repartition line of the following taxes: \n"
+=======
+"Please set corresponding tax account in each repartition line of the "
+"following taxes: \n"
+>>>>>>> upstream/18.0
 =======
 "Please set corresponding tax account in each repartition line of the "
 "following taxes: \n"
@@ -15575,8 +16002,13 @@ msgid ""
 "source location."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "يُستخدم لتسجيل عمليات انتقاء المنتجات. يتم استهلاك المنتجات من موقعه المصدري"
 " الافتراضي. "
+=======
+"يُستخدم لتسجيل عمليات انتقاء المنتجات. يتم استهلاك المنتجات من موقعه المصدري "
+"الافتراضي. "
+>>>>>>> upstream/18.0
 =======
 "يُستخدم لتسجيل عمليات انتقاء المنتجات. يتم استهلاك المنتجات من موقعه المصدري "
 "الافتراضي. "
@@ -15748,8 +16180,13 @@ msgid ""
 "among the Product info."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "عندما لا يكون مفعلاً، وحده مدير نقطة البيع بوسعه عرض هامش وتكاليف المنتج ضمن"
 " معلومات المنتج. "
+=======
+"عندما لا يكون مفعلاً، وحده مدير نقطة البيع بوسعه عرض هامش وتكاليف المنتج ضمن "
+"معلومات المنتج. "
+>>>>>>> upstream/18.0
 =======
 "عندما لا يكون مفعلاً، وحده مدير نقطة البيع بوسعه عرض هامش وتكاليف المنتج ضمن "
 "معلومات المنتج. "
@@ -15760,8 +16197,13 @@ msgstr ""
 msgid ""
 "Whenever you close a session, one entry is generated in the following "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "accounting journal for all the orders not invoiced. Invoices are recorded in"
 " accounting separately."
+=======
+"accounting journal for all the orders not invoiced. Invoices are recorded in "
+"accounting separately."
+>>>>>>> upstream/18.0
 =======
 "accounting journal for all the orders not invoiced. Invoices are recorded in "
 "accounting separately."
@@ -15825,8 +16267,12 @@ msgid ""
 "session using it is already opened."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "لا يُسمح لك بتغيير تهيئة تقريب النقد عندما تكون هناك نقطة بيع مفتوحة "
 "تستخدمه. "
+=======
+"لا يُسمح لك بتغيير تهيئة تقريب النقد عندما تكون هناك نقطة بيع مفتوحة تستخدمه. "
+>>>>>>> upstream/18.0
 =======
 "لا يُسمح لك بتغيير تهيئة تقريب النقد عندما تكون هناك نقطة بيع مفتوحة تستخدمه. "
 >>>>>>> upstream/18.0
@@ -15842,17 +16288,23 @@ msgstr "لا يُسمح لك بغيير هذه الكمية "
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are trying to sell products with serial/lot numbers, but some of them are not set.\n"
 "Would you like to proceed anyway?"
 msgstr ""
 "أنت تحاول بيع منتجات بأرقام تسلسلية/أرقام دفعات، ولكن لم يتم تعيين أرقام لبعض المنتجات بعد. \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You are trying to sell products with serial/lot numbers, but some of them "
 "are not set.\n"
 "Would you like to proceed anyway?"
 msgstr ""
 "أنت تحاول بيع منتجات بأرقام تسلسلية/أرقام دفعات، ولكن لم يتم تعيين أرقام "
 "لبعض المنتجات بعد. \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "هل ترغب بالاستمرار على أي حال؟ "
 
@@ -15879,8 +16331,13 @@ msgid ""
 "cancelled state."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "يمكنك فقط إلغاء ربط بنود طلب نقطة البيع المرتبطة بالطلبات الجديدة أو الطلبات"
 " الملغية. "
+=======
+"يمكنك فقط إلغاء ربط بنود طلب نقطة البيع المرتبطة بالطلبات الجديدة أو الطلبات "
+"الملغية. "
+>>>>>>> upstream/18.0
 =======
 "يمكنك فقط إلغاء ربط بنود طلب نقطة البيع المرتبطة بالطلبات الجديدة أو الطلبات "
 "الملغية. "
@@ -15895,15 +16352,21 @@ msgid ""
 "the form view in studio if no PoS order exist"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "لا يمكنك: إنشاء أمر في نقطة البيع من الواجهة الخلفية، أو إزالة أعدادات قائمة"
 " الأسعار، أو إنشاء أمر في نقطة البيع في اختبار بايثون باستخدام أداة نسخ "
 "معلومات الاستمارات أو تحرير نافذة عرض الاستمارة في الاستوديو إذا لم يكن هناك"
 " أمر في نقطة بيع "
 =======
+=======
+>>>>>>> upstream/18.0
 "لا يمكنك: إنشاء أمر في نقطة البيع من الواجهة الخلفية، أو إزالة أعدادات قائمة "
 "الأسعار، أو إنشاء أمر في نقطة البيع في اختبار بايثون باستخدام أداة نسخ "
 "معلومات الاستمارات أو تحرير نافذة عرض الاستمارة في الاستوديو إذا لم يكن هناك "
 "أمر في نقطة بيع "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -15911,17 +16374,23 @@ msgstr ""
 #: code:addons/point_of_sale/models/stock_picking.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot archive '%(picking_type)s' as it is used by POS configuration "
 "'%(config)s'."
 msgstr ""
 "لا يمكنك أرشفة '%(picking_type)s' حيث إنه مستخدم في تهيئة نقطة البيع "
 "'%(config)s'. "
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot archive '%(picking_type)s' as it is used by POS configuration '%"
 "(config)s'."
 msgstr ""
 "لا يمكنك أرشفة '%(picking_type)s' حيث إنه مستخدم في تهيئة نقطة البيع '%"
 "(config)s'. "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: point_of_sale
@@ -16028,7 +16497,10 @@ msgstr "لا يمكنك حذف فئة نقطة البيع عندما تكون ه
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16235,6 +16707,9 @@ msgstr "لا يمكنك حذف طريقة تقريب مستخدمة في تهي�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16380,6 +16855,7 @@ msgstr "لا يمكنك فوترة الطلبات التي تنتمي لشركا
 
 #. module: point_of_sale
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16650,13 +17126,19 @@ msgstr "لا يمكنك حذف طريقة تقريب مستخدمة في تهي�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 "You cannot share open orders with configuration that does not use the same "
 "currency."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "لا يمكنك مشاركة الطلبات المفتوحة التي بها تهيئة لا تستخدم نفس العملة. "
+=======
+msgstr "لا يمكنك مشاركة الطلبات المفتوحة التي بها تهيئة لا تستخدم نفس العملة. "
+>>>>>>> upstream/18.0
 =======
 msgstr "لا يمكنك مشاركة الطلبات المفتوحة التي بها تهيئة لا تستخدم نفس العملة. "
 >>>>>>> upstream/18.0
@@ -16714,6 +17196,7 @@ msgstr "عليك إزالة هذا المنتج من %s الكومبو "
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid "You must have 'Administration Settings' access to load clothes data."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
@@ -17055,6 +17538,9 @@ msgstr ""
 =======
 msgstr "يجب أن تكون لديك صلاحية وصول 'إعدادات الإدارة' لتحميل بيانات الملابس. "
 >>>>>>> upstream/18.0
+=======
+msgstr "يجب أن تكون لديك صلاحية وصول 'إعدادات الإدارة' لتحميل بيانات الملابس. "
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-python
@@ -17145,7 +17631,11 @@ msgid "You must have 'Administration Settings' access to load furniture data."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "يجب أن تكون لديك صلاحية وصول 'إعدادات الإدارة' لتحميل بيانات الأثاث. "
+>>>>>>> upstream/18.0
 =======
 msgstr "يجب أن تكون لديك صلاحية وصول 'إعدادات الإدارة' لتحميل بيانات الأثاث. "
 >>>>>>> upstream/18.0
@@ -17423,8 +17913,13 @@ msgstr "عليك تحديد طريقة كود QR لإنشاء رموز QR لطر
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You must set the iot box's IP address to use an IoT-connected screen. You'll"
 " find the field under the 'IoT Box' option."
+=======
+"You must set the iot box's IP address to use an IoT-connected screen. You'll "
+"find the field under the 'IoT Box' option."
+>>>>>>> upstream/18.0
 =======
 "You must set the iot box's IP address to use an IoT-connected screen. You'll "
 "find the field under the 'IoT Box' option."
@@ -17555,12 +18050,15 @@ msgstr "خصم"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. 0123456789"
 msgstr "مثال: 0123456789 "
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17763,12 +18261,15 @@ msgstr "مثال: المشروبات الغازية "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. john.doe@mail.com"
 msgstr "مثال: john.doe@mail.com "
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18082,6 +18583,7 @@ msgstr "باستخدام"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -18213,6 +18715,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+#~ msgid "Please register the voucher number"
+#~ msgstr "يُرجى تسجيل رقم القسيمة "
 >>>>>>> upstream/18.0
 =======
 

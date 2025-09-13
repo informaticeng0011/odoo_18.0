@@ -1,12 +1,18 @@
 import { registry } from "@web/core/registry";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, contains, inputFiles } from "@web/../tests/utils";
 =======
+=======
+>>>>>>> upstream/18.0
 import { inputFiles } from "@web/../tests/utils";
 
 // The tour is ran twice, ensure the correct message is always targetted.
 const messageSelector = ".o-mail-Message:has(.o-mail-Message-body:contains('cheese'))";
 const editedMessageSelector = ".o-mail-Message:has(.o-mail-Message-body:contains('vegetables'))";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
@@ -16,7 +22,10 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: "Check that we are on channel page",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             trigger: ".o-mail-Thread",
@@ -38,6 +47,7 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: "Wait for all modules loaded check in previous step",
             trigger: ".o_discuss_channel_public_modules_loaded",
         },
@@ -48,12 +58,20 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         },
         {
 >>>>>>> upstream/18.0
+=======
+            trigger: ".o_discuss_channel_public_modules_loaded",
+        },
+        {
+>>>>>>> upstream/18.0
             trigger: ".o-mail-Composer-input",
             run: "edit cheese",
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: "Add a text file in composer",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             trigger: ".o-mail-Composer button[aria-label='Attach files']",
@@ -64,6 +82,7 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o-mail-AttachmentCard:not(.o-isUploading)", // waiting the attachment to be uploaded
         },
         {
@@ -72,6 +91,11 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         },
         {
             content: "Add an image file in composer",
+=======
+            trigger: ".o-mail-AttachmentCard:not(.o-isUploading):contains(text.txt)",
+        },
+        {
+>>>>>>> upstream/18.0
 =======
             trigger: ".o-mail-AttachmentCard:not(.o-isUploading):contains(text.txt)",
         },
@@ -96,11 +120,15 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o-mail-AttachmentImage:not(.o-isUploading)",
         },
         {
             content: "Check the image attachment is listed",
             trigger: '.o-mail-AttachmentImage[title="image.png"]',
+=======
+            trigger: '.o-mail-AttachmentImage:not(.o-isUploading)[title="image.png"]',
+>>>>>>> upstream/18.0
 =======
             trigger: '.o-mail-AttachmentImage:not(.o-isUploading)[title="image.png"]',
 >>>>>>> upstream/18.0
@@ -119,13 +147,17 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: "Send message",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             trigger: ".o-mail-Composer-send:enabled",
             run: "click",
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             content: "Check message is shown",
             trigger: '.o-mail-Message-body:contains("cheese")',
@@ -158,6 +190,8 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
 >>>>>>> upstream/18.0
             run: "hover && click .o-mail-Message [title='Add a Reaction']",
 =======
+=======
+>>>>>>> upstream/18.0
             trigger: `${messageSelector}[data-persistent]`,
         },
         {
@@ -166,6 +200,9 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         {
             trigger: messageSelector,
             run: `hover && click ${messageSelector} [title='Add a Reaction']`,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         },
         {
@@ -173,6 +210,7 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
             run: "click",
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             content: "Reload page (fetch reactions)",
             trigger: ".o-mail-Message",
@@ -260,6 +298,8 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         {
             content: "Edit message",
 =======
+=======
+>>>>>>> upstream/18.0
             trigger: `${messageSelector} .o-mail-MessageReaction:contains('🙂')`,
             run: "click",
         },
@@ -275,13 +315,19 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
             run: "click",
         },
         {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             trigger: ".o-mail-Message .o-mail-Composer-input",
             run: "edit vegetables",
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: "Add one more file in composer",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             trigger: ".o-mail-Message button[aria-label='Attach files']",
@@ -292,6 +338,7 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o-mail-Message .o-mail-Composer .o-mail-AttachmentCard:not(.o-isUploading)", // waiting the attachment to be uploaded
         },
         {
@@ -301,15 +348,21 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         {
             content: "Save edited message",
 =======
+=======
+>>>>>>> upstream/18.0
             trigger:
                 ".o-mail-Message .o-mail-Composer .o-mail-AttachmentCard:not(.o-isUploading):contains(extra.txt)",
         },
         {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             trigger: ".o-mail-Message a:contains(save)",
             run: "click",
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             content: "Check message is edited",
             trigger: '.o-mail-Message-body:contains("vegetables")',
@@ -332,6 +385,8 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         {
             content: "Open search panel",
 =======
+=======
+>>>>>>> upstream/18.0
             trigger: editedMessageSelector,
         },
         {
@@ -352,13 +407,19 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
             trigger: `${editedMessageSelector}:not(:has(.o-mail-AttachmentCard:contains("extra.txt")))`,
         },
         {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             trigger: "button[title='Search Messages']",
             run: "click",
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: "Search for the attachment name",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             trigger: ".o_searchview_input",
@@ -366,7 +427,10 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: "Trigger the search",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             trigger: "button[aria-label='Search button']",
@@ -374,9 +438,13 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: "Check that searched message contains the attachment",
             trigger:
                 '.o-mail-SearchMessagesPanel .o-mail-Message .o-mail-AttachmentCard:contains("text.txt")',
+=======
+            trigger: `.o-mail-SearchMessagesPanel ${editedMessageSelector} .o-mail-AttachmentCard:contains("text.txt")`,
+>>>>>>> upstream/18.0
 =======
             trigger: `.o-mail-SearchMessagesPanel ${editedMessageSelector} .o-mail-AttachmentCard:contains("text.txt")`,
 >>>>>>> upstream/18.0

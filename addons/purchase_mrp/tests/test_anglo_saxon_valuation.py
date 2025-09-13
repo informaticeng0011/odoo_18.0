@@ -3,7 +3,11 @@
 
 from odoo.fields import Date, Datetime
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_is_zero, mute_logger
+=======
+from odoo.tools import mute_logger
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import mute_logger
 >>>>>>> upstream/18.0
@@ -280,6 +284,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 
         self.assertEqual(self.product_a.standard_price, 100)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def test_average_cost_unbuild_valuation(self):
         """ Ensure that an unbuild for some avg cost product won't leave the `Cost of Production`
@@ -352,5 +357,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
             ]).mapped('balance')),
             precision_rounding=self.env.company.currency_id.rounding
         ))
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

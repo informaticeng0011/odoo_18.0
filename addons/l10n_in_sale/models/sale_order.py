@@ -40,6 +40,7 @@ class SaleOrder(models.Model):
                 # Special Economic Zone
                 return foreign_state
 <<<<<<< HEAD
+<<<<<<< HEAD
             
             # Computing Place of Supply for particular order
             partner_state = (
@@ -53,6 +54,8 @@ class SaleOrder(models.Model):
                 partner_state = foreign_state
             return partner_state
 =======
+=======
+>>>>>>> upstream/18.0
 
             # Computing Place of Supply for particular order
             partner = (
@@ -65,6 +68,9 @@ class SaleOrder(models.Model):
             partner_state = partner.state_id or order.partner_id.commercial_partner_id.state_id or order.company_id.state_id
             country_code = partner_state.country_id.code or order.country_code
             return partner_state if country_code == 'IN' else foreign_state
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         FiscalPosition = self.env['account.fiscal.position']

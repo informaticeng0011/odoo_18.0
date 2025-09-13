@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* digest
+=======
+# * digest
+>>>>>>> upstream/18.0
 =======
 # * digest
 >>>>>>> upstream/18.0
@@ -10,8 +14,12 @@
 # Uros Kalajdzic <ukalajdzic@gmail.com>, 2022
 # Martin Trigaux, 2022
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022
 #
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
+>>>>>>> upstream/18.0
 =======
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
 >>>>>>> upstream/18.0
@@ -20,6 +28,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2022-09-22 05:45+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022\n"
@@ -30,6 +39,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-20 13:43+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -41,13 +52,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
 msgid "<i class=\"oi oi-arrow-right\"/> Check our Documentation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right\"/> Pogledajte našu dokumentaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right\"/> Pogledajte našu dokumentaciju"
 >>>>>>> upstream/18.0
@@ -56,7 +74,11 @@ msgstr "<i class=\"oi oi-arrow-right\"/> Pogledajte našu dokumentaciju"
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
 msgid "<span class=\"button\" id=\"button_open_report\">Open Report</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"button\" id=\"button_open_report\">Otvori izveštaj</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"button\" id=\"button_open_report\">Otvori izveštaj</span>"
 >>>>>>> upstream/18.0
@@ -65,7 +87,11 @@ msgstr "<span class=\"button\" id=\"button_open_report\">Otvori izveštaj</span>
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
 msgid "<span class=\"odoo_link_text\">Odoo</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"odoo_link_text\">Odoo</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"odoo_link_text\">Odoo</span>"
 >>>>>>> upstream/18.0
@@ -74,7 +100,11 @@ msgstr "<span class=\"odoo_link_text\">Odoo</span>"
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
 msgid "<span style=\"color: #8f8f8f;\">Unsubscribe</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span style=\"color: #8f8f8f;\">Odjavi se</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span style=\"color: #8f8f8f;\">Odjavi se</span>"
 >>>>>>> upstream/18.0
@@ -83,7 +113,11 @@ msgstr "<span style=\"color: #8f8f8f;\">Odjavi se</span>"
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
 msgid "Activate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktiviraj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktiviraj"
 >>>>>>> upstream/18.0
@@ -93,7 +127,11 @@ msgstr "Aktiviraj"
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_search
 msgid "Activated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivirano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktivirano"
 >>>>>>> upstream/18.0
@@ -103,6 +141,10 @@ msgstr "Aktivirano"
 msgid "Add new users as recipient of a periodic email with key metrics"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dodajte nove korisnike kao primaoce periodičnog email-a sa ključnim metrikama"
+>>>>>>> upstream/18.0
 =======
 "Dodajte nove korisnike kao primaoce periodičnog email-a sa ključnim metrikama"
 >>>>>>> upstream/18.0
@@ -111,7 +153,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:digest.field_digest_tip__group_id
 msgid "Authorized Group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Autorizovana grupa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Autorizovana grupa"
 >>>>>>> upstream/18.0
@@ -120,7 +166,11 @@ msgstr "Autorizovana grupa"
 #: model:ir.model.fields,field_description:digest.field_digest_digest__available_fields
 msgid "Available Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostupna polja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dostupna polja"
 >>>>>>> upstream/18.0
@@ -130,7 +180,11 @@ msgstr "Dostupna polja"
 #: code:addons/digest/models/digest.py:0
 msgid "Choose the metrics you care about"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izaberite metrike do kojih vam je stalo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izaberite metrike do kojih vam je stalo"
 >>>>>>> upstream/18.0
@@ -149,7 +203,11 @@ msgstr "Podešavanje konfiguracije"
 #: model_terms:ir.ui.view,arch_db:digest.res_config_settings_view_form
 msgid "Configure Digest Emails"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podesite email-ove Pregleda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podesite email-ove Pregleda"
 >>>>>>> upstream/18.0
@@ -164,7 +222,11 @@ msgstr "Poveži"
 #: model:ir.model.fields,field_description:digest.field_digest_digest__kpi_res_users_connected
 msgid "Connected Users"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konektovani korisnici"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konektovani korisnici"
 >>>>>>> upstream/18.0
@@ -195,7 +257,11 @@ msgstr "Prilagođeno"
 #: model:ir.model.fields.selection,name:digest.selection__digest_digest__periodicity__daily
 msgid "Daily"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dnevno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dnevno"
 >>>>>>> upstream/18.0
@@ -204,7 +270,11 @@ msgstr "Dnevno"
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
 msgid "Deactivate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deaktiviraj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Deaktiviraj"
 >>>>>>> upstream/18.0
@@ -214,7 +284,11 @@ msgstr "Deaktiviraj"
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_search
 msgid "Deactivated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deaktivirano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Deaktivirano"
 >>>>>>> upstream/18.0
@@ -229,7 +303,11 @@ msgstr "Pregled"
 #: model_terms:ir.ui.view,arch_db:digest.res_config_settings_view_form
 msgid "Digest Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email Pregled"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email Pregled"
 >>>>>>> upstream/18.0
@@ -241,7 +319,11 @@ msgstr "Email Pregled"
 #: model:ir.ui.menu,name:digest.digest_menu
 msgid "Digest Emails"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Emailovi Pregleda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Emailovi Pregleda"
 >>>>>>> upstream/18.0
@@ -250,7 +332,11 @@ msgstr "Emailovi Pregleda"
 #: model_terms:ir.ui.view,arch_db:digest.portal_digest_unsubscribed
 msgid "Digest Subscriptions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pretplate na Pregled"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pretplate na Pregled"
 >>>>>>> upstream/18.0
@@ -261,7 +347,11 @@ msgstr "Pretplate na Pregled"
 #: model:ir.ui.menu,name:digest.digest_tip_menu
 msgid "Digest Tips"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Saveti Pregleda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Saveti Pregleda"
 >>>>>>> upstream/18.0
@@ -270,7 +360,11 @@ msgstr "Saveti Pregleda"
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
 msgid "Digest Title"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naslov Pregleda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naslov Pregleda"
 >>>>>>> upstream/18.0
@@ -295,7 +389,11 @@ msgstr "Opšte"
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_search
 msgid "Group by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupiši po"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupiši po"
 >>>>>>> upstream/18.0
@@ -305,6 +403,11 @@ msgstr "Grupiši po"
 msgid "Have a question about a document? Click on the responsible user's picture to start a conversation. If his avatar has a green dot, he is online."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Imate pitanje o dokumentu? Kliknite na sliku odgovornog korisnika da biste "
+"započeli razgovor. Ako njegov avatar ima zelenu tačku, on je online."
+>>>>>>> upstream/18.0
 =======
 "Imate pitanje o dokumentu? Kliknite na sliku odgovornog korisnika da biste "
 "započeli razgovor. Ako njegov avatar ima zelenu tačku, on je online."
@@ -321,7 +424,11 @@ msgstr "ID"
 #: code:addons/digest/controllers/portal.py:0
 msgid "Invalid periodicity set on digest"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neispravna periodičnost je podešena na Pregledu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neispravna periodičnost je podešena na Pregledu"
 >>>>>>> upstream/18.0
@@ -330,7 +437,11 @@ msgstr "Neispravna periodičnost je podešena na Pregledu"
 #: model:ir.model.fields,field_description:digest.field_digest_digest__is_subscribed
 msgid "Is user subscribed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li je korisnik pretplaćen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li je korisnik pretplaćen"
 >>>>>>> upstream/18.0
@@ -340,7 +451,11 @@ msgstr "Da li je korisnik pretplaćen"
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_tree
 msgid "KPI Digest"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregled KPI-eva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pregled KPI-eva"
 >>>>>>> upstream/18.0
@@ -349,7 +464,11 @@ msgstr "Pregled KPI-eva"
 #: model_terms:ir.ui.view,arch_db:digest.digest_tip_view_form
 msgid "KPI Digest Tip"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet Pregleda KPI-eva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet Pregleda KPI-eva"
 >>>>>>> upstream/18.0
@@ -358,7 +477,11 @@ msgstr "Savet Pregleda KPI-eva"
 #: model_terms:ir.ui.view,arch_db:digest.digest_tip_view_tree
 msgid "KPI Digest Tips"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Saveti Pregleda KPI-eva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Saveti Pregleda KPI-eva"
 >>>>>>> upstream/18.0
@@ -367,7 +490,11 @@ msgstr "Saveti Pregleda KPI-eva"
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
 msgid "KPIs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "KPI-evi"
+>>>>>>> upstream/18.0
 =======
 msgstr "KPI-evi"
 >>>>>>> upstream/18.0
@@ -376,7 +503,11 @@ msgstr "KPI-evi"
 #: model:ir.model.fields,field_description:digest.field_digest_digest__kpi_mail_message_total_value
 msgid "Kpi Mail Message Total Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kpi Mail poruka Ukupna vrednost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kpi Mail poruka Ukupna vrednost"
 >>>>>>> upstream/18.0
@@ -385,7 +516,11 @@ msgstr "Kpi Mail poruka Ukupna vrednost"
 #: model:ir.model.fields,field_description:digest.field_digest_digest__kpi_res_users_connected_value
 msgid "Kpi Res Users Connected Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrednost Kpi Res povezanih korisnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrednost Kpi Res povezanih korisnika"
 >>>>>>> upstream/18.0
@@ -395,7 +530,11 @@ msgstr "Vrednost Kpi Res povezanih korisnika"
 #: code:addons/digest/models/digest.py:0
 msgid "Last 24 hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednjih 24 sata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednjih 24 sata"
 >>>>>>> upstream/18.0
@@ -405,7 +544,11 @@ msgstr "Poslednjih 24 sata"
 #: code:addons/digest/models/digest.py:0
 msgid "Last 30 Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednjih 30 dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednjih 30 dana"
 >>>>>>> upstream/18.0
@@ -415,7 +558,11 @@ msgstr "Poslednjih 30 dana"
 #: code:addons/digest/models/digest.py:0
 msgid "Last 7 Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednjih 7 dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednjih 7 dana"
 >>>>>>> upstream/18.0
@@ -436,7 +583,11 @@ msgstr "Poslednje ažuriranje dana"
 #: model:ir.model.fields,field_description:digest.field_digest_digest__kpi_mail_message_total
 msgid "Messages Sent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poruka je poslata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poruka je poslata"
 >>>>>>> upstream/18.0
@@ -457,6 +608,10 @@ msgstr "Ime"
 msgid "New users are automatically added as recipient of the following digest email."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Novi korisnici se automatski dodaju kao primaoci sledećeg email Pregleda."
+>>>>>>> upstream/18.0
 =======
 "Novi korisnici se automatski dodaju kao primaoci sledećeg email Pregleda."
 >>>>>>> upstream/18.0
@@ -465,7 +620,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:digest.field_digest_digest__next_run_date
 msgid "Next Mailing Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum slanja sledećeg maila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum slanja sledećeg maila"
 >>>>>>> upstream/18.0
@@ -474,7 +633,11 @@ msgstr "Datum slanja sledećeg maila"
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
 msgid "Odoo Mobile"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoo Mobile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odoo Mobile"
 >>>>>>> upstream/18.0
@@ -484,7 +647,11 @@ msgstr "Odoo Mobile"
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_search
 msgid "Periodicity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Periodičnost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Periodičnost"
 >>>>>>> upstream/18.0
@@ -499,7 +666,11 @@ msgstr "Platformu pokreće"
 #: code:addons/digest/models/digest.py:0
 msgid "Prefer a broader overview?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Više volite širi pregled?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Više volite širi pregled?"
 >>>>>>> upstream/18.0
@@ -509,6 +680,11 @@ msgstr "Više volite širi pregled?"
 msgid "Press ALT in any screen to highlight shortcuts for every button in the screen. It is useful to process multiple documents in batch."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pritisnite ALT na bilo kom ekranu da biste istakli prečice za svako dugme na "
+"ekranu. Korisno je za grupnu obradu više dokumenata."
+>>>>>>> upstream/18.0
 =======
 "Pritisnite ALT na bilo kom ekranu da biste istakli prečice za svako dugme na "
 "ekranu. Korisno je za grupnu obradu više dokumenata."
@@ -518,7 +694,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:digest.selection__digest_digest__periodicity__quarterly
 msgid "Quarterly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kvartalno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kvartalno"
 >>>>>>> upstream/18.0
@@ -534,7 +714,11 @@ msgstr "Primaoci"
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
 msgid "Run your business from anywhere with <b>Odoo Mobile</b>."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vodite svoj posao sa bilo koje lokacije pomoću <b>Odoo Mobile</b>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vodite svoj posao sa bilo koje lokacije pomoću <b>Odoo Mobile</b>."
 >>>>>>> upstream/18.0
@@ -548,7 +732,11 @@ msgstr "Pošalji odmah"
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
 msgid "Sent by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslao/la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslao/la"
 >>>>>>> upstream/18.0
@@ -573,7 +761,11 @@ msgstr "Status"
 #: code:addons/digest/models/digest.py:0
 msgid "Switch to weekly Digests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prebacite se na nedeljne Preglede"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prebacite se na nedeljne Preglede"
 >>>>>>> upstream/18.0
@@ -582,7 +774,11 @@ msgstr "Prebacite se na nedeljne Preglede"
 #: model:ir.model.fields,field_description:digest.field_digest_tip__tip_description
 msgid "Tip description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis saveta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opis saveta"
 >>>>>>> upstream/18.0
@@ -591,7 +787,11 @@ msgstr "Opis saveta"
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_2
 msgid "Tip: A calculator in Odoo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Kalkulator u Odoo-u"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Kalkulator u Odoo-u"
 >>>>>>> upstream/18.0
@@ -600,7 +800,11 @@ msgstr "Savet: Kalkulator u Odoo-u"
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_1
 msgid "Tip: Click on an avatar to chat with a user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Kliknite na avatar da biste ćaskali sa korisnikom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Kliknite na avatar da biste ćaskali sa korisnikom"
 >>>>>>> upstream/18.0
@@ -609,7 +813,11 @@ msgstr "Savet: Kliknite na avatar da biste ćaskali sa korisnikom"
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_3
 msgid "Tip: How to ping users in internal notes?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Kako pingovati korisnike u internim beleškama?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Kako pingovati korisnike u internim beleškama?"
 >>>>>>> upstream/18.0
@@ -618,7 +826,11 @@ msgstr "Savet: Kako pingovati korisnike u internim beleškama?"
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_4
 msgid "Tip: Knowledge is power"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Znanje je moć"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Znanje je moć"
 >>>>>>> upstream/18.0
@@ -627,7 +839,11 @@ msgstr "Savet: Znanje je moć"
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_0
 msgid "Tip: Speed up your workflow with shortcuts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Ubrzajte svoj tok rada pomoću prečica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Ubrzajte svoj tok rada pomoću prečica"
 >>>>>>> upstream/18.0
@@ -636,7 +852,11 @@ msgstr "Savet: Ubrzajte svoj tok rada pomoću prečica"
 #: model:digest.tip,name:digest.digest_tip_digest_2
 msgid "Tip: A calculator in Odoo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Kalkulator u Odoo-u"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Kalkulator u Odoo-u"
 >>>>>>> upstream/18.0
@@ -645,7 +865,11 @@ msgstr "Savet: Kalkulator u Odoo-u"
 #: model:digest.tip,name:digest.digest_tip_digest_1
 msgid "Tip: Click on an avatar to chat with a user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Kliknite na avatar da biste ćaskali sa korisnikom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Kliknite na avatar da biste ćaskali sa korisnikom"
 >>>>>>> upstream/18.0
@@ -654,7 +878,11 @@ msgstr "Savet: Kliknite na avatar da biste ćaskali sa korisnikom"
 #: model:digest.tip,name:digest.digest_tip_digest_3
 msgid "Tip: How to ping users in internal notes?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Kako pingovati korisnike u internim beleškama?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Kako pingovati korisnike u internim beleškama?"
 >>>>>>> upstream/18.0
@@ -663,7 +891,11 @@ msgstr "Savet: Kako pingovati korisnike u internim beleškama?"
 #: model:digest.tip,name:digest.digest_tip_digest_4
 msgid "Tip: Knowledge is power"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Znanje je moć"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Znanje je moć"
 >>>>>>> upstream/18.0
@@ -672,7 +904,11 @@ msgstr "Savet: Znanje je moć"
 #: model:digest.tip,name:digest.digest_tip_digest_0
 msgid "Tip: Speed up your workflow with shortcuts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Ubrzajte svoj tok rada pomoću prečica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Ubrzajte svoj tok rada pomoću prečica"
 >>>>>>> upstream/18.0
@@ -687,6 +923,11 @@ msgstr "Naslov"
 msgid "Type \"@\" to notify someone in a message, or \"#\" to link to a channel. Try to notify @OdooBot to test the feature."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ukucajte „@“ da biste nekoga obavestili u poruci ili „#“ da biste postavili "
+"link ka kanalu. Pokušajte da obavestite @OdooBot da biste testirali funkciju."
+>>>>>>> upstream/18.0
 =======
 "Ukucajte „@“ da biste nekoga obavestili u poruci ili „#“ da biste postavili "
 "link ka kanalu. Pokušajte da obavestite @OdooBot da biste testirali funkciju."
@@ -697,6 +938,10 @@ msgstr ""
 msgid "Used to display digest tip in email template base on order"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koristi se za prikaz saveta Pregleda u email šablonu na osnovu redosleda"
+>>>>>>> upstream/18.0
 =======
 "Koristi se za prikaz saveta Pregleda u email šablonu na osnovu redosleda"
 >>>>>>> upstream/18.0
@@ -710,7 +955,11 @@ msgstr "Korisnik"
 #: model:ir.model.fields,help:digest.field_digest_tip__user_ids
 msgid "Users having already received this tip"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnici koji su već dobili ovaj savet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korisnici koji su već dobili ovaj savet"
 >>>>>>> upstream/18.0
@@ -719,7 +968,11 @@ msgstr "Korisnici koji su već dobili ovaj savet"
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
 msgid "Want to add your own KPIs?<br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Želite da dodate svoje KPI-eve?<br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Želite da dodate svoje KPI-eve?<br/>"
 >>>>>>> upstream/18.0
@@ -729,7 +982,11 @@ msgstr "Želite da dodate svoje KPI-eve?<br/>"
 #: code:addons/digest/models/digest.py:0
 msgid "Want to customize this email?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Želite da prilagodite ovaj email?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Želite da prilagodite ovaj email?"
 >>>>>>> upstream/18.0
@@ -740,6 +997,11 @@ msgstr "Želite da prilagodite ovaj email?"
 msgid "We have noticed you did not connect these last few days. We have automatically switched your preference to %(new_perioridicy_str)s Digests."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Primetili smo da se niste povezivali poslednjih nekoliko dana. Automatski "
+"smo promenili vaše podešavanje na %(new_perioridicy_str)s Pregleda."
+>>>>>>> upstream/18.0
 =======
 "Primetili smo da se niste povezivali poslednjih nekoliko dana. Automatski "
 "smo promenili vaše podešavanje na %(new_perioridicy_str)s Pregleda."
@@ -749,7 +1011,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:digest.selection__digest_digest__periodicity__weekly
 msgid "Weekly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nedeljno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nedeljno"
 >>>>>>> upstream/18.0
@@ -759,6 +1025,12 @@ msgstr "Nedeljno"
 msgid "When editing a number, you can use formulae by typing the `=` character. This is useful when computing a margin or a discount on a quotation, sale order or invoice."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Prilikom uređivanja broja, možete koristiti formule unošenjem znaka `=`. Ovo "
+"je korisno prilikom izračunavanja marže ili popusta na ponudi, porudžbenici "
+"ili fakturi."
+>>>>>>> upstream/18.0
 =======
 "Prilikom uređivanja broja, možete koristiti formule unošenjem znaka `=`. Ovo "
 "je korisno prilikom izračunavanja marže ili popusta na ponudi, porudžbenici "
@@ -772,18 +1044,28 @@ msgid ""
 "Follow a project / sales team to keep track of this project's tasks / this team's opportunities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Kada pratite dokumente, koristite ikonu olovke da biste precizno podesili "
 "informacije koje želite da primate.\n"
 "Pratite projekat / prodajni tim da biste pratili zadatke ovog projekta / "
 "prodajne prilike ovog tima."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.portal_digest_unsubscribed
 msgid "You have been successfully unsubscribed from:<br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uspešno ste se odjavili sa:<br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uspešno ste se odjavili sa:<br/>"
 >>>>>>> upstream/18.0
@@ -792,7 +1074,11 @@ msgstr "Uspešno ste se odjavili sa:<br/>"
 #: model:digest.digest,name:digest.digest_digest_default
 msgid "Your Odoo Periodic Digest"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaš periodični Odoo Pregled"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vaš periodični Odoo Pregled"
 >>>>>>> upstream/18.0
@@ -801,7 +1087,11 @@ msgstr "Vaš periodični Odoo Pregled"
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
 msgid "e.g. Your Weekly Digest"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Vaš Nedeljni pregled"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Vaš Nedeljni pregled"
 >>>>>>> upstream/18.0
@@ -811,7 +1101,11 @@ msgstr "npr. Vaš Nedeljni pregled"
 #: code:addons/digest/models/digest.py:0
 msgid "monthly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "mesečno"
+>>>>>>> upstream/18.0
 =======
 msgstr "mesečno"
 >>>>>>> upstream/18.0
@@ -821,7 +1115,11 @@ msgstr "mesečno"
 #: code:addons/digest/models/digest.py:0
 msgid "quarterly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "kvartalno"
+>>>>>>> upstream/18.0
 =======
 msgstr "kvartalno"
 >>>>>>> upstream/18.0
@@ -831,7 +1129,11 @@ msgstr "kvartalno"
 #: code:addons/digest/models/digest.py:0
 msgid "weekly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nedeljno"
+>>>>>>> upstream/18.0
 =======
 msgstr "nedeljno"
 >>>>>>> upstream/18.0

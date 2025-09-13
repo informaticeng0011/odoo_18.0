@@ -34,7 +34,11 @@ class Project(models.Model):
         account_move_lines = self.env['account.move.line'].sudo().search_fetch(
             domain + [('analytic_distribution', 'in', self.account_id.ids)],
 <<<<<<< HEAD
+<<<<<<< HEAD
             ['price_subtotal', 'parent_state', 'currency_id', 'analytic_distribution', 'move_type', 'move_id'],
+=======
+            ['balance', 'parent_state', 'company_currency_id', 'analytic_distribution', 'move_id', 'date'],
+>>>>>>> upstream/18.0
 =======
             ['balance', 'parent_state', 'company_currency_id', 'analytic_distribution', 'move_id', 'date'],
 >>>>>>> upstream/18.0
@@ -44,8 +48,13 @@ class Project(models.Model):
             amount_invoiced = amount_to_invoice = 0.0
             for move_line in account_move_lines:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 price_subtotal = move_line.currency_id._convert(
                     from_amount=move_line.price_subtotal, to_currency=self.currency_id,
+=======
+                line_balance = move_line.company_currency_id._convert(
+                    from_amount=move_line.balance, to_currency=self.currency_id, date=move_line.date
+>>>>>>> upstream/18.0
 =======
                 line_balance = move_line.company_currency_id._convert(
                     from_amount=move_line.balance, to_currency=self.currency_id, date=move_line.date
@@ -58,6 +67,7 @@ class Project(models.Model):
                 ) / 100.
                 if move_line.parent_state == 'draft':
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if move_line.move_type == 'in_invoice':
                         amount_to_invoice -= price_subtotal * analytic_contribution
                     else:  # move_line.move_type == 'in_refund'
@@ -67,6 +77,11 @@ class Project(models.Model):
                         amount_invoiced -= price_subtotal * analytic_contribution
                     else:  # move_line.move_type == 'in_refund'
                         amount_invoiced += price_subtotal * analytic_contribution
+=======
+                    amount_to_invoice -= line_balance * analytic_contribution
+                else:  # move_line.parent_state == 'posted'
+                    amount_invoiced -= line_balance * analytic_contribution
+>>>>>>> upstream/18.0
 =======
                     amount_to_invoice -= line_balance * analytic_contribution
                 else:  # move_line.parent_state == 'posted'

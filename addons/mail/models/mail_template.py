@@ -139,7 +139,11 @@ class MailTemplate(models.Model):
         operator = 'in' if operator in ("in", "=") else 'not in'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         templates_with_xmlid = self.env['ir.model.data']._search([
+=======
+        templates_with_xmlid = self.env['ir.model.data'].sudo()._search([
+>>>>>>> upstream/18.0
 =======
         templates_with_xmlid = self.env['ir.model.data'].sudo()._search([
 >>>>>>> upstream/18.0

@@ -163,6 +163,10 @@ class test_guess_mimetype(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(get_extension('filename.ab_c'), '.ab_c')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(get_extension('filename.ab_c'), '.ab_c')
 >>>>>>> upstream/18.0
@@ -262,12 +266,18 @@ class test_guess_mimetype(BaseCase):
         self.assertEqual(fix('image.jpg', 'image/jpeg'), 'image.jpg')
         self.assertEqual(fix('image.jpeg', 'image/jpeg'), 'image.jpeg')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(fix('sheet.xls', 'application/vnd.ms-excel'), 'sheet.xls')
         self.assertEqual(fix('sheet.xls', 'application/CDFV2'), 'sheet.xls')
         xlsx_mime = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         self.assertEqual(fix('sheet.xlsx', xlsx_mime), 'sheet.xlsx')
         self.assertEqual(fix('sheet.xlsx', 'application/zip'), 'sheet.xlsx')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         with self.assertLogs('odoo.tools.mimetypes', 'WARNING') as capture:
             self.assertEqual(fix('image.txt', 'image/jpeg'), 'image.txt.jpg')

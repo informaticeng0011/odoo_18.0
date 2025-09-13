@@ -445,9 +445,15 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
         self.assertEqual(len(holiday.timesheet_ids), 5)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # create overlapping global time off
         global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2)
         global_leave_end_datetime = global_leave_start_datetime + timedelta(hours=9)
+=======
+        # create overlapping global time off, with some margin over working day to account for different timezones
+        global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2, hours=-3)
+        global_leave_end_datetime = global_leave_start_datetime + timedelta(hours=12)
+>>>>>>> upstream/18.0
 =======
         # create overlapping global time off, with some margin over working day to account for different timezones
         global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2, hours=-3)
@@ -517,7 +523,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
         self.assertTrue(gto_without_calendar.timesheet_ids.filtered(lambda r: r.employee_id == test_user.employee_id))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # create a new leave at same dates
         holiday3 = HrLeave.with_user(test_user).create({
             'name': 'Leave 3',
@@ -536,6 +545,9 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
         self.assertEqual(len(holiday3.timesheet_ids), 5)
         self.assertEqual(sum(holiday3.timesheet_ids.mapped('unit_amount')), 40)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_unlink_timesheet_with_global_time_off(self):
         leave_start = datetime(2025, 1, 1, 7, 0)
@@ -556,7 +568,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
         with self.assertRaises(UserError):
             timesheet.unlink()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_timesheet_generation_on_public_holiday_creation_with_global_working_schedule(self):
         """ Test that public holidays are included in the global working schedule (company should be False)
@@ -571,4 +586,7 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
         timesheet_count = self.env['account.analytic.line'].search_count([('employee_id', '=', self.part_time_employee.id)])
         self.assertEqual(timesheet_count, 1, "A timesheet should have been generated for the employee with a global working "
                                               "schedule when a new public holiday is created")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

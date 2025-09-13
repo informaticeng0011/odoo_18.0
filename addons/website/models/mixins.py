@@ -231,11 +231,17 @@ class WebsitePublishedMixin(models.AbstractModel):
                 # to be rendered by a template even if they were not supposed
                 # to be accessible
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 # TODO in master, instead of this we should ensure main_object
                 # (which calls can_publish) is ensured to not be in sudo for all
                 # renderings, and sudo() only the required operations if needed.
                 # See REVIEW_CAN_PUBLISH_UNSUDO
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 plain_record = record.sudo(flag=False) if self._context.get('can_publish_unsudo_main_object', False) else record
                 self.env['website'].get_current_website()._check_user_can_modify(plain_record)
@@ -370,7 +376,11 @@ class WebsiteSearchableMixin(models.AbstractModel):
             order=search_detail.get('order', order)
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
         count = model.search_count(domain)
+=======
+        count = model.search_count(domain) if limit and limit == len(results) else len(results)
+>>>>>>> upstream/18.0
 =======
         count = model.search_count(domain) if limit and limit == len(results) else len(results)
 >>>>>>> upstream/18.0

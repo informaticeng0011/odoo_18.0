@@ -359,7 +359,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
             'date_from': time.strftime('2018-1-1'),
             'date_to': time.strftime('%Y-1-1'),
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
+=======
+        }).action_validate()
+>>>>>>> upstream/18.0
 =======
         }).action_validate()
 >>>>>>> upstream/18.0
@@ -427,7 +431,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
             'date_from': time.strftime('2018-1-1'),
             'date_to': time.strftime('%Y-1-1'),
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
+=======
+        }).action_validate()
+>>>>>>> upstream/18.0
 =======
         }).action_validate()
 >>>>>>> upstream/18.0
@@ -486,7 +494,12 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'hours_per_day': 8.0
+=======
+            'hours_per_day': 8.0,
+            'full_time_required_hours': 40
+>>>>>>> upstream/18.0
 =======
             'hours_per_day': 8.0,
             'full_time_required_hours': 40
@@ -779,7 +792,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(leave5.number_of_hours, 8)
+=======
+        self.assertEqual(leave5.number_of_hours, 10)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(leave5.number_of_hours, 10)
 >>>>>>> upstream/18.0
@@ -1201,8 +1218,13 @@ class TestLeaveRequests(TestHrHolidaysCommon):
             'date_to': '2022-12-31',
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['hr.leave.allocation'].create(allocation_vals)
         self.env['hr.leave.allocation'].create(allocation_vals)
+=======
+        self.env['hr.leave.allocation'].create(allocation_vals).action_validate()
+        self.env['hr.leave.allocation'].create(allocation_vals).action_validate()
+>>>>>>> upstream/18.0
 =======
         self.env['hr.leave.allocation'].create(allocation_vals).action_validate()
         self.env['hr.leave.allocation'].create(allocation_vals).action_validate()
@@ -1504,7 +1526,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
                 'date_from': '2020-01-01',
                 'date_to': '2020-12-31',
 <<<<<<< HEAD
+<<<<<<< HEAD
             })
+=======
+            }).action_validate()
+>>>>>>> upstream/18.0
 =======
             }).action_validate()
 >>>>>>> upstream/18.0
@@ -1642,6 +1668,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
             'request_unit': 'day',
             'leave_validation_type': 'hr',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'requires_allocation': 'no',
+>>>>>>> upstream/18.0
 =======
             'requires_allocation': 'no',
 >>>>>>> upstream/18.0
@@ -1658,6 +1688,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
             'request_unit': 'hour',
             'leave_validation_type': 'manager',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'requires_allocation': 'no',
+>>>>>>> upstream/18.0
 =======
             'requires_allocation': 'no',
 >>>>>>> upstream/18.0
@@ -1700,6 +1734,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
             'request_unit': 'day',
             'leave_validation_type': 'hr',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'requires_allocation': 'no',
+>>>>>>> upstream/18.0
 =======
             'requires_allocation': 'no',
 >>>>>>> upstream/18.0
@@ -1786,6 +1824,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'full_time_required_hours': 40,
+>>>>>>> upstream/18.0
 =======
             'full_time_required_hours': 40,
 >>>>>>> upstream/18.0
@@ -1975,6 +2017,7 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 15.0)
         self.assertEqual(leave.duration_display, '5 days')
 =======
@@ -2140,6 +2183,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 =======
         self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 16.0)
         self.assertEqual(leave.duration_display, '4 days')
+>>>>>>> upstream/18.0
+=======
+        self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 15.0)
+        self.assertEqual(leave.duration_display, '5 days')
 >>>>>>> upstream/18.0
 =======
         self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 15.0)
@@ -2159,7 +2206,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
         }
         leave_form = Form(self.env['hr.leave'].with_user(self.user_employee).with_context(context))
 <<<<<<< HEAD
+<<<<<<< HEAD
         leave_form.holiday_status_id = self.holidays_type_2
+=======
+        leave_form.holiday_status_id = self.holidays_type_3
+>>>>>>> upstream/18.0
 =======
         leave_form.holiday_status_id = self.holidays_type_3
 >>>>>>> upstream/18.0
@@ -2235,7 +2286,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
         self.assertFalse(activities, "No activity should be created if no Time Off Officer is set for approval.")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         allocation = self.env['hr.leave.allocation'].create({
             'name': 'Allocation for hruser',
             'employee_id': self.employee_hruser_id,
@@ -2245,6 +2299,9 @@ class TestLeaveRequests(TestHrHolidaysCommon):
             'date_from': '2024-01-01',
         })
         allocation.action_validate()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.holidays_type_2.responsible_ids = [Command.link(self.user_employee.id)]
         test_holiday_2 = self.env['hr.leave'].create({
@@ -2264,8 +2321,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
         # Case 2: Approved by Time Off Officer and Employee's Approver, but no Time Off Officer is set
         self.holidays_type_4.responsible_ids = False     # No Time Off Officer set
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> upstream/18.0
         allocation = self.env['hr.leave.allocation'].create({
             'name': 'Allocation for hrmanager',
             'employee_id': self.employee_hrmanager_id,
@@ -2275,6 +2335,9 @@ class TestLeaveRequests(TestHrHolidaysCommon):
             'date_from': '2024-01-01',
         })
         allocation.action_validate()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         test_holiday_3 = self.env['hr.leave'].create({
             'name': 'Test leave',
@@ -2299,7 +2362,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
             'name': 'Test leave',
             'employee_id': employee_id,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'holiday_status_id': self.holidays_type_2.id,
+=======
+            'holiday_status_id': self.holidays_type_1.id,
+>>>>>>> upstream/18.0
 =======
             'holiday_status_id': self.holidays_type_1.id,
 >>>>>>> upstream/18.0
@@ -2362,6 +2429,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'full_time_required_hours': 56,
+>>>>>>> upstream/18.0
 =======
             'full_time_required_hours': 56,
 >>>>>>> upstream/18.0
@@ -2507,7 +2578,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
         })
         self.assertEqual(leave.number_of_days, 2)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_time_off_creation_without_allocation(self):
         leave_type = self.env['hr.leave.type'].create({
@@ -2651,4 +2725,7 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 
         self.assertEqual(sick_leave.duration_display, '3 days', "hr_holidays: duration_display should not update after adding an overlapping holiday")
         self.assertEqual(sick_leave_hr.duration_display, '2 days', "hr_holidays: duration_display should update after adding an overlapping holiday")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

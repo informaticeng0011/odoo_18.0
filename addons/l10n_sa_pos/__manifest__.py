@@ -17,7 +17,10 @@ Saudi Arabia POS Localization
             'web/static/lib/zxing-library/zxing-library.js',
             'l10n_sa_pos/static/src/**/*',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         ],
         'web.assets_tests': [
             'l10n_sa_pos/static/tests/tours/**/*',
@@ -25,6 +28,9 @@ Saudi Arabia POS Localization
         'web.assets_unit_tests': [
             'l10n_sa_pos/static/src/app/utils/qr.js',
             'l10n_sa_pos/static/tests/unit/**/*',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ]
     },

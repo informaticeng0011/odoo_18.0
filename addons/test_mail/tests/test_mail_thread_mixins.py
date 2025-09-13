@@ -10,7 +10,11 @@ from odoo.tools import mute_logger
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('mail_thread', 'mail_track')
+=======
+@tagged('mail_thread', 'mail_track', 'is_query_count')
+>>>>>>> upstream/18.0
 =======
 @tagged('mail_thread', 'mail_track', 'is_query_count')
 >>>>>>> upstream/18.0

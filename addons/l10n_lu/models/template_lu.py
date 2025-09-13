@@ -31,7 +31,11 @@ class AccountChartTemplate(models.AbstractModel):
                 'income_currency_exchange_account_id': 'lu_2020_account_7561',
                 'expense_currency_exchange_account_id': 'lu_2020_account_6561',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'account_journal_suspense_account_id': 'lu_2011_account_485',
+=======
+                'account_journal_suspense_account_id': 'lu_2011_account_484',
+>>>>>>> upstream/18.0
 =======
                 'account_journal_suspense_account_id': 'lu_2011_account_484',
 >>>>>>> upstream/18.0

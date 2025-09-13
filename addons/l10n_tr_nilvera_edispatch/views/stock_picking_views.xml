@@ -23,15 +23,21 @@
         <field name="arch" type="xml">
             <xpath expr="//header" position="inside">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <button name="action_generate_l10n_tr_edispatch_xml" type="object" invisible="state != 'done' or country_code != 'TR' or picking_type_code != 'outgoing'" string="Generate GİB e-Dispatch (XML)" />
             </xpath>
             <xpath expr="//notebook" position="inside">
                 <page name="l10n_tr_edispatch" string="e-Dispatch" invisible="country_code != 'TR' or picking_type_code != 'outgoing'">
 =======
+=======
+>>>>>>> upstream/18.0
                 <button name="action_generate_l10n_tr_edispatch_xml" type="object" invisible="country_code != 'TR' or picking_type_code != 'outgoing' or state != 'done' or not partner_id" string="Generate GİB e-Dispatch (XML)" />
             </xpath>
             <xpath expr="//notebook" position="inside">
                 <page name="l10n_tr_edispatch" string="e-Dispatch" invisible="country_code != 'TR' or picking_type_code != 'outgoing' or not partner_id">
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     <group>
                         <group name="l10n_tr_delivery_details" string="General Information">
@@ -62,7 +68,11 @@
             <xpath expr="//sheet" position="before">
                 <field name="l10n_tr_nilvera_edispatch_warnings" invisible="1"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div class="m-0" name="warnings" invisible="not l10n_tr_nilvera_edispatch_warnings">
+=======
+                <div class="m-0" name="warnings" invisible="not l10n_tr_nilvera_edispatch_warnings or (state == 'done' and not partner_id)">
+>>>>>>> upstream/18.0
 =======
                 <div class="m-0" name="warnings" invisible="not l10n_tr_nilvera_edispatch_warnings or (state == 'done' and not partner_id)">
 >>>>>>> upstream/18.0

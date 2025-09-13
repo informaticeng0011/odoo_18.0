@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* project
 # 
+=======
+# * project
+#
+>>>>>>> upstream/18.0
 =======
 # * project
 #
@@ -40,6 +45,7 @@
 # Ediz Duman <neps1192@gmail.com>, 2024
 # Wil Odoo, 2025
 # Melih Melik Sonmez, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,10 +296,15 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 # "Deniz Guvener Unal (degu)" <degu@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# "Deniz Guvener Unal (degu)" <degu@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -665,6 +676,8 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-06-27 18:38+0000\n"
 "PO-Revision-Date: 2025-08-26 14:54+0000\n"
 "Last-Translator: \"Deniz Guvener Unal (degu)\" <degu@odoo.com>\n"
@@ -676,6 +689,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -693,15 +709,21 @@ msgstr ""
 "\n"
 "                <p class=\"o_view_nocontent_smiling_face\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Hiçbir kilometre taşı bulunamadı!\n"
 "                </p><p>\n"
 "                   Başarıya ulaşmak için ulaşılması gereken önemli ilerleme noktalarını izleyin.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    Hiçbir kilometre taşı bulunamadı. Haydi, bir tane "
 "oluşturalım!\n"
 "                </p><p>\n"
 "                   Başarıya ulaşmak için ulaşılması gereken önemli ilerleme "
 "noktalarını izleyin.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                </p>\n"
 "            "
@@ -766,7 +788,10 @@ msgid ""
 "                    "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 ");\n"
 "\n"
@@ -825,6 +850,9 @@ msgstr ""
 "                title: _t(\"Görev Açıklaması Geçmişi\"),\n"
 "                noContentHelper: markup(\n"
 "                    "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -849,7 +877,10 @@ msgstr "# Değerlendirmeler"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:project.field_project_milestone__task_count
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -895,7 +926,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "#{task.stage_id.name}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "#{task.stage_id.name}"
+>>>>>>> upstream/18.0
 =======
 msgstr "#{task.stage_id.name}"
 >>>>>>> upstream/18.0
@@ -905,7 +940,11 @@ msgstr "#{task.stage_id.name}"
 #: code:addons/project/static/src/views/widget/subtask_counter.js:0
 msgid "%(closedCount)s sub-tasks closed out of %(totalCount)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(totalCount)s alt görevden %(closedCount)s adedi kapatıldı"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(totalCount)s alt görevden %(closedCount)s adedi kapatıldı"
 >>>>>>> upstream/18.0
@@ -922,6 +961,10 @@ msgstr "%(closed_task_count)s / %(task_count)s"
 msgid "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(task_count)s görevden %(closed_task_count)s kapandı (%(closed_rate)s%%)"
+>>>>>>> upstream/18.0
 =======
 "%(task_count)s görevden %(closed_task_count)s kapandı (%(closed_rate)s%%)"
 >>>>>>> upstream/18.0
@@ -931,7 +974,11 @@ msgstr ""
 #: code:addons/project/static/src/views/widget/subtask_counter.js:0
 msgid "%(count1)s/%(count2)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count1)s/%(count2)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count1)s/%(count2)s"
 >>>>>>> upstream/18.0
@@ -947,7 +994,11 @@ msgstr "Kontrol Paneli"
 #: code:addons/project/models/project_project.py:0
 msgid "%(name)s's Burndown Chart"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(name)s's Burndown Chart"
+=======
+msgstr "%(name)s'nın Kapanış Grafiği"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s'nın Kapanış Grafiği"
 >>>>>>> upstream/18.0
@@ -1039,11 +1090,17 @@ msgid ""
 "<b>mentions</b> to reach an entire team."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Dahili iletişim için <b>not kaydedin</b> <i>(bu görevi takip eden kişiler, "
 "onları özellikle etiketlemediğiniz sürece kaydettiğiniz not hakkında "
 "bilgilendirilmeyecek)</i>. Bir çalışma arkadaşınızı uyarmak için @ <b>bahis</"
 "b>, tüm bir ekibe ulaşmak için # <b>bahis</b> özelliğini kullanın."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -1126,7 +1183,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div>\n"
 "    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/>"
 "\n"
@@ -1236,6 +1296,9 @@ msgstr ""
 "    </table>\n"
 "</div>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -1253,6 +1316,7 @@ msgid ""
 "            "
 msgstr ""
 "<div>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1284,6 +1348,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "    Sayın <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/> \n"
 "    \"<strong t-out=\"object.name or ''\">Tadilatlar</strong>\" projesini başarıyla tamamladığımızı size bildirmekten memnuniyet duyarım. \n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
@@ -1299,6 +1365,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1334,7 +1403,10 @@ msgid ""
 "        "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div>\n"
 "    Sayın <t t-out=\"object.partner_id.name or 'customer'\">Brandon "
 "Freeman</t>,<br/><br/>\n"
@@ -1353,6 +1425,9 @@ msgstr ""
 "    </t>\n"
 "</div>\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -1488,7 +1563,10 @@ msgid ""
 "                                                </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span colspan=\"2\" class=\"text-muted o_row ps-1\">\n"
 "                                                    <i class="
 "\"fa fa-lightbulb-o pe-2\"/>\n"
@@ -1501,6 +1579,9 @@ msgstr ""
 "tanımlı olduğu bir aşamada kaldığı sürece puanlama istekleri "
 "gönderilecektir.</span>\n"
 "                                                </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -1561,7 +1642,11 @@ msgstr ""
 #: code:addons/project/models/project_task.py:0
 msgid "A new task has been created and is not part of any project."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yeni bir görev oluşturuldu ve herhangi bir projenin parçası değil."
+>>>>>>> upstream/18.0
 =======
 msgstr "Yeni bir görev oluşturuldu ve herhangi bir projenin parçası değil."
 >>>>>>> upstream/18.0
@@ -1571,7 +1656,11 @@ msgstr "Yeni bir görev oluşturuldu ve herhangi bir projenin parçası değil."
 #: code:addons/project/models/project_task.py:0
 msgid "A new task has been created in the \"%(project_name)s\" project."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "\"%(project_name)s\" projesinde yeni bir görev oluşturuldu."
+>>>>>>> upstream/18.0
 =======
 msgstr "\"%(project_name)s\" projesinde yeni bir görev oluşturuldu."
 >>>>>>> upstream/18.0
@@ -1590,7 +1679,11 @@ msgstr ""
 #: model:ir.model.constraint,message:project.constraint_project_task_private_task_has_no_parent
 msgid "A private task cannot have a parent."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Özel bir görevin üst görevi olamaz."
+>>>>>>> upstream/18.0
 =======
 msgstr "Özel bir görevin üst görevi olamaz."
 >>>>>>> upstream/18.0
@@ -1599,7 +1692,11 @@ msgstr "Özel bir görevin üst görevi olamaz."
 #: model:ir.model.constraint,message:project.constraint_project_task_recurring_task_has_no_parent
 msgid "A subtask cannot be recurrent."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir alt görev yinelenen olamaz."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bir alt görev yinelenen olamaz."
 >>>>>>> upstream/18.0
@@ -1693,6 +1790,12 @@ msgid ""
 "                    (e.g. \"Progress Report\", \"Stand-up Meeting\", ...)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Etkinlik planları, birkaç tıklamayla bir etkinlik listesini atamak için "
+"kullanılır\n"
+"                    (\"İlerleme Raporu\", \"Günlük Toplantı\", ...)"
+>>>>>>> upstream/18.0
 =======
 "Etkinlik planları, birkaç tıklamayla bir etkinlik listesini atamak için "
 "kullanılır\n"
@@ -1716,7 +1819,11 @@ msgstr "Alt Görevler Ekle"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Add a sub-task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir alt görev ekleyin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bir alt görev ekleyin"
 >>>>>>> upstream/18.0
@@ -1736,7 +1843,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Add details about this task..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu görev hakkında ayrıntılar ekleyin..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu görev hakkında ayrıntılar ekleyin..."
 >>>>>>> upstream/18.0
@@ -1753,6 +1864,11 @@ msgid ""
 "management process."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Proje yönetim sürecinizi özelleştirmek için görevlere proje bazlı özel "
+"alanlar ekleyin."
+>>>>>>> upstream/18.0
 =======
 "Proje yönetim sürecinizi özelleştirmek için görevlere proje bazlı özel "
 "alanlar ekleyin."
@@ -1940,7 +2056,11 @@ msgstr "Devam etmek istediğine emin misin?"
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_wizard
 msgid "Are you sure you want to delete these stages?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu aşamaları silmek istediğinize emin misiniz?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu aşamaları silmek istediğinize emin misiniz?"
 >>>>>>> upstream/18.0
@@ -1957,7 +2077,11 @@ msgstr "Bu kaydı silmek istediğinizden emin misiniz?"
 #: code:addons/project/static/src/views/project_task_form/project_task_form_controller.js:0
 msgid "Are you sure you want to restore this version ?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu sürümü geri yüklemek istediğinize emin misiniz?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu sürümü geri yüklemek istediğinize emin misiniz?"
 >>>>>>> upstream/18.0
@@ -2013,7 +2137,11 @@ msgstr "Atananlar"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Assignement Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atama Tarihi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atama Tarihi"
 >>>>>>> upstream/18.0
@@ -2054,6 +2182,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tüm araştırma bilgilerini tek bir yerde toplamak için tüm belgeleri veya "
+"bağlantıları doğrudan göreve ekleyin."
+>>>>>>> upstream/18.0
 =======
 "Tüm araştırma bilgilerini tek bir yerde toplamak için tüm belgeleri veya "
 "bağlantıları doğrudan göreve ekleyin."
@@ -2116,7 +2249,11 @@ msgstr "Ekler"
 #: model:ir.model.fields,help:project.field_project_task__attachment_ids
 msgid "Attachments that don't come from a message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir mesajdan gelmeyen ekler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bir mesajdan gelmeyen ekler"
 >>>>>>> upstream/18.0
@@ -2144,13 +2281,19 @@ msgid ""
 " * Neutral or bad feedback will set the kanban state to 'Changes Requested' (orange bullet).\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Müşteri bu aşamaya ilişkin geri bildirim verdiğinde durumu otomatik olarak "
 "değiştirin.\n"
 " * Müşteriden gelen olumlu geri bildirim, durumu 'Onaylandı' (yeşil nokta) "
 "olarak güncelleyecektir.\n"
 " * Nötr veya olumsuz geri bildirim, kanban durumunu 'Değişiklik Talep "
 "Edildi' (turuncu nokta) olarak ayarlayacaktır.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -2185,7 +2328,11 @@ msgstr "Ortalama puanı (%)"
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__rating_avg
 msgid "Average Rating (1-5)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ortalama Derecelendirme (1-5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ortalama Derecelendirme (1-5)"
 >>>>>>> upstream/18.0
@@ -2246,7 +2393,11 @@ msgstr "Beklenen Görevler"
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Blocked Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Engellenmiş Görevler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Engellenmiş Görevler"
 >>>>>>> upstream/18.0
@@ -2278,7 +2429,11 @@ msgstr "Bug"
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
 msgid "Burndown Chart"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Açılış tablosu"
+=======
+msgstr "Kapanış Grafiği"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kapanış Grafiği"
 >>>>>>> upstream/18.0
@@ -2315,6 +2470,11 @@ msgid ""
 "etc.</i>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Projeniz için bir <b>isim</b> seçin. <i>Bir müşteri adı, ürün adı, ekip adı, "
+"şantiye adı vb. istediğiniz herhangi bir şey olabilir.</i>"
+>>>>>>> upstream/18.0
 =======
 "Projeniz için bir <b>isim</b> seçin. <i>Bir müşteri adı, ürün adı, ekip adı, "
 "şantiye adı vb. istediğiniz herhangi bir şey olabilir.</i>"
@@ -2344,7 +2504,11 @@ msgstr "Müşteri İncelemesi"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Close the sub-tasks list"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alt görevler listesini kapat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alt görevler listesini kapat"
 >>>>>>> upstream/18.0
@@ -2353,7 +2517,11 @@ msgstr "Alt görevler listesini kapat"
 #: model:ir.model.fields,field_description:project.field_project_task__closed_depend_on_count
 msgid "Closed Depending on Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bağımlı Görevler Kapandı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bağımlı Görevler Kapandı"
 >>>>>>> upstream/18.0
@@ -2374,7 +2542,11 @@ msgstr "Kapanan Görevler"
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__is_closed
 msgid "Closed state"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kapalı durum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kapalı durum"
 >>>>>>> upstream/18.0
@@ -2383,7 +2555,11 @@ msgstr "Kapalı durum"
 #: model:ir.model.fields.selection,name:project.selection__project_task_burndown_chart_report__is_closed__closed
 msgid "Closed tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kapatılmış görevler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kapatılmış görevler"
 >>>>>>> upstream/18.0
@@ -2424,6 +2600,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bir görev belirli bir aşamaya girdiğinde onlara bir derecelendirme isteği göndererek müşterilerinizden geri bildirim toplayın. Bunu yapmak için ilgili aşamalarda bir derecelendirme e-posta şablonu tanımlayın.\n"
 "Derece değiştirirken aşama: Görev, derecelendirme e-posta şablonunun ayarlandığı aşamaya geldiğinde otomatik olarak bir e-posta gönderilir.\n"
 "Periyodik derecelendirme: Görev, derecelendirme e-posta şablonunun ayarlandığı aşamada kaldığı sürece otomatik olarak düzenli aralıklarla bir e-posta gönderilecektir."
@@ -2442,6 +2619,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Müşterilerinizden, bir görev belirli bir aşamaya girdiğinde onlara puanlama "
 "isteği göndererek geri bildirim toplayın. Bunu yapmak için ilgili aşamalara "
 "bir puanlama e-posta şablonu tanımlayın.\n"
@@ -2451,6 +2630,9 @@ msgstr ""
 "Periyodik puanlama: Görev, üzerinde puanlama e-posta şablonunun ayarlandığı "
 "aşamada kaldığı sürece belirli aralıklarla otomatik olarak bir e-posta "
 "gönderilecektir."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -2466,6 +2648,12 @@ msgid ""
 "      designers to the workers who print the t-shirt."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"E-posta ağ geçidini kullanarak görev üzerinde müşterilerle iletişim kurun. "
+"Göreve logo tasarımlarını ekleyin, böylece bilgiler\n"
+"      tasarımcılardan tişörtü basan çalışanlara aktarılır."
+>>>>>>> upstream/18.0
 =======
 "E-posta ağ geçidini kullanarak görev üzerinde müşterilerle iletişim kurun. "
 "Göreve logo tasarımlarını ekleyin, böylece bilgiler\n"
@@ -2544,7 +2732,11 @@ msgstr "Kontak"
 #: model_terms:ir.ui.view,arch_db:project.project_task_convert_to_subtask_view_form
 msgid "Convert Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görevi Dönüştür"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görevi Dönüştür"
 >>>>>>> upstream/18.0
@@ -2555,7 +2747,11 @@ msgstr "Görevi Dönüştür"
 #: model:ir.actions.server,name:project.action_server_convert_to_subtask
 msgid "Convert to Task/Sub-Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Göreve/Alt Göreve dönüştür"
+>>>>>>> upstream/18.0
 =======
 msgstr "Göreve/Alt Göreve dönüştür"
 >>>>>>> upstream/18.0
@@ -2600,7 +2796,11 @@ msgstr "Proje Oluştur"
 #: model_terms:ir.actions.act_window,help:project.mail_activity_plan_action_config_project_task_plan
 msgid "Create a Task Activity Plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir Görev Aktivite Planı oluşturun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bir Görev Aktivite Planı oluşturun"
 >>>>>>> upstream/18.0
@@ -2615,7 +2815,11 @@ msgstr "Görev iletim hattında yeni bir aşama oluştur"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Create a new sub-task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yeni bir alt görev oluştur"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yeni bir alt görev oluştur"
 >>>>>>> upstream/18.0
@@ -2788,6 +2992,12 @@ msgid ""
 "      communicate on the task directly."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Müşteriler e-posta ile geri bildirim gönderir; Odoo görevleri otomatik "
+"olarak oluşturur ve\n"
+"      siz doğrudan görev üzerinde iletişim kurabilirsiniz."
+>>>>>>> upstream/18.0
 =======
 "Müşteriler e-posta ile geri bildirim gönderir; Odoo görevleri otomatik "
 "olarak oluşturur ve\n"
@@ -2829,11 +3039,17 @@ msgid ""
 "Based on this information you can identify tasks that are stalling and get statistics on the time it usually takes to move tasks from one stage/state to another."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Görevinizin durumunun en son değiştirildiği tarih.\n"
 "Bu bilgilere dayanarak ilerlemeyen görevleri belirleyebilir ve görevlerin "
 "bir aşamadan/durumdan diğerine taşınmasının genellikle ne kadar sürdüğüne "
 "dair istatistikler alabilirsiniz."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -2877,9 +3093,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu görevin en son atandığı (veya atanmadığı) tarih. Buna dayanarak, "
 "genellikle görevleri atamak için geçen süreye ilişkin istatistikler "
 "alabilirsiniz."
+=======
+"Bu görevin en son atandığı (veya atanmasının kaldırıldığı) tarih. Buna göre,"
+" görevlerin atanması için genellikle ne kadar zaman gerektiğine dair "
+"istatistikler elde edebilirsiniz."
+>>>>>>> upstream/18.0
 =======
 "Bu görevin en son atandığı (veya atanmasının kaldırıldığı) tarih. Buna göre,"
 " görevlerin atanması için genellikle ne kadar zaman gerektiğine dair "
@@ -3095,7 +3317,11 @@ msgstr "Kilometre Taşı Sil"
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_stage_delete_wizard
 msgid "Delete Project Stage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proje Aşamasını Sil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proje Aşamasını Sil"
 >>>>>>> upstream/18.0
@@ -3135,7 +3361,11 @@ msgstr "Bağımlı Görevler"
 #: model:ir.model.fields,field_description:project.field_project_task__depend_on_count
 msgid "Depending on Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görevlere Bağlı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görevlere Bağlı"
 >>>>>>> upstream/18.0
@@ -3228,7 +3458,11 @@ msgstr "İsim Göster"
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Display the sub-task in your pipeline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alt görevi pipeline'ınızda görüntüleyin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alt görevi pipeline'ınızda görüntüleyin"
 >>>>>>> upstream/18.0
@@ -3276,6 +3510,11 @@ msgid ""
 "which the tasks can be transferred after the selected ones are deleted."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Her kullanıcının en az bir kişisel aşaması olmalıdır. Seçilen görevler "
+"silindikten sonra görevlerin aktarılabileceği yeni bir aşama oluşturun."
+>>>>>>> upstream/18.0
 =======
 "Her kullanıcının en az bir kişisel aşaması olmalıdır. Seçilen görevler "
 "silindikten sonra görevlerin aktarılabileceği yeni bir aşama oluşturun."
@@ -3420,7 +3659,11 @@ msgstr "Favori"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Favorite Projects"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Favori Projeler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Favori Projeler"
 >>>>>>> upstream/18.0
@@ -3453,7 +3696,11 @@ msgstr "Takip Et"
 #: model_terms:ir.ui.view,arch_db:project.portal_my_home
 msgid "Follow and comments tasks of your projects"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projelerinizin görevlerini takip edin ve yorum yapın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projelerinizin görevlerini takip edin ve yorum yapın"
 >>>>>>> upstream/18.0
@@ -3462,7 +3709,11 @@ msgstr "Projelerinizin görevlerini takip edin ve yorum yapın"
 #: model_terms:ir.ui.view,arch_db:project.portal_my_home
 msgid "Follow the evolution of your projects"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projelerinizin ilerlemesini takip edin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projelerinizin ilerlemesini takip edin"
 >>>>>>> upstream/18.0
@@ -3537,6 +3788,10 @@ msgstr ""
 msgid "Get customer feedback and evaluate the performance of your employees"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Müşteri geri bildirimi alın ve çalışanlarınızın performansını değerlendirin"
+>>>>>>> upstream/18.0
 =======
 "Müşteri geri bildirimi alın ve çalışanlarınızın performansını değerlendirin"
 >>>>>>> upstream/18.0
@@ -3546,7 +3801,11 @@ msgstr ""
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Give the sub-task a <b>name</b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alt göreve bir <b>ad</b> verin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alt göreve bir <b>ad</b> verin"
 >>>>>>> upstream/18.0
@@ -3564,6 +3823,12 @@ msgid ""
 " Employees automatically get access to the tasks they are assigned to."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Çalışanlara projelerinize veya görevlerinize erişim sağlamak için onları "
+"takipçi olarak ekleyin. Çalışanlar, atandıkları görevlere otomatik olarak "
+"erişim kazanır."
+>>>>>>> upstream/18.0
 =======
 "Çalışanlara projelerinize veya görevlerinize erişim sağlamak için onları "
 "takipçi olarak ekleyin. Çalışanlar, atandıkları görevlere otomatik olarak "
@@ -3597,6 +3862,11 @@ msgid ""
 " in the chatter of the tasks."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Fikir toplama sürecinizi yeni Projenizin Görevleri içinde yönetin ve bunları "
+"görevlerin yazışma alanında tartışın."
+>>>>>>> upstream/18.0
 =======
 "Fikir toplama sürecinizi yeni Projenizin Görevleri içinde yönetin ve bunları "
 "görevlerin yazışma alanında tartışın."
@@ -3632,7 +3902,11 @@ msgstr "Merhaba"
 #: code:addons/project/static/src/components/notebook_task_one2many_field/notebook_task_list_renderer.js:0
 msgid "Hide closed tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kapatılmış görevleri gizle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kapatılmış görevleri gizle"
 >>>>>>> upstream/18.0
@@ -3641,7 +3915,11 @@ msgstr "Kapatılmış görevleri gizle"
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Hide the sub-task in your pipeline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alt görevi pipeline'ınızda gizleyin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alt görevi pipeline'ınızda gizleyin"
 >>>>>>> upstream/18.0
@@ -3661,7 +3939,11 @@ msgstr "Geçmiş"
 #: model:ir.model.fields,field_description:project.field_project_task__html_field_history
 msgid "History data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geçmiş verileri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geçmiş verileri"
 >>>>>>> upstream/18.0
@@ -3670,7 +3952,11 @@ msgstr "Geçmiş verileri"
 #: model:ir.model.fields,field_description:project.field_project_task__html_field_history_metadata
 msgid "History metadata"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geçmiş metaverileri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geçmiş metaverileri"
 >>>>>>> upstream/18.0
@@ -3685,7 +3971,11 @@ msgstr "Ana Sayfa"
 #: model:project.project,name:project.project_home_construction
 msgid "Home Construction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ev İnşaatı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ev İnşaatı"
 >>>>>>> upstream/18.0
@@ -3694,7 +3984,11 @@ msgstr "Ev İnşaatı"
 #: model:project.project,name:project.project_project_4
 msgid "Home Make Over"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ev Yenileme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ev Yenileme"
 >>>>>>> upstream/18.0
@@ -3757,7 +4051,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rumuzu tutan üst kayıt ID (örnek: görev oluşturma rumuzunu tutan proje)"
+=======
+"Takma adı barındıran üst kayıt kimliği (örnek: görev oluşturma takma adını "
+"barındıran proje)"
+>>>>>>> upstream/18.0
 =======
 "Takma adı barındıran üst kayıt kimliği (örnek: görev oluşturma takma adını "
 "barındıran proje)"
@@ -3969,7 +4268,11 @@ msgstr "Gelen Kutusu"
 #: model:project.tags,name:project.project_tags_09
 msgid "Interior"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İç Mekan"
+>>>>>>> upstream/18.0
 =======
 msgstr "İç Mekan"
 >>>>>>> upstream/18.0
@@ -4034,7 +4337,11 @@ msgstr "Faturalanan"
 #: model_terms:ir.ui.view,arch_db:project.project_task_burndown_chart_report_view_search
 msgid "Is Closed (Burn-up Chart)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kapatıldı (Tamamlama Grafiği)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kapatıldı (Tamamlama Grafiği)"
 >>>>>>> upstream/18.0
@@ -4053,7 +4360,11 @@ msgstr "Takipçi mi"
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_state_selection.js:0
 msgid "Is toggle mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geçiş modu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geçiş modu"
 >>>>>>> upstream/18.0
@@ -4117,7 +4428,11 @@ msgstr "Geçen Ay"
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__rating_last_value
 msgid "Last Rating (1-5)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Son Derecelendirme (1-5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Son Derecelendirme (1-5)"
 >>>>>>> upstream/18.0
@@ -4202,7 +4517,11 @@ msgstr "Bir yorum yazın"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Let's create your first <b>project</b>."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr " İlk <b>projemizi</b> oluşturalım."
+=======
+msgstr "İlk <b>projenizi</b> oluşturalım."
+>>>>>>> upstream/18.0
 =======
 msgstr "İlk <b>projenizi</b> oluşturalım."
 >>>>>>> upstream/18.0
@@ -4212,7 +4531,11 @@ msgstr "İlk <b>projenizi</b> oluşturalım."
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Let's create your first <b>stage</b>."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İlk <b>aşamanızı</b> oluşturalım."
+>>>>>>> upstream/18.0
 =======
 msgstr "İlk <b>aşamanızı</b> oluşturalım."
 >>>>>>> upstream/18.0
@@ -4228,7 +4551,11 @@ msgstr "İlk <b>görevimizi</b> oluşturalım."
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Let's create your second <b>stage</b>."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İkinci <b>aşamanızı</b> oluşturalım."
+>>>>>>> upstream/18.0
 =======
 msgstr "İkinci <b>aşamanızı</b> oluşturalım."
 >>>>>>> upstream/18.0
@@ -4325,7 +4652,11 @@ msgid "Local-part based incoming detection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yerel bölüm bazlı gelen algılama"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yerel bölüm bazlı gelen algılama"
 >>>>>>> upstream/18.0
@@ -4524,7 +4855,11 @@ msgstr "Amblem Tasarım"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "Look for the"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Şunu ara:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Şunu ara:"
 >>>>>>> upstream/18.0
@@ -4562,7 +4897,11 @@ msgstr "Yapıldı olarak işaretle"
 #: code:addons/project/static/src/components/project_right_side_panel/components/project_milestone.xml:0
 msgid "Mark as incomplete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Tamamlanmadı' olarak işaretle"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Tamamlanmadı' olarak işaretle"
 >>>>>>> upstream/18.0
@@ -4572,7 +4911,11 @@ msgstr "'Tamamlanmadı' olarak işaretle"
 #: code:addons/project/static/src/components/project_right_side_panel/components/project_milestone.xml:0
 msgid "Mark as reached"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Ulaşıldı' olarak işaretle"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Ulaşıldı' olarak işaretle"
 >>>>>>> upstream/18.0
@@ -4582,7 +4925,11 @@ msgstr "'Ulaşıldı' olarak işaretle"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Mark the task as <b>Cancelled</b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görevi <b>İptal Edildi</b> olarak işaretleyin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görevi <b>İptal Edildi</b> olarak işaretleyin"
 >>>>>>> upstream/18.0
@@ -4771,7 +5118,11 @@ msgstr "Yeni Siparişler"
 #: code:addons/project/static/src/views/project_project_calendar/project_project_calendar_controller.js:0
 msgid "New Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yeni Proje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yeni Proje"
 >>>>>>> upstream/18.0
@@ -4844,7 +5195,11 @@ msgstr "Sonraki Aktivitie Türü"
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "No Customer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Müşteri Yok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Müşteri Yok"
 >>>>>>> upstream/18.0
@@ -4858,7 +5213,11 @@ msgstr "Kilometre Taşı Yok"
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "No Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proje Yok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proje Yok"
 >>>>>>> upstream/18.0
@@ -5046,7 +5405,11 @@ msgid "Office"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ofis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ofis"
 >>>>>>> upstream/18.0
@@ -5270,7 +5633,11 @@ msgstr "Ayda Bir Kez"
 #: code:addons/project/controllers/portal.py:0
 msgid "Only jpeg, png, bmp and tiff images are allowed as attachments."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ek olarak yalnızca jpeg, png, bmp ve tiff görüntülerine izin verilir."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ek olarak yalnızca jpeg, png, bmp ve tiff görüntülerine izin verilir."
 >>>>>>> upstream/18.0
@@ -5295,7 +5662,11 @@ msgstr "Açık Görevler"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Open sub-tasks notebook section"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alt görevler sekmesini aç"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alt görevler sekmesini aç"
 >>>>>>> upstream/18.0
@@ -5318,6 +5689,7 @@ msgid ""
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5504,13 +5876,22 @@ msgstr ""
 "parçacığının (kayıt) isteğe bağlı kimliği. Ayarlandığı durumlarda yeni "
 "kayıtların oluşturulması tamamen devre dışı bırakılır."
 >>>>>>> upstream/18.0
+=======
+"Gelen tüm mesajların, yanıt verilmemiş olsa bile ekleneceği bir iş "
+"parçacığının (kayıt) isteğe bağlı kimliği. Ayarlandığı durumlarda yeni "
+"kayıtların oluşturulması tamamen devre dışı bırakılır."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "Organize priorities amongst orders using the"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Siparişler arasındaki öncelikleri şu yolla düzenleyin:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Siparişler arasındaki öncelikleri şu yolla düzenleyin:"
 >>>>>>> upstream/18.0
@@ -5584,7 +5965,11 @@ msgstr ""
 msgid ""
 "Partner company cannot be different from its assigned projects' company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partner şirketi, kendisine atanan projelerin şirketinden farklı olamaz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partner şirketi, kendisine atanan projelerin şirketinden farklı olamaz"
 >>>>>>> upstream/18.0
@@ -5594,7 +5979,11 @@ msgstr "Partner şirketi, kendisine atanan projelerin şirketinden farklı olama
 #: code:addons/project/models/res_partner.py:0
 msgid "Partner company cannot be different from its assigned tasks' company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partner şirketi, kendisine atanan görevlerin şirketinden farklı olamaz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partner şirketi, kendisine atanan görevlerin şirketinden farklı olamaz"
 >>>>>>> upstream/18.0
@@ -5603,7 +5992,11 @@ msgstr "Partner şirketi, kendisine atanan görevlerin şirketinden farklı olam
 #: model:ir.actions.act_window,name:project.project_task_action_from_partner
 msgid "Partner's Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partnerin Görevleri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partnerin Görevleri"
 >>>>>>> upstream/18.0
@@ -5635,6 +6028,7 @@ msgid ""
 "\n"
 "In any case, an internal user with no project access rights can still access a task, provided that they are given the corresponding URL (and that they are part of the followers if the project is private)."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5717,6 +6111,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Bu proje ve görevleri görebilecek kişiler:\n"
 "\n"
 "- Davet edilen dahili kullanıcılar: bir projeyi takip eden dahili kullanıcılar, tüm görevlere ayrım yapılmaksızın erişebilirler. Aksi takdirde, yalnızca takip ettikleri belirli görevlere erişebilirler.\n"
@@ -5753,6 +6149,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5886,6 +6285,10 @@ msgstr "Önceki"
 msgid "Prioritize your tasks by marking important ones using the"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Önemli olanları şu yöntemle işaretleyerek görevlerinizi önceliklendirin:"
+>>>>>>> upstream/18.0
 =======
 "Önemli olanları şu yöntemle işaretleyerek görevlerinizi önceliklendirin:"
 >>>>>>> upstream/18.0
@@ -5927,6 +6330,11 @@ msgid ""
 "the task to gain access to this feature."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Özel görevler alt görevlere dönüştürülemez. Bu özelliğe erişmek için göreve "
+"bir proje atayın."
+>>>>>>> upstream/18.0
 =======
 "Özel görevler alt görevlere dönüştürülemez. Bu özelliğe erişmek için göreve "
 "bir proje atayın."
@@ -6010,7 +6418,11 @@ msgstr "Proje Paylaşımı"
 #: model:ir.model,name:project.model_project_share_collaborator_wizard
 msgid "Project Sharing Collaborator Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proje Paylaşımı İşbirlikçi Sihirbazı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proje Paylaşımı İşbirlikçi Sihirbazı"
 >>>>>>> upstream/18.0
@@ -6019,7 +6431,11 @@ msgstr "Proje Paylaşımı İşbirlikçi Sihirbazı"
 #: model:ir.actions.act_window,name:project.project_sharing_project_task_recurring_tasks_action
 msgid "Project Sharing Recurrence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proje Paylaşımı Tekrarı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proje Paylaşımı Tekrarı"
 >>>>>>> upstream/18.0
@@ -6060,7 +6476,11 @@ msgstr "Proje Etiketleri"
 #: model:ir.model,name:project.model_project_task_type_delete_wizard
 msgid "Project Task Stage Delete Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proje Görev Aşaması Silme Sihirbazı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proje Görev Aşaması Silme Sihirbazı"
 >>>>>>> upstream/18.0
@@ -6210,6 +6630,12 @@ msgid ""
 "icon."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Görevlerin onay veya değişiklik taleplerine ilişkin durumunu hızla kontrol "
+"edin ve bağımlılıklar çözülene kadar beklemede olanları kum saati simgesiyle "
+"belirleyin."
+>>>>>>> upstream/18.0
 =======
 "Görevlerin onay veya değişiklik taleplerine ilişkin durumunu hızla kontrol "
 "edin ve bağımlılıklar çözülene kadar beklemede olanları kum saati simgesiyle "
@@ -6232,7 +6658,11 @@ msgstr "Değerlendirme (/5)"
 #: model_terms:ir.ui.view,arch_db:project.rating_rating_view_pivot
 msgid "Rating (1-5)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Değerlendirme (1-5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Değerlendirme (1-5)"
 >>>>>>> upstream/18.0
@@ -6302,7 +6732,11 @@ msgstr "Ulaşıldı"
 #: model:ir.model.fields.selection,name:project.selection__project_share_collaborator_wizard__access_mode__read
 msgid "Read"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oku"
 >>>>>>> upstream/18.0
@@ -6360,7 +6794,11 @@ msgstr "Yinelenen"
 #: model_terms:ir.ui.view,arch_db:project.portal_layout
 msgid "Recurrent tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yinelenen görevler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yinelenen görevler"
 >>>>>>> upstream/18.0
@@ -6398,7 +6836,11 @@ msgstr "İlgili Döküman Modeli"
 #: code:addons/project/static/src/core/web/follower_list_patch.js:0
 msgid "Remove Collaborator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İş Birlikçiyi Kaldır"
+>>>>>>> upstream/18.0
 =======
 msgstr "İş Birlikçiyi Kaldır"
 >>>>>>> upstream/18.0
@@ -6482,6 +6924,11 @@ msgid ""
 "unsaved changes will be lost."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Geri yükleme, mevcut içeriğin seçili sürümle değiştirilmesini sağlar. "
+"Kaydedilmemiş tüm değişiklikler kaybolur."
+>>>>>>> upstream/18.0
 =======
 "Geri yükleme, mevcut içeriğin seçili sürümle değiştirilmesini sağlar. "
 "Kaydedilmemiş tüm değişiklikler kaybolur."
@@ -6518,7 +6965,11 @@ msgstr "Üzgün Yüz"
 #: code:addons/project/static/src/project_sharing/views/form/project_sharing_form_controller.js:0
 msgid "Save the task to be able to drag images in description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Açıklamaya görselleri sürükleyebilmek için görevi kaydedin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Açıklamaya görselleri sürükleyebilmek için görevi kaydedin"
 >>>>>>> upstream/18.0
@@ -6528,7 +6979,11 @@ msgstr "Açıklamaya görselleri sürükleyebilmek için görevi kaydedin"
 #: code:addons/project/static/src/project_sharing/views/form/project_sharing_form_controller.js:0
 msgid "Save the task to be able to paste images in description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Açıklamaya görselleri yapıştırabilmek için görevi kaydedin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Açıklamaya görselleri yapıştırabilmek için görevi kaydedin"
 >>>>>>> upstream/18.0
@@ -6602,7 +7057,11 @@ msgstr "Durumda Ara"
 #: code:addons/project/controllers/portal.py:0
 msgid "Search%(left)s Tasks%(right)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(left)s Görev Ara%(right)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(left)s Görev Ara%(right)s"
 >>>>>>> upstream/18.0
@@ -6618,7 +7077,11 @@ msgstr "Güvenlik Token"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Select an assignee from the menu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Menüden bir sorumlu seçin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Menüden bir sorumlu seçin"
 >>>>>>> upstream/18.0
@@ -6677,7 +7140,11 @@ msgstr ""
 #: code:addons/project/static/src/components/project_task_priority_switch_field/project_task_priority_switch_field.js:0
 msgid "Set priority as %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Önceliği %s olarak ayarla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Önceliği %s olarak ayarla"
 >>>>>>> upstream/18.0
@@ -6687,7 +7154,11 @@ msgstr "Önceliği %s olarak ayarla"
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_state_selection.js:0
 msgid "Set state as..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Durumu şu şekilde ayarla..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Durumu şu şekilde ayarla..."
 >>>>>>> upstream/18.0
@@ -6724,7 +7195,11 @@ msgstr "Projeyi Paylaş"
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Share Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görevi Paylaş"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görevi Paylaş"
 >>>>>>> upstream/18.0
@@ -6733,7 +7208,11 @@ msgstr "Görevi Paylaş"
 #: model:ir.model.fields,field_description:project.field_project_task__show_display_in_project
 msgid "Show Display In Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Projede Göster’i görüntüle"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Projede Göster’i görüntüle"
 >>>>>>> upstream/18.0
@@ -6749,7 +7228,11 @@ msgstr "Bir sonraki eylem tarihi bugünden önce olan tüm kayıtları göster"
 #: code:addons/project/static/src/components/notebook_task_one2many_field/notebook_task_list_renderer.js:0
 msgid "Show closed tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kapatılmış görevleri göster"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kapatılmış görevleri göster"
 >>>>>>> upstream/18.0
@@ -6782,7 +7265,10 @@ msgid ""
 "Are you sure you want to proceed?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Seçilen bazı analitik hesaplar bir projeyle ilişkilendirilmiştir:\n"
 "%(accountList)s\n"
 "\n"
@@ -6790,6 +7276,9 @@ msgstr ""
 "seçeneğini kaldırır.\n"
 "\n"
 "Devam etmek istediğinize emin misiniz?"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -6808,11 +7297,17 @@ msgid ""
 "property."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Görevlerinizi 'sprint' bazında; kilometre taşları, etiketler veya özel bir "
 "özellik kullanarak sıralayın. Her 'sprint'in sonunda, listenizde kalan "
 "görevleri seçin ve tümünü aynı anda bir sonraki 'sprint'e taşımak için "
 "sadece kilometre taşını, etiketi veya özelliği düzenleyin."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -6856,7 +7351,11 @@ msgstr "Aşama"
 #: model_terms:ir.ui.view,arch_db:project.project_task_burndown_chart_report_view_search
 msgid "Stage (Burndown Chart)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aşama (Kapanış Grafiği)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aşama (Kapanış Grafiği)"
 >>>>>>> upstream/18.0
@@ -6886,7 +7385,11 @@ msgstr "Aşama: %s"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Starred Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yıldızlı Görevler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yıldızlı Görevler"
 >>>>>>> upstream/18.0
@@ -6909,7 +7412,11 @@ msgstr "Durumu"
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_stage_state_selection/project_task_stage_with_state_selection.js:0
 msgid "State readonly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Durum salt okunur"
+>>>>>>> upstream/18.0
 =======
 msgstr "Durum salt okunur"
 >>>>>>> upstream/18.0
@@ -6930,7 +7437,11 @@ msgstr "Durumu"
 #: code:addons/project/models/project_project.py:0
 msgid "Status Update - %(date)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Durum Güncellemesi - %(date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Durum Güncellemesi - %(date)s"
 >>>>>>> upstream/18.0
@@ -7030,7 +7541,11 @@ msgstr "Görev Aktiviteleri"
 #: model:mail.message.subtype,name:project.mt_task_approved
 msgid "Task Approved"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görev Onaylandı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görev Onaylandı"
 >>>>>>> upstream/18.0
@@ -7039,7 +7554,11 @@ msgstr "Görev Onaylandı"
 #: model:mail.message.subtype,name:project.mt_project_task_canceled
 msgid "Task Canceled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görev İptal Edildi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görev İptal Edildi"
 >>>>>>> upstream/18.0
@@ -7048,7 +7567,11 @@ msgstr "Görev İptal Edildi"
 #: model:mail.message.subtype,name:project.mt_task_canceled
 msgid "Task Cancelled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görev İptal Edildi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görev İptal Edildi"
 >>>>>>> upstream/18.0
@@ -7058,7 +7581,11 @@ msgstr "Görev İptal Edildi"
 #: code:addons/project/models/project_task.py:0
 msgid "Task Converted from To-Do"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görev, Yapılacak’tan dönüştürüldü"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görev, Yapılacak’tan dönüştürüldü"
 >>>>>>> upstream/18.0
@@ -7088,7 +7615,11 @@ msgstr "Görev Tamamlandı"
 #: model:mail.message.subtype,name:project.mt_task_in_progress
 msgid "Task In Progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görev Devam Ediyor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görev Devam Ediyor"
 >>>>>>> upstream/18.0
@@ -7152,6 +7683,11 @@ msgid ""
 "Task Transferred from Project %(source_project)s to %(destination_project)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Görev, %(source_project)s projesinden %(destination_project)s projesine "
+"aktarıldı"
+>>>>>>> upstream/18.0
 =======
 "Görev, %(source_project)s projesinden %(destination_project)s projesine "
 "aktarıldı"
@@ -7163,7 +7699,11 @@ msgstr ""
 #: model:mail.message.subtype,name:project.mt_task_waiting
 msgid "Task Waiting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görev Beklemede"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görev Beklemede"
 >>>>>>> upstream/18.0
@@ -7172,7 +7712,11 @@ msgstr "Görev Beklemede"
 #: model:mail.message.subtype,description:project.mt_task_approved
 msgid "Task approved"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görev onaylandı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görev onaylandı"
 >>>>>>> upstream/18.0
@@ -7181,7 +7725,11 @@ msgstr "Görev onaylandı"
 #: model:mail.message.subtype,description:project.mt_task_canceled
 msgid "Task cancelled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görev iptal edildi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görev iptal edildi"
 >>>>>>> upstream/18.0
@@ -7270,7 +7818,11 @@ msgstr "Testler"
 #: code:addons/project/static/src/views/burndown_chart/burndown_chart_search_model.js:0
 msgid "The Burndown Chart must be grouped by Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Kapanış Grafiği'; Grafik tarihe göre gruplanmalıdır"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Kapanış Grafiği'; Grafik tarihe göre gruplanmalıdır"
 >>>>>>> upstream/18.0
@@ -7340,7 +7892,11 @@ msgstr ""
 msgid ""
 "The project and the associated partner must be linked to the same company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proje ve ilişkili partner, aynı şirkete bağlı olmalıdır."
+>>>>>>> upstream/18.0
 =======
 msgstr "Proje ve ilişkili partner, aynı şirkete bağlı olmalıdır."
 >>>>>>> upstream/18.0
@@ -7353,6 +7909,11 @@ msgid ""
 " lines or if more than one project is linked to it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bir projenin analitik hesabında analitik satırlar varsa veya birden fazla "
+"proje ile bağlantılıysa, o projenin şirketi değiştirilemez."
+>>>>>>> upstream/18.0
 =======
 "Bir projenin analitik hesabında analitik satırlar varsa veya birden fazla "
 "proje ile bağlantılıysa, o projenin şirketi değiştirilemez."
@@ -7372,6 +7933,12 @@ msgid ""
 " groupings applied, the report will not provide relevant information."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Rapor, bir 'Kapanış Grafiği oluşturmak için \"Aşama\" ya da bir 'Tamamlama "
+"Grafiği' oluşturmak için \"Kapanış Durumu\"na göre gruplanmalıdır. Bu "
+"gruplamalardan biri uygulanmadığında rapor ilgili bilgileri sağlamaz."
+>>>>>>> upstream/18.0
 =======
 "Rapor, bir 'Kapanış Grafiği oluşturmak için \"Aşama\" ya da bir 'Tamamlama "
 "Grafiği' oluşturmak için \"Kapanış Durumu\"na göre gruplanmalıdır. Bu "
@@ -7383,7 +7950,11 @@ msgstr ""
 #: code:addons/project/models/project_task.py:0
 msgid "The search does not support operator %(operator)s or value %(value)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arama, %(operator)s işlemcisini veya %(value)s değerini desteklemiyor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Arama, %(operator)s işlemcisini veya %(value)s değerini desteklemiyor."
 >>>>>>> upstream/18.0
@@ -7394,7 +7965,11 @@ msgstr "Arama, %(operator)s işlemcisini veya %(value)s değerini desteklemiyor.
 msgid ""
 "The task and the associated partner must be linked to the same company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görev ve ilişkili partner, aynı şirkete bağlı olmalıdır."
+>>>>>>> upstream/18.0
 =======
 msgstr "Görev ve ilişkili partner, aynı şirkete bağlı olmalıdır."
 >>>>>>> upstream/18.0
@@ -7408,6 +7983,12 @@ msgid ""
 "'%(visibility)s' in order to make it accessible by the recipient(s)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Projenin gizliliği çok kısıtlı olduğundan görev alıcı(lar) ile paylaşılamaz. "
+"Görevin alıcı(lar) tarafından erişilebilir olması için projenin gizliliğini "
+"'%(visibility)s' olarak ayarlayın."
+>>>>>>> upstream/18.0
 =======
 "Projenin gizliliği çok kısıtlı olduğundan görev alıcı(lar) ile paylaşılamaz. "
 "Görevin alıcı(lar) tarafından erişilebilir olması için projenin gizliliğini "
@@ -7419,7 +8000,11 @@ msgstr ""
 #: code:addons/project/static/src/views/project_task_form/project_task_form_controller.js:0
 msgid "The task description was empty at the time."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görev açıklaması o esnada boştu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Görev açıklaması o esnada boştu."
 >>>>>>> upstream/18.0
@@ -7432,6 +8017,11 @@ msgid ""
 "- Burnup chart"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Görünüm, tarih ve Aşama'ya göre gruplanmalıdır – 'Kapanış grafiği' veya "
+"'Kapalı mı – Tamamlama grafiği'"
+>>>>>>> upstream/18.0
 =======
 "Görünüm, tarih ve Aşama'ya göre gruplanmalıdır – 'Kapanış grafiği' veya "
 "'Kapalı mı – Tamamlama grafiği'"
@@ -7473,11 +8063,17 @@ msgid ""
 " purchase orders, invoices and bills, timesheets, and tickets."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Paylaşılan proje görevlerini düzenleyebilir ve web sitenizde belirli "
 "belgeleri okuma modunda görüntüleyebilirler. Buna adaylar/fırsatlar, teklif/"
 "satış siparişleri, satın alma siparişleri, faturalar ve fişler, çalışma "
 "çizelgeleri ve talepler dahildir."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -7510,7 +8106,10 @@ msgid ""
 "Are you sure you want to proceed?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Bu analitik hesap aşağıdaki projelerle ilişkilidir:\n"
 "%(projectList)s\n"
 "\n"
@@ -7518,6 +8117,9 @@ msgstr ""
 "kaldırır.\n"
 "\n"
 "Devam etmek istediğinize emin misiniz?"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -7528,6 +8130,11 @@ msgid ""
 " their portal access to the project. Are you sure you want to proceed?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu takipçi şu anda projeye katkı sunmaktadır. Onu kaldırmak, projeye olan "
+"portal erişimini iptal edecektir. Devam etmek istediğinize emin misiniz?"
+>>>>>>> upstream/18.0
 =======
 "Bu takipçi şu anda projeye katkı sunmaktadır. Onu kaldırmak, projeye olan "
 "portal erişimini iptal edecektir. Devam etmek istediğinize emin misiniz?"
@@ -7540,6 +8147,11 @@ msgid ""
 "customers and they have editing access."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu, proje müşterilerle paylaşıldığında ve düzenleme erişimine sahip "
+"olduklarında nasıl görüneceğinin ön izlemesidir."
+>>>>>>> upstream/18.0
 =======
 "Bu, proje müşterilerle paylaşıldığında ve düzenleme erişimine sahip "
 "olduklarında nasıl görüneceğinin ön izlemesidir."
@@ -7556,12 +8168,18 @@ msgid ""
 "records to align them under the same company."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Bu proje %(project_company)s şirketi ile ilişkilendirilmişken, seçilen aşama "
 "%(stage_company)s şirketine aittir. Bu durumu çözmek için birkaç seçenek "
 "vardır: ya projeden ya da aşamadan şirket atamasını kaldırın. Alternatif "
 "olarak, bu kayıtların şirket bilgilerini güncelleyerek aynı şirkette "
 "hizalayabilirsiniz."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -7586,11 +8204,17 @@ msgid ""
 "company designation from the stage"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Bu proje herhangi bir şirketle ilişkilendirilmemişken, aşama %s şirketi ile "
 "ilişkilendirilmiştir. Düşünülebilecek birkaç çözüm vardır: ya projeyi "
 "aşamanın şirketiyle aynı olacak şekilde güncelleyin ya da aşamadan şirket "
 "atamasını kaldırın"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -7598,7 +8222,11 @@ msgstr ""
 #: code:addons/project/models/project_task.py:0
 msgid "This task has sub-tasks, so it can't be private."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu görevin alt görevleri var, bu nedenle özel olamaz."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu görevin alt görevleri var, bu nedenle özel olamaz."
 >>>>>>> upstream/18.0
@@ -7608,7 +8236,11 @@ msgstr "Bu görevin alt görevleri var, bu nedenle özel olamaz."
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_state_selection.xml:0
 msgid "This task is blocked by another unfinished task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu görev, tamamlanmamış başka bir görev tarafından engelleniyor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu görev, tamamlanmamış başka bir görev tarafından engelleniyor"
 >>>>>>> upstream/18.0
@@ -7618,7 +8250,11 @@ msgstr "Bu görev, tamamlanmamış başka bir görev tarafından engelleniyor"
 #: code:addons/project/static/src/project_sharing/components/depend_on_ids_one2many/depend_on_ids_list_renderer.xml:0
 msgid "This task is currently blocked by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu görev şu anda şunun tarafından engelleniyor:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu görev şu anda şunun tarafından engelleniyor:"
 >>>>>>> upstream/18.0
@@ -7658,7 +8294,11 @@ msgstr "İpucu: Gelen e-postalardan görevler oluşturun"
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_3
 msgid "Tip: Project-Specific Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İpucu: Projeye Özgü Alanlar"
+>>>>>>> upstream/18.0
 =======
 msgstr "İpucu: Projeye Özgü Alanlar"
 >>>>>>> upstream/18.0
@@ -7669,6 +8309,11 @@ msgstr "İpucu: Projeye Özgü Alanlar"
 msgid "Tip: Use task states to keep track of your tasks' progression"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"İpucu: Görevlerinizin ilerlemesini takip etmek için görev durumlarını "
+"kullanın"
+>>>>>>> upstream/18.0
 =======
 "İpucu: Görevlerinizin ilerlemesini takip etmek için görev durumlarını "
 "kullanın"
@@ -7679,7 +8324,11 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_2
 msgid "Tip: Your Own Personal Kanban"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İpucu: Kendi Kişisel Kanban’ınız"
+>>>>>>> upstream/18.0
 =======
 msgstr "İpucu: Kendi Kişisel Kanban’ınız"
 >>>>>>> upstream/18.0
@@ -7734,6 +8383,12 @@ msgid ""
 "task."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bir görevi alt göreve dönüştürmek için bir üst görev seçin. Alternatif "
+"olarak, bir alt görevi bağımsız bir görev haline dönüştürmek için üst görev "
+"alanını boş bırakın."
+>>>>>>> upstream/18.0
 =======
 "Bir görevi alt göreve dönüştürmek için bir üst görev seçin. Alternatif "
 "olarak, bir alt görevi bağımsız bir görev haline dönüştürmek için üst görev "
@@ -7767,7 +8422,11 @@ msgstr "Toplam"
 #: code:addons/project/static/src/components/project_right_side_panel/components/project_profitability.xml:0
 msgid "Total Costs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toplam Maliyet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toplam Maliyet"
 >>>>>>> upstream/18.0
@@ -7807,6 +8466,11 @@ msgid ""
 "associated with the project on relevant documents."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Proje ile ilişkili analitik hesabı ilgili belgelere atayarak proje "
+"maliyetlerini, gelirlerini ve kar marjını takip edin."
+>>>>>>> upstream/18.0
 =======
 "Proje ile ilişkili analitik hesabı ilgili belgelere atayarak proje "
 "maliyetlerini, gelirlerini ve kar marjını takip edin."
@@ -7854,7 +8518,11 @@ msgstr "Kayıtlardaki istisna etkinliğinin türü."
 #: code:addons/project/models/project_project_stage.py:0
 msgid "Unarchive Projects"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projeleri Arşivden Çıkar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projeleri Arşivden Çıkar"
 >>>>>>> upstream/18.0
@@ -7954,6 +8622,11 @@ msgid ""
 "Use personal stages to organize your tasks and create your own workflow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Görevlerinizi düzenlemek ve kendi iş akışınızı oluşturmak için kişisel "
+"aşamalar kullanın."
+>>>>>>> upstream/18.0
 =======
 "Görevlerinizi düzenlemek ve kendi iş akışınızı oluşturmak için kişisel "
 "aşamalar kullanın."
@@ -8011,7 +8684,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8068,6 +8744,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8214,7 +8893,11 @@ msgid "Work"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İş"
+>>>>>>> upstream/18.0
 =======
 msgstr "İş"
 >>>>>>> upstream/18.0
@@ -8345,6 +9028,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu aşamalarda bulunan tüm projeleri de arşivden çıkarmak ister misiniz?"
+>>>>>>> upstream/18.0
 =======
 "Bu aşamalarda bulunan tüm projeleri de arşivden çıkarmak ister misiniz?"
 >>>>>>> upstream/18.0
@@ -8420,6 +9107,12 @@ msgid ""
 " of projects linked to %(company_name)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu aşama halihazırda %(project_company_name)s ile ilişkili projeler içerdiği "
+"için şirketi %(company_name)s olarak değiştiremezsiniz. Lütfen bu aşamanın "
+"yalnızca %(company_name)s ile bağlantılı projelerden oluştuğundan emin olun."
+>>>>>>> upstream/18.0
 =======
 "Bu aşama halihazırda %(project_company_name)s ile ilişkili projeler içerdiği "
 "için şirketi %(company_name)s olarak değiştiremezsiniz. Lütfen bu aşamanın "
@@ -8431,7 +9124,11 @@ msgstr ""
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "You can change the sub-task state here!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alt görevin durumunu buradan değiştirebilirsiniz!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alt görevin durumunu buradan değiştirebilirsiniz!"
 >>>>>>> upstream/18.0
@@ -8447,7 +9144,11 @@ msgstr "Yalnızca özel bir görevde kişisel aşama ayarlayabilirsiniz."
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "You can open sub-tasks from the kanban card!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alt görevleri kanban kartından açabilirsiniz!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alt görevleri kanban kartından açabilirsiniz!"
 >>>>>>> upstream/18.0
@@ -8459,6 +9160,11 @@ msgid ""
 " first delete all of their projects."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Projeleri içeren aşamaları silemezsiniz. Bunları arşivleyebilir veya önce "
+"tüm projelerini silebilirsiniz."
+>>>>>>> upstream/18.0
 =======
 "Projeleri içeren aşamaları silemezsiniz. Bunları arşivleyebilir veya önce "
 "tüm projelerini silebilirsiniz."
@@ -8471,6 +9177,11 @@ msgid ""
 " their projects."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Projeleri içeren aşamaları silemezsiniz. Önce tüm projelerini silmeniz "
+"gerekir."
+>>>>>>> upstream/18.0
 =======
 "Projeleri içeren aşamaları silemezsiniz. Önce tüm projelerini silmeniz "
 "gerekir."
@@ -8498,7 +9209,11 @@ msgstr ""
 #: code:addons/project/models/project_task.py:0
 msgid "You cannot read the following fields on tasks: %(field_list)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görevlerde aşağıdaki alanları okuyamazsınız: %(field_list)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görevlerde aşağıdaki alanları okuyamazsınız: %(field_list)s"
 >>>>>>> upstream/18.0
@@ -8508,7 +9223,11 @@ msgstr "Görevlerde aşağıdaki alanları okuyamazsınız: %(field_list)s"
 #: code:addons/project/models/project_task.py:0
 msgid "You cannot write on the following fields on tasks: %(field_list)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görevlerde aşağıdaki alanlara yazamazsınız: %(field_list)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görevlerde aşağıdaki alanlara yazamazsınız: %(field_list)s"
 >>>>>>> upstream/18.0
@@ -8552,6 +9271,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tam kontrol sizde ve portal erişimini istediğiniz zaman iptal edebilirsiniz."
+" Devam etmeye hazır mısınız?"
+>>>>>>> upstream/18.0
 =======
 "Tam kontrol sizde ve portal erişimini istediğiniz zaman iptal edebilirsiniz."
 " Devam etmeye hazır mısınız?"
@@ -8621,7 +9345,11 @@ msgstr "Olmalısın"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "Your managers decide which feedback is accepted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hangi geri bildirimlerin kabul edileceğine yöneticileriniz karar verir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hangi geri bildirimlerin kabul edileceğine yöneticileriniz karar verir"
 >>>>>>> upstream/18.0
@@ -8663,7 +9391,11 @@ msgstr "avatar"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "button."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "düğmesi."
+>>>>>>> upstream/18.0
 =======
 msgstr "düğmesi."
 >>>>>>> upstream/18.0
@@ -8702,7 +9434,11 @@ msgstr "Örneğin. Davetiye Gönder"
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "e.g. Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "örn. Görevler"
+>>>>>>> upstream/18.0
 =======
 msgstr "örn. Görevler"
 >>>>>>> upstream/18.0
@@ -8715,7 +9451,11 @@ msgstr "örn. Görevler"
 #: model_terms:ir.ui.view,arch_db:project.task_type_tree
 msgid "e.g. To Do"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "örn. Yapılacak"
+>>>>>>> upstream/18.0
 =======
 msgstr "örn. Yapılacak"
 >>>>>>> upstream/18.0
@@ -8750,6 +9490,11 @@ msgid ""
 "or cancelled, all of its dependencies will be unblocked."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"diğerlerini bekleyen görevleri görmek için simge. Bir görev tamamlandı veya "
+"iptal edildi olarak işaretlendiğinde, tüm bağımlılıkları kaldırılır."
+>>>>>>> upstream/18.0
 =======
 "diğerlerini bekleyen görevleri görmek için simge. Bir görev tamamlandı veya "
 "iptal edildi olarak işaretlendiğinde, tüm bağımlılıkları kaldırılır."
@@ -8771,7 +9516,11 @@ msgstr "oturum açıldı"
 #: model:ir.actions.server,name:project.action_server_view_my_task
 msgid "menu view My Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "menü görünümü Benim Görevlerim"
+>>>>>>> upstream/18.0
 =======
 msgstr "menü görünümü Benim Görevlerim"
 >>>>>>> upstream/18.0
@@ -8780,7 +9529,11 @@ msgstr "menü görünümü Benim Görevlerim"
 #: model:ir.model.fields.selection,name:project.selection__project_project__rating_status__periodic
 msgid "on a periodic basis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "belirli aralıklarla"
+>>>>>>> upstream/18.0
 =======
 msgstr "belirli aralıklarla"
 >>>>>>> upstream/18.0
@@ -8802,6 +9555,11 @@ msgid ""
 "state to indicate a request for changes or a need for discussion on a task."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"bir görevde değişiklik talebi veya tartışma gerekliliğini belirtmek için "
+"durum."
+>>>>>>> upstream/18.0
 =======
 "bir görevde değişiklik talebi veya tartışma gerekliliğini belirtmek için "
 "durum."
@@ -8814,6 +9572,11 @@ msgid ""
 "state to inform your colleagues that a task is approved for the next stage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"bir görevin bir sonraki aşama için onaylandığını iş arkadaşlarınıza "
+"bildirmek için durum."
+>>>>>>> upstream/18.0
 =======
 "bir görevin bir sonraki aşama için onaylandığını iş arkadaşlarınıza "
 "bildirmek için durum."
@@ -8824,7 +9587,11 @@ msgstr ""
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "state to mark the task as cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "görevi iptal edilmiş olarak işaretlemek için durum."
+>>>>>>> upstream/18.0
 =======
 msgstr "görevi iptal edilmiş olarak işaretlemek için durum."
 >>>>>>> upstream/18.0
@@ -8833,6 +9600,7 @@ msgstr "görevi iptal edilmiş olarak işaretlemek için durum."
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "state to mark the task as complete."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -9022,6 +9790,8 @@ msgstr ""
 msgid "sub-tasks)"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "görevi tamamlanmış olarak işaretlemek için durum."
 
 #. module: project
@@ -9029,6 +9799,9 @@ msgstr "görevi tamamlanmış olarak işaretlemek için durum."
 #: code:addons/project/static/src/components/project_task_name_with_subtask_count_char_field/project_task_name_with_subtask_count_char_field.xml:0
 msgid "sub-tasks)"
 msgstr "alt görevler)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -9073,7 +9846,11 @@ msgstr "Fikrinizin mevcut durumunun ne olduğunu belirtmek için."
 #: model:ir.model.fields.selection,name:project.selection__project_project__rating_status__stage
 msgid "when reaching a given stage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "belirli bir aşamaya ulaşıldığında"
+>>>>>>> upstream/18.0
 =======
 msgstr "belirli bir aşamaya ulaşıldığında"
 >>>>>>> upstream/18.0
@@ -9090,6 +9867,11 @@ msgid ""
 "Satisfaction Survey"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"{{ object.project_id.company_id.name or user.env.company.name }}: Memnuniyet "
+"Anketi"
+>>>>>>> upstream/18.0
 =======
 "{{ object.project_id.company_id.name or user.env.company.name }}: Memnuniyet "
 "Anketi"

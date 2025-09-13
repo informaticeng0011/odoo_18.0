@@ -11,6 +11,11 @@ import { debounce, useThrottleForAnimation } from "@web/core/utils/timing";
 import { Component, onMounted, onWillUpdateProps, useExternalListener, useRef } from "@odoo/owl";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const DEFAULT_COLOR = "#FF0000";
+
+>>>>>>> upstream/18.0
 =======
 const DEFAULT_COLOR = "#FF0000";
 
@@ -30,7 +35,11 @@ export class Colorpicker extends Component {
     static defaultProps = {
         document: window.document,
 <<<<<<< HEAD
+<<<<<<< HEAD
         defaultColor: "#FF0000",
+=======
+        defaultColor: DEFAULT_COLOR,
+>>>>>>> upstream/18.0
 =======
         defaultColor: DEFAULT_COLOR,
 >>>>>>> upstream/18.0
@@ -89,7 +98,12 @@ export class Colorpicker extends Component {
                 ? this.props.selectedColor
                 : this.props.defaultColor;
 <<<<<<< HEAD
+<<<<<<< HEAD
             const rgba = convertCSSColorToRgba(defaultCssColor);
+=======
+            const rgba =
+                convertCSSColorToRgba(defaultCssColor) || convertCSSColorToRgba(DEFAULT_COLOR);
+>>>>>>> upstream/18.0
 =======
             const rgba =
                 convertCSSColorToRgba(defaultCssColor) || convertCSSColorToRgba(DEFAULT_COLOR);

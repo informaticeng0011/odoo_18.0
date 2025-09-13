@@ -1,6 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import contextlib
+>>>>>>> upstream/18.0
 =======
 import contextlib
 >>>>>>> upstream/18.0
@@ -12,7 +16,11 @@ from collections import defaultdict
 
 from odoo import _, api, fields, models, modules, tools
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import AccessError
+=======
+from odoo.exceptions import AccessError, MissingError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessError, MissingError
 >>>>>>> upstream/18.0
@@ -964,7 +972,11 @@ class Message(models.Model):
         scheduled_dt_by_msg_id = {}
         if msg_vals:
 <<<<<<< HEAD
+<<<<<<< HEAD
             scheduled_dt_by_msg_id = {msg.id: msg_vals.get("scheduled_date") for msg in self}
+=======
+            scheduled_dt_by_msg_id = {msg.id: msg_vals.get("scheduled_date", False) for msg in self}
+>>>>>>> upstream/18.0
 =======
             scheduled_dt_by_msg_id = {msg.id: msg_vals.get("scheduled_date", False) for msg in self}
 >>>>>>> upstream/18.0
@@ -1001,14 +1013,20 @@ class Message(models.Model):
             thread_data = {}
             if record._name != "discuss.channel":
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # sudo: mail.thread - if mentionned in a non accessible thread, name is allowed
                 thread_data["name"] = record.sudo().display_name
 =======
+=======
+>>>>>>> upstream/18.0
                 try:
                     # sudo: mail.thread - if mentionned in a non accessible thread, name is allowed
                     thread_data["name"] = record.sudo().display_name
                 except MissingError:
                     continue  # related non mail.thread document deleted, still show message in history
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             if self.env[record._name]._original_module:
                 thread_data["module_icon"] = modules.module.get_module_icon(
@@ -1025,6 +1043,7 @@ class Message(models.Model):
             data = message._read_format(fields, load=False)[0]
             record = record_by_message.get(message)
 <<<<<<< HEAD
+<<<<<<< HEAD
             if record:
                 # sudo: if mentionned in a non accessible thread, user should be able to see the name
                 record_name = record.sudo().display_name
@@ -1036,6 +1055,8 @@ class Message(models.Model):
                 record_name = False
                 default_subject = False
 =======
+=======
+>>>>>>> upstream/18.0
             record_name = False
             default_subject = False
             if record:
@@ -1047,6 +1068,9 @@ class Message(models.Model):
                     if hasattr(record, "_message_compute_subject"):
                         # sudo: if mentionned in a non accessible thread, user should be able to see the subject
                         default_subject = record.sudo()._message_compute_subject()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             data["default_subject"] = default_subject
             vals = {
@@ -1176,7 +1200,10 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain = expression.AND([domain, [("message_type", "not in", ["user_notification", "notification"])]])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1372,6 +1399,7 @@ class Message(models.Model):
     def _filter_empty(self):
         """ Return subset of "void" messages """
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.filtered(
             lambda msg:
                 (not msg.body or tools.is_html_empty(msg.body)) and
@@ -1379,6 +1407,8 @@ class Message(models.Model):
                 not msg.attachment_ids and
                 not msg.tracking_value_ids
 =======
+=======
+>>>>>>> upstream/18.0
         return self.filtered(lambda message: message._is_empty())
 
     def _is_empty(self):
@@ -1388,6 +1418,9 @@ class Message(models.Model):
             and (not self.subtype_id or not self.subtype_id.description)
             and not self.attachment_ids
             and not self.tracking_value_ids
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         )
 

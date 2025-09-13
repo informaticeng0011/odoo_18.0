@@ -19,6 +19,10 @@ class TestGetOperator(TestImLivechatCommon):
             }
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        channel.with_user(operator).message_post(body="Hello, how can I help you?")
+>>>>>>> upstream/18.0
 =======
         channel.with_user(operator).message_post(body="Hello, how can I help you?")
 >>>>>>> upstream/18.0
@@ -207,7 +211,10 @@ class TestGetOperator(TestImLivechatCommon):
         self._create_chat(livechat_channel, second_operator)
         self.assertEqual(first_operator, livechat_channel._get_operator())
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_operator_freed_after_chat_ends(self):
         first_operator = self._create_operator()
@@ -224,4 +231,7 @@ class TestGetOperator(TestImLivechatCommon):
         chat.livechat_active = False
         chat.flush_recordset(["livechat_active"])
         self.assertEqual(first_operator, livechat_channel._get_operator())
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

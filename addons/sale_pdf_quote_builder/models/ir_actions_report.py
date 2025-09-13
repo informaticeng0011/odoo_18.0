@@ -143,7 +143,11 @@ class IrActionsReport(models.Model):
                         self.env, value_, currency_id_ or order.currency_id
                     )
 <<<<<<< HEAD
+<<<<<<< HEAD
                 elif not value_:
+=======
+                elif not value_ and field_type_ not in {'integer', 'float'}:
+>>>>>>> upstream/18.0
 =======
                 elif not value_ and field_type_ not in {'integer', 'float'}:
 >>>>>>> upstream/18.0

@@ -11,7 +11,11 @@ msgstr ""
 "Project-Id-Version: Odoo Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-02-12 10:37+0000\n"
+=======
+"POT-Creation-Date: 2025-08-22 18:39+0000\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-08-22 18:39+0000\n"
 >>>>>>> upstream/18.0
@@ -67,7 +71,12 @@ msgstr "<span class=\"o_stat_text\">Prodaja</span>"
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"small badge text-bg-success orders_label_text_align\">\n"
+=======
+"<span class=\"small badge rounded-pill text-bg-success "
+"orders_label_text_align\">\n"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"small badge rounded-pill text-bg-success "
 "orders_label_text_align\">\n"
@@ -89,7 +98,11 @@ msgstr ""
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.report_delivery_document_inherit_sale_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Customer Reference:</strong>"
+=======
+msgid "<strong>Customer Reference</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Customer Reference</strong>"
 >>>>>>> upstream/18.0
@@ -99,14 +112,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_stock.report_delivery_document_inherit_sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.report_saleorder_document_inherit_sale_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Incoterm:</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "<strong>Incoterm</strong>"
 msgstr ""
 
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_sale_order_line__is_storable
 msgid "A storable product is a product for which you manage stock."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -159,7 +178,10 @@ msgstr ""
 
 #. module: sale_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale_stock.field_sale_order__delivery_status
 msgid ""
 "Blue: Not Delivered/Started\n"
@@ -168,6 +190,9 @@ msgid ""
 msgstr ""
 
 #. module: sale_stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale_stock.field_stock_rules_report__so_route_ids
 msgid "Choose to apply SO lines specific routes."
@@ -427,12 +452,18 @@ msgstr ""
 
 #. module: sale_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_stock_help_message_template
 msgid "No delivery yet! Automate them with sales orders."
 msgstr ""
 
 #. module: sale_stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/sale_stock/static/src/widgets/qty_at_date_widget.xml:0
@@ -486,12 +517,18 @@ msgstr "Proizvod"
 
 #. module: sale_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale_stock.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
 msgstr ""
 
 #. module: sale_stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line__qty_available_today
 msgid "Qty Available Today"
@@ -515,7 +552,10 @@ msgstr ""
 
 #. module: sale_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_stock_help_message_template
 msgid ""
 "Reduce back orders with reservations, locations management, smart\n"
@@ -524,6 +564,9 @@ msgid ""
 msgstr ""
 
 #. module: sale_stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/sale_stock/static/src/widgets/qty_at_date_widget.xml:0
@@ -544,12 +587,18 @@ msgstr ""
 
 #. module: sale_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale_stock.model_stock_return_picking
 msgid "Return Picking"
 msgstr ""
 
 #. module: sale_stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
 msgid "Returns"
@@ -609,6 +658,10 @@ msgstr "Linije porudžbenice"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_stock_lot__sale_order_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale_stock.sale_stock_help_message_template
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_stock_help_message_template
 >>>>>>> upstream/18.0
@@ -662,12 +715,18 @@ msgstr "Opcije transporta"
 
 #. module: sale_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sale_stock.selection__sale_order__delivery_status__started
 msgid "Started"
 msgstr ""
 
 #. module: sale_stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sale_stock.model_stock_move
 msgid "Stock Move"
@@ -696,12 +755,18 @@ msgstr ""
 
 #. module: sale_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale_stock.model_stock_valuation_layer
 msgid "Stock Valuation Layer"
 msgstr ""
 
 #. module: sale_stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sale_stock.model_report_stock_report_stock_rule
 msgid "Stock rule report"
@@ -719,8 +784,13 @@ msgstr ""
 msgid ""
 "The delivery address has been changed on the Sales Order<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        From <strong>\"%s\"</strong> To <strong>\"%s\"</"
 "strong>,\n"
+=======
+"                        From <strong>\"%(old_address)s\"</strong> to "
+"<strong>\"%(new_address)s\"</strong>,\n"
+>>>>>>> upstream/18.0
 =======
 "                        From <strong>\"%(old_address)s\"</strong> to "
 "<strong>\"%(new_address)s\"</strong>,\n"
@@ -753,12 +823,18 @@ msgstr ""
 
 #. module: sale_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line__is_storable
 msgid "Track Inventory"
 msgstr ""
 
 #. module: sale_stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sale_stock.model_stock_picking
 msgid "Transfer"
@@ -787,6 +863,10 @@ msgstr ""
 
 #. module: sale_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:sale_stock.model_stock_warehouse
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:sale_stock.model_stock_warehouse
 >>>>>>> upstream/18.0
@@ -814,7 +894,10 @@ msgstr ""
 
 #. module: sale_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale_stock/models/sale_order.py:0
 msgid ""
@@ -828,6 +911,9 @@ msgid "You must set a warehouse on your sale order to proceed."
 msgstr ""
 
 #. module: sale_stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_so
 msgid "cancelled"

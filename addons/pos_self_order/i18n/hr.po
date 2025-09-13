@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_self_order
 # 
+=======
+# * pos_self_order
+#
+>>>>>>> upstream/18.0
 =======
 # * pos_self_order
 #
@@ -21,7 +26,13 @@
 # Bole <bole@dajmi5.com>, 2024
 # Jurica Pomper, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+# Alen Komljen <alen@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Luka Carević <luka@uvid.hr>, 2025
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
@@ -31,6 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-02-10 13:24+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -42,6 +54,8 @@ msgstr ""
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-08 18:38+0000\n"
 "PO-Revision-Date: 2025-08-25 15:55+0000\n"
 "Last-Translator: Alen Komljen <alen@uvid.hr>\n"
@@ -54,6 +68,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_self_order
@@ -71,13 +88,19 @@ msgstr ""
 
 #. module: pos_self_order
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "(require Odoo Enterprise)"
 msgstr ""
 
 #. module: pos_self_order
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/store/order_change_receipt_template.xml:0
@@ -194,7 +217,11 @@ msgstr "Dostupno"
 #: model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_ordering_available_language_ids
 msgid "Available Languages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostupni jezici"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dostupni jezici"
 >>>>>>> upstream/18.0
@@ -214,7 +241,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_self_order.field_product_template__self_order_available
 msgid "Available in Self Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostupno za samostalno naručivanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dostupno za samostalno naručivanje"
 >>>>>>> upstream/18.0
@@ -238,6 +269,10 @@ msgstr "Natrag"
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 >>>>>>> upstream/18.0
@@ -249,7 +284,11 @@ msgstr "Otkaži"
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "Cancel Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otkažite narudžbu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otkažite narudžbu"
 >>>>>>> upstream/18.0
@@ -258,14 +297,20 @@ msgstr "Otkažite narudžbu"
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/pos_self_order/static/src/app/pages/product_list_page/product_list_page.js:0
 msgid "Cancel order"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.js:0
 #: code:addons/pos_self_order/static/src/app/pages/product_list_page/product_list_page.js:0
 msgid "Cancel order"
 msgstr "Otkažite narudžbu"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_self_order
@@ -392,7 +437,11 @@ msgstr "Opasnost"
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__dark
 msgid "Dark"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tamno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tamno"
 >>>>>>> upstream/18.0
@@ -414,7 +463,11 @@ msgstr "Zadani jezik"
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
 msgid "Default User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadani korisnik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadani korisnik"
 >>>>>>> upstream/18.0
@@ -465,13 +518,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Each table in your floor plan is assigned a unique QR code based on your configuration. For security reasons,\n"
 "                    both the point of sale and table names are encrypted in the generated URL, as shown in the example below:."
 =======
+=======
+>>>>>>> upstream/18.0
 "Each table in your floor plan is assigned a unique QR code based on your "
 "configuration. For security reasons,\n"
 "                    both the point of sale and table names are encrypted in "
 "the generated URL, as shown in the example below:."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -490,7 +549,10 @@ msgstr "Uredi"
 #. module: pos_self_order
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_self_order/static/src/overrides/components/qr_order_button/qr_order_button.js:0
 msgid ""
 "Enable QR menu in the Restaurant settings to get QR codes for free on tables."
@@ -498,6 +560,9 @@ msgstr ""
 
 #. module: pos_self_order
 #. odoo-javascript
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/pos_self_order/static/src/app/components/attribute_selection/attribute_selection.xml:0
 msgid "Enter your custom value"
@@ -507,8 +572,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Feel free to use and print this QR code as many times as needed according to"
 " your requirements."
+=======
+"Feel free to use and print this QR code as many times as needed according to "
+"your requirements."
+>>>>>>> upstream/18.0
 =======
 "Feel free to use and print this QR code as many times as needed according to "
 "your requirements."
@@ -540,7 +610,10 @@ msgstr "Opći"
 #. module: pos_self_order
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_self_order/static/src/overrides/components/qr_order_button/qr_order_button.xml:0
 msgid "Get QR Codes"
 msgstr ""
@@ -553,6 +626,9 @@ msgstr ""
 
 #. module: pos_self_order
 #. odoo-javascript
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/pos_self_order/static/src/app/pages/stand_number_page/stand_number_page.xml:0
 msgid "Get a tracker and enter its number here"
@@ -567,7 +643,11 @@ msgstr "HTTP usmjeravanje"
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_config__has_paper
 msgid "Has paper"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadrži papir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sadrži papir"
 >>>>>>> upstream/18.0
@@ -616,13 +696,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you need customized QR codes, start by scanning the relevant QR code to acquire the URL. Then, make\n"
 "                use of a QR code generator like https://www.qrcode-monkey.com or https://www.qr-code-generator.com"
 =======
+=======
+>>>>>>> upstream/18.0
 "If you need customized QR codes, start by scanning the relevant QR code to "
 "acquire the URL. Then, make\n"
 "                use of a QR code generator like https://www.qrcode-"
 "monkey.com or https://www.qr-code-generator.com"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -698,7 +784,11 @@ msgstr "Promijenjeno"
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
 msgid "Let your customers order using their mobile or a kiosk."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omogućite svojim kupcima naručivanje putem mobitela ili kioska."
+>>>>>>> upstream/18.0
 =======
 msgstr "Omogućite svojim kupcima naručivanje putem mobitela ili kioska."
 >>>>>>> upstream/18.0
@@ -707,7 +797,11 @@ msgstr "Omogućite svojim kupcima naručivanje putem mobitela ili kioska."
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__light
 msgid "Light"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svijetlo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svijetlo"
 >>>>>>> upstream/18.0
@@ -748,7 +842,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
 msgid "Mobile self-order & Kiosk"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mobilna samoposlužna narudžba i kiosk"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mobilna samoposlužna narudžba i kiosk"
 >>>>>>> upstream/18.0
@@ -877,7 +975,11 @@ msgstr "Plati"
 #: model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_ordering_pay_after
 msgid "Pay After:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plati nakon:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plati nakon:"
 >>>>>>> upstream/18.0
@@ -996,6 +1098,10 @@ msgstr "Proizvod"
 #. module: pos_self_order
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 >>>>>>> upstream/18.0
@@ -1051,7 +1157,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
 msgid "QR menu & Kiosk activation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR meni i aktivacija kioska"
+>>>>>>> upstream/18.0
 =======
 msgstr "QR meni i aktivacija kioska"
 >>>>>>> upstream/18.0
@@ -1111,8 +1221,13 @@ msgstr ""
 msgid ""
 "Select for which points of sale you want to display this link. Leave empty "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "to display it for all points of sale. You have to select among the points of"
 " sale that have the 'QR Code Menu' feature enabled."
+=======
+"to display it for all points of sale. You have to select among the points of "
+"sale that have the 'QR Code Menu' feature enabled."
+>>>>>>> upstream/18.0
 =======
 "to display it for all points of sale. You have to select among the points of "
 "sale that have the 'QR Code Menu' feature enabled."
@@ -1130,7 +1245,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_ordering_image_brand_name
 msgid "Self Order Kiosk Image Brand Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv brenda slike za samoposlužni kiosk narudžbi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv brenda slike za samoposlužni kiosk narudžbi"
 >>>>>>> upstream/18.0
@@ -1144,7 +1263,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
 msgid "Self Ordering"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samostalno naručivanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samostalno naručivanje"
 >>>>>>> upstream/18.0
@@ -1159,7 +1282,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_ordering_mode
 msgid "Self Ordering Mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Način samostalnog naručivanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Način samostalnog naručivanja"
 >>>>>>> upstream/18.0
@@ -1169,7 +1296,11 @@ msgstr "Način samostalnog naručivanja"
 #: model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_ordering_service_mode
 msgid "Self Ordering Service Mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Način samoposlužnog naručivanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Način samoposlužnog naručivanja"
 >>>>>>> upstream/18.0
@@ -1184,7 +1315,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_ordering_takeaway
 msgid "Self Takeaway"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samoposlužno preuzimanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samoposlužno preuzimanje"
 >>>>>>> upstream/18.0
@@ -1257,7 +1392,11 @@ msgstr "Table"
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_order__table_stand_number
 msgid "Table Stand Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj stola na stalku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj stola na stalku"
 >>>>>>> upstream/18.0
@@ -1415,13 +1554,19 @@ msgstr "Da"
 #. module: pos_self_order
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_self_order/controllers/orders.py:0
 msgid "You are not authorized to remove this order"
 msgstr ""
 
 #. module: pos_self_order
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/pos_self_order/models/pos_config.py:0
 #: code:addons/pos_self_order/models/res_config_settings.py:0
@@ -1455,13 +1600,19 @@ msgstr ""
 
 #. module: pos_self_order
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/pos_self_order/controllers/orders.py:0
 msgid "Your order does not exist or has been removed"
 msgstr ""
 
 #. module: pos_self_order
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
@@ -1498,12 +1649,15 @@ msgstr ""
 
 #. module: pos_self_order
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "floor"
 msgstr ""
 
 #. module: pos_self_order
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree

@@ -45,7 +45,10 @@ test("should insert a newline instead of splitting an explicit contenteditable='
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("should keep the last line break in the old paragraph", async () => {
     await testEditor({
         contentBefore: "<div><p>abc<br>[]<br></p></div>",
@@ -68,4 +71,7 @@ test("should keep the last line break in the old paragraph", async () => {
         contentAfter: "<div><p><br><br></p><p>[]<br></p></div>",
     });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

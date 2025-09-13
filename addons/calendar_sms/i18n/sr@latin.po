@@ -1,22 +1,29 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* calendar_sms
 #
 # Translators:
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022
 #
 =======
+=======
+>>>>>>> upstream/18.0
 # * calendar_sms
 #
 # Translators:
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2022-09-22 05:45+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, "
@@ -29,6 +36,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-08 07:47+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -40,6 +49,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: calendar_sms
@@ -75,6 +87,11 @@ msgid ""
 "partner_id.tz) }}"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Podsetnik na događaj: {{ object.name }}, {{ "
+"object.get_display_time_tz(object.partner_id.tz) }}"
+>>>>>>> upstream/18.0
 =======
 "Podsetnik na događaj: {{ object.name }}, {{ "
 "object.get_display_time_tz(object.partner_id.tz) }}"
@@ -86,7 +103,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:calendar_sms.field_calendar_alarm__sms_notify_responsible
 msgid "Notify Responsible"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obavesti odgovorno lice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obavesti odgovorno lice"
 >>>>>>> upstream/18.0

@@ -37,6 +37,11 @@ class DiscussChannel(models.Model):
             try:
                 country_id = visitor.partner_id.country_id or visitor.country_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                # sudo: members can read the visitor history (either the visitor himself or agents).
+                history_data = self.sudo()._get_visitor_history_data(visitor)
+>>>>>>> upstream/18.0
 =======
                 # sudo: members can read the visitor history (either the visitor himself or agents).
                 history_data = self.sudo()._get_visitor_history_data(visitor)
@@ -47,7 +52,12 @@ class DiscussChannel(models.Model):
                     'id': visitor.id,
                     'is_connected': visitor.is_connected,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'history': self.sudo()._get_visitor_history(visitor),
+=======
+                    'history': self._format_visitor_history(history_data),
+                    'history_data': history_data,
+>>>>>>> upstream/18.0
 =======
                     'history': self._format_visitor_history(history_data),
                     'history_data': history_data,
@@ -62,7 +72,10 @@ class DiscussChannel(models.Model):
             store.add(channel, channel_info)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_visitor_history_data(self, visitor):
         recent_history = self.env["website.track"].search(
             [("page_id", "!=", False), ("visitor_id", "=", visitor.id)], limit=3
@@ -72,6 +85,9 @@ class DiscussChannel(models.Model):
             for visit in reversed(recent_history)
         ]
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_visitor_history(self, visitor):
         """
@@ -80,9 +96,12 @@ class DiscussChannel(models.Model):
         :return: arrow separated string containing navigation history information
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
         recent_history = self.env['website.track'].search([('page_id', '!=', False), ('visitor_id', '=', visitor.id)], limit=3)
         return ' → '.join(visit.page_id.name + ' (' + visit.visit_datetime.strftime('%H:%M') + ')' for visit in reversed(recent_history))
 =======
+=======
+>>>>>>> upstream/18.0
         history_data = self._get_visitor_history_data(visitor)
         return self._format_visitor_history(history_data)
 
@@ -91,6 +110,9 @@ class DiscussChannel(models.Model):
             f"{label} ({fields.Datetime.from_string(date).strftime('%H:%M')})"
             for label, date in history_data
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _get_visitor_leave_message(self, operator=False, cancel=False):

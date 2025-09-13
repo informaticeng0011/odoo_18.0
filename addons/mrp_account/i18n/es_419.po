@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp_account
 # 
 # Translators:
@@ -374,6 +375,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * mrp_account
 #
 # Translators:
@@ -381,11 +384,15 @@
 # Fernanda Alvarez, 2025
 #
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -829,6 +836,8 @@ msgstr ""
 "Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-29 18:37+0000\n"
 "PO-Revision-Date: 2025-09-01 21:17+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
@@ -841,6 +850,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp_account
@@ -861,13 +873,19 @@ msgstr "%s - Mano de obra"
 
 #. module: mrp_account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp_account/models/stock_move.py:0
 msgid "%s - Unbuild Cost Difference"
 msgstr "%s - Diferencia del costo de desmontaje"
 
 #. module: mrp_account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp_account.report_wip
 msgid "2023-08-15"
@@ -1176,8 +1194,12 @@ msgstr "Línea de cuenta analítica de la orden de fabricación"
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Please make sure the total credit amount equals the total debit amount."
+=======
+msgid "Please make sure the total credit amount equals the total debit amount."
+>>>>>>> upstream/18.0
 =======
 msgid "Please make sure the total credit amount equals the total debit amount."
 >>>>>>> upstream/18.0
@@ -1255,7 +1277,11 @@ msgid "Post Manufacturing WIP"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Publicar trabajo en curso de fabricación"
+=======
+msgstr "Registrar trabajo de fabricación en curso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registrar trabajo de fabricación en curso"
 >>>>>>> upstream/18.0
@@ -1528,7 +1554,11 @@ msgid "Post WIP"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Publicar trabajo en curso"
+=======
+msgstr "Registrar trabajo en curso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registrar trabajo en curso"
 >>>>>>> upstream/18.0
@@ -1801,7 +1831,11 @@ msgid "Post WIP Accounting Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Publicar asiento contable del trabajo en curso"
+=======
+msgstr "Registrar asiento contable del trabajo en curso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registrar asiento contable del trabajo en curso"
 >>>>>>> upstream/18.0
@@ -2073,6 +2107,7 @@ msgid "Stock Move"
 msgstr "Movimiento de stock"
 
 #. module: mrp_account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2474,6 +2509,8 @@ msgstr "Capa de valoración de existencias"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp_account.field_account_bank_statement_line__wip_production_ids
 #: model:ir.model.fields,help:mrp_account.field_account_move__wip_production_ids
 msgid ""
@@ -2481,8 +2518,13 @@ msgid ""
 "entry creation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Las órdenes de fabricación es las que está basada esta entrada de trabajo en"
 " curso. Se espera que se establezcan al crear la entrada correspondiente."
+=======
+"Las órdenes de fabricación es las que está basada esta entrada de trabajo en "
+"curso. Se espera que se establezcan al crear la entrada correspondiente."
+>>>>>>> upstream/18.0
 =======
 "Las órdenes de fabricación es las que está basada esta entrada de trabajo en "
 "curso. Se espera que se establezcan al crear la entrada correspondiente."
@@ -2492,9 +2534,15 @@ msgstr ""
 #: model:ir.model.fields,help:mrp_account.field_mrp_workcenter__expense_account_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The expense is accounted for when the manufacturing order is marked as done."
 " If not set, it is the expense account of the final product that will be "
 "used instead."
+=======
+"The expense is accounted for when the manufacturing order is marked as done. "
+"If not set, it is the expense account of the final product that will be used "
+"instead."
+>>>>>>> upstream/18.0
 =======
 "The expense is accounted for when the manufacturing order is marked as done. "
 "If not set, it is the expense account of the final product that will be used "
@@ -2508,12 +2556,15 @@ msgstr ""
 #: model:ir.model.fields,help:mrp_account.field_product_category__property_stock_account_production_cost_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This account will be used as a valuation counterpart for both components and final products for manufacturing orders.\n"
 "                If there are any workcenter/employee costs, this value will remain on the account once the production is completed."
 msgstr ""
 "Esta cuenta se usará como una contrapartida de valuación tanto para los componentes como para los productos finales para las órdenes de fabricación.\n"
 "                Si hay costos del centro de trabajo/empleados, este valor permanecerá en la cuenta una vez que la producción esté terminada."
 =======
+=======
+>>>>>>> upstream/18.0
 "This account will be used as a valuation counterpart for both components and "
 "final products for manufacturing orders.\n"
 "                If there are any workcenter/employee costs, this value will "
@@ -2524,6 +2575,9 @@ msgstr ""
 "fabricación.\n"
 "                Si hay costos del centro de trabajo/empleados, este valor "
 "permanecerá en la cuenta una vez que la producción esté terminada."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp_account
@@ -2577,6 +2631,7 @@ msgstr "Asistente de contabilidad para el trabajo en curso"
 #. module: mrp_account
 #: model:ir.actions.report,name:mrp_account.wip_report
 msgid "WIP report"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2754,6 +2809,9 @@ msgstr "Reporte de trabajo en curso"
 =======
 msgstr "Reporte de trabajo en curso"
 >>>>>>> upstream/18.0
+=======
+msgstr "Reporte de trabajo en curso"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_workorder__wc_analytic_account_line_ids
@@ -2775,6 +2833,7 @@ msgstr "Centro de trabajo"
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_routing_workcenter
 msgid "Work Center Usage"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3044,6 +3103,9 @@ msgstr "Uso del centro de trabajo"
 =======
 msgstr "Uso del centro de trabajo"
 >>>>>>> upstream/18.0
+=======
+msgstr "Uso del centro de trabajo"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_workorder
@@ -3078,6 +3140,12 @@ msgstr "Registro de productividad del centro de trabajo"
 msgid "[WC] %s"
 msgstr "[Centro de trabajo] %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Stock Valuation Layer"
+#~ msgstr "Capa de valoración de existencias"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Stock Valuation Layer"

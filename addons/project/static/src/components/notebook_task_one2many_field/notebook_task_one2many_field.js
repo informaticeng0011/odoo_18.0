@@ -11,7 +11,10 @@ export class NotebookTaskOne2ManyField extends X2ManyField {
         ListRenderer: NotebookTaskListRenderer,
     };
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     get rendererProps() {
         const rendererProps = super.rendererProps;
@@ -20,6 +23,9 @@ export class NotebookTaskOne2ManyField extends X2ManyField {
         }
         return rendererProps;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 

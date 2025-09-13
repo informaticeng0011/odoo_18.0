@@ -295,8 +295,13 @@ class TestFrenchLeaves(TransactionCase):
         Test Case:
         ==========
 <<<<<<< HEAD
+<<<<<<< HEAD
         - Employee works from 8 to 12 and 14 to 17 Monday to Wednesday
         - Company works from 9 to 12 and 13 to 18 Monday to Friday
+=======
+        - Employee works from 8 to 12 and 14 to 17 Monday to Wednesday -> 7h/d
+        - Company works from 9 to 12 and 13 to 18 Monday to Friday -> 8h/d
+>>>>>>> upstream/18.0
 =======
         - Employee works from 8 to 12 and 14 to 17 Monday to Wednesday -> 7h/d
         - Company works from 9 to 12 and 13 to 18 Monday to Friday -> 8h/d
@@ -352,6 +357,10 @@ class TestFrenchLeaves(TransactionCase):
         })
         self.assertEqual(leave.number_of_days, 1, 'The duration should be 1 day.')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertNotEqual(leave.number_of_hours, 8.0, 'Company and employee hours per day should not match in this case')
+>>>>>>> upstream/18.0
 =======
         self.assertNotEqual(leave.number_of_hours, 8.0, 'Company and employee hours per day should not match in this case')
 >>>>>>> upstream/18.0
@@ -369,6 +378,10 @@ class TestFrenchLeaves(TransactionCase):
         self.assertEqual(leave.date_from.date(), date(2024, 7, 29))
         self.assertEqual(leave.date_to.date(), date(2024, 7, 29))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertNotEqual(leave.number_of_hours, 8.0, 'Company and employee hours per day should not match in this case')
+>>>>>>> upstream/18.0
 =======
         self.assertNotEqual(leave.number_of_hours, 8.0, 'Company and employee hours per day should not match in this case')
 >>>>>>> upstream/18.0
@@ -378,6 +391,10 @@ class TestFrenchLeaves(TransactionCase):
         self.assertEqual(leave.date_from.date(), date(2024, 7, 29))
         self.assertEqual(leave.date_to.date(), date(2024, 7, 29))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertNotEqual(leave.number_of_hours, 8.0, 'Company and employee hours per day should not match in this case')
+>>>>>>> upstream/18.0
 =======
         self.assertNotEqual(leave.number_of_hours, 8.0, 'Company and employee hours per day should not match in this case')
 >>>>>>> upstream/18.0

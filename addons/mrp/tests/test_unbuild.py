@@ -455,7 +455,10 @@ class TestUnbuild(TestMrpCommon):
         self.assertEqual(sum(ml.mapped('quantity')), 8.0, 'Should have consumed 8 for the second lot')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_unbuild_without_lot_after_tracking_change(self):
         """ This test creates a MO without lots, and later one of the consumed products starts being tracking by lot.
         And then creates 1 unbuild order for the final product.
@@ -497,6 +500,9 @@ class TestUnbuild(TestMrpCommon):
         self.assertEqual(self.env['stock.quant']._get_available_quantity(p1, self.stock_location, strict=True), 92, 'You should have 92 products in stock without lot')
         self.assertEqual(self.env['stock.quant']._get_available_quantity(p2, self.stock_location), 3, 'You should have consumed all the 5 product in stock')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_unbuild_with_routes(self):
         """ This test creates a MO of a stockable product (Table). A new route for rule QC/Unbuild -> Stock
@@ -1064,7 +1070,10 @@ class TestUnbuild(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1200,6 +1209,7 @@ class TestUnbuild(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1268,6 +1278,8 @@ class TestUnbuild(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_unbuild_consigned_comp(self):
         """ Test that after unbuild, consigned quant still have the same owner as before the MO."""
@@ -1331,4 +1343,7 @@ class TestUnbuild(TestMrpCommon):
                     {'product_id': self.product_2.id, 'quantity': 24, 'state': 'done'},  # Wood
                     {'product_id': self.product_1.id, 'quantity': 48, 'state': 'done'},  # Courage
                 ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

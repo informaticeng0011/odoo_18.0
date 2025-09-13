@@ -2,7 +2,13 @@ import { Plugin } from "@html_editor/plugin";
 import {
     ICON_SELECTOR,
 <<<<<<< HEAD
+<<<<<<< HEAD
     isIconElement,
+=======
+    EDITABLE_MEDIA_CLASS,
+    isIconElement,
+    isMediaElement,
+>>>>>>> upstream/18.0
 =======
     EDITABLE_MEDIA_CLASS,
     isIconElement,
@@ -72,6 +78,11 @@ export class MediaPlugin extends Plugin {
 
         unsplittable_node_predicates: isIconElement, // avoid merge
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        functional_empty_node_predicates: isMediaElement,
+        is_node_editable_predicates: this.isEditableMediaElement.bind(this),
+>>>>>>> upstream/18.0
 =======
         functional_empty_node_predicates: isMediaElement,
         is_node_editable_predicates: this.isEditableMediaElement.bind(this),
@@ -85,10 +96,13 @@ export class MediaPlugin extends Plugin {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     replaceImage() {
         const selectedNodes = this.dependencies.selection.getSelectedNodes();
         const node = selectedNodes.find((node) => node.tagName === "IMG");
 =======
+=======
+>>>>>>> upstream/18.0
     isEditableMediaElement(node) {
         return (
             (isMediaElement(node) || node.nodeName === "IMG") &&
@@ -99,6 +113,9 @@ export class MediaPlugin extends Plugin {
     replaceImage() {
         const targetedNodes = this.dependencies.selection.getTargetedNodes();
         const node = targetedNodes.find((node) => node.tagName === "IMG");
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (node) {
             this.openMediaDialog({ node });

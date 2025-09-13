@@ -13,6 +13,10 @@ tests independently to functional aspects of other models. """,
         'mail',
         'sms',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'sms_twilio',
+>>>>>>> upstream/18.0
 =======
         'sms_twilio',
 >>>>>>> upstream/18.0

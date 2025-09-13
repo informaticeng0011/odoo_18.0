@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_setup
 # 
+=======
+# * base_setup
+#
+>>>>>>> upstream/18.0
 =======
 # * base_setup
 #
@@ -22,6 +27,7 @@
 # Quim - coopdevs <quim.rebull@coopdevs.org>, 2024
 # Arnau Ros, 2024
 # marcescu, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Santiago Payà <santiagopim@gmail.com>, 2024
 <<<<<<< HEAD
@@ -154,11 +160,17 @@
 # Santiago Payà <santiagopim@gmail.com>, 2025
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Noemi Pla, 2025
+# Santiago Payà <santiagopim@gmail.com>, 2025
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -293,6 +305,8 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-08 10:53+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
@@ -303,6 +317,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_setup
@@ -352,7 +369,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -452,6 +472,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -559,7 +582,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -660,6 +686,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -766,7 +795,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -866,6 +898,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -946,6 +981,11 @@ msgid ""
 "turnstile."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<strong>Desa</strong> aquesta pàgina i torna després per configurar "
+"Cloudflare Turnstile."
+>>>>>>> upstream/18.0
 =======
 "<strong>Desa</strong> aquesta pàgina i torna després per configurar "
 "Cloudflare Turnstile."
@@ -978,6 +1018,11 @@ msgid ""
 "factor authentication is enabled."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Les claus API permeten als usuaris accedir a Odoo mitjançant eines externes "
+"quan l'autenticació de doble factor està habilitada."
+>>>>>>> upstream/18.0
 =======
 "Les claus API permeten als usuaris accedir a Odoo mitjançant eines externes "
 "quan l'autenticació de doble factor està habilitada."
@@ -1041,14 +1086,20 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Automatically generate counterpart documents in recipient companies"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #, fuzzy
 msgid "Automatically generate counterpart documents in recipient companies"
 msgstr ""
 "Genera automàticament documents de contrapartida en les empreses "
 "destinatàries"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_setup
@@ -1058,6 +1109,12 @@ msgid ""
 "unchecked, new users will only have basic employee access."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"De forma predeterminada, els nous usuaris tenen tots els drets d'accés quant "
+"a les aplicacions instal·lades. Si no està seleccionat, els usuaris només "
+"tindran accés bàsic com a empleats."
+>>>>>>> upstream/18.0
 =======
 "De forma predeterminada, els nous usuaris tenen tots els drets d'accés quant "
 "a les aplicacions instal·lades. Si no està seleccionat, els usuaris només "
@@ -1073,7 +1130,11 @@ msgstr "Triï el disseny dels seus documents"
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_website_cf_turnstile
 msgid "Cloudflare Turnstile"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cloudflare Turnstile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cloudflare Turnstile"
 >>>>>>> upstream/18.0
@@ -1092,7 +1153,11 @@ msgstr "Empresa"
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_country_code
 msgid "Company Country Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Codi de país de l'empresa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codi de país de l'empresa"
 >>>>>>> upstream/18.0
@@ -1152,7 +1217,11 @@ msgstr "No s'ha trobat la plantilla d'usuari per defecte."
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Document Layout"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Disseny del document"
+>>>>>>> upstream/18.0
 =======
 msgstr "Disseny del document"
 >>>>>>> upstream/18.0
@@ -1201,7 +1270,11 @@ msgstr "GeoLocalitzar"
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Geolocate your partners"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geolocalitza els teus contactes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geolocalitza els teus contactes"
 >>>>>>> upstream/18.0
@@ -1230,7 +1303,11 @@ msgstr "Importar i exportar"
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Integrate with mail client plugins"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Integración con plugins de clientes de correo"
+=======
+msgstr "Integració amb plugins de clients de correu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Integració amb plugins de clients de correu"
 >>>>>>> upstream/18.0
@@ -1249,7 +1326,11 @@ msgstr "Transaccions entre empreses"
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__is_root_company
 msgid "Is Root Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "És l'empresa principal"
+>>>>>>> upstream/18.0
 =======
 msgstr "És l'empresa principal"
 >>>>>>> upstream/18.0
@@ -1359,7 +1440,11 @@ msgstr "Habiliteu l'eina de perfilat fins"
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Progressive Web App"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aplicació web progressiva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aplicació web progressiva"
 >>>>>>> upstream/18.0
@@ -1373,7 +1458,11 @@ msgstr "Protegiu els vostres formularis del correu brossa i l'abús."
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Protect your forms with CF Turnstile."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Protegeix els teus formularis amb Cloudflare Turnstile."
+>>>>>>> upstream/18.0
 =======
 msgstr "Protegeix els teus formularis amb Cloudflare Turnstile."
 >>>>>>> upstream/18.0
@@ -1424,6 +1513,11 @@ msgid ""
 "the browser."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aquest nom es farà servir per a l'aplicació quan s'instal·li Odoo a través "
+"del navegador."
+>>>>>>> upstream/18.0
 =======
 "Aquest nom es farà servir per a l'aplicació quan s'instal·li Odoo a través "
 "del navegador."
@@ -1519,6 +1613,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1678,12 +1773,17 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/base_setup/models/res_users.py:0
 msgid "You have to install the Discuss application to use this feature."
 msgstr "Cal instal·lar l'aplicació Converses per utilitzar aquesta funció."
 
 #. module: base_setup
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_recaptcha
 msgid "reCAPTCHA"

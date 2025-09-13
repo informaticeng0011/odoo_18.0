@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2025
@@ -307,16 +308,22 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
 # Aleš Pipan, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -628,6 +635,8 @@ msgstr ""
 "Language: sl\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-05 18:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Aleš Pipan, 2025\n"
@@ -638,6 +647,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3);\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -714,7 +726,12 @@ msgstr ""
 msgid ""
 "<span class=\"o_stat_text\">Add</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Context Action</span>"
+=======
+"                                <span class=\"o_stat_text\">Context Action</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"o_stat_text\">Context Action</"
 "span>"
@@ -731,7 +748,12 @@ msgstr ""
 msgid ""
 "<span class=\"o_stat_text\">Remove</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Context Action</span>"
+=======
+"                                <span class=\"o_stat_text\">Context Action</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"o_stat_text\">Context Action</"
 "span>"
@@ -741,7 +763,12 @@ msgstr ""
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_preview_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-warning\" invisible=\"not no_record\">No records</span>"
+=======
+msgid ""
+"<span class=\"text-warning\" invisible=\"not no_record\">No records</span>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span class=\"text-warning\" invisible=\"not no_record\">No records</span>"
@@ -752,6 +779,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.ir_actions_server_view_form
 msgid ""
 "<span invisible=\"sms_method != 'sms'\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                The message will be sent as an SMS to the recipients of the template\n"
 "                                and will not appear in the messaging history.\n"
@@ -764,6 +792,8 @@ msgid ""
 "                                The SMS will be sent as an SMS to the recipients of the\n"
 "                                template and it will also be posted as an internal note\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                The message will be sent as an SMS to the "
 "recipients of the template\n"
 "                                and will not appear in the messaging "
@@ -779,6 +809,9 @@ msgid ""
 "recipients of the\n"
 "                                template and it will also be posted as an "
 "internal note\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                in the messaging history.\n"
 "                            </span>"
@@ -934,7 +967,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.ir_actions_server_view_form
 msgid "Choose a template..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izberite predlogo ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Izberite predlogo ..."
 >>>>>>> upstream/18.0
@@ -960,12 +997,18 @@ msgstr "Zaključi"
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sms.model_res_company
 msgid "Companies"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_sms_composer__composition_mode
 msgid "Composition Mode"
@@ -1034,7 +1077,11 @@ msgstr "Ustvarjeno"
 #: model:iap.service,unit_name:sms.iap_service_sms
 msgid "Credits"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zasluge"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zasluge"
 >>>>>>> upstream/18.0
@@ -1093,7 +1140,11 @@ msgstr "ID dokumenta"
 #: model:ir.model.fields,field_description:sms.field_sms_composer__res_ids
 msgid "Document IDs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID-ji dokumentov"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID-ji dokumentov"
 >>>>>>> upstream/18.0
@@ -1117,7 +1168,11 @@ msgstr "Podvoji"
 #: model_terms:ir.ui.view,arch_db:sms.mail_resend_message_view_form
 msgid "Edit Partners"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urejanje partnerjev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urejanje partnerjev"
 >>>>>>> upstream/18.0
@@ -1175,14 +1230,20 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_template__template_fs
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "File from where the template originates. Used to reset broken template."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "File from where the template originates. Used to reset broken template."
 msgstr ""
 "Datoteka, iz katere izvira predloga. Uporablja se za ponastavitev pokvarjene "
 "predloge."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -1286,24 +1347,34 @@ msgstr "Če je označeno, nekatera sporočila vsebujejo napako pri dostavi."
 #: model:ir.model.fields,help:sms.field_res_partner__phone_sanitized_blacklisted
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
 msgstr ""
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
 =======
+=======
+>>>>>>> upstream/18.0
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
 msgstr ""
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.mail_resend_message_view_form
 msgid "Ignore all"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prezri vse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prezri vse"
 >>>>>>> upstream/18.0
@@ -1420,7 +1491,11 @@ msgstr "Zadnjič posodobljeno"
 #: model:ir.model,name:sms.model_sms_tracker
 msgid "Link SMS to mailing/sms tracking models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezava SMS-a z modeli sledenja e-poštnim sporočilom/SMS-om"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povezava SMS-a z modeli sledenja e-poštnim sporočilom/SMS-om"
 >>>>>>> upstream/18.0
@@ -1429,7 +1504,11 @@ msgstr "Povezava SMS-a z modeli sledenja e-poštnim sporočilom/SMS-om"
 #: model:ir.model.fields,field_description:sms.field_sms_sms__mail_message_id
 msgid "Mail Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poštno sporočilo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poštno sporočilo"
 >>>>>>> upstream/18.0
@@ -1501,7 +1580,11 @@ msgid "Not Allowed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ni dovoljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ni dovoljeno"
 >>>>>>> upstream/18.0
@@ -1544,7 +1627,11 @@ msgstr "Obvestilo"
 #: model:ir.model.fields,field_description:sms.field_mail_notification__notification_type
 msgid "Notification Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta obvestila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta obvestila"
 >>>>>>> upstream/18.0
@@ -1583,8 +1670,13 @@ msgstr "Število sporočil, ki niso bila pravilno dostavljena."
 #: model:ir.model.fields,help:sms.field_sms_composer__res_ids_count
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Number of recipients that will receive the SMS if sent in mass mode, without"
 " applying the Active Domain value"
+=======
+"Number of recipients that will receive the SMS if sent in mass mode, without "
+"applying the Active Domain value"
+>>>>>>> upstream/18.0
 =======
 "Number of recipients that will receive the SMS if sent in mass mode, without "
 "applying the Active Domain value"
@@ -1595,7 +1687,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__failure_type__sms_optout
 msgid "Opted Out"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odjavljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odjavljeno"
 >>>>>>> upstream/18.0
@@ -1605,6 +1701,7 @@ msgstr "Odjavljeno"
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 <<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
@@ -2061,6 +2158,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 msgstr ""
@@ -2068,6 +2167,9 @@ msgstr ""
 "pošte. Če ni nastavljen, bo uporabljena angleška različica. Običajno naj bo "
 "to nadomestni izraz, ki ponuja ustrezen jezik, npr. "
 "{{ object.partner_id.lang }}."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -2107,7 +2209,11 @@ msgstr "Phone/Mobile"
 #: model:ir.model.fields.selection,name:sms.selection__sms_composer__composition_mode__comment
 msgid "Post on a document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Objava v dokumentu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Objava v dokumentu"
 >>>>>>> upstream/18.0
@@ -2182,7 +2288,11 @@ msgid "Proceed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadaljuj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nadaljuj"
 >>>>>>> upstream/18.0
@@ -2544,7 +2654,11 @@ msgid "Rendering Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model upodabljanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Model upodabljanja"
 >>>>>>> upstream/18.0
@@ -2793,7 +2907,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid "Reset Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponastavi predlogo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponastavi predlogo"
 >>>>>>> upstream/18.0
@@ -2882,7 +3000,11 @@ msgid "SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS"
 >>>>>>> upstream/18.0
@@ -3272,7 +3394,11 @@ msgstr "Išči SMS predloge"
 #: model_terms:ir.ui.view,arch_db:sms.mail_resend_message_view_form
 msgid "Send & Close"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošlji in zapri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošlji in zapri"
 >>>>>>> upstream/18.0
@@ -3311,7 +3437,11 @@ msgstr ""
 #: model:ir.model,name:sms.model_sms_composer
 msgid "Send SMS Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarovnik za pošiljanje SMS-ov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarovnik za pošiljanje SMS-ov"
 >>>>>>> upstream/18.0
@@ -3356,7 +3486,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:sms.sms_resend_action
 msgid "Sending Failures"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošiljanje napak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošiljanje napak"
 >>>>>>> upstream/18.0
@@ -3453,7 +3587,11 @@ msgstr "Pošiljanje napak"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Sending SMS can only be done on a mail.thread or a transient model"
+=======
+msgid "Sending SMS can only be done on a not transient mail.thread model"
+>>>>>>> upstream/18.0
 =======
 msgid "Sending SMS can only be done on a not transient mail.thread model"
 >>>>>>> upstream/18.0
@@ -3922,12 +4060,15 @@ msgid ""
 "- 'Create Activity': create an activity (Discuss)\n"
 "- 'Send Email': post a message, a note or send an email (Discuss)\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': add or remove followers to a record (Discuss)\n"
 "- 'Create Record': create a new record with new values\n"
 "- 'Execute Code': a block of Python code that will be executed\n"
 "- 'Send Webhook Notification': send a POST request to an external system, also known as a Webhook\n"
 "- 'Execute Existing Actions': define an action that triggers several other server actions\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': "
 "add or remove followers to a record (Discuss)\n"
 "- 'Create Record': create a new record with new values\n"
@@ -3936,6 +4077,9 @@ msgid ""
 "also known as a Webhook\n"
 "- 'Execute Existing Actions': define an action that triggers several other "
 "server actions\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -3980,10 +4124,13 @@ msgid ""
 "'email_outgoing': generated by a mailing\n"
 "'notification': generated by system e.g. tracking messages\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'auto_comment': generated by automated notification mechanism e.g. acknowledgment\n"
 "'user_notification': generated for a specific recipient"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "'auto_comment': generated by automated notification mechanism e.g. "
 "acknowledgment\n"
 "'user_notification': generated for a specific recipient"
@@ -3996,6 +4143,9 @@ msgstr ""
 "'auto_comment': generirano z avtomatiziranim mehanizmom za obveščanje, npr. "
 "acknowledgement\n"
 "'user_notification': generirano za določenega prejemnika"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -4060,7 +4210,11 @@ msgid "Verification Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrditvena koda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrditvena koda"
 >>>>>>> upstream/18.0
@@ -4341,13 +4495,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your sender name must be between 3 and 11 characters long and only contain alphanumeric characters.\n"
 "                        It must fit your company name, and you aren't allowed to modify it once you registered one, choose it carefully."
 =======
+=======
+>>>>>>> upstream/18.0
 "Your sender name must be between 3 and 11 characters long and only contain "
 "alphanumeric characters.\n"
 "                        It must fit your company name, and you aren't "
 "allowed to modify it once you registered one, choose it carefully."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -4377,7 +4537,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid "e.g. Contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Kontakt"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Kontakt"
 >>>>>>> upstream/18.0
@@ -4463,7 +4627,11 @@ msgid "out of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "izven"
+>>>>>>> upstream/18.0
 =======
 msgstr "izven"
 >>>>>>> upstream/18.0

@@ -6,6 +6,10 @@
 # Ilya Rozhkov, 2024
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Anastasiia Koroleva, 2025\n"
 >>>>>>> upstream/18.0
@@ -35,6 +43,11 @@ msgid ""
 "                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Service's Bill</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Счет за обслуживание\">Счет за обслуживание</span>\n"
+"                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Счет за обслуживание\">Счет за обслуживание</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Счет за обслуживание\">Счет за обслуживание</span>\n"
 "                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Счет за обслуживание\">Счет за обслуживание</span>"
@@ -49,7 +62,11 @@ msgstr "Бухгалтерская Проводка"
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle_log_services__account_move_line_id
 msgid "Account Move Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Проводка бухгалтерии"
+>>>>>>> upstream/18.0
 =======
 msgstr "Проводка бухгалтерии"
 >>>>>>> upstream/18.0
@@ -136,6 +153,11 @@ msgid ""
 " created."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Невозможно удалить записи об обслуживании, так как по одной или нескольким "
+"из них уже сформированы счета."
+>>>>>>> upstream/18.0
 =======
 "Невозможно удалить записи об обслуживании, так как по одной или нескольким "
 "из них уже сформированы счета."
@@ -149,6 +171,11 @@ msgid ""
 "on the related accounting entry instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Нельзя изменить сумму обслуживания, связанного с бухгалтерской проводкой. "
+"Измените данные напрямую в соответствующем бухгалтерском документе."
+>>>>>>> upstream/18.0
 =======
 "Нельзя изменить сумму обслуживания, связанного с бухгалтерской проводкой. "
 "Измените данные напрямую в соответствующем бухгалтерском документе."

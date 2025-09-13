@@ -3,6 +3,10 @@ import logging
 import time
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import make_index_name, SQL
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import make_index_name, SQL
 >>>>>>> upstream/18.0
@@ -51,7 +55,10 @@ def test_all_l10n(env):
     env.reset()     # clear the set of environments
     env = env()     # get an environment that refers to the new registry
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     idxs = []
     for model in env.registry.values():
         if not model._auto:
@@ -73,6 +80,9 @@ def test_all_l10n(env):
                 SQL("") if field.required else SQL(" WHERE %s IS NOT NULL", SQL.identifier(field.name)),
             ))
             idxs.append(idxname)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     # Install Charts of Accounts
@@ -99,7 +109,11 @@ def test_all_l10n(env):
     env.cr.execute('ANALYZE')
     logger = logging.getLogger('odoo.loading')
 <<<<<<< HEAD
+<<<<<<< HEAD
     logger.runbot('ANALYZE took %s seconds', time.time() - start)  # not sure this one is usefull
+=======
+    logger.runbot('ANALYZE took %s seconds', time.time() - start)  # not sure this one is useful
+>>>>>>> upstream/18.0
 =======
     logger.runbot('ANALYZE took %s seconds', time.time() - start)  # not sure this one is useful
 >>>>>>> upstream/18.0
@@ -114,6 +128,12 @@ def test_all_l10n(env):
             _logger.error("Error when creating COA %s", template_code, exc_info=True)
             env.cr.rollback()
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    env.cr.execute(SQL("DROP INDEX %s", SQL(", ").join(map(SQL.identifier, idxs))))
+    env.cr.commit()
+>>>>>>> upstream/18.0
 =======
 
     env.cr.execute(SQL("DROP INDEX %s", SQL(", ").join(map(SQL.identifier, idxs))))

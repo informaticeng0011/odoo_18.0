@@ -1,6 +1,10 @@
 import { Component, onWillStart, useState } from "@odoo/owl";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useService } from "@web/core/utils/hooks";
+=======
+import { useChildRef, useService } from "@web/core/utils/hooks";
+>>>>>>> upstream/18.0
 =======
 import { useChildRef, useService } from "@web/core/utils/hooks";
 >>>>>>> upstream/18.0
@@ -10,6 +14,10 @@ import { loadLanguages } from "@web/core/l10n/translation";
 import { toolbarButtonProps } from "@html_editor/main/toolbar/toolbar";
 import { user } from "@web/core/user";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { useDropdownAutoVisibility } from "@html_editor/dropdown_autovisibility_hook";
+>>>>>>> upstream/18.0
 =======
 import { useDropdownAutoVisibility } from "@html_editor/dropdown_autovisibility_hook";
 >>>>>>> upstream/18.0
@@ -29,6 +37,10 @@ export class LanguageSelector extends Component {
             languages: [],
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.menuRef = useChildRef();
+>>>>>>> upstream/18.0
 =======
         this.menuRef = useChildRef();
 >>>>>>> upstream/18.0
@@ -40,6 +52,10 @@ export class LanguageSelector extends Component {
             }
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        useDropdownAutoVisibility(this.env.overlayState, this.menuRef);
+>>>>>>> upstream/18.0
 =======
         useDropdownAutoVisibility(this.env.overlayState, this.menuRef);
 >>>>>>> upstream/18.0

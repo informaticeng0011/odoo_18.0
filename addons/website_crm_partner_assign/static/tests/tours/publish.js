@@ -55,9 +55,12 @@ registerWebsitePreviewTour('test_cannot_publish_partner', {
     run: "click",
 }, {
 <<<<<<< HEAD
+<<<<<<< HEAD
     content: 'Check there is no Publish/Unpublish',
     trigger: '.o_menu_systray:not(:has(.o_menu_systray_item.o_website_publish_container))',
 =======
+=======
+>>>>>>> upstream/18.0
     content: 'Wait for the "edit in backend" button to appear before checking the publish button',
     trigger: '.o_menu_systray .o_website_edit_in_backend > a',
     run: () => {
@@ -70,5 +73,8 @@ registerWebsitePreviewTour('test_cannot_publish_partner', {
 }, {
     content: 'Check there is no Publish/Unpublish',
     trigger: '.ready-for-check .o_menu_systray:has(.o_website_edit_in_backend > a):not(:has(.o_menu_systray_item.o_website_publish_container))',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }]);

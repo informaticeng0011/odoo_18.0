@@ -7,6 +7,7 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.addons.account.models.account_payment_method import AccountPaymentMethod
 from odoo.addons.mail.tests.common import MailCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
 from odoo.exceptions import UserError, ValidationError
 <<<<<<< HEAD
@@ -94,10 +95,15 @@ from odoo import Command
 from odoo import Command
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo.addons.test_mail.data.test_mail_data import MAIL_EML_ATTACHMENT
 from odoo.tests import Form, tagged, new_test_user
 from odoo.exceptions import UserError, ValidationError
 from odoo import Command
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -474,7 +480,10 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -574,6 +583,7 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -616,6 +626,8 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_send_email_to_alias_from_other_company(self):
         user_company_2 = new_test_user(
@@ -635,4 +647,7 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
             msg_id='<test-account-move-alias-id>',
         )
         self.assertTrue(self.env['account.move'].search([('invoice_source_email', '=', 'company_2_user@test.com')]))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

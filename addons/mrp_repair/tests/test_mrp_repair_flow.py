@@ -53,7 +53,10 @@ class TestMrpRepairFlow(TestMrpCommon):
         self.assertEqual(production.repair_count, 1)
         self.assertEqual(repair.production_count, 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_adding_kit_parts_to_confirmed_repair(self):
         """Test adding a kit product to a confirmed repair order.
@@ -83,4 +86,7 @@ class TestMrpRepairFlow(TestMrpCommon):
             set(repair.move_ids.product_id.ids),
             set(self.product_5.bom_ids.bom_line_ids.product_id.ids)
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

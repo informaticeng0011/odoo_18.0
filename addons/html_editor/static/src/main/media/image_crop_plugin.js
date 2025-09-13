@@ -38,6 +38,7 @@ export class ImageCropPlugin extends Plugin {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     getSelectedImage() {
         const selectedNodes = this.dependencies.selection.getSelectedNodes();
         return selectedNodes.find((node) => node.tagName === "IMG");
@@ -51,6 +52,8 @@ export class ImageCropPlugin extends Plugin {
 
         this.imageCropProps.media = selectedImg;
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * @deprecated
      */
@@ -70,6 +73,9 @@ export class ImageCropPlugin extends Plugin {
         }
 
         this.imageCropProps.media = targetedImg;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         const onClose = () => {

@@ -939,7 +939,10 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
         self.assertEqual(user2.group_count, 1)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_18_flush_all(self):
         """ check that env.flush_all() effectively recomputes all fields. """
         self.env.invalidate_all()
@@ -958,6 +961,9 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
         self.env.invalidate_all()
         self.assertEqual(record.created_id.value, 3)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_20_float(self):
         """ test rounding of float fields """
@@ -3849,6 +3855,7 @@ class TestHtmlField(TransactionCase):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # in a perfect world this should be 1, but at the moment the value is
         # sanitized more than once during creation of the record
         self.assertEqual(patch.call_count, 2)
@@ -3859,6 +3866,8 @@ class TestHtmlField(TransactionCase):
 
         # the value is already sanitized for flushing
 =======
+=======
+>>>>>>> upstream/18.0
         # the new value is sanitized upon insertion in db,
         # but not put in cache, therefore not sanitized a second time
         self.assertEqual(patch.call_count, 1)
@@ -3868,6 +3877,9 @@ class TestHtmlField(TransactionCase):
         self.assertEqual(patch.call_count, 2)
 
         # the value in cache is dirty -> sanitize for db insertion while flushing
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         record.flush_recordset()
         self.assertEqual(patch.call_count, 3)

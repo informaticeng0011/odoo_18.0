@@ -7,6 +7,10 @@
 # Wil Odoo, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -22,7 +26,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Anastasiia Koroleva, 2025\n"
 >>>>>>> upstream/18.0
@@ -44,6 +52,11 @@ msgid ""
 "class=\"text-primary\">%(date)s</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"#%(number)s – Платеж по рассрочке на сумму <strong>%(amount)s</strong>, срок"
+" оплаты – <strong class=\"text-primary\">%(date)s</strong>"
+>>>>>>> upstream/18.0
 =======
 "#%(number)s – Платеж по рассрочке на сумму <strong>%(amount)s</strong>, срок"
 " оплаты – <strong class=\"text-primary\">%(date)s</strong>"
@@ -54,7 +67,11 @@ msgstr ""
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "%s day(s) overdue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Просрочка: %s дн."
+>>>>>>> upstream/18.0
 =======
 msgstr "Просрочка: %s дн."
 >>>>>>> upstream/18.0
@@ -110,7 +127,11 @@ msgstr "<i class=\"fa fa-fw fa-check-circle\"/> В ожидании"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
 msgid "<i class=\"fa fa-fw fa-check-circle\"/> Processing Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Обработка платежа"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Обработка платежа"
 >>>>>>> upstream/18.0
@@ -124,7 +145,11 @@ msgstr "<span class=\"d-none d-md-inline\"> В ожидании</span>"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid "<strong>Full Amount</strong><br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Полная сумма</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Полная сумма</strong><br/>"
 >>>>>>> upstream/18.0
@@ -136,6 +161,11 @@ msgid ""
 "                                        <br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<strong>Рассрочка</strong>\n"
+"                                        <br/>"
+>>>>>>> upstream/18.0
 =======
 "<strong>Рассрочка</strong>\n"
 "                                        <br/>"
@@ -157,7 +187,11 @@ msgstr ""
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "A discount will be applied if the customer pays before %s included."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Скидка будет применена, если клиент оплатит до %sвключительно."
+>>>>>>> upstream/18.0
 =======
 msgstr "Скидка будет применена, если клиент оплатит до %sвключительно."
 >>>>>>> upstream/18.0
@@ -169,6 +203,11 @@ msgid ""
 " twice."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"По данному счету уже был произведен платеж. Пожалуйста, убедитесь, что вы не"
+" оплачиваете его повторно."
+>>>>>>> upstream/18.0
 =======
 "По данному счету уже был произведен платеж. Пожалуйста, убедитесь, что вы не"
 " оплачиваете его повторно."
@@ -254,7 +293,11 @@ msgstr "Параметры конфигурации"
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -263,7 +306,11 @@ msgstr "Создано:"
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -287,7 +334,11 @@ msgstr "Отображаемое имя"
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__display_open_installments
 msgid "Display Open Installments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Показать незакрытую рассрочку"
+>>>>>>> upstream/18.0
 =======
 msgstr "Показать незакрытую рассрочку"
 >>>>>>> upstream/18.0
@@ -303,7 +354,11 @@ msgstr "Готово, ваш онлайн-платеж успешно обраб
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__epd_info
 msgid "Early Payment Discount Information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Информация о скидке за досрочную оплату"
+>>>>>>> upstream/18.0
 =======
 msgstr "Информация о скидке за досрочную оплату"
 >>>>>>> upstream/18.0
@@ -338,7 +393,11 @@ msgstr "Создать ссылку для оплаты"
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__has_eligible_epd
 msgid "Has Eligible Epd"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Имеет право на скидку за досрочную оплату"
+>>>>>>> upstream/18.0
 =======
 msgstr "Имеет право на скидку за досрочную оплату"
 >>>>>>> upstream/18.0
@@ -360,7 +419,11 @@ msgid ""
 "Impossible to pay all the overdue invoices if they don't share the same "
 "currency."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Невозможно оплатить все просроченные счета, если у них разная валюта."
+>>>>>>> upstream/18.0
 =======
 msgstr "Невозможно оплатить все просроченные счета, если у них разная валюта."
 >>>>>>> upstream/18.0
@@ -405,7 +468,11 @@ msgstr "Счета-фактуры"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_account_payment
 msgid "Invoices to pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Счета к оплате"
+>>>>>>> upstream/18.0
 =======
 msgstr "Счета к оплате"
 >>>>>>> upstream/18.0
@@ -425,7 +492,11 @@ msgstr "Запись в журнале"
 msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -438,7 +509,11 @@ msgstr "Последнее обновление:"
 msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -455,7 +530,11 @@ msgstr "Максимально допустимое возмещение"
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_link_wizard__form_inherit_account_payment
 msgid "Next Installments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Следующие платежи по рассрочке"
+>>>>>>> upstream/18.0
 =======
 msgstr "Следующие платежи по рассрочке"
 >>>>>>> upstream/18.0
@@ -497,6 +576,7 @@ msgstr "Онлайн-платежи"
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "Online payment option is not enabled in Configuration."
@@ -509,6 +589,8 @@ msgstr ""
 msgid "Overdue invoices should share the same company."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "Online payment option is not enabled in Configuration."
 msgstr "Онлайн-оплата не включена в настройках."
@@ -518,6 +600,9 @@ msgstr "Онлайн-оплата не включена в настройках.
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same company."
 msgstr "Все просроченные счета должны относиться к одной организации."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -525,7 +610,11 @@ msgstr "Все просроченные счета должны относить
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same currency."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Все просроченные счета должны быть в одной валюте."
+>>>>>>> upstream/18.0
 =======
 msgstr "Все просроченные счета должны быть в одной валюте."
 >>>>>>> upstream/18.0
@@ -535,7 +624,11 @@ msgstr "Все просроченные счета должны быть в од
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same partner."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Все просроченные счета должны относиться к одному партнеру."
+>>>>>>> upstream/18.0
 =======
 msgstr "Все просроченные счета должны относиться к одному партнеру."
 >>>>>>> upstream/18.0
@@ -555,7 +648,11 @@ msgstr "Оплатить"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment_paid
 msgid "Pay Invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Оплатить счет"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оплатить счет"
 >>>>>>> upstream/18.0
@@ -580,7 +677,11 @@ msgstr "Оплатить сейчас"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_overdue_invoice
 msgid "Pay overdue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Оплатить просроченный счет"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оплатить просроченный счет"
 >>>>>>> upstream/18.0
@@ -654,7 +755,11 @@ msgstr "Платежи"
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "Please log in to pay your overdue invoices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пожалуйста, войдите в систему, чтобы оплатить просроченные счета"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пожалуйста, войдите в систему, чтобы оплатить просроченные счета"
 >>>>>>> upstream/18.0
@@ -778,16 +883,22 @@ msgstr "Оплата источника соответствующих плат�
 #. module: account_payment
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There are pending transactions for this invoice."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There are pending transactions for this invoice."
 msgstr "По данному счету имеются незавершенные транзакции."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -795,7 +906,13 @@ msgstr "По данному счету имеются незавершенные
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There is no amount to be paid."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+
+#. module: account_payment
+>>>>>>> upstream/18.0
+=======
+msgstr "По данному счету не требуется оплата."
 
 #. module: account_payment
 >>>>>>> upstream/18.0
@@ -833,6 +950,7 @@ msgstr ""
 #. module: account_payment
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment_paid
 =======
 #. odoo-python
@@ -840,15 +958,21 @@ msgstr ""
 msgid "This invoice cannot be paid online."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice cannot be paid online."
 msgstr "Этот счет нельзя оплатить онлайн."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 msgid "This invoice has already been paid."
@@ -862,6 +986,8 @@ msgstr ""
 msgid "This invoice isn't posted."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "This invoice has already been paid."
 msgstr "Этот счет уже оплачен."
 
@@ -870,12 +996,16 @@ msgstr "Этот счет уже оплачен."
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice isn't posted."
 msgstr "Этот счет не проведен."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This is not an outgoing invoice."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -886,6 +1016,8 @@ msgstr ""
 msgid "Transaction Count"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Это не исходящий счет."
 
 #. module: account_payment
@@ -893,6 +1025,9 @@ msgstr "Это не исходящий счет."
 #: model:ir.model.fields,field_description:account_payment.field_account_move__transaction_count
 msgid "Transaction Count"
 msgstr "Количество транзакций"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -905,7 +1040,11 @@ msgstr "Транзакции"
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__none
 msgid "Unsupported"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Не поддерживается"
+>>>>>>> upstream/18.0
 =======
 msgstr "Не поддерживается"
 >>>>>>> upstream/18.0
@@ -956,7 +1095,11 @@ msgstr ""
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "due in %s day(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ожидается в течение %s дн."
+>>>>>>> upstream/18.0
 =======
 msgstr "ожидается в течение %s дн."
 >>>>>>> upstream/18.0
@@ -966,7 +1109,11 @@ msgstr "ожидается в течение %s дн."
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "due today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ожидается сегодня"
+>>>>>>> upstream/18.0
 =======
 msgstr "ожидается сегодня"
 >>>>>>> upstream/18.0
@@ -980,7 +1127,11 @@ msgstr "было применено."
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "overdue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "просрочен"
+>>>>>>> upstream/18.0
 =======
 msgstr "просрочен"
 >>>>>>> upstream/18.0

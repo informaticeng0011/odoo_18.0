@@ -4,7 +4,11 @@ import os.path
 from odoo.tests.common import BaseCase
 from odoo.tools.misc import file_open
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools.mimetypes import guess_mimetype
+=======
+from odoo.tools.mimetypes import guess_mimetype, magic
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.mimetypes import guess_mimetype, magic
 >>>>>>> upstream/18.0
@@ -40,7 +44,10 @@ class TestMimeGuessing(BaseCase):
             'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_xlsx_2025(self):
         # only work when python-magic is not installed otherwise seen as a zip
@@ -49,6 +56,9 @@ class TestMimeGuessing(BaseCase):
             'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' if magic is None else 'application/zip',
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_odt(self):
         self.assertEqual(
@@ -80,13 +90,19 @@ class TestMimeGuessing(BaseCase):
 
     def test_unknown(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(
             guess_mimetype(contents('csv')),
             'text/plain'
 =======
+=======
+>>>>>>> upstream/18.0
         expected_mimetype = 'text/plain' if magic is None else 'text/csv'
         self.assertEqual(
             guess_mimetype(contents('csv')),
             expected_mimetype
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         )

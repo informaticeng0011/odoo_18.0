@@ -126,10 +126,13 @@ patch(ImageSelector.prototype, {
             this.unsplashState.isFetchingUnsplash = false;
             this.unsplashState.unsplashError = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Ignore duplicates.
             const existingIds = this.unsplashState.unsplashRecords.map((existing) => existing.id);
             const newImages = images.filter((record) => !existingIds.includes(record.id));
 =======
+=======
+>>>>>>> upstream/18.0
             // Use a set to keep track of every image we've received so far,
             // based on their ids. This will allow us to ignore duplicate
             // images from Unsplash. We can assume there are no duplicates at
@@ -144,6 +147,9 @@ patch(ImageSelector.prototype, {
                 existingIds.add(record.id);
                 return true;
             });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             const records = newImages.map((record) => {
                 const url = new URL(record.urls.regular);

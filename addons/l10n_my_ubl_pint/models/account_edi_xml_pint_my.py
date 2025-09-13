@@ -54,7 +54,11 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
             gst_tax_scheme = tax_scheme_vals_list[0].copy()
             gst_tax_scheme.update({
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'company_id': partner.vat,
+=======
+                'company_id': partner.vat or 'NA',
+>>>>>>> upstream/18.0
 =======
                 'company_id': partner.vat or 'NA',
 >>>>>>> upstream/18.0

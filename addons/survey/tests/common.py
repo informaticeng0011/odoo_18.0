@@ -302,7 +302,11 @@ class TestSurveyCommon(SurveyCase):
         cls.survey_manager = mail_new_test_user(
             cls.env, name='Gustave Doré', login='survey_manager', email='survey.manager@example.com',
 <<<<<<< HEAD
+<<<<<<< HEAD
             groups='survey.group_survey_manager,base.group_user'
+=======
+            groups='survey.group_survey_manager,base.group_user', tz='Europe/Brussels',
+>>>>>>> upstream/18.0
 =======
             groups='survey.group_survey_manager,base.group_user', tz='Europe/Brussels',
 >>>>>>> upstream/18.0

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_totp_mail_enforce
 # 
 # Translators:
@@ -8,6 +9,8 @@
 # Martin Trigaux, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * auth_totp_mail_enforce
 #
 # Translators:
@@ -15,12 +18,16 @@
 # Martin Trigaux, 2024
 #
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Martin Trigaux, 2024\n"
@@ -31,6 +38,8 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-05 22:20+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/"
@@ -42,6 +51,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
@@ -94,6 +106,7 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "   Estimado/a <t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
 "    <p>Alguien está intentando iniciar sesión con su cuenta desde un dispositivo nuevo.</p>\n"
 "    <ul>\n"
@@ -105,6 +118,8 @@ msgstr ""
 "    </ul>\n"
 "    <p>Si es usted, ingrese el siguiente código para poder iniciar sesión:</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "   Estimado/a <t t-out=\"object.partner_id.name or ''\"/>:<br/><br/>\n"
 "    <p>Alguien está intentando iniciar sesión con su cuenta desde un "
 "dispositivo nuevo.</p>\n"
@@ -121,22 +136,31 @@ msgstr ""
 "    </ul>\n"
 "    <p>Si es usted, ingrese el siguiente código para poder iniciar "
 "sesión:</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    <t t-set=\"code_expiration\" t-value=\"object._get_totp_mail_code()\"/>\n"
 "    <t t-set=\"code\" t-value=\"code_expiration[0]\"/>\n"
 "    <t t-set=\"expiration\" t-value=\"code_expiration[1]\"/>\n"
 "    <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; border-radius: 5px;\"/>\n"
 "    </div>\n"
 "    <small>Tenga en cuenta que este código vence en <t t-out=\"expiration\"/>.</small>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px "
 "solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; "
 "border-radius: 5px;\"/>\n"
 "    </div>\n"
 "    <small>Tenga en cuenta que este código vence en <t t-out=\"expiration\""
 "/>.</small>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "\n"
 "    <p style=\"margin: 16px 0px 16px 0px;\">\n"
@@ -146,12 +170,15 @@ msgstr ""
 "\n"
 "    <p style=\"margin: 16px 0px 16px 0px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        También le recomendamos activar la verificación de dos pasos con una aplicación de autenticación para ayudarle a asuegurar su cuenta.\n"
 "    </p>\n"
 "\n"
 "    <p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        También le recomendamos activar la verificación de dos pasos con una "
 "aplicación de autenticación para ayudarle a asuegurar su cuenta.\n"
 "    </p>\n"
@@ -160,6 +187,9 @@ msgstr ""
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-"
 "color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            Activar la verificación de dos pasos.\n"
 "        </a>\n"
@@ -213,7 +243,11 @@ msgstr "Creado el"
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0

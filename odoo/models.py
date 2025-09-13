@@ -1884,7 +1884,11 @@ class BaseModel(metaclass=MetaModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             except ValueError:
+=======
+            except (ValueError, TypeError):
+>>>>>>> upstream/18.0
 =======
             except (ValueError, TypeError):
 >>>>>>> upstream/18.0
@@ -3895,7 +3899,11 @@ class BaseModel(metaclass=MetaModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     field.args['translate'] for field in reversed(fields_) if 'translate' in field.args
+=======
+                    field._args__['translate'] for field in reversed(fields_) if 'translate' in field._args__
+>>>>>>> upstream/18.0
 =======
                     field._args__['translate'] for field in reversed(fields_) if 'translate' in field._args__
 >>>>>>> upstream/18.0
@@ -4073,7 +4081,10 @@ class BaseModel(metaclass=MetaModel):
                     _logger.debug("Patching %s.%s with translate=True", cls._name, name)
                     fields_.append(type(fields_[0])(translate=True))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             if f'{cls._name}.{name}' in cls.pool._database_company_dependent_fields:
                 # the field is currently company dependent in the database; ensure
                 # the field is company dependent to avoid converting its column to
@@ -4088,6 +4099,9 @@ class BaseModel(metaclass=MetaModel):
                         # patch the field definition by adding an override
                         _logger.warning("Patching %s.%s with company_dependent=True", cls._name, name)
                         fields_.append(type(fields_[0])(company_dependent=True))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             if len(fields_) == 1 and fields_[0]._direct and fields_[0].model_name == cls._name:
                 cls._fields[name] = fields_[0]
@@ -4150,7 +4164,11 @@ class BaseModel(metaclass=MetaModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self._add_field(name, Field(_base_fields=fields_))
+=======
+                self._add_field(name, Field(_base_fields=tuple(fields_)))
+>>>>>>> upstream/18.0
 =======
                 self._add_field(name, Field(_base_fields=tuple(fields_)))
 >>>>>>> upstream/18.0
@@ -5059,6 +5077,7 @@ class BaseModel(metaclass=MetaModel):
             for record, name, corecords in inconsistencies[:5]:
                 if record._name == 'res.company':
 <<<<<<< HEAD
+<<<<<<< HEAD
                     msg, company = company_msg, record
                 elif record == corecords and name == 'company_id':
                     msg, company = root_company_msg, record.company_id
@@ -5069,6 +5088,8 @@ class BaseModel(metaclass=MetaModel):
                     'record': record.display_name,
                     'company': company.display_name,
 =======
+=======
+>>>>>>> upstream/18.0
                     msg, companies = company_msg, record
                 elif record == corecords and name == 'company_id':
                     msg, companies = root_company_msg, record.company_id
@@ -5079,6 +5100,9 @@ class BaseModel(metaclass=MetaModel):
                 lines.append(str(msg) % {
                     'record': record.display_name,
                     'company': ", ".join(company.display_name for company in companies),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     'field': field.field_description,
                     'fname': field.name,
@@ -5916,7 +5940,11 @@ class BaseModel(metaclass=MetaModel):
             for fname, value in vals.items():
                 field = self._fields[fname]
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if field.type in ('one2many', 'many2many'):
+=======
+                if field.type in ('one2many', 'many2many', 'html'):
+>>>>>>> upstream/18.0
 =======
                 if field.type in ('one2many', 'many2many', 'html'):
 >>>>>>> upstream/18.0
@@ -6126,7 +6154,11 @@ class BaseModel(metaclass=MetaModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             to_write[fname] = dict(self[fname], **field_converter(values.pop(fname), self))
+=======
+            to_write[fname] = dict(self[fname] or {}, **field_converter(values.pop(fname), self))
+>>>>>>> upstream/18.0
 =======
             to_write[fname] = dict(self[fname] or {}, **field_converter(values.pop(fname), self))
 >>>>>>> upstream/18.0
@@ -7973,6 +8005,12 @@ class BaseModel(metaclass=MetaModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def __deepcopy__(self, memo):
+        return self
+
+>>>>>>> upstream/18.0
 =======
     def __deepcopy__(self, memo):
         return self

@@ -2,6 +2,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 from odoo.tests import Form
@@ -272,7 +277,10 @@ class TestSoLineMilestones(TestSaleCommon):
         project = sale_order.project_ids
         self.assertEqual(len(project.milestone_ids), 5, "The project should have 5 milestones")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_subtask_milestone_sol(self):
         """ A task should keep its sale line according to its milestone is changed. """
@@ -321,4 +329,7 @@ class TestSoLineMilestones(TestSaleCommon):
         self.assertEqual(tasks[0].sale_line_id,
                          tasks[0].project_id.sale_line_id,
                          "Task should have the correct sale line based on project.")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

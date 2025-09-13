@@ -42,7 +42,11 @@ class SmsTracker(models.Model):
             (see ``_get_tracker_values_from_provider_error``)
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
         failure_reason = False
+=======
+        failure_reason = self.env.context.get("sms_known_failure_reason")  # TODO RIGR in master: pass as param instead of context
+>>>>>>> upstream/18.0
 =======
         failure_reason = self.env.context.get("sms_known_failure_reason")  # TODO RIGR in master: pass as param instead of context
 >>>>>>> upstream/18.0
@@ -51,7 +55,11 @@ class SmsTracker(models.Model):
         if failure_type not in self.env['sms.sms'].DELIVERY_ERRORS:
             failure_type = 'unknown'
 <<<<<<< HEAD
+<<<<<<< HEAD
             failure_reason = provider_error
+=======
+            failure_reason = failure_reason or provider_error
+>>>>>>> upstream/18.0
 =======
             failure_reason = failure_reason or provider_error
 >>>>>>> upstream/18.0

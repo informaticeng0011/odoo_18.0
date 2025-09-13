@@ -233,15 +233,21 @@ class ResUsers(models.Model):
             if signup_type == 'reset':
                 _logger.info("Password reset email sent for user <%s> to <%s>", user.login, user.email)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message = _('A reset password link was send by email')
             else:
                 _logger.info("Signup email sent for user <%s> to <%s>", user.login, user.email)
                 message = _('A signup link was send by email')
 =======
+=======
+>>>>>>> upstream/18.0
                 message = _('A reset password link was sent by email')
             else:
                 _logger.info("Signup email sent for user <%s> to <%s>", user.login, user.email)
                 message = _('A signup link was sent by email')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return {
             'type': 'ir.actions.client',

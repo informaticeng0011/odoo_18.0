@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* repair
 # 
+=======
+# * repair
+#
+>>>>>>> upstream/18.0
 =======
 # * repair
 #
@@ -18,8 +23,14 @@
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
 # Bole <bole@dajmi5.com>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Luka Carević <luka@uvid.hr>, 2024
 # 
+=======
+# Ivica Dimjašević, 2025
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Ivica Dimjašević, 2025
 # Luka Carević <luka@uvid.hr>, 2025
@@ -31,6 +42,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Luka Carević <luka@uvid.hr>, 2024\n"
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
@@ -40,6 +52,8 @@ msgstr ""
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-20 09:39+0000\n"
 "Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/repair/"
@@ -51,6 +65,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -219,7 +236,11 @@ msgstr "Dodaj interne bilješke."
 #: model:ir.model.fields,field_description:repair.field_repair_order__location_dest_id
 msgid "Added Parts Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odredišna lokacija dodanih dijelova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odredišna lokacija dodanih dijelova"
 >>>>>>> upstream/18.0
@@ -239,7 +260,11 @@ msgstr "Sve"
 #: model:ir.model.fields,field_description:repair.field_repair_order__is_parts_available
 msgid "All Parts are available"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svi dijelovi su dostupni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svi dijelovi su dostupni"
 >>>>>>> upstream/18.0
@@ -263,7 +288,11 @@ msgstr "Omogućeno odrezerviranje proizvodnje"
 #: model:ir.model.fields,field_description:repair.field_repair_order__is_parts_late
 msgid "Any Part is late"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postoji kašnjenje s nekim dijelom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postoji kašnjenje s nekim dijelom"
 >>>>>>> upstream/18.0
@@ -359,7 +388,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_type_form
 msgid "Component Source Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvorna lokacija komponente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvorna lokacija komponente"
 >>>>>>> upstream/18.0
@@ -402,7 +435,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Create Quotation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napravite ponudu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Napravite ponudu"
 >>>>>>> upstream/18.0
@@ -931,7 +968,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_product_location_dest_id
 msgid "Product Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odredišna lokacija proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odredišna lokacija proizvoda"
 >>>>>>> upstream/18.0
@@ -956,7 +997,11 @@ msgstr "Količina proizvoda"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_product_location_src_id
 msgid "Product Source Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvorna lokacija proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvorna lokacija proizvoda"
 >>>>>>> upstream/18.0
@@ -965,7 +1010,11 @@ msgstr "Izvorna lokacija proizvoda"
 #: model:ir.model.fields,field_description:repair.field_repair_order__tracking
 msgid "Product Tracking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Praćenje proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Praćenje proizvoda"
 >>>>>>> upstream/18.0
@@ -1042,7 +1091,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_recycle_location_dest_id
 msgid "Recycle Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odredišna lokacija za reciklažu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odredišna lokacija za reciklažu"
 >>>>>>> upstream/18.0
@@ -1051,7 +1104,11 @@ msgstr "Odredišna lokacija za reciklažu"
 #: model:ir.model.fields,field_description:repair.field_repair_order__recycle_location_id
 msgid "Recycled Parts Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odredišna lokacija recikliranih dijelova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odredišna lokacija recikliranih dijelova"
 >>>>>>> upstream/18.0
@@ -1065,7 +1122,11 @@ msgstr "Ukloni"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_remove_location_dest_id
 msgid "Remove Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukloni odredišnu lokaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ukloni odredišnu lokaciju"
 >>>>>>> upstream/18.0
@@ -1074,7 +1135,11 @@ msgstr "Ukloni odredišnu lokaciju"
 #: model:ir.model.fields,field_description:repair.field_repair_order__parts_location_id
 msgid "Removed Parts Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odredišna lokacija uklonjenih dijelova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odredišna lokacija uklonjenih dijelova"
 >>>>>>> upstream/18.0
@@ -1092,7 +1157,11 @@ msgstr "Popravak"
 #: model:ir.model.fields,field_description:repair.field_stock_warehouse__repair_mto_pull_id
 msgid "Repair MTO Rule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravilo popravka po narudžbi (MTO)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pravilo popravka po narudžbi (MTO)"
 >>>>>>> upstream/18.0
@@ -1107,7 +1176,11 @@ msgstr "Bilješke popravka"
 #: model:ir.model.fields,field_description:repair.field_stock_warehouse__repair_type_id
 msgid "Repair Operation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta operacije popravka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta operacije popravka"
 >>>>>>> upstream/18.0
@@ -1516,7 +1589,11 @@ msgstr "Vrsta"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__code
 msgid "Type of Operation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip operacije"
+=======
+msgstr "Vrsta operacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta operacije"
 >>>>>>> upstream/18.0
@@ -1536,7 +1613,11 @@ msgstr "U popravku"
 #: model:ir.model.fields,field_description:repair.field_repair_order__under_warranty
 msgid "Under Warranty"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pod jamstvom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pod jamstvom"
 >>>>>>> upstream/18.0
@@ -1630,6 +1711,12 @@ msgid ""
 "%(ref_str)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Potrebno je definirati kupca za nalog za popravak kako bi se mogla izraditi povezana ponuda.\n"
+"Predmetni nalozi za popravak:\n"
+"%(ref_str)s"
+>>>>>>> upstream/18.0
 =======
 "Potrebno je definirati kupca za nalog za popravak kako bi se mogla izraditi povezana ponuda.\n"
 "Predmetni nalozi za popravak:\n"

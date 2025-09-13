@@ -125,7 +125,12 @@ QUnit.module(
                         <i class="o_editor_banner_icon mb-3 fst-normal" aria-label="Banner Info">💡</i>
                         <div class="w-100 px-3" data-oe-protected="false" contenteditable="true">
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <p placeholder=\"Type &quot;/&quot; for commands\" class=\"oe-hint oe-command-temporary-hint\"><br></p></div>
+=======
+                            <p placeholder=\"Type &quot;/&quot; for commands\" class=\"oe-hint oe-command-temporary-hint\"><br></p>
+                        </div>
+>>>>>>> upstream/18.0
 =======
                             <p placeholder=\"Type &quot;/&quot; for commands\" class=\"oe-hint oe-command-temporary-hint\"><br></p>
                         </div>

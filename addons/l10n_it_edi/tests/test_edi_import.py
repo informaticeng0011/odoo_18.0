@@ -117,7 +117,10 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -233,6 +236,7 @@ class TestItEdiImport(TestItEdi):
                 'discount': 52.5,
                 'debit': 23.75,
 <<<<<<< HEAD
+<<<<<<< HEAD
             }],
         }])
 
@@ -376,6 +380,8 @@ class TestItEdiImport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             },
             {
                 'quantity': 1.0,
@@ -385,6 +391,9 @@ class TestItEdiImport(TestItEdi):
             }],
         }])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_receive_negative_vendor_bill(self):
         """ Same vendor bill as test_receive_vendor_bill but negative unit price """
@@ -628,7 +637,10 @@ class TestItEdiImport(TestItEdi):
         move = self.env['account.move'].create({'move_type': 'in_invoice'})
         move.with_user(user).read(['l10n_it_edi_is_self_invoice'])  # should not raise
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_import_vendor_bill_with_ref_service_valid_tax(self):
         """Ensure that importing vendor bill with a referenced service product, with a service tax of 22% S
@@ -651,4 +663,7 @@ class TestItEdiImport(TestItEdi):
             'amount_untaxed': 25.0,
             'amount_tax': 5.5,
         }])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

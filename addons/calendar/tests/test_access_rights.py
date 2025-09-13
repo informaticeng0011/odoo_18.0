@@ -5,6 +5,10 @@ from datetime import datetime, timedelta
 
 from odoo.tests.common import TransactionCase, new_test_user
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form
 >>>>>>> upstream/18.0
@@ -342,7 +346,10 @@ class TestAccessRights(TransactionCase):
             "Privacy check must be True since the new event is private (following John's calendar default privacy)."
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_recurring_event_with_alarms_for_non_admin(self):
         """
@@ -374,4 +381,7 @@ class TestAccessRights(TransactionCase):
             form.partner_ids.add(self.raoul.partner_id)
 
         self.assertIn(self.raoul.partner_id.id, recurring_event.partner_ids.ids, "Partner should be added as attendee")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

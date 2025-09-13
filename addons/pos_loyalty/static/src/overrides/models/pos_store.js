@@ -44,7 +44,10 @@ patch(PosStore.prototype, {
         );
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     async afterProcessServerData() {
         // Remove reward lines that have no reward anymore (could happen if the program got archived)
         this.models["pos.order.line"]
@@ -52,6 +55,9 @@ patch(PosStore.prototype, {
             .map((line) => line.delete());
         await super.afterProcessServerData(...arguments);
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     async updateOrder(order) {
         // Read value to trigger effect
@@ -190,7 +196,11 @@ patch(PosStore.prototype, {
                 Object.assign(oldChanges[idx], pointsAdded[idx]);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (pointsAdded.length < oldChanges.length) {
+=======
+            if (pointsAdded.length < oldChanges.length || !order._programIsApplicable(program)) {
+>>>>>>> upstream/18.0
 =======
             if (pointsAdded.length < oldChanges.length || !order._programIsApplicable(program)) {
 >>>>>>> upstream/18.0
@@ -330,6 +340,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        couponPointChange.code = order.get_selected_orderline()?.gift_code;
+                        couponPointChange.partner_id = order.get_partner()?.id;
+>>>>>>> upstream/18.0
 =======
                         couponPointChange.code = order.get_selected_orderline()?.gift_code;
                         couponPointChange.partner_id = order.get_partner()?.id;
@@ -735,10 +750,13 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let claimableRewards = null;
         let coupon = null;
         if (rule) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -811,6 +829,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1019,7 +1040,13 @@ patch(PosStore.prototype, {
         if (rewardsToApply.length == 1) {
             const reward = rewardsToApply[0];
 <<<<<<< HEAD
+<<<<<<< HEAD
             order._applyReward(reward.reward, reward.coupon_id, { product });
+=======
+            order._applyReward(reward.reward, reward.coupon_id, {
+                product: result.product_id,
+            });
+>>>>>>> upstream/18.0
 =======
             order._applyReward(reward.reward, reward.coupon_id, {
                 product: result.product_id,
@@ -1177,9 +1204,12 @@ patch(PosStore.prototype, {
     computeDiscountProductIdsForAllRewards(data) {
         const products = this.models[data.model].readMany(data.ids);
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const reward of this.models["loyalty.reward"].getAll()) {
             this.compute_discount_product_ids(reward, products);
 =======
+=======
+>>>>>>> upstream/18.0
         const productsSerialized = products.map((p) => {
             return {
                 product: p,
@@ -1189,6 +1219,9 @@ patch(PosStore.prototype, {
 
         for (const reward of this.models["loyalty.reward"].getAll()) {
             this.compute_discount_product_ids(reward, products, productsSerialized);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
     },
@@ -1209,7 +1242,12 @@ patch(PosStore.prototype, {
     },
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     compute_discount_product_ids(reward, products) {
+=======
+    compute_discount_product_ids(reward, products, productsSerialized = []) {
+        // TODO: remove products parameter in master
+>>>>>>> upstream/18.0
 =======
     compute_discount_product_ids(reward, products, productsSerialized = []) {
         // TODO: remove products parameter in master
@@ -1225,14 +1263,20 @@ patch(PosStore.prototype, {
             reward.update({
                 all_discount_product_ids: [
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ["link", ...products.filter((p) => domain.contains(p.serialize()))],
 =======
+=======
+>>>>>>> upstream/18.0
                     [
                         "link",
                         ...productsSerialized
                             .filter((p) => domain.contains(p.serialized))
                             .map((p) => p.product),
                     ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 ],
             });
@@ -1296,7 +1340,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.models["loyalty.reward"].delete(reward.id);
+=======
+                reward.delete();
+>>>>>>> upstream/18.0
 =======
                 reward.delete();
 >>>>>>> upstream/18.0

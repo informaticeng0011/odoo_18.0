@@ -5,6 +5,10 @@
 # Translators:
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -16,7 +20,11 @@ msgstr ""
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -34,9 +42,15 @@ msgid ""
 "one of an email provider. No credit was consumed. </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>Non è stata trovata nessuna informazione sull'azienda sulla base della"
 " mail fornita, o l'email è quella di un email provider. Non sono stati "
 "consumati credit.</span>"
+=======
+"<span>In base all'indirizzo e-mail non è stata trovato alcun dato "
+"sull'azienda, oppure l'indirizzo corrisponde a un fornitore di indirizzi "
+"e-mail. Non sono stati utilizzati credit.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>In base all'indirizzo e-mail non è stata trovato alcun dato "
 "sull'azienda, oppure l'indirizzo corrisponde a un fornitore di indirizzi "
@@ -50,8 +64,13 @@ msgid ""
 "valid.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>Non è stato possibile effettuare l'arricchimento perché l'indirizzo "
 "e-mail non sembra valido.</span>"
+=======
+"<span>Impossibile effettuare l'arricchimento, l'indirizzo e-mail non sembra "
+"essere valido.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>Impossibile effettuare l'arricchimento, l'indirizzo e-mail non sembra "
 "essere valido.</span>"
@@ -98,7 +117,11 @@ msgstr "Arricchire l'opportunità con i dati dell'azienda"
 #: model:ir.model.fields,field_description:crm_iap_enrich.field_crm_lead__iap_enrich_done
 msgid "Enrichment done"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Arricchimento effettuato"
+=======
+msgstr "Arricchimento completato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arricchimento completato"
 >>>>>>> upstream/18.0
@@ -108,7 +131,11 @@ msgstr "Arricchimento completato"
 #: model_terms:ir.ui.view,arch_db:crm_iap_enrich.mail_message_lead_enrich_notfound
 msgid "Lead Enrichment (based on email address)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Arricchimento del lead (basato sull'indirizzo e-mail)"
+=======
+msgstr "Arricchimento lead (in base all'indirizzo e-mail)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arricchimento lead (in base all'indirizzo e-mail)"
 >>>>>>> upstream/18.0
@@ -118,7 +145,11 @@ msgstr "Arricchimento lead (in base all'indirizzo e-mail)"
 #: code:addons/crm_iap_enrich/models/crm_lead.py:0
 msgid "Lead enriched based on email address"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contatto arricchito in base all'indirizzo e-mail"
+=======
+msgstr "Lead arricchito in base all'indirizzo e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lead arricchito in base all'indirizzo e-mail"
 >>>>>>> upstream/18.0
@@ -127,7 +158,11 @@ msgstr "Lead arricchito in base all'indirizzo e-mail"
 #: model:ir.model,name:crm_iap_enrich.model_crm_lead
 msgid "Lead/Opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contatto/Opportunità"
+=======
+msgstr "Lead/Opportunità"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lead/Opportunità"
 >>>>>>> upstream/18.0
@@ -137,7 +172,11 @@ msgstr "Lead/Opportunità"
 #: code:addons/crm_iap_enrich/models/crm_lead.py:0
 msgid "Not enough credits for Lead Enrichment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Non ci sono abbastanza crediti per arricchire il lead"
+=======
+msgstr "Crediti non sufficienti per l'arricchimento del lead"
+>>>>>>> upstream/18.0
 =======
 msgstr "Crediti non sufficienti per l'arricchimento del lead"
 >>>>>>> upstream/18.0
@@ -155,8 +194,13 @@ msgid ""
 " this lead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Indica se su questo lead è stato eseguito il servizio acquisti in-app per "
 "l'arricchimento. "
+=======
+"Indica se su questo lead è stato eseguito il servizio IAP per "
+"l'arricchimento basato sull'e-mail."
+>>>>>>> upstream/18.0
 =======
 "Indica se su questo lead è stato eseguito il servizio IAP per "
 "l'arricchimento basato sull'e-mail."

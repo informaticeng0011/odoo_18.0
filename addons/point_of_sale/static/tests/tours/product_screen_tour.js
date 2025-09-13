@@ -24,7 +24,10 @@ registry.category("web_tour.tours").add("ProductScreenTour", {
 
             Chrome.startPoS(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             // Make sure we don't have any scroll bar on the product list
             {
                 trigger: ".product-list",
@@ -35,6 +38,9 @@ registry.category("web_tour.tours").add("ProductScreenTour", {
                     }
                 },
             },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             ProductScreen.clickDisplayedProduct("Desk Organizer", true, "1.0", "5.10"),
             ProductScreen.clickDisplayedProduct("Desk Organizer", true, "2.0", "10.20"),
@@ -185,7 +191,10 @@ registry.category("web_tour.tours").add("FloatingOrderTour", {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 registry.category("web_tour.tours").add("test_reuse_empty_floating_order", {
     steps: () =>
         [
@@ -218,6 +227,9 @@ registry.category("web_tour.tours").add("test_tax_control_button_visiblity", {
         ].flat(),
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 registry.category("web_tour.tours").add("FiscalPositionNoTax", {
     steps: () =>
@@ -307,9 +319,12 @@ registry.category("web_tour.tours").add("CashClosingDetails", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Dialog.confirm("Proceed Anyway", ".btn-primary"),
             Chrome.clickBtn("Backend"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -375,6 +390,9 @@ registry.category("web_tour.tours").add("CashClosingDetails", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -802,7 +820,10 @@ registry.category("web_tour.tours").add("AddMultipleSerialsAtOnce", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1057,7 +1078,10 @@ registry.category("web_tour.tours").add("test_draft_orders_not_syncing", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1251,6 +1275,9 @@ registry.category("web_tour.tours").add("test_one_attribute_value_scan_barcode",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1481,6 +1508,7 @@ registry.category("web_tour.tours").add("FiscalPositionTaxLabels", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1657,6 +1685,8 @@ registry.category("web_tour.tours").add("FiscalPositionTaxLabels", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("test_barcode_search_attributes_preset", {
     steps: () =>
@@ -1722,4 +1752,7 @@ registry.category("web_tour.tours").add("test_pos_ui_round_globally", {
             Chrome.endTour(),
         ].flat(),
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

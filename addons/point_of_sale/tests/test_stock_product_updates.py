@@ -95,8 +95,11 @@ class TestStockProductUpdates(TestPoSCommon):
             Command.unlink(attr_value_lg.id),
         ]
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_stock_duplicate_warehouse_with_PoS_operation_type(self):
         wh = self.env['stock.warehouse'].create({
@@ -107,4 +110,7 @@ class TestStockProductUpdates(TestPoSCommon):
         wh_copy = wh.copy()
         self.assertTrue(wh_copy.pos_type_id)
         self.assertNotEqual(wh.pos_type_id, wh_copy.pos_type_id)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

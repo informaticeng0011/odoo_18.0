@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_org_chart
 #
 # Translators:
@@ -8,17 +9,23 @@
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022
 #
 =======
+=======
+>>>>>>> upstream/18.0
 # * hr_org_chart
 #
 # Translators:
 # Martin Trigaux, 2022
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-08 06:51+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2022-09-22 05:52+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, "
@@ -31,6 +38,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-01 21:17+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -42,13 +51,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #: model_terms:ir.ui.view,arch_db:hr_org_chart.hr_employee_view_form_inherit_org_chart
 msgid "<span class=\"o_stat_text\">Org Chart</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Org šema</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Org šema</span>"
 >>>>>>> upstream/18.0
@@ -57,7 +73,11 @@ msgstr "<span class=\"o_stat_text\">Org šema</span>"
 #: model_terms:ir.actions.act_window,help:hr_org_chart.action_hr_employee_org_chart
 msgid "Add a new employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj novog zaposlenog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj novog zaposlenog"
 >>>>>>> upstream/18.0
@@ -66,7 +86,11 @@ msgstr "Dodaj novog zaposlenog"
 #: model:ir.model,name:hr_org_chart.model_hr_employee_base
 msgid "Basic Employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Osnovni zaposleni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Osnovni zaposleni"
 >>>>>>> upstream/18.0
@@ -77,7 +101,11 @@ msgstr "Osnovni zaposleni"
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_public__department_color
 msgid "Department Color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Boja sektora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Boja sektora"
 >>>>>>> upstream/18.0
@@ -88,7 +116,11 @@ msgstr "Boja sektora"
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_public__child_count
 msgid "Direct Subordinates Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojač direktnih podređenih"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brojač direktnih podređenih"
 >>>>>>> upstream/18.0
@@ -98,7 +130,11 @@ msgstr "Brojač direktnih podređenih"
 #: model:ir.model.fields,help:hr_org_chart.field_hr_employee_public__subordinate_ids
 msgid "Direct and indirect subordinates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Direktni i indirektni podređeni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Direktni i indirektni podređeni"
 >>>>>>> upstream/18.0
@@ -108,7 +144,11 @@ msgstr "Direktni i indirektni podređeni"
 #: code:addons/hr_org_chart/static/src/fields/hr_org_chart.xml:0
 msgid "Direct subordinates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Direktni podređeni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Direktni podređeni"
 >>>>>>> upstream/18.0
@@ -122,7 +162,11 @@ msgstr "Zaposleni"
 #: model_terms:ir.ui.view,arch_db:hr_org_chart.hr_department_hierarchy_view
 msgid "Employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaposleni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaposleni"
 >>>>>>> upstream/18.0
@@ -133,6 +177,10 @@ msgstr "Zaposleni"
 msgid "In order to get an organigram, set a manager and save the record."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Da biste dobili organizacionu šemu, postavite menadžera i sačuvajte zapis."
+>>>>>>> upstream/18.0
 =======
 "Da biste dobili organizacionu šemu, postavite menadžera i sačuvajte zapis."
 >>>>>>> upstream/18.0
@@ -143,7 +191,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_public__child_all_count
 msgid "Indirect Subordinates Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojač indirektnih podređenih"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brojač indirektnih podređenih"
 >>>>>>> upstream/18.0
@@ -153,7 +205,11 @@ msgstr "Brojač indirektnih podređenih"
 #: code:addons/hr_org_chart/static/src/fields/hr_org_chart.xml:0
 msgid "Indirect subordinates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Indirektni podređeni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Indirektni podređeni"
 >>>>>>> upstream/18.0
@@ -163,7 +219,11 @@ msgstr "Indirektni podređeni"
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_public__is_subordinate
 msgid "Is Subordinate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je podređeni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je podređeni"
 >>>>>>> upstream/18.0
@@ -173,7 +233,11 @@ msgstr "Je podređeni"
 #: code:addons/hr_org_chart/static/src/fields/hr_org_chart.xml:0
 msgid "More managers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Više menadžera"
+>>>>>>> upstream/18.0
 =======
 msgstr "Više menadžera"
 >>>>>>> upstream/18.0
@@ -183,7 +247,11 @@ msgstr "Više menadžera"
 #: code:addons/hr_org_chart/static/src/fields/hr_org_chart.xml:0
 msgid "No hierarchy position."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema pozicije u hijerarhiji."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema pozicije u hijerarhiji."
 >>>>>>> upstream/18.0
@@ -193,7 +261,11 @@ msgstr "Nema pozicije u hijerarhiji."
 #: code:addons/hr_org_chart/models/hr_org_chart_mixin.py:0
 msgid "Operation not supported"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operacija nije podržana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operacija nije podržana"
 >>>>>>> upstream/18.0
@@ -203,7 +275,11 @@ msgstr "Operacija nije podržana"
 #: model:ir.ui.menu,name:hr_org_chart.menu_hr_employee_org_chart
 msgid "Org Chart"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Org šema"
+>>>>>>> upstream/18.0
 =======
 msgstr "Org šema"
 >>>>>>> upstream/18.0
@@ -214,7 +290,11 @@ msgstr "Org šema"
 #: model_terms:ir.ui.view,arch_db:hr_org_chart.res_users_view_form
 msgid "Organization Chart"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Organizaciona šema"
+>>>>>>> upstream/18.0
 =======
 msgstr "Organizaciona šema"
 >>>>>>> upstream/18.0
@@ -223,7 +303,11 @@ msgstr "Organizaciona šema"
 #: model:ir.model,name:hr_org_chart.model_hr_employee_public
 msgid "Public Employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Javni zaposleni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Javni zaposleni"
 >>>>>>> upstream/18.0
@@ -233,7 +317,11 @@ msgstr "Javni zaposleni"
 #: code:addons/hr_org_chart/static/src/fields/hr_org_chart.xml:0
 msgid "Redirect"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preusmeri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preusmeri"
 >>>>>>> upstream/18.0
@@ -243,7 +331,11 @@ msgstr "Preusmeri"
 #: code:addons/hr_org_chart/static/src/fields/hr_org_chart.xml:0
 msgid "See All"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vidi sve"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vidi sve"
 >>>>>>> upstream/18.0
@@ -265,7 +357,11 @@ msgstr "Tim"
 #: code:addons/hr_org_chart/static/src/fields/hr_org_chart.xml:0
 msgid "This employee has no manager or subordinate."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj zaposleni nema menadžera ili podređene."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj zaposleni nema menadžera ili podređene."
 >>>>>>> upstream/18.0
@@ -285,11 +381,17 @@ msgid ""
 "                contact data, job position, availability, etc."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Samo jednim brzim pogledom na ekran zaposlenih u Odoo-u,\n"
 "                možete lako pronaći sve potrebne informacije za svaku osobu;"
 "\n"
 "                kontakt podatke, radno mesto, dostupnost itd."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_org_chart
@@ -297,7 +399,11 @@ msgstr ""
 #: code:addons/hr_org_chart/static/src/views/hr_employee_hierarchy/hr_employee_hierarchy_card.xml:0
 msgid "people"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ljudi"
+>>>>>>> upstream/18.0
 =======
 msgstr "ljudi"
 >>>>>>> upstream/18.0

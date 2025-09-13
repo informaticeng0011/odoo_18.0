@@ -22,7 +22,11 @@
                                 <t t-out="extra_html"/>
                             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <strong class="o_label_price" t-out="pricelist._get_product_price(product, 1, pricelist.currency_id or product.currency_id)"
+=======
+                            <strong class="o_label_price" t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
+>>>>>>> upstream/18.0
 =======
                             <strong class="o_label_price" t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
 >>>>>>> upstream/18.0
@@ -44,7 +48,11 @@
                     </div>
                     <div class="text-end" style="padding-top:0;padding-bottom:0">
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <strong class="o_label_price_medium" t-out="pricelist._get_product_price(product, 1, pricelist.currency_id or product.currency_id)"
+=======
+                        <strong class="o_label_price_medium" t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
+>>>>>>> upstream/18.0
 =======
                         <strong class="o_label_price_medium" t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
 >>>>>>> upstream/18.0
@@ -74,7 +82,11 @@
                     </div>
                     <div class="o_label_price_medium text-end">
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <strong t-out="pricelist._get_product_price(product, 1, pricelist.currency_id or product.currency_id)"
+=======
+                        <strong t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
+>>>>>>> upstream/18.0
 =======
                         <strong t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
 >>>>>>> upstream/18.0
@@ -132,7 +144,11 @@
                     </div>
                     <div class="text-end" style="padding: 0 4px;">
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <strong class="o_label_price_small" t-out="pricelist._get_product_price(product, 1, pricelist.currency_id or product.currency_id)"
+=======
+                        <strong class="o_label_price_small" t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
+>>>>>>> upstream/18.0
 =======
                         <strong class="o_label_price_small" t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
 >>>>>>> upstream/18.0

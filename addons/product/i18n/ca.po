@@ -87,6 +87,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Xavier, 2025
 # Jonatan Gk, 2025
 <<<<<<< HEAD
@@ -501,6 +502,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Harcogourmet, 2025
 # Jonatan Gk, 2025
 # Santiago Payà <santiagopim@gmail.com>, 2025
@@ -511,6 +514,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -543,6 +549,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1020,6 +1027,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Noemi Pla, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-14 20:47+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Noemi Pla, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1036,6 +1048,12 @@ msgid ""
 "Note: products that you don't have access to will not be shown above."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\n"
+"\n"
+"Nota: els productes als quals no tens accés no es mostraran."
+>>>>>>> upstream/18.0
 =======
 "\n"
 "\n"
@@ -1071,7 +1089,11 @@ msgid "$14.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "14,00 €"
+>>>>>>> upstream/18.0
 =======
 msgstr "14,00 €"
 >>>>>>> upstream/18.0
@@ -1119,7 +1141,11 @@ msgstr "14,00 €"
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "$15.00"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "15,00 €"
+>>>>>>> upstream/18.0
 =======
 msgstr "15,00 €"
 >>>>>>> upstream/18.0
@@ -1132,6 +1158,11 @@ msgid ""
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(base)s amb un descompte del %(discount)s %% %(discount_type)s i %(surcharge)s un cost addicional\n"
+"Exemple: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
+>>>>>>> upstream/18.0
 =======
 "%(base)s amb un descompte del %(discount)s %% %(discount_type)s i %(surcharge)s un cost addicional\n"
 "Exemple: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
@@ -1145,6 +1176,11 @@ msgid ""
 "(%(start_date)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(item_name)s: la data de finalització (%(end_date)s) ha de ser posterior a "
+"la data d'inici (%(start_date)s)"
+>>>>>>> upstream/18.0
 =======
 "%(item_name)s: la data de finalització (%(end_date)s) ha de ser posterior a "
 "la data d'inici (%(start_date)s)"
@@ -1155,7 +1191,11 @@ msgstr ""
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% %(discount_type)s on %(base)s %(extra)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(percentage)s %% %(discount_type)s en %(base)s %(extra)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(percentage)s %% %(discount_type)s en %(base)s %(extra)s"
 >>>>>>> upstream/18.0
@@ -1165,7 +1205,11 @@ msgstr "%(percentage)s %% %(discount_type)s en %(base)s %(extra)s"
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% discount on %(pricelist)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(percentage)s %% de descompte en %(pricelist)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(percentage)s %% de descompte en %(pricelist)s"
 >>>>>>> upstream/18.0
@@ -1175,7 +1219,11 @@ msgstr "%(percentage)s %% de descompte en %(pricelist)s"
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% discount on sales price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(percentage)s %% de descompte en el preu de venda"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(percentage)s %% de descompte en el preu de venda"
 >>>>>>> upstream/18.0
@@ -1207,7 +1255,11 @@ msgstr "'Productor- %s' % (object.name)"
 #: code:addons/product/models/product_template.py:0
 msgid "(e.g: product description, ebook, legal notice, ...)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(per exemple: descripció del producte, ebook, avís legal, etc.)."
+>>>>>>> upstream/18.0
 =======
 msgstr "(per exemple: descripció del producte, ebook, avís legal, etc.)."
 >>>>>>> upstream/18.0
@@ -1217,7 +1269,11 @@ msgstr "(per exemple: descripció del producte, ebook, avís legal, etc.)."
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "+ %(amount)s extra fee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "+ cost addicional de %(amount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "+ cost addicional de %(amount)s"
 >>>>>>> upstream/18.0
@@ -1227,7 +1283,11 @@ msgstr "+ cost addicional de %(amount)s"
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "- %(amount)s rebate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- %(amount)s de rebaixa"
+>>>>>>> upstream/18.0
 =======
 msgstr "- %(amount)s de rebaixa"
 >>>>>>> upstream/18.0
@@ -1268,7 +1328,11 @@ msgstr "10"
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "10 Units"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "10 unitats"
+>>>>>>> upstream/18.0
 =======
 msgstr "10 unitats"
 >>>>>>> upstream/18.0
@@ -1277,7 +1341,11 @@ msgstr "10 unitats"
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
 msgid "123456789012"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "123456789012"
+>>>>>>> upstream/18.0
 =======
 msgstr "123456789012"
 >>>>>>> upstream/18.0
@@ -1342,13 +1410,19 @@ msgid ""
 "                                        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                            Regles\n"
 "                                        </span>\n"
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
 "                                            Regla\n"
 "                                        </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -1362,13 +1436,19 @@ msgid ""
 "                                    </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                        Llistes de preus\n"
 "                                    </span>\n"
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
 "                                        Llista de preus\n"
 "                                    </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -1380,7 +1460,11 @@ msgstr "<span class=\"o_stat_text\"> Productes</span>"
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "<span class=\"o_stat_text\">Products</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Productes</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Productes</span>"
 >>>>>>> upstream/18.0
@@ -1536,8 +1620,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "descripció serà copiada a cada comanda de venda, comanda d'entrega i factura"
 " de client."
+=======
+"descripció serà copiada a cada comanda de venda, comanda d'entrega i "
+"factura/factura rectificativa de client."
+>>>>>>> upstream/18.0
 =======
 "descripció serà copiada a cada comanda de venda, comanda d'entrega i "
 "factura/factura rectificativa de client."
@@ -1953,7 +2042,11 @@ msgstr ""
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Add Products to pricelist report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegeix productes a l'informe de la llista de preus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afegeix productes a l'informe de la llista de preus"
 >>>>>>> upstream/18.0
@@ -1972,6 +2065,11 @@ msgid ""
 "                                include them in the report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Afegeix productes mitjançant el botó «Afegir productes» a la part superior dreta per\n"
+"                                incloure'ls a l'informe."
+>>>>>>> upstream/18.0
 =======
 "Afegeix productes mitjançant el botó «Afegir productes» a la part superior dreta per\n"
 "                                incloure'ls a l'informe."
@@ -1982,7 +2080,11 @@ msgstr ""
 #: code:addons/product/models/product_attribute_value.py:0
 msgid "Add to all products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegir a tots els productes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afegir a tots els productes"
 >>>>>>> upstream/18.0
@@ -1991,7 +2093,11 @@ msgstr "Afegir a tots els productes"
 #: model:ir.model.fields.selection,name:product.selection__update_product_attribute_value__mode__add
 msgid "Add to existing products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegir als productes existents"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afegir als productes existents"
 >>>>>>> upstream/18.0
@@ -2000,7 +2106,11 @@ msgstr "Afegir als productes existents"
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Add to products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegir a productes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afegir a productes"
 >>>>>>> upstream/18.0
@@ -2086,10 +2196,15 @@ msgstr "Totes les variants de producte que utilitzen aquesta etiqueta"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
@@ -2335,7 +2450,11 @@ msgstr "Tots els Productes"
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "All categories"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Totes les categories"
+>>>>>>> upstream/18.0
 =======
 msgstr "Totes les categories"
 >>>>>>> upstream/18.0
@@ -2355,7 +2474,11 @@ msgstr "Tots els fitxers s'han carregat"
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "All products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tots els productes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tots els productes"
 >>>>>>> upstream/18.0
@@ -2365,7 +2488,11 @@ msgstr "Tots els productes"
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_tree_view_from_product
 msgid "All variants"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Totes les variants"
+>>>>>>> upstream/18.0
 =======
 msgstr "Totes les variants"
 >>>>>>> upstream/18.0
@@ -2375,7 +2502,11 @@ msgstr "Totes les variants"
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__is_custom
 msgid "Allow customers to set their own value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Permet que els clients estableixin el seu propi valor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permet que els clients estableixin el seu propi valor"
 >>>>>>> upstream/18.0
@@ -2516,7 +2647,11 @@ msgstr ""
 #: code:addons/product/static/src/product_catalog/kanban_controller.js:0
 msgid "Back to Quotation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tornar al pressupost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tornar al pressupost"
 >>>>>>> upstream/18.0
@@ -2702,7 +2837,11 @@ msgid "Combo Choices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opcions de combinacions"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opcions de combinacions"
 >>>>>>> upstream/18.0
@@ -2739,7 +2878,11 @@ msgid "Combo Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Element de la combinació"
+>>>>>>> upstream/18.0
 =======
 msgstr "Element de la combinació"
 >>>>>>> upstream/18.0
@@ -2936,7 +3079,11 @@ msgstr "Creeu una nova variant de producte"
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid "Create a product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Crear un producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Crear un producte"
 >>>>>>> upstream/18.0
@@ -3226,7 +3373,11 @@ msgstr "Documents"
 #: model:ir.model.fields,field_description:product.field_product_template__product_document_count
 msgid "Documents Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nombre de documents"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre de documents"
 >>>>>>> upstream/18.0
@@ -3235,7 +3386,11 @@ msgstr "Nombre de documents"
 #: model_terms:ir.ui.view,arch_db:product.product_document_search
 msgid "Documents of this variant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Documents d'aquesta variant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Documents d'aquesta variant"
 >>>>>>> upstream/18.0
@@ -3250,7 +3405,11 @@ msgstr "Descarregar"
 #: code:addons/product/models/product_template.py:0
 msgid "Download examples"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Descarregar exemples"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descarregar exemples"
 >>>>>>> upstream/18.0
@@ -3332,7 +3491,11 @@ msgstr "Ergonòmic"
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Error exporting file. Please try again."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Error en exportar l'arxiu. Si us plau, torna a intentar-ho."
+>>>>>>> upstream/18.0
 =======
 msgstr "Error en exportar l'arxiu. Si us plau, torna a intentar-ho."
 >>>>>>> upstream/18.0
@@ -3367,7 +3530,11 @@ msgstr "Informació extra"
 #: model:product.attribute,name:product.pa_extra_options
 msgid "Extra Options"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opcions addicionals"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opcions addicionals"
 >>>>>>> upstream/18.0
@@ -3539,7 +3706,11 @@ msgid "Format"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Formata"
+=======
+msgstr "Format"
+>>>>>>> upstream/18.0
 =======
 msgstr "Format"
 >>>>>>> upstream/18.0
@@ -3888,7 +4059,11 @@ msgid "Get product pictures using Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obtén fotografies de producte usant codi de barres"
+=======
+msgstr "Obtingueu fotografies de producte utilitzant codi de barres"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obtingueu fotografies de producte utilitzant codi de barres"
 >>>>>>> upstream/18.0
@@ -4305,6 +4480,10 @@ msgid ""
 "If unchecked, it will allow you to hide the attribute without removing it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Si no està marcat, podràs ocultar l'atribut sense haver d'eliminar-lo."
+>>>>>>> upstream/18.0
 =======
 "Si no està marcat, podràs ocultar l'atribut sense haver d'eliminar-lo."
 >>>>>>> upstream/18.0
@@ -4621,7 +4800,11 @@ msgstr "Marges"
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Markup"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marge de benefici"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marge de benefici"
 >>>>>>> upstream/18.0
@@ -4776,7 +4959,11 @@ msgstr ""
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid "No products could be found."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No s'ha trobat cap producte."
+>>>>>>> upstream/18.0
 =======
 msgstr "No s'ha trobat cap producte."
 >>>>>>> upstream/18.0
@@ -4904,6 +5091,11 @@ msgstr ""
 msgid "Oops! '%(fileName)s' didn’t upload since its format isn’t allowed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vaja! '%(fileName)s' no s'ha pogut carregar perquè el format no és "
+"compatible."
+>>>>>>> upstream/18.0
 =======
 "Vaja! '%(fileName)s' no s'ha pogut carregar perquè el format no és "
 "compatible."
@@ -4918,7 +5110,11 @@ msgstr "Adjunció original (sense optimitzar ni redimensionar)"
 #: model:ir.model.fields,field_description:product.field_product_combo_item__lst_price
 msgid "Original Price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preu original"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preu original"
 >>>>>>> upstream/18.0
@@ -4983,7 +5179,11 @@ msgstr "Plástic"
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Please enter a positive whole number."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Si us plau, introdueix un nombre positiu sencer."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si us plau, introdueix un nombre positiu sencer."
 >>>>>>> upstream/18.0
@@ -4998,11 +5198,17 @@ msgid ""
 "Invalid URL: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Si us plau, introdueix un URL vàlid.\n"
 "Exemple: https://www.odoo.com\n"
 "\n"
 "URL no vàlid: %s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -5010,7 +5216,11 @@ msgstr ""
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Please select some products first."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Si us plau, primer selecciona alguns productes."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si us plau, primer selecciona alguns productes."
 >>>>>>> upstream/18.0
@@ -5086,7 +5296,11 @@ msgstr "Regles de preus"
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Price Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipus de preu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipus de preu"
 >>>>>>> upstream/18.0
@@ -5144,7 +5358,11 @@ msgstr "Informe de la llista de cotitzacions"
 #: code:addons/product/models/product_pricelist.py:0
 msgid "Pricelist Report Preview"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vista prèvia de l'informe de la llista de preus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vista prèvia de l'informe de la llista de preus"
 >>>>>>> upstream/18.0
@@ -5278,7 +5496,11 @@ msgstr "Categoria del producte"
 #: model:ir.model,name:product.model_product_combo
 msgid "Product Combo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Combo de productes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Combo de productes"
 >>>>>>> upstream/18.0
@@ -5287,7 +5509,11 @@ msgstr "Combo de productes"
 #: model:ir.model,name:product.model_product_combo_item
 msgid "Product Combo Item"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Article del combo de productes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Article del combo de productes"
 >>>>>>> upstream/18.0
@@ -5302,7 +5528,11 @@ msgstr "Nombre de productes"
 #: model:res.groups,name:product.group_product_manager
 msgid "Product Creation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creació de producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creació de producte"
 >>>>>>> upstream/18.0
@@ -5318,7 +5548,11 @@ msgid "Product Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Document del producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Document del producte"
 >>>>>>> upstream/18.0
@@ -5580,7 +5814,11 @@ msgstr "Productes: %(category)s"
 #: model:ir.model.fields,field_description:product.field_res_config_settings__module_loyalty
 msgid "Promotions, Coupons, Gift Card & Loyalty Program"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Promocions, cupons, programa de lleialtat de la targeta de regal"
+=======
+msgstr "Promocions, cupons, programa de fidelització de la targeta de regal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Promocions, cupons, programa de fidelització de la targeta de regal"
 >>>>>>> upstream/18.0
@@ -5615,7 +5853,11 @@ msgstr "Descripció de compra"
 #: model:ir.model.fields,field_description:product.field_product_template__uom_po_id
 msgid "Purchase Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unitat de compra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unitat de compra"
 >>>>>>> upstream/18.0
@@ -5630,7 +5872,11 @@ msgstr "Quantitats"
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "Quantities (Price)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantitats (preu)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantitats (preu)"
 >>>>>>> upstream/18.0
@@ -5646,7 +5892,11 @@ msgstr "Quantitat"
 #: code:addons/product/controllers/pricelist_report.py:0
 msgid "Quantity (%s UoM)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantitat (%s UdM)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantitat (%s UdM)"
 >>>>>>> upstream/18.0
@@ -5835,7 +6085,11 @@ msgstr ""
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Show Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mostrar el nom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostrar el nom"
 >>>>>>> upstream/18.0
@@ -5982,7 +6236,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_attribute__template_value_ids
 msgid "Template Values"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valors de la plantilla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valors de la plantilla"
 >>>>>>> upstream/18.0
@@ -5998,7 +6256,11 @@ msgstr "La referència interna '%s' ja existeix."
 #: code:addons/product/models/product_product.py:0
 msgid "The Reference '%s' already exists."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "La referència '%s' ja existeix."
+>>>>>>> upstream/18.0
 =======
 msgstr "La referència '%s' ja existeix."
 >>>>>>> upstream/18.0
@@ -6076,12 +6338,18 @@ msgid ""
 " in a combo, it will always be the same price."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "El preu mínim entre els productes d'aquesta combinació. Aquest valor "
 "s'utilitzarà per prorratejar el preu del combo en relació amb altres "
 "combinacions dins d'un producte d'aquest tipus. Aquesta heurística garanteix"
 " que, independentment del producte que l'usuari triï, el preu sempre serà el"
 " mateix."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -6103,11 +6371,17 @@ msgid ""
 "mode of *Create Variants*."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "El nombre de variants a generar és superior al límit permès. Evita crear "
 "variants per a cada combinació o crea-les sota demanda des de la comanda de "
 "venda. Per fer-ho, obre la vista de formulari d'atributs i canvia el mode de"
 " *Crear variants*."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -6139,7 +6413,11 @@ msgstr ""
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "The rounding method must be strictly positive."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "El mètode d'arrodoniment ha de ser positiu."
+>>>>>>> upstream/18.0
 =======
 msgstr "El mètode d'arrodoniment ha de ser positiu."
 >>>>>>> upstream/18.0
@@ -6289,7 +6567,11 @@ msgstr "Tipus d'activitat d'excepció registrada."
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "UOM"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UdM"
+>>>>>>> upstream/18.0
 =======
 msgstr "UdM"
 >>>>>>> upstream/18.0
@@ -6331,7 +6613,11 @@ msgstr "Unitat del nom de mesura"
 #: code:addons/product/static/src/product_catalog/order_line/order_line.xml:0
 msgid "Unit price:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preu unitari:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preu unitari:"
 >>>>>>> upstream/18.0
@@ -6357,7 +6643,11 @@ msgstr "Categoria UoM"
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Update extra prices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualitzar els preus addicionals"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualitzar els preus addicionals"
 >>>>>>> upstream/18.0
@@ -6366,7 +6656,11 @@ msgstr "Actualitzar els preus addicionals"
 #: model:ir.model,name:product.model_update_product_attribute_value
 msgid "Update product attribute value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualitzar el valor de l'atribut del producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualitzar el valor de l'atribut del producte"
 >>>>>>> upstream/18.0
@@ -6376,7 +6670,11 @@ msgstr "Actualitzar el valor de l'atribut del producte"
 #: code:addons/product/models/product_attribute_value.py:0
 msgid "Update product extra prices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualitzar els preus addicionals del producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualitzar els preus addicionals del producte"
 >>>>>>> upstream/18.0
@@ -6385,7 +6683,11 @@ msgstr "Actualitzar els preus addicionals del producte"
 #: model:ir.model.fields.selection,name:product.selection__update_product_attribute_value__mode__update_extra_price
 msgid "Update the extra price on existing products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualitzar el preu addicional en productes existents"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualitzar el preu addicional en productes existents"
 >>>>>>> upstream/18.0
@@ -6401,7 +6703,11 @@ msgstr "Pujar"
 #: code:addons/product/models/product_template.py:0
 msgid "Upload files to your product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pujar arxius al producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pujar arxius al producte"
 >>>>>>> upstream/18.0
@@ -6423,6 +6729,11 @@ msgid ""
 "discount to customer."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Utilitza les regles de descompte i activa la configuració de descompte "
+"perquè el client pugui visualitzar el descompte."
+>>>>>>> upstream/18.0
 =======
 "Utilitza les regles de descompte i activa la configuració de descompte "
 "perquè el client pugui visualitzar el descompte."
@@ -6436,6 +6747,11 @@ msgid ""
 "customers"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Utilitza aquesta funció per emmagatzemar qualsevol arxiu que vulguis "
+"compartir amb els teus clients."
+>>>>>>> upstream/18.0
 =======
 "Utilitza aquesta funció per emmagatzemar qualsevol arxiu que vulguis "
 "compartir amb els teus clients."
@@ -6488,6 +6804,12 @@ msgid ""
 "        Used to compute margins on sale orders."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"El valor del producte (calculat automàticament mitjançant AVCO).\n"
+"        S'utilitza per valorar el producte quan no es coneix el cost de compra (per exemple, en un ajust d'inventari).\n"
+"        S'utilitza per calcular els marges de les comandes de venda."
+>>>>>>> upstream/18.0
 =======
 "El valor del producte (calculat automàticament mitjançant AVCO).\n"
 "        S'utilitza per valorar el producte quan no es coneix el cost de compra (per exemple, en un ajust d'inventari).\n"
@@ -6518,7 +6840,11 @@ msgstr "Comptador de variants"
 #: model:ir.model.fields,field_description:product.field_product_attribute__create_variant
 msgid "Variant Creation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creació de la variant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creació de la variant"
 >>>>>>> upstream/18.0
@@ -6568,7 +6894,11 @@ msgstr "Venedor de variants"
 #: model:ir.model.fields,field_description:product.field_product_product__additional_product_tag_ids
 msgid "Variant Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etiquetes de la variant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etiquetes de la variant"
 >>>>>>> upstream/18.0
@@ -6734,6 +7064,11 @@ msgid ""
 "products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Estàs a punt d'afegir el valor \"%(attribute_value)s\" a %(product_count)s "
+"productes."
+>>>>>>> upstream/18.0
 =======
 "Estàs a punt d'afegir el valor \"%(attribute_value)s\" a %(product_count)s "
 "productes."
@@ -6744,7 +7079,11 @@ msgstr ""
 #: code:addons/product/wizard/update_product_attribute_value.py:0
 msgid "You are about to update the extra price of %s products."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estàs a punt d'actualitzar el preu addicional de %s productes."
+>>>>>>> upstream/18.0
 =======
 msgstr "Estàs a punt d'actualitzar el preu addicional de %s productes."
 >>>>>>> upstream/18.0
@@ -6757,6 +7096,11 @@ msgid ""
 "archived."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Estàs desactivant la configuració de la llista de preus. S'arxivaran totes "
+"les llistes de preus actives."
+>>>>>>> upstream/18.0
 =======
 "Estàs desactivant la configuració de la llista de preus. S'arxivaran totes "
 "les llistes de preus actives."
@@ -6786,7 +7130,11 @@ msgstr "Podeu aplicar una marca en establir un descompte negatiu."
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_markup
 msgid "You can apply a mark-up on the cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "És possible aplicat un marge de benefici en el cost"
+>>>>>>> upstream/18.0
 =======
 msgstr "És possible aplicat un marge de benefici en el cost"
 >>>>>>> upstream/18.0
@@ -6817,6 +7165,10 @@ msgid ""
 "value."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pots pujar una imatge que s'utilitzarà com el color del valor de l'atribut."
+>>>>>>> upstream/18.0
 =======
 "Pots pujar una imatge que s'utilitzarà com el color del valor de l'atribut."
 >>>>>>> upstream/18.0
@@ -6826,7 +7178,11 @@ msgstr ""
 #: code:addons/product/static/src/product_catalog/order_line/order_line.xml:0
 msgid "You can't edit this product in the catalog."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No és possible editar aquest producte des del catàleg."
+>>>>>>> upstream/18.0
 =======
 msgstr "No és possible editar aquest producte des del catàleg."
 >>>>>>> upstream/18.0
@@ -6838,6 +7194,11 @@ msgid ""
 "You cannot archive this attribute as there are still products linked to it"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"No és possible arxivar aquest atribut perquè encara hi ha productes "
+"vinculats a aquest."
+>>>>>>> upstream/18.0
 =======
 "No és possible arxivar aquest atribut perquè encara hi ha productes "
 "vinculats a aquest."
@@ -6870,6 +7231,11 @@ msgid ""
 " the following products: %(products)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"No és possible canviar l'atribut del valor %(value)s perquè s'utilitza en "
+"els següents productes: %(products)s"
+>>>>>>> upstream/18.0
 =======
 "No és possible canviar l'atribut del valor %(value)s perquè s'utilitza en "
 "els següents productes: %(products)s"
@@ -6921,11 +7287,17 @@ msgid ""
 "%(other_pricelists)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "No és possible eliminar les llistes de preus:\n"
 "(%(pricelists)s)\n"
 "S'utilitzen a una altra llista de preus:\n"
 "%(other_pricelists)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -6952,6 +7324,11 @@ msgid ""
 "%(products)s\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"No és possible eliminar el valor %(value)s perquè s'utilitza en els següents productes:\n"
+"%(products)s\n"
+>>>>>>> upstream/18.0
 =======
 "No és possible eliminar el valor %(value)s perquè s'utilitza en els següents productes:\n"
 "%(products)s\n"
@@ -6994,6 +7371,11 @@ msgid ""
 "                            whether it's a storable product, a consumable or a service."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Has de definir un producte per a tot el que vens o compres,\n"
+"                            sigui un producte emmagatzemable, un consumible o un servei."
+>>>>>>> upstream/18.0
 =======
 "Has de definir un producte per a tot el que vens o compres,\n"
 "                            sigui un producte emmagatzemable, un consumible o un servei."
@@ -7052,7 +7434,11 @@ msgstr "Has de posar una quantitat positiva."
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "csv"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr ".csv"
+>>>>>>> upstream/18.0
 =======
 msgstr ".csv"
 >>>>>>> upstream/18.0
@@ -7073,7 +7459,11 @@ msgstr "descompte "
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_form_normalized
 msgid "e.g. 1234567890"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "per exemple, 1234567890"
+>>>>>>> upstream/18.0
 =======
 msgstr "per exemple, 1234567890"
 >>>>>>> upstream/18.0
@@ -7082,7 +7472,11 @@ msgstr "per exemple, 1234567890"
 #: model_terms:ir.ui.view,arch_db:product.product_combo_view_form
 msgid "e.g. Burger Choice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "per exemple, opció d'hamburguesa"
+>>>>>>> upstream/18.0
 =======
 msgstr "per exemple, opció d'hamburguesa"
 >>>>>>> upstream/18.0
@@ -7107,7 +7501,11 @@ msgstr "e.x. Subscripció a Odoo Enterprise"
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "e.g. Starter - Meal - Desert"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "per exemple, entrant - principal - postres"
+>>>>>>> upstream/18.0
 =======
 msgstr "per exemple, entrant - principal - postres"
 >>>>>>> upstream/18.0
@@ -7152,7 +7550,11 @@ msgstr "producte"
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "product cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "cost del producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "cost del producte"
 >>>>>>> upstream/18.0
@@ -7168,7 +7570,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "sales price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "preu de venda"
+>>>>>>> upstream/18.0
 =======
 msgstr "preu de venda"
 >>>>>>> upstream/18.0
@@ -7193,7 +7599,11 @@ msgstr "fins"
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "xlsx"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr ".xlsx"
+>>>>>>> upstream/18.0
 =======
 msgstr ".xlsx"
 >>>>>>> upstream/18.0

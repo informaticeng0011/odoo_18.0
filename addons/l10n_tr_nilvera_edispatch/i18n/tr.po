@@ -7,8 +7,13 @@ msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-06-27 13:26+0000\n"
 "PO-Revision-Date: 2025-07-01 11:00+0400\n"
+=======
+"POT-Creation-Date: 2025-08-11 06:16+0000\n"
+"PO-Revision-Date: 2025-08-11 14:53+0400\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-08-11 06:16+0000\n"
 "PO-Revision-Date: 2025-08-11 14:53+0400\n"
@@ -25,11 +30,14 @@ msgstr ""
 #. module: l10n_tr_nilvera_edispatch
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
 #, python-format
 msgid "%s TCKN is required."
 msgstr "%s TCKN gereklidir."
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/l10n_tr_nilvera_edispatch/models/res_partner.py:0
 #, python-format
 msgid "%(name)s's %(errors)s."
@@ -41,6 +49,9 @@ msgstr "%(name)s'nin %(errors)s."
 #, python-format
 msgid "%s TCKN is required."
 msgstr "%s TCKN zorunludur."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_tr_nilvera_edispatch
@@ -49,7 +60,11 @@ msgstr "%s TCKN zorunludur."
 #, python-format
 msgid "%s is required"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s gereklidir"
+=======
+msgstr "%s zorunludur"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s zorunludur"
 >>>>>>> upstream/18.0
@@ -62,6 +77,7 @@ msgid "%s's"
 msgstr "%s'nin"
 
 #. module: l10n_tr_nilvera_edispatch
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-python
 #: code:addons/l10n_tr_nilvera_edispatch/models/res_partner.py:0
@@ -78,12 +94,21 @@ msgstr "Bu tür bir plaka numarası zaten mevcuttur."
 msgid "A Plate Number with that type already exists."
 msgstr "Bu türde bir plaka numarası zaten mevcut."
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.constraint,message:l10n_tr_nilvera_edispatch.constraint_l10n_tr_nilvera_trailer_plate_name_unique
+msgid "A Plate Number with that type already exists."
+msgstr "Bu türde bir plaka numarası zaten mevcut."
+>>>>>>> upstream/18.0
 
 #. module: l10n_tr_nilvera_edispatch
 #: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.view_picking_form_inherit_l10n_tr_nilvera_edispatch
 msgid "Additional Information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ek Bilgi"
+=======
+msgstr "Ek Bilgiler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ek Bilgiler"
 >>>>>>> upstream/18.0
@@ -94,7 +119,11 @@ msgstr "Ek Bilgiler"
 #, python-format
 msgid "At least one Driver is required."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "En az bir sürücü gereklidir."
+=======
+msgstr "En az bir şoför zorunludur."
+>>>>>>> upstream/18.0
 =======
 msgstr "En az bir şoför zorunludur."
 >>>>>>> upstream/18.0
@@ -108,7 +137,11 @@ msgstr "Alıcı"
 #: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_buyer_originator_id
 msgid "Buyer Originator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alıcı Kaynağı"
+=======
+msgstr "Alıcı (İlk Başlatan Taraf)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alıcı (İlk Başlatan Taraf)"
 >>>>>>> upstream/18.0
@@ -132,7 +165,11 @@ msgid ""
 "filled)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Taşıyıcı gereklidir (Sürücü ve Araç Plakası bilgileri doldurulduğunda isteğe "
+=======
+"Taşıyıcı zorunludur (Şoför ve Araç Plakası birlikte girildiğinde isteğe "
+>>>>>>> upstream/18.0
 =======
 "Taşıyıcı zorunludur (Şoför ve Araç Plakası birlikte girildiğinde isteğe "
 >>>>>>> upstream/18.0
@@ -149,7 +186,11 @@ msgstr "Şehir"
 #: model:ir.model,name:l10n_tr_nilvera_edispatch.model_res_partner
 msgid "Contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kişi"
+=======
+msgstr "İrtibat"
+>>>>>>> upstream/18.0
 =======
 msgstr "İrtibat"
 >>>>>>> upstream/18.0
@@ -184,7 +225,11 @@ msgstr "Gümrük Posta Kodu"
 #, python-format
 msgid "Customs ZIP of 5 characters must be present"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "5 karakterden oluşan gümrük posta kodu girilmelidir."
+=======
+msgstr "5 karakterden oluşan gümrük posta kodu girilmelidir"
+>>>>>>> upstream/18.0
 =======
 msgstr "5 karakterden oluşan gümrük posta kodu girilmelidir"
 >>>>>>> upstream/18.0
@@ -193,7 +238,11 @@ msgstr "5 karakterden oluşan gümrük posta kodu girilmelidir"
 #: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_delivery_notes
 msgid "Delivery Notes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sevk İrsaliyeleri"
+=======
+msgstr "İrsaliyeler"
+>>>>>>> upstream/18.0
 =======
 msgstr "İrsaliyeler"
 >>>>>>> upstream/18.0
@@ -212,7 +261,11 @@ msgstr "Görünen Ad"
 #: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.view_picking_form_inherit_l10n_tr_nilvera_edispatch
 msgid "Driver Information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sürücü Bilgileri"
+=======
+msgstr "Şoför Bilgileri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Şoför Bilgileri"
 >>>>>>> upstream/18.0
@@ -224,7 +277,11 @@ msgstr "Şoför Bilgileri"
 #, python-format
 msgid "Drivers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sürücüler"
+=======
+msgstr "Şoförler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Şoförler"
 >>>>>>> upstream/18.0
@@ -250,7 +307,11 @@ msgstr "Genel Bilgiler"
 #: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.view_picking_form_inherit_l10n_tr_nilvera_edispatch
 msgid "Generate GİB e-Dispatch (XML)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "GİB e-İrsaliye (XML) oluştur"
+=======
+msgstr "GİB e-İrsaliye (XML) Oluştur"
+>>>>>>> upstream/18.0
 =======
 msgstr "GİB e-İrsaliye (XML) Oluştur"
 >>>>>>> upstream/18.0
@@ -272,7 +333,11 @@ msgstr "GİB Plaka Numaraları"
 #: model:ir.model,name:l10n_tr_nilvera_edispatch.model_l10n_tr_nilvera_trailer_plate
 msgid "GİB Plate numbers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "GİB Plaka numaraları"
+=======
+msgstr "GİB plaka numaraları"
+>>>>>>> upstream/18.0
 =======
 msgstr "GİB plaka numaraları"
 >>>>>>> upstream/18.0
@@ -296,7 +361,11 @@ msgstr "Belge Kimliği"
 #: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_edispatch_warnings
 msgid "L10N Tr Nilvera Edispatch Warnings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "L10N Tr Nilvera e-İrsaliye Uyarıları"
+=======
+msgstr "Nilvera e-İrsaliye Uyarıları"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nilvera e-İrsaliye Uyarıları"
 >>>>>>> upstream/18.0
@@ -332,7 +401,11 @@ msgstr "Çevrim içi"
 #, python-format
 msgid "Only 3 characters are allowed in the Sequence Prefix by GİB"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "GİB tarafından Sıra Ön Ekinde yalnızca 3 karaktere izin verilmektedir"
+=======
+msgstr "GİB tarafından sıra ön ekinde yalnızca 3 karaktere izin verilir"
+>>>>>>> upstream/18.0
 =======
 msgstr "GİB tarafından sıra ön ekinde yalnızca 3 karaktere izin verilir"
 >>>>>>> upstream/18.0
@@ -346,7 +419,11 @@ msgid ""
 "valid TCKN in the Tax ID."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Yalnızca Türkiye'den sürücüler geçerlidir. Lütfen Ülke bilgisini güncelleyin "
+=======
+"Yalnızca Türkiye’den şoförler geçerlidir. Lütfen Ülke bilgisini güncelleyin "
+>>>>>>> upstream/18.0
 =======
 "Yalnızca Türkiye’den şoförler geçerlidir. Lütfen Ülke bilgisini güncelleyin "
 >>>>>>> upstream/18.0
@@ -379,7 +456,11 @@ msgstr "XML oluşturmak için lütfen önce transferi doğrulayın"
 #: model:ir.model.fields.selection,name:l10n_tr_nilvera_edispatch.selection__stock_picking__l10n_tr_nilvera_dispatch_type__matbudan
 msgid "Pre-printed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Önceden basılı"
+=======
+msgstr "Matbu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Matbu"
 >>>>>>> upstream/18.0
@@ -388,7 +469,11 @@ msgstr "Matbu"
 #: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_delivery_date
 msgid "Printed Delivery Note Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Basılı Sevk İrsaliyesi Tarihi"
+=======
+msgstr "Basılı İrsaliye Tarihi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Basılı İrsaliye Tarihi"
 >>>>>>> upstream/18.0
@@ -399,7 +484,11 @@ msgstr "Basılı İrsaliye Tarihi"
 #, python-format
 msgid "Printed Delivery Note Date is required."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Basılı Sevk İrsaliyesi Tarihi zorunludur."
+=======
+msgstr "Basılı irsaliye tarihi zorunludur."
+>>>>>>> upstream/18.0
 =======
 msgstr "Basılı irsaliye tarihi zorunludur."
 >>>>>>> upstream/18.0
@@ -408,7 +497,11 @@ msgstr "Basılı irsaliye tarihi zorunludur."
 #: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_delivery_printed_number
 msgid "Printed Delivery Note Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Basılı Sevk İrsaliyesi Numarası "
+=======
+msgstr "Basılı İrsaliye Numarası"
+>>>>>>> upstream/18.0
 =======
 msgstr "Basılı İrsaliye Numarası"
 >>>>>>> upstream/18.0
@@ -419,7 +512,11 @@ msgstr "Basılı İrsaliye Numarası"
 #, python-format
 msgid "Printed Delivery Note Number of 16 characters is required."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "16 karakterden oluşan Basılı Sevk İrsaliyesi Numarası zorunludur."
+=======
+msgstr "16 karakterden oluşan basılı irsaliye numarası girilmelidir."
+>>>>>>> upstream/18.0
 =======
 msgstr "16 karakterden oluşan basılı irsaliye numarası girilmelidir."
 >>>>>>> upstream/18.0
@@ -463,7 +560,11 @@ msgid ""
 "country."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Varış ülkesine yapılan sevkiyatlarda kullanılan gümrük ofisinin posta kodu."
+=======
+"Varış ülkesine yapılan sevkiyatta kullanılan gümrük idaresinin posta kodu."
+>>>>>>> upstream/18.0
 =======
 "Varış ülkesine yapılan sevkiyatta kullanılan gümrük idaresinin posta kodu."
 >>>>>>> upstream/18.0
@@ -487,7 +588,11 @@ msgstr "Transfer"
 #: model:ir.model.fields,help:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_driver_ids
 msgid "Used for the individuals driving the truck."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kamyonu süren kişiler için kullanılır."
+=======
+msgstr "Kamyonu kullanan kişiler için kullanılır."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kamyonu kullanan kişiler için kullanılır."
 >>>>>>> upstream/18.0
@@ -497,7 +602,11 @@ msgstr "Kamyonu kullanan kişiler için kullanılır."
 msgid ""
 "Used for the information of the supplier of the goods in the delivery note."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sevk irsaliyesindeki malın tedarikçi bilgisi için kullanılır."
+=======
+msgstr "İrsaliyede malın tedarikçisine dair bilgiler için kullanılır."
+>>>>>>> upstream/18.0
 =======
 msgstr "İrsaliyede malın tedarikçisine dair bilgiler için kullanılır."
 >>>>>>> upstream/18.0
@@ -542,7 +651,11 @@ msgid ""
 "Populating this makes the Vehicle Plate and Drivers optional."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sevkiyatın üçüncü taraf bir taşıyıcı firma aracılığıyla yapılması durumunda "
+=======
+"Sevkiyat üçüncü taraf bir taşıyıcı firma aracılığıyla yapıldığında "
+>>>>>>> upstream/18.0
 =======
 "Sevkiyat üçüncü taraf bir taşıyıcı firma aracılığıyla yapıldığında "
 >>>>>>> upstream/18.0
@@ -570,7 +683,11 @@ msgstr "Araç Plakası"
 #, python-format
 msgid "Vehicle Plate is required."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Araç Plakası zorunludur."
+=======
+msgstr "Araç plakası zorunludur."
+>>>>>>> upstream/18.0
 =======
 msgstr "Araç plakası zorunludur."
 >>>>>>> upstream/18.0
@@ -582,7 +699,11 @@ msgstr "Araç plakası zorunludur."
 #, python-format
 msgid "View %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s’i görüntüle"
+=======
+msgstr "%s'i Görüntüle"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s'i Görüntüle"
 >>>>>>> upstream/18.0
@@ -620,15 +741,21 @@ msgstr "e-İrsaliye XML dosyası başarıyla oluşturuldu."
 
 #. module: l10n_tr_nilvera_edispatch
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.l10n_tr_edispatch_format
 msgid "false"
 msgstr "yanlış"
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
 #, python-format
 msgid "e-Dispatch will not be generated as the Delivery Address is not set."
 msgstr "Teslimat Adresi belirtilmediği için e-İrsaliye oluşturulmayacaktır."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_tr_nilvera_edispatch

@@ -301,11 +301,17 @@ class StockPicking(models.Model):
         return super()._package_move_lines(batch_pack, move_lines_to_pack)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _add_to_wave_post_picking_split_hook(self):
         # Hook meant to be overriden
         pass
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def assign_batch_user(self, user_id):
         pickings = self.filtered(lambda p: p.user_id.id != user_id)

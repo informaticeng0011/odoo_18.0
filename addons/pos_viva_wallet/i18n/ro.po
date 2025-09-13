@@ -5,6 +5,10 @@
 # Translators:
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
@@ -16,7 +20,11 @@ msgstr ""
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -38,6 +46,11 @@ msgstr "Cheie API"
 msgid "Can't create payment method. Please check the data and update it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu se poate crea metoda de plată. Vă rugăm să verificați datele și să le "
+"actualizați."
+>>>>>>> upstream/18.0
 =======
 "Nu se poate crea metoda de plată. Vă rugăm să verificați datele și să le "
 "actualizați."
@@ -49,6 +62,11 @@ msgstr ""
 msgid "Can't update payment method. Please check the data and update it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu se poate actualiza metoda de plată. Vă rugăm să verificați datele și să "
+"le actualizați."
+>>>>>>> upstream/18.0
 =======
 "Nu se poate actualiza metoda de plată. Vă rugăm să verificați datele și să "
 "le actualizați."
@@ -69,7 +87,11 @@ msgstr "ID Client"
 #: model:ir.model.fields,field_description:pos_viva_wallet.field_pos_payment_method__viva_wallet_client_secret
 msgid "Client secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Client secret"
+=======
+msgstr "Secretul clientului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Secretul clientului"
 >>>>>>> upstream/18.0
@@ -82,8 +104,13 @@ msgid ""
 "and try again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu a fost posibilă conectarea la serverul Odoo, vă rugăm să verificați "
 "conexiunea la internet și să încercați din nou."
+=======
+"Nu s-a putut conecta la serverul Odoo, vă rugăm să verificați conexiunea la "
+"internet și să încercați din nou."
+>>>>>>> upstream/18.0
 =======
 "Nu s-a putut conecta la serverul Odoo, vă rugăm să verificați conexiunea la "
 "internet și să încercați din nou."
@@ -94,8 +121,12 @@ msgstr ""
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 msgid "It is essential to provide API key for the use of viva wallet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Este esențial să furnizați cheia API pentru utilizarea portofelului viva"
+=======
+msgstr "Este esențial să furnizați cheia API pentru utilizarea Viva Wallet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este esențial să furnizați cheia API pentru utilizarea Viva Wallet"
 >>>>>>> upstream/18.0
@@ -117,6 +148,11 @@ msgstr "Mesaj de la Viva Wallet: %s"
 msgid "Only 'group_pos_user' are allowed to cancel a Viva Wallet payment"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Doar utilizatorii din 'group_pos_user' au voie să anuleze o plată Viva "
+"Wallet"
+>>>>>>> upstream/18.0
 =======
 "Doar utilizatorii din 'group_pos_user' au voie să anuleze o plată Viva "
 "Wallet"
@@ -128,7 +164,11 @@ msgstr ""
 msgid "Only 'group_pos_user' are allowed to get latest transaction status"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Numai \"group_pos_user\" are permisiunea de a obține ultima stare a "
+=======
+"Doar utilizatorii din 'group_pos_user' au voie să obțină ultima stare a "
+>>>>>>> upstream/18.0
 =======
 "Doar utilizatorii din 'group_pos_user' au voie să obțină ultima stare a "
 >>>>>>> upstream/18.0
@@ -141,6 +181,11 @@ msgid ""
 "Only 'group_pos_user' are allowed to get the payment status from Viva Wallet"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Doar utilizatorii din 'group_pos_user' au voie să obțină starea plății de la"
+" Viva Wallet"
+>>>>>>> upstream/18.0
 =======
 "Doar utilizatorii din 'group_pos_user' au voie să obțină starea plății de la"
 " Viva Wallet"
@@ -153,6 +198,11 @@ msgid ""
 "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Doar utilizatorii din 'group_pos_user' au voie să trimită o cerere de plată "
+"Viva Wallet"
+>>>>>>> upstream/18.0
 =======
 "Doar utilizatorii din 'group_pos_user' au voie să trimită o cerere de plată "
 "Viva Wallet"
@@ -162,7 +212,11 @@ msgstr ""
 #: model:ir.model,name:pos_viva_wallet.model_pos_payment_method
 msgid "Point of Sale Payment Methods"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Metode plată Punct de Vânzare"
+=======
+msgstr "Metode de plată Punct de Vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metode de plată Punct de Vânzare"
 >>>>>>> upstream/18.0
@@ -171,7 +225,11 @@ msgstr "Metode de plată Punct de Vânzare"
 #: model:ir.model.fields,help:pos_viva_wallet.field_pos_payment_method__viva_wallet_test_mode
 msgid "Run transactions in the test environment."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ruleează tranzacții în mediul de testare."
+=======
+msgstr "Rulează tranzacții în mediul de testare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Rulează tranzacții în mediul de testare."
 >>>>>>> upstream/18.0
@@ -180,7 +238,11 @@ msgstr "Rulează tranzacții în mediul de testare."
 #: model:ir.model.fields,field_description:pos_viva_wallet.field_pos_payment_method__viva_wallet_terminal_id
 msgid "Terminal ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID terminal"
+=======
+msgstr "ID Terminal"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID Terminal"
 >>>>>>> upstream/18.0
@@ -214,6 +276,11 @@ msgid ""
 "ID and Client Secret are correct"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu se poate obține Bearer Token de la Viva Wallet: Vă rugăm să verificați "
+"dacă Client ID și Client Secret sunt corecte"
+>>>>>>> upstream/18.0
 =======
 "Nu se poate obține Bearer Token de la Viva Wallet: Vă rugăm să verificați "
 "dacă Client ID și Client Secret sunt corecte"
@@ -246,7 +313,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_viva_wallet.field_pos_payment_method__viva_wallet_bearer_token
 msgid "Viva Wallet Bearer Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Viva Wallet Bearer Token"
+=======
+msgstr "Token Bearer Viva Wallet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token Bearer Viva Wallet"
 >>>>>>> upstream/18.0
@@ -261,7 +332,11 @@ msgstr "Eroare Viva Wallet"
 #: model:ir.model.fields,field_description:pos_viva_wallet.field_pos_payment_method__viva_wallet_latest_response
 msgid "Viva Wallet Latest Response"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Viva Wallet Răspunsul cel mai recent"
+=======
+msgstr "Cel mai recent răspuns Viva Wallet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cel mai recent răspuns Viva Wallet"
 >>>>>>> upstream/18.0
@@ -270,7 +345,11 @@ msgstr "Cel mai recent răspuns Viva Wallet"
 #: model:ir.model.fields,field_description:pos_viva_wallet.field_pos_payment_method__viva_wallet_webhook_endpoint
 msgid "Viva Wallet Webhook Endpoint"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Punct final de recepție web Viva Wallet"
+=======
+msgstr "Punct final Webhook Viva Wallet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Punct final Webhook Viva Wallet"
 >>>>>>> upstream/18.0
@@ -279,7 +358,11 @@ msgstr "Punct final Webhook Viva Wallet"
 #: model:ir.model.fields,field_description:pos_viva_wallet.field_pos_payment_method__viva_wallet_webhook_verification_key
 msgid "Viva Wallet Webhook Verification Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cheia de verificare Viva Wallet Webhook"
+=======
+msgstr "Cheie de verificare Webhook Viva Wallet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cheie de verificare Webhook Viva Wallet"
 >>>>>>> upstream/18.0
@@ -290,6 +373,11 @@ msgstr "Cheie de verificare Webhook Viva Wallet"
 msgid "Your transaction with Viva Wallet failed. Please try again later."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tranzacția dvs. cu Viva Wallet a eșuat. Vă rugăm să încercați din nou mai "
+"târziu."
+>>>>>>> upstream/18.0
 =======
 "Tranzacția dvs. cu Viva Wallet a eșuat. Vă rugăm să încercați din nou mai "
 "târziu."
@@ -299,7 +387,11 @@ msgstr ""
 #: model:ir.model.fields,help:pos_viva_wallet.field_pos_payment_method__viva_wallet_terminal_id
 msgid "[Terminal ID of the Viva Wallet terminal], for example: 16002169"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "[ID terminal al terminalului Viva Wallet], de exemplu: 16002169"
+=======
+msgstr "[ID-ul terminalului Viva Wallet], de exemplu: 16002169"
+>>>>>>> upstream/18.0
 =======
 msgstr "[ID-ul terminalului Viva Wallet], de exemplu: 16002169"
 >>>>>>> upstream/18.0
@@ -310,7 +402,11 @@ msgstr "[ID-ul terminalului Viva Wallet], de exemplu: 16002169"
 msgid "received a message for a pos payment provider not registered."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "am primit un mesaj pentru un prestator de servicii de plată care nu este "
+=======
+"a fost primit un mesaj pentru un furnizor de plăți POS care nu este "
+>>>>>>> upstream/18.0
 =======
 "a fost primit un mesaj pentru un furnizor de plăți POS care nu este "
 >>>>>>> upstream/18.0
@@ -322,7 +418,12 @@ msgstr ""
 msgid "received a message for a terminal not registered in Odoo: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a primit un mesaj pentru un terminal care nu este înregistrat în Odoo: %s"
+=======
+"a fost primit un mesaj pentru un terminal care nu este înregistrat în Odoo: "
+"%s"
+>>>>>>> upstream/18.0
 =======
 "a fost primit un mesaj pentru un terminal care nu este înregistrat în Odoo: "
 "%s"

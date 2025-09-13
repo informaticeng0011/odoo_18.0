@@ -13,7 +13,11 @@ class SaleAdvancePaymentInv(models.TransientModel):
             res['l10n_in_gst_treatment'] = order.l10n_in_gst_treatment
         if order.l10n_in_reseller_partner_id:
 <<<<<<< HEAD
+<<<<<<< HEAD
             res['l10n_in_reseller_partner_id'] = order.l10n_in_reseller_partner_id
+=======
+            res['l10n_in_reseller_partner_id'] = order.l10n_in_reseller_partner_id.id
+>>>>>>> upstream/18.0
 =======
             res['l10n_in_reseller_partner_id'] = order.l10n_in_reseller_partner_id.id
 >>>>>>> upstream/18.0

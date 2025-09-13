@@ -9,6 +9,11 @@
             'o-minimized': minimized,
             'position-relative': !state.isFullscreen,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'o-hasVideo': props.thread.videoCount > 0,
+            'o-selfInCall': isActiveCall,
+>>>>>>> upstream/18.0
 =======
             'o-hasVideo': props.thread.videoCount > 0,
             'o-selfInCall': isActiveCall,

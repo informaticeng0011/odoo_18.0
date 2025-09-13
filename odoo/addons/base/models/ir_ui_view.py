@@ -491,7 +491,11 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.constrains('type', 'groups_id', 'inherit_id')
+=======
+    @api.constrains('groups_id', 'inherit_id', 'mode')
+>>>>>>> upstream/18.0
 =======
     @api.constrains('groups_id', 'inherit_id', 'mode')
 >>>>>>> upstream/18.0
@@ -749,9 +753,12 @@ actual arch.
                 view.warning_info = str(e)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.model_create_multi
     def create(self, vals_list):
 =======
+=======
+>>>>>>> upstream/18.0
     def _validate_xml_encoding(self, text):
         if isinstance(text, str) and re.search(r'<\?xml[^>]*encoding=.*?\?>', text, re.IGNORECASE):
             raise UserError(_(
@@ -762,6 +769,9 @@ actual arch.
     @api.model_create_multi
     def create(self, vals_list):
         valid_types = self._fields['type']._selection
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         for values in vals_list:
             if 'arch_db' in values and not values['arch_db']:
@@ -769,6 +779,11 @@ actual arch.
                 del values['arch_db']
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if values.get('arch_base'):
+                self._validate_xml_encoding(values['arch_base'])
+>>>>>>> upstream/18.0
 =======
             if values.get('arch_base'):
                 self._validate_xml_encoding(values['arch_base'])
@@ -783,7 +798,10 @@ actual arch.
                             raise ValidationError(_('Missing view architecture.'))
                         values['type'] = etree.fromstring(values.get('arch') or values.get('arch_base')).tag
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                         if values['type'] not in valid_types:
                             raise ValidationError(_(
                                 "Invalid view type: '%(view_type)s'.\n"
@@ -791,6 +809,9 @@ actual arch.
                                 "Allowed types are: %(valid_types)s",
                                 view_type=values['type'], valid_types=', '.join(valid_types)
                             ))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     except LxmlError:
                         # don't raise here, the constraint that runs `self._check_xml` will
@@ -835,6 +856,11 @@ actual arch.
             vals['arch_prev'] = self.arch_db
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if vals.get('arch_base'):
+            self._validate_xml_encoding(vals['arch_base'])
+>>>>>>> upstream/18.0
 =======
         if vals.get('arch_base'):
             self._validate_xml_encoding(vals['arch_base'])
@@ -2752,6 +2778,11 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            elif field.type == "binary" and not isinstance(field, fields.Image) and not field.store:
+                continue
+>>>>>>> upstream/18.0
 =======
             elif field.type == "binary" and not isinstance(field, fields.Image) and not field.store:
                 continue
@@ -3093,7 +3124,10 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3219,6 +3253,9 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3369,7 +3406,11 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch, models = view.postprocess_and_fields(arch, model=self._name, **options)
+=======
+        arch, models = self._get_view_postprocessed(view, arch, **options)
+>>>>>>> upstream/18.0
 =======
         arch, models = self._get_view_postprocessed(view, arch, **options)
 >>>>>>> upstream/18.0

@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="l10n_es_tbai_is_required" invisible="1"/>
                     <field name="l10n_es_tbai_post_document_id" invisible="1"/>
 =======
@@ -105,6 +106,10 @@
 =======
                     <field name="l10n_es_tbai_is_required" invisible="1"/> <!-- TODO: to be removed in master -->
                     <field name="l10n_es_tbai_post_document_id" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
+=======
+                    <field name="l10n_es_tbai_is_required" invisible="1"/>
+                    <field name="l10n_es_tbai_post_document_id" invisible="1"/>
 >>>>>>> upstream/18.0
 =======
                     <field name="l10n_es_tbai_is_required" invisible="1"/>
@@ -122,13 +127,19 @@
                     />
                     <button
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                         string="Resend to TicketBAI"
                         name="l10n_es_tbai_resend_bill"
                         type="object"
                         invisible="not l10n_es_tbai_is_required or move_type not in ('in_invoice', 'in_refund') or state != 'posted' or l10n_es_tbai_state != 'sent'"
                     />
                     <button
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         string="TicketBAI Cancel"
                         name="l10n_es_tbai_cancel"
@@ -152,6 +163,7 @@
                         <group>
                             <field name="l10n_es_tbai_state"/>
                             <field name="l10n_es_tbai_chain_index" groups="base.group_no_one"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,6 +282,11 @@
                             <field name="l10n_es_tbai_post_file_name" invisible="1"/> <!-- TODO: to be removed in master -->
                             <field name="l10n_es_tbai_post_file" widget="binary" filename="l10n_es_tbai_post_file_name"/>
                             <field name="l10n_es_tbai_cancel_file_name" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
+=======
+                            <field name="l10n_es_tbai_post_file_name" invisible="1"/>
+                            <field name="l10n_es_tbai_post_file" widget="binary" filename="l10n_es_tbai_post_file_name"/>
+                            <field name="l10n_es_tbai_cancel_file_name" invisible="1"/>
 >>>>>>> upstream/18.0
 =======
                             <field name="l10n_es_tbai_post_file_name" invisible="1"/>

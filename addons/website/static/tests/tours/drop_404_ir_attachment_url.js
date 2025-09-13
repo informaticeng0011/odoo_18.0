@@ -6,6 +6,10 @@ import {
     registerWebsitePreviewTour,
 } from '@website/js/tours/tour_utils';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import wUtils from '@website/js/utils';
+>>>>>>> upstream/18.0
 =======
 import wUtils from '@website/js/utils';
 >>>>>>> upstream/18.0
@@ -31,16 +35,22 @@ registerWebsitePreviewTour('drop_404_ir_attachment_url', {
         content: 'Once the image UI appears, check the image has no size (404)',
         trigger: ':iframe .s_404_snippet img',
 <<<<<<< HEAD
+<<<<<<< HEAD
         run() {
             const imgEl = this.anchor;
             if (!imgEl.complete
                 || imgEl.naturalWidth !== 0
                 || imgEl.naturalHeight !== 0) {
 =======
+=======
+>>>>>>> upstream/18.0
         async run() {
             const imgEl = this.anchor;
             await wUtils.onceAllImagesLoaded($(imgEl));
             if (imgEl.naturalWidth !== 0 || imgEl.naturalHeight !== 0) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 throw new Error('This is supposed to be a 404 image');
             }
@@ -52,16 +62,22 @@ registerWebsitePreviewTour('drop_404_ir_attachment_url', {
         content: 'Once the shape is applied, check the image has now a size (placeholder image)',
         trigger: ':iframe .s_404_snippet img[src^="data:"]',
 <<<<<<< HEAD
+<<<<<<< HEAD
         run() {
             const imgEl = this.anchor;
             if (!imgEl.complete
                 || imgEl.naturalWidth === 0
                 || imgEl.naturalHeight === 0) {
 =======
+=======
+>>>>>>> upstream/18.0
         async run() {
             const imgEl = this.anchor;
             await wUtils.onceAllImagesLoaded($(imgEl));
             if (imgEl.naturalWidth === 0 || imgEl.naturalHeight === 0) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 throw new Error('Even though the original image was a 404, the option should have been applied on the placeholder image');
             }

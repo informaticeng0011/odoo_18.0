@@ -1,6 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 
@@ -40,12 +45,15 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 
     def test_compute_analytic_distribution_expense(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         project = self.env['project.project'].create({'name': 'SO Project'})
         project.account_id = self.analytic_account_1
         so_values = {
             'partner_id': self.partner_a.id,
             'order_line': [(0, 0, {
 =======
+=======
+>>>>>>> upstream/18.0
         """ Test that the analytic distibution is well computed when we link a sale order to an expense """
 
         # Make sure the user has access to analytic accounting, otherwise the 'analytic_distribution' field will not appear
@@ -60,6 +68,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
         so_values = {
             'partner_id': self.partner_a.id,
             'order_line': [Command.create({
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 'name': self.product_a.name,
                 'product_id': self.product_a.id,
@@ -70,8 +81,13 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
             'project_id': project.id,
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         so1 = self.env['sale.order'].create(so_values)
+=======
+        so1 = self.env['sale.order'].create(so_values)
+
+>>>>>>> upstream/18.0
 =======
         so1 = self.env['sale.order'].create(so_values)
 
@@ -81,7 +97,13 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
             'employee_id': self.expense_employee.id,
             'sale_order_id': so1.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
+=======
+            'product_id': self.product_c.id,
+        })
+
+>>>>>>> upstream/18.0
 =======
             'product_id': self.product_c.id,
         })
@@ -96,20 +118,29 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
         project.account_id = False
         so2 = self.env['sale.order'].create(so_values)
 <<<<<<< HEAD
+<<<<<<< HEAD
         expense.sale_order_id = so2
 =======
+=======
+>>>>>>> upstream/18.0
 
         # We use the form to trigger the onchange on sale_order_id, which adds the 'analytic_distribution' field to the fields to recompute
         with Form(expense) as exp_form:
             exp_form.sale_order_id = so2
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.assertFalse(
             expense.analytic_distribution,
             "The analytic distribution of the expense should be unset as the project has no account.",
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_change_product_expense_policy_analytic_distribution(self):
         """ Test that analytic distribution is not recomputed when changing the expense policy of the expense product """
@@ -157,4 +188,7 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
                 'analytic_distribution': {str(analytic_account_2.id): 100.0},
             },
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

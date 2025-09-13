@@ -2,6 +2,10 @@
 import convertInline from '@web_editor/js/backend/convert_inline';
 import {getGridHtml, getTableHtml, getRegularGridHtml, getRegularTableHtml, getTdHtml, removeComments} from '@web_editor/../tests/test_utils';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { unformat } from '@web_editor/js/editor/odoo-editor/test/utils';
+>>>>>>> upstream/18.0
 =======
 import { unformat } from '@web_editor/js/editor/odoo-editor/test/utils';
 >>>>>>> upstream/18.0
@@ -1086,7 +1090,10 @@ QUnit.module('convert_inline', {}, function () {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     QUnit.test('Should properly calculate colspan', async function (assert) {
         const editable = document.createElement("div");
         const container = document.createElement("div");
@@ -1108,6 +1115,9 @@ QUnit.module('convert_inline', {}, function () {
             "Should have one row only");
     });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     QUnit.test('Correct border attributes for outlook', async function (assert) {
         assert.expect(3);

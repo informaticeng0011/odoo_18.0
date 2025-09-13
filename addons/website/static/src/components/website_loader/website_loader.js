@@ -159,9 +159,12 @@ export class WebsiteLoader extends Component {
      */
     initProgressBar() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.updateProgressInterval) {
             return;
         }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         // The progress speed decreases as it approaches its limit. This way,

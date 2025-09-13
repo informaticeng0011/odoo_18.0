@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_self_order
 # 
 # Translators:
@@ -179,6 +180,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * pos_self_order
 #
 # Translators:
@@ -186,11 +189,15 @@
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
 # Fernanda Alvarez, 2025
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -534,6 +541,8 @@ msgstr ""
 "Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-08 18:38+0000\n"
 "PO-Revision-Date: 2025-08-11 22:21+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
@@ -546,6 +555,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_self_order
@@ -597,8 +609,13 @@ msgid ""
 "when no session is open."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Los permisos de acceso de este usuario se utilizarán al visitar el sitio web"
 " de autopedido cuando no haya ninguna sesión abierta."
+=======
+"Los permisos de acceso de este usuario se utilizarán al visitar el sitio web "
+"de autopedido cuando no haya ninguna sesión abierta."
+>>>>>>> upstream/18.0
 =======
 "Los permisos de acceso de este usuario se utilizarán al visitar el sitio web "
 "de autopedido cuando no haya ninguna sesión abierta."
@@ -765,6 +782,10 @@ msgstr "Regresar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 >>>>>>> upstream/18.0
@@ -917,6 +938,10 @@ msgstr "Cancelar orden"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.js:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.js:0
 >>>>>>> upstream/18.0
@@ -1217,12 +1242,15 @@ msgstr "Cada orden"
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Each table in your floor plan is assigned a unique QR code based on your configuration. For security reasons,\n"
 "                    both the point of sale and table names are encrypted in the generated URL, as shown in the example below:."
 msgstr ""
 "A cada mesa de su piso se le asignará un código QR único según su configuración. Por motivos de seguridad,\n"
 "                    tanto el punto de venta como los nombres de las mesas se cifran en la URL generada, tal y como se muestra en el siguiente ejemplo:"
 =======
+=======
+>>>>>>> upstream/18.0
 "Each table in your floor plan is assigned a unique QR code based on your "
 "configuration. For security reasons,\n"
 "                    both the point of sale and table names are encrypted in "
@@ -1232,6 +1260,9 @@ msgstr ""
 "configuración. Por motivos de seguridad,\n"
 "                    tanto el punto de venta como los nombres de las mesas se "
 "cifran en la URL generada, tal y como se muestra en el siguiente ejemplo:"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_self_order
@@ -1249,7 +1280,10 @@ msgstr "Editar"
 #. module: pos_self_order
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_self_order/static/src/overrides/components/qr_order_button/qr_order_button.js:0
 msgid ""
 "Enable QR menu in the Restaurant settings to get QR codes for free on tables."
@@ -1259,6 +1293,9 @@ msgstr ""
 
 #. module: pos_self_order
 #. odoo-javascript
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/pos_self_order/static/src/app/components/attribute_selection/attribute_selection.xml:0
 msgid "Enter your custom value"
@@ -1268,8 +1305,13 @@ msgstr "Introduzca su valor personalizado"
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Feel free to use and print this QR code as many times as needed according to"
 " your requirements."
+=======
+"Feel free to use and print this QR code as many times as needed according to "
+"your requirements."
+>>>>>>> upstream/18.0
 =======
 "Feel free to use and print this QR code as many times as needed according to "
 "your requirements."
@@ -1302,7 +1344,10 @@ msgstr "Genérico"
 #. module: pos_self_order
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_self_order/static/src/overrides/components/qr_order_button/qr_order_button.xml:0
 msgid "Get QR Codes"
 msgstr "Obtén códigos QR"
@@ -1315,6 +1360,9 @@ msgstr "Obtén códigos QR"
 
 #. module: pos_self_order
 #. odoo-javascript
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/pos_self_order/static/src/app/pages/stand_number_page/stand_number_page.xml:0
 msgid "Get a tracker and enter its number here"
@@ -1376,12 +1424,15 @@ msgstr "Si este producto está disponible en las pantallas de autopedido"
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you need customized QR codes, start by scanning the relevant QR code to acquire the URL. Then, make\n"
 "                use of a QR code generator like https://www.qrcode-monkey.com or https://www.qr-code-generator.com"
 msgstr ""
 "Si necesita códigos QR personalizados, primero escanee el código QR correspondiente para obtener la URL. Después,\n"
 "                utilice un generador de códigos QR como https://www.qrcode-monkey.com o https://www.qr-code-generator.com."
 =======
+=======
+>>>>>>> upstream/18.0
 "If you need customized QR codes, start by scanning the relevant QR code to "
 "acquire the URL. Then, make\n"
 "                use of a QR code generator like https://www.qrcode-"
@@ -1391,6 +1442,9 @@ msgstr ""
 "correspondiente para obtener la URL. Después,\n"
 "                utilice un generador de códigos QR como https://www.qrcode-"
 "monkey.com o https://www.qr-code-generator.com."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_self_order
@@ -1489,8 +1543,12 @@ msgid "Let your customers order using their mobile or a kiosk."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Permita que sus clientes hagan sus pedidos desde su celular o en un quiosco"
+=======
+msgstr "Permita que sus clientes ordenen desde su celular o un quiosco"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permita que sus clientes ordenen desde su celular o un quiosco"
 >>>>>>> upstream/18.0
@@ -1914,6 +1972,10 @@ msgstr "Producto"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 >>>>>>> upstream/18.0
@@ -2224,8 +2286,13 @@ msgstr "Seleccione una mesa"
 msgid ""
 "Select for which points of sale you want to display this link. Leave empty "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "to display it for all points of sale. You have to select among the points of"
 " sale that have the 'QR Code Menu' feature enabled."
+=======
+"to display it for all points of sale. You have to select among the points of "
+"sale that have the 'QR Code Menu' feature enabled."
+>>>>>>> upstream/18.0
 =======
 "to display it for all points of sale. You have to select among the points of "
 "sale that have the 'QR Code Menu' feature enabled."
@@ -2544,7 +2611,10 @@ msgstr "Sí"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2653,6 +2723,9 @@ msgstr "No tiene autorización para eliminar esta orden."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2745,7 +2818,11 @@ msgstr "No tiene los permisos necesarios para realizar esta acción"
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 msgid "Your Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su orden"
+=======
+msgstr "Tu orden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu orden"
 >>>>>>> upstream/18.0
@@ -2792,7 +2869,10 @@ msgstr "Su selección"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2901,6 +2981,9 @@ msgstr "Su orden no existe o ha sido eliminada."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3063,12 +3146,15 @@ msgstr "vacío = todos los puntos de venta"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "floor"
 msgstr "piso "
 
 #. module: pos_self_order
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

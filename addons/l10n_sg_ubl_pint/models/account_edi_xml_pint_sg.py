@@ -4,7 +4,12 @@ from odoo import models, _
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 SG_TAX_CATEGORIES = {'SR', 'SRCA-S', 'SRCA-C', 'SROVR-RS', 'SROVR-LVG', 'SRLVG', 'ZR', 'ES33', 'ESN33', 'DS', 'OS', 'NG', 'NA'}
+=======
+SG_TAX_CATEGORIES = {'SR', 'SRCA-S', 'SRCA-C', 'SROVR-RS', 'SRRC', 'SROVR-LVG', 'SRLVG', 'ZR', 'ES33', 'ESN33', 'DS', 'OS', 'NG', 'NA'}
+SG_GST_CODES_REQUIRING_ADDRESS = {'SR', 'SRCA-S', 'SRCA-C', 'ZR', 'SRRC', 'SROVR-RS', 'SROVR-LVG', 'SRLVG', 'NA'}
+>>>>>>> upstream/18.0
 =======
 SG_TAX_CATEGORIES = {'SR', 'SRCA-S', 'SRCA-C', 'SROVR-RS', 'SRRC', 'SROVR-LVG', 'SRLVG', 'ZR', 'ES33', 'ESN33', 'DS', 'OS', 'NG', 'NA'}
 SG_GST_CODES_REQUIRING_ADDRESS = {'SR', 'SRCA-S', 'SRCA-C', 'ZR', 'SRRC', 'SROVR-RS', 'SROVR-LVG', 'SRLVG', 'NA'}
@@ -71,6 +76,7 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
             )
             # [BR-53-GST-SG]-If the GST accounting currency code (BT-6-GST) is present, then the Invoice total GST amount (BT-111-GST),
             # Invoice total including GST amount and Invoice Total excluding GST amount in accounting currency shall be provided.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204,6 +210,9 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 =======
             additional_document_reference_list.extend([{
 >>>>>>> upstream/18.0
+=======
+            additional_document_reference_list.extend([{
+>>>>>>> upstream/18.0
                 'id': invoice.company_id.currency_id.name,
                 'document_description': amount,
                 'document_type_code': code,
@@ -237,7 +246,10 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
                     constraints['sg_vat_category_required'] = _("You must set a Singaporean tax category on each taxes of the invoice.")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # Invoice with GST category code of value 'SR', 'SRCA-S', 'SRCA-C', 'ZR', 'SRRC', 'SROVR-RS', 'SROVR-LVG', 'SRLVG', 'NA' should contain
         # seller address line and seller post code
         for tax_category in vals['taxes_vals']['tax_details']:
@@ -245,5 +257,8 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
                 constraints['sg_seller_street_addr_required'] = self._check_required_fields(vals['supplier'], 'street')
                 constraints['sg_seller_post_code_required'] = self._check_required_fields(vals['supplier'], 'zip')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return constraints

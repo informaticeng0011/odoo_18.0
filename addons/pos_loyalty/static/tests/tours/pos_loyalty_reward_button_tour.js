@@ -5,6 +5,11 @@ import * as Chrome from "@point_of_sale/../tests/tours/utils/chrome_util";
 import * as SelectionPopup from "@point_of_sale/../tests/tours/utils/selection_popup_util";
 import { registry } from "@web/core/registry";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as ProductConfiguratorPopup from "@point_of_sale/../tests/tours/utils/product_configurator_util";
+import { negateStep } from "@point_of_sale/../tests/tours/utils/common";
+>>>>>>> upstream/18.0
 =======
 import * as ProductConfiguratorPopup from "@point_of_sale/../tests/tours/utils/product_configurator_util";
 import { negateStep } from "@point_of_sale/../tests/tours/utils/common";
@@ -253,7 +258,10 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificDiscountWithRewardPro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -393,6 +401,9 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificDiscountWithRewardPro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -540,7 +551,10 @@ registry.category("web_tour.tours").add("test_loyalty_on_order_with_fixed_tax", 
         ].flat(),
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("test_loyalty_reward_with_variant", {
     steps: () =>
@@ -585,4 +599,7 @@ registry.category("web_tour.tours").add("test_multiple_reward_line_free_product"
             PosLoyalty.hasRewardLine("Free Product - Product A", "-20", "2.00"),
         ].flat(),
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

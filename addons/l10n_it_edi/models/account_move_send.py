@@ -72,6 +72,7 @@ class AccountMoveSend(models.AbstractModel):
         attachments_vals = {}
         moves = self.env['account.move']
 <<<<<<< HEAD
+<<<<<<< HEAD
         for move, move_data in invoices_data.items():
             if 'it_edi_send' in move_data['extra_edis']:
                 if attachment := move.l10n_it_edi_attachment_id:
@@ -82,6 +83,8 @@ class AccountMoveSend(models.AbstractModel):
                     moves |= move
         moves._l10n_it_edi_send(attachments_vals)
 =======
+=======
+>>>>>>> upstream/18.0
 
         # Filter only l10n_it_edi attachments
         moves_data = {
@@ -108,6 +111,9 @@ class AccountMoveSend(models.AbstractModel):
                 attachment_data = results.get(attachment['name'], {})
                 if attachment_data.get('signed') and (signed_data := attachment_data.get('signed_data')):
                     attachment['raw'] = signed_data
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _link_invoice_documents(self, invoices_data):
@@ -116,9 +122,15 @@ class AccountMoveSend(models.AbstractModel):
 
         attachments_vals = [
 <<<<<<< HEAD
+<<<<<<< HEAD
             invoice_data.get('l10n_it_edi_values')
             for invoice_data in invoices_data.values()
             if invoice_data.get('l10n_it_edi_values')
+=======
+            invoice_data['l10n_it_edi_values']
+            for invoice_data in invoices_data.values()
+            if 'l10n_it_edi_values' in invoice_data
+>>>>>>> upstream/18.0
 =======
             invoice_data['l10n_it_edi_values']
             for invoice_data in invoices_data.values()

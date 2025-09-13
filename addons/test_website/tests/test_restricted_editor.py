@@ -1,13 +1,19 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import odoo.tests
 =======
+=======
+>>>>>>> upstream/18.0
 import unittest
 
 import odoo.tests
 
 from odoo.tests.common import new_test_user
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.tools import mute_logger
 
@@ -60,7 +66,10 @@ class TestRestrictedEditor(odoo.tests.HttpCase):
         })
         self.start_tour(self.env['website'].get_client_action_url('/'), 'test_restricted_editor_test_admin', login='restricted')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     # FIXME the logic of the commit that introduced the fix at 8c41c147a4c6a415e
     # was reverted, so this test is disabled for now. Branding *on views* as
@@ -77,4 +86,7 @@ class TestRestrictedEditor(odoo.tests.HttpCase):
         self.user_test.groups_id |= self.env.ref('website.group_website_restricted_editor')
         self.user_test.groups_id |= self.env.ref('test_website.group_test_website_tester')
         self.start_tour(self.env['website'].get_client_action_url('/test_model/1'), 'test_restricted_editor_tester', login='restricted')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

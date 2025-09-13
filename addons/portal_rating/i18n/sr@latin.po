@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* portal_rating
 #
 # Translators:
@@ -8,16 +9,22 @@
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022
 #
 =======
+=======
+>>>>>>> upstream/18.0
 # * portal_rating
 #
 # Translators:
 # Martin Trigaux, 2022
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-02-12 10:37+0000\n"
 "PO-Revision-Date: 2022-09-22 05:54+0000\n"
@@ -31,6 +38,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-22 18:39+0000\n"
 "PO-Revision-Date: 2025-08-26 14:54+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
@@ -43,6 +52,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: portal_rating
@@ -51,7 +63,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:portal_rating.rating_stars_static_popup_composer
 msgid "Add Review"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dodaj ocenu"
+=======
+msgstr "Dodaj rezenziju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj rezenziju"
 >>>>>>> upstream/18.0
@@ -65,12 +81,15 @@ msgstr ""
 #. module: portal_rating
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
 msgid "Cancel"
 msgstr "Otkaži"
 
 #. module: portal_rating
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/portal_rating/static/src/xml/portal_rating_composer.xml:0
@@ -80,7 +99,11 @@ msgstr "Zatvori"
 #. module: portal_rating
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
+=======
+#: code:addons/portal_rating/static/src/chatter/frontend/message_patch.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/portal_rating/static/src/chatter/frontend/message_patch.xml:0
 >>>>>>> upstream/18.0
@@ -101,7 +124,11 @@ msgstr "Komentarisano dana"
 #. module: portal_rating
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
+=======
+#: code:addons/portal_rating/static/src/chatter/frontend/message_patch.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/portal_rating/static/src/chatter/frontend/message_patch.xml:0
 >>>>>>> upstream/18.0
@@ -117,7 +144,11 @@ msgstr "Detalji"
 #. module: portal_rating
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
+=======
+#: code:addons/portal_rating/static/src/chatter/frontend/message_patch.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/portal_rating/static/src/chatter/frontend/message_patch.xml:0
 >>>>>>> upstream/18.0
@@ -133,8 +164,11 @@ msgstr ""
 
 #. module: portal_rating
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:portal_rating.model_mail_thread
 msgid "Email Thread"
 msgstr ""
@@ -142,6 +176,9 @@ msgstr ""
 #. module: portal_rating
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/chatter/frontend/composer_patch.xml:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 msgid "Empty star"
@@ -150,6 +187,10 @@ msgstr ""
 #. module: portal_rating
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/portal_rating/static/src/chatter/frontend/composer_patch.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/portal_rating/static/src/chatter/frontend/composer_patch.xml:0
 >>>>>>> upstream/18.0
@@ -176,12 +217,15 @@ msgstr ""
 
 #. module: portal_rating
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
 msgid "Loading..."
 msgstr ""
 
 #. module: portal_rating
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:portal_rating.model_mail_message
@@ -197,6 +241,7 @@ msgstr ""
 #. module: portal_rating
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
 msgid "Post comment"
 msgstr "Objavi komentar"
@@ -206,6 +251,8 @@ msgstr "Objavi komentar"
 #: code:addons/portal_rating/static/src/js/portal_rating_composer.js:0
 msgid "Post review"
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/portal_rating/static/src/js/portal_rating_composer.js:0
 msgid "Post review"
 msgstr "Objavi recenziju"
@@ -214,13 +261,20 @@ msgstr "Objavi recenziju"
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 msgid "Progress bar"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: portal_rating
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
+=======
+#: code:addons/portal_rating/static/src/chatter/frontend/message_patch.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/portal_rating/static/src/chatter/frontend/message_patch.xml:0
 >>>>>>> upstream/18.0
@@ -261,12 +315,15 @@ msgstr ""
 #. module: portal_rating
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
 msgid "Update comment"
 msgstr "Ažuriraj komentar"
 
 #. module: portal_rating
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/portal_rating/static/src/js/portal_rating_composer.js:0
@@ -284,18 +341,25 @@ msgstr ""
 #: code:addons/portal_rating/static/src/xml/portal_rating_composer.xml:0
 msgid "Write a review"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Napiši recenziju"
 
 #. module: portal_rating
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 msgid "comments"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: portal_rating
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/portal_rating/static/src/js/portal_chatter.js:0
 msgid "Write your comment"
@@ -313,6 +377,8 @@ msgstr "avatar"
 msgid "stars"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 msgid "stars"
 msgstr ""
@@ -331,4 +397,7 @@ msgstr ""
 
 #~ msgid "avatar"
 #~ msgstr "avatar"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -348,7 +348,10 @@ class TestSalePrices(SaleCommon):
         self.assertEqual(order_line.price_total, 1800, "First pricelist rule not applied")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_pricelist_price_recompute_on_quantity_change(self):
         """
         Test price updates correctly when quantity changes with
@@ -412,6 +415,9 @@ class TestSalePrices(SaleCommon):
         new_order._recompute_prices()
         self.assertEqual(new_line.price_unit, self.product.list_price)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_multi_currency_discount(self):
         """Verify the currency used for pricelist price & discount computation."""
@@ -934,7 +940,10 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1019,6 +1028,9 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1303,7 +1315,10 @@ class TestSalePrices(SaleCommon):
         self.assertEqual(show_discount_line.price_subtotal, show_discount_line.price_unit * 0.81)
         self.assertEqual(show_discount_line.discount, 19)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_combo_product_discount(self):
         """Ensure that pricelist discounts for combo products get applied to combo items"""
@@ -1347,4 +1362,7 @@ class TestSalePrices(SaleCommon):
             order.amount_undiscounted * (100 - self.discount) / 100,
             msg="Pricelist discount should be applied to quotation",
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

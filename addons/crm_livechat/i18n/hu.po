@@ -6,6 +6,10 @@
 # Tamás Németh <ntomasz81@gmail.com>, 2024
 # krnkris, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Pammer József, 2025
+>>>>>>> upstream/18.0
 =======
 # Pammer József, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: krnkris, 2024\n"
+=======
+"Last-Translator: Pammer József, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Pammer József, 2025\n"
 >>>>>>> upstream/18.0
@@ -33,7 +41,11 @@ msgstr ""
 #: code:addons/crm_livechat/models/chatbot_script_step.py:0
 msgid "%s's New Lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s új érdeklődése"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s új érdeklődése"
 >>>>>>> upstream/18.0
@@ -42,7 +54,11 @@ msgstr "%s új érdeklődése"
 #: model:ir.model,name:crm_livechat.model_chatbot_script
 msgid "Chatbot Script"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chatbot Forgatókönyv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chatbot Forgatókönyv"
 >>>>>>> upstream/18.0
@@ -51,7 +67,11 @@ msgstr "Chatbot Forgatókönyv"
 #: model:ir.model,name:crm_livechat.model_chatbot_script_step
 msgid "Chatbot Script Step"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chatbot Forgatókönyv Lépés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chatbot Forgatókönyv Lépés"
 >>>>>>> upstream/18.0
@@ -60,7 +80,11 @@ msgstr "Chatbot Forgatókönyv Lépés"
 #: model:ir.model.fields.selection,name:crm_livechat.selection__chatbot_script_step__step_type__create_lead
 msgid "Create Lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Érdeklődés létrehozása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Érdeklődés létrehozása"
 >>>>>>> upstream/18.0
@@ -70,7 +94,11 @@ msgstr "Érdeklődés létrehozása"
 #: code:addons/crm_livechat/static/src/core/channel_commands.js:0
 msgid "Create a new lead (/lead lead title)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Új Érdeklődés létrehozása (/lead Érdeklődés címe)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Új Érdeklődés létrehozása (/lead Érdeklődés címe)"
 >>>>>>> upstream/18.0
@@ -83,6 +111,11 @@ msgid ""
 "title%(i_end)s%(pre_end)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Új Érdeklődés létrehozása %(pre_start)s%(lead_command)s%(i_start)slead "
+"Érdeklődés címe%(i_end)s%(pre_end)s"
+>>>>>>> upstream/18.0
 =======
 "Új Érdeklődés létrehozása %(pre_start)s%(lead_command)s%(i_start)slead "
 "Érdeklődés címe%(i_end)s%(pre_end)s"
@@ -93,7 +126,11 @@ msgstr ""
 #: code:addons/crm_livechat/models/discuss_channel.py:0
 msgid "Created a new lead: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Új Érdeklődés létrehozva: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Új Érdeklődés létrehozva: %s"
 >>>>>>> upstream/18.0
@@ -107,7 +144,11 @@ msgstr "Kommunikációs csatorna"
 #: model:ir.model.fields,field_description:crm_livechat.field_chatbot_script__lead_count
 msgid "Generated Lead Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generált Érdeklődések Száma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generált Érdeklődések Száma"
 >>>>>>> upstream/18.0
@@ -116,7 +157,11 @@ msgstr "Generált Érdeklődések Száma"
 #: model:chatbot.script.step,message:crm_livechat.chatbot_script_lead_generation_step_welcome
 msgid "Hi there, what brings you to our website today? 👋"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szia, mi hozott ma a weboldalunkra? 👋"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szia, mi hozott ma a weboldalunkra? 👋"
 >>>>>>> upstream/18.0
@@ -125,7 +170,11 @@ msgstr "Szia, mi hozott ma a weboldalunkra? 👋"
 #: model:chatbot.script.step,message:crm_livechat.chatbot_script_lead_generation_step_noone_available
 msgid "Hu-ho, it looks like none of our operators are available 🙁"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hű-ha, úgy néz ki egyik operátorunk sem elérhető 🙁"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hű-ha, úgy néz ki egyik operátorunk sem elérhető 🙁"
 >>>>>>> upstream/18.0
@@ -134,7 +183,11 @@ msgstr "Hű-ha, úgy néz ki egyik operátorunk sem elérhető 🙁"
 #: model:chatbot.script,title:crm_livechat.chatbot_script_lead_generation_bot
 msgid "Lead Generation Bot"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Érdeklődés Generáló Bot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Érdeklődés Generáló Bot"
 >>>>>>> upstream/18.0
@@ -153,7 +206,11 @@ msgstr "Értékesítési csapat"
 #: model:ir.model.fields,field_description:crm_livechat.field_chatbot_script_step__step_type
 msgid "Step Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lépés Típusa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lépés Típusa"
 >>>>>>> upstream/18.0
@@ -162,7 +219,11 @@ msgstr "Lépés Típusa"
 #: model:chatbot.script.step,message:crm_livechat.chatbot_script_welcome_step_just_looking
 msgid "Thank you, you should hear back from us very soon!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Köszönjük, hamarosan jelentkezünk!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Köszönjük, hamarosan jelentkezünk!"
 >>>>>>> upstream/18.0
@@ -174,6 +235,12 @@ msgid ""
 "assign the created lead/opportunity to the defined team"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A 'create_lead' lépés típussal együtt van használva annak érdekében, hogy "
+"automatikusan hozzárendeljük a létrehozott érdeklődést/lehetőséget a "
+"meghatározott csapathoz"
+>>>>>>> upstream/18.0
 =======
 "A 'create_lead' lépés típussal együtt van használva annak érdekében, hogy "
 "automatikusan hozzárendeljük a létrehozott érdeklődést/lehetőséget a "
@@ -185,7 +252,11 @@ msgstr ""
 msgid ""
 "Would you mind leaving your email address so that we can reach you back?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Megtennéd, hogy megadod az email címed, hogy visszahívhassuk?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Megtennéd, hogy megadod az email címed, hogy visszahívhassuk?"
 >>>>>>> upstream/18.0

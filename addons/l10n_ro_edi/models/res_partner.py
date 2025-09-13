@@ -5,7 +5,11 @@ class ResPartner(models.Model):
     _inherit = 'res.partner'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     invoice_edi_format = fields.Selection(selection_add=[('ciusro', "CIUSRO")])
+=======
+    invoice_edi_format = fields.Selection(selection_add=[('ciusro', "Romania (CIUS RO)")])
+>>>>>>> upstream/18.0
 =======
     invoice_edi_format = fields.Selection(selection_add=[('ciusro', "Romania (CIUS RO)")])
 >>>>>>> upstream/18.0

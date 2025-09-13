@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_stock
 # 
+=======
+# * sale_stock
+#
+>>>>>>> upstream/18.0
 =======
 # * sale_stock
 #
@@ -22,6 +27,7 @@
 # marcescu, 2024
 # Arnau Ros, 2024
 # Quim - coopdevs <quim.rebull@coopdevs.org>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,15 +230,21 @@
 # Noemi Pla, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # Harcogourmet, 2024
 # Josep Anton Belchi, 2025
 # Noemi Pla, 2025
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -244,6 +256,8 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-22 18:39+0000\n"
 "PO-Revision-Date: 2025-09-05 22:20+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
@@ -255,6 +269,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_stock
@@ -270,7 +287,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
 msgid "<i class=\"fa fa-fw fa-clock-o\"/> Awaiting arrival"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-clock-o\"/> Pendent d'arribar"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-clock-o\"/> Pendent d'arribar"
 >>>>>>> upstream/18.0
@@ -279,7 +300,11 @@ msgstr "<i class=\"fa fa-fw fa-clock-o\"/> Pendent d'arribar"
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
 msgid "<i class=\"fa fa-fw fa-clock-o\"/>Preparation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-clock-o\"/>Preparació"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-clock-o\"/>Preparació"
 >>>>>>> upstream/18.0
@@ -293,7 +318,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
 msgid "<i class=\"fa fa-fw fa-times\"/>Cancelled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-times\"/>Cancel·lat"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-times\"/>Cancel·lat"
 >>>>>>> upstream/18.0
@@ -312,13 +341,19 @@ msgstr "<span class=\"o_stat_text\">Ventes</span>"
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"small badge rounded-pill text-bg-success orders_label_text_align\">\n"
 "                                        <i class=\"fa fa-fw fa-truck\"/> Shipped\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"small badge rounded-pill text-bg-success "
 "orders_label_text_align\">\n"
 "                                        <i class=\"fa fa-fw fa-truck\"/> "
 "Shipped\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                    </span>"
 msgstr ""
@@ -328,7 +363,12 @@ msgstr ""
 msgid ""
 "<span invisible=\"not display_delivery_alert\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Some deliveries are already done. Returns can be created from the Delivery Orders.\n"
+=======
+"                    Some deliveries are already done. Returns can be created "
+"from the Delivery Orders.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Some deliveries are already done. Returns can be created "
 "from the Delivery Orders.\n"
@@ -340,7 +380,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_stock.report_delivery_document_inherit_sale_stock
 msgid "<strong>Customer Reference</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Referència del client</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Referència del client</strong>"
 >>>>>>> upstream/18.0
@@ -360,6 +404,7 @@ msgstr ""
 #: model:ir.model.fields,help:sale_stock.field_sale_order_line__qty_delivered_method
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
@@ -371,6 +416,8 @@ msgstr ""
 "  - Analítica de despeses: la quantitat es la suma de les despeses informades\n"
 "  - Fulls d'hores: la quantitat és la suma de les hores informades a les tasques enllaçades amb aquesta línia de venda\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "According to product configuration, the delivered quantity can be "
 "automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
@@ -387,6 +434,9 @@ msgstr ""
 "informades\n"
 "  - Fulls d'hores: la quantitat és la suma de les hores informades a les "
 "tasques enllaçades amb aquesta línia de venda\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "  - Moviments d'estoc: la quantitat ve de les entregues confirmades\n"
 
@@ -511,8 +561,12 @@ msgstr "Mostra Qty Display"
 msgid ""
 "Do not forget to change the partner on the following delivery orders: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "No oblidis canviar el partner en les següents ordres de lliurament: %s"
+=======
+msgstr "No oblidis canviar el partner en les següents ordres de lliurament: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "No oblidis canviar el partner en les següents ordres de lliurament: %s"
 >>>>>>> upstream/18.0
@@ -684,8 +738,13 @@ msgid ""
 msgstr ""
 "El marge d'error per les dates promeses als clients. L'entrega dels "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "productes serà programada per dies abans de la data promesa, per fer front a"
 " retards inesperats en la cadena de subministrament. "
+=======
+"productes serà programada per dies abans de la data promesa, per fer front a "
+"retards inesperats en la cadena de subministrament. "
+>>>>>>> upstream/18.0
 =======
 "productes serà programada per dies abans de la data promesa, per fer front a "
 "retards inesperats en la cadena de subministrament. "
@@ -698,17 +757,23 @@ msgstr ""
 msgid ""
 "Margin of error for dates promised to customers. Products will be scheduled "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "for procurement and delivery that many days earlier than the actual promised"
 " date, to cope with unexpected delays in the supply chain."
 msgstr ""
 "Els incoterms són una sèrie de termes. S'utilitzen per dividir els costos de"
 " la transacció i les responsabilitats entre el comprador i el venedor i "
 =======
+=======
+>>>>>>> upstream/18.0
 "for procurement and delivery that many days earlier than the actual promised "
 "date, to cope with unexpected delays in the supply chain."
 msgstr ""
 "Els incoterms són una sèrie de termes. S'utilitzen per dividir els costos de "
 "la transacció i les responsabilitats entre el comprador i el venedor i "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "reflecteixen les últimes pràctiques en el transport"
 
@@ -811,7 +876,12 @@ msgstr "RETORN"
 msgid ""
 "Reduce back orders with reservations, locations management, smart\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                replenishment propositions, shipping connectors, barcode scanner, etc."
+=======
+"                replenishment propositions, shipping connectors, barcode "
+"scanner, etc."
+>>>>>>> upstream/18.0
 =======
 "                replenishment propositions, shipping connectors, barcode "
 "scanner, etc."
@@ -981,12 +1051,18 @@ msgstr "Informe de norma d'estoc"
 
 #. module: sale_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale_stock.model_stock_valuation_layer
 msgid "Stock Valuation Layer"
 msgstr ""
 
 #. module: sale_stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sale_stock.model_report_stock_report_stock_rule
 msgid "Stock rule report"
@@ -1004,13 +1080,19 @@ msgstr "El lliurament"
 msgid ""
 "The delivery address has been changed on the Sales Order<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        From <strong>\"%(old_address)s\"</strong> to <strong>\"%(new_address)s\"</strong>,\n"
 "                        You should probably update the partner on this document."
 =======
+=======
+>>>>>>> upstream/18.0
 "                        From <strong>\"%(old_address)s\"</strong> to "
 "<strong>\"%(new_address)s\"</strong>,\n"
 "                        You should probably update the partner on this "
 "document."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1019,17 +1101,23 @@ msgstr ""
 #: code:addons/sale_stock/static/src/product_catalog/sale_order_line/sale_order_line.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The ordered quantity cannot be decreased below the amount already delivered."
 " Instead, create a return in your inventory."
 msgstr ""
 "La quantitat ordenada no es pot reduir per sota de la quantitat ja lliurada."
 " En comptes d'això, crea un retorn a l'inventari."
 =======
+=======
+>>>>>>> upstream/18.0
 "The ordered quantity cannot be decreased below the amount already delivered. "
 "Instead, create a return in your inventory."
 msgstr ""
 "La quantitat ordenada no es pot reduir per sota de la quantitat ja lliurada. "
 "En comptes d'això, crea un retorn a l'inventari."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_stock

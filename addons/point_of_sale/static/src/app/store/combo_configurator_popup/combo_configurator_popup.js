@@ -80,8 +80,13 @@ export class ComboConfiguratorPopup extends Component {
 
     async onClickProduct({ product, combo_item }, ev) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (product.isConfigurable() && product.product_template_variant_value_ids.length === 0) {
             const payload = await this.pos.openConfigurator(product);
+=======
+        if (product.needToConfigure()) {
+            const payload = await this.pos.openConfigurator(product, { hideAlwaysVariants: true });
+>>>>>>> upstream/18.0
 =======
         if (product.needToConfigure()) {
             const payload = await this.pos.openConfigurator(product, { hideAlwaysVariants: true });

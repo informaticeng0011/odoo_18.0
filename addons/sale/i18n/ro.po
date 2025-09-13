@@ -4,6 +4,7 @@
 # 
 # Translators:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Hongu Cosmin <cosmin513@gmail.com>, 2024
 # Lyall Kindmurr, 2024
 # Foldi Robert <foldirobert@nexterp.ro>, 2024
@@ -88,18 +89,24 @@
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 # Lyall Kindmurr, 2024
 # Hongu Cosmin <cosmin513@gmail.com>, 2024
 # Dorin Hongu <dhongu@gmail.com>, 2024
 # Corina Calin, 2025
 # Wil Odoo, 2025
 # Larisa_nexterp, 2025
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -343,6 +350,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-07-11 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -399,8 +411,13 @@ msgid ""
 "'Order - %s' % (object.name)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "(object.state in ('draft', 'sent') and 'Oferta - %s' % (object.name)) or "
 "'Comanda - %s' % (object.name)"
+=======
+"(object.state in ('draft', 'sent') and 'Ofertă - %s' % (object.name)) or "
+"'Comandă - %s' % (object.name)"
+>>>>>>> upstream/18.0
 =======
 "(object.state in ('draft', 'sent') and 'Ofertă - %s' % (object.name)) or "
 "'Comandă - %s' % (object.name)"
@@ -428,8 +445,13 @@ msgid ""
 "<b>Send the quote</b> to yourself and check what the customer will receive."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<b>Trimiteți oferta</b>către dumneavoastră și verificați ce primesc "
 "clienții."
+=======
+"<b>Trimiteți oferta</b> către dumneavoastră și verificați ce va primi "
+"clientul."
+>>>>>>> upstream/18.0
 =======
 "<b>Trimiteți oferta</b> către dumneavoastră și verificați ce va primi "
 "clientul."
@@ -483,7 +505,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 12px;\">\n"
 "        Bună ziua,\n"
@@ -526,6 +551,9 @@ msgstr ""
 "    </p>\n"
 "</div>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -752,7 +780,10 @@ msgid ""
 "</div>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 12px;\">\n"
 "        Bună ziua,\n"
@@ -972,6 +1003,9 @@ msgstr ""
 "    </div>\n"
 "</t>\n"
 "</div>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -1139,6 +1173,11 @@ msgid ""
 "title=\"Sales orders\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-usd me-1\" role=\"img\" aria-label=\"Comenzi de vânzare\" "
+"title=\"Comenzi de vânzare\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-usd me-1\" role=\"img\" aria-label=\"Comenzi de vânzare\" "
 "title=\"Comenzi de vânzare\"/>"
@@ -1171,6 +1210,12 @@ msgid ""
 "is_product_archived\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning me-1\" title=\"Acest "
+"produs este arhivat\" invisible=\"state not in ['draft', 'sent'] or not "
+"is_product_archived\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-exclamation-triangle text-warning me-1\" title=\"Acest "
 "produs este arhivat\" invisible=\"state not in ['draft', 'sent'] or not "
@@ -1184,8 +1229,13 @@ msgid ""
 "company-specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"fa fa-lg fa-building-o p-2\" title=\"Values set here are "
 "company-specific.\" groups=\"base.group_multi_company\"/>"
+=======
+"<span class=\"fa fa-lg fa-building-o p-2\" title=\"Valorile setate aici sunt"
+" specifice companiei.\" groups=\"base.group_multi_company\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-lg fa-building-o p-2\" title=\"Valorile setate aici sunt"
 " specifice companiei.\" groups=\"base.group_multi_company\"/>"
@@ -1200,7 +1250,11 @@ msgstr "<span class=\"flex-grow-1\">/ Lună</span>"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "<span class=\"mx-3\" invisible=\"not require_payment\">of</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"mx-3\" invisible=\"not require_payment\">de</span>"
+=======
+msgstr "<span class=\"mx-3\" invisible=\"not require_payment\">din</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"mx-3\" invisible=\"not require_payment\">din</span>"
 >>>>>>> upstream/18.0
@@ -1219,6 +1273,12 @@ msgid ""
 "                                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span id=\"o_sale_portal_use_amount_total\">\n"
+"                                                Prin plată,\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span id=\"o_sale_portal_use_amount_total\">\n"
 "                                                Prin plată,\n"
@@ -1233,6 +1293,12 @@ msgid ""
 "                        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"1\" class=\"oe_inline text-danger\" title=\"Plata în avans este mai mare decât suma rămasă de facturat.\">\n"
+"                            <i class=\"fa fa-warning\"/>\n"
+"                        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"1\" class=\"oe_inline text-danger\" title=\"Plata în avans este mai mare decât suma rămasă de facturat.\">\n"
 "                            <i class=\"fa fa-warning\"/>\n"
@@ -1246,6 +1312,11 @@ msgid ""
 "class=\"oe_inline\">% </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"advance_payment_method != 'percentage'\" "
+"class=\"oe_inline\">% </span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"advance_payment_method != 'percentage'\" "
 "class=\"oe_inline\">% </span>"
@@ -1258,6 +1329,11 @@ msgid ""
 "        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span><b>Felicitări</b>, prima ta ofertă a fost trimisă!<br>Verifică-ți emailul pentru a valida oferta.\n"
+"        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span><b>Felicitări</b>, prima ta ofertă a fost trimisă!<br>Verifică-ți emailul pentru a valida oferta.\n"
 "        </span>"
@@ -1278,7 +1354,11 @@ msgid ""
 "                        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>Sunteți sigur ca doriți să anulați această comandă? <br/></span>\n"
+=======
+"<span>Sunteți sigur că doriți să anulați această comandă? <br/></span>\n"
+>>>>>>> upstream/18.0
 =======
 "<span>Sunteți sigur că doriți să anulați această comandă? <br/></span>\n"
 >>>>>>> upstream/18.0
@@ -1296,7 +1376,11 @@ msgstr "<span>Disc.%</span>"
 #: model_terms:ir.ui.view,arch_db:sale.product_document_kanban
 msgid "<span>Sales visibility</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Vizibilitate vânzări</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Vizibilitate vânzări</span>"
 >>>>>>> upstream/18.0
@@ -1310,7 +1394,11 @@ msgstr "<span>Taxe</span>"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "<span>Warning: This quote contains archived product(s)</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Avertisment: Această ofertă conține produs(e) arhivat(e)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Avertisment: Această ofertă conține produs(e) arhivat(e)</span>"
 >>>>>>> upstream/18.0
@@ -1318,6 +1406,7 @@ msgstr "<span>Avertisment: Această ofertă conține produs(e) arhivat(e)</span>
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "<span>Warning: this order might be a duplicate of</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -1562,10 +1651,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "<span>Avertisment: această comandă ar putea fi un duplicat al</span>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "<strong class=\"d-block mt-3\">Shipping Address</strong>"
 msgstr "<strong class=\"d-block mt-3\">Adresă de livrare</strong>"
@@ -1591,6 +1685,9 @@ msgstr "<strong class=\"d-block mt-3\">Adresă de livrare</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1638,7 +1735,11 @@ msgstr "<strong class=\"mr16\">Subtotal</strong>"
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Expiration</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Expirare</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Expirare</strong>"
 >>>>>>> upstream/18.0
@@ -1651,6 +1752,7 @@ msgstr "<strong>Notă Poziție Fiscală:</strong>"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Salesperson</strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -1809,10 +1911,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "<strong>Agent de vânzări</strong>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "<strong>Signature</strong>"
 msgstr "<strong>Semnătură</strong>"
@@ -1821,7 +1928,11 @@ msgstr "<strong>Semnătură</strong>"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "<strong>Thank You!</strong><br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<strong>Mulțumesc!</strong><br/>"
+=======
+msgstr "<strong>Vă mulțumim!</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Vă mulțumim!</strong><br/>"
 >>>>>>> upstream/18.0
@@ -1835,7 +1946,11 @@ msgstr "<strong>Această ofertă a expirat!</strong>"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "<strong>This quotation has been cancelled.</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Această ofertă a fost anulată.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Această ofertă a fost anulată.</strong>"
 >>>>>>> upstream/18.0
@@ -1844,7 +1959,11 @@ msgstr "<strong>Această ofertă a fost anulată.</strong>"
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Your Reference</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Referința dvs.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Referința dvs.</strong>"
 >>>>>>> upstream/18.0
@@ -1859,7 +1978,11 @@ msgstr "O comandă confirmată de vânzare necesită o dată de confirmare."
 #: code:addons/sale/models/sale_order.py:0
 msgid "A line on these orders missing a product, you cannot confirm it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O linie din aceste comenzi nu are produs, nu o puteți confirma."
+>>>>>>> upstream/18.0
 =======
 msgstr "O linie din aceste comenzi nu are produs, nu o puteți confirma."
 >>>>>>> upstream/18.0
@@ -1879,6 +2002,11 @@ msgid ""
 "combo items."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Un element combo al unei linii de comandă trebuie să fie printre elementele "
+"combo disponibile ale liniei asociate."
+>>>>>>> upstream/18.0
 =======
 "Un element combo al unei linii de comandă trebuie să fie printre elementele "
 "combo disponibile ale liniei asociate."
@@ -1890,6 +2018,11 @@ msgstr ""
 msgid "A sale order line's product must match its combo item's product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Produsul unei linii de comandă trebuie să corespundă cu produsul elementului"
+" combo."
+>>>>>>> upstream/18.0
 =======
 "Produsul unei linii de comandă trebuie să corespundă cu produsul elementului"
 " combo."
@@ -1942,7 +2075,11 @@ msgstr "Acceptă și semnează oferta"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Accept &amp; Pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Acceptați și plătiți"
+=======
+msgstr "Acceptă și plătește"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acceptă și plătește"
 >>>>>>> upstream/18.0
@@ -1951,7 +2088,11 @@ msgstr "Acceptă și plătește"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Accept &amp; Sign"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Acceptați și semnați"
+=======
+msgstr "Acceptă și semnează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acceptă și semnează"
 >>>>>>> upstream/18.0
@@ -1971,17 +2112,23 @@ msgid ""
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "În funcție de configurarea produsului, cantitatea livrată poate fi calculată automat prin mecanism::\n"
 "  - Manual: cantitatea este setată manual pe linie\n"
 "  - Analitice din cheltuieli: cantitatea este suma cantității din cheltuielile înregistrate\n"
 "  - Foaie de pontaj: cantitatea este suma orelor înregistrate pe task-uri legate de această linie de vânzare\n"
 "  - Mișcări de stoc: cantitatea provine din colectări confirmate\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "În funcție de configurarea produsului, cantitatea livrată poate fi calculată automat prin mecanism:\n"
 "  - Manual: cantitatea este setată manual pe linie\n"
 "  - Analitic din cheltuieli: cantitatea este suma cantităților din cheltuielile înregistrate\n"
 "  - Foaie de pontaj: cantitatea este suma orelor înregistrate pe task-uri legate de această linie de vânzare\n"
 "  - Mișcări de stoc: cantitatea provine din recepții confirmate\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -2043,6 +2190,11 @@ msgid ""
 "                (e.g. \"Delivery scheduling\", \"Order Payment Follow-up\", ...)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Planurile de activitate sunt folosite pentru a atribui o listă de activități în doar câteva click-uri\n"
+"                (ex: \"Programare livrare\", \"Urmărire plată comandă\", ...)"
+>>>>>>> upstream/18.0
 =======
 "Planurile de activitate sunt folosite pentru a atribui o listă de activități în doar câteva click-uri\n"
 "                (ex: \"Programare livrare\", \"Urmărire plată comandă\", ...)"
@@ -2058,7 +2210,11 @@ msgstr "Adaugă"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Add a note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați o notă"
+=======
+msgstr "Adaugă o notă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă o notă"
 >>>>>>> upstream/18.0
@@ -2077,7 +2233,11 @@ msgstr "Adaugă o secțiune"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Add note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adaugă notă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă notă"
 >>>>>>> upstream/18.0
@@ -2093,7 +2253,11 @@ msgstr "Adaugă unul"
 #: code:addons/sale/static/src/js/product_list/product_list.js:0
 msgid "Add optional products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați produse opționale"
+=======
+msgstr "Adaugă produse opționale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă produse opționale"
 >>>>>>> upstream/18.0
@@ -2102,7 +2266,11 @@ msgstr "Adaugă produse opționale"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Add product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați produs"
+=======
+msgstr "Adaugă produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă produs"
 >>>>>>> upstream/18.0
@@ -2111,7 +2279,11 @@ msgstr "Adaugă produs"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Add section"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adaugă secțiune"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă secțiune"
 >>>>>>> upstream/18.0
@@ -2120,7 +2292,11 @@ msgstr "Adaugă secțiune"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Add several variants to an order from a grid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați mai multe variante la o comandă dintr-o grilă"
+=======
+msgstr "Adaugă mai multe variante la o comandă dintr-o grilă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă mai multe variante la o comandă dintr-o grilă"
 >>>>>>> upstream/18.0
@@ -2134,7 +2310,11 @@ msgstr "Vă permite să trimiteți clienților dvs. Factură Pro-Forma"
 #: model:ir.model.fields,help:sale.field_res_config_settings__group_proforma_sales
 msgid "Allows you to send pro-forma invoice."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vă permite să trimiteți factură Pro-Forma."
+=======
+msgstr "Vă permite să trimiteți factură proformă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vă permite să trimiteți factură proformă."
 >>>>>>> upstream/18.0
@@ -2151,7 +2331,10 @@ msgid ""
 "Inside quote: The document will be included in the pdf of the quotation and sale order between the header pages and the quote table. "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Vă permite să partajați documentul cu clienții dvs. în cadrul unei vânzări.\n"
 "Lăsați gol dacă nu doriți să partajați acest document cu clientul de vânzări.\n"
 "La ofertă: documentul va fi trimis și accesibil clienților oricând.\n"
@@ -2159,6 +2342,9 @@ msgstr ""
 "La confirmarea comenzii: documentul va fi trimis și accesibil clienților.\n"
 "Ex: această opțiune poate fi utilă pentru a partaja manualul de utilizare sau conținut digital cumpărat pe ecommerce.\n"
 "În interiorul ofertei: documentul va fi inclus în pdf-ul ofertei și comenzii de vânzare între paginile de antet și tabelul ofertei."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -2193,7 +2379,11 @@ msgstr "Valoare înainte de reducere"
 #: model:ir.model.fields,field_description:sale.field_crm_team__quotations_amount
 msgid "Amount of quotations to invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Suma cotațiilor de facturat"
+=======
+msgstr "Suma ofertelor de facturat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suma ofertelor de facturat"
 >>>>>>> upstream/18.0
@@ -2210,8 +2400,13 @@ msgid ""
 "            ordered quantities, and the invoicing policy is based on ordered quantities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "O comandă se încadrează pentru a vinde în plus (upsell) atunci când cantitățile livrate sunt peste\n"
 "             cantitățile inițial comandate, iar politica de facturare este bazată pe cantitățile comandate."
+=======
+"O comandă este pentru vânzare suplimentară atunci când cantitățile livrate sunt peste cele comandate inițial,\n"
+"iar politica de facturare este bazată pe cantitățile comandate."
+>>>>>>> upstream/18.0
 =======
 "O comandă este pentru vânzare suplimentară atunci când cantitățile livrate sunt peste cele comandate inițial,\n"
 "iar politica de facturare este bazată pe cantitățile comandate."
@@ -2259,9 +2454,15 @@ msgid ""
 "from pricelists (option to activate in the pricelist configuration)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aplicați reduceri manuale pe liniile de comandă de vânzări sau afișați "
 "reduceri calculate de la lista de preturi (opțiune de activare în "
 "configurarea listei de prețuri)."
+=======
+"Aplicați reduceri manuale pe liniile de comandă de vânzare sau afișați "
+"reduceri calculate din lista de prețuri (opțiune de activat în configurarea "
+"listei de prețuri)."
+>>>>>>> upstream/18.0
 =======
 "Aplicați reduceri manuale pe liniile de comandă de vânzare sau afișați "
 "reduceri calculate din lista de prețuri (opțiune de activat în configurarea "
@@ -2277,7 +2478,11 @@ msgstr "Sunteți sigur că doriți să anulați"
 #: model_terms:ir.ui.view,arch_db:sale.mass_cancel_orders_view_form
 msgid "Are you sure you want to cancel the selected item?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sunteți sigur că doriți să anulați elementul selectat?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sunteți sigur că doriți să anulați elementul selectat?"
 >>>>>>> upstream/18.0
@@ -2298,8 +2503,13 @@ msgid ""
 "            to sell extra hours when all ordered hours have been consumed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "De exemplu, dacă vindeți ore pre-plătite de servicii, Odoo vă recomandă să\n"
 "vindeți ore suplimentare atunci când toate orele comandate au fost consumate."
+=======
+"De exemplu, dacă vindeți ore preplătite de servicii, Odoo vă recomandă\n"
+"să vindeți ore suplimentare atunci când toate orele comandate au fost consumate."
+>>>>>>> upstream/18.0
 =======
 "De exemplu, dacă vindeți ore preplătite de servicii, Odoo vă recomandă\n"
 "să vindeți ore suplimentare atunci când toate orele comandate au fost consumate."
@@ -2335,7 +2545,11 @@ msgstr "Autor"
 #: model:ir.model.fields,field_description:sale.field_sale_order__authorized_transaction_ids
 msgid "Authorized Transactions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tranzacții Autorizate"
+=======
+msgstr "Tranzacții autorizate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tranzacții autorizate"
 >>>>>>> upstream/18.0
@@ -2344,7 +2558,11 @@ msgstr "Tranzacții autorizate"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__automatic_invoice
 msgid "Automatic Invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Factură Automată"
+=======
+msgstr "Factură automată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Factură automată"
 >>>>>>> upstream/18.0
@@ -2363,7 +2581,11 @@ msgstr "Burger cu bacon"
 #: model:ir.model.fields,field_description:sale.field_sale_payment_provider_onboarding_wizard__journal_name
 msgid "Bank Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numele Băncii"
+=======
+msgstr "Nume bancă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume bancă"
 >>>>>>> upstream/18.0
@@ -2372,7 +2594,11 @@ msgstr "Nume bancă"
 #: model:ir.model.fields.selection,name:sale.selection__payment_provider__so_reference_type__partner
 msgid "Based on Customer ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pe baza ID-ul de client"
+=======
+msgstr "Pe baza ID-ului clientului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pe baza ID-ului clientului"
 >>>>>>> upstream/18.0
@@ -2387,7 +2613,11 @@ msgstr "Pe baza referinței documentului"
 #: model_terms:ir.actions.act_window,help:sale.action_quotations_with_onboarding
 msgid "Beat competitors with stunning quotations!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Întreceți concurența cu oferte uimitoare!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Întreceți concurența cu oferte uimitoare!"
 >>>>>>> upstream/18.0
@@ -2402,7 +2632,11 @@ msgstr "Mesaj de blocare"
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__body_has_template_value
 msgid "Body content is the same as the template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conținutul mesajului este același cu template-ul"
+=======
+msgstr "Conținutul mesajului este același cu șablonul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conținutul mesajului este același cu șablonul"
 >>>>>>> upstream/18.0
@@ -2415,6 +2649,11 @@ msgid ""
 "customer portal."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Creșteți vânzările cu plăți online sau semnături, vânzări suplimentare și un"
+" portal de clienți excelent."
+>>>>>>> upstream/18.0
 =======
 "Creșteți vânzările cu plăți online sau semnături, vânzări suplimentare și un"
 " portal de clienți excelent."
@@ -2438,7 +2677,11 @@ msgstr ""
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Build your first quotation right here!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creează prima ta ofertă chiar aici!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează prima ta ofertă chiar aici!"
 >>>>>>> upstream/18.0
@@ -2447,7 +2690,11 @@ msgstr "Creează prima ta ofertă chiar aici!"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "By paying a <u>down payment</u> of"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prin plata unui <u>avans</u> de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prin plata unui <u>avans</u> de"
 >>>>>>> upstream/18.0
@@ -2456,7 +2703,11 @@ msgstr "Prin plata unui <u>avans</u> de"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "By paying,"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prin plată,"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prin plată,"
 >>>>>>> upstream/18.0
@@ -2465,7 +2716,11 @@ msgstr "Prin plată,"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "By signing, you confirm acceptance on behalf of"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prin semnare, confirmați acceptarea în numele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prin semnare, confirmați acceptarea în numele"
 >>>>>>> upstream/18.0
@@ -2487,7 +2742,11 @@ msgstr "Poate edita conținutul"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__product_updatable
 msgid "Can Edit Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Poate Edita Produsul"
+=======
+msgstr "Poate edita produsul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poate edita produsul"
 >>>>>>> upstream/18.0
@@ -2515,7 +2774,11 @@ msgstr "Anulează %s"
 #: model:ir.model,name:sale.model_sale_mass_cancel_orders
 msgid "Cancel multiple quotations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anulați mai multe oferte"
+=======
+msgstr "Anulează mai multe oferte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anulează mai multe oferte"
 >>>>>>> upstream/18.0
@@ -2524,7 +2787,11 @@ msgstr "Anulează mai multe oferte"
 #: model_terms:ir.ui.view,arch_db:sale.mass_cancel_orders_view_form
 msgid "Cancel quotations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anulați ofertele"
+=======
+msgstr "Anulează ofertele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anulează ofertele"
 >>>>>>> upstream/18.0
@@ -2550,6 +2817,7 @@ msgid ""
 "   • For services (and other products), change the 'Invoicing Policy' to 'Prepaid/Fixed Price'.\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu se poate crea o factură. Nu sunt articole disponibile pentru facturare..\n"
 "\n"
 "Pentru a rezolva această problemă, asigurați-vă că:\n"
@@ -2560,6 +2828,8 @@ msgstr ""
 "  • Pentru produsele consumabile sau stocabile, deschideți fereastra produsului, accesați fila „Informații generale” și modificați „Politica de facturare” din „Cantități livrate” în „Cantități comandate”.\n"
 "  • Pentru servicii (și alte produse), modificați „Politica de facturare” în „Plătit anticipat/Preț fix”.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Nu se poate crea o factură. Nu există articole disponibile pentru facturare.\n"
 "\n"
 "Pentru a rezolva această problemă, asigurați-vă că:\n"
@@ -2569,13 +2839,20 @@ msgstr ""
 "Dacă doriți să facturați pe baza cantităților comandate:\n"
 "   • Pentru produse consumabile sau stocabile, deschideți produsul, accesați fila 'Informații generale' și schimbați 'Politica de facturare' din 'Cantități livrate' în 'Cantități comandate'.\n"
 "   • Pentru servicii (și alte produse), schimbați 'Politica de facturare' în 'Plată anticipată/Preț fix'.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Capture Transaction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Captură tranzacție"
+=======
+msgstr "Capturează tranzacția"
+>>>>>>> upstream/18.0
 =======
 msgstr "Capturează tranzacția"
 >>>>>>> upstream/18.0
@@ -2612,7 +2889,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:sale.action_quotations_with_onboarding
 msgid "Check a sample. It's clean!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verificați un exemplu. Este curat!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verificați un exemplu. Este curat!"
 >>>>>>> upstream/18.0
@@ -2622,7 +2903,11 @@ msgstr "Verificați un exemplu. Este curat!"
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Click here to add some products or services to your quotation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Click aici pentru a adăuga unele produse sau servicii la oferta dvs."
+=======
+msgstr "Faceți clic aici pentru a adăuga produse sau servicii la oferta dvs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Faceți clic aici pentru a adăuga produse sau servicii la oferta dvs."
 >>>>>>> upstream/18.0
@@ -2632,7 +2917,11 @@ msgstr "Faceți clic aici pentru a adăuga produse sau servicii la oferta dvs."
 #: code:addons/sale/static/src/xml/sales_team_progress_bar_template.xml:0
 msgid "Click to define an invoicing target"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Click aici pentru a defini un obiectiv de facturare"
+=======
+msgstr "Faceți clic pentru a defini o țintă de facturare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Faceți clic pentru a defini o țintă de facturare"
 >>>>>>> upstream/18.0
@@ -2646,7 +2935,11 @@ msgstr "Închide"
 #: model:ir.ui.menu,name:sale.menu_product_combos
 msgid "Combo Choices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opțiuni combo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opțiuni combo"
 >>>>>>> upstream/18.0
@@ -2655,7 +2948,11 @@ msgstr "Opțiuni combo"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__combo_item_id
 msgid "Combo Item"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Element combo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Element combo"
 >>>>>>> upstream/18.0
@@ -2700,9 +2997,12 @@ msgstr "Aspect document companie"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "Calculați costurile de transport și expediați cu DHL"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid ""
@@ -2710,6 +3010,11 @@ msgid ""
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
+"Calculați costurile de transport și expediați cu DHL<br/>\n"
+"                                    <strong>(vă rugăm să mergeți la Acasă&gt;Aplicații pentru instalare)</strong>"
 >>>>>>> upstream/18.0
 =======
 "Calculați costurile de transport și expediați cu DHL<br/>\n"
@@ -2725,9 +3030,12 @@ msgstr "Calculați costurile de transport și expediați cu Easypost"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with FedEx"
 msgstr "Calculați costurile de transport și expediați cu FedEx"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid ""
@@ -2735,6 +3043,11 @@ msgid ""
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
+"Calculați costurile de transport și expediați cu FedEx<br/>\n"
+"                                    <strong>(vă rugăm să mergeți la Acasă&gt;Aplicații pentru instalare)</strong>"
 >>>>>>> upstream/18.0
 =======
 "Calculați costurile de transport și expediați cu FedEx<br/>\n"
@@ -2755,6 +3068,7 @@ msgstr "Calculați costurile de transport și expediați cu Shiprocket"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with Starshipit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale
@@ -2769,16 +3083,26 @@ msgid "Compute shipping costs and ship with USPS"
 msgstr "Calculați costurile de transport și expediați cu USPS"
 =======
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Calculați costurile de transport și expediați cu Starshipit"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with UPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Calculați costurile de transport și expediați cu UPS<br/>\n"
+"                                    <strong>(vă rugăm să mergeți la Acasă&gt;Aplicații pentru instalare)</strong>"
+>>>>>>> upstream/18.0
 =======
 "Calculați costurile de transport și expediați cu UPS<br/>\n"
 "                                    <strong>(vă rugăm să mergeți la Acasă&gt;Aplicații pentru instalare)</strong>"
@@ -2791,6 +3115,11 @@ msgid ""
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
+"Calculați costurile de transport și expediați cu USPS<br/>\n"
+"                                    <strong>(vă rugăm să mergeți la Acasă&gt;Aplicații pentru instalare)</strong>"
 >>>>>>> upstream/18.0
 =======
 "Calculați costurile de transport și expediați cu USPS<br/>\n"
@@ -2822,7 +3151,11 @@ msgstr "Configurare"
 #: code:addons/sale/static/src/js/product_configurator_dialog/product_configurator_dialog.js:0
 msgid "Configure your product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Configurați-vă produsul"
+=======
+msgstr "Configurați produsul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configurați produsul"
 >>>>>>> upstream/18.0
@@ -2839,7 +3172,11 @@ msgstr "Confirmă"
 #: model:ir.model.fields,field_description:sale.field_payment_link_wizard__confirmation_message
 msgid "Confirmation Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesaj de confiirmare"
+=======
+msgstr "Mesaj de confirmare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaj de confirmare"
 >>>>>>> upstream/18.0
@@ -2858,7 +3195,11 @@ msgstr "Facturare consolidată"
 #: model:ir.model,name:sale.model_res_partner
 msgid "Contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contactați"
+=======
+msgstr "Contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contact"
 >>>>>>> upstream/18.0
@@ -2867,7 +3208,11 @@ msgstr "Contact"
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__body
 msgid "Contents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conținuturi"
+=======
+msgstr "Conținut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conținut"
 >>>>>>> upstream/18.0
@@ -2879,8 +3224,13 @@ msgid ""
 "same category. The conversion will be made based on the ratios."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Conversia între Unitățile de Măsură poate fi efectuată numai dacă acestea "
 "aparțin aceleiași categorii. Conversia va fi făcută pe baza indicilor."
+=======
+"Conversia între Unități de Măsură poate avea loc doar dacă acestea aparțin "
+"aceleiași categorii. Conversia se va face pe baza coeficienților."
+>>>>>>> upstream/18.0
 =======
 "Conversia între Unități de Măsură poate avea loc doar dacă acestea aparțin "
 "aceleiași categorii. Conversia se va face pe baza coeficienților."
@@ -2890,7 +3240,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order__country_code
 msgid "Country code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Codul țării"
+=======
+msgstr "Cod țară"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cod țară"
 >>>>>>> upstream/18.0
@@ -2909,7 +3263,11 @@ msgstr "Data creării"
 #: model_terms:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid "Create Draft"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creează ciornă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează ciornă"
 >>>>>>> upstream/18.0
@@ -2919,7 +3277,11 @@ msgstr "Creează ciornă"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Create Invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o factură"
+=======
+msgstr "Creează factură"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează factură"
 >>>>>>> upstream/18.0
@@ -2928,7 +3290,11 @@ msgstr "Creează factură"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_tree
 msgid "Create Invoices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați facturi"
+=======
+msgstr "Creează facturi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează facturi"
 >>>>>>> upstream/18.0
@@ -2937,7 +3303,11 @@ msgstr "Creează facturi"
 #: model_terms:ir.actions.act_window,help:sale.mail_activity_plan_action_sale_order
 msgid "Create a Sale Order Activity Plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creează un plan de activități pentru comanda de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează un plan de activități pentru comanda de vânzare"
 >>>>>>> upstream/18.0
@@ -2946,7 +3316,11 @@ msgstr "Creează un plan de activități pentru comanda de vânzare"
 #: model_terms:ir.actions.act_window,help:sale.action_invoice_salesteams
 msgid "Create a customer invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o factură de client"
+=======
+msgstr "Creează o factură client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o factură client"
 >>>>>>> upstream/18.0
@@ -2955,7 +3329,11 @@ msgstr "Creează o factură client"
 #: model_terms:ir.actions.act_window,help:sale.product_template_action
 msgid "Create a new product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați un produs nou"
+=======
+msgstr "Creează un produs nou"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează un produs nou"
 >>>>>>> upstream/18.0
@@ -2967,7 +3345,11 @@ msgstr "Creează un produs nou"
 #: model_terms:ir.actions.act_window,help:sale.action_quotations_salesteams
 msgid "Create a new quotation, the first step of a new sale!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o ofertă nouă, primul pas al unei vânzări noi!"
+=======
+msgstr "Creează o ofertă nouă, primul pas al unei noi vânzări!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o ofertă nouă, primul pas al unei noi vânzări!"
 >>>>>>> upstream/18.0
@@ -2976,7 +3358,11 @@ msgstr "Creează o ofertă nouă, primul pas al unei noi vânzări!"
 #: model:ir.actions.act_window,name:sale.action_view_sale_advance_payment_inv
 msgid "Create invoice(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creează factură/facturi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează factură/facturi"
 >>>>>>> upstream/18.0
@@ -2988,7 +3374,12 @@ msgid ""
 "your customers."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Creați facturi, înregistrați plăți și urmăriți discuțiile cu clienții dvs."
+=======
+"Creează facturi, înregistrează plăți și urmărește discuțiile cu clienții "
+"tăi."
+>>>>>>> upstream/18.0
 =======
 "Creează facturi, înregistrează plăți și urmărește discuțiile cu clienții "
 "tăi."
@@ -2998,7 +3389,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__service_tracking
 msgid "Create on Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creare la comandă"
+=======
+msgstr "Creează la comandă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează la comandă"
 >>>>>>> upstream/18.0
@@ -3010,7 +3405,11 @@ msgid ""
 "invoicing address"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Creați o singură factură pentru toate comenzile care au același client și "
+=======
+"Creează o singură factură pentru toate comenzile care au același client și "
+>>>>>>> upstream/18.0
 =======
 "Creează o singură factură pentru toate comenzile care au același client și "
 >>>>>>> upstream/18.0
@@ -3036,7 +3435,11 @@ msgstr "Creat de"
 #: model:ir.model.fields,field_description:sale.field_sale_payment_provider_onboarding_wizard__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -3054,8 +3457,13 @@ msgid ""
 "Confirmation date of confirmed orders."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Data creării ofertelor/comenzilor trimise,\n"
 "Data confirmării a comenzilor confirmate."
+=======
+"Data creării comenzilor în ciornă/trimise,\n"
+"Data confirmării comenzilor confirmate."
+>>>>>>> upstream/18.0
 =======
 "Data creării comenzilor în ciornă/trimise,\n"
 "Data confirmării comenzilor confirmate."
@@ -3065,7 +3473,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale.selection__sale_payment_provider_onboarding_wizard__payment_method__stripe
 msgid "Credit & Debit card (via Stripe)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Card de credit și de Debit (prin Stripe)"
+=======
+msgstr "Card de credit și debit (prin Stripe)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Card de credit și debit (prin Stripe)"
 >>>>>>> upstream/18.0
@@ -3084,7 +3496,11 @@ msgstr "Monedă"
 #: model:ir.model.fields,field_description:sale.field_sale_order__currency_rate
 msgid "Currency Rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Curs Valutar"
+=======
+msgstr "Curs valutar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Curs valutar"
 >>>>>>> upstream/18.0
@@ -3114,7 +3530,11 @@ msgstr "Instrucțiuni de plată personalizate"
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_filter
 msgid "Customer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ClientClient"
+=======
+msgstr "Client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Client"
 >>>>>>> upstream/18.0
@@ -3129,7 +3549,11 @@ msgstr "Țara clientului"
 #: model:ir.model.fields,field_description:sale.field_sale_report__commercial_partner_id
 msgid "Customer Entity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Entitate Client"
+=======
+msgstr "Entitate client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Entitate client"
 >>>>>>> upstream/18.0
@@ -3139,7 +3563,11 @@ msgstr "Entitate client"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Customer Industry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Industrie Client"
+=======
+msgstr "Industrie client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Industrie client"
 >>>>>>> upstream/18.0
@@ -3148,7 +3576,11 @@ msgstr "Industrie client"
 #: model:ir.model.fields,help:sale.field_sale_order__access_url
 msgid "Customer Portal URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresa URL a Portalului Clientului"
+=======
+msgstr "URL portal client"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL portal client"
 >>>>>>> upstream/18.0
@@ -3157,7 +3589,11 @@ msgstr "URL portal client"
 #: model:ir.model.fields,field_description:sale.field_sale_order__client_order_ref
 msgid "Customer Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Referință Client"
+=======
+msgstr "Referință client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referință client"
 >>>>>>> upstream/18.0
@@ -3171,7 +3607,11 @@ msgstr "Semnătură client"
 #: model:ir.model.fields,field_description:sale.field_sale_report__state_id
 msgid "Customer State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stat clientului"
+=======
+msgstr "Județ client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Județ client"
 >>>>>>> upstream/18.0
@@ -3180,7 +3620,11 @@ msgstr "Județ client"
 #: model:ir.model.fields,field_description:sale.field_sale_report__partner_zip
 msgid "Customer ZIP"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ZIP Client"
+=======
+msgstr "Cod poștal client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cod poștal client"
 >>>>>>> upstream/18.0
@@ -3191,7 +3635,12 @@ msgstr "Cod poștal client"
 msgid "Customer needs to pay at least %(amount)s to confirm the order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Clientul trebuie să plătească cel puțin %(amount)spentru a confirma comanda."
+=======
+"Clientul trebuie să plătească cel puțin %(amount)s pentru a confirma "
+"comanda."
+>>>>>>> upstream/18.0
 =======
 "Clientul trebuie să plătească cel puțin %(amount)s pentru a confirma "
 "comanda."
@@ -3206,6 +3655,7 @@ msgstr "Clienți"
 #. module: sale
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "DHL Connector"
@@ -3214,11 +3664,16 @@ msgstr ""
 #. module: sale
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "DHL Connector"
 msgstr "Conector DHL"
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_dhl
 msgid "DHL Express Connector"
@@ -3255,7 +3710,11 @@ msgstr "Deducere plăți în avans"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__quotation_validity_days
 msgid "Default Quotation Validity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valabilitatea Implicită a Ofertei"
+=======
+msgstr "Valabilitate implicită ofertă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valabilitate implicită ofertă"
 >>>>>>> upstream/18.0
@@ -3281,7 +3740,11 @@ msgid "Default Sales Price Include"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preț de vânzare implicit cu taxe incluse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preț de vânzare implicit cu taxe incluse"
 >>>>>>> upstream/18.0
@@ -3358,6 +3821,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Implicit dacă prețul de vânzare folosit pe produs și facturi pentru această "
+"companie include taxele."
+>>>>>>> upstream/18.0
 =======
 "Implicit dacă prețul de vânzare folosit pe produs și facturi pentru această "
 "companie include taxele."
@@ -3434,6 +3902,11 @@ msgid ""
 "the customer. The default can be changed per order or template."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Perioada implicită în care oferta este valabilă și poate fi acceptată de "
+"client. Valoarea implicită poate fi schimbată pe comandă sau șablon."
+>>>>>>> upstream/18.0
 =======
 "Perioada implicită în care oferta este valabilă și poate fi acceptată de "
 "client. Valoarea implicită poate fi schimbată pe comandă sau șablon."
@@ -3448,7 +3921,11 @@ msgstr "Produs implicit folosit pentru reduceri"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Deliver Content by Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Transmiteți conținut prin e-mail"
+=======
+msgstr "Livrează conținut prin e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Livrează conținut prin e-mail"
 >>>>>>> upstream/18.0
@@ -3473,7 +3950,11 @@ msgstr "Cantități livrate"
 #: model:ir.model.fields,field_description:sale.field_sale_order__partner_shipping_id
 msgid "Delivery Address"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresă livrare:"
+=======
+msgstr "Adresă de livrare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresă de livrare"
 >>>>>>> upstream/18.0
@@ -3483,7 +3964,11 @@ msgstr "Adresă de livrare"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Delivery Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dată livrare"
+=======
+msgstr "Data livrării"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data livrării"
 >>>>>>> upstream/18.0
@@ -3497,7 +3982,11 @@ msgstr "Metode de livrare"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__qty_delivered
 msgid "Delivery Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cantitate de livrare"
+=======
+msgstr "Cantitate livrată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cantitate livrată"
 >>>>>>> upstream/18.0
@@ -3511,23 +4000,33 @@ msgid ""
 "either use the minimum or maximum lead time of the order lines."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Data de livrare pe care o puteți promite clientului, calculată din termenul "
 "minim de livrare a liniilor de comandă în cazul produselor de tip service. "
 "În cazul expedierii, se va ține cont de politica de expediere a comenzii "
 "pentru a folosi fie timpul minim, fie cel maxim al liniilor de comandă."
 =======
+=======
+>>>>>>> upstream/18.0
 "Data de livrare pe care o puteți promite clientului, calculată din timpul "
 "minim de livrare al liniilor de comandă în cazul produselor de tip Serviciu."
 " În cazul livrării, politica de livrare a comenzii va fi luată în "
 "considerare pentru a folosi timpul minim sau maxim de livrare al liniilor de"
 " comandă."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
 #: model:product.template,name:sale.advance_product_0_product_template
 msgid "Deposit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Depozit"
+=======
+msgstr "Avans"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avans"
 >>>>>>> upstream/18.0
@@ -3543,7 +4042,11 @@ msgstr "Descriere"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Disc.%"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Disc.%"
+=======
+msgstr "Reduc.%"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reduc.%"
 >>>>>>> upstream/18.0
@@ -3554,7 +4057,11 @@ msgstr "Reduc.%"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_line_wizard_form
 msgid "Discard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Abandonează"
+=======
+msgstr "Renunță"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renunță"
 >>>>>>> upstream/18.0
@@ -3578,7 +4085,11 @@ msgstr "Reducere %"
 #: code:addons/sale/wizard/sale_order_discount.py:0
 msgid "Discount %(percent)s%%"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reducere %(percent)s%%"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reducere %(percent)s%%"
 >>>>>>> upstream/18.0
@@ -3588,7 +4099,11 @@ msgstr "Reducere %(percent)s%%"
 #: code:addons/sale/wizard/sale_order_discount.py:0
 msgid "Discount %(percent)s%%- On products with the following taxes %(taxes)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reducere %(percent)s%%- La produse cu următoarele taxe %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reducere %(percent)s%%- La produse cu următoarele taxe %(taxes)s"
 >>>>>>> upstream/18.0
@@ -3602,7 +4117,11 @@ msgstr "Reducere (%)"
 #: model:ir.model.fields,field_description:sale.field_sale_report__discount_amount
 msgid "Discount Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoare Reducere"
+=======
+msgstr "Valoare reducere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare reducere"
 >>>>>>> upstream/18.0
@@ -3611,7 +4130,11 @@ msgstr "Valoare reducere"
 #: model:ir.model.fields,field_description:sale.field_res_company__sale_discount_product_id
 msgid "Discount Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reducere produs"
+=======
+msgstr "Produs reducere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produs reducere"
 >>>>>>> upstream/18.0
@@ -3620,7 +4143,11 @@ msgstr "Produs reducere"
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__discount_type
 msgid "Discount Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip discount"
+=======
+msgstr "Tip reducere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip reducere"
 >>>>>>> upstream/18.0
@@ -3634,7 +4161,11 @@ msgstr "Expert Reduceri"
 #: model:res.groups,name:sale.group_discount_per_so_line
 msgid "Discount on lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reduceri pe linii"
+=======
+msgstr "Reducere pe linii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reducere pe linii"
 >>>>>>> upstream/18.0
@@ -3644,7 +4175,11 @@ msgstr "Reducere pe linii"
 #: code:addons/sale/wizard/sale_order_discount.py:0
 msgid "Discount- On products with the following taxes %(taxes)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reducere - La produse cu următoarele taxe %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reducere - La produse cu următoarele taxe %(taxes)s"
 >>>>>>> upstream/18.0
@@ -3663,7 +4198,11 @@ msgstr "Reduceri"
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__display_draft_invoice_warning
 msgid "Display Draft Invoice Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avertisment afișare facturi în ciornă"
+=======
+msgstr "Afișează avertisment pentru facturi în ciornă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează avertisment pentru facturi în ciornă"
 >>>>>>> upstream/18.0
@@ -3672,7 +4211,11 @@ msgstr "Afișează avertisment pentru facturi în ciornă"
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__display_invoice_amount_warning
 msgid "Display Invoice Amount Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avertisment afișare sumă factură"
+=======
+msgstr "Afișează avertisment pentru suma facturii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează avertisment pentru suma facturii"
 >>>>>>> upstream/18.0
@@ -3693,7 +4236,11 @@ msgstr "Nume afișat"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__display_type
 msgid "Display Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul de afișare"
+=======
+msgstr "Tip afișare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip afișare"
 >>>>>>> upstream/18.0
@@ -3701,6 +4248,7 @@ msgstr "Tip afișare"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__distribution_analytic_account_ids
 msgid "Distribution Analytic Account"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3769,12 +4317,18 @@ msgstr "Cont analitic de distribuție"
 =======
 msgstr "Cont analitic distribuție"
 >>>>>>> upstream/18.0
+=======
+msgstr "Cont analitic distribuție"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Documentation"
 msgstr "Documentație"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3802,7 +4356,11 @@ msgstr "Plată în avans"
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "Down Payment (Cancelled)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plată în avans (Anulată)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plată în avans (Anulată)"
 >>>>>>> upstream/18.0
@@ -3812,7 +4370,11 @@ msgstr "Plată în avans (Anulată)"
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "Down Payment (ref: %(reference)s on %(date)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plată în avans (ref: %(reference)s din %(date)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plată în avans (ref: %(reference)s din %(date)s)"
 >>>>>>> upstream/18.0
@@ -3821,7 +4383,11 @@ msgstr "Plată în avans (ref: %(reference)s din %(date)s)"
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__fixed_amount
 msgid "Down Payment Amount (Fixed)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoare plată în avans (fixă)"
+=======
+msgstr "Sumă plată în avans (fixă)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumă plată în avans (fixă)"
 >>>>>>> upstream/18.0
@@ -3843,7 +4409,11 @@ msgstr "Plăți în avans"
 #: model:ir.model.fields.selection,name:sale.selection__sale_advance_payment_inv__advance_payment_method__fixed
 msgid "Down payment (fixed amount)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Plată în avans (suma fixă)"
+=======
+msgstr "Plată în avans (sumă fixă)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plată în avans (sumă fixă)"
 >>>>>>> upstream/18.0
@@ -3852,7 +4422,11 @@ msgstr "Plată în avans (sumă fixă)"
 #: model:ir.model.fields.selection,name:sale.selection__sale_advance_payment_inv__advance_payment_method__percentage
 msgid "Down payment (percentage)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Plată în avans (procentual)"
+=======
+msgstr "Plată în avans (procent)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plată în avans (procent)"
 >>>>>>> upstream/18.0
@@ -3867,7 +4441,11 @@ msgstr "Plată în avans <br/>"
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 msgid "Down payment invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Factură cu plată în avans"
+=======
+msgstr "Factură plată în avans"
+>>>>>>> upstream/18.0
 =======
 msgstr "Factură plată în avans"
 >>>>>>> upstream/18.0
@@ -3877,7 +4455,11 @@ msgstr "Factură plată în avans"
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 msgid "Down payment of %s%%"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Plată în avans a %s%%"
+=======
+msgstr "Plată în avans de %s%%"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plată în avans de %s%%"
 >>>>>>> upstream/18.0
@@ -3889,8 +4471,13 @@ msgid ""
 "not copied when duplicating a sales order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Plățile în avans sunt efectuate la crearea facturilor dintr-o comandă de "
 "vânzare. Nu sunt copiate la duplicarea unei comenzi de vânzare."
+=======
+"Plățile în avans se fac la crearea facturilor dintr-o comandă de vânzare. Nu"
+" sunt copiate la duplicarea unei comenzi de vânzare."
+>>>>>>> upstream/18.0
 =======
 "Plățile în avans se fac la crearea facturilor dintr-o comandă de vânzare. Nu"
 " sunt copiate la duplicarea unei comenzi de vânzare."
@@ -3900,7 +4487,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_product_category__property_account_downpayment_categ_id
 msgid "Downpayment Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cont plată în avans"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cont plată în avans"
 >>>>>>> upstream/18.0
@@ -3932,7 +4523,11 @@ msgid "Duplicated Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Documente duplicate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Documente duplicate"
 >>>>>>> upstream/18.0
@@ -3989,7 +4584,11 @@ msgstr "Documente duplicate"
 #: model:ir.model.fields,field_description:sale.field_sale_order__duplicated_order_ids
 msgid "Duplicated Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Comandă duplicată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comandă duplicată"
 >>>>>>> upstream/18.0
@@ -4004,7 +4603,11 @@ msgstr "Conector Easypost"
 #: code:addons/sale/static/src/js/sale_product_field.js:0
 msgid "Edit Configuration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Editare Configurare"
+=======
+msgstr "Editează configurarea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Editează configurarea"
 >>>>>>> upstream/18.0
@@ -4013,7 +4616,11 @@ msgstr "Editează configurarea"
 #: model:ir.model.fields.selection,name:sale.selection__sale_payment_provider_onboarding_wizard__payment_method__digital_signature
 msgid "Electronic signature"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Semnatură Electronică"
+=======
+msgstr "Semnătură electronică"
+>>>>>>> upstream/18.0
 =======
 msgstr "Semnătură electronică"
 >>>>>>> upstream/18.0
@@ -4024,6 +4631,7 @@ msgid "Email"
 msgstr "E-mail"
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4235,6 +4843,8 @@ msgstr "Asistent de compunere email-uri"
 msgid "Email sent to the customer once the invoice is available."
 msgstr "E-mail trimis clienților odată ce factura este disponibilă."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale.model_mail_compose_message
 msgid "Email composition wizard"
 msgstr "Asistent compunere e-mail"
@@ -4243,6 +4853,9 @@ msgstr "Asistent compunere e-mail"
 #: model:ir.model.fields,help:sale.field_res_config_settings__invoice_mail_template_id
 msgid "Email sent to the customer once the invoice is available."
 msgstr "E-mail trimis clientului odată ce factura este disponibilă."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -4258,6 +4871,11 @@ msgid ""
 "Error importing attachment '%(file_name)s' as order (decoder=%(decoder)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Eroare la importul atașamentului '%(file_name)s' ca și comandă "
+"(decoder=%(decoder)s)"
+>>>>>>> upstream/18.0
 =======
 "Eroare la importul atașamentului '%(file_name)s' ca și comandă "
 "(decoder=%(decoder)s)"
@@ -4297,7 +4915,11 @@ msgstr "Filtre extinse"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__product_no_variant_attribute_value_ids
 msgid "Extra Values"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valori Extra"
+=======
+msgstr "Valori suplimentare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valori suplimentare"
 >>>>>>> upstream/18.0
@@ -4306,6 +4928,7 @@ msgstr "Valori suplimentare"
 #. odoo-python
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "Extra line with %s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "Linie extra cu %s"
 
@@ -4316,11 +4939,16 @@ msgstr "Linie extra cu %s"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Linie suplimentară cu %s"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_fedex
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "FedEx Connector"
 msgstr "Conector FedEx"
@@ -4338,9 +4966,15 @@ msgid ""
 "customer."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pozițiile fiscale sunt utilizate pentru a adapta taxele și conturile pentru "
 "anumiți clienți sau comenzi / facturi de vânzare. Valoarea implicită provine"
 " de la client."
+=======
+"Pozițiile fiscale sunt folosite pentru a adapta taxele și conturile pentru "
+"anumiți clienți sau comenzi/facturi de vânzare. Valoarea implicită provine "
+"de la client."
+>>>>>>> upstream/18.0
 =======
 "Pozițiile fiscale sunt folosite pentru a adapta taxele și conturile pentru "
 "anumiți clienți sau comenzi/facturi de vânzare. Valoarea implicită provine "
@@ -4351,7 +4985,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale.selection__sale_order_discount__discount_type__amount
 msgid "Fixed Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoare fixă"
+=======
+msgstr "Sumă fixă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumă fixă"
 >>>>>>> upstream/18.0
@@ -4360,7 +4998,11 @@ msgstr "Sumă fixă"
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_home_sale
 msgid "Follow, view or pay your orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Urmăriți, vizualizați sau plătiți comenzile dvs"
+=======
+msgstr "Urmărește, vizualizează sau plătește comenzile tale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmărește, vizualizează sau plătește comenzile tale"
 >>>>>>> upstream/18.0
@@ -4379,7 +5021,11 @@ msgstr "Urmăritori (Parteneri)"
 #: model:ir.model.fields,help:sale.field_sale_order__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictogramă Font awesome, de ex. fa-sarcini"
+=======
+msgstr "Pictogramă Font Awesome, ex. fa-tasks"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă Font Awesome, ex. fa-tasks"
 >>>>>>> upstream/18.0
@@ -4397,22 +5043,32 @@ msgid ""
 "reports and so, match this analysis to your needs."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Din acest raport, puteți avea o imagine de ansamblu asupra valoare facturat "
 "clientului dumneavoastră. Instrumentul de căutare poate fi, de asemenea, "
 "utilizat pentru a personaliza rapoartele dvs. de facturi și, astfel, "
 "potriviți această analiză la nevoile dvs."
 =======
+=======
+>>>>>>> upstream/18.0
 "Din acest raport, puteți avea o imagine de ansamblu asupra sumei facturate "
 "clientului dumneavoastră. Instrumentul de căutare poate fi folosit și pentru"
 " a personaliza rapoartele de facturi și a adapta analiza la nevoile "
 "dumneavoastră."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Full amount <br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Suma totală<br/>"
+=======
+msgstr "Suma integrală <br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suma integrală <br/>"
 >>>>>>> upstream/18.0
@@ -4435,7 +5091,11 @@ msgstr "Activități viitoare"
 #: model:ir.model,name:sale.model_payment_link_wizard
 msgid "Generate Sales Payment Link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Generați link de plată a vânzărilor"
+=======
+msgstr "Generează link de plată vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generează link de plată vânzare"
 >>>>>>> upstream/18.0
@@ -4444,7 +5104,11 @@ msgstr "Generează link de plată vânzare"
 #: model:ir.actions.act_window,name:sale.action_sale_order_generate_link
 msgid "Generate a Payment Link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Generați un link de plată"
+=======
+msgstr "Generează un link de plată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generează un link de plată"
 >>>>>>> upstream/18.0
@@ -4454,7 +5118,11 @@ msgstr "Generează un link de plată"
 msgid ""
 "Generate the invoice automatically when the online payment is confirmed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Generați automat factura atunci când plata online este confirmată"
+=======
+msgstr "Generează automat factura când plata online este confirmată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generează automat factura când plata online este confirmată"
 >>>>>>> upstream/18.0
@@ -4464,7 +5132,11 @@ msgstr "Generează automat factura când plata online este confirmată"
 #: code:addons/sale/models/sale_order.py:0
 msgid "Generated Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Comenzi generate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comenzi generate"
 >>>>>>> upstream/18.0
@@ -4473,7 +5145,11 @@ msgstr "Comenzi generate"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Get warnings in orders for products or customers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obțineți avertismente la comenzi pentru produse sau clienți"
+=======
+msgstr "Primește avertismente la comenzi pentru produse sau clienți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primește avertismente la comenzi pentru produse sau clienți"
 >>>>>>> upstream/18.0
@@ -4482,7 +5158,11 @@ msgstr "Primește avertismente la comenzi pentru produse sau clienți"
 #: model:ir.model.fields.selection,name:sale.selection__sale_order_discount__discount_type__so_discount
 msgid "Global Discount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Discount Global"
+=======
+msgstr "Discount global"
+>>>>>>> upstream/18.0
 =======
 msgstr "Discount global"
 >>>>>>> upstream/18.0
@@ -4492,7 +5172,11 @@ msgstr "Discount global"
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Go ahead and send the quotation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Continuă și trimite oferta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Continuă și trimite oferta."
 >>>>>>> upstream/18.0
@@ -4504,6 +5188,11 @@ msgid ""
 "A service is a non-material product you provide."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bunurile sunt materiale tangibile și mărfuri pe care le furnizați.\n"
+"Un serviciu este un produs nematerial pe care îl furnizați."
+>>>>>>> upstream/18.0
 =======
 "Bunurile sunt materiale tangibile și mărfuri pe care le furnizați.\n"
 "Un serviciu este un produs nematerial pe care îl furnizați."
@@ -4513,7 +5202,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Grant discounts on sales order lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Acordă reduceri la liniile de comandă de vânzare"
+=======
+msgstr "Acordă reduceri pe liniile de comandă de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acordă reduceri pe liniile de comandă de vânzare"
 >>>>>>> upstream/18.0
@@ -4534,7 +5227,11 @@ msgstr "Grupează după"
 #: model:ir.model.fields,field_description:sale.field_sale_order__has_active_pricelist
 msgid "Has Active Pricelist"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Are o listă de prețuri activă"
+=======
+msgstr "Are listă de prețuri activă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Are listă de prețuri activă"
 >>>>>>> upstream/18.0
@@ -4543,7 +5240,11 @@ msgstr "Are listă de prețuri activă"
 #: model:ir.model.fields,field_description:sale.field_sale_order__has_archived_products
 msgid "Has Archived Products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Are produse arhivate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Are produse arhivate"
 >>>>>>> upstream/18.0
@@ -4552,7 +5253,11 @@ msgstr "Are produse arhivate"
 #: model:ir.model.fields,field_description:sale.field_sale_mass_cancel_orders__has_confirmed_order
 msgid "Has Confirmed Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Are comanda confirmată"
+=======
+msgstr "Are comandă confirmată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Are comandă confirmată"
 >>>>>>> upstream/18.0
@@ -4561,7 +5266,11 @@ msgstr "Are comandă confirmată"
 #: model:ir.model.fields,field_description:sale.field_sale_order__show_update_fpos
 msgid "Has Fiscal Position Changed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Are poziția fiscală schimbată"
+=======
+msgstr "Poziția fiscală a fost schimbată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poziția fiscală a fost schimbată"
 >>>>>>> upstream/18.0
@@ -4575,7 +5284,11 @@ msgstr "Are mesaj"
 #: model:ir.model.fields,field_description:sale.field_sale_order__show_update_pricelist
 msgid "Has Pricelist Changed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Are lista de prețuri schimbată"
+=======
+msgstr "Lista de prețuri a fost schimbată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lista de prețuri a fost schimbată"
 >>>>>>> upstream/18.0
@@ -4611,7 +5324,11 @@ msgstr "Pictogramă"
 #: model:ir.model.fields,help:sale.field_sale_order__activity_exception_icon
 msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictograma care indică o activitate de excepție."
+=======
+msgstr "Pictogramă pentru a indica o activitate de excepție."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă pentru a indica o activitate de excepție."
 >>>>>>> upstream/18.0
@@ -4620,7 +5337,11 @@ msgstr "Pictogramă pentru a indica o activitate de excepție."
 #: model:ir.model.fields,help:sale.field_sale_order__message_needaction
 msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifat, mesaje noi necesită atenția dumneavoastră."
+=======
+msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
 >>>>>>> upstream/18.0
@@ -4630,7 +5351,11 @@ msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
 #: model:ir.model.fields,help:sale.field_sale_order__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifată, există mesaje cu eroare de livrare."
+=======
+msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
 >>>>>>> upstream/18.0
@@ -4642,8 +5367,13 @@ msgid ""
 "with the lowest sequence is used."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă este setat, comada de vânzare (SO) va factura în acest jurnal; în caz "
 "contrar, se utilizează jurnalul de vânzări cu cea mai mică secvență."
+=======
+"Dacă este setat, comanda de vânzare va factura în acest jurnal; altfel se "
+"folosește jurnalul de vânzări cu cea mai mică secvență."
+>>>>>>> upstream/18.0
 =======
 "Dacă este setat, comanda de vânzare va factura în acest jurnal; altfel se "
 "folosește jurnalul de vânzări cu cea mai mică secvență."
@@ -4656,8 +5386,13 @@ msgid ""
 "still be able to invoice or deliver."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă vânzarea este blocată, nu o mai puteți modifica. Cu toate acestea, veți"
 " putea în continuare să facturați sau să livrați."
+=======
+"Dacă vânzarea este blocată, nu o mai puteți modifica. Totuși, veți putea "
+"factura sau livra."
+>>>>>>> upstream/18.0
 =======
 "Dacă vânzarea este blocată, nu o mai puteți modifica. Totuși, veți putea "
 "factura sau livra."
@@ -4667,8 +5402,12 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_product_packaging__sales
 msgid "If true, the packaging can be used for sales orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Dacă este adevărat, ambalajul poate fi utilizat pentru comenzi de vânzare"
+=======
+msgstr "Dacă este bifat, ambalajul poate fi folosit pentru comenzi de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, ambalajul poate fi folosit pentru comenzi de vânzare"
 >>>>>>> upstream/18.0
@@ -4678,8 +5417,13 @@ msgstr "Dacă este bifat, ambalajul poate fi folosit pentru comenzi de vânzare"
 msgid "If you change the pricelist, only newly added lines will be affected."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă modificați lista de prețuri, vor fi afectate doar liniile adăugate "
 "recent."
+=======
+"Dacă schimbați lista de prețuri, doar liniile adăugate ulterior vor fi "
+"afectate."
+>>>>>>> upstream/18.0
 =======
 "Dacă schimbați lista de prețuri, doar liniile adăugate ulterior vor fi "
 "afectate."
@@ -4689,7 +5433,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Immediate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imediat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imediat"
 >>>>>>> upstream/18.0
@@ -4698,7 +5446,11 @@ msgstr "Imediat"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Import Amazon orders and sync deliveries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Importare comenzi Amazon și sincronizare livrări"
+=======
+msgstr "Importă comenzi Amazon și sincronizează livrările"
+>>>>>>> upstream/18.0
 =======
 msgstr "Importă comenzi Amazon și sincronizează livrările"
 >>>>>>> upstream/18.0
@@ -4708,7 +5460,11 @@ msgstr "Importă comenzi Amazon și sincronizează livrările"
 #: code:addons/sale/models/product_template.py:0
 msgid "Import Template for Products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Importa Template pentru Produse"
+=======
+msgstr "Importă șablon pentru produse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Importă șablon pentru produse"
 >>>>>>> upstream/18.0
@@ -4717,7 +5473,11 @@ msgstr "Importă șablon pentru produse"
 #: model_terms:ir.ui.view,arch_db:sale.product_view_search_catalog
 msgid "In the Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "În Comanda"
+=======
+msgstr "În comandă"
+>>>>>>> upstream/18.0
 =======
 msgstr "În comandă"
 >>>>>>> upstream/18.0
@@ -4726,7 +5486,11 @@ msgstr "În comandă"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Incl. tax)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Incl. impozit)"
+=======
+msgstr "Inclusiv TVA)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Inclusiv TVA)"
 >>>>>>> upstream/18.0
@@ -4742,7 +5506,11 @@ msgstr "Sumă de discount invalidă"
 #: code:addons/sale/controllers/portal.py:0
 msgid "Invalid order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comandă nevalidă."
+=======
+msgstr "Comandă invalidă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Comandă invalidă."
 >>>>>>> upstream/18.0
@@ -4752,7 +5520,11 @@ msgstr "Comandă invalidă."
 #: code:addons/sale/controllers/portal.py:0
 msgid "Invalid signature data."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Date de semnătură învalide."
+=======
+msgstr "Date de semnătură invalide."
+>>>>>>> upstream/18.0
 =======
 msgstr "Date de semnătură invalide."
 >>>>>>> upstream/18.0
@@ -4762,7 +5534,11 @@ msgstr "Date de semnătură invalide."
 #: code:addons/sale/models/account_move.py:0
 msgid "Invoice %s paid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Factură %s plătită"
+=======
+msgstr "Factura %s plătită"
+>>>>>>> upstream/18.0
 =======
 msgstr "Factura %s plătită"
 >>>>>>> upstream/18.0
@@ -4771,7 +5547,11 @@ msgstr "Factura %s plătită"
 #: model:ir.model.fields,field_description:sale.field_sale_order__partner_invoice_id
 msgid "Invoice Address"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresă de facturare:"
+=======
+msgstr "Adresă de facturare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresă de facturare"
 >>>>>>> upstream/18.0
@@ -4790,7 +5570,11 @@ msgstr "Factură confirmată"
 #: model:ir.model.fields,field_description:sale.field_sale_order__invoice_count
 msgid "Invoice Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul facturilor"
+=======
+msgstr "Număr facturi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr facturi"
 >>>>>>> upstream/18.0
@@ -4804,7 +5588,11 @@ msgstr "Factură creată"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__invoice_mail_template_id
 msgid "Invoice Email Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Template e-mail de factură client"
+=======
+msgstr "Șablon e-mail factură"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șablon e-mail factură"
 >>>>>>> upstream/18.0
@@ -4837,8 +5625,12 @@ msgstr "Facturare după livrare, pe baza cantităților livrate, nu comandate."
 #: code:addons/sale/models/product_template.py:0
 msgid "Invoice ordered quantities as soon as this service is sold."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Facturați cantitățile comandate de îndată ce acest serviciu este vândut."
+=======
+msgstr "Facturează cantitățile comandate imediat ce serviciul este vândut."
+>>>>>>> upstream/18.0
 =======
 msgstr "Facturează cantitățile comandate imediat ce serviciul este vândut."
 >>>>>>> upstream/18.0
@@ -4851,9 +5643,15 @@ msgid ""
 "current and target revenue on the kanban view."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Venit din factură pentru luna curentă. Aceasta este suma pe care canalul de "
 "vânzări l-a facturat luna aceasta. Acesta este folosit pentru a calcula rata"
 " de progresie a venitului curent și a venitului țintă din afișarea kanban ."
+=======
+"Venituri facturate pentru luna curentă. Aceasta este suma facturată de "
+"canalul de vânzări în această lună. Se folosește pentru a calcula progresul "
+"față de ținta de venit în vizualizarea kanban."
+>>>>>>> upstream/18.0
 =======
 "Venituri facturate pentru luna curentă. Aceasta este suma facturată de "
 "canalul de vânzări în această lună. Se folosește pentru a calcula progresul "
@@ -4864,7 +5662,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale.selection__res_config_settings__default_invoice_policy__delivery
 msgid "Invoice what is delivered"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Facturare cantități livrate"
+=======
+msgstr "Facturează ce este livrat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Facturează ce este livrat"
 >>>>>>> upstream/18.0
@@ -4873,7 +5675,11 @@ msgstr "Facturează ce este livrat"
 #: model:ir.model.fields.selection,name:sale.selection__res_config_settings__default_invoice_policy__order
 msgid "Invoice what is ordered"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Facturează cantități comandate"
+=======
+msgstr "Facturează ce este comandat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Facturează ce este comandat"
 >>>>>>> upstream/18.0
@@ -4887,7 +5693,11 @@ msgstr "Facturat"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__amount_invoiced
 msgid "Invoiced Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Suma facturata"
+=======
+msgstr "Sumă facturată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumă facturată"
 >>>>>>> upstream/18.0
@@ -4901,7 +5711,11 @@ msgstr "Cantitate facturată"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__qty_invoiced_posted
 msgid "Invoiced Quantity (posted)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cantitate facturată (înregistrată)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cantitate facturată (înregistrată)"
 >>>>>>> upstream/18.0
@@ -4916,7 +5730,11 @@ msgstr "Cantitate facturată: %s"
 #: model:ir.model.fields,field_description:sale.field_crm_team__invoiced
 msgid "Invoiced This Month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Facturat luna curentă"
+=======
+msgstr "Facturat luna aceasta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Facturat luna aceasta"
 >>>>>>> upstream/18.0
@@ -4933,7 +5751,11 @@ msgstr "Facturi"
 #: model:ir.actions.act_window,name:sale.action_account_invoice_report_salesteam
 msgid "Invoices Analysis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analiza Facturilor"
+=======
+msgstr "Analiză facturi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiză facturi"
 >>>>>>> upstream/18.0
@@ -4942,7 +5764,11 @@ msgstr "Analiză facturi"
 #: model:ir.model,name:sale.model_account_invoice_report
 msgid "Invoices Statistics"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Statistică Facturi"
+=======
+msgstr "Statistici facturi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statistici facturi"
 >>>>>>> upstream/18.0
@@ -4959,7 +5785,11 @@ msgstr "Facturare"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Invoicing Address"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresa de facturare"
+=======
+msgstr "Adresă de facturare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresă de facturare"
 >>>>>>> upstream/18.0
@@ -4968,7 +5798,11 @@ msgstr "Adresă de facturare"
 #: model:ir.model.fields,field_description:sale.field_sale_order__journal_id
 msgid "Invoicing Journal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Jurnal facturare"
+=======
+msgstr "Jurnal de facturare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jurnal de facturare"
 >>>>>>> upstream/18.0
@@ -4995,7 +5829,11 @@ msgstr "Adresă de facturare și livrare"
 #: model:ir.model.fields,field_description:sale.field_account_move_line__is_downpayment
 msgid "Is Downpayment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Este plată în avans"
+=======
+msgstr "Este avans"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este avans"
 >>>>>>> upstream/18.0
@@ -5004,7 +5842,11 @@ msgstr "Este avans"
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__is_mail_template_editor
 msgid "Is Editor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Este Editor"
+=======
+msgstr "Este editor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este editor"
 >>>>>>> upstream/18.0
@@ -5013,7 +5855,11 @@ msgstr "Este editor"
 #: model:ir.model.fields,field_description:sale.field_sale_order__is_expired
 msgid "Is Expired"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Este Expirat"
+=======
+msgstr "Este expirat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este expirat"
 >>>>>>> upstream/18.0
@@ -5027,7 +5873,11 @@ msgstr "Este urmăritor"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__is_product_archived
 msgid "Is Product Archived"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produs arhivat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produs arhivat"
 >>>>>>> upstream/18.0
@@ -5046,7 +5896,11 @@ msgstr "Este cheltuială"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__is_configurable_product
 msgid "Is the product configurable?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Produsul poate fi configurat?"
+=======
+msgstr "Produs configurabil?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produs configurabil?"
 >>>>>>> upstream/18.0
@@ -5058,7 +5912,11 @@ msgid ""
 msgstr ""
 "Este adevărat dacă linia comenzii de vânzare provine dintr-o cheltuială sau "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "din facturi de furnizor"
+=======
+"factură de la furnizor"
+>>>>>>> upstream/18.0
 =======
 "factură de la furnizor"
 >>>>>>> upstream/18.0
@@ -5067,7 +5925,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "Issued Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data emiterii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data emiterii"
 >>>>>>> upstream/18.0
@@ -5080,7 +5942,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Este interzisă modificarea următoarelor câmpuri dntr-o comandă blocată:\n"
+=======
+"Este interzisă modificarea următoarelor câmpuri într-o comandă blocată:\n"
+>>>>>>> upstream/18.0
 =======
 "Este interzisă modificarea următoarelor câmpuri într-o comandă blocată:\n"
 >>>>>>> upstream/18.0
@@ -5090,7 +5956,11 @@ msgstr ""
 #: model:ir.model,name:sale.model_account_move
 msgid "Journal Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrare de jurnal "
+=======
+msgstr "Înregistrare jurnal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrare jurnal"
 >>>>>>> upstream/18.0
@@ -5099,7 +5969,11 @@ msgstr "Înregistrare jurnal"
 #: model:ir.model,name:sale.model_account_move_line
 msgid "Journal Item"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Element de jurnal"
+=======
+msgstr "Element jurnal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Element jurnal"
 >>>>>>> upstream/18.0
@@ -5108,7 +5982,11 @@ msgstr "Element jurnal"
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__lang
 msgid "Language"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Limba"
+=======
+msgstr "Limbă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Limbă"
 >>>>>>> upstream/18.0
@@ -5117,7 +5995,11 @@ msgstr "Limbă"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Last Invoices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Facturi recente"
+=======
+msgstr "Ultimele facturi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultimele facturi"
 >>>>>>> upstream/18.0
@@ -5132,7 +6014,11 @@ msgstr "Ultimele facturi"
 #: model:ir.model.fields,field_description:sale.field_sale_payment_provider_onboarding_wizard__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare de"
 >>>>>>> upstream/18.0
@@ -5147,7 +6033,11 @@ msgstr "Ultima actualizare de"
 #: model:ir.model.fields,field_description:sale.field_sale_payment_provider_onboarding_wizard__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -5166,8 +6056,12 @@ msgstr "Timp de livrare"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Let your customers log in to see their documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Permiteți clienților dvs. să se conecteze pentru a-și vedea documentele"
+=======
+msgstr "Permiteți clienților să se autentifice pentru a-și vedea documentele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permiteți clienților să se autentifice pentru a-și vedea documentele"
 >>>>>>> upstream/18.0
@@ -5177,7 +6071,11 @@ msgstr "Permiteți clienților să se autentifice pentru a-și vedea documentele
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Let’s create a beautiful quotation in a few clicks ."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hai să creăm o ofertă frumoasă în câteva click-uri."
+>>>>>>> upstream/18.0
 =======
 msgstr "Hai să creăm o ofertă frumoasă în câteva click-uri."
 >>>>>>> upstream/18.0
@@ -5186,7 +6084,11 @@ msgstr "Hai să creăm o ofertă frumoasă în câteva click-uri."
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__linked_line_id
 msgid "Linked Order Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linie de comandă conectată"
+=======
+msgstr "Linie de comandă legată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linie de comandă legată"
 >>>>>>> upstream/18.0
@@ -5195,7 +6097,11 @@ msgstr "Linie de comandă legată"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__linked_line_ids
 msgid "Linked Order Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linii de comandă legate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linii de comandă legate"
 >>>>>>> upstream/18.0
@@ -5204,7 +6110,11 @@ msgstr "Linii de comandă legate"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__linked_virtual_id
 msgid "Linked Virtual"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Virtual legat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Virtual legat"
 >>>>>>> upstream/18.0
@@ -5213,7 +6123,11 @@ msgstr "Virtual legat"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Lock"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Blocare"
+=======
+msgstr "Blochează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Blochează"
 >>>>>>> upstream/18.0
@@ -5223,7 +6137,11 @@ msgstr "Blochează"
 #: model:res.groups,name:sale.group_auto_done_setting
 msgid "Lock Confirmed Sales"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Blocați Vânzările Confirmate"
+=======
+msgstr "Blochează vânzările confirmate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Blochează vânzările confirmate"
 >>>>>>> upstream/18.0
@@ -5242,7 +6160,11 @@ msgstr "Comenzile blocate nu pot fi modificate."
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__template_id
 msgid "Mail Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Șablon de e-mail"
+=======
+msgstr "Șablon e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șablon e-mail"
 >>>>>>> upstream/18.0
@@ -5254,8 +6176,13 @@ msgid ""
 "footer pages to your quote."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Fă-ți oferta atractivă prin adăugarea de pagini de antet, descrieri ale "
 "produselor și pagini de subsol la oferta ta."
+=======
+"Fă-ți oferta atractivă adăugând pagini de antet, descrieri de produse și "
+"pagini de subsol."
+>>>>>>> upstream/18.0
 =======
 "Fă-ți oferta atractivă adăugând pagini de antet, descrieri de produse și "
 "pagini de subsol."
@@ -5266,6 +6193,11 @@ msgstr ""
 msgid "Manage Promotions, Coupons, Loyalty cards, Gift cards & eWallet"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Gestionează promoții, cupoane, carduri de fidelitate, carduri cadou și "
+"portofel electronic"
+>>>>>>> upstream/18.0
 =======
 "Gestionează promoții, cupoane, carduri de fidelitate, carduri cadou și "
 "portofel electronic"
@@ -5275,7 +6207,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Manage Sales & teams targets and commissions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gestionează țintele și comisioanele echipelor de vânzări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gestionează țintele și comisioanele echipelor de vânzări"
 >>>>>>> upstream/18.0
@@ -5289,7 +6225,11 @@ msgstr "Manual"
 #: model:ir.model.fields.selection,name:sale.selection__res_company__sale_onboarding_payment_method__manual
 msgid "Manual Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Plată Manuală"
+=======
+msgstr "Plată manuală"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plată manuală"
 >>>>>>> upstream/18.0
@@ -5298,7 +6238,11 @@ msgstr "Plată manuală"
 #: model:ir.model.fields.selection,name:sale.selection__product_template__service_type__manual
 msgid "Manually set quantities on order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Setarea manuală a cantităților pe comandă"
+=======
+msgstr "Setare manuală a cantităților pe comandă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setare manuală a cantităților pe comandă"
 >>>>>>> upstream/18.0
@@ -5312,9 +6256,15 @@ msgid ""
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Stabilirea manuală a cantităților pe comandă: Facturați pe baza cantității introduse manual, fără a crea un cont analitic.\n"
 "Fișe de pontaj pe contract: Facturați pe baza orelor urmărite pe fișa de pontaj aferentă\n"
 "Creați o sarcină și urmăriți orele de lucru: Creați o sarcină privind validarea comenzii de vânzare și urmăriți orele de lucru."
+=======
+"Setare manuală a cantităților pe comandă: Facturare pe baza cantității introduse manual, fără a crea un cont analitic.\n"
+"Pontaje pe contract: Facturare pe baza orelor urmărite pe pontajul aferent.\n"
+"Creează o sarcină și urmărește orele: Creează o sarcină la validarea comenzii de vânzare și urmărește orele de lucru."
+>>>>>>> upstream/18.0
 =======
 "Setare manuală a cantităților pe comandă: Facturare pe baza cantității introduse manual, fără a crea un cont analitic.\n"
 "Pontaje pe contract: Facturare pe baza orelor urmărite pe pontajul aferent.\n"
@@ -5354,7 +6304,11 @@ msgstr "Mesaj"
 #: model:ir.model.fields,field_description:sale.field_sale_order__message_has_error
 msgid "Message Delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Eroare de livrare a mesajului"
+=======
+msgstr "Eroare la livrarea mesajului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eroare la livrarea mesajului"
 >>>>>>> upstream/18.0
@@ -5370,7 +6324,11 @@ msgstr "Mesaj pentru comanda de vânzare"
 #: model:ir.model.fields,field_description:sale.field_product_template__sale_line_warn_msg
 msgid "Message for Sales Order Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesaj pentru linia de comandă de vânzare"
+=======
+msgstr "Mesaj pentru linia comenzii de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaj pentru linia comenzii de vânzare"
 >>>>>>> upstream/18.0
@@ -5389,7 +6347,11 @@ msgstr "Metodă"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__qty_delivered_method
 msgid "Method to update delivered qty"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Metoda de actualizare a cantității livrate"
+=======
+msgstr "Metodă de actualizare a cantității livrate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metodă de actualizare a cantității livrate"
 >>>>>>> upstream/18.0
@@ -5398,7 +6360,12 @@ msgstr "Metodă de actualizare a cantității livrate"
 #: model:ir.model.constraint,message:sale.constraint_sale_order_line_accountable_required_fields
 msgid "Missing required fields on accountable sale order line."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lipsesc câmpuri obligatorii pe linia de comandă de vânzare."
+=======
+msgstr ""
+"Lipsesc câmpuri obligatorii pe linia de comandă de vânzare contabilizabilă."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Lipsesc câmpuri obligatorii pe linia de comandă de vânzare contabilizabilă."
@@ -5413,7 +6380,11 @@ msgstr "Mitchell Admin"
 #: model:ir.model.fields,field_description:sale.field_sale_order__my_activity_date_deadline
 msgid "My Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită a activității mele"
+=======
+msgstr "Termen limită activitate proprie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită activitate proprie"
 >>>>>>> upstream/18.0
@@ -5432,7 +6403,11 @@ msgstr "Ofertele mele"
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "My Sales Order Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Liniile comenzii mele de vânzare"
+=======
+msgstr "Liniile comenzilor mele de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liniile comenzilor mele de vânzare"
 >>>>>>> upstream/18.0
@@ -5452,7 +6427,11 @@ msgstr "Ofertă nouă"
 #: model:ir.model.fields,field_description:sale.field_sale_order__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Următoarea activitate din calendar"
+=======
+msgstr "Următorul eveniment din calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Următorul eveniment din calendar"
 >>>>>>> upstream/18.0
@@ -5461,7 +6440,11 @@ msgstr "Următorul eveniment din calendar"
 #: model:ir.model.fields,field_description:sale.field_sale_order__activity_date_deadline
 msgid "Next Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită pentru următoarea activitate"
+=======
+msgstr "Termen limită următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită următoare activitate"
 >>>>>>> upstream/18.0
@@ -5470,7 +6453,11 @@ msgstr "Termen limită următoare activitate"
 #: model:ir.model.fields,field_description:sale.field_sale_order__activity_summary
 msgid "Next Activity Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sumarul următoarei activități"
+=======
+msgstr "Sumar următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumar următoare activitate"
 >>>>>>> upstream/18.0
@@ -5479,7 +6466,11 @@ msgstr "Sumar următoare activitate"
 #: model:ir.model.fields,field_description:sale.field_sale_order__activity_type_id
 msgid "Next Activity Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Următorul tip de activitate"
+=======
+msgstr "Tip următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip următoare activitate"
 >>>>>>> upstream/18.0
@@ -5494,7 +6485,11 @@ msgstr "Nu"
 #: model:ir.model.fields.selection,name:sale.selection__res_partner__sale_warn__no-message
 msgid "No Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Niciun mesaj"
+=======
+msgstr "Fără mesaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fără mesaj"
 >>>>>>> upstream/18.0
@@ -5514,7 +6509,11 @@ msgstr "Nu există cerințe suplimentare pentru această plată"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "No longer edit orders once confirmed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu se mai editează comenzile odată confirmate"
+=======
+msgstr "Nu mai editați comenzile odată confirmate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu mai editați comenzile odată confirmate"
 >>>>>>> upstream/18.0
@@ -5523,7 +6522,11 @@ msgstr "Nu mai editați comenzile odată confirmate"
 #: model_terms:ir.actions.act_window,help:sale.action_orders_to_invoice
 msgid "No orders to invoice found"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu s-au găsit comenzi pentru facturare"
+=======
+msgstr "Nu s-au găsit comenzi de facturat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu s-au găsit comenzi de facturat"
 >>>>>>> upstream/18.0
@@ -5564,7 +6567,11 @@ msgid ""
 "products to the customer"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Numărul de zile dintre confirmarea comenzii și expedierea produselor către "
+=======
+"Numărul de zile dintre confirmarea comenzii și livrarea produselor către "
+>>>>>>> upstream/18.0
 =======
 "Numărul de zile dintre confirmarea comenzii și livrarea produselor către "
 >>>>>>> upstream/18.0
@@ -5579,7 +6586,11 @@ msgstr "Număr de erori"
 #: model:ir.model.fields,help:sale.field_sale_order__message_needaction_counter
 msgid "Number of messages requiring action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de mesaje care necesită acțiune"
+=======
+msgstr "Număr de mesaje care necesită acțiune"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de mesaje care necesită acțiune"
 >>>>>>> upstream/18.0
@@ -5588,7 +6599,11 @@ msgstr "Număr de mesaje care necesită acțiune"
 #: model:ir.model.fields,help:sale.field_sale_order__message_has_error_counter
 msgid "Number of messages with delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de mesaje cu eroare de livrare"
+=======
+msgstr "Număr de mesaje cu eroare la livrare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de mesaje cu eroare la livrare"
 >>>>>>> upstream/18.0
@@ -5602,7 +6617,11 @@ msgstr "Număr de oferte de facturat"
 #: model:ir.model.fields,field_description:sale.field_crm_team__sales_to_invoice_count
 msgid "Number of sales to invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de vânzări de facturat"
+=======
+msgstr "Număr de vânzări de facturat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de vânzări de facturat"
 >>>>>>> upstream/18.0
@@ -5611,7 +6630,11 @@ msgstr "Număr de vânzări de facturat"
 #: model:product.template,description_sale:sale.product_product_1_product_template
 msgid "Office chairs can harm your floor: protect it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scaunele de birou vă pot deteriora podeaua: protejați-o."
+=======
+msgstr "Scaunele de birou pot deteriora podeaua: protejați-o."
+>>>>>>> upstream/18.0
 =======
 msgstr "Scaunele de birou pot deteriora podeaua: protejați-o."
 >>>>>>> upstream/18.0
@@ -5625,7 +6648,11 @@ msgstr "Pe toate liniile de comandă"
 #: model:ir.model.fields.selection,name:sale.selection__product_document__attached_on_sale__sale_order
 msgid "On confirmed order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "La comandă confirmată"
+>>>>>>> upstream/18.0
 =======
 msgstr "La comandă confirmată"
 >>>>>>> upstream/18.0
@@ -5634,7 +6661,11 @@ msgstr "La comandă confirmată"
 #: model:ir.model.fields.selection,name:sale.selection__product_document__attached_on_sale__quotation
 msgid "On quote"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "La ofertă"
+>>>>>>> upstream/18.0
 =======
 msgstr "La ofertă"
 >>>>>>> upstream/18.0
@@ -5648,7 +6679,11 @@ msgid ""
 msgstr ""
 "Odată ce o comandă de vânzare este confirmată, nu puteți elimina una dintre liniile sale (trebuie să urmărim dacă ceva este facturat sau livrat).\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                 În schimb, setați cantitatea la 0."
+=======
+"Setați cantitatea la 0 în schimb."
+>>>>>>> upstream/18.0
 =======
 "Setați cantitatea la 0 în schimb."
 >>>>>>> upstream/18.0
@@ -5662,8 +6697,13 @@ msgid ""
 "order.<br> You will be able to create an invoice and collect the payment."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odată ce oferta este confirmată de client, aceasta devine o comandă de vânzare.<br>\n"
 "Veți putea să creați o factură și să încasați plata."
+=======
+"Odată ce oferta este confirmată de client, aceasta devine o comandă de "
+"vânzare.<br> Veți putea crea o factură și încasa plata."
+>>>>>>> upstream/18.0
 =======
 "Odată ce oferta este confirmată de client, aceasta devine o comandă de "
 "vânzare.<br> Veți putea crea o factură și încasa plata."
@@ -5677,7 +6717,11 @@ msgid ""
 msgstr ""
 "Odată ce oferta este confirmată, aceasta devine o comandă de vânzare.<br> "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Veți putea să creați o factură și să încasați plata."
+=======
+"Veți putea crea o factură și încasa plata."
+>>>>>>> upstream/18.0
 =======
 "Veți putea crea o factură și încasa plata."
 >>>>>>> upstream/18.0
@@ -5713,7 +6757,11 @@ msgstr "Semnătură online"
 #: model:ir.model.fields,help:sale.field_sale_advance_payment_inv__amount_invoiced
 msgid "Only confirmed down payments are considered."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Se iau în considerare numai avansurile confirmate."
+=======
+msgstr "Sunt luate în considerare doar avansurile confirmate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sunt luate în considerare doar avansurile confirmate."
 >>>>>>> upstream/18.0
@@ -5730,8 +6778,13 @@ msgid ""
 "Only one Custom Value is allowed per Attribute Value per Sales Order Line."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "O singură valoare personalizată este permisă pentru fiecare valoare de "
 "atribut pe fiecare linie de comandă de vânzări."
+=======
+"Este permisă o singură valoare personalizată pentru fiecare valoare de "
+"atribut pe fiecare linie de comandă de vânzare."
+>>>>>>> upstream/18.0
 =======
 "Este permisă o singură valoare personalizată pentru fiecare valoare de "
 "atribut pe fiecare linie de comandă de vânzare."
@@ -5769,9 +6822,15 @@ msgid ""
 "(cross-sell strategy, e.g. for computers: warranty, software, etc.)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Produsele opționale sunt sugerate ori de câte ori clientul apasă *Adăugați "
 "în coș * (strategie de vânzare încrucișată, de exemplu, pentru calculatoare:"
 " garanție, software etc.)."
+=======
+"Produsele opționale sunt sugerate ori de câte ori clientul apasă *Adaugă în "
+"coș* (strategie de vânzare încrucișată, de exemplu, pentru calculatoare: "
+"garanție, software etc.)."
+>>>>>>> upstream/18.0
 =======
 "Produsele opționale sunt sugerate ori de câte ori clientul apasă *Adaugă în "
 "coș* (strategie de vânzare încrucișată, de exemplu, pentru calculatoare: "
@@ -5787,15 +6846,21 @@ msgid ""
 "object.partner_id.lang }}."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Limba de traducere opțională (cod ISO) pentru a selecta când se trimite un "
 "e-mail. Dacă nu este setată, versiunea în limba engleză va fi folosită. "
 "Aceasta ar trebui să fie de obicei o expresie substituentă care oferă limba "
 "potrivită, de exemplu {{ object.partner_id.lang }}."
 =======
+=======
+>>>>>>> upstream/18.0
 "Limba de traducere opțională (cod ISO) pentru selectare la trimiterea unui "
 "e-mail. Dacă nu este setată, se va folosi versiunea în limba engleză. De "
 "obicei, ar trebui să fie o expresie de tip placeholder care oferă limba "
 "potrivită, ex: {{ object.partner_id.lang }}."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -5816,7 +6881,11 @@ msgstr "Comandă #"
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__count
 msgid "Order Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de Comenzi"
+=======
+msgstr "Număr comenzi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr comenzi"
 >>>>>>> upstream/18.0
@@ -5849,7 +6918,11 @@ msgstr "Data comenzii: Ultimele 365 de zile"
 #: model:ir.model.fields,field_description:sale.field_sale_report__invoice_status
 msgid "Order Invoice Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stare facturare comandă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare facturare comandă"
 >>>>>>> upstream/18.0
@@ -5859,7 +6932,11 @@ msgstr "Stare facturare comandă"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Order Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linii de comandă"
+=======
+msgstr "Linii comandă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linii comandă"
 >>>>>>> upstream/18.0
@@ -5875,7 +6952,11 @@ msgstr "Referință comandă"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__state
 msgid "Order Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Status comandă"
+=======
+msgstr "Stare comandă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare comandă"
 >>>>>>> upstream/18.0
@@ -5884,7 +6965,11 @@ msgstr "Stare comandă"
 #: model:mail.activity.type,name:sale.mail_act_sale_upsell
 msgid "Order Upsell"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vânzare suplimentară"
+=======
+msgstr "Vânzare suplimentară comandă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vânzare suplimentară comandă"
 >>>>>>> upstream/18.0
@@ -5894,7 +6979,11 @@ msgstr "Vânzare suplimentară comandă"
 #: code:addons/sale/controllers/portal.py:0
 msgid "Order signed by %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comanda semnată de %s"
+=======
+msgstr "Comandă semnată de %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comandă semnată de %s"
 >>>>>>> upstream/18.0
@@ -5903,7 +6992,11 @@ msgstr "Comandă semnată de %s"
 #: model_terms:ir.ui.view,arch_db:sale.crm_team_view_kanban_dashboard
 msgid "Order to Invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comenzi de facturat"
+=======
+msgstr "Comandă de facturat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comandă de facturat"
 >>>>>>> upstream/18.0
@@ -5922,8 +7015,13 @@ msgid ""
 "Delivered Quantity: Invoice quantities delivered to the customer."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cantitate comandată: Cantitățile din factură comandate de client.\n"
 "Cantitate livrată: Cantitățile facturate livrate clientului."
+=======
+"Cantitate comandată: Facturează cantitățile comandate de client.\n"
+"Cantitate livrată: Facturează cantitățile livrate clientului."
+>>>>>>> upstream/18.0
 =======
 "Cantitate comandată: Facturează cantitățile comandate de client.\n"
 "Cantitate livrată: Facturează cantitățile livrate clientului."
@@ -5952,7 +7050,11 @@ msgstr "Comenzi de facturat"
 #: model:ir.ui.menu,name:sale.menu_sale_order_upselling
 msgid "Orders to Upsell"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comenzi suplimentare"
+=======
+msgstr "Comenzi pentru vânzare suplimentară"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comenzi pentru vânzare suplimentară"
 >>>>>>> upstream/18.0
@@ -5977,7 +7079,11 @@ msgstr "Ofertă PDF"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "PDF Quote builder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Construire de oferte PDF"
+=======
+msgstr "Constructor ofertă PDF"
+>>>>>>> upstream/18.0
 =======
 msgstr "Constructor ofertă PDF"
 >>>>>>> upstream/18.0
@@ -5986,7 +7092,11 @@ msgstr "Constructor ofertă PDF"
 #: model:ir.actions.report,name:sale.action_report_pro_forma_invoice
 msgid "PRO-FORMA Invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Factură proformă"
+=======
+msgstr "Factură PRO-FORMA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Factură PRO-FORMA"
 >>>>>>> upstream/18.0
@@ -6005,7 +7115,11 @@ msgstr "Cantitate ambalaj"
 #: model:ir.model.fields,field_description:sale.field_sale_order__partner_credit_warning
 msgid "Partner Credit Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avertisment privind creditul partenerului"
+=======
+msgstr "Avertisment credit partener"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertisment credit partener"
 >>>>>>> upstream/18.0
@@ -6019,7 +7133,11 @@ msgstr "Plătește acum"
 #: model:ir.model.fields.selection,name:sale.selection__res_company__sale_onboarding_payment_method__other
 msgid "Pay with another payment provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Plătește cu un alt furnizor de plăți"
+=======
+msgstr "Plătește cu alt furnizor de plăți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plătește cu alt furnizor de plăți"
 >>>>>>> upstream/18.0
@@ -6054,7 +7172,11 @@ msgstr "Metode de plată"
 #: model:ir.model,name:sale.model_payment_provider
 msgid "Payment Provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Procesator de plată"
+=======
+msgstr "Furnizor de plăți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Furnizor de plăți"
 >>>>>>> upstream/18.0
@@ -6064,7 +7186,11 @@ msgstr "Furnizor de plăți"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Payment Providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Furnizori de plată"
+=======
+msgstr "Furnizori de plăți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Furnizori de plăți"
 >>>>>>> upstream/18.0
@@ -6078,7 +7204,11 @@ msgstr "Referință plată"
 #: model:ir.model.fields,field_description:sale.field_sale_order__payment_term_id
 msgid "Payment Terms"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Termene plată"
+=======
+msgstr "Termeni de plată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termeni de plată"
 >>>>>>> upstream/18.0
@@ -6092,7 +7222,11 @@ msgstr "Token-uri de plată"
 #: model:ir.model,name:sale.model_payment_transaction
 msgid "Payment Transaction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tranzacție plată"
+=======
+msgstr "Tranzacție de plată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tranzacție de plată"
 >>>>>>> upstream/18.0
@@ -6101,7 +7235,11 @@ msgstr "Tranzacție de plată"
 #: model:ir.ui.menu,name:sale.payment_transaction_menu
 msgid "Payment Transactions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tranzacții plată"
+=======
+msgstr "Tranzacții de plată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tranzacții de plată"
 >>>>>>> upstream/18.0
@@ -6110,7 +7248,11 @@ msgstr "Tranzacții de plată"
 #: model:ir.model.fields,field_description:sale.field_sale_order__amount_paid
 msgid "Payment Transactions Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Suma tranzacțiilor de plată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suma tranzacțiilor de plată"
 >>>>>>> upstream/18.0
@@ -6129,7 +7271,11 @@ msgstr "Procentaj"
 #: model:ir.model.fields,field_description:sale.field_sale_order__access_url
 msgid "Portal Access URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresa URL de acces la portal"
+=======
+msgstr "URL de acces la portal"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL de acces la portal"
 >>>>>>> upstream/18.0
@@ -6140,7 +7286,11 @@ msgstr "URL de acces la portal"
 #: model:ir.model.fields,field_description:sale.field_sale_order__prepayment_percent
 msgid "Prepayment percentage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Procent de plată în avans"
+=======
+msgstr "Procent plată în avans"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procent plată în avans"
 >>>>>>> upstream/18.0
@@ -6151,7 +7301,11 @@ msgstr "Procent plată în avans"
 #: code:addons/sale/models/sale_order.py:0
 msgid "Prepayment percentage must be a valid percentage."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Procentul de plată în avans trebuie să fie un procent valid."
+=======
+msgstr "Procentul plății în avans trebuie să fie un procent valid."
+>>>>>>> upstream/18.0
 =======
 msgstr "Procentul plății în avans trebuie să fie un procent valid."
 >>>>>>> upstream/18.0
@@ -6187,7 +7341,11 @@ msgstr "Listă de prețuri"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__pricelist_item_id
 msgid "Pricelist Item"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Articolul din lista de prețuri"
+=======
+msgstr "Articol listă de prețuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Articol listă de prețuri"
 >>>>>>> upstream/18.0
@@ -6202,7 +7360,11 @@ msgstr "Liste de prețuri"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Pricing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Costuri"
+=======
+msgstr "Prețuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prețuri"
 >>>>>>> upstream/18.0
@@ -6240,7 +7402,11 @@ msgstr "Produs"
 #: model:ir.model,name:sale.model_product_attribute_custom_value
 msgid "Product Attribute Custom Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoarea personalizată a atributului produsului"
+=======
+msgstr "Valoare personalizată atribut produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare personalizată atribut produs"
 >>>>>>> upstream/18.0
@@ -6249,7 +7415,11 @@ msgstr "Valoare personalizată atribut produs"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Product Catalog"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Catalog de produse"
+=======
+msgstr "Catalog produse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Catalog produse"
 >>>>>>> upstream/18.0
@@ -6258,7 +7428,11 @@ msgstr "Catalog produse"
 #: model:ir.model.fields,field_description:sale.field_product_product__product_catalog_product_is_in_sale_order
 msgid "Product Catalog Product Is In Sale Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Catalog de produse Produsul este în comanda de vânzare"
+=======
+msgstr "Produsul din catalog este în comanda de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produsul din catalog este în comanda de vânzare"
 >>>>>>> upstream/18.0
@@ -6267,7 +7441,11 @@ msgstr "Produsul din catalog este în comanda de vânzare"
 #: model:ir.ui.menu,name:sale.menu_product_categories
 msgid "Product Categories"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Categorii de produse"
+=======
+msgstr "Categorii produse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Categorii produse"
 >>>>>>> upstream/18.0
@@ -6295,7 +7473,11 @@ msgstr "Imagine produs"
 #: model:ir.model,name:sale.model_product_packaging
 msgid "Product Packaging"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ambalare Produs"
+=======
+msgstr "Ambalare produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ambalare produs"
 >>>>>>> upstream/18.0
@@ -6304,7 +7486,11 @@ msgstr "Ambalare produs"
 #: model:ir.ui.menu,name:sale.menu_product_tags
 msgid "Product Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etichete Produs"
+=======
+msgstr "Etichete produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etichete produs"
 >>>>>>> upstream/18.0
@@ -6323,7 +7509,11 @@ msgstr "Tip produs"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__product_uom_readonly
 msgid "Product Uom Readonly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uom produs doar pentru citire"
+=======
+msgstr "UM produs doar citire"
+>>>>>>> upstream/18.0
 =======
 msgstr "UM produs doar citire"
 >>>>>>> upstream/18.0
@@ -6335,7 +7525,11 @@ msgstr "UM produs doar citire"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Product Variant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Variantă de produs"
+=======
+msgstr "Variantă produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Variantă produs"
 >>>>>>> upstream/18.0
@@ -6351,8 +7545,12 @@ msgstr "Variante produs"
 msgid "Product prices have been recomputed according to pricelist %s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Prețurile produselor au fost recalculate în conformitate cu lista de "
 "prețuri.%s."
+=======
+"Prețurile produselor au fost recalculate conform listei de prețuri %s."
+>>>>>>> upstream/18.0
 =======
 "Prețurile produselor au fost recalculate conform listei de prețuri %s."
 >>>>>>> upstream/18.0
@@ -6368,8 +7566,12 @@ msgstr "Prețurile produselor au fost recalculate."
 #: code:addons/sale/models/sale_order.py:0
 msgid "Product taxes have been recomputed according to fiscal position %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Taxele produselor au fost recalculat în conformitate cu poziția fiscală %s."
+=======
+msgstr "Taxele produselor au fost recalculate conform poziției fiscale %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Taxele produselor au fost recalculate conform poziției fiscale %s."
 >>>>>>> upstream/18.0
@@ -6388,7 +7590,11 @@ msgstr "Produse"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Promotions, Loyalty & Gift Card"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Promoții, Fidelizare & Card cadou"
+>>>>>>> upstream/18.0
 =======
 msgstr "Promoții, Fidelizare & Card cadou"
 >>>>>>> upstream/18.0
@@ -6412,7 +7618,11 @@ msgstr "Cant. facturată"
 #: model:ir.model.fields,field_description:sale.field_sale_report__product_uom_qty
 msgid "Qty Ordered"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cant. Comandată"
+=======
+msgstr "Cant. comandată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cant. comandată"
 >>>>>>> upstream/18.0
@@ -6421,7 +7631,11 @@ msgstr "Cant. comandată"
 #: model:ir.model.fields,field_description:sale.field_sale_report__qty_to_deliver
 msgid "Qty To Deliver"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cantitate de livrat"
+=======
+msgstr "Cant. de livrat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cant. de livrat"
 >>>>>>> upstream/18.0
@@ -6435,7 +7649,11 @@ msgstr "Cant. de facturat"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Quantities to invoice from sales orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cantitățile de facturat din comenzile de vânzare"
+=======
+msgstr "Cantități de facturat din comenzi de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cantități de facturat din comenzi de vânzare"
 >>>>>>> upstream/18.0
@@ -6500,7 +7718,11 @@ msgstr "Ofertă trimisă"
 msgid "Quotation Validity is required and must be greater or equal to 0."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Validitatea cotației este obligatorie și trebuie să fie mai mare sau egală "
+=======
+"Valabilitatea ofertei este obligatorie și trebuie să fie mai mare sau egală "
+>>>>>>> upstream/18.0
 =======
 "Valabilitatea ofertei este obligatorie și trebuie să fie mai mare sau egală "
 >>>>>>> upstream/18.0
@@ -6511,7 +7733,11 @@ msgstr ""
 #: model:mail.message.subtype,name:sale.mt_salesteam_order_viewed
 msgid "Quotation Viewed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ofertă vizualizată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ofertă vizualizată"
 >>>>>>> upstream/18.0
@@ -6533,7 +7759,11 @@ msgstr "Ofertă trimisă"
 #: code:addons/sale/controllers/portal.py:0
 msgid "Quotation viewed by customer %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ofertă vizualizată de client%s"
+=======
+msgstr "Ofertă vizualizată de clientul %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ofertă vizualizată de clientul %s"
 >>>>>>> upstream/18.0
@@ -6578,7 +7808,11 @@ msgstr "Oferte de revizuit"
 #: model:ir.model.fields,field_description:sale.field_sale_order__rating_ids
 msgid "Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ratings"
+=======
+msgstr "Evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluări"
 >>>>>>> upstream/18.0
@@ -6588,7 +7822,11 @@ msgstr "Evaluări"
 #: model:ir.model.fields,field_description:sale.field_product_template__expense_policy
 msgid "Re-Invoice Costs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Re-facturare costuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Re-facturare costuri"
 >>>>>>> upstream/18.0
@@ -6608,7 +7846,11 @@ msgstr "Destinatari"
 #: model_terms:ir.ui.view,arch_db:sale.product_template_view_form
 msgid "Recommend when 'Adding to Cart' or quotation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Recomandați la \"Adăugarea în coș\" sau la ofertă de preț"
+=======
+msgstr "Recomandă la \"Adăugare în coș\" sau la ofertă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recomandă la \"Adăugare în coș\" sau la ofertă"
 >>>>>>> upstream/18.0
@@ -6617,7 +7859,11 @@ msgstr "Recomandă la \"Adăugare în coș\" sau la ofertă"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Recompute all prices based on this pricelist"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Recalcularea tuturor prețurilor pe baza acestei liste de prețuri"
+=======
+msgstr "Recalculează toate prețurile pe baza acestei liste de prețuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recalculează toate prețurile pe baza acestei liste de prețuri"
 >>>>>>> upstream/18.0
@@ -6626,7 +7872,11 @@ msgstr "Recalculează toate prețurile pe baza acestei liste de prețuri"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Recompute all taxes based on this fiscal position"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Recalcularea tuturor taxelor pe baza acestei poziții fiscale"
+=======
+msgstr "Recalculează toate taxele pe baza acestei poziții fiscale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recalculează toate taxele pe baza acestei poziții fiscale"
 >>>>>>> upstream/18.0
@@ -6635,7 +7885,12 @@ msgstr "Recalculează toate taxele pe baza acestei poziții fiscale"
 #: model:ir.model.fields,help:sale.field_sale_order__origin
 msgid "Reference of the document that generated this sales order request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Referința documentului care a generat această cerere de comandă"
+=======
+msgstr ""
+"Referința documentului care a generat această cerere de comandă de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Referința documentului care a generat această cerere de comandă de vânzare"
@@ -6650,7 +7905,11 @@ msgstr "Factură normală"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Reject This Quotation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Respingeți această ofertă "
+=======
+msgstr "Respinge această ofertă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Respinge această ofertă"
 >>>>>>> upstream/18.0
@@ -6666,7 +7925,11 @@ msgstr "Elimină"
 #: code:addons/sale/static/src/js/quantity_buttons/quantity_buttons.xml:0
 msgid "Remove one"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Eliminați unul"
+=======
+msgstr "Elimină unul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elimină unul"
 >>>>>>> upstream/18.0
@@ -6685,7 +7948,11 @@ msgstr "Raportare"
 #: model:ir.model.fields,help:sale.field_sale_order__require_payment
 msgid "Request a online payment from the customer to confirm the order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Solicitați o plată online de la client pentru a confirma comanda."
+=======
+msgstr "Solicită o plată online de la client pentru a confirma comanda."
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicită o plată online de la client pentru a confirma comanda."
 >>>>>>> upstream/18.0
@@ -6694,9 +7961,13 @@ msgstr "Solicită o plată online de la client pentru a confirma comanda."
 #: model:ir.model.fields,help:sale.field_sale_order__require_signature
 msgid "Request a online signature from the customer to confirm the order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Solicitați o semnătură online din partea clientului pentru a confirma "
 "comanda."
+=======
+msgstr "Solicită o semnătură online de la client pentru a confirma comanda."
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicită o semnătură online de la client pentru a confirma comanda."
 >>>>>>> upstream/18.0
@@ -6708,6 +7979,11 @@ msgid ""
 "can be changed per order or template."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Solicită o plată pentru a confirma comenzile, integral (100%) sau parțial. "
+"Valoarea implicită poate fi schimbată pe comandă sau șablon."
+>>>>>>> upstream/18.0
 =======
 "Solicită o plată pentru a confirma comenzile, integral (100%) sau parțial. "
 "Valoarea implicită poate fi schimbată pe comandă sau șablon."
@@ -6720,6 +7996,11 @@ msgid ""
 "changed per order or template."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Solicită clienților să semneze ofertele pentru a valida comenzile. Valoarea "
+"implicită poate fi schimbată pe comandă sau șablon."
+>>>>>>> upstream/18.0
 =======
 "Solicită clienților să semneze ofertele pentru a valida comenzile. Valoarea "
 "implicită poate fi schimbată pe comandă sau șablon."
@@ -6730,7 +8011,11 @@ msgstr ""
 #: code:addons/sale/models/sale_order.py:0
 msgid "Requested date is too soon."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data solicitată este prea curând."
+=======
+msgstr "Data solicitată este prea devreme."
+>>>>>>> upstream/18.0
 =======
 msgstr "Data solicitată este prea devreme."
 >>>>>>> upstream/18.0
@@ -6745,6 +8030,10 @@ msgstr "Utilizator responsabil"
 msgid "Revenue Target for the current month (untaxed total of paid invoices)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ținta de venit pentru luna curentă (total fără taxe al facturilor plătite)."
+>>>>>>> upstream/18.0
 =======
 "Ținta de venit pentru luna curentă (total fără taxe al facturilor plătite)."
 >>>>>>> upstream/18.0
@@ -6759,7 +8048,11 @@ msgstr "Venituri"
 #: model:ir.model.fields,field_description:sale.field_utm_campaign__invoiced_amount
 msgid "Revenues generated by the campaign"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Veniturile generate de campanie"
+=======
+msgstr "Venituri generate de campanie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Venituri generate de campanie"
 >>>>>>> upstream/18.0
@@ -6784,7 +8077,11 @@ msgstr "Vânzare"
 #: model:ir.model.fields,field_description:sale.field_product_document__attached_on_sale
 msgid "Sale : Visible at"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vânzare : Vizibil la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vânzare : Vizibil la"
 >>>>>>> upstream/18.0
@@ -6809,7 +8106,11 @@ msgstr "Comandă de vânzare"
 #: model:ir.model.fields,field_description:sale.field_res_users__sale_order_count
 msgid "Sale Order Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul comenzilor de vânzare"
+=======
+msgstr "Număr comenzi de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr comenzi de vânzare"
 >>>>>>> upstream/18.0
@@ -6818,7 +8119,11 @@ msgstr "Număr comenzi de vânzare"
 #: model:ir.actions.act_window,name:sale.mail_activity_plan_action_sale_order
 msgid "Sale Order Plans"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Planuri de comandă de vânzare"
+=======
+msgstr "Planuri comandă de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planuri comandă de vânzare"
 >>>>>>> upstream/18.0
@@ -6827,7 +8132,11 @@ msgstr "Planuri comandă de vânzare"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__group_warning_sale
 msgid "Sale Order Warnings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avertismente privind comanda de vânzare"
+=======
+msgstr "Avertismente comandă de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertismente comandă de vânzare"
 >>>>>>> upstream/18.0
@@ -6836,7 +8145,11 @@ msgstr "Avertismente comandă de vânzare"
 #: model_terms:ir.ui.view,arch_db:sale.account_invoice_form
 msgid "Sale Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comenzi de Vânzări"
+=======
+msgstr "Comenzi de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comenzi de vânzare"
 >>>>>>> upstream/18.0
@@ -6845,7 +8158,11 @@ msgstr "Comenzi de vânzare"
 #: model:ir.model.fields,field_description:sale.field_sale_mass_cancel_orders__sale_orders_count
 msgid "Sale Orders Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul comenzilor de vânzare"
+=======
+msgstr "Număr comenzi de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr comenzi de vânzare"
 >>>>>>> upstream/18.0
@@ -6854,7 +8171,11 @@ msgstr "Număr comenzi de vânzare"
 #: model:ir.model,name:sale.model_sale_payment_provider_onboarding_wizard
 msgid "Sale Payment provider onboarding wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Asistentul de înrolare a furnizorului de plăți"
+=======
+msgstr "Asistent onboarding furnizor plată vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asistent onboarding furnizor plată vânzare"
 >>>>>>> upstream/18.0
@@ -6863,7 +8184,11 @@ msgstr "Asistent onboarding furnizor plată vânzare"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Sale Warnings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avertismente la vânzare"
+=======
+msgstr "Avertismente vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertismente vânzare"
 >>>>>>> upstream/18.0
@@ -6872,7 +8197,11 @@ msgstr "Avertismente vânzare"
 #: model:ir.model.fields,field_description:sale.field_res_company__sale_onboarding_payment_method
 msgid "Sale onboarding selected payment method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înrolare vânzare metodă de plată selectată"
+=======
+msgstr "Metodă de plată selectată la onboarding vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metodă de plată selectată la onboarding vânzare"
 >>>>>>> upstream/18.0
@@ -6881,7 +8210,11 @@ msgstr "Metodă de plată selectată la onboarding vânzare"
 #: model:ir.model.fields,field_description:sale.field_sale_mass_cancel_orders__sale_order_ids
 msgid "Sale orders to cancel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anulare comenzi de vânzare"
+=======
+msgstr "Comenzi de vânzare de anulat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comenzi de vânzare de anulat"
 >>>>>>> upstream/18.0
@@ -6902,7 +8235,11 @@ msgstr "Vânzări"
 #: model:ir.model,name:sale.model_sale_advance_payment_inv
 msgid "Sales Advance Payment Invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Factura de vânzare cu plată în avans"
+=======
+msgstr "Factură avans vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Factură avans vânzare"
 >>>>>>> upstream/18.0
@@ -6924,7 +8261,11 @@ msgstr "Analiză vânzări"
 #: model:ir.actions.act_window,name:sale.action_order_report_customers
 msgid "Sales Analysis By Customers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analiza vânzărilor în funcție de clienți"
+=======
+msgstr "Analiză vânzări pe clienți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiză vânzări pe clienți"
 >>>>>>> upstream/18.0
@@ -6933,7 +8274,11 @@ msgstr "Analiză vânzări pe clienți"
 #: model:ir.actions.act_window,name:sale.action_order_report_products
 msgid "Sales Analysis By Products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Analiză vânzări pe produse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiză vânzări pe produse"
 >>>>>>> upstream/18.0
@@ -6942,7 +8287,11 @@ msgstr "Analiză vânzări pe produse"
 #: model:ir.actions.act_window,name:sale.action_order_report_salesperson
 msgid "Sales Analysis By Salespersons"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analiza vânzărilor în funcție de agenții de vânzări"
+=======
+msgstr "Analiză vânzări pe agenți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiză vânzări pe agenți"
 >>>>>>> upstream/18.0
@@ -6951,7 +8300,11 @@ msgstr "Analiză vânzări pe agenți"
 #: model:ir.model,name:sale.model_sale_report
 msgid "Sales Analysis Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raport de analiză a vânzărilor"
+=======
+msgstr "Raport analiză vânzări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport analiză vânzări"
 >>>>>>> upstream/18.0
@@ -6960,7 +8313,11 @@ msgstr "Raport analiză vânzări"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_sale_product_matrix
 msgid "Sales Grid Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Intrare Grilă Vânzări"
+=======
+msgstr "Intrare grilă vânzări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Intrare grilă vânzări"
 >>>>>>> upstream/18.0
@@ -6984,7 +8341,11 @@ msgstr "Comandă de vânzare"
 #: model:ir.model,name:sale.model_sale_order_cancel
 msgid "Sales Order Cancel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anulare Comandă de Vânzare"
+=======
+msgstr "Anulare comandă de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anulare comandă de vânzare"
 >>>>>>> upstream/18.0
@@ -6994,7 +8355,11 @@ msgstr "Anulare comandă de vânzare"
 #: model:mail.message.subtype,name:sale.mt_salesteam_order_confirmed
 msgid "Sales Order Confirmed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comanda de vânzare confirmată"
+=======
+msgstr "Comandă de vânzare confirmată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comandă de vânzare confirmată"
 >>>>>>> upstream/18.0
@@ -7019,7 +8384,11 @@ msgstr "Linie comandă de vânzare"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_line_tree
 msgid "Sales Order Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linii comenzi de vânzare"
+=======
+msgstr "Linii comandă de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linii comandă de vânzare"
 >>>>>>> upstream/18.0
@@ -7028,7 +8397,11 @@ msgstr "Linii comandă de vânzare"
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "Sales Order Lines ready to be invoiced"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linii de comandă de vânzări gata de facturare"
+=======
+msgstr "Linii de comandă de vânzare gata de facturare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linii de comandă de vânzare gata de facturare"
 >>>>>>> upstream/18.0
@@ -7044,7 +8417,11 @@ msgstr "Linii de comandă de vânzare legate de o comandă de vânzare a mea"
 #: model_terms:ir.ui.view,arch_db:sale.transaction_form_inherit_sale
 msgid "Sales Order(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comenzi de vânzare "
+=======
+msgstr "Comenzi de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comenzi de vânzare"
 >>>>>>> upstream/18.0
@@ -7108,7 +8485,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale.selection__product_template__expense_policy__sales_price
 msgid "Sales price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Preț vânzare"
+=======
+msgstr "Preț de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preț de vânzare"
 >>>>>>> upstream/18.0
@@ -7117,7 +8498,11 @@ msgstr "Preț de vânzare"
 #: model:mail.template,name:sale.mail_template_sale_cancellation
 msgid "Sales: Order Cancellation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vânzări: Anularea comenzii"
+=======
+msgstr "Vânzări: Anulare comandă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vânzări: Anulare comandă"
 >>>>>>> upstream/18.0
@@ -7126,7 +8511,11 @@ msgstr "Vânzări: Anulare comandă"
 #: model:mail.template,name:sale.mail_template_sale_confirmation
 msgid "Sales: Order Confirmation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vânzări: Confirmarea comenzii"
+=======
+msgstr "Vânzări: Confirmare comandă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vânzări: Confirmare comandă"
 >>>>>>> upstream/18.0
@@ -7163,6 +8552,7 @@ msgid "Salespersons"
 msgstr "Agenți de vânzări"
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7375,6 +8765,8 @@ msgstr "Mesaj planificat"
 msgid "Search Sales Order"
 msgstr "Caută comenzi de vânzare"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale.model_mail_scheduled_message
 msgid "Scheduled Message"
 msgstr "Mesaj programat"
@@ -7384,6 +8776,9 @@ msgstr "Mesaj programat"
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "Search Sales Order"
 msgstr "Caută comandă de vânzare"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -7391,7 +8786,11 @@ msgstr "Caută comandă de vânzare"
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Search a customer name, or create one on the fly."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută un nume de client sau creează unul pe loc."
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută un nume de client sau creează unul pe loc."
 >>>>>>> upstream/18.0
@@ -7405,7 +8804,11 @@ msgstr "Secțiune"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Section Name (eg. Products, Services)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume Secțiune (de ex. Produse, Servicii)"
+=======
+msgstr "Nume secțiune (ex. Produse, Servicii)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume secțiune (ex. Produse, Servicii)"
 >>>>>>> upstream/18.0
@@ -7420,7 +8823,11 @@ msgstr "Token de securitate"
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Select a product, or create a new one on the fly."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Selectați un produs sau creați unul nou pe loc."
+=======
+msgstr "Selectează un produs sau creează unul nou pe loc."
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectează un produs sau creează unul nou pe loc."
 >>>>>>> upstream/18.0
@@ -7429,7 +8836,11 @@ msgstr "Selectează un produs sau creează unul nou pe loc."
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__selected_combo_items
 msgid "Selected Combo Items"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elemente combo selectate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elemente combo selectate"
 >>>>>>> upstream/18.0
@@ -7445,9 +8856,15 @@ msgid ""
 "block the flow. The Message has to be written in the next field."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Selectând opțiunea \"Avertizare\" se va înștiința utilizatorul cu un mesaj, "
 "Selectând \"Mesaj de blocare\" se va trimite o excepție cu mesajul și va "
 "bloca fluxul. Mesajul trebuie scris în câmpul următor."
+=======
+"Selectarea opțiunii \"Avertizare\" va notifica utilizatorul cu mesajul, iar "
+"selectarea \"Mesaj de blocare\" va genera o excepție cu mesajul și va bloca "
+"fluxul. Mesajul trebuie scris în câmpul următor."
+>>>>>>> upstream/18.0
 =======
 "Selectarea opțiunii \"Avertizare\" va notifica utilizatorul cu mesajul, iar "
 "selectarea \"Mesaj de blocare\" va genera o excepție cu mesajul și va bloca "
@@ -7458,7 +8875,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Sell and purchase products in different units of measure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vânzare și achiziționare produse în diferite unități de măsură"
+=======
+msgstr "Vindeți și achiziționați produse în unități de măsură diferite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vindeți și achiziționați produse în unități de măsură diferite"
 >>>>>>> upstream/18.0
@@ -7467,7 +8888,11 @@ msgstr "Vindeți și achiziționați produse în unități de măsură diferite"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Sell products by multiple of unit # per package"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vindeți produse cu mai multe unități # pe pachet"
+=======
+msgstr "Vindeți produse cu multiplu de unități per pachet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vindeți produse cu multiplu de unități per pachet"
 >>>>>>> upstream/18.0
@@ -7477,8 +8902,12 @@ msgstr "Vindeți produse cu multiplu de unități per pachet"
 msgid "Sell variants of a product using attributes (size, color, etc.)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vindeți variante ale unui produs folosind atribute (dimensiune, culoare "
 "etc.)"
+=======
+"Vindeți variante ale unui produs folosind atribute (mărime, culoare etc.)"
+>>>>>>> upstream/18.0
 =======
 "Vindeți variante ale unui produs folosind atribute (mărime, culoare etc.)"
 >>>>>>> upstream/18.0
@@ -7487,7 +8916,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Send PRO-FORMA Invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimiteți factură PRO-FORMA"
+=======
+msgstr "Trimite factură PRO-FORMA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite factură PRO-FORMA"
 >>>>>>> upstream/18.0
@@ -7496,8 +8929,12 @@ msgstr "Trimite factură PRO-FORMA"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Send a product-specific email once the invoice is validated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Trimiteți un e-mail specific de produs odată ce factura a fost validată"
+=======
+msgstr "Trimiteți un e-mail specific produsului după validarea facturii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimiteți un e-mail specific produsului după validarea facturii"
 >>>>>>> upstream/18.0
@@ -7506,7 +8943,11 @@ msgstr "Trimiteți un e-mail specific produsului după validarea facturii"
 #: model:ir.actions.server,name:sale.model_sale_order_send_mail
 msgid "Send an email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimite un email"
+=======
+msgstr "Trimite un e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite un e-mail"
 >>>>>>> upstream/18.0
@@ -7515,7 +8956,11 @@ msgstr "Trimite un e-mail"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_cancel_view_form
 msgid "Send and cancel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimiteți și anulați"
+=======
+msgstr "Trimite și anulează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite și anulează"
 >>>>>>> upstream/18.0
@@ -7524,7 +8969,11 @@ msgstr "Trimite și anulează"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Send by Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimiteți prin email"
+=======
+msgstr "Trimite prin e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite prin e-mail"
 >>>>>>> upstream/18.0
@@ -7533,7 +8982,11 @@ msgstr "Trimite prin e-mail"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_sendcloud
 msgid "Sendcloud Connector"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conector pentru Sendcloud"
+=======
+msgstr "Conector Sendcloud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conector Sendcloud"
 >>>>>>> upstream/18.0
@@ -7547,9 +9000,15 @@ msgid ""
 msgstr ""
 "Trimiterea unui e-mail este utilă dacă trebuie să partajați informații sau "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "un conținut specific despre un produs (instrucțiuni, reguli, linkuri, media "
 "etc.). Creați și setați modelul de e-mail din formularul de detalii despre "
 "produs (în tab-ul Contabilitate)."
+=======
+"conținut specific despre un produs (instrucțiuni, reguli, linkuri, media "
+"etc.). Creați și setați șablonul de e-mail din formularul de detalii al "
+"produsului (în tab-ul Contabilitate)."
+>>>>>>> upstream/18.0
 =======
 "conținut specific despre un produs (instrucțiuni, reguli, linkuri, media "
 "etc.). Creați și setați șablonul de e-mail din formularul de detalii al "
@@ -7560,7 +9019,11 @@ msgstr ""
 #: model:mail.template,description:sale.mail_template_sale_cancellation
 msgid "Sent automatically to customers when you cancel an order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimis automat clienților atunci când anulați o comandă"
+=======
+msgstr "Trimis automat clienților când anulați o comandă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimis automat clienților când anulați o comandă"
 >>>>>>> upstream/18.0
@@ -7577,8 +9040,13 @@ msgid ""
 " their order"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trimitere către clienți atunci când se primește o plată, dar nu se confirmă "
 "imediat comanda"
+=======
+"Trimis clienților când se primește o plată, dar nu se confirmă imediat "
+"comanda"
+>>>>>>> upstream/18.0
 =======
 "Trimis clienților când se primește o plată, dar nu se confirmă imediat "
 "comanda"
@@ -7593,7 +9061,11 @@ msgstr "Secvență"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Set multiple prices per product, automated discounts, etc."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Setați prețuri multiple pentru fiecare produs, reduceri automate etc."
+=======
+msgstr "Setați prețuri multiple per produs, reduceri automate etc."
+>>>>>>> upstream/18.0
 =======
 msgstr "Setați prețuri multiple per produs, reduceri automate etc."
 >>>>>>> upstream/18.0
@@ -7602,7 +9074,11 @@ msgstr "Setați prețuri multiple per produs, reduceri automate etc."
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Set to Quotation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Transformă în ofertă"
+=======
+msgstr "Setează ca ofertă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează ca ofertă"
 >>>>>>> upstream/18.0
@@ -7628,7 +9104,11 @@ msgstr "Livrare"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Shipping Address"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresă Livrare"
+=======
+msgstr "Adresă de livrare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresă de livrare"
 >>>>>>> upstream/18.0
@@ -7643,8 +9123,13 @@ msgstr "Conector Shiprocket"
 msgid "Show all records which has next action date is before today"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Afișați toate înregistrările care au data următoarei acțiuni înainte de data"
 " de astăzi"
+=======
+"Afișează toate înregistrările care au data următoarei acțiuni înainte de "
+"astăzi"
+>>>>>>> upstream/18.0
 =======
 "Afișează toate înregistrările care au data următoarei acțiuni înainte de "
 "astăzi"
@@ -7654,7 +9139,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Show margins on orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișați marjele pe comenzi"
+=======
+msgstr "Afișează marjele pe comenzi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează marjele pe comenzi"
 >>>>>>> upstream/18.0
@@ -7674,7 +9163,11 @@ msgstr "Semnează și plătește"
 #: model:ir.model.fields.selection,name:sale.selection__res_company__sale_onboarding_payment_method__digital_signature
 msgid "Sign online"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Semnați online"
+=======
+msgstr "Semnează online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Semnează online"
 >>>>>>> upstream/18.0
@@ -7690,7 +9183,11 @@ msgstr "Semnătură"
 #: code:addons/sale/controllers/portal.py:0
 msgid "Signature is missing."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Semnatura lipsește."
+=======
+msgstr "Semnătura lipsește."
+>>>>>>> upstream/18.0
 =======
 msgstr "Semnătura lipsește."
 >>>>>>> upstream/18.0
@@ -7704,7 +9201,11 @@ msgstr "Semnat de"
 #: model:ir.model.fields,field_description:sale.field_sale_order__signed_on
 msgid "Signed On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Semnat pe"
+=======
+msgstr "Semnat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Semnat la"
 >>>>>>> upstream/18.0
@@ -7720,7 +9221,11 @@ msgstr "Vândut"
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view_sale_order_button
 msgid "Sold in the last 365 days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vândut în ultimile 365 de zile"
+=======
+msgstr "Vândut în ultimele 365 de zile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vândut în ultimele 365 de zile"
 >>>>>>> upstream/18.0
@@ -7732,6 +9237,11 @@ msgid ""
 "                        affected by the cancellation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Unele comenzi confirmate sunt selectate. Documentele aferente acestora pot "
+"fi afectate de anulare."
+>>>>>>> upstream/18.0
 =======
 "Unele comenzi confirmate sunt selectate. Documentele aferente acestora pot "
 "fi afectate de anulare."
@@ -7742,7 +9252,11 @@ msgstr ""
 #: code:addons/sale/models/sale_order.py:0
 msgid "Some orders are not in a state requiring confirmation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unele comenzi nu sunt într-o stare care necesită confirmare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Unele comenzi nu sunt într-o stare care necesită confirmare."
 >>>>>>> upstream/18.0
@@ -7764,7 +9278,11 @@ msgstr "Document sursă"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_product_email_template
 msgid "Specific Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Email Specific"
+=======
+msgstr "Email specific"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email specific"
 >>>>>>> upstream/18.0
@@ -7773,7 +9291,11 @@ msgstr "Email specific"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_starshipit
 msgid "Starshipit Connector"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Conector Starshipit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conector Starshipit"
 >>>>>>> upstream/18.0
@@ -7795,7 +9317,11 @@ msgid ""
 msgstr ""
 "Stare bazată pe activități\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Întârziată: data activitații este deja trecută\n"
+=======
+"Întârziată: data scadentă a trecut deja\n"
+>>>>>>> upstream/18.0
 =======
 "Întârziată: data scadentă a trecut deja\n"
 >>>>>>> upstream/18.0
@@ -7822,7 +9348,11 @@ msgstr "Subtotal"
 #: model_terms:ir.ui.view,arch_db:sale.sale_report_view_tree
 msgid "Sum of Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Suma cantității"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suma cantității"
 >>>>>>> upstream/18.0
@@ -7844,6 +9374,11 @@ msgid ""
 "state 'done' or 'authorized' and linked to this order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Suma tranzacțiilor efectuate prin formularul de plată online care sunt în "
+"starea 'efectuat' sau 'autorizat' și sunt legate de această comandă."
+>>>>>>> upstream/18.0
 =======
 "Suma tranzacțiilor efectuate prin formularul de plată online care sunt în "
 "starea 'efectuat' sau 'autorizat' și sunt legate de această comandă."
@@ -7869,7 +9404,11 @@ msgstr "Taxă 15%"
 #: model:ir.model.fields,field_description:sale.field_sale_order__tax_calculation_rounding_method
 msgid "Tax Calculation Rounding Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Metoda de rotunjire în calculul taxei"
+=======
+msgstr "Metodă de rotunjire a calculului taxei"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metodă de rotunjire a calculului taxei"
 >>>>>>> upstream/18.0
@@ -7879,7 +9418,11 @@ msgstr "Metodă de rotunjire a calculului taxei"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__tax_country_id
 msgid "Tax Country"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Țara unde este aplicată taxa"
+=======
+msgstr "Țara taxei"
+>>>>>>> upstream/18.0
 =======
 msgstr "Țara taxei"
 >>>>>>> upstream/18.0
@@ -7888,7 +9431,11 @@ msgstr "Țara taxei"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Tax Excl."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fără taxe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fără taxe"
 >>>>>>> upstream/18.0
@@ -7897,7 +9444,11 @@ msgstr "Fără taxe"
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "Tax ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "CIF"
+=======
+msgstr "CUI"
+>>>>>>> upstream/18.0
 =======
 msgstr "CUI"
 >>>>>>> upstream/18.0
@@ -7906,7 +9457,11 @@ msgstr "CUI"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Tax Incl."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cu taxe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cu taxe"
 >>>>>>> upstream/18.0
@@ -7915,7 +9470,11 @@ msgstr "Cu taxe"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_tree
 msgid "Tax Total"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Total Taxă"
+=======
+msgstr "Total taxe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total taxe"
 >>>>>>> upstream/18.0
@@ -7929,7 +9488,11 @@ msgstr "Total taxe"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__tax_calculation_rounding_method
 msgid "Tax calculation rounding method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Metoda de rotunjire a calculului taxelor"
+=======
+msgstr "Metodă de rotunjire a calculului taxei"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metodă de rotunjire a calculului taxei"
 >>>>>>> upstream/18.0
@@ -7946,7 +9509,11 @@ msgstr "Taxe"
 #: model:ir.model.fields,help:sale.field_sale_order_discount__tax_ids
 msgid "Taxes to add on the discount line."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Taxe de adăugat pe linia de reducere."
+>>>>>>> upstream/18.0
 =======
 msgstr "Taxe de adăugat pe linia de reducere."
 >>>>>>> upstream/18.0
@@ -7959,6 +9526,11 @@ msgid ""
 "cancelling them or archiving the team instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Echipa %(team_name)s are %(sale_order_count)s comenzi de vânzare active. "
+"Luați în considerare anularea acestora sau arhivarea echipei."
+>>>>>>> upstream/18.0
 =======
 "Echipa %(team_name)s are %(sale_order_count)s comenzi de vânzare active. "
 "Luați în considerare anularea acestora sau arhivarea echipei."
@@ -7968,7 +9540,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__technical_price_unit
 msgid "Technical Price Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preț tehnic unitar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preț tehnic unitar"
 >>>>>>> upstream/18.0
@@ -7986,7 +9562,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order__terms_type
 msgid "Terms & Conditions format"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Formatul Termenilor și Condițiilor"
+=======
+msgstr "Format Termeni & Condiții"
+>>>>>>> upstream/18.0
 =======
 msgstr "Format Termeni & Condiții"
 >>>>>>> upstream/18.0
@@ -7996,7 +9576,11 @@ msgstr "Format Termeni & Condiții"
 #: code:addons/sale/models/sale_order.py:0
 msgid "Terms & Conditions: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Termeni și condiții: %s"
+=======
+msgstr "Termeni & Condiții: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termeni & Condiții: %s"
 >>>>>>> upstream/18.0
@@ -8005,7 +9589,11 @@ msgstr "Termeni & Condiții: %s"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Terms &amp; Conditions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Termeni și condiții"
+=======
+msgstr "Termeni & Condiții"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termeni & Condiții"
 >>>>>>> upstream/18.0
@@ -8028,7 +9616,11 @@ msgid ""
 msgstr ""
 "Codul ISO al țării din două caractere.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Puteți utiliza acest câmp pentru căutări rapide."
+=======
+"Puteți folosi acest câmp pentru căutare rapidă."
+>>>>>>> upstream/18.0
 =======
 "Puteți folosi acest câmp pentru căutare rapidă."
 >>>>>>> upstream/18.0
@@ -8041,6 +9633,11 @@ msgid ""
 " an expense on a cancelled Sales Order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Comanda de vânzare %(order)s care trebuie refacturată este anulată. Nu "
+"puteți înregistra o cheltuială pe o comandă de vânzare anulată."
+>>>>>>> upstream/18.0
 =======
 "Comanda de vânzare %(order)s care trebuie refacturată este anulată. Nu "
 "puteți înregistra o cheltuială pe o comandă de vânzare anulată."
@@ -8054,6 +9651,11 @@ msgid ""
 "register an expense on a locked Sales Order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Comanda de vânzare %(order)s care trebuie refacturată este blocată. Nu "
+"puteți înregistra o cheltuială pe o comandă de vânzare blocată."
+>>>>>>> upstream/18.0
 =======
 "Comanda de vânzare %(order)s care trebuie refacturată este blocată. Nu "
 "puteți înregistra o cheltuială pe o comandă de vânzare blocată."
@@ -8067,6 +9669,11 @@ msgid ""
 "registering expenses."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Comanda de vânzare %(order)s care trebuie refacturată trebuie să fie "
+"validată înainte de a înregistra cheltuieli."
+>>>>>>> upstream/18.0
 =======
 "Comanda de vânzare %(order)s care trebuie refacturată trebuie să fie "
 "validată înainte de a înregistra cheltuieli."
@@ -8092,6 +9699,11 @@ msgid ""
 "to the sale order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Compania este obligatorie, vă rugăm să selectați una înainte de a face alte "
+"modificări la comanda de vânzare."
+>>>>>>> upstream/18.0
 =======
 "Compania este obligatorie, vă rugăm să selectați una înainte de a face alte "
 "modificări la comanda de vânzare."
@@ -8105,8 +9717,13 @@ msgid ""
 "honor the delivery date."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Data livrării este mai devreme decât data prevăzută. Este posibil să nu "
 "puteți onora data de livrare."
+=======
+"Data livrării este mai devreme decât data estimată. Este posibil să nu "
+"puteți respecta data de livrare."
+>>>>>>> upstream/18.0
 =======
 "Data livrării este mai devreme decât data estimată. Este posibil să nu "
 "puteți respecta data de livrare."
@@ -8126,9 +9743,15 @@ msgid ""
 "You can archive these products and recreate them with your company restriction instead, or leave them as shared product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Următoarele produse nu pot fi restricționate la companie%(company)s deoarece au fost deja utilizate în oferte sau comenzi de vânzare în altă companie:\n"
 "%(used_products)s\n"
 "Puteți arhiva aceste produse și le puteți recrea cu restricția companiei dvs. sau le puteți lăsa ca produs comun."
+=======
+"Următoarele produse nu pot fi restricționate la compania %(company)s deoarece au fost deja utilizate în oferte sau comenzi de vânzare în altă companie:\n"
+"%(used_products)s\n"
+"Puteți arhiva aceste produse și să le recreați cu restricția companiei dvs. sau să le lăsați ca produse comune."
+>>>>>>> upstream/18.0
 =======
 "Următoarele produse nu pot fi restricționate la compania %(company)s deoarece au fost deja utilizate în oferte sau comenzi de vânzare în altă companie:\n"
 "%(used_products)s\n"
@@ -8153,8 +9776,13 @@ msgid ""
 " in their detail form."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Marja este calculată ca sumă a prețurilor de vânzare a produselor minus "
 "costurile stabilite în forma lor detaliată."
+=======
+"Marja este calculată ca suma prețurilor de vânzare ale produselor minus "
+"costurile stabilite în formularul de detaliu."
+>>>>>>> upstream/18.0
 =======
 "Marja este calculată ca suma prețurilor de vânzare ale produselor minus "
 "costurile stabilite în formularul de detaliu."
@@ -8175,6 +9803,11 @@ msgid ""
 "choices."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Numărul de elemente combo selectate trebuie să corespundă cu numărul de "
+"opțiuni combo disponibile."
+>>>>>>> upstream/18.0
 =======
 "Numărul de elemente combo selectate trebuie să corespundă cu numărul de "
 "opțiuni combo disponibile."
@@ -8184,7 +9817,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "The order is not in a state requiring customer payment."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comanda este într-o stare care necesită plata de către client."
+=======
+msgstr "Comanda nu este într-o stare care necesită plata de către client."
+>>>>>>> upstream/18.0
 =======
 msgstr "Comanda nu este într-o stare care necesită plata de către client."
 >>>>>>> upstream/18.0
@@ -8205,7 +9842,11 @@ msgstr "Cantitatea comandată a fost actualizată."
 #: model:ir.model.fields,help:sale.field_sale_order__reference
 msgid "The payment communication of this sale order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comunicarea de plată a acestui ordin de vânzare."
+=======
+msgstr "Comunicarea de plată a acestei comenzi de vânzare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Comunicarea de plată a acestei comenzi de vânzare."
 >>>>>>> upstream/18.0
@@ -8219,7 +9860,11 @@ msgstr "Plata trebuie, de asemenea, transmisă cu apreciere"
 #: model:ir.model.fields,help:sale.field_sale_advance_payment_inv__amount
 msgid "The percentage of amount to be invoiced in advance."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Procentul din suma care urmează să fie facturată în avans."
+=======
+msgstr "Procentul din sumă care urmează să fie facturată în avans."
+>>>>>>> upstream/18.0
 =======
 msgstr "Procentul din sumă care urmează să fie facturată în avans."
 >>>>>>> upstream/18.0
@@ -8238,7 +9883,11 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_res_config_settings__prepayment_percent
 msgid "The percentage of the amount needed to be paid to confirm quotations."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Procentul din suma care trebuie plătită pentru confirmarea ofertelor."
+=======
+msgstr "Procentul din sumă care trebuie plătită pentru confirmarea ofertelor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Procentul din sumă care trebuie plătită pentru confirmarea ofertelor."
 >>>>>>> upstream/18.0
@@ -8285,6 +9934,12 @@ msgid ""
 "grant the discount the first time."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu pare să existe niciun produs de discount configurat pentru această "
+"companie. Puteți folosi o reducere pe linie sau puteți cere unui "
+"administrator să acorde discountul prima dată."
+>>>>>>> upstream/18.0
 =======
 "Nu pare să existe niciun produs de discount configurat pentru această "
 "companie. Puteți folosi o reducere pe linie sau puteți cere unui "
@@ -8295,7 +9950,11 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_product_category__property_account_downpayment_categ_id
 msgid "This account will be used on Downpayment invoices."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acest cont va fi folosit pe facturile de avans."
+>>>>>>> upstream/18.0
 =======
 msgstr "Acest cont va fi folosit pe facturile de avans."
 >>>>>>> upstream/18.0
@@ -8308,7 +9967,11 @@ msgid ""
 msgstr ""
 "Această valoare implicită este aplicată oricărui produs nou creat. Aceasta "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "poate fi modificată în formularul de detaliere al produsului."
+=======
+"poate fi modificată în formularul de detaliu al produsului."
+>>>>>>> upstream/18.0
 =======
 "poate fi modificată în formularul de detaliu al produsului."
 >>>>>>> upstream/18.0
@@ -8322,8 +9985,13 @@ msgid ""
 " e.g. Fall_Drive, Christmas_Special"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Acesta este un nume care vă ajută să țineți evidența diferitelor eforturi de"
 " campanie, de ex. Campanii_de_Toamnă, Campanii_de_Crăciun"
+=======
+"Acesta este un nume care vă ajută să țineți evidența diferitelor campanii, "
+"ex: Campanie_Toamnă, Promo_Crăciun"
+>>>>>>> upstream/18.0
 =======
 "Acesta este un nume care vă ajută să țineți evidența diferitelor campanii, "
 "ex: Campanie_Toamnă, Promo_Crăciun"
@@ -8337,8 +10005,13 @@ msgid ""
 msgstr ""
 "Aceasta este data de livrare promisă clientului. Dacă este setată, comanda "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "de livrare va fi programată pe baza acestei date, mai degrabă decât pe baza "
 "termenelor de livrare a produselor."
+=======
+"de livrare va fi programată pe baza acestei date, nu pe baza termenului de "
+"livrare al produsului."
+>>>>>>> upstream/18.0
 =======
 "de livrare va fi programată pe baza acestei date, nu pe baza termenului de "
 "livrare al produsului."
@@ -8351,7 +10024,11 @@ msgstr ""
 msgid "This is the method of delivery, e.g. Postcard, Email, or Banner Ad"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aceasta este metoda de livrare, de ex. Carte poștală, E-mail sau Banner "
+=======
+"Aceasta este metoda de livrare, ex: Carte poștală, E-mail sau Banner "
+>>>>>>> upstream/18.0
 =======
 "Aceasta este metoda de livrare, ex: Carte poștală, E-mail sau Banner "
 >>>>>>> upstream/18.0
@@ -8366,8 +10043,13 @@ msgid ""
 "of email list"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aceasta este sursa linkului, de ex. un motor de căutare, un alt domeniu sau "
 "numele unei liste de e-mail"
+=======
+"Aceasta este sursa linkului, ex: Motor de căutare, alt domeniu sau nume "
+"listă e-mail"
+>>>>>>> upstream/18.0
 =======
 "Aceasta este sursa linkului, ex: Motor de căutare, alt domeniu sau nume "
 "listă e-mail"
@@ -8393,8 +10075,13 @@ msgid ""
 "%(quantity).2f %(unit)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Acest produs este ambalat de %(pack_size).2f %(pack_name)s. Ar trebui să "
 "vinzi %(quantity).2f %(unit)s."
+=======
+"Acest produs este ambalat la %(pack_size).2f %(pack_name)s. Ar trebui să "
+"vindeți %(quantity).2f %(unit)s."
+>>>>>>> upstream/18.0
 =======
 "Acest produs este ambalat la %(pack_size).2f %(pack_name)s. Ar trebui să "
 "vindeți %(quantity).2f %(unit)s."
@@ -8413,6 +10100,7 @@ msgid ""
 "the Invoice Analysis report in the Accounting application."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Acest raport efectuează analiza ofertelor și a comenzilor de vânzare ale "
 "dumneavoastră. Analiza verifica veniturile din vânzări și le sortează după "
 "diferite criterii de grup (agent de vânzări, partener, produs, etc). "
@@ -8420,11 +10108,16 @@ msgstr ""
 "facturate încă. Daca doriți să analizați cifra dumneavoastră de afaceri, "
 "trebuie sa utilizați raportul Analiza Facturilor din Aplicația "
 =======
+=======
+>>>>>>> upstream/18.0
 "Acest raport efectuează analiza ofertelor și comenzilor de vânzare. Analiza "
 "verifică veniturile din vânzări și le sortează după diferite criterii de "
 "grupare (agent, partener, produs etc.). Folosiți acest raport pentru a "
 "analiza vânzările care nu au fost încă facturate. Dacă doriți să analizați "
 "cifra de afaceri, folosiți raportul Analiză Facturi din aplicația "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Contabilitate."
 
@@ -8439,16 +10132,22 @@ msgid ""
 msgstr ""
 "Acest raport realizează o analiză pe oferte. Analiza verifică veniturile din"
 <<<<<<< HEAD
+<<<<<<< HEAD
 " vânzări și vă permite să le grupați și să le filtrați după diferite "
 "criterii (agent de vânzări, partener, produse, etc). Utilizați acest raport "
 "pentru a efectua o analiză privind vânzările care nu au fost facturate încă."
 " Dacă doriți să analizați cifra de afaceri realizată, ar trebui să utilizați"
 " raportul Analiza Facturilor din Aplicația Contabilitate."
 =======
+=======
+>>>>>>> upstream/18.0
 " vânzări și le sortează după diferite criterii de grupare (agent, partener, "
 "produs etc.). Folosiți acest raport pentru a analiza vânzările care nu au "
 "fost încă facturate. Dacă doriți să analizați cifra de afaceri, folosiți "
 "raportul Analiză Facturi din aplicația Contabilitate."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -8461,6 +10160,7 @@ msgid ""
 "Invoice Analysis report in the Accounting application."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Acest raport efectuează o analiză a comenzilor dvs. de vânzări. Analiza vă "
 "verifică veniturile din vânzări și le sortează după diferite criterii de "
 "grup (agent de vânzări, partener, produs etc.) Utilizați acest raport pentru"
@@ -8468,11 +10168,16 @@ msgstr ""
 "doriți să vă analizați cifra de afaceri, trebuie să utilizați raportul "
 "Analiza Facturilor din Aplicația Contabilitate."
 =======
+=======
+>>>>>>> upstream/18.0
 "Acest raport efectuează analiza comenzilor de vânzare. Analiza verifică "
 "veniturile din vânzări și le sortează după diferite criterii de grupare "
 "(agent, partener, produs etc.). Folosiți acest raport pentru a analiza "
 "vânzările care nu au fost încă facturate. Dacă doriți să analizați cifra de "
 "afaceri, folosiți raportul Analiză Facturi din aplicația Contabilitate."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -8480,7 +10185,11 @@ msgstr ""
 msgid ""
 "This will update all taxes based on the currently selected fiscal position."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Se vor actualiza toate taxele bazate pe poziția fiscală selectată."
+=======
+msgstr "Aceasta va actualiza toate taxele pe baza poziției fiscale selectate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Aceasta va actualiza toate taxele pe baza poziției fiscale selectate."
 >>>>>>> upstream/18.0
@@ -8491,8 +10200,13 @@ msgid ""
 "This will update the unit price of all products based on the new pricelist."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se va actualiza prețul unitar al tuturor produselor pe baza noii liste de "
 "prețuri."
+=======
+"Aceasta va actualiza prețul unitar al tuturor produselor pe baza noii liste "
+"de prețuri."
+>>>>>>> upstream/18.0
 =======
 "Aceasta va actualiza prețul unitar al tuturor produselor pe baza noii liste "
 "de prețuri."
@@ -8609,7 +10323,10 @@ msgstr "Tranzacții"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8699,6 +10416,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8770,7 +10490,11 @@ msgstr "Scrieți un mesaj..."
 #: model:ir.model.fields,help:sale.field_sale_order__activity_exception_decoration
 msgid "Type of the exception activity on record."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul de activitate de excepție înregistrată."
+=======
+msgstr "Tipul activității de excepție înregistrate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipul activității de excepție înregistrate."
 >>>>>>> upstream/18.0
@@ -8779,7 +10503,11 @@ msgstr "Tipul activității de excepție înregistrate."
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Type to find a customer..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tastați pentru a căuta un client..."
+=======
+msgstr "Tastați pentru a găsi un client..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tastați pentru a găsi un client..."
 >>>>>>> upstream/18.0
@@ -8787,6 +10515,7 @@ msgstr "Tastați pentru a găsi un client..."
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Type to find a product..."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "Tastați pentru a căuta un produs..."
 
@@ -8797,11 +10526,16 @@ msgstr "Tastați pentru a căuta un produs..."
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Tastați pentru a găsi un produs..."
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_ups
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "UPS Connector"
 msgstr "Conector UPS"
@@ -8810,6 +10544,10 @@ msgstr "Conector UPS"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_usps
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -8829,7 +10567,11 @@ msgstr "Campanie UTM"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__amount_to_invoice
 msgid "Un-invoiced Balance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sold nefacturat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sold nefacturat"
 >>>>>>> upstream/18.0
@@ -8853,7 +10595,11 @@ msgstr "Preț unitar:"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_line_tree
 msgid "Unit of Measure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Unitatea de măsură"
+=======
+msgstr "Unitate de măsură"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unitate de măsură"
 >>>>>>> upstream/18.0
@@ -8869,7 +10615,11 @@ msgstr "Unități de măsură"
 #: model:ir.ui.menu,name:sale.menu_product_uom_categ_form_action
 msgid "Units of Measure Categories"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Categorii Unități de Măsură"
+=======
+msgstr "Categorii unități de măsură"
+>>>>>>> upstream/18.0
 =======
 msgstr "Categorii unități de măsură"
 >>>>>>> upstream/18.0
@@ -8878,7 +10628,11 @@ msgstr "Categorii unități de măsură"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Unlock"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Deblocați"
+=======
+msgstr "Deblochează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Deblochează"
 >>>>>>> upstream/18.0
@@ -8918,7 +10672,11 @@ msgstr "UM"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Update Prices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Actualizare Prețuri"
+=======
+msgstr "Actualizează prețurile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizează prețurile"
 >>>>>>> upstream/18.0
@@ -8927,7 +10685,11 @@ msgstr "Actualizează prețurile"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Update Taxes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Actualizare Taxe"
+=======
+msgstr "Actualizează taxele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizează taxele"
 >>>>>>> upstream/18.0
@@ -8945,7 +10707,11 @@ msgstr "Vânzare suplimentară %(order)s pentru clientul %(customer)s"
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__line_invoice_status__upselling
 msgid "Upselling Opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Oportunitate de creștere a vânzării"
+=======
+msgstr "Oportunitate de vânzare suplimentară"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oportunitate de vânzare suplimentară"
 >>>>>>> upstream/18.0
@@ -8955,8 +10721,13 @@ msgstr "Oportunitate de vânzare suplimentară"
 msgid "Used by salespeople when they send quotations or proforma to prospects"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Utilizat de agenții de vânzări atunci când trimit oferte de preț sau "
 "proforme clienților potențiali"
+=======
+"Folosit de agenții de vânzări când trimit oferte sau proforme către "
+"potențiali clienți"
+>>>>>>> upstream/18.0
 =======
 "Folosit de agenții de vânzări când trimit oferte sau proforme către "
 "potențiali clienți"
@@ -8971,7 +10742,11 @@ msgstr "Valabil până la"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Validate Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Validare comandă"
+=======
+msgstr "Validează comanda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Validează comanda"
 >>>>>>> upstream/18.0
@@ -8984,6 +10759,12 @@ msgid ""
 "can be invoiced to the customer at either cost or sales price."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Cheltuielile validate, facturile furnizorilor sau recepțiile de stoc "
+"(configurate pentru urmărirea costurilor) pot fi facturate clientului fie la"
+" cost, fie la prețul de vânzare."
+>>>>>>> upstream/18.0
 =======
 "Cheltuielile validate, facturile furnizorilor sau recepțiile de stoc "
 "(configurate pentru urmărirea costurilor) pot fi facturate clientului fie la"
@@ -8997,6 +10778,11 @@ msgid ""
 "quotation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Valabilitatea comenzii, după această dată nu veți mai putea semna și plăti "
+"oferta."
+>>>>>>> upstream/18.0
 =======
 "Valabilitatea comenzii, după această dată nu veți mai putea semna și plăti "
 "oferta."
@@ -9006,7 +10792,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Variant Grid Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Intrare Grilă Varianta "
+=======
+msgstr "Intrare grilă variantă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Intrare grilă variantă"
 >>>>>>> upstream/18.0
@@ -9015,7 +10805,11 @@ msgstr "Intrare grilă variantă"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "View Details"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vizualizare detalii"
+=======
+msgstr "Vezi detalii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vezi detalii"
 >>>>>>> upstream/18.0
@@ -9023,6 +10817,7 @@ msgstr "Vezi detalii"
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9138,12 +10933,20 @@ msgstr "Vizualizare Ofertă"
 msgid "View Quotation"
 msgstr "Vezi oferta"
 >>>>>>> upstream/18.0
+=======
+msgid "View Quotation"
+msgstr "Vezi oferta"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__virtual_id
 msgid "Virtual"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Virtual"
+>>>>>>> upstream/18.0
 =======
 msgstr "Virtual"
 >>>>>>> upstream/18.0
@@ -9152,7 +10955,11 @@ msgstr "Virtual"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Void Transaction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anulare tranzacție"
+=======
+msgstr "Anulează tranzacția"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anulează tranzacția"
 >>>>>>> upstream/18.0
@@ -9173,7 +10980,11 @@ msgstr "Volum"
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
 msgid "Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avertizare"
+=======
+msgstr "Avertisment"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertisment"
 >>>>>>> upstream/18.0
@@ -9185,7 +10996,11 @@ msgstr "Avertisment"
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "Warning for %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avertizare pentru %s"
+=======
+msgstr "Avertisment pentru %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertisment pentru %s"
 >>>>>>> upstream/18.0
@@ -9195,7 +11010,11 @@ msgstr "Avertisment pentru %s"
 #: code:addons/sale/models/sale_order.py:0
 msgid "Warning for the change of your quotation's company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avertisment pentru schimbarea cotației companiei"
+=======
+msgstr "Avertisment pentru schimbarea companiei ofertei"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertisment pentru schimbarea companiei ofertei"
 >>>>>>> upstream/18.0
@@ -9204,7 +11023,11 @@ msgstr "Avertisment pentru schimbarea companiei ofertei"
 #: model_terms:ir.ui.view,arch_db:sale.res_partner_view_buttons
 msgid "Warning on the Sales Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avertizare la comanda de vânzare"
+=======
+msgstr "Avertisment la comanda de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertisment la comanda de vânzare"
 >>>>>>> upstream/18.0
@@ -9213,7 +11036,11 @@ msgstr "Avertisment la comanda de vânzare"
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
 msgid "Warning when Selling this Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avertizare la vânzarea acestui produs"
+=======
+msgstr "Avertisment la vânzarea acestui produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertisment la vânzarea acestui produs"
 >>>>>>> upstream/18.0
@@ -9222,7 +11049,11 @@ msgstr "Avertisment la vânzarea acestui produs"
 #: model:ir.model.fields,field_description:sale.field_sale_order__website_message_ids
 msgid "Website Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesaje de pe site-ul web"
+=======
+msgstr "Mesaje website"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaje website"
 >>>>>>> upstream/18.0
@@ -9231,7 +11062,11 @@ msgstr "Mesaje website"
 #: model:ir.model.fields,help:sale.field_sale_order__website_message_ids
 msgid "Website communication history"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Istoricul comunicării pe site-ul web"
+=======
+msgstr "Istoric comunicare website"
+>>>>>>> upstream/18.0
 =======
 msgstr "Istoric comunicare website"
 >>>>>>> upstream/18.0
@@ -9241,7 +11076,11 @@ msgstr "Istoric comunicare website"
 #: code:addons/sale/models/product_template.py:0
 msgid "You can invoice goods before they are delivered."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Puteți factura bunurile înainte de a fi livrate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Puteți factura bunurile înainte de a fi livrate."
 >>>>>>> upstream/18.0
@@ -9254,8 +11093,13 @@ msgid ""
 "first cancel it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu puteți șterge o ofertă trimisă sau o comandă confirmată de vânzare. Mai "
 "întâi trebuie să o anulați."
+=======
+"Nu puteți șterge o ofertă trimisă sau o comandă de vânzare confirmată. "
+"Trebuie mai întâi să o anulați."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți șterge o ofertă trimisă sau o comandă de vânzare confirmată. "
 "Trebuie mai întâi să o anulați."
@@ -9268,8 +11112,13 @@ msgid ""
 "            or check every order and invoice them one by one."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Puteți selecta toate comenzile și le puteți factura în lot,<br>\n"
 "            sau verificați fiecare comandă și facturați-le una câte una."
+=======
+"Puteți selecta toate comenzile și să le facturați în lot,<br>\n"
+"sau să verificați fiecare comandă și să le facturați una câte una."
+>>>>>>> upstream/18.0
 =======
 "Puteți selecta toate comenzile și să le facturați în lot,<br>\n"
 "sau să verificați fiecare comandă și să le facturați una câte una."
@@ -9284,7 +11133,11 @@ msgid ""
 msgstr ""
 "Puteți seta aici tipul de comunicare care va apărea pe comenzile de vânzare."
 <<<<<<< HEAD
+<<<<<<< HEAD
 " Comunicarea va fi dată clientului atunci când alege metoda de plată."
+=======
+" Comunicarea va fi transmisă clientului când alege metoda de plată."
+>>>>>>> upstream/18.0
 =======
 " Comunicarea va fi transmisă clientului când alege metoda de plată."
 >>>>>>> upstream/18.0
@@ -9294,7 +11147,11 @@ msgstr ""
 #: code:addons/sale/models/sale_order.py:0
 msgid "You cannot cancel a locked order. Please unlock it first."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu puteți anula o comandă blocată. Vă rugăm să o deblocați mai întâi."
+=======
+msgstr "Nu puteți anula o comandă blocată. Deblocați-o mai întâi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți anula o comandă blocată. Deblocați-o mai întâi."
 >>>>>>> upstream/18.0
@@ -9304,7 +11161,11 @@ msgstr "Nu puteți anula o comandă blocată. Deblocați-o mai întâi."
 #: code:addons/sale/models/sale_order.py:0
 msgid "You cannot change the pricelist of a confirmed order !"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu puteți modifica lista de prețuri a unei comenzi confirmate !"
+=======
+msgstr "Nu puteți schimba lista de prețuri a unei comenzi confirmate!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți schimba lista de prețuri a unei comenzi confirmate!"
 >>>>>>> upstream/18.0
@@ -9318,8 +11179,13 @@ msgid ""
 "orders."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu puteți schimba tipul produsului deoarece este deja utilizat în comenzi de"
 " vânzare."
+=======
+"Nu puteți schimba tipul produsului deoarece este deja folosit în comenzi de "
+"vânzare."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți schimba tipul produsului deoarece este deja folosit în comenzi de "
 "vânzare."
@@ -9333,8 +11199,13 @@ msgid ""
 "the current line and create a new line of the proper type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu puteți modifica tipul unei linii de comandă de vânzare. În schimb, ar "
 "trebui să ștergeți linia curentă și să creați o nouă linie corespunzătoare."
+=======
+"Nu puteți schimba tipul unei linii de comandă de vânzare. Ștergeți linia "
+"curentă și creați una nouă cu tipul corect."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți schimba tipul unei linii de comandă de vânzare. Ștergeți linia "
 "curentă și creați una nouă cu tipul corect."
@@ -9345,7 +11216,11 @@ msgstr ""
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "You cannot modify the product of this order line."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu puteți modifica produsul acestei linii de comandă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți modifica produsul acestei linii de comandă."
 >>>>>>> upstream/18.0
@@ -9357,8 +11232,13 @@ msgid ""
 "empty (or 0) to disable the automatic expiration of quotations."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu puteți seta un număr negativ pentru valabilitatea implicită a cotației. "
 "Lăsați gol (sau 0) pentru a dezactiva expirarea automată a cotațiilor."
+=======
+"Nu puteți seta un număr negativ pentru valabilitatea implicită a ofertei. "
+"Lăsați gol (sau 0) pentru a dezactiva expirarea automată a ofertelor."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți seta un număr negativ pentru valabilitatea implicită a ofertei. "
 "Lăsați gol (sau 0) pentru a dezactiva expirarea automată a ofertelor."
@@ -9371,8 +11251,13 @@ msgid ""
 "                whether it's a storable product, a consumable or a service."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trebuie să definiți un produs pentru tot ceea ce vindeți sau cumpărați, "
 "indiferent dacă este un produs stocabil, un consumabil sau un serviciu."
+=======
+"Trebuie să definiți un produs pentru tot ceea ce vindeți sau cumpărați,\n"
+"indiferent dacă este un produs stocabil, consumabil sau serviciu."
+>>>>>>> upstream/18.0
 =======
 "Trebuie să definiți un produs pentru tot ceea ce vindeți sau cumpărați,\n"
 "indiferent dacă este un produs stocabil, consumabil sau serviciu."
@@ -9388,7 +11273,11 @@ msgstr "Comenzile dvs."
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Your Reference:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Referința dvs:"
+=======
+msgstr "Referința dvs.:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referința dvs.:"
 >>>>>>> upstream/18.0
@@ -9397,6 +11286,7 @@ msgstr "Referința dvs.:"
 #. odoo-javascript
 #: code:addons/sale/static/src/js/sale_action_helper/sale_action_helper_dialog.xml:0
 msgid "Your browser does not support iframe."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9418,6 +11308,9 @@ msgstr "Browserul dvs. nu acceptă iframe."
 =======
 msgstr "Browserul dvs. nu suportă iframe."
 >>>>>>> upstream/18.0
+=======
+msgstr "Browserul dvs. nu suportă iframe."
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -9434,8 +11327,12 @@ msgstr "Comanda dvs. a fost confirmată."
 msgid "Your order has been signed but still needs to be paid to be confirmed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Comanda dvs. a fost semnată, dar mai trebuie să fie plătită pentru a fi "
 "confirmată."
+=======
+"Comanda dvs. a fost semnată, dar trebuie plătită pentru a fi confirmată."
+>>>>>>> upstream/18.0
 =======
 "Comanda dvs. a fost semnată, dar trebuie plătită pentru a fi confirmată."
 >>>>>>> upstream/18.0
@@ -9449,7 +11346,11 @@ msgstr "Comanda dvs. a fost semnată."
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Your order is not in a state to be rejected."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comanda dvs. nu poate fi refuzată."
+=======
+msgstr "Comanda dvs. nu poate fi respinsă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Comanda dvs. nu poate fi respinsă."
 >>>>>>> upstream/18.0
@@ -9462,8 +11363,13 @@ msgid ""
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Oferta dvs. conține produse de la companie %(product_company)s în timp ce oferta dvs. aparține companiei %(quote_company)s. \n"
 " Vă rugăm să schimbați compania de unde este oferta sau să eliminați produsele din alte companii(%(bad_products)s)."
+=======
+"Oferta dvs. conține produse de la compania %(product_company)s, dar oferta aparține companiei %(quote_company)s.\n"
+"Vă rugăm să schimbați compania ofertei sau să eliminați produsele din alte companii (%(bad_products)s)."
+>>>>>>> upstream/18.0
 =======
 "Oferta dvs. conține produse de la compania %(product_company)s, dar oferta aparține companiei %(quote_company)s.\n"
 "Vă rugăm să schimbați compania ofertei sau să eliminați produsele din alte companii (%(bad_products)s)."
@@ -9474,7 +11380,11 @@ msgstr ""
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "add the price of your product."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "adăugați prețul produsului dvs."
+>>>>>>> upstream/18.0
 =======
 msgstr "adăugați prețul produsului dvs."
 >>>>>>> upstream/18.0
@@ -9483,7 +11393,11 @@ msgstr "adăugați prețul produsului dvs."
 #: model:ir.actions.server,name:sale.send_invoice_cron_ir_actions_server
 msgid "automatic invoicing: send ready invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "facturare automată: trimiteți o factură pregătită"
+=======
+msgstr "facturare automată: trimite factura pregătită"
+>>>>>>> upstream/18.0
 =======
 msgstr "facturare automată: trimite factura pregătită"
 >>>>>>> upstream/18.0
@@ -9492,7 +11406,11 @@ msgstr "facturare automată: trimite factura pregătită"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_bpost
 msgid "bpost Connector"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conector bPost"
+=======
+msgstr "Conector bpost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conector bpost"
 >>>>>>> upstream/18.0
@@ -9501,7 +11419,11 @@ msgstr "Conector bpost"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "close"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "inchideți"
+=======
+msgstr "închide"
+>>>>>>> upstream/18.0
 =======
 msgstr "închide"
 >>>>>>> upstream/18.0
@@ -9527,7 +11449,11 @@ msgstr "pentru această comandă de vânzare."
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "let's continue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "să continuăm"
+>>>>>>> upstream/18.0
 =======
 msgstr "să continuăm"
 >>>>>>> upstream/18.0
@@ -9536,7 +11462,11 @@ msgstr "să continuăm"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "quote."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ofertă."
+>>>>>>> upstream/18.0
 =======
 msgstr "ofertă."
 >>>>>>> upstream/18.0
@@ -9546,7 +11476,11 @@ msgstr "ofertă."
 #: code:addons/sale/models/sale_order.py:0
 msgid "sale order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "comanda de vânzare"
+=======
+msgstr "comandă de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "comandă de vânzare"
 >>>>>>> upstream/18.0
@@ -9558,6 +11492,11 @@ msgid ""
 "                    items?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"elementele\n"
+"                    selectate?"
+>>>>>>> upstream/18.0
 =======
 "elementele\n"
 "                    selectate?"
@@ -9572,7 +11511,11 @@ msgstr "unități"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "you confirm acceptance on the behalf of"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "confirmați acceptarea în numele"
+>>>>>>> upstream/18.0
 =======
 msgstr "confirmați acceptarea în numele"
 >>>>>>> upstream/18.0

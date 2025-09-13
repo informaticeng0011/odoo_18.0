@@ -13,6 +13,10 @@ import {
 import { config as transitionConfig } from "@web/core/transition";
 import { WebClient } from "@web/webclient/webclient";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { registry } from "@web/core/registry";
+>>>>>>> upstream/18.0
 =======
 import { registry } from "@web/core/registry";
 >>>>>>> upstream/18.0
@@ -170,7 +174,10 @@ test("Burger menu closes when click on menu item", async () => {
     expect(queryAll(".test_client_action", { root: document.body })).toHaveCount(1);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("Burger menu closes when click on user menu item", async () => {
     registry.category("user_menuitems").add("ring_item", () => ({
@@ -196,4 +203,7 @@ test("Burger menu closes when click on user menu item", async () => {
     expect(queryAll(".o_burger_menu", { root: document.body })).toHaveCount(0);
     expect.verifySteps(["callback ring_item"]);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

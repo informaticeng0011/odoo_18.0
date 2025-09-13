@@ -496,6 +496,7 @@ class IrModuleModule(models.Model):
         View = self.env['ir.ui.view']
         field = self.env['ir.ui.view']._fields['arch_db']
 <<<<<<< HEAD
+<<<<<<< HEAD
         # assume there are not too many records
         self.env.cr.execute(""" SELECT generic.arch_db, specific.arch_db, specific.id
                           FROM ir_ui_view generic
@@ -529,6 +530,8 @@ class IrModuleModule(models.Model):
                     lambda term: specific_translation_dictionary.get(term, {lang: None})[lang], specific_arch_db_en)
             cache.update_raw(View.browse(specific_id), field, [specific_arch_db], dirty=True)
 =======
+=======
+>>>>>>> upstream/18.0
         batch_size = models.PREFETCH_MAX // 10
         self.env.cr.execute(""" SELECT generic.arch_db, specific.arch_db, specific.id
                                           FROM ir_ui_view generic
@@ -562,6 +565,9 @@ class IrModuleModule(models.Model):
                     specific_arch_db[lang] = field.translate(
                         lambda term: specific_translation_dictionary.get(term, {lang: None})[lang], specific_arch_db_en)
                 cache.update_raw(View.browse(specific_id), field, [specific_arch_db], dirty=True)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         default_menu = self.env.ref('website.main_menu', raise_if_not_found=False)

@@ -65,7 +65,11 @@ import { createUrlFromId } from "../core/url";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { lookup, normalize } from "../hoot_utils";
+=======
+import { lookup, parseQuery } from "../hoot_utils";
+>>>>>>> upstream/18.0
 =======
 import { lookup, parseQuery } from "../hoot_utils";
 >>>>>>> upstream/18.0
@@ -409,7 +413,10 @@ export class HootSideBar extends Component {
                     />
                 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 <t t-if="env.runner.hasFilter">
                     <button
                         type="button"
@@ -420,6 +427,9 @@ export class HootSideBar extends Component {
                         <i t-attf-class="fa fa-{{ state.hideEmpty ? 'eye' : 'eye-slash' }}" />
                     </button>
                 </t>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 <t t-set="expanded" t-value="unfoldedIds.size === env.runner.suites.size" />
                 <button
@@ -482,6 +492,10 @@ export class HootSideBar extends Component {
         this.state = useState({
             filter: "",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            hideEmpty: false,
+>>>>>>> upstream/18.0
 =======
             hideEmpty: false,
 >>>>>>> upstream/18.0
@@ -496,7 +510,10 @@ export class HootSideBar extends Component {
                 // Unfolds only root suite containing jobs
                 this.unfoldAndSelect(singleRootSuite[0]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             } else {
                 // As the runner might have registered suites after the initial render,
                 // with those suites not being read by this component yet, it will
@@ -504,6 +521,9 @@ export class HootSideBar extends Component {
                 // This here allows the opportunity to read all suites one last time
                 // before starting the run.
                 this.render();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             }
         });
@@ -517,6 +537,7 @@ export class HootSideBar extends Component {
      * Filters
      */
     getFilteredVisibleSuites() {
+<<<<<<< HEAD
 <<<<<<< HEAD
         let allowedIds;
         let unfoldedIds;
@@ -715,6 +736,8 @@ export class HootSideBar extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         const { runner } = this.env;
         const { hideEmpty } = this.state;
         const allSuites = runner.suites.values();
@@ -724,6 +747,9 @@ export class HootSideBar extends Component {
 
         // Filtering suites
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const parsedQuery = parseQuery(this.state.filter);
         if (parsedQuery.length) {
@@ -792,6 +818,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -958,6 +987,7 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const addSuite = (suite) => {
 =======
         function addSuite(suite) {
@@ -1033,12 +1063,17 @@ export class HootSideBar extends Component {
 >>>>>>> upstream/18.0
             if (!(suite instanceof Suite) || (allowedIds && !allowedIds.has(suite.id))) {
 =======
+=======
+>>>>>>> upstream/18.0
         function addSuite(suite) {
             if (
                 !(suite instanceof Suite) || // Not a suite
                 (allowedIds && !allowedIds.has(suite.id)) || // Not "allowed" (by parent)
                 (hideEmpty && !(suite.reporting.tests || suite.currentJobs.length)) // Filtered because empty
             ) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 return;
             }
@@ -1074,7 +1109,11 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         };
+=======
+        }
+>>>>>>> upstream/18.0
 =======
         }
 >>>>>>> upstream/18.0
@@ -1222,6 +1261,7 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /**
          * @param {number} delta
          */
@@ -1241,6 +1281,8 @@ export class HootSideBar extends Component {
             case "ArrowDown": {
                 return selectElementAt(+1);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1317,6 +1359,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1396,7 +1441,11 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return selectElementAt(-1);
+=======
+                    return this.selectElementAt(currentTarget, -1);
+>>>>>>> upstream/18.0
 =======
                     return this.selectElementAt(currentTarget, -1);
 >>>>>>> upstream/18.0
@@ -1501,7 +1550,11 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return selectElementAt(+1);
+=======
+                    return this.selectElementAt(currentTarget, +1);
+>>>>>>> upstream/18.0
 =======
                     return this.selectElementAt(currentTarget, +1);
 >>>>>>> upstream/18.0
@@ -1582,6 +1635,7 @@ export class HootSideBar extends Component {
                 }
             }
             case "ArrowUp": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1773,10 +1827,13 @@ export class HootSideBar extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 return this.selectElementAt(currentTarget, -1);
             }
             case "Enter": {
                 ev.preventDefault();
+<<<<<<< HEAD
 <<<<<<< HEAD
                 actualLocation.href = createUrlFromId({ suite: suite.id });
 <<<<<<< HEAD
@@ -1852,6 +1909,9 @@ export class HootSideBar extends Component {
 =======
                 actualLocation.href = createUrlFromId({ id: suite.id });
 >>>>>>> upstream/18.0
+=======
+                actualLocation.href = createUrlFromId({ id: suite.id });
+>>>>>>> upstream/18.0
             }
         }
     }
@@ -1882,7 +1942,10 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1971,6 +2034,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2033,11 +2099,17 @@ export class HootSideBar extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     toggleHideEmpty() {
         this.state.hideEmpty = !this.state.hideEmpty;
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     /**
      * @param {Suite} suite

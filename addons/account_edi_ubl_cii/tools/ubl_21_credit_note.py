@@ -52,6 +52,10 @@ CreditNote = {
     'cac:AccountingCustomerParty': cac.CustomerParty,
     'cac:SellerSupplierParty': cac.SupplierParty,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cac:PrepaidPayment': cac.PrepaidPayment,
+>>>>>>> upstream/18.0
 =======
     'cac:PrepaidPayment': cac.PrepaidPayment,
 >>>>>>> upstream/18.0

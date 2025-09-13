@@ -925,7 +925,10 @@ class ProductTemplate(models.Model):
             })
         return data
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.model
     def _allow_publish_rating_stats(self):
@@ -942,4 +945,7 @@ class ProductTemplate(models.Model):
                 "target_type": "public",
             }
         return super()._get_access_action(access_uid=access_uid, force_website=force_website)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

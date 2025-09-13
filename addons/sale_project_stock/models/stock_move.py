@@ -68,7 +68,10 @@ class StockMove(models.Model):
             'project_id': self[:1].sale_line_id.order_id.project_id.id,
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _prepare_procurement_values(self):
         res = super()._prepare_procurement_values()
@@ -76,4 +79,7 @@ class StockMove(models.Model):
         if project:
             res['project_id'] = project.id
         return res
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -41,13 +41,19 @@
                         </td>
                         <td t-if="!line.is_exchange">
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <i class="o_field_widget text-start o_payment_label">Paid on <t t-out="line.formattedDate"></t></i>
 =======
+=======
+>>>>>>> upstream/18.0
                             <i class="o_field_widget text-start o_payment_label">
                                 <t t-if="line.is_refund">Reversed on </t>
                                 <t t-else="">Paid on </t>
                                 <t t-out="line.formattedDate"></t>
                             </i>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         </td>
                         <td t-if="line.is_exchange" colspan="2">

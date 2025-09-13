@@ -67,7 +67,11 @@ class ResConfigSettings(models.TransientModel):
         readonly=False)
     google_search_console = fields.Char(
 <<<<<<< HEAD
+<<<<<<< HEAD
         'Google Search Console',
+=======
+        'Google Search Console Key',
+>>>>>>> upstream/18.0
 =======
         'Google Search Console Key',
 >>>>>>> upstream/18.0
@@ -114,7 +118,11 @@ class ResConfigSettings(models.TransientModel):
         inverse='_inverse_has_google_analytics')
     has_google_search_console = fields.Boolean(
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Console Google Search",
+=======
+        "Google Search Console",
+>>>>>>> upstream/18.0
 =======
         "Google Search Console",
 >>>>>>> upstream/18.0
@@ -219,6 +227,10 @@ class ResConfigSettings(models.TransientModel):
     def action_website_create_new(self):
         return {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'name': _('Add Website'),
+>>>>>>> upstream/18.0
 =======
             'name': _('Add Website'),
 >>>>>>> upstream/18.0

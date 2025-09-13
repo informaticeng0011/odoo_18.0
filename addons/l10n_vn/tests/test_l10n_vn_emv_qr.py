@@ -48,7 +48,10 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
             'invoice_line_ids': [Command.create({'quantity': 1, 'price_unit': 100})],
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.partner_with_bank_account_no_proxy = cls.env['res.partner'].create({
             'name': 'Mr. Triboulet',
             'company_id': cls.company_data['company'].id,
@@ -63,6 +66,9 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
                 })
             ]
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_emv_qr_code_generation(self):
@@ -75,7 +81,11 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
             self.emv_qr_invoice._generate_qr_code()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Without company partner city should fail
+=======
+        # Without company partner city or state should fail
+>>>>>>> upstream/18.0
 =======
         # Without company partner city or state should fail
 >>>>>>> upstream/18.0
@@ -85,11 +95,17 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
             self.emv_qr_invoice._generate_qr_code()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # With state and no city should ok
         self.company_data['company'].partner_id.state_id = self.env.ref('base.state_vn_VN-HP')
         self.emv_qr_invoice._generate_qr_code()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Without paynow infomation should fail
         self.company_data['company'].partner_id.city = 'Vietnam'
@@ -176,7 +192,11 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(emv_qr_vals, '00020101021238590010A0000007270129000697042201156607040600001290208QRIBFTTA52040000530370454031005802VN5914company_1_data6007Vietnam62170813INV/TEST/00016304600B')
+=======
+        self.assertEqual(emv_qr_vals, '00020101021238590010A0000007270129000697042201156607040600001290208QRIBFTTA52040000530370454031005802VN5914company_1_data6007Vietnam62150811INVTEST000163042656')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(emv_qr_vals, '00020101021238590010A0000007270129000697042201156607040600001290208QRIBFTTA52040000530370454031005802VN5914company_1_data6007Vietnam62150811INVTEST000163042656')
 >>>>>>> upstream/18.0
@@ -461,6 +481,7 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(emv_qr_vals, '00020101021238590010A0000007270129000697042201156607040600001290208QRIBFTTA52040000530370454031005802VN5914aAeEoOiIuUyYdD6007Vietnam62170813INV/TEST/000263041AA5')
 =======
         self.assertEqual(emv_qr_vals, '00020101021238590010A0000007270129000697042201156607040600001290208QRIBFTTA52040000530370454031005802VN5914aAeEoOiIuUyYdD6007Vietnam62150811INVTEST00026304E1C2')
@@ -658,6 +679,8 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
         self.assertEqual(emv_qr_vals, '00020101021238590010A0000007270129000697042201156607040600001290208QRIBFTTA52040000530370454031005802VN5914aAeEoOiIuUyYdD6007Vietnam62150811INVTEST00026304E1C2')
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(emv_qr_vals, '00020101021238590010A0000007270129000697042201156607040600001290208QRIBFTTA52040000530370454031005802VN5914aAeEoOiIuUyYdD6007Vietnam62150811INVTEST00026304E1C2')
 
     def test_create_payment_with_no_proxy_in_client(self):
@@ -668,4 +691,7 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
         # The payment must be created but the qr_code will raise a silent error (False value)
         self.assertTrue(new_payment.exists())
         self.assertFalse(new_payment.qr_code)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

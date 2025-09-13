@@ -16,6 +16,10 @@ __all__ = ['guess_mimetype']
 
 _logger = logging.getLogger(__name__)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+_logger_guess_mimetype = _logger.getChild('guess_mimetype')
+>>>>>>> upstream/18.0
 =======
 _logger_guess_mimetype = _logger.getChild('guess_mimetype')
 >>>>>>> upstream/18.0
@@ -79,7 +83,10 @@ def _check_open_container_format(data):
         return False
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 _old_ms_office_mimetypes = {
     '.doc': 'application/msword',
@@ -87,6 +94,9 @@ _old_ms_office_mimetypes = {
     '.ppt': 'application/vnd.ms-powerpoint',
 }
 _olecf_mimetypes = ('application/x-ole-storage', 'application/CDFV2')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 _xls_pattern = re.compile(b"""
     \x09\x08\x10\x00\x00\x06\x05\x00
@@ -175,7 +185,11 @@ def _odoo_guess_mimetype(bin_data, default='application/octet-stream'):
                     except Exception:
                         # log-and-next
 <<<<<<< HEAD
+<<<<<<< HEAD
                         _logger.getChild('guess_mimetype').warn(
+=======
+                        _logger_guess_mimetype.warning(
+>>>>>>> upstream/18.0
 =======
                         _logger_guess_mimetype.warning(
 >>>>>>> upstream/18.0
@@ -217,7 +231,10 @@ if magic:
         if mimetype == 'image/svg':
             return 'image/svg+xml'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # application/CDFV2 and application/x-ole-storage are two files
         # formats that Microsoft Office was using before 2006. Use our
         # own guesser to further discriminate the mimetype.
@@ -231,6 +248,9 @@ if magic:
                     mimetype,
                     exc_info=True,
                 )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return mimetype
 else:
@@ -271,6 +291,11 @@ def neuter_mimetype(mimetype, user):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+_extension_pattern = re.compile(r'\w+')
+>>>>>>> upstream/18.0
 =======
 
 _extension_pattern = re.compile(r'\w+')
@@ -416,7 +441,11 @@ def get_extension(filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if not dot or not ext.isalnum():
+=======
+    if not dot or not _extension_pattern.fullmatch(ext):
+>>>>>>> upstream/18.0
 =======
     if not dot or not _extension_pattern.fullmatch(ext):
 >>>>>>> upstream/18.0
@@ -531,8 +560,11 @@ def fix_filename_extension(filename, mimetype):
         extension added at the end.
     """
 <<<<<<< HEAD
+<<<<<<< HEAD
     if mimetypes.guess_type(filename)[0] == mimetype:
 =======
+=======
+>>>>>>> upstream/18.0
     extension_mimetype = mimetypes.guess_type(filename)[0]
     if extension_mimetype == mimetype:
         return filename
@@ -542,6 +574,9 @@ def fix_filename_extension(filename, mimetype):
         return filename
 
     if mimetype == 'application/zip' and extension in {'.docx', '.xlsx', '.pptx'}:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return filename
 

@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_expense
 # 
+=======
+# * hr_expense
+#
+>>>>>>> upstream/18.0
 =======
 # * hr_expense
 #
@@ -36,7 +41,12 @@
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Jessica Jakara, 2025
+# "Jessica Tuulia Sade Jäkärä (jtsj)" <jtsj@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Jessica Jakara, 2025
 # "Jessica Tuulia Sade Jäkärä (jtsj)" <jtsj@odoo.com>, 2025.
@@ -45,6 +55,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,6 +95,8 @@ msgstr ""
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-08 18:37+0000\n"
 "PO-Revision-Date: 2025-08-21 14:30+0000\n"
 "Last-Translator: \"Jessica Tuulia Sade Jäkärä (jtsj)\" <jtsj@odoo.com>\n"
@@ -95,6 +108,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -133,16 +149,22 @@ msgstr "%(employee_name)s: %(expense_name)s"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "%(user)s confirms this expense is not a duplicate with similar expense."
 msgstr ""
 "%(user)s vahvistaa, että tämä meno ei ole päällekkäinen samankaltaisen menon"
 " kanssa."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "%(user)s confirms this expense is not a duplicate with similar expense."
 msgstr ""
 "%(user)s vahvistaa, että tämä meno ei ole päällekkäinen samankaltaisen menon "
 "kanssa."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -170,8 +192,12 @@ msgid ""
 "''))"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Kulut - %s - %s' % (object.employee_id.name, (object.name).replace('/', "
 "''))"
+=======
+"'Kulut - %s - %s' % (object.employee_id.name, (object.name).replace('/', ''))"
+>>>>>>> upstream/18.0
 =======
 "'Kulut - %s - %s' % (object.employee_id.name, (object.name).replace('/', ''))"
 >>>>>>> upstream/18.0
@@ -255,8 +281,12 @@ msgid ""
 msgstr ""
 "Yrityksen maksamien kulujen asetuksissa on määriteltävä oletusarvoinen "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "maksamaton tili. Tai määritä sellainen päiväkirjassa "
 "%(method)s-maksutavalle."
+=======
+"maksamaton tili. Tai määritä sellainen päiväkirjassa %(method)s-maksutavalle."
+>>>>>>> upstream/18.0
 =======
 "maksamaton tili. Tai määritä sellainen päiväkirjassa %(method)s-maksutavalle."
 >>>>>>> upstream/18.0
@@ -341,7 +371,12 @@ msgstr "Kaikki raportit"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "All expenses in an expense report must have the same \"paid by\" criteria."
+=======
+msgid ""
+"All expenses in an expense report must have the same \"paid by\" criteria."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "All expenses in an expense report must have the same \"paid by\" criteria."
@@ -824,8 +859,12 @@ msgstr "Työntekijän kulut"
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Enter a name then choose a category and configure the amount of your "
 "expense."
+=======
+"Enter a name then choose a category and configure the amount of your expense."
+>>>>>>> upstream/18.0
 =======
 "Enter a name then choose a category and configure the amount of your expense."
 >>>>>>> upstream/18.0
@@ -1297,7 +1336,11 @@ msgstr "Päiväkirjamerkinnän nollaus luonnokseen"
 #: model:ir.model,name:hr_expense.model_account_move_line
 msgid "Journal Item"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Päiväkirjatapahtuma"
+=======
+msgstr "Päiväkirjamerkintä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Päiväkirjamerkintä"
 >>>>>>> upstream/18.0
@@ -1322,7 +1365,11 @@ msgstr "Päiväkirjamerkintä palautetaan luonnokseksi"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__label_currency_rate
 msgid "Label Currency Rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valuuttakurssin etiketti"
+=======
+msgstr "Valuuttakurssin otsikko"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valuuttakurssin otsikko"
 >>>>>>> upstream/18.0
@@ -1818,8 +1865,13 @@ msgid ""
 "navigate."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Valmiina? Voit tallentaa sen manuaalisesti tai hylätä muutokset tästä. Sinun"
 " ei <em>tarvitse tallentaa</em> - Odoo tallentaa kaiken puolestasi, kun "
+=======
+"Valmiina? Voit tallentaa sen manuaalisesti tai hylätä muutokset tästä. Sinun "
+"ei <em>tarvitse tallentaa</em> - Odoo tallentaa kaiken puolestasi, kun "
+>>>>>>> upstream/18.0
 =======
 "Valmiina? Voit tallentaa sen manuaalisesti tai hylätä muutokset tästä. Sinun "
 "ei <em>tarvitse tallentaa</em> - Odoo tallentaa kaiken puolestasi, kun "
@@ -1951,17 +2003,23 @@ msgstr "Skannaa tämä QR-koodi saadaksesi Odoo-sovelluksen:"
 msgid ""
 "Select the user responsible for approving \"Expenses\" of this employee.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
 msgstr ""
 "Valitse käyttäjä jonka vastuulla on hyväksyä tämän työntekijän kulut.\n"
 "Jos tyhjä, hyväksynnän tekee Hallinnoija tai Hyväksyjä (riippuen asetuksista asetukset/käyttäjät)."
 =======
+=======
+>>>>>>> upstream/18.0
 "If empty, the approval is done by an Administrator or Approver (determined "
 "in settings/users)."
 msgstr ""
 "Valitse käyttäjä jonka vastuulla on hyväksyä tämän työntekijän kulut.\n"
 "Jos tyhjä, hyväksynnän tekee Hallinnoija tai Hyväksyjä (riippuen asetuksista "
 "asetukset/käyttäjät)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -1980,8 +2038,13 @@ msgid ""
 msgstr ""
 "Lähetä sähköpostiviesti tähän sähköpostiosoitteeseen, jonka liitteenä on "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "kuitti, niin voit luoda kulun yhdellä napsautuksella. Jos sähköpostin aiheen"
 " ensimmäinen sana sisältää luokan sisäisen viitteen tai luokan nimen, "
+=======
+"kuitti, niin voit luoda kulun yhdellä napsautuksella. Jos sähköpostin aiheen "
+"ensimmäinen sana sisältää luokan sisäisen viitteen tai luokan nimen, "
+>>>>>>> upstream/18.0
 =======
 "kuitti, niin voit luoda kulun yhdellä napsautuksella. Jos sähköpostin aiheen "
 "ensimmäinen sana sisältää luokan sisäisen viitteen tai luokan nimen, "
@@ -2021,12 +2084,15 @@ msgstr "Näytä kaikki tietueet joissa on toimenpide myöhässä"
 #. module: hr_expense
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "Show missing work email employees"
 msgstr "Näytä puuttuva työsähköpostiosoite työntekijöille"
 
 #. module: hr_expense
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2179,8 +2245,12 @@ msgstr "Tili, jolle kirjataan yrityksen kulujen jäljellä oleva määrä."
 #: model:ir.model.fields,help:hr_expense.field_res_company__expense_journal_id
 #: model:ir.model.fields,help:hr_expense.field_res_config_settings__expense_journal_id
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The company's default journal used when an employee expense is created."
+=======
+msgid "The company's default journal used when an employee expense is created."
+>>>>>>> upstream/18.0
 =======
 msgid "The company's default journal used when an employee expense is created."
 >>>>>>> upstream/18.0
@@ -2199,8 +2269,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The first word of the email subject did not correspond to any category code."
 " You'll have to set the category manually on the expense."
+=======
+"The first word of the email subject did not correspond to any category code. "
+"You'll have to set the category manually on the expense."
+>>>>>>> upstream/18.0
 =======
 "The first word of the email subject did not correspond to any category code. "
 "You'll have to set the category manually on the expense."
@@ -2250,6 +2325,7 @@ msgstr "Summa jaon sulkemisen jälkeen pysyy samana"
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
 "The work email of some employees is missing. Please add it on the employee "
@@ -2260,6 +2336,8 @@ msgstr ""
 
 #. module: hr_expense
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2468,6 +2546,7 @@ msgstr "Verkkosivun viestihistoria"
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When the cost of an expense product is different than 0, then the user"
 "                                             using this product won't be "
 "able to change the amount of the expense,"
@@ -2481,6 +2560,8 @@ msgstr ""
 "muuttaa kulun määrää, vaan ainoastaan määrää. Käytä kustannusta, joka on eri"
 " kuin 0, yrityksen kiintein kustannuksin rahoittamissa kululuokissa, kuten "
 =======
+=======
+>>>>>>> upstream/18.0
 "When the cost of an expense product is different than 0, then the "
 "user                                             using this product won't be "
 "able to change the amount of the "
@@ -2493,6 +2574,9 @@ msgstr ""
 "Kun kulutuotteen kustannus on eri kuin 0, tuotetta käyttävä käyttäjä ei voi "
 "muuttaa kulun määrää, vaan ainoastaan määrää. Käytä kustannusta, joka on eri "
 "kuin 0, yrityksen kiintein kustannuksin rahoittamissa kululuokissa, kuten "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "kilometrikorvauksissa, päivärahoissa, majoitus- tai ateriakorvauksissa."
 
@@ -2564,8 +2648,12 @@ msgstr "Et voi peruuttaa kirjattuun päiväkirjaan liittyvää kululaskelmaa"
 msgid ""
 "You cannot create accounting entries for an expense report without expenses."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Et voi luoda kirjanpitomerkintöjä kuluraportille, jossa ei ole kuluja."
+=======
+msgstr "Et voi luoda kirjanpitomerkintöjä kuluraportille, jossa ei ole kuluja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Et voi luoda kirjanpitomerkintöjä kuluraportille, jossa ei ole kuluja."
 >>>>>>> upstream/18.0
@@ -2593,8 +2681,13 @@ msgstr "Et voi poistaa analytiikkatiliä, jota käytetään kuluissa."
 #: code:addons/hr_expense/models/account_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete only some entries linked to an expense report. All entries"
 " must be deleted at the same time."
+=======
+"You cannot delete only some entries linked to an expense report. All entries "
+"must be deleted at the same time."
+>>>>>>> upstream/18.0
 =======
 "You cannot delete only some entries linked to an expense report. All entries "
 "must be deleted at the same time."
@@ -2611,8 +2704,13 @@ msgid ""
 "payments must be deleted at the same time."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Et voi poistaa vain joitakin kuluraporttiin liittyviä maksuja. Kaikki maksut"
 " on poistettava samanaikaisesti."
+=======
+"Et voi poistaa vain joitakin kuluraporttiin liittyviä maksuja. Kaikki maksut "
+"on poistettava samanaikaisesti."
+>>>>>>> upstream/18.0
 =======
 "Et voi poistaa vain joitakin kuluraporttiin liittyviä maksuja. Kaikki maksut "
 "on poistettava samanaikaisesti."
@@ -2675,8 +2773,12 @@ msgstr "Et voi raportoida samaa riviä kahdesti!"
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot set the expense total in currency to 0 if it's linked to a "
 "report."
+=======
+"You cannot set the expense total in currency to 0 if it's linked to a report."
+>>>>>>> upstream/18.0
 =======
 "You cannot set the expense total in currency to 0 if it's linked to a report."
 >>>>>>> upstream/18.0
@@ -2690,8 +2792,12 @@ msgstr ""
 msgid "You cannot set the expense total to 0 if it's linked to a report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Et voi asettaa kulujen loppusummaa arvoon 0, jos se on linkitetty "
 "raporttiin."
+=======
+"Et voi asettaa kulujen loppusummaa arvoon 0, jos se on linkitetty raporttiin."
+>>>>>>> upstream/18.0
 =======
 "Et voi asettaa kulujen loppusummaa arvoon 0, jos se on linkitetty raporttiin."
 >>>>>>> upstream/18.0
@@ -2716,6 +2822,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2730,6 +2837,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
 "You don't have the rights to attach a document to a submitted expense. "
@@ -2738,6 +2847,9 @@ msgstr ""
 
 #. module: hr_expense
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
@@ -2745,6 +2857,10 @@ msgid ""
 "report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sinulla ei ole oikeuksia ohittaa tämän kuluraportin vahvistusprosessia."
+>>>>>>> upstream/18.0
 =======
 "Sinulla ei ole oikeuksia ohittaa tämän kuluraportin vahvistusprosessia."
 >>>>>>> upstream/18.0
@@ -2755,6 +2871,7 @@ msgstr ""
 msgid ""
 "You don't have the rights to bypass the validation process of this expense."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr_expense
@@ -2779,10 +2896,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Sinulla ei ole oikeuksia ohittaa tämän kulun vahvistusprosessia."
 
 #. module: hr_expense
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You have no expense to report"
@@ -2799,8 +2921,13 @@ msgstr "Sinun on lisättävä manuaalinen maksutapa päiväkirjaan (%s)"
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to have at least one category that can be expensed in your database"
 " to proceed!"
+=======
+"You need to have at least one category that can be expensed in your database "
+"to proceed!"
+>>>>>>> upstream/18.0
 =======
 "You need to have at least one category that can be expensed in your database "
 "to proceed!"

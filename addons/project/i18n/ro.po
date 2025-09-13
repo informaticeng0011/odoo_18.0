@@ -4,6 +4,7 @@
 # 
 # Translators:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Larisa Pop, 2024
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2025
@@ -179,11 +180,17 @@
 # Wil Odoo, 2025
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
+=======
+# Lyall Kindmurr, 2024
+# Wil Odoo, 2025
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -415,6 +422,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-27 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -437,16 +449,22 @@ msgstr ""
 "\n"
 "                <p class=\"o_view_nocontent_smiling_face\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Nu au fost găsite milestone-uri. Hai să creăm unul!\n"
 "                </p><p>\n"
 "                    Monitorizați punctele de progres major care trebuie atinse pentru a obține succes.\n"
 "                </p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    Nu au fost găsite etape importante. Hai să creăm una!\n"
 "                </p><p>\n"
 "                    Urmărește punctele majore de progres care trebuie atinse pentru a obține succes.\n"
 "                </p>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -513,7 +531,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project__rating_count
 msgid "# Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluări"
+=======
+msgstr "Nr. evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nr. evaluări"
 >>>>>>> upstream/18.0
@@ -521,6 +543,7 @@ msgstr "Nr. evaluări"
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/views/burndown_chart/burndown_chart_model.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -570,6 +593,11 @@ msgstr "Nr. de Sarcini"
 msgid "# of Tasks"
 msgstr "Nr. de sarcini"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:project.field_report_project_task_user__nbr
+msgid "# of Tasks"
+msgstr "Nr. de sarcini"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
@@ -578,7 +606,11 @@ msgid ""
 "#{record.milestone_count.value}"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "#{record.milestone_count_reached.value} Milestone-uri atinse din "
+=======
+"#{record.milestone_count_reached.value} etape atinse din "
+>>>>>>> upstream/18.0
 =======
 "#{record.milestone_count_reached.value} etape atinse din "
 >>>>>>> upstream/18.0
@@ -588,7 +620,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "#{task.stage_id.name}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "#{task.stage_id.name}"
+>>>>>>> upstream/18.0
 =======
 msgstr "#{task.stage_id.name}"
 >>>>>>> upstream/18.0
@@ -598,7 +634,11 @@ msgstr "#{task.stage_id.name}"
 #: code:addons/project/static/src/views/widget/subtask_counter.js:0
 msgid "%(closedCount)s sub-tasks closed out of %(totalCount)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(closedCount)s sub-sarcini închise din %(totalCount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(closedCount)s sub-sarcini închise din %(totalCount)s"
 >>>>>>> upstream/18.0
@@ -614,7 +654,11 @@ msgstr "%(closed_task_count)s / %(task_count)s"
 #: code:addons/project/models/project_project.py:0
 msgid "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
 >>>>>>> upstream/18.0
@@ -624,7 +668,11 @@ msgstr "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
 #: code:addons/project/static/src/views/widget/subtask_counter.js:0
 msgid "%(count1)s/%(count2)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count1)s/%(count2)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count1)s/%(count2)s"
 >>>>>>> upstream/18.0
@@ -634,7 +682,11 @@ msgstr "%(count1)s/%(count2)s"
 #: code:addons/project/models/project_project.py:0
 msgid "%(name)s Dashboard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tablou de bord %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tablou de bord %(name)s"
 >>>>>>> upstream/18.0
@@ -650,7 +702,11 @@ msgstr "Graficul Burndown al %(name)s"
 #: code:addons/project/models/project_project.py:0
 msgid "%(name)s's Milestones"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Milestone-urile %(name)s"
+=======
+msgstr "Etapele %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapele %(name)s"
 >>>>>>> upstream/18.0
@@ -672,7 +728,11 @@ msgstr "Analiza sarcinilor %(name)s"
 #: code:addons/project/models/res_partner.py:0
 msgid "%(partner_name)s's Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcinile lui %(partner_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcinile lui %(partner_name)s"
 >>>>>>> upstream/18.0
@@ -691,7 +751,11 @@ msgstr "%s (copie)"
 #: code:addons/project/static/src/components/notebook_task_one2many_field/notebook_task_list_renderer.js:0
 msgid "%s closed tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s sarcini închise"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s sarcini închise"
 >>>>>>> upstream/18.0
@@ -700,7 +764,11 @@ msgstr "%s sarcini închise"
 #: model_terms:ir.ui.view,arch_db:project.milestone_deadline
 msgid "(due"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "(termen limită"
+=======
+msgstr "(scadent"
+>>>>>>> upstream/18.0
 =======
 msgstr "(scadent"
 >>>>>>> upstream/18.0
@@ -715,7 +783,11 @@ msgstr "(ultima actualizare a proiectului),"
 #: code:addons/project/static/src/project_sharing/components/depend_on_ids_one2many/depend_on_ids_list_renderer.xml:0
 msgid "(other) tasks to which you do not have access."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(alte) sarcini la care nu aveți acces."
+>>>>>>> upstream/18.0
 =======
 msgstr "(alte) sarcini la care nu aveți acces."
 >>>>>>> upstream/18.0
@@ -740,7 +812,11 @@ msgstr "- atins la"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "<b>Drag &amp; drop</b> the card to change your task from stage."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<b>Drag &amp; drop</b> un card pentru a schimba stadiul task-ului."
+=======
+msgstr "<b>Trageți și plasați</b> cardul pentru a schimba stadiul sarcinii."
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>Trageți și plasați</b> cardul pentru a schimba stadiul sarcinii."
 >>>>>>> upstream/18.0
@@ -755,11 +831,17 @@ msgid ""
 "<b>mentions</b> to reach an entire team."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<b>Notează observații</b> pentru comunicări interne <i>(persoanele care "
 "urmăresc această sarcină nu vor fi notificate despre notă decât dacă le "
 "etichetezi explicit)</i>. Folosește @ <b>mențiuni</b> pentru a notifica un "
 "coleg sau # <b>mențiuni</b> pentru a notifica o echipă întreagă."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -842,7 +924,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div>\n"
 "    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/>\n"
 "    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"/>\n"
@@ -918,6 +1003,9 @@ msgstr ""
 "    </table>\n"
 "</div>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -935,7 +1023,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div>\n"
 "    Dragă <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/>\n"
 "    Am plăcerea să vă anunț că am finalizat cu succes proiectul „<strong t-out=\"object.name or ''\">Renovations</strong>”.\n"
@@ -946,6 +1037,9 @@ msgstr ""
 "</div>\n"
 "<br/><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; color: #454748;\" groups=\"project.group_project_stages\">Primiți acest e-mail deoarece proiectul dumneavoastră a fost mutat în stadiul <b t-out=\"object.stage_id.name or ''\">Finalizat</b></span>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -965,6 +1059,7 @@ msgid ""
 "</div>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1084,6 +1179,8 @@ msgstr ""
 "    Vă mulțumim pentru răbdare.<br/>\n"
 "    Toate cele bune,\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<div>\n"
 "    Dragă <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/><br/>\n"
 "    Vă mulțumim că ne-ați contactat. Apreciem interesul dumneavoastră pentru produsele/serviciile noastre.<br/>\n"
@@ -1091,6 +1188,9 @@ msgstr ""
 "    Dacă aveți alte întrebări sau nelămuriri între timp, nu ezitați să ne anunțați. Suntem aici pentru a vă ajuta.<br/><br/>\n"
 "    Vă mulțumim pentru răbdare.<br/>\n"
 "    Cu stimă,\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
@@ -1135,6 +1235,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1240,8 +1343,12 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-warning\" title=\"Customer disabled on projects\"/><b> "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Evaluările clientului </b> sunt dezactivate în următoarele proiect(e) : "
 "<br/>"
+=======
+"Evaluările clienților</b> sunt dezactivate pe următoarele proiect(e) : <br/>"
+>>>>>>> upstream/18.0
 =======
 "Evaluările clienților</b> sunt dezactivate pe următoarele proiect(e) : <br/>"
 >>>>>>> upstream/18.0
@@ -1260,7 +1367,11 @@ msgstr "<i class=\"oi oi-arrow-right me-1\"/>Înapoi la modul de editare"
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "<i title=\"Private Task\" class=\"fa fa-lock\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i title=\"Sarcină privată\" class=\"fa fa-lock\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i title=\"Sarcină privată\" class=\"fa fa-lock\"/>"
 >>>>>>> upstream/18.0
@@ -1269,7 +1380,11 @@ msgstr "<i title=\"Sarcină privată\" class=\"fa fa-lock\"/>"
 #: model_terms:ir.ui.view,arch_db:project.portal_my_task
 msgid "<small class=\"text-end\">Stage:</small>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<small class=\"text-end\">Stage:</small>"
+=======
+msgstr "<small class=\"text-end\">Etapă:</small>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<small class=\"text-end\">Etapă:</small>"
 >>>>>>> upstream/18.0
@@ -1278,7 +1393,11 @@ msgstr "<small class=\"text-end\">Etapă:</small>"
 #: model_terms:ir.ui.view,arch_db:project.portal_my_task
 msgid "<small class=\"text-muted\">Assignees</small>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<small class=\"text-muted\">Responsabili</small>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<small class=\"text-muted\">Responsabili</small>"
 >>>>>>> upstream/18.0
@@ -1300,8 +1419,13 @@ msgid ""
 "title=\"Domain Alias\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"fa fa-envelope-o me-2\" aria-label=\"Domain Alias\" "
 "title=\"Domain Alias\"/>"
+=======
+"<span class=\"fa fa-envelope-o me-2\" aria-label=\"Alias domeniu\" "
+"title=\"Alias domeniu\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-envelope-o me-2\" aria-label=\"Alias domeniu\" "
 "title=\"Alias domeniu\"/>"
@@ -1316,7 +1440,11 @@ msgstr "<span class=\"fa fa-user me-2\" aria-label=\"Partener\" title=\"Partener
 #: model_terms:ir.ui.view,arch_db:project.project_milestone_view_form
 msgid "<span class=\"fw-normal\"> Done</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-normal\"> Finalizat</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fw-normal\"> Finalizat</span>"
 >>>>>>> upstream/18.0
@@ -1325,7 +1453,11 @@ msgstr "<span class=\"fw-normal\"> Finalizat</span>"
 #: model_terms:ir.ui.view,arch_db:project.project_milestone_view_form
 msgid "<span class=\"fw-normal\"> Tasks</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-normal\"> Sarcini</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fw-normal\"> Sarcini</span>"
 >>>>>>> upstream/18.0
@@ -1334,7 +1466,11 @@ msgstr "<span class=\"fw-normal\"> Sarcini</span>"
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 msgid "<span class=\"o_stat_text\">Blocked Tasks</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Sarcini blocate</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Sarcini blocate</span>"
 >>>>>>> upstream/18.0
@@ -1349,7 +1485,11 @@ msgstr "<span class=\"o_stat_text\">Ultima evaluare</span>"
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "<span class=\"o_stat_text\">Parent Task</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Sarcină părinte</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Sarcină părinte</span>"
 >>>>>>> upstream/18.0
@@ -1363,7 +1503,11 @@ msgstr "<span class=\"o_stat_text\">Sub-sarcini</span>"
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "<span class=\"o_stat_text\">Tasks</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Sarcini</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Sarcini</span>"
 >>>>>>> upstream/18.0
@@ -1373,6 +1517,11 @@ msgstr "<span class=\"o_stat_text\">Sarcini</span>"
 msgid "<span class=\"text-muted o_row ps-1 pb-3\">Send a rating request:</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted o_row ps-1 pb-3\">Trimite o solicitare de "
+"evaluare:</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted o_row ps-1 pb-3\">Trimite o solicitare de "
 "evaluare:</span>"
@@ -1388,12 +1537,18 @@ msgid ""
 "                                                </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span colspan=\"2\" class=\"text-muted o_row ps-1\">\n"
 "                                                    <i class=\"fa fa-lightbulb-o pe-2\"/>\n"
 "                                                    <span invisible=\"rating_status == 'periodic'\">O solicitare de evaluare va fi trimisă imediat ce sarcina ajunge într-o etapă pentru care este definit un șablon de email de evaluare.</span>\n"
 "                                                    <span invisible=\"rating_status == 'stage'\">Solicitările de evaluare vor fi trimise atât timp cât sarcina rămâne într-o etapă pentru care este definit un șablon de email de evaluare.</span>\n"
 "                                                </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -1438,7 +1593,11 @@ msgid ""
 "creating new records for this alias."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un dicționar Python care va fi citit pentru a oferi valori implicite la "
+=======
+"Un dicționar Python care va fi evaluat pentru a furniza valori implicite la "
+>>>>>>> upstream/18.0
 =======
 "Un dicționar Python care va fi evaluat pentru a furniza valori implicite la "
 >>>>>>> upstream/18.0
@@ -1452,8 +1611,13 @@ msgid ""
 msgstr ""
 "Un colaborator nu poate fi selectat de mai multe ori în partajarea accesului"
 <<<<<<< HEAD
+<<<<<<< HEAD
 " proiectului. Vă rugăm să eliminați duplicatul (duplicații) și încercați din"
 " nou."
+=======
+" la proiect. Vă rugăm să eliminați duplicatul (duplicații) și încercați din "
+"nou."
+>>>>>>> upstream/18.0
 =======
 " la proiect. Vă rugăm să eliminați duplicatul (duplicații) și încercați din "
 "nou."
@@ -1464,7 +1628,11 @@ msgstr ""
 #: code:addons/project/models/project_task.py:0
 msgid "A new task has been created and is not part of any project."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A fost creată o sarcină nouă care nu face parte din niciun proiect."
+>>>>>>> upstream/18.0
 =======
 msgstr "A fost creată o sarcină nouă care nu face parte din niciun proiect."
 >>>>>>> upstream/18.0
@@ -1474,7 +1642,11 @@ msgstr "A fost creată o sarcină nouă care nu face parte din niciun proiect."
 #: code:addons/project/models/project_task.py:0
 msgid "A new task has been created in the \"%(project_name)s\" project."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A fost creată o sarcină nouă în proiectul \"%(project_name)s\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "A fost creată o sarcină nouă în proiectul \"%(project_name)s\"."
 >>>>>>> upstream/18.0
@@ -1493,7 +1665,11 @@ msgstr ""
 #: model:ir.model.constraint,message:project.constraint_project_task_private_task_has_no_parent
 msgid "A private task cannot have a parent."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O sarcină privată nu poate avea o sarcină părinte."
+>>>>>>> upstream/18.0
 =======
 msgstr "O sarcină privată nu poate avea o sarcină părinte."
 >>>>>>> upstream/18.0
@@ -1502,7 +1678,11 @@ msgstr "O sarcină privată nu poate avea o sarcină părinte."
 #: model:ir.model.constraint,message:project.constraint_project_task_recurring_task_has_no_parent
 msgid "A subtask cannot be recurrent."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O sub-sarcină nu poate fi recurentă."
+>>>>>>> upstream/18.0
 =======
 msgstr "O sub-sarcină nu poate fi recurentă."
 >>>>>>> upstream/18.0
@@ -1516,7 +1696,11 @@ msgstr "O etichetă cu același nume există deja."
 #: model:ir.model.constraint,message:project.constraint_project_task_user_rel_project_personal_stage_unique
 msgid "A task can only have a single personal stage per user."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "O sarcină poate avea o singură etapă personală pe utilizator."
+=======
+msgstr "O sarcină poate avea o singură etapă personală per utilizator."
+>>>>>>> upstream/18.0
 =======
 msgstr "O sarcină poate avea o singură etapă personală per utilizator."
 >>>>>>> upstream/18.0
@@ -1565,7 +1749,11 @@ msgstr "Activități"
 #: model:ir.model.fields,field_description:project.field_project_update__activity_exception_decoration
 msgid "Activity Exception Decoration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Decorator Excepție Activitate"
+=======
+msgstr "Decorare excepție activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Decorare excepție activitate"
 >>>>>>> upstream/18.0
@@ -1589,7 +1777,11 @@ msgstr "Stare activitate"
 #: model:ir.model.fields,field_description:project.field_project_update__activity_type_icon
 msgid "Activity Type Icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictograma tipului de activitate"
+=======
+msgstr "Pictogramă tip activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă tip activitate"
 >>>>>>> upstream/18.0
@@ -1607,6 +1799,11 @@ msgid ""
 "                    (e.g. \"Progress Report\", \"Stand-up Meeting\", ...)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Planurile de activitate sunt folosite pentru a atribui o listă de activități în doar câteva clicuri\n"
+"                    (de ex. „Raport de progres”, „Întâlnire rapidă”, ...)"
+>>>>>>> upstream/18.0
 =======
 "Planurile de activitate sunt folosite pentru a atribui o listă de activități în doar câteva clicuri\n"
 "                    (de ex. „Raport de progres”, „Întâlnire rapidă”, ...)"
@@ -1623,7 +1820,11 @@ msgstr "Adaugă etapă"
 #: code:addons/project/static/src/components/subtask_kanban_list/subtask_kanban_create/subtask_kanban_create.js:0
 msgid "Add Sub-tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adaugă sub-sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă sub-sarcini"
 >>>>>>> upstream/18.0
@@ -1633,7 +1834,11 @@ msgstr "Adaugă sub-sarcini"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Add a sub-task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adaugă o sub-sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă o sub-sarcină"
 >>>>>>> upstream/18.0
@@ -1647,7 +1852,11 @@ msgid ""
 msgstr ""
 "Adăugați coloane pentru a vă organiza sarcinile în <b>etape</b> <i>de ex. "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nou - În curs - Finalizat</i>."
+=======
+"Nou - În desfășurare - Finalizat</i>."
+>>>>>>> upstream/18.0
 =======
 "Nou - În desfășurare - Finalizat</i>."
 >>>>>>> upstream/18.0
@@ -1657,7 +1866,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Add details about this task..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adăugați detalii despre această sarcină..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Adăugați detalii despre această sarcină..."
 >>>>>>> upstream/18.0
@@ -1674,6 +1887,11 @@ msgid ""
 "management process."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Adăugați câmpuri de proprietăți specifice proiectului pe sarcini pentru a "
+"personaliza procesul de management al proiectului."
+>>>>>>> upstream/18.0
 =======
 "Adăugați câmpuri de proprietăți specifice proiectului pe sarcini pentru a "
 "personaliza procesul de management al proiectului."
@@ -1695,7 +1913,11 @@ msgstr "Administrator"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Agile Scrum"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scrum Agil"
+=======
+msgstr "Scrum Agile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scrum Agile"
 >>>>>>> upstream/18.0
@@ -1709,7 +1931,11 @@ msgstr "Alias"
 #: model:ir.model.fields,field_description:project.field_project_project__alias_contact
 msgid "Alias Contact Security"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alias Contact Securitate"
+=======
+msgstr "Securitate contact alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Securitate contact alias"
 >>>>>>> upstream/18.0
@@ -1718,7 +1944,11 @@ msgstr "Securitate contact alias"
 #: model:ir.model.fields,field_description:project.field_project_project__alias_domain_id
 msgid "Alias Domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alias Domeniu"
+=======
+msgstr "Domeniu alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Domeniu alias"
 >>>>>>> upstream/18.0
@@ -1727,7 +1957,11 @@ msgstr "Domeniu alias"
 #: model:ir.model.fields,field_description:project.field_project_project__alias_domain
 msgid "Alias Domain Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alias Nume de domeniu"
+=======
+msgstr "Nume domeniu alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume domeniu alias"
 >>>>>>> upstream/18.0
@@ -1736,7 +1970,11 @@ msgstr "Nume domeniu alias"
 #: model:ir.model.fields,field_description:project.field_project_project__alias_full_name
 msgid "Alias Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alias Email"
+=======
+msgstr "Email alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email alias"
 >>>>>>> upstream/18.0
@@ -1745,7 +1983,11 @@ msgstr "Email alias"
 #: model:ir.model.fields,field_description:project.field_project_project__alias_name
 msgid "Alias Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alias nume"
+=======
+msgstr "Nume alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume alias"
 >>>>>>> upstream/18.0
@@ -1754,7 +1996,11 @@ msgstr "Nume alias"
 #: model:ir.model.fields,field_description:project.field_project_project__alias_status
 msgid "Alias Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stare Alias"
+=======
+msgstr "Stare alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare alias"
 >>>>>>> upstream/18.0
@@ -1768,7 +2014,11 @@ msgstr "Starea aliasului evaluată pe ultimul mesaj primit."
 #: model:ir.model.fields,field_description:project.field_project_project__alias_model_id
 msgid "Aliased Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Model de Alias"
+=======
+msgstr "Model alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Model alias"
 >>>>>>> upstream/18.0
@@ -1778,7 +2028,11 @@ msgstr "Model alias"
 #: code:addons/project/controllers/portal.py:0
 msgid "All"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tot"
+=======
+msgstr "Toate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toate"
 >>>>>>> upstream/18.0
@@ -1788,7 +2042,11 @@ msgstr "Toate"
 #: model:ir.ui.menu,name:project.menu_project_management_all_tasks
 msgid "All Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcini"
+=======
+msgstr "Toate sarcinile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toate sarcinile"
 >>>>>>> upstream/18.0
@@ -1803,7 +2061,11 @@ msgstr "Toți utilizatorii interni"
 #: model:ir.model.fields,field_description:project.field_project_task_burndown_chart_report__allocated_hours
 msgid "Allocated Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Timp Alocat"
+=======
+msgstr "Timp alocat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Timp alocat"
 >>>>>>> upstream/18.0
@@ -1813,7 +2075,11 @@ msgstr "Timp alocat"
 #: model_terms:ir.ui.view,arch_db:project.portal_my_task_allocated_hours_template
 msgid "Allocated Time:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Timp alocat:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Timp alocat:"
 >>>>>>> upstream/18.0
@@ -1842,8 +2108,13 @@ msgid ""
 "if everything is progressing according to plan."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Analizați cât de repede echipa dvs. completează sarcinile proiectului dvs. "
 "și verificați dacă totul se desfășoară conform planului."
+=======
+"Analizați cât de repede echipa dvs. finalizează sarcinile proiectului și "
+"verificați dacă totul decurge conform planului."
+>>>>>>> upstream/18.0
 =======
 "Analizați cât de repede echipa dvs. finalizează sarcinile proiectului și "
 "verificați dacă totul decurge conform planului."
@@ -1859,7 +2130,11 @@ msgstr "Analizați progresul proiectelor dvs. și performanța angajaților dvs.
 #: model:ir.model.fields,help:project.field_project_share_wizard__share_link
 msgid "Anyone with this link can access the project in read mode."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oricine are acest link poate accesa proiectul în modul citire."
+>>>>>>> upstream/18.0
 =======
 msgstr "Oricine are acest link poate accesa proiectul în modul citire."
 >>>>>>> upstream/18.0
@@ -1870,7 +2145,11 @@ msgstr "Oricine are acest link poate accesa proiectul în modul citire."
 #: model:ir.model.fields.selection,name:project.selection__report_project_task_user__state__03_approved
 msgid "Approved"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aprobat(a)"
+=======
+msgstr "Aprobat(ă)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobat(ă)"
 >>>>>>> upstream/18.0
@@ -1879,7 +2158,11 @@ msgstr "Aprobat(ă)"
 #: model:project.tags,name:project.project_tags_07
 msgid "Architecture"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Arhitectura"
+=======
+msgstr "Arhitectură"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arhitectură"
 >>>>>>> upstream/18.0
@@ -1889,7 +2172,11 @@ msgstr "Arhitectură"
 #: code:addons/project/static/src/views/analytic_account_form/analytic_account_form_controller.js:0
 msgid "Archive Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arhivează contul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arhivează contul"
 >>>>>>> upstream/18.0
@@ -1899,7 +2186,11 @@ msgstr "Arhivează contul"
 #: code:addons/project/static/src/views/analytic_account_list/analytic_account_list_controller.js:0
 msgid "Archive Accounts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arhivează conturile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arhivează conturile"
 >>>>>>> upstream/18.0
@@ -1909,7 +2200,11 @@ msgstr "Arhivează conturile"
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_wizard
 msgid "Archive Stages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etape de arhivă"
+=======
+msgstr "Arhivează etapele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arhivează etapele"
 >>>>>>> upstream/18.0
@@ -1950,7 +2245,11 @@ msgstr "Sigur doriți să ștergeți această înregistrare?"
 #: code:addons/project/static/src/views/project_task_form/project_task_form_controller.js:0
 msgid "Are you sure you want to restore this version ?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sigur doriți să restaurați această versiune?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sigur doriți să restaurați această versiune?"
 >>>>>>> upstream/18.0
@@ -1982,7 +2281,11 @@ msgstr "Atribuiți o persoană responsabilă sarcinii"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Assigned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocat"
+=======
+msgstr "Atribuit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atribuit"
 >>>>>>> upstream/18.0
@@ -1993,7 +2296,11 @@ msgstr "Atribuit"
 #: model_terms:ir.ui.view,arch_db:project.rating_rating_view_tree_project
 msgid "Assigned to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocat către"
+=======
+msgstr "Atribuit către"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atribuit către"
 >>>>>>> upstream/18.0
@@ -2009,7 +2316,11 @@ msgstr "Atribuit către"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_project_fsm_base
 msgid "Assignees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocați"
+=======
+msgstr "Persoane atribuite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Persoane atribuite"
 >>>>>>> upstream/18.0
@@ -2018,7 +2329,11 @@ msgstr "Persoane atribuite"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Assignement Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data atribuirii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data atribuirii"
 >>>>>>> upstream/18.0
@@ -2027,7 +2342,11 @@ msgstr "Data atribuirii"
 #: model:ir.model.fields,field_description:project.field_project_task__date_assign
 msgid "Assigning Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data alocării"
+=======
+msgstr "Data atribuirii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data atribuirii"
 >>>>>>> upstream/18.0
@@ -2037,7 +2356,11 @@ msgstr "Data atribuirii"
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__date_assign
 msgid "Assignment Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dată Atribuire"
+=======
+msgstr "Data atribuirii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data atribuirii"
 >>>>>>> upstream/18.0
@@ -2057,6 +2380,11 @@ msgid ""
 "information centralized."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Atașați toate documentele sau linkurile direct la sarcină, pentru a avea "
+"toate informațiile de cercetare centralizate."
+>>>>>>> upstream/18.0
 =======
 "Atașați toate documentele sau linkurile direct la sarcină, pentru a avea "
 "toate informațiile de cercetare centralizate."
@@ -2079,7 +2407,11 @@ msgstr "Atașamente"
 #: model:ir.model.fields,help:project.field_project_task__attachment_ids
 msgid "Attachments that don't come from a message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atașamente care nu provin dintr-un mesaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atașamente care nu provin dintr-un mesaj"
 >>>>>>> upstream/18.0
@@ -2093,7 +2425,11 @@ msgstr "Autor"
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
 msgid "Auto-generate tasks for regular activities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcini generate automat pentru activități regulate"
+=======
+msgstr "Generează automat sarcini pentru activități regulate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generează automat sarcini pentru activități regulate"
 >>>>>>> upstream/18.0
@@ -2102,7 +2438,11 @@ msgstr "Generează automat sarcini pentru activități regulate"
 #: model:ir.model.fields,field_description:project.field_project_task_type__auto_validation_state
 msgid "Automatic Kanban Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stare Kanban automată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare Kanban automată"
 >>>>>>> upstream/18.0
@@ -2115,6 +2455,12 @@ msgid ""
 " * Neutral or bad feedback will set the kanban state to 'Changes Requested' (orange bullet).\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Modifică automat starea când clientul răspunde la feedback pentru această etapă.\n"
+" * Feedback pozitiv de la client va actualiza starea la 'Aprobat' (bulină verde).\n"
+" * Feedback neutru sau negativ va seta starea kanban la 'Modificări solicitate' (bulină portocalie).\n"
+>>>>>>> upstream/18.0
 =======
 "Modifică automat starea când clientul răspunde la feedback pentru această etapă.\n"
 " * Feedback pozitiv de la client va actualiza starea la 'Aprobat' (bulină verde).\n"
@@ -2128,6 +2474,11 @@ msgid ""
 "stage in a project by setting this template on that stage"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Trimite automat un e-mail către clienți când o sarcină ajunge într-o anumită"
+" etapă a unui proiect, setând acest șablon pe acea etapă"
+>>>>>>> upstream/18.0
 =======
 "Trimite automat un e-mail către clienți când o sarcină ajunge într-o anumită"
 " etapă a unui proiect, setând acest șablon pe acea etapă"
@@ -2138,7 +2489,11 @@ msgstr ""
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "Avatar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imagine profil"
+=======
+msgstr "Avatar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avatar"
 >>>>>>> upstream/18.0
@@ -2150,7 +2505,11 @@ msgstr "Avatar"
 #: model:ir.model.fields,field_description:project.field_project_task__rating_avg
 msgid "Average Rating"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rating mediu"
+=======
+msgstr "Evaluare medie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie"
 >>>>>>> upstream/18.0
@@ -2159,7 +2518,11 @@ msgstr "Evaluare medie"
 #: model:ir.model.fields,field_description:project.field_project_project__rating_avg_percentage
 msgid "Average Rating (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rating mediu (%)"
+=======
+msgstr "Evaluare medie (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie (%)"
 >>>>>>> upstream/18.0
@@ -2172,7 +2535,11 @@ msgid "Average Rating (1-5)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evaluare medie (1-5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie (1-5)"
 >>>>>>> upstream/18.0
@@ -2194,7 +2561,11 @@ msgstr "Evaluare medie (1-5)"
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Average Rating: Dissatisfied"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rating mediu: nemulțumit"
+=======
+msgstr "Evaluare medie: Nesatisfăcut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie: Nesatisfăcut"
 >>>>>>> upstream/18.0
@@ -2204,7 +2575,11 @@ msgstr "Evaluare medie: Nesatisfăcut"
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Average Rating: Okay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rating mediu: ok"
+=======
+msgstr "Evaluare medie: Ok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie: Ok"
 >>>>>>> upstream/18.0
@@ -2214,7 +2589,11 @@ msgstr "Evaluare medie: Ok"
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Average Rating: Satisfied"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rating mediu: mulțumit"
+=======
+msgstr "Evaluare medie: Satisfăcut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie: Satisfăcut"
 >>>>>>> upstream/18.0
@@ -2224,7 +2603,11 @@ msgstr "Evaluare medie: Satisfăcut"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Backlog"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comenzi Nerezolvate"
+=======
+msgstr "Backlog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Backlog"
 >>>>>>> upstream/18.0
@@ -2244,7 +2627,11 @@ msgstr "Facturat"
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__dependent_ids
 msgid "Block"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Bloc"
+=======
+msgstr "Blochează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Blochează"
 >>>>>>> upstream/18.0
@@ -2265,7 +2652,11 @@ msgstr "Blocat de"
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Blocked Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini blocate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini blocate"
 >>>>>>> upstream/18.0
@@ -2275,7 +2666,11 @@ msgstr "Sarcini blocate"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Blocking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Blochează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Blochează"
 >>>>>>> upstream/18.0
@@ -2285,7 +2680,11 @@ msgstr "Blochează"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Brainstorm"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Furtună de Idei"
+=======
+msgstr "Brainstorming"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brainstorming"
 >>>>>>> upstream/18.0
@@ -2294,7 +2693,11 @@ msgstr "Brainstorming"
 #: model:project.tags,name:project.project_tags_00
 msgid "Bug"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bug"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bug"
 >>>>>>> upstream/18.0
@@ -2313,6 +2716,7 @@ msgid "Burndown Chart"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Grafic de ardere"
@@ -2325,6 +2729,9 @@ msgstr "Grafic de ardere"
 >>>>>>> upstream/18.0
 =======
 msgstr "Grafic de ardere"
+>>>>>>> upstream/18.0
+=======
+msgstr "Grafic Burndown"
 >>>>>>> upstream/18.0
 =======
 msgstr "Grafic Burndown"
@@ -2352,7 +2759,11 @@ msgstr "Anulat"
 #: model:mail.message.subtype,name:project.mt_task_changes_requested
 msgid "Changes Requested"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modificări solicitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modificări solicitate"
 >>>>>>> upstream/18.0
@@ -2417,7 +2828,11 @@ msgid "Closed state"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stare închisă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare închisă"
 >>>>>>> upstream/18.0
@@ -2438,7 +2853,11 @@ msgstr "Stare închisă"
 #: model:ir.model.fields.selection,name:project.selection__project_task_burndown_chart_report__is_closed__closed
 msgid "Closed tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini închise"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini închise"
 >>>>>>> upstream/18.0
@@ -2447,7 +2866,11 @@ msgstr "Sarcini închise"
 #: model:ir.model.fields,field_description:project.field_project_task_burndown_chart_report__is_closed
 msgid "Closing Stage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stagiu de închidere"
+=======
+msgstr "Stadiu de închidere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stadiu de închidere"
 >>>>>>> upstream/18.0
@@ -2476,9 +2899,15 @@ msgid ""
 "Periodic rating: an email will be automatically sent at regular intervals as long as the task remains in the stage in which the rating email template is set."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Colectați feedback-ul de la clienții dvs. prin trimiterea lor a unei cereri de evaluare atunci când o sarcină intră într-un anumit stadiu. Pentru a face acest lucru, definiți un șablon de e-mail de evaluare pe stadiile corespunzătoare.\n"
 "Evaluare la schimbarea stadiului: un e-mail va fi trimis automat atunci când sarcina atinge stadiul pe care șablonul de e-mail de evaluare este setat.\n"
 "Evaluare periodică: un e-mail va fi trimis automat la intervale regulate atât timp cât sarcina rămâne în stadiul în care șablonul de e-mail de evaluare este setat."
+=======
+"Colectați feedback de la clienții dvs. trimițându-le o solicitare de evaluare atunci când o sarcină intră într-un anumit stadiu. Pentru aceasta, definiți un șablon de e-mail de evaluare pe stadiile corespunzătoare.\n"
+"Evaluare la schimbarea stadiului: un e-mail va fi trimis automat când sarcina ajunge în stadiul pe care este setat șablonul de e-mail de evaluare.\n"
+"Evaluare periodică: un e-mail va fi trimis automat la intervale regulate atât timp cât sarcina rămâne în stadiul în care este setat șablonul de e-mail de evaluare."
+>>>>>>> upstream/18.0
 =======
 "Colectați feedback de la clienții dvs. trimițându-le o solicitare de evaluare atunci când o sarcină intră într-un anumit stadiu. Pentru aceasta, definiți un șablon de e-mail de evaluare pe stadiile corespunzătoare.\n"
 "Evaluare la schimbarea stadiului: un e-mail va fi trimis automat când sarcina ajunge în stadiul pe care este setat șablonul de e-mail de evaluare.\n"
@@ -2498,6 +2927,12 @@ msgid ""
 "      designers to the workers who print the t-shirt."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Comunicați cu clienții pe sarcină folosind gateway-ul de e-mail. Atașați "
+"design-urile de logo la sarcină, astfel încât informația să circule de la "
+"designeri la lucrătorii care imprimă tricoul."
+>>>>>>> upstream/18.0
 =======
 "Comunicați cu clienții pe sarcină folosind gateway-ul de e-mail. Atașați "
 "design-urile de logo la sarcină, astfel încât informația să circule de la "
@@ -2534,7 +2969,11 @@ msgstr "Configurare"
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
 msgid "Configure Stages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Configurați stadiile"
+=======
+msgstr "Configurează stadiile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configurează stadiile"
 >>>>>>> upstream/18.0
@@ -2575,7 +3014,11 @@ msgstr "Consultanță"
 #: model_terms:ir.ui.view,arch_db:project.project_view_kanban
 msgid "Contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contactați"
+=======
+msgstr "Contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contact"
 >>>>>>> upstream/18.0
@@ -2584,7 +3027,11 @@ msgstr "Contact"
 #: model_terms:ir.ui.view,arch_db:project.project_task_convert_to_subtask_view_form
 msgid "Convert Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Convertește sarcina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Convertește sarcina"
 >>>>>>> upstream/18.0
@@ -2595,7 +3042,11 @@ msgstr "Convertește sarcina"
 #: model:ir.actions.server,name:project.action_server_convert_to_subtask
 msgid "Convert to Task/Sub-Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Convertește în sarcină/sub-sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Convertește în sarcină/sub-sarcină"
 >>>>>>> upstream/18.0
@@ -2616,7 +3067,11 @@ msgstr "Costuri"
 #: model:ir.model.fields,field_description:project.field_project_task__displayed_image_id
 msgid "Cover Image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imagine Copertă"
+=======
+msgstr "Imagine de copertă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imagine de copertă"
 >>>>>>> upstream/18.0
@@ -2639,7 +3094,11 @@ msgstr "Data creării"
 #: model:ir.actions.act_window,name:project.open_create_project
 msgid "Create a Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "- Creează un proiect"
+=======
+msgstr "Creează un proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează un proiect"
 >>>>>>> upstream/18.0
@@ -2648,7 +3107,11 @@ msgstr "Creează un proiect"
 #: model_terms:ir.actions.act_window,help:project.mail_activity_plan_action_config_project_task_plan
 msgid "Create a Task Activity Plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creează un plan de activități pentru sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează un plan de activități pentru sarcină"
 >>>>>>> upstream/18.0
@@ -2657,7 +3120,11 @@ msgstr "Creează un plan de activități pentru sarcină"
 #: model_terms:ir.actions.act_window,help:project.open_task_type_form_domain
 msgid "Create a new stage in the task pipeline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o nouă etapă în conducta de sarcini"
+=======
+msgstr "Creează o nouă etapă în fluxul de sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o nouă etapă în fluxul de sarcini"
 >>>>>>> upstream/18.0
@@ -2667,7 +3134,11 @@ msgstr "Creează o nouă etapă în fluxul de sarcini"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Create a new sub-task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creează o sub-sarcină nouă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o sub-sarcină nouă"
 >>>>>>> upstream/18.0
@@ -2676,7 +3147,11 @@ msgstr "Creează o sub-sarcină nouă"
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified_footer
 msgid "Create project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați proiect"
+=======
+msgstr "Creează proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează proiect"
 >>>>>>> upstream/18.0
@@ -2688,8 +3163,13 @@ msgid ""
 "each project."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Creați proiecte pentru a organiza sarcinile și pentru a defini un flux de "
 "lucru diferit pentru fiecare proiect."
+=======
+"Creează proiecte pentru a-ți organiza sarcinile și a defini un flux de lucru"
+" diferit pentru fiecare proiect."
+>>>>>>> upstream/18.0
 =======
 "Creează proiecte pentru a-ți organiza sarcinile și a defini un flux de lucru"
 " diferit pentru fiecare proiect."
@@ -2702,7 +3182,11 @@ msgid ""
 " project."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Creați proiecte pentru a organiza sarcinile. Definiți un flux de lucru "
+=======
+"Creează proiecte pentru a-ți organiza sarcinile. Definește un flux de lucru "
+>>>>>>> upstream/18.0
 =======
 "Creează proiecte pentru a-ți organiza sarcinile. Definește un flux de lucru "
 >>>>>>> upstream/18.0
@@ -2713,7 +3197,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified
 msgid "Create tasks by sending an email to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați sarcini trimițând un e-mail la"
+=======
+msgstr "Creează sarcini trimițând un e-mail la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează sarcini trimițând un e-mail la"
 >>>>>>> upstream/18.0
@@ -2722,7 +3210,12 @@ msgstr "Creează sarcini trimițând un e-mail la"
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
 msgid "Create tasks by sending an email to the email address of your project."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați sarcini trimițând un e-mail la adresa de e-mail a proiectului."
+=======
+msgstr ""
+"Creează sarcini trimițând un e-mail la adresa de e-mail a proiectului tău."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Creează sarcini trimițând un e-mail la adresa de e-mail a proiectului tău."
@@ -2732,7 +3225,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task__create_date
 msgid "Created On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -2771,7 +3268,11 @@ msgstr "Creat de"
 #: model:ir.model.fields,field_description:project.field_project_update__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -2790,7 +3291,11 @@ msgstr "Proiectul curent al sarcinii"
 #: model_terms:ir.ui.view,arch_db:project.portal_my_task
 msgid "Current stage of this task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stadiul curent al acestei sarcini"
+=======
+msgstr "Etapa curentă a acestei sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapa curentă a acestei sarcini"
 >>>>>>> upstream/18.0
@@ -2803,8 +3308,13 @@ msgid ""
 "internal employees."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Momentan disponibil pentru toată lumea care vizionează acest document, "
 "faceți clic pentru a restricționa angajații interni."
+=======
+"Momentan disponibil pentru toți cei care vizualizează acest document, faceți"
+" clic pentru a restricționa doar la angajații interni."
+>>>>>>> upstream/18.0
 =======
 "Momentan disponibil pentru toți cei care vizualizează acest document, faceți"
 " clic pentru a restricționa doar la angajații interni."
@@ -2819,7 +3329,11 @@ msgid ""
 msgstr ""
 "În prezent restricționat pentru angajații interni, faceți clic pentru a-l "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "pune la dispoziția tuturor celor care vizualizează acest document."
+=======
+"face disponibil tuturor celor care vizualizează acest document."
+>>>>>>> upstream/18.0
 =======
 "face disponibil tuturor celor care vizualizează acest document."
 >>>>>>> upstream/18.0
@@ -2842,7 +3356,11 @@ msgstr "Mesaj personalizat de respingere"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Customer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ClientClient"
+=======
+msgstr "Client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Client"
 >>>>>>> upstream/18.0
@@ -2852,7 +3370,11 @@ msgstr "Client"
 #: code:addons/project/models/project_task.py:0
 msgid "Customer Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "E-mail client"
+=======
+msgstr "Email client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email client"
 >>>>>>> upstream/18.0
@@ -2862,7 +3384,11 @@ msgstr "Email client"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Customer Feedback"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Feedback Clienți"
+=======
+msgstr "Feedback client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Feedback client"
 >>>>>>> upstream/18.0
@@ -2872,7 +3398,11 @@ msgstr "Feedback client"
 #: model:ir.model.fields,help:project.field_project_task__access_url
 msgid "Customer Portal URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresa URL a Portalului Clientului"
+=======
+msgstr "URL Portal Client"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL Portal Client"
 >>>>>>> upstream/18.0
@@ -2884,7 +3414,11 @@ msgstr "URL Portal Client"
 #: model:ir.ui.menu,name:project.rating_rating_menu_project
 msgid "Customer Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluări client"
+=======
+msgstr "Evaluări clienți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluări clienți"
 >>>>>>> upstream/18.0
@@ -2893,7 +3427,11 @@ msgstr "Evaluări clienți"
 #: model:ir.model.fields,field_description:project.field_project_project__rating_status
 msgid "Customer Ratings Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Starea evaluărilor clienților"
+=======
+msgstr "Stare evaluări clienți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare evaluări clienți"
 >>>>>>> upstream/18.0
@@ -2906,6 +3444,11 @@ msgid ""
 "      communicate on the task directly."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Clienții propun feedback prin email; Odoo creează automat sarcini, iar tu "
+"poți comunica direct pe sarcină."
+>>>>>>> upstream/18.0
 =======
 "Clienții propun feedback prin email; Odoo creează automat sarcini, iar tu "
 "poți comunica direct pe sarcină."
@@ -2916,7 +3459,12 @@ msgstr ""
 #: code:addons/project/models/project_project.py:0
 msgid "Customers will be added to the followers of their project and tasks."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Clienții vor fi adăugați la urmăritorii lor proiect și sarcini."
+=======
+msgstr ""
+"Clienții vor fi adăugați la urmăritorii proiectului și sarcinilor lor."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Clienții vor fi adăugați la urmăritorii proiectului și sarcinilor lor."
@@ -2951,6 +3499,11 @@ msgid ""
 "Based on this information you can identify tasks that are stalling and get statistics on the time it usually takes to move tasks from one stage/state to another."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Data la care starea sarcinii a fost modificată ultima dată.\n"
+"Pe baza acestei informații puteți identifica sarcinile blocate și obține statistici despre timpul necesar pentru a muta sarcinile dintr-o etapă/stare în alta."
+>>>>>>> upstream/18.0
 =======
 "Data la care starea sarcinii a fost modificată ultima dată.\n"
 "Pe baza acestei informații puteți identifica sarcinile blocate și obține statistici despre timpul necesar pentru a muta sarcinile dintr-o etapă/stare în alta."
@@ -2973,8 +3526,13 @@ msgid ""
 msgstr ""
 "Data la care această sarcină a fost ultima dată atribuită (sau "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "dezatribuită). Pe baza acestor informații puteți obține statistici despre "
 "timpul necesar "
+=======
+"dezatribuită). Pe baza acesteia, puteți obține statistici despre timpul "
+"necesar pentru a atribui sarcini."
+>>>>>>> upstream/18.0
 =======
 "dezatribuită). Pe baza acesteia, puteți obține statistici despre timpul "
 "necesar pentru a atribui sarcini."
@@ -3003,7 +3561,11 @@ msgstr "Zile până la termenul limită"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_project_base
 msgid "Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Termen limita"
+=======
+msgstr "Termen limită"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită"
 >>>>>>> upstream/18.0
@@ -3027,10 +3589,15 @@ msgid ""
 "                solving a task or an issue."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Definește pașii ce vor fi ce vor fi folosiți în proiect de la\n"
 "                crearea unei sarcini până la închiderea sarcinii ori problemei.\n"
 "                Vei folosi aceste stadii pentru a urmări progresul în\n"
 "                rezolvarea sarcinii sau problemei."
+=======
+"Definește pașii care vor fi folosiți în proiect de la crearea sarcinii până la închiderea sarcinii sau problemei.\n"
+"Vei folosi aceste etape pentru a urmări progresul în rezolvarea unei sarcini sau probleme."
+>>>>>>> upstream/18.0
 =======
 "Definește pașii care vor fi folosiți în proiect de la crearea sarcinii până la închiderea sarcinii sau problemei.\n"
 "Vei folosi aceste etape pentru a urmări progresul în rezolvarea unei sarcini sau probleme."
@@ -3042,8 +3609,12 @@ msgid ""
 "Define the steps your projects move through from creation to completion."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Definește pașii prin care proiectele tale trec de la creare până la "
 "finalizare."
+=======
+"Definește pașii prin care proiectele tale trec de la creare la finalizare."
+>>>>>>> upstream/18.0
 =======
 "Definește pașii prin care proiectele tale trec de la creare la finalizare."
 >>>>>>> upstream/18.0
@@ -3053,8 +3624,12 @@ msgstr ""
 msgid "Define the steps your tasks move through from creation to completion."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Definește pașii prin care sarcinile tale trec de la creare până la "
 "finalizare."
+=======
+"Definește pașii prin care sarcinile tale trec de la creare la finalizare."
+>>>>>>> upstream/18.0
 =======
 "Definește pașii prin care sarcinile tale trec de la creare la finalizare."
 >>>>>>> upstream/18.0
@@ -3081,7 +3656,11 @@ msgstr "Șterge etapă"
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_stage_delete_wizard
 msgid "Delete Project Stage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Șterge etapa proiectului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șterge etapa proiectului"
 >>>>>>> upstream/18.0
@@ -3095,7 +3674,11 @@ msgstr "Șterge etapa proiectului"
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_unarchive_wizard
 msgid "Delete Stage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ștergeți etapa"
+=======
+msgstr "Șterge etapa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șterge etapa"
 >>>>>>> upstream/18.0
@@ -3107,8 +3690,13 @@ msgid ""
 "it to a sales order item."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Livrați serviciile dumneavoastră automat atunci când o etapă este atinsă "
 "prin legarea acesteia la un element din comanda de vânzare."
+=======
+"Livrați serviciile automat când o etapă este atinsă, legând-o de un articol "
+"dintr-o comandă de vânzare."
+>>>>>>> upstream/18.0
 =======
 "Livrați serviciile automat când o etapă este atinsă, legând-o de un articol "
 "dintr-o comandă de vânzare."
@@ -3130,7 +3718,11 @@ msgstr "Sarcini dependente"
 #: model:ir.model.fields,field_description:project.field_project_task__depend_on_count
 msgid "Depending on Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "În funcție de sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "În funcție de sarcini"
 >>>>>>> upstream/18.0
@@ -3225,7 +3817,11 @@ msgstr "Nume afișat"
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Display the sub-task in your pipeline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afișează sub-sarcina în fluxul tău"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează sub-sarcina în fluxul tău"
 >>>>>>> upstream/18.0
@@ -3273,6 +3869,12 @@ msgid ""
 "which the tasks can be transferred after the selected ones are deleted."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Fiecare utilizator ar trebui să aibă cel puțin o etapă personală. Creați o "
+"etapă nouă către care sarcinile pot fi transferate după ce cele selectate "
+"sunt șterse."
+>>>>>>> upstream/18.0
 =======
 "Fiecare utilizator ar trebui să aibă cel puțin o etapă personală. Creați o "
 "etapă nouă către care sarcinile pot fi transferate după ce cele selectate "
@@ -3288,7 +3890,11 @@ msgstr "Editare"
 #: model:ir.model.fields.selection,name:project.selection__project_share_collaborator_wizard__access_mode__edit_limited
 msgid "Edit with limited access"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Editare cu acces limitat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Editare cu acces limitat"
 >>>>>>> upstream/18.0
@@ -3300,6 +3906,11 @@ msgid ""
 "in the Kanban view."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Editare cu acces limitat: colaboratorii pot vizualiza și edita sarcinile pe "
+"care le urmăresc în vizualizarea Kanban."
+>>>>>>> upstream/18.0
 =======
 "Editare cu acces limitat: colaboratorii pot vizualiza și edita sarcinile pe "
 "care le urmăresc în vizualizarea Kanban."
@@ -3312,6 +3923,11 @@ msgid ""
 "Additionally, they can choose which tasks they want to follow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Editare: colaboratorii pot vizualiza și edita toate sarcinile în "
+"vizualizarea Kanban. În plus, pot alege ce sarcini doresc să urmărească."
+>>>>>>> upstream/18.0
 =======
 "Editare: colaboratorii pot vizualiza și edita toate sarcinile în "
 "vizualizarea Kanban. În plus, pot alege ce sarcini doresc să urmărească."
@@ -3364,7 +3980,11 @@ msgstr "E-mailuri trimise către"
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_messages.xml:0
 msgid "Employees Only"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Doar Angajatii"
+=======
+msgstr "Doar angajați"
+>>>>>>> upstream/18.0
 =======
 msgstr "Doar angajați"
 >>>>>>> upstream/18.0
@@ -3431,7 +4051,11 @@ msgstr "Favorite"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Favorite Projects"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proiecte favorite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiecte favorite"
 >>>>>>> upstream/18.0
@@ -3441,7 +4065,11 @@ msgstr "Proiecte favorite"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Final Document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Document Final"
+=======
+msgstr "Document final"
+>>>>>>> upstream/18.0
 =======
 msgstr "Document final"
 >>>>>>> upstream/18.0
@@ -3468,7 +4096,11 @@ msgstr "Urmărește"
 #: model_terms:ir.ui.view,arch_db:project.portal_my_home
 msgid "Follow and comments tasks of your projects"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urmărește și comentează sarcinile proiectelor tale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmărește și comentează sarcinile proiectelor tale"
 >>>>>>> upstream/18.0
@@ -3477,7 +4109,11 @@ msgstr "Urmărește și comentează sarcinile proiectelor tale"
 #: model_terms:ir.ui.view,arch_db:project.portal_my_home
 msgid "Follow the evolution of your projects"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urmărește evoluția proiectelor tale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmărește evoluția proiectelor tale"
 >>>>>>> upstream/18.0
@@ -3514,7 +4150,11 @@ msgstr "Urmăritori (Parteneri)"
 #: model:ir.model.fields,help:project.field_project_update__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictogramă Font awesome, de ex. fa-sarcini"
+=======
+msgstr "Pictogramă Font awesome, ex. fa-tasks"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă Font awesome, ex. fa-tasks"
 >>>>>>> upstream/18.0
@@ -3524,7 +4164,11 @@ msgstr "Pictogramă Font awesome, ex. fa-tasks"
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_type__forever
 msgid "Forever"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pentru totdeauna"
+=======
+msgstr "Permanent"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permanent"
 >>>>>>> upstream/18.0
@@ -3560,6 +4204,10 @@ msgstr ""
 msgid "Get customer feedback and evaluate the performance of your employees"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Obțineți feedback de la clienți și evaluați performanța angajaților dvs."
+>>>>>>> upstream/18.0
 =======
 "Obțineți feedback de la clienți și evaluați performanța angajaților dvs."
 >>>>>>> upstream/18.0
@@ -3569,7 +4217,11 @@ msgstr ""
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Give the sub-task a <b>name</b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dați sub-sarcinii un <b>nume</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dați sub-sarcinii un <b>nume</b>"
 >>>>>>> upstream/18.0
@@ -3578,7 +4230,11 @@ msgstr "Dați sub-sarcinii un <b>nume</b>"
 #: model_terms:ir.ui.view,arch_db:project.project_share_wizard_confirm_form
 msgid "Grant Portal Access"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Permite Acces Portal"
+=======
+msgstr "Acordă acces la portal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acordă acces la portal"
 >>>>>>> upstream/18.0
@@ -3591,6 +4247,12 @@ msgid ""
 " Employees automatically get access to the tasks they are assigned to."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Acordați angajaților acces la proiectul sau sarcinile dvs. adăugându-i ca "
+"urmăritori. Angajații primesc automat acces la sarcinile care le sunt "
+"atribuite."
+>>>>>>> upstream/18.0
 =======
 "Acordați angajaților acces la proiectul sau sarcinile dvs. adăugându-i ca "
 "urmăritori. Angajații primesc automat acces la sarcinile care le sunt "
@@ -3606,6 +4268,12 @@ msgid ""
 " user, add them as followers for these tasks."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Acordați utilizatorilor portalului acces la proiectul dvs. adăugându-i ca "
+"urmăritori (sarcinile proiectului nu sunt incluse). Pentru a acorda acces la"
+" sarcini unui utilizator portal, adăugați-l ca urmăritor la acele sarcini."
+>>>>>>> upstream/18.0
 =======
 "Acordați utilizatorilor portalului acces la proiectul dvs. adăugându-i ca "
 "urmăritori (sarcinile proiectului nu sunt incluse). Pentru a acorda acces la"
@@ -3627,6 +4295,11 @@ msgid ""
 " in the chatter of the tasks."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Gestionează colectarea ideilor în cadrul Sarcinilor noului tău Proiect și "
+"discută-le în chatter-ul sarcinilor."
+>>>>>>> upstream/18.0
 =======
 "Gestionează colectarea ideilor în cadrul Sarcinilor noului tău Proiect și "
 "discută-le în chatter-ul sarcinilor."
@@ -3637,7 +4310,11 @@ msgstr ""
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Handoff"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Predare "
+=======
+msgstr "Predare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predare"
 >>>>>>> upstream/18.0
@@ -3666,7 +4343,11 @@ msgstr "Bună"
 #: code:addons/project/static/src/components/notebook_task_one2many_field/notebook_task_list_renderer.js:0
 msgid "Hide closed tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ascunde sarcinile închise"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ascunde sarcinile închise"
 >>>>>>> upstream/18.0
@@ -3675,7 +4356,11 @@ msgstr "Ascunde sarcinile închise"
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Hide the sub-task in your pipeline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ascunde sub-sarcina din fluxul tău"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ascunde sub-sarcina din fluxul tău"
 >>>>>>> upstream/18.0
@@ -3685,7 +4370,11 @@ msgstr "Ascunde sub-sarcina din fluxul tău"
 #: model:ir.model.fields.selection,name:project.selection__report_project_task_user__priority__1
 msgid "High"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ridicat"
+=======
+msgstr "Ridicată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ridicată"
 >>>>>>> upstream/18.0
@@ -3699,7 +4388,11 @@ msgstr "Istoric"
 #: model:ir.model.fields,field_description:project.field_project_task__html_field_history
 msgid "History data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Date istoric"
+>>>>>>> upstream/18.0
 =======
 msgstr "Date istoric"
 >>>>>>> upstream/18.0
@@ -3708,7 +4401,11 @@ msgstr "Date istoric"
 #: model:ir.model.fields,field_description:project.field_project_task__html_field_history_metadata
 msgid "History metadata"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metadate istoric"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metadate istoric"
 >>>>>>> upstream/18.0
@@ -3723,7 +4420,11 @@ msgstr "Acasă"
 #: model:project.project,name:project.project_home_construction
 msgid "Home Construction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Construcție locuință"
+>>>>>>> upstream/18.0
 =======
 msgstr "Construcție locuință"
 >>>>>>> upstream/18.0
@@ -3732,7 +4433,11 @@ msgstr "Construcție locuință"
 #: model:project.project,name:project.project_project_4
 msgid "Home Make Over"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Renovare locuință"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renovare locuință"
 >>>>>>> upstream/18.0
@@ -3773,8 +4478,13 @@ msgid ""
 " creation alias)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID-ul înregistrării părinte care deține aliasul (exemplu: proiectul care "
+"deține aliasul de creare a sarcinii)"
+>>>>>>> upstream/18.0
 =======
 "ID-ul înregistrării părinte care deține aliasul (exemplu: proiectul care "
 "deține aliasul de creare a sarcinii)"
@@ -3793,7 +4503,11 @@ msgstr "Pictogramă"
 #: model:ir.model.fields,help:project.field_project_update__activity_exception_icon
 msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictograma care indică o activitate de excepție."
+=======
+msgstr "Pictogramă care indică o activitate de excepție."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă care indică o activitate de excepție."
 >>>>>>> upstream/18.0
@@ -3811,7 +4525,11 @@ msgstr "Idei"
 #: model:ir.model.fields,help:project.field_project_update__message_needaction
 msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifat, mesaje noi necesită atenția dumneavoastră."
+=======
+msgstr "Dacă este bifat, mesajele noi necesită atenția dvs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, mesajele noi necesită atenția dvs."
 >>>>>>> upstream/18.0
@@ -3827,7 +4545,11 @@ msgstr "Dacă este bifat, mesajele noi necesită atenția dvs."
 #: model:ir.model.fields,help:project.field_project_update__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifată, există mesaje cu eroare de livrare."
+=======
+msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
 >>>>>>> upstream/18.0
@@ -3840,8 +4562,13 @@ msgid ""
 msgstr ""
 "Dacă este activată, această etapă va fi afișată ca pliată în vizualizarea "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kanban a proiectelor dumneavoastră. Proiectele într-o etapă pliată sunt "
 "considerate închise."
+=======
+"Kanban a proiectelor tale. Proiectele într-o etapă pliată sunt considerate "
+"închise."
+>>>>>>> upstream/18.0
 =======
 "Kanban a proiectelor tale. Proiectele într-o etapă pliată sunt considerate "
 "închise."
@@ -3855,6 +4582,12 @@ msgid ""
 "To use this feature make sure that the 'Customer Ratings' option is enabled on your project."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dacă este setat, o solicitare de evaluare va fi trimisă automat prin e-mail clientului când sarcina ajunge în această etapă.\n"
+"Alternativ, va fi trimisă la un interval regulat atât timp cât sarcina rămâne în această etapă, în funcție de configurația proiectului.\n"
+"Pentru a folosi această funcționalitate, asigurați-vă că opțiunea 'Evaluări clienți' este activată pe proiect."
+>>>>>>> upstream/18.0
 =======
 "Dacă este setat, o solicitare de evaluare va fi trimisă automat prin e-mail clientului când sarcina ajunge în această etapă.\n"
 "Alternativ, va fi trimisă la un interval regulat atât timp cât sarcina rămâne în această etapă, în funcție de configurația proiectului.\n"
@@ -3868,6 +4601,11 @@ msgid ""
 " reaches this stage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dacă este setat, un e-mail va fi trimis automat clientului când proiectul "
+"ajunge în această etapă."
+>>>>>>> upstream/18.0
 =======
 "Dacă este setat, un e-mail va fi trimis automat clientului când proiectul "
 "ajunge în această etapă."
@@ -3880,6 +4618,11 @@ msgid ""
 "reaches this stage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dacă este setat, un e-mail va fi trimis automat clientului când sarcina "
+"ajunge în această etapă."
+>>>>>>> upstream/18.0
 =======
 "Dacă este setat, un e-mail va fi trimis automat clientului când sarcina "
 "ajunge în această etapă."
@@ -3893,7 +4636,11 @@ msgid ""
 msgstr ""
 "Dacă este setat, acest conținut va fi trimis automat utilizatorilor "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "neautorizați în loc de mesajul implicit."
+=======
+"neautorizați în locul mesajului implicit."
+>>>>>>> upstream/18.0
 =======
 "neautorizați în locul mesajului implicit."
 >>>>>>> upstream/18.0
@@ -3915,7 +4662,11 @@ msgstr "În desfășurare"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "In development"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "în dezvoltare"
+=======
+msgstr "În dezvoltare"
+>>>>>>> upstream/18.0
 =======
 msgstr "În dezvoltare"
 >>>>>>> upstream/18.0
@@ -3927,7 +4678,11 @@ msgstr "În dezvoltare"
 #: model:project.task.type,name:project.project_personal_stage_demo_0
 msgid "Inbox"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Casuța poștală"
+=======
+msgstr "Inbox"
+>>>>>>> upstream/18.0
 =======
 msgstr "Inbox"
 >>>>>>> upstream/18.0
@@ -3936,7 +4691,11 @@ msgstr "Inbox"
 #: model:project.tags,name:project.project_tags_09
 msgid "Interior"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Interior"
+>>>>>>> upstream/18.0
 =======
 msgstr "Interior"
 >>>>>>> upstream/18.0
@@ -3951,7 +4710,11 @@ msgstr "Intern"
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_messages.xml:0
 msgid "Internal Note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nota interna"
+=======
+msgstr "Notă internă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Notă internă"
 >>>>>>> upstream/18.0
@@ -3972,7 +4735,11 @@ msgstr ""
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_messages.xml:0
 msgid "Internal notes are only displayed to internal users."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Notele interne sunt afișate numai utilizatorilor interni."
+=======
+msgstr "Notele interne sunt afișate doar utilizatorilor interni."
+>>>>>>> upstream/18.0
 =======
 msgstr "Notele interne sunt afișate doar utilizatorilor interni."
 >>>>>>> upstream/18.0
@@ -4009,7 +4776,11 @@ msgstr "Facturat"
 #: model_terms:ir.ui.view,arch_db:project.project_task_burndown_chart_report_view_search
 msgid "Is Closed (Burn-up Chart)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este închis (Grafic Burn-up)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este închis (Grafic Burn-up)"
 >>>>>>> upstream/18.0
@@ -4028,7 +4799,11 @@ msgstr "Este urmăritor"
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_state_selection.js:0
 msgid "Is toggle mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este mod comutare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este mod comutare"
 >>>>>>> upstream/18.0
@@ -4037,7 +4812,11 @@ msgstr "Este mod comutare"
 #: model_terms:ir.ui.view,arch_db:project.project_tags_search_view
 msgid "Issue Version"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Versiune Problema"
+=======
+msgstr "Versiune problemă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Versiune problemă"
 >>>>>>> upstream/18.0
@@ -4048,7 +4827,11 @@ msgstr "Versiune problemă"
 msgid "JSON that maps ids from a many2one field to seconds spent"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "JSON care mapează id-urile dintr-un câmp many2one la secunde petrecute"
+=======
+"JSON care map-ează id-urile dintr-un câmp many2one la secunde petrecute"
+>>>>>>> upstream/18.0
 =======
 "JSON care map-ează id-urile dintr-un câmp many2one la secunde petrecute"
 >>>>>>> upstream/18.0
@@ -4063,6 +4846,11 @@ msgid ""
 "                    Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Urmăriți progresul sarcinilor dvs. de la creare până la finalizare.<br>\n"
+"                    Colaborați eficient discutând în timp real sau prin e-mail."
+>>>>>>> upstream/18.0
 =======
 "Urmăriți progresul sarcinilor dvs. de la creare până la finalizare.<br>\n"
 "                    Colaborați eficient discutând în timp real sau prin e-mail."
@@ -4076,6 +4864,11 @@ msgid ""
 "                Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Urmăriți progresul sarcinilor dvs. de la creare până la finalizare.<br>\n"
+"                Colaborați eficient discutând în timp real sau prin e-mail."
+>>>>>>> upstream/18.0
 =======
 "Urmăriți progresul sarcinilor dvs. de la creare până la finalizare.<br>\n"
 "                Colaborați eficient discutând în timp real sau prin e-mail."
@@ -4086,7 +4879,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Last 30 Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultimele 30 zile"
+=======
+msgstr "Ultimele 30 de zile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultimele 30 de zile"
 >>>>>>> upstream/18.0
@@ -4096,7 +4893,11 @@ msgstr "Ultimele 30 de zile"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Last 365 Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultimile 365 de zile"
+=======
+msgstr "Ultimele 365 de zile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultimele 365 de zile"
 >>>>>>> upstream/18.0
@@ -4110,7 +4911,11 @@ msgstr "Ultimele 7 zile"
 #: model_terms:ir.ui.view,arch_db:project.project_task_burndown_chart_report_view_search
 msgid "Last Month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima lună"
+=======
+msgstr "Luna trecută"
+>>>>>>> upstream/18.0
 =======
 msgstr "Luna trecută"
 >>>>>>> upstream/18.0
@@ -4123,7 +4928,11 @@ msgid "Last Rating (1-5)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ultima evaluare (1-5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima evaluare (1-5)"
 >>>>>>> upstream/18.0
@@ -4149,7 +4958,11 @@ msgstr "Ultima evaluare (1-5)"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Last Stage Update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima etapă actualizată"
+=======
+msgstr "Ultima actualizare a etapei"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare a etapei"
 >>>>>>> upstream/18.0
@@ -4158,7 +4971,11 @@ msgstr "Ultima actualizare a etapei"
 #: model:ir.model.fields,field_description:project.field_project_task__write_date
 msgid "Last Updated On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima Actualizare În"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -4180,7 +4997,11 @@ msgstr "Ultima actualizare la"
 #: model:ir.model.fields,field_description:project.field_project_update__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de către"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare de către"
 >>>>>>> upstream/18.0
@@ -4201,7 +5022,11 @@ msgstr "Ultima actualizare de către"
 #: model:ir.model.fields,field_description:project.field_project_update__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -4216,7 +5041,11 @@ msgstr "Activități întârziate"
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_filter
 msgid "Late Milestones"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etape întârziate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etape întârziate"
 >>>>>>> upstream/18.0
@@ -4234,7 +5063,11 @@ msgstr "Mai târziu"
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "Leave a comment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lăsați un comentariu"
+=======
+msgstr "Lasă un comentariu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lasă un comentariu"
 >>>>>>> upstream/18.0
@@ -4244,7 +5077,11 @@ msgstr "Lasă un comentariu"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Let's create your first <b>project</b>."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Să creăm primul dvs. <b>proiect</b>."
+=======
+msgstr "Să creăm primul tău <b>proiect</b>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Să creăm primul tău <b>proiect</b>."
 >>>>>>> upstream/18.0
@@ -4254,7 +5091,11 @@ msgstr "Să creăm primul tău <b>proiect</b>."
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Let's create your first <b>stage</b>."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Să creăm prima ta <b>etapă</b>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Să creăm prima ta <b>etapă</b>."
 >>>>>>> upstream/18.0
@@ -4270,7 +5111,11 @@ msgstr "Să creăm prima ta <b>sarcină</b>."
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Let's create your second <b>stage</b>."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Să creăm a doua ta <b>etapă</b>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Să creăm a doua ta <b>etapă</b>."
 >>>>>>> upstream/18.0
@@ -4283,6 +5128,10 @@ msgid ""
 "tasks."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Să revenim la <b>vizualizarea kanban</b> pentru a vedea următoarele sarcini."
+>>>>>>> upstream/18.0
 =======
 "Să revenim la <b>vizualizarea kanban</b> pentru a vedea următoarele sarcini."
 >>>>>>> upstream/18.0
@@ -4297,7 +5146,11 @@ msgstr "Să începem să lucrăm la sarcina ta."
 #: model_terms:ir.actions.act_window,help:project.rating_rating_action_task
 msgid "Let's wait for your customers to manifest themselves."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Să așteptăm ca clienții dvs. să se manifeste."
+=======
+msgstr "Să așteptăm ca clienții tăi să se manifeste."
+>>>>>>> upstream/18.0
 =======
 msgstr "Să așteptăm ca clienții tăi să se manifeste."
 >>>>>>> upstream/18.0
@@ -4312,7 +5165,11 @@ msgstr "Live"
 #: model:ir.model.fields,field_description:project.field_project_project__alias_incoming_local
 msgid "Local-part based incoming detection"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Detectare bazată pe partea locală a destinatarului"
+=======
+msgstr "Detectare a mesajelor primite pe baza părții locale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detectare a mesajelor primite pe baza părții locale"
 >>>>>>> upstream/18.0
@@ -4322,7 +5179,11 @@ msgstr "Detectare a mesajelor primite pe baza părții locale"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Logo Design"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Desing Logo"
+=======
+msgstr "Design Logo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Design Logo"
 >>>>>>> upstream/18.0
@@ -4332,7 +5193,11 @@ msgstr "Design Logo"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "Look for the"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută"
 >>>>>>> upstream/18.0
@@ -4342,7 +5207,11 @@ msgstr "Caută"
 #: model:ir.model.fields.selection,name:project.selection__report_project_task_user__priority__0
 msgid "Low"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scăzut"
+=======
+msgstr "Scăzută"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scăzută"
 >>>>>>> upstream/18.0
@@ -4355,6 +5224,11 @@ msgid ""
 "      assign them and use the"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Gestionează ciclul de viață al proiectului tău folosind vizualizarea kanban. Adaugă proiecte nou achiziționate,\n"
+"      atribuie-le și folosește"
+>>>>>>> upstream/18.0
 =======
 "Gestionează ciclul de viață al proiectului tău folosind vizualizarea kanban. Adaugă proiecte nou achiziționate,\n"
 "      atribuie-le și folosește"
@@ -4377,7 +5251,11 @@ msgstr "Marchează ca efectuat"
 #: code:addons/project/static/src/components/project_right_side_panel/components/project_milestone.xml:0
 msgid "Mark as incomplete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marchează ca incomplet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marchează ca incomplet"
 >>>>>>> upstream/18.0
@@ -4387,7 +5265,11 @@ msgstr "Marchează ca incomplet"
 #: code:addons/project/static/src/components/project_right_side_panel/components/project_milestone.xml:0
 msgid "Mark as reached"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marchează ca atins"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marchează ca atins"
 >>>>>>> upstream/18.0
@@ -4397,7 +5279,11 @@ msgstr "Marchează ca atins"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Mark the task as <b>Cancelled</b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marchează sarcina ca <b>Anulată</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marchează sarcina ca <b>Anulată</b>"
 >>>>>>> upstream/18.0
@@ -4407,7 +5293,11 @@ msgstr "Marchează sarcina ca <b>Anulată</b>"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Material Sourcing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sursă Materiale "
+=======
+msgstr "Aprovizionare materiale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprovizionare materiale"
 >>>>>>> upstream/18.0
@@ -4419,6 +5309,11 @@ msgid ""
 "tasks reach a certain stage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Măsurați satisfacția clienților trimițând solicitări de evaluare atunci când"
+" sarcinile dvs. ajung într-o anumită etapă."
+>>>>>>> upstream/18.0
 =======
 "Măsurați satisfacția clienților trimițând solicitări de evaluare atunci când"
 " sarcinile dvs. ajung într-o anumită etapă."
@@ -4467,7 +5362,11 @@ msgstr "Mesaje"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Milestone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapa de referință"
+=======
+msgstr "Etapă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă"
 >>>>>>> upstream/18.0
@@ -4481,7 +5380,11 @@ msgstr "Etapă"
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
 msgid "Milestones"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etape importante"
+=======
+msgstr "Etape"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etape"
 >>>>>>> upstream/18.0
@@ -4491,7 +5394,11 @@ msgstr "Etape"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Mixing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Amestec"
+=======
+msgstr "Amestecare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Amestecare"
 >>>>>>> upstream/18.0
@@ -4508,7 +5415,11 @@ msgstr "Luni"
 #: model:ir.model.fields,field_description:project.field_project_update__my_activity_date_deadline
 msgid "My Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită a activității mele"
+=======
+msgstr "Termen limită activitate proprie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită activitate proprie"
 >>>>>>> upstream/18.0
@@ -4518,7 +5429,11 @@ msgstr "Termen limită activitate proprie"
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "My Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Termenele mele limită"
+=======
+msgstr "Termenul meu limită"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termenul meu limită"
 >>>>>>> upstream/18.0
@@ -4527,7 +5442,11 @@ msgstr "Termenul meu limită"
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_filter
 msgid "My Favorites"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Favorite mele"
+=======
+msgstr "Favoritele mele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Favoritele mele"
 >>>>>>> upstream/18.0
@@ -4549,7 +5468,11 @@ msgstr "Sarcinile mele"
 #: model_terms:ir.ui.view,arch_db:project.project_update_view_search
 msgid "My Updates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualizările mele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizările mele"
 >>>>>>> upstream/18.0
@@ -4573,7 +5496,11 @@ msgstr "Nume"
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Name of the Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numele sarcinilor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numele sarcinilor"
 >>>>>>> upstream/18.0
@@ -4585,6 +5512,11 @@ msgid ""
 "sprints, etc..."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nume folosit pentru a face referire la sarcinile proiectului tău, ex. "
+"sarcini, tichete, sprinturi etc..."
+>>>>>>> upstream/18.0
 =======
 "Nume folosit pentru a face referire la sarcinile proiectului tău, ex. "
 "sarcini, tichete, sprinturi etc..."
@@ -4610,7 +5542,11 @@ msgstr "Nou"
 #: model:project.tags,name:project.project_tags_01
 msgid "New Feature"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Funcționalitate nouă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Funcționalitate nouă"
 >>>>>>> upstream/18.0
@@ -4620,7 +5556,11 @@ msgstr "Funcționalitate nouă"
 #: code:addons/project/static/src/components/project_right_side_panel/project_right_side_panel.js:0
 msgid "New Milestone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "O etapă de referință nouă"
+=======
+msgstr "Etapă nouă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă nouă"
 >>>>>>> upstream/18.0
@@ -4636,7 +5576,11 @@ msgstr "Comenzi noi"
 #: code:addons/project/static/src/views/project_project_calendar/project_project_calendar_controller.js:0
 msgid "New Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proiect nou"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect nou"
 >>>>>>> upstream/18.0
@@ -4646,7 +5590,11 @@ msgstr "Proiect nou"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "New Projects"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Proiecte Noi"
+=======
+msgstr "Proiecte noi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiecte noi"
 >>>>>>> upstream/18.0
@@ -4662,7 +5610,11 @@ msgstr "Cerere nouă"
 #: code:addons/project/static/src/views/project_task_calendar/project_task_calendar_controller.js:0
 msgid "New Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină nouă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină nouă"
 >>>>>>> upstream/18.0
@@ -4691,7 +5643,11 @@ msgstr "Următoarea activitate"
 #: model:ir.model.fields,field_description:project.field_project_update__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Următoarea activitate din calendar"
+=======
+msgstr "Următorul eveniment din calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Următorul eveniment din calendar"
 >>>>>>> upstream/18.0
@@ -4702,7 +5658,11 @@ msgstr "Următorul eveniment din calendar"
 #: model:ir.model.fields,field_description:project.field_project_update__activity_date_deadline
 msgid "Next Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită pentru următoarea activitate"
+=======
+msgstr "Termen limită următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită următoare activitate"
 >>>>>>> upstream/18.0
@@ -4713,7 +5673,11 @@ msgstr "Termen limită următoare activitate"
 #: model:ir.model.fields,field_description:project.field_project_update__activity_summary
 msgid "Next Activity Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sumarul următoarei activități"
+=======
+msgstr "Sumar următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumar următoare activitate"
 >>>>>>> upstream/18.0
@@ -4724,7 +5688,11 @@ msgstr "Sumar următoare activitate"
 #: model:ir.model.fields,field_description:project.field_project_update__activity_type_id
 msgid "Next Activity Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Următorul tip de activitate"
+=======
+msgstr "Tip următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip următoare activitate"
 >>>>>>> upstream/18.0
@@ -4733,7 +5701,11 @@ msgstr "Tip următoare activitate"
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "No Customer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fără client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fără client"
 >>>>>>> upstream/18.0
@@ -4742,7 +5714,11 @@ msgstr "Fără client"
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "No Milestone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fără etapă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fără etapă"
 >>>>>>> upstream/18.0
@@ -4751,7 +5727,11 @@ msgstr "Fără etapă"
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "No Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fără proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fără proiect"
 >>>>>>> upstream/18.0
@@ -4766,7 +5746,11 @@ msgstr "Fără subiect"
 #: model_terms:ir.actions.act_window,help:project.mail_activity_type_action_config_project_types
 msgid "No activity types found. Let's create one!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Niciun tip de activitate găsit. Haide să creăm unul!"
+=======
+msgstr "Nu s-au găsit tipuri de activitate. Să creăm unul!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu s-au găsit tipuri de activitate. Să creăm unul!"
 >>>>>>> upstream/18.0
@@ -4776,7 +5760,11 @@ msgstr "Nu s-au găsit tipuri de activitate. Să creăm unul!"
 #: model_terms:ir.actions.act_window,help:project.rating_rating_action_task
 msgid "No customer ratings yet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu există încă evaluări ale clienților"
+=======
+msgstr "Nu există încă evaluări de la clienți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există încă evaluări de la clienți"
 >>>>>>> upstream/18.0
@@ -4794,7 +5782,11 @@ msgstr "Nu există date încă!"
 #: model_terms:ir.actions.act_window,help:project.open_view_project_all_group_stage
 msgid "No projects found. Let's create one!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu s-a găsit niciun proiect. Să creăm unul!"
+=======
+msgstr "Nu s-au găsit proiecte. Să creăm unul!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu s-au găsit proiecte. Să creăm unul!"
 >>>>>>> upstream/18.0
@@ -4804,7 +5796,11 @@ msgstr "Nu s-au găsit proiecte. Să creăm unul!"
 #: model_terms:ir.actions.act_window,help:project.project_project_stage_configure
 msgid "No stages found. Let's create one!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Niciun stadiu găsit. Haide să creăm unul !"
+=======
+msgstr "Nu s-au găsit etape. Să creăm una!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu s-au găsit etape. Să creăm una!"
 >>>>>>> upstream/18.0
@@ -4813,7 +5809,11 @@ msgstr "Nu s-au găsit etape. Să creăm una!"
 #: model_terms:ir.actions.act_window,help:project.project_tags_action
 msgid "No tags found. Let's create one!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu au fost găsite etichete. Să creăm una!"
+=======
+msgstr "Nu s-au găsit etichete. Să creăm una!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu s-au găsit etichete. Să creăm una!"
 >>>>>>> upstream/18.0
@@ -4843,7 +5843,11 @@ msgstr "Nu s-au găsit actualizări. Să creăm una!"
 #: code:addons/project/controllers/portal.py:0
 msgid "None"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fără"
+=======
+msgstr "Niciunul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niciunul"
 >>>>>>> upstream/18.0
@@ -4853,7 +5857,11 @@ msgstr "Niciunul"
 #: code:addons/project/models/project_task.py:0
 msgid "Not Implemented."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neimplementat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Neimplementat."
 >>>>>>> upstream/18.0
@@ -4901,7 +5909,11 @@ msgstr "Numărul de mesaje cu eroare de livrare"
 #: model_terms:ir.ui.view,arch_db:project.project_update_view_search
 msgid "Off Track"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "În afara traseului"
+>>>>>>> upstream/18.0
 =======
 msgstr "În afara traseului"
 >>>>>>> upstream/18.0
@@ -4916,7 +5928,11 @@ msgstr "Birou"
 #: model:project.project,name:project.project_project_1
 msgid "Office Design"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Design birou"
+>>>>>>> upstream/18.0
 =======
 msgstr "Design birou"
 >>>>>>> upstream/18.0
@@ -4926,7 +5942,11 @@ msgstr "Design birou"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Old Completed Sprint"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprint vechi finalizat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprint vechi finalizat"
 >>>>>>> upstream/18.0
@@ -4944,7 +5964,11 @@ msgstr "În așteptare"
 #: model_terms:ir.ui.view,arch_db:project.project_update_view_search
 msgid "On Track"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pe traseu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pe traseu"
 >>>>>>> upstream/18.0
@@ -4953,7 +5977,11 @@ msgstr "Pe traseu"
 #: model:ir.model.fields.selection,name:project.selection__project_project__rating_status_period__monthly
 msgid "Once a Month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lunar"
+=======
+msgstr "O dată pe lună"
+>>>>>>> upstream/18.0
 =======
 msgstr "O dată pe lună"
 >>>>>>> upstream/18.0
@@ -4963,7 +5991,11 @@ msgstr "O dată pe lună"
 #: code:addons/project/controllers/portal.py:0
 msgid "Only jpeg, png, bmp and tiff images are allowed as attachments."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sunt permise ca atașamente doar imagini jpeg, png, bmp și tiff."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sunt permise ca atașamente doar imagini jpeg, png, bmp și tiff."
 >>>>>>> upstream/18.0
@@ -4974,7 +6006,12 @@ msgstr "Sunt permise ca atașamente doar imagini jpeg, png, bmp și tiff."
 msgid "Oops! Something went wrong. Try to reload the page and log in."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Hopa! Ceva n-a mers bine. Încercați să reîncărcați pagina și conectați-vă."
+=======
+"Hopa! Ceva n-a mers bine. Încercați să reîncărcați pagina și să vă "
+"conectați."
+>>>>>>> upstream/18.0
 =======
 "Hopa! Ceva n-a mers bine. Încercați să reîncărcați pagina și să vă "
 "conectați."
@@ -4992,7 +6029,11 @@ msgstr "Sarcini deschise"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Open sub-tasks notebook section"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deschide secțiunea de sub-sarcini din notebook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Deschide secțiunea de sub-sarcini din notebook"
 >>>>>>> upstream/18.0
@@ -5001,7 +6042,11 @@ msgstr "Deschide secțiunea de sub-sarcini din notebook"
 #: model:ir.model.fields.selection,name:project.selection__project_task_burndown_chart_report__is_closed__open
 msgid "Open tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini deschise"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini deschise"
 >>>>>>> upstream/18.0
@@ -5011,7 +6056,11 @@ msgstr "Sarcini deschise"
 #: code:addons/project/models/project_project.py:0
 msgid "Operation not supported"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Operațiunea nu este acceptată"
+=======
+msgstr "Operațiune neacceptată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operațiune neacceptată"
 >>>>>>> upstream/18.0
@@ -5024,9 +6073,15 @@ msgid ""
 "creation of new records completely."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Id-ul optional al unei înregistrări la care vor fi atașate toate mesajele "
 "primite, chiar dacă nu i-au răspuns. Dacă este setat, acesta va dezactiva "
 "complet crearea de înregistrări noi."
+=======
+"ID opțional al unei conversații (înregistrare) la care vor fi atașate toate "
+"mesajele primite, chiar dacă nu i-au răspuns. Dacă este setat, va dezactiva "
+"complet crearea de noi înregistrări."
+>>>>>>> upstream/18.0
 =======
 "ID opțional al unei conversații (înregistrare) la care vor fi atașate toate "
 "mesajele primite, chiar dacă nu i-au răspuns. Dacă este setat, va dezactiva "
@@ -5038,7 +6093,11 @@ msgstr ""
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "Organize priorities amongst orders using the"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Organizați prioritățile între comenzi folosind"
+>>>>>>> upstream/18.0
 =======
 msgstr "Organizați prioritățile între comenzi folosind"
 >>>>>>> upstream/18.0
@@ -5052,6 +6111,11 @@ msgid ""
 "                    Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Organizați-vă sarcinile distribuindu-le pe fluxul de lucru.<br>\n"
+"                    Colaborați eficient discutând în timp real sau prin e-mail."
+>>>>>>> upstream/18.0
 =======
 "Organizați-vă sarcinile distribuindu-le pe fluxul de lucru.<br>\n"
 "                    Colaborați eficient discutând în timp real sau prin e-mail."
@@ -5073,7 +6137,11 @@ msgstr "Restanță"
 #: model:ir.actions.act_window,name:project.action_view_task_overpassed_draft
 msgid "Overpassed Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcini omise"
+=======
+msgstr "Sarcini depășite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini depășite"
 >>>>>>> upstream/18.0
@@ -5083,7 +6151,11 @@ msgstr "Sarcini depășite"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Page Ideas"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Idei Pagină"
+=======
+msgstr "Idei de pagină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Idei de pagină"
 >>>>>>> upstream/18.0
@@ -5097,7 +6169,11 @@ msgstr "Model părinte"
 #: model:ir.model.fields,field_description:project.field_project_project__alias_parent_thread_id
 msgid "Parent Record Thread ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID-ul thread-ului înregistrării părinte"
+=======
+msgstr "ID conversație înregistrare părinte"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID conversație înregistrare părinte"
 >>>>>>> upstream/18.0
@@ -5119,8 +6195,13 @@ msgid ""
 msgstr ""
 "Modelul părinte care deține aliasul. Modelul care deține referința alias nu "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "este neapărat modelul dat de alias_model_id (example: project (parent_model)"
 " and task (model))"
+=======
+"este neapărat modelul dat de alias_model_id (exemplu: proiect (parent_model)"
+" și sarcină (model))"
+>>>>>>> upstream/18.0
 =======
 "este neapărat modelul dat de alias_model_id (exemplu: proiect (parent_model)"
 " și sarcină (model))"
@@ -5133,6 +6214,10 @@ msgid ""
 "Partner company cannot be different from its assigned projects' company"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Compania partenerului nu poate fi diferită de compania proiectelor atribuite"
+>>>>>>> upstream/18.0
 =======
 "Compania partenerului nu poate fi diferită de compania proiectelor atribuite"
 >>>>>>> upstream/18.0
@@ -5143,6 +6228,10 @@ msgstr ""
 msgid "Partner company cannot be different from its assigned tasks' company"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Compania partenerului nu poate fi diferită de compania sarcinilor atribuite"
+>>>>>>> upstream/18.0
 =======
 "Compania partenerului nu poate fi diferită de compania sarcinilor atribuite"
 >>>>>>> upstream/18.0
@@ -5151,7 +6240,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:project.project_task_action_from_partner
 msgid "Partner's Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcinile partenerului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcinile partenerului"
 >>>>>>> upstream/18.0
@@ -5162,6 +6255,11 @@ msgid ""
 "People invited to collaborate on the project will have portal access rights."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Persoanele invitate să colaboreze la proiect vor avea drepturi de acces la "
+"portal."
+>>>>>>> upstream/18.0
 =======
 "Persoanele invitate să colaboreze la proiect vor avea drepturi de acces la "
 "portal."
@@ -5187,7 +6285,10 @@ msgid ""
 "In any case, an internal user with no project access rights can still access a task, provided that they are given the corresponding URL (and that they are part of the followers if the project is private)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Persoanele cărora acest proiect și sarcinile sale le vor fi vizibile.\n"
 "\n"
 "- Utilizatori interni invitați: când urmăresc un proiect, utilizatorii interni vor avea acces la toate sarcinile acestuia fără distincție. În caz contrar, vor avea acces doar la sarcinile pe care le urmăresc.\n"
@@ -5202,6 +6303,9 @@ msgstr ""
 "Când un proiect este partajat pentru editare, utilizatorul portal este redirecționat către vizualizările kanban și listă ale sarcinilor. Poate modifica un număr selectat de câmpuri pe sarcini.\n"
 "\n"
 "În orice caz, un utilizator intern fără drepturi de acces la proiect poate accesa totuși o sarcină, dacă i se oferă URL-ul corespunzător (și dacă este în lista de urmăritori dacă proiectul este privat)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -5217,7 +6321,11 @@ msgstr "Procentul de evaluări pozitive"
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Personal Stage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stadiu personal"
+=======
+msgstr "Etapă personală"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă personală"
 >>>>>>> upstream/18.0
@@ -5226,7 +6334,11 @@ msgstr "Etapă personală"
 #: model:ir.model.fields,field_description:project.field_project_task__personal_stage_id
 msgid "Personal Stage State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Starea stadiului personal"
+=======
+msgstr "Stare etapă personală"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare etapă personală"
 >>>>>>> upstream/18.0
@@ -5235,7 +6347,11 @@ msgstr "Stare etapă personală"
 #: model:ir.model,name:project.model_project_task_stage_personal
 msgid "Personal Task Stage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapă personală sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă personală sarcină"
 >>>>>>> upstream/18.0
@@ -5254,8 +6370,13 @@ msgid ""
 "to delete."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vă rugăm să eliminați sarcinile existente în proiect legate de conturile pe "
 "care doriți să le ștergeți."
+=======
+"Vă rugăm să eliminați sarcinile existente în proiectul legat de conturile pe"
+" care doriți să le ștergeți."
+>>>>>>> upstream/18.0
 =======
 "Vă rugăm să eliminați sarcinile existente în proiectul legat de conturile pe"
 " care doriți să le ștergeți."
@@ -5266,7 +6387,11 @@ msgstr ""
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Podcast and Video Production"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Podcast și producție video"
+=======
+msgstr "Producție podcast și video"
+>>>>>>> upstream/18.0
 =======
 msgstr "Producție podcast și video"
 >>>>>>> upstream/18.0
@@ -5281,9 +6406,15 @@ msgid ""
 msgstr ""
 "Politica de a posta un mesaj pe document folosind mailgateway.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- toată lumea: toată lumea poate posta\n"
 "- parteneri: numai parteneri autentificați\n"
 "- adepți: numai urmăritori ai documentului aferent sau membri ai canalelor următoare\n"
+=======
+"- toată lumea: oricine poate posta\n"
+"- parteneri: doar partenerii autentificați\n"
+"- urmăritori: doar urmăritorii documentului sau membrii canalelor urmărite\n"
+>>>>>>> upstream/18.0
 =======
 "- toată lumea: oricine poate posta\n"
 "- parteneri: doar partenerii autentificați\n"
@@ -5295,7 +6426,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task__access_url
 msgid "Portal Access URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresa URL de acces la portal"
+=======
+msgstr "URL acces portal"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL acces portal"
 >>>>>>> upstream/18.0
@@ -5308,6 +6443,11 @@ msgid ""
 "tasks."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Utilizatorii portal vor fi eliminați din urmăritorii proiectului și ai "
+"sarcinilor sale."
+>>>>>>> upstream/18.0
 =======
 "Utilizatorii portal vor fi eliminați din urmăritorii proiectului și ai "
 "sarcinilor sale."
@@ -5324,7 +6464,11 @@ msgstr "Anterior"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "Prioritize your tasks by marking important ones using the"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prioritizați-vă sarcinile marcându-le pe cele importante folosind"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prioritizați-vă sarcinile marcându-le pe cele importante folosind"
 >>>>>>> upstream/18.0
@@ -5342,7 +6486,11 @@ msgstr "Prioritate"
 #: model_terms:ir.ui.view,arch_db:project.portal_my_tasks_priority_widget_template
 msgid "Priority: {{'Important' if task.priority == '1' else 'Normal'}}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prioritate: {{'Importantă' if task.priority == '1' else 'Normală'}}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prioritate: {{'Importantă' if task.priority == '1' else 'Normală'}}"
 >>>>>>> upstream/18.0
@@ -5356,7 +6504,11 @@ msgstr "Prioritate: {{'Importantă' if task.priority == '1' else 'Normală'}}"
 #: model_terms:ir.ui.view,arch_db:project.quick_create_task_form
 msgid "Private"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Personal"
+=======
+msgstr "Privat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Privat"
 >>>>>>> upstream/18.0
@@ -5365,7 +6517,11 @@ msgstr "Privat"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Private Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini private"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini private"
 >>>>>>> upstream/18.0
@@ -5378,6 +6534,11 @@ msgid ""
 "the task to gain access to this feature."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sarcinile private nu pot fi convertite în sub-sarcini. Vă rugăm să setați un"
+" proiect pe sarcină pentru a accesa această funcționalitate."
+>>>>>>> upstream/18.0
 =======
 "Sarcinile private nu pot fi convertite în sub-sarcini. Vă rugăm să setați un"
 " proiect pe sarcină pentru a accesa această funcționalitate."
@@ -5389,7 +6550,11 @@ msgstr ""
 #: code:addons/project/static/src/components/project_right_side_panel/project_right_side_panel.xml:0
 msgid "Profitability"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rentabilitatea"
+=======
+msgstr "Profitabilitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Profitabilitate"
 >>>>>>> upstream/18.0
@@ -5400,7 +6565,11 @@ msgstr "Profitabilitate"
 #: model_terms:ir.ui.view,arch_db:project.project_update_view_tree
 msgid "Progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "În desfășurare"
+=======
+msgstr "Progres"
+>>>>>>> upstream/18.0
 =======
 msgstr "Progres"
 >>>>>>> upstream/18.0
@@ -5434,7 +6603,11 @@ msgstr "Proiect"
 #: model:ir.model.fields,field_description:project.field_project_project__account_id
 msgid "Project Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contul de proiect"
+=======
+msgstr "Cont proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cont proiect"
 >>>>>>> upstream/18.0
@@ -5446,7 +6619,11 @@ msgstr "Cont proiect"
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_filter
 msgid "Project Manager"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Managerul de proiect"
+=======
+msgstr "Manager proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Manager proiect"
 >>>>>>> upstream/18.0
@@ -5455,7 +6632,11 @@ msgstr "Manager proiect"
 #: model:ir.model,name:project.model_project_milestone
 msgid "Project Milestone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapa de referință a proiectului"
+=======
+msgstr "Etapă proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă proiect"
 >>>>>>> upstream/18.0
@@ -5470,7 +6651,11 @@ msgstr "Nume proiect"
 #: model:ir.model.fields,field_description:project.field_project_task__rating_active
 msgid "Project Rating Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stare evaluare proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare evaluare proiect"
 >>>>>>> upstream/18.0
@@ -5480,7 +6665,11 @@ msgstr "Stare evaluare proiect"
 #: model:ir.model,name:project.model_project_share_wizard
 msgid "Project Sharing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partajare proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partajare proiect"
 >>>>>>> upstream/18.0
@@ -5489,7 +6678,11 @@ msgstr "Partajare proiect"
 #: model:ir.model,name:project.model_project_share_collaborator_wizard
 msgid "Project Sharing Collaborator Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asistent colaborator partajare proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asistent colaborator partajare proiect"
 >>>>>>> upstream/18.0
@@ -5498,7 +6691,11 @@ msgstr "Asistent colaborator partajare proiect"
 #: model:ir.actions.act_window,name:project.project_sharing_project_task_recurring_tasks_action
 msgid "Project Sharing Recurrence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Recurență partajare proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recurență partajare proiect"
 >>>>>>> upstream/18.0
@@ -5507,7 +6704,11 @@ msgstr "Recurență partajare proiect"
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 msgid "Project Sharing: Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partajare proiect: Sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partajare proiect: Sarcină"
 >>>>>>> upstream/18.0
@@ -5516,7 +6717,11 @@ msgstr "Partajare proiect: Sarcină"
 #: model:ir.model,name:project.model_project_project_stage
 msgid "Project Stage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapă proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă proiect"
 >>>>>>> upstream/18.0
@@ -5525,7 +6730,11 @@ msgstr "Etapă proiect"
 #: model:mail.message.subtype,name:project.mt_project_stage_change
 msgid "Project Stage Changed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapă proiect schimbată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă proiect schimbată"
 >>>>>>> upstream/18.0
@@ -5534,7 +6743,11 @@ msgstr "Etapă proiect schimbată"
 #: model:ir.model,name:project.model_project_project_stage_delete_wizard
 msgid "Project Stage Delete Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asistent ștergere etapă proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asistent ștergere etapă proiect"
 >>>>>>> upstream/18.0
@@ -5545,7 +6758,11 @@ msgstr "Asistent ștergere etapă proiect"
 #: model:ir.ui.menu,name:project.menu_project_config_project_stage
 msgid "Project Stages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etape proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etape proiect"
 >>>>>>> upstream/18.0
@@ -5554,7 +6771,11 @@ msgstr "Etape proiect"
 #: model:ir.model,name:project.model_project_tags
 msgid "Project Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etichete Proiect"
+=======
+msgstr "Etichete proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etichete proiect"
 >>>>>>> upstream/18.0
@@ -5563,7 +6784,11 @@ msgstr "Etichete proiect"
 #: model:ir.model,name:project.model_project_task_type_delete_wizard
 msgid "Project Task Stage Delete Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asistent ștergere etapă sarcină proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asistent ștergere etapă sarcină proiect"
 >>>>>>> upstream/18.0
@@ -5572,7 +6797,11 @@ msgstr "Asistent ștergere etapă sarcină proiect"
 #: model_terms:ir.ui.view,arch_db:project.project_task_view_activity
 msgid "Project Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcini Proiect"
+=======
+msgstr "Sarcini proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini proiect"
 >>>>>>> upstream/18.0
@@ -5581,7 +6810,11 @@ msgstr "Sarcini proiect"
 #: model_terms:ir.ui.view,arch_db:project.quick_create_project_form
 msgid "Project Title"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Titlu proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Titlu proiect"
 >>>>>>> upstream/18.0
@@ -5596,7 +6829,11 @@ msgstr "Actualizare proiect"
 #: model:ir.model.fields,field_description:project.field_project_task__project_privacy_visibility
 msgid "Project Visibility"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vizibilitate Proiect"
+=======
+msgstr "Vizibilitate proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vizibilitate proiect"
 >>>>>>> upstream/18.0
@@ -5605,7 +6842,11 @@ msgstr "Vizibilitate proiect"
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Project description..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Descriere proiect..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Descriere proiect..."
 >>>>>>> upstream/18.0
@@ -5615,7 +6856,11 @@ msgstr "Descriere proiect..."
 #: code:addons/project/wizard/project_share_wizard.py:0
 msgid "Project shared with your collaborators."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proiect partajat cu colaboratorii tăi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect partajat cu colaboratorii tăi."
 >>>>>>> upstream/18.0
@@ -5624,7 +6869,11 @@ msgstr "Proiect partajat cu colaboratorii tăi."
 #: model:mail.template,subject:project.project_done_email_template
 msgid "Project status - {{ object.name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stare proiect - {{ object.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare proiect - {{ object.name }}"
 >>>>>>> upstream/18.0
@@ -5633,7 +6882,11 @@ msgstr "Stare proiect - {{ object.name }}"
 #: model:ir.actions.act_window,name:project.dblc_proj
 msgid "Project's tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcini proiect"
+=======
+msgstr "Sarcinile proiectului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcinile proiectului"
 >>>>>>> upstream/18.0
@@ -5642,7 +6895,11 @@ msgstr "Sarcinile proiectului"
 #: model:mail.template,name:project.project_done_email_template
 msgid "Project: Project Completed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proiect: Proiect finalizat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect: Proiect finalizat"
 >>>>>>> upstream/18.0
@@ -5651,7 +6908,11 @@ msgstr "Proiect: Proiect finalizat"
 #: model:mail.template,name:project.mail_template_data_project_task
 msgid "Project: Request Acknowledgment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proiect: Confirmare solicitare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect: Confirmare solicitare"
 >>>>>>> upstream/18.0
@@ -5660,7 +6921,11 @@ msgstr "Proiect: Confirmare solicitare"
 #: model:ir.actions.server,name:project.ir_cron_rating_project_ir_actions_server
 msgid "Project: Send rating"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Proiect: Trimite rating"
+=======
+msgstr "Proiect: Trimite evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect: Trimite evaluare"
 >>>>>>> upstream/18.0
@@ -5669,7 +6934,11 @@ msgstr "Proiect: Trimite evaluare"
 #: model:mail.template,name:project.rating_project_request_email_template
 msgid "Project: Task Rating Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proiect: Solicitare evaluare sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect: Solicitare evaluare sarcină"
 >>>>>>> upstream/18.0
@@ -5702,6 +6971,11 @@ msgid ""
 "Projects contain tasks on the same topic, and each has its own dashboard."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Proiectele conțin sarcini pe aceeași temă și fiecare are propriul tablou de "
+"bord."
+>>>>>>> upstream/18.0
 =======
 "Proiectele conțin sarcini pe aceeași temă și fiecare are propriul tablou de "
 "bord."
@@ -5715,6 +6989,12 @@ msgid ""
 "information this way."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Proiecte în care această etapă este prezentă. Dacă urmezi un flux de lucru "
+"similar în mai multe proiecte, poți partaja această etapă între ele și "
+"obține informații consolidate astfel."
+>>>>>>> upstream/18.0
 =======
 "Proiecte în care această etapă este prezentă. Dacă urmezi un flux de lucru "
 "similar în mai multe proiecte, poți partaja această etapă între ele și "
@@ -5732,7 +7012,11 @@ msgstr "Proprietăți"
 #: model:ir.model.fields,field_description:project.field_project_share_wizard__share_link
 msgid "Public Link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Link public"
+>>>>>>> upstream/18.0
 =======
 msgstr "Link public"
 >>>>>>> upstream/18.0
@@ -5748,7 +7032,11 @@ msgstr "Publicat"
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_messages.xml:0
 msgid "Published on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Publicat în"
+=======
+msgstr "Publicat pe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Publicat pe"
 >>>>>>> upstream/18.0
@@ -5772,6 +7060,12 @@ msgid ""
 "icon."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Verifică rapid starea sarcinilor pentru aprobări sau solicitări de "
+"modificare și identifică-le pe cele în așteptare până când dependențele sunt"
+" rezolvate cu pictograma clepsidră."
+>>>>>>> upstream/18.0
 =======
 "Verifică rapid starea sarcinilor pentru aprobări sau solicitări de "
 "modificare și identifică-le pe cele în așteptare până când dependențele sunt"
@@ -5794,7 +7088,11 @@ msgstr "Evaluare (/5)"
 #: model_terms:ir.ui.view,arch_db:project.rating_rating_view_pivot
 msgid "Rating (1-5)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evaluare (1-5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare (1-5)"
 >>>>>>> upstream/18.0
@@ -5803,7 +7101,11 @@ msgstr "Evaluare (1-5)"
 #: model:ir.model.fields,field_description:project.field_project_task__rating_avg_text
 msgid "Rating Avg Text"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Textul mediu al evaluării"
+=======
+msgstr "Text medie evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Text medie evaluare"
 >>>>>>> upstream/18.0
@@ -5812,7 +7114,11 @@ msgstr "Text medie evaluare"
 #: model:ir.model.fields,field_description:project.field_project_task_type__rating_template_id
 msgid "Rating Email Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Șablon email de evaluare"
+=======
+msgstr "Șablon email evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șablon email evaluare"
 >>>>>>> upstream/18.0
@@ -5826,7 +7132,11 @@ msgstr "Frecvență evaluare"
 #: model:ir.model.fields,field_description:project.field_project_task__rating_last_feedback
 msgid "Rating Last Feedback"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare Ultimul feedback"
+=======
+msgstr "Ultimul feedback evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultimul feedback evaluare"
 >>>>>>> upstream/18.0
@@ -5835,7 +7145,11 @@ msgstr "Ultimul feedback evaluare"
 #: model:ir.model.fields,field_description:project.field_project_task__rating_last_image
 msgid "Rating Last Image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare ultima imagine"
+=======
+msgstr "Ultima imagine evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima imagine evaluare"
 >>>>>>> upstream/18.0
@@ -5844,7 +7158,11 @@ msgstr "Ultima imagine evaluare"
 #: model:ir.model.fields,field_description:project.field_project_task__rating_last_value
 msgid "Rating Last Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare ultima valoare"
+=======
+msgstr "Ultima valoare evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima valoare evaluare"
 >>>>>>> upstream/18.0
@@ -5854,7 +7172,11 @@ msgstr "Ultima valoare evaluare"
 #: model:ir.model.fields,field_description:project.field_project_task__rating_percentage_satisfaction
 msgid "Rating Satisfaction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare satisfacție"
+=======
+msgstr "Satisfacție evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satisfacție evaluare"
 >>>>>>> upstream/18.0
@@ -5863,7 +7185,11 @@ msgstr "Satisfacție evaluare"
 #: model:ir.model.fields,field_description:project.field_project_task__rating_last_text
 msgid "Rating Text"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare text"
+=======
+msgstr "Text evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Text evaluare"
 >>>>>>> upstream/18.0
@@ -5872,7 +7198,11 @@ msgstr "Text evaluare"
 #: model:ir.model.fields,field_description:project.field_project_task__rating_count
 msgid "Rating count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Număr de evaluări"
+=======
+msgstr "Număr evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr evaluări"
 >>>>>>> upstream/18.0
@@ -5886,7 +7216,11 @@ msgstr "Număr evaluări"
 #: model:ir.model.fields,field_description:project.field_project_update__rating_ids
 msgid "Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ratings"
+=======
+msgstr "Evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluări"
 >>>>>>> upstream/18.0
@@ -5900,7 +7234,11 @@ msgstr "Atins"
 #: model:ir.model.fields.selection,name:project.selection__project_share_collaborator_wizard__access_mode__read
 msgid "Read"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Citiți"
+=======
+msgstr "Citire"
+>>>>>>> upstream/18.0
 =======
 msgstr "Citire"
 >>>>>>> upstream/18.0
@@ -5909,7 +7247,11 @@ msgstr "Citire"
 #: model_terms:ir.ui.view,arch_db:project.project_share_wizard_view_form
 msgid "Read: collaborators can view tasks but cannot edit them."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Citire: colaboratorii pot vedea sarcinile dar nu le pot edita."
+>>>>>>> upstream/18.0
 =======
 msgstr "Citire: colaboratorii pot vedea sarcinile dar nu le pot edita."
 >>>>>>> upstream/18.0
@@ -5922,6 +7264,12 @@ msgid ""
 "Edit: collaborators can view and edit all tasks in the Kanban view. Additionally, they can choose which tasks they want to follow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Citire: colaboratorii pot vedea sarcinile dar nu le pot edita.\n"
+"Editare cu acces limitat: colaboratorii pot vedea și edita sarcinile pe care le urmăresc în vizualizarea Kanban.\n"
+"Editare: colaboratorii pot vedea și edita toate sarcinile în vizualizarea Kanban. În plus, pot alege ce sarcini doresc să urmărească."
+>>>>>>> upstream/18.0
 =======
 "Citire: colaboratorii pot vedea sarcinile dar nu le pot edita.\n"
 "Editare cu acces limitat: colaboratorii pot vedea și edita sarcinile pe care le urmăresc în vizualizarea Kanban.\n"
@@ -5932,7 +7280,11 @@ msgstr ""
 #: model:mail.template,subject:project.mail_template_data_project_task
 msgid "Reception of {{ object.name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Recepție {{ object.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recepție {{ object.name }}"
 >>>>>>> upstream/18.0
@@ -5946,7 +7298,11 @@ msgstr "Destinatari"
 #: model:ir.model.fields,field_description:project.field_project_project__alias_force_thread_id
 msgid "Record Thread ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID Înregistrare Thread"
+=======
+msgstr "ID fir discuție înregistrare"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID fir discuție înregistrare"
 >>>>>>> upstream/18.0
@@ -5971,7 +7327,11 @@ msgstr "Recurent"
 #: model_terms:ir.ui.view,arch_db:project.portal_layout
 msgid "Recurrent tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini recurente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini recurente"
 >>>>>>> upstream/18.0
@@ -5982,7 +7342,11 @@ msgstr "Sarcini recurente"
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Recurring Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini recurente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini recurente"
 >>>>>>> upstream/18.0
@@ -5997,7 +7361,11 @@ msgstr "Respins"
 #: model:ir.model.fields,field_description:project.field_project_share_wizard__resource_ref
 msgid "Related Document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Document Related"
+=======
+msgstr "Document asociat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Document asociat"
 >>>>>>> upstream/18.0
@@ -6006,7 +7374,11 @@ msgstr "Document asociat"
 #: model:ir.model.fields,field_description:project.field_project_share_wizard__res_id
 msgid "Related Document ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID Document Asociat"
+=======
+msgstr "ID document asociat"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID document asociat"
 >>>>>>> upstream/18.0
@@ -6015,7 +7387,11 @@ msgstr "ID document asociat"
 #: model:ir.model.fields,field_description:project.field_project_share_wizard__res_model
 msgid "Related Document Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modelul Documentului Asociat"
+=======
+msgstr "Model document asociat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Model document asociat"
 >>>>>>> upstream/18.0
@@ -6025,7 +7401,11 @@ msgstr "Model document asociat"
 #: code:addons/project/static/src/core/web/follower_list_patch.js:0
 msgid "Remove Collaborator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elimină colaborator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elimină colaborator"
 >>>>>>> upstream/18.0
@@ -6035,7 +7415,11 @@ msgstr "Elimină colaborator"
 #: code:addons/project/static/src/components/subtask_kanban_list/subtask_kanban_create/subtask_kanban_create.xml:0
 msgid "Rename"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Redenumire"
+=======
+msgstr "Redenumește"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redenumește"
 >>>>>>> upstream/18.0
@@ -6045,7 +7429,11 @@ msgstr "Redenumește"
 #: model:project.project,name:project.project_project_3
 msgid "Renovations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Renovări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renovări"
 >>>>>>> upstream/18.0
@@ -6055,7 +7443,11 @@ msgstr "Renovări"
 #: model:ir.model.fields,field_description:project.field_project_task_recurrence__repeat_interval
 msgid "Repeat Every"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Repetă în fiecare"
+=======
+msgstr "Repetă la fiecare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Repetă la fiecare"
 >>>>>>> upstream/18.0
@@ -6075,7 +7467,11 @@ msgstr "Raportare"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Research"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cercetare "
+=======
+msgstr "Cercetare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cercetare"
 >>>>>>> upstream/18.0
@@ -6091,7 +7487,11 @@ msgstr "Cercetare și dezvoltare"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Research Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Proiect Cercetare"
+=======
+msgstr "Proiect de cercetare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect de cercetare"
 >>>>>>> upstream/18.0
@@ -6101,7 +7501,11 @@ msgstr "Proiect de cercetare"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Researching"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cercetare"
+=======
+msgstr "Se cercetează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Se cercetează"
 >>>>>>> upstream/18.0
@@ -6111,7 +7515,11 @@ msgstr "Se cercetează"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Resources Allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocare Resurse"
+=======
+msgstr "Alocare resurse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocare resurse"
 >>>>>>> upstream/18.0
@@ -6128,7 +7536,11 @@ msgstr "Utilizator responsabil"
 #: code:addons/project/static/src/views/project_task_form/project_task_form_controller.js:0
 msgid "Restore"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Restabilire"
+=======
+msgstr "Restaurează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Restaurează"
 >>>>>>> upstream/18.0
@@ -6141,6 +7553,11 @@ msgid ""
 "unsaved changes will be lost."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Restaurarea va înlocui conținutul curent cu versiunea selectată. Orice "
+"modificare nesalvată va fi pierdută."
+>>>>>>> upstream/18.0
 =======
 "Restaurarea va înlocui conținutul curent cu versiunea selectată. Orice "
 "modificare nesalvată va fi pierdută."
@@ -6177,7 +7594,11 @@ msgstr "Față tristă"
 #: code:addons/project/static/src/project_sharing/views/form/project_sharing_form_controller.js:0
 msgid "Save the task to be able to drag images in description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Salvați sarcina pentru a putea trage imagini în descriere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Salvați sarcina pentru a putea trage imagini în descriere"
 >>>>>>> upstream/18.0
@@ -6187,7 +7608,11 @@ msgstr "Salvați sarcina pentru a putea trage imagini în descriere"
 #: code:addons/project/static/src/project_sharing/views/form/project_sharing_form_controller.js:0
 msgid "Save the task to be able to paste images in description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Salvați sarcina pentru a putea lipi imagini în descriere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Salvați sarcina pentru a putea lipi imagini în descriere"
 >>>>>>> upstream/18.0
@@ -6197,7 +7622,11 @@ msgstr "Salvați sarcina pentru a putea lipi imagini în descriere"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Schedule your activity once it is ready."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Programează activitatea când este gata."
+>>>>>>> upstream/18.0
 =======
 msgstr "Programează activitatea când este gata."
 >>>>>>> upstream/18.0
@@ -6207,7 +7636,11 @@ msgstr "Programează activitatea când este gata."
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Script"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Script"
+=======
+msgstr "Scenariu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scenariu"
 >>>>>>> upstream/18.0
@@ -6221,7 +7654,11 @@ msgstr "Caută proiect"
 #: model_terms:ir.ui.view,arch_db:project.project_update_view_search
 msgid "Search Update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută actualizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută actualizare"
 >>>>>>> upstream/18.0
@@ -6231,7 +7668,11 @@ msgstr "Caută actualizare"
 #: code:addons/project/controllers/portal.py:0
 msgid "Search in Assignees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută în responsabili"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în responsabili"
 >>>>>>> upstream/18.0
@@ -6241,7 +7682,11 @@ msgstr "Caută în responsabili"
 #: code:addons/project/controllers/portal.py:0
 msgid "Search in Customer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Căutare în Clienți"
+=======
+msgstr "Caută în clienți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în clienți"
 >>>>>>> upstream/18.0
@@ -6251,7 +7696,11 @@ msgstr "Caută în clienți"
 #: code:addons/project/controllers/portal.py:0
 msgid "Search in Milestone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută în etape"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în etape"
 >>>>>>> upstream/18.0
@@ -6261,7 +7710,11 @@ msgstr "Caută în etape"
 #: code:addons/project/controllers/portal.py:0
 msgid "Search in Priority"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută în prioritate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în prioritate"
 >>>>>>> upstream/18.0
@@ -6271,7 +7724,11 @@ msgstr "Caută în prioritate"
 #: code:addons/project/controllers/portal.py:0
 msgid "Search in Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Căutare în proiect"
+=======
+msgstr "Caută în proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în proiect"
 >>>>>>> upstream/18.0
@@ -6281,7 +7738,11 @@ msgstr "Caută în proiect"
 #: code:addons/project/controllers/portal.py:0
 msgid "Search in Stages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Căutare in Stadii"
+=======
+msgstr "Caută în etape"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în etape"
 >>>>>>> upstream/18.0
@@ -6291,7 +7752,11 @@ msgstr "Caută în etape"
 #: code:addons/project/controllers/portal.py:0
 msgid "Search in Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută în stare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în stare"
 >>>>>>> upstream/18.0
@@ -6301,7 +7766,11 @@ msgstr "Caută în stare"
 #: code:addons/project/controllers/portal.py:0
 msgid "Search%(left)s Tasks%(right)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută%(left)s Sarcini%(right)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută%(left)s Sarcini%(right)s"
 >>>>>>> upstream/18.0
@@ -6317,7 +7786,11 @@ msgstr "Token de securitate"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Select an assignee from the menu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selectează un responsabil din meniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectează un responsabil din meniu"
 >>>>>>> upstream/18.0
@@ -6333,7 +7806,11 @@ msgstr "Trimite"
 #: model:ir.actions.act_window,name:project.action_send_mail_project_task
 msgid "Send Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimiteți e-mail"
+=======
+msgstr "Trimite e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite e-mail"
 >>>>>>> upstream/18.0
@@ -6342,7 +7819,11 @@ msgstr "Trimite e-mail"
 #: model:ir.model.fields,field_description:project.field_project_share_collaborator_wizard__send_invitation
 msgid "Send Invitation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trimite invitație"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite invitație"
 >>>>>>> upstream/18.0
@@ -6356,7 +7837,11 @@ msgstr "Secvență"
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Set Cover Image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Setare imagine copertă"
+=======
+msgstr "Setează imagine copertă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează imagine copertă"
 >>>>>>> upstream/18.0
@@ -6367,7 +7852,11 @@ msgstr "Setează imagine copertă"
 #: model:ir.model.fields.selection,name:project.selection__project_project__last_update_status__to_define
 msgid "Set Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Setează stare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează stare"
 >>>>>>> upstream/18.0
@@ -6377,7 +7866,11 @@ msgstr "Setează stare"
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
 msgid "Set a Rating Email Template on Stages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Setează un șablon de e-mail pentru evaluare pe etape"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează un șablon de e-mail pentru evaluare pe etape"
 >>>>>>> upstream/18.0
@@ -6389,6 +7882,11 @@ msgid ""
 "stage"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Setează pe etapele proiectului pentru a informa clienții când proiectul "
+"ajunge în acea etapă"
+>>>>>>> upstream/18.0
 =======
 "Setează pe etapele proiectului pentru a informa clienții când proiectul "
 "ajunge în acea etapă"
@@ -6399,7 +7897,11 @@ msgstr ""
 #: code:addons/project/static/src/components/project_task_priority_switch_field/project_task_priority_switch_field.js:0
 msgid "Set priority as %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Setează prioritatea ca %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează prioritatea ca %s"
 >>>>>>> upstream/18.0
@@ -6409,7 +7911,11 @@ msgstr "Setează prioritatea ca %s"
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_state_selection.js:0
 msgid "Set state as..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Setează starea ca..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează starea ca..."
 >>>>>>> upstream/18.0
@@ -6421,6 +7927,11 @@ msgid ""
 "customers. Enable the \"customer ratings\" feature on the project"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Setează acest șablon pe o etapă a proiectului pentru a solicita feedback de "
+"la clienți. Activează funcția „evaluări clienți” pe proiect"
+>>>>>>> upstream/18.0
 =======
 "Setează acest șablon pe o etapă a proiectului pentru a solicita feedback de "
 "la clienți. Activează funcția „evaluări clienți” pe proiect"
@@ -6443,7 +7954,11 @@ msgstr "Setări"
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
 msgid "Share Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partajează proiectul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partajează proiectul"
 >>>>>>> upstream/18.0
@@ -6453,7 +7968,11 @@ msgstr "Partajează proiectul"
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Share Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partajează sarcina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partajează sarcina"
 >>>>>>> upstream/18.0
@@ -6462,7 +7981,11 @@ msgstr "Partajează sarcina"
 #: model:ir.model.fields,field_description:project.field_project_task__show_display_in_project
 msgid "Show Display In Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afișează în proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează în proiect"
 >>>>>>> upstream/18.0
@@ -6473,8 +7996,13 @@ msgstr "Afișează în proiect"
 msgid "Show all records which has next action date is before today"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Afișați toate înregistrările care au data următoarei acțiuni înainte de data"
 " de astăzi"
+=======
+"Afișează toate înregistrările care au data următoarei acțiuni înainte de "
+"astăzi"
+>>>>>>> upstream/18.0
 =======
 "Afișează toate înregistrările care au data următoarei acțiuni înainte de "
 "astăzi"
@@ -6485,7 +8013,11 @@ msgstr ""
 #: code:addons/project/static/src/components/notebook_task_one2many_field/notebook_task_list_renderer.js:0
 msgid "Show closed tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afișează sarcinile închise"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează sarcinile închise"
 >>>>>>> upstream/18.0
@@ -6505,7 +8037,11 @@ msgstr "Social"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Software Development"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dezvoltare Software"
+=======
+msgstr "Dezvoltare software"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dezvoltare software"
 >>>>>>> upstream/18.0
@@ -6522,13 +8058,19 @@ msgid ""
 "Are you sure you want to proceed?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Unele dintre conturile analitice selectate sunt asociate cu un proiect:\n"
 "%(accountList)s\n"
 "\n"
 "Arhivarea acestor conturi va elimina opțiunea de a înregistra foi de pontaj pentru proiectele respective.\n"
 "\n"
 "Sigur doriți să continuați?"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -6536,7 +8078,11 @@ msgstr ""
 #: code:addons/project/models/project_task.py:0
 msgid "Sorry. You can't set a task as its parent task."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scuze. Nu puteți seta o sarcină ca sarcină parentală."
+=======
+msgstr "Scuze. Nu puteți seta o sarcină ca sarcină părinte."
+>>>>>>> upstream/18.0
 =======
 msgstr "Scuze. Nu puteți seta o sarcină ca sarcină părinte."
 >>>>>>> upstream/18.0
@@ -6551,11 +8097,17 @@ msgid ""
 "property."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Sortează-ți sarcinile pe sprint folosind etape, etichete sau o proprietate "
 "dedicată. La finalul fiecărui sprint, selectează sarcinile rămase din listă "
 "și mută-le pe toate odată în sprintul următor editând etapa, eticheta sau "
 "proprietatea."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -6563,7 +8115,11 @@ msgstr ""
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Specifications"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Specificații "
+=======
+msgstr "Specificații"
+>>>>>>> upstream/18.0
 =======
 msgstr "Specificații"
 >>>>>>> upstream/18.0
@@ -6573,7 +8129,11 @@ msgstr "Specificații"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Sprint Backlog"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprint Backlog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprint Backlog"
 >>>>>>> upstream/18.0
@@ -6583,7 +8143,11 @@ msgstr "Sprint Backlog"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Sprint Complete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprint finalizat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprint finalizat"
 >>>>>>> upstream/18.0
@@ -6593,7 +8157,11 @@ msgstr "Sprint finalizat"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Sprint in Progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprint în desfășurare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprint în desfășurare"
 >>>>>>> upstream/18.0
@@ -6615,7 +8183,11 @@ msgstr "Etapă"
 #: model_terms:ir.ui.view,arch_db:project.project_task_burndown_chart_report_view_search
 msgid "Stage (Burndown Chart)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapă (Grafic Burndown)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă (Grafic Burndown)"
 >>>>>>> upstream/18.0
@@ -6629,7 +8201,11 @@ msgstr "Etapă schimbată"
 #: model:ir.model.fields,field_description:project.field_project_task_type__user_id
 msgid "Stage Owner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Responsabil etapă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Responsabil etapă"
 >>>>>>> upstream/18.0
@@ -6644,7 +8220,11 @@ msgstr "Etapa schimbată"
 #: code:addons/project/models/project_task.py:0
 msgid "Stage: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapă: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă: %s"
 >>>>>>> upstream/18.0
@@ -6653,7 +8233,11 @@ msgstr "Etapă: %s"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Starred Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini marcate cu stea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini marcate cu stea"
 >>>>>>> upstream/18.0
@@ -6670,7 +8254,11 @@ msgstr "Dată început"
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__state
 msgid "State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Județ"
+=======
+msgstr "Stare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare"
 >>>>>>> upstream/18.0
@@ -6680,7 +8268,11 @@ msgstr "Stare"
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_stage_state_selection/project_task_stage_with_state_selection.js:0
 msgid "State readonly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stare doar citire"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare doar citire"
 >>>>>>> upstream/18.0
@@ -6701,7 +8293,11 @@ msgstr "Stare"
 #: code:addons/project/models/project_project.py:0
 msgid "Status Update - %(date)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualizare stare - %(date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizare stare - %(date)s"
 >>>>>>> upstream/18.0
@@ -6718,9 +8314,15 @@ msgid ""
 msgstr ""
 "Stare bazată pe activități\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Întârziată: data activitații este deja trecută\n"
 "Astăzi: data activității este astăzi\n"
 "Planificate: activități viitoare."
+=======
+"Întârziată: data scadentă a trecut\n"
+"Astăzi: data activității este astăzi\n"
+"Planificat: activități viitoare."
+>>>>>>> upstream/18.0
 =======
 "Întârziată: data scadentă a trecut\n"
 "Astăzi: data activității este astăzi\n"
@@ -6732,7 +8334,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task__duration_tracking
 msgid "Status time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stare timp"
+=======
+msgstr "Timp stare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Timp stare"
 >>>>>>> upstream/18.0
@@ -6745,7 +8351,11 @@ msgstr "Timp stare"
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Sub-tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Subsarcini"
+=======
+msgstr "Sub-sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sub-sarcini"
 >>>>>>> upstream/18.0
@@ -6755,7 +8365,11 @@ msgstr "Sub-sarcini"
 #: model_terms:ir.ui.view,arch_db:project.rating_rating_view_search_project
 msgid "Submitted On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trimis la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimis la"
 >>>>>>> upstream/18.0
@@ -6768,6 +8382,12 @@ msgid ""
 "this task."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Suma orelor alocate pentru toate sub-sarcinile (și sub-sarcinile lor) legate"
+" de această sarcină. De obicei mai mică sau egală cu orele alocate acestei "
+"sarcini."
+>>>>>>> upstream/18.0
 =======
 "Suma orelor alocate pentru toate sub-sarcinile (și sub-sarcinile lor) legate"
 " de această sarcină. De obicei mai mică sau egală cu orele alocate acestei "
@@ -6784,7 +8404,11 @@ msgstr "Sumar"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "T-shirt Printing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imprimare Tricou"
+=======
+msgstr "Imprimare tricouri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imprimare tricouri"
 >>>>>>> upstream/18.0
@@ -6820,7 +8444,11 @@ msgstr "Sarcină"
 #: model:ir.model.fields,field_description:project.field_project_project__tasks
 msgid "Task Activities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Activitati Sarcina"
+=======
+msgstr "Activități sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Activități sarcină"
 >>>>>>> upstream/18.0
@@ -6830,7 +8458,11 @@ msgstr "Activități sarcină"
 #: model:mail.message.subtype,name:project.mt_task_approved
 msgid "Task Approved"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină aprobată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină aprobată"
 >>>>>>> upstream/18.0
@@ -6845,7 +8477,11 @@ msgstr "Sarcină anulată"
 msgid "Task Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină anulată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină anulată"
 >>>>>>> upstream/18.0
@@ -6858,7 +8494,11 @@ msgstr "Sarcină anulată"
 #: code:addons/project/models/project_task.py:0
 msgid "Task Converted from To-Do"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină convertită din To-Do"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină convertită din To-Do"
 >>>>>>> upstream/18.0
@@ -6879,7 +8519,11 @@ msgid "Task Dependencies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dependențe sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dependențe sarcini"
 >>>>>>> upstream/18.0
@@ -6901,7 +8545,11 @@ msgstr "Dependențe sarcini"
 #: model:mail.message.subtype,name:project.mt_task_done
 msgid "Task Done"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcină Efectuată"
+=======
+msgstr "Sarcină efectuată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină efectuată"
 >>>>>>> upstream/18.0
@@ -6912,7 +8560,11 @@ msgstr "Sarcină efectuată"
 #: model:mail.message.subtype,name:project.mt_task_in_progress
 msgid "Task In Progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină în desfășurare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină în desfășurare"
 >>>>>>> upstream/18.0
@@ -6921,7 +8573,11 @@ msgstr "Sarcină în desfășurare"
 #: model:ir.model.fields,field_description:project.field_res_config_settings__module_hr_timesheet
 msgid "Task Logs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Jurnale Sarcini"
+=======
+msgstr "Jurnale sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jurnale sarcini"
 >>>>>>> upstream/18.0
@@ -6930,7 +8586,11 @@ msgstr "Jurnale sarcini"
 #: model:ir.model.fields,field_description:project.field_project_project__task_properties_definition
 msgid "Task Properties"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proprietăți sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proprietăți sarcină"
 >>>>>>> upstream/18.0
@@ -6945,7 +8605,11 @@ msgstr "Evaluare sarcină"
 #: model:ir.model,name:project.model_project_task_recurrence
 msgid "Task Recurrence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Repetarea sarcinilor"
+=======
+msgstr "Recurență sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recurență sarcină"
 >>>>>>> upstream/18.0
@@ -6956,7 +8620,11 @@ msgstr "Recurență sarcină"
 #: model_terms:ir.ui.view,arch_db:project.task_type_tree
 msgid "Task Stage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapa sarcinii"
+=======
+msgstr "Etapă sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă sarcină"
 >>>>>>> upstream/18.0
@@ -6965,7 +8633,11 @@ msgstr "Etapă sarcină"
 #: model:mail.message.subtype,name:project.mt_project_task_stage
 msgid "Task Stage Changed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapa Sarcinii Modificata"
+=======
+msgstr "Etapă sarcină schimbată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă sarcină schimbată"
 >>>>>>> upstream/18.0
@@ -6976,7 +8648,11 @@ msgstr "Etapă sarcină schimbată"
 #: model:ir.ui.menu,name:project.menu_project_config_project
 msgid "Task Stages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etape sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etape sarcină"
 >>>>>>> upstream/18.0
@@ -6986,7 +8662,11 @@ msgstr "Etape sarcină"
 #: model_terms:ir.ui.view,arch_db:project.quick_create_task_form
 msgid "Task Title"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume sarcină"
+=======
+msgstr "Titlu sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Titlu sarcină"
 >>>>>>> upstream/18.0
@@ -6996,7 +8676,11 @@ msgstr "Titlu sarcină"
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Task Title..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume sarcină..."
+=======
+msgstr "Titlu sarcină..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Titlu sarcină..."
 >>>>>>> upstream/18.0
@@ -7008,6 +8692,11 @@ msgid ""
 "Task Transferred from Project %(source_project)s to %(destination_project)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sarcină transferată din proiectul %(source_project)s în "
+"%(destination_project)s"
+>>>>>>> upstream/18.0
 =======
 "Sarcină transferată din proiectul %(source_project)s în "
 "%(destination_project)s"
@@ -7019,7 +8708,11 @@ msgstr ""
 #: model:mail.message.subtype,name:project.mt_task_waiting
 msgid "Task Waiting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină în așteptare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină în așteptare"
 >>>>>>> upstream/18.0
@@ -7028,7 +8721,11 @@ msgstr "Sarcină în așteptare"
 #: model:mail.message.subtype,description:project.mt_task_approved
 msgid "Task approved"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină aprobată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină aprobată"
 >>>>>>> upstream/18.0
@@ -7037,7 +8734,11 @@ msgstr "Sarcină aprobată"
 #: model:mail.message.subtype,description:project.mt_task_canceled
 msgid "Task cancelled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină anulată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină anulată"
 >>>>>>> upstream/18.0
@@ -7046,7 +8747,11 @@ msgstr "Sarcină anulată"
 #: model:mail.message.subtype,description:project.mt_task_done
 msgid "Task done"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină finalizată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină finalizată"
 >>>>>>> upstream/18.0
@@ -7055,7 +8760,11 @@ msgstr "Sarcină finalizată"
 #: model_terms:ir.ui.view,arch_db:project.task_track_depending_tasks
 msgid "Task:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcină"
+=======
+msgstr "Sarcină:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină:"
 >>>>>>> upstream/18.0
@@ -7064,7 +8773,11 @@ msgstr "Sarcină:"
 #: model_terms:ir.ui.view,arch_db:project.task_type_edit
 msgid "Task: Rating Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină: Solicitare evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină: Solicitare evaluare"
 >>>>>>> upstream/18.0
@@ -7108,7 +8821,11 @@ msgstr "Sarcini"
 #: model_terms:ir.ui.view,arch_db:project.view_task_project_user_search
 msgid "Tasks Analysis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analiza Sarcinilor"
+=======
+msgstr "Analiza sarcinilor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiza sarcinilor"
 >>>>>>> upstream/18.0
@@ -7118,7 +8835,11 @@ msgstr "Analiza sarcinilor"
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
 msgid "Tasks Management"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Management Sarcină "
+=======
+msgstr "Management sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Management sarcini"
 >>>>>>> upstream/18.0
@@ -7127,7 +8848,11 @@ msgstr "Management sarcini"
 #: model_terms:ir.ui.view,arch_db:project.task_type_search
 msgid "Tasks Stages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapele Sarcinilor"
+=======
+msgstr "Etape sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etape sarcini"
 >>>>>>> upstream/18.0
@@ -7138,7 +8863,11 @@ msgstr "Etape sarcini"
 #: model:ir.model.fields,field_description:project.field_project_task__recurring_count
 msgid "Tasks in Recurrence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini recurente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini recurente"
 >>>>>>> upstream/18.0
@@ -7154,7 +8883,11 @@ msgstr "Teste"
 #: code:addons/project/static/src/views/burndown_chart/burndown_chart_search_model.js:0
 msgid "The Burndown Chart must be grouped by Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Graficul Burndown trebuie grupat după dată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Graficul Burndown trebuie grupat după dată"
 >>>>>>> upstream/18.0
@@ -7163,7 +8896,11 @@ msgstr "Graficul Burndown trebuie grupat după dată"
 #: model:ir.model.fields,help:project.field_project_task__personal_stage_id
 msgid "The current user's personal stage."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapa personală a utilizatorului curent."
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapa personală a utilizatorului curent."
 >>>>>>> upstream/18.0
@@ -7172,7 +8909,11 @@ msgstr "Etapa personală a utilizatorului curent."
 #: model:ir.model.fields,help:project.field_project_task__personal_stage_type_id
 msgid "The current user's personal task stage."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapa personală de sarcină a utilizatorului curent."
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapa personală de sarcină a utilizatorului curent."
 >>>>>>> upstream/18.0
@@ -7189,7 +8930,11 @@ msgstr "Documentul nu există sau nu aveți drepturile de a-l accesa."
 #: code:addons/project/models/project_task_recurrence.py:0
 msgid "The end date should be in the future"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data de sfârșit trebuie să fie în viitor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data de sfârșit trebuie să fie în viitor"
 >>>>>>> upstream/18.0
@@ -7198,7 +8943,11 @@ msgstr "Data de sfârșit trebuie să fie în viitor"
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
 msgid "The following milestone has been added:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Următoarea etapă a fost adăugată:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Următoarea etapă a fost adăugată:"
 >>>>>>> upstream/18.0
@@ -7207,7 +8956,11 @@ msgstr "Următoarea etapă a fost adăugată:"
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
 msgid "The following milestones have been added:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Următoarele etape au fost adăugate:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Următoarele etape au fost adăugate:"
 >>>>>>> upstream/18.0
@@ -7217,7 +8970,11 @@ msgstr "Următoarele etape au fost adăugate:"
 #: code:addons/project/models/project_task_recurrence.py:0
 msgid "The interval should be greater than 0"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Intervalul trebuie să fie mai mare decât 0"
+>>>>>>> upstream/18.0
 =======
 msgstr "Intervalul trebuie să fie mai mare decât 0"
 >>>>>>> upstream/18.0
@@ -7230,9 +8987,15 @@ msgid ""
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Modelul (tipul de document Odoo) căruia îi corespunde acest alias. Orice "
 "e-mail care nu răspunde la o înregistrare existentă va determina crearea "
 "unei noi înregistrări a acestui model (de exemplu, o sarcină de proiect)"
+=======
+"Modelul (Tip document Odoo) la care corespunde acest alias. Orice e-mail "
+"primit care nu răspunde la o înregistrare existentă va genera crearea unei "
+"noi înregistrări din acest model (ex: Sarcină proiect)"
+>>>>>>> upstream/18.0
 =======
 "Modelul (Tip document Odoo) la care corespunde acest alias. Orice e-mail "
 "primit care nu răspunde la o înregistrare existentă va genera crearea unei "
@@ -7246,8 +9009,13 @@ msgid ""
 "<jobs@example.odoo.com>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Numele aliasului de e-mail, de ex. „locuri de muncă” dacă doriți să primiți "
 "e-mailuri pentru <jobs@example.odoo.com>"
+=======
+"Numele aliasului de e-mail, ex. 'jobs' dacă doriți să primiți e-mailuri "
+"pentru <jobs@example.odoo.com>"
+>>>>>>> upstream/18.0
 =======
 "Numele aliasului de e-mail, ex. 'jobs' dacă doriți să primiți e-mailuri "
 "pentru <jobs@example.odoo.com>"
@@ -7260,6 +9028,10 @@ msgid ""
 "The project and the associated partner must be linked to the same company."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Proiectul și partenerul asociat trebuie să fie legați de aceeași companie."
+>>>>>>> upstream/18.0
 =======
 "Proiectul și partenerul asociat trebuie să fie legați de aceeași companie."
 >>>>>>> upstream/18.0
@@ -7272,6 +9044,11 @@ msgid ""
 " lines or if more than one project is linked to it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Compania proiectului nu poate fi schimbată dacă contul său analitic are "
+"linii analitice sau dacă este legat de mai multe proiecte."
+>>>>>>> upstream/18.0
 =======
 "Compania proiectului nu poate fi schimbată dacă contul său analitic are "
 "linii analitice sau dacă este legat de mai multe proiecte."
@@ -7282,6 +9059,10 @@ msgstr ""
 msgid "The project's start date must be before its end date."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Data de început a proiectului trebuie să fie înainte de data de sfârșit."
+>>>>>>> upstream/18.0
 =======
 "Data de început a proiectului trebuie să fie înainte de data de sfârșit."
 >>>>>>> upstream/18.0
@@ -7295,6 +9076,12 @@ msgid ""
 " groupings applied, the report will not provide relevant information."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Raportul trebuie grupat fie după „Etapă” pentru a reprezenta un grafic "
+"Burndown, fie după „Este închis” pentru a reprezenta un grafic Burn-up. Fără"
+" una dintre aceste grupări, raportul nu va furniza informații relevante."
+>>>>>>> upstream/18.0
 =======
 "Raportul trebuie grupat fie după „Etapă” pentru a reprezenta un grafic "
 "Burndown, fie după „Este închis” pentru a reprezenta un grafic Burn-up. Fără"
@@ -7306,7 +9093,11 @@ msgstr ""
 #: code:addons/project/models/project_task.py:0
 msgid "The search does not support operator %(operator)s or value %(value)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Căutarea nu suportă operatorul %(operator)s sau valoarea %(value)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Căutarea nu suportă operatorul %(operator)s sau valoarea %(value)s."
 >>>>>>> upstream/18.0
@@ -7318,6 +9109,10 @@ msgid ""
 "The task and the associated partner must be linked to the same company."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sarcina și partenerul asociat trebuie să fie legați de aceeași companie."
+>>>>>>> upstream/18.0
 =======
 "Sarcina și partenerul asociat trebuie să fie legați de aceeași companie."
 >>>>>>> upstream/18.0
@@ -7331,11 +9126,17 @@ msgid ""
 "'%(visibility)s' in order to make it accessible by the recipient(s)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Sarcina nu poate fi partajată cu destinatarul(ii) deoarece "
 "confidențialitatea proiectului este prea restrictivă. Setați "
 "confidențialitatea proiectului la '%(visibility)s' pentru a o face "
 "accesibilă destinatarului(ilor)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -7343,7 +9144,11 @@ msgstr ""
 #: code:addons/project/static/src/views/project_task_form/project_task_form_controller.js:0
 msgid "The task description was empty at the time."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Descrierea sarcinii era goală la acel moment."
+>>>>>>> upstream/18.0
 =======
 msgstr "Descrierea sarcinii era goală la acel moment."
 >>>>>>> upstream/18.0
@@ -7356,6 +9161,11 @@ msgid ""
 "- Burnup chart"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vizualizarea trebuie grupată după dată și după Etapă - grafic Burndown sau "
+"Este închis - grafic Burnup"
+>>>>>>> upstream/18.0
 =======
 "Vizualizarea trebuie grupată după dată și după Etapă - grafic Burndown sau "
 "Este închis - grafic Burnup"
@@ -7366,7 +9176,11 @@ msgstr ""
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_message_counter.xml:0
 msgid "There are no comments for now."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu există comentarii pentru acum."
+=======
+msgstr "Nu există comentarii momentan."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există comentarii momentan."
 >>>>>>> upstream/18.0
@@ -7375,7 +9189,11 @@ msgstr "Nu există comentarii momentan."
 #: model_terms:ir.ui.view,arch_db:project.portal_my_projects
 msgid "There are no projects."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu există proiecte"
+=======
+msgstr "Nu există proiecte."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există proiecte."
 >>>>>>> upstream/18.0
@@ -7390,7 +9208,11 @@ msgstr "Nu există evaluări pentru acest proiect în acest moment"
 #: model_terms:ir.ui.view,arch_db:project.portal_my_tasks
 msgid "There are no tasks."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu există sarcini"
+=======
+msgstr "Nu există sarcini."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există sarcini."
 >>>>>>> upstream/18.0
@@ -7400,7 +9222,11 @@ msgstr "Nu există sarcini."
 #: code:addons/project/controllers/portal.py:0
 msgid "There is nothing to report."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu există nimic de raportat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există nimic de raportat."
 >>>>>>> upstream/18.0
@@ -7413,11 +9239,17 @@ msgid ""
 " purchase orders, invoices and bills, timesheets, and tickets."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Ei pot edita sarcinile partajate ale proiectului și pot vizualiza anumite "
 "documente în modul citire pe site-ul dvs. Acestea includ lead-"
 "uri/oportunități, oferte/comenzi de vânzare, comenzi de achiziție, facturi, "
 "foi de pontaj și tichete."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -7437,7 +9269,11 @@ msgstr "Luna aceasta"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_project_base
 msgid "This Week"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Săpt. curentă"
+=======
+msgstr "Săptămâna aceasta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Săptămâna aceasta"
 >>>>>>> upstream/18.0
@@ -7454,13 +9290,19 @@ msgid ""
 "Are you sure you want to proceed?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Acest cont analitic este asociat cu următoarele proiecte:\n"
 "%(projectList)s\n"
 "\n"
 "Arhivarea contului va elimina opțiunea de a înregistra foi de pontaj pentru aceste proiecte.\n"
 "\n"
 "Sigur doriți să continuați?"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -7471,6 +9313,12 @@ msgid ""
 " their portal access to the project. Are you sure you want to proceed?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Acest urmăritor este în prezent colaborator al proiectului. Eliminarea lui "
+"va revoca accesul la portal pentru acest proiect. Sigur doriți să "
+"continuați?"
+>>>>>>> upstream/18.0
 =======
 "Acest urmăritor este în prezent colaborator al proiectului. Eliminarea lui "
 "va revoca accesul la portal pentru acest proiect. Sigur doriți să "
@@ -7484,6 +9332,11 @@ msgid ""
 "customers and they have editing access."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aceasta este o previzualizare a modului în care va arăta proiectul când este"
+" partajat cu clienții și aceștia au acces de editare."
+>>>>>>> upstream/18.0
 =======
 "Aceasta este o previzualizare a modului în care va arăta proiectul când este"
 " partajat cu clienții și aceștia au acces de editare."
@@ -7500,12 +9353,18 @@ msgid ""
 "records to align them under the same company."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Acest proiect este asociat cu %(project_company)s, în timp ce etapa "
 "selectată aparține %(stage_company)s. Aveți două opțiuni: eliminați compania"
 " de pe proiect sau de pe etapă. Alternativ, puteți actualiza informațiile "
 "despre companie pentru aceste înregistrări astfel încât să fie sub aceeași "
 "companie."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -7517,11 +9376,17 @@ msgid ""
 "internal users (public)\" in order to make it accessible to the recipients."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Acest proiect este restricționat în prezent la „Utilizatori interni "
 "invitați”. Vizibilitatea proiectului va fi schimbată la „utilizatori portal "
 "invitați și toți utilizatorii interni (public)” pentru a-l face accesibil "
 "destinatarilor."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -7534,6 +9399,12 @@ msgid ""
 "company designation from the stage"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Acest proiect nu este asociat cu nicio companie, în timp ce etapa este "
+"asociată cu %s. Aveți două opțiuni: schimbați compania proiectului pentru a "
+"corespunde cu cea a etapei sau eliminați compania de pe etapă."
+>>>>>>> upstream/18.0
 =======
 "Acest proiect nu este asociat cu nicio companie, în timp ce etapa este "
 "asociată cu %s. Aveți două opțiuni: schimbați compania proiectului pentru a "
@@ -7545,7 +9416,11 @@ msgstr ""
 #: code:addons/project/models/project_task.py:0
 msgid "This task has sub-tasks, so it can't be private."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Această sarcină are sub-sarcini, deci nu poate fi privată."
+>>>>>>> upstream/18.0
 =======
 msgstr "Această sarcină are sub-sarcini, deci nu poate fi privată."
 >>>>>>> upstream/18.0
@@ -7555,7 +9430,11 @@ msgstr "Această sarcină are sub-sarcini, deci nu poate fi privată."
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_state_selection.xml:0
 msgid "This task is blocked by another unfinished task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Această sarcină este blocată de o altă sarcină nefinalizată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Această sarcină este blocată de o altă sarcină nefinalizată"
 >>>>>>> upstream/18.0
@@ -7565,7 +9444,11 @@ msgstr "Această sarcină este blocată de o altă sarcină nefinalizată"
 #: code:addons/project/static/src/project_sharing/components/depend_on_ids_one2many/depend_on_ids_list_renderer.xml:0
 msgid "This task is currently blocked by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Această sarcină este blocată în prezent de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Această sarcină este blocată în prezent de"
 >>>>>>> upstream/18.0
@@ -7587,7 +9470,11 @@ msgid ""
 msgstr ""
 "Acestea reprezintă diferitele categorii de lucruri pe care trebuie să le "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "faceți (de ex. \"Apel\" sau \"Trimite e-mail\")."
+=======
+"faci (de ex. \"Apel\" sau \"Trimite e-mail\")."
+>>>>>>> upstream/18.0
 =======
 "faci (de ex. \"Apel\" sau \"Trimite e-mail\")."
 >>>>>>> upstream/18.0
@@ -7597,7 +9484,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
 msgid "Time Management"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gestionare a timpului"
+=======
+msgstr "Gestionarea timpului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gestionarea timpului"
 >>>>>>> upstream/18.0
@@ -7607,7 +9498,11 @@ msgstr "Gestionarea timpului"
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
 msgid "Tip: Create tasks from incoming emails"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sfat: Creează sarcini din e-mailurile primite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sfat: Creează sarcini din e-mailurile primite"
 >>>>>>> upstream/18.0
@@ -7617,7 +9512,11 @@ msgstr "Sfat: Creează sarcini din e-mailurile primite"
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_3
 msgid "Tip: Project-Specific Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sfat: Câmpuri specifice proiectului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sfat: Câmpuri specifice proiectului"
 >>>>>>> upstream/18.0
@@ -7627,7 +9526,11 @@ msgstr "Sfat: Câmpuri specifice proiectului"
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_0
 msgid "Tip: Use task states to keep track of your tasks' progression"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sfat: Folosește stările sarcinilor pentru a urmări progresul acestora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sfat: Folosește stările sarcinilor pentru a urmări progresul acestora"
 >>>>>>> upstream/18.0
@@ -7637,7 +9540,11 @@ msgstr "Sfat: Folosește stările sarcinilor pentru a urmări progresul acestora
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_2
 msgid "Tip: Your Own Personal Kanban"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sfat: Kanban-ul tău personal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sfat: Kanban-ul tău personal"
 >>>>>>> upstream/18.0
@@ -7656,7 +9563,11 @@ msgstr "Titlu"
 #: code:addons/project/static/src/components/project_right_side_panel/components/project_profitability.xml:0
 msgid "To Bill"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "De facturat"
+>>>>>>> upstream/18.0
 =======
 msgstr "De facturat"
 >>>>>>> upstream/18.0
@@ -7677,7 +9588,11 @@ msgstr "De facturat"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "To Print"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "De Imprimat"
+=======
+msgstr "De imprimat"
+>>>>>>> upstream/18.0
 =======
 msgstr "De imprimat"
 >>>>>>> upstream/18.0
@@ -7690,8 +9605,13 @@ msgid ""
 "                Chat in real time or by email to collaborate efficiently."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pentru a finaliza lucrurile, utilizați activitățile și starea în sarcini.<br>\n"
 "                Discutați în timp real sau prin e-mail pentru a colabora eficient."
+=======
+"Pentru a finaliza lucrurile, folosește activitățile și starea pe sarcini.<br>\n"
+"                Discută în timp real sau prin e-mail pentru a colabora eficient."
+>>>>>>> upstream/18.0
 =======
 "Pentru a finaliza lucrurile, folosește activitățile și starea pe sarcini.<br>\n"
 "                Discută în timp real sau prin e-mail pentru a colabora eficient."
@@ -7705,6 +9625,12 @@ msgid ""
 "task."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pentru a transforma o sarcină într-o sub-sarcină, selectează o sarcină "
+"părinte. Alternativ, lasă câmpul sarcină părinte necompletat pentru a "
+"converti o sub-sarcină într-o sarcină independentă."
+>>>>>>> upstream/18.0
 =======
 "Pentru a transforma o sarcină într-o sub-sarcină, selectează o sarcină "
 "părinte. Alternativ, lasă câmpul sarcină părinte necompletat pentru a "
@@ -7738,7 +9664,11 @@ msgstr "Total"
 #: code:addons/project/static/src/components/project_right_side_panel/components/project_profitability.xml:0
 msgid "Total Costs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Costuri totale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Costuri totale"
 >>>>>>> upstream/18.0
@@ -7760,6 +9690,11 @@ msgstr "Urmărește satisfacția clienților pe sarcini"
 msgid "Track major progress points that must be reached to achieve success"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Urmărește punctele majore de progres care trebuie atinse pentru a obține "
+"succes"
+>>>>>>> upstream/18.0
 =======
 "Urmărește punctele majore de progres care trebuie atinse pentru a obține "
 "succes"
@@ -7771,8 +9706,13 @@ msgstr ""
 msgid "Track major progress points that must be reached to achieve success."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Urmărește punctele majore de progres care trebuie atinse pentru a atinge "
 "succesul."
+=======
+"Urmărește punctele majore de progres care trebuie atinse pentru a obține "
+"succes."
+>>>>>>> upstream/18.0
 =======
 "Urmărește punctele majore de progres care trebuie atinse pentru a obține "
 "succes."
@@ -7786,6 +9726,11 @@ msgid ""
 "associated with the project on relevant documents."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Urmărește costurile, veniturile și marja proiectului setând contul analitic "
+"asociat proiectului pe documentele relevante."
+>>>>>>> upstream/18.0
 =======
 "Urmărește costurile, veniturile și marja proiectului setând contul analitic "
 "asociat proiectului pe documentele relevante."
@@ -7795,7 +9740,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
 msgid "Track the progress of your projects"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Urmăriți progresul proiectelor dvs."
+=======
+msgstr "Urmărește progresul proiectelor tale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmărește progresul proiectelor tale"
 >>>>>>> upstream/18.0
@@ -7804,7 +9753,11 @@ msgstr "Urmărește progresul proiectelor tale"
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
 msgid "Track time spent on projects and tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Urmăriți timpul petrecut pe proiecte și sarcini"
+=======
+msgstr "Urmărește timpul petrecut pe proiecte și sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmărește timpul petrecut pe proiecte și sarcini"
 >>>>>>> upstream/18.0
@@ -7816,6 +9769,11 @@ msgid ""
 "tasks."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Etichetele transparente nu sunt vizibile în vizualizarea kanban a "
+"proiectelor și sarcinilor tale."
+>>>>>>> upstream/18.0
 =======
 "Etichetele transparente nu sunt vizibile în vizualizarea kanban a "
 "proiectelor și sarcinilor tale."
@@ -7825,7 +9783,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:project.selection__project_project__rating_status_period__bimonthly
 msgid "Twice a Month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Bilunar"
+=======
+msgstr "De două ori pe lună"
+>>>>>>> upstream/18.0
 =======
 msgstr "De două ori pe lună"
 >>>>>>> upstream/18.0
@@ -7835,7 +9797,11 @@ msgstr "De două ori pe lună"
 #: code:addons/project/models/project_task.py:0
 msgid "Two tasks cannot depend on each other."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Două sarcini nu pot depinde una de cealaltă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Două sarcini nu pot depinde una de cealaltă."
 >>>>>>> upstream/18.0
@@ -7846,7 +9812,11 @@ msgstr "Două sarcini nu pot depinde una de cealaltă."
 #: model:ir.model.fields,help:project.field_project_update__activity_exception_decoration
 msgid "Type of the exception activity on record."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul de activitate de excepție înregistrată."
+=======
+msgstr "Tipul activității de excepție înregistrate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipul activității de excepție înregistrate."
 >>>>>>> upstream/18.0
@@ -7856,7 +9826,11 @@ msgstr "Tipul activității de excepție înregistrate."
 #: code:addons/project/models/project_project_stage.py:0
 msgid "Unarchive Projects"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dezarhivează proiecte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dezarhivează proiecte"
 >>>>>>> upstream/18.0
@@ -7866,7 +9840,11 @@ msgstr "Dezarhivează proiecte"
 #: code:addons/project/models/project_task_type.py:0
 msgid "Unarchive Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dezarhivează sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dezarhivează sarcini"
 >>>>>>> upstream/18.0
@@ -7886,7 +9864,11 @@ msgstr "Nealocat"
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_container.xml:0
 msgid "Unfollow"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu urmați"
+=======
+msgstr "Nu mai urmări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu mai urmări"
 >>>>>>> upstream/18.0
@@ -7916,7 +9898,11 @@ msgstr "Până la"
 #: model:mail.message.subtype,name:project.mt_update_create
 msgid "Update Created"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualizare creată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizare creată"
 >>>>>>> upstream/18.0
@@ -7925,7 +9911,11 @@ msgstr "Actualizare creată"
 #: model:project.tags,name:project.project_tags_03
 msgid "Usability"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Utilizabilitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Utilizabilitate"
 >>>>>>> upstream/18.0
@@ -7934,7 +9924,11 @@ msgstr "Utilizabilitate"
 #: model:res.groups,name:project.group_project_milestone
 msgid "Use Milestones"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folosește etape"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește etape"
 >>>>>>> upstream/18.0
@@ -7943,7 +9937,11 @@ msgstr "Folosește etape"
 #: model:res.groups,name:project.group_project_rating
 msgid "Use Rating on Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utilizați evaluarea în proiect"
+=======
+msgstr "Folosește evaluarea pe proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește evaluarea pe proiect"
 >>>>>>> upstream/18.0
@@ -7952,7 +9950,11 @@ msgstr "Folosește evaluarea pe proiect"
 #: model:res.groups,name:project.group_project_recurring_tasks
 msgid "Use Recurring Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folosește sarcini recurente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește sarcini recurente"
 >>>>>>> upstream/18.0
@@ -7961,7 +9963,11 @@ msgstr "Folosește sarcini recurente"
 #: model:res.groups,name:project.group_project_stages
 msgid "Use Stages on Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folosește etape pe proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește etape pe proiect"
 >>>>>>> upstream/18.0
@@ -7970,7 +9976,11 @@ msgstr "Folosește etape pe proiect"
 #: model:res.groups,name:project.group_project_task_dependencies
 msgid "Use Task Dependencies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Folosește dependențele sarcinii"
+=======
+msgstr "Folosește dependențele sarcinilor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește dependențele sarcinilor"
 >>>>>>> upstream/18.0
@@ -7979,7 +9989,11 @@ msgstr "Folosește dependențele sarcinilor"
 #: model:ir.model.fields,field_description:project.field_project_project__label_tasks
 msgid "Use Tasks as"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utilizați sarcini ca"
+=======
+msgstr "Folosește sarcinile ca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește sarcinile ca"
 >>>>>>> upstream/18.0
@@ -7989,7 +10003,11 @@ msgstr "Folosește sarcinile ca"
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Use This For My Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Folosiți acest lucru pentru proiectul meu"
+=======
+msgstr "Folosește acest lucru pentru proiectul meu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește acest lucru pentru proiectul meu"
 >>>>>>> upstream/18.0
@@ -8000,6 +10018,11 @@ msgid ""
 "Use personal stages to organize your tasks and create your own workflow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Folosește etapele personale pentru a-ți organiza sarcinile și a-ți crea "
+"propriul flux de lucru."
+>>>>>>> upstream/18.0
 =======
 "Folosește etapele personale pentru a-ți organiza sarcinile și a-ți crea "
 "propriul flux de lucru."
@@ -8009,7 +10032,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:project.project_tags_action
 msgid "Use tags to categorize your tasks."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Folosiți etichetele pentru a vă clasifica sarcinile."
+=======
+msgstr "Folosește etichete pentru a-ți categoriza sarcinile."
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește etichete pentru a-ți categoriza sarcinile."
 >>>>>>> upstream/18.0
@@ -8029,8 +10056,14 @@ msgid ""
 "main changes about this task."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Folosiți chatter-ul pentru a <b>trimite e-mailuri</b> și pentru a comunica eficient cu clienții dvs. \n"
 "Adăugați noi persoane la lista de urmăritori pentru a-i înștiința despre modificările acestei sarcini."
+=======
+"Folosește chatter-ul pentru a <b>trimite e-mailuri</b> și a comunica "
+"eficient cu clienții tăi. Adaugă persoane noi la lista de urmăritori pentru "
+"a-i informa despre principalele modificări ale acestei sarcini."
+>>>>>>> upstream/18.0
 =======
 "Folosește chatter-ul pentru a <b>trimite e-mailuri</b> și a comunica "
 "eficient cu clienții tăi. Adaugă persoane noi la lista de urmăritori pentru "
@@ -8051,6 +10084,7 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Folosiți aceste cuvinte cheie în titlu pentru a seta sarcini noi:\n"
 "\n"
@@ -8062,6 +10096,8 @@ msgstr ""
 "        Asigurați-vă că folosiți formatul și ordinea corectă, ex: Îmbunătățește ecranul de configurare 5h #feature #v16 @Mitchell !"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Folosește aceste cuvinte cheie în titlu pentru a seta sarcini noi:\n"
 "\n"
 "        30h Alocă 30 de ore sarcinii\n"
@@ -8070,6 +10106,9 @@ msgstr ""
 "        ! Setează sarcina cu prioritate mare\n"
 "\n"
 "Asigură-te că folosești formatul și ordinea corectă, ex: Îmbunătățește ecranul de configurare 5h #feature #v16 @Mitchell !"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -8082,7 +10121,11 @@ msgstr "Utilizator"
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
 msgid "View"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișare"
+=======
+msgstr "Vizualizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vizualizare"
 >>>>>>> upstream/18.0
@@ -8091,7 +10134,11 @@ msgstr "Vizualizare"
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 msgid "View Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcină"
+=======
+msgstr "Vezi sarcina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vezi sarcina"
 >>>>>>> upstream/18.0
@@ -8101,7 +10148,11 @@ msgstr "Vezi sarcina"
 #: model_terms:ir.ui.view,arch_db:project.view_project
 msgid "View Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcini"
+=======
+msgstr "Vezi sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vezi sarcini"
 >>>>>>> upstream/18.0
@@ -8133,7 +10184,11 @@ msgid ""
 "Want a better way to <b>manage your projects</b>? <i>It starts here.</i>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Doriți o cale mai ușoară de <b> a vă gestiona proiectele</b>?<i>Începe "
+=======
+"Vrei o modalitate mai bună de a <b>gestiona proiectele</b>? <i>Începe "
+>>>>>>> upstream/18.0
 =======
 "Vrei o modalitate mai bună de a <b>gestiona proiectele</b>? <i>Începe "
 >>>>>>> upstream/18.0
@@ -8235,7 +10290,11 @@ msgstr "Scrie un mesaj..."
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Writing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scriere "
+=======
+msgstr "Scriere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scriere"
 >>>>>>> upstream/18.0
@@ -8269,7 +10328,11 @@ msgstr ""
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "You can change the sub-task state here!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Puteți schimba starea sub-sarcinii aici!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Puteți schimba starea sub-sarcinii aici!"
 >>>>>>> upstream/18.0
@@ -8285,7 +10348,11 @@ msgstr "Puteți seta o etapă personală doar pe o sarcină privată."
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "You can open sub-tasks from the kanban card!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Puteți deschide sub-sarcinile din cardul kanban!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Puteți deschide sub-sarcinile din cardul kanban!"
 >>>>>>> upstream/18.0
@@ -8331,7 +10398,11 @@ msgstr ""
 #: code:addons/project/models/project_task.py:0
 msgid "You cannot read the following fields on tasks: %(field_list)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu puteți citi următoarele câmpuri pe sarcini: %(field_list)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți citi următoarele câmpuri pe sarcini: %(field_list)s"
 >>>>>>> upstream/18.0
@@ -8341,7 +10412,11 @@ msgstr "Nu puteți citi următoarele câmpuri pe sarcini: %(field_list)s"
 #: code:addons/project/models/project_task.py:0
 msgid "You cannot write on the following fields on tasks: %(field_list)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu puteți scrie pe următoarele câmpuri pe sarcini: %(field_list)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți scrie pe următoarele câmpuri pe sarcini: %(field_list)s"
 >>>>>>> upstream/18.0
@@ -8362,7 +10437,11 @@ msgstr "Ați fost alocat la"
 #: code:addons/project/models/project_task.py:0
 msgid "You have been invited to follow %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ați fost invitat să urmăriți %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ați fost invitat să urmăriți %s"
 >>>>>>> upstream/18.0
@@ -8371,7 +10450,11 @@ msgstr "Ați fost invitat să urmăriți %s"
 #: model_terms:ir.ui.view,arch_db:project.task_invitation_follower
 msgid "You have been invited to follow Task Document :"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ați fost invitat să urmăriți documentul Sarcină :"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ați fost invitat să urmăriți documentul Sarcină :"
 >>>>>>> upstream/18.0
@@ -8383,6 +10466,11 @@ msgid ""
 " proceed?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aveți control total și puteți revoca accesul la portal oricând. Sunteți gata"
+" să continuați?"
+>>>>>>> upstream/18.0
 =======
 "Aveți control total și puteți revoca accesul la portal oricând. Sunteți gata"
 " să continuați?"
@@ -8397,6 +10485,12 @@ msgid ""
 "your task.<br/>Let's save it manually."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aveți modificări nesalvate - nu vă faceți griji! Odoo va salva automat pe "
+"măsură ce navigați.<br/> Puteți renunța la aceste modificări de aici sau să "
+"salvați manual sarcina.<br/>Hai să o salvăm manual."
+>>>>>>> upstream/18.0
 =======
 "Aveți modificări nesalvate - nu vă faceți griji! Odoo va salva automat pe "
 "măsură ce navigați.<br/> Puteți renunța la aceste modificări de aici sau să "
@@ -8414,7 +10508,11 @@ msgstr "Trebuie să fii"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "Your managers decide which feedback is accepted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Managerii tăi decid care feedback este acceptat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Managerii tăi decid care feedback este acceptat"
 >>>>>>> upstream/18.0
@@ -8442,7 +10540,11 @@ msgid "alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "alias"
 >>>>>>> upstream/18.0
@@ -8517,7 +10619,11 @@ msgid ""
 "and which feedback is\n"
 "      moved to the \"Refused\" column."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "și care feedback este mutat în coloana „Respins”."
+>>>>>>> upstream/18.0
 =======
 msgstr "și care feedback este mutat în coloana „Respins”."
 >>>>>>> upstream/18.0
@@ -8526,7 +10632,11 @@ msgstr "și care feedback este mutat în coloana „Respins”."
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_kanban
 msgid "assignees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "responsabili"
+>>>>>>> upstream/18.0
 =======
 msgstr "responsabili"
 >>>>>>> upstream/18.0
@@ -8542,7 +10652,11 @@ msgstr "avatar"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "button."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "buton."
+>>>>>>> upstream/18.0
 =======
 msgstr "buton."
 >>>>>>> upstream/18.0
@@ -8557,7 +10671,11 @@ msgstr "comentarii"
 #: model_terms:ir.ui.view,arch_db:project.project_update_view_form
 msgid "e.g. Monthly review"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Revizuire lunară"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Revizuire lunară"
 >>>>>>> upstream/18.0
@@ -8574,7 +10692,11 @@ msgstr "de exemplu : Office Party"
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "e.g. Product Launch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Lansare produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Lansare produs"
 >>>>>>> upstream/18.0
@@ -8584,7 +10706,11 @@ msgstr "ex: Lansare produs"
 #: model_terms:ir.ui.view,arch_db:project.quick_create_task_form
 msgid "e.g. Send Invitations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Trimite invitații"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Trimite invitații"
 >>>>>>> upstream/18.0
@@ -8593,7 +10719,11 @@ msgstr "ex: Trimite invitații"
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "e.g. Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Sarcini"
 >>>>>>> upstream/18.0
@@ -8606,7 +10736,11 @@ msgstr "ex: Sarcini"
 #: model_terms:ir.ui.view,arch_db:project.task_type_tree
 msgid "e.g. To Do"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: De făcut"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: De făcut"
 >>>>>>> upstream/18.0
@@ -8635,7 +10769,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "de exemplu, companiamea.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "de exemplu, companiamea.com"
 >>>>>>> upstream/18.0
@@ -8701,7 +10839,11 @@ msgstr "de exemplu, companiamea.com"
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified
 msgid "e.g. office-party"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: office-party"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: office-party"
 >>>>>>> upstream/18.0
@@ -8710,7 +10852,11 @@ msgstr "ex: office-party"
 #: model_terms:ir.ui.view,arch_db:project.project_milestone_view_form
 msgid "e.g: Product Launch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Lansare produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Lansare produs"
 >>>>>>> upstream/18.0
@@ -8720,7 +10866,11 @@ msgstr "ex: Lansare produs"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "icon to organize your daily activities."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pictogramă pentru a-ți organiza activitățile zilnice."
+>>>>>>> upstream/18.0
 =======
 msgstr "pictogramă pentru a-ți organiza activitățile zilnice."
 >>>>>>> upstream/18.0
@@ -8733,6 +10883,12 @@ msgid ""
 "or cancelled, all of its dependencies will be unblocked."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"pictogramă pentru a vedea sarcinile care așteaptă alte sarcini. Odată ce o "
+"sarcină este marcată ca finalizată sau anulată, toate dependențele sale vor "
+"fi deblocate."
+>>>>>>> upstream/18.0
 =======
 "pictogramă pentru a vedea sarcinile care așteaptă alte sarcini. Odată ce o "
 "sarcină este marcată ca finalizată sau anulată, toate dependențele sale vor "
@@ -8744,7 +10900,11 @@ msgstr ""
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "icon."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pictogramă."
+>>>>>>> upstream/18.0
 =======
 msgstr "pictogramă."
 >>>>>>> upstream/18.0
@@ -8754,7 +10914,11 @@ msgstr "pictogramă."
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "logged in"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "conectat"
+=======
+msgstr "autentificat"
+>>>>>>> upstream/18.0
 =======
 msgstr "autentificat"
 >>>>>>> upstream/18.0
@@ -8763,7 +10927,11 @@ msgstr "autentificat"
 #: model:ir.actions.server,name:project.action_server_view_my_task
 msgid "menu view My Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "meniul Vizualizează Sarcinile Mele"
+>>>>>>> upstream/18.0
 =======
 msgstr "meniul Vizualizează Sarcinile Mele"
 >>>>>>> upstream/18.0
@@ -8772,7 +10940,11 @@ msgstr "meniul Vizualizează Sarcinile Mele"
 #: model:ir.model.fields.selection,name:project.selection__project_project__rating_status__periodic
 msgid "on a periodic basis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "periodic"
+>>>>>>> upstream/18.0
 =======
 msgstr "periodic"
 >>>>>>> upstream/18.0
@@ -8781,7 +10953,11 @@ msgstr "periodic"
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
 msgid "project."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "proiect."
+>>>>>>> upstream/18.0
 =======
 msgstr "proiect."
 >>>>>>> upstream/18.0
@@ -8790,7 +10966,11 @@ msgstr "proiect."
 #: model_terms:ir.ui.view,arch_db:project.milestone_deadline
 msgid "ready to be marked as reached"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "gata să fie marcată ca atinsă"
+>>>>>>> upstream/18.0
 =======
 msgstr "gata să fie marcată ca atinsă"
 >>>>>>> upstream/18.0
@@ -8802,6 +10982,11 @@ msgid ""
 "state to indicate a request for changes or a need for discussion on a task."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"stare pentru a indica o solicitare de modificări sau o nevoie de discuție pe"
+" o sarcină."
+>>>>>>> upstream/18.0
 =======
 "stare pentru a indica o solicitare de modificări sau o nevoie de discuție pe"
 " o sarcină."
@@ -8814,6 +10999,11 @@ msgid ""
 "state to inform your colleagues that a task is approved for the next stage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"stare pentru a informa colegii că o sarcină este aprobată pentru următoarea "
+"etapă."
+>>>>>>> upstream/18.0
 =======
 "stare pentru a informa colegii că o sarcină este aprobată pentru următoarea "
 "etapă."
@@ -8824,7 +11014,11 @@ msgstr ""
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "state to mark the task as cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "stare pentru a marca sarcina ca anulată."
+>>>>>>> upstream/18.0
 =======
 msgstr "stare pentru a marca sarcina ca anulată."
 >>>>>>> upstream/18.0
@@ -8833,6 +11027,7 @@ msgstr "stare pentru a marca sarcina ca anulată."
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "state to mark the task as complete."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -8959,6 +11154,8 @@ msgstr ""
 msgid "sub-tasks)"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "stare pentru a marca sarcina ca finalizată."
 
 #. module: project
@@ -8966,6 +11163,9 @@ msgstr "stare pentru a marca sarcina ca finalizată."
 #: code:addons/project/static/src/components/project_task_name_with_subtask_count_char_field/project_task_name_with_subtask_count_char_field.xml:0
 msgid "sub-tasks)"
 msgstr "sub-sarcini)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -8978,7 +11178,11 @@ msgstr "sarcină"
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
 msgid "the deadline for the following milestone has been updated:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "termenul limită pentru următoarea etapă a fost actualizat:"
+>>>>>>> upstream/18.0
 =======
 msgstr "termenul limită pentru următoarea etapă a fost actualizat:"
 >>>>>>> upstream/18.0
@@ -8987,7 +11191,11 @@ msgstr "termenul limită pentru următoarea etapă a fost actualizat:"
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
 msgid "the deadline for the following milestones has been updated:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "termenul limită pentru următoarele etape a fost actualizat:"
+>>>>>>> upstream/18.0
 =======
 msgstr "termenul limită pentru următoarele etape a fost actualizat:"
 >>>>>>> upstream/18.0
@@ -8999,7 +11207,11 @@ msgid ""
 "to define if the project is\n"
 "      ready for the next step."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pentru a defini dacă proiectul este gata pentru următorul pas."
+>>>>>>> upstream/18.0
 =======
 msgstr "pentru a defini dacă proiectul este gata pentru următorul pas."
 >>>>>>> upstream/18.0
@@ -9015,7 +11227,11 @@ msgstr "pentru a posta un comentariu."
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "to signalize what is the current status of your Idea."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pentru a semnala care este starea curentă a Ideii tale."
+>>>>>>> upstream/18.0
 =======
 msgstr "pentru a semnala care este starea curentă a Ideii tale."
 >>>>>>> upstream/18.0
@@ -9024,7 +11240,11 @@ msgstr "pentru a semnala care este starea curentă a Ideii tale."
 #: model:ir.model.fields.selection,name:project.selection__project_project__rating_status__stage
 msgid "when reaching a given stage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "la atingerea unei anumite etape"
+>>>>>>> upstream/18.0
 =======
 msgstr "la atingerea unei anumite etape"
 >>>>>>> upstream/18.0
@@ -9033,7 +11253,11 @@ msgstr "la atingerea unei anumite etape"
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
 msgid "will generate tasks in your"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "va genera sarcini în"
+>>>>>>> upstream/18.0
 =======
 msgstr "va genera sarcini în"
 >>>>>>> upstream/18.0
@@ -9045,6 +11269,11 @@ msgid ""
 "Satisfaction Survey"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"{{ object.project_id.company_id.name or user.env.company.name }}: Chestionar"
+" de satisfacție"
+>>>>>>> upstream/18.0
 =======
 "{{ object.project_id.company_id.name or user.env.company.name }}: Chestionar"
 " de satisfacție"
@@ -9056,7 +11285,11 @@ msgstr ""
 #: code:addons/project/static/src/views/project_task_list/project_task_list_renderer.js:0
 msgid "👤 Unassigned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "👤 Nealocat"
+>>>>>>> upstream/18.0
 =======
 msgstr "👤 Nealocat"
 >>>>>>> upstream/18.0
@@ -9068,7 +11301,11 @@ msgstr "👤 Nealocat"
 #: code:addons/project/static/src/views/project_task_list/project_task_list_renderer.js:0
 msgid "🔒 Private"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "🔒 Privat"
+>>>>>>> upstream/18.0
 =======
 msgstr "🔒 Privat"
 >>>>>>> upstream/18.0

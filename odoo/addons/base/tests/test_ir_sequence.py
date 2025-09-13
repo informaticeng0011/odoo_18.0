@@ -193,7 +193,10 @@ class TestIrSequenceGenerate(BaseCase):
                 env['ir.sequence'].next_by_code('test_sequence_type_7')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_ir_sequence_suffix(self):
         """ test whether a user error is raised for an invalid sequence """
 
@@ -208,6 +211,9 @@ class TestIrSequenceGenerate(BaseCase):
             with self.assertRaisesRegex(UserError, "Invalid prefix or suffix"):
                 env['ir.sequence'].next_by_code('test_sequence_type_8')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @classmethod
     def tearDownClass(cls):

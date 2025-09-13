@@ -634,7 +634,11 @@ export class CollaborationOdooPlugin extends Plugin {
         this.historyShareId = Math.floor(Math.random() * Math.pow(2, 52)).toString();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         const lastStepId = content && this.getLastHistoryStepId(content);
+=======
+        const lastStepId = content && content.match(/data-last-history-steps="([\d,]+)"/)?.[1];
+>>>>>>> upstream/18.0
 =======
         const lastStepId = content && content.match(/data-last-history-steps="([\d,]+)"/)?.[1];
 >>>>>>> upstream/18.0

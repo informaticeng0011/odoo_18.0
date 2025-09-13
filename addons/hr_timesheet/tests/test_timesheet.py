@@ -5,7 +5,11 @@ from lxml import etree
 
 from odoo.fields import Command
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, TransactionCase
+=======
+from odoo.tests import Form, TransactionCase, new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, TransactionCase, new_test_user
 >>>>>>> upstream/18.0
@@ -98,7 +102,10 @@ class TestCommonTimesheet(TransactionCase):
             'employee_type': 'freelance',
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.project = cls.env['project.project'].create({
             'name': 'Test Project',
             'privacy_visibility': 'followers',
@@ -117,6 +124,9 @@ class TestCommonTimesheet(TransactionCase):
             login='no_project_user',
             groups='hr_timesheet.group_timesheet_manager'
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -125,6 +135,11 @@ class TestTimesheet(TestCommonTimesheet):
     def setUp(self):
         super(TestTimesheet, self).setUp()
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Make sure to clean the plan fields
+        self.env.registry.setup_models(self.env.cr)
+>>>>>>> upstream/18.0
 =======
         # Make sure to clean the plan fields
         self.env.registry.setup_models(self.env.cr)
@@ -421,7 +436,10 @@ class TestTimesheet(TestCommonTimesheet):
         self.assertEqual(timesheet.project_id, second_project, 'The project_id of non-validated timesheet should have changed')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_compute_display_name(self):
         self.timesheet.with_user(self.timesheet_manager_no_project_user)._compute_display_name()
         self.assertEqual(
@@ -430,6 +448,9 @@ class TestTimesheet(TestCommonTimesheet):
             "Display name should be correctly computed without raising AccessError."
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_create_timesheet_employee_not_in_company(self):
         ''' ts.employee_id only if the user has an employee in the company or one employee for all companies.
@@ -813,7 +834,10 @@ class TestTimesheet(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -898,6 +922,7 @@ class TestTimesheet(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -912,6 +937,8 @@ class TestTimesheet(TestCommonTimesheet):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_split_analytic_dynamic_update(self):
         self.empl_employee.hourly_cost = 10.0
@@ -930,4 +957,7 @@ class TestTimesheet(TestCommonTimesheet):
             f"{another_account.id}": 50,
         }
         self.assertEqual(line.amount, -5)  # the line is split in 2
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_timesheet
 # 
+=======
+# * hr_timesheet
+#
+>>>>>>> upstream/18.0
 =======
 # * hr_timesheet
 #
@@ -16,7 +21,12 @@
 # Tina Milas, 2024
 # Bole <bole@dajmi5.com>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Alen Komljen <alen@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Luka Carević <luka@uvid.hr>, 2025
 # Alen Komljen <alen@uvid.hr>, 2025.
@@ -27,6 +37,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Bole <bole@dajmi5.com>, 2025\n"
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
@@ -36,6 +47,8 @@ msgstr ""
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-08 10:53+0000\n"
 "Last-Translator: Alen Komljen <alen@uvid.hr>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
@@ -47,6 +60,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -400,7 +416,11 @@ msgstr "Datum"
 #: model:ir.model.fields.selection,name:hr_timesheet.selection__res_config_settings__timesheet_encode_method__days
 msgid "Days / Half-Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dani / Poludani"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dani / Poludani"
 >>>>>>> upstream/18.0
@@ -435,7 +455,11 @@ msgstr ""
 #: model:ir.actions.server,name:hr_timesheet.unlink_employee_action
 msgid "Delete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Briši"
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obriši"
 >>>>>>> upstream/18.0
@@ -444,7 +468,11 @@ msgstr "Obriši"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid "Delete Employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Briši djelatnika"
+=======
+msgstr "Obriši djelatnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obriši djelatnika"
 >>>>>>> upstream/18.0
@@ -540,7 +568,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_timesheet.field_res_config_settings__timesheet_encode_method
 msgid "Encoding Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metoda kodiranja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metoda kodiranja"
 >>>>>>> upstream/18.0
@@ -557,6 +589,11 @@ msgid ""
 "Generate timesheets for validated time off requests and public holidays"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Generirajte evidencije radnih vremena za potvrđene zahtjeve za odsustvo i "
+"državne praznike"
+>>>>>>> upstream/18.0
 =======
 "Generirajte evidencije radnih vremena za potvrđene zahtjeve za odsustvo i "
 "državne praznike"
@@ -581,7 +618,11 @@ msgstr "Sati / Minuta"
 #: model:ir.model.fields,field_description:hr_timesheet.field_report_project_task_user__total_hours_spent
 msgid "Hours By Task (Including Subtasks)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sati po zadatku (uključujući podzadatke)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sati po zadatku (uključujući podzadatke)"
 >>>>>>> upstream/18.0
@@ -686,7 +727,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_timesheet.field_timesheets_analysis_report__milestone_id
 msgid "Milestone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapa"
 >>>>>>> upstream/18.0
@@ -905,6 +950,11 @@ msgid ""
 "timesheets to validate"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pošaljite periodični podsjetnik e-poštom odobravateljima evidencija radnih "
+"vremena koji još uvijek imaju evidencije za potvrditi"
+>>>>>>> upstream/18.0
 =======
 "Pošaljite periodični podsjetnik e-poštom odobravateljima evidencija radnih "
 "vremena koji još uvijek imaju evidencije za potvrditi"
@@ -917,6 +967,11 @@ msgid ""
 "timesheets to encode"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pošaljite periodični podsjetnik e-poštom korisnicima radnih sati koji još "
+"uvijek nisu evidentirali svoje sate."
+>>>>>>> upstream/18.0
 =======
 "Pošaljite periodični podsjetnik e-poštom korisnicima radnih sati koji još "
 "uvijek nisu evidentirali svoje sate."
@@ -1090,7 +1145,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_tree2_inherited
 msgid "Time Remaining on SO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preostalo vrijeme na prodajnoj narudžbi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preostalo vrijeme na prodajnoj narudžbi"
 >>>>>>> upstream/18.0
@@ -1121,7 +1180,11 @@ msgstr "Utrošeno vrijeme"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_tree2_inherited
 msgid "Time Spent on Sub-Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Utrošeno vrijeme na podzadatke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Utrošeno vrijeme na podzadatke"
 >>>>>>> upstream/18.0
@@ -1130,7 +1193,11 @@ msgstr "Utrošeno vrijeme na podzadatke"
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_task__subtask_effective_hours
 msgid "Time Spent on Sub-tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Utrošeno vrijeme na podzadatke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Utrošeno vrijeme na podzadatke"
 >>>>>>> upstream/18.0
@@ -1155,7 +1222,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
 msgid "Time unit used to record your timesheets"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedinica vremena koja se koristi za evidentiranje radnih vremena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jedinica vremena koja se koristi za evidentiranje radnih vremena"
 >>>>>>> upstream/18.0
@@ -1195,7 +1266,11 @@ msgstr "Troškovi evidencije"
 #: model:ir.model.fields,field_description:hr_timesheet.field_res_company__timesheet_encode_uom_id
 msgid "Timesheet Encoding Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Jedinica upisivanja evidencije"
+=======
+msgstr "Jedinica za unos radnog vremena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jedinica za unos radnog vremena"
 >>>>>>> upstream/18.0

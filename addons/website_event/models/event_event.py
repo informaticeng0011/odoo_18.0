@@ -95,6 +95,10 @@ import werkzeug.urls
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 >>>>>>> upstream/18.0
@@ -857,11 +861,14 @@ class Event(models.Model):
     @api.model
     def _search_build_dates(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         today = fields.Datetime.today()
 
         def sdn(date):
             return fields.Datetime.to_string(date.replace(hour=23, minute=59, second=59))
 =======
+=======
+>>>>>>> upstream/18.0
         # To fetch events of the user's current day. The start and the end of the user's day must
         # be localized and then converted in UTC, as it is the timezone used to record dates and
         # times in db.
@@ -869,12 +876,16 @@ class Event(models.Model):
         localized_today_begin = tz.localize(fields.Datetime.today())
         utc_today_begin = localized_today_begin.astimezone(utc)
         utc_today_end = localized_today_begin.replace(hour=23, minute=59, second=59).astimezone(utc)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         def sd(date):
             return fields.Datetime.to_string(date)
 
         def get_month_filter_domain(filter_name, months_delta):
+<<<<<<< HEAD
 <<<<<<< HEAD
             first_day_of_the_month = today.replace(day=1)
             filter_string = _('This month') if months_delta == 0 \
@@ -895,6 +906,8 @@ class Event(models.Model):
             ['old', _('Past Events'), [
                 ("date_end", "<", sd(today))],
 =======
+=======
+>>>>>>> upstream/18.0
             localized_month_begin = localized_today_begin.replace(day=1)
             utc_month_begin = (localized_month_begin + relativedelta(months=months_delta)).astimezone(utc)
             # As utc_month_begin may be the 30th day of the month, adding months may lead to miscalculation the
@@ -919,6 +932,9 @@ class Event(models.Model):
             get_month_filter_domain('month', 0),
             ['old', _('Past Events'), [
                 ("date_end", "<", sd(utc_today_begin))],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 0],
             ['all', _('All Events'), [], 0]
@@ -1105,8 +1121,11 @@ class Event(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 data['range'] = '%s🠖%s' % (begin, end) if begin != end else begin
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1375,6 +1394,9 @@ class Event(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

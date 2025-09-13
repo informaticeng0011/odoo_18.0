@@ -1359,7 +1359,10 @@ class TestQWebBasic(TransactionCase):
         self.assertEqual(rendered.strip(), result.strip())
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_if_comment(self):
         t = self.env['ir.ui.view'].create({
             'name': 'test',
@@ -1404,6 +1407,9 @@ class TestQWebBasic(TransactionCase):
         rendered = str(self.env['ir.qweb']._render(t.id))
         self.assertEqual(rendered.strip(), result.strip())
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_error_message_1(self):
         t = self.env['ir.ui.view'].create({

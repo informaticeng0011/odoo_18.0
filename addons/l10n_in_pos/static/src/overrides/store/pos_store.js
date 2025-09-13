@@ -8,7 +8,11 @@ patch(PosStore.prototype, {
         return {
             ...super.getReceiptHeaderData(...arguments),
 <<<<<<< HEAD
+<<<<<<< HEAD
             partner: this.selectedOrder.partner_id,
+=======
+            partner: this.selectedOrder?.partner_id,
+>>>>>>> upstream/18.0
 =======
             partner: this.selectedOrder?.partner_id,
 >>>>>>> upstream/18.0

@@ -3,7 +3,11 @@ import { useErrorHandlers, useTrackedAsync } from "@point_of_sale/app/utils/hook
 import { registry } from "@web/core/registry";
 import { OrderReceipt } from "@point_of_sale/app/screens/receipt_screen/receipt/order_receipt";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useState, Component, onMounted } from "@odoo/owl";
+=======
+import { useState, Component } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { useState, Component } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -33,6 +37,7 @@ export class ReceiptScreen extends Component {
         this.doFullPrint = useTrackedAsync(() => this.pos.printReceipt());
         this.doBasicPrint = useTrackedAsync(() => this.pos.printReceipt({ basic: true }));
 <<<<<<< HEAD
+<<<<<<< HEAD
         onMounted(() => {
             const order = this.pos.get_order();
             this.currentOrder.uiState.locked = true;
@@ -46,10 +51,15 @@ export class ReceiptScreen extends Component {
     _addNewOrder() {
         this.pos.add_new_order();
 =======
+=======
+>>>>>>> upstream/18.0
     }
 
     _addNewOrder() {
         this.pos.selectEmptyOrder();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     actionSendReceiptOnEmail() {
@@ -95,7 +105,10 @@ export class ReceiptScreen extends Component {
     orderDone() {
         this.currentOrder.uiState.screen_data.value = "";
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.currentOrder.uiState.locked = true;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         this._addNewOrder();

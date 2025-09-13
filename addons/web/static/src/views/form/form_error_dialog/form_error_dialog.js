@@ -12,6 +12,10 @@ export class FormErrorDialog extends Component {
         onDiscard: Function,
         onStayHere: Function,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        onRedirect: { type: Function, optional: true },
+>>>>>>> upstream/18.0
 =======
         onRedirect: { type: Function, optional: true },
 >>>>>>> upstream/18.0
@@ -26,6 +30,7 @@ export class FormErrorDialog extends Component {
             this.redirectAction = this.props.data.arguments[1];
             this.redirectBtnLabel = this.props.data.arguments[2];
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
     }
 
@@ -33,6 +38,8 @@ export class FormErrorDialog extends Component {
         this.action.doAction(this.redirectAction);
         this.stay();
 =======
+=======
+>>>>>>> upstream/18.0
             this.additionalContext = this.props.data.arguments[3];
         }
     }
@@ -50,6 +57,9 @@ export class FormErrorDialog extends Component {
             });
             this.stay();
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 

@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Mads Søndergaard, 2025
 <<<<<<< HEAD
@@ -480,6 +481,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Mads Søndergaard, 2025
 # Ejner Sønniksen <ejner@vkdata.dk>, 2025
 # Sammi Iversen <sammi@vkdata.dk>, 2025
@@ -487,6 +490,10 @@
 # Sanne Kristensen <sanne@vkdata.dk>, 2025
 # Wil Odoo, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
 >>>>>>> upstream/18.0
 =======
 # Kira Petersen, 2025
@@ -496,6 +503,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -897,6 +905,11 @@ msgstr ""
 "POT-Creation-Date: 2025-07-11 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-07-11 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Kira Petersen, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-07-11 18:39+0000\n"
@@ -1345,7 +1358,11 @@ msgstr "<i class=\"fa fa-comment\"/> Feedback"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "<i class=\"fa fa-fw fa-check\"/> Authorized"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check\"/> Godkendt"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check\"/> Godkendt"
 >>>>>>> upstream/18.0
@@ -1359,7 +1376,11 @@ msgstr "<i class=\"fa fa-fw fa-check\"/> Betalt"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "<i class=\"fa fa-fw fa-check\"/> Reversed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check\"/> Annulleret"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check\"/> Annulleret"
 >>>>>>> upstream/18.0
@@ -1437,6 +1458,12 @@ msgid ""
 "is_product_archived\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning me-1\" title=\"This "
+"product is archived\" invisible=\"state not in ['draft', 'sent'] or not "
+"is_product_archived\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-exclamation-triangle text-warning me-1\" title=\"This "
 "product is archived\" invisible=\"state not in ['draft', 'sent'] or not "
@@ -1494,6 +1521,11 @@ msgid ""
 "class=\"oe_inline\">% </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"advance_payment_method != 'percentage'\" "
+"class=\"oe_inline\">% </span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"advance_payment_method != 'percentage'\" "
 "class=\"oe_inline\">% </span>"
@@ -1506,6 +1538,11 @@ msgid ""
 "        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span><b>Tillykke</b>, dit første tilbud er blevet sendt!<br>Tjek din e-mail for at validere tilbuddet.\n"
+"        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span><b>Tillykke</b>, dit første tilbud er blevet sendt!<br>Tjek din e-mail for at validere tilbuddet.\n"
 "        </span>"
@@ -1540,7 +1577,11 @@ msgstr "<span>Rabat%</span>"
 #: model_terms:ir.ui.view,arch_db:sale.product_document_kanban
 msgid "<span>Sales visibility</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Salgssynlighed</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Salgssynlighed</span>"
 >>>>>>> upstream/18.0
@@ -1612,6 +1653,7 @@ msgstr "<span>Advarsel: denne ordre kan være en kopi af</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1830,6 +1872,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<strong class=\"d-block mt-3\">Shipping Address</strong>"
 msgstr "<strong class=\"d-block mt-3\">Leveringsadresse</strong>"
 
@@ -1845,6 +1889,9 @@ msgstr "<strong class=\"d-block mt-3\">Leveringsadresse</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1887,6 +1934,7 @@ msgstr "<strong>Sælger</strong>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2146,6 +2194,8 @@ msgstr "<strong>Leveringsadresse</strong>"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<strong>Signature</strong>"
 msgstr "<strong>Underskrift</strong>"
 
@@ -2203,6 +2253,11 @@ msgstr ""
 msgid "A sale order line's product must match its combo item's product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Produktet i en ordrelinje skal matche produktet i den tilknyttede "
+"kombinationslinje."
+>>>>>>> upstream/18.0
 =======
 "Produktet i en ordrelinje skal matche produktet i den tilknyttede "
 "kombinationslinje."
@@ -2339,6 +2394,11 @@ msgid ""
 "                (e.g. \"Delivery scheduling\", \"Order Payment Follow-up\", ...)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aktivitetsplaner bruges til at tildele en liste over aktiviteter med kun få klik\n"
+"                (f.eks. \"Leveringsplanlægning\", \"Opfølgning på betaling af ordre\" osv.)"
+>>>>>>> upstream/18.0
 =======
 "Aktivitetsplaner bruges til at tildele en liste over aktiviteter med kun få klik\n"
 "                (f.eks. \"Leveringsplanlægning\", \"Opfølgning på betaling af ordre\" osv.)"
@@ -2419,7 +2479,10 @@ msgid ""
 "Inside quote: The document will be included in the pdf of the quotation and sale order between the header pages and the quote table. "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Gør det muligt at dele dokumentet med dine kunder i forbindelse med et salg.\n"
 "Lad feltet stå tomt, hvis du ikke ønsker at dele dokumentet med kunden.\n"
 "På tilbud: Dokumentet bliver sendt til kunden og vil være tilgængeligt for dem til enhver tid.\n"
@@ -2427,6 +2490,9 @@ msgstr ""
 "På ordrebekræftelse: Dokumentet sendes til kunden og er tilgængeligt for dem.\n"
 "Eksempel: Her kan det være praktisk at dele brugervejledninger eller digitalt indhold købt via e-handel.\n"
 "På tilbuddet: Dokumentet indsættes i tilbuds-PDF’en mellem sidehovedet og tilbudstabellen, både i tilbuddet og på salgsordren. "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -2614,7 +2680,11 @@ msgstr "Baseret på dokument reference"
 #: model_terms:ir.actions.act_window,help:sale.action_quotations_with_onboarding
 msgid "Beat competitors with stunning quotations!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overgå konkurrenterne med fantastiske tilbud!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Overgå konkurrenterne med fantastiske tilbud!"
 >>>>>>> upstream/18.0
@@ -2638,6 +2708,11 @@ msgid ""
 "customer portal."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Boost salget med onlinebetalinger, digitale underskrifter, mersalg og en "
+"fremragende kundeportal."
+>>>>>>> upstream/18.0
 =======
 "Boost salget med onlinebetalinger, digitale underskrifter, mersalg og en "
 "fremragende kundeportal."
@@ -2790,7 +2865,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:sale.action_quotations_with_onboarding
 msgid "Check a sample. It's clean!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Se et eksempel på et tilbud. Det er så overskueligt!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Se et eksempel på et tilbud. Det er så overskueligt!"
 >>>>>>> upstream/18.0
@@ -2863,9 +2942,12 @@ msgstr "Virksomhedsdokument layout"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "Beregn fragtomkostninger og send med DHL"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid ""
@@ -2873,6 +2955,9 @@ msgid ""
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2886,9 +2971,12 @@ msgstr "Udregn leveringsomkostninger og afsend med Easypost"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with FedEx"
 msgstr "Beregn fragtomkostninger og send med FedEx"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid ""
@@ -2896,6 +2984,9 @@ msgid ""
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2914,6 +3005,7 @@ msgstr "Beregn fragtomkostninger og send med Shiprocket"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with Starshipit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale
@@ -2928,10 +3020,15 @@ msgid "Compute shipping costs and ship with USPS"
 msgstr "Beregn fragtomkostninger og send med USPS"
 =======
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Beregn leveringsomkostninger, og send med Starshipit"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with UPS<br/>\n"
@@ -2945,6 +3042,9 @@ msgid ""
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3238,7 +3338,10 @@ msgstr "Kunder"
 #. module: sale
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -3247,6 +3350,9 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3309,6 +3415,11 @@ msgid ""
 "the customer. The default can be changed per order or template."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Standardperioden, hvor tilbuddet er gyldigt og kan accepteres af kunden. "
+"Denne værdi kan tilpasses for hver enkelt ordre eller tilbudsskabelon."
+>>>>>>> upstream/18.0
 =======
 "Standardperioden, hvor tilbuddet er gyldigt og kan accepteres af kunden. "
 "Denne værdi kan tilpasses for hver enkelt ordre eller tilbudsskabelon."
@@ -3459,7 +3570,11 @@ msgstr "Rabat på linjer"
 #: code:addons/sale/wizard/sale_order_discount.py:0
 msgid "Discount- On products with the following taxes %(taxes)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rabat- På produkter med følgende afgifter %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rabat- På produkter med følgende afgifter %(taxes)s"
 >>>>>>> upstream/18.0
@@ -3509,7 +3624,10 @@ msgstr "Distribution analysekonto"
 #. module: sale
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -3518,6 +3636,9 @@ msgstr "Dokumentation"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3683,7 +3804,10 @@ msgstr "E-mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3791,6 +3915,9 @@ msgstr "Guide til at oprette e-mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3869,7 +3996,11 @@ msgstr "Email sendt til kunden når fakturaen er tilgængelig."
 #: code:addons/sale/static/src/js/product_template_attribute_line/product_template_attribute_line.js:0
 msgid "Enter a customized value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Indtast en tilpasset værdi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Indtast en tilpasset værdi"
 >>>>>>> upstream/18.0
@@ -3926,6 +4057,10 @@ msgstr "Ekstra linje med %s"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_fedex
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -4047,7 +4182,11 @@ msgstr "Global rabat"
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Go ahead and send the quotation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Så er det bare med at sende tilbuddet."
+>>>>>>> upstream/18.0
 =======
 msgstr "Så er det bare med at sende tilbuddet."
 >>>>>>> upstream/18.0
@@ -4059,6 +4198,11 @@ msgid ""
 "A service is a non-material product you provide."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Varer er fysiske produkter og materialer, som du leverer.\n"
+"En service er en ikke-fysisk ydelse, du stiller til rådighed."
+>>>>>>> upstream/18.0
 =======
 "Varer er fysiske produkter og materialer, som du leverer.\n"
 "En service er en ikke-fysisk ydelse, du stiller til rådighed."
@@ -4186,7 +4330,11 @@ msgstr "Hvis du ændre prislisten, er det kun nye linjer der bliver påvirket."
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Immediate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omgående"
+>>>>>>> upstream/18.0
 =======
 msgstr "Omgående"
 >>>>>>> upstream/18.0
@@ -4526,7 +4674,11 @@ msgstr "Lad dine kunder logge ind for at se deres dokumenter"
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Let’s create a beautiful quotation in a few clicks ."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lad os lave et smuks tilbud på kun få klik."
+>>>>>>> upstream/18.0
 =======
 msgstr "Lad os lave et smuks tilbud på kun få klik."
 >>>>>>> upstream/18.0
@@ -4540,7 +4692,11 @@ msgstr "Tilknyttede ordrelinjer"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__linked_line_ids
 msgid "Linked Order Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilknyttede ordrelinjer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilknyttede ordrelinjer"
 >>>>>>> upstream/18.0
@@ -4549,7 +4705,11 @@ msgstr "Tilknyttede ordrelinjer"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__linked_virtual_id
 msgid "Linked Virtual"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Virtuel tilknyttet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Virtuel tilknyttet"
 >>>>>>> upstream/18.0
@@ -4593,7 +4753,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Manage Promotions, Coupons, Loyalty cards, Gift cards & eWallet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Administrer kampagner, kuponer, medlemskort, gavekort og digital pung"
+>>>>>>> upstream/18.0
 =======
 msgstr "Administrer kampagner, kuponer, medlemskort, gavekort og digital pung"
 >>>>>>> upstream/18.0
@@ -4602,7 +4766,11 @@ msgstr "Administrer kampagner, kuponer, medlemskort, gavekort og digital pung"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Manage Sales & teams targets and commissions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Håndtér salg samt teamenes mål og provisioner"
+>>>>>>> upstream/18.0
 =======
 msgstr "Håndtér salg samt teamenes mål og provisioner"
 >>>>>>> upstream/18.0
@@ -5716,6 +5884,10 @@ msgstr "Ansvarlig bruger"
 msgid "Revenue Target for the current month (untaxed total of paid invoices)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Målsætning for indtægter denne måned (total betalt fakturabeløb uden moms)."
+>>>>>>> upstream/18.0
 =======
 "Målsætning for indtægter denne måned (total betalt fakturabeløb uden moms)."
 >>>>>>> upstream/18.0
@@ -5751,7 +5923,11 @@ msgstr "Salg"
 #: model:ir.model.fields,field_description:sale.field_product_document__attached_on_sale
 msgid "Sale : Visible at"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Salg: Synlig hos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Salg: Synlig hos"
 >>>>>>> upstream/18.0
@@ -5856,7 +6032,11 @@ msgstr "Salg analyse af Kunder"
 #: model:ir.actions.act_window,name:sale.action_order_report_products
 msgid "Sales Analysis By Products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Salgsanalyse efter produkter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Salgsanalyse efter produkter"
 >>>>>>> upstream/18.0
@@ -5992,6 +6172,12 @@ msgid ""
 "entry to be non-billable."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Salgsordrer, som den registrerede tid tilknyttes, så den kan faktureres til "
+"din kunde. Fjern salgsordren for at forhindre, at tidsregistreringen kan "
+"faktureres."
+>>>>>>> upstream/18.0
 =======
 "Salgsordrer, som den registrerede tid tilknyttes, så den kan faktureres til "
 "din kunde. Fjern salgsordren for at forhindre, at tidsregistreringen kan "
@@ -6080,7 +6266,10 @@ msgstr "Sælgere"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6188,6 +6377,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6267,7 +6459,11 @@ msgstr "Søg salgsordrer"
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Search a customer name, or create one on the fly."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Søg efter navnet på en kunde, eller opret én løbende."
+>>>>>>> upstream/18.0
 =======
 msgstr "Søg efter navnet på en kunde, eller opret én løbende."
 >>>>>>> upstream/18.0
@@ -6297,7 +6493,11 @@ msgstr "Vælg et produkt, eller opret en ny løbende."
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__selected_combo_items
 msgid "Selected Combo Items"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valgte kombinationsartikler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valgte kombinationsartikler"
 >>>>>>> upstream/18.0
@@ -6503,6 +6703,11 @@ msgid ""
 "                        affected by the cancellation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nogle af de valgte ordrer er allerede bekræftet. Annulleringen kan få\n"
+"                        konsekvenser for relaterede dokumenter."
+>>>>>>> upstream/18.0
 =======
 "Nogle af de valgte ordrer er allerede bekræftet. Annulleringen kan få\n"
 "                        konsekvenser for relaterede dokumenter."
@@ -6513,7 +6718,11 @@ msgstr ""
 #: code:addons/sale/models/sale_order.py:0
 msgid "Some orders are not in a state requiring confirmation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nogle ordrer er ikke i en status, der kræver bekræftelse."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nogle ordrer er ikke i en status, der kræver bekræftelse."
 >>>>>>> upstream/18.0
@@ -6540,7 +6749,11 @@ msgstr "Specifik e-mail"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_starshipit
 msgid "Starshipit Connector"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Starshipit-transportfirma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Starshipit-transportfirma"
 >>>>>>> upstream/18.0
@@ -6585,7 +6798,11 @@ msgstr "Subtotal"
 #: model_terms:ir.ui.view,arch_db:sale.sale_report_view_tree
 msgid "Sum of Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samlede mængde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samlede mængde"
 >>>>>>> upstream/18.0
@@ -6607,6 +6824,12 @@ msgid ""
 "state 'done' or 'authorized' and linked to this order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Den samlede sum af transaktioner, der er foretaget via "
+"onlinebetalingsformularen, har status \"Afsluttet\" eller \"Godkendt\" og er"
+" knyttet til denne ordre."
+>>>>>>> upstream/18.0
 =======
 "Den samlede sum af transaktioner, der er foretaget via "
 "onlinebetalingsformularen, har status \"Afsluttet\" eller \"Godkendt\" og er"
@@ -6644,7 +6867,11 @@ msgstr "Moms land"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Tax Excl."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ekskl. moms"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ekskl. moms"
 >>>>>>> upstream/18.0
@@ -6658,7 +6885,11 @@ msgstr "Moms ID"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Tax Incl."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Inkl. moms"
+>>>>>>> upstream/18.0
 =======
 msgstr "Inkl. moms"
 >>>>>>> upstream/18.0
@@ -6699,6 +6930,11 @@ msgid ""
 "cancelling them or archiving the team instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Team %(team_name)s har %(sale_order_count)s aktive salgsordrer. Du kan enten"
+" annullere dem eller vælge at arkivere teamet."
+>>>>>>> upstream/18.0
 =======
 "Team %(team_name)s har %(sale_order_count)s aktive salgsordrer. Du kan enten"
 " annullere dem eller vælge at arkivere teamet."
@@ -6708,7 +6944,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__technical_price_unit
 msgid "Technical Price Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Teknisk prisenhed"
+>>>>>>> upstream/18.0
 =======
 msgstr "Teknisk prisenhed"
 >>>>>>> upstream/18.0
@@ -6765,6 +7005,11 @@ msgid ""
 " an expense on a cancelled Sales Order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Salgsordren %(order)s til fakturering er blevet annulleret. Det er ikke "
+"muligt at registrere en udgift på en annulleret salgsordre."
+>>>>>>> upstream/18.0
 =======
 "Salgsordren %(order)s til fakturering er blevet annulleret. Det er ikke "
 "muligt at registrere en udgift på en annulleret salgsordre."
@@ -6778,6 +7023,11 @@ msgid ""
 "register an expense on a locked Sales Order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Salgsordren %(order)s til fakturering er blevet pt. låst. Det er ikke muligt"
+" at registrere en udgift på en låst salgsordre."
+>>>>>>> upstream/18.0
 =======
 "Salgsordren %(order)s til fakturering er blevet pt. låst. Det er ikke muligt"
 " at registrere en udgift på en låst salgsordre."
@@ -6791,6 +7041,11 @@ msgid ""
 "registering expenses."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Salgsordren %(order)s til fakturering skal valideres, før udgifter kan "
+"registreres."
+>>>>>>> upstream/18.0
 =======
 "Salgsordren %(order)s til fakturering skal valideres, før udgifter kan "
 "registreres."
@@ -6817,6 +7072,10 @@ msgid ""
 "to the sale order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Virksomheden er påkrævet. Vælg venligst én, inden du redigerer salgsordren."
+>>>>>>> upstream/18.0
 =======
 "Virksomheden er påkrævet. Vælg venligst én, inden du redigerer salgsordren."
 >>>>>>> upstream/18.0
@@ -6883,6 +7142,11 @@ msgid ""
 "choices."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Antallet af valgte kombinationsartikler skal stemme overens med antallet af "
+"tilgængelige kombinationsmuligheder."
+>>>>>>> upstream/18.0
 =======
 "Antallet af valgte kombinationsartikler skal stemme overens med antallet af "
 "tilgængelige kombinationsmuligheder."
@@ -6941,7 +7205,11 @@ msgstr ""
 #: code:addons/sale/models/product_template.py:0
 msgid "The product (%(product)s) has incompatible values: %(value_list)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktet (%(product)s) har uforenelige værdier: %(value_list)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produktet (%(product)s) har uforenelige værdier: %(value_list)s"
 >>>>>>> upstream/18.0
@@ -6982,6 +7250,12 @@ msgid ""
 "grant the discount the first time."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Der ser ikke ud til at være konfigureret et rabatprodukt for denne "
+"virksomhed. Du kan enten anvende rabat pr. ordrelinje eller bede en "
+"administrator om at oprette rabatten."
+>>>>>>> upstream/18.0
 =======
 "Der ser ikke ud til at være konfigureret et rabatprodukt for denne "
 "virksomhed. Du kan enten anvende rabat pr. ordrelinje eller bede en "
@@ -6992,7 +7266,11 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_product_category__property_account_downpayment_categ_id
 msgid "This account will be used on Downpayment invoices."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Denne konto bruges til fakturaer ved forudbetalinger."
+>>>>>>> upstream/18.0
 =======
 msgstr "Denne konto bruges til fakturaer ved forudbetalinger."
 >>>>>>> upstream/18.0
@@ -7050,7 +7328,11 @@ msgstr ""
 #: code:addons/sale/static/src/js/product/product.xml:0
 msgid "This option or combination of options is not available"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Denne mulighed eller kombination af muligheder er ikke tilgængelig"
+>>>>>>> upstream/18.0
 =======
 msgstr "Denne mulighed eller kombination af muligheder er ikke tilgængelig"
 >>>>>>> upstream/18.0
@@ -7199,7 +7481,11 @@ msgstr "Total inkl. moms"
 #: code:addons/sale/static/src/js/product_list/product_list.js:0
 msgid "Total: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "I alt: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "I alt: %s"
 >>>>>>> upstream/18.0
@@ -7250,6 +7536,7 @@ msgstr "Transaktioner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7393,11 +7680,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__translated_product_name
 msgid "Translated Product Name"
 msgstr "Oversat produktnavn"
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__type_name
 msgid "Type Name"
@@ -7428,6 +7720,10 @@ msgstr "Skriv for at finde et produkt..."
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_ups
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -7441,6 +7737,10 @@ msgstr "UPS Forbinder"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_usps
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -7460,7 +7760,11 @@ msgstr "UTM Kampagne"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__amount_to_invoice
 msgid "Un-invoiced Balance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikke afregnet saldo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ikke afregnet saldo"
 >>>>>>> upstream/18.0
@@ -7580,6 +7884,11 @@ msgid ""
 "can be invoiced to the customer at either cost or sales price."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Validerede udgifter, leverandørfakturaer eller lagerpluk (konfigureret til "
+"omkostningssporing) kan faktureres enten til kostpris eller salgspris."
+>>>>>>> upstream/18.0
 =======
 "Validerede udgifter, leverandørfakturaer eller lagerpluk (konfigureret til "
 "omkostningssporing) kan faktureres enten til kostpris eller salgspris."
@@ -7592,6 +7901,11 @@ msgid ""
 "quotation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ordren er gyldig i 1 time, hvorefter det ikke længere er muligt at "
+"underskrive eller betale for tilbuddet."
+>>>>>>> upstream/18.0
 =======
 "Ordren er gyldig i 1 time, hvorefter det ikke længere er muligt at "
 "underskrive eller betale for tilbuddet."
@@ -7610,6 +7924,7 @@ msgstr "Vis detaljer"
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7721,6 +8036,8 @@ msgstr "Se ordre"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "View Quotation"
 msgstr "Vis tilbud"
 
@@ -7728,7 +8045,11 @@ msgstr "Vis tilbud"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__virtual_id
 msgid "Virtual"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Virtuel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Virtuel"
 >>>>>>> upstream/18.0
@@ -7862,7 +8183,11 @@ msgstr ""
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "You cannot modify the product of this order line."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Du kan ikke ændre produktet på denne ordrelinje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Du kan ikke ændre produktet på denne ordrelinje."
 >>>>>>> upstream/18.0
@@ -7901,7 +8226,11 @@ msgstr "Din reference:"
 #: code:addons/sale/static/src/js/sale_action_helper/sale_action_helper_dialog.xml:0
 msgid "Your browser does not support iframe."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Din browser understøtter ikke iframe."
+>>>>>>> upstream/18.0
 =======
 msgstr "Din browser understøtter ikke iframe."
 >>>>>>> upstream/18.0
@@ -7983,7 +8312,11 @@ msgstr "for denne Salgsordre."
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "let's continue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "lad os fortsætte"
+>>>>>>> upstream/18.0
 =======
 msgstr "lad os fortsætte"
 >>>>>>> upstream/18.0

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* analytic
 # 
 # Translators:
@@ -12,6 +13,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * analytic
 #
 # Translators:
@@ -20,11 +23,15 @@
 # Anastasiia Koroleva, 2025
 #
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -40,6 +47,8 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-15 18:36+0000\n"
 "PO-Revision-Date: 2025-08-15 16:52+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
@@ -53,6 +62,9 @@ msgstr ""
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: analytic
@@ -63,13 +75,19 @@ msgstr "%s (копия)"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/analytic/models/analytic_line.py:0
 msgid "%s analytic lines created"
 msgstr ""
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "<span class=\"o_stat_text\">Analytic Accounts</span>"
@@ -186,6 +204,10 @@ msgstr "Подсчет аналитических счетов"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_distribution
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
 >>>>>>> upstream/18.0
@@ -244,7 +266,11 @@ msgstr "Аналитический план"
 #: model:ir.model,name:analytic.model_analytic_plan_fields_mixin
 msgid "Analytic Plan Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поля аналитического плана"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поля аналитического плана"
 >>>>>>> upstream/18.0
@@ -265,6 +291,10 @@ msgstr "Аналитические планы"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_precision
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
 >>>>>>> upstream/18.0
@@ -312,7 +342,11 @@ msgstr "Asustek"
 #: code:addons/analytic/models/analytic_line.py:0
 msgid "At least one analytic account must be set"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Должен быть указан хотя бы один аналитический счет"
+>>>>>>> upstream/18.0
 =======
 msgstr "Должен быть указан хотя бы один аналитический счет"
 >>>>>>> upstream/18.0
@@ -425,9 +459,15 @@ msgid ""
 "same category. The conversion will be made based on the ratios."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Пересчет между единицами измерения может произойти только в том случае, если"
 " они принадлежат к одной и той же категории. Пересчет будет осуществляться "
 "на основе коэффициентов."
+=======
+"Пересчет между единицами измерения может произойти только в том случае, если "
+"они принадлежат к одной и той же категории. Пересчет будет осуществляться на "
+"основе коэффициентов."
+>>>>>>> upstream/18.0
 =======
 "Пересчет между единицами измерения может произойти только в том случае, если "
 "они принадлежат к одной и той же категории. Пересчет будет осуществляться на "
@@ -452,7 +492,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -465,7 +509,11 @@ msgstr "Создано:"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -568,13 +616,19 @@ msgstr "Домен"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Don't update"
 msgstr ""
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.analytic.account,name:analytic.analytic_rd_finance
 msgid "Finance"
@@ -643,12 +697,15 @@ msgstr "Если отмечено, некоторые сообщения име�
 msgid ""
 "In Odoo, sales orders and projects are implemented using\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
 "В Odoo заказы на продажу и проекты реализуются с использованием\n"
 "                 аналитических счетов. Вы можете легко отслеживать затраты и доходы для анализа\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                analytic accounts. You can track costs and revenues to "
 "analyse\n"
 "                your margins easily."
@@ -656,6 +713,9 @@ msgstr ""
 "В Odoo заказы на продажу и проекты реализуются с использованием\n"
 "                 аналитических счетов. Вы можете легко отслеживать затраты и "
 "доходы для анализа\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                 вашей доходности (маржи)."
 
@@ -678,7 +738,11 @@ msgstr "Является подписчиком"
 msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -695,7 +759,11 @@ msgstr "Последнее обновление:"
 msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -746,13 +814,19 @@ msgstr "Разное"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Multi edit"
 msgstr ""
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__name
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_list
@@ -915,6 +989,7 @@ msgstr "Отдел НИОКР"
 msgid ""
 "Revenues will be created automatically when you create customer\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                invoices. Customer invoices can be created based on sales orders\n"
 "                (fixed price invoices), on timesheets (based on the work done) or\n"
 "                on expenses (e.g. reinvoicing of travel costs)."
@@ -923,6 +998,8 @@ msgstr ""
 "                 Счета-фактуры клиентов могут создаваться на основе заказов клиента\n"
 "                 (счета-фактуры с фиксированной ценой), на расписаниях (в зависимости от выполненной работы) или\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                invoices. Customer invoices can be created based on sales "
 "orders\n"
 "                (fixed price invoices), on timesheets (based on the work "
@@ -934,6 +1011,9 @@ msgstr ""
 "клиента\n"
 "                 (счета-фактуры с фиксированной ценой), на расписаниях (в "
 "зависимости от выполненной работы) или\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                 по расходам (например, пере-выставления стоимости поездки)."
 
@@ -962,7 +1042,11 @@ msgstr "Seagate P2"
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_filter
 msgid "Search Analytic Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Линии поисковой аналитики"
+=======
+msgstr "Поиск аналитических строк"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поиск аналитических строк"
 >>>>>>> upstream/18.0
@@ -972,7 +1056,11 @@ msgstr "Поиск аналитических строк"
 #: code:addons/analytic/models/analytic_account.py:0
 msgid "See them"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Просмотр"
+>>>>>>> upstream/18.0
 =======
 msgstr "Просмотр"
 >>>>>>> upstream/18.0
@@ -997,8 +1085,13 @@ msgid ""
 "it will automatically take this as an analytic account)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Выберите категорию партнера, для которого будет использоваться аналитическое"
 " распределение (например, при создании нового счета клиента или заказа на "
+=======
+"Выберите категорию партнера, для которого будет использоваться аналитическое "
+"распределение (например, при создании нового счета клиента или заказа на "
+>>>>>>> upstream/18.0
 =======
 "Выберите категорию партнера, для которого будет использоваться аналитическое "
 "распределение (например, при создании нового счета клиента или заказа на "
@@ -1062,13 +1155,19 @@ msgstr "Категория UoM"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Update"
 msgstr ""
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__user_id
 msgid "User"
@@ -1079,15 +1178,21 @@ msgstr "Пользователь"
 #: code:addons/analytic/models/analytic_account.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Whoa there! Making this change would wipe out your current data. Let's avoid"
 " that, shall we?"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Whoa there! Making this change would wipe out your current data. Let's avoid "
 "that, shall we?"
 msgstr ""
 "Осторожно! Это изменение приведет к удалению ваших текущих данных. Давайте "
 "попробуем этого избежать."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: analytic
@@ -1115,8 +1220,13 @@ msgid ""
 msgstr ""
 "Вы определили распределение с аналитическими учетными записями, "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "принадлежащими определенной компании, но модель разделяется между компаниями"
 " или с другой компанией"
+=======
+"принадлежащими определенной компании, но модель разделяется между компаниями "
+"или с другой компанией"
+>>>>>>> upstream/18.0
 =======
 "принадлежащими определенной компании, но модель разделяется между компаниями "
 "или с другой компанией"

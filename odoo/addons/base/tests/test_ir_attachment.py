@@ -5,6 +5,10 @@ import hashlib
 import io
 import os
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
@@ -65,6 +69,10 @@ from odoo.addons.base.tests.common import TransactionCaseWithUserDemo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import mute_logger
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import mute_logger
 >>>>>>> upstream/18.0
@@ -473,7 +481,10 @@ class TestIrAttachment(TransactionCaseWithUserDemo):
         self.assertEqual(a1.mimetype, 'image/png')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_15_read_bin_size_doesnt_read_datas(self):
         self.env.invalidate_all()
         IrAttachment = self.registry['ir.attachment']
@@ -489,6 +500,9 @@ class TestIrAttachment(TransactionCaseWithUserDemo):
             )
             self.assertEqual(patch_file_read.call_count, 0)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class TestPermissions(TransactionCaseWithUserDemo):
@@ -603,7 +617,10 @@ class TestPermissions(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -780,6 +797,9 @@ class TestPermissions(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

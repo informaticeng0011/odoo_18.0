@@ -4,7 +4,11 @@
 import json
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _, api, models, modules
+=======
+from odoo import _, api, fields, models, modules
+>>>>>>> upstream/18.0
 =======
 from odoo import _, api, fields, models, modules
 >>>>>>> upstream/18.0
@@ -29,9 +33,15 @@ class Users(models.Model):
         query = """SELECT BOOL(t.project_id) as is_task, count(*), act.res_model, act.res_id,
                        CASE
 <<<<<<< HEAD
+<<<<<<< HEAD
                            WHEN CURRENT_DATE - act.date_deadline::date = 0 THEN 'today'
                            WHEN CURRENT_DATE - act.date_deadline::date > 0 THEN 'overdue'
                            WHEN CURRENT_DATE - act.date_deadline::date < 0 THEN 'planned'
+=======
+                           WHEN %(date)s - act.date_deadline::date = 0 THEN 'today'
+                           WHEN %(date)s - act.date_deadline::date > 0 THEN 'overdue'
+                           WHEN %(date)s - act.date_deadline::date < 0 THEN 'planned'
+>>>>>>> upstream/18.0
 =======
                            WHEN %(date)s - act.date_deadline::date = 0 THEN 'today'
                            WHEN %(date)s - act.date_deadline::date > 0 THEN 'overdue'
@@ -45,6 +55,10 @@ class Users(models.Model):
                 """
         self.env.cr.execute(query, {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date': str(fields.Date.context_today(self)),
+>>>>>>> upstream/18.0
 =======
             'date': str(fields.Date.context_today(self)),
 >>>>>>> upstream/18.0

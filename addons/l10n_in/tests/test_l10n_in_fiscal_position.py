@@ -233,7 +233,10 @@ class TestFiscal(L10nInTestInvoicingCommon):
                 self.env['account.chart.template'].ref('fiscal_position_in_export_sez_in')
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_l10n_in_company_with_no_vat(self):
         """
@@ -249,4 +252,7 @@ class TestFiscal(L10nInTestInvoicingCommon):
         company.write({'vat': '36AABCT1332L011'})
         company.action_update_state_as_per_gstin()
         self.assertEqual(company.state_id, self.env.ref('base.state_in_ts'))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

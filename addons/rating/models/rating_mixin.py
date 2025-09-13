@@ -181,10 +181,16 @@ class RatingMixin(models.AbstractModel):
             result['percent'][rate] = (data['repartition'][rate] * 100) / data['total'] if data['total'] > 0 else 0
         return result
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.model
     def _allow_publish_rating_stats(self):
         """Override to allow the rating stats to be demonstrated."""
         return False
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

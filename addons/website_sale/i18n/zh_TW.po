@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_sale
 # 
 # Translators:
@@ -13,6 +14,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * website_sale
 #
 # Translators:
@@ -20,11 +23,15 @@
 # Tony Ng, 2025
 #
 # "Tony Ng (ngto)" <ngto@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
@@ -42,6 +49,8 @@ msgstr ""
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-07-11 18:38+0000\n"
 "PO-Revision-Date: 2025-08-18 12:32+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
@@ -53,6 +62,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_sale
@@ -619,7 +631,11 @@ msgstr "<u>條款及條件</u>"
 #: code:addons/website_sale/controllers/combo_configurator.py:0
 msgid "A combo product can't be empty. Please select at least one option."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "組合產品不可為空白。請選擇最少一個選項。"
+>>>>>>> upstream/18.0
 =======
 msgstr "組合產品不可為空白。請選擇最少一個選項。"
 >>>>>>> upstream/18.0
@@ -644,7 +660,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您想與客戶溝通的產品說明。 此說明將被複製到每個銷售訂單，交貨訂單和客戶憑單/折讓單"
+=======
+msgstr "你希望傳達給客戶的產品描述。此描述將會複製至每份銷售單、送貨單，以及客戶發票/退款單。"
+>>>>>>> upstream/18.0
 =======
 msgstr "你希望傳達給客戶的產品描述。此描述將會複製至每份銷售單、送貨單，以及客戶發票/退款單。"
 >>>>>>> upstream/18.0
@@ -1305,7 +1325,12 @@ msgid ""
 "Changing VAT number is not allowed once document(s) have been issued for "
 "your account. Please contact us directly for this operation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "一旦您的帳戶開具憑單，不可更改統一編號。如需要此操作，請直接與我們聯繫。"
+=======
+msgstr "若已有文件為你的帳戶發出，就不可再修改增值稅號碼。要進行此操作，請直接聯絡我"
+"們。"
+>>>>>>> upstream/18.0
 =======
 msgstr "若已有文件為你的帳戶發出，就不可再修改增值稅號碼。要進行此操作，請直接聯絡我"
 "們。"
@@ -1413,7 +1438,11 @@ msgid "Click here"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "按這裏"
+=======
+msgstr "按此處"
+>>>>>>> upstream/18.0
 =======
 msgstr "按此處"
 >>>>>>> upstream/18.0
@@ -1595,6 +1624,7 @@ msgstr "使用 Shiprocket 計算運輸成本及發貨"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "計算運輸成本並用DHL裝運"
 
@@ -1615,11 +1645,19 @@ msgstr "計算運輸成本並用USPS裝運"
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
 "                            <strong>(please go to Home&gt;Apps to install)</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"計算運費並使用 DHL 發貨<br/>\n"
+"                            <strong>（請前往主頁 &gt; "
+"應用程式以安裝）</strong>"
+>>>>>>> upstream/18.0
 =======
 "計算運費並使用 DHL 發貨<br/>\n"
 "                            <strong>（請前往主頁 &gt; "
@@ -1633,6 +1671,12 @@ msgid ""
 "                            <strong>(please go to Home&gt;Apps to install)</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"計算運費並使用 FedEx 發貨<br/>\n"
+"                            <strong>（請前往主頁 &gt; "
+"應用程式以安裝）</strong>"
+>>>>>>> upstream/18.0
 =======
 "計算運費並使用 FedEx 發貨<br/>\n"
 "                            <strong>（請前往主頁 &gt; "
@@ -1646,6 +1690,12 @@ msgid ""
 "                            <strong>(please go to Home&gt;Apps to install)</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"計算運費並使用 UPS 發貨<br/>\n"
+"                            <strong>（請前往主頁 &gt; "
+"應用程式以安裝）</strong>"
+>>>>>>> upstream/18.0
 =======
 "計算運費並使用 UPS 發貨<br/>\n"
 "                            <strong>（請前往主頁 &gt; "
@@ -1659,6 +1709,12 @@ msgid ""
 "                            <strong>(please go to Home&gt;Apps to install)</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
+"計算運費並使用美國郵政署（USPS）發貨<br/>\n"
+"                            <strong>（請前往主頁 &gt; "
+"應用程式以安裝）</strong>"
 >>>>>>> upstream/18.0
 =======
 "計算運費並使用美國郵政署（USPS）發貨<br/>\n"
@@ -1679,6 +1735,7 @@ msgstr "按訂單計算運費"
 #. module: website_sale
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/checkout.js:0
@@ -1688,12 +1745,17 @@ msgstr ""
 #. module: website_sale
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/checkout.js:0
 msgid "Computed after delivery"
 msgstr "完成送貨後計算"
 
 #. module: website_sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
 msgid "Conference Chair"
@@ -1930,12 +1992,16 @@ msgstr "自訂電郵範本"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "DHL Express Connector"
 msgstr "DHL 快遞連接器"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "DHL Shipping Methods"
+=======
+msgid "DHL"
+>>>>>>> upstream/18.0
 =======
 msgid "DHL"
 >>>>>>> upstream/18.0
@@ -2172,7 +2238,10 @@ msgstr "加入新產品至購物車之前，你想先清空購物車嗎？"
 #. module: website_sale
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -2181,6 +2250,9 @@ msgstr "系統使用說明"
 
 #. module: website_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2408,11 +2480,14 @@ msgstr "FedEx"
 #. module: website_sale
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "FedEx Shipping Methods"
 msgstr "FedEx"
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2764,7 +2839,11 @@ msgid "Invoicing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "會計"
+=======
+msgstr "發票"
+>>>>>>> upstream/18.0
 =======
 msgstr "發票"
 >>>>>>> upstream/18.0
@@ -4420,7 +4499,11 @@ msgid "Services"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "服務介紹"
+=======
+msgstr "服務"
+>>>>>>> upstream/18.0
 =======
 msgstr "服務"
 >>>>>>> upstream/18.0
@@ -5027,7 +5110,12 @@ msgid ""
 "list view and click on 'Portal Access Management' option in the dropdown "
 "menu *Action*."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "要在 B2B 模式下發出邀請，請開啟一個聯絡人或在清單檢視中選取多人，然後在*動作*下拉選單中點擊「入口網站存取管理」選項."
+=======
+msgstr ""
+"若要在 B2B 模式中傳送邀請，請開啟一個聯絡人，或在列表檢視畫面中選擇多個聯絡人，然後在 *動作* 下拉式選單中，按一下「門戶網站存取管理」選項。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "若要在 B2B 模式中傳送邀請，請開啟一個聯絡人，或在列表檢視畫面中選擇多個聯絡人，然後在 *動作* 下拉式選單中，按一下「門戶網站存取管理」選項。"
@@ -5106,11 +5194,14 @@ msgstr "USPS"
 #. module: website_sale
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "USPS Shipping Methods"
 msgstr "USPS"
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5388,7 +5479,11 @@ msgid "Website meta description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "網站 meta 說明"
+=======
+msgstr "網站 meta 描述"
+>>>>>>> upstream/18.0
 =======
 msgstr "網站 meta 描述"
 >>>>>>> upstream/18.0
@@ -5546,7 +5641,11 @@ msgstr "您沒有任何訂單可以從網站上開具憑單"
 #: model:mail.template,subject:website_sale.mail_template_sale_cart_recovery
 msgid "You left items in your cart!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您的購物車中尚有商品遺留！"
+=======
+msgstr "你的購物車仍有商品遺下！"
+>>>>>>> upstream/18.0
 =======
 msgstr "你的購物車仍有商品遺下！"
 >>>>>>> upstream/18.0

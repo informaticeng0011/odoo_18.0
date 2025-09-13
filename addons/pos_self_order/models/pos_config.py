@@ -2,16 +2,22 @@
 import uuid
 import base64
 <<<<<<< HEAD
+<<<<<<< HEAD
 from os.path import join as opj
 from typing import Optional, List, Dict
 from werkzeug.urls import url_quote
 =======
+=======
+>>>>>>> upstream/18.0
 import zipfile
 import qrcode
 from io import BytesIO
 from os.path import join as opj
 from typing import Optional, List, Dict
 from werkzeug.urls import url_quote, url_unquote
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.exceptions import UserError, ValidationError, AccessError
 
@@ -307,10 +313,13 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             # Only one image is needed for the mobile mode
             if self.self_ordering_mode == 'mobile':
                 break
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -413,7 +422,11 @@ class PosConfig(models.Model):
         return ['pos.session', 'pos.order', 'pos.order.line', 'pos.payment', 'pos.payment.method', 'res.currency', 'pos.category', 'product.product', 'product.combo', 'product.combo.item',
             'res.company', 'account.tax', 'account.tax.group', 'pos.printer', 'res.country', 'product.pricelist', 'product.pricelist.item', 'account.fiscal.position', 'account.fiscal.position.tax',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'res.lang', 'product.attribute', 'product.attribute.custom.value', 'product.template.attribute.line', 'product.template.attribute.value',
+=======
+            'res.lang', 'product.template.attribute.line', 'product.attribute', 'product.attribute.custom.value', 'product.template.attribute.value',
+>>>>>>> upstream/18.0
 =======
             'res.lang', 'product.template.attribute.line', 'product.attribute', 'product.attribute.custom.value', 'product.template.attribute.value',
 >>>>>>> upstream/18.0
@@ -525,7 +538,10 @@ class PosConfig(models.Model):
             'self_ordering_mode': 'kiosk',
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def __generate_single_qr_code(self, url):
         qr = qrcode.QRCode(
@@ -584,4 +600,7 @@ class PosConfig(models.Model):
             'redirect_url': url_form,
             'zip_archive': base64.b64encode(zip_buffer.read()).decode('utf-8'),
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* analytic
 # 
+=======
+# * analytic
+#
+>>>>>>> upstream/18.0
 =======
 # * analytic
 #
@@ -12,7 +17,11 @@
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2024
 # Larissa Manderfeld, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
 >>>>>>> upstream/18.0
@@ -20,6 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -31,6 +41,8 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-15 18:36+0000\n"
 "PO-Revision-Date: 2025-08-25 10:08+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
@@ -43,6 +55,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: analytic
@@ -53,7 +68,10 @@ msgstr "%s (copia)"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/analytic/models/analytic_line.py:0
 #, fuzzy
@@ -61,6 +79,9 @@ msgid "%s analytic lines created"
 msgstr "%s líneas analíticas creadas"
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "<span class=\"o_stat_text\">Analytic Accounts</span>"
@@ -177,6 +198,10 @@ msgstr "Número de cuentas analíticas"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_distribution
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
 >>>>>>> upstream/18.0
@@ -252,6 +277,10 @@ msgstr "Planes analíticos:"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_precision
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
 >>>>>>> upstream/18.0
@@ -518,7 +547,11 @@ msgstr "Deshabilitar guardar"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0
@@ -541,7 +574,10 @@ msgstr "Dominio"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 #, fuzzy
@@ -549,6 +585,9 @@ msgid "Don't update"
 msgstr "No actualizar"
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.analytic.account,name:analytic.analytic_rd_finance
 msgid "Finance"
@@ -616,7 +655,12 @@ msgstr "Si está marcada, algunos mensajes tienen error de envío."
 msgid ""
 "In Odoo, sales orders and projects are implemented using\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                analytic accounts. You can track costs and revenues to analyse\n"
+=======
+"                analytic accounts. You can track costs and revenues to "
+"analyse\n"
+>>>>>>> upstream/18.0
 =======
 "                analytic accounts. You can track costs and revenues to "
 "analyse\n"
@@ -698,13 +742,19 @@ msgstr "Varios"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Multi edit"
 msgstr "Edición múltiple"
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__name
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_list
@@ -867,13 +917,19 @@ msgstr "Investigación y desarrollo"
 msgid ""
 "Revenues will be created automatically when you create customer\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                invoices. Customer invoices can be created based on sales orders\n"
 "                (fixed price invoices), on timesheets (based on the work done) or\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                invoices. Customer invoices can be created based on sales "
 "orders\n"
 "                (fixed price invoices), on timesheets (based on the work "
 "done) or\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                on expenses (e.g. reinvoicing of travel costs)."
 msgstr ""
@@ -922,6 +978,7 @@ msgid ""
 "will automatically take this as an analytic account)"
 msgstr ""
 "Seleccione la compañía que hará que se aplique la distribución analítica. "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1135,6 +1192,9 @@ msgstr ""
 =======
 "(p. ej. al crear una nueva factura de cliente o un pedido de venta a esta "
 >>>>>>> upstream/18.0
+=======
+"(p. ej. al crear una nueva factura de cliente o un pedido de venta a esta "
+>>>>>>> upstream/18.0
 "compañía se aplique automáticamente esta distribución analítica a la cuenta "
 "analítica seleccionada)"
 
@@ -1145,6 +1205,7 @@ msgid ""
 "(e.g. create new customer invoice or Sales order if we select this partner, "
 "it will automatically take this as an analytic account)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Seleccione la categoría del contacto que hará que se aplique la distribución"
 <<<<<<< HEAD
@@ -1359,10 +1420,15 @@ msgstr ""
 "venta a este contacto se aplique automáticamente esta distribución analítica"
 " a la cuenta analítica seleccionada)"
 =======
+=======
+>>>>>>> upstream/18.0
 "Seleccione la categoría del contacto que hará que se aplique la distribución "
 "analítica. (p. ej. al crear una nueva factura de cliente o un pedido de "
 "venta a este contacto se aplique automáticamente esta distribución analítica "
 "a la cuenta analítica seleccionada)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: analytic
@@ -1375,8 +1441,12 @@ msgstr ""
 "Seleccionar un contacto para el que se utilizará la distribución analítica "
 "(por ejemplo, crear una nueva factura de cliente o pedido de venta si "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "seleccionamos este contacto, lo tomará automáticamente como cuenta "
 "analítica)"
+=======
+"seleccionamos este contacto, lo tomará automáticamente como cuenta analítica)"
+>>>>>>> upstream/18.0
 =======
 "seleccionamos este contacto, lo tomará automáticamente como cuenta analítica)"
 >>>>>>> upstream/18.0
@@ -1425,13 +1495,19 @@ msgstr "Categoría de UdM"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Update"
 msgstr "Actualizar"
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__user_id
 msgid "User"
@@ -1442,17 +1518,23 @@ msgstr "Usuario"
 #: code:addons/analytic/models/analytic_account.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Whoa there! Making this change would wipe out your current data. Let's avoid"
 " that, shall we?"
 msgstr ""
 "¡Un momento! Realizar este cambio borraría sus datos actuales. Evitemos eso,"
 " ¿de acuerdo?"
 =======
+=======
+>>>>>>> upstream/18.0
 "Whoa there! Making this change would wipe out your current data. Let's avoid "
 "that, shall we?"
 msgstr ""
 "¡Un momento! Realizar este cambio borraría sus datos actuales. Evitemos eso, "
 "¿de acuerdo?"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: analytic

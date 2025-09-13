@@ -36,7 +36,11 @@ class TestBlogPerformance(UtilPerf):
 
     def test_10_perf_sql_blog_standard_data(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertLessEqual(self._get_url_hot_query('/blog'), 11)
+=======
+        self.assertLessEqual(self._get_url_hot_query('/blog'), 10)
+>>>>>>> upstream/18.0
 =======
         self.assertLessEqual(self._get_url_hot_query('/blog'), 10)
 >>>>>>> upstream/18.0

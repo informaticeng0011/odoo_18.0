@@ -246,11 +246,14 @@ function sanitizeNode(node, root) {
     } else if (node.nodeName === 'LI' && !node.closest('ul, ol')) {
         // Transform <li> into <p> if they are not in a <ul> / <ol>.
 <<<<<<< HEAD
+<<<<<<< HEAD
         const paragraph = document.createElement('p');
         paragraph.replaceChildren(...node.childNodes);
         node.replaceWith(paragraph);
         node = paragraph; // The node has been removed, update the reference.
 =======
+=======
+>>>>>>> upstream/18.0
         if (node.children.length && [...node.children].every(isBlock)) {
             // Unwrap <li> if each of its children is a block element.
             const restoreCursor =
@@ -266,6 +269,9 @@ function sanitizeNode(node, root) {
             node.replaceWith(paragraph);
             node = paragraph; // The node has been removed, update the reference.
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     } else if (
         ['UL', 'OL'].includes(node.nodeName) &&

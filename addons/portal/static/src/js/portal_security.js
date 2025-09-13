@@ -175,7 +175,11 @@ export async function handleCheckIdentity(wrapped, ormService, dialogService) {
                     }
                     let result;
 <<<<<<< HEAD
+<<<<<<< HEAD
                     await ormService.write("res.users.identitycheck", [checkId], { password: inputEl.value });
+=======
+                    await ormService.write("res.users.identitycheck", [checkId], { password: inputEl.value, 'auth_method': 'password' });
+>>>>>>> upstream/18.0
 =======
                     await ormService.write("res.users.identitycheck", [checkId], { password: inputEl.value, 'auth_method': 'password' });
 >>>>>>> upstream/18.0

@@ -1,6 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -39,6 +43,7 @@ class SaleOrderLine(models.Model):
     @api.depends('product_id', 'product_template_id')
     def _compute_available_product_document_ids(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         for line in self:
             line.available_product_document_ids = self.env['product.document'].search([
                 '|',
@@ -51,6 +56,8 @@ class SaleOrderLine(models.Model):
                 ('attached_on_sale', '=', 'inside')
             ], order='res_model, sequence').ids
 =======
+=======
+>>>>>>> upstream/18.0
         available_documents_ordered = self.env['product.document']._read_group(
             [
                 ('attached_on_sale', '=', 'inside'),
@@ -74,4 +81,7 @@ class SaleOrderLine(models.Model):
                 available_documents['product.product', line.product_id.id]
                 + available_documents['product.template', line.product_template_id.id]
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

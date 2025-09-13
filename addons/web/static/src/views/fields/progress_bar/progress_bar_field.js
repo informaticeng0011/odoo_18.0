@@ -3,6 +3,10 @@ import { registry } from "@web/core/registry";
 import { useNumpadDecimal } from "../numpad_decimal_hook";
 import { parseFloat } from "../parsers";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { useInputField } from "@web/views/fields/input_field_hook";
+>>>>>>> upstream/18.0
 =======
 import { useInputField } from "@web/views/fields/input_field_hook";
 >>>>>>> upstream/18.0
@@ -28,8 +32,11 @@ export class ProgressBarField extends Component {
         useNumpadDecimal();
         this.root = useRef("numpadDecimal");
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.maxValueRef = useRef("maxValue");
         this.currentValueRef = useRef("currentValue");
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -39,7 +46,10 @@ export class ProgressBarField extends Component {
             this.maxValueField = maxValueField;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         this.currentValueRef = useInputField({
             getValue: () => this.formatCurrentValue(),
             parse: (v) => this.parseCurrentValue(v),
@@ -54,6 +64,9 @@ export class ProgressBarField extends Component {
             fieldName: this.maxValueField,
             shouldSave: () => this.props.readonly,
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         this.state = useState({
@@ -81,6 +94,7 @@ export class ProgressBarField extends Component {
     }
 
     formatCurrentValue(humanReadable = !this.state.isEditing) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         const formatter = formatters.get(Number.isInteger(this.currentValue) ? "integer" : "float");
         return formatter(this.currentValue, { humanReadable });
@@ -110,6 +124,8 @@ export class ProgressBarField extends Component {
     onMaxValueChange(ev) {
         this.onValueChange(ev.target.value, this.maxValueField);
 =======
+=======
+>>>>>>> upstream/18.0
         const formatter = formatters.get(this.props.record.fields[this.currentValueField].type);
         return formatter(this.currentValue, { humanReadable });
     }
@@ -133,6 +149,9 @@ export class ProgressBarField extends Component {
             parsedValue = Math.floor(parsedValue);
         }
         return parsedValue;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 

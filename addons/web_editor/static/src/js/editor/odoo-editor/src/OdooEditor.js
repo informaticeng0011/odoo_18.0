@@ -86,6 +86,10 @@ import {
     isLinkEligibleForZwnbsp,
     isZwnbsp,
     childNodeIndex,
+<<<<<<< HEAD
+=======
+    setTagName,
+>>>>>>> upstream/18.0
 } from './utils/utils.js';
 import { editorCommands } from './commands/commands.js';
 import { Powerbox } from './powerbox/Powerbox.js';
@@ -2296,11 +2300,17 @@ export class OdooEditor extends EventTarget {
             && !(firstLeafOfStartBlock === start && lastLeafOfEndBlock === end);
         let next = nextLeaf(end, this.editable);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if (isBlock(end)) {
             // end can be block so we take the next leaf at the endOffset
             next = nextLeaf(end.childNodes[endOffset], this.editable);
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         // Get the boundaries of the range so as to get the state to restore.
@@ -2423,6 +2433,10 @@ export class OdooEditor extends EventTarget {
             next &&
             !(next.previousSibling && next.previousSibling === joinWith) &&
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            !(joinWith.nodeType === Node.ELEMENT_NODE && joinWith.contains(next) && childNodeIndex(next) === range.endOffset) &&
+>>>>>>> upstream/18.0
 =======
             !(joinWith.nodeType === Node.ELEMENT_NODE && joinWith.contains(next) && childNodeIndex(next) === range.endOffset) &&
 >>>>>>> upstream/18.0
@@ -2784,6 +2798,12 @@ export class OdooEditor extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    if (!isBlock(node) && node.textContent === "\u200b") {
+                        node.setAttribute('data-oe-zws-empty-inline', '');
+                    }
+>>>>>>> upstream/18.0
 =======
                     if (!isBlock(node) && node.textContent === "\u200b") {
                         node.setAttribute('data-oe-zws-empty-inline', '');
@@ -3606,7 +3626,10 @@ export class OdooEditor extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3641,6 +3664,9 @@ export class OdooEditor extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3842,6 +3868,10 @@ export class OdooEditor extends EventTarget {
         const linkNode = getInSelection(this.document, 'a');
         const linkButton = this.toolbar.querySelector('#create-link');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const transformButton = this.toolbar.querySelector("#image-transform");
+>>>>>>> upstream/18.0
 =======
         const transformButton = this.toolbar.querySelector("#image-transform");
 >>>>>>> upstream/18.0
@@ -3860,7 +3890,13 @@ export class OdooEditor extends EventTarget {
         const spansBlocks = [...range.commonAncestorContainer.childNodes].some(isBlock);
         linkButton?.classList.toggle('d-none', spansBlocks || isInMedia);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        if (this.options.disableTransform) {
+            transformButton.classList.add("d-none");
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.options.disableTransform) {
             transformButton.classList.add("d-none");
@@ -4103,6 +4139,25 @@ export class OdooEditor extends EventTarget {
                 }
             }
         } else if (node.nodeType !== Node.TEXT_NODE) {
+<<<<<<< HEAD
+=======
+            if (node.nodeName === "THEAD") {
+                const tbody = node.nextElementSibling;
+                if (tbody) {
+                    // If a <tbody> already exists, move all rows from
+                    // <thead> into the start of <tbody>.
+                    tbody.prepend(...node.children);
+                    node.remove();
+                    node = tbody;
+                } else {
+                    // Otherwise, replace the <thead> with <tbody>
+                    node = setTagName(node, "TBODY");
+                }
+            } else if (node.nodeName === "TH") {
+                // Convert all <th> into <td>
+                node = setTagName(node, "TD");
+            }
+>>>>>>> upstream/18.0
             if (node.nodeName === 'TD') {
                 if (node.hasAttribute('bgcolor') && !node.style['background-color']) {
                     node.style['background-color'] = node.getAttribute('bgcolor');
@@ -4594,7 +4649,11 @@ export class OdooEditor extends EventTarget {
         delete this._isNavigatingByMouse;
         const selection = this.document.getSelection();
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (selection.anchorNode && isProtected(selection.anchorNode)) {
+=======
+        if ((!selection?.anchorNode) || (isProtected(selection.anchorNode))) {
+>>>>>>> upstream/18.0
 =======
         if ((!selection?.anchorNode) || (isProtected(selection.anchorNode))) {
 >>>>>>> upstream/18.0
@@ -4657,7 +4716,11 @@ export class OdooEditor extends EventTarget {
             const closestUnbreakable = closestElement(sel.anchorNode, isUnbreakable);
             const closestTableOrLi = closestElement(sel.anchorNode, 'table, li');
 <<<<<<< HEAD
+<<<<<<< HEAD
             const closestUnbreakableOrLi = closestElement(sel.anchorNode, ["li", closestUnbreakable.nodeName].join(","));
+=======
+            const closestUnbreakableOrLi = closestElement(sel.anchorNode, ["li", closestUnbreakable?.nodeName].join(","));
+>>>>>>> upstream/18.0
 =======
             const closestUnbreakableOrLi = closestElement(sel.anchorNode, ["li", closestUnbreakable?.nodeName].join(","));
 >>>>>>> upstream/18.0
@@ -4667,7 +4730,11 @@ export class OdooEditor extends EventTarget {
                 !ev.shiftKey &&
                 sel.isCollapsed &&
 <<<<<<< HEAD
+<<<<<<< HEAD
                 closestUnbreakableOrLi.nodeName !== 'LI'
+=======
+                closestUnbreakableOrLi?.nodeName !== 'LI'
+>>>>>>> upstream/18.0
 =======
                 closestUnbreakableOrLi?.nodeName !== 'LI'
 >>>>>>> upstream/18.0
@@ -5204,9 +5271,15 @@ export class OdooEditor extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (
                 !allWhitespaceRegex.test(emptyElement.textContent) ||
                 emptyElement.hasAttribute("data-oe-field")
+=======
+            const isEmptyArch = emptyElement.getAttribute("data-oe-field") === "arch" && emptyElement.textContent === "\u200b";
+            if (
+                (!allWhitespaceRegex.test(emptyElement.textContent) || emptyElement.hasAttribute("data-oe-field")) && !isEmptyArch
+>>>>>>> upstream/18.0
 =======
             const isEmptyArch = emptyElement.getAttribute("data-oe-field") === "arch" && emptyElement.textContent === "\u200b";
             if (

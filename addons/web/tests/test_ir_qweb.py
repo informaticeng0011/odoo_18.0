@@ -73,7 +73,10 @@ class TestIrQweb(TransactionCase):
         img = tree.find("img")
         self.assertEqual(img.get("src"), "data:image/png;base64,%s" % jpeg_datas.decode())
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_image_svg(self):
         image = """<?xml version='1.0' encoding='UTF-8' ?>
@@ -102,4 +105,7 @@ class TestIrQweb(TransactionCase):
         self.assertEqual(img.get("src"), f"data:image/svg+xml;base64,{b64_image}")
         self.assertEqual(img.get("class"), "img img-fluid")
         self.assertEqual(img.get("alt"), "test image partner")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

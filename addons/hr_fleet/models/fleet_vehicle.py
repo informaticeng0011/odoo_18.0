@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding:utf-8 -*-
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
@@ -28,6 +31,7 @@ class FleetVehicle(models.Model):
     @api.depends('driver_id')
     def _compute_driver_employee_id(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         for vehicle in self:
             if vehicle.driver_id:
                 vehicle.driver_employee_id = self.env['hr.employee'].search([
@@ -48,6 +52,8 @@ class FleetVehicle(models.Model):
             else:
                 vehicle.future_driver_employee_id = False
 =======
+=======
+>>>>>>> upstream/18.0
         employees_by_partner_id_and_company_id = self.env['hr.employee']._read_group(
             domain=[('work_contact_id', 'in', self.driver_id.ids)],
             groupby=['work_contact_id', 'company_id'],
@@ -73,6 +79,9 @@ class FleetVehicle(models.Model):
         for vehicle in self:
             employees = employees_by_partner_id_and_company_id.get((vehicle.future_driver_id, vehicle.company_id))
             vehicle.future_driver_employee_id = employees[0] if employees else False
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @api.depends('driver_id')

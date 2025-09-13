@@ -3,9 +3,12 @@ import { UserMenu } from "@web/webclient/user_menu/user_menu";
 export class BurgerUserMenu extends UserMenu {
     static template = "web.BurgerUserMenu";
 <<<<<<< HEAD
+<<<<<<< HEAD
     _onItemClicked(callback) {
         callback();
 =======
+=======
+>>>>>>> upstream/18.0
     static props = {
         ...UserMenu.props,
         onMenuClicked: { type: Function, optional: true },
@@ -15,6 +18,9 @@ export class BurgerUserMenu extends UserMenu {
             callback(ev);
             this.props.onMenuClicked?.(ev);
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 }

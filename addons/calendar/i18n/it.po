@@ -52,6 +52,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -247,7 +251,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Marianna Ciofani, 2025\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -401,7 +409,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:calendar.field_res_users__meeting_count
 msgid "# Meetings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "N. appuntamenti"
+=======
+msgstr "N. riunioni"
+>>>>>>> upstream/18.0
 =======
 msgstr "N. riunioni"
 >>>>>>> upstream/18.0
@@ -414,8 +426,13 @@ msgid ""
 " %(date_end)s at %(time_end)s (%(timezone)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(date_start)s a %(time_start)s a\n"
 " %(date_end)s a %(time_end)s (%(timezone)s)"
+=======
+"Dal %(date_start)s alle %(time_start)s fino al\n"
+" %(date_end)s alle %(time_end)s (%(timezone)s)"
+>>>>>>> upstream/18.0
 =======
 "Dal %(date_start)s alle %(time_start)s fino al\n"
 " %(date_end)s alle %(time_end)s (%(timezone)s)"
@@ -426,7 +443,11 @@ msgstr ""
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "%(day)s at (%(start)s To %(end)s) (%(timezone)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(day)s a (%(start)s a %(end)s) (%(timezone)s)"
+=======
+msgstr "%(day)s (dalle %(start)s alle %(end)s) (%(timezone)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(day)s (dalle %(start)s alle %(end)s) (%(timezone)s)"
 >>>>>>> upstream/18.0
@@ -1263,7 +1284,11 @@ msgstr "<span class=\"fa fa-plus\"/><span> Riunione Odoo</span>"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "<span class=\"fa fa-times\"/><span> Clear meeting</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"fa fa-times\"/><span> Rimuovere meeting</span>"
+=======
+msgstr "<span class=\"fa fa-times\"/><span> Cancella riunione</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-times\"/><span> Cancella riunione</span>"
 >>>>>>> upstream/18.0
@@ -1283,7 +1308,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "<span class=\"me-1 o_form_label\">Google Calendar</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"me-1 o_form_label\">Google Calendar</span>"
+=======
+msgstr "<span class=\"me-1 o_form_label\">Calendario Google</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"me-1 o_form_label\">Calendario Google</span>"
 >>>>>>> upstream/18.0
@@ -1292,7 +1321,11 @@ msgstr "<span class=\"me-1 o_form_label\">Calendario Google</span>"
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "<span class=\"me-1 o_form_label\">Outlook Calendar</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"me-1 o_form_label\">Outlook Calendar</span>"
+=======
+msgstr "<span class=\"me-1 o_form_label\">Calendario Outlook</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"me-1 o_form_label\">Calendario Outlook</span>"
 >>>>>>> upstream/18.0
@@ -1318,7 +1351,11 @@ msgstr "<span> Partecipanti</span>"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "<span> hours</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ore"
+=======
+msgstr "<span> ore</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> ore</span>"
 >>>>>>> upstream/18.0
@@ -1335,7 +1372,11 @@ msgstr ""
 #: model:ir.model.constraint,message:calendar.constraint_calendar_filters_user_id_partner_id_unique
 msgid "A user cannot have the same contact twice."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Un utente non può avere lo stesso contatto due volte."
+=======
+msgstr "Un utente non può avere due volte lo stesso contatto."
+>>>>>>> upstream/18.0
 =======
 msgstr "Un utente non può avere due volte lo stesso contatto."
 >>>>>>> upstream/18.0
@@ -1390,7 +1431,11 @@ msgstr "Attività"
 #: model:ir.model,name:calendar.model_mail_activity_mixin
 msgid "Activity Mixin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Combinazione attività"
+=======
+msgstr "Mixin attività"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mixin attività"
 >>>>>>> upstream/18.0
@@ -1438,7 +1483,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__allday
 msgid "All Day"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tutto il Giorno"
+=======
+msgstr "Tutto il giorno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tutto il giorno"
 >>>>>>> upstream/18.0
@@ -1508,7 +1557,11 @@ msgstr "Partecipanti in attesa"
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__base_event_id
 msgid "Base Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evento di base"
+=======
+msgstr "Evento base"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evento base"
 >>>>>>> upstream/18.0
@@ -1580,7 +1633,11 @@ msgstr "Filtri calendario"
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Calendar Invitation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Richiesta Appuntamento"
+=======
+msgstr "Invito in calendario"
+>>>>>>> upstream/18.0
 =======
 msgstr "Invito in calendario"
 >>>>>>> upstream/18.0
@@ -1589,7 +1646,11 @@ msgstr "Invito in calendario"
 #: model:ir.model.fields,field_description:calendar.field_mail_activity__calendar_event_id
 msgid "Calendar Meeting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Appuntamento in calendario"
+=======
+msgstr "Riunione in calendario"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riunione in calendario"
 >>>>>>> upstream/18.0
@@ -1603,7 +1664,11 @@ msgstr "Procedura guidata eliminazione popover calendario"
 #: model:ir.model,name:calendar.model_calendar_provider_config
 msgid "Calendar Provider Configuration Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Procedura guidata configurazione fornitore calendario"
+=======
+msgstr "Procedura di configurazione fornitore del calendario"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procedura di configurazione fornitore del calendario"
 >>>>>>> upstream/18.0
@@ -1617,7 +1682,11 @@ msgstr "Impostazioni calendario"
 #: model:mail.template,name:calendar.calendar_template_meeting_changedate
 msgid "Calendar: Date Updated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Calendario: Data aggiornata"
+=======
+msgstr "Calendario: data aggiornata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Calendario: data aggiornata"
 >>>>>>> upstream/18.0
@@ -1626,7 +1695,11 @@ msgstr "Calendario: data aggiornata"
 #: model:ir.actions.server,name:calendar.ir_cron_scheduler_alarm_ir_actions_server
 msgid "Calendar: Event Reminder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Calendario: Eventi in Programma"
+=======
+msgstr "Calendario: promemoria evento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Calendario: promemoria evento"
 >>>>>>> upstream/18.0
@@ -1635,7 +1708,11 @@ msgstr "Calendario: promemoria evento"
 #: model:mail.template,name:calendar.calendar_template_meeting_update
 msgid "Calendar: Event Update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Calendario: Aggiornamento Evento"
+=======
+msgstr "Calendario: aggiornamento evento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Calendario: aggiornamento evento"
 >>>>>>> upstream/18.0
@@ -1644,7 +1721,11 @@ msgstr "Calendario: aggiornamento evento"
 #: model:mail.template,name:calendar.calendar_template_meeting_invitation
 msgid "Calendar: Meeting Invitation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Calendario: invito al meeting"
+=======
+msgstr "Calendario: invito riunione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Calendario: invito riunione"
 >>>>>>> upstream/18.0
@@ -1653,7 +1734,11 @@ msgstr "Calendario: invito riunione"
 #: model:mail.template,name:calendar.calendar_template_meeting_reminder
 msgid "Calendar: Reminder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Calendario: Promemoria"
+=======
+msgstr "Calendario: promemoria"
+>>>>>>> upstream/18.0
 =======
 msgstr "Calendario: promemoria"
 >>>>>>> upstream/18.0
@@ -1690,8 +1775,13 @@ msgid ""
 "is not allowed when dates or time is modified"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Scegli cosa fare con altri eventi nella ricorrenza. L'aggiornamento di tutti"
 " gli eventi non è permesso quando le date o l'ora vengono modificate"
+=======
+"Scegliere cosa fare con altri eventi nella ricorrenza. Quando vengono "
+"modificate le date o gli orari non è consentito aggiornare tutti gli eventi"
+>>>>>>> upstream/18.0
 =======
 "Scegliere cosa fare con altri eventi nella ricorrenza. Quando vengono "
 "modificate le date o gli orari non è consentito aggiornare tutti gli eventi"
@@ -1831,7 +1921,11 @@ msgstr "Giorno del mese"
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__rrule_type__daily
 msgid "Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Giorni"
+=======
+msgstr "giorni"
+>>>>>>> upstream/18.0
 =======
 msgstr "giorni"
 >>>>>>> upstream/18.0
@@ -1840,7 +1934,11 @@ msgstr "giorni"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Decline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rifiuta"
+=======
+msgstr "Declina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Declina"
 >>>>>>> upstream/18.0
@@ -1953,7 +2051,11 @@ msgstr "Modello documento"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__res_model
 msgid "Document Model Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Document Model Name"
+=======
+msgstr "Nome modello documento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome modello documento"
 >>>>>>> upstream/18.0
@@ -1962,7 +2064,11 @@ msgstr "Nome modello documento"
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__dtstart
 msgid "Dtstart"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dtstart"
+=======
+msgstr "Data inizio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data inizio"
 >>>>>>> upstream/18.0
@@ -2041,7 +2147,11 @@ msgstr "Data fine"
 #: model:ir.model,name:calendar.model_calendar_alarm
 msgid "Event Alarm"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avviso per evento"
+=======
+msgstr "Avviso evento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avviso evento"
 >>>>>>> upstream/18.0
@@ -2050,7 +2160,11 @@ msgstr "Avviso evento"
 #: model:ir.model,name:calendar.model_calendar_alarm_manager
 msgid "Event Alarm Manager"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gestore degli avvisi evento"
+=======
+msgstr "Gestore avvisi evento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gestore avvisi evento"
 >>>>>>> upstream/18.0
@@ -2059,7 +2173,11 @@ msgstr "Gestore avvisi evento"
 #: model:ir.model,name:calendar.model_calendar_event_type
 msgid "Event Meeting Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipo appuntamento per evento"
+=======
+msgstr "Tipo di riunione per evento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo di riunione per evento"
 >>>>>>> upstream/18.0
@@ -2073,7 +2191,11 @@ msgstr "Regola per ricorrenza evento"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__display_time
 msgid "Event Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ora evento"
+=======
+msgstr "Orario evento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Orario evento"
 >>>>>>> upstream/18.0
@@ -2176,7 +2298,11 @@ msgstr "Ogni %(interval)s anni fino al %(until)s"
 #: code:addons/calendar/models/mail_activity.py:0
 msgid "Feedback: %(feedback)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Feedback: %(feedback)s"
+=======
+msgstr "Riscontro: %(feedback)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riscontro: %(feedback)s"
 >>>>>>> upstream/18.0
@@ -2192,7 +2318,11 @@ msgstr "Primo"
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "First you have to specify the date of the invitation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "È necessario prima specificare la data dell'invito"
+=======
+msgstr "Prima è necessario specificare la data dell'invito."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prima è necessario specificare la data dell'invito."
 >>>>>>> upstream/18.0
@@ -2257,7 +2387,11 @@ msgstr "Calendario Google"
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "Google Calendar icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "icona Google Calendar"
+=======
+msgstr "Icona calendario Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Icona calendario Google"
 >>>>>>> upstream/18.0
@@ -2266,7 +2400,11 @@ msgstr "Icona calendario Google"
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__cal_client_id
 msgid "Google Client_id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Google ID client"
+=======
+msgstr "Client_id Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Client_id Google"
 >>>>>>> upstream/18.0
@@ -2275,7 +2413,11 @@ msgstr "Client_id Google"
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__cal_client_secret
 msgid "Google Client_key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Google chiave client"
+=======
+msgstr "Client_key Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Client_key Google"
 >>>>>>> upstream/18.0
@@ -2334,8 +2476,13 @@ msgid ""
 "alarm information without removing it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se il campo attivo è impostato a falso, sarà possible nascondere le "
 "informazioni sugli avvisi inerenti gli eventi senza cancellarli."
+=======
+"Se il campo Attivo è impostato a falso, consente di nascondere le "
+"informazioni di avviso eventi senza rimuoverle."
+>>>>>>> upstream/18.0
 =======
 "Se il campo Attivo è impostato a falso, consente di nascondere le "
 "informazioni di avviso eventi senza rimuoverle."
@@ -2370,7 +2517,11 @@ msgstr "Invito"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__access_token
 msgid "Invitation Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Token d'invito"
+=======
+msgstr "Token di invito"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token di invito"
 >>>>>>> upstream/18.0
@@ -2394,7 +2545,11 @@ msgstr "Invito per"
 #: model:mail.template,subject:calendar.calendar_template_meeting_invitation
 msgid "Invitation to {{ object.event_id.name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Invito a {{ object.event_id.name }}"
+=======
+msgstr "Invito per {{ object.event_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Invito per {{ object.event_id.name }}"
 >>>>>>> upstream/18.0
@@ -2413,7 +2568,11 @@ msgstr "Sta seguendo"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__is_highlighted
 msgid "Is the Event Highlighted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "L'evento è messo in evidenza"
+=======
+msgstr "Evento in evidenza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evento in evidenza"
 >>>>>>> upstream/18.0
@@ -2465,7 +2624,11 @@ msgstr "Ultimo aggiornamento il"
 #: model:ir.model.fields,field_description:calendar.field_res_users__calendar_last_notif_ack
 msgid "Last notification marked as read from base Calendar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima notifica segnata come letta dal calendario base"
+=======
+msgstr "Ultima notifica segnata come letta nel calendario di base"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima notifica segnata come letta nel calendario di base"
 >>>>>>> upstream/18.0
@@ -2476,7 +2639,11 @@ msgstr "Ultima notifica segnata come letta nel calendario di base"
 msgid "Let the event automatically repeat at that interval"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Fa in modo che l'evento venga automaticamente ripetuto con quell'intervallo"
+=======
+"Consente la ripetizione automatica dell'evento all'intervallo specificato"
+>>>>>>> upstream/18.0
 =======
 "Consente la ripetizione automatica dell'evento all'intervallo specificato"
 >>>>>>> upstream/18.0
@@ -2486,7 +2653,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ubicazione"
+=======
+msgstr "Luogo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Luogo"
 >>>>>>> upstream/18.0
@@ -2518,7 +2689,11 @@ msgstr "Io"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Meeting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Appuntamento"
+=======
+msgstr "Riunione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riunione"
 >>>>>>> upstream/18.0
@@ -2527,7 +2702,11 @@ msgstr "Riunione"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__name
 msgid "Meeting Subject"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Oggetto appuntamento"
+=======
+msgstr "Oggetto riunione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oggetto riunione"
 >>>>>>> upstream/18.0
@@ -2538,7 +2717,11 @@ msgstr "Oggetto riunione"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_type_tree
 msgid "Meeting Types"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipi di appuntamento"
+=======
+msgstr "Tipi di riunione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipi di riunione"
 >>>>>>> upstream/18.0
@@ -2547,7 +2730,11 @@ msgstr "Tipi di riunione"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__videocall_location
 msgid "Meeting URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Meeting URL"
+=======
+msgstr "URL riunione"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL riunione"
 >>>>>>> upstream/18.0
@@ -2556,7 +2743,11 @@ msgstr "URL riunione"
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__event_id
 msgid "Meeting linked"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Appuntamento collegato"
+=======
+msgstr "Riunione collegata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riunione collegata"
 >>>>>>> upstream/18.0
@@ -2572,7 +2763,11 @@ msgstr "Riunione collegata"
 #: model_terms:ir.ui.view,arch_db:calendar.view_partners_form
 msgid "Meetings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Appuntamenti"
+=======
+msgstr "Riunioni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riunioni"
 >>>>>>> upstream/18.0
@@ -2591,7 +2786,11 @@ msgstr "Messaggi"
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "Microsoft Outlook icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "icona Microsoft Outlook"
+=======
+msgstr "Icona Outlook di Microsoft"
+>>>>>>> upstream/18.0
 =======
 msgstr "Icona Outlook di Microsoft"
 >>>>>>> upstream/18.0
@@ -2633,7 +2832,11 @@ msgstr "Mensile"
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__rrule_type__monthly
 msgid "Months"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesi"
+=======
+msgstr "mesi"
+>>>>>>> upstream/18.0
 =======
 msgstr "mesi"
 >>>>>>> upstream/18.0
@@ -2648,7 +2851,11 @@ msgstr "Più opzioni"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "My Meetings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "I miei appuntamenti"
+=======
+msgstr "Le mie riunioni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Le mie riunioni"
 >>>>>>> upstream/18.0
@@ -2689,7 +2896,11 @@ msgstr "No"
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "No I'm not going."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "No, non ho intenzione"
+=======
+msgstr "Non ho intenzione di andarci."
+>>>>>>> upstream/18.0
 =======
 msgstr "Non ho intenzione di andarci."
 >>>>>>> upstream/18.0
@@ -2703,7 +2914,11 @@ msgstr "Ancora nessun riscontro"
 #: model_terms:ir.actions.act_window,help:calendar.action_calendar_event
 msgid "No meetings found. Let's schedule one!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nessun meeting trovato. Programmane uno!"
+=======
+msgstr "Nessuna riunione trovata. Programmane una!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nessuna riunione trovata. Programmane una!"
 >>>>>>> upstream/18.0
@@ -2808,7 +3023,11 @@ msgstr "Solo utenti interni"
 #: model_terms:ir.ui.view,arch_db:calendar.mail_activity_view_form_popup
 msgid "Open Calendar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Apri il calendario"
+=======
+msgstr "Apri calendario"
+>>>>>>> upstream/18.0
 =======
 msgstr "Apri calendario"
 >>>>>>> upstream/18.0
@@ -2840,7 +3059,11 @@ msgstr "Calendario Outlook"
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__microsoft_outlook_client_identifier
 msgid "Outlook Client Id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Outlook ID client"
+=======
+msgstr "ID client Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID client Outlook"
 >>>>>>> upstream/18.0
@@ -2849,7 +3072,11 @@ msgstr "ID client Outlook"
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__microsoft_outlook_client_secret
 msgid "Outlook Client Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Outlook segreto client"
+=======
+msgstr "Chiave privata Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chiave privata Outlook"
 >>>>>>> upstream/18.0
@@ -2868,7 +3095,11 @@ msgstr "Partecipante"
 #: model:ir.model.fields,help:calendar.field_calendar_event__partner_id
 msgid "Partner-related data of the user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dati utente collegati al partner"
+=======
+msgstr "Dati utente correlati al partner"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dati utente correlati al partner"
 >>>>>>> upstream/18.0
@@ -2919,7 +3150,11 @@ msgstr "Regola di ricorrenza"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__end_type
 msgid "Recurrence Termination"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Termine ricorsione"
+=======
+msgstr "Termine ricorrenza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termine ricorrenza"
 >>>>>>> upstream/18.0
@@ -2939,7 +3174,11 @@ msgstr "Ricorrente"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__rrule
 msgid "Recurrent Rule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regola ricorrenza"
+=======
+msgstr "Regola ricorrente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regola ricorrente"
 >>>>>>> upstream/18.0
@@ -2948,7 +3187,11 @@ msgstr "Regola ricorrente"
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__duration
 msgid "Remind Before"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aggiornami prima"
+=======
+msgstr "Promemoria a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Promemoria a"
 >>>>>>> upstream/18.0
@@ -2983,7 +3226,11 @@ msgstr "RIpeti ogni"
 #: model:ir.model.fields,help:calendar.field_calendar_event__interval
 msgid "Repeat every (Days/Week/Month/Year)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ripeti ogni (giorno/settimana/mese/anno)"
+=======
+msgstr "Ripetere ogni (giorno/settimana/mese/anno)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ripetere ogni (giorno/settimana/mese/anno)"
 >>>>>>> upstream/18.0
@@ -2992,7 +3239,11 @@ msgstr "Ripetere ogni (giorno/settimana/mese/anno)"
 #: model:ir.model.fields,help:calendar.field_calendar_event__count
 msgid "Repeat x times"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ripeti n volte"
+=======
+msgstr "Ripete n volte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ripete n volte"
 >>>>>>> upstream/18.0
@@ -3049,7 +3300,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Search Meetings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ricerca appuntamenti"
+=======
+msgstr "Ricerca riunioni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ricerca riunioni"
 >>>>>>> upstream/18.0
@@ -3104,6 +3359,7 @@ msgstr "Deve mostrare stato"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__show_as
 msgid "Show as"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3293,13 +3549,20 @@ msgstr "Mostra come"
 =======
 msgstr "Mostra come"
 >>>>>>> upstream/18.0
+=======
+msgstr "Mostra come"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/js/services/calendar_notification_service.js:0
 msgid "Snooze"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Silenzia"
+=======
+msgstr "Posticipa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Posticipa"
 >>>>>>> upstream/18.0
@@ -3308,7 +3571,11 @@ msgstr "Posticipa"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__start
 msgid "Start"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avvio"
+=======
+msgstr "Avvia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avvia"
 >>>>>>> upstream/18.0
@@ -3323,8 +3590,12 @@ msgstr "Data inizio"
 #: model:ir.model.fields,help:calendar.field_calendar_event__start
 msgid "Start date of an event, without time for full days events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Data di inizio dell'evento, senza l'ora per gli eventi a giornata completa."
+=======
+msgstr "Data di inizio, senza ora per eventi che durano tutto il giorno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data di inizio, senza ora per eventi che durano tutto il giorno"
 >>>>>>> upstream/18.0
@@ -3348,8 +3619,12 @@ msgstr "Ferma"
 #: model:ir.model.fields,help:calendar.field_calendar_event__stop
 msgid "Stop date of an event, without time for full days events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Data di termine dell'evento, senza l'ora per gli eventi a giornata completa."
+=======
+msgstr "Data di fine, senza ora per eventi che durano tutto il giorno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data di fine, senza ora per eventi che durano tutto il giorno"
 >>>>>>> upstream/18.0
@@ -3399,7 +3674,11 @@ msgstr "Sincronizza con"
 #: model_terms:ir.ui.view,arch_db:calendar.res_config_settings_view_form
 msgid "Synchronize your calendar with Google Calendar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sincronizzazione del calendario con Google Calendar"
+=======
+msgstr "Sincronizzazione del calendario con Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sincronizzazione del calendario con Google"
 >>>>>>> upstream/18.0
@@ -3429,7 +3708,11 @@ msgstr "Modello usato per rendere il contenuto del promemoria delle e-mail."
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Tentative"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tentativo"
+=======
+msgstr "Incerto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Incerto"
 >>>>>>> upstream/18.0
@@ -3443,7 +3726,11 @@ msgstr "Partecipanti provvisori"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "The"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Il team di"
+=======
+msgstr "Il"
+>>>>>>> upstream/18.0
 =======
 msgstr "Il"
 >>>>>>> upstream/18.0
@@ -3456,9 +3743,15 @@ msgid ""
 "            opportunities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Il calendario è condiviso con tutti i dipendenti\n"
 " e considera altre informazioni, come le ferie e le opportunità\n"
 " commerciali"
+=======
+"Il calendario è condiviso tra i dipendenti e completamente integrato con\n"
+"            altre applicazioni come i permessi dipendente o le opportunità\n"
+"            commerciali."
+>>>>>>> upstream/18.0
 =======
 "Il calendario è condiviso tra i dipendenti e completamente integrato con\n"
 "            altre applicazioni come i permessi dipendente o le opportunità\n"
@@ -3513,7 +3806,11 @@ msgstr "Non ci sono partecipanti a questi eventi"
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__byday__3
 msgid "Third"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "terzo"
+=======
+msgstr "Terzo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Terzo"
 >>>>>>> upstream/18.0
@@ -3560,7 +3857,11 @@ msgstr "Fuso orario usato per visualizzare l'ora nel modello di posta"
 #: code:addons/calendar/models/res_users.py:0
 msgid "Today's Meetings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Appuntamenti odierni"
+=======
+msgstr "Riunioni odierne"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riunioni odierne"
 >>>>>>> upstream/18.0
@@ -3586,7 +3887,11 @@ msgstr "Martedì"
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__alarm_type
 msgid "Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipologia"
+=======
+msgstr "Tipo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo"
 >>>>>>> upstream/18.0
@@ -3601,7 +3906,11 @@ msgstr "Impossibile salvare la ricorrenza con \"Questo evento\""
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Uncertain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Non sicuro"
+=======
+msgstr "Incerto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Incerto"
 >>>>>>> upstream/18.0
@@ -3616,7 +3925,11 @@ msgstr "Unità"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Until"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fino a"
+=======
+msgstr "Fino al"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fino al"
 >>>>>>> upstream/18.0
@@ -3651,7 +3964,11 @@ msgstr "Fonte chiamata video"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Videocall URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Videocall URL"
+=======
+msgstr "URL videochiamata"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL videochiamata"
 >>>>>>> upstream/18.0
@@ -3679,7 +3996,11 @@ msgstr "Mercoledì"
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__weekday
 msgid "Weekday"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "giorno feriale"
+=======
+msgstr "Giorno settimanale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Giorno settimanale"
 >>>>>>> upstream/18.0
@@ -3694,7 +4015,11 @@ msgstr "Settimanale"
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__rrule_type__weekly
 msgid "Weeks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Settimane"
+=======
+msgstr "settimane"
+>>>>>>> upstream/18.0
 =======
 msgstr "settimane"
 >>>>>>> upstream/18.0
@@ -3709,7 +4034,11 @@ msgstr "Annuale"
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__rrule_type__yearly
 msgid "Years"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anni"
+=======
+msgstr "anni"
+>>>>>>> upstream/18.0
 =======
 msgstr "anni"
 >>>>>>> upstream/18.0
@@ -3725,7 +4054,11 @@ msgstr "Sì"
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Yes I'm going."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Si, ci sarò"
+=======
+msgstr "Ho intenzione di andarci."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ho intenzione di andarci."
 >>>>>>> upstream/18.0
@@ -3751,7 +4084,11 @@ msgstr "Non si può aggiornare una ricorrenza senza evento base."
 #: code:addons/calendar/models/calendar_attendee.py:0
 msgid "You cannot duplicate a calendar attendee."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Impossibile duplicare un partecipante"
+=======
+msgstr "Non è possibile duplicare un partecipante in calendario."
+>>>>>>> upstream/18.0
 =======
 msgstr "Non è possibile duplicare un partecipante in calendario."
 >>>>>>> upstream/18.0
@@ -3761,7 +4098,11 @@ msgstr "Non è possibile duplicare un partecipante in calendario."
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "You have to choose at least one day in the week"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Devi scegliere almeno un giorno della settimana"
+=======
+msgstr "Scegliere almeno un giorno della settimana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scegliere almeno un giorno della settimana"
 >>>>>>> upstream/18.0
@@ -3847,7 +4188,11 @@ msgstr "{{ object.event_id.name }} - Promemoria"
 #: model:mail.template,subject:calendar.calendar_template_meeting_changedate
 msgid "{{ object.event_id.name }}: Date updated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "{{ object.event_id.name }}: Data aggiornamento"
+=======
+msgstr "{{ object.event_id.name }}: data aggiornata"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.event_id.name }}: data aggiornata"
 >>>>>>> upstream/18.0
@@ -3856,7 +4201,11 @@ msgstr "{{ object.event_id.name }}: data aggiornata"
 #: model:mail.template,subject:calendar.calendar_template_meeting_update
 msgid "{{object.name}}: Event update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "{{object.name}}: Aggiornamento evento"
+=======
+msgstr "{{object.name}}: aggiornamento evento"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{object.name}}: aggiornamento evento"
 >>>>>>> upstream/18.0

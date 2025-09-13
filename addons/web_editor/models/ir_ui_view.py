@@ -128,13 +128,19 @@ class IrUiView(models.Model):
             return
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         tree = html.fromstring(lang_value)
 =======
+=======
+>>>>>>> upstream/18.0
         try:
             tree = html.fromstring(lang_value)
         except etree.ParserError as e:
             raise ValidationError(str(e))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         for custom_snippet_el in tree.xpath('//*[hasclass("s_custom_snippet")]'):
             custom_snippet_name = custom_snippet_el.get('data-name')

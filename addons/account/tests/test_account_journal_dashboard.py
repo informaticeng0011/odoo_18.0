@@ -344,6 +344,7 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -386,6 +387,8 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_to_check_posted(self):
         """We want to only have the information on posted moves"""
@@ -419,6 +422,9 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
 
         dashboard_data = journal._get_journal_dashboard_data_batched()[journal.id]
         self.assertEqual(dashboard_data['to_check_balance'], journal.currency_id.format(100))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_to_check_amount_different_currency(self):
@@ -432,6 +438,10 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
         => to check = 150 €
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env.ref('base.CHF').write({'active': True})
+>>>>>>> upstream/18.0
 =======
         self.env.ref('base.CHF').write({'active': True})
 >>>>>>> upstream/18.0
@@ -452,6 +462,10 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
             'currency_id': self.env.ref('base.EUR').id,
             'company_id': self.env.company.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'autocheck_on_post': False,
+>>>>>>> upstream/18.0
 =======
             'autocheck_on_post': False,
 >>>>>>> upstream/18.0
@@ -470,6 +484,7 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
                     'tax_ids': [],
                 })
             ]
+<<<<<<< HEAD
 <<<<<<< HEAD
         } for currency in (self.env.ref('base.EUR'), self.env.ref('base.CHF'))])
 
@@ -537,8 +552,13 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         } for currency in (self.env.ref('base.EUR'), self.env.ref('base.CHF'))]).action_post()
 
         dashboard_data = journal._get_journal_dashboard_data_batched()[journal.id]
         self.assertEqual(dashboard_data['to_check_balance'], journal.currency_id.format(150))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

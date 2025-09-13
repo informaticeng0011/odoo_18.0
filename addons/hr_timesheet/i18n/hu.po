@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_timesheet
 # 
 # Translators:
@@ -259,16 +260,22 @@
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 # * hr_timesheet
 #
 # Translators:
 # Kovács Tibor <kovika@gmail.com>, 2024
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # krnkris, 2024
 # Martin Trigaux, 2024
 # Tamás Dombos, 2024
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
 # Tamás Németh <ntomasz81@gmail.com>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -697,11 +704,17 @@
 # gezza <geza.nagy@oregional.hu>, 2025
 # Tamás Dombos <tdombos@gmail.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Valics Lehel, 2025
+# gezza <geza.nagy@oregional.hu>, 2025
+# Tamás Dombos <tdombos@gmail.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1048,6 +1061,8 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-22 22:20+0000\n"
 "Last-Translator: Tamás Dombos <tdombos@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.odoo.com/projects/odoo-18/"
@@ -1058,6 +1073,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1065,7 +1083,11 @@ msgstr ""
 msgid "#{timesheet.employee_id.name}"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "#{timesheet.employee_id.name}"
+>>>>>>> upstream/18.0
 =======
 msgstr "#{timesheet.employee_id.name}"
 >>>>>>> upstream/18.0
@@ -1085,7 +1107,11 @@ msgstr "%(effective)s %(uom_name)s"
 msgid "%(effective)s / %(allocated)s %(uom_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(effective)s / %(allocated)s %(uom_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(effective)s / %(allocated)s %(uom_name)s"
 >>>>>>> upstream/18.0
@@ -1099,7 +1125,11 @@ msgstr "%(effective)s / %(allocated)s %(uom_name)s"
 msgid "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
 >>>>>>> upstream/18.0
@@ -1113,7 +1143,11 @@ msgstr "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
 msgid "%(exceeding_hours)s %(uom_name)s (+%(exceeding_rate)s%%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(exceeding_hours)s %(uom_name)s (+%(exceeding_rate)s%%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(exceeding_hours)s %(uom_name)s (+%(exceeding_rate)s%%)"
 >>>>>>> upstream/18.0
@@ -1127,7 +1161,11 @@ msgstr "%(exceeding_hours)s %(uom_name)s (+%(exceeding_rate)s%%)"
 msgid "%(hours)sh"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(hours)só"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(hours)só"
 >>>>>>> upstream/18.0
@@ -1141,7 +1179,11 @@ msgstr "%(hours)só"
 msgid "%(hours)sh%(minutes)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(hours)só%(minutes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(hours)só%(minutes)s"
 >>>>>>> upstream/18.0
@@ -1155,7 +1197,11 @@ msgstr "%(hours)só%(minutes)s"
 msgid "%(name)s's Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)sidőkimutatásai"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)sidőkimutatásai"
 >>>>>>> upstream/18.0
@@ -1172,6 +1218,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"'%(missing_plan_names)s' analitikus terv(ek) szükséges(ek) az "
+"időkimutatáshoz kapcsolt projektnél: '%(project_name)s'."
+>>>>>>> upstream/18.0
 =======
 "'%(missing_plan_names)s' analitikus terv(ek) szükséges(ek) az "
 "időkimutatáshoz kapcsolt projektnél: '%(project_name)s'."
@@ -1187,7 +1238,11 @@ msgstr ""
 msgid "(%(sign)s%(hours)s:%(minutes)s remaining)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(%(sign)s%(hours)s:%(minutes)s maradék)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(%(sign)s%(hours)s:%(minutes)s maradék)"
 >>>>>>> upstream/18.0
@@ -1212,7 +1267,11 @@ msgstr "(br."
 msgid "1 day"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 nap"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 nap"
 >>>>>>> upstream/18.0
@@ -1225,7 +1284,11 @@ msgstr "1 nap"
 msgid "2 hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2 óra"
+>>>>>>> upstream/18.0
 =======
 msgstr "2 óra"
 >>>>>>> upstream/18.0
@@ -1238,7 +1301,11 @@ msgstr "2 óra"
 msgid "2021-09-01"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2021-09-01"
+>>>>>>> upstream/18.0
 =======
 msgstr "2021-09-01"
 >>>>>>> upstream/18.0
@@ -1251,7 +1318,11 @@ msgstr "2021-09-01"
 msgid "<b class=\"tip_title\">Tip: Record your Timesheets faster</b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b class=\"tip_title\">Tipp: Rögzítsd gyorsabban az időkimutatásaidat</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b class=\"tip_title\">Tipp: Rögzítsd gyorsabban az időkimutatásaidat</b>"
 >>>>>>> upstream/18.0
@@ -1264,7 +1335,11 @@ msgstr "<b class=\"tip_title\">Tipp: Rögzítsd gyorsabban az időkimutatásaida
 msgid "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 >>>>>>> upstream/18.0
@@ -1277,7 +1352,11 @@ msgstr "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" title=
 msgid "<i class=\"fa fa-print\"/> View Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-print\"/> Részletek megtekintése"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-print\"/> Részletek megtekintése"
 >>>>>>> upstream/18.0
@@ -1290,7 +1369,11 @@ msgstr "<i class=\"fa fa-print\"/> Részletek megtekintése"
 msgid "<span class=\"o_stat_text\">Timesheets</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"o_stat_text\">Munkaidő-nyilvántartás</span>"
+=======
+msgstr "<span class=\"o_stat_text\">Időkimutatások</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Időkimutatások</span>"
 >>>>>>> upstream/18.0
@@ -1304,7 +1387,11 @@ msgstr "<span class=\"o_stat_text\">Időkimutatások</span>"
 msgid "<span class=\"text-nowrap\">Time Spent on Sub-tasks:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-nowrap\">Alfeladatokon eltöltött idő:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-nowrap\">Alfeladatokon eltöltött idő:</span>"
 >>>>>>> upstream/18.0
@@ -1330,7 +1417,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "<span invisible=\"not has_timesheet\">\n"
@@ -1346,6 +1436,9 @@ msgstr ""
 "                        Biztosan törölni akarja ezeket a munkavállalókat?\n"
 "                    </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1355,7 +1448,11 @@ msgstr ""
 msgid "<span style=\"margin-right: 15px;\">Total (Days)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span style=\"margin-right: 15px;\">Összes (nap)</span>"
+=======
+msgstr "<span style=\"margin-right: 15px;\">Összesen (nap)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span style=\"margin-right: 15px;\">Összesen (nap)</span>"
 >>>>>>> upstream/18.0
@@ -1368,7 +1465,11 @@ msgstr "<span style=\"margin-right: 15px;\">Összesen (nap)</span>"
 msgid "<span style=\"margin-right: 15px;\">Total (Hours)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span style=\"margin-right: 15px;\">Összes (óra)</span>"
+=======
+msgstr "<span style=\"margin-right: 15px;\">Összesen (óra)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span style=\"margin-right: 15px;\">Összesen (óra)</span>"
 >>>>>>> upstream/18.0
@@ -1391,7 +1492,11 @@ msgstr "<span>Leírás</span>"
 msgid "<span>Employee</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Munkavállaló</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Munkavállaló</span>"
 >>>>>>> upstream/18.0
@@ -1404,7 +1509,11 @@ msgstr "<span>Munkavállaló</span>"
 msgid "<span>Time Spent</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Eltöltött idő</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Eltöltött idő</span>"
 >>>>>>> upstream/18.0
@@ -1422,7 +1531,11 @@ msgstr "<strong>Folyamat:</strong>"
 msgid "<strong>Time Remaining: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Maradék idő: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Maradék idő: </strong>"
 >>>>>>> upstream/18.0
@@ -1435,7 +1548,11 @@ msgstr "<strong>Maradék idő: </strong>"
 msgid "<strong>Time recorded on sub-tasks: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Alfeladatokra rögzített idő: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Alfeladatokra rögzített idő: </strong>"
 >>>>>>> upstream/18.0
@@ -1448,7 +1565,11 @@ msgstr "<strong>Alfeladatokra rögzített idő: </strong>"
 msgid "<strong>Total Days: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Összes nap: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Összes nap: </strong>"
 >>>>>>> upstream/18.0
@@ -1461,7 +1582,11 @@ msgstr "<strong>Összes nap: </strong>"
 msgid "<strong>Total Hours: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Összes óra: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Összes óra: </strong>"
 >>>>>>> upstream/18.0
@@ -1474,7 +1599,11 @@ msgstr "<strong>Összes óra: </strong>"
 msgid "<strong>Total Time Spent: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Összes eltöltött idő: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Összes eltöltött idő: </strong>"
 >>>>>>> upstream/18.0
@@ -1499,7 +1628,11 @@ msgstr "Összes"
 msgid "All Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Összes munkaidő-nyilvántartás"
+=======
+msgstr "Minden időkimutatás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Minden időkimutatás"
 >>>>>>> upstream/18.0
@@ -1514,7 +1647,11 @@ msgstr "Minden időkimutatás"
 msgid "Allocated Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kiosztott idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kiosztott idő"
 >>>>>>> upstream/18.0
@@ -1538,7 +1675,11 @@ msgstr "Elemzés"
 msgid "Analytic Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analitikus bejegyzés"
+=======
+msgstr "Analitikus tétel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analitikus tétel"
 >>>>>>> upstream/18.0
@@ -1566,6 +1707,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Elemezze a projekteket és feladatokat, melyekkel a munkavállók az idejüket töltik.<br>\n"
+"                Értékelje ki, hogy ennek mely része számlázható és milyen költséget jelent."
+>>>>>>> upstream/18.0
 =======
 "Elemezze a projekteket és feladatokat, melyekkel a munkavállók az idejüket töltik.<br>\n"
 "                Értékelje ki, hogy ennek mely része számlázható és milyen költséget jelent."
@@ -1580,7 +1726,11 @@ msgstr ""
 msgid "Approver Reminder"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jóváhagyás emlékeztető"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jóváhagyás emlékeztető"
 >>>>>>> upstream/18.0
@@ -1593,7 +1743,11 @@ msgstr "Jóváhagyás emlékeztető"
 msgid "Archive Employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Munkavállalók archiválása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Munkavállalók archiválása"
 >>>>>>> upstream/18.0
@@ -1606,7 +1760,11 @@ msgstr "Munkavállalók archiválása"
 msgid "Audrey Peterson"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Audrey Peterson"
+>>>>>>> upstream/18.0
 =======
 msgstr "Audrey Peterson"
 >>>>>>> upstream/18.0
@@ -1619,7 +1777,11 @@ msgstr "Audrey Peterson"
 msgid "Average of Progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Átlagos haladás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Átlagos haladás"
 >>>>>>> upstream/18.0
@@ -1632,7 +1794,11 @@ msgstr "Átlagos haladás"
 msgid "By Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Munkavállaló szerint"
+=======
+msgstr "Munkavállalók szerint"
+>>>>>>> upstream/18.0
 =======
 msgstr "Munkavállalók szerint"
 >>>>>>> upstream/18.0
@@ -1655,7 +1821,11 @@ msgstr "Feladatok szerint"
 msgid "Call client and discuss project"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ügyfél hívása és projekt megbeszélése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ügyfél hívása és projekt megbeszélése"
 >>>>>>> upstream/18.0
@@ -1668,7 +1838,11 @@ msgstr "Ügyfél hívása és projekt megbeszélése"
 msgid "Collaborators in project shared"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Együttműködők megosztott projektben"
+>>>>>>> upstream/18.0
 =======
 msgstr "Együttműködők megosztott projektben"
 >>>>>>> upstream/18.0
@@ -1731,7 +1905,11 @@ msgstr "Dátum"
 msgid "Days / Half-Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nap / Fél nap"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nap / Fél nap"
 >>>>>>> upstream/18.0
@@ -1744,7 +1922,11 @@ msgstr "Nap / Fél nap"
 msgid "Days Remaining"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maradék nap"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maradék nap"
 >>>>>>> upstream/18.0
@@ -1758,7 +1940,11 @@ msgstr "Maradék nap"
 msgid "Deactivate the account."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számla deaktiválása."
+>>>>>>> upstream/18.0
 =======
 msgstr "Számla deaktiválása."
 >>>>>>> upstream/18.0
@@ -1772,6 +1958,10 @@ msgid "Default project value for timesheet generated from time off type."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alapértelmezett projekt szabadság típusbóll generált időkimutatásokhoz."
+>>>>>>> upstream/18.0
 =======
 "Alapértelmezett projekt szabadság típusbóll generált időkimutatásokhoz."
 >>>>>>> upstream/18.0
@@ -1786,6 +1976,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Határozzon meg egy 'óradíjat' a munkavállaló adatlapján az idő költségének "
+"nyomonkövetéséhez."
+>>>>>>> upstream/18.0
 =======
 "Határozzon meg egy 'óradíjat' a munkavállaló adatlapján az idő költségének "
 "nyomonkövetéséhez."
@@ -1805,7 +2000,11 @@ msgstr "Törlés"
 msgid "Delete Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Munkavállaló törlése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Munkavállaló törlése"
 >>>>>>> upstream/18.0
@@ -1822,6 +2021,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kapcsolja a mérföldkövet vevői rendelés tételhez és teljesítse "
+"szolgáltatásait automatikusan a mérföldkő elérésekor."
+>>>>>>> upstream/18.0
 =======
 "Kapcsolja a mérföldkövet vevői rendelés tételhez és teljesítse "
 "szolgáltatásait automatikusan a mérföldkő elérésekor."
@@ -1843,7 +2047,11 @@ msgstr "Részleg"
 msgid "Describe your activity"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tevékenység leírása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tevékenység leírása"
 >>>>>>> upstream/18.0
@@ -1884,7 +2092,11 @@ msgstr "Tartomány"
 msgid "Effective Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tényleges óraszáma"
+=======
+msgstr "Tényleges óra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tényleges óra"
 >>>>>>> upstream/18.0
@@ -1909,7 +2121,11 @@ msgstr "Munkavállaló"
 msgid "Employee Delete Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Munkavállaló törlés varázsló"
+>>>>>>> upstream/18.0
 =======
 msgstr "Munkavállaló törlés varázsló"
 >>>>>>> upstream/18.0
@@ -1922,7 +2138,11 @@ msgstr "Munkavállaló törlés varázsló"
 msgid "Employee Reminder"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alkalmazott emlékeztető"
+=======
+msgstr "Munkavállaló emlékeztető"
+>>>>>>> upstream/18.0
 =======
 msgstr "Munkavállaló emlékeztető"
 >>>>>>> upstream/18.0
@@ -1936,7 +2156,11 @@ msgstr "Munkavállaló emlékeztető"
 msgid "Employee Termination"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Munkavállaló elbocsátása"
+=======
+msgstr "Munkavállaló elbocsátás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Munkavállaló elbocsátás"
 >>>>>>> upstream/18.0
@@ -1950,7 +2174,11 @@ msgstr "Munkavállaló elbocsátás"
 msgid "Employees' Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Munkavállaló időkimutatásai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Munkavállaló időkimutatásai"
 >>>>>>> upstream/18.0
@@ -1963,7 +2191,11 @@ msgstr "Munkavállaló időkimutatásai"
 msgid "Encoding Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rögzítési módszer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rögzítési módszer"
 >>>>>>> upstream/18.0
@@ -1977,7 +2209,11 @@ msgstr "Rögzítési módszer"
 msgid "Extra Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Extra idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Extra idő"
 >>>>>>> upstream/18.0
@@ -1992,6 +2228,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Generáljon időkimutatásokat jóváhagyott szabadság kérésekre és munkaszüneti "
+"napokra"
+>>>>>>> upstream/18.0
 =======
 "Generáljon időkimutatásokat jóváhagyott szabadság kérésekre és munkaszüneti "
 "napokra"
@@ -2011,7 +2252,11 @@ msgstr "HTTP irányítás"
 msgid "Has Department Manager Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Részlegvezetői hozzáférése van"
+>>>>>>> upstream/18.0
 =======
 msgstr "Részlegvezetői hozzáférése van"
 >>>>>>> upstream/18.0
@@ -2024,7 +2269,11 @@ msgstr "Részlegvezetői hozzáférése van"
 msgid "Hours / Minutes"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Óra / Perc"
+>>>>>>> upstream/18.0
 =======
 msgstr "Óra / Perc"
 >>>>>>> upstream/18.0
@@ -2037,7 +2286,11 @@ msgstr "Óra / Perc"
 msgid "Hours By Task (Including Subtasks)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Órák feladatonként (alfeladatokkal)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Órák feladatonként (alfeladatokkal)"
 >>>>>>> upstream/18.0
@@ -2069,7 +2322,11 @@ msgstr "Belső projekt"
 msgid "Invalid operator: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Érvénytelen művelet: %s"
+=======
+msgstr "Érvénytelen operátor: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Érvénytelen operátor: %s"
 >>>>>>> upstream/18.0
@@ -2124,7 +2381,11 @@ msgstr "Előző év"
 msgid "Log time on tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Munkaidő naplózása a feladatokon"
+=======
+msgstr "Idő naplózása feladatokon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Idő naplózása feladatokon"
 >>>>>>> upstream/18.0
@@ -2156,7 +2417,11 @@ msgstr "Menü"
 msgid "Message Partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Üzenet partner"
+>>>>>>> upstream/18.0
 =======
 msgstr "Üzenet partner"
 >>>>>>> upstream/18.0
@@ -2175,7 +2440,11 @@ msgstr "Mérföldkő"
 msgid "My Department's Updates"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Részlegem frissítései"
+>>>>>>> upstream/18.0
 =======
 msgstr "Részlegem frissítései"
 >>>>>>> upstream/18.0
@@ -2188,7 +2457,11 @@ msgstr "Részlegem frissítései"
 msgid "My Team's Updates"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Csapatom frissítései"
+>>>>>>> upstream/18.0
 =======
 msgstr "Csapatom frissítései"
 >>>>>>> upstream/18.0
@@ -2204,7 +2477,11 @@ msgstr "Csapatom frissítései"
 msgid "My Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Munkaidő-nyilvántartásaim"
+=======
+msgstr "Időkimutatásaim"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatásaim"
 >>>>>>> upstream/18.0
@@ -2223,7 +2500,11 @@ msgstr "Legújabb"
 msgid "No Parent Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nincs szülő feladat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nincs szülő feladat"
 >>>>>>> upstream/18.0
@@ -2236,7 +2517,11 @@ msgstr "Nincs szülő feladat"
 msgid "No Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nincs feladat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nincs feladat"
 >>>>>>> upstream/18.0
@@ -2257,7 +2542,11 @@ msgstr "Nincs tevékenység. Hozzon létre egyet!"
 msgid "No data yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Még nincs adat!"
+=======
+msgstr "Nincs még adat!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nincs még adat!"
 >>>>>>> upstream/18.0
@@ -2276,7 +2565,11 @@ msgstr "Nincs"
 msgid "Number of allocated hours minus the number of hours spent."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kiosztott órák száma mínusz az eltöltött órák száma."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kiosztott órák száma mínusz az eltöltött órák száma."
 >>>>>>> upstream/18.0
@@ -2340,6 +2633,7 @@ msgstr "Projekt"
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_project__account_id
 msgid "Project Account"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2565,6 +2859,9 @@ msgstr "Projekt főkönyvi számla"
 =======
 msgstr "Projekt analitikus számla"
 >>>>>>> upstream/18.0
+=======
+msgstr "Projekt analitikus számla"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_res_company__project_time_mode_id
@@ -2601,7 +2898,11 @@ msgid "Project Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt állapot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projekt állapot"
 >>>>>>> upstream/18.0
@@ -2686,7 +2987,11 @@ msgstr "Projekt állapot"
 msgid "Project's Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt időkimutatásai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projekt időkimutatásai"
 >>>>>>> upstream/18.0
@@ -2708,6 +3013,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Rögzítse gyorsan az időkimutatásait lenyomva a Shift + a meghatározott "
+"billenytűt és adjon 15 percet a projekthez."
+>>>>>>> upstream/18.0
 =======
 "Rögzítse gyorsan az időkimutatásait lenyomva a Shift + a meghatározott "
 "billenytűt és adjon 15 percet a projekthez."
@@ -2727,7 +3037,11 @@ msgstr "Kimutatás"
 msgid "Research and Development"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kutatás-fejlesztés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kutatás-fejlesztés"
 >>>>>>> upstream/18.0
@@ -2740,7 +3054,11 @@ msgstr "Kutatás-fejlesztés"
 msgid "Research and Development/New Portal System"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kutatás-fejlesztés / Új portál rendszer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kutatás-fejlesztés / Új portál rendszer"
 >>>>>>> upstream/18.0
@@ -2753,7 +3071,11 @@ msgstr "Kutatás-fejlesztés / Új portál rendszer"
 msgid "Review all timesheets related to your projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projektekhez kapcsolódó összes időkimutatás átnézése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projektekhez kapcsolódó összes időkimutatás átnézése"
 >>>>>>> upstream/18.0
@@ -2767,7 +3089,11 @@ msgstr "Projektekhez kapcsolódó összes időkimutatás átnézése"
 msgid "Search in Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Leírás keresés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Leírás keresés"
 >>>>>>> upstream/18.0
@@ -2781,7 +3107,11 @@ msgstr "Leírás keresés"
 msgid "Search in Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alkalmazott keresés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alkalmazott keresés"
 >>>>>>> upstream/18.0
@@ -2795,7 +3125,11 @@ msgstr "Alkalmazott keresés"
 msgid "Search in Parent Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szülő feladat keresés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szülő feladat keresés"
 >>>>>>> upstream/18.0
@@ -2815,7 +3149,11 @@ msgstr "Keresés a projektekben"
 msgid "Search in Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Feladat keresés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Feladat keresés"
 >>>>>>> upstream/18.0
@@ -2828,7 +3166,11 @@ msgstr "Feladat keresés"
 msgid "See Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatások megtekintése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatások megtekintése"
 >>>>>>> upstream/18.0
@@ -2843,7 +3185,11 @@ msgstr "Időkimutatások megtekintése"
 msgid "See timesheet entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás tételek megtekintése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás tételek megtekintése"
 >>>>>>> upstream/18.0
@@ -2859,6 +3205,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Időszakos email emlékeztető küldése a jóváhagyóknak a jóváhagyásra váró "
+"időkimutatásokról "
+>>>>>>> upstream/18.0
 =======
 "Időszakos email emlékeztető küldése a jóváhagyóknak a jóváhagyásra váró "
 "időkimutatásokról "
@@ -2876,8 +3227,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Időszakos email emlékeztető küldése munkavállaóknak, akiknek még "
+"időkimutatást kell rögzíteniük"
+>>>>>>> upstream/18.0
+=======
+"Időszakos email emlékeztető küldése munkavállalóknak, akiknek még "
 "időkimutatást kell rögzíteniük"
 >>>>>>> upstream/18.0
 =======
@@ -2895,7 +3251,11 @@ msgstr "Beállítások"
 msgid "Sub-Task of '"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alfeladata ennek: "
+>>>>>>> upstream/18.0
 =======
 msgstr "Alfeladata ennek: "
 >>>>>>> upstream/18.0
@@ -2909,7 +3269,11 @@ msgstr "Alfeladata ennek: "
 msgid "Sub-tasks Time Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alfeladatokon eltöltött idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alfeladatokon eltöltött idő"
 >>>>>>> upstream/18.0
@@ -2934,7 +3298,11 @@ msgstr "Feladat"
 msgid "Task's Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Feladat időkimutatásai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Feladat időkimutatásai"
 >>>>>>> upstream/18.0
@@ -2953,7 +3321,11 @@ msgstr "Feladatok elemzése"
 msgid "The Internal Project of a company should be in that company."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A belső projektnek a vállalathoz kell tartoznia."
+>>>>>>> upstream/18.0
 =======
 msgstr "A belső projektnek a vállalathoz kell tartoznia."
 >>>>>>> upstream/18.0
@@ -2970,6 +3342,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A projektnek, a feladatnak és az időkimutatások analitikus számláinak "
+"ugyanazon vállalathoz kell tartozniuk."
+>>>>>>> upstream/18.0
 =======
 "A projektnek, a feladatnak és az időkimutatások analitikus számláinak "
 "ugyanazon vállalathoz kell tartozniuk."
@@ -2983,7 +3360,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
 msgid "There are no timesheets."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nincsenek munkaidő-nyilvántartások."
+=======
+msgstr "Nincsenek időkimutatások."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nincsenek időkimutatások."
 >>>>>>> upstream/18.0
@@ -2997,6 +3378,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Időkimutatás bejegyzések hivatkoznak ezekre a projektekre. Távolítsa el az "
+"időkimutatás bejegyzéseket mielőtt eltávolítaná a projekteket."
+>>>>>>> upstream/18.0
 =======
 "Időkimutatás bejegyzések hivatkoznak ezekre a projektekre. Távolítsa el az "
 "időkimutatás bejegyzéseket mielőtt eltávolítaná a projekteket."
@@ -3015,6 +3401,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Időkimutatás bejegyzések hivatkoznak ezekre a feladatokra. Távolítsa el az "
+"időkimutatás bejegyzéseket mielőtt eltávolítaná a feladatokat."
+>>>>>>> upstream/18.0
 =======
 "Időkimutatás bejegyzések hivatkoznak ezekre a feladatokra. Távolítsa el az "
 "időkimutatás bejegyzéseket mielőtt eltávolítaná a feladatokat."
@@ -3055,7 +3446,11 @@ msgstr "Tárgyév"
 msgid "This operator %s is not supported in this search method."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A(z) %s operátor nem támogatott ennél a keresési módszernél."
+>>>>>>> upstream/18.0
 =======
 msgstr "A(z) %s operátor nem támogatott ennél a keresési módszernél."
 >>>>>>> upstream/18.0
@@ -3072,6 +3467,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Időkimutatás bejegyzések hivatkoznak erre a projektre. Távolítsa el az "
+"időkimutatás bejegyzéseket mielőtt eltávolítaná a projektet."
+>>>>>>> upstream/18.0
 =======
 "Időkimutatás bejegyzések hivatkoznak erre a projektre. Távolítsa el az "
 "időkimutatás bejegyzéseket mielőtt eltávolítaná a projektet."
@@ -3089,6 +3489,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ez a feladat nem állítható privátra, mivel vannak hozzá kapcsolt "
+"időkimutatások."
+>>>>>>> upstream/18.0
 =======
 "Ez a feladat nem állítható privátra, mivel vannak hozzá kapcsolt "
 "időkimutatások."
@@ -3107,6 +3512,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Időkimutatás bejegyzések hivatkoznak erre a feladatra. Távolítsa el az "
+"időkimutatás bejegyzéseket mielőtt eltávolítaná a feladatot."
+>>>>>>> upstream/18.0
 =======
 "Időkimutatás bejegyzések hivatkoznak erre a feladatra. Távolítsa el az "
 "időkimutatás bejegyzéseket mielőtt eltávolítaná a feladatot."
@@ -3125,8 +3535,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ez állítja be a projekt témákban és a feladatokban használt mértékegységet. \n"
 "Ha használja a projektekhez kapcsolt munkaidő-kiosztás /project_timesheet modul/, ne felejtse el beállítani a helyes mértékegységet az alkalmazotti űrlapon."
+=======
+"Beállítja a projektekben és feladatokban használt mértékegységet. \n"
+"Ha használja a projektekhez kapcsolt időkimutatást, akkor ne felejtse el beállítani a helyes mértékegységet a munkavállalóknál."
+>>>>>>> upstream/18.0
 =======
 "Beállítja a projektekben és feladatokban használt mértékegységet. \n"
 "Ha használja a projektekhez kapcsolt időkimutatást, akkor ne felejtse el beállítani a helyes mértékegységet a munkavállalóknál."
@@ -3156,7 +3571,11 @@ msgstr "Szabadság"
 msgid "Time Remaining"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maradék idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maradék idő"
 >>>>>>> upstream/18.0
@@ -3169,7 +3588,11 @@ msgstr "Maradék idő"
 msgid "Time Remaining Percentage"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maradék idő százalék"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maradék idő százalék"
 >>>>>>> upstream/18.0
@@ -3182,7 +3605,11 @@ msgstr "Maradék idő százalék"
 msgid "Time Remaining on SO"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevői rendelés maradék idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevői rendelés maradék idő"
 >>>>>>> upstream/18.0
@@ -3217,7 +3644,11 @@ msgstr "Eltöltött idő"
 msgid "Time Spent on Sub-Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alfeladatokon eltöltött idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alfeladatokon eltöltött idő"
 >>>>>>> upstream/18.0
@@ -3230,7 +3661,11 @@ msgstr "Alfeladatokon eltöltött idő"
 msgid "Time Spent on Sub-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alfeladatokon eltöltött idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alfeladatokon eltöltött idő"
 >>>>>>> upstream/18.0
@@ -3244,7 +3679,11 @@ msgstr "Alfeladatokon eltöltött idő"
 msgid "Time spent on the sub-tasks (and their own sub-tasks) of this task."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Feladat alfeladataira (és azok alfeladataira) fordított idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Feladat alfeladataira (és azok alfeladataira) fordított idő"
 >>>>>>> upstream/18.0
@@ -3257,7 +3696,11 @@ msgstr "Feladat alfeladataira (és azok alfeladataira) fordított idő"
 msgid "Time spent on this task and its sub-tasks (and their own sub-tasks)."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Feladatra és alfeladataira (és azok alfeladataira) fordított idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Feladatra és alfeladataira (és azok alfeladataira) fordított idő"
 >>>>>>> upstream/18.0
@@ -3270,7 +3713,11 @@ msgstr "Feladatra és alfeladataira (és azok alfeladataira) fordított idő"
 msgid "Time spent on this task, including its sub-tasks."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Feladaton eltöltött idő, beleértve a kapcsolt alfeladatokat is."
+>>>>>>> upstream/18.0
 =======
 msgstr "Feladaton eltöltött idő, beleértve a kapcsolt alfeladatokat is."
 >>>>>>> upstream/18.0
@@ -3283,7 +3730,11 @@ msgstr "Feladaton eltöltött idő, beleértve a kapcsolt alfeladatokat is."
 msgid "Time unit used to record your timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatások rögzítéséhez használt időegység"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatások rögzítéséhez használt időegység"
 >>>>>>> upstream/18.0
@@ -3299,7 +3750,11 @@ msgstr "Időkimutatások rögzítéséhez használt időegység"
 msgid "Timesheet"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Munkaidő-nyilvántartás"
+=======
+msgstr "Időkimutatás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás"
 >>>>>>> upstream/18.0
@@ -3314,7 +3769,11 @@ msgstr "Időkimutatás"
 msgid "Timesheet Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Munkaidő-nyilvántartás tevékenységek"
+=======
+msgstr "Időkimutatás tevékenységek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás tevékenységek"
 >>>>>>> upstream/18.0
@@ -3338,7 +3797,11 @@ msgstr "Időkimutatás tevékenységek"
 msgid "Timesheet Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Munkaidő-nyilvántartás költségek"
+=======
+msgstr "Időkimutatás költségek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás költségek"
 >>>>>>> upstream/18.0
@@ -3351,7 +3814,11 @@ msgstr "Időkimutatás költségek"
 msgid "Timesheet Encoding Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Munkaidő-nyilvántartás időegysége"
+=======
+msgstr "Időkimutatás egysége"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás egysége"
 >>>>>>> upstream/18.0
@@ -3388,7 +3855,11 @@ msgid "Timesheet Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás jelentés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás jelentés"
 >>>>>>> upstream/18.0
@@ -3473,7 +3944,11 @@ msgstr "Időkimutatás jelentés"
 msgid "Timesheet Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás idő"
 >>>>>>> upstream/18.0
@@ -3525,7 +4000,11 @@ msgstr "Időkimutatások"
 msgid "Timesheets - %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatások - %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatások - %s"
 >>>>>>> upstream/18.0
@@ -3538,7 +4017,11 @@ msgstr "Időkimutatások - %s"
 msgid "Timesheets 80%"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás 80%"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás 80%"
 >>>>>>> upstream/18.0
@@ -3552,7 +4035,11 @@ msgstr "Időkimutatás 80%"
 msgid "Timesheets >100%"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás >100%"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás >100%"
 >>>>>>> upstream/18.0
@@ -3568,7 +4055,11 @@ msgstr "Időkimutatás >100%"
 msgid "Timesheets Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás elemzés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás elemzés"
 >>>>>>> upstream/18.0
@@ -3581,7 +4072,11 @@ msgstr "Időkimutatás elemzés"
 msgid "Timesheets Analysis Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás elemzés riport"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás elemzés riport"
 >>>>>>> upstream/18.0
@@ -3594,7 +4089,11 @@ msgstr "Időkimutatás elemzés riport"
 msgid "Timesheets Control"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatás ellenőrzés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatás ellenőrzés"
 >>>>>>> upstream/18.0
@@ -3607,7 +4106,11 @@ msgstr "Időkimutatás ellenőrzés"
 msgid "Timesheets by Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Munkavállaló időkimutatás "
+>>>>>>> upstream/18.0
 =======
 msgstr "Munkavállaló időkimutatás "
 >>>>>>> upstream/18.0
@@ -3620,7 +4123,11 @@ msgstr "Munkavállaló időkimutatás "
 msgid "Timesheets by Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt időkimutatás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projekt időkimutatás"
 >>>>>>> upstream/18.0
@@ -3633,7 +4140,11 @@ msgstr "Projekt időkimutatás"
 msgid "Timesheets by Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Feladat időkimutatás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Feladat időkimutatás"
 >>>>>>> upstream/18.0
@@ -3647,7 +4158,11 @@ msgstr "Feladat időkimutatás"
 msgid "Timesheets cannot be created on a private task."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Privát feladatra nem rögzíthető időkimutatás."
+>>>>>>> upstream/18.0
 =======
 msgstr "Privát feladatra nem rögzíthető időkimutatás."
 >>>>>>> upstream/18.0
@@ -3663,7 +4178,11 @@ msgid ""
 "companies."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A vállalat aktív munkavállalóira lehet létrehozni időkimutatásokat."
+>>>>>>> upstream/18.0
 =======
 msgstr "A vállalat aktív munkavállalóira lehet létrehozni időkimutatásokat."
 >>>>>>> upstream/18.0
@@ -3680,6 +4199,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Időkimutatások létrehozásához legalább egy analitikus számlának léteznie "
+"kell ebben a tervben: '%(plan_name)s'."
+>>>>>>> upstream/18.0
 =======
 "Időkimutatások létrehozásához legalább egy analitikus számlának léteznie "
 "kell ebben a tervben: '%(plan_name)s'."
@@ -3695,7 +4219,11 @@ msgstr ""
 msgid "Timesheets of %(name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Időkimutatások: %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Időkimutatások: %(name)s"
 >>>>>>> upstream/18.0
@@ -3708,7 +4236,11 @@ msgstr "Időkimutatások: %(name)s"
 msgid "Tip: Record your Timesheets faster"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipp: rögzítse gyorsabban az időkimutatásait"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipp: rögzítse gyorsabban az időkimutatásait"
 >>>>>>> upstream/18.0
@@ -3726,6 +4258,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Az időkimutatások használatához szükséges egy analitikus számla a "
+"projekthez. Kérjük, állítson be egyet ebben a tervben: '%(plan_name)s', vagy"
+" kapcsolja ki az időkimutatás funkciót."
+>>>>>>> upstream/18.0
 =======
 "Az időkimutatások használatához szükséges egy analitikus számla a "
 "projekthez. Kérjük, állítson be egyet ebben a tervben: '%(plan_name)s', vagy"
@@ -3757,7 +4295,11 @@ msgstr "Összesen"
 msgid "Total Allocated Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Összes kiosztott idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Összes kiosztott idő"
 >>>>>>> upstream/18.0
@@ -3770,7 +4312,11 @@ msgstr "Összes kiosztott idő"
 msgid "Total Days Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Összes eltöltött nap"
+>>>>>>> upstream/18.0
 =======
 msgstr "Összes eltöltött nap"
 >>>>>>> upstream/18.0
@@ -3786,7 +4332,11 @@ msgstr "Összes eltöltött nap"
 msgid "Total Time Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Összes eltöltött idő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Összes eltöltött idő"
 >>>>>>> upstream/18.0
@@ -3809,6 +4359,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kövesse nyomon a projektek kapcsán eltöltött munkaidejét és számlázza ki a "
+"vevőknek."
+>>>>>>> upstream/18.0
 =======
 "Kövesse nyomon a projektek kapcsán eltöltött munkaidejét és számlázza ki a "
 "vevőknek."
@@ -3838,7 +4393,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Használja ezeket a kulcsszavakat a címben új feladatok megadásához:\n"
@@ -3850,6 +4408,9 @@ msgstr ""
 "\n"
 "        MFigyeljen arra, hogy a helyes formátumot és sorrendet használjah pl.: Képernyő konfiguráció fejlesztése 5h #feature #v16 @Mitchell !"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3865,7 +4426,11 @@ msgstr "Felhasználó"
 msgid "User: all timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Felhasználó: minden időkimutatás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Felhasználó: minden időkimutatás"
 >>>>>>> upstream/18.0
@@ -3878,7 +4443,11 @@ msgstr "Felhasználó: minden időkimutatás"
 msgid "User: own timesheets only"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Felhasználó: csak saját időkimutatások"
+>>>>>>> upstream/18.0
 =======
 msgstr "Felhasználó: csak saját időkimutatások"
 >>>>>>> upstream/18.0
@@ -3974,7 +4543,11 @@ msgid "View Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Részletek megtekintése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Részletek megtekintése"
 >>>>>>> upstream/18.0
@@ -4240,6 +4813,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Regisztrálhatja és nyomonkövetheti a munkaórákat projektenként minden \n"
+"                    nap. Minden projektre fordított idő költséggé válik és továbbszámlázható\n"
+"                    a vevőknek, ha szükséges."
+>>>>>>> upstream/18.0
 =======
 "Regisztrálhatja és nyomonkövetheti a munkaórákat projektenként minden \n"
 "                    nap. Minden projektre fordított idő költséggé válik és továbbszámlázható\n"
@@ -4257,7 +4836,11 @@ msgstr ""
 msgid "You cannot access timesheets that are not yours."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nem férhet hozzá mások időkimutatásaihoz."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nem férhet hozzá mások időkimutatásaihoz."
 >>>>>>> upstream/18.0
@@ -4271,7 +4854,11 @@ msgstr "Nem férhet hozzá mások időkimutatásaihoz."
 msgid "You cannot delete employees who have timesheets."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nem lehet törlöni időkimutatásokkal rendelkező munkavállalót."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nem lehet törlöni időkimutatásokkal rendelkező munkavállalót."
 >>>>>>> upstream/18.0
@@ -4287,6 +4874,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nem lehet időkimutatást rögzíteni ehhez a projekthez, mivel a projekt egy inaktív analitikus számlához van kapcsolva.<br/>\n"
+"                            Időkimutatások rögzítéséhez cserélje le az analitikus számlát, vagy aktiválja újra a jelenlegit."
+>>>>>>> upstream/18.0
 =======
 "Nem lehet időkimutatást rögzíteni ehhez a projekthez, mivel a projekt egy inaktív analitikus számlához van kapcsolva.<br/>\n"
 "                            Időkimutatások rögzítéséhez cserélje le az analitikus számlát, vagy aktiválja újra a jelenlegit."
@@ -4305,6 +4897,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nem lehet időkimutatást rögzíteni ehhez a projekthez, mivel a projekt egy "
+"inaktív analitikus számlához van kapcsolva.<br/> Időkimutatások rögzítéséhez"
+" cserélje le az analitikus számlát, vagy aktiválja újra a jelenlegit."
+>>>>>>> upstream/18.0
 =======
 "Nem lehet időkimutatást rögzíteni ehhez a projekthez, mivel a projekt egy "
 "inaktív analitikus számlához van kapcsolva.<br/> Időkimutatások rögzítéséhez"
@@ -4322,7 +4920,11 @@ msgstr ""
 msgid "You cannot set an archived employee on existing timesheets."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nem lehet archivált munkavállalót megadni létező időkimutatáson."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nem lehet archivált munkavállalót megadni létező időkimutatáson."
 >>>>>>> upstream/18.0
@@ -4403,7 +5005,11 @@ msgid "for the"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ehhez: "
+>>>>>>> upstream/18.0
 =======
 msgstr "ehhez: "
 >>>>>>> upstream/18.0
@@ -4608,6 +5214,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"itt:\n"
+"                            <span class=\"fw-bold text-dark\"> Alfeladatok</span>)"
+>>>>>>> upstream/18.0
 =======
 "itt:\n"
 "                            <span class=\"fw-bold text-dark\"> Alfeladatok</span>)"
@@ -4625,6 +5236,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"itt:\n"
+"                        <span class=\"fw-bold text-dark\"> Alfeladatok</span>)"
+>>>>>>> upstream/18.0
 =======
 "itt:\n"
 "                        <span class=\"fw-bold text-dark\"> Alfeladatok</span>)"

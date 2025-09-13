@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_geolocalize
 # 
 # Translators:
@@ -8,18 +9,24 @@
 # Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * base_geolocalize
 #
 # Translators:
 # ievaputnina <ievai.putninai@gmail.com>, 2024
 # Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2025
 # Aleksejs Ivanovs <ai@myacc.pro>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2025\n"
@@ -30,6 +37,8 @@ msgstr ""
 "Language: lv\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-03 17:53+0000\n"
 "Last-Translator: Aleksejs Ivanovs <ai@myacc.pro>\n"
 "Language-Team: Latvian <https://translate.odoo.com/projects/odoo-18/"
@@ -40,13 +49,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model:ir.model.fields,field_description:base_geolocalize.field_res_config_settings__geoloc_provider_id
 msgid "API"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API"
+>>>>>>> upstream/18.0
 =======
 msgstr "API"
 >>>>>>> upstream/18.0
@@ -59,6 +75,12 @@ msgid ""
 "Visit https://developers.google.com/maps/documentation/geocoding/get-api-key for more information."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nepieciešama API atslēga GeoCoding (Vietas).\n"
+"Apmeklējiet https://developers.google.com/maps/documentation/geocoding/get-"
+"api-key lai iegūtu vairāk informācijas."
+>>>>>>> upstream/18.0
 =======
 "Nepieciešama API atslēga GeoCoding (Vietas).\n"
 "Apmeklējiet https://developers.google.com/maps/documentation/geocoding/get-"
@@ -69,7 +91,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.res_config_settings_view_form
 msgid "API:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API:"
+>>>>>>> upstream/18.0
 =======
 msgstr "API:"
 >>>>>>> upstream/18.0
@@ -78,7 +104,11 @@ msgstr "API:"
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Compute Localization"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aprēķināt lokalizāciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprēķināt lokalizāciju"
 >>>>>>> upstream/18.0
@@ -118,7 +148,11 @@ msgstr "Nosaukums"
 #: code:addons/base_geolocalize/models/base_geocoder.py:0
 msgid "Error with geolocation server: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kļūda ar ģeolokalizācijas serveri: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kļūda ar ģeolokalizācijas serveri: %s"
 >>>>>>> upstream/18.0
@@ -127,7 +161,11 @@ msgstr "Kļūda ar ģeolokalizācijas serveri: %s"
 #: model:ir.model,name:base_geolocalize.model_base_geocoder
 msgid "Geo Coder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geokoders"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geokoders"
 >>>>>>> upstream/18.0
@@ -136,7 +174,11 @@ msgstr "Geokoders"
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Geo Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atrašanās vieta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atrašanās vieta"
 >>>>>>> upstream/18.0
@@ -145,7 +187,11 @@ msgstr "Atrašanās vieta"
 #: model:ir.model,name:base_geolocalize.model_base_geo_provider
 msgid "Geo Provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geo pakalpojumu sniedzējs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geo pakalpojumu sniedzējs"
 >>>>>>> upstream/18.0
@@ -160,7 +206,11 @@ msgstr "Geo-lokācija"
 #: model:ir.model.fields,field_description:base_geolocalize.field_res_users__date_localization
 msgid "Geolocation Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ģeolokalizācijas datums"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ģeolokalizācijas datums"
 >>>>>>> upstream/18.0
@@ -169,7 +219,11 @@ msgstr "Ģeolokalizācijas datums"
 #: model:ir.model.fields,field_description:base_geolocalize.field_res_config_settings__geoloc_provider_googlemap_key
 msgid "Google Map API Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Map API atslēga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Map API atslēga"
 >>>>>>> upstream/18.0
@@ -183,7 +237,11 @@ msgstr "ID"
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.res_config_settings_view_form
 msgid "Key:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atslēga:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atslēga:"
 >>>>>>> upstream/18.0
@@ -218,7 +276,11 @@ msgstr "Nosaukums"
 #: code:addons/base_geolocalize/models/res_partner.py:0
 msgid "No match found for %(partner_names)s address(es)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nav atrasta atbilstība %(partner_names)s adresei(em)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nav atrasta atbilstība %(partner_names)s adresei(em)."
 >>>>>>> upstream/18.0
@@ -227,7 +289,11 @@ msgstr "Nav atrasta atbilstība %(partner_names)s adresei(em)."
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Partner Assignment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partnera uzdevums"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partnera uzdevums"
 >>>>>>> upstream/18.0
@@ -237,7 +303,11 @@ msgstr "Partnera uzdevums"
 #: code:addons/base_geolocalize/models/base_geocoder.py:0
 msgid "Provider %s is not implemented for geolocation service."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pakalpojuma sniedzējs %s nav ieviests ģeolokācijas pakalpojumam."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pakalpojuma sniedzējs %s nav ieviests ģeolokācijas pakalpojumam."
 >>>>>>> upstream/18.0
@@ -251,7 +321,11 @@ msgstr "Atsvaidzināt"
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Refresh Localization"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atjaunināt lokalizāciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atjaunināt lokalizāciju"
 >>>>>>> upstream/18.0
@@ -275,7 +349,10 @@ msgid ""
 "Geocoding, Maps Static, Maps Javascript.\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Nevar noteikt ģeogrāfisko atrašanās vietu, saņemta kļūda:\n"
 "%s\n"
 "\n"
@@ -284,13 +361,20 @@ msgstr ""
 "Pēc tam dodieties uz Izstrādātāja konsoli (Developer Console) un iespējojiet "
 "API:\n"
 "Geocoding, Maps Static, Maps Javascript.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Updated on:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atjaunināts:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atjaunināts:"
 >>>>>>> upstream/18.0
@@ -302,6 +386,11 @@ msgid ""
 " for more information."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Apmeklējiet https://developers.google.com/maps/documentation/geocoding/get-"
+"api-key lai iegūt vairāk informācijas."
+>>>>>>> upstream/18.0
 =======
 "Apmeklējiet https://developers.google.com/maps/documentation/geocoding/get-"
 "api-key lai iegūt vairāk informācijas."

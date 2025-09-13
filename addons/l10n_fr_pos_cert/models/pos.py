@@ -46,6 +46,10 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -271,6 +275,12 @@ class pos_config(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _config_sequence_implementation(self):
+        return 'no_gap' if self.env.company._is_accounting_unalterable() else super()._config_sequence_implementation()
+
+>>>>>>> upstream/18.0
 =======
     def _config_sequence_implementation(self):
         return 'no_gap' if self.env.company._is_accounting_unalterable() else super()._config_sequence_implementation()
@@ -731,6 +741,7 @@ class pos_order(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for order in self:
             prev_order = self.search([('state', 'in', ['paid', 'done', 'invoiced']),
                                                 ('company_id', '=', order.company_id.id),
@@ -742,6 +753,8 @@ class pos_order(models.Model):
             elif prev_order:
                 order.previous_order_id = prev_order
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -888,6 +901,9 @@ class pos_order(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -997,6 +1013,7 @@ class pos_order(models.Model):
 
     def _compute_string_to_hash(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         def _getattrstring(obj, field_str):
             field_value = obj[field_str]
             if obj._fields[field_str].type == 'many2one':
@@ -1006,6 +1023,8 @@ class pos_order(models.Model):
             return str(field_value)
 
 =======
+=======
+>>>>>>> upstream/18.0
         def _getattrstring(field_value, field_type, model_name=None):
             if field_type in ('many2many', 'one2many'):
                 if field_value:
@@ -1062,6 +1081,9 @@ class pos_order(models.Model):
 
         sorted_relational_ids = collect_sorted_relational_ids(orders_data, lines_data, order_field_defs, line_field_defs)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         for order in self:
             values = {}
@@ -1072,12 +1094,15 @@ class pos_order(models.Model):
             for field in order_fields:
                 values[field] = _getattrstring(order, field)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             for line in order.lines:
                 for field in LINE_FIELDS:
                     k = 'line_%d_%s' % (line.id, field)
                     values[k] = _getattrstring(line, field)
 =======
+=======
+>>>>>>> upstream/18.0
             order_data = orders_by_id[order.id]
 
             for field in order_fields:
@@ -1090,6 +1115,9 @@ class pos_order(models.Model):
                     field_def = line_field_defs[field]
                     values[k] = _getattrstring(line.get(field), field_def['type'], field_def['comodel'])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             #make the json serialization canonical
             #  (https://tools.ietf.org/html/draft-staykov-hu-json-canonical-form-00)

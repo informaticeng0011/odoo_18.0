@@ -96,12 +96,18 @@ export class CollaborationPlugin extends Plugin {
     getBranchIds() {
         const steps = this.dependencies.history.getHistorySteps();
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [this.initialBranchStepId].concat(this.branchStepIds).concat(steps.map((s) => s.id));
 =======
+=======
+>>>>>>> upstream/18.0
         return (this.initialBranchStepId || "")
             .split(",")
             .concat(this.branchStepIds)
             .concat(steps.map((s) => s.id));
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     /**

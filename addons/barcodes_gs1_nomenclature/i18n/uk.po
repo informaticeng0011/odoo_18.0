@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes_gs1_nomenclature
 # 
 # Translators:
@@ -251,16 +252,22 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * barcodes_gs1_nomenclature
 #
 # Translators:
 # Wil Odoo, 2024
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -516,6 +523,8 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-08 18:38+0000\n"
 "PO-Revision-Date: 2025-08-12 22:21+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
@@ -540,6 +549,9 @@ msgid ""
 msgstr ""
 "Знайдено збіг із шаблоном номенклатури штрих-коду GS1. Однак, штрих-код не "
 "вдалося перетворити на дійсну дату: '%(error_message)'"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
@@ -754,6 +766,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Альтернативний роздільник FNC1 не є коректним регулярним виразом: %(error)s"
+>>>>>>> upstream/18.0
 =======
 "Альтернативний роздільник FNC1 не є коректним регулярним виразом: %(error)s"
 >>>>>>> upstream/18.0
@@ -1034,7 +1050,11 @@ msgid "The rule pattern '%(rule)s' is not a valid Regex: %(error)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Паттерн правила '%(rule)s' є недійсним виразом: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Паттерн правила '%(rule)s' є недійсним виразом: %(error)s"
 >>>>>>> upstream/18.0
@@ -1228,6 +1248,7 @@ msgstr "Паттерн правила '%(rule)s' є недійсним вира�
 msgid ""
 "There is something wrong with the barcode rule \"%s\" pattern.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
@@ -1235,6 +1256,8 @@ msgstr ""
 "Якщо це правило використовує десяткові числа, перевірте, чи він не може отримати тільки цифру як останній символ для модуля ідентифікатора.\n"
 "Перевірте також, чи збігаються значення, які можуть бути лише цифрами, інакше значення не може бути використано як міра."
 =======
+=======
+>>>>>>> upstream/18.0
 "If this rule uses decimal, check it can't get sometime else than a digit as "
 "last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the "
@@ -1245,6 +1268,9 @@ msgstr ""
 "отримати тільки цифру як останній символ для модуля ідентифікатора.\n"
 "Перевірте також, чи збігаються значення, які можуть бути лише цифрами, "
 "інакше значення не може бути використано як міра."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature

@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_restaurant
 # 
+=======
+# * pos_restaurant
+#
+>>>>>>> upstream/18.0
 =======
 # * pos_restaurant
 #
@@ -15,7 +20,12 @@
 # Martin Trigaux, 2024
 # Bole <bole@dajmi5.com>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Alen Komljen <alen@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Luka Carević <luka@uvid.hr>, 2025
 # Alen Komljen <alen@uvid.hr>, 2025.
@@ -25,6 +35,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Bole <bole@dajmi5.com>, 2024\n"
@@ -41,6 +52,8 @@ msgstr ""
 msgid ", Guests:"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-25 15:55+0000\n"
 "Last-Translator: Alen Komljen <alen@uvid.hr>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
@@ -52,6 +65,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_restaurant
@@ -164,6 +180,11 @@ msgid ""
 "takeout."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Prilagodi poreznu stopu ovisno o tome jedu li kupci na licu mjesta ili "
+"naručuju za van."
+>>>>>>> upstream/18.0
 =======
 "Prilagodi poreznu stopu ovisno o tome jedu li kupci na licu mjesta ili "
 "naručuju za van."
@@ -173,7 +194,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Allow Bill Splitting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dopusti podjelu računa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dopusti podjelu računa"
 >>>>>>> upstream/18.0
@@ -188,7 +213,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Allow to print receipt before payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dopusti ispis računa prije plaćanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dopusti ispis računa prije plaćanja"
 >>>>>>> upstream/18.0
@@ -204,7 +233,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Alternative Fiscal Position"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alternativna fiskalna pozicija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alternativna fiskalna pozicija"
 >>>>>>> upstream/18.0
@@ -406,7 +439,11 @@ msgstr "Kreirano"
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Delete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Briši"
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obriši"
 >>>>>>> upstream/18.0
@@ -421,7 +458,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Design floors and assign orders to tables"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dizajniraj katove i dodijeli narudžbe stolovima"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dizajniraj katove i dodijeli narudžbe stolovima"
 >>>>>>> upstream/18.0
@@ -447,7 +488,11 @@ msgstr "Pića"
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Early Receipt Printing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rano ispisivanje računa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rano ispisivanje računa"
 >>>>>>> upstream/18.0
@@ -456,7 +501,11 @@ msgstr "Rano ispisivanje računa"
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Eat in / Take out"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pojedi ovdje / Za van"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pojedi ovdje / Za van"
 >>>>>>> upstream/18.0
@@ -509,7 +558,11 @@ msgstr ""
 #: model:product.attribute,name:pos_restaurant.product_extra_pizza
 msgid "Extras"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaci"
 >>>>>>> upstream/18.0
@@ -584,7 +637,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Floors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Katovi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Katovi"
 >>>>>>> upstream/18.0
@@ -593,7 +650,11 @@ msgstr "Katovi"
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Floors & Tables Map"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Karta katova i stolova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Karta katova i stolova"
 >>>>>>> upstream/18.0
@@ -820,7 +881,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Online reservation for restaurant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online rezervacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Online rezervacija"
 >>>>>>> upstream/18.0
@@ -838,7 +903,11 @@ msgstr ""
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Oops! No floors available."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ups! Nema dostupnih katova."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ups! Nema dostupnih katova."
 >>>>>>> upstream/18.0
@@ -1094,7 +1163,11 @@ msgstr "Spremi"
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Save this page and come back here to set up the feature."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spremite ovu stranicu i vratite se ovdje za postavljanje funkcije."
+>>>>>>> upstream/18.0
 =======
 msgstr "Spremite ovu stranicu i vratite se ovdje za postavljanje funkcije."
 >>>>>>> upstream/18.0
@@ -1126,7 +1199,11 @@ msgstr "Sekvenca"
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__set_tip_after_payment
 msgid "Set Tip After Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postavi napojnicu nakon plaćanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postavi napojnicu nakon plaćanja"
 >>>>>>> upstream/18.0
@@ -1185,7 +1262,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Split total or order lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podijeli ukupni iznos ili stavke narudžbe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podijeli ukupni iznos ili stavke narudžbe"
 >>>>>>> upstream/18.0
@@ -1235,7 +1316,10 @@ msgstr ""
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/order_receipt/order_receipt.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/overrides/components/ticket_screen/ticket_screen.js:0
@@ -1246,7 +1330,10 @@ msgstr "Table"
 
 #. module: pos_restaurant
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_header_patch.js:0
 msgid "Table %(number)s"
@@ -1259,13 +1346,20 @@ msgid "Table %(number)s, Guests: %(count)s"
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__module_pos_restaurant_appointment
 #: model:ir.model.fields,field_description:pos_restaurant.field_res_config_settings__pos_module_pos_restaurant_appointment
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Table Booking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rezervacija stola"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rezervacija stola"
 >>>>>>> upstream/18.0
@@ -1292,7 +1386,11 @@ msgstr "Tablice"
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order__takeaway
 msgid "Take Away"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za van"
+>>>>>>> upstream/18.0
 =======
 msgstr "Za van"
 >>>>>>> upstream/18.0
@@ -1308,7 +1406,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_restaurant.field_res_config_settings__pos_takeaway
 msgid "Takeaway"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za van"
+>>>>>>> upstream/18.0
 =======
 msgstr "Za van"
 >>>>>>> upstream/18.0
@@ -1317,7 +1419,11 @@ msgstr "Za van"
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Taxes must be included in price."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Porez mora biti uključen u cijenu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Porez mora biti uključen u cijenu."
 >>>>>>> upstream/18.0

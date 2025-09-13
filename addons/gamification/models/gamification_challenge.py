@@ -618,7 +618,13 @@ class Challenge(models.Model):
                 if not lines:
                     continue
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+                # Avoid error if 'full_suffix' is missing in the line
+                for line in lines:
+                    line.setdefault('full_suffix', '')
+>>>>>>> upstream/18.0
 =======
                 # Avoid error if 'full_suffix' is missing in the line
                 for line in lines:

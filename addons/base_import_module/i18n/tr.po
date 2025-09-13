@@ -17,6 +17,10 @@
 # Martin Trigaux, 2024
 # Ediz Duman <neps1192@gmail.com>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
@@ -28,7 +32,11 @@ msgstr ""
 "POT-Creation-Date: 2024-11-19 15:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Ediz Duman <neps1192@gmail.com>, 2024\n"
+=======
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -48,6 +56,12 @@ msgid ""
 "If you need Website themes, it can be downloaded from https://github.com/odoo/design-themes.\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\n"
+"Veri modülünü yüklemek için Kurumsal sürümüne ihtiyacınız olabilir. Daha fazla bilgi için lütfen https://www.odoo.com/pricing-plan adresini ziyaret edin.\n"
+"Web sitesi temalarına ihtiyacınız varsa, https://github.com/odoo/design-themes adresinden indirebilirsiniz.\n"
+>>>>>>> upstream/18.0
 =======
 "\n"
 "Veri modülünü yüklemek için Kurumsal sürümüne ihtiyacınız olabilir. Daha fazla bilgi için lütfen https://www.odoo.com/pricing-plan adresini ziyaret edin.\n"
@@ -84,6 +98,10 @@ msgid ""
 "Connection to %(url)s failed, the module %(module)s cannot be downloaded."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(url)s adresine bağlantı başarısız oldu, %(module)s modülü indirilemiyor."
+>>>>>>> upstream/18.0
 =======
 "%(url)s adresine bağlantı başarısız oldu, %(module)s modülü indirilemiyor."
 >>>>>>> upstream/18.0
@@ -94,6 +112,10 @@ msgstr ""
 msgid "Connection to %s failed The list of industry modules cannot be fetched"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s adresine bağlantı başarısız oldu. Sektör modülleri listesi alınamadı"
+>>>>>>> upstream/18.0
 =======
 "%s adresine bağlantı başarısız oldu. Sektör modülleri listesi alınamadı"
 >>>>>>> upstream/18.0
@@ -129,11 +151,17 @@ msgid ""
 "\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "'%(module)s' modülü içe aktarılırken hata oluştu.\n"
 "\n"
 "%(error_message)s\n"
 "\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
@@ -176,7 +204,11 @@ msgstr "İçe Aktarma Modülü"
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__with_demo
 msgid "Import demo data of module"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modülün demo verilerini içe aktar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modülün demo verilerini içe aktar"
 >>>>>>> upstream/18.0
@@ -201,7 +233,11 @@ msgstr "Yükle"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Install an Industry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir Sektör Yükle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bir Sektör Yükle"
 >>>>>>> upstream/18.0
@@ -210,7 +246,11 @@ msgstr "Bir Sektör Yükle"
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Install the application"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uygulamayı yükle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uygulamayı yükle"
 >>>>>>> upstream/18.0
@@ -238,6 +278,11 @@ msgid ""
 "load them if this is your production database."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Örnek kayıtlarla sektörel özellikleri test etmek için demo verileri "
+"yükleyin. Bu üretim veritabanınızsa demo verileri yüklemeyin."
+>>>>>>> upstream/18.0
 =======
 "Örnek kayıtlarla sektörel özellikleri test etmek için demo verileri "
 "yükleyin. Bu üretim veritabanınızsa demo verileri yüklemeyin."
@@ -257,7 +302,11 @@ msgstr "Modül .ZIP dosyası"
 #: model:ir.model.fields,field_description:base_import_module.field_ir_module_module__module_type
 msgid "Module Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modül Türü"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modül Türü"
 >>>>>>> upstream/18.0
@@ -276,7 +325,11 @@ msgstr "Modül dosyası (.zip)"
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__modules_dependencies
 msgid "Modules Dependencies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modül Bağımlılıkları"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modül Bağımlılıkları"
 >>>>>>> upstream/18.0
@@ -298,7 +351,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:base_import_module.selection__ir_module_module__module_type__official
 msgid "Official Apps"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Resmi Uygulamalar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resmi Uygulamalar"
 >>>>>>> upstream/18.0
@@ -308,7 +365,11 @@ msgstr "Resmi Uygulamalar"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Only administrators can install data modules."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yalnızca yöneticiler veri modülleri kurabilir."
+>>>>>>> upstream/18.0
 =======
 msgstr "Yalnızca yöneticiler veri modülleri kurabilir."
 >>>>>>> upstream/18.0
@@ -344,6 +405,11 @@ msgid ""
 " can't be found in the addons-path:\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Veri modülünün kurulumu başarısız olur; çünkü aşağıdaki bağımlılıklar "
+"addons-path dizininde bulunamadı: \n"
+>>>>>>> upstream/18.0
 =======
 "Veri modülünün kurulumu başarısız olur; çünkü aşağıdaki bağımlılıklar "
 "addons-path dizininde bulunamadı: \n"
@@ -356,6 +422,10 @@ msgid ""
 "The list of industry applications cannot be fetched. Please try again later"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sektör uygulamaları listesi alınamadı. Lütfen daha sonra tekrar deneyin"
+>>>>>>> upstream/18.0
 =======
 "Sektör uygulamaları listesi alınamadı. Lütfen daha sonra tekrar deneyin"
 >>>>>>> upstream/18.0
@@ -365,7 +435,11 @@ msgstr ""
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "The module %s cannot be downloaded"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s modülü indirilemiyor"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s modülü indirilemiyor"
 >>>>>>> upstream/18.0
@@ -375,7 +449,11 @@ msgstr "%s modülü indirilemiyor"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Unknown module dependencies:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bilinmeyen modül bağımlılıkları:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bilinmeyen modül bağımlılıkları:"
 >>>>>>> upstream/18.0

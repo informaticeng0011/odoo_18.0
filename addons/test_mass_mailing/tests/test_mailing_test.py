@@ -3,8 +3,14 @@
 import lxml.html
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.test_mass_mailing.tests.common import TestMassMailCommon
 from odoo.fields import Command
+=======
+from odoo.addons.sms_twilio.tests.common import MockSmsTwilioApi
+from odoo.addons.test_mass_mailing.tests.common import TestMassMailCommon
+from odoo.addons.test_mass_mailing.tests.common import TestMassSMSCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.sms_twilio.tests.common import MockSmsTwilioApi
 from odoo.addons.test_mass_mailing.tests.common import TestMassMailCommon
@@ -165,7 +171,10 @@ class TestMailingTest(TestMassMailCommon):
             "Should use the value of the previous record's email_to as default",
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 
 @tagged('mailing_manage', 'twilio')
@@ -211,4 +220,7 @@ class TestMailingSMSTest(TestMassSMSCommon, MockSmsTwilioApi):
                 self.assertSMS(
                     self.env["res.partner"], '+32456001122', exp_state,
                 )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

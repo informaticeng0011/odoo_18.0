@@ -80,6 +80,10 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { tick } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { tick } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -408,8 +412,11 @@ import { em, s, span, u } from "../_helpers/tags";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { insertText, italic, tripleClick, underline } from "../_helpers/user_actions";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -657,6 +664,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -864,12 +874,18 @@ test("should make a whole heading underline after a triple click", async () => {
     await testEditor({
         contentBefore: `<h1>[ab</h1><p>]cd</p>`,
 <<<<<<< HEAD
+<<<<<<< HEAD
         stepFunction: underline,
 =======
+=======
+>>>>>>> upstream/18.0
         stepFunction: async (editor) => {
             await tripleClick(editor.editable.querySelector("h1"));
             underline(editor);
         },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         contentAfter: `<h1>${u(`[ab]`)}</h1><p>cd</p>`,
     });
@@ -1035,8 +1051,12 @@ test("should make a few characters underline inside table (underline)", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
+=======
+            </table>`),
+>>>>>>> upstream/18.0
 =======
             </table>`),
 >>>>>>> upstream/18.0
@@ -1381,8 +1401,12 @@ test("should make a few characters underline inside table (underline)", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
+=======
+            </table>`),
+>>>>>>> upstream/18.0
 =======
             </table>`),
 >>>>>>> upstream/18.0
@@ -1887,7 +1911,10 @@ describe("with italic", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2140,6 +2167,9 @@ describe("with italic", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

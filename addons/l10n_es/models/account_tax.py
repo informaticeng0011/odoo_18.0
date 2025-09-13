@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models
+=======
+from odoo import api, fields, models
+>>>>>>> upstream/18.0
 =======
 from odoo import api, fields, models
 >>>>>>> upstream/18.0
@@ -58,7 +62,10 @@ class AccountTax(models.Model):
 
         return '01'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.model
     def _l10n_es_get_sujeto_tax_types(self):
@@ -67,4 +74,7 @@ class AccountTax(models.Model):
     @api.model
     def _l10n_es_get_main_tax_types(self):
         return {'exento', 'sujeto', 'sujeto_agricultura', 'sujeto_isp', 'no_sujeto', 'no_sujeto_loc', 'no_deducible'}
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -5,13 +5,19 @@ import { patch } from "@web/core/utils/patch";
 
 patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     onMounted() {
         super.onMounted();
         if (this.pos.isPeruvianCompany()) {
             this.currentOrder.set_to_invoice(true);
         }
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     async _isOrderValid(isForceValidate) {
         const res = await super._isOrderValid(...arguments);

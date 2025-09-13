@@ -6,6 +6,10 @@
 # Wil Odoo, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -19,9 +23,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"POT-Creation-Date: 2025-05-23 18:40+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-23 18:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -60,7 +70,10 @@ msgid ""
 "    </t>\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 "    Здравствуйте, <t t-out=\"object.partner_id.name or object.partner_name or ''\">Брэндон Фримен</t>!<br/>\n"
 "    Рады сообщить, что ваша заявка <t t-out=\"object.name or ''\">О чем это мероприятие</t> была принята и подтверждена для мероприятия <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t>.\n"
@@ -77,6 +90,9 @@ msgstr ""
 "        <br/>\n"
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Митчелл Админ</t>\n"
 "    </t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
@@ -84,7 +100,11 @@ msgstr ""
 #: code:addons/website_event_track/models/website.py:0
 msgid "\"Events App Name\" field is required."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "поле \"Название приложения Events\" является обязательным."
+=======
+msgstr "Поле «Название модуля Мероприятия» является обязательным. "
+>>>>>>> upstream/18.0
 =======
 msgstr "Поле «Название модуля Мероприятия» является обязательным. "
 >>>>>>> upstream/18.0
@@ -94,7 +114,11 @@ msgstr "Поле «Название модуля Мероприятия» явл
 #: model:ir.model.fields,field_description:website_event_track.field_website_visitor__event_track_wishlisted_count
 msgid "# Wishlisted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# Wishlisted"
+=======
+msgstr "# в избранном "
+>>>>>>> upstream/18.0
 =======
 msgstr "# в избранном "
 >>>>>>> upstream/18.0
@@ -116,7 +140,11 @@ msgstr "%(name)s, %(function)s в %(company)s"
 #: code:addons/website_event_track/models/website.py:0
 msgid "%s Events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s событий"
+=======
+msgstr "%s мероприятия"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s мероприятия"
 >>>>>>> upstream/18.0
@@ -207,11 +235,17 @@ msgid ""
 "                                </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
 "                                    <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"Error\" title=\"Ошибка\"/>\n"
 "                                    <span class=\"o_wetrack_proposal_error_message\"/>\n"
 "                                </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
@@ -221,6 +255,11 @@ msgid ""
 "                                        <span>*</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_wetrack_proposal_label_content\">Описание выступления</span>\n"
+"                                        <span>*</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_wetrack_proposal_label_content\">Описание выступления</span>\n"
 "                                        <span>*</span>"
@@ -233,6 +272,11 @@ msgid ""
 "                                        <span>*</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_wetrack_proposal_label_content\">Название выступления</span>\n"
+"                                        <span>*</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_wetrack_proposal_label_content\">Название выступления</span>\n"
 "                                        <span>*</span>"
@@ -242,7 +286,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_main
 msgid "<span class=\"text-muted\"> tracks</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\"> метки</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\"> метки</span>"
 >>>>>>> upstream/18.0
@@ -469,7 +517,11 @@ msgstr "Доступные теги треков"
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_online
 msgid "Available on all event Agenda pages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступно на всех страницах с описанием программы мероприятия"
+>>>>>>> upstream/18.0
 =======
 msgstr "Доступно на всех страницах с описанием программы мероприятия"
 >>>>>>> upstream/18.0
@@ -478,7 +530,11 @@ msgstr "Доступно на всех страницах с описанием 
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_main
 msgid "Back to All Talks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Назад ко всем выступлениям"
+>>>>>>> upstream/18.0
 =======
 msgstr "Назад ко всем выступлениям"
 >>>>>>> upstream/18.0
@@ -557,7 +613,11 @@ msgstr "Отменен"
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__is_cancel
 msgid "Cancelled Stage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Этап «Отменено»"
+>>>>>>> upstream/18.0
 =======
 msgstr "Этап «Отменено»"
 >>>>>>> upstream/18.0
@@ -699,7 +759,11 @@ msgstr "Создание метки трека"
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -713,7 +777,11 @@ msgstr "Создано:"
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -735,6 +803,11 @@ msgid ""
 "OF ALL EVENTS"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ПЕРЕТАЩИТЕ БЛОКИ СЮДА, ЧТОБЫ ОНИ БЫЛИ ДОСТУПНЫ НА СТРАНИЦАХ ЗАЯВОК ДЛЯ ВСЕХ "
+"МЕРОПРИЯТИЙ"
+>>>>>>> upstream/18.0
 =======
 "ПЕРЕТАЩИТЕ БЛОКИ СЮДА, ЧТОБЫ ОНИ БЫЛИ ДОСТУПНЫ НА СТРАНИЦАХ ЗАЯВОК ДЛЯ ВСЕХ "
 "МЕРОПРИЯТИЙ"
@@ -886,7 +959,11 @@ msgstr "Ошибка"
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Событие"
+=======
+msgstr "Мероприятие"
+>>>>>>> upstream/18.0
 =======
 msgstr "Мероприятие"
 >>>>>>> upstream/18.0
@@ -895,7 +972,11 @@ msgstr "Мероприятие"
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_location_tree
 msgid "Event Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Место проведения события"
+=======
+msgstr "Место проведения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Место проведения"
 >>>>>>> upstream/18.0
@@ -910,7 +991,11 @@ msgstr "Места проведения мероприятия"
 #: model_terms:ir.ui.view,arch_db:website_event_track.snippet_options
 msgid "Event Page"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Страница событий"
+=======
+msgstr "Страница мероприятия"
+>>>>>>> upstream/18.0
 =======
 msgstr "Страница мероприятия"
 >>>>>>> upstream/18.0
@@ -925,7 +1010,11 @@ msgstr "Меню предложений по проведению меропри
 #: model:ir.model,name:website_event_track.model_event_type
 msgid "Event Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Шаблон события"
+=======
+msgstr "Шаблон мероприятия"
+>>>>>>> upstream/18.0
 =======
 msgstr "Шаблон мероприятия"
 >>>>>>> upstream/18.0
@@ -936,7 +1025,11 @@ msgstr "Шаблон мероприятия"
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_tree
 msgid "Event Track"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Событийный трек"
+=======
+msgstr "Метки для мероприятия"
+>>>>>>> upstream/18.0
 =======
 msgstr "Метки для мероприятия"
 >>>>>>> upstream/18.0
@@ -950,7 +1043,11 @@ msgstr "Расположение трассы мероприятия"
 #: model:ir.model,name:website_event_track.model_event_track_stage
 msgid "Event Track Stage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Этап отслеживания события"
+=======
+msgstr "Этап отслеживания мероприятий"
+>>>>>>> upstream/18.0
 =======
 msgstr "Этап отслеживания мероприятий"
 >>>>>>> upstream/18.0
@@ -961,7 +1058,11 @@ msgstr "Этап отслеживания мероприятий"
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_tag_tree
 msgid "Event Track Tag"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Тег отслеживания событий"
+=======
+msgstr "Тег метки мероприятия"
+>>>>>>> upstream/18.0
 =======
 msgstr "Тег метки мероприятия"
 >>>>>>> upstream/18.0
@@ -970,7 +1071,11 @@ msgstr "Тег метки мероприятия"
 #: model:ir.model,name:website_event_track.model_event_track_tag_category
 msgid "Event Track Tag Category"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Категория тега \"Событие"
+=======
+msgstr "Категория тега метки мероприятия"
+>>>>>>> upstream/18.0
 =======
 msgstr "Категория тега метки мероприятия"
 >>>>>>> upstream/18.0
@@ -982,7 +1087,11 @@ msgstr "Категория тега метки мероприятия"
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Event Tracks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дорожки событий"
+=======
+msgstr "Метки мероприятия"
+>>>>>>> upstream/18.0
 =======
 msgstr "Метки мероприятия"
 >>>>>>> upstream/18.0
@@ -992,7 +1101,11 @@ msgstr "Метки мероприятия"
 #: model:ir.model.fields.selection,name:website_event_track.selection__website_event_menu__menu_type__track
 msgid "Event Tracks Menus"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Меню \"Дорожки событий"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1006,7 +1119,11 @@ msgstr "Подведение итогов мероприятия"
 #: model:mail.template,name:website_event_track.mail_template_data_track_confirmation
 msgid "Event: Track Confirmation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Событие: Подтверждение трека"
+=======
+msgstr "Мероприятие: Подтверждение метки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Мероприятие: Подтверждение метки"
 >>>>>>> upstream/18.0
@@ -1021,7 +1138,11 @@ msgstr "Название приложения Events"
 #: model_terms:ir.ui.view,arch_db:website_event_track.res_config_settings_view_form
 msgid "Events PWA"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "События PWA"
+=======
+msgstr "Мобильная версия модуля Мероприятия (PWA)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Мобильная версия модуля Мероприятия (PWA)"
 >>>>>>> upstream/18.0
@@ -1042,7 +1163,11 @@ msgstr "Избранное"
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_topbar
 msgid "Filter Tracks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Фильтр меток"
+>>>>>>> upstream/18.0
 =======
 msgstr "Фильтр меток"
 >>>>>>> upstream/18.0
@@ -1446,7 +1571,11 @@ msgstr "Кухни будущего"
 msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -1464,7 +1593,11 @@ msgstr "Последнее обновление:"
 msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -1666,7 +1799,11 @@ msgstr "Новый трек"
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Следующее событие календаря активности"
+=======
+msgstr "Следующее дело в календаре"
+>>>>>>> upstream/18.0
 =======
 msgstr "Следующее дело в календаре"
 >>>>>>> upstream/18.0
@@ -1817,7 +1954,11 @@ msgstr "Предложение"
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Proposals are closed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Прием заявок завершен."
+>>>>>>> upstream/18.0
 =======
 msgstr "Прием заявок завершен."
 >>>>>>> upstream/18.0
@@ -1930,7 +2071,11 @@ msgstr "Ошибка доставки SMS"
 #: model_terms:ir.ui.view,arch_db:website_event_track.session_topbar
 msgid "Search a talk ..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поиск выступления..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Поиск выступления..."
 >>>>>>> upstream/18.0
@@ -1945,7 +2090,11 @@ msgstr "Обеспечение сохранности пиломатериало
 #: code:addons/website_event_track/static/src/js/website_event_track_proposal_form_tags.js:0
 msgid "Select Categories"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выбор категорий"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выбор категорий"
 >>>>>>> upstream/18.0
@@ -2415,8 +2564,13 @@ msgid ""
 "tracks have been wishlisted."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Отслеживайте посетителей и храните статистику ваших событий, включая "
 "количество желаемых треков."
+=======
+"Метки собирают статистику по посетителям вашего мероприятия, включая "
+"количество добавлений в избранное."
+>>>>>>> upstream/18.0
 =======
 "Метки собирают статистику по посетителям вашего мероприятия, включая "
 "количество добавлений в избранное."
@@ -2488,7 +2642,10 @@ msgstr "Непрочитанные сообщения"
 #. module: website_event_track
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -2497,14 +2654,20 @@ msgstr "Непрочитанные сообщения"
 msgid "Unsupported 'Not In' operation on track wishlist visitors"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: website_event_track
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Операция «Не входит в» не поддерживается для посетителей, которые добавили "
 "мероприятие в избранное"
 
 #. module: website_event_track
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
@@ -2596,7 +2759,10 @@ msgid ""
 "                                inclusion in the programme."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Мы принимаем широкий спектр\n"
 "                                презентаций – от академических\n"
 "                                коммерческих докладов до обучающих\n"
@@ -2604,6 +2770,9 @@ msgstr ""
 "                                интересная и потенциально полезная\n"
 "                                презентация будет рассмотрена для\n"
 "                                включения в программу."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
@@ -2616,7 +2785,11 @@ msgstr "Мы оценим ваше предложение и свяжемся с
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "We're sorry, this event does not accept proposals anymore"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "К сожалению, это мероприятие больше не принимает заявки"
+>>>>>>> upstream/18.0
 =======
 msgstr "К сожалению, это мероприятие больше не принимает заявки"
 >>>>>>> upstream/18.0

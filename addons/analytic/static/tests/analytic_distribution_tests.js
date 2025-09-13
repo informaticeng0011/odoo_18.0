@@ -65,6 +65,7 @@ QUnit.module("Analytic", (hooks) => {
                         all_account_count: { type: "integer" },
                         parent_id: { type: "many2one", relation: "plan" },
 <<<<<<< HEAD
+<<<<<<< HEAD
                     },
                     records: [
                         { id: 1, name: "Internal", applicability: "optional", all_account_count: 2 },
@@ -74,6 +75,8 @@ QUnit.module("Analytic", (hooks) => {
                         { id: 5, name: "Country", applicability: "optional", all_account_count: 3 },
                         { id: 6, name: "City", applicability: "optional", all_account_count: 2, parent_id: 5 },
 =======
+=======
+>>>>>>> upstream/18.0
                         column_name: { type: "char" },
                     },
                     records: [
@@ -83,6 +86,9 @@ QUnit.module("Analytic", (hooks) => {
                         { id: 4, name: "Hidden", applicability: "unavailable", all_account_count: 1, column_name: 'x_plan4_id' },
                         { id: 5, name: "Country", applicability: "optional", all_account_count: 3, column_name: 'x_plan5_id' },
                         { id: 6, name: "City", applicability: "optional", all_account_count: 2, parent_id: 5, column_name: 'x_plan5_id' },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     ],
                 },
@@ -112,7 +118,11 @@ QUnit.module("Analytic", (hooks) => {
                 move: {
                     fields: {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         line_ids: { string: "Move Lines", type: "one2many", relation: "aml", relation_field: "move_line_id" },
+=======
+                        line_ids: { string: "Move Lines", type: "one2many", relation: "aml", relation_field: "move_id" },
+>>>>>>> upstream/18.0
 =======
                         line_ids: { string: "Move Lines", type: "one2many", relation: "aml", relation_field: "move_id" },
 >>>>>>> upstream/18.0
@@ -178,7 +188,11 @@ QUnit.module("Analytic", (hooks) => {
         await click(field, ".o_input_dropdown");
         assert.containsN(target, ".analytic_distribution_popup", 1, "popup should be visible");
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -199,7 +213,11 @@ QUnit.module("Analytic", (hooks) => {
         let input = document.activeElement;
         await editInput(input, null, "19.7001");
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -289,7 +307,11 @@ QUnit.module("Analytic", (hooks) => {
         await selectDropdownItem(planTable.querySelector("tr[name='line_2']"), "x_plan5_id", "Search More...");
         assert.containsN(target, ".modal-dialog .o_list_renderer", 1, "select create list dialog is visible");
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -428,7 +450,10 @@ QUnit.module("Analytic", (hooks) => {
     QUnit.test("save as model", (assert) => { assert.expect(0) });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     QUnit.test("analytic distribution popup closes when inside modal and clicking outside", async function (assert) {
         assert.expect(2);
 
@@ -479,5 +504,8 @@ QUnit.module("Analytic", (hooks) => {
 
         modal.remove();
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

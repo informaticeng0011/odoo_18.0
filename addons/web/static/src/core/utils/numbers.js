@@ -212,12 +212,15 @@ export function humanNumber(number, options = { decimals: 0, minDigits: 1 }) {
  */
 export function formatFloat(value, options = {}) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (options.humanReadable) {
         return humanNumber(value, options);
     }
     const grouping = options.grouping || l10n.grouping;
     const thousandsSep = "thousandsSep" in options ? options.thousandsSep : l10n.thousandsSep;
     const decimalPoint = "decimalPoint" in options ? options.decimalPoint : l10n.decimalPoint;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     let precision;
@@ -227,7 +230,10 @@ export function formatFloat(value, options = {}) {
         precision = 2;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     if (floatIsZero(value, precision)) {
         value = 0.0;
     }
@@ -237,6 +243,9 @@ export function formatFloat(value, options = {}) {
     const grouping = options.grouping || l10n.grouping;
     const thousandsSep = "thousandsSep" in options ? options.thousandsSep : l10n.thousandsSep;
     const decimalPoint = "decimalPoint" in options ? options.decimalPoint : l10n.decimalPoint;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const formatted = value.toFixed(precision).split(".");
     formatted[0] = insertThousandsSep(formatted[0], thousandsSep, grouping);

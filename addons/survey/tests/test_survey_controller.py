@@ -2,7 +2,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command
+=======
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, fields
 >>>>>>> upstream/18.0
@@ -108,7 +112,10 @@ class TestSurveyController(common.TestSurveyCommon, HttpCase):
 
                 user_input.invalidate_recordset() # TDE note: necessary as lots of sudo in controllers messing with cache
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_live_session_without_question(self):
         """Test that the live session ('Thank You' page) does not crash when no question is present."""
@@ -125,4 +132,7 @@ class TestSurveyController(common.TestSurveyCommon, HttpCase):
         session_manage_url = f'/survey/session/manage/{survey.access_token}'
         response = self.url_open(session_manage_url)
         self.assertEqual(response.status_code, 200, "Should be able to open live session manage page")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

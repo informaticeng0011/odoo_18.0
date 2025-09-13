@@ -277,11 +277,14 @@ const priorityRestoreStateRules = [
         // Replace a space by &nbsp; when it was visible thanks to a BR which
         // is now gone.
 <<<<<<< HEAD
+<<<<<<< HEAD
         { direction: DIRECTIONS.RIGHT, cType1: CTGROUPS.BR, cType2: CTYPES.SPACE | CTGROUPS.BLOCK },
         { spaceVisibility: true },
     ],
     [
 =======
+=======
+>>>>>>> upstream/18.0
         { direction: DIRECTIONS.RIGHT, cType1: CTGROUPS.BR, cType2: CTYPES.SPACE },
         { spaceVisibility: true },
     ],
@@ -293,6 +296,9 @@ const priorityRestoreStateRules = [
         { spaceVisibility: true, brVisibility: true },
     ],
     [
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // Remove all collapsed spaces when a space is removed.
         { cType1: CTYPES.SPACE },

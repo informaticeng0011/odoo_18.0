@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* analytic
 # 
 # Translators:
@@ -384,6 +385,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * analytic
 #
 # Translators:
@@ -391,11 +394,15 @@
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 # Manon Rondou, 2025
 # "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -707,6 +714,8 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-15 18:36+0000\n"
 "PO-Revision-Date: 2025-08-20 13:43+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
@@ -718,6 +727,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: analytic
@@ -728,13 +740,19 @@ msgstr "%s (kopie)"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/analytic/models/analytic_line.py:0
 msgid "%s analytic lines created"
 msgstr "%s analytische regels aangemaakt"
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "<span class=\"o_stat_text\">Analytic Accounts</span>"
@@ -851,6 +869,10 @@ msgstr "Aantal analytische rekeningen"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_distribution
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
 >>>>>>> upstream/18.0
@@ -926,6 +948,10 @@ msgstr "Analytische dimensies"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_precision
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
 >>>>>>> upstream/18.0
@@ -1210,13 +1236,19 @@ msgstr "Domein"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Don't update"
 msgstr "Niet bijwerken"
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.analytic.account,name:analytic.analytic_rd_finance
 msgid "Finance"
@@ -1284,7 +1316,12 @@ msgstr "Indien aangevinkt hebben sommige berichten een leveringsfout."
 msgid ""
 "In Odoo, sales orders and projects are implemented using\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                analytic accounts. You can track costs and revenues to analyse\n"
+=======
+"                analytic accounts. You can track costs and revenues to "
+"analyse\n"
+>>>>>>> upstream/18.0
 =======
 "                analytic accounts. You can track costs and revenues to "
 "analyse\n"
@@ -1366,13 +1403,19 @@ msgstr "Diversen"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Multi edit"
 msgstr "Meervoudig bewerken"
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__name
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_list
@@ -1534,6 +1577,7 @@ msgstr "Research & Development"
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "Revenues will be created automatically when you create customer\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                invoices. Customer invoices can be created based on sales orders\n"
 "                (fixed price invoices), on timesheets (based on the work done) or\n"
@@ -1818,6 +1862,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 "aanmaakt. Verkoopfacturen kunnen gebaseerd zijn op verkopen (met vaste prijs),\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                invoices. Customer invoices can be created based on sales "
 "orders\n"
 "                (fixed price invoices), on timesheets (based on the work "
@@ -1827,6 +1873,9 @@ msgstr ""
 "Omzet worden automatisch aangemaakt wanneer je klantfacturen\n"
 "aanmaakt. Verkoopfacturen kunnen gebaseerd zijn op verkopen (met vaste "
 "prijs),\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "op urenstaten (gebaseerd op de geleverde prestaties) of op declaraties\n"
 "(bijv. herfactureren van reiskosten)."
@@ -1943,13 +1992,19 @@ msgstr "Maateenheid categorie"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Update"
 msgstr "Bijwerken"
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__user_id
 msgid "User"
@@ -1960,8 +2015,13 @@ msgstr "Gebruiker"
 #: code:addons/analytic/models/analytic_account.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Whoa there! Making this change would wipe out your current data. Let's avoid"
 " that, shall we?"
+=======
+"Whoa there! Making this change would wipe out your current data. Let's avoid "
+"that, shall we?"
+>>>>>>> upstream/18.0
 =======
 "Whoa there! Making this change would wipe out your current data. Let's avoid "
 "that, shall we?"
@@ -1995,8 +2055,13 @@ msgid ""
 msgstr ""
 "Je hebt een verdeling gedefinieerd met analytische rekening(en) die behoren "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "tot een specifiek bedrijf, maar een model dat wordt gedeeld tussen bedrijven"
 " of met een ander bedrijf."
+=======
+"tot een specifiek bedrijf, maar een model dat wordt gedeeld tussen bedrijven "
+"of met een ander bedrijf."
+>>>>>>> upstream/18.0
 =======
 "tot een specifiek bedrijf, maar een model dat wordt gedeeld tussen bedrijven "
 "of met een ander bedrijf."

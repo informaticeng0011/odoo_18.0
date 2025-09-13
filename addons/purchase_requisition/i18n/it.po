@@ -7,6 +7,10 @@
 # Wil Odoo, 2024
 # Marianna Ciofani, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -18,7 +22,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Marianna Ciofani, 2024\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -43,7 +51,11 @@ msgstr "500 $"
 #: model:ir.actions.report,print_report_name:purchase_requisition.action_report_purchase_requisitions
 msgid "'Purchase Agreement - %s' % (object.name)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "\"Contratto d'acquisto-%s\" % (object.name)"
+=======
+msgstr "\"Contratto di acquisto - %s\" % (object.name)"
+>>>>>>> upstream/18.0
 =======
 msgstr "\"Contratto di acquisto - %s\" % (object.name)"
 >>>>>>> upstream/18.0
@@ -141,7 +153,11 @@ msgstr "Validità accordo:"
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_alternative_warning__alternative_po_ids
 msgid "Alternative POs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ordini di acquisto alternativi"
+=======
+msgstr "OdA alternativi"
+>>>>>>> upstream/18.0
 =======
 msgstr "OdA alternativi"
 >>>>>>> upstream/18.0
@@ -165,7 +181,11 @@ msgstr "Alternative"
 #: model_terms:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
 msgid "An example of a purchase agreement is a blanket order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Un esempio di contratto d'acquisto è l'accordo quadro."
+=======
+msgstr "Un esempio di contratto di acquisto è l'ordine quadro."
+>>>>>>> upstream/18.0
 =======
 msgstr "Un esempio di contratto di acquisto è l'ordine quadro."
 >>>>>>> upstream/18.0
@@ -205,7 +225,11 @@ msgstr "Ordine quadro"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Blanket Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ordini aperti"
+=======
+msgstr "Ordini quadro"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ordini quadro"
 >>>>>>> upstream/18.0
@@ -231,7 +255,11 @@ msgstr "Elimina alternative"
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition__state__cancel
 msgid "Cancelled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Annullata"
+=======
+msgstr "Annullato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Annullato"
 >>>>>>> upstream/18.0
@@ -241,7 +269,11 @@ msgstr "Annullato"
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "Cancelled by the agreement associated to this quotation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Annullato dal contratto associato a questo preventivo"
+=======
+msgstr "Annullato dal contratto associato a questo preventivo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Annullato dal contratto associato a questo preventivo."
 >>>>>>> upstream/18.0
@@ -332,7 +364,11 @@ msgstr "Conferma"
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition__state__confirmed
 msgid "Confirmed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Confermata"
+=======
+msgstr "Confermato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confermato"
 >>>>>>> upstream/18.0
@@ -442,7 +478,11 @@ msgstr "Distribuzione conto analitico"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Done"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Completata"
+=======
+msgstr "Completato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Completato"
 >>>>>>> upstream/18.0
@@ -496,9 +536,15 @@ msgid ""
 "            from the negotiated prices."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Per un ordine aperto è possibile siglare un accordo per un periodo specifico\n"
 "            (ad es. un anno) così da poter ordinare prodotti nell'ambito  dell'accordo per beneficiare\n"
 "            di prezzi negoziati."
+=======
+"Per un ordine quadro è possibile registrare un contratto per un periodo\n"
+"            specifico (es. un anno), ordinando i prodotti all'interno dell'accordo e beneficiando\n"
+"            dei prezzi negoziati."
+>>>>>>> upstream/18.0
 =======
 "Per un ordine quadro è possibile registrare un contratto per un periodo\n"
 "            specifico (es. un anno), ordinando i prodotti all'interno dell'accordo e beneficiando\n"
@@ -759,7 +805,11 @@ msgstr "Altri ordini di acquisto potenziali per acquistare prodotti"
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_alternative_warning__po_ids
 msgid "POs to Confirm"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ordini di acquisto da confermare"
+=======
+msgstr "OdA da confermare"
+>>>>>>> upstream/18.0
 =======
 msgstr "OdA da confermare"
 >>>>>>> upstream/18.0

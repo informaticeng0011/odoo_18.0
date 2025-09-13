@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* gamification
 # 
+=======
+# * gamification
+#
+>>>>>>> upstream/18.0
 =======
 # * gamification
 #
@@ -12,7 +17,13 @@
 # Martin Trigaux, 2024
 # Larissa Manderfeld, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+# "Jonathan Quique (jqu)" <jqu@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 #
 # "Jonathan Quique (jqu)" <jqu@odoo.com>, 2025.
@@ -24,6 +35,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/odoo/teams/41243/es/)\n"
@@ -33,6 +45,8 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-25 10:08+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/"
@@ -44,6 +58,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -73,8 +90,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__user_count
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__rank_users_count
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "# Users"
 msgstr "# Usuarios"
+=======
+#, fuzzy
+msgid "# Users"
+msgstr "N.° de usuarios"
+>>>>>>> upstream/18.0
 =======
 #, fuzzy
 msgid "# Users"
@@ -595,6 +618,7 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"background-color: #EEE; border-collapse: collapse;\">\n"
 "<tr>\n"
 "    <td valign=\"top\" align=\"center\">\n"
@@ -603,6 +627,8 @@ msgstr ""
 "        <t t-set=\"challenge_lines\" t-value=\"ctx.get('challenge_lines', [])\"/>\n"
 "        <table cellspacing=\"0\" cellpadding=\"0\" width=\"600\" style=\"margin: 0 auto; width: 570px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"background-"
 "color: #EEE; border-collapse: collapse;\">\n"
 "<tr>\n"
@@ -614,21 +640,30 @@ msgstr ""
 "\"ctx.get('challenge_lines', [])\"/>\n"
 "        <table cellspacing=\"0\" cellpadding=\"0\" width=\"600\" style="
 "\"margin: 0 auto; width: 570px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            <tr><td>\n"
 "                <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\">\n"
 "                    <tr>\n"
 "                        <div>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <t t-if=\"object.visibility_mode == 'ranking'\">\n"
 "                                <td style=\"padding:15px;\">\n"
 "                                    <p style=\"font-size:20px;color:#666666;\" align=\"center\">Tabla de clasificación</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            <t t-if=\"object.visibility_mode == 'ranking'\">"
 "\n"
 "                                <td style=\"padding:15px;\">\n"
 "                                    <p style=\"font-size:20px;color:#666666;"
 "\" align=\"center\">Tabla de clasificación</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </td>\n"
 "                            </t>\n"
@@ -636,12 +671,15 @@ msgstr ""
 "                    </tr>\n"
 "                </table>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" bgcolor=\"#fff\" style=\"background-color:#fff;\">\n"
 "                    <tr><td style=\"padding: 15px;\">\n"
 "                        <t t-if=\"object.visibility_mode == 'personal'\">\n"
 "                            <span style=\"color:#666666;font-size:13px;\">Aquí está su progreso actual en el desafío <strong t-out=\"object.name or ''\"/>.</span>\n"
 "                            <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"margin-top:20px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" "
 "bgcolor=\"#fff\" style=\"background-color:#fff;\">\n"
 "                    <tr><td style=\"padding: 15px;\">\n"
@@ -651,6 +689,9 @@ msgstr ""
 "\"object.name or ''\"/>.</span>\n"
 "                            <table cellspacing=\"0\" cellpadding=\"0\" width="
 "\"100%\" style=\"margin-top:20px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                <tr>\n"
 "                                    <td align=\"center\">\n"
@@ -658,6 +699,7 @@ msgstr ""
 "                                    </td>\n"
 "                                </tr>\n"
 "                            </table>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                            <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"margin-top:30px;color:#666666;\">\n"
 "                                <thead>\n"
@@ -690,6 +732,8 @@ msgstr ""
 "                                    <tr>\n"
 "                                        <td colspan=\"5\" style=\"height:1px;background-color:#e3e3e3;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            <table cellspacing=\"0\" cellpadding=\"0\" width="
 "\"100%\" style=\"margin-top:30px;color:#666666;\">\n"
 "                                <thead>\n"
@@ -739,6 +783,9 @@ msgstr ""
 "                                    <tr>\n"
 "                                        <td colspan=\"5\" style="
 "\"height:1px;background-color:#e3e3e3;\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                    </tr>\n"
 "                                </tbody>\n"
@@ -746,6 +793,7 @@ msgstr ""
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            <span style=\"color:#A8A8A8;font-size:13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                Desafío: <strong t-out=\"object.name or ''\"/>.\n"
 "                            </span> \n"
@@ -756,6 +804,8 @@ msgstr ""
 "                                        <td width=\"50%\">\n"
 "                                            <div>Mejores ganadores para la meta <strong t-out=\"line['name'] or ''\"/></div>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                Desafío: <strong t-out=\"object.name or ''\""
 "/>.\n"
 "                            </span> \n"
@@ -767,12 +817,16 @@ msgstr ""
 "                                        <td width=\"50%\">\n"
 "                                            <div>Mejores ganadores para la "
 "meta <strong t-out=\"line['name'] or ''\"/></div>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                        </td>\n"
 "                                    </tr>\n"
 "                                </table>\n"
 "                                <!-- Podio -->\n"
 "                                <t t-if=\"len(line['goals']) == 2\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                    <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"margin-top:10px;\">\n"
 "                                        <tr><td style=\"padding:0 30px;\">\n"
@@ -823,6 +877,8 @@ msgstr ""
 "                                                                    <t t-if=\"line['suffix'] or line['monetary']\">\n"
 "                                                                        <t t-out=\"line['full_suffix'] or ''\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <table cellspacing=\"0\" cellpadding="
 "\"0\" width=\"100%\" style=\"margin-top:10px;\">\n"
 "                                        <tr><td style=\"padding:0 30px;\">\n"
@@ -915,6 +971,9 @@ msgstr ""
 "\"line['suffix'] or line['monetary']\">\n"
 "                                                                        <t "
 "t-out=\"line['full_suffix'] or ''\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                                                    </t>\n"
 "                                                                </div>\n"
@@ -928,6 +987,7 @@ msgstr ""
 "                                    </table>\n"
 "                                </t>\n"
 "                                <!-- Tabla de datos -->\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"margin-bottom:5px\">\n"
 "                                    <tr>\n"
@@ -967,6 +1027,8 @@ msgstr ""
 "                                                    <tr>\n"
 "                                                        <td colspan=\"5\" style=\"height:1px;background-color:#DADADA;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                <table cellspacing=\"0\" cellpadding=\"0\" "
 "width=\"100%\" style=\"margin-bottom:5px\">\n"
 "                                    <tr>\n"
@@ -1036,6 +1098,9 @@ msgstr ""
 "                                                    <tr>\n"
 "                                                        <td colspan=\"5\" "
 "style=\"height:1px;background-color:#DADADA;\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                                    </tr>\n"
 "                                                </tbody>\n"
@@ -1571,7 +1636,11 @@ msgstr "Modo de visualización"
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0

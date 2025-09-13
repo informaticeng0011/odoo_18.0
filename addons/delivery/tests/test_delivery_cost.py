@@ -300,7 +300,10 @@ class TestDeliveryCost(DeliveryCommon, SaleCommon):
         self.assertEqual(shipping_weight, self.product.weight, "Only positive quantity products' weights should be included in estimated weight")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_get_invalid_delivery_weight_lines(self):
         """Ensure we can retrieve lines that contain physical products without a weight value."""
         order = self.empty_order
@@ -337,6 +340,9 @@ class TestDeliveryCost(DeliveryCommon, SaleCommon):
         self.assertEqual(len(error_lines), 1, "Only 1 line should have an invalid weight")
         self.assertTrue(error_lines.combo_item_id, "The erroneous line should be part of a combo")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_fixed_price_margins(self):
         """

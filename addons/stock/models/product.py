@@ -317,6 +317,7 @@ class Product(models.Model):
             loc_domain = [('location_id', 'in', locations.ids)]
             dest_loc_domain = [('location_dest_id', 'in', locations.ids)]
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif locations:
             paths_domain = expression.OR([[('parent_path', '=like', loc.parent_path + '%')] for loc in locations])
             loc_domain = [('location_id', 'any', paths_domain)]
@@ -326,6 +327,8 @@ class Product(models.Model):
                 '&', ('location_final_id', '=', False), ('location_dest_id', 'any', paths_domain),
             ]
 =======
+=======
+>>>>>>> upstream/18.0
             dest_loc_domain_out = [('location_dest_id', 'in', locations.ids)]
         elif locations:
             paths_domain = expression.OR([[('parent_path', '=like', loc.parent_path + '%')] for loc in locations])
@@ -348,6 +351,9 @@ class Product(models.Model):
                     '&', ('state', '=', 'done'), '!', dest_loc_domain_done,
                     '&', ('state', '!=', 'done'),
             ] + ['!'] + dest_loc_domain_in_progress
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         # returns: (domain_quant_loc, domain_move_in_loc, domain_move_out_loc)
@@ -355,7 +361,11 @@ class Product(models.Model):
             loc_domain,
             dest_loc_domain + ['!'] + loc_domain,
 <<<<<<< HEAD
+<<<<<<< HEAD
             loc_domain + ['!'] + dest_loc_domain,
+=======
+            loc_domain + dest_loc_domain_out,
+>>>>>>> upstream/18.0
 =======
             loc_domain + dest_loc_domain_out,
 >>>>>>> upstream/18.0
@@ -645,7 +655,10 @@ class Product(models.Model):
     def _get_dates_info(self, date, location, route_ids=False):
         rules = self._get_rules_from_location(location, route_ids=route_ids)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if self.env.context.get('exclude_inter_wh_rules') and any(
             loc.warehouse_id and loc.warehouse_id.lot_stock_id.parent_path in loc.parent_path
             for loc in rules.location_src_id
@@ -654,6 +667,9 @@ class Product(models.Model):
                 'date_planned': date,
                 'date_order': date,
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         delays, _ = rules.with_context(bypass_delay_description=True)._get_lead_days(self)
         return {

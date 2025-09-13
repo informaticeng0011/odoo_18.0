@@ -11,9 +11,13 @@ class HrOrgChartController(http.Controller):
 
     def _check_employee(self, employee_id, **kw):
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not employee_id:  # to check
             return None
         employee_id = int(employee_id)
+=======
+        employee_id = int(employee_id) if employee_id else False
+>>>>>>> upstream/18.0
 =======
         employee_id = int(employee_id) if employee_id else False
 >>>>>>> upstream/18.0
@@ -24,11 +28,17 @@ class HrOrgChartController(http.Controller):
         else:
             cids = [request.env.company.id]
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         Employee = request.env['hr.employee.public'].with_context(allowed_company_ids=cids)
         employee = Employee.browse(employee_id)
         # check and raise
         return employee if employee.has_access('read') else None
+=======
+        Employee = request.env['hr.employee.public'].with_context(allowed_company_ids=cids)
+        employee = Employee.browse(employee_id)
+        return employee if employee.has_access('read') else Employee.browse()
+>>>>>>> upstream/18.0
 =======
         Employee = request.env['hr.employee.public'].with_context(allowed_company_ids=cids)
         employee = Employee.browse(employee_id)
@@ -57,8 +67,14 @@ class HrOrgChartController(http.Controller):
     @http.route('/hr/get_org_chart', type='json', auth='user')
     def get_org_chart(self, employee_id, **kw):
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         employee = self._check_employee(employee_id, **kw)
+=======
+        employee = self._check_employee(employee_id, **kw)
+        new_parent_id = kw.get('context')['new_parent_id']
+        new_parent = self._check_employee(new_parent_id, **kw)
+>>>>>>> upstream/18.0
 =======
         employee = self._check_employee(employee_id, **kw)
         new_parent_id = kw.get('context')['new_parent_id']
@@ -73,10 +89,13 @@ class HrOrgChartController(http.Controller):
         # compute employee data for org chart
         ancestors, current = request.env['hr.employee.public'].sudo(), employee.sudo()
 <<<<<<< HEAD
+<<<<<<< HEAD
         while current.parent_id and len(ancestors) < self._managers_level+1 and current != current.parent_id:
             ancestors += current.parent_id
             current = current.parent_id
 =======
+=======
+>>>>>>> upstream/18.0
         current_parent = new_parent if new_parent_id is not None else current.parent_id
         max_level = (kw.get('context')['max_level'] or self._managers_level) + 1
         while current_parent and current != current_parent and employee.sudo() != current_parent and len(ancestors) < max_level:
@@ -85,6 +104,9 @@ class HrOrgChartController(http.Controller):
             if current_parent in ancestors:
                 break
             ancestors += current
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         values = dict(
@@ -93,7 +115,11 @@ class HrOrgChartController(http.Controller):
                 self._prepare_employee_data(ancestor)
                 for idx, ancestor in enumerate(ancestors)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if idx < self._managers_level
+=======
+                if idx < max_level - 1
+>>>>>>> upstream/18.0
 =======
                 if idx < max_level - 1
 >>>>>>> upstream/18.0

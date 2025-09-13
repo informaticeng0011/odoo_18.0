@@ -6,6 +6,10 @@ from . import test_recruitment
 from . import test_utm
 from . import test_recruitment_interviewer
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_recruitment_allowed_user_ids
+>>>>>>> upstream/18.0
 =======
 from . import test_recruitment_allowed_user_ids
 >>>>>>> upstream/18.0

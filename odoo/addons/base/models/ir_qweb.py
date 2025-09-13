@@ -426,6 +426,10 @@ _SAFE_QWEB_OPCODES = _EXPR_OPCODES.union(to_opcodes([
     'STORE_SUBSCR',
     'LOAD_GLOBAL',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'EXTENDED_ARG',
+>>>>>>> upstream/18.0
 =======
     'EXTENDED_ARG',
 >>>>>>> upstream/18.0
@@ -1749,7 +1753,11 @@ class IrQWeb(models.AbstractModel):
             self._append_text(el.text, compile_context)
         body = []
 <<<<<<< HEAD
+<<<<<<< HEAD
         for item in el:
+=======
+        for item in list(el):
+>>>>>>> upstream/18.0
 =======
         for item in list(el):
 >>>>>>> upstream/18.0

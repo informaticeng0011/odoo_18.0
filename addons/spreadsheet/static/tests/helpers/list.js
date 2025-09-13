@@ -17,10 +17,13 @@ import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
  * @param {[number, number]} [params.position]
  * @param {string} [params.sheetId]
 <<<<<<< HEAD
+<<<<<<< HEAD
  */
 export function insertListInSpreadsheet(model, params) {
     const { definition, columns } = generateListDefinition(params.model, params.columns);
 =======
+=======
+>>>>>>> upstream/18.0
  * @param {{name: string, asc: boolean}[]} [params.orderBy]
  */
 export function insertListInSpreadsheet(model, params) {
@@ -29,6 +32,9 @@ export function insertListInSpreadsheet(model, params) {
         params.columns,
         params.orderBy
     );
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const [col, row] = params.position || [0, 0];
 
@@ -54,6 +60,10 @@ export function insertListInSpreadsheet(model, params) {
  * @param {[number, number]} [params.position]
  * @param {string} [params.sheetId]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @param {{name: string, asc: boolean}[]} [params.orderBy]
+>>>>>>> upstream/18.0
 =======
  * @param {{name: string, asc: boolean}[]} [params.orderBy]
 >>>>>>> upstream/18.0
@@ -73,6 +83,10 @@ export async function createSpreadsheetWithList(params = {}) {
         position: params.position,
         sheetId: params.sheetId,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        orderBy: params.orderBy,
+>>>>>>> upstream/18.0
 =======
         orderBy: params.orderBy,
 >>>>>>> upstream/18.0

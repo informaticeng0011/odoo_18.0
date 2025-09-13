@@ -252,7 +252,10 @@ class TestPricelist(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -431,6 +434,7 @@ class TestPricelist(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -537,6 +541,8 @@ class TestPricelist(ProductCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_sync_parent_pricelist(self):
         """Check that adding a parent to a partner updates the partner's pricelist."""
@@ -580,4 +586,7 @@ class TestPricelist(ProductCommon):
             company_2_b2b_pl,
             "Assigning pricelists in one company shouldn't impact pricelists in other companies",
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

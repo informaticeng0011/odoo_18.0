@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* account_debit_note
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: nl\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-05 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2024\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -58,8 +70,13 @@ msgstr "Annuleren"
 #: model:ir.model.fields,help:account_debit_note.field_account_journal__debit_sequence
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Check this box if you don't want to share the same sequence for invoices and"
 " debit notes made from this journal"
+=======
+"Check this box if you don't want to share the same sequence for invoices and "
+"debit notes made from this journal"
+>>>>>>> upstream/18.0
 =======
 "Check this box if you don't want to share the same sequence for invoices and "
 "debit notes made from this journal"
@@ -145,8 +162,12 @@ msgid ""
 msgstr ""
 "Als je voor elke regel correcties moet aanbrengen, kan het handig zijn om "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "deze te kopiëren. We kopiëren ze niet voor debetfacturen van creditfacturen."
 " "
+=======
+"deze te kopiëren. We kopiëren ze niet voor debetfacturen van creditfacturen. "
+>>>>>>> upstream/18.0
 =======
 "deze te kopiëren. We kopiëren ze niet voor debetfacturen van creditfacturen. "
 >>>>>>> upstream/18.0
@@ -221,7 +242,11 @@ msgstr "De debetfacturengemaakt voor deze factuur"
 #. module: account_debit_note
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
+=======
+#: code:addons/account_debit_note/models/account_move.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/account_debit_note/models/account_move.py:0
 >>>>>>> upstream/18.0
@@ -242,8 +267,12 @@ msgid ""
 msgstr ""
 "Je kunt enkel een debetfactuur aanmaken voor een klantfactuur, een "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "klantcreditfactuur, een leveranciersfactuur of een "
 "leverancierscreditfactuur."
+=======
+"klantcreditfactuur, een leveranciersfactuur of een leverancierscreditfactuur."
+>>>>>>> upstream/18.0
 =======
 "klantcreditfactuur, een leveranciersfactuur of een leverancierscreditfactuur."
 >>>>>>> upstream/18.0
@@ -259,8 +288,13 @@ msgstr "Je kunt alleen geboekte boekingen debiteren."
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't make a debit note for an invoice that is already linked to a debit"
 " note."
+=======
+"You can't make a debit note for an invoice that is already linked to a debit "
+"note."
+>>>>>>> upstream/18.0
 =======
 "You can't make a debit note for an invoice that is already linked to a debit "
 "note."

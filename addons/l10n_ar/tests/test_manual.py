@@ -280,7 +280,11 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_16_invoice_b_tax_breakdown_1(self):
+=======
+    def test_18_invoice_b_tax_breakdown_1(self):
+>>>>>>> upstream/18.0
 =======
     def test_18_invoice_b_tax_breakdown_1(self):
 >>>>>>> upstream/18.0
@@ -697,6 +701,7 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_17_invoice_b_tax_breakdown_2(self):
 =======
     def test_19_invoice_b_tax_breakdown_2(self):
@@ -953,6 +958,8 @@ class TestManual(common.TestAr):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_19_invoice_b_tax_breakdown_2(self):
         """ Display only Other Taxes (VAT taxes are 0) """
         invoice = self._create_invoice_from_dict({
@@ -970,6 +977,9 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1025,9 +1035,12 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name': 'Other National Ind. Taxes $',
             },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1075,6 +1088,9 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1200,6 +1216,7 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1350,6 +1367,8 @@ class TestManual(common.TestAr):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1419,6 +1438,9 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1565,6 +1587,9 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

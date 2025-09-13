@@ -6,7 +6,11 @@
                 <input t-attf-id="{{ props.recipient.id }}_checkbox" class="form-check-input" type="checkbox" t-att-checked="props.recipient.checked" t-on-change="onChangeCheckbox"/>
                 <label class="form-check-label" t-attf-for="{{ props.recipient.id }}_checkbox">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-if="props.recipient.name" t-esc="props.recipient.name"/>
+=======
+                    <t t-if="name" t-esc="name"/>
+>>>>>>> upstream/18.0
 =======
                     <t t-if="name" t-esc="name"/>
 >>>>>>> upstream/18.0

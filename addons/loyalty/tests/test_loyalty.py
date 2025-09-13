@@ -3,7 +3,11 @@
 from psycopg2 import IntegrityError
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import ValidationError
+=======
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError, ValidationError
 >>>>>>> upstream/18.0
@@ -176,7 +180,10 @@ class TestLoyalty(TransactionCase):
         self.assertEqual(before_archived_reward_ids, after_archived_reward_ids)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_prevent_archive_pricelist_linked_to_program(self):
         self.program.pricelist_ids = demo_pricelist = self.env['product.pricelist'].create({
             'name': "Demo"
@@ -186,6 +193,9 @@ class TestLoyalty(TransactionCase):
         self.program.action_archive()
         demo_pricelist.action_archive()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_prevent_archiving_product_linked_to_active_loyalty_reward(self):
         self.program.program_type = 'promotion'

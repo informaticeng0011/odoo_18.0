@@ -52,7 +52,10 @@
             'data-editable-in-backend': edit_in_backend or ('website_published' in main_object.fields_get() and main_object._name != 'website.page'),
         })"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         <!--
         TODO Review in master (this is a stable fix for new databases).
         See REVIEW_CAN_PUBLISH_UNSUDO.
@@ -62,6 +65,9 @@
                 'data-can-publish': 'can_publish' in main_object.fields_get() and main_object.sudo(flag=False).can_publish,
             })"/>
         </t>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         <t t-if="editable or translatable" t-set="nothing" t-value="html_data.update({
             'data-editable': '1' if editable else None,
@@ -2803,7 +2809,11 @@ Sitemap: <t t-esc="url_root"/>sitemap.xml
         <form t-attf-class="o_searchbar_form s_searchbar_input #{_form_classes}" t-att-action="action" method="get" t-attf-data-snippet="s_searchbar_input">
             <t>$0</t>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <input name="order" type="hidden" class="o_search_order_by" t-att-value="order_by if order_by else 'name asc'"/>
+=======
+            <input name="order" type="hidden" class="o_search_order_by oe_unremovable" t-att-value="order_by if order_by else 'name asc'"/>
+>>>>>>> upstream/18.0
 =======
             <input name="order" type="hidden" class="o_search_order_by oe_unremovable" t-att-value="order_by if order_by else 'name asc'"/>
 >>>>>>> upstream/18.0

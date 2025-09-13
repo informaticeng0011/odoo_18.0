@@ -1,14 +1,20 @@
 import { Plugin } from "@html_editor/plugin";
 import { closestBlock, isBlock } from "@html_editor/utils/blocks";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { removeClass, toggleClass, wrapInlinesInBlocks } from "@html_editor/utils/dom";
 =======
+=======
+>>>>>>> upstream/18.0
 import {
     removeClass,
     toggleClass,
     unwrapContents,
     wrapInlinesInBlocks,
 } from "@html_editor/utils/dom";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import {
     getDeepestPosition,
@@ -45,6 +51,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isShrunkBlock,
+>>>>>>> upstream/18.0
 =======
     isShrunkBlock,
 >>>>>>> upstream/18.0
@@ -244,6 +254,10 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        before_insert_within_pre_processors: this.insertListWithinPre.bind(this),
+>>>>>>> upstream/18.0
 =======
         before_insert_within_pre_processors: this.insertListWithinPre.bind(this),
 >>>>>>> upstream/18.0
@@ -347,6 +361,7 @@ export class ListPlugin extends Plugin {
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         // @todo @phoenix: original implementation removed whitespace-only text nodes from traversedNodes.
         // Check if this is necessary.
 
@@ -365,6 +380,8 @@ export class ListPlugin extends Plugin {
         const listsToSwitch = new Set();
         for (const block of traversedBlocks) {
 =======
+=======
+>>>>>>> upstream/18.0
         // @todo @phoenix: original implementation removed whitespace-only text nodes from targetedNodes.
         // Check if this is necessary.
 
@@ -382,6 +399,9 @@ export class ListPlugin extends Plugin {
         const nonListBlocks = new Set();
         const listsToSwitch = new Set();
         for (const block of targetedBlocks) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             if (["OL", "UL"].includes(block.tagName) || !block.isContentEditable) {
                 continue;
@@ -601,11 +621,14 @@ export class ListPlugin extends Plugin {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Transform <li> into <p> if they are not in a <ul> / <ol>.
         const paragraph = this.dependencies.baseContainer.createBaseContainer();
         element.replaceWith(paragraph);
         paragraph.replaceChildren(...element.childNodes);
 =======
+=======
+>>>>>>> upstream/18.0
         if (element.children.length && [...element.children].every(isBlock)) {
             // Unwrap <li> if each of its children is a block element.
             unwrapContents(element);
@@ -615,6 +638,9 @@ export class ListPlugin extends Plugin {
             element.replaceWith(paragraph);
             paragraph.replaceChildren(...element.childNodes);
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -822,6 +848,7 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         wrapInlinesInBlocks(li, {
             baseContainerNodeName: this.dependencies.baseContainer.getDefaultNodeName(),
             cursors,
@@ -831,6 +858,8 @@ export class ListPlugin extends Plugin {
             const baseContainer = this.dependencies.baseContainer.createBaseContainer();
             baseContainer.append(this.document.createElement("br"));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -919,6 +948,9 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1014,7 +1046,11 @@ export class ListPlugin extends Plugin {
         const navListItems = new Set();
         const nonListItems = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const block of this.dependencies.selection.getTraversedBlocks()) {
+=======
+        for (const block of this.dependencies.selection.getTargetedBlocks()) {
+>>>>>>> upstream/18.0
 =======
         for (const block of this.dependencies.selection.getTargetedBlocks()) {
 >>>>>>> upstream/18.0
@@ -1189,7 +1225,10 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1228,6 +1267,9 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1264,7 +1306,10 @@ export class ListPlugin extends Plugin {
         if (isChecklistItem && this.isPointerInsideCheckbox(node, offsetX, offsetY)) {
             toggleClass(node, "o_checked");
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             const { documentSelectionIsInEditable } =
                 this.dependencies.selection.getSelectionData();
             // When the editable is not focused, clicking on checkbox
@@ -1274,6 +1319,9 @@ export class ListPlugin extends Plugin {
                 this.editable.focus();
                 this.dependencies.selection.setSelection({ anchorNode: node, anchorOffset: 0 });
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             ev.preventDefault();
             this.dependencies.history.addStep();

@@ -254,7 +254,10 @@ class TestCompanyBranch(AccountTestInvoicingCommon):
         self.env['account.chart.template'].try_loading('generic_coa', company=root_company.child_ids[0], install_demo=False)
         self.assertEqual(root_company.currency_id, root_company.child_ids[0].currency_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_switch_company_currency(self):
         """
@@ -314,4 +317,7 @@ class TestCompanyBranch(AccountTestInvoicingCommon):
             user_env['res.company'].browse(company_b.id).write({
                 'currency_id': self.env.ref('base.EUR').id,
             })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

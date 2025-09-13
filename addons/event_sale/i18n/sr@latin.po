@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* event_sale
 #
 # Translators:
@@ -8,17 +9,23 @@
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023
 #
 =======
+=======
+>>>>>>> upstream/18.0
 # * event_sale
 #
 # Translators:
 # Martin Trigaux, 2022
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2022-09-22 05:45+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, "
@@ -31,6 +38,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-27 15:44+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -42,6 +51,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event_sale
@@ -57,7 +69,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event_sale.event_registration_ticket_view_form
 msgid "<span class=\"o_stat_text\">Sale Order</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Porudžbenica</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Porudžbenica</span>"
 >>>>>>> upstream/18.0
@@ -421,7 +437,11 @@ msgstr "Ne-besplatne ulaznice"
 #: model_terms:ir.ui.view,arch_db:event_sale.event_registration_ticket_view_form
 msgid "Not Sold"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije prodato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nije prodato"
 >>>>>>> upstream/18.0
@@ -474,6 +494,11 @@ msgid ""
 "confirming this order:%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Molimo vas da se uverite da su sve linije vezane za događaj konfigurisane "
+"pre nego što potvrdite ovu porudžbinu:%s"
+>>>>>>> upstream/18.0
 =======
 "Molimo vas da se uverite da su sve linije vezane za događaj konfigurisane "
 "pre nego što potvrdite ovu porudžbinu:%s"
@@ -500,7 +525,11 @@ msgstr "Smanjenje cene porez uklj"
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__price_incl
 msgid "Price include"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cena uključuje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cena uključuje"
 >>>>>>> upstream/18.0
@@ -563,7 +592,11 @@ msgstr "Prihodi od registracija"
 #: model:ir.model.fields,field_description:event_sale.field_sale_order_line__registration_ids
 msgid "Registrations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registracije"
 >>>>>>> upstream/18.0
@@ -605,7 +638,11 @@ msgstr "Status Porudžbine"
 #: model:ir.model.fields,field_description:event_sale.field_event_registration__sale_status
 msgid "Sale Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status prodaje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status prodaje"
 >>>>>>> upstream/18.0
@@ -649,7 +686,11 @@ msgstr "Prodaja počinje"
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__sale_order_user_id
 msgid "Salesperson"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Predstavnik prodaje"
+=======
+msgstr "Prodavac"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodavac"
 >>>>>>> upstream/18.0
@@ -666,7 +707,11 @@ msgstr "Preskoči"
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Sold"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodato"
 >>>>>>> upstream/18.0
@@ -680,7 +725,11 @@ msgstr "Izvor"
 #: model:ir.model.fields,field_description:event_sale.field_event_registration__state
 msgid "Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status"
 >>>>>>> upstream/18.0
@@ -725,12 +774,18 @@ msgid ""
 "Cancelled: registrations cancelled manually"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Nepotvrđeno: registracije u stanju čekanja na akciju (specifičan slučaj, "
 "posebno sa statusom prodaje)\n"
 "Registrovano: registracije koje se smatraju zauzetim od strane klijenta\n"
 "Prisustvovano: registracije za koje je učesnik prisustvovao događaju\n"
 "Otkazano: registracije ručno otkazane"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event_sale

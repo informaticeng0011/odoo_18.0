@@ -171,7 +171,10 @@ export function viewMetadata({ component, env }) {
 debugRegistry.category("form").add("viewMetadata", viewMetadata);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 function sortKeysDeep(obj) {
     if (Array.isArray(obj)) {
         return obj.map(sortKeysDeep);
@@ -186,6 +189,9 @@ function sortKeysDeep(obj) {
     return obj;
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 // -----------------------------------------------------------------------------
 // View Raw Record Data
@@ -206,7 +212,11 @@ class RawRecordDialog extends Component {
     get content() {
         const record = this.props.record;
 <<<<<<< HEAD
+<<<<<<< HEAD
         return JSON.stringify(record, Object.keys(record).sort(), 2);
+=======
+        return JSON.stringify(sortKeysDeep(record), null, 2);
+>>>>>>> upstream/18.0
 =======
         return JSON.stringify(sortKeysDeep(record), null, 2);
 >>>>>>> upstream/18.0
@@ -219,7 +229,11 @@ export function viewRawRecord({ component, env }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { resId, resModel } = component.model.config;
+=======
+    const { resId, resModel, fields } = component.model.config;
+>>>>>>> upstream/18.0
 =======
     const { resId, resModel, fields } = component.model.config;
 >>>>>>> upstream/18.0
@@ -248,6 +262,7 @@ export function viewRawRecord({ component, env }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const records = await component.model.orm.read(resModel, [resId]);
 =======
 =======
@@ -271,11 +286,16 @@ export function viewRawRecord({ component, env }) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             const serializableFields = Object.entries(fields).reduce(
                 (acc, [k, v]) => (v.type !== "binary" && !v.propertyName ? acc.concat(k) : acc),
                 []
             );
             const records = await component.model.orm.read(resModel, [resId], serializableFields);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             env.services.dialog.add(RawRecordDialog, {
                 title: _t("Data: %(model)s(%(id)s)", { model: resModel, id: resId }),

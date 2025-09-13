@@ -11,7 +11,10 @@ class StockValuationLayer(models.Model):
         """
         return self.value / self.quantity
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _get_related_product(self):
         res = super()._get_related_product()
@@ -29,4 +32,7 @@ class StockValuationLayer(models.Model):
             and (not self.stock_move_id._is_dropshipped() or self.value > 0)
             and (not self.stock_move_id._is_dropshipped_returned() or self.value < 0)
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Thi Huong Nguyen, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Thi Huong Nguyen, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: vi\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-15 18:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2025\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -47,13 +59,19 @@ msgstr "%s (sao chép)"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/analytic/models/analytic_line.py:0
 msgid "%s analytic lines created"
 msgstr ""
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "<span class=\"o_stat_text\">Analytic Accounts</span>"
@@ -170,6 +188,10 @@ msgstr "Số tài khoản phân tích"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_distribution
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
 >>>>>>> upstream/18.0
@@ -245,6 +267,10 @@ msgstr "Kế hoạch phân tích"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_precision
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
 >>>>>>> upstream/18.0
@@ -529,13 +555,19 @@ msgstr "Miền"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Don't update"
 msgstr ""
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.analytic.account,name:analytic.analytic_rd_finance
 msgid "Finance"
@@ -603,12 +635,15 @@ msgstr "Nếu chọn, một số tin nhắn sẽ có lỗi gửi."
 msgid ""
 "In Odoo, sales orders and projects are implemented using\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
 "Trong Odoo, các dự án và đơn bán hàng được thực hiện bằng cách sử dụng\n"
 "                tài khoản phân tích. Bạn có thể theo dõi chi phí và doanh thu để phân tích\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                analytic accounts. You can track costs and revenues to "
 "analyse\n"
 "                your margins easily."
@@ -616,6 +651,9 @@ msgstr ""
 "Trong Odoo, các dự án và đơn bán hàng được thực hiện bằng cách sử dụng\n"
 "                tài khoản phân tích. Bạn có thể theo dõi chi phí và doanh "
 "thu để phân tích\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                lợi nhuận một cách dễ dàng. "
 
@@ -690,13 +728,19 @@ msgstr "Thông tin khác"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Multi edit"
 msgstr ""
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__name
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_list
@@ -859,6 +903,7 @@ msgstr "Nghiên cứu & Phát triển"
 msgid ""
 "Revenues will be created automatically when you create customer\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                invoices. Customer invoices can be created based on sales orders\n"
 "                (fixed price invoices), on timesheets (based on the work done) or\n"
 "                on expenses (e.g. reinvoicing of travel costs)."
@@ -867,6 +912,8 @@ msgstr ""
 "                hàng. Hóa đơn bán hàng có thể được tạo dựa trên đơn bán hàng\n"
 "                (hóa đơn giá cố định), bảng chấm công (dựa trên công việc đã hoàn thành) hoặc\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                invoices. Customer invoices can be created based on sales "
 "orders\n"
 "                (fixed price invoices), on timesheets (based on the work "
@@ -878,6 +925,9 @@ msgstr ""
 "hàng\n"
 "                (hóa đơn giá cố định), bảng chấm công (dựa trên công việc đã "
 "hoàn thành) hoặc\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                chi phí (ví dụ: tái lập hóa đơn chi phí đi lại)."
 
@@ -922,8 +972,13 @@ msgid ""
 msgstr ""
 "Chọn một công ty mà phân phối phân tích sẽ được sử dụng (ví dụ: tạo hóa đơn "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "bán hàng mới hoặc Đơn bán hàng nếu chọn công ty này, công ty sẽ được tự động"
 " chọn làm tài khoản phân tích)"
+=======
+"bán hàng mới hoặc Đơn bán hàng nếu chọn công ty này, công ty sẽ được tự động "
+"chọn làm tài khoản phân tích)"
+>>>>>>> upstream/18.0
 =======
 "bán hàng mới hoặc Đơn bán hàng nếu chọn công ty này, công ty sẽ được tự động "
 "chọn làm tài khoản phân tích)"
@@ -937,9 +992,15 @@ msgid ""
 "it will automatically take this as an analytic account)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Chọn danh mục đối tác mà phân phối phân tích sẽ được sử dụng (ví dụ: tạo hóa"
 " đơn bán hàng mới hoặc Đơn bán hàng nếu chọn đối tác này, danh mục đối tác "
 "sẽ được tự động chọn làm tài khoản phân tích)"
+=======
+"Chọn danh mục đối tác mà phân phối phân tích sẽ được sử dụng (ví dụ: tạo hóa "
+"đơn bán hàng mới hoặc Đơn bán hàng nếu chọn đối tác này, danh mục đối tác sẽ "
+"được tự động chọn làm tài khoản phân tích)"
+>>>>>>> upstream/18.0
 =======
 "Chọn danh mục đối tác mà phân phối phân tích sẽ được sử dụng (ví dụ: tạo hóa "
 "đơn bán hàng mới hoặc Đơn bán hàng nếu chọn đối tác này, danh mục đối tác sẽ "
@@ -1001,13 +1062,19 @@ msgstr "Danh mục đơn vị tính"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Update"
 msgstr ""
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__user_id
 msgid "User"
@@ -1018,6 +1085,7 @@ msgstr "Người dùng"
 #: code:addons/analytic/models/analytic_account.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Whoa there! Making this change would wipe out your current data. Let's avoid"
 " that, shall we?"
 msgstr ""
@@ -1027,11 +1095,16 @@ msgstr ""
 "điều đó nhé!"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Whoa there! Making this change would wipe out your current data. Let's avoid "
 "that, shall we?"
 msgstr ""
 "Khoan đã! Thay đổi này sẽ xóa toàn bộ dữ liệu hiện tại của bạn. Hãy tránh "
 "điều đó nhé!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: analytic
@@ -1059,8 +1132,13 @@ msgid ""
 msgstr ""
 "Bạn đã xác định một phân bổ với (các) tài khoản phân tích thuộc về một công "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ty xác định nhưng mô hình đã được chia sẻ giữa các công ty hoặc với một công"
 " ty khác"
+=======
+"ty xác định nhưng mô hình đã được chia sẻ giữa các công ty hoặc với một công "
+"ty khác"
+>>>>>>> upstream/18.0
 =======
 "ty xác định nhưng mô hình đã được chia sẻ giữa các công ty hoặc với một công "
 "ty khác"

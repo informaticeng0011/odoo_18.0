@@ -1002,12 +1002,18 @@ class TestExpression(SavepointCaseWithUserDemo, TransactionExpressionCase):
             Country.search([('create_date', '>>', 'foo')])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertRaisesRegex(ValueError, r"^stray % in format '%'$"):
 =======
+=======
+>>>>>>> upstream/18.0
         with self.assertRaisesRegex(
                 ValueError,
                 r"^(time data 'foo' does not match|stray % in) format '%'$",
         ):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             Country.search([]).filtered_domain([('create_date', '>>', 'foo')])
 

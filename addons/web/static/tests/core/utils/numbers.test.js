@@ -318,6 +318,10 @@ describe("formatFloat", () => {
         expect(formatFloat(-1.0045e22, options)).toBe("-1e+22");
         expect(formatFloat(-1.012e43, options)).toBe("-1.01e+43");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expect(formatFloat(-0.0000001, options)).toBe("0.00");
+>>>>>>> upstream/18.0
 =======
         expect(formatFloat(-0.0000001, options)).toBe("0.00");
 >>>>>>> upstream/18.0
@@ -334,6 +338,12 @@ describe("formatFloat", () => {
         expect(formatFloat(1.0045e22, options)).toBe("1.005e+22");
         expect(formatFloat(-1.0045e22, options)).toBe("-1.004e+22");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        Object.assign(options, { humanReadable: false });
+        expect(formatFloat(-0.0000001, options)).toBe("0.00");
+>>>>>>> upstream/18.0
 =======
 
         Object.assign(options, { humanReadable: false });

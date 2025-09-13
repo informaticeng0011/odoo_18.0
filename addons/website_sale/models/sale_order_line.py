@@ -43,10 +43,13 @@ class SaleOrderLine(models.Model):
         show_tax = self.order_id.website_id.show_line_subtotals_tax_selection
         tax_display = 'total_excluded' if show_tax == 'tax_excluded' else 'total_included'
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return self.tax_id.compute_all(
             self.price_unit, self.currency_id, 1, self.product_id, self.order_partner_id,
 =======
+=======
+>>>>>>> upstream/18.0
         is_combo = self.product_type == 'combo'
 
         return self.tax_id.compute_all(
@@ -55,6 +58,9 @@ class SaleOrderLine(models.Model):
             quantity=1.0,
             product=self.product_id,
             partner=self.order_partner_id,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         )[tax_display]
 
@@ -148,7 +154,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.product_id._is_add_to_cart_allowed()
+=======
+        return bool(self.product_id) and self.product_id._is_add_to_cart_allowed()
+>>>>>>> upstream/18.0
 =======
         return bool(self.product_id) and self.product_id._is_add_to_cart_allowed()
 >>>>>>> upstream/18.0

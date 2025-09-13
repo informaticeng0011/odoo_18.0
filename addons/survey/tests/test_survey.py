@@ -88,6 +88,10 @@ class TestSurveyInternals(common.TestSurveyCommon, MailCase):
 
     @freeze_time("2020-02-15 18:00")
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @users('survey_manager')
+>>>>>>> upstream/18.0
 =======
     @users('survey_manager')
 >>>>>>> upstream/18.0
@@ -115,7 +119,11 @@ class TestSurveyInternals(common.TestSurveyCommon, MailCase):
             elif question.question_type == 'datetime':
                 question_answer = self._add_answer_line(question, user_input, fields.Datetime.now())
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.assertEqual(question_answer.display_name, '2020-02-15 18:00:00')
+=======
+                self.assertEqual(question_answer.display_name, '2020-02-15 19:00:00')
+>>>>>>> upstream/18.0
 =======
                 self.assertEqual(question_answer.display_name, '2020-02-15 19:00:00')
 >>>>>>> upstream/18.0

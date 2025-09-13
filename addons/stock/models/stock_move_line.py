@@ -586,11 +586,17 @@ class StockMoveLine(models.Model):
         return (self.id,)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _exclude_requiring_lot(self):
         self.ensure_one()
         return self.move_id.picking_type_id or self.is_inventory or self.lot_id or self.move_id.scrap_id
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _action_done(self):
         """ This method is called during a move's `action_done`. It'll actually move a quant from
@@ -628,6 +634,7 @@ class StockMoveLine(models.Model):
                 if ml.product_id.tracking == 'none':
                     continue
                 picking_type_id = ml.move_id.picking_type_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -757,6 +764,9 @@ class StockMoveLine(models.Model):
 =======
                 if not ml._exclude_requiring_lot():
 >>>>>>> upstream/18.0
+=======
+                if not ml._exclude_requiring_lot():
+>>>>>>> upstream/18.0
                     ml_ids_tracked_without_lot.add(ml.id)
                     continue
                 if not picking_type_id or ml.lot_id or (not picking_type_id.use_create_lots and not picking_type_id.use_existing_lots):
@@ -822,7 +832,11 @@ class StockMoveLine(models.Model):
             ml._synchronize_quant(ml.quantity_product_uom, ml.location_dest_id, package=ml.result_package_id, in_date=in_date)
             if available_qty < 0:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ml._free_reservation(
+=======
+                ml.with_context(quants_cache=None)._free_reservation(
+>>>>>>> upstream/18.0
 =======
                 ml.with_context(quants_cache=None)._free_reservation(
 >>>>>>> upstream/18.0

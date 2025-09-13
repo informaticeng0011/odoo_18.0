@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_restaurant
 # 
+=======
+# * pos_restaurant
+#
+>>>>>>> upstream/18.0
 =======
 # * pos_restaurant
 #
@@ -20,10 +25,15 @@
 # Lasse L, 2024
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
 <<<<<<< HEAD
 # 
 =======
+# Claes-Johan Dahlin <user-89@users.noreply.translate.odoo.com>, 2025.
+>>>>>>> upstream/18.0
+=======
+# Jakob Krabbe <jakob.krabbe@vertel.se>, 2024, 2025.
 # Claes-Johan Dahlin <user-89@users.noreply.translate.odoo.com>, 2025.
 >>>>>>> upstream/18.0
 msgid ""
@@ -31,6 +41,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
@@ -209,6 +220,10 @@ msgstr ", Gäster:"
 "PO-Revision-Date: 2025-09-04 16:45+0000\n"
 "Last-Translator: Claes-Johan Dahlin "
 "<user-89@users.noreply.translate.odoo.com>\n"
+=======
+"PO-Revision-Date: 2025-09-12 14:12+0000\n"
+"Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
 "pos_restaurant/sv/>\n"
 "Language: sv\n"
@@ -220,6 +235,9 @@ msgstr ", Gäster:"
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/overrides/components/payment_screen/payment_screen.xml:0
 msgid "/ Guest"
@@ -258,7 +276,11 @@ msgstr "<strong>Våningsplanets namn:</strong>"
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_kanban
 msgid "<strong>Point of Sales:</strong>"
+<<<<<<< HEAD
 msgstr "<strong>Punkt för försäljning:</strong>"
+=======
+msgstr "<strong>Kassasystem, POS:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model_terms:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
@@ -266,7 +288,12 @@ msgid ""
 "A restaurant floor represents the place where customers are served, this is where you can\n"
 "                define and position the tables."
 msgstr ""
+<<<<<<< HEAD
 "Ett restauranggolv representerar den plats där kunderna serveras, det är här du kan\n"
+=======
+"Ett våningsplan representerar den plats där kunderna serveras, det är här du "
+"kan\n"
+>>>>>>> upstream/18.0
 "                definiera och placera ut borden."
 
 #. module: pos_restaurant
@@ -279,7 +306,11 @@ msgstr "Aktiv"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Add Floor"
+<<<<<<< HEAD
 msgstr "Lägg till våning"
+=======
+msgstr "Lägg till ett våningsplan"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -291,7 +322,11 @@ msgstr "Lägg till bord"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Add a new floor to get started."
+<<<<<<< HEAD
 msgstr "Lägg till en ny våning för att komma igång."
+=======
+msgstr "Lägg till ett nytt våningsplan för att komma igång."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model_terms:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
@@ -336,19 +371,32 @@ msgid ""
 "Adjust the tax rate based on whether customers are dining in or opting for "
 "takeout."
 msgstr ""
+<<<<<<< HEAD
 "Justera skattesatsen beroende på om kunderna äter på plats eller väljer att "
 "ta med sig mat."
+=======
+"Justera momssatsen beroende på om kunderna äter på plats eller väljer att ta "
+"med sig mat."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Allow Bill Splitting"
+<<<<<<< HEAD
 msgstr "Tillåt delning av räkningar"
+=======
+msgstr "Tillåt delad nota"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__takeaway
 #: model:ir.model.fields,help:pos_restaurant.field_res_config_settings__pos_takeaway
 msgid "Allow to create orders for takeaway customers."
+<<<<<<< HEAD
 msgstr "Gör det möjligt att skapa beställningar för takeaway-kunder."
+=======
+msgstr "Gör det möjligt att skapa beställningar för ta med-kunder."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
@@ -424,21 +472,33 @@ msgstr "Belgiska färska hemlagade pommes frites"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.xml:0
 msgid "Bill"
+<<<<<<< HEAD
 msgstr "Faktura"
+=======
+msgstr "Nota"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/bill_screen/bill_screen.xml:0
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__iface_printbill
 msgid "Bill Printing"
+<<<<<<< HEAD
 msgstr "Utskrift av fakturor"
+=======
+msgstr "Utskriven nota"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/split_bill_screen/split_bill_screen.xml:0
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__iface_splitbill
 msgid "Bill Splitting"
+<<<<<<< HEAD
 msgstr "Uppdelning av räkningar"
+=======
+msgstr "Delad nota"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_black_olives
@@ -449,7 +509,11 @@ msgstr "Svarta oliver"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/product_screen/order_summary/order_summary.xml:0
 msgid "Book table"
+<<<<<<< HEAD
 msgstr "Bokbord"
+=======
+msgstr "Boka bord"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.product_old_fashioned_product_template
@@ -476,7 +540,11 @@ msgstr "Vagn"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Change Floor Background"
+<<<<<<< HEAD
 msgstr "Ändra golvets bakgrund"
+=======
+msgstr "Ändra våningplanets bakgrund"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -545,7 +613,11 @@ msgstr "Cosmopolitan"
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.product_cosmopolitan_product_template
 msgid "Cranberry Jus, lime jus, vodka and Cointreau"
+<<<<<<< HEAD
 msgstr "Cranberry Jus, lime Jus, vodka och Cointreau"
+=======
+msgstr "Cranberryjuice, limejuice, vodka och Cointreau"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__create_uid
@@ -569,18 +641,30 @@ msgstr "Ta bort"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "Delete Error"
+<<<<<<< HEAD
 msgstr "Radera fel"
+=======
+msgstr "Ta bort fel"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Design floors and assign orders to tables"
+<<<<<<< HEAD
 msgstr "Designa golv och tilldela order till bord"
+=======
+msgstr "Designa våningsplanet och tilldela beställning till borden"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/models/pos_store.js:0
 msgid "Dine in"
+<<<<<<< HEAD
 msgstr "Ät i"
+=======
+msgstr "Ät inne"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__display_name
@@ -601,25 +685,41 @@ msgstr "Tidig utskrift av kvitton"
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Eat in / Take out"
+<<<<<<< HEAD
 msgstr "Äta i / ta ut"
+=======
+msgstr "Äta inne / ta med ut"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.js:0
 #: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.xml:0
 msgid "Edit Order Name"
+<<<<<<< HEAD
 msgstr "Redigera ordernamn"
+=======
+msgstr "Redigera beställningsnamn"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
 msgid "Edit Plan"
+<<<<<<< HEAD
 msgstr "Redigera plan"
+=======
+msgstr "Redigera våningsplan"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__iface_splitbill
 msgid "Enables Bill Splitting in the Point of Sale."
+<<<<<<< HEAD
 msgstr "Aktiverar delning av fakturor i kassan."
+=======
+msgstr "Aktiverar delning av fakturor i kassansystemet."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -649,7 +749,11 @@ msgstr "Extra ost"
 #: model:product.attribute,name:pos_restaurant.product_extra_pasta
 #: model:product.attribute,name:pos_restaurant.product_extra_pizza
 msgid "Extras"
+<<<<<<< HEAD
 msgstr "Extramaterial"
+=======
+msgstr "Tillbehör"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.fanta_product_template
@@ -671,7 +775,11 @@ msgstr "Finansiell ställning"
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Fiscal Positions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Finanspolitiska positioner"
+=======
+msgstr "Skatteområden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skatteområden"
 >>>>>>> upstream/18.0
@@ -679,57 +787,97 @@ msgstr "Skatteområden"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__floor_id
 msgid "Floor"
+<<<<<<< HEAD
 msgstr "Golv"
+=======
+msgstr "Våningsplan"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__floor_background_image
 msgid "Floor Background Image"
+<<<<<<< HEAD
 msgstr "Bakgrundsbild för golv"
+=======
+msgstr "Bakgrundsbild för våningsplan"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__name
 msgid "Floor Name"
+<<<<<<< HEAD
 msgstr "Golvets namn"
+=======
+msgstr "Våningsplanets namn"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "Floor Name ?"
+<<<<<<< HEAD
 msgstr "Golvets namn ?"
+=======
+msgstr "Våningsplanets namn ?"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
 msgid "Floor Plan"
+<<<<<<< HEAD
 msgstr "Planlösning"
+=======
+msgstr "Våningsplan"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.actions.act_window,name:pos_restaurant.action_restaurant_floor_form
 #: model:ir.ui.menu,name:pos_restaurant.menu_restaurant_floor_all
 msgid "Floor Plans"
+<<<<<<< HEAD
 msgstr "Planlösningar"
+=======
+msgstr "Våningsplaner"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "Floor name"
+<<<<<<< HEAD
 msgstr "Golvets namn"
+=======
+msgstr "Våningsplanets namn"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-python
 #: code:addons/pos_restaurant/models/pos_restaurant.py:0
 msgid "Floor: %(floor)s - PoS Config: %(config)s \n"
+<<<<<<< HEAD
 msgstr "Våning: %(floor)s - PoS Config: %(config)s\n"
+=======
+msgstr "Våningsplan: %(floor)s - PoS Config: %(config)s \n"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Floors"
+<<<<<<< HEAD
 msgstr "Golv"
+=======
+msgstr "Våningsplanen"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Floors & Tables Map"
+<<<<<<< HEAD
 msgstr "Golv & Bord Karta"
+=======
+msgstr "Våningsplans- & Bords Karta"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:pos.category,name:pos_restaurant.food
@@ -795,7 +943,11 @@ msgstr "ID"
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.ice_tea_product_template
 msgid "Ice Tea"
+<<<<<<< HEAD
 msgstr "Ice Tea"
+=======
+msgstr "Is Te"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__active
@@ -803,8 +955,13 @@ msgid ""
 "If false, the table is deactivated and will not be available in the point of"
 " sale"
 msgstr ""
+<<<<<<< HEAD
 "Om den är falsk avaktiveras tabellen och kommer inte att vara tillgänglig på"
 " försäljningsstället"
+=======
+"Om falskt, avmarkera bordet och det kommer inte att vara tillgänglig på "
+"försäljningsstället"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -925,13 +1082,21 @@ msgstr "Negroni"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "New Floor"
+<<<<<<< HEAD
 msgstr "Ny våning"
+=======
+msgstr "Nytt våningsplan"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/tip_screen/tip_screen.xml:0
 msgid "No Tip"
+<<<<<<< HEAD
 msgstr "Inget tips"
+=======
+msgstr "Ingen dricks"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -948,7 +1113,11 @@ msgstr "Antal sittplatser?"
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.product_old_fashioned_product_template
 msgid "Old Fashioned"
+<<<<<<< HEAD
 msgstr "Old Fashioned"
+=======
+msgstr "Gammaldags"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
@@ -965,7 +1134,11 @@ msgstr "Endast webbkompatibla bildformat som .png eller .jpeg stöds."
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Oops! No floors available."
+<<<<<<< HEAD
 msgstr "Oops! Inga våningar tillgängliga."
+=======
+msgstr "Oops! Inga våningsplan tillgängliga."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -984,7 +1157,11 @@ msgstr "Öppna"
 #: code:addons/pos_restaurant/static/src/overrides/components/product_screen/actionpad_widget/actionpad_widget.xml:0
 #: code:addons/pos_restaurant/static/src/overrides/components/product_screen/product_screen.xml:0
 msgid "Order"
+<<<<<<< HEAD
 msgstr "Order"
+=======
+msgstr "Beställning"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -995,12 +1172,20 @@ msgstr "PRO FORM"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__parent_id
 msgid "Parent Table"
+<<<<<<< HEAD
 msgstr "Föräldrabord"
+=======
+msgstr "Överordnat bord"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.pos_food_4formaggi_product_template
 msgid "Pasta 4 Formaggi"
+<<<<<<< HEAD
 msgstr "Pasta 4 ostsorter"
+=======
+msgstr "Pasta 4 Formaggi"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.pos_food_bolo_product_template
@@ -1056,22 +1241,38 @@ msgstr "Vegetarisk pizza"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
 msgid "Plan"
+<<<<<<< HEAD
 msgstr "Planera"
+=======
+msgstr "Våningsplan"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_pos_config
 msgid "Point of Sale Configuration"
+<<<<<<< HEAD
 msgstr "Kassakonfigurering"
+=======
+msgstr "Konfiguration av kassasystemet"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_pos_order
 msgid "Point of Sale Orders"
+<<<<<<< HEAD
 msgstr "Kassaorder"
+=======
+msgstr "Beställning hanterad i kassasystemet"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_pos_payment
 msgid "Point of Sale Payments"
+<<<<<<< HEAD
 msgstr "Kassa-betalningar"
+=======
+msgstr "Betalningar i kassasystemet"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_pos_session
@@ -1081,22 +1282,38 @@ msgstr "Kassasession"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__pos_config_ids
 msgid "Point of Sales"
+<<<<<<< HEAD
 msgstr "Kassa"
+=======
+msgstr "Kassasystemet"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_res_config_settings__pos_iface_printbill
 msgid "Pos Iface Printbill"
+<<<<<<< HEAD
 msgstr "Pos Iface Printbill"
+=======
+msgstr "Skriv ut notan i kassasystemet"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_res_config_settings__pos_iface_splitbill
 msgid "Pos Iface Splitbill"
+<<<<<<< HEAD
 msgstr "Pos Iface Splitbill"
+=======
+msgstr "Dela notan i kassasystemet"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_res_config_settings__pos_set_tip_after_payment
 msgid "Pos Set Tip After Payment"
+<<<<<<< HEAD
 msgstr "Pos Set Tip efter betalning"
+=======
+msgstr "Fråga om dricks efter betalning"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_potato_thyme
@@ -1118,38 +1335,62 @@ msgstr "Prosecco, aperol, läsk"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/product_screen/order_summary/order_summary.xml:0
 msgid "Release Order"
+<<<<<<< HEAD
 msgstr "Släpp order"
+=======
+msgstr "Frigör beställning"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/product_screen/order_summary/order_summary.xml:0
 msgid "Release table"
+<<<<<<< HEAD
 msgstr "Släpp tabell"
+=======
+msgstr "Frigör bord"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "Removing a floor cannot be undone. Do you still want to remove %s?"
 msgstr ""
+<<<<<<< HEAD
 "Att ta bort ett golv kan inte göras ogjort. Vill du fortfarande ta bort %s?"
+=======
+"Att ta bort ett våningsplan kan inte ångras. Vill du fortfarande ta bort %s?"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "Removing a table cannot be undone"
+<<<<<<< HEAD
 msgstr "Det går inte att ångra borttagningen av en tabell"
+=======
+msgstr "Det går inte att ångra borttagningen av ett bord"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Rename"
+<<<<<<< HEAD
 msgstr "Byt namn"
+=======
+msgstr "Namnbyte"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/tip_screen/tip_screen.xml:0
 msgid "Reprint receipts"
+<<<<<<< HEAD
 msgstr "Skriv ut kvitton på nytt"
+=======
+msgstr "Skriv ut kvittot på nytt"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-python
@@ -1168,7 +1409,11 @@ msgstr "Restaurangvåningen"
 #: model:ir.model.fields,field_description:pos_restaurant.field_res_config_settings__pos_floor_ids
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_tree
 msgid "Restaurant Floors"
+<<<<<<< HEAD
 msgstr "Restaurang Golv"
+=======
+msgstr "Restaurangvåningarna"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_restaurant_table
@@ -1186,12 +1431,20 @@ msgstr "Kreditera"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/payment_screen/payment_screen_payment_lines/payment_screen_payment_lines.xml:0
 msgid "Reverse Payment"
+<<<<<<< HEAD
 msgstr "Återta Betalning"
+=======
+msgstr "Återbetalning"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields.selection,name:pos_restaurant.selection__restaurant_table__shape__round
 msgid "Round"
+<<<<<<< HEAD
 msgstr "Runda"
+=======
+msgstr "Rund"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -1218,8 +1471,12 @@ msgstr "Spara"
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Save this page and come back here to set up the feature."
+<<<<<<< HEAD
 msgstr ""
 "Spara den här sidan och kom tillbaka hit för att konfigurera funktionen."
+=======
+msgstr "Spara den här sidan och kom tillbaka för att konfigurera funktionen."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.schweppes_product_template
@@ -1237,7 +1494,11 @@ msgstr "Säten"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
 msgid "Select table to transfer order"
+<<<<<<< HEAD
 msgstr "Välj bord för att överföra order"
+=======
+msgstr "Välj bord för att genomföra beställning"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__sequence
@@ -1247,14 +1508,22 @@ msgstr "Sekvens"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__set_tip_after_payment
 msgid "Set Tip After Payment"
+<<<<<<< HEAD
 msgstr "Ställ in tips efter betalning"
+=======
+msgstr "Ställ in dricks efter betalning"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/tip_screen/tip_screen.xml:0
 #: code:addons/pos_restaurant/static/src/overrides/components/ticket_screen/ticket_screen.xml:0
 msgid "Settle"
+<<<<<<< HEAD
 msgstr "Bosätta sig"
+=======
+msgstr "Notan"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__shape
@@ -1264,7 +1533,11 @@ msgstr "Form"
 #. module: pos_restaurant
 #: model:product.attribute,name:pos_restaurant.product_sides_buns_pizza
 msgid "Sides"
+<<<<<<< HEAD
 msgstr "Sidor"
+=======
+msgstr "Tillbehör"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -1275,7 +1548,11 @@ msgstr "Signatur"
 #. module: pos_restaurant
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_smashed_sweet_potatoes
 msgid "Smashed sweet potatoes"
+<<<<<<< HEAD
 msgstr "Smulad sötpotatis"
+=======
+msgstr "Smashed sweet potatoes"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:pos.category,name:pos_restaurant.pos_category_soft_drinks
@@ -1297,7 +1574,11 @@ msgstr "Dela"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/split_bill_screen/split_bill_screen.xml:0
 msgid "Split Order"
+<<<<<<< HEAD
 msgstr "Delad order"
+=======
+msgstr "Dela beställning"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
@@ -1330,24 +1611,37 @@ msgstr "Pommes frites av sötpotatis"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
 msgid "Switch Floor View"
+<<<<<<< HEAD
 msgstr "Vy över växelns golv"
+=======
+msgstr "Byt våningsplansvy"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.xml:0
 msgid "Switch to Dine in"
+<<<<<<< HEAD
 msgstr "Byt till att äta på restaurang"
+=======
+msgstr "Byt till att \"äta här\""
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.xml:0
 msgid "Switch to Takeaway"
+<<<<<<< HEAD
 msgstr "Byt till takeaway"
+=======
+msgstr "Byt till \"ta med\""
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1402,6 +1696,8 @@ msgstr "Byt till takeaway"
 <<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/order_receipt/order_receipt.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1512,6 +1808,7 @@ msgstr "Byt till takeaway"
 #: code:addons/pos_restaurant/static/src/overrides/components/ticket_screen/ticket_screen.xml:0
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order__table_id
 msgid "Table"
+<<<<<<< HEAD
 msgstr "Tabell"
 
 #. module: pos_restaurant
@@ -1677,11 +1974,21 @@ msgstr "Tabell"
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_header_patch.js:0
 msgid "Table %(number)s"
 msgstr ""
+=======
+msgstr "Bord"
+
+#. module: pos_restaurant
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/overrides/components/receipt_header_patch.js:0
+msgid "Table %(number)s"
+msgstr "Bord %(number)s"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_header_patch.js:0
 msgid "Table %(number)s, Guests: %(count)s"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: pos_restaurant
@@ -1842,51 +2149,88 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Bord %(number)s, Gäster: %(count)s"
+
+#. module: pos_restaurant
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__module_pos_restaurant_appointment
 #: model:ir.model.fields,field_description:pos_restaurant.field_res_config_settings__pos_module_pos_restaurant_appointment
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Table Booking"
+<<<<<<< HEAD
 msgstr "Bokning av bord"
+=======
+msgstr "Bordsbokning"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__table_number
 msgid "Table Number"
+<<<<<<< HEAD
 msgstr "Tabellnummer"
+=======
+msgstr "Bordsnummer"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.js:0
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
 msgid "Table Selector"
+<<<<<<< HEAD
 msgstr "Väljare för bord"
+=======
+msgstr "Bordsväljare"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__table_ids
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_form
 msgid "Tables"
+<<<<<<< HEAD
 msgstr "Tabeller"
+=======
+msgstr "Bord"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order__takeaway
 msgid "Take Away"
+<<<<<<< HEAD
 msgstr "Ta bort"
+=======
+msgstr "Ta med"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/models/pos_store.js:0
 msgid "Take out"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta med"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__takeaway
 #: model:ir.model.fields,field_description:pos_restaurant.field_res_config_settings__pos_takeaway
 msgid "Takeaway"
+<<<<<<< HEAD
 msgstr "Takeaway"
+=======
+msgstr "\"Ta med\""
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Taxes must be included in price."
+<<<<<<< HEAD
 msgstr "Skatter måste ingå i priset."
+=======
+msgstr "Moms måste ingå i priset."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.product_margarita_product_template
@@ -1896,28 +2240,48 @@ msgstr "Tequila Jose Cuervo, limejus, sockerrör Cointreau"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_order__customer_count
 msgid "The amount of customers that have been served by this order."
+<<<<<<< HEAD
 msgstr "Det antal kunder som har betjänats av denna order."
+=======
+msgstr "Det antal kunder som har betjänats av denna beställning."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_floor__background_color
 msgid "The background color of the floor in a html-compatible format"
+<<<<<<< HEAD
 msgstr "Golvets bakgrundsfärg i ett html-kompatibelt format"
+=======
+msgstr "Våningplanets bakgrundsfärg i ett html-kompatibelt format"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__seats
 msgid "The default number of customer served at this table."
+<<<<<<< HEAD
 msgstr "Standardantalet kunder som serveras vid detta bord."
+=======
+msgstr "Standardantalet gäster vid detta bordet."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__table_number
 msgid "The number of the table as displayed on the floor plan"
+<<<<<<< HEAD
 msgstr "Bordets nummer som det visas på planritningen"
+=======
+msgstr "Bordets nummer som det visas på våningsplanet"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__parent_id
 msgid "The parent table if this table is part of a group of tables"
+<<<<<<< HEAD
 msgstr ""
 "Den överordnade tabellen om denna tabell är en del av en grupp tabeller"
+=======
+msgstr "Det överordnade bordet, om detta bordet är en del av en grupp av bord"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__floor_ids
@@ -1935,33 +2299,53 @@ msgstr "Bordet där denna beställning serverades"
 msgid ""
 "The table's color, expressed as a valid 'background' CSS property value"
 msgstr ""
+<<<<<<< HEAD
 "Tabellens färg, uttryckt som ett giltigt CSS-egenskapsvärde för \"background"
+=======
+"Bordets färg, uttryckt som ett giltigt CSS-egenskapsvärde för \"background\""
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__height
 msgid "The table's height in pixels"
+<<<<<<< HEAD
 msgstr "Tabellens höjd i pixlar"
+=======
+msgstr "Bordets höjd i pixlar"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__position_h
 msgid ""
 "The table's horizontal position from the left side to the table's center, in"
 " pixels"
+<<<<<<< HEAD
 msgstr ""
 "Tabellens horisontella position från vänster sida till tabellens mitt, i "
 "pixlar"
+=======
+msgstr "Bordets horisontella läge från vänster sida till bordets mitt, i pixlar"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__position_v
 msgid ""
 "The table's vertical position from the top to the table's center, in pixels"
+<<<<<<< HEAD
 msgstr ""
 "Tabellens vertikala position från toppen till mitten av tabellen, i pixlar"
+=======
+msgstr "Bordets vertikala läge från topp till mitten av bordet, i pixlar"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__width
 msgid "The table's width in pixels"
+<<<<<<< HEAD
 msgstr "Tabellens bredd i pixlar"
+=======
+msgstr "Bordets bredd i pixlar"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__takeaway_fp_id
@@ -1970,8 +2354,13 @@ msgid ""
 "This is useful for restaurants with onsite and take-away services that imply"
 " specific tax rates."
 msgstr ""
+<<<<<<< HEAD
 "Detta är användbart för restauranger med servering på plats och take-away-"
 "tjänster som innebär specifika skattesatser."
+=======
+"Detta är användbart för restauranger med serveringsalternativen \" äta här\" "
+"och \"ta med\" som innebär olika momssatser."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -1980,8 +2369,13 @@ msgid ""
 "This order is not yet synced to server. Make sure it is synced then try "
 "again."
 msgstr ""
+<<<<<<< HEAD
 "Denna order har ännu inte synkroniserats med servern. Kontrollera att den "
 "har synkroniserats och försök igen."
+=======
+"Denna beställning har ännu inte synkroniserats med servern. Kontrollera att "
+"den synkar och försök igen."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -1993,19 +2387,31 @@ msgstr "Dricks"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/tip_screen/tip_screen.xml:0
 msgid "Tip Amount"
+<<<<<<< HEAD
 msgstr "Tips Belopp"
+=======
+msgstr "Dricksbelopp"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/tip_receipt/tip_receipt.xml:0
 msgid "Tip:"
+<<<<<<< HEAD
 msgstr "Tips:"
+=======
+msgstr "Dricks:"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/ticket_screen/ticket_screen.js:0
 msgid "Tipping"
+<<<<<<< HEAD
 msgstr "Tippning"
+=======
+msgstr "Dricksa"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.pos_food_margherita_product_template
@@ -2022,7 +2428,11 @@ msgstr "Total:"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.xml:0
 msgid "Transfer / Merge"
+<<<<<<< HEAD
 msgstr "Överföring / sammanslagning"
+=======
+msgstr "Genomför / sammanslagning"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -2034,7 +2444,11 @@ msgstr "Filformat som inte stöds"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/tip_screen/tip_screen.js:0
 msgid "Unsynced order"
+<<<<<<< HEAD
 msgstr "Osynkroniserad order"
+=======
+msgstr "Osynkroniserad beställningar"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -2088,16 +2502,26 @@ msgstr "Bredd"
 msgid ""
 "You cannot delete a floor when orders are still in draft for this floor."
 msgstr ""
+<<<<<<< HEAD
 "Du kan inte ta bort en våning när det fortfarande finns order i utkast för "
 "denna våning."
+=======
+"Du kan inte ta bort ett våningsplan när det fortfarande finns en beställning "
+"i utkast för denna våning."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "You cannot delete a floor with orders still in draft for this floor."
 msgstr ""
+<<<<<<< HEAD
 "Du kan inte ta bort en våning med order som fortfarande är i utkast för "
 "denna våning."
+=======
+"Du kan inte ta bort ett våningsplan med en beställning som fortfarande är i "
+"utkast för denna våning."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-python
@@ -2105,16 +2529,26 @@ msgstr ""
 msgid ""
 "You cannot delete a table when orders are still in draft for this table."
 msgstr ""
+<<<<<<< HEAD
 "Du kan inte ta bort en tabell när det fortfarande finns order i utkast för "
 "denna tabell."
+=======
+"Du kan inte ta bort ett bord när det fortfarande finns en beställning i "
+"utkast för detta bordet."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "You cannot delete a table with orders still in draft for this table."
 msgstr ""
+<<<<<<< HEAD
 "Du kan inte ta bort en tabell med order som fortfarande är i utkast för "
 "denna tabell."
+=======
+"Du kan inte ta bort ett bord med en beställning som fortfarande är i utkast "
+"för detta bordet."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-python
@@ -2123,8 +2557,13 @@ msgid ""
 "You cannot remove a floor that is used in a PoS session, close the "
 "session(s) first: \n"
 msgstr ""
+<<<<<<< HEAD
 "Du kan inte ta bort ett golv som används i en PoS-session, stäng "
 "sessionen/sessionerna först:\n"
+=======
+"Du kan inte ta bort ett våningsplan som används i en kassasystems-session, "
+"stäng sessionen (-erna) först: \n"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-python
@@ -2133,8 +2572,13 @@ msgid ""
 "You cannot remove a table that is used in a PoS session, close the "
 "session(s) first."
 msgstr ""
+<<<<<<< HEAD
 "Du kan inte ta bort ett bord som används i en PoS-session, stäng "
 "sessionen/sessionerna först."
+=======
+"Du kan inte ta bort ett bord som används i en kassasystems-session, stäng "
+"sessionen (-erna) först."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -2164,4 +2608,8 @@ msgstr "artiklar"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/order_widget/order_widget.js:0
 msgid "or book the table for later"
+<<<<<<< HEAD
 msgstr "eller boka bordet för senare tillfälle"
+=======
+msgstr "eller boka bordet för ett senare tillfälle"
+>>>>>>> upstream/18.0

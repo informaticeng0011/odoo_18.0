@@ -9,7 +9,10 @@ patch(Message.prototype, {
         this.rating_id = Record.one("rating.rating");
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     computeIsEmpty() {
         return super.computeIsEmpty() && !this.rating_id && !this.rating_value;
@@ -24,5 +27,8 @@ patch(Message.prototype, {
     get removeParams() {
         return { ...super.removeParams, rating_value: false };
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

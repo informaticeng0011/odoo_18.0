@@ -32,12 +32,15 @@ ERROR_MESSAGES = {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class SmsApi:
     DEFAULT_ENDPOINT = 'https://sms.api.odoo.com'
 
     def __init__(self, env, account=None):
         self.env = env
 =======
+=======
+>>>>>>> upstream/18.0
 class SmsApiBase:
     PROVIDER_TO_SMS_FAILURE_TYPE = {
         'server_error': 'sms_server',
@@ -70,6 +73,9 @@ class SmsApi(SmsApiBase):  # TODO RIGR in master: rename SmsApi to SmsApiIAP, an
 
     def __init__(self, env, account=None):
         super().__init__(env, account=account)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.account = account or self.env['iap.account'].get('sms')
 
@@ -82,7 +88,11 @@ class SmsApi(SmsApiBase):  # TODO RIGR in master: rename SmsApi to SmsApiIAP, an
         return iap_tools.iap_jsonrpc(endpoint + local_endpoint, params=params, timeout=timeout)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _send_sms_batch(self, messages, delivery_reports_url=False):
+=======
+    def _send_sms_batch(self, messages, delivery_reports_url=False):  # TODO RIGR: switch to kwargs in master
+>>>>>>> upstream/18.0
 =======
     def _send_sms_batch(self, messages, delivery_reports_url=False):  # TODO RIGR: switch to kwargs in master
 >>>>>>> upstream/18.0
@@ -100,7 +110,11 @@ class SmsApi(SmsApiBase):  # TODO RIGR in master: rename SmsApi to SmsApiIAP, an
               }, ...
           ]```
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param str delivery_reports_url: url to route receiving delivery reports
+=======
+        :param str delivery_reports_url: url to route receiving delivery reports. Deprecated  # TODO RIGR: remove in master
+>>>>>>> upstream/18.0
 =======
         :param str delivery_reports_url: url to route receiving delivery reports. Deprecated  # TODO RIGR: remove in master
 >>>>>>> upstream/18.0
@@ -137,7 +151,12 @@ class SmsApi(SmsApiBase):  # TODO RIGR in master: rename SmsApi to SmsApiIAP, an
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
+=======
+        error_dict = super()._get_sms_api_error_messages()
+        error_dict.update({
+>>>>>>> upstream/18.0
 =======
         error_dict = super()._get_sms_api_error_messages()
         error_dict.update({
@@ -150,7 +169,12 @@ class SmsApi(SmsApiBase):  # TODO RIGR in master: rename SmsApi to SmsApiIAP, an
             'incompatible_content': _("The content of the message violates rules applied by our providers."),
             'registration_needed': ' '.join([_("Country-specific registration required."), register_now]),
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
+=======
+        })
+        return error_dict
+>>>>>>> upstream/18.0
 =======
         })
         return error_dict

@@ -6,6 +6,10 @@
 # Wil Odoo, 2024
 # Marianna Ciofani, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 12:50+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Marianna Ciofani, 2024\n"
+=======
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -228,7 +236,11 @@ msgstr "Dopo l'ultimo aggiornamento"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__filter_domain
 msgid "Apply on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Applicato a"
+=======
+msgstr "Applicare a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Applicare a"
 >>>>>>> upstream/18.0
@@ -287,7 +299,11 @@ msgstr "In base al campo data"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__filter_pre_domain
 msgid "Before Update Domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dominio prima dell'aggiornamento"
+=======
+msgstr "Dominio pre-aggiornamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dominio pre-aggiornamento"
 >>>>>>> upstream/18.0
@@ -380,7 +396,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_date_range
 msgid "Delay after trigger date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trigger data programmata"
+=======
+msgstr "Ritardo dopo data attivazione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ritardo dopo data attivazione"
 >>>>>>> upstream/18.0
@@ -389,7 +409,11 @@ msgstr "Ritardo dopo data attivazione"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_date_range_type
 msgid "Delay type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipo ritardo"
+=======
+msgstr "Tipologia ritardo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipologia ritardo"
 >>>>>>> upstream/18.0
@@ -541,7 +565,11 @@ msgstr "Tieni traccia delle attività dell'automazione e perché esiste..."
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__last_run
 msgid "Last Run"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima Esecuzione"
+=======
+msgstr "Ultima esecuzione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima esecuzione"
 >>>>>>> upstream/18.0
@@ -643,7 +671,11 @@ msgstr "Note"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__on_change_field_ids
 msgid "On Change Fields Trigger"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Attivatore delle modifiche sui campi"
+=======
+msgstr "Campi attivatori onchange"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campi attivatori onchange"
 >>>>>>> upstream/18.0
@@ -877,8 +909,13 @@ msgid ""
 "\"%(state_value)s\" action type"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Il \"%(trigger_value)s\" %(trigger_label)s può solo essere utilizzato con il"
 " tipo di azione \"%(state_value)s\" "
+=======
+"L'%(trigger_label)s di tipo \"%(trigger_value)s\" può essere utilizzata solo"
+" con l'azione \"%(state_value)s\" "
+>>>>>>> upstream/18.0
 =======
 "L'%(trigger_label)s di tipo \"%(trigger_value)s\" può essere utilizzata solo"
 " con l'azione \"%(state_value)s\" "
@@ -933,7 +970,11 @@ msgstr "Attivazione"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_date_id
 msgid "Trigger Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data Avvio Automatico"
+=======
+msgstr "Data attivazione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data attivazione"
 >>>>>>> upstream/18.0
@@ -1000,7 +1041,11 @@ msgstr "Utilizzo"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_date_calendar_id
 msgid "Use Calendar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utilizza calendario"
+=======
+msgstr "Utilizzare calendario"
+>>>>>>> upstream/18.0
 =======
 msgstr "Utilizzare calendario"
 >>>>>>> upstream/18.0
@@ -1021,7 +1066,11 @@ msgstr "Valori aggiornati"
 #: code:addons/base_automation/models/base_automation.py:0
 msgid "Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Attenzione"
+=======
+msgstr "Avviso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avviso"
 >>>>>>> upstream/18.0
@@ -1066,8 +1115,13 @@ msgid ""
 "                If present, will be checked by the scheduler. If empty, will be checked at creation and update."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Indica quando deve essere attivata la condizione.\n"
 "                Se presente, verrà controllata dal pianificatore. Se il campo è vuoto, il valore verrà controllato durante la crezione e al momento dell'aggiornamento."
+=======
+"Quando deve essere attivata la condizione.\n"
+"                Se presente, viene controllata dal pianificatore. Se vuoto, viene controllata alla creazione e all'aggiornamento."
+>>>>>>> upstream/18.0
 =======
 "Quando deve essere attivata la condizione.\n"
 "                Se presente, viene controllata dal pianificatore. Se vuoto, viene controllata alla creazione e all'aggiornamento."
@@ -1077,7 +1131,11 @@ msgstr ""
 #: model:ir.model.fields,help:base_automation.field_base_automation__active
 msgid "When unchecked, the rule is hidden and will not be executed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Quando non è spuntato la regola sarà nascosta e non verrà eseguita"
+=======
+msgstr "Se non selezionata, la regola è nascosta e non viene eseguita."
+>>>>>>> upstream/18.0
 =======
 msgstr "Se non selezionata, la regola è nascosta e non viene eseguita."
 >>>>>>> upstream/18.0

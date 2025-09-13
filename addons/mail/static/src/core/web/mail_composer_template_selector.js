@@ -38,7 +38,11 @@ export class MailComposerTemplateSelector extends Component {
             templates.push(...await this.orm.searchRead("mail.template", [
                 ["model", "=", this.props.record.data.render_model],
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ["user_id", "!=", user.userId]
+=======
+                ["user_id", "=", false]
+>>>>>>> upstream/18.0
 =======
                 ["user_id", "=", false]
 >>>>>>> upstream/18.0

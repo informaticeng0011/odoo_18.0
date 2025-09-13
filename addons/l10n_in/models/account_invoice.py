@@ -50,6 +50,7 @@ class AccountMove(models.Model):
     @api.depends('partner_id', 'partner_shipping_id', 'company_id')
     def _compute_l10n_in_state_id(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         for move in self:
             if move.country_code == 'IN' and move.is_sale_document(include_receipts=True):
                 partner_state = (
@@ -65,6 +66,8 @@ class AccountMove(models.Model):
                 else:
                     move.l10n_in_state_id = self.env.ref('l10n_in.state_in_oc', raise_if_not_found=False)
 =======
+=======
+>>>>>>> upstream/18.0
         foreign_state = self.env.ref('l10n_in.state_in_oc', raise_if_not_found=False)
         for move in self:
             if move.country_code == 'IN' and move.is_sale_document(include_receipts=True):
@@ -79,6 +82,9 @@ class AccountMove(models.Model):
                 partner_state = partner.state_id or move.partner_id.commercial_partner_id.state_id or move.company_id.state_id
                 country_code = partner_state.country_id.code or move.country_code
                 move.l10n_in_state_id = partner_state if country_code == 'IN' else foreign_state
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             elif move.country_code == 'IN' and move.journal_id.type == 'purchase':
                 move.l10n_in_state_id = move.company_id.state_id

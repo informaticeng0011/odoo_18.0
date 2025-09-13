@@ -4,10 +4,17 @@
 #
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 09:39+0000\n"
 "PO-Revision-Date: 2025-05-23 09:39+0000\n"
+=======
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 13:53+0000\n"
+"PO-Revision-Date: 2025-09-11 13:53+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,7 +25,10 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "%s has been generated"
 msgstr ""
 
@@ -40,42 +50,61 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "- Country is required"
 msgstr ""
 
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "- State is required"
 msgstr ""
 
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "- TIN number not set in state %s"
 msgstr ""
 
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+#: code:addons/l10n_in_ewaybill_stock/tests/test_ewaybill_stock.py:0
+>>>>>>> upstream/18.0
 msgid "- Transporter %s does not have a GST Number"
 msgstr ""
 
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "- Vehicle type can not be regular when the transportation mode is ship"
 msgstr ""
 
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "- Zip code required and should be 6 digits"
 msgstr ""
 
@@ -236,7 +265,10 @@ msgstr ""
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
 #: model:ir.model,name:l10n_in_ewaybill_stock.model_l10n_in_ewaybill_cancel
 #: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill_stock.view_ewaybill_cancel_form
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Cancel Ewaybill"
 msgstr ""
 
@@ -278,9 +310,13 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
 #: model:ir.model.fields.selection,name:l10n_in_ewaybill_stock.selection__l10n_in_ewaybill__state__challan
 #, python-format
+=======
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill_stock.selection__l10n_in_ewaybill__state__challan
+>>>>>>> upstream/18.0
 msgid "Challan"
 msgstr ""
 
@@ -408,7 +444,10 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Document number should be set and not more than 16 characters"
 msgstr ""
 
@@ -431,7 +470,10 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "E-Waybill"
 msgstr ""
 
@@ -449,7 +491,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/tools/ewaybill_api.py:0
 #: model:ir.model.fields.selection,name:l10n_in_ewaybill_stock.selection__l10n_in_ewaybill__blocking_level__error
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Error"
 msgstr ""
 
@@ -479,7 +524,10 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/stock_picking.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Ewaybill already created for this picking."
 msgstr ""
 
@@ -546,7 +594,10 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "HSN code is not set in product %s"
 msgstr ""
 
@@ -590,8 +641,12 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
 msgid "Invalid HSN Code (%s) in product %s"
+=======
+msgid "Invalid HSN Code (%(hsn_code)s) in product %(product)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_in_ewaybill_stock
@@ -709,7 +764,10 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Only Delivery Challan and Cancelled E-waybill can be reset to pending."
 msgstr ""
 
@@ -745,14 +803,20 @@ msgstr ""
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
 #: code:addons/l10n_in_ewaybill_stock/tests/test_ewaybill_stock.py:0
 #: model:ir.model.fields.selection,name:l10n_in_ewaybill_stock.selection__l10n_in_ewaybill__state__pending
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Pending"
 msgstr ""
 
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Please generate the E-Waybill or mark the document as a Challan to print it."
 msgstr ""
@@ -760,7 +824,10 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/stock_picking.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Please set HSN code in below products: \n"
 "%s"
@@ -836,7 +903,10 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Set GST Treatment for in %s"
 msgstr ""
 
@@ -852,12 +922,20 @@ msgstr ""
 
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/l10n_in_ewaybill_stock/tools/ewaybill_api.py:0
 #, python-format
 msgid ""
 "Somehow this E-waybill has been %s in the government portal before. You can "
 "verify by checking the details into the government "
 "(https://ewaybillgst.gov.in/Others/EBPrintnew.asp)"
+=======
+#: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+msgid ""
+"Somehow this E-waybill has been %s in the government portal before. You can "
+"verify by checking the details into the government "
+"(https://ewaybillgst.gov.in/Others/EBPrintnew.aspx)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_in_ewaybill_stock
@@ -917,14 +995,20 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "The challan can only be generated in the Pending state."
 msgstr ""
 
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "This document is being sent by another process already."
 msgstr ""
 
@@ -1016,7 +1100,10 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/tools/ewaybill_api.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Unable to connect to the E-WayBill service.The web service may be temporary "
 "down. Please try again in a moment."
@@ -1025,7 +1112,10 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/tools/ewaybill_api.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Unable to send E-waybill.Create an API user in NIC portal, and set it using "
 "the top menu: Configuration > Settings."
@@ -1074,7 +1164,10 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/tools/ewaybill_api.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "We don't know the error message for this error code. Please contact support."
 msgstr ""
@@ -1092,12 +1185,24 @@ msgstr ""
 #. module: l10n_in_ewaybill_stock
 #. odoo-python
 #: code:addons/l10n_in_ewaybill_stock/models/l10n_in_ewaybill.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "You cannot delete a generated E-waybill. Instead, you should cancel it."
 msgstr ""
 
 #. module: l10n_in_ewaybill_stock
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/l10n_in_ewaybill_stock/tools/ewaybill_api.py:0
+msgid "cancelled"
+msgstr ""
+
+#. module: l10n_in_ewaybill_stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill_stock.report_ewaybill
 msgid "e-Way Bill"
 msgstr ""
@@ -1129,6 +1234,15 @@ msgid "eway Bill No:"
 msgstr ""
 
 #. module: l10n_in_ewaybill_stock
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/l10n_in_ewaybill_stock/tools/ewaybill_api.py:0
+msgid "generated"
+msgstr ""
+
+#. module: l10n_in_ewaybill_stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill_stock.report_ewaybill
 msgid "km"
 msgstr ""

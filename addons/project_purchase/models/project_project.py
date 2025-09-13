@@ -182,6 +182,10 @@ class Project(models.Model):
                 ('move_id.move_type', 'in', ['in_invoice', 'in_refund']),
                 ('parent_state', 'in', ['draft', 'posted']),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ('price_subtotal', '!=', 0),
+>>>>>>> upstream/18.0
 =======
                 ('price_subtotal', '!=', 0),
 >>>>>>> upstream/18.0

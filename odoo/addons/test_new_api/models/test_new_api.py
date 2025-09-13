@@ -1559,7 +1559,10 @@ class ComputeMember(models.Model):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 class ComputeCreator(models.Model):
     """ This model has a computed field that creates a new record. """
     _name = _description = 'test_new_api.compute.creator'
@@ -1593,6 +1596,9 @@ class ComputeCreated(models.Model):
             record.value = len(record.name or "")
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 class User(models.Model):
     _name = _description = 'test_new_api.user'
@@ -2270,7 +2276,10 @@ class SharedComputeMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2321,6 +2330,9 @@ class BinaryTest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

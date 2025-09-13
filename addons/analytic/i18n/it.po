@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* analytic
 # 
 # Translators:
@@ -8,6 +9,8 @@
 # Marianna Ciofani, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * analytic
 #
 # Translators:
@@ -15,11 +18,15 @@
 # Marianna Ciofani, 2025
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 # "Marianna Ciofani (cima)" <cima@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -31,6 +38,8 @@ msgstr ""
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-15 18:36+0000\n"
 "PO-Revision-Date: 2025-08-18 12:31+0000\n"
 "Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
@@ -43,6 +52,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: analytic
@@ -53,13 +65,19 @@ msgstr "%s (copia)"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/analytic/models/analytic_line.py:0
 msgid "%s analytic lines created"
 msgstr "%s righe analitiche create"
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "<span class=\"o_stat_text\">Analytic Accounts</span>"
@@ -69,7 +87,11 @@ msgstr "<span class=\"o_stat_text\">Conti analitici</span>"
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
 msgid "<span class=\"o_stat_text\">Gross Margin</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"o_stat_text\">Margine Lordo</span>"
+=======
+msgstr "<span class=\"o_stat_text\">Margine lordo</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Margine lordo</span>"
 >>>>>>> upstream/18.0
@@ -121,7 +143,11 @@ msgstr "Aggiungi una Riga"
 #: model_terms:ir.actions.act_window,help:analytic.action_analytic_account_form
 msgid "Add a new analytic account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aggiunge un nuovo conto analitico"
+=======
+msgstr "Aggiungi un nuovo conto analitico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aggiungi un nuovo conto analitico"
 >>>>>>> upstream/18.0
@@ -184,6 +210,10 @@ msgstr "Numero conti analitici"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_distribution
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
 >>>>>>> upstream/18.0
@@ -199,7 +229,11 @@ msgstr "Distribuzione analitica"
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_tree_view
 msgid "Analytic Distribution Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modello di distribuzione analitico"
+=======
+msgstr "Modello di ripartizione analitica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modello di ripartizione analitica"
 >>>>>>> upstream/18.0
@@ -208,7 +242,11 @@ msgstr "Modello di ripartizione analitica"
 #: model:ir.actions.act_window,name:analytic.action_analytic_distribution_model
 msgid "Analytic Distribution Models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modelli di distribuzione analitici"
+=======
+msgstr "Modelli di ripartizione analitica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modelli di ripartizione analitica"
 >>>>>>> upstream/18.0
@@ -217,7 +255,11 @@ msgstr "Modelli di ripartizione analitica"
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_form
 msgid "Analytic Item"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Elemento analitico"
+=======
+msgstr "Movimento analitico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Movimento analitico"
 >>>>>>> upstream/18.0
@@ -259,7 +301,11 @@ msgstr "Campi piano analitico"
 #: model:ir.model,name:analytic.model_account_analytic_applicability
 msgid "Analytic Plan's Applicabilities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Applicabilità del piano analitico"
+=======
+msgstr "Applicabilità piano analitico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Applicabilità piano analitico"
 >>>>>>> upstream/18.0
@@ -275,6 +321,10 @@ msgstr "Piani analitici"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_precision
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
 >>>>>>> upstream/18.0
@@ -364,7 +414,11 @@ msgstr "Categoria"
 #: model:ir.actions.act_window,name:analytic.action_analytic_account_form
 msgid "Chart of Analytic Accounts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Piano dei conti analitico"
+=======
+msgstr "Piano dei conti analitici"
+>>>>>>> upstream/18.0
 =======
 msgstr "Piano dei conti analitici"
 >>>>>>> upstream/18.0
@@ -378,7 +432,11 @@ msgstr "Numero di piani figli"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__children_ids
 msgid "Childrens"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Figli"
+=======
+msgstr "Secondari"
+>>>>>>> upstream/18.0
 =======
 msgstr "Secondari"
 >>>>>>> upstream/18.0
@@ -439,9 +497,15 @@ msgid ""
 "same category. The conversion will be made based on the ratios."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Conversioni tra diverse unità di misura sono permesse solo se appartengono "
 "alla stessa categoria. La conversione sarà effettuata utilizzando i rapporti"
 " di conversione delle unità di misura."
+=======
+"Le conversioni tra unità di misura possono avvenire solo se appartengono "
+"alla stessa categoria. La conversione verrà effettuata in base alle "
+"proporzioni."
+>>>>>>> upstream/18.0
 =======
 "Le conversioni tra unità di misura possono avvenire solo se appartengono "
 "alla stessa categoria. La conversione verrà effettuata in base alle "
@@ -456,8 +520,13 @@ msgid ""
 "                invoices, expenses or timesheets."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "I costi verranno creati in modo automatico con la registrazione di\n"
 "                fatture fornitore, note spese o fogli ore."
+=======
+"I costi vengono generati in modo automatico con la registrazione di\n"
+"                fatture fornitore, spese oppure fogli ore."
+>>>>>>> upstream/18.0
 =======
 "I costi vengono generati in modo automatico con la registrazione di\n"
 "                fatture fornitore, spese oppure fogli ore."
@@ -579,13 +648,19 @@ msgstr "Dominio"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Don't update"
 msgstr "Non aggiornare"
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.analytic.account,name:analytic.analytic_rd_finance
 msgid "Finance"
@@ -653,6 +728,7 @@ msgstr "Se selezionata, alcuni messaggi presentano un errore di consegna."
 msgid ""
 "In Odoo, sales orders and projects are implemented using\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
@@ -660,6 +736,8 @@ msgstr ""
 "                conti analitici. È possibile tenere traccia dei costi e dei ricavi\n"
 "                per analizzare facilmente i margini."
 =======
+=======
+>>>>>>> upstream/18.0
 "                analytic accounts. You can track costs and revenues to "
 "analyse\n"
 "                your margins easily."
@@ -668,6 +746,9 @@ msgstr ""
 "                i conti analitici. Per analizzare facilmente i margini è "
 "possibile\n"
 "                tenere traccia dei costi e dei ricavi."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: analytic
@@ -741,13 +822,19 @@ msgstr "Varie"
 
 #. module: analytic
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Multi edit"
 msgstr "Elaborazione multipla"
 
 #. module: analytic
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__name
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_list
@@ -806,7 +893,11 @@ msgstr "Numero di messaggi con errore di consegna"
 #: code:addons/analytic/models/analytic_mixin.py:0
 msgid "One or more lines require a 100% analytic distribution."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Una o più righe richiedono una distribuzione analitica al 100%·"
+=======
+msgstr "Una o più righe richiedono una ripartizione analitica al 100%·"
+>>>>>>> upstream/18.0
 =======
 msgstr "Una o più righe richiedono una ripartizione analitica al 100%·"
 >>>>>>> upstream/18.0
@@ -847,7 +938,11 @@ msgstr "Principale"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__parent_path
 msgid "Parent Path"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Percorso padre"
+=======
+msgstr "Percorso primario"
+>>>>>>> upstream/18.0
 =======
 msgstr "Percorso primario"
 >>>>>>> upstream/18.0
@@ -873,7 +968,11 @@ msgstr "Percentuale"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__plan_id
 msgid "Plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pianificazione"
+=======
+msgstr "Piano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Piano"
 >>>>>>> upstream/18.0
@@ -922,6 +1021,7 @@ msgstr "Ricerca & Sviluppo"
 msgid ""
 "Revenues will be created automatically when you create customer\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                invoices. Customer invoices can be created based on sales orders\n"
 "                (fixed price invoices), on timesheets (based on the work done) or\n"
 "                on expenses (e.g. reinvoicing of travel costs)."
@@ -931,6 +1031,8 @@ msgstr ""
 "                (fatturazione a prezzo fisso), ai fogli ore (in base al lavoro fatto) o alle\n"
 "                spese (es. rifatturazione delle spese di viaggio)."
 =======
+=======
+>>>>>>> upstream/18.0
 "                invoices. Customer invoices can be created based on sales "
 "orders\n"
 "                (fixed price invoices), on timesheets (based on the work "
@@ -944,6 +1046,9 @@ msgstr ""
 "lavoro effettuato)\n"
 "                oppure alle spese (es. rifatturazione delle spese di "
 "viaggio)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: analytic
@@ -971,7 +1076,11 @@ msgstr "Seagate P2"
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_filter
 msgid "Search Analytic Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ricerca registraioni analitiche"
+=======
+msgstr "Ricerca righe analitiche"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ricerca righe analitiche"
 >>>>>>> upstream/18.0
@@ -991,8 +1100,13 @@ msgid ""
 msgstr ""
 "Seleziona un'azienda per la quale verrà utilizzata la distribuzione "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "analitica (ad es. crea una nuova fattura cliente oppure un ordine di vendita"
 " se quest'azienda viene selezionata, ciò verrà considerato automaticamente "
+=======
+"analitica (ad es. crea una nuova fattura cliente oppure un ordine di vendita "
+"se quest'azienda viene selezionata, ciò verrà considerato automaticamente "
+>>>>>>> upstream/18.0
 =======
 "analitica (ad es. crea una nuova fattura cliente oppure un ordine di vendita "
 "se quest'azienda viene selezionata, ciò verrà considerato automaticamente "
@@ -1009,8 +1123,13 @@ msgstr ""
 "Seleziona una categoria partner per la quale verrà utilizzata la "
 "distribuzione analitica (ad es. crea una nuova fattura cliente oppure un "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ordine di vendita se questo partner viene selezionato, ciò verrà considerato"
 " automaticamente conto analitico)"
+=======
+"ordine di vendita se questo partner viene selezionato, ciò verrà considerato "
+"automaticamente conto analitico)"
+>>>>>>> upstream/18.0
 =======
 "ordine di vendita se questo partner viene selezionato, ciò verrà considerato "
 "automaticamente conto analitico)"
@@ -1026,8 +1145,13 @@ msgstr ""
 "Seleziona un partner per il quale verrà utilizzata la distribuzione "
 "analitica (ad es. crea una una fattura cliente oppure un ordine di vendita "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "se il partner viene selezionato, ciò verrà considerato automaticamente conto"
 " analitico)"
+=======
+"se il partner viene selezionato, ciò verrà considerato automaticamente conto "
+"analitico)"
+>>>>>>> upstream/18.0
 =======
 "se il partner viene selezionato, ciò verrà considerato automaticamente conto "
 "analitico)"
@@ -1074,8 +1198,11 @@ msgstr "Unità di misura"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__product_uom_category_id
 msgid "UoM Category"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Categoria unità di misura"
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Categoria UdM"
 
 #. module: analytic
@@ -1083,6 +1210,9 @@ msgstr "Categoria UdM"
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Update"
 msgstr "Aggiorna"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: analytic
@@ -1095,8 +1225,13 @@ msgstr "Utente"
 #: code:addons/analytic/models/analytic_account.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Whoa there! Making this change would wipe out your current data. Let's avoid"
 " that, shall we?"
+=======
+"Whoa there! Making this change would wipe out your current data. Let's avoid "
+"that, shall we?"
+>>>>>>> upstream/18.0
 =======
 "Whoa there! Making this change would wipe out your current data. Let's avoid "
 "that, shall we?"
@@ -1130,8 +1265,13 @@ msgid ""
 msgstr ""
 "È stata indicata una distribuzione con uno o più conti analitici che "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "appartengono ad un'azienda specifica ma un modello condiviso tra più aziende"
 " o con un'azienda diversa"
+=======
+"appartengono ad un'azienda specifica ma un modello condiviso tra più aziende "
+"o con un'azienda diversa"
+>>>>>>> upstream/18.0
 =======
 "appartengono ad un'azienda specifica ma un modello condiviso tra più aziende "
 "o con un'azienda diversa"
@@ -1141,7 +1281,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
 msgid "e.g. Project XYZ"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "es. progetto XYZ"
+=======
+msgstr "es. Progetto XYZ"
+>>>>>>> upstream/18.0
 =======
 msgstr "es. Progetto XYZ"
 >>>>>>> upstream/18.0

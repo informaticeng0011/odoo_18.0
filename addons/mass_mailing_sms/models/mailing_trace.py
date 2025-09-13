@@ -45,12 +45,18 @@ class MailingTrace(models.Model):
         ('sms_not_delivered', 'Not Delivered'),
         ('sms_rejected', 'Rejected'),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # twilio specific: to move in bridge module in master
         ('twilio_authentication', 'Authentication Error"'),
         ('twilio_callback', 'Incorrect callback URL'),
         ('twilio_from_missing', 'Missing From Number'),
         ('twilio_from_to', 'From / To identic'),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     ])
 
@@ -74,7 +80,10 @@ class MailingTrace(models.Model):
         return super(MailingTrace, self).create(values_list)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.model
     def fields_get(self, allfields=None, attributes=None):
         # As we are adding keys in stable, better be sure no-one is getting crashes
@@ -103,6 +112,9 @@ class MailingTrace(models.Model):
 
         return res
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_random_code(self):
         """ Generate a random code for trace. Uniqueness is not really necessary

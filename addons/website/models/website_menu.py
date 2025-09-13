@@ -68,7 +68,10 @@ class Menu(models.Model):
             menu.display_name = menu_name
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.constrains("parent_id", "child_id", "is_mega_menu", "mega_menu_content")
     def _validate_parent_menu(self):
         """
@@ -100,13 +103,20 @@ class Menu(models.Model):
                 if record.child_id and (parent_menu.parent_id or record.child_id.child_id):
                     raise UserError(_("Menus with child menus cannot be added as a submenu."))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.model_create_multi
     def create(self, vals_list):
         ''' In case a menu without a website_id is trying to be created, we duplicate
             it for every website.
 <<<<<<< HEAD
+<<<<<<< HEAD
             Note: Particulary useful when installing a module that adds a menu like
+=======
+            Note: Particularly useful when installing a module that adds a menu like
+>>>>>>> upstream/18.0
 =======
             Note: Particularly useful when installing a module that adds a menu like
 >>>>>>> upstream/18.0
@@ -130,6 +140,7 @@ class Menu(models.Model):
                 continue
             else:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # create for every site
                 w_vals = [dict(vals, **{
                     'website_id': website.id,
@@ -139,6 +150,8 @@ class Menu(models.Model):
                 # if creating a default menu, we should also save it as such
                 default_menu = self.env.ref('website.main_menu', raise_if_not_found=False)
 =======
+=======
+>>>>>>> upstream/18.0
                 # if creating a default menu, we should also save it as such
                 default_menu = self.env.ref('website.main_menu', raise_if_not_found=False)
                 # create for every site
@@ -153,6 +166,9 @@ class Menu(models.Model):
                         'parent_id': parent_id,
                     })
                 new_menu = super().create(w_vals)[-1:]  # take the last record
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 if default_menu and vals.get('parent_id') == default_menu.id:
                     new_menu = super().create(vals)

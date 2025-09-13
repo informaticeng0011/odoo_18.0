@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* barcodes_gs1_nomenclature
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Maitê Dietze, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Maitê Dietze, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-08 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Maitê Dietze, 2024\n"
@@ -48,6 +57,9 @@ msgid ""
 "A GS1 barcode nomenclature pattern was matched. However, the barcode failed "
 "to be converted to a valid date: '%(error_message)'"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
@@ -227,7 +239,12 @@ msgid ""
 msgstr ""
 "O padrão de regra \"%s\" não é válido, ele precisa de dois grupos:\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\t- Um primeiro para o identificador do aplicativo (geralmente de 2 a 4 dígitos);\n"
+=======
+"\t- Um primeiro para o identificador do aplicativo (geralmente de 2 a 4 "
+"dígitos);\n"
+>>>>>>> upstream/18.0
 =======
 "\t- Um primeiro para o identificador do aplicativo (geralmente de 2 a 4 "
 "dígitos);\n"
@@ -246,6 +263,7 @@ msgstr "O padrão de regra '%(rule)s' não é um Regex válido: %(error)s"
 msgid ""
 "There is something wrong with the barcode rule \"%s\" pattern.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
@@ -253,6 +271,8 @@ msgstr ""
 "Se essa regra usar decimal, verifique se ela não pode obter outro valor que não seja um dígito como último caractere do identificador do aplicativo.\n"
 "Verifique também se os possíveis valores correspondentes só podem ser dígitos, caso contrário, o valor não poderá ser convertido em uma medida."
 =======
+=======
+>>>>>>> upstream/18.0
 "If this rule uses decimal, check it can't get sometime else than a digit as "
 "last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the "
@@ -263,6 +283,9 @@ msgstr ""
 "não seja um dígito como último caractere do identificador do aplicativo.\n"
 "Verifique também se os possíveis valores correspondentes só podem ser "
 "dígitos, caso contrário, o valor não poderá ser convertido em uma medida."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature

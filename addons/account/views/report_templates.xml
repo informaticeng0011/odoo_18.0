@@ -9,6 +9,7 @@
     <template id="report_invoice_document_preview" inherit_id="account.report_invoice_document" primary="True">
         <xpath expr="//div[@id='qrcode']" position="replace">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div t-if="qr_code" class="d-flex mb-3 avoid-page-break-inside">
                 <div class="qrcode me-3" id="qrcode_image">
                     <p class="position-relative mb-0">
@@ -27,6 +28,8 @@
         </xpath>
     </template>
 =======
+=======
+>>>>>>> upstream/18.0
             <t t-if="qr_code" t-call="account.report_invoice_qr_code_preview"/>
         </xpath>
         <xpath expr="//p[@name='payment_communication']//t[@t-if='o.partner_bank_id']" position="replace">
@@ -63,5 +66,8 @@
             </div>
         </div>
     </template>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 </odoo>

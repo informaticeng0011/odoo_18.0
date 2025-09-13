@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 # 
+=======
+# * mrp
+#
+>>>>>>> upstream/18.0
 =======
 # * mrp
 #
@@ -39,6 +44,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Luka Carević <luka@uvid.hr>, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -366,16 +372,22 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # Goran Kliska <gkliska@gmail.com>, 2025
 # Ivica Dimjašević, 2025
 # Jurica Pomper, 2025
 # Luka Carević <luka@uvid.hr>, 2025
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -827,6 +839,8 @@ msgstr ""
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-06-13 18:36+0000\n"
 "PO-Revision-Date: 2025-08-26 14:55+0000\n"
 "Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
@@ -839,6 +853,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -1397,11 +1414,17 @@ msgid ""
 "                                Instead, it is used to decompose a BoM into its components when:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "BOM (struktura proizvoda) vrsta \"skup proizvoda\" ne proizvodi se putem "
 "naloga za proizvodnju.<br/>\n"
 "                               Umjesto toga, koristi se za raščlambu "
 "strukture na njezine komponente kada:"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -1553,7 +1576,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__group_mrp_reception_report
 msgid "Allocation Report for Manufacturing Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvještaj o alokaciji za proizvodne naloge"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvještaj o alokaciji za proizvodne naloge"
 >>>>>>> upstream/18.0
@@ -1688,7 +1715,11 @@ msgstr "Vrijednosti atributa"
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_mrp_reception_report
 msgid "Auto Print Allocation Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatski ispiši izvještaj o raspodjeli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatski ispiši izvještaj o raspodjeli"
 >>>>>>> upstream/18.0
@@ -1697,7 +1728,11 @@ msgstr "Automatski ispiši izvještaj o raspodjeli"
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_mrp_reception_report_labels
 msgid "Auto Print Allocation Report Labels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatski ispiši naljepnice za izvještaj o raspodjeli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatski ispiši naljepnice za izvještaj o raspodjeli"
 >>>>>>> upstream/18.0
@@ -1706,7 +1741,11 @@ msgstr "Automatski ispiši naljepnice za izvještaj o raspodjeli"
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_done_production_order
 msgid "Auto Print Done Production Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatski ispiši dovršene proizvodne narudžbe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatski ispiši dovršene proizvodne narudžbe"
 >>>>>>> upstream/18.0
@@ -1715,7 +1754,11 @@ msgstr "Automatski ispiši dovršene proizvodne narudžbe"
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_generated_mrp_lot
 msgid "Auto Print Generated Lot/SN Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatski ispiši naljepnicu za generirani lot/SN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatski ispiši naljepnicu za generirani lot/SN"
 >>>>>>> upstream/18.0
@@ -1724,7 +1767,11 @@ msgstr "Automatski ispiši naljepnicu za generirani lot/SN"
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_done_mrp_lot
 msgid "Auto Print Produced Lot Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatski ispiši naljepnicu za proizvedeni lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatski ispiši naljepnicu za proizvedeni lot"
 >>>>>>> upstream/18.0
@@ -1733,7 +1780,11 @@ msgstr "Automatski ispiši naljepnicu za proizvedeni lot"
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_done_mrp_product_labels
 msgid "Auto Print Produced Product Labels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatski ispiši naljepnice za proizvedene proizvode"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatski ispiši naljepnice za proizvedene proizvode"
 >>>>>>> upstream/18.0
@@ -1975,6 +2026,12 @@ msgid ""
 "                order or a pack of products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sastavnice omogućuju definiranje popisa potrebnih sirovina koje se koriste "
+"za izradu gotovog proizvoda – putem proizvodne narudžbe ili paketa "
+"proizvoda."
+>>>>>>> upstream/18.0
 =======
 "Sastavnice omogućuju definiranje popisa potrebnih sirovina koje se koriste "
 "za izradu gotovog proizvoda – putem proizvodne narudžbe ili paketa "
@@ -2476,7 +2533,11 @@ msgid "Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Potrvdi"
+=======
+msgstr "Potvrdi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potvrdi"
 >>>>>>> upstream/18.0
@@ -2750,7 +2811,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_stock_move__consume_unbuild_id
 msgid "Consumed Disassembly Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrošeni nalozi za rastavljanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrošeni nalozi za rastavljanje"
 >>>>>>> upstream/18.0
@@ -2803,7 +2868,11 @@ msgstr "Kopiraj obilježene operacije"
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Cost Breakdown of Products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Analiza troškova proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiza troškova proizvoda"
 >>>>>>> upstream/18.0
@@ -2885,7 +2954,11 @@ msgstr "Broj povezanih zaostalih naloga"
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__use_create_components_lots
 msgid "Create New Lots/Serial Numbers for Components"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kreiraj nove lot/serijske brojeve za komponente"
+=======
+msgstr "Kreiraj nove lot/SN za komponente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj nove lot/SN za komponente"
 >>>>>>> upstream/18.0
@@ -3162,7 +3235,11 @@ msgstr "Odgodi datum upozorenja"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Delayed Productions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Odgođenih proizvodnji"
+=======
+msgstr "Odgođena proizvodnja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odgođena proizvodnja"
 >>>>>>> upstream/18.0
@@ -3261,6 +3338,10 @@ msgstr "Nalog za rastavljanje"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -3679,7 +3760,11 @@ msgstr "Filteri"
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__location_final_id
 msgid "Final Location from procurement"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nabava za odredišnu lokaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nabava za odredišnu lokaciju"
 >>>>>>> upstream/18.0
@@ -3868,7 +3953,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__generated_mrp_lot_label_to_print
 msgid "Generated Lot/SN Label to Print"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naljepnica generiranog lota/serijskog broja za ispis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naljepnica generiranog lota/serijskog broja za ispis"
 >>>>>>> upstream/18.0
@@ -3899,7 +3988,11 @@ msgstr "Određuje redoslijed stavaka u prikazu."
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_routing_workcenter__worksheet_type__google_slide
 msgid "Google Slide"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google prezentacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google prezentacija"
 >>>>>>> upstream/18.0
@@ -3932,7 +4025,11 @@ msgstr "Grupiraj po..."
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid "Hardware"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hardver"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hardver"
 >>>>>>> upstream/18.0
@@ -3991,7 +4088,10 @@ msgstr "ima Stavke ruta"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4081,6 +4181,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4146,7 +4249,11 @@ msgstr "Skriveno"
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__manual_consumption
 msgid "Highlight Consumption"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Istakni utrošak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Istakni utrošak"
 >>>>>>> upstream/18.0
@@ -4384,7 +4491,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__is_locked
 msgid "Is Locked"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Je Zaključano"
+=======
+msgstr "Je zaključano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je zaključano"
 >>>>>>> upstream/18.0
@@ -4418,7 +4529,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__is_planned
 msgid "Its Operations are Planned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čije su operacije planirane"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čije su operacije planirane"
 >>>>>>> upstream/18.0
@@ -4446,7 +4561,11 @@ msgstr "Graf kanban kontrolne ploče"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_bom_filter
 msgid "Kit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kit"
+=======
+msgstr "Skup proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skup proizvoda"
 >>>>>>> upstream/18.0
@@ -4549,7 +4668,11 @@ msgstr "Zakašnjele aktivnosti"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Late Availability"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kasni dostupnost"
+=======
+msgstr "Zakašnjela dostupnost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zakašnjela dostupnost"
 >>>>>>> upstream/18.0
@@ -4665,7 +4788,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__done_mrp_lot_label_to_print
 msgid "Lot/SN Label to Print"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naljepnica lota/SN za ispis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naljepnica lota/SN za ispis"
 >>>>>>> upstream/18.0
@@ -4687,7 +4814,11 @@ msgstr "Lot/Serija"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__finished_lot_id
 msgid "Lot/Serial Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lot/Serijski broj"
+=======
+msgstr "Lot/SN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lot/SN"
 >>>>>>> upstream/18.0
@@ -4759,7 +4890,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "MO Pending"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvodni nalog na čekanju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proizvodni nalog na čekanju"
 >>>>>>> upstream/18.0
@@ -4774,7 +4909,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__reservation_state
 msgid "MO Readiness"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spremnost naloga za proizvodnju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spremnost naloga za proizvodnju"
 >>>>>>> upstream/18.0
@@ -4783,7 +4922,11 @@ msgstr "Spremnost naloga za proizvodnju"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "MO Ready"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spreman proizvodni nalog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spreman proizvodni nalog"
 >>>>>>> upstream/18.0
@@ -5018,7 +5161,11 @@ msgstr ""
 #: model:ir.ui.menu,name:mrp.mrp_operation_picking
 msgid "Manufacturings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvodnje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proizvodnje"
 >>>>>>> upstream/18.0
@@ -5136,7 +5283,11 @@ msgstr "Rok za moju aktivnost"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "My MOs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moji proizvodni nalozi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moji proizvodni nalozi"
 >>>>>>> upstream/18.0
@@ -5145,7 +5296,11 @@ msgstr "Moji proizvodni nalozi"
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__never_product_template_attribute_value_ids
 msgid "Never attribute values"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nikad ne postavljaj vrijednost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nikad ne postavljaj vrijednost"
 >>>>>>> upstream/18.0
@@ -5224,7 +5379,11 @@ msgstr "Još nema podataka!"
 #: model_terms:ir.actions.act_window,help:mrp.mrp_production_action
 msgid "No manufacturing order found. Let's create one."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nijedna proizvodna narudžba nije pronađena. Kreirajmo jednu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nijedna proizvodna narudžba nije pronađena. Kreirajmo jednu."
 >>>>>>> upstream/18.0
@@ -5455,7 +5614,11 @@ msgstr "Operacija"
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__allow_operation_dependencies
 msgid "Operation Dependencies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Međuovisnosti operacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Međuovisnosti operacija"
 >>>>>>> upstream/18.0
@@ -5540,7 +5703,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__orderpoint_id
 msgid "Orderpoint"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Točka narudžbe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Točka narudžbe"
 >>>>>>> upstream/18.0
@@ -5559,7 +5726,11 @@ msgstr "Originalna količina za proizvesti"
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__is_outdated_bom
 msgid "Outdated BoM"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zastarjela lista materijala"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zastarjela lista materijala"
 >>>>>>> upstream/18.0
@@ -5685,7 +5856,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_mto_pull_id
 msgid "Picking Before Manufacturing MTO Rule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravilo preuzimanja prije proizvodnje po narudžbi (MTO)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pravilo preuzimanja prije proizvodnje po narudžbi (MTO)"
 >>>>>>> upstream/18.0
@@ -5694,7 +5869,11 @@ msgstr "Pravilo preuzimanja prije proizvodnje po narudžbi (MTO)"
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_type_id
 msgid "Picking Before Manufacturing Operation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip operacije preuzimanja prije proizvodnje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip operacije preuzimanja prije proizvodnje"
 >>>>>>> upstream/18.0
@@ -5703,7 +5882,11 @@ msgstr "Tip operacije preuzimanja prije proizvodnje"
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_route_id
 msgid "Picking Before Manufacturing Route"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ruta preuzimanja prije proizvodnje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ruta preuzimanja prije proizvodnje"
 >>>>>>> upstream/18.0
@@ -5722,7 +5905,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_loc_id
 msgid "Picking before Manufacturing Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokacija preuzimanja prije proizvodnje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokacija preuzimanja prije proizvodnje"
 >>>>>>> upstream/18.0
@@ -5747,7 +5934,11 @@ msgstr "Planiranje naloga"
 #: model:ir.actions.server,name:mrp.action_plan_with_components_availability
 msgid "Plan based on Components Availability"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Planiraj prema dostupnosti komponenti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planiraj prema dostupnosti komponenti"
 >>>>>>> upstream/18.0
@@ -5756,7 +5947,11 @@ msgstr "Planiraj prema dostupnosti komponenti"
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Plan manufacturing or purchase orders based on forecasts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Planirajte proizvodne ili nabavne naloge na temelju predviđanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planirajte proizvodne ili nabavne naloge na temelju predviđanja"
 >>>>>>> upstream/18.0
@@ -5913,7 +6108,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Process manufacturing orders from the barcode application"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obrada proizvodnih naloga putem aplikacije za barkod"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obrada proizvodnih naloga putem aplikacije za barkod"
 >>>>>>> upstream/18.0
@@ -5970,7 +6169,11 @@ msgid "Produce residual products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvodnja nus proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proizvodnja nus proizvoda"
 >>>>>>> upstream/18.0
@@ -6009,7 +6212,11 @@ msgstr "Proizvodnja nus proizvoda"
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Produce residual products (A + B -> C + D)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvedi nusproizvode (A + B -> C + D)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proizvedi nusproizvode (A + B -> C + D)"
 >>>>>>> upstream/18.0
@@ -6089,7 +6296,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__mrp_product_label_to_print
 msgid "Product Label to Print"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naljepnica proizvoda za ispis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naljepnica proizvoda za ispis"
 >>>>>>> upstream/18.0
@@ -6098,7 +6309,11 @@ msgstr "Naljepnica proizvoda za ispis"
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid "Product Labels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naljepnice za proizvode"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naljepnice za proizvode"
 >>>>>>> upstream/18.0
@@ -6173,7 +6388,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Product to build..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvod za izradu..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Proizvod za izradu..."
 >>>>>>> upstream/18.0
@@ -6306,7 +6525,11 @@ msgstr "Gubitci kvalitete"
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__module_quality_control_worksheet
 msgid "Quality Worksheet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Radni list za kvalitetu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Radni list za kvalitetu"
 >>>>>>> upstream/18.0
@@ -6644,7 +6867,11 @@ msgstr "Otpisani prijenos"
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Scrap Products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otpis proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otpis proizvoda"
 >>>>>>> upstream/18.0
@@ -6688,7 +6915,11 @@ msgstr "Potraži proizvodni centar"
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Security Lead Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sigurnosno vrijeme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sigurnosno vrijeme"
 >>>>>>> upstream/18.0
@@ -6957,7 +7188,11 @@ msgstr "Sa zvjezdicom"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_tree_editable_view
 msgid "Start"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Start"
+=======
+msgstr "Početak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Početak"
 >>>>>>> upstream/18.0
@@ -7005,7 +7240,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__sam_type_id
 msgid "Stock After Manufacturing Operation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "\"Stanje zaliha nakon vrste proizvodne operacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "\"Stanje zaliha nakon vrste proizvodne operacije"
 >>>>>>> upstream/18.0
@@ -7334,7 +7573,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mrp.action_mrp_unbuild_moves
 msgid "There's no product move yet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema još ni jednog kretanja proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema još ni jednog kretanja proizvoda"
 >>>>>>> upstream/18.0
@@ -7642,7 +7885,11 @@ msgstr "Sljedivost"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__product_tracking
 msgid "Tracking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sljedivost:"
+=======
+msgstr "Praćenje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Praćenje"
 >>>>>>> upstream/18.0
@@ -7661,7 +7908,11 @@ msgstr "Prijenosi"
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__code
 msgid "Type of Operation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip operacije"
+=======
+msgstr "Vrsta operacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta operacije"
 >>>>>>> upstream/18.0
@@ -7792,7 +8043,11 @@ msgstr "Otključajte nalog za proizvodnju"
 #: model:res.groups,name:mrp.group_unlocked_by_default
 msgid "Unlocked by default"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otključano prema zadanim postavkama"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otključano prema zadanim postavkama"
 >>>>>>> upstream/18.0
@@ -7835,6 +8090,11 @@ msgid ""
 "components: i.e. 1 Table = 4 Table Legs + 1 Table Top"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koristite proizvodne narudžbe (MO) za izradu gotovih proizvoda koristeći "
+"komponente: npr. 1 stol = 4 noge za stol + 1 ploča stola"
+>>>>>>> upstream/18.0
 =======
 "Koristite proizvodne narudžbe (MO) za izradu gotovih proizvoda koristeći "
 "komponente: npr. 1 stol = 4 noge za stol + 1 ploča stola"
@@ -7854,7 +8114,11 @@ msgid "Use Operation Dependencies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi međuovisnosti operacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristi međuovisnosti operacija"
 >>>>>>> upstream/18.0
@@ -7903,7 +8167,11 @@ msgid "Use Reception Report with Manufacturing Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi zapisnik prijema uz radne naloge"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristi zapisnik prijema uz radne naloge"
 >>>>>>> upstream/18.0
@@ -8006,6 +8274,11 @@ msgid ""
 "manufacturing orders"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pregledajte i alocirajte proizvedene količine na narudžbe kupaca ili druge "
+"proizvodne naloge"
+>>>>>>> upstream/18.0
 =======
 "Pregledajte i alocirajte proizvedene količine na narudžbe kupaca ili druge "
 "proizvodne naloge"
@@ -8664,7 +8937,11 @@ msgstr "sa lokacije"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid "it is added as a component in a manufacturing order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "dodaje se kao komponenta u nalogu za proizvodnju"
+>>>>>>> upstream/18.0
 =======
 msgstr "dodaje se kao komponenta u nalogu za proizvodnju"
 >>>>>>> upstream/18.0
@@ -8675,7 +8952,11 @@ msgid ""
 "it is moved via a transfer, such as a receipt or a delivery order for "
 "instance."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "premješta se putem prijenosa, poput primitka ili isporuke, na primjer."
+>>>>>>> upstream/18.0
 =======
 msgstr "premješta se putem prijenosa, poput primitka ili isporuke, na primjer."
 >>>>>>> upstream/18.0
@@ -8799,6 +9080,7 @@ msgstr "radni nalozi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -8819,6 +9101,8 @@ msgstr ""
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

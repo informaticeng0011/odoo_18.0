@@ -299,7 +299,11 @@ class AccountWithholdingLine(models.AbstractModel):
         """ The account on the line cannot be one deemed as liquidity account, otherwise it will cause issues with the final entry. """
         for line in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
             if line.account_id in line._get_valid_liquidity_accounts():
+=======
+            if line.account_id in line._get_valid_liquidity_accounts() or line.account_id == line.company_id.transfer_account_id:
+>>>>>>> upstream/18.0
 =======
             if line.account_id in line._get_valid_liquidity_accounts() or line.account_id == line.company_id.transfer_account_id:
 >>>>>>> upstream/18.0
@@ -340,6 +344,10 @@ class AccountWithholdingLine(models.AbstractModel):
             computation_key=str(self.id),
             manual_tax_amounts=manual_tax_amounts,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            is_refund=self._is_refund(),
+>>>>>>> upstream/18.0
 =======
             is_refund=self._is_refund(),
 >>>>>>> upstream/18.0
@@ -390,6 +398,10 @@ class AccountWithholdingLine(models.AbstractModel):
                 'amount_currency': -tax_line_vals['amount_currency'],
                 'balance': -tax_line_vals['balance'],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'partner_id': self._get_comodel_partner().id,
+>>>>>>> upstream/18.0
 =======
                 'partner_id': self._get_comodel_partner().id,
 >>>>>>> upstream/18.0
@@ -419,6 +431,10 @@ class AccountWithholdingLine(models.AbstractModel):
                 'amount_currency': amounts['amount_currency'],
                 'balance': amounts['balance'],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'partner_id': self._get_comodel_partner().id,
+>>>>>>> upstream/18.0
 =======
                 'partner_id': self._get_comodel_partner().id,
 >>>>>>> upstream/18.0
@@ -432,6 +448,10 @@ class AccountWithholdingLine(models.AbstractModel):
                 'amount_currency': -amounts['amount_currency'],
                 'balance': -amounts['balance'],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'partner_id': self._get_comodel_partner().id,
+>>>>>>> upstream/18.0
 =======
                 'partner_id': self._get_comodel_partner().id,
 >>>>>>> upstream/18.0
@@ -518,6 +538,11 @@ class AccountWithholdingLine(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -691,7 +716,10 @@ class AccountWithholdingLine(models.AbstractModel):
         """ Get the valid liquidity accounts for the payment; we need to ensure that the line account does not match any of them. """
         return ()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _get_comodel_partner(self):
         """ Get the partner from the comodel record; in order to have it available when required. """
@@ -706,4 +734,7 @@ class AccountWithholdingLine(models.AbstractModel):
         """
         return ((self.type_tax_use == 'sale' and self.comodel_payment_type == 'outbound')
                 or (self.type_tax_use == 'purchase' and self.comodel_payment_type == 'inbound'))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

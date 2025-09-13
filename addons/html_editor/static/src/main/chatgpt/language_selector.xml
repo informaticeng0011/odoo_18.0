@@ -9,7 +9,11 @@
                 Translate
         </button>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Dropdown t-elif="state.languages.length > 1">
+=======
+        <Dropdown t-elif="state.languages.length > 1" menuRef="menuRef">
+>>>>>>> upstream/18.0
 =======
         <Dropdown t-elif="state.languages.length > 1" menuRef="menuRef">
 >>>>>>> upstream/18.0

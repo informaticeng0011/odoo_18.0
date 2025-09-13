@@ -1,7 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from unittest.mock import ANY, patch
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
@@ -12,6 +16,10 @@ from odoo.tools import mute_logger
 
 from odoo.addons.account_payment.tests.common import AccountPaymentCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import MailCase
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import MailCase
 >>>>>>> upstream/18.0
@@ -23,7 +31,11 @@ from odoo.addons.sale.tests.common import SaleCommon
 
 @tagged('-at_install', 'post_install')
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon):
+=======
+class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailCase):
+>>>>>>> upstream/18.0
 =======
 class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailCase):
 >>>>>>> upstream/18.0
@@ -52,7 +64,12 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
         ) as patched:
             tx_context = self._get_portal_pay_context(**route_values)
 <<<<<<< HEAD
+<<<<<<< HEAD
             patched.assert_called_once_with(ANY, sale_order_id=ANY)
+=======
+            patched.assert_called_once()
+            self.assertIn('sale_order_id', patched.call_args[1])
+>>>>>>> upstream/18.0
 =======
             patched.assert_called_once()
             self.assertIn('sale_order_id', patched.call_args[1])
@@ -245,7 +262,10 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
 
     def test_auto_confirm_and_auto_invoice(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         """
         Assuming that the automatic invoice setting is activated, we expect
         that after the payment is post processed:
@@ -253,6 +273,9 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
         - SO confirmed
         - Two emails sent: SO confirmation and default invoice email template
         """
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Set automatic invoice
         self.env['ir.config_parameter'].sudo().set_param('sale.automatic_invoice', 'True')
@@ -261,12 +284,18 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
         self.amount = self.sale_order.amount_total
         tx = self._create_transaction(flow='redirect', sale_order_ids=[self.sale_order.id], state='done')
 <<<<<<< HEAD
+<<<<<<< HEAD
         with mute_logger('odoo.addons.sale.models.payment_transaction'):
 =======
+=======
+>>>>>>> upstream/18.0
         with (
             mute_logger('odoo.addons.sale.models.payment_transaction'),
             self.mock_mail_gateway(),
         ):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             tx._post_process()
 
@@ -274,7 +303,10 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
         self.assertTrue(tx.invoice_ids)
         self.assertTrue(self.sale_order.invoice_ids)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(len(self._new_mails), 2)
         self.assertTrue(self._new_mails.filtered(lambda x: 'Invoice' in x.subject))
 
@@ -348,6 +380,9 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
         self.assertTrue(self.sale_order.invoice_ids)
         self.assertEqual(len(self._new_mails), 2)
         self.assertTrue(self._new_mails.filtered(lambda x: 'Invoice' in x.subject))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_auto_done_and_auto_invoice(self):
@@ -666,7 +701,10 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
                 self.env.ref('sale.mail_template_sale_confirmation'))
             self.assertEqual(self.sale_order.state, 'sale')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_automatic_invoice_mail_author(self):
         self.env['ir.config_parameter'].sudo().set_param('sale.automatic_invoice', 'True')
@@ -704,4 +742,7 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
         self.assertTrue(invoice.is_move_sent, "Invoice should be marked as sent")
         invoice_sent_mail = invoice.message_ids[0]
         self.assertTrue(invoice_sent_mail.author_id.id not in invoice_sent_mail.notified_partner_ids.ids)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -118,8 +118,11 @@ class MyFilterMessages(Transform):
 
     def apply(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         for node in self.document.traverse(nodes.system_message):
 =======
+=======
+>>>>>>> upstream/18.0
         # Use `findall()` if available (docutils >= 0.20), otherwise fallback to `traverse()`.
         # This ensures compatibility across environments with different docutils versions.
         if hasattr(self.document, 'findall'):
@@ -128,6 +131,9 @@ class MyFilterMessages(Transform):
             nodes_iter = self.document.traverse(nodes.system_message)
 
         for node in nodes_iter:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             _logger.warning("docutils' system message present: %s", str(node))
             node.parent.remove(node)

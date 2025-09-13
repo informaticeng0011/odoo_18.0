@@ -94,7 +94,10 @@ class TestSaleFiscal(L10nInTestInvoicingCommon):
                 partner=self.partner_a.id,
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_foreign_partner_without_state_fiscal_position(self):
         """ Verify foreign partner without state gets export fiscal position """
@@ -136,4 +139,7 @@ class TestSaleFiscal(L10nInTestInvoicingCommon):
         reseller_id = invoice_vals['l10n_in_reseller_partner_id']
         self.assertIsInstance(reseller_id, int, "Reseller partner ID should be an integer")
         self.assertEqual(reseller_id, self.partner_a.id)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

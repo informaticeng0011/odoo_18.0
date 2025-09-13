@@ -238,7 +238,10 @@ describe('Format', () => {
             });
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         it("should remove bold format when having newline character nodes in selection", async () => {
             await testEditor(BasicEditor, {
                 contentBefore:
@@ -247,6 +250,9 @@ describe('Format', () => {
                 contentAfter: "<p>[abc</p>\n<p>def</p>\n<p>ghi]</p>",
             });
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         describe('inside container or inline with class already bold', () => {
@@ -1159,7 +1165,10 @@ describe('Format', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1289,6 +1298,9 @@ describe('Format', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1521,7 +1533,10 @@ describe('Format', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1651,6 +1666,9 @@ describe('Format', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

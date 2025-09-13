@@ -1,14 +1,20 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 =======
+=======
+>>>>>>> upstream/18.0
 import datetime
 from freezegun import freeze_time
 
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo import fields
 from odoo.fields import Command
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.tests import Form, tagged
 
@@ -267,7 +273,10 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
         picking.move_ids.product_id = self.product_a
         self.assertEqual(picking.weight, 2.0, "The weight of the picking should be 2.0")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @freeze_time("2024-06-06 11:00")
     def test_picking_change_scheduled_date(self):
@@ -308,4 +317,7 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
             {'date': yesterday},
             {'date': today},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

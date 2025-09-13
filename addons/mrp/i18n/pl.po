@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 # 
+=======
+# * mrp
+#
+>>>>>>> upstream/18.0
 =======
 # * mrp
 #
@@ -12,7 +17,12 @@
 # Wil Odoo, 2025
 # Marta Wacławek, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Marcin Lewandowski <email.marcina.lewandowskiego@gmail.com>, 2025
+# "Marta (wacm)" <wacm@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Marcin Lewandowski <email.marcina.lewandowskiego@gmail.com>, 2025
 # "Marta (wacm)" <wacm@odoo.com>, 2025.
@@ -21,6 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -264,6 +275,8 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-06-13 18:36+0000\n"
 "PO-Revision-Date: 2025-08-12 22:21+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -276,6 +289,9 @@ msgstr ""
 "n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -707,7 +723,11 @@ msgstr "<span>Akcje</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "<span>Generate BOM</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>Wygeneruj BOM</span>`"
+=======
+msgstr "<span>Wygeneruj BOM</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Wygeneruj BOM</span>"
 >>>>>>> upstream/18.0
@@ -2384,6 +2404,10 @@ msgstr "Zlecenie demontażu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -2757,7 +2781,11 @@ msgstr "Wyjątek(i):"
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Exp %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Exp %s"
+=======
+msgstr "Oczekiwano %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oczekiwano %s"
 >>>>>>> upstream/18.0
@@ -2773,7 +2801,11 @@ msgstr "Spodziewany"
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "Expected %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Spodziewany %s"
+=======
+msgstr "Oczekiwano %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oczekiwano %s"
 >>>>>>> upstream/18.0
@@ -3112,7 +3144,10 @@ msgstr "Posiada linie routingu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3202,6 +3237,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7799,6 +7837,7 @@ msgstr "zlecenia operacji"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -7819,6 +7858,8 @@ msgstr "{{ props.isFolded ? 'Rozwiń' : 'Zwiń' }}"
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr "{{ state.isFolded ? 'Rozwiń' : 'Zwiń' }}"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

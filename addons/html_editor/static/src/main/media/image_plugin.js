@@ -60,8 +60,13 @@ export class ImagePlugin extends Plugin {
             {
                 id: "image",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 isApplied: (traversedNodes) =>
                     traversedNodes.every(
+=======
+                isApplied: (targetedNodes) =>
+                    targetedNodes.every(
+>>>>>>> upstream/18.0
 =======
                 isApplied: (targetedNodes) =>
                     targetedNodes.every(
@@ -172,6 +177,10 @@ export class ImagePlugin extends Plugin {
                 Component: ImageTransformButton,
                 props: this.getImageTransformProps(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                isAvailable: () => this.config.allowImageTransform ?? true,
+>>>>>>> upstream/18.0
 =======
                 isAvailable: () => this.config.allowImageTransform ?? true,
 >>>>>>> upstream/18.0
@@ -212,6 +221,7 @@ export class ImagePlugin extends Plugin {
 
     setImagePadding({ size } = {}) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedImg = this.getSelectedImage();
         if (!selectedImg) {
             return;
@@ -231,6 +241,8 @@ export class ImagePlugin extends Plugin {
         }
         selectedImg.style.width = size || "";
 =======
+=======
+>>>>>>> upstream/18.0
         const targetedImg = this.getTargetedImage();
         if (!targetedImg) {
             return;
@@ -249,11 +261,15 @@ export class ImagePlugin extends Plugin {
             return;
         }
         targetedImg.style.width = size || "";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.dependencies.history.addStep();
     }
 
     setImageShape(className, { excludeClasses = [] } = {}) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         const selectedImg = this.getSelectedImage();
         if (!selectedImg) {
@@ -266,6 +282,8 @@ export class ImagePlugin extends Plugin {
         }
         selectedImg.classList.toggle(className);
 =======
+=======
+>>>>>>> upstream/18.0
         const targetedImg = this.getTargetedImage();
         if (!targetedImg) {
             return;
@@ -276,14 +294,22 @@ export class ImagePlugin extends Plugin {
             }
         }
         targetedImg.classList.toggle(className);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.dependencies.history.addStep();
     }
 
     previewImage() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedImg = this.getSelectedImage();
         if (!selectedImg) {
+=======
+        const targetedImg = this.getTargetedImage();
+        if (!targetedImg) {
+>>>>>>> upstream/18.0
 =======
         const targetedImg = this.getTargetedImage();
         if (!targetedImg) {
@@ -294,9 +320,15 @@ export class ImagePlugin extends Plugin {
             isImage: true,
             isViewable: true,
 <<<<<<< HEAD
+<<<<<<< HEAD
             displayName: selectedImg.src,
             defaultSource: selectedImg.src,
             downloadUrl: selectedImg.src,
+=======
+            displayName: targetedImg.src,
+            defaultSource: targetedImg.src,
+            downloadUrl: targetedImg.src,
+>>>>>>> upstream/18.0
 =======
             displayName: targetedImg.src,
             defaultSource: targetedImg.src,
@@ -308,6 +340,7 @@ export class ImagePlugin extends Plugin {
     }
 
     deleteImage() {
+<<<<<<< HEAD
 <<<<<<< HEAD
         const selectedImg = this.getSelectedImage();
         if (selectedImg) {
@@ -423,6 +456,8 @@ export class ImagePlugin extends Plugin {
             let anchorOffset = childNodeIndex(selectedImg);
             selectedImg.remove();
 =======
+=======
+>>>>>>> upstream/18.0
         const targetedImg = this.getTargetedImage();
         if (targetedImg) {
             if (this.delegateTo("delete_image_overrides", targetedImg)) {
@@ -431,6 +466,9 @@ export class ImagePlugin extends Plugin {
             const anchorNode = targetedImg.parentElement;
             let anchorOffset = childNodeIndex(targetedImg);
             targetedImg.remove();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             // When an image is added as the first element of a <p> tag,
             // the `dom_plugin.insert` method automatically creates a #text node just before the <img>.
@@ -447,6 +485,7 @@ export class ImagePlugin extends Plugin {
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     getSelectedImage() {
         const selectedNodes = this.dependencies.selection.getSelectedNodes();
@@ -470,6 +509,8 @@ export class ImagePlugin extends Plugin {
         const selectedImg = selectedNodes.find((node) => node.tagName === "IMG");
         return selectedImg.getAttribute(attributeName) || undefined;
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * @deprecated
      */
@@ -498,6 +539,9 @@ export class ImagePlugin extends Plugin {
         const targetedNodes = this.dependencies.selection.getTargetedNodes();
         const targetedImg = targetedNodes.find((node) => node.tagName === "IMG");
         return targetedImg.getAttribute(attributeName) || undefined;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -534,6 +578,7 @@ export class ImagePlugin extends Plugin {
 
     updateImageDescription({ description, tooltip } = {}) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedImg = this.getSelectedImage();
         if (!selectedImg) {
             return;
@@ -541,12 +586,17 @@ export class ImagePlugin extends Plugin {
         selectedImg.setAttribute("alt", description);
         selectedImg.setAttribute("title", tooltip);
 =======
+=======
+>>>>>>> upstream/18.0
         const targetedImg = this.getTargetedImage();
         if (!targetedImg) {
             return;
         }
         targetedImg.setAttribute("alt", description);
         targetedImg.setAttribute("title", tooltip);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.dependencies.history.addStep();
     }

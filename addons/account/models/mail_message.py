@@ -146,7 +146,11 @@ class Message(models.Model):
         return [('model', '=', model)] + res_id_domain
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.ondelete(at_uninstall=True)
+=======
+    @api.ondelete(at_uninstall=False)
+>>>>>>> upstream/18.0
 =======
     @api.ondelete(at_uninstall=False)
 >>>>>>> upstream/18.0

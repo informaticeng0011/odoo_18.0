@@ -266,6 +266,7 @@ class TestMailComposerUI(MailCommon, HttpCase):
 
     def test_mail_composer_test_tour(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['mail.template'].create({
             'auto_delete': True,
             'lang': '{{ object.lang }}',
@@ -274,6 +275,8 @@ class TestMailComposerUI(MailCommon, HttpCase):
             'partner_to': '{{ object.id }}',
         })
 =======
+=======
+>>>>>>> upstream/18.0
         template_data = [
             {
                 'name': 'Test template',
@@ -293,6 +296,9 @@ class TestMailComposerUI(MailCommon, HttpCase):
             }
             for data in template_data
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.user_employee.write({
             'groups_id': [(4, self.env.ref('base.group_partner_manager').id)],

@@ -12,12 +12,15 @@ class PurchaseOrderLine(models.Model):
         ProjectProject = self.env['project.project']
         for line in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
             if line.display_type or line.analytic_distribution:
                 continue
             project_id = line._context.get('project_id')
             project = ProjectProject.browse(project_id) if project_id else line.order_id.project_id
             if project:
 =======
+=======
+>>>>>>> upstream/18.0
             project_id = line._context.get('project_id')
             project = ProjectProject.browse(project_id) if project_id else line.order_id.project_id
             if line.display_type or not project:
@@ -34,6 +37,9 @@ class PurchaseOrderLine(models.Model):
                         for account_ids, percentage in line.analytic_distribution.items()
                     }
             else:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 line.analytic_distribution = project._get_analytic_distribution()
 

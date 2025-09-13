@@ -222,7 +222,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     top: -10000px;
+=======
+    left: -10000px;
+    top: -10000px;
+    visibility: hidden;
+>>>>>>> upstream/18.0
 =======
     left: -10000px;
     top: -10000px;
@@ -632,10 +638,13 @@
 
 .o-mail-Composer-bg {
 
+<<<<<<< HEAD
     &.o-iosPwa:not(:focus-within) {
         margin-bottom: map-get($spacers, 5) !important;
     }
 
+=======
+>>>>>>> upstream/18.0
     &:has(textarea:focus) {
         --border-opacity: 0.35;
         border-color: rgba($o-action, var(--border-opacity)) !important;

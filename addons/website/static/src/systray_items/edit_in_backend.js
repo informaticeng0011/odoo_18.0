@@ -37,8 +37,11 @@ export class EditInBackendSystray extends Component {
 export const systrayItem = {
     Component: EditInBackendSystray,
 <<<<<<< HEAD
+<<<<<<< HEAD
     isDisplayed: env => env.services.website.currentWebsite && env.services.website.currentWebsite.metadata.editableInBackend,
 =======
+=======
+>>>>>>> upstream/18.0
     isDisplayed: env => env.services.website.currentWebsite && env.services.website.currentWebsite.metadata.editableInBackend
         // TODO the functional desire is to have read access on all "website"
         // models for all internal users, but there are many fields preventing
@@ -52,6 +55,9 @@ export const systrayItem = {
             || !['event.event', 'hr.job'].includes(env.services.website.currentWebsite.metadata.mainObject.model)
             || env.services.website.currentWebsite.metadata.canPublish
         ),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 };
 

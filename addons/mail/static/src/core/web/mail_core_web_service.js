@@ -16,6 +16,7 @@ export class MailCoreWeb {
     setup() {
         this.busService.subscribe("mail.activity/updated", (payload, { id: notifId }) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (payload.activity_created && notifId > this.store.activity_counter_bus_id) {
                 this.store.activityCounter++;
             }
@@ -23,6 +24,8 @@ export class MailCoreWeb {
                 this.store.activityCounter--;
             }
 =======
+=======
+>>>>>>> upstream/18.0
             if (notifId <= this.store.activity_counter_bus_id) {
                 return;
             }
@@ -35,6 +38,9 @@ export class MailCoreWeb {
                 countDiff = -1;
             }
             this.store.activityCounter += countDiff;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         });
         this.env.bus.addEventListener("mail.message/delete", ({ detail: { message, notifId } }) => {

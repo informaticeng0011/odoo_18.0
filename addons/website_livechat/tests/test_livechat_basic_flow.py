@@ -41,10 +41,13 @@ class TestLivechatBasicFlowHttpCase(HttpCaseWithUserDemo, TestLivechatCommon):
             self.env.ref('website.homepage_page').name,
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
         history = self.env['discuss.channel']._get_visitor_history(self.visitor)
 
         self.assertEqual(history, handmade_history)
 =======
+=======
+>>>>>>> upstream/18.0
         handmade_history_data = [
             (
                 self.env.ref("website.homepage_page").name,
@@ -69,6 +72,9 @@ class TestLivechatBasicFlowHttpCase(HttpCaseWithUserDemo, TestLivechatCommon):
 
         self.assertEqual(history, handmade_history)
         self.assertEqual(history_data, handmade_history_data)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_livechat_username(self):

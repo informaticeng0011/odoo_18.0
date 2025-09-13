@@ -7,6 +7,10 @@ import re
 from odoo import tools
 from odoo.addons.base.tests.common import TransactionCaseWithUserDemo
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.website.tools import MockRequest
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.website.tools import MockRequest
 >>>>>>> upstream/18.0
@@ -82,7 +86,10 @@ class TestQweb(TransactionCaseWithUserDemo):
     </body>
 </html>""" % format_data).encode('utf8'))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         with MockRequest(self.env, website=website):
             html = demo_env['ir.qweb']._render('test_website.test_template_tatt_qweb', {}, website_id=website.id)
@@ -95,4 +102,7 @@ class TestQweb(TransactionCaseWithUserDemo):
         <a href="">5</a></body>
     </html>
     """))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

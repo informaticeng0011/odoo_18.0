@@ -7,6 +7,10 @@
 # Wil Odoo, 2024
 # Maria Muntean, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
@@ -18,7 +22,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Maria Muntean, 2025\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -45,8 +53,13 @@ msgstr ""
 "        Definește sursa pentru generarea intrărilor de lucru\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Programul de lucru: Intrările de muncă vor fi generate din orele de lucru de mai jos.\n"
 "        Prezențe: Inrtrările de lucru vor fi generate din prezențele angajatului. (necesită aplicația Attendance)\n"
+=======
+"        Program de lucru: Intrările de muncă vor fi generate din orele de lucru de mai jos.\n"
+"        Prezențe: Intrările de muncă vor fi generate din prezențele angajatului. (necesită aplicația Attendance)\n"
+>>>>>>> upstream/18.0
 =======
 "        Program de lucru: Intrările de muncă vor fi generate din orele de lucru de mai jos.\n"
 "        Prezențe: Intrările de muncă vor fi generate din prezențele angajatului. (necesită aplicația Attendance)\n"
@@ -101,7 +114,11 @@ msgstr ""
 msgid "Allow the work entry type to be linked with time off types."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Permiteți ca tipul de intrare de muncă să fie legat de tipurile de concediu."
+=======
+"Permite ca tipul de intrare de muncă să fie legat de tipurile de concediu."
+>>>>>>> upstream/18.0
 =======
 "Permite ca tipul de intrare de muncă să fie legat de tipurile de concediu."
 >>>>>>> upstream/18.0
@@ -182,7 +199,11 @@ msgstr "De la"
 #: model_terms:ir.ui.view,arch_db:hr_work_entry_contract.hr_contract_view_form_inherit_work_entry
 msgid "Fully Flexible"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Complet flexibil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Complet flexibil"
 >>>>>>> upstream/18.0
@@ -249,6 +270,11 @@ msgid ""
 "be 'Working Hours'."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Opțiune invalidă: Pentru calendarele complet flexibile, sursa de intrare în "
+"muncă nu poate fi 'Ore de lucru'."
+>>>>>>> upstream/18.0
 =======
 "Opțiune invalidă: Pentru calendarele complet flexibile, sursa de intrare în "
 "muncă nu poate fi 'Ore de lucru'."
@@ -288,7 +314,11 @@ msgstr "Concediu pe termen lung"
 #: model:hr.work.entry.type,name:hr_work_entry_contract.work_entry_type_legal_leave
 msgid "Paid Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Concediu Plătit"
+=======
+msgstr "Concediu plătit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu plătit"
 >>>>>>> upstream/18.0
@@ -298,7 +328,11 @@ msgstr "Concediu plătit"
 #: model_terms:ir.ui.view,arch_db:hr_work_entry_contract.hr_work_entry_regeneration_wizard
 msgid "Regenerate Employee Work Entries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regenerarți intrărilor de muncă ale angajaților"
+=======
+msgstr "Regenerați intrările de muncă ale angajaților"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regenerați intrările de muncă ale angajaților"
 >>>>>>> upstream/18.0
@@ -314,7 +348,11 @@ msgstr "Regenerați intrările de lucru"
 #: model:ir.model,name:hr_work_entry_contract.model_resource_calendar
 msgid "Resource Working Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Timpul Lucru Resurse"
+=======
+msgstr "Timp de lucru resurse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Timp de lucru resurse"
 >>>>>>> upstream/18.0
@@ -328,7 +366,11 @@ msgstr "Criterii de căutare completate"
 #: model:hr.work.entry.type,name:hr_work_entry_contract.work_entry_type_sick_leave
 msgid "Sick Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Concediu Medical"
+=======
+msgstr "Concediu medical"
+>>>>>>> upstream/18.0
 =======
 msgstr "Concediu medical"
 >>>>>>> upstream/18.0
@@ -351,9 +393,15 @@ msgid ""
 "entries time interval."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Data de la trebuie să fie >= '%(earliest_available_date)s' iar data până la "
 "trebuie să fie <= '%(latest_available_date)s', care corespund intervalului "
 "de timp al intrărilor de lucru generate."
+=======
+"Data de început trebuie să fie >= '%(earliest_available_date)s' iar data de "
+"sfârșit trebuie să fie <= '%(latest_available_date)s', care corespund "
+"intervalului de timp al intrărilor de lucru generate."
+>>>>>>> upstream/18.0
 =======
 "Data de început trebuie să fie >= '%(earliest_available_date)s' iar data de "
 "sfârșit trebuie să fie <= '%(latest_available_date)s', care corespund "
@@ -376,7 +424,11 @@ msgstr "Concediu"
 #: model:ir.model.fields,field_description:hr_work_entry_contract.field_hr_work_entry_regeneration_wizard__date_to
 msgid "To"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Către"
+=======
+msgstr "Până la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Până la"
 >>>>>>> upstream/18.0
@@ -405,7 +457,11 @@ msgstr "Intrări de lucru în interval"
 #: model:ir.actions.act_window,name:hr_work_entry_contract.hr_work_entry_regeneration_wizard_action
 msgid "Work Entry Regeneration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regenerarea intrării în muncă"
+=======
+msgstr "Regenerarea intrărilor de muncă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regenerarea intrărilor de muncă"
 >>>>>>> upstream/18.0
@@ -415,7 +471,11 @@ msgstr "Regenerarea intrărilor de muncă"
 #: model:ir.model.fields,field_description:hr_work_entry_contract.field_hr_work_entry__work_entry_source
 msgid "Work Entry Source"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sursa de intrare în muncă"
+=======
+msgstr "Sursa intrării de muncă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sursa intrării de muncă"
 >>>>>>> upstream/18.0
@@ -424,7 +484,11 @@ msgstr "Sursa intrării de muncă"
 #: model:ir.model.fields,field_description:hr_work_entry_contract.field_hr_contract__work_entry_source_calendar_invalid
 msgid "Work Entry Source Calendar Invalid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Calendar sursă intrare muncă invalid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Calendar sursă intrare muncă invalid"
 >>>>>>> upstream/18.0

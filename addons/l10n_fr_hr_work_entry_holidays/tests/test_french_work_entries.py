@@ -6,6 +6,10 @@ import time
 
 from datetime import datetime
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form
 >>>>>>> upstream/18.0
@@ -92,7 +96,10 @@ class TestFrenchWorkEntries(TransactionCase):
         work_entry_create_vals = self.employee_contract._get_contract_work_entries_values(datetime(2021, 9, 6), datetime(2021, 9, 9, 23, 59, 59))
         self.assertEqual(len(work_entry_create_vals), 8, 'Should have generated 8 work entries.')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_create_work_entry_with_french_company(self):
         self.employee_contract.write({'state': 'open'})
@@ -102,4 +109,7 @@ class TestFrenchWorkEntries(TransactionCase):
             work_entry_form.date_stop = '2020-01-01 17:00:00'
             work_entry = work_entry_form.save()
         self.assertEqual(work_entry.duration, 9)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Yaroslav Husyar, 2024
@@ -342,6 +343,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Yaroslav Husyar, 2024
@@ -350,11 +353,15 @@
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
 # Wil Odoo, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
@@ -632,6 +639,8 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -644,6 +653,9 @@ msgstr ""
 "11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
 "100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
 "(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -653,12 +665,15 @@ msgid ""
 "\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Transfers %(transfer_list)s: You need to supply a Lot/Serial number for products %(product_list)s."
 msgstr ""
 "\n"
 "\n"
 "Переміщення %(transfer_list)s: Вам необхідно вказати Партійний/Серійний номер для товарів %(product_list)s."
 =======
+=======
+>>>>>>> upstream/18.0
 "Transfers %(transfer_list)s: You need to supply a Lot/Serial number for "
 "products %(product_list)s."
 msgstr ""
@@ -666,6 +681,9 @@ msgstr ""
 "\n"
 "Переміщення %(transfer_list)s: Вам необхідно вказати Партійний/Серійний "
 "номер для товарів %(product_list)s."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -684,6 +702,7 @@ msgstr ""
 msgid ""
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The quantity done for the product %(product)s doesn't respect the rounding precision defined on the unit of measure %(unit)s.\n"
 "Please change the quantity done or the rounding precision of your unit of measure."
 msgstr ""
@@ -691,6 +710,8 @@ msgstr ""
 "Виконана кількість для товару %(product)s не дотримується точності округлення, визначеної в одиниці вимірювання %(unit)s.\n"
 "Будь ласка, змініть зроблену кількість або точність округлення вашої одиниці вимірювання."
 =======
+=======
+>>>>>>> upstream/18.0
 "The quantity done for the product %(product)s doesn't respect the rounding "
 "precision defined on the unit of measure %(unit)s.\n"
 "Please change the quantity done or the rounding precision of your unit of "
@@ -701,12 +722,16 @@ msgstr ""
 "округлення, визначеної в одиниці вимірювання %(unit)s.\n"
 "Будь ласка, змініть зроблену кількість або точність округлення вашої одиниці "
 "вимірювання."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__state
 msgid ""
 " * Draft: The transfer is not confirmed yet. Reservation doesn't apply.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 " * Waiting another operation: This transfer is waiting for another operation before being ready.\n"
 " * Waiting: The transfer is waiting for the availability of some products.\n"
@@ -716,6 +741,8 @@ msgid ""
 "(a) The shipping policy is \"As soon as possible\": at least one product has been reserved.\n"
 "(b) The shipping policy is \"When all products are ready\": all product have been reserved.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 " * Waiting another operation: This transfer is waiting for another operation "
 "before being ready.\n"
 " * Waiting: The transfer is waiting for the availability of some products.\n"
@@ -728,11 +755,15 @@ msgid ""
 "been reserved.\n"
 "(b) The shipping policy is \"When all products are ready\": all product have "
 "been reserved.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 " * Done: The transfer has been processed.\n"
 " * Cancelled: The transfer has been cancelled."
 msgstr ""
 " * Чернетка: Переміщення ще не підтверджено. Бронювання не застосовується.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 " * Очікує на іншу операцію: Це переміщення очікує на іншу операцію перед готовністю.\n"
 " * Очікує: Переміщення очікує на наявність кількох товарів.\n"
@@ -742,6 +773,8 @@ msgstr ""
 "(a) Політика доставки \"Якнайшвидше\": принаймні один товар має бути заброньований.\n"
 "(b) Політика доставки \"Коли всі товари готові\": усі товари мають бути заброньовані.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 " * Очікує на іншу операцію: Це переміщення очікує на іншу операцію перед "
 "готовністю.\n"
 " * Очікує: Переміщення очікує на наявність кількох товарів.\n"
@@ -753,6 +786,9 @@ msgstr ""
 "заброньований.\n"
 "(b) Політика доставки \"Коли всі товари готові\": усі товари мають бути "
 "заброньовані.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 " * Готово: Переміщення оброблено.\n"
 " * Скасовано: Переміщення скасоване."
@@ -838,8 +874,13 @@ msgstr ""
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(operations)s have default source or destination locations within warehouse"
 " %(warehouse)s, therefore you cannot archive it."
+=======
+"%(operations)s have default source or destination locations within warehouse "
+"%(warehouse)s, therefore you cannot archive it."
+>>>>>>> upstream/18.0
 =======
 "%(operations)s have default source or destination locations within warehouse "
 "%(warehouse)s, therefore you cannot archive it."
@@ -857,6 +898,7 @@ msgstr ""
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(product_name)s --> Product UoM is %(product_uom)s "
 "(%(product_uom_category)s) - Move UoM is %(move_uom)s "
 "(%(move_uom_category)s)"
@@ -865,12 +907,17 @@ msgstr ""
 "(%(product_uom_category)s) - Одиниця вимірювання переміщення %(move_uom)s "
 "(%(move_uom_category)s)"
 =======
+=======
+>>>>>>> upstream/18.0
 "%(product_name)s --> Product UoM is %(product_uom)s (%"
 "(product_uom_category)s) - Move UoM is %(move_uom)s (%(move_uom_category)s)"
 msgstr ""
 "%(product_name)s --> Одиниця вимірювання товару %(product_uom)s (%"
 "(product_uom_category)s) - Одиниця вимірювання переміщення %(move_uom)s (%"
 "(move_uom_category)s)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -887,8 +934,13 @@ msgid ""
 "order is %(qty_to_order)s %(uom)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(warehouse)s може надати лише %(free_qty)s %(uom)s, у той час, як кількість"
 " для замовлення %(qty_to_order)s %(uom)s."
+=======
+"%(warehouse)s може надати лише %(free_qty)s %(uom)s, у той час, як кількість "
+"для замовлення %(qty_to_order)s %(uom)s."
+>>>>>>> upstream/18.0
 =======
 "%(warehouse)s може надати лише %(free_qty)s %(uom)s, у той час, як кількість "
 "для замовлення %(qty_to_order)s %(uom)s."
@@ -953,8 +1005,12 @@ msgstr "'Таблиця підрахунку'"
 #. module: stock
 #: model:ir.actions.report,print_report_name:stock.action_report_delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+=======
+msgid "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+>>>>>>> upstream/18.0
 =======
 msgid "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
 >>>>>>> upstream/18.0
@@ -1023,7 +1079,12 @@ msgid ""
 "* New: The stock move is created but not confirmed.\n"
 "* Waiting Another Move: A linked stock move should be done before this one.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Waiting Availability: The stock move is confirmed but the product can't be reserved.\n"
+=======
+"* Waiting Availability: The stock move is confirmed but the product can't be "
+"reserved.\n"
+>>>>>>> upstream/18.0
 =======
 "* Waiting Availability: The stock move is confirmed but the product can't be "
 "reserved.\n"
@@ -1033,13 +1094,19 @@ msgid ""
 msgstr ""
 "* Нове: складське переміщення створено, але не підтверджено.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Очікування ще одного переміщення: повʼязане складське переміщення має бути здійснено перед цим.\n"
 "* Очікується наявність: складське переміщення підтверджено, але товар не можна зарезервувати.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "* Очікування ще одного переміщення: повʼязане складське переміщення має бути "
 "здійснено перед цим.\n"
 "* Очікується наявність: складське переміщення підтверджено, але товар не "
 "можна зарезервувати.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "* Доступно: товар зі складського переміщення зарезервовано.\n"
 "* Готово: товар переміщено і переміщення підтверджено."
@@ -1051,6 +1118,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_move_line__location_dest_usage
 #: model:ir.model.fields,help:stock.field_stock_move_line__location_usage
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "* Vendor Location: Virtual location representing the source location for products coming from your vendors\n"
 "* View: Virtual location used to create a hierarchical structures for your warehouse, aggregating its child locations ; can't directly contain products\n"
@@ -1068,6 +1136,8 @@ msgstr ""
 "* Виробництво: Віртуальний аналог місцезнаходження для виробничих операцій: це розташування споживає компоненти та виробляє готовий товар\n"
 "* Транзитне місцезнаходження: Аналог розташування, який повинен використовуватися на операціях внутрішньої компанії чи внутрішнього складу"
 =======
+=======
+>>>>>>> upstream/18.0
 "* Vendor Location: Virtual location representing the source location for "
 "products coming from your vendors\n"
 "* View: Virtual location used to create a hierarchical structures for your "
@@ -1098,6 +1168,9 @@ msgstr ""
 "це розташування споживає компоненти та виробляє готовий товар\n"
 "* Транзитне місцезнаходження: Аналог розташування, який повинен "
 "використовуватися на операціях внутрішньої компанії чи внутрішнього складу"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -1244,8 +1317,13 @@ msgstr ""
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<br>If the products are not available in <b>%s</b>, a rule will be triggered"
 " to bring the missing quantity in this location."
+=======
+"<br>If the products are not available in <b>%s</b>, a rule will be triggered "
+"to bring the missing quantity in this location."
+>>>>>>> upstream/18.0
 =======
 "<br>If the products are not available in <b>%s</b>, a rule will be triggered "
 "to bring the missing quantity in this location."
@@ -1266,6 +1344,7 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
 "        We are glad to inform you that your order has been shipped.\n"
 "        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref\">\n"
@@ -1281,6 +1360,8 @@ msgid ""
 "                <t t-else=\"\">\n"
 "                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,"
 "<br/><br/>\n"
 "        We are glad to inform you that your order has been shipped.\n"
@@ -1301,6 +1382,9 @@ msgid ""
 "                <t t-else=\"\">\n"
 "                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" "
 "target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                </t>\n"
 "            </t>\n"
@@ -1311,12 +1395,15 @@ msgid ""
 "        </t>\n"
 "        <br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Please find your delivery order attached for more details.<br/><br/>\n"
 "        Thank you,\n"
 "        <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "            <br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Please find your delivery order attached for more details.<br/><br/"
 ">\n"
 "        Thank you,\n"
@@ -1324,6 +1411,9 @@ msgid ""
 "            <br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br "
 "data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
@@ -1334,13 +1424,19 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_scrap_view_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr ""
 "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -1348,11 +1444,14 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                All products could not be reserved. Click on the \"Check Availability\" button to try to reserve products."
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
 "                                Неможливо зарезервувати всі товари. Натисніть на кнопку \"Перевірити наявність\", щоби спробувати зарезервувати товари."
 =======
+=======
+>>>>>>> upstream/18.0
 "                                All products could not be reserved. Click on "
 "the \"Check Availability\" button to try to reserve products."
 msgstr ""
@@ -1360,6 +1459,9 @@ msgstr ""
 "                                Неможливо зарезервувати всі товари. "
 "Натисніть на кнопку \"Перевірити наявність\", щоби спробувати зарезервувати "
 "товари."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -1543,7 +1645,10 @@ msgstr ""
 #. module: stock
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
@@ -1552,6 +1657,9 @@ msgstr "<strong>Доставлено</strong>"
 
 #. module: stock
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1564,8 +1672,13 @@ msgstr "<strong>Адреса доставки</strong>"
 msgid ""
 "<strong>Due to some stock moves done between your initial update of the "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "quantity and now, the difference of quantity is not consistent "
 "anymore.</strong>"
+=======
+"quantity and now, the difference of quantity is not consistent anymore.</"
+"strong>"
+>>>>>>> upstream/18.0
 =======
 "quantity and now, the difference of quantity is not consistent anymore.</"
 "strong>"
@@ -1603,7 +1716,10 @@ msgstr ""
 #. module: stock
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
@@ -1612,6 +1728,9 @@ msgstr "<strong>Замовлення</strong>"
 
 #. module: stock
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1746,8 +1865,13 @@ msgstr "Необхідна дія"
 #: model:ir.model.fields,help:stock.field_stock_location__replenish_location
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Activate this function to get all quantities to replenish at this particular"
 " location"
+=======
+"Activate this function to get all quantities to replenish at this particular "
+"location"
+>>>>>>> upstream/18.0
 =======
 "Activate this function to get all quantities to replenish at this particular "
 "location"
@@ -1827,8 +1951,12 @@ msgstr "Додати нову категорію зберігання"
 msgid ""
 "Add an internal note that will be printed on the Picking Operations sheet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Додайте внутрішню примітку, яка буде надрукована на листі комплектації"
+=======
+msgstr "Додайте внутрішню примітку, яка буде надрукована на листі комплектації"
+>>>>>>> upstream/18.0
 =======
 msgstr "Додайте внутрішню примітку, яка буде надрукована на листі комплектації"
 >>>>>>> upstream/18.0
@@ -1837,12 +1965,15 @@ msgstr "Додайте внутрішню примітку, яка буде на
 #: model:ir.model.fields,help:stock.field_res_config_settings__group_stock_adv_location
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Add and customize route operations to process product moves in your warehouse(s): e.g. unload > quality control > stock for incoming products, pick > pack > ship for outgoing products. \n"
 " You can also set putaway strategies on warehouse locations in order to send incoming products into specific child locations straight away (e.g. specific bins, racks)."
 msgstr ""
 "Додайте та налаштуйте операції маршруту, щоб обробляти переміщення товару у ваших складських приміщеннях: наприклад, вивантаження> контроль якості> склад для вхідних товарів, комплектування> пакунок> відправка для вихідних товарів. \n"
 " Ви також можете встановити перехідні стратегії на місця розташування складських приміщень, щоби відразу надсилати вхідні товари в конкретні дочірні місця (наприклад, спеціальні контейнери, стелажі)."
 =======
+=======
+>>>>>>> upstream/18.0
 "Add and customize route operations to process product moves in your "
 "warehouse(s): e.g. unload > quality control > stock for incoming products, "
 "pick > pack > ship for outgoing products. \n"
@@ -1857,6 +1988,9 @@ msgstr ""
 " Ви також можете встановити перехідні стратегії на місця розташування "
 "складських приміщень, щоби відразу надсилати вхідні товари в конкретні "
 "дочірні місця (наприклад, спеціальні контейнери, стелажі)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -2449,8 +2583,13 @@ msgid ""
 "By unchecking the active field, you may hide a location without deleting it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Знімаючи відмітку з активного поля ви можете приховати розташування без його"
 " видалення."
+=======
+"Знімаючи відмітку з активного поля ви можете приховати розташування без його "
+"видалення."
+>>>>>>> upstream/18.0
 =======
 "Знімаючи відмітку з активного поля ви можете приховати розташування без його "
 "видалення."
@@ -2564,8 +2703,13 @@ msgid ""
 msgstr ""
 "Деякі країни застосовують утримання у джерела на суму рахунків-фактур "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "відповідно до свого внутрішнього законодавства. Будь-яке утримання у джерела"
 " буде сплачено клієнтом податковим органам. Ні за яких обставин My Company "
+=======
+"відповідно до свого внутрішнього законодавства. Будь-яке утримання у джерела "
+"буде сплачено клієнтом податковим органам. Ні за яких обставин My Company "
+>>>>>>> upstream/18.0
 =======
 "відповідно до свого внутрішнього законодавства. Будь-яке утримання у джерела "
 "буде сплачено клієнтом податковим органам. Ні за яких обставин My Company "
@@ -2586,8 +2730,13 @@ msgstr "Змінити кількість товару"
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Changing the Lot/Serial number for move lines with different products is not"
 " allowed."
+=======
+"Changing the Lot/Serial number for move lines with different products is not "
+"allowed."
+>>>>>>> upstream/18.0
 =======
 "Changing the Lot/Serial number for move lines with different products is not "
 "allowed."
@@ -2656,8 +2805,13 @@ msgid ""
 "Check this box to allow using this location to put scrapped/damaged goods."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Поставте позначку, щоб дозволити переміщувати браковані та пошкоджені товари"
 " на це розташування."
+=======
+"Поставте позначку, щоб дозволити переміщувати браковані та пошкоджені товари "
+"на це розташування."
+>>>>>>> upstream/18.0
 =======
 "Поставте позначку, щоб дозволити переміщувати браковані та пошкоджені товари "
 "на це розташування."
@@ -2778,21 +2932,30 @@ msgstr "Обчислюйте витрати на доставку та відп�
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
 "install)</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2808,21 +2971,30 @@ msgstr "Обчислюйте витрати на доставку та відп�
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with FedEx<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with FedEx<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
 "install)</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2848,21 +3020,30 @@ msgstr "Обчислюйте витрати на доставку та відп�
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with UPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with UPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
 "install)</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2873,21 +3054,30 @@ msgstr "Обчислюйте витрати на доставку та відп�
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with USPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with USPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
 "install)</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2949,17 +3139,23 @@ msgstr "Конфлікти"
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__visibility_days
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Consider product forecast these many days in the future upon product replenishment, set to 0 for just-in-time.\n"
 "The value depends on the type of the route (Buy or Manufacture)"
 msgstr ""
 "Розглянемо прогноз товару протягом багатьох днів у майбутньому після поповнення товару, встановивши 0 для своєчасного надходження.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Consider product forecast these many days in the future upon product "
 "replenishment, set to 0 for just-in-time.\n"
 "The value depends on the type of the route (Buy or Manufacture)"
 msgstr ""
 "Розглянемо прогноз товару протягом багатьох днів у майбутньому після "
 "поповнення товару, встановивши 0 для своєчасного надходження.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Вартість залежить від типу маршруту (Купівля або Виробництво)"
 
@@ -3019,8 +3215,13 @@ msgid ""
 "same category. The conversion will be made based on the ratios."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Перетворення між одиницями вимірювання може відбуватися лише у тому випадку,"
 " якщо вони належать до однієї і тієї ж категорії. Конвертація буде "
+=======
+"Перетворення між одиницями вимірювання може відбуватися лише у тому випадку, "
+"якщо вони належать до однієї і тієї ж категорії. Конвертація буде "
+>>>>>>> upstream/18.0
 =======
 "Перетворення між одиницями вимірювання може відбуватися лише у тому випадку, "
 "якщо вони належать до однієї і тієї ж категорії. Конвертація буде "
@@ -3123,7 +3324,12 @@ msgstr "Створити склад"
 msgid ""
 "Create a backorder if you expect to process the remaining\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            products later. Do not create a backorder if you will not\n"
+=======
+"                            products later. Do not create a backorder if you "
+"will not\n"
+>>>>>>> upstream/18.0
 =======
 "                            products later. Do not create a backorder if you "
 "will not\n"
@@ -3333,6 +3539,7 @@ msgstr "Поточні запаси"
 msgid ""
 "Current quantity of products.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -3343,6 +3550,8 @@ msgstr ""
 "В контексті складу, буде включено запаси на всіх розташуваннях запасів цього складу та на всіх підпорядкованих до нього.\n"
 "В інших випадках включені товари складуються на будь-якому місцехнаходженні складу з типом 'Внутрішній'."
 =======
+=======
+>>>>>>> upstream/18.0
 "In a context with a single Stock Location, this includes goods stored at "
 "this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the "
@@ -3359,6 +3568,9 @@ msgstr ""
 "складу та на всіх підпорядкованих до нього.\n"
 "В інших випадках включені товари складуються на будь-якому місцехнаходженні "
 "складу з типом 'Внутрішній'."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -3449,7 +3661,10 @@ msgstr "DEMO_UOM"
 #. module: stock
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -3458,6 +3673,9 @@ msgstr ""
 
 #. module: stock
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3540,12 +3758,15 @@ msgstr "День місяця"
 #: model:ir.model.fields,help:stock.field_res_config_settings__annual_inventory_day
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Day of the month when the annual inventory should occur. If zero or negative, then the first day of the month will be selected instead.\n"
 "        If greater than the last day of a month, then the last day of the month will be selected instead."
 msgstr ""
 "День місяця, коли має проводитися річна інвентаризація. Якщо значення нульове або від’ємне, замість цього буде вибрано перший день місяця.\n"
 "        Якщо більше за останній день місяця, замість цього буде вибрано останній день місяця."
 =======
+=======
+>>>>>>> upstream/18.0
 "Day of the month when the annual inventory should occur. If zero or "
 "negative, then the first day of the month will be selected instead.\n"
 "        If greater than the last day of a month, then the last day of the "
@@ -3555,6 +3776,9 @@ msgstr ""
 "нульове або від’ємне, замість цього буде вибрано перший день місяця.\n"
 "        Якщо більше за останній день місяця, замість цього буде вибрано "
 "останній день місяця."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -3660,8 +3884,13 @@ msgid ""
 "quotations or confirmed manufacturing orders to resupply your stock."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Визначте правило мінімального запасу, щоб Odoo автоматично створювала запити"
 " на комерційну пропозицію або підтверджені замовлення на виробництво для "
+=======
+"Визначте правило мінімального запасу, щоб Odoo автоматично створювала запити "
+"на комерційну пропозицію або підтверджені замовлення на виробництво для "
+>>>>>>> upstream/18.0
 =======
 "Визначте правило мінімального запасу, щоб Odoo автоматично створювала запити "
 "на комерційну пропозицію або підтверджені замовлення на виробництво для "
@@ -3694,6 +3923,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_location__removal_strategy_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines the default method used for suggesting the exact location (shelf) where to take the products from, which lot etc. for this location. This method can be enforced at the product category level, and a fallback is made on the parent locations if none is set here.\n"
 "\n"
 "FIFO: products/lots that were stocked first will be moved out first.\n"
@@ -3708,6 +3938,8 @@ msgstr ""
 "Місцензаходження полиць: товари/партії, найближчі до цільового розташування, будуть забрані першими.\n"
 "FEFO: товари/партії з найближчою датою видалення будуть переміщені першими (доступність цього методу залежить від налаштування \"Термін придатності\")."
 =======
+=======
+>>>>>>> upstream/18.0
 "Defines the default method used for suggesting the exact location (shelf) "
 "where to take the products from, which lot etc. for this location. This "
 "method can be enforced at the product category level, and a fallback is made "
@@ -3734,6 +3966,9 @@ msgstr ""
 "будуть забрані першими.\n"
 "FEFO: товари/партії з найближчою датою видалення будуть переміщені першими "
 "(доступність цього методу залежить від налаштування \"Термін придатності\")."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -3849,8 +4084,13 @@ msgid ""
 "customer, between the confirmation of the sales order and the delivery."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Термін виконання доставки, у днях. Це кількість днів, обіцяна замовнику, між"
 " підтвердженням замовлення на купівлю та доставкою."
+=======
+"Термін виконання доставки, у днях. Це кількість днів, обіцяна замовнику, між "
+"підтвердженням замовлення на купівлю та доставкою."
+>>>>>>> upstream/18.0
 =======
 "Термін виконання доставки, у днях. Це кількість днів, обіцяна замовнику, між "
 "підтвердженням замовлення на купівлю та доставкою."
@@ -3902,9 +4142,14 @@ msgid ""
 "replenished on order, etc."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Залежно від встановлених модулів це дозволить визначити маршрут товару в цій"
 " упаковці: чи буде він куплений, виготовлений, поповнений під замовлення "
 "тощо."
+=======
+"Залежно від встановлених модулів це дозволить визначити маршрут товару в цій "
+"упаковці: чи буде він куплений, виготовлений, поповнений під замовлення тощо."
+>>>>>>> upstream/18.0
 =======
 "Залежно від встановлених модулів це дозволить визначити маршрут товару в цій "
 "упаковці: чи буде він куплений, виготовлений, поповнений під замовлення тощо."
@@ -3919,8 +4164,13 @@ msgid ""
 "order, etc."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Залежно від встановлених модулів, це дозволить вам визначити маршрут товару:"
 " чи буде він купуватися, виготовлятися, поповнюватися на замовлення і т.д."
+=======
+"Залежно від встановлених модулів, це дозволить вам визначити маршрут товару: "
+"чи буде він купуватися, виготовлятися, поповнюватися на замовлення і т.д."
+>>>>>>> upstream/18.0
 =======
 "Залежно від встановлених модулів, це дозволить вам визначити маршрут товару: "
 "чи буде він купуватися, виготовлятися, поповнюватися на замовлення і т.д."
@@ -4203,6 +4453,10 @@ msgstr "Ви підтверджуєте, що хочете забракуват�
 #. module: stock
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -4320,7 +4574,11 @@ msgid "Dymo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Димо"
+=======
+msgstr "Dymo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dymo"
 >>>>>>> upstream/18.0
@@ -4512,23 +4770,34 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
 =======
+=======
+>>>>>>> upstream/18.0
 "Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast "
 "and works even without a stable internet connection. It supports all flows: "
 "inventory adjustments, batch picking, moving lots or pallets, low inventory "
 "checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "Насолоджуйтесь швидким досвідом роботи з модулем штрих-коду Odoo. Ві швидко "
 "працює навіть без стабільного підключення до Інтернету. Він підтримує всі "
 "процеси: коригування запасів, групове надходження, переміщення партій або "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "піддонів, перевірку низького запасу тощо. Перейдіть до меню \"Додатки\", щоб"
 " активувати інтерфейс штрих-коду."
+=======
+"піддонів, перевірку низького запасу тощо. Перейдіть до меню \"Додатки\", щоб "
+"активувати інтерфейс штрих-коду."
+>>>>>>> upstream/18.0
 =======
 "піддонів, перевірку низького запасу тощо. Перейдіть до меню \"Додатки\", щоб "
 "активувати інтерфейс штрих-коду."
@@ -4557,7 +4826,12 @@ msgstr ""
 "Кожна складська операція в Odoo переміщує товари з одного\n"
 "місцезнаходження на інше. Наприклад, якщо ви отримуєте товари\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "від постачальника, Odoo буде переміщати товари від місцезнаходження постачальника\n"
+=======
+"від постачальника, Odoo буде переміщати товари від місцезнаходження "
+"постачальника\n"
+>>>>>>> upstream/18.0
 =======
 "від постачальника, Odoo буде переміщати товари від місцезнаходження "
 "постачальника\n"
@@ -4638,6 +4912,10 @@ msgstr "Лютий"
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_fedex
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -4748,6 +5026,7 @@ msgstr "Звіт прогнозу"
 msgid ""
 "Forecast quantity (computed as Quantity On Hand - Outgoing + Incoming)\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -4757,6 +5036,8 @@ msgstr ""
 "У контексті із складом всередині це включає товари, що зберігаються всередині цього складу або будь-якого з його філій.\n"
 "В іншому випадку це включає товари, що зберігаються в будь-якому розташуванні складу з \"внутрішнім\" типом."
 =======
+=======
+>>>>>>> upstream/18.0
 "In a context with a single Stock Location, this includes goods stored in "
 "this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the "
@@ -4772,12 +5053,16 @@ msgstr ""
 "всередині цього складу або будь-якого з його філій.\n"
 "В іншому випадку це включає товари, що зберігаються в будь-якому "
 "розташуванні складу з \"внутрішнім\" типом."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_product__free_qty
 msgid ""
 "Forecast quantity (computed as Quantity On Hand - reserved quantity)\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
@@ -4788,6 +5073,8 @@ msgstr ""
 "У контексті єдиного складу, сюди входять товари, що зберігаються в місцезнаходженні запасів цього Складу або будь-якого з його дочірніх.\n"
 "В іншому випадку сюди входять товари, що зберігаються в будь-якому місцезнаходженні запасів із \"внутрішнім\" типом."
 =======
+=======
+>>>>>>> upstream/18.0
 "In a context with a single Stock Location, this includes goods stored in "
 "this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the "
@@ -4803,6 +5090,9 @@ msgstr ""
 "місцезнаходженні запасів цього Складу або будь-якого з його дочірніх.\n"
 "В іншому випадку сюди входять товари, що зберігаються в будь-якому "
 "місцезнаходженні запасів із \"внутрішнім\" типом."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -5014,8 +5304,13 @@ msgstr "Отримайте інформативні або блокувальн�
 #: model:ir.model.fields,help:stock.field_stock_putaway_rule__sequence
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Give to the more specialized category, a higher priority to have them in top"
 " of the list."
+=======
+"Give to the more specialized category, a higher priority to have them in top "
+"of the list."
+>>>>>>> upstream/18.0
 =======
 "Give to the more specialized category, a higher priority to have them in top "
 "of the list."
@@ -5235,8 +5530,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If a separator is defined, a QR code containing all serial numbers contained"
 " in package will be generated, using the defined character(s) to separate "
+=======
+"If a separator is defined, a QR code containing all serial numbers contained "
+"in package will be generated, using the defined character(s) to separate "
+>>>>>>> upstream/18.0
 =======
 "If a separator is defined, a QR code containing all serial numbers contained "
 "in package will be generated, using the defined character(s) to separate "
@@ -5282,8 +5582,13 @@ msgstr "Якщо вказано, операції будуть запакова�
 #: model:ir.model.fields,help:stock.field_lot_label_layout__label_quantity
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the UoM of a lot is not 'units', the lot will be considered as a unit and"
 " only one label will be printed for this lot."
+=======
+"If the UoM of a lot is not 'units', the lot will be considered as a unit and "
+"only one label will be printed for this lot."
+>>>>>>> upstream/18.0
 =======
 "If the UoM of a lot is not 'units', the lot will be considered as a unit and "
 "only one label will be printed for this lot."
@@ -5360,8 +5665,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_product_labels
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a picking when it is validated."
+=======
+"If this checkbox is ticked, Odoo will automatically print the product labels "
+"of a picking when it is validated."
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, Odoo will automatically print the product labels "
 "of a picking when it is validated."
@@ -5392,8 +5702,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_return_slip
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the return slip of"
 " a picking when it is validated."
+=======
+"If this checkbox is ticked, Odoo will automatically print the return slip of "
+"a picking when it is validated."
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, Odoo will automatically print the return slip of "
 "a picking when it is validated."
@@ -5409,8 +5724,13 @@ msgid ""
 "report (if there are moves to allocate to) when validating."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Якщо цей прапорець поставлено, Odoo автоматично показуватиме звіт про прийом"
 " (якщо є переміщення, до яких потрібно розподілити) під час перевірки."
+=======
+"Якщо цей прапорець поставлено, Odoo автоматично показуватиме звіт про прийом "
+"(якщо є переміщення, до яких потрібно розподілити) під час перевірки."
+>>>>>>> upstream/18.0
 =======
 "Якщо цей прапорець поставлено, Odoo автоматично показуватиме звіт про прийом "
 "(якщо є переміщення, до яких потрібно розподілити) під час перевірки."
@@ -5422,8 +5742,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_operations
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, the pickings lines will represent detailed stock"
 " operations. If not, the picking lines will represent an aggregate of "
+=======
+"If this checkbox is ticked, the pickings lines will represent detailed stock "
+"operations. If not, the picking lines will represent an aggregate of "
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, the pickings lines will represent detailed stock "
 "operations. If not, the picking lines will represent an aggregate of "
@@ -5455,8 +5780,13 @@ msgid ""
 "create stock with no lot or not put a restriction on the lot taken. "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Якщо це позначено, ви зможете вибрати партії/серійні номери. Ви також можете"
 " вирішити не ставити партію в цьому типі комплектування. Це означає, що він "
+=======
+"Якщо це позначено, ви зможете вибрати партії/серійні номери. Ви також можете "
+"вирішити не ставити партію в цьому типі комплектування. Це означає, що він "
+>>>>>>> upstream/18.0
 =======
 "Якщо це позначено, ви зможете вибрати партії/серійні номери. Ви також можете "
 "вирішити не ставити партію в цьому типі комплектування. Це означає, що він "
@@ -5467,8 +5797,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__return_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this picking was created as a return of another picking, this field links"
 " to the original picking."
+=======
+"If this picking was created as a return of another picking, this field links "
+"to the original picking."
+>>>>>>> upstream/18.0
 =======
 "If this picking was created as a return of another picking, this field links "
 "to the original picking."
@@ -5543,13 +5878,19 @@ msgstr "Для надходженя"
 #: model:ir.model.fields,help:stock.field_stock_picking__date_deadline
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In case of outgoing flow, validate the transfer before this date to allow to deliver at promised date to the customer.\n"
 "        In case of incoming flow, validate the transfer before this date in order to have these products in stock at the date promised by the supplier"
 =======
+=======
+>>>>>>> upstream/18.0
 "In case of outgoing flow, validate the transfer before this date to allow to "
 "deliver at promised date to the customer.\n"
 "        In case of incoming flow, validate the transfer before this date in "
 "order to have these products in stock at the date promised by the supplier"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -5612,8 +5953,13 @@ msgstr "Неправильний тип дії, поданий як звіт, п
 #: model:ir.model.fields,help:stock.field_stock_quant__inventory_diff_quantity
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Indicates the gap between the product's theoretical quantity and its counted"
 " quantity."
+=======
+"Indicates the gap between the product's theoretical quantity and its counted "
+"quantity."
+>>>>>>> upstream/18.0
 =======
 "Indicates the gap between the product's theoretical quantity and its counted "
 "quantity."
@@ -5721,8 +6067,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_lot__ref
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Internal reference number in case it differs from the manufacturer's "
 "lot/serial number"
+=======
+"Internal reference number in case it differs from the manufacturer's lot/"
+"serial number"
+>>>>>>> upstream/18.0
 =======
 "Internal reference number in case it differs from the manufacturer's lot/"
 "serial number"
@@ -6530,11 +6881,14 @@ msgstr "Партії/серійні номери"
 msgid ""
 "Lots/Serial numbers help you tracking the path followed by your products.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            From their traceability report you will see the full history of their use, as well as their composition."
 msgstr ""
 "Партійні/серійні номера допомагають вам відстежувати шлях, по якому йдуть ваші товари.\n"
 "            З їх звіту про відстеження ви побачите повну історію їх використання, а також запаси."
 =======
+=======
+>>>>>>> upstream/18.0
 "            From their traceability report you will see the full history of "
 "their use, as well as their composition."
 msgstr ""
@@ -6542,6 +6896,9 @@ msgstr ""
 "ваші товари.\n"
 "            З їх звіту про відстеження ви побачите повну історію їх "
 "використання, а також запаси."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -6801,8 +7158,13 @@ msgstr "Історія переміщень"
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__group_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Moves created through this orderpoint will be put in this procurement group."
 " If none is given, the moves generated by stock rules will be grouped into "
+=======
+"Moves created through this orderpoint will be put in this procurement group. "
+"If none is given, the moves generated by stock rules will be grouped into "
+>>>>>>> upstream/18.0
 =======
 "Moves created through this orderpoint will be put in this procurement group. "
 "If none is given, the moves generated by stock rules will be grouped into "
@@ -6843,8 +7205,13 @@ msgstr "Дедлайн моєї дії"
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "My Company (Chicago) undertakes to do its best to supply performant services"
 " in due time in accordance with the agreed timeframes. However, none of its "
+=======
+"My Company (Chicago) undertakes to do its best to supply performant services "
+"in due time in accordance with the agreed timeframes. However, none of its "
+>>>>>>> upstream/18.0
 =======
 "My Company (Chicago) undertakes to do its best to supply performant services "
 "in due time in accordance with the agreed timeframes. However, none of its "
@@ -6855,6 +7222,7 @@ msgid ""
 "against the client by an end consumer."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "My Company (Chicago) зобов’язується зробити все можливе, щоб надавати якісні"
 " послуги в установлені терміни відповідно до узгоджених термінів. Однак "
 "жодне з його зобов’язань не може розглядатися як зобов’язання щодо "
@@ -6863,12 +7231,17 @@ msgstr ""
 "позову про відшкодування збитків, поданого проти клієнта кінцевим "
 "споживачем."
 =======
+=======
+>>>>>>> upstream/18.0
 "My Company (Chicago) зобов’язується зробити все можливе, щоб надавати якісні "
 "послуги в установлені терміни відповідно до узгоджених термінів. Однак жодне "
 "з його зобов’язань не може розглядатися як зобов’язання щодо досягнення "
 "результатів. My Company (Chicago) за жодних обставин не може вимагати від "
 "клієнта виступати як третя сторона в контексті будь-якого позову про "
 "відшкодування збитків, поданого проти клієнта кінцевим споживачем."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -7109,7 +7482,12 @@ msgid ""
 "Verify the routes configuration on the product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Не знайдено жодного правила для поповнення \"%(product)s\" в \"%(location)s\".\n"
+=======
+"Не знайдено жодного правила для поповнення \"%(product)s\" в \"%"
+"(location)s\".\n"
+>>>>>>> upstream/18.0
 =======
 "Не знайдено жодного правила для поповнення \"%(product)s\" в \"%"
 "(location)s\".\n"
@@ -7244,16 +7622,22 @@ msgstr "Жовтень"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odoo opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
 "                                        install the IoT App on a computer that is on the same local network as the\n"
 "                                        barcode operator and configure the routing of the reports.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Odoo opens a PDF preview by default. If you (Enterprise users only) want to "
 "print instantly,\n"
 "                                        install the IoT App on a computer "
 "that is on the same local network as the\n"
 "                                        barcode operator and configure the "
 "routing of the reports.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                        <br/>"
 msgstr ""
@@ -7511,8 +7895,13 @@ msgid ""
 "non-payment by the due date, My Company (Chicago) reserves the right to "
 "request a fixed interest payment amounting to 10% of the sum remaining due. "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "My Company (Chicago) will be authorized to suspend any provision of services"
 " without prior warning in the event of late payment."
+=======
+"My Company (Chicago) will be authorized to suspend any provision of services "
+"without prior warning in the event of late payment."
+>>>>>>> upstream/18.0
 =======
 "My Company (Chicago) will be authorized to suspend any provision of services "
 "without prior warning in the event of late payment."
@@ -7785,12 +8174,15 @@ msgstr "Упаковки"
 #: model_terms:ir.actions.act_window,help:stock.action_package_view
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Packages are usually created via transfers (during pack operation) and can contain different products.\n"
 "                Once created, the whole package can be moved at once, or products can be unpacked and moved as single units again."
 msgstr ""
 "Упаковки зазвичай створюються за допомогою переміщень (під час роботи з упаковкою) і можуть містити різні товари.\n"
 "                Після створення всю упаковку можна перемістити одночасно, або товари можна розпакувати та знову перемістити як єдині одиниці."
 =======
+=======
+>>>>>>> upstream/18.0
 "Packages are usually created via transfers (during pack operation) and can "
 "contain different products.\n"
 "                Once created, the whole package can be moved at once, or "
@@ -7800,6 +8192,9 @@ msgstr ""
 "упаковкою) і можуть містити різні товари.\n"
 "                Після створення всю упаковку можна перемістити одночасно, "
 "або товари можна розпакувати та знову перемістити як єдині одиниці."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -7991,7 +8386,12 @@ msgid ""
 msgstr ""
 "Будь ласка, вкладіть цей документ у зворотну посилку.<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                Ваша посилка повинна бути відправлена на цю адресу:"
+=======
+"                                Ваша посилка повинна бути відправлена на цю "
+"адресу:"
+>>>>>>> upstream/18.0
 =======
 "                                Ваша посилка повинна бути відправлена на цю "
 "адресу:"
@@ -8404,8 +8804,12 @@ msgid ""
 "priorities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Товари будуть зарезервованими першими для переміщень із найвищим "
 "пріоритетом."
+=======
+"Товари будуть зарезервованими першими для переміщень із найвищим пріоритетом."
+>>>>>>> upstream/18.0
 =======
 "Товари будуть зарезервованими першими для переміщень із найвищим пріоритетом."
 >>>>>>> upstream/18.0
@@ -8688,6 +9092,7 @@ msgstr "Кількість за замовчуванням одиниці вим
 msgid ""
 "Quantity of planned incoming products.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods arriving to this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods arriving to the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods arriving to any Stock Location with 'internal' type."
@@ -8697,6 +9102,8 @@ msgstr ""
 "У контексті з одним складом це включає товари, що надходять до місцезнаходження цього складу, або будь-якого дочірнього складу.\n"
 "В іншому випадку це включає товари, що прибувають до будь-якого місцезнаходження складу з \"внутрішнім\" типом."
 =======
+=======
+>>>>>>> upstream/18.0
 "In a context with a single Stock Location, this includes goods arriving to "
 "this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods arriving to the "
@@ -8711,12 +9118,16 @@ msgstr ""
 "місцезнаходження цього складу, або будь-якого дочірнього складу.\n"
 "В іншому випадку це включає товари, що прибувають до будь-якого "
 "місцезнаходження складу з \"внутрішнім\" типом."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_product__outgoing_qty
 msgid ""
 "Quantity of planned outgoing products.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods leaving this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods leaving the Stock Location of this Warehouse, or any of its children.\n"
@@ -8727,6 +9138,8 @@ msgstr ""
 "У контексті єдиного складу це включає товари, які залишають місце розташування цього складу або будь-якого його дочірнього.\n"
 "В іншому випадку це включає в себе товари, що залишають будь-яке місцезнаходження у \"внутрішньому\" складі."
 =======
+=======
+>>>>>>> upstream/18.0
 "In a context with a single Stock Location, this includes goods leaving this "
 "Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods leaving the Stock "
@@ -8742,6 +9155,9 @@ msgstr ""
 "розташування цього складу або будь-якого його дочірнього.\n"
 "В іншому випадку це включає в себе товари, що залишають будь-яке "
 "місцезнаходження у \"внутрішньому\" складі."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -8942,7 +9358,12 @@ msgstr "Етикетки звіту отримання"
 msgid ""
 "Reduce stockouts with alerts, barcode app, replenishment propositions,\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        locations management traceability, quality control, etc."
+=======
+"                        locations management traceability, quality control, "
+"etc."
+>>>>>>> upstream/18.0
 =======
 "                        locations management traceability, quality control, "
 "etc."
@@ -9194,12 +9615,15 @@ msgstr "Резервувати лише заповнені упаковки"
 #: model:ir.model.fields,help:stock.field_product_category__packaging_reserve_method
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reserve Only Full Packagings: will not reserve partial packagings. If customer orders 2 pallets of 1000 units each and you only have 1600 in stock, then only 1000 will be reserved\n"
 "Reserve Partial Packagings: allow reserving partial packagings. If customer orders 2 pallets of 1000 units each and you only have 1600 in stock, then 1600 will be reserved"
 msgstr ""
 "Резервувати лише заповнені упаковки: не резервуватиме частково заповнені упаковки. Якщо клієнт замовить 2 піддони по 1000 одиниць кожна і у вас є лише 1600 на складі, тоді буде зарезервовано лише 1000\n"
 "Зарезервувати частково заповнені упаковки: дозволити резервувати частково заповнені упаковки. Якщо клієнт замовить 2 піддони по 1000 одиниць кожна, а у вас є лише 1600 на складі, то 1600 буде зарезервовано"
 =======
+=======
+>>>>>>> upstream/18.0
 "Reserve Only Full Packagings: will not reserve partial packagings. If "
 "customer orders 2 pallets of 1000 units each and you only have 1600 in "
 "stock, then only 1000 will be reserved\n"
@@ -9213,6 +9637,9 @@ msgstr ""
 "Зарезервувати частково заповнені упаковки: дозволити резервувати частково "
 "заповнені упаковки. Якщо клієнт замовить 2 піддони по 1000 одиниць кожна, а "
 "у вас є лише 1600 на складі, то 1600 буде зарезервовано"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -9352,12 +9779,15 @@ msgstr "Багаторазова коробка"
 #: model:ir.model.fields,help:stock.field_stock_quant_package__package_use
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reusable boxes are used for batch picking and emptied afterwards to be reused. In the barcode application, scanning a reusable box will add the products in this box.\n"
 "        Disposable boxes aren't reused, when scanning a disposable box in the barcode application, the contained products are added to the transfer."
 msgstr ""
 "Коробки багаторазового використання використовуються для групового комплектування, а потім звільнюються для подальшого використання. У модулі штрих-код сканування багаторазової коробки додає товари в цьому вікні. \n"
 "Одноразові коробки не використовуються повторно, під час сканування одноразової коробки у модулі штрих-код товари додаються до переміщення."
 =======
+=======
+>>>>>>> upstream/18.0
 "Reusable boxes are used for batch picking and emptied afterwards to be "
 "reused. In the barcode application, scanning a reusable box will add the "
 "products in this box.\n"
@@ -9369,6 +9799,9 @@ msgstr ""
 "штрих-код сканування багаторазової коробки додає товари в цьому вікні. \n"
 "Одноразові коробки не використовуються повторно, під час сканування "
 "одноразової коробки у модулі штрих-код товари додаються до переміщення."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -9431,8 +9864,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse__resupply_route_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Routes will be created for these resupply warehouses and you can select them"
 " on products and product categories"
+=======
+"Routes will be created for these resupply warehouses and you can select them "
+"on products and product categories"
+>>>>>>> upstream/18.0
 =======
 "Routes will be created for these resupply warehouses and you can select them "
 "on products and product categories"
@@ -9447,17 +9885,23 @@ msgstr ""
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rule %(rule)s belongs to %(rule_company)s while the route belongs to "
 "%(route_company)s."
 msgstr ""
 "Правило %(rule)s належить %(rule_company)s, а маршрут належить "
 "%(route_company)s."
 =======
+=======
+>>>>>>> upstream/18.0
 "Rule %(rule)s belongs to %(rule_company)s while the route belongs to %"
 "(route_company)s."
 msgstr ""
 "Правило %(rule)s належить %(rule_company)s, а маршрут належить %"
 "(route_company)s."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -9564,8 +10008,13 @@ msgid ""
 "manually a value here would set it as expected date for all the stock moves."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Запланований час для обробки першої частини відправки. Встановлення значення"
 " вручну тут буде встановлювати його так, як очікується, для всіх складських "
+=======
+"Запланований час для обробки першої частини відправки. Встановлення значення "
+"вручну тут буде встановлювати його так, як очікується, для всіх складських "
+>>>>>>> upstream/18.0
 =======
 "Запланований час для обробки першої частини відправки. Встановлення значення "
 "вручну тут буде встановлювати його так, як очікується, для всіх складських "
@@ -9630,17 +10079,23 @@ msgstr "Забраковано"
 msgid ""
 "Scrapping a product will remove it from your stock. The product will\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                end up in a scrap location that can be used for reporting purpose."
 msgstr ""
 "Бракування товару зніме його зі складу. Товар буде\n"
 "                 в кінцевому підсумку в місцезнаходженні браку, які можуть бути використані для звітування цілей."
 =======
+=======
+>>>>>>> upstream/18.0
 "                end up in a scrap location that can be used for reporting "
 "purpose."
 msgstr ""
 "Бракування товару зніме його зі складу. Товар буде\n"
 "                 в кінцевому підсумку в місцезнаходженні браку, які можуть "
 "бути використані для звітування цілей."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -9711,8 +10166,12 @@ msgstr "Продаж та купівля товарів у різних один
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Send an automatic confirmation SMS Text Message when Delivery Orders are "
 "done"
+=======
+"Send an automatic confirmation SMS Text Message when Delivery Orders are done"
+>>>>>>> upstream/18.0
 =======
 "Send an automatic confirmation SMS Text Message when Delivery Orders are done"
 >>>>>>> upstream/18.0
@@ -9839,7 +10298,11 @@ msgid "Sequence %(code)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Послідовність %(code)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Послідовність %(code)s"
 >>>>>>> upstream/18.0
@@ -10057,17 +10520,23 @@ msgstr "Серійні номери"
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) already exists in location(s): "
 "%(location_list)s. Please correct the serial number encoded."
 msgstr ""
 "Серійний номер (%(serial_number)s) вже існує в місцезнаходженн: "
 "%(location_list)s. Виправіть закодований серійний номер."
 =======
+=======
+>>>>>>> upstream/18.0
 "Serial number (%(serial_number)s) already exists in location(s): %"
 "(location_list)s. Please correct the serial number encoded."
 msgstr ""
 "Серійний номер (%(serial_number)s) вже існує в місцезнаходженн: %"
 "(location_list)s. Виправіть закодований серійний номер."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -10075,12 +10544,15 @@ msgstr ""
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but is located in location(s): %(other_locations)s.\n"
 "\n"
 "Please correct this to prevent inconsistent data."
 msgstr ""
 "Серійний номер (%(serial_number)s) не знаходиться в %(source_location)s, але знаходиться у місцезнаходженні: %(other_locations)s.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but "
 "is located in location(s): %(other_locations)s.\n"
 "\n"
@@ -10088,6 +10560,9 @@ msgstr ""
 msgstr ""
 "Серійний номер (%(serial_number)s) не знаходиться в %(source_location)s, але "
 "знаходиться у місцезнаходженні: %(other_locations)s.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "\n"
 "Виправте це, щоб запобігти невідповідності даних."
@@ -10097,6 +10572,7 @@ msgstr ""
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but is located in location(s): %(other_locations)s.\n"
 "\n"
 "Source location for this move will be changed to %(recommended_location)s"
@@ -10105,6 +10581,8 @@ msgstr ""
 "\n"
 "Джерело місцезнаходження для цього переміщення буде змінено на %(recommended_location)s"
 =======
+=======
+>>>>>>> upstream/18.0
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but "
 "is located in location(s): %(other_locations)s.\n"
 "\n"
@@ -10115,6 +10593,9 @@ msgstr ""
 "\n"
 "Джерело місцезнаходження для цього переміщення буде змінено на %"
 "(recommended_location)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -10142,6 +10623,7 @@ msgstr "Встановити складські маршрути"
 #: model:ir.model.fields,help:stock.field_product_category__removal_strategy_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Set a specific removal strategy that will be used regardless of the source location for this product category.\n"
 "\n"
 "FIFO: products/lots that were stocked first will be moved out first.\n"
@@ -10150,6 +10632,8 @@ msgid ""
 "FEFO: products/lots with the closest removal date will be moved out first (the availability of this method depends on the \"Expiration Dates\" setting).\n"
 "Least Packages: FIFO but with the least number of packages possible when there are several packages containing the same product."
 =======
+=======
+>>>>>>> upstream/18.0
 "Set a specific removal strategy that will be used regardless of the source "
 "location for this product category.\n"
 "\n"
@@ -10162,6 +10646,9 @@ msgid ""
 "setting).\n"
 "Least Packages: FIFO but with the least number of packages possible when "
 "there are several packages containing the same product."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -10242,6 +10729,7 @@ msgstr "Вага вантажу"
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Shipping connectors allow to compute accurate shipping costs, print shipping"
 " labels and request carrier picking at your warehouse to ship to the "
 "customer. Apply shipping connector from delivery methods."
@@ -10250,6 +10738,8 @@ msgstr ""
 "друкувати ярлики для доставки та запитувати перевізника на вашому складі для"
 " доставки до замовника. Застосуйте коннектор доставки від способів доставки."
 =======
+=======
+>>>>>>> upstream/18.0
 "Shipping connectors allow to compute accurate shipping costs, print shipping "
 "labels and request carrier picking at your warehouse to ship to the "
 "customer. Apply shipping connector from delivery methods."
@@ -10257,6 +10747,9 @@ msgstr ""
 "Коннектори для доставки дозволяють обчислити точні витрати на доставку, "
 "друкувати ярлики для доставки та запитувати перевізника на вашому складі для "
 "доставки до замовника. Застосуйте коннектор доставки від способів доставки."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -10772,8 +11265,13 @@ msgstr "Зберігати в"
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_1
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Store and retrieve information regarding every Lot/Serial Number (condition,"
 " product info, ...)."
+=======
+"Store and retrieve information regarding every Lot/Serial Number (condition, "
+"product info, ...)."
+>>>>>>> upstream/18.0
 =======
 "Store and retrieve information regarding every Lot/Serial Number (condition, "
 "product info, ...)."
@@ -10841,6 +11339,7 @@ msgstr "Беріть зі складу, якщо недоступно, запу�
 #: model:ir.model.fields,help:stock.field_stock_rule__procure_method
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Take From Stock: the products will be taken from the available stock of the source location.\n"
 "Trigger Another Rule: the system will try to find a stock rule to bring the products in the source location. The available stock will be ignored.\n"
 "Take From Stock, if Unavailable, Trigger Another Rule: the products will be taken from the available stock of the source location.If there is no stock available, the system will try to find a  rule to bring the products in the source location."
@@ -10849,6 +11348,8 @@ msgstr ""
 "Запустити інше правило: система буде намагатися знайти складське правило, щоби складувати товари у місезнаходження джерела. Доступний склад буде ігноруватися.\n"
 "Брати зі складу, якщо недоступно, Запустити інше правило: товари будуть братися із доступного складу місцезнаходження джерела. Якщо немає доступних запасів, система буде намагатися знайти правило для складування товарів у місцезнаходженні джерела."
 =======
+=======
+>>>>>>> upstream/18.0
 "Take From Stock: the products will be taken from the available stock of the "
 "source location.\n"
 "Trigger Another Rule: the system will try to find a stock rule to bring the "
@@ -10867,6 +11368,9 @@ msgstr ""
 "братися із доступного складу місцезнаходження джерела. Якщо немає доступних "
 "запасів, система буде намагатися знайти правило для складування товарів у "
 "місцезнаходженні джерела."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -10909,6 +11413,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_rule__auto
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The 'Manual Operation' value will create a stock move after the current one."
 " With 'Automatic No Step Added', the location is replaced in the original "
 "move."
@@ -10916,12 +11421,17 @@ msgstr ""
 "Значення 'Ручна операція' створить рух запасів після поточного. За допомогою"
 " пункту 'Автоматично не додано кроку' розташування замінюється в "
 =======
+=======
+>>>>>>> upstream/18.0
 "The 'Manual Operation' value will create a stock move after the current one. "
 "With 'Automatic No Step Added', the location is replaced in the original "
 "move."
 msgstr ""
 "Значення 'Ручна операція' створить рух запасів після поточного. За допомогою "
 "пункту 'Автоматично не додано кроку' розташування замінюється в "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "оригінальному ході."
 
@@ -10944,10 +11454,13 @@ msgstr ""
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Serial Number (%(serial_number)s) is already used in location(s): %(location_list)s.\n"
 "\n"
 "Is this expected? For example, this can occur if a delivery operation is validated before its corresponding receipt operation is validated. In this case the issue will be solved automatically once all steps are completed. Otherwise, the serial number should be corrected to prevent inconsistent data."
 =======
+=======
+>>>>>>> upstream/18.0
 "The Serial Number (%(serial_number)s) is already used in location(s): %"
 "(location_list)s.\n"
 "\n"
@@ -10956,6 +11469,9 @@ msgid ""
 "case the issue will be solved automatically once all steps are completed. "
 "Otherwise, the serial number should be corrected to prevent inconsistent "
 "data."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -10989,7 +11505,12 @@ msgstr ""
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The combination of lot/serial number and product must be unique within a company including when no company is defined.\n"
+=======
+"The combination of lot/serial number and product must be unique within a "
+"company including when no company is defined.\n"
+>>>>>>> upstream/18.0
 =======
 "The combination of lot/serial number and product must be unique within a "
 "company including when no company is defined.\n"
@@ -11066,8 +11587,12 @@ msgstr "Коригування запасів було скасовано."
 #: model:ir.model.constraint,message:stock.constraint_stock_location_inventory_freq_nonneg
 msgid "The inventory frequency (days) for a location must be non-negative"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Частота інвентаризації (дні) для місцезнаходження має бути невід’ємною"
+=======
+msgstr "Частота інвентаризації (дні) для місцезнаходження має бути невід’ємною"
+>>>>>>> upstream/18.0
 =======
 msgstr "Частота інвентаризації (дні) для місцезнаходження має бути невід’ємною"
 >>>>>>> upstream/18.0
@@ -11107,20 +11632,31 @@ msgstr ""
 msgid ""
 "The operation type system allows you to assign each stock\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            operation a specific type which will alter its views accordingly.\n"
 "            On the operation type you could e.g. specify if packing is needed by default,\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            operation a specific type which will alter its views "
 "accordingly.\n"
 "            On the operation type you could e.g. specify if packing is "
 "needed by default,\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            if it should show the customer."
 msgstr ""
 "Система типів операцій дозволяє призначати кожній\n"
 " складській операції певний тип, який відповідно змінюватиме її перегляди.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            За типом операції ви можете, наприклад, вказати, чи потрібна упаковка за замовчуванням, \n"
+=======
+"            За типом операції ви можете, наприклад, вказати, чи потрібна "
+"упаковка за замовчуванням, \n"
+>>>>>>> upstream/18.0
 =======
 "            За типом операції ви можете, наприклад, вказати, чи потрібна "
 "упаковка за замовчуванням, \n"
@@ -11168,17 +11704,23 @@ msgstr "Порахована кількість товару."
 msgid ""
 "The quantities selected do not all belong to the same location.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    You may not assign them a package without moving them to a common location."
 msgstr ""
 "Вибрані кількості не належать до одного місцезнаходження.\n"
 "Ви не можете призначити їм упаковку, не перемістивши їх у спільне розташування."
 =======
+=======
+>>>>>>> upstream/18.0
 "                    You may not assign them a package without moving them to "
 "a common location."
 msgstr ""
 "Вибрані кількості не належать до одного місцезнаходження.\n"
 "Ви не можете призначити їм упаковку, не перемістивши їх у спільне "
 "розташування."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -11192,8 +11734,12 @@ msgstr ""
 "Виконана кількість для товару \"%(product)s\" не враховує точність "
 "округлення, визначену в одиниці вимірювання \"%(unit)s\". Будь ласка, "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "змініть виконану кількість або точність округлення вашої одиниці "
 "вимірювання."
+=======
+"змініть виконану кількість або точність округлення вашої одиниці вимірювання."
+>>>>>>> upstream/18.0
 =======
 "змініть виконану кількість або точність округлення вашої одиниці вимірювання."
 >>>>>>> upstream/18.0
@@ -11262,8 +11808,13 @@ msgid ""
 "The stock location used as source when receiving goods from this contact."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Місцезнаходження складу, що використовується як джерело при отриманні товару"
 " від цього контакту."
+=======
+"Місцезнаходження складу, що використовується як джерело при отриманні товару "
+"від цього контакту."
+>>>>>>> upstream/18.0
 =======
 "Місцезнаходження складу, що використовується як джерело при отриманні товару "
 "від цього контакту."
@@ -11304,8 +11855,13 @@ msgid ""
 "to put in a pack or all products are already in a pack."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Немає нічого, що можна запакувати. Або немає кількості для упаковки, або всі"
 " товари вже запаковані."
+=======
+"Немає нічого, що можна запакувати. Або немає кількості для упаковки, або всі "
+"товари вже запаковані."
+>>>>>>> upstream/18.0
 =======
 "Немає нічого, що можна запакувати. Або немає кількості для упаковки, або всі "
 "товари вже запаковані."
@@ -11325,17 +11881,23 @@ msgstr "Цей серійний номер вже в іншому розташу
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This adds a dropshipping route to apply on products in order to request your"
 " vendors to deliver to your customers. A product to dropship will generate a"
 " purchase request for quotation once the sales order confirmed. This is a "
 "on-demand flow. The requested delivery address will be the customer delivery"
 " address and not your warehouse."
 =======
+=======
+>>>>>>> upstream/18.0
 "This adds a dropshipping route to apply on products in order to request your "
 "vendors to deliver to your customers. A product to dropship will generate a "
 "purchase request for quotation once the sales order confirmed. This is a on-"
 "demand flow. The requested delivery address will be the customer delivery "
 "address and not your warehouse."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "Це додає маршрут дропшипінгу, який можна застосувати до товарів, щоб "
@@ -11380,8 +11942,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking_type__default_location_src_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is the default source location when this operation is manually created."
 " However, it is possible to change it afterwards or that the routes use "
+=======
+"This is the default source location when this operation is manually created. "
+"However, it is possible to change it afterwards or that the routes use "
+>>>>>>> upstream/18.0
 =======
 "This is the default source location when this operation is manually created. "
 "However, it is possible to change it afterwards or that the routes use "
@@ -11403,8 +11970,13 @@ msgid ""
 msgstr ""
 "Це кількість товару, який планується перемістити. Зменшення цієї кількості "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "не створює дозамовлення. Зміна цієї кількості під час призначених переміщень"
 " впливає на резервування товару, і це слід робити обережно."
+=======
+"не створює дозамовлення. Зміна цієї кількості під час призначених переміщень "
+"впливає на резервування товару, і це слід робити обережно."
+>>>>>>> upstream/18.0
 =======
 "не створює дозамовлення. Зміна цієї кількості під час призначених переміщень "
 "впливає на резервування товару, і це слід робити обережно."
@@ -11445,7 +12017,12 @@ msgstr "Цей партійний/серійний номер вже в іншо
 msgid ""
 "This menu gives you the full traceability of inventory\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                operations on a specific product. You can filter on the product\n"
+=======
+"                operations on a specific product. You can filter on the "
+"product\n"
+>>>>>>> upstream/18.0
 =======
 "                operations on a specific product. You can filter on the "
 "product\n"
@@ -11460,12 +12037,15 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:stock.stock_move_line_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                    You can filter on the product to see all the past movements for the product."
 msgstr ""
 "Це меню дає повне відстеження операцій інвентаризації на певному товарі.\n"
 "                   Ви можете фільтрувати на товарі, щоби побачити усі минулі переміщення для товару."
 =======
+=======
+>>>>>>> upstream/18.0
 "This menu gives you the full traceability of inventory operations on a "
 "specific product.\n"
 "                    You can filter on the product to see all the past "
@@ -11474,6 +12054,9 @@ msgstr ""
 "Це меню дає повне відстеження операцій інвентаризації на певному товарі.\n"
 "                   Ви можете фільтрувати на товарі, щоби побачити усі минулі "
 "переміщення для товару."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -11494,17 +12077,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_template_property_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This note is added to receipt orders (e.g. where to store the product in the"
 " warehouse)."
 msgstr ""
 "Ця примітка додана до замовлень на надходження (напр., де зберігати товар на"
 " складі)."
 =======
+=======
+>>>>>>> upstream/18.0
 "This note is added to receipt orders (e.g. where to store the product in the "
 "warehouse)."
 msgstr ""
 "Ця примітка додана до замовлень на надходження (напр., де зберігати товар на "
 "складі)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -11514,8 +12103,12 @@ msgid ""
 "This product has been used in at least one inventory movement. It is not "
 "advised to change the Product Type since it can lead to inconsistencies. A "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "better solution could be to archive the product and create a new one "
 "instead."
+=======
+"better solution could be to archive the product and create a new one instead."
+>>>>>>> upstream/18.0
 =======
 "better solution could be to archive the product and create a new one instead."
 >>>>>>> upstream/18.0
@@ -11533,8 +12126,13 @@ msgid ""
 "it belonging to another company."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Компанію цього товару не можна змінити, доки певна кількість товару належить"
 " іншій компанії."
+=======
+"Компанію цього товару не можна змінити, доки певна кількість товару належить "
+"іншій компанії."
+>>>>>>> upstream/18.0
 =======
 "Компанію цього товару не можна змінити, доки певна кількість товару належить "
 "іншій компанії."
@@ -11545,8 +12143,13 @@ msgstr ""
 #: code:addons/stock/models/product.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This product's company cannot be changed as long as there are stock moves of"
 " it belonging to another company."
+=======
+"This product's company cannot be changed as long as there are stock moves of "
+"it belonging to another company."
+>>>>>>> upstream/18.0
 =======
 "This product's company cannot be changed as long as there are stock moves of "
 "it belonging to another company."
@@ -11582,8 +12185,13 @@ msgid ""
 "This sequence prefix is already being used by another operation type. It is "
 "recommended that you select a unique prefix to avoid issues and/or repeated "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "reference values or assign the existing reference sequence to this operation"
 " type."
+=======
+"reference values or assign the existing reference sequence to this operation "
+"type."
+>>>>>>> upstream/18.0
 =======
 "reference values or assign the existing reference sequence to this operation "
 "type."
@@ -11602,8 +12210,13 @@ msgid ""
 "location for stock moves generated by manufacturing orders."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Це складське місцезнаходження буде використано замість типового як початкове"
 " розташування для складських переміщень, згенерованих виробничими "
+=======
+"Це складське місцезнаходження буде використано замість типового як початкове "
+"розташування для складських переміщень, згенерованих виробничими "
+>>>>>>> upstream/18.0
 =======
 "Це складське місцезнаходження буде використано замість типового як початкове "
 "розташування для складських переміщень, згенерованих виробничими "
@@ -11618,8 +12231,13 @@ msgid ""
 "location for stock moves generated when you do an inventory."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Це складське місцезнаходження буде використано замість типового як початкове"
 " розташування для згенерованих складських переміщень, коли ви виконуєте "
+=======
+"Це складське місцезнаходження буде використано замість типового як початкове "
+"розташування для згенерованих складських переміщень, коли ви виконуєте "
+>>>>>>> upstream/18.0
 =======
 "Це складське місцезнаходження буде використано замість типового як початкове "
 "розташування для згенерованих складських переміщень, коли ви виконуєте "
@@ -11645,17 +12263,23 @@ msgstr "Буде відхилено всі незастосовані підра
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_track_confirmation
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Those products you added are tracked but lots/serials were not defined. Once applied those can't be changed.<br/>\n"
 "                    Apply anyway?"
 msgstr ""
 "Ці товари, які ви додали, відстежуються, але партії/серійні номери не визначено. Після застосування їх не можна змінити.<br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Those products you added are tracked but lots/serials were not defined. Once "
 "applied those can't be changed.<br/>\n"
 "                    Apply anyway?"
 msgstr ""
 "Ці товари, які ви додали, відстежуються, але партії/серійні номери не "
 "визначено. Після застосування їх не можна змінити.<br/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    Все одно застосувати?"
 
@@ -11853,8 +12477,13 @@ msgstr "Загальна кількість маршрутів"
 msgid ""
 "Total weight of packages and products not in a package. Packages with no "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipping weight specified will default to their products' total weight. This"
 " is the weight used to compute the cost of the shipping."
+=======
+"shipping weight specified will default to their products' total weight. This "
+"is the weight used to compute the cost of the shipping."
+>>>>>>> upstream/18.0
 =======
 "shipping weight specified will default to their products' total weight. This "
 "is the weight used to compute the cost of the shipping."
@@ -11901,12 +12530,15 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_res_config_settings__module_product_expiry
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track following dates on lots & serial numbers: best before, removal, end of life, alert. \n"
 " Such dates are set automatically at lot/serial number creation based on values set on the product (in days)."
 msgstr ""
 "Відстежуйте наступні дати на партіях та серійних номерах: краще до, видалення, закінчення терміну дії, оповіщення.\n"
 "  Такі дати встановлюються автоматично при створенні партії/серійного номера на основі значень, встановлених на товарі (у днях)."
 =======
+=======
+>>>>>>> upstream/18.0
 "Track following dates on lots & serial numbers: best before, removal, end of "
 "life, alert. \n"
 " Such dates are set automatically at lot/serial number creation based on "
@@ -11916,15 +12548,24 @@ msgstr ""
 "видалення, закінчення терміну дії, оповіщення.\n"
 "  Такі дати встановлюються автоматично при створенні партії/серійного номера "
 "на основі значень, встановлених на товарі (у днях)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track following dates on lots & serial numbers: best before, removal, end of"
 " life, alert. Such dates are set automatically at lot/serial number creation"
 " based on values set on the product (in days)."
+=======
+"Track following dates on lots & serial numbers: best before, removal, end of "
+"life, alert. Such dates are set automatically at lot/serial number creation "
+"based on values set on the product (in days)."
+>>>>>>> upstream/18.0
 =======
 "Track following dates on lots & serial numbers: best before, removal, end of "
 "life, alert. Such dates are set automatically at lot/serial number creation "
@@ -12090,6 +12731,10 @@ msgstr "Введіть повідомлення..."
 #: model:ir.model.fields,field_description:stock.field_stock_picking__picking_type_code
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__code
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking__picking_type_code
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking__picking_type_code
 >>>>>>> upstream/18.0
@@ -12107,6 +12752,10 @@ msgstr "Тип дії виключення на записі."
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_ups
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -12120,6 +12769,10 @@ msgstr "Конектор UPS"
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_usps
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -12140,8 +12793,13 @@ msgstr "Не призначати"
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unavailable Serial numbers. Please correct the serial numbers encoded: "
 "%(serial_numbers_to_locations)s"
+=======
+"Unavailable Serial numbers. Please correct the serial numbers encoded: %"
+"(serial_numbers_to_locations)s"
+>>>>>>> upstream/18.0
 =======
 "Unavailable Serial numbers. Please correct the serial numbers encoded: %"
 "(serial_numbers_to_locations)s"
@@ -12237,8 +12895,13 @@ msgstr "Невідоме пакування"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unless previously specified by the source document, this will be the default"
 " picking policy for this operation type."
+=======
+"Unless previously specified by the source document, this will be the default "
+"picking policy for this operation type."
+>>>>>>> upstream/18.0
 =======
 "Unless previously specified by the source document, this will be the default "
 "picking policy for this operation type."
@@ -12320,7 +12983,13 @@ msgstr "Оновіть кількість"
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Updating the location of this transfer will result in unreservation of the currently assigned items. An attempt to reserve items at the new location will be made and the link with preceding transfers will be discarded.\n"
+=======
+"Updating the location of this transfer will result in unreservation of the "
+"currently assigned items. An attempt to reserve items at the new location "
+"will be made and the link with preceding transfers will be discarded.\n"
+>>>>>>> upstream/18.0
 =======
 "Updating the location of this transfer will result in unreservation of the "
 "currently assigned items. An attempt to reserve items at the new location "
@@ -12723,8 +13392,13 @@ msgid ""
 "the default route when products pass through this warehouse."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Коли склад позначено для цього маршруту, його варто розглядати як маршрут за"
 " замовчуванням, коли товари проходять через склад."
+=======
+"Коли склад позначено для цього маршруту, його варто розглядати як маршрут за "
+"замовчуванням, коли товари проходять через склад."
+>>>>>>> upstream/18.0
 =======
 "Коли склад позначено для цього маршруту, його варто розглядати як маршрут за "
 "замовчуванням, коли товари проходять через склад."
@@ -12765,9 +13439,15 @@ msgstr "Коли товар надходить в"
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When products are needed in <b>%(destination)s</b>, <br> "
 "<b>%(operation)s</b> are created from <b>%(source_location)s</b> to fulfill "
 "the need. %(suffix)s"
+=======
+"When products are needed in <b>%(destination)s</b>, <br> <b>%(operation)s</"
+"b> are created from <b>%(source_location)s</b> to fulfill the need. %"
+"(suffix)s"
+>>>>>>> upstream/18.0
 =======
 "When products are needed in <b>%(destination)s</b>, <br> <b>%(operation)s</"
 "b> are created from <b>%(source_location)s</b> to fulfill the need. %"
@@ -12780,8 +13460,13 @@ msgstr ""
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When products arrive in <b>%(source_location)s</b>, <br> "
 "<b>%(operation)s</b> are created to send them to <b>%(destination)s</b>."
+=======
+"When products arrive in <b>%(source_location)s</b>, <br> <b>%(operation)s</"
+"b> are created to send them to <b>%(destination)s</b>."
+>>>>>>> upstream/18.0
 =======
 "When products arrive in <b>%(source_location)s</b>, <br> <b>%(operation)s</"
 "b> are created to send them to <b>%(destination)s</b>."
@@ -12808,9 +13493,15 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When the virtual stock goes below the Min Quantity specified for this field,"
 " Odoo generates a procurement to bring the forecasted quantity above of this"
 " Min Quantity."
+=======
+"When the virtual stock goes below the Min Quantity specified for this field, "
+"Odoo generates a procurement to bring the forecasted quantity above of this "
+"Min Quantity."
+>>>>>>> upstream/18.0
 =======
 "When the virtual stock goes below the Min Quantity specified for this field, "
 "Odoo generates a procurement to bring the forecasted quantity above of this "
@@ -12845,7 +13536,12 @@ msgstr ""
 msgid ""
 "When validating a transfer:\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Ask: users are asked to choose if they want to make a backorder for remaining products\n"
+=======
+" * Ask: users are asked to choose if they want to make a backorder for "
+"remaining products\n"
+>>>>>>> upstream/18.0
 =======
 " * Ask: users are asked to choose if they want to make a backorder for "
 "remaining products\n"
@@ -12855,7 +13551,12 @@ msgid ""
 msgstr ""
 "При підтвердженні переміщення:\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Запитується: користувачам пропонується вибрати, чи хочуть вони зробити дозамовлення на решту товарів\n"
+=======
+" * Запитується: користувачам пропонується вибрати, чи хочуть вони зробити "
+"дозамовлення на решту товарів\n"
+>>>>>>> upstream/18.0
 =======
 " * Запитується: користувачам пропонується вибрати, чи хочуть вони зробити "
 "дозамовлення на решту товарів\n"
@@ -12919,11 +13620,14 @@ msgstr "Вчора"
 #: model_terms:ir.ui.view,arch_db:stock.stock_quant_relocate_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are about to move quantities in a package without moving the full package.\n"
 "                    Those quantities will be removed from the following package(s):"
 msgstr ""
 "Ви збираєтеся перемістити запаковану кількість, не переміщуючи всю упаковку.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You are about to move quantities in a package without moving the full "
 "package.\n"
 "                    Those quantities will be removed from the following "
@@ -12931,6 +13635,9 @@ msgstr ""
 msgstr ""
 "Ви збираєтеся перемістити запаковану кількість, не переміщуючи всю "
 "упаковку.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Цю кількість буде вилучено з наступних упаковок:"
 
@@ -12966,6 +13673,7 @@ msgstr ""
 msgid ""
 "You are not allowed to create a lot or serial number with this operation "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "type. To change this, go on the operation type and tick the box \"Create New"
 " Lots/Serial Numbers\"."
 msgstr ""
@@ -12973,12 +13681,17 @@ msgstr ""
 "операції. Щоби змінити це, перейдіть до типу операції та позначте \"Створити"
 " нові партійні/серійні номери\"."
 =======
+=======
+>>>>>>> upstream/18.0
 "type. To change this, go on the operation type and tick the box \"Create New "
 "Lots/Serial Numbers\"."
 msgstr ""
 "Вам не дозволяється створювати партійний або серійний номер з цим типом "
 "операції. Щоби змінити це, перейдіть до типу операції та позначте \"Створити "
 "нові партійні/серійні номери\"."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -13009,20 +13722,31 @@ msgstr ""
 msgid ""
 "You can define here the main routes that run through\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                your warehouses and that define the flows of your products. These\n"
 "                routes can be assigned to a product, a product category or be fixed\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                your warehouses and that define the flows of your products. "
 "These\n"
 "                routes can be assigned to a product, a product category or "
 "be fixed\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                on procurement or sales order."
 msgstr ""
 "Тут ви можете визначити основні маршрути, які проходять через\n"
 " ваші склади, і які визначають процеси ваших товарів. Ці \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "маршрути можуть бути призначені для товару, категорії товарів або бути зафіксованими \n"
+=======
+"маршрути можуть бути призначені для товару, категорії товарів або бути "
+"зафіксованими \n"
+>>>>>>> upstream/18.0
 =======
 "маршрути можуть бути призначені для товару, категорії товарів або бути "
 "зафіксованими \n"
@@ -13048,8 +13772,12 @@ msgstr ""
 #: code:addons/stock/models/product.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can not change the inventory tracking of a product that was already "
 "used."
+=======
+"You can not change the inventory tracking of a product that was already used."
+>>>>>>> upstream/18.0
 =======
 "You can not change the inventory tracking of a product that was already used."
 >>>>>>> upstream/18.0
@@ -13059,11 +13787,17 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You can not create a snoozed orderpoint that is not manually triggered."
 msgstr ""
 "Ви не можете створити відкладену точку замовлення, яка не активується "
 "вручну."
+=======
+msgid "You can not create a snoozed orderpoint that is not manually triggered."
+msgstr ""
+"Ви не можете створити відкладену точку замовлення, яка не активується вручну."
+>>>>>>> upstream/18.0
 =======
 msgid "You can not create a snoozed orderpoint that is not manually triggered."
 msgstr ""
@@ -13141,8 +13875,13 @@ msgstr ""
 #: code:addons/stock/models/res_config_settings.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't deactivate the multi-location if you have more than once warehouse"
 " by company"
+=======
+"You can't deactivate the multi-location if you have more than once warehouse "
+"by company"
+>>>>>>> upstream/18.0
 =======
 "You can't deactivate the multi-location if you have more than once warehouse "
 "by company"
@@ -13164,8 +13903,13 @@ msgstr ""
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot archive location %(location)s because it is used by warehouse "
 "%(warehouse)s"
+=======
+"You cannot archive location %(location)s because it is used by warehouse %"
+"(warehouse)s"
+>>>>>>> upstream/18.0
 =======
 "You cannot archive location %(location)s because it is used by warehouse %"
 "(warehouse)s"
@@ -13188,8 +13932,13 @@ msgstr ""
 msgid "You cannot change a cancelled stock move, create a new line instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ви не можете змінити скасоване складське переміщення, замість цього створіть"
 " новий рядок."
+=======
+"Ви не можете змінити скасоване складське переміщення, замість цього створіть "
+"новий рядок."
+>>>>>>> upstream/18.0
 =======
 "Ви не можете змінити скасоване складське переміщення, замість цього створіть "
 "новий рядок."
@@ -13207,16 +13956,22 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You cannot change the UoM for a stock move that has been set to 'Done'."
 msgstr ""
 "Ви не можете змінити од. вим. для переміщення запасів, для якого встановлено"
 " значення «Готово»."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "You cannot change the UoM for a stock move that has been set to 'Done'."
 msgstr ""
 "Ви не можете змінити од. вим. для переміщення запасів, для якого встановлено "
 "значення «Готово»."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -13224,8 +13979,13 @@ msgstr ""
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the company of a lot/serial number currently in a location"
 " belonging to another company."
+=======
+"You cannot change the company of a lot/serial number currently in a location "
+"belonging to another company."
+>>>>>>> upstream/18.0
 =======
 "You cannot change the company of a lot/serial number currently in a location "
 "belonging to another company."
@@ -13289,17 +14049,23 @@ msgstr "Ви не можете змінювати  кількість втрат
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot move the same package content more than once in the same transfer"
 " or split the same package into two location."
 msgstr ""
 "Ви не можете перемістити той самий вміст пакунка більше одного разу в одному"
 " переміщенні або розділити той самий пакунок на два місцезнаходження."
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot move the same package content more than once in the same transfer "
 "or split the same package into two location."
 msgstr ""
 "Ви не можете перемістити той самий вміст пакунка більше одного разу в одному "
 "переміщенні або розділити той самий пакунок на два місцезнаходження."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -13336,8 +14102,13 @@ msgid ""
 "manufacturing type operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ви не можете встановити розташування браку як місце призначення для операції"
 " типу виробництва."
+=======
+"Ви не можете встановити розташування браку як місце призначення для операції "
+"типу виробництва."
+>>>>>>> upstream/18.0
 =======
 "Ви не можете встановити розташування браку як місце призначення для операції "
 "типу виробництва."
@@ -13349,8 +14120,12 @@ msgstr ""
 msgid "You cannot split a draft move. It needs to be confirmed first."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ви не можете розділити чорнове переміщення. Це потрібно підтвердити "
 "спочатку."
+=======
+"Ви не можете розділити чорнове переміщення. Це потрібно підтвердити спочатку."
+>>>>>>> upstream/18.0
 =======
 "Ви не можете розділити чорнове переміщення. Це потрібно підтвердити спочатку."
 >>>>>>> upstream/18.0
@@ -13361,8 +14136,13 @@ msgstr ""
 msgid "You cannot split a stock move that has been set to 'Done' or 'Cancel'."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ви не можете розділити складське переміщення, для якого встановлено значення"
 " «Виконано» або «Скасовано»."
+=======
+"Ви не можете розділити складське переміщення, для якого встановлено значення "
+"«Виконано» або «Скасовано»."
+>>>>>>> upstream/18.0
 =======
 "Ви не можете розділити складське переміщення, для якого встановлено значення "
 "«Виконано» або «Скасовано»."
@@ -13383,7 +14163,12 @@ msgstr ""
 #: code:addons/stock/models/stock_move.py:0
 msgid "You cannot unreserve a stock move that has been set to 'Done'."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Неможливо зарезервувати складське переміщення, встановлене на \"Готово\"."
+=======
+msgstr ""
+"Неможливо зарезервувати складське переміщення, встановлене на \"Готово\"."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Неможливо зарезервувати складське переміщення, встановлене на \"Готово\"."
@@ -13397,8 +14182,13 @@ msgid ""
 "numbers encoded."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ви не можете використовувати один і той же серійний номер двічі. Будь ласка,"
 " виправте зашифровані серійні номери."
+=======
+"Ви не можете використовувати один і той же серійний номер двічі. Будь ласка, "
+"виправте зашифровані серійні номери."
+>>>>>>> upstream/18.0
 =======
 "Ви не можете використовувати один і той же серійний номер двічі. Будь ласка, "
 "виправте зашифровані серійні номери."
@@ -13437,7 +14227,12 @@ msgid ""
 "Switch off tracking on all the products before switching off this setting."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "У вас на складі є товар(и), для якого ввімкнено відстеження за номером партії/серії.\n"
+=======
+"У вас на складі є товар(и), для якого ввімкнено відстеження за номером "
+"партії/серії.\n"
+>>>>>>> upstream/18.0
 =======
 "У вас на складі є товар(и), для якого ввімкнено відстеження за номером "
 "партії/серії.\n"
@@ -13459,8 +14254,13 @@ msgstr ""
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You have to select a product unit of measure that is in the same category as"
 " the default unit of measure of the product"
+=======
+"You have to select a product unit of measure that is in the same category as "
+"the default unit of measure of the product"
+>>>>>>> upstream/18.0
 =======
 "You have to select a product unit of measure that is in the same category as "
 "the default unit of measure of the product"
@@ -13549,6 +14349,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint_replenish
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You'll find here smart replenishment propositions based on inventory forecasts.\n"
 "            Choose the quantity to buy or manufacture and launch orders in a click.\n"
 "            To save time in the future, set the rules as \"automated\"."
@@ -13557,6 +14358,8 @@ msgstr ""
 "            Виберіть кількість для купівлі або виготовлення та запустіть замовлення в один клік.\n"
 "            Щоб заощадити час у майбутньому, встановіть правила як \"автоматичні\"."
 =======
+=======
+>>>>>>> upstream/18.0
 "You'll find here smart replenishment propositions based on inventory "
 "forecasts.\n"
 "            Choose the quantity to buy or manufacture and launch orders in a "
@@ -13569,6 +14372,9 @@ msgstr ""
 "замовлення в один клік.\n"
 "            Щоб заощадити час у майбутньому, встановіть правила як "
 "\"автоматичні\"."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock

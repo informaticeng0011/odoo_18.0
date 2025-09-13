@@ -239,7 +239,11 @@ class PosController(PortalAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if request.env.user._is_public() and not pos_order.partner_id.id:
+=======
+        if kwargs:
+>>>>>>> upstream/18.0
 =======
         if kwargs:
 >>>>>>> upstream/18.0
@@ -304,6 +308,10 @@ class PosController(PortalAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if request.env.user._is_public() and not pos_order.partner_id.id:
+>>>>>>> upstream/18.0
 =======
         if request.env.user._is_public() and not pos_order.partner_id.id:
 >>>>>>> upstream/18.0

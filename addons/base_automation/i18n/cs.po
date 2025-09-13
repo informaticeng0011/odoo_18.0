@@ -1,12 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_automation
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * base_automation
 #
 # Translators:
@@ -14,12 +17,16 @@
 #
 # Vojtěch Olšan <vojtech.olsan@systee.cz>, 2025.
 # "Marta (wacm)" <wacm@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 12:50+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
@@ -30,6 +37,8 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-09 06:58+0000\n"
 "Last-Translator: Vojtěch Olšan <vojtech.olsan@systee.cz>\n"
 "Language-Team: Czech <https://translate.odoo.com/projects/odoo-18/"
@@ -41,6 +50,9 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -67,8 +79,13 @@ msgid ""
 "Code\" action type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\"On live update\" automatická pravidla mohou být použita  pouze s akcí typu"
 " \"Provést |Python kód\"."
+=======
+"\"On live update\" automatická pravidla mohou být použita pouze s akcí typu "
+"\"Provést |Python kód\"."
+>>>>>>> upstream/18.0
 =======
 "\"On live update\" automatická pravidla mohou být použita pouze s akcí typu "
 "\"Provést |Python kód\"."
@@ -447,7 +464,11 @@ msgstr "Upravit automatické pravidlo"
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Email "
+=======
+msgstr "Email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email"
 >>>>>>> upstream/18.0
@@ -534,6 +555,11 @@ msgid ""
 "record. Not checked on record creation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pokud je tato podmínka přítomna, musí být splněna před aktualizací záznamu. "
+"Při vytváření záznamu se nekontroluje."
+>>>>>>> upstream/18.0
 =======
 "Pokud je tato podmínka přítomna, musí být splněna před aktualizací záznamu. "
 "Při vytváření záznamu se nekontroluje."
@@ -871,7 +897,11 @@ msgid ""
 "\"%(state_value)s\" action type"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 " \"%(trigger_value)s\" %(trigger_label)s může být použit pouze s "
+=======
+"\"%(trigger_value)s\" %(trigger_label)s může být použit pouze s "
+>>>>>>> upstream/18.0
 =======
 "\"%(trigger_value)s\" %(trigger_label)s může být použit pouze s "
 >>>>>>> upstream/18.0
@@ -885,7 +915,11 @@ msgid ""
 msgstr ""
 "Automatické pravidlo bude spuštěno pouze tehdy, pokud je alespoň jedno z "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "těchto polí aktualizované.  Je-li prázdné, sledují se všechna pole."
+=======
+"těchto polí aktualizované. Je-li prázdné, sledují se všechna pole."
+>>>>>>> upstream/18.0
 =======
 "těchto polí aktualizované. Je-li prázdné, sledují se všechna pole."
 >>>>>>> upstream/18.0
@@ -920,7 +954,11 @@ msgstr "Časovaná podmínka"
 #: model_terms:digest.tip,tip_description:base_automation.digest_tip_base_automation_0
 msgid "Tip: Automate everything with Automation Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip: Automatizujte všechno pomocí automatických pravidel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip: Automatizujte všechno pomocí automatických pravidel"
 >>>>>>> upstream/18.0

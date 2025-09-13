@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* rating
 # 
+=======
+# * rating
+#
+>>>>>>> upstream/18.0
 =======
 # * rating
 #
@@ -16,7 +21,12 @@
 # Milan Tribuson <one.mile.code@gmail.com>, 2024
 # Vladimir Vrgoč, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Ivica Dimjašević, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Ivica Dimjašević, 2025
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
@@ -27,6 +37,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Vladimir Vrgoč, 2024\n"
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
@@ -36,6 +47,8 @@ msgstr ""
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-25 13:42+0000\n"
 "Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/rating/"
@@ -47,6 +60,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: rating
@@ -94,7 +110,11 @@ msgstr "Broj priloga"
 #: model:ir.model.fields,field_description:rating.field_rating_parent_mixin__rating_avg
 msgid "Average Rating"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosječna ocjena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prosječna ocjena"
 >>>>>>> upstream/18.0
@@ -103,7 +123,11 @@ msgstr "Prosječna ocjena"
 #: model:ir.model.fields,field_description:rating.field_rating_parent_mixin__rating_avg_percentage
 msgid "Average Rating (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosječna ocjena (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prosječna ocjena (%)"
 >>>>>>> upstream/18.0
@@ -167,7 +191,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:rating.field_rating_rating__consumed
 msgid "Filled Rating"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Popunjena ocjena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Popunjena ocjena"
 >>>>>>> upstream/18.0
@@ -358,7 +386,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:rating.field_rating_rating__parent_res_id
 msgid "Parent Document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadređeni dokument"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nadređeni dokument"
 >>>>>>> upstream/18.0
@@ -367,7 +399,11 @@ msgstr "Nadređeni dokument"
 #: model:ir.model.fields,field_description:rating.field_rating_rating__parent_res_model
 msgid "Parent Document Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model nadređenog dokumenta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Model nadređenog dokumenta"
 >>>>>>> upstream/18.0
@@ -376,7 +412,11 @@ msgstr "Model nadređenog dokumenta"
 #: model:ir.model.fields,field_description:rating.field_rating_rating__parent_res_name
 msgid "Parent Document Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv nadređenog dokumenta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv nadređenog dokumenta"
 >>>>>>> upstream/18.0
@@ -395,7 +435,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:rating.field_rating_rating__parent_res_model_id
 msgid "Parent Related Document Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model nadređenog povezanog dokumenta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Model nadređenog povezanog dokumenta"
 >>>>>>> upstream/18.0
@@ -410,7 +454,11 @@ msgstr "Postotak zadovoljavajućih ocjena"
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Rated Operator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocijenjeni operater"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ocijenjeni operater"
 >>>>>>> upstream/18.0
@@ -466,7 +514,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:rating.field_rating_parent_mixin__rating_percentage_satisfaction
 msgid "Rating Satisfaction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocjena zadovoljstva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ocjena zadovoljstva"
 >>>>>>> upstream/18.0
@@ -565,7 +617,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:rating.field_rating_rating__res_name
 msgid "Resource name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv resursa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv resursa"
 >>>>>>> upstream/18.0
@@ -598,7 +654,11 @@ msgstr "Pošalji povratnu informaciju"
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Submitted on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podneseno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podneseno"
 >>>>>>> upstream/18.0
@@ -622,7 +682,11 @@ msgstr "Trenutno nema ocjenjivanja za ovaj objekt."
 #: model:ir.model.fields,field_description:rating.field_rating_rating__is_internal
 msgid "Visible Internally Only"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vidljivo samo interno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vidljivo samo interno"
 >>>>>>> upstream/18.0

@@ -13,6 +13,10 @@ import { url } from "@web/core/utils/urls";
 import { deserializeDateTime } from "@web/core/l10n/dates";
 import { describe, test } from "@odoo/hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { mockTimeZone } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { mockTimeZone } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -22,6 +26,10 @@ defineWebsiteLivechatModels();
 
 test("Rendering of visitor banner", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    mockTimeZone(11);
+>>>>>>> upstream/18.0
 =======
     mockTimeZone(11);
 >>>>>>> upstream/18.0
@@ -30,10 +38,13 @@ test("Rendering of visitor banner", async () => {
     const lang_id = pyEnv["res.lang"].create({ name: "English" });
     const website_id = pyEnv["website"].create({ name: "General website" });
 <<<<<<< HEAD
+<<<<<<< HEAD
     const visitorId = pyEnv["website.visitor"].create({
         country_id,
         history: "Home → Contact",
 =======
+=======
+>>>>>>> upstream/18.0
     const visitor_history = [
         ["Home", "2025-07-16 10:00:20"],
         ["Contact", "2025-07-16 10:20:20"],
@@ -41,6 +52,9 @@ test("Rendering of visitor banner", async () => {
     const visitorId = pyEnv["website.visitor"].create({
         country_id,
         history_data: JSON.stringify(visitor_history),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         is_connected: true,
         lang_id,
@@ -77,16 +91,22 @@ test("Rendering of visitor banner", async () => {
     await contains("span", { text: "English" });
     await contains("span > span", { text: "General website" });
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains("span", { text: "Home → Contact" });
 });
 
 test("Livechat with non-logged visitor should show visitor banner", async () => {
 =======
+=======
+>>>>>>> upstream/18.0
     await contains("span", { text: "Home (21:00) → Contact (21:20)" });
 });
 
 test("Livechat with non-logged visitor should show visitor banner", async () => {
     mockTimeZone(11);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const pyEnv = await startServer();
     const country_id = pyEnv["res.country"].create({ code: "BE" });
@@ -96,12 +116,18 @@ test("Livechat with non-logged visitor should show visitor banner", async () => 
         country_id,
         display_name: "Visitor #11",
 <<<<<<< HEAD
+<<<<<<< HEAD
         history: "Home → Contact",
 =======
+=======
+>>>>>>> upstream/18.0
         history_data: JSON.stringify([
             ["Home", "2025-07-16 10:00:20"],
             ["Contact", "2025-07-16 10:20:20"],
         ]),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         is_connected: true,
         lang_id,
@@ -121,11 +147,14 @@ test("Livechat with non-logged visitor should show visitor banner", async () => 
     await start();
     await openDiscuss(channelId);
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-website_livechat-VisitorBanner");
 });
 
 test("Livechat with logged visitor should show visitor banner", async () => {
 =======
+=======
+>>>>>>> upstream/18.0
     await contains(".o-website_livechat-VisitorBanner span", {
         text: "Home (21:00) → Contact (21:20)",
     });
@@ -133,6 +162,9 @@ test("Livechat with logged visitor should show visitor banner", async () => {
 
 test("Livechat with logged visitor should show visitor banner", async () => {
     mockTimeZone(11);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const pyEnv = await startServer();
     const country_id = pyEnv["res.country"].create({ code: "BE" });
@@ -143,12 +175,18 @@ test("Livechat with logged visitor should show visitor banner", async () => {
         country_id,
         display_name: "Visitor #11",
 <<<<<<< HEAD
+<<<<<<< HEAD
         history: "Home → Contact",
 =======
+=======
+>>>>>>> upstream/18.0
         history_data: JSON.stringify([
             ["Home", "2025-07-16 10:00:20"],
             ["Contact", "2025-07-16 10:20:20"],
         ]),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         is_connected: true,
         lang_id,
@@ -169,6 +207,12 @@ test("Livechat with logged visitor should show visitor banner", async () => {
     await contains(".o-website_livechat-VisitorBanner");
     await contains(".o-website_livechat-VisitorBanner", { text: "Partner Visitor" });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await contains(".o-website_livechat-VisitorBanner span", {
+        text: "Home (21:00) → Contact (21:20)",
+    });
+>>>>>>> upstream/18.0
 =======
     await contains(".o-website_livechat-VisitorBanner span", {
         text: "Home (21:00) → Contact (21:20)",

@@ -20,24 +20,33 @@ class TestAutoComplete(TransactionCase):
         cls.WebsiteController = Website()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _autocomplete(self, term, expected_count, expected_fuzzy_term):
         """ Calls the autocomplete for a given term and performs general checks """
         with MockRequest(self.env, website=self.website):
             suggestions = self.WebsiteController.autocomplete(
                 search_type="test", term=term, max_nb_chars=50, options={},
 =======
+=======
+>>>>>>> upstream/18.0
     def _autocomplete(self, term, expected_count, expected_fuzzy_term, search_type="test", options=None):
         """ Calls the autocomplete for a given term and performs general checks """
         with MockRequest(self.env, website=self.website):
             suggestions = self.WebsiteController.autocomplete(
                 search_type=search_type, term=term, max_nb_chars=50, options=options or {},
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             )
         self.assertEqual(expected_count, suggestions['results_count'], "Wrong number of suggestions")
         self.assertEqual(expected_fuzzy_term, suggestions.get('fuzzy_search', 'Not found'), "Wrong fuzzy match")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _autocomplete_page(self, term, expected_count, expected_fuzzy_term):
         self._autocomplete(term, expected_count, expected_fuzzy_term, search_type="pages", options={
             'displayDescription': False, 'displayDetail': False,
@@ -45,6 +54,9 @@ class TestAutoComplete(TransactionCase):
             'displayImage': False, 'allowFuzzy': True
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_01_many_records(self):
         # REF1000~REF3999
@@ -116,7 +128,10 @@ class TestAutoComplete(TransactionCase):
             )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         test_page = self.env.ref('test_website.test_page')
         test_page.name = 'testTotallyUnique'
 
@@ -155,6 +170,9 @@ class TestAutoComplete(TransactionCase):
         # restore website env for next tests
         self.website.env = self.env = saved_env
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_indirect(self):
         self._autocomplete('module', 2, 'model')

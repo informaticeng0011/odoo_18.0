@@ -2,6 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.fields import Command
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 >>>>>>> upstream/18.0
@@ -627,7 +631,10 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
         self.assertAlmostEqual(cogs_aml.debit, 8.00, msg="Should include include the components from all subkits, with the price adapted for 1 Main kit")
         self.assertEqual(cogs_aml.credit, 0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_sell_kit_invoice_before_delivery(self):
         """ When a kit product is invoiced prior to delivery, we want to make sure to reconcile all
@@ -683,4 +690,7 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
                 {'product_id': compo02.id,   'reconciled': True,    'debit': 20.0,    'credit':  0.0},
             ]
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

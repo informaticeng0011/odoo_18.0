@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_sms
 # 
 # Translators:
@@ -8,18 +9,24 @@
 # Quim - coopdevs <quim.rebull@coopdevs.org>, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * pos_sms
 #
 # Translators:
 # Óscar Fonseca <tecnico@pyming.com>, 2024
 # Quim - coopdevs <quim.rebull@coopdevs.org>, 2024
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 "Last-Translator: Quim - coopdevs <quim.rebull@coopdevs.org>, 2024\n"
@@ -30,6 +37,8 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-28 17:06+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/pos_sms/"
@@ -40,6 +49,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_sms
@@ -50,13 +62,19 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 "                {{ object.company_id.name }} : La vostra comanda amb "
 "referència: {{ object.pos_reference }} s'ha processat correctament per un "
 "import de {{  object.currency_id.format(object.amount_total) }}. Utilitzi {{ "
 "object.pos_reference }}  com a futura referència\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_sms
@@ -68,7 +86,11 @@ msgstr "Paràmetres de configuració"
 #: model:sms.template,name:pos_sms.sms_template_data_point_of_sale
 msgid "POS: Sent Order Confirmation via Text"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "TPV: confirmació de la comanda enviada per missatge"
+>>>>>>> upstream/18.0
 =======
 msgstr "TPV: confirmació de la comanda enviada per missatge"
 >>>>>>> upstream/18.0
@@ -93,7 +115,11 @@ msgstr ""
 #: model:ir.model.fields,help:pos_sms.field_res_config_settings__pos_sms_receipt_template_id
 msgid "SMS will be sent to the customer based on this template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "El client rebrà un missatge SMS basat en aquesta plantilla"
+>>>>>>> upstream/18.0
 =======
 msgstr "El client rebrà un missatge SMS basat en aquesta plantilla"
 >>>>>>> upstream/18.0

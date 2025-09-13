@@ -7,7 +7,11 @@ class ResPartner(models.Model):
 
     l10n_gr_edi_branch_number = fields.Integer(
 <<<<<<< HEAD
+<<<<<<< HEAD
         string="MyDATA Branch Number",
+=======
+        string="Branch Number",
+>>>>>>> upstream/18.0
 =======
         string="Branch Number",
 >>>>>>> upstream/18.0

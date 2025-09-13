@@ -5,6 +5,7 @@
 # Translators:
 # Vladimir Olujić <olujic.vladimir@storm.hr>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Luka Carević <luka@uvid.hr>, 2024
 # Đurđica Žarković <durdica.zarkovic@storm.hr>, 2024
 # Igor Krizanovic <krizanovic.igor@gmail.com>, 2024
@@ -15,6 +16,8 @@
 # Vladimir Vrgoč, 2024
 # Tina Milas, 2024
 =======
+=======
+>>>>>>> upstream/18.0
 # Antonijo Kovacevic, 2024
 # Đurđica Žarković <durdica.zarkovic@storm.hr>, 2024
 # Igor Krizanovic <krizanovic.igor@gmail.com>, 2024
@@ -25,6 +28,9 @@
 # Tina Milas, 2024
 # Luka Carević <luka@uvid.hr>, 2025
 # Ivica Dimjašević, 2025
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # 
 msgid ""
@@ -34,7 +40,11 @@ msgstr ""
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Tina Milas, 2024\n"
+=======
+"Last-Translator: Ivica Dimjašević, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Ivica Dimjašević, 2025\n"
 >>>>>>> upstream/18.0
@@ -50,7 +60,11 @@ msgstr ""
 #: code:addons/delivery/wizard/choose_delivery_carrier.py:0
 msgid "%(carrier)s Error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(carrier)s Greška"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(carrier)s Greška"
 >>>>>>> upstream/18.0
@@ -73,7 +87,11 @@ msgstr "%s (kopija)"
 #: model_terms:ir.ui.view,arch_db:delivery.choose_delivery_carrier_view_form
 msgid "<i class=\"oi oi-arrow-right me-1\"/>Get rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>Dohvati trošak"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>Dohvati trošak"
 >>>>>>> upstream/18.0
@@ -87,6 +105,12 @@ msgid ""
 "                </p>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<p class=\"o_view_nocontent\">\n"
+"                    Kupite Odoo Enterprise za više pružatelja usluga.\n"
+"                </p>"
+>>>>>>> upstream/18.0
 =======
 "<p class=\"o_view_nocontent\">\n"
 "                    Kupite Odoo Enterprise za više pružatelja usluga.\n"
@@ -189,7 +213,11 @@ msgstr "Raspoloživost"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__available_carrier_ids
 msgid "Available Carriers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raspoloživi prevoznici"
+=======
+msgstr "Raspoloživi dostavljači"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raspoloživi dostavljači"
 >>>>>>> upstream/18.0
@@ -211,7 +239,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_tree
 msgid "Carrier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Prijevoznik"
+=======
+msgstr "Dostavljač"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dostavljač"
 >>>>>>> upstream/18.0
@@ -224,6 +256,11 @@ msgid ""
 "Tags."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dostavljač %s ne može imati istu oznaku i u Obaveznim oznakama i u Izuzetim "
+"oznakama."
+>>>>>>> upstream/18.0
 =======
 "Dostavljač %s ne može imati istu oznaku i u Obaveznim oznakama i u Izuzetim "
 "oznakama."
@@ -233,7 +270,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__carrier_description
 msgid "Carrier Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Opis prevoznika"
+=======
+msgstr "Opis dostavljača"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opis dostavljača"
 >>>>>>> upstream/18.0
@@ -320,7 +361,11 @@ msgstr "Kupac"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__debug_logging
 msgid "Debug logging"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Debug zapisivanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Debug zapisivanje"
 >>>>>>> upstream/18.0
@@ -386,7 +431,11 @@ msgstr "Pravila dostave cijene"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__product_id
 msgid "Delivery Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Proizvod za isporuku"
+=======
+msgstr "Proizvod za dostavu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proizvod za dostavu"
 >>>>>>> upstream/18.0
@@ -406,7 +455,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery.field_sale_order_line__recompute_delivery_price
 msgid "Delivery cost should be recomputed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trošak dostave treba ponovno izračunati"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trošak dostave treba ponovno izračunati"
 >>>>>>> upstream/18.0
@@ -418,6 +471,11 @@ msgid ""
 "            which zips it is available to."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Prefiksi poštanskih brojeva za dostavu dodjeljuju se dostavnim prijevoznicima kako bi se ograničilo\n"
+"            područje (poštanski brojevi) na kojima su dostupni."
+>>>>>>> upstream/18.0
 =======
 "Prefiksi poštanskih brojeva za dostavu dodjeljuju se dostavnim prijevoznicima kako bi se ograničilo\n"
 "            područje (poštanski brojevi) na kojima su dostupni."
@@ -492,7 +550,11 @@ msgstr "Procjena troška"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__excluded_tag_ids
 msgid "Excluded Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izuzete oznake"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izuzete oznake"
 >>>>>>> upstream/18.0
@@ -509,6 +571,11 @@ msgid ""
 " to the content of the order or its destination."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ispunjavanjem ovog obrasca omogućujete da metoda dostave bude dostupna "
+"ovisno o sadržaju narudžbe ili odredištu."
+>>>>>>> upstream/18.0
 =======
 "Ispunjavanjem ovog obrasca omogućujete da metoda dostave bude dostupna "
 "ovisno o sadržaju narudžbe ili odredištu."
@@ -534,7 +601,11 @@ msgstr "Besplatno ako je iznos narudžbe iznad"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__return_label_on_delivery
 msgid "Generate Return Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generiranje naljepnice za povrat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generiranje naljepnice za povrat"
 >>>>>>> upstream/18.0
@@ -585,6 +656,11 @@ msgid ""
 "available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako je ukupna težina narudžbe veća od ove težine, način dostave neće biti "
+"dostupan."
+>>>>>>> upstream/18.0
 =======
 "Ako je ukupna težina narudžbe veća od ove težine, način dostave neće biti "
 "dostupan."
@@ -594,7 +670,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Install more Providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Instaliraj dodatne pružatelje"
+=======
+msgstr "Instaliraj dodatne pružatelje usluga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Instaliraj dodatne pružatelje usluga"
 >>>>>>> upstream/18.0
@@ -666,7 +746,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:delivery.action_delivery_zip_prefix_list
 msgid "Manage delivery zip prefixes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljanje prefiksima poštanskih brojeva za dostavu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravljanje prefiksima poštanskih brojeva za dostavu"
 >>>>>>> upstream/18.0
@@ -676,7 +760,11 @@ msgstr "Upravljanje prefiksima poštanskih brojeva za dostavu"
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Map view"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaz na karti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaz na karti"
 >>>>>>> upstream/18.0
@@ -700,7 +788,11 @@ msgstr "Marža na stopu"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__max_volume
 msgid "Max Volume"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maks. volumen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maks. volumen"
 >>>>>>> upstream/18.0
@@ -709,7 +801,11 @@ msgstr "Maks. volumen"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__max_weight
 msgid "Max Weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Max težina"
+=======
+msgstr "Maks. težina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maks. težina"
 >>>>>>> upstream/18.0
@@ -723,7 +819,11 @@ msgstr "Maksimalna vrijednost"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__must_have_tag_ids
 msgid "Must Have Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obavezne oznake"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obavezne oznake"
 >>>>>>> upstream/18.0
@@ -738,7 +838,11 @@ msgstr "Naziv"
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "New Providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Novi poslužitelji"
+=======
+msgstr "Novi pružatelji usluga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Novi pružatelji usluga"
 >>>>>>> upstream/18.0
@@ -788,6 +892,11 @@ msgstr ""
 msgid "Please select a country before choosing a state or a zip prefix."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Molimo odaberite državu prije nego što odaberete županiju ili prefiks "
+"poštanskog broja."
+>>>>>>> upstream/18.0
 =======
 "Molimo odaberite državu prije nego što odaberete županiju ili prefiks "
 "poštanskog broja."
@@ -812,12 +921,18 @@ msgid ""
 "will only match '100' and not '1000')"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Prefiksi poštanskih brojeva na koje se ovaj dostavljač odnosi. Imajte na umu"
 " da se regularni izrazi mogu koristiti za podršku zemljama s različitim "
 "duljinama poštanskih brojeva, tj. '$' se može dodati na kraj prefiksa kako "
 "bi se podudarao s točnim poštanskim brojem (npr. '100$' će se podudarati "
 "samo s '100', a ne s '1000')."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -858,7 +973,11 @@ msgstr "Količina"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_search
 msgid "Provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Davatelj "
+=======
+msgstr "Pružatelj usluga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pružatelj usluga"
 >>>>>>> upstream/18.0
@@ -873,7 +992,11 @@ msgstr "Količina"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__get_return_label_from_portal
 msgid "Return Label Accessible from Customer Portal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naljepnica za povrat dostupna kroz korisnički portal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naljepnica za povrat dostupna kroz korisnički portal"
 >>>>>>> upstream/18.0
@@ -950,6 +1073,11 @@ msgid ""
 "confirmation emails. E.g. Instructions for customers to follow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Detalji o metodi dostave koji će biti uključeni na dnu prodajnih narudžbi i "
+"u e-porukama s potvrdom. Npr. upute koje kupci trebaju slijediti."
+>>>>>>> upstream/18.0
 =======
 "Detalji o metodi dostave koji će biti uključeni na dnu prodajnih narudžbi i "
 "u e-porukama s potvrdom. Npr. upute koje kupci trebaju slijediti."
@@ -960,7 +1088,11 @@ msgstr ""
 #: model:product.template,name:delivery.product_product_delivery_product_template
 msgid "Standard delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Standardna dostava"
+>>>>>>> upstream/18.0
 =======
 msgstr "Standardna dostava"
 >>>>>>> upstream/18.0
@@ -1043,6 +1175,11 @@ msgid ""
 "package easily. Use <shipmenttrackingnumber> as a placeholder in your URL."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ova opcija dodaje poveznicu na portalu kako bi kupac lako pratio svoj paket."
+" Upotrijebite <shipmenttrackingnumber> kao rezervirano mjesto u svom URL-u.."
+>>>>>>> upstream/18.0
 =======
 "Ova opcija dodaje poveznicu na portalu kako bi kupac lako pratio svoj paket."
 " Upotrijebite <shipmenttrackingnumber> kao rezervirano mjesto u svom URL-u.."
@@ -1057,7 +1194,11 @@ msgstr "Ovaj će se postotak dodati trošku otpreme."
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__total_weight
 msgid "Total Order Weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukupna težina narudžbe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ukupna težina narudžbe"
 >>>>>>> upstream/18.0
@@ -1066,7 +1207,11 @@ msgstr "Ukupna težina narudžbe"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__tracking_url
 msgid "Tracking Link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Link za praćenje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Link za praćenje"
 >>>>>>> upstream/18.0
@@ -1144,6 +1289,11 @@ msgid ""
 "delivery carriers products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ne možete izbrisati kategoriju proizvoda za dostavu jer se koristi za "
+"proizvode dostavljača."
+>>>>>>> upstream/18.0
 =======
 "Ne možete izbrisati kategoriju proizvoda za dostavu jer se koristi za "
 "proizvode dostavljača."
@@ -1159,7 +1309,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:delivery.action_delivery_zip_prefix_list
 msgid "Zip Prefix"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prefiks poštanskog broja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prefiks poštanskog broja"
 >>>>>>> upstream/18.0
@@ -1168,7 +1322,11 @@ msgstr "Prefiks poštanskog broja"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__zip_prefix_ids
 msgid "Zip Prefixes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prefiksi poštanskih brojeva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prefiksi poštanskih brojeva"
 >>>>>>> upstream/18.0
@@ -1183,6 +1341,10 @@ msgstr "npr. UPS Express"
 msgid "i.e. https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"npr. https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
+>>>>>>> upstream/18.0
 =======
 "npr. https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
 >>>>>>> upstream/18.0

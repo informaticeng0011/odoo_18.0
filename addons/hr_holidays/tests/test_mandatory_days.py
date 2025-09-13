@@ -199,7 +199,10 @@ class TestHrLeaveMandatoryDays(TransactionCase):
             'request_date_to': datetime(2021, 11, 5),
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @freeze_time('2021-10-15')
     def test_multiple_employees_mandatory_days(self):
@@ -275,4 +278,7 @@ class TestHrLeaveMandatoryDays(TransactionCase):
 
         self.assertTrue(leave_1.has_mandatory_day)
         self.assertFalse(leave_2.has_mandatory_day)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

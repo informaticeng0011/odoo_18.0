@@ -368,7 +368,11 @@ class PaymentPortal(portal.CustomerPortal):
         })  # In sudo mode to allow writing on callback fields
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if flow == 'token':
+=======
+        if flow == 'token' and not request.env.context.get('delay_payment_request'):
+>>>>>>> upstream/18.0
 =======
         if flow == 'token' and not request.env.context.get('delay_payment_request'):
 >>>>>>> upstream/18.0

@@ -73,7 +73,10 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
                 )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_early_payment_date_eligibility(self):
         """
         Test to check early payment eligibility is based on the date stored
@@ -119,6 +122,9 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
         self.assertFalse(inv._is_eligible_for_early_payment_discount(inv.currency_id, fields.Date.from_string('2019-01-10')))
         self.assertFalse(inv._is_eligible_for_early_payment_discount(inv.currency_id, fields.Date.from_string('2019-01-12')))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_invoice_report_without_invoice_date(self):
         """

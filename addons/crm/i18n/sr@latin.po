@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* crm
+=======
+# * crm
+>>>>>>> upstream/18.0
 =======
 # * crm
 >>>>>>> upstream/18.0
@@ -11,8 +15,12 @@
 # Uros Kalajdzic <ukalajdzic@gmail.com>, 2022
 # Martin Trigaux, 2022
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022
 #
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
+>>>>>>> upstream/18.0
 =======
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
 >>>>>>> upstream/18.0
@@ -21,6 +29,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-03 08:43+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2022-09-22 05:45+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, "
@@ -33,6 +42,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-19 22:21+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -44,6 +55,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -108,7 +122,11 @@ msgstr ""
 #: code:addons/crm/models/crm_lead.py:0
 msgid "%s's opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s prilika"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s prilika"
 >>>>>>> upstream/18.0
@@ -127,6 +145,11 @@ msgid ""
 "sales cycle."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<b>Prevuci &amp; ispusti prilike</b> između kologa u skladu sa napretkom u "
+"vašem prodajnom ciklusu."
+>>>>>>> upstream/18.0
 =======
 "<b>Prevuci &amp; ispusti prilike</b> između kologa u skladu sa napretkom u "
 "vašem prodajnom ciklusu."
@@ -162,6 +185,10 @@ msgstr ""
 msgid "<i class=\"fa fa-info-circle me-2\" title=\"Assigned Lead Count\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-info-circle me-2\" title=\"Brojač dodeljenih lidova\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-info-circle me-2\" title=\"Brojač dodeljenih lidova\"/>"
 >>>>>>> upstream/18.0
@@ -183,6 +210,12 @@ msgid ""
 "invisible=\"not partner_email_update\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning oe_edit_only\" title="
+"\"Čuvanjem ove promene, email korisnika će takođe biti ažuriran.\" invisible="
+"\"not partner_email_update\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-exclamation-triangle text-warning oe_edit_only\" title="
 "\"Čuvanjem ove promene, email korisnika će takođe biti ažuriran.\" invisible="
@@ -197,6 +230,12 @@ msgid ""
 "updated.\" invisible=\"not partner_phone_update\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning oe_edit_only\" title="
+"\"Čuvanjem ove promene, broj telefona korisnika će takođe biti ažuriran.\" "
+"invisible=\"not partner_phone_update\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-exclamation-triangle text-warning oe_edit_only\" title="
 "\"Čuvanjem ove promene, broj telefona korisnika će takođe biti ažuriran.\" "
@@ -212,11 +251,17 @@ msgid ""
 "invisible=\"duplicate_lead_count &gt; 1\">Similar Lead</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">Slični "
 "lidovi</span>\n"
 "                                    <span class=\"o_stat_text\" invisible="
 "\"duplicate_lead_count &gt; 1\">Sličan lid</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -227,6 +272,12 @@ msgid ""
 "invisible=\"use_leads\">Opportunities</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\" invisible=\"not use_leads\">Lidovi</span>\n"
+"                        <span class=\"o_stat_text\" invisible=\"use_leads\""
+">Prilike</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\" invisible=\"not use_leads\">Lidovi</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"use_leads\""
@@ -242,7 +293,11 @@ msgstr "<span class=\"o_stat_text\"> Lidovi</span>"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "<span class=\"oe_grey p-2 text-nowrap\"> at </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"oe_grey p-2 text-nowrap\"> u </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"oe_grey p-2 text-nowrap\"> u </span>"
 >>>>>>> upstream/18.0
@@ -256,18 +311,28 @@ msgid ""
 "groups=\"!crm.group_use_recurring_revenues\"> at </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"oe_grey p-2\" groups=\"crm.group_use_recurring_revenues\"> + "
 "</span>\n"
 "                                        <span class=\"oe_grey p-2\" groups="
 "\"!crm.group_use_recurring_revenues\"> u </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "<span class=\"oe_grey p-2\"> %</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"oe_grey p-2\"> %</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"oe_grey p-2\"> %</span>"
 >>>>>>> upstream/18.0
@@ -286,7 +351,11 @@ msgstr "<span class=\"oe_inline\"> / </span>"
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
 msgid "<span class=\"text-bg-danger\">Lost</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-bg-danger\">Izgubljeno</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-bg-danger\">Izgubljeno</span>"
 >>>>>>> upstream/18.0
@@ -298,6 +367,11 @@ msgid ""
 "                            on a maximum of </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span> lidova dodeljenih ovog meseca\n"
+"                            na najviše od </span>"
+>>>>>>> upstream/18.0
 =======
 "<span> lidova dodeljenih ovog meseca\n"
 "                            na najviše od </span>"
@@ -312,7 +386,11 @@ msgstr "<span>Očekivani prihodi:</span>"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "<span>Merged the Lead/Opportunity</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Spojio/la je Lid/Priliku</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Spojio/la je Lid/Priliku</span>"
 >>>>>>> upstream/18.0
@@ -329,7 +407,10 @@ msgid ""
 "                                </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span>Periodično dodelite lidove na osnovu pravila</span><br/>\n"
 "                                <span invisible="
 "\"not crm_use_auto_assignment\">\n"
@@ -337,6 +418,9 @@ msgstr ""
 "podešavanja kao podrazumevana osim ako\n"
 "                                    nije navedeno drugačije.\n"
 "                                </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -454,7 +538,10 @@ msgid ""
 "        "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
 "16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
 "color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\""
@@ -565,6 +652,9 @@ msgstr ""
 "</td></tr>\n"
 "</table>\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -586,12 +676,18 @@ msgid ""
 "have no next activity."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Odličan savet za povećanje efikasnosti prodaje je da uvek definišete sledeći "
 "korak za svaku priliku. Da biste upravljali tekućim aktivnostima, kliknite "
 "na bilo koji status trake napretka da biste filtrirali prilike na osnovu "
 "statusa njihovih sledećih aktivnosti. Kliknite na sivu oblast trake napretka "
 "da biste videli sve prilike koje nemaju sledeću aktivnost."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -599,7 +695,11 @@ msgstr ""
 #: code:addons/crm/models/crm_lead.py:0
 msgid "A new lead has been created and is not assigned to any team."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Novi lid je kreiran i nije dodeljen nijednom timu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Novi lid je kreiran i nije dodeljen nijednom timu."
 >>>>>>> upstream/18.0
@@ -609,7 +709,11 @@ msgstr "Novi lid je kreiran i nije dodeljen nijednom timu."
 #: code:addons/crm/models/crm_lead.py:0
 msgid "A new lead has been created for the team \"%(team_name)s\"."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Novi lid je kreiran za tim \"%(team_name)s\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "Novi lid je kreiran za tim \"%(team_name)s\"."
 >>>>>>> upstream/18.0
@@ -659,7 +763,11 @@ msgstr "Analiza aktivnosti"
 #: model:ir.model.fields,field_description:crm.field_res_users__target_sales_done
 msgid "Activities Done Target"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Završene aktivnosti Cilj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Završene aktivnosti Cilj"
 >>>>>>> upstream/18.0
@@ -684,7 +792,11 @@ msgstr "Dekoracija izuzeća aktivnosti"
 #: model:ir.ui.menu,name:crm.mail_activity_plan_menu_config_lead
 msgid "Activity Plans"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Planovi aktivnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planovi aktivnosti"
 >>>>>>> upstream/18.0
@@ -723,6 +835,12 @@ msgid ""
 "\"Qualification\", ...)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Planovi aktivnosti se koriste da bi se lista aktivnosti dodelila u samo "
+"nekoliko klikova\n"
+"                    (npr. \"Proces pripreme Demo-a\", \"Kvalifikacija\", ...)"
+>>>>>>> upstream/18.0
 =======
 "Planovi aktivnosti se koriste da bi se lista aktivnosti dodelila u samo "
 "nekoliko klikova\n"
@@ -752,6 +870,11 @@ msgid ""
 "team."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dodatni domen filtera prilikom preuzimanja nedodeljenih lidova za dodelu "
+"timu."
+>>>>>>> upstream/18.0
 =======
 "Dodatni domen filtera prilikom preuzimanja nedodeljenih lidova za dodelu "
 "timu."
@@ -782,7 +905,11 @@ msgstr "Bezbednost alias kontakta"
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_domain_id
 msgid "Alias Domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alias domen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alias domen"
 >>>>>>> upstream/18.0
@@ -791,7 +918,11 @@ msgstr "Alias domen"
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_domain
 msgid "Alias Domain Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv alias domena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv alias domena"
 >>>>>>> upstream/18.0
@@ -800,7 +931,11 @@ msgstr "Naziv alias domena"
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_full_name
 msgid "Alias Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alias Email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alias Email"
 >>>>>>> upstream/18.0
@@ -814,7 +949,11 @@ msgstr "Naziv aliasa"
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_status
 msgid "Alias Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status aliasa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status aliasa"
 >>>>>>> upstream/18.0
@@ -823,7 +962,11 @@ msgstr "Status aliasa"
 #: model:ir.model.fields,help:crm.field_crm_team__alias_status
 msgid "Alias status assessed on the last message received."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status aliasa procenjen na osnovu poslednje primljene poruke."
+>>>>>>> upstream/18.0
 =======
 msgstr "Status aliasa procenjen na osnovu poslednje primljene poruke."
 >>>>>>> upstream/18.0
@@ -838,7 +981,11 @@ msgstr "Model aliasa"
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "All set. Let’s <b>Schedule</b> it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sve je podešeno. Hajde da ga <b>Zakažemo</b> ."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sve je podešeno. Hajde da ga <b>Zakažemo</b> ."
 >>>>>>> upstream/18.0
@@ -852,7 +999,11 @@ msgstr "Analiza"
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__deduplicate
 msgid "Apply deduplication"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primeni deduplikaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primeni deduplikaciju"
 >>>>>>> upstream/18.0
@@ -877,11 +1028,17 @@ msgid ""
 "name=\"%d\" type=\"action\" tabindex=\"-1\">join a team.</a>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Kako niste član nijednog prodajnog tima, vama se prikazuje Levak <b>prvog "
 "tima kao podrazumevani.</b>\n"
 "                                        Da radite sa CRM-om, trebalo bi da "
 "se <a name=\"%d\" type=\"action\" tabindex=\"-1\">priključite timu.</a>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -894,11 +1051,17 @@ msgid ""
 "join a team."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Kako vi niste član nijednog prodajnog tima, vama se prikazuje prodajni levak "
 "<b>prvog tima kao podrazumevani.</b>\n"
 "                                        Da biste radili sa CRM-om, trebalo "
 "bi da se pridružite timu."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -942,7 +1105,11 @@ msgstr "Datum dodeljivanja"
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__assignment_domain
 msgid "Assignment Domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Domen dodele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Domen dodele"
 >>>>>>> upstream/18.0
@@ -957,7 +1124,11 @@ msgstr "Pravila za dodeljivanje"
 #: code:addons/crm/models/crm_team.py:0
 msgid "Assignment domain for team %(team)s is incorrectly formatted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Domen za dodelu za tim %(team)s je nepravilno formatiran"
+>>>>>>> upstream/18.0
 =======
 msgstr "Domen za dodelu za tim %(team)s je nepravilno formatiran"
 >>>>>>> upstream/18.0
@@ -982,7 +1153,11 @@ msgstr "Automatsko dodeljivanje"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__crm_auto_assignment_action
 msgid "Auto Assignment Action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Akcija automatskog dodeljivanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Akcija automatskog dodeljivanja"
 >>>>>>> upstream/18.0
@@ -991,7 +1166,11 @@ msgstr "Akcija automatskog dodeljivanja"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__crm_auto_assignment_interval_type
 msgid "Auto Assignment Interval Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedinica intervala automatskog dodeljivanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jedinica intervala automatskog dodeljivanja"
 >>>>>>> upstream/18.0
@@ -1000,7 +1179,11 @@ msgstr "Jedinica intervala automatskog dodeljivanja"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__crm_auto_assignment_run_datetime
 msgid "Auto Assignment Next Execution Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum sledećeg izvršenja automatskog dodeljivanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum sledećeg izvršenja automatskog dodeljivanja"
 >>>>>>> upstream/18.0
@@ -1014,7 +1197,11 @@ msgstr "Automatizovana verovatno"
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__assignment_max
 msgid "Average Leads Capacity (on 30 days)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosečan kapacitet lidova (na 30 dana)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prosečan kapacitet lidova (na 30 dana)"
 >>>>>>> upstream/18.0
@@ -1081,7 +1268,11 @@ msgstr "Događaj kalendara"
 #: model:mail.activity.type,name:crm.mail_activity_demo_call_demo
 msgid "Call for Demo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poziv za Demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poziv za Demo"
 >>>>>>> upstream/18.0
@@ -1120,6 +1311,11 @@ msgid ""
 "converting them into opportunities and assigning them to a salesperson."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Označite ovo polje da biste filtrirali i kvalifikovali dolazne zahteve kao "
+"lidove pre nego što ih pretvorite u prodajne prilike i dodelite prodavcu."
+>>>>>>> upstream/18.0
 =======
 "Označite ovo polje da biste filtrirali i kvalifikovali dolazne zahteve kao "
 "lidove pre nego što ih pretvorite u prodajne prilike i dodelite prodavcu."
@@ -1130,6 +1326,10 @@ msgstr ""
 msgid "Check this box to manage a presales process with opportunities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Označite ovu kućicu da biste upravljali procesom pretprodaje sa prilikama."
+>>>>>>> upstream/18.0
 =======
 "Označite ovu kućicu da biste upravljali procesom pretprodaje sa prilikama."
 >>>>>>> upstream/18.0
@@ -1150,6 +1350,11 @@ msgid ""
 "Classify and analyze your lead/opportunity categories like: Training, Service"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Klasifikujte i analizirajte svoje kategorije lidova/prilika poput: Trening, "
+"Usluga"
+>>>>>>> upstream/18.0
 =======
 "Klasifikujte i analizirajte svoje kategorije lidova/prilika poput: Trening, "
 "Usluga"
@@ -1163,6 +1368,11 @@ msgid ""
 "modifications as you navigate."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kliknite na „mrvicu“ da biste se vratili na svoj „Prodajni levak“. Odoo će "
+"sačuvati sve izmene dok se krećete kroz njega."
+>>>>>>> upstream/18.0
 =======
 "Kliknite na „mrvicu“ da biste se vratili na svoj „Prodajni levak“. Odoo će "
 "sačuvati sve izmene dok se krećete kroz njega."
@@ -1240,7 +1450,11 @@ msgstr "Podešavanje"
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Congrats, best of luck catching such big fish! :)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čestitamo, srećno u hvatanju tako velike ribe! :)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čestitamo, srećno u hvatanju tako velike ribe! :)"
 >>>>>>> upstream/18.0
@@ -1280,7 +1494,11 @@ msgstr "Kontakt:"
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__name
 msgid "Conversion Action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Akcija konverzije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Akcija konverzije"
 >>>>>>> upstream/18.0
@@ -1307,7 +1525,11 @@ msgstr "Opcije konverzije"
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner_mass
 msgid "Convert Lead to Opportunity (in mass)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pretvorite lid u prodajnu priliku (masovno)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pretvorite lid u prodajnu priliku (masovno)"
 >>>>>>> upstream/18.0
@@ -1316,7 +1538,11 @@ msgstr "Pretvorite lid u prodajnu priliku (masovno)"
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner
 msgid "Convert Lead to Opportunity (not in mass)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pretvorite lid u prodajnu priliku (ne masovno)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pretvorite lid u prodajnu priliku (ne masovno)"
 >>>>>>> upstream/18.0
@@ -1366,7 +1592,11 @@ msgstr "Tačno"
 #: model:ir.model.fields,help:crm.field_crm_lead__message_bounce
 msgid "Counter of the number of bounced emails for this contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojač odbijenih imejlova za ovaj kontakt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brojač odbijenih imejlova za ovaj kontakt"
 >>>>>>> upstream/18.0
@@ -1400,7 +1630,11 @@ msgstr "Kreiraj lid"
 #: model_terms:ir.actions.act_window,help:crm.mail_activity_plan_action_lead
 msgid "Create a Lead Activity Plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj plan aktivnosti za lid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj plan aktivnosti za lid"
 >>>>>>> upstream/18.0
@@ -1419,7 +1653,11 @@ msgstr "Kreiraj ponavljajući plan"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__lead_mining_in_pipeline
 msgid "Create a lead mining request directly from the opportunity pipeline."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj zahtev za rudarenje lida direktno iz levka prodajnih prilika."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj zahtev za rudarenje lida direktno iz levka prodajnih prilika."
 >>>>>>> upstream/18.0
@@ -1591,7 +1829,11 @@ msgstr "Opis"
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "Did you know emails sent to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li ste znali da email-ovi poslati"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li ste znali da email-ovi poslati"
 >>>>>>> upstream/18.0
@@ -1603,6 +1845,11 @@ msgid ""
 "your pipeline?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Da li ste znali da email-ovi poslati na alias prodajnog tima generišu "
+"prilike u vašem prodajnom levku?"
+>>>>>>> upstream/18.0
 =======
 "Da li ste znali da email-ovi poslati na alias prodajnog tima generišu "
 "prilike u vašem prodajnom levku?"
@@ -1616,11 +1863,17 @@ msgid ""
 "company size, business information, social media accounts, etc."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Da li ste znali da možete pretraživati kompaniju po imenu ili PIB broju da "
 "biste odmah popunili sve njene podatke? Odoo automatski dovršava sve za vas: "
 "logo, adresu, veličinu kompanije, poslovne informacije, naloge na društvenim "
 "mrežama itd."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -1631,6 +1884,12 @@ msgid ""
 "tasks, contacts, delivery orders, etc."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Da li ste znali da možete pretvoriti listu prodajnih prilika u prikaz mape, "
+"koristeći ikonu mape u gornjem desnom uglu? Mnogo ekrana u Odoo-u može se "
+"pretvoriti u mapu: zadaci, kontakti, porudžbine za isporuku itd."
+>>>>>>> upstream/18.0
 =======
 "Da li ste znali da možete pretvoriti listu prodajnih prilika u prikaz mape, "
 "koristeći ikonu mape u gornjem desnom uglu? Mnogo ekrana u Odoo-u može se "
@@ -1682,6 +1941,11 @@ msgstr "Domen"
 msgid "Drag your opportunity to <b>Won</b> when you get the deal. Congrats!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Prevucite svoju prodajnu priliku u <b>Dobijeno</b> kada postigneš dogovor. "
+"Čestitamo!"
+>>>>>>> upstream/18.0
 =======
 "Prevucite svoju prodajnu priliku u <b>Dobijeno</b> kada postigneš dogovor. "
 "Čestitamo!"
@@ -1692,7 +1956,11 @@ msgstr ""
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Duration: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trajanje: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trajanje: %s"
 >>>>>>> upstream/18.0
@@ -1702,6 +1970,10 @@ msgstr "Trajanje: %s"
 msgid "Easily set expected closing dates and overview your revenue streams."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Lako podesite očekivane datume zatvaranja i pregledajte svoje tokove prihoda."
+>>>>>>> upstream/18.0
 =======
 "Lako podesite očekivane datume zatvaranja i pregledajte svoje tokove prihoda."
 >>>>>>> upstream/18.0
@@ -1729,7 +2001,11 @@ msgstr "Email Alias"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_domain_criterion
 msgid "Email Domain Criterion"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kriterijum email domena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kriterijum email domena"
 >>>>>>> upstream/18.0
@@ -1738,7 +2014,11 @@ msgstr "Kriterijum email domena"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_state
 msgid "Email Quality"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kvalitet email-ova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kvalitet email-ova"
 >>>>>>> upstream/18.0
@@ -1757,7 +2037,11 @@ msgstr "Email cc:"
 #: model:ir.model.fields,help:crm.field_crm_team__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email domen npr. 'example.com' u 'odoo@example.com'"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email domen npr. 'example.com' u 'odoo@example.com'"
 >>>>>>> upstream/18.0
@@ -1771,7 +2055,11 @@ msgstr "Email:"
 #: model:mail.activity.type,name:crm.mail_activity_type_demo_email_with_template
 msgid "Email: Welcome Demo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email: Demo dobrodošlice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email: Demo dobrodošlice"
 >>>>>>> upstream/18.0
@@ -1780,7 +2068,11 @@ msgstr "Email: Demo dobrodošlice"
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__lead_enrich_auto__auto
 msgid "Enrich all leads automatically"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obogati sve lidove automatski"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obogati sve lidove automatski"
 >>>>>>> upstream/18.0
@@ -1789,7 +2081,11 @@ msgstr "Obogati sve lidove automatski"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__lead_enrich_auto
 msgid "Enrich lead automatically"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obogati lid automatski"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obogati lid automatski"
 >>>>>>> upstream/18.0
@@ -1798,7 +2094,11 @@ msgstr "Obogati lid automatski"
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__lead_enrich_auto__manual
 msgid "Enrich leads on demand only"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obogati lidove samo na zahtev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obogati lidove samo na zahtev"
 >>>>>>> upstream/18.0
@@ -1810,6 +2110,11 @@ msgid ""
 "address."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Obogati svoje lidove automatski podacima kompanije na osnovu njihove email "
+"adrese."
+>>>>>>> upstream/18.0
 =======
 "Obogati svoje lidove automatski podacima kompanije na osnovu njihove email "
 "adrese."
@@ -1820,6 +2125,10 @@ msgstr ""
 msgid "Enrich your leads with company data based on their email addresses"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Obogati svoje lidove podacima kompanije na osnovu njihovih emaila adresa"
+>>>>>>> upstream/18.0
 =======
 "Obogati svoje lidove podacima kompanije na osnovu njihovih emaila adresa"
 >>>>>>> upstream/18.0
@@ -1831,6 +2140,11 @@ msgid ""
 "customer). It will appear as a tooltip over the stage's name."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ovde unesite interne zahteve za ovu fazu (npr: Ponuda poslata klijentu). Oni "
+"će se pojaviti kao objašnjenje iznad naziva faze."
+>>>>>>> upstream/18.0
 =======
 "Ovde unesite interne zahteve za ovu fazu (npr: Ponuda poslata klijentu). Oni "
 "će se pojaviti kao objašnjenje iznad naziva faze."
@@ -1840,7 +2154,11 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_lead__date_deadline
 msgid "Estimate of the date on which the opportunity will be won."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Procenite datum kog će prodajna prilika biti dobijena."
+>>>>>>> upstream/18.0
 =======
 msgstr "Procenite datum kog će prodajna prilika biti dobijena."
 >>>>>>> upstream/18.0
@@ -1849,7 +2167,11 @@ msgstr "Procenite datum kog će prodajna prilika biti dobijena."
 #: model:ir.model.fields,field_description:crm.field_crm_team__lead_all_assigned_month_exceeded
 msgid "Exceed monthly lead assignement"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prekoračenje mesečnog rasporeda dodele lidova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prekoračenje mesečnog rasporeda dodele lidova"
 >>>>>>> upstream/18.0
@@ -1923,6 +2245,11 @@ msgid ""
 "comparisons."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Polje koje se koristi za čuvanje očišćenog broja telefona. Pomaže u "
+"ubrzavanju pretrage i poređenja."
+>>>>>>> upstream/18.0
 =======
 "Polje koje se koristi za čuvanje očišćenog broja telefona. Pomaže u "
 "ubrzavanju pretrage i poređenja."
@@ -1933,6 +2260,10 @@ msgstr ""
 msgid "Fields that can be used for predictive lead scoring computation"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Polja koja se mogu koristiti za izračunavanje prediktivnog bodovanja lidova"
+>>>>>>> upstream/18.0
 =======
 "Polja koja se mogu koristiti za izračunavanje prediktivnog bodovanja lidova"
 >>>>>>> upstream/18.0
@@ -1941,7 +2272,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_stage__fold
 msgid "Folded in Pipeline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savijeno u Prodajnom levku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savijeno u Prodajnom levku"
 >>>>>>> upstream/18.0
@@ -1975,11 +2310,17 @@ msgid ""
 "feature, we offer you 200 credits for free."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Za prodajni tim, nema ništa gore nego ostati bez lidova. Srećom, u samo "
 "nekoliko klikova možete generisati lidove posebno ciljane prema vašim "
 "potrebama: veličini kompanije, industriji itd. Da bismo vam pomogli da "
 "testirate ovu funkciju, nudimo vam 200 besplatnih kredita."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -1987,7 +2328,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__force_assignment
 msgid "Force assignment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forsiraj dodelu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Forsiraj dodelu"
 >>>>>>> upstream/18.0
@@ -2014,7 +2359,11 @@ msgstr "Od %(source_name)s"
 #: code:addons/crm/models/crm_lead.py:0
 msgid "From %(source_name)s: %(source_subject)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Od %(source_name)s: %(source_subject)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Od %(source_name)s: %(source_subject)s"
 >>>>>>> upstream/18.0
@@ -2031,6 +2380,10 @@ msgstr "Buduće aktivnosti"
 msgid "Generate new leads based on their country, industries, size, etc."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Generiši nove lidove na osnovu njihove zemlje, industrija, veličine, itd."
+>>>>>>> upstream/18.0
 =======
 "Generiši nove lidove na osnovu njihove zemlje, industrija, veličine, itd."
 >>>>>>> upstream/18.0
@@ -2040,6 +2393,10 @@ msgstr ""
 msgid "Generate new leads based on their country, industry, size, etc."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Generiši nove lidove na osnovu njihove zemlje, industrije, veličine, itd."
+>>>>>>> upstream/18.0
 =======
 "Generiši nove lidove na osnovu njihove zemlje, industrije, veličine, itd."
 >>>>>>> upstream/18.0
@@ -2048,7 +2405,11 @@ msgstr ""
 #: model:ir.model,name:crm.model_crm_lead_lost
 msgid "Get Lost Reason"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Saznaj razloge za gubitak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Saznaj razloge za gubitak"
 >>>>>>> upstream/18.0
@@ -2058,6 +2419,11 @@ msgstr "Saznaj razloge za gubitak"
 msgid "Give your team the requirements to move an opportunity to this stage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Postavite zahteve svom timu koji treba da ispune da bi pomerili prodajnu "
+"priliku u ovu fazu."
+>>>>>>> upstream/18.0
 =======
 "Postavite zahteve svom timu koji treba da ispune da bi pomerili prodajnu "
 "priliku u ovu fazu."
@@ -2068,7 +2434,11 @@ msgstr ""
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Go, go, go! Congrats for your first deal."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bravo, bravo! Čestitamo na prvom dobijenom poslu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bravo, bravo! Čestitamo na prvom dobijenom poslu."
 >>>>>>> upstream/18.0
@@ -2139,6 +2509,11 @@ msgid ""
 "already set."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako je označeno, prodavac mora biti obavešten o ažuriranim prilikama čak i "
+"ako su već podešene."
+>>>>>>> upstream/18.0
 =======
 "Ako je označeno, prodavac mora biti obavešten o ažuriranim prilikama čak i "
 "ako su već podešene."
@@ -2172,6 +2547,11 @@ msgid ""
 "mailing anymore, from any list"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako je email adresa na crnoj listi, kontakt više neće primati masovnu poštu "
+"ni sa jedne liste"
+>>>>>>> upstream/18.0
 =======
 "Ako je email adresa na crnoj listi, kontakt više neće primati masovnu poštu "
 "ni sa jedne liste"
@@ -2184,6 +2564,11 @@ msgid ""
 "mass mailing sms anymore, from any list"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako se očišćeni broj telefona nalazi na crnoj listi, kontakt više neće "
+"primati masovne SMS poruke ni sa jedne liste"
+>>>>>>> upstream/18.0
 =======
 "Ako se očišćeni broj telefona nalazi na crnoj listi, kontakt više neće "
 "primati masovne SMS poruke ni sa jedne liste"
@@ -2193,7 +2578,11 @@ msgstr ""
 #: model:ir.ui.menu,name:crm.menu_import_crm
 msgid "Import & Synchronize"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvezi & Sinhronizuj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvezi & Sinhronizuj"
 >>>>>>> upstream/18.0
@@ -2203,7 +2592,11 @@ msgstr "Uvezi & Sinhronizuj"
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Import Template for Leads & Opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvezi šablon za Lidove & Prodajne prilike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvezi šablon za Lidove & Prodajne prilike"
 >>>>>>> upstream/18.0
@@ -2212,7 +2605,11 @@ msgstr "Uvezi šablon za Lidove & Prodajne prilike"
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Inactive"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neaktivno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neaktivno"
 >>>>>>> upstream/18.0
@@ -2222,7 +2619,11 @@ msgstr "Neaktivno"
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__phone_state__incorrect
 msgid "Incorrect"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neispravno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neispravno"
 >>>>>>> upstream/18.0
@@ -2235,6 +2636,12 @@ msgid ""
 "mobile and phone field in a model."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Označava da je očišćeni broj telefona na crnoj listi mobilni broj. Pomaže "
+"kod razlikovanja koji broj je stavljen na crnu listu             onda kada "
+"postoje oba, polja i za mobilni i za fiksni broj u modelu."
+>>>>>>> upstream/18.0
 =======
 "Označava da je očišćeni broj telefona na crnoj listi mobilni broj. Pomaže "
 "kod razlikovanja koji broj je stavljen na crnu listu             onda kada "
@@ -2249,6 +2656,12 @@ msgid ""
 "mobile and phone field in a model."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Označava da je očišćeni broj telefona na crnoj listi fiksni broj. Pomaže kod "
+"razlikovanja koji broj je stavljen na crnu listu             onda kada "
+"postoje oba, polja i za mobilni i za fiksni broj u modelu."
+>>>>>>> upstream/18.0
 =======
 "Označava da je očišćeni broj telefona na crnoj listi fiksni broj. Pomaže kod "
 "razlikovanja koji broj je stavljen na crnu listu             onda kada "
@@ -2265,6 +2678,11 @@ msgstr "Interne beleške"
 msgid "Interval type between each cron run (e.g. each 2 days or each 2 hours)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tip intervala između svakog pokretanja cron-a (npr. svaka 2 dana ili svaka 2 "
+"sata)"
+>>>>>>> upstream/18.0
 =======
 "Tip intervala između svakog pokretanja cron-a (npr. svaka 2 dana ili svaka 2 "
 "sata)"
@@ -2278,6 +2696,11 @@ msgid ""
 "large numbers."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nevažeća učestalost ponavljanja. Razmislite o promeni vrste učestalosti "
+"umesto korišćenja velikih brojeva."
+>>>>>>> upstream/18.0
 =======
 "Nevažeća učestalost ponavljanja. Razmislite o promeni vrste učestalosti "
 "umesto korišćenja velikih brojeva."
@@ -2292,7 +2715,11 @@ msgstr "Je Pratilac"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__is_partner_visible
 msgid "Is Partner Visible"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li je Partner vidljiv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li je Partner vidljiv"
 >>>>>>> upstream/18.0
@@ -2305,8 +2732,14 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__is_automated_probability
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Is automated probability?"
 msgstr ""
+=======
+#, fuzzy
+msgid "Is automated probability?"
+msgstr "Je automatizovana verovatnoća?"
+>>>>>>> upstream/18.0
 =======
 #, fuzzy
 msgid "Is automated probability?"
@@ -2317,7 +2750,11 @@ msgstr "Je automatizovana verovatnoća?"
 #: model:ir.model.fields,help:crm.field_crm_lead__duration_tracking
 msgid "JSON that maps ids from a many2one field to seconds spent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JSON koji mapira id-eve iz polja tipa „many2one“ u potrošene sekunde"
+>>>>>>> upstream/18.0
 =======
 msgstr "JSON koji mapira id-eve iz polja tipa „many2one“ u potrošene sekunde"
 >>>>>>> upstream/18.0
@@ -2336,7 +2773,11 @@ msgstr "Pozicija:"
 #: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_lead_created_value
 msgid "Kpi Crm Lead Created Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kpi Crm Kreirana vrednost lida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kpi Crm Kreirana vrednost lida"
 >>>>>>> upstream/18.0
@@ -2345,7 +2786,11 @@ msgstr "Kpi Crm Kreirana vrednost lida"
 #: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_opportunities_won_value
 msgid "Kpi Crm Opportunities Won Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kpi Crm Vrednost dobijenih prilika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kpi Crm Vrednost dobijenih prilika"
 >>>>>>> upstream/18.0
@@ -2354,7 +2799,11 @@ msgstr "Kpi Crm Vrednost dobijenih prilika"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__lang_active_count
 msgid "Lang Active Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojač aktivnih jezika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brojač aktivnih jezika"
 >>>>>>> upstream/18.0
@@ -2378,7 +2827,11 @@ msgstr "Poslednja akcija"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Last Automation:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednja automatizacija:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednja automatizacija:"
 >>>>>>> upstream/18.0
@@ -2388,7 +2841,11 @@ msgstr "Poslednja automatizacija:"
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Last Meeting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednji sastanak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednji sastanak"
 >>>>>>> upstream/18.0
@@ -2459,7 +2916,11 @@ msgstr "Dodeljivanje lida je zahtevao/la %(user_name)s"
 #: model:ir.model.fields,field_description:crm.field_crm_team__assignment_max
 msgid "Lead Average Capacity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosečan kapacitet lidova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prosečan kapacitet lidova"
 >>>>>>> upstream/18.0
@@ -2483,7 +2944,11 @@ msgstr "Rudarenje lidova"
 #: model:ir.actions.act_window,name:crm.mail_activity_plan_action_lead
 msgid "Lead Plans"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Planovi lida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planovi lida"
 >>>>>>> upstream/18.0
@@ -2507,7 +2972,11 @@ msgstr "Polja učestalosti bodovanja lidova"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_fields_str
 msgid "Lead Scoring Frequency Fields in String"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Polja za učestalost bodovanja lidova u stringu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Polja za učestalost bodovanja lidova u stringu"
 >>>>>>> upstream/18.0
@@ -2521,7 +2990,11 @@ msgstr "Datum početka bodovanja lidova"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_start_date_str
 msgid "Lead Scoring Starting Date in String"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum početka bodovanja lidova u stringu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum početka bodovanja lidova u stringu"
 >>>>>>> upstream/18.0
@@ -2531,7 +3004,11 @@ msgstr "Datum početka bodovanja lidova u stringu"
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_tree
 msgid "Lead Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznake lida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznake lida"
 >>>>>>> upstream/18.0
@@ -2540,7 +3017,11 @@ msgstr "Oznake lida"
 #: model:ir.model.fields,help:crm.field_crm_team_member__lead_day_count
 msgid "Lead assigned to this member this last day (lost one excluded)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lid dodeljen ovom članu poslednjeg dana (izgubljeni je isključen)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lid dodeljen ovom članu poslednjeg dana (izgubljeni je isključen)"
 >>>>>>> upstream/18.0
@@ -2549,7 +3030,11 @@ msgstr "Lid dodeljen ovom članu poslednjeg dana (izgubljeni je isključen)"
 #: model:ir.model.fields,help:crm.field_crm_team_member__lead_month_count
 msgid "Lead assigned to this member those last 30 days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lid dodeljen ovom članu u poslednjih 30 dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lid dodeljen ovom članu u poslednjih 30 dana"
 >>>>>>> upstream/18.0
@@ -2568,6 +3053,11 @@ msgid ""
 "administrators"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Automatsko dodeljivanje Lidova/Prilika je ograničeno na menadžere i "
+"administratore"
+>>>>>>> upstream/18.0
 =======
 "Automatsko dodeljivanje Lidova/Prilika je ograničeno na menadžere i "
 "administratore"
@@ -2611,7 +3101,11 @@ msgstr "Lidovi (30 dana)"
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__lead_day_count
 msgid "Leads (last 24h)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lidovi (Poslednja 24h)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lidovi (Poslednja 24h)"
 >>>>>>> upstream/18.0
@@ -2632,11 +3126,17 @@ msgid ""
 "leads analysis by different groups to get accurate grained analysis."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Analiza lidova vam omogućava da proverite različite informacije vezane za "
 "CRM, kao što su kašnjenja u obradi ili broj lidova po fazi. Možete sortirati "
 "analizu lidova po različitim grupama kako biste dobili preciznu, detaljnu "
 "analizu."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -2644,7 +3144,11 @@ msgstr ""
 #: code:addons/crm/models/crm_team.py:0
 msgid "Leads Assigned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodeljeni lidovi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodeljeni lidovi"
 >>>>>>> upstream/18.0
@@ -2687,6 +3191,11 @@ msgid ""
 "that no duplicates were found"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Lidovi koje ste izabrali, a koji imaju duplikate. Ako je lista prazna, to "
+"znači da nisu pronađeni duplikati"
+>>>>>>> upstream/18.0
 =======
 "Lidovi koje ste izabrali, a koji imaju duplikate. Ako je lista prazna, to "
 "znači da nisu pronađeni duplikati"
@@ -2696,7 +3205,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Leads with existing duplicates (for information)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lidovi sa postojećim duplikatima (za informaciju)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lidovi sa postojećim duplikatima (za informaciju)"
 >>>>>>> upstream/18.0
@@ -2716,7 +3229,11 @@ msgstr "Brojač Lidova/Prodajnih prilika"
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Let's <b>Schedule an Activity.</b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hajde da <b>zakažemo aktivnost.</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hajde da <b>zakažemo aktivnost.</b>"
 >>>>>>> upstream/18.0
@@ -2740,6 +3257,12 @@ msgid ""
 "find a partner by its Name, TIN, Email or Internal Reference."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Povezani partner (opciono). Obično se kreira prilikom konvertovanja lida. "
+"Možete pronaći partnera po imenu, poreskom broju (PIB), email adresi ili "
+"internoj referenci."
+>>>>>>> upstream/18.0
 =======
 "Povezani partner (opciono). Obično se kreira prilikom konvertovanja lida. "
 "Možete pronaći partnera po imenu, poreskom broju (PIB), email adresi ili "
@@ -2760,7 +3283,11 @@ msgstr "Lokalni kod"
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_action_my_activities
 msgid "Looks like nothing is planned."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Izgleda da ništa nije planirano"
+=======
+msgstr "Izgleda da ništa nije planirano."
+>>>>>>> upstream/18.0
 =======
 msgstr "Izgleda da ništa nije planirano."
 >>>>>>> upstream/18.0
@@ -2773,6 +3300,11 @@ msgid ""
 "track of everything you have to do!</i>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Izgleda da ništa nije planirano. :(<br><br><i>Savet: Zakažite aktivnosti da "
+"biste pratili sve što treba da uradite!</i>"
+>>>>>>> upstream/18.0
 =======
 "Izgleda da ništa nije planirano. :(<br><br><i>Savet: Zakažite aktivnosti da "
 "biste pratili sve što treba da uradite!</i>"
@@ -2797,7 +3329,11 @@ msgstr "Izgubljen komentar"
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency__lost_count
 msgid "Lost Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojač izgubljenih"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brojač izgubljenih"
 >>>>>>> upstream/18.0
@@ -2806,7 +3342,11 @@ msgstr "Brojač izgubljenih"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_lost_view_form
 msgid "Lost Lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izgubljeni lid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izgubljeni lid"
 >>>>>>> upstream/18.0
@@ -2819,7 +3359,11 @@ msgstr "Izgubljeni lid"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Lost Reason"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razlog gubitka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razlog gubitka"
 >>>>>>> upstream/18.0
@@ -2828,7 +3372,11 @@ msgstr "Razlog gubitka"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Lost Reason:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razlog gubitka:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razlog gubitka:"
 >>>>>>> upstream/18.0
@@ -2838,7 +3386,11 @@ msgstr "Razlog gubitka:"
 #: model:ir.ui.menu,name:crm.menu_crm_lost_reason
 msgid "Lost Reasons"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razlozi gubitka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razlozi gubitka"
 >>>>>>> upstream/18.0
@@ -2852,7 +3404,11 @@ msgstr "Nizak"
 #: model:mail.activity.type,name:crm.mail_activity_demo_make_quote
 msgid "Make Quote"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napravi Ponudu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Napravi Ponudu"
 >>>>>>> upstream/18.0
@@ -2861,7 +3417,11 @@ msgstr "Napravi Ponudu"
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Manage Recurring Plans"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljaj ponavljajućim planovima"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravljaj ponavljajućim planovima"
 >>>>>>> upstream/18.0
@@ -2874,6 +3434,12 @@ msgid ""
 "all teams."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ručno dodeljivanje omogućava pokretanje dodele iz prikaza timske forme pomoć"
+"u dugmeta za akciju. Automatski konfiguriše cron koji više puta pokreće "
+"dodelu u svim timovima."
+>>>>>>> upstream/18.0
 =======
 "Ručno dodeljivanje omogućava pokretanje dodele iz prikaza timske forme pomoć"
 "u dugmeta za akciju. Automatski konfiguriše cron koji više puta pokreće "
@@ -2902,7 +3468,11 @@ msgstr "Markiraj Dobitak"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_lost_view_form
 msgid "Mark as Lost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Označi kao Izgubljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Označi kao Izgubljeno"
 >>>>>>> upstream/18.0
@@ -2911,7 +3481,11 @@ msgstr "Označi kao Izgubljeno"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Mark as lost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Označi kao izgubljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Označi kao izgubljeno"
 >>>>>>> upstream/18.0
@@ -2920,7 +3494,11 @@ msgstr "Označi kao izgubljeno"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Mark as won"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Označi kao dobijeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Označi kao dobijeno"
 >>>>>>> upstream/18.0
@@ -2953,7 +3531,11 @@ msgstr "Posrednik:"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__meeting_display_date
 msgid "Meeting Display Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum sastanka za prikaz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum sastanka za prikaz"
 >>>>>>> upstream/18.0
@@ -2962,7 +3544,11 @@ msgstr "Datum sastanka za prikaz"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__meeting_display_label
 msgid "Meeting Display Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka prikaza sastanka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznaka prikaza sastanka"
 >>>>>>> upstream/18.0
@@ -2972,7 +3558,11 @@ msgstr "Oznaka prikaza sastanka"
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Meeting scheduled at %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sastanak je zakazan u %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sastanak je zakazan u %s"
 >>>>>>> upstream/18.0
@@ -2991,6 +3581,11 @@ msgid ""
 "formatted"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Domen za dodelu članova za korisnika %(user)s i tim %(team)s je nepravilno "
+"formatiran"
+>>>>>>> upstream/18.0
 =======
 "Domen za dodelu članova za korisnika %(user)s i tim %(team)s je nepravilno "
 "formatiran"
@@ -3001,7 +3596,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Merge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spoji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spoji"
 >>>>>>> upstream/18.0
@@ -3010,7 +3609,11 @@ msgstr "Spoji"
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Merge Leads/Opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spoji Lidove/Prilike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spoji Lidove/Prilike"
 >>>>>>> upstream/18.0
@@ -3019,7 +3622,11 @@ msgstr "Spoji Lidove/Prilike"
 #: model:ir.model,name:crm.model_crm_merge_opportunity
 msgid "Merge Opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spoji Prilike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spoji Prilike"
 >>>>>>> upstream/18.0
@@ -3028,7 +3635,11 @@ msgstr "Spoji Prilike"
 #: model:ir.model.fields,help:crm.field_crm_lead2opportunity_partner_mass__deduplicate
 msgid "Merge with existing leads/opportunities of each partner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spoji sa postojećim lidovima/prilikama za svakog partnera"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spoji sa postojećim lidovima/prilikama za svakog partnera"
 >>>>>>> upstream/18.0
@@ -3038,7 +3649,11 @@ msgstr "Spoji sa postojećim lidovima/prilikama za svakog partnera"
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner_mass__name__merge
 msgid "Merge with existing opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spoji sa postojećim prilikama"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spoji sa postojećim prilikama"
 >>>>>>> upstream/18.0
@@ -3078,7 +3693,11 @@ msgstr "Mesečno"
 #: model:ir.model.fields,help:crm.field_crm_team__assignment_max
 msgid "Monthly average leads capacity for all salesmen belonging to the team"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosečan mesečni kapacitet lidova za sve prodavce koji pripadaju timu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prosečan mesečni kapacitet lidova za sve prodavce koji pripadaju timu"
 >>>>>>> upstream/18.0
@@ -3087,7 +3706,11 @@ msgstr "Prosečan mesečni kapacitet lidova za sve prodavce koji pripadaju timu"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__is_membership_multi
 msgid "Multi Teams"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Više timova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Više timova"
 >>>>>>> upstream/18.0
@@ -3108,7 +3731,11 @@ msgstr "Rok moje aktivnosti"
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "My Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moj rok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moj rok"
 >>>>>>> upstream/18.0
@@ -3176,7 +3803,11 @@ msgstr "Tip sledeće aktivnosti"
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Next Meeting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledeći sastanak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sledeći sastanak"
 >>>>>>> upstream/18.0
@@ -3185,7 +3816,11 @@ msgstr "Sledeći sastanak"
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Next Run"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledeće pokretanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sledeće pokretanje"
 >>>>>>> upstream/18.0
@@ -3201,7 +3836,11 @@ msgstr "Ne"
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No Meeting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema sastanaka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema sastanaka"
 >>>>>>> upstream/18.0
@@ -3220,6 +3859,11 @@ msgid ""
 "unassigned lead matches its domain."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nema dodeljenih lidova timu %(team_name)s i njegovim prodavcima jer se "
+"nijedan nedodeljeni lid ne podudara sa njegovim domenom."
+>>>>>>> upstream/18.0
 =======
 "Nema dodeljenih lidova timu %(team_name)s i njegovim prodavcima jer se "
 "nijedan nedodeljeni lid ne podudara sa njegovim domenom."
@@ -3233,6 +3877,11 @@ msgid ""
 "capacity to its salespersons."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nema dodeljenih lidova za %(team_name)s tim jer nema kapaciteta. Dodajte "
+"kapacitet njegovim prodavcima."
+>>>>>>> upstream/18.0
 =======
 "Nema dodeljenih lidova za %(team_name)s tim jer nema kapaciteta. Dodajte "
 "kapacitet njegovim prodavcima."
@@ -3246,6 +3895,11 @@ msgid ""
 "Salespersons configuration as well as unassigned leads."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nijedbnom timu ili prodavcu nije dodeljen nijedan lid. Proverite "
+"konfiguraciju prodajnih timova i prodavaca, kao i nedodeljene lidove."
+>>>>>>> upstream/18.0
 =======
 "Nijedbnom timu ili prodavcu nije dodeljen nijedan lid. Proverite "
 "konfiguraciju prodajnih timova i prodavaca, kao i nedodeljene lidove."
@@ -3271,6 +3925,11 @@ msgid ""
 "domains."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nijedan lid nije dodeljen prodavcima jer nijedan nedodeljeni lid ne odgovara "
+"njihovim domenima."
+>>>>>>> upstream/18.0
 =======
 "Nijedan lid nije dodeljen prodavcima jer nijedan nedodeljeni lid ne odgovara "
 "njihovim domenima."
@@ -3284,6 +3943,11 @@ msgid ""
 "matches its domain."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nijedan novi lid nije dodeljen timu %(team_name)s jer nijedan nedodeljeni "
+"lid ne odgovara njegovom domenu."
+>>>>>>> upstream/18.0
 =======
 "Nijedan novi lid nije dodeljen timu %(team_name)s jer nijedan nedodeljeni "
 "lid ne odgovara njegovom domenu."
@@ -3295,6 +3959,11 @@ msgstr ""
 msgid "No new lead allocated to the teams because no lead match their domains."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Timovima nije dodeljen novi lid jer nijedan lid ne odgovara njihovim "
+"domenima."
+>>>>>>> upstream/18.0
 =======
 "Timovima nije dodeljen novi lid jer nijedan lid ne odgovara njihovim "
 "domenima."
@@ -3314,7 +3983,11 @@ msgstr "Nema prodavca"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_normalized
 msgid "Normalized Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Normalizovan Email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Normalizovan Email"
 >>>>>>> upstream/18.0
@@ -3357,6 +4030,11 @@ msgid ""
 "days)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Broj intervala između svakog pokretanja cron-a (npr. svaka 2 dana ili svaka "
+"4 dana)"
+>>>>>>> upstream/18.0
 =======
 "Broj intervala između svakog pokretanja cron-a (npr. svaka 2 dana ili svaka "
 "4 dana)"
@@ -3366,7 +4044,11 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_team__lead_all_assigned_month_count
 msgid "Number of leads and opportunities assigned this last month."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj lidova i prilika dodeljenih prošlog meseca."
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj lidova i prilika dodeljenih prošlog meseca."
 >>>>>>> upstream/18.0
@@ -3375,7 +4057,11 @@ msgstr "Broj lidova i prilika dodeljenih prošlog meseca."
 #: model:ir.model.fields,help:crm.field_crm_lead__message_needaction_counter
 msgid "Number of messages requiring action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj poruka koje zahtevaju akciju"
 >>>>>>> upstream/18.0
@@ -3393,6 +4079,12 @@ msgid ""
 "revenues."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Odoo vam pomaže da pratite svoj prodajni levak kako biste\n"
+"                    pratili potencijalnu prodaju i bolje predvideli buduće "
+"prihode."
+>>>>>>> upstream/18.0
 =======
 "Odoo vam pomaže da pratite svoj prodajni levak kako biste\n"
 "                    pratili potencijalnu prodaju i bolje predvideli buduće "
@@ -3408,18 +4100,28 @@ msgid ""
 "opportunity moves forward in your sales cycle."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Odoo-ov sistem veštačke inteligencije predviđa stopu uspeha svake prilike na "
 "osnovu vaše istorije. Stopu uspeha uvek možete ažurirati ručno, ali ako "
 "dozvolite Odoo-u da obavi posao, rezultat se ažurira dok se prilika kreće "
 "napred u vašem prodajnom ciklusu."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Ongoing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tekuće"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tekuće"
 >>>>>>> upstream/18.0
@@ -3474,11 +4176,17 @@ msgid ""
 "channels of the sales pipeline."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Analiza prodajnih prilika vam pruža trenutni pristup vašim prilikama sa "
 "informacijama kao što su očekivani prihod, planirani troškovi, propušteni "
 "rokovi ili broj interakcija po prilici. Ovaj izveštaj uglavnom koristi "
 "menadžer prodaje kako bi vršio periodični pregled kanala prodajnog levka."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -3490,7 +4198,11 @@ msgstr "Prognoza prodajnih prilika"
 #: model:ir.model.fields,field_description:crm.field_crm_team__opportunities_amount
 msgid "Opportunities Revenues"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilike Prihodi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prilike Prihodi"
 >>>>>>> upstream/18.0
@@ -3590,7 +4302,11 @@ msgstr "Preko 3 godine"
 #: model:crm.recurring.plan,name:crm.crm_recurring_plan_over_5_years
 msgid "Over 5 years "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Preko 5 godina"
+=======
+msgstr "Preko 5 godina "
+>>>>>>> upstream/18.0
 =======
 msgstr "Preko 5 godina "
 >>>>>>> upstream/18.0
@@ -3601,7 +4317,11 @@ msgstr "Preko 5 godina "
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Overdue Opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zakasnele prilike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zakasnele prilike"
 >>>>>>> upstream/18.0
@@ -3610,7 +4330,11 @@ msgstr "Zakasnele prilike"
 #: model:ir.model.fields,field_description:crm.field_crm_team__opportunities_overdue_amount
 msgid "Overdue Opportunities Revenues"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prihodi zakasnelih prilika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prihodi zakasnelih prilika"
 >>>>>>> upstream/18.0
@@ -3619,7 +4343,11 @@ msgstr "Prihodi zakasnelih prilika"
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_view_kanban_dashboard
 msgid "Overdue Opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zakasnela prilika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zakasnela prilika"
 >>>>>>> upstream/18.0
@@ -3675,7 +4403,11 @@ msgstr "Telefon je na crnoj listi"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_state
 msgid "Phone Quality"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kvalitet telefona"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kvalitet telefona"
 >>>>>>> upstream/18.0
@@ -3723,7 +4455,11 @@ msgstr "Ime plana"
 #: model:ir.model.fields,field_description:crm.field_crm_lead_pls_update__pls_fields
 msgid "Pls Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pls polja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pls polja"
 >>>>>>> upstream/18.0
@@ -3732,7 +4468,11 @@ msgstr "Pls polja"
 #: model:ir.model.fields,field_description:crm.field_crm_lead_pls_update__pls_start_date
 msgid "Pls Start Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pls datum početka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pls datum početka"
 >>>>>>> upstream/18.0
@@ -3755,7 +4495,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_lead__duplicate_lead_ids
 msgid "Potential Duplicate Lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potencijalni duplikat lida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potencijalni duplikat lida"
 >>>>>>> upstream/18.0
@@ -3764,7 +4508,11 @@ msgstr "Potencijalni duplikat lida"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__duplicate_lead_count
 msgid "Potential Duplicate Lead Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojač potencijalnih duplikata lida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brojač potencijalnih duplikata lida"
 >>>>>>> upstream/18.0
@@ -3773,7 +4521,11 @@ msgstr "Brojač potencijalnih duplikata lida"
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Predictive Lead Scoring"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prediktivno bodovanje lida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prediktivno bodovanje lida"
 >>>>>>> upstream/18.0
@@ -3782,7 +4534,11 @@ msgstr "Prediktivno bodovanje lida"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_field_labels
 msgid "Predictive Lead Scoring Field Labels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka polja Prediktivnog bodovanja lida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznaka polja Prediktivnog bodovanja lida"
 >>>>>>> upstream/18.0
@@ -3792,6 +4548,10 @@ msgstr "Oznaka polja Prediktivnog bodovanja lida"
 msgid "Predictive Lead Scoring: Recompute Automated Probabilities"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Prediktivno bodovanje lida: Ponovo preračunaj automatizovane verovatnoće"
+>>>>>>> upstream/18.0
 =======
 "Prediktivno bodovanje lida: Ponovo preračunaj automatizovane verovatnoće"
 >>>>>>> upstream/18.0
@@ -3844,7 +4604,11 @@ msgstr "Proporcionalni MPP"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__recurring_revenue_prorated
 msgid "Prorated Recurring Revenues"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Srazmerni ponavljajući prihodi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Srazmerni ponavljajući prihodi"
 >>>>>>> upstream/18.0
@@ -3868,7 +4632,11 @@ msgstr "Kvalifikovano"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__rating_ids
 msgid "Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocene"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ocene"
 >>>>>>> upstream/18.0
@@ -3879,6 +4647,10 @@ msgstr "Ocene"
 msgid "Ready to boost your sales? Let's have a look at your <b>Pipeline</b>."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Spremni da povećate prodaju? Hajde da pogledamo vaš <b>Prodajni levak</b>."
+>>>>>>> upstream/18.0
 =======
 "Spremni da povećate prodaju? Hajde da pogledamo vaš <b>Prodajni levak</b>."
 >>>>>>> upstream/18.0
@@ -3892,7 +4664,11 @@ msgstr "ID niza zapisa"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__recurring_plan
 msgid "Recurring Plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponavljajući plan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponavljajući plan"
 >>>>>>> upstream/18.0
@@ -3902,7 +4678,11 @@ msgstr "Ponavljajući plan"
 #: model:ir.ui.menu,name:crm.crm_recurring_plan_menu_config
 msgid "Recurring Plans"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponavljajući planovi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponavljajući planovi"
 >>>>>>> upstream/18.0
@@ -3911,7 +4691,11 @@ msgstr "Ponavljajući planovi"
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Recurring Revenue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponavljajući prihod"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponavljajući prihod"
 >>>>>>> upstream/18.0
@@ -3921,7 +4705,11 @@ msgstr "Ponavljajući prihod"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__group_use_recurring_revenues
 msgid "Recurring Revenues"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponavljajući prihodi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponavljajući prihodi"
 >>>>>>> upstream/18.0
@@ -4063,7 +4851,11 @@ msgstr "Prodavci"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_sanitized
 msgid "Sanitized Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Očišćeni broj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Očišćeni broj"
 >>>>>>> upstream/18.0
@@ -4072,7 +4864,11 @@ msgstr "Očišćeni broj"
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_action_my_activities
 msgid "Schedule activities to keep track of everything you have to do."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zakažite aktivnosti kako biste pratili sve što treba da uradite."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zakažite aktivnosti kako biste pratili sve što treba da uradite."
 >>>>>>> upstream/18.0
@@ -4093,7 +4889,11 @@ msgstr "Pretraži prodajne prilike"
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Select at least two Leads/Opportunities from the list to merge them."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izaberite bar dva lida/prilike sa liste kako biste ih spojili."
+>>>>>>> upstream/18.0
 =======
 msgstr "Izaberite bar dva lida/prilike sa liste kako biste ih spojili."
 >>>>>>> upstream/18.0
@@ -4117,6 +4917,11 @@ msgid ""
 "periodicity<br>(e.g: Monthly, Yearly)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Podesite ponavljajuće planove za prilike da biste prikazali periodičnost "
+"obnavljanja ugovora<br>(npr.: mesečno, godišnje)."
+>>>>>>> upstream/18.0
 =======
 "Podesite ponavljajuće planove za prilike da biste prikazali periodičnost "
 "obnavljanja ugovora<br>(npr.: mesečno, godišnje)."
@@ -4126,7 +4931,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:crm.crm_stage_action
 msgid "Set a new stage in your opportunity pipeline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postavite novu fazu u svom levku prodajnih prilika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postavite novu fazu u svom levku prodajnih prilika"
 >>>>>>> upstream/18.0
@@ -4141,7 +4950,11 @@ msgstr "Podešavanje"
 #: model:res.groups,name:crm.group_use_lead
 msgid "Show Lead Menu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži meni lidova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži meni lidova"
 >>>>>>> upstream/18.0
@@ -4150,7 +4963,11 @@ msgstr "Prikaži meni lidova"
 #: model:res.groups,name:crm.group_use_recurring_revenues
 msgid "Show Recurring Revenues Menu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži meni Ponavljajućih prihoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži meni Ponavljajućih prihoda"
 >>>>>>> upstream/18.0
@@ -4161,7 +4978,11 @@ msgstr "Prikaži meni Ponavljajućih prihoda"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Show all opportunities for which the next action date is before today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži sve prilike za koje je datum sledeće akcije ranije od danas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži sve prilike za koje je datum sledeće akcije ranije od danas"
 >>>>>>> upstream/18.0
@@ -4170,7 +4991,11 @@ msgstr "Prikaži sve prilike za koje je datum sledeće akcije ranije od danas"
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Show only lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži samo lid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži samo lid"
 >>>>>>> upstream/18.0
@@ -4179,7 +5004,11 @@ msgstr "Prikaži samo lid"
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Show only leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži samo lidove"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži samo lidove"
 >>>>>>> upstream/18.0
@@ -4188,7 +5017,11 @@ msgstr "Prikaži samo lidove"
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Show only opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži samo prilike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži samo prilike"
 >>>>>>> upstream/18.0
@@ -4197,7 +5030,11 @@ msgstr "Prikaži samo prilike"
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Show only opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži samo priliku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži samo priliku"
 >>>>>>> upstream/18.0
@@ -4207,7 +5044,11 @@ msgstr "Prikaži samo priliku"
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__assignment_optout
 msgid "Skip auto assignment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preskoči automatsko dodeljivanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preskoči automatsko dodeljivanje"
 >>>>>>> upstream/18.0
@@ -4216,7 +5057,11 @@ msgstr "Preskoči automatsko dodeljivanje"
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Snooze 7d"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odloži 7 dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odloži 7 dana"
 >>>>>>> upstream/18.0
@@ -4241,6 +5086,11 @@ msgid ""
 "use this stage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Određeni tim koji koristi ovu fazu. Drugi timovi neće moći da vide ili "
+"koriste ovu fazu."
+>>>>>>> upstream/18.0
 =======
 "Određeni tim koji koristi ovu fazu. Drugi timovi neće moći da vide ili "
 "koriste ovu fazu."
@@ -4297,6 +5147,11 @@ msgid ""
 "            is positioned in the sales cycle."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Faze dozvoljavaju prodavcima da jednostavno prate kako je određena prilika\n"
+"                          pozicionirana u prodajnom ciklusu."
+>>>>>>> upstream/18.0
 =======
 "Faze dozvoljavaju prodavcima da jednostavno prate kako je određena prilika\n"
 "                          pozicionirana u prodajnom ciklusu."
@@ -4307,7 +5162,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:crm.crm_activity_report_action_team
 msgid "Start scheduling activities on your opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počnite da zakazujete aktivnosti na svojim prilikama"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počnite da zakazujete aktivnosti na svojim prilikama"
 >>>>>>> upstream/18.0
@@ -4335,7 +5194,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_lead__duration_tracking
 msgid "Status time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vreme statusa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vreme statusa"
 >>>>>>> upstream/18.0
@@ -4365,7 +5228,11 @@ msgstr "Ulica2"
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Subject: "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predmet: "
+>>>>>>> upstream/18.0
 =======
 msgstr "Predmet: "
 >>>>>>> upstream/18.0
@@ -4416,6 +5283,11 @@ msgid ""
 "ago on"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kontakti u nastavku su dodati kao pratioci ovo lida\n"
+"                        jer oni kontaktirani pre manje od 30 dana na"
+>>>>>>> upstream/18.0
 =======
 "Kontakti u nastavku su dodati kao pratioci ovo lida\n"
 "                        jer oni kontaktirani pre manje od 30 dana na"
@@ -4428,6 +5300,11 @@ msgid ""
 "automatically create new leads assigned to the channel."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Email adresa povezana sa ovim kanalom. Nove email poruke će automatski "
+"kreirati nove lidove dodeljene kanalu."
+>>>>>>> upstream/18.0
 =======
 "Email adresa povezana sa ovim kanalom. Nove email poruke će automatski "
 "kreirati nove lidove dodeljene kanalu."
@@ -4460,6 +5337,11 @@ msgid ""
 "the lead into opportunity"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Naziv buduće partnerske kompanije koja će biti kreirana prilikom konverzije "
+"lida u priliku"
+>>>>>>> upstream/18.0
 =======
 "Naziv buduće partnerske kompanije koja će biti kreirana prilikom konverzije "
 "lida u priliku"
@@ -4469,6 +5351,7 @@ msgstr ""
 #: model:ir.model.constraint,message:crm.constraint_crm_recurring_plan_check_number_of_months
 msgid "The number of month can't be negative."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: crm
@@ -4476,6 +5359,8 @@ msgstr ""
 msgid "The probability of closing the deal should be between 0% and 100%!"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Broj meseci ne može biti negativan."
 
 #. module: crm
@@ -4483,13 +5368,20 @@ msgstr "Broj meseci ne može biti negativan."
 #, fuzzy
 msgid "The probability of closing the deal should be between 0% and 100%!"
 msgstr "Verovatnoća zaključenja posla treba da bude između 0% i 100%!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "The success rate is computed based on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stopa uspeha se izračunava na osnovu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stopa uspeha se izračunava na osnovu"
 >>>>>>> upstream/18.0
@@ -4501,6 +5393,11 @@ msgid ""
 "in the statistical analysis."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Stopa uspeha se izračunava na osnovu faze, ali možete dodati još polja u "
+"statističkoj analizi."
+>>>>>>> upstream/18.0
 =======
 "Stopa uspeha se izračunava na osnovu faze, ali možete dodati još polja u "
 "statističkoj analizi."
@@ -4510,7 +5407,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:crm.crm_opportunity_report_action_lead
 msgid "This analysis shows you how many leads have been created per month."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ova analiza vam pokazuje koliko je lidova kreirano mesečno."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ova analiza vam pokazuje koliko je lidova kreirano mesečno."
 >>>>>>> upstream/18.0
@@ -4520,7 +5421,11 @@ msgstr "Ova analiza vam pokazuje koliko je lidova kreirano mesečno."
 msgid ""
 "This bar allows to filter the opportunities based on scheduled activities."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ova traka omogućava filtriranje prilika na osnovu zakazanih aktivnosti."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ova traka omogućava filtriranje prilika na osnovu zakazanih aktivnosti."
 >>>>>>> upstream/18.0
@@ -4532,6 +5437,11 @@ msgid ""
 "rules"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ovo se može koristiti za automatsko dodeljivanje lidova prodavcima na osnovu "
+"pravila"
+>>>>>>> upstream/18.0
 =======
 "Ovo se može koristiti za automatsko dodeljivanje lidova prodavcima na osnovu "
 "pravila"
@@ -4542,6 +5452,11 @@ msgstr ""
 msgid "This can be used to compute statistical probability to close a lead"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ovo se može koristiti za izračunavanje statističke verovatnoće zatvaranja "
+"lida"
+>>>>>>> upstream/18.0
 =======
 "Ovo se može koristiti za izračunavanje statističke verovatnoće zatvaranja "
 "lida"
@@ -4552,6 +5467,11 @@ msgstr ""
 msgid "This email is blacklisted for mass mailings. Click to unblacklist."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ova email adresa je na crnoj listi za masovne poruke. Kliknite da biste je "
+"uklonili sa crne liste."
+>>>>>>> upstream/18.0
 =======
 "Ova email adresa je na crnoj listi za masovne poruke. Kliknite da biste je "
 "uklonili sa crne liste."
@@ -4564,6 +5484,11 @@ msgid ""
 "contain more than strictly an email address."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ovo polje se koristi za pretragu po email adresi jer primarno polje za email "
+"može da sadrži više od same email adrese."
+>>>>>>> upstream/18.0
 =======
 "Ovo polje se koristi za pretragu po email adresi jer primarno polje za email "
 "može da sadrži više od same email adrese."
@@ -4573,7 +5498,11 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_lead__lang_code
 msgid "This field is used to set/get locales for user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ovo se polje koristi da postavi/da lokalizme  korisnike"
+=======
+msgstr "Ovo polje se koristi da postavi/da lokalizme za korisnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovo polje se koristi da postavi/da lokalizme za korisnika"
 >>>>>>> upstream/18.0
@@ -4606,6 +5535,11 @@ msgid ""
 "This phone number is blacklisted for SMS Marketing. Click to unblacklist."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ovaj broj telefona je na crnoj listi za SMS marketing. Kliknite da biste ga "
+"uklonili sa crne liste."
+>>>>>>> upstream/18.0
 =======
 "Ovaj broj telefona je na crnoj listi za SMS marketing. Kliknite da biste ga "
 "uklonili sa crne liste."
@@ -4624,7 +5558,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "This will assign leads to all members. Do you want to proceed?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovo će dodeliti lidove svim članovima. Da li želite da nastavite?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovo će dodeliti lidove svim članovima. Da li želite da nastavite?"
 >>>>>>> upstream/18.0
@@ -4634,7 +5572,11 @@ msgstr "Ovo će dodeliti lidove svim članovima. Da li želite da nastavite?"
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "Tip: Convert incoming emails into opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Pretvorite dolazne email-ove u prodajne prilike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Pretvorite dolazne email-ove u prodajne prilike"
 >>>>>>> upstream/18.0
@@ -4644,7 +5586,11 @@ msgstr "Savet: Pretvorite dolazne email-ove u prodajne prilike"
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
 msgid "Tip: Did you know Odoo has built-in lead mining?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Da li ste znali da Odoo ima ugrađeno rudarenje lidova?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Da li ste znali da Odoo ima ugrađeno rudarenje lidova?"
 >>>>>>> upstream/18.0
@@ -4654,7 +5600,11 @@ msgstr "Savet: Da li ste znali da Odoo ima ugrađeno rudarenje lidova?"
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
 msgid "Tip: Do not waste time recording customers' data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Ne gubite vreme beležeći podatke kupaca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Ne gubite vreme beležeći podatke kupaca"
 >>>>>>> upstream/18.0
@@ -4664,7 +5614,11 @@ msgstr "Savet: Ne gubite vreme beležeći podatke kupaca"
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_3
 msgid "Tip: Manage your pipeline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Upravljajte svojim prodajnim levkom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Upravljajte svojim prodajnim levkom"
 >>>>>>> upstream/18.0
@@ -4674,7 +5628,11 @@ msgstr "Savet: Upravljajte svojim prodajnim levkom"
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
 msgid "Tip: Opportunity win rate is predicted with AI"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Stopa dobitka prilika je predviđena pomoću AI-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Stopa dobitka prilika je predviđena pomoću AI-a"
 >>>>>>> upstream/18.0
@@ -4684,7 +5642,11 @@ msgstr "Savet: Stopa dobitka prilika je predviđena pomoću AI-a"
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
 msgid "Tip: Turn a selection of opportunities into a map"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savet: Pretvori izabrane prodajne prilike u mapu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savet: Pretvori izabrane prodajne prilike u mapu"
 >>>>>>> upstream/18.0
@@ -4703,6 +5665,11 @@ msgid ""
 "of %(max_length)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Da bi se sprečio gubitak podataka, lidovi i prodajne prilike se mogu spojiti "
+"samo u grupama od %(max_length)s."
+>>>>>>> upstream/18.0
 =======
 "Da bi se sprečio gubitak podataka, lidovi i prodajne prilike se mogu spojiti "
 "samo u grupama od %(max_length)s."
@@ -4719,7 +5686,11 @@ msgstr "Današnje aktivnosti"
 #: model:crm.lost.reason,name:crm.lost_reason_1
 msgid "Too expensive"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Previše skupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Previše skupo"
 >>>>>>> upstream/18.0
@@ -4733,7 +5704,11 @@ msgstr "Praćenje"
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Trailing 12 months"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednjih 12 meseci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednjih 12 meseci"
 >>>>>>> upstream/18.0
@@ -4745,6 +5720,11 @@ msgid ""
 "assignment limit, false otherwise."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tačno ako je mesečni broj dodeljenih lidova veći od maksimalnog ograničenja "
+"dodeljivanja, u suprotnom je netačno."
+>>>>>>> upstream/18.0
 =======
 "Tačno ako je mesečni broj dodeljenih lidova veći od maksimalnog ograničenja "
 "dodeljivanja, u suprotnom je netačno."
@@ -4786,7 +5766,11 @@ msgstr "UTM kampanja"
 #: model:ir.model.fields,help:crm.field_crm_lead__user_company_ids
 msgid "UX: Limit to lead company or all if no company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UX: Ograničite se na kompaniju lida, ili sve ako nema kompanije"
+>>>>>>> upstream/18.0
 =======
 msgstr "UX: Ograničite se na kompaniju lida, ili sve ako nema kompanije"
 >>>>>>> upstream/18.0
@@ -4816,7 +5800,11 @@ msgstr "Nepročitane poruke"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_search_forecast
 msgid "Upcoming Closings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predstojeća zatvaranja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predstojeća zatvaranja"
 >>>>>>> upstream/18.0
@@ -4825,7 +5813,11 @@ msgstr "Predstojeća zatvaranja"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_pls_update_view_form
 msgid "Update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ažuriraj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ažuriraj"
 >>>>>>> upstream/18.0
@@ -4845,7 +5837,11 @@ msgstr "Ažuriraj verovatnoće"
 #: model:ir.model.fields,field_description:crm.field_utm_campaign__use_leads
 msgid "Use Leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi lidove"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristi lidove"
 >>>>>>> upstream/18.0
@@ -4857,6 +5853,11 @@ msgid ""
 "competitors\")."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koristi razloge gubitka za izveštaje o razlozima gubitka prodajnih prilika "
+"(npr.\"Obaranje cene od strane konkurencije\")."
+>>>>>>> upstream/18.0
 =======
 "Koristi razloge gubitka za izveštaje o razlozima gubitka prodajnih prilika "
 "(npr.\"Obaranje cene od strane konkurencije\")."
@@ -4866,7 +5867,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner_mass__action__each_exist_or_create
 msgid "Use existing partner or create"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi postojećeg partnera ili kreiraj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristi postojećeg partnera ili kreiraj"
 >>>>>>> upstream/18.0
@@ -4882,13 +5887,19 @@ msgid ""
 "                    prospects you import, etc."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Koristite lidove ukoliko vam treba kvalifikacioni korak pre kreiranja\n"
 "                    prodajne prilike ili kupca. To može biti dobijena vizit-"
 "karta,\n"
 "                    kontakt forma popunjena na vašem website-u, ili datoteka "
 "nekvalifikovanog\n"
 "                    lida koju uvezete, itd."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -4901,19 +5912,29 @@ msgid ""
 "new customer in your address book."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Koristite lidove ukoliko vam treba kvalifikacioni korak pre kreiranja "
 "prodajne prilike ili kupca. To može biti dobijena vizit-karta, kontakt forma "
 "popunjena na vašem website-u, ili datoteka nekvalifikovanog lida koju "
 "uvezete, itd. Kada se kvalifikuje, lid se može pretvoriti u poslovnu priliku "
 "i/ili novog kupca u vašem adresaru."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_action_helper
 msgid "Use the <i>New</i> button, or send an email to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi <i>Novo</i> dugme, ili pošalji email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristi <i>Novo</i> dugme, ili pošalji email"
 >>>>>>> upstream/18.0
@@ -4926,6 +5947,11 @@ msgid ""
 "email gateway."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koristi <i>Novo</i> dugme, ili pošalji email %(email_link)s da testiraš "
+"email gateway."
+>>>>>>> upstream/18.0
 =======
 "Koristi <i>Novo</i> dugme, ili pošalji email %(email_link)s da testiraš "
 "email gateway."
@@ -4936,7 +5962,11 @@ msgstr ""
 msgid ""
 "Use the New button, or configure an email alias to test the email gateway."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi dugme Novo, ili podesi email alias da testiraš email gateway."
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristi dugme Novo, ili podesi email alias da testiraš email gateway."
 >>>>>>> upstream/18.0
@@ -4950,7 +5980,11 @@ msgstr "Koristite ovaj meni za pregled vašeg prodajnog levka."
 #: model:ir.model.fields,help:crm.field_crm_stage__sequence
 msgid "Used to order stages. Lower is better."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi se za redosled faza. Niže je bolje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristi se za redosled faza. Niže je bolje."
 >>>>>>> upstream/18.0
@@ -4964,7 +5998,11 @@ msgstr "Korisnik"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__user_company_ids
 msgid "User Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kompanija korisnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kompanija korisnika"
 >>>>>>> upstream/18.0
@@ -4983,7 +6021,11 @@ msgstr "Promenljiva"
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__priority__3
 msgid "Very High"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Veoma visoko"
+>>>>>>> upstream/18.0
 =======
 msgstr "Veoma visoko"
 >>>>>>> upstream/18.0
@@ -4992,7 +6034,11 @@ msgstr "Veoma visoko"
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Visits to Leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Posete u Lidove"
+>>>>>>> upstream/18.0
 =======
 msgstr "Posete u Lidove"
 >>>>>>> upstream/18.0
@@ -5001,7 +6047,11 @@ msgstr "Posete u Lidove"
 #: model:crm.lost.reason,name:crm.lost_reason_2
 msgid "We don't have people/skills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemamo ljude/veštine"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nemamo ljude/veštine"
 >>>>>>> upstream/18.0
@@ -5025,7 +6075,11 @@ msgstr "Istorija website komunikacije"
 #: model:ir.model.fields,help:crm.field_crm_lead__website
 msgid "Website of the contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Website kontakta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Website kontakta"
 >>>>>>> upstream/18.0
@@ -5034,7 +6088,11 @@ msgstr "Website kontakta"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Website:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Website:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Website:"
 >>>>>>> upstream/18.0
@@ -5048,7 +6106,11 @@ msgstr "Nedelje"
 #: model:mail.template,name:crm.mail_template_demo_crm_lead
 msgid "Welcome Demo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Demo dobrodošlice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Demo dobrodošlice"
 >>>>>>> upstream/18.0
@@ -5057,7 +6119,11 @@ msgstr "Demo dobrodošlice"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_lost_view_form
 msgid "What went wrong?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šta je pošlo po zlu?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Šta je pošlo po zlu?"
 >>>>>>> upstream/18.0
@@ -5076,7 +6142,11 @@ msgstr "Dobitak"
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency__won_count
 msgid "Won Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojač Dobijenih"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brojač Dobijenih"
 >>>>>>> upstream/18.0
@@ -5085,7 +6155,11 @@ msgstr "Brojač Dobijenih"
 #: model:ir.model.fields,field_description:crm.field_res_users__target_sales_won
 msgid "Won in Opportunities Target"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Osvojeno u cilju prilika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Osvojeno u cilju prilika"
 >>>>>>> upstream/18.0
@@ -5095,7 +6169,11 @@ msgstr "Osvojeno u cilju prilika"
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Yeah! Deal of the last 7 days for the team."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bravo! Dogovoreni poslovi poslednjih 7 dana za tim."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bravo! Dogovoreni poslovi poslednjih 7 dana za tim."
 >>>>>>> upstream/18.0
@@ -5104,7 +6182,11 @@ msgstr "Bravo! Dogovoreni poslovi poslednjih 7 dana za tim."
 #: model:crm.recurring.plan,name:crm.crm_recurring_plan_yearly
 msgid "Yearly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Godišnje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Godišnje"
 >>>>>>> upstream/18.0
@@ -5120,7 +6202,11 @@ msgstr "Da"
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "You can make your opportunity advance through your pipeline from here."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odavde vaša prodajna plika može napredovati kroz prodajni levak."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odavde vaša prodajna plika može napredovati kroz prodajni levak."
 >>>>>>> upstream/18.0
@@ -5130,7 +6216,11 @@ msgstr "Odavde vaša prodajna plika može napredovati kroz prodajni levak."
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You don't have the access needed to run this cron."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemate potrebna prava pristupa da biste pokrenuli ovaj cron."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nemate potrebna prava pristupa da biste pokrenuli ovaj cron."
 >>>>>>> upstream/18.0
@@ -5140,7 +6230,11 @@ msgstr "Nemate potrebna prava pristupa da biste pokrenuli ovaj cron."
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You just beat your personal record for the past 30 days."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravo si oborio svoj lični rekord za proteklih 30 dana."
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravo si oborio svoj lični rekord za proteklih 30 dana."
 >>>>>>> upstream/18.0
@@ -5150,7 +6244,11 @@ msgstr "Upravo si oborio svoj lični rekord za proteklih 30 dana."
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You just beat your personal record for the past 7 days."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravo si oborio svoj lični rekord za proteklih 7 dana."
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravo si oborio svoj lični rekord za proteklih 7 dana."
 >>>>>>> upstream/18.0
@@ -5164,6 +6262,12 @@ msgid ""
 "                    documents, track all discussions, and much more."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bićete u mogućnosti da planirate sastanke i pozive iz\n"
+"                    prilika, konvertujete ih u ponude, prilažete povezana\n"
+"                    dokumenta, pratite sve diskusije i mnogo više od toga."
+>>>>>>> upstream/18.0
 =======
 "Bićete u mogućnosti da planirate sastanke i pozive iz\n"
 "                    prilika, konvertujete ih u ponude, prilažete povezana\n"
@@ -5183,8 +6287,14 @@ msgstr "Poštanski broj"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "alias"
 msgstr ""
+=======
+#, fuzzy
+msgid "alias"
+msgstr "alias"
+>>>>>>> upstream/18.0
 =======
 #, fuzzy
 msgid "alias"
@@ -5195,7 +6305,11 @@ msgstr "alias"
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "e.g. \"0123456789\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"0123456789\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"0123456789\""
 >>>>>>> upstream/18.0
@@ -5205,7 +6319,11 @@ msgstr "npr. \"0123456789\""
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "e.g. \"Monthly\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"Mesečno\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"Mesečno\""
 >>>>>>> upstream/18.0
@@ -5214,7 +6332,11 @@ msgstr "npr. \"Mesečno\""
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "e.g. \"email@address.com\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"email@address.com\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"email@address.com\""
 >>>>>>> upstream/18.0
@@ -5244,7 +6366,11 @@ msgstr "npr. https://www.odoo.com"
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "e.g. mycompany.com"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. mycompany.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. mycompany.com"
 >>>>>>> upstream/18.0
@@ -5258,7 +6384,11 @@ msgstr "za lidove kreirane počev od"
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "generate opportunities in your pipeline?<br>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "generišite prilike u svom prodajnom levku?<br>"
+>>>>>>> upstream/18.0
 =======
 msgstr "generišite prilike u svom prodajnom levku?<br>"
 >>>>>>> upstream/18.0
@@ -5277,7 +6407,11 @@ msgstr "da testirate email server."
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "to your CRM. This email address is configurable by sales team members."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "u vaš CRM. Ovu email adresu mogu da konfigurišu članovi prodajnog tima."
+>>>>>>> upstream/18.0
 =======
 msgstr "u vaš CRM. Ovu email adresu mogu da konfigurišu članovi prodajnog tima."
 >>>>>>> upstream/18.0

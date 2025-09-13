@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mail
 # 
+=======
+# * mail
+#
+>>>>>>> upstream/18.0
 =======
 # * mail
 #
@@ -43,22 +48,29 @@
 # Svante Suominen <svante.suominen@web-veistamo.fi>, 2024
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025
 # Jessica Jakara, 2025
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
 # Wil Odoo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # Jessica Jakara, 2025
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
 # Wil Odoo, 2025
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025
 # "Jessica Tuulia Sade Jäkärä (jtsj)" <jtsj@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,6 +346,8 @@ msgstr ""
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-22 18:38+0000\n"
 "PO-Revision-Date: 2025-08-21 14:30+0000\n"
 "Last-Translator: \"Jessica Tuulia Sade Jäkärä (jtsj)\" <jtsj@odoo.com>\n"
@@ -345,6 +359,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -356,11 +373,14 @@ msgid ""
 "                Add addresses to the Allowed List\n"
 "            </p><p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                To protect you from spam and reply loops, Odoo automatically blocks emails\n"
 "                coming to your gateway past a threshold of <b>%(threshold)i</b> emails every <b>%(minutes)i</b>\n"
 "                minutes. If there are some addresses from which you need to receive very frequent\n"
 "                updates, you can however add them below and Odoo will let them go through.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                To protect you from spam and reply loops, Odoo automatically "
 "blocks emails\n"
 "                coming to your gateway past a threshold of <b>%(threshold)i</"
@@ -369,6 +389,9 @@ msgid ""
 "receive very frequent\n"
 "                updates, you can however add them below and Odoo will let "
 "them go through.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </p>"
 msgstr ""
@@ -377,11 +400,14 @@ msgstr ""
 "                Lisää osoitteita sallittujen luetteloon\n"
 "            </p><p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Suojellaksesi sinua roskapostilta ja vastaussilmukoilta Odoo estää automaattisesti sähköpostit\n"
 "                jotka saapuvat palvelimellesi, kun kynnysarvo on ylittynyt <b>%(threshold)i</b> sähköposteja joka <b>%(minutes)i</b>\n"
 "                minuutti. Jos on joitakin osoitteita, joista sinun on saatava hyvin usein\n"
 "                päivityksiä, voit kuitenkin lisätä ne alle ja Odoo päästää ne läpi.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                Suojellaksesi sinua roskapostilta ja vastaussilmukoilta Odoo "
 "estää automaattisesti sähköpostit\n"
 "                jotka saapuvat palvelimellesi, kun kynnysarvo on ylittynyt "
@@ -390,6 +416,9 @@ msgstr ""
 "saatava hyvin usein\n"
 "                päivityksiä, voit kuitenkin lisätä ne alle ja Odoo päästää "
 "ne läpi.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </p>"
 
@@ -464,8 +493,13 @@ msgid ""
 "others"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(emoji)s, johon reagoivat %(person1)s, %(person2)s, %(person3)s ja "
 "%(count)s muuta"
+=======
+"%(emoji)s, johon reagoivat %(person1)s, %(person2)s, %(person3)s ja %"
+"(count)s muuta"
+>>>>>>> upstream/18.0
 =======
 "%(emoji)s, johon reagoivat %(person1)s, %(person2)s, %(person3)s ja %"
 "(count)s muuta"
@@ -475,11 +509,17 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/message_reaction_list.js:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "%(emoji)s reacted by %(person1)s, %(person2)s, %(person3)s, and 1 other"
 msgstr ""
 "%(emoji)s reagoivat %(person1)s, %(person2)s, %(person3)s ja yksi muu "
 "henkilö"
+=======
+msgid "%(emoji)s reacted by %(person1)s, %(person2)s, %(person3)s, and 1 other"
+msgstr ""
+"%(emoji)s reagoivat %(person1)s, %(person2)s, %(person3)s ja yksi muu henkilö"
+>>>>>>> upstream/18.0
 =======
 msgid "%(emoji)s reacted by %(person1)s, %(person2)s, %(person3)s, and 1 other"
 msgstr ""
@@ -497,8 +537,12 @@ msgstr "%(emoji)s, johon reagoivat %(person1)s, %(person2)s ja %(person3)s"
 #: code:addons/mail/models/models.py:0
 msgid "%(model_name)s.%(field_path)s does not seem to be a valid field path"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "%(model_name)s.%(field_path)s ei näytä olevan kelvollinen kentän polku"
+=======
+msgstr "%(model_name)s.%(field_path)s ei näytä olevan kelvollinen kentän polku"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(model_name)s.%(field_path)s ei näytä olevan kelvollinen kentän polku"
 >>>>>>> upstream/18.0
@@ -515,6 +559,7 @@ msgstr "%(name)s: %(message)s)"
 msgid ""
 "%(new_line)s%(new_line)sType %(bold_start)s@username%(bold_end)s to mention "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "someone, and grab their attention.%(new_line)sType "
 "%(bold_start)s#channel%(bold_end)s to mention a channel.%(new_line)sType "
 "%(bold_start)s/command%(bold_end)s to execute a command.%(new_line)sType "
@@ -528,6 +573,8 @@ msgstr ""
 "komennon.%(new_line)s Kirjoita %(bold_start)s:pikakomento%(bold_end)s "
 "lisätäksesi viestiin valmiiksi valmistellun vastauksen."
 =======
+=======
+>>>>>>> upstream/18.0
 "someone, and grab their attention.%(new_line)sType %(bold_start)s#channel%"
 "(bold_end)s to mention a channel.%(new_line)sType %(bold_start)s/command%"
 "(bold_end)s to execute a command.%(new_line)sType %(bold_start)s:shortcut%"
@@ -539,6 +586,9 @@ msgstr ""
 "%(bold_start)s/komento%(bold_end)s suorittaaksesi komennon.%(new_line)s "
 "Kirjoita %(bold_start)s:pikakomento%(bold_end)s lisätäksesi viestiin "
 "valmiiksi valmistellun vastauksen."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -546,22 +596,29 @@ msgstr ""
 #: code:addons/mail/static/src/core/common/composer.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(open_button)s%(icon)s%(open_em)sDiscard "
 "editing%(close_em)s%(close_button)s"
 msgstr ""
 "%(open_button)s%(icon)s%(open_em)sHylkää "
 "muokkaus%(close_em)s%(close_button)s]"
 =======
+=======
+>>>>>>> upstream/18.0
 "%(open_button)s%(icon)s%(open_em)sDiscard editing%(close_em)s%(close_button)s"
 msgstr ""
 "%(open_button)s%(icon)s%(open_em)sHylkää muokkaus%(close_em)s%"
 "(close_button)s]"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/composer.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "%(open_samp)sEscape%(close_samp)s %(open_em)sto "
 "%(open_cancel)scancel%(close_cancel)s%(close_em)s, %(open_samp)sCTRL-"
@@ -573,6 +630,8 @@ msgstr ""
 "Enter%(close_samp)s %(open_em)sto "
 "%(open_save)stallentaa%(close_save)s%(close_em)s"
 =======
+=======
+>>>>>>> upstream/18.0
 "%(open_samp)sEscape%(close_samp)s %(open_em)sto %(open_cancel)scancel%"
 "(close_cancel)s%(close_em)s, %(open_samp)sCTRL-Enter%(close_samp)s %"
 "(open_em)sto %(open_save)ssave%(close_save)s%(close_em)s"
@@ -580,12 +639,16 @@ msgstr ""
 "%(open_samp)sEsc%(close_samp)s %(open_em)s %(open_cancel)speruuttaa%"
 "(close_cancel)s%(close_em)s, %(open_samp)sCTRL-Enter%(close_samp)s %"
 "(open_em)sto %(open_save)stallentaa%(close_save)s%(close_em)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/composer.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "%(open_samp)sEscape%(close_samp)s %(open_em)sto "
 "%(open_cancel)scancel%(close_cancel)s%(close_em)s, "
@@ -597,6 +660,8 @@ msgstr ""
 "%(open_samp)sEnter%(close_samp)s %(open_em)s "
 "%(open_save)stallentaa%(close_save)s%(close_em)s"
 =======
+=======
+>>>>>>> upstream/18.0
 "%(open_samp)sEscape%(close_samp)s %(open_em)sto %(open_cancel)scancel%"
 "(close_cancel)s%(close_em)s, %(open_samp)sEnter%(close_samp)s %(open_em)sto %"
 "(open_save)ssave%(close_save)s%(close_em)s"
@@ -604,6 +669,9 @@ msgstr ""
 "%(open_samp)sEsc%(close_samp)s %(open_em)s %(open_cancel)speruuttaa%"
 "(close_cancel)s%(close_em)s, %(open_samp)sEnter%(close_samp)s %(open_em)s %"
 "(open_save)stallentaa%(close_save)s%(close_em)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -625,17 +693,23 @@ msgstr ""
 #: code:addons/mail/models/discuss/discuss_channel.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(user)s started a thread: %(goto)s%(thread_name)s%(goto_end)s. "
 "%(goto_all)sSee all threads%(goto_all_end)s."
 msgstr ""
 "%(user)s aloitti viestiketjun: %(goto)s%(thread_name)s%(goto_end)s. "
 "%(goto_all)s Katso kaikki säikeet%(goto_all_end)s."
 =======
+=======
+>>>>>>> upstream/18.0
 "%(user)s started a thread: %(goto)s%(thread_name)s%(goto_end)s. %"
 "(goto_all)sSee all threads%(goto_all_end)s."
 msgstr ""
 "%(user)s aloitti viestiketjun: %(goto)s%(thread_name)s%(goto_end)s. %"
 "(goto_all)s Katso kaikki säikeet%(goto_all_end)s."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -837,6 +911,7 @@ msgstr "<i class=\"fa fa-times\"/> Peruuta"
 #: code:addons/mail/static/src/js/tours/discuss_channel_tour.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<p><b>Chat with coworkers</b> in real-time using direct "
 "messages.</p><p><i>You might need to invite users from the Settings app "
 "first.</i></p>"
@@ -845,12 +920,17 @@ msgstr ""
 "viestejä.</p><p><i>Käyttäjä pitää mahdollisesti kutusa ensin "
 "'Asetukset'-sovelluksen kautta.</i></p>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<p><b>Chat with coworkers</b> in real-time using direct messages.</"
 "p><p><i>You might need to invite users from the Settings app first.</i></p>"
 msgstr ""
 "<p><b>Keskustele kollegoiden kanssa</b> reaaliajassa käyttäen viestejä.</"
 "p><p><i>Käyttäjä pitää mahdollisesti kutusa ensin 'Asetukset'-sovelluksen "
 "kautta.</i></p>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -858,8 +938,13 @@ msgstr ""
 #: code:addons/mail/static/src/js/tours/discuss_channel_tour.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<p><b>Write a message</b> to the members of the channel here.</p> <p>You can"
 " notify someone with <i>'@'</i> or link another channel with <i>'#'</i>. "
+=======
+"<p><b>Write a message</b> to the members of the channel here.</p> <p>You can "
+"notify someone with <i>'@'</i> or link another channel with <i>'#'</i>. "
+>>>>>>> upstream/18.0
 =======
 "<p><b>Write a message</b> to the members of the channel here.</p> <p>You can "
 "notify someone with <i>'@'</i> or link another channel with <i>'#'</i>. "
@@ -876,6 +961,7 @@ msgstr ""
 #: code:addons/mail/static/src/js/tours/discuss_channel_tour.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<p>Channels make it easy to organize information across different topics and"
 " groups.</p> <p>Try to <b>create your first channel</b> (e.g. sales, "
 "marketing, product XYZ, after work party, etc).</p>"
@@ -884,6 +970,8 @@ msgstr ""
 " näppärästi.</p> <p>Kokeile <b>luoda kanava</b> (esim. myynti, markkinointi,"
 " tuote XYZ, after work -bileet, jne.).</p>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<p>Channels make it easy to organize information across different topics and "
 "groups.</p> <p>Try to <b>create your first channel</b> (e.g. sales, "
 "marketing, product XYZ, after work party, etc).</p>"
@@ -891,6 +979,9 @@ msgstr ""
 "<p>Kanavien avulla eri toimintojen, ryhmien ja asiayhteyksien tieto jäsentyy "
 "näppärästi.</p> <p>Kokeile <b>luoda kanava</b> (esim. myynti, markkinointi, "
 "tuote XYZ, after work -bileet, jne.).</p>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -942,6 +1033,7 @@ msgstr "<span class=\"o_stat_text\">Avaa ylemmän tason asiakirja</span>"
 msgid ""
 "<span invisible=\"mail_post_method != 'email'\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                The message will be sent as an email to the recipients of the\n"
 "                                template and will not appear in the messaging history.\n"
 "                            </span>\n"
@@ -966,6 +1058,8 @@ msgstr ""
 "                                Viesti lähetetään viestinä tietueeseen,\n"
 "                                jossa ilmoitetaan kaikille seuraajille. Se näkyy viestihistoriassa.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                The message will be sent as an email to the "
 "recipients of the\n"
 "                                template and will not appear in the "
@@ -999,6 +1093,9 @@ msgstr ""
 "                                Viesti lähetetään viestinä tietueeseen,\n"
 "                                jossa ilmoitetaan kaikille seuraajille. Se "
 "näkyy viestihistoriassa.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                            </span>"
 
@@ -1120,17 +1217,23 @@ msgstr "Aikataulutettua viestiä ei voitu lähettää"
 #: model:ir.model.fields,help:mail.field_res_config_settings__google_translate_api_key
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A valid Google API key is required to enable message translation. "
 "https://cloud.google.com/translate/docs/setup"
 msgstr ""
 "Viestien kääntäminen edellyttää voimassa olevaa Google API -avainta. "
 "https://cloud.google.com/translate/docs/setup"
 =======
+=======
+>>>>>>> upstream/18.0
 "A valid Google API key is required to enable message translation. https://"
 "cloud.google.com/translate/docs/setup"
 msgstr ""
 "Viestien kääntäminen edellyttää voimassa olevaa Google API -avainta. https://"
 "cloud.google.com/translate/docs/setup"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -1380,11 +1483,14 @@ msgstr "Toimintasuunnitelman malli"
 msgid ""
 "Activity plans are used to assign a list of activities in just a few clicks\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    (e.g. \"Onboarding\", \"Prospect Follow-up\", \"Project Milestone Meeting\", ...)"
 msgstr ""
 "Toimintasuunnitelmien avulla voidaan määrittää luettelo toiminnoista vain muutamalla napsautuksella\n"
 "                    (esim. \"Perehdytys\", \"Prospektin seuranta\", \"Projektin virstanpylväspalaveri\", ...)"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    (e.g. \"Onboarding\", \"Prospect Follow-up\", \"Project "
 "Milestone Meeting\", ...)"
 msgstr ""
@@ -1392,6 +1498,9 @@ msgstr ""
 "muutamalla napsautuksella\n"
 "                    (esim. \"Perehdytys\", \"Prospektin seuranta\", "
 "\"Projektin virstanpylväspalaveri\", ...)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -1450,17 +1559,23 @@ msgstr "Lisää Tenor GIF API -avain, jotta GIF-tuki otetaan käyttöön."
 #: model:ir.model.fields,help:mail.field_res_config_settings__tenor_api_key
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Add a Tenor GIF API key to enable GIFs support. "
 "https://developers.google.com/tenor/guides/quickstart#setup"
 msgstr ""
 "Lisää Tenor GIF API -avain, jotta GIF-tuki saadaan käyttöön. "
 "https://developers.google.com/tenor/guides/quickstart#setup"
 =======
+=======
+>>>>>>> upstream/18.0
 "Add a Tenor GIF API key to enable GIFs support. https://"
 "developers.google.com/tenor/guides/quickstart#setup"
 msgstr ""
 "Lisää Tenor GIF API -avain, jotta GIF-tuki saadaan käyttöön. https://"
 "developers.google.com/tenor/guides/quickstart#setup"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -1480,8 +1595,12 @@ msgstr "Lisää kuvaus aktiviteetillesi..."
 msgid "Add a new %(document)s or send an email to %(email_link)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Lisää uusi %(document)s tai lähetä sähköposti vastaanottajalle "
 "%(email_link)s"
+=======
+"Lisää uusi %(document)s tai lähetä sähköposti vastaanottajalle %(email_link)s"
+>>>>>>> upstream/18.0
 =======
 "Lisää uusi %(document)s tai lähetä sähköposti vastaanottajalle %(email_link)s"
 >>>>>>> upstream/18.0
@@ -1645,6 +1764,7 @@ msgstr "Alias"
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Alias %(matching_name)s (%(current_id)s) is already linked with "
 "%(alias_model_name)s (%(matching_id)s) and used by the %(parent_name)s "
 "%(parent_model_name)s."
@@ -1653,6 +1773,8 @@ msgstr ""
 "%(alias_model_name)s (%(matching_id)s) ja sitä käytetään %(parent_name)s "
 "%(parent_model_name)s."
 =======
+=======
+>>>>>>> upstream/18.0
 "Alias %(matching_name)s (%(current_id)s) is already linked with %"
 "(alias_model_name)s (%(matching_id)s) and used by the %(parent_name)s %"
 "(parent_model_name)s."
@@ -1660,6 +1782,9 @@ msgstr ""
 "Alias %(matching_name)s (%(current_id)s) on jo linkitetty %"
 "(alias_model_name)s (%(matching_id)s) ja sitä käytetään %(parent_name)s %"
 "(parent_model_name)s."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -1667,17 +1792,23 @@ msgstr ""
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Alias %(matching_name)s (%(current_id)s) is already linked with "
 "%(alias_model_name)s (%(matching_id)s)."
 msgstr ""
 "Alias %(matching_name)s (%(current_id)s) on jo linkitetty "
 "%(alias_model_name)s (%(matching_id)s) kanssa."
 =======
+=======
+>>>>>>> upstream/18.0
 "Alias %(matching_name)s (%(current_id)s) is already linked with %"
 "(alias_model_name)s (%(matching_id)s)."
 msgstr ""
 "Alias %(matching_name)s (%(current_id)s) on jo linkitetty %"
 "(alias_model_name)s (%(matching_id)s) kanssa."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -1760,8 +1891,13 @@ msgid ""
 "Please choose another alias."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Alias %(alias_names)s on jo käytössä bounce- tai catchall-keräilyosoitteena."
 " Valitse toinen alias."
+=======
+"Alias %(alias_names)s on jo käytössä bounce- tai catchall-keräilyosoitteena. "
+"Valitse toinen alias."
+>>>>>>> upstream/18.0
 =======
 "Alias %(alias_names)s on jo käytössä bounce- tai catchall-keräilyosoitteena. "
 "Valitse toinen alias."
@@ -1807,7 +1943,12 @@ msgid ""
 " %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tapahtui SSL-virhe. Varmista, että SSL/TLS-määrityksissä on asetettu palvelimen portti.\n"
+=======
+"Tapahtui SSL-virhe. Varmista, että SSL/TLS-määrityksissä on asetettu "
+"palvelimen portti.\n"
+>>>>>>> upstream/18.0
 =======
 "Tapahtui SSL-virhe. Varmista, että SSL/TLS-määrityksissä on asetettu "
 "palvelimen portti.\n"
@@ -1837,7 +1978,12 @@ msgstr "Sähköpostia lähetettäessä tapahtui virhe"
 #: code:addons/mail/static/src/core/common/failure_model.js:0
 msgid "An error occurred when sending an email on “%(record_name)s”"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Virhe tapahtui lähetettäessä sähköpostia osoitteeseen \"%(record_name)s\""
+=======
+msgstr ""
+"Virhe tapahtui lähetettäessä sähköpostia osoitteeseen \"%(record_name)s\""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Virhe tapahtui lähetettäessä sähköpostia osoitteeseen \"%(record_name)s\""
@@ -1946,8 +2092,12 @@ msgstr "Haluatko varmasti poistaa tämän sähköpostiosoitteen estolistalta?"
 #: code:addons/mail/models/mail_blacklist.py:0
 msgid "Are you sure you want to unblacklist this email address?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Haluatko varmasti poistaa tämän sähköpostiosoitteen mustalta listalta?"
+=======
+msgstr "Haluatko varmasti poistaa tämän sähköpostiosoitteen mustalta listalta?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Haluatko varmasti poistaa tämän sähköpostiosoitteen mustalta listalta?"
 >>>>>>> upstream/18.0
@@ -2074,8 +2224,13 @@ msgstr "Tekijä"
 #: model:ir.model.fields,help:mail.field_mail_message__author_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Author of the message. If not set, email_from may hold an email address that"
 " did not match any partner."
+=======
+"Author of the message. If not set, email_from may hold an email address that "
+"did not match any partner."
+>>>>>>> upstream/18.0
 =======
 "Author of the message. If not set, email_from may hold an email address that "
 "did not match any partner."
@@ -2276,8 +2431,13 @@ msgid ""
 "(#%(user_id)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Estetty, koska portaali-tili on poistettu %(portal_user_name)s tekijänä "
 "%(user_name)s (#%(user_id)s)"
+=======
+"Estetty, koska portaali-tili on poistettu %(portal_user_name)s tekijänä %"
+"(user_name)s (#%(user_id)s)"
+>>>>>>> upstream/18.0
 =======
 "Estetty, koska portaali-tili on poistettu %(portal_user_name)s tekijänä %"
 "(user_name)s (#%(user_id)s)"
@@ -2358,8 +2518,13 @@ msgstr "Bounce-sähköpostiviestien tulisi olla ainutlaatuisia"
 #: code:addons/mail/models/mail_alias_domain.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bounce/Catchall '%(matching_alias_name)s' is already used by "
 "%(document_name)s. Choose another alias or change it on the other document."
+=======
+"Bounce/Catchall '%(matching_alias_name)s' is already used by %"
+"(document_name)s. Choose another alias or change it on the other document."
+>>>>>>> upstream/18.0
 =======
 "Bounce/Catchall '%(matching_alias_name)s' is already used by %"
 "(document_name)s. Choose another alias or change it on the other document."
@@ -2542,8 +2707,13 @@ msgstr "Purkitettu vastaus"
 msgid ""
 "Canned response that will automatically be substituted with longer content "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "in your messages. Type ':' followed by the name of your shortcut (e.g. "
 ":hello) to use in your messages."
+=======
+"in your messages. Type ':' followed by the name of your shortcut "
+"(e.g. :hello) to use in your messages."
+>>>>>>> upstream/18.0
 =======
 "in your messages. Type ':' followed by the name of your shortcut "
 "(e.g. :hello) to use in your messages."
@@ -2563,6 +2733,7 @@ msgstr "Purkitetut vastaukset"
 msgid ""
 "Canned responses allow you to insert prewritten responses in\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    your messages by typing <i>:shortcut</i>. The shortcut is\n"
 "                    replaced directly in your message, so that you can still edit\n"
 "                    it before sending."
@@ -2571,6 +2742,8 @@ msgstr ""
 "                    viesteihisi kirjoittamalla <i>:pikanäppäin</i>. Pikanäppäin voidaan\n"
 "                    korvataan suoraan viestissäsi, joten voit edelleen muokata vastausvaihtoehtoja\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    your messages by typing <i>:shortcut</i>. The shortcut "
 "is\n"
 "                    replaced directly in your message, so that you can still "
@@ -2583,6 +2756,9 @@ msgstr ""
 "Pikanäppäin voidaan\n"
 "                    korvataan suoraan viestissäsi, joten voit edelleen "
 "muokata vastausvaihtoehtoja\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    sitä ennen lähettämistä."
 
@@ -2592,8 +2768,12 @@ msgstr ""
 msgid "Cannot change initial message nor parent channel of: %(channels)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ei voi vaihtaa alkuperäistä viestiä eikä ylemmän tason kanavaa: "
 "%(channels)s."
+=======
+"Ei voi vaihtaa alkuperäistä viestiä eikä ylemmän tason kanavaa: %(channels)s."
+>>>>>>> upstream/18.0
 =======
 "Ei voi vaihtaa alkuperäistä viestiä eikä ylemmän tason kanavaa: %(channels)s."
 >>>>>>> upstream/18.0
@@ -2618,17 +2798,23 @@ msgstr ""
 #: code:addons/mail/models/discuss/discuss_channel.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cannot create %(channels)s: parent should not be a sub-channel and should be"
 " of type 'channel'."
 msgstr ""
 "Ei voida luoda %(channels)s: ylemmän tason kanavan ei pitäisi olla alakanava"
 " ja sen pitäisi olla tyyppiä 'channel'."
 =======
+=======
+>>>>>>> upstream/18.0
 "Cannot create %(channels)s: parent should not be a sub-channel and should be "
 "of type 'channel'."
 msgstr ""
 "Ei voida luoda %(channels)s: ylemmän tason kanavan ei pitäisi olla alakanava "
 "ja sen pitäisi olla tyyppiä 'channel'."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -2781,8 +2967,13 @@ msgstr "Yksityiskeskustelun asetukset"
 #: model:ir.model.fields,help:mail.field_discuss_channel__channel_type
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Chat is private and unique between 2 persons. Group is private among invited"
 " persons. Channel can be freely joined (depending on its configuration)."
+=======
+"Chat is private and unique between 2 persons. Group is private among invited "
+"persons. Channel can be freely joined (depending on its configuration)."
+>>>>>>> upstream/18.0
 =======
 "Chat is private and unique between 2 persons. Group is private among invited "
 "persons. Channel can be freely joined (depending on its configuration)."
@@ -2932,8 +3123,12 @@ msgstr "Kerää vastauksia tietyltä sähköpostiosoitteelta"
 msgid "Come here often? Install the app for quick and easy access!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tuletko tänne usein? Asenna sovellus, niin pääset tänne nopeasti ja "
 "helposti!"
+=======
+"Tuletko tänne usein? Asenna sovellus, niin pääset tänne nopeasti ja helposti!"
+>>>>>>> upstream/18.0
 =======
 "Tuletko tänne usein? Asenna sovellus, niin pääset tänne nopeasti ja helposti!"
 >>>>>>> upstream/18.0
@@ -2986,8 +3181,13 @@ msgstr "Yritykset"
 msgid "Companies using this domain as default for sending mails"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Yritykset, jotka käyttävät tätä verkkotunnusta oletusarvoisesti sähköpostien"
 " lähettämiseen"
+=======
+"Yritykset, jotka käyttävät tätä verkkotunnusta oletusarvoisesti sähköpostien "
+"lähettämiseen"
+>>>>>>> upstream/18.0
 =======
 "Yritykset, jotka käyttävät tätä verkkotunnusta oletusarvoisesti sähköpostien "
 "lähettämiseen"
@@ -3224,7 +3424,12 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "En saanut sähköpostejanne. Katso lisätietoja alla olevasta virheilmoituksesta:\n"
+=======
+"En saanut sähköpostejanne. Katso lisätietoja alla olevasta "
+"virheilmoituksesta:\n"
+>>>>>>> upstream/18.0
 =======
 "En saanut sähköpostejanne. Katso lisätietoja alla olevasta "
 "virheilmoituksesta:\n"
@@ -3622,8 +3827,13 @@ msgstr "Toiminnan oletusmääräaika..."
 #: model:ir.model.fields,help:mail.field_mail_alias_domain__default_from
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Default from when it does not match outgoing server filters. Can be either a"
 " local-part e.g. 'notifications' either a complete email address e.g. "
+=======
+"Default from when it does not match outgoing server filters. Can be either a "
+"local-part e.g. 'notifications' either a complete email address e.g. "
+>>>>>>> upstream/18.0
 =======
 "Default from when it does not match outgoing server filters. Can be either a "
 "local-part e.g. 'notifications' either a complete email address e.g. "
@@ -3717,13 +3927,19 @@ msgstr "Poista kaikki esikatselut"
 #. module: mail
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mail/static/src/core/common/message.xml:0
 msgid "Deleted document"
 msgstr "Poistettu asiakirja"
 
 #. module: mail
 #. odoo-javascript
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/mail/static/src/core/common/notification_model.js:0
 #: model:ir.model.fields.selection,name:mail.selection__mail_notification__notification_status__sent
@@ -3764,8 +3980,13 @@ msgid ""
 "void, the name will be added instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kuvaus, joka lisätään tähän alatyyppiin lähetettyihin viesteihin. Jos tyhjä,"
 "  viesteihin lisätään nimi."
+=======
+"Kuvaus, joka lisätään tähän alatyyppiin lähetettyihin viesteihin. Jos "
+"tyhjä,  viesteihin lisätään nimi."
+>>>>>>> upstream/18.0
 =======
 "Kuvaus, joka lisätään tähän alatyyppiin lähetettyihin viesteihin. Jos "
 "tyhjä,  viesteihin lisätään nimi."
@@ -3775,17 +3996,23 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_discuss_channel__default_display_mode
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Determines how the channel will be displayed by default when opening it from"
 " its invitation link. No value means display text (no voice/video)."
 msgstr ""
 "Määrittää, kuinka kanava näytetään oletuksena, kun se avataan kutsulinkistä."
 " Tyhjä kenttä tarkoittaa näyttötekstiä (ei ääntä/videota)."
 =======
+=======
+>>>>>>> upstream/18.0
 "Determines how the channel will be displayed by default when opening it from "
 "its invitation link. No value means display text (no voice/video)."
 msgstr ""
 "Määrittää, kuinka kanava näytetään oletuksena, kun se avataan kutsulinkistä. "
 "Tyhjä kenttä tarkoittaa näyttötekstiä (ei ääntä/videota)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -4304,8 +4531,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Email address to which replies will be redirected when sending emails in "
 "mass"
+=======
+"Email address to which replies will be redirected when sending emails in mass"
+>>>>>>> upstream/18.0
 =======
 "Email address to which replies will be redirected when sending emails in mass"
 >>>>>>> upstream/18.0
@@ -4522,8 +4753,13 @@ msgid ""
 "recipients."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Virhe poikkeuksetta. Todennäköisesti syynä on sähköpostin lähettäminen ilman"
 " laskettuja vastaanottajia."
+=======
+"Virhe poikkeuksetta. Todennäköisesti syynä on sähköpostin lähettäminen ilman "
+"laskettuja vastaanottajia."
+>>>>>>> upstream/18.0
 =======
 "Virhe poikkeuksetta. Todennäköisesti syynä on sähköpostin lähettäminen ilman "
 "laskettuja vastaanottajia."
@@ -4739,8 +4975,13 @@ msgid ""
 msgstr ""
 "Kenttä, jota käytetään linkittämään liittyvä malli alatyyppimalliin, kun "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "käytetään automaattista tilausta liittyvässä asiakirjassa. Kenttää käytetään"
 " getattr(related_document.relation_field) laskemiseen."
+=======
+"käytetään automaattista tilausta liittyvässä asiakirjassa. Kenttää käytetään "
+"getattr(related_document.relation_field) laskemiseen."
+>>>>>>> upstream/18.0
 =======
 "käytetään automaattista tilausta liittyvässä asiakirjassa. Kenttää käytetään "
 "getattr(related_document.relation_field) laskemiseen."
@@ -4765,11 +5006,17 @@ msgstr "Kentät"
 #: model:ir.model.fields,help:mail.field_mail_template__template_fs
 #: model:ir.model.fields,help:mail.field_template_reset_mixin__template_fs
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "File from where the template originates. Used to reset broken template."
 msgstr ""
 "Tiedosto, josta malli on peräisin. Käytetään rikkinäisen mallin "
 "nollaamiseen."
+=======
+msgid "File from where the template originates. Used to reset broken template."
+msgstr ""
+"Tiedosto, josta malli on peräisin. Käytetään rikkinäisen mallin nollaamiseen."
+>>>>>>> upstream/18.0
 =======
 msgid "File from where the template originates. Used to reset broken template."
 msgstr ""
@@ -5356,8 +5603,13 @@ msgstr "ID"
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_parent_thread_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+>>>>>>> upstream/18.0
 =======
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
@@ -5460,8 +5712,12 @@ msgid ""
 "If set, the member will not receive notifications from the channel until "
 "this date."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Jos asetettu, jäsen ei saa kanavan ilmoituksia ennen tätä päivämäärää."
+=======
+msgstr "Jos asetettu, jäsen ei saa kanavan ilmoituksia ennen tätä päivämäärää."
+>>>>>>> upstream/18.0
 =======
 msgstr "Jos asetettu, jäsen ei saa kanavan ilmoituksia ennen tätä päivämäärää."
 >>>>>>> upstream/18.0
@@ -5509,6 +5765,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, will restrict the template to this specific user."
 "                                                   If not set, shared with "
 "all users."
@@ -5517,6 +5774,8 @@ msgstr ""
 "                                                   Jos asetettu, jaetaan "
 "kaikille käyttäjille."
 =======
+=======
+>>>>>>> upstream/18.0
 "If set, will restrict the template to this specific "
 "user.                                                   If not set, shared "
 "with all users."
@@ -5524,6 +5783,9 @@ msgstr ""
 "Jos asetettu, malli rajoitetaan koskemaan vain tätä "
 "käyttäjää.                                                   Jos asetettu, "
 "jaetaan kaikille käyttäjille."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -5844,8 +6106,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/mail_thread.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Invalid template or view source record %(svalue)s, is %(model)s instead"
+=======
+msgid "Invalid template or view source record %(svalue)s, is %(model)s instead"
+>>>>>>> upstream/18.0
 =======
 msgid "Invalid template or view source record %(svalue)s, is %(model)s instead"
 >>>>>>> upstream/18.0
@@ -6046,6 +6312,7 @@ msgstr ""
 msgid ""
 "It's refer to browser keys used by the notification: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- p256dh: It's the subscription public key generated by the browser. The browser will \n"
 "          keep the private key secret and use it for decrypting the payload\n"
 "- auth: The auth value should be treated as a secret and not shared outside of Odoo"
@@ -6055,6 +6322,8 @@ msgstr ""
 "          pitää yksityisen avaimen salassa ja käyttää sitä hyötykuorman purkamiseen\n"
 "- auth: Auth-arvoa on käsiteltävä salaisuutena, eikä sitä saa jakaa Odoon ulkopuolelle"
 =======
+=======
+>>>>>>> upstream/18.0
 "- p256dh: It's the subscription public key generated by the browser. The "
 "browser will \n"
 "          keep the private key secret and use it for decrypting the payload\n"
@@ -6067,6 +6336,9 @@ msgstr ""
 "purkamiseen\n"
 "- auth: Auth-arvoa on käsiteltävä salaisuutena, eikä sitä saa jakaa Odoon "
 "ulkopuolelle"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -6404,8 +6676,13 @@ msgid ""
 "'catchall@example.com'"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sähköpostin paikallinen osa, jota käytetään Reply-To -osoitteessa vastausten"
 " saamiseksi, esim. \"catchall\" osoitteessa \"catchall@example.com\""
+=======
+"Sähköpostin paikallinen osa, jota käytetään Reply-To -osoitteessa vastausten "
+"saamiseksi, esim. \"catchall\" osoitteessa \"catchall@example.com\""
+>>>>>>> upstream/18.0
 =======
 "Sähköpostin paikallinen osa, jota käytetään Reply-To -osoitteessa vastausten "
 "saamiseksi, esim. \"catchall\" osoitteessa \"catchall@example.com\""
@@ -6418,8 +6695,13 @@ msgid ""
 "'bounce' in 'bounce@example.com'"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sähköpostin paikallinen osa, jota käytetään Return-Pathissa, jota käytetään,"
 " kun sähköpostit kimpoavat, esim. 'bounce' sanassa 'bounce@example.com'"
+=======
+"Sähköpostin paikallinen osa, jota käytetään Return-Pathissa, jota käytetään, "
+"kun sähköpostit kimpoavat, esim. 'bounce' sanassa 'bounce@example.com'"
+>>>>>>> upstream/18.0
 =======
 "Sähköpostin paikallinen osa, jota käytetään Return-Pathissa, jota käytetään, "
 "kun sähköpostit kimpoavat, esim. 'bounce' sanassa 'bounce@example.com'"
@@ -6683,17 +6965,23 @@ msgstr "Postilaatikot"
 #: code:addons/mail/models/mail_thread.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Mailing or posting with a source should not be called with an empty "
 "%(source_type)s"
 msgstr ""
 "Lähteen kanssa tapahtuvaa postitusta tai lähettämistä ei saa kutsua tyhjällä"
 " %(source_type)s -kentällä"
 =======
+=======
+>>>>>>> upstream/18.0
 "Mailing or posting with a source should not be called with an empty %"
 "(source_type)s"
 msgstr ""
 "Lähteen kanssa tapahtuvaa postitusta tai lähettämistä ei saa kutsua tyhjällä "
 "%(source_type)s -kentällä"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -6804,8 +7092,13 @@ msgid ""
 "they will be able to manage their subscription manually if necessary."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Näiden ryhmien jäsenet lisätään automaattisesti seuraajiksi. Huomaa, että he"
 " voivat hallita tilaustaan tarvittaessa manuaalisesti."
+=======
+"Näiden ryhmien jäsenet lisätään automaattisesti seuraajiksi. Huomaa, että he "
+"voivat hallita tilaustaan tarvittaessa manuaalisesti."
+>>>>>>> upstream/18.0
 =======
 "Näiden ryhmien jäsenet lisätään automaattisesti seuraajiksi. Huomaa, että he "
 "voivat hallita tilaustaan tarvittaessa manuaalisesti."
@@ -6974,8 +7267,13 @@ msgstr "Viestin tulee olla kelvollinen EmailMessage-esiintymä"
 msgid ""
 "Message subtype gives a more precise type on the message, especially for "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "system notifications. For example, it can be a notification related to a new"
 " record (New), or to a stage change in a process (Stage change). Message "
+=======
+"system notifications. For example, it can be a notification related to a new "
+"record (New), or to a stage change in a process (Stage change). Message "
+>>>>>>> upstream/18.0
 =======
 "system notifications. For example, it can be a notification related to a new "
 "record (New), or to a stage change in a process (Stage change). Message "
@@ -6987,8 +7285,13 @@ msgstr ""
 "järjestelmäilmoituksille. Se voi olla esimerkiksi ilmoitus, joka liittyy "
 "uuteen tietueeseen (Uusi) tai prosessin vaiheen muutokseen (Stage change). "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Viestien alatyypit antavat mahdollisuuden säätää tarkasti ilmoitukset, joita"
 " käyttäjä haluaa vastaanottaa seinälleen."
+=======
+"Viestien alatyypit antavat mahdollisuuden säätää tarkasti ilmoitukset, joita "
+"käyttäjä haluaa vastaanottaa seinälleen."
+>>>>>>> upstream/18.0
 =======
 "Viestien alatyypit antavat mahdollisuuden säätää tarkasti ilmoitukset, joita "
 "käyttäjä haluaa vastaanottaa seinälleen."
@@ -7108,8 +7411,13 @@ msgid ""
 "can take"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Mixin, joka laskee ajan, jonka tietue on viettänyt jokaisessa arvossa, jonka"
 " many2one-kenttä voi ottaa"
+=======
+"Mixin, joka laskee ajan, jonka tietue on viettänyt jokaisessa arvossa, jonka "
+"many2one-kenttä voi ottaa"
+>>>>>>> upstream/18.0
 =======
 "Mixin, joka laskee ajan, jonka tietue on viettänyt jokaisessa arvossa, jonka "
 "many2one-kenttä voi ottaa"
@@ -7469,8 +7777,13 @@ msgid ""
 "No responsible specified for %(activity_type_name)s: %(activity_summary)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(activity_type_name)s ei ole määritetty vastuulliseksi: "
 "%(activity_summary)s."
+=======
+"%(activity_type_name)s ei ole määritetty vastuulliseksi: %"
+"(activity_summary)s."
+>>>>>>> upstream/18.0
 =======
 "%(activity_type_name)s ei ole määritetty vastuulliseksi: %"
 "(activity_summary)s."
@@ -7644,17 +7957,23 @@ msgstr ""
 #: code:addons/mail/models/mail_thread.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Notification should receive attachments records as a list of IDs (received "
 "%(aids)s)"
 msgstr ""
 "Ilmoituksen tulisi vastaanottaa liitetietueet ID-luettelona (received "
 "%(aids)s)"
 =======
+=======
+>>>>>>> upstream/18.0
 "Notification should receive attachments records as a list of IDs (received %"
 "(aids)s)"
 msgstr ""
 "Ilmoituksen tulisi vastaanottaa liitetietueet ID-luettelona (received %"
 "(aids)s)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -7662,8 +7981,13 @@ msgstr ""
 #: code:addons/mail/models/mail_thread.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Notification should receive partners given as a list of IDs (received "
 "%(pids)s)"
+=======
+"Notification should receive partners given as a list of IDs (received %"
+"(pids)s)"
+>>>>>>> upstream/18.0
 =======
 "Notification should receive partners given as a list of IDs (received %"
 "(pids)s)"
@@ -7742,8 +8066,13 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_activity_type__delay_count
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Number of days/week/month before executing the action. It allows to plan the"
 " action deadline."
+=======
+"Number of days/week/month before executing the action. It allows to plan the "
+"action deadline."
+>>>>>>> upstream/18.0
 =======
 "Number of days/week/month before executing the action. It allows to plan the "
 "action deadline."
@@ -7860,8 +8189,13 @@ msgstr "Vanhat arvot"
 #: code:addons/mail/static/src/js/tours/discuss_channel_tour.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Once a message has been starred, you can come back and review it at any time"
 " here."
+=======
+"Once a message has been starred, you can come back and review it at any time "
+"here."
+>>>>>>> upstream/18.0
 =======
 "Once a message has been starred, you can come back and review it at any time "
 "here."
@@ -8050,8 +8384,13 @@ msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 =======
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
@@ -8072,6 +8411,7 @@ msgstr "Vaihtoehdot"
 #: model:ir.model.fields,help:mail.field_mail_compose_message__reply_to_mode
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Original Discussion: Answers go in the original document discussion thread. \n"
 " Another Email Address: Answers go to the email address mentioned in the tracking message-id instead of original document discussion thread. \n"
 " This has an impact on the generated message-id."
@@ -8079,6 +8419,8 @@ msgstr ""
 "Alkuperäinen keskustelu: Vastaukset tulevat alkuperäisen asiakirjan keskusteluketjuun.\n"
 " Toinen sähköpostiosoite: Vastaukset lähetetään seurantaviestin tunnisteessa mainittuun sähköpostiosoitteeseen alkuperäisen asiakirjan keskusteluketjun sijasta.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Original Discussion: Answers go in the original document discussion "
 "thread. \n"
 " Another Email Address: Answers go to the email address mentioned in the "
@@ -8090,6 +8432,9 @@ msgstr ""
 " Toinen sähköpostiosoite: Vastaukset lähetetään seurantaviestin tunnisteessa "
 "mainittuun sähköpostiosoitteeseen alkuperäisen asiakirjan keskusteluketjun "
 "sijasta.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 " Tämä vaikuttaa luotuun viestin tunnisteeseen."
 
@@ -8279,8 +8624,13 @@ msgstr "Ylemmän tason kanava"
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_parent_model_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 =======
 "Parent model holding the alias. The model holding the alias reference is not "
 "necessarily the model given by alias_model_id (example: project "
@@ -8295,9 +8645,15 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_message_subtype__parent_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Parent subtype, used for automatic subscription. This field is not correctly"
 " named. For example on a project, the parent_id of project subtypes refers "
 "to task-related subtypes."
+=======
+"Parent subtype, used for automatic subscription. This field is not correctly "
+"named. For example on a project, the parent_id of project subtypes refers to "
+"task-related subtypes."
+>>>>>>> upstream/18.0
 =======
 "Parent subtype, used for automatic subscription. This field is not correctly "
 "named. For example on a project, the parent_id of project subtypes refers to "
@@ -8577,7 +8933,12 @@ msgid ""
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 =======
 "- followers: only followers of the related document or members of following "
 "channels\n"
@@ -8587,7 +8948,12 @@ msgstr ""
 "- everyone: kaikki voivat lähettää viestin\n"
 "- partners: vain todennetut kumppanit\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- seuraajat: vain asiaan liittyvän asiakirjan seuraajat tai seuraavien kanavien jäsenet\n"
+=======
+"- seuraajat: vain asiaan liittyvän asiakirjan seuraajat tai seuraavien "
+"kanavien jäsenet\n"
+>>>>>>> upstream/18.0
 =======
 "- seuraajat: vain asiaan liittyvän asiakirjan seuraajat tai seuraavien "
 "kanavien jäsenet\n"
@@ -8684,7 +9050,10 @@ msgstr "Portaalin käyttöoikeus peruutettu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8890,6 +9259,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9041,8 +9413,13 @@ msgid ""
 "to send a notification to an user."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Viestin lähettäminen on tehtävä työasiakirjalla. Lähetä ilmoitus käyttäjälle"
 " message_notify-ohjelmalla."
+=======
+"Viestin lähettäminen on tehtävä työasiakirjalla. Lähetä ilmoitus käyttäjälle "
+"message_notify-ohjelmalla."
+>>>>>>> upstream/18.0
 =======
 "Viestin lähettäminen on tehtävä työasiakirjalla. Lähetä ilmoitus käyttäjälle "
 "message_notify-ohjelmalla."
@@ -9073,17 +9450,23 @@ msgstr ""
 #: code:addons/mail/models/mail_thread.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Posting a message should receive partners as a list of IDs (received "
 "%(pids)s)"
 msgstr ""
 "Viestin lähettämisen pitäisi vastaanottaa kumppanit ID-luettelona (received "
 "%(pids)s)"
 =======
+=======
+>>>>>>> upstream/18.0
 "Posting a message should receive partners as a list of IDs (received %"
 "(pids)s)"
 msgstr ""
 "Viestin lähettämisen pitäisi vastaanottaa kumppanit ID-luettelona (received %"
 "(pids)s)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -9154,8 +9537,13 @@ msgid ""
 msgstr ""
 "Käsittele jokainen saapuva sähköposti osana tämän dokumenttityypin "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "keskustelua. Tämä luo uuden dokumentin jokaiselle uudelle keskustelulle, tai"
 " liittää vastausviestit olemassaoleville keskusteluille (dokumenteille)."
+=======
+"keskustelua. Tämä luo uuden dokumentin jokaiselle uudelle keskustelulle, tai "
+"liittää vastausviestit olemassaoleville keskusteluille (dokumenteille)."
+>>>>>>> upstream/18.0
 =======
 "keskustelua. Tämä luo uuden dokumentin jokaiselle uudelle keskustelulle, tai "
 "liittää vastausviestit olemassaoleville keskusteluille (dokumenteille)."
@@ -9274,8 +9662,12 @@ msgstr "Nosta käsi ylös"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_users_settings_volumes__volume
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Ranges between 0.0 and 1.0, scale depends on the browser implementation"
+=======
+msgid "Ranges between 0.0 and 1.0, scale depends on the browser implementation"
+>>>>>>> upstream/18.0
 =======
 msgid "Ranges between 0.0 and 1.0, scale depends on the browser implementation"
 >>>>>>> upstream/18.0
@@ -9534,8 +9926,13 @@ msgstr "Poista sähköposti markkinointiestolistalta, ohjattu toiminto"
 msgid "Remove the contextual action to use this template on related documents"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Poista kontekstuaalinen toiminto käyttääksesi tätä mallia asiaan liittyvissä"
 " dokumenteissa"
+=======
+"Poista kontekstuaalinen toiminto käyttääksesi tätä mallia asiaan liittyvissä "
+"dokumenteissa"
+>>>>>>> upstream/18.0
 =======
 "Poista kontekstuaalinen toiminto käyttääksesi tätä mallia asiaan liittyvissä "
 "dokumenteissa"
@@ -9580,8 +9977,12 @@ msgstr ""
 #: code:addons/mail/models/mail_composer_mixin.py:0
 #: code:addons/mail/models/mail_render_mixin.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Rendering of %(field_name)s is not possible as not defined on template."
+=======
+msgid "Rendering of %(field_name)s is not possible as not defined on template."
+>>>>>>> upstream/18.0
 =======
 msgid "Rendering of %(field_name)s is not possible as not defined on template."
 >>>>>>> upstream/18.0
@@ -9712,8 +10113,12 @@ msgstr "Rajoita mallin renderöintiä"
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Restrict mail templates edition and QWEB placeholders usage."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Rajoita sähköpostimallien muokkauksen ja QWEB-paikanvaraajien käyttöä."
+=======
+msgstr "Rajoita sähköpostimallien muokkauksen ja QWEB-paikanvaraajien käyttöä."
+>>>>>>> upstream/18.0
 =======
 msgstr "Rajoita sähköpostimallien muokkauksen ja QWEB-paikanvaraajien käyttöä."
 >>>>>>> upstream/18.0
@@ -10224,9 +10629,14 @@ msgid ""
 "value will be the author's email alias if configured, or email address."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Lähettäjän osoite (tässä voi käyttää varauksia). Jos ei asetettu, oletusarvo"
 " on kirjoittajan sähköpostialias, jos se on määritetty, tai "
 "sähköpostiosoite."
+=======
+"Lähettäjän osoite (tässä voi käyttää varauksia). Jos ei asetettu, oletusarvo "
+"on kirjoittajan sähköpostialias, jos se on määritetty, tai sähköpostiosoite."
+>>>>>>> upstream/18.0
 =======
 "Lähettäjän osoite (tässä voi käyttää varauksia). Jos ei asetettu, oletusarvo "
 "on kirjoittajan sähköpostialias, jos se on määritetty, tai sähköpostiosoite."
@@ -10321,8 +10731,13 @@ msgstr "Palvelimen tyyppi POP."
 msgid "Set active to false to hide the channel without removing it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aseta aktiivisuus arvoon \"False\", jotta kanava voidaan piilottaa ilman sen"
 " poistamista."
+=======
+"Aseta aktiivisuus arvoon \"False\", jotta kanava voidaan piilottaa ilman sen "
+"poistamista."
+>>>>>>> upstream/18.0
 =======
 "Aseta aktiivisuus arvoon \"False\", jotta kanava voidaan piilottaa ilman sen "
 "poistamista."
@@ -10368,8 +10783,12 @@ msgstr "Oikotie"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_translation__target_lang
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Shortened language code used as the target for the translation request."
+=======
+msgid "Shortened language code used as the target for the translation request."
+>>>>>>> upstream/18.0
 =======
 msgid "Shortened language code used as the target for the translation request."
 >>>>>>> upstream/18.0
@@ -10833,8 +11252,13 @@ msgstr "Mallien luominen editoijalta edellyttää kelvollista mallia."
 #: code:addons/mail/models/mail_render_mixin.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Template rendering should only be called with a list of IDs. Received "
 "“%(res_ids)s” instead."
+=======
+"Template rendering should only be called with a list of IDs. Received “%"
+"(res_ids)s” instead."
+>>>>>>> upstream/18.0
 =======
 "Template rendering should only be called with a list of IDs. Received “%"
 "(res_ids)s” instead."
@@ -10925,8 +11349,13 @@ msgid ""
 "and the command palette. Consequently, it cannot be archived or deleted."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tehtävä-toimintotyyppiä käytetään muistutusten luomiseen yläpalkin valikosta"
 " ja komentopaletista. Näin ollen sitä ei voi arkistoida tai poistaa."
+=======
+"Tehtävä-toimintotyyppiä käytetään muistutusten luomiseen yläpalkin valikosta "
+"ja komentopaletista. Näin ollen sitä ei voi arkistoida tai poistaa."
+>>>>>>> upstream/18.0
 =======
 "Tehtävä-toimintotyyppiä käytetään muistutusten luomiseen yläpalkin valikosta "
 "ja komentopaletista. Näin ollen sitä ei voi arkistoida tai poistaa."
@@ -10944,8 +11373,13 @@ msgstr "Selain ei sallinut koko ruudun näyttötilan käyttöä"
 msgid ""
 "The Push-to-Talk feature is only accessible within tab focus. To enable the "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Push-to-Talk functionality outside of this tab, we recommend downloading our"
 " %(anchor_start)sextension%(anchor_end)s."
+=======
+"Push-to-Talk functionality outside of this tab, we recommend downloading our "
+"%(anchor_start)sextension%(anchor_end)s."
+>>>>>>> upstream/18.0
 =======
 "Push-to-Talk functionality outside of this tab, we recommend downloading our "
 "%(anchor_start)sextension%(anchor_end)s."
@@ -10978,6 +11412,7 @@ msgstr "Toimintaa ei voida käynnistää:"
 #: code:addons/mail/models/mail_activity_plan_template.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The activity type \"%(activity_type_name)s\" is not compatible with the plan"
 " \"%(plan_name)s\" because it is limited to the model "
 "\"%(activity_type_model)s\"."
@@ -10986,6 +11421,8 @@ msgstr ""
 "\"%(plan_name)s\" kanssa, koska se rajoittuu malliin "
 "\"%(activity_type_model)s\"."
 =======
+=======
+>>>>>>> upstream/18.0
 "The activity type \"%(activity_type_name)s\" is not compatible with the plan "
 "\"%(plan_name)s\" because it is limited to the model \"%"
 "(activity_type_model)s\"."
@@ -10993,6 +11430,9 @@ msgstr ""
 "Toimintatyyppi \"%(activity_type_name)s\" ei ole yhteensopiva suunnitelman "
 "\"%(plan_name)s\" kanssa, koska se rajoittuu malliin \"%"
 "(activity_type_model)s\"."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -11062,17 +11502,23 @@ msgstr "Päätepisteen on oltava yksilöllinen !"
 #: code:addons/mail/models/template_reset_mixin.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following email templates could not be reset because their related source files could not be found:\n"
 "- %s"
 msgstr ""
 "Seuraavia sähköpostimalleja ei voitu nollata, koska niihin liittyviä lähdetiedostoja ei löytynyt:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "The following email templates could not be reset because their related "
 "source files could not be found:\n"
 "- %s"
 msgstr ""
 "Seuraavia sähköpostimalleja ei voitu nollata, koska niihin liittyviä "
 "lähdetiedostoja ei löytynyt:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "- %s"
 
@@ -11098,6 +11544,7 @@ msgstr "Osoite ei voinut hyväksyä alla olevaa viestiä"
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The message below could not be accepted by the address %(alias_display_name)s.\n"
 "                 Only %(contact_description)s are allowed to contact it.<br /><br />\n"
 "                 Please make sure you are using the correct address or contact us at %(default_email)s instead."
@@ -11106,6 +11553,8 @@ msgstr ""
 "                 Vain %(contact_description)s saa ottaa yhteyttä.<br /><br />\n"
 "                 Varmista, että käytät oikeaa osoitetta, tai ota sen sijaan yhteyttä osoitteeseen %(default_email)s."
 =======
+=======
+>>>>>>> upstream/18.0
 "The message below could not be accepted by the address %"
 "(alias_display_name)s.\n"
 "                 Only %(contact_description)s are allowed to contact it.<br /"
@@ -11118,6 +11567,9 @@ msgstr ""
 ">\n"
 "                 Varmista, että käytät oikeaa osoitetta, tai ota sen sijaan "
 "yhteyttä osoitteeseen %(default_email)s."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -11125,7 +11577,12 @@ msgstr ""
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The message below could not be accepted by the address %(alias_display_name)s.\n"
+=======
+"The message below could not be accepted by the address %"
+"(alias_display_name)s.\n"
+>>>>>>> upstream/18.0
 =======
 "The message below could not be accepted by the address %"
 "(alias_display_name)s.\n"
@@ -11137,13 +11594,19 @@ msgstr ""
 
 #. module: mail
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/mail/static/src/utils/common/hooks.js:0
 msgid "The message has been deleted."
 msgstr ""
 
 #. module: mail
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mail/models/mail_scheduled_message.py:0
@@ -11163,9 +11626,15 @@ msgstr "Viesti, josta kanava luotiin."
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_model_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+>>>>>>> upstream/18.0
 =======
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
@@ -11216,7 +11685,12 @@ msgstr "Tietueiden on kuuluttava samaan yritykseen."
 #: code:addons/mail/models/mail_message.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The requested operation cannot be completed due to security restrictions. Please contact your system administrator.\n"
+=======
+"The requested operation cannot be completed due to security restrictions. "
+"Please contact your system administrator.\n"
+>>>>>>> upstream/18.0
 =======
 "The requested operation cannot be completed due to security restrictions. "
 "Please contact your system administrator.\n"
@@ -11227,7 +11701,12 @@ msgid ""
 "Records: %(records)s, User: %(user)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pyydettyä toimintoa ei voida suorittaa turvallisuusrajoitusten vuoksi. Ota yhteyttä järjestelmänvalvojaan.\n"
+=======
+"Pyydettyä toimintoa ei voida suorittaa turvallisuusrajoitusten vuoksi. Ota "
+"yhteyttä järjestelmänvalvojaan.\n"
+>>>>>>> upstream/18.0
 =======
 "Pyydettyä toimintoa ei voida suorittaa turvallisuusrajoitusten vuoksi. Ota "
 "yhteyttä järjestelmänvalvojaan.\n"
@@ -11341,8 +11820,13 @@ msgstr "Tätä kenttää käytetään mallin käytön sisäiseen kuvaukseen."
 #: model:ir.model.fields,help:mail.field_res_users__email_normalized
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This field is used to search on email address as the primary email field can"
 " contain more than strictly an email address."
+=======
+"This field is used to search on email address as the primary email field can "
+"contain more than strictly an email address."
+>>>>>>> upstream/18.0
 =======
 "This field is used to search on email address as the primary email field can "
 "contain more than strictly an email address."
@@ -11373,8 +11857,13 @@ msgid ""
 "storage space of your Odoo database."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tämä vaihtoehto poistaa pysyvästi kaikki sähköpostiviestijäljet lähettämisen"
 " jälkeen, mukaan lukien Asetutusten Tekniset-valikosta Odoo-tietokannan "
+=======
+"Tämä vaihtoehto poistaa pysyvästi kaikki sähköpostiviestijäljet lähettämisen "
+"jälkeen, mukaan lukien Asetutusten Tekniset-valikosta Odoo-tietokannan "
+>>>>>>> upstream/18.0
 =======
 "Tämä vaihtoehto poistaa pysyvästi kaikki sähköpostiviestijäljet lähettämisen "
 "jälkeen, mukaan lukien Asetutusten Tekniset-valikosta Odoo-tietokannan "
@@ -11741,12 +12230,15 @@ msgid ""
 "- 'Create Activity': create an activity (Discuss)\n"
 "- 'Send Email': post a message, a note or send an email (Discuss)\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': add or remove followers to a record (Discuss)\n"
 "- 'Create Record': create a new record with new values\n"
 "- 'Execute Code': a block of Python code that will be executed\n"
 "- 'Send Webhook Notification': send a POST request to an external system, also known as a Webhook\n"
 "- 'Execute Existing Actions': define an action that triggers several other server actions\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': "
 "add or remove followers to a record (Discuss)\n"
 "- 'Create Record': create a new record with new values\n"
@@ -11755,11 +12247,15 @@ msgid ""
 "also known as a Webhook\n"
 "- 'Execute Existing Actions': define an action that triggers several other "
 "server actions\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "Palvelimen toimintatyyppi. Käytettävissä ovat seuraavat arvot:\n"
 "- päivitä tietue: päivitä tietueen arvot\n"
 "- 'Create Activity': luo toiminnon (Keskustele)\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "- 'Lähetä sähköposti': lähettää viestin, huomautuksen tai sähköpostin (Keskustele)\n"
 "- 'Lähetä tekstiviesti': lähetä tekstiviestejä, kirjaa ne asiakirjoihin (tekstiviesti)- 'Lisää/poista seuraajia': lisää tai poista seuraajia tietueeseen (Keskustele)\n"
@@ -11768,6 +12264,8 @@ msgstr ""
 "- 'Send Webhook Notification': lähetä POST-pyyntö ulkoiseen järjestelmään, joka tunnetaan myös nimellä Webhook\n"
 "- 'Execute Existing Actions': Määritä toiminto, joka käynnistää useita muita palvelintoimintoja\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "- 'Lähetä sähköposti': lähettää viestin, huomautuksen tai sähköpostin "
 "(Keskustele)\n"
 "- 'Lähetä tekstiviesti': lähetä tekstiviestejä, kirjaa ne asiakirjoihin "
@@ -11779,6 +12277,9 @@ msgstr ""
 "joka tunnetaan myös nimellä Webhook\n"
 "- 'Execute Existing Actions': Määritä toiminto, joka käynnistää useita muita "
 "palvelintoimintoja\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -12049,6 +12550,7 @@ msgstr "Tiedosto latautuu"
 #: model:ir.model.fields,help:mail.field_ir_cron__activity_user_type
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Use 'Specific User' to always assign the same user on the next activity. Use"
 " 'Dynamic User' to specify the field name of the user to choose on the "
 "record."
@@ -12056,11 +12558,16 @@ msgstr ""
 "Käyttämällä 'Tietty käyttäjä' voit määrittää aina saman käyttäjän seuraavaan"
 " toimintoon. Käytä 'Dynaaminen käyttäjä' -vaihtoehtoa määrittääksesi "
 =======
+=======
+>>>>>>> upstream/18.0
 "Use 'Specific User' to always assign the same user on the next activity. Use "
 "'Dynamic User' to specify the field name of the user to choose on the record."
 msgstr ""
 "Käyttämällä 'Tietty käyttäjä' voit määrittää aina saman käyttäjän seuraavaan "
 "toimintoon. Käytä 'Dynaaminen käyttäjä' -vaihtoehtoa määrittääksesi "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "käyttäjän kentän nimen, joka valitaan tietueeseen."
 
@@ -12154,7 +12661,12 @@ msgid ""
 "'email_outgoing': generated by a mailing\n"
 "'notification': generated by system e.g. tracking messages\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'auto_comment': generated by automated notification mechanism e.g. acknowledgment\n"
+=======
+"'auto_comment': generated by automated notification mechanism e.g. "
+"acknowledgment\n"
+>>>>>>> upstream/18.0
 =======
 "'auto_comment': generated by automated notification mechanism e.g. "
 "acknowledgment\n"
@@ -12164,7 +12676,12 @@ msgstr ""
 "Käytetään viestigeneraattorin luokitteluun\n"
 "'email': syntyy saapuvan sähköpostin, esim. mailgatewayn, tuloksena\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'kommentti': syntyy käyttäjän syötteestä esim. discuss- tai composer-ohjelmassa\n"
+=======
+"'kommentti': syntyy käyttäjän syötteestä esim. discuss- tai composer-"
+"ohjelmassa\n"
+>>>>>>> upstream/18.0
 =======
 "'kommentti': syntyy käyttäjän syötteestä esim. discuss- tai composer-"
 "ohjelmassa\n"
@@ -12283,17 +12800,23 @@ msgstr "Tämän kanavan käyttäjät: %(members)s."
 msgid ""
 "Users will still be able to render templates.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "However only Mail Template Editors will be able to create new dynamic templates or modify existing ones."
 msgstr ""
 "Käyttäjät voivat edelleen renderöidä malleja.\n"
 "Kuitenkin vain sähköpostimallien muokkaajat voivat luoda uusia dynaamisia malleja tai muokata olemassa olevia malleja."
 =======
+=======
+>>>>>>> upstream/18.0
 "However only Mail Template Editors will be able to create new dynamic "
 "templates or modify existing ones."
 msgstr ""
 "Käyttäjät voivat edelleen renderöidä malleja.\n"
 "Kuitenkin vain sähköpostimallien muokkaajat voivat luoda uusia dynaamisia "
 "malleja tai muokata olemassa olevia malleja."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -12317,12 +12840,15 @@ msgstr "Vahvistettu"
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Value %(allowed_domains)s for `mail.catchall.domain.allowed` cannot be validated.\n"
 "It should be a comma separated list of domains e.g. example.com,example.org."
 msgstr ""
 "Arvoa %(allowed_domains)s arvolle `mail.catchall.domain.allowed` ei voida vahvistaa.\n"
 "Sen tulisi olla pilkulla erotettu luettelo verkkotunnuksista, esim. example.com,example.org."
 =======
+=======
+>>>>>>> upstream/18.0
 "Value %(allowed_domains)s for `mail.catchall.domain.allowed` cannot be "
 "validated.\n"
 "It should be a comma separated list of domains e.g. example.com,example.org."
@@ -12331,6 +12857,9 @@ msgstr ""
 "vahvistaa.\n"
 "Sen tulisi olla pilkulla erotettu luettelo verkkotunnuksista, esim. "
 "example.com,example.org."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -12463,8 +12992,12 @@ msgid ""
 "settings!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Haluatko piristää keskustelujasi GIF-kuvilla? Aktivoi ominaisuus "
 "asetuksista!"
+=======
+"Haluatko piristää keskustelujasi GIF-kuvilla? Aktivoi ominaisuus asetuksista!"
+>>>>>>> upstream/18.0
 =======
 "Haluatko piristää keskustelujasi GIF-kuvilla? Aktivoi ominaisuus asetuksista!"
 >>>>>>> upstream/18.0
@@ -12481,6 +13014,7 @@ msgstr "Varoitus"
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We could not create alias %(alias_name)s because domain "
 "%(alias_domain_name)s belongs to company %(alias_company_names)s while the "
 "owner document belongs to company %(company_name)s."
@@ -12488,12 +13022,17 @@ msgstr ""
 "Emme voineet luoda aliasta %(alias_name)s, koska verkkotunnus "
 "%(alias_domain_name)s kuuluu yritykselle %(alias_company_names)s, kun taas "
 =======
+=======
+>>>>>>> upstream/18.0
 "We could not create alias %(alias_name)s because domain %"
 "(alias_domain_name)s belongs to company %(alias_company_names)s while the "
 "owner document belongs to company %(company_name)s."
 msgstr ""
 "Emme voineet luoda aliasta %(alias_name)s, koska verkkotunnus %"
 "(alias_domain_name)s kuuluu yritykselle %(alias_company_names)s, kun taas "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "omistaja-asiakirja kuuluu yritykselle %(company_name)s."
 
@@ -12502,6 +13041,7 @@ msgstr ""
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We could not create alias %(alias_name)s because domain "
 "%(alias_domain_name)s belongs to company %(alias_company_names)s while the "
 "target document belongs to company %(company_name)s."
@@ -12509,12 +13049,17 @@ msgstr ""
 "Emme voineet luoda aliasta %(alias_name)s, koska verkkotunnus "
 "%(alias_domain_name)s kuuluu yritykselle %(alias_company_names)s, kun taas "
 =======
+=======
+>>>>>>> upstream/18.0
 "We could not create alias %(alias_name)s because domain %"
 "(alias_domain_name)s belongs to company %(alias_company_names)s while the "
 "target document belongs to company %(company_name)s."
 msgstr ""
 "Emme voineet luoda aliasta %(alias_name)s, koska verkkotunnus %"
 "(alias_domain_name)s kuuluu yritykselle %(alias_company_names)s, kun taas "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "kohdeasiakirja kuuluu yritykselle %(company_name)s."
 
@@ -12539,8 +13084,12 @@ msgstr "Tervetuloa MyCompanyyn!"
 #: code:addons/mail/static/src/discuss/message_pin/common/message_model_patch.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Well, nothing lasts forever, but are you sure you want to unpin this "
 "message?"
+=======
+"Well, nothing lasts forever, but are you sure you want to unpin this message?"
+>>>>>>> upstream/18.0
 =======
 "Well, nothing lasts forever, but are you sure you want to unpin this message?"
 >>>>>>> upstream/18.0
@@ -12556,6 +13105,7 @@ msgstr "Mikä sinun nimesi on?"
 #: model:ir.model.fields,help:mail.field_mail_activity__user_tz
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
 "If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
 "Anywhere else, time values are computed according to the time offset of your web client."
@@ -12563,6 +13113,8 @@ msgstr ""
 "Kun tulostetaan asiakirjoja ja viedään tai tuodaan tietoja, aika-arvot lasketaan tämän aikavyöhykkeen mukaan.\n"
 "Jos aikavyöhykettä ei ole asetettu, käytetään UTC (Coordinated Universal Time) -aikavyöhykettä.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "When printing documents and exporting/importing data, time values are "
 "computed according to this timezone.\n"
 "If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
@@ -12573,6 +13125,9 @@ msgstr ""
 "lasketaan tämän aikavyöhykkeen mukaan.\n"
 "Jos aikavyöhykettä ei ole asetettu, käytetään UTC (Coordinated Universal "
 "Time) -aikavyöhykettä.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Muuten arvot lasketaan verkkoselaimen aika-asetusten mukaan."
 
@@ -12680,8 +13235,12 @@ msgstr "Eilen:"
 msgid ""
 "You are about to leave this group conversation and will no longer have "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "access to it unless you are invited again. Are you sure you want to "
 "continue?"
+=======
+"access to it unless you are invited again. Are you sure you want to continue?"
+>>>>>>> upstream/18.0
 =======
 "access to it unless you are invited again. Are you sure you want to continue?"
 >>>>>>> upstream/18.0
@@ -12723,8 +13282,12 @@ msgstr "Et enää seuraa \"%(thread_name)s\"."
 #. odoo-python
 #: code:addons/mail/models/mail_scheduled_message.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You are not allowed to change the target record of a scheduled message."
+=======
+msgid "You are not allowed to change the target record of a scheduled message."
+>>>>>>> upstream/18.0
 =======
 msgid "You are not allowed to change the target record of a scheduled message."
 >>>>>>> upstream/18.0
@@ -12759,8 +13322,12 @@ msgstr "Olet tämän kanavan ylläpitäjä. Oletko varma, että haluat poistua?"
 #. odoo-javascript
 #: code:addons/mail/static/src/core/web/thread_patch.xml:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You can mark any message as 'starred', and it shows up in this mailbox."
+=======
+msgid "You can mark any message as 'starred', and it shows up in this mailbox."
+>>>>>>> upstream/18.0
 =======
 msgid "You can mark any message as 'starred', and it shows up in this mailbox."
 >>>>>>> upstream/18.0
@@ -12796,6 +13363,7 @@ msgstr "Voit huoletta jättää tämän viestin huomiotta"
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: code:addons/mail/models/mail_activity_type.py:0
 msgid ""
@@ -12806,12 +13374,17 @@ msgstr ""
 #. odoo-python
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mail/models/mail_activity_type.py:0
 msgid "You cannot delete %(activity_names)s as it is required in various apps."
 msgstr "Et voi poistaa %(activity_names)s koska sitä käytetään sovelluksissa."
 
 #. module: mail
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/mail/models/discuss/discuss_channel.py:0
 msgid ""
@@ -12825,6 +13398,7 @@ msgstr ""
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: code:addons/mail/models/mail_activity_type.py:0
 msgid ""
@@ -12836,6 +13410,8 @@ msgstr ""
 #. odoo-python
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mail/models/mail_activity_type.py:0
 msgid ""
 "You cannot modify %(activities_names)s target model as they are are required "
@@ -12846,6 +13422,9 @@ msgstr ""
 
 #. module: mail
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
@@ -12916,8 +13495,12 @@ msgstr "Et voi määritellä mallia abstraktille mallille: %s"
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/message_pin/common/message_model_patch.js:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You sure want this message pinned to %(conversation)s forever and ever?"
+=======
+msgid "You sure want this message pinned to %(conversation)s forever and ever?"
+>>>>>>> upstream/18.0
 =======
 msgid "You sure want this message pinned to %(conversation)s forever and ever?"
 >>>>>>> upstream/18.0
@@ -13037,6 +13620,7 @@ msgid "after previous activity deadline"
 msgstr "edellisen toimenpiteen määräajan jälkeen"
 
 #. module: mail
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13220,6 +13804,8 @@ msgstr "iltapäivä"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mail.mail_alias_view_form
 msgid "alias"
 msgstr "alias"
@@ -13257,7 +13843,12 @@ msgid ""
 msgstr ""
 "koska olette\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                ottanut siihen yhteyttä liian monta kertaa viime minuuttien aikana.\n"
+=======
+"                ottanut siihen yhteyttä liian monta kertaa viime minuuttien "
+"aikana.\n"
+>>>>>>> upstream/18.0
 =======
 "                ottanut siihen yhteyttä liian monta kertaa viime minuuttien "
 "aikana.\n"
@@ -13286,7 +13877,12 @@ msgid ""
 msgstr ""
 "ei voida käsitellä. Tätä osoitetta\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    käytetään vastausten keräämiseen, eikä sitä voi käyttää suoraan yhteydenottoihin"
+=======
+"    käytetään vastausten keräämiseen, eikä sitä voi käyttää suoraan "
+"yhteydenottoihin"
+>>>>>>> upstream/18.0
 =======
 "    käytetään vastausten keräämiseen, eikä sitä voi käyttää suoraan "
 "yhteydenottoihin"
@@ -13376,12 +13972,15 @@ msgstr "loi tämän kanavan."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mail/static/src/chatter/web/mail_composer_schedule_dialog.xml:0
 msgid "custom"
 msgstr "mukautettu"
 
 #. module: mail
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13576,13 +14175,19 @@ msgstr "esim. \"Tervetulosähköposti\""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "e.g. \"Welcome to MyCompany\" or \"Nice to meet you, {{ object.name }}\""
 msgstr "esim. \"Tervetuloa MyCompanyyn\" tai \"Hauska tavata, {{ object.name }}\".\""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "e.g. \"Welcome to MyCompany\" or \"Nice to meet you, {{ object.name }}\""
 msgstr ""
 "esim. \"Tervetuloa MyCompanyyn\" tai \"Hauska tavata, {{ object.name }}\".\""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -13844,12 +14449,15 @@ msgstr "malli %s ei salli dokumentin luontia"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mail/static/src/chatter/web/mail_composer_schedule_dialog.xml:0
 msgid "monday"
 msgstr "maanantai"
 
 #. module: mail
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14040,12 +14648,15 @@ msgstr "lisää"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/mail/static/src/chatter/web/mail_composer_schedule_dialog.xml:0
 msgid "morning"
 msgstr "aamu"
 
 #. module: mail
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase_stock
 # 
+=======
+# * purchase_stock
+#
+>>>>>>> upstream/18.0
 =======
 # * purchase_stock
 #
@@ -12,7 +17,13 @@
 # Ilya Rozhkov, 2024
 # Wil Odoo, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Anastasiia Koroleva, 2025
+#
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 #
@@ -22,6 +33,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,6 +241,8 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
 "PO-Revision-Date: 2025-09-11 17:20+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
@@ -242,6 +256,9 @@ msgstr ""
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_stock
@@ -289,6 +306,7 @@ msgstr "<span>Прогноз: </span>"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,10 +463,15 @@ msgstr ""
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr "<strong class=\"d-block mt-3\">Адрес доставки:</strong>"
 >>>>>>> upstream/18.0
+=======
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr "<strong class=\"d-block mt-3\">Адрес доставки:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
@@ -599,6 +622,9 @@ msgstr ""
 =======
 msgstr "<strong class=\"d-block mt-3\">Адрес доставки</strong>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">Адрес доставки</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
@@ -653,8 +679,13 @@ msgstr "<strong class=\"d-block mt-3\">Адрес доставки</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping address:</strong>"
 msgstr "<strong>Адрес поставки:</strong>"
+=======
+msgid "<strong>Incoterm:</strong>"
+msgstr "<strong>Инкотерм:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Incoterm:</strong>"
 msgstr "<strong>Инкотерм:</strong>"
@@ -947,7 +978,11 @@ msgstr "Пользовательское описание"
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_picking__days_to_arrive
 msgid "Days To Arrive"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дней до прибытия"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дней до прибытия"
 >>>>>>> upstream/18.0
@@ -977,7 +1012,11 @@ msgstr "Дней на покупку"
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_picking__delay_pass
 msgid "Delay Pass"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Просрочено"
+>>>>>>> upstream/18.0
 =======
 msgstr "Просрочено"
 >>>>>>> upstream/18.0
@@ -1038,7 +1077,11 @@ msgstr "Фактическая дата в прошлом году"
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_report__days_to_arrival
 msgid "Effective Days To Arrival"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Фактические дни до прибытия"
+>>>>>>> upstream/18.0
 =======
 msgstr "Фактические дни до прибытия"
 >>>>>>> upstream/18.0
@@ -1129,7 +1172,11 @@ msgstr "Последняя покупка"
 #: model:ir.model.fields,field_description:purchase_stock.field_procurement_group__purchase_line_ids
 msgid "Linked Purchase Order Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Связанные строки заказа на закупку"
+>>>>>>> upstream/18.0
 =======
 msgstr "Связанные строки заказа на закупку"
 >>>>>>> upstream/18.0
@@ -1138,7 +1185,11 @@ msgstr "Связанные строки заказа на закупку"
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__location_final_id
 msgid "Location from procurement"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Местоположение из закупки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Местоположение из закупки"
 >>>>>>> upstream/18.0
@@ -1194,7 +1245,11 @@ msgstr "Нет данных"
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_help_message_template
 msgid "No receipt yet! Automate them with purchase orders."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поступлений еще нет! Автоматизируйте их с помощью заказов на закупку."
+>>>>>>> upstream/18.0
 =======
 msgstr "Поступлений еще нет! Автоматизируйте их с помощью заказов на закупку."
 >>>>>>> upstream/18.0
@@ -1294,7 +1349,11 @@ msgstr "В рамках закупки"
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__group_id
 msgid "Procurement group that generated this line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Группа закупок, сгенерировавшая эту строку"
+>>>>>>> upstream/18.0
 =======
 msgstr "Группа закупок, сгенерировавшая эту строку"
 >>>>>>> upstream/18.0
@@ -1431,6 +1490,12 @@ msgid ""
 "            Green: On time"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Красный: Просрочено\n"
+"            Оранжевый: Обработать сегодня\n"
+"            Зеленый: Вовремя"
+>>>>>>> upstream/18.0
 =======
 "Красный: Просрочено\n"
 "            Оранжевый: Обработать сегодня\n"
@@ -1579,6 +1644,12 @@ msgid ""
 " %(product)s. Change the operation type or cancel the request for quotation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Склад типа операции (%(operation_type)s) не соответствует местоположению "
+"(%(location)s), указанному в правиле повторного заказа (%(reordering_rule)s) "
+"для товара %(product)s. Измените тип операции или отмените запрос котировки."
+>>>>>>> upstream/18.0
 =======
 "Склад типа операции (%(operation_type)s) не соответствует местоположению "
 "(%(location)s), указанному в правиле повторного заказа (%(reordering_rule)s) "
@@ -1679,6 +1750,11 @@ msgid ""
 "already done."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Невозможно отменить заказ(ы) на закупку: %s, так как по ним уже есть "
+"завершенные поступления."
+>>>>>>> upstream/18.0
 =======
 "Невозможно отменить заказ(ы) на закупку: %s, так как по ним уже есть "
 "завершенные поступления."

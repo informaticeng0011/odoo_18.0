@@ -4,9 +4,15 @@
 # 
 # Translators:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Larisa Pop, 2024
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
+=======
+# Lyall Kindmurr, 2024
+# Wil Odoo, 2024
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
@@ -20,7 +26,11 @@ msgstr ""
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -40,7 +50,11 @@ msgstr "2023-08-20"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
 msgid "<span class=\"col-6\">Waves</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Valuri</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Valuri</span>"
 >>>>>>> upstream/18.0
@@ -52,6 +66,11 @@ msgid ""
 "style=\"white-space: nowrap;\">Wave Grouping</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" "
+"style=\"white-space: nowrap;\">Grupare valuri</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" "
 "style=\"white-space: nowrap;\">Grupare valuri</span>"
@@ -64,6 +83,11 @@ msgid ""
 "Grouping</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\">Grupare "
+"loturi</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\">Grupare "
 "loturi</span>"
@@ -73,7 +97,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "<strong>FROM</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>DE LA</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>DE LA</strong>"
 >>>>>>> upstream/18.0
@@ -102,7 +130,11 @@ msgstr "<strong>Responsabil:</strong>"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "<strong>TO</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>CĂTRE</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>CĂTRE</strong>"
 >>>>>>> upstream/18.0
@@ -111,7 +143,11 @@ msgstr "<strong>CĂTRE</strong>"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "<strong>→</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>→</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>→</strong>"
 >>>>>>> upstream/18.0
@@ -123,6 +159,11 @@ msgid ""
 "Leave this value as '0' if no line limit."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Un transfer nu va fi adăugat automat la loturi care vor depăși acest număr de linii dacă transferul este adăugat.\n"
+"Lăsați această valoare '0' dacă nu există limită de linii."
+>>>>>>> upstream/18.0
 =======
 "Un transfer nu va fi adăugat automat la loturi care vor depăși acest număr de linii dacă transferul este adăugat.\n"
 "Lăsați această valoare '0' dacă nu există limită de linii."
@@ -135,6 +176,11 @@ msgid ""
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Un transfer nu va fi adăugat automat la loturi care vor depăși acest număr de transferuri.\n"
+"Lăsați această valoare '0' dacă nu există limită de transferuri."
+>>>>>>> upstream/18.0
 =======
 "Un transfer nu va fi adăugat automat la loturi care vor depăși acest număr de transferuri.\n"
 "Lăsați această valoare '0' dacă nu există limită de transferuri."
@@ -154,7 +200,11 @@ msgstr "Activități"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_exception_decoration
 msgid "Activity Exception Decoration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Decorator Excepție Activitate"
+=======
+msgstr "Decorare excepție activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Decorare excepție activitate"
 >>>>>>> upstream/18.0
@@ -168,7 +218,11 @@ msgstr "Stare activitate"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_type_icon
 msgid "Activity Type Icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictograma tipului de activitate"
+=======
+msgstr "Pictogramă tip activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă tip activitate"
 >>>>>>> upstream/18.0
@@ -179,7 +233,11 @@ msgstr "Pictogramă tip activitate"
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "Add Operations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adaugă operațiuni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă operațiuni"
 >>>>>>> upstream/18.0
@@ -188,7 +246,11 @@ msgstr "Adaugă operațiuni"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_to_batch_form
 msgid "Add pickings to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adaugă preluări la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă preluări la"
 >>>>>>> upstream/18.0
@@ -206,7 +268,11 @@ msgstr "Adaugă la"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_move_line_tree_detailed_wave
 msgid "Add to Wave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adaugă la nota de transport"
+=======
+msgstr "Adaugă la val"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă la val"
 >>>>>>> upstream/18.0
@@ -215,7 +281,11 @@ msgstr "Adaugă la val"
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_picking_to_batch_action_stock_picking
 msgid "Add to batch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați la lot"
+=======
+msgstr "Adaugă la lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă la lot"
 >>>>>>> upstream/18.0
@@ -224,7 +294,11 @@ msgstr "Adaugă la lot"
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_add_to_wave_action_stock_picking
 msgid "Add to wave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adaugă la val"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă la val"
 >>>>>>> upstream/18.0
@@ -244,7 +318,11 @@ msgstr "Preluări permise"
 #: code:addons/stock_picking_batch/models/stock_picking.py:0
 msgid "Assigned to %s Responsible"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atribuit responsabilului %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atribuit responsabilului %s"
 >>>>>>> upstream/18.0
@@ -258,7 +336,11 @@ msgstr "Număr atașamente"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_auto_confirm
 msgid "Auto-confirm"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Confirmare automată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confirmare automată"
 >>>>>>> upstream/18.0
@@ -267,7 +349,11 @@ msgstr "Confirmare automată"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__auto_batch
 msgid "Automatic Batches"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Loturi automate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Loturi automate"
 >>>>>>> upstream/18.0
@@ -276,7 +362,11 @@ msgstr "Loturi automate"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_group_by_partner
 msgid "Automatically group batches by contacts."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupează automat loturile după contacte."
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupează automat loturile după contacte."
 >>>>>>> upstream/18.0
@@ -285,7 +375,11 @@ msgstr "Grupează automat loturile după contacte."
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_group_by_destination
 msgid "Automatically group batches by destination country."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupează automat loturile după țara de destinație."
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupează automat loturile după țara de destinație."
 >>>>>>> upstream/18.0
@@ -294,7 +388,11 @@ msgstr "Grupează automat loturile după țara de destinație."
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_group_by_dest_loc
 msgid "Automatically group batches by their destination location."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupează automat loturile după locația de destinație."
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupează automat loturile după locația de destinație."
 >>>>>>> upstream/18.0
@@ -303,7 +401,11 @@ msgstr "Grupează automat loturile după locația de destinație."
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_group_by_src_loc
 msgid "Automatically group batches by their source location."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupează automat loturile după locația sursă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupează automat loturile după locația sursă."
 >>>>>>> upstream/18.0
@@ -314,6 +416,11 @@ msgid ""
 "Automatically put pickings into batches as they are confirmed when possible."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Adaugă automat preluările în loturi atunci când sunt confirmate, dacă este "
+"posibil."
+>>>>>>> upstream/18.0
 =======
 "Adaugă automat preluările în loturi atunci când sunt confirmate, dacă este "
 "posibil."
@@ -334,7 +441,11 @@ msgstr "Lot"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Batch & Wave Transfers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferuri în lot și val"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferuri în lot și val"
 >>>>>>> upstream/18.0
@@ -343,7 +454,11 @@ msgstr "Transferuri în lot și val"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Batch Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume Lot"
+=======
+msgstr "Nume lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume lot"
 >>>>>>> upstream/18.0
@@ -352,7 +467,11 @@ msgstr "Nume lot"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_properties_definition
 msgid "Batch Properties"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proprietăți lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proprietăți lot"
 >>>>>>> upstream/18.0
@@ -377,7 +496,11 @@ msgstr "Transfer în lot"
 #: model:ir.model,name:stock_picking_batch.model_stock_picking_to_batch
 msgid "Batch Transfer Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linii transfer în lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linii transfer în lot"
 >>>>>>> upstream/18.0
@@ -392,7 +515,11 @@ msgstr "Transferuri în lot"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Batch Transfers not finished"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Transferurile în lot nu sunt terminate"
+=======
+msgstr "Transferuri în lot neterminate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferuri în lot neterminate"
 >>>>>>> upstream/18.0
@@ -402,7 +529,11 @@ msgstr "Transferuri în lot neterminate"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking__batch_id
 msgid "Batch associated to this transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lot asociat cu acest transfer"
+=======
+msgstr "Lot asociat acestui transfer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lot asociat acestui transfer"
 >>>>>>> upstream/18.0
@@ -412,7 +543,11 @@ msgstr "Lot asociat acestui transfer"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Batch transfers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferuri în lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferuri în lot"
 >>>>>>> upstream/18.0
@@ -444,7 +579,11 @@ msgstr "Anulat"
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "Cannot create wave transfers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu se pot crea transferuri de val"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu se pot crea transferuri de val"
 >>>>>>> upstream/18.0
@@ -453,7 +592,11 @@ msgstr "Nu se pot crea transferuri de val"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_category_ids
 msgid "Categories to consider when grouping waves."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Categorii de luat în considerare la gruparea valurilor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Categorii de luat în considerare la gruparea valurilor."
 >>>>>>> upstream/18.0
@@ -474,7 +617,11 @@ msgstr "Alegeți aspectul etichetelor"
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "Choose Type of Labels To Print"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alegeți tipul etichetelor de imprimat"
+=======
+msgstr "Alegeți tipul etichetelor de tipărit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alegeți tipul etichetelor de tipărit"
 >>>>>>> upstream/18.0
@@ -484,7 +631,11 @@ msgstr "Alegeți tipul etichetelor de tipărit"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Cluster transfers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupează transferuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupează transferuri"
 >>>>>>> upstream/18.0
@@ -506,7 +657,11 @@ msgstr "Confirmă"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contactați"
+=======
+msgstr "Contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contact"
 >>>>>>> upstream/18.0
@@ -515,7 +670,11 @@ msgstr "Contact"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__count_picking_batch
 msgid "Count Picking Batch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Număr loturi preluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr loturi preluare"
 >>>>>>> upstream/18.0
@@ -524,7 +683,11 @@ msgstr "Număr loturi preluare"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__count_picking_wave
 msgid "Count Picking Wave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Număr valuri preluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr valuri preluare"
 >>>>>>> upstream/18.0
@@ -542,7 +705,11 @@ msgstr "Creat de"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_to_batch__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -557,7 +724,11 @@ msgstr "Descriere"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_group_by_destination
 msgid "Destination Country"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Țara destinație"
+=======
+msgstr "Țară destinație"
+>>>>>>> upstream/18.0
 =======
 msgstr "Țară destinație"
 >>>>>>> upstream/18.0
@@ -566,7 +737,11 @@ msgstr "Țară destinație"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Locația destinație"
+=======
+msgstr "Locație destinație"
+>>>>>>> upstream/18.0
 =======
 msgstr "Locație destinație"
 >>>>>>> upstream/18.0
@@ -575,7 +750,11 @@ msgstr "Locație destinație"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Detailed Operations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Operații detaliate"
+=======
+msgstr "Operațiuni detaliate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operațiuni detaliate"
 >>>>>>> upstream/18.0
@@ -609,7 +788,11 @@ msgstr "Urmăritori"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_partner_ids
 msgid "Followers (Partners)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Urmăritori (Parteneri)"
+=======
+msgstr "Urmăritori (parteneri)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmăritori (parteneri)"
 >>>>>>> upstream/18.0
@@ -618,7 +801,11 @@ msgstr "Urmăritori (parteneri)"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictogramă Font awesome, de ex. fa-sarcini"
+=======
+msgstr "Pictogramă Font Awesome, ex. fa-tasks"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă Font Awesome, ex. fa-tasks"
 >>>>>>> upstream/18.0
@@ -637,7 +824,11 @@ msgstr "Grupează după"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_group_by_dest_loc
 msgid "Group by Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupează după locația destinație"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupează după locația destinație"
 >>>>>>> upstream/18.0
@@ -646,7 +837,11 @@ msgstr "Grupează după locația destinație"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_group_by_src_loc
 msgid "Group by Source Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupează după locația sursă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupează după locația sursă"
 >>>>>>> upstream/18.0
@@ -655,7 +850,11 @@ msgstr "Grupează după locația sursă"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Gujarat"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gujarat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gujarat"
 >>>>>>> upstream/18.0
@@ -681,7 +880,11 @@ msgstr "Pictogramă"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__activity_exception_icon
 msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictograma care indică o activitate de excepție."
+=======
+msgstr "Pictogramă care indică o activitate de excepție."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă care indică o activitate de excepție."
 >>>>>>> upstream/18.0
@@ -690,7 +893,11 @@ msgstr "Pictogramă care indică o activitate de excepție."
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__message_needaction
 msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifat, mesaje noi necesită atenția dumneavoastră."
+=======
+msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
 >>>>>>> upstream/18.0
@@ -700,7 +907,11 @@ msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifată, există mesaje cu eroare de livrare."
+=======
+msgstr "Dacă este bifat, unele mesaje au o eroare de livrare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, unele mesaje au o eroare de livrare."
 >>>>>>> upstream/18.0
@@ -713,6 +924,11 @@ msgid ""
 "must be selected."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dacă funcția Loturi automate este activată, trebuie selectată cel puțin o "
+"opțiune 'Grupează după'."
+>>>>>>> upstream/18.0
 =======
 "Dacă funcția Loturi automate este activată, trebuie selectată cel puțin o "
 "opțiune 'Grupează după'."
@@ -737,7 +953,11 @@ msgstr "Este urmăritor"
 #: model:ir.ui.menu,name:stock_picking_batch.menu_stock_jobs
 msgid "Jobs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Locuri de munca"
+=======
+msgstr "Locuri de muncă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Locuri de muncă"
 >>>>>>> upstream/18.0
@@ -753,7 +973,11 @@ msgstr "John Doe"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_to_batch__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de către"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare de către"
 >>>>>>> upstream/18.0
@@ -764,7 +988,11 @@ msgstr "Ultima actualizare de către"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_to_batch__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -782,6 +1010,11 @@ msgid ""
 "for large warehouses."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Lansați comenzile de ridicare pe culoar sau zonă și regrupați la zona de "
+"ambalare. Ideal pentru depozite mari."
+>>>>>>> upstream/18.0
 =======
 "Lansați comenzile de ridicare pe culoar sau zonă și regrupați la zona de "
 "ambalare. Ideal pentru depozite mari."
@@ -796,7 +1029,11 @@ msgstr "Linie"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__picking_ids
 msgid "List of transfers associated to this batch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Listă cu transferuri asociate cu acest lot"
+=======
+msgstr "Listă de transferuri asociate acestui lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listă de transferuri asociate acestui lot"
 >>>>>>> upstream/18.0
@@ -810,7 +1047,11 @@ msgstr "Locație"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Location From Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nume locație sursă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume locație sursă"
 >>>>>>> upstream/18.0
@@ -819,7 +1060,11 @@ msgstr "Nume locație sursă"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Location To Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nume locație destinație"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume locație destinație"
 >>>>>>> upstream/18.0
@@ -828,7 +1073,11 @@ msgstr "Nume locație destinație"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_location_ids
 msgid "Locations to consider when grouping waves."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Locații de luat în considerare la gruparea valurilor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Locații de luat în considerare la gruparea valurilor."
 >>>>>>> upstream/18.0
@@ -837,7 +1086,11 @@ msgstr "Locații de luat în considerare la gruparea valurilor."
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Lot Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul lotului"
+=======
+msgstr "Număr lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr lot"
 >>>>>>> upstream/18.0
@@ -846,7 +1099,11 @@ msgstr "Număr lot"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid "Maximum lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Număr maxim de linii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr maxim de linii"
 >>>>>>> upstream/18.0
@@ -855,7 +1112,11 @@ msgstr "Număr maxim de linii"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid "Maximum transfers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Număr maxim de transferuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr maxim de transferuri"
 >>>>>>> upstream/18.0
@@ -880,7 +1141,11 @@ msgstr "Mod"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_move_line_tree
 msgid "Move Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mutare Linii"
+=======
+msgstr "Linii de mișcare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linii de mișcare"
 >>>>>>> upstream/18.0
@@ -889,7 +1154,11 @@ msgstr "Linii de mișcare"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__my_activity_date_deadline
 msgid "My Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită a activității mele"
+=======
+msgstr "Termen limită activitate proprie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită activitate proprie"
 >>>>>>> upstream/18.0
@@ -898,7 +1167,11 @@ msgstr "Termen limită activitate proprie"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "My Transfers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Transferurile Mele"
+=======
+msgstr "Transferurile mele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferurile mele"
 >>>>>>> upstream/18.0
@@ -907,7 +1180,11 @@ msgstr "Transferurile mele"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Următoarea activitate din calendar"
+=======
+msgstr "Următorul eveniment din calendarul activităților"
+>>>>>>> upstream/18.0
 =======
 msgstr "Următorul eveniment din calendarul activităților"
 >>>>>>> upstream/18.0
@@ -916,7 +1193,11 @@ msgstr "Următorul eveniment din calendarul activităților"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_date_deadline
 msgid "Next Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită pentru următoarea activitate"
+=======
+msgstr "Termen limită următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită următoare activitate"
 >>>>>>> upstream/18.0
@@ -925,7 +1206,11 @@ msgstr "Termen limită următoare activitate"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_summary
 msgid "Next Activity Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sumarul următoarei activități"
+=======
+msgstr "Sumar următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumar următoare activitate"
 >>>>>>> upstream/18.0
@@ -934,7 +1219,11 @@ msgstr "Sumar următoare activitate"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_type_id
 msgid "Next Activity Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Următorul tip de activitate"
+=======
+msgstr "Tip următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip următoare activitate"
 >>>>>>> upstream/18.0
@@ -953,7 +1242,11 @@ msgstr "Număr de erori"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__message_needaction_counter
 msgid "Number of messages requiring action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de mesaje care necesită acțiune"
+=======
+msgstr "Număr de mesaje care necesită acțiune"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de mesaje care necesită acțiune"
 >>>>>>> upstream/18.0
@@ -962,7 +1255,11 @@ msgstr "Număr de mesaje care necesită acțiune"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__message_has_error_counter
 msgid "Number of messages with delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de mesaje cu eroare de livrare"
+=======
+msgstr "Număr de mesaje cu eroare de livrare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de mesaje cu eroare de livrare"
 >>>>>>> upstream/18.0
@@ -971,7 +1268,11 @@ msgstr "Număr de mesaje cu eroare de livrare"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__picking_type_id
 msgid "Operation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip operație"
+=======
+msgstr "Tip operațiune"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip operațiune"
 >>>>>>> upstream/18.0
@@ -980,7 +1281,11 @@ msgstr "Tip operațiune"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Operations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Operații"
+=======
+msgstr "Operațiuni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operațiuni"
 >>>>>>> upstream/18.0
@@ -989,7 +1294,11 @@ msgstr "Operațiuni"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Package ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID pachet"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID pachet"
 >>>>>>> upstream/18.0
@@ -1002,6 +1311,12 @@ msgid ""
 "reduces packing time and is ideal for small products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ridicați mai multe comenzi într-o singură deplasare și pregătiți comenzile "
+"pe măsură ce le ridicați. Acest lucru reduce timpul de ambalare și este "
+"ideal pentru produse mici."
+>>>>>>> upstream/18.0
 =======
 "Ridicați mai multe comenzi într-o singură deplasare și pregătiți comenzile "
 "pe măsură ce le ridicați. Acest lucru reduce timpul de ambalare și este "
@@ -1012,7 +1327,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__picking_ids
 msgid "Picking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Livrare"
+=======
+msgstr "Preluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preluare"
 >>>>>>> upstream/18.0
@@ -1021,7 +1340,11 @@ msgstr "Preluare"
 #: model:ir.model,name:stock_picking_batch.model_stock_picking_type
 msgid "Picking Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip ridicare"
+=======
+msgstr "Tip preluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip preluare"
 >>>>>>> upstream/18.0
@@ -1033,6 +1356,11 @@ msgid ""
 "Please add 'Done' quantities to the batch picking to create a new pack."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vă rugăm să adăugați cantitățile 'Efectuate' la preluarea în lot pentru a "
+"crea un nou pachet."
+>>>>>>> upstream/18.0
 =======
 "Vă rugăm să adăugați cantitățile 'Efectuate' la preluarea în lot pentru a "
 "crea un nou pachet."
@@ -1042,7 +1370,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
 msgid "Prepare Batch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregătește lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pregătește lot"
 >>>>>>> upstream/18.0
@@ -1055,7 +1387,11 @@ msgstr "Pregătește lot"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_wave_tree
 msgid "Prepare Wave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregătește val"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pregătește val"
 >>>>>>> upstream/18.0
@@ -1064,7 +1400,11 @@ msgstr "Pregătește val"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Print"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipăriți"
+=======
+msgstr "Tipărește"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipărește"
 >>>>>>> upstream/18.0
@@ -1073,7 +1413,11 @@ msgstr "Tipărește"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Print Labels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipărire Etichete"
+=======
+msgstr "Tipărește etichete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipărește etichete"
 >>>>>>> upstream/18.0
@@ -1088,7 +1432,11 @@ msgstr "Produs"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Product Barcode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cod de bare produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cod de bare produs"
 >>>>>>> upstream/18.0
@@ -1102,7 +1450,11 @@ msgstr "Categorie produs"
 #: model:ir.model,name:stock_picking_batch.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mișcări de produs (linie mișcare de stoc)"
+=======
+msgstr "Mișcări produs (linie mișcare stoc)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mișcări produs (linie mișcare stoc)"
 >>>>>>> upstream/18.0
@@ -1121,7 +1473,11 @@ msgstr "Proprietăți"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Put in Pack"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pune în Pachet"
+=======
+msgstr "Pune în pachet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pune în pachet"
 >>>>>>> upstream/18.0
@@ -1135,7 +1491,11 @@ msgstr "Cantitate"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Quantity Done"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cantitate Efectuată"
+=======
+msgstr "Cantitate efectuată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cantitate efectuată"
 >>>>>>> upstream/18.0
@@ -1144,7 +1504,11 @@ msgstr "Cantitate efectuată"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__rating_ids
 msgid "Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ratings"
+=======
+msgstr "Evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluări"
 >>>>>>> upstream/18.0
@@ -1157,6 +1521,11 @@ msgid ""
 "zone."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Regrupați mai multe comenzi într-o singură preluare și consolidați la zona "
+"de ambalare."
+>>>>>>> upstream/18.0
 =======
 "Regrupați mai multe comenzi într-o singură preluare și consolidați la zona "
 "de ambalare."
@@ -1179,7 +1548,11 @@ msgstr "Utilizator responsabil"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Result Package ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID pachet rezultat"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID pachet rezultat"
 >>>>>>> upstream/18.0
@@ -1194,7 +1567,11 @@ msgstr "Eroare livrare SMS"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Scheduled Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dată planificată"
+=======
+msgstr "Dată programată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dată programată"
 >>>>>>> upstream/18.0
@@ -1208,9 +1585,15 @@ msgid ""
 "                but this scheduled date will not be set for all transfers in batch."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Data planificată pentru procesarea transferurilor.\n"
 "- Dacă este setată manual, data planificată pentru toate transferurile în lot se va actualiza automat la această dată.\n"
 "- Dacă nu sunt modificate manual și transferurile sunt adăugate/eliminate/actualizate, aceasta va fi cea mai devreme dată planificată a acestora dar această dată planificată nu va fi stabilită pentru toate transferurile în lot."
+=======
+"Data programată pentru transferurile care urmează să fie procesate.\n"
+"- Dacă este setată manual, data programată pentru toate transferurile din lot se va actualiza automat la această dată.\n"
+"- Dacă nu este modificată manual și transferurile sunt adăugate/eliminate/actualizate, aceasta va fi cea mai devreme dată programată a acestora, dar această dată programată nu va fi setată pentru toate transferurile din lot."
+>>>>>>> upstream/18.0
 =======
 "Data programată pentru transferurile care urmează să fie procesate.\n"
 "- Dacă este setată manual, data programată pentru toate transferurile din lot se va actualiza automat la această dată.\n"
@@ -1221,7 +1604,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Search Batch Transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută transfer în lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută transfer în lot"
 >>>>>>> upstream/18.0
@@ -1230,7 +1617,11 @@ msgstr "Caută transfer în lot"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Select locations you want to group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selectați locațiile pe care doriți să le grupați"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectați locațiile pe care doriți să le grupați"
 >>>>>>> upstream/18.0
@@ -1239,7 +1630,11 @@ msgstr "Selectați locațiile pe care doriți să le grupați"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Select product categories you want to group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selectați categoriile de produse pe care doriți să le grupați"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectați categoriile de produse pe care doriți să le grupați"
 >>>>>>> upstream/18.0
@@ -1253,7 +1648,11 @@ msgstr "Secvență"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__show_allocation
 msgid "Show Allocation Button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afișează butonul de alocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează butonul de alocare"
 >>>>>>> upstream/18.0
@@ -1262,7 +1661,11 @@ msgstr "Afișează butonul de alocare"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__show_check_availability
 msgid "Show Check Availability"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișare Verificare Disponibilitate "
+=======
+msgstr "Afișează verificarea disponibilității"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează verificarea disponibilității"
 >>>>>>> upstream/18.0
@@ -1271,7 +1674,11 @@ msgstr "Afișează verificarea disponibilității"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__show_lots_text
 msgid "Show Lots Text"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișare Loturi Text"
+=======
+msgstr "Afișează textul loturilor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează textul loturilor"
 >>>>>>> upstream/18.0
@@ -1281,8 +1688,13 @@ msgstr "Afișează textul loturilor"
 msgid "Show all records which has next action date is before today"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Afișați toate înregistrările care au data următoarei acțiuni înainte de data"
 " de astăzi"
+=======
+"Afișează toate înregistrările care au data următoarei acțiuni înainte de "
+"astăzi"
+>>>>>>> upstream/18.0
 =======
 "Afișează toate înregistrările care au data următoarei acțiuni înainte de "
 "astăzi"
@@ -1300,6 +1712,11 @@ msgid ""
 "location."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Împarte transferurile după locațiile definite, apoi grupează transferurile "
+"cu aceeași locație."
+>>>>>>> upstream/18.0
 =======
 "Împarte transferurile după locațiile definite, apoi grupează transferurile "
 "cu aceeași locație."
@@ -1312,6 +1729,11 @@ msgid ""
 " product category."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Împarte transferurile după categoria de produs, apoi grupează transferurile "
+"care au aceeași categorie de produs."
+>>>>>>> upstream/18.0
 =======
 "Împarte transferurile după categoria de produs, apoi grupează transferurile "
 "care au aceeași categorie de produs."
@@ -1323,6 +1745,11 @@ msgid ""
 "Split transfers by product then group transfers that have the same product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Împarte transferurile după produs, apoi grupează transferurile care au "
+"același produs."
+>>>>>>> upstream/18.0
 =======
 "Împarte transferurile după produs, apoi grupează transferurile care au "
 "același produs."
@@ -1339,7 +1766,11 @@ msgstr "Etapă schimbată"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Județ"
+=======
+msgstr "Stare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare"
 >>>>>>> upstream/18.0
@@ -1359,7 +1790,11 @@ msgid ""
 msgstr ""
 "Stare bazată pe activități\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Întârziată: data activitații este deja trecută\n"
+=======
+"Întârziată: data scadentă a trecut deja\n"
+>>>>>>> upstream/18.0
 =======
 "Întârziată: data scadentă a trecut deja\n"
 >>>>>>> upstream/18.0
@@ -1371,7 +1806,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_tree
 msgid "Stock Batch Transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transfer în lot de stoc"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfer în lot de stoc"
 >>>>>>> upstream/18.0
@@ -1390,7 +1829,11 @@ msgstr "Destinație pachet stoc"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__move_line_ids
 msgid "Stock move lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Liniile de mișcare a stocului"
+=======
+msgstr "Linii de mișcare stoc"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linii de mișcare stoc"
 >>>>>>> upstream/18.0
@@ -1399,7 +1842,11 @@ msgstr "Linii de mișcare stoc"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__move_ids
 msgid "Stock moves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mișcări stoc"
+=======
+msgstr "Mișcări de stoc"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mișcări de stoc"
 >>>>>>> upstream/18.0
@@ -1418,6 +1865,12 @@ msgid ""
 "Incompatibilities: %(incompatible_transfers)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Următoarele transferuri nu pot fi adăugate la transferul în lot %(batch)s. Vă rugăm să verificați stările și tipurile de operațiuni.\n"
+"\n"
+"Incompatibilități: %(incompatible_transfers)s"
+>>>>>>> upstream/18.0
 =======
 "Următoarele transferuri nu pot fi adăugate la transferul în lot %(batch)s. Vă rugăm să verificați stările și tipurile de operațiuni.\n"
 "\n"
@@ -1429,7 +1882,11 @@ msgstr ""
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "The selected operations should belong to a unique company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operațiunile selectate ar trebui să aparțină unei singure companii."
+>>>>>>> upstream/18.0
 =======
 msgstr "Operațiunile selectate ar trebui să aparțină unei singure companii."
 >>>>>>> upstream/18.0
@@ -1439,7 +1896,11 @@ msgstr "Operațiunile selectate ar trebui să aparțină unei singure companii."
 #: code:addons/stock_picking_batch/wizard/stock_picking_to_batch.py:0
 msgid "The selected pickings should belong to an unique company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Preluările selectate ar trebui să aparțină unei companii unice."
+=======
+msgstr "Preluările selectate ar trebui să aparțină unei singure companii."
+>>>>>>> upstream/18.0
 =======
 msgstr "Preluările selectate ar trebui să aparțină unei singure companii."
 >>>>>>> upstream/18.0
@@ -1449,7 +1910,11 @@ msgstr "Preluările selectate ar trebui să aparțină unei singure companii."
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "The selected transfers should belong to a unique company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferurile selectate ar trebui să aparțină unei singure companii."
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferurile selectate ar trebui să aparțină unei singure companii."
 >>>>>>> upstream/18.0
@@ -1460,6 +1925,10 @@ msgstr "Transferurile selectate ar trebui să aparțină unei singure companii."
 msgid "The selected transfers should belong to the same operation type"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Transferurile selectate ar trebui să aparțină aceluiași tip de operațiune"
+>>>>>>> upstream/18.0
 =======
 "Transferurile selectate ar trebui să aparțină aceluiași tip de operațiune"
 >>>>>>> upstream/18.0
@@ -1468,7 +1937,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__is_wave
 msgid "This batch is a wave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acest lot este un val"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acest lot este un val"
 >>>>>>> upstream/18.0
@@ -1493,7 +1966,11 @@ msgstr "Transfer"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Transfer Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nume afișat transfer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume afișat transfer"
 >>>>>>> upstream/18.0
@@ -1519,7 +1996,11 @@ msgstr "Transferuri"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__picking_type_code
 msgid "Type of Operation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip operație"
+=======
+msgstr "Tip operațiune"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip operațiune"
 >>>>>>> upstream/18.0
@@ -1528,7 +2009,11 @@ msgstr "Tip operațiune"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__activity_exception_decoration
 msgid "Type of the exception activity on record."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul de activitate de excepție înregistrată."
+=======
+msgstr "Tipul activității de excepție înregistrate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipul activității de excepție înregistrate."
 >>>>>>> upstream/18.0
@@ -1538,7 +2023,11 @@ msgstr "Tipul activității de excepție înregistrate."
 #: code:addons/stock_picking_batch/models/stock_picking.py:0
 msgid "Unassigned responsible from %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Responsabil neatribuit de la %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Responsabil neatribuit de la %s"
 >>>>>>> upstream/18.0
@@ -1547,7 +2036,11 @@ msgstr "Responsabil neatribuit de la %s"
 #: model:ir.actions.server,name:stock_picking_batch.action_unreserve_batch_picking
 msgid "Unreserve"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anulați rezervarea"
+=======
+msgstr "Anulează rezervarea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anulează rezervarea"
 >>>>>>> upstream/18.0
@@ -1567,7 +2060,11 @@ msgstr "Depozit"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__wave_location_ids
 msgid "Wave Locations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Locații val"
+>>>>>>> upstream/18.0
 =======
 msgstr "Locații val"
 >>>>>>> upstream/18.0
@@ -1576,7 +2073,11 @@ msgstr "Locații val"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__wave_category_ids
 msgid "Wave Product Categories"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Categorii produse val"
+>>>>>>> upstream/18.0
 =======
 msgstr "Categorii produse val"
 >>>>>>> upstream/18.0
@@ -1585,7 +2086,11 @@ msgstr "Categorii produse val"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__wave_id
 msgid "Wave Transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transfer de val"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfer de val"
 >>>>>>> upstream/18.0
@@ -1594,7 +2099,11 @@ msgstr "Transfer de val"
 #: model:ir.model,name:stock_picking_batch.model_stock_add_to_wave
 msgid "Wave Transfer Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linii transfer de val"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linii transfer de val"
 >>>>>>> upstream/18.0
@@ -1610,7 +2119,11 @@ msgstr "Transferuri de val"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Wave transfers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferuri de val"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferuri de val"
 >>>>>>> upstream/18.0
@@ -1619,7 +2132,11 @@ msgstr "Transferuri de val"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__website_message_ids
 msgid "Website Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesaje de pe site-ul web"
+=======
+msgstr "Mesaje website"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaje website"
 >>>>>>> upstream/18.0
@@ -1628,7 +2145,11 @@ msgstr "Mesaje website"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__website_message_ids
 msgid "Website communication history"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Istoricul comunicării pe site-ul web"
+=======
+msgstr "Istoric comunicare website"
+>>>>>>> upstream/18.0
 =======
 msgstr "Istoric comunicare website"
 >>>>>>> upstream/18.0
@@ -1637,7 +2158,11 @@ msgstr "Istoric comunicare website"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_to_batch__is_create_draft
 msgid "When checked, create the batch in draft status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Când este bifat, creează lotul în stare de ciornă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Când este bifat, creează lotul în stare de ciornă"
 >>>>>>> upstream/18.0
@@ -1647,7 +2172,11 @@ msgstr "Când este bifat, creează lotul în stare de ciornă"
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "You cannot delete Done batch transfers."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu puteți șterge transferurile în lot finalizate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți șterge transferurile în lot finalizate."
 >>>>>>> upstream/18.0
@@ -1657,7 +2186,11 @@ msgstr "Nu puteți șterge transferurile în lot finalizate."
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "You have to set some pickings to batch."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trebuie să setați câteva selecții la lot."
+=======
+msgstr "Trebuie să setați câteva preluări la lot."
+>>>>>>> upstream/18.0
 =======
 msgstr "Trebuie să setați câteva preluări la lot."
 >>>>>>> upstream/18.0
@@ -1671,7 +2204,11 @@ msgstr "un nou transfer în lot"
 #: model:ir.model.fields.selection,name:stock_picking_batch.selection__stock_add_to_wave__mode__new
 msgid "a new wave transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "un nou transfer de val"
+>>>>>>> upstream/18.0
 =======
 msgstr "un nou transfer de val"
 >>>>>>> upstream/18.0
@@ -1685,7 +2222,11 @@ msgstr "un transfer în lot existent"
 #: model:ir.model.fields.selection,name:stock_picking_batch.selection__stock_add_to_wave__mode__existing
 msgid "an existing wave transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "un transfer de val existent"
+>>>>>>> upstream/18.0
 =======
 msgstr "un transfer de val existent"
 >>>>>>> upstream/18.0
@@ -1694,7 +2235,11 @@ msgstr "un transfer de val existent"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__estimated_shipping_volume
 msgid "shipping_volume"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "volum_expediere"
+>>>>>>> upstream/18.0
 =======
 msgstr "volum_expediere"
 >>>>>>> upstream/18.0
@@ -1703,7 +2248,11 @@ msgstr "volum_expediere"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__estimated_shipping_weight
 msgid "shipping_weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "greutate_expediere"
+>>>>>>> upstream/18.0
 =======
 msgstr "greutate_expediere"
 >>>>>>> upstream/18.0

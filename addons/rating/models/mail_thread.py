@@ -191,7 +191,10 @@ class MailThread(models.AbstractModel):
             rating.message_id = message.id
         super()._message_post_after_hook(message, msg_values)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.model
     def _get_allowed_message_update_params(self):
@@ -205,4 +208,7 @@ class MailThread(models.AbstractModel):
         return super()._message_update_content(
             message, body, *args, rating_value=rating_value, **kwargs
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

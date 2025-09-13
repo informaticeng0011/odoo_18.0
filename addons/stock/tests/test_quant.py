@@ -1574,7 +1574,10 @@ class StockQuantRemovalStrategy(TransactionCase):
             ('location_id', '=', self.stock_location.id),
         ]))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_quant_cache_for_packages(self):
         """
@@ -1639,4 +1642,7 @@ class StockQuantRemovalStrategy(TransactionCase):
             {'product_id': products[0].id, 'location_id':  sublocation.id, 'package_id': packages[0].id, 'quantity': 1.0, 'reserved_quantity': 1.0},
             {'product_id': products[1].id, 'location_id':  sublocation.id, 'package_id': packages[0].id, 'quantity': 1.0, 'reserved_quantity': 1.0},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

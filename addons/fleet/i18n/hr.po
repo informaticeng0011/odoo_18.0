@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* fleet
 # 
+=======
+# * fleet
+#
+>>>>>>> upstream/18.0
 =======
 # * fleet
 #
@@ -15,7 +20,10 @@
 # Vladimir Olujić <olujic.vladimir@storm.hr>, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Bole <bole@dajmi5.com>, 2024
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27,6 +35,7 @@
 # Martin Trigaux, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Bole <bole@dajmi5.com>, 2025
 >>>>>>> upstream/18.0
@@ -36,10 +45,16 @@
 # Luka Carević <luka@uvid.hr>, 2025
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Bole <bole@dajmi5.com>, 2025
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
@@ -57,6 +72,8 @@ msgstr ""
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-07-11 18:38+0000\n"
 "PO-Revision-Date: 2025-08-25 10:09+0000\n"
 "Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
@@ -69,6 +86,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: fleet
@@ -190,7 +210,10 @@ msgstr "Status aktivnosti"
 #. module: fleet
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:fleet.model_mail_activity_type
@@ -199,6 +222,9 @@ msgstr "Tip aktivnosti"
 
 #. module: fleet
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -490,6 +516,11 @@ msgid ""
 " vehicles."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kategorije će vam pomoći učinkovitije upravljati voznim parkom i "
+"organizirati vaša vozila."
+>>>>>>> upstream/18.0
 =======
 "Kategorije će vam pomoći učinkovitije upravljati voznim parkom i "
 "organizirati vaša vozila."
@@ -700,7 +731,11 @@ msgstr "Šifra države"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_model_category_action
 msgid "Create a new category"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirajte novu kategoriju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreirajte novu kategoriju"
 >>>>>>> upstream/18.0
@@ -839,7 +874,11 @@ msgstr "Odgodi upozorenje o zastarjelom ugovoru"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_kanban
 msgid "Delete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Briši"
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obriši"
 >>>>>>> upstream/18.0
@@ -970,7 +1009,11 @@ msgstr "Električni"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__electric_assistance
 msgid "Electric Assistance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Električni pogon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Električni pogon"
 >>>>>>> upstream/18.0
@@ -1000,7 +1043,11 @@ msgstr "Završni datum"
 #: model_terms:ir.ui.view,arch_db:fleet.res_config_settings_view_form
 msgid "End Date Contract Alert"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upozorenje o datumu isteka ugovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upozorenje o datumu isteka ugovora"
 >>>>>>> upstream/18.0
@@ -1099,7 +1146,11 @@ msgstr "Upravljanje flotom"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_search
 msgid "Fleet Manager"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Voditelj flote"
+=======
+msgstr "Voditelj voznog parka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Voditelj voznog parka"
 >>>>>>> upstream/18.0
@@ -1421,7 +1472,11 @@ msgstr "Jezik"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__contract_state
 msgid "Last Contract State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Posljednje stanje ugovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Posljednje stanje ugovora"
 >>>>>>> upstream/18.0
@@ -1540,7 +1595,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid "Manage efficiently your different effective vehicles Costs with Odoo."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Učinkovito upravljajte različitim stvarnim troškovima vozila uz Odoo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Učinkovito upravljajte različitim stvarnim troškovima vozila uz Odoo."
 >>>>>>> upstream/18.0
@@ -1959,7 +2018,11 @@ msgstr "Zamjena serva volana"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__power_unit
 msgid "Power Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Snaga motora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Snaga motora"
 >>>>>>> upstream/18.0
@@ -2000,7 +2063,11 @@ msgstr "Raspon"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_action
 msgid "Ready to manage your fleet more efficiently?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spremni za učinkovitije upravljanje vašim voznim parkom?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spremni za učinkovitije upravljanje vašim voznim parkom?"
 >>>>>>> upstream/18.0
@@ -2074,7 +2141,11 @@ msgstr "Rezerva"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__residual_value
 msgid "Residual Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Residual Value"
+=======
+msgstr "Ostatak vrijednosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ostatak vrijednosti"
 >>>>>>> upstream/18.0
@@ -2438,7 +2509,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__trailer_hook
 msgid "Trailer Hitch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kuka za prikolicu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kuka za prikolicu"
 >>>>>>> upstream/18.0
@@ -2447,7 +2522,11 @@ msgstr "Kuka za prikolicu"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Trailer Hook"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kuka za prikolicu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kuka za prikolicu"
 >>>>>>> upstream/18.0
@@ -2682,7 +2761,11 @@ msgstr "Zamjena brisača"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_search
 msgid "With Models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "S modelima"
+>>>>>>> upstream/18.0
 =======
 msgstr "S modelima"
 >>>>>>> upstream/18.0
@@ -2706,7 +2789,11 @@ msgstr "Ovdje napišite sve ostale podatke vezane za ovo vozilo"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_send_mail_view_form
 msgid "Write your message here..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovdje napišite svoju poruku..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovdje napišite svoju poruku..."
 >>>>>>> upstream/18.0

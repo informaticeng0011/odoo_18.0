@@ -15,7 +15,11 @@ class Partner(models.Model):
     _inherit = 'res.partner'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     invoice_edi_format = fields.Selection(selection_add=[('es_facturae', 'Facturae')])
+=======
+    invoice_edi_format = fields.Selection(selection_add=[('es_facturae', 'Spain (FacturaE)')])
+>>>>>>> upstream/18.0
 =======
     invoice_edi_format = fields.Selection(selection_add=[('es_facturae', 'Spain (FacturaE)')])
 >>>>>>> upstream/18.0
@@ -79,7 +83,10 @@ class Partner(models.Model):
             else:
                 partner.l10n_es_edi_facturae_residence_type = 'E'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _l10n_es_edi_facturae_export_check(self):
         errors = {}
@@ -91,4 +98,7 @@ class Partner(models.Model):
                 'action': invalid_records._get_records_action(name=_("Check Partner(s)")),
             }
         return errors
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

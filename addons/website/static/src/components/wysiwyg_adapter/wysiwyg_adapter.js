@@ -230,6 +230,11 @@ export class WysiwygAdapterComponent extends Wysiwyg {
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // The jquery instance inside the iframe needs to be aware of the wysiwyg.
+        this.websiteService.contentWindow.$('#wrapwrap').data('wysiwyg', this);
+>>>>>>> upstream/18.0
 =======
         // The jquery instance inside the iframe needs to be aware of the wysiwyg.
         this.websiteService.contentWindow.$('#wrapwrap').data('wysiwyg', this);
@@ -320,8 +325,11 @@ export class WysiwygAdapterComponent extends Wysiwyg {
             await this.props.beforeEditorActive(this.$editable);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         // The jquery instance inside the iframe needs to be aware of the wysiwyg.
         this.websiteService.contentWindow.$('#wrapwrap').data('wysiwyg', this);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         // grep: RESTART_WIDGETS_EDIT_MODE
@@ -438,7 +446,10 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -709,6 +720,9 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -914,12 +928,18 @@ export class WysiwygAdapterComponent extends Wysiwyg {
             return this.props.editableElements();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         for (const coverPartEl of $wrapwrap[0].querySelectorAll(".o_record_cover_component")) {
             // Exclude cover properties from the o_dirty system, they are
             // handled by _saveCoverProperties.
             coverPartEl.dataset.oeReadonly = 1;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return $wrapwrap.find('[data-oe-model]')
             .not('.o_not_editable')
@@ -932,7 +952,11 @@ export class WysiwygAdapterComponent extends Wysiwyg {
             .not('img[data-oe-field="arch"], br[data-oe-field="arch"], input[data-oe-field="arch"]')
             .not('.oe_snippet_editor')
 <<<<<<< HEAD
+<<<<<<< HEAD
             .not('hr, br, input, textarea')
+=======
+            .not('hr, br, input, textarea, owl-component')
+>>>>>>> upstream/18.0
 =======
             .not('hr, br, input, textarea, owl-component')
 >>>>>>> upstream/18.0
@@ -1127,7 +1151,11 @@ export class WysiwygAdapterComponent extends Wysiwyg {
                 // inside of it.
                 $savable.not('.o_dirty').each(function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (!this.hasAttribute('data-oe-readonly')) {
+=======
+                    if (this.tagName !== 'OWL-COMPONENT' && !this.hasAttribute('data-oe-readonly')) {
+>>>>>>> upstream/18.0
 =======
                     if (this.tagName !== 'OWL-COMPONENT' && !this.hasAttribute('data-oe-readonly')) {
 >>>>>>> upstream/18.0
@@ -1198,7 +1226,11 @@ export class WysiwygAdapterComponent extends Wysiwyg {
         const $savableZones = $(this.websiteService.pageDocument).find(this.savableSelector);
         const $editableSavableZones = $savableZones
 <<<<<<< HEAD
+<<<<<<< HEAD
             .not('input, [data-oe-readonly], ' +
+=======
+            .not('input, [data-oe-readonly], owl-component, ' +
+>>>>>>> upstream/18.0
 =======
             .not('input, [data-oe-readonly], owl-component, ' +
 >>>>>>> upstream/18.0
@@ -1465,6 +1497,10 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                keywords: ["banner", "info", "success", "warning", "danger"],
+>>>>>>> upstream/18.0
 =======
                 keywords: ["banner", "info", "success", "warning", "danger"],
 >>>>>>> upstream/18.0

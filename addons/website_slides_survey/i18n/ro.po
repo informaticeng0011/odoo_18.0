@@ -6,6 +6,10 @@
 # Wil Odoo, 2024
 # Maria Muntean, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Maria Muntean, 2025\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -32,7 +40,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_channel__members_certified_count
 msgid "# Certified Attendees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Participanți certificați"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Participanți certificați"
 >>>>>>> upstream/18.0
@@ -71,7 +83,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dragă <t t-out=\"object.partner_id.name or 'participant' or ''\">participant</t><br/><br/>\n"
@@ -86,6 +101,9 @@ msgstr ""
 "    \n"
 "</div>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides_survey
@@ -100,8 +118,13 @@ msgid ""
 "title=\"Download Certification\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-download\" aria-label=\"Download certification\" "
 "title=\"Download Certification\"/>"
+=======
+"<i class=\"fa fa-download\" aria-label=\"Descarcă certificarea\" "
+"title=\"Descarcă certificarea\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-download\" aria-label=\"Descarcă certificarea\" "
 "title=\"Descarcă certificarea\"/>"
@@ -114,8 +137,13 @@ msgid ""
 "certification\" title=\"Download certification\"/> Download certification"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download "
 "certification\" title=\"Download certification\"/>Descărcare certificare"
+=======
+"<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Descarcă "
+"certificarea\" title=\"Descarcă certificarea\"/> Descarcă certificarea"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Descarcă "
 "certificarea\" title=\"Descarcă certificarea\"/> Descarcă certificarea"
@@ -128,7 +156,11 @@ msgid ""
 "                        Share your certification"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-share-alt\" aria-label=\"Share certification\" title=\"Share certification\"/>\n"
+=======
+"<i class=\"fa fa-share-alt\" aria-label=\"Partajează certificarea\" title=\"Partajează certificarea\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-share-alt\" aria-label=\"Partajează certificarea\" title=\"Partajează certificarea\"/>\n"
 >>>>>>> upstream/18.0
@@ -138,7 +170,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.display_certificate
 msgid "<i class=\"fa fa-share-alt\" aria-label=\"Share\" title=\"Share\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-share-alt\" aria-label=\"Share\" title=\"Share\"/>"
+=======
+msgstr "<i class=\"fa fa-share-alt\" aria-label=\"Partajează\" title=\"Partajează\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-share-alt\" aria-label=\"Partajează\" title=\"Partajează\"/>"
 >>>>>>> upstream/18.0
@@ -157,7 +193,11 @@ msgstr "<i class=\"oi oi-arrow-right me-1\"/>Toate certificările"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.user_profile_content
 msgid "<i class=\"oi oi-arrow-right\"/> See Certifications"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"oi oi-arrow-right\"/> Vizulalizați certificări"
+=======
+msgstr "<i class=\"oi oi-arrow-right\"/> Vizualizați certificări"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right\"/> Vizualizați certificări"
 >>>>>>> upstream/18.0
@@ -176,7 +216,11 @@ msgstr "<span class=\"ms-1\">Certificări</span>"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_channel_view_form
 msgid "<span class=\"o_stat_text\">Certified</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Certificat</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Certificat</span>"
 >>>>>>> upstream/18.0
@@ -202,7 +246,11 @@ msgstr ""
 #: model:ir.model.constraint,message:website_slides_survey.constraint_slide_slide_check_survey_id
 msgid "A slide of type 'certification' requires a certification."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "O diapozitivă de tip „certificare” necesită o certificare."
+=======
+msgstr "O planșă de tip „certificare” necesită o certificare."
+>>>>>>> upstream/18.0
 =======
 msgstr "O planșă de tip „certificare” necesită o certificare."
 >>>>>>> upstream/18.0
@@ -211,7 +259,11 @@ msgstr "O planșă de tip „certificare” necesită o certificare."
 #: model:ir.model.constraint,message:website_slides_survey.constraint_slide_slide_check_certification_preview
 msgid "A slide of type certification cannot be previewed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "O diapozitivă de tip certificare nu poate fi previzualizată."
+=======
+msgstr "O planșă de tip certificare nu poate fi previzualizată."
+>>>>>>> upstream/18.0
 =======
 msgstr "O planșă de tip certificare nu poate fi previzualizată."
 >>>>>>> upstream/18.0
@@ -238,7 +290,11 @@ msgstr "Adăugați o nouă certificare"
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide__is_preview
 msgid "Allow Preview"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Permiteți Previzualizarea"
+=======
+msgstr "Permiteți previzualizarea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permiteți previzualizarea"
 >>>>>>> upstream/18.0
@@ -266,7 +322,11 @@ msgid ""
 msgstr ""
 "Evaluați nivelul de înțelegere al participanților dvs.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <br>și să le trimiteți un document dacă trec testul."
+=======
+"                <br>și trimiteți-le un document dacă trec testul."
+>>>>>>> upstream/18.0
 =======
 "                <br>și trimiteți-le un document dacă trec testul."
 >>>>>>> upstream/18.0
@@ -342,7 +402,11 @@ msgstr "Certificare obținută"
 #: model:ir.model.fields,field_description:website_slides_survey.field_survey_survey__slide_ids
 msgid "Certification Slides"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Diapozitive de certificare"
+=======
+msgstr "Planșe de certificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planșe de certificare"
 >>>>>>> upstream/18.0
@@ -351,7 +415,11 @@ msgstr "Planșe de certificare"
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide_partner__survey_scoring_success
 msgid "Certification Succeeded"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Certificare Reușită"
+=======
+msgstr "Certificare reușită"
+>>>>>>> upstream/18.0
 =======
 msgstr "Certificare reușită"
 >>>>>>> upstream/18.0
@@ -360,7 +428,11 @@ msgstr "Certificare reușită"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.survey_survey_view_tree_slides
 msgid "Certification Title"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Titlu Certificare"
+=======
+msgstr "Titlu certificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Titlu certificare"
 >>>>>>> upstream/18.0
@@ -374,7 +446,11 @@ msgstr "Încercări certificare"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.o_wss_certification_icon
 msgid "Certification icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictograma certificare"
+=======
+msgstr "Pictogramă certificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă certificare"
 >>>>>>> upstream/18.0
@@ -385,8 +461,12 @@ msgstr "Pictogramă certificare"
 msgid "Certification slides are completed when the survey is succeeded."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Diapozitivele de certificare sunt completate atunci când sondajul este "
 "reușit."
+=======
+"Planșele de certificare sunt completate atunci când sondajul este promovat."
+>>>>>>> upstream/18.0
 =======
 "Planșele de certificare sunt completate atunci când sondajul este promovat."
 >>>>>>> upstream/18.0
@@ -480,7 +560,11 @@ msgstr "Brad"
 #: model:survey.question,title:website_slides_survey.furniture_certification_page_1
 msgid "Furniture"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mobila"
+=======
+msgstr "Mobilă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mobilă"
 >>>>>>> upstream/18.0
@@ -522,7 +606,11 @@ msgstr "Marchează ca de făcut"
 #: code:addons/website_slides_survey/models/slide_channel.py:0
 msgid "No Attendee passed this course certification yet!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Niciun participant nu a promovat încă această certificare de curs!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niciun participant nu a promovat încă această certificare de curs!"
 >>>>>>> upstream/18.0
@@ -565,7 +653,11 @@ msgstr "Vă rugăm să selectați o certificare."
 #: model:ir.model.fields,field_description:website_slides_survey.field_survey_user_input__slide_id
 msgid "Related course slide"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Slide aferent cursului"
+=======
+msgstr "Planșă aferentă cursului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planșă aferentă cursului"
 >>>>>>> upstream/18.0
@@ -584,7 +676,11 @@ msgstr "Căutare"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.user_profile_content
 msgid "Search Attempts..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tentative de căutare..."
+=======
+msgstr "Căutare încercări..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Căutare încercări..."
 >>>>>>> upstream/18.0
@@ -594,7 +690,11 @@ msgstr "Căutare încercări..."
 #: code:addons/website_slides_survey/static/src/js/public/components/slide_upload_dialog/slide_upload_category.js:0
 msgid "Select a certification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selectați o certificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectați o certificare"
 >>>>>>> upstream/18.0
@@ -603,7 +703,11 @@ msgstr "Selectați o certificare"
 #: model:survey.question,title:website_slides_survey.furniture_certification_page_1_question_2
 msgid "Select all the furniture shown in the video"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Selectați toată mobila prezentată în film"
+=======
+msgstr "Selectați toată mobila prezentată în video"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectați toată mobila prezentată în video"
 >>>>>>> upstream/18.0
@@ -616,6 +720,11 @@ msgid ""
 "certification can be done from the backend."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Selectați o certificare existentă din listă. Crearea sau editarea unei "
+"certificări se poate face din backend."
+>>>>>>> upstream/18.0
 =======
 "Selectați o certificare existentă din listă. Crearea sau editarea unei "
 "certificări se poate face din backend."
@@ -625,9 +734,13 @@ msgstr ""
 #: model:mail.template,description:website_slides_survey.mail_template_user_input_certification_failed
 msgid "Sent to participant if they failed the certification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Trimis participantului în cazul în care acesta nu a reușit să obțină "
 "certificarea"
+=======
+msgstr "Trimis participantului dacă nu a promovat certificarea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimis participantului dacă nu a promovat certificarea"
 >>>>>>> upstream/18.0
@@ -641,7 +754,11 @@ msgstr "Raft"
 #: model:ir.model,name:website_slides_survey.model_slide_slide_partner
 msgid "Slide / Partner decorated m2m"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Slide / Partener decorat m2m"
+=======
+msgstr "Planșă / Partener decorat m2m"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planșă / Partener decorat m2m"
 >>>>>>> upstream/18.0
@@ -650,7 +767,11 @@ msgstr "Planșă / Partener decorat m2m"
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide__slide_type
 msgid "Slide Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul Planșei"
+=======
+msgstr "Tip planșă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip planșă"
 >>>>>>> upstream/18.0
@@ -659,7 +780,11 @@ msgstr "Tip planșă"
 #: model:ir.model.fields,help:website_slides_survey.field_survey_user_input__slide_partner_id
 msgid "Slide membership information for the logged in user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Slide informații de membru pentru utilizatorul conectat"
+=======
+msgstr "Informații despre membru pentru utilizatorul autentificat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informații despre membru pentru utilizatorul autentificat"
 >>>>>>> upstream/18.0
@@ -668,7 +793,11 @@ msgstr "Informații despre membru pentru utilizatorul autentificat"
 #: model:ir.model,name:website_slides_survey.model_slide_slide
 msgid "Slides"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Prezentări"
+=======
+msgstr "Planșe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planșe"
 >>>>>>> upstream/18.0
@@ -685,8 +814,13 @@ msgid ""
 " / source type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Subtipul categoriei diapozitivului, permite mai multă precizie în ceea ce "
 "privește tipul de fișier / tipul sursă."
+=======
+"Subtipul categoriei planșei, permite mai multă precizie privind tipul de "
+"fișier / tipul sursă."
+>>>>>>> upstream/18.0
 =======
 "Subtipul categoriei planșei, permite mai multă precizie privind tipul de "
 "fișier / tipul sursă."
@@ -696,7 +830,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.survey_survey_view_tree_slides
 msgid "Success Ratio (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rata de succes (%)"
+=======
+msgstr "Rată de succes (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rată de succes (%)"
 >>>>>>> upstream/18.0
@@ -710,7 +848,11 @@ msgstr "Sondaj"
 #: model:ir.model,name:website_slides_survey.model_survey_user_input
 msgid "Survey User Input"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Răspuns Utilizator Sondaj"
+=======
+msgstr "Răspuns utilizator sondaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Răspuns utilizator sondaj"
 >>>>>>> upstream/18.0
@@ -719,7 +861,11 @@ msgstr "Răspuns utilizator sondaj"
 #: model:mail.template,name:website_slides_survey.mail_template_user_input_certification_failed
 msgid "Survey: Certification Failure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sondaj: Eșecul certificării"
+=======
+msgstr "Sondaj: Eșec la certificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sondaj: Eșec la certificare"
 >>>>>>> upstream/18.0
@@ -733,7 +879,11 @@ msgstr "Masă"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_content_detailed
 msgid "Take Quiz"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ia testul"
+=======
+msgstr "Dă testul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dă testul"
 >>>>>>> upstream/18.0
@@ -758,7 +908,11 @@ msgid ""
 "channel to access the content of the course."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cursul este accesibil de oricine: utilizatorii nu trebuie să se alăture "
+=======
+"Cursul este accesibil oricui: utilizatorii nu trebuie să se alăture "
+>>>>>>> upstream/18.0
 =======
 "Cursul este accesibil oricui: utilizatorii nu trebuie să se alăture "
 >>>>>>> upstream/18.0
@@ -770,7 +924,11 @@ msgid ""
 "The courses this survey is linked to through the e-learning application"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cursurile la care este legat sondajul prin intermediul aplicației de "
+=======
+"Cursurile la care acest sondaj este legat prin intermediul aplicației de "
+>>>>>>> upstream/18.0
 =======
 "Cursurile la care acest sondaj este legat prin intermediul aplicației de "
 >>>>>>> upstream/18.0
@@ -780,8 +938,12 @@ msgstr ""
 #: model:ir.model.fields,help:website_slides_survey.field_survey_user_input__slide_id
 msgid "The related course slide when there is no membership information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Diapozitivul de curs aferent atunci când nu există informații despre membru"
+=======
+msgstr "Planșa aferentă cursului când nu există informații despre membru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planșa aferentă cursului când nu există informații despre membru"
 >>>>>>> upstream/18.0
@@ -791,8 +953,13 @@ msgstr "Planșa aferentă cursului când nu există informații despre membru"
 msgid "The slides this survey is linked to through the e-learning application"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Slide-urile la care acest sondaj este conectat prin intermediul aplicației "
 "de e-learning"
+=======
+"Planșele la care acest sondaj este legat prin intermediul aplicației de "
+"e-learning"
+>>>>>>> upstream/18.0
 =======
 "Planșele la care acest sondaj este legat prin intermediul aplicației de "
 "e-learning"
@@ -807,7 +974,11 @@ msgstr "Titlu"
 #: model:survey.question,title:website_slides_survey.furniture_certification_page_1_question_3
 msgid "What do you think about the content of the course? (not rated)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ce părere aveți despre conținutul cursului? (nu a fost evaluat)"
+=======
+msgstr "Ce părere aveți despre conținutul cursului? (neevaluat)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ce părere aveți despre conținutul cursului? (neevaluat)"
 >>>>>>> upstream/18.0
@@ -822,7 +993,11 @@ msgstr "Ce tip de lemn este cel mai bun pentru mobilă?"
 #: code:addons/website_slides_survey/controllers/slides.py:0
 msgid "You are not allowed to create a survey."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu vă este permis să creați un sondaj."
+=======
+msgstr "Nu aveți permisiunea să creați un sondaj."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu aveți permisiunea să creați un sondaj."
 >>>>>>> upstream/18.0
@@ -832,7 +1007,11 @@ msgstr "Nu aveți permisiunea să creați un sondaj."
 #: code:addons/website_slides_survey/controllers/slides.py:0
 msgid "You are not allowed to link a certification."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu vi se permite să asociați o certificare."
+=======
+msgstr "Nu aveți permisiunea să asociați o certificare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu aveți permisiunea să asociați o certificare."
 >>>>>>> upstream/18.0
@@ -844,8 +1023,13 @@ msgid ""
 "                            <br/>Follow the links to reach new heights and skill up!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Puteți obține insigne prin promovarea certificărilor. Aici este o listă a tuturor insignelor de certificare disponibile.\n"
 "                            <br/>Urmați link-urile pentru a atinge noi înălțimi și pentru a vă perfecționa!"
+=======
+"Puteți obține insigne promovând certificări. Aici este o listă a tuturor insignelor de certificare disponibile.\n"
+"                            <br/>Urmați linkurile pentru a atinge noi înălțimi și a vă perfecționa!"
+>>>>>>> upstream/18.0
 =======
 "Puteți obține insigne promovând certificări. Aici este o listă a tuturor insignelor de certificare disponibile.\n"
 "                            <br/>Urmați linkurile pentru a atinge noi înălțimi și a vă perfecționa!"
@@ -856,7 +1040,11 @@ msgstr ""
 msgid ""
 "You have failed the course: {{ object.slide_partner_id.channel_id.name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ați picat cursul: {{ object.slide_partner_id.channel_id.name }}"
+=======
+msgstr "Nu ați promovat cursul: {{ object.slide_partner_id.channel_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu ați promovat cursul: {{ object.slide_partner_id.channel_id.name }}"
 >>>>>>> upstream/18.0
@@ -865,7 +1053,11 @@ msgstr "Nu ați promovat cursul: {{ object.slide_partner_id.channel_id.name }}"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.user_profile_content
 msgid "You have not taken any certification yet."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu ați luat încă nicio certificare."
+=======
+msgstr "Nu ați susținut încă nicio certificare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu ați susținut încă nicio certificare."
 >>>>>>> upstream/18.0

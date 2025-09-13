@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* account_debit_note
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Fernanda Alvarez, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Fernanda Alvarez, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-05 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Fernanda Alvarez, 2025\n"
@@ -40,6 +49,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_debit_note
@@ -61,17 +73,23 @@ msgstr "Cancelar"
 #: model:ir.model.fields,help:account_debit_note.field_account_journal__debit_sequence
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Check this box if you don't want to share the same sequence for invoices and"
 " debit notes made from this journal"
 msgstr ""
 "Seleccione esta casilla si no desea compartir la misma secuencia de facturas"
 " y notas de débito de este diario"
 =======
+=======
+>>>>>>> upstream/18.0
 "Check this box if you don't want to share the same sequence for invoices and "
 "debit notes made from this journal"
 msgstr ""
 "Seleccione esta casilla si no desea compartir la misma secuencia de facturas "
 "y notas de débito de este diario"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_debit_note
@@ -83,7 +101,11 @@ msgstr "Copiar líneas"
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__country_code
 msgid "Country Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Código de país"
+=======
+msgstr "Código del país"
+>>>>>>> upstream/18.0
 =======
 msgstr "Código del país"
 >>>>>>> upstream/18.0
@@ -218,7 +240,11 @@ msgid ""
 msgstr ""
 "El código ISO del país en dos caracteres.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Puede utilizar este campo para realizar una búsqueda rápida."
+=======
+"Puedes utilizar este campo para realizar una búsqueda rápida."
+>>>>>>> upstream/18.0
 =======
 "Puedes utilizar este campo para realizar una búsqueda rápida."
 >>>>>>> upstream/18.0
@@ -232,7 +258,11 @@ msgstr "Notas de débito creadas para esta factura"
 #. module: account_debit_note
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
+=======
+#: code:addons/account_debit_note/models/account_move.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/account_debit_note/models/account_move.py:0
 >>>>>>> upstream/18.0
@@ -265,8 +295,13 @@ msgstr "Solo puede debitar movimientos publicados."
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't make a debit note for an invoice that is already linked to a debit"
 " note."
+=======
+"You can't make a debit note for an invoice that is already linked to a debit "
+"note."
+>>>>>>> upstream/18.0
 =======
 "You can't make a debit note for an invoice that is already linked to a debit "
 "note."

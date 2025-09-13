@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* calendar
 # 
+=======
+# * calendar
+#
+>>>>>>> upstream/18.0
 =======
 # * calendar
 #
@@ -17,6 +22,7 @@
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
 # krnkris, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -416,11 +422,17 @@
 # gezza <geza.nagy@oregional.hu>, 2025
 # Tamás Dombos <tdombos@gmail.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Valics Lehel, 2025
+# gezza <geza.nagy@oregional.hu>, 2025
+# Tamás Dombos <tdombos@gmail.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -755,6 +767,8 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-20 14:39+0000\n"
 "Last-Translator: Tamás Dombos <tdombos@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.odoo.com/projects/odoo-18/"
@@ -765,6 +779,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: calendar
@@ -1240,6 +1257,12 @@ msgid ""
 "'weekly')\">Repeat on</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold text-nowrap\" invisible=\"rrule_type_ui not in "
+"['weekly', 'custom'] or (rrule_type_ui == 'custom' and rrule_type != "
+"'weekly')\">Ismétlés minden</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fw-bold text-nowrap\" invisible=\"rrule_type_ui not in "
 "['weekly', 'custom'] or (rrule_type_ui == 'custom' and rrule_type != "
@@ -1271,7 +1294,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "<span> Attendees</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> Résztvevők</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> Résztvevők</span>"
 >>>>>>> upstream/18.0
@@ -1356,7 +1383,11 @@ msgstr "Tevékenység ütemezés terv varázsló"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Add attendees..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adjon hozzá résztvevőket..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Adjon hozzá résztvevőket..."
 >>>>>>> upstream/18.0
@@ -1365,7 +1396,11 @@ msgstr "Adjon hozzá résztvevőket..."
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Add description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adjon hozzá leírást"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adjon hozzá leírást"
 >>>>>>> upstream/18.0
@@ -1432,7 +1467,11 @@ msgstr "Résztvevők"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__attendees_count
 msgid "Attendees Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Résztvevők száma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Résztvevők száma"
 >>>>>>> upstream/18.0
@@ -1499,7 +1538,11 @@ msgid "Bye-bye, record!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Viszlát, rekord!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Viszlát, rekord!"
 >>>>>>> upstream/18.0
@@ -1727,7 +1770,11 @@ msgstr "Kapcsolat"
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Contact Attendees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Üzenet küldése a résztvevőknek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Üzenet küldése a résztvevőknek"
 >>>>>>> upstream/18.0
@@ -1765,7 +1812,11 @@ msgstr "Létrehozva"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__current_attendee
 msgid "Current Attendee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jelenlegi résztvevő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jelenlegi résztvevő"
 >>>>>>> upstream/18.0
@@ -1842,6 +1893,11 @@ msgstr ""
 msgid "Default privacy setting for whom the calendar events will be visible."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alapértelmezett beállítás, hogy kinek számára lesznek láthatóak a "
+"naptáresemények."
+>>>>>>> upstream/18.0
 =======
 "Alapértelmezett beállítás, hogy kinek számára lesznek láthatóak a "
 "naptáresemények."
@@ -1906,7 +1962,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__display_description
 msgid "Display Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Leírás megjelenítése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Leírás megjelenítése"
 >>>>>>> upstream/18.0
@@ -2314,7 +2374,11 @@ msgstr "Meghívó részletei"
 #: model:mail.template,description:calendar.calendar_template_meeting_invitation
 msgid "Invitation email to new attendees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meghívó email az új résztvevőknek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Meghívó email az új résztvevőknek"
 >>>>>>> upstream/18.0
@@ -2403,7 +2467,11 @@ msgstr "Találkozó automatikus ismétlése ebben az intervallumban"
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lokáció"
+=======
+msgstr "Helyszín"
+>>>>>>> upstream/18.0
 =======
 msgstr "Helyszín"
 >>>>>>> upstream/18.0
@@ -2424,7 +2492,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__state__tentative
 msgid "Maybe"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "talán"
+>>>>>>> upstream/18.0
 =======
 msgstr "talán"
 >>>>>>> upstream/18.0
@@ -2606,7 +2678,11 @@ msgid "No, keep it"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nem, maradjon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nem, maradjon"
 >>>>>>> upstream/18.0
@@ -2693,7 +2769,11 @@ msgstr "Értesítés - 30 perc"
 #: model:ir.model.fields,help:calendar.field_calendar_event__alarm_ids
 msgid "Notifications sent to all attendees to remind of the meeting."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Az összes résztvevőknek küldött emlékeztető."
+>>>>>>> upstream/18.0
 =======
 msgstr "Az összes résztvevőknek küldött emlékeztető."
 >>>>>>> upstream/18.0
@@ -2810,7 +2890,11 @@ msgstr "A felhasználó partner-kapcsolati adatai"
 #: model:ir.model.fields,help:calendar.field_calendar_event__privacy
 msgid "People to whom this event will be visible."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kinek számára lesz látható ez az esemény."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kinek számára lesz látható ez az esemény."
 >>>>>>> upstream/18.0
@@ -2824,7 +2908,11 @@ msgstr "Telefon"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__privacy
 msgid "Privacy"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adatvédelem"
+=======
+msgstr "Láthatóság"
+>>>>>>> upstream/18.0
 =======
 msgstr "Láthatóság"
 >>>>>>> upstream/18.0
@@ -2871,7 +2959,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Recurrent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Időszakos"
+=======
+msgstr "Ismétlődő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ismétlődő"
 >>>>>>> upstream/18.0
@@ -2993,7 +3085,11 @@ msgid "Reschedule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Újraütemezés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Újraütemezés"
 >>>>>>> upstream/18.0
@@ -3256,7 +3352,11 @@ msgstr "Válassza ki a résztvevőket..."
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Send Email to attendees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email küldése a résztvevőknek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email küldése a résztvevőknek"
 >>>>>>> upstream/18.0
@@ -3275,7 +3375,11 @@ msgstr "Levél küldése"
 #: model:mail.template,description:calendar.calendar_template_meeting_reminder
 msgid "Sent to all attendees if a reminder is set"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Az összes résztvevőnek küldve, ha be van állítva emlékeztető"
+>>>>>>> upstream/18.0
 =======
 msgstr "Az összes résztvevőnek küldve, ha be van állítva emlékeztető"
 >>>>>>> upstream/18.0
@@ -3284,7 +3388,11 @@ msgstr "Az összes résztvevőnek küldve, ha be van állítva emlékeztető"
 #: model:mail.template,description:calendar.calendar_template_meeting_changedate
 msgid "Sent to all attendees if the schedule change"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Az összes résztvevőnek küldve, ha az eseményt átütemezték"
+>>>>>>> upstream/18.0
 =======
 msgstr "Az összes résztvevőnek küldve, ha az eseményt átütemezték"
 >>>>>>> upstream/18.0
@@ -3315,7 +3423,11 @@ msgstr "Szundi"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__start
 msgid "Start"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Indítás"
+=======
+msgstr "Kezdete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kezdete"
 >>>>>>> upstream/18.0
@@ -3336,7 +3448,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__state
 msgid "Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Státusz"
+=======
+msgstr "Állapot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Állapot"
 >>>>>>> upstream/18.0
@@ -3485,7 +3601,11 @@ msgstr "Az ismétlés száma nem lehet negatív."
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "There are no attendees on these events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ezeknek az eseményeknek nincs résztvevője"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ezeknek az eseményeknek nincs résztvevője"
 >>>>>>> upstream/18.0
@@ -3587,7 +3707,11 @@ msgstr "Eddig"
 #: model:mail.template,description:calendar.calendar_template_meeting_update
 msgid "Used to manually notifiy attendees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A résztvevők egyedi értesítésére használt"
+>>>>>>> upstream/18.0
 =======
 msgstr "A résztvevők egyedi értesítésére használt"
 >>>>>>> upstream/18.0
@@ -3617,7 +3741,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Videocall URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Videóhívás URL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Videóhívás URL"
 >>>>>>> upstream/18.0
@@ -3699,7 +3827,11 @@ msgstr ""
 #: code:addons/calendar/models/calendar_attendee.py:0
 msgid "You cannot duplicate a calendar attendee."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nem sokszorozhat meg egy naptári résztvevőt."
+=======
+msgstr "Nem adhat hozzá többször egy résztvevőt az eseményhez."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nem adhat hozzá többször egy résztvevőt az eseményhez."
 >>>>>>> upstream/18.0
@@ -3727,7 +3859,11 @@ msgstr ""
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "attendees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "résztvevő"
+>>>>>>> upstream/18.0
 =======
 msgstr "résztvevő"
 >>>>>>> upstream/18.0
@@ -3736,7 +3872,11 @@ msgstr "résztvevő"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "awaiting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "válaszra vár"
+>>>>>>> upstream/18.0
 =======
 msgstr "válaszra vár"
 >>>>>>> upstream/18.0
@@ -3761,7 +3901,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "maybe,"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "talán,"
+>>>>>>> upstream/18.0
 =======
 msgstr "talán,"
 >>>>>>> upstream/18.0
@@ -3771,7 +3915,11 @@ msgstr "talán,"
 #: code:addons/calendar/static/src/views/fields/attendee_tags_list.xml:0
 msgid "no email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nincs email"
+>>>>>>> upstream/18.0
 =======
 msgstr "nincs email"
 >>>>>>> upstream/18.0
@@ -3797,7 +3945,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "yes,"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "igen,"
+>>>>>>> upstream/18.0
 =======
 msgstr "igen,"
 >>>>>>> upstream/18.0

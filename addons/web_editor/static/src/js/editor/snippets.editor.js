@@ -105,6 +105,10 @@ var SnippetEditor = publicWidget.Widget.extend({
         this.displayOverlayOptions = false;
         this._$toolbarContainer = $();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isRtl = this.options.direction === "rtl";
+>>>>>>> upstream/18.0
 =======
         this.isRtl = this.options.direction === "rtl";
 >>>>>>> upstream/18.0
@@ -937,7 +941,11 @@ var SnippetEditor = publicWidget.Widget.extend({
                 const boundedYMousePosition = Math.min(args.y, targetRect.bottom - gridRowSize);
                 this.mousePositionYOnElement = boundedYMousePosition - targetRect.y;
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.mousePositionXOnElement = args.x - targetRect.x;
+=======
+                this.mousePositionXOnElement = (args.x - targetRect.x) * (this.isRtl ? -1 : 1);
+>>>>>>> upstream/18.0
 =======
                 this.mousePositionXOnElement = (args.x - targetRect.x) * (this.isRtl ? -1 : 1);
 >>>>>>> upstream/18.0
@@ -1435,7 +1443,11 @@ var SnippetEditor = publicWidget.Widget.extend({
             const style = window.getComputedStyle(this.$target[0]);
             const top = parseFloat(style.top);
 <<<<<<< HEAD
+<<<<<<< HEAD
             const left = parseFloat(style.left);
+=======
+            const left = parseFloat(this.isRtl ? style.right : style.left);
+>>>>>>> upstream/18.0
 =======
             const left = parseFloat(this.isRtl ? style.right : style.left);
 >>>>>>> upstream/18.0
@@ -1751,7 +1763,10 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2006,6 +2021,9 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2252,16 +2270,22 @@ var SnippetEditor = publicWidget.Widget.extend({
         const columnEl = this.$target[0];
         const rowEl = columnEl.parentNode;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         // Computing the rowEl position.
         const rowElTop = rowEl.getBoundingClientRect().top;
         const rowElLeft = rowEl.getBoundingClientRect().left;
 =======
+=======
+>>>>>>> upstream/18.0
         const rowElRect = rowEl.getBoundingClientRect();
 
         // Computing the rowEl position.
         const rowElTop = rowElRect.top;
         const rowElLeft = rowElRect.left;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         // Getting the column dimensions.
@@ -2273,8 +2297,11 @@ var SnippetEditor = publicWidget.Widget.extend({
         let top = y - rowElTop - this.mousePositionYOnElement;
         const bottom = top + columnHeight;
 <<<<<<< HEAD
+<<<<<<< HEAD
         let left = x - rowElLeft - this.mousePositionXOnElement;
 =======
+=======
+>>>>>>> upstream/18.0
 
         let left;
         if (this.isRtl) {
@@ -2283,6 +2310,9 @@ var SnippetEditor = publicWidget.Widget.extend({
         } else {
             left = x - rowElLeft - this.mousePositionXOnElement;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         // Horizontal and top overflow.
@@ -2291,13 +2321,19 @@ var SnippetEditor = publicWidget.Widget.extend({
 
         columnEl.style.top = top + 'px';
 <<<<<<< HEAD
+<<<<<<< HEAD
         columnEl.style.left = left + 'px';
 =======
+=======
+>>>>>>> upstream/18.0
         if (this.isRtl) {
             columnEl.style.right = left + 'px';
         } else {
             columnEl.style.left = left + 'px';
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         // Computing the drag helper corresponding grid area.
@@ -3465,6 +3501,12 @@ class SnippetsMenu extends Component {
                 resolve(null);
             }).then(async editorToEnable => {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if (editorToEnable && editorToEnable.$target[0] && !editorToEnable.$target[0].closest("body")) {
+                    return null;
+                }
+>>>>>>> upstream/18.0
 =======
                 if (editorToEnable && editorToEnable.$target[0] && !editorToEnable.$target[0].closest("body")) {
                     return null;

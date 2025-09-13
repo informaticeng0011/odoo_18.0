@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* lunch
 # 
+=======
+# * lunch
+#
+>>>>>>> upstream/18.0
 =======
 # * lunch
 #
@@ -99,6 +104,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Goran Kliska <gkliska@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -344,15 +350,21 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # Goran Kliska <gkliska@gmail.com>, 2025
 # Luka Carević <luka@uvid.hr>, 2025
 # Alen Komljen <alen@uvid.hr>, 2025.
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -850,6 +862,8 @@ msgstr ""
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2025-08-20 11:48+0000\n"
 "Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
@@ -862,6 +876,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: lunch
@@ -1155,7 +1172,11 @@ msgstr "Administrator"
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert__name
 msgid "Alert Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv upozorenja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv upozorenja"
 >>>>>>> upstream/18.0
@@ -1169,7 +1190,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:lunch.selection__lunch_alert__mode__alert
 msgid "Alert in app"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upozorenje u aplikaciji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upozorenje u aplikaciji"
 >>>>>>> upstream/18.0
@@ -1233,7 +1258,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_product_view_search
 msgid "Available Today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostupno danas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dostupno danas"
 >>>>>>> upstream/18.0
@@ -1320,7 +1349,11 @@ msgstr ""
 #: model:ir.ui.menu,name:lunch.lunch_cashmove_report_menu_payment
 msgid "Cash Moves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Novčane transakcije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Novčane transakcije"
 >>>>>>> upstream/18.0
@@ -1344,7 +1377,11 @@ msgstr "Kategorija"
 #: model:ir.model.fields.selection,name:lunch.selection__lunch_alert__mode__chat
 msgid "Chat notification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obavijest u chatu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obavijest u chatu"
 >>>>>>> upstream/18.0
@@ -1389,6 +1426,12 @@ msgid ""
 "            Click on the <span class=\"fa fa-times-circle text-danger\" title=\"Cancel button\"></span> red X to announce that the order isn't available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kliknite na <span class=\"fa fa-phone text-success\" title=\"Order button\"></span> kako bi označili da je narudžba naručena.<br>\n"
+"            Kliknite na <span class=\"fa fa-check text-success\" title=\"Receive button\"></span> kako bi označili da je narudžba zaprimljena.<br>\n"
+"            Kliknite na <span class=\"fa fa-times-circle text-danger\" title=\"Cancel button\"></span> crveni X kako bi označili da narudžba nije dostupna."
+>>>>>>> upstream/18.0
 =======
 "Kliknite na <span class=\"fa fa-phone text-success\" title=\"Order button\"></span> kako bi označili da je narudžba naručena.<br>\n"
 "            Kliknite na <span class=\"fa fa-check text-success\" title=\"Receive button\"></span> kako bi označili da je narudžba zaprimljena.<br>\n"
@@ -1440,6 +1483,7 @@ msgstr ""
 #. module: lunch
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_order_view_tree
 msgid "Confirm"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1769,6 +1813,9 @@ msgstr "Potvrdi"
 =======
 msgstr "Potvrdi"
 >>>>>>> upstream/18.0
+=======
+msgstr "Potvrdi"
+>>>>>>> upstream/18.0
 
 #. module: lunch
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_order_view_tree
@@ -1780,7 +1827,11 @@ msgstr ""
 #: model:ir.ui.menu,name:lunch.lunch_cashmove_report_menu_control_accounts
 msgid "Control Accounts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljanje računima"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravljanje računima"
 >>>>>>> upstream/18.0
@@ -1790,7 +1841,11 @@ msgstr "Upravljanje računima"
 #: model:ir.ui.menu,name:lunch.lunch_order_menu_control_suppliers
 msgid "Control Vendors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontrola dobavljača"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontrola dobavljača"
 >>>>>>> upstream/18.0
@@ -1821,7 +1876,11 @@ msgstr "Kreiraj novi proizvod za jelovnik"
 #: model_terms:ir.actions.act_window,help:lunch.lunch_alert_action
 msgid "Create new lunch alerts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stvorite nova upozorenja za ručak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stvorite nova upozorenja za ručak"
 >>>>>>> upstream/18.0
@@ -1967,7 +2026,11 @@ msgstr "Svi"
 #: model:ir.model.fields,field_description:lunch.field_lunch_supplier__topping_label_1
 msgid "Extra 1 Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodatna 1 oznaka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodatna 1 oznaka"
 >>>>>>> upstream/18.0
@@ -1977,7 +2040,11 @@ msgstr "Dodatna 1 oznaka"
 #: model:ir.model.fields,field_description:lunch.field_lunch_supplier__topping_quantity_1
 msgid "Extra 1 Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodatna 1 količina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodatna 1 količina"
 >>>>>>> upstream/18.0
@@ -1987,7 +2054,11 @@ msgstr "Dodatna 1 količina"
 #: model:ir.model.fields,field_description:lunch.field_lunch_supplier__topping_label_2
 msgid "Extra 2 Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodatna 2 oznaka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodatna 2 oznaka"
 >>>>>>> upstream/18.0
@@ -1997,7 +2068,11 @@ msgstr "Dodatna 2 oznaka"
 #: model:ir.model.fields,field_description:lunch.field_lunch_supplier__topping_quantity_2
 msgid "Extra 2 Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodatna 2 količina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodatna 2 količina"
 >>>>>>> upstream/18.0
@@ -2007,7 +2082,11 @@ msgstr "Dodatna 2 količina"
 #: model:ir.model.fields,field_description:lunch.field_lunch_supplier__topping_label_3
 msgid "Extra 3 Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodatna 3 oznaka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodatna 3 oznaka"
 >>>>>>> upstream/18.0
@@ -2017,7 +2096,11 @@ msgstr "Dodatna 3 oznaka"
 #: model:ir.model.fields,field_description:lunch.field_lunch_supplier__topping_quantity_3
 msgid "Extra 3 Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodatna 3 količina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodatna 3 količina"
 >>>>>>> upstream/18.0
@@ -2026,7 +2109,11 @@ msgstr "Dodatna 3 količina"
 #: model:ir.model.fields,field_description:lunch.field_lunch_order__display_toppings
 msgid "Extras"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaci"
 >>>>>>> upstream/18.0
@@ -2035,7 +2122,11 @@ msgstr "Dodaci"
 #: model:ir.model.fields,field_description:lunch.field_lunch_order__topping_ids_1
 msgid "Extras 1"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaci 1"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaci 1"
 >>>>>>> upstream/18.0
@@ -2044,7 +2135,11 @@ msgstr "Dodaci 1"
 #: model:ir.model.fields,field_description:lunch.field_lunch_order__topping_ids_2
 msgid "Extras 2"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaci 2"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaci 2"
 >>>>>>> upstream/18.0
@@ -2053,7 +2148,11 @@ msgstr "Dodaci 2"
 #: model:ir.model.fields,field_description:lunch.field_lunch_order__topping_ids_3
 msgid "Extras 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaci 3"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaci 3"
 >>>>>>> upstream/18.0
@@ -2148,7 +2247,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:lunch.lunch_order_action_by_supplier
 msgid "Here you can see today's orders grouped by vendors."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovdje možete vidjeti današnje narudžbe grupirane po dobavljačima."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovdje možete vidjeti današnje narudžbe grupirane po dobavljačima."
 >>>>>>> upstream/18.0
@@ -2160,6 +2263,11 @@ msgid ""
 "            An expense is automatically created when an order is received while a payment is a reimbursement to the company encoded by the manager."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ovdje možete vidjeti svoje novčane transakcije.<br>Novčana transakcija može biti trošak ili uplata.\n"
+"            Trošak se automatski kreira kada se zaprimi narudžba, dok je uplata povrat sredstava tvrtki koji unosi voditelj."
+>>>>>>> upstream/18.0
 =======
 "Ovdje možete vidjeti svoje novčane transakcije.<br>Novčana transakcija može biti trošak ili uplata.\n"
 "            Trošak se automatski kreira kada se zaprimi narudžba, dok je uplata povrat sredstava tvrtki koji unosi voditelj."
@@ -2243,7 +2351,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert__available_today
 msgid "Is Displayed Today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je prikazano danas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je prikazano danas"
 >>>>>>> upstream/18.0
@@ -2252,7 +2364,11 @@ msgstr "Je prikazano danas"
 #: model:ir.model.fields,field_description:lunch.field_lunch_product__is_favorite
 msgid "Is Favorite"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je omiljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je omiljeno"
 >>>>>>> upstream/18.0
@@ -2333,7 +2449,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:lunch.lunch_alert_action
 msgid "Lunch Alerts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obavijesti za ručak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obavijesti za ručak"
 >>>>>>> upstream/18.0
@@ -2345,7 +2465,11 @@ msgstr "Obavijesti za ručak"
 #: model:ir.model,name:lunch.model_lunch_cashmove
 msgid "Lunch Cashmove"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Novčana transakcija za ručak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Novčana transakcija za ručak"
 >>>>>>> upstream/18.0
@@ -2354,7 +2478,11 @@ msgstr "Novčana transakcija za ručak"
 #: model:ir.model,name:lunch.model_lunch_topping
 msgid "Lunch Extras"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaci za ručak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaci za ručak"
 >>>>>>> upstream/18.0
@@ -2363,7 +2491,11 @@ msgstr "Dodaci za ručak"
 #: model:ir.model.fields,field_description:lunch.field_lunch_order__lunch_location_id
 msgid "Lunch Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokacija ručka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokacija ručka"
 >>>>>>> upstream/18.0
@@ -2373,7 +2505,11 @@ msgstr "Lokacija ručka"
 #: model:ir.model,name:lunch.model_lunch_location
 msgid "Lunch Locations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokacije za ručak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokacije za ručak"
 >>>>>>> upstream/18.0
@@ -2402,7 +2538,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:lunch.res_config_settings_view_form
 msgid "Lunch Overdraft"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prekoračenje za ručak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prekoračenje za ručak"
 >>>>>>> upstream/18.0
@@ -2426,7 +2566,11 @@ msgstr ""
 #: model:ir.model,name:lunch.model_lunch_supplier
 msgid "Lunch Supplier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dobavljač za ručak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dobavljač za ručak"
 >>>>>>> upstream/18.0
@@ -2550,7 +2694,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.server,name:lunch.lunch_alert_cron_sa_227
+=======
+#: model:ir.actions.server,name:lunch.lunch_alert_cron_sa_228
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.server,name:lunch.lunch_alert_cron_sa_228
 >>>>>>> upstream/18.0
@@ -2883,7 +3031,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_228
+=======
+#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_229
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_229
 >>>>>>> upstream/18.0
@@ -3216,7 +3368,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_223
+=======
+#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_224
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_224
 >>>>>>> upstream/18.0
@@ -3549,7 +3705,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_229
+=======
+#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_230
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_230
 >>>>>>> upstream/18.0
@@ -3882,7 +4042,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_231
+=======
+#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_232
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_232
 >>>>>>> upstream/18.0
@@ -4215,7 +4379,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_230
+=======
+#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_231
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_231
 >>>>>>> upstream/18.0
@@ -4469,7 +4637,11 @@ msgstr ""
 #: model:ir.model.fields,help:lunch.field_res_config_settings__currency_id
 msgid "Main currency of the company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Glavna valuta kompanije"
+=======
+msgstr "Glavna valuta tvrtke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Glavna valuta tvrtke"
 >>>>>>> upstream/18.0
@@ -4488,7 +4660,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:lunch.res_config_settings_view_form
 msgid "Maximum overdraft that your employees can reach"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maksimalno prekoračenje koje vaši zaposlenici mogu dosegnuti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksimalno prekoračenje koje vaši zaposlenici mogu dosegnuti"
 >>>>>>> upstream/18.0
@@ -4543,7 +4719,11 @@ msgstr "Moj korisnički račun"
 #: model:ir.ui.menu,name:lunch.lunch_cashmove_report_menu_form
 msgid "My Account History"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povijest mog računa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povijest mog računa"
 >>>>>>> upstream/18.0
@@ -4553,7 +4733,11 @@ msgstr "Povijest mog računa"
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search
 msgid "My Account grouped"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moj račun – grupirano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moj račun – grupirano"
 >>>>>>> upstream/18.0
@@ -4572,7 +4756,11 @@ msgstr "Moj Ručak"
 #: model:ir.ui.menu,name:lunch.lunch_order_menu_tree
 msgid "My Order History"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povijest mojih narudžbi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povijest mojih narudžbi"
 >>>>>>> upstream/18.0
@@ -4608,7 +4796,11 @@ msgstr "Nova narudžba"
 #: model:ir.model.fields,field_description:lunch.field_lunch_product__new_until
 msgid "New Until"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Novo do"
+>>>>>>> upstream/18.0
 =======
 msgstr "Novo do"
 >>>>>>> upstream/18.0
@@ -4637,7 +4829,11 @@ msgstr "Tip sljedeće aktivnosti"
 #: model:ir.model.fields.selection,name:lunch.selection__lunch_supplier__delivery__no_delivery
 msgid "No Delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema dostave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema dostave"
 >>>>>>> upstream/18.0
@@ -4646,7 +4842,11 @@ msgstr "Nema dostave"
 #: model_terms:ir.actions.act_window,help:lunch.lunch_cashmove_report_action_account
 msgid "No cash move yet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Još nema novčane transakcije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Još nema novčane transakcije"
 >>>>>>> upstream/18.0
@@ -4667,7 +4867,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:lunch.lunch_order_action_control_suppliers
 msgid "No lunch order yet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Još nema narudžbe za ručak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Još nema narudžbe za ručak"
 >>>>>>> upstream/18.0
@@ -4676,7 +4880,11 @@ msgstr "Još nema narudžbe za ručak"
 #: model_terms:ir.actions.act_window,help:lunch.lunch_order_action
 msgid "No previous order found"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema prethodne narudžbe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema prethodne narudžbe"
 >>>>>>> upstream/18.0
@@ -4687,7 +4895,11 @@ msgstr "Nema prethodne narudžbe"
 #: model:ir.model.fields.selection,name:lunch.selection__lunch_supplier__topping_quantity_3__0_more
 msgid "None or More"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ništa ili više"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ništa ili više"
 >>>>>>> upstream/18.0
@@ -4706,7 +4918,11 @@ msgstr "Bilješke"
 #: model_terms:ir.actions.act_window,help:lunch.lunch_order_action_by_supplier
 msgid "Nothing to order today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Danas nema ništa za naručiti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Danas nema ništa za naručiti"
 >>>>>>> upstream/18.0
@@ -4715,7 +4931,11 @@ msgstr "Danas nema ništa za naručiti"
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert__notification_moment
 msgid "Notification Moment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trenutak obavijesti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trenutak obavijesti"
 >>>>>>> upstream/18.0
@@ -4734,7 +4954,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:lunch.field_lunch_order__notified
 msgid "Notified"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obaviješteno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obaviješteno"
 >>>>>>> upstream/18.0
@@ -4765,7 +4989,11 @@ msgstr "Broj poruka sa greškama pri isporuci"
 #: model:ir.model.fields.selection,name:lunch.selection__lunch_supplier__topping_quantity_3__1_more
 msgid "One or More"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedan ili više"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jedan ili više"
 >>>>>>> upstream/18.0
@@ -4776,7 +5004,11 @@ msgstr "Jedan ili više"
 #: model:ir.model.fields.selection,name:lunch.selection__lunch_supplier__topping_quantity_3__1
 msgid "Only One"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo jedan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo jedan"
 >>>>>>> upstream/18.0
@@ -4813,7 +5045,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:lunch.lunch_product_action_order
 msgid "Order Your Lunch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naručite svoj ručak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naručite svoj ručak"
 >>>>>>> upstream/18.0
@@ -4842,7 +5078,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:lunch.res_config_settings_view_form
 msgid "Overdraft"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prekoračenje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prekoračenje"
 >>>>>>> upstream/18.0
@@ -4870,6 +5110,11 @@ msgid ""
 "payments by your own means or by using installed facilities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Plaćanja se koriste za evidentiranje kretanja likvidnosti. Ta plaćanja "
+"možete obraditi vlastitim sredstvima ili korištenjem instaliranih uređaja."
+>>>>>>> upstream/18.0
 =======
 "Plaćanja se koriste za evidentiranje kretanja likvidnosti. Ta plaćanja "
 "možete obraditi vlastitim sredstvima ili korištenjem instaliranih uređaja."
@@ -5030,7 +5275,11 @@ msgstr "Zaprimljeno"
 #: model_terms:ir.ui.view,arch_db:lunch.res_config_settings_view_form
 msgid "Reception notification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obavijesti za recepciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obavijesti za recepciju"
 >>>>>>> upstream/18.0
@@ -5102,7 +5351,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:lunch.field_lunch_supplier__send_by
 msgid "Send Order By"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošaljite narudžbu putem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošaljite narudžbu putem"
 >>>>>>> upstream/18.0
@@ -5117,6 +5370,10 @@ msgstr ""
 msgid "Send this message to your users when their order has been delivered."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pošaljite ovu poruku svojim korisnicima kada im je narudžba isporučena."
+>>>>>>> upstream/18.0
 =======
 "Pošaljite ovu poruku svojim korisnicima kada im je narudžba isporučena."
 >>>>>>> upstream/18.0
@@ -5151,7 +5408,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert__until
 msgid "Show Until"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži do"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži do"
 >>>>>>> upstream/18.0
@@ -5209,7 +5470,11 @@ msgstr "Ulica2"
 #: model_terms:ir.actions.act_window,help:lunch.lunch_order_action_control_suppliers
 msgid "Summary of all lunch orders, grouped by vendor and by date."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sažetak svih narudžbi za ručak, grupiranih po dobavljaču i datumu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sažetak svih narudžbi za ručak, grupiranih po dobavljaču i datumu."
 >>>>>>> upstream/18.0
@@ -5229,7 +5494,11 @@ msgstr "Nedjelja"
 #: model:ir.model.fields,field_description:lunch.field_lunch_topping__supplier_id
 msgid "Supplier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dobavljač"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dobavljač"
 >>>>>>> upstream/18.0
@@ -5314,6 +5583,11 @@ msgid ""
 " new lunch order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nema zabilježene prethodne narudžbe. Kliknite na 'Moj ručak' i zatim "
+"izradite novu narudžbu za ručak."
+>>>>>>> upstream/18.0
 =======
 "Nema zabilježene prethodne narudžbe. Kliknite na 'Moj ručak' i zatim "
 "izradite novu narudžbu za ručak."
@@ -5323,7 +5597,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:lunch.lunch_product_action_order
 msgid "There is no product available today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Danas nema dostupnog proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Danas nema dostupnog proizvoda"
 >>>>>>> upstream/18.0
@@ -5384,6 +5662,11 @@ msgid ""
 " have configured some products"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Da biste vidjeli neke proizvode, provjerite jesu li vaši dobavljači dostupni"
+" danas i jeste li konfigurirali neke proizvode"
+>>>>>>> upstream/18.0
 =======
 "Da biste vidjeli neke proizvode, provjerite jesu li vaši dobavljači dostupni"
 " danas i jeste li konfigurirali neke proizvode"
@@ -5401,7 +5684,11 @@ msgstr "Danas"
 #: model:ir.ui.menu,name:lunch.lunch_order_menu_by_supplier
 msgid "Today's Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Današnje Narudžbe"
+=======
+msgstr "Današnje narudžbe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Današnje narudžbe"
 >>>>>>> upstream/18.0
@@ -5630,7 +5917,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_alert_view_form
 msgid "e.g. Order before 11am"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Naručite prije 11 sati"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Naručite prije 11 sati"
 >>>>>>> upstream/18.0
@@ -5639,7 +5930,11 @@ msgstr "npr. Naručite prije 11 sati"
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_supplier_view_form
 msgid "e.g. The Pizzeria Inn"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Pizzeria Inn"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Pizzeria Inn"
 >>>>>>> upstream/18.0
@@ -5648,7 +5943,11 @@ msgstr "npr. Pizzeria Inn"
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_cashmove_report_view_search_2
 msgid "lunch cashmove"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "novčana transakcija za ručak"
+>>>>>>> upstream/18.0
 =======
 msgstr "novčana transakcija za ručak"
 >>>>>>> upstream/18.0

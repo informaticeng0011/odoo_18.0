@@ -97,6 +97,7 @@ export class Homepage extends Component {
             <div t-if="!this.store.advanced and !state.data.is_certificate_ok" class="alert alert-warning" role="alert">
                 <p class="m-0 fw-bold">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     No subscription linked to your IoT Box.
                 </p>
                 <small>
@@ -370,6 +371,8 @@ export class Homepage extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
                     This IoT Box doesn't have a valid certificate.
                 </p>
                 <small>
@@ -377,6 +380,9 @@ export class Homepage extends Component {
                     try to restart it.
                 </small>
             </div>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             <div t-if="this.store.advanced" t-att-class="'alert ' + (state.data.is_certificate_ok === true ? 'alert-info' : 'alert-warning')" role="alert">
                 <p class="m-0 fw-bold">HTTPS Certificate</p>
@@ -473,6 +479,9 @@ export class Homepage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

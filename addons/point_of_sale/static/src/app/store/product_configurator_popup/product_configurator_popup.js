@@ -7,6 +7,7 @@ import { ProductInfoBanner } from "@point_of_sale/app/components/product_info_ba
 export class BaseProductAttribute extends Component {
     static template = "";
 <<<<<<< HEAD
+<<<<<<< HEAD
     static props = ["attributeLine"];
     setup() {
         this.attributeLine = this.props.attributeLine;
@@ -14,6 +15,8 @@ export class BaseProductAttribute extends Component {
         this.state = useState({
             attribute_value_ids: this.values[0].id.toString(),
 =======
+=======
+>>>>>>> upstream/18.0
     static props = {
         attributeLine: { type: Object },
         defaultValues: { type: Object, optional: true },
@@ -25,6 +28,9 @@ export class BaseProductAttribute extends Component {
             this.props.defaultValues?.[this.attributeLine.id] || this.values[0].id.toString();
         this.state = useState({
             attribute_value_ids: defaultValue,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             custom_value: "",
         });
@@ -80,8 +86,14 @@ export class RadioProductAttribute extends BaseProductAttribute {
         // a matching `value` attribute. In our case, we use `t-att-value` so `value` is
         // not found yet and no radio is selected by default.
 <<<<<<< HEAD
+<<<<<<< HEAD
         // We then manually select the first input of each radio attribute.
         this.root.el.querySelector("input[type=radio]").checked = true;
+=======
+        // We then manually select the default radio button
+        const id = `${this.attributeLine.attribute_id.id}_${this.state.attribute_value_ids}`;
+        this.root.el.querySelector(`[id="${id}"]`).checked = true;
+>>>>>>> upstream/18.0
 =======
         // We then manually select the default radio button
         const id = `${this.attributeLine.attribute_id.id}_${this.state.attribute_value_ids}`;
@@ -134,9 +146,12 @@ export class ProductConfiguratorPopup extends Component {
         Dialog,
     };
 <<<<<<< HEAD
+<<<<<<< HEAD
     static props = ["product", "getPayload", "close"];
 
 =======
+=======
+>>>>>>> upstream/18.0
     static props = {
         product: Object,
         getPayload: Function,
@@ -147,6 +162,9 @@ export class ProductConfiguratorPopup extends Component {
     static defaultProps = {
         hideAlwaysVariants: false,
     };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     setup() {
         useSubEnv({
@@ -192,6 +210,7 @@ export class ProductConfiguratorPopup extends Component {
     computeProductProduct() {
         let product = this.props.product;
         const formattedPayload = this.computePayload();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,6 +464,8 @@ export class ProductConfiguratorPopup extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const hasVariants = this.props.product.attribute_line_ids.some(
             (line) => line.attribute_id.create_variant !== "no_variant"
         );
@@ -532,6 +553,9 @@ export class ProductConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -719,7 +743,10 @@ export class ProductConfiguratorPopup extends Component {
         return this.env.utils.formatCurrency(this.props.product.lst_price);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     get validAttributeLineIds() {
         if (this.props.hideAlwaysVariants) {
             return this.props.product.attribute_line_ids.filter(
@@ -729,6 +756,9 @@ export class ProductConfiguratorPopup extends Component {
             return this.props.product.attribute_line_ids;
         }
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     close() {
         this.props.close();

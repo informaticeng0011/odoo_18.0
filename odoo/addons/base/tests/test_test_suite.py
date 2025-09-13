@@ -27,6 +27,12 @@ class TestTestSuite(TestCase, metaclass=MetaCase):
         """ Check that OdooSuite handles unittest.TestCase correctly. """
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        def get_method_additional_tags(self, method):
+            return []
+
+>>>>>>> upstream/18.0
 =======
         def get_method_additional_tags(self, method):
             return []
@@ -138,7 +144,11 @@ class TestRunnerLoggingCommon(TransactionCase):
         message = re.sub(r'py:\d+', 'py:$line', message)
         message = re.sub(r'decorator-gen-\d+', 'decorator-gen-xxx', message)
 <<<<<<< HEAD
+<<<<<<< HEAD
         message = re.sub(r'^\s*\^+\s*\n', '', message, flags=re.MULTILINE)
+=======
+        message = re.sub(r'^\s*~*\^+~*\s*\n', '', message, flags=re.MULTILINE)
+>>>>>>> upstream/18.0
 =======
         message = re.sub(r'^\s*~*\^+~*\s*\n', '', message, flags=re.MULTILINE)
 >>>>>>> upstream/18.0

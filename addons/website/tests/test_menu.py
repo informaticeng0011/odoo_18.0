@@ -8,6 +8,10 @@ from werkzeug.urls import url_parse
 from odoo.addons.website.tools import MockRequest
 from odoo.tests import common
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -241,7 +245,10 @@ class TestMenu(common.TransactionCase):
         test_full_case(submenu)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_07_menu_hierarchy_validation(self):
         Menu = self.env['website.menu']
 
@@ -285,6 +292,9 @@ class TestMenu(common.TransactionCase):
         with self.assertRaises(UserError):
             self.main_menu.parent_id = self.another_menu.id
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class TestMenuHttp(common.HttpCase):

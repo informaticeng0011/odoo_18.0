@@ -87,11 +87,17 @@ export class Toolbar extends Component {
         this.props.toolbar.focusEditable();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     isGroupVisible(groupButtons) {
         return groupButtons.some((button) => this.state.buttonsAvailableState[button.id]);
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 

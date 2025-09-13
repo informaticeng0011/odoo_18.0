@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_import_module
+=======
+# * base_import_module
+>>>>>>> upstream/18.0
 =======
 # * base_import_module
 >>>>>>> upstream/18.0
@@ -10,8 +14,12 @@
 # Uros Kalajdzic <ukalajdzic@gmail.com>, 2022
 # Martin Trigaux, 2022
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022
 #
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
+>>>>>>> upstream/18.0
 =======
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
 >>>>>>> upstream/18.0
@@ -20,6 +28,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-12 10:37+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2022-09-22 05:45+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, "
@@ -32,6 +41,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-12 22:21+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -43,6 +54,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
@@ -56,19 +70,29 @@ msgid ""
 "odoo/design-themes.\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 "Možda će vam biti potrebna Enterprise verzija za instalaciju data modula. "
 "Molimo posetite https://www.odoo.com/pricing-plan za više informacija.\n"
 "Ako su vam potrebne Website teme, one mogu biti preuzete sa https://"
 "github.com/odoo/design-themes.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.module_view_kanban_apps_inherit
 msgid "Activate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktiviraj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktiviraj"
 >>>>>>> upstream/18.0
@@ -79,7 +103,11 @@ msgstr "Aktiviraj"
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_module_filter_apps_inherit
 msgid "Apps"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aplikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aplikacije"
 >>>>>>> upstream/18.0
@@ -99,7 +127,11 @@ msgstr "Zatvori"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Connection to %s failed The list of industry modules cannot be fetched"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Veza sa %s nije uspela Nije moguće preuzeti listu industrijskih modula"
+>>>>>>> upstream/18.0
 =======
 msgstr "Veza sa %s nije uspela Nije moguće preuzeti listu industrijskih modula"
 >>>>>>> upstream/18.0
@@ -109,7 +141,11 @@ msgstr "Veza sa %s nije uspela Nije moguće preuzeti listu industrijskih modula
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Connection to %s failed, the module %s cannot be downloaded."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Veza sa %s nije uspela, module %s nije moguće preuzeti."
+>>>>>>> upstream/18.0
 =======
 msgstr "Veza sa %s nije uspela, module %s nije moguće preuzeti."
 >>>>>>> upstream/18.0
@@ -119,7 +155,11 @@ msgstr "Veza sa %s nije uspela, module %s nije moguće preuzeti."
 #: code:addons/base_import_module/controllers/main.py:0
 msgid "Could not select database '%s'"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije moguće odabrati bazu podataka '%s'"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nije moguće odabrati bazu podataka '%s'"
 >>>>>>> upstream/18.0
@@ -141,6 +181,11 @@ msgid ""
 "cannot be entirely removed!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Demo podatke treba koristiti samo na testnim bazama podataka. Kada se jednom "
+"učitaju, ne mogu se u potpunosti ukloniti!"
+>>>>>>> upstream/18.0
 =======
 "Demo podatke treba koristiti samo na testnim bazama podataka. Kada se jednom "
 "učitaju, ne mogu se u potpunosti ukloniti!"
@@ -162,11 +207,17 @@ msgid ""
 "\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Greška prilikom uvoza modula '%(module)s'.\n"
 "\n"
 " %(error_message)s \n"
 "\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
@@ -174,7 +225,11 @@ msgstr ""
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "File '%s' exceed maximum allowed file size"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fajl '%s'  je prešao maksimalnu dozvoljenu veličinu"
+=======
+msgstr "Fajl '%s' je prešao maksimalnu dozvoljenu veličinu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fajl '%s' je prešao maksimalnu dozvoljenu veličinu"
 >>>>>>> upstream/18.0
@@ -188,8 +243,12 @@ msgstr "Forsiraj init"
 #: model:ir.model.fields,help:base_import_module.field_base_import_module__force
 msgid "Force init mode even if installed. (will update `noupdate='1'` records)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Forsiraj init mod iako je instaliran. (ažuriraće  `noupdate='1'` zapise)"
+=======
+msgstr "Forsiraj init mod iako je instaliran. (ažuriraće `noupdate='1'` zapise)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Forsiraj init mod iako je instaliran. (ažuriraće `noupdate='1'` zapise)"
 >>>>>>> upstream/18.0
@@ -203,7 +262,11 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__import_message
 msgid "Import Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poruka o uvozu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poruka o uvozu"
 >>>>>>> upstream/18.0
@@ -219,7 +282,11 @@ msgstr "Uvezi Modul"
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Import demo data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvezi demo podatke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvezi demo podatke"
 >>>>>>> upstream/18.0
@@ -228,7 +295,11 @@ msgstr "Uvezi demo podatke"
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__with_demo
 msgid "Import demo data of module"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvezi demo podatke modula"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvezi demo podatke modula"
 >>>>>>> upstream/18.0
@@ -242,7 +313,11 @@ msgstr "Importovan modul"
 #: model:ir.model.fields.selection,name:base_import_module.selection__ir_module_module__module_type__industries
 msgid "Industries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Industrije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Industrije"
 >>>>>>> upstream/18.0
@@ -251,7 +326,11 @@ msgstr "Industrije"
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Install"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Instaliraj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Instaliraj"
 >>>>>>> upstream/18.0
@@ -262,7 +341,11 @@ msgstr "Instaliraj"
 #, python-format
 msgid "Install an Industry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Instaliraj Industriju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Instaliraj Industriju"
 >>>>>>> upstream/18.0
@@ -271,7 +354,11 @@ msgstr "Instaliraj Industriju"
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Install the application"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Instaliraj aplikaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Instaliraj aplikaciju"
 >>>>>>> upstream/18.0
@@ -300,7 +387,11 @@ msgstr "Modul .ZIP datoteka"
 #: model:ir.model.fields,field_description:base_import_module.field_ir_module_module__module_type
 msgid "Module Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta modula"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta modula"
 >>>>>>> upstream/18.0
@@ -309,7 +400,11 @@ msgstr "Vrsta modula"
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Module file (.zip)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datoteka modula (.zip)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datoteka modula (.zip)"
 >>>>>>> upstream/18.0
@@ -318,7 +413,11 @@ msgstr "Datoteka modula (.zip)"
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__modules_dependencies
 msgid "Modules Dependencies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zavisnosti modula"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zavisnosti modula"
 >>>>>>> upstream/18.0
@@ -328,7 +427,11 @@ msgstr "Zavisnosti modula"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "No file sent."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije poslata datoteka."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nije poslata datoteka."
 >>>>>>> upstream/18.0
@@ -338,6 +441,10 @@ msgstr "Nije poslata datoteka."
 msgid "Note: you can only import data modules (.xml files and static assets)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Napomena: možete uvesti samo data module (.xml datoteke i statičke elemente)"
+>>>>>>> upstream/18.0
 =======
 "Napomena: možete uvesti samo data module (.xml datoteke i statičke elemente)"
 >>>>>>> upstream/18.0
@@ -346,7 +453,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:base_import_module.selection__ir_module_module__module_type__official
 msgid "Official Apps"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zvanične aplikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zvanične aplikacije"
 >>>>>>> upstream/18.0
@@ -356,7 +467,11 @@ msgstr "Zvanične aplikacije"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Only administrators can install data modules."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo administratori mogu instalirati data module."
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo administratori mogu instalirati data module."
 >>>>>>> upstream/18.0
@@ -366,7 +481,11 @@ msgstr "Samo administratori mogu instalirati data module."
 #: code:addons/base_import_module/controllers/main.py:0
 msgid "Only administrators can upload a module"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo administratori mogu učitati modul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo administratori mogu učitati modul"
 >>>>>>> upstream/18.0
@@ -376,7 +495,11 @@ msgstr "Samo administratori mogu učitati modul"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Only zip files are supported."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podržane su samo datoteke u zip formatu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Podržane su samo datoteke u zip formatu."
 >>>>>>> upstream/18.0
@@ -391,7 +514,11 @@ msgstr "Status"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Studio customizations require Studio"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Studio prilagođavanja zahtevaju Studio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Studio prilagođavanja zahtevaju Studio"
 >>>>>>> upstream/18.0
@@ -401,7 +528,11 @@ msgstr "Studio prilagođavanja zahtevaju Studio"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Studio customizations require the Odoo Studio app."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Studio prilagođavanja zahtevaju Odoo Studio aplikaciju."
+>>>>>>> upstream/18.0
 =======
 msgstr "Studio prilagođavanja zahtevaju Odoo Studio aplikaciju."
 >>>>>>> upstream/18.0
@@ -411,7 +542,11 @@ msgstr "Studio prilagođavanja zahtevaju Odoo Studio aplikaciju."
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "The following modules will also be installed:\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledećei modui će takođe biti instalirani:\n"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sledećei modui će takođe biti instalirani:\n"
 >>>>>>> upstream/18.0
@@ -424,6 +559,11 @@ msgid ""
 "can't be found in the addons-path:\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Instalacija data modula ne bi uspela jer se sledeće zavisnosti ne mogu "
+"pronaći u putanji dodataka:\n"
+>>>>>>> upstream/18.0
 =======
 "Instalacija data modula ne bi uspela jer se sledeće zavisnosti ne mogu "
 "pronaći u putanji dodataka:\n"
@@ -436,6 +576,11 @@ msgid ""
 "The list of industry applications cannot be fetched. Please try again later"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nije moguće preuzeti listu industrijskih aplikacija. Molimo pokušajte ponovo "
+"kasnije"
+>>>>>>> upstream/18.0
 =======
 "Nije moguće preuzeti listu industrijskih aplikacija. Molimo pokušajte ponovo "
 "kasnije"
@@ -446,7 +591,11 @@ msgstr ""
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "The module %s cannot be downloaded"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modul %s ne može biti preuzet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modul %s ne može biti preuzet"
 >>>>>>> upstream/18.0
@@ -455,7 +604,11 @@ msgstr "Modul %s ne može biti preuzet"
 #: model_terms:ir.ui.view,arch_db:base_import_module.module_view_kanban_apps_inherit
 msgid "Upgrade"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadogradi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nadogradi"
 >>>>>>> upstream/18.0

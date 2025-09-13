@@ -8,6 +8,7 @@
     background-color: inherit;
   }
 
+<<<<<<< HEAD
   .o-spreadsheet-topbar {
       background-color: #fff !important;
   }
@@ -20,6 +21,12 @@
   .o-selection-statistic {
       background-color: #fff !important;
   }
+=======
+  .bg-white {
+    background-color: #fff !important;
+  }
+
+>>>>>>> upstream/18.0
   .o_multi_record_selector .badge {
       background-color: #e6dddd !important;
       color: #3c3c3c !important;
@@ -48,10 +55,17 @@
     border-color: #d5dae8 !important;
   }
   .border-bottom {
+<<<<<<< HEAD
     border-color: #d5dae8 !important;
   }
   .border-top {
     border-color: #d5dae8 !important;
+=======
+    border-bottom-color: #d5dae8 !important;
+  }
+  .border-top {
+    border-top-color: #d5dae8 !important;
+>>>>>>> upstream/18.0
   }
 
 }

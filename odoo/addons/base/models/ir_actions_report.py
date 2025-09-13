@@ -693,6 +693,12 @@ class IrActionsReport(models.Model):
             kwargs['fontName'] = _DEFAULT_BARCODE_FONT
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if kwargs['width'] * kwargs['height'] > 1200000 or max(kwargs['width'], kwargs['height']) > 10000:
+            raise ValueError("Barcode too large")
+
+>>>>>>> upstream/18.0
 =======
         if kwargs['width'] * kwargs['height'] > 1200000 or max(kwargs['width'], kwargs['height']) > 10000:
             raise ValueError("Barcode too large")
@@ -950,15 +956,21 @@ class IrActionsReport(models.Model):
                         attachment_writer.write(stream)
                         collected_streams[res_ids_wo_stream[i]]['stream'] = stream
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                     return collected_streams
 
 =======
+=======
+>>>>>>> upstream/18.0
                     return collected_streams
                 else:
                     for res_id in res_ids_wo_stream:
                         individual_collected_stream = self._render_qweb_pdf_prepare_streams(report_ref=report_ref, data=data, res_ids=[res_id])
                         collected_streams[res_id]['stream'] = individual_collected_stream[res_id]['stream']
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             collected_streams[False] = {'stream': pdf_content_stream, 'attachment': None}
 

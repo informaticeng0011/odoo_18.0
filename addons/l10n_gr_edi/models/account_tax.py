@@ -8,7 +8,11 @@ class AccountTax(models.Model):
     l10n_gr_edi_default_tax_exemption_category = fields.Selection(
         selection=TAX_EXEMPTION_CATEGORY_SELECTION,
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='MyDATA Default Tax Exemption Category',
+=======
+        string='Default Tax Exemption Category',
+>>>>>>> upstream/18.0
 =======
         string='Default Tax Exemption Category',
 >>>>>>> upstream/18.0

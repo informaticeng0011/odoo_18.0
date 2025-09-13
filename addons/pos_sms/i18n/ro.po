@@ -5,6 +5,10 @@
 # Translators:
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
@@ -16,7 +20,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -35,6 +43,12 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\n"
+"                {{ object.company_id.name }} : Comanda dvs. cu referința: {{ object.pos_reference }} a fost procesată cu succes cu suma {{  object.currency_id.format(object.amount_total) }}. Folosiți {{ object.pos_reference }} pentru referințe viitoare\n"
+"            "
+>>>>>>> upstream/18.0
 =======
 "\n"
 "                {{ object.company_id.name }} : Comanda dvs. cu referința: {{ object.pos_reference }} a fost procesată cu succes cu suma {{  object.currency_id.format(object.amount_total) }}. Folosiți {{ object.pos_reference }} pentru referințe viitoare\n"
@@ -50,7 +64,11 @@ msgstr "Setări de configurare"
 #: model:sms.template,name:pos_sms.sms_template_data_point_of_sale
 msgid "POS: Sent Order Confirmation via Text"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POS: Confirmare comandă trimisă prin SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "POS: Confirmare comandă trimisă prin SMS"
 >>>>>>> upstream/18.0
@@ -64,7 +82,11 @@ msgstr "Configurarea Punctului de Vânzare"
 #: model:ir.model,name:pos_sms.model_pos_order
 msgid "Point of Sale Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comenzile Punctului de vânzare"
+=======
+msgstr "Comenzile Punctului de Vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comenzile Punctului de Vânzare"
 >>>>>>> upstream/18.0
@@ -79,7 +101,11 @@ msgstr "Șablon chitanță"
 #: model:ir.model.fields,help:pos_sms.field_res_config_settings__pos_sms_receipt_template_id
 msgid "SMS will be sent to the customer based on this template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS-ul va fi trimis clientului pe baza acestui șablon"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS-ul va fi trimis clientului pe baza acestui șablon"
 >>>>>>> upstream/18.0
@@ -89,7 +115,11 @@ msgstr "SMS-ul va fi trimis clientului pe baza acestui șablon"
 #: model:ir.model.fields,field_description:pos_sms.field_res_config_settings__pos_sms_receipt_template_id
 msgid "Sms Receipt template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Șablon chitanță SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șablon chitanță SMS"
 >>>>>>> upstream/18.0

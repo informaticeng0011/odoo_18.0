@@ -220,6 +220,7 @@ class SaleOrderLine(models.Model):
             lines = self.filtered(lambda r: r.state == 'sale' and not r.is_expense)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'product_packaging_id' in values:
             self.move_ids.filtered(
                 lambda m: m.state not in ['cancel', 'done']
@@ -228,6 +229,8 @@ class SaleOrderLine(models.Model):
         previous_product_uom_qty = {line.id: line.product_uom_qty for line in lines}
         res = super(SaleOrderLine, self).write(values)
 =======
+=======
+>>>>>>> upstream/18.0
         old_packaging = {sol: sol.product_packaging_id for sol in self}
 
         previous_product_uom_qty = {line.id: line.product_uom_qty for line in lines}
@@ -239,6 +242,9 @@ class SaleOrderLine(models.Model):
                     lambda m: m.state not in ['cancel', 'done']
                 ).product_packaging_id = sol.product_packaging_id
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if lines:
             lines._action_launch_stock_rule(previous_product_uom_qty=previous_product_uom_qty)
@@ -331,12 +337,15 @@ class SaleOrderLine(models.Model):
 
         for move in moves:
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (strict and move.location_dest_id._is_outgoing()) or \
                (not strict and move.rule_id.id in triggering_rule_ids and (move.location_final_id or move.location_dest_id)._is_outgoing()):
                 if not move.origin_returned_move_id or (move.origin_returned_move_id and move.to_refund):
                     outgoing_moves_ids.add(move.id)
             elif move.location_id._is_outgoing() and move.to_refund:
 =======
+=======
+>>>>>>> upstream/18.0
             if not move._is_dropshipped_returned() and (
                 (strict and move.location_dest_id._is_outgoing()) or (
                 not strict and move.rule_id.id in triggering_rule_ids and
@@ -345,6 +354,9 @@ class SaleOrderLine(models.Model):
                 if not move.origin_returned_move_id or (move.origin_returned_move_id and move.to_refund):
                     outgoing_moves_ids.add(move.id)
             elif (move._is_incoming() or move.location_id._is_outgoing()) and move.to_refund:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 incoming_moves_ids.add(move.id)
 

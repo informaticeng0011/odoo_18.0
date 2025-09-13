@@ -15,7 +15,10 @@ import { Deferred, animationFrame, runAllTimers, tick } from "@odoo/hoot-mock";
 import { Component, onMounted, onPatched, useRef, useState, xml } from "@odoo/owl";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { makeMockEnv } from "@web/../tests/_framework/env_test_helpers";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { getPickerCell } from "@web/../tests/core/datetime/datetime_test_helpers";
@@ -23,6 +26,10 @@ import {
     contains,
     defineParams,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    makeMockEnv,
+>>>>>>> upstream/18.0
 =======
     makeMockEnv,
 >>>>>>> upstream/18.0

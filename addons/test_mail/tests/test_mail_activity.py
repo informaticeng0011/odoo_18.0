@@ -4,7 +4,10 @@
 from datetime import date, datetime, timedelta
 from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
+<<<<<<< HEAD
 from freezegun import freeze_time
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from psycopg2 import IntegrityError
@@ -77,6 +80,7 @@ from odoo import fields, exceptions, tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.addons.mail.models.mail_activity import MailActivity
 >>>>>>> upstream/18.0
@@ -264,11 +268,16 @@ from odoo.addons.mail.tests.common import mail_new_test_user, MailCommon
 from odoo.addons.test_mail.models.test_mail_models import MailTestActivity
 from odoo.tests import Form, HttpCase, users
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo.addons.mail.models.mail_activity import MailActivity
 from odoo.addons.mail.tests.common import mail_new_test_user, MailCommon
 from odoo.addons.test_mail.models.test_mail_models import MailTestActivity
 from odoo.tests import Form, HttpCase, users
 from odoo.tests.common import freeze_time
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.tools import mute_logger
 
@@ -288,6 +297,36 @@ class TestActivityCommon(MailCommon):
 @tests.tagged('mail_activity')
 class TestActivityRights(TestActivityCommon):
 
+<<<<<<< HEAD
+=======
+    def test_activity_action_open_document_no_access(self):
+        def _employee_no_access(records, operation):
+            """Simulates employee having no access to the document"""
+            if records.env.uid == self.user_employee.id and not records.env.su:
+                return records, lambda: exceptions.AccessError('Access denied to document')
+            return DEFAULT
+
+        test_activity = self.env['mail.activity'].with_user(self.user_admin).create({
+            'activity_type_id': self.env.ref('test_mail.mail_act_test_todo').id,
+            'res_model_id': self.env.ref('test_mail.model_mail_test_activity').id,
+            'res_id': self.test_record.id,
+            'user_id': self.user_employee.id,
+            'summary': 'Test Activity',
+        })
+
+        action = test_activity.with_user(self.user_employee).action_open_document()
+        self.assertEqual(action['res_model'], self.test_record._name)
+        self.assertEqual(action['res_id'], self.test_record.id)
+
+        # If user has no access to the record, should return activity view instead
+        with patch.object(MailTestActivity, '_check_access', autospec=True, side_effect=_employee_no_access):
+            self.assertFalse(self.test_record.with_user(self.user_employee).has_access('read'))
+
+            action = test_activity.with_user(self.user_employee).action_open_document()
+            self.assertEqual(action['res_model'], 'mail.activity')
+            self.assertEqual(action['res_id'], test_activity.id)
+
+>>>>>>> upstream/18.0
     @mute_logger('odoo.addons.mail.models.mail_mail')
     def test_activity_security_user_access_other(self):
         activity = self.test_record.with_user(self.user_employee).activity_schedule(
@@ -674,9 +713,12 @@ class TestActivityMixin(TestActivityCommon):
         active_users = test_users - archived_users
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         activities = self.env['mail.activity'].search([('user_id', 'in', archived_users.ids)])
         self.assertFalse(activities, "Activities of archived users should be deleted.")
 =======
+=======
+>>>>>>> upstream/18.0
         # archive user with company disabled
         user_admin = self.user_admin
         user_employee_c2 = self.user_employee_c2
@@ -692,6 +734,9 @@ class TestActivityMixin(TestActivityCommon):
         archived_users += user_employee_c2
 
         self.assertFalse(any(archived_users.mapped('active')), "Users should be archived.")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         # activities of active users shouldn't be touched, each has exactly 1 activity present
@@ -701,11 +746,17 @@ class TestActivityMixin(TestActivityCommon):
                          "We should have 3 different users linked to the activities of the active users")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # ensure the user's activities are removed
         activities = self.env['mail.activity'].search([('user_id', 'in', archived_users.ids)])
         self.assertFalse(activities, "Activities of archived users should be deleted.")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @mute_logger('odoo.addons.mail.models.mail_mail')
     def test_activity_mixin_reschedule_user(self):
@@ -1025,6 +1076,10 @@ class TestActivityMixin(TestActivityCommon):
     @mute_logger('odoo.addons.mail.models.mail_mail')
     def test_my_activity_flow_employee(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env.ref('test_mail.mail_act_test_todo').keep_done = True
+>>>>>>> upstream/18.0
 =======
         self.env.ref('test_mail.mail_act_test_todo').keep_done = True
 >>>>>>> upstream/18.0
@@ -1047,7 +1102,11 @@ class TestActivityMixin(TestActivityCommon):
 
         test_record_1 = self.env['mail.test.activity'].with_context(self._test_context).create({'name': 'Test 1'})
 <<<<<<< HEAD
+<<<<<<< HEAD
         Activity.create({
+=======
+        test_record_1_late_activity = Activity.create({
+>>>>>>> upstream/18.0
 =======
         test_record_1_late_activity = Activity.create({
 >>>>>>> upstream/18.0
@@ -1061,6 +1120,7 @@ class TestActivityMixin(TestActivityCommon):
             record = self.env['mail.test.activity'].search([('my_activity_date_deadline', '=', date_today)])
             self.assertEqual(test_record_1, record)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1326,12 +1386,17 @@ class TestActivityMixin(TestActivityCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             test_record_1_late_activity._action_done()
             record = self.env['mail.test.activity'].with_context(active_test=False).search([
                 ('my_activity_date_deadline', '=', date_today)
             ])
             self.assertFalse(record, "Should not find record if the only late activity is done")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @users('employee')
     def test_record_unlink(self):
@@ -1429,6 +1494,7 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1483,6 +1549,8 @@ class TestActivityMixin(TestActivityCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1683,6 +1751,9 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1833,7 +1904,10 @@ class TestActivitySystray(TestActivityCommon, HttpCase):
 
 @tests.tagged('mail_activity')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 @freeze_time("2024-01-01 09:00:00")
 class TestActivitySystrayBusNotify(TestActivityCommon):
 
@@ -1957,6 +2031,9 @@ class TestActivitySystrayBusNotify(TestActivityCommon):
 
 
 @tests.tagged('mail_activity')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 class TestActivityViewHelpers(TestActivityCommon):
     @classmethod

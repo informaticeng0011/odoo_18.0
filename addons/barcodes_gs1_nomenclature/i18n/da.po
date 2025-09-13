@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* barcodes_gs1_nomenclature
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -12,6 +16,7 @@
 # Martin Trigaux, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
@@ -20,10 +25,15 @@
 # Kira Petersen, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -41,6 +51,8 @@ msgstr ""
 
 #. module: barcodes_gs1_nomenclature
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-08 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Kira Petersen, 2025\n"
@@ -60,6 +72,9 @@ msgid ""
 msgstr ""
 
 #. module: barcodes_gs1_nomenclature
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__gs1_content_type__alpha
 msgid "Alpha-Numeric Name"
@@ -73,6 +88,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alternativ regex-afgrænser for FNC1. Afgrænseren må ikke matche starten "
+"eller slutningen af et tilknyttet regelmønster."
+>>>>>>> upstream/18.0
 =======
 "Alternativ regex-afgrænser for FNC1. Afgrænseren må ikke matche starten "
 "eller slutningen af et tilknyttet regelmønster."
@@ -132,7 +152,11 @@ msgstr "Udløbsdato"
 msgid "FNC1 Separator"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "FNC1-afgrænser"
+>>>>>>> upstream/18.0
 =======
 msgstr "FNC1-afgrænser"
 >>>>>>> upstream/18.0
@@ -162,6 +186,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Hvis Sandt, bruges det sidste tal i KI til at bestemme, hvor den første "
+"decimal er"
+>>>>>>> upstream/18.0
 =======
 "Hvis Sandt, bruges det sidste tal i KI til at bestemme, hvor den første "
 "decimal er"
@@ -214,7 +243,11 @@ msgstr "Numerisk identifikator"
 msgid "Pack Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dato for emballering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dato for emballering"
 >>>>>>> upstream/18.0
@@ -243,7 +276,11 @@ msgstr "Antal"
 msgid "The FNC1 Separator Alternative is not a valid Regex: %(error)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "FNC1-afgrænseralternativet er ikke en gyldig regex: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "FNC1-afgrænseralternativet er ikke en gyldig regex: %(error)s"
 >>>>>>> upstream/18.0
@@ -271,16 +308,22 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Mønsterreglen \"%s\" er ikke gyldig. Den skal indeholde to grupper:\n"
 "\t- En første gruppe til applikationsidentifikatoren (typisk 2 til 4 cifre);\n"
 "\t- En anden gruppe til at indfange værdien."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Mønsterreglen \"%s\" er ikke gyldig. Den skal indeholde to grupper:\n"
 "\t- En første gruppe til applikationsidentifikatoren (typisk 2 til 4 "
 "cifre);\n"
 "\t- En anden gruppe til at indfange værdien."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
@@ -290,6 +333,10 @@ msgid "The rule pattern '%(rule)s' is not a valid Regex: %(error)s"
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Regelmønsteret '%(rule)s' er ikke et gyldigt regulært udtryk: %(error)s"
+>>>>>>> upstream/18.0
 =======
 "Regelmønsteret '%(rule)s' er ikke et gyldigt regulært udtryk: %(error)s"
 >>>>>>> upstream/18.0
@@ -303,6 +350,7 @@ msgstr ""
 msgid ""
 "There is something wrong with the barcode rule \"%s\" pattern.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
@@ -313,6 +361,8 @@ msgstr ""
 "Sørg også for, at de mulige matchende værdier udelukkende indeholder cifre – ellers kan værdien ikke bruges som en identifikator."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "If this rule uses decimal, check it can't get sometime else than a digit as "
 "last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the "
@@ -323,6 +373,9 @@ msgstr ""
 "udelukkende af cifre.\n"
 "Sørg også for, at de mulige matchende værdier udelukkende indeholder cifre – "
 "ellers kan værdien ikke bruges som en identifikator."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
@@ -334,6 +387,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nomenklaturen er baseret på GS1-specifikationen og understøttes kun af "
+"GS1-128-kodningsregler."
+>>>>>>> upstream/18.0
 =======
 "Nomenklaturen er baseret på GS1-specifikationen og understøttes kun af "
 "GS1-128-kodningsregler."

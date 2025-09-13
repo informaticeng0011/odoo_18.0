@@ -21,11 +21,17 @@ export class SuggestedRecipient extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     get name() {
         return this.props.recipient.name || this.props.recipient.display_name;
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     get titleText() {
         return _t("Add as recipient and follower (reason: %s)", this.props.recipient.reason);
