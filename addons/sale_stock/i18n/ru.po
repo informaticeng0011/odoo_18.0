@@ -3,7 +3,11 @@
 # 	* sale_stock
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -16,7 +20,12 @@
 # Ilya Rozhkov, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Anastasiia Koroleva, 2025
+#
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 #
@@ -31,6 +40,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ilya Rozhkov, 2025\n"
@@ -41,6 +51,8 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-22 18:39+0000\n"
@@ -55,6 +67,9 @@ msgstr ""
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -103,9 +118,12 @@ msgstr "<span class=\"o_stat_text\">Продажи</span>"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"small badge rounded-pill text-bg-success orders_label_text_align\">\n"
 "                                        <i class=\"fa fa-fw fa-truck\"/> Shipped\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "<span class=\"small badge rounded-pill text-bg-success "
@@ -113,6 +131,9 @@ msgid ""
 "                                        <i class=\"fa fa-fw fa-truck\"/> "
 "Shipped\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -125,12 +146,15 @@ msgid ""
 "<span invisible=\"not display_delivery_alert\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Some deliveries are already done. Returns can be created from the Delivery Orders.\n"
 "                </span>"
 msgstr ""
 "<span invisible=\"not display_delivery_alert\">\n"
 "                    Некоторые поставки уже выполнены. Возвраты могут быть созданы из заказов на доставку.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                    Some deliveries are already done. Returns can be created "
@@ -141,6 +165,9 @@ msgstr ""
 "                    Некоторые поставки уже выполнены. Возвраты могут быть "
 "созданы из заказов на доставку.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -151,7 +178,11 @@ msgstr ""
 msgid "<strong>Customer Reference</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Референс клиента</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Референс клиента</strong>"
 >>>>>>> upstream/18.0
@@ -175,6 +206,7 @@ msgstr "Складируемый товар — это товар, для кот
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
@@ -186,6 +218,8 @@ msgstr ""
 "  - Аналитический из затрат: количество - это сумма количества из размещенных затрат\n"
 "  - Из таймшетов: количество - это сумма часов, записанных в заданиях, связанных с данной линией продаж\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "According to product configuration, the delivered quantity can be "
@@ -205,6 +239,9 @@ msgstr ""
 "  - Из таймшетов: количество - это сумма часов, записанных в заданиях, "
 "связанных с данной линией продаж\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -405,9 +442,15 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Если вы доставляете все товары одновременно, то доставка заказа будет "
 "планироваться в соответствии с товаром с наибольшим временем доставки. В "
 "противном случае, она будет основана на товаре с кратчайшем временем."
+=======
+"Если вы доставляете все товары сразу, заказ на доставку будет планироваться "
+"в соответствии с товаром с наибольшим временем доставки. В противном случае "
+"он будет основан на товаре с кратчайшим сроком доставки."
+>>>>>>> upstream/18.0
 =======
 "Если вы доставляете все товары сразу, заказ на доставку будет планироваться "
 "в соответствии с товаром с наибольшим временем доставки. В противном случае "
@@ -522,8 +565,13 @@ msgid ""
 "Margin of error for dates promised to customers. Products will be scheduled "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "for procurement and delivery that many days earlier than the actual promised"
 " date, to cope with unexpected delays in the supply chain."
+=======
+"for procurement and delivery that many days earlier than the actual promised "
+"date, to cope with unexpected delays in the supply chain."
+>>>>>>> upstream/18.0
 =======
 "for procurement and delivery that many days earlier than the actual promised "
 "date, to cope with unexpected delays in the supply chain."
@@ -636,7 +684,12 @@ msgid ""
 "Reduce back orders with reservations, locations management, smart\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                replenishment propositions, shipping connectors, barcode scanner, etc."
+=======
+"                replenishment propositions, shipping connectors, barcode "
+"scanner, etc."
+>>>>>>> upstream/18.0
 =======
 "                replenishment propositions, shipping connectors, barcode "
 "scanner, etc."
@@ -812,7 +865,10 @@ msgstr "Отчет о нормах запасов"
 #. module: sale_stock
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sale_stock.model_stock_valuation_layer
@@ -821,6 +877,9 @@ msgstr ""
 
 #. module: sale_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -841,9 +900,12 @@ msgid ""
 "The delivery address has been changed on the Sales Order<br/>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        From <strong>\"%(old_address)s\"</strong> to <strong>\"%(new_address)s\"</strong>,\n"
 "                        You should probably update the partner on this document."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                        From <strong>\"%(old_address)s\"</strong> to "
@@ -851,6 +913,9 @@ msgid ""
 "                        You should probably update the partner on this "
 "document."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -862,8 +927,13 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The ordered quantity cannot be decreased below the amount already delivered."
 " Instead, create a return in your inventory."
+=======
+"The ordered quantity cannot be decreased below the amount already delivered. "
+"Instead, create a return in your inventory."
+>>>>>>> upstream/18.0
 =======
 "The ordered quantity cannot be decreased below the amount already delivered. "
 "Instead, create a return in your inventory."

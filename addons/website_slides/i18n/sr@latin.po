@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_slides
+=======
+# * website_slides
+>>>>>>> upstream/18.0
 =======
 # * website_slides
 >>>>>>> upstream/18.0
@@ -15,8 +19,12 @@
 # Martin Trigaux, 2022
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022
 #
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
+>>>>>>> upstream/18.0
 =======
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
 >>>>>>> upstream/18.0
@@ -27,6 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-06-03 08:43+0000\n"
@@ -43,6 +52,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-15 18:36+0000\n"
 "PO-Revision-Date: 2025-08-26 14:54+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
@@ -56,6 +67,9 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65,7 +79,11 @@ msgstr ""
 msgid "# Active Attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Aktivni učesnici"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Aktivni učesnici"
 >>>>>>> upstream/18.0
@@ -88,7 +106,11 @@ msgstr "# Završeno"
 msgid "# Completed Attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Učenisici koji su završili"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Učenisici koji su završili"
 >>>>>>> upstream/18.0
@@ -101,7 +123,11 @@ msgstr "# Učenisici koji su završili"
 msgid "# Completed Contents"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Završeni sadržaji"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Završeni sadržaji"
 >>>>>>> upstream/18.0
@@ -114,7 +140,11 @@ msgstr "# Završeni sadržaji"
 msgid "# Enrolled Attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Upisani polaznici"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Upisani polaznici"
 >>>>>>> upstream/18.0
@@ -127,7 +157,11 @@ msgstr "# Upisani polaznici"
 msgid "# Enrolled or Invited Attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "#Upisani ili pozvani učesnici"
+>>>>>>> upstream/18.0
 =======
 msgstr "#Upisani ili pozvani učesnici"
 >>>>>>> upstream/18.0
@@ -140,7 +174,11 @@ msgstr "#Upisani ili pozvani učesnici"
 msgid "# Invited Attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Pozvani učesnici"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Pozvani učesnici"
 >>>>>>> upstream/18.0
@@ -200,7 +238,11 @@ msgstr "# Website pregleda"
 msgid "% Completed Contents"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "% CZavršeni sadržaji"
+>>>>>>> upstream/18.0
 =======
 msgstr "% CZavršeni sadržaji"
 >>>>>>> upstream/18.0
@@ -278,9 +320,15 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Hello<br><br>\n"
 "        You have been enrolled to a new course: <t t-out=\"object.channel_id."
 "name or ''\">Basics of Gardening</t>.\n"
+=======
+"        Hello<br/><br/>\n"
+"        You have been enrolled to a new course: <t t-"
+"out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+>>>>>>> upstream/18.0
 =======
 "        Hello<br/><br/>\n"
 "        You have been enrolled to a new course: <t t-"
@@ -303,9 +351,15 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Hello<br><br>\n"
 "        You have been invited to check out this course: <t t-out=\"object."
 "channel_id.name or ''\">Basics of Gardening</t>.\n"
+=======
+"        Hello<br/><br/>\n"
+"        You have been invited to check out this course: <t t-"
+"out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+>>>>>>> upstream/18.0
 =======
 "        Hello<br/><br/>\n"
 "        You have been invited to check out this course: <t t-"
@@ -329,6 +383,7 @@ msgid ""
 "\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <p style=\"margin: 0px;\">Hello <t t-out=\"object."
 "partner_id.name or ''\">Brandon Freeman</t>,</p><br>\n"
 "                        <p><b>Congratulations!</b></p>\n"
@@ -338,6 +393,8 @@ msgid ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <p style=\"margin: 0px;\">Hello <t t-"
 "out=\"object.partner_id.name or ''\">Brandon Freeman</t>,</p><br/>\n"
 "                        <p><b>Congratulations!</b></p>\n"
@@ -345,6 +402,9 @@ msgid ""
 "out=\"object.channel_id.name or ''\">Basics of Gardening</b></p>\n"
 "                        <p>Check out the other available courses.</p><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -360,11 +420,14 @@ msgid ""
 "                        Enjoy this exclusive content!\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"object.channel_id.user_id.signature\">\n"
 "                            <br>\n"
 "                            <t t-out=\"object.channel_id.user_id.signature "
 "or ''\">--<br>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                        <t t-if=\"object.channel_id.user_id.signature\" data-"
@@ -374,6 +437,9 @@ msgid ""
 "or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell "
 "Admin</t>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -391,6 +457,7 @@ msgid ""
 "\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Hello<br><br>\n"
 "                        <t t-out=\"user.name or ''\">Mitchell Admin</t> "
 "shared the <strong t-out=\"object.name or ''\">document</strong> with you!\n"
@@ -403,6 +470,8 @@ msgid ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        Hello<br/><br/>\n"
 "                        <t t-out=\"user.name or ''\">Mitchell Admin</t> "
 "shared the <strong t-out=\"object.name or ''\">document</strong> with you!\n"
@@ -413,6 +482,9 @@ msgid ""
 "src=\"{{ ctx.get('base_url') }}/web/image/slide.channel/{{ object.id }}/"
 "image_256\" style=\"height:auto; width:150px; margin: 16px;\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -429,6 +501,7 @@ msgid ""
 "                        </div>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"user.signature\">\n"
 "                            <br>\n"
 "                            <t t-out=\"user.signature or ''\">--<br>Mitchell "
@@ -436,6 +509,8 @@ msgid ""
 "                        </t>\n"
 "                    </p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                        <t t-if=\"user.signature\" data-o-mail-quote-"
@@ -446,6 +521,9 @@ msgid ""
 "                        </t>\n"
 "                    \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -461,6 +539,7 @@ msgid ""
 "\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Hello<br><br>\n"
 "                        <t t-out=\"user.name or ''\">Mitchell Admin</t> "
 "shared the <t t-out=\"object.slide_category or ''\">document</t> <strong t-"
@@ -470,6 +549,8 @@ msgid ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        Hello<br/><br/>\n"
 "                        <t t-out=\"user.name or ''\">Mitchell Admin</t> "
 "shared the <t t-out=\"object.slide_category or ''\">document</t> <strong t-"
@@ -477,6 +558,9 @@ msgid ""
 "                        </p><div style=\"margin: 16px 8px 16px 8px; text-"
 "align: center;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -486,7 +570,11 @@ msgid ""
 "src=\"{{ ctx.get('base_url') }}/web/image/slide.slide/{{ object.id }}/"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "image_1024\" style=\"height:auto; width:150px; margin: 16px;\">\n"
+=======
+"image_1024\" style=\"height:auto; width:150px; margin: 16px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "image_1024\" style=\"height:auto; width:150px; margin: 16px;\"/>\n"
 >>>>>>> upstream/18.0
@@ -505,6 +593,7 @@ msgid ""
 "                        </div>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"user.signature\">\n"
 "                            <br>\n"
 "                            <t t-out=\"user.signature or ''\">--<br>Mitchell "
@@ -512,6 +601,8 @@ msgid ""
 "                        </t>\n"
 "                    </p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                        <t t-if=\"user.signature\" data-o-mail-quote-"
@@ -522,6 +613,9 @@ msgid ""
 "                        </t>\n"
 "                    \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -537,6 +631,7 @@ msgid ""
 "\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Hello<br><br>\n"
 "                        There is something new in the course <strong t-"
 "out=\"object.channel_id.name or ''\">Trees, Wood and Gardens</strong> you "
@@ -546,6 +641,8 @@ msgid ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        Hello<br/><br/>\n"
 "                        There is something new in the course <strong t-"
 "out=\"object.channel_id.name or ''\">Trees, Wood and Gardens</strong> you "
@@ -553,6 +650,9 @@ msgid ""
 "                        </p><center><strong t-out=\"object.name or "
 "''\">Trees</strong></center>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -564,7 +664,11 @@ msgid ""
 "src=\"{{ ctx.get('base_url') }}/web/image/slide.slide/{{ object.id }}/"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "image_1024\" style=\"height:auto; width:150px; margin: 16px;\">\n"
+=======
+"image_1024\" style=\"height:auto; width:150px; margin: 16px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "image_1024\" style=\"height:auto; width:150px; margin: 16px;\"/>\n"
 >>>>>>> upstream/18.0
@@ -583,6 +687,7 @@ msgid ""
 "                        Enjoy this exclusive content!\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"user.signature\">\n"
 "                            <br>\n"
 "                            <t t-out=\"user.signature or ''\">--<br>Mitchell "
@@ -590,6 +695,8 @@ msgid ""
 "                        </t>\n"
 "                    </p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                        <t t-if=\"user.signature\" data-o-mail-quote-"
@@ -600,6 +707,9 @@ msgid ""
 "                        </t>\n"
 "                    \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -612,7 +722,11 @@ msgstr ""
 msgid "<i class=\"fa fa-arrow-right\"/> Start Learning"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-arrow-right\"/> Počni sa učenjem"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-arrow-right\"/> Počni sa učenjem"
 >>>>>>> upstream/18.0
@@ -687,6 +801,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-desktop me-xl-2 my-1\"/>\n"
+"                <span class=\"d-none d-xl-inline-block\">Ceo ekran</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-desktop me-xl-2 my-1\"/>\n"
 "                <span class=\"d-none d-xl-inline-block\">Ceo ekran</span>"
@@ -784,7 +903,11 @@ msgstr "<i class=\"fa fa-flag text-warning\"/> Kviz"
 msgid "<i class=\"fa fa-flag-checkered text-warning\"/>Quiz"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-flag-checkered text-warning\"/>Kviz"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-flag-checkered text-warning\"/>Kviz"
 >>>>>>> upstream/18.0
@@ -839,6 +962,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-lock\"/>\n"
+"                        <span>Kurs je zaključan</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-lock\"/>\n"
 "                        <span>Kurs je zaključan</span>"
@@ -897,6 +1025,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-share-alt me-xl-2 my-1\"/>\n"
+"                <span class=\"d-none d-xl-inline-block\">Podeli</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-share-alt me-xl-2 my-1\"/>\n"
 "                <span class=\"d-none d-xl-inline-block\">Podeli</span>"
@@ -954,7 +1087,11 @@ msgstr ""
 msgid "<i class=\"oi oi-arrow-right me-1\"/>All Courses"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>Svi kursevi"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>Svi kursevi"
 >>>>>>> upstream/18.0
@@ -970,6 +1107,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-left me-2\"/> <span class=\"d-none d-sm-inline-"
+"block\">Prethodno</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-left me-2\"/> <span class=\"d-none d-sm-inline-"
 "block\">Prethodno</span>"
@@ -995,11 +1137,17 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<small><span class=\"badge rounded-pill text-bg-success fw-normal\"><i "
 "class=\"fa fa-check\"/> Completed</span></small>"
 msgstr ""
 "<small><span class=\"badge rounded-pill text-bg-success fw-normal\"><i "
 "class=\"fa fa-check\"/> Završeno</span></small>"
+=======
+"<small><span class=\"badge text-bg-success fw-normal\"><i class=\"fa fa-"
+"check\"/> Completed</span></small>"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 "<small><span class=\"badge text-bg-success fw-normal\"><i class=\"fa fa-"
 "check\"/> Completed</span></small>"
@@ -1020,6 +1168,7 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_card
@@ -1027,6 +1176,11 @@ msgid ""
 "<span class=\"badge rounded-pill text-bg-success pull-right\"><i class=\"fa "
 "fa-check\"/> Completed</span>"
 msgstr ""
+=======
+"<span class=\"badge fw-bold m-1 text-bg-warning\">\n"
+"                            <i class=\"fa fa-fw fa-flag\"/> 10 bodova\n"
+"                        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge fw-bold m-1 text-bg-warning\">\n"
 "                            <i class=\"fa fa-fw fa-flag\"/> 10 bodova\n"
@@ -1045,6 +1199,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"badge text-bg-info badge-arrow-right fw-normal m-1\">Novo</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-info badge-arrow-right fw-normal m-1\">Novo</"
 "span>"
@@ -1059,8 +1218,13 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-light badge-hide border fw-normal m-1\">Add "
 "Quiz</span>"
+=======
+"<span class=\"badge text-bg-primary badge-hide fw-normal m-1\">Add Quiz</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-primary badge-hide fw-normal m-1\">Add Quiz</"
 "span>"
@@ -1079,6 +1243,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"badge text-bg-success fw-normal m-1\"><span>Pregled</span></"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-success fw-normal m-1\"><span>Pregled</span></"
 "span>"
@@ -1093,7 +1262,10 @@ msgstr ""
 msgid "<span class=\"badge text-bg-success fw-normal m-1\">Preview</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgstr "<span class=\"badge text-bg-success fw-normal m-1\">Pregled</span>"
@@ -1104,6 +1276,9 @@ msgid ""
 "<span class=\"badge text-bg-success pull-right\"><i class=\"fa fa-check\"/> "
 "Completed</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1117,6 +1292,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"d-none d-sm-inline-block\">Sledeće</span> <i class=\"oi oi-"
+"chevron-right ms-2\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"d-none d-sm-inline-block\">Sledeće</span> <i class=\"oi oi-"
 "chevron-right ms-2\"/>"
@@ -1149,6 +1329,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"ms-1\">Lekcije</span>\n"
+"                                <span class=\"ms-1\">·</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"ms-1\">Lekcije</span>\n"
 "                                <span class=\"ms-1\">·</span>"
@@ -1167,6 +1352,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label\">Slajdovi</span>\n"
+"                    <span class=\"fa fa-lg fa-globe\" title=\"Values set "
+"here are website-specific.\" groups=\"website.group_multi_website\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label\">Slajdovi</span>\n"
 "                    <span class=\"fa fa-lg fa-globe\" title=\"Values set "
@@ -1183,7 +1374,11 @@ msgstr ""
 msgid "<span class=\"o_stat_text\">Attendees</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Učesnici</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Učesnici</span>"
 >>>>>>> upstream/18.0
@@ -1205,9 +1400,12 @@ msgstr "<span class=\"o_stat_text\">Ugrađeni pregledi</span>"
 #: model_terms:ir.ui.view,arch_db:website_slides.course_card_information_arrow
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"o_wslides_arrow\">New Content</span>"
 msgstr "<span class=\"o_wslides_arrow\">Novi sadržaj</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid ""
@@ -1215,6 +1413,9 @@ msgid ""
 "span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1227,6 +1428,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"oi oi-arrow-right\"/>\n"
+"                                Kreiraj Google Projekat i dobij Ključ"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"oi oi-arrow-right\"/>\n"
 "                                Kreiraj Google Projekat i dobij Ključ"
@@ -1249,6 +1455,7 @@ msgstr "<span class=\"text-500 mx-2\">•</span>"
 #. module: website_slides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
 msgid "<span class=\"text-bg-danger\">Archived</span>"
 msgstr ""
@@ -1263,6 +1470,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
 msgid ""
 "<span class=\"text-muted fw-bold col-4 col-md-3\">\n"
@@ -1271,6 +1480,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted fw-bold col-4 col-md-3\">\n"
+"                        Dodatni resursi\n"
+"                    </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted fw-bold col-4 col-md-3\">\n"
 "                        Dodatni resursi\n"
@@ -1289,6 +1504,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted fw-bold col-4 col-md-3\">Eksterni resursi</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted fw-bold col-4 col-md-3\">Eksterni resursi</span>"
 >>>>>>> upstream/18.0
@@ -1304,7 +1523,10 @@ msgstr "<span class=\"text-muted fw-bold me-3\">Ocene</span>"
 #. module: website_slides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
@@ -1328,6 +1550,9 @@ msgstr ""
 
 #. module: website_slides
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1336,6 +1561,7 @@ msgid "<span class=\"text-muted\">Common tasks for a computer scientist</span>"
 msgstr "<span class=\"text-muted\">Uobičajeni zadaci za informatičara</span>"
 
 #. module: website_slides
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
@@ -1352,6 +1578,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_sample
 msgid "<span class=\"text-muted\">Parts of computer science</span>"
 msgstr "<span class=\"text-muted\">Delovi računarstva</span>"
@@ -1359,11 +1587,14 @@ msgstr "<span class=\"text-muted\">Delovi računarstva</span>"
 #. module: website_slides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
 msgid "<span class=\"text-muted\">Total</span>"
 msgstr ""
 
 #. module: website_slides
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1414,6 +1645,7 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span id=\"zoomout\" class=\"d-none d-sm-inline ms-2 me-2\" title=\"Zoom "
 "out\" aria-label=\"Zoom out\" role=\"button\">\n"
 "                                            <i class=\"fa fa-search-minus\"/"
@@ -1422,6 +1654,8 @@ msgid ""
 "                                        <span id=\"zoomin\" class=\"d-none d-"
 "sm-inline\" title=\"Zoom in\" aria-label=\"Zoom in\" role=\"button\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "<span id=\"zoomout\" class=\"d-inline ms-2 me-2\" title=\"Zoom out\" aria-"
@@ -1432,6 +1666,9 @@ msgid ""
 "                                        <span id=\"zoomin\" class=\"d-"
 "inline\" title=\"Zoom in\" aria-label=\"Zoom in\" role=\"button\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1439,6 +1676,7 @@ msgid ""
 ">\n"
 "                                        </span>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "<span id=\"zoomout\" class=\"d-none d-sm-inline ms-2 me-2\" title=\"Zoom "
@@ -1455,15 +1693,23 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span name=\"done_members_count_label\" class=\"text-muted\">Finished</span>"
 msgstr ""
 "<span name=\"done_members_count_label\" class=\"text-muted\">Završeno</span>"
+=======
+"<span name=\"done_members_count_label\" class=\"text-muted text-truncate "
+"mw-100\" title=\"Finished\">Finished</span>"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 "<span name=\"done_members_count_label\" class=\"text-muted text-truncate "
 "mw-100\" title=\"Finished\">Finished</span>"
@@ -1483,6 +1729,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"members_completed_count_label\" class=\"o_stat_text\">Završeno</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"members_completed_count_label\" class=\"o_stat_text\">Završeno</"
 "span>"
@@ -1500,7 +1751,10 @@ msgstr "<span> sati</span>"
 #. module: website_slides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:web_tour.tour,rainbow_man_message:website_slides.slides_tour
@@ -1509,6 +1763,9 @@ msgstr ""
 
 #. module: website_slides
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1537,7 +1794,11 @@ msgstr "<span>Postavljanje pravih pitanja</span>"
 msgid "<span>Content only accessible to course attendees.</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Sadržaj je dostupan jedino učesnicima treninga.</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Sadržaj je dostupan jedino učesnicima treninga.</span>"
 >>>>>>> upstream/18.0
@@ -1591,9 +1852,14 @@ msgstr "<strong>Još uvek nema učesnika!</strong>"
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_social_email
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Sharing is caring!</strong> Email(s) sent."
 msgstr ""
 "<strong>Deljenjem pokazujete da vam je stalo!</strong> Email(ovi) poslat/i."
+=======
+msgid "<strong>Sharing is caring!</strong> Your email(s) will arrive shortly."
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Sharing is caring!</strong> Your email(s) will arrive shortly."
 msgstr ""
@@ -1620,7 +1886,11 @@ msgid ""
 "A good course has a structure. Pick a name for your first <b>Section</b>."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dobar kurs ima strukturu. Izaberite ime za svoj prvi <b>Segment</b>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dobar kurs ima strukturu. Izaberite ime za svoj prvi <b>Segment</b>."
 >>>>>>> upstream/18.0
@@ -1777,7 +2047,11 @@ msgstr "Aktivno"
 msgid "Active attendees include both 'joined' and 'ongoing' attendees."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivni učesnici uključuju i 'priključene' i 'u toku' učesnike."
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktivni učesnici uključuju i 'priključene' i 'u toku' učesnike."
 >>>>>>> upstream/18.0
@@ -1817,7 +2091,11 @@ msgstr "Dodaj"
 msgid "Add Attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj učesnike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj učesnike"
 >>>>>>> upstream/18.0
@@ -1844,7 +2122,11 @@ msgstr "Dodaj sadržaj"
 msgid "Add Review"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dodaj ocenu"
+=======
+msgstr "Dodaj recenziju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj recenziju"
 >>>>>>> upstream/18.0
@@ -1862,7 +2144,11 @@ msgstr "Dodaj segment"
 #. odoo-javascript
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/website_slides/static/src/js/public/components/course_tag_add_dialog/course_tag_add_dialog.js:0
+=======
+#: code:addons/website_slides/static/src/js/public/components/course_tag_add_dialog/course_tag_add_dialog.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/website_slides/static/src/js/public/components/course_tag_add_dialog/course_tag_add_dialog.xml:0
 >>>>>>> upstream/18.0
@@ -1902,7 +2188,11 @@ msgstr "Dodaj komentar na ovaj odgovor"
 msgid "Add contacts..."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj kontakte..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj kontakte..."
 >>>>>>> upstream/18.0
@@ -1915,7 +2205,11 @@ msgstr "Dodaj kontakte..."
 msgid "Add quiz"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj kviz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj kviz"
 >>>>>>> upstream/18.0
@@ -1933,7 +2227,11 @@ msgstr "Dodajte svoj sadržaj ovde..."
 msgid "Added On"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodat/a dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodat/a dana"
 >>>>>>> upstream/18.0
@@ -1967,7 +2265,11 @@ msgstr "Napredno"
 msgid "All Attendees Information"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informacije svih učesnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informacije svih učesnika"
 >>>>>>> upstream/18.0
@@ -1987,7 +2289,11 @@ msgstr "Svi kursevi"
 msgid "All progress will be lost until you rejoin this course."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sav napredak će biti izgubljen ukoliko se ponovo ne priključite kursu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sav napredak će biti izgubljen ukoliko se ponovo ne priključite kursu."
 >>>>>>> upstream/18.0
@@ -2001,7 +2307,11 @@ msgstr "Sav napredak će biti izgubljen ukoliko se ponovo ne priključite kursu.
 msgid "All questions must be answered!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na sva pitanja je obavezno odgovoriti!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na sva pitanja je obavezno odgovoriti!"
 >>>>>>> upstream/18.0
@@ -2019,6 +2329,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sva pitanja moraju imati najmanje jedan ispravan i jedan neispravan "
+"odgovor: \n"
+"%s\n"
+>>>>>>> upstream/18.0
 =======
 "Sva pitanja moraju imati najmanje jedan ispravan i jedan neispravan "
 "odgovor: \n"
@@ -2035,7 +2351,11 @@ msgstr ""
 msgid "All the courses you attend will appear here. <br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovde će se pojaviti svi kursevi na kojima ste učestvovali. <br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovde će se pojaviti svi kursevi na kojima ste učestvovali. <br/>"
 >>>>>>> upstream/18.0
@@ -2150,6 +2470,10 @@ msgstr "Arhiviraj sadržaj"
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_partner_view_search
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
 >>>>>>> upstream/18.0
@@ -2170,7 +2494,11 @@ msgstr "Arhivirano"
 msgid "Are you sure you want to archive this content?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li ste sigurni da želite da arhivirate ovaj sadržaj?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li ste sigurni da želite da arhivirate ovaj sadržaj?"
 >>>>>>> upstream/18.0
@@ -2185,7 +2513,11 @@ msgstr "Da li ste sigurni da želite da arhivirate ovaj sadržaj?"
 msgid "Are you sure you want to delete this category?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li ste sigurni da želite da obrižete ovu kategoriju?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li ste sigurni da želite da obrižete ovu kategoriju?"
 >>>>>>> upstream/18.0
@@ -2200,6 +2532,10 @@ msgid "Are you sure you want to delete this question \"<strong>%s</strong>\"?"
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Da li ste sigurni da želite da obrišete ovo pitanje \"<strong>%s</strong>\"?"
+>>>>>>> upstream/18.0
 =======
 "Da li ste sigurni da želite da obrišete ovo pitanje \"<strong>%s</strong>\"?"
 >>>>>>> upstream/18.0
@@ -2251,7 +2587,11 @@ msgstr "Učesnik/ca"
 msgid "Attendee Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status učesnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status učesnika"
 >>>>>>> upstream/18.0
@@ -2301,7 +2641,11 @@ msgstr "Prosečna ocena"
 msgid "BUILDING BLOCKS DROPPED HERE WILL BE SHOWN ACROSS ALL LESSONS"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BLOKOVI KOJI SE OVDE POSTAVE BIĆE PRIKAZANI NA SVIM LEKCIJAMA"
+>>>>>>> upstream/18.0
 =======
 msgstr "BLOKOVI KOJI SE OVDE POSTAVE BIĆE PRIKAZANI NA SVIM LEKCIJAMA"
 >>>>>>> upstream/18.0
@@ -2322,7 +2666,11 @@ msgstr "Nazad"
 msgid "Back to course"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazad na kurs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nazad na kurs"
 >>>>>>> upstream/18.0
@@ -2366,7 +2714,11 @@ msgstr "Budite obavešteni kada se doda novi sadržaj."
 msgid "Body content is the same as the template"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadržaj tela je isti kao i šablon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sadržaj tela je isti kao i šablon"
 >>>>>>> upstream/18.0
@@ -2581,7 +2933,11 @@ msgstr "Izaberi sliku"
 msgid "Choose your wood!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izaberite svoje drvo!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izaberite svoje drvo!"
 >>>>>>> upstream/18.0
@@ -2600,7 +2956,11 @@ msgstr "Poništi filtere"
 msgid "Click <b>Save</b> to create it."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klikni na <b>Sačuvaj</b> da ga kreiraš."
+>>>>>>> upstream/18.0
 =======
 msgstr "Klikni na <b>Sačuvaj</b> da ga kreiraš."
 >>>>>>> upstream/18.0
@@ -2613,7 +2973,11 @@ msgstr "Klikni na <b>Sačuvaj</b> da ga kreiraš."
 msgid "Click here to get started"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klikni ovde da započneš"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klikni ovde da započneš"
 >>>>>>> upstream/18.0
@@ -2647,7 +3011,11 @@ msgstr ""
 msgid "Click on the <b>Save</b> button to create your first course."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klikkni na dugme <b>Sačuvaj</b> da kreiraš svoj prvi kurs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Klikkni na dugme <b>Sačuvaj</b> da kreiraš svoj prvi kurs."
 >>>>>>> upstream/18.0
@@ -2966,7 +3334,11 @@ msgstr "Nastavi"
 msgid "Copied"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kopirano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kopirano"
 >>>>>>> upstream/18.0
@@ -2980,7 +3352,11 @@ msgstr "Kopirano"
 msgid "Copy Embed Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kopiraj ugradni kod"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kopiraj ugradni kod"
 >>>>>>> upstream/18.0
@@ -3001,7 +3377,11 @@ msgstr "Kopiraj link"
 msgid "Correct!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tačno!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tačno!"
 >>>>>>> upstream/18.0
@@ -3014,7 +3394,11 @@ msgstr "Tačno!"
 msgid "Correct! A shovel is the perfect tool to dig a hole."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tačno! Ašov je idealan alat za kopanje rupe."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tačno! Ašov je idealan alat za kopanje rupe."
 >>>>>>> upstream/18.0
@@ -3027,7 +3411,11 @@ msgstr "Tačno! Ašov je idealan alat za kopanje rupe."
 msgid "Correct! A strawberry is a fruit because it's the product of a tree."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tačno! Jagoda je voće jer je proizvod drveta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tačno! Jagoda je voće jer je proizvod drveta."
 >>>>>>> upstream/18.0
@@ -3040,7 +3428,11 @@ msgstr "Tačno! Jagoda je voće jer je proizvod drveta."
 msgid "Correct! Congratulations you have time to loose"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tačno! Čestitamo, imate vremena za opuštanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tačno! Čestitamo, imate vremena za opuštanje"
 >>>>>>> upstream/18.0
@@ -3053,7 +3445,11 @@ msgstr "Tačno! Čestitamo, imate vremena za opuštanje"
 msgid "Correct! You did it!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tačno! Uspeli ste!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tačno! Uspeli ste!"
 >>>>>>> upstream/18.0
@@ -3092,7 +3488,11 @@ msgstr "Kurs"
 msgid "Course Attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Učesnici kursa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Učesnici kursa"
 >>>>>>> upstream/18.0
@@ -3112,7 +3512,11 @@ msgstr "Brojač kurseva"
 msgid "Course Finished"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kurs je završen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kurs je završen"
 >>>>>>> upstream/18.0
@@ -3136,7 +3540,11 @@ msgstr "Grupe kursa"
 msgid "Course Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Link kursa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Link kursa"
 >>>>>>> upstream/18.0
@@ -3149,7 +3557,11 @@ msgstr "Link kursa"
 msgid "Course Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Učesnik kursa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Učesnik kursa"
 >>>>>>> upstream/18.0
@@ -3173,6 +3585,7 @@ msgstr "Stranice kursa"
 msgid "Course Quiz"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: website_slides
@@ -3183,6 +3596,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Kviz kursa"
 
 #. module: website_slides
@@ -3191,6 +3606,9 @@ msgstr "Kviz kursa"
 msgid "Course Ranked"
 msgstr "Kurs je ocenjen"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3201,7 +3619,11 @@ msgstr "Kurs je ocenjen"
 msgid "Course Set Uncompleted"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kurs je postavljen u status nezavršenog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kurs je postavljen u status nezavršenog"
 >>>>>>> upstream/18.0
@@ -3300,7 +3722,11 @@ msgstr "Stranica kurseva"
 msgid "Courses that have this course as prerequisite."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kursevi koji imaju ovaj kurs kao preduslov."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kursevi koji imaju ovaj kurs kao preduslov."
 >>>>>>> upstream/18.0
@@ -3319,7 +3745,11 @@ msgstr "Svojstva naslovnice"
 msgid "Create New Category \""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj novu kategoriju \""
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj novu kategoriju \""
 >>>>>>> upstream/18.0
@@ -3333,7 +3763,11 @@ msgstr "Kreiraj novu kategoriju \""
 msgid "Create New Tag \""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj novu oznaku \""
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj novu oznaku \""
 >>>>>>> upstream/18.0
@@ -3369,7 +3803,11 @@ msgstr "Kreiraj novi sadržaj za svoj eLearning"
 msgid "Create this tag \""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj ovu oznaku \""
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj ovu oznaku \""
 >>>>>>> upstream/18.0
@@ -3383,7 +3821,11 @@ msgstr "Kreiraj ovu oznaku \""
 msgid "Create this tag group\""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj ovu grupu oznaka\""
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj ovu grupu oznaka\""
 >>>>>>> upstream/18.0
@@ -3446,7 +3888,10 @@ msgstr "Datum (stariji ka novijem)"
 #. module: website_slides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_view_kanban
@@ -3455,6 +3900,9 @@ msgstr ""
 
 #. module: website_slides
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3539,7 +3987,11 @@ msgstr "Detaljan opis"
 msgid "Did you read the whole article?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li ste pročitali ceo članak?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li ste pročitali ceo članak?"
 >>>>>>> upstream/18.0
@@ -3600,7 +4052,11 @@ msgstr "Naziv za prikaz"
 msgid "Do you make beams out of lemon trees?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li pravite grede od limunovog drveta?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li pravite grede od limunovog drveta?"
 >>>>>>> upstream/18.0
@@ -3613,7 +4069,11 @@ msgstr "Da li pravite grede od limunovog drveta?"
 msgid "Do you make lemons out of beams?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li pravite limun od greda?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li pravite limun od greda?"
 >>>>>>> upstream/18.0
@@ -3632,7 +4092,11 @@ msgstr "Da li stvarno želite da napustite kurs?"
 msgid "Do you think Harry Potted has a good name?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li mislite da Harry Potted ima dobro ime?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li mislite da Harry Potted ima dobro ime?"
 >>>>>>> upstream/18.0
@@ -3646,7 +4110,11 @@ msgstr "Da li mislite da Harry Potted ima dobro ime?"
 msgid "Do you want to install \"%s\"?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li želiš da instaliraš \"%s\"?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li želiš da instaliraš \"%s\"?"
 >>>>>>> upstream/18.0
@@ -3659,7 +4127,11 @@ msgstr "Da li želiš da instaliraš \"%s\"?"
 msgid "Do you want to reply correctly?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li želiš da odgovoriš tačno?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li želiš da odgovoriš tačno?"
 >>>>>>> upstream/18.0
@@ -3673,7 +4145,11 @@ msgstr "Da li želiš da odgovoriš tačno?"
 msgid "Do you want to request access to this course?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li želiš da zatražiš pristup ovom kursu?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li želiš da zatražiš pristup ovom kursu?"
 >>>>>>> upstream/18.0
@@ -3729,7 +4205,11 @@ msgstr "Prijateljski nastrojeno prema psima"
 msgid "Don't have an account?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemate nalog?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nemate nalog?"
 >>>>>>> upstream/18.0
@@ -3754,7 +4234,11 @@ msgstr "Brojač završenih"
 msgid "Done!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Završeno!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Završeno!"
 >>>>>>> upstream/18.0
@@ -3777,7 +4261,11 @@ msgstr "Preuzmi sadržaj"
 msgid "Download URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL za preuzimanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL za preuzimanje"
 >>>>>>> upstream/18.0
@@ -3824,7 +4312,11 @@ msgstr "Uredi u pozadini"
 msgid "Elearning: Add Attendees to Course"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elearning: Dodaj učesnike na kurs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elearning: Dodaj učesnike na kurs"
 >>>>>>> upstream/18.0
@@ -3852,7 +4344,11 @@ msgstr "Elearning: Notifikacija o novom sadržaju kursa"
 msgid "Elearning: Promotional Course Invitation"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elearning: Pozivnica za promotivni kurs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elearning: Pozivnica za promotivni kurs"
 >>>>>>> upstream/18.0
@@ -3879,12 +4375,15 @@ msgstr "Email šablon koji se koristi kada se deli slajd"
 #. module: website_slides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_share_dialog/email_sharing_input.xml:0
 msgid "Email(s) sent."
 msgstr "Email(ovi) poslat/i."
 
 #. module: website_slides
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3905,7 +4404,11 @@ msgstr "Ugrađeni pregledi"
 msgid "Embed code"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ugradi kod"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ugradi kod"
 >>>>>>> upstream/18.0
@@ -3941,7 +4444,11 @@ msgstr "Činjenice o energetskoj efikasnosti"
 msgid "Enjoy this exclusive content!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uživajte u ovom ekskluzivnom sadržaju!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uživajte u ovom ekskluzivnom sadržaju!"
 >>>>>>> upstream/18.0
@@ -3955,7 +4462,11 @@ msgstr "Uživajte u ovom ekskluzivnom sadržaju!"
 msgid "Enroll Attendees to %(course_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upiši učesnike na %(course_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upiši učesnike na %(course_name)s"
 >>>>>>> upstream/18.0
@@ -3979,7 +4490,11 @@ msgstr "Politika upisa"
 msgid "Enroll partners"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upiši partnere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upiši partnere"
 >>>>>>> upstream/18.0
@@ -3992,7 +4507,11 @@ msgstr "Upiši partnere"
 msgid "Enrolled Attendees Information"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informacije o upisanim učesnicima"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informacije o upisanim učesnicima"
 >>>>>>> upstream/18.0
@@ -4005,7 +4524,11 @@ msgstr "Informacije o upisanim učesnicima"
 msgid "Enrolled partners in the course"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partneri upisani na kurs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partneri upisani na kurs"
 >>>>>>> upstream/18.0
@@ -4030,7 +4553,11 @@ msgstr "Unesite svoje <b>pitanje</b>. Budite jasni i koncizni."
 msgid "Error on Answers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Greška na odgovorima"
+>>>>>>> upstream/18.0
 =======
 msgstr "Greška na odgovorima"
 >>>>>>> upstream/18.0
@@ -4054,7 +4581,11 @@ msgstr "Procenite znanje svojih učesnika i potvrdite njihove veštine."
 msgid "Everyone"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svi"
 >>>>>>> upstream/18.0
@@ -4072,7 +4603,11 @@ msgstr "Vežbe"
 msgid "Exit Fullscreen"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napusti ceo ekran"
+>>>>>>> upstream/18.0
 =======
 msgstr "Napusti ceo ekran"
 >>>>>>> upstream/18.0
@@ -4106,7 +4641,11 @@ msgstr "Eksterni Website"
 msgid "Failed to install \"%s\""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Instaliranje \"%s\" nije uspelo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Instaliranje \"%s\" nije uspelo"
 >>>>>>> upstream/18.0
@@ -4141,7 +4680,10 @@ msgstr "Datoteka je prevelika. Datoteka ne sme da pređe 25MB"
 #. module: website_slides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:website_slides.model_ir_binary
@@ -4150,6 +4692,9 @@ msgstr ""
 
 #. module: website_slides
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4169,7 +4714,11 @@ msgstr ""
 msgid "Finish"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Završi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Završi"
 >>>>>>> upstream/18.0
@@ -4187,7 +4736,11 @@ msgstr "Završi kurs"
 msgid "Finished"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Završeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Završeno"
 >>>>>>> upstream/18.0
@@ -4295,7 +4848,11 @@ msgstr ""
 msgid "Fullscreen"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ceo ekran"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ceo ekran"
 >>>>>>> upstream/18.0
@@ -4362,7 +4919,11 @@ msgstr "Dajte svom kursu zanimljiv <b>naslov</b>."
 msgid "Go through all its content to see a Course in this section. <br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregledajte ceo sadržaj da biste videli kurs u ovom segmentu. <br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pregledajte ceo sadržaj da biste videli kurs u ovom segmentu. <br/>"
 >>>>>>> upstream/18.0
@@ -4448,7 +5009,11 @@ msgstr "HTML sadržaj"
 msgid "Hand on!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ruka napred!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ruka napred!"
 >>>>>>> upstream/18.0
@@ -4461,7 +5026,11 @@ msgstr "Ruka napred!"
 msgid "Has Completed Prerequisite"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je završio/la preduslov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je završio/la preduslov"
 >>>>>>> upstream/18.0
@@ -4535,8 +5104,13 @@ msgstr "Kako da pronađete kvalitetno drvo"
 #: model:slide.slide,name:website_slides.slide_slide_demo_1_3
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "How to plant a potted tree"
 msgstr "Kako da zasadite drvo u saksiji"
+=======
+msgid "How to plant a potted.list"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "How to plant a potted.list"
 msgstr ""
@@ -4558,7 +5132,11 @@ msgstr "Kako da učitate svoje PowerPoint prezentacije ili Word dokumenta?"
 msgid "How to upload your videos?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kako da učitate svoje video zapise?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kako da učitate svoje video zapise?"
 >>>>>>> upstream/18.0
@@ -4709,10 +5287,13 @@ msgstr "Izvor slike"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible to send emails. Select a \"Channel Share Template\" for courses "
 "%(course_names)s first"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Impossible to send emails. Select a \"Channel Share Template\" for courses %"
@@ -4721,6 +5302,9 @@ msgstr ""
 "Nemoguće je slati email-ove. Izaberite „Šablon za deljenje kanala“ za "
 "kurseve %(course_names)s prvo"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4731,10 +5315,13 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible to send emails. Select a \"Share Template\" for courses "
 "%(course_names)s first"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Impossible to send emails. Select a \"Share Template\" for courses %"
@@ -4743,6 +5330,9 @@ msgstr ""
 "Nemoguće je slati email-ove. Izaberite „Podeli šablon“ za kurseve %"
 "(course_names)s prvo"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4754,7 +5344,11 @@ msgstr ""
 msgid "Incorrect!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Netačno!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Netačno!"
 >>>>>>> upstream/18.0
@@ -4767,7 +5361,11 @@ msgstr "Netačno!"
 msgid "Incorrect! A strawberry is not a vegetable."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Netačno! Jagoda nije povrće."
+>>>>>>> upstream/18.0
 =======
 msgstr "Netačno! Jagoda nije povrće."
 >>>>>>> upstream/18.0
@@ -4780,7 +5378,11 @@ msgstr "Netačno! Jagoda nije povrće."
 msgid "Incorrect! A table is a piece of furniture."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Netačno! Sto jeste komad nameštaja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Netačno! Sto jeste komad nameštaja."
 >>>>>>> upstream/18.0
@@ -4793,7 +5395,11 @@ msgstr "Netačno! Sto jeste komad nameštaja."
 msgid "Incorrect! Good luck digging a hole with a spoon..."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Netačno! Srećno sa kopanjem rupe kašikom..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Netačno! Srećno sa kopanjem rupe kašikom..."
 >>>>>>> upstream/18.0
@@ -4806,7 +5412,11 @@ msgstr "Netačno! Srećno sa kopanjem rupe kašikom..."
 msgid "Incorrect! Seriously?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Netačno! Ozbiljno?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Netačno! Ozbiljno?"
 >>>>>>> upstream/18.0
@@ -4819,7 +5429,11 @@ msgstr "Netačno! Ozbiljno?"
 msgid "Incorrect! You better think twice..."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Netačno! Bolje da razmislite dva puta..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Netačno! Bolje da razmislite dva puta..."
 >>>>>>> upstream/18.0
@@ -4832,7 +5446,11 @@ msgstr "Netačno! Bolje da razmislite dva puta..."
 msgid "Incorrect! You really should read it."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Netačno! Bolje bi bilo da pročitate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Netačno! Bolje bi bilo da pročitate."
 >>>>>>> upstream/18.0
@@ -4845,7 +5463,11 @@ msgstr "Netačno! Bolje bi bilo da pročitate."
 msgid "Incorrect! of course not ..."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Netačno! Naravno da ne ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Netačno! Naravno da ne ..."
 >>>>>>> upstream/18.0
@@ -4876,7 +5498,11 @@ msgstr "Instalirajte"
 msgid "Installing \"%s\"..."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Instalira \"%s\"..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Instalira \"%s\"..."
 >>>>>>> upstream/18.0
@@ -4893,8 +5519,13 @@ msgstr "Zanimljive činjenice"
 #: model:slide.slide,name:website_slides.slide_slide_demo_1_1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Interesting Tree Facts"
 msgstr "Zanimljive činjenice o stablima"
+=======
+msgid "Interesting List Facts"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Interesting List Facts"
 msgstr ""
@@ -4909,7 +5540,11 @@ msgstr ""
 msgid "Interesting information about home gardening. Keep it close!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zanimljive informacije o baštovanstvu kod kuće. Držite ih pri ruci!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zanimljive informacije o baštovanstvu kod kuće. Držite ih pri ruci!"
 >>>>>>> upstream/18.0
@@ -4944,7 +5579,11 @@ msgstr "Neispravan tip datoteke. Molimo izaberite pdf ili sliku"
 msgid "Invitation Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Link pozivnice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Link pozivnice"
 >>>>>>> upstream/18.0
@@ -4964,7 +5603,11 @@ msgstr "Pozovi"
 msgid "Invite Attendees to %(course_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozovi učesnike na %(course_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozovi učesnike na %(course_name)s"
 >>>>>>> upstream/18.0
@@ -4978,7 +5621,11 @@ msgstr "Pozovi učesnike na %(course_name)s"
 msgid "Invite Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozv je poslat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozv je poslat"
 >>>>>>> upstream/18.0
@@ -4991,7 +5638,11 @@ msgstr "Pozv je poslat"
 msgid "Is Category Completed"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li je kategorija završena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li je kategorija završena"
 >>>>>>> upstream/18.0
@@ -5009,7 +5660,11 @@ msgstr "Je Urednik"
 msgid "Is Enrolled Attendee"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je upisan učesnik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je upisan učesnik"
 >>>>>>> upstream/18.0
@@ -5028,7 +5683,11 @@ msgstr "Je Pratilac"
 msgid "Is Invited Attendee"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li je učesnik pozvan/a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li je učesnik pozvan/a"
 >>>>>>> upstream/18.0
@@ -5069,7 +5728,11 @@ msgstr "Je ispravan odgovor"
 msgid "Is the attendee actively enrolled."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li je učesnik aktivno upisan."
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li je učesnik aktivno upisan."
 >>>>>>> upstream/18.0
@@ -5082,7 +5745,11 @@ msgstr "Da li je učesnik aktivno upisan."
 msgid "Is the invitation for this attendee pending."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li je poziv za ovog učesnika na čekanju."
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li je poziv za ovog učesnika na čekanju."
 >>>>>>> upstream/18.0
@@ -5137,7 +5804,11 @@ msgstr "Pridruži se kursu"
 msgid "Joined"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Priključio/la se"
+>>>>>>> upstream/18.0
 =======
 msgstr "Priključio/la se"
 >>>>>>> upstream/18.0
@@ -5222,7 +5893,11 @@ msgstr "Poslednja akcija dana"
 msgid "Last Invitation"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednja pozivnica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednja pozivnica"
 >>>>>>> upstream/18.0
@@ -5235,7 +5910,11 @@ msgstr "Poslednja pozivnica"
 msgid "Last Invitation Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum poslednje pozivnice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum poslednje pozivnice"
 >>>>>>> upstream/18.0
@@ -5313,7 +5992,11 @@ msgstr ""
 msgid "Learn the basics of gardening!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nauči osnove baštovanstva!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nauči osnove baštovanstva!"
 >>>>>>> upstream/18.0
@@ -5397,7 +6080,10 @@ msgstr ""
 #. module: website_slides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:slide.slide,name:website_slides.slide_slide_demo_1_0
@@ -5411,6 +6097,9 @@ msgstr ""
 
 #. module: website_slides
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5424,7 +6113,11 @@ msgstr "Učitava sadržaj..."
 msgid "Log in"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijavi se"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prijavi se"
 >>>>>>> upstream/18.0
@@ -5622,7 +6315,11 @@ msgstr "Nav"
 msgid "Need help? Review related content:"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrebna vam je pomoć? Pogledajte povezani sadržaj:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrebna vam je pomoć? Pogledajte povezani sadržaj:"
 >>>>>>> upstream/18.0
@@ -5659,8 +6356,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Novo {{ object.slide_category }} je objavljeno na {{ object.channel_id."
 "name }}"
+=======
+"Novo {{ object.slide_category }} je objavljeno na "
+"{{ object.channel_id.name }}"
+>>>>>>> upstream/18.0
 =======
 "Novo {{ object.slide_category }} je objavljeno na "
 "{{ object.channel_id.name }}"
@@ -5712,7 +6414,11 @@ msgstr "Tip sledeće aktivnosti"
 msgid "Next Lesson"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledeća lekcija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sledeća lekcija"
 >>>>>>> upstream/18.0
@@ -5804,7 +6510,11 @@ msgstr "Trenutno nema rang lista :("
 msgid "No lessons are available yet."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Još uvek nema dostupnih lekcija."
+>>>>>>> upstream/18.0
 =======
 msgstr "Još uvek nema dostupnih lekcija."
 >>>>>>> upstream/18.0
@@ -5817,7 +6527,11 @@ msgstr "Još uvek nema dostupnih lekcija."
 msgid "No ongoing courses yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Još nema kurseva koji su u toku!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Još nema kurseva koji su u toku!"
 >>>>>>> upstream/18.0
@@ -5917,7 +6631,11 @@ msgstr "Broj grešaka"
 msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj poruka koje zahtevaju akciju"
 >>>>>>> upstream/18.0
@@ -5988,7 +6706,11 @@ msgstr "Kada završite, ne zaboravite da <b>objavite</b> svoj kurs."
 msgid "Ongoing"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "U toku"
+>>>>>>> upstream/18.0
 =======
 msgstr "U toku"
 >>>>>>> upstream/18.0
@@ -6001,6 +6723,7 @@ msgstr "U toku"
 msgid "Ongoing Courses"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: website_slides
@@ -6011,6 +6734,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Kursevi u toku"
 
 #. module: website_slides
@@ -6019,6 +6744,9 @@ msgstr "Kursevi u toku"
 msgid "Only a single review can be posted per course."
 msgstr "Samo jedna recenzija može biti objavljena po kursu."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6028,7 +6756,11 @@ msgstr "Samo jedna recenzija može biti objavljena po kursu."
 msgid "Open"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otvoreno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otvoreno"
 >>>>>>> upstream/18.0
@@ -6042,7 +6774,11 @@ msgstr "Otvoreno"
 msgid "Operation not supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operacija nije podržana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operacija nije podržana"
 >>>>>>> upstream/18.0
@@ -6062,8 +6798,13 @@ msgstr ""
 "podešeno, koristiće se engleska verzija. Ovo bi obično trebalo da bude izraz "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "placeholder-a koji obezbeđuje odgovarajući jezik, npr. {{ object.partner_id."
 "lang }}."
+=======
+"placeholder-a koji obezbeđuje odgovarajući jezik, npr. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 =======
 "placeholder-a koji obezbeđuje odgovarajući jezik, npr. "
 "{{ object.partner_id.lang }}."
@@ -6128,6 +6869,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Molimo <a href=\"/web/login?redirect=%(url)s\">prijavite se</a> ili<a "
+"href=\"/web/signup?redirect=%(url)s\">kreirajte nalog</a> da glasate za ovu "
+"lekciju"
+>>>>>>> upstream/18.0
 =======
 "Molimo <a href=\"/web/login?redirect=%(url)s\">prijavite se</a> ili<a "
 "href=\"/web/signup?redirect=%(url)s\">kreirajte nalog</a> da glasate za ovu "
@@ -6148,6 +6895,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Molimo <a href=\"/web/login?redirect=%(url)s\">prijavite se</a> da glasate "
+"za ovu lekciju"
+>>>>>>> upstream/18.0
 =======
 "Molimo <a href=\"/web/login?redirect=%(url)s\">prijavite se</a> da glasate "
 "za ovu lekciju"
@@ -6209,7 +6961,11 @@ msgstr "Platformu pokreće"
 msgid "Prerequisite Of"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preduslov za"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preduslov za"
 >>>>>>> upstream/18.0
@@ -6222,7 +6978,11 @@ msgstr "Preduslov za"
 msgid "Prerequisite courses to complete before accessing this one."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kursevi koji su preduslov da se završe pre priključivanja ovom."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kursevi koji su preduslov da se završe pre priključivanja ovom."
 >>>>>>> upstream/18.0
@@ -6235,7 +6995,11 @@ msgstr "Kursevi koji su preduslov da se završe pre priključivanja ovom."
 msgid "Prerequisites"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preduslovi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preduslovi"
 >>>>>>> upstream/18.0
@@ -6267,7 +7031,11 @@ msgstr "Pregled"
 msgid "Previous"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prethodno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prethodno"
 >>>>>>> upstream/18.0
@@ -6301,7 +7069,11 @@ msgstr "Napredak"
 msgid "Progress bar"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Traka napretka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Traka napretka"
 >>>>>>> upstream/18.0
@@ -6333,6 +7105,10 @@ msgstr "Datum objavljivanja"
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_pages_kanban_view
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
 >>>>>>> upstream/18.0
@@ -6403,7 +7179,11 @@ msgstr "Kviz"
 msgid "Quiz Completed"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kviz je završen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kviz je završen"
 >>>>>>> upstream/18.0
@@ -6423,7 +7203,11 @@ msgstr "Demo kviz podaci"
 msgid "Quiz Set Uncompleted"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kviz je postavljen kao nezavršen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kviz je postavljen kao nezavršen"
 >>>>>>> upstream/18.0
@@ -6565,7 +7349,11 @@ msgstr "Zahtevajte pristup."
 msgid "Request sent!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahtev je poslat!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zahtev je poslat!"
 >>>>>>> upstream/18.0
@@ -6624,7 +7412,11 @@ msgstr "Odgovorna osoba je već kontaktirana."
 msgid "Restrict to a specific website."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ograniči na konkretan website."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ograniči na konkretan website."
 >>>>>>> upstream/18.0
@@ -6663,6 +7455,11 @@ msgstr "Datum ocene"
 #. module: website_slides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
@@ -6681,6 +7478,7 @@ msgstr "Datum ocene"
 msgid "Reviews"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ocene"
 
 #. module: website_slides
@@ -6691,6 +7489,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Recenzije"
 
 #. module: website_slides
@@ -6699,6 +7499,9 @@ msgstr "Recenzije"
 msgid "Reviews (%s)"
 msgstr "Recenzije (%s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6768,7 +7571,11 @@ msgstr "Sačuvaj"
 msgid "Save and Publish"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sačuvaj i Objavi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sačuvaj i Objavi"
 >>>>>>> upstream/18.0
@@ -6864,7 +7671,11 @@ msgstr "Izaberi ručno"
 msgid "Select or create a category"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izaberi ili kreiraj kategoriju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izaberi ili kreiraj kategoriju"
 >>>>>>> upstream/18.0
@@ -6878,7 +7689,11 @@ msgstr "Izaberi ili kreiraj kategoriju"
 msgid "Select or create a tag"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izaberi ili kreiraj oznaku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izaberi ili kreiraj oznaku"
 >>>>>>> upstream/18.0
@@ -6892,7 +7707,11 @@ msgstr "Izaberi ili kreiraj oznaku"
 msgid "Select or create a tag group"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izaberi ili kreiraj grupu oznaka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izaberi ili kreiraj grupu oznaka"
 >>>>>>> upstream/18.0
@@ -6906,7 +7725,11 @@ msgstr "Izaberi ili kreiraj grupu oznaka"
 msgid "Select or create tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izaberi ili kreiraj oznake"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izaberi ili kreiraj oznake"
 >>>>>>> upstream/18.0
@@ -6920,7 +7743,11 @@ msgstr "Izaberi ili kreiraj oznake"
 msgid "Select the correct answer below:"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izaberite tačan odgovor ispiod:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izaberite tačan odgovor ispiod:"
 >>>>>>> upstream/18.0
@@ -6970,7 +7797,11 @@ msgstr "Šalje se polaznicima kada se dodaju na kurs"
 msgid "Sent to potential attendees to check out the course."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslato potencijalnim učesnicima da pogledaju ovaj kurs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslato potencijalnim učesnicima da pogledaju ovaj kurs."
 >>>>>>> upstream/18.0
@@ -7088,7 +7919,11 @@ msgstr "Podeli na Whatsappu"
 msgid "Share on X"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podeli na X"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podeli na X"
 >>>>>>> upstream/18.0
@@ -7102,7 +7937,11 @@ msgstr "Podeli na X"
 msgid "Share this Content"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podeli ovaj sadržaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podeli ovaj sadržaj"
 >>>>>>> upstream/18.0
@@ -7116,7 +7955,11 @@ msgstr "Podeli ovaj sadržaj"
 msgid "Share this Course"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podeli ovaj kurs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podeli ovaj kurs"
 >>>>>>> upstream/18.0
@@ -7147,7 +7990,11 @@ msgstr "Kratak opis"
 msgid "Show Course To"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokažite kurs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokažite kurs"
 >>>>>>> upstream/18.0
@@ -7160,7 +8007,11 @@ msgstr "Pokažite kurs"
 msgid "Show your newly mastered knowledge!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokažite svoje novostečeno znanje!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokažite svoje novostečeno znanje!"
 >>>>>>> upstream/18.0
@@ -7174,7 +8025,11 @@ msgstr "Pokažite svoje novostečeno znanje!"
 msgid "Sign Up!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registruj se!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registruj se!"
 >>>>>>> upstream/18.0
@@ -7194,7 +8049,11 @@ msgstr ""
 msgid "Sign up"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registruj se"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registruj se"
 >>>>>>> upstream/18.0
@@ -7207,7 +8066,11 @@ msgstr "Registruj se"
 msgid "Signed In"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijavljen/a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prijavljen/a"
 >>>>>>> upstream/18.0
@@ -7239,7 +8102,11 @@ msgstr "Slajd / partner uređen m2m"
 msgid "Slide Icon fa-class"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikonica slajda fa-class"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ikonica slajda fa-class"
 >>>>>>> upstream/18.0
@@ -7327,7 +8194,11 @@ msgstr "Počni kurs"
 msgid "Start at Page"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počni od stranice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počni od stranice"
 >>>>>>> upstream/18.0
@@ -7340,7 +8211,11 @@ msgstr "Počni od stranice"
 msgid "Start this Course"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Započni ovaj kurs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Započni ovaj kurs"
 >>>>>>> upstream/18.0
@@ -7366,7 +8241,11 @@ msgstr "Započni svoj online kurs danas!"
 msgid "Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status"
 >>>>>>> upstream/18.0
@@ -7523,7 +8402,11 @@ msgstr "Testirajte svoje znanje"
 msgid "Test your knowledge!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testirajte svoje znanje!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Testirajte svoje znanje!"
 >>>>>>> upstream/18.0
@@ -7569,6 +8452,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Politika upisa treba da bude podešena na 'Na poziv' kada je vidljivost "
+"podešena na 'Učesnici kursa'"
+>>>>>>> upstream/18.0
 =======
 "Politika upisa treba da bude podešena na 'Na poziv' kada je vidljivost "
 "podešena na 'Učesnici kursa'"
@@ -7604,7 +8492,11 @@ msgid ""
 "The completion of a channel is a percentage and should be between 0% and 100."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Završenost kanala je procenat i treba da bude između 0% i 100."
+=======
+msgstr "Završenost kanala je procenat i treba da bude između 0% a i 100."
+>>>>>>> upstream/18.0
 =======
 msgstr "Završenost kanala je procenat i treba da bude između 0% a i 100."
 >>>>>>> upstream/18.0
@@ -7618,7 +8510,11 @@ msgstr "Završenost kanala je procenat i treba da bude između 0% a i 100."
 msgid "The contact associated with this invitation does not seem to be valid."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontakt koji je povezan sa ovom pozivnicom izgleda da nije ispravan."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontakt koji je povezan sa ovom pozivnicom izgleda da nije ispravan."
 >>>>>>> upstream/18.0
@@ -7731,7 +8627,11 @@ msgstr "Ovaj komentar će biti prikazan korisniku ako izabere ovaj odgovor"
 msgid "This course does not exist."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj kurs ne postoji."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj kurs ne postoji."
 >>>>>>> upstream/18.0
@@ -7747,6 +8647,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ovaj kurs nije objavljen. Učesnici možda neće moći da pristupe njegovim "
+"sadržajima."
+>>>>>>> upstream/18.0
 =======
 "Ovaj kurs nije objavljen. Učesnici možda neće moći da pristupe njegovim "
 "sadržajima."
@@ -7768,7 +8673,11 @@ msgstr "Ovaj kurs je privatan."
 msgid "This identification link does not seem to be valid."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izgleda da ovaj identifikacioni link nije ispravan."
+>>>>>>> upstream/18.0
 =======
 msgstr "Izgleda da ovaj identifikacioni link nije ispravan."
 >>>>>>> upstream/18.0
@@ -7782,7 +8691,11 @@ msgstr "Izgleda da ovaj identifikacioni link nije ispravan."
 msgid "This invitation link has an invalid hash."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj link pozivnice ima nevažeći hash."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj link pozivnice ima nevažeći hash."
 >>>>>>> upstream/18.0
@@ -7796,7 +8709,11 @@ msgstr "Ovaj link pozivnice ima nevažeći hash."
 msgid "This invitation link has expired."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj link pozivnice je istekao."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj link pozivnice je istekao."
 >>>>>>> upstream/18.0
@@ -7810,7 +8727,11 @@ msgstr "Ovaj link pozivnice je istekao."
 msgid "This invitation link is not for this contact."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj link pozivnice nije za ovaj kontakt."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj link pozivnice nije za ovaj kontakt."
 >>>>>>> upstream/18.0
@@ -7838,6 +8759,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ovo pitanje mora imati najmanje jedan tačan odgovor i jedan netačan odgovor."
+>>>>>>> upstream/18.0
 =======
 "Ovo pitanje mora imati najmanje jedan tačan odgovor i jedan netačan odgovor."
 >>>>>>> upstream/18.0
@@ -7879,6 +8804,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Putem Google Drive-a, podržavamo najčešće vrste dokumenata.\n"
+"            Uključujući regularna dokumenta (Google Doc, .docx), Sheets "
+"(Google Sheet, .xlsx), PowerPoints, ..."
+>>>>>>> upstream/18.0
 =======
 "Putem Google Drive-a, podržavamo najčešće vrste dokumenata.\n"
 "            Uključujući regularna dokumenta (Google Doc, .docx), Sheets "
@@ -7961,7 +8892,11 @@ msgstr "Ukupno pregleda"
 msgid "Track Karma Changes"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prati promene Karme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prati promene Karme"
 >>>>>>> upstream/18.0
@@ -7977,6 +8912,7 @@ msgstr "Trening"
 #. module: website_slides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:slide.slide,name:website_slides.slide_slide_demo_1_0
 msgid "Tree Infographic"
 msgstr "Infografik drveta"
@@ -7987,6 +8923,8 @@ msgid "Tree planting in hanging bottles on wall"
 msgstr "Sadnja drveća u visećim bocama na zidu"
 
 #. module: website_slides
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8006,7 +8944,11 @@ msgstr "Drveće, šume i bašte"
 msgid "Triumphant hero"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trijumfalni heroj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trijumfalni heroj"
 >>>>>>> upstream/18.0
@@ -8041,7 +8983,11 @@ msgstr "Nije moguće objaviti poruku, molimo podesite email adresu pošiljaoca."
 msgid "Unarchive"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrati iz arhive"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrati iz arhive"
 >>>>>>> upstream/18.0
@@ -8141,7 +9087,11 @@ msgstr "Koristite grupe kurseva da klasifikujete i organizujete svoje kurseve."
 msgid "Use template"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi obrazac"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristi obrazac"
 >>>>>>> upstream/18.0
@@ -8174,7 +9124,11 @@ msgstr "Glasanje korisnika"
 msgid "Validation error"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Greška pri validaciji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Greška pri validaciji"
 >>>>>>> upstream/18.0
@@ -8311,6 +9265,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Malo smo popričali sa Harry Pottedom, sigurno je imao zanimljive stvari da "
+"kaže!"
+>>>>>>> upstream/18.0
 =======
 "Malo smo popričali sa Harry Pottedom, sigurno je imao zanimljive stvari da "
 "kaže!"
@@ -8398,7 +9357,11 @@ msgstr "Šta"
 msgid "What is a strawberry?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šta je jagoda?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Šta je jagoda?"
 >>>>>>> upstream/18.0
@@ -8411,7 +9374,11 @@ msgstr "Šta je jagoda?"
 msgid "What is the best tool to dig a hole for your plants?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koji je najbolji alat da iskopate rupu za svoje biljke?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koji je najbolji alat da iskopate rupu za svoje biljke?"
 >>>>>>> upstream/18.0
@@ -8430,7 +9397,11 @@ msgstr "Koje vrste dokumenta podržavamo?"
 msgid "What was the question again?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šta je bilo pitanje?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Šta je bilo pitanje?"
 >>>>>>> upstream/18.0
@@ -8452,6 +9423,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Da li će pozvani partneri biti dodati kao registrovani. U suprotnom, biće "
+"dodati kao pozvani."
+>>>>>>> upstream/18.0
 =======
 "Da li će pozvani partneri biti dodati kao registrovani. U suprotnom, biće "
 "dodati kao pozvani."
@@ -8469,6 +9445,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koja vrsta drveta je najbolja za moj nameštaj od punog drveta? To je pitanje "
+"na koje ćemo vam pomoći da odgovorite u ovom videu!"
+>>>>>>> upstream/18.0
 =======
 "Koja vrsta drveta je najbolja za moj nameštaj od punog drveta? To je pitanje "
 "na koje ćemo vam pomoći da odgovorite u ovom videu!"
@@ -8565,6 +9546,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nije vam dozvoljeno da dodajete učesnike na ovaj kurs. Molimo konktaktirajte "
+"osobu odgovornu za kurs, ili administratora."
+>>>>>>> upstream/18.0
 =======
 "Nije vam dozvoljeno da dodajete učesnike na ovaj kurs. Molimo konktaktirajte "
 "osobu odgovornu za kurs, ili administratora."
@@ -8644,6 +9630,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ne možete označiti kviz kao završen ako niste među njegovim članovima ili "
+"ako nije objavljen."
+>>>>>>> upstream/18.0
 =======
 "Ne možete označiti kviz kao završen ako niste među njegovim članovima ili "
 "ako nije objavljen."
@@ -8662,6 +9653,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ne možete označiti kviz kao nezavršen ako niste među njegovim članovima ili "
+"ako nije objavljen."
+>>>>>>> upstream/18.0
 =======
 "Ne možete označiti kviz kao nezavršen ako niste među njegovim članovima ili "
 "ako nije objavljen."
@@ -8689,7 +9685,11 @@ msgstr "Uspeli ste!"
 msgid "You do not have permission to access this course."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemate dozvolu za pristup ovom kursu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nemate dozvolu za pristup ovom kursu."
 >>>>>>> upstream/18.0
@@ -8726,7 +9726,11 @@ msgstr "Već ste se pridružili ovom kanalu"
 msgid "You have been invited to check out {{ object.channel_id.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozvani ste da pogledate {{ object.channel_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozvani ste da pogledate {{ object.channel_id.name }}"
 >>>>>>> upstream/18.0
@@ -8744,7 +9748,11 @@ msgstr "Pozvani ste da se pridružite {{ object.channel_id.name }}"
 msgid "You have been invited to this course."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozvani ste na ovaj kurs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozvani ste na ovaj kurs."
 >>>>>>> upstream/18.0
@@ -8832,7 +9840,10 @@ msgstr ""
 #. module: website_slides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-javascript
@@ -8842,6 +9853,9 @@ msgstr ""
 
 #. module: website_slides
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8892,7 +9906,11 @@ msgstr ""
 msgid "a course"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "kurs"
+>>>>>>> upstream/18.0
 =======
 msgstr "kurs"
 >>>>>>> upstream/18.0
@@ -8916,7 +9934,11 @@ msgstr "i pridruži se ovoj zajednici"
 msgid "anyway"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "u svakom slučaju"
+>>>>>>> upstream/18.0
 =======
 msgstr "u svakom slučaju"
 >>>>>>> upstream/18.0
@@ -8945,11 +9967,14 @@ msgstr "putem email-a."
 #. module: website_slides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_share_dialog/email_sharing_input.xml:0
 msgid "course"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -8963,6 +9988,9 @@ msgstr ""
 msgid "course"
 msgstr "kurs"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8972,7 +10000,11 @@ msgstr "kurs"
 msgid "courses"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "kursevi"
+>>>>>>> upstream/18.0
 =======
 msgstr "kursevi"
 >>>>>>> upstream/18.0
@@ -8986,7 +10018,11 @@ msgstr "kursevi"
 msgid "create an account"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "kreiraj nalog"
+>>>>>>> upstream/18.0
 =======
 msgstr "kreiraj nalog"
 >>>>>>> upstream/18.0
@@ -8999,7 +10035,11 @@ msgstr "kreiraj nalog"
 msgid "direct access"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "direktan pristup"
+>>>>>>> upstream/18.0
 =======
 msgstr "direktan pristup"
 >>>>>>> upstream/18.0
@@ -9025,7 +10065,11 @@ msgstr "e.g \"https://www.youtube.com/watch?v=ebBez6bcSEc\""
 msgid "e.g \"www.youtube.com/watch?v=ebBez6bcSEc\""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "e.g \"www.youtube.com/watch?v=ebBez6bcSEc\""
+=======
+msgstr "npr. \"www.youtube.com/watch?v=ebBez6bcSEc\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"www.youtube.com/watch?v=ebBez6bcSEc\""
 >>>>>>> upstream/18.0
@@ -9064,12 +10108,15 @@ msgstr "npr. \"Koja životinja ne može da leti?\""
 #. module: website_slides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 msgid "e.g. \"{{placeholder || \"another animal\"}}\""
 msgstr ""
 
 #. module: website_slides
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9086,8 +10133,14 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "e.g. In this video, we'll give you the keys on how Odoo can help you to grow "
 "your business. At the end, we'll propose you a quiz to test your knowledge."
+=======
+"npr. U ovom videu ćemo vam dati smernice o tome kako vam Odoo može pomoći da "
+"razvijete svoj posao. Na kraju ćemo vam ponuditi kviz da biste testirali "
+"svoje znanje."
+>>>>>>> upstream/18.0
 =======
 "npr. U ovom videu ćemo vam dati smernice o tome kako vam Odoo može pomoći da "
 "razvijete svoj posao. Na kraju ćemo vam ponuditi kviz da biste testirali "
@@ -9109,7 +10162,11 @@ msgstr "npr. Podešavanje vašeg kompjutera"
 msgid "e.g. What powers a computer?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Šta napaja kompjuter?"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Šta napaja kompjuter?"
 >>>>>>> upstream/18.0
@@ -9180,7 +10237,11 @@ msgstr "https://vimeo.com/558907555"
 msgid "join"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pridruži se"
+>>>>>>> upstream/18.0
 =======
 msgstr "pridruži se"
 >>>>>>> upstream/18.0
@@ -9207,7 +10268,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "znači? Vimeo \"Privatno\" podešavanje privatnosti znači da je u pitanju "
@@ -9215,6 +10279,9 @@ msgstr ""
 "                Vaš video se nikada neće pojaviti u rezultatima pretrage "
 "niti na vašem kanalu."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9238,7 +10305,11 @@ msgstr ""
 msgid "or"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ili"
+>>>>>>> upstream/18.0
 =======
 msgstr "ili"
 >>>>>>> upstream/18.0
@@ -9257,7 +10328,11 @@ msgstr "ili napustite kurs"
 msgid "request"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "zahtev"
+>>>>>>> upstream/18.0
 =======
 msgstr "zahtev"
 >>>>>>> upstream/18.0
@@ -9277,7 +10352,11 @@ msgstr "prijavite se"
 msgid "start"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "počni"
+>>>>>>> upstream/18.0
 =======
 msgstr "počni"
 >>>>>>> upstream/18.0
@@ -9305,7 +10384,11 @@ msgstr "da budete prvi ko ostavlja komentar."
 msgid "to browse preview content and enroll."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "da pretražuješ sadržaj za pregled i upiši se."
+>>>>>>> upstream/18.0
 =======
 msgstr "da pretražuješ sadržaj za pregled i upiši se."
 >>>>>>> upstream/18.0
@@ -9318,7 +10401,11 @@ msgstr "da pretražuješ sadržaj za pregled i upiši se."
 msgid "to contact responsible"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "da kontaktiraš odgovornu osobu"
+>>>>>>> upstream/18.0
 =======
 msgstr "da kontaktiraš odgovornu osobu"
 >>>>>>> upstream/18.0
@@ -9338,7 +10425,11 @@ msgstr "da se upišeš."
 msgid "to join this course"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "da se pridružiš ovom kursu"
+>>>>>>> upstream/18.0
 =======
 msgstr "da se pridružiš ovom kursu"
 >>>>>>> upstream/18.0
@@ -9351,7 +10442,11 @@ msgstr "da se pridružiš ovom kursu"
 msgid "to request access"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "da zahtevaš pristup"
+>>>>>>> upstream/18.0
 =======
 msgstr "da zahtevaš pristup"
 >>>>>>> upstream/18.0
@@ -9371,7 +10466,11 @@ msgstr "da podeliš ovo"
 msgid "to unlock"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "da otključaš"
+>>>>>>> upstream/18.0
 =======
 msgstr "da otključaš"
 >>>>>>> upstream/18.0
@@ -9415,7 +10514,10 @@ msgstr "└<span class=\"ms-1\">Nekategorisano</span>"
 #~ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #~ "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
@@ -9818,6 +10920,9 @@ msgstr "└<span class=\"ms-1\">Nekategorisano</span>"
 
 #~ msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

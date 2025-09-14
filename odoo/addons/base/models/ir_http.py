@@ -326,7 +326,11 @@ class IrHttp(models.AbstractModel):
                         werkzeug.exceptions.abort(response)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if isinstance(e, odoo.exceptions.MissingError):
+=======
+                if request.env.user.is_public or isinstance(e, odoo.exceptions.MissingError):
+>>>>>>> upstream/18.0
 =======
                 if request.env.user.is_public or isinstance(e, odoo.exceptions.MissingError):
 >>>>>>> upstream/18.0

@@ -18,7 +18,10 @@ Saudi Arabia POS Localization
             'l10n_sa_pos/static/src/**/*',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ],
@@ -29,6 +32,9 @@ Saudi Arabia POS Localization
             'l10n_sa_pos/static/src/app/utils/qr.js',
             'l10n_sa_pos/static/tests/unit/**/*',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

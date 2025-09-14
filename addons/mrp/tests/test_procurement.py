@@ -4,7 +4,11 @@ from datetime import timedelta
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields
+=======
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, fields
 >>>>>>> upstream/18.0
@@ -363,7 +367,10 @@ class TestProcurement(TestMrpCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_mtso_with_empty_bom(self):
@@ -411,6 +418,9 @@ class TestProcurement(TestMrpCommon):
         self.assertEqual(production.state, "draft", "MO with empty BoM created via MTSO should remain in draft state.")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

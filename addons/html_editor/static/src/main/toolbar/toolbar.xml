@@ -3,7 +3,11 @@
         <div class="o-we-toolbar d-flex align-items-center m-0" t-on-pointerdown.prevent="" style="overflow-x: auto; overflow-y:hidden"  t-att-class="props.class">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <t t-foreach="this.getFilteredButtonGroups()" t-as="buttonGroup" t-key="buttonGroup.id">
+=======
+            <t t-foreach="this.getFilteredButtonGroups()" t-as="buttonGroup" t-key="buttonGroup.id" t-if="isGroupVisible(buttonGroup.buttons)">
+>>>>>>> upstream/18.0
 =======
             <t t-foreach="this.getFilteredButtonGroups()" t-as="buttonGroup" t-key="buttonGroup.id" t-if="isGroupVisible(buttonGroup.buttons)">
 >>>>>>> upstream/18.0

@@ -84,6 +84,7 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import common, Form
 =======
 from odoo.tests import common, tagged, Form
@@ -333,6 +334,11 @@ from odoo.tests import common, tagged, Form
 from odoo.tools import mute_logger
 from datetime import datetime
 >>>>>>> upstream/18.0
+=======
+from odoo.tests import common, tagged, Form
+from odoo.tools import mute_logger
+from datetime import datetime
+>>>>>>> upstream/18.0
 
 
 class TestDropship(common.TransactionCase):
@@ -460,6 +466,11 @@ class TestDropship(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.dropship_product.description = "internal note"
+        self.dropship_product.description_pickingout = "description_out"
+>>>>>>> upstream/18.0
 =======
         self.dropship_product.description = "internal note"
         self.dropship_product.description_pickingout = "description_out"
@@ -723,7 +734,10 @@ class TestDropship(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -854,6 +868,9 @@ class TestDropship(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1019,7 +1036,12 @@ class TestDropship(common.TransactionCase):
         Check that the reserved qty wizard related to a sol is computed from
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         the PO if the product is dropshipped.
+=======
+        the PO if the product is dropshipped and check that the linked pol is updated.
+        Check that both are again updated when the dropship is returned.
+>>>>>>> upstream/18.0
 =======
         the PO if the product is dropshipped and check that the linked pol is updated.
         Check that both are again updated when the dropship is returned.
@@ -1052,7 +1074,10 @@ class TestDropship(common.TransactionCase):
         self.assertEqual(sale_order.order_line.qty_delivered, 3.0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.assertEqual(purchase_order.order_line.qty_received, 3.0)
@@ -1069,6 +1094,9 @@ class TestDropship(common.TransactionCase):
         self.assertEqual(sale_order.order_line.qty_delivered, 0)
         self.assertEqual(purchase_order.order_line.qty_received, 0)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1268,7 +1296,10 @@ class TestDropship(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1547,6 +1578,7 @@ class TestDropship(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1628,6 +1660,8 @@ class TestDropship(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1785,6 +1819,7 @@ class TestDropship(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1867,6 +1902,8 @@ class TestDropship(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1945,6 +1982,9 @@ class TestDropship(common.TransactionCase):
             20.0, -20.0,    # Re-return
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1953,6 +1993,7 @@ class TestDropship(common.TransactionCase):
 @tagged('post_install', '-at_install')
 class TestDropshipPostInstall(common.TransactionCase):
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     def test_dropshipping_tracked_product(self):
@@ -1965,6 +2006,8 @@ class TestDropshipPostInstall(common.TransactionCase):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -1975,6 +2018,9 @@ class TestDropshipPostInstall(common.TransactionCase):
         cls.dropship_product = cls.env['product.product'].create({
             'name': 'Dropshipped Product',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1984,11 +2030,14 @@ class TestDropshipPostInstall(common.TransactionCase):
             'seller_ids': [Command.create({
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'partner_id': supplier.id,
             })],
             'route_ids': [Command.link(self.ref('stock_dropshipping.route_drop_shipping'))]
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 'partner_id': cls.supplier.id,
@@ -2000,6 +2049,9 @@ class TestDropshipPostInstall(common.TransactionCase):
         supplier, customer = self.supplier, self.customer
         product_lot = self.dropship_product
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2104,6 +2156,7 @@ class TestDropshipPostInstall(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2262,6 +2315,8 @@ class TestDropshipPostInstall(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -2297,6 +2352,9 @@ class TestDropshipPostInstall(common.TransactionCase):
         self.assertEqual(sale_order.order_line.qty_delivered, 0)
         self.assertEqual(purchase_order.order_line.qty_received, 0)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

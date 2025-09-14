@@ -13,7 +13,11 @@ class EventRegistration(models.Model):
                 record.sale_status = 'sold'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 record.state = 'done'
+=======
+                record.state = 'open'
+>>>>>>> upstream/18.0
 =======
                 record.state = 'open'
 >>>>>>> upstream/18.0

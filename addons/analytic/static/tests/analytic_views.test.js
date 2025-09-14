@@ -8,9 +8,15 @@ const searchViewArch = `
         <filter name="account_id" context="{'group_by': 'account_id'}"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <filter name="x_plan122_id" context="{'group_by': 'x_plan122_id'}"/>
         <filter name="x_plan122_id_1" context="{'group_by': 'x_plan122_id_1'}"/>
         <filter name="x_plan122_id_2" context="{'group_by': 'x_plan122_id_2'}"/>
+=======
+        <filter name="x_plan1_id" context="{'group_by': 'x_plan1_id'}"/>
+        <filter name="x_plan1_id_1" context="{'group_by': 'x_plan1_id_1'}"/>
+        <filter name="x_plan1_id_2" context="{'group_by': 'x_plan1_id_2'}"/>
+>>>>>>> upstream/18.0
 =======
         <filter name="x_plan1_id" context="{'group_by': 'x_plan1_id'}"/>
         <filter name="x_plan1_id_1" context="{'group_by': 'x_plan1_id_1'}"/>
@@ -29,6 +35,7 @@ beforeEach(async () => {
     const root = env['account.analytic.plan'].create({ name: "State" });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const eu = env['account.analytic.plan'].create({ name: "Europe", parent_id: root });
     const be = env['account.analytic.plan'].create({ name: "Belgium", parent_id: eu });
     const fr = env['account.analytic.plan'].create({ name: "France", parent_id: eu });
@@ -37,12 +44,17 @@ beforeEach(async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const eu = env['account.analytic.plan'].create({ name: "Europe", parent_id: root, root_id: root });
     const be = env['account.analytic.plan'].create({ name: "Belgium", parent_id: eu, root_id: root });
     const fr = env['account.analytic.plan'].create({ name: "France", parent_id: eu, root_id: root });
     const am = env['account.analytic.plan'].create({ name: "America", parent_id: root, root_id: root });
     const us = env['account.analytic.plan'].create({ name: "USA", parent_id: am, root_id: root });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57,6 +69,7 @@ beforeEach(async () => {
     env["account.analytic.line"].create([
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         { x_plan122_id: accounts[0], x_plan122_id_1: eu, x_plan122_id_2: be, amount: 1 },
         { x_plan122_id: accounts[1], x_plan122_id_1: eu, x_plan122_id_2: be, amount: 10 },
         { x_plan122_id: accounts[2], x_plan122_id_1: eu, x_plan122_id_2: fr, amount: 100 },
@@ -66,6 +79,8 @@ beforeEach(async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         { x_plan1_id: accounts[0], x_plan1_id_1: eu, x_plan1_id_2: be, analytic_distribution: {[accounts[0]]: 100}, amount: 1 },
         { x_plan1_id: accounts[1], x_plan1_id_1: eu, x_plan1_id_2: be, analytic_distribution: {[accounts[1]]: 100}, amount: 10 },
         { x_plan1_id: accounts[2], x_plan1_id_1: eu, x_plan1_id_2: fr, analytic_distribution: {[accounts[2]]: 100}, amount: 100 },
@@ -73,6 +88,9 @@ beforeEach(async () => {
         { x_plan1_id: accounts[4], x_plan1_id_1: am, x_plan1_id_2: us, analytic_distribution: {[accounts[4]]: 100}, amount: 10000 },
         { x_plan1_id: accounts[5], x_plan1_id_1: am, x_plan1_id_2: us, analytic_distribution: {[accounts[5]]: 100}, amount: 100000 },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

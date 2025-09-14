@@ -39,7 +39,11 @@ export class LunchOrderLine extends Component {
         const unpaid = parseFloat(this.props.infos.unpaid_subtotal)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.canEdit && (this.props.infos.wallet - unpaid) > price;
+=======
+        return this.canEdit && (this.props.infos.wallet_with_config - unpaid) >= price;
+>>>>>>> upstream/18.0
 =======
         return this.canEdit && (this.props.infos.wallet_with_config - unpaid) >= price;
 >>>>>>> upstream/18.0

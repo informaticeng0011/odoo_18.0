@@ -3,6 +3,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 from odoo.tests import Form
@@ -278,7 +283,10 @@ class TestSoLineMilestones(TestSaleCommon):
         self.assertEqual(len(project.milestone_ids), 5, "The project should have 5 milestones")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -330,6 +338,9 @@ class TestSoLineMilestones(TestSaleCommon):
                          tasks[0].project_id.sale_line_id,
                          "Task should have the correct sale line based on project.")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

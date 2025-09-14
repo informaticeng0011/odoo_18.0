@@ -7,6 +7,10 @@ import time
 from datetime import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form
 >>>>>>> upstream/18.0
@@ -97,7 +101,10 @@ class TestFrenchWorkEntries(TransactionCase):
         self.assertEqual(len(work_entry_create_vals), 8, 'Should have generated 8 work entries.')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -110,6 +117,9 @@ class TestFrenchWorkEntries(TransactionCase):
             work_entry = work_entry_form.save()
         self.assertEqual(work_entry.duration, 9)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

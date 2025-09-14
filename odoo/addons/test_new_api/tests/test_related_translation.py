@@ -194,7 +194,10 @@ class TestRelatedTranslation(odoo.tests.TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_write_from_related_term_more(self):
@@ -210,6 +213,9 @@ class TestRelatedTranslation(odoo.tests.TransactionCase):
         self.assertEqual(self.test2.with_context(lang='fr_FR').html, '<p>Nouveau couteau</p><p>Fourchette</p><p>Cuiller</p>')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -288,7 +294,10 @@ class TestRelatedTranslation(odoo.tests.TransactionCase):
         self.assertEqual(self.test3.with_context(lang='fr_FR').mapped('related_id.name'), ['Nouveau couteau'])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -368,6 +377,9 @@ class TestRelatedTranslation(odoo.tests.TransactionCase):
         self.patch(self.env['test_new_api.related_translation_2']._fields['name'], 'inverse', None)
         self.assertEqual(self.test2.with_context(lang='fr_FR', edit_translations=True).name, 'Couteau')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -4,6 +4,10 @@ from odoo.addons.stock_account.tests.test_anglo_saxon_valuation_reconciliation_c
 from odoo.addons.sale.tests.common import TestSaleCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.fields import Command
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 >>>>>>> upstream/18.0
@@ -157,7 +161,10 @@ class TestSaleStockMultiCompany(TestSaleCommon, ValuationReconciliationTestCommo
         self.assertEqual(len(picking.sale_id.order_line), 2)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -194,6 +201,9 @@ class TestSaleStockMultiCompany(TestSaleCommon, ValuationReconciliationTestCommo
             [(self.product_a.name, sn.id)]
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

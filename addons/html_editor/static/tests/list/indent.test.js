@@ -3,7 +3,11 @@ import { setupEditor, testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { splitBlock, keydownTab, undo } from "../_helpers/user_actions";
+=======
+import { splitBlock, keydownTab, undo, tripleClick } from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 =======
 import { splitBlock, keydownTab, undo, tripleClick } from "../_helpers/user_actions";
 >>>>>>> upstream/18.0
@@ -1128,7 +1132,10 @@ describe("with selection", () => {
                             <li>[b</li>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                             <li class="oe-nested">
@@ -1152,6 +1159,9 @@ describe("with selection", () => {
                     </li><li class="oe-nested">
                         <ol>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1161,7 +1171,10 @@ describe("with selection", () => {
                 </ul>`),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             stepFunction: async (editor) => {
@@ -1179,6 +1192,9 @@ describe("with selection", () => {
                     </li>
                 </ul>`),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

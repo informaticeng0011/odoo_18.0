@@ -149,7 +149,13 @@ export class PaymentMercadoPago extends PaymentInterface {
                 // payment intent status, hoping going out of this status
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (["OPEN", "ON_TERMINAL"].includes(last_status_payment_intent.state)) {
+=======
+                if (
+                    ["OPEN", "ON_TERMINAL", "PROCESSING"].includes(last_status_payment_intent.state)
+                ) {
+>>>>>>> upstream/18.0
 =======
                 if (
                     ["OPEN", "ON_TERMINAL", "PROCESSING"].includes(last_status_payment_intent.state)

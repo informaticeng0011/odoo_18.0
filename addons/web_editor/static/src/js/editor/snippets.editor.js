@@ -106,6 +106,10 @@ var SnippetEditor = publicWidget.Widget.extend({
         this._$toolbarContainer = $();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isRtl = this.options.direction === "rtl";
+>>>>>>> upstream/18.0
 =======
         this.isRtl = this.options.direction === "rtl";
 >>>>>>> upstream/18.0
@@ -942,7 +946,11 @@ var SnippetEditor = publicWidget.Widget.extend({
                 this.mousePositionYOnElement = boundedYMousePosition - targetRect.y;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.mousePositionXOnElement = args.x - targetRect.x;
+=======
+                this.mousePositionXOnElement = (args.x - targetRect.x) * (this.isRtl ? -1 : 1);
+>>>>>>> upstream/18.0
 =======
                 this.mousePositionXOnElement = (args.x - targetRect.x) * (this.isRtl ? -1 : 1);
 >>>>>>> upstream/18.0
@@ -1444,7 +1452,11 @@ var SnippetEditor = publicWidget.Widget.extend({
             const top = parseFloat(style.top);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const left = parseFloat(style.left);
+=======
+            const left = parseFloat(this.isRtl ? style.right : style.left);
+>>>>>>> upstream/18.0
 =======
             const left = parseFloat(this.isRtl ? style.right : style.left);
 >>>>>>> upstream/18.0
@@ -1764,7 +1776,10 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2022,6 +2037,9 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2271,11 +2289,14 @@ var SnippetEditor = publicWidget.Widget.extend({
         const rowEl = columnEl.parentNode;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         // Computing the rowEl position.
         const rowElTop = rowEl.getBoundingClientRect().top;
         const rowElLeft = rowEl.getBoundingClientRect().left;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const rowElRect = rowEl.getBoundingClientRect();
@@ -2284,6 +2305,9 @@ var SnippetEditor = publicWidget.Widget.extend({
         const rowElTop = rowElRect.top;
         const rowElLeft = rowElRect.left;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2298,8 +2322,11 @@ var SnippetEditor = publicWidget.Widget.extend({
         const bottom = top + columnHeight;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let left = x - rowElLeft - this.mousePositionXOnElement;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -2311,6 +2338,9 @@ var SnippetEditor = publicWidget.Widget.extend({
             left = x - rowElLeft - this.mousePositionXOnElement;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2322,8 +2352,11 @@ var SnippetEditor = publicWidget.Widget.extend({
         columnEl.style.top = top + 'px';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         columnEl.style.left = left + 'px';
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (this.isRtl) {
@@ -2332,6 +2365,9 @@ var SnippetEditor = publicWidget.Widget.extend({
             columnEl.style.left = left + 'px';
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3502,6 +3538,12 @@ class SnippetsMenu extends Component {
             }).then(async editorToEnable => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if (editorToEnable && editorToEnable.$target[0] && !editorToEnable.$target[0].closest("body")) {
+                    return null;
+                }
+>>>>>>> upstream/18.0
 =======
                 if (editorToEnable && editorToEnable.$target[0] && !editorToEnable.$target[0].closest("body")) {
                     return null;

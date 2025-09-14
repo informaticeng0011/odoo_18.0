@@ -11,6 +11,10 @@ from odoo.tools import mute_logger
 from odoo.addons.account_payment.controllers.payment import PaymentPortal
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.account_payment.controllers.portal import PortalAccount
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account_payment.controllers.portal import PortalAccount
 >>>>>>> upstream/18.0
@@ -214,7 +218,10 @@ class TestFlows(AccountPaymentCommon, PaymentHttpCommon):
         self.assertTrue(invoice.payment_state == invoice._get_invoice_in_payment_state())
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -240,6 +247,9 @@ class TestFlows(AccountPaymentCommon, PaymentHttpCommon):
         self.assertEqual(values['payment_state'], 'not_paid')
         self.assertTrue(values['payment'])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -234,6 +234,7 @@ class ResUsers(models.Model):
                 _logger.info("Password reset email sent for user <%s> to <%s>", user.login, user.email)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message = _('A reset password link was send by email')
             else:
                 _logger.info("Signup email sent for user <%s> to <%s>", user.login, user.email)
@@ -241,11 +242,16 @@ class ResUsers(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 message = _('A reset password link was sent by email')
             else:
                 _logger.info("Signup email sent for user <%s> to <%s>", user.login, user.email)
                 message = _('A signup link was sent by email')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

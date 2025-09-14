@@ -940,7 +940,10 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_18_flush_all(self):
@@ -962,6 +965,9 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
         self.assertEqual(record.created_id.value, 3)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3856,6 +3862,7 @@ class TestHtmlField(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # in a perfect world this should be 1, but at the moment the value is
         # sanitized more than once during creation of the record
         self.assertEqual(patch.call_count, 2)
@@ -3868,6 +3875,8 @@ class TestHtmlField(TransactionCase):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # the new value is sanitized upon insertion in db,
         # but not put in cache, therefore not sanitized a second time
         self.assertEqual(patch.call_count, 1)
@@ -3878,6 +3887,9 @@ class TestHtmlField(TransactionCase):
 
         # the value in cache is dirty -> sanitize for db insertion while flushing
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

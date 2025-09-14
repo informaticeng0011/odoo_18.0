@@ -178,6 +178,10 @@ class TestMailFlow(MailCommon, TestRecipients):
                 'name': 'Portal Zboing',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'display_name': 'Portal Zboing',
+>>>>>>> upstream/18.0
 =======
                 'display_name': 'Portal Zboing',
 >>>>>>> upstream/18.0

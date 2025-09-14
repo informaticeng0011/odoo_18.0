@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding:utf-8 -*-
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32,6 +35,7 @@ class FleetVehicle(models.Model):
     def _compute_driver_employee_id(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for vehicle in self:
             if vehicle.driver_id:
                 vehicle.driver_employee_id = self.env['hr.employee'].search([
@@ -52,6 +56,8 @@ class FleetVehicle(models.Model):
             else:
                 vehicle.future_driver_employee_id = False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         employees_by_partner_id_and_company_id = self.env['hr.employee']._read_group(
@@ -80,6 +86,9 @@ class FleetVehicle(models.Model):
             employees = employees_by_partner_id_and_company_id.get((vehicle.future_driver_id, vehicle.company_id))
             vehicle.future_driver_employee_id = employees[0] if employees else False
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -70,6 +70,10 @@ class Lead(models.Model):
                         if not normalized_email:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            lead.write({'iap_enrich_done': True})
+>>>>>>> upstream/18.0
 =======
                             lead.write({'iap_enrich_done': True})
 >>>>>>> upstream/18.0

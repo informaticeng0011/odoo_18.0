@@ -331,7 +331,10 @@ describe('insert HTML', () => {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         it("Should properly insert two blocks content with selection in inline", async () => {
@@ -353,6 +356,9 @@ describe('insert HTML', () => {
             });
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

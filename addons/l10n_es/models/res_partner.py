@@ -10,7 +10,10 @@ class ResPartner(models.Model):
         return self.country_id.code not in ('ES', False) or (self.vat or '').startswith("ESN")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -41,6 +44,9 @@ class ResPartner(models.Model):
                 partner_info['IDOtro']['CodigoPais'] = self.country_id.code
         return partner_info
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

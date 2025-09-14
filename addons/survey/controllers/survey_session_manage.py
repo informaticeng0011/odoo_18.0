@@ -229,6 +229,11 @@ class UserInputSession(http.Controller):
         question = survey.session_question_id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not question:
+            return {}
+>>>>>>> upstream/18.0
 =======
         if not question:
             return {}

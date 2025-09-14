@@ -95,7 +95,10 @@ class TestSaleFiscal(L10nInTestInvoicingCommon):
             )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -140,6 +143,9 @@ class TestSaleFiscal(L10nInTestInvoicingCommon):
         self.assertIsInstance(reseller_id, int, "Reseller partner ID should be an integer")
         self.assertEqual(reseller_id, self.partner_a.id)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -107,10 +107,13 @@ registerWebsitePreviewTour(
         checkSlides(3, 2),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...clickOnSave(),
         // Check that saving always sets the first slide as active.
         checkSlides(3, 1),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         // Ensure quickly adding/removing slides doesn’t give a traceback
@@ -144,6 +147,9 @@ registerWebsitePreviewTour(
         // Check that saving always sets the first slide as active.
         checkSlides(4, 1),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

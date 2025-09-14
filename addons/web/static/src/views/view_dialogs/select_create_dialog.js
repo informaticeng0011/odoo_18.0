@@ -77,6 +77,10 @@ export class SelectCreateDialog extends Component {
             props.allowSelectors = this.props.multiSelect;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            props.allowOpenAction = false;
+>>>>>>> upstream/18.0
 =======
             props.allowOpenAction = false;
 >>>>>>> upstream/18.0

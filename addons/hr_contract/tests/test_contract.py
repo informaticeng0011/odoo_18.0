@@ -34,7 +34,10 @@ class TestHrContracts(TestContractCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.resource_calendar_part_time = cls.env['resource.calendar'].create([{
@@ -60,6 +63,9 @@ class TestHrContracts(TestContractCommon):
         }])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -261,7 +267,10 @@ class TestHrContracts(TestContractCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -324,6 +333,9 @@ class TestHrContracts(TestContractCommon):
         result = self.employee._get_unusual_days('2024-11-01 01:00:00', '2024-11-10 22:00:00')
         self.assertEqual(result, get_expected_days('full_time'), 'Full-time calendar should be selected (Contract B)')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

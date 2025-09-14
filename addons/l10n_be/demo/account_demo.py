@@ -8,7 +8,10 @@ class AccountChartTemplate(models.AbstractModel):
     def _get_demo_data(self, company=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         def link_tag(tag_xml_id):
@@ -16,6 +19,9 @@ class AccountChartTemplate(models.AbstractModel):
             return [Command.link(tag.id)] if tag else []
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25,6 +31,7 @@ class AccountChartTemplate(models.AbstractModel):
             account_data = demo_data.setdefault('account.account', {})
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             account_data.update({
                 f"account.{cid}_a100": {'tag_ids': [Command.link(self.env.ref('account.demo_capital_account').id)]},
                 f"account.{cid}_a300": {'tag_ids': [Command.link(self.env.ref('account.demo_stock_account').id)]},
@@ -32,6 +39,8 @@ class AccountChartTemplate(models.AbstractModel):
                 f"account.{cid}_a6201": {'tag_ids': [Command.link(self.env.ref('account.demo_ceo_wages_account').id)]},
                 f"account.{cid}_a240000": {'tag_ids': [Command.link(self.env.ref('account.demo_office_furniture_account').id)]},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             account_tag_map = {
@@ -45,6 +54,9 @@ class AccountChartTemplate(models.AbstractModel):
                 f"account.{cid}_{account}": {'tag_ids': link_tag(tag)}
                 for account, tag in account_tag_map.items()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

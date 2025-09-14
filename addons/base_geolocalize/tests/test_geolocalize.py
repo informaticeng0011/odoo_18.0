@@ -4,6 +4,10 @@ from odoo.tests import TransactionCase
 from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
@@ -43,7 +47,10 @@ class TestGeoLocalize(TransactionCase):
         self.assertFalse(test_partner.date_localization)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -75,6 +82,9 @@ class TestPartnerGeoLocalization(TransactionCase):
             })
             mock_send.reset_mock()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

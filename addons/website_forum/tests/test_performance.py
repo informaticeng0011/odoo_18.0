@@ -32,7 +32,11 @@ class TestForumPerformance(UtilPerf):
         number_of_queries = self._get_url_hot_query(self.forum._compute_website_url())
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(number_of_queries, 23)
+=======
+        self.assertEqual(number_of_queries, 22)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(number_of_queries, 22)
 >>>>>>> upstream/18.0

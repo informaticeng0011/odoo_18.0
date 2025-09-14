@@ -47,7 +47,11 @@
                                 <div class="order-row" t-att-class="{ 'highlight bg-primary text-white': isHighlighted(order) }"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() => order.uiState.locked ? ()=>{} : this._setOrder(order)" >
+=======
+                                    t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() => order.finalized ? ()=>{} : this._setOrder(order)" >
+>>>>>>> upstream/18.0
 =======
                                     t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() => order.finalized ? ()=>{} : this._setOrder(order)" >
 >>>>>>> upstream/18.0
@@ -89,7 +93,11 @@
                                 <div class="mobileOrderList order-row rounded-3" t-att-class="{ 'highlight bg-primary text-white': isHighlighted(order) }"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() =>  order.uiState.locked ? ()=>{} : this._setOrder(order)" >
+=======
+                                    t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() =>  order.finalized ? ()=>{} : this._setOrder(order)" >
+>>>>>>> upstream/18.0
 =======
                                     t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() =>  order.finalized ? ()=>{} : this._setOrder(order)" >
 >>>>>>> upstream/18.0

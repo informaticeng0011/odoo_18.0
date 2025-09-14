@@ -318,6 +318,7 @@ class Product(models.Model):
             dest_loc_domain = [('location_dest_id', 'in', locations.ids)]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif locations:
             paths_domain = expression.OR([[('parent_path', '=like', loc.parent_path + '%')] for loc in locations])
             loc_domain = [('location_id', 'any', paths_domain)]
@@ -327,6 +328,8 @@ class Product(models.Model):
                 '&', ('location_final_id', '=', False), ('location_dest_id', 'any', paths_domain),
             ]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             dest_loc_domain_out = [('location_dest_id', 'in', locations.ids)]
@@ -352,6 +355,9 @@ class Product(models.Model):
                     '&', ('state', '!=', 'done'),
             ] + ['!'] + dest_loc_domain_in_progress
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -362,7 +368,11 @@ class Product(models.Model):
             dest_loc_domain + ['!'] + loc_domain,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             loc_domain + ['!'] + dest_loc_domain,
+=======
+            loc_domain + dest_loc_domain_out,
+>>>>>>> upstream/18.0
 =======
             loc_domain + dest_loc_domain_out,
 >>>>>>> upstream/18.0
@@ -656,7 +666,10 @@ class Product(models.Model):
         rules = self._get_rules_from_location(location, route_ids=route_ids)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if self.env.context.get('exclude_inter_wh_rules') and any(
@@ -668,6 +681,9 @@ class Product(models.Model):
                 'date_order': date,
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -150,7 +150,11 @@ var PortalComposer = publicWidget.Widget.extend({
     _prepareMessageData: function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return Object.assign(this.options || {}, {
+=======
+        return {
+>>>>>>> upstream/18.0
 =======
         return {
 >>>>>>> upstream/18.0
@@ -171,7 +175,11 @@ var PortalComposer = publicWidget.Widget.extend({
             pid: this.options.pid,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         });
+=======
+        };
+>>>>>>> upstream/18.0
 =======
         };
 >>>>>>> upstream/18.0

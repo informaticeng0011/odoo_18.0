@@ -67,6 +67,11 @@ class Page(models.Model):
     def _compute_can_publish(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Note: this `if`'s purpose it to optimize the way this is computed for
+        # multiple records.
+>>>>>>> upstream/18.0
 =======
         # Note: this `if`'s purpose it to optimize the way this is computed for
         # multiple records.
@@ -194,8 +199,11 @@ class Page(models.Model):
             # Rule must be reinforced because of sudo.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain.append([('website_published', '=', True)])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             domain.append([
@@ -210,6 +218,9 @@ class Page(models.Model):
                 [('groups_id', '=', False)], [('groups_id', 'in', self.env.user.groups_id.ids)]
             ]))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -283,6 +294,7 @@ class Page(models.Model):
         def filter_page(search, page, all_pages):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Search might have matched words in the xml tags and parameters therefore we make
             # sure the terms actually appear inside the text.
             text = '%s %s %s' % (page.name, page.url, text_from_html(page.arch))
@@ -291,6 +303,8 @@ class Page(models.Model):
         if search and with_description:
             results = results.filtered(lambda result: filter_page(search, result, results))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             # Exclude pages that do not pass ACL.
@@ -308,6 +322,9 @@ class Page(models.Model):
             return True
         results = results.filtered(lambda result: filter_page(search, result, results))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

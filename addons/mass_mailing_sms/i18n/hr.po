@@ -2,8 +2,13 @@
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mass_mailing_sms
 # 
+=======
+# * mass_mailing_sms
+#
+>>>>>>> upstream/18.0
 =======
 # * mass_mailing_sms
 #
@@ -24,7 +29,12 @@
 # Tina Milas, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Luka Carević <luka@uvid.hr>, 2025
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
@@ -37,6 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
@@ -52,6 +63,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-05 18:39+0000\n"
+=======
+"POT-Creation-Date: 2025-09-12 01:50+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-18 12:32+0000\n"
 "Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
@@ -64,6 +78,9 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -134,8 +151,13 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text"
 " Messages are being processed.</span>"
+=======
+"<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
+"Messages are being processed.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
 "Messages are being processed.</span>"
@@ -176,7 +198,12 @@ msgid ""
 "<strong>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            It appears you don't have enough IAP credits. Click here to buy credits.\n"
+=======
+"                            It appears you don't have enough IAP credits. "
+"Click here to buy credits.\n"
+>>>>>>> upstream/18.0
 =======
 "                            It appears you don't have enough IAP credits. "
 "Click here to buy credits.\n"
@@ -194,7 +221,12 @@ msgid ""
 "<strong>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            It appears your SMS account is not registered. Click here to set up your account.\n"
+=======
+"                            It appears your SMS account is not registered. "
+"Click here to set up your account.\n"
+>>>>>>> upstream/18.0
 =======
 "                            It appears your SMS account is not registered. "
 "Click here to set up your account.\n"
@@ -245,11 +277,28 @@ msgid "Action Needed"
 msgstr "Potrebna radnja"
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
+msgid "An error occurred."
+msgstr ""
+
+#. module: mass_mailing_sms
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_attachment_count
 msgid "Attachment Count"
 msgstr "Broj priloga"
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_authentication
+msgid "Authentication Error\""
+msgstr ""
+
+#. module: mass_mailing_sms
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Average of Bounced"
@@ -301,7 +350,11 @@ msgstr "Brojevi na crnoj listi su telefonski"
 msgid "Bounced (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neisporučeno (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neisporučeno (%)"
 >>>>>>> upstream/18.0
@@ -338,7 +391,11 @@ msgstr ""
 msgid "Clicked (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kliknuto (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kliknuto (%)"
 >>>>>>> upstream/18.0
@@ -358,6 +415,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vratite se nakon što neki SMS mailinzi budu poslani kako biste pregledali "
+"objedinjene rezultate."
+>>>>>>> upstream/18.0
 =======
 "Vratite se nakon što neki SMS mailinzi budu poslani kako biste pregledali "
 "objedinjene rezultate."
@@ -392,7 +454,11 @@ msgstr ""
 msgid "Create a SMS Marketing Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napravite SMS marketing mailing"
+>>>>>>> upstream/18.0
 =======
 msgstr "Napravite SMS marketing mailing"
 >>>>>>> upstream/18.0
@@ -490,6 +556,14 @@ msgid ""
 msgstr ""
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_from_to
+msgid "From / To identic"
+msgstr ""
+
+#. module: mass_mailing_sms
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__has_message
 msgid "Has Message"
 msgstr "Ima poruku"
@@ -520,8 +594,13 @@ msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 =======
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
@@ -539,8 +618,12 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Immediately send the SMS Mailing instead of queuing up. Use at your own "
 "risk."
+=======
+"Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
+>>>>>>> upstream/18.0
 =======
 "Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
 >>>>>>> upstream/18.0
@@ -555,12 +638,21 @@ msgstr ""
 msgid "Include opt-out link"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Uključi link za odjavu"
 >>>>>>> upstream/18.0
 =======
 msgstr "Uključi link za odjavu"
+>>>>>>> upstream/18.0
+=======
+msgstr "Uključi link za odjavu"
+
+#. module: mass_mailing_sms
+#: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_callback
+msgid "Incorrect callback URL"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
@@ -642,7 +734,11 @@ msgstr "Slanje mailova"
 msgid "Mailing Contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontakt za slanje pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontakt za slanje pošte"
 >>>>>>> upstream/18.0
@@ -661,7 +757,11 @@ msgstr "Lista za slanje mailova"
 msgid "Mailing List Contacts"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontakti mailing liste"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontakti mailing liste"
 >>>>>>> upstream/18.0
@@ -691,7 +791,11 @@ msgstr ""
 msgid "Mailing Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta slanja e-mail pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta slanja e-mail pošte"
 >>>>>>> upstream/18.0
@@ -738,6 +842,14 @@ msgid "Messages"
 msgstr "Poruke"
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_from_missing
+msgid "Missing From Number"
+msgstr ""
+
+#. module: mass_mailing_sms
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_number_missing
 msgid "Missing Number"
 msgstr ""
@@ -752,7 +864,11 @@ msgstr "Mobitel"
 msgid "My SMS Marketing"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moj SMS marketing"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moj SMS marketing"
 >>>>>>> upstream/18.0
@@ -770,8 +886,13 @@ msgstr "Još nema podataka!"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No need to import mailing lists, you can send SMS to contacts saved in other"
 " Odoo apps."
+=======
+"No need to import mailing lists, you can send SMS to contacts saved in other "
+"Odoo apps."
+>>>>>>> upstream/18.0
 =======
 "No need to import mailing lists, you can send SMS to contacts saved in other "
 "Odoo apps."
@@ -839,8 +960,13 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Once you send these text messages, they'll be making a grand entrance in all"
 " pockets, creating quite the bzzzzz!"
+=======
+"Once you send these text messages, they'll be making a grand entrance in all "
+"pockets, creating quite the bzzzzz!"
+>>>>>>> upstream/18.0
 =======
 "Once you send these text messages, they'll be making a grand entrance in all "
 "pockets, creating quite the bzzzzz!"
@@ -943,7 +1069,11 @@ msgstr ""
 msgid "SMS Content"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadržaj SMS poruke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sadržaj SMS poruke"
 >>>>>>> upstream/18.0
@@ -978,7 +1108,11 @@ msgstr ""
 msgid "SMS Marketing Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Analiza SMS marketinga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiza SMS marketinga"
 >>>>>>> upstream/18.0
@@ -997,7 +1131,11 @@ msgstr ""
 msgid "SMS Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predložak SMS poruke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predložak SMS poruke"
 >>>>>>> upstream/18.0
@@ -1032,7 +1170,11 @@ msgstr ""
 msgid "SMS Winner Selection"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbor pobjednika putem SMS-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izbor pobjednika putem SMS-a"
 >>>>>>> upstream/18.0
@@ -1061,7 +1203,11 @@ msgstr "Pošalji"
 msgid "Send Directly"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslati izravno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslati izravno"
 >>>>>>> upstream/18.0
@@ -1103,7 +1249,10 @@ msgstr ""
 #. module: mass_mailing_sms
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
@@ -1112,6 +1261,9 @@ msgstr ""
 
 #. module: mass_mailing_sms
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1146,7 +1298,11 @@ msgstr ""
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Test SMS could not be sent to %(destination)s: %(state)s"
+=======
+msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
+>>>>>>> upstream/18.0
 =======
 msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
 >>>>>>> upstream/18.0
@@ -1266,7 +1422,11 @@ msgstr "Povijest komunikacije Web stranice"
 msgid "Winner Selection"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odabir pobjednika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odabir pobjednika"
 >>>>>>> upstream/18.0
@@ -1279,9 +1439,15 @@ msgstr "Odabir pobjednika"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Write an appealing SMS Text Message, define recipients and track its "
 "results."
 msgstr ""
+=======
+"Write an appealing SMS Text Message, define recipients and track its results."
+msgstr ""
+"Napišite privlačnu SMS poruku, definirajte primatelje i pratite rezultate."
+>>>>>>> upstream/18.0
 =======
 "Write an appealing SMS Text Message, define recipients and track its results."
 msgstr ""
@@ -1303,7 +1469,11 @@ msgstr ""
 msgid "e.g. Black Friday SMS coupon"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. SMS kupon za Crni petak"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. SMS kupon za Crni petak"
 >>>>>>> upstream/18.0

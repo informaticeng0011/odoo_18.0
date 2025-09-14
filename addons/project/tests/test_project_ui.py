@@ -34,7 +34,10 @@ class TestUi(odoo.tests.HttpCase):
         self.start_tour('/odoo', 'project_task_history_tour', login='admin')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -54,6 +57,9 @@ class TestUi(odoo.tests.HttpCase):
 
         self.start_tour('/odoo', 'project_task_last_history_steps_tour', login='admin')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

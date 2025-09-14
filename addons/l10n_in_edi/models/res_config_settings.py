@@ -26,9 +26,12 @@ class ResConfigSettings(models.TransientModel):
         self.l10n_in_check_gst_number()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env["account.edi.format"]._l10n_in_edi_authenticate(self.company_id)
         if not self.company_id.sudo()._l10n_in_edi_token_is_valid():
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         response = self.env['account.edi.format']._l10n_in_edi_authenticate(self.company_id)
@@ -36,6 +39,9 @@ class ResConfigSettings(models.TransientModel):
             raise UserError("\n".join(["[%s] %s" % (e.get('code'), (e.get('message'))) for e in response['error']]))
         elif not self.company_id.sudo()._l10n_in_edi_token_is_valid():
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -26,7 +26,11 @@
             <MobileSwitchCompanyMenu t-if="Object.values(company.allowedCompanies).length > 1" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <BurgerUserMenu/>
+=======
+            <BurgerUserMenu onMenuClicked.bind="_closeBurger"/>
+>>>>>>> upstream/18.0
 =======
             <BurgerUserMenu onMenuClicked.bind="_closeBurger"/>
 >>>>>>> upstream/18.0

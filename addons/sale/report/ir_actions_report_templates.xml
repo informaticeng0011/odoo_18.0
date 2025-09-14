@@ -85,7 +85,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <strong>Shipping Address</strong>
+=======
+                    <strong class="d-block mt-3">Shipping Address</strong>
+>>>>>>> upstream/18.0
 =======
                     <strong class="d-block mt-3">Shipping Address</strong>
 >>>>>>> upstream/18.0
@@ -353,8 +357,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td name="td_quantity" t-attf-class="text-end {{ 'text-nowrap' if (not line.product_packaging_id or len(line.product_packaging_id.name) &lt; 10) else '' }}">
                                     <span t-field="line.product_uom_qty">3</span>
+=======
+                                <td name="td_quantity" class="o_td_quantity text-end">
+                                    <span t-field="line.product_uom_qty" class="text-nowrap">3</span>
+>>>>>>> upstream/18.0
 =======
                                 <td name="td_quantity" class="o_td_quantity text-end">
                                     <span t-field="line.product_uom_qty" class="text-nowrap">3</span>

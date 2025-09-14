@@ -2,6 +2,10 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -44,6 +48,7 @@ class SaleOrderLine(models.Model):
     def _compute_available_product_document_ids(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for line in self:
             line.available_product_document_ids = self.env['product.document'].search([
                 '|',
@@ -56,6 +61,8 @@ class SaleOrderLine(models.Model):
                 ('attached_on_sale', '=', 'inside')
             ], order='res_model, sequence').ids
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         available_documents_ordered = self.env['product.document']._read_group(
@@ -82,6 +89,9 @@ class SaleOrderLine(models.Model):
                 + available_documents['product.template', line.product_template_id.id]
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

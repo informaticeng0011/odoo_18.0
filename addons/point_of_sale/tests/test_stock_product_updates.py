@@ -96,8 +96,11 @@ class TestStockProductUpdates(TestPoSCommon):
         ]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -111,6 +114,9 @@ class TestStockProductUpdates(TestPoSCommon):
         self.assertTrue(wh_copy.pos_type_id)
         self.assertNotEqual(wh.pos_type_id, wh_copy.pos_type_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

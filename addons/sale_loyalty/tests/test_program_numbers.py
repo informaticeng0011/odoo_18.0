@@ -591,7 +591,10 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
         self.assertEqual(len(generated_coupon), 1, "We should still have only 1 coupon as we now benefit again from the program but no need to create a new one (see next assert)")
         self.assertEqual(generated_coupon.points, 0, "The coupon should not have it's points already.")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertFalse(order._get_claimable_rewards(), "No rewards should be claimable")
 
         order.action_confirm()
@@ -603,6 +606,9 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
             order._get_claimable_rewards(),
             "Next-order coupon rewards shouldn't be claimable on current order",
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_coupon_rule_minimum_amount(self):
@@ -1834,7 +1840,10 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_rounded_used_loyalty_points(self):
@@ -1874,6 +1883,9 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
         self.assertEqual(used_points, coupon.currency_id.round(used_points))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

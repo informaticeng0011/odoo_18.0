@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_totp_mail_enforce
 # 
 # Translators:
@@ -9,6 +10,8 @@
 # Martin Trigaux, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # * auth_totp_mail_enforce
@@ -19,6 +22,9 @@
 #
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27,6 +33,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -38,6 +45,8 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-05 22:20+0000\n"
@@ -52,6 +61,9 @@ msgstr ""
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -107,6 +119,7 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "   Estimado/a <t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
 "    <p>Alguien está intentando iniciar sesión con su cuenta desde un dispositivo nuevo.</p>\n"
 "    <ul>\n"
@@ -118,6 +131,8 @@ msgstr ""
 "    </ul>\n"
 "    <p>Si es usted, ingrese el siguiente código para poder iniciar sesión:</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "   Estimado/a <t t-out=\"object.partner_id.name or ''\"/>:<br/><br/>\n"
@@ -137,6 +152,9 @@ msgstr ""
 "    <p>Si es usted, ingrese el siguiente código para poder iniciar "
 "sesión:</p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -146,10 +164,13 @@ msgstr ""
 "    <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; border-radius: 5px;\"/>\n"
 "    </div>\n"
 "    <small>Tenga en cuenta que este código vence en <t t-out=\"expiration\"/>.</small>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px "
@@ -159,6 +180,9 @@ msgstr ""
 "    <small>Tenga en cuenta que este código vence en <t t-out=\"expiration\""
 "/>.</small>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -171,12 +195,15 @@ msgstr ""
 "    <p style=\"margin: 16px 0px 16px 0px;\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        También le recomendamos activar la verificación de dos pasos con una aplicación de autenticación para ayudarle a asuegurar su cuenta.\n"
 "    </p>\n"
 "\n"
 "    <p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "        También le recomendamos activar la verificación de dos pasos con una "
@@ -188,6 +215,9 @@ msgstr ""
 "color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -244,7 +274,11 @@ msgstr "Creado el"
 msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0

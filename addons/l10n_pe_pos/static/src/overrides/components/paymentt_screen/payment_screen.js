@@ -6,7 +6,10 @@ import { patch } from "@web/core/utils/patch";
 patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     onMounted() {
@@ -16,6 +19,9 @@ patch(PaymentScreen.prototype, {
         }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

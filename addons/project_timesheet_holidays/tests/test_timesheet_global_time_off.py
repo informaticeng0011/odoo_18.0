@@ -446,9 +446,15 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # create overlapping global time off
         global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2)
         global_leave_end_datetime = global_leave_start_datetime + timedelta(hours=9)
+=======
+        # create overlapping global time off, with some margin over working day to account for different timezones
+        global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2, hours=-3)
+        global_leave_end_datetime = global_leave_start_datetime + timedelta(hours=12)
+>>>>>>> upstream/18.0
 =======
         # create overlapping global time off, with some margin over working day to account for different timezones
         global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2, hours=-3)
@@ -524,7 +530,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # create a new leave at same dates
@@ -546,6 +555,9 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
         self.assertEqual(sum(holiday3.timesheet_ids.mapped('unit_amount')), 40)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -569,7 +581,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
             timesheet.unlink()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -587,6 +602,9 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
         self.assertEqual(timesheet_count, 1, "A timesheet should have been generated for the employee with a global working "
                                               "schedule when a new public holiday is created")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -11,9 +11,12 @@
         <xpath expr="//span[@id='title_english']" position="replace">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <t t-if="!props.data.is_settlement">
                 <span id="title_english">Simplified Tax Invoice</span>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             <t t-if="!props.data.is_settlement and props.data.is_simplified">
@@ -22,6 +25,9 @@
             <t t-else="">
                 <span id="title_english" t-translation="off">Tax Invoice</span>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31,9 +37,12 @@
         <xpath expr="//span[@id='title_arabic']" position="replace">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <t t-if="!props.data.is_settlement">
                 <span id="title_arabic">فاتورة ضريبية مبسطة</span>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             <t t-if="!props.data.is_settlement and props.data.is_simplified">
@@ -42,6 +51,9 @@
             <t t-else="">
                 <span id="title_arabic" t-translation="off">الفاتورة الضريبية</span>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

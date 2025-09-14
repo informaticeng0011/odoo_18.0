@@ -278,11 +278,14 @@ const priorityRestoreStateRules = [
         // is now gone.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         { direction: DIRECTIONS.RIGHT, cType1: CTGROUPS.BR, cType2: CTYPES.SPACE | CTGROUPS.BLOCK },
         { spaceVisibility: true },
     ],
     [
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         { direction: DIRECTIONS.RIGHT, cType1: CTGROUPS.BR, cType2: CTYPES.SPACE },
@@ -297,6 +300,9 @@ const priorityRestoreStateRules = [
     ],
     [
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

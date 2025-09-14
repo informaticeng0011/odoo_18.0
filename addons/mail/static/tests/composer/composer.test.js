@@ -7,6 +7,10 @@ import {
     dropFiles,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    focus,
+>>>>>>> upstream/18.0
 =======
     focus,
 >>>>>>> upstream/18.0
@@ -39,7 +43,11 @@ import {
 import { Composer } from "@mail/core/common/composer";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { queryFirst } from "@odoo/hoot-dom";
+=======
+import { edit, press, queryFirst } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { edit, press, queryFirst } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -295,7 +303,11 @@ test("composer text input cleared on message post", async () => {
     await contains(".o-mail-Composer-input", { value: "test message" });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(".o-mail-Composer-send:not([disabled])");
+=======
+    await click(".o-mail-Composer-send:enabled");
+>>>>>>> upstream/18.0
 =======
     await click(".o-mail-Composer-send:enabled");
 >>>>>>> upstream/18.0
@@ -468,10 +480,13 @@ test('post message on channel with "Enter" keyboard shortcut', async () => {
     await openDiscuss(channelId);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await insertText(".o-mail-Composer-input", "Test");
     await contains(".o-mail-Message", { count: 0 });
     triggerHotkey("Enter");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     await focus(".o-mail-Composer-input");
@@ -484,6 +499,9 @@ test('post message on channel with "Enter" keyboard shortcut', async () => {
     await press("Enter", { isComposing: true });
     await animationFrame();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -651,6 +669,7 @@ test("composer: drop attachments", async () => {
     await contains(".o-Dropzone", { count: 0 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard", { count: 2 });
     const extraFiles = [text3];
     await dragenterFiles(".o-mail-Composer-input", extraFiles);
@@ -659,12 +678,17 @@ test("composer: drop attachments", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await contains(".o-mail-AttachmentCard:not(.o-isUploading)", { count: 2 });
     const extraFiles = [text3];
     await dragenterFiles(".o-mail-Composer-input", extraFiles);
     await dropFiles(".o-Dropzone", extraFiles);
     await contains(".o-mail-AttachmentCard:not(.o-isUploading)", { count: 3 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -679,10 +703,13 @@ test("composer: add an attachment", async () => {
     await inputFiles(".o-mail-Composer-coreMain .o_input_file", [text]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard .fa-check");
     await contains(".o-mail-Composer-footer .o-mail-AttachmentList");
     await contains(".o-mail-Composer-footer .o-mail-AttachmentList .o-mail-AttachmentCard");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     await contains('.o-mail-AttachmentCard:not(.o-isUploading):contains("text.txt") .fa-check');
@@ -691,6 +718,9 @@ test("composer: add an attachment", async () => {
         ".o-mail-Composer-footer .o-mail-AttachmentList .o-mail-AttachmentCard:not(.o-isUploading):contains(text.txt)"
     );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -717,10 +747,13 @@ test("composer: add an attachment in reply to message in history", async () => {
     await inputFiles(".o-mail-Composer-coreMain .o_input_file", [text]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard .fa-check");
     await contains(".o-mail-Composer-footer .o-mail-AttachmentList");
     await contains(".o-mail-Composer-footer .o-mail-AttachmentList .o-mail-AttachmentCard");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     await contains(".o-mail-AttachmentCard:not(.o-isUploading):contains(text.txt) .fa-check");
@@ -729,6 +762,9 @@ test("composer: add an attachment in reply to message in history", async () => {
         ".o-mail-Composer-footer .o-mail-AttachmentList .o-mail-AttachmentCard:not(.o-isUploading):contains(text.txt)"
     );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -745,6 +781,7 @@ test("composer: send button is disabled if attachment upload is not finished", a
     await inputFiles(".o-mail-Composer-coreMain .o_input_file", [text]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard.o-isUploading");
     await contains(".o-mail-Composer-send:disabled");
     // simulates attachment finishes uploading
@@ -753,12 +790,17 @@ test("composer: send button is disabled if attachment upload is not finished", a
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await contains(".o-mail-AttachmentCard.o-isUploading:contains(text.txt)");
     await contains(".o-mail-Composer-send:disabled");
     // simulates attachment finishes uploading
     attachmentUploadedDef.resolve();
     await contains(".o-mail-AttachmentCard:not(.o-isUploading):contains(text.txt)");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -775,9 +817,14 @@ test("remove an attachment from composer does not need any confirmation", async 
     await inputFiles(".o-mail-Composer-coreMain .o_input_file", [text]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard .fa-check");
     await contains(".o-mail-Composer-footer .o-mail-AttachmentList");
     await contains(".o-mail-AttachmentList .o-mail-AttachmentCard");
+=======
+    await contains(".o-mail-AttachmentCard:not(.o-isUploading):contains(text.txt) .fa-check");
+    await contains(".o-mail-Composer-footer .o-mail-AttachmentList");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-AttachmentCard:not(.o-isUploading):contains(text.txt) .fa-check");
     await contains(".o-mail-Composer-footer .o-mail-AttachmentList");
@@ -801,7 +848,13 @@ test("composer: paste attachments", async () => {
     await pasteFiles(".o-mail-Composer-input", [text]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentList .o-mail-AttachmentCard");
+=======
+    await contains(
+        ".o-mail-AttachmentList .o-mail-AttachmentCard:not(.o-isUploading):contains(text.txt)"
+    );
+>>>>>>> upstream/18.0
 =======
     await contains(
         ".o-mail-AttachmentList .o-mail-AttachmentCard:not(.o-isUploading):contains(text.txt)"
@@ -843,8 +896,14 @@ test("remove an uploading attachment", async () => {
     await inputFiles(".o-mail-Composer-coreMain .o_input_file", [text]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard.o-isUploading");
     await click(".o-mail-AttachmentCard-unlink");
+=======
+    await click(
+        ".o-mail-AttachmentCard.o-isUploading:contains(text.txt) .o-mail-AttachmentCard-unlink"
+    );
+>>>>>>> upstream/18.0
 =======
     await click(
         ".o-mail-AttachmentCard.o-isUploading:contains(text.txt) .o-mail-AttachmentCard-unlink"
@@ -902,7 +961,10 @@ test("Show 'No recipient found.' with 0 followers.", async () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 test("Show display_name of recipients without name in the recipient list.", async () => {
@@ -927,6 +989,9 @@ test("Show display_name of recipients without name in the recipient list.", asyn
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -941,8 +1006,13 @@ test("Uploading multiple files in the composer create multiple temporary attachm
     await inputFiles(".o-mail-Composer-coreMain .o_input_file", [text1, text2]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard", { text: "text1.txt" });
     await contains(".o-mail-AttachmentCard", { text: "text2.txt" });
+=======
+    await contains(".o-mail-AttachmentCard.o-isUploading:contains(text1.txt)");
+    await contains(".o-mail-AttachmentCard.o-isUploading:contains(text2.txt)");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-AttachmentCard.o-isUploading:contains(text1.txt)");
     await contains(".o-mail-AttachmentCard.o-isUploading:contains(text2.txt)");
@@ -970,6 +1040,7 @@ test("[technical] does not crash when an attachment is removed before its upload
     await inputFiles(".o-mail-Composer-coreMain .o_input_file", [text1, text2]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard.o-isUploading", { text: "text1.txt" });
     await click(".o-mail-AttachmentCard-unlink", {
         parent: [".o-mail-AttachmentCard.o-isUploading", { text: "text2.txt" }],
@@ -981,6 +1052,8 @@ test("[technical] does not crash when an attachment is removed before its upload
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await contains(".o-mail-AttachmentCard.o-isUploading:contains(text1.txt)");
     await click(
         ".o-mail-AttachmentCard.o-isUploading:contains(text2.txt) .o-mail-AttachmentCard-unlink"
@@ -990,6 +1063,9 @@ test("[technical] does not crash when an attachment is removed before its upload
     uploadDef.resolve();
     await contains(".o-mail-AttachmentCard:not(.o-isUploading):contains(text1.txt)");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

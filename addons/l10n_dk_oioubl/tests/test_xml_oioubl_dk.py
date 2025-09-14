@@ -174,14 +174,20 @@ class TestUBLDK(TestUBLCommon, TestAccountMoveSendCommon):
         self.company_data['company'].vat = '12345674'
         self.company_data['company'].partner_id.peppol_endpoint = False
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.vat = 'DK12345674'
         self.partner_a.peppol_endpoint = False
 =======
+=======
+>>>>>>> upstream/18.0
         self.partner_a.write({
             'vat': 'DK12345674',
             'peppol_endpoint': False,
             'invoice_edi_format': 'oioubl_201',
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         invoice = self.create_post_and_send_invoice()
         self.assertTrue(invoice.ubl_cii_xml_id)

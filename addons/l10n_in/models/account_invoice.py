@@ -51,6 +51,7 @@ class AccountMove(models.Model):
     def _compute_l10n_in_state_id(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for move in self:
             if move.country_code == 'IN' and move.is_sale_document(include_receipts=True):
                 partner_state = (
@@ -68,6 +69,8 @@ class AccountMove(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         foreign_state = self.env.ref('l10n_in.state_in_oc', raise_if_not_found=False)
         for move in self:
             if move.country_code == 'IN' and move.is_sale_document(include_receipts=True):
@@ -83,6 +86,9 @@ class AccountMove(models.Model):
                 country_code = partner_state.country_id.code or move.country_code
                 move.l10n_in_state_id = partner_state if country_code == 'IN' else foreign_state
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

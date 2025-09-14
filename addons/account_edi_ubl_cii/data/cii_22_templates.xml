@@ -7,7 +7,13 @@
                 xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+=======
+                xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
+                xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+>>>>>>> upstream/18.0
 =======
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
                 xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
@@ -80,7 +86,10 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                         <!-- Billing Period -->
@@ -94,6 +103,9 @@
                         </ram:BillingSpecifiedPeriod>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -124,7 +136,13 @@
                 xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+=======
+                xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
+                xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+>>>>>>> upstream/18.0
 =======
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
                 xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
@@ -162,7 +180,13 @@
                 xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+=======
+                xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
+                xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+>>>>>>> upstream/18.0
 =======
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
                 xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
@@ -191,7 +215,13 @@
                 xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+=======
+                xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
+                xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+>>>>>>> upstream/18.0
 =======
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
                 xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
@@ -302,7 +332,11 @@
                         <ram:SpecifiedTradeSettlementPaymentMeans t-if="record.partner_bank_id.sanitized_acc_number">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <ram:TypeCode>42</ram:TypeCode>
+=======
+                            <ram:TypeCode t-out="payment_means_code"/>
+>>>>>>> upstream/18.0
 =======
                             <ram:TypeCode t-out="payment_means_code"/>
 >>>>>>> upstream/18.0

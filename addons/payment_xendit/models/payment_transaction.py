@@ -135,11 +135,14 @@ class PaymentTransaction(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _xendit_create_charge(self, token_ref):
         """ Create a charge on Xendit using the `credit_card_charges` endpoint.
 
         :param str token_ref: The reference of the Xendit token to use to make the payment.
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _xendit_create_charge(self, token_ref, auth_id=None):
@@ -148,6 +151,9 @@ class PaymentTransaction(models.Model):
         :param str token_ref: The reference of the Xendit token to use to make the payment.
         :param str auth_id: The authentication id to use to make the payment.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -166,7 +172,10 @@ class PaymentTransaction(models.Model):
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -177,6 +186,9 @@ class PaymentTransaction(models.Model):
             payload['is_recurring'] = True  # Ensure that next payments will not require 3DS.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

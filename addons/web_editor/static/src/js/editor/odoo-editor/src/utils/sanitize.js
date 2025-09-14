@@ -247,11 +247,14 @@ function sanitizeNode(node, root) {
         // Transform <li> into <p> if they are not in a <ul> / <ol>.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const paragraph = document.createElement('p');
         paragraph.replaceChildren(...node.childNodes);
         node.replaceWith(paragraph);
         node = paragraph; // The node has been removed, update the reference.
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (node.children.length && [...node.children].every(isBlock)) {
@@ -270,6 +273,9 @@ function sanitizeNode(node, root) {
             node = paragraph; // The node has been removed, update the reference.
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -194,7 +194,10 @@ class TestIrSequenceGenerate(BaseCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_ir_sequence_suffix(self):
@@ -212,6 +215,9 @@ class TestIrSequenceGenerate(BaseCase):
                 env['ir.sequence'].next_by_code('test_sequence_type_8')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

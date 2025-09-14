@@ -182,7 +182,10 @@ class StockValuationLayerRevaluation(models.TransientModel):
                 )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 # update the lot's standard price
@@ -190,6 +193,9 @@ class StockValuationLayerRevaluation(models.TransientModel):
                     lot = self.env['stock.lot'].browse(lot).with_company(self.company_id)
                     lot.with_context(disable_auto_svl=True).standard_price += self.added_value / total_qty
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

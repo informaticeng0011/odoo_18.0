@@ -9,6 +9,10 @@ from odoo.addons.website.tools import MockRequest
 from odoo.tests import common
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -246,7 +250,10 @@ class TestMenu(common.TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_07_menu_hierarchy_validation(self):
@@ -293,6 +300,9 @@ class TestMenu(common.TransactionCase):
             self.main_menu.parent_id = self.another_menu.id
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

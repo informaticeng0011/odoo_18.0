@@ -461,7 +461,10 @@ This module provides the core of the Odoo Web Client.
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Lazy-loaded assets needed by test framework when not in headless mode
@@ -470,6 +473,9 @@ This module provides the core of the Odoo Web Client.
             "web/static/lib/prismjs/prism.js",
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

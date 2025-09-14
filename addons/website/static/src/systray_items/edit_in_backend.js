@@ -38,8 +38,11 @@ export const systrayItem = {
     Component: EditInBackendSystray,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     isDisplayed: env => env.services.website.currentWebsite && env.services.website.currentWebsite.metadata.editableInBackend,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     isDisplayed: env => env.services.website.currentWebsite && env.services.website.currentWebsite.metadata.editableInBackend
@@ -56,6 +59,9 @@ export const systrayItem = {
             || env.services.website.currentWebsite.metadata.canPublish
         ),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

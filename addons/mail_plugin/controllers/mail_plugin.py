@@ -358,7 +358,11 @@ class MailPluginController(http.Controller):
             except Exception as e:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _logger.warning('Download of image for new company %s failed, error %s', new_company_info.name, e)
+=======
+                _logger.warning('Download of image for new company %s failed, error %s', new_company_info['name'], e)
+>>>>>>> upstream/18.0
 =======
                 _logger.warning('Download of image for new company %s failed, error %s', new_company_info['name'], e)
 >>>>>>> upstream/18.0

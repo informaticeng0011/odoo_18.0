@@ -27,6 +27,10 @@ class PaymentPortalSelfOrder(PaymentPortal):
         pos_order = request.env['pos.order'].sudo().browse(pos_order_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        pos_order.config_id.notify_synchronisation(pos_order.config_id.current_session_id.id, 0)
+>>>>>>> upstream/18.0
 =======
         pos_order.config_id.notify_synchronisation(pos_order.config_id.current_session_id.id, 0)
 >>>>>>> upstream/18.0

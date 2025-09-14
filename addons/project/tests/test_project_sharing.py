@@ -310,7 +310,10 @@ class TestProjectSharing(TestProjectSharingCommon):
         Task = Task.with_user(self.user_portal)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -324,6 +327,9 @@ class TestProjectSharing(TestProjectSharingCommon):
             task = Task.with_context(default_parent_id=self.task_no_collabo.id).create({'name': 'foo'})
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -444,7 +450,10 @@ class TestProjectSharing(TestProjectSharingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Allow to set as parent a task he has access to
@@ -455,6 +464,9 @@ class TestProjectSharing(TestProjectSharingCommon):
             task.write({'parent_id': self.task_no_collabo.id})
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -717,7 +729,10 @@ class TestProjectSharing(TestProjectSharingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -925,6 +940,9 @@ class TestProjectSharing(TestProjectSharingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -66,8 +66,11 @@ export class SelectTranslateDialog extends Component {
     static props = {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node: String,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         node: {
@@ -80,6 +83,9 @@ export class SelectTranslateDialog extends Component {
             },
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -297,8 +303,11 @@ export class WebsiteTranslator extends WebsiteEditorComponent {
             if (translationEl.closest('.o_not_editable')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 translationEl.addEventListener('click', showNotification);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 translationEl.addEventListener('click', (ev) => {
@@ -307,6 +316,9 @@ export class WebsiteTranslator extends WebsiteEditorComponent {
                     showNotification(ev);
                 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

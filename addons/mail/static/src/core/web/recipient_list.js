@@ -29,7 +29,11 @@ export class RecipientList extends Component {
             recipient.partner.email ||
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sprintf(_t("[%(name)s] (no email address)"), { name: recipient.partner.name })
+=======
+            sprintf(_t("[%(name)s] (no email address)"), { name: recipient.displayName })
+>>>>>>> upstream/18.0
 =======
             sprintf(_t("[%(name)s] (no email address)"), { name: recipient.displayName })
 >>>>>>> upstream/18.0

@@ -119,8 +119,11 @@ class MyFilterMessages(Transform):
     def apply(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for node in self.document.traverse(nodes.system_message):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Use `findall()` if available (docutils >= 0.20), otherwise fallback to `traverse()`.
@@ -132,6 +135,9 @@ class MyFilterMessages(Transform):
 
         for node in nodes_iter:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

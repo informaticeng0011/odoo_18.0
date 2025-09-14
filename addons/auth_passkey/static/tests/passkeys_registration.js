@@ -99,7 +99,10 @@ registry.category("web_tour.tours").add('passkeys_tour_registration', {
         }, {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             // The HR module causes the switch to security tab to trigger on the old DOM, before the new one is loaded
@@ -107,6 +110,9 @@ registry.category("web_tour.tours").add('passkeys_tour_registration', {
             trigger: 'label:contains("Email Signature")',
         }, {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -118,7 +124,10 @@ registry.category("web_tour.tours").add('passkeys_tour_registration', {
             trigger: 'button:contains("Add Passkey")',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             run: () => {
@@ -128,6 +137,9 @@ registry.category("web_tour.tours").add('passkeys_tour_registration', {
                 }
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

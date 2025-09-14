@@ -185,6 +185,10 @@ class TestScheduledMessageBusiness(TestScheduledMessage, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                subject="Test subject",
+>>>>>>> upstream/18.0
 =======
                 subject="Test subject",
 >>>>>>> upstream/18.0
@@ -401,7 +405,11 @@ class TestScheduledMessageBusiness(TestScheduledMessage, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'subject': self.test_record._message_compute_subject(),
+=======
+                        'subject': "Test subject",
+>>>>>>> upstream/18.0
 =======
                         'subject': "Test subject",
 >>>>>>> upstream/18.0
@@ -536,7 +544,10 @@ class TestScheduledMessageBusiness(TestScheduledMessage, CronMixinCase):
             self.assertFalse(self.env['mail.scheduled.message'].search([['id', 'in', [scheduled_message_id, failing_schedueld_message_id]]]))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -563,6 +574,9 @@ class TestScheduledMessageBusiness(TestScheduledMessage, CronMixinCase):
             author=self.env.user.partner_id,
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

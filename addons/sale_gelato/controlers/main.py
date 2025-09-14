@@ -102,7 +102,10 @@ class GelatoController(Controller):
         expected_signature = company_sudo.gelato_webhook_secret
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if not expected_signature:
@@ -113,6 +116,9 @@ class GelatoController(Controller):
             raise Forbidden()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

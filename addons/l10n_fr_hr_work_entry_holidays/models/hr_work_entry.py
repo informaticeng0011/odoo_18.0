@@ -29,7 +29,11 @@ class HrWorkEntry(models.Model):
         for entry in french_part_time_work_entries:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if entry.id in res and res[entry.id] == 0:
+=======
+            if entry.id in res and res[entry.id] == 0 and entry.date_start and entry.date_stop:
+>>>>>>> upstream/18.0
 =======
             if entry.id in res and res[entry.id] == 0 and entry.date_start and entry.date_stop:
 >>>>>>> upstream/18.0

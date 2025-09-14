@@ -10,7 +10,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-02-12 10:37+0000\n"
+=======
+"POT-Creation-Date: 2025-09-12 01:50+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2022-09-22 05:45+0000\n"
 "Last-Translator: Martin Trigaux, 2023\n"
 "Language-Team: Serbian (https://app.transifex.com/odoo/teams/41243/sr/)\n"
@@ -155,14 +159,24 @@ msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+<<<<<<< HEAD
 msgid ""
 "Automatically generate counterpart documents for orders/invoices between "
 "companies"
+=======
+msgid "Automatically generate counterpart documents in recipient companies"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "By default, new users get highest access rights for all installed apps."
+=======
+msgid ""
+"By default, new users get highest access rights for all installed apps. If "
+"unchecked, new users will only have basic employee access."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_setup
@@ -251,11 +265,14 @@ msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "Documentation"
 msgstr "Dokumentacija"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+=======
+>>>>>>> upstream/18.0
 msgid "Edit Layout"
 msgstr ""
 
@@ -283,18 +300,30 @@ msgid "General Settings"
 msgstr "Generalna Podešavanja"
 
 #. module: base_setup
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Geo Localization"
 msgstr ""
 
 #. module: base_setup
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_base_geolocalize
 msgid "GeoLocalize"
 msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "GeoLocalize your partners"
+=======
+msgid "Geolocate your partners"
+msgstr ""
+
+#. module: base_setup
+#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+msgid "Geolocation"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_setup
@@ -333,6 +362,14 @@ msgid "Is Root Company"
 msgstr ""
 
 #. module: base_setup
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:base_setup.model_kpi_provider
+msgid "KPI Provider"
+msgstr ""
+
+#. module: base_setup
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_auth_ldap
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "LDAP Authentication"
@@ -449,6 +486,14 @@ msgid "Protect your forms with CF Turnstile."
 msgstr ""
 
 #. module: base_setup
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_sms
+msgid "SMS"
+msgstr ""
+
+#. module: base_setup
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Send SMS"
 msgstr "Šalji SMS"
@@ -542,10 +587,25 @@ msgid ""
 msgstr ""
 
 #. module: base_setup
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/base_setup/models/res_users.py:0
+msgid "You have to install the Discuss application to use this feature."
+msgstr ""
+
+#. module: base_setup
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_recaptcha
 msgid "reCAPTCHA"
 msgstr ""
 
+<<<<<<< HEAD
+=======
+#~ msgid "Documentation"
+#~ msgstr "Dokumentacija"
+
+>>>>>>> upstream/18.0
 #~ msgid "Synchronize your calendar with Google Calendar"
 #~ msgstr "Sinhronizujte svoj kalendar sa Google kalendarom"
 

@@ -117,6 +117,12 @@ export class FormViewDialog extends Component {
                 views: [[false, "form"]],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                context: {
+                    ...this.props.context,
+                },
+>>>>>>> upstream/18.0
 =======
                 context: {
                     ...this.props.context,

@@ -2,6 +2,10 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Domain } from "@web/core/domain";
+>>>>>>> upstream/18.0
 =======
 import { Domain } from "@web/core/domain";
 >>>>>>> upstream/18.0
@@ -41,6 +45,7 @@ patch(ActivityMenu.prototype, {
             // Necessary because activity_ids of mail.activity.mixin has auto_join
             // So, duplicates are faking the count and "Load more" doesn't show up
             context["force_search_count"] = 1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,6 +110,8 @@ patch(ActivityMenu.prototype, {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             this.action.loadAction("crm.crm_lead_action_my_activities").then((action) => {
                 // to show lost leads in the activity
                 action.domain = Domain.and([
@@ -116,6 +123,9 @@ patch(ActivityMenu.prototype, {
                     clearBreadcrumbs: true,
                 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

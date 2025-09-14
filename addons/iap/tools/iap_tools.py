@@ -46,7 +46,11 @@ _MAIL_PROVIDERS = {
     'prisme.ch', 'bbox.fr', 'orbitalu.com', 'netcourrier.com', 'iinet.net.au', 'cegetel.net', 'proton.me', 'dbmail.com', 'club-internet.fr', 'outlook.jp',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'eim.ae',
+=======
+    'eim.ae', 'pm.me',
+>>>>>>> upstream/18.0
 =======
     'eim.ae', 'pm.me',
 >>>>>>> upstream/18.0

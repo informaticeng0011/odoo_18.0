@@ -5,7 +5,10 @@ import { patch } from "@web/core/utils/patch";
 patch(Thread.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     setup() {
@@ -15,6 +18,9 @@ patch(Thread.prototype, {
     }, 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24,6 +30,12 @@ patch(Thread.prototype, {
             params["rating_include"] = true;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (this.selectedRating) {
+                params["rating_value"] = this.selectedRating;
+            }
+>>>>>>> upstream/18.0
 =======
             if (this.selectedRating) {
                 params["rating_value"] = this.selectedRating;

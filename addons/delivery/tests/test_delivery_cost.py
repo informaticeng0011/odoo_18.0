@@ -301,7 +301,10 @@ class TestDeliveryCost(DeliveryCommon, SaleCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_get_invalid_delivery_weight_lines(self):
@@ -341,6 +344,9 @@ class TestDeliveryCost(DeliveryCommon, SaleCommon):
         self.assertTrue(error_lines.combo_item_id, "The erroneous line should be part of a combo")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

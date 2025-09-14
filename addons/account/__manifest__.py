@@ -61,6 +61,10 @@ You could use this simplified accounting in case you work with an (external) acc
         'views/ir_module_views.xml',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'views/base_document_layout_views.xml',
+>>>>>>> upstream/18.0
 =======
         'views/base_document_layout_views.xml',
 >>>>>>> upstream/18.0
@@ -91,7 +95,10 @@ You could use this simplified accounting in case you work with an (external) acc
         'views/tests_shared_js_python.xml',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'views/base_document_layout_views.xml',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

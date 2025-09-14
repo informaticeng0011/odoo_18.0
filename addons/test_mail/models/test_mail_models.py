@@ -202,6 +202,10 @@ class MailTestActivity(models.Model):
     active = fields.Boolean(default=True)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    company_id = fields.Many2one('res.company')
+>>>>>>> upstream/18.0
 =======
     company_id = fields.Many2one('res.company')
 >>>>>>> upstream/18.0

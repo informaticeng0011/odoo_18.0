@@ -521,7 +521,11 @@ class TestMessageLinks(MailCommon, HttpCase):
             res = self.url_open(f'/mail/message/{private_message_id}')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(res.status_code, 401)
+=======
+            self.assertEqual(res.status_code, 404)
+>>>>>>> upstream/18.0
 =======
             self.assertEqual(res.status_code, 404)
 >>>>>>> upstream/18.0

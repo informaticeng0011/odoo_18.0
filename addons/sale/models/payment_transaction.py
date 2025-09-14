@@ -98,7 +98,11 @@ class PaymentTransaction(models.Model):
             super(PaymentTransaction, done_tx)._post_process()  # Post the invoices.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if auto_invoice:
+=======
+            if auto_invoice and not self.env.context.get('skip_sale_auto_invoice_send'):
+>>>>>>> upstream/18.0
 =======
             if auto_invoice and not self.env.context.get('skip_sale_auto_invoice_send'):
 >>>>>>> upstream/18.0
@@ -161,11 +165,14 @@ class PaymentTransaction(models.Model):
             invoice_to_send.is_move_sent = True # Mark invoice as sent
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env['account.move.send']._generate_and_send_invoices(
                 invoice_to_send,
                 allow_raising=False,
                 allow_fallback_pdf=True,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -184,6 +191,9 @@ class PaymentTransaction(models.Model):
                 invoice_to_send,
                 **send_context,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

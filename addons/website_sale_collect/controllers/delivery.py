@@ -36,7 +36,10 @@ class InStoreDelivery(Delivery):
         order_sudo._set_pickup_location(pickup_location_data)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -49,6 +52,9 @@ class InStoreDelivery(Delivery):
                 del dm_rate_mapping[dm]
         return dm_rate_mapping
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

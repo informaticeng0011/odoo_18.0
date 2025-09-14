@@ -45,6 +45,10 @@ class SmsTracker(models.Model):
         if traces:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # TDE note: check to use set_sent / ... tools updating marketing automation bits
+>>>>>>> upstream/18.0
 =======
             # TDE note: check to use set_sent / ... tools updating marketing automation bits
 >>>>>>> upstream/18.0

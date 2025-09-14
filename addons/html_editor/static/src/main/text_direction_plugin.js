@@ -36,6 +36,7 @@ export class TextDirectionPlugin extends Plugin {
         const selection = this.dependencies.split.splitSelection();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedTextNodes = [
             selection.anchorNode,
             ...this.dependencies.selection.getSelectedNodes(),
@@ -45,6 +46,8 @@ export class TextDirectionPlugin extends Plugin {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const targetedTextNodes = [
             selection.anchorNode,
             ...this.dependencies.selection.getTargetedNodes(),
@@ -52,6 +55,9 @@ export class TextDirectionPlugin extends Plugin {
         const blocks = new Set(
             targetedTextNodes.map(
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

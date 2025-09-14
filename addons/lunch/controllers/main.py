@@ -118,6 +118,10 @@ class LunchController(http.Controller):
             'wallet': request.env['lunch.cashmove'].get_wallet_balance(user, False),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'wallet_with_config': request.env['lunch.cashmove'].get_wallet_balance(user),
+>>>>>>> upstream/18.0
 =======
             'wallet_with_config': request.env['lunch.cashmove'].get_wallet_balance(user),
 >>>>>>> upstream/18.0

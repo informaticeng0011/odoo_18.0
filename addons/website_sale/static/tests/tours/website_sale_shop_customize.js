@@ -149,7 +149,11 @@ registerWebsitePreviewTour('shop_customize', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         goToCart({backend: true}),
+=======
+        goToCart({ backend: true, expectUnloadPage: false }),
+>>>>>>> upstream/18.0
 =======
         goToCart({ backend: true, expectUnloadPage: false }),
 >>>>>>> upstream/18.0

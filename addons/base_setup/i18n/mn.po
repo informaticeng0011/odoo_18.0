@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # tserendavaa tsogtoo <tseegii011929@gmail.com>, 2024
 # Batmunkh Ganbat <batmunkh2522@gmail.com>, 2024
@@ -10,11 +14,16 @@
 # hish, 2024
 # Minj P <pminj322@gmail.com>, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Martin Trigaux, 2024\n"
@@ -23,11 +32,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: mn\n"
+=======
+"POT-Creation-Date: 2025-09-12 01:50+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Martin Trigaux, 2024\n"
+"Language-Team: Mongolian (https://app.transifex.com/odoo/teams/41243/mn/)\n"
+"Language: mn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
+=======
+msgid ""
+"<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_setup
@@ -36,7 +60,12 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"active_user_count &gt; 1\">\n"
 "                                        Active User\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"active_user_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"active_user_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Active Users\n"
 "                                    </span>"
 msgstr ""
@@ -47,7 +76,12 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"company_count &gt; 1\">\n"
 "                                        Company\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"company_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"company_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Companies\n"
 "                                    </span>\n"
 "                                    <br/>"
@@ -59,7 +93,12 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"language_count &gt; 1\">\n"
 "                                            Language\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_form_label\" invisible=\"language_count &lt;= 1\">\n"
+=======
+"                                        <span class=\"o_form_label\" "
+"invisible=\"language_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Languages\n"
 "                                        </span>"
 msgstr ""
@@ -80,8 +119,12 @@ msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+<<<<<<< HEAD
 msgid ""
 "<strong>Save</strong> this page and come back here to set up reCaptcha."
+=======
+msgid "<strong>Save</strong> this page and come back here to set up reCaptcha."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_setup
@@ -222,8 +265,12 @@ msgid ""
 "company sells/buys to another of your company."
 msgstr ""
 "Таны компаниуд хоорондын борлуулалт/худалдан авалт хийх үед автоматаар "
+<<<<<<< HEAD
 "борлуулалт/худалдан авалтын баримтыг автоматаар үүсгэх дүрмийг тохируулна "
 "уу."
+=======
+"борлуулалт/худалдан авалтын баримтыг автоматаар үүсгэх дүрмийг тохируулна уу."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -336,6 +383,14 @@ msgid "Is Root Company"
 msgstr ""
 
 #. module: base_setup
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:base_setup.model_kpi_provider
+msgid "KPI Provider"
+msgstr ""
+
+#. module: base_setup
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_auth_ldap
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "LDAP Authentication"
@@ -551,8 +606,18 @@ msgid ""
 "filled."
 msgstr ""
 "Өөрийн хаягийн дэвтрээ бүртгэх үед Odoo тохирох компаний жагсаалтыг өгдөг. "
+<<<<<<< HEAD
 "Эднээс аль нэгийг нь сонгоход компаний мэдээлэл, лого нь автоматаар "
 "бөглөдөг."
+=======
+"Эднээс аль нэгийг нь сонгоход компаний мэдээлэл, лого нь автоматаар бөглөдөг."
+
+#. module: base_setup
+#. odoo-python
+#: code:addons/base_setup/models/res_users.py:0
+msgid "You have to install the Discuss application to use this feature."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_recaptcha

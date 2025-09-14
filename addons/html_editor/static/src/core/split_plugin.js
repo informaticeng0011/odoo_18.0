@@ -242,9 +242,12 @@ export class SplitPlugin extends Plugin {
         let beforeSplit, afterSplit;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!before && !after && elements[0] !== limitAncestor) {
             return this.splitAroundUntil(elements[0].parentElement, limitAncestor);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (
@@ -262,6 +265,9 @@ export class SplitPlugin extends Plugin {
         } else if (!before && firstNode.parentElement !== limitAncestor) {
             return this.splitAroundUntil([firstNode.parentElement, lastNode], limitAncestor);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

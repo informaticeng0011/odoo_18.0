@@ -6,6 +6,10 @@ from ast import literal_eval
 from odoo.addons.phone_validation.tools import phone_validation
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.sms_twilio.tests.common import MockSmsTwilioApi
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.sms_twilio.tests.common import MockSmsTwilioApi
 >>>>>>> upstream/18.0
@@ -434,7 +438,10 @@ class TestMassSMS(TestMassSMSCommon):
         self.assertEqual(mailing.canceled, 3)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -513,6 +520,9 @@ class TestMassSMSTwilio(TestMassSMSCommon, MockSmsTwilioApi):
                     self.records,
                 )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

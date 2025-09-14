@@ -639,6 +639,7 @@ class SurveyQuestion(models.Model):
             'count': count_data[suggested_answer],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'count_text': _("%s Votes", count_data[suggested_answer]),
             }
             for suggested_answer in suggested_answers]
@@ -647,12 +648,17 @@ class SurveyQuestion(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'count_text': self.env._("%s Votes", count_data[suggested_answer]),
             }
             for suggested_answer in suggested_answers]
         graph_data = [{
             'text': self.env._('Other (see comments)') if not suggested_answer else suggested_answer.value_label,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

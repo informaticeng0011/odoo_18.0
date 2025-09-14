@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
 from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from odoo import Command
@@ -10,6 +13,9 @@ from odoo.tests import tagged
 from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 from odoo.addons.l10n_it_edi.tests.test_edi_reverse_charge import TestItEdiReverseCharge
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54,7 +60,10 @@ class TestItAccountMoveDocumentType(TestItEdi):
         self.assertEqual(credit_note_y.l10n_it_document_type, dt_credit_note)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -108,6 +117,9 @@ class TestItReverseChargeDocumentType(TestItEdiReverseCharge):
 
         self._assert_export_invoice(credit_note, 'credit_note_export_document_type.xml')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

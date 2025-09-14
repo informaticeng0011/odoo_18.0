@@ -14,7 +14,10 @@ const storeServicePatch = {
         this.shouldDisplayWelcomeViewInitially;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         this.shouldDisplayWelcomeView = Record.attr(undefined, {
@@ -23,6 +26,9 @@ const storeServicePatch = {
             },
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -41,6 +41,10 @@ import { insertText, undo } from "./_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -191,7 +195,11 @@ test("add an emoji with powerbox", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-EmojiPicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-EmojiPicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-EmojiPicker", 0);
 >>>>>>> upstream/18.0
@@ -340,8 +348,12 @@ test("add an emoji with powerbox", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-EmojiPicker", { timeout: 1000 });
     expect(".o-EmojiPicker").toHaveCount(1);
+=======
+    await expectElementCount(".o-EmojiPicker", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-EmojiPicker", 1);
 >>>>>>> upstream/18.0
@@ -495,7 +507,11 @@ test("click on emoji command to open emoji picker", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-EmojiPicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-EmojiPicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-EmojiPicker", 0);
 >>>>>>> upstream/18.0
@@ -645,8 +661,12 @@ test("click on emoji command to open emoji picker", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-EmojiPicker", { timeout: 1000 });
     expect(".o-EmojiPicker").toHaveCount(1);
+=======
+    await expectElementCount(".o-EmojiPicker", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-EmojiPicker", 1);
 >>>>>>> upstream/18.0
@@ -822,7 +842,11 @@ test("close emoji picker with escape", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-EmojiPicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-EmojiPicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-EmojiPicker", 0);
 >>>>>>> upstream/18.0

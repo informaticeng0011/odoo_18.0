@@ -10,7 +10,10 @@ from .common import *
 from .form import Form, O2MProxy, M2MProxy
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from . import test_parse_inline_template
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

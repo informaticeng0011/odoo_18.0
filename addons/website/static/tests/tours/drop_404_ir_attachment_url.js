@@ -7,6 +7,10 @@ import {
 } from '@website/js/tours/tour_utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import wUtils from '@website/js/utils';
+>>>>>>> upstream/18.0
 =======
 import wUtils from '@website/js/utils';
 >>>>>>> upstream/18.0
@@ -36,6 +40,7 @@ registerWebsitePreviewTour('drop_404_ir_attachment_url', {
         trigger: ':iframe .s_404_snippet img',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         run() {
             const imgEl = this.anchor;
             if (!imgEl.complete
@@ -44,11 +49,16 @@ registerWebsitePreviewTour('drop_404_ir_attachment_url', {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         async run() {
             const imgEl = this.anchor;
             await wUtils.onceAllImagesLoaded($(imgEl));
             if (imgEl.naturalWidth !== 0 || imgEl.naturalHeight !== 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63,6 +73,7 @@ registerWebsitePreviewTour('drop_404_ir_attachment_url', {
         trigger: ':iframe .s_404_snippet img[src^="data:"]',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         run() {
             const imgEl = this.anchor;
             if (!imgEl.complete
@@ -71,11 +82,16 @@ registerWebsitePreviewTour('drop_404_ir_attachment_url', {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         async run() {
             const imgEl = this.anchor;
             await wUtils.onceAllImagesLoaded($(imgEl));
             if (imgEl.naturalWidth === 0 || imgEl.naturalHeight === 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

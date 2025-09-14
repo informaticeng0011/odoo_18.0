@@ -8,7 +8,11 @@ class ProductTemplate(models.Model):
         comodel_name='l10n_gr_edi.preferred_classification',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='Preferred MyDATA Classification',
+=======
+        string='Preferred myDATA Classification',
+>>>>>>> upstream/18.0
 =======
         string='Preferred myDATA Classification',
 >>>>>>> upstream/18.0

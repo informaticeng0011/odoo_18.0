@@ -177,9 +177,12 @@ FALSE_LEAF = (0, '=', 1)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 TRUE_DOMAIN = [TRUE_LEAF]
 FALSE_DOMAIN = [FALSE_LEAF]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -196,6 +199,9 @@ class _ProtectedDomain(tuple):
 TRUE_DOMAIN = _ProtectedDomain([TRUE_LEAF])
 FALSE_DOMAIN = _ProtectedDomain([FALSE_LEAF])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

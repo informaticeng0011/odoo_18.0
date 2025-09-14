@@ -21,6 +21,7 @@ class TestAutoComplete(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _autocomplete(self, term, expected_count, expected_fuzzy_term):
         """ Calls the autocomplete for a given term and performs general checks """
         with MockRequest(self.env, website=self.website):
@@ -29,12 +30,17 @@ class TestAutoComplete(TransactionCase):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _autocomplete(self, term, expected_count, expected_fuzzy_term, search_type="test", options=None):
         """ Calls the autocomplete for a given term and performs general checks """
         with MockRequest(self.env, website=self.website):
             suggestions = self.WebsiteController.autocomplete(
                 search_type=search_type, term=term, max_nb_chars=50, options=options or {},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44,7 +50,10 @@ class TestAutoComplete(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _autocomplete_page(self, term, expected_count, expected_fuzzy_term):
@@ -55,6 +64,9 @@ class TestAutoComplete(TransactionCase):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -129,7 +141,10 @@ class TestAutoComplete(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         test_page = self.env.ref('test_website.test_page')
@@ -171,6 +186,9 @@ class TestAutoComplete(TransactionCase):
         self.website.env = self.env = saved_env
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

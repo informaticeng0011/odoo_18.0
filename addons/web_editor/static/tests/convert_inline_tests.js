@@ -3,6 +3,10 @@ import convertInline from '@web_editor/js/backend/convert_inline';
 import {getGridHtml, getTableHtml, getRegularGridHtml, getRegularTableHtml, getTdHtml, removeComments} from '@web_editor/../tests/test_utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { unformat } from '@web_editor/js/editor/odoo-editor/test/utils';
+>>>>>>> upstream/18.0
 =======
 import { unformat } from '@web_editor/js/editor/odoo-editor/test/utils';
 >>>>>>> upstream/18.0
@@ -1091,7 +1095,10 @@ QUnit.module('convert_inline', {}, function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     QUnit.test('Should properly calculate colspan', async function (assert) {
@@ -1116,6 +1123,9 @@ QUnit.module('convert_inline', {}, function () {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

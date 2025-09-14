@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # emre oktem, 2024
 # gezgin biri <gezginbiri@hotmail.com>, 2024
@@ -15,6 +19,7 @@
 # Umur Akın <umura@projetgrup.com>, 2024
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2024
 # abc Def <hdogan1974@gmail.com>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,10 +166,15 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -317,12 +327,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: tr\n"
+=======
+"POT-Creation-Date: 2025-09-12 01:50+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+"Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
 msgstr "<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
+=======
+msgid ""
+"<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -330,14 +357,24 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"active_user_count &gt; 1\">\n"
 "                                        Active User\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"active_user_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"active_user_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Active Users\n"
 "                                    </span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"active_user_count &gt; 1\">\n"
 "                                        Etkin Kullanıcı\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"active_user_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"active_user_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Etkin Kullanıcılar\n"
 "                                    </span>"
 
@@ -347,7 +384,12 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"company_count &gt; 1\">\n"
 "                                        Company\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"company_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"company_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Companies\n"
 "                                    </span>\n"
 "                                    <br/>"
@@ -355,7 +397,12 @@ msgstr ""
 "<span class=\"o_form_label\" invisible=\"company_count &gt; 1\">\n"
 "                                        Şirket\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"company_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"company_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Şirketler\n"
 "                                    </span>\n"
 "                                    <br/>"
@@ -366,14 +413,24 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"language_count &gt; 1\">\n"
 "                                            Language\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_form_label\" invisible=\"language_count &lt;= 1\">\n"
+=======
+"                                        <span class=\"o_form_label\" "
+"invisible=\"language_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Languages\n"
 "                                        </span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"language_count &gt; 1\">\n"
 "                                            Dil\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_form_label\" invisible=\"language_count &lt;= 1\">\n"
+=======
+"                                        <span class=\"o_form_label\" "
+"invisible=\"language_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Diller\n"
 "                                        </span>"
 
@@ -383,8 +440,13 @@ msgid ""
 "<strong>Save</strong> this page and come back here to choose your Geo "
 "Provider."
 msgstr ""
+<<<<<<< HEAD
 "Coğrafi sağlayıcınızı seçmek için geri gel ve bu "
 "sayfayı<strong>Kaydet</strong> "
+=======
+"Coğrafi sağlayıcınızı seçmek için geri gel ve bu sayfayı<strong>Kaydet</"
+"strong> "
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -397,8 +459,12 @@ msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+<<<<<<< HEAD
 msgid ""
 "<strong>Save</strong> this page and come back here to set up reCaptcha."
+=======
+msgid "<strong>Save</strong> this page and come back here to set up reCaptcha."
+>>>>>>> upstream/18.0
 msgstr ""
 "Bu sayfayı <strong>kaydedin</strong> ve reCaptcha'yı kurmak için buraya "
 "dönün."
@@ -408,8 +474,12 @@ msgstr ""
 msgid ""
 "<strong>Save</strong> this page and come back here to set up the feature."
 msgstr ""
+<<<<<<< HEAD
 "Bu sayfayı <strong>kaydedin</strong> ve özelliği ayarlamak için buraya "
 "dönün."
+=======
+"Bu sayfayı <strong>kaydedin</strong> ve özelliği ayarlamak için buraya dönün."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -493,6 +563,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Yeni kullanıcılar varsayılan ayar olarak tüm yüklü uygulamalar için en "
+"yüksek erişim haklarını alır. Bu seçenek işaretlenmezse, yeni kullanıcılar "
+"yalnızca temel çalışan erişimine sahip olur."
+>>>>>>> upstream/18.0
 =======
 "Yeni kullanıcılar varsayılan ayar olarak tüm yüklü uygulamalar için en "
 "yüksek erişim haklarını alır. Bu seçenek işaretlenmezse, yeni kullanıcılar "
@@ -631,7 +707,11 @@ msgstr "Coğrafi Konum"
 msgid "Geolocate your partners"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partnerlerinizi coğrafi olarak konumlandırın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partnerlerinizi coğrafi olarak konumlandırın"
 >>>>>>> upstream/18.0
@@ -680,6 +760,14 @@ msgid "Is Root Company"
 msgstr "Kök Şirket mi"
 
 #. module: base_setup
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:base_setup.model_kpi_provider
+msgid "KPI Provider"
+msgstr ""
+
+#. module: base_setup
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_auth_ldap
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "LDAP Authentication"
@@ -943,7 +1031,11 @@ msgid "VoIP"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "VoIP"
+>>>>>>> upstream/18.0
 =======
 msgstr "VoIP"
 >>>>>>> upstream/18.0
@@ -1190,6 +1282,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1501,6 +1594,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/base_setup/models/res_users.py:0
 msgid "You have to install the Discuss application to use this feature."
@@ -1508,6 +1603,9 @@ msgstr "Bu özelliği kullanmak için Sohbet uygulamasını yüklemeniz gerekiyo
 
 #. module: base_setup
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

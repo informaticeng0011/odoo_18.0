@@ -5,7 +5,10 @@ from datetime import date, datetime, timedelta
 from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from freezegun import freeze_time
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81,6 +84,7 @@ from odoo import fields, exceptions, tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.addons.mail.models.mail_activity import MailActivity
 >>>>>>> upstream/18.0
@@ -268,6 +272,8 @@ from odoo.addons.mail.tests.common import mail_new_test_user, MailCommon
 from odoo.addons.test_mail.models.test_mail_models import MailTestActivity
 from odoo.tests import Form, HttpCase, users
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from odoo.addons.mail.models.mail_activity import MailActivity
@@ -276,6 +282,9 @@ from odoo.addons.test_mail.models.test_mail_models import MailTestActivity
 from odoo.tests import Form, HttpCase, users
 from odoo.tests.common import freeze_time
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -298,7 +307,10 @@ class TestActivityCommon(MailCommon):
 class TestActivityRights(TestActivityCommon):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_activity_action_open_document_no_access(self):
         def _employee_no_access(records, operation):
             """Simulates employee having no access to the document"""
@@ -326,6 +338,9 @@ class TestActivityRights(TestActivityCommon):
             self.assertEqual(action['res_model'], 'mail.activity')
             self.assertEqual(action['res_id'], test_activity.id)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @mute_logger('odoo.addons.mail.models.mail_mail')
     def test_activity_security_user_access_other(self):
@@ -714,9 +729,12 @@ class TestActivityMixin(TestActivityCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         activities = self.env['mail.activity'].search([('user_id', 'in', archived_users.ids)])
         self.assertFalse(activities, "Activities of archived users should be deleted.")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # archive user with company disabled
@@ -735,6 +753,9 @@ class TestActivityMixin(TestActivityCommon):
 
         self.assertFalse(any(archived_users.mapped('active')), "Users should be archived.")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -747,7 +768,10 @@ class TestActivityMixin(TestActivityCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # ensure the user's activities are removed
@@ -755,6 +779,9 @@ class TestActivityMixin(TestActivityCommon):
         self.assertFalse(activities, "Activities of archived users should be deleted.")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1077,6 +1104,10 @@ class TestActivityMixin(TestActivityCommon):
     def test_my_activity_flow_employee(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env.ref('test_mail.mail_act_test_todo').keep_done = True
+>>>>>>> upstream/18.0
 =======
         self.env.ref('test_mail.mail_act_test_todo').keep_done = True
 >>>>>>> upstream/18.0
@@ -1103,7 +1134,11 @@ class TestActivityMixin(TestActivityCommon):
         test_record_1 = self.env['mail.test.activity'].with_context(self._test_context).create({'name': 'Test 1'})
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Activity.create({
+=======
+        test_record_1_late_activity = Activity.create({
+>>>>>>> upstream/18.0
 =======
         test_record_1_late_activity = Activity.create({
 >>>>>>> upstream/18.0
@@ -1121,6 +1156,7 @@ class TestActivityMixin(TestActivityCommon):
             self.assertEqual(test_record_1, record)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1386,6 +1422,8 @@ class TestActivityMixin(TestActivityCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             test_record_1_late_activity._action_done()
@@ -1395,6 +1433,9 @@ class TestActivityMixin(TestActivityCommon):
             self.assertFalse(record, "Should not find record if the only late activity is done")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1495,6 +1536,7 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1549,6 +1591,8 @@ class TestActivityMixin(TestActivityCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1752,6 +1796,9 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1905,7 +1952,10 @@ class TestActivitySystray(TestActivityCommon, HttpCase):
 @tests.tagged('mail_activity')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 @freeze_time("2024-01-01 09:00:00")
@@ -2032,6 +2082,9 @@ class TestActivitySystrayBusNotify(TestActivityCommon):
 
 @tests.tagged('mail_activity')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

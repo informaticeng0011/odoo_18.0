@@ -382,7 +382,10 @@ class TestLoyalty(TestSaleCouponCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_multiple_rewards_after_confirm(self):
@@ -437,6 +440,9 @@ class TestLoyalty(TestSaleCouponCommon):
         self.assertEqual(coupon.points, 0)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

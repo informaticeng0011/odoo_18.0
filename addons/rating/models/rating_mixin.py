@@ -182,7 +182,10 @@ class RatingMixin(models.AbstractModel):
         return result
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -191,6 +194,9 @@ class RatingMixin(models.AbstractModel):
         """Override to allow the rating stats to be demonstrated."""
         return False
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

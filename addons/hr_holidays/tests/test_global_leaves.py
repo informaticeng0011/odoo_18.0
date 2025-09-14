@@ -199,7 +199,11 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
             'date_to': date(2024, 12, 30),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
+=======
+        }).action_validate()
+>>>>>>> upstream/18.0
 =======
         }).action_validate()
 >>>>>>> upstream/18.0
@@ -230,7 +234,10 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
         self.assertTrue(resource_leaves, 'Resource leaves linked to the employee leave should exist.')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -268,6 +275,9 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
         for day, value in expected.items():
             self.assertEqual(flex_days.get(day), value, f"Day {day} should be {'unusual' if value else 'normal'}")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

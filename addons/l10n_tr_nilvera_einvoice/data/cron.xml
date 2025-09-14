@@ -2,6 +2,7 @@
 <odoo>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <record id="ir_cron_nilvera_get_new_documents" model="ir.cron">
         <field name="name">Nilvera: retrieve new documents</field>
         <field name="model_id" ref="model_account_move"/>
@@ -12,6 +13,8 @@
         <field name="nextcall" eval="(DateTime.now() + timedelta(hours=12)).strftime('%Y-%m-%d %H:%M:%S')"/>
         <field name="active" eval="True"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     <record id="ir_cron_nilvera_get_new_purchase_documents" model="ir.cron">
@@ -43,6 +46,9 @@
         <field name="interval_type">hours</field>
         <field name="nextcall" eval="(DateTime.now() + timedelta(hours=12)).strftime('%Y-%m-%d %H:%M:%S')"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58,7 +64,10 @@
         <field name="nextcall" eval="(DateTime.now() + timedelta(hours=12)).strftime('%Y-%m-%d %H:%M:%S')"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <field name="active" eval="True"/>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

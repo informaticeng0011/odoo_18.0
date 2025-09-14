@@ -105,6 +105,7 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         field = self._fields[column_name]
         default = self.env['stock.warehouse'].search([('company_id', '=', self.env.company.id)], limit=1)
         value = field.convert_to_write(default, self)
@@ -115,6 +116,8 @@ class SaleOrder(models.Model):
             query = f'UPDATE "{self._table}" SET "{column_name}" = %s WHERE "{column_name}" IS NULL'
             self._cr.execute(query, (value,))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -256,7 +259,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         WHERE so.company_id = wh.company_id
+=======
+        WHERE so.company_id = wh.company_id and so.warehouse_id IS NULL and wh.active
+>>>>>>> upstream/18.0
 =======
         WHERE so.company_id = wh.company_id and so.warehouse_id IS NULL and wh.active
 >>>>>>> upstream/18.0
@@ -434,6 +441,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -665,6 +675,7 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             rounding = self.env['decimal.precision'].precision_get('Product Unit of Measure')
             for order in self:
                 to_log = {}
@@ -673,6 +684,8 @@ class SaleOrder(models.Model):
                         continue
                     if float_compare(order_line.product_uom_qty, pre_order_line_qty.get(order_line, 0.0), precision_rounding=order_line.product_uom.rounding or rounding) < 0:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -857,6 +870,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1091,6 +1107,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        invoice_vals['delivery_date'] = self.effective_date
+>>>>>>> upstream/18.0
 =======
         invoice_vals['delivery_date'] = self.effective_date
 >>>>>>> upstream/18.0

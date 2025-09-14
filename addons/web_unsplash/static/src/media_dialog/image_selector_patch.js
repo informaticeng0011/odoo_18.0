@@ -127,10 +127,13 @@ patch(ImageSelector.prototype, {
             this.unsplashState.unsplashError = false;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Ignore duplicates.
             const existingIds = this.unsplashState.unsplashRecords.map((existing) => existing.id);
             const newImages = images.filter((record) => !existingIds.includes(record.id));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             // Use a set to keep track of every image we've received so far,
@@ -148,6 +151,9 @@ patch(ImageSelector.prototype, {
                 return true;
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

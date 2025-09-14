@@ -11,6 +11,7 @@ import re
 import requests
 import threading
 <<<<<<< HEAD
+<<<<<<< HEAD
 import uuid
 
 <<<<<<< HEAD
@@ -311,12 +312,17 @@ from lxml import etree, html
 from urllib.parse import urlparse
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 import types
 import uuid
 
 from datetime import datetime
 from lxml import etree, html
 from urllib.parse import urlparse
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from werkzeug import urls
 from werkzeug.exceptions import NotFound
@@ -471,7 +477,10 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -636,6 +645,9 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -897,7 +909,10 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1066,6 +1081,9 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1464,6 +1482,12 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _idna_url(self, url):
+        return get_base_domain(url.lower(), True).encode('idna').decode('ascii')
+
+>>>>>>> upstream/18.0
 =======
     def _idna_url(self, url):
         return get_base_domain(url.lower(), True).encode('idna').decode('ascii')
@@ -1968,7 +1992,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return get_base_domain(url.lower(), True) == get_base_domain(self.domain.lower(), True)
+=======
+        return self._idna_url(url) == self._idna_url(self.domain)
+>>>>>>> upstream/18.0
 =======
         return self._idna_url(url) == self._idna_url(self.domain)
 >>>>>>> upstream/18.0
@@ -2311,7 +2339,13 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company = self.get_current_website().company_id
+=======
+        theme = self.env["ir.module.module"].search([("name", "=", "theme_default")])
+        current_website = self.get_current_website()
+        company = current_website.company_id
+>>>>>>> upstream/18.0
 =======
         theme = self.env["ir.module.module"].search([("name", "=", "theme_default")])
         current_website = self.get_current_website()
@@ -2649,6 +2683,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if current_website.configurator_done:
+            r['redirect_url'] = theme.button_choose_theme()
+>>>>>>> upstream/18.0
 =======
         if current_website.configurator_done:
             r['redirect_url'] = theme.button_choose_theme()
@@ -3211,10 +3250,13 @@ class Website(models.Model):
                 name_replace_parser = re.compile(r"XXXX", re.MULTILINE)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for key in generated_content:
                     if response.get(key):
                         generated_content[key] = (name_replace_parser.sub(website.name, response[key], 0))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 website_name = re.escape(website.name)
@@ -3222,6 +3264,9 @@ class Website(models.Model):
                     if response.get(key):
                         generated_content[key] = (name_replace_parser.sub(website_name, response[key], 0))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3818,7 +3863,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             website_domain = get_base_domain(website.domain)
+=======
+            website_domain = get_base_domain(website.domain_punycode)
+>>>>>>> upstream/18.0
 =======
             website_domain = get_base_domain(website.domain_punycode)
 >>>>>>> upstream/18.0
@@ -4040,8 +4089,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         found_websites = self.search([('domain', 'ilike', _remove_port(domain_name))])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4212,6 +4264,9 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4382,7 +4437,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 view = views.filter_duplicate()
+=======
+                view = views.filter_duplicate()[:1]
+>>>>>>> upstream/18.0
 =======
                 view = views.filter_duplicate()[:1]
 >>>>>>> upstream/18.0
@@ -4559,9 +4618,12 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if page['write_date']:
                 record['lastmod'] = page['write_date'].date()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4694,6 +4756,9 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4788,6 +4853,7 @@ class Website(models.Model):
         sitemap_endpoint_done = set()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         for rule in router.iter_rules():
             if 'sitemap' in rule.endpoint.routing and rule.endpoint.routing['sitemap'] is not True:
                 endpoint_func = rule.endpoint.func
@@ -4803,6 +4869,8 @@ class Website(models.Model):
                 for loc in func(self.with_context(lang=self.default_lang_id.code).env, rule, query_string):
                     yield loc
 =======
+=======
+>>>>>>> upstream/18.0
         # Helper to normalize URLs while keeping '/' intact
         def _norm(url):
             return '/' if url == '/' else url.rstrip('/')
@@ -4833,6 +4901,9 @@ class Website(models.Model):
                     if url not in url_set:
                         yield loc_norm
                         url_set.add(url)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 continue
 
@@ -4840,6 +4911,10 @@ class Website(models.Model):
                 continue
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # Warn only if the 'sitemap' key is absent from routing (legacy behavior)
+>>>>>>> upstream/18.0
 =======
             # Warn only if the 'sitemap' key is absent from routing (legacy behavior)
 >>>>>>> upstream/18.0
@@ -4878,6 +4953,11 @@ class Website(models.Model):
             for value in values:
                 domain_part, url = rule.build(value, append_unknown=False)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                # Normalize trailing slash but keep '/'
+                url = _norm(url)
+>>>>>>> upstream/18.0
 =======
                 # Normalize trailing slash but keep '/'
                 url = _norm(url)
@@ -4967,7 +5047,11 @@ class Website(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def get_client_action_url(self, url, mode_edit=False):
+=======
+    def get_client_action_url(self, url, mode_edit=False, mode_debug=0):
+>>>>>>> upstream/18.0
 =======
     def get_client_action_url(self, url, mode_edit=False, mode_debug=0):
 >>>>>>> upstream/18.0
@@ -4981,6 +5065,11 @@ class Website(models.Model):
             action_params["enable_editor"] = 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if mode_debug:
+            action_params["debug"] = mode_debug
+>>>>>>> upstream/18.0
 =======
         if mode_debug:
             action_params["debug"] = mode_debug

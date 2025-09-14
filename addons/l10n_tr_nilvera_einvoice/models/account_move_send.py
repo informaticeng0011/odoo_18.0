@@ -35,6 +35,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if invalid_tr_partners := moves.filtered(
 =======
         if tr_partners_missing_address := moves.filtered(
@@ -63,6 +64,8 @@ class AccountMoveSend(models.AbstractModel):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         moves_to_check = moves.filtered(self._is_tr_nilvera_applicable)
         if tr_companies_missing_required_codes := moves_to_check.company_id.filtered(
             lambda c: c.country_code == 'TR' and not (c.partner_id.category_id.parent_id and self.env["res.partner.category"]._get_l10n_tr_official_mandatory_categories())
@@ -76,6 +79,9 @@ class AccountMoveSend(models.AbstractModel):
 
         if tr_partners_missing_address := moves_to_check.filtered(
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84,6 +90,7 @@ class AccountMoveSend(models.AbstractModel):
             alerts["partner_data_missing"] = {
                 "message": _("The following partner(s) are either not Turkish or are missing one of those fields: city, state and street."),
                 "action_text": _("View Partner(s)"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,6 +131,8 @@ class AccountMoveSend(models.AbstractModel):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "action": tr_partners_missing_address._get_records_action(name=_("Check data on Partner(s)")),
             }
 
@@ -136,6 +145,9 @@ class AccountMoveSend(models.AbstractModel):
                 "action": tr_invalid_subscription_dates._get_records_action(
                     name=_("Check data on Invoice(s)"),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -152,6 +164,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -168,6 +181,8 @@ class AccountMoveSend(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if tr_einvoice_partners_missing_ref := moves_to_check.partner_id.filtered(
@@ -191,6 +206,9 @@ class AccountMoveSend(models.AbstractModel):
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -164,6 +164,10 @@ class test_guess_mimetype(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(get_extension('filename.ab_c'), '.ab_c')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(get_extension('filename.ab_c'), '.ab_c')
 >>>>>>> upstream/18.0
@@ -267,7 +271,10 @@ class test_guess_mimetype(BaseCase):
         self.assertEqual(fix('image.jpeg', 'image/jpeg'), 'image.jpeg')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.assertEqual(fix('sheet.xls', 'application/vnd.ms-excel'), 'sheet.xls')
@@ -276,6 +283,9 @@ class test_guess_mimetype(BaseCase):
         self.assertEqual(fix('sheet.xlsx', xlsx_mime), 'sheet.xlsx')
         self.assertEqual(fix('sheet.xlsx', 'application/zip'), 'sheet.xlsx')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

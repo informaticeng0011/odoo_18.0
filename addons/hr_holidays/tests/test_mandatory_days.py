@@ -200,7 +200,10 @@ class TestHrLeaveMandatoryDays(TransactionCase):
         })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -279,6 +282,9 @@ class TestHrLeaveMandatoryDays(TransactionCase):
         self.assertTrue(leave_1.has_mandatory_day)
         self.assertFalse(leave_2.has_mandatory_day)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

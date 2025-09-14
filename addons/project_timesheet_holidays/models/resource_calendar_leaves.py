@@ -19,7 +19,13 @@ class ResourceCalendarLeaves(models.Model):
         if leaves_wo_calendar:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             calendars += self.env['resource.calendar'].search([('company_id', 'in', leaves_wo_calendar.company_id.ids)])
+=======
+            calendars += self.env['resource.calendar'].search([
+                ('company_id', 'in', leaves_wo_calendar.company_id.ids + [False]),
+            ])
+>>>>>>> upstream/18.0
 =======
             calendars += self.env['resource.calendar'].search([
                 ('company_id', 'in', leaves_wo_calendar.company_id.ids + [False]),
@@ -82,7 +88,11 @@ class ResourceCalendarLeaves(models.Model):
             for calendar_id in resource_calendars.ids:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if calendars_dict[calendar_id].company_id != company:
+=======
+                if (calendar_company := calendars_dict[calendar_id].company_id) and calendar_company != company:
+>>>>>>> upstream/18.0
 =======
                 if (calendar_company := calendars_dict[calendar_id].company_id) and calendar_company != company:
 >>>>>>> upstream/18.0
@@ -255,7 +265,10 @@ class ResourceCalendarLeaves(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_overlapping_hr_leaves(self, domain=None):
@@ -273,6 +286,9 @@ class ResourceCalendarLeaves(models.Model):
         return self.env['hr.leave'].search(leave_domain)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -287,6 +303,10 @@ class ResourceCalendarLeaves(models.Model):
         global_time_off_updated = self.env['resource.calendar.leaves']
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        overlapping_leaves = self.env['hr.leave']
+>>>>>>> upstream/18.0
 =======
         overlapping_leaves = self.env['hr.leave']
 >>>>>>> upstream/18.0
@@ -301,10 +321,13 @@ class ResourceCalendarLeaves(models.Model):
                 timesheets.unlink()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         result = super(ResourceCalendarLeaves, self).write(vals)
         global_time_off_updated and global_time_off_updated.sudo()._generate_timesheeets()
         return result
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             if calendar_id:
@@ -327,6 +350,9 @@ class ResourceCalendarLeaves(models.Model):
             # we need to ignore the global time off since it hasn't been deleted yet
             overlapping_leaves.sudo()._generate_timesheets(ignored_resource_calendar_leaves=global_leaves.ids)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

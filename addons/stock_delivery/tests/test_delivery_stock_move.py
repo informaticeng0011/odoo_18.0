@@ -2,8 +2,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import datetime
@@ -13,6 +16,9 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo import fields
 from odoo.fields import Command
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -274,7 +280,10 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
         self.assertEqual(picking.weight, 2.0, "The weight of the picking should be 2.0")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -318,6 +327,9 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
             {'date': today},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

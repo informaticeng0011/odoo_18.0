@@ -421,7 +421,10 @@ def load_modules(registry, force_demo=False, status=None, update_module=False):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             # determine the fields which are currently company dependent in the database
@@ -430,6 +433,9 @@ def load_modules(registry, force_demo=False, status=None, update_module=False):
                 registry._database_company_dependent_fields = {row[0] for row in cr.fetchall()}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

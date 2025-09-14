@@ -74,7 +74,10 @@ class TestIrQweb(TransactionCase):
         self.assertEqual(img.get("src"), "data:image/png;base64,%s" % jpeg_datas.decode())
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -106,6 +109,9 @@ class TestIrQweb(TransactionCase):
         self.assertEqual(img.get("class"), "img img-fluid")
         self.assertEqual(img.get("alt"), "test image partner")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

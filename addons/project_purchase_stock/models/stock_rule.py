@@ -13,7 +13,10 @@ class StockRule(models.Model):
         return res
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -22,6 +25,9 @@ class StockRule(models.Model):
         domain += (('project_id', '=', values.get('project_id', False)),)
         return domain
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

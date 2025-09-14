@@ -11,7 +11,11 @@ EXEMPTION_REASON_CODES = [
     ('VATEX-SA-34-1', 'VATEX-SA-34-1 The international transport of Goods.'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ('VATEX-SA-34-2', 'VATEX-SA-34-1 The international transport of Passengers.'),
+=======
+    ('VATEX-SA-34-2', 'VATEX-SA-34-2 The international transport of Passengers.'),
+>>>>>>> upstream/18.0
 =======
     ('VATEX-SA-34-2', 'VATEX-SA-34-2 The international transport of Passengers.'),
 >>>>>>> upstream/18.0

@@ -125,8 +125,11 @@ paymentForm.include({
             },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (err, token) => this._xenditHandleResponse(err, token, processingValues),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             (err, token) =>  
@@ -150,6 +153,9 @@ paymentForm.include({
                     }
                 },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -165,10 +171,13 @@ paymentForm.include({
      * @param {object} processingValues - The processing values of the transaction.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return {void}
      */
     _xenditHandleResponse(err, token, processingValues) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
      * @param {string} mode - The mode of the charge: 'auth' or 'token'.
@@ -176,6 +185,9 @@ paymentForm.include({
      */
     _xenditHandleResponse(err, token, processingValues, mode) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -192,12 +204,15 @@ paymentForm.include({
         if (token.status === 'VERIFIED') {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             rpc('/payment/xendit/payment', {
                 'reference': processingValues.reference,
                 'partner_id': processingValues.partner_id,
                 'token_ref': token.id,
             }).then(() => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             const payload = {
@@ -217,6 +232,9 @@ paymentForm.include({
             }
             rpc('/payment/xendit/payment', payload).then(() => {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

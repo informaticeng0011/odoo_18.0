@@ -69,7 +69,10 @@ class Menu(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @api.constrains("parent_id", "child_id", "is_mega_menu", "mega_menu_content")
@@ -104,6 +107,9 @@ class Menu(models.Model):
                     raise UserError(_("Menus with child menus cannot be added as a submenu."))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -113,7 +119,11 @@ class Menu(models.Model):
             it for every website.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Note: Particulary useful when installing a module that adds a menu like
+=======
+            Note: Particularly useful when installing a module that adds a menu like
+>>>>>>> upstream/18.0
 =======
             Note: Particularly useful when installing a module that adds a menu like
 >>>>>>> upstream/18.0
@@ -141,6 +151,7 @@ class Menu(models.Model):
             else:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # create for every site
                 w_vals = [dict(vals, **{
                     'website_id': website.id,
@@ -150,6 +161,8 @@ class Menu(models.Model):
                 # if creating a default menu, we should also save it as such
                 default_menu = self.env.ref('website.main_menu', raise_if_not_found=False)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 # if creating a default menu, we should also save it as such
@@ -167,6 +180,9 @@ class Menu(models.Model):
                     })
                 new_menu = super().create(w_vals)[-1:]  # take the last record
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

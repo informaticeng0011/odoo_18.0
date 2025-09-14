@@ -2,6 +2,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 
@@ -46,12 +51,15 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
     def test_compute_analytic_distribution_expense(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         project = self.env['project.project'].create({'name': 'SO Project'})
         project.account_id = self.analytic_account_1
         so_values = {
             'partner_id': self.partner_a.id,
             'order_line': [(0, 0, {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         """ Test that the analytic distibution is well computed when we link a sale order to an expense """
@@ -69,6 +77,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
             'partner_id': self.partner_a.id,
             'order_line': [Command.create({
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82,8 +93,13 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         so1 = self.env['sale.order'].create(so_values)
+=======
+        so1 = self.env['sale.order'].create(so_values)
+
+>>>>>>> upstream/18.0
 =======
         so1 = self.env['sale.order'].create(so_values)
 
@@ -98,7 +114,13 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
             'sale_order_id': so1.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
+=======
+            'product_id': self.product_c.id,
+        })
+
+>>>>>>> upstream/18.0
 =======
             'product_id': self.product_c.id,
         })
@@ -119,8 +141,11 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
         so2 = self.env['sale.order'].create(so_values)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expense.sale_order_id = so2
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -129,6 +154,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
             exp_form.sale_order_id = so2
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -138,7 +166,10 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -189,6 +220,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
             },
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

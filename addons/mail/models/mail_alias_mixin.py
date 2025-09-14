@@ -47,9 +47,12 @@ class AliasMixin(models.AbstractModel):
         for record in child_model.search([('alias_id', '=', False)]):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # create the alias, and link it to the current record
             alias = self.env['mail.alias'].sudo().create(record._alias_get_creation_values())
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             # create the alias associated with its company if one exists,
@@ -57,6 +60,9 @@ class AliasMixin(models.AbstractModel):
             record_company = record._mail_get_companies()[record.id]
             alias = self.env['mail.alias'].sudo().with_company(record_company).create(record._alias_get_creation_values())
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

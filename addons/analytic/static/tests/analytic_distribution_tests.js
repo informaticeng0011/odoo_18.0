@@ -66,6 +66,7 @@ QUnit.module("Analytic", (hooks) => {
                         parent_id: { type: "many2one", relation: "plan" },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     },
                     records: [
                         { id: 1, name: "Internal", applicability: "optional", all_account_count: 2 },
@@ -75,6 +76,8 @@ QUnit.module("Analytic", (hooks) => {
                         { id: 5, name: "Country", applicability: "optional", all_account_count: 3 },
                         { id: 6, name: "City", applicability: "optional", all_account_count: 2, parent_id: 5 },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                         column_name: { type: "char" },
@@ -87,6 +90,9 @@ QUnit.module("Analytic", (hooks) => {
                         { id: 5, name: "Country", applicability: "optional", all_account_count: 3, column_name: 'x_plan5_id' },
                         { id: 6, name: "City", applicability: "optional", all_account_count: 2, parent_id: 5, column_name: 'x_plan5_id' },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -119,7 +125,11 @@ QUnit.module("Analytic", (hooks) => {
                     fields: {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         line_ids: { string: "Move Lines", type: "one2many", relation: "aml", relation_field: "move_line_id" },
+=======
+                        line_ids: { string: "Move Lines", type: "one2many", relation: "aml", relation_field: "move_id" },
+>>>>>>> upstream/18.0
 =======
                         line_ids: { string: "Move Lines", type: "one2many", relation: "aml", relation_field: "move_id" },
 >>>>>>> upstream/18.0
@@ -189,7 +199,11 @@ QUnit.module("Analytic", (hooks) => {
         assert.containsN(target, ".analytic_distribution_popup", 1, "popup should be visible");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -214,7 +228,11 @@ QUnit.module("Analytic", (hooks) => {
         await editInput(input, null, "19.7001");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -308,7 +326,11 @@ QUnit.module("Analytic", (hooks) => {
         assert.containsN(target, ".modal-dialog .o_list_renderer", 1, "select create list dialog is visible");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -451,7 +473,10 @@ QUnit.module("Analytic", (hooks) => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     QUnit.test("analytic distribution popup closes when inside modal and clicking outside", async function (assert) {
@@ -505,6 +530,9 @@ QUnit.module("Analytic", (hooks) => {
         modal.remove();
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

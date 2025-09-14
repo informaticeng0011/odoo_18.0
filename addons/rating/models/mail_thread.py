@@ -192,7 +192,10 @@ class MailThread(models.AbstractModel):
         super()._message_post_after_hook(message, msg_values)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -209,6 +212,9 @@ class MailThread(models.AbstractModel):
             message, body, *args, rating_value=rating_value, **kwargs
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -183,6 +183,10 @@ class Project(models.Model):
                 ('parent_state', 'in', ['draft', 'posted']),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ('price_subtotal', '!=', 0),
+>>>>>>> upstream/18.0
 =======
                 ('price_subtotal', '!=', 0),
 >>>>>>> upstream/18.0

@@ -87,6 +87,7 @@
     <xpath expr="//div[hasclass('modal-footer')]//button[hasclass('btn-primary')]" position="replace">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-if="website.account_on_checkout == 'mandatory' and website.is_public_user()">
             <button class="btn btn-primary" type="submit">
                 <span>Sign In</span>
@@ -99,6 +100,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         <t t-if="availability_check">
             <t t-set="has_paying_ticket" t-value="any(ticket.get('price', 0) > 0 for ticket in tickets)"/>
             <button t-if="website.account_on_checkout == 'mandatory' and website.is_public_user() and has_paying_ticket" class="btn btn-primary" type="submit">
@@ -107,6 +110,9 @@
             </button>
             <button t-else="" type="submit" class="btn btn-primary">
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

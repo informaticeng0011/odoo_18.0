@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models
+=======
+from odoo import _, fields, models
+>>>>>>> upstream/18.0
 =======
 from odoo import _, fields, models
 >>>>>>> upstream/18.0
@@ -17,7 +21,10 @@ class Company(models.Model):
         comodel_name='certificate.certificate', inverse_name='company_id', domain=[('scope', '=', 'facturae')])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -52,6 +59,9 @@ class Company(models.Model):
             }
         return errors
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

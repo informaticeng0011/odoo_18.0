@@ -1660,7 +1660,10 @@ class PropertiesCase(TestPropertiesMixin):
     @users('test')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_properties_field_update_parent(self):
@@ -1688,6 +1691,9 @@ class PropertiesCase(TestPropertiesMixin):
 
     @users('test')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1733,6 +1739,10 @@ class PropertiesCase(TestPropertiesMixin):
         })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        email.invalidate_recordset()
+>>>>>>> upstream/18.0
 =======
         email.invalidate_recordset()
 >>>>>>> upstream/18.0

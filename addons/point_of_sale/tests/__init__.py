@@ -24,6 +24,10 @@ from . import test_report_session
 from . import test_res_config_settings
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_generic_localization
+>>>>>>> upstream/18.0
 =======
 from . import test_generic_localization
 >>>>>>> upstream/18.0

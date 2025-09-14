@@ -18,6 +18,10 @@ export {
     tick,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    unfreezeTime,
+>>>>>>> upstream/18.0
 =======
     unfreezeTime,
 >>>>>>> upstream/18.0
@@ -33,8 +37,11 @@ export { mockFetch, mockLocation, mockWebSocket, mockWorker } from "./mock/netwo
 export { flushNotifications } from "./mock/notification";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export { mockMatchMedia, mockTouch, watchKeys, watchListeners } from "./mock/window";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 export {
@@ -45,6 +52,9 @@ export {
     watchListeners,
 } from "./mock/window";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

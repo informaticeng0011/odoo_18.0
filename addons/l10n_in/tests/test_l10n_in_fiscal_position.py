@@ -234,7 +234,10 @@ class TestFiscal(L10nInTestInvoicingCommon):
             )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -253,6 +256,9 @@ class TestFiscal(L10nInTestInvoicingCommon):
         company.action_update_state_as_per_gstin()
         self.assertEqual(company.state_id, self.env.ref('base.state_in_ts'))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

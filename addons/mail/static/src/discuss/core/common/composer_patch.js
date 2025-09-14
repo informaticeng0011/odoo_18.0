@@ -5,6 +5,7 @@ patch(Composer.prototype, {
     get allowUpload() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const thread = this.thread ?? this.message.thread;
         return (
             super.allowUpload &&
@@ -12,11 +13,16 @@ patch(Composer.prototype, {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const thread = this.thread ?? this.message?.thread;
         return (
             super.allowUpload &&
             (thread?.model !== "discuss.channel" ||
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

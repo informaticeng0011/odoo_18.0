@@ -4,6 +4,10 @@ import { useNumpadDecimal } from "../numpad_decimal_hook";
 import { parseFloat } from "../parsers";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { useInputField } from "@web/views/fields/input_field_hook";
+>>>>>>> upstream/18.0
 =======
 import { useInputField } from "@web/views/fields/input_field_hook";
 >>>>>>> upstream/18.0
@@ -33,8 +37,11 @@ export class ProgressBarField extends Component {
         this.root = useRef("numpadDecimal");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.maxValueRef = useRef("maxValue");
         this.currentValueRef = useRef("currentValue");
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47,7 +54,10 @@ export class ProgressBarField extends Component {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         this.currentValueRef = useInputField({
@@ -65,6 +75,9 @@ export class ProgressBarField extends Component {
             shouldSave: () => this.props.readonly,
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94,6 +107,7 @@ export class ProgressBarField extends Component {
     }
 
     formatCurrentValue(humanReadable = !this.state.isEditing) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         const formatter = formatters.get(Number.isInteger(this.currentValue) ? "integer" : "float");
@@ -126,6 +140,8 @@ export class ProgressBarField extends Component {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const formatter = formatters.get(this.props.record.fields[this.currentValueField].type);
         return formatter(this.currentValue, { humanReadable });
     }
@@ -150,6 +166,9 @@ export class ProgressBarField extends Component {
         }
         return parsedValue;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

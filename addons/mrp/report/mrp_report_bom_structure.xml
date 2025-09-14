@@ -73,7 +73,11 @@
                         <t t-if="data['show_costs'] and data['byproducts']" t-foreach="data['byproducts']" t-as="byproduct">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <tr>
+=======
+                            <tr t-if="byproduct['quantity'] &gt; 0">
+>>>>>>> upstream/18.0
 =======
                             <tr t-if="byproduct['quantity'] &gt; 0">
 >>>>>>> upstream/18.0

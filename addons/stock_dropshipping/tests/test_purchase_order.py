@@ -61,7 +61,10 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
                 )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -107,6 +110,9 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
         self.assertTrue(po, "A Purchase Order should be created from the Sale Order.")
         self.assertEqual(po.project_id, project, "The project should be propagated from the Sale Order to the Purchase Order.")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

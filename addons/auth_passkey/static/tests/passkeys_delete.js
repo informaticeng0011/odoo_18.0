@@ -28,7 +28,10 @@ registry.category("web_tour.tours").add('passkeys_tour_delete', {
             content: "Open Passkey dropdown",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // It just happens to be invisible due to scroll bar, if it becomes visible in the future just remove the :not(:visible).
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -65,7 +68,10 @@ registry.category("web_tour.tours").add('passkeys_tour_delete', {
         }, {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             // The HR module causes the switch to security tab to trigger on the old DOM, before the new one is loaded
@@ -73,6 +79,9 @@ registry.category("web_tour.tours").add('passkeys_tour_delete', {
             trigger: 'label:contains("Email Signature")',
         }, {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

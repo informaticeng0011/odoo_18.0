@@ -96,6 +96,10 @@ import werkzeug.urls
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 >>>>>>> upstream/18.0
@@ -862,11 +866,14 @@ class Event(models.Model):
     def _search_build_dates(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         today = fields.Datetime.today()
 
         def sdn(date):
             return fields.Datetime.to_string(date.replace(hour=23, minute=59, second=59))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # To fetch events of the user's current day. The start and the end of the user's day must
@@ -877,6 +884,9 @@ class Event(models.Model):
         utc_today_begin = localized_today_begin.astimezone(utc)
         utc_today_end = localized_today_begin.replace(hour=23, minute=59, second=59).astimezone(utc)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -885,6 +895,7 @@ class Event(models.Model):
             return fields.Datetime.to_string(date)
 
         def get_month_filter_domain(filter_name, months_delta):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             first_day_of_the_month = today.replace(day=1)
@@ -906,6 +917,8 @@ class Event(models.Model):
             ['old', _('Past Events'), [
                 ("date_end", "<", sd(today))],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             localized_month_begin = localized_today_begin.replace(day=1)
@@ -933,6 +946,9 @@ class Event(models.Model):
             ['old', _('Past Events'), [
                 ("date_end", "<", sd(utc_today_begin))],
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1122,8 +1138,11 @@ class Event(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 data['range'] = '%s🠖%s' % (begin, end) if begin != end else begin
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1395,6 +1414,9 @@ class Event(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

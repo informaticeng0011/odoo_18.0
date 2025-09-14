@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* project
 # 
 # Translators:
@@ -335,6 +336,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * project
 #
 # Translators:
@@ -343,6 +346,9 @@
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2025
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -350,6 +356,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -804,6 +811,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-06-27 18:38+0000\n"
 "PO-Revision-Date: 2025-09-08 07:09+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
@@ -817,6 +826,9 @@ msgstr ""
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -978,7 +990,10 @@ msgstr "# Calificaciones"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:project.field_project_milestone__task_count
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1234,6 +1249,7 @@ msgstr ""
 "<div>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/>\n"
 "    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"/>\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin:0px auto;\">\n"
@@ -1242,6 +1258,8 @@ msgstr ""
 "            <t t-if=\"partner.name\">\n"
 "                Hola <t t-out=\"partner.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/>"
@@ -1255,6 +1273,9 @@ msgstr ""
 "                Hola <t t-out=\"partner.name or ''\">Brandon Freeman</t>:<br/"
 "><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1264,10 +1285,13 @@ msgstr ""
 "            </t>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Tómese un momento para calificar nuestros servicios relacionados a la tarea “<strong t-out=\"object.name or ''\">Planificación y presupuesto</strong>”\n"
 "            <t t-if=\"object._rating_get_operator().name\">\n"
 "                asignada a <strong t-out=\"object._rating_get_operator().name or ''\">Mitchell Admin</strong>.<br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "            Tómese un momento para calificar nuestros servicios relacionados "
@@ -1277,6 +1301,9 @@ msgstr ""
 "                asignada a <strong t-out="
 "\"object._rating_get_operator().name or ''\">Mitchell Admin</strong>.<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1286,6 +1313,7 @@ msgstr ""
 "            </t>\n"
 "        </td></tr>\n"
 "        <tr><td style=\"text-align: center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin: 32px 0px 32px 0px; display: inline-table;\">\n"
@@ -1310,6 +1338,8 @@ msgstr ""
 "                                <a t-attf-href=\"/rate/{{ access_token }}/1\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
 "                                    <img alt=\"Dissatisfied\" src=\"/rating/static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width="
@@ -1345,6 +1375,9 @@ msgstr ""
 "                                    <img alt=\"Dissatisfied\" src="
 "\"/rating/static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1360,11 +1393,14 @@ msgstr ""
 "            <t t-if=\"object.project_id.rating_status == 'stage'\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">Esta encuesta de satisfacción se ha enviado porque su tarea se ha movido a la etapa <b t-out=\"object.stage_id.name or ''\">En progreso</b>.</span>\n"
 "            </t>\n"
 "            <t t-if=\"object.project_id.rating_status == 'periodic'\">\n"
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">Esta encuesta de satisfacción se envía <b t-out=\"object.project_id.rating_status_period or ''\">semanalmente</b> mientras la tarea se encuentre en la etapa <b t-out=\"object.stage_id.name or ''\">En progreso</b>.</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                <br/><span style="
@@ -1380,6 +1416,9 @@ msgstr ""
 "la tarea se encuentre en la etapa <b t-out=\"object.stage_id.name or ''\">En "
 "progreso</b>.</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1387,6 +1426,7 @@ msgstr ""
 "        </td></tr>\n"
 "        <tr><td><br/>Saludos cordiales,</td></tr>\n"
 "        <tr><td>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "           <t t-out=\"object.project_id.company_id.name or ''\">SuCompañía</t>\n"
@@ -1399,6 +1439,8 @@ msgstr ""
 "            <t t-if=\"object.project_id.company_id.website\">\n"
 "                | <a t-attf-href=\"{{ object.project_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.project_id.company_id.website or ''\">http://www.ejemplo.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "           <t t-out=\"object.project_id.company_id.name or ''\""
@@ -1419,6 +1461,9 @@ msgstr ""
 "color: #454748;\" t-out=\"object.project_id.company_id.website or ''\""
 ">http://www.ejemplo.com</a>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1446,6 +1491,7 @@ msgstr ""
 "<div>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Estimado/a <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/>\n"
 "    Tenemos el placer de comunicarle que ha concluido con éxito el proyecto “<strong t-out=\"object.name or ''\">Renovaciones</strong>”.\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
@@ -1455,6 +1501,8 @@ msgstr ""
 "</div>\n"
 "<br/><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; color: #454748;\" groups=\"project.group_project_stages\">Recibió este correo electrónico porque su proyecto ha pasado a la fase <b t-out=\"object.stage_id.name or ''\">Hecho</b></span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "    Estimado/a <t t-out=\"object.partner_id.name or 'customer'\">Brandon "
@@ -1473,6 +1521,9 @@ msgstr ""
 "porque su proyecto ha pasado a la fase <b t-out="
 "\"object.stage_id.name or ''\">Hecho</b></span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1498,11 +1549,14 @@ msgstr ""
 "<div>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Estimado/a <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/><br/>\n"
 "    Gracias por contactarnos. Apreciamos su interés en nuestros productos y servicios.<br/>\n"
 "    Nuestro equipo está revisando su consulta y responderá a su correo electrónico lo antes posible.<br/>\n"
 "    Si tiene más preguntas o dudas, póngase en contacto con nosotros, estamos aquí para ayudarle.<br/><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "    Estimado/a <t t-out=\"object.partner_id.name or 'customer'\">Brandon "
@@ -1514,6 +1568,9 @@ msgstr ""
 "    Si tiene más preguntas o dudas, póngase en contacto con nosotros, "
 "estamos aquí para ayudarle.<br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1523,7 +1580,12 @@ msgstr ""
 "        <br/>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br "
+"data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br "
 "data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
@@ -3039,7 +3101,11 @@ msgstr "Descartar"
 msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0
@@ -3345,8 +3411,12 @@ msgid "Get customer feedback and evaluate the performance of your employees"
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reciba retroalimentación de sus clientes y evalúe el rendimiento de sus "
 "empleados."
+=======
+"Reciba comentarios de sus clientes y evalúe el rendimiento de sus empleados."
+>>>>>>> upstream/18.0
 =======
 "Reciba comentarios de sus clientes y evalúe el rendimiento de sus empleados."
 >>>>>>> upstream/18.0
@@ -4694,11 +4764,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Política para publicar un mensaje en el documento utilizando el servidor de correo.\n"
 "- todo el mundo: todos pueden publicar\n"
 "- contacto: sólo contactos autenticados\n"
 "- seguidores: sólo seguidores del documento relacionado o miembros de los siguientes canales\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4949,6 +5022,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5489,7 +5565,11 @@ msgstr "Frecuencia de calificación"
 msgid "Rating Last Feedback"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Última retroalimentación de la calificación"
+=======
+msgstr "Últimos comentarios de la calificación"
+>>>>>>> upstream/18.0
 =======
 msgstr "Últimos comentarios de la calificación"
 >>>>>>> upstream/18.0
@@ -5902,8 +5982,13 @@ msgstr ""
 "Establezca esta plantilla en una etapa de proyecto para solicitar "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "retroalimentación a sus clientes. Habilite la función \"calificación de "
 "clientes\" en el proyecto"
+=======
+"comentarios a sus clientes. Habilite la función \"calificación de clientes\" "
+"en el proyecto"
+>>>>>>> upstream/18.0
 =======
 "comentarios a sus clientes. Habilite la función \"calificación de clientes\" "
 "en el proyecto"
@@ -7600,12 +7685,15 @@ msgstr "para marcar la tarea como completada."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "state.message"
 msgstr "state.message"
 
 #. module: project
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -23,8 +23,13 @@ export class BaseRecipientsList extends Component {
         const recipients = this.props.thread.recipients.slice(0, 5).map((
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             { partner }) => {
                 const text = partner.email ? partner.emailWithoutDomain : partner.name;
+=======
+            { partner, displayName }) => {
+                const text = (partner.email && partner.emailWithoutDomain) || displayName;
+>>>>>>> upstream/18.0
 =======
             { partner, displayName }) => {
                 const text = (partner.email && partner.emailWithoutDomain) || displayName;

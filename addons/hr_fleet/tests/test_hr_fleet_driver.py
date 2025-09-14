@@ -65,7 +65,10 @@ class TestHrFleetDriver(common.TransactionCase):
         self.assertEqual(self.car2.driver_id.id, False)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -89,6 +92,9 @@ class TestHrFleetDriver(common.TransactionCase):
         self.assertEqual(len(assignation_log), 1)
         self.assertEqual(assignation_log.driver_employee_id, test_employee2)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

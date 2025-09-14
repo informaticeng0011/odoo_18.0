@@ -630,8 +630,12 @@ class AccountMove(models.Model):
             'buyerEmail': self.commercial_partner_id.email or '',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'buyerDistrictName': self.partner_id.state_id.name,
             'buyerCityName': self.partner_id.city,
+=======
+            'buyerCityName': self.partner_id.city or self.partner_id.state_id.name,
+>>>>>>> upstream/18.0
 =======
             'buyerCityName': self.partner_id.city or self.partner_id.state_id.name,
 >>>>>>> upstream/18.0
@@ -711,7 +715,11 @@ class AccountMove(models.Model):
                 # This amount should be without discount applied.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'itemTotalAmountWithoutTax': line.currency_id.round(line.price_unit * line.quantity) * sign,
+=======
+                'itemTotalAmountWithoutTax': line.currency_id.round(line.price_unit * line.quantity),
+>>>>>>> upstream/18.0
 =======
                 'itemTotalAmountWithoutTax': line.currency_id.round(line.price_unit * line.quantity),
 >>>>>>> upstream/18.0
@@ -724,6 +732,7 @@ class AccountMove(models.Model):
                 'taxPercentage': line.tax_ids and line.tax_ids[0].amount or -2,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'taxAmount': (line.price_total - line.price_subtotal) * sign,
                 'discount': line.discount,
                 'itemTotalAmountAfterDiscount': line.price_subtotal * sign,
@@ -731,11 +740,16 @@ class AccountMove(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'taxAmount': (line.price_total - line.price_subtotal),
                 'discount': line.discount,
                 'itemTotalAmountAfterDiscount': line.price_subtotal,
                 'itemTotalAmountWithTax': line.price_total,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

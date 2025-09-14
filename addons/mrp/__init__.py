@@ -11,6 +11,7 @@ def _pre_init_mrp(env):
     """ Allow installing MRP in databases with large stock.move table (>1M records)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         - Creating the computed+stored field stock_move.is_done and
           stock_move.unit_factor is terribly slow with the ORM and leads to "Out of
           Memory" crashes
@@ -22,6 +23,8 @@ def _pre_init_mrp(env):
     env.cr.execute("""UPDATE stock_move
                      SET unit_factor=1;""")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         - Creating the computed+stored field stock.move.is_done, stock.move.unit_factor
@@ -53,6 +56,9 @@ def _pre_init_mrp(env):
     install_stock_move__manual_consumption()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

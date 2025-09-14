@@ -29,6 +29,10 @@ export class ReceptionReportMain extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.labelReportName = "stock.report_reception_report_label";
+>>>>>>> upstream/18.0
 =======
         this.labelReportName = "stock.report_reception_report_label";
 >>>>>>> upstream/18.0
@@ -92,7 +96,10 @@ export class ReceptionReportMain extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -127,6 +134,9 @@ export class ReceptionReportMain extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -206,10 +216,15 @@ export class ReceptionReportMain extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             type: "ir.actions.report",
             report_type: "qweb-pdf",
             report_name: `${this.reportName}/?context={"${this.contextDefaultDoc.field}": ${JSON.stringify(this.contextDefaultDoc.ids)}}`,
             report_file: this.reportName,
+=======
+            ...this.receptionReportAction,
+            context: { [this.contextDefaultDoc.field]: this.contextDefaultDoc.ids },
+>>>>>>> upstream/18.0
 =======
             ...this.receptionReportAction,
             context: { [this.contextDefaultDoc.field]: this.contextDefaultDoc.ids },
@@ -259,10 +274,16 @@ export class ReceptionReportMain extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const reportFile = 'stock.report_reception_report_label';
         const modelIds = [];
         const quantities = [];
         
+=======
+        const modelIds = [];
+        const quantities = [];
+
+>>>>>>> upstream/18.0
 =======
         const modelIds = [];
         const quantities = [];
@@ -329,10 +350,16 @@ export class ReceptionReportMain extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             type: "ir.actions.report",
             report_type: "qweb-pdf",
             report_name: `${reportFile}?docids=${modelIds}&quantity=${quantities}`,
             report_file: reportFile,
+=======
+            ...this.receptionReportLabelAction,
+            context: { active_ids: modelIds },
+            data: { docids: modelIds, quantity: quantities.join(",") },
+>>>>>>> upstream/18.0
 =======
             ...this.receptionReportLabelAction,
             context: { active_ids: modelIds },

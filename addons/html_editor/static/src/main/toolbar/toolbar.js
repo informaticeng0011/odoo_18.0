@@ -88,7 +88,10 @@ export class Toolbar extends Component {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -96,6 +99,9 @@ export class Toolbar extends Component {
         return groupButtons.some((button) => this.state.buttonsAvailableState[button.id]);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

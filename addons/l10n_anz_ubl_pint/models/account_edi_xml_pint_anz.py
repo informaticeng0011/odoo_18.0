@@ -2,6 +2,10 @@
 from odoo import models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import float_is_zero
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_is_zero
 >>>>>>> upstream/18.0
@@ -91,7 +95,10 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_invoice_line_item_vals(self, line, taxes_vals):
@@ -107,6 +114,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
         return line_item_vals
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -137,7 +147,10 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Tax category of type "Not subject to tax" must have tax amount 0
@@ -174,6 +187,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
                            " once in the tax breakdown")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

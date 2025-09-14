@@ -1,6 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models
+=======
+from odoo import _, api, fields, models
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo import _, api, fields, models
 from odoo.exceptions import ValidationError
@@ -30,7 +35,10 @@ class L10nItDocumentType(models.Model):
             document_type.display_name = f"{document_type.code} - {document_type.name}"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -46,6 +54,9 @@ class L10nItDocumentType(models.Model):
         if duplicate:
             raise ValidationError(_('Document Type code must be unique.'))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

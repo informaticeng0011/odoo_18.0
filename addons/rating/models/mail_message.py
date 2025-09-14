@@ -47,7 +47,10 @@ class MailMessage(models.Model):
                     store.add(records, fields=["rating_avg", "rating_count"], as_thread=True)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     if records._allow_publish_rating_stats():
@@ -59,6 +62,9 @@ class MailMessage(models.Model):
     def _is_empty(self):
         return super()._is_empty() and not self.rating_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

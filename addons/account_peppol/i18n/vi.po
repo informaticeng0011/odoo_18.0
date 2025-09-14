@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account_peppol
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -346,10 +347,18 @@
 # Thi Huong Nguyen, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2025
+# Thi Huong Nguyen, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -766,6 +775,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: vi\n"
+=======
+"POT-Creation-Date: 2025-09-12 01:50+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Thi Huong Nguyen, 2025\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: account_peppol
@@ -841,7 +860,11 @@ msgid " (Demo)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (Demo)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (Demo)"
 >>>>>>> upstream/18.0
@@ -1081,7 +1104,11 @@ msgid " (Test)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(Kiểm thử)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(Kiểm thử)"
 >>>>>>> upstream/18.0
@@ -1276,7 +1303,11 @@ msgid " (no VAT)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (không có thuế GTGT)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (không có thuế GTGT)"
 >>>>>>> upstream/18.0
@@ -1456,6 +1487,7 @@ msgstr "%s đã yêu cầu nhận hóa đơn điện tử trên Peppol."
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1803,10 +1835,19 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"                                In Belgium, electronic invoicing is "
+"<u>mandatory as of January 2026</u> - don't wait to register."
+msgstr ""
+"<br/>\n"
+"Tại Bỉ, hóa đơn điện tử sẽ trở nên <u>bắt buộc kể từ tháng 1 năm 2026</u> – "
+"đừng chần chừ, hãy đăng ký ngay từ bây giờ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_move_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> (Demo)</span>\n"
 "                    <span class=\"text-muted mx-3\" invisible=\"peppol_move_state != 'to_send'\">\n"
 "                        The invoice will be sent automatically via Peppol\n"
@@ -1814,6 +1855,19 @@ msgid ""
 msgstr ""
 "<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> (Demo)</span>\n"
 "                    <span class=\"text-muted mx-3\" invisible=\"peppol_move_state != 'to_send'\">\n"
+=======
+"<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> "
+"(Demo)</span>\n"
+"                    <span class=\"text-muted mx-3\" "
+"invisible=\"peppol_move_state != 'to_send'\">\n"
+"                        The invoice will be sent automatically via Peppol\n"
+"                    </span>"
+msgstr ""
+"<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> "
+"(Demo)</span>\n"
+"                    <span class=\"text-muted mx-3\" "
+"invisible=\"peppol_move_state != 'to_send'\">\n"
+>>>>>>> upstream/18.0
 "                        Hóa đơn sẽ được tự động gửi qua Peppol\n"
 "                    </span>"
 
@@ -1821,6 +1875,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid ""
+<<<<<<< HEAD
 "A participant with these details has already been registered on the network."
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2043,6 +2098,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"A participant with these details has already been registered on the network. "
+"If you have previously registered to a Peppol service, please deregister."
+msgstr ""
+"Một người tham gia với thông tin này đã được đăng ký trên mạng. Nếu bạn đã "
+"từng đăng ký dịch vụ Peppol trước đây, vui lòng hủy đăng ký trước."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -2201,6 +2263,7 @@ msgstr "Kiểm tra (các) đối tác"
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_eas
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model.fields,help:account_peppol.field_res_partner__peppol_eas
 #: model:ir.model.fields,help:account_peppol.field_res_users__peppol_eas
@@ -2215,6 +2278,19 @@ msgid ""
 msgstr ""
 "Mã được sử dụng để xác định Endpoint cho BIS Billing 3.0 và các thành phần phái sinh.\n"
 "             Danh sách có tại: https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
+=======
+#: model:ir.model.fields,help:account_peppol.field_res_partner__peppol_eas
+#: model:ir.model.fields,help:account_peppol.field_res_users__peppol_eas
+msgid ""
+"Code used to identify the Endpoint for BIS Billing 3.0 and its derivatives.\n"
+"             List available at https://docs.peppol.eu/poacc/billing/3.0/"
+"codelist/eas/"
+msgstr ""
+"Mã được sử dụng để xác định Endpoint cho BIS Billing 3.0 và các thành phần "
+"phái sinh.\n"
+"             Danh sách có tại: https://docs.peppol.eu/poacc/billing/3.0/"
+"codelist/eas/"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_res_company
@@ -2454,7 +2530,10 @@ msgstr "Lỗi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2662,6 +2741,9 @@ msgstr "Đã xảy ra lỗi khi tạo tài liệu EDI (định dạng: %s):"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2846,6 +2928,7 @@ msgstr "Nếu không chọn, bạn chỉ có thể gửi nhưng không thể nh�
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/controllers/portal.py:0
+<<<<<<< HEAD
 msgid ""
 "If you want to be invoiced by Peppol, your configuration must be valid."
 msgstr "Nếu bạn muốn Peppol xuất hóa đơn, cấu hình của bạn phải hợp lệ."
@@ -3039,6 +3122,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgid "If you want to be invoiced by Peppol, your configuration must be valid."
+msgstr "Nếu bạn muốn Peppol xuất hóa đơn, cấu hình của bạn phải hợp lệ."
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__in_verification
 msgid "In verification"
 msgstr "Đang xác minh"
@@ -3128,7 +3217,10 @@ msgstr "Odoo"
 #. module: account_peppol
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_eas__odemo
@@ -3137,6 +3229,9 @@ msgstr ""
 
 #. module: account_peppol
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3168,8 +3263,12 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid ""
+<<<<<<< HEAD
 "PEPPOL is the secure standard for e-invoices used in EU and across the "
 "world."
+=======
+"PEPPOL is the secure standard for e-invoices used in EU and across the world."
+>>>>>>> upstream/18.0
 msgstr ""
 "PEPPOL là tiêu chuẩn an toàn cho hóa đơn điện tử được sử dụng ở EU và trên "
 "toàn thế giới."
@@ -3266,6 +3365,7 @@ msgstr "PEPPOL: cập nhật trạng thái đối tượng tham gia"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "PS: <b style=\"color: $o-enterprise-action-color;\">We did not send your "
@@ -3284,6 +3384,8 @@ msgstr ""
 "gửi trên Peppol</b>."
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3491,6 +3593,7 @@ msgstr "Endpoint Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3564,6 +3667,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3728,6 +3833,9 @@ msgstr "ID Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3877,6 +3985,11 @@ msgstr "Địa chỉ điện tử Peppol (EAS)"
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_eas
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_eas
+#: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_eas
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_eas
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_eas
@@ -3968,8 +4081,17 @@ msgstr "Email liên hệ chính"
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__contact_email
 #: model:ir.model.fields,help:account_peppol.field_res_company__account_peppol_contact_email
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_contact_email
+<<<<<<< HEAD
 msgid "Primary contact email for Peppol-related communication"
 msgstr "Email liên hệ chính dùng cho liên lạc liên quan đến Peppol"
+=======
+msgid ""
+"Primary contact email for Peppol connection related communications and "
+"notifications.\n"
+"In particular, this email is used by Odoo to reconnect your Peppol account "
+"in case of database change."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_edi_proxy_client_user__proxy_type
@@ -4067,10 +4189,20 @@ msgstr "Kiểm thử"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
 "Test mode allows sending e-invoices through the test Peppol network.\n"
+<<<<<<< HEAD
 "                                    By clicking the button below I accept that Odoo may process my e-invoices."
 msgstr ""
 "Chế độ kiểm thử cho phép gửi hoá đơn điện tử qua mạng lưới Peppol thử nghiệm.\n"
 "                                 Bằng cách nhấp vào nút dưới đây, tôi chấp nhận rằng Odoo có thể xử lý hóa đơn điện tử của tôi."
+=======
+"                                    By clicking the button below I accept "
+"that Odoo may process my e-invoices."
+msgstr ""
+"Chế độ kiểm thử cho phép gửi hoá đơn điện tử qua mạng lưới Peppol thử "
+"nghiệm.\n"
+"                                 Bằng cách nhấp vào nút dưới đây, tôi chấp "
+"nhận rằng Odoo có thể xử lý hóa đơn điện tử của tôi."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -4162,6 +4294,7 @@ msgstr "Mã xác minh không chính xác"
 #. odoo-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4514,6 +4647,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"This feature is deprecated. Contact Odoo support if you need a migration key."
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "This invoice has also been"
 msgstr "Hoá đơn này cũng đã được"
@@ -4560,6 +4699,7 @@ msgstr "Hoá đơn này cũng đã được"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4642,6 +4782,15 @@ msgstr "Hoá đơn này cũng đã được"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,help:account_peppol.field_peppol_registration__phone_number
+#: model:ir.model.fields,help:account_peppol.field_res_company__account_peppol_phone_number
+#: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_phone_number
+msgid "This number is used for identification purposes only."
+msgstr ""
+
+#. module: account_peppol
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
@@ -4653,8 +4802,12 @@ msgstr "Mã xác thực này đã hết hạn. Vui lòng yêu cầu một mã m�
 msgid ""
 "To generate complete electronic invoices, also set a country for this "
 "partner."
+<<<<<<< HEAD
 msgstr ""
 "Để tạo hóa đơn điện tử đầy đủ, hãy thiết lập quốc gia cho đối tác này."
+=======
+msgstr "Để tạo hóa đơn điện tử đầy đủ, hãy thiết lập quốc gia cho đối tác này."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -4780,8 +4933,15 @@ msgstr "Bạn có thể gửi hóa đơn này qua Peppol theo phương thức đ
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "You registration has been rejected, the reason has been sent to you via email.\n"
 "                            Please contact our support if you need further assistance."
+=======
+"You registration has been rejected, the reason has been sent to you via "
+"email.\n"
+"                            Please contact our support if you need further "
+"assistance."
+>>>>>>> upstream/18.0
 msgstr ""
 "Đăng ký của bạn đã bị từ chối, lý do đã được gửi cho bạn qua email.\n"
 "Vui lòng liên hệ với bộ phận hỗ trợ của chúng tôi nếu bạn cần thêm trợ giúp."
@@ -4797,6 +4957,7 @@ msgstr ""
 "muốn tiếp tục?"
 
 #. module: account_peppol
+<<<<<<< HEAD
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__phone_number
 #: model:ir.model.fields,help:account_peppol.field_res_company__account_peppol_phone_number
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_phone_number
@@ -4804,6 +4965,8 @@ msgid "You will receive a verification code to this mobile number"
 msgstr "Bạn sẽ nhận được mã xác minh tới số điện thoại này"
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Your Peppol ID"
 msgstr "ID Peppol của bạn"
@@ -4857,6 +5020,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Đăng ký Peppol của bạn sẽ sớm được kích hoạt. Bạn đã có thể gửi hóa đơn ngay"
 " bây giờ."
@@ -5024,6 +5188,10 @@ msgstr ""
 =======
 "Đăng ký Peppol của bạn sẽ sớm được kích hoạt. Bạn đã có thể gửi hóa đơn ngay"
 " bây giờ."
+>>>>>>> upstream/18.0
+=======
+"Đăng ký Peppol của bạn sẽ sớm được kích hoạt. Bạn đã có thể gửi hóa đơn ngay "
+"bây giờ."
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
@@ -5127,6 +5295,7 @@ msgstr "bởi Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "invoices and credit notes."
 msgstr "hoá đơn và giấy báo có."
@@ -5168,6 +5337,11 @@ msgstr "hoá đơn và giấy báo có."
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
+msgid "could not be sent via Peppol"
+msgstr "không thể gửi được qua Peppol"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
@@ -5429,7 +5603,11 @@ msgid "sent via Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "được gửi qua Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "được gửi qua Peppol"
 >>>>>>> upstream/18.0
@@ -5602,7 +5780,11 @@ msgid "to send invoices, but this one"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "để gửi hoá đơn, nhưng hoá đơn này"
+>>>>>>> upstream/18.0
 =======
 msgstr "để gửi hoá đơn, nhưng hoá đơn này"
 >>>>>>> upstream/18.0
@@ -5775,6 +5957,7 @@ msgid "uses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5953,4 +6136,13 @@ msgstr "sử dụng"
 >>>>>>> upstream/18.0
 =======
 msgstr "sử dụng"
+>>>>>>> upstream/18.0
+=======
+msgstr "sử dụng"
+
+#~ msgid "Primary contact email for Peppol-related communication"
+#~ msgstr "Email liên hệ chính dùng cho liên lạc liên quan đến Peppol"
+
+#~ msgid "You will receive a verification code to this mobile number"
+#~ msgstr "Bạn sẽ nhận được mã xác minh tới số điện thoại này"
 >>>>>>> upstream/18.0

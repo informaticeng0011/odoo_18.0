@@ -41,6 +41,7 @@ class SaleOrder(models.Model):
                 return foreign_state
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             
             # Computing Place of Supply for particular order
             partner_state = (
@@ -56,6 +57,8 @@ class SaleOrder(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
             # Computing Place of Supply for particular order
             partner = (
@@ -69,6 +72,9 @@ class SaleOrder(models.Model):
             country_code = partner_state.country_id.code or order.country_code
             return partner_state if country_code == 'IN' else foreign_state
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

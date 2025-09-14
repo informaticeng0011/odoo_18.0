@@ -133,7 +133,11 @@ export class TicketScreen extends Component {
         this.numberBuffer.reset();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((!clickedOrder || clickedOrder.uiState.locked) && !this.getSelectedOrderlineId()) {
+=======
+        if ((!clickedOrder || clickedOrder.finalized) && !this.getSelectedOrderlineId()) {
+>>>>>>> upstream/18.0
 =======
         if ((!clickedOrder || clickedOrder.finalized) && !this.getSelectedOrderlineId()) {
 >>>>>>> upstream/18.0
@@ -166,7 +170,11 @@ export class TicketScreen extends Component {
     onClickOrderline(orderline) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.getSelectedOrder()?.uiState.locked) {
+=======
+        if (this.getSelectedOrder()?.finalized) {
+>>>>>>> upstream/18.0
 =======
         if (this.getSelectedOrder()?.finalized) {
 >>>>>>> upstream/18.0
@@ -350,7 +358,11 @@ export class TicketScreen extends Component {
         return (
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.getSelectedOrder()?.uiState.locked &&
+=======
+            this.getSelectedOrder()?.finalized &&
+>>>>>>> upstream/18.0
 =======
             this.getSelectedOrder()?.finalized &&
 >>>>>>> upstream/18.0
@@ -427,7 +439,11 @@ export class TicketScreen extends Component {
         if (
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             order.uiState?.locked &&
+=======
+            order.finalized &&
+>>>>>>> upstream/18.0
 =======
             order.finalized &&
 >>>>>>> upstream/18.0

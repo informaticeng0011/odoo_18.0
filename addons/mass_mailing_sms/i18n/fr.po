@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mass_mailing_sms
 # 
 # Translators:
@@ -243,6 +244,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * mass_mailing_sms
 #
 # Translators:
@@ -251,6 +254,9 @@
 #
 # "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -258,6 +264,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -621,6 +628,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-05 18:39+0000\n"
+=======
+"POT-Creation-Date: 2025-09-12 01:50+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-11 17:19+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-18/"
@@ -633,6 +643,9 @@ msgstr ""
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -691,8 +704,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span name=\"canceled_text_sms\" invisible=\"mailing_type != 'sms'\">SMS ont"
 " été annulés et ne seront pas envoyés.</span>"
+=======
+"<span name=\"canceled_text_sms\" invisible=\"mailing_type != 'sms'\">SMS ont "
+"été annulés et ne seront pas envoyés.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"canceled_text_sms\" invisible=\"mailing_type != 'sms'\">SMS ont "
 "été annulés et ne seront pas envoyés.</span>"
@@ -710,8 +728,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span name=\"failed_text_sms\" invisible=\"mailing_type != 'sms'\">SMS n'ont"
 " pas pu être livrés.</span>"
+=======
+"<span name=\"failed_text_sms\" invisible=\"mailing_type != 'sms'\">SMS n'ont "
+"pas pu être livrés.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"failed_text_sms\" invisible=\"mailing_type != 'sms'\">SMS n'ont "
 "pas pu être livrés.</span>"
@@ -735,6 +758,7 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text"
 " Messages are being processed.</span>"
 msgstr ""
@@ -743,12 +767,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
 "Messages are being processed.</span>"
 msgstr ""
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS sont "
 "en cours de traitement.</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -787,12 +816,15 @@ msgid ""
 "<strong>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            It appears you don't have enough IAP credits. Click here to buy credits.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "Il semble que vous n’ayez pas assez de crédits IAP. Cliquez ici pour acheter des crédits.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                            It appears you don't have enough IAP credits. "
@@ -803,6 +835,9 @@ msgstr ""
 "Il semble que vous n’ayez pas assez de crédits IAP. Cliquez ici pour acheter "
 "des crédits.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -814,12 +849,15 @@ msgid ""
 "<strong>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            It appears your SMS account is not registered. Click here to set up your account.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "                            Il semble que votre compte SMS ne soit pas enregistré. Cliquez ici pour configurer votre compte.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                            It appears your SMS account is not registered. "
@@ -830,6 +868,9 @@ msgstr ""
 "                            Il semble que votre compte SMS ne soit pas "
 "enregistré. Cliquez ici pour configurer votre compte.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -874,11 +915,28 @@ msgid "Action Needed"
 msgstr "Nécessite une action"
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
+msgid "An error occurred."
+msgstr ""
+
+#. module: mass_mailing_sms
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_attachment_count
 msgid "Attachment Count"
 msgstr "Nombre de pièces jointes"
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_authentication
+msgid "Authentication Error\""
+msgstr ""
+
+#. module: mass_mailing_sms
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Average of Bounced"
@@ -1083,7 +1141,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pour un e-mail, l'objet que vos destinataires verront dans leur boîte de réception.\n"
+=======
+"Pour un e-mail, l'objet que vos destinataires verront dans leur boîte de "
+"réception.\n"
+>>>>>>> upstream/18.0
 =======
 "Pour un e-mail, l'objet que vos destinataires verront dans leur boîte de "
 "réception.\n"
@@ -1102,6 +1165,7 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pour un e-mail, l'objet que vos destinataires verront dans leur boîte de réception.\n"
 =======
 "Pour un e-mail, l'objet que vos destinataires verront dans leur boîte de "
@@ -1114,6 +1178,18 @@ msgstr ""
 "Pour un SMS, le titre interne du message."
 
 #. module: mass_mailing_sms
+=======
+"Pour un e-mail, l'objet que vos destinataires verront dans leur boîte de "
+"réception.\n"
+"Pour un SMS, le titre interne du message."
+
+#. module: mass_mailing_sms
+#: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_from_to
+msgid "From / To identic"
+msgstr ""
+
+#. module: mass_mailing_sms
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__has_message
 msgid "Has Message"
 msgstr "A un message"
@@ -1144,6 +1220,7 @@ msgstr "Si coché, certains messages ont une erreur de livraison."
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
 msgstr ""
@@ -1152,12 +1229,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
 msgstr ""
 "Si le numéro de téléphone nettoyé est sur liste noire, le contact ne recevra "
 "plus de campagnes de mail, d'aucunes listes."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1167,8 +1249,12 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Immediately send the SMS Mailing instead of queuing up. Use at your own "
 "risk."
+=======
+"Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
+>>>>>>> upstream/18.0
 =======
 "Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
 >>>>>>> upstream/18.0
@@ -1186,6 +1272,14 @@ msgid "Include opt-out link"
 msgstr "Inclure un lien de désinscription"
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_callback
+msgid "Incorrect callback URL"
+msgstr ""
+
+#. module: mass_mailing_sms
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__mobile_blacklisted
 msgid ""
 "Indicates if a blacklisted sanitized phone number is a mobile number. Helps "
@@ -1346,6 +1440,14 @@ msgid "Messages"
 msgstr "Messages"
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_from_missing
+msgid "Missing From Number"
+msgstr ""
+
+#. module: mass_mailing_sms
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_number_missing
 msgid "Missing Number"
 msgstr "Numéro manquant"
@@ -1370,8 +1472,13 @@ msgstr "Pas encore de données !"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No need to import mailing lists, you can send SMS to contacts saved in other"
 " Odoo apps."
+=======
+"No need to import mailing lists, you can send SMS to contacts saved in other "
+"Odoo apps."
+>>>>>>> upstream/18.0
 =======
 "No need to import mailing lists, you can send SMS to contacts saved in other "
 "Odoo apps."
@@ -1441,8 +1548,13 @@ msgstr "Numéro(s)"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Once you send these text messages, they'll be making a grand entrance in all"
 " pockets, creating quite the bzzzzz!"
+=======
+"Once you send these text messages, they'll be making a grand entrance in all "
+"pockets, creating quite the bzzzzz!"
+>>>>>>> upstream/18.0
 =======
 "Once you send these text messages, they'll be making a grand entrance in all "
 "pockets, creating quite the bzzzzz!"
@@ -1725,7 +1837,10 @@ msgstr "Envoyer un exemple de SMS à des fins de test aux numéros suivants."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1908,6 +2023,9 @@ msgstr "Envoyer à tous"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2058,8 +2176,14 @@ msgstr "Test de l'envoi de SMS"
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Test SMS could not be sent to %(destination)s: %(state)s"
 msgstr "Impossible d'envoyer le SMS à %(destination)s: %(state)s"
+=======
+msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
+msgstr ""
+"Le SMS de test n’a pas pu être envoyé à %(destination)s : %(failure_reason)s"
+>>>>>>> upstream/18.0
 =======
 msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
 msgstr ""
@@ -2191,8 +2315,12 @@ msgstr "Sélection du gagnant"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Write an appealing SMS Text Message, define recipients and track its "
 "results."
+=======
+"Write an appealing SMS Text Message, define recipients and track its results."
+>>>>>>> upstream/18.0
 =======
 "Write an appealing SMS Text Message, define recipients and track its results."
 >>>>>>> upstream/18.0
@@ -2224,6 +2352,12 @@ msgid "has been successfully removed from"
 msgstr "a bien été supprimé de"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Test SMS could not be sent to %(destination)s: %(state)s"
+#~ msgstr "Impossible d'envoyer le SMS à %(destination)s: %(state)s"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Test SMS could not be sent to %(destination)s: %(state)s"

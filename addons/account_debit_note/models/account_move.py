@@ -50,7 +50,10 @@ class AccountMove(models.Model):
         return starting_sequence
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -60,6 +63,9 @@ class AccountMove(models.Model):
             return _('This debit note was created from: %s', self._get_html_link())
         return super()._get_copy_message_content(default)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

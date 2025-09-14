@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account_peppol
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -346,10 +347,18 @@
 # Abe Manyo, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2025
+# Abe Manyo, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -766,6 +775,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: id\n"
+=======
+"POT-Creation-Date: 2025-09-12 01:50+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Abe Manyo, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: account_peppol
@@ -832,7 +851,11 @@ msgid " (Demo)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (Demo)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (Demo)"
 >>>>>>> upstream/18.0
@@ -1054,7 +1077,11 @@ msgid " (Test)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (Test)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (Test)"
 >>>>>>> upstream/18.0
@@ -1276,7 +1303,11 @@ msgid " (no VAT)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(tidak ada PPN)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(tidak ada PPN)"
 >>>>>>> upstream/18.0
@@ -1456,6 +1487,7 @@ msgstr "%s telah meminta penerimaan faktur elektronik di Peppol."
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1815,10 +1847,19 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"                                In Belgium, electronic invoicing is "
+"<u>mandatory as of January 2026</u> - don't wait to register."
+msgstr ""
+"<br/>\n"
+"                                Di Belgia, faktur elektronik <u>wajib "
+"setelah Januari 2026</u> - jangan menunggu untuk mendaftar."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_move_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> (Demo)</span>\n"
 "                    <span class=\"text-muted mx-3\" invisible=\"peppol_move_state != 'to_send'\">\n"
 "                        The invoice will be sent automatically via Peppol\n"
@@ -1826,6 +1867,19 @@ msgid ""
 msgstr ""
 "<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> (Demo)</span>\n"
 "                    <span class=\"text-muted mx-3\" invisible=\"peppol_move_state != 'to_send'\">\n"
+=======
+"<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> "
+"(Demo)</span>\n"
+"                    <span class=\"text-muted mx-3\" "
+"invisible=\"peppol_move_state != 'to_send'\">\n"
+"                        The invoice will be sent automatically via Peppol\n"
+"                    </span>"
+msgstr ""
+"<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> "
+"(Demo)</span>\n"
+"                    <span class=\"text-muted mx-3\" "
+"invisible=\"peppol_move_state != 'to_send'\">\n"
+>>>>>>> upstream/18.0
 "                        Faktur akan dikirim secara otomatis melalui Peppol\n"
 "                    </span>"
 
@@ -1833,6 +1887,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid ""
+<<<<<<< HEAD
 "A participant with these details has already been registered on the network."
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1955,6 +2010,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 " If you have previously registered to a Peppol service, please deregister."
+=======
+"A participant with these details has already been registered on the network. "
+"If you have previously registered to a Peppol service, please deregister."
+>>>>>>> upstream/18.0
 msgstr ""
 "Peserta dengan detail ini sudah terdaftar di jaringan kami. Jika Anda "
 "sebelumnya sudah mendaftar ke layanan Peppol alternatif, mohon hapus "
@@ -1991,6 +2050,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2156,8 +2218,13 @@ msgstr "Metode Pengiriman Peppol yang Tersedia"
 msgid ""
 "By clicking the button below I accept that Odoo may process my e-invoices."
 msgstr ""
+<<<<<<< HEAD
 "Dengan mengeklik tombol di bawah saya setuju bahwa Odoo dapat memproses "
 "e-faktur saya."
+=======
+"Dengan mengeklik tombol di bawah saya setuju bahwa Odoo dapat memproses e-"
+"faktur saya."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__receiver
@@ -2214,6 +2281,7 @@ msgstr "Periksa Partner"
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_eas
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model.fields,help:account_peppol.field_res_partner__peppol_eas
 #: model:ir.model.fields,help:account_peppol.field_res_users__peppol_eas
@@ -2228,6 +2296,19 @@ msgid ""
 msgstr ""
 "Kode yang digunakan untuk mengidentifikasi Endpoint untuk BIS Billing 3.0 dan derivatif-nya.\n"
 "             Daftar tersedia pada https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
+=======
+#: model:ir.model.fields,help:account_peppol.field_res_partner__peppol_eas
+#: model:ir.model.fields,help:account_peppol.field_res_users__peppol_eas
+msgid ""
+"Code used to identify the Endpoint for BIS Billing 3.0 and its derivatives.\n"
+"             List available at https://docs.peppol.eu/poacc/billing/3.0/"
+"codelist/eas/"
+msgstr ""
+"Kode yang digunakan untuk mengidentifikasi Endpoint untuk BIS Billing 3.0 "
+"dan derivatif-nya.\n"
+"             Daftar tersedia pada https://docs.peppol.eu/poacc/billing/3.0/"
+"codelist/eas/"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_res_company
@@ -2466,7 +2547,10 @@ msgstr "Error!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2674,6 +2758,9 @@ msgstr "Errors terjadi saat membuat dokumen EDI (format: %s):"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2859,6 +2946,7 @@ msgstr ""
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/controllers/portal.py:0
+<<<<<<< HEAD
 msgid ""
 "If you want to be invoiced by Peppol, your configuration must be valid."
 msgstr "Bila Anda ingin difaktur oleh Peppol, konfigurasi Anda harus valid."
@@ -3052,6 +3140,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgid "If you want to be invoiced by Peppol, your configuration must be valid."
+msgstr "Bila Anda ingin difaktur oleh Peppol, konfigurasi Anda harus valid."
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__in_verification
 msgid "In verification"
 msgstr "Dalam verifikasi"
@@ -3072,8 +3166,12 @@ msgstr "Invoice sending"
 msgid ""
 "JSON representation of peppol services as retrieved from the peppol server."
 msgstr ""
+<<<<<<< HEAD
 "Representasi JSON dari layanan peppol sesuai saat diambil dari server "
 "peppol."
+=======
+"Representasi JSON dari layanan peppol sesuai saat diambil dari server peppol."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_account_journal
@@ -3142,7 +3240,10 @@ msgstr "Odoo"
 #. module: account_peppol
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_eas__odemo
@@ -3151,6 +3252,9 @@ msgstr ""
 
 #. module: account_peppol
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3182,8 +3286,12 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid ""
+<<<<<<< HEAD
 "PEPPOL is the secure standard for e-invoices used in EU and across the "
 "world."
+=======
+"PEPPOL is the secure standard for e-invoices used in EU and across the world."
+>>>>>>> upstream/18.0
 msgstr ""
 "PEPPOL adalah standar aman untuk e-faktur yang digunakan di UE dan di "
 "seluruh dunia."
@@ -3280,6 +3388,7 @@ msgstr "PEPPOL: update status peserta"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "PS: <b style=\"color: $o-enterprise-action-color;\">We did not send your "
@@ -3298,6 +3407,8 @@ msgstr ""
 "di Peppol</b>."
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3505,6 +3616,7 @@ msgstr "Peppol Endpoint"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3578,6 +3690,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3742,6 +3856,9 @@ msgstr "Peppol ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3891,6 +4008,11 @@ msgstr "Peppol e-Address (EAS)"
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_eas
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_eas
+#: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_eas
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_eas
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_eas
@@ -3982,8 +4104,17 @@ msgstr "Email kontak utama"
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__contact_email
 #: model:ir.model.fields,help:account_peppol.field_res_company__account_peppol_contact_email
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_contact_email
+<<<<<<< HEAD
 msgid "Primary contact email for Peppol-related communication"
 msgstr "Email kontak utama untuk komunikasi terkait Peppol"
+=======
+msgid ""
+"Primary contact email for Peppol connection related communications and "
+"notifications.\n"
+"In particular, this email is used by Odoo to reconnect your Peppol account "
+"in case of database change."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_edi_proxy_client_user__proxy_type
@@ -4081,10 +4212,19 @@ msgstr "Test"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
 "Test mode allows sending e-invoices through the test Peppol network.\n"
+<<<<<<< HEAD
 "                                    By clicking the button below I accept that Odoo may process my e-invoices."
 msgstr ""
 "Mode test memungkinkan mengirim e-faktur melalui jaringan test Peppol.\n"
 "                                Dengan mengeklik tombol di bawah saya menerima bahwa Odoo dapat memproses e-faktur saya."
+=======
+"                                    By clicking the button below I accept "
+"that Odoo may process my e-invoices."
+msgstr ""
+"Mode test memungkinkan mengirim e-faktur melalui jaringan test Peppol.\n"
+"                                Dengan mengeklik tombol di bawah saya "
+"menerima bahwa Odoo dapat memproses e-faktur saya."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -4177,6 +4317,7 @@ msgstr "Kode verifikasi tidak benar"
 #. odoo-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4493,6 +4634,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"This feature is deprecated. Contact Odoo support if you need a migration key."
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "This invoice has also been"
 msgstr "Faktur ini juga telah"
@@ -4551,6 +4698,7 @@ msgstr "Faktur ini juga telah"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4657,6 +4805,15 @@ msgstr "Faktur ini juga telah"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,help:account_peppol.field_peppol_registration__phone_number
+#: model:ir.model.fields,help:account_peppol.field_res_company__account_peppol_phone_number
+#: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_phone_number
+msgid "This number is used for identification purposes only."
+msgstr ""
+
+#. module: account_peppol
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
@@ -4686,8 +4843,13 @@ msgid ""
 "Unique identifier used by the BIS Billing 3.0 and its derivatives, also "
 "known as 'Endpoint ID'."
 msgstr ""
+<<<<<<< HEAD
 "Pengidentifikasi Unik yang digunakan oleh BIS Billing 3.0 dan derivatif-nya,"
 " dikenal juga sebagai 'Endpoint ID'."
+=======
+"Pengidentifikasi Unik yang digunakan oleh BIS Billing 3.0 dan derivatif-nya, "
+"dikenal juga sebagai 'Endpoint ID'."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
@@ -4797,11 +4959,23 @@ msgstr "Anda dapat mengirim faktur ini secara elektronik melalui Peppol."
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "You registration has been rejected, the reason has been sent to you via email.\n"
 "                            Please contact our support if you need further assistance."
 msgstr ""
 "Pendaftaran Anda ditolak, alasan penolakan telah dikirim ke Anda melalui email.\n"
 "                            Silakan hubungi bantuan kami bila Anda membutuhkan bantuan lebih lanjut."
+=======
+"You registration has been rejected, the reason has been sent to you via "
+"email.\n"
+"                            Please contact our support if you need further "
+"assistance."
+msgstr ""
+"Pendaftaran Anda ditolak, alasan penolakan telah dikirim ke Anda melalui "
+"email.\n"
+"                            Silakan hubungi bantuan kami bila Anda "
+"membutuhkan bantuan lebih lanjut."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
@@ -4810,6 +4984,7 @@ msgid ""
 "You will not be able to send or receive Peppol documents in Odoo anymore. "
 "Are you sure you want to proceed?"
 msgstr ""
+<<<<<<< HEAD
 "Anda tidak akan dapat mengirimkan atau menerima dokumen Peppol di Odoo lagi."
 " Apakah Anda yakin ingin melanjutkan?"
 
@@ -4819,6 +4994,10 @@ msgstr ""
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_phone_number
 msgid "You will receive a verification code to this mobile number"
 msgstr "Anda akan menerima kode verifikasi ke nomor telepon ini"
+=======
+"Anda tidak akan dapat mengirimkan atau menerima dokumen Peppol di Odoo lagi. "
+"Apakah Anda yakin ingin melanjutkan?"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
@@ -4886,6 +5065,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pendaftaran Peppol Anda akan diaktifkan sebentar lagi. Anda sudah dapat "
+"mengirim faktur."
+>>>>>>> upstream/18.0
 =======
 "Pendaftaran Peppol Anda akan diaktifkan sebentar lagi. Anda sudah dapat "
 "mengirim faktur."
@@ -5204,6 +5388,7 @@ msgstr "oleh Peppo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "invoices and credit notes."
 msgstr "faktur dan nota kredit."
@@ -5221,6 +5406,11 @@ msgstr "faktur dan nota kredit."
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
+msgid "could not be sent via Peppol"
+msgstr "tidak dapat dikirim melalui Peppo"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
@@ -5554,7 +5744,11 @@ msgid "sent via Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "dikirim melalui Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "dikirim melalui Peppol"
 >>>>>>> upstream/18.0
@@ -5775,7 +5969,11 @@ msgid "to send invoices, but this one"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "untuk mengirim faktur, tapi yang ini"
+>>>>>>> upstream/18.0
 =======
 msgstr "untuk mengirim faktur, tapi yang ini"
 >>>>>>> upstream/18.0
@@ -5996,6 +6194,7 @@ msgid "uses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6174,4 +6373,13 @@ msgstr "user-user"
 >>>>>>> upstream/18.0
 =======
 msgstr "user-user"
+>>>>>>> upstream/18.0
+=======
+msgstr "user-user"
+
+#~ msgid "Primary contact email for Peppol-related communication"
+#~ msgstr "Email kontak utama untuk komunikasi terkait Peppol"
+
+#~ msgid "You will receive a verification code to this mobile number"
+#~ msgstr "Anda akan menerima kode verifikasi ke nomor telepon ini"
 >>>>>>> upstream/18.0

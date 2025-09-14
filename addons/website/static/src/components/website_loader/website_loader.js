@@ -160,9 +160,12 @@ export class WebsiteLoader extends Component {
     initProgressBar() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.updateProgressInterval) {
             return;
         }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

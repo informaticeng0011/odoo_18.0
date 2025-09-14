@@ -16,7 +16,10 @@ class PosOrder(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _generate_pos_order_invoice(self):
@@ -32,6 +35,9 @@ class PosOrder(models.Model):
         return super()._generate_pos_order_invoice()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

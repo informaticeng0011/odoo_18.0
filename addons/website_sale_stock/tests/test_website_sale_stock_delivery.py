@@ -2,6 +2,10 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -14,6 +18,10 @@ from odoo.addons.payment.tests.common import PaymentCommon
 from odoo.addons.sale.tests.common import SaleCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.delivery.tests.common import DeliveryCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.delivery.tests.common import DeliveryCommon
 >>>>>>> upstream/18.0
@@ -28,7 +36,11 @@ from odoo.exceptions import ValidationError
 @tagged('post_install', '-at_install')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestWebsiteSaleStockDeliveryController(PaymentCommon, SaleCommon):
+=======
+class TestWebsiteSaleStockDeliveryController(PaymentCommon, SaleCommon, DeliveryCommon):
+>>>>>>> upstream/18.0
 =======
 class TestWebsiteSaleStockDeliveryController(PaymentCommon, SaleCommon, DeliveryCommon):
 >>>>>>> upstream/18.0
@@ -61,7 +73,10 @@ class TestWebsiteSaleStockDeliveryController(PaymentCommon, SaleCommon, Delivery
                 self.Controller.shop_payment_validate()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -97,6 +112,9 @@ class TestWebsiteSaleStockDeliveryController(PaymentCommon, SaleCommon, Delivery
             with self.assertRaises(ValidationError):
                 self.Controller.shop_payment_validate()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

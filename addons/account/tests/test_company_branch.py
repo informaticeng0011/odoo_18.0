@@ -255,7 +255,10 @@ class TestCompanyBranch(AccountTestInvoicingCommon):
         self.assertEqual(root_company.currency_id, root_company.child_ids[0].currency_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -318,6 +321,9 @@ class TestCompanyBranch(AccountTestInvoicingCommon):
                 'currency_id': self.env.ref('base.EUR').id,
             })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1360,7 +1360,10 @@ class TestQWebBasic(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_if_comment(self):
@@ -1408,6 +1411,9 @@ class TestQWebBasic(TransactionCase):
         self.assertEqual(rendered.strip(), result.strip())
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

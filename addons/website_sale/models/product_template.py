@@ -926,7 +926,10 @@ class ProductTemplate(models.Model):
         return data
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -946,6 +949,9 @@ class ProductTemplate(models.Model):
             }
         return super()._get_access_action(access_uid=access_uid, force_website=force_website)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

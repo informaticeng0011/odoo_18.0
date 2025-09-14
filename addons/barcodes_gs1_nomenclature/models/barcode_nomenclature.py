@@ -53,8 +53,11 @@ class BarcodeNomenclature(models.Model):
         else:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             date = datetime.datetime.strptime(str(year) + gs1_date[2:], '%Y%m%d')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             try:
@@ -65,6 +68,9 @@ class BarcodeNomenclature(models.Model):
                     error_message=e
                 ))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

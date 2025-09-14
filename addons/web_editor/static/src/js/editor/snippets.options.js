@@ -1989,7 +1989,11 @@ const MediapickerUserValueWidget = UserValueWidget.extend({
             vimeoPreviewIds: ['528686125', '430330731', '509869821', '397142251', '763851966', '486931161',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 '499761556', '392935303', '728584384', '865314310', '511727912', '466830211'],
+=======
+                '499761556', '1092009120', '728584384', '865314310', '511727912', '466830211'],
+>>>>>>> upstream/18.0
 =======
                 '499761556', '1092009120', '728584384', '865314310', '511727912', '466830211'],
 >>>>>>> upstream/18.0
@@ -4629,6 +4633,10 @@ registry.sizing = SnippetOptionWidget.extend({
         let isMobile = weUtils.isMobileView(this.$target[0]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const isRtl = this.options.direction === "rtl";
+>>>>>>> upstream/18.0
 =======
         const isRtl = this.options.direction === "rtl";
 >>>>>>> upstream/18.0
@@ -4679,7 +4687,10 @@ registry.sizing = SnippetOptionWidget.extend({
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             if (isRtl) {
@@ -4691,6 +4702,9 @@ registry.sizing = SnippetOptionWidget.extend({
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4778,8 +4792,11 @@ registry.sizing = SnippetOptionWidget.extend({
                     // compared to the initial position of the handle.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const dd = ev['page' + dir.XY] - dir.xy + dir.resize[1][dir.begin];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     let ddRaw = ev["page" + dir.XY] - dir.xy;
@@ -4789,6 +4806,9 @@ registry.sizing = SnippetOptionWidget.extend({
                     }
                     const dd = ddRaw + dir.resize[1][dir.begin];
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6166,7 +6186,10 @@ registry.ReplaceMedia = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6324,6 +6347,9 @@ registry.ReplaceMedia = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6751,12 +6777,18 @@ const ImageHandlerOption = SnippetOptionWidget.extend({
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!['image/jpeg', 'image/webp'].includes(this._getImageMimetype(img))) {
             const optQuality = uiFragment.querySelector('we-range[data-set-quality]');
             if (optQuality) {
                 optQuality.remove();
             }
         }
+=======
+        // TODO: remove in saas-18.4 since XML is static and will be up to date
+        const optQuality = uiFragment.querySelector('we-range[data-set-quality]');
+        optQuality.setAttribute('data-name', 'quality_range_opt');
+>>>>>>> upstream/18.0
 =======
         // TODO: remove in saas-18.4 since XML is static and will be up to date
         const optQuality = uiFragment.querySelector('we-range[data-set-quality]');
@@ -7461,7 +7493,10 @@ registry.ImageTools = ImageHandlerOption.extend({
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         // Disable quality option if partially not supported
@@ -7477,6 +7512,9 @@ registry.ImageTools = ImageHandlerOption.extend({
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7501,7 +7539,10 @@ registry.ImageTools = ImageHandlerOption.extend({
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
      * Determines if the quality of the image can be adjusted.
@@ -7532,6 +7573,9 @@ registry.ImageTools = ImageHandlerOption.extend({
     },
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7837,6 +7881,12 @@ registry.ImageTools = ImageHandlerOption.extend({
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (widgetName == 'quality_range_opt' && this._unsupportedQualityOption() === true) {
+            return false;
+        }
+>>>>>>> upstream/18.0
 =======
         if (widgetName == 'quality_range_opt' && this._unsupportedQualityOption() === true) {
             return false;
@@ -8435,6 +8485,12 @@ registry.ImageTools = ImageHandlerOption.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (ev._complete) {
+                ev._complete();
+            }
+>>>>>>> upstream/18.0
 =======
             if (ev._complete) {
                 ev._complete();
@@ -8903,7 +8959,10 @@ registry.BackgroundToggler = SnippetOptionWidget.extend({
         if (!widgetValue) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             // When background image with position "Repeat pattern" is removed,
@@ -8912,6 +8971,9 @@ registry.BackgroundToggler = SnippetOptionWidget.extend({
             targetEl.style.removeProperty("background-size");
             targetEl.classList.remove("o_bg_img_opt_repeat");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9732,7 +9794,13 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
         this.$target.css('background-position', '');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.$target.css('background-size', widgetValue !== 'repeat-pattern' ? '' : '100px');
+=======
+        // Set image size to "100px" for repeating, and "cover" for gradient.
+        // Ensures gradient doesn’t repeat while image does.
+        this.$target[0].style.backgroundSize = widgetValue !== "repeat-pattern" ? "" : "100px, cover";
+>>>>>>> upstream/18.0
 =======
         // Set image size to "100px" for repeating, and "cover" for gradient.
         // Ensures gradient doesn’t repeat while image does.
@@ -9789,11 +9857,14 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
     selectStyle: function (previewMode, widgetValue, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (params.cssProperty === 'background-size'
                 && !this.$target.hasClass('o_bg_img_opt_repeat')) {
             // Disable the option when the image is in cover mode, otherwise
             // the background-size: auto style may be forced.
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (params.cssProperty === "background-size") {
@@ -9812,6 +9883,9 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
             sizeLayers[0] = widgetValue;
             targetEl.style.setProperty("background-size", sizeLayers.join(", "));
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9836,9 +9910,12 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
     _computeWidgetState: function (methodName, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (methodName === 'backgroundType') {
             return this.$target.css('background-repeat') === 'repeat' ? 'repeat-pattern' : 'cover';
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const computedStyle = getComputedStyle(this.$target[0]);
@@ -9853,6 +9930,9 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
             // return first layer's size
             return bgSize.split(",")[0].trim();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9909,11 +9989,14 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.$bgDragger.css({
             width: `${this.$target.innerWidth()}px`,
             height: `${this.$target.innerHeight()}px`,
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9946,6 +10029,9 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

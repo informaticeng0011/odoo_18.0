@@ -65,6 +65,10 @@ def main():
         o = commands[command]()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        odoo.cli.COMMAND = command
+>>>>>>> upstream/18.0
 =======
         odoo.cli.COMMAND = command
 >>>>>>> upstream/18.0

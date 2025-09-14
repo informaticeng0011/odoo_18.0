@@ -12,7 +12,11 @@
                         type="object"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         string="Send Expense Classifications to MyDATA"
+=======
+                        string="Send Expense Classifications to myDATA"
+>>>>>>> upstream/18.0
 =======
                         string="Send Expense Classifications to myDATA"
 >>>>>>> upstream/18.0
@@ -33,6 +37,10 @@
                 <field name="l10n_gr_edi_inv_type"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                       string="Invoice Type"
+>>>>>>> upstream/18.0
 =======
                        string="Invoice Type"
 >>>>>>> upstream/18.0
@@ -54,7 +62,11 @@
                        readonly="state != 'draft'"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <!--The MyDATA Mark field will have the following behaviors:
+=======
+                <!--The myDATA Mark field will have the following behaviors:
+>>>>>>> upstream/18.0
 =======
                 <!--The myDATA Mark field will have the following behaviors:
 >>>>>>> upstream/18.0
@@ -107,6 +119,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <!-- MyDATA Documents Tab -->
             <xpath expr="//page[@id='other_tab_entry']" position="after">
                 <page id="l10n_gr_edi_documents"
@@ -114,11 +127,16 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             <!-- myDATA Documents Tab -->
             <xpath expr="//page[@id='other_tab_entry']" position="after">
                 <page id="l10n_gr_edi_documents"
                       string="myDATA"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -187,6 +205,7 @@
             <xpath expr="//filter[@name='to_check']" position="after">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <filter string="To send to MyDATA" name="l10n_gr_edi_state_false"
                         domain="[('l10n_gr_edi_state', 'in', (False, 'bill_fetched'))]"/>
                 <filter string="Sent to MyDATA" name="l10n_gr_edi_state_sent"
@@ -197,6 +216,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <filter string="To send to myDATA" name="l10n_gr_edi_state_false"
                         domain="[('l10n_gr_edi_state', 'in', (False, 'bill_fetched'))]"/>
                 <filter string="Sent to myDATA" name="l10n_gr_edi_state_sent"
@@ -205,6 +226,9 @@
             <xpath expr="//group" position="inside">
                 <filter string="myDATA Status" name="l10n_gr_edi_state_group"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -216,7 +240,11 @@
     <record id="l10n_gr_edi_action_try_send_batch" model="ir.actions.server">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <field name="name">Send to MyDATA</field>
+=======
+        <field name="name">Send to myDATA</field>
+>>>>>>> upstream/18.0
 =======
         <field name="name">Send to myDATA</field>
 >>>>>>> upstream/18.0

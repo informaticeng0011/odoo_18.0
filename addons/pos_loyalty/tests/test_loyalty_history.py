@@ -40,7 +40,10 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
                         "Loyalty History line should be created on pos oder confirmation")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -125,6 +128,9 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
         new_pos_order.confirm_coupon_programs(coupon_data)
         check_coupon(40, 2)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

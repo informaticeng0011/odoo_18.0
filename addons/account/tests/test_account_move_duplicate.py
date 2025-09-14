@@ -76,7 +76,10 @@ class TestAccountMoveDuplicate(AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_in_invoice_multiple_duplicate_reference_batch_in_edit_mode(self):
@@ -98,6 +101,9 @@ class TestAccountMoveDuplicate(AccountTestInvoicingCommon):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

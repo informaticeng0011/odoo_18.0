@@ -2,7 +2,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from unittest.mock import ANY, patch
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
@@ -17,6 +21,10 @@ from odoo.tools import mute_logger
 from odoo.addons.account_payment.tests.common import AccountPaymentCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import MailCase
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import MailCase
 >>>>>>> upstream/18.0
@@ -32,7 +40,11 @@ from odoo.addons.sale.tests.common import SaleCommon
 @tagged('-at_install', 'post_install')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon):
+=======
+class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailCase):
+>>>>>>> upstream/18.0
 =======
 class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailCase):
 >>>>>>> upstream/18.0
@@ -65,7 +77,12 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
             tx_context = self._get_portal_pay_context(**route_values)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             patched.assert_called_once_with(ANY, sale_order_id=ANY)
+=======
+            patched.assert_called_once()
+            self.assertIn('sale_order_id', patched.call_args[1])
+>>>>>>> upstream/18.0
 =======
             patched.assert_called_once()
             self.assertIn('sale_order_id', patched.call_args[1])
@@ -263,7 +280,10 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
     def test_auto_confirm_and_auto_invoice(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         """
@@ -274,6 +294,9 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
         - Two emails sent: SO confirmation and default invoice email template
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -285,8 +308,11 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
         tx = self._create_transaction(flow='redirect', sale_order_ids=[self.sale_order.id], state='done')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with mute_logger('odoo.addons.sale.models.payment_transaction'):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         with (
@@ -294,6 +320,9 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
             self.mock_mail_gateway(),
         ):
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -304,7 +333,10 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
         self.assertTrue(self.sale_order.invoice_ids)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.assertEqual(len(self._new_mails), 2)
@@ -381,6 +413,9 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
         self.assertEqual(len(self._new_mails), 2)
         self.assertTrue(self._new_mails.filtered(lambda x: 'Invoice' in x.subject))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -702,7 +737,10 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
             self.assertEqual(self.sale_order.state, 'sale')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -743,6 +781,9 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
         invoice_sent_mail = invoice.message_ids[0]
         self.assertTrue(invoice_sent_mail.author_id.id not in invoice_sent_mail.notified_partner_ids.ids)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

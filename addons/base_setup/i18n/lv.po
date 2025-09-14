@@ -1,18 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Will Sensors, 2024
 # Martin Trigaux, 2024
 # Arnis Putniņš <arnis@allegro.lv>, 2024
 # ievaputnina <ievai.putninai@gmail.com>, 2024
 # Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2025
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2025\n"
@@ -27,6 +36,25 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
 msgstr "<span class=\"fa fa-lg fa-users\" aria-label=\"Aktīvo lietotāju skaits\"/>"
+=======
+"POT-Creation-Date: 2025-09-12 01:50+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2025\n"
+"Language-Team: Latvian (https://app.transifex.com/odoo/teams/41243/lv/)\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#. module: base_setup
+#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-users\" aria-label=\"Aktīvo lietotāju skaits\"/>"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -34,14 +62,24 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"active_user_count &gt; 1\">\n"
 "                                        Active User\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"active_user_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"active_user_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Active Users\n"
 "                                    </span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"active_user_count &gt; 1\">\n"
 "                                        aktīvs lietotājs\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"active_user_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"active_user_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        aktīvi lietotāji\n"
 "                                    </span>"
 
@@ -51,7 +89,12 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"company_count &gt; 1\">\n"
 "                                        Company\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"company_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"company_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Companies\n"
 "                                    </span>\n"
 "                                    <br/>"
@@ -59,7 +102,12 @@ msgstr ""
 "<span class=\"o_form_label\" invisible=\"company_count &gt; 1\">\n"
 "                                        Uzņēmums\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"company_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"company_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Uzņēmumi\n"
 "                                    </span>\n"
 "                                    <br/>"
@@ -70,14 +118,24 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"language_count &gt; 1\">\n"
 "                                            Language\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_form_label\" invisible=\"language_count &lt;= 1\">\n"
+=======
+"                                        <span class=\"o_form_label\" "
+"invisible=\"language_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Languages\n"
 "                                        </span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"language_count &gt; 1\">\n"
 "                                            Valoda\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_form_label\" invisible=\"language_count &lt;= 1\">\n"
+=======
+"                                        <span class=\"o_form_label\" "
+"invisible=\"language_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Valodas\n"
 "                                        </span>"
 
@@ -99,8 +157,12 @@ msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+<<<<<<< HEAD
 msgid ""
 "<strong>Save</strong> this page and come back here to set up reCaptcha."
+=======
+msgid "<strong>Save</strong> this page and come back here to set up reCaptcha."
+>>>>>>> upstream/18.0
 msgstr ""
 "<strong>Saglabājiet</strong> šo lapu un atgriezieties šeit, lai iestatītu "
 "reCaptcha."
@@ -110,8 +172,13 @@ msgstr ""
 msgid ""
 "<strong>Save</strong> this page and come back here to set up the feature."
 msgstr ""
+<<<<<<< HEAD
 "<strong>Saglabājiet</strong> šo lapu un atgriezieties šeit, lai iestatītu šo"
 " funkciju."
+=======
+"<strong>Saglabājiet</strong> šo lapu un atgriezieties šeit, lai iestatītu šo "
+"funkciju."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -240,8 +307,13 @@ msgid ""
 "Configure company rules to automatically create SO/PO when one of your "
 "company sells/buys to another of your company."
 msgstr ""
+<<<<<<< HEAD
 "Konfigurējiet uzņēmuma noteikumus, lai automātiski izveidotu SO/PO, kad kāds"
 " no jūsu uzņēmumiem pārdod/pērk citam jūsu uzņēmumam."
+=======
+"Konfigurējiet uzņēmuma noteikumus, lai automātiski izveidotu SO/PO, kad kāds "
+"no jūsu uzņēmumiem pārdod/pērk citam jūsu uzņēmumam."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -286,8 +358,13 @@ msgid ""
 "Enable the profiling tool. Profiling may impact performance while being "
 "active."
 msgstr ""
+<<<<<<< HEAD
 "Iespējojiet profilēšanas rīku. Profilēšana var ietekmēt veiktspēju, kamēr tā"
 " ir aktīva."
+=======
+"Iespējojiet profilēšanas rīku. Profilēšana var ietekmēt veiktspēju, kamēr tā "
+"ir aktīva."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -356,6 +433,14 @@ msgid "Is Root Company"
 msgstr ""
 
 #. module: base_setup
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:base_setup.model_kpi_provider
+msgid "KPI Provider"
+msgstr ""
+
+#. module: base_setup
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_auth_ldap
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "LDAP Authentication"
@@ -464,8 +549,12 @@ msgstr "Progresīvā Mājas lapas Lietotne"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Protect your forms from spam and abuse."
+<<<<<<< HEAD
 msgstr ""
 "Aizsargājiet savas veidlapas no mēstulēm un ļaunprātīgas izmantošanas."
+=======
+msgstr "Aizsargājiet savas veidlapas no mēstulēm un ļaunprātīgas izmantošanas."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -573,8 +662,18 @@ msgid ""
 "filled."
 msgstr ""
 "Aizpildot jūsu adrešu grāmatu, Odoo nodrošina atbilstošo uzņēmumu sarakstu. "
+<<<<<<< HEAD
 "Atlasot vienu vienumu, uzņēmuma dati un logotips tiek aizpildīti "
 "automātiski."
+=======
+"Atlasot vienu vienumu, uzņēmuma dati un logotips tiek aizpildīti automātiski."
+
+#. module: base_setup
+#. odoo-python
+#: code:addons/base_setup/models/res_users.py:0
+msgid "You have to install the Discuss application to use this feature."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_recaptcha

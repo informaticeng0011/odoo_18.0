@@ -76,6 +76,10 @@ export function _gridCleanUp(rowEl, columnEl) {
     columnEl.style.removeProperty('left');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    columnEl.style.removeProperty('right');
+>>>>>>> upstream/18.0
 =======
     columnEl.style.removeProperty('right');
 >>>>>>> upstream/18.0
@@ -174,6 +178,10 @@ function _placeColumns(columnEls, rowSize, rowGap, columnSize, columnGap) {
     const imageColumns = []; // array of boolean telling if it is a column with only an image.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const isRtl = columnEls[0]?.closest(".o_rtl, [dir='rtl']");
+>>>>>>> upstream/18.0
 =======
     const isRtl = columnEls[0]?.closest(".o_rtl, [dir='rtl']");
 >>>>>>> upstream/18.0
@@ -196,8 +204,11 @@ function _placeColumns(columnEls, rowSize, rowGap, columnSize, columnGap) {
         const borderLeft = parseFloat(style.borderLeft);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const columnLeft = isImageWithoutPadding && !borderLeft ? imageEl.offsetLeft : columnEl.offsetLeft;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         let columnLeft = isImageWithoutPadding && !borderLeft ? imageEl.offsetLeft : columnEl.offsetLeft;
@@ -208,6 +219,9 @@ function _placeColumns(columnEls, rowSize, rowGap, columnSize, columnGap) {
                 : parentWidth - columnEl.offsetLeft - columnEl.offsetWidth;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -8,7 +8,11 @@ export class WebsiteVisitor extends models.ServerModel {
     country_id = fields.Many2one({ relation: "res.country", string: "Country" }); // FIXME: somehow not fetched properly
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     history = fields.Char();
+=======
+    history_data = fields.Char();
+>>>>>>> upstream/18.0
 =======
     history_data = fields.Char();
 >>>>>>> upstream/18.0

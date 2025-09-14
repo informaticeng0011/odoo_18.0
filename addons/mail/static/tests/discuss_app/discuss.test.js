@@ -112,6 +112,10 @@ import { rpc } from "@web/core/network/rpc";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { runAllTimers } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { runAllTimers } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -958,7 +962,11 @@ test("sidebar: basic channel rendering", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-DiscussSidebarChannel img[data-alt='Thread Image']");
+=======
+    await contains(".o-mail-DiscussSidebarChannel img[alt='Thread Image']");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-DiscussSidebarChannel img[alt='Thread Image']");
 >>>>>>> upstream/18.0
@@ -2341,8 +2349,12 @@ test("warning on send with shortcut when attempting to post message with still-u
     await editInput(document.body, ".o-mail-Composer input[type=file]", [file]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard");
     await contains(".o-mail-AttachmentCard .fa.fa-spinner");
+=======
+    await contains(".o-mail-AttachmentCard.o-isUploading:contains(text.txt) .fa.fa-spinner");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-AttachmentCard.o-isUploading:contains(text.txt) .fa.fa-spinner");
 >>>>>>> upstream/18.0
@@ -2396,6 +2408,7 @@ test("failure on loading more messages should display error and prompt retry but
     const messageIds = pyEnv["mail.message"].create(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         [...Array(60).keys()].map(() => {
             return {
                 body: "coucou",
@@ -2406,12 +2419,17 @@ test("failure on loading more messages should display error and prompt retry but
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         [...Array(60).keys()].map(() => ({
             body: "coucou",
             model: "discuss.channel",
             res_id: channelId,
         }))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2451,6 +2469,7 @@ test("Retry loading more messages on failed load more messages should load more 
     const messageIds = pyEnv["mail.message"].create(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         [...Array(90).keys()].map(() => {
             return {
                 body: "coucou",
@@ -2461,12 +2480,17 @@ test("Retry loading more messages on failed load more messages should load more 
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         [...Array(90).keys()].map(() => ({
             body: "coucou",
             model: "discuss.channel",
             res_id: channelId,
         }))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2495,6 +2519,11 @@ test("Retry loading more messages on failed load more messages should load more 
     await contains(".o-mail-Message", { count: 60 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await scroll(".o-mail-Thread", 0);
+    await contains(".o-mail-Message", { count: 90 });
+>>>>>>> upstream/18.0
 =======
     await scroll(".o-mail-Thread", 0);
     await contains(".o-mail-Message", { count: 90 });
@@ -2522,8 +2551,11 @@ test("composer state: attachments save and restore", async () => {
     );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-Composer .o-mail-AttachmentCard:not(.o-isUploading)");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     await contains(
@@ -2531,6 +2563,9 @@ test("composer state: attachments save and restore", async () => {
     );
     await contains(".o-mail-Composer .o-mail-AttachmentCard");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2553,11 +2588,14 @@ test("composer state: attachments save and restore", async () => {
     await contains(".o-mail-Composer .o-mail-AttachmentCard:not(.o-isUploading)", { count: 3 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Switch back to #general
     await click("button", { text: "General" });
     await contains(".o-mail-Composer .o-mail-AttachmentCard");
     await contains(".o-mail-AttachmentCard", { text: "text.txt" });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     await contains(".o-mail-Composer .o-mail-AttachmentCard", { count: 3 });
@@ -2566,6 +2604,9 @@ test("composer state: attachments save and restore", async () => {
     await contains(".o-mail-Composer .o-mail-AttachmentCard");
     await contains(".o-mail-Composer .o-mail-AttachmentCard:contains(text.txt)");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2735,6 +2776,10 @@ test("Message shows up even if channel data is incomplete", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await runAllTimers();
+>>>>>>> upstream/18.0
 =======
     await runAllTimers();
 >>>>>>> upstream/18.0

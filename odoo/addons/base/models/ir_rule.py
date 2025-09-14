@@ -15,7 +15,11 @@ class IrRule(models.Model):
     _order = 'model_id DESC,id'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _MODES = ['read', 'write', 'create', 'unlink']
+=======
+    _MODES = ('read', 'write', 'create', 'unlink')
+>>>>>>> upstream/18.0
 =======
     _MODES = ('read', 'write', 'create', 'unlink')
 >>>>>>> upstream/18.0

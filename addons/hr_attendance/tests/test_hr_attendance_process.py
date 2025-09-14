@@ -8,7 +8,11 @@ from odoo import fields
 from odoo.tests import new_test_user
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import tagged, TransactionCase
+=======
+from odoo.tests.common import tagged, TransactionCase, freeze_time
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import tagged, TransactionCase, freeze_time
 >>>>>>> upstream/18.0
@@ -51,7 +55,10 @@ class TestHrAttendance(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_employee_group_id(self):
@@ -95,6 +102,9 @@ class TestHrAttendance(TransactionCase):
         self.assertIn(self.employee_kiosk.id, grouped_employee_ids)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -121,7 +131,10 @@ class TestHrAttendance(TransactionCase):
             self.assertEqual(employee.hours_today, 5, "It should have counted 5 hours")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -154,6 +167,9 @@ class TestHrAttendance(TransactionCase):
         self.assertEqual(attendance.out_mode, 'manual')
         self.assertEqual(attendance.color, 0)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

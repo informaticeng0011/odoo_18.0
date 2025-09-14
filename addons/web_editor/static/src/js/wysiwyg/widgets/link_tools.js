@@ -518,7 +518,10 @@ export class LinkTools extends Link {
         this._adaptPreview();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         // Reactivate the snippet to update the Button snippet editor's visibility
@@ -528,6 +531,9 @@ export class LinkTools extends Link {
             onSuccess: () => { },
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

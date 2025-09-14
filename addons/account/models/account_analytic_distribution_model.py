@@ -54,8 +54,11 @@ class AccountAnalyticDistributionModel(models.Model):
     def _compute_prefix_placeholder(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expense_account = self.env['account.account'].search([('account_type', '=', 'expense')], limit=1)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         expense_account = self.env['account.account'].search([
@@ -63,6 +66,9 @@ class AccountAnalyticDistributionModel(models.Model):
             ('account_type', '=', 'expense'),
         ], limit=1)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

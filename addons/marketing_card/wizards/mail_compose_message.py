@@ -28,6 +28,11 @@ class MailComposeMessage(models.TransientModel):
                 if body is not None:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    # in a mailing these are the same
+                    mail_values['body'] = body
+>>>>>>> upstream/18.0
 =======
                     # in a mailing these are the same
                     mail_values['body'] = body
@@ -42,7 +47,10 @@ class MailComposeMessage(models.TransientModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_done_emails(self, mail_values_dict):
@@ -52,6 +60,9 @@ class MailComposeMessage(models.TransientModel):
         return super()._get_done_emails(mail_values_dict)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

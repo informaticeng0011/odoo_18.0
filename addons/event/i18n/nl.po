@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* event
 # 
 # Translators:
@@ -428,6 +429,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * event
 #
 # Translators:
@@ -439,6 +442,9 @@
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 # "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -447,6 +453,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -736,6 +743,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-19 22:20+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18/event/nl/>"
@@ -747,6 +756,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -903,7 +915,11 @@ msgid "- \"%(event_name)s\": Missing %(nb_too_many)i seats."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "- \"%(event_name)s\": %(nb_too_many)i stoelen ontbreken."
+=======
+msgstr "- \"%(event_name)s\": %(nb_too_many)i ontbreken plaatsen."
+>>>>>>> upstream/18.0
 =======
 msgstr "- \"%(event_name)s\": %(nb_too_many)i ontbreken plaatsen."
 >>>>>>> upstream/18.0
@@ -1068,8 +1084,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- het ticket \"%(ticket_name)s\" (%(event_name)s): %(nb_too_many)i stoelen "
 "ontbreken."
+=======
+"- het ticket \"%(ticket_name)s\" (%(event_name)s): %(nb_too_many)i ontbreken"
+" plaatsen."
+>>>>>>> upstream/18.0
 =======
 "- het ticket \"%(ticket_name)s\" (%(event_name)s): %(nb_too_many)i ontbreken"
 " plaatsen."
@@ -1299,7 +1320,11 @@ msgid "96x134mm (Badge Printer)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "96x134mm (badgeprinter)"
+=======
+msgstr "96x134mm (Badgeprinter)"
+>>>>>>> upstream/18.0
 =======
 msgstr "96x134mm (Badgeprinter)"
 >>>>>>> upstream/18.0
@@ -1909,7 +1934,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-out=\"object.name or 'Guest'\"/>\n"
+=======
+"                        <t t-out=\"object.name or 'Gast'\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <t t-out=\"object.name or 'Gast'\"/>\n"
 >>>>>>> upstream/18.0
@@ -2551,7 +2580,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        gaat <strong t-out=\"object.event_date_range or ''\">vandaag</strong> van start.\n"
+=======
+"                        <strong t-out=\"object.event_date_range or ''\">vandaag</strong> van start gaat.\n"
+>>>>>>> upstream/18.0
 =======
 "                        <strong t-out=\"object.event_date_range or ''\">vandaag</strong> van start gaat.\n"
 >>>>>>> upstream/18.0
@@ -3087,6 +3120,7 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<t t-set=\"date_begin\" t-value=\"format_datetime(object.event_id.date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
 "<t t-set=\"date_end\" t-value=\"format_datetime(object.event_id.date_end, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
@@ -3097,6 +3131,8 @@ msgstr ""
 "<t t-set=\"registration_ids\" t-value=\"object.ids if not is_sale else object._get_event_registration_ids_from_order()\"/>\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
@@ -3120,6 +3156,9 @@ msgstr ""
 "\"padding: 16px; background-color: white; color: #454748; border-"
 "collapse:separate;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3129,10 +3168,13 @@ msgstr ""
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Je registratie</span><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing="
@@ -3142,6 +3184,9 @@ msgstr ""
 "                    <span style=\"font-size: 10px;\">Je registratie</span><"
 "br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3151,8 +3196,11 @@ msgstr ""
 "                    <div style=\"margin-bottom: 5px;margin-top: 18px;\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <a t-attf-href=\"/event/{{ object.event_id.id }}/my_tickets?registration_ids={{ registration_ids }}&amp;tickets_hash={{ object.event_id._get_tickets_access_hash(registration_ids) }}&amp;responsive_html=1\" target=\"_blank\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                        <a t-attf-href=\"/event/{{ object.event_id.id "
@@ -3163,6 +3211,9 @@ msgstr ""
 "400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:"
 "3px\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3172,6 +3223,7 @@ msgstr ""
 "                </td><td valign=\"middle\" align=\"right\">\n"
 "                    <t t-if=\"object.barcode\"> \n"
 "                        <div style=\"margin-bottom: 5px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "                            <img t-attf-src=\"/report/barcode/QR/{{object.barcode}}?&amp;width=100&amp;height=100&amp;quiet=0\" width=\"100\" height=\"100\" alt=\"QR Code\"/>\n"
@@ -3184,6 +3236,8 @@ msgstr ""
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                            <img t-attf-src=\"/report/barcode/QR/"
@@ -3203,6 +3257,9 @@ msgstr ""
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3213,6 +3270,7 @@ msgstr ""
 "    <!-- EVENT DESCRIPTION -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
@@ -3454,6 +3512,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing="
 "\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px "
 "0px 8px; border-collapse:separate;\">\n"
@@ -3477,6 +3537,9 @@ msgstr ""
 "                            Dit ticket is geregistreerd door <t t-out="
 "\"object.partner_id.name\"/>.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3486,11 +3549,14 @@ msgstr ""
 "                       <br/>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        De order voor dit ticket heeft referentie <t t-out=\"object.sale_order_id.name\"/>\n"
 "                        en is geplaatst op <t t-out=\"object.sale_order_id.date_order.date()\"/>\n"
 "                        <t t-if=\"object.sale_order_line_id.price_unit\"> voor een bedrag van\n"
 "                           <t t-out=\"object.sale_order_line_id.price_unit\" t-options=\"{'widget': 'monetary', 'display_currency': object.sale_order_line_id.currency_id}\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                        De order voor dit ticket heeft referentie <t t-out="
@@ -3503,6 +3569,9 @@ msgstr ""
 "t-options=\"{'widget': 'monetary', 'display_currency': "
 "object.sale_order_line_id.currency_id}\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3512,12 +3581,15 @@ msgstr ""
 "                        <br/>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <strong>Voeg dit evenement toe aan je agenda</strong>\n"
 "                        <a t-attf-href=\"https://www.google.com/calendar/render?action=TEMPLATE&amp;text={{ object.event_id.name }}&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}&amp;details={{ object.event_id._get_external_description() }}\" style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;\" target=\"new\"><img src=\"/web_editor/font_to_img/61525/rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" alt=\"\"/> Google</a>\n"
 "                        <a t-attf-href=\"/event/{{ slug(object.event_id) }}/ics\" style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;\"><img src=\"/web_editor/font_to_img/61525/rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" alt=\"\"/> iCal/Outlook</a>\n"
 "                        <a t-attf-href=\"https://calendar.yahoo.com/?v=60&amp;view=d&amp;type=20&amp;title={{ object.event_id.name }}&amp;in_loc={{ location }}&amp;st={{ format_datetime(object.event_id.date_begin, tz='UTC', dt_format='yyyyMMdd\\'T\\'HHmmss') }}&amp;et={{ format_datetime(object.event_id.date_end, tz='UTC', dt_format='yyyyMMdd\\'T\\'HHmmss') }}\" style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;\" target=\"new\">\n"
 "                            <img src=\"/web_editor/font_to_img/61525/rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" alt=\"\"/> Yahoo\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                        <strong>Voeg dit evenement toe aan je agenda</strong>"
@@ -3547,6 +3619,9 @@ msgstr ""
 "\"/web_editor/font_to_img/61525/rgb(135,90,123)/16\" style=\"vertical-"
 "align:middle;\" height=\"16\" alt=\"\"/> Yahoo\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3563,7 +3638,12 @@ msgstr ""
 "                       <t t-else=\"\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Het <t t-out=\"object.event_id.name or ''\">OpenWood Collectie Online Onthullingsteam</t> \n"
+=======
+"                            Het <t t-out=\"object.event_id.name or ''\""
+">OpenWood Collectie Online Onthullingsteam</t> \n"
+>>>>>>> upstream/18.0
 =======
 "                            Het <t t-out=\"object.event_id.name or ''\""
 ">OpenWood Collectie Online Onthullingsteam</t> \n"
@@ -3579,7 +3659,13 @@ msgstr ""
 "                <tr><td style=\"text-align:center;\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -3599,7 +3685,13 @@ msgstr ""
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing="
+"\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px "
+"0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing="
 "\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px "
@@ -3614,6 +3706,7 @@ msgstr ""
 "                    <table style=\"width:100%;\">\n"
 "                        <tr>\n"
 "                            <td style=\"vertical-align:top;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
@@ -3668,6 +3761,8 @@ msgstr ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name\">Argentinië</div>\n"
 "                                        <t t-set=\"location\" t-valuef=\"{{location}}, {{object.event_id.address_id.country_id.name}}\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                                <img src="
@@ -3765,6 +3860,9 @@ msgstr ""
 "                                        <t t-set=\"location\" t-valuef="
 "\"{{location}}, {{object.event_id.address_id.country_id.name}}\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3778,7 +3876,13 @@ msgstr ""
 "                    <t t-if=\"event_organizer\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -3798,6 +3902,7 @@ msgstr ""
 "                        <div>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Vragen over dit evenement?</span>\n"
 "                            <div>Neem dan contact op met de organisator:</div>\n"
 "                            <ul>\n"
@@ -3808,6 +3913,8 @@ msgstr ""
 "                                <t t-if=\"event_organizer.phone\">\n"
 "                                    <li>Telefoon: <t t-out=\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                            <span style=\"font-weight:300;margin:10px 0px\""
@@ -3827,6 +3934,9 @@ msgstr ""
 "                                    <li>Telefoon: <t t-out="
 "\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3840,7 +3950,13 @@ msgstr ""
 "                    <t t-if=\"is_online or event_address\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -3860,9 +3976,12 @@ msgstr ""
 "                        <div>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <strong>Krijg de beste mobiele ervaring.</strong>\n"
 "                            <a href=\"/event\">Installeer onze mobiele app</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                            <strong>Krijg de beste mobiele ervaring.</strong>"
@@ -3870,6 +3989,9 @@ msgstr ""
 "                            <a href=\"/event\">Installeer onze mobiele "
 "app</a>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3881,7 +4003,13 @@ msgstr ""
 "                    <t t-if=\"is_online and event_address\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -3903,10 +4031,13 @@ msgstr ""
 "                                <i class=\"fa fa-map-marker\"/>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
 "                                    <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-att-src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                    <t t-else=\"\">Bekijk locatie op Google Maps</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                                <a t-attf-href="
@@ -3918,6 +4049,9 @@ msgstr ""
 "                                    <t t-else=\"\">Bekijk locatie op Google "
 "Maps</t>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3937,6 +4071,7 @@ msgstr ""
 "    <t t-if=\"object.company_id\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "            Verzonden door <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -3944,6 +4079,8 @@ msgstr ""
 "               <br/>\n"
 "                Ontdek <a href=\"/event\" style=\"color:#875A7B;\">al onze evenementen</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "        <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\""
@@ -3958,6 +4095,9 @@ msgstr ""
 "                Ontdek <a href=\"/event\" style=\"color:#875A7B;\">al onze "
 "evenementen</a>.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4853,7 +4993,11 @@ msgid "Enable or Disable Event Barcode functionality."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Schakel de functionaliteit van gebeurtenisbarcodes in of uit."
+=======
+msgstr "Schakel de functionaliteit van evenementenbarcodes in of uit."
+>>>>>>> upstream/18.0
 =======
 msgstr "Schakel de functionaliteit van evenementenbarcodes in of uit."
 >>>>>>> upstream/18.0
@@ -5385,7 +5529,11 @@ msgid "Event: Registration Confirmation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evenement: registratiebevestiging"
+=======
+msgstr "Evenement: Registratiebevestiging"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evenement: Registratiebevestiging"
 >>>>>>> upstream/18.0
@@ -5643,7 +5791,11 @@ msgid "For any additional information, please contact us at"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Voor meer informatie kun je ons contacteren op"
+=======
+msgstr "Voor meer informatie kun je contact met ons opnemen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Voor meer informatie kun je contact met ons opnemen"
 >>>>>>> upstream/18.0
@@ -5771,7 +5923,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Voor elk evenement kun je een maximaal aantal inschrijvingen of plaats "
+=======
+"Voor elk evenement kun je een maximaal aantal inschrijvingen of plaatsen "
+>>>>>>> upstream/18.0
 =======
 "Voor elk evenement kun je een maximaal aantal inschrijvingen of plaatsen "
 >>>>>>> upstream/18.0
@@ -6708,7 +6864,11 @@ msgid "Number of Taken Seats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aantal ingenomen zitplaatsen"
+=======
+msgstr "Aantal bezette plaatsen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aantal bezette plaatsen"
 >>>>>>> upstream/18.0
@@ -7434,7 +7594,11 @@ msgid "Sell tickets with Point of Sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tickets met Kassa verkopen"
+=======
+msgstr "Verkoop tickets via kassa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verkoop tickets via kassa"
 >>>>>>> upstream/18.0
@@ -7783,7 +7947,11 @@ msgstr "Standaard"
 msgid "Start Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Begindatum"
+=======
+msgstr "Startdatum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Startdatum"
 >>>>>>> upstream/18.0
@@ -7837,7 +8005,11 @@ msgstr ""
 "Te laat: Datum is al gepasseerd\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vandaag: Activiteit datum is vandaag\n"
+=======
+"Vandaag: Datum van activiteit is vandaag\n"
+>>>>>>> upstream/18.0
 =======
 "Vandaag: Datum van activiteit is vandaag\n"
 >>>>>>> upstream/18.0
@@ -7921,7 +8093,11 @@ msgid "Taken Seats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zitplaatsen ingenomen"
+=======
+msgstr "Bezette plaatsen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bezette plaatsen"
 >>>>>>> upstream/18.0
@@ -8102,7 +8278,11 @@ msgstr ""
 msgid "The closing date cannot be earlier than the beginning date."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "De einddatum kan niet voor de begindatum vallen."
+=======
+msgstr "De einddatum kan niet voor de startdatum vallen."
+>>>>>>> upstream/18.0
 =======
 msgstr "De einddatum kan niet voor de startdatum vallen."
 >>>>>>> upstream/18.0
@@ -8526,7 +8706,11 @@ msgid "Use Event Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gebruik gebeurtenisbarcode"
+=======
+msgstr "Gebruik evenementenbarcode"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gebruik evenementenbarcode"
 >>>>>>> upstream/18.0
@@ -8788,7 +8972,11 @@ msgid "Used Seats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gebruikte stoelen"
+=======
+msgstr "Gebruikte plaatsen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gebruikte plaatsen"
 >>>>>>> upstream/18.0
@@ -9068,7 +9256,11 @@ msgid "Whether seats are not available for this ticket."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Of er geen zitplaatsen beschikbaar zijn voor dit ticket."
+=======
+msgstr "Of er geen plaatsen beschikbaar zijn voor dit ticket."
+>>>>>>> upstream/18.0
 =======
 msgstr "Of er geen plaatsen beschikbaar zijn voor dit ticket."
 >>>>>>> upstream/18.0

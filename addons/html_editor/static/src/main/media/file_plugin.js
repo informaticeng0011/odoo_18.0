@@ -36,6 +36,11 @@ export class FilePlugin extends Plugin {
         selectors_for_feff_providers: () => ".o_file_box",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        functional_empty_node_predicates: (node) =>
+            node?.nodeName === "SPAN" && node.classList.contains("o_file_box"),
+>>>>>>> upstream/18.0
 =======
         functional_empty_node_predicates: (node) =>
             node?.nodeName === "SPAN" && node.classList.contains("o_file_box"),
@@ -120,8 +125,13 @@ export class FilePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { name: filename, mimetype } = attachment;
         return renderStaticFileBox(filename, mimetype, url);
+=======
+        const { name: filename, mimetype, id } = attachment;
+        return renderStaticFileBox(filename, mimetype, url, id);
+>>>>>>> upstream/18.0
 =======
         const { name: filename, mimetype, id } = attachment;
         return renderStaticFileBox(filename, mimetype, url, id);

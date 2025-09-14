@@ -39,7 +39,10 @@ test("no conflicts between file uploads", async () => {
     await contains(".o-mail-ChatWindow .o-mail-AttachmentCard");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     await contains(
@@ -49,6 +52,9 @@ test("no conflicts between file uploads", async () => {
         ".o-mail-ChatWindow .o-mail-AttachmentCard:not(.o-isUploading):contains(text2.txt)"
     );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64,7 +70,11 @@ test("Attachment shows spinner during upload", async () => {
     await inputFiles(".o-mail-Composer input[type=file]", [text2]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard .fa-spinner");
+=======
+    await contains(".o-mail-AttachmentCard.o-isUploading:contains(text2.txt) .fa-spinner");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-AttachmentCard.o-isUploading:contains(text2.txt) .fa-spinner");
 >>>>>>> upstream/18.0

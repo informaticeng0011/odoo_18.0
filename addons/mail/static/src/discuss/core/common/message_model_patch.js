@@ -14,7 +14,11 @@ patch(Message.prototype, {
         const allChannels = this.store.Thread.insert([...validChannels, ...mentionedChannels]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super.edit(body, attachments, {
+=======
+        return await super.edit(body, attachments, {
+>>>>>>> upstream/18.0
 =======
         return await super.edit(body, attachments, {
 >>>>>>> upstream/18.0

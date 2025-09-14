@@ -269,6 +269,7 @@ class SEOPreview extends Component {
     get description() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.props.description.length > 160) {
             return this.props.description.substring(0, 159) + '…';
         }
@@ -276,11 +277,16 @@ class SEOPreview extends Component {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (this.props.description?.length > 160) {
             return this.props.description.substring(0, 159) + '…';
         }
         return this.props.description || "";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -129,8 +129,11 @@ class IrUiView(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tree = html.fromstring(lang_value)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         try:
@@ -139,6 +142,9 @@ class IrUiView(models.Model):
             raise ValidationError(str(e))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

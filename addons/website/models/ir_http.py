@@ -341,7 +341,12 @@ class Http(models.AbstractModel):
             response = request.render(page.view_id.id, {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'main_object': page,
+=======
+                # See REVIEW_CAN_PUBLISH_UNSUDO
+                'main_object': page.with_context(can_publish_unsudo_main_object=True),
+>>>>>>> upstream/18.0
 =======
                 # See REVIEW_CAN_PUBLISH_UNSUDO
                 'main_object': page.with_context(can_publish_unsudo_main_object=True),

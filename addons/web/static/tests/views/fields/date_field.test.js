@@ -505,7 +505,10 @@ test("date field with max_precision option", async () => {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -548,6 +551,9 @@ test("DateField with onchange forcing a specific date", async () => {
     expect(".o_field_date input").toHaveValue("05/04/2009"); // value forced by the onchange
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

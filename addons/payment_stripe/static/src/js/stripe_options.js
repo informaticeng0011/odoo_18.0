@@ -11,13 +11,19 @@ export class StripeOptions {
      */
     _prepareStripeOptions(processingValues) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             'apiVersion': '2019-05-16',  // The API version of Stripe implemented in this module.
 =======
+=======
+>>>>>>> upstream/18.0
         const locale = document.documentElement.lang;
         return {
             'apiVersion': '2019-05-16',  // The API version of Stripe implemented in this module.
             ...(locale ? { locale } : {}),  // Default to browser locale if not set.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         };
     };

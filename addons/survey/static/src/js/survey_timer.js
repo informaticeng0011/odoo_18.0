@@ -29,6 +29,7 @@ publicWidget.registry.SurveyTimerWidget = publicWidget.Widget.extend({
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     * Two responsabilities : Validate that time limit is not exceeded and Run timer otherwise.
     * If end-user's clock OR the system clock  is de-synchronized before the survey is started, we apply the
     * difference in timer (if time difference is more than 5 seconds) so that we can
@@ -36,11 +37,16 @@ publicWidget.registry.SurveyTimerWidget = publicWidget.Widget.extend({
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     * Two responsibilities: Validate that the time limit is not exceeded and Run timer otherwise.
     * If the end-user's clock OR the system clock is desynchronized,
     * we apply the difference in the clocks (if the time difference is more than 500 ms).
     * This makes the timer fair across users and helps avoid early submissions to the server.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55,7 +61,11 @@ publicWidget.registry.SurveyTimerWidget = publicWidget.Widget.extend({
             });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (Math.abs(self.timeDifference) >= 5000) {
+=======
+            if (Math.abs(self.timeDifference) >= 500) {
+>>>>>>> upstream/18.0
 =======
             if (Math.abs(self.timeDifference) >= 500) {
 >>>>>>> upstream/18.0

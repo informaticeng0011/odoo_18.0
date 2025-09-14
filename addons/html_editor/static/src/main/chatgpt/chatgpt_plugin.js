@@ -73,7 +73,11 @@ export class ChatGPTPlugin extends Plugin {
         const cannotReplace = this.dependencies.selection
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             .getTraversedNodes()
+=======
+            .getTargetedNodes()
+>>>>>>> upstream/18.0
 =======
             .getTargetedNodes()
 >>>>>>> upstream/18.0

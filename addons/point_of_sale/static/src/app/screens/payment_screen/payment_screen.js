@@ -143,7 +143,10 @@ export class PaymentScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.pos.addPendingOrder([order.id]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -599,7 +602,11 @@ export class PaymentScreen extends Component {
             if (error instanceof ConnectionLostError) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.pos.showScreen(this.nextScreen);
+=======
+                this.afterOrderValidation();
+>>>>>>> upstream/18.0
 =======
                 this.afterOrderValidation();
 >>>>>>> upstream/18.0
@@ -657,7 +664,10 @@ export class PaymentScreen extends Component {
                     this.currentOrder.set_screen_data({ name: "" });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.currentOrder.uiState.locked = true;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -676,7 +686,10 @@ export class PaymentScreen extends Component {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -684,6 +697,9 @@ export class PaymentScreen extends Component {
             this.pos.checkPreparationStateAndSentOrderInPreparation(this.currentOrder);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -694,7 +710,11 @@ export class PaymentScreen extends Component {
         } else {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.pos.add_new_order();
+=======
+            this.pos.selectEmptyOrder();
+>>>>>>> upstream/18.0
 =======
             this.pos.selectEmptyOrder();
 >>>>>>> upstream/18.0
@@ -913,7 +933,10 @@ export class PaymentScreen extends Component {
         line.set_payment_status("done");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const config = this.pos.config;
@@ -927,6 +950,9 @@ export class PaymentScreen extends Component {
             this.validateOrder(true);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

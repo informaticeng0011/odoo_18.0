@@ -94,7 +94,10 @@ describe("findAdjacentPosition method", () => {
             });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             test("Should find position before filebox", async () => {
@@ -107,6 +110,9 @@ describe("findAdjacentPosition method", () => {
                 );
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

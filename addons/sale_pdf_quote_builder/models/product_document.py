@@ -45,7 +45,12 @@ class ProductDocument(models.Model):
                 raise ValidationError(_("Only PDF documents can be attached inside a quote."))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             utils._ensure_document_not_encrypted(base64.b64decode(doc.datas))
+=======
+            if doc.datas:
+                utils._ensure_document_not_encrypted(base64.b64decode(doc.datas))
+>>>>>>> upstream/18.0
 =======
             if doc.datas:
                 utils._ensure_document_not_encrypted(base64.b64decode(doc.datas))
@@ -64,7 +69,11 @@ class ProductDocument(models.Model):
         document_to_parse = self.filtered(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             lambda doc: doc.attached_on_sale == 'inside' and doc.datas
+=======
+            lambda doc: doc.attached_on_sale == 'inside' and doc.datas and doc.mimetype and doc.mimetype.endswith('pdf')
+>>>>>>> upstream/18.0
 =======
             lambda doc: doc.attached_on_sale == 'inside' and doc.datas and doc.mimetype and doc.mimetype.endswith('pdf')
 >>>>>>> upstream/18.0

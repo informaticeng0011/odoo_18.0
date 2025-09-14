@@ -54,7 +54,10 @@ class TestMrpRepairFlow(TestMrpCommon):
         self.assertEqual(repair.production_count, 1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -87,6 +90,9 @@ class TestMrpRepairFlow(TestMrpCommon):
             set(self.product_5.bom_ids.bom_line_ids.product_id.ids)
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

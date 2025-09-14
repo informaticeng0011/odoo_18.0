@@ -232,7 +232,10 @@ class WebsitePublishedMixin(models.AbstractModel):
                 # to be accessible
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 # TODO in master, instead of this we should ensure main_object
@@ -240,6 +243,9 @@ class WebsitePublishedMixin(models.AbstractModel):
                 # renderings, and sudo() only the required operations if needed.
                 # See REVIEW_CAN_PUBLISH_UNSUDO
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -377,7 +383,11 @@ class WebsiteSearchableMixin(models.AbstractModel):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         count = model.search_count(domain)
+=======
+        count = model.search_count(domain) if limit and limit == len(results) else len(results)
+>>>>>>> upstream/18.0
 =======
         count = model.search_count(domain) if limit and limit == len(results) else len(results)
 >>>>>>> upstream/18.0

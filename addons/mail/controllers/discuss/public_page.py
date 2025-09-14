@@ -53,7 +53,12 @@ class PublicPageController(http.Controller):
     @add_guest_to_context
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def discuss_channel(self, channel_id):
+=======
+    def discuss_channel(self, channel_id, *, highlight_message_id=None):
+        # highlight_message_id is used JS side by parsing the query string
+>>>>>>> upstream/18.0
 =======
     def discuss_channel(self, channel_id, *, highlight_message_id=None):
         # highlight_message_id is used JS side by parsing the query string

@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20,12 +23,15 @@ class FleetVehicleAssignationLog(models.Model):
     def _compute_driver_employee_id(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         employees = self.env['hr.employee'].search([('work_contact_id', 'in', self.driver_id.ids)])
 
         for log in self:
             employee = employees.filtered(lambda e: e.work_contact_id.id == log.driver_id.id)
             log.driver_employee_id = employee and employee[0] or False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         employees_by_partner_id_and_company_id = self.env['hr.employee']._read_group(
@@ -40,6 +46,9 @@ class FleetVehicleAssignationLog(models.Model):
             employees = employees_by_partner_id_and_company_id.get((log.driver_id, log.vehicle_id.company_id))
             log.driver_employee_id = employees[0] if employees else False
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

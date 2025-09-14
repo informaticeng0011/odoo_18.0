@@ -6,7 +6,11 @@ from lxml import etree
 from odoo.fields import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, TransactionCase
+=======
+from odoo.tests import Form, TransactionCase, new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, TransactionCase, new_test_user
 >>>>>>> upstream/18.0
@@ -103,7 +107,10 @@ class TestCommonTimesheet(TransactionCase):
         })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.project = cls.env['project.project'].create({
@@ -125,6 +132,9 @@ class TestCommonTimesheet(TransactionCase):
             groups='hr_timesheet.group_timesheet_manager'
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -136,6 +146,11 @@ class TestTimesheet(TestCommonTimesheet):
         super(TestTimesheet, self).setUp()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Make sure to clean the plan fields
+        self.env.registry.setup_models(self.env.cr)
+>>>>>>> upstream/18.0
 =======
         # Make sure to clean the plan fields
         self.env.registry.setup_models(self.env.cr)
@@ -437,7 +452,10 @@ class TestTimesheet(TestCommonTimesheet):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_compute_display_name(self):
@@ -449,6 +467,9 @@ class TestTimesheet(TestCommonTimesheet):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -835,7 +856,10 @@ class TestTimesheet(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -923,6 +947,7 @@ class TestTimesheet(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -937,6 +962,8 @@ class TestTimesheet(TestCommonTimesheet):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -958,6 +985,9 @@ class TestTimesheet(TestCommonTimesheet):
         }
         self.assertEqual(line.amount, -5)  # the line is split in 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

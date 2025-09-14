@@ -16,6 +16,10 @@ export class Many2ManyCheckboxesField extends Component {
         domain: { type: [Array, Function], optional: true },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        context: { type: Object, optional: true },
+>>>>>>> upstream/18.0
 =======
         context: { type: Object, optional: true },
 >>>>>>> upstream/18.0
@@ -30,7 +34,13 @@ export class Many2ManyCheckboxesField extends Component {
             const domain = getFieldDomain(props.record, props.name, props.domain);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return orm.call(relation, "name_search", ["", domain]);
+=======
+            return orm.call(relation, "name_search", ["", domain], {
+                context: this.props.context || {},
+            });
+>>>>>>> upstream/18.0
 =======
             return orm.call(relation, "name_search", ["", domain], {
                 context: this.props.context || {},
@@ -101,6 +111,10 @@ export const many2ManyCheckboxesField = {
             domain: dynamicInfo.domain,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            context: dynamicInfo.context,
+>>>>>>> upstream/18.0
 =======
             context: dynamicInfo.context,
 >>>>>>> upstream/18.0

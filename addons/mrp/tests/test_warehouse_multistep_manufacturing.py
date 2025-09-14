@@ -18,6 +18,11 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
         cls.env.user.groups_id += cls.env.ref('stock.group_adv_location')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Required for `product_id` to be visible in the view
+        cls.env.user.groups_id += cls.env.ref('product.group_product_variant')
+>>>>>>> upstream/18.0
 =======
         # Required for `product_id` to be visible in the view
         cls.env.user.groups_id += cls.env.ref('product.group_product_variant')
@@ -831,7 +836,10 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -929,6 +937,7 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -967,6 +976,8 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -985,6 +996,9 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
         self.assertEqual(mo.state, 'confirmed')
         self.assertEqual(lovely_product.with_context(location_id=self.warehouse_1.lot_stock_id.id).virtual_available, 3.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

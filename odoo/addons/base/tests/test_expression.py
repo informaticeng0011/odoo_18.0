@@ -1003,8 +1003,11 @@ class TestExpression(SavepointCaseWithUserDemo, TransactionExpressionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertRaisesRegex(ValueError, r"^stray % in format '%'$"):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         with self.assertRaisesRegex(
@@ -1012,6 +1015,9 @@ class TestExpression(SavepointCaseWithUserDemo, TransactionExpressionCase):
                 r"^(time data 'foo' does not match|stray % in) format '%'$",
         ):
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -5,7 +5,11 @@ from datetime import timedelta
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields
+=======
+from odoo import fields, Command
+>>>>>>> upstream/18.0
 =======
 from odoo import fields, Command
 >>>>>>> upstream/18.0
@@ -189,7 +193,10 @@ class TestSaleMrpLeadTime(TestStockCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -233,6 +240,9 @@ class TestSaleMrpLeadTime(TestStockCommon):
         order.action_confirm()
         self.assertEqual(order.mrp_production_ids.date_finished, order.date_order - timedelta(days=3))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

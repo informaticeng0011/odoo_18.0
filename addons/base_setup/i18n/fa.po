@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
+<<<<<<< HEAD
 # 
 # Translators:
 # zakariya moradi, 2025
 # Tiffany Chang, 2025
 # 
+=======
+#
+# Translators:
+# zakariya moradi, 2025
+# Tiffany Chang, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Tiffany Chang, 2025\n"
@@ -18,12 +27,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
+=======
+"POT-Creation-Date: 2025-09-12 01:50+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Tiffany Chang, 2025\n"
+"Language-Team: Persian (https://app.transifex.com/odoo/teams/41243/fa/)\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
 msgstr "<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
+=======
+msgid ""
+"<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -31,7 +57,12 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"active_user_count &gt; 1\">\n"
 "                                        Active User\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"active_user_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"active_user_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Active Users\n"
 "                                    </span>"
 msgstr ""
@@ -48,7 +79,12 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"company_count &gt; 1\">\n"
 "                                        Company\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"company_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"company_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Companies\n"
 "                                    </span>\n"
 "                                    <br/>"
@@ -67,7 +103,12 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"language_count &gt; 1\">\n"
 "                                            Language\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_form_label\" invisible=\"language_count &lt;= 1\">\n"
+=======
+"                                        <span class=\"o_form_label\" "
+"invisible=\"language_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Languages\n"
 "                                        </span>"
 msgstr ""
@@ -98,8 +139,12 @@ msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+<<<<<<< HEAD
 msgid ""
 "<strong>Save</strong> this page and come back here to set up reCaptcha."
+=======
+msgid "<strong>Save</strong> this page and come back here to set up reCaptcha."
+>>>>>>> upstream/18.0
 msgstr ""
 "<strong>ذخیره</strong> این صفحه و به اینجا بازگردید تا reCaptcha را تنظیم "
 "کنید."
@@ -122,8 +167,13 @@ msgid ""
 "API Keys allow your users to access Odoo with external tools when multi-"
 "factor authentication is enabled."
 msgstr ""
+<<<<<<< HEAD
 "کلیدهای API به کاربران شما این امکان را می‌دهند که با ابزارهای خارجی به Odoo"
 " دسترسی پیدا کنند، زمانی که احراز هویت چندمرحله‌ای فعال باشد."
+=======
+"کلیدهای API به کاربران شما این امکان را می‌دهند که با ابزارهای خارجی به Odoo "
+"دسترسی پیدا کنند، زمانی که احراز هویت چندمرحله‌ای فعال باشد."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -243,8 +293,13 @@ msgid ""
 "Configure company rules to automatically create SO/PO when one of your "
 "company sells/buys to another of your company."
 msgstr ""
+<<<<<<< HEAD
 "شرایط شرکت را تنظیم کنید تا به‌طور خودکار هنگام فروش یا خرید یکی از شرکت‌های"
 " شما از دیگری، سفارش فروش (SO) یا سفارش خرید (PO) ایجاد شود."
+=======
+"شرایط شرکت را تنظیم کنید تا به‌طور خودکار هنگام فروش یا خرید یکی از شرکت‌های "
+"شما از دیگری، سفارش فروش (SO) یا سفارش خرید (PO) ایجاد شود."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -359,6 +414,14 @@ msgid "Is Root Company"
 msgstr "شرکت مادر است"
 
 #. module: base_setup
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:base_setup.model_kpi_provider
+msgid "KPI Provider"
+msgstr ""
+
+#. module: base_setup
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_auth_ldap
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "LDAP Authentication"
@@ -519,8 +582,12 @@ msgid ""
 "This name will be used for the application when Odoo is installed through "
 "the browser."
 msgstr ""
+<<<<<<< HEAD
 "این نام برای برنامه زمانی که Odoo از طریق مرورگر نصب می‌شود، استفاده خواهد "
 "شد."
+=======
+"این نام برای برنامه زمانی که Odoo از طریق مرورگر نصب می‌شود، استفاده خواهد شد."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_web_unsplash
@@ -576,8 +643,19 @@ msgid ""
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
+<<<<<<< HEAD
 "هنگام پر کردن دفترچه آدرس خود، Odoo فهرستی از شرکت‌های مطابقت‌دهنده را ارائه"
 " می‌دهد. با انتخاب یک مورد، داده‌ها و لوگوی شرکت به‌صورت خودکار پر می‌شوند."
+=======
+"هنگام پر کردن دفترچه آدرس خود، Odoo فهرستی از شرکت‌های مطابقت‌دهنده را ارائه "
+"می‌دهد. با انتخاب یک مورد، داده‌ها و لوگوی شرکت به‌صورت خودکار پر می‌شوند."
+
+#. module: base_setup
+#. odoo-python
+#: code:addons/base_setup/models/res_users.py:0
+msgid "You have to install the Discuss application to use this feature."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_recaptcha

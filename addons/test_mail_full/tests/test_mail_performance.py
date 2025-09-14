@@ -11,6 +11,10 @@ from odoo.tests import tagged
 from odoo.tools import mute_logger
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.mimetypes import magic
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.mimetypes import magic
 >>>>>>> upstream/18.0
@@ -258,6 +262,10 @@ class TestPortalFormatPerformance(FullBaseMailPerformance):
             self.assertEqual(len(format_res['attachment_ids']), 2)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expected_mimetype = 'text/plain' if magic else 'application/octet-stream'
+>>>>>>> upstream/18.0
 =======
             expected_mimetype = 'text/plain' if magic else 'application/octet-stream'
 >>>>>>> upstream/18.0
@@ -274,7 +282,11 @@ class TestPortalFormatPerformance(FullBaseMailPerformance):
                         'id': message.attachment_ids[0].id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'mimetype': 'application/octet-stream',
+=======
+                        'mimetype': expected_mimetype,
+>>>>>>> upstream/18.0
 =======
                         'mimetype': expected_mimetype,
 >>>>>>> upstream/18.0
@@ -291,7 +303,11 @@ class TestPortalFormatPerformance(FullBaseMailPerformance):
                         'id': message.attachment_ids[1].id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'mimetype': 'application/octet-stream',
+=======
+                        'mimetype': expected_mimetype,
+>>>>>>> upstream/18.0
 =======
                         'mimetype': expected_mimetype,
 >>>>>>> upstream/18.0

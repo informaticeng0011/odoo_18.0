@@ -276,6 +276,7 @@ test("Chat is added to discuss on other tab that the one that joined", async () 
     await openDiscuss(undefined, { target: env2 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(".o-mail-DiscussSidebarCategory-chat .o-mail-DiscussSidebarCategory-add", {
         target: env1,
     });
@@ -287,6 +288,8 @@ test("Chat is added to discuss on other tab that the one that joined", async () 
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await click(
         `${env1.selector} .o-mail-DiscussSidebarCategory-chat .o-mail-DiscussSidebarCategory-add`
     );
@@ -296,6 +299,9 @@ test("Chat is added to discuss on other tab that the one that joined", async () 
     await contains(`${env1.selector} .o-mail-DiscussSidebarChannel`, { text: "Jerry Golay" });
     await contains(`${env2.selector} .o-mail-DiscussSidebarChannel`, { text: "Jerry Golay" });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

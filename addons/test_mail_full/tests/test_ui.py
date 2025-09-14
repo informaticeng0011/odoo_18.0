@@ -2,6 +2,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from urllib.parse import urlencode
+
+>>>>>>> upstream/18.0
 =======
 from urllib.parse import urlencode
 
@@ -18,7 +23,13 @@ from odoo.addons.test_mail_full.tests.test_portal import TestPortal
 class TestUIPortal(TestPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_star_message(self):
+=======
+
+    def setUp(self):
+        super().setUp()
+>>>>>>> upstream/18.0
 =======
 
     def setUp(self):
@@ -40,6 +51,11 @@ class TestUIPortal(TestPortal):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def test_star_message(self):
+>>>>>>> upstream/18.0
 =======
 
     def test_star_message(self):
@@ -55,7 +71,10 @@ class TestUIPortal(TestPortal):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -82,6 +101,9 @@ class TestUIPortal(TestPortal):
             "portal_rating_tour",
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

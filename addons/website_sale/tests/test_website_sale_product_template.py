@@ -47,7 +47,10 @@ class TestWebsiteSaleProductTemplate(WebsiteSaleCommon):
         self.assertEqual(configurator_data['currency_name'], 'EUR')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -64,6 +67,9 @@ class TestWebsiteSaleProductTemplate(WebsiteSaleCommon):
             "All products from archived product templates should be removed from the cart.",
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

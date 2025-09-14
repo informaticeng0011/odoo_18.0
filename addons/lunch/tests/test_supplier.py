@@ -246,7 +246,10 @@ env['lunch.supplier'].browse([{self.supplier_kothai.id}])._send_auto_email()""")
         self.assertFalse(supplier.topping_ids_3)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -265,6 +268,9 @@ env['lunch.supplier'].browse([{self.supplier_kothai.id}])._send_auto_email()""")
         order.action_order()
         self.assertEqual(order.state, "ordered")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

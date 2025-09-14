@@ -3,6 +3,7 @@
     'author': 'Odoo',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'name': 'Greece - MyDATA',
     'version': '1.0',
     'category': 'Accounting/Localizations',
@@ -12,6 +13,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     'name': 'Greece - myDATA',
     'version': '1.0',
     'category': 'Accounting/Localizations',
@@ -19,6 +22,9 @@
     'description': """
         myDATA is a platform created by Greece's tax authority,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39,6 +45,10 @@
         'views/res_company_views.xml',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'views/res_config_settings_views.xml',
+>>>>>>> upstream/18.0
 =======
         'views/res_config_settings_views.xml',
 >>>>>>> upstream/18.0

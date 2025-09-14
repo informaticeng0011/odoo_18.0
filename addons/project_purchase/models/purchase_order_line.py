@@ -13,12 +13,15 @@ class PurchaseOrderLine(models.Model):
         for line in self:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if line.display_type or line.analytic_distribution:
                 continue
             project_id = line._context.get('project_id')
             project = ProjectProject.browse(project_id) if project_id else line.order_id.project_id
             if project:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             project_id = line._context.get('project_id')
@@ -38,6 +41,9 @@ class PurchaseOrderLine(models.Model):
                     }
             else:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

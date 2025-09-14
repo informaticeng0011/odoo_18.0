@@ -118,7 +118,10 @@ class Shell(Command):
                 local_vars['self'] = env.user
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 # context_get() has started the transaction already. Rollback to
@@ -126,6 +129,9 @@ class Shell(Command):
                 # from odoo.tests.shell.run_tests if the user hasn't done anything.
                 cr.rollback()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

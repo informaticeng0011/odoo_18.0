@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_recruitment_survey
 # 
 # Translators:
@@ -9,6 +10,8 @@
 # Larissa Manderfeld, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # * hr_recruitment_survey
@@ -19,6 +22,9 @@
 #
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27,6 +33,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -38,6 +45,8 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-05 22:20+0000\n"
@@ -52,6 +61,9 @@ msgstr ""
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86,6 +98,7 @@ msgstr ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Estimado/a <t t-out=\"object.partner_id.name or 'applicant'\">[nombre del candidato]</t><br><br>\n"
 "        <t>\n"
 "            Avanzó en el proceso de reclutamiento y nos gustaría que respondiera algunas preguntas.\n"
@@ -93,6 +106,8 @@ msgstr ""
 "        <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "        Estimado/a <t t-out=\"object.partner_id.name or 'applicant'\">"
@@ -106,6 +121,9 @@ msgstr ""
 "color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px; font-size:13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -117,7 +135,12 @@ msgstr ""
 "        <t t-if=\"object.deadline\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Responda el cuestionario antes del <t t-out=\"format_date(object.deadline)\">[fecha límite]</t>.<br><br>\n"
+=======
+"            Responda el cuestionario antes del <t t-out="
+"\"format_date(object.deadline)\">[fecha límite]</t>.<br><br>\n"
+>>>>>>> upstream/18.0
 =======
 "            Responda el cuestionario antes del <t t-out="
 "\"format_date(object.deadline)\">[fecha límite]</t>.<br><br>\n"

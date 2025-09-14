@@ -39,7 +39,11 @@ export class MailComposerTemplateSelector extends Component {
                 ["model", "=", this.props.record.data.render_model],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ["user_id", "!=", user.userId]
+=======
+                ["user_id", "=", false]
+>>>>>>> upstream/18.0
 =======
                 ["user_id", "=", false]
 >>>>>>> upstream/18.0

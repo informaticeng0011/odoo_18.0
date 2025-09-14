@@ -48,11 +48,14 @@ class Job(models.Model):
         readonly=True, store=True)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     user_id = fields.Many2one('res.users', "Recruiter",
         domain="[('share', '=', False), ('company_ids', 'in', company_id)]", default=lambda self: self.env.user,
         tracking=True, help="The Recruiter will be the default value for all Applicants in this job \
             position. The Recruiter is automatically added to all meetings with the Applicant.")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     user_id = fields.Many2one(
@@ -65,6 +68,9 @@ class Job(models.Model):
     )
     allowed_user_ids = fields.Many2many('res.users', compute='_compute_allowed_user_ids', readonly=True)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -76,8 +82,11 @@ class Job(models.Model):
     favorite_user_ids = fields.Many2many('res.users', 'job_favorite_user_rel', 'job_id', 'user_id', default=_get_default_favorite_user_ids)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     interviewer_ids = fields.Many2many('res.users', string='Interviewers', domain="[('share', '=', False), ('company_ids', 'in', company_id)]", help="The Interviewers set on the job position can see all Applicants in it. They have access to the information, the attachments, the meeting management and they can refuse him. You don't need to have Recruitment rights to be set as an interviewer.")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     interviewer_ids = fields.Many2many(
@@ -87,6 +96,9 @@ class Job(models.Model):
         help="The Interviewers set on the job position can see all Applicants in it. They have access to the information, the attachments, the meeting management and they can refuse him. You don't need to have Recruitment rights to be set as an interviewer.",
     )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -167,7 +179,10 @@ class Job(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @api.depends("company_id")
@@ -193,6 +208,9 @@ class Job(models.Model):
             job.allowed_user_ids = users_by_company.get(job.company_id, all_users)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

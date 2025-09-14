@@ -28,6 +28,7 @@ test("Messages are received cross-tab", async () => {
     await openDiscuss(channelId, { target: env2 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await insertText(".o-mail-Composer-input", "Hello World!", { target: env1 });
     await click("button[aria-label='Send']:enabled", { target: env1 });
     await contains(".o-mail-Message-content", { target: env1, text: "Hello World!" });
@@ -35,11 +36,16 @@ test("Messages are received cross-tab", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await insertText(`${env1.selector} .o-mail-Composer-input`, "Hello World!");
     await click(`${env1.selector} button[aria-label='Send']:enabled`);
     await contains(`${env1.selector} .o-mail-Message-content`, { text: "Hello World!" });
     await contains(`${env2.selector} .o-mail-Message-content`, { text: "Hello World!" });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61,6 +67,7 @@ test("Delete starred message updates counter", async () => {
     await openDiscuss(channelId, { target: env2 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-Message", { target: env1, text: "Hello World!" });
     await contains(".o-mail-Message", { target: env2, text: "Hello World!" });
     await contains("button", { target: env2, text: "Starred1" });
@@ -71,6 +78,8 @@ test("Delete starred message updates counter", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await contains(`${env1.selector} .o-mail-Message`, { text: "Hello World!" });
     await contains(`${env2.selector} .o-mail-Message`, { text: "Hello World!" });
     await contains(`${env2.selector} button`, { text: "Starred1" });
@@ -79,6 +88,9 @@ test("Delete starred message updates counter", async () => {
     await click(`${env2.selector} button`, { text: "Confirm" });
     await contains(`${env2.selector} button`, { count: 0, text: "Starred1" });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97,6 +109,7 @@ test("Thread rename", async () => {
     await openDiscuss(channelId, { target: env2 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await insertText(".o-mail-Discuss-threadName:enabled", "Sales", {
         replace: true,
         target: env1,
@@ -107,6 +120,8 @@ test("Thread rename", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await insertText(`${env1.selector} .o-mail-Discuss-threadName:enabled`, "Sales", {
         replace: true,
     });
@@ -114,6 +129,9 @@ test("Thread rename", async () => {
     await contains(`${env2.selector} .o-mail-Discuss-threadName[title='Sales']`);
     await contains(`${env2.selector} .o-mail-DiscussSidebarChannel`, { text: "Sales" });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -132,6 +150,7 @@ test("Thread description update", async () => {
     await openDiscuss(channelId, { target: env2 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await insertText(".o-mail-Discuss-threadDescription", "The very best channel", {
         replace: true,
         target: env1,
@@ -141,6 +160,8 @@ test("Thread description update", async () => {
         target: env2,
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     await insertText(
@@ -155,6 +176,9 @@ test("Thread description update", async () => {
         `${env2.selector} .o-mail-Discuss-threadDescription[title='The very best channel']`
     );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -213,7 +237,13 @@ test("Adding attachments", async () => {
     });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard", { target: env2, text: "test.txt" });
+=======
+    await contains(
+        `${env2.selector} .o-mail-AttachmentCard:not(.o-isUploading):contains(test.txt)`
+    );
+>>>>>>> upstream/18.0
 =======
     await contains(
         `${env2.selector} .o-mail-AttachmentCard:not(.o-isUploading):contains(test.txt)`
@@ -246,6 +276,7 @@ test("Remove attachment from message", async () => {
     await openDiscuss(channelId, { target: env2 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard", { target: env1, text: "test.txt" });
     await click(".o-mail-AttachmentCard-unlink", { target: env2 });
     await click(".modal-footer .btn", { text: "Ok", target: env2 });
@@ -253,11 +284,16 @@ test("Remove attachment from message", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await contains(`${env1.selector} .o-mail-AttachmentCard`, { text: "test.txt" });
     await click(`${env2.selector} .o-mail-AttachmentCard-unlink`);
     await click(`${env2.selector} .modal-footer .btn`, { text: "Ok" });
     await contains(`${env1.selector} .o-mail-AttachmentCard`, { count: 0, text: "test.txt" });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

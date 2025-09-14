@@ -40,7 +40,11 @@ class TestVNEDI(AccountTestInvoicingCommon):
             'state_id': cls.env.ref('base.state_vn_VN-HN').id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'city': 'Hoan Kiem District',
+=======
+            'city': 'Hà Nội',
+>>>>>>> upstream/18.0
 =======
             'city': 'Hà Nội',
 >>>>>>> upstream/18.0
@@ -126,8 +130,12 @@ class TestVNEDI(AccountTestInvoicingCommon):
                     'buyerEmail': 'partner_a@gmail.com',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'buyerDistrictName': 'Hà Nội',
                     'buyerCityName': 'Hoan Kiem District',
+=======
+                    'buyerCityName': 'Hà Nội',
+>>>>>>> upstream/18.0
 =======
                     'buyerCityName': 'Hà Nội',
 >>>>>>> upstream/18.0
@@ -217,6 +225,7 @@ class TestVNEDI(AccountTestInvoicingCommon):
             'unitPrice': -100.0,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'itemTotalAmountWithoutTax': -100.0,
             'taxAmount': -10.0,
             'itemTotalAmountWithTax': -110.0,
@@ -224,11 +233,16 @@ class TestVNEDI(AccountTestInvoicingCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'itemTotalAmountWithoutTax': 100.0,
             'taxAmount': 10.0,
             'itemTotalAmountWithTax': 110.0,
             'adjustmentTaxAmount': 10.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

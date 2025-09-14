@@ -72,7 +72,10 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.partner_foreign_no_state = cls.env['res.partner'].create({
@@ -82,6 +85,9 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -136,7 +142,10 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -147,6 +156,9 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
             taxes=cls.igst_sale_18,
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -74,7 +74,10 @@ class TestDownloadDocs(AccountTestInvoicingHttpCommon):
             self.assertTrue(zip_file.NameToInfo.get(self.invoices[1].invoice_pdf_report_id.name))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -89,6 +92,9 @@ class TestDownloadDocs(AccountTestInvoicingHttpCommon):
             self.assertTrue(self.invoices[0].invoice_pdf_report_id.name in file_names)
             self.assertTrue(self.invoices[1].invoice_pdf_report_id.name in file_names)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

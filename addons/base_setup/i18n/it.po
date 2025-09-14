@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -248,10 +249,19 @@
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Marianna Ciofani, 2025
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -514,6 +524,25 @@ msgstr "<span class=\"fa fa-lg fa-users\" aria-label=\"Numero di utenti attivi\"
 =======
 msgstr "<span class=\"fa fa-lg fa-users\" aria-label=\"Numero di utenti attivi\"/>"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-09-12 01:50+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+
+#. module: base_setup
+#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-users\" aria-label=\"Numero di utenti attivi\"/>"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -521,14 +550,24 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"active_user_count &gt; 1\">\n"
 "                                        Active User\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"active_user_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"active_user_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Active Users\n"
 "                                    </span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"active_user_count &gt; 1\">\n"
 "                                        Utente attivo\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"active_user_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"active_user_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Utenti attivi\n"
 "                                    </span>"
 
@@ -538,7 +577,12 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"company_count &gt; 1\">\n"
 "                                        Company\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"company_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"company_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Companies\n"
 "                                    </span>\n"
 "                                    <br/>"
@@ -546,7 +590,12 @@ msgstr ""
 "<span class=\"o_form_label\" invisible=\"company_count &gt; 1\">\n"
 "                                        Azienda\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_form_label\" invisible=\"company_count &lt;= 1\">\n"
+=======
+"                                    <span class=\"o_form_label\" "
+"invisible=\"company_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Aziende\n"
 "                                    </span>\n"
 "                                    <br/>"
@@ -557,14 +606,24 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"language_count &gt; 1\">\n"
 "                                            Language\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_form_label\" invisible=\"language_count &lt;= 1\">\n"
+=======
+"                                        <span class=\"o_form_label\" "
+"invisible=\"language_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Languages\n"
 "                                        </span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"language_count &gt; 1\">\n"
 "                                            Lingua\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_form_label\" invisible=\"language_count &lt;= 1\">\n"
+=======
+"                                        <span class=\"o_form_label\" "
+"invisible=\"language_count &lt;= 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Lingue\n"
 "                                        </span>"
 
@@ -576,8 +635,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>Salva</strong> questa pagina e torna qui per scegliere il tuo Geo "
 "Provider."
+=======
+"<strong>Salvare</strong> la pagina e ritornare qui per scegliere il "
+"fornitore di servizi geografici."
+>>>>>>> upstream/18.0
 =======
 "<strong>Salvare</strong> la pagina e ritornare qui per scegliere il "
 "fornitore di servizi geografici."
@@ -598,6 +662,7 @@ msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+<<<<<<< HEAD
 msgid ""
 "<strong>Save</strong> this page and come back here to set up reCaptcha."
 msgstr ""
@@ -610,6 +675,11 @@ msgstr ""
 =======
 "<strong>Salvare</strong> la pagina e ritornare qui per impostare reCAPTCHA."
 >>>>>>> upstream/18.0
+=======
+msgid "<strong>Save</strong> this page and come back here to set up reCaptcha."
+msgstr ""
+"<strong>Salvare</strong> la pagina e ritornare qui per impostare reCAPTCHA."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -618,8 +688,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>Salva</strong> questa pagina e ritorna qui per configurare la "
 "funzionalità."
+=======
+"Per impostare la funzionalità <strong>salvare</strong> questa pagina e "
+"ritornare qui."
+>>>>>>> upstream/18.0
 =======
 "Per impostare la funzionalità <strong>salvare</strong> questa pagina e "
 "ritornare qui."
@@ -648,7 +723,11 @@ msgstr ""
 msgid "About"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Info"
+=======
+msgstr "Informazioni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informazioni"
 >>>>>>> upstream/18.0
@@ -672,7 +751,11 @@ msgstr "Aggiungi lingue"
 msgid "Add fun feedback and motivate your employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aggiunge commenti divertenti motivando i dipendenti"
+=======
+msgstr "Aggiunge commenti divertenti per motivare i dipendenti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aggiunge commenti divertenti per motivare i dipendenti"
 >>>>>>> upstream/18.0
@@ -690,7 +773,11 @@ msgstr "Permetti l'integrazione con i mail plugin"
 msgid "Allow the users to synchronize their calendar  with Google Calendar"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Permette agli utenti di sincronizzare i calendari con Google Calendar"
+=======
+msgstr "Consente agli utenti di sincronizzare i calendari con Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Consente agli utenti di sincronizzare i calendari con Google"
 >>>>>>> upstream/18.0
@@ -714,7 +801,11 @@ msgstr "Consente agli utenti di importare dati da file CSV/XLS/XLSX/ODS"
 msgid "Allows to work in a multi currency environment"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Permette di lavorare in un ambiente multi valuta"
+=======
+msgstr "Consente di lavorare in un ambiente multi valuta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Consente di lavorare in un ambiente multi valuta"
 >>>>>>> upstream/18.0
@@ -727,8 +818,12 @@ msgstr "Consente di lavorare in un ambiente multi valuta"
 msgid "Automatically enrich your contact base with company data"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Arricchisce automaticamente il contatto di base usando i dati aziendali"
+=======
+msgstr "Arricchisce automaticamente il contatto base usando i dati aziendali"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arricchisce automaticamente il contatto base usando i dati aziendali"
 >>>>>>> upstream/18.0
@@ -758,7 +853,11 @@ msgstr ""
 msgid "Choose the layout of your documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scegliere la struttura dei documenti"
+=======
+msgstr "Scelta della struttura dei documenti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scelta della struttura dei documenti"
 >>>>>>> upstream/18.0
@@ -814,9 +913,14 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Configura le regole dell'azienda per creare automaticamente ordini di "
 "vendita/di acquisto quando una delle tue aziende vende/compra da un'altra "
 "delle tue aziende."
+=======
+"Configurazione delle regole aziendali per creare automaticamente OdV/OdA "
+"quando una delle proprie aziende vende/compra da un'altra."
+>>>>>>> upstream/18.0
 =======
 "Configurazione delle regole aziendali per creare automaticamente OdV/OdA "
 "quando una delle proprie aziende vende/compra da un'altra."
@@ -877,7 +981,11 @@ msgstr ""
 msgid "Find free high-resolution images from Unsplash"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trova immagini gratuite in alta risoluzione su Unsplash"
+=======
+msgstr "Trova immagini gratuite ad alta risoluzione su Unsplash"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trova immagini gratuite ad alta risoluzione su Unsplash"
 >>>>>>> upstream/18.0
@@ -890,7 +998,11 @@ msgstr "Trova immagini gratuite ad alta risoluzione su Unsplash"
 msgid "Footer text displayed at the bottom of all reports."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Piè di pagina visualizzato in fondo a tutti i documenti."
+=======
+msgstr "Piè di pagina visualizzato nella parte inferiore di tutti i report."
+>>>>>>> upstream/18.0
 =======
 msgstr "Piè di pagina visualizzato nella parte inferiore di tutti i report."
 >>>>>>> upstream/18.0
@@ -909,7 +1021,11 @@ msgstr "Impostazioni generali"
 msgid "GeoLocalize"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Geolocalizza"
+=======
+msgstr "Geolocalizzazione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geolocalizzazione"
 >>>>>>> upstream/18.0
@@ -963,6 +1079,14 @@ msgid "Is Root Company"
 msgstr "È azienda radice"
 
 #. module: base_setup
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:base_setup.model_kpi_provider
+msgid "KPI Provider"
+msgstr ""
+
+#. module: base_setup
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_auth_ldap
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "LDAP Authentication"
@@ -998,7 +1122,11 @@ msgstr "Gestisci aziende"
 msgid "Manage Inter Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gestione Inter Company"
+=======
+msgstr "Gestione interaziendale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gestione interaziendale"
 >>>>>>> upstream/18.0
@@ -1116,7 +1244,11 @@ msgstr "Impostazioni"
 msgid "Show Effect"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mostrare effetto"
+=======
+msgstr "Mostrare effetti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostrare effetti"
 >>>>>>> upstream/18.0
@@ -1139,8 +1271,13 @@ msgid ""
 "This name will be used for the application when Odoo is installed through "
 "the browser."
 msgstr ""
+<<<<<<< HEAD
 "Questo nome verrà utilizzato per l'applicazione quando Odoo viene installato"
 " attraverso il browser."
+=======
+"Questo nome verrà utilizzato per l'applicazione quando Odoo viene installato "
+"attraverso il browser."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_web_unsplash
@@ -1167,7 +1304,11 @@ msgstr "Accesso con account esterni (Google, Facebook ecc.)"
 msgid "Use external authentication providers (OAuth)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utilizzo di sistemi di autenticazione esterni (OAuth)"
+=======
+msgstr "Uso di fornitori di autenticazione esterni (OAuth)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uso di fornitori di autenticazione esterni (OAuth)"
 >>>>>>> upstream/18.0
@@ -1203,6 +1344,7 @@ msgid ""
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "Quando compili la tua rubrica di indirizzi, Odoo fornisce un elenco di "
@@ -1395,6 +1537,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Quando viene popolata la rubrica, Odoo fornisce un elenco di aziende "
+"corrispondenti. Selezionando una voce vengono compilati in modo automatico i "
+"dati e il logo dell'azienda."
+
+#. module: base_setup
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/base_setup/models/res_users.py:0
 msgid "You have to install the Discuss application to use this feature."
@@ -1461,6 +1610,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

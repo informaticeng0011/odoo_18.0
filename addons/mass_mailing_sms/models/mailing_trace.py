@@ -46,7 +46,10 @@ class MailingTrace(models.Model):
         ('sms_rejected', 'Rejected'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # twilio specific: to move in bridge module in master
@@ -55,6 +58,9 @@ class MailingTrace(models.Model):
         ('twilio_from_missing', 'Missing From Number'),
         ('twilio_from_to', 'From / To identic'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81,7 +87,10 @@ class MailingTrace(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @api.model
@@ -113,6 +122,9 @@ class MailingTrace(models.Model):
         return res
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

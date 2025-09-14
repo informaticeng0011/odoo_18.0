@@ -26,7 +26,11 @@
             <cbc:CityName t-out="partner.state_id.name"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <cbc:PostalZone t-out="zipcode"/>
+=======
+            <cbc:PostalZone t-out="partner.country_id.code == 'TR' and partner.zip or partner.l10n_tr_nilvera_edispatch_customs_zip"/>
+>>>>>>> upstream/18.0
 =======
             <cbc:PostalZone t-out="partner.country_id.code == 'TR' and partner.zip or partner.l10n_tr_nilvera_edispatch_customs_zip"/>
 >>>>>>> upstream/18.0
@@ -104,7 +108,11 @@
             <cbc:ID t-out="picking.picking_type_id.sequence_code"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <cbc:CopyIndicator>false</cbc:CopyIndicator>
+=======
+            <cbc:CopyIndicator t-out="copy_indicator"/>
+>>>>>>> upstream/18.0
 =======
             <cbc:CopyIndicator t-out="copy_indicator"/>
 >>>>>>> upstream/18.0
@@ -127,7 +135,10 @@
                     <t t-set="partner" t-value="current_company"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-set="zipcode" t-value="partner.zip"/>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -138,8 +149,12 @@
                 <t t-call="l10n_tr_nilvera_edispatch.nilvera_party_template">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-set="partner" t-value="picking.partner_id"/>
                     <t t-set="zipcode" t-value="partner.zip"/>
+=======
+                    <t t-set="partner" t-value="picking.partner_id.commercial_partner_id"/>
+>>>>>>> upstream/18.0
 =======
                     <t t-set="partner" t-value="picking.partner_id.commercial_partner_id"/>
 >>>>>>> upstream/18.0
@@ -153,7 +168,10 @@
                     <t t-set="partner" t-value="picking.l10n_tr_nilvera_buyer_id"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-set="zipcode" t-value="partner.country_id.code == 'TR' and partner.zip or partner.l10n_tr_nilvera_edispatch_customs_zip"/>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -165,7 +183,10 @@
                     <t t-set="partner" t-value="picking.l10n_tr_nilvera_seller_supplier_id"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-set="zipcode" t-value="partner.country_id.code == 'TR' and partner.zip or partner.l10n_tr_nilvera_edispatch_customs_zip"/>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -177,7 +198,10 @@
                     <t t-set="partner" t-value="picking.l10n_tr_nilvera_buyer_originator_id"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-set="zipcode" t-value="partner.country_id.code == 'TR' and partner.zip or partner.l10n_tr_nilvera_edispatch_customs_zip"/>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -5,6 +5,11 @@ import json
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 
@@ -39,7 +44,10 @@ class AccountMove(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def action_retry_edi_documents_error(self):
@@ -57,6 +65,9 @@ class AccountMove(models.Model):
         return super().action_retry_edi_documents_error()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
