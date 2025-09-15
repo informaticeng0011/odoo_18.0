@@ -68,6 +68,11 @@ class Page(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Note: this `if`'s purpose it to optimize the way this is computed for
+        # multiple records.
+>>>>>>> upstream/18.0
 =======
         # Note: this `if`'s purpose it to optimize the way this is computed for
         # multiple records.
@@ -200,8 +205,11 @@ class Page(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain.append([('website_published', '=', True)])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -219,6 +227,9 @@ class Page(models.Model):
             ]))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -295,6 +306,7 @@ class Page(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Search might have matched words in the xml tags and parameters therefore we make
             # sure the terms actually appear inside the text.
             text = '%s %s %s' % (page.name, page.url, text_from_html(page.arch))
@@ -303,6 +315,8 @@ class Page(models.Model):
         if search and with_description:
             results = results.filtered(lambda result: filter_page(search, result, results))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -323,6 +337,9 @@ class Page(models.Model):
         results = results.filtered(lambda result: filter_page(search, result, results))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

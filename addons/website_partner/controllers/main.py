@@ -22,7 +22,12 @@ class WebsitePartnerPage(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'main_object': partner_sudo,
+=======
+                    # See REVIEW_CAN_PUBLISH_UNSUDO
+                    'main_object': partner_sudo.with_context(can_publish_unsudo_main_object=True),
+>>>>>>> upstream/18.0
 =======
                     # See REVIEW_CAN_PUBLISH_UNSUDO
                     'main_object': partner_sudo.with_context(can_publish_unsudo_main_object=True),

@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_peppol
 # 
 # Translators:
@@ -344,6 +345,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * account_peppol
 #
 # Translators:
@@ -353,6 +356,9 @@
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -362,6 +368,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -777,6 +784,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-09-12 01:50+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-09-12 01:50+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-25 10:08+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/"
@@ -786,12 +796,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
@@ -839,6 +855,7 @@ msgstr "%s ha solicitado recibir las facturas electrónicas en Peppol."
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1203,17 +1220,23 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "                                In Belgium, electronic invoicing is "
 "<u>mandatory as of January 2026</u> - don't wait to register."
 msgstr ""
 "<br/>\n"
 "                                 En Bélgica, la facturación electrónica es "
 "<u>obligatoria a partir de enero de 2026</u>. No espere para registrarse."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_move_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> (Demo)</span>\n"
 "                    <span class=\"text-muted mx-3\" invisible=\"peppol_move_state != 'to_send'\">\n"
@@ -1223,6 +1246,8 @@ msgstr ""
 "<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> (Demostración)</span>\n"
 "                    <span class=\"text-muted mx-3\" invisible=\"peppol_move_state != 'to_send'\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> "
 "(Demo)</span>\n"
 "                    <span class=\"text-muted mx-3\" "
@@ -1234,6 +1259,9 @@ msgstr ""
 "(Demostración)</span>\n"
 "                    <span class=\"text-muted mx-3\" "
 "invisible=\"peppol_move_state != 'to_send'\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        La factura se enviará automáticamente a Peppol\n"
 "                    </span>"
@@ -1242,6 +1270,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "A participant with these details has already been registered on the network."
 <<<<<<< HEAD
@@ -1467,11 +1496,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "A participant with these details has already been registered on the network. "
 "If you have previously registered to a Peppol service, please deregister."
 msgstr ""
 "Ya hay un participante en la red registrado con estos datos. Si ya se ha "
 "registrado en un servicio Peppol, cancele su registro."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
@@ -1632,6 +1666,7 @@ msgstr "Verificar contacto(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model.fields,help:account_peppol.field_res_partner__peppol_eas
 #: model:ir.model.fields,help:account_peppol.field_res_users__peppol_eas
@@ -1647,6 +1682,8 @@ msgstr ""
 "El código que se utiliza para identificar el punto extremo para la facturación BIS 3.0 y sus derivadas.\n"
 "             La lista se encuentra disponible en https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account_peppol.field_res_partner__peppol_eas
 #: model:ir.model.fields,help:account_peppol.field_res_users__peppol_eas
 msgid ""
@@ -1658,6 +1695,9 @@ msgstr ""
 "facturación BIS 3.0 y sus derivadas.\n"
 "             La lista se encuentra disponible en https://docs.peppol.eu/"
 "poacc/billing/3.0/codelist/eas/"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
@@ -1742,8 +1782,12 @@ msgstr "Creado el"
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Customer is on Peppol but did not enable receiving documents."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "El cliente está en Peppol pero no habilitó la recepción de documentos."
+=======
+msgstr "El cliente está en Peppol pero no habilitó la recepción de documentos."
+>>>>>>> upstream/18.0
 =======
 msgstr "El cliente está en Peppol pero no habilitó la recepción de documentos."
 >>>>>>> upstream/18.0
@@ -1768,7 +1812,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0
@@ -1918,7 +1966,10 @@ msgstr "Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2129,6 +2180,9 @@ msgstr "Ocurrieron algunos errores al crear el documento EDI (formato: %s):"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2316,8 +2370,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_peppol/controllers/portal.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "If you want to be invoiced by Peppol, your configuration must be valid."
+=======
+msgid "If you want to be invoiced by Peppol, your configuration must be valid."
+>>>>>>> upstream/18.0
 =======
 msgid "If you want to be invoiced by Peppol, your configuration must be valid."
 >>>>>>> upstream/18.0
@@ -2325,6 +2383,7 @@ msgstr ""
 "Si quiere obtener una factura de Peppol, su configuración debe ser válida."
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2395,6 +2454,8 @@ msgstr ""
 " de 2026</u>."
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2608,7 +2669,10 @@ msgstr "Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2621,6 +2685,9 @@ msgstr "ID de demostración de Odoo"
 #. module: account_peppol
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2656,16 +2723,22 @@ msgstr ""
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PEPPOL is the secure standard for e-invoices used in EU and across the "
 "world."
 msgstr ""
 "PEPPOL es el estándar seguro utilizado para facturas electrónicas en la UE y"
 " en todo el mundo."
 =======
+=======
+>>>>>>> upstream/18.0
 "PEPPOL is the secure standard for e-invoices used in EU and across the world."
 msgstr ""
 "PEPPOL es el estándar seguro utilizado para facturas electrónicas en la UE y "
 "en todo el mundo."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
@@ -2761,6 +2834,7 @@ msgstr "PEPPOL: actualizar estado del participante"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "PS: <b style=\"color: $o-enterprise-action-color;\">We did not send your "
@@ -2779,6 +2853,8 @@ msgstr ""
 "color\">enviada en Peppol</b>."
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2989,6 +3065,7 @@ msgstr "Punto de conexión Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3062,6 +3139,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3229,6 +3308,9 @@ msgstr "ID de Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3381,6 +3463,11 @@ msgstr "Dirección electrónica de Peppol (EAS)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_eas
+#: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_eas
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_eas
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_eas
@@ -3451,8 +3538,12 @@ msgstr ""
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Please fill in the EAS code and the Participant ID code."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Complete el código EAS y el código de identificación del participante."
+=======
+msgstr "Complete el código EAS y el código de identificación del participante."
+>>>>>>> upstream/18.0
 =======
 msgstr "Complete el código EAS y el código de identificación del participante."
 >>>>>>> upstream/18.0
@@ -3482,17 +3573,23 @@ msgstr "Correo electrónico de contacto principal"
 #: model:ir.model.fields,help:account_peppol.field_res_company__account_peppol_contact_email
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_contact_email
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Primary contact email for Peppol-related communication"
 msgstr ""
 "Correo electrónico de contacto principal para la comunicación relacionada "
 "con Peppol"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Primary contact email for Peppol connection related communications and "
 "notifications.\n"
 "In particular, this email is used by Odoo to reconnect your Peppol account "
 "in case of database change."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
@@ -3592,11 +3689,14 @@ msgstr "Prueba"
 msgid ""
 "Test mode allows sending e-invoices through the test Peppol network.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    By clicking the button below I accept that Odoo may process my e-invoices."
 msgstr ""
 "El modo de prueba permite enviar facturas electrónicas a través de la red de prueba de Peppol.\n"
 "                                    Al hacer clic en el siguiente botón, acepto que Odoo procese mis facturas electrónicas."
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    By clicking the button below I accept "
 "that Odoo may process my e-invoices."
 msgstr ""
@@ -3604,6 +3704,9 @@ msgstr ""
 "prueba de Peppol.\n"
 "                                    Al hacer clic en el siguiente botón, "
 "acepto que Odoo procese mis facturas electrónicas."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
@@ -3701,6 +3804,7 @@ msgstr "El código de verificación no es correcto"
 #. odoo-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3842,11 +3946,15 @@ msgid ""
 =======
 "This feature is deprecated. Contact Odoo support if you need a migration key."
 >>>>>>> upstream/18.0
+=======
+"This feature is deprecated. Contact Odoo support if you need a migration key."
+>>>>>>> upstream/18.0
 msgstr ""
 "Esta función está obsoleta. Póngase en contacto con el soporte de Odoo si "
 "necesita una clave de migración."
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4057,6 +4165,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "This invoice has also been"
 msgstr "Esta factura también ha sido"
@@ -4116,6 +4226,7 @@ msgstr "Esta factura también ha sido"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4224,6 +4335,8 @@ msgstr "Esta factura también ha sido"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__phone_number
 #: model:ir.model.fields,help:account_peppol.field_res_company__account_peppol_phone_number
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_phone_number
@@ -4231,6 +4344,9 @@ msgid "This number is used for identification purposes only."
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
@@ -4245,8 +4361,13 @@ msgid ""
 "partner."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Para generar facturas electrónicas completas también tiene que configurar un"
 " país para este contacto."
+=======
+"Para generar facturas electrónicas completas también tiene que configurar un "
+"país para este contacto."
+>>>>>>> upstream/18.0
 =======
 "Para generar facturas electrónicas completas también tiene que configurar un "
 "país para este contacto."
@@ -4379,12 +4500,15 @@ msgstr "Puede enviar esta factura electrónicamente a través de Peppol."
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You registration has been rejected, the reason has been sent to you via email.\n"
 "                            Please contact our support if you need further assistance."
 msgstr ""
 "Su registro ha sido rechazado, en su correo electrónico encontrará el motivo.\n"
 "                            Contacte a nuestro equipo de soporte en caso de que necesite asistencia."
 =======
+=======
+>>>>>>> upstream/18.0
 "You registration has been rejected, the reason has been sent to you via "
 "email.\n"
 "                            Please contact our support if you need further "
@@ -4394,6 +4518,9 @@ msgstr ""
 "motivo.\n"
 "                            Contacte a nuestro equipo de soporte en caso de "
 "que necesite asistencia."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
@@ -4408,6 +4535,7 @@ msgstr ""
 
 #. module: account_peppol
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__phone_number
 #: model:ir.model.fields,help:account_peppol.field_res_company__account_peppol_phone_number
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_phone_number
@@ -4415,6 +4543,8 @@ msgid "You will receive a verification code to this mobile number"
 msgstr "Recibirá un código de verificación en este número de teléfono móvil"
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
@@ -4533,6 +4663,7 @@ msgstr "por Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "invoices and credit notes."
 msgstr "facturas y facturas rectificativas"
@@ -4550,6 +4681,11 @@ msgstr "facturas y facturas rectificativas"
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
+msgid "could not be sent via Peppol"
+msgstr "no se pudo enviar mediante Peppol"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
@@ -4889,7 +5025,11 @@ msgid "sent via Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "enviada mediante Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "enviada mediante Peppol"
 >>>>>>> upstream/18.0
@@ -5114,7 +5254,11 @@ msgid "to send invoices, but this one"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "para enviar facturas, pero esta"
+>>>>>>> upstream/18.0
 =======
 msgstr "para enviar facturas, pero esta"
 >>>>>>> upstream/18.0
@@ -5339,6 +5483,7 @@ msgid "uses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5519,6 +5664,8 @@ msgstr "utiliza"
 msgstr "utiliza"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "utiliza"
 
 #~ msgid "Primary contact email for Peppol-related communication"
@@ -5528,4 +5675,7 @@ msgstr "utiliza"
 
 #~ msgid "You will receive a verification code to this mobile number"
 #~ msgstr "Recibirá un código de verificación en este número de teléfono móvil"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

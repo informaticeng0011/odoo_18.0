@@ -170,6 +170,10 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        mode_debug = kw.get('debug', 0)
+>>>>>>> upstream/18.0
 =======
         mode_debug = kw.get('debug', 0)
 >>>>>>> upstream/18.0
@@ -186,7 +190,11 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             path = request.website.get_client_action_url(path, mode_edit)
+=======
+            path = request.website.get_client_action_url(path, mode_edit, mode_debug)
+>>>>>>> upstream/18.0
 =======
             path = request.website.get_client_action_url(path, mode_edit, mode_debug)
 >>>>>>> upstream/18.0
@@ -270,8 +278,11 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return request.render('website.robots', {'url_root': request.httprequest.url_root}, mimetype='text/plain')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -332,6 +343,9 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -938,7 +952,11 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return []
+=======
+            return json.dumps([])
+>>>>>>> upstream/18.0
 =======
             return json.dumps([])
 >>>>>>> upstream/18.0

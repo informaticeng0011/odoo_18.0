@@ -3,6 +3,11 @@
 from odoo.tests import TransactionCase, tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import functools
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 import functools
 from unittest.mock import patch
@@ -69,8 +74,13 @@ class TestWebsiteSitemap(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Page.invalidate_model()
             View.invalidate_model()
+=======
+            Page.invalidate_model(['write_date'])
+            View.invalidate_model(['write_date'])
+>>>>>>> upstream/18.0
 =======
             Page.invalidate_model(['write_date'])
             View.invalidate_model(['write_date'])
@@ -234,6 +244,7 @@ class TestWebsiteSitemap(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         new_date = "2014-05-15 12:00:00"
 
         set_write_dates(new_date, old_date)
@@ -242,6 +253,8 @@ class TestWebsiteSitemap(TransactionCase):
         set_write_dates(old_date, new_date)
         self.assertEqual(str(get_sitemap_lastmod()), new_date[:10])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -340,6 +353,7 @@ class TestWebsiteSitemap(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -398,6 +412,8 @@ class TestWebsiteSitemap(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -475,6 +491,9 @@ class TestWebsiteSitemap(TransactionCase):
         # And the returned loc should be present (normalized already)
         self.assertIn({'loc': '/once'}, locs)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

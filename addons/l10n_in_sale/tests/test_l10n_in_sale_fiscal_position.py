@@ -96,7 +96,10 @@ class TestSaleFiscal(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -144,6 +147,9 @@ class TestSaleFiscal(L10nInTestInvoicingCommon):
         self.assertEqual(reseller_id, self.partner_a.id)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -123,7 +123,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -140,6 +143,9 @@ class AccountMove(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -154,9 +160,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             and (self.partner_id.is_company or self.partner_id.vat) \
             and self.company_id.country_code == 'ES' \
             and self.company_id.currency_id.name == 'EUR' \
+=======
+            and self.country_code == 'ES' \
+>>>>>>> upstream/18.0
 =======
             and self.country_code == 'ES' \
 >>>>>>> upstream/18.0
@@ -443,8 +453,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'InvoiceDocumentType': 'FC',
             'InvoiceClass': 'OO',
+=======
+            'InvoiceDocumentType': 'FA' if self.l10n_es_is_simplified else 'FC',
+            'InvoiceClass': 'OR' if self.move_type in ['out_refund', 'in_refund'] else 'OO',
+>>>>>>> upstream/18.0
 =======
             'InvoiceDocumentType': 'FA' if self.l10n_es_is_simplified else 'FC',
             'InvoiceClass': 'OR' if self.move_type in ['out_refund', 'in_refund'] else 'OO',
@@ -623,7 +638,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return tax_data['tax']
+=======
+            return tax_data['tax'] if tax_data else None
+>>>>>>> upstream/18.0
 =======
             return tax_data['tax'] if tax_data else None
 >>>>>>> upstream/18.0

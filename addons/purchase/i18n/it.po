@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Marianna Ciofani, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -390,6 +391,10 @@
 =======
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 # Marianna Ciofani, 2025
+>>>>>>> upstream/18.0
+=======
+# Marianna Ciofani, 2025
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
 =======
 # Marianna Ciofani, 2025
@@ -408,6 +413,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -863,6 +869,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-23 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1196,8 +1207,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"d-none d-md-inline\">Ordine di acquisto #</span>\n"
 "                          <span class=\"d-block d-md-none\">Ref.</span>"
+=======
+"<span class=\"d-none d-md-inline\">Ordine di acquisto n°</span>\n"
+"                          <span class=\"d-block d-md-none\">Rif.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"d-none d-md-inline\">Ordine di acquisto n°</span>\n"
 "                          <span class=\"d-block d-md-none\">Rif.</span>"
@@ -1220,8 +1236,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"d-none d-md-inline\">Richiesta di preventivo #</span>\n"
 "                        <span class=\"d-block d-md-none\">Ref.</span>"
+=======
+"<span class=\"d-none d-md-inline\">Richiesta di preventivo n°</span>\n"
+"                        <span class=\"d-block d-md-none\">Rif.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"d-none d-md-inline\">Richiesta di preventivo n°</span>\n"
 "                        <span class=\"d-block d-md-none\">Rif.</span>"
@@ -1358,6 +1379,7 @@ msgstr "<strong class=\"d-block mb-1\">Fatture</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1366,6 +1388,11 @@ msgstr "<strong class=\"d-block mb-1\">Fatture</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr "<strong class=\"d-block mt-3\">Indirizzo di spedizione:</strong>"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
@@ -1664,6 +1691,7 @@ msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: purchase
@@ -1673,6 +1701,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">Indirizzo di spedizione</strong>"
+
+#. module: purchase
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong class=\"d-block mt-3\">Indirizzo di spedizione</strong>"
@@ -1993,6 +2026,7 @@ msgid "<strong>Request For Quotation Date:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<strong>Data di richiesta di preventivo:</strong>"
 
 #. module: purchase
@@ -2152,6 +2186,11 @@ msgstr "<strong>Indirizzo di spedizione</strong>"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong>Data richiesta di preventivo:</strong>"
+
+#. module: purchase
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong>Data richiesta di preventivo:</strong>"
@@ -2413,8 +2452,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tempo tra la data pianificata e l'ordine in base alla data per ogni linea "
 "d'ordine d'acquisto."
+=======
+"Quantità di tempo tra data pianificata e ordine per data, per ciascuna riga "
+"dell'ordine di acquisto."
+>>>>>>> upstream/18.0
 =======
 "Quantità di tempo tra data pianificata e ordine per data, per ciascuna riga "
 "dell'ordine di acquisto."
@@ -2434,9 +2478,13 @@ msgid "Amount of time between purchase approval and order by date."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Quantità di tempo tra l'approvazione dell'acquisto e l'ordine in base alla "
 "data."
+=======
+msgstr "Quantità di tempo tra approvazione dell'acquisto e ordine per data."
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantità di tempo tra approvazione dell'acquisto e ordine per data."
 >>>>>>> upstream/18.0
@@ -2756,7 +2804,11 @@ msgid "Confirm purchase orders in one step"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conferma ordini d'acquisto in una fase "
+=======
+msgstr "Conferma ordini di acquisto in una fase"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conferma ordini di acquisto in una fase"
 >>>>>>> upstream/18.0
@@ -2787,7 +2839,11 @@ msgid "Confirmation Date Last Year"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data di conferma L'anno scorso"
+=======
+msgstr "Data di conferma ultimo anno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data di conferma ultimo anno"
 >>>>>>> upstream/18.0
@@ -2944,7 +3000,11 @@ msgid "Days to Receive"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Giorni per la Ricezione"
+=======
+msgstr "Giorni per ricevere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Giorni per ricevere"
 >>>>>>> upstream/18.0
@@ -3066,7 +3126,11 @@ msgid "Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Completata"
+=======
+msgstr "Completato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Completato"
 >>>>>>> upstream/18.0
@@ -3172,7 +3236,11 @@ msgid "Forbidden values on non-accountable purchase order line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valori vietati nella riga dell'ordine di acquisto"
+=======
+msgstr "Valori vietati su una riga ordine di acquisto non rendicontabile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valori vietati su una riga ordine di acquisto non rendicontabile"
 >>>>>>> upstream/18.0
@@ -3212,7 +3280,11 @@ msgid "Get 2 levels of approvals to confirm a purchase order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ottieni 2 livelli di approvazione per confermare un ordine d'acquisto"
+=======
+msgstr "Conferma ordine di acquisto con 2 fasi di approvazione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conferma ordine di acquisto con 2 fasi di approvazione"
 >>>>>>> upstream/18.0
@@ -3597,7 +3669,13 @@ msgid "Missing required fields on accountable purchase order line."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Campi obbligatori mancanti nelle righe dell'ordine di acquisto."
+=======
+msgstr ""
+"Campi obbligatori mancanti su una riga rendicontabile dell'ordine di "
+"acquisto."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Campi obbligatori mancanti su una riga rendicontabile dell'ordine di "
@@ -3733,7 +3811,11 @@ msgid "Not Acknowledged"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Non Confermato"
+=======
+msgstr "Non riconosciuti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Non riconosciuti"
 >>>>>>> upstream/18.0
@@ -4032,7 +4114,11 @@ msgid "Product Packaging"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imballaggio prodotti"
+=======
+msgstr "Imballaggio prodotto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imballaggio prodotto"
 >>>>>>> upstream/18.0
@@ -4284,7 +4370,11 @@ msgid "Purchase Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Resoconto di acquisto"
+=======
+msgstr "Resoconto acquisti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resoconto acquisti"
 >>>>>>> upstream/18.0
@@ -4349,7 +4439,11 @@ msgid "Purchased"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Acquistata"
+=======
+msgstr "Acquistati"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acquistati"
 >>>>>>> upstream/18.0
@@ -4392,8 +4486,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Inserisci un indirizzo se vuoi spedire dal fornitore a cliente . Altrimenti "
 ", continua senza inserire l'indirizzo per consegnare alla tua azienda"
+=======
+"Inserire un indirizzo per spedire direttamente dal fornitore al cliente. "
+"Altrimenti lasciare vuoto per spedire alla propria azienda."
+>>>>>>> upstream/18.0
 =======
 "Inserire un indirizzo per spedire direttamente dal fornitore al cliente. "
 "Altrimenti lasciare vuoto per spedire alla propria azienda."
@@ -4623,7 +4722,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "di solito è riportato nel buono di consegna inviato dal fornitore."
+=======
+"di solito è riportato nell'ordine di consegna inviato dal fornitore."
+>>>>>>> upstream/18.0
 =======
 "di solito è riportato nell'ordine di consegna inviato dal fornitore."
 >>>>>>> upstream/18.0
@@ -4734,7 +4837,11 @@ msgid "Reporting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rendiconto"
+=======
+msgstr "Rendicontazione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rendicontazione"
 >>>>>>> upstream/18.0
@@ -5284,7 +5391,11 @@ msgid "Sum of Untaxed Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Somma del totale non tassato"
+=======
+msgstr "Somma totale imponibile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Somma totale imponibile"
 >>>>>>> upstream/18.0
@@ -5428,7 +5539,11 @@ msgid "There are currently no purchase orders for your account."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Al momento non ci sono ordini di acquisto per il tuo account."
+=======
+msgstr "Al momento nell'account non sono presenti ordini di acquisto."
+>>>>>>> upstream/18.0
 =======
 msgstr "Al momento nell'account non sono presenti ordini di acquisto."
 >>>>>>> upstream/18.0
@@ -5445,7 +5560,11 @@ msgid "There are currently no requests for quotation for your account."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Al momento non ci sono richieste di preventivo per il tuo account."
+=======
+msgstr "Al momento nell'account non sono presenti richieste di preventivo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Al momento nell'account non sono presenti richieste di preventivo."
 >>>>>>> upstream/18.0
@@ -5506,7 +5625,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " Questo può essere modificato nel modulo di dettaglio del prodotto."
+=======
+" Può essere modificato nella scheda di dettaglio del prodotto."
+>>>>>>> upstream/18.0
 =======
 " Può essere modificato nella scheda di dettaglio del prodotto."
 >>>>>>> upstream/18.0
@@ -5550,7 +5673,11 @@ msgid "This vendor has no purchase order. Create a new RfQ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Il fornitore non ha ordini di acquisto. Crea una nuova RdP"
+=======
+msgstr "Questo fornitore non ha ordini di acquisto, crea una nuova RdP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Questo fornitore non ha ordini di acquisto, crea una nuova RdP"
 >>>>>>> upstream/18.0
@@ -5568,7 +5695,11 @@ msgid "Tip: How to keep late receipts under control?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Consiglio: come tenere sotto controllo le Ricezioni in ritardo"
+=======
+msgstr "Suggerimento: come tenere sotto controllo le ricezioni in ritardo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suggerimento: come tenere sotto controllo le ricezioni in ritardo"
 >>>>>>> upstream/18.0
@@ -5586,7 +5717,11 @@ msgid "Tip: Never miss a purchase order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Consiglio: non perdere mai un ordine di acquisto"
+=======
+msgstr "Suggerimento: non perdere mai un ordine di acquisto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suggerimento: non perdere mai un ordine di acquisto"
 >>>>>>> upstream/18.0
@@ -5760,7 +5895,11 @@ msgid "Units of Measures"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Unità di misure"
+=======
+msgstr "Unità di misura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unità di misura"
 >>>>>>> upstream/18.0
@@ -6002,6 +6141,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Quando crei un ordine di acquisto, dai un'occhiata al tasso di <i>On Time "
 "Delivery</i> del venditore: la percentuale di prodotti spediti in tempo. Se "
 "è troppo bassa, attiva i <i>promemoria automatici</i>. Qualche giorno prima "
@@ -6010,6 +6150,8 @@ msgstr ""
 "Per ottenere le statistiche di performance del venditore, clicca sul tasso "
 "di OTD."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6023,6 +6165,9 @@ msgstr ""
 "clic sul tasso di puntualità."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6040,12 +6185,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Quando si invia un ordine di acquisto via e-mail, Odoo chiede al venditore "
 "di confermare la ricezione dell'ordine. Quando il venditore conferma "
 "l'ordine cliccando su un pulsante nell'email, l'informazione viene aggiunta "
 "all'ordine di acquisto. Usa i filtri per rintracciare gli ordini che non "
 "sono stati confermati."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6057,6 +6205,9 @@ msgstr ""
 " che non sono stati riconosciuti."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6177,7 +6328,11 @@ msgid "{{ object.company_id.name }} Order (Ref {{ object.name or 'n/a' }})"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "{{ object.company_id.name }} Ordine (Ref {{ object.name or 'n/a' }})"
+=======
+msgstr "Ordine {{ object.company_id.name }} (rif. {{ object.name or 'n/d' }})"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ordine {{ object.company_id.name }} (rif. {{ object.name or 'n/d' }})"
 >>>>>>> upstream/18.0

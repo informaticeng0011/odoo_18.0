@@ -592,7 +592,10 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
         self.assertEqual(generated_coupon.points, 0, "The coupon should not have it's points already.")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.assertFalse(order._get_claimable_rewards(), "No rewards should be claimable")
@@ -607,6 +610,9 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
             "Next-order coupon rewards shouldn't be claimable on current order",
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1841,7 +1847,10 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1884,6 +1893,9 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

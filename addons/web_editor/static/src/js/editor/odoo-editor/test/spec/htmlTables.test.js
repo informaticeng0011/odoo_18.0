@@ -6,6 +6,10 @@ import {
     pasteHtml,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    unformat,
+>>>>>>> upstream/18.0
 =======
     unformat,
 >>>>>>> upstream/18.0
@@ -507,7 +511,10 @@ describe('Paste HTML tables', () => {
     });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     it("should move all rows from thead to tbody", async () => {
@@ -585,6 +592,9 @@ describe('Paste HTML tables', () => {
         });
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

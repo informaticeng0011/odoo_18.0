@@ -100,8 +100,11 @@ test("connection considered as lost after failed reconnect attempt", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     addBusServiceListeners(["connect", () => asyncStep("connect")]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -298,6 +301,9 @@ test("connection considered as lost after failed reconnect attempt", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -496,6 +502,10 @@ test("connection considered as lost after failed reconnect attempt", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await waitForSteps(["disconnect"]);
+>>>>>>> upstream/18.0
 =======
     await waitForSteps(["disconnect"]);
 >>>>>>> upstream/18.0
@@ -767,6 +777,10 @@ test("brief disconect not considered lost", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ["disconnect", () => asyncStep("disconnect")],
+>>>>>>> upstream/18.0
 =======
         ["disconnect", () => asyncStep("disconnect")],
 >>>>>>> upstream/18.0
@@ -1032,6 +1046,10 @@ test("brief disconect not considered lost", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await waitForSteps(["disconnect"]);
+>>>>>>> upstream/18.0
 =======
     await waitForSteps(["disconnect"]);
 >>>>>>> upstream/18.0

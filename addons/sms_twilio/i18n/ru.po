@@ -8,7 +8,11 @@ msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-09-05 18:40+0000\n"
+=======
+"POT-Creation-Date: 2025-09-12 01:51+0000\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-09-12 01:51+0000\n"
 >>>>>>> upstream/18.0
@@ -32,13 +36,19 @@ msgstr "%(failure_type)s: %(failure_reason)s"
 
 #. module: sms_twilio
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "'To' and 'From' numbers cannot be the same"
 msgstr ""
 
 #. module: sms_twilio
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "+1 555-123-4567"
@@ -48,8 +58,13 @@ msgstr "+1 555-123-4567"
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "A 'To' phone number is required."
 msgstr "Требуется номер телефона получателя."
+=======
+msgid "A 'To' phone number is required"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "A 'To' phone number is required"
 msgstr ""
@@ -80,6 +95,10 @@ msgstr "Токен аутентификации"
 
 #. module: sms_twilio
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
 >>>>>>> upstream/18.0
@@ -165,7 +184,10 @@ msgstr "Тип сбоя"
 
 #. module: sms_twilio
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms_twilio.field_mail_notification__failure_type
 msgid "Failure type"
 msgstr ""
@@ -177,6 +199,9 @@ msgid "From / To identic"
 msgstr ""
 
 #. module: sms_twilio
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__id
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__id
@@ -185,6 +210,10 @@ msgstr "ID"
 
 #. module: sms_twilio
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
 >>>>>>> upstream/18.0
@@ -237,7 +266,10 @@ msgstr "Управлять СМС Twilio"
 
 #. module: sms_twilio
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sms_twilio.model_mail_notification
 msgid "Message Notifications"
 msgstr ""
@@ -249,6 +281,9 @@ msgid "Missing From Number"
 msgstr ""
 
 #. module: sms_twilio
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid ""
@@ -258,8 +293,13 @@ msgid ""
 msgstr ""
 "Нужна помощь?\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <i class=\"fa fa-external-link\" aria-hidden="
 "\"true\"/>"
+=======
+"                            <i class=\"fa fa-external-link\" aria-"
+"hidden=\"true\"/>"
+>>>>>>> upstream/18.0
 =======
 "                            <i class=\"fa fa-external-link\" aria-"
 "hidden=\"true\"/>"
@@ -286,7 +326,12 @@ msgstr "Номера телефонов"
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Please set the number to which you want to send a test SMS."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Пожалуйста, укажите номер, на который вы хотите отправить тестовое СМС."
+=======
+msgstr ""
+"Пожалуйста, укажите номер, на который вы хотите отправить тестовое СМС."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Пожалуйста, укажите номер, на который вы хотите отправить тестовое СМС."
@@ -358,9 +403,14 @@ msgstr "СМС было отправлено с %s"
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The number you're trying to reach is not correctly formatted."
 msgstr ""
 "Номер, на который вы пытаетесь отправить сообщение, отформатирован неверно."
+=======
+msgid "The number you're trying to reach is not correctly formatted"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "The number you're trying to reach is not correctly formatted"
 msgstr ""
@@ -376,13 +426,19 @@ msgstr "Это тестовое СМС из Odoo"
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Trial Account Limitation"
 msgstr ""
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Twilio Authentication Error"
 msgstr "Ошибка аутентификации Twilio"
@@ -432,13 +488,19 @@ msgstr ""
 
 #. module: sms_twilio
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unverified recipient on Trial Account"
 msgstr ""
 
 #. module: sms_twilio
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Update Account"
@@ -449,7 +511,10 @@ msgstr "Обновить аккаунт"
 msgid "abcde12345abcde12345abcde12345ab"
 msgstr "abcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 #~ msgid "A 'To' phone number is required."
 #~ msgstr "Требуется номер телефона получателя."
@@ -458,4 +523,7 @@ msgstr "abcde12345abcde12345abcde12345ab"
 #~ msgstr ""
 #~ "Номер, на который вы пытаетесь отправить сообщение, отформатирован "
 #~ "неверно."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

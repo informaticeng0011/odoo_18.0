@@ -4,6 +4,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form
 >>>>>>> upstream/18.0
@@ -49,7 +53,10 @@ class TestDuplicatePartnerBank(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -70,6 +77,9 @@ class TestDuplicatePartnerBank(SavepointCaseWithUserDemo):
         self.assertEqual(len(self.partner_a.bank_ids), 0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

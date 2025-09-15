@@ -128,7 +128,11 @@ class PaymentTransaction(models.Model):
         payment_status = payment_data.get('status')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if payment_status == 'pending':
+=======
+        if payment_status in ('pending', 'open'):
+>>>>>>> upstream/18.0
 =======
         if payment_status in ('pending', 'open'):
 >>>>>>> upstream/18.0

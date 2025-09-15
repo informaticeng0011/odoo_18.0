@@ -2,6 +2,10 @@ import { addBusServiceListeners, lockWebsocketConnect } from "@bus/../tests/bus_
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { getWebSocketWorker } from "@bus/../tests/mock_websocket";
+>>>>>>> upstream/18.0
 =======
 import { getWebSocketWorker } from "@bus/../tests/mock_websocket";
 >>>>>>> upstream/18.0
@@ -15,6 +19,7 @@ import { WEBSOCKET_CLOSE_CODES } from "@bus/workers/websocket_worker";
 import { defineMailModels, openDiscuss, start } from "@mail/../tests/mail_test_helpers";
 import { describe, expect, test } from "@odoo/hoot";
 import { animationFrame, runAllTimers, waitFor, waitForNone } from "@odoo/hoot-dom";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39,6 +44,8 @@ import { asyncStep, MockServer, waitForSteps } from "@web/../tests/web_test_help
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 import {
     asyncStep,
@@ -50,6 +57,9 @@ import {
 import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66,12 +76,15 @@ test("show warning when bus connection encounters issues", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -84,6 +97,9 @@ test("show warning when bus connection encounters issues", async () => {
     });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106,6 +122,9 @@ test("show warning when bus connection encounters issues", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -170,7 +170,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "blocking_level": ("404" in error_codes) and "warning" or "error",
+=======
+                    "blocking_level": "warning" if {'404', 'timeout'} & set(error_codes) else "error",
+>>>>>>> upstream/18.0
 =======
                     "blocking_level": "warning" if {'404', 'timeout'} & set(error_codes) else "error",
 >>>>>>> upstream/18.0
@@ -319,7 +323,10 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -487,6 +494,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

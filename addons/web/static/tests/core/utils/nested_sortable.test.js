@@ -17,7 +17,11 @@ import { useNestedSortable } from "@web/core/utils/nested_sortable";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {import("../../_framework/dom_test_helpers").DragAndDropOptions} [options]
+=======
+ * @param {import("@web/../tests/web_test_helpers").DragAndDropOptions} [options]
+>>>>>>> upstream/18.0
 =======
  * @param {import("@web/../tests/web_test_helpers").DragAndDropOptions} [options]
 >>>>>>> upstream/18.0
@@ -1070,7 +1074,11 @@ test("shouldn't drag above max level", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     expect(".o_nested_sortable_placeholder.d-none").toHaveCount(1);
+=======
+                    expect(element.previousSibling).toHaveClass("o_nested_sortable_placeholder");
+>>>>>>> upstream/18.0
 =======
                     expect(element.previousSibling).toHaveClass("o_nested_sortable_placeholder");
 >>>>>>> upstream/18.0

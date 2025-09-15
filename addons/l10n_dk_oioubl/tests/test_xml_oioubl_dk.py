@@ -175,9 +175,12 @@ class TestUBLDK(TestUBLCommon, TestAccountMoveSendCommon):
         self.company_data['company'].partner_id.peppol_endpoint = False
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.vat = 'DK12345674'
         self.partner_a.peppol_endpoint = False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.partner_a.write({
@@ -186,6 +189,9 @@ class TestUBLDK(TestUBLCommon, TestAccountMoveSendCommon):
             'invoice_edi_format': 'oioubl_201',
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
