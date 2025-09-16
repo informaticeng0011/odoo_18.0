@@ -123,5 +123,9 @@ class ResPartner(models.Model):
             res = int(stdnum.ar.cuit.compact(self.vat))
         else:
             id_number = re.sub('[^0-9]', '', self.vat)
+<<<<<<< HEAD
             res = int(id_number)
+=======
+            res = id_number and int(id_number)
+>>>>>>> upstream/18.0
         return res

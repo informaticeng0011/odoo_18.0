@@ -4,7 +4,11 @@
 
 {
     'name': 'Task Logs',
+<<<<<<< HEAD
     'version': '1.0',
+=======
+    'version': '1.1',
+>>>>>>> upstream/18.0
     'category': 'Services/Timesheets',
     'sequence': 23,
     'summary': 'Track employee time on tasks',

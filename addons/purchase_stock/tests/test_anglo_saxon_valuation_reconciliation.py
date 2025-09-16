@@ -93,6 +93,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import timedelta
+>>>>>>> upstream/18.0
 =======
 from datetime import timedelta
 >>>>>>> upstream/18.0
@@ -904,10 +908,15 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @freeze_time('2000-05-05')
     def test_currency_exchange_journal_items(self):
         """ Prices modified by discounts and currency exchanges should still yield accurate price
         units when calculated by valuation mechanisms.
+=======
+    def test_currency_exchange_journal_items1(self):
+        """ Do symmetric rounding between receipt valuation journal items and bill journal items.
+>>>>>>> upstream/18.0
 =======
     def test_currency_exchange_journal_items1(self):
         """ Do symmetric rounding between receipt valuation journal items and bill journal items.
@@ -997,11 +1006,14 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.test_product_order.standard_price = 500
         self.stock_account_product_categ.property_cost_method = 'average'
         self.env['res.currency.rate'].create({
             'name': '2000-05-05',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1055,6 +1067,9 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1092,6 +1107,7 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
             'currency_id': self.env.ref('base.USD').id,
             'company_id': self.env.company.id,
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1149,6 +1165,8 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         purchase_order = self.env['purchase.order'].create({
             'partner_id': self.partner_a.id,
             'currency_id': self.env.ref('base.USD').id,
@@ -1171,6 +1189,9 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1225,6 +1246,7 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         purchase_order.picking_ids.move_ids.quantity = 13
         purchase_order.picking_ids.button_validate()
         pre_bill_remaining_value = purchase_order.picking_ids.move_ids.stock_valuation_layer_ids.remaining_value
@@ -1238,6 +1260,8 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
             amls,
             [{'debit': 0.0, 'credit': 6435.0}, {'debit': 6435.0, 'credit': 0.0}, {'debit': 6435.0, 'credit': 0.0}]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1356,6 +1380,9 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1486,6 +1513,7 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
                 {'journal_id': stock_journal_id,    'balance':  -1.79},
             ],
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1759,6 +1787,8 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_currency_exchange_and_modified_product_price_precision_valuation_items(self):
         """ Small price unit diff with sufficiently large quantity -> problematic correction SVL"""
@@ -1789,6 +1819,9 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1800,6 +1833,7 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
         bill = purchase_order.invoice_ids
         bill.invoice_date = fields.Date.today()
         bill.action_post()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2161,6 +2195,10 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        svls = self.env['stock.valuation.layer'].search([])
+        self.assertRecordValues(svls, [{'value': 4809.92, 'remaining_value': 4809.92, 'unit_cost': 0.875}])
 >>>>>>> upstream/18.0
 =======
         svls = self.env['stock.valuation.layer'].search([])

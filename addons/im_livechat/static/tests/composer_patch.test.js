@@ -58,7 +58,11 @@ test("Can execute help command on livechat channels", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/discuss.channel/execute_command_help", () => {
+=======
+    onRpc("discuss.channel", "execute_command_help", () => {
+>>>>>>> upstream/18.0
 =======
     onRpc("discuss.channel", "execute_command_help", () => {
 >>>>>>> upstream/18.0

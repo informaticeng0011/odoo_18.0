@@ -39,7 +39,10 @@ class TestMailAliasCommon(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -93,6 +96,9 @@ class TestMailAliasCommon(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -617,6 +623,10 @@ class TestAliasCompany(TestMailAliasCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertFalse(self.company_no_alias.alias_domain_id)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(self.company_no_alias.alias_domain_id)
 >>>>>>> upstream/18.0
@@ -1115,6 +1125,11 @@ class TestMailAliasMixin(TestMailAliasCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # company without alias domain -> set False on alias also, to avoid MC issues
+            (self.company_no_alias.id, self.company_no_alias, self.env['mail.alias.domain']),
+>>>>>>> upstream/18.0
 =======
             # company without alias domain -> set False on alias also, to avoid MC issues
             (self.company_no_alias.id, self.company_no_alias, self.env['mail.alias.domain']),

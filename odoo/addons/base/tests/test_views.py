@@ -1595,7 +1595,10 @@ class TestTemplating(ViewCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1641,6 +1644,9 @@ class TestTemplating(ViewCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1970,7 +1976,10 @@ class TestViews(ViewCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1989,6 +1998,9 @@ class TestViews(ViewCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3662,7 +3674,10 @@ class TestViewTranslations(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3896,6 +3911,9 @@ class TestViewTranslations(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4857,7 +4875,11 @@ class TestRenderAllViews(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @common.tagged('post_install', '-at_install')
+=======
+@common.tagged('post_install', '-at_install', 'post_install_l10n')
+>>>>>>> upstream/18.0
 =======
 @common.tagged('post_install', '-at_install', 'post_install_l10n')
 >>>>>>> upstream/18.0
@@ -4874,6 +4896,7 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
     def test_uncommented_invisible_field(self):
         # NEVER add new name in this list ! The new addons must add comment for all always invisible field.
         only_log_modules = (
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5186,6 +5209,8 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'sale_timesheet_enterprise',
             'helpdesk_repair',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5628,6 +5653,9 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5652,8 +5680,13 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for field, _val, comment in re.findall(uncommented_regexp, view.arch_db):
                 if (not comment or not comment.startswith('<!--')):
+=======
+            for field, _val, suffix in re.findall(uncommented_regexp, view.arch_db):
+                if not suffix.startswith('<!--'):
+>>>>>>> upstream/18.0
 =======
             for field, _val, suffix in re.findall(uncommented_regexp, view.arch_db):
                 if not suffix.startswith('<!--'):
@@ -5690,7 +5723,11 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.info('%s\n%s', msg, msg_info)
+=======
+            _logger.runbot('%s\n%s', msg, msg_info)
+>>>>>>> upstream/18.0
 =======
             _logger.runbot('%s\n%s', msg, msg_info)
 >>>>>>> upstream/18.0
@@ -5717,8 +5754,13 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     error_lines.extend([f"{' ' * 3}View: {view}\n{' ' * 6}Fields:"])
                     error_lines.extend(["\n".join(f"{' ' * 9}{field}" for field in fields)])
+=======
+                    error_lines.append(f"{' ' * 3}View: {view}\n{' ' * 6}Fields:")
+                    error_lines.append("\n".join(f"{' ' * 9}{field}" for field in fields))
+>>>>>>> upstream/18.0
 =======
                     error_lines.append(f"{' ' * 3}View: {view}\n{' ' * 6}Fields:")
                     error_lines.append("\n".join(f"{' ' * 9}{field}" for field in fields))

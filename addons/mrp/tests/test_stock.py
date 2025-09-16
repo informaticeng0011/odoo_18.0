@@ -395,6 +395,7 @@ class TestKitPicking(common.TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         kit_1 = create_product('Kit 1')
         kit_2 = create_product('Kit 2')
         kit_3 = create_product('kit 3')
@@ -403,6 +404,8 @@ class TestKitPicking(common.TestMrpCommon):
         bom_kit_1 = cls.env['mrp.bom'].create({
             'product_tmpl_id': kit_1.product_tmpl_id.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -419,6 +422,9 @@ class TestKitPicking(common.TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -446,7 +452,11 @@ class TestKitPicking(common.TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'product_tmpl_id': kit_2.product_tmpl_id.id,
+=======
+            'product_tmpl_id': cls.kit_2.product_tmpl_id.id,
+>>>>>>> upstream/18.0
 =======
             'product_tmpl_id': cls.kit_2.product_tmpl_id.id,
 >>>>>>> upstream/18.0
@@ -470,7 +480,11 @@ class TestKitPicking(common.TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'product_id': kit_1.id,
+=======
+            'product_id': cls.kit_1.id,
+>>>>>>> upstream/18.0
 =======
             'product_id': cls.kit_1.id,
 >>>>>>> upstream/18.0
@@ -498,12 +512,15 @@ class TestKitPicking(common.TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'product_id': kit_2.id,
             'product_qty': 2.0,
             'bom_id': bom_kit_parent.id})
         bom_kit_3 = cls.env['mrp.bom'].create({
             'product_tmpl_id': kit_3.product_tmpl_id.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -518,6 +535,9 @@ class TestKitPicking(common.TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -540,7 +560,11 @@ class TestKitPicking(common.TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'product_id': kit_3.id,
+=======
+            'product_id': cls.kit_3.id,
+>>>>>>> upstream/18.0
 =======
             'product_id': cls.kit_3.id,
 >>>>>>> upstream/18.0
@@ -828,7 +852,10 @@ class TestKitPicking(common.TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -852,6 +879,9 @@ class TestKitPicking(common.TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -4,7 +4,11 @@ import { closestBlock, isBlock } from "../utils/blocks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { unwrapContents, wrapInlinesInBlocks, splitTextNode } from "../utils/dom";
+=======
+import { unwrapContents, wrapInlinesInBlocks, splitTextNode, setTagName } from "../utils/dom";
+>>>>>>> upstream/18.0
 =======
 import { unwrapContents, wrapInlinesInBlocks, splitTextNode, setTagName } from "../utils/dom";
 >>>>>>> upstream/18.0
@@ -374,6 +378,7 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let textIndex = 1;
         for (const textFragment of textFragments) {
             // Replace consecutive spaces by alternating nbsp.
@@ -386,6 +391,8 @@ export class ClipboardPlugin extends Plugin {
                 });
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -484,6 +491,9 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -654,10 +664,14 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // TODO specific exception for "PRE" to keep everything inside one PRE.
                 // Consider removing this if PRE is to be used as a paragraph.
                 block.nodeName !== "PRE" &&
                 !block.closest("li")
+=======
+                block.nodeName !== "PRE"
+>>>>>>> upstream/18.0
 =======
                 block.nodeName !== "PRE"
 >>>>>>> upstream/18.0
@@ -731,9 +745,12 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (this.dependencies.baseContainer.isCandidateForBaseContainer(node)) {
                         childrenNodes = childNodes(node);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -778,6 +795,9 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -812,7 +832,10 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -835,6 +858,9 @@ export class ClipboardPlugin extends Plugin {
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1123,7 +1149,11 @@ function prependOriginToImages(doc, origin) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (src && !src.startsWith("http") && !src.startsWith("//")) {
+=======
+        if (src && !/^(http|\/\/|data:)/.test(src)) {
+>>>>>>> upstream/18.0
 =======
         if (src && !/^(http|\/\/|data:)/.test(src)) {
 >>>>>>> upstream/18.0

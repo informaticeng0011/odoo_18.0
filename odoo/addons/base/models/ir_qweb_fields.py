@@ -13,7 +13,11 @@ from PIL import Image
 from lxml import etree, html
 
 from odoo import api, fields, models, tools
+<<<<<<< HEAD
 from odoo.tools import posix_to_ldml, float_utils, format_date, format_duration
+=======
+from odoo.tools import posix_to_ldml, float_is_zero, float_utils, format_date, format_duration
+>>>>>>> upstream/18.0
 from odoo.tools.mail import safe_attrs
 from odoo.tools.misc import get_lang, babel_locale_parse
 from odoo.tools.mimetypes import guess_mimetype
@@ -402,6 +406,7 @@ class ImageConverter(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if img_b64 and guess_mimetype(img_b64, '') == 'image/webp':
             return self.env["ir.qweb"]._get_converted_image_data_uri(value)
 
@@ -415,6 +420,8 @@ class ImageConverter(models.AbstractModel):
 
         return "data:%s;base64,%s" % (Image.MIME[image.format], value.decode('ascii'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -438,6 +445,9 @@ class ImageConverter(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -514,6 +524,12 @@ class MonetaryConverter(models.AbstractModel):
                 company = self.env.company
             value = options['from_currency']._convert(value, display_currency, company, date)
 
+<<<<<<< HEAD
+=======
+        if float_is_zero(value, precision_digits=display_currency.decimal_places):
+            value = 0.0
+
+>>>>>>> upstream/18.0
         lang = self.user_lang()
         formatted_amount = lang.format(fmt, display_currency.round(value), grouping=True)\
             .replace(r' ', '\N{NO-BREAK SPACE}').replace(r'-', '-\N{ZERO WIDTH NO-BREAK SPACE}')

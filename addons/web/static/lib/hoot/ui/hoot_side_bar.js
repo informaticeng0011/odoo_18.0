@@ -68,7 +68,11 @@ import { createUrlFromId } from "../core/url";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { lookup, normalize } from "../hoot_utils";
+=======
+import { lookup, parseQuery } from "../hoot_utils";
+>>>>>>> upstream/18.0
 =======
 import { lookup, parseQuery } from "../hoot_utils";
 >>>>>>> upstream/18.0
@@ -424,7 +428,10 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -444,6 +451,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -515,6 +525,10 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            hideEmpty: false,
+>>>>>>> upstream/18.0
 =======
             hideEmpty: false,
 >>>>>>> upstream/18.0
@@ -541,7 +555,10 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -558,6 +575,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -577,6 +597,7 @@ export class HootSideBar extends Component {
      * Filters
      */
     getFilteredVisibleSuites() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -784,6 +805,8 @@ export class HootSideBar extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const { runner } = this.env;
         const { hideEmpty } = this.state;
         const allSuites = runner.suites.values();
@@ -796,6 +819,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -873,6 +899,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1048,6 +1077,7 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const addSuite = (suite) => {
 =======
         function addSuite(suite) {
@@ -1129,6 +1159,8 @@ export class HootSideBar extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         function addSuite(suite) {
             if (
                 !(suite instanceof Suite) || // Not a suite
@@ -1138,6 +1170,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1182,7 +1217,11 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         };
+=======
+        }
+>>>>>>> upstream/18.0
 =======
         }
 >>>>>>> upstream/18.0
@@ -1342,6 +1381,7 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /**
          * @param {number} delta
          */
@@ -1361,6 +1401,8 @@ export class HootSideBar extends Component {
             case "ArrowDown": {
                 return selectElementAt(+1);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1446,6 +1488,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1534,7 +1579,11 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return selectElementAt(-1);
+=======
+                    return this.selectElementAt(currentTarget, -1);
+>>>>>>> upstream/18.0
 =======
                     return this.selectElementAt(currentTarget, -1);
 >>>>>>> upstream/18.0
@@ -1651,7 +1700,11 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return selectElementAt(+1);
+=======
+                    return this.selectElementAt(currentTarget, +1);
+>>>>>>> upstream/18.0
 =======
                     return this.selectElementAt(currentTarget, +1);
 >>>>>>> upstream/18.0
@@ -1741,6 +1794,7 @@ export class HootSideBar extends Component {
                 }
             }
             case "ArrowUp": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1941,10 +1995,13 @@ export class HootSideBar extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 return this.selectElementAt(currentTarget, -1);
             }
             case "Enter": {
                 ev.preventDefault();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2032,6 +2089,9 @@ export class HootSideBar extends Component {
 =======
                 actualLocation.href = createUrlFromId({ id: suite.id });
 >>>>>>> upstream/18.0
+=======
+                actualLocation.href = createUrlFromId({ id: suite.id });
+>>>>>>> upstream/18.0
             }
         }
     }
@@ -2065,7 +2125,10 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2163,6 +2226,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2234,7 +2300,10 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2248,6 +2317,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

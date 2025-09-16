@@ -23,3 +23,8 @@ class TestUi(HttpCaseGamification):
         demo = self.user_demo
         demo.karma = forum.karma_post + 1
         self.start_tour("/", 'forum_question', login="demo")
+<<<<<<< HEAD
+=======
+        tags = self.env['forum.tag'].search([('name', 'in', ['Tag', 'tag', 'test tag'])])
+        self.assertEqual(len(tags), 3)
+>>>>>>> upstream/18.0

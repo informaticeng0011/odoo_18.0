@@ -398,12 +398,15 @@ class TestSaleOrderDownPayment(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tax_10_fix_a = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True})
         tax_10_fix_b = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True})
         tax_10_fix_c = self.create_tax(10, {'amount_type': 'fixed'})
         tax_10_a = self.tax_10
         tax_10_b = self.create_tax(10)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -513,6 +516,9 @@ class TestSaleOrderDownPayment(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -757,12 +763,15 @@ class TestSaleOrderDownPayment(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tax_10_fix_a = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True})
         tax_10_fix_b = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True})
         tax_10_fix_c = self.create_tax(10, {'amount_type': 'fixed'})
         tax_10_a = self.tax_10
         tax_10_b = self.create_tax(10)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -872,6 +881,9 @@ class TestSaleOrderDownPayment(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

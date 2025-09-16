@@ -7,7 +7,11 @@ import {
 } from "@mail/utils/common/format";
 import { createDocumentFragmentFromContent } from "@mail/utils/common/html";
 
+<<<<<<< HEAD
 import { toRaw } from "@odoo/owl";
+=======
+import { markup, toRaw } from "@odoo/owl";
+>>>>>>> upstream/18.0
 
 import { browser } from "@web/core/browser/browser";
 import { stateToUrl } from "@web/core/browser/router";
@@ -183,6 +187,10 @@ export class Message extends Record {
     /** @type {undefined|Boolean} */
     needaction;
     starred = false;
+<<<<<<< HEAD
+=======
+    showTranslation = false;
+>>>>>>> upstream/18.0
 
     /**
      * True if the backend would technically allow edition
@@ -302,7 +310,10 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -429,6 +440,10 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @deprecated
+>>>>>>> upstream/18.0
 =======
      * @deprecated
 >>>>>>> upstream/18.0
@@ -528,6 +543,9 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -630,6 +648,7 @@ export class Message extends Record {
     }
 
     get isSelfMentioned() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -827,6 +846,9 @@ export class Message extends Record {
 =======
         return this.effectiveSelf.in(this.recipients);
 >>>>>>> upstream/18.0
+=======
+        return this.effectiveSelf.in(this.recipients);
+>>>>>>> upstream/18.0
     }
 
     get isHighlightedFromMention() {
@@ -838,6 +860,7 @@ export class Message extends Record {
             if (!this.author) {
                 return false;
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1035,6 +1058,9 @@ export class Message extends Record {
 =======
             return this.author.eq(this.effectiveSelf);
 >>>>>>> upstream/18.0
+=======
+            return this.author.eq(this.effectiveSelf);
+>>>>>>> upstream/18.0
         },
     });
 
@@ -1075,7 +1101,10 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1104,6 +1133,9 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1143,12 +1175,16 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return (
                 this.isBodyEmpty &&
                 this.attachment_ids.length === 0 &&
                 this.trackingValues.length === 0 &&
                 !this.subtype_description
             );
+=======
+            return this.computeIsEmpty();
+>>>>>>> upstream/18.0
 =======
             return this.computeIsEmpty();
 >>>>>>> upstream/18.0
@@ -1188,7 +1224,10 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1207,6 +1246,9 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1271,7 +1313,12 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.store.self.isInternalUser
+=======
+                this.store.self.isInternalUser &&
+                this.persistent
+>>>>>>> upstream/18.0
 =======
                 this.store.self.isInternalUser &&
                 this.persistent
@@ -1365,6 +1412,7 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return data;
 >>>>>>> upstream/18.0
@@ -1376,6 +1424,21 @@ export class Message extends Record {
 >>>>>>> upstream/18.0
 =======
         return data;
+>>>>>>> upstream/18.0
+=======
+        return data;
+    }
+
+    async onClickToggleTranslation() {
+        if (!this.translationValue) {
+            const { error, lang_name, body } = await rpc("/mail/message/translate", {
+                message_id: this.id,
+            });
+            this.translationValue = body && markup(body);
+            this.translationSource = lang_name;
+            this.translationErrors = error;
+        }
+        this.showTranslation = !this.showTranslation && Boolean(this.translationValue);
 >>>>>>> upstream/18.0
     }
 
@@ -1399,8 +1462,11 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await rpc("/mail/message/update_content", {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1417,6 +1483,9 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1433,9 +1502,13 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         });
         this.body = "";
         this.attachment_ids = [];
+=======
+        };
+>>>>>>> upstream/18.0
 =======
         };
 >>>>>>> upstream/18.0

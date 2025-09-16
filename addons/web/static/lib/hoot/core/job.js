@@ -38,6 +38,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    Symbol,
+>>>>>>> upstream/18.0
 =======
     Symbol,
 >>>>>>> upstream/18.0
@@ -123,7 +127,11 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const validateConfig = (config) => {
+=======
+function validateConfig(config) {
+>>>>>>> upstream/18.0
 =======
 function validateConfig(config) {
 >>>>>>> upstream/18.0
@@ -241,7 +249,11 @@ function validateConfig(config) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -358,7 +370,11 @@ const CONFIG_TAG_SCHEMA = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     multi: "integer",
+=======
+    multi: "number",
+>>>>>>> upstream/18.0
 =======
     multi: "number",
 >>>>>>> upstream/18.0
@@ -465,6 +481,11 @@ const CONFIG_TAG_SCHEMA = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const S_MINIMIZED = Symbol("minimized");
+
+>>>>>>> upstream/18.0
 =======
 const S_MINIMIZED = Symbol("minimized");
 
@@ -558,7 +579,10 @@ export class Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -608,6 +632,9 @@ export class Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -706,7 +733,10 @@ export class Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -756,6 +786,9 @@ export class Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

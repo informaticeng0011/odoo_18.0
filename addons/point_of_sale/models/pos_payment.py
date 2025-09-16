@@ -46,6 +46,11 @@ class PosPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _sql_constraints = [('uuid_unique', 'unique (uuid)', "A payment with this uuid already exists")]
+
+>>>>>>> upstream/18.0
 =======
     _sql_constraints = [('uuid_unique', 'unique (uuid)', "A payment with this uuid already exists")]
 

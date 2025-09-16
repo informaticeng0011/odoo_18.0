@@ -107,6 +107,10 @@ class PosOrder(models.Model):
         edi_document = self.account_move.l10n_es_tbai_post_document_id or self.l10n_es_tbai_post_document_id
         if edi_document and edi_document.state == 'accepted':
             return edi_document._get_tbai_qr()
+<<<<<<< HEAD
+=======
+        return ''
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
     # WEB SERVICE CALL
@@ -162,7 +166,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -178,6 +185,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -220,7 +230,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_origin': False,
+=======
+            'origin': 'manual',
+>>>>>>> upstream/18.0
 =======
             'origin': 'manual',
 >>>>>>> upstream/18.0

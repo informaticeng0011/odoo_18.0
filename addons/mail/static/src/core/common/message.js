@@ -14,7 +14,10 @@ import { renderToElement } from "@web/core/utils/render";
 
 import {
     Component,
+<<<<<<< HEAD
     markup,
+=======
+>>>>>>> upstream/18.0
     onMounted,
     onPatched,
     onWillDestroy,
@@ -38,7 +41,10 @@ import { setElementContent } from "@web/core/utils/html";
 import { url } from "@web/core/utils/urls";
 import { messageActionsRegistry, useMessageActions } from "./message_actions";
 import { cookie } from "@web/core/browser/cookie";
+<<<<<<< HEAD
 import { rpc } from "@web/core/network/rpc";
+=======
+>>>>>>> upstream/18.0
 import { escape } from "@web/core/utils/strings";
 import { MessageActionMenuMobile } from "./message_action_menu_mobile";
 import { discussComponentRegistry } from "./discuss_component_registry";
@@ -109,7 +115,10 @@ export class Message extends Component {
             isClicked: false,
             expandOptions: false,
             emailHeaderOpen: false,
+<<<<<<< HEAD
             showTranslation: false,
+=======
+>>>>>>> upstream/18.0
             actionMenuMobileOpen: false,
         });
         /** @type {ShadowRoot} */
@@ -176,7 +185,11 @@ export class Message extends Component {
                     const bodyEl = document.createElement("span");
                     setElementContent(
                         bodyEl,
+<<<<<<< HEAD
                         this.state.showTranslation
+=======
+                        this.message.showTranslation
+>>>>>>> upstream/18.0
                             ? this.message.translationValue
                             : this.props.messageSearch?.highlight(this.message.body) ??
                                   this.message.body
@@ -189,7 +202,11 @@ export class Message extends Component {
                 }
             },
             () => [
+<<<<<<< HEAD
                 this.state.showTranslation,
+=======
+                this.message.showTranslation,
+>>>>>>> upstream/18.0
                 this.message.translationValue,
                 this.props.messageSearch?.searchTerm,
                 this.message.body,
@@ -492,6 +509,7 @@ export class Message extends Component {
     }
 
     async onClickToggleTranslation() {
+<<<<<<< HEAD
         const message = toRaw(this.message);
         if (!message.translationValue) {
             const { error, lang_name, body } = await rpc("/mail/message/translate", {
@@ -503,6 +521,9 @@ export class Message extends Component {
         }
         this.state.showTranslation =
             !this.state.showTranslation && Boolean(message.translationValue);
+=======
+        toRaw(this.props.message).onClickToggleTranslation();
+>>>>>>> upstream/18.0
     }
 }
 

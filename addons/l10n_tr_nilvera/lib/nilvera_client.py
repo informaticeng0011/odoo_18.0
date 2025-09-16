@@ -6,7 +6,10 @@ from json import JSONDecodeError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from pprint import pformat
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -76,7 +79,11 @@ class NilveraClient:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.error("Network error during request: %s", e)
+=======
+            _logger.info("Network error during request: %s", e)
+>>>>>>> upstream/18.0
 =======
             _logger.info("Network error during request: %s", e)
 >>>>>>> upstream/18.0
@@ -143,6 +150,7 @@ class NilveraClient:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "%(method)s\nstart=%(start)s\nend=%(end)s\nurl=%(url)s\nparams=%(params)s\njson=%(json)s\nresponse=%(response)s",
             {
                 "method": method,
@@ -159,6 +167,8 @@ class NilveraClient:
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             '"%(method)s %(url)s" %(status)s %(duration).3f',
             {
                 'method': method,
@@ -168,6 +178,9 @@ class NilveraClient:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

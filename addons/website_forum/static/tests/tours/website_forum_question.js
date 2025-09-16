@@ -30,6 +30,10 @@ registry.category("web_tour.tours").add('forum_question', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -119,6 +123,41 @@ registry.category("web_tour.tours").add('forum_question', {
         run: 'edit Tag',
     },
     {
+<<<<<<< HEAD
+=======
+        content: "Create a new tag.",
+        trigger: ".o-dropdown-item:contains(Create option)",
+        run: "click",
+    },
+    {
+        content: "Check that the 'Tag' tag is added.",
+        trigger: ".o_tag_badge_text:contains('Tag')",
+    },
+    {
+        content: "Insert tags related to your question.",
+        trigger: ".o_select_menu_toggler",
+        run: "click",
+    },
+    {
+        content: "Insert multiple comma-separated tags",
+        trigger: ".o_popover input.o_select_menu_sticky",
+        run: "edit tag, test tag",
+    },
+    {
+        content: "Create multiple new tags.",
+        trigger: ".o-dropdown-item:contains(Create option)",
+        run: "click",
+    },
+    {
+        content: "Check that the 'tag' tag is added.",
+        trigger: ".o_tag_badge_text:contains('tag')",
+    },
+    {
+        content: "Check that the 'test tag' tag is added.",
+        trigger: ".o_tag_badge_text:contains('test tag')",
+    },
+    {
+>>>>>>> upstream/18.0
         trigger: "#wrap:not(:has(.o_popover input.o_select_menu_sticky:not(:contains(''))))",
     },
     {
@@ -146,6 +185,10 @@ registry.category("web_tour.tours").add('forum_question', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -255,6 +298,10 @@ registry.category("web_tour.tours").add('forum_question', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -348,6 +395,10 @@ registry.category("web_tour.tours").add('forum_question', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -451,6 +502,10 @@ registry.category("web_tour.tours").add('forum_question', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
