@@ -21,6 +21,11 @@ class IrActionsReport(models.Model):
         orders = self.env['sale.order'].browse(res_ids)
 
         for order in orders:
+<<<<<<< HEAD
+=======
+            if order.id not in result or 'stream' not in result[order.id]:
+                continue
+>>>>>>> upstream/18.0
             initial_stream = result[order.id]['stream']
             if initial_stream:
                 quotation_documents = order.quotation_document_ids
@@ -147,7 +152,11 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 elif not value_:
+=======
+                elif not value_ and field_type_ not in {'integer', 'float'}:
+>>>>>>> upstream/18.0
 =======
                 elif not value_ and field_type_ not in {'integer', 'float'}:
 >>>>>>> upstream/18.0

@@ -113,7 +113,10 @@ class TestSaleCouponMultiCompany(TestSaleCouponCommon):
         order._update_programs_and_rewards()
         self.assertIn(self.immediate_promotion_program, order._get_applied_programs())
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_applicable_programs_confirm_on_branch(self):
         # create a branch
@@ -144,4 +147,7 @@ class TestSaleCouponMultiCompany(TestSaleCouponCommon):
 
         order.with_user(self.sale_user).with_company(branch_a.id).sudo(False).action_confirm()
         self.assertEqual(order.state, 'sale')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

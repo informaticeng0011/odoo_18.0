@@ -114,9 +114,12 @@ registry.category("web_tour.tours").add("create_thread_for_attachment_without_bo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: "Click on send button",
             trigger: ".o-mail-Composer-send",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -134,6 +137,9 @@ registry.category("web_tour.tours").add("create_thread_for_attachment_without_bo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

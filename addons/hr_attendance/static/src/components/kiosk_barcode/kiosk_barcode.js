@@ -1,7 +1,11 @@
 /** @odoo-module **/
 
 import { BarcodeScanner } from "@barcodes/components/barcode_scanner";
+<<<<<<< HEAD
 import { BarcodeDialog } from '@web/core/barcode/barcode_dialog';
+=======
+import { scanBarcode } from "@web/core/barcode/barcode_dialog";
+>>>>>>> upstream/18.0
 import { isDisplayStandalone } from "@web/core/browser/feature_detection";
 
 export class KioskBarcodeScanner extends BarcodeScanner {
@@ -14,7 +18,11 @@ export class KioskBarcodeScanner extends BarcodeScanner {
     setup() {
         super.setup();
         this.isDisplayStandalone = isDisplayStandalone();
+<<<<<<< HEAD
         this.scanBarcode = () => scanBarcode(this.env, this.facingMode, this.props.token);
+=======
+        this.scanBarcode = () => scanBarcode(this.env, this.facingMode);
+>>>>>>> upstream/18.0
     }
 
     get facingMode() {
@@ -29,6 +37,7 @@ export class KioskBarcodeScanner extends BarcodeScanner {
         return `/scoped_app?app_id=hr_attendance&path=${encodeURIComponent(url)}`;
     }
 }
+<<<<<<< HEAD
 
 /**
  * Opens the BarcodeScanning dialog and begins code detection using the device's camera.
@@ -50,3 +59,5 @@ export async function scanBarcode(env, facingMode = "environment", token) {
     });
     return promise;
 }
+=======
+>>>>>>> upstream/18.0

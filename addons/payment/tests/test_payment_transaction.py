@@ -107,6 +107,11 @@ class TestPaymentTransaction(PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
+            self.skipTest("account needed for test")
+>>>>>>> upstream/18.0
 =======
         if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
             self.skipTest("account needed for test")
@@ -579,6 +584,11 @@ class TestPaymentTransaction(PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
+            self.skipTest("account needed for test")
+>>>>>>> upstream/18.0
 =======
         if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
             self.skipTest("account needed for test")
@@ -1051,6 +1061,11 @@ class TestPaymentTransaction(PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
+            self.skipTest("account needed for test")
+>>>>>>> upstream/18.0
 =======
         if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
             self.skipTest("account needed for test")
@@ -1656,7 +1671,10 @@ class TestPaymentTransaction(PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1724,6 +1742,9 @@ class TestPaymentTransaction(PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

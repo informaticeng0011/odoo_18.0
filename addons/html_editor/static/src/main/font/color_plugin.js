@@ -15,6 +15,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     isContentEditable,
     isEmptyBlock,
 <<<<<<< HEAD
@@ -193,10 +194,15 @@ import {
     isEmptyBlock,
     isRedundantElement,
 >>>>>>> upstream/18.0
+=======
+    isEmptyBlock,
+    isRedundantElement,
+>>>>>>> upstream/18.0
     isTextNode,
     isWhitespace,
     isZwnbsp,
 } from "@html_editor/utils/dom_info";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,6 +380,9 @@ import { closestElement, descendants, selectElements } from "@html_editor/utils/
 =======
 import { closestElement, descendants, selectElements } from "@html_editor/utils/dom_traversal";
 >>>>>>> upstream/18.0
+=======
+import { closestElement, descendants, selectElements } from "@html_editor/utils/dom_traversal";
+>>>>>>> upstream/18.0
 import { isCSSColor } from "@web/core/utils/colors";
 import { ColorSelector } from "./color_selector";
 import { reactive } from "@odoo/owl";
@@ -384,6 +393,11 @@ import { withSequence } from "@html_editor/utils/resource";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { isBlock } from "@html_editor/utils/blocks";
+import { callbacksForCursorUpdate } from "@html_editor/utils/selection";
+>>>>>>> upstream/18.0
 =======
 import { isBlock } from "@html_editor/utils/blocks";
 import { callbacksForCursorUpdate } from "@html_editor/utils/selection";
@@ -491,6 +505,10 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        normalize_handlers: this.normalize.bind(this),
+>>>>>>> upstream/18.0
 =======
         normalize_handlers: this.normalize.bind(this),
 >>>>>>> upstream/18.0
@@ -676,7 +694,10 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -814,6 +835,9 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -923,7 +947,11 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const nodes = this.dependencies.selection.getTraversedNodes().filter(isTextNode);
+=======
+        const nodes = this.dependencies.selection.getTargetedNodes().filter(isTextNode);
+>>>>>>> upstream/18.0
 =======
         const nodes = this.dependencies.selection.getTargetedNodes().filter(isTextNode);
 >>>>>>> upstream/18.0
@@ -1013,6 +1041,7 @@ export class ColorPlugin extends Plugin {
                 let max = 40;
                 const hasAnySelectedNodeColor = (mode) => {
                     const nodes = this.dependencies.selection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1133,6 +1162,9 @@ export class ColorPlugin extends Plugin {
 =======
                         .getTargetedNodes()
 >>>>>>> upstream/18.0
+=======
+                        .getTargetedNodes()
+>>>>>>> upstream/18.0
                         .filter(
                             (n) =>
                                 isTextNode(n) ||
@@ -1176,6 +1208,9 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1279,9 +1314,12 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.delegateTo("color_apply_overrides", color, mode, previewMode)) {
             return;
         }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1305,9 +1343,12 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let selection = this.dependencies.selection.getEditableSelection();
         let selectionNodes;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1326,6 +1367,9 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1358,6 +1402,7 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             selectionNodes = [zws];
         } else {
             selection = this.dependencies.split.splitSelection();
@@ -1367,6 +1412,8 @@ export class ColorPlugin extends Plugin {
             if (isEmptyBlock(selection.endContainer)) {
                 selectionNodes.push(selection.endContainer, ...descendants(selection.endContainer));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1392,6 +1439,9 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1406,6 +1456,7 @@ export class ColorPlugin extends Plugin {
 
         const selectedNodes =
             mode === "backgroundColor" && color
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1426,6 +1477,8 @@ export class ColorPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 ? targetedNodes.filter((node) => !closestElement(node, "table.o_selected_table"))
                 : targetedNodes;
 
@@ -1436,6 +1489,9 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1456,6 +1512,7 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 let font = closestElement(node, "font") || closestElement(node, "span");
                 const children = font && descendants(font);
                 const hasInlineGradient = font && isColorGradient(font.style["background-image"]);
@@ -1464,6 +1521,8 @@ export class ColorPlugin extends Plugin {
                     (font.nodeName === "FONT" || (font.nodeName === "SPAN" && font.style[mode])) &&
                     (isColorGradient(color) || color === "" || !hasInlineGradient)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1505,6 +1564,9 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1520,6 +1582,7 @@ export class ColorPlugin extends Plugin {
                         selectedNodes.includes(child)
                     );
                     if (selectedChildren.length) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1783,6 +1846,8 @@ export class ColorPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         if (isBlock(font)) {
                             const colorStyles = ["color", "background-color", "background-image"];
                             const newFont = this.document.createElement("font");
@@ -1803,6 +1868,9 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1901,6 +1969,9 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2103,7 +2174,12 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     closestGradientEl.classList.contains("text-gradient")))
+=======
+                                    closestGradientEl.classList.contains("text-gradient") &&
+                                    !shouldReplaceExistingGradient))
+>>>>>>> upstream/18.0
 =======
                                     closestGradientEl.classList.contains("text-gradient") &&
                                     !shouldReplaceExistingGradient))
@@ -2163,8 +2239,11 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         const isTextGradient =
                             hasInlineGradient && font.classList.contains("text-gradient");
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2198,7 +2277,11 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const fieldNode of selectedFieldNodes) {
+=======
+        for (const fieldNode of targetedFieldNodes) {
+>>>>>>> upstream/18.0
 =======
         for (const fieldNode of targetedFieldNodes) {
 >>>>>>> upstream/18.0
@@ -2237,9 +2320,12 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (!font.hasAttribute("style") || !color)
             ) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2256,6 +2342,9 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2277,7 +2366,11 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.dependencies.selection.setSelection(selection, { normalize: false });
+=======
+        cursors.restore();
+>>>>>>> upstream/18.0
 =======
         cursors.restore();
 >>>>>>> upstream/18.0

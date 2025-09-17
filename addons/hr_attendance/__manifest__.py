@@ -41,6 +41,12 @@ actions(Check in/Check out) performed by them.
         'web.qunit_suite_tests': [
             'hr_attendance/static/tests/hr_attendance_mock_server.js',
         ],
+<<<<<<< HEAD
+=======
+        'web.assets_unit_tests': [
+            'hr_attendance/static/tests/*.test.js',
+        ],
+>>>>>>> upstream/18.0
         'web.qunit_mobile_suite_tests': [
             'hr_attendance/static/tests/hr_attendance_mock_server.js',
         ],

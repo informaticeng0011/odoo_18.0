@@ -64,6 +64,7 @@ test("Can toggle allow public upload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(".o-mail-Discuss-header button[title='Attachments']", { target: env1 });
     await contains(".o-mail-ActionPanel", {
         contains: ["label", { text: "File upload is disabled for external users" }],
@@ -88,6 +89,8 @@ test("Can toggle allow public upload", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await click(`${env1.selector} .o-mail-Discuss-header button[title='Attachments']`);
     await contains(`${env1.selector} .o-mail-ActionPanel`, {
         contains: ["label", { text: "File upload is disabled for external users" }],
@@ -104,6 +107,9 @@ test("Can toggle allow public upload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

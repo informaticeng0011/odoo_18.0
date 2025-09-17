@@ -225,7 +225,10 @@ class TestPartnerLeadPortal(TestCrmCommon):
         self.assertEqual(opportunity.partner_assigned_id, self.user_portal.partner_id, 'Assigned Partner of created opportunity is the (portal) creator.')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_lead_update(self):
         data = self.env['crm.lead'].with_user(self.user_portal).create_opp_portal({
             'title': 'Test lead',
@@ -264,6 +267,9 @@ class TestPartnerLeadPortal(TestCrmCommon):
         })
         self.assertEqual(test_partner.email, email_2, 'Adress email on the partner must be updated')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_portal_mixin_url(self):
         record_action = self.lead_portal._get_access_action(access_uid=self.user_portal.id)

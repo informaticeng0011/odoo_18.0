@@ -7,6 +7,7 @@ class KpiProvider(models.AbstractModel):
     @api.model
     def get_account_kpi_summary(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         AccountMove = self.env['account.move']
         grouped_draft_moves = AccountMove._read_group([('state', '=', 'draft')], ['move_type'], ['move_type:count'])
 
@@ -23,6 +24,8 @@ class KpiProvider(models.AbstractModel):
             'value': count,
         } for move_type, count in grouped_draft_moves]
 =======
+=======
+>>>>>>> upstream/18.0
         grouped_moves_to_report = self.env['account.move']._read_group([
             '|', ('state', '=', 'draft'),
             '&', ('state', '=', 'posted'), ('checked', '=', False),
@@ -45,6 +48,9 @@ class KpiProvider(models.AbstractModel):
             'type': 'integer',
             'value': count,
         } for journal_type, count in count_by_type.items()]
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @api.model

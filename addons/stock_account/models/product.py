@@ -117,6 +117,7 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Replenish the stock with the new cost method.
             in_svl_vals_list = products._svl_replenish_stock(description, products_orig_quantity_svl)
             in_stock_valuation_layers = SVL.create(in_svl_vals_list)
@@ -124,6 +125,8 @@ will update the cost of every lot/serial number in stock."),
                 move_vals_list += Product._svl_replenish_stock_am(in_stock_valuation_layers)
             products._update_lots_standard_price()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -207,6 +210,9 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -355,7 +361,13 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             avg_cost = value_svl / quantity_sum if quantity_sum else 0
+=======
+            avg_cost = 0
+            if not float_is_zero(quantity_sum, precision_rounding=product.uom_id.rounding):
+                avg_cost = value_svl / quantity_sum
+>>>>>>> upstream/18.0
 =======
             avg_cost = 0
             if not float_is_zero(quantity_sum, precision_rounding=product.uom_id.rounding):
@@ -615,6 +627,7 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.env["stock.valuation.layer"].sudo().search(candidates_domain)
 =======
         return self.env["stock.valuation.layer"].sudo().search(candidates_domain).sorted(lambda svl: svl._candidate_sort_key())
@@ -864,6 +877,9 @@ will update the cost of every lot/serial number in stock."),
 >>>>>>> upstream/18.0
 =======
         return self.env["stock.valuation.layer"].sudo().search(candidates_domain).sorted(lambda svl: svl._candidate_sort_key())
+>>>>>>> upstream/18.0
+=======
+        return self.env["stock.valuation.layer"].sudo().search(candidates_domain)
 >>>>>>> upstream/18.0
 =======
         return self.env["stock.valuation.layer"].sudo().search(candidates_domain)
@@ -1005,7 +1021,11 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for product in self:
+=======
+        for product in self.with_company(company.id):
+>>>>>>> upstream/18.0
 =======
         for product in self.with_company(company.id):
 >>>>>>> upstream/18.0
@@ -1304,7 +1324,10 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1376,6 +1399,9 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1448,7 +1474,11 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     for lot in product.stock_valuation_layer_ids.filtered(lambda l: l.remaining_qty).lot_id:
+=======
+                    for lot in lots_by_product[product.id]:
+>>>>>>> upstream/18.0
 =======
                     for lot in lots_by_product[product.id]:
 >>>>>>> upstream/18.0
@@ -1542,7 +1572,11 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     for lot in product.stock_valuation_layer_ids.filtered(lambda l: l.remaining_qty).lot_id:
+=======
+                    for lot in lots_by_product[product.id]:
+>>>>>>> upstream/18.0
 =======
                     for lot in lots_by_product[product.id]:
 >>>>>>> upstream/18.0
@@ -1843,11 +1877,14 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         candidates = stock_moves\
             .sudo()\
             .filtered(lambda m: is_returned == bool(m.origin_returned_move_id and sum(m.stock_valuation_layer_ids.mapped('quantity')) >= 0))\
             .mapped('stock_valuation_layer_ids')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1962,6 +1999,9 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2124,7 +2164,12 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             candidates = candidates.sorted(lambda svl: (svl.create_date, svl.id))
+=======
+            # sort candidates by create_date > existing records by id > new records without origin
+            candidates = candidates.sorted(lambda svl: (svl.create_date, not bool(svl.ids), svl.ids[0] if svl.ids else 0))
+>>>>>>> upstream/18.0
 =======
             # sort candidates by create_date > existing records by id > new records without origin
             candidates = candidates.sorted(lambda svl: (svl.create_date, not bool(svl.ids), svl.ids[0] if svl.ids else 0))

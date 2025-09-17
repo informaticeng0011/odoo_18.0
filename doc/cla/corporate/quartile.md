@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Hong Kong, 2017-09-18
+=======
+Hong Kong, Japan, 2017-09-18
+>>>>>>> upstream/18.0
 
 Quartile Limited agrees to the terms of the Odoo Corporate Contributor License Agreement v1.0.
 
@@ -15,3 +19,7 @@ Ryoko Tsuda ryoko@quartile.co https://github.com/Ryoko04
 Tatsuki Kanda kanda@quartile.co https://github.com/kanda999
 Aung Ko Ko Lin lin@quartile.co https://github.com/AungKoKoLin1997
 Toshikimi Shigenobu nobu@quartile.co https://github.com/nobuQuartile
+<<<<<<< HEAD
+=======
+Sayaka Yamada sayaka@quartile.co https://github.com/Sayaka-qrtl
+>>>>>>> upstream/18.0

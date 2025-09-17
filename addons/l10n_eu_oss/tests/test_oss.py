@@ -137,7 +137,10 @@ class TestOSSBelgium(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -364,6 +367,9 @@ class TestOSSBelgium(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -539,7 +545,10 @@ class TestOSSSpain(AccountTestInvoicingCommon):
                 self.assertIn(expected_tag_id, oss_tag_id, f"{doc_type} tag from Spanish CoA not correctly linked")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_l10n_es_type_oss_tax(self):
         """
         Test that the foreign oss taxes generate with l10n_es_type as no_sujeto_loc
@@ -552,6 +561,9 @@ class TestOSSSpain(AccountTestInvoicingCommon):
 
         self.assertEqual(tax_oss.l10n_es_type, 'no_sujeto_loc')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('post_install', 'post_install_l10n', '-at_install')

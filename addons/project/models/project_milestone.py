@@ -53,7 +53,11 @@ class ProjectMilestone(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     task_count = fields.Integer('# of Tasks', compute='_compute_task_count', groups='project.group_project_milestone, export_string_translation=False')
+=======
+    task_count = fields.Integer('# of Tasks', compute='_compute_task_count', groups='project.group_project_milestone', export_string_translation=False)
+>>>>>>> upstream/18.0
 =======
     task_count = fields.Integer('# of Tasks', compute='_compute_task_count', groups='project.group_project_milestone', export_string_translation=False)
 >>>>>>> upstream/18.0

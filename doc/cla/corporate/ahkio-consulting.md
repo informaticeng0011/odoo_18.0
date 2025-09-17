@@ -13,3 +13,7 @@ Johan Tötterman johan@ahkio.com https://github.com/juppe
 List of contributors:
 
 Johan Tötterman johan@ahkio.com https://github.com/juppe
+<<<<<<< HEAD
+=======
+Tommi Järvinen tommi@ahkio.com https://github.com/tiere
+>>>>>>> upstream/18.0

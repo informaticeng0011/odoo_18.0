@@ -29,7 +29,11 @@ class WebsiteEventController(http.Controller):
     def _get_events_search_options(self, **post):
         return {
 <<<<<<< HEAD
+<<<<<<< HEAD
             'displayDescription': False,
+=======
+            'displayDescription': True,
+>>>>>>> upstream/18.0
 =======
             'displayDescription': True,
 >>>>>>> upstream/18.0

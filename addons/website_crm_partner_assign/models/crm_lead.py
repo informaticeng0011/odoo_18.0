@@ -33,7 +33,10 @@ class CrmLead(models.Model):
                 lead.date_partner_assign = fields.Date.context_today(lead)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _assert_portal_write_access(self):
         if (
             self.env.user._is_portal() and not self.env.su and
@@ -55,6 +58,9 @@ class CrmLead(models.Model):
                     self.env[field.comodel_name].browse(value).check_access('read')
         return super().write(vals)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _merge_get_fields(self):
         fields_list = super(CrmLead, self)._merge_get_fields()
@@ -213,6 +219,10 @@ class CrmLead(models.Model):
 
     def partner_interested(self, comment=False):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._assert_portal_write_access()
+>>>>>>> upstream/18.0
 =======
         self._assert_portal_write_access()
 >>>>>>> upstream/18.0
@@ -221,16 +231,22 @@ class CrmLead(models.Model):
             message += Markup('<p>%s</p>') % comment
         for lead in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
             lead.message_post(body=message)
             lead.sudo().convert_opportunity(lead.partner_id)  # sudo required to convert partner data
 
     def partner_desinterested(self, comment=False, contacted=False, spam=False):
 =======
+=======
+>>>>>>> upstream/18.0
             lead.sudo().message_post(body=message)
             lead.sudo().convert_opportunity(lead.partner_id)  # sudo required to convert partner data
 
     def partner_desinterested(self, comment=False, contacted=False, spam=False):
         self._assert_portal_write_access()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if contacted:
             message = Markup('<p>%s</p>') % _('I am not interested by this lead. I contacted the lead.')
@@ -242,7 +258,11 @@ class CrmLead(models.Model):
         if comment:
             message += Markup('<p>%s</p>') % comment
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.message_post(body=message)
+=======
+        self.sudo().message_post(body=message)
+>>>>>>> upstream/18.0
 =======
         self.sudo().message_post(body=message)
 >>>>>>> upstream/18.0
@@ -260,7 +280,11 @@ class CrmLead(models.Model):
 
     def update_lead_portal(self, values):
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.browse().check_access('write')
+=======
+        self._assert_portal_write_access()
+>>>>>>> upstream/18.0
 =======
         self._assert_portal_write_access()
 >>>>>>> upstream/18.0
@@ -296,7 +320,11 @@ class CrmLead(models.Model):
 
     def update_contact_details_from_portal(self, values):
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.browse().check_access('write')
+=======
+        self._assert_portal_write_access()
+>>>>>>> upstream/18.0
 =======
         self._assert_portal_write_access()
 >>>>>>> upstream/18.0

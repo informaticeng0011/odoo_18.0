@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { definePreset, defineTags } from "@odoo/hoot";
 import { runTests } from "./module_set.hoot";
 
@@ -68,6 +69,11 @@ import { definePreset, defineTags, isHootReady } from "@odoo/hoot";
 import { runTests } from "./module_set.hoot";
 
 >>>>>>> upstream/18.0
+=======
+import { definePreset, defineTags, isHootReady } from "@odoo/hoot";
+import { runTests } from "./module_set.hoot";
+
+>>>>>>> upstream/18.0
 function beforeFocusRequired(test) {
     if (!document.hasFocus()) {
         console.warn(
@@ -93,6 +99,9 @@ function beforeFocusRequired(test) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -174,6 +183,7 @@ defineTags(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         before: (test) => {
             if (!document.hasFocus()) {
                 console.warn(
@@ -232,6 +242,8 @@ queueMicrotask(() => runTests({ fileSuffix: ".test" }));
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         before: beforeFocusRequired,
     }
 );
@@ -242,6 +254,9 @@ isHootReady.then(() => runTests({ fileSuffix: ".test" }));
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

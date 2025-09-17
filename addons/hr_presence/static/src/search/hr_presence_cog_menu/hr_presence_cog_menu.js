@@ -16,6 +16,11 @@ export class HrPresenceCogMenu extends FormCogMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.presenceActionItems = [];
+
+>>>>>>> upstream/18.0
 =======
         this.presenceActionItems = [];
 

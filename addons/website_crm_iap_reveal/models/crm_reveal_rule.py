@@ -338,7 +338,11 @@ class CRMRevealRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env['crm.iap.lead.helpers'].notify_no_more_credit('reveal', self._name, 'reveal.already_notified')
+=======
+            self.env['crm.iap.lead.helpers']._notify_no_more_credit('reveal', self._name, 'reveal.already_notified')
+>>>>>>> upstream/18.0
 =======
             self.env['crm.iap.lead.helpers']._notify_no_more_credit('reveal', self._name, 'reveal.already_notified')
 >>>>>>> upstream/18.0

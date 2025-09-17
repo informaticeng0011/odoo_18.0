@@ -84,3 +84,11 @@ class CloudStorageAttachment(models.Model):
                 upload request
         """
         raise NotImplementedError()
+<<<<<<< HEAD
+=======
+
+    def _get_cloud_storage_unsupported_models(self):
+        # Some models may use their attachments' data in the business code
+        # We should avoid those attachments to be uploaded to the cloud storage
+        return list(self.env.registry.descendants(['mail.thread.main.attachment'], '_inherit', '_inherits'))
+>>>>>>> upstream/18.0

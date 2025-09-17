@@ -69,13 +69,21 @@ class ResPartner(models.Model):
         for partner in self:
             placeholder = 'N/A'
             if partner.l10n_my_identification_type == 'NRIC':
+<<<<<<< HEAD
                 placeholder = '830503-11-4923'
+=======
+                placeholder = '830503114923'
+>>>>>>> upstream/18.0
             elif partner.l10n_my_identification_type == 'BRN':
                 placeholder = '202201234565'
             elif partner.l10n_my_identification_type == 'PASSPORT':
                 placeholder = 'A00000000'
             elif partner.l10n_my_identification_type == 'ARMY':
+<<<<<<< HEAD
                 placeholder = '830805-13-4983'
+=======
+                placeholder = '830805134983'
+>>>>>>> upstream/18.0
             partner.l10n_my_identification_number_placeholder = placeholder
 
     # --------------

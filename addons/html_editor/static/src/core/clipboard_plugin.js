@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { isTextNode, isParagraphRelatedElement } from "../utils/dom_info";
 import { Plugin } from "../plugin";
 import { closestBlock, isBlock } from "../utils/blocks";
@@ -16,6 +17,12 @@ import { unwrapContents, wrapInlinesInBlocks, splitTextNode, setTagName } from "
 import { unwrapContents, wrapInlinesInBlocks, splitTextNode, setTagName } from "../utils/dom";
 >>>>>>> upstream/18.0
 =======
+import { unwrapContents, wrapInlinesInBlocks, splitTextNode, setTagName } from "../utils/dom";
+>>>>>>> upstream/18.0
+=======
+import { isTextNode, isParagraphRelatedElement, isIconElement } from "../utils/dom_info";
+import { Plugin } from "../plugin";
+import { closestBlock, isBlock } from "../utils/blocks";
 import { unwrapContents, wrapInlinesInBlocks, splitTextNode, setTagName } from "../utils/dom";
 >>>>>>> upstream/18.0
 import { ancestors, childNodes, closestElement } from "../utils/dom_traversal";
@@ -379,6 +386,7 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let textIndex = 1;
         for (const textFragment of textFragments) {
             // Replace consecutive spaces by alternating nbsp.
@@ -391,6 +399,8 @@ export class ClipboardPlugin extends Plugin {
                 });
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -492,6 +502,9 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -665,10 +678,14 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // TODO specific exception for "PRE" to keep everything inside one PRE.
                 // Consider removing this if PRE is to be used as a paragraph.
                 block.nodeName !== "PRE" &&
                 !block.closest("li")
+=======
+                block.nodeName !== "PRE"
+>>>>>>> upstream/18.0
 =======
                 block.nodeName !== "PRE"
 >>>>>>> upstream/18.0
@@ -746,9 +763,12 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (this.dependencies.baseContainer.isCandidateForBaseContainer(node)) {
                         childrenNodes = childNodes(node);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -796,6 +816,9 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -833,7 +856,10 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -859,6 +885,9 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -909,14 +938,21 @@ export class ClipboardPlugin extends Plugin {
             // Remove all illegal attributes and classes from the node, then
             // clean its children.
             for (const attribute of [...node.attributes]) {
+<<<<<<< HEAD
                 // Keep allowed styles on nodes with allowed tags.
+=======
+>>>>>>> upstream/18.0
                 // todo: should the whitelist be a resource?
                 if (
                     CLIPBOARD_WHITELISTS.styledTags.includes(node.nodeName) &&
                     attribute.name === "style"
                 ) {
                     node.removeAttribute(attribute.name);
+<<<<<<< HEAD
                     if (["SPAN", "FONT"].includes(node.tagName)) {
+=======
+                    if (["SPAN", "FONT"].includes(node.tagName) && !isIconElement(node)) {
+>>>>>>> upstream/18.0
                         for (const unwrappedNode of unwrapContents(node)) {
                             this.cleanForPaste(unwrappedNode);
                         }
@@ -1150,7 +1186,11 @@ function prependOriginToImages(doc, origin) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (src && !src.startsWith("http") && !src.startsWith("//")) {
+=======
+        if (src && !/^(http|\/\/|data:)/.test(src)) {
+>>>>>>> upstream/18.0
 =======
         if (src && !/^(http|\/\/|data:)/.test(src)) {
 >>>>>>> upstream/18.0

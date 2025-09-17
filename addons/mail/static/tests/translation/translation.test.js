@@ -1,5 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, test } from "@odoo/hoot";
+=======
+import { test } from "@odoo/hoot";
+import { mockUserAgent } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { test } from "@odoo/hoot";
 import { mockUserAgent } from "@odoo/hoot-mock";
@@ -18,9 +23,15 @@ import {
 import { serverState } from "@web/../tests/web_test_helpers";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 describe.current.tags("desktop");
 defineMailModels();
 
+=======
+defineMailModels();
+
+test.tags("desktop");
+>>>>>>> upstream/18.0
 =======
 defineMailModels();
 
@@ -58,6 +69,10 @@ test("Toggle display of original/translated version of chatter message", async (
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+test.tags("desktop");
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 >>>>>>> upstream/18.0
@@ -97,7 +112,10 @@ test("translation of email message", async () => {
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test.tags("mobile");
 test("Toggle message translation on mobile", async () => {
@@ -121,4 +139,7 @@ test("Toggle message translation on mobile", async () => {
         text: "To bad weather, good face.(Translated from: Spanish)",
     });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

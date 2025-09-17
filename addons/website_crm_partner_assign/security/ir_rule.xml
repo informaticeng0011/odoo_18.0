@@ -9,7 +9,11 @@
             <field name="domain_force">[('partner_assigned_id','child_of',user.commercial_partner_id.id)]</field>
             <field name="perm_read" eval="True"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <field name="perm_write" eval="True"/>
+=======
+            <field name="perm_write" eval="False"/>
+>>>>>>> upstream/18.0
 =======
             <field name="perm_write" eval="False"/>
 >>>>>>> upstream/18.0
