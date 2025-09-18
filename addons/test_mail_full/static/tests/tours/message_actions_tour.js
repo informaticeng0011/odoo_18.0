@@ -9,6 +9,7 @@ registry.category("web_tour.tours").add("star_message_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: "#chatterRoot:shadow .o-mail-Message:contains(Test Message)",
             run: "hover && click #chatterRoot:shadow .o-mail-Message [title='Mark as Todo'] i.fa-star-o",
         },
@@ -16,6 +17,8 @@ registry.category("web_tour.tours").add("star_message_tour", {
             trigger: "#chatterRoot:shadow .o-mail-Message:contains(Test Message)",
             run: "hover #chatterRoot:shadow .o-mail-Message [title='Mark as Todo'] i.fa-star.o-mail-Message-starred",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37,6 +40,9 @@ registry.category("web_tour.tours").add("star_message_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

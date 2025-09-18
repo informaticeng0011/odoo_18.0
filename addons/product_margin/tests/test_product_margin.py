@@ -1,8 +1,14 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+<<<<<<< HEAD
 from unittest.mock import patch
 
 from odoo import Command
+=======
+
+from unittest.mock import patch
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.tests import tagged
 
@@ -130,7 +136,11 @@ class TestProductMargin(AccountTestInvoicingCommon):
         vendor_bill = self.env['account.move'].create([{
             'move_type': 'in_invoice',
             'partner_id': supplier.id,
+<<<<<<< HEAD
             'invoice_date': '2025-01-01',
+=======
+            'invoice_date': fields.Date.today(),
+>>>>>>> upstream/18.0
             'invoice_line_ids': [
                 Command.create({
                     'product_id': ipad.id,

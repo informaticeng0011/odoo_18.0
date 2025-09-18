@@ -6,7 +6,11 @@
     'name': 'Task Logs',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'version': '1.0',
+=======
+    'version': '1.1',
+>>>>>>> upstream/18.0
 =======
     'version': '1.1',
 >>>>>>> upstream/18.0

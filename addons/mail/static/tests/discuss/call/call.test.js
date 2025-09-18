@@ -337,6 +337,7 @@ test("join/leave sounds are only played on main tab", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click("[title='Start a Call']", { target: env1 });
     await contains(".o-discuss-Call", { target: env1 });
     await contains(".o-discuss-Call", { target: env2 });
@@ -345,6 +346,8 @@ test("join/leave sounds are only played on main tab", async () => {
     await contains(".o-discuss-Call", { target: env1, count: 0 });
     await contains(".o-discuss-Call", { target: env2, count: 0 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -367,6 +370,9 @@ test("join/leave sounds are only played on main tab", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

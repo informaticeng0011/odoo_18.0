@@ -102,7 +102,11 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if auto_invoice:
+=======
+            if auto_invoice and not self.env.context.get('skip_sale_auto_invoice_send'):
+>>>>>>> upstream/18.0
 =======
             if auto_invoice and not self.env.context.get('skip_sale_auto_invoice_send'):
 >>>>>>> upstream/18.0
@@ -181,11 +185,14 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env['account.move.send']._generate_and_send_invoices(
                 invoice_to_send,
                 allow_raising=False,
                 allow_fallback_pdf=True,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -216,6 +223,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

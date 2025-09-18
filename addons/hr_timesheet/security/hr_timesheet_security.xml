@@ -67,10 +67,13 @@
                 ('project_id', '!=', False),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 '|',
                     ('project_id.privacy_visibility', '!=', 'followers'),
                     ('project_id.message_partner_ids', 'in', [user.partner_id.id])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 '|', '|',
@@ -78,6 +81,9 @@
                     ('project_id.message_partner_ids', 'in', [user.partner_id.id]),
                     ('task_id.message_partner_ids', 'in', [user.partner_id.id])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -129,10 +135,13 @@
             <field name="domain_force">[
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 '|',
                     ('project_id.privacy_visibility', '!=', 'followers'),
                     ('project_id.message_partner_ids', 'in', [user.partner_id.id])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 '|', '|',
@@ -140,6 +149,9 @@
                     ('project_id.message_partner_ids', 'in', [user.partner_id.id]),
                     ('task_id.message_partner_ids', 'in', [user.partner_id.id])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

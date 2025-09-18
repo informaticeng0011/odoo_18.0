@@ -68,7 +68,11 @@ class ResCompany(models.Model):
             placeholder = 'N/A'
             if company.l10n_my_identification_type == 'NRIC':
 <<<<<<< HEAD
+<<<<<<< HEAD
                 placeholder = '830503-11-4923'
+=======
+                placeholder = '830503114923'
+>>>>>>> upstream/18.0
 =======
                 placeholder = '830503114923'
 >>>>>>> upstream/18.0
@@ -78,7 +82,11 @@ class ResCompany(models.Model):
                 placeholder = 'A00000000'
             elif company.l10n_my_identification_type == 'ARMY':
 <<<<<<< HEAD
+<<<<<<< HEAD
                 placeholder = '830805-13-4983'
+=======
+                placeholder = '830805134983'
+>>>>>>> upstream/18.0
 =======
                 placeholder = '830805134983'
 >>>>>>> upstream/18.0
@@ -110,7 +118,10 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -163,6 +174,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

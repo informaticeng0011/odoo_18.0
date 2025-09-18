@@ -46,7 +46,11 @@ Toledo8217Protocol = SerialProtocol(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     statusRegexp=b"\x02\\s*(\\?.)\\r",
+=======
+    statusRegexp=b"\x02\\s*\\?([^\x00])\\r",
+>>>>>>> upstream/18.0
 =======
     statusRegexp=b"\x02\\s*\\?([^\x00])\\r",
 >>>>>>> upstream/18.0
@@ -216,6 +220,11 @@ class ScaleDriver(SerialDriver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        else:
+            self._read_status(answer)
+>>>>>>> upstream/18.0
 =======
         else:
             self._read_status(answer)
@@ -328,7 +337,10 @@ class Toledo8217Driver(ScaleDriver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -393,6 +405,9 @@ class Toledo8217Driver(ScaleDriver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -502,6 +517,12 @@ class AdamEquipmentDriver(ScaleDriver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def _read_status(self, answer):
+        pass
+>>>>>>> upstream/18.0
 =======
 
     def _read_status(self, answer):

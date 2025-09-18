@@ -42,6 +42,12 @@ actions(Check in/Check out) performed by them.
             'hr_attendance/static/tests/hr_attendance_mock_server.js',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'web.assets_unit_tests': [
+            'hr_attendance/static/tests/*.test.js',
+        ],
+>>>>>>> upstream/18.0
 =======
         'web.assets_unit_tests': [
             'hr_attendance/static/tests/*.test.js',

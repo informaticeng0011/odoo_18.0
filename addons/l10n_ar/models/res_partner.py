@@ -125,7 +125,11 @@ class ResPartner(models.Model):
             id_number = re.sub('[^0-9]', '', self.vat)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             res = int(id_number)
+=======
+            res = id_number and int(id_number)
+>>>>>>> upstream/18.0
 =======
             res = id_number and int(id_number)
 >>>>>>> upstream/18.0

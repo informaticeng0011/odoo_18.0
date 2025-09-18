@@ -67,7 +67,11 @@ export class MassMailingHtmlField extends HtmlField {
         });
 
         useRecordObserver((record) => {
+<<<<<<< HEAD
             if ("mailing_model_id" in record.data) {
+=======
+            if (record.data.mailing_model_id) {
+>>>>>>> upstream/18.0
                 this._onModelChange(record);
             }
         });

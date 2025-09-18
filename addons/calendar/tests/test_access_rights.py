@@ -10,6 +10,10 @@ from odoo.tests.common import TransactionCase, new_test_user
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form
 >>>>>>> upstream/18.0
@@ -367,7 +371,10 @@ class TestAccessRights(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -414,6 +421,9 @@ class TestAccessRights(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -30,6 +30,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { getColorHex } from "../../hoot-dom/hoot_dom_utils";
+>>>>>>> upstream/18.0
 =======
 import { getColorHex } from "../../hoot-dom/hoot_dom_utils";
 >>>>>>> upstream/18.0
@@ -193,6 +197,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        table: $table,
+>>>>>>> upstream/18.0
 =======
         table: $table,
 >>>>>>> upstream/18.0
@@ -411,6 +419,7 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const styledArguments = (args, prefix, prefixColor) => {
     const fullPrefix = `%c[${prefix || "HOOT"}]%c`;
     const styles = [`color:${prefixColor || "#ff0080"};font-weight:bold`, ""];
@@ -419,6 +428,8 @@ const styledArguments = (args, prefix, prefixColor) => {
         firstArg = firstArg();
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -510,6 +521,9 @@ function styledArguments(args, prefix, prefixColor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -605,7 +619,11 @@ function styledArguments(args, prefix, prefixColor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -730,8 +748,13 @@ function styledArguments(args, prefix, prefixColor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const unstyledArguments = (args) => {
     const prefix = `[HOOT]`;
+=======
+function unstyledArguments(args) {
+    const prefix = `[${DEFAULT_PREFIX[0]}]`;
+>>>>>>> upstream/18.0
 =======
 function unstyledArguments(args) {
     const prefix = `[${DEFAULT_PREFIX[0]}]`;
@@ -889,6 +912,7 @@ function unstyledArguments(args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 <<<<<<< HEAD
@@ -1118,6 +1142,8 @@ const WARNING_PREFIX = ["WARNING", "#f59e0b"];
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 }
 
 const DEBUG_PREFIX = ["DEBUG", getColorHex("purple")];
@@ -1153,6 +1179,9 @@ const WARNING_PREFIX = ["WARNING", getColorHex("amber")];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1260,7 +1289,11 @@ export function makeNetworkLogger(prefix, title) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (logger.level < LOG_LEVELS.debug) {
+=======
+            if (!logger.allows("debug")) {
+>>>>>>> upstream/18.0
 =======
             if (!logger.allows("debug")) {
 >>>>>>> upstream/18.0
@@ -1394,7 +1427,11 @@ export function makeNetworkLogger(prefix, title) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (logger.level < LOG_LEVELS.debug) {
+=======
+            if (!logger.allows("debug")) {
+>>>>>>> upstream/18.0
 =======
             if (!logger.allows("debug")) {
 >>>>>>> upstream/18.0
@@ -1502,6 +1539,7 @@ export const LOG_LEVELS = {
 };
 
 export const logger = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1795,6 +1833,11 @@ export const logger = {
     currentLevel: urlParams.loglevel ?? LOG_LEVELS.runner,
     suppressed: "",
 >>>>>>> upstream/18.0
+=======
+    /** @private */
+    currentLevel: urlParams.loglevel ?? LOG_LEVELS.runner,
+    suppressed: "",
+>>>>>>> upstream/18.0
 
     // Standard console methods
 
@@ -1866,6 +1909,7 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         console.error(...styledArguments(args));
     },
     /**
@@ -1874,6 +1918,8 @@ export const logger = {
     groupCollapsed(...args) {
         $groupCollapsed(...styledArguments(args));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2073,6 +2119,9 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2251,8 +2300,11 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         console.warn(...styledArguments(args));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2431,6 +2483,9 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2554,6 +2609,7 @@ export const logger = {
      * @param {...any} args
      */
     logDebug(...args) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2777,6 +2833,8 @@ export const logger = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (!logger.allows("debug")) {
             return;
         }
@@ -2810,6 +2868,9 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2904,7 +2965,11 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (logger.level < LOG_LEVELS.suites) {
+=======
+        if (!logger.allows("suites")) {
+>>>>>>> upstream/18.0
 =======
         if (!logger.allows("suites")) {
 >>>>>>> upstream/18.0
@@ -3050,11 +3115,14 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param {...any} args
      */
     logRun(...args) {
         if (logger.level < LOG_LEVELS.runner) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3171,6 +3239,9 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3310,7 +3381,10 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3429,6 +3503,7 @@ export const logger = {
     // Other methods
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3609,6 +3684,8 @@ export const logger = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
      * @param {keyof typeof LOG_LEVELS} level
      */
     allows(level) {
@@ -3658,6 +3735,9 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

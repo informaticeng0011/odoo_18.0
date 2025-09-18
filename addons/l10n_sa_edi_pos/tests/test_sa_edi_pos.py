@@ -14,7 +14,11 @@ class TestGenericSAEdi(TestGenericLocalization):
         cls.main_pos_config.journal_id._l10n_sa_load_edi_demo_data()
         cls.company.write({
 <<<<<<< HEAD
+<<<<<<< HEAD
             'name': 'SA Company Test',
+=======
+            'name': 'Generic SA EDI',
+>>>>>>> upstream/18.0
 =======
             'name': 'Generic SA EDI',
 >>>>>>> upstream/18.0

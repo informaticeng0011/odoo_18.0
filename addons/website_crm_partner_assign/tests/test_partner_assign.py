@@ -226,7 +226,10 @@ class TestPartnerLeadPortal(TestCrmCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_lead_update(self):
@@ -268,6 +271,9 @@ class TestPartnerLeadPortal(TestCrmCommon):
         self.assertEqual(test_partner.email, email_2, 'Adress email on the partner must be updated')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

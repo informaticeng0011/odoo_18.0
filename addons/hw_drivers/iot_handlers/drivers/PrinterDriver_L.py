@@ -113,6 +113,7 @@ class PrinterDriver(Driver):
                     ppd_file = ppd
                     break
 <<<<<<< HEAD
+<<<<<<< HEAD
             with cups_lock:
                 if ppd_file:
                     conn.addPrinter(name=device['identifier'], ppdname=ppd_file, device=device['url'])
@@ -127,6 +128,8 @@ class PrinterDriver(Driver):
                 conn.addPrinterOptionDefault(device['identifier'], "usb-unidir", "true")
             return True
 =======
+=======
+>>>>>>> upstream/18.0
             with cups_lock, helpers.writable():
                 try:
                     if ppd_file:
@@ -144,6 +147,9 @@ class PrinterDriver(Driver):
                 except IPPError:
                     _logger.exception("Failed to add printer '%s'", device['identifier'])
                     return False
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return False
 

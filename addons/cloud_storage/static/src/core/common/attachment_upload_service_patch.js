@@ -85,7 +85,12 @@ patch(AttachmentUploadService.prototype, {
         if (
             session.cloud_storage_min_file_size !== undefined &&
 <<<<<<< HEAD
+<<<<<<< HEAD
             file.size > session.cloud_storage_min_file_size
+=======
+            file.size > session.cloud_storage_min_file_size &&
+            !session.cloud_storage_unsupported_models.includes(thread.model)
+>>>>>>> upstream/18.0
 =======
             file.size > session.cloud_storage_min_file_size &&
             !session.cloud_storage_unsupported_models.includes(thread.model)

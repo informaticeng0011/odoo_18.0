@@ -1,4 +1,8 @@
 from odoo import api, models
+<<<<<<< HEAD
+=======
+from odoo.osv import expression
+>>>>>>> upstream/18.0
 
 
 class KpiProvider(models.AbstractModel):
@@ -6,6 +10,7 @@ class KpiProvider(models.AbstractModel):
 
     @api.model
     def get_account_kpi_summary(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         AccountMove = self.env['account.move']
@@ -30,6 +35,17 @@ class KpiProvider(models.AbstractModel):
             '|', ('state', '=', 'draft'),
             '&', ('state', '=', 'posted'), ('checked', '=', False),
         ], ['journal_id'], ['journal_id:count'])
+=======
+        grouped_moves_to_report = self.env['account.move']._read_group(
+            expression.OR([
+                [('state', '=', 'draft')],
+                [('state', '=', 'posted'), ('checked', '=', False)],
+                [('state', '=', 'posted'), ('journal_id.type', '=', 'bank'), ('statement_line_id.is_reconciled', '=', False)],
+            ]),
+            ['journal_id'],
+            ['journal_id:count'],
+        )
+>>>>>>> upstream/18.0
 
         FieldsSelection = self.env['ir.model.fields.selection'].with_context(lang=self.env.user.lang)
         journal_type_names = {x.value: x.name for x in FieldsSelection.search([
@@ -49,6 +65,9 @@ class KpiProvider(models.AbstractModel):
             'value': count,
         } for journal_type, count in count_by_type.items()]
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

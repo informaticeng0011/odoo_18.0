@@ -21,7 +21,11 @@ def _make_demo_tax(chart_template, chart_template_data):
     # We take the accounts from the first purchase tax we find in the template data.
     tax_data = chart_template_data.get('account.tax')
 <<<<<<< HEAD
+<<<<<<< HEAD
     purchase_taxes = [tax for tax in tax_data if tax_data[tax]['type_tax_use'] == 'purchase']
+=======
+    purchase_taxes = [tax for tax in tax_data if tax_data[tax]['type_tax_use'] == 'purchase' and tax_data[tax].get('repartition_line_ids')]
+>>>>>>> upstream/18.0
 =======
     purchase_taxes = [tax for tax in tax_data if tax_data[tax]['type_tax_use'] == 'purchase' and tax_data[tax].get('repartition_line_ids')]
 >>>>>>> upstream/18.0

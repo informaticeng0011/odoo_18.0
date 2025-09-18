@@ -61,7 +61,11 @@ class HrHolidaysController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return MailController._redirect_to_messaging()
+=======
+                return MailController._redirect_to_generic_fallback('hr.leave', res_id)
+>>>>>>> upstream/18.0
 =======
                 return MailController._redirect_to_generic_fallback('hr.leave', res_id)
 >>>>>>> upstream/18.0
@@ -219,7 +223,11 @@ class HrHolidaysController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return MailController._redirect_to_messaging()
+=======
+                return MailController._redirect_to_generic_fallback('hr.leave', res_id)
+>>>>>>> upstream/18.0
 =======
                 return MailController._redirect_to_generic_fallback('hr.leave', res_id)
 >>>>>>> upstream/18.0
@@ -377,7 +385,11 @@ class HrHolidaysController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return MailController._redirect_to_messaging()
+=======
+                return MailController._redirect_to_generic_fallback('hr.leave.allocation', res_id)
+>>>>>>> upstream/18.0
 =======
                 return MailController._redirect_to_generic_fallback('hr.leave.allocation', res_id)
 >>>>>>> upstream/18.0
@@ -535,7 +547,11 @@ class HrHolidaysController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return MailController._redirect_to_messaging()
+=======
+                return MailController._redirect_to_generic_fallback('hr.leave.allocation', res_id)
+>>>>>>> upstream/18.0
 =======
                 return MailController._redirect_to_generic_fallback('hr.leave.allocation', res_id)
 >>>>>>> upstream/18.0

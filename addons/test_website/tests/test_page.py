@@ -56,7 +56,11 @@ class WithContext(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(r.status_code, 403, "The website homepage_url should be a 403")
+=======
+        self.assertEqual(r.status_code, 404, "The website homepage_url should be a 404")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(r.status_code, 404, "The website homepage_url should be a 404")
 >>>>>>> upstream/18.0

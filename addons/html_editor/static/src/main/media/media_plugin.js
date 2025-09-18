@@ -7,7 +7,13 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     isIconElement,
+=======
+    EDITABLE_MEDIA_CLASS,
+    isIconElement,
+    isMediaElement,
+>>>>>>> upstream/18.0
 =======
     EDITABLE_MEDIA_CLASS,
     isIconElement,
@@ -107,6 +113,11 @@ export class MediaPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        functional_empty_node_predicates: isMediaElement,
+        is_node_editable_predicates: this.isEditableMediaElement.bind(this),
+>>>>>>> upstream/18.0
 =======
         functional_empty_node_predicates: isMediaElement,
         is_node_editable_predicates: this.isEditableMediaElement.bind(this),
@@ -145,10 +156,13 @@ export class MediaPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     replaceImage() {
         const selectedNodes = this.dependencies.selection.getSelectedNodes();
         const node = selectedNodes.find((node) => node.tagName === "IMG");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -174,6 +188,9 @@ export class MediaPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

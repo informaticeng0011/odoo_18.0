@@ -53,6 +53,10 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        split_pickings_ids = set()
+>>>>>>> upstream/18.0
 =======
         split_pickings_ids = set()
 >>>>>>> upstream/18.0
@@ -105,6 +109,10 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            split_pickings_ids.add(picking.id)
+>>>>>>> upstream/18.0
 =======
             split_pickings_ids.add(picking.id)
 >>>>>>> upstream/18.0
@@ -144,7 +152,12 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env['stock.picking'].create(picking_to_wave_vals_list)
+=======
+            split_pickings = self.env['stock.picking'].browse(split_pickings_ids) | self.env['stock.picking'].create(picking_to_wave_vals_list)
+            split_pickings._add_to_wave_post_picking_split_hook()
+>>>>>>> upstream/18.0
 =======
             split_pickings = self.env['stock.picking'].browse(split_pickings_ids) | self.env['stock.picking'].create(picking_to_wave_vals_list)
             split_pickings._add_to_wave_post_picking_split_hook()

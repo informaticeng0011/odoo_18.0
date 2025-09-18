@@ -34,7 +34,10 @@ class CrmLead(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _assert_portal_write_access(self):
@@ -59,6 +62,9 @@ class CrmLead(models.Model):
         return super().write(vals)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -220,6 +226,10 @@ class CrmLead(models.Model):
     def partner_interested(self, comment=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._assert_portal_write_access()
+>>>>>>> upstream/18.0
 =======
         self._assert_portal_write_access()
 >>>>>>> upstream/18.0
@@ -232,11 +242,14 @@ class CrmLead(models.Model):
         for lead in self:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             lead.message_post(body=message)
             lead.sudo().convert_opportunity(lead.partner_id)  # sudo required to convert partner data
 
     def partner_desinterested(self, comment=False, contacted=False, spam=False):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             lead.sudo().message_post(body=message)
@@ -245,6 +258,9 @@ class CrmLead(models.Model):
     def partner_desinterested(self, comment=False, contacted=False, spam=False):
         self._assert_portal_write_access()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -259,7 +275,11 @@ class CrmLead(models.Model):
             message += Markup('<p>%s</p>') % comment
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.message_post(body=message)
+=======
+        self.sudo().message_post(body=message)
+>>>>>>> upstream/18.0
 =======
         self.sudo().message_post(body=message)
 >>>>>>> upstream/18.0
@@ -281,7 +301,11 @@ class CrmLead(models.Model):
     def update_lead_portal(self, values):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.browse().check_access('write')
+=======
+        self._assert_portal_write_access()
+>>>>>>> upstream/18.0
 =======
         self._assert_portal_write_access()
 >>>>>>> upstream/18.0
@@ -321,7 +345,11 @@ class CrmLead(models.Model):
     def update_contact_details_from_portal(self, values):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.browse().check_access('write')
+=======
+        self._assert_portal_write_access()
+>>>>>>> upstream/18.0
 =======
         self._assert_portal_write_access()
 >>>>>>> upstream/18.0
