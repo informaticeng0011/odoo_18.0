@@ -26,7 +26,11 @@ class IrActionsReport(models.Model):
                 output_pdf.appendPagesFromReader(expense_report)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for attachment in attachments:
+=======
+                for attachment in self._prepare_local_attachments(attachments):
+>>>>>>> upstream/18.0
 =======
                 for attachment in self._prepare_local_attachments(attachments):
 >>>>>>> upstream/18.0

@@ -447,7 +447,11 @@ class ReportBomStructure(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             cost_share = byproduct.cost_share / 100
+=======
+            cost_share = byproduct.cost_share / 100 if byproduct.product_qty > 0 else 0
+>>>>>>> upstream/18.0
 =======
             cost_share = byproduct.cost_share / 100 if byproduct.product_qty > 0 else 0
 >>>>>>> upstream/18.0

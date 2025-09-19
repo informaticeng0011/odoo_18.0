@@ -572,7 +572,10 @@ class TestMrpStockReports(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -869,6 +872,7 @@ class TestMrpStockReports(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -985,6 +989,8 @@ class TestMrpStockReports(TestReportsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_mo_overview_with_different_uom(self):
         """Ensure that the MO overview correctly computes costs
@@ -1014,4 +1020,7 @@ class TestMrpStockReports(TestReportsCommon):
         overview_values = self.env['report.mrp.report_mo_overview'].get_report_values(mo.id)
         self.assertEqual(overview_values['data']['components'][0]['summary']['bom_cost'], 120)
         self.assertEqual(overview_values['data']['components'][0]['summary']['mo_cost'], 120)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

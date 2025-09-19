@@ -25,6 +25,10 @@ class TestGetOperator(TestImLivechatCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        channel.with_user(operator).message_post(body="Hello, how can I help you?")
+>>>>>>> upstream/18.0
 =======
         channel.with_user(operator).message_post(body="Hello, how can I help you?")
 >>>>>>> upstream/18.0
@@ -237,7 +241,10 @@ class TestGetOperator(TestImLivechatCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -272,6 +279,9 @@ class TestGetOperator(TestImLivechatCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

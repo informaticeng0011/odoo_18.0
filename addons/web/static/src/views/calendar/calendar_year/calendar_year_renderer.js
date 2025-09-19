@@ -1,6 +1,9 @@
 import { localization } from "@web/core/l10n/localization";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useDebounced } from "@web/core/utils/timing";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { getColor } from "../colors";
@@ -38,7 +41,10 @@ export class CalendarYearRenderer extends Component {
         this.popover = useCalendarPopover(this.constructor.components.Popover);
         this.rootRef = useRef("root");
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.onWindowResizeDebounced = useDebounced(this.onWindowResize, 200);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -81,7 +87,11 @@ export class CalendarYearRenderer extends Component {
             weekNumbers: false,
             weekNumberFormat: { week: "numeric" },
 <<<<<<< HEAD
+<<<<<<< HEAD
             windowResize: this.onWindowResizeDebounced,
+=======
+            windowResize: this.onWindowResize,
+>>>>>>> upstream/18.0
 =======
             windowResize: this.onWindowResize,
 >>>>>>> upstream/18.0

@@ -2,7 +2,11 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import TransactionCase, tagged
+=======
+from odoo.tests import tagged, TransactionCase
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import tagged, TransactionCase
 >>>>>>> upstream/18.0
@@ -17,6 +21,7 @@ from odoo.tests import tagged, TransactionCase
 @tagged('post_install', '-at_install')
 class TestKpiProvider(TransactionCase):
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     def test_kpi_summary(self):
         """
@@ -42,6 +47,8 @@ class TestKpiProvider(TransactionCase):
         self.assertCountEqual(self.env['kpi.provider'].get_account_kpi_summary(), [])
 
 =======
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -59,11 +66,15 @@ class TestKpiProvider(TransactionCase):
         self.assertCountEqual(self.env['kpi.provider'].get_account_kpi_summary(), [])
 
     def test_kpi_summary(self):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         company_id = self.ref('base.main_company')
         account_id = self.env['account.account'].search([('company_ids', '=', company_id)], limit=1)
         base_move = {
             'company_id': company_id,
+<<<<<<< HEAD
 <<<<<<< HEAD
             'line_ids': [Command.create({'account_id': account_id.id, 'quantity': 15, 'price_unit': 10})],
 <<<<<<< HEAD
@@ -77,10 +88,15 @@ class TestKpiProvider(TransactionCase):
         }
         all_moves = self.env['account.move'].create(
 =======
+=======
+>>>>>>> upstream/18.0
             'invoice_line_ids': [Command.create({'account_id': account_id.id, 'quantity': 15, 'price_unit': 10})],
             'partner_id': self.partner_id.id,
         }
         self.env['account.move'].create(
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             [{**base_move, 'move_type': 'entry'}] * 2 +
             [{**base_move, 'move_type': 'out_invoice'}] * 3 +
@@ -91,6 +107,7 @@ class TestKpiProvider(TransactionCase):
             [{**base_move, 'move_type': 'in_receipt'}] * 8
         )
         self.assertCountEqual(self.env['kpi.provider'].get_account_kpi_summary(), [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +187,8 @@ class TestKpiProvider(TransactionCase):
 >>>>>>> upstream/18.0
         ])
 =======
+=======
+>>>>>>> upstream/18.0
             {'id': 'account_journal_type.general', 'name': 'Miscellaneous', 'type': 'integer', 'value': 2},
             {'id': 'account_journal_type.sale', 'name': 'Sales', 'type': 'integer', 'value': 3 + 4 + 7},
             {'id': 'account_journal_type.purchase', 'name': 'Purchase', 'type': 'integer', 'value': 5 + 6 + 8},
@@ -246,4 +265,7 @@ class TestKpiProvider(TransactionCase):
         (move_line + st_suspense_lines).reconcile()
         self.assertTrue(bank_statement.line_ids.is_reconciled)
         self.assertCountEqual(self.env['kpi.provider'].get_account_kpi_summary(), [])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -115,6 +115,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not (commercial_partners := self.commercial_partner_id & self):
+            return  # nothing to compute
+>>>>>>> upstream/18.0
 =======
         if not (commercial_partners := self.commercial_partner_id & self):
             return  # nothing to compute
@@ -261,6 +266,7 @@ class ResPartner(models.Model):
 
         sale_orders = self.env['sale.order'].search([
             ('company_id', '=', company.id),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,6 +532,10 @@ class ResPartner(models.Model):
             ('partner_invoice_id', 'any', [
                 ('commercial_partner_id', 'in', commercial_partners.ids),
 >>>>>>> upstream/18.0
+=======
+            ('partner_invoice_id', 'any', [
+                ('commercial_partner_id', 'in', commercial_partners.ids),
+>>>>>>> upstream/18.0
             ]),
             ('order_line', 'any', [('untaxed_amount_to_invoice', '>', 0)]),
             ('state', '=', 'sale'),
@@ -595,6 +605,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -727,6 +740,7 @@ class ResPartner(models.Model):
                 company,
                 fields.Date.context_today(self),
             )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -970,6 +984,9 @@ class ResPartner(models.Model):
             ('partner_shipping_id', 'in', self.ids),
         ]).unlink()
         return super().unlink()
+=======
+            partner.commercial_partner_id.credit_to_invoice += credit_company_currency
+>>>>>>> upstream/18.0
 =======
             partner.commercial_partner_id.credit_to_invoice += credit_company_currency
 >>>>>>> upstream/18.0

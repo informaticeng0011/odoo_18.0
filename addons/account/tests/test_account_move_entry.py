@@ -790,7 +790,11 @@ class TestAccountMove(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertRaisesRegex(UserError, r"The move \(.*\) is not balanced\."):
+=======
+        with self.assertRaisesRegex(UserError, r"The entry is not balanced."):
+>>>>>>> upstream/18.0
 =======
         with self.assertRaisesRegex(UserError, r"The entry is not balanced."):
 >>>>>>> upstream/18.0
@@ -1367,7 +1371,10 @@ class TestAccountMove(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1577,6 +1584,7 @@ class TestAccountMove(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1683,6 +1691,8 @@ class TestAccountMove(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1717,6 +1727,9 @@ class TestAccountMove(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

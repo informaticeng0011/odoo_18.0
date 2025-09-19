@@ -94,7 +94,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, models, _
+=======
+from odoo import models, _
+>>>>>>> upstream/18.0
 =======
 from odoo import models, _
 >>>>>>> upstream/18.0
@@ -523,6 +527,7 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('sending_methods')
     def _compute_invoice_edi_format(self):
         # EXTENDS 'account' - add default on bis3 if not set on partner's preferences and "by Peppol" is selected
@@ -723,10 +728,13 @@ class AccountMoveSendWizard(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def action_send_and_print(self, allow_fallback_pdf=False):
         # EXTENDS 'account'
         self.ensure_one()
         if self.sending_methods and 'peppol' in self.sending_methods:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -747,6 +755,8 @@ class AccountMoveSendWizard(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             move = self.move_id.with_company(self.move_id.company_id)
             if move.partner_id.commercial_partner_id.peppol_verification_state != 'valid':
                 raise UserError(_("Partner doesn't have a valid Peppol configuration."))
@@ -756,6 +766,9 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

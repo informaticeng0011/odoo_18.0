@@ -1,9 +1,12 @@
 import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { queryAllTexts } from "@odoo/hoot-dom";
 import { mockTimeZone } from "@odoo/hoot-mock";
 import { mockService, mountWithCleanup, preloadBundle } from "@web/../tests/web_test_helpers";
 =======
+=======
+>>>>>>> upstream/18.0
 import { queryAllTexts, resize } from "@odoo/hoot-dom";
 import { mockTimeZone, runAllTimers } from "@odoo/hoot-mock";
 import {
@@ -12,6 +15,9 @@ import {
     preloadBundle,
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { FAKE_MODEL, clickDate, selectDateRange } from "./calendar_test_helpers";
 
@@ -145,7 +151,10 @@ test(`display correct column header for days, independent of the timezone`, asyn
     ]);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("resize callback is being called", async () => {
     patchWithCleanup(CalendarYearRenderer.prototype, {
@@ -159,4 +168,7 @@ test("resize callback is being called", async () => {
     await runAllTimers();
     expect.verifySteps(new Array(12).fill("onWindowResize")); // one for each FullCalendar instance
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

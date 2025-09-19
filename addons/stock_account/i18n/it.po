@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 msgid ""
 msgstr ""
@@ -303,6 +304,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 # 
 msgid ""
@@ -327,6 +330,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -447,7 +453,11 @@ msgid "Account Stock Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Proprietà contabilità di magazzino"
+=======
+msgstr "Proprietà conti giacenze"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proprietà conti giacenze"
 >>>>>>> upstream/18.0
@@ -497,7 +507,11 @@ msgid "Add Manual Valuation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aggiungi la valutazione manuale"
+=======
+msgstr "Aggiungi valutazione manuale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aggiungi valutazione manuale"
 >>>>>>> upstream/18.0
@@ -532,7 +546,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aggiunge costi supplementari (trasporto, dogane ecc.) al valore del "
+=======
+"Aggiunge costi supplementari (trasporto, dogana ecc.) al valore del "
+>>>>>>> upstream/18.0
 =======
 "Aggiunge costi supplementari (trasporto, dogana ecc.) al valore del "
 >>>>>>> upstream/18.0
@@ -606,7 +624,11 @@ msgid "Automated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Automatizzato"
+=======
+msgstr "Automatica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatica"
 >>>>>>> upstream/18.0
@@ -650,7 +672,11 @@ msgid "Average Cost (AVCO)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Costo medio (CU)"
+=======
+msgstr "Costo medio (CMP)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Costo medio (CMP)"
 >>>>>>> upstream/18.0
@@ -702,9 +728,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non esiste il conto di ingresso di magazzino per il prodotto %s. Bisogna "
 "definirne uno sulla categoria prodotto o sull'ubicazione prima di eseguire "
 "l'operazione."
+=======
+"Impossibile trovare il conto giacenza in ingresso per il prodotto %s. Deve "
+"essere indicato nella categoria del prodotto, oppure nella ubicazione, prima"
+" di elaborare questa operazione."
+>>>>>>> upstream/18.0
 =======
 "Impossibile trovare il conto giacenza in ingresso per il prodotto %s. Deve "
 "essere indicato nella categoria del prodotto, oppure nella ubicazione, prima"
@@ -756,9 +788,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non esiste il conto di uscita di magazzino per il prodotto %s. Bisogna "
 "definirne uno sulla categoria prodotto o sull'ubicazione prima di eseguire "
 "l'operazione."
+=======
+"Impossibile trovare il conto giacenza in uscita per il prodotto %s. Deve "
+"essere indicato nella categoria del prodotto, oppure nella ubicazione, prima"
+" di elaborare questa operazione."
+>>>>>>> upstream/18.0
 =======
 "Impossibile trovare il conto giacenza in uscita per il prodotto %s. Deve "
 "essere indicato nella categoria del prodotto, oppure nella ubicazione, prima"
@@ -848,8 +886,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Errore di configurazione. Configurare il conto di differenza di prezzo sul "
 "prodotto o la sua categoria per eseguire questa operazione."
+=======
+"Errore di configurazione. Per elaborare questa operazione configurare il "
+"conto differenza di prezzo sul prodotto o sulla sua categoria."
+>>>>>>> upstream/18.0
 =======
 "Errore di configurazione. Per elaborare questa operazione configurare il "
 "conto differenza di prezzo sul prodotto o sulla sua categoria."
@@ -903,7 +946,11 @@ msgid "Costing Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Metodo di calcolo costi"
+=======
+msgstr "Metodo di imputazione dei costi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metodo di imputazione dei costi"
 >>>>>>> upstream/18.0
@@ -1145,7 +1192,11 @@ msgid "Linked To"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Collegati a "
+=======
+msgstr "Collegato a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Collegato a"
 >>>>>>> upstream/18.0
@@ -1228,7 +1279,11 @@ msgid "Manual Stock Valuation: %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "valutazione manuale delle rimanenze: %s."
+=======
+msgstr "Valutazione manuale delle giacenze: %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Valutazione manuale delle giacenze: %s."
 >>>>>>> upstream/18.0
@@ -1268,8 +1323,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manuale: le registrazioni contabili per valutare il magazzino non vengono registrate automaticamente.\n"
 "        Automatizzato: una registrazione contabile viene creata automaticamente per valutare il magazzino quando un prodotto entra o esce dall'azienda. "
+=======
+"Manuale: le registrazioni contabili per valutare l'inventario non vengono registrate automaticamente.\n"
+"        Automatica: viene creata in modo automatico una registrazione contabile per valutare l'inventario quando un prodotto entra o esce dall'azienda."
+>>>>>>> upstream/18.0
 =======
 "Manuale: le registrazioni contabili per valutare l'inventario non vengono registrate automaticamente.\n"
 "        Automatica: viene creata in modo automatico una registrazione contabile per valutare l'inventario quando un prodotto entra o esce dall'azienda."
@@ -1417,7 +1477,11 @@ msgid "Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Causale"
+=======
+msgstr "Motivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motivo"
 >>>>>>> upstream/18.0
@@ -1496,7 +1560,11 @@ msgid "Revalue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rivalutare"
+=======
+msgstr "Rivaluta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rivaluta"
 >>>>>>> upstream/18.0
@@ -1561,7 +1629,11 @@ msgid "Stock Input Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conto di ingresso del magazzino"
+=======
+msgstr "Conto giacenza in ingresso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conto giacenza in ingresso"
 >>>>>>> upstream/18.0
@@ -1594,7 +1666,11 @@ msgid "Stock Journal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Registro di magazzino"
+=======
+msgstr "Registro giacenze"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registro giacenze"
 >>>>>>> upstream/18.0
@@ -1635,7 +1711,11 @@ msgid "Stock Output Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conto di uscita del magazzino"
+=======
+msgstr "Conto giacenza in uscita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conto giacenza in uscita"
 >>>>>>> upstream/18.0
@@ -1687,7 +1767,11 @@ msgid "Stock Valuation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valorizzazione del magazzino"
+=======
+msgstr "Valutazione giacenze"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valutazione giacenze"
 >>>>>>> upstream/18.0
@@ -1720,7 +1804,11 @@ msgid "Stock Valuation Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conto valutazione di magazzino"
+=======
+msgstr "Conto valutazione giacenze"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conto valutazione giacenze"
 >>>>>>> upstream/18.0
@@ -1753,7 +1841,11 @@ msgid "Stock Valuation Account (Incoming)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conto valutazione di magazzino (entrata)"
+=======
+msgstr "Conto valutazione giacenze (in entrata)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conto valutazione giacenze (in entrata)"
 >>>>>>> upstream/18.0
@@ -1786,7 +1878,11 @@ msgid "Stock Valuation Account (Outgoing)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conto valutazione di magazzino (uscita)"
+=======
+msgstr "Conto valutazione giacenze (in uscita)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conto valutazione giacenze (in uscita)"
 >>>>>>> upstream/18.0
@@ -1864,8 +1960,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "L'azione porta alla creazione di una voce del diario, per la quale non hai i"
 " diritti di accesso."
+=======
+"L'azione porta alla creazione di una registrazione contabile per la quale "
+"non si possiedono i diritti di accesso."
+>>>>>>> upstream/18.0
 =======
 "L'azione porta alla creazione di una registrazione contabile per la quale "
 "non si possiedono i diritti di accesso."
@@ -1916,8 +2017,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Le righe di movimento non sono coerenti: alcune entrano e altre escono "
 "dall'azienda."
+=======
+"Le righe di movimento non si trovano in uno stato coerente: alcune sono in "
+"ingresso e altre sono in uscita dall'azienda."
+>>>>>>> upstream/18.0
 =======
 "Le righe di movimento non si trovano in uno stato coerente: alcune sono in "
 "ingresso e altre sono in uscita dall'azienda."
@@ -1962,8 +2068,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Le righe di movimento non sono coerenti: movimento interaziendale in un "
 "unico passo invece di passare per l'ubicazione di transito interaziendale. "
+=======
+"Le righe di movimento non si trovano in uno stato coerente: stanno "
+"effettuando un interaziendale in un unico passaggio invece di passare "
+"attraverso l'ubicazione di transito."
+>>>>>>> upstream/18.0
 =======
 "Le righe di movimento non si trovano in uno stato coerente: stanno "
 "effettuando un interaziendale in un unico passaggio invece di passare "
@@ -2014,8 +2126,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Le righe di movimento non sono coerenti: non condividono la stessa azienda "
 "di origine o di destinazione. "
+=======
+"Le righe di movimento non si trovano in uno stato coerente: non condividono "
+"la stessa azienda di origine o di destinazione."
+>>>>>>> upstream/18.0
 =======
 "Le righe di movimento non si trovano in uno stato coerente: non condividono "
 "la stessa azienda di origine o di destinazione."
@@ -2119,7 +2236,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2148,6 +2268,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2206,7 +2329,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Attivare una diminuzione della quantità consegnata/ricevuta nell'ordine di "
+=======
+"Attiva una diminuzione della quantità consegnata/ricevuta nell'ordine di "
+>>>>>>> upstream/18.0
 =======
 "Attiva una diminuzione della quantità consegnata/ricevuta nell'ordine di "
 >>>>>>> upstream/18.0
@@ -2262,7 +2389,11 @@ msgid "Update quantities on SO/PO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aggiornare le quantità sull'ordine di vendita/ordine di acquisto"
+=======
+msgstr "Aggiorna quantità su OdV/OdA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aggiorna quantità su OdV/OdA"
 >>>>>>> upstream/18.0
@@ -2307,12 +2438,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Usato per la valutazione del magazzino in tempo reale. Quando impostato su "
 "una ubicazione virtuale (non di tipo interno), questo conto verrà usato per "
 "impostare il valore dei prodotti movimentati da una ubicazione interna in "
 "questa ubicazione, invece del \"Conto di uscita del magazzino\" generico "
 "impostato sul prodotto. Non ha effetto sulle ubicazioni interne."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2336,6 +2470,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2366,12 +2503,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Usato per la valutazione del magazzino real-time. Quando impostato su una "
 "ubicazione virtuale (non di tipo interno), questo conto verrà usato per "
 "impostare il valore dei prodotti movimentati da questa ubicazione in una "
 "interna, invece del \"Conto di uscita del magazzino\" generico impostato sul"
 " prodotto. Non ha effetto sulle ubicazioni interne."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2395,6 +2535,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2422,7 +2565,11 @@ msgid "Valuation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valorizzazione"
+=======
+msgstr "Valutazione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valutazione"
 >>>>>>> upstream/18.0
@@ -2545,8 +2692,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Quando si esegue la valutazione automatica dell'inventario, le voci di registro corrispondenti a tutti i movimenti di magazzino in uscita saranno memorizzate in questo conto, a meno che non ci sia uno specifico conto di valutazione impostato sull'ubicazione di destinazione. Questo è il valore predefinito per ogni prodotto di questa categoria.\n"
 "Può anche essere impostato direttamente per ogni prodotto."
+=======
+"Quando viene eseguita una valutazione automatica di inventario, in questo conto vengono registrati tutti i movimenti contabili della controparte per tutti i movimenti di magazzino in uscita,\n"
+"                a meno che nell'ubicazione di destinazione non sia stato impostato uno specifico conto di valutazione. È il valore predefinito per tutti i prodotti della categoria.\n"
+"                Può anche essere impostato direttamente su ogni prodotto."
+>>>>>>> upstream/18.0
 =======
 "Quando viene eseguita una valutazione automatica di inventario, in questo conto vengono registrati tutti i movimenti contabili della controparte per tutti i movimenti di magazzino in uscita,\n"
 "                a meno che nell'ubicazione di destinazione non sia stato impostato uno specifico conto di valutazione. È il valore predefinito per tutti i prodotti della categoria.\n"
@@ -2604,7 +2757,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Modello di wizard per rivalutare un inventario di magazzino per un dato "
+=======
+"Modello di procedura per rivalutare un inventario di magazzino per un "
+>>>>>>> upstream/18.0
 =======
 "Modello di procedura per rivalutare un inventario di magazzino per un "
 >>>>>>> upstream/18.0
@@ -2703,6 +2860,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/stock_account/models/stock_lot.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/stock_account/models/stock_lot.py:0
 >>>>>>> upstream/18.0
@@ -2973,7 +3134,11 @@ msgid "You cannot revalue a product with an empty or negative stock."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Non si può rivalutare un prodotto con uno stock vuoto o negativo."
+=======
+msgstr "Impossibile rivalutare un prodotto con giacenza nulla o negativa."
+>>>>>>> upstream/18.0
 =======
 msgstr "Impossibile rivalutare un prodotto con giacenza nulla o negativa."
 >>>>>>> upstream/18.0
@@ -3018,9 +3183,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non puoi aggiornare il costo di un prodotto nella valutazione automatica "
 "perché porta alla creazione di una voce del giornale, per la quale non hai i"
 " diritti di accesso."
+=======
+"Impossibile aggiornare il costo di un prodotto nella valutazione automatica,"
+" porta alla creazione di una registrazione contabile per la quale non si "
+"possiedono i diritti di accesso."
+>>>>>>> upstream/18.0
 =======
 "Impossibile aggiornare il costo di un prodotto nella valutazione automatica,"
 " porta alla creazione di una registrazione contabile per la quale non si "
@@ -3071,8 +3242,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non hai nessun conto di valutazione d'entrata definito sulla tua categoria "
 "di prodotti. Devi definirne uno prima di elaborare questa operazione."
+=======
+"Nella categoria del prodotto non è stato indicato il conto di valutazione in"
+" ingresso, deve essere definito prima di elaborare questa operazione."
+>>>>>>> upstream/18.0
 =======
 "Nella categoria del prodotto non è stato indicato il conto di valutazione in"
 " ingresso, deve essere definito prima di elaborare questa operazione."
@@ -3126,8 +3302,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Per la categoria prodotto non è definito nessun conto di ingresso delle "
 "scorte. Devi definirne uno prima di elaborare l'operazione."
+=======
+"Nella categoria del prodotto non è stato indicato il conto giacenza in "
+"ingresso, deve essere definito prima di elaborare questa operazione."
+>>>>>>> upstream/18.0
 =======
 "Nella categoria del prodotto non è stato indicato il conto giacenza in "
 "ingresso, deve essere definito prima di elaborare questa operazione."
@@ -3171,8 +3352,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non hai nessun registro di magazzino definito nella tua categoria di "
 "prodotti, controlla se hai installato un piano dei conti. "
+=======
+"Nella categoria del prodotto non è stato indicato alcun registro giacenze, "
+"controllare se è stato installato un piano dei conti."
+>>>>>>> upstream/18.0
 =======
 "Nella categoria del prodotto non è stato indicato alcun registro giacenze, "
 "controllare se è stato installato un piano dei conti."
@@ -3218,8 +3404,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non è definito il conto di valutazione del magazzino nella categoria dei "
 "prodotti. Deve essere definito prima di eseguire questa operazione. "
+=======
+"Nella categoria del prodotto non è stato indicato il conto di valutazione "
+"delle giacenze, deve essere definito prima di elaborare questa operazione."
+>>>>>>> upstream/18.0
 =======
 "Nella categoria del prodotto non è stato indicato il conto di valutazione "
 "delle giacenze, deve essere definito prima di elaborare questa operazione."
@@ -3261,7 +3452,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Devi impostare un account di controparte sulla tua categoria di prodotti."
+=======
+"Deve essere impostato un conto di contropartita nella categoria del "
+"prodotto."
+>>>>>>> upstream/18.0
 =======
 "Deve essere impostato un conto di contropartita nella categoria del "
 "prodotto."
@@ -3301,7 +3497,11 @@ msgid "by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "di"
+=======
+msgstr "al"
+>>>>>>> upstream/18.0
 =======
 msgstr "al"
 >>>>>>> upstream/18.0

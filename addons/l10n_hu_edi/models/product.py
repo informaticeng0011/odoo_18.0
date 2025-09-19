@@ -10,6 +10,10 @@ class ProductTemplate(models.Model):
         selection=[
             ('VTSZ', 'VTSZ - Customs Code'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('SZJ', 'SZJ - Service Registry Code'),
+>>>>>>> upstream/18.0
 =======
             ('SZJ', 'SZJ - Service Registry Code'),
 >>>>>>> upstream/18.0

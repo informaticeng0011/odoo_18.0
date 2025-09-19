@@ -15,7 +15,11 @@ class TestGenericSAEdi(TestGenericLocalization):
         cls.company.write({
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'name': 'SA Company Test',
+=======
+            'name': 'Generic SA EDI',
+>>>>>>> upstream/18.0
 =======
             'name': 'Generic SA EDI',
 >>>>>>> upstream/18.0

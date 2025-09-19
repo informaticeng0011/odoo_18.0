@@ -10,7 +10,11 @@ import json
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _, api, models, modules
+=======
+from odoo import _, api, fields, models, modules
+>>>>>>> upstream/18.0
 =======
 from odoo import _, api, fields, models, modules
 >>>>>>> upstream/18.0
@@ -59,9 +63,15 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                            WHEN CURRENT_DATE - act.date_deadline::date = 0 THEN 'today'
                            WHEN CURRENT_DATE - act.date_deadline::date > 0 THEN 'overdue'
                            WHEN CURRENT_DATE - act.date_deadline::date < 0 THEN 'planned'
+=======
+                           WHEN %(date)s - act.date_deadline::date = 0 THEN 'today'
+                           WHEN %(date)s - act.date_deadline::date > 0 THEN 'overdue'
+                           WHEN %(date)s - act.date_deadline::date < 0 THEN 'planned'
+>>>>>>> upstream/18.0
 =======
                            WHEN %(date)s - act.date_deadline::date = 0 THEN 'today'
                            WHEN %(date)s - act.date_deadline::date > 0 THEN 'overdue'
@@ -111,6 +121,10 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date': str(fields.Date.context_today(self)),
+>>>>>>> upstream/18.0
 =======
             'date': str(fields.Date.context_today(self)),
 >>>>>>> upstream/18.0
