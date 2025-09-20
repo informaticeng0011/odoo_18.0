@@ -118,7 +118,11 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 partners |= self.env['res.partner'].browse(active_id)
+=======
+            partners |= self.env['res.partner'].browse(active_id)
+>>>>>>> upstream/18.0
 =======
             partners |= self.env['res.partner'].browse(active_id)
 >>>>>>> upstream/18.0
@@ -327,8 +331,11 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [("id", operator, value)]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -356,6 +363,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -658,6 +668,7 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         defaults = self.env['calendar.event'].default_get(['activity_ids', 'res_model_id', 'res_id', 'user_id', 'res_model', 'partner_ids'])
 
         vals_list = [  # Else bug with quick_create when we are filter on an other user
@@ -708,6 +719,9 @@ class Meeting(models.Model):
 =======
         defaults = self.browse().default_get([
 >>>>>>> upstream/18.0
+=======
+        defaults = self.browse().default_get([
+>>>>>>> upstream/18.0
             'activity_ids', 'allday', 'description', 'name', 'partner_ids',
             'res_model_id', 'res_id', 'start', 'user_id',
         ])
@@ -727,7 +741,12 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'res_id': vals.get('res_id', defaults.get('res_id')),
+=======
+                # when res_id is not defined or vals['res_id'] == 0, fallback on default
+                'res_id': vals.get('res_id') or defaults.get('res_id'),
+>>>>>>> upstream/18.0
 =======
                 # when res_id is not defined or vals['res_id'] == 0, fallback on default
                 'res_id': vals.get('res_id') or defaults.get('res_id'),
@@ -788,6 +807,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -833,6 +855,7 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 meeting_activity_type = orig_activity_ids.activity_type_id
 
         if meeting_activity_type and (not defaults.get('activity_ids') or existing_event):
@@ -856,6 +879,8 @@ class Meeting(models.Model):
                     activity_vals['user_id'] = user_id
                 values['activity_ids'] = [(0, 0, activity_vals)]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -932,6 +957,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1003,8 +1031,11 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         events._sync_activities(fields={f for vals in vals_list for f in vals.keys()})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1053,6 +1084,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1390,6 +1424,7 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Sub query user settings from calendars that are not private ('public' and 'confidential').
         public_calendars_settings = self.env['res.users.settings'].sudo()._search([('calendar_default_privacy', '!=', 'private')])
         # display public, confidential events and events with default privacy when owner's default privacy is not private
@@ -1487,6 +1522,8 @@ class Meeting(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # search user settings from calendars that are not private ('public' and 'confidential').
         public_users_settings_ids = self.env['res.users.settings'].sudo().search(
             [('calendar_default_privacy', '!=', 'private')]).ids
@@ -1507,6 +1544,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1563,6 +1603,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1792,6 +1835,7 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     # self.start is a datetime UTC *only when the event is not allday*
                     # activty.date_deadline is a date (No TZ, but should represent the day in which the user's TZ is)
                     # See 72254129dbaeae58d0a2055cba4e4a82cde495b7 for the same issue, but elsewhere
@@ -1801,6 +1845,9 @@ class Meeting(models.Model):
                         deadline = pytz.utc.localize(deadline)
                         deadline = deadline.astimezone(pytz.timezone(user_tz))
                     activity_values['date_deadline'] = deadline.date()
+=======
+                    activity_values['date_deadline'] = self._get_activity_deadline_from_start(event.start, event.allday)
+>>>>>>> upstream/18.0
 =======
                     activity_values['date_deadline'] = self._get_activity_deadline_from_start(event.start, event.allday)
 >>>>>>> upstream/18.0
@@ -1862,7 +1909,10 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1914,6 +1964,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1963,7 +2016,11 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             existing_trigger = event.recurrence_id.trigger_id
+=======
+            existing_trigger = event.recurrence_id.sudo().trigger_id
+>>>>>>> upstream/18.0
 =======
             existing_trigger = event.recurrence_id.sudo().trigger_id
 >>>>>>> upstream/18.0

@@ -67,12 +67,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Many2XAutocomplete } from "@web/views/fields/relational_utils";
 import { SelectCreateDialog } from "@web/views/view_dialogs/select_create_dialog";
 import { PropertiesField } from "@web/views/fields/properties/properties_field";
 import { WebClient } from "@web/webclient/webclient";
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -301,6 +304,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -522,6 +528,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import {
     getTimePickers,
     getPickerApplyButton,
@@ -541,6 +548,8 @@ import {
 } from "@odoo/hoot-dom";
 import { getFixture, expect, test } from "@odoo/hoot";
 import { animationFrame, mockDate, runAllTimers } from "@odoo/hoot-mock";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1786,7 +1795,10 @@ test("properties: many2one 'Search more...'", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     User._views[["search", false]] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2427,7 +2439,10 @@ test("properties: switch view on desktop", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views[["search", false]] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2602,7 +2617,10 @@ test("properties: switch view on mobile", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views[["search", false]] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3064,7 +3082,10 @@ test("properties: form view and falsy domain, properties are empty", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3351,6 +3372,9 @@ test("properties: discard changes", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4196,7 +4220,12 @@ test("new property, change record, change property type", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop")("properties: moving single property to 2nd group in auto split mode", async () => {
+=======
+test.tags("desktop");
+test("properties: moving single property to 2nd group in auto split mode", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("properties: moving single property to 2nd group in auto split mode", async () => {
@@ -4558,7 +4587,12 @@ test("properties: moving single property to 2nd group in auto split mode", async
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop")("properties: moving single property to 1st group", async () => {
+=======
+test.tags("desktop");
+test("properties: moving single property to 1st group", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("properties: moving single property to 1st group", async () => {
@@ -4918,7 +4952,12 @@ test("properties: moving single property to 1st group", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop")("properties: split, moving property from 2nd group to 1st", async () => {
+=======
+test.tags("desktop");
+test("properties: split, moving property from 2nd group to 1st", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("properties: split, moving property from 2nd group to 1st", async () => {
@@ -5279,7 +5318,12 @@ test("properties: split, moving property from 2nd group to 1st", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop")("properties: split, moving property from 1st group to 2nd", async () => {
+=======
+test.tags("desktop");
+test("properties: split, moving property from 1st group to 2nd", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("properties: split, moving property from 1st group to 2nd", async () => {

@@ -21,6 +21,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('facturx', "Factur-X (CII)"),
             ('ubl_bis3', "BIS Billing 3.0"),
             ('xrechnung', "XRechnung CIUS"),
@@ -28,6 +29,8 @@ class ResPartner(models.Model):
             ('ubl_a_nz', "BIS Billing 3.0 A-NZ"),
             ('ubl_sg', "BIS Billing 3.0 SG"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55,6 +58,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -122,6 +128,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('0225', "France FRCTC Electronic Address"),
+            ('0240', "France Register of legal persons"),
+>>>>>>> upstream/18.0
 =======
             ('0225', "France FRCTC Electronic Address"),
             ('0240', "France Register of legal persons"),
@@ -172,6 +183,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('0218', "Latvia Unified registration number"),
+>>>>>>> upstream/18.0
 =======
             ('0218', "Latvia Unified registration number"),
 >>>>>>> upstream/18.0
@@ -231,6 +246,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('0235', "UAE Tax Identification Number (TIN)"),
+>>>>>>> upstream/18.0
 =======
             ('0235', "UAE Tax Identification Number (TIN)"),
 >>>>>>> upstream/18.0
@@ -320,7 +339,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -464,6 +486,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -543,6 +566,11 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
         ]
     )
+=======
+        ]
+    )
+    available_peppol_eas = fields.Json(compute='_compute_available_peppol_eas')
+>>>>>>> upstream/18.0
 =======
         ]
     )
@@ -707,7 +735,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -735,6 +766,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

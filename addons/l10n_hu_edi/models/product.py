@@ -11,6 +11,10 @@ class ProductTemplate(models.Model):
             ('VTSZ', 'VTSZ - Customs Code'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('SZJ', 'SZJ - Service Registry Code'),
+>>>>>>> upstream/18.0
 =======
             ('SZJ', 'SZJ - Service Registry Code'),
 >>>>>>> upstream/18.0

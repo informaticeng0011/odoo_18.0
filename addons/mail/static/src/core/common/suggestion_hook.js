@@ -11,7 +11,11 @@ import { useDebounced } from "@web/core/utils/timing";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class UseSuggestion {
+=======
+export class UseSuggestion {
+>>>>>>> upstream/18.0
 =======
 export class UseSuggestion {
 >>>>>>> upstream/18.0

@@ -9,6 +9,10 @@ import {getGridHtml, getTableHtml, getRegularGridHtml, getRegularTableHtml, getT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { unformat } from '@web_editor/js/editor/odoo-editor/test/utils';
+>>>>>>> upstream/18.0
 =======
 import { unformat } from '@web_editor/js/editor/odoo-editor/test/utils';
 >>>>>>> upstream/18.0
@@ -1121,7 +1125,10 @@ QUnit.module('convert_inline', {}, function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1164,6 +1171,9 @@ QUnit.module('convert_inline', {}, function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

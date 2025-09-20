@@ -19,7 +19,11 @@ patch(Message.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.message.rating_id?.rating || this.message.rating_value;
+=======
+        return this.message.rating_value || this.message.rating_id?.rating;
+>>>>>>> upstream/18.0
 =======
         return this.message.rating_value || this.message.rating_id?.rating;
 >>>>>>> upstream/18.0
@@ -162,6 +166,10 @@ patch(Message.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.props.message.composer.clear();
+>>>>>>> upstream/18.0
 =======
         this.props.message.composer.clear();
 >>>>>>> upstream/18.0

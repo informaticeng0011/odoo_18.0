@@ -39,7 +39,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='MyDATA Mark',
+=======
+        string='Mark',
+>>>>>>> upstream/18.0
 =======
         string='Mark',
 >>>>>>> upstream/18.0
@@ -76,7 +80,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='MyDATA Classification Mark',
+=======
+        string='Classification Mark',
+>>>>>>> upstream/18.0
 =======
         string='Classification Mark',
 >>>>>>> upstream/18.0
@@ -124,7 +132,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='MyDATA Status',
+=======
+        string='myDATA Status',
+>>>>>>> upstream/18.0
 =======
         string='myDATA Status',
 >>>>>>> upstream/18.0
@@ -164,12 +176,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='MyDATA Correlated Invoice',
     )
     l10n_gr_edi_inv_type = fields.Selection(
         selection=INVOICE_TYPES_SELECTION,
         string='MyDATA Invoice Type',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -196,6 +211,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -225,7 +243,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='MyDATA Payment Method',
+=======
+        string='Payment Method',
+>>>>>>> upstream/18.0
 =======
         string='Payment Method',
 >>>>>>> upstream/18.0
@@ -313,7 +335,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Prevent user from resetting the move to draft if it's already sent to MyDATA """
+=======
+        """ Prevent user from resetting the move to draft if it's already sent to myDATA """
+>>>>>>> upstream/18.0
 =======
         """ Prevent user from resetting the move to draft if it's already sent to myDATA """
 >>>>>>> upstream/18.0
@@ -407,11 +433,14 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if move._l10n_gr_edi_eligible_for_mydata():
                 if move.l10n_gr_edi_inv_type or move.move_type == 'entry':
                     # If we have previously calculated the inv_type, reuse it here.
                     # For entry moves, we want the inv_type to be False. (we don't send anything to MyDATA on entry moves)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -437,6 +466,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -552,7 +584,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """Shorthand for getting the eligibility of the current move to send to MyDATA."""
+=======
+        """Shorthand for getting the eligibility of the current move to send to myDATA."""
+>>>>>>> upstream/18.0
 =======
         """Shorthand for getting the eligibility of the current move to send to myDATA."""
 >>>>>>> upstream/18.0
@@ -656,7 +692,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'issuer_vat_number': self.company_id.vat,
+=======
+            'issuer_vat_number': self.company_id.vat.replace('EL', '').replace('GR', ''),
+>>>>>>> upstream/18.0
 =======
             'issuer_vat_number': self.company_id.vat.replace('EL', '').replace('GR', ''),
 >>>>>>> upstream/18.0
@@ -703,7 +743,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'counterpart_vat': self.commercial_partner_id.vat,
+=======
+                'counterpart_vat': self.commercial_partner_id.vat.replace('EL', '').replace('GR', ''),
+>>>>>>> upstream/18.0
 =======
                 'counterpart_vat': self.commercial_partner_id.vat.replace('EL', '').replace('GR', ''),
 >>>>>>> upstream/18.0
@@ -951,7 +995,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Try to catch all possible errors before sending to MyDATA.
+=======
+        Try to catch all possible errors before sending to myDATA.
+>>>>>>> upstream/18.0
 =======
         Try to catch all possible errors before sending to myDATA.
 >>>>>>> upstream/18.0
@@ -990,11 +1038,14 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if self.state != 'posted':
             errors['l10n_gr_edi_move_not_posted'] = {
                 'message': _("You can only send to MyDATA from a posted invoice."),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1029,6 +1080,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1056,7 +1110,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 **error_action_company,
+=======
+                **error_action_gr_settings,
+>>>>>>> upstream/18.0
 =======
                 **error_action_gr_settings,
 >>>>>>> upstream/18.0
@@ -1102,12 +1160,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'message': _("Missing MyDATA Invoice Type."),
             }
         if not self.commercial_partner_id:
             errors['l10n_gr_edi_no_partner'] = {
                 'message': _("Partner must be filled to be able to send to MyDATA."),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1134,6 +1195,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1178,12 +1242,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'message': _('MyDATA classification is not allowed on line %s.', line_no),
                 }
             if not line.l10n_gr_edi_cls_category and line.l10n_gr_edi_available_cls_category and not move_disallow_classification:
                 errors[f'l10n_gr_edi_line_{line_no}_missing_cls_category'] = {
                     'message': _('Missing MyDATA classification category on line %s.', line_no),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1210,6 +1277,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1239,7 +1309,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'message': _('Missing MyDATA classification type on line %s.', line_no),
+=======
+                    'message': _('Missing myDATA classification type on line %s.', line_no),
+>>>>>>> upstream/18.0
 =======
                     'message': _('Missing myDATA classification type on line %s.', line_no),
 >>>>>>> upstream/18.0
@@ -1276,7 +1350,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'message': _('MyDATA does not support multiple taxes on line %s.', line_no),
+=======
+                    'message': _('myDATA does not support multiple taxes on line %s.', line_no),
+>>>>>>> upstream/18.0
 =======
                     'message': _('myDATA does not support multiple taxes on line %s.', line_no),
 >>>>>>> upstream/18.0
@@ -1316,7 +1394,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'message': _('Missing MyDATA Tax Exemption Category for line %s.', line_no),
+=======
+                    'message': _('Missing myDATA Tax Exemption Category for line %s.', line_no),
+>>>>>>> upstream/18.0
 =======
                     'message': _('Missing myDATA Tax Exemption Category for line %s.', line_no),
 >>>>>>> upstream/18.0
@@ -1384,7 +1466,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 move._l10n_gr_edi_create_error_document(result['error'])
+=======
+                move._l10n_gr_edi_create_error_document(result)
+>>>>>>> upstream/18.0
 =======
                 move._l10n_gr_edi_create_error_document(result)
 >>>>>>> upstream/18.0
@@ -1425,7 +1511,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     # In this stage, the sending process has succeeded, and any error we receive is generated from the MyDATA API.
+=======
+                    # In this stage, the sending process has succeeded, and any error we receive is generated from the myDATA API.
+>>>>>>> upstream/18.0
 =======
                     # In this stage, the sending process has succeeded, and any error we receive is generated from the myDATA API.
 >>>>>>> upstream/18.0
@@ -1467,7 +1557,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Send batches of invoice SendInvoice XML to MyDATA. """
+=======
+        """ Send batches of invoice SendInvoice XML to myDATA. """
+>>>>>>> upstream/18.0
 =======
         """ Send batches of invoice SendInvoice XML to myDATA. """
 >>>>>>> upstream/18.0
@@ -1507,7 +1601,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Send batches of bill SendExpensesClassification XML to MyDATA. """
+=======
+        """ Send batches of bill SendExpensesClassification XML to myDATA. """
+>>>>>>> upstream/18.0
 =======
         """ Send batches of bill SendExpensesClassification XML to myDATA. """
 >>>>>>> upstream/18.0
@@ -1580,9 +1678,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise UserError(_("You should use Send & Print wizard for sending customer invoices to MyDATA."))
         if any(not move.l10n_gr_edi_enable_send_expense_classification for move in self):
             raise UserError(_("Some of the selected moves does not meet the requirements to be sent to MyDATA."))
+=======
+            raise UserError(_("You should use Send & Print wizard for sending customer invoices to myDATA."))
+        if any(not move.l10n_gr_edi_enable_send_expense_classification for move in self):
+            raise UserError(_("Some of the selected moves does not meet the requirements to be sent to myDATA."))
+>>>>>>> upstream/18.0
 =======
             raise UserError(_("You should use Send & Print wizard for sending customer invoices to myDATA."))
         if any(not move.l10n_gr_edi_enable_send_expense_classification for move in self):

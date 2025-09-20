@@ -45,7 +45,11 @@ export class MailComposerTemplateSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ["user_id", "!=", user.userId]
+=======
+                ["user_id", "=", false]
+>>>>>>> upstream/18.0
 =======
                 ["user_id", "=", false]
 >>>>>>> upstream/18.0

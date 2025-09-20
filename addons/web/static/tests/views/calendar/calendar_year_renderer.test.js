@@ -1,10 +1,13 @@
 import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { queryAllTexts } from "@odoo/hoot-dom";
 import { mockTimeZone } from "@odoo/hoot-mock";
 import { mockService, mountWithCleanup, preloadBundle } from "@web/../tests/web_test_helpers";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { queryAllTexts, resize } from "@odoo/hoot-dom";
@@ -16,6 +19,9 @@ import {
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -152,7 +158,10 @@ test(`display correct column header for days, independent of the timezone`, asyn
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -169,6 +178,9 @@ test("resize callback is being called", async () => {
     expect.verifySteps(new Array(12).fill("onWindowResize")); // one for each FullCalendar instance
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

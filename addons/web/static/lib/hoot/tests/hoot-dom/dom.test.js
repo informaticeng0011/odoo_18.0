@@ -34,6 +34,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -151,6 +152,9 @@ import {
 =======
     animationFrame,
 >>>>>>> upstream/18.0
+=======
+    animationFrame,
+>>>>>>> upstream/18.0
     click,
     formatXml,
     getActiveElement,
@@ -194,6 +198,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     queryAll,
     queryAllRects,
     queryAllTexts,
@@ -349,6 +354,8 @@ import {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     queryAll,
     queryAllRects,
     queryAllTexts,
@@ -375,6 +382,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -422,6 +432,7 @@ import {
     waitFor,
     waitForNone,
 } from "@odoo/hoot-dom";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -698,6 +709,8 @@ import { mountForTest, parseUrl } from "../local_helpers";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { mockTouch } from "@odoo/hoot-mock";
 import { getParentFrame } from "@web/../lib/hoot-dom/helpers/dom";
 import { mountForTest, parseUrl } from "../local_helpers";
@@ -726,6 +739,9 @@ const $$ = queryAll;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -794,6 +810,7 @@ const expectSelector = (...queryAllSelectors) => {
         }
 
         const selector = queryAllSelectors.join(", ");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -898,6 +915,8 @@ const expectSelector = (...queryAllSelectors) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const fnNodes = $$(selector);
         expect(fnNodes).toEqual($$`${selector}`, {
             message: `should return the same result from a tagged template literal`,
@@ -935,6 +954,9 @@ const expectSelector = (...queryAllSelectors) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1113,6 +1135,7 @@ describe(parseUrl(import.meta.url), () => {
     test("getActiveElement", async () => {
         await mountForTest(/* xml */ `<iframe srcdoc="&lt;input &gt;"></iframe>`);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1421,6 +1444,11 @@ describe(parseUrl(import.meta.url), () => {
 
         const input = $1(":iframe input");
 >>>>>>> upstream/18.0
+=======
+        expect(":iframe input").not.toBeFocused();
+
+        const input = $1(":iframe input");
+>>>>>>> upstream/18.0
         await click(input);
 
         expect(":iframe input").toBeFocused();
@@ -1464,7 +1492,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const input = queryOne("hoot-test-shadow-root:shadow input");
+=======
+        const input = $1("hoot-test-shadow-root:shadow input");
+>>>>>>> upstream/18.0
 =======
         const input = $1("hoot-test-shadow-root:shadow input");
 >>>>>>> upstream/18.0
@@ -1640,7 +1672,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const parent = await makeIframe(document, queryOne(".root"));
+=======
+        const parent = await makeIframe(document, $1(".root"));
+>>>>>>> upstream/18.0
 =======
         const parent = await makeIframe(document, $1(".root"));
 >>>>>>> upstream/18.0
@@ -1849,7 +1885,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitForIframes();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2026,7 +2065,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const form = queryOne`form`;
+=======
+        const form = $1`form`;
+>>>>>>> upstream/18.0
 =======
         const form = $1`form`;
 >>>>>>> upstream/18.0
@@ -2161,7 +2204,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const paragraph = queryOne`:iframe p`;
+=======
+        const paragraph = $1`:iframe p`;
+>>>>>>> upstream/18.0
 =======
         const paragraph = $1`:iframe p`;
 >>>>>>> upstream/18.0
@@ -2398,7 +2445,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `Could not find elements matching "never" within 1 milliseconds`
+=======
+            `expected at least 1 element after 1ms and found 0 elements: 0 matching "never"`
+>>>>>>> upstream/18.0
 =======
             `expected at least 1 element after 1ms and found 0 elements: 0 matching "never"`
 >>>>>>> upstream/18.0
@@ -2658,7 +2709,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const title of queryAll(".title")) {
+=======
+        for (const title of $$(".title")) {
+>>>>>>> upstream/18.0
 =======
         for (const title of $$(".title")) {
 >>>>>>> upstream/18.0
@@ -2801,7 +2856,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(queryAll()).toEqual([]);
+=======
+            expect($$()).toEqual([]);
+>>>>>>> upstream/18.0
 =======
             expect($$()).toEqual([]);
 >>>>>>> upstream/18.0
@@ -2983,8 +3042,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3438,8 +3500,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3737,12 +3802,15 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(() => queryAll`[colspan=1]`).toThrow(); // missing quotes
             expect(() => queryAll`[href=/]`).toThrow(); // missing quotes
             expect(
                 () =>
                     queryAll`_o_wblog_posts_loop:has(span:has(i.fa-calendar-o):has(a[href="/blog?search=a"])):has(span:has(i.fa-search):has(a[href^="/blog?date_begin"]))`
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3841,6 +3909,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3945,9 +4016,13 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(queryAllRects("div")).toEqual(
                 queryAll("div").map((el) => el.getBoundingClientRect())
             );
+=======
+            expect(queryAllRects("div")).toEqual($$("div").map((el) => el.getBoundingClientRect()));
+>>>>>>> upstream/18.0
 =======
             expect(queryAllRects("div")).toEqual($$("div").map((el) => el.getBoundingClientRect()));
 >>>>>>> upstream/18.0
@@ -4090,11 +4165,14 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(queryOne(".title:first")).toBe(getFixture().querySelector("header .title"));
 
             expect(() => queryOne(".title")).toThrow();
             expect(() => queryOne(".title", { exact: 2 })).toThrow();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4192,6 +4270,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4298,7 +4379,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(queryRect(".rect")).toEqual(queryOne(".rect").getBoundingClientRect());
+=======
+            expect(queryRect(".rect")).toEqual($1(".rect").getBoundingClientRect());
+>>>>>>> upstream/18.0
 =======
             expect(queryRect(".rect")).toEqual($1(".rect").getBoundingClientRect());
 >>>>>>> upstream/18.0
@@ -4466,7 +4551,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4593,6 +4681,7 @@ describe(parseUrl(import.meta.url), () => {
                 </div>
             `);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4795,6 +4884,8 @@ describe(parseUrl(import.meta.url), () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             expect(() => $("invalid:pseudo-selector")).toThrow();
             // Perform in-between valid query with custom pseudo selectors
             expect($`.modal:visible:contains('Tung Tung Tung Sahur')`).toBe(null);
@@ -4842,6 +4933,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4911,6 +5005,7 @@ describe(parseUrl(import.meta.url), () => {
                     first: true,
                 })
             ).toThrow(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5027,6 +5122,11 @@ describe(parseUrl(import.meta.url), () => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                `found 0 elements instead of 1: 1 matching ".tralalero", including 1 element with text "Tralala", including 1 visible element, including 0 scrollable elements`
+            );
+        });
 >>>>>>> upstream/18.0
 =======
                 `found 0 elements instead of 1: 1 matching ".tralalero", including 1 element with text "Tralala", including 1 visible element, including 0 scrollable elements`

@@ -209,9 +209,13 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Prevent current user to synchronize new events of non-synchronized users, otherwise the event
             # ownership will be lost in Outlook and it will block the future event sync for the original owner.
             if record.user_id and record.user_id != self.env.user and sender_user == self.env.user:
+=======
+            if record._is_microsoft_insertion_blocked(sender_user):
+>>>>>>> upstream/18.0
 =======
             if record._is_microsoft_insertion_blocked(sender_user):
 >>>>>>> upstream/18.0
@@ -866,7 +870,10 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1081,6 +1088,9 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

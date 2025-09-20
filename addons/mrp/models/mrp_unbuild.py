@@ -80,6 +80,10 @@ class MrpUnbuild(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        digits='Product Unit of Measure',
+>>>>>>> upstream/18.0
 =======
         digits='Product Unit of Measure',
 >>>>>>> upstream/18.0
@@ -372,7 +376,11 @@ class MrpUnbuild(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'quantity': finished_move.product_uom_qty,
+=======
+            'quantity': finished_move.product_uom_qty - finished_move.quantity,
+>>>>>>> upstream/18.0
 =======
             'quantity': finished_move.product_uom_qty - finished_move.quantity,
 >>>>>>> upstream/18.0
@@ -449,8 +457,14 @@ class MrpUnbuild(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             finished_move_line_vals = self._prepare_finished_move_line_vals(finished_move)
             self.env['stock.move.line'].create(finished_move_line_vals)
+=======
+            if float_compare(finished_move.product_uom_qty, finished_move.quantity, precision_rounding=finished_move.product_uom.rounding) > 0:
+                finished_move_line_vals = self._prepare_finished_move_line_vals(finished_move)
+                self.env['stock.move.line'].create(finished_move_line_vals)
+>>>>>>> upstream/18.0
 =======
             if float_compare(finished_move.product_uom_qty, finished_move.quantity, precision_rounding=finished_move.product_uom.rounding) > 0:
                 finished_move_line_vals = self._prepare_finished_move_line_vals(finished_move)
@@ -503,6 +517,11 @@ class MrpUnbuild(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if float_compare(move.product_uom_qty, move.quantity, precision_rounding=move.product_uom.rounding) < 1:
+                continue
+>>>>>>> upstream/18.0
 =======
             if float_compare(move.product_uom_qty, move.quantity, precision_rounding=move.product_uom.rounding) < 1:
                 continue
@@ -550,6 +569,7 @@ class MrpUnbuild(models.Model):
                 taken_quantity = float_round(taken_quantity, precision_rounding=move.product_uom.rounding)
                 if taken_quantity:
                     move_line_vals = self._prepare_move_line_vals(move, move_line, taken_quantity)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -694,6 +714,10 @@ class MrpUnbuild(models.Model):
                     if move_line.owner_id:
                         move_line_vals['owner_id'] = move_line.owner_id.id
 >>>>>>> upstream/18.0
+=======
+                    if move_line.owner_id:
+                        move_line_vals['owner_id'] = move_line.owner_id.id
+>>>>>>> upstream/18.0
                     unbuild_move_line = self.env["stock.move.line"].create(move_line_vals)
                     needed_quantity -= taken_quantity
                     qty_already_used[move_line] += taken_quantity
@@ -739,6 +763,9 @@ class MrpUnbuild(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

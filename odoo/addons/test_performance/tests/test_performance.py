@@ -169,7 +169,10 @@ class TestPerformance(SavepointCaseWithUserDemo):
             records.fetch(['indirect_computed_value'])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # Test that new/false records are ignored. We generally make the assumption that
         # new records and real record shouldn't mix together but for the sake of robustness
         # we ignore new/false records in fetch.
@@ -183,6 +186,9 @@ class TestPerformance(SavepointCaseWithUserDemo):
         with self.assertQueryCount(1):
             records.fetch(['name'])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @warmup
     def test_search_fetch(self):
