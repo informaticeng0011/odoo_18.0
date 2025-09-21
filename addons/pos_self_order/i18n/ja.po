@@ -10,12 +10,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Junko Augias, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45,6 +48,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66,6 +72,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -364,6 +371,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-08 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Junko Augias, 2025\n"
@@ -380,6 +389,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -419,7 +431,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s は利用できなくなりました。そのため、オーダから削除されました。オーダ内容を再度ご確認下さい。"
+=======
+msgstr ""
+"%s は利用できなくなりました。そのため、オーダから削除されました。オーダ内容を"
+"再度ご確認下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "%s は利用できなくなりました。そのため、オーダから削除されました。オーダ内容を"
@@ -507,7 +525,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このユーザのアクセス権は、セッションが開かれていないときにセルフオーダウェブサイトにアクセスするときに使用されます。"
+=======
+msgstr ""
+"このユーザのアクセス権は、セッションが開かれていないときにセルフオーダウェブ"
+"サイトにアクセスするときに使用されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このユーザのアクセス権は、セッションが開かれていないときにセルフオーダウェブ"
@@ -557,6 +581,7 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_config__status__active
 msgid "Active"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -882,6 +907,9 @@ msgstr "アクティブ"
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
@@ -930,7 +958,12 @@ msgid "Allow self-order customers to set their order for takeout."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "セルフオーダーの顧客に、テイクアウト用のオーダを設定できるようにします。"
+=======
+msgstr ""
+"セルフオーダーの顧客に、テイクアウト用のオーダを設定できるようにします。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "セルフオーダーの顧客に、テイクアウト用のオーダを設定できるようにします。"
@@ -1006,6 +1039,7 @@ msgstr "利用可能終了時間:"
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_popup/product_info_popup.xml:0
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
 msgid "Available"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1343,6 +1377,9 @@ msgstr "利用可能"
 =======
 msgstr "利用可能"
 >>>>>>> upstream/18.0
+=======
+msgstr "利用可能"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_config__self_ordering_available_language_ids
@@ -1427,6 +1464,10 @@ msgstr "戻る"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 >>>>>>> upstream/18.0
@@ -1611,6 +1652,10 @@ msgstr "オーダをキャンセル"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.js:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.js:0
 >>>>>>> upstream/18.0
@@ -1941,12 +1986,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Each table in your floor plan is assigned a unique QR code based on your configuration. For security reasons,\n"
 "                    both the point of sale and table names are encrypted in the generated URL, as shown in the example below:."
 msgstr ""
 "フロアプランの各テーブルには、設定に基づいて固有のQRコードが割当てられます。セキュリティ上の理由から\n"
 "以下の例に示すように、生成されるURLでは販売ポイントとテーブル名の両方が暗号化されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1980,6 +2028,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2021,7 +2072,10 @@ msgstr "編集"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2053,6 +2107,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2086,10 +2143,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Feel free to use and print this QR code as many times as needed according to"
 " your requirements."
 msgstr "このQRコードはご要望に応じて、何度でもご自由にご利用・印刷して頂けます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2118,6 +2178,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2160,6 +2223,7 @@ msgstr "汎用"
 
 #. module: pos_self_order
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2409,6 +2473,8 @@ msgstr "トラッカーを手に取り、その番号をここに入力してく
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_self_order/static/src/overrides/components/qr_order_button/qr_order_button.xml:0
 msgid "Get QR Codes"
 msgstr ""
@@ -2432,6 +2498,9 @@ msgstr "トラッカーを手に取り、その番号をここに入力してく
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2475,7 +2544,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "プロダクトの作成またはpos_configへの追加を忘れているようです。セルフオーダを使う前にプロダクトを追加して下さい。"
+=======
+msgstr ""
+"プロダクトの作成またはpos_configへの追加を忘れているようです。セルフオーダを"
+"使う前にプロダクトを追加して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "プロダクトの作成またはpos_configへの追加を忘れているようです。セルフオーダを"
@@ -2566,12 +2641,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you need customized QR codes, start by scanning the relevant QR code to acquire the URL. Then, make\n"
 "                use of a QR code generator like https://www.qrcode-monkey.com or https://www.qr-code-generator.com"
 msgstr ""
 "カスタマイズされたQRコードが必要な場合は、関連するQRコードをスキャンしてURLを取得することから始めます。次に\n"
 "https://www.qrcode-monkey.com や https://www.qr-code-generator.com のようなQRコードジェネレータを使用します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2605,6 +2683,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2645,7 +2726,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "セルフオーダモードでは、QRコードを生成するために少なくとも1つのテーブルが必要です。"
+=======
+msgstr ""
+"セルフオーダモードでは、QRコードを生成するために少なくとも1つのテーブルが必要"
+"です。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "セルフオーダモードでは、QRコードを生成するために少なくとも1つのテーブルが必要"
@@ -2776,7 +2863,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "テーブルのQRコードで、顧客は簡単にオンラインメニューを検索し、オーダできます。"
+=======
+msgstr ""
+"テーブルのQRコードで、顧客は簡単にオンラインメニューを検索し、オーダできま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "テーブルのQRコードで、顧客は簡単にオンラインメニューを検索し、オーダできま"
@@ -2998,7 +3091,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "1枚または複数の画像を追加してスライドショーを作成し、スプラッシュ画面をパーソナライズします"
+=======
+msgstr ""
+"1枚または複数の画像を追加してスライドショーを作成し、スプラッシュ画面をパーソ"
+"ナライズします"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "1枚または複数の画像を追加してスライドショーを作成し、スプラッシュ画面をパーソ"
@@ -3215,6 +3314,10 @@ msgstr "プロダクト"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 >>>>>>> upstream/18.0
@@ -3490,7 +3593,12 @@ msgid "QR codes can only be generated in mobile or consultation mode."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "QRコードは、モバイルモードまたはコンサルテーションモードでのみ生成できます。"
+=======
+msgstr ""
+"QRコードは、モバイルモードまたはコンサルテーションモードでのみ生成できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "QRコードは、モバイルモードまたはコンサルテーションモードでのみ生成できます。"
@@ -3601,11 +3709,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "to display it for all points of sale. You have to select among the points of"
 " sale that have the 'QR Code Menu' feature enabled."
 msgstr ""
 "どのPOSにこのリンクを表示するかを選択します。空白のままにしておくと、すべてのPOSに表示されます。'QRコードメニュー'機能が有効になっているPOSの中から選択する必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3636,6 +3747,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3968,6 +4082,7 @@ msgstr "はい"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4110,6 +4225,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_self_order/controllers/orders.py:0
 msgid "You are not authorized to remove this order"
 msgstr "このオーダを削除する権限がありません"
@@ -4140,6 +4257,9 @@ msgstr "このオーダを削除する権限がありません"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4263,6 +4383,7 @@ msgstr "選択"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4405,6 +4526,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/pos_self_order/controllers/orders.py:0
 msgid "Your order does not exist or has been removed"
@@ -4435,6 +4558,9 @@ msgstr "オーダは存在しない、または削除されています"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4585,12 +4711,15 @@ msgstr "空 = 全てのPOS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "floor"
 msgstr "フロア"
 
 #. module: pos_self_order
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

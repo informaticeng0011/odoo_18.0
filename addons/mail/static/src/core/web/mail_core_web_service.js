@@ -24,6 +24,7 @@ export class MailCoreWeb {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (payload.activity_created && notifId > this.store.activity_counter_bus_id) {
                 this.store.activityCounter++;
             }
@@ -31,6 +32,8 @@ export class MailCoreWeb {
                 this.store.activityCounter--;
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67,6 +70,9 @@ export class MailCoreWeb {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

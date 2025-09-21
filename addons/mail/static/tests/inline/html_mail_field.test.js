@@ -41,6 +41,10 @@ import { insertText } from "@html_editor/../tests/_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "@html_editor/../tests/_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "@html_editor/../tests/_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -266,7 +270,11 @@ test("HtmlMail save inline html", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect.verifySteps(["web_save"]);
+=======
+    await expect.waitForSteps(["web_save"]);
+>>>>>>> upstream/18.0
 =======
     await expect.waitForSteps(["web_save"]);
 >>>>>>> upstream/18.0
@@ -309,6 +317,7 @@ test("HtmlMail don't have access to column commands", async function () {
     setSelectionInHtmlField();
     await insertText(htmlEditor, "/");
     await animationFrame();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -436,6 +445,8 @@ test("HtmlMail don't have access to column commands", async function () {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-powerbox", 1);
 
     await insertText(htmlEditor, "column");
@@ -481,6 +492,9 @@ test("HtmlMail don't have access to column commands", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -604,7 +618,11 @@ test("HtmlMail add icon and save inline html", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect.verifySteps(["web_save"]);
+=======
+    await expect.waitForSteps(["web_save"]);
+>>>>>>> upstream/18.0
 =======
     await expect.waitForSteps(["web_save"]);
 >>>>>>> upstream/18.0

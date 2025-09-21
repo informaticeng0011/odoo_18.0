@@ -61,7 +61,11 @@ test("hr org chart: empty render", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect("employee_id" in args).toBe(true, {
+=======
+        expect(args).toInclude("employee_id", {
+>>>>>>> upstream/18.0
 =======
         expect(args).toInclude("employee_id", {
 >>>>>>> upstream/18.0
@@ -220,7 +224,11 @@ test("hr org chart: render without data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect("employee_id" in args).toBe(true, {
+=======
+        expect(args).toInclude("employee_id", {
+>>>>>>> upstream/18.0
 =======
         expect(args).toInclude("employee_id", {
 >>>>>>> upstream/18.0
@@ -372,7 +380,11 @@ test("hr org chart: basic render", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect("employee_id" in args).toBe(true, {
+=======
+        expect(args).toInclude("employee_id", {
+>>>>>>> upstream/18.0
 =======
         expect(args).toInclude("employee_id", {
 >>>>>>> upstream/18.0
@@ -563,7 +575,11 @@ test("hr org chart: basic manager render", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect("employee_id" in args).toBe(true, {
+=======
+        expect(args).toInclude("employee_id", {
+>>>>>>> upstream/18.0
 =======
         expect(args).toInclude("employee_id", {
 >>>>>>> upstream/18.0

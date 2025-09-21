@@ -170,7 +170,10 @@ class TestPerformance(SavepointCaseWithUserDemo):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Test that new/false records are ignored. We generally make the assumption that
@@ -187,6 +190,9 @@ class TestPerformance(SavepointCaseWithUserDemo):
             records.fetch(['name'])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

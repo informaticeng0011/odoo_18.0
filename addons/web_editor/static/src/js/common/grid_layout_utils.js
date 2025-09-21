@@ -83,6 +83,10 @@ export function _gridCleanUp(rowEl, columnEl) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    columnEl.style.removeProperty('right');
+>>>>>>> upstream/18.0
 =======
     columnEl.style.removeProperty('right');
 >>>>>>> upstream/18.0
@@ -209,6 +213,10 @@ function _placeColumns(columnEls, rowSize, rowGap, columnSize, columnGap) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const isRtl = columnEls[0]?.closest(".o_rtl, [dir='rtl']");
+>>>>>>> upstream/18.0
 =======
     const isRtl = columnEls[0]?.closest(".o_rtl, [dir='rtl']");
 >>>>>>> upstream/18.0
@@ -259,8 +267,11 @@ function _placeColumns(columnEls, rowSize, rowGap, columnSize, columnGap) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const columnLeft = isImageWithoutPadding && !borderLeft ? imageEl.offsetLeft : columnEl.offsetLeft;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -292,6 +303,9 @@ function _placeColumns(columnEls, rowSize, rowGap, columnSize, columnGap) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

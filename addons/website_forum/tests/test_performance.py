@@ -39,7 +39,11 @@ class TestForumPerformance(UtilPerf):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(number_of_queries, 23)
+=======
+        self.assertEqual(number_of_queries, 22)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(number_of_queries, 22)
 >>>>>>> upstream/18.0

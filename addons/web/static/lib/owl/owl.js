@@ -3874,8 +3874,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const TRANSLATABLE_ATTRS = ["label", "title", "placeholder", "alt"];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3946,6 +3949,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5125,6 +5131,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             parseTEscNode(node, ctx) ||
             parseTOutNode(node, ctx) ||
             parseTKey(node, ctx) ||
@@ -5171,6 +5178,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             parseTTranslation(node, ctx) ||
             parseTTranslationContext(node, ctx) ||
             parseTEscNode(node, ctx) ||
@@ -5196,6 +5205,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6043,7 +6055,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const version = "2.7.0";
+=======
+    const version = "2.8.0";
+>>>>>>> upstream/18.0
 =======
     const version = "2.8.0";
 >>>>>>> upstream/18.0
@@ -6636,8 +6652,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     __info__.date = '2025-03-26T12:58:40.935Z';
     __info__.hash = 'e788e36';
+=======
+    __info__.date = '2025-06-30T12:46:06.424Z';
+    __info__.hash = 'b620502';
+>>>>>>> upstream/18.0
 =======
     __info__.date = '2025-06-30T12:46:06.424Z';
     __info__.hash = 'b620502';

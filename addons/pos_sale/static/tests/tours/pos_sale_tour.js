@@ -207,7 +207,11 @@ registry.category("web_tour.tours").add("PosSettleCustomPrice", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Test Partner AAA"),
+=======
+            ProductScreen.clickCustomer("A Test Partner AAA"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickCustomer("A Test Partner AAA"),
 >>>>>>> upstream/18.0
@@ -431,7 +435,10 @@ registry.category("web_tour.tours").add("PosSettleOrderShipLater", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -600,6 +607,9 @@ registry.category("web_tour.tours").add("PosSettleOrderShipLater", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -751,7 +761,11 @@ registry.category("web_tour.tours").add("PosSettleOrder5", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Chrome.clickMenuOption("Backend"),
+=======
+            Chrome.clickMenuOption("Backend", { expectUnloadPage: true }),
+>>>>>>> upstream/18.0
 =======
             Chrome.clickMenuOption("Backend", { expectUnloadPage: true }),
 >>>>>>> upstream/18.0
@@ -881,7 +895,11 @@ registry.category("web_tour.tours").add("POSSalePaymentScreenInvoiceOrder", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Test Partner"),
+=======
+            ProductScreen.clickCustomer("A Test Partner"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickCustomer("A Test Partner"),
 >>>>>>> upstream/18.0
@@ -1017,7 +1035,10 @@ registry.category("web_tour.tours").add("test_settle_order_with_lot", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1304,6 +1325,7 @@ registry.category("web_tour.tours").add("test_down_payment_displayed", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1466,6 +1488,8 @@ registry.category("web_tour.tours").add("test_down_payment_displayed", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1564,6 +1588,9 @@ registry.category("web_tour.tours").add("test_multiple_lots_sale_order_2", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
