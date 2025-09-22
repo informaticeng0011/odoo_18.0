@@ -11,7 +11,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -57,10 +61,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Kira Petersen, 2025
+#
+>>>>>>> upstream/18.0
 =======
 # Kira Petersen, 2025
 #
@@ -115,6 +124,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -131,6 +141,8 @@ msgstr ""
 
 #. module: barcodes_gs1_nomenclature
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -177,6 +189,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -217,6 +232,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alternativ regex-afgrænser for FNC1. Afgrænseren må ikke matche starten "
+"eller slutningen af et tilknyttet regelmønster."
+>>>>>>> upstream/18.0
 =======
 "Alternativ regex-afgrænser for FNC1. Afgrænseren må ikke matche starten "
 "eller slutningen af et tilknyttet regelmønster."
@@ -321,7 +341,11 @@ msgid "FNC1 Separator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "FNC1-afgrænser"
+>>>>>>> upstream/18.0
 =======
 msgstr "FNC1-afgrænser"
 >>>>>>> upstream/18.0
@@ -387,6 +411,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Hvis Sandt, bruges det sidste tal i KI til at bestemme, hvor den første "
+"decimal er"
+>>>>>>> upstream/18.0
 =======
 "Hvis Sandt, bruges det sidste tal i KI til at bestemme, hvor den første "
 "decimal er"
@@ -484,7 +513,11 @@ msgid "Pack Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dato for emballering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dato for emballering"
 >>>>>>> upstream/18.0
@@ -549,7 +582,11 @@ msgid "The FNC1 Separator Alternative is not a valid Regex: %(error)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "FNC1-afgrænseralternativet er ikke en gyldig regex: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "FNC1-afgrænseralternativet er ikke en gyldig regex: %(error)s"
 >>>>>>> upstream/18.0
@@ -613,12 +650,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Mønsterreglen \"%s\" er ikke gyldig. Den skal indeholde to grupper:\n"
 "\t- En første gruppe til applikationsidentifikatoren (typisk 2 til 4 cifre);\n"
 "\t- En anden gruppe til at indfange værdien."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -650,6 +690,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -686,6 +729,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Regelmønsteret '%(rule)s' er ikke et gyldigt regulært udtryk: %(error)s"
+>>>>>>> upstream/18.0
 =======
 "Regelmønsteret '%(rule)s' er ikke et gyldigt regulært udtryk: %(error)s"
 >>>>>>> upstream/18.0
@@ -735,6 +782,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
@@ -745,6 +793,8 @@ msgstr ""
 "Sørg også for, at de mulige matchende værdier udelukkende indeholder cifre – ellers kan værdien ikke bruges som en identifikator."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -782,6 +832,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -820,6 +873,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nomenklaturen er baseret på GS1-specifikationen og understøttes kun af "
+"GS1-128-kodningsregler."
+>>>>>>> upstream/18.0
 =======
 "Nomenklaturen er baseret på GS1-specifikationen og understøttes kun af "
 "GS1-128-kodningsregler."

@@ -10,7 +10,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* event
+=======
+# * event
+>>>>>>> upstream/18.0
 =======
 # * event
 >>>>>>> upstream/18.0
@@ -56,8 +60,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023
 #
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
+>>>>>>> upstream/18.0
 =======
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
 >>>>>>> upstream/18.0
@@ -92,6 +100,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-02-12 10:37+0000\n"
 <<<<<<< HEAD
@@ -133,6 +142,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-09-18 18:38+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-09-18 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-08 07:47+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -153,6 +165,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -210,7 +225,11 @@ msgid "%(event_name)s - Registration #%(registration_id)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s - Registracija #%(registration_id)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(event_name)s - Registracija #%(registration_id)s"
 >>>>>>> upstream/18.0
@@ -256,6 +275,7 @@ msgid "%(event_name)s - Registration for %(attendee_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "%(event_name)s - Registracija za %(attendee_name)s"
@@ -285,6 +305,8 @@ msgstr "%(event_name)s - Registracija za %(attendee_name)s"
 msgstr "%(event_name)s - Registracija za %(attendee_name)s"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "%(event_name)s - Registracija za %(attendee_name)s"
 
 #. module: event
@@ -292,6 +314,9 @@ msgstr "%(event_name)s - Registracija za %(attendee_name)s"
 #: code:addons/event/models/event_event.py:0
 msgid "%(start_date)s to %(end_date)s"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -314,6 +339,7 @@ msgstr "%s (kopija)"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.report,print_report_name:event.action_report_event_event_attendee_list
 msgid "'Attendee List - %s' % (object.name)"
 <<<<<<< HEAD
@@ -354,6 +380,8 @@ msgstr "'Lista učesnika - %s' % (object.name)"
 msgstr "'Lista učesnika - %s' % (object.name)"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.js:0
 msgid "'%(name)s' badge sent to printer '%(printer)s'"
@@ -363,6 +391,9 @@ msgstr ""
 #: model:ir.actions.report,print_report_name:event.action_report_event_event_attendee_list
 msgid "'Attendee List - %s' % (object.name)"
 msgstr "'Lista učesnika - %s' % (object.name)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -378,7 +409,11 @@ msgid "'Attendee List'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Lista učesnika'"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Lista učesnika'"
 >>>>>>> upstream/18.0
@@ -416,6 +451,7 @@ msgid ""
 "'Badge - %s - %s' % ((object.event_id.name or 'Event').replace('/',''), "
 "(object.name or '').replace('/',''))"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -466,6 +502,10 @@ msgstr ""
 "'Bedž - %s - %s' % ((object.event_id.name or 'Event').replace('/',''), "
 "(object.name or '').replace('/',''))"
 >>>>>>> upstream/18.0
+=======
+"'Bedž - %s - %s' % ((object.event_id.name or 'Event').replace('/',''), "
+"(object.name or '').replace('/',''))"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_event_badge
@@ -480,7 +520,11 @@ msgid "'Badge - %s' % (object.name or 'Event').replace('/','')"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Bedž - %s' % (object.name or 'Događaj').replace('/','')"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Bedž - %s' % (object.name or 'Događaj').replace('/','')"
 >>>>>>> upstream/18.0
@@ -516,8 +560,13 @@ msgstr "'Bedž - %s' % (object.name or 'Događaj').replace('/','')"
 #: model:ir.actions.report,print_report_name:event.action_report_event_registration_full_page_ticket
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Full Page Ticket - %s - %s' % ((object.event_id.name or 'Event')."
 "replace('/',''), (object.name or '').replace('/',''))"
+=======
+"'Full Page Ticket - %s - %s' % ((object.event_id.name or "
+"'Event').replace('/',''), (object.name or '').replace('/',''))"
+>>>>>>> upstream/18.0
 =======
 "'Full Page Ticket - %s - %s' % ((object.event_id.name or "
 "'Event').replace('/',''), (object.name or '').replace('/',''))"
@@ -531,8 +580,13 @@ msgstr ""
 msgid "'Full Page Ticket - %s' % (object.name or 'Event').replace('/','')"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Ulaznica na celoj stranici - %s' % (object.name or 'Događaj')."
 "replace('/','')"
+=======
+"'Ulaznica na celoj stranici - %s' % (object.name or "
+"'Događaj').replace('/','')"
+>>>>>>> upstream/18.0
 =======
 "'Ulaznica na celoj stranici - %s' % (object.name or "
 "'Događaj').replace('/','')"
@@ -551,7 +605,11 @@ msgid "+123456789"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "+123456789"
+>>>>>>> upstream/18.0
 =======
 msgstr "+123456789"
 >>>>>>> upstream/18.0
@@ -617,7 +675,11 @@ msgid "1000 Brussels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1000 Brisel"
+>>>>>>> upstream/18.0
 =======
 msgstr "1000 Brisel"
 >>>>>>> upstream/18.0
@@ -672,7 +734,11 @@ msgid "4 per sheet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 po stranici"
+>>>>>>> upstream/18.0
 =======
 msgstr "4 po stranici"
 >>>>>>> upstream/18.0
@@ -711,7 +777,10 @@ msgstr "5-10"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:event.selection__event_event__badge_format__96x134
 msgid "96x134mm (Badge Printer)"
 msgstr ""
@@ -722,6 +791,9 @@ msgid "96x82mm (Badge Printer)"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:event.event,description:event.event_0
 msgid ""
@@ -781,7 +853,10 @@ msgstr "<b>Soba radionica</b> - Uglavnom za developere."
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
 msgid ""
 "<br/>\n"
@@ -796,6 +871,9 @@ msgid ""
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid ""
@@ -813,6 +891,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                        <span class=\"text-muted\">Emitujte "
+"govore putem Youtube integracije</span>"
+>>>>>>> upstream/18.0
 =======
 "<br/>\n"
 "                                        <span class=\"text-muted\">Emitujte "
@@ -881,6 +965,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                        <span class=\"text-muted\">Podelite "
+"kviz sa svojim učesnicima kada se govor završi</span>"
+>>>>>>> upstream/18.0
 =======
 "<br/>\n"
 "                                        <span class=\"text-muted\">Podelite "
@@ -960,7 +1050,11 @@ msgid "<i class=\"fa fa-building\" title=\"Attendee Company\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-building\" title=\"Kompanija učesnika\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-building\" title=\"Kompanija učesnika\"/>"
 >>>>>>> upstream/18.0
@@ -995,6 +1089,7 @@ msgstr "<i class=\"fa fa-building\" title=\"Kompanija učesnika\"/>"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Attended button\" "
 "title=\"Confirm Attendance\"/>"
@@ -1049,10 +1144,16 @@ msgstr ""
 "Button\" title=\"Confirm Attendance\"/>"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Confirm Attendance "
+"Button\" title=\"Confirm Attendance\"/>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Confirm button\" "
 "title=\"Confirm Registration\"/>"
@@ -1125,6 +1226,11 @@ msgstr ""
 "Button\" title=\"Reset To Registered\"/>"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Reset To Registered "
+"Button\" title=\"Reset To Registered\"/>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
@@ -1139,7 +1245,11 @@ msgid "<i class=\"fa fa-group mt-1 me-2 text-center\" title=\"Attendees\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-group mt-1 me-2 text-center\" title=\"Učesnici\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-group mt-1 me-2 text-center\" title=\"Učesnici\"/>"
 >>>>>>> upstream/18.0
@@ -1196,6 +1306,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" title="
 "\"Strelica\"/>"
@@ -1236,6 +1347,10 @@ msgstr ""
 "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" "
 "title=\"Strelica\"/>"
 >>>>>>> upstream/18.0
+=======
+"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" "
+"title=\"Strelica\"/>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
@@ -1252,6 +1367,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Lokacija\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Lokacija\"/>"
 >>>>>>> upstream/18.0
@@ -1286,6 +1405,7 @@ msgstr ""
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "<i class=\"fa fa-ticket\" title=\"Ticket type\"/>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1480,12 +1600,17 @@ msgstr ""
 "\"Datum završetka\"/>"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "<i class=\"fa fa-ticket\" title=\"Vrsta ulaznice\"/>"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 msgid "<i class=\"oi oi-arrow-right me-2\" title=\"End date\"/>"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -1499,6 +1624,7 @@ msgstr ""
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_badge_card
 msgid "<span class=\"o_event_badge_font_faded\">My Placeholder Company</span>"
 msgstr ""
@@ -1548,6 +1674,8 @@ msgstr ""
 "mestom</span>"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
 msgid "<span class=\"me-1\">to</span>"
 msgstr ""
@@ -1558,6 +1686,9 @@ msgid "<span class=\"o_event_badge_font_faded\">My Placeholder Company</span>"
 msgstr ""
 "<span class=\"o_event_badge_font_faded\">Moja kompanija sa rezervisanim "
 "mestom</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -1567,6 +1698,7 @@ msgid ""
 "                                    Registration\n"
 "                                </span>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1772,6 +1904,11 @@ msgstr ""
 "                                    Registracija\n"
 "                                </span>"
 >>>>>>> upstream/18.0
+=======
+"<span class=\"o_stat_text\">\n"
+"                                    Registracija\n"
+"                                </span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_badge_card
@@ -1781,7 +1918,11 @@ msgstr "<span>Petar Petrović</span>"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:mail.template,body_html:event.event_reminder
+=======
+#: model:mail.template,body_html:event.event_registration_mail_template_badge
+>>>>>>> upstream/18.0
 =======
 #: model:mail.template,body_html:event.event_registration_mail_template_badge
 >>>>>>> upstream/18.0
@@ -1790,6 +1931,7 @@ msgid ""
 "16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
 "color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
 "align=\"center\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<t t-set=\"date_begin\" t-value=\"format_datetime(object.event_id."
 "date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"></t>\n"
@@ -1800,6 +1942,8 @@ msgid ""
 "<t t-set=\"event_organizer\" t-value=\"object.event_id.organizer_id\"></t>\n"
 "<t t-set=\"event_address\" t-value=\"object.event_id.address_id\"></t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<t t-set=\"date_begin\" t-"
 "value=\"format_datetime(object.event_id.date_begin, tz='UTC', "
 "dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
@@ -1811,6 +1955,9 @@ msgid ""
 "<t t-set=\"event_address\" t-value=\"object.event_id.address_id\"/>\n"
 "<t t-set=\"registration_ids\" t-value=\"object.ids if not is_sale else "
 "object._get_event_registration_ids_from_order()\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
 "style=\"padding: 16px; background-color: white; color: #454748; border-"
@@ -1824,6 +1971,7 @@ msgid ""
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your registration</"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "span><br>\n"
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-"
@@ -1848,6 +1996,8 @@ msgid ""
 "rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;"
 "min-height:1px;line-height:0; margin:16px 0px 16px 0px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "span><br/>\n"
 "                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
 "                        <t t-out=\"object.name or 'Guest'\"/>\n"
@@ -1871,6 +2021,9 @@ msgid ""
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
@@ -1884,6 +2037,7 @@ msgid ""
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                        Hello <t t-out=\"object.name or 'Guest'\"></t>,<br>\n"
 "                        We are excited to remind you that the event\n"
@@ -1920,6 +2074,8 @@ msgid ""
 "tz='UTC', dt_format='yyyyMMdd\\'T\\'HHmmss') }}&amp;"
 "et={{ format_datetime(object.event_id.date_end, tz='UTC', "
 =======
+=======
+>>>>>>> upstream/18.0
 "                        Hello <t t-out=\"object.name or 'Guest'\"/>,<br/><br/"
 ">\n"
 "                        Please find attached your badge for\n"
@@ -1955,11 +2111,15 @@ msgid ""
 "&amp;st={{ format_datetime(object.event_id.date_begin, tz='UTC', "
 "dt_format='yyyyMMdd\\'T\\'HHmmss') }}"
 "&amp;et={{ format_datetime(object.event_id.date_end, tz='UTC', "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "dt_format='yyyyMMdd\\'T\\'HHmmss') }}\" style=\"padding:3px 5px;border:1px "
 "solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;\" "
 "target=\"new\">\n"
 "                            <img src=\"/web_editor/font_to_img/61525/"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" "
 "alt=\"\"> Yahoo\n"
@@ -1972,6 +2132,8 @@ msgid ""
 "                        <span style=\"color: #454748;\">\n"
 "                        -- <br>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" alt=\"\"/"
 "> Yahoo\n"
 "                        </a>\n"
@@ -1981,6 +2143,9 @@ msgid ""
 "                        See you soon,<br/>\n"
 "                        <span style=\"color: #454748;\">\n"
 "                        -- <br/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        <t t-if=\"event_organizer\">\n"
 "                            <t t-out=\"event_organizer.name or "
@@ -1995,9 +2160,15 @@ msgid ""
 "                </td></tr>\n"
 "                <tr><td style=\"text-align:center;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:"
 "rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;"
 "min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -2020,6 +2191,7 @@ msgid ""
 "                                <img src=\"/web_editor/font_to_img/61555/"
 "rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "alt=\"\">\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;"
@@ -2032,6 +2204,8 @@ msgid ""
 "#9e9e9e\"><i><t t-out=\"object.event_id.date_tz or ''\">Europe/Brussels</t></"
 "i></div>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px "
@@ -2063,12 +2237,16 @@ msgid ""
 "                                <div style=\"font-"
 "size:12px;color:#9e9e9e\"><i>(<t t-out=\"object.event_id.date_tz or "
 "''\">Europe/Brussels</t>)</i></div>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                            </td>\n"
 "                            <td style=\"vertical-align:top;\">\n"
 "                                <t t-if=\"event_address\">\n"
 "                                    <img src=\"/web_editor/font_to_img/61505/"
 "rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" "
+<<<<<<< HEAD
 <<<<<<< HEAD
 "alt=\"\">\n"
 "                                </t>\n"
@@ -2473,6 +2651,8 @@ msgstr ""
 "                                        <t t-set=\"location\" t-value="
 "\"'%s, %s' % (location, object.event_id.address_id.country_id.name)\"></t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "alt=\"\"/>\n"
 "                                </t>\n"
 "                            </td>\n"
@@ -2528,6 +2708,9 @@ msgstr ""
 "out=\"object.event_id.address_id.country_id.name\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-"
 "valuef=\"{{location}}, {{object.event_id.address_id.country_id.name}}\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                    </t>\n"
 "                                </t>\n"
@@ -2539,6 +2722,7 @@ msgstr ""
 "                    <t t-if=\"event_organizer\">\n"
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
 "                    </t>\n"
@@ -2889,6 +3073,9 @@ msgid ""
 =======
 "size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 >>>>>>> upstream/18.0
+=======
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                    </t>\n"
 "                </td></tr>\n"
 "\n"
@@ -2909,8 +3096,13 @@ msgid ""
 "                                </t>\n"
 "                                <t t-if=\"event_organizer.phone\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <li>Phone: <t t-out=\"event_organizer."
 "phone\">+1 650-123-4567</t></li>\n"
+=======
+"                                    <li>Phone: <t t-"
+"out=\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <li>Phone: <t t-"
 "out=\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
@@ -2924,9 +3116,15 @@ msgid ""
 "                    <!-- CONTACT ORGANIZER SEPARATION -->\n"
 "                    <t t-if=\"is_online or event_address\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:"
 "rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;"
 "min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -2949,9 +3147,15 @@ msgid ""
 "                    <!-- PWA MARKGETING SEPARATION-->\n"
 "                    <t t-if=\"is_online and event_address\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:"
 "rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;"
 "min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -2966,6 +3170,7 @@ msgid ""
 "                        <table style=\"width:100%;\"><tr><td>\n"
 "                            <div>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-map-marker\"></i>\n"
 "                                <a t-attf-href=\"https://maps.google.com/"
 "maps?q={{ location }}\" target=\"new\">\n"
@@ -2974,6 +3179,8 @@ msgid ""
 "static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google "
 "Maps\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                <img src=\"/web_editor/font_to_img/61505/"
 "rgb(81,81,102)/20\" height=\"20\" style=\"vertical-align: bottom;\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/"
@@ -2982,6 +3189,9 @@ msgid ""
 "and event_address.static_map_url_is_valid\" t-att-"
 "src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: "
 "100%;\" alt=\"Google Maps\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                    <t t-else=\"\">See location on Google "
 "Maps</t>\n"
@@ -3004,17 +3214,23 @@ msgid ""
 "color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id."
 "website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or "
 "''\">YourCompany</a>\n"
 "            <t t-if=\"is_online\">\n"
 "                <br>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            Sent by <a target=\"_blank\" t-attf-"
 "href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-"
 "out=\"object.company_id.name or ''\">YourCompany</a>\n"
 "            <t t-if=\"is_online\">\n"
 "                <br/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                Discover <a href=\"/event\" style=\"color:#875A7B;\">all our "
 "events</a>.\n"
@@ -3026,6 +3242,7 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3414,11 +3631,17 @@ msgstr ""
 #. module: event
 #: model:mail.template,body_html:event.event_reminder
 >>>>>>> upstream/18.0
+=======
+
+#. module: event
+#: model:mail.template,body_html:event.event_reminder
+>>>>>>> upstream/18.0
 msgid ""
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
 "16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
 "color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
 "align=\"center\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<t t-set=\"date_begin\" t-value=\"format_datetime(object.event_id."
 "date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"></t>\n"
@@ -3431,6 +3654,8 @@ msgid ""
 "<t t-set=\"event_organizer\" t-value=\"object.event_id.organizer_id\"></t>\n"
 "<t t-set=\"event_address\" t-value=\"object.event_id.address_id\"></t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<t t-set=\"date_begin\" t-"
 "value=\"format_datetime(object.event_id.date_begin, tz='UTC', "
 "dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
@@ -3444,6 +3669,9 @@ msgid ""
 "<t t-set=\"event_address\" t-value=\"object.event_id.address_id\"/>\n"
 "<t t-set=\"registration_ids\" t-value=\"object.ids if not is_sale else "
 "object._get_event_registration_ids_from_order()\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
 "style=\"padding: 16px; background-color: white; color: #454748; border-"
@@ -3457,6 +3685,7 @@ msgid ""
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your registration</"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "span><br>\n"
 "                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
@@ -3491,6 +3720,8 @@ msgid ""
 "rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;"
 "min-height:1px;line-height:0; margin:16px 0px 16px 0px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "span><br/>\n"
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-"
 "out=\"object.name or 'Guest'\"/>\n"
@@ -3524,6 +3755,9 @@ msgid ""
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
@@ -3538,6 +3772,7 @@ msgid ""
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Hello <t t-out=\"object.name or 'Guest'\"></t>,<br>\n"
 "                        We are happy to confirm your registration to the "
 "event\n"
@@ -3546,6 +3781,8 @@ msgid ""
 "style=\"color:#875A7B;text-decoration:none;\" t-out=\"object.event_id.name "
 "or ''\">OpenWood Collection Online Reveal</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        Hello <t t-out=\"object.name or 'Guest'\"/>,<br/><br/"
 ">\n"
 "                        We are excited to remind you that the event\n"
@@ -3553,11 +3790,15 @@ msgid ""
 "                            <a t-att-href=\"object.event_id.website_url\" "
 "style=\"font-weight:bold;color:#875A7B;text-decoration:none;\" t-"
 "out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</a>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            <strong t-out=\"object.event_id.name or "
 "''\">OpenWood Collection Online Reveal</strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                        </t>.\n"
 "                        <t t-if=\"object.partner_id and object.partner_id."
@@ -3600,6 +3841,8 @@ msgid ""
 "tz='UTC', dt_format='yyyyMMdd\\'T\\'HHmmss') }}&amp;"
 "et={{ format_datetime(object.event_id.date_end, tz='UTC', "
 =======
+=======
+>>>>>>> upstream/18.0
 "                        </t>\n"
 "                        is starting <strong t-out=\"object.event_date_range "
 "or ''\">today</strong>.\n"
@@ -3626,11 +3869,15 @@ msgid ""
 "&amp;st={{ format_datetime(object.event_id.date_begin, tz='UTC', "
 "dt_format='yyyyMMdd\\'T\\'HHmmss') }}"
 "&amp;et={{ format_datetime(object.event_id.date_end, tz='UTC', "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "dt_format='yyyyMMdd\\'T\\'HHmmss') }}\" style=\"padding:3px 5px;border:1px "
 "solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;\" "
 "target=\"new\">\n"
 "                            <img src=\"/web_editor/font_to_img/61525/"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" "
 "alt=\"\"> Yahoo\n"
@@ -3645,6 +3892,8 @@ msgid ""
 "                            <t t-out=\"event_organizer.name\">YourCompany</"
 "t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" alt=\"\"/"
 "> Yahoo\n"
 "                        </a>\n"
@@ -3658,6 +3907,9 @@ msgid ""
 "                        <t t-if=\"event_organizer\">\n"
 "                            <t t-out=\"event_organizer.name or "
 "''\">YourCompany</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
@@ -3669,9 +3921,15 @@ msgid ""
 "                </td></tr>\n"
 "                <tr><td style=\"text-align:center;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:"
 "rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;"
 "min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -3694,6 +3952,7 @@ msgid ""
 "                                <img src=\"/web_editor/font_to_img/61555/"
 "rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "alt=\"\">\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;"
@@ -3708,6 +3967,8 @@ msgid ""
 "#9e9e9e\"><i>(<t t-out=\"object.event_id.date_tz or ''\">Europe/Brussels</"
 "t>)</i></div>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px "
@@ -3739,12 +4000,16 @@ msgid ""
 "                                <div style=\"font-"
 "size:12px;color:#9e9e9e\"><i><t t-out=\"object.event_id.date_tz or "
 "''\">Europe/Brussels</t></i></div>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                            </td>\n"
 "                            <td style=\"vertical-align:top;\">\n"
 "                                <t t-if=\"event_address\">\n"
 "                                    <img src=\"/web_editor/font_to_img/61505/"
 "rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" "
+<<<<<<< HEAD
 <<<<<<< HEAD
 "alt=\"\">\n"
 "                                </t>\n"
@@ -3804,6 +4069,8 @@ msgid ""
 "valuef=\"{{location}}, {{object.event_id.address_id.country_id.name}}\"></"
 "t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "alt=\"\"/>\n"
 "                                </t>\n"
 "                            </td>\n"
@@ -3860,6 +4127,9 @@ msgid ""
 "out=\"object.event_id.address_id.country_id.name or ''\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-value=\"'%s, "
 "%s' % (location, object.event_id.address_id.country_id.name)\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                    </t>\n"
 "                                </t>\n"
@@ -3870,10 +4140,13 @@ msgid ""
 "                <tr><td style=\"text-align:center;\">\n"
 "                    <t t-if=\"event_organizer\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:"
 "rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;"
 "min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
@@ -4251,6 +4524,9 @@ msgid ""
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    </t>\n"
 "                </td></tr>\n"
@@ -4272,8 +4548,13 @@ msgid ""
 "                                </t>\n"
 "                                <t t-if=\"event_organizer.phone\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <li>Phone: <t t-out=\"event_organizer."
 "phone\">+1 650-123-4567</t></li>\n"
+=======
+"                                    <li>Phone: <t t-"
+"out=\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <li>Phone: <t t-"
 "out=\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
@@ -4287,9 +4568,15 @@ msgid ""
 "                    <!-- CONTACT ORGANIZER SEPARATION -->\n"
 "                    <t t-if=\"is_online or event_address\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:"
 "rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;"
 "min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -4312,9 +4599,15 @@ msgid ""
 "                    <!-- PWA MARKGETING SEPARATION-->\n"
 "                    <t t-if=\"is_online and event_address\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:"
 "rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;"
 "min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -4329,6 +4622,7 @@ msgid ""
 "                        <table style=\"width:100%;\"><tr><td>\n"
 "                            <div>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-map-marker\"></i>\n"
 "                                <a t-attf-href=\"https://maps.google.com/"
 "maps?q={{ location }}\" target=\"new\">\n"
@@ -4337,6 +4631,8 @@ msgid ""
 "static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google "
 "Maps\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                <img src=\"/web_editor/font_to_img/61505/"
 "rgb(81,81,102)/20\" height=\"20\" style=\"vertical-align: bottom;\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/"
@@ -4345,6 +4641,9 @@ msgid ""
 "and event_address.static_map_url_is_valid\" t-att-"
 "src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: "
 "100%;\" alt=\"Google Maps\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                    <t t-else=\"\">See location on Google "
 "Maps</t>\n"
@@ -4367,17 +4666,23 @@ msgid ""
 "color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id."
 "website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or "
 "''\">YourCompany</a>\n"
 "            <t t-if=\"is_online\">\n"
 "                <br>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            Sent by <a target=\"_blank\" t-attf-"
 "href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-"
 "out=\"object.company_id.name or ''\">YourCompany</a>\n"
 "            <t t-if=\"is_online\">\n"
 "                <br/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                Discover <a href=\"/event\" style=\"color:#875A7B;\">all our "
 "events</a>.\n"
@@ -4389,6 +4694,7 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4801,6 +5107,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_ticket__description
@@ -4822,7 +5130,11 @@ msgid "A4 foldable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A4 sklopivi"
+>>>>>>> upstream/18.0
 =======
 msgstr "A4 sklopivi"
 >>>>>>> upstream/18.0
@@ -4867,7 +5179,11 @@ msgid "A6"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A6"
+>>>>>>> upstream/18.0
 =======
 msgstr "A6"
 >>>>>>> upstream/18.0
@@ -5007,7 +5323,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sva email komunikacija sa učesnicima će biti prevedena na ovaj jezik."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sva email komunikacija sa učesnicima će biti prevedena na ovaj jezik."
 >>>>>>> upstream/18.0
@@ -5064,6 +5384,7 @@ msgstr "Najavljeno"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Answers"
@@ -5105,6 +5426,8 @@ msgstr "Odgovori"
 msgstr "Odgovori"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_question_answer__name
 msgid "Answer"
 msgstr ""
@@ -5126,6 +5449,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Answers"
 msgstr "Odgovori"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -5136,6 +5462,10 @@ msgstr "Primeni promenu."
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 >>>>>>> upstream/18.0
@@ -5161,7 +5491,10 @@ msgstr ""
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:res.partner,website_description:event.res_partner_event_2
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:res.partner,website_description:event.res_partner_event_3
@@ -5171,12 +5504,18 @@ msgstr "Kao tim, veoma smo srećni da doprinosimo ovom događaju."
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_question__once_per_order
 msgid "Ask once per order"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:event.event,description:event.event_2
 msgid ""
@@ -5222,6 +5561,7 @@ msgstr "Učesnik/ca"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.report,name:event.action_report_event_event_attendee_list
 #: model:ir.actions.report,name:event.action_report_event_registration_attendee_list
 msgid "Attendee List"
@@ -5263,6 +5603,8 @@ msgstr "Lista učesnika"
 msgstr "Lista učesnika"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_registration__registration_answer_ids
 msgid "Attendee Answers"
 msgstr ""
@@ -5272,6 +5614,9 @@ msgstr ""
 #: model:ir.actions.report,name:event.action_report_event_registration_attendee_list
 msgid "Attendee List"
 msgstr "Lista učesnika"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -5281,6 +5626,7 @@ msgstr "Ime i prezime učesnika"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:event.attendee_list
 msgid "Attendee list"
 <<<<<<< HEAD
@@ -5321,6 +5667,8 @@ msgstr "Lista učesnika"
 msgstr "Lista učesnika"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_registration__registration_answer_choice_ids
 msgid "Attendee Selection Answers"
 msgstr ""
@@ -5329,6 +5677,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.attendee_list
 msgid "Attendee list"
 msgstr "Lista učesnika"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -5346,13 +5697,19 @@ msgstr "Učesnici"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Auto-Print"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_event__seats_available
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_available
@@ -5372,6 +5729,7 @@ msgid "Badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Bedž"
@@ -5401,6 +5759,8 @@ msgstr "Bedž"
 msgstr "Bedž"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Bedž"
 
 #. module: event
@@ -5412,6 +5772,9 @@ msgstr ""
 #: model:ir.actions.report,name:event.action_report_event_registration_badge_96x82
 msgid "Badge (96x82mm)"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -5427,7 +5790,11 @@ msgid "Badge Background"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozadina bedža"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozadina bedža"
 >>>>>>> upstream/18.0
@@ -5472,7 +5839,11 @@ msgid "Badge Dimension"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dimenzije bedža"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dimenzije bedža"
 >>>>>>> upstream/18.0
@@ -5517,7 +5888,11 @@ msgid "Badge Example"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primer bedža"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primer bedža"
 >>>>>>> upstream/18.0
@@ -5563,7 +5938,11 @@ msgid "Badges"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bedževi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bedževi"
 >>>>>>> upstream/18.0
@@ -5623,7 +6002,11 @@ msgid "Barcode Interface"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Interfejs za bar-kodove"
+>>>>>>> upstream/18.0
 =======
 msgstr "Interfejs za bar-kodove"
 >>>>>>> upstream/18.0
@@ -5668,7 +6051,11 @@ msgid "Barcode Nomenclature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bar-kod nomenklatura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bar-kod nomenklatura"
 >>>>>>> upstream/18.0
@@ -5713,7 +6100,11 @@ msgid "Barcode should be unique"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bar-kod treba da bude jedinstven"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bar-kod treba da bude jedinstven"
 >>>>>>> upstream/18.0
@@ -5780,7 +6171,11 @@ msgstr "Rezervisano"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__partner_id
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
+=======
+#: model:ir.model.fields,field_description:event.field_event_registration_answer__partner_id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__partner_id
 >>>>>>> upstream/18.0
@@ -5843,7 +6238,11 @@ msgid "Cancelled registration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otkazana registracija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otkazana registracija"
 >>>>>>> upstream/18.0
@@ -5896,6 +6295,7 @@ msgstr ""
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Close"
@@ -5937,11 +6337,16 @@ msgstr "Zatvori"
 msgstr "Zatvori"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:event.field_event_event__event_type_id
 msgid ""
 "Choose a template to auto-fill tickets, communications, descriptions and "
 "other fields."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -5957,7 +6362,11 @@ msgid "Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Boja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Boja"
 >>>>>>> upstream/18.0
@@ -5995,6 +6404,7 @@ msgid "Color Index"
 msgstr "Indeks boja"
 
 #. module: event
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:res.partner,website_description:event.res_partner_event_1
 #: model_terms:res.partner,website_description:event.res_partner_event_2
@@ -6039,6 +6449,8 @@ msgstr "Dođite da nas vidite uživo, nadamo se da ćemo vas upoznati!"
 msgstr "Dođite da nas vidite uživo, nadamo se da ćemo vas upoznati!"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:event.action_event_registration_report
 msgid "Come back once you have registrations to overview answers."
 msgstr ""
@@ -6049,6 +6461,9 @@ msgstr ""
 #: model_terms:res.partner,website_description:event.res_partner_event_4
 msgid "Come see us live, we hope to meet you!"
 msgstr "Dođite da nas vidite uživo, nadamo se da ćemo vas upoznati!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -6074,6 +6489,10 @@ msgstr "Sobe za Chat zajednice"
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__company_id
 #: model:ir.model.fields,field_description:event.field_event_registration__company_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:event.selection__event_question__question_type__company_name
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:event.selection__event_question__question_type__company_name
 >>>>>>> upstream/18.0
@@ -6096,7 +6515,11 @@ msgid "Company Logo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Logo kompanije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Logo kompanije"
 >>>>>>> upstream/18.0
@@ -6141,7 +6564,11 @@ msgid "Company Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv kompanije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv kompanije"
 >>>>>>> upstream/18.0
@@ -6207,12 +6634,15 @@ msgstr "Podešavanje"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Confirm"
 msgstr "Potvrdi"
 
 #. module: event
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
@@ -6222,8 +6652,13 @@ msgstr "Potvrdi učešće"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Confirm Registration"
 msgstr "Posalji na Pripremu"
+=======
+msgid "Confirm Attendance Button"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Confirm Attendance Button"
 msgstr ""
@@ -6232,6 +6667,7 @@ msgstr ""
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Confirm attendance for"
 <<<<<<< HEAD
@@ -6275,6 +6711,10 @@ msgstr "Potvrdi učešće za"
 msgid "Confirm attendance?"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+msgid "Confirm attendance?"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_res_partner
@@ -6283,13 +6723,19 @@ msgstr "Kontakt"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Continue"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_event__country_id
 msgid "Country"
@@ -6326,12 +6772,18 @@ msgstr "Kreiraj šablon događaja"
 #: model:ir.model.fields,field_description:event.field_event_mail__create_uid
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__create_uid
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event.field_event_registration__create_uid
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_question__create_uid
 #: model:ir.model.fields,field_description:event.field_event_question_answer__create_uid
 #: model:ir.model.fields,field_description:event.field_event_registration__create_uid
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__create_uid
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_stage__create_uid
 #: model:ir.model.fields,field_description:event.field_event_tag__create_uid
@@ -6348,12 +6800,18 @@ msgstr "Kreirao"
 #: model:ir.model.fields,field_description:event.field_event_mail__create_date
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__create_date
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event.field_event_registration__create_date
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_question__create_date
 #: model:ir.model.fields,field_description:event.field_event_question_answer__create_date
 #: model:ir.model.fields,field_description:event.field_event_registration__create_date
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__create_date
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_stage__create_date
 #: model:ir.model.fields,field_description:event.field_event_tag__create_date
@@ -6389,12 +6847,18 @@ msgstr "Datum"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_registration__event_date_range
 msgid "Date Range"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__days
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__days
@@ -6433,7 +6897,10 @@ msgstr "Otkrijte kako da razvijate održivi biznis sa našim ekspertima."
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:res.partner,website_description:event.res_partner_event_2
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:res.partner,website_description:event.res_partner_event_3
@@ -6452,12 +6919,18 @@ msgstr "Sobe za diskusiju"
 #: model:ir.model.fields,field_description:event.field_event_mail__display_name
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__display_name
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event.field_event_registration__display_name
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_question__display_name
 #: model:ir.model.fields,field_description:event.field_event_question_answer__display_name
 #: model:ir.model.fields,field_description:event.field_event_registration__display_name
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__display_name
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_stage__display_name
 #: model:ir.model.fields,field_description:event.field_event_tag__display_name
@@ -6475,12 +6948,18 @@ msgstr "Prikaži sponzore i izlagače na stranica svog događaja"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_event__date_tz
 msgid "Display Timezone"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_mail__sequence
 msgid "Display order"
@@ -6502,8 +6981,11 @@ msgstr ""
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event.field_event_registration__email
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Edit"
@@ -6514,6 +6996,9 @@ msgstr ""
 #: code:addons/event/models/event_event.py:0
 #: model:ir.model.fields,field_description:event.field_event_registration__email
 #: model:ir.model.fields.selection,name:event.selection__event_question__question_type__email
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Email"
 msgstr "E-mail"
@@ -6536,7 +7021,11 @@ msgid "Enable barcode scanning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omogući skeniranje bar-koda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Omogući skeniranje bar-koda"
 >>>>>>> upstream/18.0
@@ -6581,7 +7070,11 @@ msgid "Enable or Disable Event Barcode functionality."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omogući ili onemogući funkcionalnost bar-kodova za Događaje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Omogući ili onemogući funkcionalnost bar-kodova za Događaje."
 >>>>>>> upstream/18.0
@@ -6648,7 +7141,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__event_id
 #: model:ir.model.fields,field_description:event.field_event_mail__event_id
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event.field_event_registration__event_id
+=======
+#: model:ir.model.fields,field_description:event.field_event_question__event_id
+#: model:ir.model.fields,field_description:event.field_event_registration__event_id
+#: model:ir.model.fields,field_description:event.field_event_registration_answer__event_id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:event.field_event_question__event_id
 #: model:ir.model.fields,field_description:event.field_event_registration__event_id
@@ -6706,13 +7205,19 @@ msgstr "Planeri mail-ova događaja"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/event/static/src/template_reference_field/field_event_mail_template_reference.js:0
 msgid "Event Mail Template Reference"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event.event_event_view_activity
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
@@ -6731,7 +7236,10 @@ msgstr "Organizator događaja"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:event.model_event_question
 msgid "Event Question"
 msgstr ""
@@ -6742,6 +7250,9 @@ msgid "Event Question Answer"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:event.model_event_registration
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_calendar
@@ -6752,7 +7263,10 @@ msgstr "Registracija za događaj"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:event.model_event_registration_answer
 msgid "Event Registration Answer"
 msgstr ""
@@ -6764,6 +7278,9 @@ msgid "Event Registrations"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_registration__event_user_id
 msgid "Event Responsible"
@@ -6876,7 +7393,10 @@ msgstr ""
 #: model:ir.model,name:event.model_event_event_ticket
 #: model:ir.model.fields,field_description:event.field_event_event__event_ticket_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event.field_event_registration__event_ticket_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Event Ticket"
@@ -6884,6 +7404,10 @@ msgstr "Ulaznica za događaj"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:event.field_event_question__event_type_id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:event.field_event_question__event_type_id
 >>>>>>> upstream/18.0
@@ -6932,8 +7456,11 @@ msgstr "Događaj: Podsetnik"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_barcode.js:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:event.action_event_view
@@ -7013,7 +7540,10 @@ msgstr "Iskusite muziku uživo, lokalnu hranu i pića."
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:event.stage,description:event.event_stage_done
 msgid ""
 "Finished events. Odoo will automatically move them to this stage once their "
@@ -7021,6 +7551,9 @@ msgid ""
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_stage__fold
 msgid "Folded in Kanban"
@@ -7094,7 +7627,11 @@ msgid "Free entrance, no food!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slobodan ulaz, nema hrane!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slobodan ulaz, nema hrane!"
 >>>>>>> upstream/18.0
@@ -7153,11 +7690,14 @@ msgstr "Primer ulaznice za celu stranicu"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:event.stage,description:event.event_stage_done
 msgid "Fully ended"
 msgstr "Potpuno završeno"
 
 #. module: event
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:event.event,description:event.event_2
@@ -7177,12 +7717,18 @@ msgstr "Glavni pristup"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_event__general_question_ids
 msgid "General Questions"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:event.event,subtitle:event.event_0
 msgid "Get Inspired • Stay Connected • Have Fun"
@@ -7206,7 +7752,11 @@ msgid "Google Maps"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Mape"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Mape"
 >>>>>>> upstream/18.0
@@ -7251,7 +7801,11 @@ msgid "Google Maps API key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API ključ za Google Mape"
+>>>>>>> upstream/18.0
 =======
 msgstr "API ključ za Google Mape"
 >>>>>>> upstream/18.0
@@ -7296,7 +7850,11 @@ msgid "Google Maps API secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API tajni ključ za Google Mape"
+>>>>>>> upstream/18.0
 =======
 msgstr "API tajni ključ za Google Mape"
 >>>>>>> upstream/18.0
@@ -7341,7 +7899,11 @@ msgid "Google Maps static API"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Statički API za Google Mape"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statički API za Google Mape"
 >>>>>>> upstream/18.0
@@ -7380,8 +7942,12 @@ msgstr "Great Reno trka balonima"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
+=======
+#: model_terms:web_tour.tour,rainbow_man_message:event.event_tour
+>>>>>>> upstream/18.0
 =======
 #: model_terms:web_tour.tour,rainbow_man_message:event.event_tour
 >>>>>>> upstream/18.0
@@ -7408,9 +7974,12 @@ msgstr "Grupiši po"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:res.partner,website_description:event.res_partner_event_1
 #: model_terms:res.partner,website_description:event.res_partner_event_2
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Guest #"
@@ -7418,6 +7987,9 @@ msgstr ""
 
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:res.partner,website_description:event.res_partner_event_3
 #: model_terms:res.partner,website_description:event.res_partner_event_4
@@ -7450,7 +8022,11 @@ msgid "Here it is, the 12th edition of our Live Musical Festival!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evo ga, 12. izdanje našeg Festivala muzike uživo!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evo ga, 12. izdanje našeg Festivala muzike uživo!"
 >>>>>>> upstream/18.0
@@ -7489,13 +8065,19 @@ msgstr "Hokejaški turnir"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Home"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__hours
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__hours
@@ -7504,7 +8086,10 @@ msgstr "Sati"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "How to Fold (1)"
 msgstr "Kako da sklopite (1)"
@@ -7525,18 +8110,27 @@ msgid "How to Fold (4)"
 msgstr "Kako da sklopite (4)"
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_event__id
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__id
 #: model:ir.model.fields,field_description:event.field_event_mail__id
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__id
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event.field_event_registration__id
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_question__id
 #: model:ir.model.fields,field_description:event.field_event_question_answer__id
 #: model:ir.model.fields,field_description:event.field_event_registration__id
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_stage__id
 #: model:ir.model.fields,field_description:event.field_event_tag__id
@@ -7567,7 +8161,10 @@ msgstr "Ikonica koja označava aktivnost izuzetka."
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:event.field_event_question__once_per_order
 msgid ""
 "If True, this question will be asked only once and its value will be "
@@ -7576,6 +8173,9 @@ msgid ""
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:event.field_event_event__message_needaction
 #: model:ir.model.fields,help:event.field_event_registration__message_needaction
@@ -7622,7 +8222,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7654,6 +8257,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7699,6 +8305,7 @@ msgstr "U radu"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Insert dynamic Google Maps in your email templates"
 <<<<<<< HEAD
@@ -7739,6 +8346,8 @@ msgstr "Umetnite dinamičke Google Mape u svoje email šablone"
 msgstr "Umetnite dinamičke Google Mape u svoje email šablone"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:event.field_event_event__date_tz
 msgid ""
 "Indicates the timezone in which the event dates/times will be displayed on "
@@ -7755,6 +8364,9 @@ msgstr "Umetnite dinamičke Google Mape u svoje email šablone"
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 msgid "Install"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -7788,7 +8400,11 @@ msgid "Invalid ticket"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nevažeća ulaznica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nevažeća ulaznica"
 >>>>>>> upstream/18.0
@@ -7864,6 +8480,7 @@ msgstr "Petar Petrović"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:event.event,description:event.event_1
 msgid "Join us for the greatest ballon race of all times!"
 <<<<<<< HEAD
@@ -7904,6 +8521,8 @@ msgstr "Pridružite nam se na najvećoj trci balona svih vremena!"
 msgstr "Pridružite nam se na najvećoj trci balona svih vremena!"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "John Doe"
 msgstr ""
@@ -7912,6 +8531,9 @@ msgstr ""
 #: model_terms:event.event,description:event.event_1
 msgid "Join us for the greatest ballon race of all times!"
 msgstr "Pridružite nam se na najvećoj trci balona svih vremena!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -7964,7 +8586,11 @@ msgid "Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ključ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ključ"
 >>>>>>> upstream/18.0
@@ -8009,7 +8635,11 @@ msgid "Language"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jezik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jezik"
 >>>>>>> upstream/18.0
@@ -8048,24 +8678,36 @@ msgstr "Poslednjih 30 dana"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_mail__last_registration_id
 msgid "Last Attendee"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_event__write_uid
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__write_uid
 #: model:ir.model.fields,field_description:event.field_event_mail__write_uid
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__write_uid
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event.field_event_registration__write_uid
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_question__write_uid
 #: model:ir.model.fields,field_description:event.field_event_question_answer__write_uid
 #: model:ir.model.fields,field_description:event.field_event_registration__write_uid
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__write_uid
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_stage__write_uid
 #: model:ir.model.fields,field_description:event.field_event_tag__write_uid
@@ -8082,12 +8724,18 @@ msgstr "Poslednje izmenio/la"
 #: model:ir.model.fields,field_description:event.field_event_mail__write_date
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__write_date
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event.field_event_registration__write_date
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_question__write_date
 #: model:ir.model.fields,field_description:event.field_event_question_answer__write_date
 #: model:ir.model.fields,field_description:event.field_event_registration__write_date
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__write_date
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_stage__write_date
 #: model:ir.model.fields,field_description:event.field_event_tag__write_date
@@ -8146,7 +8794,13 @@ msgstr "Muzički festival"
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__notification_type__mail
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__notification_type__mail
+=======
+#: model:ir.model.fields.selection,name:event.selection__event_mail__template_ref__mail_template
+#: model:ir.model.fields.selection,name:event.selection__event_type_mail__notification_type__mail
+#: model:ir.model.fields.selection,name:event.selection__event_type_mail__template_ref__mail_template
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:event.selection__event_mail__template_ref__mail_template
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__notification_type__mail
@@ -8199,6 +8853,7 @@ msgid "Manage & publish a schedule with tracks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Upravljaj & objavljuj raspored sa govorima"
@@ -8228,6 +8883,8 @@ msgstr "Upravljaj & objavljuj raspored sa govorima"
 msgstr "Upravljaj & objavljuj raspored sa govorima"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Upravljaj & objavljuj raspored sa govorima"
 
 #. module: event
@@ -8240,6 +8897,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_question__is_mandatory_answer
 msgid "Mandatory Answer"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -8255,7 +8915,11 @@ msgid "Marc Demo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mark Demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mark Demo"
 >>>>>>> upstream/18.0
@@ -8361,8 +9025,13 @@ msgstr "Moji Dogadjaji"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
+=======
+#. odoo-python
+#: code:addons/event/models/event_event.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
@@ -8372,6 +9041,10 @@ msgstr "Moji Dogadjaji"
 #: model:ir.model.fields,field_description:event.field_event_tag_category__name
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__name
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:event.selection__event_question__question_type__name
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:event.selection__event_question__question_type__name
 >>>>>>> upstream/18.0
@@ -8410,12 +9083,18 @@ msgstr "Tip sledeće aktivnosti"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:event.action_event_registration_report
 msgid "No Answers yet!"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:event.event_registration_action
 msgid "No Attendees expected yet!"
@@ -8432,6 +9111,7 @@ msgstr "Još uvek nema učesnika!"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__barcode_nomenclature_id
 msgid "Nomenclature"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8476,6 +9156,9 @@ msgstr "Nomenklatura"
 #: code:addons/event/models/event_registration.py:0
 msgid "None"
 msgstr "Ništa"
+=======
+msgstr "Nomenklatura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nomenklatura"
 >>>>>>> upstream/18.0
@@ -8535,7 +9218,11 @@ msgid "Number of Taken Seats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj zauzeti mesta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj zauzeti mesta"
 >>>>>>> upstream/18.0
@@ -8587,7 +9274,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj poruka koje zahtevaju akciju"
 >>>>>>> upstream/18.0
@@ -8643,7 +9334,11 @@ msgid "Odoo Community Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoo dani zajednice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odoo dani zajednice"
 >>>>>>> upstream/18.0
@@ -8682,13 +9377,19 @@ msgstr "Još jednom smo okupili najlegendarnije bendove u istoriji roka."
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Once per Order"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Ongoing Events"
@@ -8713,7 +9414,11 @@ msgid "Online Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online događaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Online događaj"
 >>>>>>> upstream/18.0
@@ -8768,7 +9473,11 @@ msgid "Online if not set"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online ako nije podešeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Online ako nije podešeno"
 >>>>>>> upstream/18.0
@@ -8804,8 +9513,13 @@ msgstr "Online ako nije podešeno"
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Open date range picker. Pick a Start date for your event"
 msgstr "Otvorite birač perioda. Izaberite datum početka vašeg događaja"
+=======
+msgid "Open date range picker.<br/>Pick a Start and End date for your event."
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Open date range picker.<br/>Pick a Start and End date for your event."
 msgstr ""
@@ -8827,6 +9541,7 @@ msgstr "OpenWood online otvaranje kolekcije"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:res.partner,website_short_description:event.res_partner_event_2
 msgid ""
 "OpenWood brings honesty and seriousness to wood industry while helping "
@@ -8836,6 +9551,8 @@ msgstr ""
 "da se bave drvećem, cvećem i gljivama."
 
 #. module: event
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -8896,6 +9613,7 @@ msgstr "Partner"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Payment"
@@ -8940,10 +9658,15 @@ msgstr "Plaćanje"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__phone
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 #: model:ir.model.fields,field_description:event.field_event_registration__phone
 #: model:ir.model.fields.selection,name:event.selection__event_question__question_type__phone
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Phone"
 msgstr "Telefon"
@@ -8961,7 +9684,11 @@ msgid "Phone number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj telefona"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj telefona"
 >>>>>>> upstream/18.0
@@ -9013,6 +9740,7 @@ msgid "Please enter a valid base64 secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Molimo unesite važeći base64 tajni ključ"
@@ -9042,6 +9770,8 @@ msgstr "Molimo unesite važeći base64 tajni ključ"
 msgstr "Molimo unesite važeći base64 tajni ključ"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Molimo unesite važeći base64 tajni ključ"
 
 #. module: event
@@ -9049,6 +9779,9 @@ msgstr "Molimo unesite važeći base64 tajni ključ"
 #: code:addons/event/static/src/client_action/event_barcode.js:0
 msgid "Please, Scan again!"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -9057,6 +9790,7 @@ msgid "Point of Sale (POS), Introduction to report customization."
 msgstr "Prodajno mesto (POS), Uvod u prilagođavanje izveštaja."
 
 #. module: event
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "Previous state"
@@ -9140,10 +9874,15 @@ msgstr "Štampaj"
 msgstr "Štampaj"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Print"
 msgstr "Štampaj"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -9170,7 +9909,11 @@ msgid "Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svojstva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svojstva"
 >>>>>>> upstream/18.0
@@ -9224,6 +9967,7 @@ msgid "QR Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "QR kod"
@@ -9253,6 +9997,8 @@ msgstr "QR kod"
 msgstr "QR kod"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "QR kod"
 
 #. module: event
@@ -9283,6 +10029,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Questions"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -9304,7 +10053,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocene"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ocene"
 >>>>>>> upstream/18.0
@@ -9376,6 +10129,7 @@ msgid "Registered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Registrovan/a"
@@ -9411,6 +10165,8 @@ msgstr "Registrovan/a"
 #: code:addons/event/models/event_ticket.py:0
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Registrovan/a"
 
 #. module: event
@@ -9418,6 +10174,9 @@ msgstr "Registrovan/a"
 #: code:addons/event/models/event_ticket.py:0
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__registration_id
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_tree_from_event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
@@ -9436,8 +10195,12 @@ msgstr "Datum Registracije"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/event/controllers/main.py:0
+=======
+#: model:ir.actions.client,name:event.event_action_install_kiosk_pwa
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.client,name:event.event_action_install_kiosk_pwa
 >>>>>>> upstream/18.0
@@ -9480,7 +10243,11 @@ msgid "Registration Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svojstva registracije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svojstva registracije"
 >>>>>>> upstream/18.0
@@ -9518,6 +10285,7 @@ msgid "Registration Start"
 msgstr "Registracija počinje"
 
 #. module: event
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.js:0
@@ -9561,6 +10329,8 @@ msgstr "Registracija je potvrđena"
 >>>>>>> upstream/18.0
 
 #. module: event
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -9618,7 +10388,10 @@ msgstr "Rezervisana mesta"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "Reset To Registered"
 msgstr ""
@@ -9629,6 +10402,9 @@ msgid "Reset To Registered Button"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_event__user_id
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
@@ -9655,7 +10431,11 @@ msgid "Responsive Html Full Page Ticket"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Responsivna Html ulaznica na celoj strani"
+>>>>>>> upstream/18.0
 =======
 msgstr "Responsivna Html ulaznica na celoj strani"
 >>>>>>> upstream/18.0
@@ -9700,7 +10480,11 @@ msgid "Rue de la Paix 123"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ulica de la Paix 123"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ulica de la Paix 123"
 >>>>>>> upstream/18.0
@@ -9747,6 +10531,7 @@ msgstr "Greška u dostavi SMS-a"
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Scan a badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9789,6 +10574,10 @@ msgstr "Skeniraj Bedž"
 msgid "Scan or Tap"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+msgid "Scan or Tap"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -9821,6 +10610,7 @@ msgstr "Zakazano vreme"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:event.event,description:event.event_5
 msgid "Seasoned Hockey Fans and curious people, this tournament is for you!"
 <<<<<<< HEAD
@@ -9861,6 +10651,8 @@ msgstr "Iskusni ljubitelji hokeja i radoznali ljudi, ovaj turnir je za vas!"
 msgstr "Iskusni ljubitelji hokeja i radoznali ljudi, ovaj turnir je za vas!"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_registration__mail_registration_ids
 msgid "Scheduler Emails"
 msgstr ""
@@ -9869,6 +10661,9 @@ msgstr ""
 #: model_terms:event.event,description:event.event_5
 msgid "Seasoned Hockey Fans and curious people, this tournament is for you!"
 msgstr "Iskusni ljubitelji hokeja i radoznali ljudi, ovaj turnir je za vas!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -9884,7 +10679,11 @@ msgid "Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tajni ključ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tajni ključ"
 >>>>>>> upstream/18.0
@@ -9930,6 +10729,7 @@ msgid "Select Attendee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Izaberite učesnika"
@@ -9959,6 +10759,8 @@ msgstr "Izaberite učesnika"
 msgstr "Izaberite učesnika"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Izaberite učesnika"
 
 #. module: event
@@ -9976,6 +10778,9 @@ msgstr ""
 #: model:ir.model.fields.selection,name:event.selection__event_question__question_type__simple_choice
 msgid "Selection"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -9986,12 +10791,18 @@ msgstr "Prodaj ulaznice na svom website-u"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Sell tickets with Point of Sale"
 msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Sell tickets with sales orders"
 msgstr "Prodaj ulaznice putem porudžbenica"
@@ -10034,6 +10845,11 @@ msgstr "Šalje se učesnicima nakon registracije za događaj"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__sequence
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:event.field_event_question__sequence
+#: model:ir.model.fields,field_description:event.field_event_question_answer__sequence
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:event.field_event_question__sequence
 #: model:ir.model.fields,field_description:event.field_event_question_answer__sequence
@@ -10082,12 +10898,18 @@ msgstr "Izvorno"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_event__specific_question_ids
 msgid "Specific Questions"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:event.tag,name:event.event_tag_category_2_tag_3
 #: model:event.type,name:event.event_type_2
@@ -10153,7 +10975,11 @@ msgid "Static Map Url"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Url statične Mape"
+>>>>>>> upstream/18.0
 =======
 msgstr "Url statične Mape"
 >>>>>>> upstream/18.0
@@ -10199,6 +11025,7 @@ msgid "Static Map Url Is Valid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Url statične Mape je ispravan"
@@ -10228,12 +11055,17 @@ msgstr "Url statične Mape je ispravan"
 msgstr "Url statične Mape je ispravan"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Url statične Mape je ispravan"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Stats"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -10258,7 +11090,10 @@ msgstr ""
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Successfully registered!"
@@ -10270,6 +11105,9 @@ msgid "Suggested answer"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:event.field_event_tag__color
 msgid ""
@@ -10288,6 +11126,7 @@ msgid "Tags"
 msgstr "Oznake"
 
 #. module: event
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_tree_from_event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
@@ -10334,6 +11173,11 @@ msgstr "Zauzeto"
 msgid "Taken"
 msgstr "Zauzeto"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:event.view_registration_search
+msgid "Taken"
+msgstr "Zauzeto"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_taken
@@ -10348,7 +11192,11 @@ msgid "Taken Seats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zauzeta mesta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zauzeta mesta"
 >>>>>>> upstream/18.0
@@ -10401,11 +11249,14 @@ msgstr "Šablon"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event.field_event_mail__template_model_id
 #: model:ir.model.fields,field_description:event.field_event_type_mail__template_model_id
 msgid "Template Model"
 msgstr "Model šablona"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:event.selection__event_question__question_type__text_box
 msgid "Text Input"
 msgstr ""
@@ -10414,6 +11265,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__value_text_box
 msgid "Text answer"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -10487,6 +11341,7 @@ msgstr ""
 "- %s"
 
 #. module: event
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:event.stage,description:event.event_stage_booked
 msgid "The place has been reserved"
@@ -10579,14 +11434,24 @@ msgstr "Bezbednost naših posetilaca i naših vazduhoplovaca je na prvom mestu!"
 msgid "The safety of our attendees and our aeronauts comes first!"
 msgstr "Bezbednost naših posetilaca i naših vazduhoplovaca je na prvom mestu!"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:event.event,description:event.event_1
+msgid "The safety of our attendees and our aeronauts comes first!"
+msgstr "Bezbednost naših posetilaca i naših vazduhoplovaca je na prvom mestu!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The stop date cannot be earlier than the start date. Please check ticket "
 "%(ticket_name)s"
+=======
+"The stop date cannot be earlier than the start date. Please check ticket %"
+"(ticket_name)s"
+>>>>>>> upstream/18.0
 =======
 "The stop date cannot be earlier than the start date. Please check ticket %"
 "(ticket_name)s"
@@ -10597,6 +11462,7 @@ msgstr ""
 
 #. module: event
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/event/models/event_mail.py:0
 msgid ""
@@ -10643,6 +11509,8 @@ msgstr "Šablon na koji se referencira treba da potiče iz %(model_name)s modela
 #. odoo-python
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/event/models/event_event.py:0
 #: code:addons/event/models/event_ticket.py:0
 msgid "There are not enough seats available for:"
@@ -10650,12 +11518,18 @@ msgstr "Nema dovoljno slobodnih mesta za:"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.constraint,message:event.constraint_event_registration_answer_value_check
 msgid "There must be a suggested value or a text value."
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:event.event,description:event.event_0
 msgid ""
@@ -10708,6 +11582,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ovo je savršeno mesto da provedete lep dan sa porodicom, garantujemo da ćete "
+"otići sa prelepim, trajnim uspomenama!"
+>>>>>>> upstream/18.0
 =======
 "Ovo je savršeno mesto da provedete lep dan sa porodicom, garantujemo da ćete "
 "otići sa prelepim, trajnim uspomenama!"
@@ -10774,6 +11653,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "This ticket is for another event"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10816,11 +11696,16 @@ msgstr "Ova ulaznica je za drugi događaj"
 msgid "This ticket is for another event!"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+msgid "This ticket is for another event!"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "This ticket is not for an ongoing event"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10866,11 +11751,16 @@ msgstr "Ova ulaznica nije za događaj u toku"
 #: code:addons/event/controllers/main.py:0
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Ova ulaznica nije za događaj u toku"
 
 #. module: event
 #. odoo-python
 #: code:addons/event/controllers/main.py:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_form_from_event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
@@ -10887,6 +11777,12 @@ msgstr "Instrukcije za ulaznicu"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
+#: model:ir.model.fields,field_description:event.field_event_registration__event_ticket_id
+>>>>>>> upstream/18.0
 =======
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
@@ -10899,6 +11795,7 @@ msgstr "Vrsta ulaznice"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:event.attendee_list
 msgid "Ticket type"
 <<<<<<< HEAD
@@ -10939,6 +11836,8 @@ msgstr "Vrsta ulaznice"
 msgstr "Vrsta ulaznice"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Ticket already scanned!"
@@ -10948,6 +11847,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.attendee_list
 msgid "Ticket type"
 msgstr "Vrsta ulaznice"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -10965,7 +11867,10 @@ msgstr ""
 #: code:addons/event/controllers/main.py:0
 #: model:ir.model.fields,field_description:event.field_event_type__event_type_ticket_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_event_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_tree_from_event
@@ -10981,8 +11886,11 @@ msgstr "Ulaznice se mogu odštampati ili skenirati direktno sa vašeg telefona."
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event.field_event_event__date_tz
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_pos_event
 msgid "Tickets with PoS"
 msgstr ""
@@ -10993,6 +11901,9 @@ msgid "Tickets with Sale"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_type__default_timezone
 msgid "Timezone"
@@ -11000,12 +11911,18 @@ msgstr "Vremenska zona"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_question__title
 msgid "Title"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
@@ -11031,7 +11948,11 @@ msgid "Total Attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukopno učesnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ukopno učesnika"
 >>>>>>> upstream/18.0
@@ -11100,6 +12021,11 @@ msgstr "Okidač "
 #. module: event
 #: model:event.tag.category,name:event.event_tag_category_3
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:event.view_event_form
+#: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
@@ -11138,7 +12064,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11171,6 +12100,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11207,13 +12139,19 @@ msgstr "Razumete različite module;"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Undo"
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event.field_event_mail__interval_unit
 #: model:ir.model.fields,field_description:event.field_event_type_mail__interval_unit
@@ -11243,7 +12181,11 @@ msgid "Use Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi Bar-kod"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristi Bar-kod"
 >>>>>>> upstream/18.0
@@ -11288,7 +12230,11 @@ msgid "Use Event Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi bar-kod događaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristi bar-kod događaja"
 >>>>>>> upstream/18.0
@@ -11370,6 +12316,7 @@ msgstr "Mesto održavanja (formatirano za upotrebu u jednoj liniji)"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "View"
@@ -11414,6 +12361,8 @@ msgstr "Vidi"
 #. module: event
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/event/models/event_mail.py:0
 msgid "WARNING: Event Scheduler Error for event: %s"
@@ -11451,7 +12400,11 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upozorenje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upozorenje"
 >>>>>>> upstream/18.0
@@ -11526,7 +12479,11 @@ msgid "Welcome to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dobro došli na"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dobro došli na"
 >>>>>>> upstream/18.0
@@ -11565,7 +12522,10 @@ msgstr "Šta je novo?"
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:event.field_event_event__date_begin
 #: model:ir.model.fields,help:event.field_event_registration__event_begin_date
 msgid ""
@@ -11574,6 +12534,9 @@ msgid ""
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:event.field_event_event__is_ongoing
 msgid "Whether event has begun"
@@ -11615,7 +12578,10 @@ msgstr ""
 
 #. module: event
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/event/models/event_question.py:0
 msgid ""
@@ -11637,6 +12603,9 @@ msgid ""
 msgstr ""
 
 #. module: event
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:mail.template,subject:event.event_registration_mail_template_badge
 msgid "Your badge for {{ object.event_id.name }}"
@@ -11660,7 +12629,11 @@ msgid "e.g. \"12-16 years old\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"12-16 godina starosti\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"12-16 godina starosti\""
 >>>>>>> upstream/18.0
@@ -11705,7 +12678,11 @@ msgid "e.g. \"Age Category\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"Starosna kategorija\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"Starosna kategorija\""
 >>>>>>> upstream/18.0
@@ -11750,6 +12727,7 @@ msgid "e.g. \"Azure Interior\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "npr. \"Azure Interior\""
@@ -11779,6 +12757,8 @@ msgstr "npr. \"Azure Interior\""
 msgstr "npr. \"Azure Interior\""
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "npr. \"Azure Interior\""
 
 #. module: event
@@ -11786,6 +12766,9 @@ msgstr "npr. \"Azure Interior\""
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "e.g. \"Do you have any diet restrictions?\""
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -11801,7 +12784,11 @@ msgid "e.g. \"Promoting\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. „Promovisanje“"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. „Promovisanje“"
 >>>>>>> upstream/18.0
@@ -11886,6 +12873,7 @@ msgid "https://www.example.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "https://www.example.com"
@@ -11919,16 +12907,22 @@ msgstr "https://www.example.com"
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "https://www.example.com"
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "in %d days"
 msgstr "za %d dana"
 
 #. module: event
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
@@ -12020,13 +13014,21 @@ msgstr "je uspešno registrovan/a"
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/event/models/event_event.py:0
+>>>>>>> upstream/18.0
 msgid "next month"
 msgstr "sledećeg meseca"
 
 #. module: event
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/event/models/event_registration.py:0
+=======
+#: code:addons/event/models/event_event.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/event/models/event_event.py:0
 >>>>>>> upstream/18.0
@@ -12036,7 +13038,11 @@ msgstr "sledeće sedmice"
 #. module: event
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/event/models/event_registration.py:0
+=======
+#: code:addons/event/models/event_event.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/event/models/event_event.py:0
 >>>>>>> upstream/18.0
@@ -12057,7 +13063,11 @@ msgid "or"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ili"
+>>>>>>> upstream/18.0
 =======
 msgstr "ili"
 >>>>>>> upstream/18.0
@@ -12102,7 +13112,11 @@ msgid "organizer@email.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "organizator@email.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "organizator@email.com"
 >>>>>>> upstream/18.0
@@ -12156,7 +13170,11 @@ msgid "reserved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "rezervisano"
+>>>>>>> upstream/18.0
 =======
 msgstr "rezervisano"
 >>>>>>> upstream/18.0
@@ -12197,7 +13215,11 @@ msgstr "do"
 #. module: event
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/event/models/event_registration.py:0
+=======
+#: code:addons/event/models/event_event.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/event/models/event_event.py:0
 >>>>>>> upstream/18.0
@@ -12207,7 +13229,11 @@ msgstr "danas"
 #. module: event
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/event/models/event_registration.py:0
+=======
+#: code:addons/event/models/event_event.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/event/models/event_event.py:0
 >>>>>>> upstream/18.0
@@ -12216,6 +13242,7 @@ msgstr "sutra"
 
 #. module: event
 #: model:mail.template,subject:event.event_reminder
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "{{ object.event_id.name }}: {{ object.get_date_range_str() }}"
 msgstr "{{ object.event_id.name }}: {{ object.get_date_range_str() }}"
@@ -12227,6 +13254,8 @@ msgstr "{{ object.event_id.name }}: {{ object.get_date_range_str() }}"
 #~ "'Sklopivi bedž - %s - %s' % ((object.event_id.name or 'Događaj')."
 #~ "replace('/',''), (object.name or '').replace('/',''))"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "{{ object.event_id.name }}: {{ object.event_date_range }}"
 msgstr ""
 
@@ -14420,6 +15449,9 @@ msgstr ""
 #~ msgstr ""
 #~ "'Sklopivi bedž - %s - %s' % ((object.event_id.name or "
 #~ "'Događaj').replace('/',''), (object.name or '').replace('/',''))"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #~ msgid "'Foldable Badge - %s' % (object.name or 'Event').replace('/','')"
@@ -14502,6 +15534,7 @@ msgstr ""
 #~ msgstr "Primer sklopivog bedža"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #~ msgid "How to Fold (1)"
 #~ msgstr "Kako da sklopite (1)"
 
@@ -14514,6 +15547,8 @@ msgstr ""
 #~ msgid "How to Fold (4)"
 #~ msgstr "Kako da sklopite (4)"
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #~ msgid "Mobile"

@@ -19,6 +19,7 @@ def _pre_init_mrp(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         - Creating the computed+stored field stock_move.is_done and
           stock_move.unit_factor is terribly slow with the ORM and leads to "Out of
           Memory" crashes
@@ -30,6 +31,8 @@ def _pre_init_mrp(env):
     env.cr.execute("""UPDATE stock_move
                      SET unit_factor=1;""")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -85,6 +88,9 @@ def _pre_init_mrp(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

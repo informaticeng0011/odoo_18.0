@@ -158,7 +158,13 @@ export const setLastConnectedUsers = (users) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 if (user.login && user.login !== "__system__") {
+=======
+if (!session.quick_login) {
+    browser.localStorage.removeItem(LAST_CONNECTED_USER_KEY);
+} else if (user.login && user.login !== "__system__") {
+>>>>>>> upstream/18.0
 =======
 if (!session.quick_login) {
     browser.localStorage.removeItem(LAST_CONNECTED_USER_KEY);
@@ -232,6 +238,10 @@ if (!session.quick_login) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+delete session.quick_login;
+>>>>>>> upstream/18.0
 =======
 delete session.quick_login;
 >>>>>>> upstream/18.0
