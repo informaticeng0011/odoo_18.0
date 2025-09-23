@@ -454,6 +454,7 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.mail_template = cls.env['mail.template'].with_context(active_test=False)
         cls.model_data = cls.env['ir.model.data']
 
@@ -463,6 +464,8 @@ class TestSearchTemplateCategory(MailCommon):
         # 2 Hidden templates
         cls.hidden_templates = cls.mail_template.create([
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -501,6 +504,9 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -537,7 +543,11 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.model_data.create({
+=======
+        ModelData.create({
+>>>>>>> upstream/18.0
 =======
         ModelData.create({
 >>>>>>> upstream/18.0
@@ -589,6 +599,7 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.custom_templates = cls.mail_template.create([
             {'name': f'Custom Template {i + 1}', 'description': f'Desc {i + 1}'}
             for i in range(4)
@@ -598,6 +609,8 @@ class TestSearchTemplateCategory(MailCommon):
         # 4 Base templates with XML ID
         cls.base_templates = cls.mail_template.create([
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -636,6 +649,9 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -673,7 +689,11 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             cls.model_data.create({
+=======
+            ModelData.create({
+>>>>>>> upstream/18.0
 =======
             ModelData.create({
 >>>>>>> upstream/18.0
@@ -724,12 +744,15 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_search_template_category(self):
 
         # Search by hidden templates
         hidden_domain = [('template_category', 'in', ['hidden_template'])]
         hidden_templates = self.mail_template.search(hidden_domain) - self.existing
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -767,6 +790,9 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -804,7 +830,11 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         base_templates = self.mail_template.search(base_domain) - self.existing
+=======
+        base_templates = MailTemplate.search(base_domain) - self.existing
+>>>>>>> upstream/18.0
 =======
         base_templates = MailTemplate.search(base_domain) - self.existing
 >>>>>>> upstream/18.0
@@ -854,7 +884,11 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         custom_templates = self.mail_template.search(custom_domain) - self.existing
+=======
+        custom_templates = MailTemplate.search(custom_domain) - self.existing
+>>>>>>> upstream/18.0
 =======
         custom_templates = MailTemplate.search(custom_domain) - self.existing
 >>>>>>> upstream/18.0
@@ -904,7 +938,11 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         combined_templates = self.mail_template.search(combined_domain) - self.existing
+=======
+        combined_templates = MailTemplate.search(combined_domain) - self.existing
+>>>>>>> upstream/18.0
 =======
         combined_templates = MailTemplate.search(combined_domain) - self.existing
 >>>>>>> upstream/18.0
@@ -954,7 +992,11 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         hidden_templates = self.mail_template.search(hidden_domain) - self.existing
+=======
+        hidden_templates = MailTemplate.search(hidden_domain) - self.existing
+>>>>>>> upstream/18.0
 =======
         hidden_templates = MailTemplate.search(hidden_domain) - self.existing
 >>>>>>> upstream/18.0
@@ -1003,7 +1045,11 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         not_in_templates = self.mail_template.search(not_in_domain) - self.existing
+=======
+        not_in_templates = MailTemplate.search(not_in_domain) - self.existing
+>>>>>>> upstream/18.0
 =======
         not_in_templates = MailTemplate.search(not_in_domain) - self.existing
 >>>>>>> upstream/18.0
@@ -1053,7 +1099,11 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         not_in_templates = self.mail_template.search(not_in_domain) - self.existing
+=======
+        not_in_templates = MailTemplate.search(not_in_domain) - self.existing
+>>>>>>> upstream/18.0
 =======
         not_in_templates = MailTemplate.search(not_in_domain) - self.existing
 >>>>>>> upstream/18.0
@@ -1103,7 +1153,11 @@ class TestSearchTemplateCategory(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         not_in_templates = self.mail_template.search(not_in_domain) - self.existing
+=======
+        not_in_templates = MailTemplate.search(not_in_domain) - self.existing
+>>>>>>> upstream/18.0
 =======
         not_in_templates = MailTemplate.search(not_in_domain) - self.existing
 >>>>>>> upstream/18.0

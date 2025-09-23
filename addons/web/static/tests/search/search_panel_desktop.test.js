@@ -502,8 +502,11 @@ test("category has been archived", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         { id: 3, name: "asustek" },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -656,6 +659,9 @@ test("category has been archived", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1686,7 +1692,11 @@ test("filter with domain", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect({ ...kwargs, context: {} }).toEqual({
+=======
+        expect({ ...kwargs, context: {} }).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect({ ...kwargs, context: {} }).toMatchObject({
 >>>>>>> upstream/18.0
@@ -2026,9 +2036,13 @@ test("search panel is available on list and kanban by default", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views = {
         ...Partner._views,
         [["search", false]]: /* xml */ `
+=======
+    Partner._views.search = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     Partner._views.search = /* xml */ `
 >>>>>>> upstream/18.0
@@ -2239,8 +2253,12 @@ test("search panel is available on list and kanban by default", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         `,
     };
+=======
+        `;
+>>>>>>> upstream/18.0
 =======
         `;
 >>>>>>> upstream/18.0
@@ -2462,9 +2480,13 @@ test("search panel with view_types attribute", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views = {
         ...Partner._views,
         [["search", false]]: /* xml */ `
+=======
+    Partner._views.search = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     Partner._views.search = /* xml */ `
 >>>>>>> upstream/18.0
@@ -2675,8 +2697,12 @@ test("search panel with view_types attribute", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         `,
     };
+=======
+        `;
+>>>>>>> upstream/18.0
 =======
         `;
 >>>>>>> upstream/18.0
@@ -4258,6 +4284,7 @@ test("search panel width is kept when switching between controllers", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4434,6 +4461,8 @@ test("search panel with sample data", async (assert) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 test("search panel with sample data", async () => {
     Partner._records = [];
@@ -4487,6 +4516,9 @@ test("search panel with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4642,6 +4674,7 @@ test("search panel with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         </kanban>`,
         [["list", false]]: /* xml */ `
         <list sample="1">
@@ -4649,6 +4682,8 @@ test("search panel with sample data", async () => {
         </list>`,
     };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4801,6 +4836,9 @@ test("search panel with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4904,6 +4942,7 @@ test("search panel with sample data", async () => {
     onRpc("has_group", () => true);
     await mountWithCleanup(WebClient);
     await getService("action").doAction(1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5166,6 +5205,8 @@ test("search panel with sample data", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     await getService("action").switchView("kanban");
     expect(`.o_search_panel_filter_value:eq(0) input`).toHaveStyle({ "pointer-events": "auto" });
@@ -5222,6 +5263,9 @@ test("search panel with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

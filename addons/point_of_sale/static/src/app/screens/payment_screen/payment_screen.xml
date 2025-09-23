@@ -78,6 +78,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-if="ui.isSmall">
             <button class="btn-switchpane validation-button btn btn-primary btn-lg flex-fill py-3 lh-lg"
                 t-att-class="{ secondary: !(currentOrder.is_paid() and currentOrder._isValidEmptyOrder()) }"
@@ -113,11 +114,17 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         <button class="validation-button next btn btn-primary btn-lg py-3 lh-lg"
             t-on-click="() => this.validateOrder()"
             t-attf-class="
                 {{ ui.isSmall ? 'btn-switchpane flex-fill' : 'button next w-50' }}
+<<<<<<< HEAD
                 {{ currentOrder.is_paid() and currentOrder._isValidEmptyOrder() ? 'highlight' : 'disabled' }}
+=======
+                {{ currentOrder.canBeValidated() ? 'highlight' : 'disabled' }}
+>>>>>>> upstream/18.0
             "
         >
             <span>Validate</span>
@@ -132,6 +139,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

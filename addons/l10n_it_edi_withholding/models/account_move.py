@@ -75,10 +75,13 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from markupsafe import Markup
 from odoo import _, api, fields, models
 from odoo.addons.l10n_it_edi.models.account_move import get_float
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -228,6 +231,7 @@ from markupsafe import Markup
 
 from odoo import _, api, fields, models
 from odoo.addons.l10n_it_edi.models.account_move import get_float
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,6 +461,9 @@ from odoo.tools import float_compare, html2plaintext
 =======
 from odoo.tools import float_compare, html2plaintext
 >>>>>>> upstream/18.0
+=======
+from odoo.tools import float_compare, html2plaintext
+>>>>>>> upstream/18.0
 
 _logger = logging.getLogger(__name__)
 
@@ -557,6 +564,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -774,6 +786,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -967,7 +984,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'riferimento_amministrazione': grouping_key['description'],
+=======
+                'riferimento_amministrazione': html2plaintext(grouping_key['description']),
+>>>>>>> upstream/18.0
 =======
                 'riferimento_amministrazione': html2plaintext(grouping_key['description']),
 >>>>>>> upstream/18.0
@@ -1176,7 +1197,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pension_fund_taxes = []
+=======
+        pension_fund_taxes = {}
+>>>>>>> upstream/18.0
 =======
         pension_fund_taxes = {}
 >>>>>>> upstream/18.0
@@ -1483,7 +1508,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 pension_fund_taxes.append(pension_fund_tax)
+=======
+                pension_fund_taxes[vat_tax_factor_percent] = pension_fund_tax
+>>>>>>> upstream/18.0
 =======
                 pension_fund_taxes[vat_tax_factor_percent] = pension_fund_tax
 >>>>>>> upstream/18.0
@@ -1783,10 +1812,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return extra_info, message_to_log
 
     def _l10n_it_edi_import_line(self, element, move_line_form, extra_info=None):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2054,6 +2086,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2276,6 +2311,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Eventually apply withholding
+>>>>>>> upstream/18.0
 =======
         # Eventually apply withholding
 >>>>>>> upstream/18.0
@@ -2579,8 +2618,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Pension Funds applied on line level and ENASARCO Pension Fund tax (works as a withholding)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2802,6 +2844,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3044,10 +3089,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif data_kind == 'aswcasspre' and 'tc' in data_text:
                 for pension_fund_tax in extra_info.get('pension_fund_taxes', []):
                     if pension_fund_tax.l10n_it_pension_fund_type.lower() in data_text:
                         move_line_form.tax_ids |= pension_fund_tax
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

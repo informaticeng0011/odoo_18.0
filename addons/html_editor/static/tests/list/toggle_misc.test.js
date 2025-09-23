@@ -10,6 +10,14 @@ describe("Mixed", () => {
             stepFunction: toggleUnorderedList,
             contentAfter: "<ul><li>a[b]c</li></ul>",
         });
+<<<<<<< HEAD
+=======
+        await testEditor({
+            contentBefore: '<ol><li><a href="http://test.com">[test]</a></li></ol>',
+            stepFunction: toggleUnorderedList,
+            contentAfter: '<ul><li><a href="http://test.com">[test]</a></li></ul>',
+        });
+>>>>>>> upstream/18.0
     });
 
     test("should turn an unordered list into an ordered list", async () => {
@@ -18,6 +26,14 @@ describe("Mixed", () => {
             stepFunction: toggleOrderedList,
             contentAfter: "<ol><li>a[b]c</li></ol>",
         });
+<<<<<<< HEAD
+=======
+        await testEditor({
+            contentBefore: '<ul><li><a href="http://test.com">[test]</a></li></ul>',
+            stepFunction: toggleOrderedList,
+            contentAfter: '<ol><li><a href="http://test.com">[test]</a></li></ol>',
+        });
+>>>>>>> upstream/18.0
     });
 
     test("should turn a paragraph and an unordered list item into an ordered list and an unordered list", async () => {
@@ -378,6 +394,15 @@ describe("Mixed", () => {
             stepFunction: toggleCheckList,
             contentAfter: '<ul class="o_checklist"><li>a[b]c</li></ul>',
         });
+<<<<<<< HEAD
+=======
+        await testEditor({
+            contentBefore: '<ul><li><a href="http://test.com">[test]</a></li></ul>',
+            stepFunction: toggleCheckList,
+            contentAfter:
+                '<ul class="o_checklist"><li><a href="http://test.com">[test]</a></li></ul>',
+        });
+>>>>>>> upstream/18.0
     });
 
     test("should turn an unordered list into a checklist just after a checklist", async () => {

@@ -22,6 +22,9 @@ FormEditorRegistry.add('create_mailing_contact', {
         modelRequired: true,
         string: _t('Subscribe to'),
         type: 'many2many',
+<<<<<<< HEAD
         fieldName: "name",
+=======
+>>>>>>> upstream/18.0
     }],
 });

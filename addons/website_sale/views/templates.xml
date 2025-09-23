@@ -478,7 +478,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <div t-if="category" class="d-flex align-items-center d-lg-none me-auto">
+=======
+                                <div t-if="category" class="d-flex align-items-center d-lg-none me-auto o_not_editable">
+>>>>>>> upstream/18.0
 =======
                                 <div t-if="category" class="d-flex align-items-center d-lg-none me-auto o_not_editable">
 >>>>>>> upstream/18.0
@@ -1001,8 +1005,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div t-if="opt_wsale_categories"
                      class="accordion-item">
+=======
+                <div t-if="opt_wsale_categories" class="accordion-item d-lg-none">
+>>>>>>> upstream/18.0
 =======
                 <div t-if="opt_wsale_categories" class="accordion-item d-lg-none">
 >>>>>>> upstream/18.0
@@ -1615,6 +1623,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <div t-if="all_tags">
             <h6 class="mb-3">
                 <b>Tags</b>
@@ -1624,6 +1633,8 @@
                     <t t-set="all_tags" t-value="all_tags"/>
                 </t>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1917,6 +1928,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4068,7 +4082,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             class="position-relative d-inline-flex overflow-hidden m-auto w-100"
+=======
+            class="position-relative d-inline-flex overflow-hidden m-auto h-100"
+>>>>>>> upstream/18.0
 =======
             class="position-relative d-inline-flex overflow-hidden m-auto h-100"
 >>>>>>> upstream/18.0
@@ -4121,12 +4139,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 class="d-flex align-items-start justify-content-center w-100 oe_unmovable"
                 t-options="{
                     'widget': 'image',
                     'preview_image': 'image_1024',
                     'class': 'oe_unmovable product_detail_img w-100',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4162,6 +4183,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4407,6 +4431,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <t t-if="any([product[field.name] for field in website.shop_extra_field_ids])">
                 <hr/>
                 <p class="text-muted">
@@ -4415,6 +4440,8 @@
                         <t t-if='field.field_id.ttype != "binary"'>
                             <span t-esc='product[field.name]' t-options="{'widget': field.field_id.ttype}"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4452,6 +4479,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

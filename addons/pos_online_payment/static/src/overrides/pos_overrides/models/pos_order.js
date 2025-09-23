@@ -8,4 +8,16 @@ patch(PosOrder.prototype, {
             onlinePaymentData: { ...this.onlinePaymentData },
         };
     },
+<<<<<<< HEAD
+=======
+    canBeValidated() {
+        const hasOnlinePayment = this.payment_ids?.some(
+            (p) => p?.payment_method_id?.is_online_payment
+        );
+        if (hasOnlinePayment && typeof this.id !== "number") {
+            return false;
+        }
+        return super.canBeValidated();
+    },
+>>>>>>> upstream/18.0
 });

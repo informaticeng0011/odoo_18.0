@@ -11,8 +11,11 @@ import { closestBlock, isBlock } from "@html_editor/utils/blocks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { removeClass, toggleClass, wrapInlinesInBlocks } from "@html_editor/utils/dom";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49,6 +52,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -115,6 +121,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isShrunkBlock,
+>>>>>>> upstream/18.0
 =======
     isShrunkBlock,
 >>>>>>> upstream/18.0
@@ -354,6 +364,10 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        before_insert_within_pre_processors: this.insertListWithinPre.bind(this),
+>>>>>>> upstream/18.0
 =======
         before_insert_within_pre_processors: this.insertListWithinPre.bind(this),
 >>>>>>> upstream/18.0
@@ -497,6 +511,7 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // @todo @phoenix: original implementation removed whitespace-only text nodes from traversedNodes.
         // Check if this is necessary.
 
@@ -515,6 +530,8 @@ export class ListPlugin extends Plugin {
         const listsToSwitch = new Set();
         for (const block of traversedBlocks) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -562,6 +579,9 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -601,6 +621,13 @@ export class ListPlugin extends Plugin {
         // Apply changes.
         if (listsToSwitch.size || nonListBlocks.size) {
             for (const list of listsToSwitch) {
+<<<<<<< HEAD
+=======
+                // Clean before preserving cursors otherwise the saved cursors
+                // might reference a node that will be removed when setTagName
+                // eventually calls clean of its own.
+                this.dispatchTo("clean_handlers", list);
+>>>>>>> upstream/18.0
                 const cursors = this.dependencies.selection.preserveSelection();
                 const newList = this.switchListMode(list, mode);
                 cursors.remapNode(list, newList).restore();
@@ -811,11 +838,14 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Transform <li> into <p> if they are not in a <ul> / <ol>.
         const paragraph = this.dependencies.baseContainer.createBaseContainer();
         element.replaceWith(paragraph);
         paragraph.replaceChildren(...element.childNodes);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -855,6 +885,9 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1092,6 +1125,7 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         wrapInlinesInBlocks(li, {
             baseContainerNodeName: this.dependencies.baseContainer.getDefaultNodeName(),
             cursors,
@@ -1101,6 +1135,8 @@ export class ListPlugin extends Plugin {
             const baseContainer = this.dependencies.baseContainer.createBaseContainer();
             baseContainer.append(this.document.createElement("br"));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1219,6 +1255,9 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1344,7 +1383,11 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const block of this.dependencies.selection.getTraversedBlocks()) {
+=======
+        for (const block of this.dependencies.selection.getTargetedBlocks()) {
+>>>>>>> upstream/18.0
 =======
         for (const block of this.dependencies.selection.getTargetedBlocks()) {
 >>>>>>> upstream/18.0
@@ -1559,7 +1602,10 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1628,6 +1674,9 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1694,7 +1743,10 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1734,6 +1786,9 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

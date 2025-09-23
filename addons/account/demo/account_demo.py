@@ -145,6 +145,7 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for move in invoices:
 =======
         for move in invoices.filtered(lambda m: m.state == 'draft'):
@@ -220,6 +221,9 @@ class AccountChartTemplate(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
         for move in invoices.filtered(lambda m: m.state == 'draft'):
+>>>>>>> upstream/18.0
+=======
+        for move in invoices:
 >>>>>>> upstream/18.0
 =======
         for move in invoices:
