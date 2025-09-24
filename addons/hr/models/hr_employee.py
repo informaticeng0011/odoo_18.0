@@ -591,7 +591,11 @@ class HrEmployeePrivate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             user_domain = [[(field, 'in', archived_employees.user_id.ids) for field in user_fields_to_empty]]
+=======
+            user_domain = [[(field, 'in', archived_employees.user_id.ids)] for field in user_fields_to_empty]
+>>>>>>> upstream/18.0
 =======
             user_domain = [[(field, 'in', archived_employees.user_id.ids)] for field in user_fields_to_empty]
 >>>>>>> upstream/18.0

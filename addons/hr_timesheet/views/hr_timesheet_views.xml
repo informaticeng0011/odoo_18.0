@@ -215,6 +215,7 @@
                 <filter name="month" position="inside">
                     <filter name="date_this_week" string="This Week" domain="[
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ('date', '&gt;=', (datetime.datetime.combine(context_today() + relativedelta(weeks=-1,days=1,weekday=0), datetime.time(0,0,0)).to_utc())),
                         ('date', '&lt;', (datetime.datetime.combine(context_today() + relativedelta(days=1,weekday=0), datetime.time(0,0,0)).to_utc())),
                     ]"/>
@@ -290,6 +291,8 @@
                         ('date', '&gt;=', (datetime.datetime.combine(context_today() + relativedelta(weeks=-2,days=1,weekday=0), datetime.time(0,0,0)).to_utc())),
                         ('date', '&lt;', (datetime.datetime.combine(context_today() + relativedelta(weeks=-1,days=1,weekday=0), datetime.time(0,0,0)).to_utc())),
 =======
+=======
+>>>>>>> upstream/18.0
                         ('date', '&gt;=', context_today() + relativedelta(weeks=-1,days=1,weekday=0)),
                         ('date', '&lt;', context_today() + relativedelta(days=1,weekday=0)),
                     ]"/>
@@ -300,6 +303,9 @@
                     <filter name="date_last_week" string="Last Week" domain="[
                         ('date', '&gt;=', context_today() + relativedelta(weeks=-2,days=1,weekday=0)),
                         ('date', '&lt;', context_today() + relativedelta(weeks=-1,days=1,weekday=0)),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     ]"/>
                 </filter>

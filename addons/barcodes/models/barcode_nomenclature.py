@@ -1,7 +1,12 @@
 import re
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models, fields, api
+=======
+from odoo import models, fields, api, _
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo import models, fields, api, _
 from odoo.exceptions import UserError
@@ -207,7 +212,10 @@ class BarcodeNomenclature(models.Model):
             'value': sscc,
         }]
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.ondelete(at_uninstall=False)
     def _unlink_except_default(self):
@@ -217,4 +225,7 @@ class BarcodeNomenclature(models.Model):
                 "You cannot delete '%(name)s' because it's the default barcode nomenclature.",
                 name=default_record.display_name
             ))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

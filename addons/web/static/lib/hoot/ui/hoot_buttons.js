@@ -50,7 +50,11 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-set="showAll" t-value="env.runner.hasFilter" />
+=======
+        <t t-set="showAll" t-value="env.runner.hasRemovableFilter" />
+>>>>>>> upstream/18.0
 =======
         <t t-set="showAll" t-value="env.runner.hasRemovableFilter" />
 >>>>>>> upstream/18.0
@@ -164,8 +168,13 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             t-on-mouseenter="() => !isRunning and (state.open = true)"
             t-on-mouseleave="() => state.open = false"
+=======
+            t-on-pointerenter="onPointerEnter"
+            t-on-pointerleave="onPointerLeave"
+>>>>>>> upstream/18.0
 =======
             t-on-pointerenter="onPointerEnter"
             t-on-pointerleave="onPointerLeave"
@@ -547,7 +556,11 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     t-on-click.stop="() => state.open = !state.open"
+=======
+                    t-on-click.stop="onToggleClick"
+>>>>>>> upstream/18.0
 =======
                     t-on-click.stop="onToggleClick"
 >>>>>>> upstream/18.0
@@ -847,6 +860,7 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             type="'test'"
                             id="runnerState.failedIds"
 =======
@@ -1041,6 +1055,9 @@ export class HootButtons extends Component {
 =======
                             ids="{ id: runnerState.failedIds }"
 >>>>>>> upstream/18.0
+=======
+                            ids="{ id: runnerState.failedIds }"
+>>>>>>> upstream/18.0
                             class="'bg-btn p-2 whitespace-nowrap transition-colors'"
                             title="'Run failed tests'"
                             onClick="onRunFailedClick"
@@ -1048,6 +1065,7 @@ export class HootButtons extends Component {
                             Run failed <strong>tests</strong>
                         </HootLink>
                         <HootLink
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1306,6 +1324,9 @@ export class HootButtons extends Component {
 =======
                             ids="{ id: failedSuites }"
 >>>>>>> upstream/18.0
+=======
+                            ids="{ id: failedSuites }"
+>>>>>>> upstream/18.0
                             class="'bg-btn p-2 whitespace-nowrap transition-colors'"
                             title="'Run failed suites'"
                             onClick="onRunFailedClick"
@@ -1415,7 +1436,10 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1654,6 +1678,9 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1905,7 +1932,10 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2126,6 +2156,9 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

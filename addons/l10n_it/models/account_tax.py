@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import _, api, fields, models
 from odoo.exceptions import ValidationError, UserError
+=======
+from odoo import _, api, fields, models
+from odoo.exceptions import ValidationError, UserError
+from odoo.tools import float_compare
+
+>>>>>>> upstream/18.0
 
 class AccountTax(models.Model):
     _inherit = "account.tax"
@@ -51,6 +58,7 @@ class AccountTax(models.Model):
                 if tax.l10n_it_exempt_reason == 'N6' and tax._l10n_it_is_split_payment():
                     raise UserError(_("Split Payment is not compatible with exoneration of kind 'N6'"))
 
+<<<<<<< HEAD
     def _l10n_it_get_tax_kind(self):
         if self.amount_type == 'percent' and self.amount >= 0:
             return 'vat'
@@ -59,6 +67,14 @@ class AccountTax(models.Model):
     def _l10n_it_filter_kind(self, kind):
         """ Filters taxes depending on _l10n_it_get_tax_kind. """
         return self.filtered(lambda tax: tax._l10n_it_get_tax_kind() == kind)
+=======
+    def _l10n_it_filter_kind(self, kind):
+        if kind == 'vat':
+            return self.flatten_taxes_hierarchy().filtered(lambda tax:
+                float_compare(tax.amount, 0, precision_digits=2) >= 0
+            )
+        return self.env['account.tax']
+>>>>>>> upstream/18.0
 
     def _l10n_it_is_split_payment(self):
         """ Split payment means that the Public Administration buyer will pay VAT

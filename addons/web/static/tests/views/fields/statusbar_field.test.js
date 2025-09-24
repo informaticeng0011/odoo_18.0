@@ -585,7 +585,11 @@ test("For the same record, a single rpc is done to recover the specialData", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
 =======
         form: `
 >>>>>>> upstream/18.0
@@ -829,7 +833,11 @@ test("open form with statusbar, leave and come back to another one with other do
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
 =======
         form: `
 >>>>>>> upstream/18.0
@@ -1181,3 +1189,41 @@ test("correctly load statusbar when dynamic domain changes", async () => {
     expect(queryAllTexts(".o_statusbar_status button:not(.d-none)")).toEqual(["Stage Project 2"]);
     expect.verifySteps([]);
 });
+<<<<<<< HEAD
+=======
+
+test('"status" with no stages does not crash command palette', async () => {
+    class Stage extends models.Model {
+        name = fields.Char();
+        _records = []; // no stages
+    }
+
+    class Task extends models.Model {
+        status = fields.Many2one({ relation: "stage" });
+        _records = [{ id: 1, status: false }];
+    }
+
+    defineModels([Stage, Task]);
+
+    await mountView({
+        type: "form",
+        resModel: "task",
+        resId: 1,
+        arch: /* xml */ `
+            <form>
+                <header>
+                    <field name="status" widget="statusbar" options="{'withCommand': true, 'clickable': true}"/>
+                </header>
+            </form>
+        `,
+    });
+
+    // Open the command palette (Ctrl+K)
+    await press(["control", "k"]);
+    await animationFrame();
+
+    const commands = queryAllTexts(".o_command");
+
+    expect(commands).not.toInclude("Move to next Stage");
+});
+>>>>>>> upstream/18.0

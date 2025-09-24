@@ -22,6 +22,7 @@ import { setSelection } from "../_helpers/selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function getProcessSelection(selection) {
     const { anchorNode, anchorOffset, focusNode, focusOffset } = selection;
     return [anchorNode, anchorOffset, focusNode, focusOffset];
@@ -341,6 +342,8 @@ describe("getTraversedNodes", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 describe("ensureFocus", () => {
     // TODO @phoenix: unskipped when ensureFocus is add in the code base
     test.todo(
@@ -443,6 +446,7 @@ describe("ensureFocus", () => {
     );
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -864,6 +868,8 @@ describe("setCursorEnd", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 describe("getCursorDirection", () => {
     test("should identify a forward selection", async () => {
         await testEditor({
@@ -905,6 +911,7 @@ describe("getCursorDirection", () => {
     });
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -991,6 +998,8 @@ describe("getSelectedNodes", () => {
     });
 });
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

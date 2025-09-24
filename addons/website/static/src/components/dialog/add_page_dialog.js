@@ -7,6 +7,7 @@ import { useAutofocus, useService } from '@web/core/utils/hooks';
 import { _t } from "@web/core/l10n/translation";
 import { WebsiteDialog } from '@website/components/dialog/dialog';
 import { Switch } from '@website/components/switch/switch';
+<<<<<<< HEAD
 import { applyTextHighlight } from "@website/js/text_processing";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,6 +272,10 @@ import { useRef, useState, useSubEnv, Component, onWillStart, onMounted, status 
 import { useRef, useState, useSubEnv, Component, onWillStart, onMounted, status } from "@odoo/owl";
 >>>>>>> upstream/18.0
 =======
+import { useRef, useState, useSubEnv, Component, onWillStart, onMounted, status } from "@odoo/owl";
+>>>>>>> upstream/18.0
+=======
+import { applyTextHighlight, removeTextHighlight } from "@website/js/text_processing";
 import { useRef, useState, useSubEnv, Component, onWillStart, onMounted, status } from "@odoo/owl";
 >>>>>>> upstream/18.0
 import wUtils from '@website/js/utils';
@@ -545,6 +550,14 @@ export class AddPageTemplatePreview extends Component {
         for (const previewEl of wrapEl.querySelectorAll(".o_new_page_snippet_preview, .s_dialog_preview")) {
             previewEl.remove();
         }
+<<<<<<< HEAD
+=======
+        // Remove highlighted text content from the cloned page. The full
+        // highlight structure will be restored on page load.
+        for (const textHighlightEl of wrapEl.querySelectorAll(".o_text_highlight")) {
+            removeTextHighlight(textHighlightEl);
+        }
+>>>>>>> upstream/18.0
         this.env.addPage(wrapEl.innerHTML, this.props.template.name && _t("Copy of %s", this.props.template.name));
     }
 }
@@ -688,6 +701,12 @@ export class AddPageTemplates extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (status(this) === "destroyed") {
+            return new Promise(() => {});
+        }
+>>>>>>> upstream/18.0
 =======
         if (status(this) === "destroyed") {
             return new Promise(() => {});

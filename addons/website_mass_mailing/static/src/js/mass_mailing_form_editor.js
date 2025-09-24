@@ -23,7 +23,10 @@ FormEditorRegistry.add('create_mailing_contact', {
         string: _t('Subscribe to'),
         type: 'many2many',
 <<<<<<< HEAD
+<<<<<<< HEAD
         fieldName: "name",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     }],

@@ -28,7 +28,12 @@ COLUMN_HEADER_MAP = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "nature": "product_name",
+=======
+    "zip_code": "zip",
+    "nature": "tax_description",
+>>>>>>> upstream/18.0
 =======
     "zip_code": "zip",
     "nature": "tax_description",
@@ -120,9 +125,12 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         partner = move.partner_id
         partner_address_info = [partner.street, partner.street2, partner.city, partner.state_id.name, partner.country_id.name]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -163,6 +171,9 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -190,6 +201,7 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
             'invoice_date': format_date(move.env, move.invoice_date, date_format="MM/dd/yyyy"),
             'vat': re.sub(r'-', '', partner.vat)[:9] if partner.vat else '',
             'branch_code': partner.branch_code or '000',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,6 +242,8 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'company_name': partner.name if partner.company_type == 'company' else '',
             'first_name': first_name,
             'middle_name': middle_name,
@@ -247,6 +261,9 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -289,8 +306,12 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 product_name = invoice_line.product_id.name or invoice_line.name
                 values['product_name'] = re.sub(r'[()]', '', product_name) if product_name else ""
+=======
+                values['tax_description'] = tax.description or ''
+>>>>>>> upstream/18.0
 =======
                 values['tax_description'] = tax.description or ''
 >>>>>>> upstream/18.0

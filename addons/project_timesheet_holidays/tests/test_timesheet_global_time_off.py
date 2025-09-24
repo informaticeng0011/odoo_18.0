@@ -456,9 +456,15 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # create overlapping global time off
         global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2)
         global_leave_end_datetime = global_leave_start_datetime + timedelta(hours=9)
+=======
+        # create overlapping global time off, with some margin over working day to account for different timezones
+        global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2, hours=-3)
+        global_leave_end_datetime = global_leave_start_datetime + timedelta(hours=12)
+>>>>>>> upstream/18.0
 =======
         # create overlapping global time off, with some margin over working day to account for different timezones
         global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2, hours=-3)
@@ -594,7 +600,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -646,6 +655,9 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -699,7 +711,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -747,6 +762,7 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -769,4 +785,31 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_timesheet_generation_on_public_holiday_creation_with_flexible_hours(self):
+        """ Test that public holidays timesheet duration match the hours per days value for flexible
+        """
+
+        self.flexible_calendar = self.env['resource.calendar'].create({
+            'name': 'Flexible Calendar',
+            'hours_per_day': 7.0,
+            'full_time_required_hours': 7.0,
+            'flexible_hours': True,
+        })
+
+        self.flexible_employee = self.env['hr.employee'].create({
+            'name': 'Flexible',
+            'company_id': self.test_company.id,
+            'resource_calendar_id': self.flexible_calendar.id,
+        })
+
+        self.env['resource.calendar.leaves'].create({
+            'name': 'Public Holiday',
+            'date_from': datetime(2021, 1, 4, 0, 0, 0),
+            'date_to': datetime(2021, 1, 4, 23, 59, 59),
+        })
+        timesheet = self.env['account.analytic.line'].search([('employee_id', '=', self.flexible_employee.id)])
+        self.assertEqual(timesheet.unit_amount, self.flexible_calendar.hours_per_day)
 >>>>>>> upstream/18.0

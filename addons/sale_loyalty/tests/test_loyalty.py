@@ -392,7 +392,10 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -477,6 +480,9 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1052,7 +1058,11 @@ class TestLoyalty(TestSaleCouponCommon):
         order._update_programs_and_rewards()
         self._claim_reward(order, loyalty_program)
         msg = "Discountable should take child tax amount into account"
+<<<<<<< HEAD
         self.assertEqual(order.amount_total, 10, msg=msg)
+=======
+        self.assertEqual(order.amount_to_invoice, 10, msg=msg)
+>>>>>>> upstream/18.0
 
     def test_ewallet_program_without_trigger_product(self):
         self.ewallet_program.trigger_product_ids = [Command.clear()]

@@ -23,6 +23,17 @@ QUnit.module("Analytic", (hooks) => {
         target = getFixture();
         serverData = {
             models: {
+<<<<<<< HEAD
+=======
+                company: {
+                    fields: {
+                        name: { string: "Company", type: "char" },
+                    },
+                    records: [
+                        { id: 1, name: "Company A" },
+                    ]
+                },
+>>>>>>> upstream/18.0
                 "account.analytic.account": {
                     fields: {
                         plan_id: { string: "Plan", type: "many2one", relation: "plan" },
@@ -30,6 +41,7 @@ QUnit.module("Analytic", (hooks) => {
                         color: { string: "Color", type: "integer" },
                         code: { string: "Ref", type: "string"},
                         partner_id: { string: "Partner", type: "many2one", relation: "partner" },
+<<<<<<< HEAD
                     },
                     records: [
                         {id:  1, color: 1, root_plan_id: 2, plan_id: 2, name: "RD" },
@@ -48,6 +60,27 @@ QUnit.module("Analytic", (hooks) => {
                         {id: 14, color: 6, root_plan_id: 5, plan_id: 6, name: "Bratislava" },
                         {id: 15, color: 6, root_plan_id: 5, plan_id: 6, name: "Budapest" },
                         {id: 16, color: 6, root_plan_id: 5, plan_id: 6, name: "Namur" },
+=======
+                        company_id: { string: "Company", type: "many2one", relation: "company" },
+                    },
+                    records: [
+                        {id:  1, color: 1, root_plan_id: 2, plan_id: 2, name: "RD", company_id: 1 },
+                        {id:  2, color: 1, root_plan_id: 2, plan_id: 2, name: "HR", company_id: 1 },
+                        {id:  3, color: 1, root_plan_id: 2, plan_id: 2, name: "FI", company_id: 1 },
+                        {id:  4, color: 2, root_plan_id: 1, plan_id: 1, name: "Time Off", company_id: 1 },
+                        {id:  5, color: 2, root_plan_id: 1, plan_id: 1, name: "Operating Costs", company_id: 1 },
+                        {id:  6, color: 6, root_plan_id: 4, plan_id: 4, name: "Incognito", company_id: 1 },
+                        {id:  7, color: 5, root_plan_id: 5, plan_id: 5, name: "Belgium", company_id: 1 },
+                        {id:  8, color: 6, root_plan_id: 5, plan_id: 6, name: "Brussels", company_id: 1 },
+                        {id:  9, color: 6, root_plan_id: 5, plan_id: 6, name: "Beirut", company_id: 1 },
+                        {id: 10, color: 6, root_plan_id: 5, plan_id: 6, name: "Berlin", company_id: 1 },
+                        {id: 11, color: 6, root_plan_id: 5, plan_id: 6, name: "Bruges", company_id: 1 },
+                        {id: 12, color: 6, root_plan_id: 5, plan_id: 6, name: "Birmingham", company_id: 1 },
+                        {id: 13, color: 6, root_plan_id: 5, plan_id: 6, name: "Bologna", company_id: 1 },
+                        {id: 14, color: 6, root_plan_id: 5, plan_id: 6, name: "Bratislava", company_id: 1 },
+                        {id: 15, color: 6, root_plan_id: 5, plan_id: 6, name: "Budapest", company_id: 1 },
+                        {id: 16, color: 6, root_plan_id: 5, plan_id: 6, name: "Namur", company_id: 1 },
+>>>>>>> upstream/18.0
                     ],
                 },
                 plan: {
@@ -64,6 +97,7 @@ QUnit.module("Analytic", (hooks) => {
                         color: { string: "Color", type: "integer" },
                         all_account_count: { type: "integer" },
                         parent_id: { type: "many2one", relation: "plan" },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,6 +141,8 @@ QUnit.module("Analytic", (hooks) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         column_name: { type: "char" },
                     },
                     records: [
@@ -127,6 +163,9 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -159,12 +198,22 @@ QUnit.module("Analytic", (hooks) => {
                         analytic_distribution: { string: "Analytic", type: "json" },
                         move_id: { string: "Account Move", type: "many2one", relation: "move" },
                         analytic_precision: { string: "Analytic Precision", type: "integer" },
+<<<<<<< HEAD
                     },
                     records: [
                         { id: 1, label: "Developer Time", amount: 100.00, analytic_distribution: {"1, 7": 30.3, "3": 69.704}, analytic_precision: 3},
                         { id: 2, label: "Coke", amount: 100.00, analytic_distribution: {}},
                         { id: 3, label: "Sprite", amount: 100.00, analytic_distribution: {}, analytic_precision: 3},
                         { id: 4, label: "", amount: 100.00, analytic_distribution: {}},
+=======
+                        company_id: { string: "Company", type: "many2one", relation: "company" },
+                    },
+                    records: [
+                        { id: 1, label: "Developer Time", amount: 100.00, analytic_distribution: {"1, 7": 30.3, "3": 69.704}, analytic_precision: 3, company_id: 1},
+                        { id: 2, label: "Coke", amount: 100.00, analytic_distribution: {}, company_id: 1},
+                        { id: 3, label: "Sprite", amount: 100.00, analytic_distribution: {}, analytic_precision: 3, company_id: 1},
+                        { id: 4, label: "", amount: 100.00, analytic_distribution: {}, company_id: 1},
+>>>>>>> upstream/18.0
                     ],
                 },
                 partner: {
@@ -189,7 +238,11 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         line_ids: { string: "Move Lines", type: "one2many", relation: "aml", relation_field: "move_line_id" },
+=======
+                        line_ids: { string: "Move Lines", type: "one2many", relation: "aml", relation_field: "move_id" },
+>>>>>>> upstream/18.0
 =======
                         line_ids: { string: "Move Lines", type: "one2many", relation: "aml", relation_field: "move_id" },
 >>>>>>> upstream/18.0
@@ -299,7 +352,11 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -364,7 +421,11 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -498,7 +559,11 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -681,7 +746,10 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -765,6 +833,9 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

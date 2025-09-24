@@ -84,6 +84,7 @@ class WebsiteSaleComboConfiguratorController(SaleComboConfiguratorController, We
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().sale_combo_configurator_get_data(*args, **kwargs)
 =======
 =======
@@ -145,6 +146,8 @@ class WebsiteSaleComboConfiguratorController(SaleComboConfiguratorController, We
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -313,6 +316,9 @@ class WebsiteSaleComboConfiguratorController(SaleComboConfiguratorController, We
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

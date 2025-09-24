@@ -9,7 +9,10 @@ patch(PosOrder.prototype, {
         };
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     canBeValidated() {
         const hasOnlinePayment = this.payment_ids?.some(
             (p) => p?.payment_method_id?.is_online_payment
@@ -19,5 +22,8 @@ patch(PosOrder.prototype, {
         }
         return super.canBeValidated();
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

@@ -11,12 +11,18 @@ describe("Mixed", () => {
             contentAfter: "<ul><li>a[b]c</li></ul>",
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: '<ol><li><a href="http://test.com">[test]</a></li></ol>',
             stepFunction: toggleUnorderedList,
             contentAfter: '<ul><li><a href="http://test.com">[test]</a></li></ul>',
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
 
@@ -27,12 +33,18 @@ describe("Mixed", () => {
             contentAfter: "<ol><li>a[b]c</li></ol>",
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: '<ul><li><a href="http://test.com">[test]</a></li></ul>',
             stepFunction: toggleOrderedList,
             contentAfter: '<ol><li><a href="http://test.com">[test]</a></li></ol>',
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
 
@@ -395,13 +407,19 @@ describe("Mixed", () => {
             contentAfter: '<ul class="o_checklist"><li>a[b]c</li></ul>',
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: '<ul><li><a href="http://test.com">[test]</a></li></ul>',
             stepFunction: toggleCheckList,
             contentAfter:
                 '<ul class="o_checklist"><li><a href="http://test.com">[test]</a></li></ul>',
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
 

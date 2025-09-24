@@ -20,7 +20,11 @@ class TestSaleOrder(ClickAndCollectCommon):
         self.website.warehouse_id = self.warehouse
         so = self._create_in_store_delivery_order(warehouse_id=self.warehouse_2.id)
 <<<<<<< HEAD
+<<<<<<< HEAD
         so.set_delivery_line(self.free_delivery, 0)
+=======
+        so._set_delivery_method(self.free_delivery)
+>>>>>>> upstream/18.0
 =======
         so._set_delivery_method(self.free_delivery)
 >>>>>>> upstream/18.0
@@ -116,7 +120,10 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -382,6 +389,9 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -573,7 +583,11 @@ class TestSaleOrder(ClickAndCollectCommon):
         so = self._create_in_store_delivery_order()
         so.fiscal_position_id = fp_us
 <<<<<<< HEAD
+<<<<<<< HEAD
         so.set_delivery_line(self.free_delivery, 0)
+=======
+        so._set_delivery_method(self.free_delivery)
+>>>>>>> upstream/18.0
 =======
         so._set_delivery_method(self.free_delivery)
 >>>>>>> upstream/18.0

@@ -393,6 +393,12 @@ function matchCondition(record, condition) {
         case "any":
         case "not_any":
             return true;
+<<<<<<< HEAD
+=======
+        case "child_of":
+        case "parent_of":
+            return true;
+>>>>>>> upstream/18.0
     }
     throw new InvalidDomainError("could not match domain");
 }

@@ -42,6 +42,10 @@ registry.category("web_tour.tours").add("course_reviews", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -152,6 +156,7 @@ registry.category("web_tour.tours").add("course_reviews", {
             run: "click",
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -512,6 +517,8 @@ registry.category("web_tour.tours").add("course_reviews", {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             trigger: ".o_wslides_course_header_nav_review",
         },
         {
@@ -548,6 +555,9 @@ registry.category("web_tour.tours").add("course_reviews", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -616,6 +626,7 @@ registry.category("web_tour.tours").add("course_reviews", {
             run: "edit Mid course!",
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1053,6 +1064,11 @@ registry.category("web_tour.tours").add("course_reviews", {
                 ".modal.modal_shown.show button.o_portal_chatter_composer_btn:contains(update review)",
             run: "click",
 >>>>>>> upstream/18.0
+=======
+            trigger:
+                ".modal.modal_shown.show button.o_portal_chatter_composer_btn:contains(update review)",
+            run: "click",
+>>>>>>> upstream/18.0
         },
         {
             trigger: "a[id=review-tab]",
@@ -1121,7 +1137,12 @@ registry.category("web_tour.tours").add("course_reviews", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: "#chatterRoot:shadow .o-mail-Message .o-mail-MessageReactions-add:not(:visible)",
+=======
+            trigger:
+                "#chatterRoot:shadow .o-mail-Message .o-mail-MessageReactions-add:not(:visible)",
+>>>>>>> upstream/18.0
 =======
             trigger:
                 "#chatterRoot:shadow .o-mail-Message .o-mail-MessageReactions-add:not(:visible)",
@@ -1377,7 +1398,10 @@ registry.category("web_tour.tours").add("course_reviews", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1537,6 +1561,9 @@ registry.category("web_tour.tours").add("course_reviews", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

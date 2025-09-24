@@ -55,6 +55,7 @@ import { MainComponentsContainer } from "@web/core/main_components_container";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { View, getDefaultConfig } from "@web/views/view";
 import { mountWithCleanup } from "./component_test_helpers";
 import { contains } from "./dom_test_helpers";
@@ -71,6 +72,8 @@ import { MockServer } from "./mock_server/mock_server";
  *  searchViewArch?: string;
  *  type: ViewType;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -235,6 +238,9 @@ import { registerInlineViewArchs } from "./mock_server/mock_model";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -400,6 +406,10 @@ import { registerInlineViewArchs } from "./mock_server/mock_model";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @typedef {import("@web/views/view").ViewProps} ViewProps
+>>>>>>> upstream/18.0
 =======
  * @typedef {import("@web/views/view").ViewProps} ViewProps
 >>>>>>> upstream/18.0
@@ -612,6 +622,7 @@ import { registerInlineViewArchs } from "./mock_server/mock_model";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  * @param {string} modelName
  * @param {number | false} viewId
@@ -624,6 +635,8 @@ const registerDefaultView = (modelName, viewId, viewType, arch) => {
     model._views[key] ||= arch || `<${viewType} />`;
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -779,6 +792,9 @@ const isNil = (value) => value === null || value === undefined;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -978,7 +994,11 @@ export function buildSelector(base, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if ("index" in params) {
+=======
+    if (!isNil(params.index)) {
+>>>>>>> upstream/18.0
 =======
     if (!isNil(params.index)) {
 >>>>>>> upstream/18.0
@@ -1284,6 +1304,7 @@ export async function mountViewInDialog(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const config = { ...getDefaultConfig(), ...params.config };
     const container = await mountWithCleanup(MainComponentsContainer, {
         env: params.env || getMockEnv() || (await makeMockEnv()),
@@ -1293,6 +1314,8 @@ export async function mountViewInDialog(params) {
     getService("dialog").add(ViewDialog, {
         viewEnv: { config },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1449,6 +1472,9 @@ export async function mountViewInDialog(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1606,7 +1632,10 @@ export async function mountViewInDialog(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1773,9 +1802,15 @@ export async function mountView(params, target = null) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const config = { ...getDefaultConfig(), ...params.config };
     return mountWithCleanup(View, {
         env: params.env || getMockEnv() || (await makeMockEnv({ config })),
+=======
+    return mountWithCleanup(View, {
+        env: params.env,
+        componentEnv: { config: params.config },
+>>>>>>> upstream/18.0
 =======
     return mountWithCleanup(View, {
         env: params.env,
@@ -2088,6 +2123,7 @@ export async function mountView(params, target = null) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {MountViewParams} params
  * @returns {typeof View.props}
  */
@@ -2119,6 +2155,8 @@ export function parseViewProps(params) {
 
     delete viewProps.arch;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2302,6 +2340,9 @@ export function parseViewProps(props) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

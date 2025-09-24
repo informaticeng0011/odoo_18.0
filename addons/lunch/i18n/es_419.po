@@ -89,7 +89,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Fernanda Alvarez, 2024
+=======
+# Fernanda Alvarez, 2025
+>>>>>>> upstream/18.0
 =======
 # Fernanda Alvarez, 2025
 >>>>>>> upstream/18.0
@@ -433,7 +437,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Fernanda Alvarez, 2024\n"
+=======
+"Last-Translator: Fernanda Alvarez, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Fernanda Alvarez, 2025\n"
 >>>>>>> upstream/18.0
@@ -956,7 +964,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Estas son las órdenes de hoy para <t t-out=\"order.get('company_name', '')\">EmpresadeAlmuerzos</t>:\n"
+=======
+"        Estas son las órdenes de hoy para <t t-out=\"order.get('company_name', '')\">Empresa_de_comida</t>:\n"
+>>>>>>> upstream/18.0
 =======
 "        Estas son las órdenes de hoy para <t t-out=\"order.get('company_name', '')\">Empresa_de_comida</t>:\n"
 >>>>>>> upstream/18.0
@@ -1049,7 +1061,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <td style=\"width: 100%; font-size: 13px; border-top: 1px solid black;\" align=\"right\"><strong t-out=\"format_amount(order['amount_total'], currency) or ''\">$ 0.00</strong></td>\n"
+=======
+"                    <td style=\"width: 100%; font-size: 13px; border-top: 1px solid black;\" align=\"right\"><strong t-out=\"format_amount(order['amount_total'], currency) or ''\">$10.00</strong></td>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <td style=\"width: 100%; font-size: 13px; border-top: 1px solid black;\" align=\"right\"><strong t-out=\"format_amount(order['amount_total'], currency) or ''\">$10.00</strong></td>\n"
 >>>>>>> upstream/18.0
@@ -1102,7 +1118,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <p>Póngase en contacto con nosotros si tiene alguna pregunta.</p>\n"
+=======
+"        <p>Contáctanos si tienes alguna pregunta.</p>\n"
+>>>>>>> upstream/18.0
 =======
 "        <p>Contáctanos si tienes alguna pregunta.</p>\n"
 >>>>>>> upstream/18.0
@@ -1167,7 +1187,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"user.company_id.name or ''\">SuEmpresa</t>\n"
+=======
+"                    <t t-out=\"user.company_id.name or ''\">TuEmpresa</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"user.company_id.name or ''\">TuEmpresa</t>\n"
 >>>>>>> upstream/18.0
@@ -1221,7 +1245,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <a t-attf-href=\"'mailto:%s' % {{ user.company_id.email }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"user.company_id.email or ''\">info@suempresa.com</a>\n"
+=======
+"                        <a t-attf-href=\"'mailto:%s' % {{ user.company_id.email }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"user.company_id.email or ''\">info@tuempresa.com</a>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <a t-attf-href=\"'mailto:%s' % {{ user.company_id.email }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"user.company_id.email or ''\">info@tuempresa.com</a>\n"
 >>>>>>> upstream/18.0
@@ -1300,9 +1328,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un movimiento de efectivo puede ser un gasto o un pago.<br>\n"
 "           Un gasto se crea automáticamente en el recibo de la orden.<br>\n"
 "            Un pago representa el reembolso del empleado a la empresa."
+=======
+"Los movimientos de efectivo pueden ser gastos o pagos.<br>\n"
+"           Los gastos se crean en automático al recibir la orden.<br>\n"
+"            Los pagos representan el reembolso que realiza el empleado a la empresa."
+>>>>>>> upstream/18.0
 =======
 "Los movimientos de efectivo pueden ser gastos o pagos.<br>\n"
 "           Los gastos se crean en automático al recibir la orden.<br>\n"
@@ -1659,7 +1693,11 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cancelado"
+=======
+msgstr "Cancelada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cancelada"
 >>>>>>> upstream/18.0
@@ -1996,9 +2034,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Haga clic en <span class=\"fa fa-phone text-success\" title=\"Botón de ordenar\"></span> para anunciar que se realizó la orden.<br>\n"
 "            Haga clic en <span class=\"fa fa-check text-success\" title=\"Botón de recibir\"></span> para anunciar que se recibió la orden.<br>\n"
 "            Haga clic en la <span class=\"fa fa-times-circle text-danger\" title=\"Botón de cancelar\"></span>  X roja para anunciar que la orden no está disponible."
+=======
+"Haz clic en <span class=\"fa fa-phone text-success\" title=\"Botón de ordenar\"></span> para avisar que hiciste la orden.<br>\n"
+"            Haz clic en <span class=\"fa fa-check text-success\" title=\"Botón de recibir\"></span> para avisar que llegó la orden.<br>\n"
+"            Haz clic en la <span class=\"fa fa-times-circle text-danger\" title=\"Botón de cancelar\"></span> X roja para avisar que la orden no está disponible."
+>>>>>>> upstream/18.0
 =======
 "Haz clic en <span class=\"fa fa-phone text-success\" title=\"Botón de ordenar\"></span> para avisar que hiciste la orden.<br>\n"
 "            Haz clic en <span class=\"fa fa-check text-success\" title=\"Botón de recibir\"></span> para avisar que llegó la orden.<br>\n"
@@ -2112,7 +2156,11 @@ msgid "Configure Your Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Configure su orden"
+=======
+msgstr "Configura tu orden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configura tu orden"
 >>>>>>> upstream/18.0
@@ -2380,7 +2428,11 @@ msgid "Display Reorder Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mostrar botón de reordenar"
+=======
+msgstr "Mostrar botón para volver a ordenar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostrar botón para volver a ordenar"
 >>>>>>> upstream/18.0
@@ -2767,7 +2819,11 @@ msgid "Format email address \"Name <email@domain>\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dirección de correo con formato \"Nombre <email@domain>\""
+=======
+msgstr "Dirección de correo con formato \"Nombre <correo@dominio>\""
+>>>>>>> upstream/18.0
 =======
 msgstr "Dirección de correo con formato \"Nombre <correo@dominio>\""
 >>>>>>> upstream/18.0
@@ -2873,7 +2929,12 @@ msgid "Here you can access all categories for the lunch products."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aquí puede acceder a todas las categorías de alimentos."
+=======
+msgstr ""
+"Aquí puedes acceder a todas las categorías de los productos de almuerzo."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Aquí puedes acceder a todas las categorías de los productos de almuerzo."
@@ -2938,7 +2999,11 @@ msgid "Here you can see today's orders grouped by vendors."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aquí puede ver las órdenes de hoy agrupadas por proveedor."
+=======
+msgstr "Aquí puedes ver las órdenes de hoy agrupadas por proveedor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Aquí puedes ver las órdenes de hoy agrupadas por proveedor."
 >>>>>>> upstream/18.0
@@ -2994,8 +3059,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aquí puede ver sus movimientos de efectivo.<br>Un movimiento de efectivo puede ser un gasto o un pago.\n"
 "            Un gasto se crea de forma automática cuando se recibe una orden, mientras que un pago es un reembolso a la empresa que el gerente codifica."
+=======
+"Aquí puedes ver tus movimientos de efectivo.<br>Los movimientos de efectivo pueden ser gastos o pagos.\n"
+"            Los gastos se crean en automático al recibir una orden, mientras que los pagos son los reembolsos que le hacen los empleados a la empresa y el gerente se encarga de registrarlos."
+>>>>>>> upstream/18.0
 =======
 "Aquí puedes ver tus movimientos de efectivo.<br>Los movimientos de efectivo pueden ser gastos o pagos.\n"
 "            Los gastos se crean en automático al recibir una orden, mientras que los pagos son los reembolsos que le hacen los empleados a la empresa y el gerente se encarga de registrarlos."
@@ -3087,8 +3157,12 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Si se encuentra seleccionado, hay nuevos mensajes que requieren su atención."
+=======
+msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
 >>>>>>> upstream/18.0
@@ -3157,7 +3231,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Si se encuentra seleccionado, algunos mensajes tienen error de envío."
+=======
+msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
 >>>>>>> upstream/18.0
@@ -3278,7 +3356,11 @@ msgid "Is New"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nuevo"
+=======
+msgstr "Es nuevo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Es nuevo"
 >>>>>>> upstream/18.0
@@ -3371,7 +3453,11 @@ msgid "Location Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre de ubicación"
+=======
+msgstr "Nombre de la ubicación"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre de la ubicación"
 >>>>>>> upstream/18.0
@@ -3470,7 +3556,11 @@ msgid "Lunch Maki 18pc"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Almuerzo - Maki de 18 piezas"
+=======
+msgstr "Maki - 18 pzas."
+>>>>>>> upstream/18.0
 =======
 msgstr "Maki - 18 pzas."
 >>>>>>> upstream/18.0
@@ -3523,7 +3613,11 @@ msgid "Lunch Minimum Threshold"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Umbral mínimo de almuerzo"
+=======
+msgstr "Límite mínimo de almuerzo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Límite mínimo de almuerzo"
 >>>>>>> upstream/18.0
@@ -3601,7 +3695,11 @@ msgid "Lunch Salmon 20pc"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Almuerzo - Salmón de 20 piezas"
+=======
+msgstr "Salmón - 20 pzas."
+>>>>>>> upstream/18.0
 =======
 msgstr "Salmón - 20 pzas."
 >>>>>>> upstream/18.0
@@ -3654,7 +3752,11 @@ msgid "Lunch Supplier"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Proveedor de almuerzo"
+=======
+msgstr "Proveedor del almuerzo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proveedor del almuerzo"
 >>>>>>> upstream/18.0
@@ -3707,7 +3809,11 @@ msgid "Lunch Temaki mix 3pc"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Almuerzo - Temakis variados, 3 piezas"
+=======
+msgstr "Temakis mixtos - 3 pzas."
+>>>>>>> upstream/18.0
 =======
 msgstr "Temakis mixtos - 3 pzas."
 >>>>>>> upstream/18.0
@@ -3771,7 +3877,11 @@ msgid "Lunch: Cancel meals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Almuerzo: cancelar las comidas"
+=======
+msgstr "Almuerzo: Cancelar alimentos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almuerzo: Cancelar alimentos"
 >>>>>>> upstream/18.0
@@ -3824,7 +3934,11 @@ msgid "Lunch: Receive meals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Almuerzo: recibir las comidas"
+=======
+msgstr "Almuerzo: Recibir alimentos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almuerzo: Recibir alimentos"
 >>>>>>> upstream/18.0
@@ -3877,7 +3991,11 @@ msgid "Lunch: Send notifications"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Almuerzo: enviar notificaciones"
+=======
+msgstr "Almuerzo: Enviar notificaciones"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almuerzo: Enviar notificaciones"
 >>>>>>> upstream/18.0
@@ -3930,7 +4048,11 @@ msgid "Lunch: Supplier Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Almuerzo: orden al proveedor"
+=======
+msgstr "Almuerzo: Ordenar al proveedor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almuerzo: Ordenar al proveedor"
 >>>>>>> upstream/18.0
@@ -3983,7 +4105,11 @@ msgid "Lunch: alert chat notification (Alert for Office 3)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Almuerzo: alerta de notificación de chat (alerta para la oficina 3)"
+=======
+msgstr "Almuerzo: Alerta de notificación de chat (alerta para la oficina 3)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almuerzo: Alerta de notificación de chat (alerta para la oficina 3)"
 >>>>>>> upstream/18.0
@@ -4036,7 +4162,11 @@ msgid "Lunch: send automatic email to Coin gourmand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Almuerzo: enviar correo electrónico automático a Coin Gourmand"
+=======
+msgstr "Almuerzo: Enviar correo automático a Coin Gourmand"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almuerzo: Enviar correo automático a Coin Gourmand"
 >>>>>>> upstream/18.0
@@ -4089,8 +4219,12 @@ msgid "Lunch: send automatic email to Lunch Supplier"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Almuerzo: enviar correo electrónico automático al proveedor de almuerzos"
+=======
+msgstr "Almuerzo: Enviar correo automático al proveedor del almuerzo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almuerzo: Enviar correo automático al proveedor del almuerzo"
 >>>>>>> upstream/18.0
@@ -4143,7 +4277,11 @@ msgid "Lunch: send automatic email to Pizza Inn"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Almuerzo: enviar correo electrónico automático a Pizza Inn"
+=======
+msgstr "Almuerzo: Enviar correo automático a Pizza Inn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almuerzo: Enviar correo automático a Pizza Inn"
 >>>>>>> upstream/18.0
@@ -4196,7 +4334,11 @@ msgid "Lunch: send automatic email to Sushi Shop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Almuerzo: enviar correo electrónico automático a Sushi Shop"
+=======
+msgstr "Almuerzo: Enviar correo automático a Sushi Shop"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almuerzo: Enviar correo automático a Sushi Shop"
 >>>>>>> upstream/18.0
@@ -4249,7 +4391,11 @@ msgid "Lunch: send automatic email to The Corner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Almuerzo: enviar correo electrónico automático a The Corner"
+=======
+msgstr "Almuerzo: Enviar correo automático a The Corner"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almuerzo: Enviar correo automático a The Corner"
 >>>>>>> upstream/18.0
@@ -4463,7 +4609,11 @@ msgid "No lunch location available."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "No se ubicación una ubicación de almuerzo disponible."
+=======
+msgstr "No hay ninguna ubicación de almuerzo disponible."
+>>>>>>> upstream/18.0
 =======
 msgstr "No hay ninguna ubicación de almuerzo disponible."
 >>>>>>> upstream/18.0
@@ -4630,7 +4780,11 @@ msgid "Order Your Lunch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ordene su almuerzo"
+=======
+msgstr "Ordena tu almuerzo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ordena tu almuerzo"
 >>>>>>> upstream/18.0
@@ -4676,6 +4830,7 @@ msgstr "Lista de líneas de la orden"
 #. module: lunch
 #: model:ir.model.fields.selection,name:lunch.selection__lunch_order__state__ordered
 msgid "Ordered"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5013,6 +5168,9 @@ msgstr "Ordenada"
 =======
 msgstr "Ordenada"
 >>>>>>> upstream/18.0
+=======
+msgstr "Ordenada"
+>>>>>>> upstream/18.0
 
 #. module: lunch
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_supplier_view_form
@@ -5063,8 +5221,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Los pagos se utilizan para registrar movimientos de liquidez. Puede procesar"
 " esos pagos por su cuenta o utilizar los servicios instalados."
+=======
+"Los pagos se utilizan para registrar movimientos de liquidez. Puedes "
+"procesar esos pagos por tu cuenta o utilizar los recursos instalados."
+>>>>>>> upstream/18.0
 =======
 "Los pagos se utilizan para registrar movimientos de liquidez. Puedes "
 "procesar esos pagos por tu cuenta o utilizar los recursos instalados."
@@ -5140,7 +5303,11 @@ msgid "Pizza Funghi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pizza de hongos"
+=======
+msgstr "Pizza de champiñones"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pizza de champiñones"
 >>>>>>> upstream/18.0
@@ -5210,7 +5377,11 @@ msgid "Please create a location to start ordering."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cree una ubicación antes de empezar a ordenar."
+=======
+msgstr "Crea una ubicación antes de empezar a ordenar."
+>>>>>>> upstream/18.0
 =======
 msgstr "Crea una ubicación antes de empezar a ordenar."
 >>>>>>> upstream/18.0
@@ -5431,7 +5602,11 @@ msgid "Re-order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reordenar"
+=======
+msgstr "Volver a ordenar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Volver a ordenar"
 >>>>>>> upstream/18.0
@@ -5779,7 +5954,11 @@ msgid "Received"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Recibido"
+=======
+msgstr "Recibida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recibida"
 >>>>>>> upstream/18.0
@@ -6203,7 +6382,11 @@ msgid "Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Enviado"
+=======
+msgstr "Enviada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Enviada"
 >>>>>>> upstream/18.0
@@ -6579,7 +6762,11 @@ msgid "The Country"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "The Country"
+=======
+msgstr "Sándwich Country"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sándwich Country"
 >>>>>>> upstream/18.0
@@ -6636,7 +6823,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Las siguientes categorías de productos están archivadas. Debe desarchivar las categorías o cambiar la categoría del producto.\n"
+=======
+"Las siguientes categorías de productos están archivadas. Desarchiva las categorías o cambia la categoría del producto.\n"
+>>>>>>> upstream/18.0
 =======
 "Las siguientes categorías de productos están archivadas. Desarchiva las categorías o cambia la categoría del producto.\n"
 >>>>>>> upstream/18.0
@@ -6694,7 +6885,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Los siguientes proveedores están archivados. Debe desarchivar los proveedores o cambiar el proveedor del producto.\n"
+=======
+"Los siguientes proveedores están archivados. Desarchiva los proveedores o cambia el proveedor del producto.\n"
+>>>>>>> upstream/18.0
 =======
 "Los siguientes proveedores están archivados. Desarchiva los proveedores o cambia el proveedor del producto.\n"
 >>>>>>> upstream/18.0
@@ -6773,8 +6968,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El responsable es la persona que ordenará el almuerzo para todos. Se "
 "utilizará en el campo 'de' cuando se envíe el correo electrónico automático."
+=======
+"El responsable es la persona que ordenará el almuerzo para todos y se "
+"utilizará en el campo \"De\" al enviar el correo automático."
+>>>>>>> upstream/18.0
 =======
 "El responsable es la persona que ordenará el almuerzo para todos y se "
 "utilizará en el campo \"De\" al enviar el correo automático."
@@ -6842,7 +7042,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El proveedor relacionado a esta orden no está disponible en la fecha "
+=======
+"El proveedor relacionado con esta orden no está disponible en la fecha "
+>>>>>>> upstream/18.0
 =======
 "El proveedor relacionado con esta orden no está disponible en la fecha "
 >>>>>>> upstream/18.0
@@ -6897,7 +7101,11 @@ msgid "The vendor related to this order is not available today."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "El proveedor relacionado a esta orden no está disponible hoy."
+=======
+msgstr "El proveedor relacionado con esta orden no está disponible hoy."
+>>>>>>> upstream/18.0
 =======
 msgstr "El proveedor relacionado con esta orden no está disponible hoy."
 >>>>>>> upstream/18.0
@@ -6953,8 +7161,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No hay ninguna orden anterior registrada. Haga clic en \"Mi almuerzo\" y "
 "luego cree una nueva orden."
+=======
+"No hay ninguna orden anterior registrada. Haz clic en \"Mi almuerzo\" y crea"
+" una nueva orden."
+>>>>>>> upstream/18.0
 =======
 "No hay ninguna orden anterior registrada. Haz clic en \"Mi almuerzo\" y crea"
 " una nueva orden."
@@ -7063,7 +7276,11 @@ msgid "To add some money to your wallet, please contact your lunch manager."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contacte a su gerente de almuerzo para agregar dinero a su monedero."
+=======
+msgstr "Contacta a tu gerente de almuerzo para agregar dinero a tu billetera."
+>>>>>>> upstream/18.0
 =======
 msgstr "Contacta a tu gerente de almuerzo para agregar dinero a tu billetera."
 >>>>>>> upstream/18.0
@@ -7116,7 +7333,11 @@ msgid "To see some locations, create one using the create button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Para ver algunas ubicaciones, cree una con el botón de crear"
+=======
+msgstr "Para ver algunas ubicaciones, crea una con el botón correspondiente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Para ver algunas ubicaciones, crea una con el botón correspondiente"
 >>>>>>> upstream/18.0
@@ -7294,7 +7515,11 @@ msgid "User : Order your meal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Usuario: ordene su comida"
+=======
+msgstr "Usuario: Ordena tus alimentos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usuario: Ordena tus alimentos"
 >>>>>>> upstream/18.0
@@ -7384,7 +7609,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Está tratando de hacerse pasar por otro usuario, pero esto solo lo puede "
+=======
+"Estás intentando hacerte pasar por otro usuario, pero esto solo lo puede "
+>>>>>>> upstream/18.0
 =======
 "Estás intentando hacerte pasar por otro usuario, pero esto solo lo puede "
 >>>>>>> upstream/18.0
@@ -7439,7 +7668,11 @@ msgid "You have to order one and only one %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Debe ordenar uno y solo uno %s"
+=======
+msgstr "Solo debes ordenar 1 %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solo debes ordenar 1 %s"
 >>>>>>> upstream/18.0
@@ -7493,7 +7726,11 @@ msgid "You should order at least one %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Debe ordenar al menos uno %s"
+=======
+msgstr "Debes ordenar al menos 1 %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Debes ordenar al menos 1 %s"
 >>>>>>> upstream/18.0
@@ -7547,7 +7784,11 @@ msgid "Your Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su cuenta"
+=======
+msgstr "Tu cuenta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu cuenta"
 >>>>>>> upstream/18.0
@@ -7601,7 +7842,11 @@ msgid "Your Cart ("
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su carrito ("
+=======
+msgstr "Tu carrito ("
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu carrito ("
 >>>>>>> upstream/18.0
@@ -7655,7 +7900,11 @@ msgid "Your Lunch Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su orden de almuerzo"
+=======
+msgstr "Tu orden de almuerzo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu orden de almuerzo"
 >>>>>>> upstream/18.0
@@ -7709,7 +7958,11 @@ msgid "Your Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su orden"
+=======
+msgstr "Tu orden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu orden"
 >>>>>>> upstream/18.0
@@ -7767,8 +8020,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No cuenta con suficiente dinero en su monedero para ordenar eso. Contacte al"
 " gerente de almuerzo para agregar fondos."
+=======
+"No cuentas con suficiente dinero en tu billetera para ordenar eso. Contacta "
+"a tu gerente de almuerzo para agregar fondos."
+>>>>>>> upstream/18.0
 =======
 "No cuentas con suficiente dinero en tu billetera para ordenar eso. Contacta "
 "a tu gerente de almuerzo para agregar fondos."
@@ -7861,7 +8119,11 @@ msgid "e.g. Order before 11am"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Por ejemplo, ordenar antes de las 11 a. m."
+=======
+msgstr "Por ejemplo, Ordena antes de las 11 a. m."
+>>>>>>> upstream/18.0
 =======
 msgstr "Por ejemplo, Ordena antes de las 11 a. m."
 >>>>>>> upstream/18.0
