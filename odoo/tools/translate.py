@@ -235,11 +235,14 @@ TRANSLATED_ELEMENTS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 TRANSLATED_ATTRS = dict.fromkeys({
     'string', 'add-label', 'help', 'sum', 'avg', 'confirm', 'placeholder', 'alt', 'title', 'aria-label',
     'aria-keyshortcuts', 'aria-placeholder', 'aria-roledescription', 'aria-valuetext',
     'value_label', 'data-tooltip', 'label',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -470,6 +473,9 @@ TRANSLATED_ATTRS = dict.fromkeys({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -715,7 +721,10 @@ TRANSLATED_ATTRS.update(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -954,6 +963,9 @@ OWL_TRANSLATED_ATTRS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2031,7 +2043,11 @@ def _extract_translatable_qweb_terms(element, callback):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (not is_component and attr in TRANSLATED_ATTRS) or (is_component and attr.endswith(".translate")):
+=======
+                if (not is_component and attr in OWL_TRANSLATED_ATTRS) or (is_component and attr.endswith(".translate")):
+>>>>>>> upstream/18.0
 =======
                 if (not is_component and attr in OWL_TRANSLATED_ATTRS) or (is_component and attr.endswith(".translate")):
 >>>>>>> upstream/18.0
@@ -2977,7 +2993,11 @@ def get_po_paths(module_name: str, lang: str, env: odoo.api.Environment | None =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     lang_base = lang.split('_')[0]
+=======
+    lang_base = lang.split('_', 1)[0]
+>>>>>>> upstream/18.0
 =======
     lang_base = lang.split('_', 1)[0]
 >>>>>>> upstream/18.0
@@ -3167,12 +3187,15 @@ def get_po_paths(module_name: str, lang: str, env: odoo.api.Environment | None =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     po_paths = [
         join(module_name, dir_, filename + '.po')
         for filename in OrderedSet(po_names)
         for dir_ in ('i18n', 'i18n_extra')
     ]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3313,6 +3336,9 @@ def get_po_paths(module_name: str, lang: str, env: odoo.api.Environment | None =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

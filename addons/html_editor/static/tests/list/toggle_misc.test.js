@@ -12,7 +12,10 @@ describe("Mixed", () => {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         await testEditor({
@@ -21,6 +24,9 @@ describe("Mixed", () => {
             contentAfter: '<ul><li><a href="http://test.com">[test]</a></li></ul>',
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34,7 +40,10 @@ describe("Mixed", () => {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         await testEditor({
@@ -43,6 +52,9 @@ describe("Mixed", () => {
             contentAfter: '<ol><li><a href="http://test.com">[test]</a></li></ol>',
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -408,7 +420,10 @@ describe("Mixed", () => {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         await testEditor({
@@ -418,6 +433,9 @@ describe("Mixed", () => {
                 '<ul class="o_checklist"><li><a href="http://test.com">[test]</a></li></ul>',
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

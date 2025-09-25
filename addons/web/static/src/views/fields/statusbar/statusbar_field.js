@@ -144,9 +144,12 @@ export class StatusBarField extends Component {
                     category: "smart_action",
                     hotkey: "alt+x",
 <<<<<<< HEAD
+<<<<<<< HEAD
                     isAvailable: () =>
                         !this.props.isDisabled && !this.getAllItems().at(-1).isSelected,
 =======
+=======
+>>>>>>> upstream/18.0
                     isAvailable: () => {
                         if (this.props.isDisabled) {
                             return false;
@@ -154,6 +157,9 @@ export class StatusBarField extends Component {
                         const items = this.getAllItems();
                         return items.length && !items.at(-1).isSelected;
                     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 }
             );

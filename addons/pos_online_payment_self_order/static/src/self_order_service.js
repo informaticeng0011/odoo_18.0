@@ -8,23 +8,32 @@ patch(SelfOrder.prototype, {
         this.onlinePaymentStatus = null;
         this.data.connectWebSocket("ONLINE_PAYMENT_STATUS", ({ status, data }) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             // Ignore updates for orders from other devices
             let order = this.models["pos.order"].find((o) => o.uuid === data["pos.order"][0].uuid);
             if (!order) {
                 return;
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this.models.loadData(data, [], false);
             this.onlinePaymentStatus = status;
             this.paymentError = status === "fail";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             const order = this.models["pos.order"].find(
                 (o) => o.access_token === data["pos.order"][0].access_token
             );
             if (status === "success" && !this.currentOrder.access_token && order) {
 =======
+=======
+>>>>>>> upstream/18.0
             order = this.models["pos.order"].find(
                 (o) => o.access_token === data["pos.order"][0].access_token
             );
@@ -34,6 +43,9 @@ patch(SelfOrder.prototype, {
                 order &&
                 order.uuid === this.currentOrder.uuid
             ) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 this.confirmationPage("order", this.config.self_ordering_mode, order.access_token);
             }
@@ -80,6 +92,10 @@ patch(SelfOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const pmIds = this.config.payment_method_ids.map((o) => o.id);
+>>>>>>> upstream/18.0
 =======
         const pmIds = this.config.payment_method_ids.map((o) => o.id);
 >>>>>>> upstream/18.0
@@ -136,8 +152,12 @@ patch(SelfOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     (this.config.self_ordering_mode === "kiosk" &&
                         this.config.payment_method_ids.includes(rec.id)))
+=======
+                    (this.config.self_ordering_mode === "kiosk" && pmIds.includes(rec.id)))
+>>>>>>> upstream/18.0
 =======
                     (this.config.self_ordering_mode === "kiosk" && pmIds.includes(rec.id)))
 >>>>>>> upstream/18.0

@@ -35,4 +35,8 @@
         ],
     },
     'license': 'LGPL-3',
+<<<<<<< HEAD
+=======
+    'pre_init_hook': '_pre_init_nemhandel',
+>>>>>>> upstream/18.0
 }

@@ -218,7 +218,10 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -265,6 +268,9 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -313,7 +319,11 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         new_date = fields.Datetime.to_string(move.date + relativedelta(days=self.delay))
+=======
+        new_date = self._get_push_new_date(move)
+>>>>>>> upstream/18.0
 =======
         new_date = self._get_push_new_date(move)
 >>>>>>> upstream/18.0
@@ -473,6 +483,12 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        final_location_id = False
+        if move_to_copy.location_final_id and not move_to_copy.location_dest_id._child_of(move_to_copy.location_final_id):
+            final_location_id = move_to_copy.location_final_id.id
+>>>>>>> upstream/18.0
 =======
         final_location_id = False
         if move_to_copy.location_final_id and not move_to_copy.location_dest_id._child_of(move_to_copy.location_final_id):
@@ -1046,7 +1062,11 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'location_final_id': move_to_copy.location_final_id.id,
+=======
+            'location_final_id': final_location_id,
+>>>>>>> upstream/18.0
 =======
             'location_final_id': final_location_id,
 >>>>>>> upstream/18.0
@@ -1744,7 +1764,11 @@ class ProcurementGroup(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.env.user.has_group('base.group_multi_company') and locations.filtered(lambda location: location.usage == 'transit'):
+=======
+        if locations.filtered(lambda location: location.usage == 'transit'):
+>>>>>>> upstream/18.0
 =======
         if locations.filtered(lambda location: location.usage == 'transit'):
 >>>>>>> upstream/18.0

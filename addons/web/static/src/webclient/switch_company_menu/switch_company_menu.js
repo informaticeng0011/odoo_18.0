@@ -66,6 +66,7 @@ export class CompanySelector {
     }
 
     _selectCompany(companyId, unshift = false) {
+<<<<<<< HEAD
         if (!this.selectedCompaniesIds.includes(companyId)) {
             if (unshift) {
                 this.selectedCompaniesIds.unshift(companyId);
@@ -77,6 +78,22 @@ export class CompanySelector {
             this.selectedCompaniesIds.splice(index, 1);
             this.selectedCompaniesIds.unshift(companyId);
         }
+=======
+        if (!(companyId in this.companyService.disallowedAncestorCompanies)) {
+            if (!this.selectedCompaniesIds.includes(companyId)) {
+                if (unshift) {
+                    this.selectedCompaniesIds.unshift(companyId);
+                } else {
+                    this.selectedCompaniesIds.push(companyId);
+                }
+            } else if (unshift) {
+                const index = this.selectedCompaniesIds.findIndex((c) => c === companyId);
+                this.selectedCompaniesIds.splice(index, 1);
+                this.selectedCompaniesIds.unshift(companyId);
+            }
+        }
+
+>>>>>>> upstream/18.0
         this._getBranches(companyId).forEach((companyId) => this._selectCompany(companyId));
     }
 

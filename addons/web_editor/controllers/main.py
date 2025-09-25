@@ -43,12 +43,15 @@ import re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import time
 import requests
 import werkzeug.exceptions
 import werkzeug.urls
 from PIL import Image, ImageFont, ImageDraw
 from lxml import etree
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -173,12 +176,15 @@ from os.path import join as opj
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.http import request, Response
 from odoo import http, tools, _
 from odoo.tools.misc import file_open
 from odoo.tools.image import image_data_uri, binary_to_image
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -303,7 +309,11 @@ from odoo.http import STATIC_CACHE, Response, request
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools.image import binary_to_image, image_data_uri
+=======
+from odoo.tools.image import binary_to_image, image_data_uri, get_webp_size
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.image import binary_to_image, image_data_uri, get_webp_size
 >>>>>>> upstream/18.0
@@ -463,6 +473,9 @@ except ImportError:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -711,6 +724,7 @@ class Web_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         response = Response()
         response.mimetype = 'image/png'
         response.data = output.getvalue()
@@ -722,6 +736,8 @@ class Web_Editor(http.Controller):
         response.headers['Expires'] = time.strftime("%a, %d-%b-%Y %T GMT", time.gmtime(time.time()+604800*60))
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -851,6 +867,9 @@ class Web_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -951,7 +970,11 @@ class Web_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         value = filename in record._fields and record[filename]
+=======
+        value = filename in record._fields and record.read([filename])[0][filename]
+>>>>>>> upstream/18.0
 =======
         value = filename in record._fields and record.read([filename])[0][filename]
 >>>>>>> upstream/18.0
@@ -1033,7 +1056,11 @@ class Web_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         value = filename in record._fields and record[filename]
+=======
+        value = filename in record._fields and record.read([filename])[0][filename]
+>>>>>>> upstream/18.0
 =======
         value = filename in record._fields and record.read([filename])[0][filename]
 >>>>>>> upstream/18.0
@@ -1397,9 +1424,12 @@ class Web_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         img = binary_to_image(image)
         width, height = tuple(str(size) for size in img.size)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1516,6 +1546,9 @@ class Web_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

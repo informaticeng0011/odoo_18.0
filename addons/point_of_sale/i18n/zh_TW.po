@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* point_of_sale
 # 
 # Translators:
@@ -466,6 +467,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * point_of_sale
 #
 # Translators:
@@ -486,6 +489,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -515,6 +521,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1030,6 +1037,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-29 18:37+0000\n"
 "PO-Revision-Date: 2025-08-19 22:20+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
@@ -1053,6 +1062,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1097,11 +1109,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This issue occurs because the quantity becomes zero after rounding during the conversion. To fix this, adjust the conversion factors or rounding method to ensure that even the smallest quantity in the original unit does not round down to zero in the target unit."
 msgstr ""
 "\n"
 "出現此問題，是因為在換算過程進行四捨五入後，數量變為零。要解決此問題，請調整換算因數或捨入方式，以確保即使是原始單位中最小的數量，也不會在目標單位四捨五入變成零。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1147,6 +1162,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1220,7 +1238,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(old_pm)s 已更改為 %(new_pm)s，金額從 %(old_amount)s 更改為 %(new_amount)s"
+=======
+msgstr ""
+"%(old_pm)s 已更改為 %(new_pm)s，金額從 %(old_amount)s 更改為 %(new_amount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "%(old_pm)s 已更改為 %(new_pm)s，金額從 %(old_amount)s 更改為 %(new_amount)s"
@@ -1297,7 +1320,13 @@ msgid "%(payment_method)s POS payment of %(partner)s in %(session)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "POS 付款，付款方式：%(payment_method)s，合作夥伴：%(partner)s，操作時段：%(session)s"
+=======
+msgstr ""
+"POS 付款，付款方式：%(payment_method)s，合作夥伴：%(partner)s，操作時段：%"
+"(session)s"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "POS 付款，付款方式：%(payment_method)s，合作夥伴：%(partner)s，操作時段：%"
@@ -1468,7 +1497,11 @@ msgid "%(title)s %(product_name)s with %(taxes)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(title)s %(product_name)s 及 %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(title)s %(product_name)s 及 %(taxes)s"
 >>>>>>> upstream/18.0
@@ -1770,7 +1803,11 @@ msgid "(as of opening)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "開店餘額"
+=======
+msgstr "（開店時結餘）"
+>>>>>>> upstream/18.0
 =======
 msgstr "（開店時結餘）"
 >>>>>>> upstream/18.0
@@ -1965,11 +2002,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'Valuable Customer'\">Azure Interior</t>,\n"
 "    </h4>\n"
 "    <p style=\"font-size: 13px;\">\n"
 "We have a limited-time offer only for you, enjoy a flat 20% off on your next purchase with us.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2012,6 +2052,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2057,7 +2100,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"object.partner_id.name or '尊貴的客戶'\">Azure Interior</t> 你好！\n"
+=======
+"        <t t-out=\"object.partner_id.name or '尊貴的客戶'\">Azure Interior</"
+"t> 你好！\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-out=\"object.partner_id.name or '尊貴的客戶'\">Azure Interior</"
 "t> 你好！\n"
@@ -2137,8 +2185,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-shopping-bag me-1\" aria-label=\"購物車\" role=\"img\" "
 "title=\"購物車\"/>"
+=======
+"<i class=\"fa fa-fw fa-shopping-bag me-1\" aria-label=\"購物車\" "
+"role=\"img\" title=\"購物車\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-shopping-bag me-1\" aria-label=\"購物車\" "
 "role=\"img\" title=\"購物車\"/>"
@@ -2211,8 +2264,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-info-circle me-1\" title=\"此設定將在所有銷售點通用。\" pos-data-"
 "toggle=\"tooltip\"/>"
+=======
+"<i class=\"fa fa-info-circle me-1\" title=\"此設定將在所有銷售點通用。\" pos-"
+"data-toggle=\"tooltip\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-info-circle me-1\" title=\"此設定將在所有銷售點通用。\" pos-"
 "data-toggle=\"tooltip\"/>"
@@ -2288,6 +2346,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<p>Dear %(client_name)s,<br/>Here is your Receipt %(is_invoiced)sfor"
 "             %(pos_name)s amounting in %(amount)s from %(company_name)s. "
 "</p>"
@@ -2295,6 +2354,8 @@ msgstr ""
 "<p>親愛的 %(client_name)s：<br/>附上你的收據 %(is_invoiced)s 銷售點：             "
 "%(pos_name)s，總金額：%(amount)s，公司：%(company_name)s。</p>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2338,6 +2399,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2382,7 +2446,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"float-end\" invisible=\"is_total_cost_computed\">待定</span>"
+=======
+msgstr ""
+"<span class=\"float-end\" invisible=\"is_total_cost_computed\">待定</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<span class=\"float-end\" invisible=\"is_total_cost_computed\">待定</span>"
@@ -2453,11 +2522,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
 msgstr ""
 "<span class=\"o_form_label\">條碼</span>\n"
 "                                <i class=\"fa fa-info-circle me-1\" title=\"此設定將在所有銷售點通用。\" pos-data-toggle=\"tooltip\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2500,6 +2572,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2585,11 +2660,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    in order to install a Payment Terminal and make a fully integrated payment method."
 msgstr ""
 "<strong>&gt; 支付終端方式</strong>\n"
 "                                    安裝支付終端並實現完全整合的收付方式"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2632,6 +2710,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2730,7 +2811,10 @@ msgstr "已有相同名稱的備註"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2772,6 +2856,9 @@ msgstr "已有此唯一識別碼（UUID）的付款"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2834,7 +2921,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "目前該POS營業點正處於開啟狀態，部分設定必須先完成POS營業點關閉後才可使用."
+=======
+msgstr ""
+"目前該POS營業點正處於開啟狀態，部分設定必須先完成POS營業點關閉後才可使用."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "目前該POS營業點正處於開啟狀態，部分設定必須先完成POS營業點關閉後才可使用."
@@ -2945,7 +3037,11 @@ msgid "Accept payments with Viva Wallet on a terminal or tap on phone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在終端上使用Viva Wallet或點擊手機接受付款"
+=======
+msgstr "透過終端機或在手機上拍卡，使用 Viva Wallet 接受付款"
+>>>>>>> upstream/18.0
 =======
 msgstr "透過終端機或在手機上拍卡，使用 Viva Wallet 接受付款"
 >>>>>>> upstream/18.0
@@ -3042,7 +3138,11 @@ msgid "Accept payments with a PayTM payment terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "使用PayTM支付終端接受付款"
+=======
+msgstr "使用 PayTM 付款終端機接受付款"
+>>>>>>> upstream/18.0
 =======
 msgstr "使用 PayTM 付款終端機接受付款"
 >>>>>>> upstream/18.0
@@ -3139,7 +3239,11 @@ msgid "Accept payments with a Razorpay payment terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "使用 Razorpay 支付終端接受付款"
+=======
+msgstr "使用 Razorpay 付款終端機接受付款"
+>>>>>>> upstream/18.0
 =======
 msgstr "使用 Razorpay 付款終端機接受付款"
 >>>>>>> upstream/18.0
@@ -3236,7 +3340,11 @@ msgid "Accept payments with a Six payment terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "使用Six支付終端接受付款"
+=======
+msgstr "使用 Six 付款終端機接受付款"
+>>>>>>> upstream/18.0
 =======
 msgstr "使用 Six 付款終端機接受付款"
 >>>>>>> upstream/18.0
@@ -3333,7 +3441,11 @@ msgid "Accept payments with a Stripe payment terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "接受Stripe支付終端的付款"
+=======
+msgstr "使用 Stripe 付款終端機接受付款"
+>>>>>>> upstream/18.0
 =======
 msgstr "使用 Stripe 付款終端機接受付款"
 >>>>>>> upstream/18.0
@@ -3430,7 +3542,11 @@ msgid "Accept payments with an Adyen payment terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "接受Adyen支付終端的付款"
+=======
+msgstr "使用 Adyen 付款終端機接受付款"
+>>>>>>> upstream/18.0
 =======
 msgstr "使用 Adyen 付款終端機接受付款"
 >>>>>>> upstream/18.0
@@ -3553,8 +3669,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Account used as outstanding account when creating accounting payment records"
 " for bank payments."
+=======
+"Account used as outstanding account when creating accounting payment records "
+"for bank payments."
+>>>>>>> upstream/18.0
 =======
 "Account used as outstanding account when creating accounting payment records "
 "for bank payments."
@@ -3755,7 +3876,11 @@ msgid "Add an opening note..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "加入開始備註⋯"
+=======
+msgstr "加入開店備註⋯"
+>>>>>>> upstream/18.0
 =======
 msgstr "加入開店備註⋯"
 >>>>>>> upstream/18.0
@@ -3849,7 +3974,11 @@ msgid "Add internal notes on order lines for the kitchen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在廚房訂單資料行新增內部備註"
+=======
+msgstr "在廚房單加入內部備註"
+>>>>>>> upstream/18.0
 =======
 msgstr "在廚房單加入內部備註"
 >>>>>>> upstream/18.0
@@ -3981,7 +4110,11 @@ msgid "Adyen Payment Terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adyen 支付終端"
+=======
+msgstr "Adyen 付款終端機"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adyen 付款終端機"
 >>>>>>> upstream/18.0
@@ -4054,7 +4187,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果您使用會計應用程式，所有可用的價目表必須與公司或與此POS營業點上設定的銷售日記帳使用相同的貨幣."
+=======
+msgstr ""
+"如果您使用會計應用程式，所有可用的價目表必須與公司或與此POS營業點上設定的銷售"
+"日記帳使用相同的貨幣."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果您使用會計應用程式，所有可用的價目表必須與公司或與此POS營業點上設定的銷售"
@@ -4143,8 +4282,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "All payment methods must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
+=======
+"All payment methods must be in the same currency as the Sales Journal or the "
+"company currency if that is not set."
+>>>>>>> upstream/18.0
 =======
 "All payment methods must be in the same currency as the Sales Journal or the "
 "company currency if that is not set."
@@ -4272,7 +4416,11 @@ msgid "Amount Authorized Difference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "授權差異的總金額"
+=======
+msgstr "可接受差額金額"
+>>>>>>> upstream/18.0
 =======
 msgstr "可接受差額金額"
 >>>>>>> upstream/18.0
@@ -4432,6 +4580,10 @@ msgstr "總額"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -4709,7 +4861,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "關閉操作時段期間，發生錯誤。未同步的訂單將在下次操作時段才可用。頁面將會重新載入。"
+=======
+msgstr ""
+"關閉操作時段期間，發生錯誤。未同步的訂單將在下次操作時段才可用。頁面將會重新"
+"載入。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "關閉操作時段期間，發生錯誤。未同步的訂單將在下次操作時段才可用。頁面將會重新"
@@ -4806,7 +4964,10 @@ msgstr "印表機的內部辨識碼"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4853,6 +5014,9 @@ msgstr "已有此唯一識別碼（UUID）的訂單"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4942,7 +5106,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "日記賬必須定義最少一個銀行賬戶，以允許使用銀行應用程式登記 QR 二維碼付款。"
+=======
+msgstr ""
+"日記賬必須定義最少一個銀行賬戶，以允許使用銀行應用程式登記 QR 二維碼付款。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "日記賬必須定義最少一個銀行賬戶，以允許使用銀行應用程式登記 QR 二維碼付款。"
@@ -5018,7 +5187,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "At the session closing: A picking is created for the entire session when it's closed\n"
+=======
+"At the session closing: A picking is created for the entire session when "
+"it's closed\n"
+>>>>>>> upstream/18.0
 =======
 "At the session closing: A picking is created for the entire session when "
 "it's closed\n"
@@ -5121,7 +5295,11 @@ msgid "Authorized Difference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "可接受結帳差額"
+=======
+msgstr "可接受差額"
+>>>>>>> upstream/18.0
 =======
 msgstr "可接受差額"
 >>>>>>> upstream/18.0
@@ -5303,7 +5481,11 @@ msgid "Background Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "背景圖像"
+=======
+msgstr "背景圖片"
+>>>>>>> upstream/18.0
 =======
 msgstr "背景圖片"
 >>>>>>> upstream/18.0
@@ -5465,6 +5647,7 @@ msgstr "關閉前差異金額"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.ticket_validation_screen
 msgid "Billing address:"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5702,6 +5885,9 @@ msgstr "賬單地址："
 =======
 msgstr "賬單地址："
 >>>>>>> upstream/18.0
+=======
+msgstr "賬單地址："
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_bill_form
@@ -5755,7 +5941,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "利用多種計劃刺激銷售額：優惠券、推廣促銷、禮品卡、會員/忠誠度計劃。你可設定特定條件（適用產品、客戶、最低消費額、有效期）。獎勵可以是折扣（百分比或指定金額）或免費禮品。"
+=======
+"利用多種計劃刺激銷售額：優惠券、推廣促銷、禮品卡、會員/忠誠度計劃。你可設定特"
+"定條件（適用產品、客戶、最低消費額、有效期）。獎勵可以是折扣（百分比或指定金"
+"額）或免費禮品。"
+>>>>>>> upstream/18.0
 =======
 "利用多種計劃刺激銷售額：優惠券、推廣促銷、禮品卡、會員/忠誠度計劃。你可設定特"
 "定條件（適用產品、客戶、最低消費額、有效期）。獎勵可以是折扣（百分比或指定金"
@@ -6113,7 +6305,11 @@ msgid "Cash control - opening"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "現金控制 - 期初"
+=======
+msgstr "現金管理 - 開店"
+>>>>>>> upstream/18.0
 =======
 msgstr "現金管理 - 開店"
 >>>>>>> upstream/18.0
@@ -6328,8 +6524,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Check if the product should be weighted using the hardware scale "
 "integration."
+=======
+"Check if the product should be weighted using the hardware scale integration."
+>>>>>>> upstream/18.0
 =======
 "Check if the product should be weighted using the hardware scale integration."
 >>>>>>> upstream/18.0
@@ -6409,7 +6609,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "檢查網際網路連接，然後通過點擊紅色 wifi 按鈕 (螢幕右上角) 再次嘗試同步."
+=======
+msgstr ""
+"檢查網際網路連接，然後通過點擊紅色 wifi 按鈕 (螢幕右上角) 再次嘗試同步."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "檢查網際網路連接，然後通過點擊紅色 wifi 按鈕 (螢幕右上角) 再次嘗試同步."
@@ -6517,7 +6722,10 @@ msgstr "選擇門戶網站網址在收據上的列印方式。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6560,6 +6768,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6790,7 +7001,12 @@ msgid "Combine %(payment_method)s POS payments from %(session)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "將以下操作時段使用 %(payment_method)s 付款方式的 POS 付款結合：%(session)s"
+=======
+msgstr ""
+"將以下操作時段使用 %(payment_method)s 付款方式的 POS 付款結合：%(session)s"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "將以下操作時段使用 %(payment_method)s 付款方式的 POS 付款結合：%(session)s"
@@ -6937,7 +7153,11 @@ msgid "Company has chart of accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "公司有會計科目表"
+=======
+msgstr "公司有會計賬目總表"
+>>>>>>> upstream/18.0
 =======
 msgstr "公司有會計賬目總表"
 >>>>>>> upstream/18.0
@@ -7249,8 +7469,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Conversion Error: The following unit of measure conversions result in a zero"
 " quantity due to rounding:"
+=======
+"Conversion Error: The following unit of measure conversions result in a zero "
+"quantity due to rounding:"
+>>>>>>> upstream/18.0
 =======
 "Conversion Error: The following unit of measure conversions result in a zero "
 "quantity due to rounding:"
@@ -7332,7 +7557,11 @@ msgid "Cost:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "成本:"
+=======
+msgstr "成本："
+>>>>>>> upstream/18.0
 =======
 msgstr "成本："
 >>>>>>> upstream/18.0
@@ -7588,7 +7817,11 @@ msgid "Customer Display"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "客戶顯示"
+=======
+msgstr "顧客顯示屏"
+>>>>>>> upstream/18.0
 =======
 msgstr "顧客顯示屏"
 >>>>>>> upstream/18.0
@@ -7776,7 +8009,11 @@ msgid "Dashboard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "儀表板"
+=======
+msgstr "Dashboard"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dashboard"
 >>>>>>> upstream/18.0
@@ -8304,9 +8541,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Proxy where the printer can be found, and a list of product categories.\n"
 "            An Order Printer will only print updates for products belonging to one of\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8347,6 +8587,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8475,7 +8718,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "員工可以掃瞄徽章或輸入PIN以登入PoS營業點。 這些憑證可在員工表單的 *HR 設定* 選項中進行設定。"
+=======
+msgstr ""
+"員工可以掃瞄徽章或輸入PIN以登入PoS營業點。 這些憑證可在員工表單的 *HR 設定* "
+"選項中進行設定。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "員工可以掃瞄徽章或輸入PIN以登入PoS營業點。 這些憑證可在員工表單的 *HR 設定* "
@@ -8587,8 +8836,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ensure that there is an existing bank journal. Check if chart of accounts is"
 " installed in your company."
+=======
+"Ensure that there is an existing bank journal. Check if chart of accounts is "
+"installed in your company."
+>>>>>>> upstream/18.0
 =======
 "Ensure that there is an existing bank journal. Check if chart of accounts is "
 "installed in your company."
@@ -8736,7 +8990,11 @@ msgid "Financials"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "財務"
+=======
+msgstr "財務資訊"
+>>>>>>> upstream/18.0
 =======
 msgstr "財務資訊"
 >>>>>>> upstream/18.0
@@ -8816,8 +9074,12 @@ msgstr "鬆脆全奶油酥皮，層疊成鬆軟的金黃色牛角包。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Flaky croissant filled with creamy cheese, a savory twist on a classic."
+=======
+msgid "Flaky croissant filled with creamy cheese, a savory twist on a classic."
+>>>>>>> upstream/18.0
 =======
 msgid "Flaky croissant filled with creamy cheese, a savory twist on a classic."
 >>>>>>> upstream/18.0
@@ -8925,7 +9187,11 @@ msgid "For imprecise industrial touchscreens."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "面向不精確的工業用觸摸屏。"
+=======
+msgstr "改善不精確觸控螢幕的導航及操作。"
+>>>>>>> upstream/18.0
 =======
 msgstr "改善不精確觸控螢幕的導航及操作。"
 >>>>>>> upstream/18.0
@@ -9008,7 +9274,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "使用此付款方式時強制設置客戶並拆分每個客戶的日記帳分錄。它可能會減慢關閉過程。"
+=======
+msgstr ""
+"使用此付款方式時強制設置客戶並拆分每個客戶的日記帳分錄。它可能會減慢關閉過"
+"程。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "使用此付款方式時強制設置客戶並拆分每個客戶的日記帳分錄。它可能會減慢關閉過"
@@ -9385,7 +9657,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果您同時交付所有產品，發貨單將根據最大的產品交貨時間來計劃。否則，它將根據最短的交貨時間。"
+=======
+msgstr ""
+"如果您同時交付所有產品，發貨單將根據最大的產品交貨時間來計劃。否則，它將根據"
+"最短的交貨時間。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果您同時交付所有產品，發貨單將根據最大的產品交貨時間來計劃。否則，它將根據"
@@ -9480,7 +9758,11 @@ msgid "Improve navigation for imprecise industrial touchscreens"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "改善不精確工業用觸摸屏的導航"
+=======
+msgstr "改善不精確觸控螢幕的導航及操作"
+>>>>>>> upstream/18.0
 =======
 msgstr "改善不精確觸控螢幕的導航及操作"
 >>>>>>> upstream/18.0
@@ -9670,7 +9952,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "發票付款：訂單 %(order)s (%(account_move)s)，以 %(payment_method)s 付款"
+=======
+msgstr ""
+"發票付款：訂單 %(order)s (%(account_move)s)，以 %(payment_method)s 付款"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "發票付款：訂單 %(order)s (%(account_move)s)，以 %(payment_method)s 付款"
@@ -9771,7 +10058,11 @@ msgid "IoT Box"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "IoT 盒子"
+=======
+msgstr "IoT Box"
+>>>>>>> upstream/18.0
 =======
 msgstr "IoT Box"
 >>>>>>> upstream/18.0
@@ -9921,7 +10212,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "禁止修改未過帳的POS訂單中使用的稅金。在修改稅金之前, 必須關閉POS營業點。"
+=======
+msgstr ""
+"禁止修改未過帳的POS訂單中使用的稅金。在修改稅金之前, 必須關閉POS營業點。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "禁止修改未過帳的POS訂單中使用的稅金。在修改稅金之前, 必須關閉POS營業點。"
@@ -10086,7 +10382,11 @@ msgid "Large Scrollbars"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "大滾動條"
+=======
+msgstr "加大捲軸"
+>>>>>>> upstream/18.0
 =======
 msgstr "加大捲軸"
 >>>>>>> upstream/18.0
@@ -10245,7 +10545,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Overrides the company's receivable account (for Point of Sale) used in the journal entries."
+=======
+"Overrides the company's receivable account (for Point of Sale) used in the "
+"journal entries."
+>>>>>>> upstream/18.0
 =======
 "Overrides the company's receivable account (for Point of Sale) used in the "
 "journal entries."
@@ -10324,6 +10629,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines the journal where to book the accumulated payments (or individual payment if Identify Customer is true) after closing the session.\n"
 "For cash journal, we directly write to the default account in the journal via statement lines.\n"
 "For bank journal, we write to the outstanding account specified in this payment method.\n"
@@ -10332,6 +10638,8 @@ msgstr ""
 "留空使用客戶的應收賬款。\n"
 "定義在結束營業點後在何處記錄累計付款（或個人付款，如果識別客戶為真）的日記帳。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10379,6 +10687,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10515,6 +10826,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Make several pricelists available in the Point of Sale. You can also apply a"
 " pricelist to specific customers from their contact form (in Sales tab). To "
 "be valid, this pricelist must be listed here as an available pricelist. "
@@ -10522,6 +10834,8 @@ msgid ""
 msgstr ""
 "使多個價目表可用於POS。您還可以將價目表應用於來自其聯絡人表單(在「銷售」選項卡中)的特定客戶。為使此價目表有效，必須將其在此處列出作為可用價目表。否則，將應用預設價目表。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10566,6 +10880,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10611,7 +10928,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請確保你的 Odoo 資料庫有 IoT Box 物聯網盒子的訂閱計劃，然後重新啟動 IoT Box。"
+=======
+msgstr ""
+"請確保你的 Odoo 資料庫有 IoT Box 物聯網盒子的訂閱計劃，然後重新啟動 IoT Box。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "請確保你的 Odoo 資料庫有 IoT Box 物聯網盒子的訂閱計劃，然後重新啟動 IoT Box。"
@@ -10718,7 +11040,11 @@ msgid "Margin:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "邊距:"
+=======
+msgstr "利潤："
+>>>>>>> upstream/18.0
 =======
 msgstr "利潤："
 >>>>>>> upstream/18.0
@@ -11039,8 +11365,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No chart of account configured, go to the \"configuration / settings\" menu,"
 " and install one from the Invoicing tab."
+=======
+"No chart of account configured, go to the \"configuration / settings\" menu, "
+"and install one from the Invoicing tab."
+>>>>>>> upstream/18.0
 =======
 "No chart of account configured, go to the \"configuration / settings\" menu, "
 "and install one from the Invoicing tab."
@@ -11212,7 +11543,11 @@ msgid "Note Models"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "備註模型"
+=======
+msgstr "備註預設選項"
+>>>>>>> upstream/18.0
 =======
 msgstr "備註預設選項"
 >>>>>>> upstream/18.0
@@ -11419,7 +11754,11 @@ msgid "Only on cash methods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "僅限現金方式"
+=======
+msgstr "只套用至現金付款訂單"
+>>>>>>> upstream/18.0
 =======
 msgstr "只套用至現金付款訂單"
 >>>>>>> upstream/18.0
@@ -11560,7 +11899,11 @@ msgid "Opening Balance Eg: 123"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "開始時結餘，例：123"
+=======
+msgstr "開店時結餘，例：123"
+>>>>>>> upstream/18.0
 =======
 msgstr "開店時結餘，例：123"
 >>>>>>> upstream/18.0
@@ -11695,7 +12038,11 @@ msgid "Opening note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "開始備註"
+=======
+msgstr "開店備註"
+>>>>>>> upstream/18.0
 =======
 msgstr "開店備註"
 >>>>>>> upstream/18.0
@@ -11854,7 +12201,10 @@ msgstr "訂單號碼"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11897,6 +12247,9 @@ msgstr "訂單已過期"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11949,7 +12302,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            order updates in the kitchen/bar when the waiter updates the order."
+=======
+"            order updates in the kitchen/bar when the waiter updates the "
+"order."
+>>>>>>> upstream/18.0
 =======
 "            order updates in the kitchen/bar when the waiter updates the "
 "order."
@@ -12215,7 +12573,11 @@ msgid "POS Session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "POS營業點"
+=======
+msgstr "POS 操作時段"
+>>>>>>> upstream/18.0
 =======
 msgstr "POS 操作時段"
 >>>>>>> upstream/18.0
@@ -12399,7 +12761,11 @@ msgid "PayTM Payment Terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "PayTM 支付終端"
+=======
+msgstr "PayTM 付款終端機"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayTM 付款終端機"
 >>>>>>> upstream/18.0
@@ -12537,7 +12903,11 @@ msgid "Payment Terminals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "支付終端"
+=======
+msgstr "付款終端機"
+>>>>>>> upstream/18.0
 =======
 msgstr "付款終端機"
 >>>>>>> upstream/18.0
@@ -12615,7 +12985,11 @@ msgid "Payment methods available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "可用支付方式"
+=======
+msgstr "可用付款方式"
+>>>>>>> upstream/18.0
 =======
 msgstr "可用付款方式"
 >>>>>>> upstream/18.0
@@ -12819,11 +13193,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
 msgstr ""
 "請檢查打印機是否仍然連接。\n"
 "某些瀏覽器不允許從網站到網絡設備的 HTTP 調用（出於安全原因）。如果是這種情況，您需要按照Odoo文檔中的 \"ePOS 打印機自簽名證書 \"和 \"安全連接 (HTTPS) \"來解決問題."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12869,6 +13246,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12920,7 +13300,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please close and validate the following open PoS Sessions before modifying this payment method.\n"
+=======
+"Please close and validate the following open PoS Sessions before modifying "
+"this payment method.\n"
+>>>>>>> upstream/18.0
 =======
 "Please close and validate the following open PoS Sessions before modifying "
 "this payment method.\n"
@@ -12994,8 +13379,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please create/select a Point of Sale above to show the configuration "
 "options."
+=======
+"Please create/select a Point of Sale above to show the configuration options."
+>>>>>>> upstream/18.0
 =======
 "Please create/select a Point of Sale above to show the configuration options."
 >>>>>>> upstream/18.0
@@ -13094,6 +13483,7 @@ msgstr "請提供銷售的業務夥伴。"
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13430,6 +13820,10 @@ msgstr "請登記優惠券號碼"
 #: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
 >>>>>>> upstream/18.0
+=======
+#: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
+>>>>>>> upstream/18.0
 msgid "Please scan the QR code with %s"
 msgstr "請以 %s 掃瞄二維碼"
 
@@ -13666,7 +14060,11 @@ msgid "Point of Sale Order Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "POS營業點訂單明細"
+=======
+msgstr "銷售點訂單資料行"
+>>>>>>> upstream/18.0
 =======
 msgstr "銷售點訂單資料行"
 >>>>>>> upstream/18.0
@@ -13935,7 +14333,11 @@ msgid "Point of Sale Session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "POS營業點"
+=======
+msgstr "POS 操作時段"
+>>>>>>> upstream/18.0
 =======
 msgstr "POS 操作時段"
 >>>>>>> upstream/18.0
@@ -14184,7 +14586,11 @@ msgid "Pos Session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "POS營業點"
+=======
+msgstr "POS 操作時段"
+>>>>>>> upstream/18.0
 =======
 msgstr "POS 操作時段"
 >>>>>>> upstream/18.0
@@ -14356,7 +14762,11 @@ msgid "Pos Sessions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "POS營業點"
+=======
+msgstr "POS 操作時段"
+>>>>>>> upstream/18.0
 =======
 msgstr "POS 操作時段"
 >>>>>>> upstream/18.0
@@ -14540,7 +14950,11 @@ msgid "Preparation Printers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "準備工作打印機"
+=======
+msgstr "廚房單打印機"
+>>>>>>> upstream/18.0
 =======
 msgstr "廚房單打印機"
 >>>>>>> upstream/18.0
@@ -14777,7 +15191,11 @@ msgid "Print orders at the kitchen, at the bar, etc."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "列印廚房、酒吧等的訂單."
+=======
+msgstr "在廚房、酒吧、水吧等列印訂單"
+>>>>>>> upstream/18.0
 =======
 msgstr "在廚房、酒吧、水吧等列印訂單"
 >>>>>>> upstream/18.0
@@ -14874,7 +15292,11 @@ msgid "Print receipts automatically once the payment is registered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "註冊付款後自動列印收據"
+=======
+msgstr "付款確認後，自動列印收據"
+>>>>>>> upstream/18.0
 =======
 msgstr "付款確認後，自動列印收據"
 >>>>>>> upstream/18.0
@@ -15079,7 +15501,11 @@ msgid "Product Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "產品說明"
+=======
+msgstr "產品描述"
+>>>>>>> upstream/18.0
 =======
 msgstr "產品描述"
 >>>>>>> upstream/18.0
@@ -15389,6 +15815,10 @@ msgstr "紫色"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -15890,7 +16320,11 @@ msgid "Replenishment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "重訂貨規則"
+=======
+msgstr "補貨規則"
+>>>>>>> upstream/18.0
 =======
 msgstr "補貨規則"
 >>>>>>> upstream/18.0
@@ -16028,10 +16462,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reversal of POS closing entry %(entry)s for order %(order)s from session "
 "%(session)s"
 msgstr "撤回銷售點結算記項 %(entry)s，相關訂單：%(order)s，操作時段：%(session)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16072,6 +16509,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16206,7 +16646,11 @@ msgid "SMS Enabled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "已啟用簡訊"
+=======
+msgstr "啟用 SMS 電話短訊"
+>>>>>>> upstream/18.0
 =======
 msgstr "啟用 SMS 電話短訊"
 >>>>>>> upstream/18.0
@@ -16353,7 +16797,11 @@ msgid "Sample Opening Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "開始備註範例"
+=======
+msgstr "開店備註範例"
+>>>>>>> upstream/18.0
 =======
 msgstr "開店備註範例"
 >>>>>>> upstream/18.0
@@ -16456,7 +16904,11 @@ msgid "Save this page and come back here to set up the feature."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "儲存這個頁面並返回來設定這個特性。"
+=======
+msgstr "請儲存變更，然後返回此處，進一步設定功能。"
+>>>>>>> upstream/18.0
 =======
 msgstr "請儲存變更，然後返回此處，進一步設定功能。"
 >>>>>>> upstream/18.0
@@ -16798,7 +17250,11 @@ msgid "Set Maximum Difference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "設置最大差異"
+=======
+msgstr "設定差額上限"
+>>>>>>> upstream/18.0
 =======
 msgstr "設定差額上限"
 >>>>>>> upstream/18.0
@@ -16865,6 +17321,7 @@ msgstr "設定差額上限"
 msgid ""
 "Set a maximum difference allowed between the expected and counted money "
 "during the closing of the session"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16972,6 +17429,11 @@ msgstr ""
 "設定系統計算的預期現金金額，與關店時點算所得的實際金額，兩者之間可以存在的最"
 "大差額"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"設定系統計算的預期現金金額，與關店時點算所得的實際金額，兩者之間可以存在的最"
+"大差額"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__set_maximum_difference
@@ -16979,6 +17441,7 @@ msgstr ""
 msgid ""
 "Set a maximum difference allowed between the expected and counted money "
 "during the closing of the session."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17020,6 +17483,11 @@ msgstr "設定系統計算的預期現金金額，與關店時點算所得的實
 >>>>>>> upstream/18.0
 =======
 msgstr "設定系統計算的預期現金金額，與關店時點算所得的實際金額，兩者之間可以存在的最大差額。"
+>>>>>>> upstream/18.0
+=======
+msgstr ""
+"設定系統計算的預期現金金額，與關店時點算所得的實際金額，兩者之間可以存在的最"
+"大差額。"
 >>>>>>> upstream/18.0
 =======
 msgstr ""
@@ -17300,7 +17768,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "由於設定錯誤，部分訂單無法提交到伺服器. 您可以退出營業點，但在問題解決之前不要關閉營業點."
+=======
+msgstr ""
+"由於設定錯誤，部分訂單無法提交到伺服器. 您可以退出營業點，但在問題解決之前不"
+"要關閉營業點."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "由於設定錯誤，部分訂單無法提交到伺服器. 您可以退出營業點，但在問題解決之前不"
@@ -17387,7 +17861,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "由於網際網路連接問題，某些訂單無法提交到伺服器. 您可以退出POS終端，但在問題解決之前不要關閉營業點."
+=======
+msgstr ""
+"由於網際網路連接問題，某些訂單無法提交到伺服器. 您可以退出POS終端，但在問題解"
+"決之前不要關閉營業點."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "由於網際網路連接問題，某些訂單無法提交到伺服器. 您可以退出POS終端，但在問題解"
@@ -17599,7 +18079,11 @@ msgid "Stripe Payment Terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stripe支付終端"
+=======
+msgstr "Stripe 付款終端機"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stripe 付款終端機"
 >>>>>>> upstream/18.0
@@ -17865,7 +18349,11 @@ msgid "Tel:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "電話:"
+=======
+msgstr "電話："
+>>>>>>> upstream/18.0
 =======
 msgstr "電話："
 >>>>>>> upstream/18.0
@@ -17965,7 +18453,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "營業點僅支持“增加捨入明細”捨入策略."
+=======
+msgstr "此銷售點只支援「新增捨入資料行」捨入政策。"
+>>>>>>> upstream/18.0
 =======
 msgstr "此銷售點只支援「新增捨入資料行」捨入政策。"
 >>>>>>> upstream/18.0
@@ -18058,9 +18550,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The amount of your payment lines must be rounded to validate the transaction.\n"
 "The rounding precision is %s so you should set %s as payment amount instead of %s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18101,6 +18596,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18235,7 +18733,10 @@ msgstr "付款卡品牌（例：Visa、美國運通⋯）"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18531,6 +19032,9 @@ msgstr "營業點 %(pos)s 的現金舍入策略必須是：“%(value)s”"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18752,8 +19256,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The default tip product is missing. Please manually specify the tip product."
 " (See Tips field.)"
+=======
+"The default tip product is missing. Please manually specify the tip product. "
+"(See Tips field.)"
+>>>>>>> upstream/18.0
 =======
 "The default tip product is missing. Please manually specify the tip product. "
 "(See Tips field.)"
@@ -18837,7 +19346,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "原始訂單中使用的財務狀況未載入,請確保通過在 POS 配置中添加該財務狀況來加載它。"
+=======
+msgstr ""
+"原始訂單中使用的財務狀況未載入,請確保通過在 POS 配置中添加該財務狀況來加載"
+"它。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "原始訂單中使用的財務狀況未載入,請確保通過在 POS 配置中添加該財務狀況來加載"
@@ -18929,8 +19444,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The invoice journal must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
+=======
+"The invoice journal must be in the same currency as the Sales Journal or the "
+"company currency if that is not set."
+>>>>>>> upstream/18.0
 =======
 "The invoice journal must be in the same currency as the Sales Journal or the "
 "company currency if that is not set."
@@ -19012,8 +19532,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The money counted doesn't match what we expected. Want to log the difference"
 " for the books?"
+=======
+"The money counted doesn't match what we expected. Want to log the difference "
+"for the books?"
+>>>>>>> upstream/18.0
 =======
 "The money counted doesn't match what we expected. Want to log the difference "
 "for the books?"
@@ -19106,7 +19631,10 @@ msgstr "因為未知錯誤，訂單不能發送到伺服器"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19157,6 +19685,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19225,10 +19756,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "selected category trees. If no category is specified, all available products"
 " will be shown"
 msgstr "營業點將僅顯示所選類別樹之一內的產品。 如果未指定類別，將顯示所有可用產品"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19269,6 +19803,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19325,8 +19862,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The pricelist used if no customer is selected or if the customer has no Sale"
 " Pricelist configured if any."
+=======
+"The pricelist used if no customer is selected or if the customer has no Sale "
+"Pricelist configured if any."
+>>>>>>> upstream/18.0
 =======
 "The pricelist used if no customer is selected or if the customer has no Sale "
 "Pricelist configured if any."
@@ -19427,8 +19969,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The requested quantity to be refunded is higher than the refundable "
 "quantity."
+=======
+"The requested quantity to be refunded is higher than the refundable quantity."
+>>>>>>> upstream/18.0
 =======
 "The requested quantity to be refunded is higher than the refundable quantity."
 >>>>>>> upstream/18.0
@@ -19510,7 +20056,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "時段已被另一用戶關閉,在此期間完成的所有銷售已保存在救援時段中，可以隨時查看，並從銷售點Dashboard過賬至會計應用程式。"
+=======
+msgstr ""
+"時段已被另一用戶關閉,在此期間完成的所有銷售已保存在救援時段中，可以隨時查看，"
+"並從銷售點Dashboard過賬至會計應用程式。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "時段已被另一用戶關閉,在此期間完成的所有銷售已保存在救援時段中，可以隨時查看，"
@@ -19600,8 +20152,12 @@ msgstr "營業點開了很長一段時間。請考慮關閉。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The session is being closed by another user. The page will be reloaded."
+=======
+msgid "The session is being closed by another user. The page will be reloaded."
+>>>>>>> upstream/18.0
 =======
 msgid "The session is being closed by another user. The page will be reloaded."
 >>>>>>> upstream/18.0
@@ -19674,7 +20230,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "交易由 Mercado Pago 處理。請在相關付款方式上，設定你的 Mercado Pago 登入資訊。"
+=======
+msgstr ""
+"交易由 Mercado Pago 處理。請在相關付款方式上，設定你的 Mercado Pago 登入資"
+"訊。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "交易由 Mercado Pago 處理。請在相關付款方式上，設定你的 Mercado Pago 登入資"
@@ -19766,8 +20328,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Razorpay. Set your Razorpay credentials on"
 " the related payment method."
+=======
+"The transactions are processed by Razorpay. Set your Razorpay credentials on "
+"the related payment method."
+>>>>>>> upstream/18.0
 =======
 "The transactions are processed by Razorpay. Set your Razorpay credentials on "
 "the related payment method."
@@ -19839,8 +20406,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Six. Set the IP address of the terminal on"
 " the related payment method."
+=======
+"The transactions are processed by Six. Set the IP address of the terminal on "
+"the related payment method."
+>>>>>>> upstream/18.0
 =======
 "The transactions are processed by Six. Set the IP address of the terminal on "
 "the related payment method."
@@ -19912,8 +20484,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Stripe. Set your Stripe credentials on the"
 " related payment method."
+=======
+"The transactions are processed by Stripe. Set your Stripe credentials on the "
+"related payment method."
+>>>>>>> upstream/18.0
 =======
 "The transactions are processed by Stripe. Set your Stripe credentials on the "
 "related payment method."
@@ -20008,7 +20585,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There are still orders in draft state in the session. Pay or cancel the following orders to validate the session:\n"
+=======
+"There are still orders in draft state in the session. Pay or cancel the "
+"following orders to validate the session:\n"
+>>>>>>> upstream/18.0
 =======
 "There are still orders in draft state in the session. Pay or cancel the "
 "following orders to validate the session:\n"
@@ -20105,10 +20687,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There is no cash payment method available in this point of sale to handle the change.\n"
 "\n"
 " Please pay the exact amount or add a cash payment method in the point of sale configuration"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20150,6 +20735,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20211,7 +20799,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "所選產品沒有序號/批次號碼，而且不允許在 POS 銷售點管理應用程式建立它們。"
+=======
+msgstr ""
+"所選產品沒有序號/批次號碼，而且不允許在 POS 銷售點管理應用程式建立它們。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "所選產品沒有序號/批次號碼，而且不允許在 POS 銷售點管理應用程式建立它們。"
@@ -20307,6 +20900,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This field depicts the maximum difference allowed between the ending balance"
 " and the theoretical cash when closing a session, for non-POS managers. If "
 "this maximum is reached, the user will have an error message at the closing "
@@ -20314,6 +20908,8 @@ msgid ""
 msgstr ""
 "對於非POS經理，在關閉營業點時此欄位描述期末餘額和理論現金之間所允許的最大區別。如達到最大時，使用者在關閉營業點時將收到一個錯誤訊息需要使用者聯繫其經理。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20358,6 +20954,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20420,8 +21019,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is useful for restaurants with onsite and take-away services that imply"
 " specific tax rates."
+=======
+"This is useful for restaurants with onsite and take-away services that imply "
+"specific tax rates."
+>>>>>>> upstream/18.0
 =======
 "This is useful for restaurants with onsite and take-away services that imply "
 "specific tax rates."
@@ -20503,8 +21107,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "此日記賬已與付款方式 %(payment_method)s 相關聯，該付款方式由訂單 %(pos_order)s "
 "所使用，相關的生效銷售點操作時段：%(pos_session)s"
+=======
+"此日記賬已與付款方式 %(payment_method)s 相關聯，該付款方式由訂單 %"
+"(pos_order)s 所使用，相關的生效銷售點操作時段：%(pos_session)s"
+>>>>>>> upstream/18.0
 =======
 "此日記賬已與付款方式 %(payment_method)s 相關聯，該付款方式由訂單 %"
 "(pos_order)s 所使用，相關的生效銷售點操作時段：%(pos_session)s"
@@ -20577,7 +21186,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                } orders in the browser. You will lose all the data. This operation cannot be undone."
+=======
+"                } orders in the browser. You will lose all the data. This "
+"operation cannot be undone."
+>>>>>>> upstream/18.0
 =======
 "                } orders in the browser. You will lose all the data. This "
 "operation cannot be undone."
@@ -20641,6 +21255,7 @@ msgstr ""
 msgid ""
 "This order already has refund lines for %s. We can't change the customer "
 "associated to it. Create a new order for the new customer."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21176,6 +21791,8 @@ msgstr "此訂單已經完成付款，不可編輯或還原為草稿。"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "此訂單已有 %s 的退款項目。我們無法更改與其關聯的客戶。為新客戶建立新訂單。"
 
@@ -21199,6 +21816,9 @@ msgstr "此訂單已經完成付款，不可編輯或還原為草稿。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21367,12 +21987,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Deleting a product available in a session would be like attempting to snatch a hamburger from a customer’s hand mid-bite; chaos will ensue as ketchup and mayo go flying everywhere!"
 msgstr ""
 "若要刪除產品，請確保所有銷售點操作時段都已關閉。\n"
 "\n"
 "刪除在操作時段中仍然可用的產品，就像試圖從顧客手中，搶走咬了一半的漢堡包一樣，會引起大混亂！"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21417,6 +22040,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21636,7 +22262,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please set corresponding tax account in each repartition line of the following taxes: \n"
+=======
+"Please set corresponding tax account in each repartition line of the "
+"following taxes: \n"
+>>>>>>> upstream/18.0
 =======
 "Please set corresponding tax account in each repartition line of the "
 "following taxes: \n"
@@ -21932,7 +22563,11 @@ msgid "Viva Wallet Payment Terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Viva Wallet支付終端"
+=======
+msgstr "Viva Wallet 付款終端機"
+>>>>>>> upstream/18.0
 =======
 msgstr "Viva Wallet 付款終端機"
 >>>>>>> upstream/18.0
@@ -22071,7 +22706,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "若啟用，將根據產品螢幕的訂單購物車中的產品類別及順序，將訂單資料行排序。"
+=======
+msgstr ""
+"若啟用，將根據產品螢幕的訂單購物車中的產品類別及順序，將訂單資料行排序。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "若啟用，將根據產品螢幕的訂單購物車中的產品類別及順序，將訂單資料行排序。"
@@ -22155,10 +22795,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "accounting journal for all the orders not invoiced. Invoices are recorded in"
 " accounting separately."
 msgstr "無論何時關閉營業點，都會在所有未開立憑單訂單的以下會計日記帳中產生一個分錄。應收憑單在會計中單獨記錄。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22200,6 +22843,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22302,7 +22948,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are trying to sell products with serial/lot numbers, but some of them are not set.\n"
+=======
+"You are trying to sell products with serial/lot numbers, but some of them "
+"are not set.\n"
+>>>>>>> upstream/18.0
 =======
 "You are trying to sell products with serial/lot numbers, but some of them "
 "are not set.\n"
@@ -22403,8 +23054,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "您不能：從後端界面創建 pos 訂單，或取消設置價目表，或使用表單工具在 python 測試中創建 "
 "pos.order，或者在工作室中編輯表單視圖（如果不存在 PoS訂單）"
+=======
+"您不能：從後端界面創建 pos 訂單，或取消設置價目表，或使用表單工具在 python 測"
+"試中創建 pos.order，或者在工作室中編輯表單視圖（如果不存在 PoS訂單）"
+>>>>>>> upstream/18.0
 =======
 "您不能：從後端界面創建 pos 訂單，或取消設置價目表，或使用表單工具在 python 測"
 "試中創建 pos.order，或者在工作室中編輯表單視圖（如果不存在 PoS訂單）"
@@ -22475,8 +23131,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot archive '%(picking_type)s' as it is used by POS configuration "
 "'%(config)s'."
+=======
+"You cannot archive '%(picking_type)s' as it is used by POS configuration '%"
+"(config)s'."
+>>>>>>> upstream/18.0
 =======
 "You cannot archive '%(picking_type)s' as it is used by POS configuration '%"
 "(config)s'."
@@ -22647,7 +23308,10 @@ msgstr "您無法在營業點仍處於打開狀態時刪除營業點類別."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22890,6 +23554,9 @@ msgstr "你不可刪除銷售點配置所使用的捨入方式。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23059,6 +23726,7 @@ msgstr "不可為屬於不同公司的訂單開立發票。"
 
 #. module: point_of_sale
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23353,6 +24021,8 @@ msgstr "你不可刪除銷售點配置所使用的捨入方式。"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 "You cannot share open orders with configuration that does not use the same "
@@ -23400,7 +24070,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "你已為 %(payment_method)s 付款方式啟用「識別客戶」選項，但訂單 %(order)s 內沒有客戶。"
+=======
+msgstr ""
+"你已為 %(payment_method)s 付款方式啟用「識別客戶」選項，但訂單 %(order)s 內沒"
+"有客戶。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "你已為 %(payment_method)s 付款方式啟用「識別客戶」選項，但訂單 %(order)s 內沒"
@@ -23497,7 +24173,11 @@ msgid "You must have 'Administration Settings' access to load clothes data."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "你必須擁有「系統管理設定」權限，才可載入服裝資料。"
+>>>>>>> upstream/18.0
 =======
 msgstr "你必須擁有「系統管理設定」權限，才可載入服裝資料。"
 >>>>>>> upstream/18.0
@@ -23555,7 +24235,11 @@ msgid "You must have 'Administration Settings' access to load furniture data."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "你必須擁有「系統管理設定」權限，才可載入家具資料。"
+>>>>>>> upstream/18.0
 =======
 msgstr "你必須擁有「系統管理設定」權限，才可載入家具資料。"
 >>>>>>> upstream/18.0
@@ -23628,10 +24312,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You must set the iot box's IP address to use an IoT-connected screen. You'll"
 " find the field under the 'IoT Box' option."
 msgstr "你必須設定 IoT Box 物聯網盒子的 IP 位址，才可使用連接至物聯網的螢幕。你可在 IoT Box 選項下找到該欄位。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23673,6 +24360,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23753,7 +24443,11 @@ msgid "available,"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "可用,"
+=======
+msgstr "可用，"
+>>>>>>> upstream/18.0
 =======
 msgstr "可用，"
 >>>>>>> upstream/18.0
@@ -23883,12 +24577,15 @@ msgstr "折扣"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. 0123456789"
 msgstr "例：0123456789"
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24127,12 +24824,15 @@ msgstr "例如 一般飲料"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. john.doe@mail.com"
 msgstr "例：john.doe@mail.com"
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24482,6 +25182,7 @@ msgstr "使用"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -24611,6 +25312,11 @@ msgstr "{{ line.has_valid_product_lot() ? '產品批次有效' : '產品批次�
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+#~ msgid "Please register the voucher number"
+#~ msgstr "請登記優惠券號碼"
 >>>>>>> upstream/18.0
 =======
 

@@ -74,6 +74,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { registry } from "@web/core/registry";
+>>>>>>> upstream/18.0
 =======
 import { registry } from "@web/core/registry";
 >>>>>>> upstream/18.0
@@ -376,6 +380,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+// First part of the tour
+>>>>>>> upstream/18.0
 =======
 // First part of the tour
 >>>>>>> upstream/18.0
@@ -685,11 +693,14 @@ registerWebsitePreviewTour(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // -- Testing the minimum amount --
         {
             content: "Enter a negative custom amount, testing the minimum amount",
             trigger: ":iframe #s_donation_amount_input",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -919,6 +930,9 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1144,7 +1158,11 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe .s_donation_donate_btn",
+=======
+            trigger: ".s_donation_donate_btn",
+>>>>>>> upstream/18.0
 =======
             trigger: ".s_donation_donate_btn",
 >>>>>>> upstream/18.0
@@ -1445,7 +1463,11 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe p.alert-danger",
+=======
+            trigger: "p.alert-danger",
+>>>>>>> upstream/18.0
 =======
             trigger: "p.alert-danger",
 >>>>>>> upstream/18.0
@@ -1746,7 +1768,11 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe #s_donation_amount_input",
+=======
+            trigger: "#s_donation_amount_input",
+>>>>>>> upstream/18.0
 =======
             trigger: "#s_donation_amount_input",
 >>>>>>> upstream/18.0
@@ -1973,6 +1999,7 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
         },
         {
             content: "Donate with custom amount set",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2383,6 +2410,8 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             trigger: ".s_donation_donate_btn",
             run: "click",
             expectUnloadPage: true,
@@ -2418,6 +2447,9 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2559,6 +2591,9 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2710,6 +2745,7 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
         },
         {
             content: "Verify that amount_1 is checked",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2940,6 +2976,8 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             trigger: "input#amount_1:checked",
         },
         {
@@ -3022,6 +3060,9 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3247,7 +3288,11 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe input#other_amount",
+=======
+            trigger: "input#other_amount",
+>>>>>>> upstream/18.0
 =======
             trigger: "input#other_amount",
 >>>>>>> upstream/18.0
@@ -3548,6 +3593,7 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe button[name='o_payment_submit_button']",
             run: "click",
         },
@@ -3739,6 +3785,8 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             trigger: "button[name='o_payment_submit_button']",
             run: "click",
             expectUnloadPage: true,
@@ -3774,6 +3822,9 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3906,6 +3957,9 @@ registry.category('web_tour.tours').add('donation_snippet_use', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

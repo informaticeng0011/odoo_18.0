@@ -87,7 +87,10 @@ class TestTaxesComputation(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -234,6 +237,9 @@ class TestTaxesComputation(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -752,7 +758,10 @@ class TestTaxesComputation(TestTaxCommon):
         self._run_js_tests()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_batch_for_taxes_computation(self):
         tax_percent_5 = self.percent_tax(5.0)
         tax_percent_10 = self.percent_tax(10.0)
@@ -826,6 +835,9 @@ class TestTaxesComputation(TestTaxCommon):
         )
         self._run_js_tests()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_fixed_tax_price_included_affect_base_on_0(self):
         tax = self.fixed_tax(0.05, price_include_override='tax_included', include_base_amount=True)

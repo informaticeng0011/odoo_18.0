@@ -349,7 +349,11 @@ class Field(MetaField('DummyField', (object,), {}), typing.Generic[T]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     args = None                         # the parameters given to __init__()
+=======
+    _args__ = None                      # the parameters given to __init__()
+>>>>>>> upstream/18.0
 =======
     _args__ = None                      # the parameters given to __init__()
 >>>>>>> upstream/18.0
@@ -678,7 +682,11 @@ class Field(MetaField('DummyField', (object,), {}), typing.Generic[T]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.args = {key: val for key, val in kwargs.items() if val is not SENTINEL}
+=======
+        self.args = self._args__ = {key: val for key, val in kwargs.items() if val is not SENTINEL}
+>>>>>>> upstream/18.0
 =======
         self.args = self._args__ = {key: val for key, val in kwargs.items() if val is not SENTINEL}
 >>>>>>> upstream/18.0
@@ -973,7 +981,11 @@ class Field(MetaField('DummyField', (object,), {}), typing.Generic[T]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     # The dictionary field.args gives the parameters passed to the field's
+=======
+    # The dictionary field._args__ gives the parameters passed to the field's
+>>>>>>> upstream/18.0
 =======
     # The dictionary field._args__ gives the parameters passed to the field's
 >>>>>>> upstream/18.0
@@ -1259,7 +1271,11 @@ class Field(MetaField('DummyField', (object,), {}), typing.Generic[T]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     # In order to save memory, a field should avoid having field.args and/or
+=======
+    # In order to save memory, a field should avoid having field._args__ and/or
+>>>>>>> upstream/18.0
 =======
     # In order to save memory, a field should avoid having field._args__ and/or
 >>>>>>> upstream/18.0
@@ -1543,7 +1559,11 @@ class Field(MetaField('DummyField', (object,), {}), typing.Generic[T]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     # after that.  Those fields can save memory by discarding field.args and
+=======
+    # after that.  Those fields can save memory by discarding field._args__ and
+>>>>>>> upstream/18.0
 =======
     # after that.  Those fields can save memory by discarding field._args__ and
 >>>>>>> upstream/18.0
@@ -1825,9 +1845,15 @@ class Field(MetaField('DummyField', (object,), {}), typing.Generic[T]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     # setup is useless, because only field.args is used for setting up other
     # fields.  We therefore skip the base setup for those fields.  The only
     # attributes of those fields are: '_sequence', 'args', 'model_name', 'name'
+=======
+    # setup is useless, because only field._args__ is used for setting up other
+    # fields.  We therefore skip the base setup for those fields.  The only
+    # attributes of those fields are: '_sequence', '_args__', 'model_name', 'name'
+>>>>>>> upstream/18.0
 =======
     # setup is useless, because only field._args__ is used for setting up other
     # fields.  We therefore skip the base setup for those fields.  The only
@@ -2258,7 +2284,11 @@ class Field(MetaField('DummyField', (object,), {}), typing.Generic[T]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not self.args.get('related'):
+=======
+        if not self._args__.get('related'):
+>>>>>>> upstream/18.0
 =======
         if not self._args__.get('related'):
 >>>>>>> upstream/18.0
@@ -2539,8 +2569,13 @@ class Field(MetaField('DummyField', (object,), {}), typing.Generic[T]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # free memory, self.args and self._base_fields are no longer useful
                 self.__dict__.pop('args', None)
+=======
+                # free memory, self._args__ and self._base_fields are no longer useful
+                self.__dict__.pop('_args__', None)
+>>>>>>> upstream/18.0
 =======
                 # free memory, self._args__ and self._base_fields are no longer useful
                 self.__dict__.pop('_args__', None)
@@ -2897,7 +2932,11 @@ class Field(MetaField('DummyField', (object,), {}), typing.Generic[T]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for field in self.args.get('_base_fields', ()):
+=======
+        for field in self._args__.get('_base_fields', ()):
+>>>>>>> upstream/18.0
 =======
         for field in self._args__.get('_base_fields', ()):
 >>>>>>> upstream/18.0
@@ -3180,6 +3219,7 @@ class Field(MetaField('DummyField', (object,), {}), typing.Generic[T]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             attrs.update(field.args)
             if field._module:
                 modules.append(field._module)
@@ -3189,6 +3229,8 @@ class Field(MetaField('DummyField', (object,), {}), typing.Generic[T]):
 
         attrs['args'] = self.args
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3401,6 +3443,9 @@ class Field(MetaField('DummyField', (object,), {}), typing.Generic[T]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3669,7 +3714,11 @@ class Field(MetaField('DummyField', (object,), {}), typing.Generic[T]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         extra_keys = [key for key in attrs if not hasattr(self, key)]
+=======
+        extra_keys = tuple(key for key in attrs if not hasattr(self, key))
+>>>>>>> upstream/18.0
 =======
         extra_keys = tuple(key for key in attrs if not hasattr(self, key))
 >>>>>>> upstream/18.0
@@ -5348,8 +5397,11 @@ class _String(Field[str | typing.Literal[False]]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             cache.update_raw(records, self, [{lang: cache_value} for _id in records._ids], dirty=False)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5392,6 +5444,9 @@ class _String(Field[str | typing.Literal[False]]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6056,7 +6111,10 @@ class Binary(Field):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6098,6 +6156,9 @@ class Binary(Field):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6143,9 +6204,15 @@ class Binary(Field):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Note: the 'bin_size' flag is handled by the field 'datas' itself
         data = {
             att.res_id: att.datas
+=======
+        bin_size = records.env.context.get('bin_size')
+        data = {
+            att.res_id: _encode(human_size(att.file_size)) if bin_size else att.datas
+>>>>>>> upstream/18.0
 =======
         bin_size = records.env.context.get('bin_size')
         data = {
@@ -6553,11 +6620,14 @@ class Selection(Field[str | typing.Literal[False]]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if 'selection' in field.args:
                 if self.related:
                     _logger.warning("%s: selection attribute will be ignored as the field is related", self)
                 selection = field.args['selection']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6766,6 +6836,9 @@ class Selection(Field[str | typing.Literal[False]]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6982,11 +7055,14 @@ class Selection(Field[str | typing.Literal[False]]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if 'selection_add' in field.args:
                 if self.related:
                     _logger.warning("%s: selection_add attribute will be ignored as the field is related", self)
                 selection_add = field.args['selection_add']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7195,6 +7271,9 @@ class Selection(Field[str | typing.Literal[False]]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7407,7 +7486,11 @@ class Selection(Field[str | typing.Literal[False]]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ondelete = field.args.get('ondelete') or {}
+=======
+                ondelete = field._args__.get('ondelete') or {}
+>>>>>>> upstream/18.0
 =======
                 ondelete = field._args__.get('ondelete') or {}
 >>>>>>> upstream/18.0
@@ -7741,6 +7824,7 @@ class Selection(Field[str | typing.Literal[False]]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if 'selection' in field.args:
                 value_modules.clear()
                 if isinstance(field.args['selection'], list):
@@ -7749,6 +7833,8 @@ class Selection(Field[str | typing.Literal[False]]):
             if 'selection_add' in field.args:
                 for value_label in field.args['selection_add']:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7960,6 +8046,9 @@ class Selection(Field[str | typing.Literal[False]]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8274,7 +8363,11 @@ class _Relational(Field[M], typing.Generic[M]):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     f'{self.model_name}.{self.name}'
+=======
+                    self.model_name + '.' + self.name,
+>>>>>>> upstream/18.0
 =======
                     self.model_name + '.' + self.name,
 >>>>>>> upstream/18.0
@@ -8738,10 +8831,13 @@ class Properties(Field):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # make the field computed, and set its dependencies
             self._depends = (self.definition_record, )
             self.compute = self._compute
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8782,6 +8878,9 @@ class Properties(Field):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9021,7 +9120,11 @@ class Properties(Field):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for record in records:
+=======
+        for record in records.sudo():
+>>>>>>> upstream/18.0
 =======
         for record in records.sudo():
 >>>>>>> upstream/18.0

@@ -16,7 +16,11 @@ import { markRaw } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { batched } from "@web/core/utils/timing";
+=======
+import { debounce } from "@web/core/utils/timing";
+>>>>>>> upstream/18.0
 =======
 import { debounce } from "@web/core/utils/timing";
 >>>>>>> upstream/18.0
@@ -110,6 +114,7 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         effect(
             batched((records) => {
                 this.syncDataWithIndexedDB(records);
@@ -117,6 +122,8 @@ export class PosData extends Reactive {
             [this.records]
         );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -158,6 +165,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -416,6 +426,7 @@ export class PosData extends Reactive {
 
         const order = data["pos.order"] || [];
         const orderlines = data["pos.order.line"] || [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -728,6 +739,8 @@ export class PosData extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const payments = data["pos.payment"] || [];
 
         delete data["pos.order"];
@@ -754,6 +767,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -788,6 +804,7 @@ export class PosData extends Reactive {
             order.lines.some((line) => line.is_reward_line && !line.coupon_id)
         );
         for (const order of order_to_delete) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1092,6 +1109,8 @@ export class PosData extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             for (let i = order.lines.length - 1; i >= 0; i--) {
                 order.lines[i].delete();
             }
@@ -1180,6 +1199,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

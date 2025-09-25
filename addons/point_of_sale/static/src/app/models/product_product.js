@@ -270,6 +270,12 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    get variants() {
+        return this.product_tmpl_id?.["<-product.product.product_tmpl_id"];
+    }
+>>>>>>> upstream/18.0
 =======
     get variants() {
         return this.product_tmpl_id?.["<-product.product.product_tmpl_id"];

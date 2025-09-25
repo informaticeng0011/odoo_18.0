@@ -274,10 +274,13 @@ export const useNestedSortable = makeDraggableHook({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!this._isAllowedNodeMove(ctx)) {
                 ctx.current.placeHolder.classList.add("d-none");
                 return;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -568,6 +571,9 @@ export const useNestedSortable = makeDraggableHook({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

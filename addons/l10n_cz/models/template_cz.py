@@ -1,6 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models
+=======
+from odoo import api, models
+>>>>>>> upstream/18.0
 =======
 from odoo import api, models
 >>>>>>> upstream/18.0
@@ -43,7 +47,10 @@ class AccountChartTemplate(models.AbstractModel):
             },
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.model
     def _get_demo_data_move(self, company=False):
@@ -70,4 +77,7 @@ class AccountChartTemplate(models.AbstractModel):
                 if invoice_date := vals.get('invoice_date'):
                     vals['taxable_supply_date'] = invoice_date
         return data
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

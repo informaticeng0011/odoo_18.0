@@ -216,6 +216,7 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         unusual_days = {}
         date_from_date = datetime.strptime(date_from, '%Y-%m-%d %H:%M:%S').date()
         date_to_date = datetime.strptime(date_to, '%Y-%m-%d %H:%M:%S').date() if date_to else None
@@ -270,6 +271,8 @@ class Employee(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
         selected_contracts = employee_contracts.filtered(lambda c: c.state == 'open')
 
@@ -291,6 +294,9 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -418,7 +424,12 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if target_contract:
+=======
+        if target_contract.state == 'open' or \
+            (target_contract.state == 'draft' and target_contract.kanban_state == 'done'):
+>>>>>>> upstream/18.0
 =======
         if target_contract.state == 'open' or \
             (target_contract.state == 'draft' and target_contract.kanban_state == 'done'):
@@ -488,8 +499,14 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if target_contract:
             action['res_id'] = target_contract[0].id
+=======
+        latest_contract = max(target_contract, key=lambda c: (c.create_date, c.id), default=False)
+        if latest_contract:
+            action['res_id'] = latest_contract.id
+>>>>>>> upstream/18.0
 =======
         latest_contract = max(target_contract, key=lambda c: (c.create_date, c.id), default=False)
         if latest_contract:

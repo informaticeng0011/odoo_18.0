@@ -39,11 +39,14 @@ test("Messages are received cross-tab", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await insertText(".o-mail-Composer-input", "Hello World!", { target: env1 });
     await click("button[aria-label='Send']:enabled", { target: env1 });
     await contains(".o-mail-Message-content", { target: env1, text: "Hello World!" });
     await contains(".o-mail-Message-content", { target: env2, text: "Hello World!" });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -84,6 +87,9 @@ test("Messages are received cross-tab", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -138,6 +144,7 @@ test("Delete starred message updates counter", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-Message", { target: env1, text: "Hello World!" });
     await contains(".o-mail-Message", { target: env2, text: "Hello World!" });
     await contains("button", { target: env2, text: "Starred1" });
@@ -146,6 +153,8 @@ test("Delete starred message updates counter", async () => {
     await click("button", { text: "Confirm" }, { target: env2 });
     await contains("button", { count: 0, target: env2, text: "Starred1" });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -189,6 +198,9 @@ test("Delete starred message updates counter", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -240,6 +252,7 @@ test("Thread rename", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await insertText(".o-mail-Discuss-threadName:enabled", "Sales", {
         replace: true,
         target: env1,
@@ -248,6 +261,8 @@ test("Thread rename", async () => {
     await contains(".o-mail-Discuss-threadName[title='Sales']", { target: env2 });
     await contains(".o-mail-DiscussSidebarChannel", { target: env2, text: "Sales" });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -290,6 +305,9 @@ test("Thread rename", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -341,6 +359,7 @@ test("Thread description update", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await insertText(".o-mail-Discuss-threadDescription", "The very best channel", {
         replace: true,
         target: env1,
@@ -350,6 +369,8 @@ test("Thread description update", async () => {
         target: env2,
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -397,6 +418,9 @@ test("Thread description update", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -488,7 +512,13 @@ test("Adding attachments", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard", { target: env2, text: "test.txt" });
+=======
+    await contains(
+        `${env2.selector} .o-mail-AttachmentCard:not(.o-isUploading):contains(test.txt)`
+    );
+>>>>>>> upstream/18.0
 =======
     await contains(
         `${env2.selector} .o-mail-AttachmentCard:not(.o-isUploading):contains(test.txt)`
@@ -587,11 +617,14 @@ test("Remove attachment from message", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard", { target: env1, text: "test.txt" });
     await click(".o-mail-AttachmentCard-unlink", { target: env2 });
     await click(".modal-footer .btn", { text: "Ok", target: env2 });
     await contains(".o-mail-AttachmentCard", { count: 0, target: env1, text: "test.txt" });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -632,6 +665,9 @@ test("Remove attachment from message", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

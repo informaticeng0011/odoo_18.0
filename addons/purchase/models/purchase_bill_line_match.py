@@ -50,6 +50,7 @@ class PurchaseBillMatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     pol_id = fields.Many2one(comodel_name='purchase.order.line')
     aml_id = fields.Many2one(comodel_name='account.move.line')
     company_id = fields.Many2one(comodel_name='res.company')
@@ -64,6 +65,8 @@ class PurchaseBillMatch(models.Model):
     currency_id = fields.Many2one(comodel_name='res.currency')
     state = fields.Char()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -188,6 +191,9 @@ class PurchaseBillMatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -419,14 +425,20 @@ class PurchaseBillMatch(models.Model):
         if not self or not self.aml_id:
             raise UserError(_("Select Vendor Bill lines to add to a Purchase Order"))
 <<<<<<< HEAD
+<<<<<<< HEAD
         context = {
             'default_partner_id': self.partner_id.id,
 =======
+=======
+>>>>>>> upstream/18.0
         partner = self.mapped("partner_id.commercial_partner_id")
         if len(partner) > 1:
             raise UserError(_("Please select bill lines with the same vendor."))
         context = {
             'default_partner_id': partner.id,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'dialog_size': 'medium',
             'has_products': bool(self.aml_id.product_id),

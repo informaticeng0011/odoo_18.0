@@ -317,11 +317,15 @@ class NumberBuffer extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // FIXME POSREF: the `buffer` shouldn't be dependent on the currency.
             this.state.buffer = this.component.env.utils.formatCurrency(
                 inputValue + currentBufferValue,
                 false
             );
+=======
+            this.state.buffer = (inputValue + currentBufferValue).toString();
+>>>>>>> upstream/18.0
 =======
             this.state.buffer = (inputValue + currentBufferValue).toString();
 >>>>>>> upstream/18.0

@@ -3878,8 +3878,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const TRANSLATABLE_ATTRS = ["label", "title", "placeholder", "alt"];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3962,6 +3965,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4691,7 +4697,11 @@
             let codeIdx = this.target.code.length;
             if (isNewBlock) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const n = ast.content.filter((c) => c.type !== 6 /* TSet */).length;
+=======
+                const n = ast.content.filter((c) => !c.hasNoRepresentation).length;
+>>>>>>> upstream/18.0
 =======
                 const n = ast.content.filter((c) => !c.hasNoRepresentation).length;
 >>>>>>> upstream/18.0
@@ -4709,6 +4719,7 @@
             for (let i = 0, l = ast.content.length; i < l; i++) {
                 const child = ast.content[i];
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const isTSet = child.type === 6 /* TSet */;
                 const subCtx = createContext(ctx, {
                     block,
@@ -4719,6 +4730,8 @@
                 this.compileAST(child, subCtx);
                 if (!isTSet) {
 =======
+=======
+>>>>>>> upstream/18.0
                 const forceNewBlock = !child.hasNoRepresentation;
                 const subCtx = createContext(ctx, {
                     block,
@@ -4728,6 +4741,9 @@
                 });
                 this.compileAST(child, subCtx);
                 if (forceNewBlock) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     index++;
                 }
@@ -5169,6 +5185,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             parseTEscNode(node, ctx) ||
             parseTOutNode(node, ctx) ||
             parseTKey(node, ctx) ||
@@ -5297,11 +5314,16 @@
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             parseTTranslation(node, ctx) ||
             parseTTranslationContext(node, ctx) ||
             parseTKey(node, ctx) ||
             parseTEscNode(node, ctx) ||
             parseTOutNode(node, ctx) ||
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             parseTSlot(node, ctx) ||
             parseComponent(node, ctx) ||
@@ -5371,11 +5393,14 @@
         if (node.hasAttribute("t-debug")) {
             node.removeAttribute("t-debug");
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {
                 type: 12 /* TDebug */,
                 content: parseNode(node, ctx),
             };
 =======
+=======
+>>>>>>> upstream/18.0
             const content = parseNode(node, ctx);
             const ast = {
                 type: 12 /* TDebug */,
@@ -5385,11 +5410,15 @@
                 ast.hasNoRepresentation = true;
             }
             return ast;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         if (node.hasAttribute("t-log")) {
             const expr = node.getAttribute("t-log");
             node.removeAttribute("t-log");
+<<<<<<< HEAD
 <<<<<<< HEAD
             return {
                 type: 13 /* TLog */,
@@ -5397,6 +5426,8 @@
                 content: parseNode(node, ctx),
             };
 =======
+=======
+>>>>>>> upstream/18.0
             const content = parseNode(node, ctx);
             const ast = {
                 type: 13 /* TLog */,
@@ -5407,6 +5438,9 @@
                 ast.hasNoRepresentation = true;
             }
             return ast;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         return null;
@@ -5638,12 +5672,15 @@
         const key = node.getAttribute("t-key");
         node.removeAttribute("t-key");
 <<<<<<< HEAD
+<<<<<<< HEAD
         const body = parseNode(node, ctx);
         if (!body) {
             return null;
         }
         return { type: 10 /* TKey */, expr: key, content: body };
 =======
+=======
+>>>>>>> upstream/18.0
         const content = parseNode(node, ctx);
         if (!content) {
             return null;
@@ -5657,6 +5694,9 @@
             ast.hasNoRepresentation = true;
         }
         return ast;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     // -----------------------------------------------------------------------------
@@ -5767,7 +5807,11 @@
             body = parseChildren(node, ctx);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         return { type: 6 /* TSet */, name, value, defaultValue, body };
+=======
+        return { type: 6 /* TSet */, name, value, defaultValue, body, hasNoRepresentation: true };
+>>>>>>> upstream/18.0
 =======
         return { type: 6 /* TSet */, name, value, defaultValue, body, hasNoRepresentation: true };
 >>>>>>> upstream/18.0
@@ -5950,7 +5994,10 @@
     // Translation
     // -----------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     function wrapInTTranslationAST(r) {
         const ast = { type: 16 /* TTranslation */, content: r };
         if (r === null || r === void 0 ? void 0 : r.hasNoRepresentation) {
@@ -5958,6 +6005,9 @@
         }
         return ast;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     function parseTTranslation(node, ctx) {
         if (node.getAttribute("t-translation") !== "off") {
@@ -5965,24 +6015,33 @@
         }
         node.removeAttribute("t-translation");
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             type: 16 /* TTranslation */,
             content: parseNode(node, ctx),
         };
 =======
+=======
+>>>>>>> upstream/18.0
         const result = parseNode(node, ctx);
         if ((result === null || result === void 0 ? void 0 : result.type) === 3 /* Multi */) {
             const children = result.content.map(wrapInTTranslationAST);
             return makeASTMulti(children);
         }
         return wrapInTTranslationAST(result);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     // -----------------------------------------------------------------------------
     // Translation Context
     // -----------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     function wrapInTTranslationContextAST(r, translationCtx) {
         const ast = {
             type: 17 /* TTranslationContext */,
@@ -5994,6 +6053,9 @@
         }
         return ast;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     function parseTTranslationContext(node, ctx) {
         const translationCtx = node.getAttribute("t-translation-context");
@@ -6002,18 +6064,24 @@
         }
         node.removeAttribute("t-translation-context");
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             type: 17 /* TTranslationContext */,
             content: parseNode(node, ctx),
             translationCtx,
         };
 =======
+=======
+>>>>>>> upstream/18.0
         const result = parseNode(node, ctx);
         if ((result === null || result === void 0 ? void 0 : result.type) === 3 /* Multi */) {
             const children = result.content.map((c) => wrapInTTranslationContextAST(c, translationCtx));
             return makeASTMulti(children);
         }
         return wrapInTTranslationContextAST(result, translationCtx);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     // -----------------------------------------------------------------------------
@@ -6060,7 +6128,10 @@
         return children;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     function makeASTMulti(children) {
         const ast = { type: 3 /* Multi */, content: children };
         if (children.every((c) => c.hasNoRepresentation)) {
@@ -6068,6 +6139,9 @@
         }
         return ast;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     /**
      * Parse all the child nodes of a given node and return an ast if possible.
@@ -6082,7 +6156,11 @@
                 return children[0];
             default:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return { type: 3 /* Multi */, content: children };
+=======
+                return makeASTMulti(children);
+>>>>>>> upstream/18.0
 =======
                 return makeASTMulti(children);
 >>>>>>> upstream/18.0
@@ -6214,6 +6292,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const version = "2.7.0";
 =======
     const version = "2.8.0";
@@ -6286,6 +6365,9 @@
 >>>>>>> upstream/18.0
 =======
     const version = "2.8.0";
+>>>>>>> upstream/18.0
+=======
+    const version = "2.8.1";
 >>>>>>> upstream/18.0
 =======
     const version = "2.8.1";
@@ -6823,6 +6905,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     __info__.date = '2025-03-26T12:58:40.935Z';
     __info__.hash = 'e788e36';
 =======
@@ -6920,6 +7003,10 @@
 =======
     __info__.date = '2025-06-30T12:46:06.424Z';
     __info__.hash = 'b620502';
+>>>>>>> upstream/18.0
+=======
+    __info__.date = '2025-09-23T07:17:45.055Z';
+    __info__.hash = '5211116';
 >>>>>>> upstream/18.0
 =======
     __info__.date = '2025-09-23T07:17:45.055Z';

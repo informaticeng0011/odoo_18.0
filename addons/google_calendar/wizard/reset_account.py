@@ -43,8 +43,14 @@ class ResetGoogleAccount(models.TransientModel):
         # Google, we won't keep track of the 'google_id' field for events and recurrences.
         if self.delete_policy in ('delete_odoo', 'delete_both', 'delete_google'):
 <<<<<<< HEAD
+<<<<<<< HEAD
             events.google_id = False
             recurrences.google_id = False
+=======
+            # Flag need_sync as False in order to skip the write permission when resetting.
+            events.with_context(skip_event_permission=True).google_id = False
+            recurrences.with_context(skip_event_permission=True).google_id = False
+>>>>>>> upstream/18.0
 =======
             # Flag need_sync as False in order to skip the write permission when resetting.
             events.with_context(skip_event_permission=True).google_id = False

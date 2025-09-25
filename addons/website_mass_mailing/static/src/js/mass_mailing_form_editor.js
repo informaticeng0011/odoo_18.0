@@ -24,7 +24,10 @@ FormEditorRegistry.add('create_mailing_contact', {
         type: 'many2many',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         fieldName: "name",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

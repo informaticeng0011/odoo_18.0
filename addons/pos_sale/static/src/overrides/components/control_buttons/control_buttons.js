@@ -7,7 +7,10 @@ import { SelectCreateDialog } from "@web/views/view_dialogs/select_create_dialog
 patch(ControlButtons.prototype, {
     onClickQuotation() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         let domain = [
             ["state", "!=", "cancel"],
             ["invoice_status", "!=", "invoiced"],
@@ -23,17 +26,24 @@ patch(ControlButtons.prototype, {
                 ],
             ];
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.dialog.add(SelectCreateDialog, {
             resModel: "sale.order",
             noCreate: true,
             multiSelect: false,
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain: [
                 ["state", "!=", "cancel"],
                 ["invoice_status", "!=", "invoiced"],
                 ["currency_id", "=", this.pos.currency.id],
             ],
+=======
+            domain,
+>>>>>>> upstream/18.0
 =======
             domain,
 >>>>>>> upstream/18.0

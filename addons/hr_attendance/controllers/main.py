@@ -123,6 +123,7 @@ class HrAttendance(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             department_list = [{'id': dep["id"],
                                  'name': dep["name"],
                                  'count': dep["total_employee"]
@@ -131,6 +132,8 @@ class HrAttendance(http.Controller):
                                                                                                       "name",
                                                                                                       "total_employee"])]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -252,6 +255,7 @@ class HrAttendance(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -330,6 +334,8 @@ class HrAttendance(http.Controller):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             has_password = self.has_password()
             if not from_trial_mode and has_password:
                 request.session.logout(keep_db=True)
@@ -346,6 +352,9 @@ class HrAttendance(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

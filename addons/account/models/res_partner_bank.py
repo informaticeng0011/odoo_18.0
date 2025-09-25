@@ -38,6 +38,10 @@ from odoo import _, api, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.fields import SQL
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import SQL
 >>>>>>> upstream/18.0
@@ -213,6 +217,10 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    duplicate_bank_partner_ids = fields.Many2many('res.partner', compute="_compute_duplicate_bank_partner_ids")
+>>>>>>> upstream/18.0
 =======
     duplicate_bank_partner_ids = fields.Many2many('res.partner', compute="_compute_duplicate_bank_partner_ids")
 >>>>>>> upstream/18.0
@@ -360,7 +368,10 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -454,6 +465,7 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -464,6 +476,9 @@ class ResPartnerBank(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                 AND other.partner_id IS NOT NULL
 >>>>>>> upstream/18.0
 =======
                  AND other.partner_id IS NOT NULL
@@ -527,6 +542,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -603,6 +621,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -959,7 +980,10 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1266,6 +1290,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1518,7 +1545,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'allow_out_payment' in vals and not self.env.user.has_group('account.group_validate_bank_account'):
+=======
+        if 'allow_out_payment' in vals and not self.env.user.has_group('account.group_validate_bank_account') and not self.env.su:
+>>>>>>> upstream/18.0
 =======
         if 'allow_out_payment' in vals and not self.env.user.has_group('account.group_validate_bank_account') and not self.env.su:
 >>>>>>> upstream/18.0
@@ -1676,7 +1707,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg = _("Bank Account %(link)s with number %(number)s deleted", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
+=======
+            msg = _("Bank Account %(link)s with number %(number)s archived", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
+>>>>>>> upstream/18.0
 =======
             msg = _("Bank Account %(link)s with number %(number)s archived", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
 >>>>>>> upstream/18.0

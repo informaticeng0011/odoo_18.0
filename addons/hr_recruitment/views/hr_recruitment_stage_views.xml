@@ -71,7 +71,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <field name="template_id" domain= "[('model_id.model', '=', 'hr.applicant')]"/>
+=======
+                            <field name="template_id" domain= "[('model_id.model', '=', 'hr.applicant')]" options="{'no_quick_create': True}"/>
+>>>>>>> upstream/18.0
 =======
                             <field name="template_id" domain= "[('model_id.model', '=', 'hr.applicant')]" options="{'no_quick_create': True}"/>
 >>>>>>> upstream/18.0

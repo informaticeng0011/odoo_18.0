@@ -151,7 +151,10 @@ class TestStructure(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -222,6 +225,7 @@ class TestStructure(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -258,6 +262,18 @@ class TestStructure(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def test_vat_tw(self):
+        test_partner = self.env["res.partner"].create({"name": "TW Company", "country_id": self.env.ref("base.tw").id})
+
+        for ubn in ['88117254', '12345601', '90183275']:
+            test_partner.vat = ubn
+
+        for ubn in ['88117250', '12345600', '90183272']:
+            with self.assertRaises(ValidationError):
+                test_partner.vat = ubn
+
 >>>>>>> upstream/18.0
 
 @tagged('-standard', 'external')

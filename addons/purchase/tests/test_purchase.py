@@ -903,6 +903,12 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        with po_1.order_line.new() as po_line:
+            po_line.display_type = 'line_note'
+            po_line.name = 'Test Note'
+>>>>>>> upstream/18.0
 =======
         with po_1.order_line.new() as po_line:
             po_line.display_type = 'line_note'
@@ -1107,6 +1113,12 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        with po_2.order_line.new() as po_line:
+            po_line.display_type = 'line_section'
+            po_line.name = 'Test section'
+>>>>>>> upstream/18.0
 =======
         with po_2.order_line.new() as po_line:
             po_line.display_type = 'line_section'
@@ -1404,7 +1416,10 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1608,6 +1623,7 @@ class TestPurchase(AccountTestInvoicingCommon):
         result = vendor_bill.action_purchase_matching()
         matching_records = self.env['purchase.bill.line.match'].search(result['domain'])
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(len(matching_records), 2)
         self.assertEqual(matching_records.account_move_id, vendor_bill)
         self.assertEqual(matching_records.purchase_order_id, purchase_order)
@@ -1864,6 +1880,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
         # Ensure that calling `action_add_to_po()` on multiple records
         # does not raise a singleton ValueError when the vendor is an individual
@@ -1873,6 +1891,9 @@ class TestPurchase(AccountTestInvoicingCommon):
         self.assertEqual(len(matching_records), 2)
         self.assertEqual(matching_records.account_move_id, vendor_bill)
         self.assertEqual(matching_records.purchase_order_id, purchase_order)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_action_view_po_when_product_template_archived(self):
@@ -1942,6 +1963,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1966,6 +1988,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2056,7 +2080,10 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2102,6 +2129,9 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2161,6 +2191,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2189,6 +2220,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2241,6 +2274,9 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
