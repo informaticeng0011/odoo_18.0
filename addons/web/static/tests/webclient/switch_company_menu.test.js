@@ -9,6 +9,10 @@ import {
     serverState,
 } from "@web/../tests/web_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { session } from "@web/session";
+>>>>>>> upstream/18.0
 =======
 import { session } from "@web/session";
 >>>>>>> upstream/18.0
@@ -600,6 +604,10 @@ test("when less than 10 companies, typing key makes the search input visible", a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+test.tags("focus required");
+>>>>>>> upstream/18.0
 =======
 test.tags("focus required");
 >>>>>>> upstream/18.0
@@ -859,7 +867,10 @@ test("select and de-select all", async () => {
     expect(".o_switch_company_item:has([role=menuitemcheckbox][aria-checked=true])").toHaveCount(0);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("disallowed companies in between allowed companies are not enabled", async () => {
     const companies = {
@@ -902,4 +913,7 @@ test("disallowed companies in between allowed companies are not enabled", async 
     await contains(".log_into:eq(0)").click();
     expect.verifySteps(["1-3"]);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

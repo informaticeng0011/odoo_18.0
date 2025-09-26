@@ -10,7 +10,11 @@ import { BarcodeScanner } from "@barcodes/components/barcode_scanner";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { BarcodeDialog } from '@web/core/barcode/barcode_dialog';
+=======
+import { scanBarcode } from "@web/core/barcode/barcode_dialog";
+>>>>>>> upstream/18.0
 =======
 import { scanBarcode } from "@web/core/barcode/barcode_dialog";
 >>>>>>> upstream/18.0
@@ -59,7 +63,11 @@ export class KioskBarcodeScanner extends BarcodeScanner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.scanBarcode = () => scanBarcode(this.env, this.facingMode, this.props.token);
+=======
+        this.scanBarcode = () => scanBarcode(this.env, this.facingMode);
+>>>>>>> upstream/18.0
 =======
         this.scanBarcode = () => scanBarcode(this.env, this.facingMode);
 >>>>>>> upstream/18.0
@@ -110,6 +118,7 @@ export class KioskBarcodeScanner extends BarcodeScanner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /**
  * Opens the BarcodeScanning dialog and begins code detection using the device's camera.
@@ -131,6 +140,8 @@ export async function scanBarcode(env, facingMode = "environment", token) {
     });
     return promise;
 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

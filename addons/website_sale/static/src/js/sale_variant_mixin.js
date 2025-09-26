@@ -592,9 +592,14 @@ var VariantMixin = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             .find('.o_product_tags')
             .first()
             .html(combination.product_tags);
+=======
+            .find('.o_product_tags:first')
+            .replaceWith(combination.product_tags);
+>>>>>>> upstream/18.0
 =======
             .find('.o_product_tags:first')
             .replaceWith(combination.product_tags);

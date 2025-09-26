@@ -145,9 +145,12 @@ export class StatusBarField extends Component {
                     hotkey: "alt+x",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     isAvailable: () =>
                         !this.props.isDisabled && !this.getAllItems().at(-1).isSelected,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     isAvailable: () => {
@@ -158,6 +161,9 @@ export class StatusBarField extends Component {
                         return items.length && !items.at(-1).isSelected;
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

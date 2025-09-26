@@ -277,7 +277,11 @@ class TestWebsiteAccess(HttpCaseWithUserDemo, OnlineEventCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(resp.status_code, 403, 'Public must not have access to unpublished event')
+=======
+        self.assertEqual(resp.status_code, 404, 'Public must not have access to unpublished event')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(resp.status_code, 404, 'Public must not have access to unpublished event')
 >>>>>>> upstream/18.0

@@ -16,15 +16,21 @@ class FleetVehicleModelBrand(models.Model):
     model_ids = fields.One2many('fleet.vehicle.model', 'brand_id')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('model_ids')
     def _compute_model_count(self):
         model_data = self.env['fleet.vehicle.model']._read_group([
             ('brand_id', 'in', self.ids),
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('model_ids.active')
     def _compute_model_count(self):
         model_data = self.env['fleet.vehicle.model']._read_group([
             ('brand_id', 'in', self.ids), ('active', '=', 'true')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ], ['brand_id'], ['__count'])
         models_brand = {brand.id: count for brand, count in model_data}

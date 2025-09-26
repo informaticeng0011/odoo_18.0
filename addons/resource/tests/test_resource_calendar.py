@@ -45,7 +45,10 @@ class TestResourceCalendar(TransactionCase):
         self.assertEqual(attendance.duration_days, 0.125, "Attendance duration should be 0.125 days (3 hours)")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -71,6 +74,9 @@ class TestResourceCalendar(TransactionCase):
 
         self.assertEqual(actual_duration.seconds / 3600, calendar.full_time_required_hours, "For a full day, the interval must match full time required hours")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

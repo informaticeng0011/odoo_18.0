@@ -243,7 +243,11 @@ def check_image():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def save_conf_server(url, token, db_uuid, enterprise_code):
+=======
+def save_conf_server(url, token, db_uuid, enterprise_code, db_name=None):
+>>>>>>> upstream/18.0
 =======
 def save_conf_server(url, token, db_uuid, enterprise_code, db_name=None):
 >>>>>>> upstream/18.0
@@ -390,6 +394,10 @@ def save_conf_server(url, token, db_uuid, enterprise_code, db_name=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    :param db_name: The database name
+>>>>>>> upstream/18.0
 =======
     :param db_name: The database name
 >>>>>>> upstream/18.0
@@ -536,6 +544,10 @@ def save_conf_server(url, token, db_uuid, enterprise_code, db_name=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'db_name': db_name,
+>>>>>>> upstream/18.0
 =======
         'db_name': db_name,
 >>>>>>> upstream/18.0
@@ -705,6 +717,7 @@ def get_img_name():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def get_ip():
     interfaces = netifaces.interfaces()
     for interface in interfaces:
@@ -713,6 +726,8 @@ def get_ip():
             if addr != '127.0.0.1':
                 return addr
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -779,6 +794,9 @@ def get_ip():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -839,7 +857,10 @@ def get_mac_address():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -893,6 +914,9 @@ def get_serial_number():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1073,7 +1097,11 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if not (db_uuid and enterprise_code):
+=======
+    if not db_uuid:
+>>>>>>> upstream/18.0
 =======
     if not db_uuid:
 >>>>>>> upstream/18.0
@@ -1412,7 +1440,11 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'enterprise_code': enterprise_code
+=======
+            'enterprise_code': enterprise_code or ''
+>>>>>>> upstream/18.0
 =======
             'enterprise_code': enterprise_code or ''
 >>>>>>> upstream/18.0
@@ -1680,6 +1712,7 @@ def load_certificate():
     if response.status != 200:
         return "ERR_IOT_HTTPS_LOAD_REQUEST_STATUS %s\n\n%s" % (response.status, response.reason)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2082,6 +2115,8 @@ def load_certificate():
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     response_body = json.loads(response.data.decode())
     server_error = response_body.get('error')
     if server_error:
@@ -2167,6 +2202,7 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2279,6 +2315,8 @@ def load_certificate():
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2334,6 +2372,9 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2428,6 +2469,7 @@ def download_iot_handlers(auto=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if resp.data:
                 delete_iot_handlers()
                 with writable():
@@ -2435,6 +2477,8 @@ def download_iot_handlers(auto=True):
                     zip_file = zipfile.ZipFile(io.BytesIO(resp.data))
                     zip_file.extractall(path)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2485,6 +2529,9 @@ def download_iot_handlers(auto=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2660,6 +2707,7 @@ def update_conf(values, section='iot.box'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _logger.debug("Updating odoo.conf with values: %s", values)
     conf = get_conf()
     get_conf.cache_clear()  # Clear the cache to get the updated config
@@ -2673,6 +2721,8 @@ def update_conf(values, section='iot.box'):
 
     write_file("odoo.conf", conf)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2726,6 +2776,9 @@ def update_conf(values, section='iot.box'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2853,6 +2906,7 @@ def disconnect_from_server():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'screen_orientation': '',
         'browser_url': '',
@@ -3059,6 +3113,8 @@ def disconnect_from_server():
         'iot_handlers_etag': '',
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3165,6 +3221,9 @@ def disconnect_from_server():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

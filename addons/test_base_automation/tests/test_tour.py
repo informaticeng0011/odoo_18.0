@@ -19,7 +19,11 @@ class BaseAutomationTestUi(HttpCase):
             context = ast.literal_eval(self.env.ref("base_automation.base_automation_act").context)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             del context["active_test"]
+=======
+            del context["search_default_inactive"]
+>>>>>>> upstream/18.0
 =======
             del context["search_default_inactive"]
 >>>>>>> upstream/18.0

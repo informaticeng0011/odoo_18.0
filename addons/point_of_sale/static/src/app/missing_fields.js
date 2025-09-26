@@ -12,7 +12,10 @@ registry.category("fields").add("list.many2one_avatar_user", { component: Defaul
 registry.category("fields").add("list.list_activity", { component: DefaultField });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 registry.category("fields").add("x2many_buttons", { component: DefaultField });
@@ -22,6 +25,9 @@ registry.category("fields").add("many2one_avatar_user", { component: DefaultFiel
 registry.category("fields").add("auto_save_res_partner", { component: DefaultField });
 registry.category("fields").add("website_redirect_button", { component: DefaultField });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

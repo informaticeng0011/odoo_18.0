@@ -81,7 +81,11 @@ class WebsiteSale(main.WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def pricelist(self, promo, **post):
+=======
+    def pricelist(self, promo, reward_id=None, **post):
+>>>>>>> upstream/18.0
 =======
     def pricelist(self, promo, reward_id=None, **post):
 >>>>>>> upstream/18.0
@@ -370,9 +374,12 @@ class WebsiteSale(main.WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if request.env.context.get('product_id') or (len(rewards) == 1 and not rewards.multi_product):
                     reward_successfully_applied = self._apply_reward(order, rewards, coupon)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -583,6 +590,9 @@ class WebsiteSale(main.WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -868,7 +878,11 @@ class WebsiteSale(main.WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return self.pricelist(code)
+=======
+                    return self.pricelist(code, reward_id=reward_id)
+>>>>>>> upstream/18.0
 =======
                     return self.pricelist(code, reward_id=reward_id)
 >>>>>>> upstream/18.0

@@ -395,6 +395,12 @@ function matchCondition(record, condition) {
             return true;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        case "child_of":
+        case "parent_of":
+            return true;
+>>>>>>> upstream/18.0
 =======
         case "child_of":
         case "parent_of":

@@ -291,7 +291,10 @@ class TestPacking(TestPackingCommon):
         res = delivery_company_a.with_user(company_a_user).read()
         self.assertTrue(res)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_put_in_pack_applies_only_to_selected_move_line(self):
         """Ensure that the 'Put in Pack' action applies only to the selected
@@ -336,4 +339,7 @@ class TestPacking(TestPackingCommon):
         pack_wiz.action_put_in_pack()
         self.assertTrue(move_line_1.result_package_id, 'A package should have been created for the selected move line')
         self.assertFalse(move_line_2.result_package_id, 'The other move line should not be packed')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -38,7 +38,11 @@ def add_stripped_items_before(node, spec, extract):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     prev = node.getprevious()
+=======
+    prev = next((n for n in node.itersiblings(preceding=True) if not (n.tag == etree.ProcessingInstruction and n.target == "apply-inheritance-specs-node-removal")), None)
+>>>>>>> upstream/18.0
 =======
     prev = next((n for n in node.itersiblings(preceding=True) if not (n.tag == etree.ProcessingInstruction and n.target == "apply-inheritance-specs-node-removal")), None)
 >>>>>>> upstream/18.0

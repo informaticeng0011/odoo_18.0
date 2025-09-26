@@ -154,7 +154,13 @@ class AccountMove(models.Model):
         order_amount = 0
         for invoice in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
             prices = sum(invoice.line_ids.filtered(lambda x: order in x.sale_line_ids.order_id).mapped('price_total'))
+=======
+            prices = sum(invoice.line_ids.filtered(
+                lambda x: x.display_type not in ('line_note', 'line_section') and order in x.sale_line_ids.order_id
+            ).mapped('price_total'))
+>>>>>>> upstream/18.0
 =======
             prices = sum(invoice.line_ids.filtered(
                 lambda x: x.display_type not in ('line_note', 'line_section') and order in x.sale_line_ids.order_id

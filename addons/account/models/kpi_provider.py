@@ -7,6 +7,10 @@ from odoo import api, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.osv import expression
+>>>>>>> upstream/18.0
 =======
 from odoo.osv import expression
 >>>>>>> upstream/18.0
@@ -38,6 +42,7 @@ class KpiProvider(models.AbstractModel):
 
     @api.model
     def get_account_kpi_summary(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,6 +90,8 @@ class KpiProvider(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         grouped_moves_to_report = self.env['account.move']._read_group(
             expression.OR([
                 [('state', '=', 'draft')],
@@ -101,6 +108,9 @@ class KpiProvider(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -143,6 +153,9 @@ class KpiProvider(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

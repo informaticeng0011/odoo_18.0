@@ -1,8 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from . import models
 from . import tools
 from . import wizard
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo.tools.sql import create_column
 
 from . import models
@@ -35,4 +38,7 @@ def _pre_init_nemhandel(env):
          WHERE _dk.id = p.id
     """
     env.cr.execute(query)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

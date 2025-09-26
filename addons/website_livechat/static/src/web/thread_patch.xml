@@ -37,7 +37,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <span t-esc="visitor.history"/>
+=======
+                        <span t-esc="visitor.historyLocalized or visitor.history"/>
+>>>>>>> upstream/18.0
 =======
                         <span t-esc="visitor.historyLocalized or visitor.history"/>
 >>>>>>> upstream/18.0

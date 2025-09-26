@@ -211,7 +211,10 @@ class TestSaleOrderDiscount(SaleCommon):
         self.assertEqual(self.sale_order.amount_untaxed, amount_with_line_discount * 0.9)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         discount_line = self.sale_order.order_line.filtered(lambda ol: ol._is_discount_line())
@@ -219,6 +222,9 @@ class TestSaleOrderDiscount(SaleCommon):
         discount_line.product_uom_qty = 2
         self.assertEqual(self.sale_order.amount_untaxed, amount_with_line_discount * 0.8)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

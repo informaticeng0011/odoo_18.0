@@ -135,7 +135,14 @@ test("a failing tour logs the step that failed in run", async () => {
         groupCollapsed: (s) => expect.step(`log: ${s}`),
         log: (s) => expect.step(`log: ${s}`),
         warn: (s) => {},
+<<<<<<< HEAD
         error: (s) => expect.step(`error: ${s}`),
+=======
+        error: (s) => {
+            s = s.replace(/\n +at.*/g, ""); // strip stack trace
+            expect.step(`error: ${s}`)
+        },
+>>>>>>> upstream/18.0
     });
     class Root extends Component {
         static components = {};
@@ -172,8 +179,12 @@ test("a failing tour logs the step that failed in run", async () => {
         `log: [2/2] Tour tour2 → Step .button1`,
         [
             "error: FAILED: [2/2] Tour tour2 → Step .button1.",
+<<<<<<< HEAD
             `ERROR during perform action:
 Cannot read properties of null (reading 'click')`,
+=======
+            `TypeError: Cannot read properties of null (reading 'click')`,
+>>>>>>> upstream/18.0
         ].join("\n"),
     ];
     expect.verifySteps(expectedError);

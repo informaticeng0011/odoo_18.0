@@ -36,7 +36,11 @@ patch(accountTaxHelpers, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** override **/
+=======
+    // EXTENDS 'account'
+>>>>>>> upstream/18.0
 =======
     // EXTENDS 'account'
 >>>>>>> upstream/18.0
