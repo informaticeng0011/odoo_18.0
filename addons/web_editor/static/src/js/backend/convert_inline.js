@@ -245,7 +245,11 @@ function bootstrapToTable(editable) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table');
+=======
+    const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table, .o_text_columns');
+>>>>>>> upstream/18.0
 =======
     const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table, .o_text_columns');
 >>>>>>> upstream/18.0
@@ -500,7 +504,11 @@ function bootstrapToTable(editable) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const colSize = Math.max(1, Math.round((12 - colTotalSize) / flexColumns.length));
+=======
+            const colSize = Math.max(1, Math.floor((12 - (colTotalSize)) / flexColumns.length));
+>>>>>>> upstream/18.0
 =======
             const colSize = Math.max(1, Math.floor((12 - (colTotalSize)) / flexColumns.length));
 >>>>>>> upstream/18.0
@@ -2033,7 +2041,15 @@ function _getHeight(element) {
  */
 function _hideForOutlook(node, onlyHideTag = false) {
     if (!onlyHideTag) {
+<<<<<<< HEAD
         node.setAttribute('style', `${node.getAttribute('style') || ''} mso-hide: all;`.trim());
+=======
+        let style = (node.getAttribute("style") || "").trim();
+        if (style && !style.endsWith(";")) {
+            style += ";";
+        }
+        node.setAttribute("style", `${style} mso-hide: all;`);
+>>>>>>> upstream/18.0
     }
     node[onlyHideTag === 'closing' ? 'append' : 'before'](document.createComment('[if !mso]><!'));
     node[onlyHideTag === 'opening' ? 'prepend' : 'after'](document.createComment('<![endif]'));
@@ -2152,7 +2168,14 @@ function correctBorderAttributes(style) {
         return correctedStyle;
     }
 
+<<<<<<< HEAD
     return style;
+=======
+    if (/border-style\s*:/i.test(style)) {
+        return style;
+    }
+    return style.trim().replace(/;?$/, "; border-style: solid;");
+>>>>>>> upstream/18.0
 }
 
 export default {

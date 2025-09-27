@@ -436,6 +436,7 @@ class TestCursorHooksTransactionCaseCleanup(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_isolation_first(self):
         def mutate_second_test_ref():
             for name in ['precommit', 'postcommit', 'prerollback', 'postrollback']:
@@ -458,6 +459,8 @@ class TestCursorHooksTransactionCaseCleanup(common.TransactionCase):
             self.assertTrue(bool(reference), f"{callback_name} failed to clean up between transaction tests")
             self.assertTrue(reference[0] == 'not_empty', f"{callback_name} failed to clean up between transaction tests")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -813,6 +816,9 @@ class TestCursorHooksTransactionCaseCleanup(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

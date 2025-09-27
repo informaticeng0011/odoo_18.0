@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* uom
 # 
 # Translators:
@@ -10,6 +11,8 @@
 # Fernanda Alvarez, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23,6 +26,9 @@
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33,6 +39,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,6 +57,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-23 22:21+0000\n"
+=======
+"PO-Revision-Date: 2025-09-26 22:21+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/uom/es_419/>\n"
@@ -62,6 +72,9 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -190,8 +203,13 @@ msgid ""
 "How many times this Unit of Measure is bigger than the reference Unit of "
 "Measure in this category: 1 * (this unit) = ratio * (reference unit)"
 msgstr ""
+<<<<<<< HEAD
 "Cuántas veces esta unidad de medida es más grande que la unidad de medida de"
 " referencia en esta categoría: 1 * (esta unidad) = proporción * (unidad de "
+=======
+"Cuántas veces esta unidad de medida es mayor que la unidad de medida de "
+"referencia en esta categoría: 1 * (esta unidad) = proporción * (unidad de "
+>>>>>>> upstream/18.0
 "referencia)"
 
 #. module: uom
@@ -242,7 +260,11 @@ msgid "Product UoM Categories"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Categoría de UdM de producto"
+=======
+msgstr "Categorías de UdM del producto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Categorías de UdM del producto"
 >>>>>>> upstream/18.0
@@ -282,12 +304,20 @@ msgstr "Buscar unidad de medida"
 #. module: uom
 #: model_terms:ir.ui.view,arch_db:uom.uom_categ_view_search
 msgid "Search UoM Category"
+<<<<<<< HEAD
 msgstr "Buscar categoría UdM"
+=======
+msgstr "Buscar categoría de UdM"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:ir.model.fields.selection,name:uom.selection__uom_uom__uom_type__smaller
 msgid "Smaller than the reference Unit of Measure"
+<<<<<<< HEAD
 msgstr "Más pequeña que la unidad de medida de referencia"
+=======
+msgstr "Menor que la unidad de medida de referencia"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #. odoo-python
@@ -301,6 +331,7 @@ msgid ""
 "\n"
 "Therefore, changing core units of measure in a running database is not recommended."
 msgstr ""
+<<<<<<< HEAD
 "Se modificaron algunos campos críticos en %s.\n"
 "Tome en cuenta que este cambio no modificará la información existente.\n"
 "\n"
@@ -308,6 +339,18 @@ msgstr ""
 "Por ejemplo, modificar el redondeo podría alterar el balance de su inventario.\n"
 "\n"
 "No es recomendable cambiar las unidades de medida neutrales en una base de datos funcional."
+=======
+"Algunos campos críticos en %s cambiaron.\n"
+"Ten en cuenta que los datos existentes NO se actualizarán con este cambio.\n"
+"\n"
+"Como las unidades de medida impactan a todo el sistema, esto puede causar "
+"problemas graves.\n"
+"Por ejemplo, modificar el redondeo podría alterar el balance del inventario."
+"\n"
+"\n"
+"No te recomendamos cambiar las unidades de medida básicas en una base de "
+"datos en uso."
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.category,name:uom.uom_categ_surface
@@ -357,10 +400,17 @@ msgid ""
 "product. Please correct the unit of measure defined on the order line or on "
 "the product. They should belong to the same category."
 msgstr ""
+<<<<<<< HEAD
 "La unidad de medida %(unit)s definida en la línea de la orden no pertenece a"
 " la misma categoría que la unidad de medida %(product_unit)s definida en el "
 "producto. Estas unidades de medida deben pertenecer a la misma categoría, "
 "corrija una de ellas."
+=======
+"La unidad de medida %(unit)s definida en la línea de la orden no pertenece a "
+"la misma categoría que la unidad de medida %(product_unit)s definida en el "
+"producto. Ambas deben pertenecer a la misma categoría, corrige alguna de "
+"ellas."
+>>>>>>> upstream/18.0
 
 #. module: uom
 #. odoo-python

@@ -212,7 +212,10 @@ class TestSaleOrderDiscount(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -223,6 +226,9 @@ class TestSaleOrderDiscount(SaleCommon):
         self.assertEqual(self.sale_order.amount_untaxed, amount_with_line_discount * 0.8)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

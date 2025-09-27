@@ -107,6 +107,19 @@ class SaleOrder(models.Model):
                     ('company_id', '=', order.company_id.id),
                 ], limit=1)
 
+<<<<<<< HEAD
+=======
+    def _compute_pricelist_id(self):
+        # Override to compute pricelists for carts using the partner's GeoIP,
+        # providing a fallback in case they don't have an address set.
+        if not (country_code := self.env['website']._get_geoip_country_code()):
+            return super()._compute_pricelist_id()
+        if website_orders := self.filtered('website_id'):
+            website_orders = website_orders.with_context(country_code=country_code)
+            super(SaleOrder, website_orders)._compute_pricelist_id()
+        return super(SaleOrder, self - website_orders)._compute_pricelist_id()
+
+>>>>>>> upstream/18.0
     def _search_abandoned_cart(self, operator, value):
         website_ids = self.env['website'].search_read(fields=['id', 'cart_abandoned_delay', 'partner_id'])
         deadlines = [[
@@ -210,8 +223,13 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     or order.partner_id.parent_id.user_id.id
                     or order.partner_id.user_id.id
+=======
+                    or order.partner_id.user_id.id
+                    or order.partner_id.parent_id.user_id.id
+>>>>>>> upstream/18.0
 =======
                     or order.partner_id.user_id.id
                     or order.partner_id.parent_id.user_id.id
@@ -639,7 +657,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -848,6 +869,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1448,7 +1472,13 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.state == 'sale' and any(line._is_reorder_allowed() for line in self.order_line if not line.display_type)
+=======
+        return self.state == 'sale' and any(
+            line._is_reorder_allowed() for line in self.order_line if line.product_id
+        )
+>>>>>>> upstream/18.0
 =======
         return self.state == 'sale' and any(
             line._is_reorder_allowed() for line in self.order_line if line.product_id
@@ -2037,6 +2067,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            *self.env['delivery.carrier']._check_company_domain(self.company_id),
+>>>>>>> upstream/18.0
 =======
             *self.env['delivery.carrier']._check_company_domain(self.company_id),
 >>>>>>> upstream/18.0

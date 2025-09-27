@@ -15,6 +15,7 @@ class Partner(models.Model):
         compute='_compute_opportunity_count',
     )
 
+<<<<<<< HEAD
     @api.model
     def default_get(self, fields):
         rec = super(Partner, self).default_get(fields)
@@ -37,6 +38,8 @@ class Partner(models.Model):
                 )
         return rec
 
+=======
+>>>>>>> upstream/18.0
     def _compute_opportunity_count(self):
         self.opportunity_count = 0
         if not self.env.user._has_group('sales_team.group_sale_salesman'):

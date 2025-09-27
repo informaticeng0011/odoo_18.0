@@ -336,7 +336,11 @@ class MrpWorkcenter(models.Model):
         get_workorder_intervals = partial(self.resource_calendar_id._leave_intervals_batch, domain=workorder_intervals_leaves_domain, resources=resource, tz=timezone(self.resource_calendar_id.tz))
         extra_leaves_slots_intervals = Intervals([(make_aware(start)[0], make_aware(stop)[0], self.env['resource.calendar.attendance']) for start, stop in extra_leaves_slots])
 
+<<<<<<< HEAD
         remaining = duration
+=======
+        remaining = duration = max(duration, 1 / 60)
+>>>>>>> upstream/18.0
         now = make_aware(datetime.now())[0]
         delta = timedelta(days=14)
         start_interval, stop_interval = None, None
@@ -574,6 +578,11 @@ class MrpWorkcenterProductivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.date_end:
+            return
+>>>>>>> upstream/18.0
 =======
         if not self.date_end:
             return

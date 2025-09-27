@@ -134,7 +134,10 @@ export class ChannelMember extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -331,6 +334,9 @@ export class ChannelMember extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -518,6 +524,7 @@ export class ChannelMember extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onAdd() {
             browser.clearTimeout(this.typingTimeoutId);
             this.typingTimeoutId = browser.setTimeout(
@@ -525,6 +532,8 @@ export class ChannelMember extends Record {
                 Store.OTHER_LONG_TYPING
             );
         },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

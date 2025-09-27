@@ -16,6 +16,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.fields import Command
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 >>>>>>> upstream/18.0
@@ -697,7 +701,10 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -737,6 +744,10 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
         compo01 = self._create_product(name="Compo 01", is_storable=True, standard_price=10)
         compo02 = self._create_product(name="Compo 02", is_storable=True, standard_price=20)
         kit = self._create_product(name="Kit", is_storable=True, standard_price=30)
+<<<<<<< HEAD
+=======
+        (compo01 + compo02 + kit).write({'invoice_policy': 'order'})
+>>>>>>> upstream/18.0
         warehouse = self.company_data['default_warehouse']
         self.env['stock.quant']._update_available_quantity(compo01, warehouse.lot_stock_id, 1.0)
         self.env['stock.quant']._update_available_quantity(compo02, warehouse.lot_stock_id, 2.0)
@@ -795,6 +806,9 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -12,7 +12,11 @@ describe.current.tags("desktop");
 
 const mainErrorMessage = (trigger) =>
 <<<<<<< HEAD
+<<<<<<< HEAD
     `ERROR during perform action:\nPotential non deterministic behavior found in 300ms for trigger ${trigger}.`;
+=======
+    `Error: Potential non deterministic behavior found in 300ms for trigger ${trigger}.`;
+>>>>>>> upstream/18.0
 =======
     `Error: Potential non deterministic behavior found in 300ms for trigger ${trigger}.`;
 >>>>>>> upstream/18.0
@@ -74,12 +78,18 @@ beforeEach(async () => {
     patchWithCleanup(browser.console, {
         log: (s) => expect.step(`log: ${s}`),
 <<<<<<< HEAD
+<<<<<<< HEAD
         error: (s) => expect.step(`error: ${s}`),
 =======
+=======
+>>>>>>> upstream/18.0
         error: (s) => {
             s = s.replace(/\n +at.*/g, ""); // strip stack trace
             expect.step(`error: ${s}`)
         },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         warn: () => {},
         dir: () => {},

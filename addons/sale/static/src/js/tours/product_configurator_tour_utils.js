@@ -99,12 +99,18 @@ function selectAttribute(productName, attributeName, attributeValue, attributeTy
             };
         case 'multi':
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             return {
                 content: content,
                 trigger: `${ptalSelector}:has(label:contains(/^${attributeValue}$/)) input[type="checkbox"]`,
                 run: "click",
             };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         case 'pills':
         case 'radio':

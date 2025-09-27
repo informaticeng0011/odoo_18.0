@@ -97,7 +97,11 @@ import { click, contains, start, startServer } from "@mail/../tests/mail_test_he
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { mountView } from "@web/../tests/web_test_helpers";
+=======
+import { mountView, onRpc } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { mountView, onRpc } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0
@@ -419,6 +423,7 @@ test("many2one_avatar_employee widget in kanban view with skills on avatar card"
     });
     pyEnv["m2o.avatar.employee"].create([{ employee_id: pierreEid }]);
     await start();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -862,6 +867,10 @@ test("many2one_avatar_employee widget in kanban view with skills on avatar card"
 
     onRpc("hr.employee", "get_avatar_card_data", (params) => {
 >>>>>>> upstream/18.0
+=======
+
+    onRpc("hr.employee", "get_avatar_card_data", (params) => {
+>>>>>>> upstream/18.0
         const resourceIdArray = params.args[0];
         const resourceId = resourceIdArray[0];
         const resources = pyEnv['hr.employee.public'].read([resourceId]);
@@ -972,6 +981,9 @@ test("many2one_avatar_employee widget in kanban view with skills on avatar card"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

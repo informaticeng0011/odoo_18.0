@@ -119,7 +119,11 @@ class SaleOrder(models.Model):
             if not is_project_manager:
                 projects = projects._filtered_access('read')
             order.project_ids = projects
+<<<<<<< HEAD
             order.project_count = len(projects)
+=======
+            order.project_count = len(projects.filtered('active'))
+>>>>>>> upstream/18.0
 
     def _action_confirm(self):
         """ On SO confirmation, some lines should generate a task or a project. """
@@ -224,7 +228,11 @@ class SaleOrder(models.Model):
         action = {
             'type': 'ir.actions.act_window',
             'name': _('Projects'),
+<<<<<<< HEAD
             'domain': ['|', ('sale_order_id', '=', self.id), ('id', 'in', self.with_context(active_test=False).project_ids.ids), ('active', 'in', [True, False])],
+=======
+            'domain': ['|', ('sale_order_id', '=', self.id), ('id', 'in', self.project_ids.ids)],
+>>>>>>> upstream/18.0
             'res_model': 'project.project',
             'views': [(False, 'kanban'), (False, 'list'), (False, 'form')],
             'view_mode': 'kanban,list,form',
@@ -235,7 +243,11 @@ class SaleOrder(models.Model):
                 'default_allow_billable': 1,
             }
         }
+<<<<<<< HEAD
         if len(self.with_context(active_test=False).project_ids) == 1:
+=======
+        if len(self.project_ids) == 1:
+>>>>>>> upstream/18.0
             action.update({'views': [(False, 'form')], 'res_id': self.project_ids.id})
         return action
 

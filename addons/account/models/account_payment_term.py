@@ -66,7 +66,20 @@ class AccountPaymentTerm(models.Model):
                 discount_amount_currency = (total_amount - untaxed_amount) * percentage
             else:
                 discount_amount_currency = total_amount * percentage
+<<<<<<< HEAD
             return self.currency_id.round(total_amount - discount_amount_currency)
+=======
+            amount_due = self.currency_id.round(total_amount - discount_amount_currency)
+            if self.env.context.get('active_model') == 'account.move' and (active_id := self.env.context.get('active_id')):
+                move = self.env['account.move'].browse(active_id)
+                cash_rounding = move.invoice_cash_rounding_id
+                currency = move.currency_id
+                if cash_rounding:
+                    cash_rounding_difference = cash_rounding.compute_difference(currency, amount_due)
+                    if not currency.is_zero(cash_rounding_difference):
+                        amount_due = self.currency_id.round(amount_due + cash_rounding_difference)
+            return amount_due
+>>>>>>> upstream/18.0
         return total_amount
 
     @api.depends('company_id')
@@ -265,6 +278,7 @@ class AccountPaymentTerm(models.Model):
             return None
         return format_date(self.env, self._get_last_discount_date(date_ref))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -577,6 +591,8 @@ class AccountPaymentTerm(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def copy_data(self, default=None):
         default = dict(default or {})
         vals_list = super().copy_data(default=default)
@@ -683,6 +699,9 @@ class AccountPaymentTerm(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

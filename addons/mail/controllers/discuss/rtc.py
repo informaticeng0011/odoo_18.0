@@ -88,6 +88,16 @@ class RtcController(http.Controller):
         # sudo: discuss.channel.rtc.session - member of current user can leave call
         member.sudo()._rtc_leave_call()
 
+<<<<<<< HEAD
+=======
+    @http.route("/mail/rtc/channel/upgrade_connection", methods=["POST"], type="json", auth="user")
+    def channel_upgrade(self, channel_id):
+        member = request.env["discuss.channel.member"].search([("channel_id", "=", channel_id), ("is_self", "=", True)])
+        if not member:
+            raise NotFound()
+        member.sudo()._join_sfu(force=True)
+
+>>>>>>> upstream/18.0
     @http.route("/mail/rtc/channel/cancel_call_invitation", methods=["POST"], type="json", auth="public")
     @add_guest_to_context
     def channel_call_cancel_invitation(self, channel_id, member_ids=None):

@@ -292,7 +292,10 @@ class TestPacking(TestPackingCommon):
         self.assertTrue(res)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -340,6 +343,9 @@ class TestPacking(TestPackingCommon):
         self.assertTrue(move_line_1.result_package_id, 'A package should have been created for the selected move line')
         self.assertFalse(move_line_2.result_package_id, 'The other move line should not be packed')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

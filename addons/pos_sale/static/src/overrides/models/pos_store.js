@@ -23,8 +23,11 @@ import { PosStore } from "@point_of_sale/app/store/pos_store";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { compute_price_force_price_include } from "@point_of_sale/app/models/utils/tax_utils";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -71,6 +74,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -155,6 +161,7 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const orderFiscalPos =
             sale_order.fiscal_position_id &&
             this.models["account.fiscal.position"].find(
@@ -169,6 +176,8 @@ patch(PosStore.prototype, {
             this.get_order().set_partner(sale_order.partner_id);
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -224,6 +233,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -356,6 +368,7 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         const orderlines = this.models["sale.order.line"].readMany(sale_order.raw.order_line);
         sale_order.order_line = orderlines;
@@ -678,6 +691,10 @@ patch(PosStore.prototype, {
 >>>>>>> upstream/18.0
 =======
         const orderlines = this.models["sale.order.line"].readMany(sale_order.raw.order_line);
+        sale_order.order_line = orderlines;
+>>>>>>> upstream/18.0
+=======
+        const orderlines = await this.data.read("sale.order.line", sale_order.raw.order_line);
         sale_order.order_line = orderlines;
 >>>>>>> upstream/18.0
 =======
@@ -754,6 +771,7 @@ patch(PosStore.prototype, {
             sale_order.order_line.map((l) => l.id),
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -980,6 +998,9 @@ patch(PosStore.prototype, {
 =======
         for (const line of sale_order.order_line) {
 >>>>>>> upstream/18.0
+=======
+        for (const line of sale_order.order_line) {
+>>>>>>> upstream/18.0
             if (line.display_type === "line_note") {
                 if (previousProductLine) {
                     const previousNote = previousProductLine.customer_note;
@@ -1009,6 +1030,10 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const taxes = getTaxesAfterFiscalPosition(line.tax_id, orderFiscalPos, this.models);
+>>>>>>> upstream/18.0
 =======
             const taxes = getTaxesAfterFiscalPosition(line.tax_id, orderFiscalPos, this.models);
 >>>>>>> upstream/18.0
@@ -1074,10 +1099,14 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 tax_ids:
                     orderFiscalPos || !line.tax_id
                         ? undefined
                         : line.tax_id.map((t) => ["link", t]),
+=======
+                tax_ids: taxes.map((tax) => ["link", tax]),
+>>>>>>> upstream/18.0
 =======
                 tax_ids: taxes.map((tax) => ["link", tax]),
 >>>>>>> upstream/18.0
@@ -1135,6 +1164,7 @@ patch(PosStore.prototype, {
             const newLine = await this.addLineToCurrentOrder(newLineValues, {}, false);
             previousProductLine = newLine;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1360,6 +1390,9 @@ patch(PosStore.prototype, {
 =======
             const converted_line = converted_lines.find((l) => l.id === line.id);
 >>>>>>> upstream/18.0
+=======
+            const converted_line = converted_lines.find((l) => l.id === line.id);
+>>>>>>> upstream/18.0
             if (
                 newLine.get_product().tracking !== "none" &&
                 (this.pickingType.use_create_lots || this.pickingType.use_existing_lots) &&
@@ -1382,6 +1415,7 @@ patch(PosStore.prototype, {
                 }
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1433,6 +1467,8 @@ patch(PosStore.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             converted_line.has_valued_move_ids = await this.data.call(
                 "sale.order.line",
                 "has_valued_move_ids",
@@ -1454,6 +1490,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1513,7 +1552,10 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1572,6 +1614,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1700,10 +1745,13 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const fixed_tax_total_amount = fixed_taxes.reduce((total, tax) => {
                 return total + tax.amount;
             }, 0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1750,6 +1798,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

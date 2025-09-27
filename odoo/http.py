@@ -244,6 +244,10 @@ from .tools.misc import submap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from .tools.facade import Proxy, ProxyAttr, ProxyFunc
+>>>>>>> upstream/18.0
 =======
 from .tools.facade import Proxy, ProxyAttr, ProxyFunc
 >>>>>>> upstream/18.0
@@ -560,9 +564,12 @@ class SessionExpiredException(Exception):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def content_disposition(filename):
     return "attachment; filename*=UTF-8''{}".format(
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -794,6 +801,9 @@ def content_disposition(filename, disposition_type='attachment'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1163,6 +1173,7 @@ class Stream:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         data_b64 = record[field_name]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1181,6 +1192,8 @@ class Stream:
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1313,6 +1326,9 @@ class Stream:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2196,6 +2212,10 @@ class HTTPRequest:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._session_id__ = httprequest.cookies.get('session_id')
+>>>>>>> upstream/18.0
 =======
         self._session_id__ = httprequest.cookies.get('session_id')
 >>>>>>> upstream/18.0
@@ -2336,7 +2356,11 @@ for attr in HTTPREQUEST_ATTRIBUTES:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Response(werkzeug.wrappers.Response):
+=======
+class _Response(werkzeug.wrappers.Response):
+>>>>>>> upstream/18.0
 =======
 class _Response(werkzeug.wrappers.Response):
 >>>>>>> upstream/18.0
@@ -2567,7 +2591,11 @@ class _Response(werkzeug.wrappers.Response):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return cls(result)
+=======
+            return Response(result)
+>>>>>>> upstream/18.0
 =======
             return Response(result)
 >>>>>>> upstream/18.0
@@ -2786,7 +2814,10 @@ class _Response(werkzeug.wrappers.Response):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3002,8 +3033,11 @@ class Response(Proxy):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         response = args[0] if len(args) == 1 and isinstance(args[0], _Response) else _Response(*args, **kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3058,6 +3092,9 @@ class Response(Proxy):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3107,7 +3144,10 @@ class Response(Proxy):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3160,6 +3200,9 @@ HTTPException.get_response = get_response
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3244,6 +3287,9 @@ werkzeug.exceptions.abort = abort
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3401,7 +3447,11 @@ class Request:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         sid = self.httprequest.cookies.get('session_id')
+=======
+        sid = self.httprequest._session_id__
+>>>>>>> upstream/18.0
 =======
         sid = self.httprequest._session_id__
 >>>>>>> upstream/18.0
@@ -3775,7 +3825,11 @@ class Request:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     )
+=======
+                    )._get_cm_proxy()
+>>>>>>> upstream/18.0
 =======
                     )._get_cm_proxy()
 >>>>>>> upstream/18.0
@@ -4656,7 +4710,11 @@ class JsonRPCDispatcher(Dispatcher):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else:
+=======
+        if result is not None:
+>>>>>>> upstream/18.0
 =======
         if result is not None:
 >>>>>>> upstream/18.0

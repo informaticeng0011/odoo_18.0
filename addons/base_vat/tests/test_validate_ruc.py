@@ -153,7 +153,10 @@ class TestStructure(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -230,6 +233,7 @@ class TestStructure(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -268,6 +272,8 @@ class TestStructure(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_vat_tw(self):
@@ -281,8 +287,27 @@ class TestStructure(TransactionCase):
                 test_partner.vat = ubn
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def test_vat_with_el_prefix(self):
+        """Ensure VAT numbers starting with 'EL' are validated correctly as Greek VATs"""
+        partner = self.env['res.partner'].create({
+            'name': 'Greek Company EL',
+            'country_id': self.env.ref('base.gr').id,
+            'vat': 'EL033910442',
+        })
+        vat_country, vat_id_no = partner._split_vat(partner.vat)
+        vat_is_valid = partner.simple_vat_check(vat_country, vat_id_no)
+
+        self.assertTrue(
+            vat_is_valid,
+            f"Expected EL-prefixed VAT ({partner.vat}) to be recognized as valid Greek VAT, "
+            f"but simple_vat_check({vat_country}, {vat_id_no}) returned False."
+        )
+
 >>>>>>> upstream/18.0
 
 @tagged('-standard', 'external')

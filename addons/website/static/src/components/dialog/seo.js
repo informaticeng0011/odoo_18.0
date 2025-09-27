@@ -114,9 +114,16 @@ class ImageSelector extends Component {
             useMediaLibrary: true,
             save: image => {
                 let existingImage;
+<<<<<<< HEAD
                 this.state.images = this.state.images.map(img => {
                     img.active = false;
                     if (img.src === image.src) {
+=======
+                const src = image.getAttribute('src');
+                this.state.images = this.state.images.map(img => {
+                    img.active = false;
+                    if (img.src === src) {
+>>>>>>> upstream/18.0
                         existingImage = img;
                         img.active = true;
                     }
@@ -124,12 +131,20 @@ class ImageSelector extends Component {
                 });
                 if (!existingImage) {
                     this.state.images.push({
+<<<<<<< HEAD
                         src: image.src,
+=======
+                        src: src,
+>>>>>>> upstream/18.0
                         active: true,
                         custom: true,
                     });
                 }
+<<<<<<< HEAD
                 this.seoContext.metaImage = image.src;
+=======
+                this.seoContext.metaImage = src;
+>>>>>>> upstream/18.0
             },
         });
     }
@@ -282,11 +297,14 @@ class SEOPreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.props.description.length > 160) {
             return this.props.description.substring(0, 159) + '…';
         }
         return this.props.description;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -333,6 +351,9 @@ class SEOPreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

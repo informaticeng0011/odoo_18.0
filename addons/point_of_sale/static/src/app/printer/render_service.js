@@ -42,7 +42,11 @@ export class RenderContainer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.props.onRendered(this.ref?.el?.firstChild);
+=======
+            this.props.onRendered(this.ref?.el?.firstElementChild);
+>>>>>>> upstream/18.0
 =======
             this.props.onRendered(this.ref?.el?.firstElementChild);
 >>>>>>> upstream/18.0

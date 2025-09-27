@@ -12,6 +12,10 @@ export const UPDATE_EVENT = Object.freeze({
     CONNECTION_CHANGE: "connection_change",
     DISCONNECT: "disconnect",
     INFO_CHANGE: "info_change",
+<<<<<<< HEAD
+=======
+    RECOVERY: "recovery",
+>>>>>>> upstream/18.0
     TRACK: "track",
 });
 const LOG_LEVEL = Object.freeze({
@@ -589,7 +593,10 @@ export class PeerToPeer extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -694,6 +701,9 @@ export class PeerToPeer extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -883,6 +893,10 @@ export class PeerToPeer extends EventTarget {
                 if (!peer?.connection || !this.channelId || (connectionSuccess && iceSuccess)) {
                     return;
                 }
+<<<<<<< HEAD
+=======
+                this._emitUpdate({ name: UPDATE_EVENT.RECOVERY, payload: { id } });
+>>>>>>> upstream/18.0
                 this._emitLog(id, `attempting to recover connection: ${reason}`, LOG_LEVEL.ERROR);
                 this._busNotify(INTERNAL_EVENT.DISCONNECT, { targets: [peer.id] });
                 this.removePeer(peer.id);

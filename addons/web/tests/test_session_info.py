@@ -17,9 +17,12 @@ class TestSessionInfo(common.HttpCase):
         cls.company_b_branch = cls.env['res.company'].create({'name': "B Branch", 'parent_id': cls.company_b.id})
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.allowed_companies = cls.company_a + cls.company_b_branch + cls.company_c
         cls.disallowed_ancestor_companies = cls.company_b
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.company_c_branch = cls.env['res.company'].create({'name': "C Branch", 'parent_id': cls.company_c.id})
@@ -27,6 +30,9 @@ class TestSessionInfo(common.HttpCase):
         cls.allowed_companies = cls.company_a + cls.company_b_branch + cls.company_c + cls.company_c_branch_branch
         cls.disallowed_ancestor_companies = cls.company_b + cls.company_c_branch
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

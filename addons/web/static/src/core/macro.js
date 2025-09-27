@@ -37,15 +37,21 @@ async function performAction(trigger, action) {
         return await action(trigger);
     } catch (error) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         throw new MacroError("Action", `ERROR during perform action:\n${error.message}`, {
             cause: error,
         });
 =======
+=======
+>>>>>>> upstream/18.0
         throw new MacroError(
             "Action",
             error.stack || `ERROR during perform action: ${error.message}`,
             {cause: error}
         );
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 }

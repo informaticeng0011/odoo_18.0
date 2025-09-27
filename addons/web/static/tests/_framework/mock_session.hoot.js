@@ -55,6 +55,10 @@ const makeSession = ({
         current_company: companies[0]?.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        disallowed_ancestor_companies: {},
+>>>>>>> upstream/18.0
 =======
         disallowed_ancestor_companies: {},
 >>>>>>> upstream/18.0

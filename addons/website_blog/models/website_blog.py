@@ -149,6 +149,22 @@ class BlogTag(models.Model):
         ('name_uniq', 'unique (name)', "Tag name already exists!"),
     ]
 
+<<<<<<< HEAD
+=======
+    def write(self, *args, **kwargs):
+        # When the tags configuration related to blog posts is changed, force
+        # the posts to be marked as updated (we will assume here that the tags
+        # own attributes are not changed everyday so this is acceptable). This
+        # allows to handle a t-cache problem in stable (blog tags not being
+        # updated if their color is changed for example). In 19.0, the t-cache
+        # system is gone so this will be removed and perf IMP done other ways.
+        # TODO remove in 19.0
+        res = super().write(*args, **kwargs)
+        for record in self:
+            record.post_ids.write({})
+        return res
+
+>>>>>>> upstream/18.0
 
 class BlogPost(models.Model):
     _name = "blog.post"

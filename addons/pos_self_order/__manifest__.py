@@ -26,10 +26,18 @@
     "assets": {
         # Assets
         'point_of_sale._assets_pos': [
+<<<<<<< HEAD
+=======
+            'pos_self_order/static/src/backend/qr_order_button/*',
+>>>>>>> upstream/18.0
             'pos_self_order/static/src/overrides/**/*',
         ],
         'web.assets_backend': [
             "pos_self_order/static/src/upgrade_selection_field.js",
+<<<<<<< HEAD
+=======
+            'pos_self_order/static/src/backend/qr_order_button/*',
+>>>>>>> upstream/18.0
         ],
         "pos_self_order.assets": [
             "pos_self_order/static/src/app/primary_variables.scss",

@@ -462,6 +462,10 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env.ref('product.decimal_product_uom').digits = 0
+>>>>>>> upstream/18.0
 =======
         self.env.ref('product.decimal_product_uom').digits = 0
 >>>>>>> upstream/18.0
@@ -763,6 +767,7 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'order_line': [(0, 0, {
                 'name': item1.name,
                 'product_id': item1.id,
@@ -771,6 +776,8 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
                 'price_unit': item1.list_price,
             })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -992,6 +999,9 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1222,10 +1232,13 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         so1.write({
             'order_line': [
                 (1, so1.order_line.id, {'product_uom_qty': 2}),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1446,6 +1459,9 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1689,7 +1705,11 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (1, so1.order_line.id, {'product_uom_qty': 3}),
+=======
+                Command.update(product_line.id, {'product_uom_qty': 3}),
+>>>>>>> upstream/18.0
 =======
                 Command.update(product_line.id, {'product_uom_qty': 3}),
 >>>>>>> upstream/18.0
@@ -1995,7 +2015,11 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(so1.order_line.qty_delivered, 3.0)
+=======
+        self.assertEqual(product_line.qty_delivered, 3.0)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(product_line.qty_delivered, 3.0)
 >>>>>>> upstream/18.0
@@ -3036,7 +3060,10 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3114,6 +3141,9 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3808,7 +3838,10 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3846,6 +3879,9 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4071,6 +4107,10 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        customer_location = self.env.ref('stock.stock_location_customers')
+>>>>>>> upstream/18.0
 =======
         customer_location = self.env.ref('stock.stock_location_customers')
 >>>>>>> upstream/18.0
@@ -4135,12 +4175,15 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'location_id': parent_location.id,
         })
         child_location_2 = self.env['stock.location'].create({
                 'name': 'child_2',
                 'location_id': parent_location.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4188,6 +4231,9 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4241,7 +4287,10 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4288,6 +4337,9 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4340,6 +4392,7 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         so.picking_ids[1].move_ids[0].location_dest_id = child_location_1
         so.picking_ids[1].move_ids[1].location_dest_id = child_location_2
         # Pack the moves of the first picking together.
@@ -4351,6 +4404,8 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
         self.assertEqual(so.picking_ids[1].move_ids.move_line_ids[0].location_dest_id, child_location_1)
         self.assertEqual(so.picking_ids[1].move_ids.move_line_ids[1].location_dest_id, child_location_2)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4408,6 +4463,9 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4555,7 +4613,10 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4739,6 +4800,7 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4763,6 +4825,8 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4911,6 +4975,7 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4931,6 +4996,8 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5049,6 +5116,7 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5083,6 +5151,8 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5163,6 +5233,7 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5191,4 +5262,58 @@ class TestSaleStock(TestSaleStockCommon, ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_create_route_update_so_quantity(self):
+        """
+        Check that moves created from user-created push rules does not interfere with updating the
+        quantity of pickings when the quanityt of the SO is updated
+        """
+        warehouse = self.env['stock.warehouse'].search([('company_id', '=', self.env.company.id)], limit=1)
+        warehouse.delivery_steps = 'pick_pack_ship'
+        stock_location = warehouse.lot_stock_id
+        pack_location, out_location, _ = warehouse.delivery_route_id.rule_ids.picking_type_id.default_location_dest_id
+
+        self.product_a.is_storable = True
+        self.env['stock.quant']._update_available_quantity(self.product_a, stock_location, 5)
+        loc_perso = self.env['stock.location'].create({
+                'name': 'Locperso',
+                'location_id': stock_location.id,
+        })
+        warehouse.delivery_route_id.rule_ids = [
+            Command.create({
+                'name': 'Push stock->Locperso',
+                'action': 'push',
+                'location_src_id': loc_perso.id,
+                'location_dest_id': out_location.id,
+                'picking_type_id': warehouse.int_type_id.id,
+                'propagate_cancel': False,
+                'procure_method': 'make_to_stock',
+            }),
+        ]
+        so = self.env['sale.order'].create({
+            'partner_id': self.partner_a.id,
+            'order_line': [Command.create({
+                'name': self.product_a.name,
+                'product_id': self.product_a.id,
+                'product_uom_qty': 1,
+                'product_uom': self.product_a.uom_id.id,
+                'price_unit': self.product_a.list_price,
+            })],
+        })
+        so.action_confirm()
+        picking_1 = so.picking_ids
+        self.assertRecordValues(picking_1, [
+            {'location_id': stock_location.id, 'location_dest_id': pack_location.id},
+        ])
+        picking_1.location_dest_id = loc_perso
+        picking_1.button_validate()
+        so.order_line.product_uom_qty = 2
+
+        self.assertRecordValues(so.picking_ids.move_ids.sorted("id"), [
+            {'location_id': stock_location.id, 'location_dest_id': loc_perso.id, 'quantity': 1},
+            {'location_id': loc_perso.id, 'location_dest_id': out_location.id, 'quantity': 1},
+            {'location_id': stock_location.id, 'location_dest_id': pack_location.id, 'quantity': 1},
+        ])
 >>>>>>> upstream/18.0

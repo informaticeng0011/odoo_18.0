@@ -14,6 +14,10 @@ import RatingPopupComposer from "@portal_rating/js/portal_rating_composer";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { _t } from "@web/core/l10n/translation";
+>>>>>>> upstream/18.0
 =======
 import { _t } from "@web/core/l10n/translation";
 >>>>>>> upstream/18.0
@@ -82,7 +86,10 @@ RatingPopupComposer.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -137,6 +144,9 @@ RatingPopupComposer.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

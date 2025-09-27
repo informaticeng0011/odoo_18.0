@@ -88,9 +88,15 @@ test("internal users can upload file to temporary thread", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard", { text: "text.txt", contains: [".fa-check"] });
     await triggerHotkey("Enter");
     await contains(".o-mail-Message .o-mail-AttachmentCard", { text: "text.txt" });
+=======
+    await contains(".o-mail-AttachmentCard:not(.o-isUploading):contains(text.txt) .fa-check");
+    await triggerHotkey("Enter");
+    await contains(".o-mail-Message .o-mail-AttachmentCard:contains(text.txt)");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-AttachmentCard:not(.o-isUploading):contains(text.txt) .fa-check");
     await triggerHotkey("Enter");

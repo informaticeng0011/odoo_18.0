@@ -64,6 +64,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for move in self:
             if move.country_code == 'IN' and move.is_sale_document(include_receipts=True):
                 partner_state = (
@@ -79,6 +80,8 @@ class AccountMove(models.Model):
                 else:
                     move.l10n_in_state_id = self.env.ref('l10n_in.state_in_oc', raise_if_not_found=False)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -135,6 +138,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -171,6 +177,14 @@ class AccountMove(models.Model):
 
     @api.depends('l10n_in_state_id', 'l10n_in_gst_treatment')
     def _compute_fiscal_position_id(self):
+<<<<<<< HEAD
+=======
+        sez_virtual_state = (
+            self.env['account.chart.template'].ref('fiscal_position_in_sez', raise_if_not_found=False)
+            and self.env.ref('l10n_in.state_in_oc', raise_if_not_found=False)
+            or self.env['res.country.state'].browse()
+        )
+>>>>>>> upstream/18.0
 
         def _get_fiscal_state(move, foreign_state):
             """
@@ -188,7 +202,13 @@ class AccountMove(models.Model):
                 return False
             elif move.l10n_in_gst_treatment == 'special_economic_zone':
                 # Special Economic Zone
+<<<<<<< HEAD
                 return foreign_state
+=======
+                # This will maintain the old behaviour in case the
+                # customer didn't reload the CoA
+                return sez_virtual_state or foreign_state
+>>>>>>> upstream/18.0
             elif move.is_sale_document(include_receipts=True):
                 # In Sales Documents: Compare place of supply with company state
                 return move.l10n_in_state_id if move.l10n_in_state_id.l10n_in_tin != '96' else foreign_state

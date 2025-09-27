@@ -10,6 +10,10 @@ import {
 } from "@web/../tests/web_test_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { session } from "@web/session";
+>>>>>>> upstream/18.0
 =======
 import { session } from "@web/session";
 >>>>>>> upstream/18.0
@@ -605,6 +609,10 @@ test("when less than 10 companies, typing key makes the search input visible", a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+test.tags("focus required");
+>>>>>>> upstream/18.0
 =======
 test.tags("focus required");
 >>>>>>> upstream/18.0
@@ -868,7 +876,10 @@ test("select and de-select all", async () => {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -914,6 +925,9 @@ test("disallowed companies in between allowed companies are not enabled", async 
     expect.verifySteps(["1-3"]);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
