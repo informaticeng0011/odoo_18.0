@@ -337,7 +337,11 @@ class MrpWorkcenter(models.Model):
         extra_leaves_slots_intervals = Intervals([(make_aware(start)[0], make_aware(stop)[0], self.env['resource.calendar.attendance']) for start, stop in extra_leaves_slots])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         remaining = duration
+=======
+        remaining = duration = max(duration, 1 / 60)
+>>>>>>> upstream/18.0
 =======
         remaining = duration = max(duration, 1 / 60)
 >>>>>>> upstream/18.0
@@ -579,6 +583,11 @@ class MrpWorkcenterProductivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.date_end:
+            return
+>>>>>>> upstream/18.0
 =======
         if not self.date_end:
             return

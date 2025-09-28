@@ -401,7 +401,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         journal_bank_cash = self.filtered(lambda j: j.type in ('bank', 'cash'))
+=======
+        journal_bank_cash = self.filtered(lambda j: j.type in ('bank', 'cash', 'credit'))
+>>>>>>> upstream/18.0
 =======
         journal_bank_cash = self.filtered(lambda j: j.type in ('bank', 'cash', 'credit'))
 >>>>>>> upstream/18.0
@@ -1238,7 +1242,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if journal.currency_id and journal.currency_id != journal.company_id.currency_id:
+=======
+            if journal.currency_id and journal.currency_id != journal.company_id.sudo().currency_id:
+>>>>>>> upstream/18.0
 =======
             if journal.currency_id and journal.currency_id != journal.company_id.sudo().currency_id:
 >>>>>>> upstream/18.0

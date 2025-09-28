@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from . import models
 from . import tools
 from . import wizard
@@ -8,6 +9,9 @@ from . import wizard
 =======
 >>>>>>> upstream/18.0
 from odoo.tools.sql import create_column
+=======
+from odoo.tools.sql import column_exists, create_column
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.sql import column_exists, create_column
 >>>>>>> upstream/18.0
@@ -23,14 +27,20 @@ def _pre_init_nemhandel(env):
         Mimic the compute method of nemhandel_identifier_type and nemhandel_identifier_value to fill these columns.
     """
 <<<<<<< HEAD
+<<<<<<< HEAD
     create_column(env.cr, "account_move", "nemhandel_move_state", "varchar")
     create_column(env.cr, "res_partner", "nemhandel_identifier_type", "varchar")
     create_column(env.cr, "res_partner", "nemhandel_identifier_value", "varchar")
 =======
+=======
+>>>>>>> upstream/18.0
     if not column_exists(env.cr, "account_move", "nemhandel_move_state"):
         create_column(env.cr, "account_move", "nemhandel_move_state", "varchar")
         create_column(env.cr, "res_partner", "nemhandel_identifier_type", "varchar")
         create_column(env.cr, "res_partner", "nemhandel_identifier_value", "varchar")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     query = """
@@ -51,6 +61,9 @@ def _pre_init_nemhandel(env):
     env.cr.execute(query)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

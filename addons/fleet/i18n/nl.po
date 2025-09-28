@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* fleet
 # 
 # Translators:
@@ -30,6 +31,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -82,6 +85,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -117,6 +123,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -184,6 +191,13 @@ msgstr ""
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18/fleet/nl/>"
 "\n"
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+"PO-Revision-Date: 2025-08-19 22:20+0000\n"
+"Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
+"Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18/fleet/nl/"
+">\n"
+>>>>>>> upstream/18.0
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -205,6 +219,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -373,7 +390,10 @@ msgstr "Activiteitsfase"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -427,6 +447,9 @@ msgstr "Soort activiteit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -509,6 +532,10 @@ msgstr "Archiveren"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_search
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_search
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Archived"
@@ -744,8 +771,13 @@ msgstr "Categorieën"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_model_category_action
 msgid ""
+<<<<<<< HEAD
 "Categories will help you manage your fleet more efficiently and arrange your"
 " vehicles."
+=======
+"Categories will help you manage your fleet more efficiently and arrange your "
+"vehicles."
+>>>>>>> upstream/18.0
 msgstr ""
 "Categorieën helpen je om je wagenpark efficiënter te beheren en je "
 "voertuigen te rangschikken."
@@ -791,8 +823,12 @@ msgstr "Kies of het contract nog geldig is of niet"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_service_type__category
+<<<<<<< HEAD
 msgid ""
 "Choose whether the service refer to contracts, vehicle services or both"
+=======
+msgid "Choose whether the service refer to contracts, vehicle services or both"
+>>>>>>> upstream/18.0
 msgstr ""
 "Kies of dienst betrekking heeft op contracten, voertuig onderhoud of beide"
 
@@ -1073,6 +1109,7 @@ msgstr "Datum waarop de dekking van de overeenkomst begint"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__expiration_date
 msgid ""
+<<<<<<< HEAD
 "Date when the coverage of the contract expirates (by default, one year after"
 " begin date)"
 msgstr ""
@@ -1140,6 +1177,13 @@ msgstr ""
 "startdatum)"
 >>>>>>> upstream/18.0
 =======
+"startdatum)"
+>>>>>>> upstream/18.0
+=======
+"Date when the coverage of the contract expirates (by default, one year after "
+"begin date)"
+msgstr ""
+"Datum waarop de dekking van het contract vervalt (standaard, een jaar na "
 "startdatum)"
 >>>>>>> upstream/18.0
 
@@ -2169,6 +2213,7 @@ msgstr "Bediening niet ondersteund."
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -2176,6 +2221,15 @@ msgstr ""
 "e-mail. Indien niet ingesteld, wordt de Engelse versie gebruikt. Dit moet "
 "meestal een placeholder zijn die de juiste taal biedt, bijv. {{ "
 "object.partner_id.lang }}."
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+msgstr ""
+"Optionele vertaaltaal (ISO-code) om te selecteren bij het verzenden van een "
+"e-mail. Indien niet ingesteld, wordt de Engelse versie gebruikt. Dit moet "
+"meestal een placeholder zijn die de juiste taal biedt, bijv. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_15
@@ -2557,7 +2611,11 @@ msgid "Start Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Begindatum"
+=======
+msgstr "Startdatum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Startdatum"
 >>>>>>> upstream/18.0
@@ -2660,7 +2718,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vandaag: Activiteit datum is vandaag\n"
+=======
+"Vandaag: Datum van activiteit is vandaag\n"
+>>>>>>> upstream/18.0
 =======
 "Vandaag: Datum van activiteit is vandaag\n"
 >>>>>>> upstream/18.0
@@ -2844,7 +2906,12 @@ msgstr "Touring assistentie"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_services_action
 msgid ""
 "Track all the services done on your vehicle.\n"
+<<<<<<< HEAD
 "            Services can be of many types: occasional repair, fixed maintenance, etc."
+=======
+"            Services can be of many types: occasional repair, fixed "
+"maintenance, etc."
+>>>>>>> upstream/18.0
 msgstr ""
 "Traceer alle diensten die gedaan zijn aan je voertuig.\n"
 "Diensten kunnen vele soorten zijn: sporadische reparaties, onderhoud, enz."

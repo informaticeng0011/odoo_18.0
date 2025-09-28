@@ -14,12 +14,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.tests import tagged
 from odoo import Command
 from odoo.tools import file_open
 from freezegun import freeze_time
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -71,6 +74,9 @@ from odoo.tools import file_open
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -122,6 +128,7 @@ class TestUBLTR(AccountTestInvoicingCommon):
             'country_id': cls.env.ref('base.tr').id,
             'email': 'info@company.trexample.com',
             'phone': '+90 501 234 56 78',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,6 +213,8 @@ class TestUBLTR(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'ref': 'Ulus',
             'bank_ids': [Command.create({'acc_number': 'TR0123456789'})],
         })
@@ -243,6 +252,9 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -282,6 +294,7 @@ class TestUBLTR(AccountTestInvoicingCommon):
             'country_id': cls.env.ref('base.tr').id,
             'email': 'info@tr_partner.com',
             'phone': '+90 509 876 54 32',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -413,6 +426,11 @@ class TestUBLTR(AccountTestInvoicingCommon):
             'invoice_edi_format': 'ubl_tr',
             'l10n_tr_nilvera_customer_status': 'earchive',
 >>>>>>> upstream/18.0
+=======
+            'bank_ids': [Command.create({'acc_number': 'TR9876543210'})],
+            'invoice_edi_format': 'ubl_tr',
+            'l10n_tr_nilvera_customer_status': 'earchive',
+>>>>>>> upstream/18.0
         })
 
         cls.tax_20 = cls.env['account.chart.template'].ref('tr_s_wh_20_2_10')
@@ -430,6 +448,7 @@ class TestUBLTR(AccountTestInvoicingCommon):
             'company_id': cls.company_data['company'].id,
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -482,6 +501,8 @@ class TestUBLTR(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _generate_invoice_xml(self, partner_id, **kwargs):
         invoice = self.env['account.move'].create({
             'move_type': 'out_invoice',
@@ -502,6 +523,9 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -593,6 +617,7 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             # Adding a ref field to the partner because this field has an influence on <BuyerReference> and
             # <PartyIdentification> tags in UBL but we have special code to not take it into account for UBL TR 1.2
@@ -690,6 +715,9 @@ class TestUBLTR(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
             generated_xml = self._generate_invoice_xml()
+=======
+            generated_xml = self._generate_invoice_xml(self.einvoice_partner)
+>>>>>>> upstream/18.0
 =======
             generated_xml = self._generate_invoice_xml(self.einvoice_partner)
 >>>>>>> upstream/18.0
@@ -760,7 +788,11 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.get_xml_tree_from_string(expected_xml)
+=======
+            self.get_xml_tree_from_string(expected_xml),
+>>>>>>> upstream/18.0
 =======
             self.get_xml_tree_from_string(expected_xml),
 >>>>>>> upstream/18.0
@@ -829,7 +861,11 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             generated_xml = self._generate_invoice_xml(currency_id=self.env.ref('base.USD').id)
+=======
+            generated_xml = self._generate_invoice_xml(partner_id=self.einvoice_partner, currency_id=self.env.ref('base.USD').id)
+>>>>>>> upstream/18.0
 =======
             generated_xml = self._generate_invoice_xml(partner_id=self.einvoice_partner, currency_id=self.env.ref('base.USD').id)
 >>>>>>> upstream/18.0
@@ -900,6 +936,7 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.get_xml_tree_from_string(expected_xml)
         )
 
@@ -909,6 +946,8 @@ class TestUBLTR(AccountTestInvoicingCommon):
         with freeze_time('2025-03-05'):
             generated_xml = self._generate_invoice_xml()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -960,6 +999,9 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -997,6 +1039,7 @@ class TestUBLTR(AccountTestInvoicingCommon):
 
         self.assertXmlTreeEqual(
             self.get_xml_tree_from_string(generated_xml),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1052,6 +1095,8 @@ class TestUBLTR(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             self.get_xml_tree_from_string(expected_xml),
         )
 
@@ -1073,6 +1118,9 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1126,7 +1174,11 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.get_xml_tree_from_string(expected_xml)
+=======
+            self.get_xml_tree_from_string(expected_xml),
+>>>>>>> upstream/18.0
 =======
             self.get_xml_tree_from_string(expected_xml),
 >>>>>>> upstream/18.0

@@ -150,7 +150,10 @@ class BlogTag(models.Model):
     ]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def write(self, *args, **kwargs):
         # When the tags configuration related to blog posts is changed, force
         # the posts to be marked as updated (we will assume here that the tags
@@ -164,6 +167,9 @@ class BlogTag(models.Model):
             record.post_ids.write({})
         return res
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class BlogPost(models.Model):

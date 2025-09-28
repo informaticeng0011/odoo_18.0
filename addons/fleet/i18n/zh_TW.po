@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* fleet
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -91,10 +92,18 @@
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Tony Ng, 2025
+# Wil Odoo, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,6 +214,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: zh_TW\n"
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/"
+"zh_TW/)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: fleet
@@ -343,7 +363,10 @@ msgstr "活動狀態"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -397,6 +420,9 @@ msgstr "活動類型"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -479,6 +505,10 @@ msgstr "封存"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_search
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_search
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Archived"
@@ -714,8 +744,13 @@ msgstr "類別"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_model_category_action
 msgid ""
+<<<<<<< HEAD
 "Categories will help you manage your fleet more efficiently and arrange your"
 " vehicles."
+=======
+"Categories will help you manage your fleet more efficiently and arrange your "
+"vehicles."
+>>>>>>> upstream/18.0
 msgstr "分類可幫助您更有效地管理車隊和安排車輛。"
 
 #. module: fleet
@@ -759,8 +794,12 @@ msgstr "選擇合約是否依舊有效"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_service_type__category
+<<<<<<< HEAD
 msgid ""
 "Choose whether the service refer to contracts, vehicle services or both"
+=======
+msgid "Choose whether the service refer to contracts, vehicle services or both"
+>>>>>>> upstream/18.0
 msgstr "選擇服務是指合約、車輛服務，還是兩者"
 
 #. module: fleet
@@ -995,7 +1034,11 @@ msgid "Create a new odometer log"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "點選建立一個新的里程記錄"
+=======
+msgstr "建立新的里程錶記錄"
+>>>>>>> upstream/18.0
 =======
 msgstr "建立新的里程錶記錄"
 >>>>>>> upstream/18.0
@@ -1252,8 +1295,13 @@ msgstr "合約有效期內的起始日期"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__expiration_date
 msgid ""
+<<<<<<< HEAD
 "Date when the coverage of the contract expirates (by default, one year after"
 " begin date)"
+=======
+"Date when the coverage of the contract expirates (by default, one year after "
+"begin date)"
+>>>>>>> upstream/18.0
 msgstr "合約覆蓋範圍的有效日期（在預設情況下，開始日期一年之後）"
 
 #. module: fleet
@@ -1379,7 +1427,11 @@ msgid "Doors Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "車門數量"
+=======
+msgstr "車門數目"
+>>>>>>> upstream/18.0
 =======
 msgstr "車門數目"
 >>>>>>> upstream/18.0
@@ -2449,7 +2501,11 @@ msgid "Number of doors of the vehicle"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "車輛車門數量"
+=======
+msgstr "車輛車門數目"
+>>>>>>> upstream/18.0
 =======
 msgstr "車輛車門數目"
 >>>>>>> upstream/18.0
@@ -2726,11 +2782,19 @@ msgstr "不支援該操作。"
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
 "發送電子郵件時要選擇的可選翻譯語言（ISO 代碼）。如果未設置，將使用英文版本。這通常應該是提供適當語言的佔位符表達式，例如{{ "
 "object.partner_id.lang }}。"
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+msgstr ""
+"發送電子郵件時要選擇的可選翻譯語言（ISO 代碼）。如果未設置，將使用英文版本。"
+"這通常應該是提供適當語言的佔位符表達式，例如{{ object.partner_id.lang }}。"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_15
@@ -3090,7 +3154,11 @@ msgid "Services"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "服務介紹"
+=======
+msgstr "服務"
+>>>>>>> upstream/18.0
 =======
 msgstr "服務"
 >>>>>>> upstream/18.0
@@ -3461,7 +3529,11 @@ msgid "The following vehicle drivers are missing an email address: %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "以下車輛司機缺少電子郵件地址: %s。"
+=======
+msgstr "以下車輛司機缺漏電郵地址：%s。"
+>>>>>>> upstream/18.0
 =======
 msgstr "以下車輛司機缺漏電郵地址：%s。"
 >>>>>>> upstream/18.0
@@ -3717,7 +3789,12 @@ msgstr "旅遊援助"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_services_action
 msgid ""
 "Track all the services done on your vehicle.\n"
+<<<<<<< HEAD
 "            Services can be of many types: occasional repair, fixed maintenance, etc."
+=======
+"            Services can be of many types: occasional repair, fixed "
+"maintenance, etc."
+>>>>>>> upstream/18.0
 msgstr ""
 "追蹤您的車輛所做的所有服務。\n"
 "         服務可以有多種類型：臨時維修、定期保養等。"

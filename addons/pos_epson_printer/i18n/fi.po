@@ -1,16 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_epson_printer
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Kim Asplund <kim.asplund@gmail.com>, 2024
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024\n"
@@ -19,6 +28,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fi\n"
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024\n"
+"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_epson_printer
@@ -31,8 +50,13 @@ msgstr "Kassalipas"
 #. odoo-javascript
 #: code:addons/pos_epson_printer/static/src/app/epson_printer.js:0
 msgid ""
+<<<<<<< HEAD
 "Check on the printer configuration for the 'Device ID' setting. It should be"
 " set to: "
+=======
+"Check on the printer configuration for the 'Device ID' setting. It should be "
+"set to: "
+>>>>>>> upstream/18.0
 msgstr ""
 "Tarkista tulostimen kokoonpanosta 'Device ID' -asetus. Sen pitäisi olla "
 "asetettu seuraavaan arvoon: "
@@ -68,8 +92,13 @@ msgstr "Epson kuittitulostimen IP-osoite"
 #. odoo-javascript
 #: code:addons/pos_epson_printer/static/src/app/epson_printer.js:0
 msgid ""
+<<<<<<< HEAD
 "If you are on a secure server (HTTPS) please make sure you manually accepted"
 " the certificate by accessing %s. "
+=======
+"If you are on a secure server (HTTPS) please make sure you manually accepted "
+"the certificate by accessing %s. "
+>>>>>>> upstream/18.0
 msgstr ""
 "Jos olet suojatulla palvelimella (HTTPS), varmista, että olet hyväksynyt "
 "varmenteen manuaalisesti painamalla %s."
@@ -77,8 +106,15 @@ msgstr ""
 #. module: pos_epson_printer
 #: model:ir.model.fields,help:pos_epson_printer.field_pos_config__epson_printer_ip
 #: model:ir.model.fields,help:pos_epson_printer.field_pos_printer__epson_printer_ip
+<<<<<<< HEAD
 msgid "Local IP address of an Epson receipt printer."
 msgstr "Epsonin kuittitulostimen paikallinen IP-osoite."
+=======
+msgid ""
+"Local IP address of an Epson receipt printer, or its serial number if the "
+"'Automatic Certificate Update' option is enabled in the printer settings."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: pos_epson_printer
 #. odoo-javascript
@@ -140,8 +176,12 @@ msgstr "Tulostin antoi seuraavan virhekoodin:"
 #. odoo-javascript
 #: code:addons/pos_epson_printer/static/src/app/epson_printer.js:0
 msgid "The printer was successfully reached, but it wasn't able to print."
+<<<<<<< HEAD
 msgstr ""
 "Tulostin tavoitettiin onnistuneesti, mutta se ei pystynyt tulostamaan."
+=======
+msgstr "Tulostin tavoitettiin onnistuneesti, mutta se ei pystynyt tulostamaan."
+>>>>>>> upstream/18.0
 
 #. module: pos_epson_printer
 #. odoo-javascript
@@ -153,3 +193,9 @@ msgstr "Jos haluat lisätietoja virheen syystä, etsi verkossa osoitteesta:"
 #: model:ir.model.fields.selection,name:pos_epson_printer.selection__pos_printer__printer_type__epson_epos
 msgid "Use an Epson printer"
 msgstr "Käytä Epson-tulostinta"
+<<<<<<< HEAD
+=======
+
+#~ msgid "Local IP address of an Epson receipt printer."
+#~ msgstr "Epsonin kuittitulostimen paikallinen IP-osoite."
+>>>>>>> upstream/18.0

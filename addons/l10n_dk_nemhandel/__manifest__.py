@@ -38,6 +38,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'pre_init_hook': '_pre_init_nemhandel',
+>>>>>>> upstream/18.0
 =======
     'pre_init_hook': '_pre_init_nemhandel',
 >>>>>>> upstream/18.0

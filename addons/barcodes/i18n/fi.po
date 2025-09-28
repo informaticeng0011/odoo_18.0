@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* barcodes
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Retropikzel, 2024
 # Marko Happonen <marko.happonen@sprintit.fi>, 2024
@@ -14,11 +18,16 @@
 # Tuomas Lyyra <tuomas.lyyra@legenda.fi>, 2024
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024
 # Jessica Jakara, 2025
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -287,6 +296,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fi\n"
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Jessica Jakara, 2025\n"
+"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: barcodes
@@ -298,6 +317,7 @@ msgstr " '*' ei ole kelvollinen Regex-viivakoodikuvio. Tarkoititko '.*'?"
 #. module: barcodes
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and categorized.\n"
 "                                When a barcode is scanned it is associated to the <i>first</i> rule with a matching\n"
 "                                pattern. The pattern syntax is that of regular expression, and a barcode is matched\n"
@@ -306,13 +326,35 @@ msgstr ""
 "<i>Viivakoodit nimikkeistöissä</i> määritellään, miten viivakoodit tunnistetaan ja luokitellaan.\n"
 "                                Kun viivakoodi skannataan, se liitetään <i>ensimmäiseen</i> sääntöön, jolla on vastaava viivakoodi.\n"
 "                                Kuvion syntaksi on regexp-lauseke, ja viivakoodia vastataan seuraavasti\n"
+=======
+"<i>Barcodes Nomenclatures</i> define how barcodes are recognized and "
+"categorized.\n"
+"                                When a barcode is scanned it is associated "
+"to the <i>first</i> rule with a matching\n"
+"                                pattern. The pattern syntax is that of "
+"regular expression, and a barcode is matched\n"
+"                                if the regular expression matches a prefix "
+"of the barcode."
+msgstr ""
+"<i>Viivakoodit nimikkeistöissä</i> määritellään, miten viivakoodit "
+"tunnistetaan ja luokitellaan.\n"
+"                                Kun viivakoodi skannataan, se liitetään "
+"<i>ensimmäiseen</i> sääntöön, jolla on vastaava viivakoodi.\n"
+"                                Kuvion syntaksi on regexp-lauseke, ja "
+"viivakoodia vastataan seuraavasti\n"
+>>>>>>> upstream/18.0
 "                                jos regexp vastaa viivakoodin etuliitettä."
 
 #. module: barcodes
 #: model_terms:ir.actions.act_window,help:barcodes.action_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 "A barcode nomenclature defines how the point of sale identify and interprets"
 " barcodes"
+=======
+"A barcode nomenclature defines how the point of sale identify and interprets "
+"barcodes"
+>>>>>>> upstream/18.0
 msgstr ""
 "Viivakoodinimikkeistö määrittelee, miten kassa tunnistaa ja tulkitsee "
 "viivakoodit"
@@ -515,7 +557,10 @@ msgstr "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -706,6 +751,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: barcodes
 <<<<<<< HEAD
@@ -734,6 +780,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -903,6 +951,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1038,6 +1089,7 @@ msgstr "Nimikkeistö"
 #. module: barcodes
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 "Patterns can also define how numerical values, such as weight or price, can be\n"
 "                                encoded into the barcode. They are indicated by <code>{NNN}</code> where the N's\n"
 "                                define where the number's digits are encoded. Floats are also supported with the\n"
@@ -1050,6 +1102,30 @@ msgstr ""
 "                                määrittelevät, mihin numeron numerot koodataan. Liukulukuja on myös mahdollista käyttää kirjoittamalla\n"
 "                                desimaaleja, jotka on merkitty D-kirjaimilla. Esimerkiksi <code>{NNNDD}</code>. Näissä tapauksissa,\n"
 "                                tietueiden viivakoodikentän <i>on</i> näytettävä nämä numerot\n"
+=======
+"Patterns can also define how numerical values, such as weight or price, can "
+"be\n"
+"                                encoded into the barcode. They are indicated "
+"by <code>{NNN}</code> where the N's\n"
+"                                define where the number's digits are "
+"encoded. Floats are also supported with the\n"
+"                                decimals indicated with D's, such as "
+"<code>{NNNDD}</code>. In these cases,\n"
+"                                the barcode field on the associated records "
+"<i>must</i> show these digits as\n"
+"                                zeroes."
+msgstr ""
+"Kuviot voivat myös määritellä, miten numeeriset arvot, kuten paino tai "
+"hinta, voidaan olla\n"
+"                                koodata viivakoodiin. Ne osoitetaan "
+"<code>{NNN}</code> jossa N:t\n"
+"                                määrittelevät, mihin numeron numerot "
+"koodataan. Liukulukuja on myös mahdollista käyttää kirjoittamalla\n"
+"                                desimaaleja, jotka on merkitty D-"
+"kirjaimilla. Esimerkiksi <code>{NNNDD}</code>. Näissä tapauksissa,\n"
+"                                tietueiden viivakoodikentän <i>on</i> "
+"näytettävä nämä numerot\n"
+>>>>>>> upstream/18.0
 "                                nollina."
 
 #. module: barcodes
@@ -1124,8 +1200,13 @@ msgid ""
 "There is a syntax error in the barcode pattern %(pattern)s: braces can only "
 "contain N's followed by D's."
 msgstr ""
+<<<<<<< HEAD
 "Viivakoodikuviossa %(pattern)s on syntaksivirhe: suluissa voi olla vain "
 "N-kirjaimia, joita seuraa D-kirjain."
+=======
+"Viivakoodikuviossa %(pattern)s on syntaksivirhe: suluissa voi olla vain N-"
+"kirjaimia, joita seuraa D-kirjain."
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
@@ -1152,11 +1233,19 @@ msgstr "Tyyppi"
 #: model:ir.model.fields,help:barcodes.field_barcode_nomenclature__upc_ean_conv
 msgid ""
 "UPC Codes can be converted to EAN by prefixing them with a zero. This "
+<<<<<<< HEAD
 "setting determines if a UPC/EAN barcode should be automatically converted in"
 " one way or another when trying to match a rule with the other encoding."
 msgstr ""
 "UPC-koodit voidaan muuntaa EAN-koodeiksi lisäämällä niiden eteen nolla. Tämä"
 " asetus määrittää, muunnetaanko UPC/EAN-viivakoodi automaattisesti tavalla "
+=======
+"setting determines if a UPC/EAN barcode should be automatically converted in "
+"one way or another when trying to match a rule with the other encoding."
+msgstr ""
+"UPC-koodit voidaan muuntaa EAN-koodeiksi lisäämällä niiden eteen nolla. Tämä "
+"asetus määrittää, muunnetaanko UPC/EAN-viivakoodi automaattisesti tavalla "
+>>>>>>> upstream/18.0
 "tai toisella, kun yritetään sovittaa sääntöä toiseen koodaukseen."
 
 #. module: barcodes
@@ -1187,8 +1276,12 @@ msgstr "Tuntematon viivakoodikomento"
 
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcode_rule__sequence
+<<<<<<< HEAD
 msgid ""
 "Used to order rules such that rules with a smaller sequence match first"
+=======
+msgid "Used to order rules such that rules with a smaller sequence match first"
+>>>>>>> upstream/18.0
 msgstr ""
 "Järjestetään säännöt siten, että pienemmän sekvenssin omaavat säännöt "
 "täsmäävät ensin"
@@ -1197,3 +1290,13 @@ msgstr ""
 #: model:ir.model.fields,help:barcodes.field_barcodes_barcode_events_mixin___barcode_scanned
 msgid "Value of the last barcode scanned."
 msgstr "Viimeksi skannatun viivakoodin arvo."
+<<<<<<< HEAD
+=======
+
+#. module: barcodes
+#. odoo-python
+#: code:addons/barcodes/models/barcode_nomenclature.py:0
+msgid ""
+"You cannot delete '%(name)s' because it's the default barcode nomenclature."
+msgstr ""
+>>>>>>> upstream/18.0

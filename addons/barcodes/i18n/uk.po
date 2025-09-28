@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes
 # 
 # Translators:
@@ -297,6 +298,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * barcodes
 #
 # Translators:
@@ -317,6 +320,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -352,6 +358,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -751,6 +758,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-05-23 18:39+0000\n"
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-12 22:21+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
@@ -759,6 +769,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
@@ -810,6 +821,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
@@ -820,6 +838,7 @@ msgstr " '*' недійсний паттерн штрих-коду Regex. Ви �
 #. module: barcodes
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and categorized.\n"
 "                                When a barcode is scanned it is associated to the <i>first</i> rule with a matching\n"
 "                                pattern. The pattern syntax is that of regular expression, and a barcode is matched\n"
@@ -828,11 +847,29 @@ msgstr ""
 "<i>Номенклатури штрих-кодів</i> визначте, як штрих-коди будуть зчитуватися та сортуватися.\n"
 "Просканований штрих-код пов'язується з <i>першим</i> правилом відповідним шаблоном.\n"
 "Синтаксис шаблона належить до регулярних виразів, а штрих-коди співпадають, \n"
+=======
+"<i>Barcodes Nomenclatures</i> define how barcodes are recognized and "
+"categorized.\n"
+"                                When a barcode is scanned it is associated "
+"to the <i>first</i> rule with a matching\n"
+"                                pattern. The pattern syntax is that of "
+"regular expression, and a barcode is matched\n"
+"                                if the regular expression matches a prefix "
+"of the barcode."
+msgstr ""
+"<i>Номенклатури штрих-кодів</i> визначте, як штрих-коди будуть зчитуватися "
+"та сортуватися.\n"
+"Просканований штрих-код пов'язується з <i>першим</i> правилом відповідним "
+"шаблоном.\n"
+"Синтаксис шаблона належить до регулярних виразів, а штрих-коди "
+"співпадають, \n"
+>>>>>>> upstream/18.0
 "якщо регулярний вираз співпадає з префіксом штрих-кода."
 
 #. module: barcodes
 #: model_terms:ir.actions.act_window,help:barcodes.action_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 "A barcode nomenclature defines how the point of sale identify and interprets"
 " barcodes"
 msgstr ""
@@ -902,6 +939,13 @@ msgstr ""
 =======
 "та зчитувати"
 >>>>>>> upstream/18.0
+=======
+"A barcode nomenclature defines how the point of sale identify and interprets "
+"barcodes"
+msgstr ""
+"Номенклатура штрих-кодів визначає, як точка продажу буде їх ідентифікувати "
+"та зчитувати"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model_terms:ir.actions.act_window,help:barcodes.action_barcode_nomenclature_form
@@ -938,7 +982,11 @@ msgid "An internal identification for this barcode nomenclature rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Внутрішня ідентифікація для правил номенклатури цих штрих-кодів "
+=======
+msgstr "Внутрішня ідентифікація для правил номенклатури цих штрих-кодів"
+>>>>>>> upstream/18.0
 =======
 msgstr "Внутрішня ідентифікація для правил номенклатури цих штрих-кодів"
 >>>>>>> upstream/18.0
@@ -1007,7 +1055,11 @@ msgid "An internal identification of the barcode nomenclature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Внутрішня ідентифікація номенклатури штрих-кодів "
+=======
+msgstr "Внутрішня ідентифікація номенклатури штрих-кодів"
+>>>>>>> upstream/18.0
 =======
 msgstr "Внутрішня ідентифікація номенклатури штрих-кодів"
 >>>>>>> upstream/18.0
@@ -1184,7 +1236,11 @@ msgid "Barcode: %(barcode)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Штрих-код: %(barcode)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Штрих-код: %(barcode)s"
 >>>>>>> upstream/18.0
@@ -1537,7 +1593,10 @@ msgstr "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1731,6 +1790,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: barcodes
 <<<<<<< HEAD
@@ -1750,6 +1810,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1928,6 +1990,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2069,6 +2134,7 @@ msgstr "Номенклатура"
 #. module: barcodes
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 "Patterns can also define how numerical values, such as weight or price, can be\n"
 "                                encoded into the barcode. They are indicated by <code>{NNN}</code> where the N's\n"
 "                                define where the number's digits are encoded. Floats are also supported with the\n"
@@ -2081,6 +2147,29 @@ msgstr ""
 "                                визначає де кодуються цифри. Числа з плаваючою точкою також підтримуються \n"
 "десятковими дробами, позначеними D, наприклад <code>{NNNDD}</code>. У такому випадку\n"
 "                                поле штрих-коду на пов'язаних записах <i>має</i> показувати ці цифри як\n"
+=======
+"Patterns can also define how numerical values, such as weight or price, can "
+"be\n"
+"                                encoded into the barcode. They are indicated "
+"by <code>{NNN}</code> where the N's\n"
+"                                define where the number's digits are "
+"encoded. Floats are also supported with the\n"
+"                                decimals indicated with D's, such as "
+"<code>{NNNDD}</code>. In these cases,\n"
+"                                the barcode field on the associated records "
+"<i>must</i> show these digits as\n"
+"                                zeroes."
+msgstr ""
+"Шаблони також можуть визначати, як числові значення, такі як вага або ціна, "
+"можуть бути закодовані\n"
+" в штрих-коді. Вони ідентифікуцються за <code>{NNN}</code> де N\n"
+"                                визначає де кодуються цифри. Числа з "
+"плаваючою точкою також підтримуються \n"
+"десятковими дробами, позначеними D, наприклад <code>{NNNDD}</code>. У такому "
+"випадку\n"
+"                                поле штрих-коду на пов'язаних записах "
+"<i>має</i> показувати ці цифри як\n"
+>>>>>>> upstream/18.0
 "                                нулі."
 
 #. module: barcodes
@@ -2152,7 +2241,11 @@ msgid "The matched pattern will alias to this barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Відповідний шаблон буде призначено як псевдонім для цього штрих-коду."
+=======
+msgstr "Відповідний шаблон буде призначено як псевдонім для цього штрих-коду"
+>>>>>>> upstream/18.0
 =======
 msgstr "Відповідний шаблон буде призначено як псевдонім для цього штрих-коду"
 >>>>>>> upstream/18.0
@@ -2247,8 +2340,13 @@ msgstr "Тип"
 #: model:ir.model.fields,help:barcodes.field_barcode_nomenclature__upc_ean_conv
 msgid ""
 "UPC Codes can be converted to EAN by prefixing them with a zero. This "
+<<<<<<< HEAD
 "setting determines if a UPC/EAN barcode should be automatically converted in"
 " one way or another when trying to match a rule with the other encoding."
+=======
+"setting determines if a UPC/EAN barcode should be automatically converted in "
+"one way or another when trying to match a rule with the other encoding."
+>>>>>>> upstream/18.0
 msgstr ""
 "UPC коди можна конвертувати у EAN, дописуючи нулі спочатку. Це налаштування "
 "вказує, чи конвертувати автоматично UPC/EAN штрих-коди в тому чи іншому "
@@ -2282,6 +2380,7 @@ msgstr "Невідома команда штрих-коду"
 
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcode_rule__sequence
+<<<<<<< HEAD
 msgid ""
 "Used to order rules such that rules with a smaller sequence match first"
 msgstr ""
@@ -2367,8 +2466,24 @@ msgstr ""
 "Використовується для впорядкування правил. Правила з меншим значенням будуть "
 "відображатися першими"
 >>>>>>> upstream/18.0
+=======
+msgid "Used to order rules such that rules with a smaller sequence match first"
+msgstr ""
+"Використовується для впорядкування правил. Правила з меншим значенням будуть "
+"відображатися першими"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcodes_barcode_events_mixin___barcode_scanned
 msgid "Value of the last barcode scanned."
 msgstr "Значення останнього відсканованого штрих-коду."
+<<<<<<< HEAD
+=======
+
+#. module: barcodes
+#. odoo-python
+#: code:addons/barcodes/models/barcode_nomenclature.py:0
+msgid ""
+"You cannot delete '%(name)s' because it's the default barcode nomenclature."
+msgstr ""
+>>>>>>> upstream/18.0

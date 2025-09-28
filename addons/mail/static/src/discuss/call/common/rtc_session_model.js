@@ -11,7 +11,11 @@ export class RtcSession extends Record {
         return super.get(data);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @returns {Promies<import("models").RtcSession>} */
+=======
+    /** @returns {Promise<import("models").RtcSession>} */
+>>>>>>> upstream/18.0
 =======
     /** @returns {Promise<import("models").RtcSession>} */
 >>>>>>> upstream/18.0

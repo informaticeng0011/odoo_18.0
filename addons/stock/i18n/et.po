@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* stock
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Trigaux, 2024
 # Arma Gedonsky <armagedonsky@hot.ee>, 2024
@@ -25,7 +29,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # JanaAvalah, 2024
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -107,6 +114,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Avar Tammeleht, 2025
 >>>>>>> upstream/18.0
@@ -248,10 +256,16 @@
 # JanaAvalah, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Avar Tammeleht, 2025
+# JanaAvalah, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -458,6 +472,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: et\n"
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: JanaAvalah, 2025\n"
+"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: stock
@@ -466,11 +490,21 @@ msgstr ""
 msgid ""
 "\n"
 "\n"
+<<<<<<< HEAD
 "Transfers %(transfer_list)s: You need to supply a Lot/Serial number for products %(product_list)s."
 msgstr ""
 "\n"
 "\n"
 "Siirded %(transfer_list)s: vaja määrata partii/seerianumber toodetele  %(product_list)s."
+=======
+"Transfers %(transfer_list)s: You need to supply a Lot/Serial number for "
+"products %(product_list)s."
+msgstr ""
+"\n"
+"\n"
+"Siirded %(transfer_list)s: vaja määrata partii/seerianumber toodetele  %"
+"(product_list)s."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -487,17 +521,29 @@ msgstr ""
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "\n"
+<<<<<<< HEAD
 "The quantity done for the product %(product)s doesn't respect the rounding precision defined on the unit of measure %(unit)s.\n"
 "Please change the quantity done or the rounding precision of your unit of measure."
 msgstr ""
 "\n"
 "Toote %s jaoks tehtud kogus ei järgi mõõtühikus %s määratud ümardamistäpsust.\n"
+=======
+"The quantity done for the product %(product)s doesn't respect the rounding "
+"precision defined on the unit of measure %(unit)s.\n"
+"Please change the quantity done or the rounding precision of your unit of "
+"measure."
+msgstr ""
+"\n"
+"Toote %s jaoks tehtud kogus ei järgi mõõtühikus %s määratud "
+"ümardamistäpsust.\n"
+>>>>>>> upstream/18.0
 "Palun muutke tehtud kogust või mõõtühiku ümardamise täpsust."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__state
 msgid ""
 " * Draft: The transfer is not confirmed yet. Reservation doesn't apply.\n"
+<<<<<<< HEAD
 " * Waiting another operation: This transfer is waiting for another operation before being ready.\n"
 " * Waiting: The transfer is waiting for the availability of some products.\n"
 "(a) The shipping policy is \"As soon as possible\": no product could be reserved.\n"
@@ -505,17 +551,43 @@ msgid ""
 " * Ready: The transfer is ready to be processed.\n"
 "(a) The shipping policy is \"As soon as possible\": at least one product has been reserved.\n"
 "(b) The shipping policy is \"When all products are ready\": all product have been reserved.\n"
+=======
+" * Waiting another operation: This transfer is waiting for another operation "
+"before being ready.\n"
+" * Waiting: The transfer is waiting for the availability of some products.\n"
+"(a) The shipping policy is \"As soon as possible\": no product could be "
+"reserved.\n"
+"(b) The shipping policy is \"When all products are ready\": not all the "
+"products could be reserved.\n"
+" * Ready: The transfer is ready to be processed.\n"
+"(a) The shipping policy is \"As soon as possible\": at least one product has "
+"been reserved.\n"
+"(b) The shipping policy is \"When all products are ready\": all product have "
+"been reserved.\n"
+>>>>>>> upstream/18.0
 " * Done: The transfer has been processed.\n"
 " * Cancelled: The transfer has been cancelled."
 msgstr ""
 " * Mustand: Siire ei ole veel kinnitatud. Reserveerimist ei toimu.\n"
 " * Ootab teist tegevust: Siire ootab teist tegevust enne kui on valmis.\n"
 " * Ootel: Siire on mõndade toodete saadavuse ootel. \n"
+<<<<<<< HEAD
 "(a) Tarnepoliitika on \"Niipea kui võimalik\": ühtegi toodet ei olnud võimalik reserveerida.\n"
 "(b) Tarnepoliitika on \"Kui kõik tooted on valmis\": kõiki tooteid ei olnud võimalik reserveerida.\n"
 " * Valmis: Siire on protsessimiseks valmis.\n"
 "(a) Tarnepoliitika on \"Niipea kui võimalik\": vähemalt üks toodetest on reserveeritud. \n"
 "(b) Tarnepoliitika on \"Kui kõik tooted on valmis\": kõik tooted on reserveeritud. \n"
+=======
+"(a) Tarnepoliitika on \"Niipea kui võimalik\": ühtegi toodet ei olnud "
+"võimalik reserveerida.\n"
+"(b) Tarnepoliitika on \"Kui kõik tooted on valmis\": kõiki tooteid ei olnud "
+"võimalik reserveerida.\n"
+" * Valmis: Siire on protsessimiseks valmis.\n"
+"(a) Tarnepoliitika on \"Niipea kui võimalik\": vähemalt üks toodetest on "
+"reserveeritud. \n"
+"(b) Tarnepoliitika on \"Kui kõik tooted on valmis\": kõik tooted on "
+"reserveeritud. \n"
+>>>>>>> upstream/18.0
 " * Tehtud: Siire on protsessitud.\n"
 " * Tühistatud: Siire on tühistatud. "
 
@@ -598,8 +670,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid ""
+<<<<<<< HEAD
 "%(operations)s have default source or destination locations within warehouse"
 " %(warehouse)s, therefore you cannot archive it."
+=======
+"%(operations)s have default source or destination locations within warehouse "
+"%(warehouse)s, therefore you cannot archive it."
+>>>>>>> upstream/18.0
 msgstr ""
 "%(operations)s on vaikimisi lähte- või sihtasukohad laos %(warehouse)s, "
 "seega pole arhiveerimine võimalik. "
@@ -614,6 +691,7 @@ msgstr "%(product)s: ebapiisav kogus praaki määramiseks"
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 "%(product_name)s --> Product UoM is %(product_uom)s "
 "(%(product_uom_category)s) - Move UoM is %(move_uom)s "
 "(%(move_uom_category)s)"
@@ -621,6 +699,14 @@ msgstr ""
 "%(product_name)s --> Toote mõõtühik on %(product_uom)s "
 "(%(product_uom_category)s) - Siirde mõõtühik on %(move_uom)s "
 "(%(move_uom_category)s)"
+=======
+"%(product_name)s --> Product UoM is %(product_uom)s (%"
+"(product_uom_category)s) - Move UoM is %(move_uom)s (%(move_uom_category)s)"
+msgstr ""
+"%(product_name)s --> Toote mõõtühik on %(product_uom)s (%"
+"(product_uom_category)s) - Siirde mõõtühik on %(move_uom)s (%"
+"(move_uom_category)s)"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -700,8 +786,12 @@ msgstr "'Loendusleht'"
 
 #. module: stock
 #: model:ir.actions.report,print_report_name:stock.action_report_delivery
+<<<<<<< HEAD
 msgid ""
 "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+=======
+msgid "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+>>>>>>> upstream/18.0
 msgstr "'Saateleht - %s - %s' % (object.partner_id.name or '', object.name)"
 
 #. module: stock
@@ -763,13 +853,25 @@ msgstr "(seeria triipkood)"
 msgid ""
 "* New: The stock move is created but not confirmed.\n"
 "* Waiting Another Move: A linked stock move should be done before this one.\n"
+<<<<<<< HEAD
 "* Waiting Availability: The stock move is confirmed but the product can't be reserved.\n"
+=======
+"* Waiting Availability: The stock move is confirmed but the product can't be "
+"reserved.\n"
+>>>>>>> upstream/18.0
 "* Available: The product of the stock move is reserved.\n"
 "* Done: The product has been transferred and the transfer has been confirmed."
 msgstr ""
 "* Uus: Siire on loodud, kuid pole veel kinnitatud.\n"
+<<<<<<< HEAD
 "* Ootab teist tegevust: Seotud siire peab olema enne seda siiret tehtud staatuses.\n"
 "* Ootab saadavust: Siire on kinnitatud, kuid toodet ei ole võimalik reserveerida.\n"
+=======
+"* Ootab teist tegevust: Seotud siire peab olema enne seda siiret tehtud "
+"staatuses.\n"
+"* Ootab saadavust: Siire on kinnitatud, kuid toodet ei ole võimalik "
+"reserveerida.\n"
+>>>>>>> upstream/18.0
 "* Saadaval: Siirdel olev toode on reserveeritud.\n"
 "* Tehtud: Toode on kohaletoimetatud ning siire on kinnitatud."
 
@@ -780,6 +882,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_move_line__location_dest_usage
 #: model:ir.model.fields,help:stock.field_stock_move_line__location_usage
 msgid ""
+<<<<<<< HEAD
 "* Vendor Location: Virtual location representing the source location for products coming from your vendors\n"
 "* View: Virtual location used to create a hierarchical structures for your warehouse, aggregating its child locations ; can't directly contain products\n"
 "* Internal Location: Physical locations inside your own warehouses,\n"
@@ -795,6 +898,38 @@ msgstr ""
 "* Inventuuri kadu: inventuuride taseme korrigeerimiseks kasutatavate inventuuri toimingute vastena kasutatav virtuaalne asukoht (füüsilised varud)\n"
 "* Tootmine: tootmistoimingute virtuaalne asukoht: see asukoht kasutab komponente ja toodab valmistooteid\n"
 "* Transiidi asukoht: vastaspoole asukoht, mida tuleks kasutada ettevõttevahelistes või ladude vahelistes operatsioonides"
+=======
+"* Vendor Location: Virtual location representing the source location for "
+"products coming from your vendors\n"
+"* View: Virtual location used to create a hierarchical structures for your "
+"warehouse, aggregating its child locations ; can't directly contain "
+"products\n"
+"* Internal Location: Physical locations inside your own warehouses,\n"
+"* Customer Location: Virtual location representing the destination location "
+"for products sent to your customers\n"
+"* Inventory Loss: Virtual location serving as counterpart for inventory "
+"operations used to correct stock levels (Physical inventories)\n"
+"* Production: Virtual counterpart location for production operations: this "
+"location consumes the components and produces finished products\n"
+"* Transit Location: Counterpart location that should be used in inter-"
+"company or inter-warehouses operations"
+msgstr ""
+"* Tarnija asukoht: Virtuaalne asukoht, mis tähistab lähtekohta toodetele, "
+"mis saabuvad tarnijatelt. \n"
+"* Vaade: Virtuaalne asukoht, mida kasutatakse loomaks teie ladudele "
+"hierarhilisi struktuure, koondades selle alamasukohad ; ei saa otseselt "
+"tooteid sisaldada \n"
+"* Sisemine asukoht: Füüsiline asukoht teie enda ladudes\n"
+"* Kliendi asukoht: Virtuaalne asukoht, mis tähistab teie klientidele "
+"saadetud toodete sihtkoha asukohta\n"
+"* Inventuuri kadu: inventuuride taseme korrigeerimiseks kasutatavate "
+"inventuuri toimingute vastena kasutatav virtuaalne asukoht (füüsilised "
+"varud)\n"
+"* Tootmine: tootmistoimingute virtuaalne asukoht: see asukoht kasutab "
+"komponente ja toodab valmistooteid\n"
+"* Transiidi asukoht: vastaspoole asukoht, mida tuleks kasutada "
+"ettevõttevahelistes või ladude vahelistes operatsioonides"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -940,11 +1075,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 "<br>If the products are not available in <b>%s</b>, a rule will be triggered"
 " to bring the missing quantity in this location."
 msgstr ""
 "<br>Kui tooted ei ole <b>%s</b> saadaval, käivitatakse reegel, e tuua puuduv"
 " kogus sellesse asukohta."
+=======
+"<br>If the products are not available in <b>%s</b>, a rule will be triggered "
+"to bring the missing quantity in this location."
+msgstr ""
+"<br>Kui tooted ei ole <b>%s</b> saadaval, käivitatakse reegel, e tuua puuduv "
+"kogus sellesse asukohta."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -953,14 +1096,20 @@ msgid ""
 "<br>The products will be moved towards <b>%(destination)s</b>, <br/> as "
 "specified from <b>%(operation)s</b> destination."
 msgstr ""
+<<<<<<< HEAD
 "<br>Tooted liiguvad <b>%(destination)s</b> suunas, <br/> täpsustatult "
 "<b>%(operation)s</b> asukohast."
+=======
+"<br>Tooted liiguvad <b>%(destination)s</b> suunas, <br/> täpsustatult <b>%"
+"(operation)s</b> asukohast."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:mail.template,body_html:stock.mail_template_data_delivery_confirmation
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 "        Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
 "        We are glad to inform you that your order has been shipped.\n"
 "        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref\">\n"
@@ -975,6 +1124,28 @@ msgid ""
 "                </t>\n"
 "                <t t-else=\"\">\n"
 "                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
+=======
+"        Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,"
+"<br/><br/>\n"
+"        We are glad to inform you that your order has been shipped.\n"
+"        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and "
+"object.carrier_tracking_ref\">\n"
+"            Your tracking reference is\n"
+"            <strong>\n"
+"            <t t-if=\"object.carrier_tracking_url\">\n"
+"                <t t-set=\"multiple_carrier_tracking\" t-"
+"value=\"object.get_multiple_carrier_tracking()\"/>\n"
+"                <t t-if=\"multiple_carrier_tracking\">\n"
+"                    <t t-foreach=\"multiple_carrier_tracking\" t-"
+"as=\"line\">\n"
+"                        <br/><a t-att-href=\"line[1]\" target=\"_blank\" t-"
+"out=\"line[0] or ''\"/>\n"
+"                    </t>\n"
+"                </t>\n"
+"                <t t-else=\"\">\n"
+"                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" "
+"target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "            </t>\n"
 "            <t t-else=\"\">\n"
@@ -983,11 +1154,21 @@ msgid ""
 "            </strong>\n"
 "        </t>\n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
 "        Please find your delivery order attached for more details.<br/><br/>\n"
 "        Thank you,\n"
 "        <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "            <br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        Please find your delivery order attached for more details.<br/><br/"
+">\n"
+"        Thank you,\n"
+"        <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
+"            <br/>\n"
+"            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br "
+"data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
@@ -995,6 +1176,7 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 "        Tere <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
 "        Meil on hea meel teavitada teid, et teie tellimus on teele pandud.\n"
 "        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref\">\n"
@@ -1009,6 +1191,28 @@ msgstr ""
 "                </t>\n"
 "                <t t-else=\"\">\n"
 "                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
+=======
+"        Tere <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,"
+"<br/><br/>\n"
+"        Meil on hea meel teavitada teid, et teie tellimus on teele pandud.\n"
+"        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and "
+"object.carrier_tracking_ref\">\n"
+"            Teie jälgimiseviide on: \n"
+"            <strong>\n"
+"            <t t-if=\"object.carrier_tracking_url\">\n"
+"                <t t-set=\"multiple_carrier_tracking\" t-"
+"value=\"object.get_multiple_carrier_tracking()\"/>\n"
+"                <t t-if=\"multiple_carrier_tracking\">\n"
+"                    <t t-foreach=\"multiple_carrier_tracking\" t-"
+"as=\"line\">\n"
+"                        <br/><a t-att-href=\"line[1]\" target=\"_blank\" t-"
+"out=\"line[0] or ''\"/>\n"
+"                    </t>\n"
+"                </t>\n"
+"                <t t-else=\"\">\n"
+"                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" "
+"target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "            </t>\n"
 "            <t t-else=\"\">\n"
@@ -1021,7 +1225,12 @@ msgstr ""
 "        Tänades,\n"
 "        <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "            <br/>\n"
+<<<<<<< HEAD
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br "
+"data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
@@ -1029,17 +1238,33 @@ msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_scrap_view_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+msgstr ""
+"<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
+<<<<<<< HEAD
 "                                All products could not be reserved. Click on the \"Check Availability\" button to try to reserve products."
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
 "                                Kõiki tooteid ei õnnestunud reserveerida. Palun vajuta \"kontrolli saadavust\" nuppu laolehel."
+=======
+"                                All products could not be reserved. Click on "
+"the \"Check Availability\" button to try to reserve products."
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle\"/>\n"
+"                                Kõiki tooteid ei õnnestunud reserveerida. "
+"Palun vajuta \"kontrolli saadavust\" nuppu laolehel."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
@@ -1237,7 +1462,10 @@ msgstr "<strong>Kliendi aadress</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1291,6 +1519,9 @@ msgstr "<strong>Tarnitud</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1332,8 +1563,13 @@ msgstr "<strong>Kohaletoimetamise aadress</strong>"
 #: model_terms:ir.ui.view,arch_db:stock.stock_inventory_conflict_form_view
 msgid ""
 "<strong>Due to some stock moves done between your initial update of the "
+<<<<<<< HEAD
 "quantity and now, the difference of quantity is not consistent "
 "anymore.</strong>"
+=======
+"quantity and now, the difference of quantity is not consistent anymore.</"
+"strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<strong>Koguse esmase värskendamise ja praeguse vahel tehtud laoseisu "
 "muutuste tõttu ei ole koguste erinevus enam ühtlane.</strong>"
@@ -1382,7 +1618,10 @@ msgstr "<strong>Tellimus</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1436,6 +1675,9 @@ msgstr "<strong>Tellitud</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1578,7 +1820,12 @@ msgstr "Selle toote jaoks on selles asukohas juba täiendamise reegel olemas."
 #: model:ir.model.fields,help:stock.field_stock_move__is_storable
 msgid "A storable product is a product for which you manage stock."
 msgstr ""
+<<<<<<< HEAD
 "Ladustatav toode on toode, millel haldate laovarusid. Alla peab olema laetud Lao moodul.\n"
+=======
+"Ladustatav toode on toode, millel haldate laovarusid. Alla peab olema laetud "
+"Lao moodul.\n"
+>>>>>>> upstream/18.0
 "Tarbitav toode on toode, millel ei hallata laovarusid.\n"
 "Teenus on Teie poolt pakutav mittemateriaalne toode."
 
@@ -1602,8 +1849,13 @@ msgstr "Vajalik toiming"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location__replenish_location
 msgid ""
+<<<<<<< HEAD
 "Activate this function to get all quantities to replenish at this particular"
 " location"
+=======
+"Activate this function to get all quantities to replenish at this particular "
+"location"
+>>>>>>> upstream/18.0
 msgstr ""
 "Aktiveerige see funktsioon, et selles asukohas oleks võimalik koguseid "
 "täiendada"
@@ -1683,11 +1935,27 @@ msgstr "Lisage kõrvalmärkus, mis prinditakse laolehele"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_res_config_settings__group_stock_adv_location
 msgid ""
+<<<<<<< HEAD
 "Add and customize route operations to process product moves in your warehouse(s): e.g. unload > quality control > stock for incoming products, pick > pack > ship for outgoing products. \n"
 " You can also set putaway strategies on warehouse locations in order to send incoming products into specific child locations straight away (e.g. specific bins, racks)."
 msgstr ""
 "Lisage ja looge marsruuditoiminguid, et töödelda ladudes toodete liikumisi: nt mahalaadimine, kvaliteedikontroll, saabuvate toodete laoseis, saatelehed, pakkimine, väljuvate toodete tarnimine \n"
 "Samuti saab luua lao asukohtadele paigutamise reeglid, et sissetulevad tooted paigutatakse kohe kindlatesse asukohtadesse (nt konkreetsed riiulid laos)."
+=======
+"Add and customize route operations to process product moves in your "
+"warehouse(s): e.g. unload > quality control > stock for incoming products, "
+"pick > pack > ship for outgoing products. \n"
+" You can also set putaway strategies on warehouse locations in order to send "
+"incoming products into specific child locations straight away (e.g. specific "
+"bins, racks)."
+msgstr ""
+"Lisage ja looge marsruuditoiminguid, et töödelda ladudes toodete liikumisi: "
+"nt mahalaadimine, kvaliteedikontroll, saabuvate toodete laoseis, saatelehed, "
+"pakkimine, väljuvate toodete tarnimine \n"
+"Samuti saab luua lao asukohtadele paigutamise reeglid, et sissetulevad "
+"tooted paigutatakse kohe kindlatesse asukohtadesse (nt konkreetsed riiulid "
+"laos)."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -1699,8 +1967,13 @@ msgid ""
 "specific child locations straight away (e.g. specific bins, racks)."
 msgstr ""
 "Lisage ja looge marsruuditoiminguid, et töödelda ladudes toodete liikumisi: "
+<<<<<<< HEAD
 "nt mahalaadimine, kvaliteedikontroll, saabuvate toodete laoseis, saatelehed,"
 " pakkimine, väljuvate toodete tarnimine. Samuti saab luua lao asukohtadele "
+=======
+"nt mahalaadimine, kvaliteedikontroll, saabuvate toodete laoseis, saatelehed, "
+"pakkimine, väljuvate toodete tarnimine. Samuti saab luua lao asukohtadele "
+>>>>>>> upstream/18.0
 "paigutamise reeglid, et sissetulevad tooted paigutatakse kohe kindlatesse "
 "asukohtadesse (nt konkreetsed riiulid laos)."
 
@@ -2265,8 +2538,13 @@ msgid ""
 msgstr ""
 "Vaikimis süsteem võtab lähteasukohast ja passiivselt ootab saadavust. Teine "
 "võimalus on luua hankimine lähteasukohta (ignoreerides laoseisu) korje "
+<<<<<<< HEAD
 "teostamiseks. Kui soovitakse siirded kokku ühendada ja oodata eelmise siirde"
 " lõppemist, tuleks valida teine võimalus."
+=======
+"teostamiseks. Kui soovitakse siirded kokku ühendada ja oodata eelmise siirde "
+"lõppemist, tuleks valida teine võimalus."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location__active
@@ -2399,8 +2677,13 @@ msgstr "Muuda toote kogust"
 #. odoo-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "Changing the Lot/Serial number for move lines with different products is not"
 " allowed."
+=======
+"Changing the Lot/Serial number for move lines with different products is not "
+"allowed."
+>>>>>>> upstream/18.0
 msgstr ""
 "Partii/seerianumbri muutmine erinevate toodetega siirde ridadel is ole "
 "lubatud. "
@@ -2416,8 +2699,13 @@ msgid ""
 "Changing the company of this record is forbidden at this point, you should "
 "rather archive it and create a new one."
 msgstr ""
+<<<<<<< HEAD
 "Selle kirje ettevõtte muutmine on keelatud, peaksite selle pigem arhiveerima"
 " ja looma uue."
+=======
+"Selle kirje ettevõtte muutmine on keelatud, peaksite selle pigem arhiveerima "
+"ja looma uue."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -2599,6 +2887,7 @@ msgstr "Reaalse transpordihinna arvutamine ja saatmine DHL'ga"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2635,6 +2924,12 @@ msgstr "Reaalse transpordihinna arvutamine ja saatmine DHL'ga"
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+=======
+msgid ""
+"Compute shipping costs and ship with DHL<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to "
+"install)</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -2655,6 +2950,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2715,6 +3013,7 @@ msgstr "Reaalse transpordihinna arvutamine ja saatmine FedEx'iga"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2751,6 +3050,12 @@ msgstr "Reaalse transpordihinna arvutamine ja saatmine FedEx'iga"
 msgid ""
 "Compute shipping costs and ship with FedEx<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+=======
+msgid ""
+"Compute shipping costs and ship with FedEx<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to "
+"install)</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -2771,6 +3076,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2841,6 +3149,7 @@ msgstr "Reaalse transpordihinna arvutamine ja saatmine UPS'iga"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2877,6 +3186,12 @@ msgstr "Reaalse transpordihinna arvutamine ja saatmine UPS'iga"
 msgid ""
 "Compute shipping costs and ship with UPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+=======
+msgid ""
+"Compute shipping costs and ship with UPS<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to "
+"install)</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -2897,6 +3212,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2952,6 +3270,7 @@ msgstr "Reaalse transpordihinna arvutamine ja saatmine USPS'iga"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2988,6 +3307,12 @@ msgstr "Reaalse transpordihinna arvutamine ja saatmine USPS'iga"
 msgid ""
 "Compute shipping costs and ship with USPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+=======
+msgid ""
+"Compute shipping costs and ship with USPS<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to "
+"install)</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -3008,6 +3333,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3098,10 +3426,19 @@ msgstr "Konfliktid"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__visibility_days
 msgid ""
+<<<<<<< HEAD
 "Consider product forecast these many days in the future upon product replenishment, set to 0 for just-in-time.\n"
 "The value depends on the type of the route (Buy or Manufacture)"
 msgstr ""
 "Kaaluge tootedete varude täiendamise asemel nendel päevadel tooteprognoosi, määrake 0 (just-in-time).\n"
+=======
+"Consider product forecast these many days in the future upon product "
+"replenishment, set to 0 for just-in-time.\n"
+"The value depends on the type of the route (Buy or Manufacture)"
+msgstr ""
+"Kaaluge tootedete varude täiendamise asemel nendel päevadel tooteprognoosi, "
+"määrake 0 (just-in-time).\n"
+>>>>>>> upstream/18.0
 "Väärtus sõltub marsruudi tüübist (Osta või Tooda)"
 
 #. module: stock
@@ -3257,11 +3594,21 @@ msgstr "Loo ladu"
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation
 msgid ""
 "Create a backorder if you expect to process the remaining\n"
+<<<<<<< HEAD
 "                            products later. Do not create a backorder if you will not\n"
 "                            process the remaining products."
 msgstr ""
 "Loo järelsaateleht, kui soovite protsessida ülejäänud\n"
 "                        kogused hiljem. Ära loo järelsaatelehte kui sa ei soovi\n"
+=======
+"                            products later. Do not create a backorder if you "
+"will not\n"
+"                            process the remaining products."
+msgstr ""
+"Loo järelsaateleht, kui soovite protsessida ülejäänud\n"
+"                        kogused hiljem. Ära loo järelsaatelehte kui sa ei "
+"soovi\n"
+>>>>>>> upstream/18.0
 "                        protsessida ülejäänud koguseid."
 
 #. module: stock
@@ -3296,8 +3643,12 @@ msgstr "Loo tooteid hõlpsasti skaneerides"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_product_stock_view
 msgid "Create some storable products to see their stock info in this view."
+<<<<<<< HEAD
 msgstr ""
 "Looge mõned ladustatavad tooted, et näha selles vaates nende laoinfot."
+=======
+msgstr "Looge mõned ladustatavad tooted, et näha selles vaates nende laoinfot."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_lot_label_layout__create_uid
@@ -3461,6 +3812,7 @@ msgstr "Hetke laoseis"
 #: model:ir.model.fields,help:stock.field_product_product__qty_available
 msgid ""
 "Current quantity of products.\n"
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -3471,6 +3823,25 @@ msgstr ""
 "Ühe lao kontekstis hõlmab see siin laos või selle alamladudes hoitavaid tooteid.\n"
 "tooted, mida hoitakse selle poe laoasukohas või selle alamladudes.\n"
 "Muul juhul hõlmab see kaupu, mis on ladustatud mis tahes laokohas, mille tüüp on \"sisemine\"."
+=======
+"In a context with a single Stock Location, this includes goods stored at "
+"this Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the "
+"Stock Location of this Warehouse, or any of its children.\n"
+"stored in the Stock Location of the Warehouse of this Shop, or any of its "
+"children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' "
+"type."
+msgstr ""
+"Praegune toodete kogus.\n"
+"Ühe lao asukoha konteksis hõlmab see siin asukohas või selle alamasukohtades "
+"hoitavaid tooteid.\n"
+"Ühe lao kontekstis hõlmab see siin laos või selle alamladudes hoitavaid "
+"tooteid.\n"
+"tooted, mida hoitakse selle poe laoasukohas või selle alamladudes.\n"
+"Muul juhul hõlmab see kaupu, mis on ladustatud mis tahes laokohas, mille "
+"tüüp on \"sisemine\"."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__product_label_layout__move_quantity__custom
@@ -3575,7 +3946,10 @@ msgstr "DEMO_UOM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3629,6 +4003,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3739,11 +4116,23 @@ msgstr "Päev kuus"
 #: model:ir.model.fields,help:stock.field_res_company__annual_inventory_day
 #: model:ir.model.fields,help:stock.field_res_config_settings__annual_inventory_day
 msgid ""
+<<<<<<< HEAD
 "Day of the month when the annual inventory should occur. If zero or negative, then the first day of the month will be selected instead.\n"
 "        If greater than the last day of a month, then the last day of the month will be selected instead."
 msgstr ""
 "Päev, mil peaks toimuma aastainventuur. Kui see on null või negatiivne, valitakse selle asemel kuu esimene päev.\n"
 "         Kui see on suurem kui kuu viimane päev, siis valitakse selle asemel kuu viimane päev."
+=======
+"Day of the month when the annual inventory should occur. If zero or "
+"negative, then the first day of the month will be selected instead.\n"
+"        If greater than the last day of a month, then the last day of the "
+"month will be selected instead."
+msgstr ""
+"Päev, mil peaks toimuma aastainventuur. Kui see on null või negatiivne, "
+"valitakse selle asemel kuu esimene päev.\n"
+"         Kui see on suurem kui kuu viimane päev, siis valitakse selle asemel "
+"kuu viimane päev."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-javascript
@@ -3870,6 +4259,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location__removal_strategy_id
 msgid ""
+<<<<<<< HEAD
 "Defines the default method used for suggesting the exact location (shelf) where to take the products from, which lot etc. for this location. This method can be enforced at the product category level, and a fallback is made on the parent locations if none is set here.\n"
 "\n"
 "FIFO: products/lots that were stocked first will be moved out first.\n"
@@ -3883,6 +4273,34 @@ msgstr ""
 "LIFO: viimasena lattu saabuvad tooted/partiid saadetakse kõigepealt laost välja.\n"
 "Lähim asukoht: Tooted/partiid, mis on sihtkohale kõige lähemal, saadetakse kõigepealt välja.\n"
 "FEFO: välja saadetakse kõige lähedasema eemaldamise kuupäevaga tooted/partiid (selle meetodi kuvamine sõltub seadistusest \"aegumiskuupäevad\")."
+=======
+"Defines the default method used for suggesting the exact location (shelf) "
+"where to take the products from, which lot etc. for this location. This "
+"method can be enforced at the product category level, and a fallback is made "
+"on the parent locations if none is set here.\n"
+"\n"
+"FIFO: products/lots that were stocked first will be moved out first.\n"
+"LIFO: products/lots that were stocked last will be moved out first.\n"
+"Closet location: products/lots closest to the target location will be moved "
+"out first.\n"
+"FEFO: products/lots with the closest removal date will be moved out first "
+"(the availability of this method depends on the \"Expiration Dates\" "
+"setting)."
+msgstr ""
+"Määrab täpse asukoha (nt riiul) soovitamiseks kasutatud vaikemeetodi, kust "
+"tooteid võtta, millisest asukohast jne. Seda meetodit saab rakendada "
+"tootekategooria tasemel ja kui siin ei ole seatud, kehtivad põhiasukohale "
+"seatud reeglid .\n"
+"\n"
+"FIFO: Esimesena lattu saabuvad tooted/partiid saadetakse laost esimesena ka "
+"välja.\n"
+"LIFO: viimasena lattu saabuvad tooted/partiid saadetakse kõigepealt laost "
+"välja.\n"
+"Lähim asukoht: Tooted/partiid, mis on sihtkohale kõige lähemal, saadetakse "
+"kõigepealt välja.\n"
+"FEFO: välja saadetakse kõige lähedasema eemaldamise kuupäevaga tooted/"
+"partiid (selle meetodi kuvamine sõltub seadistusest \"aegumiskuupäevad\")."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__delay_alert_date
@@ -4045,8 +4463,12 @@ msgid ""
 "replenished on order, etc."
 msgstr ""
 "Olenevalt paigaldatud moodulitest võimaldab see määrata toote marsruudi "
+<<<<<<< HEAD
 "selles pakendis: kas seda ostetakse, toodetakse, täiendatakse tellimisel "
 "jne."
+=======
+"selles pakendis: kas seda ostetakse, toodetakse, täiendatakse tellimisel jne."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_product__route_ids
@@ -4351,6 +4773,10 @@ msgstr "Kas kinnitate, et soovite praagiks lisada"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -4527,6 +4953,7 @@ msgstr "Tühi asukoht"
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
+<<<<<<< HEAD
 "Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
@@ -4534,6 +4961,15 @@ msgid ""
 msgstr ""
 "Nautige kiiret kogemust Odoo triipkoodi mooduliga. See töötab kiiresti ja ka"
 " ilma stabiilse interneti ühenduseta. See toetab kõiki töövoogusid: "
+=======
+"Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast "
+"and works even without a stable internet connection. It supports all flows: "
+"inventory adjustments, batch picking, moving lots or pallets, low inventory "
+"checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
+msgstr ""
+"Nautige kiiret kogemust Odoo triipkoodi mooduliga. See töötab kiiresti ja ka "
+"ilma stabiilse interneti ühenduseta. See toetab kõiki töövoogusid: "
+>>>>>>> upstream/18.0
 "inventuurid, koondatud korjed, partiide või kaubaaluste liigutamine, "
 "madalate varude kontrollimine, jne.  Avage \"Rakendused\" menüü ja "
 "aktiveerige triipkoodide liidestus."
@@ -4650,6 +5086,10 @@ msgstr "Veebruar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -4804,6 +5244,7 @@ msgstr "Prognoosi aruanne"
 #: model:ir.model.fields,help:stock.field_product_product__virtual_available
 msgid ""
 "Forecast quantity (computed as Quantity On Hand - Outgoing + Incoming)\n"
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -4812,11 +5253,28 @@ msgstr ""
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
+=======
+"In a context with a single Stock Location, this includes goods stored in "
+"this location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the "
+"Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' "
+"type."
+msgstr ""
+"Forecast quantity (computed as Quantity On Hand - Outgoing + Incoming)\n"
+"In a context with a single Stock Location, this includes goods stored in "
+"this location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the "
+"Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' "
+"type."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_product__free_qty
 msgid ""
 "Forecast quantity (computed as Quantity On Hand - reserved quantity)\n"
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -4825,6 +5283,22 @@ msgstr ""
 "Kui kasutatakse ühte Lao asukohta, siis hõlmab see tooteid, mis on ladustatud sellesse asukohta või selle alamasukohta.\n"
 "Kui kasutatakse ühte ladu, siis see hõlmab tooteid mis on ladustatud Lao asukohta või alamasukohta selles Laos.\n"
 "Teistel juhtudel hõlbab see tooteid, mis on ladustatud ükskõik millisesse Lao \"sisemisse\" asukohta."
+=======
+"In a context with a single Stock Location, this includes goods stored in "
+"this location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the "
+"Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' "
+"type."
+msgstr ""
+"Prognoositud kogus (arvutatud Käesolev kogus - Reserveeritud kogus)\n"
+"Kui kasutatakse ühte Lao asukohta, siis hõlmab see tooteid, mis on "
+"ladustatud sellesse asukohta või selle alamasukohta.\n"
+"Kui kasutatakse ühte ladu, siis see hõlmab tooteid mis on ladustatud Lao "
+"asukohta või alamasukohta selles Laos.\n"
+"Teistel juhtudel hõlbab see tooteid, mis on ladustatud ükskõik millisesse "
+"Lao \"sisemisse\" asukohta."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-javascript
@@ -5034,11 +5508,19 @@ msgstr "Saa partneri kohta tegevusi tõkestavat informatsiooni või hoiatusi."
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_putaway_rule__sequence
 msgid ""
+<<<<<<< HEAD
 "Give to the more specialized category, a higher priority to have them in top"
 " of the list."
 msgstr ""
 "Give to the more specialized category, a higher priority to have them in top"
 " of the list."
+=======
+"Give to the more specialized category, a higher priority to have them in top "
+"of the list."
+msgstr ""
+"Give to the more specialized category, a higher priority to have them in top "
+"of the list."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse__sequence
@@ -5251,8 +5733,13 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "If a separator is defined, a QR code containing all serial numbers contained"
 " in package will be generated, using the defined character(s) to separate "
+=======
+"If a separator is defined, a QR code containing all serial numbers contained "
+"in package will be generated, using the defined character(s) to separate "
+>>>>>>> upstream/18.0
 "each numbers"
 msgstr ""
 "Kui eraldaja on määratletud, luuakse QR-kood, mis sisaldab kõiki pakendis "
@@ -5294,19 +5781,31 @@ msgstr "Kui märgitud, tegevused on pakendatud pakki"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_lot_label_layout__label_quantity
 msgid ""
+<<<<<<< HEAD
 "If the UoM of a lot is not 'units', the lot will be considered as a unit and"
 " only one label will be printed for this lot."
 msgstr ""
 "Kui partii UoM ei ole `ühikud`, käsitletakse partiid ühikuna ja selle partii"
 " kohta trükitakse ainult üks silt."
+=======
+"If the UoM of a lot is not 'units', the lot will be considered as a unit and "
+"only one label will be printed for this lot."
+msgstr ""
+"Kui partii UoM ei ole `ühikud`, käsitletakse partiid ühikuna ja selle partii "
+"kohta trükitakse ainult üks silt."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__active
 msgid ""
 "If the active field is set to False, it will allow you to hide the "
 "orderpoint without removing it."
+<<<<<<< HEAD
 msgstr ""
 "Kui ei ole aktiivne, lubab peita tellimuspunkti ilma seda kustutamata."
+=======
+msgstr "Kui ei ole aktiivne, lubab peita tellimuspunkti ilma seda kustutamata."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_route__active
@@ -5331,8 +5830,13 @@ msgid ""
 "If this checkbox is ticked, Odoo will automatically print the delivery slip "
 "of a picking when it is validated."
 msgstr ""
+<<<<<<< HEAD
 "Kui see on märgitud, prindib Odoo automaatselt siirde saatelehe kui siire on"
 " kinnitatud. "
+=======
+"Kui see on märgitud, prindib Odoo automaatselt siirde saatelehe kui siire on "
+"kinnitatud. "
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_lot_labels
@@ -5340,8 +5844,13 @@ msgid ""
 "If this checkbox is ticked, Odoo will automatically print the lot/SN labels "
 "of a picking when it is validated."
 msgstr ""
+<<<<<<< HEAD
 "Kui see on märgitud, prindib Odoo automaatselt siirdel olevad "
 "partii/seerianumbri etiketid kui siire on kinnitatud."
+=======
+"Kui see on märgitud, prindib Odoo automaatselt siirdel olevad partii/"
+"seerianumbri etiketid kui siire on kinnitatud."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_package_label
@@ -5364,11 +5873,19 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_product_labels
 msgid ""
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a picking when it is validated."
 msgstr ""
 "Kui see on märgitud, prindib Odoo automaatselt siirdel olevad toote etiketid"
 " kui siire on kinnitatud. "
+=======
+"If this checkbox is ticked, Odoo will automatically print the product labels "
+"of a picking when it is validated."
+msgstr ""
+"Kui see on märgitud, prindib Odoo automaatselt siirdel olevad toote etiketid "
+"kui siire on kinnitatud. "
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_reception_report_labels
@@ -5376,8 +5893,13 @@ msgid ""
 "If this checkbox is ticked, Odoo will automatically print the reception "
 "report labels of a picking when it is validated."
 msgstr ""
+<<<<<<< HEAD
 "Kui see on märgitud, prindib Odoo automaatselt vastuvõtuaruande etiketid kui"
 " siire on kinnitatud. "
+=======
+"Kui see on märgitud, prindib Odoo automaatselt vastuvõtuaruande etiketid kui "
+"siire on kinnitatud. "
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_reception_report
@@ -5391,8 +5913,13 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_return_slip
 msgid ""
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the return slip of"
 " a picking when it is validated."
+=======
+"If this checkbox is ticked, Odoo will automatically print the return slip of "
+"a picking when it is validated."
+>>>>>>> upstream/18.0
 msgstr ""
 "Kui see on märgitud, prindib Odoo automaatselt siirde tagastuslehe kui see "
 "on kinnitatud. "
@@ -5411,8 +5938,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_operations
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_operations
 msgid ""
+<<<<<<< HEAD
 "If this checkbox is ticked, the pickings lines will represent detailed stock"
 " operations. If not, the picking lines will represent an aggregate of "
+=======
+"If this checkbox is ticked, the pickings lines will represent detailed stock "
+"operations. If not, the picking lines will represent an aggregate of "
+>>>>>>> upstream/18.0
 "detailed stock operations."
 msgstr ""
 "Kui see on märgitud, siis siirde kirjed sisaldavad detailset lao tegevust. "
@@ -5426,8 +5958,13 @@ msgid ""
 "If this is checked only, it will suppose you want to create new Lots/Serial "
 "Numbers, so you can provide them in a text field. "
 msgstr ""
+<<<<<<< HEAD
 "Kui see on märgitud, siis süsteem eeldab, et soovite luua uue "
 "partii/seerianumbri. Saate sisestada selle teksti lahtrisse. "
+=======
+"Kui see on märgitud, siis süsteem eeldab, et soovite luua uue partii/"
+"seerianumbri. Saate sisestada selle teksti lahtrisse. "
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_line__picking_type_use_existing_lots
@@ -5438,14 +5975,24 @@ msgid ""
 "can also decide to not put lots in this operation type.  This means it will "
 "create stock with no lot or not put a restriction on the lot taken. "
 msgstr ""
+<<<<<<< HEAD
 "Kui see on märgitud, siis saate valida partii/seerianumbri. Võite otsustada,"
 " et ei kasuta partiisid selle tegevuse tüübi puhul. "
+=======
+"Kui see on märgitud, siis saate valida partii/seerianumbri. Võite otsustada, "
+"et ei kasuta partiisid selle tegevuse tüübi puhul. "
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__return_id
 msgid ""
+<<<<<<< HEAD
 "If this picking was created as a return of another picking, this field links"
 " to the original picking."
+=======
+"If this picking was created as a return of another picking, this field links "
+"to the original picking."
+>>>>>>> upstream/18.0
 msgstr ""
 "Kui see siire loodi teise siirde tagastusena, siis see väli viitab algsele "
 "siirdele."
@@ -5513,11 +6060,23 @@ msgstr "Kauba lattu võtmine"
 #: model:ir.model.fields,help:stock.field_stock_move__date_deadline
 #: model:ir.model.fields,help:stock.field_stock_picking__date_deadline
 msgid ""
+<<<<<<< HEAD
 "In case of outgoing flow, validate the transfer before this date to allow to deliver at promised date to the customer.\n"
 "        In case of incoming flow, validate the transfer before this date in order to have these products in stock at the date promised by the supplier"
 msgstr ""
 "Välja liikuva siirde puhul kinnita siire enne seda kuupäeva, et võimaldada tarne kliendile lubatud kuupäevaks.\n"
 "Sisse tuleva siirde puhul kinnita siire enne seda kuupäeva, et vastav kaup jõuaks lattu tarnija lubatud kuupäevaks. "
+=======
+"In case of outgoing flow, validate the transfer before this date to allow to "
+"deliver at promised date to the customer.\n"
+"        In case of incoming flow, validate the transfer before this date in "
+"order to have these products in stock at the date promised by the supplier"
+msgstr ""
+"Välja liikuva siirde puhul kinnita siire enne seda kuupäeva, et võimaldada "
+"tarne kliendile lubatud kuupäevaks.\n"
+"Sisse tuleva siirde puhul kinnita siire enne seda kuupäeva, et vastav kaup "
+"jõuaks lattu tarnija lubatud kuupäevaks. "
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.quant_package_search_view
@@ -5577,10 +6136,16 @@ msgstr "Vale tüüpi tegevus esitati aruandena, tegevus jäetakse vahele"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_quant__inventory_diff_quantity
 msgid ""
+<<<<<<< HEAD
 "Indicates the gap between the product's theoretical quantity and its counted"
 " quantity."
 msgstr ""
 "Näitab erinevust toote teoreetilise koguse ja loendatava koguse vahel."
+=======
+"Indicates the gap between the product's theoretical quantity and its counted "
+"quantity."
+msgstr "Näitab erinevust toote teoreetilise koguse ja loendatava koguse vahel."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_move_kandan
@@ -5680,11 +6245,19 @@ msgstr "Laoseisuga sisemisi asukohtasid ei saa muuta "
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_lot__ref
 msgid ""
+<<<<<<< HEAD
 "Internal reference number in case it differs from the manufacturer's "
 "lot/serial number"
 msgstr ""
 "Ettevõttesisene tootekood juhuks, kui see erineb tootja "
 "partii/seerianumberist"
+=======
+"Internal reference number in case it differs from the manufacturer's lot/"
+"serial number"
+msgstr ""
+"Ettevõttesisene tootekood juhuks, kui see erineb tootja partii/"
+"seerianumberist"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -6479,7 +7052,12 @@ msgstr "Partiid/Seerianumbrid"
 #: model_terms:ir.actions.act_window,help:stock.action_production_lot_form
 msgid ""
 "Lots/Serial numbers help you tracking the path followed by your products.\n"
+<<<<<<< HEAD
 "            From their traceability report you will see the full history of their use, as well as their composition."
+=======
+"            From their traceability report you will see the full history of "
+"their use, as well as their composition."
+>>>>>>> upstream/18.0
 msgstr ""
 "Partiid/seerianumbrid aitavad teil jälgida teie toodete teekondi.\n"
 "Nende jälgimisraportist näete nii nende kasutusajalugu kui ka nende koostist."
@@ -6739,8 +7317,13 @@ msgstr "Siirete ajalugu"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__group_id
 msgid ""
+<<<<<<< HEAD
 "Moves created through this orderpoint will be put in this procurement group."
 " If none is given, the moves generated by stock rules will be grouped into "
+=======
+"Moves created through this orderpoint will be put in this procurement group. "
+"If none is given, the moves generated by stock rules will be grouped into "
+>>>>>>> upstream/18.0
 "one big picking."
 msgstr ""
 "Siirded, mis on loodud läbi selle tellimispunkti lisatakse sellesse "
@@ -6776,15 +7359,25 @@ msgstr "Minu tegevuse tähtaeg"
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
+<<<<<<< HEAD
 "My Company (Chicago) undertakes to do its best to supply performant services"
 " in due time in accordance with the agreed timeframes. However, none of its "
+=======
+"My Company (Chicago) undertakes to do its best to supply performant services "
+"in due time in accordance with the agreed timeframes. However, none of its "
+>>>>>>> upstream/18.0
 "obligations can be considered as being an obligation to achieve results. My "
 "Company (Chicago) cannot under any circumstances, be required by the client "
 "to appear as a third party in the context of any claim for damages filed "
 "against the client by an end consumer."
 msgstr ""
+<<<<<<< HEAD
 "My Company (Chicago) undertakes to do its best to supply performant services"
 " in due time in accordance with the agreed timeframes. However, none of its "
+=======
+"My Company (Chicago) undertakes to do its best to supply performant services "
+"in due time in accordance with the agreed timeframes. However, none of its "
+>>>>>>> upstream/18.0
 "obligations can be considered as being an obligation to achieve results. My "
 "Company (Chicago) cannot under any circumstances, be required by the client "
 "to appear as a third party in the context of any claim for damages filed "
@@ -7157,6 +7750,7 @@ msgstr "Oktoober"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid ""
+<<<<<<< HEAD
 "Odoo opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
 "                                        install the IoT App on a computer that is on the same local network as the\n"
 "                                        barcode operator and configure the routing of the reports.\n"
@@ -7165,6 +7759,21 @@ msgstr ""
 "Odoo avab vaikimisi PDF eelvaate. Kui soovite printida kohe,\n"
 "                                installige IoT rakendus arvutisse, mis asub samas kohaliku võrgus nagu\n"
 "                                triipkoodi operaator, ja seadistage aruannete marsruutimine.\n"
+=======
+"Odoo opens a PDF preview by default. If you (Enterprise users only) want to "
+"print instantly,\n"
+"                                        install the IoT App on a computer "
+"that is on the same local network as the\n"
+"                                        barcode operator and configure the "
+"routing of the reports.\n"
+"                                        <br/>"
+msgstr ""
+"Odoo avab vaikimisi PDF eelvaate. Kui soovite printida kohe,\n"
+"                                installige IoT rakendus arvutisse, mis asub "
+"samas kohaliku võrgus nagu\n"
+"                                triipkoodi operaator, ja seadistage "
+"aruannete marsruutimine.\n"
+>>>>>>> upstream/18.0
 "<br/>"
 
 #. module: stock
@@ -7417,15 +8026,25 @@ msgid ""
 "timeframe is indicated on either the invoice or the order. In the event of "
 "non-payment by the due date, My Company (Chicago) reserves the right to "
 "request a fixed interest payment amounting to 10% of the sum remaining due. "
+<<<<<<< HEAD
 "My Company (Chicago) will be authorized to suspend any provision of services"
 " without prior warning in the event of late payment."
+=======
+"My Company (Chicago) will be authorized to suspend any provision of services "
+"without prior warning in the event of late payment."
+>>>>>>> upstream/18.0
 msgstr ""
 "Our invoices are payable within 21 working days, unless another payment "
 "timeframe is indicated on either the invoice or the order. In the event of "
 "non-payment by the due date, My Company (Chicago) reserves the right to "
 "request a fixed interest payment amounting to 10% of the sum remaining due. "
+<<<<<<< HEAD
 "My Company (Chicago) will be authorized to suspend any provision of services"
 " without prior warning in the event of late payment."
+=======
+"My Company (Chicago) will be authorized to suspend any provision of services "
+"without prior warning in the event of late payment."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__out_type_id
@@ -7686,11 +8305,23 @@ msgstr "Pakendid"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_package_view
 msgid ""
+<<<<<<< HEAD
 "Packages are usually created via transfers (during pack operation) and can contain different products.\n"
 "                Once created, the whole package can be moved at once, or products can be unpacked and moved as single units again."
 msgstr ""
 "Pakendid luuakse tavaliselt siirete kaudu (pakkimise toimingu käigus) ja võivad sisaldada erinevaid tooteid.\n"
 "                Kui pakend on kord juba loodud, siis tervet pakendit saab liigutada korraga või siis pakkida tooted lahti ja liigutada jälle üksikult."
+=======
+"Packages are usually created via transfers (during pack operation) and can "
+"contain different products.\n"
+"                Once created, the whole package can be moved at once, or "
+"products can be unpacked and moved as single units again."
+msgstr ""
+"Pakendid luuakse tavaliselt siirete kaudu (pakkimise toimingu käigus) ja "
+"võivad sisaldada erinevaid tooteid.\n"
+"                Kui pakend on kord juba loodud, siis tervet pakendit saab "
+"liigutada korraga või siis pakkida tooted lahti ja liigutada jälle üksikult."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__product_packaging_id
@@ -8231,8 +8862,13 @@ msgid ""
 "Product this lot/serial number contains. You cannot change it anymore if it "
 "has already been moved."
 msgstr ""
+<<<<<<< HEAD
 "Toode, mis selles partiis/seerianumbris on. Seda ei saa muuta enam, kuna see"
 " on juba siirdes kasutusel."
+=======
+"Toode, mis selles partiis/seerianumbris on. Seda ei saa muuta enam, kuna see "
+"on juba siirdes kasutusel."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__product_uom_name
@@ -8566,6 +9202,7 @@ msgstr "Kogus toote vaikimisi UoM ühikus"
 #: model:ir.model.fields,help:stock.field_product_product__incoming_qty
 msgid ""
 "Quantity of planned incoming products.\n"
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods arriving to this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods arriving to the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods arriving to any Stock Location with 'internal' type."
@@ -8574,11 +9211,28 @@ msgstr ""
 "In a context with a single Stock Location, this includes goods arriving to this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods arriving to the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods arriving to any Stock Location with 'internal' type."
+=======
+"In a context with a single Stock Location, this includes goods arriving to "
+"this Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods arriving to the "
+"Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods arriving to any Stock Location with "
+"'internal' type."
+msgstr ""
+"Quantity of planned incoming products.\n"
+"In a context with a single Stock Location, this includes goods arriving to "
+"this Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods arriving to the "
+"Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods arriving to any Stock Location with "
+"'internal' type."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_product__outgoing_qty
 msgid ""
 "Quantity of planned outgoing products.\n"
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods leaving this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods leaving the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods leaving any Stock Location with 'internal' type."
@@ -8587,6 +9241,22 @@ msgstr ""
 "In a context with a single Stock Location, this includes goods leaving this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods leaving the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods leaving any Stock Location with 'internal' type."
+=======
+"In a context with a single Stock Location, this includes goods leaving this "
+"Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods leaving the Stock "
+"Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods leaving any Stock Location with 'internal' "
+"type."
+msgstr ""
+"Quantity of planned outgoing products.\n"
+"In a context with a single Stock Location, this includes goods leaving this "
+"Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods leaving the Stock "
+"Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods leaving any Stock Location with 'internal' "
+"type."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_quant__quantity
@@ -8781,7 +9451,12 @@ msgstr "Vastuvõtuaruande sildid"
 #: model_terms:ir.ui.view,arch_db:stock.help_message_template
 msgid ""
 "Reduce stockouts with alerts, barcode app, replenishment propositions,\n"
+<<<<<<< HEAD
 "                        locations management traceability, quality control, etc."
+=======
+"                        locations management traceability, quality control, "
+"etc."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -9029,11 +9704,27 @@ msgstr "Reserveeri ainult täispakendeid"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_category__packaging_reserve_method
 msgid ""
+<<<<<<< HEAD
 "Reserve Only Full Packagings: will not reserve partial packagings. If customer orders 2 pallets of 1000 units each and you only have 1600 in stock, then only 1000 will be reserved\n"
 "Reserve Partial Packagings: allow reserving partial packagings. If customer orders 2 pallets of 1000 units each and you only have 1600 in stock, then 1600 will be reserved"
 msgstr ""
 "Reserveeri ainult täispakendeid: osalisi pakendeid ei reserveerita. Kui klient tellib 2 alust tooteid, mõlemal 1000 toodet, kui laos on 1600 toodet, siis ainult1000 reserveeritakse \n"
 "Reserveeri osalisi pakendeid: võimalik reserveerida osalisi pakendeid. Kui klient tellib 2 alust tooteid, mõlemal 1000 toodet, kui laos on ainult 1600 ühikut toodet, siis reserveeritakse 1600 toodet."
+=======
+"Reserve Only Full Packagings: will not reserve partial packagings. If "
+"customer orders 2 pallets of 1000 units each and you only have 1600 in "
+"stock, then only 1000 will be reserved\n"
+"Reserve Partial Packagings: allow reserving partial packagings. If customer "
+"orders 2 pallets of 1000 units each and you only have 1600 in stock, then "
+"1600 will be reserved"
+msgstr ""
+"Reserveeri ainult täispakendeid: osalisi pakendeid ei reserveerita. Kui "
+"klient tellib 2 alust tooteid, mõlemal 1000 toodet, kui laos on 1600 toodet, "
+"siis ainult1000 reserveeritakse \n"
+"Reserveeri osalisi pakendeid: võimalik reserveerida osalisi pakendeid. Kui "
+"klient tellib 2 alust tooteid, mõlemal 1000 toodet, kui laos on ainult 1600 "
+"ühikut toodet, siis reserveeritakse 1600 toodet."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_category__packaging_reserve_method
@@ -9171,11 +9862,25 @@ msgstr "Taaskasutatav kast"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_quant_package__package_use
 msgid ""
+<<<<<<< HEAD
 "Reusable boxes are used for batch picking and emptied afterwards to be reused. In the barcode application, scanning a reusable box will add the products in this box.\n"
 "        Disposable boxes aren't reused, when scanning a disposable box in the barcode application, the contained products are added to the transfer."
 msgstr ""
 "Korduvkasutatavaid väljasid kasutatakse partiide korjamiseks ja tühjendatakse pärast seda uuesti kasutamiseks. Skaneerides korduvkasutatavuse välja lisatakse tooted sellele väljale.\n"
 "Korduvkasutatavad väljad ei ole taaskasutatavad kui skaneerida see triipkoodi moodulis, sisalduvad tooted lisatakse kandele."
+=======
+"Reusable boxes are used for batch picking and emptied afterwards to be "
+"reused. In the barcode application, scanning a reusable box will add the "
+"products in this box.\n"
+"        Disposable boxes aren't reused, when scanning a disposable box in "
+"the barcode application, the contained products are added to the transfer."
+msgstr ""
+"Korduvkasutatavaid väljasid kasutatakse partiide korjamiseks ja "
+"tühjendatakse pärast seda uuesti kasutamiseks. Skaneerides "
+"korduvkasutatavuse välja lisatakse tooted sellele väljale.\n"
+"Korduvkasutatavad väljad ei ole taaskasutatavad kui skaneerida see "
+"triipkoodi moodulis, sisalduvad tooted lisatakse kandele."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.actions.server,name:stock.action_revert_inventory_adjustment
@@ -9236,8 +9941,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_replenishment_info__warehouseinfo_ids
 #: model:ir.model.fields,help:stock.field_stock_warehouse__resupply_route_ids
 msgid ""
+<<<<<<< HEAD
 "Routes will be created for these resupply warehouses and you can select them"
 " on products and product categories"
+=======
+"Routes will be created for these resupply warehouses and you can select them "
+"on products and product categories"
+>>>>>>> upstream/18.0
 msgstr ""
 "Taastellimiste ladudele luuakse marsruudid, mida saab kasutada toodetel ja "
 "tootekategooriatel"
@@ -9247,8 +9957,13 @@ msgstr ""
 #: code:addons/stock/models/stock_location.py:0
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 "Rule %(rule)s belongs to %(rule_company)s while the route belongs to "
 "%(route_company)s."
+=======
+"Rule %(rule)s belongs to %(rule_company)s while the route belongs to %"
+"(route_company)s."
+>>>>>>> upstream/18.0
 msgstr ""
 "Reegel %(rule)s kuulub ettevõttele %(rule_company)s, marsruut kuulub "
 "ettevõttele %(route_company)s."
@@ -9417,7 +10132,12 @@ msgstr "Mahakantud"
 #: model_terms:ir.actions.act_window,help:stock.action_stock_scrap
 msgid ""
 "Scrapping a product will remove it from your stock. The product will\n"
+<<<<<<< HEAD
 "                end up in a scrap location that can be used for reporting purpose."
+=======
+"                end up in a scrap location that can be used for reporting "
+"purpose."
+>>>>>>> upstream/18.0
 msgstr ""
 "Toote praagiks muutmine eemaldab selle teie laost. Toode läheb praagilattu, "
 "mida saab kasutada aruandluse jaoks."
@@ -9488,8 +10208,12 @@ msgstr "Toote ostmisel ja müümisel kasuta erinevaid ühikuid."
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Send an automatic confirmation SMS Text Message when Delivery Orders are "
 "done"
+=======
+"Send an automatic confirmation SMS Text Message when Delivery Orders are done"
+>>>>>>> upstream/18.0
 msgstr "Saada automaatne kinnitus SMS sõnumiga kui tarnetellimused on tehtud"
 
 #. module: stock
@@ -9556,21 +10280,39 @@ msgstr "Seerianumbrid"
 #. odoo-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) already exists in location(s): "
 "%(location_list)s. Please correct the serial number encoded."
 msgstr ""
 "Seerianumber (%(serial_number)s) on juba asukohas (kohtades): "
 "%(location_list)s olemas. Parandage kodeeritud seerianumber."
+=======
+"Serial number (%(serial_number)s) already exists in location(s): %"
+"(location_list)s. Please correct the serial number encoded."
+msgstr ""
+"Seerianumber (%(serial_number)s) on juba asukohas (kohtades): %"
+"(location_list)s olemas. Parandage kodeeritud seerianumber."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but is located in location(s): %(other_locations)s.\n"
 "\n"
 "Please correct this to prevent inconsistent data."
 msgstr ""
 "Seerianumber (%(serial_number)s) ei asu asukohas %(source_location)s, vaid järgmises asukohas: %(other_locations)s.\n"
+=======
+"Serial number (%(serial_number)s) is not located in %(source_location)s, but "
+"is located in location(s): %(other_locations)s.\n"
+"\n"
+"Please correct this to prevent inconsistent data."
+msgstr ""
+"Seerianumber (%(serial_number)s) ei asu asukohas %(source_location)s, vaid "
+"järgmises asukohas: %(other_locations)s.\n"
+>>>>>>> upstream/18.0
 "\n"
 "Parandage see, et vältida vastuolulisi andmeid."
 
@@ -9578,11 +10320,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but is located in location(s): %(other_locations)s.\n"
 "\n"
 "Source location for this move will be changed to %(recommended_location)s"
 msgstr ""
 "Seerianumber (%(serial_number)s) ei asu asukohas %(source_location)s, vaid asukohas: %(other_locations)s.\n"
+=======
+"Serial number (%(serial_number)s) is not located in %(source_location)s, but "
+"is located in location(s): %(other_locations)s.\n"
+"\n"
+"Source location for this move will be changed to %(recommended_location)s"
+msgstr ""
+"Seerianumber (%(serial_number)s) ei asu asukohas %(source_location)s, vaid "
+"asukohas: %(other_locations)s.\n"
+>>>>>>> upstream/18.0
 "\n"
 "Selle muudatuse tagajärjel on asukohaks %(recommended_location)s"
 
@@ -9610,6 +10362,7 @@ msgstr "Määra lao marsruudid"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_category__removal_strategy_id
 msgid ""
+<<<<<<< HEAD
 "Set a specific removal strategy that will be used regardless of the source location for this product category.\n"
 "\n"
 "FIFO: products/lots that were stocked first will be moved out first.\n"
@@ -9617,6 +10370,20 @@ msgid ""
 "Closest location: products/lots closest to the target location will be moved out first.\n"
 "FEFO: products/lots with the closest removal date will be moved out first (the availability of this method depends on the \"Expiration Dates\" setting).\n"
 "Least Packages: FIFO but with the least number of packages possible when there are several packages containing the same product."
+=======
+"Set a specific removal strategy that will be used regardless of the source "
+"location for this product category.\n"
+"\n"
+"FIFO: products/lots that were stocked first will be moved out first.\n"
+"LIFO: products/lots that were stocked last will be moved out first.\n"
+"Closest location: products/lots closest to the target location will be moved "
+"out first.\n"
+"FEFO: products/lots with the closest removal date will be moved out first "
+"(the availability of this method depends on the \"Expiration Dates\" "
+"setting).\n"
+"Least Packages: FIFO but with the least number of packages possible when "
+"there are several packages containing the same product."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -9694,12 +10461,21 @@ msgstr "Saadetise kaal"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Shipping connectors allow to compute accurate shipping costs, print shipping"
 " labels and request carrier picking at your warehouse to ship to the "
 "customer. Apply shipping connector from delivery methods."
 msgstr ""
 "Ühendades süsteemi tarnefirmaga, on võimalik arvutada täpset transpordikulu,"
 " printida pakisilte ja tellida kaubale järele kulleri, kes toimetab kauba "
+=======
+"Shipping connectors allow to compute accurate shipping costs, print shipping "
+"labels and request carrier picking at your warehouse to ship to the "
+"customer. Apply shipping connector from delivery methods."
+msgstr ""
+"Ühendades süsteemi tarnefirmaga, on võimalik arvutada täpset transpordikulu, "
+"printida pakisilte ja tellida kaubale järele kulleri, kes toimetab kauba "
+>>>>>>> upstream/18.0
 "kliendini. Täpsemad seadistused leiad tarneviiside alt."
 
 #. module: stock
@@ -9796,8 +10572,12 @@ msgstr "Näita siirdeid"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Show all records which has next action date is before today"
 msgstr ""
+<<<<<<< HEAD
 "Näita kõiki andmeid, mille järgmise tegevuse kuupäev on ennem tänast "
 "kuupäeva"
+=======
+"Näita kõiki andmeid, mille järgmise tegevuse kuupäev on ennem tänast kuupäeva"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__show_lots_m2o
@@ -10215,8 +10995,13 @@ msgstr "Ladusta (kuhu?)"
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_1
 msgid ""
+<<<<<<< HEAD
 "Store and retrieve information regarding every Lot/Serial Number (condition,"
 " product info, ...)."
+=======
+"Store and retrieve information regarding every Lot/Serial Number (condition, "
+"product info, ...)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -10279,6 +11064,7 @@ msgstr "Võta laost, kui ei ole saadaval, käivita teine reegel"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__procure_method
 msgid ""
+<<<<<<< HEAD
 "Take From Stock: the products will be taken from the available stock of the source location.\n"
 "Trigger Another Rule: the system will try to find a stock rule to bring the products in the source location. The available stock will be ignored.\n"
 "Take From Stock, if Unavailable, Trigger Another Rule: the products will be taken from the available stock of the source location.If there is no stock available, the system will try to find a  rule to bring the products in the source location."
@@ -10286,6 +11072,23 @@ msgstr ""
 "Võta laost: tooted võetakse lähtekoha olemasolevast laost\n"
 "Käivita teine reegel: süsteem püüab leida laoreegli toodete toomiseks lähtekohta. Saadavat laoseisu ignoreeritakse.\n"
 "Võta laost, kui pole saadaval, käivita teine reegel: tooted võetakse lähtekoha olemasolevast laost. Kui laoseisu ei ole saadaval, siis püüab süsteem leida reegli toodete toomiseks lähtekohta. "
+=======
+"Take From Stock: the products will be taken from the available stock of the "
+"source location.\n"
+"Trigger Another Rule: the system will try to find a stock rule to bring the "
+"products in the source location. The available stock will be ignored.\n"
+"Take From Stock, if Unavailable, Trigger Another Rule: the products will be "
+"taken from the available stock of the source location.If there is no stock "
+"available, the system will try to find a  rule to bring the products in the "
+"source location."
+msgstr ""
+"Võta laost: tooted võetakse lähtekoha olemasolevast laost\n"
+"Käivita teine reegel: süsteem püüab leida laoreegli toodete toomiseks "
+"lähtekohta. Saadavat laoseisu ignoreeritakse.\n"
+"Võta laost, kui pole saadaval, käivita teine reegel: tooted võetakse "
+"lähtekoha olemasolevast laost. Kui laoseisu ei ole saadaval, siis püüab "
+"süsteem leida reegli toodete toomiseks lähtekohta. "
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__show_allocation
@@ -10322,14 +11125,24 @@ msgid ""
 "The %s location is required by the Inventory app and cannot be deleted, but "
 "you can archive it."
 msgstr ""
+<<<<<<< HEAD
 "Asukoht %s on nõutud asukoht lao moodulis ja seda ei ole võimalik kustutada,"
 " aga asukoha võib arhiveerida."
+=======
+"Asukoht %s on nõutud asukoht lao moodulis ja seda ei ole võimalik kustutada, "
+"aga asukoha võib arhiveerida."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__auto
 msgid ""
+<<<<<<< HEAD
 "The 'Manual Operation' value will create a stock move after the current one."
 " With 'Automatic No Step Added', the location is replaced in the original "
+=======
+"The 'Manual Operation' value will create a stock move after the current one. "
+"With 'Automatic No Step Added', the location is replaced in the original "
+>>>>>>> upstream/18.0
 "move."
 msgstr ""
 "'Käsitsi tegevus' väärtus loob laosiirde peale seda. 'Automaatselt järgmist "
@@ -10353,6 +11166,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
+<<<<<<< HEAD
 "The Serial Number (%(serial_number)s) is already used in location(s): %(location_list)s.\n"
 "\n"
 "Is this expected? For example, this can occur if a delivery operation is validated before its corresponding receipt operation is validated. In this case the issue will be solved automatically once all steps are completed. Otherwise, the serial number should be corrected to prevent inconsistent data."
@@ -10360,6 +11174,24 @@ msgstr ""
 "Seerianumber (%(serial_number)s) on juba kasutusel järgmistes asukohtades: %(location_list)s.\n"
 "\n"
 "Kas see on oodatav? Näiteks võib see juhtuda, kui tarnetoiming on kinnitatud enne selle vastava vastuvõtutoimingu kinnitamist. Sel juhul lahendatakse probleem automaatselt, kui kõik sammud on lõpule viidud. Muidu tuleks seerianumbrit parandada, et vältida vastuolulisi andmeid."
+=======
+"The Serial Number (%(serial_number)s) is already used in location(s): %"
+"(location_list)s.\n"
+"\n"
+"Is this expected? For example, this can occur if a delivery operation is "
+"validated before its corresponding receipt operation is validated. In this "
+"case the issue will be solved automatically once all steps are completed. "
+"Otherwise, the serial number should be corrected to prevent inconsistent "
+"data."
+msgstr ""
+"Seerianumber (%(serial_number)s) on juba kasutusel järgmistes asukohtades: %"
+"(location_list)s.\n"
+"\n"
+"Kas see on oodatav? Näiteks võib see juhtuda, kui tarnetoiming on kinnitatud "
+"enne selle vastava vastuvõtutoimingu kinnitamist. Sel juhul lahendatakse "
+"probleem automaatselt, kui kõik sammud on lõpule viidud. Muidu tuleks "
+"seerianumbrit parandada, et vältida vastuolulisi andmeid."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -10389,11 +11221,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
+<<<<<<< HEAD
 "The combination of lot/serial number and product must be unique within a company including when no company is defined.\n"
 "The following combinations contain duplicates:\n"
 "%(error_lines)s"
 msgstr ""
 "Seerianumbrite ja toodete kombinatsioonid peavad olema ettevõttes unikaalsed ka siis kui ettevõte pole defineeritud.\n"
+=======
+"The combination of lot/serial number and product must be unique within a "
+"company including when no company is defined.\n"
+"The following combinations contain duplicates:\n"
+"%(error_lines)s"
+msgstr ""
+"Seerianumbrite ja toodete kombinatsioonid peavad olema ettevõttes unikaalsed "
+"ka siis kui ettevõte pole defineeritud.\n"
+>>>>>>> upstream/18.0
 "Järgnevad kombinatsioonid sisaldavad duplikaate:\n"
 "%(error_lines)s"
 
@@ -10467,8 +11309,12 @@ msgstr "The inventory frequency (days) for a location must be non-negative"
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid ""
 "The minimum quantity must be less than or equal to the maximum quantity."
+<<<<<<< HEAD
 msgstr ""
 "Miinimum kogus peab olema väiksem kui või võrdne maksimaalse kogusega."
+=======
+msgstr "Miinimum kogus peab olema väiksem kui või võrdne maksimaalse kogusega."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.constraint,message:stock.constraint_stock_warehouse_warehouse_name_uniq
@@ -10499,13 +11345,25 @@ msgstr "See tegevus võtab ja soovitab sellest asukohast"
 #: model_terms:ir.actions.act_window,help:stock.stock_picking_type_action
 msgid ""
 "The operation type system allows you to assign each stock\n"
+<<<<<<< HEAD
 "            operation a specific type which will alter its views accordingly.\n"
 "            On the operation type you could e.g. specify if packing is needed by default,\n"
+=======
+"            operation a specific type which will alter its views "
+"accordingly.\n"
+"            On the operation type you could e.g. specify if packing is "
+"needed by default,\n"
+>>>>>>> upstream/18.0
 "            if it should show the customer."
 msgstr ""
 "Operatsioonitüübi süsteem võimaldab määrata iga lao\n"
 "             operatsioonitüübi, mis muudab selle vaateid.\n"
+<<<<<<< HEAD
 "             Operatsioonitüübi juures võiks nt. määrata, kas pakkimine on vaikimisi vajalik,\n"
+=======
+"             Operatsioonitüübi juures võiks nt. määrata, kas pakkimine on "
+"vaikimisi vajalik,\n"
+>>>>>>> upstream/18.0
 "             kas see peaks olema kliendile nähtav info."
 
 #. module: stock
@@ -10550,7 +11408,12 @@ msgstr "Toote loendatud kogus."
 #: model_terms:ir.ui.view,arch_db:stock.stock_quant_relocate_view_form
 msgid ""
 "The quantities selected do not all belong to the same location.\n"
+<<<<<<< HEAD
 "                    You may not assign them a package without moving them to a common location."
+=======
+"                    You may not assign them a package without moving them to "
+"a common location."
+>>>>>>> upstream/18.0
 msgstr ""
 "Valitud kogused ei kuulu kõik samasse asukohta.\n"
 "Neid ei saa pakki määrata ilma samasse asukohta liigutamata."
@@ -10563,7 +11426,12 @@ msgid ""
 "rounding precision defined on the unit of measure \"%(unit)s\". Please "
 "change the quantity done or the rounding precision of your unit of measure."
 msgstr ""
+<<<<<<< HEAD
 "Toote \"%(product)s\" jaoks tehtud kogus ei järgi mõõtühikus \"%(unit)s\" määratud ümardamistäpsust.\n"
+=======
+"Toote \"%(product)s\" jaoks tehtud kogus ei järgi mõõtühikus \"%(unit)s\" "
+"määratud ümardamistäpsust.\n"
+>>>>>>> upstream/18.0
 "Palun muutke tehtud kogust või mõõtühiku ümardamise täpsust."
 
 #. module: stock
@@ -10625,8 +11493,12 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_res_users__property_stock_supplier
 msgid ""
 "The stock location used as source when receiving goods from this contact."
+<<<<<<< HEAD
 msgstr ""
 "Laoasukoht, mida kasutatakse sellelt kontaktilt toodete vastuvõtmisel."
+=======
+msgstr "Laoasukoht, mida kasutatakse sellelt kontaktilt toodete vastuvõtmisel."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_line__picking_id
@@ -10662,8 +11534,13 @@ msgid ""
 "There is nothing eligible to put in a pack. Either there are no quantities "
 "to put in a pack or all products are already in a pack."
 msgstr ""
+<<<<<<< HEAD
 "Pakendisse pole midagi sobivat panna. Kas pakendisse pole koguseid panna või"
 " on kõik tooted juba pakendis."
+=======
+"Pakendisse pole midagi sobivat panna. Kas pakendisse pole koguseid panna või "
+"on kõik tooted juba pakendis."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.stock_move_line_action
@@ -10678,6 +11555,7 @@ msgstr "See seerianumber on kasutuses juba teises asukohas."
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "This adds a dropshipping route to apply on products in order to request your"
 " vendors to deliver to your customers. A product to dropship will generate a"
 " purchase request for quotation once the sales order confirmed. This is a "
@@ -10689,6 +11567,19 @@ msgstr ""
 " purchase request for quotation once the sales order confirmed. This is a "
 "on-demand flow. The requested delivery address will be the customer delivery"
 " address and not your warehouse."
+=======
+"This adds a dropshipping route to apply on products in order to request your "
+"vendors to deliver to your customers. A product to dropship will generate a "
+"purchase request for quotation once the sales order confirmed. This is a on-"
+"demand flow. The requested delivery address will be the customer delivery "
+"address and not your warehouse."
+msgstr ""
+"This adds a dropshipping route to apply on products in order to request your "
+"vendors to deliver to your customers. A product to dropship will generate a "
+"purchase request for quotation once the sales order confirmed. This is a on-"
+"demand flow. The requested delivery address will be the customer delivery "
+"address and not your warehouse."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -10726,8 +11617,13 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__default_location_src_id
 msgid ""
+<<<<<<< HEAD
 "This is the default source location when this operation is manually created."
 " However, it is possible to change it afterwards or that the routes use "
+=======
+"This is the default source location when this operation is manually created. "
+"However, it is possible to change it afterwards or that the routes use "
+>>>>>>> upstream/18.0
 "another one by default."
 msgstr ""
 "See on vaikimisi lähtekoht, kui see operatsioon luuakse käsitsi. Siiski on "
@@ -10782,7 +11678,12 @@ msgstr "See partii/seerianumber on juba teises asukohas"
 #: model_terms:ir.actions.act_window,help:stock.stock_move_action
 msgid ""
 "This menu gives you the full traceability of inventory\n"
+<<<<<<< HEAD
 "                operations on a specific product. You can filter on the product\n"
+=======
+"                operations on a specific product. You can filter on the "
+"product\n"
+>>>>>>> upstream/18.0
 "                to see all the past or future movements for the product."
 msgstr ""
 "See menüü annab teile konkreetse toote laoseisu täieliku jälgitavuse. Saate "
@@ -10791,8 +11692,15 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.stock_move_line_action
 msgid ""
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                    You can filter on the product to see all the past movements for the product."
+=======
+"This menu gives you the full traceability of inventory operations on a "
+"specific product.\n"
+"                    You can filter on the product to see all the past "
+"movements for the product."
+>>>>>>> upstream/18.0
 msgstr ""
 "See menüü annab teile konkreetse toote laoseisust täieliku jälgitavuse.\n"
 "Te saate toote filtreerida, et näha kõiki toote eelnevaid liikumisi."
@@ -10808,14 +11716,24 @@ msgid ""
 "This note is added to internal transfer orders (e.g. where to pick the "
 "product in the warehouse)."
 msgstr ""
+<<<<<<< HEAD
 "See tekst lisatakse lao sisemistele saatelehtedele (nt kui võtad toote laost"
 " ja tahad teise asukohta liigutada)."
+=======
+"See tekst lisatakse lao sisemistele saatelehtedele (nt kui võtad toote laost "
+"ja tahad teise asukohta liigutada)."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_template_property_form
 msgid ""
+<<<<<<< HEAD
 "This note is added to receipt orders (e.g. where to store the product in the"
 " warehouse)."
+=======
+"This note is added to receipt orders (e.g. where to store the product in the "
+"warehouse)."
+>>>>>>> upstream/18.0
 msgstr ""
 "See tekst lisatakse lattu saabuvate kaupade saatelehele (nt kuhu peaksid "
 "laos paigutama selle toote)."
@@ -10826,8 +11744,12 @@ msgstr ""
 msgid ""
 "This product has been used in at least one inventory movement. It is not "
 "advised to change the Product Type since it can lead to inconsistencies. A "
+<<<<<<< HEAD
 "better solution could be to archive the product and create a new one "
 "instead."
+=======
+"better solution could be to archive the product and create a new one instead."
+>>>>>>> upstream/18.0
 msgstr ""
 "Seda toodet on kasutatud vähemalt ühes laoliikumises. Ei ole soovitatav "
 "muuta toote tüüpi kuna see võib viia vastuoludeni. Parem lahendus oleks "
@@ -10847,11 +11769,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "This product's company cannot be changed as long as there are stock moves of"
 " it belonging to another company."
 msgstr ""
 "Tootega seotud ettevõtet ei saa muuta, kuna osad laosiirded kuuluvad teisele"
 " ettevõttele."
+=======
+"This product's company cannot be changed as long as there are stock moves of "
+"it belonging to another company."
+msgstr ""
+"Tootega seotud ettevõtet ei saa muuta, kuna osad laosiirded kuuluvad teisele "
+"ettevõttele."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_change_product_qty__new_quantity
@@ -10877,8 +11807,13 @@ msgstr "Seda aruannet ei saa kasutada korraga tehtud ja tegemata %s jaoks"
 msgid ""
 "This sequence prefix is already being used by another operation type. It is "
 "recommended that you select a unique prefix to avoid issues and/or repeated "
+<<<<<<< HEAD
 "reference values or assign the existing reference sequence to this operation"
 " type."
+=======
+"reference values or assign the existing reference sequence to this operation "
+"type."
+>>>>>>> upstream/18.0
 msgstr ""
 "See järjekorra eesliides on juba kasutusel teise tegevuse tüübi poolt. "
 "Soovitame kasutada unikaalset eesliidest et ära hoida murede tekkimist."
@@ -10920,10 +11855,19 @@ msgstr "See tühistab kõik rakendamata loendused. Kas soovite jätkata?"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_track_confirmation
 msgid ""
+<<<<<<< HEAD
 "Those products you added are tracked but lots/serials were not defined. Once applied those can't be changed.<br/>\n"
 "                    Apply anyway?"
 msgstr ""
 "Lisatud tooteid jälgitakse, kuid partii-/seerianumbreid ei määratud. Pärast rakendamist ei saa neid enam muuta.<br/>\n"
+=======
+"Those products you added are tracked but lots/serials were not defined. Once "
+"applied those can't be changed.<br/>\n"
+"                    Apply anyway?"
+msgstr ""
+"Lisatud tooteid jälgitakse, kuid partii-/seerianumbreid ei määratud. Pärast "
+"rakendamist ei saa neid enam muuta.<br/>\n"
+>>>>>>> upstream/18.0
 "                     Kas taotleda ikkagi?"
 
 #. module: stock
@@ -11119,8 +12063,13 @@ msgstr "Kogu marsruudid"
 #: model:ir.model.fields,help:stock.field_stock_picking__shipping_weight
 msgid ""
 "Total weight of packages and products not in a package. Packages with no "
+<<<<<<< HEAD
 "shipping weight specified will default to their products' total weight. This"
 " is the weight used to compute the cost of the shipping."
+=======
+"shipping weight specified will default to their products' total weight. This "
+"is the weight used to compute the cost of the shipping."
+>>>>>>> upstream/18.0
 msgstr ""
 "Pakitud ja pakkimata toodete kogu kaal. Pakid ilma saadetise kaaluta on "
 "vaikimisi toote kaaluga. Seda kaalu kasutatakse saatekulude arvutamiseks."
@@ -11161,18 +12110,34 @@ msgstr "Jälgi laoseisu"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_res_config_settings__module_product_expiry
 msgid ""
+<<<<<<< HEAD
 "Track following dates on lots & serial numbers: best before, removal, end of life, alert. \n"
 " Such dates are set automatically at lot/serial number creation based on values set on the product (in days)."
 msgstr ""
 "Jälgi järgmisi kuupäevasid partiidel ja seerianumbritel: parim enne, eemaldamine, eluea lõpp, hoiatus. \n"
+=======
+"Track following dates on lots & serial numbers: best before, removal, end of "
+"life, alert. \n"
+" Such dates are set automatically at lot/serial number creation based on "
+"values set on the product (in days)."
+msgstr ""
+"Jälgi järgmisi kuupäevasid partiidel ja seerianumbritel: parim enne, "
+"eemaldamine, eluea lõpp, hoiatus. \n"
+>>>>>>> upstream/18.0
 " Need kuupäevad määratakse automaatselt tootekaardil olevate päevade alusel."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Track following dates on lots & serial numbers: best before, removal, end of"
 " life, alert. Such dates are set automatically at lot/serial number creation"
 " based on values set on the product (in days)."
+=======
+"Track following dates on lots & serial numbers: best before, removal, end of "
+"life, alert. Such dates are set automatically at lot/serial number creation "
+"based on values set on the product (in days)."
+>>>>>>> upstream/18.0
 msgstr ""
 "Jälgi järgmisi kuupäevasid partiidel ja seerianumbritel: parim enne, "
 "eemaldamine, eluea lõpp, hoiatus. Need kuupäevad määratakse automaatselt "
@@ -11326,6 +12291,10 @@ msgstr "Sõnumi tüüp..."
 #: model:ir.model.fields,field_description:stock.field_stock_package_level__picking_type_code
 #: model:ir.model.fields,field_description:stock.field_stock_picking__picking_type_code
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__code
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking__picking_type_code
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.view_pickingtype_filter
 msgid "Type of Operation"
 msgstr "Operatsiooni tüüp"
@@ -11355,6 +12324,10 @@ msgstr "Kirjel oleva erandtegevuse tüüp."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -11428,6 +12401,10 @@ msgstr "UPS ühendus"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -11492,11 +12469,19 @@ msgstr "Tühista määramine"
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 "Unavailable Serial numbers. Please correct the serial numbers encoded: "
 "%(serial_numbers_to_locations)s"
 msgstr ""
 "Seerianumbrid pole saadaval. Palun parandage kodeeritud seerianumbrid: "
 "%(serial_numbers_to_locations)s"
+=======
+"Unavailable Serial numbers. Please correct the serial numbers encoded: %"
+"(serial_numbers_to_locations)s"
+msgstr ""
+"Seerianumbrid pole saadaval. Palun parandage kodeeritud seerianumbrid: %"
+"(serial_numbers_to_locations)s"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-javascript
@@ -11586,8 +12571,13 @@ msgstr "Tundmatu pakk"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid ""
+<<<<<<< HEAD
 "Unless previously specified by the source document, this will be the default"
 " picking policy for this operation type."
+=======
+"Unless previously specified by the source document, this will be the default "
+"picking policy for this operation type."
+>>>>>>> upstream/18.0
 msgstr ""
 "Juhul kui pole määratud algses dokumendis, siis see on vaikimisi korje "
 "meetod selle tegevuse tüübi jaoks."
@@ -11666,7 +12656,13 @@ msgstr "Uuendage kogust"
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
+<<<<<<< HEAD
 "Updating the location of this transfer will result in unreservation of the currently assigned items. An attempt to reserve items at the new location will be made and the link with preceding transfers will be discarded.\n"
+=======
+"Updating the location of this transfer will result in unreservation of the "
+"currently assigned items. An attempt to reserve items at the new location "
+"will be made and the link with preceding transfers will be discarded.\n"
+>>>>>>> upstream/18.0
 "\n"
 "To avoid this, please discard the source location change before saving."
 msgstr ""
@@ -11695,8 +12691,13 @@ msgid ""
 "Use GS1 nomenclature datamatrix whenever barcodes are printed for lots and "
 "serial numbers."
 msgstr ""
+<<<<<<< HEAD
 "Kui partii-ja seerianumbrite jaoks prinditakse vöötkoode, kasutage alati GS1"
 " nomenklatuuri andmemaatriksit."
+=======
+"Kui partii-ja seerianumbrite jaoks prinditakse vöötkoode, kasutage alati GS1 "
+"nomenklatuuri andmemaatriksit."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:res.groups,name:stock.group_reception_report
@@ -12099,6 +13100,7 @@ msgstr "Kui toode saabub asukohta"
 #. odoo-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 "When products are needed in <b>%(destination)s</b>, <br> "
 "<b>%(operation)s</b> are created from <b>%(source_location)s</b> to fulfill "
 "the need. %(suffix)s"
@@ -12349,13 +13351,27 @@ msgstr ""
 "<b>%(operation)s</b> luuakse kauba väljastus <b>%(source_location)s</b> "
 "asukohast vajaduse täitmiseks. %(suffix)s"
 >>>>>>> upstream/18.0
+=======
+"When products are needed in <b>%(destination)s</b>, <br> <b>%(operation)s</"
+"b> are created from <b>%(source_location)s</b> to fulfill the need. %"
+"(suffix)s"
+msgstr ""
+"Kui tooteid on vaja asukohta <b>%(destination)s</b>, <br> <b>%(operation)s</"
+"b> luuakse kauba väljastus <b>%(source_location)s</b> asukohast vajaduse "
+"täitmiseks. %(suffix)s"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 "When products arrive in <b>%(source_location)s</b>, <br> "
 "<b>%(operation)s</b> are created to send them to <b>%(destination)s</b>."
+=======
+"When products arrive in <b>%(source_location)s</b>, <br> <b>%(operation)s</"
+"b> are created to send them to <b>%(destination)s</b>."
+>>>>>>> upstream/18.0
 msgstr ""
 "Kui tooted saabuvad <b>%(source_location)s</b>,<br> <b>%(operation)s</b> "
 "saadetakse need <b>%(destination)s</b>."
@@ -12379,9 +13395,15 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
+<<<<<<< HEAD
 "When the virtual stock goes below the Min Quantity specified for this field,"
 " Odoo generates a procurement to bring the forecasted quantity above of this"
 " Min Quantity."
+=======
+"When the virtual stock goes below the Min Quantity specified for this field, "
+"Odoo generates a procurement to bring the forecasted quantity above of this "
+"Min Quantity."
+>>>>>>> upstream/18.0
 msgstr ""
 "Kui virtuaalne laoseis langeb alla selle välja jaoks määratud "
 "miinimumkoguse, loob Odoo tellimuse, et tõsta prognoositav kogus üle selle "
@@ -12410,19 +13432,34 @@ msgid ""
 "When ticked, if the move created by this rule is cancelled, the next move "
 "will be cancelled too."
 msgstr ""
+<<<<<<< HEAD
 "Kui märgitud, siis selle reegli loodud siirded on tühistatud, järgmine siire"
 " tühistatakse samuti."
+=======
+"Kui märgitud, siis selle reegli loodud siirded on tühistatud, järgmine siire "
+"tühistatakse samuti."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__create_backorder
 msgid ""
 "When validating a transfer:\n"
+<<<<<<< HEAD
 " * Ask: users are asked to choose if they want to make a backorder for remaining products\n"
+=======
+" * Ask: users are asked to choose if they want to make a backorder for "
+"remaining products\n"
+>>>>>>> upstream/18.0
 " * Always: a backorder is automatically created for the remaining products\n"
 " * Never: remaining products are cancelled"
 msgstr ""
 "Siirde kinnitamisel:\n"
+<<<<<<< HEAD
 " * Küsi: kasutajal palutakse valida,kas nad soovivad puuduvatele toodetele järelsaatelehe teha\n"
+=======
+" * Küsi: kasutajal palutakse valida,kas nad soovivad puuduvatele toodetele "
+"järelsaatelehe teha\n"
+>>>>>>> upstream/18.0
 " * Alati: puuduvatele toodetele luuakse automaatselt järelsaateleht\n"
 " * Mitte kunagi: puuduolevatele toodetele ei looda järelsaatelehte"
 
@@ -12477,8 +13514,15 @@ msgstr "Eile"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_quant_relocate_view_form
 msgid ""
+<<<<<<< HEAD
 "You are about to move quantities in a package without moving the full package.\n"
 "                    Those quantities will be removed from the following package(s):"
+=======
+"You are about to move quantities in a package without moving the full "
+"package.\n"
+"                    Those quantities will be removed from the following "
+"package(s):"
+>>>>>>> upstream/18.0
 msgstr ""
 "Olete liigutamas koguseid pakendis ilma liigutamata kogu pakki.\n"
 "Need kogused eemaldatakse järgnevast pakist:"
@@ -12514,12 +13558,21 @@ msgstr ""
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
 "You are not allowed to create a lot or serial number with this operation "
+<<<<<<< HEAD
 "type. To change this, go on the operation type and tick the box \"Create New"
 " Lots/Serial Numbers\"."
 msgstr ""
 "Selle toimingu tüübiga ei ole lubatud partii- või seerianumbrit luua. Selle "
 "muutmiseks valige toimingu tüüp ja märkige väli \"Loo uued "
 "partiid/seerianumbrid\"."
+=======
+"type. To change this, go on the operation type and tick the box \"Create New "
+"Lots/Serial Numbers\"."
+msgstr ""
+"Selle toimingu tüübiga ei ole lubatud partii- või seerianumbrit luua. Selle "
+"muutmiseks valige toimingu tüüp ja märkige väli \"Loo uued partiid/"
+"seerianumbrid\"."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_package_destination_form_view
@@ -12549,13 +13602,25 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:stock.action_routes_form
 msgid ""
 "You can define here the main routes that run through\n"
+<<<<<<< HEAD
 "                your warehouses and that define the flows of your products. These\n"
 "                routes can be assigned to a product, a product category or be fixed\n"
+=======
+"                your warehouses and that define the flows of your products. "
+"These\n"
+"                routes can be assigned to a product, a product category or "
+"be fixed\n"
+>>>>>>> upstream/18.0
 "                on procurement or sales order."
 msgstr ""
 "Siin saate määrata peamised läbitavad marsruudid\n"
 "                oma ladudes ja defineerida toodetele vood. Neid\n"
+<<<<<<< HEAD
 "                marsruute saab määrata tootele, tootekategooriale või fikseerida\n"
+=======
+"                marsruute saab määrata tootele, tootekategooriale või "
+"fikseerida\n"
+>>>>>>> upstream/18.0
 "                ostu- või müügitellimusi. "
 
 #. module: stock
@@ -12578,15 +13643,23 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "You can not change the inventory tracking of a product that was already "
 "used."
+=======
+"You can not change the inventory tracking of a product that was already used."
+>>>>>>> upstream/18.0
 msgstr "Te ei saa muuta toote tüüpi, mis on juba eelnevalt kasutuses."
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_orderpoint.py:0
+<<<<<<< HEAD
 msgid ""
 "You can not create a snoozed orderpoint that is not manually triggered."
+=======
+msgid "You can not create a snoozed orderpoint that is not manually triggered."
+>>>>>>> upstream/18.0
 msgstr "Te ei saa luua edasilükatud tellimust mida ei käivitata manuaalselt."
 
 #. module: stock
@@ -12653,11 +13726,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/res_config_settings.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't deactivate the multi-location if you have more than once warehouse"
 " by company"
 msgstr ""
 "Multy-location´i ei saa deaktiveerida, kui Teil on ettevõttes rohkem kui üks"
 " ladu"
+=======
+"You can't deactivate the multi-location if you have more than once warehouse "
+"by company"
+msgstr ""
+"Multy-location´i ei saa deaktiveerida, kui Teil on ettevõttes rohkem kui üks "
+"ladu"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -12669,11 +13750,19 @@ msgstr "Ei saa eemaldada asukohti %s sest nendes on ikka veel tooteid."
 #. odoo-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot archive location %(location)s because it is used by warehouse "
 "%(warehouse)s"
 msgstr ""
 "Te ei saa arhiveerida asukohta %(location)s kuna see on kasutusel Teie laos "
 "%(warehouse)s "
+=======
+"You cannot archive location %(location)s because it is used by warehouse %"
+"(warehouse)s"
+msgstr ""
+"Te ei saa arhiveerida asukohta %(location)s kuna see on kasutusel Teie laos %"
+"(warehouse)s "
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -12701,16 +13790,25 @@ msgstr "Tehtud või tühistatud siirdel ei saa planeeritud kuupäeva muuta. "
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
+<<<<<<< HEAD
 msgid ""
 "You cannot change the UoM for a stock move that has been set to 'Done'."
+=======
+msgid "You cannot change the UoM for a stock move that has been set to 'Done'."
+>>>>>>> upstream/18.0
 msgstr "Te ei saa muuta siirdel laoühikuid, mis on juba `Tehtud` staatuses."
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the company of a lot/serial number currently in a location"
 " belonging to another company."
+=======
+"You cannot change the company of a lot/serial number currently in a location "
+"belonging to another company."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ei saa muute partii/seerianumbri ettevõtet kui selle asukoht kuulub teisele "
 "ettevõttele."
@@ -12770,11 +13868,19 @@ msgstr "Te ei saa varude kadude kogust muuta"
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot move the same package content more than once in the same transfer"
 " or split the same package into two location."
 msgstr ""
 "Te ei saa liigutada sama pakendi sisu rohkem kui ühe korra samas siirdes või"
 " jagada sama pakendit kahte asukohta."
+=======
+"You cannot move the same package content more than once in the same transfer "
+"or split the same package into two location."
+msgstr ""
+"Te ei saa liigutada sama pakendi sisu rohkem kui ühe korra samas siirdes või "
+"jagada sama pakendit kahte asukohta."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -12857,11 +13963,17 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot validate a transfer if no quantities are reserved. To force the "
 "transfer, encode quantities."
 msgstr ""
 "Siiret ei saa kinnitada kui pole reserveeritud koguseid. Siirde sundimiseks "
 "lisage tehtud kogused käsitsi."
+=======
+"You cannot validate a transfer if no quantities are reserved, or if only non-"
+"reserved moves are picked.To force the transfer, encode quantities."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -12883,8 +13995,15 @@ msgid ""
 "You have product(s) in stock that have lot/serial number tracking enabled. \n"
 "Switch off tracking on all the products before switching off this setting."
 msgstr ""
+<<<<<<< HEAD
 "Teie laos on toode/tooted, millel on loti/seriaalnumbrite jälgimine lubatud. \n"
 "Lülitage jälgimine välja kõigilt toodetelt enne, kui lülitate selle seadistuse välja."
+=======
+"Teie laos on toode/tooted, millel on loti/seriaalnumbrite jälgimine "
+"lubatud. \n"
+"Lülitage jälgimine välja kõigilt toodetelt enne, kui lülitate selle "
+"seadistuse välja."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -12900,8 +14019,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid ""
+<<<<<<< HEAD
 "You have to select a product unit of measure that is in the same category as"
 " the default unit of measure of the product"
+=======
+"You have to select a product unit of measure that is in the same category as "
+"the default unit of measure of the product"
+>>>>>>> upstream/18.0
 msgstr ""
 "Peate valima toote mõõtühiku samast kategooriast, mis on määratud toote "
 "vaikimisi mõõtühikuks."
@@ -12986,6 +14110,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint_replenish
 msgid ""
+<<<<<<< HEAD
 "You'll find here smart replenishment propositions based on inventory forecasts.\n"
 "            Choose the quantity to buy or manufacture and launch orders in a click.\n"
 "            To save time in the future, set the rules as \"automated\"."
@@ -12993,6 +14118,19 @@ msgstr ""
 "Siit leiate tellimiste ettepanekuid, mis põhinevad laoprognoosidel.\n"
 "            Valige ostmiseks või tootmiseks vajalik kogus ja algatage tellimine nupule vajutusega. \n"
 "            Selleks, et tulevikus aega säästa, sätestage reeglid \"automatiseerituks\"."
+=======
+"You'll find here smart replenishment propositions based on inventory "
+"forecasts.\n"
+"            Choose the quantity to buy or manufacture and launch orders in a "
+"click.\n"
+"            To save time in the future, set the rules as \"automated\"."
+msgstr ""
+"Siit leiate tellimiste ettepanekuid, mis põhinevad laoprognoosidel.\n"
+"            Valige ostmiseks või tootmiseks vajalik kogus ja algatage "
+"tellimine nupule vajutusega. \n"
+"            Selleks, et tulevikus aega säästa, sätestage reeglid "
+"\"automatiseerituks\"."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:res.company,lunch_notify_message:stock.res_company_1
@@ -13280,5 +14418,17 @@ msgstr "ühikud"
 msgid ""
 "{{ object.company_id.name }} Delivery Order (Ref {{ object.name or 'n/a' }})"
 msgstr ""
+<<<<<<< HEAD
 "{{object.company_id.name}} kohaletoimetamise järjekord (ref {{object.name or"
 " 'n/a'}})"
+=======
+"{{object.company_id.name}} kohaletoimetamise järjekord (ref {{object.name or "
+"'n/a'}})"
+
+#~ msgid ""
+#~ "You cannot validate a transfer if no quantities are reserved. To force "
+#~ "the transfer, encode quantities."
+#~ msgstr ""
+#~ "Siiret ei saa kinnitada kui pole reserveeritud koguseid. Siirde "
+#~ "sundimiseks lisage tehtud kogused käsitsi."
+>>>>>>> upstream/18.0

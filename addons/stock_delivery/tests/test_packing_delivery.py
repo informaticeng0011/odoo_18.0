@@ -293,7 +293,10 @@ class TestPacking(TestPackingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -344,6 +347,9 @@ class TestPacking(TestPackingCommon):
         self.assertFalse(move_line_2.result_package_id, 'The other move line should not be packed')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

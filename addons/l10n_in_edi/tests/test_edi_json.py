@@ -14,9 +14,12 @@ class TestEdiJson(L10nInTestInvoicingCommon):
     def setUpClass(cls):
         super().setUpClass()
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.env['ir.config_parameter'].set_param('l10n_in_edi.manage_invoice_negative_lines', True)
         cls.maxDiff = None
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.partner_a.l10n_in_gst_treatment = "regular"
@@ -111,6 +114,7 @@ class TestEdiJson(L10nInTestInvoicingCommon):
         })
         cls.invoice_cash_rounding.action_post()
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.sez_partner = cls.env['res.partner'].create({
             'name': 'SEZ Partner',
             'vat': '36AAAAA1234AAZA',
@@ -121,6 +125,8 @@ class TestEdiJson(L10nInTestInvoicingCommon):
             'state_id': cls.env.ref('base.state_in_gj').id,
             'country_id': cls.env.ref('base.in').id,
         })
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.invoice_with_intra_igst = cls.init_invoice(
@@ -156,6 +162,10 @@ class TestEdiJson(L10nInTestInvoicingCommon):
         })
         cls.invoice_with_export.action_post()
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls._generate_json = cls.env["account.edi.format"]._l10n_in_edi_generate_invoice_json
+>>>>>>> upstream/18.0
 =======
         cls._generate_json = cls.env["account.edi.format"]._l10n_in_edi_generate_invoice_json
 >>>>>>> upstream/18.0
@@ -168,7 +178,10 @@ class TestEdiJson(L10nInTestInvoicingCommon):
         # 946.59 * 0.06 = 56.80
         # total tax: 160.19
 <<<<<<< HEAD
+<<<<<<< HEAD
         json_value = self.env["account.edi.format"]._l10n_in_edi_generate_invoice_json(self.invoice)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         expected = {
@@ -213,6 +226,7 @@ class TestEdiJson(L10nInTestInvoicingCommon):
                 "StCesVal": 0.0, "Discount": 0.0, "RndOffAmt": 0.0, "TotInvVal": 1999.59
             }
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.assertDictEqual(json_value, expected, "Indian EDI send json value is not matched")
         expected_copy_rounding = expected.copy()
@@ -416,6 +430,8 @@ class TestEdiJson(L10nInTestInvoicingCommon):
             "Indian EDI with Overseas sent json value is not matched"
         )
 =======
+=======
+>>>>>>> upstream/18.0
         with self.subTest(scenario="Taxable Invoice"):
             json_value = self._generate_json(self.invoice)
             self.assertDictEqual(json_value, expected, "Indian EDI send json value is not matched")
@@ -958,4 +974,7 @@ class TestEdiJson(L10nInTestInvoicingCommon):
                   }
                 }
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

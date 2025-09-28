@@ -100,7 +100,10 @@ function selectAttribute(productName, attributeName, attributeValue, attributeTy
         case 'multi':
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             return {
@@ -109,6 +112,9 @@ function selectAttribute(productName, attributeName, attributeValue, attributeTy
                 run: "click",
             };
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

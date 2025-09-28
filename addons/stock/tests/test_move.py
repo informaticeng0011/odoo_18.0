@@ -4816,7 +4816,10 @@ class StockMove(TransactionCase):
         self.assertEqual(internal_transfer.state, 'done')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_validate_picking_wihtout_picked_reservations(self):
         """
         Check that validating a picking where every picked move is unreserved
@@ -4857,6 +4860,9 @@ class StockMove(TransactionCase):
         with self.assertRaises(UserError):
             picking.button_validate()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_set_quantity_1(self):
         move1 = self.env['stock.move'].create({

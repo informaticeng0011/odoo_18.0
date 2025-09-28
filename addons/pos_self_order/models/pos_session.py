@@ -56,7 +56,10 @@ class PosSession(models.Model):
         )
         return sessions
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.autovacuum
     def _gc_session_sequences(self):
@@ -66,4 +69,7 @@ class PosSession(models.Model):
         sequence_to_unlink_ids = sequences.filtered(lambda seq: seq.code in [f'pos.order_{session}' for session in session_ids])
         if sequence_to_unlink_ids:
             sequence_to_unlink_ids.sudo().unlink()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

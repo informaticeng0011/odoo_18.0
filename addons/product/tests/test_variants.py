@@ -489,7 +489,10 @@ class TestVariants(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -791,6 +794,7 @@ class TestVariants(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -985,6 +989,8 @@ class TestVariants(ProductVariantsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def test_single_variant_template_computed_values_after_creation(self):
         """Check that only one packaging gets created along with a single-attribute product."""
         product_template = self.env['product.template'].create({
@@ -1010,6 +1016,9 @@ class TestVariants(ProductVariantsCommon):
             'THIS IS A TEST',
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 @tagged('post_install', '-at_install')
 class TestVariantsNoCreate(ProductAttributesCommon):

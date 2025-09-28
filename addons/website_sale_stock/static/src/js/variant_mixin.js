@@ -24,7 +24,11 @@ import { markup } from "@odoo/owl";
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 VariantMixin._onChangeCombinationStock = function (ev, $parent, combination) {
+=======
+VariantMixin._onChangeCombinationStock = async function (ev, $parent, combination) {
+>>>>>>> upstream/18.0
 =======
 VariantMixin._onChangeCombinationStock = async function (ev, $parent, combination) {
 >>>>>>> upstream/18.0
@@ -55,7 +59,12 @@ VariantMixin._onChangeCombinationStock = async function (ev, $parent, combinatio
     if (combination.is_storable && !combination.allow_out_of_stock_order) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         combination.free_qty -= parseInt(combination.cart_qty);
+=======
+        const unavailableQty = await VariantMixin._getUnavailableQty(combination);
+        combination.free_qty -= unavailableQty;
+>>>>>>> upstream/18.0
 =======
         const unavailableQty = await VariantMixin._getUnavailableQty(combination);
         combination.free_qty -= unavailableQty;
@@ -113,7 +122,10 @@ VariantMixin._onChangeCombinationStock = async function (ev, $parent, combinatio
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 VariantMixin._getUnavailableQty = async function (combination) {
@@ -121,6 +133,9 @@ VariantMixin._getUnavailableQty = async function (combination) {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

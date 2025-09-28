@@ -94,6 +94,10 @@ from base64 import b64encode
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -444,7 +448,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('requires_user_signature', 'Requires user signature'),
+=======
+            ('requires_user_signature', 'Requires user signature'),  # TODO: remove in master
+>>>>>>> upstream/18.0
 =======
             ('requires_user_signature', 'Requires user signature'),  # TODO: remove in master
 >>>>>>> upstream/18.0
@@ -771,7 +779,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             description = description or "NO NAME"
+=======
+            # Workaround: remove line breaks due to Tax Agency portal bug.
+            # This deviates from Odoo's standard behavior and must be reviewed if the issue gets fixed.
+            description = description and description.replace('\n', ' ').strip() or "NO NAME"
+>>>>>>> upstream/18.0
 =======
             # Workaround: remove line breaks due to Tax Agency portal bug.
             # This deviates from Odoo's standard behavior and must be reviewed if the issue gets fixed.
@@ -945,7 +959,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 it_values['prezzo_unitario'] = base_line['currency_id']._convert(it_values['prezzo_unitario'], self.company_currency_id, date=self.date)
+=======
+                it_values['prezzo_unitario'] = it_values['prezzo_unitario'] / base_line['rate']
+>>>>>>> upstream/18.0
 =======
                 it_values['prezzo_unitario'] = it_values['prezzo_unitario'] / base_line['rate']
 >>>>>>> upstream/18.0
@@ -1334,6 +1352,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not tax_data:
+            return None
+>>>>>>> upstream/18.0
 =======
         if not tax_data:
             return None
@@ -1558,6 +1581,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not tax_data:
+            return None
+>>>>>>> upstream/18.0
 =======
         if not tax_data:
             return None
@@ -1795,10 +1823,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         skip = tax_data['is_reverse_charge'] or self._l10n_it_edi_is_neg_split_payment(tax_data)
         return not skip
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1946,6 +1977,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2045,6 +2079,7 @@ class AccountMove(models.Model):
         convert_to_euros = self.currency_id.name != 'EUR'
 
         # Base lines.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2260,6 +2295,11 @@ class AccountMove(models.Model):
         base_lines = [self._prepare_product_base_line_for_taxes_computation(x) for x in base_amls]
         tax_amls = self.line_ids.filtered('tax_repartition_line_id')
 >>>>>>> upstream/18.0
+=======
+        base_amls = self.line_ids.filtered(lambda x: x.display_type == 'product' or x.display_type == 'rounding')
+        base_lines = [self._prepare_product_base_line_for_taxes_computation(x) for x in base_amls]
+        tax_amls = self.line_ids.filtered('tax_repartition_line_id')
+>>>>>>> upstream/18.0
         tax_lines = [self._prepare_tax_line_for_taxes_computation(x) for x in tax_amls]
 
         if reverse_charge_refund:
@@ -2331,6 +2371,7 @@ class AccountMove(models.Model):
             importo_totale_documento += values['base_amount_currency']
             importo_totale_documento += values['tax_amount_currency']
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2612,6 +2653,9 @@ class AccountMove(models.Model):
 =======
         company = self.company_id._l10n_it_get_edi_company()
 >>>>>>> upstream/18.0
+=======
+        company = self.company_id._l10n_it_get_edi_company()
+>>>>>>> upstream/18.0
         partner = self.commercial_partner_id
         sender = company
         buyer = partner if not is_self_invoice else company
@@ -2680,7 +2724,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'reconciled_moves': self._get_reconciled_invoices(),
+=======
+            'reconciled_moves': self._get_reconciled_invoices().filtered(lambda move: move.date <= self.date),
+>>>>>>> upstream/18.0
 =======
             'reconciled_moves': self._get_reconciled_invoices().filtered(lambda move: move.date <= self.date),
 >>>>>>> upstream/18.0
@@ -2911,8 +2959,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'TD05': {'move_types': ['out_refund'],
                      'import_type': 'in_refund',
+=======
+            'TD05': {'move_types': ['in_invoice', 'out_invoice'],
+                     'import_type': 'in_invoice',
+>>>>>>> upstream/18.0
 =======
             'TD05': {'move_types': ['in_invoice', 'out_invoice'],
                      'import_type': 'in_invoice',
@@ -3737,6 +3790,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         move_line.tax_ids = []
         if percentage is not None:
             l10n_it_exempt_reason = get_text(element, './/Natura').upper() or False
@@ -3744,6 +3798,8 @@ class AccountMove(models.Model):
             if tax := self._l10n_it_edi_search_tax_for_import(company, percentage, extra_domain, l10n_it_exempt_reason=l10n_it_exempt_reason):
                 move_line.tax_ids += tax
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3799,6 +3855,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3844,6 +3903,7 @@ class AccountMove(models.Model):
                 move_line.tax_ids = [Command.set(fitting_taxes)]
 
         # Discounts
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4062,6 +4122,9 @@ class AccountMove(models.Model):
 =======
         if (discounts := element.xpath('.//ScontoMaggiorazione')) and not float_is_zero(move_line.price_unit, precision_rounding=move_line.currency_id.rounding):
 >>>>>>> upstream/18.0
+=======
+        if (discounts := element.xpath('.//ScontoMaggiorazione')) and not float_is_zero(move_line.price_unit, precision_rounding=move_line.currency_id.rounding):
+>>>>>>> upstream/18.0
             current_unit_price = move_line.price_unit
             # We apply the discounts in the order they are found in the XML.
             # The first discount is applied to the unit price, the second to the result of the first, etc.
@@ -4087,7 +4150,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if discount_percentage := get_float(discount, './/Percentuale'):
+=======
+                if (discount_percentage := get_float(discount, './/Percentuale')) and not float_is_zero(discount_percentage, precision_rounding=move_line.currency_id.rounding):
+>>>>>>> upstream/18.0
 =======
                 if (discount_percentage := get_float(discount, './/Percentuale')) and not float_is_zero(discount_percentage, precision_rounding=move_line.currency_id.rounding):
 >>>>>>> upstream/18.0
@@ -4211,6 +4278,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4414,6 +4484,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if move_lines := self.mapped("invoice_line_ids").filtered(lambda line:
             line.display_type == 'product'
             and len(line.tax_ids.flatten_taxes_hierarchy()._l10n_it_filter_kind('vat')) != 1
@@ -4427,6 +4498,8 @@ class AccountMove(models.Model):
                     } if len(self) > 1 else {})
                 }}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4457,6 +4530,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4598,8 +4674,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Each company should have its own filename sequence. If it does not exist, create it
         n = self.env['ir.sequence'].with_company(self.company_id).next_by_code('l10n_it_edi.fattura_filename')
+=======
+        company = self.company_id._l10n_it_get_edi_company()
+        n = self.env['ir.sequence'].with_company(company).next_by_code('l10n_it_edi.fattura_filename')
+>>>>>>> upstream/18.0
 =======
         company = self.company_id._l10n_it_get_edi_company()
         n = self.env['ir.sequence'].with_company(company).next_by_code('l10n_it_edi.fattura_filename')
@@ -4771,7 +4852,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'company_id': self.company_id.id,
+=======
+                'company_id': company.id,
+>>>>>>> upstream/18.0
 =======
                 'company_id': company.id,
 >>>>>>> upstream/18.0
@@ -4883,6 +4968,7 @@ class AccountMove(models.Model):
             progressive_number = a[m] + progressive_number
 
         return '%(country_code)s%(codice)s_%(progressive_number)s.xml' % {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5050,11 +5136,16 @@ class AccountMove(models.Model):
             'country_code': company.country_id.code,
             'codice': company.partner_id._l10n_it_edi_normalized_codice_fiscale(),
 >>>>>>> upstream/18.0
+=======
+            'country_code': company.country_id.code,
+            'codice': company.partner_id._l10n_it_edi_normalized_codice_fiscale(),
+>>>>>>> upstream/18.0
             'progressive_number': progressive_number.zfill(5),
         }
 
     def _l10n_it_edi_send(self, attachments_vals):
         self.env['res.company']._with_locked_records(self)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5428,10 +5519,14 @@ class AccountMove(models.Model):
 =======
         files_to_upload = defaultdict(lambda: (self.env['account.move'], []))
 >>>>>>> upstream/18.0
+=======
+        files_to_upload = defaultdict(lambda: (self.env['account.move'], []))
+>>>>>>> upstream/18.0
         filename_move = {}
 
         # Setup moves for sending
         for move in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5968,6 +6063,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             move.l10n_it_edi_header = False
             attachment_vals = attachments_vals[move]
             filename = attachment_vals['name']
@@ -5999,6 +6096,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6128,6 +6228,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6343,6 +6446,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sent_move = filename_move[filename]
             if 'error' in vals:
                 sent_move.l10n_it_edi_state = False
@@ -6358,6 +6462,8 @@ class AccountMove(models.Model):
             sent_move.l10n_it_edi_header = message
             sent_move.sudo().message_post(body=message)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6442,6 +6548,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6506,10 +6615,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ERRORS = {'EI01': _('Attached file is empty'),
                   'EI02': _('Service momentarily unavailable'),
                   'EI03': _('Unauthorized user')}
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6563,10 +6675,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for filename, vals in results.items():
             if 'error' in vals:
                 results[filename]['error'] = ERRORS.get(vals.get('error'), _("Unknown error"))
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -91,9 +91,15 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if updated_days:
                     leave.l10n_in_contains_sandwich_leaves = updated_days != days
             else:
+=======
+                if updated_days and leave.state not in ['validate', 'validate1']:
+                    leave.l10n_in_contains_sandwich_leaves = updated_days != days
+            elif leave.state not in ['validate', 'validate1']:
+>>>>>>> upstream/18.0
 =======
                 if updated_days and leave.state not in ['validate', 'validate1']:
                     leave.l10n_in_contains_sandwich_leaves = updated_days != days

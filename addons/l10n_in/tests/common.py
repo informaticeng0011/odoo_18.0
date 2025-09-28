@@ -70,6 +70,7 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
             'zip': "45660",
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,6 +117,8 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         cls.sez_partner = cls.env['res.partner'].create({
             'name': 'SEZ Partner',
             'vat': '36AAAAA1234AAZA',
@@ -127,6 +130,9 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
             'country_id': cls.env.ref('base.in').id,
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         cls.partner_foreign_no_state = cls.env['res.partner'].create({
             'name': "Foreign Partner Without State",
@@ -134,6 +140,7 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
             # No state_id defined
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,6 +192,8 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
         cls.igst_sale_18 = cls.env["account.chart.template"].ref('igst_sale_18')
         cls.sgst_sale_18 = cls.env["account.chart.template"].ref('sgst_sale_18')
 =======
+=======
+>>>>>>> upstream/18.0
         # === Taxes === #
         AccountChartTemplate = cls.env['account.chart.template']
         cls.sgst_sale_5 = AccountChartTemplate.ref('sgst_sale_5')
@@ -196,6 +205,9 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
         cls.igst_sale_18_sez_lut = AccountChartTemplate.ref('igst_sale_18_sez_lut')
         cls.igst_sale_18_sez_exp_lut = AccountChartTemplate.ref('igst_sale_18_sez_exp_lut')
         cls.igst_sale_18_sez_exp = AccountChartTemplate.ref('igst_sale_18_sez_exp')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         # === Products === #
@@ -256,7 +268,10 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -309,6 +324,7 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -339,6 +355,8 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
         cls.invoice_with_rcm = cls.init_invoice(
             "out_invoice",
@@ -374,4 +392,7 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
             products=cls.product_a,
             taxes=cls.igst_sale_18_sez_exp,
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

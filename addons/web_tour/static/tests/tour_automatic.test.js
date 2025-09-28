@@ -137,8 +137,11 @@ test("a failing tour logs the step that failed in run", async () => {
         warn: (s) => {},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         error: (s) => expect.step(`error: ${s}`),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         error: (s) => {
@@ -146,6 +149,9 @@ test("a failing tour logs the step that failed in run", async () => {
             expect.step(`error: ${s}`)
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -187,8 +193,12 @@ test("a failing tour logs the step that failed in run", async () => {
             "error: FAILED: [2/2] Tour tour2 → Step .button1.",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `ERROR during perform action:
 Cannot read properties of null (reading 'click')`,
+=======
+            `TypeError: Cannot read properties of null (reading 'click')`,
+>>>>>>> upstream/18.0
 =======
             `TypeError: Cannot read properties of null (reading 'click')`,
 >>>>>>> upstream/18.0

@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_automation
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Kim Asplund <kim.asplund@gmail.com>, 2024
 # Kristoffer Grundström <lovaren@gmail.com>, 2024
@@ -11,11 +15,16 @@
 # Martin Trigaux, 2024
 # Lasse L, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 12:50+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
@@ -24,6 +33,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: sv\n"
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
+"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: base_automation
@@ -72,8 +91,13 @@ msgstr "<code>env</code>: miljö där åtgärden utlöses"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
+<<<<<<< HEAD
 "<code>model</code>: model of the record on which the action is triggered; is"
 " a void recordset"
+=======
+"<code>model</code>: model of the record on which the action is triggered; is "
+"a void recordset"
+>>>>>>> upstream/18.0
 msgstr ""
 "<code>model</code>: modell för den post som åtgärden utlöses på; är en void "
 "recordset"
@@ -131,21 +155,43 @@ msgstr "<span class=\"text-muted\"> Tillgängliga variabler: </span>"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 "<span invisible=\"evaluation_type != 'value'\">to</span>\n"
+<<<<<<< HEAD
 "                                                        <span invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
 "<span osynlig=\"evaluation_type != 'value'\">till</span>\n"
 "                                                                <span invisible=\"evaluation_type != 'equation'\">som</span>"
+=======
+"                                                        <span "
+"invisible=\"evaluation_type != 'equation'\">as</span>"
+msgstr ""
+"<span osynlig=\"evaluation_type != 'value'\">till</span>\n"
+"                                                                <span "
+"invisible=\"evaluation_type != 'equation'\">som</span>"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 "<span invisible=\"trigger != 'on_time_created'\">after creation</span>\n"
+<<<<<<< HEAD
 "                                    <span invisible=\"trigger != 'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">after</span>"
 msgstr ""
 "<span osynlig=\"trigger != 'on_time_created'\">efter skapande</span>\n"
 "                                    <span osynlig=\"trigger != 'on_time_updated'\">efter senaste uppdatering</span>\n"
 "                                    <span osynlig=\"trigger != 'on_time'\">efter</span>"
+=======
+"                                    <span invisible=\"trigger != "
+"'on_time_updated'\">after last update</span>\n"
+"                                    <span invisible=\"trigger != "
+"'on_time'\">after</span>"
+msgstr ""
+"<span osynlig=\"trigger != 'on_time_created'\">efter skapande</span>\n"
+"                                    <span osynlig=\"trigger != "
+"'on_time_updated'\">efter senaste uppdatering</span>\n"
+"                                    <span osynlig=\"trigger != "
+"'on_time'\">efter</span>"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -169,10 +215,17 @@ msgstr "<span>genom att ställa in den på</span>"
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
 msgstr ""
 "<strong><i class=\"fa fa-lock\"/> Håll det hemligt, håll det "
 "säkert.</strong>"
+=======
+msgid ""
+"<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
+msgstr ""
+"<strong><i class=\"fa fa-lock\"/> Håll det hemligt, håll det säkert.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_ir_actions_server__name
@@ -230,7 +283,10 @@ msgstr "Ansök på"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
+=======
+>>>>>>> upstream/18.0
 msgid "Archived"
 msgstr "Arkiverad"
 
@@ -403,6 +459,7 @@ msgstr "Inaktivera automatiseringsregel"
 #: code:addons/base_automation/static/src/base_automation_error_dialog.xml:0
 msgid ""
 "Disabling this automation rule will enable you to continue your workflow\n"
+<<<<<<< HEAD
 "                but any data created after this could potentially be corrupted,\n"
 "                as you are effectively disabling a customization that may set\n"
 "                important and/or required fields."
@@ -410,6 +467,20 @@ msgstr ""
 "Om du inaktiverar denna automatiseringsregel kan du fortsätta ditt arbetsflöde\n"
 "                men alla data som skapas efter detta kan potentiellt vara skadade,\n"
 "                eftersom du effektivt inaktiverar en anpassning som kan ställa in\n"
+=======
+"                but any data created after this could potentially be "
+"corrupted,\n"
+"                as you are effectively disabling a customization that may "
+"set\n"
+"                important and/or required fields."
+msgstr ""
+"Om du inaktiverar denna automatiseringsregel kan du fortsätta ditt "
+"arbetsflöde\n"
+"                men alla data som skapas efter detta kan potentiellt vara "
+"skadade,\n"
+"                eftersom du effektivt inaktiverar en anpassning som kan "
+"ställa in\n"
+>>>>>>> upstream/18.0
 "                viktiga och/eller obligatoriska fält."
 
 #. module: base_automation
@@ -498,8 +569,13 @@ msgstr "ID"
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__filter_domain
 msgid ""
+<<<<<<< HEAD
 "If present, this condition must be satisfied before executing the automation"
 " rule."
+=======
+"If present, this condition must be satisfied before executing the automation "
+"rule."
+>>>>>>> upstream/18.0
 msgstr ""
 "Om detta villkor finns måste det uppfyllas innan automatiseringsregeln körs."
 
@@ -511,6 +587,14 @@ msgid ""
 msgstr ""
 
 #. module: base_automation
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
+msgid "Include Archived"
+msgstr ""
+
+#. module: base_automation
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Keep track of what this automation does and why it exists..."
 msgstr "Håll koll på vad automatiseringen gör och varför den finns..."
@@ -574,11 +658,19 @@ msgstr "Modellnamn"
 #. odoo-python
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid ""
+<<<<<<< HEAD
 "Model of action %(action_name)s should match the one from automated rule "
 "%(rule_name)s."
 msgstr ""
 "Modell för åtgärd %(action_name)s ska matcha den från automatiserad regel "
 "%(rule_name)s."
+=======
+"Model of action %(action_name)s should match the one from automated rule %"
+"(rule_name)s."
+msgstr ""
+"Modell för åtgärd %(action_name)s ska matcha den från automatiserad regel %"
+"(rule_name)s."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__model_id
@@ -744,22 +836,41 @@ msgstr "Skicka Webhook-avisering"
 #: model_terms:ir.actions.act_window,help:base_automation.base_automation_act
 msgid ""
 "Send an email when an object changes state, archive records\n"
+<<<<<<< HEAD
 "                after a month of inactivity or remind yourself to follow-up on\n"
 "                tasks when a specific tag is added."
 msgstr ""
 "Skicka ett e-postmeddelande när ett objekt ändrar status, arkivera poster\n"
 "                efter en månads inaktivitet eller påminn dig själv om att följa upp\n"
+=======
+"                after a month of inactivity or remind yourself to follow-up "
+"on\n"
+"                tasks when a specific tag is added."
+msgstr ""
+"Skicka ett e-postmeddelande när ett objekt ändrar status, arkivera poster\n"
+"                efter en månads inaktivitet eller påminn dig själv om att "
+"följa upp\n"
+>>>>>>> upstream/18.0
 "                uppgifter när en specifik tagg läggs till."
 
 #. module: base_automation
 #: model_terms:digest.tip,tip_description:base_automation.digest_tip_base_automation_0
 msgid ""
+<<<<<<< HEAD
 "Send an email when an object changes state, archive records after a month of"
 " inactivity or remind yourself to follow-up on tasks when a specific tag is "
 "added.<br>With Automation Rules, you can automate any workflow."
 msgstr ""
 "Skicka ett e-postmeddelande när ett objekt ändrar tillstånd, arkivera poster"
 " efter en månads inaktivitet eller påminn dig själv om att följa upp "
+=======
+"Send an email when an object changes state, archive records after a month of "
+"inactivity or remind yourself to follow-up on tasks when a specific tag is "
+"added.<br>With Automation Rules, you can automate any workflow."
+msgstr ""
+"Skicka ett e-postmeddelande när ett objekt ändrar tillstånd, arkivera poster "
+"efter en månads inaktivitet eller påminn dig själv om att följa upp "
+>>>>>>> upstream/18.0
 "uppgifter när en specifik tagg läggs till. <br> Med Automation Rules kan du "
 "automatisera vilket arbetsflöde som helst."
 
@@ -792,8 +903,13 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_field_ref
 msgid ""
+<<<<<<< HEAD
 "Some triggers need a reference to another field. This field is used to store"
 " it."
+=======
+"Some triggers need a reference to another field. This field is used to store "
+"it."
+>>>>>>> upstream/18.0
 msgstr ""
 "Vissa triggers behöver en referens till ett annat fält. Detta fält används "
 "för att lagra den."
@@ -833,8 +949,12 @@ msgstr "Målrekord"
 #. module: base_automation
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
+<<<<<<< HEAD
 msgid ""
 "Target model of actions %(action_names)s are different from rule model."
+=======
+msgid "Target model of actions %(action_names)s are different from rule model."
+>>>>>>> upstream/18.0
 msgstr ""
 "Målmodellen för åtgärder %(action_names)s skiljer sig från regelmodellen."
 
@@ -842,11 +962,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
 msgid ""
+<<<<<<< HEAD
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the "
 "\"%(state_value)s\" action type"
 msgstr ""
 "\"%(trigger_value)s\" %(trigger_label)s kan endast användas med åtgärdstypen"
 " \"%(state_value)s\""
+=======
+"The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%"
+"(state_value)s\" action type"
+msgstr ""
+"\"%(trigger_value)s\" %(trigger_label)s kan endast användas med åtgärdstypen "
+"\"%(state_value)s\""
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trigger_field_ids
@@ -854,8 +982,13 @@ msgid ""
 "The automation rule will be triggered if and only if one of these fields is "
 "updated.If empty, all fields are watched."
 msgstr ""
+<<<<<<< HEAD
 "Automatiseringsregeln utlöses om och endast om ett av dessa fält uppdateras."
 " Om de är tomma övervakas alla fält."
+=======
+"Automatiseringsregeln utlöses om och endast om ett av dessa fält uppdateras. "
+"Om de är tomma övervakas alla fält."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -1014,10 +1147,19 @@ msgstr ""
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_date_id
 msgid ""
 "When should the condition be triggered.\n"
+<<<<<<< HEAD
 "                If present, will be checked by the scheduler. If empty, will be checked at creation and update."
 msgstr ""
 "När ska villkoret utlösas.\n"
 "                Om det finns kommer det att kontrolleras av schemaläggaren. Om tomt, kommer att kontrolleras vid skapande och uppdatering."
+=======
+"                If present, will be checked by the scheduler. If empty, will "
+"be checked at creation and update."
+msgstr ""
+"När ska villkoret utlösas.\n"
+"                Om det finns kommer det att kontrolleras av schemaläggaren. "
+"Om tomt, kommer att kontrolleras vid skapande och uppdatering."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__active
@@ -1052,8 +1194,13 @@ msgstr ""
 #: code:addons/base_automation/static/src/base_automation_error_dialog.xml:0
 msgid "You can disable this automation rule or edit it to solve the issue."
 msgstr ""
+<<<<<<< HEAD
 "Du kan inaktivera denna automatiseringsregel eller redigera den för att lösa"
 " problemet."
+=======
+"Du kan inaktivera denna automatiseringsregel eller redigera den för att lösa "
+"problemet."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python

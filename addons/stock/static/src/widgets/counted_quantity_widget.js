@@ -97,6 +97,7 @@ export class CountedQuantityWidgetField extends FloatField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     inputEl.addEventListener("input", this.onInput.bind(this));
                     inputEl.addEventListener("keydown", this.onKeydown.bind(this));
                     inputEl.addEventListener("blur", this.onBlur.bind(this));
@@ -105,6 +106,8 @@ export class CountedQuantityWidgetField extends FloatField {
                         inputEl.removeEventListener("keydown", this.onKeydown.bind(this));
                         inputEl.removeEventListener("blur", this.onBlur.bind(this));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -358,6 +361,9 @@ export class CountedQuantityWidgetField extends FloatField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -21,7 +21,10 @@ patch(PosStore.prototype, {
         return super._shouldLoadOrders() || this.session._self_ordering;
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     async redirectToQrForm() {
         const user_data = await this.data.call("pos.config", "get_pos_qr_order_data", [
             this.config.id,
@@ -32,6 +35,9 @@ patch(PosStore.prototype, {
             params: { data: user_data },
         });
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 
