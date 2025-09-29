@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
@@ -7,6 +8,8 @@ from odoo import fields, models, api, _
 from odoo.exceptions import ValidationError
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
@@ -37,6 +40,9 @@ def format_epson_certified_domain(serial_number):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47,8 +53,11 @@ class PosPrinter(models.Model):
     printer_type = fields.Selection(selection_add=[('epson_epos', 'Use an Epson printer')])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     epson_printer_ip = fields.Char(string='Epson Printer IP Address', help="Local IP address of an Epson receipt printer.", default="0.0.0.0")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     epson_printer_ip = fields.Char(
@@ -60,6 +69,9 @@ class PosPrinter(models.Model):
         default="0.0.0.0"
     )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -77,7 +89,10 @@ class PosPrinter(models.Model):
         return params
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -87,6 +102,9 @@ class PosPrinter(models.Model):
             if rec.epson_printer_ip:
                 rec.epson_printer_ip = format_epson_certified_domain(rec.epson_printer_ip)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

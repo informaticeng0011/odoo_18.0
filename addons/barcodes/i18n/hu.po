@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* barcodes
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -15,7 +19,11 @@
 # Martin Trigaux, 2024
 # krnkris, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -23,6 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -33,6 +42,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hu\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: krnkris, 2024\n"
@@ -41,6 +52,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -54,6 +68,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and categorized.\n"
 "                                When a barcode is scanned it is associated to the <i>first</i> rule with a matching\n"
 "                                pattern. The pattern syntax is that of regular expression, and a barcode is matched\n"
@@ -64,6 +79,8 @@ msgstr ""
 "                                mintájával. A minta felépítés egy általános kifejezés, és egy vonalkód egyezik, \n"
 "                                ha az alap kifejezés egyezik a vonalkód előtaggal."
 =======
+=======
+>>>>>>> upstream/18.0
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and "
 "categorized.\n"
 "                                When a barcode is scanned it is associated "
@@ -81,14 +98,22 @@ msgstr ""
 "kifejezés, és egy vonalkód egyezik, \n"
 "                                ha az alap kifejezés egyezik a vonalkód "
 "előtaggal."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model_terms:ir.actions.act_window,help:barcodes.action_barcode_nomenclature_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A barcode nomenclature defines how the point of sale identify and interprets"
 " barcodes"
+=======
+"A barcode nomenclature defines how the point of sale identify and interprets "
+"barcodes"
+>>>>>>> upstream/18.0
 =======
 "A barcode nomenclature defines how the point of sale identify and interprets "
 "barcodes"
@@ -231,7 +256,10 @@ msgstr "ID"
 
 #. module: barcodes
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/barcodes/models/barcode_events_mixin.py:0
 msgid ""
@@ -240,6 +268,9 @@ msgid ""
 msgstr ""
 
 #. module: barcodes
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:barcodes.field_barcode_nomenclature__write_uid
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__write_uid
@@ -266,12 +297,15 @@ msgstr "Nómenklatúra"
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Patterns can also define how numerical values, such as weight or price, can be\n"
 "                                encoded into the barcode. They are indicated by <code>{NNN}</code> where the N's\n"
 "                                define where the number's digits are encoded. Floats are also supported with the\n"
 "                                decimals indicated with D's, such as <code>{NNNDD}</code>. In these cases,\n"
 "                                the barcode field on the associated records <i>must</i> show these digits as\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Patterns can also define how numerical values, such as weight or price, can "
 "be\n"
 "                                encoded into the barcode. They are indicated "
@@ -282,6 +316,9 @@ msgid ""
 "<code>{NNNDD}</code>. In these cases,\n"
 "                                the barcode field on the associated records "
 "<i>must</i> show these digits as\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                zeroes."
 msgstr ""
@@ -381,8 +418,13 @@ msgstr "Típus"
 msgid ""
 "UPC Codes can be converted to EAN by prefixing them with a zero. This "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "setting determines if a UPC/EAN barcode should be automatically converted in"
 " one way or another when trying to match a rule with the other encoding."
+=======
+"setting determines if a UPC/EAN barcode should be automatically converted in "
+"one way or another when trying to match a rule with the other encoding."
+>>>>>>> upstream/18.0
 =======
 "setting determines if a UPC/EAN barcode should be automatically converted in "
 "one way or another when trying to match a rule with the other encoding."
@@ -422,8 +464,12 @@ msgstr ""
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcode_rule__sequence
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Used to order rules such that rules with a smaller sequence match first"
+=======
+msgid "Used to order rules such that rules with a smaller sequence match first"
+>>>>>>> upstream/18.0
 =======
 msgid "Used to order rules such that rules with a smaller sequence match first"
 >>>>>>> upstream/18.0
@@ -435,7 +481,10 @@ msgstr ""
 msgid "Value of the last barcode scanned."
 msgstr "Utoljára beszkennelt vonalkód értéke."
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
@@ -443,4 +492,7 @@ msgstr "Utoljára beszkennelt vonalkód értéke."
 msgid ""
 "You cannot delete '%(name)s' because it's the default barcode nomenclature."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

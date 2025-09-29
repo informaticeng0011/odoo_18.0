@@ -19,7 +19,10 @@ from json import JSONDecodeError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from pprint import pformat
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98,6 +101,7 @@ class NilveraClient:
                 files=files,
             )
         except requests.exceptions.RequestException as e:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,6 +223,9 @@ class NilveraClient:
 =======
             _logger.info("Network error during request: %s", e)
 >>>>>>> upstream/18.0
+=======
+            _logger.info("Network error during request: %s", e)
+>>>>>>> upstream/18.0
             raise UserError("Network connectivity issue. Please check your internet connection and try again.")
 
         end = datetime.utcnow()
@@ -230,6 +237,7 @@ class NilveraClient:
 
     def _log_request(self, method, start, end, url, params, json, response):
         _logger.info(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,6 +297,8 @@ class NilveraClient:
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             '"%(method)s %(url)s" %(status)s %(duration).3f',
             {
                 'method': method,
@@ -311,6 +321,9 @@ class NilveraClient:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

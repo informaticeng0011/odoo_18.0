@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* fleet
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -53,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
@@ -199,10 +204,16 @@
 # Wil Odoo, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
+# Wil Odoo, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,6 +422,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: da\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -419,6 +432,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -557,7 +573,10 @@ msgstr "Aktivitetstilstand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -614,6 +633,9 @@ msgstr "Aktivitetstype"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -699,6 +721,10 @@ msgstr "Arkivér"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_search
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_search
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
 >>>>>>> upstream/18.0
@@ -938,8 +964,13 @@ msgstr "Kategorier"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_model_category_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Categories will help you manage your fleet more efficiently and arrange your"
 " vehicles."
+=======
+"Categories will help you manage your fleet more efficiently and arrange your "
+"vehicles."
+>>>>>>> upstream/18.0
 =======
 "Categories will help you manage your fleet more efficiently and arrange your "
 "vehicles."
@@ -988,8 +1019,12 @@ msgstr "Vælg om kontrakten fortsat er gyldig eller ej"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_service_type__category
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Choose whether the service refer to contracts, vehicle services or both"
+=======
+msgid "Choose whether the service refer to contracts, vehicle services or both"
+>>>>>>> upstream/18.0
 =======
 msgid "Choose whether the service refer to contracts, vehicle services or both"
 >>>>>>> upstream/18.0
@@ -1274,8 +1309,13 @@ msgstr "Dato når dækningen på kontrakten påbegynder"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__expiration_date
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Date when the coverage of the contract expirates (by default, one year after"
 " begin date)"
+=======
+"Date when the coverage of the contract expirates (by default, one year after "
+"begin date)"
+>>>>>>> upstream/18.0
 =======
 "Date when the coverage of the contract expirates (by default, one year after "
 "begin date)"
@@ -1503,6 +1543,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alle serviceydelser og kontrakter for dette køretøj betragtes som "
+"arkiverede. Er du sikker på, at du vil arkivere dette datasæt?"
+>>>>>>> upstream/18.0
 =======
 "Alle serviceydelser og kontrakter for dette køretøj betragtes som "
 "arkiverede. Er du sikker på, at du vil arkivere dette datasæt?"
@@ -2064,7 +2109,11 @@ msgid "Load template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Indlæs skabelon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Indlæs skabelon"
 >>>>>>> upstream/18.0
@@ -2231,7 +2280,12 @@ msgid ""
 msgstr ""
 "Administrer alle dine kontrakter (leasing, forsikringer, etc.) med\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "             deres relaterede tjenester, omkostninger. Odoo vil automatisk advare\n"
+=======
+"             deres relaterede tjenester, omkostninger. Odoo vil automatisk "
+"advare\n"
+>>>>>>> upstream/18.0
 =======
 "             deres relaterede tjenester, omkostninger. Odoo vil automatisk "
 "advare\n"
@@ -2585,7 +2639,11 @@ msgid "Operation not supported."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Handling ikke understøttet."
+>>>>>>> upstream/18.0
 =======
 msgstr "Handling ikke understøttet."
 >>>>>>> upstream/18.0
@@ -2656,6 +2714,7 @@ msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -2664,6 +2723,8 @@ msgstr ""
 "normaltvis være et pladsholder-udtryk der angiver det passende sprog, f.eks."
 " {{ object.partner_id.lang }}."
 =======
+=======
+>>>>>>> upstream/18.0
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 msgstr ""
@@ -2671,6 +2732,9 @@ msgstr ""
 "Hvis ikke angivet, vil den engelske udgave blive anvendt. Dette bør "
 "normaltvis være et pladsholder-udtryk der angiver det passende sprog, f.eks. "
 "{{ object.partner_id.lang }}."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: fleet
@@ -3213,17 +3277,23 @@ msgstr "Tour assistance"
 msgid ""
 "Track all the services done on your vehicle.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Services can be of many types: occasional repair, fixed maintenance, etc."
 msgstr ""
 "Spor alle services udført på dit køretøj.\n"
 "              Service kan være mange typer: lejlighedsvis reparation, fastsat vedligeholdelse, osv."
 =======
+=======
+>>>>>>> upstream/18.0
 "            Services can be of many types: occasional repair, fixed "
 "maintenance, etc."
 msgstr ""
 "Spor alle services udført på dit køretøj.\n"
 "              Service kan være mange typer: lejlighedsvis reparation, "
 "fastsat vedligeholdelse, osv."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: fleet
@@ -3518,8 +3588,12 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_model_action
 msgid "You can define several models (e.g. A3, A4) for each make (Audi)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Du kan definere flere modeller (f.eks. A3, A4) for hvert mærke (Audi)."
+=======
+msgstr "Du kan definere flere modeller (f.eks. A3, A4) for hvert mærke (Audi)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Du kan definere flere modeller (f.eks. A3, A4) for hvert mærke (Audi)."
 >>>>>>> upstream/18.0

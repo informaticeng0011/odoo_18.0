@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* base_automation
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -11,7 +15,11 @@
 # Odoo哥 <vnsoft.he@gmail.com>, 2024
 # Chloe Wang, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -19,6 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 12:50+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +38,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: zh_CN\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Chloe Wang, 2024\n"
@@ -38,6 +49,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -86,8 +100,13 @@ msgstr "<code>env</code>：触发操作的环境"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<code>model</code>: model of the record on which the action is triggered; is"
 " a void recordset"
+=======
+"<code>model</code>: model of the record on which the action is triggered; is "
+"a void recordset"
+>>>>>>> upstream/18.0
 =======
 "<code>model</code>: model of the record on which the action is triggered; is "
 "a void recordset"
@@ -100,7 +119,13 @@ msgid ""
 "<code>payload</code>: the payload of the call (GET parameters, JSON body), "
 "as a dict."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<code>payload</code>：调用的有效载荷（GET 参数、JSON 主体），以 字典 形式存在。"
+=======
+msgstr ""
+"<code>payload</code>：调用的有效载荷（GET 参数、JSON 主体），以 字典 形式存"
+"在。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<code>payload</code>：调用的有效载荷（GET 参数、JSON 主体），以 字典 形式存"
@@ -114,8 +139,13 @@ msgid ""
 "<code>timezone</code>: useful Python libraries"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<code>time</code>、<code>datetime</code>、<code>dateutil</code>、<code>timezone</code>：可用的"
 " Python 库"
+=======
+"<code>time</code>、<code>datetime</code>、<code>dateutil</code>、"
+"<code>timezone</code>：可用的 Python 库"
+>>>>>>> upstream/18.0
 =======
 "<code>time</code>、<code>datetime</code>、<code>dateutil</code>、"
 "<code>timezone</code>：可用的 Python 库"
@@ -133,7 +163,12 @@ msgid ""
 "out-of-the-box for any webhook coming from another Odoo instance."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-info-circle\"/> 对于来自其他 Odoo 实例的任何 webhook，默认目标记录获取器都将立即生效。"
+=======
+"<i class=\"fa fa-info-circle\"/> 对于来自其他 Odoo 实例的任何 webhook，默认目"
+"标记录获取器都将立即生效。"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-info-circle\"/> 对于来自其他 Odoo 实例的任何 webhook，默认目"
 "标记录获取器都将立即生效。"
@@ -147,8 +182,13 @@ msgid ""
 "save or not</em>."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-warning\"/> "
 "<em>无论保存与否</em>，用户界面更改触发的自动化规则都会在<em>每次</em>观察字段更改时执行。"
+=======
+"<i class=\"fa fa-warning\"/> <em>无论保存与否</em>，用户界面更改触发的自动化"
+"规则都会在<em>每次</em>观察字段更改时执行。"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-warning\"/> <em>无论保存与否</em>，用户界面更改触发的自动化"
 "规则都会在<em>每次</em>观察字段更改时执行。"
@@ -164,23 +204,30 @@ msgstr "<span class=\"text-muted\">可用变量 </span>"
 msgid ""
 "<span invisible=\"evaluation_type != 'value'\">to</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                        <span invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
 "<span invisible=\"evaluation_type != 'value'\">至</span>\n"
 "                                                        <span invisible=\"evaluation_type != 'equation'\">作为</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                                        <span "
 "invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
 "<span invisible=\"evaluation_type != 'value'\">至</span>\n"
 "                                                        <span "
 "invisible=\"evaluation_type != 'equation'\">作为</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 "<span invisible=\"trigger != 'on_time_created'\">after creation</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                    <span invisible=\"trigger != 'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">after</span>"
@@ -189,6 +236,8 @@ msgstr ""
 "                                    <span invisible=\"trigger != 'on_time_updated'\">上次更新后</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">后</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <span invisible=\"trigger != "
 "'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != "
@@ -199,6 +248,9 @@ msgstr ""
 "'on_time_updated'\">上次更新后</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">"
 "后</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -224,7 +276,12 @@ msgstr "<span>将其设置为</span>"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
+=======
+msgid ""
+"<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
@@ -288,7 +345,10 @@ msgstr "应用于"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Archived"
@@ -348,7 +408,13 @@ msgid ""
 "Change the URL's secret if you think the URL is no longer secure. You will "
 "have to update any automated system that calls this webhook to the new URL."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果您认为 URL 不再安全，请更改 URL 的密文。您必须将调用此 webhook 的自动系统更新为新的 URL。"
+=======
+msgstr ""
+"如果您认为 URL 不再安全，请更改 URL 的密文。您必须将调用此 webhook 的自动系统"
+"更新为新的 URL。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果您认为 URL 不再安全，请更改 URL 的密文。您必须将调用此 webhook 的自动系统"
@@ -425,7 +491,13 @@ msgid ""
 "delay before the trigger date, like sending a reminder 15 minutes before a "
 "meeting."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "触发日期后的延迟。如果需要在触发日期前延迟，比如在会议前 15 分钟发送提醒，可以输入负数。"
+=======
+msgstr ""
+"触发日期后的延迟。如果需要在触发日期前延迟，比如在会议前 15 分钟发送提醒，可"
+"以输入负数。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "触发日期后的延迟。如果需要在触发日期前延迟，比如在会议前 15 分钟发送提醒，可"
@@ -470,13 +542,19 @@ msgstr "禁用自动化规则"
 msgid ""
 "Disabling this automation rule will enable you to continue your workflow\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                but any data created after this could potentially be corrupted,\n"
 "                as you are effectively disabling a customization that may set\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                but any data created after this could potentially be "
 "corrupted,\n"
 "                as you are effectively disabling a customization that may "
 "set\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                important and/or required fields."
 msgstr ""
@@ -515,7 +593,13 @@ msgid ""
 "Email, follower or activity action types cannot be used when deleting "
 "records, as there are no more records to apply these changes to!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "删除记录时不能使用电子邮件、追随者或活动操作类型，因为没有更多记录可应用这些更改！"
+=======
+msgstr ""
+"删除记录时不能使用电子邮件、追随者或活动操作类型，因为没有更多记录可应用这些"
+"更改！"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "删除记录时不能使用电子邮件、追随者或活动操作类型，因为没有更多记录可应用这些"
@@ -575,8 +659,13 @@ msgstr "ID"
 #: model:ir.model.fields,help:base_automation.field_base_automation__filter_domain
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If present, this condition must be satisfied before executing the automation"
 " rule."
+=======
+"If present, this condition must be satisfied before executing the automation "
+"rule."
+>>>>>>> upstream/18.0
 =======
 "If present, this condition must be satisfied before executing the automation "
 "rule."
@@ -592,12 +681,18 @@ msgstr "如果存在，则必须在更新记录前满足此条件。创建记录
 
 #. module: base_automation
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
 msgid "Include Archived"
 msgstr ""
 
 #. module: base_automation
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Keep track of what this automation does and why it exists..."
@@ -661,8 +756,13 @@ msgstr "模型名称"
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Model of action %(action_name)s should match the one from automated rule "
 "%(rule_name)s."
+=======
+"Model of action %(action_name)s should match the one from automated rule %"
+"(rule_name)s."
+>>>>>>> upstream/18.0
 =======
 "Model of action %(action_name)s should match the one from automated rule %"
 "(rule_name)s."
@@ -832,7 +932,12 @@ msgstr "发送 Webhook 通知"
 msgid ""
 "Send an email when an object changes state, archive records\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                after a month of inactivity or remind yourself to follow-up on\n"
+=======
+"                after a month of inactivity or remind yourself to follow-up "
+"on\n"
+>>>>>>> upstream/18.0
 =======
 "                after a month of inactivity or remind yourself to follow-up "
 "on\n"
@@ -847,18 +952,24 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:base_automation.digest_tip_base_automation_0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Send an email when an object changes state, archive records after a month of"
 " inactivity or remind yourself to follow-up on tasks when a specific tag is "
 "added.<br>With Automation Rules, you can automate any workflow."
 msgstr ""
 "当对象更改状态时发送电子邮件，在一个月不活动后归档记录，或在添加特定标签时提醒自己跟进任务。<br>借助自动化规则，您可以自动化任何工作流程。"
 =======
+=======
+>>>>>>> upstream/18.0
 "Send an email when an object changes state, archive records after a month of "
 "inactivity or remind yourself to follow-up on tasks when a specific tag is "
 "added.<br>With Automation Rules, you can automate any workflow."
 msgstr ""
 "当对象更改状态时发送电子邮件，在一个月不活动后归档记录，或在添加特定标签时提"
 "醒自己跟进任务。<br>借助自动化规则，您可以自动化任何工作流程。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -889,8 +1000,13 @@ msgstr "某些触发器需要选择字段的引用。这个字段就是用来存
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_field_ref
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some triggers need a reference to another field. This field is used to store"
 " it."
+=======
+"Some triggers need a reference to another field. This field is used to store "
+"it."
+>>>>>>> upstream/18.0
 =======
 "Some triggers need a reference to another field. This field is used to store "
 "it."
@@ -933,8 +1049,12 @@ msgstr "目标记录"
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Target model of actions %(action_names)s are different from rule model."
+=======
+msgid "Target model of actions %(action_names)s are different from rule model."
+>>>>>>> upstream/18.0
 =======
 msgid "Target model of actions %(action_names)s are different from rule model."
 >>>>>>> upstream/18.0
@@ -945,15 +1065,21 @@ msgstr "动作的目标模式 %(action_names)s 与规则模式不同。"
 #: code:addons/base_automation/models/base_automation.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the "
 "\"%(state_value)s\" action type"
 msgstr "这个 \"%(trigger_value)s\" %(trigger_label)s 只能与 \"%(state_value)s\" 动作类型一起使用"
 =======
+=======
+>>>>>>> upstream/18.0
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%"
 "(state_value)s\" action type"
 msgstr ""
 "这个 \"%(trigger_value)s\" %(trigger_label)s 只能与 \"%(state_value)s\" 动作"
 "类型一起使用"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -1117,17 +1243,23 @@ msgstr "在计算以天为单位的定时条件时，可以使用日历来计算
 msgid ""
 "When should the condition be triggered.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                If present, will be checked by the scheduler. If empty, will be checked at creation and update."
 msgstr ""
 "何时触发条件。\n"
 "                如果存在，将由调度程序检查。如果为空，将在创建和更新时进行检查。"
 =======
+=======
+>>>>>>> upstream/18.0
 "                If present, will be checked by the scheduler. If empty, will "
 "be checked at creation and update."
 msgstr ""
 "何时触发条件。\n"
 "                如果存在，将由调度程序检查。如果为空，将在创建和更新时进行检"
 "查。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -1169,7 +1301,13 @@ msgid ""
 "You cannot send an email, add followers or create an activity for a deleted "
 "record.  It simply does not work."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您不能为一个被删除的记录发送电子邮件、添加关注者或创建活动。  它根本无法工作。"
+=======
+msgstr ""
+"您不能为一个被删除的记录发送电子邮件、添加关注者或创建活动。  它根本无法工"
+"作。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "您不能为一个被删除的记录发送电子邮件、添加关注者或创建活动。  它根本无法工"

@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import fields, models
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
@@ -13,6 +16,9 @@ from odoo import api, fields, models
 from odoo.addons.pos_epson_printer.models.pos_printer import format_epson_certified_domain
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22,8 +28,11 @@ class PosConfig(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     epson_printer_ip = fields.Char(string='Epson Printer IP', help="Local IP address of an Epson receipt printer.")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     epson_printer_ip = fields.Char(
@@ -40,6 +49,9 @@ class PosConfig(models.Model):
             if rec.epson_printer_ip:
                 rec.epson_printer_ip = format_epson_certified_domain(rec.epson_printer_ip)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

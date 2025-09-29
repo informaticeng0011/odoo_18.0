@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* fleet
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -93,16 +94,22 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Larissa Manderfeld, 2024
 # Wil Odoo, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,6 +222,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: de\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -223,6 +232,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -363,7 +375,10 @@ msgstr "Status der Aktivität"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -420,6 +435,9 @@ msgstr "Aktivitätstyp"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -505,6 +523,10 @@ msgstr "Archivieren"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_search
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_search
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
 >>>>>>> upstream/18.0
@@ -744,8 +766,13 @@ msgstr "Kategorien"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_model_category_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Categories will help you manage your fleet more efficiently and arrange your"
 " vehicles."
+=======
+"Categories will help you manage your fleet more efficiently and arrange your "
+"vehicles."
+>>>>>>> upstream/18.0
 =======
 "Categories will help you manage your fleet more efficiently and arrange your "
 "vehicles."
@@ -796,8 +823,12 @@ msgstr "Wählen Sie, ob der Vertrag noch gültig ist oder nicht"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_service_type__category
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Choose whether the service refer to contracts, vehicle services or both"
+=======
+msgid "Choose whether the service refer to contracts, vehicle services or both"
+>>>>>>> upstream/18.0
 =======
 msgid "Choose whether the service refer to contracts, vehicle services or both"
 >>>>>>> upstream/18.0
@@ -1082,8 +1113,13 @@ msgstr "Datum des Beginns der Vertragslaufzeit"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__expiration_date
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Date when the coverage of the contract expirates (by default, one year after"
 " begin date)"
+=======
+"Date when the coverage of the contract expirates (by default, one year after "
+"begin date)"
+>>>>>>> upstream/18.0
 =======
 "Date when the coverage of the contract expirates (by default, one year after "
 "begin date)"
@@ -1576,8 +1612,12 @@ msgstr "Falls markiert, erfordern neue Nachrichten Ihre Aufmerksamkeit."
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model__message_has_error
 msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+=======
+msgstr "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+>>>>>>> upstream/18.0
 =======
 msgstr "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
 >>>>>>> upstream/18.0
@@ -2129,6 +2169,7 @@ msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -2137,6 +2178,8 @@ msgstr ""
 "normalerweise um einen Platzhalterausdruck handeln, der die passende Sprache"
 " enthält, z. B. {{ object.partner_id.lang }}."
 =======
+=======
+>>>>>>> upstream/18.0
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 msgstr ""
@@ -2144,6 +2187,9 @@ msgstr ""
 "keinen Eintrag gibt, wird die englische Version verwendet. Es sollte sich "
 "normalerweise um einen Platzhalterausdruck handeln, der die passende Sprache "
 "enthält, z. B. {{ object.partner_id.lang }}."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: fleet
@@ -2686,17 +2732,23 @@ msgstr "Tourenassistenz"
 msgid ""
 "Track all the services done on your vehicle.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Services can be of many types: occasional repair, fixed maintenance, etc."
 msgstr ""
 "Verfolgen Sie alle Dienstleistungen, die an Ihrem Fahrzeug erbracht wurden.\n"
 "            Dienstleistungen können verschiedener Art sein: gelegentliche Reparatur, feste Wartung etc."
 =======
+=======
+>>>>>>> upstream/18.0
 "            Services can be of many types: occasional repair, fixed "
 "maintenance, etc."
 msgstr ""
 "Verfolgen Sie alle Dienstleistungen, die an Ihrem Fahrzeug erbracht wurden.\n"
 "            Dienstleistungen können verschiedener Art sein: gelegentliche "
 "Reparatur, feste Wartung etc."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: fleet
@@ -2986,7 +3038,12 @@ msgid ""
 msgstr ""
 "Sie können den verfügbaren Status anpassen, um die Entwicklung\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            jedes Fahrzeugs zu verfolgen. Beispiel: aktiv, wird repariert, verkauft."
+=======
+"            jedes Fahrzeugs zu verfolgen. Beispiel: aktiv, wird repariert, "
+"verkauft."
+>>>>>>> upstream/18.0
 =======
 "            jedes Fahrzeugs zu verfolgen. Beispiel: aktiv, wird repariert, "
 "verkauft."

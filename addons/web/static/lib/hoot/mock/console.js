@@ -70,6 +70,10 @@ import { MockEventTarget } from "../hoot_utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { logger } from "../core/logger";
+>>>>>>> upstream/18.0
 =======
 import { logger } from "../core/logger";
 >>>>>>> upstream/18.0
@@ -353,7 +357,11 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Object: { entries: $entries },
+=======
+    Object: { keys: $keys },
+>>>>>>> upstream/18.0
 =======
     Object: { keys: $keys },
 >>>>>>> upstream/18.0
@@ -644,6 +652,7 @@ export class MockConsole extends MockEventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const [name, value] of $entries(console)) {
             if (DISPATCHING_METHODS.includes(name)) {
                 this.prototype[name] = function (...args) {
@@ -653,6 +662,8 @@ export class MockConsole extends MockEventTarget {
             } else {
                 this.prototype[name] = value;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -866,6 +877,9 @@ export class MockConsole extends MockEventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

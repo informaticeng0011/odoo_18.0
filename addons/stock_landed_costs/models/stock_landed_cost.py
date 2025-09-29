@@ -168,9 +168,12 @@ class StockLandedCost(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             lot_layer = linked_layer.filtered(lambda l: l.lot_id == lot_id)[:1]
                             value = cost_to_add * sum(sml.mapped('quantity')) / line.move_id.quantity
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -274,6 +277,9 @@ class StockLandedCost(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

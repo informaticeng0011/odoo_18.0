@@ -90,7 +90,10 @@ class RtcController(http.Controller):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @http.route("/mail/rtc/channel/upgrade_connection", methods=["POST"], type="json", auth="user")
@@ -101,6 +104,9 @@ class RtcController(http.Controller):
         member.sudo()._join_sfu(force=True)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

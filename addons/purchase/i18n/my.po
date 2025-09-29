@@ -8,6 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,6 +75,10 @@ msgstr ""
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2025-09-26 22:21+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+"PO-Revision-Date: 2025-09-26 22:21+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Oakarmin Iron <oakarminiron@gmail.com>\n"
 "Language-Team: Burmese <https://translate.odoo.com/projects/odoo-18/purchase/"
 "my/>\n"
@@ -89,7 +94,12 @@ msgstr ""
 msgid ""
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                (object.state in ('draft', 'sent') and 'Request for Quotation - %s' % (object.name) or\n"
+=======
+"                (object.state in ('draft', 'sent') and 'Request for "
+"Quotation - %s' % (object.name) or\n"
+>>>>>>> upstream/18.0
 =======
 "                (object.state in ('draft', 'sent') and 'Request for "
 "Quotation - %s' % (object.name) or\n"
@@ -167,6 +177,7 @@ msgid ""
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -178,6 +189,8 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -192,6 +205,9 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-"
 "out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "         <t t-else=\"\">\n"
@@ -199,15 +215,21 @@ msgid ""
 "        </t>\n"
 "        Could you please confirm it will be delivered on time?\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-"
 "quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -222,6 +244,7 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
@@ -242,6 +265,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -268,6 +293,9 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -283,6 +311,7 @@ msgid ""
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -290,6 +319,8 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -299,12 +330,16 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</"
 "t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
 "        <br/><br/>\n"
 "        If you have any questions, please do not hesitate to contact us.\n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                Accept</a>\n"
@@ -317,6 +352,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')"
 "\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-"
 "decoration: none; background-color: #875A7B; border: 1px solid #875A7B; "
@@ -335,6 +372,9 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
@@ -395,7 +435,12 @@ msgstr ""
 msgid ""
 "<span class=\"d-none d-md-inline\">Confirmation Date</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                          <span class=\"d-block d-md-none\">Confirmation</span>"
+=======
+"                          <span class=\"d-block d-md-none\">Confirmation</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                          <span class=\"d-block d-md-none\">Confirmation</"
 "span>"
@@ -420,13 +465,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Purchase Order </span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')"
 "\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in "
 "('draft', 'sent')\">Purchase Order </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -654,7 +705,12 @@ msgstr ""
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__qty_received_method
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the received quantity can be automatically computed by mechanism:\n"
+=======
+"According to product configuration, the received quantity can be "
+"automatically computed by mechanism:\n"
+>>>>>>> upstream/18.0
 =======
 "According to product configuration, the received quantity can be "
 "automatically computed by mechanism:\n"
@@ -867,7 +923,11 @@ msgid "Attributes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဝိသေသများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဝိသေသများ"
 >>>>>>> upstream/18.0
@@ -957,7 +1017,11 @@ msgid "Bill Control"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘေလ် ထိန်းချုပ်မှူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘေလ် ထိန်းချုပ်မှူ"
 >>>>>>> upstream/18.0
@@ -1084,7 +1148,11 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပယ်ဖျက်ပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပယ်ဖျက်ပြီး"
 >>>>>>> upstream/18.0
@@ -1192,7 +1260,11 @@ msgid "Confirm Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အော်ဒါကို အတည်ပြု"
+>>>>>>> upstream/18.0
 =======
 msgstr "အော်ဒါကို အတည်ပြု"
 >>>>>>> upstream/18.0
@@ -1321,7 +1393,11 @@ msgid "Copy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကူး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကူး"
 >>>>>>> upstream/18.0
@@ -1510,7 +1586,11 @@ msgstr "ဖော်ပြချက်"
 msgid "Disc.%"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဒစ်စကောင့်%"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဒစ်စကောင့်%"
 >>>>>>> upstream/18.0
@@ -1523,7 +1603,11 @@ msgstr "ဒစ်စကောင့်%"
 msgid "Discount (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဒစ်စကောင့်(%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဒစ်စကောင့်(%)"
 >>>>>>> upstream/18.0
@@ -1608,7 +1692,11 @@ msgid "Dropship Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပို့ရမည့် လိပ်စာ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပို့ရမည့် လိပ်စာ"
 >>>>>>> upstream/18.0
@@ -1724,7 +1812,11 @@ msgid "Gross Weight"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လုံးပေါင်း အလေးချိန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "လုံးပေါင်း အလေးချိန်"
 >>>>>>> upstream/18.0
@@ -1899,7 +1991,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံးပြင်ဆင်သူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံးပြင်ဆင်သူ"
 >>>>>>> upstream/18.0
@@ -1960,8 +2056,13 @@ msgstr ""
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Let's try the Purchase app to manage the flow from purchase to reception and"
 " invoice control."
+=======
+"Let's try the Purchase app to manage the flow from purchase to reception and "
+"invoice control."
+>>>>>>> upstream/18.0
 =======
 "Let's try the Purchase app to manage the flow from purchase to reception and "
 "invoice control."
@@ -2022,7 +2123,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အော်ဒါတင်၊ လက်ခံရရှိ၊ ငွေချေသည့် အရေအတွက်အားလုံးကိုတိကျသေချာစေပါသည်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အော်ဒါတင်၊ လက်ခံရရှိ၊ ငွေချေသည့် အရေအတွက်အားလုံးကိုတိကျသေချာစေပါသည်"
 >>>>>>> upstream/18.0
@@ -2074,8 +2179,13 @@ msgstr ""
 msgid ""
 "Margin of error for vendor lead times. When the system generates Purchase "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for procuring products, they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for procuring products, they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for procuring products, they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -2087,8 +2197,13 @@ msgstr ""
 msgid ""
 "Margin of error for vendor lead times. When the system generates Purchase "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for reordering products,they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for reordering products,they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -2407,7 +2522,11 @@ msgid "Ordered quantities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မှာယူပြီး အရေအတွက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "မှာယူပြီး အရေအတွက်"
 >>>>>>> upstream/18.0
@@ -2464,7 +2583,11 @@ msgid "Other Information"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အခြား အချက်အလက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အခြား အချက်အလက်"
 >>>>>>> upstream/18.0
@@ -2561,13 +2684,19 @@ msgstr ""
 
 #. module: purchase
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Please select bill lines with the same vendor."
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__pol_id
 msgid "Pol"
@@ -2588,7 +2717,11 @@ msgstr ""
 msgid "Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စျေးနှုန်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "စျေးနှုန်း"
 >>>>>>> upstream/18.0
@@ -2739,7 +2872,11 @@ msgstr ""
 msgid "Purchase Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အဝယ်ဖော်ပြချက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အဝယ်ဖော်ပြချက်"
 >>>>>>> upstream/18.0
@@ -3144,7 +3281,11 @@ msgid "Received quantities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လက်ခံပြီး အရေအတွက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "လက်ခံပြီး အရေအတွက်"
 >>>>>>> upstream/18.0
@@ -3209,8 +3350,13 @@ msgstr ""
 #: model:ir.model.fields,help:purchase.field_purchase_order__origin
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
+=======
+"Reference of the document that generated this purchase order request (e.g. a "
+"sales order)"
+>>>>>>> upstream/18.0
 =======
 "Reference of the document that generated this purchase order request (e.g. a "
 "sales order)"
@@ -3246,7 +3392,11 @@ msgid "Reporting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရီပို့ တင်ပြခြင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရီပို့ တင်ပြခြင်း"
 >>>>>>> upstream/18.0
@@ -3310,13 +3460,19 @@ msgstr "အဝယ် တောင်းခံလွှာများ"
 #: model_terms:ir.actions.act_window,help:purchase.purchase_rfq
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Requests for quotation are documents that will be sent to your suppliers to request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they will be confirmed and turned into purchase orders."
 =======
+=======
+>>>>>>> upstream/18.0
 "Requests for quotation are documents that will be sent to your suppliers to "
 "request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they "
 "will be confirmed and turned into purchase orders."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -3341,7 +3497,11 @@ msgid "Scheduled Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စီစဉ်ထားသော ရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "စီစဉ်ထားသော ရက်"
 >>>>>>> upstream/18.0
@@ -3512,7 +3672,11 @@ msgstr ""
 msgid "Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မူလအစ"
+>>>>>>> upstream/18.0
 =======
 msgstr "မူလအစ"
 >>>>>>> upstream/18.0
@@ -3696,7 +3860,12 @@ msgstr ""
 msgid ""
 "The request for quotation is the first step of the purchases flow. Once\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    converted into a purchase order, you will be able to control the receipt\n"
+=======
+"                    converted into a purchase order, you will be able to "
+"control the receipt\n"
+>>>>>>> upstream/18.0
 =======
 "                    converted into a purchase order, you will be able to "
 "control the receipt\n"
@@ -3709,8 +3878,13 @@ msgstr ""
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
 " this PO"
+=======
+"The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
+"this PO"
+>>>>>>> upstream/18.0
 =======
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
 "this PO"
@@ -3746,13 +3920,19 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:purchase.action_purchase_order_report_all
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This analysis allows you to easily check and analyse your company purchase history and performance.\n"
 "                You can track your negotiation performance, the delivery performance of your vendors, etc"
 =======
+=======
+>>>>>>> upstream/18.0
 "This analysis allows you to easily check and analyse your company purchase "
 "history and performance.\n"
 "                You can track your negotiation performance, the delivery "
 "performance of your vendors, etc"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -3777,7 +3957,11 @@ msgstr ""
 msgid "This note is added to purchase orders."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဤစာ ကို အဝယ်အော်ဒါများတွင် ထည့်သွင်းမည်။"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဤစာ ကို အဝယ်အော်ဒါများတွင် ထည့်သွင်းမည်။"
 >>>>>>> upstream/18.0
@@ -3975,7 +4159,11 @@ msgid "Units of Measure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တိုင်းတာသည့် ယူနစ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တိုင်းတာသည့် ယူနစ်များ"
 >>>>>>> upstream/18.0
@@ -4000,7 +4188,11 @@ msgid "Units of Measure Categories"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တိုင်းတာသည့် ယူနစ်များ ခွဲခြားပုံ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တိုင်းတာသည့် ယူနစ်များ ခွဲခြားပုံ"
 >>>>>>> upstream/18.0
@@ -4053,7 +4245,11 @@ msgid "Untaxed Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အခွန်မပါ ပမာဏ"
+>>>>>>> upstream/18.0
 =======
 msgstr "အခွန်မပါ ပမာဏ"
 >>>>>>> upstream/18.0
@@ -4193,7 +4389,11 @@ msgid "Vendor Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရောင်းသူ့ အညွှန်းစာ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရောင်းသူ့ အညွှန်းစာ"
 >>>>>>> upstream/18.0
@@ -4323,8 +4523,13 @@ msgid ""
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
+=======
+"shipment, Odoo will send the vendor an email to ask confirmation of shipment "
+"dates and keep you informed in case of any delays. To get the vendor's "
+>>>>>>> upstream/18.0
 =======
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment "
 "dates and keep you informed in case of any delays. To get the vendor's "
@@ -4392,13 +4597,19 @@ msgstr ""
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 "Your quotation contains products from company %(product_company)s whereas "
 "your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from "
 "other companies (%(bad_products)s)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 

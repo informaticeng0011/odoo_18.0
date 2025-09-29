@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* fleet
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -105,16 +106,22 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
 # Fernanda Alvarez, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,6 +247,8 @@ msgstr ""
 "Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Fernanda Alvarez, 2025\n"
@@ -251,6 +260,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: fleet
@@ -390,7 +402,10 @@ msgstr "Estado de la actividad"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -447,6 +462,9 @@ msgstr "Tipo de actividad"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -532,6 +550,10 @@ msgstr "Archivar"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_search
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_search
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
 >>>>>>> upstream/18.0
@@ -771,8 +793,13 @@ msgstr "Categorías"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_model_category_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Categories will help you manage your fleet more efficiently and arrange your"
 " vehicles."
+=======
+"Categories will help you manage your fleet more efficiently and arrange your "
+"vehicles."
+>>>>>>> upstream/18.0
 =======
 "Categories will help you manage your fleet more efficiently and arrange your "
 "vehicles."
@@ -823,8 +850,12 @@ msgstr "Elija si el contrato sigue siendo válido o no"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_service_type__category
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Choose whether the service refer to contracts, vehicle services or both"
+=======
+msgid "Choose whether the service refer to contracts, vehicle services or both"
+>>>>>>> upstream/18.0
 =======
 msgid "Choose whether the service refer to contracts, vehicle services or both"
 >>>>>>> upstream/18.0
@@ -1002,7 +1033,11 @@ msgid "Country Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Código de país"
+=======
+msgstr "Código del país"
+>>>>>>> upstream/18.0
 =======
 msgstr "Código del país"
 >>>>>>> upstream/18.0
@@ -1177,8 +1212,13 @@ msgstr "Fecha en la que comienza la cobertura del contrato"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__expiration_date
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Date when the coverage of the contract expirates (by default, one year after"
 " begin date)"
+=======
+"Date when the coverage of the contract expirates (by default, one year after "
+"begin date)"
+>>>>>>> upstream/18.0
 =======
 "Date when the coverage of the contract expirates (by default, one year after "
 "begin date)"
@@ -1680,8 +1720,12 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Si se encuentra seleccionado, hay nuevos mensajes que requieren su atención."
+=======
+msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
 >>>>>>> upstream/18.0
@@ -1773,7 +1817,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Si se encuentra seleccionado, algunos mensajes tienen error de envío."
+=======
+msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
 >>>>>>> upstream/18.0
@@ -2049,7 +2097,12 @@ msgid ""
 msgstr ""
 "Gestione todos sus contratos (arrendamiento, seguros, etc) con\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            sus servicios y costos relacionados. Odoo le advertirá de forma automática\n"
+=======
+"            sus servicios y costos relacionados. Odoo le advertirá de forma "
+"automática\n"
+>>>>>>> upstream/18.0
 =======
 "            sus servicios y costos relacionados. Odoo le advertirá de forma "
 "automática\n"
@@ -2392,8 +2445,13 @@ msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 =======
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
@@ -2403,8 +2461,13 @@ msgstr ""
 "correos electrónicos. Si no se selecciona esta opción, se utilizará la "
 "versión en inglés. Por lo general, se usa una expresión de marcador de "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "posición para indicar el idioma adecuado, por ejemplo, {{ "
 "object.partner_id.lang }}."
+=======
+"posición para indicar el idioma adecuado, por ejemplo, "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 =======
 "posición para indicar el idioma adecuado, por ejemplo, "
 "{{ object.partner_id.lang }}."
@@ -2890,7 +2953,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Puede utilizar este campo para realizar una búsqueda rápida."
+=======
+"Puedes utilizar este campo para realizar una búsqueda rápida."
+>>>>>>> upstream/18.0
 =======
 "Puedes utilizar este campo para realizar una búsqueda rápida."
 >>>>>>> upstream/18.0
@@ -3021,17 +3088,23 @@ msgstr "Asistencia en viaje"
 msgid ""
 "Track all the services done on your vehicle.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Services can be of many types: occasional repair, fixed maintenance, etc."
 msgstr ""
 "Lleve el seguimiento de todos los servicios realizados a su vehículo.\n"
 "            Los servicios pueden ser de muchos tipos: reparaciones ocasionales, mantenimiento fijo, etc."
 =======
+=======
+>>>>>>> upstream/18.0
 "            Services can be of many types: occasional repair, fixed "
 "maintenance, etc."
 msgstr ""
 "Lleve el seguimiento de todos los servicios realizados a su vehículo.\n"
 "            Los servicios pueden ser de muchos tipos: reparaciones "
 "ocasionales, mantenimiento fijo, etc."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: fleet

@@ -329,7 +329,10 @@ class TestWebsiteSaleCart(BaseUsersCommon, ProductAttributesCommon, WebsiteSaleC
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_cart_new_pricelist_from_geoip(self):
@@ -370,6 +373,9 @@ class TestWebsiteSaleCart(BaseUsersCommon, ProductAttributesCommon, WebsiteSaleC
             self.assertEqual(cart.pricelist_id, pricelist_not_eu)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

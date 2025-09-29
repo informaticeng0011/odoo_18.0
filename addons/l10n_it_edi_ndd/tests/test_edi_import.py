@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import uuid
 from freezegun import freeze_time
 from unittest.mock import patch
@@ -12,6 +13,8 @@ import logging
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo import fields
 from odoo.tests import tagged
 from odoo.addons.l10n_it_edi.tests.common import TestItEdi
@@ -19,6 +22,9 @@ from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 import logging
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31,6 +37,10 @@ class TestItEdiImportNdd(TestItEdi):
     def test_l10n_it_payment_method_correctly_imported(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        td01 = self.env.ref('l10n_it_edi_ndd.l10n_it_document_type_01')
+>>>>>>> upstream/18.0
 =======
         td01 = self.env.ref('l10n_it_edi_ndd.l10n_it_document_type_01')
 >>>>>>> upstream/18.0
@@ -50,6 +60,10 @@ class TestItEdiImportNdd(TestItEdi):
             'l10n_it_payment_method': 'MP01',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'l10n_it_document_type': td01.id,
+>>>>>>> upstream/18.0
 =======
             'l10n_it_document_type': td01.id,
 >>>>>>> upstream/18.0

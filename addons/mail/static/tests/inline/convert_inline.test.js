@@ -73,6 +73,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    createMso,
+>>>>>>> upstream/18.0
 =======
     createMso,
 >>>>>>> upstream/18.0
@@ -306,7 +310,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { afterEach, beforeEach, describe, expect, getFixture, test } from "@odoo/hoot";
+=======
+import { beforeEach, describe, expect, getFixture, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { beforeEach, describe, expect, getFixture, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -1214,7 +1222,10 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         styleEl.type = "text/css";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1270,10 +1281,13 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     afterEach(() => {
         // @todo to adapt when hoot has a better way to remove it
         document.head.removeChild(styleEl);
     });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1941,7 +1955,10 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2170,6 +2187,9 @@ describe("Properly add MSO conditions", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

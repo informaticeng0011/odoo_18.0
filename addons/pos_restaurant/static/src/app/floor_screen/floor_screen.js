@@ -83,7 +83,11 @@ export class FloorScreen extends Component {
         this.dialog = useService("dialog");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.ui = useService("ui");
+=======
+        this.ui = useState(useService("ui"));
+>>>>>>> upstream/18.0
 =======
         this.ui = useState(useService("ui"));
 >>>>>>> upstream/18.0

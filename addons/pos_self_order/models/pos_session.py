@@ -57,7 +57,10 @@ class PosSession(models.Model):
         return sessions
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -70,6 +73,9 @@ class PosSession(models.Model):
         if sequence_to_unlink_ids:
             sequence_to_unlink_ids.sudo().unlink()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -4817,7 +4817,10 @@ class StockMove(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_validate_picking_wihtout_picked_reservations(self):
@@ -4861,6 +4864,9 @@ class StockMove(TransactionCase):
             picking.button_validate()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

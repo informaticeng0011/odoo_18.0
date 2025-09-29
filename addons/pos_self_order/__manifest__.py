@@ -28,6 +28,10 @@
         'point_of_sale._assets_pos': [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'pos_self_order/static/src/backend/qr_order_button/*',
+>>>>>>> upstream/18.0
 =======
             'pos_self_order/static/src/backend/qr_order_button/*',
 >>>>>>> upstream/18.0
@@ -40,6 +44,10 @@
             "pos_self_order/static/src/upgrade_selection_field.js",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'pos_self_order/static/src/backend/qr_order_button/*',
+>>>>>>> upstream/18.0
 =======
             'pos_self_order/static/src/backend/qr_order_button/*',
 >>>>>>> upstream/18.0

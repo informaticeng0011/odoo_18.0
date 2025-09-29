@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* barcodes
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -172,17 +173,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Daye Jeong, 2024
 # Sarah Park, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -439,6 +446,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ko\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sarah Park, 2025\n"
@@ -447,6 +456,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -455,7 +467,12 @@ msgstr ""
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid " '*' is not a valid Regex Barcode Pattern. Did you mean '.*'?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "'*' 항목은 유효한 정규식 바코드 패턴이 아닙니다.  '.*' 항목을 찾으시나요?"
+=======
+msgstr ""
+"'*' 항목은 유효한 정규식 바코드 패턴이 아닙니다.  '.*' 항목을 찾으시나요?"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "'*' 항목은 유효한 정규식 바코드 패턴이 아닙니다.  '.*' 항목을 찾으시나요?"
@@ -464,6 +481,7 @@ msgstr ""
 #. module: barcodes
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and categorized.\n"
 "                                When a barcode is scanned it is associated to the <i>first</i> rule with a matching\n"
@@ -475,6 +493,8 @@ msgstr ""
 "                               패턴 구문은 정규 표현식의 구문이며\n"
 "                               정규 표현식이 바코드의 접두사와 일치하면 바코드가 일치합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and "
 "categorized.\n"
 "                                When a barcode is scanned it is associated "
@@ -490,20 +510,29 @@ msgstr ""
 "                               패턴 구문은 정규 표현식의 구문이며\n"
 "                               정규 표현식이 바코드의 접두사와 일치하면 바코"
 "드가 일치합니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model_terms:ir.actions.act_window,help:barcodes.action_barcode_nomenclature_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A barcode nomenclature defines how the point of sale identify and interprets"
 " barcodes"
 msgstr "바코드 명칭을 통해 POS에서 바코드를 식별하고 해석하는 방법을 정의합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "A barcode nomenclature defines how the point of sale identify and interprets "
 "barcodes"
 msgstr ""
 "바코드 명칭을 통해 POS에서 바코드를 식별하고 해석하는 방법을 정의합니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes
@@ -681,7 +710,10 @@ msgstr "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -770,6 +802,7 @@ msgid ""
 "In order to use barcodes.barcode_events_mixin, method on_barcode_scanned "
 "must be implemented"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "barcodes.barcode_events_mixin 내용을 적용하려면 반드시 on_barcode_scanned 메서드를 구현해야 "
 "합니다."
@@ -897,10 +930,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "barcodes.barcode_events_mixin 내용을 적용하려면 반드시 on_barcode_scanned 메"
 "서드를 구현해야 합니다."
 
 #. module: barcodes
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:barcodes.field_barcode_nomenclature__write_uid
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__write_uid
@@ -927,6 +965,7 @@ msgstr "명명법"
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Patterns can also define how numerical values, such as weight or price, can be\n"
 "                                encoded into the barcode. They are indicated by <code>{NNN}</code> where the N's\n"
 "                                define where the number's digits are encoded. Floats are also supported with the\n"
@@ -940,6 +979,8 @@ msgstr ""
 "                                D로 나타내는 십진수에서도, <code>{NNNDD}</code>와 같이 표시됩니다. 이러한 경우,\n"
 "                                연결된 레코드의 바코드 필드에 <i>반드시</i> 해당 숫자가 0으로 표시되어야\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Patterns can also define how numerical values, such as weight or price, can "
 "be\n"
 "                                encoded into the barcode. They are indicated "
@@ -962,6 +1003,9 @@ msgstr ""
 "code>와 같이 표시됩니다. 이러한 경우,\n"
 "                                연결된 레코드의 바코드 필드에 <i>반드시</i> "
 "해당 숫자가 0으로 표시되어야\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                합니다."
 
@@ -1026,7 +1070,13 @@ msgid ""
 "There is a syntax error in the barcode pattern %(pattern)s: a rule can only "
 "contain one pair of braces."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "바코드 규칙 %(pattern)s에 구문 오류가 있습니다: 괄호는 한 쌍만 포함할 수 있습니다. "
+=======
+msgstr ""
+"바코드 규칙 %(pattern)s에 구문 오류가 있습니다: 괄호는 한 쌍만 포함할 수 있습"
+"니다. "
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "바코드 규칙 %(pattern)s에 구문 오류가 있습니다: 괄호는 한 쌍만 포함할 수 있습"
@@ -1040,7 +1090,13 @@ msgid ""
 "There is a syntax error in the barcode pattern %(pattern)s: braces can only "
 "contain N's followed by D's."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "바코드 규칙 %(pattern)s에 구문 오류가 있습니다: 괄호 내 N 다음에는 D 가 반드시 포함되어야 합니다."
+=======
+msgstr ""
+"바코드 규칙 %(pattern)s에 구문 오류가 있습니다: 괄호 내 N 다음에는 D 가 반드"
+"시 포함되어야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "바코드 규칙 %(pattern)s에 구문 오류가 있습니다: 괄호 내 N 다음에는 D 가 반드"
@@ -1071,18 +1127,24 @@ msgstr "유형"
 msgid ""
 "UPC Codes can be converted to EAN by prefixing them with a zero. This "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "setting determines if a UPC/EAN barcode should be automatically converted in"
 " one way or another when trying to match a rule with the other encoding."
 msgstr ""
 "UPC 코드 앞에 0을 붙여 EAN로 변환 할 수 있습니다. 이 설정은 규칙을 다른 인코딩과 일치 시키려고 할 때 UPC/EAN 바코드가"
 " 한 방향으로 또는 다른 방식으로 자동 변환되어야 하는지 여부를 결정합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "setting determines if a UPC/EAN barcode should be automatically converted in "
 "one way or another when trying to match a rule with the other encoding."
 msgstr ""
 "UPC 코드 앞에 0을 붙여 EAN로 변환 할 수 있습니다. 이 설정은 규칙을 다른 인코"
 "딩과 일치 시키려고 할 때 UPC/EAN 바코드가 한 방향으로 또는 다른 방식으로 자"
 "동 변환되어야 하는지 여부를 결정합니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes
@@ -1114,8 +1176,12 @@ msgstr "알 수 없는 바코드 명령"
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcode_rule__sequence
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Used to order rules such that rules with a smaller sequence match first"
+=======
+msgid "Used to order rules such that rules with a smaller sequence match first"
+>>>>>>> upstream/18.0
 =======
 msgid "Used to order rules such that rules with a smaller sequence match first"
 >>>>>>> upstream/18.0
@@ -1126,7 +1192,10 @@ msgstr "작은 순서로 일치하는 것이 우선하도록 규칙을 정렬하
 msgid "Value of the last barcode scanned."
 msgstr "가장 최근에 스캔한 바코드 값입니다."
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
@@ -1134,4 +1203,7 @@ msgstr "가장 최근에 스캔한 바코드 값입니다."
 msgid ""
 "You cannot delete '%(name)s' because it's the default barcode nomenclature."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

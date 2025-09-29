@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* purchase
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,6 +296,8 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
@@ -299,6 +308,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -306,12 +318,15 @@ msgstr ""
 msgid ""
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                (object.state in ('draft', 'sent') and 'Request for Quotation - %s' % (object.name) or\n"
 "                'Purchase Order - %s' % (object.name))"
 msgstr ""
 "\n"
 "                (object.state in ('draft', 'sent') and 'طلب عرض سعر - %s' % (object.name) or\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                (object.state in ('draft', 'sent') and 'Request for "
 "Quotation - %s' % (object.name) or\n"
 "                'Purchase Order - %s' % (object.name))"
@@ -319,6 +334,9 @@ msgstr ""
 "\n"
 "                (object.state in ('draft', 'sent') and 'طلب عرض سعر - %s' % "
 "(object.name) or\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                'أمر شراء - %s' % (object.name))"
 
@@ -394,6 +412,7 @@ msgid ""
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -405,6 +424,8 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -419,6 +440,9 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-"
 "out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "         <t t-else=\"\">\n"
@@ -426,15 +450,21 @@ msgid ""
 "        </t>\n"
 "        Could you please confirm it will be delivered on time?\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-"
 "quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -445,6 +475,7 @@ msgstr ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        عزيزنا <t t-out=\"object.partner_id.name or ''\">براندن فريمان</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
@@ -457,6 +488,8 @@ msgstr ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -471,6 +504,9 @@ msgstr ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-"
 "out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "         <t t-else=\"\">\n"
@@ -478,15 +514,21 @@ msgstr ""
 "        </t>\n"
 "        هلّا قمت بتأكيد أنه سيصل في الوقت المحدد؟\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>ميتشل آدمن</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-"
 "quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>ميتشل آدمن</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -500,6 +542,7 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
@@ -520,6 +563,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -546,6 +591,9 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -556,6 +604,7 @@ msgstr ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        عزيزنا <t t-out=\"object.partner_id.name or ''\">براندن فريمان</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
@@ -576,6 +625,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>ميتشل آدمن</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -601,6 +652,9 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>ميتشل آدمن</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -615,6 +669,7 @@ msgid ""
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -622,6 +677,8 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -631,12 +688,16 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</"
 "t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
 "        <br/><br/>\n"
 "        If you have any questions, please do not hesitate to contact us.\n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                Accept</a>\n"
@@ -649,6 +710,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')"
 "\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-"
 "decoration: none; background-color: #875A7B; border: 1px solid #875A7B; "
@@ -667,6 +730,9 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
@@ -677,17 +743,23 @@ msgstr ""
 "        عزيزنا <t t-out=\"object.partner_id.name or ''\">براندن فريمان</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
 "        ستجد طلب عرض السعر <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">P00015</span> مرفقاً في المرفقات،\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
 "        ستجد طلب عرض السعر <span style=\"font-weight:bold;\" t-"
 "out=\"object.name or ''\">P00015</span> مرفقاً في المرفقات،\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        <t t-if=\"object.partner_ref\">\n"
 "            مع المرجع: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
@@ -696,6 +768,7 @@ msgstr ""
 "        <br/><br/>\n"
 "        لا تتردد في التواصل معنا إذا كانت لديك أي أسئلة أو استفسارات.\n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                قبول</a>\n"
@@ -708,6 +781,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>ميتشل آدمن</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')"
 "\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-"
 "decoration: none; background-color: #875A7B; border: 1px solid #875A7B; "
@@ -726,6 +801,9 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>ميتشل آدمن</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
@@ -794,7 +872,12 @@ msgstr "<i class=\"fa fa-print me-1\"/>تنزيل / طباعة "
 msgid ""
 "<span class=\"d-none d-md-inline\">Confirmation Date</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                          <span class=\"d-block d-md-none\">Confirmation</span>"
+=======
+"                          <span class=\"d-block d-md-none\">Confirmation</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                          <span class=\"d-block d-md-none\">Confirmation</"
 "span>"
@@ -825,12 +908,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Purchase Order </span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">+طلب عرض سعر </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">أمر شراء </span> "
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')"
 "\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in "
@@ -840,6 +926,9 @@ msgstr ""
 "\">+طلب عرض سعر </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in "
 "('draft', 'sent')\">أمر شراء </span> "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -969,6 +1058,7 @@ msgstr "<strong class=\"d-block mb-1\">الفواتير</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1019,6 +1109,11 @@ msgstr "<strong class=\"d-block mb-1\">الفواتير</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr "<strong class=\"d-block mt-3\">عنوان الشحن:</strong> "
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
@@ -1275,6 +1370,7 @@ msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: purchase
@@ -1347,6 +1443,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">عنوان الشحن</strong> "
+
+#. module: purchase
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong class=\"d-block mt-3\">عنوان الشحن</strong> "
@@ -1698,6 +1799,7 @@ msgstr "<strong>تاريخ طلب عرض السعر:</strong> "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Shipping address:</strong>"
 msgstr "<strong>عنوان الشحن:</strong>"
@@ -1708,6 +1810,8 @@ msgid "<strong>Shipping address</strong>"
 msgstr "<strong>عنوان الشحن</strong> "
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1925,12 +2029,15 @@ msgstr "تحذير من خطأ بالوصول"
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__qty_received_method
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the received quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
 "بناءً على تهيئة المنتج، فإن الكميات المستلمة يمكن أن يتم احتسابها تلقائياً عن طريق تقنية:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "According to product configuration, the received quantity can be "
 "automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
@@ -1938,6 +2045,9 @@ msgstr ""
 msgstr ""
 "بناءً على تهيئة المنتج، فإن الكميات المستلمة يمكن أن يتم احتسابها تلقائياً عن "
 "طريق تقنية:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "  - يدوية: يتم تحديد الكميات يدوياً في البند\n"
 "  - حركات المخزون: تأتي الكمية من عمليات الانتقاء المؤكدة\n"
@@ -2124,8 +2234,12 @@ msgstr "الموافقة على الطلب "
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
 msgid "Are you sure you want to cancel the selected RFQs/Orders?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "هل أنت متأكد من أنك ترغب في إلغاء طلبات عروض الأسعار/الطلبات المحددة؟ "
+=======
+msgstr "هل أنت متأكد من أنك ترغب في إلغاء طلبات عروض الأسعار/الطلبات المحددة؟ "
+>>>>>>> upstream/18.0
 =======
 msgstr "هل أنت متأكد من أنك ترغب في إلغاء طلبات عروض الأسعار/الطلبات المحددة؟ "
 >>>>>>> upstream/18.0
@@ -2612,8 +2726,13 @@ msgid ""
 "arrival of products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "تاريخ التوصيل الذي التزم به المورّد. يُستخدم هذا التاريخ لتحديد الوقت "
 "المتوقع لوصول المنتجات. "
+=======
+"تاريخ التوصيل الذي التزم به المورّد. يُستخدم هذا التاريخ لتحديد الوقت المتوقع "
+"لوصول المنتجات. "
+>>>>>>> upstream/18.0
 =======
 "تاريخ التوصيل الذي التزم به المورّد. يُستخدم هذا التاريخ لتحديد الوقت المتوقع "
 "لوصول المنتجات. "
@@ -2713,8 +2832,13 @@ msgid ""
 "quotations in Odoo. Enjoy the automation!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "قم بسحب ملف PDF لطلب عرض السعر وإفلاته في قائمة عروض الأسعار في أودو. استمتع"
 " بالتشغيل الآلي في كافة تفاصيل عملك! "
+=======
+"قم بسحب ملف PDF لطلب عرض السعر وإفلاته في قائمة عروض الأسعار في أودو. استمتع "
+"بالتشغيل الآلي في كافة تفاصيل عملك! "
+>>>>>>> upstream/18.0
 =======
 "قم بسحب ملف PDF لطلب عرض السعر وإفلاته في قائمة عروض الأسعار في أودو. استمتع "
 "بالتشغيل الآلي في كافة تفاصيل عملك! "
@@ -2881,8 +3005,13 @@ msgid ""
 "received in order to pay the invoice."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "في حال تمكين هذا الخيار، يتم تفعيل المطابقة الثلاثية على فواتير المورّد: يجب"
 " استلام العناصر أولاً حتى تتمكن من دفع قيمة الفاتورة. "
+=======
+"في حال تمكين هذا الخيار، يتم تفعيل المطابقة الثلاثية على فواتير المورّد: يجب "
+"استلام العناصر أولاً حتى تتمكن من دفع قيمة الفاتورة. "
+>>>>>>> upstream/18.0
 =======
 "في حال تمكين هذا الخيار، يتم تفعيل المطابقة الثلاثية على فواتير المورّد: يجب "
 "استلام العناصر أولاً حتى تتمكن من دفع قيمة الفاتورة. "
@@ -3039,8 +3168,13 @@ msgstr "فلنقم بإنشاء أول طلب عرض سعر لك. "
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Let's try the Purchase app to manage the flow from purchase to reception and"
 " invoice control."
+=======
+"Let's try the Purchase app to manage the flow from purchase to reception and "
+"invoice control."
+>>>>>>> upstream/18.0
 =======
 "Let's try the Purchase app to manage the flow from purchase to reception and "
 "invoice control."
@@ -3123,6 +3257,7 @@ msgstr "الكمية المستلمة يدوياً "
 msgid ""
 "Margin of error for vendor lead times. When the system generates Purchase "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for procuring products, they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
 msgstr ""
@@ -3130,18 +3265,24 @@ msgstr ""
 " المنتجات، ستتم جدولة الأوامر مع إضافة هذا الهامش للتعامل مع أي تأخير طارئ "
 "من قبل المورد."
 =======
+=======
+>>>>>>> upstream/18.0
 "Orders for procuring products, they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
 msgstr ""
 "هامش الخطأ في مهلة تسليم المورد. عند إنشاء النظام لأوامر الشراء لإعادة تزويد "
 "المنتجات، ستتم جدولة الأوامر مع إضافة هذا الهامش للتعامل مع أي تأخير طارئ من "
 "قبل المورد."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_config_settings__use_po_lead
 msgid ""
 "Margin of error for vendor lead times. When the system generates Purchase "
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
@@ -3150,12 +3291,17 @@ msgstr ""
 " المنتجات، ستتم جدولة الأوامر مع إضافة هذا الهامش للتعامل مع أي تأخير طارئ "
 "من قبل المورد."
 =======
+=======
+>>>>>>> upstream/18.0
 "Orders for reordering products,they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
 msgstr ""
 "هامش الخطأ في مهلة تسليم المورد. عند إنشاء النظام لأوامر الشراء لإعادة ترتيب "
 "المنتجات، ستتم جدولة الأوامر مع إضافة هذا الهامش للتعامل مع أي تأخير طارئ من "
 "قبل المورد."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -3256,8 +3402,13 @@ msgstr "الاسم"
 msgid "Name, TIN, Email, or Reference"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "الاسم أو الرقم التعريفي لدافع الضرائب، أو البريد الإلكتروني، أو بواسطة الرقم"
 " المرجعي "
+=======
+"الاسم أو الرقم التعريفي لدافع الضرائب، أو البريد الإلكتروني، أو بواسطة الرقم "
+"المرجعي "
+>>>>>>> upstream/18.0
 =======
 "الاسم أو الرقم التعريفي لدافع الضرائب، أو البريد الإلكتروني، أو بواسطة الرقم "
 "المرجعي "
@@ -3419,8 +3570,13 @@ msgid ""
 "quotation and it will turn into a purchase order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "بمجرد أن قمت بطلب المنتجات إلى مورّدك، قم بتأكيد طلب عرض السعر وسوف يتحول "
 "إلى أمر شراء. "
+=======
+"بمجرد أن قمت بطلب المنتجات إلى مورّدك، قم بتأكيد طلب عرض السعر وسوف يتحول إلى "
+"أمر شراء. "
+>>>>>>> upstream/18.0
 =======
 "بمجرد أن قمت بطلب المنتجات إلى مورّدك، قم بتأكيد طلب عرض السعر وسوف يتحول إلى "
 "أمر شراء. "
@@ -3591,6 +3747,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "يُرجى تحديد أمرَي شراء على الأقل بحالة \"طلب عرض سعر\" و\"تم إرسال طلب عرض "
 "السعر\" ليتم دمجهما. "
@@ -3780,6 +3937,8 @@ msgstr ""
 "السعر\" ليتم دمجهما. "
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "يُرجى تحديد أمرَي شراء على الأقل بحالة \"طلب عرض سعر\" و\"تم إرسال طلب عرض "
 "السعر\" ليتم دمجهما. "
 
@@ -3788,6 +3947,9 @@ msgstr ""
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Please select bill lines with the same vendor."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -4387,8 +4549,13 @@ msgstr "وحدة القياس المرجعية"
 #: model:ir.model.fields,help:purchase.field_purchase_order__origin
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
+=======
+"Reference of the document that generated this purchase order request (e.g. a "
+"sales order)"
+>>>>>>> upstream/18.0
 =======
 "Reference of the document that generated this purchase order request (e.g. a "
 "sales order)"
@@ -4403,8 +4570,13 @@ msgid ""
 "on the delivery order sent by your vendor."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "مرجع أمر البيع أو العطاء المرسل من المورّد. يُستخدم لإجراء المطابقة عند "
 "استلام المنتجات حسب ما يُذكر عادةً على أمر التوصيل المرسل من المورّد. "
+=======
+"مرجع أمر البيع أو العطاء المرسل من المورّد. يُستخدم لإجراء المطابقة عند استلام "
+"المنتجات حسب ما يُذكر عادةً على أمر التوصيل المرسل من المورّد. "
+>>>>>>> upstream/18.0
 =======
 "مرجع أمر البيع أو العطاء المرسل من المورّد. يُستخدم لإجراء المطابقة عند استلام "
 "المنتجات حسب ما يُذكر عادةً على أمر التوصيل المرسل من المورّد. "
@@ -4463,12 +4635,15 @@ msgstr "طلبات عروض الأسعار "
 #: model_terms:ir.actions.act_window,help:purchase.purchase_rfq
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Requests for quotation are documents that will be sent to your suppliers to request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they will be confirmed and turned into purchase orders."
 msgstr ""
 "طلبات عروض الأسعار هي مستندات سوف يتم إرسالها إلى مزوديك لطلب أسعار منتجات مختلفة تفكر في شرائها.\n"
 "                بمجرد الوصول إلى اتفاق مع المزود، سيتم تأكيدها وتحويلها إلى أوامر شراء. "
 =======
+=======
+>>>>>>> upstream/18.0
 "Requests for quotation are documents that will be sent to your suppliers to "
 "request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they "
@@ -4478,6 +4653,9 @@ msgstr ""
 "مختلفة تفكر في شرائها.\n"
 "                بمجرد الوصول إلى اتفاق مع المزود، سيتم تأكيدها وتحويلها إلى "
 "أوامر شراء. "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -4828,7 +5006,12 @@ msgstr "تم رفض إيصال الطلب من قِبَل %s. "
 msgid ""
 "The request for quotation is the first step of the purchases flow. Once\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    converted into a purchase order, you will be able to control the receipt\n"
+=======
+"                    converted into a purchase order, you will be able to "
+"control the receipt\n"
+>>>>>>> upstream/18.0
 =======
 "                    converted into a purchase order, you will be able to "
 "control the receipt\n"
@@ -4844,8 +5027,13 @@ msgstr ""
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
 " this PO"
+=======
+"The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
+"this PO"
+>>>>>>> upstream/18.0
 =======
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
 "this PO"
@@ -4885,12 +5073,15 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:purchase.action_purchase_order_report_all
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This analysis allows you to easily check and analyse your company purchase history and performance.\n"
 "                You can track your negotiation performance, the delivery performance of your vendors, etc"
 msgstr ""
 "يتيح لك تحليل الشراء بالتحقق من تاريخ مشتريات وأداء مؤسستك وتحليلهما بكل سهولة.\n"
 "                من هذه القائمة، يمكنك تتبع أداء عملية المفاوضات وأداء تسليم مورديك، إلخ "
 =======
+=======
+>>>>>>> upstream/18.0
 "This analysis allows you to easily check and analyse your company purchase "
 "history and performance.\n"
 "                You can track your negotiation performance, the delivery "
@@ -4900,6 +5091,9 @@ msgstr ""
 "سهولة.\n"
 "                من هذه القائمة، يمكنك تتبع أداء عملية المفاوضات وأداء تسليم "
 "مورديك، إلخ "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -4935,8 +5129,13 @@ msgid ""
 "purchase %(quantity).2f %(unit)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "تمت تعبئة هذا المنتج بواسطة %(pack_size).2f %(pack_name)s. يجدر بك شراء "
 "%(quantity).2f %(unit)s. "
+=======
+"تمت تعبئة هذا المنتج بواسطة %(pack_size).2f %(pack_name)s. يجدر بك شراء %"
+"(quantity).2f %(unit)s. "
+>>>>>>> upstream/18.0
 =======
 "تمت تعبئة هذا المنتج بواسطة %(pack_size).2f %(pack_name)s. يجدر بك شراء %"
 "(quantity).2f %(unit)s. "
@@ -5355,6 +5554,7 @@ msgid ""
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
@@ -5363,6 +5563,8 @@ msgstr ""
 "الخاص بالمورّد: نسبة المنتجات التي تم شحنها في الوقت المحدد. إذا كانت النسبة"
 " منخفضة جداً، قم بتفعيل <i>التذكيرات التلقائية</i> قبل عدة أيام من تاريخ "
 =======
+=======
+>>>>>>> upstream/18.0
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment "
 "dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
@@ -5370,6 +5572,9 @@ msgstr ""
 "عند إنشاء أمر شراء، قم بإلقاء نظرة على معدل <i>التوصيل في الوقد المحدد</i> "
 "الخاص بالمورّد: نسبة المنتجات التي تم شحنها في الوقت المحدد. إذا كانت النسبة "
 "منخفضة جداً، قم بتفعيل <i>التذكيرات التلقائية</i> قبل عدة أيام من تاريخ "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "الشحن، وسوف يقوم أودو بإرسال بريد إلكتروني إلى المورّد لطلب تأكيد تواريخ "
 "الشحنة وإبقائك على علم في حال حدوث أي تأخير. للحصول على إحصائيات أداء "
@@ -5447,12 +5652,15 @@ msgstr "عليك تحديد بند أمر شراء واحد على الأقل ل
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
 "يحتوي عرض السعر الخاص بك على منتجات من الشركة %(product_company)s بينما ينتمي عرض سعرك إلى الشركة %(quote_company)s. \n"
 "يرجى تغيير شركة عرض السعر أو إزالة المنتجات من الشركات الأخرى (%(bad_products)s). "
 =======
+=======
+>>>>>>> upstream/18.0
 "Your quotation contains products from company %(product_company)s whereas "
 "your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from "
@@ -5462,6 +5670,9 @@ msgstr ""
 "ينتمي عرض سعرك إلى الشركة %(quote_company)s. \n"
 "يرجى تغيير شركة عرض السعر أو إزالة المنتجات من الشركات الأخرى (%"
 "(bad_products)s). "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase

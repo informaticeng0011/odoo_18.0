@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* barcodes
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -196,16 +197,22 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -499,6 +506,8 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
@@ -509,6 +518,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes
@@ -521,6 +533,7 @@ msgstr "'*' ليس نمط باركود صحيح. هل تقصد '.*'؟"
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and categorized.\n"
 "                                When a barcode is scanned it is associated to the <i>first</i> rule with a matching\n"
 "                                pattern. The pattern syntax is that of regular expression, and a barcode is matched\n"
@@ -531,6 +544,8 @@ msgstr ""
 "                                مُطابق. تركيبة النمط هي تركيبة التعبير النمطي، وتتم مطابقة\n"
 "                                الباركود إذا طابق التعبير النمطي بادئة الباركود. "
 =======
+=======
+>>>>>>> upstream/18.0
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and "
 "categorized.\n"
 "                                When a barcode is scanned it is associated "
@@ -547,14 +562,22 @@ msgstr ""
 "النمطي، وتتم مطابقة\n"
 "                                الباركود إذا طابق التعبير النمطي بادئة "
 "الباركود. "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model_terms:ir.actions.act_window,help:barcodes.action_barcode_nomenclature_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A barcode nomenclature defines how the point of sale identify and interprets"
 " barcodes"
+=======
+"A barcode nomenclature defines how the point of sale identify and interprets "
+"barcodes"
+>>>>>>> upstream/18.0
 =======
 "A barcode nomenclature defines how the point of sale identify and interprets "
 "barcodes"
@@ -742,7 +765,10 @@ msgstr "المُعرف"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -894,6 +920,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1014,6 +1043,7 @@ msgstr "تسمية"
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Patterns can also define how numerical values, such as weight or price, can be\n"
 "                                encoded into the barcode. They are indicated by <code>{NNN}</code> where the N's\n"
 "                                define where the number's digits are encoded. Floats are also supported with the\n"
@@ -1027,6 +1057,8 @@ msgstr ""
 "                                ويتم التعبير عن الرقم العشري هكذا <code>{NNNDD}</code>. في هذه الحالات،\n"
 "                                <i>يجب</i> أن تظهر هذه الخانات في حقل الباركود كأصفار في السجلات\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Patterns can also define how numerical values, such as weight or price, can "
 "be\n"
 "                                encoded into the barcode. They are indicated "
@@ -1048,6 +1080,9 @@ msgstr ""
 "<code>{NNNDD}</code>. في هذه الحالات،\n"
 "                                <i>يجب</i> أن تظهر هذه الخانات في حقل "
 "الباركود كأصفار في السجلات\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                المرتبطة. "
 
@@ -1123,8 +1158,13 @@ msgid ""
 "contain N's followed by D's."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "يوجد خطأ في تركيبة نمط الباركود %(pattern)s: يمكن أن تحتوي الأقواس فقط على N"
 " متبوعة بـ D."
+=======
+"يوجد خطأ في تركيبة نمط الباركود %(pattern)s: يمكن أن تحتوي الأقواس فقط على N "
+"متبوعة بـ D."
+>>>>>>> upstream/18.0
 =======
 "يوجد خطأ في تركيبة نمط الباركود %(pattern)s: يمكن أن تحتوي الأقواس فقط على N "
 "متبوعة بـ D."
@@ -1143,8 +1183,12 @@ msgid ""
 "This rule will apply only if the barcode is encoded with the specified "
 "encoding"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ستُطبق هذه القاعدة فقط إذا كان الباركود مُشفرًا بطريقة التشفير المحددة"
+=======
+msgstr "ستُطبق هذه القاعدة فقط إذا كان الباركود مُشفرًا بطريقة التشفير المحددة"
+>>>>>>> upstream/18.0
 =======
 msgstr "ستُطبق هذه القاعدة فقط إذا كان الباركود مُشفرًا بطريقة التشفير المحددة"
 >>>>>>> upstream/18.0
@@ -1159,6 +1203,7 @@ msgstr "النوع"
 msgid ""
 "UPC Codes can be converted to EAN by prefixing them with a zero. This "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "setting determines if a UPC/EAN barcode should be automatically converted in"
 " one way or another when trying to match a rule with the other encoding."
 msgstr ""
@@ -1166,12 +1211,17 @@ msgstr ""
 "كان ينبغي تحويل باركود UPC أو EAN تلقائيًا للنوع الآخر عند محاولة تطبيق "
 "قاعدة بطريقة التشفير الأخرى."
 =======
+=======
+>>>>>>> upstream/18.0
 "setting determines if a UPC/EAN barcode should be automatically converted in "
 "one way or another when trying to match a rule with the other encoding."
 msgstr ""
 "يمكن تحويل أكواد UPC لأكواد EAN بوضع صفر كبادئة لهم. يحدد هذا الاختيار إن "
 "كان ينبغي تحويل باركود UPC أو EAN تلقائيًا للنوع الآخر عند محاولة تطبيق قاعدة "
 "بطريقة التشفير الأخرى."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes
@@ -1203,10 +1253,15 @@ msgstr "أمر باركود غير معروف "
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcode_rule__sequence
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Used to order rules such that rules with a smaller sequence match first"
 msgstr ""
 "يستخدم لترتيب القواعد بحيث تتم مطابقة القواعد ذات التسلسل الأصغر أولًا"
+=======
+msgid "Used to order rules such that rules with a smaller sequence match first"
+msgstr "يستخدم لترتيب القواعد بحيث تتم مطابقة القواعد ذات التسلسل الأصغر أولًا"
+>>>>>>> upstream/18.0
 =======
 msgid "Used to order rules such that rules with a smaller sequence match first"
 msgstr "يستخدم لترتيب القواعد بحيث تتم مطابقة القواعد ذات التسلسل الأصغر أولًا"
@@ -1217,7 +1272,10 @@ msgstr "يستخدم لترتيب القواعد بحيث تتم مطابقة ا
 msgid "Value of the last barcode scanned."
 msgstr "قيمة آخر باركود ممسوح ضوئيًا."
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
@@ -1225,4 +1283,7 @@ msgstr "قيمة آخر باركود ممسوح ضوئيًا."
 msgid ""
 "You cannot delete '%(name)s' because it's the default barcode nomenclature."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

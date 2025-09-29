@@ -66,6 +66,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for move in self:
             if move.country_code == 'IN' and move.is_sale_document(include_receipts=True):
                 partner_state = (
@@ -81,6 +82,8 @@ class AccountMove(models.Model):
                 else:
                     move.l10n_in_state_id = self.env.ref('l10n_in.state_in_oc', raise_if_not_found=False)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -143,6 +146,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -185,7 +191,10 @@ class AccountMove(models.Model):
     def _compute_fiscal_position_id(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         sez_virtual_state = (
@@ -194,6 +203,9 @@ class AccountMove(models.Model):
             or self.env['res.country.state'].browse()
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -216,7 +228,13 @@ class AccountMove(models.Model):
                 # Special Economic Zone
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return foreign_state
+=======
+                # This will maintain the old behaviour in case the
+                # customer didn't reload the CoA
+                return sez_virtual_state or foreign_state
+>>>>>>> upstream/18.0
 =======
                 # This will maintain the old behaviour in case the
                 # customer didn't reload the CoA

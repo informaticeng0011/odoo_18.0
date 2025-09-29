@@ -38,6 +38,10 @@ export const IS_FIELD_SYM = Symbol("isField");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/** @deprecated equivalent to IS_DELETED_SYM */
+>>>>>>> upstream/18.0
 =======
 /** @deprecated equivalent to IS_DELETED_SYM */
 >>>>>>> upstream/18.0

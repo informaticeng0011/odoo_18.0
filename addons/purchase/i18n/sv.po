@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* purchase
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -29,7 +33,11 @@
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2025
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -37,6 +45,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,6 +316,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: sv\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2025\n"
@@ -315,6 +326,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -323,12 +337,15 @@ msgstr ""
 msgid ""
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                (object.state in ('draft', 'sent') and 'Request for Quotation - %s' % (object.name) or\n"
 "                'Purchase Order - %s' % (object.name))"
 msgstr ""
 "\n"
 "                (object.state in ('draft', 'sent') and 'Offertförfrågan - %s' % (object.name) or\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                (object.state in ('draft', 'sent') and 'Request for "
 "Quotation - %s' % (object.name) or\n"
 "                'Purchase Order - %s' % (object.name))"
@@ -336,6 +353,9 @@ msgstr ""
 "\n"
 "                (object.state in ('draft', 'sent') and 'Offertförfrågan - "
 "%s' % (object.name) or\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                'Inköpsorder - %s' % (object.name))"
 
@@ -360,8 +380,12 @@ msgstr "%(product)s från %(original_receipt_date)s till %(new_receipt_date)s"
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%(vendor)s confirmed the receipt will take place on %(date)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "%(vendor)s bekräftade att mottagandet kommer att äga rum den %(date)s."
+=======
+msgstr "%(vendor)s bekräftade att mottagandet kommer att äga rum den %(date)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(vendor)s bekräftade att mottagandet kommer att äga rum den %(date)s."
 >>>>>>> upstream/18.0
@@ -390,8 +414,13 @@ msgid ""
 "sales."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "är det 100% gratis! Du kommer att spara tid på att skapa snygga offerter och"
 " följa upp försäljningen."
+=======
+"är det 100% gratis! Du kommer att spara tid på att skapa snygga offerter och "
+"följa upp försäljningen."
+>>>>>>> upstream/18.0
 =======
 "är det 100% gratis! Du kommer att spara tid på att skapa snygga offerter och "
 "följa upp försäljningen."
@@ -421,6 +450,7 @@ msgid ""
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -432,6 +462,8 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -446,6 +478,9 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-"
 "out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "         <t t-else=\"\">\n"
@@ -453,15 +488,21 @@ msgid ""
 "        </t>\n"
 "        Could you please confirm it will be delivered on time?\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-"
 "quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -472,6 +513,7 @@ msgstr ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Bästa <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
@@ -484,6 +526,8 @@ msgstr ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -498,6 +542,9 @@ msgstr ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-"
 "out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "         <t t-else=\"\">\n"
@@ -505,15 +552,21 @@ msgstr ""
 "        </t>\n"
 "        Kan du bekräfta att det kommer att levereras i tid? \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-"
 "quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -527,6 +580,7 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
@@ -547,6 +601,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -573,6 +629,9 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -583,6 +642,7 @@ msgstr ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Bästa <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
@@ -603,6 +663,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -628,6 +690,9 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -642,6 +707,7 @@ msgid ""
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -649,6 +715,8 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -658,12 +726,16 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</"
 "t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
 "        <br/><br/>\n"
 "        If you have any questions, please do not hesitate to contact us.\n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                Accept</a>\n"
@@ -676,6 +748,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')"
 "\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-"
 "decoration: none; background-color: #875A7B; border: 1px solid #875A7B; "
@@ -694,6 +768,9 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
@@ -704,17 +781,23 @@ msgstr ""
 "        Bästa <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
 "        Här finns i bilaga en offertförfrågan <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">P00015</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
 "        Här finns i bilaga en offertförfrågan <span style=\"font-weight:bold;"
 "\" t-out=\"object.name or ''\">P00015</span>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        <t t-if=\"object.partner_ref\">\n"
 "            med referens: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
@@ -723,6 +806,7 @@ msgstr ""
 "        <br/><br/>\n"
 "        Om du har några frågor, tveka inte att kontakta oss. \n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                Acceptera</a>\n"
@@ -735,6 +819,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')"
 "\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-"
 "decoration: none; background-color: #875A7B; border: 1px solid #875A7B; "
@@ -753,6 +839,9 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
@@ -821,17 +910,23 @@ msgstr "<i class=\"fa fa-print me-1\"/>Ladda ner / Skriv ut"
 msgid ""
 "<span class=\"d-none d-md-inline\">Confirmation Date</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                          <span class=\"d-block d-md-none\">Confirmation</span>"
 msgstr ""
 "<span class=\"d-none d-md-inline\">Bekräftelsedatum</span>\n"
 "                          <span class=\"d-block d-md-none\">Bekräftelse</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                          <span class=\"d-block d-md-none\">Confirmation</"
 "span>"
 msgstr ""
 "<span class=\"d-none d-md-inline\">Bekräftelsedatum</span>\n"
 "                          <span class=\"d-block d-md-none\">Bekräftelse</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -856,12 +951,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Purchase Order </span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Förfrågan om offert </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Köpsorder </span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')"
 "\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in "
@@ -871,6 +969,9 @@ msgstr ""
 "\">Förfrågan om offert </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in "
 "('draft', 'sent')\">Köpsorder </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -1001,7 +1102,10 @@ msgstr "<strong class=\"d-block mb-1\">Fakturor</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1207,6 +1311,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1478,6 +1585,7 @@ msgstr "<strong>Begäran om offertdatum:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Shipping address:</strong>"
 msgstr "<strong>Leveransadress:</strong>"
@@ -1488,6 +1596,8 @@ msgid "<strong>Shipping address</strong>"
 msgstr "<strong>Försändelseadress</strong>"
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1706,12 +1816,15 @@ msgstr "Åtkomstvarning"
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__qty_received_method
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the received quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
 "Enligt produktkonfigurationen kan den mottagna kvantiteten beräknas automatiskt med hjälp av en mekanism:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "According to product configuration, the received quantity can be "
 "automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
@@ -1719,6 +1832,9 @@ msgstr ""
 msgstr ""
 "Enligt produktkonfigurationen kan den mottagna kvantiteten beräknas "
 "automatiskt med hjälp av en mekanism:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "  - Manuell: kvantiteten ställs in manuellt på linjen\n"
 "  - Stock Moves: kvantiteten kommer från bekräftade plockningar\n"
@@ -2381,8 +2497,13 @@ msgid ""
 "vendor pricelist lead time then today's date."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Leveransdatum som förväntas från leverantören. Detta datum är förinställt på"
 " leverantörens prislistas ledtid respektive dagens datum."
+=======
+"Leveransdatum som förväntas från leverantören. Detta datum är förinställt på "
+"leverantörens prislistas ledtid respektive dagens datum."
+>>>>>>> upstream/18.0
 =======
 "Leveransdatum som förväntas från leverantören. Detta datum är förinställt på "
 "leverantörens prislistas ledtid respektive dagens datum."
@@ -2808,8 +2929,13 @@ msgstr "Låt oss skapa din första offertförfrågan."
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Let's try the Purchase app to manage the flow from purchase to reception and"
 " invoice control."
+=======
+"Let's try the Purchase app to manage the flow from purchase to reception and "
+"invoice control."
+>>>>>>> upstream/18.0
 =======
 "Let's try the Purchase app to manage the flow from purchase to reception and "
 "invoice control."
@@ -2894,8 +3020,13 @@ msgstr "Manual Mottagna Antal"
 msgid ""
 "Margin of error for vendor lead times. When the system generates Purchase "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for procuring products, they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for procuring products, they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for procuring products, they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -2910,8 +3041,13 @@ msgstr ""
 msgid ""
 "Margin of error for vendor lead times. When the system generates Purchase "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for reordering products,they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for reordering products,they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -3118,8 +3254,12 @@ msgstr "Antal åtgärder"
 msgid "Number of days to send reminder email before the promised receipt date"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Antal dagar före det lovade mottagningsdatumet som påminnelsemail ska "
 "skickas"
+=======
+"Antal dagar före det lovade mottagningsdatumet som påminnelsemail ska skickas"
+>>>>>>> upstream/18.0
 =======
 "Antal dagar före det lovade mottagningsdatumet som påminnelsemail ska skickas"
 >>>>>>> upstream/18.0
@@ -3157,13 +3297,19 @@ msgid ""
 "On received quantities: Control bills based on received quantities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "På beställda kvantiteter: Kontrollera fakturor baserat på beställda kvantiteter.\n"
 "På mottagna kvantiteter: Kontrollera fakturor baserat på mottagna kvantiteter."
 =======
+=======
+>>>>>>> upstream/18.0
 "På beställda kvantiteter: Kontrollera fakturor baserat på beställda "
 "kvantiteter.\n"
 "På mottagna kvantiteter: Kontrollera fakturor baserat på mottagna "
 "kvantiteter."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -3308,9 +3454,12 @@ msgid ""
 "merge."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vänligen välj minst två inköpsorder med statlig RFQ och RFQ som skickats för"
 " att slås samman."
 =======
+=======
+>>>>>>> upstream/18.0
 "Vänligen välj minst två inköpsorder med statlig RFQ och RFQ som skickats för "
 "att slås samman."
 
@@ -3319,6 +3468,9 @@ msgstr ""
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Please select bill lines with the same vendor."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -3921,8 +4073,13 @@ msgstr "Referensenhet"
 #: model:ir.model.fields,help:purchase.field_purchase_order__origin
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
+=======
+"Reference of the document that generated this purchase order request (e.g. a "
+"sales order)"
+>>>>>>> upstream/18.0
 =======
 "Reference of the document that generated this purchase order request (e.g. a "
 "sales order)"
@@ -3995,12 +4152,15 @@ msgstr "Offertförfrågningar"
 #: model_terms:ir.actions.act_window,help:purchase.purchase_rfq
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Requests for quotation are documents that will be sent to your suppliers to request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they will be confirmed and turned into purchase orders."
 msgstr ""
 "Offertförfrågningar är dokument som skickas till era leverantörer för att begära priser för olika produkter som ni överväger att köpa.\n"
 "                När en överenskommelse har träffats med leverantören bekräftas offertförfrågningen och omvandlas till en inköpsorder."
 =======
+=======
+>>>>>>> upstream/18.0
 "Requests for quotation are documents that will be sent to your suppliers to "
 "request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they "
@@ -4010,6 +4170,9 @@ msgstr ""
 "begära priser för olika produkter som ni överväger att köpa.\n"
 "                När en överenskommelse har träffats med leverantören "
 "bekräftas offertförfrågningen och omvandlas till en inköpsorder."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -4143,8 +4306,13 @@ msgid ""
 "Sent to vendors before expected arrival, based on the purchase order setting"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Skickas till leverantörer före förväntad ankomst, baserat på inställningen i"
 " inköpsordern"
+=======
+"Skickas till leverantörer före förväntad ankomst, baserat på inställningen i "
+"inköpsordern"
+>>>>>>> upstream/18.0
 =======
 "Skickas till leverantörer före förväntad ankomst, baserat på inställningen i "
 "inköpsordern"
@@ -4366,12 +4534,15 @@ msgstr "Ordermottagandet har avvisats av %s."
 msgid ""
 "The request for quotation is the first step of the purchases flow. Once\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    converted into a purchase order, you will be able to control the receipt\n"
 "                    of the products and the vendor bill."
 msgstr ""
 "Offertförfrågan är det första steget i inköpsflödet. När den\n"
 "                    omvandlas till en inköpsorder kan du kontrollera mottagandet av\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    converted into a purchase order, you will be able to "
 "control the receipt\n"
 "                    of the products and the vendor bill."
@@ -4379,6 +4550,9 @@ msgstr ""
 "Offertförfrågan är det första steget i inköpsflödet. När den\n"
 "                    omvandlas till en inköpsorder kan du kontrollera "
 "mottagandet av\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    av produkterna och leverantörsfakturan."
 
@@ -4387,8 +4561,13 @@ msgstr ""
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
 " this PO"
+=======
+"The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
+"this PO"
+>>>>>>> upstream/18.0
 =======
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
 "this PO"
@@ -4430,12 +4609,15 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:purchase.action_purchase_order_report_all
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This analysis allows you to easily check and analyse your company purchase history and performance.\n"
 "                You can track your negotiation performance, the delivery performance of your vendors, etc"
 msgstr ""
 "Med denna analys kan du enkelt kontrollera och analysera ditt företags inköpshistorik och resultat.\n"
 "                Du kan spåra dina förhandlingsresultat, dina leverantörers leveransresultat etc"
 =======
+=======
+>>>>>>> upstream/18.0
 "This analysis allows you to easily check and analyse your company purchase "
 "history and performance.\n"
 "                You can track your negotiation performance, the delivery "
@@ -4445,6 +4627,9 @@ msgstr ""
 "inköpshistorik och resultat.\n"
 "                Du kan spåra dina förhandlingsresultat, dina leverantörers "
 "leveransresultat etc"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -4480,8 +4665,13 @@ msgid ""
 "purchase %(quantity).2f %(unit)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Denna produkt är förpackad i %(pack_size).2f %(pack_name)s. Du bör köpa "
 "%(quantity).2f %(unit)s."
+=======
+"Denna produkt är förpackad i %(pack_size).2f %(pack_name)s. Du bör köpa %"
+"(quantity).2f %(unit)s."
+>>>>>>> upstream/18.0
 =======
 "Denna produkt är förpackad i %(pack_size).2f %(pack_name)s. Du bör köpa %"
 "(quantity).2f %(unit)s."
@@ -4800,7 +4990,12 @@ msgid ""
 msgstr ""
 "Säljarens räkningar kan förgenereras baserat på köp\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                     beställningar eller kvitton. Detta gör att du kan kontrollera räkningar\n"
+=======
+"                     beställningar eller kvitton. Detta gör att du kan "
+"kontrollera räkningar\n"
+>>>>>>> upstream/18.0
 =======
 "                     beställningar eller kvitton. Detta gör att du kan "
 "kontrollera räkningar\n"
@@ -4907,8 +5102,13 @@ msgid ""
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
+=======
+"shipment, Odoo will send the vendor an email to ask confirmation of shipment "
+"dates and keep you informed in case of any delays. To get the vendor's "
+>>>>>>> upstream/18.0
 =======
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment "
 "dates and keep you informed in case of any delays. To get the vendor's "
@@ -4918,8 +5118,13 @@ msgstr ""
 "När du skapar en inköpsorder, ta en titt på leverantörens <i>On Time "
 "Delivery</i>-frekvens: procentandelen produkter som levereras i tid. Om den "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "är för låg kan du aktivera <i>automatiska påminnelser</i>. Några dagar innan"
 " leveransen ska ske kommer Odoo att skicka ett e-postmeddelande till "
+=======
+"är för låg kan du aktivera <i>automatiska påminnelser</i>. Några dagar innan "
+"leveransen ska ske kommer Odoo att skicka ett e-postmeddelande till "
+>>>>>>> upstream/18.0
 =======
 "är för låg kan du aktivera <i>automatiska påminnelser</i>. Några dagar innan "
 "leveransen ska ske kommer Odoo att skicka ett e-postmeddelande till "
@@ -4989,7 +5194,12 @@ msgid ""
 msgstr ""
 "Du måste definiera en produkt för allt du säljer eller köper,\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            oavsett om det är en lagringsbar produkt, en förbrukningsvara eller en tjänst."
+=======
+"            oavsett om det är en lagringsbar produkt, en förbrukningsvara "
+"eller en tjänst."
+>>>>>>> upstream/18.0
 =======
 "            oavsett om det är en lagringsbar produkt, en förbrukningsvara "
 "eller en tjänst."
@@ -5002,8 +5212,12 @@ msgid ""
 "You must select at least one Purchase Order line to match or create bill."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du måste välja minst en inköpsorderrad för att matcha eller skapa en "
 "faktura."
+=======
+"Du måste välja minst en inköpsorderrad för att matcha eller skapa en faktura."
+>>>>>>> upstream/18.0
 =======
 "Du måste välja minst en inköpsorderrad för att matcha eller skapa en faktura."
 >>>>>>> upstream/18.0
@@ -5013,12 +5227,15 @@ msgstr ""
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
 "Ditt erbjudande innehåller produkter från företaget %(product_company)s medan ditt erbjudande tillhör företaget %(quote_company)s. \n"
 " Var god ändra företaget för ditt erbjudande eller ta bort produkterna från andra företag (%(bad_products)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 "Your quotation contains products from company %(product_company)s whereas "
 "your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from "
@@ -5028,6 +5245,9 @@ msgstr ""
 "medan ditt erbjudande tillhör företaget %(quote_company)s. \n"
 " Var god ändra företaget för ditt erbjudande eller ta bort produkterna från "
 "andra företag (%(bad_products)s)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase

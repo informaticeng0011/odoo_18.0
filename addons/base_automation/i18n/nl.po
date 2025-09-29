@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* base_automation
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -11,7 +15,11 @@
 # Manon Rondou, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -19,6 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 12:50+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +38,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: nl\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2025\n"
@@ -37,6 +48,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -87,8 +101,13 @@ msgstr "<code>env</code>: omgeving waarop de actie is geactiveerd"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<code>model</code>: model of the record on which the action is triggered; is"
 " a void recordset"
+=======
+"<code>model</code>: model of the record on which the action is triggered; is "
+"a void recordset"
+>>>>>>> upstream/18.0
 =======
 "<code>model</code>: model of the record on which the action is triggered; is "
 "a void recordset"
@@ -104,8 +123,13 @@ msgid ""
 "as a dict."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<code>payload</code>: de payload van de aanroep (GET-parameters, JSON-body),"
 " als dict."
+=======
+"<code>payload</code>: de payload van de aanroep (GET-parameters, JSON-body), "
+"als dict."
+>>>>>>> upstream/18.0
 =======
 "<code>payload</code>: de payload van de aanroep (GET-parameters, JSON-body), "
 "als dict."
@@ -156,23 +180,30 @@ msgstr "<span class=\"text-muted\"> Beschikbare variabelen: </span>"
 msgid ""
 "<span invisible=\"evaluation_type != 'value'\">to</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                        <span invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
 "<span invisible=\"evaluation_type != 'value'\">naar</span>\n"
 "                                                        <span invisible=\"evaluation_type != 'equation'\">als</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                                        <span "
 "invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
 "<span invisible=\"evaluation_type != 'value'\">naar</span>\n"
 "                                                        <span "
 "invisible=\"evaluation_type != 'equation'\">als</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 "<span invisible=\"trigger != 'on_time_created'\">after creation</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                    <span invisible=\"trigger != 'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">after</span>"
@@ -181,6 +212,8 @@ msgstr ""
 "                                    <span invisible=\"trigger != 'on_time_updated'\">na laatste update</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">na</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <span invisible=\"trigger != "
 "'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != "
@@ -191,6 +224,9 @@ msgstr ""
 "'on_time_updated'\">na laatste update</span>\n"
 "                                    <span invisible=\"trigger != "
 "'on_time'\">na</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -216,15 +252,21 @@ msgstr "<span>door het in te stellen op</span>"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
 msgstr ""
 "<strong><i class=\"fa fa-lock\"/>Houd het geheim, bewaar het "
 "veilig.</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
 msgstr ""
 "<strong><i class=\"fa fa-lock\"/>Houd het geheim, bewaar het veilig.</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -284,7 +326,10 @@ msgstr "Toepassen op"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Archived"
@@ -346,8 +391,13 @@ msgid ""
 msgstr ""
 "Wijzig het geheim van de URL als je denkt dat de URL niet langer veilig is. "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Je moet elk geautomatiseerd systeem dat deze webhook aanroept bijwerken naar"
 " de nieuwe URL."
+=======
+"Je moet elk geautomatiseerd systeem dat deze webhook aanroept bijwerken naar "
+"de nieuwe URL."
+>>>>>>> upstream/18.0
 =======
 "Je moet elk geautomatiseerd systeem dat deze webhook aanroept bijwerken naar "
 "de nieuwe URL."
@@ -465,6 +515,7 @@ msgstr "Automatiseringsregel uitschakelen"
 msgid ""
 "Disabling this automation rule will enable you to continue your workflow\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                but any data created after this could potentially be corrupted,\n"
 "                as you are effectively disabling a customization that may set\n"
 "                important and/or required fields."
@@ -473,6 +524,8 @@ msgstr ""
 "                maar alle gegevens die hierna worden gemaakt, kunnen mogelijk beschadigd raken,\n"
 "                omdat je in feite een aanpassing uitschakelt die kan leiden tot\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                but any data created after this could potentially be "
 "corrupted,\n"
 "                as you are effectively disabling a customization that may "
@@ -485,6 +538,9 @@ msgstr ""
 "mogelijk beschadigd raken,\n"
 "                omdat je in feite een aanpassing uitschakelt die kan leiden "
 "tot\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                belangrijke en/of verplichte velden."
 
@@ -575,8 +631,13 @@ msgstr "ID"
 #: model:ir.model.fields,help:base_automation.field_base_automation__filter_domain
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If present, this condition must be satisfied before executing the automation"
 " rule."
+=======
+"If present, this condition must be satisfied before executing the automation "
+"rule."
+>>>>>>> upstream/18.0
 =======
 "If present, this condition must be satisfied before executing the automation "
 "rule."
@@ -596,12 +657,18 @@ msgstr ""
 
 #. module: base_automation
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
 msgid "Include Archived"
 msgstr ""
 
 #. module: base_automation
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Keep track of what this automation does and why it exists..."
@@ -668,8 +735,13 @@ msgstr "Modelnaam"
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Model of action %(action_name)s should match the one from automated rule "
 "%(rule_name)s."
+=======
+"Model of action %(action_name)s should match the one from automated rule %"
+"(rule_name)s."
+>>>>>>> upstream/18.0
 =======
 "Model of action %(action_name)s should match the one from automated rule %"
 "(rule_name)s."
@@ -843,12 +915,15 @@ msgstr "Webhook notificatie verzenden"
 msgid ""
 "Send an email when an object changes state, archive records\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                after a month of inactivity or remind yourself to follow-up on\n"
 "                tasks when a specific tag is added."
 msgstr ""
 "Een e-mail verzenden wanneer een object van status verandert, records archiveren\n"
 "                na een maand inactiviteit of herinner jezelf eraan om een follow-up taak te doen\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                after a month of inactivity or remind yourself to follow-up "
 "on\n"
 "                tasks when a specific tag is added."
@@ -857,6 +932,9 @@ msgstr ""
 "archiveren\n"
 "                na een maand inactiviteit of herinner jezelf eraan om een "
 "follow-up taak te doen\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                wanneer een specifiek label wordt toegevoegd."
 
@@ -864,8 +942,13 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:base_automation.digest_tip_base_automation_0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Send an email when an object changes state, archive records after a month of"
 " inactivity or remind yourself to follow-up on tasks when a specific tag is "
+=======
+"Send an email when an object changes state, archive records after a month of "
+"inactivity or remind yourself to follow-up on tasks when a specific tag is "
+>>>>>>> upstream/18.0
 =======
 "Send an email when an object changes state, archive records after a month of "
 "inactivity or remind yourself to follow-up on tasks when a specific tag is "
@@ -901,8 +984,13 @@ msgid ""
 "store it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sommige triggers hebben een referentie naar een selectieveld nodig. Dit veld"
 " wordt gebruikt om dit op te slaan."
+=======
+"Sommige triggers hebben een referentie naar een selectieveld nodig. Dit veld "
+"wordt gebruikt om dit op te slaan."
+>>>>>>> upstream/18.0
 =======
 "Sommige triggers hebben een referentie naar een selectieveld nodig. Dit veld "
 "wordt gebruikt om dit op te slaan."
@@ -912,8 +1000,13 @@ msgstr ""
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_field_ref
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some triggers need a reference to another field. This field is used to store"
 " it."
+=======
+"Some triggers need a reference to another field. This field is used to store "
+"it."
+>>>>>>> upstream/18.0
 =======
 "Some triggers need a reference to another field. This field is used to store "
 "it."
@@ -958,8 +1051,12 @@ msgstr "Doel Record"
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Target model of actions %(action_names)s are different from rule model."
+=======
+msgid "Target model of actions %(action_names)s are different from rule model."
+>>>>>>> upstream/18.0
 =======
 msgid "Target model of actions %(action_names)s are different from rule model."
 >>>>>>> upstream/18.0
@@ -971,17 +1068,23 @@ msgstr ""
 #: code:addons/base_automation/models/base_automation.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the "
 "\"%(state_value)s\" action type"
 msgstr ""
 "De \"%(trigger_value)s\" %(trigger_label)s kan alleen gebruikt worden met de"
 "  \"%(state_value)s\" actie type"
 =======
+=======
+>>>>>>> upstream/18.0
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%"
 "(state_value)s\" action type"
 msgstr ""
 "De \"%(trigger_value)s\" %(trigger_label)s kan alleen gebruikt worden met "
 "de  \"%(state_value)s\" actie type"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -1144,9 +1247,15 @@ msgid ""
 "calendar to compute the date based on working days."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bij het berekenen van een op dag gebaseerde tijdsgebonden voorwaarde, is het"
 " mogelijk om een kalender te gebruiken om de datum te berekenen op basis van"
 " werkdagen."
+=======
+"Bij het berekenen van een op dag gebaseerde tijdsgebonden voorwaarde, is het "
+"mogelijk om een kalender te gebruiken om de datum te berekenen op basis van "
+"werkdagen."
+>>>>>>> upstream/18.0
 =======
 "Bij het berekenen van een op dag gebaseerde tijdsgebonden voorwaarde, is het "
 "mogelijk om een kalender te gebruiken om de datum te berekenen op basis van "
@@ -1158,17 +1267,23 @@ msgstr ""
 msgid ""
 "When should the condition be triggered.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                If present, will be checked by the scheduler. If empty, will be checked at creation and update."
 msgstr ""
 "Wanneer moet de aandoening worden geactiveerd.\n"
 "                Indien aanwezig, wordt gecontroleerd door de planner. Indien leeg, wordt dit gecontroleerd bij aanmaken en bijwerken."
 =======
+=======
+>>>>>>> upstream/18.0
 "                If present, will be checked by the scheduler. If empty, will "
 "be checked at creation and update."
 msgstr ""
 "Wanneer moet de aandoening worden geactiveerd.\n"
 "                Indien aanwezig, wordt gecontroleerd door de planner. Indien "
 "leeg, wordt dit gecontroleerd bij aanmaken en bijwerken."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation

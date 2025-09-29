@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* base_automation
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -509,17 +510,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Daye Jeong, 2024
 # Sarah Park, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 12:50+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -930,6 +937,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ko\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sarah Park, 2025\n"
@@ -938,6 +947,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -964,7 +976,13 @@ msgid ""
 "\"On live update\" automation rules can only be used with \"Execute Python "
 "Code\" action type."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "\"실시간 업데이트 시\" 자동화 규칙은 \"파이썬 코드 실행\" 작업 유형과 함께 사용할 수 있습니다."
+=======
+msgstr ""
+"\"실시간 업데이트 시\" 자동화 규칙은 \"파이썬 코드 실행\" 작업 유형과 함께 사"
+"용할 수 있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "\"실시간 업데이트 시\" 자동화 규칙은 \"파이썬 코드 실행\" 작업 유형과 함께 사"
@@ -992,15 +1010,21 @@ msgstr "<code>env</code>: 동작이 트리거되는 환경"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<code>model</code>: model of the record on which the action is triggered; is"
 " a void recordset"
 msgstr "<code>model</code>: 작업이 트리거되는 레코드의 모델이며, 내용이 없는 레코드 집합입니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "<code>model</code>: model of the record on which the action is triggered; is "
 "a void recordset"
 msgstr ""
 "<code>model</code>: 작업이 트리거되는 레코드의 모델이며, 내용이 없는 레코드 "
 "집합입니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -1009,7 +1033,13 @@ msgid ""
 "<code>payload</code>: the payload of the call (GET parameters, JSON body), "
 "as a dict."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<code>페이로드</code>: 호출의 페이로드 (GET 매개변수, JSON 본문)를 딕셔너리로 제공합니다."
+=======
+msgstr ""
+"<code>페이로드</code>: 호출의 페이로드 (GET 매개변수, JSON 본문)를 딕셔너리"
+"로 제공합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<code>페이로드</code>: 호출의 페이로드 (GET 매개변수, JSON 본문)를 딕셔너리"
@@ -1037,8 +1067,13 @@ msgid ""
 "out-of-the-box for any webhook coming from another Odoo instance."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-info-circle\"/> 기본 대상 레코드 가져오기는 다른 Odoo 인스턴스에서 오는 모든 웹후크에 "
 "대해 즉시 작동합니다."
+=======
+"<i class=\"fa fa-info-circle\"/> 기본 대상 레코드 가져오기는 다른 Odoo 인스턴"
+"스에서 오는 모든 웹후크에 대해 즉시 작동합니다."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-info-circle\"/> 기본 대상 레코드 가져오기는 다른 Odoo 인스턴"
 "스에서 오는 모든 웹후크에 대해 즉시 작동합니다."
@@ -1052,8 +1087,13 @@ msgid ""
 "save or not</em>."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-warning\"/> UI 변경에 의해 트리거되는 자동화 규칙은 감시 필드가 <em>변경될 "
 "때마다</em>, <em>저장 여부에 관계없이</em> 실행됩니다."
+=======
+"<i class=\"fa fa-warning\"/> UI 변경에 의해 트리거되는 자동화 규칙은 감시 필"
+"드가 <em>변경될 때마다</em>, <em>저장 여부에 관계없이</em> 실행됩니다."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-warning\"/> UI 변경에 의해 트리거되는 자동화 규칙은 감시 필"
 "드가 <em>변경될 때마다</em>, <em>저장 여부에 관계없이</em> 실행됩니다."
@@ -1069,23 +1109,30 @@ msgstr "<span class=\"text-muted\"> 사용 가능한 변수: </span>"
 msgid ""
 "<span invisible=\"evaluation_type != 'value'\">to</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                        <span invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
 "<span invisible=\"evaluation_type != 'value'\">까지</span>\n"
 "                                                        <span invisible=\"evaluation_type != 'equation'\">으로</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                                        <span "
 "invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
 "<span invisible=\"evaluation_type != 'value'\">까지</span>\n"
 "                                                        <span "
 "invisible=\"evaluation_type != 'equation'\">으로</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 "<span invisible=\"trigger != 'on_time_created'\">after creation</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                    <span invisible=\"trigger != 'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">after</span>"
@@ -1094,6 +1141,8 @@ msgstr ""
 "                                    <span invisible=\"trigger != 'on_time_updated'\">최근 업데이트 후</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">후</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <span invisible=\"trigger != "
 "'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != "
@@ -1104,6 +1153,9 @@ msgstr ""
 "'on_time_updated'\">최근 업데이트 후</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">"
 "후</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -1129,7 +1181,12 @@ msgstr "<span>설정하여</span>"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
+=======
+msgid ""
+"<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
@@ -1193,7 +1250,10 @@ msgstr "적용"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Archived"
@@ -1254,8 +1314,13 @@ msgid ""
 "have to update any automated system that calls this webhook to the new URL."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "URL이 유출된 것으로 의심되는 경우 비밀키를 수정하세요. 이 웹훅을 사용하는 모든 자동화 시스템을 새 URL로 업데이트하는 것을 잊지 "
 "마세요."
+=======
+"URL이 유출된 것으로 의심되는 경우 비밀키를 수정하세요. 이 웹훅을 사용하는 모"
+"든 자동화 시스템을 새 URL로 업데이트하는 것을 잊지 마세요."
+>>>>>>> upstream/18.0
 =======
 "URL이 유출된 것으로 의심되는 경우 비밀키를 수정하세요. 이 웹훅을 사용하는 모"
 "든 자동화 시스템을 새 URL로 업데이트하는 것을 잊지 마세요."
@@ -1332,8 +1397,14 @@ msgid ""
 "meeting."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "동작되는 날짜 이후로 연기합니다. 동작일 이전으로 날짜를 연기해야 하는 경우에는 음수를 입력하면 되며, 예를 들어 회의 15분 전에 알림"
 " 을 전송할 때 사용할 수 있습니다."
+=======
+"동작되는 날짜 이후로 연기합니다. 동작일 이전으로 날짜를 연기해야 하는 경우에"
+"는 음수를 입력하면 되며, 예를 들어 회의 15분 전에 알림 을 전송할 때 사용할 "
+"수 있습니다."
+>>>>>>> upstream/18.0
 =======
 "동작되는 날짜 이후로 연기합니다. 동작일 이전으로 날짜를 연기해야 하는 경우에"
 "는 음수를 입력하면 되며, 예를 들어 회의 15분 전에 알림 을 전송할 때 사용할 "
@@ -1378,13 +1449,19 @@ msgstr "자동화 규칙 비활성화"
 msgid ""
 "Disabling this automation rule will enable you to continue your workflow\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                but any data created after this could potentially be corrupted,\n"
 "                as you are effectively disabling a customization that may set\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                but any data created after this could potentially be "
 "corrupted,\n"
 "                as you are effectively disabling a customization that may "
 "set\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                important and/or required fields."
 msgstr ""
@@ -1424,7 +1501,12 @@ msgid ""
 "records, as there are no more records to apply these changes to!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "이메일, 팔로워 또는 활동 작업 유형의 변경 사항을 적용할 레코드가 없으므로 더 이상 레코드를 삭제할 때 사용할 수 없습니다."
+=======
+"이메일, 팔로워 또는 활동 작업 유형의 변경 사항을 적용할 레코드가 없으므로 더 "
+"이상 레코드를 삭제할 때 사용할 수 없습니다."
+>>>>>>> upstream/18.0
 =======
 "이메일, 팔로워 또는 활동 작업 유형의 변경 사항을 적용할 레코드가 없으므로 더 "
 "이상 레코드를 삭제할 때 사용할 수 없습니다."
@@ -1483,14 +1565,20 @@ msgstr "ID"
 #: model:ir.model.fields,help:base_automation.field_base_automation__filter_domain
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If present, this condition must be satisfied before executing the automation"
 " rule."
 msgstr "조건이 있는 경우, 자동 규칙을 실행하기 전에 해당 조건을 충족해야 합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "If present, this condition must be satisfied before executing the automation "
 "rule."
 msgstr ""
 "조건이 있는 경우, 자동 규칙을 실행하기 전에 해당 조건을 충족해야 합니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -1499,8 +1587,11 @@ msgid ""
 "If present, this condition must be satisfied before the update of the "
 "record. Not checked on record creation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "이 조건이 있는 경우 레코드를 업데이트하기 전에 조건이 충족되어야 합니다. 레코드 생성 시 확인되지 않습니다."
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "이 조건이 있는 경우 레코드를 업데이트하기 전에 조건이 충족되어야 합니다. 레코"
 "드 생성 시 확인되지 않습니다."
@@ -1509,6 +1600,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
 msgid "Include Archived"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -1553,7 +1647,13 @@ msgid ""
 "Mail event can not be configured on model %s. Only models with discussion "
 "feature can be used."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "모델 %s에 메일 이벤트를 구성할 수 없습니다. 토론 기능이 있는 모델만 사용할 수 있습니다."
+=======
+msgstr ""
+"모델 %s에 메일 이벤트를 구성할 수 없습니다. 토론 기능이 있는 모델만 사용할 "
+"수 있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "모델 %s에 메일 이벤트를 구성할 수 없습니다. 토론 기능이 있는 모델만 사용할 "
@@ -1580,15 +1680,21 @@ msgstr "모델명"
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Model of action %(action_name)s should match the one from automated rule "
 "%(rule_name)s."
 msgstr "작업 %(action_name)s의 모델은 자동화된 규칙 %(rule_name)s의 모델과 일치해야 합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "Model of action %(action_name)s should match the one from automated rule %"
 "(rule_name)s."
 msgstr ""
 "작업 %(action_name)s의 모델은 자동화된 규칙 %(rule_name)s의 모델과 일치해야 "
 "합니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -1754,7 +1860,12 @@ msgstr "웹훅 알림 보내기"
 msgid ""
 "Send an email when an object changes state, archive records\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                after a month of inactivity or remind yourself to follow-up on\n"
+=======
+"                after a month of inactivity or remind yourself to follow-up "
+"on\n"
+>>>>>>> upstream/18.0
 =======
 "                after a month of inactivity or remind yourself to follow-up "
 "on\n"
@@ -1769,6 +1880,7 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:base_automation.digest_tip_base_automation_0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Send an email when an object changes state, archive records after a month of"
 " inactivity or remind yourself to follow-up on tasks when a specific tag is "
 "added.<br>With Automation Rules, you can automate any workflow."
@@ -1776,6 +1888,8 @@ msgstr ""
 "상태가 변경되면 이메일을 전송하고, 한 달 이상 활동이 없는 레코드는 보관 처리하거나, 특정 태그가 추가되면 후속 작업에 대한 알림을 "
 "보냅니다.<br> 자동화 규칙을 사용하면 모든 업무 프로세스를 자동화할 수 있습니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "Send an email when an object changes state, archive records after a month of "
 "inactivity or remind yourself to follow-up on tasks when a specific tag is "
 "added.<br>With Automation Rules, you can automate any workflow."
@@ -1783,6 +1897,9 @@ msgstr ""
 "상태가 변경되면 이메일을 전송하고, 한 달 이상 활동이 없는 레코드는 보관 처리"
 "하거나, 특정 태그가 추가되면 후속 작업에 대한 알림을 보냅니다.<br> 자동화 규"
 "칙을 사용하면 모든 업무 프로세스를 자동화할 수 있습니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -1808,7 +1925,13 @@ msgid ""
 "Some triggers need a reference to a selection field. This field is used to "
 "store it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "일부 연결 항목에는 필드를 선택할 수 있도록 참조 항목이 있어야 합니다. 이를 저장하기 위해 이 필드를 사용합니다."
+=======
+msgstr ""
+"일부 연결 항목에는 필드를 선택할 수 있도록 참조 항목이 있어야 합니다. 이를 저"
+"장하기 위해 이 필드를 사용합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "일부 연결 항목에는 필드를 선택할 수 있도록 참조 항목이 있어야 합니다. 이를 저"
@@ -1819,15 +1942,21 @@ msgstr ""
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_field_ref
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some triggers need a reference to another field. This field is used to store"
 " it."
 msgstr "일부 연결 항목에는 다른 필드에 대한 참조 항목이 있어야 합니다. 이를 저장하기 위해 이 필드를 사용합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "Some triggers need a reference to another field. This field is used to store "
 "it."
 msgstr ""
 "일부 연결 항목에는 다른 필드에 대한 참조 항목이 있어야 합니다. 이를 저장하기 "
 "위해 이 필드를 사용합니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -1866,8 +1995,12 @@ msgstr "레코드 대상"
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Target model of actions %(action_names)s are different from rule model."
+=======
+msgid "Target model of actions %(action_names)s are different from rule model."
+>>>>>>> upstream/18.0
 =======
 msgid "Target model of actions %(action_names)s are different from rule model."
 >>>>>>> upstream/18.0
@@ -1878,17 +2011,23 @@ msgstr "작업 %(action_names)s의 대상 모델이 규칙 모델과 다릅니�
 #: code:addons/base_automation/models/base_automation.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the "
 "\"%(state_value)s\" action type"
 msgstr ""
 "\"%(trigger_value)s\" %(trigger_label)s는 \"%(state_value)s\" 작업 유형에만 사용할 수 "
 "있습니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%"
 "(state_value)s\" action type"
 msgstr ""
 "\"%(trigger_value)s\" %(trigger_label)s는 \"%(state_value)s\" 작업 유형에만 "
 "사용할 수 있습니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -1897,7 +2036,13 @@ msgid ""
 "The automation rule will be triggered if and only if one of these fields is "
 "updated.If empty, all fields are watched."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "해당 필드 중에서 하나를 업데이트한 경우에만 자동화 규칙을 동작시킵니다. 비워둘 경우, 전체 필드를 확인합니다."
+=======
+msgstr ""
+"해당 필드 중에서 하나를 업데이트한 경우에만 자동화 규칙을 동작시킵니다. 비워"
+"둘 경우, 전체 필드를 확인합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "해당 필드 중에서 하나를 업데이트한 경우에만 자동화 규칙을 동작시킵니다. 비워"
@@ -1920,7 +2065,12 @@ msgid ""
 "This code will be run to find on which record the automation rule should be "
 "run."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "자동화 규칙을 실행해야 하는 레코드를 검색하기 위해 해당 코드를 실행합니다."
+=======
+msgstr ""
+"자동화 규칙을 실행해야 하는 레코드를 검색하기 위해 해당 코드를 실행합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "자동화 규칙을 실행해야 하는 레코드를 검색하기 위해 해당 코드를 실행합니다."
@@ -2026,6 +2176,7 @@ msgstr "값 업데이트"
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
 msgid "Warning"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2431,6 +2582,9 @@ msgstr "주의"
 =======
 msgstr "주의"
 >>>>>>> upstream/18.0
+=======
+msgstr "주의"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
@@ -2461,7 +2615,13 @@ msgid ""
 "When calculating a day-based timed condition, it is possibleto use a "
 "calendar to compute the date based on working days."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "일 기준으로 시간을 지정한 조건을 계산할 때는 근무일을 기준으로 달력에서 날짜를 계산할 수 있습니다."
+=======
+msgstr ""
+"일 기준으로 시간을 지정한 조건을 계산할 때는 근무일을 기준으로 달력에서 날짜"
+"를 계산할 수 있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "일 기준으로 시간을 지정한 조건을 계산할 때는 근무일을 기준으로 달력에서 날짜"
@@ -2473,17 +2633,23 @@ msgstr ""
 msgid ""
 "When should the condition be triggered.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                If present, will be checked by the scheduler. If empty, will be checked at creation and update."
 msgstr ""
 "조건이 작동되어야 하는 경우.\n"
 "                해당하는 경우, 스케줄러에서 확인합니다. 공란인 경우에는, 생성하거나 업데이트할 경우 확인합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "                If present, will be checked by the scheduler. If empty, will "
 "be checked at creation and update."
 msgstr ""
 "조건이 작동되어야 하는 경우.\n"
 "                해당하는 경우, 스케줄러에서 확인합니다. 공란인 경우에는, 생성"
 "하거나 업데이트할 경우 확인합니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -2511,7 +2677,12 @@ msgstr ""
 msgid ""
 "You can ask an administrator to disable or correct this automation rule."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "관리자에게 이 자동화 규칙을 비활성화하거나 수정하도록 요청할 수 있습니다."
+=======
+msgstr ""
+"관리자에게 이 자동화 규칙을 비활성화하거나 수정하도록 요청할 수 있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "관리자에게 이 자동화 규칙을 비활성화하거나 수정하도록 요청할 수 있습니다."
@@ -2531,7 +2702,12 @@ msgid ""
 "record.  It simply does not work."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "삭제된 레코드에 대해서는 이메일 전송이나 팔로워 추가, 활동 생성 등의 작업을 수행할 수 없습니다. 정상적으로 동작하지 않습니다."
+=======
+"삭제된 레코드에 대해서는 이메일 전송이나 팔로워 추가, 활동 생성 등의 작업을 "
+"수행할 수 없습니다. 정상적으로 동작하지 않습니다."
+>>>>>>> upstream/18.0
 =======
 "삭제된 레코드에 대해서는 이메일 전송이나 팔로워 추가, 활동 생성 등의 작업을 "
 "수행할 수 없습니다. 정상적으로 동작하지 않습니다."
@@ -2542,7 +2718,13 @@ msgstr ""
 msgid ""
 "Your webhook URL contains a secret. Don't share it online or carelessly."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "웹훅 URL에는 보안 정보가 포함되어 있습니다. 온라인이나 부주의하게 공유하지 마세요."
+=======
+msgstr ""
+"웹훅 URL에는 보안 정보가 포함되어 있습니다. 온라인이나 부주의하게 공유하지 마"
+"세요."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "웹훅 URL에는 보안 정보가 포함되어 있습니다. 온라인이나 부주의하게 공유하지 마"

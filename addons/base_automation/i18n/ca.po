@@ -17,8 +17,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_automation
 # 
+=======
+# * base_automation
+#
+>>>>>>> upstream/18.0
 =======
 # * base_automation
 #
@@ -208,6 +213,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Noemi Pla, 2025
 >>>>>>> upstream/18.0
@@ -562,10 +568,16 @@
 # Noemi Pla, 2025
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Santiago Payà <santiagopim@gmail.com>, 2025
+# Noemi Pla, 2025
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 12:50+0000\n"
 <<<<<<< HEAD
@@ -978,6 +990,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-02 22:21+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
@@ -1004,6 +1019,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1078,6 +1096,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Les regles d'automatització «Actualitzar en temps real» només es poden "
+"utilitzar amb el tipus d'acció «Executar codi Python»."
+>>>>>>> upstream/18.0
 =======
 "Les regles d'automatització «Actualitzar en temps real» només es poden "
 "utilitzar amb el tipus d'acció «Executar codi Python»."
@@ -1256,7 +1279,11 @@ msgid "%s actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s accions"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s accions"
 >>>>>>> upstream/18.0
@@ -1682,7 +1709,11 @@ msgid "1 action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 acció"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 acció"
 >>>>>>> upstream/18.0
@@ -2019,7 +2050,11 @@ msgid "<code>env</code>: environment on which the action is triggered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<code>env</code>: entorn en el qual es desencadena l'acció"
+>>>>>>> upstream/18.0
 =======
 msgstr "<code>env</code>: entorn en el qual es desencadena l'acció"
 >>>>>>> upstream/18.0
@@ -2075,6 +2110,7 @@ msgstr "<code>env</code>: entorn en el qual es desencadena l'acció"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<code>model</code>: model of the record on which the action is triggered; is"
 " a void recordset"
@@ -2600,11 +2636,16 @@ msgstr ""
 "conjunt de registres buit"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "<code>model</code>: model of the record on which the action is triggered; is "
 "a void recordset"
 msgstr ""
 "<code>model</code>: model del registre en el qual s'activa l'acció; és un "
 "conjunt de registres buit"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -2630,6 +2671,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<code>payload</code>: la càrrega de la crida (paràmetres GET, JSON), com a "
+"diccionari."
+>>>>>>> upstream/18.0
 =======
 "<code>payload</code>: la càrrega de la crida (paràmetres GET, JSON), com a "
 "diccionari."
@@ -2816,7 +2862,11 @@ msgid "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Actions\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Actions\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Actions\"/>"
 >>>>>>> upstream/18.0
@@ -3157,6 +3207,7 @@ msgstr "<span class=\"text-muted\">Variables disponibles</span>"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 "<span invisible=\"evaluation_type != 'value'\">to</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                                        <span invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
@@ -3681,18 +3732,24 @@ msgstr ""
 "                                                        <span invisible=\"evaluation_type != 'equation'\">com</span>"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "                                                        <span "
 "invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
 "<span invisible=\"evaluation_type != 'value'\">per a</span>\n"
 "                                                        <span "
 "invisible=\"evaluation_type != 'equation'\">com</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 "<span invisible=\"trigger != 'on_time_created'\">after creation</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                    <span invisible=\"trigger != 'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">after</span>"
@@ -4322,6 +4379,8 @@ msgstr ""
 "                                    <span invisible=\"trigger != 'on_time'\">després</span>"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <span invisible=\"trigger != "
 "'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != "
@@ -4333,6 +4392,9 @@ msgstr ""
 "'on_time_updated'\">després de la darrera actualització</span>\n"
 "                                    <span invisible=\"trigger != "
 "'on_time'\">després</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -4443,7 +4505,11 @@ msgid "<span>by adding</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>en afegir</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>en afegir</span>"
 >>>>>>> upstream/18.0
@@ -4868,7 +4934,11 @@ msgid "<span>by clearing it</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>en netejar-lo</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>en netejar-lo</span>"
 >>>>>>> upstream/18.0
@@ -5293,7 +5363,11 @@ msgid "<span>by removing</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>en eliminar</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>en eliminar</span>"
 >>>>>>> upstream/18.0
@@ -5613,6 +5687,7 @@ msgstr "<span>en eliminar</span>"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<span>by setting it to</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6039,6 +6114,8 @@ msgstr ""
 "<strong><i class=\"fa fa-lock\"/>Mantenir-ho en secret, mantenir-ho "
 "segur</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "<span>en establir-lo a</span>"
 
 #. module: base_automation
@@ -6048,6 +6125,9 @@ msgid ""
 msgstr ""
 "<strong><i class=\"fa fa-lock\"/>Mantenir-ho en secret, mantenir-ho segur</"
 "strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -6159,7 +6239,11 @@ msgid "Action Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nom d'acció"
+=======
+msgstr "Nom de l'acció"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nom de l'acció"
 >>>>>>> upstream/18.0
@@ -6589,7 +6673,11 @@ msgid "Actions To Do"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Accions pendents"
+>>>>>>> upstream/18.0
 =======
 msgstr "Accions pendents"
 >>>>>>> upstream/18.0
@@ -7019,7 +7107,11 @@ msgid "Add an action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegir-ne una acció"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afegir-ne una acció"
 >>>>>>> upstream/18.0
@@ -7445,7 +7537,11 @@ msgid "Add followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegir seguidors"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afegir seguidors"
 >>>>>>> upstream/18.0
@@ -7871,7 +7967,11 @@ msgid "Add followers: %(partner_names)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegir seguidors: %(partner_names)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afegir seguidors: %(partner_names)s"
 >>>>>>> upstream/18.0
@@ -8296,7 +8396,11 @@ msgid "After creation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Després de crear-lo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Després de crear-lo"
 >>>>>>> upstream/18.0
@@ -8721,7 +8825,11 @@ msgid "After last update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Després de la darrera actualització"
+>>>>>>> upstream/18.0
 =======
 msgstr "Després de la darrera actualització"
 >>>>>>> upstream/18.0
@@ -9047,7 +9155,10 @@ msgstr "Aplicar a"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Archived"
@@ -9161,7 +9272,11 @@ msgid "Automate <em>everything</em> with Automation Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatitza-ho <em>tot</em> amb regles d'automatització"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatitza-ho <em>tot</em> amb regles d'automatització"
 >>>>>>> upstream/18.0
@@ -9608,7 +9723,11 @@ msgid "Automation Rules: check and execute"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Regles d'automatització: verificar i executar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regles d'automatització: verificar i executar"
 >>>>>>> upstream/18.0
@@ -10039,7 +10158,11 @@ msgid "Based on date field"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Basat en el camp de data"
+>>>>>>> upstream/18.0
 =======
 msgstr "Basat en el camp de data"
 >>>>>>> upstream/18.0
@@ -10464,7 +10587,11 @@ msgid "Before Update Domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Abans d'actualitzar el domini "
+=======
+msgstr "Abans d'actualitzar el domini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Abans d'actualitzar el domini"
 >>>>>>> upstream/18.0
@@ -10915,7 +11042,11 @@ msgid "Create activity: %(activity_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Crear activitat: %(activity_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Crear activitat: %(activity_name)s"
 >>>>>>> upstream/18.0
@@ -11341,7 +11472,11 @@ msgid "Create next activity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Crear nova activitat"
+=======
+msgstr "Crear una nova activitat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Crear una nova activitat"
 >>>>>>> upstream/18.0
@@ -11700,8 +11835,13 @@ msgid ""
 msgstr ""
 "Retard després de la data d'activació. Podeu posar un número negatiu si "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "necessiteu un retard abans de la data d'activació, com enviar un recordatori"
 " 15 minuts abans d'una reunió."
+=======
+"necessiteu un retard abans de la data d'activació, com enviar un recordatori "
+"15 minuts abans d'una reunió."
+>>>>>>> upstream/18.0
 =======
 "necessiteu un retard abans de la data d'activació, com enviar un recordatori "
 "15 minuts abans d'una reunió."
@@ -11825,7 +11965,11 @@ msgid "Delete Action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eliminar acció"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eliminar acció"
 >>>>>>> upstream/18.0
@@ -12251,7 +12395,11 @@ msgid "Deprecated (do not use)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Depreciat (no utilitzar)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Depreciat (no utilitzar)"
 >>>>>>> upstream/18.0
@@ -12585,13 +12733,19 @@ msgstr ""
 msgid ""
 "Disabling this automation rule will enable you to continue your workflow\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                but any data created after this could potentially be corrupted,\n"
 "                as you are effectively disabling a customization that may set\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                but any data created after this could potentially be "
 "corrupted,\n"
 "                as you are effectively disabling a customization that may "
 "set\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                important and/or required fields."
 msgstr ""
@@ -12680,8 +12834,13 @@ msgstr "ID"
 #: model:ir.model.fields,help:base_automation.field_base_automation__filter_domain
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If present, this condition must be satisfied before executing the automation"
 " rule."
+=======
+"If present, this condition must be satisfied before executing the automation "
+"rule."
+>>>>>>> upstream/18.0
 =======
 "If present, this condition must be satisfied before executing the automation "
 "rule."
@@ -12717,6 +12876,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Si és present, aquesta condició ha de complir-se abans de l'actualització "
 "del registre. No es comprova en la creació de registre."
@@ -12798,6 +12958,8 @@ msgstr ""
 "del registre. No es comprova en la creació de registre."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Si és present, aquesta condició ha de complir-se abans de l'actualització "
 "del registre. No es comprova en la creació de registre."
 
@@ -12805,6 +12967,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
 msgid "Include Archived"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -12870,8 +13035,13 @@ msgstr "Nom del model"
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Model of action %(action_name)s should match the one from automated rule "
 "%(rule_name)s."
+=======
+"Model of action %(action_name)s should match the one from automated rule %"
+"(rule_name)s."
+>>>>>>> upstream/18.0
 =======
 "Model of action %(action_name)s should match the one from automated rule %"
 "(rule_name)s."
@@ -12898,7 +13068,11 @@ msgid "Model on which the automation rule runs."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model en el qual s'executa la regla d'automatització."
+>>>>>>> upstream/18.0
 =======
 msgstr "Model en el qual s'executa la regla d'automatització."
 >>>>>>> upstream/18.0
@@ -13179,7 +13353,11 @@ msgid "Select a date field..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seleccionar un camp de data..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Seleccionar un camp de data..."
 >>>>>>> upstream/18.0
@@ -13604,7 +13782,11 @@ msgid "Select a value..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seleccionar un valor..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Seleccionar un valor..."
 >>>>>>> upstream/18.0
@@ -14041,7 +14223,11 @@ msgid "Send SMS: %(template_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enviar SMS: %(template_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Enviar SMS: %(template_name)s"
 >>>>>>> upstream/18.0
@@ -14369,7 +14555,12 @@ msgstr ""
 msgid ""
 "Send an email when an object changes state, archive records\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                after a month of inactivity or remind yourself to follow-up on\n"
+=======
+"                after a month of inactivity or remind yourself to follow-up "
+"on\n"
+>>>>>>> upstream/18.0
 =======
 "                after a month of inactivity or remind yourself to follow-up "
 "on\n"
@@ -14381,8 +14572,13 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:base_automation.digest_tip_base_automation_0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Send an email when an object changes state, archive records after a month of"
 " inactivity or remind yourself to follow-up on tasks when a specific tag is "
+=======
+"Send an email when an object changes state, archive records after a month of "
+"inactivity or remind yourself to follow-up on tasks when a specific tag is "
+>>>>>>> upstream/18.0
 =======
 "Send an email when an object changes state, archive records after a month of "
 "inactivity or remind yourself to follow-up on tasks when a specific tag is "
@@ -14418,8 +14614,13 @@ msgstr ""
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_field_ref
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some triggers need a reference to another field. This field is used to store"
 " it."
+=======
+"Some triggers need a reference to another field. This field is used to store "
+"it."
+>>>>>>> upstream/18.0
 =======
 "Some triggers need a reference to another field. This field is used to store "
 "it."
@@ -14462,8 +14663,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Target model of actions %(action_names)s are different from rule model."
+=======
+msgid "Target model of actions %(action_names)s are different from rule model."
+>>>>>>> upstream/18.0
 =======
 msgid "Target model of actions %(action_names)s are different from rule model."
 >>>>>>> upstream/18.0
@@ -14474,17 +14679,23 @@ msgstr ""
 #: code:addons/base_automation/models/base_automation.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the "
 "\"%(state_value)s\" action type"
 msgstr ""
 "El \"%(trigger_value)s\" %(trigger_label)s només es pot utilitzar amb el "
 "\"%(state_value)s\" tipus d'acció"
 =======
+=======
+>>>>>>> upstream/18.0
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%"
 "(state_value)s\" action type"
 msgstr ""
 "El \"%(trigger_value)s\" %(trigger_label)s només es pot utilitzar amb el \"%"
 "(state_value)s\" tipus d'acció"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -14648,17 +14859,23 @@ msgstr ""
 msgid ""
 "When should the condition be triggered.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                If present, will be checked by the scheduler. If empty, will be checked at creation and update."
 msgstr ""
 "Quan s'ha d'activar la condició.\n"
 "                Si hi és, el programador ho comprovarà. Si està buit, es comprovarà en crear i actualitzar."
 =======
+=======
+>>>>>>> upstream/18.0
 "                If present, will be checked by the scheduler. If empty, will "
 "be checked at creation and update."
 msgstr ""
 "Quan s'ha d'activar la condició.\n"
 "                Si hi és, el programador ho comprovarà. Si està buit, es "
 "comprovarà en crear i actualitzar."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation

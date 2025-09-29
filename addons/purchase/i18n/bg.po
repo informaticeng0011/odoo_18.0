@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* purchase
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -29,7 +33,11 @@
 # Anton Vassilev, 2025
 # Veselina Slavkova, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -37,6 +45,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,6 +316,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: bg\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Veselina Slavkova, 2025\n"
@@ -315,6 +326,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -323,12 +337,15 @@ msgstr ""
 msgid ""
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                (object.state in ('draft', 'sent') and 'Request for Quotation - %s' % (object.name) or\n"
 "                'Purchase Order - %s' % (object.name))"
 msgstr ""
 "\n"
 "                (object.state in ('draft', 'sent') and 'Искане за оферта - %s' % (object.name) or\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                (object.state in ('draft', 'sent') and 'Request for "
 "Quotation - %s' % (object.name) or\n"
 "                'Purchase Order - %s' % (object.name))"
@@ -336,6 +353,9 @@ msgstr ""
 "\n"
 "                (object.state in ('draft', 'sent') and 'Искане за оферта - "
 "%s' % (object.name) or\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                'Поръчка за покупка - %s' % (object.name))"
 
@@ -385,8 +405,13 @@ msgid ""
 "sales."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 ", напълно е безплатно! Ще спестите време при създаването на красиви оферти и"
 " проследяването на продажби."
+=======
+", напълно е безплатно! Ще спестите време при създаването на красиви оферти и "
+"проследяването на продажби."
+>>>>>>> upstream/18.0
 =======
 ", напълно е безплатно! Ще спестите време при създаването на красиви оферти и "
 "проследяването на продажби."
@@ -416,6 +441,7 @@ msgid ""
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -427,6 +453,8 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -441,6 +469,9 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-"
 "out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "         <t t-else=\"\">\n"
@@ -448,15 +479,21 @@ msgid ""
 "        </t>\n"
 "        Could you please confirm it will be delivered on time?\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-"
 "quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -465,6 +502,7 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        Уважаеми <t t-out=\"object.partner_id.name or ''\">Брандън Фрийман</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
@@ -479,6 +517,8 @@ msgstr ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Уважаеми <t t-out=\"object.partner_id.name or ''\">Брандън Фрийман</"
 "t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
@@ -496,6 +536,9 @@ msgstr ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-"
 "out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "         <t t-else=\"\">\n"
@@ -503,15 +546,21 @@ msgstr ""
 "        </t>\n"
 "        Можете ли да потвърдите, че ще бъде доставена навреме?\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-"
 "quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -525,6 +574,7 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
@@ -545,6 +595,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -571,6 +623,9 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -579,6 +634,7 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        Уважаеми <t t-out=\"object.partner_id.name or ''\">Брандън Фрийман</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
@@ -601,6 +657,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Уважаеми <t t-out=\"object.partner_id.name or ''\">Брандън Фрийман</"
 "t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
@@ -630,6 +688,9 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -644,6 +705,7 @@ msgid ""
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -651,6 +713,8 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
 "Interior</t>)\n"
 "        </t>\n"
@@ -660,12 +724,16 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</"
 "t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
 "        <br/><br/>\n"
 "        If you have any questions, please do not hesitate to contact us.\n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                Accept</a>\n"
@@ -678,6 +746,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')"
 "\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-"
 "decoration: none; background-color: #875A7B; border: 1px solid #875A7B; "
@@ -696,6 +766,9 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
@@ -703,6 +776,7 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        Уважаеми <t t-out=\"object.partner_id.name or ''\">Брандън Фрийман</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
@@ -713,6 +787,8 @@ msgstr ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            с референтен номер: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Уважаеми <t t-out=\"object.partner_id.name or ''\">Брандън Фрийман</"
 "t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
@@ -725,12 +801,16 @@ msgstr ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            с референтен номер: <t t-out=\"object.partner_ref or "
 "''\">REF_XXX</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        от <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
 "        <br/><br/>\n"
 "        Ако имате въпроси, моля, не се колебайте да се свържете с нас.\n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                Приемане</a>\n"
@@ -743,6 +823,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')"
 "\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-"
 "decoration: none; background-color: #875A7B; border: 1px solid #875A7B; "
@@ -761,6 +843,9 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
@@ -829,17 +914,23 @@ msgstr "<i class=\"fa fa-print me-1\"/>Изтегляне / Отпечатван
 msgid ""
 "<span class=\"d-none d-md-inline\">Confirmation Date</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                          <span class=\"d-block d-md-none\">Confirmation</span>"
 msgstr ""
 "<span class=\"d-none d-md-inline\">Дата на потвърждаване</span>\n"
 "                          <span class=\"d-block d-md-none\">Потвърждаване</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                          <span class=\"d-block d-md-none\">Confirmation</"
 "span>"
 msgstr ""
 "<span class=\"d-none d-md-inline\">Дата на потвърждаване</span>\n"
 "                          <span class=\"d-block d-md-none\">Потвърждаване</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -864,12 +955,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Purchase Order </span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Заявка за оферта </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Поръчка за покупка </span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')"
 "\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in "
@@ -879,6 +973,9 @@ msgstr ""
 "\">Заявка за оферта </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in "
 "('draft', 'sent')\">Поръчка за покупка </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -1010,7 +1107,10 @@ msgstr "<strong class=\"d-block mb-1\">Фактури</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1216,6 +1316,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1487,6 +1590,7 @@ msgstr "<strong>Дата на заявка за оферта:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Shipping address:</strong>"
 msgstr "<strong>Адрес за шипинг:</strong>"
@@ -1497,6 +1601,8 @@ msgid "<strong>Shipping address</strong>"
 msgstr "<strong>Адрес за доставка</strong>"
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1676,9 +1782,15 @@ msgid ""
 "period of time."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Рамково споразумение е покупателно споразумение между купувач и доставчик за"
 " доставка на стоки или услуги на купувача на предварително определена цена "
 "за определен период от време."
+=======
+"Рамково споразумение е покупателно споразумение между купувач и доставчик за "
+"доставка на стоки или услуги на купувача на предварително определена цена за "
+"определен период от време."
+>>>>>>> upstream/18.0
 =======
 "Рамково споразумение е покупателно споразумение между купувач и доставчик за "
 "доставка на стоки или услуги на купувача на предварително определена цена за "
@@ -1703,8 +1815,13 @@ msgid ""
 "that is a multiple of the number of units per package."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Възможност за избор на тип опаковка в поръчките за покупка и за задължително"
 " задаване на количество, което е кратно на броя единици в опаковка."
+=======
+"Възможност за избор на тип опаковка в поръчките за покупка и за задължително "
+"задаване на количество, което е кратно на броя единици в опаковка."
+>>>>>>> upstream/18.0
 =======
 "Възможност за избор на тип опаковка в поръчките за покупка и за задължително "
 "задаване на количество, което е кратно на броя единици в опаковка."
@@ -1726,12 +1843,15 @@ msgstr "Предупреждение за достъп"
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__qty_received_method
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the received quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
 "Съгласно конфигурацията на продукта, полученото количество може да бъде автоматично изчислено чрез механизъм:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "According to product configuration, the received quantity can be "
 "automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
@@ -1739,6 +1859,9 @@ msgstr ""
 msgstr ""
 "Съгласно конфигурацията на продукта, полученото количество може да бъде "
 "автоматично изчислено чрез механизъм:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "  - Ръчно: количеството се задава ръчно на реда\n"
 "  - Прехвърляния на склад: количеството идва от потвърдени подбора\n"
@@ -2261,8 +2384,13 @@ msgid ""
 "same category. The conversion will be made based on the ratios."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Преобразуването на мерните единици може да възникне, само ако те принадлежат"
 " към една и съща категория. Преобразуването ще се извърши въз основа на "
+=======
+"Преобразуването на мерните единици може да възникне, само ако те принадлежат "
+"към една и съща категория. Преобразуването ще се извърши въз основа на "
+>>>>>>> upstream/18.0
 =======
 "Преобразуването на мерните единици може да възникне, само ако те принадлежат "
 "към една и съща категория. Преобразуването ще се извърши въз основа на "
@@ -2413,8 +2541,13 @@ msgid ""
 "vendor pricelist lead time then today's date."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Очаквана дата на доставка от доставчика. Тази дата по подразбиране се задава"
 " въз основа на времето за доставка от ценовата листа на доставчика, а след "
+=======
+"Очаквана дата на доставка от доставчика. Тази дата по подразбиране се задава "
+"въз основа на времето за доставка от ценовата листа на доставчика, а след "
+>>>>>>> upstream/18.0
 =======
 "Очаквана дата на доставка от доставчика. Тази дата по подразбиране се задава "
 "въз основа на времето за доставка от ценовата листа на доставчика, а след "
@@ -2428,8 +2561,13 @@ msgid ""
 "arrival of products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Дата на доставка, обещана от доставчика. Тази дата се използва за определяне"
 " на очакваното пристигане на продуктите."
+=======
+"Дата на доставка, обещана от доставчика. Тази дата се използва за определяне "
+"на очакваното пристигане на продуктите."
+>>>>>>> upstream/18.0
 =======
 "Дата на доставка, обещана от доставчика. Тази дата се използва за определяне "
 "на очакваното пристигане на продуктите."
@@ -2730,7 +2868,12 @@ msgid ""
 "Vendor, currency, destination, dropship address and agreement"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "В избраната поръчка за покупка, за да се слеят тези детайли, те трябва да са еднакви: \n"
+=======
+"В избраната поръчка за покупка, за да се слеят тези детайли, те трябва да са "
+"еднакви: \n"
+>>>>>>> upstream/18.0
 =======
 "В избраната поръчка за покупка, за да се слеят тези детайли, те трябва да са "
 "еднакви: \n"
@@ -2852,8 +2995,13 @@ msgstr "Нека създадем вашето първо запитване з�
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Let's try the Purchase app to manage the flow from purchase to reception and"
 " invoice control."
+=======
+"Let's try the Purchase app to manage the flow from purchase to reception and "
+"invoice control."
+>>>>>>> upstream/18.0
 =======
 "Let's try the Purchase app to manage the flow from purchase to reception and "
 "invoice control."
@@ -2910,8 +3058,13 @@ msgid ""
 "Make sure you only pay bills for which you received the goods you ordered"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Уверете се, че плащате само за фактури, за които сте получили стоките, които"
 " сте поръчали"
+=======
+"Уверете се, че плащате само за фактури, за които сте получили стоките, които "
+"сте поръчали"
+>>>>>>> upstream/18.0
 =======
 "Уверете се, че плащате само за фактури, за които сте получили стоките, които "
 "сте поръчали"
@@ -2943,6 +3096,7 @@ msgstr "Ръчно получено количество"
 msgid ""
 "Margin of error for vendor lead times. When the system generates Purchase "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for procuring products, they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
 msgstr ""
@@ -2951,12 +3105,17 @@ msgstr ""
 "дни по-рано, за да се справят с неочаквани забавяния от страна на "
 "доставчика."
 =======
+=======
+>>>>>>> upstream/18.0
 "Orders for procuring products, they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
 msgstr ""
 "Марж на грешка за времената на търговските лийдове. Когато системата създава "
 "поръчки за покупки за доставни продукти, те ще бъдат насрочени достатъчно "
 "дни по-рано, за да се справят с неочаквани забавяния от страна на доставчика."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -2964,8 +3123,13 @@ msgstr ""
 msgid ""
 "Margin of error for vendor lead times. When the system generates Purchase "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for reordering products,they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for reordering products,they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -3206,13 +3370,19 @@ msgid ""
 "On received quantities: Control bills based on received quantities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "За поръчаните количества: Контролирайте фактурите въз основа на поръчаните количества.\n"
 "За получените количества: Контролирайте фактурите въз основа на получените количества."
 =======
+=======
+>>>>>>> upstream/18.0
 "За поръчаните количества: Контролирайте фактурите въз основа на поръчаните "
 "количества.\n"
 "За получените количества: Контролирайте фактурите въз основа на получените "
 "количества."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -3361,13 +3531,19 @@ msgstr ""
 
 #. module: purchase
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Please select bill lines with the same vendor."
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__pol_id
 msgid "Pol"
@@ -3967,8 +4143,13 @@ msgstr "Референтна Мерна единица"
 #: model:ir.model.fields,help:purchase.field_purchase_order__origin
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
+=======
+"Reference of the document that generated this purchase order request (e.g. a "
+"sales order)"
+>>>>>>> upstream/18.0
 =======
 "Reference of the document that generated this purchase order request (e.g. a "
 "sales order)"
@@ -3987,8 +4168,13 @@ msgstr ""
 "Референция за поръчката за продажба или офертата, изпратени от доставчика. "
 "Използва се, за да извършва подбора, когато получавате продуктите, тъй като "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "тази референция обикновено е изписана на поръчката за доставка, изпратена от"
 " Вашия доставчик."
+=======
+"тази референция обикновено е изписана на поръчката за доставка, изпратена от "
+"Вашия доставчик."
+>>>>>>> upstream/18.0
 =======
 "тази референция обикновено е изписана на поръчката за доставка, изпратена от "
 "Вашия доставчик."
@@ -4047,12 +4233,15 @@ msgstr "Заявки за оферта"
 #: model_terms:ir.actions.act_window,help:purchase.purchase_rfq
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Requests for quotation are documents that will be sent to your suppliers to request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they will be confirmed and turned into purchase orders."
 msgstr ""
 "Заявките за оферта са документи, които ще бъдат изпратени на вашите доставчици, за да поискат цени за различни продукти, които смятате да купувате.\n"
 "                Заявките за оферта са документи, които ще бъдат изпратени на вашите доставчици, за да поискат цени за различни продукти, които смятате да купувате."
 =======
+=======
+>>>>>>> upstream/18.0
 "Requests for quotation are documents that will be sent to your suppliers to "
 "request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they "
@@ -4064,6 +4253,9 @@ msgstr ""
 "                Заявките за оферта са документи, които ще бъдат изпратени на "
 "вашите доставчици, за да поискат цени за различни продукти, които смятате да "
 "купувате."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -4125,8 +4317,13 @@ msgstr "Символ за сигурност"
 msgid "Select Vendor Bill lines to add to a Purchase Order"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Изберете редове от фактурата на доставчика, които да добавите към поръчка за"
 " покупка"
+=======
+"Изберете редове от фактурата на доставчика, които да добавите към поръчка за "
+"покупка"
+>>>>>>> upstream/18.0
 =======
 "Изберете редове от фактурата на доставчика, които да добавите към поръчка за "
 "покупка"
@@ -4235,8 +4432,12 @@ msgstr "Споделете"
 msgid "Show all records which has next action date is before today"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Показване на всички записи, на които следващата дата на действие е преди "
 "днес"
+=======
+"Показване на всички записи, на които следващата дата на действие е преди днес"
+>>>>>>> upstream/18.0
 =======
 "Показване на всички записи, на които следващата дата на действие е преди днес"
 >>>>>>> upstream/18.0
@@ -4380,8 +4581,13 @@ msgid ""
 "country and fiscal position."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Техническо поле за филтриране на наличните данъци в зависимост от фискалната"
 " държава и фискалната позиция."
+=======
+"Техническо поле за филтриране на наличните данъци в зависимост от фискалната "
+"държава и фискалната позиция."
+>>>>>>> upstream/18.0
 =======
 "Техническо поле за филтриране на наличните данъци в зависимост от фискалната "
 "държава и фискалната позиция."
@@ -4435,12 +4641,15 @@ msgstr "Получаването на поръчката е отказано о�
 msgid ""
 "The request for quotation is the first step of the purchases flow. Once\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    converted into a purchase order, you will be able to control the receipt\n"
 "                    of the products and the vendor bill."
 msgstr ""
 "Заявката за оферта е първата стъпка от процеса по осъществяване на покупки. Веднъж\n"
 "                    конвертирана в поръчка за покупка, ще можете да контролирате касовата бележка\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    converted into a purchase order, you will be able to "
 "control the receipt\n"
 "                    of the products and the vendor bill."
@@ -4449,6 +4658,9 @@ msgstr ""
 "Веднъж\n"
 "                    конвертирана в поръчка за покупка, ще можете да "
 "контролирате касовата бележка\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    на продуктите и фактурата за покупка."
 
@@ -4457,8 +4669,13 @@ msgstr ""
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
 " this PO"
+=======
+"The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
+"this PO"
+>>>>>>> upstream/18.0
 =======
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
 "this PO"
@@ -4501,12 +4718,15 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:purchase.action_purchase_order_report_all
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This analysis allows you to easily check and analyse your company purchase history and performance.\n"
 "                You can track your negotiation performance, the delivery performance of your vendors, etc"
 msgstr ""
 "Този анализ ви позволява лесно да проверявате и анализирате историята на покупките и ефективността на вашата компания.\n"
 "                Можете да проследявате ефективността на вашите преговори, ефективността на доставките на вашите доставчици и т.н."
 =======
+=======
+>>>>>>> upstream/18.0
 "This analysis allows you to easily check and analyse your company purchase "
 "history and performance.\n"
 "                You can track your negotiation performance, the delivery "
@@ -4516,6 +4736,9 @@ msgstr ""
 "покупките и ефективността на вашата компания.\n"
 "                Можете да проследявате ефективността на вашите преговори, "
 "ефективността на доставките на вашите доставчици и т.н."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -4551,8 +4774,13 @@ msgid ""
 "purchase %(quantity).2f %(unit)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Този продукт е опакован от %(pack_size).2f %(pack_name)s. Трябва да закупите"
 " %(quantity).2f %(unit)s."
+=======
+"Този продукт е опакован от %(pack_size).2f %(pack_name)s. Трябва да закупите "
+"%(quantity).2f %(unit)s."
+>>>>>>> upstream/18.0
 =======
 "Този продукт е опакован от %(pack_size).2f %(pack_name)s. Трябва да закупите "
 "%(quantity).2f %(unit)s."
@@ -4873,13 +5101,19 @@ msgid ""
 "                    document in Odoo."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Фактури за покупка могат да бъдат предварително създадени на основата на поръчки за\n"
 "                    покупки или касови бележки. Това Ви позволява да контролирате фактурите за покупка,\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Фактури за покупка могат да бъдат предварително създадени на основата на "
 "поръчки за\n"
 "                    покупки или касови бележки. Това Ви позволява да "
 "контролирате фактурите за покупка,\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    които получавате от доставчика си според чернова\n"
 "                     документа в Odoo."
@@ -4983,6 +5217,7 @@ msgid ""
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
@@ -4992,6 +5227,8 @@ msgstr ""
 "Ако е твърде ниско, активирайте <i>автоматизираните напомняния</i>. Няколко "
 "дни преди крайната доставка системата ще изпрати на доставчика имейл, за да "
 =======
+=======
+>>>>>>> upstream/18.0
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment "
 "dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
@@ -5000,6 +5237,9 @@ msgstr ""
 "<i>навременна доставка</i> : процентът на продуктите, изпратени навреме. Ако "
 "е твърде ниско, активирайте <i>автоматизираните напомняния</i>. Няколко дни "
 "преди крайната доставка системата ще изпрати на доставчика имейл, за да "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "поиска потвърждение на датите на доставка и ще ви информира, в случай на "
 "закъснения. За да получите статистически данни за ефективността на "
@@ -5033,8 +5273,13 @@ msgstr ""
 msgid "You can't select lines from multiple Vendor Bill to do the matching."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Не можете да избирате линии от множество фактури на доставчици за извършване"
 " на съвпадение."
+=======
+"Не можете да избирате линии от множество фактури на доставчици за извършване "
+"на съвпадение."
+>>>>>>> upstream/18.0
 =======
 "Не можете да избирате линии от множество фактури на доставчици за извършване "
 "на съвпадение."
@@ -5072,7 +5317,12 @@ msgid ""
 msgstr ""
 "Трябва да определите продукт за всичко, което продавате или купувате,\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            независимо дали става въпрос за продукт, който може да се съхранява, консуматив или услуга."
+=======
+"            независимо дали става въпрос за продукт, който може да се "
+"съхранява, консуматив или услуга."
+>>>>>>> upstream/18.0
 =======
 "            независимо дали става въпрос за продукт, който може да се "
 "съхранява, консуматив или услуга."
@@ -5092,12 +5342,15 @@ msgstr ""
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
 "YВашето запитване за оферта съдържа продукти от компанията %(product_company)s окато самото запитване за оферта принадлежи на компанията %(quote_company)s. \n"
 "Моля, променете компанията на вашето запитване за оферта или премахнете продуктите от други компании (%(bad_products)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 "Your quotation contains products from company %(product_company)s whereas "
 "your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from "
@@ -5108,6 +5361,9 @@ msgstr ""
 "%(quote_company)s. \n"
 "Моля, променете компанията на вашето запитване за оферта или премахнете "
 "продуктите от други компании (%(bad_products)s)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase

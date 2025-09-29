@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* base_automation
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 12:50+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: de\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -86,8 +98,13 @@ msgstr "<code>env</code>: Umgebung, in der die Aktion ausgelöst wird"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<code>model</code>: model of the record on which the action is triggered; is"
 " a void recordset"
+=======
+"<code>model</code>: model of the record on which the action is triggered; is "
+"a void recordset"
+>>>>>>> upstream/18.0
 =======
 "<code>model</code>: model of the record on which the action is triggered; is "
 "a void recordset"
@@ -137,15 +154,21 @@ msgid ""
 "save or not</em>."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-warning\"/>Automatisierungsregeln, die durch Änderungen der"
 " Benutzeroberfläche ausgelöst werden, werden <em>jedes Mal</em> ausgeführt, "
 "wenn sich die überwachten Felder ändern, <em>ob Sie speichern oder "
 "nicht</em>."
 =======
+=======
+>>>>>>> upstream/18.0
 "<i class=\"fa fa-warning\"/>Automatisierungsregeln, die durch Änderungen der "
 "Benutzeroberfläche ausgelöst werden, werden <em>jedes Mal</em> ausgeführt, "
 "wenn sich die überwachten Felder ändern, <em>ob Sie speichern oder nicht</"
 "em>."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -158,23 +181,30 @@ msgstr "<span class=\"text-muted\"> Verfügbare Variablen: </span>"
 msgid ""
 "<span invisible=\"evaluation_type != 'value'\">to</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                        <span invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
 "<span invisible=\"evaluation_type != 'value'\">bis</span>\n"
 "                                                        <span invisible=\"evaluation_type != 'equation'\">als</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                                        <span "
 "invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
 "<span invisible=\"evaluation_type != 'value'\">bis</span>\n"
 "                                                        <span "
 "invisible=\"evaluation_type != 'equation'\">als</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 "<span invisible=\"trigger != 'on_time_created'\">after creation</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                    <span invisible=\"trigger != 'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">after</span>"
@@ -183,6 +213,8 @@ msgstr ""
 "                                    <span invisible=\"trigger != 'on_time_updated'\">nach letzter Aktualisierung</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">nach</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <span invisible=\"trigger != "
 "'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != "
@@ -193,6 +225,9 @@ msgstr ""
 "'on_time_updated'\">nach letzter Aktualisierung</span>\n"
 "                                    <span invisible=\"trigger != "
 "'on_time'\">nach</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -218,7 +253,12 @@ msgstr "<span>durch Einstellung auf</span>"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
+=======
+msgid ""
+"<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
@@ -282,7 +322,10 @@ msgstr "Anwenden auf"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Archived"
@@ -458,6 +501,7 @@ msgstr "Automatisierungsregel deaktivieren"
 msgid ""
 "Disabling this automation rule will enable you to continue your workflow\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                but any data created after this could potentially be corrupted,\n"
 "                as you are effectively disabling a customization that may set\n"
 "                important and/or required fields."
@@ -466,6 +510,8 @@ msgstr ""
 "                aber alle Daten, die danach erstellt werden, könnten möglicherweise beschädigt werden\n"
 "                da Sie effektiv eine Anpassung deaktivieren, die möglicherweise\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                but any data created after this could potentially be "
 "corrupted,\n"
 "                as you are effectively disabling a customization that may "
@@ -478,6 +524,9 @@ msgstr ""
 "möglicherweise beschädigt werden\n"
 "                da Sie effektiv eine Anpassung deaktivieren, die "
 "möglicherweise\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                wichtige und/oder erforderliche Felder einstellt."
 
@@ -568,8 +617,13 @@ msgstr "ID"
 #: model:ir.model.fields,help:base_automation.field_base_automation__filter_domain
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If present, this condition must be satisfied before executing the automation"
 " rule."
+=======
+"If present, this condition must be satisfied before executing the automation "
+"rule."
+>>>>>>> upstream/18.0
 =======
 "If present, this condition must be satisfied before executing the automation "
 "rule."
@@ -585,9 +639,12 @@ msgid ""
 "record. Not checked on record creation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Falls vorhanden, muss diese Bedingung vor der Aktualisierung des Datensatzes"
 " erfüllt werden. Ist nicht bei Erstellung des Datensatzes angekreuzt."
 =======
+=======
+>>>>>>> upstream/18.0
 "Falls vorhanden, muss diese Bedingung vor der Aktualisierung des Datensatzes "
 "erfüllt werden. Ist nicht bei Erstellung des Datensatzes angekreuzt."
 
@@ -595,6 +652,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
 msgid "Include Archived"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation
@@ -663,8 +723,13 @@ msgstr "Modellname"
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Model of action %(action_name)s should match the one from automated rule "
 "%(rule_name)s."
+=======
+"Model of action %(action_name)s should match the one from automated rule %"
+"(rule_name)s."
+>>>>>>> upstream/18.0
 =======
 "Model of action %(action_name)s should match the one from automated rule %"
 "(rule_name)s."
@@ -840,12 +905,15 @@ msgstr "Webhook-Benachrichtigung versenden"
 msgid ""
 "Send an email when an object changes state, archive records\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                after a month of inactivity or remind yourself to follow-up on\n"
 "                tasks when a specific tag is added."
 msgstr ""
 "Senden Sie eine E-Mail, wenn sich der Status eines Objekts ändert, archivieren Sie Datensätze\n"
 "                nach einem Monat der Inaktivität oder erinnern Sie sich daran, Aufgaben\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                after a month of inactivity or remind yourself to follow-up "
 "on\n"
 "                tasks when a specific tag is added."
@@ -854,6 +922,9 @@ msgstr ""
 "archivieren Sie Datensätze\n"
 "                nach einem Monat der Inaktivität oder erinnern Sie sich "
 "daran, Aufgaben\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                zu verfolgen, wenn ein bestimmtes Stichwort hinzugefügt wird."
 
@@ -861,8 +932,13 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:base_automation.digest_tip_base_automation_0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Send an email when an object changes state, archive records after a month of"
 " inactivity or remind yourself to follow-up on tasks when a specific tag is "
+=======
+"Send an email when an object changes state, archive records after a month of "
+"inactivity or remind yourself to follow-up on tasks when a specific tag is "
+>>>>>>> upstream/18.0
 =======
 "Send an email when an object changes state, archive records after a month of "
 "inactivity or remind yourself to follow-up on tasks when a specific tag is "
@@ -905,8 +981,13 @@ msgstr ""
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_field_ref
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some triggers need a reference to another field. This field is used to store"
 " it."
+=======
+"Some triggers need a reference to another field. This field is used to store "
+"it."
+>>>>>>> upstream/18.0
 =======
 "Some triggers need a reference to another field. This field is used to store "
 "it."
@@ -951,8 +1032,12 @@ msgstr "Zieldatensatz"
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Target model of actions %(action_names)s are different from rule model."
+=======
+msgid "Target model of actions %(action_names)s are different from rule model."
+>>>>>>> upstream/18.0
 =======
 msgid "Target model of actions %(action_names)s are different from rule model."
 >>>>>>> upstream/18.0
@@ -965,8 +1050,13 @@ msgstr ""
 #: code:addons/base_automation/models/base_automation.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the "
 "\"%(state_value)s\" action type"
+=======
+"The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%"
+"(state_value)s\" action type"
+>>>>>>> upstream/18.0
 =======
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%"
 "(state_value)s\" action type"
@@ -1143,11 +1233,14 @@ msgstr ""
 msgid ""
 "When should the condition be triggered.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                If present, will be checked by the scheduler. If empty, will be checked at creation and update."
 msgstr ""
 "Wann die Bedingung ausgelöst werden sollte.\n"
 "                Falls vorhanden, wird der Zeitplaner die Überprüfung vornehmen. Falls leer, wird bei der Erstellung und Aktualisierung eine Überprüfung vorgenommen."
 =======
+=======
+>>>>>>> upstream/18.0
 "                If present, will be checked by the scheduler. If empty, will "
 "be checked at creation and update."
 msgstr ""
@@ -1155,6 +1248,9 @@ msgstr ""
 "                Falls vorhanden, wird der Zeitplaner die Überprüfung "
 "vornehmen. Falls leer, wird bei der Erstellung und Aktualisierung eine "
 "Überprüfung vorgenommen."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_automation

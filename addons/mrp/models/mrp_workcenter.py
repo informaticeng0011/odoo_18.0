@@ -338,7 +338,11 @@ class MrpWorkcenter(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         remaining = duration
+=======
+        remaining = duration = max(duration, 1 / 60)
+>>>>>>> upstream/18.0
 =======
         remaining = duration = max(duration, 1 / 60)
 >>>>>>> upstream/18.0
@@ -584,6 +588,11 @@ class MrpWorkcenterProductivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.date_end:
+            return
+>>>>>>> upstream/18.0
 =======
         if not self.date_end:
             return

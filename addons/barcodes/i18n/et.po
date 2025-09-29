@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* barcodes
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -12,7 +16,11 @@
 # Anna, 2024
 # Tairi Tiimann, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -20,6 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -30,6 +39,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: et\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Tairi Tiimann, 2024\n"
@@ -38,6 +49,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -46,8 +60,12 @@ msgstr ""
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid " '*' is not a valid Regex Barcode Pattern. Did you mean '.*'?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 " '*' ei ole kehtiv Regex-koodimustriga triipkood. Kas mõtlesite '.*' ?"
+=======
+msgstr " '*' ei ole kehtiv Regex-koodimustriga triipkood. Kas mõtlesite '.*' ?"
+>>>>>>> upstream/18.0
 =======
 msgstr " '*' ei ole kehtiv Regex-koodimustriga triipkood. Kas mõtlesite '.*' ?"
 >>>>>>> upstream/18.0
@@ -55,6 +73,7 @@ msgstr " '*' ei ole kehtiv Regex-koodimustriga triipkood. Kas mõtlesite '.*' ?"
 #. module: barcodes
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and categorized.\n"
 "                                When a barcode is scanned it is associated to the <i>first</i> rule with a matching\n"
@@ -64,6 +83,8 @@ msgstr ""
 "<i>Triipkoodi nomenklatuur</i> määrab kuidas triipkoodid tuvastatakse ja kategoriseeritakse.\n"
 "                                Kui triipkood skaneeritakse, siis seostatakse see <i>esimese</i> reegliga, mille muster ühtib. Mustri süntaks on regulaaravaldis ja triipkood võrreldakse\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and "
 "categorized.\n"
 "                                When a barcode is scanned it is associated "
@@ -78,6 +99,9 @@ msgstr ""
 "                                Kui triipkood skaneeritakse, siis "
 "seostatakse see <i>esimese</i> reegliga, mille muster ühtib. Mustri süntaks "
 "on regulaaravaldis ja triipkood võrreldakse\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                siis kui regulaaravaldise algus kattuvad."
 
@@ -85,8 +109,13 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:barcodes.action_barcode_nomenclature_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A barcode nomenclature defines how the point of sale identify and interprets"
 " barcodes"
+=======
+"A barcode nomenclature defines how the point of sale identify and interprets "
+"barcodes"
+>>>>>>> upstream/18.0
 =======
 "A barcode nomenclature defines how the point of sale identify and interprets "
 "barcodes"
@@ -229,7 +258,10 @@ msgstr "ID"
 
 #. module: barcodes
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/barcodes/models/barcode_events_mixin.py:0
 msgid ""
@@ -238,6 +270,9 @@ msgid ""
 msgstr ""
 
 #. module: barcodes
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:barcodes.field_barcode_nomenclature__write_uid
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__write_uid
@@ -264,6 +299,7 @@ msgstr "Nimestik"
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Patterns can also define how numerical values, such as weight or price, can be\n"
 "                                encoded into the barcode. They are indicated by <code>{NNN}</code> where the N's\n"
 "                                define where the number's digits are encoded. Floats are also supported with the\n"
@@ -277,6 +313,8 @@ msgstr ""
 "                               määratledes kohad koma jaoks D-dega, näiteks <code>{NNNDD}</code>. Sellistel juhtudel,\n"
 "                                seotud kirjete triipkoodiväli <i>peab</i> näitama neid numbrimärke\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Patterns can also define how numerical values, such as weight or price, can "
 "be\n"
 "                                encoded into the barcode. They are indicated "
@@ -299,6 +337,9 @@ msgstr ""
 "<code>{NNNDD}</code>. Sellistel juhtudel,\n"
 "                                seotud kirjete triipkoodiväli <i>peab</i> "
 "näitama neid numbrimärke\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                nullidena."
 
@@ -345,8 +386,12 @@ msgstr "Triipkoodi sobitamise muster"
 msgid ""
 "The barcode pattern %(pattern)s does not lead to a valid regular expression."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Triipkoodi muster %(pattern)s ei too kaasa kehtivat Regex koodimustrit"
+=======
+msgstr "Triipkoodi muster %(pattern)s ei too kaasa kehtivat Regex koodimustrit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Triipkoodi muster %(pattern)s ei too kaasa kehtivat Regex koodimustrit"
 >>>>>>> upstream/18.0
@@ -407,8 +452,13 @@ msgstr "Tüüp"
 msgid ""
 "UPC Codes can be converted to EAN by prefixing them with a zero. This "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "setting determines if a UPC/EAN barcode should be automatically converted in"
 " one way or another when trying to match a rule with the other encoding."
+=======
+"setting determines if a UPC/EAN barcode should be automatically converted in "
+"one way or another when trying to match a rule with the other encoding."
+>>>>>>> upstream/18.0
 =======
 "setting determines if a UPC/EAN barcode should be automatically converted in "
 "one way or another when trying to match a rule with the other encoding."
@@ -447,8 +497,12 @@ msgstr "Tundmatu triipkoodi käsk"
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcode_rule__sequence
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Used to order rules such that rules with a smaller sequence match first"
+=======
+msgid "Used to order rules such that rules with a smaller sequence match first"
+>>>>>>> upstream/18.0
 =======
 msgid "Used to order rules such that rules with a smaller sequence match first"
 >>>>>>> upstream/18.0
@@ -461,7 +515,10 @@ msgstr ""
 msgid "Value of the last barcode scanned."
 msgstr "Viimase skaneeritud triipkoodi väärtus."
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
@@ -469,4 +526,7 @@ msgstr "Viimase skaneeritud triipkoodi väärtus."
 msgid ""
 "You cannot delete '%(name)s' because it's the default barcode nomenclature."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* barcodes
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -244,17 +245,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Chloe Wang, 2024
 # Raymond Yu <cl_yu@hotmail.com>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -619,6 +626,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: zh_CN\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Raymond Yu <cl_yu@hotmail.com>, 2025\n"
@@ -628,6 +637,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -641,6 +653,7 @@ msgstr " '*'不是有效的 Regex 正则表达式条形码样式。您想用的�
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and categorized.\n"
 "                                When a barcode is scanned it is associated to the <i>first</i> rule with a matching\n"
 "                                pattern. The pattern syntax is that of regular expression, and a barcode is matched\n"
@@ -650,6 +663,8 @@ msgstr ""
 "                                扫描条形码时，它会关联具有匹配模式的 <i>第一条</i> 规则。\n"
 "                                模式的语法是正则表达式，如果正则表达式与条形码的前缀相匹配，\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and "
 "categorized.\n"
 "                                When a barcode is scanned it is associated "
@@ -664,6 +679,9 @@ msgstr ""
 "条</i> 规则。\n"
 "                                模式的语法是正则表达式，如果正则表达式与条形"
 "码的前缀相匹配，\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                则匹配条形码。"
 
@@ -671,8 +689,13 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:barcodes.action_barcode_nomenclature_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A barcode nomenclature defines how the point of sale identify and interprets"
 " barcodes"
+=======
+"A barcode nomenclature defines how the point of sale identify and interprets "
+"barcodes"
+>>>>>>> upstream/18.0
 =======
 "A barcode nomenclature defines how the point of sale identify and interprets "
 "barcodes"
@@ -872,7 +895,10 @@ msgstr "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1058,6 +1084,9 @@ msgstr "要使用 barcodes.barcode_events_mixin，必须执行方法 on_barcode_
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1202,6 +1231,7 @@ msgstr "命名规则"
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Patterns can also define how numerical values, such as weight or price, can be\n"
 "                                encoded into the barcode. They are indicated by <code>{NNN}</code> where the N's\n"
 "                                define where the number's digits are encoded. Floats are also supported with the\n"
@@ -1215,6 +1245,8 @@ msgstr ""
 "                                用 D 表示小数，如<code>{NNNDD}</code>。 在这种情况下，\n"
 "                                相关记录上的条形码字段<i>必须</i> 将这些数字显示为\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Patterns can also define how numerical values, such as weight or price, can "
 "be\n"
 "                                encoded into the barcode. They are indicated "
@@ -1235,6 +1267,9 @@ msgstr ""
 "种情况下，\n"
 "                                相关记录上的条形码字段<i>必须</i> 将这些数字"
 "显示为\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                零。"
 
@@ -1332,16 +1367,22 @@ msgstr "类型"
 msgid ""
 "UPC Codes can be converted to EAN by prefixing them with a zero. This "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "setting determines if a UPC/EAN barcode should be automatically converted in"
 " one way or another when trying to match a rule with the other encoding."
 msgstr ""
 "UPC 代码可以通过前缀加零的方式转换为 EAN。此设置可确定在尝试将规则与其他编码匹配时，是否应以某种方式自动转换 UPC/EAN 条形码。"
 =======
+=======
+>>>>>>> upstream/18.0
 "setting determines if a UPC/EAN barcode should be automatically converted in "
 "one way or another when trying to match a rule with the other encoding."
 msgstr ""
 "UPC 代码可以通过前缀加零的方式转换为 EAN。此设置可确定在尝试将规则与其他编码"
 "匹配时，是否应以某种方式自动转换 UPC/EAN 条形码。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes
@@ -1373,8 +1414,12 @@ msgstr "未知条码命令"
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcode_rule__sequence
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Used to order rules such that rules with a smaller sequence match first"
+=======
+msgid "Used to order rules such that rules with a smaller sequence match first"
+>>>>>>> upstream/18.0
 =======
 msgid "Used to order rules such that rules with a smaller sequence match first"
 >>>>>>> upstream/18.0
@@ -1385,7 +1430,10 @@ msgstr "用于规则排序，这样较小序列的规则最先匹配"
 msgid "Value of the last barcode scanned."
 msgstr "最后扫描的条形码值。"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
@@ -1393,4 +1441,7 @@ msgstr "最后扫描的条形码值。"
 msgid ""
 "You cannot delete '%(name)s' because it's the default barcode nomenclature."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
