@@ -2,3 +2,7 @@
 
 from . import test_fr_pos
 from . import test_string_to_hash
+<<<<<<< HEAD
+=======
+from . import test_hash
+>>>>>>> upstream/18.0

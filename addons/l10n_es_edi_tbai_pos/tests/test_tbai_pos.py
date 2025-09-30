@@ -42,7 +42,11 @@ class TestPosEdi(TestEsEdiTbaiCommonGipuzkoa, TestPointOfSaleCommon):
         })
 
     @classmethod
+<<<<<<< HEAD
     def pay_pos_order(cls, pos_order):
+=======
+    def pay_pos_order(cls, pos_order, with_error=False):
+>>>>>>> upstream/18.0
         context_make_payment = {
             'active_ids': pos_order.ids,
             'active_id': pos_order.id,
@@ -52,7 +56,12 @@ class TestPosEdi(TestEsEdiTbaiCommonGipuzkoa, TestPointOfSaleCommon):
         })
         with patch(
             'odoo.addons.l10n_es_edi_tbai.models.l10n_es_edi_tbai_document.requests.Session.request',
+<<<<<<< HEAD
             return_value=cls.mock_response_post_invoice_success,
+=======
+            return_value=None if with_error else cls.mock_response_post_invoice_success,
+            side_effect=cls.mock_request_error if with_error else None,
+>>>>>>> upstream/18.0
         ):
             pos_make_payment.with_context(context_make_payment).check()
 
@@ -133,3 +142,22 @@ class TestPosEdi(TestEsEdiTbaiCommonGipuzkoa, TestPointOfSaleCommon):
 
         self.assertEqual(pos_refund.state, 'invoiced')
         self.assertFalse(pos_refund.l10n_es_tbai_state)
+<<<<<<< HEAD
+=======
+
+    def test_tbai_pos_order_with_failed_chain_head(self):
+        self.pos_config.open_ui()
+        current_session = self.pos_config.current_session_id
+
+        pos_order = self.create_pos_order(current_session, 100.0)
+        self.pay_pos_order(pos_order, with_error=True)
+
+        self.assertNotEqual(pos_order.l10n_es_tbai_state, 'sent')
+
+        pos_order2 = self.create_pos_order(current_session, 101.0)
+        self.pay_pos_order(pos_order2)
+
+        # the second order should retry the unposted chain head
+        self.assertEqual(pos_order.l10n_es_tbai_state, 'sent')
+        self.assertEqual(pos_order2.l10n_es_tbai_state, 'sent')
+>>>>>>> upstream/18.0

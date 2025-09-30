@@ -24,7 +24,10 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -80,6 +83,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -137,6 +143,7 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             account_data.update({
                 f"account.{cid}_a100": {'tag_ids': [Command.link(self.env.ref('account.demo_capital_account').id)]},
                 f"account.{cid}_a300": {'tag_ids': [Command.link(self.env.ref('account.demo_stock_account').id)]},
@@ -144,6 +151,8 @@ class AccountChartTemplate(models.AbstractModel):
                 f"account.{cid}_a6201": {'tag_ids': [Command.link(self.env.ref('account.demo_ceo_wages_account').id)]},
                 f"account.{cid}_a240000": {'tag_ids': [Command.link(self.env.ref('account.demo_office_furniture_account').id)]},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -205,6 +214,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -33,6 +33,11 @@ class StockRulesReport(models.TransientModel):
         if 'warehouse_ids' in fields:
             company = product_tmpl_id.company_id or self.env.company
             warehouse_id = self.env['stock.warehouse'].search(self.env['stock.warehouse']._check_company_domain(company), limit=1).id
+<<<<<<< HEAD
+=======
+            if not warehouse_id:
+                self.env['stock.warehouse']._warehouse_redirect_warning()
+>>>>>>> upstream/18.0
             res['warehouse_ids'] = [(6, 0, [warehouse_id])]
         return res
 

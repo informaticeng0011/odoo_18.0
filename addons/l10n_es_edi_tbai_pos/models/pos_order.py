@@ -84,7 +84,21 @@ class PosOrder(models.Model):
         res = super().action_pos_order_paid()
 
         if self.l10n_es_tbai_is_required and not self.to_invoice:
+<<<<<<< HEAD
             self._l10n_es_tbai_post()
+=======
+            error = self._l10n_es_tbai_post()
+
+            if error:
+                chain_head_doc = self.company_id._get_l10n_es_tbai_last_chained_document()
+                chain_head_order = self.search([('l10n_es_tbai_post_document_id', '=', chain_head_doc.id)])
+
+                if chain_head_doc and chain_head_order and chain_head_order != self and chain_head_doc.state != 'accepted':
+                    chain_head_order._l10n_es_tbai_post()
+                    if self.env['account.move.send']._can_commit():
+                        self.env.cr.commit()
+                    self._l10n_es_tbai_post()
+>>>>>>> upstream/18.0
 
         return res
 
@@ -121,6 +135,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return ''
+>>>>>>> upstream/18.0
 =======
         return ''
 >>>>>>> upstream/18.0
@@ -232,7 +250,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -290,6 +311,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -374,7 +398,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_origin': False,
+=======
+            'origin': 'manual',
+>>>>>>> upstream/18.0
 =======
             'origin': 'manual',
 >>>>>>> upstream/18.0

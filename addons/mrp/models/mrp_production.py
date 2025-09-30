@@ -530,11 +530,14 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for order in self:
             order.picking_ids = self.env['stock.picking'].search([
                 ('group_id', '=', order.procurement_group_id.id), ('group_id', '!=', False),
             ])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -680,6 +683,9 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1048,7 +1054,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 workorder_expected_duration = sum(self.workorder_ids.mapped('duration_expected'))
+=======
+                workorder_expected_duration = sum(production.workorder_ids.mapped('duration_expected'))
+>>>>>>> upstream/18.0
 =======
                 workorder_expected_duration = sum(production.workorder_ids.mapped('duration_expected'))
 >>>>>>> upstream/18.0
@@ -1516,9 +1526,15 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             action['views'] = [(self.env.ref('stock.view_picking_form').id, 'form')]
             if 'views' in action:
                 action['views'] += [(state, view) for state, view in action['views'] if view != 'form']
+=======
+            picking_form = self.env.ref('stock.view_picking_form', False)
+            picking_form_view = [(picking_form and picking_form.id or False, 'form')]
+            action['views'] = picking_form_view + [(state, view) for state, view in action.get('views', []) if view != 'form']
+>>>>>>> upstream/18.0
 =======
             picking_form = self.env.ref('stock.view_picking_form', False)
             picking_form_view = [(picking_form and picking_form.id or False, 'form')]
@@ -2094,8 +2110,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for move in (self.move_raw_ids.filtered(lambda m: not is_waiting or m.product_id.tracking == 'none') | self.move_finished_ids.filtered(lambda m: m.product_id != self.product_id)):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2244,6 +2263,9 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2415,6 +2437,7 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not move.manual_consumption or pick_manual_consumption_moves:
 =======
             if (not move.manual_consumption or pick_manual_consumption_moves) and move.quantity:
@@ -2460,6 +2483,11 @@ class MrpProduction(models.Model):
 >>>>>>> upstream/18.0
 =======
             if (not move.manual_consumption or pick_manual_consumption_moves) and move.quantity:
+>>>>>>> upstream/18.0
+=======
+            if (not move.manual_consumption or pick_manual_consumption_moves) \
+                    and move.quantity \
+                    and (move.product_id != self.product_id or not move.production_id or move.product_id.tracking != 'serial'):
 >>>>>>> upstream/18.0
 =======
             if (not move.manual_consumption or pick_manual_consumption_moves) \
@@ -3155,7 +3183,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for move_raw_id in self.move_raw_ids.filtered(lambda m: m.state not in ('done', 'cancel')):
+=======
+            for move_raw_id in production.move_raw_ids.filtered(lambda m: m.state not in ('done', 'cancel')):
+>>>>>>> upstream/18.0
 =======
             for move_raw_id in production.move_raw_ids.filtered(lambda m: m.state not in ('done', 'cancel')):
 >>>>>>> upstream/18.0
@@ -3347,6 +3379,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if self.env.context.get('skip_activity'):
+                continue
+>>>>>>> upstream/18.0
 =======
             if self.env.context.get('skip_activity'):
                 continue
@@ -3719,7 +3756,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if regex.search(name) and sequence > 1:
+=======
+        if regex.search(name) and (max(self.procurement_group_id.mrp_production_ids.mapped("backorder_sequence")) > 1 or sequence > 1):
+>>>>>>> upstream/18.0
 =======
         if regex.search(name) and (max(self.procurement_group_id.mrp_production_ids.mapped("backorder_sequence")) > 1 or sequence > 1):
 >>>>>>> upstream/18.0
@@ -4480,6 +4521,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if res is not True:
+                    res['context'] = dict(res.get('context', {}), marked_as_done=all(mo.state == 'done' for mo in self))
+>>>>>>> upstream/18.0
 =======
                 if res is not True:
                     res['context'] = dict(res.get('context', {}), marked_as_done=all(mo.state == 'done' for mo in self))
@@ -5072,6 +5118,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.warehouse_id.manufacture_steps in ('pbm', 'pbm_sam'):
+            moves_to_unlink.product_uom_qty = 0
+>>>>>>> upstream/18.0
 =======
         if self.warehouse_id.manufacture_steps in ('pbm', 'pbm_sam'):
             moves_to_unlink.product_uom_qty = 0

@@ -55,6 +55,10 @@ registry.category("web_tour.tours").add('tour_shop_archived_variant_multi', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -245,6 +249,10 @@ registry.category("web_tour.tours").add('test_09_pills_variant', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

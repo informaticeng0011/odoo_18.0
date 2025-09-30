@@ -523,6 +523,10 @@ export function classToStyle(element, cssRules) {
                 style = `${key}:${value};${style}`;
             }
         }
+<<<<<<< HEAD
+=======
+        style = correctBorderAttributes(style);
+>>>>>>> upstream/18.0
         if (Object.keys(style || {}).length === 0) {
             writes.push(() => {
                 node.removeAttribute("style");
@@ -638,7 +642,11 @@ export function classToStyle(element, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`<table align="center" border="0"
+=======
+                    createMso(`<table align="center" border="0"
+>>>>>>> upstream/18.0
 =======
                     createMso(`<table align="center" border="0"
 >>>>>>> upstream/18.0
@@ -935,7 +943,11 @@ export function classToStyle(element, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`</td>
+=======
+                    createMso(`</td>
+>>>>>>> upstream/18.0
 =======
                     createMso(`</td>
 >>>>>>> upstream/18.0
@@ -1307,7 +1319,11 @@ function enforceTablesResponsivity(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`
+=======
+                    createMso(`
+>>>>>>> upstream/18.0
 =======
                     createMso(`
 >>>>>>> upstream/18.0
@@ -1597,11 +1613,14 @@ function enforceTablesResponsivity(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 div.before(_createMso(`</td><td valign="top" style="width: ${width};">`));
             }
             if (index === tds.length - 1) {
                 div.after(_createMso(`</td></tr></table>`));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1816,6 +1835,9 @@ function enforceTablesResponsivity(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2149,7 +2171,11 @@ function enforceImagesResponsivity(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         image.before(_createMso(image.outerHTML));
+=======
+        image.before(createMso(image.outerHTML));
+>>>>>>> upstream/18.0
 =======
         image.before(createMso(image.outerHTML));
 >>>>>>> upstream/18.0
@@ -2464,7 +2490,11 @@ export async function toInline(element, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         image.before(_createMso(clone.outerHTML));
+=======
+        image.before(createMso(clone.outerHTML));
+>>>>>>> upstream/18.0
 =======
         image.before(createMso(clone.outerHTML));
 >>>>>>> upstream/18.0
@@ -2826,7 +2856,11 @@ function flattenBackgroundImages(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             backgroundImage.after(_createMso(vml));
+=======
+            backgroundImage.after(createMso(vml));
+>>>>>>> upstream/18.0
 =======
             backgroundImage.after(createMso(vml));
 >>>>>>> upstream/18.0
@@ -3598,7 +3632,11 @@ function responsiveToStaticForOutlook(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         td.before(_createMso(outlookTd.outerHTML.replace("</td>", "")));
+=======
+        td.before(createMso(outlookTd.outerHTML.replace("</td>", "")));
+>>>>>>> upstream/18.0
 =======
         td.before(createMso(outlookTd.outerHTML.replace("</td>", "")));
 >>>>>>> upstream/18.0
@@ -4082,9 +4120,12 @@ function _createColumnGrid() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function _createMso(content = "") {
     return document.createComment(`[if mso]>${content}<![endif]`);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4304,6 +4345,9 @@ export function createMso(content = "") {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4595,7 +4639,12 @@ function _getMatchedCSSRules(node, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const styles = cssRules.map((rule) => rule.style).filter(Boolean);
+=======
+
+    const styles = cssRules.map((rule) => removeBlacklistedStyles(rule, node)).filter(Boolean);
+>>>>>>> upstream/18.0
 =======
 
     const styles = cssRules.map((rule) => removeBlacklistedStyles(rule, node)).filter(Boolean);
@@ -5048,8 +5097,11 @@ function _hideForOutlook(node, onlyHideTag = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node.setAttribute("style", `${node.getAttribute("style") || ""} mso-hide: all;`.trim());
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5061,6 +5113,9 @@ function _hideForOutlook(node, onlyHideTag = false) {
         node.setAttribute("style", `${style} mso-hide: all;`);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5188,7 +5243,10 @@ function _wrap(element, wrapperTag, wrapperClass, wrapperStyle) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5411,6 +5469,7 @@ function removeBlacklistedStyles(rule, node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5543,4 +5602,65 @@ function removeBlacklistedStyles(rule, node) {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+/**
+ * Corrects the `border-style` attribute in the provided inline style string.
+ * This is specifically for Outlook, which displays borders even when their widths are set to 0px.
+ * If all border widths are 0, the function updates `border-style` to `none`.
+ *
+ * @param {string} style - The inline style string to correct.
+ * @returns {string} - The corrected inline style string.
+ */
+function correctBorderAttributes(style) {
+    const stylesObject = style
+        .replace(/\s+/g, " ")
+        .split(";")
+        .reduce((styles, styleString) => {
+            const [attribute, value] = styleString.split(":").map((str) => str.trim());
+            if (attribute) {
+                styles[attribute] = value;
+            }
+            return styles;
+        }, {});
+
+    const BORDER_WIDTHS_ATTRIBUTES = [
+        "border-bottom-width",
+        "border-left-width",
+        "border-right-width",
+        "border-top-width",
+    ];
+
+    const isBorderStyleApplied = BORDER_WIDTHS_ATTRIBUTES.some(
+        (attribute) => attribute in stylesObject
+    );
+
+    if (!isBorderStyleApplied) {
+        return style;
+    }
+
+    const totalBorderWidth = BORDER_WIDTHS_ATTRIBUTES.reduce((totalWidth, attribute) => {
+        const widthValue = stylesObject[attribute] || "0px";
+        const numericWidth = parseFloat(widthValue.replace("px", "")) || 0;
+        return totalWidth + numericWidth;
+    }, 0);
+
+    if (totalBorderWidth === 0) {
+        let correctedStyle = style.trim();
+        if (correctedStyle.slice(-1) != ";") {
+            correctedStyle += ";";
+        }
+        correctedStyle = correctedStyle.replace(
+            /(;|^)\s*border-style\s*:[^;]*(;|$)|$/,
+            "$1border-style:none$2"
+        );
+        return correctedStyle;
+    }
+
+    if (/border-style\s*:/i.test(style)) {
+        return style;
+    }
+    return style.trim().replace(/;?$/, "; border-style: solid;");
+}
 >>>>>>> upstream/18.0

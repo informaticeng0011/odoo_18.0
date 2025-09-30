@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Larisa Pop, 2024
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2025
@@ -281,11 +282,17 @@
 # Wil Odoo, 2025
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
+=======
+# Lyall Kindmurr, 2024
+# Wil Odoo, 2025
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -619,6 +626,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-27 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -640,6 +652,7 @@ msgid ""
 msgstr ""
 "\n"
 "                <p class=\"o_view_nocontent_smiling_face\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -697,6 +710,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    Nu au fost găsite etape importante. Hai să creăm una!\n"
 "                </p><p>\n"
 "                    Urmărește punctele majore de progres care trebuie atinse pentru a obține succes.\n"
@@ -719,6 +734,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -836,7 +854,11 @@ msgid "# Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluări"
+=======
+msgstr "Nr. evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nr. evaluări"
 >>>>>>> upstream/18.0
@@ -895,6 +917,7 @@ msgstr "Nr. evaluări"
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/views/burndown_chart/burndown_chart_model.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1046,6 +1069,11 @@ msgstr "Nr. de sarcini"
 msgid "# of Tasks"
 msgstr "Nr. de sarcini"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:project.field_report_project_task_user__nbr
+msgid "# of Tasks"
+msgstr "Nr. de sarcini"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
@@ -1071,7 +1099,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "#{record.milestone_count_reached.value} Milestone-uri atinse din "
+=======
+"#{record.milestone_count_reached.value} etape atinse din "
+>>>>>>> upstream/18.0
 =======
 "#{record.milestone_count_reached.value} etape atinse din "
 >>>>>>> upstream/18.0
@@ -1149,7 +1181,11 @@ msgid "#{task.stage_id.name}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "#{task.stage_id.name}"
+>>>>>>> upstream/18.0
 =======
 msgstr "#{task.stage_id.name}"
 >>>>>>> upstream/18.0
@@ -1227,7 +1263,11 @@ msgid "%(closedCount)s sub-tasks closed out of %(totalCount)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(closedCount)s sub-sarcini închise din %(totalCount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(closedCount)s sub-sarcini închise din %(totalCount)s"
 >>>>>>> upstream/18.0
@@ -1311,7 +1351,11 @@ msgid "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
 >>>>>>> upstream/18.0
@@ -1389,7 +1433,11 @@ msgid "%(count1)s/%(count2)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count1)s/%(count2)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count1)s/%(count2)s"
 >>>>>>> upstream/18.0
@@ -1467,7 +1515,11 @@ msgid "%(name)s Dashboard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tablou de bord %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tablou de bord %(name)s"
 >>>>>>> upstream/18.0
@@ -1551,7 +1603,11 @@ msgid "%(name)s's Milestones"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Milestone-urile %(name)s"
+=======
+msgstr "Etapele %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapele %(name)s"
 >>>>>>> upstream/18.0
@@ -1641,7 +1697,11 @@ msgid "%(partner_name)s's Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcinile lui %(partner_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcinile lui %(partner_name)s"
 >>>>>>> upstream/18.0
@@ -1728,7 +1788,11 @@ msgid "%s closed tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s sarcini închise"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s sarcini închise"
 >>>>>>> upstream/18.0
@@ -1805,7 +1869,11 @@ msgid "(due"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "(termen limită"
+=======
+msgstr "(scadent"
+>>>>>>> upstream/18.0
 =======
 msgstr "(scadent"
 >>>>>>> upstream/18.0
@@ -1888,7 +1956,11 @@ msgid "(other) tasks to which you do not have access."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(alte) sarcini la care nu aveți acces."
+>>>>>>> upstream/18.0
 =======
 msgstr "(alte) sarcini la care nu aveți acces."
 >>>>>>> upstream/18.0
@@ -1981,7 +2053,11 @@ msgid "<b>Drag &amp; drop</b> the card to change your task from stage."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<b>Drag &amp; drop</b> un card pentru a schimba stadiul task-ului."
+=======
+msgstr "<b>Trageți și plasați</b> cardul pentru a schimba stadiul sarcinii."
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>Trageți și plasați</b> cardul pentru a schimba stadiul sarcinii."
 >>>>>>> upstream/18.0
@@ -2064,7 +2140,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2120,6 +2199,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2253,7 +2335,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2380,6 +2465,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2448,7 +2536,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2510,6 +2601,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2563,6 +2657,7 @@ msgid ""
 "</div>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2733,6 +2828,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<div>\n"
 "    Dragă <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/><br/>\n"
 "    Vă mulțumim că ne-ați contactat. Apreciem interesul dumneavoastră pentru produsele/serviciile noastre.<br/>\n"
@@ -2757,6 +2854,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2852,6 +2952,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3008,8 +3111,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Evaluările clientului </b> sunt dezactivate în următoarele proiect(e) : "
 "<br/>"
+=======
+"Evaluările clienților</b> sunt dezactivate pe următoarele proiect(e) : <br/>"
+>>>>>>> upstream/18.0
 =======
 "Evaluările clienților</b> sunt dezactivate pe următoarele proiect(e) : <br/>"
 >>>>>>> upstream/18.0
@@ -3096,7 +3203,11 @@ msgid "<i title=\"Private Task\" class=\"fa fa-lock\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i title=\"Sarcină privată\" class=\"fa fa-lock\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i title=\"Sarcină privată\" class=\"fa fa-lock\"/>"
 >>>>>>> upstream/18.0
@@ -3173,7 +3284,11 @@ msgid "<small class=\"text-end\">Stage:</small>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<small class=\"text-end\">Stage:</small>"
+=======
+msgstr "<small class=\"text-end\">Etapă:</small>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<small class=\"text-end\">Etapă:</small>"
 >>>>>>> upstream/18.0
@@ -3250,7 +3365,11 @@ msgid "<small class=\"text-muted\">Assignees</small>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<small class=\"text-muted\">Responsabili</small>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<small class=\"text-muted\">Responsabili</small>"
 >>>>>>> upstream/18.0
@@ -3340,8 +3459,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"fa fa-envelope-o me-2\" aria-label=\"Domain Alias\" "
 "title=\"Domain Alias\"/>"
+=======
+"<span class=\"fa fa-envelope-o me-2\" aria-label=\"Alias domeniu\" "
+"title=\"Alias domeniu\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-envelope-o me-2\" aria-label=\"Alias domeniu\" "
 "title=\"Alias domeniu\"/>"
@@ -3441,7 +3565,11 @@ msgid "<span class=\"fw-normal\"> Done</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-normal\"> Finalizat</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fw-normal\"> Finalizat</span>"
 >>>>>>> upstream/18.0
@@ -3518,7 +3646,11 @@ msgid "<span class=\"fw-normal\"> Tasks</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-normal\"> Sarcini</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fw-normal\"> Sarcini</span>"
 >>>>>>> upstream/18.0
@@ -3595,7 +3727,11 @@ msgid "<span class=\"o_stat_text\">Blocked Tasks</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Sarcini blocate</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Sarcini blocate</span>"
 >>>>>>> upstream/18.0
@@ -3678,7 +3814,11 @@ msgid "<span class=\"o_stat_text\">Parent Task</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Sarcină părinte</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Sarcină părinte</span>"
 >>>>>>> upstream/18.0
@@ -3760,7 +3900,11 @@ msgid "<span class=\"o_stat_text\">Tasks</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Sarcini</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Sarcini</span>"
 >>>>>>> upstream/18.0
@@ -3838,6 +3982,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted o_row ps-1 pb-3\">Trimite o solicitare de "
+"evaluare:</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted o_row ps-1 pb-3\">Trimite o solicitare de "
 "evaluare:</span>"
@@ -3938,7 +4087,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3995,6 +4147,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4090,7 +4245,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un dicționar Python care va fi citit pentru a oferi valori implicite la "
+=======
+"Un dicționar Python care va fi evaluat pentru a furniza valori implicite la "
+>>>>>>> upstream/18.0
 =======
 "Un dicționar Python care va fi evaluat pentru a furniza valori implicite la "
 >>>>>>> upstream/18.0
@@ -4172,8 +4331,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " proiectului. Vă rugăm să eliminați duplicatul (duplicații) și încercați din"
 " nou."
+=======
+" la proiect. Vă rugăm să eliminați duplicatul (duplicații) și încercați din "
+"nou."
+>>>>>>> upstream/18.0
 =======
 " la proiect. Vă rugăm să eliminați duplicatul (duplicații) și încercați din "
 "nou."
@@ -4269,7 +4433,11 @@ msgid "A new task has been created and is not part of any project."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A fost creată o sarcină nouă care nu face parte din niciun proiect."
+>>>>>>> upstream/18.0
 =======
 msgstr "A fost creată o sarcină nouă care nu face parte din niciun proiect."
 >>>>>>> upstream/18.0
@@ -4347,7 +4515,11 @@ msgid "A new task has been created in the \"%(project_name)s\" project."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A fost creată o sarcină nouă în proiectul \"%(project_name)s\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "A fost creată o sarcină nouă în proiectul \"%(project_name)s\"."
 >>>>>>> upstream/18.0
@@ -4434,7 +4606,11 @@ msgid "A private task cannot have a parent."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O sarcină privată nu poate avea o sarcină părinte."
+>>>>>>> upstream/18.0
 =======
 msgstr "O sarcină privată nu poate avea o sarcină părinte."
 >>>>>>> upstream/18.0
@@ -4511,7 +4687,11 @@ msgid "A subtask cannot be recurrent."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O sub-sarcină nu poate fi recurentă."
+>>>>>>> upstream/18.0
 =======
 msgstr "O sub-sarcină nu poate fi recurentă."
 >>>>>>> upstream/18.0
@@ -4593,7 +4773,11 @@ msgid "A task can only have a single personal stage per user."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "O sarcină poate avea o singură etapă personală pe utilizator."
+=======
+msgstr "O sarcină poate avea o singură etapă personală per utilizator."
+>>>>>>> upstream/18.0
 =======
 msgstr "O sarcină poate avea o singură etapă personală per utilizator."
 >>>>>>> upstream/18.0
@@ -4710,7 +4894,11 @@ msgid "Activity Exception Decoration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Decorator Excepție Activitate"
+=======
+msgstr "Decorare excepție activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Decorare excepție activitate"
 >>>>>>> upstream/18.0
@@ -4802,7 +4990,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictograma tipului de activitate"
+=======
+msgstr "Pictogramă tip activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă tip activitate"
 >>>>>>> upstream/18.0
@@ -4888,6 +5080,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Planurile de activitate sunt folosite pentru a atribui o listă de activități în doar câteva clicuri\n"
+"                    (de ex. „Raport de progres”, „Întâlnire rapidă”, ...)"
+>>>>>>> upstream/18.0
 =======
 "Planurile de activitate sunt folosite pentru a atribui o listă de activități în doar câteva clicuri\n"
 "                    (de ex. „Raport de progres”, „Întâlnire rapidă”, ...)"
@@ -4989,7 +5186,11 @@ msgid "Add Sub-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adaugă sub-sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă sub-sarcini"
 >>>>>>> upstream/18.0
@@ -5067,7 +5268,11 @@ msgid "Add a sub-task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adaugă o sub-sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă o sub-sarcină"
 >>>>>>> upstream/18.0
@@ -5149,7 +5354,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nou - În curs - Finalizat</i>."
+=======
+"Nou - În desfășurare - Finalizat</i>."
+>>>>>>> upstream/18.0
 =======
 "Nou - În desfășurare - Finalizat</i>."
 >>>>>>> upstream/18.0
@@ -5227,7 +5436,11 @@ msgid "Add details about this task..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adăugați detalii despre această sarcină..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Adăugați detalii despre această sarcină..."
 >>>>>>> upstream/18.0
@@ -5312,6 +5525,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Adăugați câmpuri de proprietăți specifice proiectului pe sarcini pentru a "
+"personaliza procesul de management al proiectului."
+>>>>>>> upstream/18.0
 =======
 "Adăugați câmpuri de proprietăți specifice proiectului pe sarcini pentru a "
 "personaliza procesul de management al proiectului."
@@ -5418,7 +5636,11 @@ msgid "Agile Scrum"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scrum Agil"
+=======
+msgstr "Scrum Agile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scrum Agile"
 >>>>>>> upstream/18.0
@@ -5500,7 +5722,11 @@ msgid "Alias Contact Security"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alias Contact Securitate"
+=======
+msgstr "Securitate contact alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Securitate contact alias"
 >>>>>>> upstream/18.0
@@ -5577,7 +5803,11 @@ msgid "Alias Domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alias Domeniu"
+=======
+msgstr "Domeniu alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Domeniu alias"
 >>>>>>> upstream/18.0
@@ -5654,7 +5884,11 @@ msgid "Alias Domain Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alias Nume de domeniu"
+=======
+msgstr "Nume domeniu alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume domeniu alias"
 >>>>>>> upstream/18.0
@@ -5731,7 +5965,11 @@ msgid "Alias Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alias Email"
+=======
+msgstr "Email alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email alias"
 >>>>>>> upstream/18.0
@@ -5808,7 +6046,11 @@ msgid "Alias Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alias nume"
+=======
+msgstr "Nume alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume alias"
 >>>>>>> upstream/18.0
@@ -5885,7 +6127,11 @@ msgid "Alias Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stare Alias"
+=======
+msgstr "Stare alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare alias"
 >>>>>>> upstream/18.0
@@ -5967,7 +6213,11 @@ msgid "Aliased Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Model de Alias"
+=======
+msgstr "Model alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Model alias"
 >>>>>>> upstream/18.0
@@ -6045,7 +6295,11 @@ msgid "All"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tot"
+=======
+msgstr "Toate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toate"
 >>>>>>> upstream/18.0
@@ -6123,7 +6377,11 @@ msgid "All Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcini"
+=======
+msgstr "Toate sarcinile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toate sarcinile"
 >>>>>>> upstream/18.0
@@ -6206,7 +6464,11 @@ msgid "Allocated Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Timp Alocat"
+=======
+msgstr "Timp alocat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Timp alocat"
 >>>>>>> upstream/18.0
@@ -6284,7 +6546,11 @@ msgid "Allocated Time:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Timp alocat:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Timp alocat:"
 >>>>>>> upstream/18.0
@@ -6381,8 +6647,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Analizați cât de repede echipa dvs. completează sarcinile proiectului dvs. "
 "și verificați dacă totul se desfășoară conform planului."
+=======
+"Analizați cât de repede echipa dvs. finalizează sarcinile proiectului și "
+"verificați dacă totul decurge conform planului."
+>>>>>>> upstream/18.0
 =======
 "Analizați cât de repede echipa dvs. finalizează sarcinile proiectului și "
 "verificați dacă totul decurge conform planului."
@@ -6483,7 +6754,11 @@ msgid "Anyone with this link can access the project in read mode."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oricine are acest link poate accesa proiectul în modul citire."
+>>>>>>> upstream/18.0
 =======
 msgstr "Oricine are acest link poate accesa proiectul în modul citire."
 >>>>>>> upstream/18.0
@@ -6562,7 +6837,11 @@ msgid "Approved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aprobat(a)"
+=======
+msgstr "Aprobat(ă)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobat(ă)"
 >>>>>>> upstream/18.0
@@ -6639,7 +6918,11 @@ msgid "Architecture"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Arhitectura"
+=======
+msgstr "Arhitectură"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arhitectură"
 >>>>>>> upstream/18.0
@@ -6717,7 +7000,11 @@ msgid "Archive Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arhivează contul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arhivează contul"
 >>>>>>> upstream/18.0
@@ -6795,7 +7082,11 @@ msgid "Archive Accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arhivează conturile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arhivează conturile"
 >>>>>>> upstream/18.0
@@ -6873,7 +7164,11 @@ msgid "Archive Stages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etape de arhivă"
+=======
+msgstr "Arhivează etapele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arhivează etapele"
 >>>>>>> upstream/18.0
@@ -6982,7 +7277,11 @@ msgid "Are you sure you want to restore this version ?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sigur doriți să restaurați această versiune?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sigur doriți să restaurați această versiune?"
 >>>>>>> upstream/18.0
@@ -7082,7 +7381,11 @@ msgid "Assigned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocat"
+=======
+msgstr "Atribuit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atribuit"
 >>>>>>> upstream/18.0
@@ -7161,7 +7464,11 @@ msgid "Assigned to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocat către"
+=======
+msgstr "Atribuit către"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atribuit către"
 >>>>>>> upstream/18.0
@@ -7245,7 +7552,11 @@ msgid "Assignees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocați"
+=======
+msgstr "Persoane atribuite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Persoane atribuite"
 >>>>>>> upstream/18.0
@@ -7322,7 +7633,11 @@ msgid "Assignement Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data atribuirii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data atribuirii"
 >>>>>>> upstream/18.0
@@ -7399,7 +7714,11 @@ msgid "Assigning Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data alocării"
+=======
+msgstr "Data atribuirii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data atribuirii"
 >>>>>>> upstream/18.0
@@ -7477,7 +7796,11 @@ msgid "Assignment Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dată Atribuire"
+=======
+msgstr "Data atribuirii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data atribuirii"
 >>>>>>> upstream/18.0
@@ -7565,6 +7888,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Atașați toate documentele sau linkurile direct la sarcină, pentru a avea "
+"toate informațiile de cercetare centralizate."
+>>>>>>> upstream/18.0
 =======
 "Atașați toate documentele sau linkurile direct la sarcină, pentru a avea "
 "toate informațiile de cercetare centralizate."
@@ -7672,7 +8000,11 @@ msgid "Attachments that don't come from a message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atașamente care nu provin dintr-un mesaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atașamente care nu provin dintr-un mesaj"
 >>>>>>> upstream/18.0
@@ -7754,7 +8086,11 @@ msgid "Auto-generate tasks for regular activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcini generate automat pentru activități regulate"
+=======
+msgstr "Generează automat sarcini pentru activități regulate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generează automat sarcini pentru activități regulate"
 >>>>>>> upstream/18.0
@@ -7831,7 +8167,11 @@ msgid "Automatic Kanban Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stare Kanban automată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare Kanban automată"
 >>>>>>> upstream/18.0
@@ -7912,6 +8252,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Modifică automat starea când clientul răspunde la feedback pentru această etapă.\n"
+" * Feedback pozitiv de la client va actualiza starea la 'Aprobat' (bulină verde).\n"
+" * Feedback neutru sau negativ va seta starea kanban la 'Modificări solicitate' (bulină portocalie).\n"
+>>>>>>> upstream/18.0
 =======
 "Modifică automat starea când clientul răspunde la feedback pentru această etapă.\n"
 " * Feedback pozitiv de la client va actualiza starea la 'Aprobat' (bulină verde).\n"
@@ -8027,6 +8373,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Trimite automat un e-mail către clienți când o sarcină ajunge într-o anumită"
+" etapă a unui proiect, setând acest șablon pe acea etapă"
+>>>>>>> upstream/18.0
 =======
 "Trimite automat un e-mail către clienți când o sarcină ajunge într-o anumită"
 " etapă a unui proiect, setând acest șablon pe acea etapă"
@@ -8122,7 +8473,11 @@ msgid "Avatar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imagine profil"
+=======
+msgstr "Avatar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avatar"
 >>>>>>> upstream/18.0
@@ -8202,7 +8557,11 @@ msgid "Average Rating"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rating mediu"
+=======
+msgstr "Evaluare medie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie"
 >>>>>>> upstream/18.0
@@ -8279,7 +8638,11 @@ msgid "Average Rating (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rating mediu (%)"
+=======
+msgstr "Evaluare medie (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie (%)"
 >>>>>>> upstream/18.0
@@ -8360,7 +8723,11 @@ msgid "Average Rating (1-5)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evaluare medie (1-5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie (1-5)"
 >>>>>>> upstream/18.0
@@ -8450,7 +8817,11 @@ msgid "Average Rating: Dissatisfied"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rating mediu: nemulțumit"
+=======
+msgstr "Evaluare medie: Nesatisfăcut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie: Nesatisfăcut"
 >>>>>>> upstream/18.0
@@ -8528,7 +8899,11 @@ msgid "Average Rating: Okay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rating mediu: ok"
+=======
+msgstr "Evaluare medie: Ok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie: Ok"
 >>>>>>> upstream/18.0
@@ -8606,7 +8981,11 @@ msgid "Average Rating: Satisfied"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rating mediu: mulțumit"
+=======
+msgstr "Evaluare medie: Satisfăcut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie: Satisfăcut"
 >>>>>>> upstream/18.0
@@ -8684,7 +9063,11 @@ msgid "Backlog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comenzi Nerezolvate"
+=======
+msgstr "Backlog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Backlog"
 >>>>>>> upstream/18.0
@@ -8772,7 +9155,11 @@ msgid "Block"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Bloc"
+=======
+msgstr "Blochează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Blochează"
 >>>>>>> upstream/18.0
@@ -8861,7 +9248,11 @@ msgid "Blocked Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini blocate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini blocate"
 >>>>>>> upstream/18.0
@@ -8939,7 +9330,11 @@ msgid "Blocking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Blochează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Blochează"
 >>>>>>> upstream/18.0
@@ -9017,7 +9412,11 @@ msgid "Brainstorm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Furtună de Idei"
+=======
+msgstr "Brainstorming"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brainstorming"
 >>>>>>> upstream/18.0
@@ -9094,7 +9493,11 @@ msgid "Bug"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bug"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bug"
 >>>>>>> upstream/18.0
@@ -9181,6 +9584,7 @@ msgid "Burndown Chart"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Grafic de ardere"
@@ -9193,6 +9597,9 @@ msgstr "Grafic de ardere"
 >>>>>>> upstream/18.0
 =======
 msgstr "Grafic de ardere"
+>>>>>>> upstream/18.0
+=======
+msgstr "Grafic Burndown"
 >>>>>>> upstream/18.0
 =======
 msgstr "Grafic Burndown"
@@ -9288,7 +9695,11 @@ msgid "Changes Requested"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modificări solicitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modificări solicitate"
 >>>>>>> upstream/18.0
@@ -9421,7 +9832,11 @@ msgid "Closed state"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stare închisă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare închisă"
 >>>>>>> upstream/18.0
@@ -9510,7 +9925,11 @@ msgid "Closed tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini închise"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini închise"
 >>>>>>> upstream/18.0
@@ -9587,7 +10006,11 @@ msgid "Closing Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stagiu de închidere"
+=======
+msgstr "Stadiu de închidere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stadiu de închidere"
 >>>>>>> upstream/18.0
@@ -9684,9 +10107,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Colectați feedback-ul de la clienții dvs. prin trimiterea lor a unei cereri de evaluare atunci când o sarcină intră într-un anumit stadiu. Pentru a face acest lucru, definiți un șablon de e-mail de evaluare pe stadiile corespunzătoare.\n"
 "Evaluare la schimbarea stadiului: un e-mail va fi trimis automat atunci când sarcina atinge stadiul pe care șablonul de e-mail de evaluare este setat.\n"
 "Evaluare periodică: un e-mail va fi trimis automat la intervale regulate atât timp cât sarcina rămâne în stadiul în care șablonul de e-mail de evaluare este setat."
+=======
+"Colectați feedback de la clienții dvs. trimițându-le o solicitare de evaluare atunci când o sarcină intră într-un anumit stadiu. Pentru aceasta, definiți un șablon de e-mail de evaluare pe stadiile corespunzătoare.\n"
+"Evaluare la schimbarea stadiului: un e-mail va fi trimis automat când sarcina ajunge în stadiul pe care este setat șablonul de e-mail de evaluare.\n"
+"Evaluare periodică: un e-mail va fi trimis automat la intervale regulate atât timp cât sarcina rămâne în stadiul în care este setat șablonul de e-mail de evaluare."
+>>>>>>> upstream/18.0
 =======
 "Colectați feedback de la clienții dvs. trimițându-le o solicitare de evaluare atunci când o sarcină intră într-un anumit stadiu. Pentru aceasta, definiți un șablon de e-mail de evaluare pe stadiile corespunzătoare.\n"
 "Evaluare la schimbarea stadiului: un e-mail va fi trimis automat când sarcina ajunge în stadiul pe care este setat șablonul de e-mail de evaluare.\n"
@@ -9808,6 +10237,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Comunicați cu clienții pe sarcină folosind gateway-ul de e-mail. Atașați "
+"design-urile de logo la sarcină, astfel încât informația să circule de la "
+"designeri la lucrătorii care imprimă tricoul."
+>>>>>>> upstream/18.0
 =======
 "Comunicați cu clienții pe sarcină folosind gateway-ul de e-mail. Atașați "
 "design-urile de logo la sarcină, astfel încât informația să circule de la "
@@ -9946,7 +10381,11 @@ msgid "Configure Stages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Configurați stadiile"
+=======
+msgstr "Configurează stadiile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configurează stadiile"
 >>>>>>> upstream/18.0
@@ -10055,7 +10494,11 @@ msgid "Contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contactați"
+=======
+msgstr "Contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contact"
 >>>>>>> upstream/18.0
@@ -10132,7 +10575,11 @@ msgid "Convert Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Convertește sarcina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Convertește sarcina"
 >>>>>>> upstream/18.0
@@ -10211,7 +10658,11 @@ msgid "Convert to Task/Sub-Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Convertește în sarcină/sub-sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Convertește în sarcină/sub-sarcină"
 >>>>>>> upstream/18.0
@@ -10300,7 +10751,11 @@ msgid "Cover Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imagine Copertă"
+=======
+msgstr "Imagine de copertă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imagine de copertă"
 >>>>>>> upstream/18.0
@@ -10391,7 +10846,11 @@ msgid "Create a Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "- Creează un proiect"
+=======
+msgstr "Creează un proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează un proiect"
 >>>>>>> upstream/18.0
@@ -10468,7 +10927,11 @@ msgid "Create a Task Activity Plan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creează un plan de activități pentru sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează un plan de activități pentru sarcină"
 >>>>>>> upstream/18.0
@@ -10545,7 +11008,11 @@ msgid "Create a new stage in the task pipeline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o nouă etapă în conducta de sarcini"
+=======
+msgstr "Creează o nouă etapă în fluxul de sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o nouă etapă în fluxul de sarcini"
 >>>>>>> upstream/18.0
@@ -10623,7 +11090,11 @@ msgid "Create a new sub-task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creează o sub-sarcină nouă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o sub-sarcină nouă"
 >>>>>>> upstream/18.0
@@ -10700,7 +11171,11 @@ msgid "Create project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați proiect"
+=======
+msgstr "Creează proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează proiect"
 >>>>>>> upstream/18.0
@@ -10780,8 +11255,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Creați proiecte pentru a organiza sarcinile și pentru a defini un flux de "
 "lucru diferit pentru fiecare proiect."
+=======
+"Creează proiecte pentru a-ți organiza sarcinile și a defini un flux de lucru"
+" diferit pentru fiecare proiect."
+>>>>>>> upstream/18.0
 =======
 "Creează proiecte pentru a-ți organiza sarcinile și a defini un flux de lucru"
 " diferit pentru fiecare proiect."
@@ -10879,7 +11359,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Creați proiecte pentru a organiza sarcinile. Definiți un flux de lucru "
+=======
+"Creează proiecte pentru a-ți organiza sarcinile. Definește un flux de lucru "
+>>>>>>> upstream/18.0
 =======
 "Creează proiecte pentru a-ți organiza sarcinile. Definește un flux de lucru "
 >>>>>>> upstream/18.0
@@ -10958,7 +11442,11 @@ msgid "Create tasks by sending an email to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați sarcini trimițând un e-mail la"
+=======
+msgstr "Creează sarcini trimițând un e-mail la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează sarcini trimițând un e-mail la"
 >>>>>>> upstream/18.0
@@ -11035,7 +11523,12 @@ msgid "Create tasks by sending an email to the email address of your project."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați sarcini trimițând un e-mail la adresa de e-mail a proiectului."
+=======
+msgstr ""
+"Creează sarcini trimițând un e-mail la adresa de e-mail a proiectului tău."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Creează sarcini trimițând un e-mail la adresa de e-mail a proiectului tău."
@@ -11130,7 +11623,11 @@ msgid "Created On"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -11237,7 +11734,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -11324,7 +11825,11 @@ msgid "Current stage of this task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stadiul curent al acestei sarcini"
+=======
+msgstr "Etapa curentă a acestei sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapa curentă a acestei sarcini"
 >>>>>>> upstream/18.0
@@ -11405,8 +11910,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Momentan disponibil pentru toată lumea care vizionează acest document, "
 "faceți clic pentru a restricționa angajații interni."
+=======
+"Momentan disponibil pentru toți cei care vizualizează acest document, faceți"
+" clic pentru a restricționa doar la angajații interni."
+>>>>>>> upstream/18.0
 =======
 "Momentan disponibil pentru toți cei care vizualizează acest document, faceți"
 " clic pentru a restricționa doar la angajații interni."
@@ -11506,7 +12016,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "pune la dispoziția tuturor celor care vizualizează acest document."
+=======
+"face disponibil tuturor celor care vizualizează acest document."
+>>>>>>> upstream/18.0
 =======
 "face disponibil tuturor celor care vizualizează acest document."
 >>>>>>> upstream/18.0
@@ -11597,7 +12111,11 @@ msgid "Customer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ClientClient"
+=======
+msgstr "Client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Client"
 >>>>>>> upstream/18.0
@@ -11675,7 +12193,11 @@ msgid "Customer Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "E-mail client"
+=======
+msgstr "Email client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email client"
 >>>>>>> upstream/18.0
@@ -11753,7 +12275,11 @@ msgid "Customer Feedback"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Feedback Clienți"
+=======
+msgstr "Feedback client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Feedback client"
 >>>>>>> upstream/18.0
@@ -11831,7 +12357,11 @@ msgid "Customer Portal URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresa URL a Portalului Clientului"
+=======
+msgstr "URL Portal Client"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL Portal Client"
 >>>>>>> upstream/18.0
@@ -11911,7 +12441,11 @@ msgid "Customer Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluări client"
+=======
+msgstr "Evaluări clienți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluări clienți"
 >>>>>>> upstream/18.0
@@ -11988,7 +12522,11 @@ msgid "Customer Ratings Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Starea evaluărilor clienților"
+=======
+msgstr "Stare evaluări clienți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare evaluări clienți"
 >>>>>>> upstream/18.0
@@ -12069,6 +12607,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Clienții propun feedback prin email; Odoo creează automat sarcini, iar tu "
+"poți comunica direct pe sarcină."
+>>>>>>> upstream/18.0
 =======
 "Clienții propun feedback prin email; Odoo creează automat sarcini, iar tu "
 "poți comunica direct pe sarcină."
@@ -12164,7 +12707,12 @@ msgid "Customers will be added to the followers of their project and tasks."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Clienții vor fi adăugați la urmăritorii lor proiect și sarcini."
+=======
+msgstr ""
+"Clienții vor fi adăugați la urmăritorii proiectului și sarcinilor lor."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Clienții vor fi adăugați la urmăritorii proiectului și sarcinilor lor."
@@ -12284,6 +12832,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Data la care starea sarcinii a fost modificată ultima dată.\n"
+"Pe baza acestei informații puteți identifica sarcinile blocate și obține statistici despre timpul necesar pentru a muta sarcinile dintr-o etapă/stare în alta."
+>>>>>>> upstream/18.0
 =======
 "Data la care starea sarcinii a fost modificată ultima dată.\n"
 "Pe baza acestei informații puteți identifica sarcinile blocate și obține statistici despre timpul necesar pentru a muta sarcinile dintr-o etapă/stare în alta."
@@ -12391,8 +12944,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "dezatribuită). Pe baza acestor informații puteți obține statistici despre "
 "timpul necesar "
+=======
+"dezatribuită). Pe baza acesteia, puteți obține statistici despre timpul "
+"necesar pentru a atribui sarcini."
+>>>>>>> upstream/18.0
 =======
 "dezatribuită). Pe baza acesteia, puteți obține statistici despre timpul "
 "necesar pentru a atribui sarcini."
@@ -12506,7 +13064,11 @@ msgid "Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Termen limita"
+=======
+msgstr "Termen limită"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită"
 >>>>>>> upstream/18.0
@@ -12598,10 +13160,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Definește pașii ce vor fi ce vor fi folosiți în proiect de la\n"
 "                crearea unei sarcini până la închiderea sarcinii ori problemei.\n"
 "                Vei folosi aceste stadii pentru a urmări progresul în\n"
 "                rezolvarea sarcinii sau problemei."
+=======
+"Definește pașii care vor fi folosiți în proiect de la crearea sarcinii până la închiderea sarcinii sau problemei.\n"
+"Vei folosi aceste etape pentru a urmări progresul în rezolvarea unei sarcini sau probleme."
+>>>>>>> upstream/18.0
 =======
 "Definește pașii care vor fi folosiți în proiect de la crearea sarcinii până la închiderea sarcinii sau problemei.\n"
 "Vei folosi aceste etape pentru a urmări progresul în rezolvarea unei sarcini sau probleme."
@@ -12698,8 +13265,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Definește pașii prin care proiectele tale trec de la creare până la "
 "finalizare."
+=======
+"Definește pașii prin care proiectele tale trec de la creare la finalizare."
+>>>>>>> upstream/18.0
 =======
 "Definește pașii prin care proiectele tale trec de la creare la finalizare."
 >>>>>>> upstream/18.0
@@ -12777,8 +13348,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Definește pașii prin care sarcinile tale trec de la creare până la "
 "finalizare."
+=======
+"Definește pașii prin care sarcinile tale trec de la creare la finalizare."
+>>>>>>> upstream/18.0
 =======
 "Definește pașii prin care sarcinile tale trec de la creare la finalizare."
 >>>>>>> upstream/18.0
@@ -12873,7 +13448,11 @@ msgid "Delete Project Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Șterge etapa proiectului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șterge etapa proiectului"
 >>>>>>> upstream/18.0
@@ -12955,7 +13534,11 @@ msgid "Delete Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ștergeți etapa"
+=======
+msgstr "Șterge etapa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șterge etapa"
 >>>>>>> upstream/18.0
@@ -13035,8 +13618,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Livrați serviciile dumneavoastră automat atunci când o etapă este atinsă "
 "prin legarea acesteia la un element din comanda de vânzare."
+=======
+"Livrați serviciile automat când o etapă este atinsă, legând-o de un articol "
+"dintr-o comandă de vânzare."
+>>>>>>> upstream/18.0
 =======
 "Livrați serviciile automat când o etapă este atinsă, legând-o de un articol "
 "dintr-o comandă de vânzare."
@@ -13143,7 +13731,11 @@ msgid "Depending on Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "În funcție de sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "În funcție de sarcini"
 >>>>>>> upstream/18.0
@@ -13306,7 +13898,11 @@ msgid "Display the sub-task in your pipeline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afișează sub-sarcina în fluxul tău"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează sub-sarcina în fluxul tău"
 >>>>>>> upstream/18.0
@@ -13422,6 +14018,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Fiecare utilizator ar trebui să aibă cel puțin o etapă personală. Creați o "
+"etapă nouă către care sarcinile pot fi transferate după ce cele selectate "
+"sunt șterse."
+>>>>>>> upstream/18.0
 =======
 "Fiecare utilizator ar trebui să aibă cel puțin o etapă personală. Creați o "
 "etapă nouă către care sarcinile pot fi transferate după ce cele selectate "
@@ -13539,7 +14141,11 @@ msgid "Edit with limited access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Editare cu acces limitat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Editare cu acces limitat"
 >>>>>>> upstream/18.0
@@ -13619,6 +14225,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Editare cu acces limitat: colaboratorii pot vizualiza și edita sarcinile pe "
+"care le urmăresc în vizualizarea Kanban."
+>>>>>>> upstream/18.0
 =======
 "Editare cu acces limitat: colaboratorii pot vizualiza și edita sarcinile pe "
 "care le urmăresc în vizualizarea Kanban."
@@ -13716,6 +14327,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Editare: colaboratorii pot vizualiza și edita toate sarcinile în "
+"vizualizarea Kanban. În plus, pot alege ce sarcini doresc să urmărească."
+>>>>>>> upstream/18.0
 =======
 "Editare: colaboratorii pot vizualiza și edita toate sarcinile în "
 "vizualizarea Kanban. În plus, pot alege ce sarcini doresc să urmărească."
@@ -13853,7 +14469,11 @@ msgid "Employees Only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Doar Angajatii"
+=======
+msgstr "Doar angajați"
+>>>>>>> upstream/18.0
 =======
 msgstr "Doar angajați"
 >>>>>>> upstream/18.0
@@ -13988,7 +14608,11 @@ msgid "Favorite Projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proiecte favorite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiecte favorite"
 >>>>>>> upstream/18.0
@@ -14066,7 +14690,11 @@ msgid "Final Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Document Final"
+=======
+msgstr "Document final"
+>>>>>>> upstream/18.0
 =======
 msgstr "Document final"
 >>>>>>> upstream/18.0
@@ -14161,7 +14789,11 @@ msgid "Follow and comments tasks of your projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urmărește și comentează sarcinile proiectelor tale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmărește și comentează sarcinile proiectelor tale"
 >>>>>>> upstream/18.0
@@ -14238,7 +14870,11 @@ msgid "Follow the evolution of your projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urmărește evoluția proiectelor tale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmărește evoluția proiectelor tale"
 >>>>>>> upstream/18.0
@@ -14343,7 +14979,11 @@ msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictogramă Font awesome, de ex. fa-sarcini"
+=======
+msgstr "Pictogramă Font awesome, ex. fa-tasks"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă Font awesome, ex. fa-tasks"
 >>>>>>> upstream/18.0
@@ -14421,7 +15061,11 @@ msgid "Forever"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pentru totdeauna"
+=======
+msgstr "Permanent"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permanent"
 >>>>>>> upstream/18.0
@@ -14525,6 +15169,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Obțineți feedback de la clienți și evaluați performanța angajaților dvs."
+>>>>>>> upstream/18.0
 =======
 "Obțineți feedback de la clienți și evaluați performanța angajaților dvs."
 >>>>>>> upstream/18.0
@@ -14602,7 +15250,11 @@ msgid "Give the sub-task a <b>name</b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dați sub-sarcinii un <b>nume</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dați sub-sarcinii un <b>nume</b>"
 >>>>>>> upstream/18.0
@@ -14679,7 +15331,11 @@ msgid "Grant Portal Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Permite Acces Portal"
+=======
+msgstr "Acordă acces la portal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acordă acces la portal"
 >>>>>>> upstream/18.0
@@ -14760,6 +15416,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Acordați angajaților acces la proiectul sau sarcinile dvs. adăugându-i ca "
+"urmăritori. Angajații primesc automat acces la sarcinile care le sunt "
+"atribuite."
+>>>>>>> upstream/18.0
 =======
 "Acordați angajaților acces la proiectul sau sarcinile dvs. adăugându-i ca "
 "urmăritori. Angajații primesc automat acces la sarcinile care le sunt "
@@ -14877,6 +15539,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Acordați utilizatorilor portalului acces la proiectul dvs. adăugându-i ca "
+"urmăritori (sarcinile proiectului nu sunt incluse). Pentru a acorda acces la"
+" sarcini unui utilizator portal, adăugați-l ca urmăritor la acele sarcini."
+>>>>>>> upstream/18.0
 =======
 "Acordați utilizatorilor portalului acces la proiectul dvs. adăugându-i ca "
 "urmăritori (sarcinile proiectului nu sunt incluse). Pentru a acorda acces la"
@@ -15000,6 +15668,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Gestionează colectarea ideilor în cadrul Sarcinilor noului tău Proiect și "
+"discută-le în chatter-ul sarcinilor."
+>>>>>>> upstream/18.0
 =======
 "Gestionează colectarea ideilor în cadrul Sarcinilor noului tău Proiect și "
 "discută-le în chatter-ul sarcinilor."
@@ -15095,7 +15768,11 @@ msgid "Handoff"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Predare "
+=======
+msgstr "Predare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predare"
 >>>>>>> upstream/18.0
@@ -15192,7 +15869,11 @@ msgid "Hide closed tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ascunde sarcinile închise"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ascunde sarcinile închise"
 >>>>>>> upstream/18.0
@@ -15269,7 +15950,11 @@ msgid "Hide the sub-task in your pipeline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ascunde sub-sarcina din fluxul tău"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ascunde sub-sarcina din fluxul tău"
 >>>>>>> upstream/18.0
@@ -15347,7 +16032,11 @@ msgid "High"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ridicat"
+=======
+msgstr "Ridicată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ridicată"
 >>>>>>> upstream/18.0
@@ -15429,7 +16118,11 @@ msgid "History data"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Date istoric"
+>>>>>>> upstream/18.0
 =======
 msgstr "Date istoric"
 >>>>>>> upstream/18.0
@@ -15506,7 +16199,11 @@ msgid "History metadata"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metadate istoric"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metadate istoric"
 >>>>>>> upstream/18.0
@@ -15589,7 +16286,11 @@ msgid "Home Construction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Construcție locuință"
+>>>>>>> upstream/18.0
 =======
 msgstr "Construcție locuință"
 >>>>>>> upstream/18.0
@@ -15666,7 +16367,11 @@ msgid "Home Make Over"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Renovare locuință"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renovare locuință"
 >>>>>>> upstream/18.0
@@ -15775,8 +16480,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID-ul înregistrării părinte care deține aliasul (exemplu: proiectul care "
+"deține aliasul de creare a sarcinii)"
+>>>>>>> upstream/18.0
 =======
 "ID-ul înregistrării părinte care deține aliasul (exemplu: proiectul care "
 "deține aliasul de creare a sarcinii)"
@@ -15880,7 +16590,11 @@ msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictograma care indică o activitate de excepție."
+=======
+msgstr "Pictogramă care indică o activitate de excepție."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă care indică o activitate de excepție."
 >>>>>>> upstream/18.0
@@ -15966,7 +16680,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifat, mesaje noi necesită atenția dumneavoastră."
+=======
+msgstr "Dacă este bifat, mesajele noi necesită atenția dvs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, mesajele noi necesită atenția dvs."
 >>>>>>> upstream/18.0
@@ -16050,7 +16768,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifată, există mesaje cu eroare de livrare."
+=======
+msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
 >>>>>>> upstream/18.0
@@ -16131,8 +16853,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kanban a proiectelor dumneavoastră. Proiectele într-o etapă pliată sunt "
 "considerate închise."
+=======
+"Kanban a proiectelor tale. Proiectele într-o etapă pliată sunt considerate "
+"închise."
+>>>>>>> upstream/18.0
 =======
 "Kanban a proiectelor tale. Proiectele într-o etapă pliată sunt considerate "
 "închise."
@@ -16231,6 +16958,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dacă este setat, o solicitare de evaluare va fi trimisă automat prin e-mail clientului când sarcina ajunge în această etapă.\n"
+"Alternativ, va fi trimisă la un interval regulat atât timp cât sarcina rămâne în această etapă, în funcție de configurația proiectului.\n"
+"Pentru a folosi această funcționalitate, asigurați-vă că opțiunea 'Evaluări clienți' este activată pe proiect."
+>>>>>>> upstream/18.0
 =======
 "Dacă este setat, o solicitare de evaluare va fi trimisă automat prin e-mail clientului când sarcina ajunge în această etapă.\n"
 "Alternativ, va fi trimisă la un interval regulat atât timp cât sarcina rămâne în această etapă, în funcție de configurația proiectului.\n"
@@ -16346,6 +17079,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dacă este setat, un e-mail va fi trimis automat clientului când proiectul "
+"ajunge în această etapă."
+>>>>>>> upstream/18.0
 =======
 "Dacă este setat, un e-mail va fi trimis automat clientului când proiectul "
 "ajunge în această etapă."
@@ -16443,6 +17181,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dacă este setat, un e-mail va fi trimis automat clientului când sarcina "
+"ajunge în această etapă."
+>>>>>>> upstream/18.0
 =======
 "Dacă este setat, un e-mail va fi trimis automat clientului când sarcina "
 "ajunge în această etapă."
@@ -16541,7 +17284,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "neautorizați în loc de mesajul implicit."
+=======
+"neautorizați în locul mesajului implicit."
+>>>>>>> upstream/18.0
 =======
 "neautorizați în locul mesajului implicit."
 >>>>>>> upstream/18.0
@@ -16631,7 +17378,11 @@ msgid "In development"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "în dezvoltare"
+=======
+msgstr "În dezvoltare"
+>>>>>>> upstream/18.0
 =======
 msgstr "În dezvoltare"
 >>>>>>> upstream/18.0
@@ -16711,7 +17462,11 @@ msgid "Inbox"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Casuța poștală"
+=======
+msgstr "Inbox"
+>>>>>>> upstream/18.0
 =======
 msgstr "Inbox"
 >>>>>>> upstream/18.0
@@ -16788,7 +17543,11 @@ msgid "Interior"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Interior"
+>>>>>>> upstream/18.0
 =======
 msgstr "Interior"
 >>>>>>> upstream/18.0
@@ -16871,7 +17630,11 @@ msgid "Internal Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nota interna"
+=======
+msgstr "Notă internă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Notă internă"
 >>>>>>> upstream/18.0
@@ -16960,7 +17723,11 @@ msgid "Internal notes are only displayed to internal users."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Notele interne sunt afișate numai utilizatorilor interni."
+=======
+msgstr "Notele interne sunt afișate doar utilizatorilor interni."
+>>>>>>> upstream/18.0
 =======
 msgstr "Notele interne sunt afișate doar utilizatorilor interni."
 >>>>>>> upstream/18.0
@@ -17065,7 +17832,11 @@ msgid "Is Closed (Burn-up Chart)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este închis (Grafic Burn-up)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este închis (Grafic Burn-up)"
 >>>>>>> upstream/18.0
@@ -17152,7 +17923,11 @@ msgid "Is toggle mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este mod comutare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este mod comutare"
 >>>>>>> upstream/18.0
@@ -17229,7 +18004,11 @@ msgid "Issue Version"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Versiune Problema"
+=======
+msgstr "Versiune problemă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Versiune problemă"
 >>>>>>> upstream/18.0
@@ -17308,7 +18087,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "JSON care mapează id-urile dintr-un câmp many2one la secunde petrecute"
+=======
+"JSON care map-ează id-urile dintr-un câmp many2one la secunde petrecute"
+>>>>>>> upstream/18.0
 =======
 "JSON care map-ează id-urile dintr-un câmp many2one la secunde petrecute"
 >>>>>>> upstream/18.0
@@ -17391,6 +18174,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Urmăriți progresul sarcinilor dvs. de la creare până la finalizare.<br>\n"
+"                    Colaborați eficient discutând în timp real sau prin e-mail."
+>>>>>>> upstream/18.0
 =======
 "Urmăriți progresul sarcinilor dvs. de la creare până la finalizare.<br>\n"
 "                    Colaborați eficient discutând în timp real sau prin e-mail."
@@ -17489,6 +18277,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Urmăriți progresul sarcinilor dvs. de la creare până la finalizare.<br>\n"
+"                Colaborați eficient discutând în timp real sau prin e-mail."
+>>>>>>> upstream/18.0
 =======
 "Urmăriți progresul sarcinilor dvs. de la creare până la finalizare.<br>\n"
 "                Colaborați eficient discutând în timp real sau prin e-mail."
@@ -17584,7 +18377,11 @@ msgid "Last 30 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultimele 30 zile"
+=======
+msgstr "Ultimele 30 de zile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultimele 30 de zile"
 >>>>>>> upstream/18.0
@@ -17662,7 +18459,11 @@ msgid "Last 365 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultimile 365 de zile"
+=======
+msgstr "Ultimele 365 de zile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultimele 365 de zile"
 >>>>>>> upstream/18.0
@@ -17744,7 +18545,11 @@ msgid "Last Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima lună"
+=======
+msgstr "Luna trecută"
+>>>>>>> upstream/18.0
 =======
 msgstr "Luna trecută"
 >>>>>>> upstream/18.0
@@ -17825,7 +18630,11 @@ msgid "Last Rating (1-5)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ultima evaluare (1-5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima evaluare (1-5)"
 >>>>>>> upstream/18.0
@@ -17919,7 +18728,11 @@ msgid "Last Stage Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima etapă actualizată"
+=======
+msgstr "Ultima actualizare a etapei"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare a etapei"
 >>>>>>> upstream/18.0
@@ -17996,7 +18809,11 @@ msgid "Last Updated On"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima Actualizare În"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -18086,7 +18903,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de către"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare de către"
 >>>>>>> upstream/18.0
@@ -18175,7 +18996,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -18258,7 +19083,11 @@ msgid "Late Milestones"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etape întârziate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etape întârziate"
 >>>>>>> upstream/18.0
@@ -18344,7 +19173,11 @@ msgid "Leave a comment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lăsați un comentariu"
+=======
+msgstr "Lasă un comentariu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lasă un comentariu"
 >>>>>>> upstream/18.0
@@ -18422,7 +19255,11 @@ msgid "Let's create your first <b>project</b>."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Să creăm primul dvs. <b>proiect</b>."
+=======
+msgstr "Să creăm primul tău <b>proiect</b>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Să creăm primul tău <b>proiect</b>."
 >>>>>>> upstream/18.0
@@ -18500,7 +19337,11 @@ msgid "Let's create your first <b>stage</b>."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Să creăm prima ta <b>etapă</b>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Să creăm prima ta <b>etapă</b>."
 >>>>>>> upstream/18.0
@@ -18584,7 +19425,11 @@ msgid "Let's create your second <b>stage</b>."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Să creăm a doua ta <b>etapă</b>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Să creăm a doua ta <b>etapă</b>."
 >>>>>>> upstream/18.0
@@ -18665,6 +19510,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Să revenim la <b>vizualizarea kanban</b> pentru a vedea următoarele sarcini."
+>>>>>>> upstream/18.0
 =======
 "Să revenim la <b>vizualizarea kanban</b> pentru a vedea următoarele sarcini."
 >>>>>>> upstream/18.0
@@ -18747,7 +19596,11 @@ msgid "Let's wait for your customers to manifest themselves."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Să așteptăm ca clienții dvs. să se manifeste."
+=======
+msgstr "Să așteptăm ca clienții tăi să se manifeste."
+>>>>>>> upstream/18.0
 =======
 msgstr "Să așteptăm ca clienții tăi să se manifeste."
 >>>>>>> upstream/18.0
@@ -18830,7 +19683,11 @@ msgid "Local-part based incoming detection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Detectare bazată pe partea locală a destinatarului"
+=======
+msgstr "Detectare a mesajelor primite pe baza părții locale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detectare a mesajelor primite pe baza părții locale"
 >>>>>>> upstream/18.0
@@ -18908,7 +19765,11 @@ msgid "Logo Design"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Desing Logo"
+=======
+msgstr "Design Logo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Design Logo"
 >>>>>>> upstream/18.0
@@ -18986,7 +19847,11 @@ msgid "Look for the"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută"
 >>>>>>> upstream/18.0
@@ -19064,7 +19929,11 @@ msgid "Low"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scăzut"
+=======
+msgstr "Scăzută"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scăzută"
 >>>>>>> upstream/18.0
@@ -19145,6 +20014,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Gestionează ciclul de viață al proiectului tău folosind vizualizarea kanban. Adaugă proiecte nou achiziționate,\n"
+"      atribuie-le și folosește"
+>>>>>>> upstream/18.0
 =======
 "Gestionează ciclul de viață al proiectului tău folosind vizualizarea kanban. Adaugă proiecte nou achiziționate,\n"
 "      atribuie-le și folosește"
@@ -19252,7 +20126,11 @@ msgid "Mark as incomplete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marchează ca incomplet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marchează ca incomplet"
 >>>>>>> upstream/18.0
@@ -19330,7 +20208,11 @@ msgid "Mark as reached"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marchează ca atins"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marchează ca atins"
 >>>>>>> upstream/18.0
@@ -19408,7 +20290,11 @@ msgid "Mark the task as <b>Cancelled</b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marchează sarcina ca <b>Anulată</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marchează sarcina ca <b>Anulată</b>"
 >>>>>>> upstream/18.0
@@ -19486,7 +20372,11 @@ msgid "Material Sourcing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sursă Materiale "
+=======
+msgstr "Aprovizionare materiale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprovizionare materiale"
 >>>>>>> upstream/18.0
@@ -19566,6 +20456,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Măsurați satisfacția clienților trimițând solicitări de evaluare atunci când"
+" sarcinile dvs. ajung într-o anumită etapă."
+>>>>>>> upstream/18.0
 =======
 "Măsurați satisfacția clienților trimițând solicitări de evaluare atunci când"
 " sarcinile dvs. ajung într-o anumită etapă."
@@ -19699,7 +20594,11 @@ msgid "Milestone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapa de referință"
+=======
+msgstr "Etapă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă"
 >>>>>>> upstream/18.0
@@ -19781,7 +20680,11 @@ msgid "Milestones"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etape importante"
+=======
+msgstr "Etape"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etape"
 >>>>>>> upstream/18.0
@@ -19859,7 +20762,11 @@ msgid "Mixing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Amestec"
+=======
+msgstr "Amestecare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Amestecare"
 >>>>>>> upstream/18.0
@@ -19944,7 +20851,11 @@ msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită a activității mele"
+=======
+msgstr "Termen limită activitate proprie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită activitate proprie"
 >>>>>>> upstream/18.0
@@ -20022,7 +20933,11 @@ msgid "My Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Termenele mele limită"
+=======
+msgstr "Termenul meu limită"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termenul meu limită"
 >>>>>>> upstream/18.0
@@ -20099,7 +21014,11 @@ msgid "My Favorites"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Favorite mele"
+=======
+msgstr "Favoritele mele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Favoritele mele"
 >>>>>>> upstream/18.0
@@ -20189,7 +21108,11 @@ msgid "My Updates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualizările mele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizările mele"
 >>>>>>> upstream/18.0
@@ -20281,7 +21204,11 @@ msgid "Name of the Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numele sarcinilor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numele sarcinilor"
 >>>>>>> upstream/18.0
@@ -20361,6 +21288,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nume folosit pentru a face referire la sarcinile proiectului tău, ex. "
+"sarcini, tichete, sprinturi etc..."
+>>>>>>> upstream/18.0
 =======
 "Nume folosit pentru a face referire la sarcinile proiectului tău, ex. "
 "sarcini, tichete, sprinturi etc..."
@@ -20471,7 +21403,11 @@ msgid "New Feature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Funcționalitate nouă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Funcționalitate nouă"
 >>>>>>> upstream/18.0
@@ -20549,7 +21485,11 @@ msgid "New Milestone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "O etapă de referință nouă"
+=======
+msgstr "Etapă nouă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă nouă"
 >>>>>>> upstream/18.0
@@ -20633,7 +21573,11 @@ msgid "New Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proiect nou"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect nou"
 >>>>>>> upstream/18.0
@@ -20711,7 +21655,11 @@ msgid "New Projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Proiecte Noi"
+=======
+msgstr "Proiecte noi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiecte noi"
 >>>>>>> upstream/18.0
@@ -20795,7 +21743,11 @@ msgid "New Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină nouă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină nouă"
 >>>>>>> upstream/18.0
@@ -20892,7 +21844,11 @@ msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Următoarea activitate din calendar"
+=======
+msgstr "Următorul eveniment din calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Următorul eveniment din calendar"
 >>>>>>> upstream/18.0
@@ -20971,7 +21927,11 @@ msgid "Next Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită pentru următoarea activitate"
+=======
+msgstr "Termen limită următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită următoare activitate"
 >>>>>>> upstream/18.0
@@ -21050,7 +22010,11 @@ msgid "Next Activity Summary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sumarul următoarei activități"
+=======
+msgstr "Sumar următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumar următoare activitate"
 >>>>>>> upstream/18.0
@@ -21129,7 +22093,11 @@ msgid "Next Activity Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Următorul tip de activitate"
+=======
+msgstr "Tip următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip următoare activitate"
 >>>>>>> upstream/18.0
@@ -21206,7 +22174,11 @@ msgid "No Customer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fără client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fără client"
 >>>>>>> upstream/18.0
@@ -21283,7 +22255,11 @@ msgid "No Milestone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fără etapă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fără etapă"
 >>>>>>> upstream/18.0
@@ -21360,7 +22336,11 @@ msgid "No Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fără proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fără proiect"
 >>>>>>> upstream/18.0
@@ -21443,7 +22423,11 @@ msgid "No activity types found. Let's create one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Niciun tip de activitate găsit. Haide să creăm unul!"
+=======
+msgstr "Nu s-au găsit tipuri de activitate. Să creăm unul!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu s-au găsit tipuri de activitate. Să creăm unul!"
 >>>>>>> upstream/18.0
@@ -21521,7 +22505,11 @@ msgid "No customer ratings yet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu există încă evaluări ale clienților"
+=======
+msgstr "Nu există încă evaluări de la clienți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există încă evaluări de la clienți"
 >>>>>>> upstream/18.0
@@ -21607,7 +22595,11 @@ msgid "No projects found. Let's create one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu s-a găsit niciun proiect. Să creăm unul!"
+=======
+msgstr "Nu s-au găsit proiecte. Să creăm unul!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu s-au găsit proiecte. Să creăm unul!"
 >>>>>>> upstream/18.0
@@ -21685,7 +22677,11 @@ msgid "No stages found. Let's create one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Niciun stadiu găsit. Haide să creăm unul !"
+=======
+msgstr "Nu s-au găsit etape. Să creăm una!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu s-au găsit etape. Să creăm una!"
 >>>>>>> upstream/18.0
@@ -21762,7 +22758,11 @@ msgid "No tags found. Let's create one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu au fost găsite etichete. Să creăm una!"
+=======
+msgstr "Nu s-au găsit etichete. Să creăm una!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu s-au găsit etichete. Să creăm una!"
 >>>>>>> upstream/18.0
@@ -21860,7 +22860,11 @@ msgid "None"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fără"
+=======
+msgstr "Niciunul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niciunul"
 >>>>>>> upstream/18.0
@@ -21938,7 +22942,11 @@ msgid "Not Implemented."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neimplementat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Neimplementat."
 >>>>>>> upstream/18.0
@@ -22054,7 +23062,11 @@ msgid "Off Track"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "În afara traseului"
+>>>>>>> upstream/18.0
 =======
 msgstr "În afara traseului"
 >>>>>>> upstream/18.0
@@ -22137,7 +23149,11 @@ msgid "Office Design"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Design birou"
+>>>>>>> upstream/18.0
 =======
 msgstr "Design birou"
 >>>>>>> upstream/18.0
@@ -22215,7 +23231,11 @@ msgid "Old Completed Sprint"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprint vechi finalizat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprint vechi finalizat"
 >>>>>>> upstream/18.0
@@ -22301,7 +23321,11 @@ msgid "On Track"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pe traseu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pe traseu"
 >>>>>>> upstream/18.0
@@ -22378,7 +23402,11 @@ msgid "Once a Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lunar"
+=======
+msgstr "O dată pe lună"
+>>>>>>> upstream/18.0
 =======
 msgstr "O dată pe lună"
 >>>>>>> upstream/18.0
@@ -22456,7 +23484,11 @@ msgid "Only jpeg, png, bmp and tiff images are allowed as attachments."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sunt permise ca atașamente doar imagini jpeg, png, bmp și tiff."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sunt permise ca atașamente doar imagini jpeg, png, bmp și tiff."
 >>>>>>> upstream/18.0
@@ -22535,7 +23567,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Hopa! Ceva n-a mers bine. Încercați să reîncărcați pagina și conectați-vă."
+=======
+"Hopa! Ceva n-a mers bine. Încercați să reîncărcați pagina și să vă "
+"conectați."
+>>>>>>> upstream/18.0
 =======
 "Hopa! Ceva n-a mers bine. Încercați să reîncărcați pagina și să vă "
 "conectați."
@@ -22638,7 +23675,11 @@ msgid "Open sub-tasks notebook section"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deschide secțiunea de sub-sarcini din notebook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Deschide secțiunea de sub-sarcini din notebook"
 >>>>>>> upstream/18.0
@@ -22715,7 +23756,11 @@ msgid "Open tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini deschise"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini deschise"
 >>>>>>> upstream/18.0
@@ -22793,7 +23838,11 @@ msgid "Operation not supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Operațiunea nu este acceptată"
+=======
+msgstr "Operațiune neacceptată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operațiune neacceptată"
 >>>>>>> upstream/18.0
@@ -22874,9 +23923,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Id-ul optional al unei înregistrări la care vor fi atașate toate mesajele "
 "primite, chiar dacă nu i-au răspuns. Dacă este setat, acesta va dezactiva "
 "complet crearea de înregistrări noi."
+=======
+"ID opțional al unei conversații (înregistrare) la care vor fi atașate toate "
+"mesajele primite, chiar dacă nu i-au răspuns. Dacă este setat, va dezactiva "
+"complet crearea de noi înregistrări."
+>>>>>>> upstream/18.0
 =======
 "ID opțional al unei conversații (înregistrare) la care vor fi atașate toate "
 "mesajele primite, chiar dacă nu i-au răspuns. Dacă este setat, va dezactiva "
@@ -22990,7 +24045,11 @@ msgid "Organize priorities amongst orders using the"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Organizați prioritățile între comenzi folosind"
+>>>>>>> upstream/18.0
 =======
 msgstr "Organizați prioritățile între comenzi folosind"
 >>>>>>> upstream/18.0
@@ -23072,6 +24131,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Organizați-vă sarcinile distribuindu-le pe fluxul de lucru.<br>\n"
+"                    Colaborați eficient discutând în timp real sau prin e-mail."
+>>>>>>> upstream/18.0
 =======
 "Organizați-vă sarcinile distribuindu-le pe fluxul de lucru.<br>\n"
 "                    Colaborați eficient discutând în timp real sau prin e-mail."
@@ -23178,7 +24242,11 @@ msgid "Overpassed Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcini omise"
+=======
+msgstr "Sarcini depășite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini depășite"
 >>>>>>> upstream/18.0
@@ -23256,7 +24324,11 @@ msgid "Page Ideas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Idei Pagină"
+=======
+msgstr "Idei de pagină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Idei de pagină"
 >>>>>>> upstream/18.0
@@ -23338,7 +24410,11 @@ msgid "Parent Record Thread ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID-ul thread-ului înregistrării părinte"
+=======
+msgstr "ID conversație înregistrare părinte"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID conversație înregistrare părinte"
 >>>>>>> upstream/18.0
@@ -23428,8 +24504,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "este neapărat modelul dat de alias_model_id (example: project (parent_model)"
 " and task (model))"
+=======
+"este neapărat modelul dat de alias_model_id (exemplu: proiect (parent_model)"
+" și sarcină (model))"
+>>>>>>> upstream/18.0
 =======
 "este neapărat modelul dat de alias_model_id (exemplu: proiect (parent_model)"
 " și sarcină (model))"
@@ -23527,6 +24608,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Compania partenerului nu poate fi diferită de compania proiectelor atribuite"
+>>>>>>> upstream/18.0
 =======
 "Compania partenerului nu poate fi diferită de compania proiectelor atribuite"
 >>>>>>> upstream/18.0
@@ -23605,6 +24690,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Compania partenerului nu poate fi diferită de compania sarcinilor atribuite"
+>>>>>>> upstream/18.0
 =======
 "Compania partenerului nu poate fi diferită de compania sarcinilor atribuite"
 >>>>>>> upstream/18.0
@@ -23681,7 +24770,11 @@ msgid "Partner's Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcinile partenerului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcinile partenerului"
 >>>>>>> upstream/18.0
@@ -23760,6 +24853,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Persoanele invitate să colaboreze la proiect vor avea drepturi de acces la "
+"portal."
+>>>>>>> upstream/18.0
 =======
 "Persoanele invitate să colaboreze la proiect vor avea drepturi de acces la "
 "portal."
@@ -23870,7 +24968,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23936,6 +25037,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24002,7 +25106,11 @@ msgid "Personal Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stadiu personal"
+=======
+msgstr "Etapă personală"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă personală"
 >>>>>>> upstream/18.0
@@ -24079,7 +25187,11 @@ msgid "Personal Stage State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Starea stadiului personal"
+=======
+msgstr "Stare etapă personală"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare etapă personală"
 >>>>>>> upstream/18.0
@@ -24156,7 +25268,11 @@ msgid "Personal Task Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapă personală sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă personală sarcină"
 >>>>>>> upstream/18.0
@@ -24243,8 +25359,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vă rugăm să eliminați sarcinile existente în proiect legate de conturile pe "
 "care doriți să le ștergeți."
+=======
+"Vă rugăm să eliminați sarcinile existente în proiectul legat de conturile pe"
+" care doriți să le ștergeți."
+>>>>>>> upstream/18.0
 =======
 "Vă rugăm să eliminați sarcinile existente în proiectul legat de conturile pe"
 " care doriți să le ștergeți."
@@ -24340,7 +25461,11 @@ msgid "Podcast and Video Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Podcast și producție video"
+=======
+msgstr "Producție podcast și video"
+>>>>>>> upstream/18.0
 =======
 msgstr "Producție podcast și video"
 >>>>>>> upstream/18.0
@@ -24423,9 +25548,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- toată lumea: toată lumea poate posta\n"
 "- parteneri: numai parteneri autentificați\n"
 "- adepți: numai urmăritori ai documentului aferent sau membri ai canalelor următoare\n"
+=======
+"- toată lumea: oricine poate posta\n"
+"- parteneri: doar partenerii autentificați\n"
+"- urmăritori: doar urmăritorii documentului sau membrii canalelor urmărite\n"
+>>>>>>> upstream/18.0
 =======
 "- toată lumea: oricine poate posta\n"
 "- parteneri: doar partenerii autentificați\n"
@@ -24539,7 +25670,11 @@ msgid "Portal Access URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresa URL de acces la portal"
+=======
+msgstr "URL acces portal"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL acces portal"
 >>>>>>> upstream/18.0
@@ -24620,6 +25755,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Utilizatorii portal vor fi eliminați din urmăritorii proiectului și ai "
+"sarcinilor sale."
+>>>>>>> upstream/18.0
 =======
 "Utilizatorii portal vor fi eliminați din urmăritorii proiectului și ai "
 "sarcinilor sale."
@@ -24721,7 +25861,11 @@ msgid "Prioritize your tasks by marking important ones using the"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prioritizați-vă sarcinile marcându-le pe cele importante folosind"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prioritizați-vă sarcinile marcându-le pe cele importante folosind"
 >>>>>>> upstream/18.0
@@ -24807,7 +25951,11 @@ msgid "Priority: {{'Important' if task.priority == '1' else 'Normal'}}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prioritate: {{'Importantă' if task.priority == '1' else 'Normală'}}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prioritate: {{'Importantă' if task.priority == '1' else 'Normală'}}"
 >>>>>>> upstream/18.0
@@ -24889,7 +26037,11 @@ msgid "Private"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Personal"
+=======
+msgstr "Privat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Privat"
 >>>>>>> upstream/18.0
@@ -24966,7 +26118,11 @@ msgid "Private Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini private"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini private"
 >>>>>>> upstream/18.0
@@ -25047,6 +26203,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sarcinile private nu pot fi convertite în sub-sarcini. Vă rugăm să setați un"
+" proiect pe sarcină pentru a accesa această funcționalitate."
+>>>>>>> upstream/18.0
 =======
 "Sarcinile private nu pot fi convertite în sub-sarcini. Vă rugăm să setați un"
 " proiect pe sarcină pentru a accesa această funcționalitate."
@@ -25143,7 +26304,11 @@ msgid "Profitability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rentabilitatea"
+=======
+msgstr "Profitabilitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Profitabilitate"
 >>>>>>> upstream/18.0
@@ -25222,7 +26387,11 @@ msgid "Progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "În desfășurare"
+=======
+msgstr "Progres"
+>>>>>>> upstream/18.0
 =======
 msgstr "Progres"
 >>>>>>> upstream/18.0
@@ -25324,7 +26493,11 @@ msgid "Project Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contul de proiect"
+=======
+msgstr "Cont proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cont proiect"
 >>>>>>> upstream/18.0
@@ -25404,7 +26577,11 @@ msgid "Project Manager"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Managerul de proiect"
+=======
+msgstr "Manager proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Manager proiect"
 >>>>>>> upstream/18.0
@@ -25481,7 +26658,11 @@ msgid "Project Milestone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapa de referință a proiectului"
+=======
+msgstr "Etapă proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă proiect"
 >>>>>>> upstream/18.0
@@ -25564,7 +26745,11 @@ msgid "Project Rating Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stare evaluare proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare evaluare proiect"
 >>>>>>> upstream/18.0
@@ -25642,7 +26827,11 @@ msgid "Project Sharing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partajare proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partajare proiect"
 >>>>>>> upstream/18.0
@@ -25719,7 +26908,11 @@ msgid "Project Sharing Collaborator Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asistent colaborator partajare proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asistent colaborator partajare proiect"
 >>>>>>> upstream/18.0
@@ -25796,7 +26989,11 @@ msgid "Project Sharing Recurrence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Recurență partajare proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recurență partajare proiect"
 >>>>>>> upstream/18.0
@@ -25873,7 +27070,11 @@ msgid "Project Sharing: Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partajare proiect: Sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partajare proiect: Sarcină"
 >>>>>>> upstream/18.0
@@ -25950,7 +27151,11 @@ msgid "Project Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapă proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă proiect"
 >>>>>>> upstream/18.0
@@ -26027,7 +27232,11 @@ msgid "Project Stage Changed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapă proiect schimbată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă proiect schimbată"
 >>>>>>> upstream/18.0
@@ -26104,7 +27313,11 @@ msgid "Project Stage Delete Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asistent ștergere etapă proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asistent ștergere etapă proiect"
 >>>>>>> upstream/18.0
@@ -26183,7 +27396,11 @@ msgid "Project Stages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etape proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etape proiect"
 >>>>>>> upstream/18.0
@@ -26260,7 +27477,11 @@ msgid "Project Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etichete Proiect"
+=======
+msgstr "Etichete proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etichete proiect"
 >>>>>>> upstream/18.0
@@ -26337,7 +27558,11 @@ msgid "Project Task Stage Delete Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asistent ștergere etapă sarcină proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asistent ștergere etapă sarcină proiect"
 >>>>>>> upstream/18.0
@@ -26414,7 +27639,11 @@ msgid "Project Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcini Proiect"
+=======
+msgstr "Sarcini proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini proiect"
 >>>>>>> upstream/18.0
@@ -26491,7 +27720,11 @@ msgid "Project Title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Titlu proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Titlu proiect"
 >>>>>>> upstream/18.0
@@ -26574,7 +27807,11 @@ msgid "Project Visibility"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vizibilitate Proiect"
+=======
+msgstr "Vizibilitate proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vizibilitate proiect"
 >>>>>>> upstream/18.0
@@ -26651,7 +27888,11 @@ msgid "Project description..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Descriere proiect..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Descriere proiect..."
 >>>>>>> upstream/18.0
@@ -26729,7 +27970,11 @@ msgid "Project shared with your collaborators."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proiect partajat cu colaboratorii tăi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect partajat cu colaboratorii tăi."
 >>>>>>> upstream/18.0
@@ -26806,7 +28051,11 @@ msgid "Project status - {{ object.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stare proiect - {{ object.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare proiect - {{ object.name }}"
 >>>>>>> upstream/18.0
@@ -26883,7 +28132,11 @@ msgid "Project's tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcini proiect"
+=======
+msgstr "Sarcinile proiectului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcinile proiectului"
 >>>>>>> upstream/18.0
@@ -26960,7 +28213,11 @@ msgid "Project: Project Completed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proiect: Proiect finalizat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect: Proiect finalizat"
 >>>>>>> upstream/18.0
@@ -27037,7 +28294,11 @@ msgid "Project: Request Acknowledgment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proiect: Confirmare solicitare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect: Confirmare solicitare"
 >>>>>>> upstream/18.0
@@ -27114,7 +28375,11 @@ msgid "Project: Send rating"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Proiect: Trimite rating"
+=======
+msgstr "Proiect: Trimite evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect: Trimite evaluare"
 >>>>>>> upstream/18.0
@@ -27191,7 +28456,11 @@ msgid "Project: Task Rating Request"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proiect: Solicitare evaluare sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect: Solicitare evaluare sarcină"
 >>>>>>> upstream/18.0
@@ -27292,6 +28561,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Proiectele conțin sarcini pe aceeași temă și fiecare are propriul tablou de "
+"bord."
+>>>>>>> upstream/18.0
 =======
 "Proiectele conțin sarcini pe aceeași temă și fiecare are propriul tablou de "
 "bord."
@@ -27390,6 +28664,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Proiecte în care această etapă este prezentă. Dacă urmezi un flux de lucru "
+"similar în mai multe proiecte, poți partaja această etapă între ele și "
+"obține informații consolidate astfel."
+>>>>>>> upstream/18.0
 =======
 "Proiecte în care această etapă este prezentă. Dacă urmezi un flux de lucru "
 "similar în mai multe proiecte, poți partaja această etapă între ele și "
@@ -27509,7 +28789,11 @@ msgid "Public Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Link public"
+>>>>>>> upstream/18.0
 =======
 msgstr "Link public"
 >>>>>>> upstream/18.0
@@ -27593,7 +28877,11 @@ msgid "Published on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Publicat în"
+=======
+msgstr "Publicat pe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Publicat pe"
 >>>>>>> upstream/18.0
@@ -27685,6 +28973,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Verifică rapid starea sarcinilor pentru aprobări sau solicitări de "
+"modificare și identifică-le pe cele în așteptare până când dependențele sunt"
+" rezolvate cu pictograma clepsidră."
+>>>>>>> upstream/18.0
 =======
 "Verifică rapid starea sarcinilor pentru aprobări sau solicitări de "
 "modificare și identifică-le pe cele în așteptare până când dependențele sunt"
@@ -27809,7 +29103,11 @@ msgid "Rating (1-5)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evaluare (1-5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare (1-5)"
 >>>>>>> upstream/18.0
@@ -27886,7 +29184,11 @@ msgid "Rating Avg Text"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Textul mediu al evaluării"
+=======
+msgstr "Text medie evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Text medie evaluare"
 >>>>>>> upstream/18.0
@@ -27963,7 +29265,11 @@ msgid "Rating Email Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Șablon email de evaluare"
+=======
+msgstr "Șablon email evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șablon email evaluare"
 >>>>>>> upstream/18.0
@@ -28045,7 +29351,11 @@ msgid "Rating Last Feedback"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare Ultimul feedback"
+=======
+msgstr "Ultimul feedback evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultimul feedback evaluare"
 >>>>>>> upstream/18.0
@@ -28122,7 +29432,11 @@ msgid "Rating Last Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare ultima imagine"
+=======
+msgstr "Ultima imagine evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima imagine evaluare"
 >>>>>>> upstream/18.0
@@ -28199,7 +29513,11 @@ msgid "Rating Last Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare ultima valoare"
+=======
+msgstr "Ultima valoare evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima valoare evaluare"
 >>>>>>> upstream/18.0
@@ -28277,7 +29595,11 @@ msgid "Rating Satisfaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare satisfacție"
+=======
+msgstr "Satisfacție evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satisfacție evaluare"
 >>>>>>> upstream/18.0
@@ -28354,7 +29676,11 @@ msgid "Rating Text"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare text"
+=======
+msgstr "Text evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Text evaluare"
 >>>>>>> upstream/18.0
@@ -28431,7 +29757,11 @@ msgid "Rating count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Număr de evaluări"
+=======
+msgstr "Număr evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr evaluări"
 >>>>>>> upstream/18.0
@@ -28513,7 +29843,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ratings"
+=======
+msgstr "Evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluări"
 >>>>>>> upstream/18.0
@@ -28595,7 +29929,11 @@ msgid "Read"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Citiți"
+=======
+msgstr "Citire"
+>>>>>>> upstream/18.0
 =======
 msgstr "Citire"
 >>>>>>> upstream/18.0
@@ -28672,7 +30010,11 @@ msgid "Read: collaborators can view tasks but cannot edit them."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Citire: colaboratorii pot vedea sarcinile dar nu le pot edita."
+>>>>>>> upstream/18.0
 =======
 msgstr "Citire: colaboratorii pot vedea sarcinile dar nu le pot edita."
 >>>>>>> upstream/18.0
@@ -28753,6 +30095,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Citire: colaboratorii pot vedea sarcinile dar nu le pot edita.\n"
+"Editare cu acces limitat: colaboratorii pot vedea și edita sarcinile pe care le urmăresc în vizualizarea Kanban.\n"
+"Editare: colaboratorii pot vedea și edita toate sarcinile în vizualizarea Kanban. În plus, pot alege ce sarcini doresc să urmărească."
+>>>>>>> upstream/18.0
 =======
 "Citire: colaboratorii pot vedea sarcinile dar nu le pot edita.\n"
 "Editare cu acces limitat: colaboratorii pot vedea și edita sarcinile pe care le urmăresc în vizualizarea Kanban.\n"
@@ -28865,7 +30213,11 @@ msgid "Reception of {{ object.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Recepție {{ object.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recepție {{ object.name }}"
 >>>>>>> upstream/18.0
@@ -28947,7 +30299,11 @@ msgid "Record Thread ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID Înregistrare Thread"
+=======
+msgstr "ID fir discuție înregistrare"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID fir discuție înregistrare"
 >>>>>>> upstream/18.0
@@ -29040,7 +30396,11 @@ msgid "Recurrent tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini recurente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini recurente"
 >>>>>>> upstream/18.0
@@ -29119,7 +30479,11 @@ msgid "Recurring Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini recurente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini recurente"
 >>>>>>> upstream/18.0
@@ -29202,7 +30566,11 @@ msgid "Related Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Document Related"
+=======
+msgstr "Document asociat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Document asociat"
 >>>>>>> upstream/18.0
@@ -29279,7 +30647,11 @@ msgid "Related Document ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID Document Asociat"
+=======
+msgstr "ID document asociat"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID document asociat"
 >>>>>>> upstream/18.0
@@ -29356,7 +30728,11 @@ msgid "Related Document Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modelul Documentului Asociat"
+=======
+msgstr "Model document asociat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Model document asociat"
 >>>>>>> upstream/18.0
@@ -29434,7 +30810,11 @@ msgid "Remove Collaborator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elimină colaborator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elimină colaborator"
 >>>>>>> upstream/18.0
@@ -29512,7 +30892,11 @@ msgid "Rename"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Redenumire"
+=======
+msgstr "Redenumește"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redenumește"
 >>>>>>> upstream/18.0
@@ -29590,7 +30974,11 @@ msgid "Renovations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Renovări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renovări"
 >>>>>>> upstream/18.0
@@ -29668,7 +31056,11 @@ msgid "Repeat Every"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Repetă în fiecare"
+=======
+msgstr "Repetă la fiecare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Repetă la fiecare"
 >>>>>>> upstream/18.0
@@ -29756,7 +31148,11 @@ msgid "Research"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cercetare "
+=======
+msgstr "Cercetare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cercetare"
 >>>>>>> upstream/18.0
@@ -29840,7 +31236,11 @@ msgid "Research Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Proiect Cercetare"
+=======
+msgstr "Proiect de cercetare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect de cercetare"
 >>>>>>> upstream/18.0
@@ -29918,7 +31318,11 @@ msgid "Researching"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cercetare"
+=======
+msgstr "Se cercetează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Se cercetează"
 >>>>>>> upstream/18.0
@@ -29996,7 +31400,11 @@ msgid "Resources Allocation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alocare Resurse"
+=======
+msgstr "Alocare resurse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocare resurse"
 >>>>>>> upstream/18.0
@@ -30081,7 +31489,11 @@ msgid "Restore"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Restabilire"
+=======
+msgstr "Restaurează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Restaurează"
 >>>>>>> upstream/18.0
@@ -30162,6 +31574,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Restaurarea va înlocui conținutul curent cu versiunea selectată. Orice "
+"modificare nesalvată va fi pierdută."
+>>>>>>> upstream/18.0
 =======
 "Restaurarea va înlocui conținutul curent cu versiunea selectată. Orice "
 "modificare nesalvată va fi pierdută."
@@ -30283,7 +31700,11 @@ msgid "Save the task to be able to drag images in description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Salvați sarcina pentru a putea trage imagini în descriere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Salvați sarcina pentru a putea trage imagini în descriere"
 >>>>>>> upstream/18.0
@@ -30361,7 +31782,11 @@ msgid "Save the task to be able to paste images in description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Salvați sarcina pentru a putea lipi imagini în descriere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Salvați sarcina pentru a putea lipi imagini în descriere"
 >>>>>>> upstream/18.0
@@ -30439,7 +31864,11 @@ msgid "Schedule your activity once it is ready."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Programează activitatea când este gata."
+>>>>>>> upstream/18.0
 =======
 msgstr "Programează activitatea când este gata."
 >>>>>>> upstream/18.0
@@ -30517,7 +31946,11 @@ msgid "Script"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Script"
+=======
+msgstr "Scenariu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scenariu"
 >>>>>>> upstream/18.0
@@ -30599,7 +32032,11 @@ msgid "Search Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută actualizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută actualizare"
 >>>>>>> upstream/18.0
@@ -30677,7 +32114,11 @@ msgid "Search in Assignees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută în responsabili"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în responsabili"
 >>>>>>> upstream/18.0
@@ -30755,7 +32196,11 @@ msgid "Search in Customer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Căutare în Clienți"
+=======
+msgstr "Caută în clienți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în clienți"
 >>>>>>> upstream/18.0
@@ -30833,7 +32278,11 @@ msgid "Search in Milestone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută în etape"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în etape"
 >>>>>>> upstream/18.0
@@ -30911,7 +32360,11 @@ msgid "Search in Priority"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută în prioritate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în prioritate"
 >>>>>>> upstream/18.0
@@ -30989,7 +32442,11 @@ msgid "Search in Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Căutare în proiect"
+=======
+msgstr "Caută în proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în proiect"
 >>>>>>> upstream/18.0
@@ -31067,7 +32524,11 @@ msgid "Search in Stages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Căutare in Stadii"
+=======
+msgstr "Caută în etape"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în etape"
 >>>>>>> upstream/18.0
@@ -31145,7 +32606,11 @@ msgid "Search in Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută în stare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în stare"
 >>>>>>> upstream/18.0
@@ -31223,7 +32688,11 @@ msgid "Search%(left)s Tasks%(right)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută%(left)s Sarcini%(right)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută%(left)s Sarcini%(right)s"
 >>>>>>> upstream/18.0
@@ -31307,7 +32776,11 @@ msgid "Select an assignee from the menu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selectează un responsabil din meniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectează un responsabil din meniu"
 >>>>>>> upstream/18.0
@@ -31391,7 +32864,11 @@ msgid "Send Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimiteți e-mail"
+=======
+msgstr "Trimite e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite e-mail"
 >>>>>>> upstream/18.0
@@ -31468,7 +32945,11 @@ msgid "Send Invitation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trimite invitație"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite invitație"
 >>>>>>> upstream/18.0
@@ -31550,7 +33031,11 @@ msgid "Set Cover Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Setare imagine copertă"
+=======
+msgstr "Setează imagine copertă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează imagine copertă"
 >>>>>>> upstream/18.0
@@ -31629,7 +33114,11 @@ msgid "Set Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Setează stare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează stare"
 >>>>>>> upstream/18.0
@@ -31707,7 +33196,11 @@ msgid "Set a Rating Email Template on Stages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Setează un șablon de e-mail pentru evaluare pe etape"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează un șablon de e-mail pentru evaluare pe etape"
 >>>>>>> upstream/18.0
@@ -31787,6 +33280,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Setează pe etapele proiectului pentru a informa clienții când proiectul "
+"ajunge în acea etapă"
+>>>>>>> upstream/18.0
 =======
 "Setează pe etapele proiectului pentru a informa clienții când proiectul "
 "ajunge în acea etapă"
@@ -31882,7 +33380,11 @@ msgid "Set priority as %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Setează prioritatea ca %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează prioritatea ca %s"
 >>>>>>> upstream/18.0
@@ -31960,7 +33462,11 @@ msgid "Set state as..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Setează starea ca..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează starea ca..."
 >>>>>>> upstream/18.0
@@ -32040,6 +33546,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Setează acest șablon pe o etapă a proiectului pentru a solicita feedback de "
+"la clienți. Activează funcția „evaluări clienți” pe proiect"
+>>>>>>> upstream/18.0
 =======
 "Setează acest șablon pe o etapă a proiectului pentru a solicita feedback de "
 "la clienți. Activează funcția „evaluări clienți” pe proiect"
@@ -32147,7 +33658,11 @@ msgid "Share Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partajează proiectul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partajează proiectul"
 >>>>>>> upstream/18.0
@@ -32225,7 +33740,11 @@ msgid "Share Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partajează sarcina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partajează sarcina"
 >>>>>>> upstream/18.0
@@ -32302,7 +33821,11 @@ msgid "Show Display In Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afișează în proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează în proiect"
 >>>>>>> upstream/18.0
@@ -32381,8 +33904,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Afișați toate înregistrările care au data următoarei acțiuni înainte de data"
 " de astăzi"
+=======
+"Afișează toate înregistrările care au data următoarei acțiuni înainte de "
+"astăzi"
+>>>>>>> upstream/18.0
 =======
 "Afișează toate înregistrările care au data următoarei acțiuni înainte de "
 "astăzi"
@@ -32478,7 +34006,11 @@ msgid "Show closed tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afișează sarcinile închise"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează sarcinile închise"
 >>>>>>> upstream/18.0
@@ -32566,7 +34098,11 @@ msgid "Software Development"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dezvoltare Software"
+=======
+msgstr "Dezvoltare software"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dezvoltare software"
 >>>>>>> upstream/18.0
@@ -32651,7 +34187,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32709,6 +34248,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32767,7 +34309,11 @@ msgid "Sorry. You can't set a task as its parent task."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scuze. Nu puteți seta o sarcină ca sarcină parentală."
+=======
+msgstr "Scuze. Nu puteți seta o sarcină ca sarcină părinte."
+>>>>>>> upstream/18.0
 =======
 msgstr "Scuze. Nu puteți seta o sarcină ca sarcină părinte."
 >>>>>>> upstream/18.0
@@ -32850,7 +34396,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32906,6 +34455,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32964,7 +34516,11 @@ msgid "Specifications"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Specificații "
+=======
+msgstr "Specificații"
+>>>>>>> upstream/18.0
 =======
 msgstr "Specificații"
 >>>>>>> upstream/18.0
@@ -33042,7 +34598,11 @@ msgid "Sprint Backlog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprint Backlog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprint Backlog"
 >>>>>>> upstream/18.0
@@ -33120,7 +34680,11 @@ msgid "Sprint Complete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprint finalizat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprint finalizat"
 >>>>>>> upstream/18.0
@@ -33198,7 +34762,11 @@ msgid "Sprint in Progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprint în desfășurare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprint în desfășurare"
 >>>>>>> upstream/18.0
@@ -33288,7 +34856,11 @@ msgid "Stage (Burndown Chart)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapă (Grafic Burndown)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă (Grafic Burndown)"
 >>>>>>> upstream/18.0
@@ -33370,7 +34942,11 @@ msgid "Stage Owner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Responsabil etapă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Responsabil etapă"
 >>>>>>> upstream/18.0
@@ -33453,7 +35029,11 @@ msgid "Stage: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapă: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă: %s"
 >>>>>>> upstream/18.0
@@ -33530,7 +35110,11 @@ msgid "Starred Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini marcate cu stea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini marcate cu stea"
 >>>>>>> upstream/18.0
@@ -33615,7 +35199,11 @@ msgid "State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Județ"
+=======
+msgstr "Stare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare"
 >>>>>>> upstream/18.0
@@ -33693,7 +35281,11 @@ msgid "State readonly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stare doar citire"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare doar citire"
 >>>>>>> upstream/18.0
@@ -33782,7 +35374,11 @@ msgid "Status Update - %(date)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualizare stare - %(date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizare stare - %(date)s"
 >>>>>>> upstream/18.0
@@ -33867,9 +35463,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Întârziată: data activitații este deja trecută\n"
 "Astăzi: data activității este astăzi\n"
 "Planificate: activități viitoare."
+=======
+"Întârziată: data scadentă a trecut\n"
+"Astăzi: data activității este astăzi\n"
+"Planificat: activități viitoare."
+>>>>>>> upstream/18.0
 =======
 "Întârziată: data scadentă a trecut\n"
 "Astăzi: data activității este astăzi\n"
@@ -33983,7 +35585,11 @@ msgid "Status time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stare timp"
+=======
+msgstr "Timp stare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Timp stare"
 >>>>>>> upstream/18.0
@@ -34064,7 +35670,11 @@ msgid "Sub-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Subsarcini"
+=======
+msgstr "Sub-sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sub-sarcini"
 >>>>>>> upstream/18.0
@@ -34142,7 +35752,11 @@ msgid "Submitted On"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trimis la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimis la"
 >>>>>>> upstream/18.0
@@ -34223,6 +35837,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Suma orelor alocate pentru toate sub-sarcinile (și sub-sarcinile lor) legate"
+" de această sarcină. De obicei mai mică sau egală cu orele alocate acestei "
+"sarcini."
+>>>>>>> upstream/18.0
 =======
 "Suma orelor alocate pentru toate sub-sarcinile (și sub-sarcinile lor) legate"
 " de această sarcină. De obicei mai mică sau egală cu orele alocate acestei "
@@ -34341,7 +35961,11 @@ msgid "T-shirt Printing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imprimare Tricou"
+=======
+msgstr "Imprimare tricouri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imprimare tricouri"
 >>>>>>> upstream/18.0
@@ -34445,7 +36069,11 @@ msgid "Task Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Activitati Sarcina"
+=======
+msgstr "Activități sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Activități sarcină"
 >>>>>>> upstream/18.0
@@ -34523,7 +36151,11 @@ msgid "Task Approved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină aprobată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină aprobată"
 >>>>>>> upstream/18.0
@@ -34606,7 +36238,11 @@ msgid "Task Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină anulată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină anulată"
 >>>>>>> upstream/18.0
@@ -34687,7 +36323,11 @@ msgid "Task Converted from To-Do"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină convertită din To-Do"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină convertită din To-Do"
 >>>>>>> upstream/18.0
@@ -34776,7 +36416,11 @@ msgid "Task Dependencies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dependențe sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dependențe sarcini"
 >>>>>>> upstream/18.0
@@ -34866,7 +36510,11 @@ msgid "Task Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcină Efectuată"
+=======
+msgstr "Sarcină efectuată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină efectuată"
 >>>>>>> upstream/18.0
@@ -34945,7 +36593,11 @@ msgid "Task In Progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină în desfășurare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină în desfășurare"
 >>>>>>> upstream/18.0
@@ -35022,7 +36674,11 @@ msgid "Task Logs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Jurnale Sarcini"
+=======
+msgstr "Jurnale sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jurnale sarcini"
 >>>>>>> upstream/18.0
@@ -35099,7 +36755,11 @@ msgid "Task Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proprietăți sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proprietăți sarcină"
 >>>>>>> upstream/18.0
@@ -35182,7 +36842,11 @@ msgid "Task Recurrence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Repetarea sarcinilor"
+=======
+msgstr "Recurență sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recurență sarcină"
 >>>>>>> upstream/18.0
@@ -35261,7 +36925,11 @@ msgid "Task Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapa sarcinii"
+=======
+msgstr "Etapă sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă sarcină"
 >>>>>>> upstream/18.0
@@ -35338,7 +37006,11 @@ msgid "Task Stage Changed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapa Sarcinii Modificata"
+=======
+msgstr "Etapă sarcină schimbată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă sarcină schimbată"
 >>>>>>> upstream/18.0
@@ -35417,7 +37089,11 @@ msgid "Task Stages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etape sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etape sarcină"
 >>>>>>> upstream/18.0
@@ -35495,7 +37171,11 @@ msgid "Task Title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume sarcină"
+=======
+msgstr "Titlu sarcină"
+>>>>>>> upstream/18.0
 =======
 msgstr "Titlu sarcină"
 >>>>>>> upstream/18.0
@@ -35573,7 +37253,11 @@ msgid "Task Title..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume sarcină..."
+=======
+msgstr "Titlu sarcină..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Titlu sarcină..."
 >>>>>>> upstream/18.0
@@ -35653,6 +37337,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sarcină transferată din proiectul %(source_project)s în "
+"%(destination_project)s"
+>>>>>>> upstream/18.0
 =======
 "Sarcină transferată din proiectul %(source_project)s în "
 "%(destination_project)s"
@@ -35749,7 +37438,11 @@ msgid "Task Waiting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină în așteptare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină în așteptare"
 >>>>>>> upstream/18.0
@@ -35826,7 +37519,11 @@ msgid "Task approved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină aprobată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină aprobată"
 >>>>>>> upstream/18.0
@@ -35903,7 +37600,11 @@ msgid "Task cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină anulată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină anulată"
 >>>>>>> upstream/18.0
@@ -35980,7 +37681,11 @@ msgid "Task done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină finalizată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină finalizată"
 >>>>>>> upstream/18.0
@@ -36057,7 +37762,11 @@ msgid "Task:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcină"
+=======
+msgstr "Sarcină:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină:"
 >>>>>>> upstream/18.0
@@ -36134,7 +37843,11 @@ msgid "Task: Rating Request"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcină: Solicitare evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcină: Solicitare evaluare"
 >>>>>>> upstream/18.0
@@ -36246,7 +37959,11 @@ msgid "Tasks Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analiza Sarcinilor"
+=======
+msgstr "Analiza sarcinilor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiza sarcinilor"
 >>>>>>> upstream/18.0
@@ -36324,7 +38041,11 @@ msgid "Tasks Management"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Management Sarcină "
+=======
+msgstr "Management sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Management sarcini"
 >>>>>>> upstream/18.0
@@ -36401,7 +38122,11 @@ msgid "Tasks Stages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapele Sarcinilor"
+=======
+msgstr "Etape sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etape sarcini"
 >>>>>>> upstream/18.0
@@ -36480,7 +38205,11 @@ msgid "Tasks in Recurrence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sarcini recurente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sarcini recurente"
 >>>>>>> upstream/18.0
@@ -36564,7 +38293,11 @@ msgid "The Burndown Chart must be grouped by Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Graficul Burndown trebuie grupat după dată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Graficul Burndown trebuie grupat după dată"
 >>>>>>> upstream/18.0
@@ -36641,7 +38374,11 @@ msgid "The current user's personal stage."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapa personală a utilizatorului curent."
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapa personală a utilizatorului curent."
 >>>>>>> upstream/18.0
@@ -36718,7 +38455,11 @@ msgid "The current user's personal task stage."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapa personală de sarcină a utilizatorului curent."
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapa personală de sarcină a utilizatorului curent."
 >>>>>>> upstream/18.0
@@ -36803,7 +38544,11 @@ msgid "The end date should be in the future"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data de sfârșit trebuie să fie în viitor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data de sfârșit trebuie să fie în viitor"
 >>>>>>> upstream/18.0
@@ -36880,7 +38625,11 @@ msgid "The following milestone has been added:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Următoarea etapă a fost adăugată:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Următoarea etapă a fost adăugată:"
 >>>>>>> upstream/18.0
@@ -36957,7 +38706,11 @@ msgid "The following milestones have been added:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Următoarele etape au fost adăugate:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Următoarele etape au fost adăugate:"
 >>>>>>> upstream/18.0
@@ -37035,7 +38788,11 @@ msgid "The interval should be greater than 0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Intervalul trebuie să fie mai mare decât 0"
+>>>>>>> upstream/18.0
 =======
 msgstr "Intervalul trebuie să fie mai mare decât 0"
 >>>>>>> upstream/18.0
@@ -37116,9 +38873,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Modelul (tipul de document Odoo) căruia îi corespunde acest alias. Orice "
 "e-mail care nu răspunde la o înregistrare existentă va determina crearea "
 "unei noi înregistrări a acestui model (de exemplu, o sarcină de proiect)"
+=======
+"Modelul (Tip document Odoo) la care corespunde acest alias. Orice e-mail "
+"primit care nu răspunde la o înregistrare existentă va genera crearea unei "
+"noi înregistrări din acest model (ex: Sarcină proiect)"
+>>>>>>> upstream/18.0
 =======
 "Modelul (Tip document Odoo) la care corespunde acest alias. Orice e-mail "
 "primit care nu răspunde la o înregistrare existentă va genera crearea unei "
@@ -37234,8 +38997,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Numele aliasului de e-mail, de ex. „locuri de muncă” dacă doriți să primiți "
 "e-mailuri pentru <jobs@example.odoo.com>"
+=======
+"Numele aliasului de e-mail, ex. 'jobs' dacă doriți să primiți e-mailuri "
+"pentru <jobs@example.odoo.com>"
+>>>>>>> upstream/18.0
 =======
 "Numele aliasului de e-mail, ex. 'jobs' dacă doriți să primiți e-mailuri "
 "pentru <jobs@example.odoo.com>"
@@ -37333,6 +39101,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Proiectul și partenerul asociat trebuie să fie legați de aceeași companie."
+>>>>>>> upstream/18.0
 =======
 "Proiectul și partenerul asociat trebuie să fie legați de aceeași companie."
 >>>>>>> upstream/18.0
@@ -37413,6 +39185,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Compania proiectului nu poate fi schimbată dacă contul său analitic are "
+"linii analitice sau dacă este legat de mai multe proiecte."
+>>>>>>> upstream/18.0
 =======
 "Compania proiectului nu poate fi schimbată dacă contul său analitic are "
 "linii analitice sau dacă este legat de mai multe proiecte."
@@ -37508,6 +39285,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Data de început a proiectului trebuie să fie înainte de data de sfârșit."
+>>>>>>> upstream/18.0
 =======
 "Data de început a proiectului trebuie să fie înainte de data de sfârșit."
 >>>>>>> upstream/18.0
@@ -37589,6 +39370,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Raportul trebuie grupat fie după „Etapă” pentru a reprezenta un grafic "
+"Burndown, fie după „Este închis” pentru a reprezenta un grafic Burn-up. Fără"
+" una dintre aceste grupări, raportul nu va furniza informații relevante."
+>>>>>>> upstream/18.0
 =======
 "Raportul trebuie grupat fie după „Etapă” pentru a reprezenta un grafic "
 "Burndown, fie după „Este închis” pentru a reprezenta un grafic Burn-up. Fără"
@@ -37702,7 +39489,11 @@ msgid "The search does not support operator %(operator)s or value %(value)s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Căutarea nu suportă operatorul %(operator)s sau valoarea %(value)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Căutarea nu suportă operatorul %(operator)s sau valoarea %(value)s."
 >>>>>>> upstream/18.0
@@ -37782,6 +39573,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sarcina și partenerul asociat trebuie să fie legați de aceeași companie."
+>>>>>>> upstream/18.0
 =======
 "Sarcina și partenerul asociat trebuie să fie legați de aceeași companie."
 >>>>>>> upstream/18.0
@@ -37863,7 +39658,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37919,6 +39717,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37977,7 +39778,11 @@ msgid "The task description was empty at the time."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Descrierea sarcinii era goală la acel moment."
+>>>>>>> upstream/18.0
 =======
 msgstr "Descrierea sarcinii era goală la acel moment."
 >>>>>>> upstream/18.0
@@ -38058,6 +39863,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vizualizarea trebuie grupată după dată și după Etapă - grafic Burndown sau "
+"Este închis - grafic Burnup"
+>>>>>>> upstream/18.0
 =======
 "Vizualizarea trebuie grupată după dată și după Etapă - grafic Burndown sau "
 "Este închis - grafic Burnup"
@@ -38153,7 +39963,11 @@ msgid "There are no comments for now."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu există comentarii pentru acum."
+=======
+msgstr "Nu există comentarii momentan."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există comentarii momentan."
 >>>>>>> upstream/18.0
@@ -38230,7 +40044,11 @@ msgid "There are no projects."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu există proiecte"
+=======
+msgstr "Nu există proiecte."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există proiecte."
 >>>>>>> upstream/18.0
@@ -38313,7 +40131,11 @@ msgid "There are no tasks."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu există sarcini"
+=======
+msgstr "Nu există sarcini."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există sarcini."
 >>>>>>> upstream/18.0
@@ -38391,7 +40213,11 @@ msgid "There is nothing to report."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu există nimic de raportat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există nimic de raportat."
 >>>>>>> upstream/18.0
@@ -38472,7 +40298,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38528,6 +40357,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38598,7 +40430,11 @@ msgid "This Week"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Săpt. curentă"
+=======
+msgstr "Săptămâna aceasta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Săptămâna aceasta"
 >>>>>>> upstream/18.0
@@ -38683,7 +40519,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38741,6 +40580,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38802,6 +40644,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Acest urmăritor este în prezent colaborator al proiectului. Eliminarea lui "
+"va revoca accesul la portal pentru acest proiect. Sigur doriți să "
+"continuați?"
+>>>>>>> upstream/18.0
 =======
 "Acest urmăritor este în prezent colaborator al proiectului. Eliminarea lui "
 "va revoca accesul la portal pentru acest proiect. Sigur doriți să "
@@ -38917,6 +40765,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aceasta este o previzualizare a modului în care va arăta proiectul când este"
+" partajat cu clienții și aceștia au acces de editare."
+>>>>>>> upstream/18.0
 =======
 "Aceasta este o previzualizare a modului în care va arăta proiectul când este"
 " partajat cu clienții și aceștia au acces de editare."
@@ -39018,7 +40871,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39075,6 +40931,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39137,7 +40996,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39193,6 +41055,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39256,6 +41121,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Acest proiect nu este asociat cu nicio companie, în timp ce etapa este "
+"asociată cu %s. Aveți două opțiuni: schimbați compania proiectului pentru a "
+"corespunde cu cea a etapei sau eliminați compania de pe etapă."
+>>>>>>> upstream/18.0
 =======
 "Acest proiect nu este asociat cu nicio companie, în timp ce etapa este "
 "asociată cu %s. Aveți două opțiuni: schimbați compania proiectului pentru a "
@@ -39369,7 +41240,11 @@ msgid "This task has sub-tasks, so it can't be private."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Această sarcină are sub-sarcini, deci nu poate fi privată."
+>>>>>>> upstream/18.0
 =======
 msgstr "Această sarcină are sub-sarcini, deci nu poate fi privată."
 >>>>>>> upstream/18.0
@@ -39447,7 +41322,11 @@ msgid "This task is blocked by another unfinished task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Această sarcină este blocată de o altă sarcină nefinalizată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Această sarcină este blocată de o altă sarcină nefinalizată"
 >>>>>>> upstream/18.0
@@ -39525,7 +41404,11 @@ msgid "This task is currently blocked by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Această sarcină este blocată în prezent de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Această sarcină este blocată în prezent de"
 >>>>>>> upstream/18.0
@@ -39615,7 +41498,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "faceți (de ex. \"Apel\" sau \"Trimite e-mail\")."
+=======
+"faci (de ex. \"Apel\" sau \"Trimite e-mail\")."
+>>>>>>> upstream/18.0
 =======
 "faci (de ex. \"Apel\" sau \"Trimite e-mail\")."
 >>>>>>> upstream/18.0
@@ -39693,7 +41580,11 @@ msgid "Time Management"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gestionare a timpului"
+=======
+msgstr "Gestionarea timpului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gestionarea timpului"
 >>>>>>> upstream/18.0
@@ -39771,7 +41662,11 @@ msgid "Tip: Create tasks from incoming emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sfat: Creează sarcini din e-mailurile primite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sfat: Creează sarcini din e-mailurile primite"
 >>>>>>> upstream/18.0
@@ -39849,7 +41744,11 @@ msgid "Tip: Project-Specific Fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sfat: Câmpuri specifice proiectului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sfat: Câmpuri specifice proiectului"
 >>>>>>> upstream/18.0
@@ -39927,7 +41826,11 @@ msgid "Tip: Use task states to keep track of your tasks' progression"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sfat: Folosește stările sarcinilor pentru a urmări progresul acestora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sfat: Folosește stările sarcinilor pentru a urmări progresul acestora"
 >>>>>>> upstream/18.0
@@ -40005,7 +41908,11 @@ msgid "Tip: Your Own Personal Kanban"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sfat: Kanban-ul tău personal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sfat: Kanban-ul tău personal"
 >>>>>>> upstream/18.0
@@ -40092,7 +41999,11 @@ msgid "To Bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "De facturat"
+>>>>>>> upstream/18.0
 =======
 msgstr "De facturat"
 >>>>>>> upstream/18.0
@@ -40181,7 +42092,11 @@ msgid "To Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "De Imprimat"
+=======
+msgstr "De imprimat"
+>>>>>>> upstream/18.0
 =======
 msgstr "De imprimat"
 >>>>>>> upstream/18.0
@@ -40262,8 +42177,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pentru a finaliza lucrurile, utilizați activitățile și starea în sarcini.<br>\n"
 "                Discutați în timp real sau prin e-mail pentru a colabora eficient."
+=======
+"Pentru a finaliza lucrurile, folosește activitățile și starea pe sarcini.<br>\n"
+"                Discută în timp real sau prin e-mail pentru a colabora eficient."
+>>>>>>> upstream/18.0
 =======
 "Pentru a finaliza lucrurile, folosește activitățile și starea pe sarcini.<br>\n"
 "                Discută în timp real sau prin e-mail pentru a colabora eficient."
@@ -40362,6 +42282,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pentru a transforma o sarcină într-o sub-sarcină, selectează o sarcină "
+"părinte. Alternativ, lasă câmpul sarcină părinte necompletat pentru a "
+"converti o sub-sarcină într-o sarcină independentă."
+>>>>>>> upstream/18.0
 =======
 "Pentru a transforma o sarcină într-o sub-sarcină, selectează o sarcină "
 "părinte. Alternativ, lasă câmpul sarcină părinte necompletat pentru a "
@@ -40497,7 +42423,11 @@ msgid "Total Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Costuri totale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Costuri totale"
 >>>>>>> upstream/18.0
@@ -40587,6 +42517,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Urmărește punctele majore de progres care trebuie atinse pentru a obține "
+"succes"
+>>>>>>> upstream/18.0
 =======
 "Urmărește punctele majore de progres care trebuie atinse pentru a obține "
 "succes"
@@ -40683,8 +42618,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Urmărește punctele majore de progres care trebuie atinse pentru a atinge "
 "succesul."
+=======
+"Urmărește punctele majore de progres care trebuie atinse pentru a obține "
+"succes."
+>>>>>>> upstream/18.0
 =======
 "Urmărește punctele majore de progres care trebuie atinse pentru a obține "
 "succes."
@@ -40783,6 +42723,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Urmărește costurile, veniturile și marja proiectului setând contul analitic "
+"asociat proiectului pe documentele relevante."
+>>>>>>> upstream/18.0
 =======
 "Urmărește costurile, veniturile și marja proiectului setând contul analitic "
 "asociat proiectului pe documentele relevante."
@@ -40877,7 +42822,11 @@ msgid "Track the progress of your projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Urmăriți progresul proiectelor dvs."
+=======
+msgstr "Urmărește progresul proiectelor tale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmărește progresul proiectelor tale"
 >>>>>>> upstream/18.0
@@ -40954,7 +42903,11 @@ msgid "Track time spent on projects and tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Urmăriți timpul petrecut pe proiecte și sarcini"
+=======
+msgstr "Urmărește timpul petrecut pe proiecte și sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmărește timpul petrecut pe proiecte și sarcini"
 >>>>>>> upstream/18.0
@@ -41034,6 +42987,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Etichetele transparente nu sunt vizibile în vizualizarea kanban a "
+"proiectelor și sarcinilor tale."
+>>>>>>> upstream/18.0
 =======
 "Etichetele transparente nu sunt vizibile în vizualizarea kanban a "
 "proiectelor și sarcinilor tale."
@@ -41128,7 +43086,11 @@ msgid "Twice a Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Bilunar"
+=======
+msgstr "De două ori pe lună"
+>>>>>>> upstream/18.0
 =======
 msgstr "De două ori pe lună"
 >>>>>>> upstream/18.0
@@ -41206,7 +43168,11 @@ msgid "Two tasks cannot depend on each other."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Două sarcini nu pot depinde una de cealaltă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Două sarcini nu pot depinde una de cealaltă."
 >>>>>>> upstream/18.0
@@ -41285,7 +43251,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul de activitate de excepție înregistrată."
+=======
+msgstr "Tipul activității de excepție înregistrate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipul activității de excepție înregistrate."
 >>>>>>> upstream/18.0
@@ -41363,7 +43333,11 @@ msgid "Unarchive Projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dezarhivează proiecte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dezarhivează proiecte"
 >>>>>>> upstream/18.0
@@ -41441,7 +43415,11 @@ msgid "Unarchive Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dezarhivează sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dezarhivează sarcini"
 >>>>>>> upstream/18.0
@@ -41529,7 +43507,11 @@ msgid "Unfollow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu urmați"
+=======
+msgstr "Nu mai urmări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu mai urmări"
 >>>>>>> upstream/18.0
@@ -41627,7 +43609,11 @@ msgid "Update Created"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualizare creată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizare creată"
 >>>>>>> upstream/18.0
@@ -41704,7 +43690,11 @@ msgid "Usability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Utilizabilitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Utilizabilitate"
 >>>>>>> upstream/18.0
@@ -41781,7 +43771,11 @@ msgid "Use Milestones"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folosește etape"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește etape"
 >>>>>>> upstream/18.0
@@ -41858,7 +43852,11 @@ msgid "Use Rating on Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utilizați evaluarea în proiect"
+=======
+msgstr "Folosește evaluarea pe proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește evaluarea pe proiect"
 >>>>>>> upstream/18.0
@@ -41935,7 +43933,11 @@ msgid "Use Recurring Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folosește sarcini recurente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește sarcini recurente"
 >>>>>>> upstream/18.0
@@ -42012,7 +44014,11 @@ msgid "Use Stages on Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folosește etape pe proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește etape pe proiect"
 >>>>>>> upstream/18.0
@@ -42089,7 +44095,11 @@ msgid "Use Task Dependencies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Folosește dependențele sarcinii"
+=======
+msgstr "Folosește dependențele sarcinilor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește dependențele sarcinilor"
 >>>>>>> upstream/18.0
@@ -42166,7 +44176,11 @@ msgid "Use Tasks as"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utilizați sarcini ca"
+=======
+msgstr "Folosește sarcinile ca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește sarcinile ca"
 >>>>>>> upstream/18.0
@@ -42244,7 +44258,11 @@ msgid "Use This For My Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Folosiți acest lucru pentru proiectul meu"
+=======
+msgstr "Folosește acest lucru pentru proiectul meu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește acest lucru pentru proiectul meu"
 >>>>>>> upstream/18.0
@@ -42323,6 +44341,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Folosește etapele personale pentru a-ți organiza sarcinile și a-ți crea "
+"propriul flux de lucru."
+>>>>>>> upstream/18.0
 =======
 "Folosește etapele personale pentru a-ți organiza sarcinile și a-ți crea "
 "propriul flux de lucru."
@@ -42417,7 +44440,11 @@ msgid "Use tags to categorize your tasks."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Folosiți etichetele pentru a vă clasifica sarcinile."
+=======
+msgstr "Folosește etichete pentru a-ți categoriza sarcinile."
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește etichete pentru a-ți categoriza sarcinile."
 >>>>>>> upstream/18.0
@@ -42505,8 +44532,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Folosiți chatter-ul pentru a <b>trimite e-mailuri</b> și pentru a comunica eficient cu clienții dvs. \n"
 "Adăugați noi persoane la lista de urmăritori pentru a-i înștiința despre modificările acestei sarcini."
+=======
+"Folosește chatter-ul pentru a <b>trimite e-mailuri</b> și a comunica "
+"eficient cu clienții tăi. Adaugă persoane noi la lista de urmăritori pentru "
+"a-i informa despre principalele modificări ale acestei sarcini."
+>>>>>>> upstream/18.0
 =======
 "Folosește chatter-ul pentru a <b>trimite e-mailuri</b> și a comunica "
 "eficient cu clienții tăi. Adaugă persoane noi la lista de urmăritori pentru "
@@ -42629,6 +44662,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Folosiți aceste cuvinte cheie în titlu pentru a seta sarcini noi:\n"
 "\n"
@@ -42640,6 +44674,8 @@ msgstr ""
 "        Asigurați-vă că folosiți formatul și ordinea corectă, ex: Îmbunătățește ecranul de configurare 5h #feature #v16 @Mitchell !"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42699,6 +44735,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42762,7 +44801,11 @@ msgid "View"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișare"
+=======
+msgstr "Vizualizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vizualizare"
 >>>>>>> upstream/18.0
@@ -42839,7 +44882,11 @@ msgid "View Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcină"
+=======
+msgstr "Vezi sarcina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vezi sarcina"
 >>>>>>> upstream/18.0
@@ -42917,7 +44964,11 @@ msgid "View Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sarcini"
+=======
+msgstr "Vezi sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vezi sarcini"
 >>>>>>> upstream/18.0
@@ -43017,7 +45068,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Doriți o cale mai ușoară de <b> a vă gestiona proiectele</b>?<i>Începe "
+=======
+"Vrei o modalitate mai bună de a <b>gestiona proiectele</b>? <i>Începe "
+>>>>>>> upstream/18.0
 =======
 "Vrei o modalitate mai bună de a <b>gestiona proiectele</b>? <i>Începe "
 >>>>>>> upstream/18.0
@@ -43187,7 +45242,11 @@ msgid "Writing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scriere "
+=======
+msgstr "Scriere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scriere"
 >>>>>>> upstream/18.0
@@ -43289,7 +45348,11 @@ msgid "You can change the sub-task state here!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Puteți schimba starea sub-sarcinii aici!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Puteți schimba starea sub-sarcinii aici!"
 >>>>>>> upstream/18.0
@@ -43373,7 +45436,11 @@ msgid "You can open sub-tasks from the kanban card!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Puteți deschide sub-sarcinile din cardul kanban!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Puteți deschide sub-sarcinile din cardul kanban!"
 >>>>>>> upstream/18.0
@@ -43487,7 +45554,11 @@ msgid "You cannot read the following fields on tasks: %(field_list)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu puteți citi următoarele câmpuri pe sarcini: %(field_list)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți citi următoarele câmpuri pe sarcini: %(field_list)s"
 >>>>>>> upstream/18.0
@@ -43565,7 +45636,11 @@ msgid "You cannot write on the following fields on tasks: %(field_list)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu puteți scrie pe următoarele câmpuri pe sarcini: %(field_list)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți scrie pe următoarele câmpuri pe sarcini: %(field_list)s"
 >>>>>>> upstream/18.0
@@ -43654,7 +45729,11 @@ msgid "You have been invited to follow %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ați fost invitat să urmăriți %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ați fost invitat să urmăriți %s"
 >>>>>>> upstream/18.0
@@ -43731,7 +45810,11 @@ msgid "You have been invited to follow Task Document :"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ați fost invitat să urmăriți documentul Sarcină :"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ați fost invitat să urmăriți documentul Sarcină :"
 >>>>>>> upstream/18.0
@@ -43811,6 +45894,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aveți control total și puteți revoca accesul la portal oricând. Sunteți gata"
+" să continuați?"
+>>>>>>> upstream/18.0
 =======
 "Aveți control total și puteți revoca accesul la portal oricând. Sunteți gata"
 " să continuați?"
@@ -43910,6 +45998,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aveți modificări nesalvate - nu vă faceți griji! Odoo va salva automat pe "
+"măsură ce navigați.<br/> Puteți renunța la aceste modificări de aici sau să "
+"salvați manual sarcina.<br/>Hai să o salvăm manual."
+>>>>>>> upstream/18.0
 =======
 "Aveți modificări nesalvate - nu vă faceți griji! Odoo va salva automat pe "
 "măsură ce navigați.<br/> Puteți renunța la aceste modificări de aici sau să "
@@ -44029,7 +46123,11 @@ msgid "Your managers decide which feedback is accepted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Managerii tăi decid care feedback este acceptat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Managerii tăi decid care feedback este acceptat"
 >>>>>>> upstream/18.0
@@ -44125,7 +46223,11 @@ msgid "alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "alias"
 >>>>>>> upstream/18.0
@@ -44268,7 +46370,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "și care feedback este mutat în coloana „Respins”."
+>>>>>>> upstream/18.0
 =======
 msgstr "și care feedback este mutat în coloana „Respins”."
 >>>>>>> upstream/18.0
@@ -44345,7 +46451,11 @@ msgid "assignees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "responsabili"
+>>>>>>> upstream/18.0
 =======
 msgstr "responsabili"
 >>>>>>> upstream/18.0
@@ -44429,7 +46539,11 @@ msgid "button."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "buton."
+>>>>>>> upstream/18.0
 =======
 msgstr "buton."
 >>>>>>> upstream/18.0
@@ -44512,7 +46626,11 @@ msgid "e.g. Monthly review"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Revizuire lunară"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Revizuire lunară"
 >>>>>>> upstream/18.0
@@ -44597,7 +46715,11 @@ msgid "e.g. Product Launch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Lansare produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Lansare produs"
 >>>>>>> upstream/18.0
@@ -44675,7 +46797,11 @@ msgid "e.g. Send Invitations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Trimite invitații"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Trimite invitații"
 >>>>>>> upstream/18.0
@@ -44752,7 +46878,11 @@ msgid "e.g. Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Sarcini"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Sarcini"
 >>>>>>> upstream/18.0
@@ -44833,7 +46963,11 @@ msgid "e.g. To Do"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: De făcut"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: De făcut"
 >>>>>>> upstream/18.0
@@ -44930,7 +47064,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "de exemplu, companiamea.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "de exemplu, companiamea.com"
 >>>>>>> upstream/18.0
@@ -45064,7 +47202,11 @@ msgid "e.g. office-party"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: office-party"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: office-party"
 >>>>>>> upstream/18.0
@@ -45141,7 +47283,11 @@ msgid "e.g: Product Launch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Lansare produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Lansare produs"
 >>>>>>> upstream/18.0
@@ -45219,7 +47365,11 @@ msgid "icon to organize your daily activities."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pictogramă pentru a-ți organiza activitățile zilnice."
+>>>>>>> upstream/18.0
 =======
 msgstr "pictogramă pentru a-ți organiza activitățile zilnice."
 >>>>>>> upstream/18.0
@@ -45300,6 +47450,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"pictogramă pentru a vedea sarcinile care așteaptă alte sarcini. Odată ce o "
+"sarcină este marcată ca finalizată sau anulată, toate dependențele sale vor "
+"fi deblocate."
+>>>>>>> upstream/18.0
 =======
 "pictogramă pentru a vedea sarcinile care așteaptă alte sarcini. Odată ce o "
 "sarcină este marcată ca finalizată sau anulată, toate dependențele sale vor "
@@ -45413,7 +47569,11 @@ msgid "icon."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pictogramă."
+>>>>>>> upstream/18.0
 =======
 msgstr "pictogramă."
 >>>>>>> upstream/18.0
@@ -45491,7 +47651,11 @@ msgid "logged in"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "conectat"
+=======
+msgstr "autentificat"
+>>>>>>> upstream/18.0
 =======
 msgstr "autentificat"
 >>>>>>> upstream/18.0
@@ -45568,7 +47732,11 @@ msgid "menu view My Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "meniul Vizualizează Sarcinile Mele"
+>>>>>>> upstream/18.0
 =======
 msgstr "meniul Vizualizează Sarcinile Mele"
 >>>>>>> upstream/18.0
@@ -45645,7 +47813,11 @@ msgid "on a periodic basis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "periodic"
+>>>>>>> upstream/18.0
 =======
 msgstr "periodic"
 >>>>>>> upstream/18.0
@@ -45722,7 +47894,11 @@ msgid "project."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "proiect."
+>>>>>>> upstream/18.0
 =======
 msgstr "proiect."
 >>>>>>> upstream/18.0
@@ -45799,7 +47975,11 @@ msgid "ready to be marked as reached"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "gata să fie marcată ca atinsă"
+>>>>>>> upstream/18.0
 =======
 msgstr "gata să fie marcată ca atinsă"
 >>>>>>> upstream/18.0
@@ -45879,6 +48059,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"stare pentru a indica o solicitare de modificări sau o nevoie de discuție pe"
+" o sarcină."
+>>>>>>> upstream/18.0
 =======
 "stare pentru a indica o solicitare de modificări sau o nevoie de discuție pe"
 " o sarcină."
@@ -45976,6 +48161,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"stare pentru a informa colegii că o sarcină este aprobată pentru următoarea "
+"etapă."
+>>>>>>> upstream/18.0
 =======
 "stare pentru a informa colegii că o sarcină este aprobată pentru următoarea "
 "etapă."
@@ -46071,7 +48261,11 @@ msgid "state to mark the task as cancelled."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "stare pentru a marca sarcina ca anulată."
+>>>>>>> upstream/18.0
 =======
 msgstr "stare pentru a marca sarcina ca anulată."
 >>>>>>> upstream/18.0
@@ -46131,6 +48325,7 @@ msgstr "stare pentru a marca sarcina ca anulată."
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "state to mark the task as complete."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46308,6 +48503,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "stare pentru a marca sarcina ca finalizată."
 
 #. module: project
@@ -46332,6 +48529,9 @@ msgstr "sub-sarcini)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46395,7 +48595,11 @@ msgid "the deadline for the following milestone has been updated:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "termenul limită pentru următoarea etapă a fost actualizat:"
+>>>>>>> upstream/18.0
 =======
 msgstr "termenul limită pentru următoarea etapă a fost actualizat:"
 >>>>>>> upstream/18.0
@@ -46472,7 +48676,11 @@ msgid "the deadline for the following milestones has been updated:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "termenul limită pentru următoarele etape a fost actualizat:"
+>>>>>>> upstream/18.0
 =======
 msgstr "termenul limită pentru următoarele etape a fost actualizat:"
 >>>>>>> upstream/18.0
@@ -46552,7 +48760,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pentru a defini dacă proiectul este gata pentru următorul pas."
+>>>>>>> upstream/18.0
 =======
 msgstr "pentru a defini dacă proiectul este gata pentru următorul pas."
 >>>>>>> upstream/18.0
@@ -46636,7 +48848,11 @@ msgid "to signalize what is the current status of your Idea."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pentru a semnala care este starea curentă a Ideii tale."
+>>>>>>> upstream/18.0
 =======
 msgstr "pentru a semnala care este starea curentă a Ideii tale."
 >>>>>>> upstream/18.0
@@ -46713,7 +48929,11 @@ msgid "when reaching a given stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "la atingerea unei anumite etape"
+>>>>>>> upstream/18.0
 =======
 msgstr "la atingerea unei anumite etape"
 >>>>>>> upstream/18.0
@@ -46790,7 +49010,11 @@ msgid "will generate tasks in your"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "va genera sarcini în"
+>>>>>>> upstream/18.0
 =======
 msgstr "va genera sarcini în"
 >>>>>>> upstream/18.0
@@ -46870,6 +49094,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"{{ object.project_id.company_id.name or user.env.company.name }}: Chestionar"
+" de satisfacție"
+>>>>>>> upstream/18.0
 =======
 "{{ object.project_id.company_id.name or user.env.company.name }}: Chestionar"
 " de satisfacție"
@@ -46966,7 +49195,11 @@ msgid "👤 Unassigned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "👤 Nealocat"
+>>>>>>> upstream/18.0
 =======
 msgstr "👤 Nealocat"
 >>>>>>> upstream/18.0
@@ -47046,7 +49279,11 @@ msgid "🔒 Private"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "🔒 Privat"
+>>>>>>> upstream/18.0
 =======
 msgstr "🔒 Privat"
 >>>>>>> upstream/18.0

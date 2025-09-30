@@ -39,7 +39,10 @@ import { Job } from "./job";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -153,6 +156,7 @@ const SHARED_CURRENT_JOBS = $freeze([]);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -221,6 +225,8 @@ export function suiteError({ name, parent }, ...message) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 /**
  * @param {Pick<Suite, "name" | "parent">} suite
  * @param {Error | string} message
@@ -238,6 +244,9 @@ export function suiteError({ name, parent }, message) {
     return new HootError(errorMessage, errorOptions);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -303,8 +312,11 @@ export class Suite extends Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.callbacks.clear();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -402,6 +414,9 @@ export class Suite extends Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -507,6 +522,12 @@ export class Suite extends Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.isMinimized) {
+            return;
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.isMinimized) {
             return;

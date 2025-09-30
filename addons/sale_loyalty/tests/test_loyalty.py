@@ -398,7 +398,10 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -501,6 +504,9 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1094,7 +1100,11 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(order.amount_total, 10, msg=msg)
+=======
+        self.assertEqual(order.amount_to_invoice, 10, msg=msg)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(order.amount_to_invoice, 10, msg=msg)
 >>>>>>> upstream/18.0
@@ -1245,3 +1255,35 @@ class TestLoyalty(TestSaleCouponCommon):
         order._update_programs_and_rewards()
         rewards = [value.ids for value in order._get_claimable_rewards().values()]
         self.assertTrue(any(loyalty_program_tag.reward_ids[0].id in r for r in rewards))
+<<<<<<< HEAD
+=======
+
+    def test_sol_free_product_description_equals_reward_description(self):
+        """
+        Ensure that if a "Free Product" reward is added to a sale order,
+        its line description matches the reward description.
+        """
+        loyalty_program = self.env['loyalty.program'].create(
+            self.env['loyalty.program']._get_template_values()['buy_x_get_y']
+        )
+        reward = loyalty_program.reward_ids[0]
+        updated_description = f"{reward.description} Adding manual description"
+        reward.description = updated_description
+
+        order = self.empty_order
+        order.write({
+            'order_line': [
+                Command.create({
+                    'product_id': reward.reward_product_id.id,
+                    'name': '1 Product',
+                    'product_uom': self.uom_unit.id,
+                    'product_uom_qty': 4.0,
+                }),
+            ]
+        })
+        order._update_programs_and_rewards()
+        self._claim_reward(order, loyalty_program)
+
+        self.assertEqual(len(order.order_line.ids), 2)
+        self.assertEqual(order.order_line[1].name, updated_description)
+>>>>>>> upstream/18.0

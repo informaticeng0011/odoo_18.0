@@ -46,6 +46,10 @@ registry.category("web_tour.tours").add('tour_shop_multi_checkbox', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -244,6 +248,10 @@ registry.category("web_tour.tours").add('tour_shop_multi_checkbox_single_value',
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

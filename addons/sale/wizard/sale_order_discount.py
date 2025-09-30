@@ -68,6 +68,10 @@ class SaleOrderDiscount(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'technical_price_unit': 0,
+>>>>>>> upstream/18.0
 =======
             'technical_price_unit': 0,
 >>>>>>> upstream/18.0

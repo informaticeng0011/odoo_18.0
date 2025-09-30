@@ -409,7 +409,11 @@ test("Export dialog: interacting with export templates in debug", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -1065,12 +1069,15 @@ test("ExportDialog: export all records of the domain", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/export/get_fields", async (request) =>  {
         const { params } = await request.json();
         if (isDomainSelected) {
             const expectedDomain = params.parent_field ? [] : [["bar", "!=", "glou"]];
             expect(params.domain).toEqual(expectedDomain, {message: "Domain is only applied on the root model"});
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1312,6 +1319,9 @@ test("ExportDialog: export all records of the domain", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1907,7 +1917,11 @@ test("Export dialog: search in debug", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
