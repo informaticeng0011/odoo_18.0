@@ -9,7 +9,11 @@ from odoo.addons.website_sale_collect.tests.common import ClickAndCollectCommon
 @tagged('post_install', '-at_install')
 class TestClickAndCollectFlow(HttpCase, ClickAndCollectCommon):
 
+<<<<<<< HEAD
     def test_buy_with_click_and_collect_as_public_user(self):
+=======
+    def test_click_and_collect_widget_as_public_user(self):
+>>>>>>> upstream/18.0
         self.storable_product.name = "Test CAC Product"
         self.provider.write(
             {
@@ -25,4 +29,8 @@ class TestClickAndCollectFlow(HttpCase, ClickAndCollectCommon):
                 'partner_longitude': 2.0,
             }
         )
+<<<<<<< HEAD
         self.start_tour('/', 'website_sale_collect_buy_product')
+=======
+        self.start_tour('/', 'website_sale_collect_widget')
+>>>>>>> upstream/18.0

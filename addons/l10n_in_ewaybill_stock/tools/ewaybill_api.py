@@ -27,8 +27,12 @@ from odoo.addons.l10n_in_edi_ewaybill.models.error_codes import ERROR_CODES
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import _, LazyTranslate
 _lt = LazyTranslate(__name__)
+=======
+from odoo.tools import _
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import _
 >>>>>>> upstream/18.0
@@ -136,12 +140,15 @@ class EWayBillApi:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     DEFAULT_HELP_MESSAGE = _lt(
         "Somehow this E-waybill has been %s in the government portal before. "
         "You can verify by checking the details into the government "
         "(https://ewaybillgst.gov.in/Others/EBPrintnew.asp)"
     )
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -303,6 +310,7 @@ class EWayBillApi:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 e.error_json['odoo_warning'].append({
                     'message': Markup("%s<br/>%s:<br/>%s") % (
                         self.DEFAULT_HELP_MESSAGE % 'cancelled',
@@ -313,6 +321,8 @@ class EWayBillApi:
                 })
                 raise
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -409,7 +419,13 @@ class EWayBillApi:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             self.DEFAULT_HELP_MESSAGE % 'cancelled',
+=======
+                            self.env['l10n.in.ewaybill']._get_default_help_message(
+                                self.env._('cancelled')
+                            ),
+>>>>>>> upstream/18.0
 =======
                             self.env['l10n.in.ewaybill']._get_default_help_message(
                                 self.env._('cancelled')
@@ -543,6 +559,9 @@ class EWayBillApi:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -664,7 +683,13 @@ class EWayBillApi:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'message': self.DEFAULT_HELP_MESSAGE % 'generated',
+=======
+                'message': self.env['l10n.in.ewaybill']._get_default_help_message(
+                    self.env._('generated')
+                ),
+>>>>>>> upstream/18.0
 =======
                 'message': self.env['l10n.in.ewaybill']._get_default_help_message(
                     self.env._('generated')

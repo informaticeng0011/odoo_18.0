@@ -7,7 +7,11 @@
         <field name="arch" type="xml">
             <xpath expr="//list" position="attributes">
                 <attribute name="decoration-danger">
+<<<<<<< HEAD
                     removal_date &lt; current_date or quantity &lt; 0
+=======
+                    (removal_date and removal_date &lt; current_date) or quantity &lt; 0
+>>>>>>> upstream/18.0
                 </attribute>
             </xpath>
             <xpath expr="//field[@name='quantity']" position="after" >

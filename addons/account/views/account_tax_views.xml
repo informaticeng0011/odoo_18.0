@@ -57,7 +57,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="factor_percent" invisible="repartition_type == 'base'"/>
+=======
+                    <field name="factor_percent"
+                           invisible="repartition_type == 'base'"
+                           widget="account_tax_repartition_line_factor_percent"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="factor_percent"
                            invisible="repartition_type == 'base'"
@@ -211,6 +217,10 @@
                     <field name="name_searchable" string="Name"/>
                     <field name="description"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    <field name="amount"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="amount"/>
 >>>>>>> upstream/18.0
@@ -348,7 +358,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <field name="invoice_label" invisible="amount_type == 'group'"/>
+=======
+                                    <field name="invoice_label"/>
+>>>>>>> upstream/18.0
 =======
                                     <field name="invoice_label"/>
 >>>>>>> upstream/18.0

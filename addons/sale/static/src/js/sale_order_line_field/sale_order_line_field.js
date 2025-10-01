@@ -27,7 +27,11 @@ export class SaleOrderLineListRenderer extends ProductLabelSectionAndNoteListRen
         if (column.name === 'product_id' || column.name === 'product_template_id') {
             return;
         }
+<<<<<<< HEAD
         super.getCellTitle(column, record);
+=======
+        return super.getCellTitle(column, record);
+>>>>>>> upstream/18.0
     }
 
     getActiveColumns(list) {

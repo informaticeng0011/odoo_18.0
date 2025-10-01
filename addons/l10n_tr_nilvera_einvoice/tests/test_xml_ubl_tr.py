@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.tests import tagged
 from odoo import Command
@@ -822,6 +823,26 @@ class TestUBLTR(AccountTestInvoicingCommon):
 =======
             generated_xml = self._generate_invoice_xml(self.einvoice_partner)
 >>>>>>> upstream/18.0
+=======
+from freezegun import freeze_time
+
+from odoo.tests import tagged
+from odoo.tools import file_open
+from odoo.addons.l10n_tr_nilvera_einvoice.tests.test_xml_ubl_tr_common import TestUBLTRCommon
+
+
+@tagged('post_install_l10n', 'post_install', '-at_install')
+class TestUBLTR(TestUBLTRCommon):
+
+    def setUp(self):
+        super().setUp()
+        if self.env['ir.module.module'].search([('name', '=', 'l10n_tr_nilvera_einvoice_extended')]).state == 'installed':
+            self.skipTest("This test won't work if l10n_tr_nilvera_einvoice_extended is installed since it adds new nodes to the XML reports.")
+
+    def test_xml_invoice_einvoice(self):
+        with freeze_time('2025-03-05'):
+            generated_xml = self._generate_invoice_xml(self.einvoice_partner)
+>>>>>>> upstream/18.0
 
         with file_open('l10n_tr_nilvera_einvoice/tests/expected_xmls/invoice_einvoice.xml', 'rb') as expected_xml_file:
             expected_xml = expected_xml_file.read()
@@ -847,7 +868,11 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.get_xml_tree_from_string(expected_xml)
+=======
+            self.get_xml_tree_from_string(expected_xml),
+>>>>>>> upstream/18.0
 =======
             self.get_xml_tree_from_string(expected_xml),
 >>>>>>> upstream/18.0
@@ -928,7 +953,11 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             generated_xml = self._generate_invoice_xml(currency_id=self.env.ref('base.USD').id)
+=======
+            generated_xml = self._generate_invoice_xml(partner_id=self.einvoice_partner, currency_id=self.env.ref('base.USD').id)
+>>>>>>> upstream/18.0
 =======
             generated_xml = self._generate_invoice_xml(partner_id=self.einvoice_partner, currency_id=self.env.ref('base.USD').id)
 >>>>>>> upstream/18.0
@@ -1011,6 +1040,7 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.get_xml_tree_from_string(expected_xml)
         )
 
@@ -1020,6 +1050,8 @@ class TestUBLTR(AccountTestInvoicingCommon):
         with freeze_time('2025-03-05'):
             generated_xml = self._generate_invoice_xml()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1080,6 +1112,9 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1123,6 +1158,7 @@ class TestUBLTR(AccountTestInvoicingCommon):
 
         self.assertXmlTreeEqual(
             self.get_xml_tree_from_string(generated_xml),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1187,6 +1223,8 @@ class TestUBLTR(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             self.get_xml_tree_from_string(expected_xml),
         )
 
@@ -1211,6 +1249,9 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1273,7 +1314,11 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.get_xml_tree_from_string(expected_xml)
+=======
+            self.get_xml_tree_from_string(expected_xml),
+>>>>>>> upstream/18.0
 =======
             self.get_xml_tree_from_string(expected_xml),
 >>>>>>> upstream/18.0

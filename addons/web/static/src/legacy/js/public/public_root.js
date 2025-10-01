@@ -267,7 +267,11 @@ export const PublicRoot = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         var m = repr.match(/(.+)\((\d+),(.*)\)/);
+=======
+        var m = repr.match(/(.+)\((-?\d+),(.*)\)/);
+>>>>>>> upstream/18.0
 =======
         var m = repr.match(/(.+)\((-?\d+),(.*)\)/);
 >>>>>>> upstream/18.0

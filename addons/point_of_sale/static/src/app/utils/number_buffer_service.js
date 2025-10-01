@@ -55,7 +55,11 @@ const getDefaultConfig = () => ({
  * - Write more integration tests. NumberPopup can be used as test component.
  */
 class NumberBuffer extends EventBus {
+<<<<<<< HEAD
     static serviceDependencies = ["mail.sound_effects", "localization"];
+=======
+    static serviceDependencies = ["mail.sound_effects", "localization", "overlay"];
+>>>>>>> upstream/18.0
     constructor() {
         super();
         this.setup(...arguments);
@@ -65,6 +69,10 @@ class NumberBuffer extends EventBus {
         this.bufferHolderStack = [];
         this.sound = services["mail.sound_effects"];
         this.defaultDecimalPoint = services.localization.decimalPoint;
+<<<<<<< HEAD
+=======
+        this.overlay = services.overlay;
+>>>>>>> upstream/18.0
         window.addEventListener("keyup", this._onKeyboardInput.bind(this));
     }
     /**
@@ -160,6 +168,12 @@ class NumberBuffer extends EventBus {
             : 0;
     }
     _onKeyboardInput(event) {
+<<<<<<< HEAD
+=======
+        if (Object.keys(this.overlay.overlays).length) {
+            return;
+        }
+>>>>>>> upstream/18.0
         return (
             this._currentBufferHolder &&
             this._bufferEvents(this._onInput((event) => event.key))(event)
@@ -323,11 +337,15 @@ class NumberBuffer extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // FIXME POSREF: the `buffer` shouldn't be dependent on the currency.
             this.state.buffer = this.component.env.utils.formatCurrency(
                 inputValue + currentBufferValue,
                 false
             );
+=======
+            this.state.buffer = (inputValue + currentBufferValue).toString();
+>>>>>>> upstream/18.0
 =======
             this.state.buffer = (inputValue + currentBufferValue).toString();
 >>>>>>> upstream/18.0

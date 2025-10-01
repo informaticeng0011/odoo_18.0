@@ -42,7 +42,10 @@ from odoo.exceptions import UserError, ValidationError, RedirectWarning
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import cleanup_xml_node
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -393,6 +396,16 @@ class AccountMove(models.Model):
         partner = self.commercial_partner_id
         trx_code = self.l10n_id_kode_transaksi
 
+<<<<<<< HEAD
+=======
+        l10n_id_buyer_document_type_mapping_to_xml = {
+            'TIN': 'TIN',
+            'NIK': 'National ID',
+            'Passport': 'Passport',
+            'Other': 'Other ID'
+        }
+
+>>>>>>> upstream/18.0
         vals.update({
             "TIN": self.company_id.vat,
             "TaxInvoiceDate": self.invoice_date.strftime("%Y-%m-%d"),
@@ -404,7 +417,11 @@ class AccountMove(models.Model):
             "FacilityStamp": "",
             "RefDesc": self.name,
             "SellerIDTKU": self.company_id.vat + self.company_id.partner_id.l10n_id_tku,
+<<<<<<< HEAD
             "BuyerDocument": partner.l10n_id_buyer_document_type,
+=======
+            "BuyerDocument": l10n_id_buyer_document_type_mapping_to_xml.get(partner.l10n_id_buyer_document_type, partner.l10n_id_buyer_document_type),
+>>>>>>> upstream/18.0
             "BuyerTin": partner.vat if partner.l10n_id_buyer_document_type == "TIN" else "0000000000000000",
             "BuyerCountry": COUNTRY_CODE_MAP.get(partner.country_id.code),
             "BuyerDocumentNumber": partner.l10n_id_buyer_document_number if partner.l10n_id_buyer_document_type != "TIN" else "",

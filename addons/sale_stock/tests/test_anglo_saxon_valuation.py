@@ -1785,7 +1785,10 @@ class TestAngloSaxonValuation(ValuationReconciliationTestCommon):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_anglo_saxon_cogs_partial_down_payment_credit_note(self):
         """Create a SO with a product invoiced on ordered quantity.
         Do a partial down payment, invoice the rest.
@@ -1852,6 +1855,9 @@ class TestAngloSaxonValuation(ValuationReconciliationTestCommon):
             {'debit': 40, 'credit': 0, 'account_id': account_stock_out.id},
         ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_anglo_saxon_cogs_validate_invoice(self):
         """ Having some FIFO + real-time valued product with an established price i.e., from an in

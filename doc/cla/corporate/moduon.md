@@ -118,6 +118,7 @@ Emilio Pascual emilio@moduon.team https://github.com/emiliopascual
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 David Vidal david@moduon.team https://github.com/chienandalu
 >>>>>>> upstream/18.0
@@ -314,6 +315,8 @@ David Vidal david@moduon.team https://github.com/chienandalu
 David Vidal david@moduon.team https://github.com/chienandalu
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -427,6 +430,9 @@ Sabrina Rodríguez sabrina@moduon.team https://github.com/sabrinarmartin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

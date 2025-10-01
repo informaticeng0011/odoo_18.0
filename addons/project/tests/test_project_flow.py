@@ -171,7 +171,10 @@ class TestProjectFlow(TestProjectCommon, MailCommon):
 
     @mute_logger('odoo.addons.mail.models.mail_thread')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_task_creation_from_mail(self):
         server = self.env['fetchmail.server'].create({
             'name': 'Test server',
@@ -197,6 +200,9 @@ class TestProjectFlow(TestProjectCommon, MailCommon):
         self.assertEqual(task.project_id, self.project_pigs)
 
     @mute_logger('odoo.addons.mail.models.mail_thread')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_auto_create_partner(self):
         email = 'unknown@test.com'

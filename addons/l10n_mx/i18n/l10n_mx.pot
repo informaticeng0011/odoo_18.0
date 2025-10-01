@@ -125,6 +125,14 @@ msgid "Exempt"
 msgstr ""
 
 #. module: l10n_mx
+<<<<<<< HEAD
+=======
+#: model:account.report.column,name:l10n_mx.diot_report_exempt_imp
+msgid "Exempt Imports"
+msgstr ""
+
+#. module: l10n_mx
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_mx.selection__account_tax__l10n_mx_factor_type__exento
 msgid "Exento"
 msgstr ""
@@ -158,8 +166,14 @@ msgid ""
 "the client."
 msgstr ""
 
+<<<<<<< HEAD
 #. module: l10n_mx
 #: model:account.report.column,name:l10n_mx.diot_report_importation_16
+=======
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_16_imp_wnc
+>>>>>>> upstream/18.0
 msgid "Importation 16%"
 msgstr ""
 
@@ -170,6 +184,33 @@ msgid ""
 "any claim by means of a letter sent by recorded delivery to its registered "
 "office within 8 days of the delivery of the goods or the provision of the "
 "services."
+<<<<<<< HEAD
+=======
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_16_imp
+msgid "Importation 16% - Creditable"
+msgstr ""
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_16_imp_nc
+msgid "Importation 16% - Non-Creditable"
+msgstr ""
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_16_imp_int_wnc
+msgid "Intangible Imports 16%"
+msgstr ""
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_16_imp_int
+msgid "Intangible Imports 16% - Creditable"
+msgstr ""
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_16_imp_int_nc
+msgid "Intangible Imports 16% - Non-Creditable"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_mx
@@ -274,6 +315,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -430,6 +472,13 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: model:account.report.column,name:l10n_mx.diot_report_no_obj
+msgid "No Tax Object"
+msgstr ""
+
+#. module: l10n_mx
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/l10n_mx/models/template_mx.py:0
@@ -515,6 +564,9 @@ msgstr "Otros Ingresos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -688,16 +740,30 @@ msgid "Paid 0%"
 msgstr ""
 
 #. module: l10n_mx
+<<<<<<< HEAD
 #: model:account.report.column,name:l10n_mx.diot_report_paid_16
+=======
+#: model:account.report.column,name:l10n_mx.diot_report_paid_16_wnc
+>>>>>>> upstream/18.0
 msgid "Paid 16%"
 msgstr ""
 
 #. module: l10n_mx
+<<<<<<< HEAD
 #: model:account.report.column,name:l10n_mx.diot_report_paid_16_non_cred
+=======
+#: model:account.report.column,name:l10n_mx.diot_report_paid_16
+msgid "Paid 16% - Creditable"
+msgstr ""
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_16_nc
+>>>>>>> upstream/18.0
 msgid "Paid 16% - Non-Creditable"
 msgstr ""
 
 #. module: l10n_mx
+<<<<<<< HEAD
 #: model:account.report.column,name:l10n_mx.diot_report_paid_8
 msgid "Paid 8 %"
 msgstr ""
@@ -710,6 +776,20 @@ msgstr ""
 #. module: l10n_mx
 #: model:account.report.column,name:l10n_mx.diot_report_refunds
 msgid "Refunds"
+=======
+#: model:account.report.column,name:l10n_mx.diot_report_paid_8_n
+msgid "Paid 8 % N. - Creditable"
+msgstr ""
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_8_n_nc
+msgid "Paid 8 % N. - Non-Creditable"
+msgstr ""
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_8_n_wnc
+msgid "Paid 8 % Northern"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_mx
@@ -718,11 +798,59 @@ msgid "SAT Tax Type"
 msgstr ""
 
 #. module: l10n_mx
+<<<<<<< HEAD
 #: model_terms:res.company,invoice_terms_html:l10n_mx.demo_company_mx
 msgid "STANDARD TERMS AND CONDITIONS OF SALE"
 msgstr ""
 
 #. module: l10n_mx
+=======
+#: model:account.report.column,name:l10n_mx.diot_report_paid_8_s
+msgid "Paid 8 % S. - Creditable"
+msgstr ""
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_8_s_nc
+msgid "Paid 8 % S. - Non-Creditable"
+msgstr ""
+
+#. module: l10n_mx
+#: model_terms:res.company,invoice_terms_html:l10n_mx.demo_company_mx
+msgid "STANDARD TERMS AND CONDITIONS OF SALE"
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_8_s_wnc
+msgid "Paid 8 % Southern"
+msgstr ""
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_16_r
+msgid "Refunds 16%"
+msgstr ""
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_8_n_r
+msgid "Refunds 8 % Northern"
+msgstr ""
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_8_s_r
+msgid "Refunds 8 % Southern"
+msgstr ""
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_16_imp_r
+msgid "Refunds Importation 16%"
+msgstr ""
+
+#. module: l10n_mx
+#: model:account.report.column,name:l10n_mx.diot_report_paid_16_imp_int_r
+msgid "Refunds Intangible Imports 16%"
+msgstr ""
+
+
+#. module: l10n_mx
+>>>>>>> upstream/18.0
 #: model:uom.category,name:l10n_mx.product_uom_categ_service
 msgid "Service"
 msgstr ""

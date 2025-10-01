@@ -151,7 +151,11 @@ class StockValuationLayerRevaluation(models.TransientModel):
 
         remaining_qty = sum(adjusted_layers.mapped('remaining_qty'))
         remaining_value = self.added_value
+<<<<<<< HEAD
         remaining_value_unit_cost = self.currency_id.round(remaining_value / remaining_qty)
+=======
+        remaining_value_unit_cost = remaining_value / remaining_qty
+>>>>>>> upstream/18.0
 
         # adjust all layers by the unit value change per unit, except the last layer which gets
         # whatever is left. This avoids rounding issues e.g. $10 on 3 products => 3.33, 3.33, 3.34
@@ -162,6 +166,10 @@ class StockValuationLayerRevaluation(models.TransientModel):
                 taken_remaining_value = remaining_value
             else:
                 taken_remaining_value = remaining_value_unit_cost * svl.remaining_qty
+<<<<<<< HEAD
+=======
+            taken_remaining_value = self.currency_id.round(taken_remaining_value)
+>>>>>>> upstream/18.0
             if float_compare(svl.remaining_value + taken_remaining_value, 0, precision_rounding=self.product_id.uom_id.rounding) < 0:
                 raise UserError(_('The value of a stock valuation layer cannot be negative. Landed cost could be use to correct a specific transfer.'))
 
@@ -199,7 +207,10 @@ class StockValuationLayerRevaluation(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -258,6 +269,9 @@ class StockValuationLayerRevaluation(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

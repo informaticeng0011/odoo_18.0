@@ -79,7 +79,11 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, queryAll } from "@odoo/hoot-dom";
+=======
+import { click } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { click } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -451,7 +455,11 @@ test("basic ViewScaleSelector component usage", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(queryAll(".o-dropdown--menu .active")[0]).toHaveText("Weekly", {
+=======
+    expect(".o-dropdown--menu .active:first").toHaveText("Weekly", {
+>>>>>>> upstream/18.0
 =======
     expect(".o-dropdown--menu .active:first").toHaveText("Weekly", {
 >>>>>>> upstream/18.0
@@ -782,9 +790,12 @@ test("basic ViewScaleSelector component usage", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".dropdown-item:last-child").click();
     expect.verifySteps(["toggleWeekendVisibility"]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1027,6 +1038,9 @@ test("basic ViewScaleSelector component usage", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

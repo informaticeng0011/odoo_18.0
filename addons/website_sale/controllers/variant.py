@@ -21,6 +21,10 @@ class WebsiteSaleVariantController(Controller):
             add_qty=add_qty and float(add_qty) or 1.0,
             parent_combination=request.env['product.template.attribute.value'].browse(parent_combination),
         )
+<<<<<<< HEAD
+=======
+        combination_info['currency_precision'] = combination_info['currency'].decimal_places
+>>>>>>> upstream/18.0
 
         # Pop data only computed to ease server-side computations.
         for key in ('product_taxes', 'taxes', 'currency', 'date', 'combination'):

@@ -5,6 +5,10 @@ import re
 from odoo import models, fields, api, _
 from odoo.exceptions import ValidationError
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+MAX_INT32 = 2147483647
+>>>>>>> upstream/18.0
 =======
 MAX_INT32 = 2147483647
 >>>>>>> upstream/18.0
@@ -60,14 +64,20 @@ class AccountJournal(models.Model):
     def _inverse_check_next_number(self):
         for journal in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
             if journal.check_next_number and not re.match(r'^[0-9]+$', journal.check_next_number):
                 raise ValidationError(_('Next Check Number should only contains numbers.'))
             if int(journal.check_next_number) < journal.check_sequence_id.number_next_actual:
 =======
+=======
+>>>>>>> upstream/18.0
             next_num = int(journal.check_next_number)
             if journal.check_next_number and not re.match(r'^[0-9]+$', journal.check_next_number):
                 raise ValidationError(_('Next Check Number should only contains numbers.'))
             if next_num < journal.check_sequence_id.number_next_actual:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 raise ValidationError(_(
                     "The last check number was %s. In order to avoid a check being rejected "
@@ -76,8 +86,11 @@ class AccountJournal(models.Model):
                 ))
             if journal.check_sequence_id:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 journal.check_sequence_id.sudo().number_next_actual = int(journal.check_next_number)
 =======
+=======
+>>>>>>> upstream/18.0
                 if next_num > MAX_INT32:
                     raise ValidationError(_(
                         "The check number you entered (%(num)s) exceeds the maximum allowed value of %(max)d. "
@@ -86,6 +99,9 @@ class AccountJournal(models.Model):
                         max=MAX_INT32,
                     ))
                 journal.check_sequence_id.sudo().number_next_actual = next_num
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 journal.check_sequence_id.sudo().padding = len(journal.check_next_number)
 

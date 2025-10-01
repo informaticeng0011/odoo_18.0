@@ -27,7 +27,11 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         so.set_delivery_line(self.free_delivery, 0)
+=======
+        so._set_delivery_method(self.free_delivery)
+>>>>>>> upstream/18.0
 =======
         so._set_delivery_method(self.free_delivery)
 >>>>>>> upstream/18.0
@@ -151,7 +155,10 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -438,6 +445,9 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -650,7 +660,11 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         so.set_delivery_line(self.free_delivery, 0)
+=======
+        so._set_delivery_method(self.free_delivery)
+>>>>>>> upstream/18.0
 =======
         so._set_delivery_method(self.free_delivery)
 >>>>>>> upstream/18.0

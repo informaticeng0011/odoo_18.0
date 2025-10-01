@@ -211,11 +211,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             invisible="not id or picking_type_code != 'outgoing' or state != 'done'"
                             full_name="partner_id" groups="stock.group_stock_sign_delivery"/>
                     <widget name="signature" string="Sign"
                             invisible="not id or picking_type_code != 'outgoing' or state == 'done'"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -493,6 +496,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -854,6 +860,10 @@
                                     <field name="product_uom" groups="!uom.group_uom" column_invisible="True"/>
                                     <field name="picked" optional="hide" column_invisible="parent.state=='draft'"/>
                                     <field name="lot_ids" widget="many2many_tags"
+<<<<<<< HEAD
+=======
+                                        readonly="has_tracking != 'serial'"
+>>>>>>> upstream/18.0
                                         column_invisible="parent.state == 'draft'"
                                         groups="stock.group_production_lot"
                                         invisible="not show_details_visible or has_tracking == 'none'"

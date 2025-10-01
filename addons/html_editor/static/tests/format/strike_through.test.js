@@ -98,6 +98,7 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { getContent, setSelection } from "../_helpers/selection";
 import { s, span } from "../_helpers/tags";
@@ -300,6 +301,11 @@ import { insertText, strikeThrough, tripleClick } from "../_helpers/user_actions
 =======
 >>>>>>> upstream/18.0
 import { tick } from "@odoo/hoot-mock";
+=======
+import { tick } from "@odoo/hoot-mock";
+import { press } from "@odoo/hoot-dom";
+import { patchWithCleanup } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { getContent, setSelection } from "../_helpers/selection";
 import { s, span } from "../_helpers/tags";
@@ -308,6 +314,7 @@ import {
     strikeThrough,
     tripleClick,
     simulateArrowKeyPress,
+<<<<<<< HEAD
 } from "../_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -604,6 +611,10 @@ import {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+    undo,
+} from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 import { unformat } from "../_helpers/format";
 
 test("should make a few characters strikeThrough", async () => {
@@ -723,8 +734,11 @@ test("should make a whole heading strikeThrough after a triple click", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stepFunction: strikeThrough,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -783,6 +797,9 @@ test("should make a whole heading strikeThrough after a triple click", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1029,8 +1046,12 @@ test("should make a few characters strikeThrough inside table (strikeThrough)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
+=======
+            </table>`),
+>>>>>>> upstream/18.0
 =======
             </table>`),
 >>>>>>> upstream/18.0
@@ -1447,11 +1468,14 @@ test("should make a few characters strikeThrough inside table (strikeThrough)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
     });
 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1761,6 +1785,7 @@ test("should remove empty strikeThrough when changing selection", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1957,4 +1982,24 @@ test("should remove empty strikeThrough when changing selection", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+test("should not add history step for strikethrough on collapsed selection", async () => {
+    const { editor, el } = await setupEditor("<p>abcd[]</p>");
+
+    patchWithCleanup(console, { warn: () => {} });
+
+    // Collapsed formatting shortcuts (e.g. Ctrl+5) shouldn’t create a history
+    // step. The empty inline tag is temporary: auto-cleaned if unused. We want
+    // to avoid having a phantom step in the history.
+    await press(["ctrl", "5"]);
+    expect(getContent(el)).toBe(`<p>abcd${s("[]\u200B", "first")}</p>`);
+
+    await insertText(editor, "A");
+    expect(getContent(el)).toBe(`<p>abcd${s("A[]")}</p>`);
+
+    undo(editor);
+    expect(getContent(el)).toBe(`<p>abcd[]</p>`);
+});
 >>>>>>> upstream/18.0
