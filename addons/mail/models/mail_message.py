@@ -20,6 +20,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import contextlib
+>>>>>>> upstream/18.0
 =======
 import contextlib
 >>>>>>> upstream/18.0
@@ -107,7 +111,11 @@ from odoo import _, api, fields, models, modules, tools
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import AccessError
+=======
+from odoo.exceptions import AccessError, MissingError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessError, MissingError
 >>>>>>> upstream/18.0
@@ -1135,7 +1143,11 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             scheduled_dt_by_msg_id = {msg.id: msg_vals.get("scheduled_date") for msg in self}
+=======
+            scheduled_dt_by_msg_id = {msg.id: msg_vals.get("scheduled_date", False) for msg in self}
+>>>>>>> upstream/18.0
 =======
             scheduled_dt_by_msg_id = {msg.id: msg_vals.get("scheduled_date", False) for msg in self}
 >>>>>>> upstream/18.0
@@ -1248,9 +1260,12 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # sudo: mail.thread - if mentionned in a non accessible thread, name is allowed
                 thread_data["name"] = record.sudo().display_name
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1313,6 +1328,9 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1386,6 +1404,7 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if record:
                 # sudo: if mentionned in a non accessible thread, user should be able to see the name
                 record_name = record.sudo().display_name
@@ -1397,6 +1416,8 @@ class Message(models.Model):
                 record_name = False
                 default_subject = False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1465,6 +1486,9 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1651,7 +1675,10 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain = expression.AND([domain, [("message_type", "not in", ["user_notification", "notification"])]])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1904,6 +1931,7 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.filtered(
             lambda msg:
                 (not msg.body or tools.is_html_empty(msg.body)) and
@@ -1911,6 +1939,8 @@ class Message(models.Model):
                 not msg.attachment_ids and
                 not msg.tracking_value_ids
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1977,6 +2007,9 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

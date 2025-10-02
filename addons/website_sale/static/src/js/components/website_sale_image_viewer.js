@@ -3,14 +3,20 @@
 import { Dialog } from "@web/core/dialog/dialog";
 import { useHotkey } from "@web/core/hotkeys/hotkey_hook";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { onRendered, useRef, useEffect, useState } from "@odoo/owl";
 
 const ZOOM_STEP = 0.1;
 =======
+=======
+>>>>>>> upstream/18.0
 import { onMounted, onRendered, useRef, useEffect, useState } from "@odoo/owl";
 
 const ZOOM_STEP = 0.1;
 const TOUCHMOVE_STEP = 96;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 export class ProductImageViewer extends Dialog {
@@ -59,10 +65,13 @@ export class ProductImageViewer extends Dialog {
             () => [document],
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
         // For some reason the styling does not always update properly.
         onRendered(() => {
             this.updateImage();
 =======
+=======
+>>>>>>> upstream/18.0
         onMounted(() => {
             const carousel = document.querySelector('.o_wsale_image_viewer_carousel');
             carousel.addEventListener('touchstart', this._onTouchstartCarousel.bind(this));
@@ -73,6 +82,9 @@ export class ProductImageViewer extends Dialog {
         onRendered(() => {
             this.updateImage();
             this._updateCarousel();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         })
     }
@@ -113,7 +125,10 @@ export class ProductImageViewer extends Dialog {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * Centers the thumbnail row element on the currently selected image.
      *
@@ -134,6 +149,9 @@ export class ProductImageViewer extends Dialog {
         thumbnailList.style.transform = `translate(${offset}px)`;
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     onGlobalClick(ev) {
         if (ev.target.tagName === "IMG") {
@@ -161,11 +179,17 @@ export class ProductImageViewer extends Dialog {
 
     onWheelImage(ev) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if (!ev.deltaY) {
             return;
         }
         ev.preventDefault();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (ev.deltaY > 0) {
             this.zoomOut();
@@ -193,7 +217,10 @@ export class ProductImageViewer extends Dialog {
         this.updateImage();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     _onTouchstartCarousel(ev) {
         const touch = ev.touches?.item(0);
@@ -224,6 +251,9 @@ export class ProductImageViewer extends Dialog {
             this.nextImage();
         }
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 delete ProductImageViewer.props.slots;

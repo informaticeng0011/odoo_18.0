@@ -132,6 +132,7 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Replenish the stock with the new cost method.
             in_svl_vals_list = products._svl_replenish_stock(description, products_orig_quantity_svl)
             in_stock_valuation_layers = SVL.create(in_svl_vals_list)
@@ -139,6 +140,8 @@ will update the cost of every lot/serial number in stock."),
                 move_vals_list += Product._svl_replenish_stock_am(in_stock_valuation_layers)
             products._update_lots_standard_price()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -267,6 +270,9 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -417,12 +423,17 @@ will update the cost of every lot/serial number in stock."),
                 }
             }
 
+<<<<<<< HEAD
     @api.depends('stock_valuation_layer_ids')
     @api.depends_context('to_date', 'company')
     def _compute_value_svl(self):
         """Compute totals of multiple svl related values"""
         company_id = self.env.company
         self.company_currency_id = company_id.currency_id
+=======
+    def _get_valuation_layer_group_domain(self):
+        company_id = self.env.company.id
+>>>>>>> upstream/18.0
         domain = [
             *self.env['stock.valuation.layer']._check_company_domain(company_id),
             ('product_id', 'in', self.ids),
@@ -430,6 +441,7 @@ will update the cost of every lot/serial number in stock."),
         if self.env.context.get('to_date'):
             to_date = fields.Datetime.to_datetime(self.env.context['to_date'])
             domain.append(('create_date', '<=', to_date))
+<<<<<<< HEAD
         groups = self.env['stock.valuation.layer']._read_group(
             domain,
             groupby=['product_id'],
@@ -565,6 +577,48 @@ will update the cost of every lot/serial number in stock."),
             product.quantity_svl = quantity_sum
             product.avg_cost = avg_cost
             product.total_value = avg_cost * product.sudo(False).qty_available
+=======
+        return domain
+
+    def _get_valuation_layer_group_fields_aggregate(self):
+        return ['value:sum', 'quantity:sum']
+
+    def _get_valuation_layer_groups(self):
+        domain = self._get_valuation_layer_group_domain()
+        group_fields_aggregate = self._get_valuation_layer_group_fields_aggregate()
+        return self.env['stock.valuation.layer']._read_group(
+            domain,
+            groupby=['product_id'],
+            aggregates=group_fields_aggregate,
+        )
+
+    def _prepare_valuation_layer_field_values(self, aggregates):
+        self.ensure_one()
+        value_sum, quantity_sum = aggregates
+        value_svl = self.env.company.currency_id.round(value_sum)
+        avg_cost = 0
+        if not float_is_zero(quantity_sum, precision_rounding=self.uom_id.rounding):
+            avg_cost = value_svl / quantity_sum
+        return {
+            "value_svl": value_svl,
+            "quantity_svl": quantity_sum,
+            "avg_cost": avg_cost,
+            "total_value": avg_cost * self.sudo(False).qty_available
+        }
+
+    @api.depends('stock_valuation_layer_ids')
+    @api.depends_context('to_date', 'company')
+    def _compute_value_svl(self):
+        """Compute totals of multiple svl related values"""
+        self.company_currency_id = self.env.company.currency_id
+        valuation_layer_groups = self._get_valuation_layer_groups()
+        # Browse all products and compute products' quantities_dict in batch.
+        group_mapping = {product: aggregates for product, *aggregates in valuation_layer_groups}
+        for product in self:
+            aggregates = group_mapping.get(product._origin, (0, 0))
+            vals = product._prepare_valuation_layer_field_values(aggregates)
+            product.update(vals)
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
     # Actions
@@ -810,6 +864,7 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.env["stock.valuation.layer"].sudo().search(candidates_domain)
 =======
         return self.env["stock.valuation.layer"].sudo().search(candidates_domain).sorted(lambda svl: svl._candidate_sort_key())
@@ -1059,6 +1114,9 @@ will update the cost of every lot/serial number in stock."),
 >>>>>>> upstream/18.0
 =======
         return self.env["stock.valuation.layer"].sudo().search(candidates_domain).sorted(lambda svl: svl._candidate_sort_key())
+>>>>>>> upstream/18.0
+=======
+        return self.env["stock.valuation.layer"].sudo().search(candidates_domain)
 >>>>>>> upstream/18.0
 =======
         return self.env["stock.valuation.layer"].sudo().search(candidates_domain)
@@ -1260,7 +1318,11 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for product in self:
+=======
+        for product in self.with_company(company.id):
+>>>>>>> upstream/18.0
 =======
         for product in self.with_company(company.id):
 >>>>>>> upstream/18.0
@@ -1619,7 +1681,10 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1736,6 +1801,9 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1853,7 +1921,11 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     for lot in product.stock_valuation_layer_ids.filtered(lambda l: l.remaining_qty).lot_id:
+=======
+                    for lot in lots_by_product[product.id]:
+>>>>>>> upstream/18.0
 =======
                     for lot in lots_by_product[product.id]:
 >>>>>>> upstream/18.0
@@ -2007,7 +2079,11 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     for lot in product.stock_valuation_layer_ids.filtered(lambda l: l.remaining_qty).lot_id:
+=======
+                    for lot in lots_by_product[product.id]:
+>>>>>>> upstream/18.0
 =======
                     for lot in lots_by_product[product.id]:
 >>>>>>> upstream/18.0
@@ -2368,11 +2444,14 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         candidates = stock_moves\
             .sudo()\
             .filtered(lambda m: is_returned == bool(m.origin_returned_move_id and sum(m.stock_valuation_layer_ids.mapped('quantity')) >= 0))\
             .mapped('stock_valuation_layer_ids')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2532,6 +2611,9 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2739,7 +2821,12 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             candidates = candidates.sorted(lambda svl: (svl.create_date, svl.id))
+=======
+            # sort candidates by create_date > existing records by id > new records without origin
+            candidates = candidates.sorted(lambda svl: (svl.create_date, not bool(svl.ids), svl.ids[0] if svl.ids else 0))
+>>>>>>> upstream/18.0
 =======
             # sort candidates by create_date > existing records by id > new records without origin
             candidates = candidates.sorted(lambda svl: (svl.create_date, not bool(svl.ids), svl.ids[0] if svl.ids else 0))

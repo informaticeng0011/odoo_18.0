@@ -20,8 +20,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 # 
+=======
+# * mrp
+#
+>>>>>>> upstream/18.0
 =======
 # * mrp
 #
@@ -126,7 +131,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # "Tony Ng (ngto)" <ngto@odoo.com>, 2025.
 >>>>>>> upstream/18.0
@@ -191,6 +200,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -491,6 +501,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-06-13 18:36+0000\n"
 "PO-Revision-Date: 2025-08-21 14:30+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
@@ -521,6 +533,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2501,8 +2516,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "可以在此工作中心並行(同時)生產的預設件數(在產品 UoM 中). 例如:產能為5,你需要生產10台,那麼BOM上列出的作業時間將乘以2. 但請注意! "
 "生產前後的時間只會計算一次."
+=======
+"此工作中心預設可並行（同時）生產的件數，以產品的計量單位計算。例如：產能為 5 個單位，而你需要生產 10 個單位，則物料清單列出的操作時間會乘以 "
+"2。但請注意，生產前後的時間都只計算一次。"
+>>>>>>> upstream/18.0
 =======
 "此工作中心預設可並行（同時）生產的件數，以產品的計量單位計算。例如：產能為 5 個單位，而你需要生產 10 個單位，則物料清單列出的操作時間會乘以 "
 "2。但請注意，生產前後的時間都只計算一次。"
@@ -2820,6 +2840,10 @@ msgstr "拆卸順序"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -3600,7 +3624,11 @@ msgid "Group By..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "分組依據..."
+=======
+msgstr "分組依據⋯"
+>>>>>>> upstream/18.0
 =======
 msgstr "分組依據⋯"
 >>>>>>> upstream/18.0
@@ -3902,7 +3930,10 @@ msgstr "有路由資料行"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4049,6 +4080,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5753,7 +5787,11 @@ msgid "Planning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "計劃"
+=======
+msgstr "規劃"
+>>>>>>> upstream/18.0
 =======
 msgstr "規劃"
 >>>>>>> upstream/18.0
@@ -6238,7 +6276,11 @@ msgid "Product Lifecycle Management (PLM)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "產品生命週期管理 (PLM)"
+=======
+msgstr "產品生命周期管理（PLM）"
+>>>>>>> upstream/18.0
 =======
 msgstr "產品生命周期管理（PLM）"
 >>>>>>> upstream/18.0
@@ -6444,7 +6486,11 @@ msgid "Product Moves (Stock Move Line)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "產品移動(移庫明細)"
+=======
+msgstr "產品移動（庫存移動資料行）"
+>>>>>>> upstream/18.0
 =======
 msgstr "產品移動（庫存移動資料行）"
 >>>>>>> upstream/18.0
@@ -7529,7 +7575,11 @@ msgid "Table"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "表格"
+=======
+msgstr "桌子"
+>>>>>>> upstream/18.0
 =======
 msgstr "桌子"
 >>>>>>> upstream/18.0
@@ -7907,7 +7957,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "此欄位用於定義資源在哪個時區工作."
+=======
+msgstr "此欄位用於設定資源可用的時區。"
+>>>>>>> upstream/18.0
 =======
 msgstr "此欄位用於設定資源可用的時區。"
 >>>>>>> upstream/18.0
@@ -8599,7 +8653,11 @@ msgid "Valid Product Attribute Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有效的產品屬性明細"
+=======
+msgstr "有效的產品屬性資料行"
+>>>>>>> upstream/18.0
 =======
 msgstr "有效的產品屬性資料行"
 >>>>>>> upstream/18.0
@@ -8964,7 +9022,11 @@ msgid "Work Centers Overview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "工作中心概述"
+=======
+msgstr "工作中心概覽"
+>>>>>>> upstream/18.0
 =======
 msgstr "工作中心概覽"
 >>>>>>> upstream/18.0
@@ -9686,6 +9748,7 @@ msgstr "工單"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -9706,6 +9769,8 @@ msgstr "{{ props.isFolded ? '展開' : '摺疊' }}"
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr "{{ state.isFolded ? '展開' : '摺疊' }}"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -262,7 +262,10 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
         self.assertRaises(UserError, self.env['link.tracker'].create, {'url': '#'})
         self.assertRaises(UserError, self.env['link.tracker'].create, {'url': '#model=project.task&id=3603607'})
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_url_encoding(self):
         """Test that the redirect URL is properly encoded."""
@@ -279,4 +282,7 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
         self.assertIn('utm_campaign=campai.gn%2E%2E%2E', link.redirected_url)
         self.assertIn('utm_source=source%2E%2E%2E', link.redirected_url)
         self.assertIn('utm_medium=medium', link.redirected_url)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

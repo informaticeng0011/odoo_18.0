@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.tests import tagged
 from odoo import Command
@@ -824,6 +825,8 @@ class TestUBLTR(AccountTestInvoicingCommon):
             generated_xml = self._generate_invoice_xml(self.einvoice_partner)
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 from freezegun import freeze_time
 
 from odoo.tests import tagged
@@ -842,6 +845,9 @@ class TestUBLTR(TestUBLTRCommon):
     def test_xml_invoice_einvoice(self):
         with freeze_time('2025-03-05'):
             generated_xml = self._generate_invoice_xml(self.einvoice_partner)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         with file_open('l10n_tr_nilvera_einvoice/tests/expected_xmls/invoice_einvoice.xml', 'rb') as expected_xml_file:
@@ -869,7 +875,11 @@ class TestUBLTR(TestUBLTRCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.get_xml_tree_from_string(expected_xml)
+=======
+            self.get_xml_tree_from_string(expected_xml),
+>>>>>>> upstream/18.0
 =======
             self.get_xml_tree_from_string(expected_xml),
 >>>>>>> upstream/18.0
@@ -954,7 +964,11 @@ class TestUBLTR(TestUBLTRCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             generated_xml = self._generate_invoice_xml(currency_id=self.env.ref('base.USD').id)
+=======
+            generated_xml = self._generate_invoice_xml(partner_id=self.einvoice_partner, currency_id=self.env.ref('base.USD').id)
+>>>>>>> upstream/18.0
 =======
             generated_xml = self._generate_invoice_xml(partner_id=self.einvoice_partner, currency_id=self.env.ref('base.USD').id)
 >>>>>>> upstream/18.0
@@ -1041,6 +1055,7 @@ class TestUBLTR(TestUBLTRCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.get_xml_tree_from_string(expected_xml)
         )
 
@@ -1050,6 +1065,8 @@ class TestUBLTR(TestUBLTRCommon):
         with freeze_time('2025-03-05'):
             generated_xml = self._generate_invoice_xml()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1113,6 +1130,9 @@ class TestUBLTR(TestUBLTRCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1158,6 +1178,7 @@ class TestUBLTR(TestUBLTRCommon):
 
         self.assertXmlTreeEqual(
             self.get_xml_tree_from_string(generated_xml),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1225,6 +1246,8 @@ class TestUBLTR(TestUBLTRCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             self.get_xml_tree_from_string(expected_xml),
         )
 
@@ -1250,6 +1273,9 @@ class TestUBLTR(TestUBLTRCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1315,7 +1341,11 @@ class TestUBLTR(TestUBLTRCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.get_xml_tree_from_string(expected_xml)
+=======
+            self.get_xml_tree_from_string(expected_xml),
+>>>>>>> upstream/18.0
 =======
             self.get_xml_tree_from_string(expected_xml),
 >>>>>>> upstream/18.0

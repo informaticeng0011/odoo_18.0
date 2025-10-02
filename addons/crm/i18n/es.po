@@ -20,8 +20,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* crm
 # 
+=======
+# * crm
+#
+>>>>>>> upstream/18.0
 =======
 # * crm
 #
@@ -208,6 +213,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2025
 >>>>>>> upstream/18.0
@@ -532,11 +538,16 @@
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2025
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2025
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-10 13:22+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -938,6 +949,8 @@ msgstr "# Meses"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-25 10:08+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/crm/es/>"
@@ -980,6 +993,9 @@ msgstr "N.° de meses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1141,7 +1157,11 @@ msgid "# Unassigned Leads"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# Leads no asignados"
+=======
+msgstr "N.° de leads no asignados"
+>>>>>>> upstream/18.0
 =======
 msgstr "N.° de leads no asignados"
 >>>>>>> upstream/18.0
@@ -1776,9 +1796,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 24px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1843,6 +1866,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1906,6 +1932,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: white; padding: 0; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Su lead/oportunidad</span><br/>\n"
@@ -1916,6 +1943,8 @@ msgstr ""
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1991,6 +2020,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2057,6 +2089,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr>\n"
 "                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
@@ -2074,6 +2107,8 @@ msgstr ""
 "                            <t t-else=\"\">\n"
 "                                <t t-out=\"object.company_id.name or ''\">Mi Empresa (San Francisco)</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2161,6 +2196,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2229,6 +2267,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
 "            <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
 "            <b t-out=\"object.company_id.name or ''\">Mi Empresa (San Francisco)</b><br/>\n"
@@ -2240,6 +2279,8 @@ msgstr ""
 "                <t t-if=\"object.company_id.website\">\n"
 "                    | <a t-attf-href=\"'%s' % {{ object.company_id.website }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.website or ''\">http://www.example.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2318,6 +2359,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2386,7 +2430,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Con tecnología de <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+=======
+"    Con tecnología de <a target=\"_blank\" href="
+"\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style="
+"\"color: #875A7B;\">Odoo</a>\n"
+>>>>>>> upstream/18.0
 =======
 "    Con tecnología de <a target=\"_blank\" href="
 "\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style="
@@ -3191,7 +3241,11 @@ msgid "Consider leads created as of the:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Considera los leads creados a partir del:"
+=======
+msgstr "Considerar los leads creados a partir del:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Considerar los leads creados a partir del:"
 >>>>>>> upstream/18.0
@@ -3910,7 +3964,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0
@@ -4118,7 +4176,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Establezca fácilmente las fechas de cierre esperadas y obtenga una vista "
+=======
+"Establezca fácilmente las fechas de cierre previstas y obtenga una vista "
+>>>>>>> upstream/18.0
 =======
 "Establezca fácilmente las fechas de cierre previstas y obtenga una vista "
 >>>>>>> upstream/18.0
@@ -4685,7 +4747,11 @@ msgid "Expected Revenue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ingreso esperado"
+=======
+msgstr "Ingresos esperados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ingresos esperados"
 >>>>>>> upstream/18.0
@@ -6200,8 +6266,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No hay leads asignados para el equipo %(team_name)s y sus vendedores porque "
 "no hay leads sin asignar que coincidan con su dominio."
+=======
+"No hay leads asignados para el equipo %(team_name)s y sus comerciales porque"
+" no hay leads no asignados que coincidan con su dominio."
+>>>>>>> upstream/18.0
 =======
 "No hay leads asignados para el equipo %(team_name)s y sus comerciales porque"
 " no hay leads no asignados que coincidan con su dominio."
@@ -7124,7 +7195,11 @@ msgid "Phone Quality"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Calidad de llamada"
+=======
+msgstr "Calidad del número de teléfono"
+>>>>>>> upstream/18.0
 =======
 msgstr "Calidad del número de teléfono"
 >>>>>>> upstream/18.0
@@ -7608,11 +7683,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Política para publicar un mensaje en el documento utilizando el servidor de correo.\n"
 "- todos: todos pueden publicar\n"
 "- contactos: sólo contactos autenticados\n"
 "- seguidores: sólo seguidores del documento relacionado o miembros de los siguientes canales\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7917,6 +7995,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8306,7 +8387,11 @@ msgid "Prorated Revenue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ingreso prorrateado"
+=======
+msgstr "Ingresos prorrateados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ingresos prorrateados"
 >>>>>>> upstream/18.0
@@ -9034,7 +9119,11 @@ msgid "Skip auto assignment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Saltar autoasignación"
+=======
+msgstr "Omitir la asignación automática"
+>>>>>>> upstream/18.0
 =======
 msgstr "Omitir la asignación automática"
 >>>>>>> upstream/18.0

@@ -4,9 +4,13 @@ from odoo.exceptions import UserError
 from odoo.tests import tagged
 
 
+<<<<<<< HEAD
 @tagged('post_install_l10n', 'post_install', '-at_install')
 class TestUBLRO(TestUBLCommon):
 
+=======
+class TestUBLROCommon(TestUBLCommon):
+>>>>>>> upstream/18.0
     @classmethod
     @TestUBLCommon.setup_country('ro')
     def setUpClass(cls):
@@ -77,6 +81,17 @@ class TestUBLRO(TestUBLCommon):
             **kwargs
         )
 
+<<<<<<< HEAD
+=======
+
+@tagged('post_install_l10n', 'post_install', '-at_install')
+class TestUBLRO(TestUBLROCommon):
+
+    ####################################################
+    # Test export - import
+    ####################################################
+
+>>>>>>> upstream/18.0
     def get_attachment(self, move):
         self.assertTrue(move.ubl_cii_xml_id)
         self.assertEqual(move.ubl_cii_xml_id.name[-11:], "cius_ro.xml")
@@ -112,7 +127,10 @@ class TestUBLRO(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -204,6 +222,9 @@ class TestUBLRO(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -358,7 +379,11 @@ class TestUBLRO(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.write({'vat': '1234567897'})
+=======
+        self.partner_a.write({'vat': False})
+>>>>>>> upstream/18.0
 =======
         self.partner_a.write({'vat': False})
 >>>>>>> upstream/18.0
@@ -797,7 +822,10 @@ class TestUBLRO(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.write({'vat': False, 'company_registry': 'RO1234567897'})
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1128,7 +1156,11 @@ class TestUBLRO(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.write({'vat': False, 'company_registry': '1234567897'})
+=======
+        self.partner_a.write({'vat': False})
+>>>>>>> upstream/18.0
 =======
         self.partner_a.write({'vat': False})
 >>>>>>> upstream/18.0
@@ -1567,7 +1599,10 @@ class TestUBLRO(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.write({'vat': False, 'company_registry': False})
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

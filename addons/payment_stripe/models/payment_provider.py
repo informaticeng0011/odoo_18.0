@@ -98,6 +98,10 @@ from odoo.addons.payment import utils as payment_utils
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.payment.controllers.portal import PaymentPortal
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.payment.controllers.portal import PaymentPortal
 >>>>>>> upstream/18.0
@@ -933,6 +937,7 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'is_tokenization_required': self._is_tokenization_required(**kwargs),
 =======
 =======
@@ -966,6 +971,8 @@ class PaymentProvider(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1211,6 +1218,9 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

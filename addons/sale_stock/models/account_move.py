@@ -89,7 +89,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         all_invoices_amls = current_invoice_amls.sale_line_ids.invoice_lines.filtered(lambda aml: aml.move_id.state == 'posted').sorted(lambda aml: (aml.date, aml.move_name, aml.id))
+=======
+        all_invoices_amls = current_invoice_amls.sale_line_ids.invoice_lines.filtered(lambda aml: aml._filter_aml_lot_valuation()).sorted(lambda aml: (aml.date, aml.move_name, aml.id))
+>>>>>>> upstream/18.0
 =======
         all_invoices_amls = current_invoice_amls.sale_line_ids.invoice_lines.filtered(lambda aml: aml._filter_aml_lot_valuation()).sorted(lambda aml: (aml.date, aml.move_name, aml.id))
 >>>>>>> upstream/18.0
@@ -341,10 +345,13 @@ class AccountMove(models.Model):
         ctx = super()._get_anglo_saxon_price_ctx()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         move_is_downpayment = self.invoice_line_ids.filtered(
             lambda line: any(line.sale_line_ids.mapped("is_downpayment"))
         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         move_is_downpayment = None
@@ -353,6 +360,9 @@ class AccountMove(models.Model):
                 lambda line: any(line.sale_line_ids.mapped("is_downpayment"))
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -374,6 +384,7 @@ class AccountMoveLine(models.Model):
         move_is_downpayment = self.env.context.get("move_is_downpayment")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if move_is_downpayment is None:
             move_is_downpayment = self.move_id.invoice_line_ids.filtered(
             lambda line: any(line.sale_line_ids.mapped("is_downpayment"))
@@ -381,11 +392,16 @@ class AccountMoveLine(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if move_is_downpayment is None and not self.move_id.reversed_entry_id and self.move_type == "out_refund":
             move_is_downpayment = self.move_id.invoice_line_ids.filtered(
                 lambda line: any(line.sale_line_ids.mapped("is_downpayment"))
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

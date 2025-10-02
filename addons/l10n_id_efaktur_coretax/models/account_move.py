@@ -43,7 +43,10 @@ from odoo.exceptions import UserError, ValidationError, RedirectWarning
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import cleanup_xml_node
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -397,7 +400,10 @@ class AccountMove(models.Model):
         trx_code = self.l10n_id_kode_transaksi
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         l10n_id_buyer_document_type_mapping_to_xml = {
             'TIN': 'TIN',
             'NIK': 'National ID',
@@ -405,6 +411,9 @@ class AccountMove(models.Model):
             'Other': 'Other ID'
         }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         vals.update({
             "TIN": self.company_id.vat,
@@ -418,7 +427,11 @@ class AccountMove(models.Model):
             "RefDesc": self.name,
             "SellerIDTKU": self.company_id.vat + self.company_id.partner_id.l10n_id_tku,
 <<<<<<< HEAD
+<<<<<<< HEAD
             "BuyerDocument": partner.l10n_id_buyer_document_type,
+=======
+            "BuyerDocument": l10n_id_buyer_document_type_mapping_to_xml.get(partner.l10n_id_buyer_document_type, partner.l10n_id_buyer_document_type),
+>>>>>>> upstream/18.0
 =======
             "BuyerDocument": l10n_id_buyer_document_type_mapping_to_xml.get(partner.l10n_id_buyer_document_type, partner.l10n_id_buyer_document_type),
 >>>>>>> upstream/18.0

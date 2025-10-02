@@ -172,7 +172,10 @@ class TestProjectFlow(TestProjectCommon, MailCommon):
     @mute_logger('odoo.addons.mail.models.mail_thread')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_task_creation_from_mail(self):
@@ -201,6 +204,9 @@ class TestProjectFlow(TestProjectCommon, MailCommon):
 
     @mute_logger('odoo.addons.mail.models.mail_thread')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

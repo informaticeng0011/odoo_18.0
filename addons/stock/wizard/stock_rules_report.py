@@ -35,6 +35,11 @@ class StockRulesReport(models.TransientModel):
             warehouse_id = self.env['stock.warehouse'].search(self.env['stock.warehouse']._check_company_domain(company), limit=1).id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not warehouse_id:
+                self.env['stock.warehouse']._warehouse_redirect_warning()
+>>>>>>> upstream/18.0
 =======
             if not warehouse_id:
                 self.env['stock.warehouse']._warehouse_redirect_warning()

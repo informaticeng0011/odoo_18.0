@@ -2,6 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from . import chatbot_common
+<<<<<<< HEAD
+=======
+from . import test_call
+>>>>>>> upstream/18.0
 from . import test_chatbot_form_ui
 from . import test_chatbot_internals
 from . import test_digest

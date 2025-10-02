@@ -120,14 +120,20 @@ class LinkTracker(models.Model):
                 if attr:
                     query[key] = attr
 <<<<<<< HEAD
+<<<<<<< HEAD
             tracker.redirected_url = parsed.replace(query=urls.url_encode(query)).to_url()
 =======
+=======
+>>>>>>> upstream/18.0
 
             query = urls.url_encode(query)
             # '...' is detected as malicious by some nginx
             # configuration, encoding it solve the issue
             query = query.replace('...', '%2E%2E%2E')
             tracker.redirected_url = parsed.replace(query=query).to_url()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @api.model

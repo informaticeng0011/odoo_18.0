@@ -866,6 +866,11 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not picking.id:
+                continue
+>>>>>>> upstream/18.0
 =======
             if not picking.id:
                 continue
@@ -1465,7 +1470,12 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if all(float_is_zero(move.quantity, precision_digits=precision_digits) for move in picking.move_ids.filtered(lambda m: m.state not in ('done', 'cancel'))):
+=======
+            has_pick = any(move.picked and move.state not in ('done', 'cancel') for move in picking.move_ids)
+            if all(float_is_zero(move.quantity, precision_digits=precision_digits) for move in picking.move_ids.filtered(lambda m: m.state not in ('done', 'cancel') and (not has_pick or m.picked))):
+>>>>>>> upstream/18.0
 =======
             has_pick = any(move.picked and move.state not in ('done', 'cancel') for move in picking.move_ids)
             if all(float_is_zero(move.quantity, precision_digits=precision_digits) for move in picking.move_ids.filtered(lambda m: m.state not in ('done', 'cancel') and (not has_pick or m.picked))):
@@ -1609,6 +1619,10 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self = self.filtered(lambda p: p.state != 'done')
+>>>>>>> upstream/18.0
 =======
         self = self.filtered(lambda p: p.state != 'done')
 >>>>>>> upstream/18.0
@@ -1984,7 +1998,11 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'You cannot validate a transfer if no quantities are reserved. '
+=======
+            'You cannot validate a transfer if no quantities are reserved, or if only non-reserved moves are picked.'
+>>>>>>> upstream/18.0
 =======
             'You cannot validate a transfer if no quantities are reserved, or if only non-reserved moves are picked.'
 >>>>>>> upstream/18.0
@@ -2137,7 +2155,10 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2406,6 +2427,9 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2673,6 +2697,7 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 moves_to_backorder = picking.move_ids.filtered(lambda x: x.state not in ('done', 'cancel'))
             moves_to_backorder._recompute_state()
             if moves_to_backorder:
@@ -2683,6 +2708,8 @@ class Picking(models.Model):
                     'backorder_id': picking.id
                 })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2942,6 +2969,9 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

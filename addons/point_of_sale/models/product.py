@@ -29,7 +29,12 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _inherit = 'product.template'
+=======
+    _name = 'product.template'
+    _inherit = ['product.template', 'pos.load.mixin']
+>>>>>>> upstream/18.0
 =======
     _name = 'product.template'
     _inherit = ['product.template', 'pos.load.mixin']
@@ -177,7 +182,10 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -243,6 +251,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -450,8 +461,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         taxes = self.taxes_id.compute_all(price, config.currency_id, quantity, self)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -594,6 +608,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -731,7 +748,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pricelist_list = [{'name': pl.name, 'price': price_per_pricelist_id[pl.id]} for pl in pricelists]
+=======
+        pricelist_list = [{'id': pl.id, 'name': pl.name, 'price': price_per_pricelist_id[pl.id]} for pl in pricelists]
+>>>>>>> upstream/18.0
 =======
         pricelist_list = [{'id': pl.id, 'name': pl.name, 'price': price_per_pricelist_id[pl.id]} for pl in pricelists]
 >>>>>>> upstream/18.0
@@ -875,8 +896,11 @@ class ProductAttribute(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['name', 'display_type', 'template_value_ids', 'attribute_line_ids', 'create_variant']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -940,6 +964,9 @@ class ProductAttribute(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1086,7 +1113,11 @@ class ProductAttributeCustomValue(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['custom_value', 'custom_product_template_attribute_value_id', 'pos_order_line_id']
+=======
+        return ['custom_value', 'custom_product_template_attribute_value_id', 'pos_order_line_id', 'write_date']
+>>>>>>> upstream/18.0
 =======
         return ['custom_value', 'custom_product_template_attribute_value_id', 'pos_order_line_id', 'write_date']
 >>>>>>> upstream/18.0
@@ -1470,6 +1501,7 @@ class ProductPricelist(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1486,6 +1518,8 @@ class ProductPricelist(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

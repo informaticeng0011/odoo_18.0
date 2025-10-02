@@ -33,7 +33,10 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -96,6 +99,7 @@ class TestSandwichLeave(TransactionCase):
             'user_id': self.demo_user.id,
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,6 +194,8 @@ class TestSandwichLeave(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.leave_type = self.env['hr.leave.type'].create({
             'name': 'Test Leave Type',
             'request_unit': 'day',
@@ -215,6 +221,9 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -263,6 +272,7 @@ class TestSandwichLeave(TransactionCase):
                 'date_from': '2023-08-15',
                 'date_to': '2023-08-15',
                 'resource_id': False,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,6 +349,8 @@ class TestSandwichLeave(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'company_id': self.indian_company.id,
             })
             before_holiday_leave = self.env['hr.leave'].create({
@@ -367,6 +379,9 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -443,7 +458,11 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ('employee_id', '=', self.rahul_emp.id),
+=======
+                ('employee_id', '=', self.demo_employee.id),
+>>>>>>> upstream/18.0
 =======
                 ('employee_id', '=', self.demo_employee.id),
 >>>>>>> upstream/18.0
@@ -545,7 +564,11 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'employee_id': self.rahul_emp.id,
+=======
+                'employee_id': self.demo_employee.id,
+>>>>>>> upstream/18.0
 =======
                 'employee_id': self.demo_employee.id,
 >>>>>>> upstream/18.0
@@ -651,7 +674,10 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -733,6 +759,9 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -34,6 +34,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -486,6 +490,7 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -550,6 +555,8 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_stock_valuation_layer_revaluation_fifo_rounding_2_digits(self):
         """ make sure that the rounding in the wizard does not incur a negative remaining value
@@ -572,6 +579,9 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
         revaluation_wizard.save().action_validate_revaluation()
 
         self.assertEqual(self.product1.standard_price, 0.02)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_multi_company_fifo_svl_negative_revaluation(self):
@@ -649,6 +659,9 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -65,7 +65,11 @@ export class ResCurrency extends ServerModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             id: Number(id),
+=======
+            id: Number(id) + 1,
+>>>>>>> upstream/18.0
 =======
             id: Number(id) + 1,
 >>>>>>> upstream/18.0

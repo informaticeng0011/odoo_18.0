@@ -2,13 +2,21 @@ import { closestElement } from "@html_editor/utils/dom_traversal";
 import { URL_REGEX, cleanZWChars } from "./utils";
 import { isImageUrl } from "@html_editor/utils/url";
 import { Plugin } from "@html_editor/plugin";
+<<<<<<< HEAD
 import { leftPos } from "@html_editor/utils/position";
+=======
+import { childNodeIndex } from "@html_editor/utils/position";
+>>>>>>> upstream/18.0
 
 export class LinkPastePlugin extends Plugin {
     static id = "linkPaste";
     static dependencies = ["link", "clipboard", "selection", "dom"];
     resources = {
+<<<<<<< HEAD
         before_paste_handlers: this.removeFullySelectedLink.bind(this),
+=======
+        before_paste_handlers: this.selectFullySelectedLink.bind(this),
+>>>>>>> upstream/18.0
         paste_text_overrides: this.handlePasteText.bind(this),
     };
 
@@ -98,6 +106,7 @@ export class LinkPastePlugin extends Plugin {
     /**
      * @param {EditorSelection} selection
      */
+<<<<<<< HEAD
     removeFullySelectedLink(selection) {
         // Replace entire link if its label is fully selected.
         const link = closestElement(selection.anchorNode, "a");
@@ -109,6 +118,20 @@ export class LinkPastePlugin extends Plugin {
                 anchorNode: start[0],
                 anchorOffset: start[1],
                 normalize: false,
+=======
+    selectFullySelectedLink(selection) {
+        const link = closestElement(selection.anchorNode, "a");
+        if (
+            link?.parentElement?.isContentEditable &&
+            cleanZWChars(selection.textContent()) === cleanZWChars(link.innerText) &&
+            !this.getResource("unremovable_node_predicates").some((p) => p(link))
+        ) {
+            this.dependencies.selection.setSelection({
+                anchorNode: link.parentElement,
+                anchorOffset: childNodeIndex(link) + (selection.direction ? 0 : 1),
+                focusNode: link.parentElement,
+                focusOffset: childNodeIndex(link) + (selection.direction ? 1 : 0),
+>>>>>>> upstream/18.0
             });
         }
     }

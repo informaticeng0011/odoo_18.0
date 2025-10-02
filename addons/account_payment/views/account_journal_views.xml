@@ -9,12 +9,18 @@
             <xpath expr="//field[@name='inbound_payment_method_line_ids']//field[@name='payment_account_id']" position="after">
                 <field name="code" column_invisible="True"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="payment_provider_id" options="{'no_open': True, 'no_create': True}" optional="hide"/>
 =======
+=======
+>>>>>>> upstream/18.0
                 <field name="payment_provider_id"
                        options="{'no_open': True, 'no_create': True}"
                        optional="hide"
                        readonly="payment_provider_state in ('enabled', 'test')"/>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 <field name="payment_provider_state" column_invisible="True"/>
                 <button name="action_open_provider_form"

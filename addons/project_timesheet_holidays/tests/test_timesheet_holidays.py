@@ -54,7 +54,11 @@ class TestTimesheetHolidays(TestCommonTimesheet):
         self.internal_task_leaves = self.env.company.leave_timesheet_task_id
 
         self.hr_leave_type_with_ts = self.env['hr.leave.type'].create({
+<<<<<<< HEAD
             'name': 'Time Off Type with timesheet generation',
+=======
+            'name': 'Time Off Type with timesheet generation (absence)',
+>>>>>>> upstream/18.0
             'requires_allocation': 'no',
             'timesheet_generate': True,
             'timesheet_project_id': self.internal_project.id,
@@ -121,7 +125,10 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -312,6 +319,7 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -432,6 +440,16 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        self.hr_leave_type_worked = self.env['hr.leave.type'].create({
+            'name': 'Time Off Type (worked time)',
+            'requires_allocation': 'no',
+            'timesheet_project_id': self.internal_project.id,
+            'timesheet_task_id': self.internal_task_leaves.id,
+            'time_type': 'other',
+        })
+
 >>>>>>> upstream/18.0
         self.hr_leave_type_no_ts = self.env['hr.leave.type'].create({
             'name': 'Time Off Type without timesheet generation',
@@ -508,6 +526,22 @@ class TestTimesheetHolidays(TestCommonTimesheet):
         self.assertEqual(holiday.timesheet_ids.project_id.id, company.internal_project_id.id)
         self.assertEqual(holiday.timesheet_ids.task_id.id, company.leave_timesheet_task_id.id)
 
+<<<<<<< HEAD
+=======
+    def test_validate_worked_leave(self):
+        # employee creates a leave request of worked time type
+        holiday = self.Requests.with_user(self.user_employee).create({
+            'name': 'Time Off 3',
+            'employee_id': self.empl_employee.id,
+            'holiday_status_id': self.hr_leave_type_worked.id,
+            'request_date_from': self.leave_start_datetime,
+            'request_date_to': self.leave_end_datetime,
+        })
+        holiday.with_user(SUPERUSER_ID).action_validate()
+
+        self.assertEqual(len(holiday.timesheet_ids), 0, 'No timesheet should be created for a leave of worked time type')
+
+>>>>>>> upstream/18.0
     def test_validate_without_timesheet(self):
         # employee creates a leave request
         holiday = self.Requests.with_user(self.user_employee).create({
@@ -738,7 +772,10 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1005,6 +1042,10 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'full_time_required_hours': 40.0,
+>>>>>>> upstream/18.0
 =======
             'full_time_required_hours': 40.0,
 >>>>>>> upstream/18.0
@@ -1207,6 +1248,7 @@ class TestTimesheetHolidays(TestCommonTimesheet):
             ('date', '<=', self.leave_end_datetime),
             ('employee_id', '=', self.empl_employee.id),
         ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1620,6 +1662,8 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(len(timesheet), 3, "Three timesheets should be created for each leave day")
         self.assertEqual(sum(timesheet.mapped('unit_amount')), 24, "The duration of the timesheet for flexible employee leave "
                                                         "should be number of days * hours per day")
@@ -1674,6 +1718,7 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1682,6 +1727,8 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1753,6 +1800,9 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

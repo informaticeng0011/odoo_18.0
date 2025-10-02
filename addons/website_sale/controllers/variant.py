@@ -22,6 +22,10 @@ class WebsiteSaleVariantController(Controller):
             parent_combination=request.env['product.template.attribute.value'].browse(parent_combination),
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        combination_info['currency_precision'] = combination_info['currency'].decimal_places
+>>>>>>> upstream/18.0
 =======
         combination_info['currency_precision'] = combination_info['currency'].decimal_places
 >>>>>>> upstream/18.0

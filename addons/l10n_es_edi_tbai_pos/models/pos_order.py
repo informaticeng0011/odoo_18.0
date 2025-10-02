@@ -86,8 +86,11 @@ class PosOrder(models.Model):
         if self.l10n_es_tbai_is_required and not self.to_invoice:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._l10n_es_tbai_post()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             error = self._l10n_es_tbai_post()
@@ -102,6 +105,9 @@ class PosOrder(models.Model):
                         self.env.cr.commit()
                     self._l10n_es_tbai_post()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -143,6 +149,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return ''
+>>>>>>> upstream/18.0
 =======
         return ''
 >>>>>>> upstream/18.0
@@ -262,7 +272,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -326,6 +339,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -416,7 +432,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_origin': False,
+=======
+            'origin': 'manual',
+>>>>>>> upstream/18.0
 =======
             'origin': 'manual',
 >>>>>>> upstream/18.0

@@ -108,10 +108,14 @@ function transformAction(component, id, action) {
         },
         /** Condition to display this action. */
         get condition() {
+<<<<<<< HEAD
             if (action.condition === undefined) {
                 return true;
             }
             return action.condition(component);
+=======
+            return threadActionsInternal.condition(component, id, action);
+>>>>>>> upstream/18.0
         },
         /** Condition to disable the button of this action (but still display it). */
         get disabledCondition() {
@@ -208,6 +212,18 @@ function transformAction(component, id, action) {
     };
 }
 
+<<<<<<< HEAD
+=======
+export const threadActionsInternal = {
+    condition(component, id, action) {
+        if (action.condition === undefined) {
+            return true;
+        }
+        return action.condition(component);
+    },
+};
+
+>>>>>>> upstream/18.0
 export function useThreadActions() {
     const component = useComponent();
     const transformedActions = threadActionsRegistry

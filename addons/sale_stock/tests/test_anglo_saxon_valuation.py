@@ -1786,7 +1786,10 @@ class TestAngloSaxonValuation(ValuationReconciliationTestCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_anglo_saxon_cogs_partial_down_payment_credit_note(self):
@@ -1856,6 +1859,9 @@ class TestAngloSaxonValuation(ValuationReconciliationTestCommon):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

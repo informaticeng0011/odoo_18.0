@@ -81,6 +81,10 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(sol.analytic_distribution, {str(analytic_account.id): 100})
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(sol.analytic_distribution, {str(analytic_account.id): 100})
 >>>>>>> upstream/18.0

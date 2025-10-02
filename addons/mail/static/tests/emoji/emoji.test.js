@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { patchTranslations, preloadBundle } from "@web/../tests/web_test_helpers";
+=======
+import { patchTranslations, patchWithCleanup, preloadBundle } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 
 import {
     click,
@@ -18,9 +22,16 @@ describe.current.tags("desktop");
 defineMailModels();
 preloadBundle("web.assets_emoji");
 
+<<<<<<< HEAD
 test("emoji picker works well with translation with double quotes", async () => {
     patchTranslations({
         "Japanese “here” button": `Bouton "ici" japonais`,
+=======
+test("emoji picker correctly handles translations with special characters", async () => {
+    patchTranslations({
+        "Japanese “here” button": `Bouton "ici" japonais`,
+        "heavy dollar sign": `Symbole du dollar\nlourd`,
+>>>>>>> upstream/18.0
     });
     const pyEnv = await startServer();
     const channelId = pyEnv["discuss.channel"].create({ name: "" });
@@ -29,6 +40,11 @@ test("emoji picker works well with translation with double quotes", async () => 
     await click("button[aria-label='Emojis']");
     await insertText("input[placeholder='Search emoji']", "ici");
     await contains(`.o-Emoji[title='Bouton "ici" japonais']`);
+<<<<<<< HEAD
+=======
+    await insertText("input[placeholder='Search emoji']", "dollar", { replace: true });
+    await contains(`.o-Emoji[title*='Symbole du dollar']`);
+>>>>>>> upstream/18.0
 });
 
 test("search emoji from keywords", async () => {
@@ -215,3 +231,21 @@ test("selecting an emoji while holding down the Shift key prevents the emoji pic
     await contains(".o-EmojiPicker");
     await contains(".o-mail-Composer-input", { value: "👺" });
 });
+<<<<<<< HEAD
+=======
+
+test("Emoji picker shows failure to load emojis", async () => {
+    // Simulate failure to load emojis
+    patchWithCleanup(odoo.loader.modules.get("@web/core/emoji_picker/emoji_data"), {
+        getEmojis() {
+            return [];
+        },
+    });
+    const pyEnv = await startServer();
+    const channelId = pyEnv["discuss.channel"].create({ name: "" });
+    await start();
+    await openDiscuss(channelId);
+    await click("button[aria-label='Emojis']");
+    await contains(".o-EmojiPicker", { text: "😵‍💫Failed to load emojis..." });
+});
+>>>>>>> upstream/18.0

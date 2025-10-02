@@ -205,7 +205,10 @@ class TestAccruedPurchaseOrders(AccountTestInvoicingCommon):
         with self.assertRaises(UserError, msg="An error should be raised if two different currencies are used for Accrued Expense Entry."):
             accrued_wizard._compute_move_vals()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_accrued_entries_with_discount(self):
         purchase_order = self.env['purchase.order'].with_context(tracking_disable=True).create({
@@ -237,4 +240,7 @@ class TestAccruedPurchaseOrders(AccountTestInvoicingCommon):
             {'debit': 90.0, 'credit': 0.0},
             {'debit': 0.0, 'credit': 90.0},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
