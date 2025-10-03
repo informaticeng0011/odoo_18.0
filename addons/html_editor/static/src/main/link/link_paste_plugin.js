@@ -3,7 +3,11 @@ import { URL_REGEX, cleanZWChars } from "./utils";
 import { isImageUrl } from "@html_editor/utils/url";
 import { Plugin } from "@html_editor/plugin";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { leftPos } from "@html_editor/utils/position";
+=======
+import { childNodeIndex } from "@html_editor/utils/position";
+>>>>>>> upstream/18.0
 =======
 import { childNodeIndex } from "@html_editor/utils/position";
 >>>>>>> upstream/18.0
@@ -13,7 +17,11 @@ export class LinkPastePlugin extends Plugin {
     static dependencies = ["link", "clipboard", "selection", "dom"];
     resources = {
 <<<<<<< HEAD
+<<<<<<< HEAD
         before_paste_handlers: this.removeFullySelectedLink.bind(this),
+=======
+        before_paste_handlers: this.selectFullySelectedLink.bind(this),
+>>>>>>> upstream/18.0
 =======
         before_paste_handlers: this.selectFullySelectedLink.bind(this),
 >>>>>>> upstream/18.0
@@ -107,6 +115,7 @@ export class LinkPastePlugin extends Plugin {
      * @param {EditorSelection} selection
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     removeFullySelectedLink(selection) {
         // Replace entire link if its label is fully selected.
         const link = closestElement(selection.anchorNode, "a");
@@ -119,6 +128,8 @@ export class LinkPastePlugin extends Plugin {
                 anchorOffset: start[1],
                 normalize: false,
 =======
+=======
+>>>>>>> upstream/18.0
     selectFullySelectedLink(selection) {
         const link = closestElement(selection.anchorNode, "a");
         if (
@@ -131,6 +142,9 @@ export class LinkPastePlugin extends Plugin {
                 anchorOffset: childNodeIndex(link) + (selection.direction ? 0 : 1),
                 focusNode: link.parentElement,
                 focusOffset: childNodeIndex(link) + (selection.direction ? 1 : 0),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             });
         }

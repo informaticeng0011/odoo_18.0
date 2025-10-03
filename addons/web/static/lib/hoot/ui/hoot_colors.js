@@ -46,6 +46,10 @@ import { reactive, useState } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { getAllColors, getPreferredColorScheme } from "../../hoot-dom/hoot_dom_utils";
+>>>>>>> upstream/18.0
 =======
 import { getAllColors, getPreferredColorScheme } from "../../hoot-dom/hoot_dom_utils";
 >>>>>>> upstream/18.0
@@ -237,7 +241,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     matchMedia,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -335,6 +342,7 @@ const {
 // Internal
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -686,10 +694,15 @@ const COLOR_SCHEMES = $keys(getAllColors()).filter((key) => key !== "default");
 /** @type {ColorScheme[]} */
 const COLOR_SCHEMES = $keys(getAllColors()).filter((key) => key !== "default");
 >>>>>>> upstream/18.0
+=======
+/** @type {ColorScheme[]} */
+const COLOR_SCHEMES = $keys(getAllColors()).filter((key) => key !== "default");
+>>>>>>> upstream/18.0
 
 /** @type {ColorScheme} */
 let defaultScheme = storageGet(STORAGE.scheme);
 if (!COLOR_SCHEMES.includes(defaultScheme)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -871,6 +884,9 @@ if (!COLOR_SCHEMES.includes(defaultScheme)) {
 =======
     defaultScheme = getPreferredColorScheme();
 >>>>>>> upstream/18.0
+=======
+    defaultScheme = getPreferredColorScheme();
+>>>>>>> upstream/18.0
     storageSet(STORAGE.scheme, defaultScheme);
 }
 
@@ -892,6 +908,7 @@ const current = reactive(
             return;
         }
         for (const callback of colorChangedCallbacks) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -977,6 +994,9 @@ const current = reactive(
 =======
             callback(current.scheme);
 >>>>>>> upstream/18.0
+=======
+            callback(current.scheme);
+>>>>>>> upstream/18.0
         }
     }
 );
@@ -986,6 +1006,7 @@ current.root;
 // Exports
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1128,6 +1149,8 @@ export function generateStyleSheets() {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 export function generateStyleSheets() {
     /** @type {Record<string, string>} */
     const styles = {};
@@ -1176,6 +1199,9 @@ export function generateStyleSheets() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1295,9 +1321,12 @@ export function generateStyleSheets() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @param {() => any} callback
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1364,6 +1393,9 @@ export function getColorScheme() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

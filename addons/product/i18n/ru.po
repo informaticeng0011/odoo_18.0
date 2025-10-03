@@ -20,8 +20,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product
 # 
+=======
+# * product
+#
+>>>>>>> upstream/18.0
 =======
 # * product
 #
@@ -140,6 +145,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -254,10 +260,15 @@
 # Anastasiia Koroleva, 2025
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Anastasiia Koroleva, 2025
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -620,6 +631,10 @@ msgstr ""
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2025-09-15 06:06+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-14 20:47+0000\n"
+"PO-Revision-Date: 2025-10-02 22:20+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/product/"
 "ru/>\n"
@@ -650,6 +665,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -731,6 +749,13 @@ msgid ""
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra fee\n"
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"%(base)s со скидкой %(discount)s %% %(discount_type)s и дополнительной "
+"платой %(surcharge)s.\n"
+"Пример: %(amount)s * %(discount_charge)s + %(price_surcharge)s → "
+"%(total_amount)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -739,6 +764,11 @@ msgid ""
 "%(item_name)s: end date (%(end_date)s) should be after start date "
 "(%(start_date)s)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"%(item_name)s: дата окончания (%(end_date)s) должна быть позже даты начала "
+"(%(start_date)s)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -814,6 +844,16 @@ msgid ""
 "        - Never: Variants are never created for the attribute.\n"
 "        Note: this cannot be changed once the attribute is used on a product."
 msgstr ""
+<<<<<<< HEAD
+=======
+"– Мгновенно: Все возможные вариации создаются сразу же, как только атрибут и "
+"его значения добавляются к товару.\n"
+"        – Динамически: Каждая вариация создается только тогда, когда "
+"соответствующие атрибуты и их значения добавляются к заказу на продажу.\n"
+"        – Никогда: Вариации для данного атрибута никогда не создаются.\n"
+"        Обратите внимание: этот параметр нельзя изменить после того, как "
+"атрибут был использован для товара."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_5
@@ -899,6 +939,16 @@ msgid ""
 "                                            Rule\n"
 "                                        </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
+"                                            Правила\n"
+"                                        </span>\n"
+"                                        <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+"                                            Правило\n"
+"                                        </span>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
@@ -910,6 +960,16 @@ msgid ""
 "                                        Pricelist\n"
 "                                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
+"                                        Прайс-листы\n"
+"                                    </span>\n"
+"                                    <span class=\"o_stat_text\" invisible="
+"\"pricelist_item_count != 1\">\n"
+"                                        Прайс-лист\n"
+"                                    </span>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_category_form_view
@@ -972,25 +1032,41 @@ msgstr "Штрих-код может быть присвоен только од
 #. odoo-python
 #: code:addons/product/models/product_combo.py:0
 msgid "A combo choice can't contain duplicate products."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вариант набора не может содержать повторяющиеся товары."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_combo_item.py:0
 msgid "A combo choice can't contain products of type \"combo\"."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вариант набора не может содержать товары типа «Набор»."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_combo.py:0
 msgid "A combo choice must contain at least 1 product."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вариант набора должен содержать как минимум один товар."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "A combo product must contain at least 1 combo choice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Товар категории «Набор» должен содержать как минимум один вариант."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__description_sale
@@ -1030,6 +1106,11 @@ msgstr "В продукте уже используется штрихкод"
 #: code:addons/product/models/product_template.py:0
 msgid "A sellable combo product can only contain sellable products."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Товар категории «Набор», доступный для продажи, может содержать только "
+"доступные для продажи товары."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__access_token
@@ -1138,6 +1219,12 @@ msgid ""
 "Add products using the \"Add Products\" button at the top right to\n"
 "                                include them in the report."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Добавьте товары в отчет, используя кнопку «Добавить товары» в правом верхнем "
+"углу, чтобы\n"
+"                                включить их в отчет."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -1256,10 +1343,15 @@ msgstr "Все варианты продуктов, использующие э�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
@@ -1621,7 +1713,11 @@ msgid "All products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Все товары"
+>>>>>>> upstream/18.0
 =======
 msgstr "Все товары"
 >>>>>>> upstream/18.0
@@ -2048,7 +2144,11 @@ msgid "Combo Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Позиция-комбо"
+>>>>>>> upstream/18.0
 =======
 msgstr "Позиция-комбо"
 >>>>>>> upstream/18.0
@@ -2161,6 +2261,11 @@ msgid ""
 "Combos allow to choose one product amongst a selection of choices per "
 "category."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Наборы позволяют выбрать один товар из нескольких вариантов в каждой "
+"категории."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_res_company
@@ -2362,7 +2467,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -2469,7 +2578,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -3034,7 +3147,11 @@ msgid "Furniture Assembly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сборка мебели"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сборка мебели"
 >>>>>>> upstream/18.0
@@ -3176,6 +3293,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Товары  –  материальные изделия и продукция, которую вы поставляете.\n"
+"Услуга  –  нематериальный продукт, который вы предоставляете."
+>>>>>>> upstream/18.0
 =======
 "Товары  –  материальные изделия и продукция, которую вы поставляете.\n"
 "Услуга  –  нематериальный продукт, который вы предоставляете."
@@ -3413,7 +3535,11 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_attribute__active
 msgid ""
 "If unchecked, it will allow you to hide the attribute without removing it."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Если не выбрано, это позволит скрыть атрибут, не удаляя его."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist__active
@@ -3638,7 +3764,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -3748,7 +3878,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -4178,6 +4312,11 @@ msgstr ""
 #: code:addons/product/static/src/js/product_document_kanban/upload_button/upload_button.js:0
 msgid "Oops! '%(fileName)s' didn’t upload since its format isn’t allowed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ой! Файл «%(fileName)s» не был загружен, так как его формат не "
+"поддерживается."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__original_id
@@ -4356,7 +4495,11 @@ msgid "Price Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Тип цены"
+>>>>>>> upstream/18.0
 =======
 msgstr "Тип цены"
 >>>>>>> upstream/18.0
@@ -4624,7 +4767,11 @@ msgid "Product Combo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Комплект товаров"
+>>>>>>> upstream/18.0
 =======
 msgstr "Комплект товаров"
 >>>>>>> upstream/18.0
@@ -4713,7 +4860,11 @@ msgid "Product Combo Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Товар из комплекта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Товар из комплекта"
 >>>>>>> upstream/18.0
@@ -5262,6 +5413,13 @@ msgid ""
 "Rounding is applied after the discount and before the surcharge.\n"
 "To have prices that end in 9.99, round off to 10.00 and set an extra at -0.01"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Устанавливает цену так, чтобы она была кратной этому значению.\n"
+"Округление применяется после скидки и до наценки.\n"
+"Чтобы получить цены, которые заканчиваются на 9.99, округлите до 10.00 и "
+"установите дополнительную корректировку на -0.01"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -5518,7 +5676,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5580,6 +5741,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5751,6 +5915,11 @@ msgstr ""
 msgid ""
 "This product is part of a combo, so its type can't be changed to \"combo\"."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Этот товар является частью набора, поэтому его тип нельзя изменить на "
+"«Набор»."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -5922,6 +6091,11 @@ msgid ""
 "Use the discount rules and activate the discount settings in order to show "
 "discount to customer."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Чтобы показывать скидки клиентам, создайте правила скидок и активируйте "
+"соответствующие настройки."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -6214,12 +6388,21 @@ msgid ""
 "You are about to add the value \"%(attribute_value)s\" to %(product_count)s "
 "products."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Вы собираетесь добавить значение «%(attribute_value)s» к следующему "
+"количеству товаров: %(product_count)s."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/wizard/update_product_attribute_value.py:0
 msgid "You are about to update the extra price of %s products."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вы собираетесь обновить дополнительную цену для %s товаров."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -6254,7 +6437,11 @@ msgstr "Вы можете применить наценку, установив 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_markup
 msgid "You can apply a mark-up on the cost"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вы можете применять наценку на себестоимость"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
@@ -6295,7 +6482,11 @@ msgstr "Вы не можете редактировать этот продук�
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
 "You cannot archive this attribute as there are still products linked to it"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нельзя архивировать этот атрибут, так как с ним все ещё связаны товары"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -6371,6 +6562,13 @@ msgid ""
 "They are used within pricelist(s):\n"
 "%(other_pricelists)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Вы не можете удалить прайс-листы:\n"
+"(%(pricelists)s)\n"
+"Они используются в следующих прайс-листах:\n"
+"%(other_pricelists)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -6395,6 +6593,12 @@ msgid ""
 "You cannot delete the value %(value)s because it is used on the following products:\n"
 "%(products)s\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Нельзя удалить значение %(value)s, так как оно используется в следующих "
+"товарах:\n"
+"%(products)s\n"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -6576,7 +6780,11 @@ msgstr ""
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "round off to 10.00 and set an extra at -0.01"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "округлить до 10.00 и установить дополнительную корректировку на -0.01"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python

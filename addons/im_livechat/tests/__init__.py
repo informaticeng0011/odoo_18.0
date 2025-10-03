@@ -3,6 +3,10 @@
 
 from . import chatbot_common
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_call
+>>>>>>> upstream/18.0
 =======
 from . import test_call
 >>>>>>> upstream/18.0

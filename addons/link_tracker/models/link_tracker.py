@@ -121,8 +121,11 @@ class LinkTracker(models.Model):
                     query[key] = attr
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tracker.redirected_url = parsed.replace(query=urls.url_encode(query)).to_url()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -132,6 +135,9 @@ class LinkTracker(models.Model):
             query = query.replace('...', '%2E%2E%2E')
             tracker.redirected_url = parsed.replace(query=query).to_url()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -4,10 +4,13 @@ import { Dialog } from "@web/core/dialog/dialog";
 import { useHotkey } from "@web/core/hotkeys/hotkey_hook";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { onRendered, useRef, useEffect, useState } from "@odoo/owl";
 
 const ZOOM_STEP = 0.1;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { onMounted, onRendered, useRef, useEffect, useState } from "@odoo/owl";
@@ -15,6 +18,9 @@ import { onMounted, onRendered, useRef, useEffect, useState } from "@odoo/owl";
 const ZOOM_STEP = 0.1;
 const TOUCHMOVE_STEP = 96;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66,10 +72,13 @@ export class ProductImageViewer extends Dialog {
         );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // For some reason the styling does not always update properly.
         onRendered(() => {
             this.updateImage();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         onMounted(() => {
@@ -83,6 +92,9 @@ export class ProductImageViewer extends Dialog {
             this.updateImage();
             this._updateCarousel();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -126,7 +138,10 @@ export class ProductImageViewer extends Dialog {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     /**
@@ -150,6 +165,9 @@ export class ProductImageViewer extends Dialog {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -180,7 +198,10 @@ export class ProductImageViewer extends Dialog {
     onWheelImage(ev) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (!ev.deltaY) {
@@ -188,6 +209,9 @@ export class ProductImageViewer extends Dialog {
         }
         ev.preventDefault();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -218,7 +242,10 @@ export class ProductImageViewer extends Dialog {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -252,6 +279,9 @@ export class ProductImageViewer extends Dialog {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -206,7 +206,10 @@ class TestAccruedPurchaseOrders(AccountTestInvoicingCommon):
             accrued_wizard._compute_move_vals()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -241,6 +244,9 @@ class TestAccruedPurchaseOrders(AccountTestInvoicingCommon):
             {'debit': 0.0, 'credit': 90.0},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

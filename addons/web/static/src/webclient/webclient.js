@@ -87,12 +87,15 @@ export class WebClient extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const firstAction = router.current.actionStack?.[0]?.action;
         if (!menuId && firstAction) {
             menuId = this.menuService
                 .getAll()
                 .find((m) => m.actionID === firstAction || m.actionPath === firstAction)?.appID;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -170,6 +173,9 @@ export class WebClient extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -258,7 +264,11 @@ export class WebClient extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 menuId = Number(browser.sessionStorage.getItem("menu_id"));
+=======
+                menuId = storedMenuId;
+>>>>>>> upstream/18.0
 =======
                 menuId = storedMenuId;
 >>>>>>> upstream/18.0

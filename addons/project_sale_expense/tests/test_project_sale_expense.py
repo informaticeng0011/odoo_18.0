@@ -21,6 +21,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 
@@ -160,12 +165,15 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         project = self.env['project.project'].create({'name': 'SO Project'})
         project.account_id = self.analytic_account_1
         so_values = {
             'partner_id': self.partner_a.id,
             'order_line': [(0, 0, {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -240,6 +248,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -310,8 +321,13 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         so1 = self.env['sale.order'].create(so_values)
+=======
+        so1 = self.env['sale.order'].create(so_values)
+
+>>>>>>> upstream/18.0
 =======
         so1 = self.env['sale.order'].create(so_values)
 
@@ -421,7 +437,13 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
+=======
+            'product_id': self.product_c.id,
+        })
+
+>>>>>>> upstream/18.0
 =======
             'product_id': self.product_c.id,
         })
@@ -556,8 +578,11 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expense.sale_order_id = so2
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -623,6 +648,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -689,7 +717,10 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -797,6 +828,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

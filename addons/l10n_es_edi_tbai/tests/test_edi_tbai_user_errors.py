@@ -135,7 +135,11 @@ class TestTbaiUserErrors(TestEsEdiTbaiCommonGipuzkoa):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_date': '2022-01-01',
+=======
+            'invoice_date': '2025-01-01',
+>>>>>>> upstream/18.0
 =======
             'invoice_date': '2025-01-01',
 >>>>>>> upstream/18.0
@@ -474,6 +478,26 @@ class TestTbaiUserErrors(TestEsEdiTbaiCommonGipuzkoa):
         self.assertGreater(second_invoice.l10n_es_tbai_chain_index, first_invoice.l10n_es_tbai_chain_index)
 
     def test_post_tbai_credit_note_before_reversed_invoice(self):
+<<<<<<< HEAD
+=======
+        # We send a first invoice, so the first invoice sent won't be an invoice imported from a previous system
+        invoice_already_sent = self.create_invoice(invoice_line_ids=[{
+            'quantity': 5,
+            'discount': 20.0,
+            'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva21b').ids)],
+        }])
+        invoice_already_sent.invoice_date = "2020-01-01"
+        invoice_already_sent.action_post()
+        invoice_already_sent_wizard = self._get_invoice_send_wizard(invoice_already_sent)
+
+        # Can now post second with success
+        with patch(
+            'odoo.addons.l10n_es_edi_tbai.models.l10n_es_edi_tbai_document.requests.Session.request',
+            return_value=self.mock_response_post_invoice_success,
+        ):
+            invoice_already_sent_wizard.action_send_and_print()
+
+>>>>>>> upstream/18.0
         move_reversal = (
             self.env['account.move.reversal']
             .with_context(active_model="account.move", active_ids=self.invoice_to_send.ids)

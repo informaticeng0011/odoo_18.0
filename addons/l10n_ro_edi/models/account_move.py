@@ -58,8 +58,14 @@ class AccountMove(models.Model):
         res_model = res_model or self._name
         res_id = res_id or self.id
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             'name': f"ciusro_signature_{self.name.replace('/', '_')}.xml",
+=======
+        name = self.name or ""
+        return {
+            'name': f"ciusro_signature_{name.replace('/', '_')}.xml",
+>>>>>>> upstream/18.0
 =======
         name = self.name or ""
         return {
@@ -299,7 +305,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         result = self.env['l10n_ro_edi.document']._request_ciusro_send_invoice(
+=======
+        result = self.env['l10n_ro_edi.document']\
+                     .with_context(is_b2b=self.partner_id.commercial_partner_id.is_company)\
+                     ._request_ciusro_send_invoice(
+>>>>>>> upstream/18.0
 =======
         result = self.env['l10n_ro_edi.document']\
                      .with_context(is_b2b=self.partner_id.commercial_partner_id.is_company)\

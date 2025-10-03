@@ -173,7 +173,10 @@ class TestProjectFlow(TestProjectCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -205,6 +208,9 @@ class TestProjectFlow(TestProjectCommon, MailCommon):
     @mute_logger('odoo.addons.mail.models.mail_thread')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

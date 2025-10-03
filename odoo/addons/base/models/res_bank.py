@@ -184,7 +184,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('partner_id')
+=======
+    @api.depends('partner_id.name')
+>>>>>>> upstream/18.0
 =======
     @api.depends('partner_id.name')
 >>>>>>> upstream/18.0
@@ -455,6 +459,25 @@ class ResPartnerBank(models.Model):
                 value = sanitize_account_number(value)
         return super()._condition_to_sql(alias, fname, operator, value, query)
 
+<<<<<<< HEAD
+=======
+    def _sanitize_vals(self, vals):
+        if 'sanitized_acc_number' in vals:  # do not allow to write on sanitized directly
+            vals['acc_number'] = vals.pop('sanitized_acc_number')
+        if 'acc_number' in vals:
+            vals['sanitized_acc_number'] = sanitize_account_number(vals['acc_number'])
+
+    @api.model_create_multi
+    def create(self, vals_list):
+        for vals in vals_list:
+            self._sanitize_vals(vals)
+        return super().create(vals_list)
+
+    def write(self, vals):
+        self._sanitize_vals(vals)
+        return super().write(vals)
+
+>>>>>>> upstream/18.0
     def action_archive_bank(self):
         """
             Custom archive function because the basic action_archive don't trigger a re-rendering of the page, so

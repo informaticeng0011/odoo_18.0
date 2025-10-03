@@ -153,7 +153,11 @@ class StockValuationLayerRevaluation(models.TransientModel):
         remaining_value = self.added_value
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         remaining_value_unit_cost = self.currency_id.round(remaining_value / remaining_qty)
+=======
+        remaining_value_unit_cost = remaining_value / remaining_qty
+>>>>>>> upstream/18.0
 =======
         remaining_value_unit_cost = remaining_value / remaining_qty
 >>>>>>> upstream/18.0
@@ -172,6 +176,10 @@ class StockValuationLayerRevaluation(models.TransientModel):
                 taken_remaining_value = remaining_value_unit_cost * svl.remaining_qty
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            taken_remaining_value = self.currency_id.round(taken_remaining_value)
+>>>>>>> upstream/18.0
 =======
             taken_remaining_value = self.currency_id.round(taken_remaining_value)
 >>>>>>> upstream/18.0
@@ -217,7 +225,10 @@ class StockValuationLayerRevaluation(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -282,6 +293,9 @@ class StockValuationLayerRevaluation(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

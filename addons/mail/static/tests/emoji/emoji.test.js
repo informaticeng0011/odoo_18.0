@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { patchTranslations, preloadBundle } from "@web/../tests/web_test_helpers";
+=======
+import { patchTranslations, patchWithCleanup, preloadBundle } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { patchTranslations, patchWithCleanup, preloadBundle } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0
@@ -23,14 +27,20 @@ defineMailModels();
 preloadBundle("web.assets_emoji");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("emoji picker works well with translation with double quotes", async () => {
     patchTranslations({
         "Japanese “here” button": `Bouton "ici" japonais`,
 =======
+=======
+>>>>>>> upstream/18.0
 test("emoji picker correctly handles translations with special characters", async () => {
     patchTranslations({
         "Japanese “here” button": `Bouton "ici" japonais`,
         "heavy dollar sign": `Symbole du dollar\nlourd`,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     const pyEnv = await startServer();
@@ -41,6 +51,11 @@ test("emoji picker correctly handles translations with special characters", asyn
     await insertText("input[placeholder='Search emoji']", "ici");
     await contains(`.o-Emoji[title='Bouton "ici" japonais']`);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await insertText("input[placeholder='Search emoji']", "dollar", { replace: true });
+    await contains(`.o-Emoji[title*='Symbole du dollar']`);
+>>>>>>> upstream/18.0
 =======
     await insertText("input[placeholder='Search emoji']", "dollar", { replace: true });
     await contains(`.o-Emoji[title*='Symbole du dollar']`);
@@ -232,7 +247,10 @@ test("selecting an emoji while holding down the Shift key prevents the emoji pic
     await contains(".o-mail-Composer-input", { value: "👺" });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("Emoji picker shows failure to load emojis", async () => {
     // Simulate failure to load emojis
@@ -248,4 +266,7 @@ test("Emoji picker shows failure to load emojis", async () => {
     await click("button[aria-label='Emojis']");
     await contains(".o-EmojiPicker", { text: "😵‍💫Failed to load emojis..." });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

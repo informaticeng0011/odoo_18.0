@@ -488,7 +488,13 @@ var VariantMixin = {
                 $pricePerUom.parents(".o_base_unit_price_wrapper").removeClass("d-none");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $pricePerUom.text(this._priceToStr(combination.base_unit_price));
+=======
+                $pricePerUom.text(
+                    this._priceToStr(combination.base_unit_price, combination.currency_precision)
+                );
+>>>>>>> upstream/18.0
 =======
                 $pricePerUom.text(
                     this._priceToStr(combination.base_unit_price, combination.currency_precision)
@@ -539,9 +545,12 @@ var VariantMixin = {
         var $compare_price = $parent.find(".oe_compare_list_price")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $price.text(self._priceToStr(combination.price));
         $default_price.text(self._priceToStr(combination.list_price));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const precision = combination.currency_precision;
@@ -549,6 +558,9 @@ var VariantMixin = {
         $price.text(self._priceToStr(combination.price, precision));
         $default_price.text(self._priceToStr(combination.list_price, precision));
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -603,6 +615,7 @@ var VariantMixin = {
             .trigger('change');
 
         $parent
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -711,6 +724,10 @@ var VariantMixin = {
             .find('.o_product_tags:first')
             .replaceWith(combination.product_tags);
 >>>>>>> upstream/18.0
+=======
+            .find('.o_product_tags:first')
+            .replaceWith(combination.product_tags);
+>>>>>>> upstream/18.0
 
         this.handleCustomValues($(ev.target));
     },
@@ -722,6 +739,7 @@ var VariantMixin = {
      * @param {float} price
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     _priceToStr: function (price) {
         var precision = 2;
@@ -731,6 +749,8 @@ var VariantMixin = {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
      * @param {integer} precision
      * @returns {string}
      */
@@ -738,6 +758,9 @@ var VariantMixin = {
         if (!Number.isInteger(precision)) {
             precision = parseInt($('.decimal_precision:last').data('precision') ?? 2);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

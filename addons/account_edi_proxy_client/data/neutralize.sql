@@ -22,7 +22,11 @@ SET edi_mode = CASE
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     WHEN proxy_type = 'l10n_it_edi' THEN 'demo'
+=======
+                    WHEN proxy_type IN ('l10n_it_edi', 'peppol') THEN 'demo'
+>>>>>>> upstream/18.0
 =======
                     WHEN proxy_type IN ('l10n_it_edi', 'peppol') THEN 'demo'
 >>>>>>> upstream/18.0

@@ -109,10 +109,14 @@ function transformAction(component, id, action) {
         /** Condition to display this action. */
         get condition() {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (action.condition === undefined) {
                 return true;
             }
             return action.condition(component);
+=======
+            return threadActionsInternal.condition(component, id, action);
+>>>>>>> upstream/18.0
 =======
             return threadActionsInternal.condition(component, id, action);
 >>>>>>> upstream/18.0
@@ -213,7 +217,10 @@ function transformAction(component, id, action) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 export const threadActionsInternal = {
     condition(component, id, action) {
         if (action.condition === undefined) {
@@ -223,6 +230,9 @@ export const threadActionsInternal = {
     },
 };
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 export function useThreadActions() {
     const component = useComponent();

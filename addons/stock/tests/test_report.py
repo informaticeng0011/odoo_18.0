@@ -106,7 +106,11 @@ from datetime import date, datetime, timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, TransactionCase
+=======
+from odoo.tests import Form, tagged, TransactionCase
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged, TransactionCase
 >>>>>>> upstream/18.0
@@ -519,7 +523,10 @@ class TestReportsCommon(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -765,6 +772,9 @@ class TestReportsCommon(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2954,7 +2964,10 @@ class TestReports(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3246,8 +3259,12 @@ class TestReportsPostInstall(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         serial_product = self.env['product.product'].create({'name': 'simple prod', 'is_storable': True})
         serial_product.tracking = 'serial'
+=======
+        serial_product = self.serial_product
+>>>>>>> upstream/18.0
 =======
         serial_product = self.serial_product
 >>>>>>> upstream/18.0
@@ -3618,6 +3635,7 @@ class TestReportsPostInstall(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3662,6 +3680,8 @@ class TestReportsPostInstall(TestReportsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3949,6 +3969,7 @@ class TestReportsPostInstall(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4109,4 +4130,55 @@ class TestReportsPostInstall(TestReportsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_stock_reception_partial_available_move_assign(self):
+        """
+        Test partial assignment, unassignment, and reassignment of moves via
+        the Reception Report when some quantity is already available in stock
+        and the rest comes from an incoming receipt.
+        This ensures that after unassign/assign, the reservations remain
+        consistent: the stock already available stays reserved, and the
+        incoming quantity can be reassigned correctly.
+        """
+        warehouse_1 = self.env.ref('stock.warehouse0')
+        shelf1 = self.env['stock.location'].create({
+            'name': 'Shelf 1',
+            'location_id': warehouse_1.lot_stock_id.id,
+        })
+        self.env['stock.quant']._update_available_quantity(self.product, shelf1, 2.0)
+        picking_out = self.env['stock.picking'].create({
+            'picking_type_id': self.ref('stock.picking_type_out'),
+            'location_id': warehouse_1.lot_stock_id.id,
+            'location_dest_id': self.ref('stock.stock_location_customers'),
+            'move_ids': [Command.create({
+                'name': 'test_out_1',
+                'product_id': self.product.id,
+                'product_uom': self.ref('uom.product_uom_unit'),
+                'product_uom_qty': 3.0,
+            })],
+        })
+        out_move = picking_out.move_ids
+        self.env.ref('stock.picking_type_out').reservation_method = 'at_confirm'
+        picking_out.action_confirm()
+        picking_in = self.env['stock.picking'].create({
+            'picking_type_id': self.ref('stock.picking_type_in'),
+            'location_id': self.ref('stock.stock_location_suppliers'),
+            'location_dest_id': warehouse_1.lot_stock_id.id,
+            'move_ids': [Command.create({
+                'name': 'test_in',
+                'product_id': self.product.id,
+                'product_uom': self.ref('uom.product_uom_unit'),
+                'product_uom_qty': 1.0,
+            })],
+        })
+        picking_in.action_confirm()
+        picking_in.button_validate()
+        self.env['report.stock.report_reception'].action_assign(out_move.ids, [1.0], picking_in.move_ids.ids)
+        self.assertEqual(picking_out.move_ids.mapped('quantity'), [1.0, 2.0])
+        self.env['report.stock.report_reception'].action_unassign(out_move.id, 1, picking_in.move_ids.ids)
+        self.assertEqual(picking_out.move_ids.mapped('quantity'), [0.0, 2.0])
+        self.env['report.stock.report_reception'].action_assign(out_move.ids, [1.0], picking_in.move_ids.ids)
+        self.assertEqual(picking_out.move_ids.mapped('quantity'), [1.0, 2.0])
 >>>>>>> upstream/18.0

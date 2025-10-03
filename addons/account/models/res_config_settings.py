@@ -191,7 +191,11 @@ class ResConfigSettings(models.TransientModel):
         readonly=False,
         related='company_id.account_discount_income_allocation_id',
 <<<<<<< HEAD
+<<<<<<< HEAD
         domain="[('account_type', 'in', ('income', 'expense'))]",
+=======
+        domain="[('deprecated', '=', False), ('account_type', 'in', ('income', 'income_other', 'expense'))]",
+>>>>>>> upstream/18.0
 =======
         domain="[('deprecated', '=', False), ('account_type', 'in', ('income', 'income_other', 'expense'))]",
 >>>>>>> upstream/18.0
@@ -202,7 +206,11 @@ class ResConfigSettings(models.TransientModel):
         readonly=False,
         related='company_id.account_discount_expense_allocation_id',
 <<<<<<< HEAD
+<<<<<<< HEAD
         domain="[('account_type', 'in', ('income', 'expense'))]",
+=======
+        domain="[('deprecated', '=', False), ('account_type', 'in', ('income', 'income_other', 'expense'))]",
+>>>>>>> upstream/18.0
 =======
         domain="[('deprecated', '=', False), ('account_type', 'in', ('income', 'income_other', 'expense'))]",
 >>>>>>> upstream/18.0

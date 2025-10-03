@@ -66,6 +66,7 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
 =======
 from odoo import Command
@@ -88,6 +89,8 @@ from odoo.tests import tagged
 
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -275,6 +278,9 @@ from odoo.tests import tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -445,6 +451,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 
         self.assertEqual(self.partner_a.supplier_rank, 1)
         self.assertEqual(self.partner_a.customer_rank, 1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -832,6 +839,11 @@ class TestAccountPartner(AccountTestInvoicingCommon):
     def test_manually_write_partner_id(self):
         move = self.env['account.move'].create({
 >>>>>>> upstream/18.0
+=======
+
+    def test_manually_write_partner_id(self):
+        move = self.env['account.move'].create({
+>>>>>>> upstream/18.0
             'move_type': 'out_invoice',
             'invoice_date': '2025-04-29',
             'partner_id': self.partner_a.id,
@@ -840,6 +852,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
                 'price_unit': 500.0,
                 'tax_ids': [],
             })],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -912,6 +925,8 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 
         self.partner_a['parent_id'] = self.partner_b.id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1109,6 +1124,9 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1304,6 +1322,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1312,6 +1331,8 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1512,6 +1533,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1594,6 +1616,8 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1670,6 +1694,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1710,4 +1735,29 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_res_partner_bank(self):
+        partner = self.env['res.partner'].create({'name': 'MyCustomer'})
+        account = self.env['res.partner.bank'].create({
+            'acc_number': '123456789',
+            'partner_id': partner.id,
+        })
+        account.env.user.groups_id |= self.env.ref('account.group_validate_bank_account')
+        account.allow_out_payment = True
+
+        with self.assertRaisesRegex(UserError, "has been trusted"), self.cr.savepoint():
+            account.write({'acc_number': '1234567890999'})
+        with self.assertRaisesRegex(UserError, "has been trusted"), self.cr.savepoint():
+            account.write({'sanitized_acc_number': '1234567890999'})
+        with self.assertRaisesRegex(UserError, "has been trusted"), self.cr.savepoint():
+            account.write({'partner_id': self.env['res.partner'].create({'name': 'MyCustomer 2'}).id})
+
+        account.allow_out_payment = False
+        account.write({'acc_number': '1234567890999000'})
+
+        account.env.user.groups_id -= self.env.ref('account.group_validate_bank_account')
+        with self.assertRaisesRegex(UserError, "You do not have the rights to trust"), self.cr.savepoint():
+            account.write({'allow_out_payment': True})
 >>>>>>> upstream/18.0
