@@ -2251,7 +2251,10 @@ class StockMove(TransactionCase):
         self.assertAlmostEqual(product_in_past.qty_available, 0)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_past_availability_in_strict_mode(self):
         """
         Test the quantity is correct when looking in the past in strict mode.
@@ -2285,6 +2288,9 @@ class StockMove(TransactionCase):
         self.assertAlmostEqual(product.with_context(to_date=fields.Date.add(today, days=-6)).qty_available, 13.0)
         self.assertAlmostEqual(product.with_context(to_date=fields.Date.add(today, days=-4)).qty_available, 11.0)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_product_tree_views(self):
         """Test to make sure that there are no ACLs errors in users with basic permissions."""
@@ -4858,7 +4864,10 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4917,6 +4926,9 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

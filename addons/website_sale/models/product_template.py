@@ -759,8 +759,11 @@ class ProductTemplate(models.Model):
                 tags = tags.split(',')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domains.append([('product_variant_ids.all_product_tag_ids', 'in', tags)])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             domains.append([
@@ -769,6 +772,9 @@ class ProductTemplate(models.Model):
                 ('product_variant_ids.additional_product_tag_ids', 'in', tags),
             ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -960,7 +966,10 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1040,6 +1049,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

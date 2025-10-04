@@ -91,7 +91,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         all_invoices_amls = current_invoice_amls.sale_line_ids.invoice_lines.filtered(lambda aml: aml.move_id.state == 'posted').sorted(lambda aml: (aml.date, aml.move_name, aml.id))
+=======
+        all_invoices_amls = current_invoice_amls.sale_line_ids.invoice_lines.filtered(lambda aml: aml._filter_aml_lot_valuation()).sorted(lambda aml: (aml.date, aml.move_name, aml.id))
+>>>>>>> upstream/18.0
 =======
         all_invoices_amls = current_invoice_amls.sale_line_ids.invoice_lines.filtered(lambda aml: aml._filter_aml_lot_valuation()).sorted(lambda aml: (aml.date, aml.move_name, aml.id))
 >>>>>>> upstream/18.0
@@ -324,7 +328,11 @@ class AccountMove(models.Model):
 
         return res
 
+<<<<<<< HEAD
     @api.depends('line_ids.sale_line_ids.order_id')
+=======
+    @api.depends('line_ids.sale_line_ids.order_id.effective_date')
+>>>>>>> upstream/18.0
     def _compute_delivery_date(self):
         # EXTENDS 'account'
         super()._compute_delivery_date()
@@ -351,10 +359,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         move_is_downpayment = self.invoice_line_ids.filtered(
             lambda line: any(line.sale_line_ids.mapped("is_downpayment"))
         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -369,6 +380,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -378,6 +390,20 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
         return dict(ctx, move_is_downpayment=move_is_downpayment)
 
+=======
+        return dict(ctx, move_is_downpayment=move_is_downpayment)
+
+    def _get_protected_vals(self, vals, records):
+        res = super()._get_protected_vals(vals, records)
+        # `delivery_date` should be protected on any account.move/account.move.line write
+        perma_protected = {self._fields['delivery_date']}
+        if records._name == self._name:
+            res.append((perma_protected, records))
+        elif records._name == self.line_ids._name:
+            res.append((perma_protected, records.move_id))
+        return res
+
+>>>>>>> upstream/18.0
 
 class AccountMoveLine(models.Model):
     _inherit = "account.move.line"
@@ -396,11 +422,14 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if move_is_downpayment is None:
             move_is_downpayment = self.move_id.invoice_line_ids.filtered(
             lambda line: any(line.sale_line_ids.mapped("is_downpayment"))
         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -414,6 +443,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

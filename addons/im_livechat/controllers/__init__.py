@@ -6,6 +6,10 @@ from . import chatbot
 from . import main
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import rtc
+>>>>>>> upstream/18.0
 =======
 from . import rtc
 >>>>>>> upstream/18.0

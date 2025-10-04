@@ -1,6 +1,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import requests
 import werkzeug.urls
 
@@ -14,6 +15,8 @@ class DiscussGifController(Controller):
         )
         response.raise_for_status()
 =======
+=======
+>>>>>>> upstream/18.0
 import logging
 import requests
 import urllib3
@@ -38,6 +41,9 @@ class DiscussGifController(Controller):
 
         if not response:
             raise BadRequest()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return response
 

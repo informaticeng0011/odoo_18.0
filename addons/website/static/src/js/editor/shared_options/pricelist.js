@@ -24,8 +24,11 @@ options.registry.Pricelist = options.Class.extend({
                 } else {
                     const descriptionEl = document.createElement("p");
 <<<<<<< HEAD
+<<<<<<< HEAD
                     descriptionEl.classList.add(params.descriptionClass, "d-block", "pe-5", "text-muted", "o_default_snippet_text");
 =======
+=======
+>>>>>>> upstream/18.0
                     descriptionEl.classList.add(
                         params.descriptionClass,
                         "d-block",
@@ -40,6 +43,9 @@ options.registry.Pricelist = options.Class.extend({
                         // TODO: remove in master where DB will have the class thanks to the XML.
                         descriptionEl.classList.add("o_small")
                     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     descriptionEl.textContent = _t("Add a description here");
                     el.appendChild(descriptionEl);

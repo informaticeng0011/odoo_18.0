@@ -71,7 +71,11 @@ class TestUBLTRCommon(AccountTestInvoicingCommon):
             'company_id': cls.company_data['company'].id,
         })
 
+<<<<<<< HEAD
     def _generate_invoice_xml(self, partner_id, tax=None, **kwargs):
+=======
+    def _generate_invoice_xml(self, partner_id, tax=None, include_invoice=False, **kwargs):
+>>>>>>> upstream/18.0
         invoice_tax = (tax and tax.ids) or self.tax_20.ids
         invoice = self.env['account.move'].create({
             'move_type': 'out_invoice',
@@ -92,4 +96,9 @@ class TestUBLTRCommon(AccountTestInvoicingCommon):
             **kwargs,
         })
         invoice.action_post()
+<<<<<<< HEAD
+=======
+        if include_invoice:
+            return self.env['account.edi.xml.ubl.tr']._export_invoice(invoice)[0], invoice
+>>>>>>> upstream/18.0
         return self.env['account.edi.xml.ubl.tr']._export_invoice(invoice)[0]

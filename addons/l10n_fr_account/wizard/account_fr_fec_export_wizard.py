@@ -264,7 +264,11 @@ class FecExportWizard(models.TransientModel):
             order='date, move_name, id',
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
         account_alias = query.left_join('account_move_line', 'account_id', 'account_account', 'id', 'account_id')
+=======
+        account_alias = query.join('account_move_line', 'account_id', 'account_account', 'id', 'account_id')
+>>>>>>> upstream/18.0
 =======
         account_alias = query.join('account_move_line', 'account_id', 'account_account', 'id', 'account_id')
 >>>>>>> upstream/18.0

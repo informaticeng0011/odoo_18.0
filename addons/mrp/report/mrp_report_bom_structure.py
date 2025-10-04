@@ -45,7 +45,11 @@ class ReportBomStructure(models.AbstractModel):
         same_delay = lead_time == availability_delay
         res = {}
 <<<<<<< HEAD
+<<<<<<< HEAD
         if bom_data.get('producible_qty', 0):
+=======
+        if bom_data.get('producible_qty', 0) and not self.env.context.get('skip_producible_qty'):
+>>>>>>> upstream/18.0
 =======
         if bom_data.get('producible_qty', 0) and not self.env.context.get('skip_producible_qty'):
 >>>>>>> upstream/18.0
@@ -133,8 +137,11 @@ class ReportBomStructure(models.AbstractModel):
 
         lines = self._get_bom_data(bom, warehouse, product=product, line_qty=bom_quantity, level=0)
 <<<<<<< HEAD
+<<<<<<< HEAD
         production_capacities = self._compute_production_capacities(bom_quantity, lines)
 =======
+=======
+>>>>>>> upstream/18.0
         try:
             production_capacities = self._compute_production_capacities(bom_quantity, lines)
         except UserError as e:
@@ -143,6 +150,9 @@ class ReportBomStructure(models.AbstractModel):
             # The planning failed, try again with the requested quantity
             production_capacities = self.with_context(skip_producible_qty=True)._compute_production_capacities(bom_quantity, lines)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         lines.update(production_capacities)
         return {
@@ -477,7 +487,11 @@ class ReportBomStructure(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             cost_share = byproduct.cost_share / 100
+=======
+            cost_share = byproduct.cost_share / 100 if byproduct.product_qty > 0 else 0
+>>>>>>> upstream/18.0
 =======
             cost_share = byproduct.cost_share / 100 if byproduct.product_qty > 0 else 0
 >>>>>>> upstream/18.0
@@ -971,7 +985,13 @@ class ReportBomStructure(models.AbstractModel):
         # If none of the workcenter are available, raise
         if best_date_finished == datetime.max:
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise UserError(_('Impossible to plan. Please check the workcenter availabilities.'))
+=======
+            err = UserError(_('Impossible to plan. Please check the workcenter availabilities.'))
+            err._planning_error = True
+            raise err
+>>>>>>> upstream/18.0
 =======
             err = UserError(_('Impossible to plan. Please check the workcenter availabilities.'))
             err._planning_error = True

@@ -22,7 +22,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from unittest.mock import ANY, patch
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
@@ -117,6 +121,10 @@ from odoo.addons.account_payment.tests.common import AccountPaymentCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import MailCase
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import MailCase
 >>>>>>> upstream/18.0
@@ -212,7 +220,11 @@ from odoo.addons.sale.tests.common import SaleCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon):
+=======
+class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailCase):
+>>>>>>> upstream/18.0
 =======
 class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailCase):
 >>>>>>> upstream/18.0
@@ -325,7 +337,12 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             patched.assert_called_once_with(ANY, sale_order_id=ANY)
+=======
+            patched.assert_called_once()
+            self.assertIn('sale_order_id', patched.call_args[1])
+>>>>>>> upstream/18.0
 =======
             patched.assert_called_once()
             self.assertIn('sale_order_id', patched.call_args[1])
@@ -623,7 +640,10 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -694,6 +714,9 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -765,8 +788,11 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with mute_logger('odoo.addons.sale.models.payment_transaction'):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -834,6 +860,9 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -904,7 +933,10 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1041,6 +1073,9 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1399,6 +1434,7 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
             self.assertEqual(notification_mail_mock.call_count, 2)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             notification_mail_mock.assert_called_with(
                 self.env.ref('sale.mail_template_sale_confirmation'))
             self.assertEqual(self.sale_order.state, 'sale')
@@ -1464,6 +1500,8 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             order_confirmation_mail_template_id = int(
                 self.env["ir.config_parameter"]
                 .sudo()
@@ -1472,6 +1510,9 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
             notification_mail_mock.assert_called_with(self.env["mail.template"].browse(order_confirmation_mail_template_id))
             self.assertEqual(self.sale_order.state, 'sale')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1533,6 +1574,9 @@ class TestSalePayment(AccountPaymentCommon, SaleCommon, PaymentHttpCommon, MailC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

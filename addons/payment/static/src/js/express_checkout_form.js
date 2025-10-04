@@ -20,6 +20,19 @@ publicWidget.registry.PaymentExpressCheckoutForm = publicWidget.Widget.extend({
         }
         // Monitor updates of the amount on eCommerce's cart pages.
         Component.env.bus.addEventListener('cart_amount_changed', (ev) => this._updateAmount(...ev.detail));
+<<<<<<< HEAD
+=======
+        // Monitor when the page is restored from the bfcache.
+        window.addEventListener('pageshow', this._onNavigationBack);
+    },
+
+    /**
+     * @override
+     */
+    destroy() {
+        window.removeEventListener('pageshow', this._onNavigationBack);
+        this._super.apply(this, arguments);
+>>>>>>> upstream/18.0
     },
 
     //--------------------------------------------------------------------------
@@ -27,6 +40,21 @@ publicWidget.registry.PaymentExpressCheckoutForm = publicWidget.Widget.extend({
     //--------------------------------------------------------------------------
 
     /**
+<<<<<<< HEAD
+=======
+     * Reload the page when the page is restored from the bfcache.
+     *
+     * @param {PageTransitionEvent} event - The pageshow event.
+     * @private
+     */
+    _onNavigationBack(event) {
+        if (event.persisted) {
+            window.location.reload();
+        }
+    },
+
+    /**
+>>>>>>> upstream/18.0
      * Return all express checkout forms found on the page.
      *
      * @private

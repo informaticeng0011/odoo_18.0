@@ -32,6 +32,10 @@ class TestResPartnerBank(SavepointCaseWithUserDemo):
         # sanitaze the acc_number
         sanitized_acc_number = 'BE001251882303'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(partner_bank.sanitized_acc_number, sanitized_acc_number)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(partner_bank.sanitized_acc_number, sanitized_acc_number)
 >>>>>>> upstream/18.0
@@ -54,9 +58,15 @@ class TestResPartnerBank(SavepointCaseWithUserDemo):
             [('acc_number', '=', acc_number.lower())])
         self.assertEqual(1, len(vals))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         # updating the sanitized value will also update the acc_number
         partner_bank.write({'sanitized_acc_number': 'BE001251882303WRONG'})
         self.assertEqual(partner_bank.acc_number, partner_bank.sanitized_acc_number)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -50,6 +50,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     queryAll,
 =======
 >>>>>>> upstream/18.0
@@ -269,6 +270,8 @@ import {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     queryAllAttributes,
     queryAllTexts,
     queryFirst,
@@ -298,6 +301,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -431,6 +437,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockServer,
+>>>>>>> upstream/18.0
 =======
     MockServer,
 >>>>>>> upstream/18.0
@@ -1277,7 +1287,10 @@ test(`form with o2m having a selection field with fieldDependencies`, async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1450,6 +1463,9 @@ test(`form view: widget having a o2m field as fieldDependencies`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1847,7 +1863,10 @@ test(`Form and subview with _view_ref contexts`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2051,7 +2070,10 @@ test(`Form and subview with _view_ref contexts`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2280,7 +2302,10 @@ test(`Form and subsubview with only _view_ref contexts`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2477,7 +2502,10 @@ test(`Form and subsubview with only _view_ref contexts`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2671,7 +2699,11 @@ test(`Form and subsubview with only _view_ref contexts`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,foo_partner_type_form_view": `
+=======
+        "form,foo.partner_type_form_view": `
+>>>>>>> upstream/18.0
 =======
         "form,foo.partner_type_form_view": `
 >>>>>>> upstream/18.0
@@ -2920,7 +2952,11 @@ test(`Form and subsubview with only _view_ref contexts`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'form_view_ref': 'bar_rescompany_form_view',
+=======
+                    'form_view_ref': 'bar.rescompany_form_view',
+>>>>>>> upstream/18.0
 =======
                     'form_view_ref': 'bar.rescompany_form_view',
 >>>>>>> upstream/18.0
@@ -3181,12 +3217,15 @@ test(`Form and subsubview with only _view_ref contexts`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         form_view_ref: "foo_partner_type_form_view",
     });
     expectedContexts.set("onchange:partner.type", {
         ...userContext,
         form_view_ref: "foo_partner_type_form_view",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3372,6 +3411,9 @@ test(`Form and subsubview with only _view_ref contexts`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3573,7 +3615,11 @@ test(`Form and subsubview with only _view_ref contexts`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'form_view_ref': 'foo_partner_type_form_view'
+=======
+                    'form_view_ref': 'foo.partner_type_form_view'
+>>>>>>> upstream/18.0
 =======
                     'form_view_ref': 'foo.partner_type_form_view'
 >>>>>>> upstream/18.0
@@ -3829,7 +3875,11 @@ test(`Form and subsubview with only _view_ref contexts`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         form_view_ref: "foo_partner_type_form_view",
+=======
+        form_view_ref: "foo.partner_type_form_view",
+>>>>>>> upstream/18.0
 =======
         form_view_ref: "foo.partner_type_form_view",
 >>>>>>> upstream/18.0
@@ -4078,7 +4128,11 @@ test(`Form and subsubview with only _view_ref contexts`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         form_view_ref: "foo_partner_type_form_view",
+=======
+        form_view_ref: "foo.partner_type_form_view",
+>>>>>>> upstream/18.0
 =======
         form_view_ref: "foo.partner_type_form_view",
 >>>>>>> upstream/18.0
@@ -4338,7 +4392,11 @@ test(`Form and subsubview with only _view_ref contexts`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         form_view_ref: "bar_rescompany_form_view",
+=======
+        form_view_ref: "bar.rescompany_form_view",
+>>>>>>> upstream/18.0
 =======
         form_view_ref: "bar.rescompany_form_view",
 >>>>>>> upstream/18.0
@@ -4587,7 +4645,11 @@ test(`Form and subsubview with only _view_ref contexts`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         form_view_ref: "bar_rescompany_form_view",
+=======
+        form_view_ref: "bar.rescompany_form_view",
+>>>>>>> upstream/18.0
 =======
         form_view_ref: "bar.rescompany_form_view",
 >>>>>>> upstream/18.0
@@ -4843,7 +4905,11 @@ test(`x2many form_view_ref with defined list`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,foo_partner_type_form_view": `
+=======
+        "form,foo.partner_type_form_view": `
+>>>>>>> upstream/18.0
 =======
         "form,foo.partner_type_form_view": `
 >>>>>>> upstream/18.0
@@ -5107,7 +5173,11 @@ test(`x2many form_view_ref with defined list`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         form_view_ref: "foo_partner_type_form_view",
+=======
+        form_view_ref: "foo.partner_type_form_view",
+>>>>>>> upstream/18.0
 =======
         form_view_ref: "foo.partner_type_form_view",
 >>>>>>> upstream/18.0
@@ -5367,7 +5437,11 @@ test(`x2many form_view_ref with defined list`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'form_view_ref': 'foo_partner_type_form_view'
+=======
+                    'form_view_ref': 'foo.partner_type_form_view'
+>>>>>>> upstream/18.0
 =======
                     'form_view_ref': 'foo.partner_type_form_view'
 >>>>>>> upstream/18.0
@@ -6203,7 +6277,10 @@ test(`reset local state when switching to another view`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6453,11 +6530,17 @@ test(`trying to leave an invalid form view should not change the navbar`, async 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
     };
     Product._views = {
         list: `<list><field name="name"/></list>`,
         search: `<search/>`,
+=======
+    };
+    Product._views = {
+        list: `<list><field name="name"/></list>`,
+>>>>>>> upstream/18.0
 =======
     };
     Product._views = {
@@ -8876,7 +8959,11 @@ test(`can create a record with default values`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const n = Partner._records.length;
+=======
+    const n = MockServer.env["partner"].length;
+>>>>>>> upstream/18.0
 =======
     const n = MockServer.env["partner"].length;
 >>>>>>> upstream/18.0
@@ -9129,7 +9216,11 @@ test(`can create a record with default values`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(Partner._records).toHaveLength(n + 1);
+=======
+    expect(MockServer.env["partner"]).toHaveLength(n + 1);
+>>>>>>> upstream/18.0
 =======
     expect(MockServer.env["partner"]).toHaveLength(n + 1);
 >>>>>>> upstream/18.0
@@ -9613,7 +9704,10 @@ test(`form view properly change its title`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9819,7 +9913,11 @@ test(`archive/unarchive a record`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._fields.active = fields.Boolean({ default: true });
+=======
+    Partner._fields.active = fields.Boolean();
+>>>>>>> upstream/18.0
 =======
     Partner._fields.active = fields.Boolean();
 >>>>>>> upstream/18.0
@@ -10100,7 +10198,11 @@ test(`apply custom standard action menu (archive)`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._fields.active = fields.Boolean({ default: true });
+=======
+    Partner._fields.active = fields.Boolean();
+>>>>>>> upstream/18.0
 =======
     Partner._fields.active = fields.Boolean();
 >>>>>>> upstream/18.0
@@ -10453,6 +10555,7 @@ test(`archive a record with intermediary action`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._fields.active = fields.Char({ default: "true" });
     Partner._views = {
         form: `<form><field name="active"/><field name="foo"/></form>`,
@@ -10461,6 +10564,8 @@ test(`archive a record with intermediary action`, async () => {
     Product._views = {
         form: `
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10653,6 +10758,9 @@ test(`archive a record with intermediary action`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10842,7 +10950,10 @@ test(`archive a record with intermediary action`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11038,7 +11149,11 @@ test(`archive a record with intermediary action`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return [{ id: 1, active: "archived" }];
+=======
+            return [{ id: 1, archived: "true" }];
+>>>>>>> upstream/18.0
 =======
             return [{ id: 1, archived: "true" }];
 >>>>>>> upstream/18.0
@@ -11296,7 +11411,11 @@ test(`archive a record with intermediary action`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(`[name='active'] input`).toHaveValue("true");
+=======
+    expect(`[name='archived'] input`).toHaveValue("false");
+>>>>>>> upstream/18.0
 =======
     expect(`[name='archived'] input`).toHaveValue("false");
 >>>>>>> upstream/18.0
@@ -11556,7 +11675,11 @@ test(`archive a record with intermediary action`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(`[name='active'] input`).toHaveValue("archived");
+=======
+    expect(`[name='archived'] input`).toHaveValue("true");
+>>>>>>> upstream/18.0
 =======
     expect(`[name='archived'] input`).toHaveValue("true");
 >>>>>>> upstream/18.0
@@ -11805,7 +11928,11 @@ test(`archive action with active field not in view`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._fields.active = fields.Boolean({ default: true });
+=======
+    Partner._fields.active = fields.Boolean();
+>>>>>>> upstream/18.0
 =======
     Partner._fields.active = fields.Boolean();
 >>>>>>> upstream/18.0
@@ -12067,7 +12194,11 @@ test(`archive action not shown with readonly active field`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._fields.active = fields.Boolean({ default: true, readonly: true });
+=======
+    Partner._fields.active = fields.Boolean({ readonly: true });
+>>>>>>> upstream/18.0
 =======
     Partner._fields.active = fields.Boolean({ readonly: true });
 >>>>>>> upstream/18.0
@@ -13319,7 +13450,12 @@ test(`switching to another record from a dirty one on desktop`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop")("Save record, no changes but dirty (add and remove tag)", async () => {
+=======
+test.tags("desktop");
+test("Save record, no changes but dirty (add and remove tag)", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("Save record, no changes but dirty (add and remove tag)", async () => {
@@ -13767,6 +13903,7 @@ test("Save record, no changes but dirty (add and remove tag)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop")(
     "switching to another record from a dirty record but wo changes (add and remove tag)",
     async () => {
@@ -13810,6 +13947,8 @@ test.tags("desktop")(
     }
 );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14096,6 +14235,9 @@ test("switching to another record from a dirty record but wo changes (add and re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14677,7 +14819,10 @@ test(`restore the open notebook page when switching to another view`, async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14937,7 +15082,10 @@ test(`don't restore the open notebook page when we create a new record`, async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15448,10 +15596,16 @@ test("delete the last record (without previous action)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <form>
                     <field name="display_name"/>
                 </form>`,
         search: "<search></search>",
+=======
+            <form>
+                <field name="display_name"/>
+            </form>`,
+>>>>>>> upstream/18.0
 =======
             <form>
                 <field name="display_name"/>
@@ -16365,7 +16519,10 @@ test(`rpc complete after destroying parent`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17484,7 +17641,10 @@ test(`modifiers are considered on multiple <footer/> tags`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17699,7 +17859,10 @@ test(`buttons in footer are moved to $buttons if necessary`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18051,7 +18214,10 @@ test.tags("desktop");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18279,6 +18445,9 @@ test.tags("desktop");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19728,8 +19897,11 @@ test(`form view is not broken if save operation fails`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect.errors(1);
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19814,7 +19986,10 @@ test(`form view is not broken if save operation fails`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect.verifyErrors(["RPC_ERROR: Odoo Server Error"]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19937,7 +20112,10 @@ test(`form view is not broken if save operation fails with redirect warning`, as
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20071,6 +20249,9 @@ test("Redirect Warning full feature: additional context, action_id, leaving whil
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20416,7 +20597,11 @@ test(`display tooltips for buttons (debug = true)`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -20880,7 +21065,10 @@ test(`Can switch to form view on inline tree`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21133,6 +21321,9 @@ test(`Can switch to form view on inline tree`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21607,7 +21798,11 @@ test(`proper stringification in debug mode tooltip`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -21969,7 +22164,11 @@ test(`field tooltip in debug mode, on field with domain attr`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -22323,7 +22522,11 @@ test(`do not display unset attributes in debug field tooltip`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -22911,7 +23114,10 @@ test(`leave the form view while saving`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23164,7 +23370,10 @@ test(`leave the form twice (clicking on the breadcrumb) should save only once`, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23402,7 +23611,10 @@ test(`discard after a failed save (and close notifications)`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23706,10 +23918,13 @@ test(`form view with inline list view with optional fields and local storage moc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     });
 
     const localStorageKey = "partner,form,123456789,child_ids,list,bar,foo";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23894,6 +24109,9 @@ test(`form view with inline list view with optional fields and local storage moc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24068,7 +24286,11 @@ test(`form view with inline list view with optional fields and local storage moc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(`th[data-name="bar"]`).not.toBeVisible();
+=======
+    expect(`th[data-name="bar"]`).not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(`th[data-name="bar"]`).not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -24321,10 +24543,13 @@ test(`form view with list_view_ref with optional fields and local storage mock`,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     });
 
     const localStorageKey = "partner,form,123456789,child_ids,list,bar,foo";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24509,6 +24734,9 @@ test(`form view with list_view_ref with optional fields and local storage mock`,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24682,7 +24910,11 @@ test(`form view with list_view_ref with optional fields and local storage mock`,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(`th[data-name="foo"]`).not.toBeVisible();
+=======
+    expect(`th[data-name="foo"]`).not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(`th[data-name="foo"]`).not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -24988,8 +25220,12 @@ test("resequence list lines when previous resequencing crashed", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const getNames = () => [...queryAll(".o_list_char")].map((el) => el.textContent);
     expect(getNames()).toEqual(["first line", "second line"]);
+=======
+    expect(queryAllTexts(".o_list_char")).toEqual(["first line", "second line"]);
+>>>>>>> upstream/18.0
 =======
     expect(queryAllTexts(".o_list_char")).toEqual(["first line", "second line"]);
 >>>>>>> upstream/18.0
@@ -25179,7 +25415,11 @@ test("resequence list lines when previous resequencing crashed", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(getNames()).toEqual(["first line", "second line"]);
+=======
+    expect(queryAllTexts(".o_list_char")).toEqual(["first line", "second line"]);
+>>>>>>> upstream/18.0
 =======
     expect(queryAllTexts(".o_list_char")).toEqual(["first line", "second line"]);
 >>>>>>> upstream/18.0
@@ -25369,7 +25609,11 @@ test("resequence list lines when previous resequencing crashed", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(getNames()).toEqual(["second line", "first line"]);
+=======
+    expect(queryAllTexts(".o_list_char")).toEqual(["second line", "first line"]);
+>>>>>>> upstream/18.0
 =======
     expect(queryAllTexts(".o_list_char")).toEqual(["second line", "first line"]);
 >>>>>>> upstream/18.0
@@ -25871,7 +26115,10 @@ test(`Action Button clicked with failing action on desktop`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26098,7 +26345,10 @@ test(`Action Button clicked with failing action on mobile`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26428,7 +26678,11 @@ test(`help on field as precedence over field's declaration -- form`, async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -26805,7 +27059,10 @@ test(`form view does not deactivate sample data on other views`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27029,7 +27286,10 @@ test(`empty x2manys when coming form a list with sample data`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27460,7 +27720,10 @@ test(`reload form view with an empty notebook`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27794,7 +28057,10 @@ test(`prevent recreating a deleted record`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28062,7 +28328,10 @@ test(`coming to an action with an error from a form view with a dirty x2m`, asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28322,7 +28591,10 @@ test(`coming to an action with an error from a form view with a record in creati
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29012,7 +29284,10 @@ test(`x2many field in form dialog view is correctly saved when using a view butt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29213,7 +29488,10 @@ test(`x2many field in form dialog view is correctly saved when using a view butt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29724,7 +30002,10 @@ test("executing new action, closes dialog, and avoid reload previous view", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29964,7 +30245,12 @@ test("executing new action, closes dialog, and avoid reload previous view", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("mobile")(`pager is up to date`, async () => {
+=======
+test.tags("mobile");
+test(`pager is up to date`, async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("mobile");
 test(`pager is up to date`, async () => {

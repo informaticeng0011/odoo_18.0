@@ -120,6 +120,7 @@ class StockValuationLayerRevaluation(models.TransientModel):
         # Update the stardard price in case of AVCO/FIFO
         cost_method = product_id.categ_id.property_cost_method
         if cost_method in ['average', 'fifo']:
+<<<<<<< HEAD
             previous_cost = lot_id.standard_price if lot_id else product_id.standard_price
             total_product_qty = sum(layers_with_qty.mapped('remaining_qty'))
             if lot_id:
@@ -129,6 +130,17 @@ class StockValuationLayerRevaluation(models.TransientModel):
                 description += _(
                     " lot/serial number cost updated from %(previous)s to %(new_cost)s.",
                     previous=previous_cost,
+=======
+            previous_cost = product_id.avg_cost or product_id.standard_price
+            total_product_qty = sum(layers_with_qty.mapped('remaining_qty'))
+            product_id.with_context(disable_auto_svl=True).standard_price = previous_cost + (self.added_value / product_id.quantity_svl)
+            if lot_id:
+                previous_cost_lot = lot_id.standard_price
+                lot_id.with_context(disable_auto_svl=True).standard_price += self.added_value / total_product_qty
+                description += _(
+                    " lot/serial number cost updated from %(previous)s to %(new_cost)s.",
+                    previous=previous_cost_lot,
+>>>>>>> upstream/18.0
                     new_cost=lot_id.standard_price
                 )
             else:
@@ -154,7 +166,11 @@ class StockValuationLayerRevaluation(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         remaining_value_unit_cost = self.currency_id.round(remaining_value / remaining_qty)
+=======
+        remaining_value_unit_cost = remaining_value / remaining_qty
+>>>>>>> upstream/18.0
 =======
         remaining_value_unit_cost = remaining_value / remaining_qty
 >>>>>>> upstream/18.0
@@ -177,6 +193,10 @@ class StockValuationLayerRevaluation(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            taken_remaining_value = self.currency_id.round(taken_remaining_value)
+>>>>>>> upstream/18.0
 =======
             taken_remaining_value = self.currency_id.round(taken_remaining_value)
 >>>>>>> upstream/18.0
@@ -226,7 +246,10 @@ class StockValuationLayerRevaluation(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -294,6 +317,9 @@ class StockValuationLayerRevaluation(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

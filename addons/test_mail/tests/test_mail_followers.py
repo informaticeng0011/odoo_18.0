@@ -172,6 +172,11 @@ class BaseFollowersTest(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        with self.assertRaisesRegex(AccessError, 'Portal users can only filter threads'):
+            self.env['mail.test.simple'].with_user(self.user_portal).search([('message_partner_ids', 'in', partner.ids)])
+>>>>>>> upstream/18.0
 =======
         with self.assertRaisesRegex(AccessError, 'Portal users can only filter threads'):
             self.env['mail.test.simple'].with_user(self.user_portal).search([('message_partner_ids', 'in', partner.ids)])
@@ -757,7 +762,10 @@ class BaseFollowersTest(MailCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Test when the method inverse is called in batch
@@ -773,6 +781,9 @@ class BaseFollowersTest(MailCommon):
         self.assertEqual(records.message_partner_ids, partner3)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

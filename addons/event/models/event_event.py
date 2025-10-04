@@ -4,6 +4,10 @@
 import logging
 import pytz
 import textwrap
+<<<<<<< HEAD
+=======
+import urllib.parse
+>>>>>>> upstream/18.0
 
 from datetime import timedelta
 from dateutil.relativedelta import relativedelta
@@ -741,6 +745,13 @@ class EventEvent(models.Model):
         description = html_to_inner_content(self.description)
         return textwrap.shorten(description, 1900)
 
+<<<<<<< HEAD
+=======
+    def _get_external_description_url_encoded(self):
+        """Get a url-encoded version of the description for mail templates."""
+        return urllib.parse.quote_plus(self._get_external_description())
+
+>>>>>>> upstream/18.0
     def _get_ics_file(self):
         """ Returns iCalendar file for the event invitation.
             :returns a dict of .ics file content for each event

@@ -251,6 +251,11 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // The jquery instance inside the iframe needs to be aware of the wysiwyg.
+        this.websiteService.contentWindow.$('#wrapwrap').data('wysiwyg', this);
+>>>>>>> upstream/18.0
 =======
         // The jquery instance inside the iframe needs to be aware of the wysiwyg.
         this.websiteService.contentWindow.$('#wrapwrap').data('wysiwyg', this);
@@ -446,8 +451,11 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // The jquery instance inside the iframe needs to be aware of the wysiwyg.
         this.websiteService.contentWindow.$('#wrapwrap').data('wysiwyg', this);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -627,7 +635,10 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -961,6 +972,9 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1229,7 +1243,10 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1298,6 +1315,9 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1373,7 +1393,11 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             .not('hr, br, input, textarea')
+=======
+            .not('hr, br, input, textarea, owl-component')
+>>>>>>> upstream/18.0
 =======
             .not('hr, br, input, textarea, owl-component')
 >>>>>>> upstream/18.0
@@ -1652,7 +1676,11 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (!this.hasAttribute('data-oe-readonly')) {
+=======
+                    if (this.tagName !== 'OWL-COMPONENT' && !this.hasAttribute('data-oe-readonly')) {
+>>>>>>> upstream/18.0
 =======
                     if (this.tagName !== 'OWL-COMPONENT' && !this.hasAttribute('data-oe-readonly')) {
 >>>>>>> upstream/18.0
@@ -1807,7 +1835,11 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             .not('input, [data-oe-readonly], ' +
+=======
+            .not('input, [data-oe-readonly], owl-component, ' +
+>>>>>>> upstream/18.0
 =======
             .not('input, [data-oe-readonly], owl-component, ' +
 >>>>>>> upstream/18.0
@@ -1986,7 +2018,11 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (eventData.onFailure) {
+=======
+            if (eventData.onFailure && !eventData.onSuccess) {
+>>>>>>> upstream/18.0
 =======
             if (eventData.onFailure && !eventData.onSuccess) {
 >>>>>>> upstream/18.0
@@ -2186,6 +2222,10 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                keywords: ["banner", "info", "success", "warning", "danger"],
+>>>>>>> upstream/18.0
 =======
                 keywords: ["banner", "info", "success", "warning", "danger"],
 >>>>>>> upstream/18.0

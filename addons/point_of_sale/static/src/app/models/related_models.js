@@ -185,7 +185,11 @@ export class Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     setDirty() {
+=======
+    setDirty(skip = false) {
+>>>>>>> upstream/18.0
 =======
     setDirty(skip = false) {
 >>>>>>> upstream/18.0
@@ -437,12 +441,18 @@ export class Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (
                         this.models.commands[params.model].unlink.has(name) ||
                         this.models.commands[params.model].delete.has(name)
                     ) {
                         const unlinks = this.models.commands[params.model].unlink.get(name);
                         const deletes = this.models.commands[params.model].delete.get(name);
+=======
+                    const unlinks = this.getCommand("unlink", name);
+                    const deletes = this.getCommand("delete", name);
+                    if (unlinks || deletes) {
+>>>>>>> upstream/18.0
 =======
                     const unlinks = this.getCommand("unlink", name);
                     const deletes = this.getCommand("delete", name);
@@ -996,8 +1006,13 @@ export class Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             this.models.commands[params.model].unlink.delete(name);
                             this.models.commands[params.model].delete.delete(name);
+=======
+                            this.deleteCommand("unlink", name);
+                            this.deleteCommand("delete", name);
+>>>>>>> upstream/18.0
 =======
                             this.deleteCommand("unlink", name);
                             this.deleteCommand("delete", name);
@@ -1478,7 +1493,10 @@ export class Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1783,6 +1801,9 @@ export class Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2310,6 +2331,7 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         const linkedRecs = record[name];
                         const existingRecords = items.filter((record) =>
                             exists(comodelName, record.id)
@@ -2318,6 +2340,8 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
                             disconnect(field, record, record2);
                         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2405,6 +2429,9 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2571,7 +2598,11 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             commands[model].update.add(record.id);
+=======
+            addToCommand(model, "update", record.id);
+>>>>>>> upstream/18.0
 =======
             addToCommand(model, "update", record.id);
 >>>>>>> upstream/18.0
@@ -2944,11 +2975,14 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const modelCommands = commands[field.relation];
                 const map = backend ? modelCommands.delete : modelCommands.unlink;
                 const oldVal = map.get(inverse.name);
                 map.set(inverse.name, [...(oldVal || []), record.id]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3226,6 +3260,9 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3532,7 +3569,10 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3823,6 +3863,9 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4103,7 +4146,11 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return Array.from(records[model].values());
+=======
+                return Array.from(this.records[model].values());
+>>>>>>> upstream/18.0
 =======
                 return Array.from(this.records[model].values());
 >>>>>>> upstream/18.0
@@ -4577,6 +4624,10 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const modelToSetup = [];
+>>>>>>> upstream/18.0
 =======
         const modelToSetup = [];
 >>>>>>> upstream/18.0
@@ -4664,7 +4715,11 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     oldRecord.setup(record);
+=======
+                    modelToSetup.push({ raw: record, record: oldRecord });
+>>>>>>> upstream/18.0
 =======
                     modelToSetup.push({ raw: record, record: oldRecord });
 >>>>>>> upstream/18.0
@@ -4693,7 +4748,10 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const modelToSetup = [];
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

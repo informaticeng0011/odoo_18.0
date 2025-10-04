@@ -9,7 +9,11 @@ import requests
 
 from markupsafe import Markup
 <<<<<<< HEAD
+<<<<<<< HEAD
 from urllib.parse import parse_qs
+=======
+from urllib.parse import parse_qs, urlparse
+>>>>>>> upstream/18.0
 =======
 from urllib.parse import parse_qs, urlparse
 >>>>>>> upstream/18.0
@@ -147,8 +151,11 @@ def get_video_embed_code(video_url):
         (or None in case of invalid URL).
     """
 <<<<<<< HEAD
+<<<<<<< HEAD
     data = get_video_url_data(video_url)
 =======
+=======
+>>>>>>> upstream/18.0
     parsed_url = urlparse(video_url)
     query_params = parse_qs(parsed_url.query)
     param_name_mapping = {
@@ -165,6 +172,9 @@ def get_video_embed_code(video_url):
         if url_param in query_params
     }
     data = get_video_url_data(video_url, **params)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     if 'error' in data:
         return None

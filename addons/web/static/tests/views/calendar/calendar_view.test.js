@@ -669,7 +669,10 @@ test(`check the avatar of the attendee in the calendar filter panel`, async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -897,7 +900,10 @@ test(`Select multiple attendees in the calendar filter panel autocomplete on des
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1152,7 +1158,10 @@ test(`add a filter with the search more dialog on desktop`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1512,7 +1521,10 @@ test(`add a filter with the search more dialog on mobile`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3425,7 +3437,10 @@ test(`Add filters and specific color`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "has_access (event)",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4181,7 +4196,10 @@ test(`Update event with filters on mobile`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4977,6 +4995,11 @@ test(`calendar fallback to form view id in action if necessary`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    Event._views["form,43"] = /* xml */ `<form />`;
+
+>>>>>>> upstream/18.0
 =======
     Event._views["form,43"] = /* xml */ `<form />`;
 
@@ -5348,7 +5371,10 @@ test(`initial_date given in the context`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6471,8 +6497,11 @@ test(`calendar render properties in popover`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(queryAllTexts(`${popover} .o_field_properties .o_card_property_field`)).toEqual([
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6687,6 +6716,9 @@ test(`calendar render properties in popover`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7082,7 +7114,10 @@ test("sample data are not removed when switching back from calendar view", async
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7301,7 +7336,11 @@ test(`Scale: scale default is fetched from localStorage`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (key === "scaleOf-viewId-123456789") {
+=======
+            if (key === "scaleOf-viewId-19") {
+>>>>>>> upstream/18.0
 =======
             if (key === "scaleOf-viewId-19") {
 >>>>>>> upstream/18.0
@@ -7555,6 +7594,10 @@ test(`Scale: scale default is fetched from localStorage`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        viewId: 19,
+>>>>>>> upstream/18.0
 =======
         viewId: 19,
 >>>>>>> upstream/18.0
@@ -7835,7 +7878,10 @@ test(`Retaining the 'all' filter value on re-rendering`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8071,7 +8117,10 @@ test("save selected date during view switching", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8265,7 +8314,11 @@ test(`check if active fields are fetched in addition to field names in record da
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(kwargs.fields.includes("delay")).toBe(true);
+=======
+        expect(kwargs.fields).toInclude("delay");
+>>>>>>> upstream/18.0
 =======
         expect(kwargs.fields).toInclude("delay");
 >>>>>>> upstream/18.0
@@ -8526,7 +8579,11 @@ test("html field on calendar shouldn't have a tooltip", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await clickEvent(Event._records[0].id);
+=======
+    await clickEvent(MockServer.env["event"][0].id);
+>>>>>>> upstream/18.0
 =======
     await clickEvent(MockServer.env["event"][0].id);
 >>>>>>> upstream/18.0

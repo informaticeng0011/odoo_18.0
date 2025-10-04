@@ -61,7 +61,11 @@ import { hover, press, queryAllTexts, queryOne } from "@odoo/hoot-dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Deferred, animationFrame, runAllTimers } from "@odoo/hoot-mock";
+=======
+import { animationFrame, Deferred, runAllTimers } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame, Deferred, runAllTimers } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -316,6 +320,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockServer,
+>>>>>>> upstream/18.0
 =======
     MockServer,
 >>>>>>> upstream/18.0
@@ -707,9 +715,15 @@ test("Many2ManyTagsField with color: rendering and edition", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             var commands = args[1].timmy;
             expect(commands.length).toBe(2);
             expect(commands.map((cmd) => cmd[0]).join("-")).toBe("4-3");
+=======
+            const commands = args[1].timmy;
+            expect(commands).toHaveLength(2);
+            expect(commands.map((cmd) => cmd[0])).toEqual([4, 3]);
+>>>>>>> upstream/18.0
 =======
             const commands = args[1].timmy;
             expect(commands).toHaveLength(2);
@@ -1473,9 +1487,15 @@ test("Many2ManyTagsField can load more than 40 records", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 15; i < 115; i++) {
         Partner._records.push({ id: i, name: "walter" + i });
         Partner._records[0].partner_ids.push(i);
+=======
+    for (let id = 15; id < 115; id++) {
+        Partner._records.push({ id, name: "walter" + id });
+        Partner._records[0].partner_ids.push(id);
+>>>>>>> upstream/18.0
 =======
     for (let id = 15; id < 115; id++) {
         Partner._records.push({ id, name: "walter" + id });
@@ -2133,11 +2153,16 @@ test("Many2ManyTagsField: select multiple records", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 1; i <= 10; i++) {
         PartnerType._records.push({
             id: 100 + i,
             name: "Partner" + i,
         });
+=======
+    for (let id = 101; id <= 110; id++) {
+        PartnerType._records.push({ id, name: "Partner" + id });
+>>>>>>> upstream/18.0
 =======
     for (let id = 101; id <= 110; id++) {
         PartnerType._records.push({ id, name: "Partner" + id });
@@ -2460,7 +2485,11 @@ test("Many2ManyTagsField: select multiple records", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         PartnerType._records.length + 1
+=======
+        MockServer.env["partner.type"].length + 1
+>>>>>>> upstream/18.0
 =======
         MockServer.env["partner.type"].length + 1
 >>>>>>> upstream/18.0
@@ -2713,7 +2742,11 @@ test("Many2ManyTagsField: select multiple records", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect('[name="timmy"] .badge').toHaveCount(PartnerType._records.length);
+=======
+    expect('[name="timmy"] .badge').toHaveCount(MockServer.env["partner.type"].length);
+>>>>>>> upstream/18.0
 =======
     expect('[name="timmy"] .badge').toHaveCount(MockServer.env["partner.type"].length);
 >>>>>>> upstream/18.0
@@ -2968,11 +3001,16 @@ test("Many2ManyTagsField: select multiple records doesn't show already added tag
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 1; i <= 10; i++) {
         PartnerType._records.push({
             id: 100 + i,
             name: "Partner" + i,
         });
+=======
+    for (let id = 101; id <= 110; id++) {
+        PartnerType._records.push({ id, name: "Partner" + id });
+>>>>>>> upstream/18.0
 =======
     for (let id = 101; id <= 110; id++) {
         PartnerType._records.push({ id, name: "Partner" + id });
@@ -3293,7 +3331,11 @@ test("Many2ManyTagsField: select multiple records doesn't show already added tag
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         PartnerType._records.length + 1
+=======
+        MockServer.env["partner.type"].length + 1
+>>>>>>> upstream/18.0
 =======
         MockServer.env["partner.type"].length + 1
 >>>>>>> upstream/18.0
@@ -3544,6 +3586,7 @@ test("Many2ManyTagsField: select multiple records doesn't show already added tag
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect('[name="timmy"] .badge').toHaveCount(PartnerType._records.length);
 });
 
@@ -3554,6 +3597,8 @@ test("Many2ManyTagsField: save&new in edit mode doesn't close edit window", asyn
             name: "Partner" + i,
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3740,6 +3785,9 @@ test("Many2ManyTagsField: save&new in edit mode doesn't close edit window", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3987,6 +4035,7 @@ test("Many2ManyTagsField: Save&New in many2many_tags with default_ keys in conte
 
 test("Many2ManyTagsField: conditional create/delete actions", async () => {
     Turtle._records[0].partner_ids = [2];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4297,6 +4346,10 @@ test("Many2ManyTagsField: conditional create/delete actions", async () => {
     for (let id = 101; id <= 110; id++) {
         Partner._records.push({ id, name: "Partner" + id });
 >>>>>>> upstream/18.0
+=======
+    for (let id = 101; id <= 110; id++) {
+        Partner._records.push({ id, name: "Partner" + id });
+>>>>>>> upstream/18.0
     }
 
     Partner._views = {
@@ -4362,7 +4415,10 @@ test("Many2ManyTagsField: conditional create/delete actions", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4899,9 +4955,15 @@ test("Many2ManyTagsField with arch context in form view", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("name_search", async (args) => {
         const result = await args.parent();
         if (args.kwargs.context.append_coucou) {
+=======
+    onRpc("name_search", ({ kwargs, parent }) => {
+        const result = parent();
+        if (kwargs.context.append_coucou) {
+>>>>>>> upstream/18.0
 =======
     onRpc("name_search", ({ kwargs, parent }) => {
         const result = parent();
@@ -5185,9 +5247,15 @@ test("Many2ManyTagsField with arch context in form view", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("web_read", async (args) => {
         const result = await args.parent();
         if (args.kwargs.context.append_coucou) {
+=======
+    onRpc("web_read", ({ kwargs, parent }) => {
+        const result = parent();
+        if (kwargs.context.append_coucou) {
+>>>>>>> upstream/18.0
 =======
     onRpc("web_read", ({ kwargs, parent }) => {
         const result = parent();
@@ -5482,9 +5550,15 @@ test("Many2ManyTagsField with arch context in list view", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("name_search", async (args) => {
         const result = await args.parent();
         if (args.kwargs.context.append_coucou) {
+=======
+    onRpc("name_search", ({ kwargs, parent }) => {
+        const result = parent();
+        if (kwargs.context.append_coucou) {
+>>>>>>> upstream/18.0
 =======
     onRpc("name_search", ({ kwargs, parent }) => {
         const result = parent();
@@ -5768,9 +5842,15 @@ test("Many2ManyTagsField with arch context in list view", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("web_read", async (args) => {
         const result = await args.parent();
         if (args.kwargs.context.append_coucou) {
+=======
+    onRpc("web_read", ({ kwargs, parent }) => {
+        const result = parent();
+        if (kwargs.context.append_coucou) {
+>>>>>>> upstream/18.0
 =======
     onRpc("web_read", ({ kwargs, parent }) => {
         const result = parent();

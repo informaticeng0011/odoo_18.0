@@ -211,6 +211,7 @@ export class EmojiPicker extends Component {
         onMounted(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.navbarResizeObserver = new ResizeObserver(() => this.adaptNavbar());
             this.navbarResizeObserver.observe(this.navbarRef.el);
             this.adaptNavbar();
@@ -220,6 +221,8 @@ export class EmojiPicker extends Component {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if (this.emojis.length === 0) {
                 return;
             }
@@ -227,6 +230,9 @@ export class EmojiPicker extends Component {
             this.navbarResizeObserver.observe(this.navbarRef.el);
             this.adaptNavbar();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -291,7 +297,11 @@ export class EmojiPicker extends Component {
         onWillUnmount(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.navbarResizeObserver.disconnect();
+=======
+            this.navbarResizeObserver?.disconnect();
+>>>>>>> upstream/18.0
 =======
             this.navbarResizeObserver?.disconnect();
 >>>>>>> upstream/18.0
@@ -415,6 +425,12 @@ export class EmojiPicker extends Component {
     updateEmojiPickerRepr() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.emojis.length === 0) {
+            return;
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.emojis.length === 0) {
             return;

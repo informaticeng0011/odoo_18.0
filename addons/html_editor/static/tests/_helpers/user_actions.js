@@ -47,8 +47,12 @@ import { findInSelection } from "@html_editor/utils/selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, manuallyDispatchProgrammaticEvent, press, waitFor } from "@odoo/hoot-dom";
 import { tick } from "@odoo/hoot-mock";
+=======
+import { click, manuallyDispatchProgrammaticEvent, press, tick, waitFor } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { click, manuallyDispatchProgrammaticEvent, press, tick, waitFor } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -270,7 +274,11 @@ export async function insertText(editor, text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const keydownEvent = await manuallyDispatchProgrammaticEvent.silent(
+=======
+        const [keydownEvent] = await manuallyDispatchProgrammaticEvent.silent(
+>>>>>>> upstream/18.0
 =======
         const [keydownEvent] = await manuallyDispatchProgrammaticEvent.silent(
 >>>>>>> upstream/18.0
@@ -463,7 +471,11 @@ export async function insertText(editor, text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const beforeinputEvent = await manuallyDispatchProgrammaticEvent.silent(
+=======
+        const [beforeinputEvent] = await manuallyDispatchProgrammaticEvent.silent(
+>>>>>>> upstream/18.0
 =======
         const [beforeinputEvent] = await manuallyDispatchProgrammaticEvent.silent(
 >>>>>>> upstream/18.0
@@ -656,7 +668,11 @@ export async function insertText(editor, text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const inputEvent = await manuallyDispatchProgrammaticEvent.silent(
+=======
+        const [inputEvent] = await manuallyDispatchProgrammaticEvent.silent(
+>>>>>>> upstream/18.0
 =======
         const [inputEvent] = await manuallyDispatchProgrammaticEvent.silent(
 >>>>>>> upstream/18.0
@@ -1059,7 +1075,10 @@ export async function tripleClick(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1203,6 +1222,9 @@ export async function splitTripleClick(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1354,11 +1376,14 @@ export async function splitTripleClick(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await manuallyDispatchProgrammaticEvent.silent(node, "mouseup", { detail: 3 });
     await manuallyDispatchProgrammaticEvent.as("tripleClick")(node, "click", { detail: 3 });
 
     await tick();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1499,6 +1524,9 @@ export async function splitTripleClick(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

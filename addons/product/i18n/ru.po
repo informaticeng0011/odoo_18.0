@@ -21,8 +21,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product
 # 
+=======
+# * product
+#
+>>>>>>> upstream/18.0
 =======
 # * product
 #
@@ -146,6 +151,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -264,10 +270,15 @@
 # Anastasiia Koroleva, 2025
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Anastasiia Koroleva, 2025
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,6 +646,10 @@ msgstr ""
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2025-10-02 22:20+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-14 20:47+0000\n"
+"PO-Revision-Date: 2025-10-02 22:20+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/product/"
 "ru/>\n"
@@ -666,6 +681,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -750,11 +768,17 @@ msgid ""
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "%(base)s со скидкой %(discount)s %% %(discount_type)s и дополнительной "
 "платой %(surcharge)s.\n"
 "Пример: %(amount)s * %(discount_charge)s + %(price_surcharge)s → "
 "%(total_amount)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -765,6 +789,11 @@ msgid ""
 "(%(start_date)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(item_name)s: дата окончания (%(end_date)s) должна быть позже даты начала "
+"(%(start_date)s)"
+>>>>>>> upstream/18.0
 =======
 "%(item_name)s: дата окончания (%(end_date)s) должна быть позже даты начала "
 "(%(start_date)s)"
@@ -845,7 +874,10 @@ msgid ""
 "        Note: this cannot be changed once the attribute is used on a product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "– Мгновенно: Все возможные вариации создаются сразу же, как только атрибут и "
 "его значения добавляются к товару.\n"
 "        – Динамически: Каждая вариация создается только тогда, когда "
@@ -853,6 +885,9 @@ msgstr ""
 "        – Никогда: Вариации для данного атрибута никогда не создаются.\n"
 "        Обратите внимание: этот параметр нельзя изменить после того, как "
 "атрибут был использован для товара."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -940,7 +975,10 @@ msgid ""
 "                                        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                            Правила\n"
 "                                        </span>\n"
@@ -948,6 +986,9 @@ msgstr ""
 "invisible=\"pricelist_item_count != 1\">\n"
 "                                            Правило\n"
 "                                        </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -961,7 +1002,10 @@ msgid ""
 "                                    </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                        Прайс-листы\n"
 "                                    </span>\n"
@@ -969,6 +1013,9 @@ msgstr ""
 "\"pricelist_item_count != 1\">\n"
 "                                        Прайс-лист\n"
 "                                    </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -1033,7 +1080,11 @@ msgstr "Штрих-код может быть присвоен только од
 #: code:addons/product/models/product_combo.py:0
 msgid "A combo choice can't contain duplicate products."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вариант набора не может содержать повторяющиеся товары."
+>>>>>>> upstream/18.0
 =======
 msgstr "Вариант набора не может содержать повторяющиеся товары."
 >>>>>>> upstream/18.0
@@ -1043,7 +1094,11 @@ msgstr "Вариант набора не может содержать повт�
 #: code:addons/product/models/product_combo_item.py:0
 msgid "A combo choice can't contain products of type \"combo\"."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вариант набора не может содержать товары типа «Набор»."
+>>>>>>> upstream/18.0
 =======
 msgstr "Вариант набора не может содержать товары типа «Набор»."
 >>>>>>> upstream/18.0
@@ -1053,7 +1108,11 @@ msgstr "Вариант набора не может содержать това�
 #: code:addons/product/models/product_combo.py:0
 msgid "A combo choice must contain at least 1 product."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вариант набора должен содержать как минимум один товар."
+>>>>>>> upstream/18.0
 =======
 msgstr "Вариант набора должен содержать как минимум один товар."
 >>>>>>> upstream/18.0
@@ -1063,7 +1122,11 @@ msgstr "Вариант набора должен содержать как ми�
 #: code:addons/product/models/product_template.py:0
 msgid "A combo product must contain at least 1 combo choice."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Товар категории «Набор» должен содержать как минимум один вариант."
+>>>>>>> upstream/18.0
 =======
 msgstr "Товар категории «Набор» должен содержать как минимум один вариант."
 >>>>>>> upstream/18.0
@@ -1107,6 +1170,11 @@ msgstr "В продукте уже используется штрихкод"
 msgid "A sellable combo product can only contain sellable products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Товар категории «Набор», доступный для продажи, может содержать только "
+"доступные для продажи товары."
+>>>>>>> upstream/18.0
 =======
 "Товар категории «Набор», доступный для продажи, может содержать только "
 "доступные для продажи товары."
@@ -1220,6 +1288,12 @@ msgid ""
 "                                include them in the report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Добавьте товары в отчет, используя кнопку «Добавить товары» в правом верхнем "
+"углу, чтобы\n"
+"                                включить их в отчет."
+>>>>>>> upstream/18.0
 =======
 "Добавьте товары в отчет, используя кнопку «Добавить товары» в правом верхнем "
 "углу, чтобы\n"
@@ -1344,10 +1418,15 @@ msgstr "Все варианты продуктов, использующие э�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
@@ -1714,7 +1793,11 @@ msgid "All products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Все товары"
+>>>>>>> upstream/18.0
 =======
 msgstr "Все товары"
 >>>>>>> upstream/18.0
@@ -2145,7 +2228,11 @@ msgid "Combo Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Позиция-комбо"
+>>>>>>> upstream/18.0
 =======
 msgstr "Позиция-комбо"
 >>>>>>> upstream/18.0
@@ -2262,6 +2349,11 @@ msgid ""
 "category."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Наборы позволяют выбрать один товар из нескольких вариантов в каждой "
+"категории."
+>>>>>>> upstream/18.0
 =======
 "Наборы позволяют выбрать один товар из нескольких вариантов в каждой "
 "категории."
@@ -2468,7 +2560,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -2579,7 +2675,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -3148,7 +3248,11 @@ msgid "Furniture Assembly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сборка мебели"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сборка мебели"
 >>>>>>> upstream/18.0
@@ -3294,6 +3398,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Товары  –  материальные изделия и продукция, которую вы поставляете.\n"
+"Услуга  –  нематериальный продукт, который вы предоставляете."
+>>>>>>> upstream/18.0
 =======
 "Товары  –  материальные изделия и продукция, которую вы поставляете.\n"
 "Услуга  –  нематериальный продукт, который вы предоставляете."
@@ -3536,7 +3645,11 @@ msgstr ""
 msgid ""
 "If unchecked, it will allow you to hide the attribute without removing it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Если не выбрано, это позволит скрыть атрибут, не удаляя его."
+>>>>>>> upstream/18.0
 =======
 msgstr "Если не выбрано, это позволит скрыть атрибут, не удаляя его."
 >>>>>>> upstream/18.0
@@ -3765,7 +3878,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -3879,7 +3996,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -4313,6 +4434,11 @@ msgstr ""
 msgid "Oops! '%(fileName)s' didn’t upload since its format isn’t allowed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ой! Файл «%(fileName)s» не был загружен, так как его формат не "
+"поддерживается."
+>>>>>>> upstream/18.0
 =======
 "Ой! Файл «%(fileName)s» не был загружен, так как его формат не "
 "поддерживается."
@@ -4496,7 +4622,11 @@ msgid "Price Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Тип цены"
+>>>>>>> upstream/18.0
 =======
 msgstr "Тип цены"
 >>>>>>> upstream/18.0
@@ -4768,7 +4898,11 @@ msgid "Product Combo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Комплект товаров"
+>>>>>>> upstream/18.0
 =======
 msgstr "Комплект товаров"
 >>>>>>> upstream/18.0
@@ -4861,7 +4995,11 @@ msgid "Product Combo Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Товар из комплекта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Товар из комплекта"
 >>>>>>> upstream/18.0
@@ -5414,11 +5552,17 @@ msgid ""
 "To have prices that end in 9.99, round off to 10.00 and set an extra at -0.01"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Устанавливает цену так, чтобы она была кратной этому значению.\n"
 "Округление применяется после скидки и до наценки.\n"
 "Чтобы получить цены, которые заканчиваются на 9.99, округлите до 10.00 и "
 "установите дополнительную корректировку на -0.01"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -5677,7 +5821,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5742,6 +5889,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5916,6 +6066,11 @@ msgid ""
 "This product is part of a combo, so its type can't be changed to \"combo\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Этот товар является частью набора, поэтому его тип нельзя изменить на "
+"«Набор»."
+>>>>>>> upstream/18.0
 =======
 "Этот товар является частью набора, поэтому его тип нельзя изменить на "
 "«Набор»."
@@ -6092,6 +6247,11 @@ msgid ""
 "discount to customer."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Чтобы показывать скидки клиентам, создайте правила скидок и активируйте "
+"соответствующие настройки."
+>>>>>>> upstream/18.0
 =======
 "Чтобы показывать скидки клиентам, создайте правила скидок и активируйте "
 "соответствующие настройки."
@@ -6389,6 +6549,11 @@ msgid ""
 "products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Вы собираетесь добавить значение «%(attribute_value)s» к следующему "
+"количеству товаров: %(product_count)s."
+>>>>>>> upstream/18.0
 =======
 "Вы собираетесь добавить значение «%(attribute_value)s» к следующему "
 "количеству товаров: %(product_count)s."
@@ -6399,7 +6564,11 @@ msgstr ""
 #: code:addons/product/wizard/update_product_attribute_value.py:0
 msgid "You are about to update the extra price of %s products."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вы собираетесь обновить дополнительную цену для %s товаров."
+>>>>>>> upstream/18.0
 =======
 msgstr "Вы собираетесь обновить дополнительную цену для %s товаров."
 >>>>>>> upstream/18.0
@@ -6438,7 +6607,11 @@ msgstr "Вы можете применить наценку, установив 
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_markup
 msgid "You can apply a mark-up on the cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вы можете применять наценку на себестоимость"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вы можете применять наценку на себестоимость"
 >>>>>>> upstream/18.0
@@ -6483,7 +6656,11 @@ msgstr "Вы не можете редактировать этот продук�
 msgid ""
 "You cannot archive this attribute as there are still products linked to it"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нельзя архивировать этот атрибут, так как с ним все ещё связаны товары"
+>>>>>>> upstream/18.0
 =======
 msgstr "Нельзя архивировать этот атрибут, так как с ним все ещё связаны товары"
 >>>>>>> upstream/18.0
@@ -6563,11 +6740,17 @@ msgid ""
 "%(other_pricelists)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Вы не можете удалить прайс-листы:\n"
 "(%(pricelists)s)\n"
 "Они используются в следующих прайс-листах:\n"
 "%(other_pricelists)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -6594,6 +6777,12 @@ msgid ""
 "%(products)s\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Нельзя удалить значение %(value)s, так как оно используется в следующих "
+"товарах:\n"
+"%(products)s\n"
+>>>>>>> upstream/18.0
 =======
 "Нельзя удалить значение %(value)s, так как оно используется в следующих "
 "товарах:\n"
@@ -6781,7 +6970,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "round off to 10.00 and set an extra at -0.01"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "округлить до 10.00 и установить дополнительную корректировку на -0.01"
+>>>>>>> upstream/18.0
 =======
 msgstr "округлить до 10.00 и установить дополнительную корректировку на -0.01"
 >>>>>>> upstream/18.0

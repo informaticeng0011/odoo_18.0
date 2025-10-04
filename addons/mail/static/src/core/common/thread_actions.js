@@ -110,10 +110,14 @@ function transformAction(component, id, action) {
         get condition() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (action.condition === undefined) {
                 return true;
             }
             return action.condition(component);
+=======
+            return threadActionsInternal.condition(component, id, action);
+>>>>>>> upstream/18.0
 =======
             return threadActionsInternal.condition(component, id, action);
 >>>>>>> upstream/18.0
@@ -218,7 +222,10 @@ function transformAction(component, id, action) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 export const threadActionsInternal = {
@@ -231,6 +238,9 @@ export const threadActionsInternal = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

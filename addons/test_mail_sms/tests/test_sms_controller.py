@@ -90,12 +90,15 @@ from odoo.addons.test_mail_sms.tests.test_sms_management import TestSMSActionsCo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import HttpCase, JsonRpcException
 from odoo.tools import mute_logger
 
 
 class TestSmsController(HttpCase, TestSMSActionsCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -362,6 +365,9 @@ class TestSmsController(TestSMSActionsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
