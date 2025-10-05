@@ -1960,7 +1960,10 @@ class TestStockValuation(TestStockValuationBase):
         self.assertEqual(product.standard_price, 77)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_fifo_manual_revaluation_after_manual_standard_price(self):
         self.product1.categ_id.property_cost_method = 'fifo'
         self._make_in_move(self.product1, 1, unit_cost=200)
@@ -1978,6 +1981,9 @@ class TestStockValuation(TestStockValuationBase):
 
         self.assertEqual(self.product1.standard_price, 350)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_create_done_move(self):
         """Stock Move created directly in Done state must impact de valuation."""
@@ -4476,7 +4482,10 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4821,6 +4830,9 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

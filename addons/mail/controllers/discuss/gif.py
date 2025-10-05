@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import requests
 import werkzeug.urls
 
@@ -15,6 +16,8 @@ class DiscussGifController(Controller):
         )
         response.raise_for_status()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import logging
@@ -42,6 +45,9 @@ class DiscussGifController(Controller):
         if not response:
             raise BadRequest()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

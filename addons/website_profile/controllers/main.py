@@ -310,6 +310,10 @@ class WebsiteProfile(http.Controller):
     def validate_email_done(self, **kwargs):
         request.session['validation_email_done'] = False
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        request.session['validation_email_sent'] = False
+>>>>>>> upstream/18.0
 =======
         request.session['validation_email_sent'] = False
 >>>>>>> upstream/18.0

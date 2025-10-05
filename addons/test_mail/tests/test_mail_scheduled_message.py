@@ -206,6 +206,10 @@ class TestScheduledMessageBusiness(TestScheduledMessage, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                subject="Test subject",
+>>>>>>> upstream/18.0
 =======
                 subject="Test subject",
 >>>>>>> upstream/18.0
@@ -506,7 +510,11 @@ class TestScheduledMessageBusiness(TestScheduledMessage, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'subject': self.test_record._message_compute_subject(),
+=======
+                        'subject': "Test subject",
+>>>>>>> upstream/18.0
 =======
                         'subject': "Test subject",
 >>>>>>> upstream/18.0
@@ -725,7 +733,10 @@ class TestScheduledMessageBusiness(TestScheduledMessage, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -815,6 +826,9 @@ class TestScheduledMessageBusiness(TestScheduledMessage, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

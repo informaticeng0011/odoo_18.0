@@ -24,7 +24,11 @@ import { unformat } from "../_helpers/format";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { splitBlock, keydownTab, undo } from "../_helpers/user_actions";
+=======
+import { splitBlock, keydownTab, undo, tripleClick } from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 =======
 import { splitBlock, keydownTab, undo, tripleClick } from "../_helpers/user_actions";
 >>>>>>> upstream/18.0
@@ -1233,7 +1237,10 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1320,6 +1327,9 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1392,7 +1402,10 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1473,6 +1486,9 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

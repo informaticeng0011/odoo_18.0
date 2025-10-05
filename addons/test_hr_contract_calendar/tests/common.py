@@ -178,7 +178,12 @@ class TestHrContractCalendarCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.partnerA, cls.partnerB, cls.partnerC, cls.partnerD, cls.partnerE = cls.env['res.partner'].create([
+=======
+        cls.partnerA, cls.partnerB, cls.partnerC, cls.partnerD, cls.partnerE,\
+        cls.partnerF, cls.partnerG = cls.env['res.partner'].create([
+>>>>>>> upstream/18.0
 =======
         cls.partnerA, cls.partnerB, cls.partnerC, cls.partnerD, cls.partnerE,\
         cls.partnerF, cls.partnerG = cls.env['res.partner'].create([
@@ -719,11 +724,14 @@ class TestHrContractCalendarCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ])
 
         cls.employeeA, cls.employeeB, cls.employeeB_company_B,\
         cls.employeeC, cls.employeeD, cls.employeeE = cls.env['hr.employee'].create([
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1047,6 +1055,9 @@ class TestHrContractCalendarCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1397,10 +1408,13 @@ class TestHrContractCalendarCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ])
         cls.contractA, cls.contractB, cls.contractB_company_B,\
         cls.contractC, cls.contractD = cls.env['hr.contract'].create([
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1730,6 +1744,9 @@ class TestHrContractCalendarCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2090,7 +2107,10 @@ class TestHrContractCalendarCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2421,6 +2441,9 @@ class TestHrContractCalendarCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -42,6 +42,10 @@ from odoo.addons.hw_drivers.websocket_client import send_to_controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.hw_drivers.iot_handlers.interfaces.PrinterInterface_W import win32print_lock
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.hw_drivers.iot_handlers.interfaces.PrinterInterface_W import win32print_lock
 >>>>>>> upstream/18.0
@@ -215,6 +219,7 @@ class PrinterDriver(Driver):
         event_manager.device_changed(self)
 
     def print_raw(self, data):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -582,6 +587,8 @@ class PrinterDriver(Driver):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         with win32print_lock:
             win32print.StartDocPrinter(self.printer_handle, 1, ('', None, "RAW"))
             win32print.StartPagePrinter(self.printer_handle)
@@ -641,6 +648,9 @@ class PrinterDriver(Driver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -41,6 +41,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    onRpc,
+>>>>>>> upstream/18.0
 =======
     onRpc,
 >>>>>>> upstream/18.0
@@ -188,6 +192,10 @@ import { groupBy } from "@web/core/utils/arrays";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const mockRpcRegistry = registry.category("mail.mock_rpc");
+>>>>>>> upstream/18.0
 =======
 const mockRpcRegistry = registry.category("mail.mock_rpc");
 >>>>>>> upstream/18.0
@@ -391,7 +399,11 @@ export function registerRoute(route, handler) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const beforeCallableHandler = async function (request) {
+=======
+    async function beforeCallableHandler(request) {
+>>>>>>> upstream/18.0
 =======
     async function beforeCallableHandler(request) {
 >>>>>>> upstream/18.0
@@ -552,8 +564,14 @@ export function registerRoute(route, handler) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     };
     registry.category("mock_rpc").add(route, beforeCallableHandler);
+=======
+    }
+    mockRpcRegistry.add(route, beforeCallableHandler);
+    onRpc(route, beforeCallableHandler);
+>>>>>>> upstream/18.0
 =======
     }
     mockRpcRegistry.add(route, beforeCallableHandler);

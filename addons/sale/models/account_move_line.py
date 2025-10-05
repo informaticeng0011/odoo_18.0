@@ -83,7 +83,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -263,6 +266,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             vals |= self.sale_line_ids.analytic_distribution or {}
         return vals
 
@@ -299,6 +303,11 @@ class AccountMoveLine(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            vals |= self.sale_line_ids[0].analytic_distribution or {}
+        return vals
+
 >>>>>>> upstream/18.0
 =======
             vals |= self.sale_line_ids[0].analytic_distribution or {}
@@ -733,6 +742,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'analytic_distribution': self.analytic_distribution,
+>>>>>>> upstream/18.0
 =======
             'analytic_distribution': self.analytic_distribution,
 >>>>>>> upstream/18.0

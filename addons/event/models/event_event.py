@@ -5,6 +5,10 @@ import logging
 import pytz
 import textwrap
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import urllib.parse
+>>>>>>> upstream/18.0
 =======
 import urllib.parse
 >>>>>>> upstream/18.0
@@ -746,11 +750,17 @@ class EventEvent(models.Model):
         return textwrap.shorten(description, 1900)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_external_description_url_encoded(self):
         """Get a url-encoded version of the description for mail templates."""
         return urllib.parse.quote_plus(self._get_external_description())
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_ics_file(self):
         """ Returns iCalendar file for the event invitation.

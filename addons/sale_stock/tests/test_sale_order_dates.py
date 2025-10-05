@@ -2,15 +2,21 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.stock_account.tests.test_anglo_saxon_valuation_reconciliation_common import ValuationReconciliationTestCommon
 from datetime import timedelta
 from odoo import fields
 =======
+=======
+>>>>>>> upstream/18.0
 from freezegun import freeze_time
 
 from odoo.addons.stock_account.tests.test_anglo_saxon_valuation_reconciliation_common import ValuationReconciliationTestCommon
 from datetime import timedelta
 from odoo import Command, fields
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.tests import common, tagged
 
@@ -121,7 +127,10 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
         for line in new_order.order_line:
             self.assertEqual(line.move_ids[0].date, right_date, "The expected date for the Stock Move is wrong")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_invoice_delivery_date(self):
         self.env['stock.quant']._update_available_quantity(
@@ -173,4 +182,7 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
                 invoice.delivery_date, fields.Date.today(),
                 "Custom invoice delivery shouldn't change after line change",
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

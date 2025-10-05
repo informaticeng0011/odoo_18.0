@@ -8,8 +8,11 @@ class TestFECExport(AccountTestInvoicingCommon):
         self.init_invoice("out_invoice", self.partner_a, "2019-01-01", amounts=[1000, 2000], post=True)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.init_invoice("out_invoice", self.partner_a, "2020-01-01", amounts=[1000, 2000], post=True)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         inv = self.init_invoice("out_invoice", self.partner_a, "2020-01-01", amounts=[1000, 2000])
@@ -23,6 +26,9 @@ class TestFECExport(AccountTestInvoicingCommon):
         })
         inv.action_post()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -186,7 +186,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('partner_id')
+=======
+    @api.depends('partner_id.name')
+>>>>>>> upstream/18.0
 =======
     @api.depends('partner_id.name')
 >>>>>>> upstream/18.0
@@ -465,7 +469,10 @@ class ResPartnerBank(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _sanitize_vals(self, vals):
@@ -485,6 +492,9 @@ class ResPartnerBank(models.Model):
         return super().write(vals)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

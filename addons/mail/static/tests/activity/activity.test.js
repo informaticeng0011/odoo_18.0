@@ -85,9 +85,13 @@ test("activity upload document is available", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const activityType = pyEnv["mail.activity.type"]._records.find(
         (r) => r.name === "Upload Document"
     );
+=======
+    const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Upload Document");
+>>>>>>> upstream/18.0
 =======
     const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Upload Document");
 >>>>>>> upstream/18.0
@@ -353,9 +357,13 @@ test("activity can upload a document", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const activityType = pyEnv["mail.activity.type"]._records.find(
         (r) => r.name === "Upload Document"
     );
+=======
+    const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Upload Document");
+>>>>>>> upstream/18.0
 =======
     const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Upload Document");
 >>>>>>> upstream/18.0
@@ -811,7 +819,11 @@ test("activity with mail template layout", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const activityType = pyEnv["mail.activity.type"]._records.find((r) => r.name === "Email");
+=======
+    const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Email");
+>>>>>>> upstream/18.0
 =======
     const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Email");
 >>>>>>> upstream/18.0
@@ -1080,7 +1092,11 @@ test("activity with mail template: preview mail", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const activityType = pyEnv["mail.activity.type"]._records.find((r) => r.name === "Email");
+=======
+    const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Email");
+>>>>>>> upstream/18.0
 =======
     const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Email");
 >>>>>>> upstream/18.0
@@ -1361,7 +1377,11 @@ test("activity with mail template: send mail", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const activityType = pyEnv["mail.activity.type"]._records.find((r) => r.name === "Email");
+=======
+    const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Email");
+>>>>>>> upstream/18.0
 =======
     const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Email");
 >>>>>>> upstream/18.0
@@ -1601,6 +1621,7 @@ test("activity with mail template: send mail", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/res.partner/activity_send_mail", async (request) => {
         step("activity_send_mail");
         const { params } = await request.json();
@@ -1608,6 +1629,8 @@ test("activity with mail template: send mail", async () => {
         expect(params.args[0][0]).toBe(partnerId);
         expect(params.args[1]).toBe(mailTemplateId);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1751,6 +1774,9 @@ test("activity with mail template: send mail", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2011,12 +2037,15 @@ test("activity click on cancel", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/mail.activity/unlink", async (request) => {
         step("unlink");
         const { params } = await request.json();
         expect(params.args[0]).toHaveLength(1);
         expect(params.args[0][0]).toBe(activityId);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2159,6 +2188,9 @@ test("activity click on cancel", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

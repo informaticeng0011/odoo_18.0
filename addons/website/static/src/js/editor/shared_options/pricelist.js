@@ -25,8 +25,11 @@ options.registry.Pricelist = options.Class.extend({
                     const descriptionEl = document.createElement("p");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     descriptionEl.classList.add(params.descriptionClass, "d-block", "pe-5", "text-muted", "o_default_snippet_text");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     descriptionEl.classList.add(
@@ -44,6 +47,9 @@ options.registry.Pricelist = options.Class.extend({
                         descriptionEl.classList.add("o_small")
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

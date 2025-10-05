@@ -1280,9 +1280,12 @@ class TestMailgateway(MailGatewayCommon):
         self.assertEqual(other_record.message_bounce, 10)
         self.assertEqual(yet_other_record.message_bounce, 10)
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertNotIn(self.partner_1, test_channel.channel_partner_ids)
 
 =======
+=======
+>>>>>>> upstream/18.0
         # MAX_BOUNCE_LIMIT in discuss_channel is set to 10,
         # If this partner exceeds the limit, remove them from the channel.
         self.assertNotIn(self.partner_1, test_channel.channel_partner_ids)
@@ -1296,6 +1299,9 @@ class TestMailgateway(MailGatewayCommon):
         )
         self.assertEqual(self.partner_1.message_bounce, 0)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @mute_logger('odoo.addons.mail.models.mail_thread')
     def test_message_process_bounce_records_partner(self):

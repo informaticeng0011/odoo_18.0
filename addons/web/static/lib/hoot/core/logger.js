@@ -47,6 +47,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { getColorHex } from "../../hoot-dom/hoot_dom_utils";
+>>>>>>> upstream/18.0
 =======
 import { getColorHex } from "../../hoot-dom/hoot_dom_utils";
 >>>>>>> upstream/18.0
@@ -278,6 +282,7 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         table: $table,
 >>>>>>> upstream/18.0
@@ -483,6 +488,8 @@ const {
         warn: $warn,
     },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -509,6 +516,9 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -535,6 +545,7 @@ const {
  * @param {string} [prefix]
  * @param {string} [prefixColor]
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -682,6 +693,8 @@ const styledArguments = (args, prefix, prefixColor) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function styledArguments(args, prefix, prefixColor) {
     const fullPrefix = `%c[${prefix || DEFAULT_PREFIX[0]}]%c`;
     const styles = [`color:${prefixColor || DEFAULT_PREFIX[1]};font-weight:bold`, ""];
@@ -732,6 +745,9 @@ function styledArguments(args, prefix, prefixColor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -831,6 +847,7 @@ function styledArguments(args, prefix, prefixColor) {
         args.unshift(fullPrefix, ...styles, firstArg);
     }
     return args;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1020,10 +1037,14 @@ function styledArguments(args, prefix, prefixColor) {
 =======
 }
 >>>>>>> upstream/18.0
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {any[]} args
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1261,6 +1282,10 @@ function unstyledArguments(args) {
 function unstyledArguments(args) {
     const prefix = `[${DEFAULT_PREFIX[0]}]`;
 >>>>>>> upstream/18.0
+=======
+function unstyledArguments(args) {
+    const prefix = `[${DEFAULT_PREFIX[0]}]`;
+>>>>>>> upstream/18.0
     const firstArg = args.shift() ?? "";
     if (typeof firstArg === "string") {
         args.unshift(`${prefix} ${firstArg}`);
@@ -1268,6 +1293,7 @@ function unstyledArguments(args) {
         args.unshift(prefix, firstArg);
     }
     return [args.join(" ")];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2407,6 +2433,8 @@ export const logger = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 }
 
 class Logger {
@@ -2437,6 +2465,9 @@ class Logger {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2460,6 +2491,7 @@ class Logger {
      */
     debug(...args) {
         $debug(...styledArguments(args));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2493,10 +2525,14 @@ class Logger {
 =======
     }
 >>>>>>> upstream/18.0
+=======
+    }
+>>>>>>> upstream/18.0
     /**
      * @param {...any} args
      */
     error(...args) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2735,6 +2771,8 @@ class Logger {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         switch (this.issueLevel) {
             case ISSUE_LEVELS.suppressed: {
                 $groupCollapsed(...styledArguments(["suppressed"], ...ERROR_PREFIX));
@@ -2763,6 +2801,9 @@ class Logger {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2794,7 +2835,11 @@ class Logger {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     },
+=======
+    }
+>>>>>>> upstream/18.0
 =======
     }
 >>>>>>> upstream/18.0
@@ -2832,7 +2877,11 @@ class Logger {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     },
+=======
+    }
+>>>>>>> upstream/18.0
 =======
     }
 >>>>>>> upstream/18.0
@@ -2936,6 +2985,7 @@ class Logger {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3094,10 +3144,14 @@ class Logger {
 =======
     }
 >>>>>>> upstream/18.0
+=======
+    }
+>>>>>>> upstream/18.0
     /**
      * @param {...any} args
      */
     warn(...args) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3529,6 +3583,8 @@ class Logger {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         switch (this.issueLevel) {
             case ISSUE_LEVELS.suppressed: {
                 $groupCollapsed(...styledArguments(["suppressed"], ...WARNING_PREFIX));
@@ -3553,6 +3609,9 @@ class Logger {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3575,6 +3634,7 @@ class Logger {
      * @param {...any} args
      */
     logDebug(...args) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3968,6 +4028,8 @@ class Logger {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (!this.canLog("debug")) {
             return;
         }
@@ -3980,6 +4042,9 @@ class Logger {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3999,6 +4064,7 @@ class Logger {
      * @param {import("./suite").Suite} suite
      */
     logSuite(suite) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4188,6 +4254,9 @@ class Logger {
 =======
         if (!this.canLog("suites")) {
 >>>>>>> upstream/18.0
+=======
+        if (!this.canLog("suites")) {
+>>>>>>> upstream/18.0
             return;
         }
         const args = [`${stringify(suite.fullName)} ended`];
@@ -4211,6 +4280,7 @@ class Logger {
             );
         }
         $log(...styledArguments(args));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4360,6 +4430,8 @@ class Logger {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     }
     /**
      * @param {import("./test").Test} test
@@ -4373,6 +4445,9 @@ class Logger {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4408,7 +4483,11 @@ class Logger {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     },
+=======
+    }
+>>>>>>> upstream/18.0
 =======
     }
 >>>>>>> upstream/18.0
@@ -4447,7 +4526,11 @@ class Logger {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     },
+=======
+    }
+>>>>>>> upstream/18.0
 =======
     }
 >>>>>>> upstream/18.0
@@ -4476,6 +4559,7 @@ class Logger {
      * @param {...any} args
      */
     logRun(...args) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4619,6 +4703,8 @@ class Logger {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (!this.canLog("runner")) {
             return;
         }
@@ -4631,6 +4717,9 @@ class Logger {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4651,6 +4740,7 @@ class Logger {
      */
     logGlobal(...args) {
         $dir(...unstyledArguments(args));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4896,10 +4986,14 @@ class Logger {
 =======
     }
 >>>>>>> upstream/18.0
+=======
+    }
+>>>>>>> upstream/18.0
 
     // Other methods
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5266,6 +5360,8 @@ class Logger {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
      * @param {keyof typeof LOG_LEVELS} level
      */
     canLog(level) {
@@ -5408,6 +5504,9 @@ export const logger = new Logger(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
