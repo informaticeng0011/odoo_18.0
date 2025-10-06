@@ -6,6 +6,10 @@ import pytz
 import textwrap
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import urllib.parse
+>>>>>>> upstream/18.0
 =======
 import urllib.parse
 >>>>>>> upstream/18.0
@@ -751,7 +755,10 @@ class EventEvent(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_external_description_url_encoded(self):
@@ -759,6 +766,9 @@ class EventEvent(models.Model):
         return urllib.parse.quote_plus(self._get_external_description())
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

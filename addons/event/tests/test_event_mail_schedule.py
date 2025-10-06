@@ -618,7 +618,11 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
     @mute_logger('odoo.addons.base.models.ir_model', 'odoo.models')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_archived_event_mail_schedule(self):
+=======
+    def test_scheduler_on_archived_event(self):
+>>>>>>> upstream/18.0
 =======
     def test_scheduler_on_archived_event(self):
 >>>>>>> upstream/18.0
@@ -687,7 +691,10 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
         self.assertFalse(event_prev_scheduler.mail_done, 'event: reminder scheduler should should have run')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -752,6 +759,9 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
         self.assertEqual(len(self._new_mails), 3)
         self.assertTrue(event_after_scheduler.mail_done)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

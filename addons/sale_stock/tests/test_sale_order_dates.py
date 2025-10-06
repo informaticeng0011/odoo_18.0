@@ -3,10 +3,13 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.stock_account.tests.test_anglo_saxon_valuation_reconciliation_common import ValuationReconciliationTestCommon
 from datetime import timedelta
 from odoo import fields
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from freezegun import freeze_time
@@ -15,6 +18,9 @@ from odoo.addons.stock_account.tests.test_anglo_saxon_valuation_reconciliation_c
 from datetime import timedelta
 from odoo import Command, fields
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -128,7 +134,10 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
             self.assertEqual(line.move_ids[0].date, right_date, "The expected date for the Stock Move is wrong")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -183,6 +192,9 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
                 "Custom invoice delivery shouldn't change after line change",
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

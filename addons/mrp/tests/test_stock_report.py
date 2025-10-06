@@ -589,7 +589,10 @@ class TestMrpStockReports(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -937,6 +940,7 @@ class TestMrpStockReports(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1053,6 +1057,8 @@ class TestMrpStockReports(TestReportsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1133,6 +1139,7 @@ class TestMrpStockReports(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1165,6 +1172,8 @@ class TestMrpStockReports(TestReportsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1185,6 +1194,9 @@ class TestMrpStockReports(TestReportsCommon):
         self.assertEqual(overview_values_no_bom['data']['components'][0]['summary']['bom_cost'], 120)
         self.assertEqual(overview_values_no_bom['data']['components'][0]['summary']['mo_cost'], 120)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

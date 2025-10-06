@@ -114,6 +114,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Tomáš Píšek, 2025
 >>>>>>> upstream/18.0
@@ -365,6 +366,10 @@
 >>>>>>> upstream/18.0
 =======
 # Tomáš Píšek, 2025
+>>>>>>> upstream/18.0
+=======
+# Tomáš Píšek, 2025
+# Chris Podivinsky, 2025
 >>>>>>> upstream/18.0
 =======
 # Tomáš Píšek, 2025
@@ -467,6 +472,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1066,6 +1072,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Chris Podivinsky, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-23 18:40+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Chris Podivinsky, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Slovak (https://app.transifex.com/odoo/teams/41243/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1144,7 +1155,11 @@ msgid "<i class=\"fa fa-pencil\"/> Edit information"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-pencil\"/>  Upraviť informácie"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-pencil\"/>  Upraviť informácie"
 >>>>>>> upstream/18.0
@@ -1367,6 +1382,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
+"            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
+"            <t t-set=\"signup_url\" t-value=\"object.user_id.partner_id and object.user_id.partner_id._get_signup_url() or object.partner_id and object.partner_id._get_signup_url()\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
 "            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
@@ -1820,6 +1841,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or ''\">Marc Demo</span>\n"
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
@@ -1838,6 +1860,9 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
+>>>>>>> upstream/18.0
+=======
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
@@ -2152,6 +2177,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Dear <t t-out=\"object.user_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
 "                        Welcome to <t t-out=\"object.user_id.company_id.name\">YourCompany</t>'s Portal!<br/><br/>\n"
 "                        An account has been created for you with the following login: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
@@ -2192,6 +2218,8 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2414,6 +2442,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2649,7 +2680,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
+=======
+"                    <t t-out=\"company_name\">YourCompany</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"company_name\">YourCompany</t>\n"
 >>>>>>> upstream/18.0
@@ -3069,7 +3104,11 @@ msgid "Configure your connection parameters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravte nastavenia pripojenia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravte nastavenia pripojenia"
 >>>>>>> upstream/18.0
@@ -3183,7 +3222,11 @@ msgid "Connection &amp; Security"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pripojenie a bezpečnosť"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pripojenie a bezpečnosť"
 >>>>>>> upstream/18.0
@@ -3531,7 +3574,11 @@ msgid "Go Back"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrátiť sa späť"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrátiť sa späť"
 >>>>>>> upstream/18.0
@@ -4048,12 +4095,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Key Description"
 msgstr ""
 
 #. module: portal
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4298,7 +4348,11 @@ msgid "My account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Môj účet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Môj účet"
 >>>>>>> upstream/18.0
@@ -4649,7 +4703,10 @@ msgstr "Bezpečnosť"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal/static/src/xml/portal_security.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5260,9 +5317,12 @@ msgstr "Najprv by ste mali partnerovi udeliť prístup k portálu \"%s\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Your account at {{ object.user_id.company_id.name }}"
 msgstr "Váš účet na adrese {{ object.user_id.company_id.name }}"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5483,6 +5543,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

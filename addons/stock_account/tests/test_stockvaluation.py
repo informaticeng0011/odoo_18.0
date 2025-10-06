@@ -1961,7 +1961,10 @@ class TestStockValuation(TestStockValuationBase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_fifo_manual_revaluation_after_manual_standard_price(self):
@@ -1982,6 +1985,9 @@ class TestStockValuation(TestStockValuationBase):
         self.assertEqual(self.product1.standard_price, 350)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4483,7 +4489,10 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4831,6 +4840,9 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

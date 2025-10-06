@@ -22,7 +22,10 @@ publicWidget.registry.PaymentExpressCheckoutForm = publicWidget.Widget.extend({
         Component.env.bus.addEventListener('cart_amount_changed', (ev) => this._updateAmount(...ev.detail));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         // Monitor when the page is restored from the bfcache.
@@ -36,6 +39,9 @@ publicWidget.registry.PaymentExpressCheckoutForm = publicWidget.Widget.extend({
         window.removeEventListener('pageshow', this._onNavigationBack);
         this._super.apply(this, arguments);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48,7 +54,10 @@ publicWidget.registry.PaymentExpressCheckoutForm = publicWidget.Widget.extend({
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
      * Reload the page when the page is restored from the bfcache.
@@ -64,6 +73,9 @@ publicWidget.registry.PaymentExpressCheckoutForm = publicWidget.Widget.extend({
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

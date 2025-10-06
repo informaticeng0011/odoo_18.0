@@ -1,16 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* crm
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Wil Odoo, 2024
 # Wichanon Jamwutthipreecha, 2024
 # Rasareeyar Lappiam, 2025
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-02-10 13:22+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Rasareeyar Lappiam, 2025\n"
@@ -19,6 +28,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: th\n"
+=======
+"POT-Creation-Date: 2025-10-03 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Rasareeyar Lappiam, 2025\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: crm
@@ -76,8 +95,12 @@ msgstr "%(duplicates)s รวมลูกค้าเป้าหมายที
 msgid ""
 "%(members_assigned)s leads assigned among %(member_count)s salespersons."
 msgstr ""
+<<<<<<< HEAD
 "%(members_assigned)s ลูกค้าเป้าหมายที่จัดสรรระหว่าง %(member_count)s "
 "พนักงานขาย"
+=======
+"%(members_assigned)s ลูกค้าเป้าหมายที่จัดสรรระหว่าง %(member_count)s พนักงานขาย"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
@@ -95,10 +118,16 @@ msgstr "<b>สร้างโอกาสแรกของคุณ</b>"
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid ""
+<<<<<<< HEAD
 "<b>Drag &amp; drop opportunities</b> between columns as you progress in your"
 " sales cycle."
 msgstr ""
 "<b>ลากและวางโอกาส</b> ระหว่างคอลัมน์ต่างๆ ตามความคืบหน้าในวงจรการขายของคุณ"
+=======
+"<b>Drag &amp; drop opportunities</b> between columns as you progress in your "
+"sales cycle."
+msgstr "<b>ลากและวางโอกาส</b> ระหว่างคอลัมน์ต่างๆ ตามความคืบหน้าในวงจรการขายของคุณ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-javascript
@@ -112,16 +141,25 @@ msgid ""
 "<i class=\"fa fa-gear\" role=\"img\" title=\"Switch to automatic "
 "probability\" aria-label=\"Switch to automatic probability\"/>"
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"fa fa-gear\" role=\"img\" "
 "title=\"เปลี่ยนไปใช้ความน่าจะเป็นอัตโนมัติ\" aria-label=\"Switch to "
 "automatic probability\"/>"
+=======
+"<i class=\"fa fa-gear\" role=\"img\" title=\"เปลี่ยนไปใช้ความน่าจะเป็นอัตโนมัติ\" "
+"aria-label=\"Switch to automatic probability\"/>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "<i class=\"fa fa-info-circle me-2\" title=\"Assigned Lead Count\"/>"
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"fa fa-info-circle me-2\" "
 "title=\"จำนวนลูกค้าเป้าหมายที่ได้รับมอบหมาย\"/>"
+=======
+"<i class=\"fa fa-info-circle me-2\" title=\"จำนวนลูกค้าเป้าหมายที่ได้รับมอบหมาย\"/>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_partner_kanban_view
@@ -144,11 +182,19 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "<i title=\"Update now\" role=\"img\" aria-label=\"Update now\" class=\"fa "
 "fa-fw fa-refresh\"/>"
 msgstr ""
 "<i title=\"อัปเดตตอนนี้\" role=\"img\" aria-label=\"Update now\" class=\"fa "
 "fa-fw fa-refresh\"/>"
+=======
+"<i title=\"Update now\" role=\"img\" aria-label=\"Update now\" class=\"fa fa-"
+"fw fa-refresh\"/>"
+msgstr ""
+"<i title=\"อัปเดตตอนนี้\" role=\"img\" aria-label=\"Update now\" class=\"fa fa-"
+"fw fa-refresh\"/>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -158,8 +204,13 @@ msgid ""
 "invisible=\"not partner_email_update\"/>"
 msgstr ""
 "<span class=\"fa fa-exclamation-triangle text-warning oe_edit_only\" "
+<<<<<<< HEAD
 "title=\"เมื่อบันทึกการเปลี่ยนแปลงนี้ อีเมลของลูกค้าก็จะได้รับการอัปเดตด้วย\""
 " invisible=\"not partner_email_update\"/>"
+=======
+"title=\"เมื่อบันทึกการเปลี่ยนแปลงนี้ อีเมลของลูกค้าก็จะได้รับการอัปเดตด้วย\" invisible=\"not "
+"partner_email_update\"/>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -169,27 +220,53 @@ msgid ""
 "updated.\" invisible=\"not partner_phone_update\"/>"
 msgstr ""
 "<span class=\"fa fa-exclamation-triangle text-warning oe_edit_only\" "
+<<<<<<< HEAD
 "title=\"เมื่อบันทึกการเปลี่ยนแปลงนี้ "
 "หมายเลขโทรศัพท์ของลูกค้าก็จะได้รับการอัปเดตด้วย\" invisible=\"not "
 "partner_phone_update\"/>"
+=======
+"title=\"เมื่อบันทึกการเปลี่ยนแปลงนี้ หมายเลขโทรศัพท์ของลูกค้าก็จะได้รับการอัปเดตด้วย\" "
+"invisible=\"not partner_phone_update\"/>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">Similar Leads</span>\n"
 "                                    <span class=\"o_stat_text\" invisible=\"duplicate_lead_count &gt; 1\">Similar Lead</span>"
 msgstr ""
 "<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">ลูกค้าเป้าหมายที่เหมือนกัน</span>\n"
 "                                    <span class=\"o_stat_text\" invisible=\"duplicate_lead_count &gt; 1\">ลูกค้าเป้าหมายที่เหมือนกัน</span>"
+=======
+"<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; "
+"2\">Similar Leads</span>\n"
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"duplicate_lead_count &gt; 1\">Similar Lead</span>"
+msgstr ""
+"<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; "
+"2\">ลูกค้าเป้าหมายที่เหมือนกัน</span>\n"
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"duplicate_lead_count &gt; 1\">ลูกค้าเป้าหมายที่เหมือนกัน</span>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.utm_campaign_view_form
 msgid ""
 "<span class=\"o_stat_text\" invisible=\"not use_leads\">Leads</span>\n"
+<<<<<<< HEAD
 "                        <span class=\"o_stat_text\" invisible=\"use_leads\">Opportunities</span>"
 msgstr ""
 "<span class=\"o_stat_text\" invisible=\"not use_leads\">ลูกค้าเป้าหมาย</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"use_leads\">ผู้ที่มีโอกาสจะซื้อ</span>"
+=======
+"                        <span class=\"o_stat_text\" "
+"invisible=\"use_leads\">Opportunities</span>"
+msgstr ""
+"<span class=\"o_stat_text\" invisible=\"not use_leads\">ลูกค้าเป้าหมาย</span>\n"
+"                        <span class=\"o_stat_text\" "
+"invisible=\"use_leads\">ผู้ที่มีโอกาสจะซื้อ</span>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lost_reason_view_form
@@ -204,11 +281,23 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"oe_grey p-2\" groups=\"crm.group_use_recurring_revenues\"> + </span>\n"
 "                                        <span class=\"oe_grey p-2\" groups=\"!crm.group_use_recurring_revenues\"> at </span>"
 msgstr ""
 "<span class=\"oe_grey p-2\" groups=\"crm.group_use_recurring_revenues\"> + </span>\n"
 "                                        <span class=\"oe_grey p-2\" groups=\"!crm.group_use_recurring_revenues\"> ที่ </span>"
+=======
+"<span class=\"oe_grey p-2\" groups=\"crm.group_use_recurring_revenues\"> + </"
+"span>\n"
+"                                        <span class=\"oe_grey p-2\" "
+"groups=\"!crm.group_use_recurring_revenues\"> at </span>"
+msgstr ""
+"<span class=\"oe_grey p-2\" groups=\"crm.group_use_recurring_revenues\"> + </"
+"span>\n"
+"                                        <span class=\"oe_grey p-2\" "
+"groups=\"!crm.group_use_recurring_revenues\"> ที่ </span>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -248,14 +337,28 @@ msgstr "<span>ผสาน ลูกค้าเป้าหมาย/โอก�
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid ""
 "<span>Periodically assign leads based on rules</span><br/>\n"
+<<<<<<< HEAD
 "                                <span invisible=\"not crm_use_auto_assignment\">\n"
 "                                    All sales teams will use this setting by default unless\n"
+=======
+"                                <span invisible=\"not "
+"crm_use_auto_assignment\">\n"
+"                                    All sales teams will use this setting by "
+"default unless\n"
+>>>>>>> upstream/18.0
 "                                    specified otherwise.\n"
 "                                </span>"
 msgstr ""
 "<span>มอบหมายลูกค้าเป้าหมายตามกฎเกณฑ์เป็นระยะๆ</span><br/>\n"
+<<<<<<< HEAD
 "                                <span invisible=\"not crm_use_auto_assignment\">\n"
 "                                    ทีมขายทั้งหมดจะใช้การตั้งค่านี้เป็นค่าเริ่มต้น เว้นแต่จะ\n"
+=======
+"                                <span invisible=\"not "
+"crm_use_auto_assignment\">\n"
+"                                    ทีมขายทั้งหมดจะใช้การตั้งค่านี้เป็นค่าเริ่มต้น "
+"เว้นแต่จะ\n"
+>>>>>>> upstream/18.0
 "                                    ระบุไว้เป็นอย่างอื่น\n"
 "                                </span>"
 
@@ -267,12 +370,23 @@ msgstr "<span>ลงในอันนี้</span>"
 #. module: crm
 #: model:mail.template,body_html:crm.mail_template_demo_crm_lead
 msgid ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 24px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
+"16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
+"color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
+"align=\"center\">\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"padding: 24px; background-color: white; color: #454748; border-"
+"collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "<tbody>\n"
 "    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: white; padding: 0; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your Lead/Opportunity</span><br/>\n"
@@ -282,6 +396,25 @@ msgid ""
 "                </td></tr>\n"
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;\"/>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"100%\" style=\"background-color: white; padding: 0; border-"
+"collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <span style=\"font-size: 10px;\">Your Lead/Opportunity</"
+"span><br/>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-"
+"out=\"object.name or ''\">Interest in your products</span>\n"
+"                </td><td valign=\"middle\" align=\"right\">\n"
+"                    <img t-attf-src=\"/logo.png?"
+"company={{ object.company_id.id }}\" style=\"padding: 0px; margin: 0px; "
+"height: 48px;\" t-att-alt=\"object.company_id.name\"/>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                    <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -289,6 +422,7 @@ msgid ""
 "    <!-- CONTENT -->\n"
 "    <tr>\n"
 "        <td style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr>\n"
 "                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
@@ -305,6 +439,36 @@ msgid ""
 "                            </t>\n"
 "                            <t t-else=\"\">\n"
 "                                <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"590\" style=\"min-width: 590px; background-color: white; padding: "
+"0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr>\n"
+"                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                        <div>\n"
+"                            Hi <t t-out=\"object.partner_id and "
+"object.partner_id.name or ''\">Deco Addict</t>,<br/><br/>\n"
+"                            Welcome to <t t-out=\"object.company_id.name or "
+"''\">My Company (San Francisco)</t>.\n"
+"                            It's great to meet you! Now that you're on "
+"board, you'll discover what <t t-out=\"object.company_id.name or ''\">My "
+"Company (San Francisco)</t> has to offer. My name is <t t-"
+"out=\"object.user_id.name or ''\">Marc Demo</t> and I'll help you get the "
+"most out of Odoo. Could we plan a quick demo soon?<br/>\n"
+"                            Feel free to reach out at any time!<br/><br/>\n"
+"                            Best,<br/>\n"
+"                            <t t-if=\"object.user_id\">\n"
+"                                <b><t t-out=\"object.user_id.name or "
+"''\">Marc Demo</t></b>\n"
+"                                <br/>Email: <t t-out=\"object.user_id.email "
+"or ''\">mark.brown23@example.com</t>\n"
+"                                <br/>Phone: <t t-out=\"object.user_id.phone "
+"or ''\">+1 650-123-4567</t>\n"
+"                            </t>\n"
+"                            <t t-else=\"\">\n"
+"                                <t t-out=\"object.company_id.name or ''\">My "
+"Company (San Francisco)</t>\n"
+>>>>>>> upstream/18.0
 "                            </t>\n"
 "                        </div>\n"
 "                    </td>\n"
@@ -314,6 +478,7 @@ msgid ""
 "    </tr>\n"
 "    <!-- FOOTER -->\n"
 "    <tr>\n"
+<<<<<<< HEAD
 "        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
 "            <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
 "            <b t-out=\"object.company_id.name or ''\">My Company (San Francisco)</b><br/>\n"
@@ -324,6 +489,27 @@ msgid ""
 "                </t>\n"
 "                <t t-if=\"object.company_id.website\">\n"
 "                    | <a t-attf-href=\"'%s' % {{ object.company_id.website }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.website or ''\">http://www.example.com</a>\n"
+=======
+"        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; "
+"font-size:11px;\">\n"
+"            <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
+"            <b t-out=\"object.company_id.name or ''\">My Company (San "
+"Francisco)</b><br/>\n"
+"            <div style=\"color: #999999;\">\n"
+"                <t t-out=\"object.company_id.phone or ''\">+1 650-123-4567</"
+"t>\n"
+"                <t t-if=\"object.company_id.email\">\n"
+"                    | <a t-attf-href=\"'mailto:%s' % "
+"{{ object.company_id.email }}\" style=\"text-decoration:none; color: "
+"#999999;\" t-out=\"object.company_id.email or ''\">info@yourcompany.com</a>\n"
+"                </t>\n"
+"                <t t-if=\"object.company_id.website\">\n"
+"                    | <a t-attf-href=\"'%s' % {{ object.company_id.website }}"
+"\" style=\"text-decoration:none; color: #999999;\" t-"
+"out=\"object.company_id.website or ''\">http://www.example.com</a>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "            </div>\n"
 "        </td>\n"
@@ -333,17 +519,33 @@ msgid ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+=======
+"    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?"
+"utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+>>>>>>> upstream/18.0
 "</td></tr>\n"
 "</table>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 24px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
+"16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
+"color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
+"align=\"center\">\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"padding: 24px; background-color: white; color: #454748; border-"
+"collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "<tbody>\n"
 "    <!--ส่วนหัว -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: white; padding: 0; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">ลูกค้าเป้าหมาย/โอกาสของคุณ</span><br/>\n"
@@ -353,6 +555,25 @@ msgstr ""
 "                </td></tr>\n"
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;\"/>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"100%\" style=\"background-color: white; padding: 0; border-"
+"collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <span style=\"font-size: 10px;\">ลูกค้าเป้าหมาย/โอกาสของคุณ</"
+"span><br/>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-"
+"out=\"object.name or ''\">สนใจในสินค้าของคุณ</span>\n"
+"                </td><td valign=\"middle\" align=\"right\">\n"
+"                    <img t-attf-src=\"/logo.png?"
+"company={{ object.company_id.id }}\" style=\"padding: 0px; margin: 0px; "
+"height: 48px;\" t-att-alt=\"object.company_id.name\"/>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                    <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -360,6 +581,7 @@ msgstr ""
 "    <!-- เนื้อหา -->\n"
 "    <tr>\n"
 "        <td style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr>\n"
 "                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
@@ -376,6 +598,36 @@ msgstr ""
 "                            </t>\n"
 "                            <t t-else=\"\">\n"
 "                                <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"590\" style=\"min-width: 590px; background-color: white; padding: "
+"0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr>\n"
+"                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                        <div>\n"
+"                            สวัสดี <t t-out=\"object.partner_id and "
+"object.partner_id.name or ''\">Deco Addict</t> <br/><br/>\n"
+"                            ยินดีต้อนรับสู่ <t t-out=\"object.company_id.name or "
+"''\">My Company (San Francisco)</t>.\n"
+"                            ยินดีที่ได้รู้จัก! เมื่อคุณพร้อมแล้ว คุณจะค้นพบว่า <t t-"
+"out=\"object.company_id.name or ''\">My Company (San Francisco)</t> "
+"มีข้อเสนอให้และฉันชื่อ <t t-out=\"object.user_id.name or ''\">Marc Demo</t> "
+"และฉันจะช่วยให้คุณได้รับประโยชน์สูงสุดจาก Odoo เราสามารถวางแผนการสาธิตอย่างรวดเร็วในเร็วๆ "
+"นี้ได้หรือไม่?<br/>\n"
+"                            อย่าลังเลที่จะติดต่อได้ตลอดเวลา!<br/><br/>\n"
+"                            ขอแสดงความนับถือ<br/>\n"
+"                            <t t-if=\"object.user_id\">\n"
+"                                <b><t t-out=\"object.user_id.name or "
+"''\">Marc Demo</t></b>\n"
+"                                <br/>อีเมล: <t t-out=\"object.user_id.email "
+"or ''\">mark.brown23@example.com</t>\n"
+"                                <br/>โทรศัพท์: <t t-out=\"object.user_id.phone "
+"or ''\">+1 650-123-4567</t>\n"
+"                            </t>\n"
+"                            <t t-else=\"\">\n"
+"                                <t t-out=\"object.company_id.name or ''\">My "
+"Company (San Francisco)</t>\n"
+>>>>>>> upstream/18.0
 "                            </t>\n"
 "                        </div>\n"
 "                    </td>\n"
@@ -385,6 +637,7 @@ msgstr ""
 "    </tr>\n"
 "    <!-- ส่วนท้าย -->\n"
 "    <tr>\n"
+<<<<<<< HEAD
 "        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
 "            <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
 "            <b t-out=\"object.company_id.name or ''\">My Company (San Francisco)</b><br/>\n"
@@ -395,6 +648,27 @@ msgstr ""
 "                </t>\n"
 "                <t t-if=\"object.company_id.website\">\n"
 "                    | <a t-attf-href=\"'%s' % {{ object.company_id.website }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.website or ''\">http://www.example.com</a>\n"
+=======
+"        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; "
+"font-size:11px;\">\n"
+"            <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
+"            <b t-out=\"object.company_id.name or ''\">My Company (San "
+"Francisco)</b><br/>\n"
+"            <div style=\"color: #999999;\">\n"
+"                <t t-out=\"object.company_id.phone or ''\">+1 650-123-4567</"
+"t>\n"
+"                <t t-if=\"object.company_id.email\">\n"
+"                    | <a t-attf-href=\"'mailto:%s' % "
+"{{ object.company_id.email }}\" style=\"text-decoration:none; color: "
+"#999999;\" t-out=\"object.company_id.email or ''\">info@yourcompany.com</a>\n"
+"                </t>\n"
+"                <t t-if=\"object.company_id.website\">\n"
+"                    | <a t-attf-href=\"'%s' % {{ object.company_id.website }}"
+"\" style=\"text-decoration:none; color: #999999;\" t-"
+"out=\"object.company_id.website or ''\">http://www.example.com</a>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "            </div>\n"
 "        </td>\n"
@@ -404,7 +678,12 @@ msgstr ""
 "</td></tr>\n"
 "<!-- สนับสนุนโดย -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "    สนับสนุนโดย <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+=======
+"    สนับสนุนโดย <a target=\"_blank\" href=\"https://www.odoo.com?"
+"utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+>>>>>>> upstream/18.0
 "</td></tr>\n"
 "</table>\n"
 "        "
@@ -415,20 +694,33 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
+<<<<<<< HEAD
 "พจนานุกรม Python "
 "ที่จะถูกประเมินเพื่อให้เป็นค่าเริ่มต้นเมื่อสร้างการบันทึกใหม่สำหรับนามแฝงนี้"
+=======
+"พจนานุกรม Python ที่จะถูกประเมินเพื่อให้เป็นค่าเริ่มต้นเมื่อสร้างการบันทึกใหม่สำหรับนามแฝงนี้"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_3
 msgid ""
 "A great tip to boost sales efficiency is to always define a next step on "
 "each opportunity. To manage ongoing activities, click on any status of the "
+<<<<<<< HEAD
 "progress bar to filter opportunities based on their next activities' status."
 " Click on the grey area of the progress bar to see all opportunities that "
 "have no next activity."
 msgstr ""
 "เคล็ดลับที่ดีในการเพิ่มประสิทธิภาพการขายคือการกำหนดขั้นตอนต่อไปในแต่ละโอกาสเสมอ"
 " ในการจัดการกิจกรรมที่กำลังดำเนินอยู่ ให้คลิกที่สถานะ "
+=======
+"progress bar to filter opportunities based on their next activities' status. "
+"Click on the grey area of the progress bar to see all opportunities that "
+"have no next activity."
+msgstr ""
+"เคล็ดลับที่ดีในการเพิ่มประสิทธิภาพการขายคือการกำหนดขั้นตอนต่อไปในแต่ละโอกาสเสมอ "
+"ในการจัดการกิจกรรมที่กำลังดำเนินอยู่ ให้คลิกที่สถานะ "
+>>>>>>> upstream/18.0
 "ของแถบความคืบหน้าเพื่อกรองโอกาสทางการขายตามสถานะของกิจกรรมถัดไป "
 "คลิกที่พื้นที่สีเทาของแถบความคืบหน้าเพื่อดูโอกาสทั้งหมดที่ไม่มีกิจกรรมถัดไป"
 
@@ -551,7 +843,12 @@ msgstr "กิจกรรมโดย"
 #: model_terms:ir.actions.act_window,help:crm.mail_activity_plan_action_lead
 msgid ""
 "Activity plans are used to assign a list of activities in just a few clicks\n"
+<<<<<<< HEAD
 "                    (e.g. \"Demo Preparation Process\", \"Qualification\", ...)"
+=======
+"                    (e.g. \"Demo Preparation Process\", "
+"\"Qualification\", ...)"
+>>>>>>> upstream/18.0
 msgstr ""
 "แผนกิจกรรมใช้เพื่อกำหนดรายการกิจกรรมด้วยการคลิกเพียงไม่กี่ครั้ง\n"
 "                    (เช่น \"ขั้นตอนการเตรียมการสาธิต\", \"คุณสมบัติ\" ...)"
@@ -577,8 +874,12 @@ msgstr "เพิ่มต่อไป%s"
 msgid ""
 "Additional filter domain when fetching unassigned leads to allocate to the "
 "team."
+<<<<<<< HEAD
 msgstr ""
 "โดเมนตัวกรองเพิ่มเติมเมื่อดึงลูกค้าเป้าหมายที่ยังไม่ได้มอบหมายเพื่อจัดสรรให้กับทีม"
+=======
+msgstr "โดเมนตัวกรองเพิ่มเติมเมื่อดึงลูกค้าเป้าหมายที่ยังไม่ได้มอบหมายเพื่อจัดสรรให้กับทีม"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -666,21 +967,43 @@ msgstr "เก็บถาวรแล้ว"
 #. odoo-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
+<<<<<<< HEAD
 "As you are a member of no Sales Team, you are showed the Pipeline of the <b>first team by default.</b>\n"
 "                                        To work with the CRM, you should <a name=\"%d\" type=\"action\" tabindex=\"-1\">join a team.</a>"
 msgstr ""
 "เนื่องจากคุณไม่ใช่สมาชิกของทีมขาย ระบบจะแสดงไปป์ไลน์ของ <b>ทีมแรกตามค่าเริ่มต้น</b>\n"
 "                                        หากต้องการทำงานร่วมกับ CRM คุณควร<a name=\"%d\" type=\"action\" tabindex=\"-1\">เข้าร่วมทีม</a>ก่อน"
+=======
+"As you are a member of no Sales Team, you are showed the Pipeline of the "
+"<b>first team by default.</b>\n"
+"                                        To work with the CRM, you should <a "
+"name=\"%d\" type=\"action\" tabindex=\"-1\">join a team.</a>"
+msgstr ""
+"เนื่องจากคุณไม่ใช่สมาชิกของทีมขาย ระบบจะแสดงไปป์ไลน์ของ <b>ทีมแรกตามค่าเริ่มต้น</b>\n"
+"                                        หากต้องการทำงานร่วมกับ CRM คุณควร<a "
+"name=\"%d\" type=\"action\" tabindex=\"-1\">เข้าร่วมทีม</a>ก่อน"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
+<<<<<<< HEAD
 "As you are a member of no Sales Team, you are showed the Pipeline of the <b>first team by default.</b>\n"
 "                                        To work with the CRM, you should join a team."
 msgstr ""
 "เนื่องจากคุณไม่ใช่สมาชิกของทีมขาย ระบบจะแสดงไปป์ไลน์ของ <b>ทีมแรกตามค่าเริ่มต้น</b>\n"
 "                                        หากต้องการทำงานร่วมกับ CRM คุณควรเข้าร่วมทีมก่อน"
+=======
+"As you are a member of no Sales Team, you are showed the Pipeline of the "
+"<b>first team by default.</b>\n"
+"                                        To work with the CRM, you should "
+"join a team."
+msgstr ""
+"เนื่องจากคุณไม่ใช่สมาชิกของทีมขาย ระบบจะแสดงไปป์ไลน์ของ <b>ทีมแรกตามค่าเริ่มต้น</b>\n"
+"                                        หากต้องการทำงานร่วมกับ CRM "
+"คุณควรเข้าร่วมทีมก่อน"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
@@ -871,16 +1194,24 @@ msgstr "ช่อง"
 msgid ""
 "Check the Stage Tracker of Leads to identify bottlenecks in your Sales "
 "process."
+<<<<<<< HEAD
 msgstr ""
 "ตรวจสอบเครื่องมือติดตามระยะของลูกค้าเป้าหมายเพื่อระบุปัญหาคอขวดในกระบวนการขายของคุณ"
+=======
+msgstr "ตรวจสอบเครื่องมือติดตามระยะของลูกค้าเป้าหมายเพื่อระบุปัญหาคอขวดในกระบวนการขายของคุณ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__use_leads
 msgid ""
 "Check this box to filter and qualify incoming requests as leads before "
 "converting them into opportunities and assigning them to a salesperson."
+<<<<<<< HEAD
 msgstr ""
 "เลือกช่องนี้เพื่อกรองและคัดเลือกคำขอที่เข้ามาในฐานะลูกค้าเป้าหมายก่อนที่จะแปลงเป็นโอกาสทางการขายและมอบหมายให้กับพนักงานขาย"
+=======
+msgstr "เลือกช่องนี้เพื่อกรองและคัดเลือกคำขอที่เข้ามาในฐานะลูกค้าเป้าหมายก่อนที่จะแปลงเป็นโอกาสทางการขายและมอบหมายให้กับพนักงานขาย"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__use_opportunities
@@ -900,8 +1231,12 @@ msgstr "เมือง"
 #: model:ir.model.fields,help:crm.field_crm_activity_report__tag_ids
 #: model:ir.model.fields,help:crm.field_crm_lead__tag_ids
 msgid ""
+<<<<<<< HEAD
 "Classify and analyze your lead/opportunity categories like: Training, "
 "Service"
+=======
+"Classify and analyze your lead/opportunity categories like: Training, Service"
+>>>>>>> upstream/18.0
 msgstr "จำแนกและวิเคราะห์ประเภทลูกค้าเป้าหมาย/โอกาส เช่น การฝึกอบรม บริการ"
 
 #. module: crm
@@ -911,8 +1246,12 @@ msgid ""
 "Click on the breadcrumb to go back to your Pipeline. Odoo will save all "
 "modifications as you navigate."
 msgstr ""
+<<<<<<< HEAD
 "คลิกที่ breadcrumb เพื่อกลับไปที่ไปป์ไลน์ของคุณ Odoo "
 "จะบันทึกการแก้ไขทั้งหมดในขณะที่คุณนำทาง"
+=======
+"คลิกที่ breadcrumb เพื่อกลับไปที่ไปป์ไลน์ของคุณ Odoo จะบันทึกการแก้ไขทั้งหมดในขณะที่คุณนำทาง"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__date_closed
@@ -1084,8 +1423,12 @@ msgid ""
 "Convert visitors of your website into leads and perform data enrichment "
 "based on their IP address"
 msgstr ""
+<<<<<<< HEAD
 "แปลงผู้เยี่ยมชมเว็บไซต์ของคุณเป็นลูกค้าเป้าหมายและดำเนินการปรับปรุงข้อมูลตามที่อยู่"
 " IP ของพวกเขา"
+=======
+"แปลงผู้เยี่ยมชมเว็บไซต์ของคุณเป็นลูกค้าเป้าหมายและดำเนินการปรับปรุงข้อมูลตามที่อยู่ IP ของพวกเขา"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__email_state__correct
@@ -1314,8 +1657,12 @@ msgstr "คุณรู้หรือไม่ว่าอีเมลที่
 msgid ""
 "Did you know emails sent to a Sales Team alias generate opportunities in "
 "your pipeline?"
+<<<<<<< HEAD
 msgstr ""
 "คุณรู้หรือไม่ว่าอีเมลที่ส่งไปยังนามแฝงของทีมขายสร้างโอกาสในไปป์ไลน์ของคุณ?"
+=======
+msgstr "คุณรู้หรือไม่ว่าอีเมลที่ส่งไปยังนามแฝงของทีมขายสร้างโอกาสในไปป์ไลน์ของคุณ?"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
@@ -1324,13 +1671,20 @@ msgid ""
 "fill in all its data? Odoo autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
 msgstr ""
+<<<<<<< HEAD
 "คุณรู้หรือไม่ว่าคุณสามารถค้นหาบริษัทด้วยชื่อหรือหมายเลขภาษีเพิ่มเพื่อกรอกข้อมูลทั้งหมดของบริษัทได้ทันที?"
 " Odoo เติมข้อมูลทุกอย่างให้คุณโดยอัตโนมัติ: โลโก้ ที่อยู่ ขนาดบริษัท "
 "ข้อมูลธุรกิจ บัญชีโซเชียลมีเดีย และอื่น ๆ "
+=======
+"คุณรู้หรือไม่ว่าคุณสามารถค้นหาบริษัทด้วยชื่อหรือหมายเลขภาษีเพิ่มเพื่อกรอกข้อมูลทั้งหมดของบริษัทได้ทันที? "
+"Odoo เติมข้อมูลทุกอย่างให้คุณโดยอัตโนมัติ: โลโก้ ที่อยู่ ขนาดบริษัท ข้อมูลธุรกิจ บัญชีโซเชียลมีเดีย "
+"และอื่น ๆ "
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
 msgid ""
+<<<<<<< HEAD
 "Did you know you can turn a list of opportunities into a map view, using the"
 " top-right map icon? A lot of screens in Odoo can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
@@ -1338,6 +1692,15 @@ msgstr ""
 "คุณรู้หรือไม่ว่าคุณสามารถเปลี่ยนรายการโอกาสเป็นมุมมองแผนที่ได้โดยใช้ไอคอนแผนที่ด้านบนขวา"
 " หน้าจอส่วนมากใน Odoo สามารถเปลี่ยนเป็นมุมมองแผนที่ได้ เช่น งาน "
 "รายชื่อติดต่อ ใบสั่งจัดส่ง และอื่น ๆ "
+=======
+"Did you know you can turn a list of opportunities into a map view, using the "
+"top-right map icon? A lot of screens in Odoo can be turned into a map: "
+"tasks, contacts, delivery orders, etc."
+msgstr ""
+"คุณรู้หรือไม่ว่าคุณสามารถเปลี่ยนรายการโอกาสเป็นมุมมองแผนที่ได้โดยใช้ไอคอนแผนที่ด้านบนขวา "
+"หน้าจอส่วนมากใน Odoo สามารถเปลี่ยนเป็นมุมมองแผนที่ได้ เช่น งาน รายชื่อติดต่อ ใบสั่งจัดส่ง "
+"และอื่น ๆ "
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model,name:crm.model_digest_digest
@@ -1382,8 +1745,12 @@ msgstr "โดเมน"
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Drag your opportunity to <b>Won</b> when you get the deal. Congrats!"
+<<<<<<< HEAD
 msgstr ""
 "ลากโอกาสไปที่ <b>สำเร็จ</b> เมื่อคุณได้รับข้อตกลง ขอแสดงความยินดีด้วย!"
+=======
+msgstr "ลากโอกาสไปที่ <b>สำเร็จ</b> เมื่อคุณได้รับข้อตกลง ขอแสดงความยินดีด้วย!"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
@@ -1470,8 +1837,12 @@ msgstr "เพิ่มลูกค้าเป้าหมายตามคว
 msgid ""
 "Enrich your leads automatically with company data based on their email "
 "address."
+<<<<<<< HEAD
 msgstr ""
 "เพิ่มลูกค้าเป้าหมายของคุณโดยอัตโนมัติด้วยข้อมูลบริษัทตามที่อยู่อีเมลของพวกเขา"
+=======
+msgstr "เพิ่มลูกค้าเป้าหมายของคุณโดยอัตโนมัติด้วยข้อมูลบริษัทตามที่อยู่อีเมลของพวกเขา"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -1564,8 +1935,12 @@ msgstr "ป้ายฟิลด์"
 msgid ""
 "Field used to store sanitized phone number. Helps speeding up searches and "
 "comparisons."
+<<<<<<< HEAD
 msgstr ""
 "ช่องที่ใช้เก็บหมายเลขโทรศัพท์ที่ถูกต้อง ช่วยเร่งการค้นหาและเปรียบเทียบ"
+=======
+msgstr "ช่องที่ใช้เก็บหมายเลขโทรศัพท์ที่ถูกต้อง ช่วยเร่งการค้นหาและเปรียบเทียบ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_scoring_frequency_field
@@ -1603,6 +1978,7 @@ msgid ""
 "For a sales team, there is nothing worse than being dry on leads. "
 "Fortunately, in just a few clicks, you can generate leads specifically "
 "targeted to your needs: company size, industry, etc. To help you test the "
+<<<<<<< HEAD
 "feature, we offer you 200 credits for free."
 msgstr ""
 "สำหรับทีมขาย ไม่มีอะไรเลวร้ายไปกว่าการไม่มีลูกค้าเป้าหมาย "
@@ -1610,6 +1986,10 @@ msgstr ""
 "คุณสามารถสร้างลูกค้าเป้าหมายที่ตรงตามความต้องการของคุณ เช่น ขนาดบริษัท "
 "อุตสาหกรรมและอื่น ๆ  เพื่อช่วยคุณทดลองฟีเจอร์นี้ เราขอเสนอ 200 "
 "เครดิตให้คุณฟรี"
+=======
+"feature, we offer you 20 credits for free."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner__force_assignment
@@ -1715,10 +2095,16 @@ msgstr "ไอดี"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_parent_thread_id
 msgid ""
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr ""
 "ไอดีของบันทึกหลักที่มีนามแฝง (ตัวอย่าง: โปรเจ็กต์ที่มีนามแฝงในการสร้างงาน)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+msgstr "ไอดีของบันทึกหลักที่มีนามแฝง (ตัวอย่าง: โปรเจ็กต์ที่มีนามแฝงในการสร้างงาน)"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_exception_icon
@@ -1736,9 +2122,13 @@ msgstr "ไอคอนเพื่อระบุการยกเว้นก
 msgid ""
 "If checked, forces salesman to be updated on updated opportunities even if "
 "already set."
+<<<<<<< HEAD
 msgstr ""
 "หากเลือก จะบังคับให้พนักงานขายอัปเดตโอกาสทางการขายที่อัปเดต "
 "แม้ว่าจะตั้งค่าไว้แล้วก็ตาม"
+=======
+msgstr "หากเลือก จะบังคับให้พนักงานขายอัปเดตโอกาสทางการขายที่อัปเดต แม้ว่าจะตั้งค่าไว้แล้วก็ตาม"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__message_needaction
@@ -1756,9 +2146,13 @@ msgstr "ถ้าเลือก ข้อความบางข้อคว�
 msgid ""
 "If set, this content will automatically be sent out to unauthorized users "
 "instead of the default message."
+<<<<<<< HEAD
 msgstr ""
 "หากตั้งค่าไว้ "
 "เนื้อหานี้จะถูกส่งไปยังผู้ใช้ที่ไม่ได้รับอนุญาตโดยอัตโนมัติแทนข้อความเริ่มต้น"
+=======
+msgstr "หากตั้งค่าไว้ เนื้อหานี้จะถูกส่งไปยังผู้ใช้ที่ไม่ได้รับอนุญาตโดยอัตโนมัติแทนข้อความเริ่มต้น"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__is_blacklisted
@@ -1766,18 +2160,30 @@ msgstr ""
 msgid ""
 "If the email address is on the blacklist, the contact won't receive mass "
 "mailing anymore, from any list"
+<<<<<<< HEAD
 msgstr ""
 "หากที่อยู่อีเมลมีอยู่ในบัญชีดำ ผู้ติดต่อจะไม่ได้รับเมลกลุ่มอีกต่อไป "
 "จากรายการใด ๆ"
+=======
+msgstr "หากที่อยู่อีเมลมีอยู่ในบัญชีดำ ผู้ติดต่อจะไม่ได้รับเมลกลุ่มอีกต่อไป จากรายการใด ๆ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
 msgstr ""
 "หากหมายเลขโทรศัพท์ที่ถูกต้องอยู่ในบัญชีดำ ผู้ติดต่อจะไม่ได้รับ SMS "
 "ทางเมลกลุ่มจากรายการใด ๆ อีกต่อไป"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+msgstr ""
+"หากหมายเลขโทรศัพท์ที่ถูกต้องอยู่ในบัญชีดำ ผู้ติดต่อจะไม่ได้รับ SMS ทางเมลกลุ่มจากรายการใด ๆ "
+"อีกต่อไป"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.menu_import_crm
@@ -1830,8 +2236,12 @@ msgstr "บันทึกย่อภายใน"
 #: model:ir.model.fields,help:crm.field_res_config_settings__crm_auto_assignment_interval_type
 msgid "Interval type between each cron run (e.g. each 2 days or each 2 hours)"
 msgstr ""
+<<<<<<< HEAD
 "ประเภทช่วงเวลาระหว่างการดำเนินการ cron แต่ละครั้ง (เช่น ทุก ๆ 2 วัน หรือทุก "
 "ๆ 2 ชั่วโมง)"
+=======
+"ประเภทช่วงเวลาระหว่างการดำเนินการ cron แต่ละครั้ง (เช่น ทุก ๆ 2 วัน หรือทุก ๆ 2 ชั่วโมง)"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
@@ -1839,9 +2249,13 @@ msgstr ""
 msgid ""
 "Invalid repeat frequency. Consider changing frequency type instead of using "
 "large numbers."
+<<<<<<< HEAD
 msgstr ""
 "ความถี่การทำซ้ำไม่ถูกต้อง "
 "พิจารณาการเปลี่ยนประเภทความถี่แทนที่จะใช้ตัวเลขจำนวนมาก"
+=======
+msgstr "ความถี่การทำซ้ำไม่ถูกต้อง พิจารณาการเปลี่ยนประเภทความถี่แทนที่จะใช้ตัวเลขจำนวนมาก"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_is_follower
@@ -2045,8 +2459,12 @@ msgstr "แท็กของลูกค้าเป้าหมาย"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_member__lead_day_count
 msgid "Lead assigned to this member this last day (lost one excluded)"
+<<<<<<< HEAD
 msgstr ""
 "ลูกค้าเป้าหมายที่กำหนดให้กับสมาชิกรายนี้ในวันสุดท้าย (ไม่รวมอันที่หายไป)"
+=======
+msgstr "ลูกค้าเป้าหมายที่กำหนดให้กับสมาชิกรายนี้ในวันสุดท้าย (ไม่รวมอันที่หายไป)"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_member__lead_month_count
@@ -2065,8 +2483,12 @@ msgstr "ลูกค้าเป้าหมายหรือโอกาส"
 msgid ""
 "Lead/Opportunities automatic assignment is limited to managers or "
 "administrators"
+<<<<<<< HEAD
 msgstr ""
 "การมอบหมายลูกค้าเป้าหมาย/โอกาสอัตโนมัติจำกัดเฉพาะผู้จัดการหรือผู้ดูแลระบบเท่านั้น"
+=======
+msgstr "การมอบหมายลูกค้าเป้าหมาย/โอกาสอัตโนมัติจำกัดเฉพาะผู้จัดการหรือผู้ดูแลระบบเท่านั้น"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead
@@ -2122,10 +2544,16 @@ msgid ""
 "the treatment delays or number of leads per state. You can sort out your "
 "leads analysis by different groups to get accurate grained analysis."
 msgstr ""
+<<<<<<< HEAD
 "การวิเคราะห์ลูกค้าเป้าหมายช่วยให้คุณตรวจสอบข้อมูลที่เกี่ยวข้องกับ CRM ต่าง ๆ"
 " เช่น ความล่าช้าในการรักษาหรือจำนวนลูกค้าเป้าหมายต่อรัฐ "
 "คุณสามารถจัดเรียงการวิเคราะห์ลูกค้าเป้าหมายตามกลุ่มต่าง ๆ "
 "เพื่อรับการวิเคราะห์ที่ละเอียดแม่นยำ"
+=======
+"การวิเคราะห์ลูกค้าเป้าหมายช่วยให้คุณตรวจสอบข้อมูลที่เกี่ยวข้องกับ CRM ต่าง ๆ เช่น "
+"ความล่าช้าในการรักษาหรือจำนวนลูกค้าเป้าหมายต่อรัฐ "
+"คุณสามารถจัดเรียงการวิเคราะห์ลูกค้าเป้าหมายตามกลุ่มต่าง ๆ เพื่อรับการวิเคราะห์ที่ละเอียดแม่นยำ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
@@ -2145,8 +2573,12 @@ msgstr "การสร้างลูกค้าเป้าหมาย"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_all_leads
+<<<<<<< HEAD
 msgid ""
 "Leads are the qualification step before the creation of an opportunity."
+=======
+msgid "Leads are the qualification step before the creation of an opportunity."
+>>>>>>> upstream/18.0
 msgstr "ลูกค้าเป้าหมายคือขั้นตอนคุณสมบัติก่อนการสร้างโอกาสทางการขาย"
 
 #. module: crm
@@ -2167,11 +2599,17 @@ msgstr "ลูกค้าเป้าหมายที่ไม่ได้ร
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid ""
+<<<<<<< HEAD
 "Leads that you selected that have duplicates. If the list is empty, it means"
 " that no duplicates were found"
 msgstr ""
 "ลูกค้าเป้าหมายที่คุณเลือกซึ่งมีรายการที่ซ้ำกัน "
 "หากรายการว่างเปล่าแสดงว่าไม่พบรายการซ้ำ"
+=======
+"Leads that you selected that have duplicates. If the list is empty, it means "
+"that no duplicates were found"
+msgstr "ลูกค้าเป้าหมายที่คุณเลือกซึ่งมีรายการที่ซ้ำกัน หากรายการว่างเปล่าแสดงว่าไม่พบรายการซ้ำ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
@@ -2215,12 +2653,20 @@ msgstr "เชื่อมโยงกับลูกค้าที่มีอ
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__partner_id
 msgid ""
+<<<<<<< HEAD
 "Linked partner (optional). Usually created when converting the lead. You can"
 " find a partner by its Name, TIN, Email or Internal Reference."
 msgstr ""
 "พาร์ทเนอร์ที่เชื่อมโยง (ไม่บังคับ) มักจะสร้างขึ้นเมื่อแปลงลูกค้าเป้าหมาย "
 "คุณสามารถค้นหาพาร์ทเนอร์ตามชื่อ หมายเลขประจำตัวของผู้เสียภาษี "
 "อีเมลหรือข้อมูลอ้างอิงภายใน"
+=======
+"Linked partner (optional). Usually created when converting the lead. You can "
+"find a partner by its Name, TIN, Email or Internal Reference."
+msgstr ""
+"พาร์ทเนอร์ที่เชื่อมโยง (ไม่บังคับ) มักจะสร้างขึ้นเมื่อแปลงลูกค้าเป้าหมาย "
+"คุณสามารถค้นหาพาร์ทเนอร์ตามชื่อ หมายเลขประจำตัวของผู้เสียภาษี อีเมลหรือข้อมูลอ้างอิงภายใน"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_incoming_local
@@ -2241,8 +2687,13 @@ msgstr "ดูเหมือนไม่มีการวางแผน"
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid ""
+<<<<<<< HEAD
 "Looks like nothing is planned. :(<br><br><i>Tip: Schedule activities to keep"
 " track of everything you have to do!</i>"
+=======
+"Looks like nothing is planned. :(<br><br><i>Tip: Schedule activities to keep "
+"track of everything you have to do!</i>"
+>>>>>>> upstream/18.0
 msgstr ""
 "ดูเหมือนว่าไม่มีการวางแผน : (<br><br><i>เคล็ดลับ: "
 "กำหนดเวลากิจกรรมเพื่อติดตามทุกสิ่งที่คุณต้องทำ!</i>)"
@@ -2308,8 +2759,13 @@ msgid ""
 "Make and receive calls from Odoo with Ringover's dialer. Track calls, SMS "
 "messages, and get AI-powered transcripts of your conversations."
 msgstr ""
+<<<<<<< HEAD
 "โทรออกและรับสายจาก Odoo ด้วยโปรแกรมโทรออกของ Ringover ติดตามการโทร ข้อความ "
 "SMS และรับบทสนทนาที่ขับเคลื่อนด้วย AI"
+=======
+"โทรออกและรับสายจาก Odoo ด้วยโปรแกรมโทรออกของ Ringover ติดตามการโทร ข้อความ SMS "
+"และรับบทสนทนาที่ขับเคลื่อนด้วย AI"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -2323,8 +2779,13 @@ msgid ""
 "action button. Automatic configures a cron running repeatedly assignment in "
 "all teams."
 msgstr ""
+<<<<<<< HEAD
 "การมอบหมายด้วยตนเองทำให้สามารถทริกเกอร์การมอบหมายจากมุมมองแบบฟอร์มของทีมโดยใช้ปุ่มการดำเนินการ"
 " กำหนดค่าอัตโนมัติของ cron ที่ทำงานซ้ำ ๆ ในทุกทีม"
+=======
+"การมอบหมายด้วยตนเองทำให้สามารถทริกเกอร์การมอบหมายจากมุมมองแบบฟอร์มของทีมโดยใช้ปุ่มการดำเนินการ "
+"กำหนดค่าอัตโนมัติของ cron ที่ทำงานซ้ำ ๆ ในทุกทีม"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_action__manual
@@ -2411,9 +2872,13 @@ msgstr "การประชุม"
 msgid ""
 "Member assignment domain for user %(user)s and team %(team)s is incorrectly "
 "formatted"
+<<<<<<< HEAD
 msgstr ""
 "โดเมนการมอบหมายสมาชิกสำหรับผู้ใช้ %(user)s และทีม "
 "%(team)sอยู่ในรูปแบบที่ไม่ถูกต้อง"
+=======
+msgstr "โดเมนการมอบหมายสมาชิกสำหรับผู้ใช้ %(user)s และทีม %(team)sอยู่ในรูปแบบที่ไม่ถูกต้อง"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_merge_opportunities
@@ -2476,8 +2941,12 @@ msgstr "รายเดือน"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__assignment_max
 msgid "Monthly average leads capacity for all salesmen belonging to the team"
+<<<<<<< HEAD
 msgstr ""
 "ความสามารถลูกค้าเป้าหมายโดยเฉลี่ยรายเดือนสำหรับพนักงานขายทุกคนที่อยู่ในทีม"
+=======
+msgstr "ความสามารถลูกค้าเป้าหมายโดยเฉลี่ยรายเดือนสำหรับพนักงานขายทุกคนที่อยู่ในทีม"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__is_membership_multi
@@ -2616,8 +3085,12 @@ msgid ""
 "Salespersons configuration as well as unassigned leads."
 msgstr ""
 "ไม่มีการจัดสรรลูกค้าเป้าหมายให้กับทีมหรือพนักงานขาย "
+<<<<<<< HEAD
 "ตรวจสอบการกำหนดค่าทีมขายและพนักงานขายของคุณ "
 "ตลอดจนลูกค้าเป้าหมายที่ไม่ได้รับมอบหมาย"
+=======
+"ตรวจสอบการกำหนดค่าทีมขายและพนักงานขายของคุณ ตลอดจนลูกค้าเป้าหมายที่ไม่ได้รับมอบหมาย"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_opportunity_report_action
@@ -2631,8 +3104,12 @@ msgstr "ไม่พบข้อมูล!"
 msgid ""
 "No lead assigned to salespersons because no unassigned lead matches their "
 "domains."
+<<<<<<< HEAD
 msgstr ""
 "ไม่มีการมอบหมายลูกค้าเป้าหมายให้กับพนักงานขายเนื่องจากไม่มีลูกค้าเป้าหมายที่ไม่ได้มอบหมายที่ตรงกับโดเมนของพวกเขา"
+=======
+msgstr "ไม่มีการมอบหมายลูกค้าเป้าหมายให้กับพนักงานขายเนื่องจากไม่มีลูกค้าเป้าหมายที่ไม่ได้มอบหมายที่ตรงกับโดเมนของพวกเขา"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
@@ -2641,16 +3118,26 @@ msgid ""
 "No new lead allocated to %(team_name)s team because no unassigned lead "
 "matches its domain."
 msgstr ""
+<<<<<<< HEAD
 "ไม่มีการจัดสรรโอกาสในการขายใหม่ให้กับ "
 "%(team_name)sทีมเนื่องจากไม่มีลูกค้าเป้าหมายที่ไม่ได้มอบหมายตรงกับโดเมน"
+=======
+"ไม่มีการจัดสรรโอกาสในการขายใหม่ให้กับ %"
+"(team_name)sทีมเนื่องจากไม่มีลูกค้าเป้าหมายที่ไม่ได้มอบหมายตรงกับโดเมน"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_team.py:0
+<<<<<<< HEAD
 msgid ""
 "No new lead allocated to the teams because no lead match their domains."
 msgstr ""
 "ไม่มีการจัดสรรลูกค้าเป้าหมายใหม่ให้กับทีมเนื่องจากไม่มีลูกค้าเป้าหมายที่ตรงกับโดเมนของพวกเขา"
+=======
+msgid "No new lead allocated to the teams because no lead match their domains."
+msgstr "ไม่มีการจัดสรรลูกค้าเป้าหมายใหม่ให้กับทีมเนื่องจากไม่มีลูกค้าเป้าหมายที่ตรงกับโดเมนของพวกเขา"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_action_forecast
@@ -2704,8 +3191,12 @@ msgid ""
 "Number of interval type between each cron run (e.g. each 2 days or each 4 "
 "days)"
 msgstr ""
+<<<<<<< HEAD
 "จำนวนประเภทช่วงเวลาระหว่างการดำเนินการ cron แต่ละครั้ง (เช่น ทุก ๆ 2 "
 "วันหรือทุก ๆ 4 วัน)"
+=======
+"จำนวนประเภทช่วงเวลาระหว่างการดำเนินการ cron แต่ละครั้ง (เช่น ทุก ๆ 2 วันหรือทุก ๆ 4 วัน)"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__lead_all_assigned_month_count
@@ -2726,7 +3217,12 @@ msgstr "จํานวนข้อความที่มีข้อผิด
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
 "Odoo helps you keep track of your sales pipeline to follow\n"
+<<<<<<< HEAD
 "                    up potential sales and better forecast your future revenues."
+=======
+"                    up potential sales and better forecast your future "
+"revenues."
+>>>>>>> upstream/18.0
 msgstr ""
 "Odoo ช่วยให้คุณติดตามขั้นตอนการขายของคุณเพื่อติดตาม\n"
 "                    คาดการณ์ยอดขายและรายได้ในอนาคตของคุณได้ดียิ่งขึ้น"
@@ -2741,8 +3237,12 @@ msgid ""
 msgstr ""
 "เครื่องมือปัญญาประดิษฐ์ของ Odoo "
 "สามารถคาดการณ์อัตราความสำเร็จของแต่ละโอกาสตามประวัติของคุณ "
+<<<<<<< HEAD
 "คุณสามารถอัปเดตอัตราความสำเร็จด้วยตนเองได้ตลอดเวลา แต่ถ้าคุณปล่อยให้ Odoo "
 "ทำงาน "
+=======
+"คุณสามารถอัปเดตอัตราความสำเร็จด้วยตนเองได้ตลอดเวลา แต่ถ้าคุณปล่อยให้ Odoo ทำงาน "
+>>>>>>> upstream/18.0
 "คะแนนจะได้รับการอัปเดตในขณะที่โอกาสทางการขายเคลื่อนไปข้างหน้าในวงจรการขายของคุณ"
 
 #. module: crm
@@ -2796,6 +3296,7 @@ msgid ""
 "Opportunities Analysis gives you an instant access to your opportunities "
 "with information such as the expected revenue, planned cost, missed "
 "deadlines or the number of interactions per opportunity. This report is "
+<<<<<<< HEAD
 "mainly used by the sales manager in order to do the periodic review with the"
 " channels of the sales pipeline."
 msgstr ""
@@ -2804,6 +3305,15 @@ msgstr ""
 "หรือจำนวนการโต้ตอบต่อโอกาสทางการขาย "
 "ผู้จัดการฝ่ายขายใช้รายงานนี้เป็นหลักสำหรับการตรวจสอบเฉพาะช่วงเวลากับช่องทางต่าง"
 " ๆ ของไปป์ไลน์การขาย"
+=======
+"mainly used by the sales manager in order to do the periodic review with the "
+"channels of the sales pipeline."
+msgstr ""
+"การวิเคราะห์โอกาสช่วยให้คุณเข้าถึงโอกาสทางการขายได้ทันทีด้วยข้อมูล เช่น รายได้ที่คาดหวัง "
+"ต้นทุนที่วางแผนไว้ กำหนดเวลาที่สูญเสีย หรือจำนวนการโต้ตอบต่อโอกาสทางการขาย "
+"ผู้จัดการฝ่ายขายใช้รายงานนี้เป็นหลักสำหรับการตรวจสอบเฉพาะช่วงเวลากับช่องทางต่าง ๆ "
+"ของไปป์ไลน์การขาย"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_graph_forecast
@@ -2896,9 +3406,14 @@ msgid ""
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
 msgstr ""
+<<<<<<< HEAD
 "ไอดีทางเลือกของเธรด (บันทึก) ที่จะแนบข้อความขาเข้าทั้งหมด "
 "แม้ว่าพวกเขาจะไม่ตอบกลับก็ตาม หากตั้งค่าไว้ "
 "การดำเนินการนี้จะปิดใช้งานการสร้างการบันทึกใหม่ทั้งหมด"
+=======
+"ไอดีทางเลือกของเธรด (บันทึก) ที่จะแนบข้อความขาเข้าทั้งหมด แม้ว่าพวกเขาจะไม่ตอบกลับก็ตาม "
+"หากตั้งค่าไว้ การดำเนินการนี้จะปิดใช้งานการสร้างการบันทึกใหม่ทั้งหมด"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:crm.recurring.plan,name:crm.crm_recurring_plan_over_3_years
@@ -2940,6 +3455,7 @@ msgstr "ไอดีเธรดการบันทึกหลัก"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_parent_model_id
 msgid ""
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
@@ -2947,6 +3463,14 @@ msgstr ""
 "โมเดลหลักที่ถือนามแฝง "
 "โมเดลที่มีการอ้างอิงนามแฝงไม่จำเป็นต้องเป็นโมเดลที่กำหนดโดย alias_model_id "
 "(ตัวอย่าง: project (parent_model) and task (model))"
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+"(parent_model) and task (model))"
+msgstr ""
+"โมเดลหลักที่ถือนามแฝง โมเดลที่มีการอ้างอิงนามแฝงไม่จำเป็นต้องเป็นโมเดลที่กำหนดโดย "
+"alias_model_id (ตัวอย่าง: project (parent_model) and task (model))"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__partner_email_update
@@ -3034,7 +3558,12 @@ msgid ""
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 msgstr ""
 "นโยบายการโพสต์ข้อความบนเอกสารโดยใช้เมลล์เกตเวย์\n"
 "- ทุกคน: ทุกคนโพสต์ได้\n"
@@ -3064,8 +3593,12 @@ msgstr "ป้ายการให้คะแนนลูกค้าเป้
 #. module: crm
 #: model:ir.actions.server,name:crm.website_crm_score_cron_ir_actions_server
 msgid "Predictive Lead Scoring: Recompute Automated Probabilities"
+<<<<<<< HEAD
 msgstr ""
 "การให้คะแนนลูกค้าเป้าหมายที่คาดการณ์ได้: คำนวณความน่าจะเป็นอัตโนมัติใหม่"
+=======
+msgstr "การให้คะแนนลูกค้าเป้าหมายที่คาดการณ์ได้: คำนวณความน่าจะเป็นอัตโนมัติใหม่"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__priority
@@ -3332,8 +3865,12 @@ msgstr "ค้นหาโอกาส"
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Select at least two Leads/Opportunities from the list to merge them."
+<<<<<<< HEAD
 msgstr ""
 "เลือกลูกค้าเป้าหมาย/ผู้มีโอกาสจะซื้ออย่างน้อยสองรายการจากรายการเพื่อรวมเข้าด้วยกัน"
+=======
+msgstr "เลือกลูกค้าเป้าหมาย/ผู้มีโอกาสจะซื้ออย่างน้อยสองรายการจากรายการเพื่อรวมเข้าด้วยกัน"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_lead_mail_compose
@@ -3353,8 +3890,12 @@ msgid ""
 "Set Recurring Plans on Opportunities to display the contracts' renewal "
 "periodicity<br>(e.g: Monthly, Yearly)."
 msgstr ""
+<<<<<<< HEAD
 "ตั้งค่าแผนการประจำในโอกาสเพื่อแสดงระยะเวลาการต่ออายุสัญญา<br>(เช่น รายเดือน "
 "รายปี)"
+=======
+"ตั้งค่าแผนการประจำในโอกาสเพื่อแสดงระยะเวลาการต่ออายุสัญญา<br>(เช่น รายเดือน รายปี)"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_stage_action
@@ -3580,7 +4121,12 @@ msgstr "สมาชิกทีม"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid ""
 "The contacts below have been added as followers of this lead\n"
+<<<<<<< HEAD
 "                        because they have been contacted less than 30 days ago on"
+=======
+"                        because they have been contacted less than 30 days "
+"ago on"
+>>>>>>> upstream/18.0
 msgstr ""
 "ผู้ติดต่อด้านล่างถูกเพิ่มเป็นผู้ติดตามของลูกค้าเป้าหมายนี้\n"
 "                        เนื่องจากมีการติดต่อน้อยกว่า 30 วันที่ผ่านมา"
@@ -3597,6 +4143,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_model_id
 msgid ""
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
@@ -3604,6 +4151,14 @@ msgstr ""
 "โมเดล (ชนิดเอกสาร Odoo) ซึ่งสอดคล้องกับนามแฝงนี้ "
 "อีเมลขาเข้าที่ไม่ตอบกลับบันทึกที่มีอยู่จะทำให้เกิดการสร้างบันทึกใหม่ของโมเดลนี้"
 " (เช่น โปรเจ็กต์งาน)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+msgstr ""
+"โมเดล (ชนิดเอกสาร Odoo) ซึ่งสอดคล้องกับนามแฝงนี้ "
+"อีเมลขาเข้าที่ไม่ตอบกลับบันทึกที่มีอยู่จะทำให้เกิดการสร้างบันทึกใหม่ของโมเดลนี้ (เช่น โปรเจ็กต์งาน)"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_name
@@ -3611,16 +4166,26 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
+<<<<<<< HEAD
 "ชื่อของนามแฝงอีเมล เช่น 'งาน' หากคุณต้องการรับอีเมลสำหรับ "
 "<jobs@example.odoo.com>"
+=======
+"ชื่อของนามแฝงอีเมล เช่น 'งาน' หากคุณต้องการรับอีเมลสำหรับ <jobs@example.odoo.com>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__partner_name
 msgid ""
+<<<<<<< HEAD
 "The name of the future partner company that will be created while converting"
 " the lead into opportunity"
 msgstr ""
 "ชื่อบริษัทพาร์ทเนอร์ในอนาคตที่จะถูกสร้างขึ้นในขณะที่เปลี่ยนลูกค้าเป้าหมายให้เป็นโอกาสทางการขาย"
+=======
+"The name of the future partner company that will be created while converting "
+"the lead into opportunity"
+msgstr "ชื่อบริษัทพาร์ทเนอร์ในอนาคตที่จะถูกสร้างขึ้นในขณะที่เปลี่ยนลูกค้าเป้าหมายให้เป็นโอกาสทางการขาย"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.constraint,message:crm.constraint_crm_recurring_plan_check_number_of_months
@@ -3640,11 +4205,17 @@ msgstr "อัตราความสำเร็จคำนวณโดยอ
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_pls_update_view_form
 msgid ""
+<<<<<<< HEAD
 "The success rate is computed based on the stage, but you can add more fields"
 " in the statistical analysis."
 msgstr ""
 "อัตราความสำเร็จคำนวณตามขั้นตอน แต่คุณสามารถเพิ่มฟิลด์อื่น ๆ "
 "ในการวิเคราะห์ทางสถิติได้"
+=======
+"The success rate is computed based on the stage, but you can add more fields "
+"in the statistical analysis."
+msgstr "อัตราความสำเร็จคำนวณตามขั้นตอน แต่คุณสามารถเพิ่มฟิลด์อื่น ๆ ในการวิเคราะห์ทางสถิติได้"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_opportunity_report_action_lead
@@ -3672,17 +4243,28 @@ msgstr "สามารถใช้คำนวณความน่าจะเ
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "This email is blacklisted for mass mailings. Click to unblacklist."
+<<<<<<< HEAD
 msgstr ""
 "อีเมลนี้ถูกขึ้นบัญชีดำสำหรับการส่งจดหมายจำนวนมาก คลิกเพื่อยกเลิกบัญชีดำ"
+=======
+msgstr "อีเมลนี้ถูกขึ้นบัญชีดำสำหรับการส่งจดหมายจำนวนมาก คลิกเพื่อยกเลิกบัญชีดำ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__email_normalized
 msgid ""
+<<<<<<< HEAD
 "This field is used to search on email address as the primary email field can"
 " contain more than strictly an email address."
 msgstr ""
 "ฟิลด์นี้ใช้เพื่อค้นหาที่อยู่อีเมล เนื่องจากฟิลด์อีเมลหลักสามารถใส่สิ่งอื่น ๆ"
 " มากกว่าที่อยู่อีเมลที่เคร่งครัด"
+=======
+"This field is used to search on email address as the primary email field can "
+"contain more than strictly an email address."
+msgstr ""
+"ฟิลด์นี้ใช้เพื่อค้นหาที่อยู่อีเมล เนื่องจากฟิลด์อีเมลหลักสามารถใส่สิ่งอื่น ๆ มากกว่าที่อยู่อีเมลที่เคร่งครัด"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__lang_code
@@ -3692,11 +4274,18 @@ msgstr "ฟิลด์นี้ใช้เพื่อตั้งค่า/�
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__campaign_id
 msgid ""
+<<<<<<< HEAD
 "This is a name that helps you keep track of your different campaign efforts,"
 " e.g. Fall_Drive, Christmas_Special"
 msgstr ""
 "ชื่อนี้ช่วยให้คุณติดตามความพยายามของแคมเปญต่าง ๆ เช่น Fall_Drive, "
 "Christmas_Special"
+=======
+"This is a name that helps you keep track of your different campaign efforts, "
+"e.g. Fall_Drive, Christmas_Special"
+msgstr ""
+"ชื่อนี้ช่วยให้คุณติดตามความพยายามของแคมเปญต่าง ๆ เช่น Fall_Drive, Christmas_Special"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__medium_id
@@ -3708,15 +4297,23 @@ msgstr "นี้เป็นวิธีการจัดส่งเช่น
 msgid ""
 "This is the source of the link, e.g. Search Engine, another domain, or name "
 "of email list"
+<<<<<<< HEAD
 msgstr ""
 "นี่เป็นที่มาของลิงก์ เช่น เครื่องมือค้นหา โดเมนอื่นๆ หรือชื่อรายการอีเมล"
+=======
+msgstr "นี่เป็นที่มาของลิงก์ เช่น เครื่องมือค้นหา โดเมนอื่นๆ หรือชื่อรายการอีเมล"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid ""
 "This phone number is blacklisted for SMS Marketing. Click to unblacklist."
+<<<<<<< HEAD
 msgstr ""
 "หมายเลขโทรศัพท์นี้ถูกขึ้นบัญชีดำสำหรับการตลาดผ่าน SMS คลิกเพื่อยกเลิกบัญชีดำ"
+=======
+msgstr "หมายเลขโทรศัพท์นี้ถูกขึ้นบัญชีดำสำหรับการตลาดผ่าน SMS คลิกเพื่อยกเลิกบัญชีดำ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_stage__fold
@@ -3728,8 +4325,12 @@ msgstr "ขั้นตอนนี้ถูกพับในมุมมอง
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "This will assign leads to all members. Do you want to proceed?"
+<<<<<<< HEAD
 msgstr ""
 "สิ่งนี้จะกำหนดลูกค้าเป้าหมายให้กับสมาชิกทุกคน คุณต้องการดำเนินการต่อหรือไม่?"
+=======
+msgstr "สิ่งนี้จะกำหนดลูกค้าเป้าหมายให้กับสมาชิกทุกคน คุณต้องการดำเนินการต่อหรือไม่?"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_0
@@ -3792,8 +4393,13 @@ msgid ""
 "To prevent data loss, Leads and Opportunities can only be merged by groups "
 "of %(max_length)s."
 msgstr ""
+<<<<<<< HEAD
 "เพื่อป้องกันการสูญหายของข้อมูล "
 "ลูกค้าเป้าหมายและโอกาสเท่านั้นที่จะรวมกันโดยกลุ่มของ%(max_length)s"
+=======
+"เพื่อป้องกันการสูญหายของข้อมูล ลูกค้าเป้าหมายและโอกาสเท่านั้นที่จะรวมกันโดยกลุ่มของ%"
+"(max_length)s"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -3823,8 +4429,13 @@ msgid ""
 "True if the monthly lead assignment count is greater than the maximum "
 "assignment limit, false otherwise."
 msgstr ""
+<<<<<<< HEAD
 "True หากจำนวนการมอบหมายลูกค้าเป้าหมายรายเดือนมากกว่าขีดจำกัดการมอบหมายสูงสุด"
 " มิเช่นนั้นจะเป็น False"
+=======
+"True หากจำนวนการมอบหมายลูกค้าเป้าหมายรายเดือนมากกว่าขีดจำกัดการมอบหมายสูงสุด "
+"มิเช่นนั้นจะเป็น False"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
@@ -3915,9 +4526,13 @@ msgstr "ใช้ลูกค้าเป้าหมาย"
 msgid ""
 "Use Lost Reasons to report on why opportunities are lost (e.g.\"Undercut by "
 "competitors\")."
+<<<<<<< HEAD
 msgstr ""
 "ใช้เหตุผลที่ไม่สำเร็จเพื่อรายงานสาเหตุที่ทำให้เสียโอกาส (เช่น "
 "\"การตัดราคาโดยคู่แข่ง\")"
+=======
+msgstr "ใช้เหตุผลที่ไม่สำเร็จเพื่อรายงานสาเหตุที่ทำให้เสียโอกาส (เช่น \"การตัดราคาโดยคู่แข่ง\")"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner_mass__action__each_exist_or_create
@@ -3928,8 +4543,15 @@ msgstr "ใช้พาร์ทเนอร์ที่มีอยู่หร
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_lead
 msgid ""
 "Use leads if you need a qualification step before creating an\n"
+<<<<<<< HEAD
 "                    opportunity or a customer. It can be a business card you received,\n"
 "                    a contact form filled in your website, or a file of unqualified\n"
+=======
+"                    opportunity or a customer. It can be a business card you "
+"received,\n"
+"                    a contact form filled in your website, or a file of "
+"unqualified\n"
+>>>>>>> upstream/18.0
 "                    prospects you import, etc."
 msgstr ""
 "ใช้ลูกค้าเป้าหมายหากคุณต้องการขั้นตอนคุณสมบัติก่อนสร้าง\n"
@@ -3940,6 +4562,7 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Use leads if you need a qualification step before creating an opportunity or"
 " a customer. It can be a business card you received, a contact form filled "
 "in your website, or a file of unqualified prospects you import, etc. Once "
@@ -3952,6 +4575,18 @@ msgstr ""
 "เมื่อผ่านการรับรองแล้ว "
 "โอกาสในการขายจะเปลี่ยนเป็นโอกาสทางธุรกิจและ/หรือลูกค้าใหม่ในหนังสือที่อยู่ของคุณ"
 " "
+=======
+"Use leads if you need a qualification step before creating an opportunity or "
+"a customer. It can be a business card you received, a contact form filled in "
+"your website, or a file of unqualified prospects you import, etc. Once "
+"qualified, the lead can be converted into a business opportunity and/or a "
+"new customer in your address book."
+msgstr ""
+"ใช้ลูกค้าเป้าหมายหากคุณต้องการขั้นตอนยืนยันคุณสมบัติก่อนสร้างโอกาสทางการขายหรือลูกค้า "
+"อาจเป็นนามบัตรที่คุณได้รับ แบบฟอร์มการติดต่อที่กรอกในเว็บไซต์ของคุณ "
+"หรือไฟล์ของผู้มีแนวโน้มที่ไม่ผ่านการรับรองที่คุณนำเข้าและอื่น ๆ เมื่อผ่านการรับรองแล้ว "
+"โอกาสในการขายจะเปลี่ยนเป็นโอกาสทางธุรกิจและ/หรือลูกค้าใหม่ในหนังสือที่อยู่ของคุณ "
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_action_helper
@@ -3964,17 +4599,27 @@ msgstr "ใช้ปุ่ม <i>สร้าง</i> หรือส่งอี
 msgid ""
 "Use the <i>New</i> button, or send an email to %(email_link)s to test the "
 "email gateway."
+<<<<<<< HEAD
 msgstr ""
 "ใช้ปุ่ม <i>สร้าง</i> ใหม่ หรือส่งอีเมลไปที่ %(email_link)s "
 "เพื่อทดสอบเกตเวย์อีเมล"
+=======
+msgstr "ใช้ปุ่ม <i>สร้าง</i> ใหม่ หรือส่งอีเมลไปที่ %(email_link)s เพื่อทดสอบเกตเวย์อีเมล"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_7
 msgid ""
+<<<<<<< HEAD
 "Use the CRM Forecast Kanban to easily define when Opportunities are expected"
 " to be won."
 msgstr ""
 "ใช้การคาดการณ์ CRM คัมบังเพื่อกำหนดเวลาที่คาดว่าจะได้รับโอกาสได้อย่างง่ายดาย"
+=======
+"Use the CRM Forecast Kanban to easily define when Opportunities are expected "
+"to be won."
+msgstr "ใช้การคาดการณ์ CRM คัมบังเพื่อกำหนดเวลาที่คาดว่าจะได้รับโอกาสได้อย่างง่ายดาย"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_action_helper
@@ -4132,7 +4777,12 @@ msgstr "คุณเพิ่งทำลายสถิติส่วนตั
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
 "You will be able to plan meetings and phone calls from\n"
+<<<<<<< HEAD
 "                    opportunities, convert them into quotations, attach related\n"
+=======
+"                    opportunities, convert them into quotations, attach "
+"related\n"
+>>>>>>> upstream/18.0
 "                    documents, track all discussions, and much more."
 msgstr ""
 "คุณจะสามารถวางแผนการประชุมและโทรศัพท์จาก\n"
@@ -4231,3 +4881,16 @@ msgstr "ให้กับ CRM ของคุณ ที่อยู่อีเ
 #: code:addons/crm/models/crm_lead.py:0
 msgid "unknown"
 msgstr "ไม่ทราบ"
+<<<<<<< HEAD
+=======
+
+#~ msgid ""
+#~ "For a sales team, there is nothing worse than being dry on leads. "
+#~ "Fortunately, in just a few clicks, you can generate leads specifically "
+#~ "targeted to your needs: company size, industry, etc. To help you test the "
+#~ "feature, we offer you 200 credits for free."
+#~ msgstr ""
+#~ "สำหรับทีมขาย ไม่มีอะไรเลวร้ายไปกว่าการไม่มีลูกค้าเป้าหมาย โชคดีที่เพียงไม่กี่คลิก "
+#~ "คุณสามารถสร้างลูกค้าเป้าหมายที่ตรงตามความต้องการของคุณ เช่น ขนาดบริษัท อุตสาหกรรมและอื่น "
+#~ "ๆ  เพื่อช่วยคุณทดลองฟีเจอร์นี้ เราขอเสนอ 200 เครดิตให้คุณฟรี"
+>>>>>>> upstream/18.0

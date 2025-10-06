@@ -65,6 +65,12 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _is_discount_line(self):
+        return super()._is_discount_line() or self.reward_id.reward_type == 'discount'
+
+>>>>>>> upstream/18.0
 =======
     def _is_discount_line(self):
         return super()._is_discount_line() or self.reward_id.reward_type == 'discount'

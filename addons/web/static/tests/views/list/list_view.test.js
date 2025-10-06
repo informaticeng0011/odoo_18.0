@@ -137,6 +137,10 @@ import { useBus } from "@web/core/utils/hooks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { omit } from "@web/core/utils/objects";
+>>>>>>> upstream/18.0
 =======
 import { omit } from "@web/core/utils/objects";
 >>>>>>> upstream/18.0
@@ -439,7 +443,11 @@ class Foo extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             properties: {},
+=======
+            properties: [],
+>>>>>>> upstream/18.0
 =======
             properties: [],
 >>>>>>> upstream/18.0
@@ -703,7 +711,11 @@ class Foo extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             properties: {},
+=======
+            properties: [],
+>>>>>>> upstream/18.0
 =======
             properties: [],
 >>>>>>> upstream/18.0
@@ -967,7 +979,11 @@ class Foo extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             properties: {},
+=======
+            properties: [],
+>>>>>>> upstream/18.0
 =======
             properties: [],
 >>>>>>> upstream/18.0
@@ -1230,7 +1246,11 @@ class Foo extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             properties: {},
+=======
+            properties: [],
+>>>>>>> upstream/18.0
 =======
             properties: [],
 >>>>>>> upstream/18.0
@@ -1523,8 +1543,13 @@ test(`simple readonly list`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(`.o_list_button_save`).not.toBeVisible();
     expect(`.o_list_button_discard`).not.toBeVisible();
+=======
+    expect(`.o_list_button_save`).not.toHaveCount();
+    expect(`.o_list_button_discard`).not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(`.o_list_button_save`).not.toHaveCount();
     expect(`.o_list_button_discard`).not.toHaveCount();
@@ -2094,7 +2119,11 @@ test(`editable list with open_form_view in debug`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -2462,7 +2491,11 @@ test(`editable list without open_form_view in debug`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -2785,6 +2818,10 @@ test(`editable list without open_form_view in debug`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        viewId: 1,
+>>>>>>> upstream/18.0
 =======
         viewId: 1,
 >>>>>>> upstream/18.0
@@ -3041,7 +3078,11 @@ test(`editable list without open_form_view in debug`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const localStorageKey = "debug_open_view,foo,list,123456789,foo";
+=======
+    const localStorageKey = "debug_open_view,foo,list,1,foo";
+>>>>>>> upstream/18.0
 =======
     const localStorageKey = "debug_open_view,foo,list,1,foo";
 >>>>>>> upstream/18.0
@@ -3346,7 +3387,11 @@ test(`non-editable list in debug`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -6255,7 +6300,11 @@ test("group order by count", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("foo", "web_read_group", async ({ kwargs, parent }) => {
+=======
+    onRpc("foo", "web_read_group", ({ kwargs }) => {
+>>>>>>> upstream/18.0
 =======
     onRpc("foo", "web_read_group", ({ kwargs }) => {
 >>>>>>> upstream/18.0
@@ -6455,7 +6504,10 @@ test("group order by count", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return parent();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6632,7 +6684,11 @@ test("order by count reset", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("foo", "web_read_group", async ({ kwargs, parent }) => {
+=======
+    onRpc("foo", "web_read_group", ({ kwargs }) => {
+>>>>>>> upstream/18.0
 =======
     onRpc("foo", "web_read_group", ({ kwargs }) => {
 >>>>>>> upstream/18.0
@@ -6832,7 +6888,10 @@ test("order by count reset", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return parent();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7178,7 +7237,10 @@ test(`selection box is properly displayed (multi pages)`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7274,6 +7336,9 @@ test(`selection box shows '+' suffix on selection count beyond count_limit`, asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7886,8 +7951,13 @@ test(`date field aggregates in grouped lists`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("web_read_group", async ({ parent }) => {
         const res = await parent();
+=======
+    onRpc("web_read_group", ({ parent }) => {
+        const res = parent();
+>>>>>>> upstream/18.0
 =======
     onRpc("web_read_group", ({ parent }) => {
         const res = parent();
@@ -8148,12 +8218,15 @@ test(`hide aggregated value in grouped lists when no data provided by RPC call`,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("web_read_group", async ({ parent }) => {
         const res = await parent();
         res.groups.forEach((group) => {
             delete group.qux;
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8300,6 +8373,9 @@ test(`hide aggregated value in grouped lists when no data provided by RPC call`,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9063,7 +9139,11 @@ test(`fields are translatable in list view`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/foo/get_field_translations", () => [
+=======
+    onRpc("foo", "get_field_translations", () => [
+>>>>>>> upstream/18.0
 =======
     onRpc("foo", "get_field_translations", () => [
 >>>>>>> upstream/18.0
@@ -9684,6 +9764,7 @@ test(`archive/unarchive handles returned action`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/foo/action_archive", () => ({
         type: "ir.actions.act_window",
         name: "Archive Action",
@@ -9693,6 +9774,8 @@ test(`archive/unarchive handles returned action`, async () => {
         views: [[false, "form"]],
     }));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9890,6 +9973,9 @@ test(`archive/unarchive handles returned action`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10778,7 +10864,10 @@ test(`list keeps offset on switchView`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10999,7 +11088,10 @@ test(`Navigate between the list and kanban view using the command palette`, asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11576,8 +11668,11 @@ test(`display a tooltip on a field`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = false;
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11850,7 +11945,11 @@ test(`display a tooltip on a field`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -12206,7 +12305,10 @@ test("field (with help) tooltip in non debug mode", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = false;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12629,8 +12731,13 @@ test(`no content helper when no data`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const records = Foo._records.slice(0);
     Foo._records.splice(0);
+=======
+    const records = Foo._records.map((record) => omit(record, "id"));
+    Foo._records = [];
+>>>>>>> upstream/18.0
 =======
     const records = Foo._records.map((record) => omit(record, "id"));
     Foo._records = [];
@@ -12957,7 +13064,11 @@ test(`no content helper when no data`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Foo._records.push(...records);
+=======
+    MockServer.env["foo"].create(records);
+>>>>>>> upstream/18.0
 =======
     MockServer.env["foo"].create(records);
 >>>>>>> upstream/18.0
@@ -13315,7 +13426,10 @@ test(`refresh empty list with sample data`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         kanban: `<kanban/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13617,6 +13731,10 @@ test(`empty list with sample data: keyboard navigation`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+test.tags("broken");
+>>>>>>> upstream/18.0
 =======
 test.tags("broken");
 >>>>>>> upstream/18.0
@@ -13971,8 +14089,11 @@ test(`empty list with sample data: group by date`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(`.o_group_has_content.o_group_header`).click();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14231,6 +14352,9 @@ test(`empty list with sample data: group by date`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16710,7 +16834,11 @@ test(`numbers in list are right-aligned`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const nbCellRight = [...queryAll(`.o_data_row:eq(0) > .o_data_cell`)].filter(
+=======
+    const nbCellRight = queryAll(`.o_data_row:eq(0) > .o_data_cell`).filter(
+>>>>>>> upstream/18.0
 =======
     const nbCellRight = queryAll(`.o_data_row:eq(0) > .o_data_cell`).filter(
 >>>>>>> upstream/18.0
@@ -16908,7 +17036,11 @@ test(`numbers in list are right-aligned`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const nbInputRight = [...queryAll(`.o_data_row:eq(0) > .o_data_cell input`)].filter(
+=======
+    const nbInputRight = queryAll(`.o_data_row:eq(0) > .o_data_cell input`).filter(
+>>>>>>> upstream/18.0
 =======
     const nbInputRight = queryAll(`.o_data_row:eq(0) > .o_data_cell input`).filter(
 >>>>>>> upstream/18.0
@@ -17272,12 +17404,15 @@ test(`result of consecutive resequences is correctly sorted`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const context = {
         lang: "en",
         tz: "taht",
         uid: 7,
         allowed_company_ids: [1],
     };
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17390,8 +17525,12 @@ test(`result of consecutive resequences is correctly sorted`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(params).toEqual({
                 context,
+=======
+            expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
             expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -17543,8 +17682,12 @@ test(`result of consecutive resequences is correctly sorted`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(params).toEqual({
                 context,
+=======
+            expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
             expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -17696,8 +17839,12 @@ test(`result of consecutive resequences is correctly sorted`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(params).toEqual({
                 context,
+=======
+            expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
             expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -17849,8 +17996,12 @@ test(`result of consecutive resequences is correctly sorted`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(params).toEqual({
                 context,
+=======
+            expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
             expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -18920,7 +19071,11 @@ test(`editable list view: multi edition`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(queryOne(".modal-body").innerText.includes("those 2 records")).toBe(true, {
+=======
+    expect(".modal-body").toHaveText(/those 2 records/, {
+>>>>>>> upstream/18.0
 =======
     expect(".modal-body").toHaveText(/those 2 records/, {
 >>>>>>> upstream/18.0
@@ -19208,9 +19363,14 @@ test(`editable list view: multi edition cannot call onchanges`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("write", ({ args }) => {
         for (const id of args[0]) {
             const record = Foo._records.find((r) => r.id === id);
+=======
+    onRpc("write", function ({ args }) {
+        for (const record of this.env["foo"].browse(args[0])) {
+>>>>>>> upstream/18.0
 =======
     onRpc("write", function ({ args }) {
         for (const record of this.env["foo"].browse(args[0])) {
@@ -19591,7 +19751,11 @@ test.todo(`editable list view: multi edition error and cancellation handling`, a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(`.modal`).toHaveCount(1, { message: "there should be an opened modal" });
+=======
+    expect(`.modal`).toHaveCount(1);
+>>>>>>> upstream/18.0
 =======
     expect(`.modal`).toHaveCount(1);
 >>>>>>> upstream/18.0
@@ -19797,7 +19961,11 @@ test.todo(`editable list view: multi edition error and cancellation handling`, a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(`.modal`).toHaveCount(1, { message: "there should be an opened modal" });
+=======
+    expect(`.modal`).toHaveCount(1);
+>>>>>>> upstream/18.0
 =======
     expect(`.modal`).toHaveCount(1);
 >>>>>>> upstream/18.0
@@ -20019,7 +20187,10 @@ test(`multi edition: many2many_tags in many2many field`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20886,8 +21057,13 @@ test(`non editable list view: multi edition`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(`.modal`).toHaveCount(1, { message: "there should be an opened modal" });
     expect(queryOne(".modal").innerText.includes("those 2 records")).toBe(true, {
+=======
+    expect(`.modal`).toHaveCount(1);
+    expect(".modal").toHaveText(/those 2 records/, {
+>>>>>>> upstream/18.0
 =======
     expect(`.modal`).toHaveCount(1);
     expect(".modal").toHaveText(/those 2 records/, {
@@ -21578,11 +21754,14 @@ test(`list view move to previous page when all records from last page archive/un
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/foo/action_archive", () => {
         Foo._records[3].active = false;
         return {};
     });
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22456,7 +22635,11 @@ test(`pressing ESC in editable grouped list should discard the current line chan
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(`.o_list_button_save`).not.toBeVisible();
+=======
+    expect(`.o_list_button_save`).not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(`.o_list_button_save`).not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -24247,7 +24430,10 @@ test(`optional fields is shown only if enabled`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24700,7 +24886,10 @@ test(`list view with optional fields from local storage being the empty array`, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // const headers = [...queryAll(`.o_list_table thead th`)];
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25471,8 +25660,11 @@ test(`open groups are kept when leaving and coming back`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
         form: `<form/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25700,8 +25892,11 @@ test(`open groups are kept when leaving and coming back (grouped by date)`, asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
         form: `<form/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25928,8 +26123,11 @@ test(`go to the next page after leaving and coming back to a grouped list view`,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         form: `<form/>`,
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26700,7 +26898,10 @@ test(`Search more in a many2one`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27097,7 +27298,10 @@ test(`Properties: boolean`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(`.o_field_cell.o_boolean_cell input`).click();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27790,10 +27994,14 @@ test(`properties: optional show/hide (config from local storage)`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     localStorage.setItem(
         "optional_fields,foo,list,123456789,m2o,properties",
         "properties.property_char"
     );
+=======
+    localStorage.setItem("optional_fields,foo,list,1,m2o,properties", "properties.property_char");
+>>>>>>> upstream/18.0
 =======
     localStorage.setItem("optional_fields,foo,list,1,m2o,properties", "properties.property_char");
 >>>>>>> upstream/18.0
@@ -28056,6 +28264,10 @@ test(`properties: optional show/hide (config from local storage)`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        viewId: 1,
+>>>>>>> upstream/18.0
 =======
         viewId: 1,
 >>>>>>> upstream/18.0
@@ -28329,10 +28541,14 @@ test(`properties: optional show/hide (at reload, config from local storage)`, as
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     localStorage.setItem(
         "optional_fields,foo,list,123456789,m2o,properties",
         "properties.property_char"
     );
+=======
+    localStorage.setItem("optional_fields,foo,list,1,m2o,properties", "properties.property_char");
+>>>>>>> upstream/18.0
 =======
     localStorage.setItem("optional_fields,foo,list,1,m2o,properties", "properties.property_char");
 >>>>>>> upstream/18.0
@@ -28595,6 +28811,10 @@ test(`properties: optional show/hide (at reload, config from local storage)`, as
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        viewId: 1,
+>>>>>>> upstream/18.0
 =======
         viewId: 1,
 >>>>>>> upstream/18.0
@@ -29074,7 +29294,10 @@ test(`restore orderBy from state when using default order`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29353,11 +29576,17 @@ test(`context keys not passed down the stack and not to fields`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
     };
     Bar._views = {
         list: `<list><field name="name"/></list>`,
         search: `<search/>`,
+=======
+    };
+    Bar._views = {
+        list: `<list><field name="name"/></list>`,
+>>>>>>> upstream/18.0
 =======
     };
     Bar._views = {
@@ -30084,7 +30313,11 @@ test("two pages, go page 2, record deleted meanwhile", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Foo._records.splice(3);
+=======
+    MockServer.env["foo"].unlink(4);
+>>>>>>> upstream/18.0
 =======
     MockServer.env["foo"].unlink(4);
 >>>>>>> upstream/18.0
@@ -30366,7 +30599,11 @@ test("two pages, go page 2, record deleted meanwhile (grouped case)", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Foo._records.splice(3);
+=======
+    MockServer.env["foo"].unlink(4);
+>>>>>>> upstream/18.0
 =======
     MockServer.env["foo"].unlink(4);
 >>>>>>> upstream/18.0
@@ -30655,7 +30892,10 @@ test("open record, with invalid record in list", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30870,6 +31110,7 @@ test(`hide pager in the list view with sample data`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_cp_pager").not.toBeVisible();
 =======
     expect(".o_cp_pager").not.toHaveCount();
@@ -30990,6 +31231,8 @@ test(`hide pager in the list view with sample data`, async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     expect(".o_cp_pager").not.toHaveCount();
 });
 
@@ -31031,6 +31274,9 @@ test(`basic open record with allowOpenAction`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

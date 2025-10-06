@@ -2793,7 +2793,10 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3097,6 +3100,9 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4298,7 +4304,10 @@ class TestAutoAssign(TestStockCommon):
         self.assertEqual(next_picking.move_ids.description_picking, 'transfer')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -4400,6 +4409,9 @@ class TestPickShipBackorder(TestStockCommon):
         backorder.button_validate()
         self.assertEqual(backorder.state, "done")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

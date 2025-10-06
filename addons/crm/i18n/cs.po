@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* crm
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Wil Odoo, 2024
 # Aleš Fiala <f.ales1@seznam.cz>, 2024
@@ -100,6 +104,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Marta Wacławek, 2025
 >>>>>>> upstream/18.0
@@ -380,10 +385,15 @@
 # Marta Wacławek, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Marta Wacławek, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-02-10 13:22+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -765,6 +775,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+=======
+"POT-Creation-Date: 2025-10-03 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marta Wacławek, 2025\n"
+"Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__lead_all_assigned_month_count
@@ -827,6 +849,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "%s's opportunity"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1212,6 +1235,9 @@ msgstr "Obchodní příležitost pro %s"
 =======
 msgstr "Obchodní příležitost pro %s"
 >>>>>>> upstream/18.0
+=======
+msgstr "Obchodní příležitost pro %s"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-javascript
@@ -1223,11 +1249,19 @@ msgstr "<b>Vytvořte svou první obchodní příležitost.</b>"
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid ""
+<<<<<<< HEAD
 "<b>Drag &amp; drop opportunities</b> between columns as you progress in your"
 " sales cycle."
 msgstr ""
 "<b>Pomocí Drag &amp; drop přetáhněte příležitosti</b> mezi sloupci, tak, jak"
 " pokračujete v prodejním procese."
+=======
+"<b>Drag &amp; drop opportunities</b> between columns as you progress in your "
+"sales cycle."
+msgstr ""
+"<b>Pomocí Drag &amp; drop přetáhněte příležitosti</b> mezi sloupci, tak, jak "
+"pokračujete v prodejním procese."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-javascript
@@ -1247,7 +1281,12 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "<i class=\"fa fa-info-circle me-2\" title=\"Assigned Lead Count\"/>"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-info-circle me-2\" title=\"Počet přidělených prospektů\"/>"
+=======
+msgstr ""
+"<i class=\"fa fa-info-circle me-2\" title=\"Počet přidělených prospektů\"/>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_partner_kanban_view
@@ -1268,8 +1307,13 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "<i title=\"Update now\" role=\"img\" aria-label=\"Update now\" class=\"fa "
 "fa-fw fa-refresh\"/>"
+=======
+"<i title=\"Update now\" role=\"img\" aria-label=\"Update now\" class=\"fa fa-"
+"fw fa-refresh\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i title=\"Aktualizujte\" role=\"img\" aria-label=\"Update now\" class=\"fa "
 "fa-fw fa-refresh\"/>"
@@ -1299,20 +1343,41 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">Similar Leads</span>\n"
 "                                    <span class=\"o_stat_text\" invisible=\"duplicate_lead_count &gt; 1\">Similar Lead</span>"
 msgstr ""
 "<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">Podobné prospekty</span>\n"
 "                                    <span class=\"o_stat_text\" invisible=\"duplicate_lead_count &gt; 1\">Podobný prospekt</span>"
+=======
+"<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; "
+"2\">Similar Leads</span>\n"
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"duplicate_lead_count &gt; 1\">Similar Lead</span>"
+msgstr ""
+"<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; "
+"2\">Podobné prospekty</span>\n"
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"duplicate_lead_count &gt; 1\">Podobný prospekt</span>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.utm_campaign_view_form
 msgid ""
 "<span class=\"o_stat_text\" invisible=\"not use_leads\">Leads</span>\n"
+<<<<<<< HEAD
 "                        <span class=\"o_stat_text\" invisible=\"use_leads\">Opportunities</span>"
 msgstr ""
 "<span class=\"o_stat_text\" invisible=\"not use_leads\">Prospekty</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"use_leads\">Příležitosti</span>"
+=======
+"                        <span class=\"o_stat_text\" "
+"invisible=\"use_leads\">Opportunities</span>"
+msgstr ""
+"<span class=\"o_stat_text\" invisible=\"not use_leads\">Prospekty</span>\n"
+"                        <span class=\"o_stat_text\" "
+"invisible=\"use_leads\">Příležitosti</span>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lost_reason_view_form
@@ -1327,11 +1392,23 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"oe_grey p-2\" groups=\"crm.group_use_recurring_revenues\"> + </span>\n"
 "                                        <span class=\"oe_grey p-2\" groups=\"!crm.group_use_recurring_revenues\"> at </span>"
 msgstr ""
 "<span class=\"oe_grey p-2\" groups=\"crm.group_use_recurring_revenues\"> + </span>\n"
 "                                        <span class=\"oe_grey p-2\" groups=\"!crm.group_use_recurring_revenues\"> v </span>"
+=======
+"<span class=\"oe_grey p-2\" groups=\"crm.group_use_recurring_revenues\"> + </"
+"span>\n"
+"                                        <span class=\"oe_grey p-2\" "
+"groups=\"!crm.group_use_recurring_revenues\"> at </span>"
+msgstr ""
+"<span class=\"oe_grey p-2\" groups=\"crm.group_use_recurring_revenues\"> + </"
+"span>\n"
+"                                        <span class=\"oe_grey p-2\" "
+"groups=\"!crm.group_use_recurring_revenues\"> v </span>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -1371,15 +1448,31 @@ msgstr "<span>Sloučen prospekt/příležitost</span>"
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid ""
 "<span>Periodically assign leads based on rules</span><br/>\n"
+<<<<<<< HEAD
 "                                <span invisible=\"not crm_use_auto_assignment\">\n"
 "                                    All sales teams will use this setting by default unless\n"
+=======
+"                                <span invisible=\"not "
+"crm_use_auto_assignment\">\n"
+"                                    All sales teams will use this setting by "
+"default unless\n"
+>>>>>>> upstream/18.0
 "                                    specified otherwise.\n"
 "                                </span>"
 msgstr ""
 "<span>Pravidelně přiřazujte prospekty na základě pravidel</span><br/>\n"
+<<<<<<< HEAD
 "                                    <span invisible=\"not crm_use_auto_assignment\">\n"
 "                                        Všechny prodejní týmy budou toto nastavení používat\n"
 "                                        jako výchozí, pokud není uvedeno jinak.\n"
+=======
+"                                    <span invisible=\"not "
+"crm_use_auto_assignment\">\n"
+"                                        Všechny prodejní týmy budou toto "
+"nastavení používat\n"
+"                                        jako výchozí, pokud není uvedeno "
+"jinak.\n"
+>>>>>>> upstream/18.0
 "                                    </span>"
 
 #. module: crm
@@ -1390,12 +1483,23 @@ msgstr "<span>do tohoto.</span>"
 #. module: crm
 #: model:mail.template,body_html:crm.mail_template_demo_crm_lead
 msgid ""
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 24px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
+"16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
+"color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
+"align=\"center\">\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"padding: 24px; background-color: white; color: #454748; border-"
+"collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "<tbody>\n"
 "    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: white; padding: 0; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your Lead/Opportunity</span><br/>\n"
@@ -1405,6 +1509,25 @@ msgid ""
 "                </td></tr>\n"
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;\"/>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"100%\" style=\"background-color: white; padding: 0; border-"
+"collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <span style=\"font-size: 10px;\">Your Lead/Opportunity</"
+"span><br/>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-"
+"out=\"object.name or ''\">Interest in your products</span>\n"
+"                </td><td valign=\"middle\" align=\"right\">\n"
+"                    <img t-attf-src=\"/logo.png?"
+"company={{ object.company_id.id }}\" style=\"padding: 0px; margin: 0px; "
+"height: 48px;\" t-att-alt=\"object.company_id.name\"/>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                    <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -1412,6 +1535,7 @@ msgid ""
 "    <!-- CONTENT -->\n"
 "    <tr>\n"
 "        <td style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr>\n"
 "                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
@@ -1428,6 +1552,36 @@ msgid ""
 "                            </t>\n"
 "                            <t t-else=\"\">\n"
 "                                <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"590\" style=\"min-width: 590px; background-color: white; padding: "
+"0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr>\n"
+"                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                        <div>\n"
+"                            Hi <t t-out=\"object.partner_id and "
+"object.partner_id.name or ''\">Deco Addict</t>,<br/><br/>\n"
+"                            Welcome to <t t-out=\"object.company_id.name or "
+"''\">My Company (San Francisco)</t>.\n"
+"                            It's great to meet you! Now that you're on "
+"board, you'll discover what <t t-out=\"object.company_id.name or ''\">My "
+"Company (San Francisco)</t> has to offer. My name is <t t-"
+"out=\"object.user_id.name or ''\">Marc Demo</t> and I'll help you get the "
+"most out of Odoo. Could we plan a quick demo soon?<br/>\n"
+"                            Feel free to reach out at any time!<br/><br/>\n"
+"                            Best,<br/>\n"
+"                            <t t-if=\"object.user_id\">\n"
+"                                <b><t t-out=\"object.user_id.name or "
+"''\">Marc Demo</t></b>\n"
+"                                <br/>Email: <t t-out=\"object.user_id.email "
+"or ''\">mark.brown23@example.com</t>\n"
+"                                <br/>Phone: <t t-out=\"object.user_id.phone "
+"or ''\">+1 650-123-4567</t>\n"
+"                            </t>\n"
+"                            <t t-else=\"\">\n"
+"                                <t t-out=\"object.company_id.name or ''\">My "
+"Company (San Francisco)</t>\n"
+>>>>>>> upstream/18.0
 "                            </t>\n"
 "                        </div>\n"
 "                    </td>\n"
@@ -1437,6 +1591,7 @@ msgid ""
 "    </tr>\n"
 "    <!-- FOOTER -->\n"
 "    <tr>\n"
+<<<<<<< HEAD
 "        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
 "            <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
 "            <b t-out=\"object.company_id.name or ''\">My Company (San Francisco)</b><br/>\n"
@@ -1447,6 +1602,27 @@ msgid ""
 "                </t>\n"
 "                <t t-if=\"object.company_id.website\">\n"
 "                    | <a t-attf-href=\"'%s' % {{ object.company_id.website }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.website or ''\">http://www.example.com</a>\n"
+=======
+"        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; "
+"font-size:11px;\">\n"
+"            <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
+"            <b t-out=\"object.company_id.name or ''\">My Company (San "
+"Francisco)</b><br/>\n"
+"            <div style=\"color: #999999;\">\n"
+"                <t t-out=\"object.company_id.phone or ''\">+1 650-123-4567</"
+"t>\n"
+"                <t t-if=\"object.company_id.email\">\n"
+"                    | <a t-attf-href=\"'mailto:%s' % "
+"{{ object.company_id.email }}\" style=\"text-decoration:none; color: "
+"#999999;\" t-out=\"object.company_id.email or ''\">info@yourcompany.com</a>\n"
+"                </t>\n"
+"                <t t-if=\"object.company_id.website\">\n"
+"                    | <a t-attf-href=\"'%s' % {{ object.company_id.website }}"
+"\" style=\"text-decoration:none; color: #999999;\" t-"
+"out=\"object.company_id.website or ''\">http://www.example.com</a>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "            </div>\n"
 "        </td>\n"
@@ -1456,11 +1632,17 @@ msgid ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+=======
+"    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?"
+"utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+>>>>>>> upstream/18.0
 "</td></tr>\n"
 "</table>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1741,10 +1923,20 @@ msgstr ""
 >>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 24px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
+"16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
+"color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
+"align=\"center\">\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"padding: 24px; background-color: white; color: #454748; border-"
+"collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "<tbody>\n"
 "    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: white; padding: 0; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Váš prospekt/příležitost</span><br/>\n"
@@ -1754,6 +1946,25 @@ msgstr ""
 "                </td></tr>\n"
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;\"/>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"100%\" style=\"background-color: white; padding: 0; border-"
+"collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <span style=\"font-size: 10px;\">Váš prospekt/"
+"příležitost</span><br/>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-"
+"out=\"object.name or ''\">Zájem o vaše produkty</span>\n"
+"                </td><td valign=\"middle\" align=\"right\">\n"
+"                    <img t-attf-src=\"/logo.png?"
+"company={{ object.company_id.id }}\" style=\"padding: 0px; margin: 0px; "
+"height: 48px;\" t-att-alt=\"object.company_id.name\"/>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                    <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -1761,6 +1972,7 @@ msgstr ""
 "    <!-- CONTENT -->\n"
 "    <tr>\n"
 "        <td style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr>\n"
 "                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
@@ -1777,6 +1989,36 @@ msgstr ""
 "                            </t>\n"
 "                            <t t-else=\"\">\n"
 "                                <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"590\" style=\"min-width: 590px; background-color: white; padding: "
+"0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr>\n"
+"                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                        <div>\n"
+"                            Dobrý den, <t t-out=\"object.partner_id and "
+"object.partner_id.name or ''\">Deco Addict</t>,<br/><br/>\n"
+"                            Vitejte v <t t-out=\"object.company_id.name or "
+"''\">My Company (San Francisco)</t>.\n"
+"                            Je skvělé, že vás poznávám! Nyní, když jste s "
+"námi, zjistíte, co může <t t-out=\"object.company_id.name or ''\">My Company "
+"(San Francisco)</t> nabídnout. Jmenuji se <t t-out=\"object.user_id.name or "
+"''\">Marc Demo</t> a pomohu vám vytěžit z Odoo co nejvíce. Mohli bychom brzy "
+"naplánovat rychlé demo?<br/>\n"
+"                            Neváhejte nás kdykoli kontaktovat!<br/><br/>\n"
+"                            S pozdravem,<br/>\n"
+"                            <t t-if=\"object.user_id\">\n"
+"                                <b><t t-out=\"object.user_id.name or "
+"''\">Marc Demo</t></b>\n"
+"                                <br/>Email: <t t-out=\"object.user_id.email "
+"or ''\">mark.brown23@example.com</t>\n"
+"                                <br/>Phone: <t t-out=\"object.user_id.phone "
+"or ''\">+1 650-123-4567</t>\n"
+"                            </t>\n"
+"                            <t t-else=\"\">\n"
+"                                <t t-out=\"object.company_id.name or ''\">My "
+"Company (San Francisco)</t>\n"
+>>>>>>> upstream/18.0
 "                            </t>\n"
 "                        </div>\n"
 "                    </td>\n"
@@ -1786,6 +2028,7 @@ msgstr ""
 "    </tr>\n"
 "    <!-- FOOTER -->\n"
 "    <tr>\n"
+<<<<<<< HEAD
 "        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
 "            <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
 "            <b t-out=\"object.company_id.name or ''\">My Company (San Francisco)</b><br/>\n"
@@ -1796,6 +2039,27 @@ msgstr ""
 "                </t>\n"
 "                <t t-if=\"object.company_id.website\">\n"
 "                    | <a t-attf-href=\"'%s' % {{ object.company_id.website }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.website or ''\">http://www.example.com</a>\n"
+=======
+"        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; "
+"font-size:11px;\">\n"
+"            <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
+"            <b t-out=\"object.company_id.name or ''\">My Company (San "
+"Francisco)</b><br/>\n"
+"            <div style=\"color: #999999;\">\n"
+"                <t t-out=\"object.company_id.phone or ''\">+1 650-123-4567</"
+"t>\n"
+"                <t t-if=\"object.company_id.email\">\n"
+"                    | <a t-attf-href=\"'mailto:%s' % "
+"{{ object.company_id.email }}\" style=\"text-decoration:none; color: "
+"#999999;\" t-out=\"object.company_id.email or ''\">info@yourcompany.com</a>\n"
+"                </t>\n"
+"                <t t-if=\"object.company_id.website\">\n"
+"                    | <a t-attf-href=\"'%s' % {{ object.company_id.website }}"
+"\" style=\"text-decoration:none; color: #999999;\" t-"
+"out=\"object.company_id.website or ''\">http://www.example.com</a>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "            </div>\n"
 "        </td>\n"
@@ -1805,6 +2069,7 @@ msgstr ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
 "</td></tr>\n"
 "</table>\n"
@@ -2086,6 +2351,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?"
+"utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+"</td></tr>\n"
+"</table>\n"
+"        "
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_defaults
@@ -2101,16 +2373,25 @@ msgstr ""
 msgid ""
 "A great tip to boost sales efficiency is to always define a next step on "
 "each opportunity. To manage ongoing activities, click on any status of the "
+<<<<<<< HEAD
 "progress bar to filter opportunities based on their next activities' status."
 " Click on the grey area of the progress bar to see all opportunities that "
+=======
+"progress bar to filter opportunities based on their next activities' status. "
+"Click on the grey area of the progress bar to see all opportunities that "
+>>>>>>> upstream/18.0
 "have no next activity."
 msgstr ""
 "Skvělým tipem pro zvýšení efektivity prodeje je vždy definovat další krok "
 "při každé obchodní příležitosti. Chcete-li spravovat probíhající aktivity, "
 "klikněte na libovolný stav postupu a vyfiltrujte obchodní příležitosti na "
 "základě stavu jejich dalších aktivit. Kliknutím na šedou oblast postupu "
+<<<<<<< HEAD
 "zobrazíte všechny obchodní  příležitosti, které nemají žádnou další "
 "aktivitu."
+=======
+"zobrazíte všechny obchodní  příležitosti, které nemají žádnou další aktivitu."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
@@ -2229,7 +2510,12 @@ msgstr "Činnost"
 #: model_terms:ir.actions.act_window,help:crm.mail_activity_plan_action_lead
 msgid ""
 "Activity plans are used to assign a list of activities in just a few clicks\n"
+<<<<<<< HEAD
 "                    (e.g. \"Demo Preparation Process\", \"Qualification\", ...)"
+=======
+"                    (e.g. \"Demo Preparation Process\", "
+"\"Qualification\", ...)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: crm
@@ -2342,21 +2628,45 @@ msgstr "Archivováno"
 #. odoo-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
+<<<<<<< HEAD
 "As you are a member of no Sales Team, you are showed the Pipeline of the <b>first team by default.</b>\n"
 "                                        To work with the CRM, you should <a name=\"%d\" type=\"action\" tabindex=\"-1\">join a team.</a>"
 msgstr ""
 "Protože nejste členem žádného prodejního týmu, zobrazí se kanál <b>prvního týmu jako výchozí.</b>\n"
 "                                        <a name=\"%d\" type=\"action\" tabindex=\"-1\">Chcete-li pracovat s CRM, měli byste se připojit k týmu.</a>"
+=======
+"As you are a member of no Sales Team, you are showed the Pipeline of the "
+"<b>first team by default.</b>\n"
+"                                        To work with the CRM, you should <a "
+"name=\"%d\" type=\"action\" tabindex=\"-1\">join a team.</a>"
+msgstr ""
+"Protože nejste členem žádného prodejního týmu, zobrazí se kanál <b>prvního "
+"týmu jako výchozí.</b>\n"
+"                                        <a name=\"%d\" type=\"action\" "
+"tabindex=\"-1\">Chcete-li pracovat s CRM, měli byste se připojit k týmu.</a>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
+<<<<<<< HEAD
 "As you are a member of no Sales Team, you are showed the Pipeline of the <b>first team by default.</b>\n"
 "                                        To work with the CRM, you should join a team."
 msgstr ""
 "Protože nejste členem žádného prodejního týmu, zobrazí se kanál <b>prvního týmu jako výchozí.</b>\n"
 "                                        Chcete-li pracovat s CRM, měli byste se připojit k týmu."
+=======
+"As you are a member of no Sales Team, you are showed the Pipeline of the "
+"<b>first team by default.</b>\n"
+"                                        To work with the CRM, you should "
+"join a team."
+msgstr ""
+"Protože nejste členem žádného prodejního týmu, zobrazí se kanál <b>prvního "
+"týmu jako výchozí.</b>\n"
+"                                        Chcete-li pracovat s CRM, měli byste "
+"se připojit k týmu."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
@@ -2555,8 +2865,13 @@ msgid ""
 "Check this box to filter and qualify incoming requests as leads before "
 "converting them into opportunities and assigning them to a salesperson."
 msgstr ""
+<<<<<<< HEAD
 "Zaškrtněte toto políčko, chcete-li filtrovat a kvalifikovat příchozí žádosti"
 " jako potenciální zákazníci před tím, než je převedete na příležitosti a "
+=======
+"Zaškrtněte toto políčko, chcete-li filtrovat a kvalifikovat příchozí žádosti "
+"jako potenciální zákazníci před tím, než je převedete na příležitosti a "
+>>>>>>> upstream/18.0
 "přidělíte je prodejci."
 
 #. module: crm
@@ -2579,8 +2894,12 @@ msgstr "Město"
 #: model:ir.model.fields,help:crm.field_crm_activity_report__tag_ids
 #: model:ir.model.fields,help:crm.field_crm_lead__tag_ids
 msgid ""
+<<<<<<< HEAD
 "Classify and analyze your lead/opportunity categories like: Training, "
 "Service"
+=======
+"Classify and analyze your lead/opportunity categories like: Training, Service"
+>>>>>>> upstream/18.0
 msgstr ""
 "Klasifikujte a analyzujte vaše kategorie zájemců / příležitostí jako: "
 "školení, služby "
@@ -3071,7 +3390,11 @@ msgid "Deadline: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uzávěrka: %s"
+=======
+msgstr "Termín: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termín: %s"
 >>>>>>> upstream/18.0
@@ -3436,6 +3759,7 @@ msgstr ""
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
 msgid ""
+<<<<<<< HEAD
 "Did you know you can turn a list of opportunities into a map view, using the"
 " top-right map icon? A lot of screens in Odoo can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
@@ -3443,6 +3767,15 @@ msgstr ""
 "Věděli jste, že můžete seznam obchodních příležitostí proměnit v zobrazení "
 "mapy pomocí ikony mapy vpravo nahoře? Mnoho obrazovek v Odoo lze přeměnit na"
 " mapu: úkoly, kontakty, objednávky doručení, atd...."
+=======
+"Did you know you can turn a list of opportunities into a map view, using the "
+"top-right map icon? A lot of screens in Odoo can be turned into a map: "
+"tasks, contacts, delivery orders, etc."
+msgstr ""
+"Věděli jste, že můžete seznam obchodních příležitostí proměnit v zobrazení "
+"mapy pomocí ikony mapy vpravo nahoře? Mnoho obrazovek v Odoo lze přeměnit na "
+"mapu: úkoly, kontakty, objednávky doručení, atd...."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model,name:crm.model_digest_digest
@@ -3714,12 +4047,17 @@ msgid ""
 "For a sales team, there is nothing worse than being dry on leads. "
 "Fortunately, in just a few clicks, you can generate leads specifically "
 "targeted to your needs: company size, industry, etc. To help you test the "
+<<<<<<< HEAD
 "feature, we offer you 200 credits for free."
 msgstr ""
 "Pro prodejní tým není nic horšího, než být suchý na vedení. Naštěstí pomocí "
 "několika kliknutí můžete vygenerovat potenciální zákazníky konkrétně "
 "zaměřené na vaše potřeby: velikost společnosti, odvětví atd. Abychom vám "
 "tuto funkci mohli otestovat, nabízíme vám 200 kreditů zdarma."
+=======
+"feature, we offer you 20 credits for free."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner__force_assignment
@@ -3829,8 +4167,13 @@ msgstr "ID"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_parent_thread_id
 msgid ""
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+>>>>>>> upstream/18.0
 msgstr ""
 "ID rodičovského záznamu obsahující alias (například: Projekt obsahující "
 "alias pro vytváření úkolů)"
@@ -3888,8 +4231,13 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 msgstr ""
 "Pokud je ověřené telefonní číslo na černé listině, kontakt již nebude "
 "dostávat hromadné zprávy SMS ze žádného seznamu"
@@ -3924,8 +4272,13 @@ msgid ""
 "mobile and phone field in a model."
 msgstr ""
 "Označuje, zda je ověřené telefonní číslo na černé listině číslo mobilního "
+<<<<<<< HEAD
 "telefonu. Pomáhá rozlišit, které číslo je na černé listině, když je v modelu"
 " pole pro mobil i telefon."
+=======
+"telefonu. Pomáhá rozlišit, které číslo je na černé listině, když je v modelu "
+"pole pro mobil i telefon."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__phone_blacklisted
@@ -3934,9 +4287,15 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+<<<<<<< HEAD
 "Označuje, zda je ověřené telefonní číslo na černé listině telefonním číslem."
 " Pomáhá rozlišit, které číslo je na černé listině, když je v modelu pole pro"
 " mobil i telefon."
+=======
+"Označuje, zda je ověřené telefonní číslo na černé listině telefonním číslem. "
+"Pomáhá rozlišit, které číslo je na černé listině, když je v modelu pole pro "
+"mobil i telefon."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -4239,8 +4598,13 @@ msgid ""
 "the treatment delays or number of leads per state. You can sort out your "
 "leads analysis by different groups to get accurate grained analysis."
 msgstr ""
+<<<<<<< HEAD
 "Analýza zájemců umožňuje kontrolu různých souvisejících informací, jako jsou"
 " opožděná řešení nebo počty zájemců podle stavů. Můžete třídit vaše analýzy "
+=======
+"Analýza zájemců umožňuje kontrolu různých souvisejících informací, jako jsou "
+"opožděná řešení nebo počty zájemců podle stavů. Můžete třídit vaše analýzy "
+>>>>>>> upstream/18.0
 "podle různých skupin, abyste získali přesné detailní rozbory."
 
 #. module: crm
@@ -4261,8 +4625,12 @@ msgstr "Generování potenciálních zákazníku"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_all_leads
+<<<<<<< HEAD
 msgid ""
 "Leads are the qualification step before the creation of an opportunity."
+=======
+msgid "Leads are the qualification step before the creation of an opportunity."
+>>>>>>> upstream/18.0
 msgstr "Prospekty jsou kvalifikačním krokem před vytvořením příležitosti."
 
 #. module: crm
@@ -4283,11 +4651,19 @@ msgstr "Potenciální zákazníci, kteří nejsou přiřazeni"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid ""
+<<<<<<< HEAD
 "Leads that you selected that have duplicates. If the list is empty, it means"
 " that no duplicates were found"
 msgstr ""
 "Zájemci, které jste vybrali a které mají duplikáty. Pokud je seznam prázdný,"
 " znamená to, že nebyly nalezeny žádné duplikáty"
+=======
+"Leads that you selected that have duplicates. If the list is empty, it means "
+"that no duplicates were found"
+msgstr ""
+"Zájemci, které jste vybrali a které mají duplikáty. Pokud je seznam prázdný, "
+"znamená to, že nebyly nalezeny žádné duplikáty"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
@@ -4331,8 +4707,13 @@ msgstr "Propojit se stávajícím zákazníkem"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__partner_id
 msgid ""
+<<<<<<< HEAD
 "Linked partner (optional). Usually created when converting the lead. You can"
 " find a partner by its Name, TIN, Email or Internal Reference."
+=======
+"Linked partner (optional). Usually created when converting the lead. You can "
+"find a partner by its Name, TIN, Email or Internal Reference."
+>>>>>>> upstream/18.0
 msgstr ""
 "Propojený partner (volitelný). Obvykle se vytváří při převodu potenciálního "
 "zákazníka. Partnera můžete najít podle jeho jména, DIČ, e-mailu nebo "
@@ -4357,11 +4738,19 @@ msgstr "Vypadá to, že se nic neplánuje."
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid ""
+<<<<<<< HEAD
 "Looks like nothing is planned. :(<br><br><i>Tip: Schedule activities to keep"
 " track of everything you have to do!</i>"
 msgstr ""
 "Vypadá to, že nic není naplánováno :(<br><br><i>Tip: Naplánujte si aktivity,"
 " abyste měli přehled o všem, co musíte udělat!</i>"
+=======
+"Looks like nothing is planned. :(<br><br><i>Tip: Schedule activities to keep "
+"track of everything you have to do!</i>"
+msgstr ""
+"Vypadá to, že nic není naplánováno :(<br><br><i>Tip: Naplánujte si aktivity, "
+"abyste měli přehled o všem, co musíte udělat!</i>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -4441,8 +4830,13 @@ msgid ""
 "all teams."
 msgstr ""
 "Ruční přiřazení umožňuje spustit přiřazení z týmového formuláře pomocí "
+<<<<<<< HEAD
 "akčního tlačítka. Automatické nastavení nastaví cron opakovaně spouštěný pro"
 " přiřazení ve všech týmech."
+=======
+"akčního tlačítka. Automatické nastavení nastaví cron opakovaně spouštěný pro "
+"přiřazení ve všech týmech."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_action__manual
@@ -4715,8 +5109,13 @@ msgid ""
 "No allocated leads to %(team_name)s team and its salespersons because no "
 "unassigned lead matches its domain."
 msgstr ""
+<<<<<<< HEAD
 "Žádné přiřazené prospekty týmu %(team_name)s a jeho prodejcům, protože žádný"
 " nepřidělený prospekt neodpovídá jeho doméně."
+=======
+"Žádné přiřazené prospekty týmu %(team_name)s a jeho prodejcům, protože žádný "
+"nepřidělený prospekt neodpovídá jeho doméně."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
@@ -4768,8 +5167,12 @@ msgstr ""
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_team.py:0
+<<<<<<< HEAD
 msgid ""
 "No new lead allocated to the teams because no lead match their domains."
+=======
+msgid "No new lead allocated to the teams because no lead match their domains."
+>>>>>>> upstream/18.0
 msgstr ""
 "Žádný nový prospekt nebyl přidělen týmům, protože žádný prospekt neodpovídá "
 "jejich doménám."
@@ -4848,7 +5251,12 @@ msgstr "Počet zpráv s chybou při doručení"
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
 "Odoo helps you keep track of your sales pipeline to follow\n"
+<<<<<<< HEAD
 "                    up potential sales and better forecast your future revenues."
+=======
+"                    up potential sales and better forecast your future "
+"revenues."
+>>>>>>> upstream/18.0
 msgstr ""
 "Odoo vám pomůže sledovat vaše prodejní kanály, kde je třeba sledovat\n"
 "                   potenciální prodej a lépe předpovědět své budoucí příjmy."
@@ -4862,8 +5270,13 @@ msgid ""
 "opportunity moves forward in your sales cycle."
 msgstr ""
 "Engine Odoo umělé inteligence předpovídá úspěšnost každé obchodní "
+<<<<<<< HEAD
 "příležitosti na základě vaší historie. Úspěšnost můžete kdykoli aktualizovat"
 " ručně, ale pokud necháte Odoo provést práci, skóre se aktualizuje, zatímco "
+=======
+"příležitosti na základě vaší historie. Úspěšnost můžete kdykoli aktualizovat "
+"ručně, ale pokud necháte Odoo provést práci, skóre se aktualizuje, zatímco "
+>>>>>>> upstream/18.0
 "příležitost se posune kupředu ve vašem prodejním cyklu."
 
 #. module: crm
@@ -4917,12 +5330,21 @@ msgid ""
 "Opportunities Analysis gives you an instant access to your opportunities "
 "with information such as the expected revenue, planned cost, missed "
 "deadlines or the number of interactions per opportunity. This report is "
+<<<<<<< HEAD
 "mainly used by the sales manager in order to do the periodic review with the"
 " channels of the sales pipeline."
 msgstr ""
 "Analýza příležitostí vám poskytuje okamžitý přístup k vašim příležitostem s "
 "informacemi, jako jsou očekávané výnosy, plánované náklady, zmeškané termíny"
 " nebo počet interakcí na příležitost. Tuto sestavu používá hlavně manažer "
+=======
+"mainly used by the sales manager in order to do the periodic review with the "
+"channels of the sales pipeline."
+msgstr ""
+"Analýza příležitostí vám poskytuje okamžitý přístup k vašim příležitostem s "
+"informacemi, jako jsou očekávané výnosy, plánované náklady, zmeškané termíny "
+"nebo počet interakcí na příležitost. Tuto sestavu používá hlavně manažer "
+>>>>>>> upstream/18.0
 "prodeje za účelem pravidelné kontroly kanálů obchodní nástěnky."
 
 #. module: crm
@@ -5060,8 +5482,13 @@ msgstr "ID vlákna nadřazeného záznamu"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_parent_model_id
 msgid ""
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 "(parent_model) and task (model))"
 msgstr ""
 "Nadřazený model s aliasem. Model obsahující odkaz na alias nemusí být nutně "
@@ -5154,12 +5581,22 @@ msgid ""
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 msgstr ""
 "Zásady zveřejňování zpráv v dokumentu pomocí poštovní brány.\n"
 "- každý: každý může psát\n"
 "- partneři: pouze ověření partneři\n"
+<<<<<<< HEAD
 "- sledující: pouze sledující související dokument nebo členové následujících kanálů\n"
+=======
+"- sledující: pouze sledující související dokument nebo členové následujících "
+"kanálů\n"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__duplicate_lead_ids
@@ -5705,7 +6142,12 @@ msgstr "Členové týmů"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid ""
 "The contacts below have been added as followers of this lead\n"
+<<<<<<< HEAD
 "                        because they have been contacted less than 30 days ago on"
+=======
+"                        because they have been contacted less than 30 days "
+"ago on"
+>>>>>>> upstream/18.0
 msgstr ""
 "Níže uvedené kontakty byly přidány jako následovníci tohoto prospektu,\n"
 "                        protože byli kontaktovány před méně než 30 dny"
@@ -5722,9 +6164,15 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_model_id
 msgid ""
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Model (Odoo Document Kind), ke kterému odpovídá tento alias. Jakýkoli "
 "příchozí e-mail, který neodpovídá stávajícímu záznamu, způsobí vytvoření "
@@ -5742,8 +6190,13 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__partner_name
 msgid ""
+<<<<<<< HEAD
 "The name of the future partner company that will be created while converting"
 " the lead into opportunity"
+=======
+"The name of the future partner company that will be created while converting "
+"the lead into opportunity"
+>>>>>>> upstream/18.0
 msgstr ""
 "Budoucí název společnosti v kontaktech, který se nastaví při převedení "
 "potenciálního zákazníka na příležitost"
@@ -5766,11 +6219,19 @@ msgstr "Míra úspěšnosti se vypočítá na základě"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_pls_update_view_form
 msgid ""
+<<<<<<< HEAD
 "The success rate is computed based on the stage, but you can add more fields"
 " in the statistical analysis."
 msgstr ""
 "Míra úspěšnosti se počítá na základě fáze, ale ve statistické analýze můžete"
 " přidat další pole."
+=======
+"The success rate is computed based on the stage, but you can add more fields "
+"in the statistical analysis."
+msgstr ""
+"Míra úspěšnosti se počítá na základě fáze, ale ve statistické analýze můžete "
+"přidat další pole."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_opportunity_report_action_lead
@@ -5810,12 +6271,20 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__email_normalized
 msgid ""
+<<<<<<< HEAD
 "This field is used to search on email address as the primary email field can"
 " contain more than strictly an email address."
 msgstr ""
 "Toto pole se používá k vyhledávání na e-mailové adrese, protože pole "
 "primární e-mailové adresy může obsahovat více než striktně e-mailovou "
 "adresu."
+=======
+"This field is used to search on email address as the primary email field can "
+"contain more than strictly an email address."
+msgstr ""
+"Toto pole se používá k vyhledávání na e-mailové adrese, protože pole "
+"primární e-mailové adresy může obsahovat více než striktně e-mailovou adresu."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__lang_code
@@ -5825,8 +6294,13 @@ msgstr "Toto pole se používá k nastavení / získání lokality pro uživatel
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__campaign_id
 msgid ""
+<<<<<<< HEAD
 "This is a name that helps you keep track of your different campaign efforts,"
 " e.g. Fall_Drive, Christmas_Special"
+=======
+"This is a name that helps you keep track of your different campaign efforts, "
+"e.g. Fall_Drive, Christmas_Special"
+>>>>>>> upstream/18.0
 msgstr ""
 "Toto je název, který vám pomůže sledovat různé kampaně, např. Fall_Drive, "
 "Christmas_Special"
@@ -5843,8 +6317,13 @@ msgid ""
 "This is the source of the link, e.g. Search Engine, another domain, or name "
 "of email list"
 msgstr ""
+<<<<<<< HEAD
 "Toto je zdroj odkazu, např. vyhledávač, jiná doména nebo název seznamu "
 "e-mailů"
+=======
+"Toto je zdroj odkazu, např. vyhledávač, jiná doména nebo název seznamu e-"
+"mailů"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -6068,11 +6547,22 @@ msgstr "Použijte stávajícího partnera nebo vytvořte"
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_lead
 msgid ""
 "Use leads if you need a qualification step before creating an\n"
+<<<<<<< HEAD
 "                    opportunity or a customer. It can be a business card you received,\n"
 "                    a contact form filled in your website, or a file of unqualified\n"
 "                    prospects you import, etc."
 msgstr ""
 "Před vytvořením souboru použijte potenciální zákazníky, pokud potřebujete kvalifikační krok\n"
+=======
+"                    opportunity or a customer. It can be a business card you "
+"received,\n"
+"                    a contact form filled in your website, or a file of "
+"unqualified\n"
+"                    prospects you import, etc."
+msgstr ""
+"Před vytvořením souboru použijte potenciální zákazníky, pokud potřebujete "
+"kvalifikační krok\n"
+>>>>>>> upstream/18.0
 "příležitost nebo zákazník. Může to být vizitka, kterou jste obdrželi,\n"
 "kontaktní formulář vyplněný na vašem webu nebo soubor nekvalifikovaných\n"
 "vyhlídky, které importujete atd."
@@ -6080,18 +6570,32 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Use leads if you need a qualification step before creating an opportunity or"
 " a customer. It can be a business card you received, a contact form filled "
 "in your website, or a file of unqualified prospects you import, etc. Once "
+=======
+"Use leads if you need a qualification step before creating an opportunity or "
+"a customer. It can be a business card you received, a contact form filled in "
+"your website, or a file of unqualified prospects you import, etc. Once "
+>>>>>>> upstream/18.0
 "qualified, the lead can be converted into a business opportunity and/or a "
 "new customer in your address book."
 msgstr ""
 "Pokud potřebujete kvalifikační krok před vytvořením příležitosti nebo "
+<<<<<<< HEAD
 "zákazníkem, použijte potenciální zákazníky. Může to být vizitka, kterou jste"
 " obdrželi, kontaktní formulář vyplněný na vašem webu, nebo soubor "
 "nekvalifikovaných potenciálních zákazníků, které importujete atd. Po získání"
 " kvalifikace lze potenciálního zákazníka převést na obchodní příležitost a /"
 " nebo na nového zákazníka ve vašem adresáři."
+=======
+"zákazníkem, použijte potenciální zákazníky. Může to být vizitka, kterou jste "
+"obdrželi, kontaktní formulář vyplněný na vašem webu, nebo soubor "
+"nekvalifikovaných potenciálních zákazníků, které importujete atd. Po získání "
+"kvalifikace lze potenciálního zákazníka převést na obchodní příležitost a / "
+"nebo na nového zákazníka ve vašem adresáři."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_action_helper
@@ -6111,8 +6615,13 @@ msgstr ""
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_7
 msgid ""
+<<<<<<< HEAD
 "Use the CRM Forecast Kanban to easily define when Opportunities are expected"
 " to be won."
+=======
+"Use the CRM Forecast Kanban to easily define when Opportunities are expected "
+"to be won."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: crm
@@ -6120,8 +6629,13 @@ msgstr ""
 msgid ""
 "Use the New button, or configure an email alias to test the email gateway."
 msgstr ""
+<<<<<<< HEAD
 "Použijte tlačítko Nový nebo nakonfigurujte e-mailový alias pro otestování "
 "e-mailové brány."
+=======
+"Použijte tlačítko Nový nebo nakonfigurujte e-mailový alias pro otestování e-"
+"mailové brány."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_opportunity_report_action
@@ -6273,11 +6787,21 @@ msgstr "Právě jste překonali svůj osobní rekord za posledních 7 dní."
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
 "You will be able to plan meetings and phone calls from\n"
+<<<<<<< HEAD
 "                    opportunities, convert them into quotations, attach related\n"
 "                    documents, track all discussions, and much more."
 msgstr ""
 "Budete moci plánovat schůzky a telefonní hovory z\n"
 "               obchodních příležitosti, převést je na nabídky, připojit související\n"
+=======
+"                    opportunities, convert them into quotations, attach "
+"related\n"
+"                    documents, track all discussions, and much more."
+msgstr ""
+"Budete moci plánovat schůzky a telefonní hovory z\n"
+"               obchodních příležitosti, převést je na nabídky, připojit "
+"související\n"
+>>>>>>> upstream/18.0
 "               dokumenty, sledovat všechny diskuse a mnoho dalšího."
 
 #. module: crm
@@ -6374,3 +6898,17 @@ msgstr ""
 #: code:addons/crm/models/crm_lead.py:0
 msgid "unknown"
 msgstr "neznámé"
+<<<<<<< HEAD
+=======
+
+#~ msgid ""
+#~ "For a sales team, there is nothing worse than being dry on leads. "
+#~ "Fortunately, in just a few clicks, you can generate leads specifically "
+#~ "targeted to your needs: company size, industry, etc. To help you test the "
+#~ "feature, we offer you 200 credits for free."
+#~ msgstr ""
+#~ "Pro prodejní tým není nic horšího, než být suchý na vedení. Naštěstí "
+#~ "pomocí několika kliknutí můžete vygenerovat potenciální zákazníky "
+#~ "konkrétně zaměřené na vaše potřeby: velikost společnosti, odvětví atd. "
+#~ "Abychom vám tuto funkci mohli otestovat, nabízíme vám 200 kreditů zdarma."
+>>>>>>> upstream/18.0
