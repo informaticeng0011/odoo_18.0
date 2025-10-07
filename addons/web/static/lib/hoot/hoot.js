@@ -141,11 +141,15 @@ export const __debug__ = runner;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //-----------------------------------------------------------------------------
 // Main
 //-----------------------------------------------------------------------------
 
 setupHootUI();
+=======
+export const isHootReady = setupHootUI();
+>>>>>>> upstream/18.0
 =======
 export const isHootReady = setupHootUI();
 >>>>>>> upstream/18.0

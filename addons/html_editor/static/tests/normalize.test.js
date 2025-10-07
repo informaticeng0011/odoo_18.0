@@ -1,5 +1,9 @@
 import { test } from "@odoo/hoot";
 import { testEditor } from "./_helpers/editor";
+<<<<<<< HEAD
+=======
+import { unformat } from "./_helpers/format";
+>>>>>>> upstream/18.0
 
 test("should remove empty class attribute", async () => {
     // content after is compared after cleaning up DOM
@@ -8,3 +12,44 @@ test("should remove empty class attribute", async () => {
         contentAfter: "<div><br></div>",
     });
 });
+<<<<<<< HEAD
+=======
+
+test("should remove `style.color` from table and apply it to tds", async () => {
+    await testEditor({
+        contentBefore: unformat(`
+                <table style="color: red;" class="o_selected_table"><tbody>
+                    <tr><td class="o_selected_td">ab</td></tr>
+                    <tr><td>ab</td></tr>
+                </tbody></table>
+            `),
+        contentBeforeEdit: unformat(`
+            <table style="" class="o_selected_table">
+                <tbody>
+                    <tr><td class="o_selected_td" style="color: red;">ab</td></tr>
+                    <tr><td style="color: red;">ab</td></tr>
+                </tbody>
+            </table>
+        `),
+    });
+});
+
+test("should remove `style.color` from table and apply it to td without `style.color`", async () => {
+    await testEditor({
+        contentBefore: unformat(`
+                <table style="color: red;"><tbody>
+                    <tr><td>ab</td></tr>
+                    <tr><td style="color: green;">ab</td></tr>
+                </tbody></table>
+            `),
+        contentBeforeEdit: unformat(`
+            <table style="">
+                <tbody>
+                    <tr><td style="color: red;">ab</td></tr>
+                    <tr><td style="color: green;">ab</td></tr>
+                </tbody>
+            </table>
+        `),
+    });
+});
+>>>>>>> upstream/18.0

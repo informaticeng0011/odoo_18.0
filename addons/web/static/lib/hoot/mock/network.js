@@ -30,6 +30,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { isInstanceOf } from "../../hoot-dom/hoot_dom_utils";
+>>>>>>> upstream/18.0
 =======
 import { isInstanceOf } from "../../hoot-dom/hoot_dom_utils";
 >>>>>>> upstream/18.0
@@ -235,7 +239,11 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const dispatchClose = (target, eventInit) => {
+=======
+function dispatchClose(target, eventInit) {
+>>>>>>> upstream/18.0
 =======
 function dispatchClose(target, eventInit) {
 >>>>>>> upstream/18.0
@@ -587,7 +595,11 @@ function dispatchClose(target, eventInit) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -938,7 +950,11 @@ function dispatchClose(target, eventInit) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const dispatchMessage = async (target, data, transfer) => {
+=======
+async function dispatchMessage(target, data, transfer) {
+>>>>>>> upstream/18.0
 =======
 async function dispatchMessage(target, data, transfer) {
 >>>>>>> upstream/18.0
@@ -1301,7 +1317,11 @@ async function dispatchMessage(target, data, transfer) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1564,6 +1584,7 @@ async function dispatchMessage(target, data, transfer) {
 /**
  * @param {...NetworkInstance} instances
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2081,10 +2102,16 @@ function isOpen(...instances) {
     return instances.every((i) => openNetworkInstances.has(i));
 }
 >>>>>>> upstream/18.0
+=======
+function isOpen(...instances) {
+    return instances.every((i) => openNetworkInstances.has(i));
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {...NetworkInstance} instances
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2347,6 +2374,8 @@ const markClosed = (...instances) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function markClosed(...instances) {
     for (const instance of instances) {
         openNetworkInstances.delete(instance);
@@ -2437,6 +2466,9 @@ function markClosed(...instances) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2699,11 +2731,14 @@ function markClosed(...instances) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const markOpen = (instance) => {
     openNetworkInstances.add(instance);
     return instance;
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2963,6 +2998,9 @@ function markOpen(instance) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3225,7 +3263,11 @@ function markOpen(instance) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const parseNetworkDelay = (min, max) => {
+=======
+function parseNetworkDelay(min, max) {
+>>>>>>> upstream/18.0
 =======
 function parseNetworkDelay(min, max) {
 >>>>>>> upstream/18.0
@@ -3582,7 +3624,11 @@ function parseNetworkDelay(min, max) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -3900,7 +3946,11 @@ export function cleanupNetwork() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (instance instanceof AbortController) {
+=======
+        if (isInstanceOf(instance, AbortController)) {
+>>>>>>> upstream/18.0
 =======
         if (isInstanceOf(instance, AbortController)) {
 >>>>>>> upstream/18.0
@@ -4070,9 +4120,15 @@ export async function mockedFetch(input, init) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (result && result.headers instanceof Headers) {
         headers = result.headers;
     } else if (init.headers instanceof Headers) {
+=======
+    if (result && isInstanceOf(result.headers, Headers)) {
+        headers = result.headers;
+    } else if (isInstanceOf(init.headers, Headers)) {
+>>>>>>> upstream/18.0
 =======
     if (result && isInstanceOf(result.headers, Headers)) {
         headers = result.headers;
@@ -4239,7 +4295,11 @@ export async function mockedFetch(input, init) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (result instanceof Response) {
+=======
+    if (isInstanceOf(result, Response)) {
+>>>>>>> upstream/18.0
 =======
     if (isInstanceOf(result, Response)) {
 >>>>>>> upstream/18.0
@@ -4352,7 +4412,11 @@ export async function mockedFetch(input, init) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else if (result instanceof Blob) {
+=======
+        } else if (isInstanceOf(result, Blob)) {
+>>>>>>> upstream/18.0
 =======
         } else if (isInstanceOf(result, Blob)) {
 >>>>>>> upstream/18.0
@@ -5047,7 +5111,11 @@ export class MockWebSocket extends MockEventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         dispatchClose(this, { code, reason });
+=======
+        tick().then(() => dispatchClose(this, { code, reason }));
+>>>>>>> upstream/18.0
 =======
         tick().then(() => dispatchClose(this, { code, reason }));
 >>>>>>> upstream/18.0

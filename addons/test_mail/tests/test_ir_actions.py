@@ -160,7 +160,11 @@ class TestServerActionsEmail(MailCommon, TestServerActionsBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                               'message_type': 'notification',
+=======
+                              'message_type': 'auto_comment',
+>>>>>>> upstream/18.0
 =======
                               'message_type': 'auto_comment',
 >>>>>>> upstream/18.0
@@ -493,7 +497,11 @@ class TestServerActionsEmail(MailCommon, TestServerActionsBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                               'message_type': 'notification',
+=======
+                              'message_type': 'auto_comment',
+>>>>>>> upstream/18.0
 =======
                               'message_type': 'auto_comment',
 >>>>>>> upstream/18.0

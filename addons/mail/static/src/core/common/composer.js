@@ -214,8 +214,11 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.ref.el.style.height = this.fakeTextarea.el.scrollHeight + "px";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -339,6 +342,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -540,6 +546,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ev.preventDefault();
+>>>>>>> upstream/18.0
 =======
         ev.preventDefault();
 >>>>>>> upstream/18.0
@@ -954,7 +964,11 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (this.isMobileOS) {
+=======
+                if (this.isMobileOS || ev.isComposing) {
+>>>>>>> upstream/18.0
 =======
                 if (this.isMobileOS || ev.isComposing) {
 >>>>>>> upstream/18.0
@@ -1174,7 +1188,11 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.props.composer.emailAddSignature ? markup(this.store.self.signature) : ""
+=======
+            this.props.composer.emailAddSignature ? this.thread.effectiveSelf.signature : ""
+>>>>>>> upstream/18.0
 =======
             this.props.composer.emailAddSignature ? this.thread.effectiveSelf.signature : ""
 >>>>>>> upstream/18.0

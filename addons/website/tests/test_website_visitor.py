@@ -50,7 +50,11 @@ class MockVisitor(common.BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('-at_install', 'post_install', 'website_visitor')
+=======
+@tagged('-at_install', 'post_install', 'website_visitor', 'is_query_count')
+>>>>>>> upstream/18.0
 =======
 @tagged('-at_install', 'post_install', 'website_visitor', 'is_query_count')
 >>>>>>> upstream/18.0

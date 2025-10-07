@@ -19,8 +19,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_check_printing
 # 
+=======
+# * account_check_printing
+#
+>>>>>>> upstream/18.0
 =======
 # * account_check_printing
 #
@@ -182,6 +187,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # or balmas, 2025
 >>>>>>> upstream/18.0
@@ -424,10 +430,15 @@
 # or balmas, 2025
 # or balmas <or@laylinetech.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# or balmas, 2025
+# or balmas <or@laylinetech.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 <<<<<<< HEAD
@@ -714,6 +725,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-10-03 18:38+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-10-03 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-16 22:20+0000\n"
 "Last-Translator: or balmas <or@laylinetech.com>\n"
 "Language-Team: Hebrew <https://translate.odoo.com/projects/odoo-18/"
@@ -742,6 +756,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -858,7 +875,11 @@ msgid "%(journal)s: Check Number Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(journal)s: רצף מספרי של שיקים"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(journal)s: רצף מספרי של שיקים"
 >>>>>>> upstream/18.0
@@ -1241,8 +1262,13 @@ msgstr "מזהה"
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In order to print multiple checks at once, they must belong to the same bank"
 " journal."
+=======
+"In order to print multiple checks at once, they must belong to the same bank "
+"journal."
+>>>>>>> upstream/18.0
 =======
 "In order to print multiple checks at once, they must belong to the same bank "
 "journal."
@@ -1275,6 +1301,7 @@ msgstr "מספור ידני"
 msgid ""
 "Manual: Pay or Get paid by any method outside of Odoo.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
@@ -1288,6 +1315,8 @@ msgstr ""
 "העברת אשראי SEPA: שלם באזור SEPA על ידי שליחת קובץ העברת אשראי SEPA לבנק שלך. מודול account_sepa הכרחי.\n"
 "הוראת קבע SEPA: קבל תשלום באזור SEPA הודות למנדט שהשותף שלך יעניק לך. מודול account_sepa הכרחי.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Payment Providers: Each payment provider has its own Payment Method. Request "
 "a transaction on/to a card thanks to a payment token saved by the partner "
 "when buying or subscribing online.\n"
@@ -1310,6 +1339,9 @@ msgstr ""
 "שלך. מודול account_sepa הכרחי.\n"
 "הוראת קבע SEPA: קבל תשלום באזור SEPA הודות למנדט שהשותף שלך יעניק לך. מודול "
 "account_sepa הכרחי.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_check_printing
@@ -1363,8 +1395,13 @@ msgstr "כדי להדפיס צ'קים צריך לסמן 'צ'ק' כאמצעי ת�
 #: model_terms:ir.ui.view,arch_db:account_check_printing.print_pre_numbered_checks_view
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please enter the number of the first pre-printed check that you are about to"
 " print on."
+=======
+"Please enter the number of the first pre-printed check that you are about to "
+"print on."
+>>>>>>> upstream/18.0
 =======
 "Please enter the number of the first pre-printed check that you are about to "
 "print on."
@@ -1416,7 +1453,12 @@ msgstr "שוליים ימניים"
 #: model:ir.model.fields,help:account_check_printing.field_res_config_settings__account_check_printing_layout
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Select the format corresponding to the check paper you will be printing your checks on.\n"
+=======
+"Select the format corresponding to the check paper you will be printing your "
+"checks on.\n"
+>>>>>>> upstream/18.0
 =======
 "Select the format corresponding to the check paper you will be printing your "
 "checks on.\n"
@@ -1454,7 +1496,10 @@ msgstr ""
 #. module: account_check_printing
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/account_check_printing/models/account_journal.py:0
 msgid ""
 "The check number you entered (%(num)s) exceeds the maximum allowed value of %"
@@ -1463,6 +1508,9 @@ msgstr ""
 
 #. module: account_check_printing
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid ""

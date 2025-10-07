@@ -48,6 +48,7 @@ from .test_token_access import TestTokenAccess
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('odoo2google')
 =======
 
@@ -72,6 +73,10 @@ from .test_token_access import TestTokenAccess
 =======
 
 @tagged('odoo2google', 'calendar_performance')
+>>>>>>> upstream/18.0
+=======
+
+@tagged('odoo2google', 'calendar_performance', 'is_query_count')
 >>>>>>> upstream/18.0
 =======
 
@@ -266,7 +271,11 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=615):
+=======
+        with self.assertQueryCount(__system__=526):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(__system__=526):
 >>>>>>> upstream/18.0
@@ -405,10 +414,16 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=29):
             events.unlink()
 
 
+=======
+        with self.assertQueryCount(__system__=24):
+            events.unlink()
+
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(__system__=24):
             events.unlink()
@@ -607,7 +622,11 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=86):
+=======
+        with self.assertQueryCount(__system__=105):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(__system__=105):
 >>>>>>> upstream/18.0
@@ -748,7 +767,11 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=38):
+=======
+        with self.assertQueryCount(__system__=29):  # gc: 34
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(__system__=29):  # gc: 34
 >>>>>>> upstream/18.0
@@ -1380,6 +1403,7 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1470,6 +1494,8 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1917,6 +1943,7 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_event_duplication_allday_google_calendar(self):
         event = self.env['calendar.event'].with_user(self.organizer_user).create({
             'name': "Event",
@@ -2198,6 +2225,10 @@ class TestSyncOdoo2Google(TestSyncGoogle):
     @patch.object(User, '_sync_request')
     def test_skip_google_sync_for_non_synchronized_users_new_events(self, mock_sync_request):
 >>>>>>> upstream/18.0
+=======
+    @patch.object(User, '_sync_request')
+    def test_skip_google_sync_for_non_synchronized_users_new_events(self, mock_sync_request):
+>>>>>>> upstream/18.0
         """
         Skip the synchro of new events by attendees when the organizer is not synchronized with Google.
         Otherwise, the event ownership will be lost to the attendee and it could generate duplicates in
@@ -2313,6 +2344,7 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2392,6 +2424,8 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2503,6 +2537,9 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2677,6 +2714,7 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2711,6 +2749,9 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
 >>>>>>> upstream/18.0
 =======
 

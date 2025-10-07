@@ -1,5 +1,11 @@
 # -*- encoding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+<<<<<<< HEAD
+=======
+
+from pprint import pformat
+
+>>>>>>> upstream/18.0
 import requests
 
 from odoo import http
@@ -14,6 +20,10 @@ FIELDS_MAPPING = {
     'country': ['country'],
     'street_number': ['number'],
     'locality': ['city'],  # If locality exists, use it instead of the more general administrative area
+<<<<<<< HEAD
+=======
+    'postal_town': ['city'],  # Used instead of locality in some countries
+>>>>>>> upstream/18.0
     'route': ['street'],
     'postal_code': ['zip'],
     'administrative_area_level_1': ['state', 'city'],
@@ -21,7 +31,11 @@ FIELDS_MAPPING = {
 }
 
 # If a google fields may correspond to multiple standard fields, the first occurrence in the list will overwrite following entries.
+<<<<<<< HEAD
 FIELDS_PRIORITY = ['country', 'street_number', 'neighborhood', 'locality', 'route', 'postal_code',
+=======
+FIELDS_PRIORITY = ['country', 'street_number', 'locality', 'postal_town', 'route', 'postal_code',
+>>>>>>> upstream/18.0
                    'administrative_area_level_1', 'administrative_area_level_2']
 GOOGLE_PLACES_ENDPOINT = 'https://maps.googleapis.com/maps/api/place'
 TIMEOUT = 2.5
@@ -43,6 +57,14 @@ class AutoCompleteController(http.Controller):
                     standard_data[field_standard] = request.env['res.country'].search(
                         [('code', '=', google_field['short_name'].upper())])[0].id
                 elif field_standard == 'state':
+<<<<<<< HEAD
+=======
+                    if 'country' not in standard_data:
+                        _logger.warning(
+                            "Cannot assign state before country:\n%s", pformat(google_fields),
+                        )
+                        continue
+>>>>>>> upstream/18.0
                     state = request.env['res.country.state'].search(
                         [('code', '=', google_field['short_name'].upper()),
                          ('country_id', '=', standard_data['country'])])
@@ -137,9 +159,16 @@ class AutoCompleteController(http.Controller):
         except KeyError:
             return {'address': None}
 
+<<<<<<< HEAD
         # Keep only the first type from the list of types
         for res in results:
             res['type'] = res.pop('types')[0]
+=======
+        # Keep only the first known type from the list of types
+        for res in results:
+            types = res.pop('types')
+            res['type'] = next(iter(t for t in types if t in FIELDS_MAPPING), types[0])
+>>>>>>> upstream/18.0
 
         # Sort the result by their priority.
         results.sort(key=lambda r: FIELDS_PRIORITY.index(r['type']) if r['type'] in FIELDS_PRIORITY else 100)

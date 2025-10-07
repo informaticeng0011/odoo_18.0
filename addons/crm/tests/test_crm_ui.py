@@ -24,6 +24,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import os
+
+from unittest import skipIf
+>>>>>>> upstream/18.0
 =======
 import os
 
@@ -213,6 +219,10 @@ class TestUi(HttpCase, TestCrmCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @skipIf(os.getenv("ODOO_FAKETIME_TEST_MODE"), 'This tour uses CURRENT_DATE which cannot work in faketime mode')
+>>>>>>> upstream/18.0
 =======
     @skipIf(os.getenv("ODOO_FAKETIME_TEST_MODE"), 'This tour uses CURRENT_DATE which cannot work in faketime mode')
 >>>>>>> upstream/18.0

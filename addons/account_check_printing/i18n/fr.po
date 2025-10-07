@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* account_check_printing
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Manon Rondou, 2024
 # Wil Odoo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Manon Rondou, 2024
 # Wil Odoo, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-03 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -39,6 +48,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_check_printing
@@ -131,8 +143,12 @@ msgstr "Le numéro de chèque ne peut être constitué que de chiffres"
 #: model:ir.model.fields,help:account_check_printing.field_account_payment__check_manual_sequencing
 msgid "Check this option if your pre-printed checks are not numbered."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Cochez cette option si vos chèques pré-imprimés ne sont pas numérotés."
+=======
+msgstr "Cochez cette option si vos chèques pré-imprimés ne sont pas numérotés."
+>>>>>>> upstream/18.0
 =======
 msgstr "Cochez cette option si vos chèques pré-imprimés ne sont pas numérotés."
 >>>>>>> upstream/18.0
@@ -212,8 +228,13 @@ msgstr "ID"
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In order to print multiple checks at once, they must belong to the same bank"
 " journal."
+=======
+"In order to print multiple checks at once, they must belong to the same bank "
+"journal."
+>>>>>>> upstream/18.0
 =======
 "In order to print multiple checks at once, they must belong to the same bank "
 "journal."
@@ -248,6 +269,7 @@ msgstr "Numérotation manuelle"
 msgid ""
 "Manual: Pay or Get paid by any method outside of Odoo.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
@@ -261,6 +283,8 @@ msgstr ""
 "Virement SEPA : Payez dans la zone SEPA en soumettant un fichier de virement SEPA à votre banque. Le module account_sepa est nécessaire.\n"
 "Prélèvement SEPA : Soyez payé dans la zone SEPA grâce à un mandat que votre partenaire vous aura accordé. Le module account_sepa est nécessaire.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Payment Providers: Each payment provider has its own Payment Method. Request "
 "a transaction on/to a card thanks to a payment token saved by the partner "
 "when buying or subscribing online.\n"
@@ -286,6 +310,9 @@ msgstr ""
 "SEPA à votre banque. Le module account_sepa est nécessaire.\n"
 "Prélèvement SEPA : Soyez payé dans la zone SEPA grâce à un mandat que votre "
 "partenaire vous aura accordé. Le module account_sepa est nécessaire.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_check_printing
@@ -341,17 +368,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_check_printing.print_pre_numbered_checks_view
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please enter the number of the first pre-printed check that you are about to"
 " print on."
 msgstr ""
 "Veuillez saisir le numéro du premier chèque pré-imprimé que vous êtes sur le"
 " point d'imprimer."
 =======
+=======
+>>>>>>> upstream/18.0
 "Please enter the number of the first pre-printed check that you are about to "
 "print on."
 msgstr ""
 "Veuillez saisir le numéro du premier chèque pré-imprimé que vous êtes sur le "
 "point d'imprimer."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_check_printing
@@ -399,7 +432,12 @@ msgstr "Marge de droite"
 #: model:ir.model.fields,help:account_check_printing.field_res_config_settings__account_check_printing_layout
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Select the format corresponding to the check paper you will be printing your checks on.\n"
+=======
+"Select the format corresponding to the check paper you will be printing your "
+"checks on.\n"
+>>>>>>> upstream/18.0
 =======
 "Select the format corresponding to the check paper you will be printing your "
 "checks on.\n"
@@ -433,9 +471,12 @@ msgid ""
 msgstr ""
 "Une erreur s'est produite lors de la mise en page du chèque. Veuillez "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "sélectionner une autre mise en page dans les paramètres "
 "Facturation/Comptabilité et réessayer."
 =======
+=======
+>>>>>>> upstream/18.0
 "sélectionner une autre mise en page dans les paramètres Facturation/"
 "Comptabilité et réessayer."
 
@@ -446,6 +487,9 @@ msgid ""
 "The check number you entered (%(num)s) exceeds the maximum allowed value of %"
 "(max)d. Please enter a smaller number."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_check_printing
@@ -498,8 +542,13 @@ msgid ""
 "Disable this if your pre-printed check includes the date label."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cette option vous permet d'imprimer l'étiquette de date sur le chèque, selon"
 " le CPA. Elle peut être déactivée si les chèques pré-imprimés la prévoient "
+=======
+"Cette option vous permet d'imprimer l'étiquette de date sur le chèque, selon "
+"le CPA. Elle peut être déactivée si les chèques pré-imprimés la prévoient "
+>>>>>>> upstream/18.0
 =======
 "Cette option vous permet d'imprimer l'étiquette de date sur le chèque, selon "
 "le CPA. Elle peut être déactivée si les chèques pré-imprimés la prévoient "

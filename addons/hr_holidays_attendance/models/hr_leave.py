@@ -90,6 +90,7 @@ class HRLeave(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 leave.overtime_id.sudo().unlink()
 >>>>>>> upstream/18.0
@@ -186,6 +187,8 @@ class HRLeave(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 leave.sudo().overtime_id.unlink()
                 continue
             employee = leave.employee_id.sudo()
@@ -219,6 +222,9 @@ class HRLeave(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -302,6 +308,7 @@ class HRLeave(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = super().action_reset_confirm()
         overtime_leaves.overtime_id.sudo().unlink()
         return res
@@ -309,6 +316,8 @@ class HRLeave(models.Model):
     def action_confirm(self):
         res = super().action_confirm()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -387,6 +396,9 @@ class HRLeave(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

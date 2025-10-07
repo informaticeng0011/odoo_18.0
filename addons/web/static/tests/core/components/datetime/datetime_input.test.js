@@ -141,7 +141,10 @@ describe("DateTimeInput (date)", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // the onchange is called twice (when clicking and whe the popover is closing)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
