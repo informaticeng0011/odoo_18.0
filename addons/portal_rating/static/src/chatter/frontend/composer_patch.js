@@ -17,6 +17,7 @@ patch(Composer.prototype, {
         return super.allowUpload && !this.props.composer.portalComment;
     },
 
+<<<<<<< HEAD
     editMessage() {
         if (this.props.composer.portalComment) {
             this.savePublisherComment();
@@ -367,6 +368,17 @@ patch(Composer.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+    async editMessage() {
+        if (this.props.composer.portalComment) {
+            await this.savePublisherComment();
+            return;
+        }
+        await super.editMessage();
+    },
+
+    async savePublisherComment() {
+>>>>>>> upstream/18.0
         if (!this.state.active) {
             return;
         }
@@ -484,6 +496,9 @@ patch(Composer.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -719,6 +734,17 @@ patch(Composer.prototype, {
         this.props.onPostCallback();
     },
 
+<<<<<<< HEAD
+=======
+    get canProcessMessage() {
+        return super.canProcessMessage || (this.message && this.message.rating_value);
+    },
+
+    get askDeleteFromEdit() {
+        return super.askDeleteFromEdit && !this.message.rating_value;
+    },
+
+>>>>>>> upstream/18.0
     onMoveStar(ev) {
         const index = parseInt(ev.currentTarget.getAttribute("index"));
         this.portalState.starValue = index + 1;

@@ -236,7 +236,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -431,6 +434,10 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.assertTrue(len(self.main_pos_config.available_pricelist_ids.ids) > 1)
         self.main_pos_config.l10n_es_simplified_invoice_journal_id = self.main_pos_config.journal_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.main_pos_config.default_fiscal_position_id = self.fiscal_pos_a.id
+>>>>>>> upstream/18.0
 =======
         self.main_pos_config.default_fiscal_position_id = self.fiscal_pos_a.id
 >>>>>>> upstream/18.0
@@ -438,6 +445,7 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_simplified_invoice_not_override_set_pricelist', login="pos_user")
         order = self.env['pos.order'].search([('partner_id', '=', self.main_pos_config.simplified_partner_id.id)])
         self.assertNotEqual(order.pricelist_id, self.main_pos_config.simplified_partner_id.property_product_pricelist)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -718,6 +726,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 =======
         self.assertNotEqual(order.fiscal_position_id, self.fiscal_pos_a)
 >>>>>>> upstream/18.0
+=======
+        self.assertNotEqual(order.fiscal_position_id, self.fiscal_pos_a)
+>>>>>>> upstream/18.0
 
     def test_simplified_partner_inactive_case(self):
         self.main_pos_config.simplified_partner_id.active = False
@@ -748,6 +759,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

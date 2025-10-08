@@ -25,6 +25,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import os
+
+from unittest import skipIf
+>>>>>>> upstream/18.0
 =======
 import os
 
@@ -170,6 +176,7 @@ class TestUi(HttpCase, TestCrmCommon):
         cls.env.ref('base.user_admin').tour_enabled = False
 
     def test_01_crm_tour(self):
+<<<<<<< HEAD
         # TODO: The tour is raising a JS error when selecting Brandon Freeman
         # but with the demo data it succeeds to continue if there is already another lead
         # in the pipe. Then the tour is using a record in the Qualified stage to create
@@ -296,6 +303,17 @@ class TestUi(HttpCase, TestCrmCommon):
     @skipIf(os.getenv("ODOO_FAKETIME_TEST_MODE"), 'This tour uses CURRENT_DATE which cannot work in faketime mode')
 >>>>>>> upstream/18.0
 =======
+    @skipIf(os.getenv("ODOO_FAKETIME_TEST_MODE"), 'This tour uses CURRENT_DATE which cannot work in faketime mode')
+>>>>>>> upstream/18.0
+=======
+        self.env["res.partner"].create({
+            'name': 'Brandon Freeman',
+            'email': 'brandon.freeman55@example.com',
+            'phone': '(355)-687-3262',
+            'is_company': True,
+        })
+        self.start_tour("/odoo", 'crm_tour', login="admin")
+
     @skipIf(os.getenv("ODOO_FAKETIME_TEST_MODE"), 'This tour uses CURRENT_DATE which cannot work in faketime mode')
 >>>>>>> upstream/18.0
     def test_02_crm_tour_rainbowman(self):

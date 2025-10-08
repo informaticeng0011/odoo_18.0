@@ -113,6 +113,10 @@ export class Composer extends Component {
             active: true,
             isFullComposerOpen: false,
         });
+<<<<<<< HEAD
+=======
+        this.root = useRef("root");
+>>>>>>> upstream/18.0
         this.fullComposerBus = new EventBus();
         this.selection = useSelection({
             refName: "textarea",
@@ -215,8 +219,11 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.ref.el.style.height = this.fakeTextarea.el.scrollHeight + "px";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -343,6 +350,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -547,6 +557,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ev.preventDefault();
+>>>>>>> upstream/18.0
 =======
         ev.preventDefault();
 >>>>>>> upstream/18.0
@@ -965,7 +979,11 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (this.isMobileOS) {
+=======
+                if (this.isMobileOS || ev.isComposing) {
+>>>>>>> upstream/18.0
 =======
                 if (this.isMobileOS || ev.isComposing) {
 >>>>>>> upstream/18.0
@@ -1189,7 +1207,11 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.props.composer.emailAddSignature ? markup(this.store.self.signature) : ""
+=======
+            this.props.composer.emailAddSignature ? this.thread.effectiveSelf.signature : ""
+>>>>>>> upstream/18.0
 =======
             this.props.composer.emailAddSignature ? this.thread.effectiveSelf.signature : ""
 >>>>>>> upstream/18.0
@@ -1494,6 +1516,7 @@ export class Composer extends Component {
 
     async processMessage(cb) {
         const el = this.ref.el;
+<<<<<<< HEAD
         const attachments = this.props.composer.attachments;
         if (attachments.some(({ uploading }) => uploading)) {
             this.env.services.notification.add(_t("Please wait while the file is uploading."), {
@@ -1504,6 +1527,13 @@ export class Composer extends Component {
             attachments.length > 0 ||
             (this.message && this.message.attachment_ids.length > 0)
         ) {
+=======
+        if (this.props.composer.attachments.some(({ uploading }) => uploading)) {
+            this.env.services.notification.add(_t("Please wait while the file is uploading."), {
+                type: "warning",
+            });
+        } else if (this.canProcessMessage) {
+>>>>>>> upstream/18.0
             if (!this.state.active) {
                 return;
             }
@@ -1518,6 +1548,17 @@ export class Composer extends Component {
         }
     }
 
+<<<<<<< HEAD
+=======
+    get canProcessMessage() {
+        return (
+            this.props.composer.text.trim() ||
+            this.props.composer.attachments.length > 0 ||
+            (this.message && this.message.attachment_ids.length > 0)
+        );
+    }
+
+>>>>>>> upstream/18.0
     async sendMessage() {
         const composer = toRaw(this.props.composer);
         if (composer.message) {
@@ -1577,7 +1618,11 @@ export class Composer extends Component {
 
     async editMessage() {
         const composer = toRaw(this.props.composer);
+<<<<<<< HEAD
         if (composer.text || composer.message.attachment_ids.length > 0) {
+=======
+        if (!this.askDeleteFromEdit) {
+>>>>>>> upstream/18.0
             await this.processMessage(async (value) =>
                 composer.message.edit(value, composer.attachments, {
                     mentionedChannels: composer.mentionedChannels,
@@ -1585,15 +1630,35 @@ export class Composer extends Component {
                 })
             );
         } else {
+<<<<<<< HEAD
             this.env.services.dialog.add(MessageConfirmDialog, {
                 message: composer.message,
                 onConfirm: () => this.message.remove(),
                 prompt: _t("Are you sure you want to delete this message?"),
             });
+=======
+            this.env.services.dialog.add(
+                MessageConfirmDialog,
+                {
+                    message: composer.message,
+                    onConfirm: () => this.message.remove(),
+                    prompt: _t("Are you sure you want to delete this message?"),
+                },
+                { context: this }
+            );
+>>>>>>> upstream/18.0
         }
         this.suggestion?.clearRawMentions();
     }
 
+<<<<<<< HEAD
+=======
+    get askDeleteFromEdit() {
+        const composer = toRaw(this.props.composer);
+        return !composer.text && composer.message.attachment_ids.length === 0;
+    }
+
+>>>>>>> upstream/18.0
     addEmoji(str) {
         const composer = toRaw(this.props.composer);
         const text = composer.text;

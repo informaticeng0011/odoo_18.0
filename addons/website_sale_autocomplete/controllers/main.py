@@ -1,6 +1,12 @@
 # -*- encoding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+from pprint import pformat
+
+>>>>>>> upstream/18.0
 =======
 
 from pprint import pformat
@@ -21,6 +27,10 @@ FIELDS_MAPPING = {
     'street_number': ['number'],
     'locality': ['city'],  # If locality exists, use it instead of the more general administrative area
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'postal_town': ['city'],  # Used instead of locality in some countries
+>>>>>>> upstream/18.0
 =======
     'postal_town': ['city'],  # Used instead of locality in some countries
 >>>>>>> upstream/18.0
@@ -32,7 +42,11 @@ FIELDS_MAPPING = {
 
 # If a google fields may correspond to multiple standard fields, the first occurrence in the list will overwrite following entries.
 <<<<<<< HEAD
+<<<<<<< HEAD
 FIELDS_PRIORITY = ['country', 'street_number', 'neighborhood', 'locality', 'route', 'postal_code',
+=======
+FIELDS_PRIORITY = ['country', 'street_number', 'locality', 'postal_town', 'route', 'postal_code',
+>>>>>>> upstream/18.0
 =======
 FIELDS_PRIORITY = ['country', 'street_number', 'locality', 'postal_town', 'route', 'postal_code',
 >>>>>>> upstream/18.0
@@ -58,12 +72,18 @@ class AutoCompleteController(http.Controller):
                         [('code', '=', google_field['short_name'].upper())])[0].id
                 elif field_standard == 'state':
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     if 'country' not in standard_data:
                         _logger.warning(
                             "Cannot assign state before country:\n%s", pformat(google_fields),
                         )
                         continue
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     state = request.env['res.country.state'].search(
                         [('code', '=', google_field['short_name'].upper()),
@@ -160,14 +180,20 @@ class AutoCompleteController(http.Controller):
             return {'address': None}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Keep only the first type from the list of types
         for res in results:
             res['type'] = res.pop('types')[0]
 =======
+=======
+>>>>>>> upstream/18.0
         # Keep only the first known type from the list of types
         for res in results:
             types = res.pop('types')
             res['type'] = next(iter(t for t in types if t in FIELDS_MAPPING), types[0])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         # Sort the result by their priority.

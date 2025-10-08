@@ -51,6 +51,7 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (!order.partner_id) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,17 +335,26 @@ patch(PaymentScreen.prototype, {
 =======
                 if (!order.partner_id && order.to_invoice) {
 >>>>>>> upstream/18.0
+=======
+                if (!order.partner_id && order.to_invoice) {
+>>>>>>> upstream/18.0
                     const setPricelist =
                         this.pos.config.pricelist_id?.id != order.pricelist_id?.id
                             ? order.pricelist_id.id
                             : false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     const setFiscalPosition =
                         this.pos.config.default_fiscal_position_id?.id !=
                         order.fiscal_position_id?.id
                             ? order.fiscal_position_id?.id
                             : false;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     order.set_partner(this.pos.config.simplified_partner_id);
                     if (setPricelist) {
@@ -443,6 +453,7 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -627,6 +638,11 @@ patch(PaymentScreen.prototype, {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                    if (setFiscalPosition !== false) {
+                        order.update({ fiscal_position_id: setFiscalPosition });
+                    }
 >>>>>>> upstream/18.0
 =======
                     if (setFiscalPosition !== false) {

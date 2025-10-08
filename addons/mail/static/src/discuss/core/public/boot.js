@@ -3,6 +3,10 @@ import { DiscussClientAction } from "@mail/core/public_web/discuss_client_action
 import { mount, whenReady } from "@odoo/owl";
 
 import { getTemplate } from "@web/core/templates";
+<<<<<<< HEAD
+=======
+import { _t } from "@web/core/l10n/translation";
+>>>>>>> upstream/18.0
 import { MainComponentsContainer } from "@web/core/main_components_container";
 import { registry } from "@web/core/registry";
 import { makeEnv, startServices } from "@web/env";
@@ -21,6 +25,10 @@ import { makeEnv, startServices } from "@web/env";
         env,
         getTemplate,
         dev: env.debug,
+<<<<<<< HEAD
+=======
+        translateFn: _t,
+>>>>>>> upstream/18.0
     });
     odoo.__WOWL_DEBUG__ = { root };
 })();

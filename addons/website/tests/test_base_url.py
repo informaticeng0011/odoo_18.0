@@ -3,6 +3,10 @@
 from lxml.html import document_fromstring
 
 import odoo.tests
+<<<<<<< HEAD
+=======
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 
 
 class TestUrlCommon(odoo.tests.HttpCase):
@@ -148,3 +152,14 @@ class TestGetBaseUrl(odoo.tests.TransactionCase):
         with self.assertRaises(ValueError):
             # if more than one record, an error we should be raised
             Attachment.search([], limit=2).get_base_url()
+<<<<<<< HEAD
+=======
+
+    def test_03_invalid_website_domain(self):
+        website = self.env['website'].create({
+            'name': 'Website Test 2',
+        })
+
+        with self.assertRaises(ValidationError):
+            website.write({'domain': 'https://my-website.net['})
+>>>>>>> upstream/18.0

@@ -49,6 +49,10 @@
         'web.assets_frontend': [
             'website_blog/static/src/scss/website_blog.scss',
             'website_blog/static/src/js/contentshare.js',
+<<<<<<< HEAD
+=======
+            'website_blog/static/src/js/post_link.js',
+>>>>>>> upstream/18.0
             'website_blog/static/src/js/website_blog.js',
         ],
     },

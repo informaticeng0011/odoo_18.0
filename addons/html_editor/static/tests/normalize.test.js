@@ -1,6 +1,10 @@
 import { test } from "@odoo/hoot";
 import { testEditor } from "./_helpers/editor";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { unformat } from "./_helpers/format";
+>>>>>>> upstream/18.0
 =======
 import { unformat } from "./_helpers/format";
 >>>>>>> upstream/18.0
@@ -13,7 +17,10 @@ test("should remove empty class attribute", async () => {
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("should remove `style.color` from table and apply it to tds", async () => {
     await testEditor({
@@ -52,4 +59,7 @@ test("should remove `style.color` from table and apply it to td without `style.c
         `),
     });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

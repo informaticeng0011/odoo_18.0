@@ -71,6 +71,10 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        multi_edit: { type: Boolean, optional: true },
+>>>>>>> upstream/18.0
 =======
         multi_edit: { type: Boolean, optional: true },
 >>>>>>> upstream/18.0
@@ -184,6 +188,10 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            update_plan: {},
+>>>>>>> upstream/18.0
 =======
             update_plan: {},
 >>>>>>> upstream/18.0
@@ -300,6 +308,10 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.initialFormattedData = [];
+>>>>>>> upstream/18.0
 =======
         this.initialFormattedData = [];
 >>>>>>> upstream/18.0
@@ -433,6 +445,10 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.planIdToColumn = {};
+>>>>>>> upstream/18.0
 =======
         this.planIdToColumn = {};
 >>>>>>> upstream/18.0
@@ -548,7 +564,10 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -628,6 +647,9 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -726,7 +748,10 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -806,6 +831,9 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -897,7 +925,12 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.state.formattedData.map((line) => {
+=======
+        const formattedData = this.props.multi_edit ? this.initialFormattedData : this.state.formattedData;
+        formattedData.map((line) => {
+>>>>>>> upstream/18.0
 =======
         const formattedData = this.props.multi_edit ? this.initialFormattedData : this.state.formattedData;
         formattedData.map((line) => {
@@ -1106,7 +1139,11 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const analyticAccountIds = jsonFieldValue ? Object.keys(jsonFieldValue).map((key) => key.split(',')).flat().map((id) => parseInt(id)) : [];
+=======
+        const analyticAccountIds = jsonFieldValue ? Object.keys(jsonFieldValue).filter((key) => key != '__update__' ).map((key) => key.split(',')).flat().map((id) => parseInt(id)) : [];
+>>>>>>> upstream/18.0
 =======
         const analyticAccountIds = jsonFieldValue ? Object.keys(jsonFieldValue).filter((key) => key != '__update__' ).map((key) => key.split(',')).flat().map((id) => parseInt(id)) : [];
 >>>>>>> upstream/18.0
@@ -1217,6 +1254,10 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (accountIds == '__update__') continue;
+>>>>>>> upstream/18.0
 =======
             if (accountIds == '__update__') continue;
 >>>>>>> upstream/18.0
@@ -1366,6 +1407,7 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const fieldName = `x_plan${account.planId}_id`;
 =======
             const fieldName = this.planIdToColumn[account.planId];
@@ -1430,6 +1472,8 @@ export class AnalyticDistribution extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             const fieldName = this.planIdToColumn[account.planId];
             const companyId = this.props.record.data.company_id && this.props.record.data.company_id[0];
             const domain = companyId
@@ -1454,6 +1498,9 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1503,8 +1550,12 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // company domain might be required here
                 domain: [["root_plan_id", "=", account.planId]],
+=======
+                domain,
+>>>>>>> upstream/18.0
 =======
                 domain,
 >>>>>>> upstream/18.0
@@ -1644,7 +1695,10 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1726,6 +1780,9 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1823,7 +1880,11 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const selected = record.data[`x_plan${account.planId}_id`];
+=======
+            const selected = record.data[this.planIdToColumn[account.planId]];
+>>>>>>> upstream/18.0
 =======
             const selected = record.data[this.planIdToColumn[account.planId]];
 >>>>>>> upstream/18.0
@@ -1999,6 +2060,12 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.props.multi_edit) {
+            result.__update__ = Object.entries(this.state.update_plan).filter((e) => e[1]).map((e) => e[0]);
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.props.multi_edit) {
             result.__update__ = Object.entries(this.state.update_plan).filter((e) => e[1]).map((e) => e[0]);
@@ -2165,7 +2232,10 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2247,6 +2317,9 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2354,6 +2427,12 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (this.props.multi_edit) {
+                this.state.formattedData = [];
+            }
+>>>>>>> upstream/18.0
 =======
             if (this.props.multi_edit) {
                 this.state.formattedData = [];
@@ -2631,12 +2710,15 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Dropdown should be closed only if all these condition are true:
             - dropdown is open
             - click is outside widget element (widgetRef)
             - there is no active modal containing a list/kanban view (search more modal)
             - there is no popover (click is not in search modal's search bar menu)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2720,6 +2802,9 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2806,7 +2891,12 @@ export class AnalyticDistribution extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             && !ev.target.closest(selectors.join(","))
+=======
+            && (!ev.target.closest(selectors.join(","))
+                || document.querySelector(".modal:not(.o_inactive_modal)").contains(this.widgetRef.el))
+>>>>>>> upstream/18.0
 =======
             && (!ev.target.closest(selectors.join(","))
                 || document.querySelector(".modal:not(.o_inactive_modal)").contains(this.widgetRef.el))
@@ -2942,8 +3032,11 @@ export const analyticDistribution = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     fieldDependencies: [{ name:"analytic_precision", type: "integer" }],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2987,6 +3080,9 @@ export const analyticDistribution = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3047,7 +3143,10 @@ export const analyticDistribution = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3128,6 +3227,9 @@ export const analyticDistribution = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3241,6 +3343,10 @@ export const analyticDistribution = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        multi_edit: options.multi_edit,
+>>>>>>> upstream/18.0
 =======
         multi_edit: options.multi_edit,
 >>>>>>> upstream/18.0

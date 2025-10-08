@@ -25,10 +25,13 @@ from odoo import models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 CHORUS_PRO_PEPPOL_ID = "0009:11000201100044"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -109,6 +112,9 @@ FR_SCHEME_IDS = {v: k for k, v in EAS_MAPPING['FR'].items()}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -219,7 +225,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'id_attrs': {'schemeName': 1},
+=======
+                        'id_attrs': {'schemeID': FR_SCHEME_IDS['siret']},
+>>>>>>> upstream/18.0
 =======
                         'id_attrs': {'schemeID': FR_SCHEME_IDS['siret']},
 >>>>>>> upstream/18.0
@@ -328,7 +338,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'id_attrs': {'schemeName': 2},
+=======
+                        'id_attrs': {'schemeID': FR_SCHEME_IDS['vat']},
+>>>>>>> upstream/18.0
 =======
                         'id_attrs': {'schemeID': FR_SCHEME_IDS['vat']},
 >>>>>>> upstream/18.0
@@ -462,7 +476,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -615,8 +632,13 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'schemeName': (
                         '1' if 'siret' in partner._fields and partner.siret and partner.country_code == 'FR' else '2'
+=======
+                    'schemeID': (
+                        FR_SCHEME_IDS['siret'] if 'siret' in partner._fields and partner.siret and partner.country_code == 'FR' else FR_SCHEME_IDS['vat']
+>>>>>>> upstream/18.0
 =======
                     'schemeID': (
                         FR_SCHEME_IDS['siret'] if 'siret' in partner._fields and partner.siret and partner.country_code == 'FR' else FR_SCHEME_IDS['vat']
@@ -768,6 +790,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

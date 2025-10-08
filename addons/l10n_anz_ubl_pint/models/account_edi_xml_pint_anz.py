@@ -26,6 +26,10 @@ from odoo import models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import float_is_zero
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_is_zero
 >>>>>>> upstream/18.0
@@ -130,6 +134,10 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
     def _get_partner_party_vals(self, partner, role):
         # EXTENDS account.edi.xml.ubl_bis3
         vals = super()._get_partner_party_vals(partner, role)
+<<<<<<< HEAD
+=======
+        vals.setdefault('party_tax_scheme_vals', [])
+>>>>>>> upstream/18.0
 
         for party_tax_scheme in vals['party_tax_scheme_vals']:
             party_tax_scheme['tax_scheme_vals'] = {'id': 'GST'}
@@ -211,7 +219,10 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -299,6 +310,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -401,7 +415,10 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -510,6 +527,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

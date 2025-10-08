@@ -516,7 +516,12 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         the default analytic account is correctly set during the conversion from po to invoice
+=======
+        the default analytic account is correctly set during the conversion from po to invoice.
+        An additional analytic account set manually in another plan is also passed to the invoice.
+>>>>>>> upstream/18.0
 =======
         the default analytic account is correctly set during the conversion from po to invoice.
         An additional analytic account set manually in another plan is also passed to the invoice.
@@ -857,7 +862,10 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1057,6 +1065,9 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1268,12 +1279,15 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         po.button_confirm()
         po.order_line.qty_received = 1
         po.action_create_invoice()
         self.assertRecordValues(po.invoice_ids.invoice_line_ids,
                                 [{'analytic_distribution': analytic_distribution_model.analytic_distribution}])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1477,6 +1491,9 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2342,7 +2359,11 @@ class TestInvoicePurchaseMatch(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         payment_reference = move_form._values['payment_reference']
+=======
+                        payment_reference = move_form._values['payment_reference'] or ''
+>>>>>>> upstream/18.0
 =======
                         payment_reference = move_form._values['payment_reference'] or ''
 >>>>>>> upstream/18.0
@@ -2524,7 +2545,10 @@ class TestInvoicePurchaseMatch(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2616,6 +2640,7 @@ class TestInvoicePurchaseMatch(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2666,4 +2691,34 @@ class TestInvoicePurchaseMatch(TestPurchaseToInvoiceCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_po_matching_credit_note(self):
+        po = self.init_purchase(partner=self.partner_a, products=[self.product_deliver])
+        pol = po.order_line
+        pol.product_qty = 3
+        po.button_confirm()
+
+        bill = self.init_invoice(move_type='in_invoice', partner=self.partner_a, products=[self.product_deliver])
+        bill.invoice_line_ids.quantity = 3
+
+        match_lines = self.env['purchase.bill.line.match'].search([('partner_id', '=', self.partner_a.id)])
+        match_lines.action_match_lines()
+
+        bill.action_post()
+        pol.qty_received = 2
+
+        credit_note = self.init_invoice(move_type='in_refund', partner=self.partner_a, amounts=[0])
+
+        self.env['purchase.order.line'].flush_model()
+        match_lines = self.env['purchase.bill.line.match'].search([('partner_id', '=', self.partner_a.id)])
+        self.assertEqual(match_lines.pol_id, pol)
+        self.assertEqual(match_lines.aml_id, credit_note.invoice_line_ids)
+
+        match_lines.action_match_lines()
+        self.assertRecordValues(credit_note.invoice_line_ids, [{
+            'quantity': 1,
+            'product_id': pol.product_id.id,
+        }])
 >>>>>>> upstream/18.0

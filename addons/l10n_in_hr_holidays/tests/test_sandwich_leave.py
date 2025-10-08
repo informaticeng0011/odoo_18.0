@@ -39,7 +39,10 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -114,6 +117,7 @@ class TestSandwichLeave(TransactionCase):
             'user_id': self.demo_user.id,
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226,6 +230,8 @@ class TestSandwichLeave(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.leave_type = self.env['hr.leave.type'].create({
             'name': 'Test Leave Type',
             'request_unit': 'day',
@@ -257,6 +263,9 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -317,6 +326,7 @@ class TestSandwichLeave(TransactionCase):
                 'date_from': '2023-08-15',
                 'date_to': '2023-08-15',
                 'resource_id': False,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,6 +421,8 @@ class TestSandwichLeave(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'company_id': self.indian_company.id,
             })
             before_holiday_leave = self.env['hr.leave'].create({
@@ -445,6 +457,9 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -539,7 +554,11 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ('employee_id', '=', self.rahul_emp.id),
+=======
+                ('employee_id', '=', self.demo_employee.id),
+>>>>>>> upstream/18.0
 =======
                 ('employee_id', '=', self.demo_employee.id),
 >>>>>>> upstream/18.0
@@ -665,7 +684,11 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'employee_id': self.rahul_emp.id,
+=======
+                'employee_id': self.demo_employee.id,
+>>>>>>> upstream/18.0
 =======
                 'employee_id': self.demo_employee.id,
 >>>>>>> upstream/18.0
@@ -795,7 +818,10 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -895,6 +921,7 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -953,4 +980,37 @@ class TestSandwichLeave(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_long_sandwich_leave(self):
+        public_holiday = self.env['resource.calendar.leaves'].create({
+            'name': "Independence Day",
+            'date_from': "2025-08-15",
+            'date_to': "2025-08-15",
+            'resource_id': False,
+            'company_id': self.indian_company.id,
+        })
+        holiday_leave = self.env['hr.leave'].create({
+            'name': "Test Leave",
+            'employee_id': self.demo_employee.id,
+            'holiday_status_id': self.leave_type.id,
+            'request_date_from': "2025-08-13",
+            'request_date_to': "2025-08-17",
+        })
+        leave = holiday_leave._l10n_in_apply_sandwich_rule(public_holiday, holiday_leave)
+        self.assertEqual(leave, 2, "The total leaves should be 2")
+
+    def test_half_day_leave(self):
+        half_leave = self.env['hr.leave'].create({
+                'name': "Half Day Leave",
+                'employee_id': self.demo_employee.id,
+                'holiday_status_id': self.leave_type.id,
+                'request_date_from': "2025-08-29",
+                'request_date_to': "2025-08-29",
+                'request_unit_half': True
+            })
+
+        leave = half_leave._get_durations()
+        self.assertEqual(leave[half_leave.id][0], 0.5, "The total leaves should be 0.5")
 >>>>>>> upstream/18.0

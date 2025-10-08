@@ -63,6 +63,7 @@ class PurchaseBillMatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     pol_id = fields.Many2one(comodel_name='purchase.order.line')
     aml_id = fields.Many2one(comodel_name='account.move.line')
     company_id = fields.Many2one(comodel_name='res.company')
@@ -77,6 +78,8 @@ class PurchaseBillMatch(models.Model):
     currency_id = fields.Many2one(comodel_name='res.currency')
     state = fields.Char()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -240,6 +243,9 @@ class PurchaseBillMatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -411,7 +417,11 @@ class PurchaseBillMatch(models.Model):
               FROM purchase_order_line pol
          LEFT JOIN purchase_order po ON pol.order_id = po.id
              WHERE pol.state in ('purchase', 'done')
+<<<<<<< HEAD
                AND pol.product_qty > pol.qty_invoiced
+=======
+               AND (pol.product_qty > pol.qty_invoiced OR pol.qty_to_invoice != 0)
+>>>>>>> upstream/18.0
                 OR ((pol.display_type = '' OR pol.display_type IS NULL) AND pol.is_downpayment AND pol.qty_invoiced > 0)
         """)
 
@@ -510,9 +520,12 @@ class PurchaseBillMatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         context = {
             'default_partner_id': self.partner_id.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -557,6 +570,9 @@ class PurchaseBillMatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

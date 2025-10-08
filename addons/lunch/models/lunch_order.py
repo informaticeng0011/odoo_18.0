@@ -113,7 +113,11 @@ class LunchOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             wallet_amount = self.env['lunch.cashmove'].get_wallet_balance(order.user_id, False) - price
+=======
+            wallet_amount = self.env['lunch.cashmove'].get_wallet_balance(order.user_id) - price
+>>>>>>> upstream/18.0
 =======
             wallet_amount = self.env['lunch.cashmove'].get_wallet_balance(order.user_id) - price
 >>>>>>> upstream/18.0

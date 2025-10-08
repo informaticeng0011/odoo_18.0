@@ -272,11 +272,19 @@
                                         <field name="is_time_limited" nolabel="1" class="oe_inline"
                                             widget="boolean_update_flag"
                                             options="{'flagFieldName': 'is_time_customized'}"
+<<<<<<< HEAD
                                             context="{'referenceValue': parent.session_speed_rating}"/>
                                         <field name="time_limit" nolabel="1" class="oe_inline"
                                             widget="integer_update_flag"
                                             options="{'flagFieldName': 'is_time_customized'}"
                                             context="{'referenceValue': parent.session_speed_rating_time_limit}"
+=======
+                                            context="{'referenceValue': survey_session_speed_rating}"/>
+                                        <field name="time_limit" nolabel="1" class="oe_inline"
+                                            widget="integer_update_flag"
+                                            options="{'flagFieldName': 'is_time_customized'}"
+                                            context="{'referenceValue': survey_session_speed_rating_time_limit}"
+>>>>>>> upstream/18.0
                                             invisible="not is_time_limited" />
                                     </div>
                                 </group>

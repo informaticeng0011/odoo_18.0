@@ -48,7 +48,11 @@ registry.category("web_tour.tours").add("course_review_modification", {
             run: "click",
         },
         {
+<<<<<<< HEAD
             trigger: "#chatterRoot:shadow :not(:has(.o-mail-Message))",
+=======
+            trigger: "#chatterRoot:shadow .o-mail-Thread:contains(The conversation is empty.)",
+>>>>>>> upstream/18.0
         },
         {
             trigger: ".o_wslides_course_header .o_website_rating_static[title='0 stars on 5']",
@@ -177,5 +181,43 @@ registry.category("web_tour.tours").add("course_review_modification", {
         {
             trigger: ".modal.modal_shown.show .o-mail-Composer-starCard:has(input[value='4'])",
         },
+<<<<<<< HEAD
+=======
+        {
+            trigger:
+                ".modal.modal_shown.show button.o_portal_chatter_composer_btn:contains(Post review)",
+            run: "click",
+        },
+        {
+            trigger:
+                "#chatterRoot:shadow .o-mail-Message:not(:has(.o-mail-Message-body)) .o_website_rating_static[title='4 stars on 5']",
+            run: "hover && click #chatterRoot:shadow .o-mail-Message [title='Edit']",
+        },
+        {
+            trigger: "#chatterRoot:shadow .o-mail-Message .o-mail-Composer-input",
+            run: "edit Fill the message body",
+        },
+        {
+            trigger: "#chatterRoot:shadow .o-mail-Message a:contains(save)",
+            run: "click",
+        },
+        {
+            trigger:
+                "#chatterRoot:shadow .o-mail-Message .o-mail-Message-body:contains(Fill the message body)",
+            run: "hover && click #chatterRoot:shadow .o-mail-Message [title='Edit']",
+        },
+        {
+            trigger: "#chatterRoot:shadow .o-mail-Message .o-mail-Composer-input",
+            run: "edit",
+        },
+        {
+            trigger: "#chatterRoot:shadow .o-mail-Message a:contains(save)",
+            run: "click",
+        },
+        {
+            trigger:
+                "#chatterRoot:shadow .o-mail-Message .o-mail-Message-body:not(:has(Fill the message body):contains( (edited))",
+        },
+>>>>>>> upstream/18.0
     ],
 });

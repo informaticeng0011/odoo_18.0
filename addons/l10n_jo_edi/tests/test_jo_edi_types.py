@@ -163,6 +163,10 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
+>>>>>>> upstream/18.0
 =======
             'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
 >>>>>>> upstream/18.0
@@ -352,6 +356,7 @@ class TestJoEdiTypes(JoEdiCommon):
         }
         refund_vals = {
             'name': 'TestEIN022R',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -623,6 +628,9 @@ class TestJoEdiTypes(JoEdiCommon):
 =======
             'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
 >>>>>>> upstream/18.0
+=======
+            'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
+>>>>>>> upstream/18.0
             'invoice_date': '2023-11-10',
         }
         refund = self._l10n_jo_create_refund(invoice_vals, 'Test/Return', refund_vals)
@@ -699,6 +707,10 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
+>>>>>>> upstream/18.0
 =======
             'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
 >>>>>>> upstream/18.0
@@ -923,6 +935,7 @@ class TestJoEdiTypes(JoEdiCommon):
             self.get_xml_tree_from_string(expected_file)
         )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1208,6 +1221,8 @@ class TestJoEdiTypes(JoEdiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_jo_no_vat_customer(self):
         self.company.l10n_jo_edi_taxpayer_type = 'income'
         self.company.l10n_jo_edi_sequence_income_source = '4419618'
@@ -1344,6 +1359,7 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1418,6 +1434,8 @@ class TestJoEdiTypes(JoEdiCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1624,6 +1642,9 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
