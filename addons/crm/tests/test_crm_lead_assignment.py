@@ -465,7 +465,10 @@ class TestLeadAssign(TestLeadAssignCommon):
         self.assertEqual(leads[5].user_id, self.user_sales_manager, 'Assigned lead should not be reassigned')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_assign_team_and_salesperson_on_duplicate_lead(self):
         """Ensure leads duplicated from an existing lead are assigned correctly."""
         duplicate_lead = self.env['crm.lead'].create({
@@ -486,6 +489,9 @@ class TestLeadAssign(TestLeadAssignCommon):
         self.assertEqual(duplicate_lead.team_id, sales_team)
         self.assertTrue(duplicate_lead.user_id)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @mute_logger('odoo.models.unlink')
     def test_merge_assign_keep_master_team(self):

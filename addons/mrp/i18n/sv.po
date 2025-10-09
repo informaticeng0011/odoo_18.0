@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 # 
+=======
+# * mrp
+#
+>>>>>>> upstream/18.0
 =======
 # * mrp
 #
@@ -31,7 +36,11 @@
 # Larissa Manderfeld, 2025
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Claes-Johan Dahlin <user-89@users.noreply.translate.odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Claes-Johan Dahlin <user-89@users.noreply.translate.odoo.com>, 2025.
 >>>>>>> upstream/18.0
@@ -39,6 +48,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -386,6 +396,8 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-06-13 18:36+0000\n"
 "PO-Revision-Date: 2025-10-07 22:20+0000\n"
 "Last-Translator: Claes-Johan Dahlin "
@@ -398,6 +410,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -2525,6 +2540,10 @@ msgstr "Demonteringsordning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -3349,7 +3368,10 @@ msgstr "Har routinglinjer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3517,6 +3539,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7905,6 +7930,7 @@ msgid ""
 "                        </b>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du förbrukade en annan mängd än förväntat för följande produkter.\n"
 "                        <b invisible=\"konsumtion == 'strikt'\">\n"
 "                            Vänligen bekräfta att det har gjorts med flit.\n"
@@ -7914,6 +7940,8 @@ msgstr ""
 "                            <span invisible=\"mrp_production_count != 1\">den här tillverkningsordern</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\">den här tillverkningsordern</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Du har konsumerat en annan mängd än förväntat för följande produkter.\n"
 "                        <b invisible=\"consumption == 'strict'\">\n"
 "                            Bekräfta att det har gjorts medvetet..\n"
@@ -7925,6 +7953,9 @@ msgstr ""
 ">denna tillverkningsorder</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\""
 ">dessa tillverkningsorder</span>.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </b>"
 
@@ -8199,6 +8230,7 @@ msgstr "arbetsorder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -8219,6 +8251,8 @@ msgstr "{{ props.isFolded ? \"Fäll ut\" : \"Fäll in\" }}"
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr "{{ state.isFolded ? \"Fäll ut\" : \"Fäll in\" }}"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

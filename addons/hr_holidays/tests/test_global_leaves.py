@@ -224,7 +224,11 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
+=======
+        }).action_validate()
+>>>>>>> upstream/18.0
 =======
         }).action_validate()
 >>>>>>> upstream/18.0
@@ -355,7 +359,10 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -468,6 +475,7 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -520,4 +528,55 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_public_holidays_for_consecutive_allocations(self):
+        employee = self.employee_emp
+        leave_type = self.env['hr.leave.type'].create({
+            'name': 'Paid Time Off',
+            'time_type': 'leave',
+            'requires_allocation': 'yes',
+        })
+        self.env['hr.leave.allocation'].create([
+            {
+                'name': '2025 allocation',
+                'holiday_status_id': leave_type.id,
+                'number_of_days': 20,
+                'employee_id': employee.id,
+                'state': 'confirm',
+                'date_from': date(2025, 1, 1),
+                'date_to': date(2025, 12, 31),
+            },
+            {
+                'name': '2026 allocation',
+                'holiday_status_id': leave_type.id,
+                'number_of_days': 20,
+                'employee_id': employee.id,
+                'state': 'confirm',
+                'date_from': date(2026, 1, 1),
+                'date_to': date(2026, 12, 31),
+            }
+        ]).action_validate()
+
+        leave = self.env['hr.leave'].create({
+            'name': 'Holiday 1 week',
+            'employee_id': employee.id,
+            'holiday_status_id': leave_type.id,
+            'request_date_from': datetime(2025, 12, 8, 7, 0),
+            'request_date_to': datetime(2026, 1, 3, 18, 0),
+        })
+        leave.action_validate()
+
+        self.assertEqual(leave.number_of_days, 20, "Number of days should be 20")
+
+        public_holiday = self.env['resource.calendar.leaves'].create({
+            'name': 'Global Time Off',
+            'date_from': datetime(2025, 12, 31, 23, 0, 0),
+            'date_to': datetime(2026, 1, 1, 22, 59, 59),
+        })
+
+        self.assertTrue(public_holiday)
+        self.assertEqual(leave.number_of_days, 19, "Number of days should be 19 as one day has been granted back to the"
+                                                   "the employee for the public holiday")
 >>>>>>> upstream/18.0

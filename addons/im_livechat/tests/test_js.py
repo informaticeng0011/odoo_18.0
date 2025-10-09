@@ -39,7 +39,11 @@ class ExternalTestSuite(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             success_signal="[HOOT] test suite succeeded",
+=======
+            success_signal="[HOOT] Test suite succeeded",
+>>>>>>> upstream/18.0
 =======
             success_signal="[HOOT] Test suite succeeded",
 >>>>>>> upstream/18.0

@@ -1938,7 +1938,10 @@ class TestPacking(TestPackingCommon):
         self.assertEqual(pack.location_id, delivery.location_dest_id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_unpick_move_after_pack_undone(self):
         """
         Ensure that stock moves are marked as not picked when a package level is undone.
@@ -1969,6 +1972,9 @@ class TestPacking(TestPackingCommon):
         delivery.package_level_ids.is_done = False
         self.assertFalse(delivery.move_ids.picked)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @odoo.tests.tagged('post_install', '-at_install')

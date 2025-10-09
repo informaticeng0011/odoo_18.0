@@ -55,6 +55,7 @@ class TestPeppolParticipant(TransactionCase):
         response.status_code = 200
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if r.url.endswith('/iso6523-actorid-upis%3A%3A9925%3A0000000000'):
             response.status_code = 404
             return response
@@ -67,6 +68,8 @@ class TestPeppolParticipant(TransactionCase):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         url = r.path_url.lower()
         if url.endswith('/iso6523-actorid-upis%3A%3A9925%3ABE0239843188'.lower()):
             response.status_code = 404
@@ -77,6 +80,9 @@ class TestPeppolParticipant(TransactionCase):
             return response
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -110,7 +116,11 @@ class TestPeppolParticipant(TransactionCase):
             'peppol_eas': '9925',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'peppol_endpoint': '0000000000',
+=======
+            'peppol_endpoint': 'BE0239843188',
+>>>>>>> upstream/18.0
 =======
             'peppol_endpoint': 'BE0239843188',
 >>>>>>> upstream/18.0
@@ -243,7 +253,10 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -602,6 +615,9 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -844,8 +860,12 @@ class TestPeppolParticipant(TransactionCase):
         # creating a receiver participant that already exists on Peppol network should not be possible
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals = self._get_participant_vals()
         vals['peppol_eas'] = '0208'
+=======
+        vals = {**self._get_participant_vals(), 'peppol_eas': '0208', 'peppol_endpoint': '0239843188'}
+>>>>>>> upstream/18.0
 =======
         vals = {**self._get_participant_vals(), 'peppol_eas': '0208', 'peppol_endpoint': '0239843188'}
 >>>>>>> upstream/18.0

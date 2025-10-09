@@ -4,6 +4,10 @@ import { mount, whenReady } from "@odoo/owl";
 
 import { getTemplate } from "@web/core/templates";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { _t } from "@web/core/l10n/translation";
+>>>>>>> upstream/18.0
 =======
 import { _t } from "@web/core/l10n/translation";
 >>>>>>> upstream/18.0
@@ -26,6 +30,10 @@ import { makeEnv, startServices } from "@web/env";
         getTemplate,
         dev: env.debug,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        translateFn: _t,
+>>>>>>> upstream/18.0
 =======
         translateFn: _t,
 >>>>>>> upstream/18.0

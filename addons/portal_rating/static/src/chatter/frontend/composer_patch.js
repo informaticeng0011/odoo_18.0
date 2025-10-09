@@ -18,6 +18,7 @@ patch(Composer.prototype, {
     },
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     editMessage() {
         if (this.props.composer.portalComment) {
             this.savePublisherComment();
@@ -369,6 +370,8 @@ patch(Composer.prototype, {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     async editMessage() {
         if (this.props.composer.portalComment) {
             await this.savePublisherComment();
@@ -378,6 +381,9 @@ patch(Composer.prototype, {
     },
 
     async savePublisherComment() {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (!this.state.active) {
             return;
@@ -497,6 +503,9 @@ patch(Composer.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -735,7 +744,10 @@ patch(Composer.prototype, {
     },
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     get canProcessMessage() {
         return super.canProcessMessage || (this.message && this.message.rating_value);
     },
@@ -744,6 +756,9 @@ patch(Composer.prototype, {
         return super.askDeleteFromEdit && !this.message.rating_value;
     },
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     onMoveStar(ev) {
         const index = parseInt(ev.currentTarget.getAttribute("index"));

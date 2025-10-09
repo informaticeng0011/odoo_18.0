@@ -33,7 +33,11 @@ class AccountFiscalPosition(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='Preferred MyDATA Classification',
+=======
+        string='Preferred myDATA Classification',
+>>>>>>> upstream/18.0
 =======
         string='Preferred myDATA Classification',
 >>>>>>> upstream/18.0

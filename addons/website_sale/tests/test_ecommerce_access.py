@@ -41,7 +41,10 @@ class TestEcommerceAccess(HttpCaseWithUserDemo, WebsiteSaleCommon):
         # Check if menu is hidden for public user when ecommerce is restricted
         self.assertFalse(self.menu.is_visible)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_ecommerce_access_shop_cart_redirection(self):
         self.website.ecommerce_access = 'logged_in'
@@ -66,4 +69,7 @@ class TestEcommerceAccess(HttpCaseWithUserDemo, WebsiteSaleCommon):
         response = self.url_open(f'/shop/{product_slug}', allow_redirects=True)
         self.assertEqual(response.status_code, 200)
         self.assertURLEqual(response.url, f'/web/login?redirect=/shop/{product_slug}')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

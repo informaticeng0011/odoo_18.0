@@ -1,5 +1,9 @@
 import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { animationFrame, press } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame, press } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -67,8 +71,14 @@ test("Barcode scanner crop overlay", async () => {
     patchWithCleanup(BarcodeVideoScanner.prototype, {
         async isVideoReady() {
 <<<<<<< HEAD
+<<<<<<< HEAD
             await super.isVideoReady(...arguments);
             videoReady.resolve();
+=======
+            const result = await super.isVideoReady(...arguments);
+            videoReady.resolve();
+            return result;
+>>>>>>> upstream/18.0
 =======
             const result = await super.isVideoReady(...arguments);
             videoReady.resolve();
@@ -146,7 +156,10 @@ test("BarcodeVideoScanner onReady props", async () => {
     expect(await resolvedOnReadyPromise).toBe(true);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("Closing barcode scanner before camera loads should not throw an error", async () => {
     const env = await makeMockEnv();
@@ -205,4 +218,7 @@ test("Closing barcode scanner while video is loading should not cause errors", a
     await animationFrame()
     expect(".o_error_dialog").toHaveCount(0)
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

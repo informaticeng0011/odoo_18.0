@@ -92,7 +92,11 @@ from odoo import _, api, fields, models, release
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.l10n_es_edi_sii.models.account_edi_format import PatchedHTTPAdapter
+=======
+from odoo.addons.certificate.tools import CertificateAdapter
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.certificate.tools import CertificateAdapter
 >>>>>>> upstream/18.0
@@ -531,7 +535,11 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.company_id._l10n_es_freelancer() and not self.env['ir.config_parameter'].sudo().get_param('l10n_es_edi_tbai.epigrafe', False):
+=======
+        if self.company_id.l10n_es_tbai_tax_agency == 'bizkaia' and self.company_id._l10n_es_freelancer() and not self.env['ir.config_parameter'].sudo().get_param('l10n_es_edi_tbai.epigrafe', False):
+>>>>>>> upstream/18.0
 =======
         if self.company_id.l10n_es_tbai_tax_agency == 'bizkaia' and self.company_id._l10n_es_freelancer() and not self.env['ir.config_parameter'].sudo().get_param('l10n_es_edi_tbai.epigrafe', False):
 >>>>>>> upstream/18.0
@@ -847,11 +855,14 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 is_simplified = values['is_simplified']
 
                 if not refunded_doc or refunded_doc.state == 'to_send':
                     return _("TicketBAI: Cannot post a reversal document while the source document has not been posted")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -879,6 +890,9 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1020,7 +1034,11 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             session.mount("https://", PatchedHTTPAdapter())
+=======
+            session.mount("https://", CertificateAdapter())
+>>>>>>> upstream/18.0
 =======
             session.mount("https://", CertificateAdapter())
 >>>>>>> upstream/18.0
@@ -1479,6 +1497,10 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'is_freelancer': freelancer,  # For bugfix, will be removed in master
+>>>>>>> upstream/18.0
 =======
             'is_freelancer': freelancer,  # For bugfix, will be removed in master
 >>>>>>> upstream/18.0
@@ -1929,6 +1951,7 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_sale_values(self, values):
         sale_values = {
 <<<<<<< HEAD
@@ -2056,6 +2079,8 @@ class L10nEsEdiTbaiDocument(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _get_refunded_values(self, values):
         if not values.get('is_refund'):
             return {}
@@ -2081,6 +2106,9 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2102,6 +2130,7 @@ class L10nEsEdiTbaiDocument(models.Model):
         return sale_values
 
     def _get_regime_code_value(self, taxes, is_simplified):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2498,6 +2527,9 @@ class L10nEsEdiTbaiDocument(models.Model):
 =======
         return {'regime_key': [taxes._l10n_es_get_regime_code()]}
 >>>>>>> upstream/18.0
+=======
+        return {'regime_key': [taxes._l10n_es_get_regime_code()]}
+>>>>>>> upstream/18.0
 
     @api.model
     def _add_base_lines_tax_amounts(self, base_lines, company, tax_lines=None):
@@ -2568,6 +2600,10 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            sign = grouping_key['is_refund'] and -1 or 1
+>>>>>>> upstream/18.0
 =======
             sign = grouping_key['is_refund'] and -1 or 1
 >>>>>>> upstream/18.0
@@ -2680,8 +2716,13 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'BaseImponible': float_round(values['base_amount'], 2),
                     'CuotaRepercutida': float_round(values['tax_amount'], 2),
+=======
+                    'BaseImponible': sign * float_round(values['base_amount'], 2),
+                    'CuotaRepercutida': sign * float_round(values['tax_amount'], 2),
+>>>>>>> upstream/18.0
 =======
                     'BaseImponible': sign * float_round(values['base_amount'], 2),
                     'CuotaRepercutida': sign * float_round(values['tax_amount'], 2),
@@ -2832,7 +2873,11 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'BaseImponible': float_round(values['base_amount'], 2),
+=======
+                        'BaseImponible': sign * float_round(values['base_amount'], 2),
+>>>>>>> upstream/18.0
 =======
                         'BaseImponible': sign * float_round(values['base_amount'], 2),
 >>>>>>> upstream/18.0
@@ -2950,6 +2995,7 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     detalle_iva[-1]['CuotaRecargoEquivalencia'] = float_round(values['tax_amount'], 2)
                     detalle_iva[-1]['TipoRecargoEquivalencia'] = grouping_key['applied_tax_amount']
             elif l10n_es_type == 'no_sujeto':
@@ -2961,6 +3007,8 @@ class L10nEsEdiTbaiDocument(models.Model):
                 no_sujeta.setdefault('ImporteTAIReglasLocalizacion', 0.0)
                 no_sujeta['ImporteTAIReglasLocalizacion'] += float_round(values['base_amount'], 2)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3049,6 +3097,9 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3175,6 +3226,11 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -3427,6 +3483,10 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'is_refund': base_line['is_refund'],
+>>>>>>> upstream/18.0
 =======
                 'is_refund': base_line['is_refund'],
 >>>>>>> upstream/18.0
@@ -3532,6 +3592,7 @@ class L10nEsEdiTbaiDocument(models.Model):
 
         # Aggregate the base lines again (with no grouping) to add the base amount to the total.
         def totals_grouping_function(base_line, tax_data):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3749,6 +3810,9 @@ class L10nEsEdiTbaiDocument(models.Model):
 =======
             return True if tax_data else None
 >>>>>>> upstream/18.0
+=======
+            return True if tax_data else None
+>>>>>>> upstream/18.0
 
         base_lines_aggregated_values = AccountTax._aggregate_base_lines_tax_details(base_lines, totals_grouping_function)
         values_per_grouping_key = AccountTax._aggregate_base_lines_aggregated_values(base_lines_aggregated_values)
@@ -3783,7 +3847,10 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3866,6 +3933,9 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3984,6 +4054,11 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -4236,6 +4311,10 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'is_refund': base_line['is_refund'],
+>>>>>>> upstream/18.0
 =======
                 'is_refund': base_line['is_refund'],
 >>>>>>> upstream/18.0
@@ -4401,7 +4480,11 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return True
+=======
+            return True if tax_data else None
+>>>>>>> upstream/18.0
 =======
             return True if tax_data else None
 >>>>>>> upstream/18.0
@@ -4630,6 +4713,7 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if is_refund:
             total_amount = -total_amount
@@ -4791,6 +4875,8 @@ class L10nEsEdiTbaiDocument(models.Model):
 
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4873,6 +4959,9 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5030,8 +5119,13 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'epigrafe': self.env['ir.config_parameter'].sudo().get_param('l10n_es_edi_tbai.epigrafe', '')
 
+=======
+            'epigrafe': self.env['ir.config_parameter'].sudo().get_param('l10n_es_edi_tbai.epigrafe', ''),
+            'batuz_correction': self.env.context.get('batuz_correction'),
+>>>>>>> upstream/18.0
 =======
             'epigrafe': self.env['ir.config_parameter'].sudo().get_param('l10n_es_edi_tbai.epigrafe', ''),
             'batuz_correction': self.env.context.get('batuz_correction'),
@@ -5175,6 +5269,7 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_tbai_sequence_and_number(self):
         """Get the TicketBAI sequence a number values for this invoice."""
         self.ensure_one()
@@ -5186,6 +5281,8 @@ class L10nEsEdiTbaiDocument(models.Model):
         # NOTE non-decimal characters should not appear in the number
         seq_length = self.env['sequence.mixin']._get_sequence_format_param(self.name)[1]['seq_length']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5208,6 +5305,9 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5226,6 +5326,7 @@ class L10nEsEdiTbaiDocument(models.Model):
         sequence = re.sub(r"\s+", " ", sequence)  # no more than one consecutive whitespace allowed
         # NOTE (optional) not recommended to use chars out of ([0123456789ABCDEFGHJKLMNPQRSTUVXYZ.\_\-\/ ])
         sequence += "TEST" if self.company_id.l10n_es_tbai_test_env else ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5328,6 +5429,8 @@ class L10nEsEdiTbaiDocument(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return sequence[-20:], number
 
     def _get_tbai_sequence_and_number(self):
@@ -5339,6 +5442,9 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

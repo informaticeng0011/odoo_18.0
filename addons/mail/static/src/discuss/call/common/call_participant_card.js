@@ -29,7 +29,11 @@ import { rpc } from "@web/core/network/rpc";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const HIDDEN_CONNECTION_STATES = new Set([undefined, "connected", "completed"]);
+=======
+const HIDDEN_CONNECTION_STATES = new Set(["connected", "completed"]);
+>>>>>>> upstream/18.0
 =======
 const HIDDEN_CONNECTION_STATES = new Set(["connected", "completed"]);
 >>>>>>> upstream/18.0

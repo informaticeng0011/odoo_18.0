@@ -142,6 +142,12 @@ export class BaseContainerPlugin extends Plugin {
     }
 
     normalizeDivBaseContainers(element = this.editable) {
+<<<<<<< HEAD
+=======
+        if (this.config.baseContainer && this.config.baseContainer !== "DIV") {
+            return;
+        }
+>>>>>>> upstream/18.0
         const newBaseContainers = [];
         const divSelector = `div:not(.${BASE_CONTAINER_CLASS})`;
         const targets = [...element.querySelectorAll(divSelector)];

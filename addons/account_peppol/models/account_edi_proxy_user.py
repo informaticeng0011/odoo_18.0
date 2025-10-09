@@ -37,7 +37,10 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import split_every
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -241,8 +244,12 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "If you have previously registered to an alternative Peppol service, please deregister from that service, "
                 "or request a migration key before trying again. "
+=======
+                "If you have previously registered to a Peppol service, please deregister."
+>>>>>>> upstream/18.0
 =======
                 "If you have previously registered to a Peppol service, please deregister."
 >>>>>>> upstream/18.0
@@ -547,6 +554,12 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Context added to not break stable policy: useful to tweak on databases processing large invoices
+        job_count = self._context.get('peppol_crons_job_count') or BATCH_SIZE
+        need_retrigger = False
+>>>>>>> upstream/18.0
 =======
         # Context added to not break stable policy: useful to tweak on databases processing large invoices
         job_count = self._context.get('peppol_crons_job_count') or BATCH_SIZE
@@ -731,6 +744,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            edi_user = edi_user.with_company(edi_user.company_id)
+>>>>>>> upstream/18.0
 =======
             edi_user = edi_user.with_company(edi_user.company_id)
 >>>>>>> upstream/18.0
@@ -831,6 +848,7 @@ class AccountEdiProxyClientUser(models.Model):
             if not message_uuids:
                 continue
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -996,6 +1014,8 @@ class AccountEdiProxyClientUser(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             need_retrigger = need_retrigger or len(message_uuids) > job_count
             message_uuids = message_uuids[:job_count]
 
@@ -1065,6 +1085,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            edi_user = edi_user.with_company(edi_user.company_id)
+>>>>>>> upstream/18.0
 =======
             edi_user = edi_user.with_company(edi_user.company_id)
 >>>>>>> upstream/18.0
@@ -1221,6 +1245,7 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1230,6 +1255,8 @@ class AccountEdiProxyClientUser(models.Model):
     def _peppol_get_participant_status(self):
         for edi_user in self:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1312,6 +1339,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

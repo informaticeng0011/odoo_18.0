@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19,6 +22,7 @@ class IrUiMenu(models.Model):
         is_user = self.env.user.has_group('hr_recruitment.group_hr_recruitment_user')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not is_interviewer:
             res.append(self.env.ref('hr.menu_view_hr_job').id)
         elif is_interviewer and not is_user:
@@ -26,6 +30,8 @@ class IrUiMenu(models.Model):
         else:
             res.append(self.env.ref('hr_recruitment.menu_hr_job_position_interviewer').id)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         job_menu = self.env.ref('hr_recruitment.menu_hr_job', raise_if_not_found=False)
@@ -38,6 +44,9 @@ class IrUiMenu(models.Model):
         elif int_menu:
             res.append(int_menu.id)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

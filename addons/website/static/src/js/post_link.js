@@ -32,7 +32,11 @@ publicWidget.registry.postLink = publicWidget.Widget.extend({
     _onClickPost: function (ev) {
         ev.preventDefault();
 <<<<<<< HEAD
+<<<<<<< HEAD
         const url = this.el.dataset.post || this.el.href;
+=======
+        const url = this.el.dataset.post || this.el.href || this.el.value;
+>>>>>>> upstream/18.0
 =======
         const url = this.el.dataset.post || this.el.href || this.el.value;
 >>>>>>> upstream/18.0

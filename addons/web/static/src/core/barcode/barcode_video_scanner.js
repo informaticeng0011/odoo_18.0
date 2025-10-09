@@ -6,7 +6,11 @@ import { loadJS } from "@web/core/assets";
 import { isVideoElementReady, buildZXingBarcodeDetector } from "./ZXingBarcodeDetector";
 import { CropOverlay } from "./crop_overlay";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, onMounted, onWillStart, onWillUnmount, useRef, useState } from "@odoo/owl";
+=======
+import { Component, onMounted, onWillStart, onWillUnmount, status, useRef, useState } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { Component, onMounted, onWillStart, onWillUnmount, status, useRef, useState } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -90,12 +94,18 @@ export class BarcodeVideoScanner extends Component {
             }
             this.videoPreviewRef.el.srcObject = this.stream;
 <<<<<<< HEAD
+<<<<<<< HEAD
             await this.isVideoReady();
 =======
+=======
+>>>>>>> upstream/18.0
             const ready = await this.isVideoReady();
             if (!ready) {
                 return;
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             const { height, width } = getComputedStyle(this.videoPreviewRef.el);
             const divWidth = width.slice(0, -2);
@@ -135,6 +145,12 @@ export class BarcodeVideoScanner extends Component {
         while (!isVideoElementReady(this.videoPreviewRef.el)) {
             await delay(10);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (status(this) === "destroyed"){
+                return false;
+            }
+>>>>>>> upstream/18.0
 =======
             if (status(this) === "destroyed"){
                 return false;
@@ -146,6 +162,10 @@ export class BarcodeVideoScanner extends Component {
             this.props.onReady();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return true;
+>>>>>>> upstream/18.0
 =======
         return true;
 >>>>>>> upstream/18.0

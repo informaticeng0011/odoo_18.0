@@ -49,7 +49,11 @@ registry.category("web_tour.tours").add("course_review_modification", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: "#chatterRoot:shadow :not(:has(.o-mail-Message))",
+=======
+            trigger: "#chatterRoot:shadow .o-mail-Thread:contains(The conversation is empty.)",
+>>>>>>> upstream/18.0
 =======
             trigger: "#chatterRoot:shadow .o-mail-Thread:contains(The conversation is empty.)",
 >>>>>>> upstream/18.0
@@ -182,7 +186,10 @@ registry.category("web_tour.tours").add("course_review_modification", {
             trigger: ".modal.modal_shown.show .o-mail-Composer-starCard:has(input[value='4'])",
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         {
             trigger:
                 ".modal.modal_shown.show button.o_portal_chatter_composer_btn:contains(Post review)",
@@ -218,6 +225,9 @@ registry.category("web_tour.tours").add("course_review_modification", {
             trigger:
                 "#chatterRoot:shadow .o-mail-Message .o-mail-Message-body:not(:has(Fill the message body):contains( (edited))",
         },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     ],
 });

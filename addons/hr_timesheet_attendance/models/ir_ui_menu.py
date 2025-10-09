@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17,8 +20,14 @@ class IrUiMenu(models.Model):
         res = super()._load_menus_blacklist()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not (self.env.user.has_group('hr_timesheet.group_hr_timesheet_user')):
             res.append(self.env.ref('hr_timesheet_attendance.menu_hr_timesheet_attendance_report').id)
+=======
+        att_menu = self.env.ref('hr_timesheet_attendance.menu_hr_timesheet_attendance_report', raise_if_not_found=False)
+        if att_menu and not (self.env.user.has_group('hr_timesheet.group_hr_timesheet_user')):
+            res.append(att_menu.id)
+>>>>>>> upstream/18.0
 =======
         att_menu = self.env.ref('hr_timesheet_attendance.menu_hr_timesheet_attendance_report', raise_if_not_found=False)
         if att_menu and not (self.env.user.has_group('hr_timesheet.group_hr_timesheet_user')):

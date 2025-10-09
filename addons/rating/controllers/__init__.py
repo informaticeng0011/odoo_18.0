@@ -2,6 +2,10 @@
 
 from . import main
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import portal_chatter
+>>>>>>> upstream/18.0
 =======
 from . import portal_chatter
 >>>>>>> upstream/18.0
