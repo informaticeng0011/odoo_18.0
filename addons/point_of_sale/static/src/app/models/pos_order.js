@@ -121,6 +121,7 @@ import { floatIsZero, roundPrecision } from "@web/core/utils/numbers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { roundCurrency } from "@point_of_sale/app/models/utils/currency";
 >>>>>>> upstream/18.0
@@ -154,6 +155,8 @@ import { roundCurrency } from "@point_of_sale/app/models/utils/currency";
 import { computeComboItems } from "./utils/compute_combo_items";
 import { accountTaxHelpers } from "@account/helpers/account_tax";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -473,6 +476,9 @@ import { toRaw } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -694,6 +700,7 @@ export class PosOrder extends Base {
     setup(vals) {
         super.setup(vals);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1099,6 +1106,9 @@ export class PosOrder extends Base {
 =======
         if (!this.session_id?.id && (!this.finalized || typeof this.id !== "number")) {
 >>>>>>> upstream/18.0
+=======
+        if (!this.session_id?.id && (!this.finalized || typeof this.id !== "number")) {
+>>>>>>> upstream/18.0
             this.update({ session_id: this.session });
 
             if (this.state === "draft" && this.lines.length == 0 && this.payment_ids.length == 0) {
@@ -1144,6 +1154,10 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                  metadata: {},
+>>>>>>> upstream/18.0
 =======
                   metadata: {},
 >>>>>>> upstream/18.0
@@ -1283,7 +1297,10 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 locked: this.state !== "draft",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1606,6 +1623,10 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        remaining = roundCurrency(remaining, this.currency);
+>>>>>>> upstream/18.0
 =======
         remaining = roundCurrency(remaining, this.currency);
 >>>>>>> upstream/18.0
@@ -2009,7 +2030,11 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             show_change: !floatIsZero(order_change, this.currency.decimal_places),
+=======
+            show_change: !floatIsZero(order_change, this.currency.decimal_places) && this.finalized,
+>>>>>>> upstream/18.0
 =======
             show_change: !floatIsZero(order_change, this.currency.decimal_places) && this.finalized,
 >>>>>>> upstream/18.0
@@ -2121,6 +2146,7 @@ export class PosOrder extends Base {
                         product_id: line.get_product().id,
                         name: line.get_full_product_name(),
                         basic_name: line.get_product().name,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2498,6 +2524,9 @@ export class PosOrder extends Base {
 =======
                         display_name: line.get_product().display_name,
 >>>>>>> upstream/18.0
+=======
+                        display_name: line.get_product().display_name,
+>>>>>>> upstream/18.0
                         note: line.getNote(),
                         quantity: line.get_quantity(),
                     };
@@ -2547,6 +2576,7 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         this.last_order_preparation_change.metadata = {
             serverDate: serializeDateTime(DateTime.now()),
@@ -2618,6 +2648,8 @@ export class PosOrder extends Base {
         };
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2661,6 +2693,9 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2726,6 +2761,7 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     generate_unique_id() {
         // Generates a public identification number for the order.
         // The generated number must be unique and sequential. They are made 12 digit long
@@ -2747,6 +2783,8 @@ export class PosOrder extends Base {
         );
     }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2901,12 +2939,35 @@ export class PosOrder extends Base {
         );
 
         for (const line of lines_to_recompute) {
+<<<<<<< HEAD
             const newPrice = line.product_id.get_price(
                 pricelist,
                 line.get_quantity(),
                 line.get_price_extra()
             );
             line.set_unit_price(newPrice);
+=======
+            if (line.isLotTracked()) {
+                const related_lines = [];
+                const price = line.product_id.get_price(
+                    pricelist,
+                    line.get_quantity(),
+                    line.get_price_extra(),
+                    false,
+                    false,
+                    line,
+                    related_lines
+                );
+                related_lines.forEach((line) => line.set_unit_price(price));
+            } else {
+                const newPrice = line.product_id.get_price(
+                    pricelist,
+                    line.get_quantity(),
+                    line.get_price_extra()
+                );
+                line.set_unit_price(newPrice);
+            }
+>>>>>>> upstream/18.0
         }
 
         const attributes_prices = {};
@@ -2930,6 +2991,7 @@ export class PosOrder extends Base {
                 }),
                 pricelist,
                 this.models["decimal.precision"].getAll(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3294,6 +3356,8 @@ export class PosOrder extends Base {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 this.models["product.template.attribute.value"].getAllBy("id"),
                 this.config_id.currency_id
             );
@@ -3327,6 +3391,9 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3681,7 +3748,12 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         !(orderLine.price_type === "manual")
+=======
+                        !(orderLine.price_type === "manual") &&
+                        orderLine.discount == 0
+>>>>>>> upstream/18.0
 =======
                         !(orderLine.price_type === "manual") &&
                         orderLine.discount == 0
@@ -4293,7 +4365,10 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4346,6 +4421,9 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4521,6 +4599,10 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            qrPaymentData: toRaw(this.get_selected_paymentline()?.qrPaymentData),
+>>>>>>> upstream/18.0
 =======
             qrPaymentData: toRaw(this.get_selected_paymentline()?.qrPaymentData),
 >>>>>>> upstream/18.0

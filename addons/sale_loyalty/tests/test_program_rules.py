@@ -2,6 +2,7 @@
 
 from datetime import date, timedelta
 <<<<<<< HEAD
+<<<<<<< HEAD
 from freezegun import freeze_time
 
 from odoo import Command
@@ -12,6 +13,8 @@ from odoo.addons.sale_loyalty.tests.common import TestSaleCouponCommon
 
 class TestProgramRules(TestSaleCouponCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 
 from freezegun import freeze_time
 from pytz import timezone
@@ -24,6 +27,9 @@ from odoo.addons.sale_loyalty.tests.common import TestSaleCouponCommon
 
 
 class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # Test all the validity rules to allow a customer to have a reward.
     # The check based on the products is already done in the basic operations test
@@ -417,7 +423,10 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
         msg = "The promo offer shouldn't have been applied as the number of uses is exceeded"
         self.assertEqual(len(order.order_line.ids), 1, msg)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_program_rules_validity_date_timezones(self):
         """Test that the validity dates are checked according to the company's time zone"""
@@ -496,4 +505,7 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
                 order.amount_total, tx.amount,
                 msg="Discount should still apply if transaction gets confirmed post-expiration",
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -5292,7 +5292,10 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5533,6 +5536,7 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5679,6 +5683,8 @@ class TestMrpOrder(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def test_workorders_without_worcenter_planned_slots(self):
         """
         Test that updating a workorder duration does not crash when others are unplanned.
@@ -5695,6 +5701,9 @@ class TestMrpOrder(TestMrpCommon):
             with mo_form.workorder_ids.edit(1) as second_wo_line:
                 second_wo_line.duration = 12.0  # Edit the duration of the second workorder
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('-at_install', 'post_install')

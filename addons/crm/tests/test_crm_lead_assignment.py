@@ -466,7 +466,10 @@ class TestLeadAssign(TestLeadAssignCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_assign_team_and_salesperson_on_duplicate_lead(self):
@@ -490,6 +493,9 @@ class TestLeadAssign(TestLeadAssignCommon):
         self.assertTrue(duplicate_lead.user_id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

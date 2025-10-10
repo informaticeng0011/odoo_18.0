@@ -220,6 +220,7 @@
                     <t t-out="object.company_id.phone or ''">+1 650-123-4567</t>
                     <t t-if="object.company_id.email">
 <<<<<<< HEAD
+<<<<<<< HEAD
                         | <a t-attf-href="'mailto:%s' % {{ object.company_id.email }}" style="text-decoration:none; color: #454748;"><t t-out="object.company_id.email or ''">info@yourcompany.com</t></a>
                     </t>
                     <t t-if="object.company_id.website">
@@ -227,10 +228,15 @@
                             <t t-out="object.company_id.website or ''">http://www.example.com</t>
                         </a>
 =======
+=======
+>>>>>>> upstream/18.0
                         | <a t-attf-href="mailto:{{object.company_id.email}}" style="text-decoration:none; color: #454748;" t-out="object.company_id.email or ''">info@yourcompany.com</a>
                     </t>
                     <t t-if="object.company_id.website">
                         | <a t-att-href="object.company_id.website" style="text-decoration:none; color: #454748;" t-out="object.company_id.website or ''">http://www.example.com</a>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     </t>
                 </td></tr>

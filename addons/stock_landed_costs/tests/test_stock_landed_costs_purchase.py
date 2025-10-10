@@ -716,7 +716,10 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -904,6 +907,7 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -914,6 +918,8 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1130,6 +1136,9 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

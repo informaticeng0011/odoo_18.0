@@ -70,7 +70,13 @@ import html
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from base64 import b64encode
+=======
+from http import HTTPStatus
+from base64 import b64encode
+from urllib.parse import parse_qs, urlsplit
+>>>>>>> upstream/18.0
 =======
 from http import HTTPStatus
 from base64 import b64encode
@@ -752,6 +758,7 @@ class TestHttpWebJson_1(TestHttpBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # we should find one redirect with the domain in the URL
         [hist] = res.history
         self.assertEqual(hist.status_code, 307)
@@ -759,6 +766,8 @@ class TestHttpWebJson_1(TestHttpBase):
         self.assertIn("limit=80", res.url)
         self.assertIn(f"domain={str_domain}", res.url)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -973,6 +982,9 @@ class TestHttpWebJson_1(TestHttpBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

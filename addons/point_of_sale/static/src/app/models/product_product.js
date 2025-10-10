@@ -129,7 +129,19 @@ export class ProductProduct extends Base {
     // product.pricelist.item records are loaded with a search_read
     // and were automatically sorted based on their _order by the
     // ORM. After that they are added in this order to the pricelists.
+<<<<<<< HEAD
     get_price(pricelist, quantity, price_extra = 0, recurring = false, list_price = false) {
+=======
+    get_price(
+        pricelist,
+        quantity,
+        price_extra = 0,
+        recurring = false,
+        list_price = false,
+        original_line = false,
+        related_lines = []
+    ) {
+>>>>>>> upstream/18.0
         // In case of nested pricelists, it is necessary that all pricelists are made available in
         // the POS. Display a basic alert to the user in the case where there is a pricelist item
         // but we can't load the base pricelist to get the price when calling this method again.
@@ -144,8 +156,23 @@ export class ProductProduct extends Base {
             );
         }
 
+<<<<<<< HEAD
         let price = (list_price || this.lst_price) + (price_extra || 0);
         const rule = this.getPricelistRule(pricelist, quantity);
+=======
+        if (original_line && original_line.isLotTracked()) {
+            related_lines.push(
+                ...original_line.order_id.lines.filter((line) => line.product_id.id === this.id)
+            );
+            quantity = related_lines.reduce((sum, line) => {
+                return sum + line.get_quantity();
+            }, 0);
+        }
+
+        const rule = this.getPricelistRule(pricelist, quantity);
+
+        let price = (list_price || this.lst_price) + (price_extra || 0);
+>>>>>>> upstream/18.0
         if (!rule) {
             return price;
         }
@@ -285,6 +312,12 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    get variants() {
+        return this.product_tmpl_id?.["<-product.product.product_tmpl_id"];
+    }
+>>>>>>> upstream/18.0
 =======
     get variants() {
         return this.product_tmpl_id?.["<-product.product.product_tmpl_id"];

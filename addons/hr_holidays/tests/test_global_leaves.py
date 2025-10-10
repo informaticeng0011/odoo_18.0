@@ -225,7 +225,11 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
+=======
+        }).action_validate()
+>>>>>>> upstream/18.0
 =======
         }).action_validate()
 >>>>>>> upstream/18.0
@@ -360,7 +364,10 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -476,6 +483,7 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -530,6 +538,8 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_public_holidays_for_consecutive_allocations(self):
         employee = self.employee_emp
@@ -579,4 +589,7 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
         self.assertTrue(public_holiday)
         self.assertEqual(leave.number_of_days, 19, "Number of days should be 19 as one day has been granted back to the"
                                                    "the employee for the public holiday")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

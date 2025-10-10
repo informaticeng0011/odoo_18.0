@@ -88,6 +88,10 @@
             ('remove', 'spreadsheet/static/src/public_readonly_app/**/*.scss'),
             ('remove', 'spreadsheet/static/src/**/*.dark.scss'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('remove', 'spreadsheet/static/src/print_assets/**/*'),
+>>>>>>> upstream/18.0
 =======
             ('remove', 'spreadsheet/static/src/print_assets/**/*'),
 >>>>>>> upstream/18.0

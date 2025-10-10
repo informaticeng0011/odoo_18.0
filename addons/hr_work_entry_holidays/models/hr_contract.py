@@ -32,13 +32,19 @@ class HrContract(models.Model):
         # global time off first (eg: Public Holiday > Home Working)
         self.ensure_one()
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'work_entry_type_id' in interval[2] and interval[2].work_entry_type_id.code in bypassing_codes:
             return interval[2].work_entry_type_id
 =======
+=======
+>>>>>>> upstream/18.0
         if 'work_entry_type_id' in interval[2]:
             work_entry_types = interval[2].work_entry_type_id
             if work_entry_types and work_entry_types[:1].code in bypassing_codes:
                 return work_entry_types[:1]
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         interval_start = interval[0].astimezone(pytz.utc).replace(tzinfo=None)

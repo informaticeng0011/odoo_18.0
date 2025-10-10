@@ -1,6 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import date, timedelta
+
+>>>>>>> upstream/18.0
 =======
 from datetime import date, timedelta
 
@@ -59,7 +64,10 @@ class TestUnlinkReward(TestSaleCouponCommon):
         self.assertTrue(self.reward.exists())
         self.assertFalse(self.reward.active)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_unlink_expired_coupon_line(self):
         """Ensure that lines linked to expired coupons get unlinked from the order."""
@@ -76,4 +84,7 @@ class TestUnlinkReward(TestSaleCouponCommon):
         coupon.expiration_date = date.today() - timedelta(days=1)
         order._update_programs_and_rewards()
         self.assertFalse(order.order_line.coupon_id)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

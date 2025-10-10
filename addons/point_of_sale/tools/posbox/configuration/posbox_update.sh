@@ -114,6 +114,7 @@ echo "addons/point_of_sale/tools/posbox/overwrite_after_init/home/pi/odoo" >> .g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 echo "addons/iot_base" >> .git/info/sparse-checkout
 >>>>>>> upstream/18.0
@@ -281,6 +282,10 @@ echo "addons/iot_base" >> .git/info/sparse-checkout
 >>>>>>> upstream/18.0
 =======
 echo "addons/iot_base" >> .git/info/sparse-checkout
+>>>>>>> upstream/18.0
+=======
+echo "addons/iot_base" >> .git/info/sparse-checkout
+echo "addons/iot_drivers" >> .git/info/sparse-checkout
 >>>>>>> upstream/18.0
 =======
 echo "addons/iot_base" >> .git/info/sparse-checkout
@@ -533,7 +538,10 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -677,6 +685,9 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

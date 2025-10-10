@@ -2,6 +2,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from lxml import etree, html
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 =======
 from lxml import etree, html
 from markupsafe import Markup
@@ -54,8 +59,11 @@ class SlidesPortalChatter(PortalChatter):
         message_id = int(message_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         message_body = plaintext2html(post_data.get('body', ''))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         body_html_string = str(plaintext2html(post_data.get("body", "")))
@@ -65,6 +73,9 @@ class SlidesPortalChatter(PortalChatter):
         etree.SubElement(last_p_element, "span", attrib={"class": "o-mail-Message-edited"})
         message_body = Markup("".join(etree.tostring(child, encoding="unicode") for child in tree))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

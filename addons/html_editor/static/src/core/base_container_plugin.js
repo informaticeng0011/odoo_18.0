@@ -143,6 +143,12 @@ export class BaseContainerPlugin extends Plugin {
 
     normalizeDivBaseContainers(element = this.editable) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.config.baseContainer && this.config.baseContainer !== "DIV") {
+            return;
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.config.baseContainer && this.config.baseContainer !== "DIV") {
             return;

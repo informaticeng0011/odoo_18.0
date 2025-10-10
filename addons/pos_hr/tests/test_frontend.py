@@ -174,7 +174,13 @@ class TestUi(TestPosHrHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.main_pos_config.advanced_employee_ids = self.admin.ids
+=======
+        self.main_pos_config.update({
+            'advanced_employee_ids': [(6, 0, self.admin.ids)],
+        })
+>>>>>>> upstream/18.0
 =======
         self.main_pos_config.update({
             'advanced_employee_ids': [(6, 0, self.admin.ids)],
@@ -864,7 +870,10 @@ class TestUi(TestPosHrHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Command.link(self.admin.id)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1203,7 +1212,10 @@ class TestUi(TestPosHrHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1548,6 +1560,7 @@ class TestUi(TestPosHrHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1678,6 +1691,8 @@ class TestUi(TestPosHrHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1830,6 +1845,9 @@ class TestUi(TestPosHrHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

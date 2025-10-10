@@ -122,6 +122,10 @@ export class PowerButtonsPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        post_mount_component_handlers: this.updatePowerButtons.bind(this),
+>>>>>>> upstream/18.0
 =======
         post_mount_component_handlers: this.updatePowerButtons.bind(this),
 >>>>>>> upstream/18.0
@@ -483,10 +487,13 @@ export class PowerButtonsPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (
             editableSelection.isCollapsed &&
             element?.matches(baseContainerGlobalSelector) &&
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -817,6 +824,9 @@ export class PowerButtonsPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1159,7 +1169,11 @@ export class PowerButtonsPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.setPowerButtonsPosition(block, direction);
+=======
+            this.setPowerButtonsPosition(block, blockRect, direction);
+>>>>>>> upstream/18.0
 =======
             this.setPowerButtonsPosition(block, blockRect, direction);
 >>>>>>> upstream/18.0
@@ -1617,7 +1631,11 @@ export class PowerButtonsPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     setPowerButtonsPosition(block, direction) {
+=======
+    setPowerButtonsPosition(block, blockRect, direction) {
+>>>>>>> upstream/18.0
 =======
     setPowerButtonsPosition(block, blockRect, direction) {
 >>>>>>> upstream/18.0
@@ -2058,7 +2076,10 @@ export class PowerButtonsPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const blockRect = block.getBoundingClientRect();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

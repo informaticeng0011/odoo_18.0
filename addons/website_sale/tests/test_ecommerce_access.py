@@ -42,7 +42,10 @@ class TestEcommerceAccess(HttpCaseWithUserDemo, WebsiteSaleCommon):
         self.assertFalse(self.menu.is_visible)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -70,6 +73,9 @@ class TestEcommerceAccess(HttpCaseWithUserDemo, WebsiteSaleCommon):
         self.assertEqual(response.status_code, 200)
         self.assertURLEqual(response.url, f'/web/login?redirect=/shop/{product_slug}')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

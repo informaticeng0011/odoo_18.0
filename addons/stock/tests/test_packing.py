@@ -1939,7 +1939,10 @@ class TestPacking(TestPackingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_unpick_move_after_pack_undone(self):
@@ -1973,6 +1976,9 @@ class TestPacking(TestPackingCommon):
         self.assertFalse(delivery.move_ids.picked)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

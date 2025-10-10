@@ -104,7 +104,10 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -297,6 +300,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -521,7 +527,15 @@ class PaymentTransaction(models.Model):
         ppm_code = self.payment_method_id.primary_payment_method_id.code
         payment_method_type = ppm_code or self.payment_method_code
         payment_intent_payload = {
+<<<<<<< HEAD
             'amount': payment_utils.to_minor_currency_units(self.amount, self.currency_id),
+=======
+            'amount': payment_utils.to_minor_currency_units(
+                self.amount,
+                self.currency_id,
+                arbitrary_decimal_number=const.CURRENCY_DECIMALS.get(self.currency_id.name),
+            ),
+>>>>>>> upstream/18.0
             'currency': self.currency_id.name.lower(),
             'description': self.reference,
             'capture_method': 'manual' if self.provider_id.capture_manually else 'automatic',
@@ -585,7 +599,13 @@ class PaymentTransaction(models.Model):
             f'{OPTION_PATH_PREFIX}[reference]': self.reference,
             f'{OPTION_PATH_PREFIX}[amount_type]': 'maximum',
             f'{OPTION_PATH_PREFIX}[amount]': payment_utils.to_minor_currency_units(
+<<<<<<< HEAD
                 mandate_values.get('amount', 15000), self.currency_id
+=======
+                mandate_values.get('amount', 15000),
+                self.currency_id,
+                arbitrary_decimal_number=const.CURRENCY_DECIMALS.get(self.currency_id.name),
+>>>>>>> upstream/18.0
             ),  # Use the specified amount, if any, or define the maximum amount of 15.000 INR.
             f'{OPTION_PATH_PREFIX}[start_date]': int(round(
                 (mandate_values.get('start_datetime') or fields.Datetime.now()).timestamp()
@@ -630,6 +650,10 @@ class PaymentTransaction(models.Model):
                 'amount': payment_utils.to_minor_currency_units(
                     -refund_tx.amount,  # Refund transactions' amount is negative, inverse it.
                     refund_tx.currency_id,
+<<<<<<< HEAD
+=======
+                    arbitrary_decimal_number=const.CURRENCY_DECIMALS.get(refund_tx.currency_id.name)
+>>>>>>> upstream/18.0
                 ),
             }
         )
