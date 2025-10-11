@@ -360,6 +360,7 @@ test("join/leave sounds are only played on main tab", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click("[title='Start a Call']", { target: env1 });
     await contains(".o-discuss-Call", { target: env1 });
     await contains(".o-discuss-Call", { target: env2 });
@@ -368,6 +369,8 @@ test("join/leave sounds are only played on main tab", async () => {
     await contains(".o-discuss-Call", { target: env1, count: 0 });
     await contains(".o-discuss-Call", { target: env2, count: 0 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -459,6 +462,9 @@ test("join/leave sounds are only played on main tab", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -674,6 +680,12 @@ test("Use saved volume settings", async () => {
     await openDiscuss(channelId);
     await click("[title='Start a Call']");
     await contains(".o-discuss-Call");
+<<<<<<< HEAD
+=======
+    await contains(
+        `.o-discuss-CallParticipantCard[title='${partnerName}'] .o-discuss-CallParticipantCard-contextMenuAnchor`
+    );
+>>>>>>> upstream/18.0
     await triggerEvents(`.o-discuss-CallParticipantCard[title='${partnerName}']`, ["contextmenu"]);
     await contains(".o-discuss-CallContextMenu");
     const rangeInput = queryFirst(".o-discuss-CallContextMenu input[type='range']");
@@ -720,3 +732,36 @@ test("should also invite to the call when inviting to the channel", async () => 
     await click("[title='Invite to Channel']:enabled");
     await contains(".o-discuss-CallParticipantCard.o-isInvitation");
 });
+<<<<<<< HEAD
+=======
+
+test("should not show context menu on participant card when not in a call", async () => {
+    mockGetMedia();
+    const pyEnv = await startServer();
+    const channelId = pyEnv["discuss.channel"].create({
+        name: "General",
+    });
+    pyEnv["discuss.channel.rtc.session"].create([
+        {
+            channel_member_id: pyEnv["discuss.channel.member"].create({
+                channel_id: channelId,
+                partner_id: pyEnv["res.partner"].create({ name: "Awesome Partner" }),
+            }),
+            channel_id: channelId,
+        },
+    ]);
+    await start();
+    await openDiscuss(channelId);
+    await contains(".o-discuss-CallParticipantCard[title='Awesome Partner']");
+    await contains(
+        ".o-discuss-CallParticipantCard[title='Awesome Partner'] .o-discuss-CallParticipantCard-contextMenuAnchor",
+        { count: 0 }
+    );
+    await click("[title='Join Call']");
+    await contains(
+        ".o-discuss-CallParticipantCard[title='Awesome Partner'] .o-discuss-CallParticipantCard-contextMenuAnchor"
+    );
+    await triggerEvents(".o-discuss-CallParticipantCard[title='Awesome Partner']", ["contextmenu"]);
+    await contains(".o-discuss-CallContextMenu");
+});
+>>>>>>> upstream/18.0

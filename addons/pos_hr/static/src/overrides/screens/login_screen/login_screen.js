@@ -56,10 +56,14 @@ patch(LoginScreen.prototype, {
             this.pos.login = false;
         } else {
             const employee = await this.selectCashier();
+<<<<<<< HEAD
             if (
                 employee &&
                 (employee._role === "manager" || employee.user_id?.id === this.pos.user.id)
             ) {
+=======
+            if (employee && employee.user_id?.id === this.pos.user.id) {
+>>>>>>> upstream/18.0
                 super.clickBack();
                 return;
             }

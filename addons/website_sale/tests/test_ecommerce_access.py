@@ -43,7 +43,10 @@ class TestEcommerceAccess(HttpCaseWithUserDemo, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74,6 +77,9 @@ class TestEcommerceAccess(HttpCaseWithUserDemo, WebsiteSaleCommon):
         self.assertURLEqual(response.url, f'/web/login?redirect=/shop/{product_slug}')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

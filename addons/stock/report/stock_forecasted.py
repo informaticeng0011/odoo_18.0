@@ -149,8 +149,13 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         out_domain += [('state', 'not in', ['draft', 'cancel', 'done'])]
         in_domain += [('state', 'not in', ['draft', 'cancel', 'done'])]
+=======
+        out_domain += [('state', 'in', ['waiting', 'confirmed', 'partially_available', 'assigned'])]
+        in_domain += [('state', 'in', ['waiting', 'confirmed', 'partially_available', 'assigned'])]
+>>>>>>> upstream/18.0
 =======
         out_domain += [('state', 'in', ['waiting', 'confirmed', 'partially_available', 'assigned'])]
         in_domain += [('state', 'in', ['waiting', 'confirmed', 'partially_available', 'assigned'])]
@@ -657,6 +662,10 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        res['user_can_edit_pickings'] = self.env.user.has_group('stock.group_stock_user')
+>>>>>>> upstream/18.0
 =======
         res['user_can_edit_pickings'] = self.env.user.has_group('stock.group_stock_user')
 >>>>>>> upstream/18.0
@@ -910,7 +919,11 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             document_in = move_in._get_source_document()
+=======
+            document_in = move_in.sudo()._get_source_document()
+>>>>>>> upstream/18.0
 =======
             document_in = move_in.sudo()._get_source_document()
 >>>>>>> upstream/18.0
@@ -1146,7 +1159,11 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             document_out = move_out._get_source_document()
+=======
+            document_out = move_out.sudo()._get_source_document()
+>>>>>>> upstream/18.0
 =======
             document_out = move_out.sudo()._get_source_document()
 >>>>>>> upstream/18.0

@@ -2,6 +2,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import date, timedelta
+
+>>>>>>> upstream/18.0
 =======
 from datetime import date, timedelta
 
@@ -65,7 +70,10 @@ class TestUnlinkReward(TestSaleCouponCommon):
         self.assertFalse(self.reward.active)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -85,6 +93,9 @@ class TestUnlinkReward(TestSaleCouponCommon):
         order._update_programs_and_rewards()
         self.assertFalse(order.order_line.coupon_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

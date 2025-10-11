@@ -66,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import odoo
 import odoo.tests
 import logging
@@ -76,6 +77,8 @@ _logger = logging.getLogger(__name__)
 @odoo.tests.common.tagged('post_install', '-at_install')
 class TestSnippets(odoo.tests.HttpCase):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -283,6 +286,9 @@ class TestSnippets(HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -426,6 +432,7 @@ class TestSnippets(HttpCaseWithUserPortal):
 
         demo_provider = self.env['payment.provider'].search([('code', '=', "demo")])
         demo_provider.write({'state': 'test'})
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -719,6 +726,8 @@ class TestSnippets(HttpCaseWithUserPortal):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
         belgium = self.env.ref('base.be')
 
@@ -801,6 +810,9 @@ class TestSnippets(HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

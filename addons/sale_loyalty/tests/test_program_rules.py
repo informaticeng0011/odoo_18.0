@@ -3,6 +3,7 @@
 from datetime import date, timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from freezegun import freeze_time
 
 from odoo import Command
@@ -13,6 +14,8 @@ from odoo.addons.sale_loyalty.tests.common import TestSaleCouponCommon
 
 class TestProgramRules(TestSaleCouponCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -28,6 +31,9 @@ from odoo.addons.sale_loyalty.tests.common import TestSaleCouponCommon
 
 class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -424,7 +430,10 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
         self.assertEqual(len(order.order_line.ids), 1, msg)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -506,6 +515,9 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
                 msg="Discount should still apply if transaction gets confirmed post-expiration",
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

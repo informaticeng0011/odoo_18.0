@@ -5,6 +5,17 @@ import { hasTouch } from "@web/core/browser/feature_detection";
 import { user } from "@web/core/user";
 import { Component, whenReady } from "@odoo/owl";
 
+<<<<<<< HEAD
+=======
+// Chrome iOS wraps some text nodes (like measures, email...)
+// with a `<chrome_annotation>` tag, which breaks OWL rendering.
+// This meta tag allows to disable this behavior.
+const chromeMetaTag = document.createElement("meta");
+chromeMetaTag.setAttribute("name", "chrome");
+chromeMetaTag.setAttribute("content", "nointentdetection");
+document.head.appendChild(chromeMetaTag);
+
+>>>>>>> upstream/18.0
 /**
  * Function to start a webclient.
  * It is used both in community and enterprise in main.js.

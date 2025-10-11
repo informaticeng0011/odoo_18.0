@@ -2,6 +2,10 @@
 
 import logging
 import pprint
+<<<<<<< HEAD
+=======
+from functools import partial, wraps
+>>>>>>> upstream/18.0
 
 from odoo import _, models
 from odoo.exceptions import UserError, ValidationError
@@ -12,6 +16,21 @@ from odoo.addons.sale_gelato import utils
 _logger = logging.getLogger(__name__)
 
 
+<<<<<<< HEAD
+=======
+def post_commit(func):
+    """ Wrap method to run in postcommit/postrollback hook with a separate cursor. """
+
+    @wraps(func)
+    def _post_commit_wrapper(self, *args, **kwargs):
+        with self.env.registry.cursor() as cr:
+            self = self.with_env(self.env(cr=cr))
+            return func(self, *args, **kwargs)
+
+    return _post_commit_wrapper
+
+
+>>>>>>> upstream/18.0
 class SaleOrder(models.Model):
     _inherit = 'sale.order'
 
@@ -72,7 +91,11 @@ class SaleOrder(models.Model):
             lambda l: l.is_delivery and l.product_id.default_code in ('normal', 'express')
         )
         payload = {
+<<<<<<< HEAD
             'orderType': 'order',
+=======
+            'orderType': 'draft',  # The order is confirmed/deleted later, see @post_commit hooks.
+>>>>>>> upstream/18.0
             'orderReferenceId': self.id,
             'customerReferenceId': f'Odoo Partner #{self.partner_id.id}',
             'currency': self.currency_id.name,
@@ -83,6 +106,14 @@ class SaleOrder(models.Model):
         try:
             api_key = self.company_id.sudo().gelato_api_key  # In sudo mode to read on the company.
             data = utils.make_request(api_key, 'order', 'v4', 'orders', payload=payload)
+<<<<<<< HEAD
+=======
+
+            # Add hooks to confirm/delete the order on Gelato only after the transaction is
+            # committed/rolled back. This prevents creating duplicate confirmed orders on Gelato.
+            self.env.cr.postcommit.add(partial(self._confirm_order_on_gelato, data['id']))
+            self.env.cr.postrollback.add(partial(self._delete_order_on_gelato, data['id']))
+>>>>>>> upstream/18.0
         except UserError as e:
             raise UserError(_(
                 "The order with reference %(order_reference)s was not sent to Gelato.\n"
@@ -116,3 +147,72 @@ class SaleOrder(models.Model):
             }
             items_payload.append(item_data)
         return items_payload
+<<<<<<< HEAD
+=======
+
+    @post_commit
+    def _confirm_order_on_gelato(self, gelato_order_id):
+        """Send the order confirmation request to Gelato.
+
+        This is performed in a separate transaction to allow running as post-commit hook.
+
+        :return: None
+        """
+        self.ensure_one()
+
+        _logger.info(
+            "Confirmation of Gelato order %s for sales order %s", gelato_order_id, self.display_name
+        )
+        data = None
+        try:
+            api_key = self.company_id.sudo().gelato_api_key  # In sudo mode to read on the company.
+            payload = {'orderType': 'order'}  # Confirm the order (draft -> order).
+            data = utils.make_request(
+                api_key,
+                'order',
+                'v4',
+                f'orders/{gelato_order_id}',
+                payload=payload,
+                method='PATCH',
+            )
+        except UserError:
+            self.message_post(
+                body=self.env._("Unable to confirm the order %s on Gelato.", gelato_order_id),
+                author_id=self.env.ref('base.partner_root').id,
+            )
+        finally:
+            _logger.info(
+                "Received confirmation request response for Gelato order %s:\n%s",
+                gelato_order_id, pprint.pformat(data),
+            )
+
+    @post_commit
+    def _delete_order_on_gelato(self, gelato_order_id):
+        """Send the order deletion request to Gelato.
+
+        This is performed in a separate transaction to allow running as post-commit hook.
+
+        :return: None
+        """
+        self.ensure_one()
+
+        _logger.info(
+            "Deletion of Gelato order %s for sales order %s", gelato_order_id, self.display_name
+        )
+        data = None
+        try:
+            api_key = self.company_id.sudo().gelato_api_key  # In sudo mode to read on the company.
+            data = utils.make_request(
+                api_key, 'order', 'v4', f'orders/{gelato_order_id}', method='DELETE'
+            )
+        except UserError:
+            self.message_post(
+                body=self.env._("Unable to delete the order %s on Gelato.", gelato_order_id),
+                author_id=self.env.ref('base.partner_root').id,
+            )
+        finally:
+            _logger.info(
+                "Received deletion request response for Gelato order %s:\n%s",
+                gelato_order_id, pprint.pformat(data),
+            )
+>>>>>>> upstream/18.0

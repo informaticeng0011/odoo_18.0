@@ -400,6 +400,7 @@ class WebsiteSlides(WebsiteProfile):
 
     @http.route(['/slides/all', '/slides/all/tag/<string:slug_tags>'], type='http', auth="public", website=True, sitemap=True, readonly=True)
     def slides_channel_all(self, slide_category=None, slug_tags=None, my=False, **post):
+<<<<<<< HEAD
         if slug_tags and slug_tags.count(',') > 0 and request.httprequest.method == 'GET' and not post.get('prevent_redirect'):
             # Previously, the tags were searched using GET, which caused issues with crawlers (too many hits)
             # We replaced those with POST to avoid that, but it's not sufficient as bots "remember" crawled pages for a while
@@ -409,6 +410,23 @@ class WebsiteSlides(WebsiteProfile):
             # What we really want to avoid is combinatorial explosions
             return request.redirect('/slides/all', code=301)
 
+=======
+        # Checking referrer and search to see if the GET request is from
+        # a SEO bot, in which case every tag but one should be removed to
+        # avoid combinatorial explosion
+        if slug_tags and request.httprequest.method == 'GET' and request.env['ir.http'].is_a_bot():
+            # Redirect `tag-1,tag-2` to `tag-1` to disallow multi tags
+            # in GET request for proper bot indexation;
+            tag_list = slug_tags.split(',')
+            if len(tag_list) > 1:
+                url = QueryURL('/slides/all', ['tag'], tag=tag_list[0], my=my, slide_category=slide_category)()
+                # The vast majority of bots will follow the links in the
+                # client side, which are protected by the nofollow
+                # attribute of the tags links
+                # This redirect is used to stop combinatorial explosions
+                # from bots that send direct requests
+                return request.redirect(url, code=302)
+>>>>>>> upstream/18.0
         render_values = self.slides_channel_all_values(slide_category=slide_category, slug_tags=slug_tags, my=my, **post)
         return request.render('website_slides.courses_all', render_values)
 
@@ -770,7 +788,12 @@ class WebsiteSlides(WebsiteProfile):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ('subtype_id', '=', subtype_comment_id)
+=======
+                ('subtype_id', '=', subtype_comment_id),
+                ("rating_ids", "!=", False),
+>>>>>>> upstream/18.0
 =======
                 ('subtype_id', '=', subtype_comment_id),
                 ("rating_ids", "!=", False),
@@ -1251,7 +1274,11 @@ class WebsiteSlides(WebsiteProfile):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         slide = request.env['slide.slide'].sudo().browse(slide_id).exists()
+=======
+        slide = request.env['slide.slide'].search([('id', '=', int(slide_id))])
+>>>>>>> upstream/18.0
 =======
         slide = request.env['slide.slide'].search([('id', '=', int(slide_id))])
 >>>>>>> upstream/18.0
@@ -1997,6 +2024,12 @@ class WebsiteSlides(WebsiteProfile):
             if not slide.exists() or not slide.sudo().active:
                 raise werkzeug.exceptions.NotFound()
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # redirection to channel's homepage for category slides
+            if slide.sudo().is_category:
+                return request.redirect(slide.channel_id.website_url)
+>>>>>>> upstream/18.0
 =======
             # redirection to channel's homepage for category slides
             if slide.sudo().is_category:
@@ -2008,6 +2041,12 @@ class WebsiteSlides(WebsiteProfile):
                 slide.sudo()._embed_increment(referer_url)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not slide.has_access('read'):
+                return request.render('website_slides.embed_slide_forbidden', {})
+
+>>>>>>> upstream/18.0
 =======
             if not slide.has_access('read'):
                 return request.render('website_slides.embed_slide_forbidden', {})

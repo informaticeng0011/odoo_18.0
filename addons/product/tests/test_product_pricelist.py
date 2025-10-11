@@ -291,7 +291,10 @@ class TestProductPricelist(ProductCommon):
             'item_ids': [
                 Command.create({
                     'compute_price': 'formula',
+<<<<<<< HEAD
                     'base': 'pricelist',
+=======
+>>>>>>> upstream/18.0
                 }),
             ] * 101,
         })

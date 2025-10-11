@@ -35,9 +35,12 @@ from unittest.mock import patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo.tests.common import TransactionCase
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -127,6 +130,9 @@ from odoo.tests import Form
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -198,6 +204,7 @@ class TestCloudStorageAzureCommon(TransactionCase):
         self.DUMMY_AZURE_TENANT_ID = 'tenantid'
         self.DUMMY_AZURE_CLIENT_ID = 'clientid'
         self.DUMMY_AZURE_CLIENT_SECRET = 'secret'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -563,6 +570,9 @@ class TestCloudStorageAzureCommon(TransactionCase):
 =======
         self.container_name = 'container-name'
 >>>>>>> upstream/18.0
+=======
+        self.container_name = 'container-name'
+>>>>>>> upstream/18.0
         self.env['ir.config_parameter'].set_param('cloud_storage_provider', 'azure')
         self.env['ir.config_parameter'].set_param('cloud_storage_azure_account_name', self.DUMMY_AZURE_ACCOUNT_NAME)
         self.env['ir.config_parameter'].set_param('cloud_storage_azure_tenant_id', self.DUMMY_AZURE_TENANT_ID)
@@ -622,7 +632,11 @@ class TestCloudStorageAzureCommon(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestCloudStorageAzure(TestCloudStorageAzureCommon):
+=======
+class TestCloudStorageAzure(TestCloudStorageAzureCommon, MockEmail):
+>>>>>>> upstream/18.0
 =======
 class TestCloudStorageAzure(TestCloudStorageAzureCommon, MockEmail):
 >>>>>>> upstream/18.0
@@ -908,7 +922,10 @@ class TestCloudStorageAzure(TestCloudStorageAzureCommon, MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1228,6 +1245,7 @@ class TestCloudStorageAzure(TestCloudStorageAzureCommon, MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1352,6 +1370,8 @@ class TestCloudStorageAzure(TestCloudStorageAzureCommon, MockEmail):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1552,6 +1572,9 @@ class TestCloudStorageAzure(TestCloudStorageAzureCommon, MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -105,7 +105,10 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -301,6 +304,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -528,13 +534,19 @@ class PaymentTransaction(models.Model):
         payment_method_type = ppm_code or self.payment_method_code
         payment_intent_payload = {
 <<<<<<< HEAD
+<<<<<<< HEAD
             'amount': payment_utils.to_minor_currency_units(self.amount, self.currency_id),
 =======
+=======
+>>>>>>> upstream/18.0
             'amount': payment_utils.to_minor_currency_units(
                 self.amount,
                 self.currency_id,
                 arbitrary_decimal_number=const.CURRENCY_DECIMALS.get(self.currency_id.name),
             ),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'currency': self.currency_id.name.lower(),
             'description': self.reference,
@@ -600,7 +612,13 @@ class PaymentTransaction(models.Model):
             f'{OPTION_PATH_PREFIX}[amount_type]': 'maximum',
             f'{OPTION_PATH_PREFIX}[amount]': payment_utils.to_minor_currency_units(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 mandate_values.get('amount', 15000), self.currency_id
+=======
+                mandate_values.get('amount', 15000),
+                self.currency_id,
+                arbitrary_decimal_number=const.CURRENCY_DECIMALS.get(self.currency_id.name),
+>>>>>>> upstream/18.0
 =======
                 mandate_values.get('amount', 15000),
                 self.currency_id,
@@ -651,6 +669,10 @@ class PaymentTransaction(models.Model):
                     -refund_tx.amount,  # Refund transactions' amount is negative, inverse it.
                     refund_tx.currency_id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    arbitrary_decimal_number=const.CURRENCY_DECIMALS.get(refund_tx.currency_id.name)
+>>>>>>> upstream/18.0
 =======
                     arbitrary_decimal_number=const.CURRENCY_DECIMALS.get(refund_tx.currency_id.name)
 >>>>>>> upstream/18.0

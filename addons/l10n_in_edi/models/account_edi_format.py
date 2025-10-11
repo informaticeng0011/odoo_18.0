@@ -196,7 +196,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "blocking_level": ("404" in error_codes) and "warning" or "error",
+=======
+                    "blocking_level": "warning" if {'404', 'timeout'} & set(error_codes) else "error",
+>>>>>>> upstream/18.0
 =======
                     "blocking_level": "warning" if {'404', 'timeout'} & set(error_codes) else "error",
 >>>>>>> upstream/18.0
@@ -449,7 +453,10 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -695,6 +702,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1112,8 +1122,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "IgstOnIntra": is_intra_state and tax_details_by_code.get("igst_amount") and "Y" or "N"},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1162,6 +1175,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1201,7 +1217,11 @@ class AccountEdiFormat(models.Model):
                 for index, line in enumerate(lines, start=1)
             ],
             "ValDtls": {
+<<<<<<< HEAD
                 "AssVal": self._l10n_in_round_value(tax_details.get("base_amount") + global_discount_amount),
+=======
+                "AssVal": self._l10n_in_round_value(tax_details.get("base_amount")),
+>>>>>>> upstream/18.0
                 "CgstVal": self._l10n_in_round_value(tax_details_by_code.get("cgst_amount", 0.00)),
                 "SgstVal": self._l10n_in_round_value(tax_details_by_code.get("sgst_amount", 0.00)),
                 "IgstVal": self._l10n_in_round_value(tax_details_by_code.get("igst_amount", 0.00)),
@@ -1217,7 +1237,15 @@ class AccountEdiFormat(models.Model):
                 "RndOffAmt": self._l10n_in_round_value(
                     rounding_amount),
                 "TotInvVal": self._l10n_in_round_value(
+<<<<<<< HEAD
                     (tax_details.get("base_amount") + tax_details.get("tax_amount") + rounding_amount)),
+=======
+                    tax_details.get("base_amount")
+                    + tax_details.get("tax_amount")
+                    + rounding_amount
+                    - global_discount_amount
+                ),
+>>>>>>> upstream/18.0
             },
         }
         if invoice.company_currency_id != invoice.currency_id:
@@ -1275,7 +1303,10 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1319,6 +1350,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1375,11 +1409,17 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         if any(tag in tags for tag in self.env.ref("l10n_in.tax_tag_%s"%(gst))):
                             line_code = gst
                         # need to separate rc tax value so it's not pass to other values
                         if any(tag in tags for tag in self.env.ref("l10n_in.tax_tag_%s_rc" % (gst))):
                             line_code = gst + '_rc'
+=======
+                        if any(tag in tags for tag in self.env.ref("l10n_in.tax_tag_%s" % (gst))):
+                            # need to separate rc tax value so it's not pass to other values
+                            line_code = f'{gst}_rc' if tax_data['is_reverse_charge'] else gst
+>>>>>>> upstream/18.0
 =======
                         if any(tag in tags for tag in self.env.ref("l10n_in.tax_tag_%s" % (gst))):
                             # need to separate rc tax value so it's not pass to other values

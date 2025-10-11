@@ -220,7 +220,10 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -555,6 +558,9 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -819,7 +825,10 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -980,6 +989,7 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1002,6 +1012,8 @@ class TestMrpReplenish(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1092,12 +1104,19 @@ class TestMrpReplenish(TestMrpCommon):
         self.assertEqual(form.qty_to_order, 8)
         self.assertEqual(orderpoint.qty_to_order, 8)
 
+<<<<<<< HEAD
     def test_manuf_lead_time_without_bom(self):
         """
         Test that the manufacturing lead time is correctly applied to a product
         without a Bill of Materials (BoM).
         """
         self.env.company.write({'manufacturing_lead': 3.0})
+=======
+    def test_lead_time_with_no_bom(self):
+        """Test that lead time is incremented by 365 days (1 year) when there
+        is no BoM defined.
+        """
+>>>>>>> upstream/18.0
         route_manufacture = self.warehouse_1.manufacture_pull_id.route_id
         product = self.env['product.product'].create({
             'name': 'test',
@@ -1111,6 +1130,7 @@ class TestMrpReplenish(TestMrpCommon):
             'product_min_qty': 0,
             'product_max_qty': 5,
         })
+<<<<<<< HEAD
         self.assertEqual(orderpoint.lead_days_date, fields.Date.today() + timedelta(days=3))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1196,4 +1216,7 @@ class TestMrpReplenish(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        self.assertEqual(orderpoint.lead_days_date, fields.Date.today() + timedelta(days=365))
 >>>>>>> upstream/18.0

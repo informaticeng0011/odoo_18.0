@@ -70,6 +70,12 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _is_discount_line(self):
+        return super()._is_discount_line() or self.reward_id.reward_type == 'discount'
+
+>>>>>>> upstream/18.0
 =======
     def _is_discount_line(self):
         return super()._is_discount_line() or self.reward_id.reward_type == 'discount'
@@ -188,6 +194,7 @@ class SaleOrderLine(models.Model):
     def write(self, vals):
         cost_in_vals = 'points_cost' in vals
         if cost_in_vals:
+<<<<<<< HEAD
             previous_cost = {l: l.points_cost for l in self}
         res = super().write(vals)
         if cost_in_vals:
@@ -195,6 +202,18 @@ class SaleOrderLine(models.Model):
             for line in self:
                 if previous_cost[line] != line.points_cost and line.state == 'sale':
                     line.coupon_id.points += (previous_cost[line] - line.points_cost)
+=======
+            previous_vals = {line: (line.points_cost, line.coupon_id) for line in self}
+        res = super().write(vals)
+        if cost_in_vals:
+            # Update our coupon points if the order is in a confirmed state
+            for line, (previous_cost, previous_coupon) in previous_vals.items():
+                if line.state != 'sale':
+                    continue
+                if line.points_cost != previous_cost or line.coupon_id != previous_coupon:
+                    previous_coupon.points += previous_cost
+                    line.coupon_id.points -= line.points_cost
+>>>>>>> upstream/18.0
         return res
 
     def unlink(self):

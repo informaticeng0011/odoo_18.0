@@ -33,9 +33,12 @@ class HrContract(models.Model):
         self.ensure_one()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'work_entry_type_id' in interval[2] and interval[2].work_entry_type_id.code in bypassing_codes:
             return interval[2].work_entry_type_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if 'work_entry_type_id' in interval[2]:
@@ -43,6 +46,9 @@ class HrContract(models.Model):
             if work_entry_types and work_entry_types[:1].code in bypassing_codes:
                 return work_entry_types[:1]
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

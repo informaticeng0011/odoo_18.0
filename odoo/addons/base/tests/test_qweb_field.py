@@ -88,7 +88,10 @@ class TestQwebFieldContact(common.TransactionCase):
         self.assertIn('itemprop="telephone"', result, "Empty telephone itemprop should be added to prevent issue with iOS Safari")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -142,6 +145,9 @@ class TestQwebFieldMany2One(common.TransactionCase):
         child = self.env['res.partner'].create({'name': 'Minion', 'parent_id': parent.id})
         self.assertEqual(self.value_to_html(child.parent_id), 'BigBoss')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

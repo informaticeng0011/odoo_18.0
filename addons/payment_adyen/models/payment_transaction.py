@@ -64,12 +64,22 @@ class PaymentTransaction(models.Model):
         converted_amount = payment_utils.to_minor_currency_units(
             self.amount, self.currency_id, const.CURRENCY_DECIMALS.get(self.currency_id.name)
         )
+<<<<<<< HEAD
+=======
+        partner_country_code = (
+            self.partner_country_id.code or self.provider_id.company_id.country_id.code or 'NL'
+        )
+>>>>>>> upstream/18.0
         data = {
             'merchantAccount': self.provider_id.adyen_merchant_account,
             'amount': {
                 'value': converted_amount,
                 'currency': self.currency_id.name,
             },
+<<<<<<< HEAD
+=======
+            'countryCode': partner_country_code,
+>>>>>>> upstream/18.0
             'reference': self.reference,
             'paymentMethod': {
                 'storedPaymentMethodId': self.token_id.provider_ref,
@@ -82,6 +92,14 @@ class PaymentTransaction(models.Model):
             'shopperName': adyen_utils.format_partner_name(self.partner_name),
             'telephoneNumber': self.partner_phone,
             **adyen_utils.include_partner_addresses(self),
+<<<<<<< HEAD
+=======
+            'lineItems': [{
+                'amountIncludingTax': converted_amount,
+                'quantity': '1',
+                'description': self.reference,
+            }],
+>>>>>>> upstream/18.0
         }
 
         # Force the capture delay on Adyen side if the provider is not configured for capturing

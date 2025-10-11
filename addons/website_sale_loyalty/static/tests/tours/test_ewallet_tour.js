@@ -48,6 +48,7 @@ import * as wsTourUtils from "@website_sale/js/tours/tour_utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { TourError } from "@web_tour/tour_service/tour_utils";
 
 
@@ -90,6 +91,8 @@ registry.category("web_tour.tours").add('shop_sale_ewallet', {
                 }
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -269,6 +272,9 @@ registry.category("web_tour.tours").add("shop_sale_ewallet", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

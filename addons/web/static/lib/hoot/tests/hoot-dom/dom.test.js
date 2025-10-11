@@ -1,5 +1,6 @@
 /** @odoo-module */
 
+<<<<<<< HEAD
 import { describe, expect, getFixture, test } from "@odoo/hoot";
 import {
 <<<<<<< HEAD
@@ -238,6 +239,16 @@ import {
     click,
     formatXml,
     getActiveElement,
+=======
+import {
+    animationFrame,
+    click,
+    describe,
+    expect,
+    formatXml,
+    getActiveElement,
+    getFixture,
+>>>>>>> upstream/18.0
     getFocusableElements,
     getNextFocusableElement,
     getPreviousFocusableElement,
@@ -299,6 +310,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     queryAll,
     queryAllRects,
     queryAllTexts,
@@ -496,11 +508,15 @@ import {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+    mockTouch,
+>>>>>>> upstream/18.0
     queryAll,
     queryAllRects,
     queryAllTexts,
     queryFirst,
     queryOne,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -972,6 +988,13 @@ import { mountForTest, parseUrl } from "../local_helpers";
 =======
 >>>>>>> upstream/18.0
 import { mockTouch } from "@odoo/hoot-mock";
+=======
+    queryRect,
+    test,
+    waitFor,
+    waitForNone,
+} from "@odoo/hoot";
+>>>>>>> upstream/18.0
 import { getParentFrame } from "@web/../lib/hoot-dom/helpers/dom";
 import { mountForTest, parseUrl } from "../local_helpers";
 
@@ -1020,6 +1043,9 @@ const $$ = queryAll;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1130,6 +1156,7 @@ const expectSelector = (...queryAllSelectors) => {
         }
 
         const selector = queryAllSelectors.join(", ");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1297,6 +1324,8 @@ const expectSelector = (...queryAllSelectors) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const fnNodes = $$(selector);
         expect(fnNodes).toEqual($$`${selector}`, {
             message: `should return the same result from a tagged template literal`,
@@ -1355,6 +1384,9 @@ const expectSelector = (...queryAllSelectors) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1575,6 +1607,7 @@ describe(parseUrl(import.meta.url), () => {
     test("getActiveElement", async () => {
         await mountForTest(/* xml */ `<iframe srcdoc="&lt;input &gt;"></iframe>`);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2009,6 +2042,11 @@ describe(parseUrl(import.meta.url), () => {
 
         const input = $1(":iframe input");
 >>>>>>> upstream/18.0
+=======
+        expect(":iframe input").not.toBeFocused();
+
+        const input = $1(":iframe input");
+>>>>>>> upstream/18.0
         await click(input);
 
         expect(":iframe input").toBeFocused();
@@ -2073,7 +2111,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const input = queryOne("hoot-test-shadow-root:shadow input");
+=======
+        const input = $1("hoot-test-shadow-root:shadow input");
+>>>>>>> upstream/18.0
 =======
         const input = $1("hoot-test-shadow-root:shadow input");
 >>>>>>> upstream/18.0
@@ -2333,7 +2375,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const parent = await makeIframe(document, queryOne(".root"));
+=======
+        const parent = await makeIframe(document, $1(".root"));
+>>>>>>> upstream/18.0
 =======
         const parent = await makeIframe(document, $1(".root"));
 >>>>>>> upstream/18.0
@@ -2626,7 +2672,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitForIframes();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2866,7 +2915,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const form = queryOne`form`;
+=======
+        const form = $1`form`;
+>>>>>>> upstream/18.0
 =======
         const form = $1`form`;
 >>>>>>> upstream/18.0
@@ -3085,7 +3138,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const paragraph = queryOne`:iframe p`;
+=======
+        const paragraph = $1`:iframe p`;
+>>>>>>> upstream/18.0
 =======
         const paragraph = $1`:iframe p`;
 >>>>>>> upstream/18.0
@@ -3406,7 +3463,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `Could not find elements matching "never" within 1 milliseconds`
+=======
+            `expected at least 1 element after 1ms and found 0 elements: 0 matching "never"`
+>>>>>>> upstream/18.0
 =======
             `expected at least 1 element after 1ms and found 0 elements: 0 matching "never"`
 >>>>>>> upstream/18.0
@@ -3750,7 +3811,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const title of queryAll(".title")) {
+=======
+        for (const title of $$(".title")) {
+>>>>>>> upstream/18.0
 =======
         for (const title of $$(".title")) {
 >>>>>>> upstream/18.0
@@ -3977,7 +4042,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(queryAll()).toEqual([]);
+=======
+            expect($$()).toEqual([]);
+>>>>>>> upstream/18.0
 =======
             expect($$()).toEqual([]);
 >>>>>>> upstream/18.0
@@ -4153,6 +4222,7 @@ describe(parseUrl(import.meta.url), () => {
         test("custom pseudo-classes", async () => {
             await mountForTest(FULL_HTML_TEMPLATE);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4425,6 +4495,8 @@ describe(parseUrl(import.meta.url), () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             // :first, :last, :only & :eq
             expectSelector(".title:first").toEqualNodes(".title", { index: 0 });
             expectSelector(".title:last").toEqualNodes(".title", { index: -1 });
@@ -4462,6 +4534,20 @@ describe(parseUrl(import.meta.url), () => {
             });
         });
 
+<<<<<<< HEAD
+=======
+        test("query options", async () => {
+            await mountForTest(FULL_HTML_TEMPLATE);
+
+            expect($$("input", { count: 2 })).toHaveLength(2);
+            expect(() => $$("input", { count: 1 })).toThrow();
+
+            expect($$("option", { count: 6 })).toHaveLength(6);
+            expect($$("option", { count: 3, root: "[name=title]" })).toHaveLength(3);
+            expect(() => $$("option", { count: 6, root: "[name=title]" })).toThrow();
+        });
+
+>>>>>>> upstream/18.0
         test("advanced use cases", async () => {
             await mountForTest(FULL_HTML_TEMPLATE);
 
@@ -4761,8 +4847,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5123,12 +5212,15 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(() => queryAll`[colspan=1]`).toThrow(); // missing quotes
             expect(() => queryAll`[href=/]`).toThrow(); // missing quotes
             expect(
                 () =>
                     queryAll`_o_wblog_posts_loop:has(span:has(i.fa-calendar-o):has(a[href="/blog?search=a"])):has(span:has(i.fa-search):has(a[href^="/blog?date_begin"]))`
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5290,6 +5382,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5404,6 +5499,7 @@ describe(parseUrl(import.meta.url), () => {
                 <div style="width: 20px; height: 10px;" />
             `);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5619,6 +5715,9 @@ describe(parseUrl(import.meta.url), () => {
 =======
             expect(queryAllRects("div")).toEqual($$("div").map((el) => el.getBoundingClientRect()));
 >>>>>>> upstream/18.0
+=======
+            expect(queryAllRects("div")).toEqual($$("div").map((el) => el.getBoundingClientRect()));
+>>>>>>> upstream/18.0
             expect(queryAllRects("div:first")).toEqual([new DOMRect({ width: 40, height: 60 })]);
             expect(queryAllRects("div:last")).toEqual([new DOMRect({ width: 20, height: 10 })]);
         });
@@ -5633,6 +5732,7 @@ describe(parseUrl(import.meta.url), () => {
         test("queryOne", async () => {
             await mountForTest(FULL_HTML_TEMPLATE);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5956,6 +6056,12 @@ describe(parseUrl(import.meta.url), () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+            expect($1(".title:first")).toBe(getFixture().querySelector("header .title"));
+
+            expect(() => $1(".title")).toThrow();
+            expect(() => $1(".title", { count: 2 })).toThrow();
+>>>>>>> upstream/18.0
         });
 
         test("queryRect", async () => {
@@ -6020,7 +6126,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(queryRect(".rect")).toEqual(queryOne(".rect").getBoundingClientRect());
+=======
+            expect(queryRect(".rect")).toEqual($1(".rect").getBoundingClientRect());
+>>>>>>> upstream/18.0
 =======
             expect(queryRect(".rect")).toEqual($1(".rect").getBoundingClientRect());
 >>>>>>> upstream/18.0
@@ -6272,7 +6382,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6441,6 +6554,7 @@ describe(parseUrl(import.meta.url), () => {
                 </div>
             `);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6706,16 +6820,25 @@ describe(parseUrl(import.meta.url), () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             expect(() => $("invalid:pseudo-selector")).toThrow();
             // Perform in-between valid query with custom pseudo selectors
             expect($`.modal:visible:contains('Tung Tung Tung Sahur')`).toBe(null);
 
             // queryOne error messages
             expect(() => $1()).toThrow(`found 0 elements instead of 1`);
+<<<<<<< HEAD
             expect(() => $$([], { exact: 18 })).toThrow(`found 0 elements instead of 18`);
             expect(() => $1("")).toThrow(`found 0 elements instead of 1: 0 matching ""`);
             expect(() => $$(".tralalero", { exact: -20 })).toThrow(
                 `found 1 element instead of -20: 1 matching ".tralalero"`
+=======
+            expect(() => $$([], { count: 18 })).toThrow(`found 0 elements instead of 18`);
+            expect(() => $1("")).toThrow(`found 0 elements instead of 1: 0 matching ""`);
+            expect(() => $$(".tralalero", { count: -20 })).toThrow(
+                `invalid 'count' option: should be a positive integer`
+>>>>>>> upstream/18.0
             );
             expect(() => $1`.tralalero:contains(Tralala):visible:scrollable:first`).toThrow(
                 `found 0 elements instead of 1: 0 matching ".tralalero:contains(Tralala):visible:scrollable:first" (1 element with text "Tralala" > 1 visible element > 0 scrollable elements)`
@@ -6774,6 +6897,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6938,6 +7064,7 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 `found 0 elements instead of 1: 1 matching ".tralalero", including 1 element with text "Tralala", including 1 visible element, including 0 scrollable elements, including 0 first elements`
             );
         });
@@ -7022,6 +7149,11 @@ describe(parseUrl(import.meta.url), () => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                `found 0 elements instead of 1: 1 matching ".tralalero", including 1 element with text "Tralala", including 1 visible element, including 0 scrollable elements`
+            );
+        });
 >>>>>>> upstream/18.0
 =======
                 `found 0 elements instead of 1: 1 matching ".tralalero", including 1 element with text "Tralala", including 1 visible element, including 0 scrollable elements`

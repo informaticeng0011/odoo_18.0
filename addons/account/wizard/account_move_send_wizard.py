@@ -133,9 +133,15 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'sending_methods': wizard.sending_methods or {},
                     'invoice_edi_format': wizard.invoice_edi_format,
                     'extra_edis': wizard.extra_edis or {},
+=======
+                    'sending_methods': set(wizard.sending_methods or []) or {},
+                    'invoice_edi_format': wizard.invoice_edi_format,
+                    'extra_edis': set(wizard.extra_edis or []) or {},
+>>>>>>> upstream/18.0
 =======
                     'sending_methods': set(wizard.sending_methods or []) or {},
                     'invoice_edi_format': wizard.invoice_edi_format,
@@ -321,7 +327,11 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             wizard.sending_method_checkboxes = {method_key: {'checked': True} for method_key in wizard.sending_methods or {}}
+=======
+            wizard.sending_method_checkboxes = {method_key: {'checked': True} for method_key in wizard.sending_methods or []}
+>>>>>>> upstream/18.0
 =======
             wizard.sending_method_checkboxes = {method_key: {'checked': True} for method_key in wizard.sending_methods or []}
 >>>>>>> upstream/18.0
@@ -420,6 +430,7 @@ class AccountMoveSendWizard(models.TransientModel):
         methods = self.env['ir.model.fields'].get_field_selection('res.partner', 'invoice_sending_method')
         for wizard in self:
             preferred_method = self._get_default_sending_method(wizard.move_id)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1007,6 +1018,10 @@ class AccountMoveSendWizard(models.TransientModel):
             need_fallback = not self._is_applicable_to_move(preferred_method, wizard.move_id, **self._get_sending_settings())
             fallback_method = need_fallback and 'email'
 >>>>>>> upstream/18.0
+=======
+            need_fallback = not self._is_applicable_to_move(preferred_method, wizard.move_id, **self._get_sending_settings())
+            fallback_method = need_fallback and 'email'
+>>>>>>> upstream/18.0
             wizard.sending_method_checkboxes = {
                 method_key: {
                     'checked': method_key == preferred_method if not need_fallback else method_key == fallback_method,
@@ -1022,6 +1037,7 @@ class AccountMoveSendWizard(models.TransientModel):
 
     def _inverse_extra_edis(self):
         for wizard in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1139,6 +1155,9 @@ class AccountMoveSendWizard(models.TransientModel):
 =======
             wizard.extra_edi_checkboxes = {method_key: {'checked': True} for method_key in wizard.extra_edis or []}
 >>>>>>> upstream/18.0
+=======
+            wizard.extra_edi_checkboxes = {method_key: {'checked': True} for method_key in wizard.extra_edis or []}
+>>>>>>> upstream/18.0
 
     @api.depends('move_id')
     def _compute_extra_edi_checkboxes(self):
@@ -1149,6 +1168,7 @@ class AccountMoveSendWizard(models.TransientModel):
                 for edi_key in self._get_default_extra_edis(wizard.move_id)
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1768,6 +1788,8 @@ class AccountMoveSendWizard(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @api.depends('move_id', 'sending_methods')
     def _compute_invoice_edi_format(self):
         for wizard in self:
@@ -1800,6 +1822,9 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1893,6 +1918,7 @@ class AccountMoveSendWizard(models.TransientModel):
                 wizard.mail_body = self._get_default_mail_body(wizard.move_id, wizard.mail_template_id, wizard.mail_lang)
                 wizard.mail_partner_ids = self._get_default_mail_partner_ids(wizard.move_id, wizard.mail_template_id, wizard.mail_lang)
             else:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2246,6 +2272,8 @@ class AccountMoveSendWizard(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 wizard.mail_subject = wizard.mail_body = None
                 wizard.mail_partner_ids = commercial_partner if (commercial_partner := wizard.move_id.commercial_partner_id).email else None
 
@@ -2366,6 +2394,9 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2606,6 +2637,7 @@ class AccountMoveSendWizard(models.TransientModel):
                 self._get_default_mail_attachments_widget(
                     wizard.move_id,
                     wizard.mail_template_id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3104,6 +3136,10 @@ class AccountMoveSendWizard(models.TransientModel):
                     invoice_edi_format=wizard.invoice_edi_format,
                     extra_edis=set(wizard.extra_edis or []) or {},
 >>>>>>> upstream/18.0
+=======
+                    invoice_edi_format=wizard.invoice_edi_format,
+                    extra_edis=set(wizard.extra_edis or []) or {},
+>>>>>>> upstream/18.0
                     pdf_report=wizard.pdf_report_id,
                 )
                 + manual_attachments_data
@@ -3154,7 +3190,11 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {}
+=======
+            return []
+>>>>>>> upstream/18.0
 =======
             return []
 >>>>>>> upstream/18.0
@@ -3280,9 +3320,15 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sending_methods': self.sending_methods or [],
             'invoice_edi_format': self.invoice_edi_format,
             'extra_edis': self.extra_edis or [],
+=======
+            'sending_methods': set(self.sending_methods or []) or {},
+            'invoice_edi_format': self.invoice_edi_format,
+            'extra_edis': set(self.extra_edis or []) or {},
+>>>>>>> upstream/18.0
 =======
             'sending_methods': set(self.sending_methods or []) or {},
             'invoice_edi_format': self.invoice_edi_format,

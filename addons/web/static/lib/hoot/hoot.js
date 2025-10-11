@@ -3,11 +3,36 @@
 import { logger } from "./core/logger";
 import { Runner } from "./core/runner";
 import { urlParams } from "./core/url";
+<<<<<<< HEAD
 import { makeRuntimeHook } from "./hoot_utils";
+=======
+import { copyAndBind, makeRuntimeHook } from "./hoot_utils";
+>>>>>>> upstream/18.0
 import { setRunner } from "./main_runner";
 import { setupHootUI } from "./ui/setup_hoot_ui";
 
 /**
+<<<<<<< HEAD
+=======
+ * @typedef {import("../hoot-dom/helpers/dom").Dimensions} Dimensions
+ * @typedef {import("../hoot-dom/helpers/dom").FormatXmlOptions} FormatXmlOptions
+ * @typedef {import("../hoot-dom/helpers/dom").Position} Position
+ * @typedef {import("../hoot-dom/helpers/dom").QueryOptions} QueryOptions
+ * @typedef {import("../hoot-dom/helpers/dom").QueryRectOptions} QueryRectOptions
+ * @typedef {import("../hoot-dom/helpers/dom").QueryTextOptions} QueryTextOptions
+ * @typedef {import("../hoot-dom/helpers/dom").Target} Target
+ *
+ * @typedef {import("../hoot-dom/helpers/events").DragHelpers} DragHelpers
+ * @typedef {import("../hoot-dom/helpers/events").DragOptions} DragOptions
+ * @typedef {import("../hoot-dom/helpers/events").EventType} EventType
+ * @typedef {import("../hoot-dom/helpers/events").FillOptions} FillOptions
+ * @typedef {import("../hoot-dom/helpers/events").InputValue} InputValue
+ * @typedef {import("../hoot-dom/helpers/events").KeyStrokes} KeyStrokes
+ * @typedef {import("../hoot-dom/helpers/events").PointerOptions} PointerOptions
+ *
+ * @typedef {import("./mock/network").ServerWebSocket} ServerWebSocket
+ *
+>>>>>>> upstream/18.0
  * @typedef {{
  *  runner: Runner;
  *  ui: import("./ui/setup_hoot_ui").UiState
@@ -26,6 +51,7 @@ setRunner(runner);
 // Exports
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 /**
  * @param {...unknown} values
  */
@@ -33,12 +59,18 @@ export function registerDebugInfo(...values) {
     logger.logDebug(...values);
 }
 
+=======
+>>>>>>> upstream/18.0
 // Main test API
 export const describe = runner.describe;
 export const expect = runner.expect;
 export const test = runner.test;
 
+<<<<<<< HEAD
 // Hooks
+=======
+// Test hooks
+>>>>>>> upstream/18.0
 export const after = makeRuntimeHook("after");
 export const afterEach = makeRuntimeHook("afterEach");
 export const before = makeRuntimeHook("before");
@@ -48,7 +80,11 @@ export const onError = makeRuntimeHook("onError");
 // Fixture
 export const getFixture = runner.fixture.get;
 
+<<<<<<< HEAD
 // Other functions
+=======
+// Other test runner functions
+>>>>>>> upstream/18.0
 export const definePreset = runner.exportFn(runner.definePreset);
 export const dryRun = runner.exportFn(runner.dryRun);
 export const getCurrent = runner.exportFn(runner.getCurrent);
@@ -61,6 +97,7 @@ export { defineTags } from "./core/tag";
 export { createJobScopedGetter } from "./hoot_utils";
 
 // Constants
+<<<<<<< HEAD
 export const globals = {
     AbortController: globalThis.AbortController,
     Array: globalThis.Array,
@@ -236,4 +273,106 @@ export const isHootReady = setupHootUI();
 >>>>>>> upstream/18.0
 =======
 export const isHootReady = setupHootUI();
+>>>>>>> upstream/18.0
+=======
+export const globals = copyAndBind(globalThis);
+export const isHootReady = setupHootUI();
+
+// Mock
+export { disableAnimations, enableTransitions } from "./mock/animation";
+export { mockDate, mockLocale, mockTimeZone, onTimeZoneChange } from "./mock/date";
+export { makeSeededRandom } from "./mock/math";
+export { mockPermission, mockSendBeacon, mockUserAgent, mockVibrate } from "./mock/navigator";
+export { mockFetch, mockLocation, mockWebSocket, mockWorker } from "./mock/network";
+export { flushNotifications } from "./mock/notification";
+export {
+    mockMatchMedia,
+    mockTouch,
+    watchAddedNodes,
+    watchKeys,
+    watchListeners,
+} from "./mock/window";
+
+// HOOT-DOM
+export {
+    advanceFrame,
+    advanceTime,
+    animationFrame,
+    cancelAllTimers,
+    check,
+    clear,
+    click,
+    dblclick,
+    Deferred,
+    delay,
+    drag,
+    edit,
+    fill,
+    formatXml,
+    freezeTime,
+    getActiveElement,
+    getFocusableElements,
+    getNextFocusableElement,
+    getParentFrame,
+    getPreviousFocusableElement,
+    hover,
+    isDisplayed,
+    isEditable,
+    isFocusable,
+    isInDOM,
+    isInViewPort,
+    isScrollable,
+    isVisible,
+    keyDown,
+    keyUp,
+    leave,
+    manuallyDispatchProgrammaticEvent,
+    matches,
+    microTick,
+    middleClick,
+    observe,
+    on,
+    pointerDown,
+    pointerUp,
+    press,
+    queryAll,
+    queryAllAttributes,
+    queryAllProperties,
+    queryAllRects,
+    queryAllTexts,
+    queryAllValues,
+    queryAny,
+    queryAttribute,
+    queryFirst,
+    queryOne,
+    queryRect,
+    queryText,
+    queryValue,
+    resize,
+    rightClick,
+    runAllTimers,
+    scroll,
+    select,
+    setFrameRate,
+    setInputFiles,
+    setInputRange,
+    tick,
+    uncheck,
+    unfreezeTime,
+    unload,
+    waitFor,
+    waitForNone,
+    waitUntil,
+} from "@odoo/hoot-dom";
+
+// Debug
+export { exposeHelpers } from "../hoot-dom/hoot_dom_utils";
+export const __debug__ = runner;
+
+/**
+ * @param {...unknown} values
+ */
+export function registerDebugInfo(...values) {
+    logger.logDebug(...values);
+}
 >>>>>>> upstream/18.0

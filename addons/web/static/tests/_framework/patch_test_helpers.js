@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import { after } from "@odoo/hoot";
 import { onTimeZoneChange } from "@odoo/hoot-mock";
+=======
+import { after, onTimeZoneChange } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 import { patch } from "@web/core/utils/patch";
 
 const { FixedOffsetZone, IANAZone, Settings } = luxon;

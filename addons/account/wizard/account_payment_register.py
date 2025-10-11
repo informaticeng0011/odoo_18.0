@@ -209,7 +209,10 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -298,6 +301,9 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -520,7 +526,11 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company = min(lines.company_id, key=lambda c: len(c.parent_ids))
+=======
+        company = min(lines.company_id, key=lambda c: len(c.sudo().parent_ids)) if not self._from_sibling_companies(lines) else lines.company_id.root_id
+>>>>>>> upstream/18.0
 =======
         company = min(lines.company_id, key=lambda c: len(c.sudo().parent_ids)) if not self._from_sibling_companies(lines) else lines.company_id.root_id
 >>>>>>> upstream/18.0
@@ -778,7 +788,10 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -960,6 +973,9 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1172,7 +1188,11 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('payment_method_line_id', 'line_ids', 'group_payment')
+=======
+    @api.depends('payment_method_line_id', 'line_ids', 'group_payment', 'partner_bank_id')
+>>>>>>> upstream/18.0
 =======
     @api.depends('payment_method_line_id', 'line_ids', 'group_payment', 'partner_bank_id')
 >>>>>>> upstream/18.0
@@ -1228,7 +1248,12 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 batch_account = wizard._get_batch_account(batch)
+=======
+                # Use the currently selected partner_bank_id if in edit mode, otherwise use batch account
+                batch_account = wizard.partner_bank_id or wizard._get_batch_account(batch)
+>>>>>>> upstream/18.0
 =======
                 # Use the currently selected partner_bank_id if in edit mode, otherwise use batch account
                 batch_account = wizard.partner_bank_id or wizard._get_batch_account(batch)
@@ -1301,6 +1326,7 @@ class AccountPaymentRegister(models.TransientModel):
                 wizard.can_edit_wizard = True
             else:
                 # == Multiple batches: The wizard is not editable  ==
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1482,6 +1508,8 @@ class AccountPaymentRegister(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 lines = sum((batch_result['lines'] for batch_result in wizard.batches), self.env['account.move.line'])
                 company = min(lines.company_id, key=lambda c: len(c.parent_ids)) if not self._from_sibling_companies(lines) else lines.company_id.root_id
                 wizard.update({
@@ -1545,6 +1573,9 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1803,7 +1834,11 @@ class AccountPaymentRegister(models.TransientModel):
     def _compute_actionable_errors(self):
         for wizard in self:
             actionable_errors = {}
+<<<<<<< HEAD
             if unpaid_matched_payments := wizard.line_ids.move_id.matched_payment_ids.filtered(lambda p: p.state == 'in_process'):
+=======
+            if unpaid_matched_payments := wizard.line_ids.move_id.reconciled_payment_ids.filtered(lambda p: p.state == 'in_process'):
+>>>>>>> upstream/18.0
                 actionable_errors['unpaid_matched_payments'] = {
                     'message': self.env._("There are payments in progress. Make sure you don't pay twice."),
                     'action_text': self.env._("Check them"),
@@ -2248,8 +2283,13 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if len(lines.company_id.filtered(lambda c: c.root_id not in lines.company_id)) > 1:
                 raise UserError(_("You can't create payments for entries belonging to different branches."))
+=======
+            if self._from_sibling_companies(lines) and lines.company_id.root_id not in self.env.user.company_ids:
+                raise UserError(_("You can't create payments for entries belonging to different branches without access to parent company."))
+>>>>>>> upstream/18.0
 =======
             if self._from_sibling_companies(lines) and lines.company_id.root_id not in self.env.user.company_ids:
                 raise UserError(_("You can't create payments for entries belonging to different branches without access to parent company."))
@@ -2722,7 +2762,11 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         payments.action_post()
+=======
+        payments.with_context(skip_sale_auto_invoice_send=True).action_post()
+>>>>>>> upstream/18.0
 =======
         payments.with_context(skip_sale_auto_invoice_send=True).action_post()
 >>>>>>> upstream/18.0
@@ -2964,11 +3008,14 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         payments = self._init_payments(to_process, edit_mode=edit_mode)
         self._post_payments(to_process, edit_mode=edit_mode)
         self._reconcile_payments(to_process, edit_mode=edit_mode)
         return payments
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3159,6 +3206,9 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

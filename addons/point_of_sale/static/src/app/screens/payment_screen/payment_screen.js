@@ -170,7 +170,10 @@ export class PaymentScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.pos.addPendingOrder([order.id]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -707,7 +710,11 @@ export class PaymentScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.pos.showScreen(this.nextScreen);
+=======
+                this.afterOrderValidation();
+>>>>>>> upstream/18.0
 =======
                 this.afterOrderValidation();
 >>>>>>> upstream/18.0
@@ -849,6 +856,7 @@ export class PaymentScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.pos.printReceipt(this.currentOrder);
 
                 if (this.pos.config.iface_print_skip_screen) {
@@ -931,6 +939,8 @@ export class PaymentScreen extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 this.pos.printReceipt({ order: this.currentOrder });
 
                 if (this.pos.config.iface_print_skip_screen) {
@@ -943,6 +953,9 @@ export class PaymentScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1001,7 +1014,10 @@ export class PaymentScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1090,6 +1106,9 @@ export class PaymentScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1181,7 +1200,11 @@ export class PaymentScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.pos.add_new_order();
+=======
+            this.pos.selectEmptyOrder();
+>>>>>>> upstream/18.0
 =======
             this.pos.selectEmptyOrder();
 >>>>>>> upstream/18.0
@@ -1439,12 +1462,18 @@ export class PaymentScreen extends Component {
         // the current order is fully paid and due is zero.
         this.pos.paymentTerminalInProgress = false;
         const config = this.pos.config;
+<<<<<<< HEAD
         const currency = this.pos.currency;
+=======
+>>>>>>> upstream/18.0
         const currentOrder = line.pos_order_id;
         if (
             isPaymentSuccessful &&
             currentOrder.is_paid() &&
+<<<<<<< HEAD
             floatIsZero(currentOrder.get_due(), currency.decimal_places) &&
+=======
+>>>>>>> upstream/18.0
             config.auto_validate_terminal_payment
         ) {
             this.validateOrder(false);
@@ -1479,6 +1508,7 @@ export class PaymentScreen extends Component {
     }
     async sendForceDone(line) {
         line.set_payment_status("done");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1659,6 +1689,14 @@ export class PaymentScreen extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        this.pos.paymentTerminalInProgress = false;
+        const config = this.pos.config;
+        const currentOrder = line.pos_order_id;
+        if (currentOrder.is_paid() && config.auto_validate_terminal_payment) {
+            this.validateOrder(true);
+        }
 >>>>>>> upstream/18.0
     }
 

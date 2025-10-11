@@ -137,7 +137,10 @@ COUNTRY_MAPPING = {
     'MF': 'FR',  # Saint-Martin
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 # Stripe-specific mapping of currency codes in ISO 4217 format to the number of decimals.
 # Only currencies for which Stripe does not follow the ISO 4217 norm are listed here.
@@ -148,4 +151,7 @@ CURRENCY_DECIMALS = {
     # https://docs.stripe.com/currencies#zero-decimal
     'MGA': 0,
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {
     animationFrame,
     queryAll,
@@ -8,6 +9,12 @@ import {
 import { contains } from "./dom_test_helpers";
 import { buildSelector } from "./view_test_helpers";
 import { getDropdownMenu } from "./component_test_helpers";
+=======
+import { animationFrame, queryAll, queryAllAttributes, queryAllTexts, queryOne } from "@odoo/hoot";
+import { getDropdownMenu } from "./component_test_helpers";
+import { contains } from "./dom_test_helpers";
+import { buildSelector } from "./view_test_helpers";
+>>>>>>> upstream/18.0
 
 /**
  * @param {number} [columnIndex=0]

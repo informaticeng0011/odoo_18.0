@@ -30,7 +30,13 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     isIconElement,
+=======
+    EDITABLE_MEDIA_CLASS,
+    isIconElement,
+    isMediaElement,
+>>>>>>> upstream/18.0
 =======
     EDITABLE_MEDIA_CLASS,
     isIconElement,
@@ -268,6 +274,11 @@ export class MediaPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        functional_empty_node_predicates: isMediaElement,
+        is_node_editable_predicates: this.isEditableMediaElement.bind(this),
+>>>>>>> upstream/18.0
 =======
         functional_empty_node_predicates: isMediaElement,
         is_node_editable_predicates: this.isEditableMediaElement.bind(this),
@@ -421,10 +432,13 @@ export class MediaPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     replaceImage() {
         const selectedNodes = this.dependencies.selection.getSelectedNodes();
         const node = selectedNodes.find((node) => node.tagName === "IMG");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -519,6 +533,9 @@ export class MediaPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -668,12 +685,20 @@ export class MediaPlugin extends Plugin {
         return mediaDialogClosedPromise;
     }
 
+<<<<<<< HEAD
     async savePendingImages() {
         const editableEl = this.editable;
+=======
+    async savePendingImages(editableEl) {
+>>>>>>> upstream/18.0
         const { resModel, resId } = this.recordInfo;
         // When saving a webp, o_b64_image_to_save is turned into
         // o_modified_image_to_save by saveB64Image to request the saving
         // of the pre-converted webp resizes and all the equivalent jpgs.
+<<<<<<< HEAD
+=======
+        const oldSrcToNewSrcMap = new Map();
+>>>>>>> upstream/18.0
         const b64Proms = [...editableEl.querySelectorAll(".o_b64_image_to_save")].map(
             async (el) => {
                 const dirtyEditable = el.closest(".o_dirty");
@@ -683,7 +708,13 @@ export class MediaPlugin extends Plugin {
                     // the correct "resModel" and "resId" parameters.
                     return;
                 }
+<<<<<<< HEAD
                 await this.saveB64Image(el, resModel, resId);
+=======
+                const oldSrc = el.getAttribute("src");
+                await this.saveB64Image(el, resModel, resId);
+                oldSrcToNewSrcMap.set(oldSrc, el.getAttribute("src"));
+>>>>>>> upstream/18.0
             }
         );
         const modifiedProms = [...editableEl.querySelectorAll(".o_modified_image_to_save")].map(
@@ -695,7 +726,13 @@ export class MediaPlugin extends Plugin {
                     // with the correct "resModel" and "resId" parameters.
                     return;
                 }
+<<<<<<< HEAD
                 await this.saveModifiedImage(el, resModel, resId);
+=======
+                const oldSrc = el.getAttribute("src");
+                await this.saveModifiedImage(el, resModel, resId);
+                oldSrcToNewSrcMap.set(oldSrc, el.getAttribute("src"));
+>>>>>>> upstream/18.0
             }
         );
         const proms = [...b64Proms, ...modifiedProms];
@@ -703,7 +740,11 @@ export class MediaPlugin extends Plugin {
         if (hasChange) {
             await Promise.all(proms);
         }
+<<<<<<< HEAD
         return hasChange;
+=======
+        return hasChange ? oldSrcToNewSrcMap : undefined;
+>>>>>>> upstream/18.0
     }
 
     createAttachment({ el, imageData, resModel, resId }) {

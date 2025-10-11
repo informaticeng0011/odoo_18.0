@@ -133,7 +133,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             order.project_count = len(projects)
+=======
+            order.project_count = len(projects.filtered('active'))
+>>>>>>> upstream/18.0
 =======
             order.project_count = len(projects.filtered('active'))
 >>>>>>> upstream/18.0
@@ -294,7 +298,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'domain': ['|', ('sale_order_id', '=', self.id), ('id', 'in', self.with_context(active_test=False).project_ids.ids), ('active', 'in', [True, False])],
+=======
+            'domain': ['|', ('sale_order_id', '=', self.id), ('id', 'in', self.project_ids.ids)],
+>>>>>>> upstream/18.0
 =======
             'domain': ['|', ('sale_order_id', '=', self.id), ('id', 'in', self.project_ids.ids)],
 >>>>>>> upstream/18.0
@@ -361,7 +369,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if len(self.with_context(active_test=False).project_ids) == 1:
+=======
+        if len(self.project_ids) == 1:
+>>>>>>> upstream/18.0
 =======
         if len(self.project_ids) == 1:
 >>>>>>> upstream/18.0

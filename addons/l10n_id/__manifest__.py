@@ -53,7 +53,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'version': '1.1',
+=======
+    'version': '1.2',
+>>>>>>> upstream/18.0
 =======
     'version': '1.2',
 >>>>>>> upstream/18.0

@@ -116,9 +116,12 @@ class PortalChatter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         thread = request.env[thread_model]._get_thread_with_access(thread_id, **kwargs)
         partner = request.env.user.partner_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -342,6 +345,9 @@ class PortalChatter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -493,6 +499,7 @@ class PortalChatter(http.Controller):
             mode = request.env[thread_model]._get_mail_message_access([thread_id], "create")
             has_react_access = request.env[thread_model]._get_thread_with_access(thread_id, mode, **kwargs)
             can_react = has_react_access
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -736,6 +743,8 @@ class PortalChatter(http.Controller):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if request.env.user._is_public():
                 if portal_partner := get_portal_partner(
                     thread, kwargs.get("hash"), kwargs.get("pid"), kwargs.get("token")
@@ -788,6 +797,9 @@ class PortalChatter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -949,6 +961,9 @@ class PortalChatter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1112,9 +1127,12 @@ class PortalChatter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             [('res_id', '=', thread_id), '|', ('body', '!=', ''), ('attachment_ids', '!=', False),
              ("subtype_id", "=", request.env.ref("mail.mt_comment").id)]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1126,6 +1144,9 @@ class PortalChatter(http.Controller):
             ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1156,6 +1177,12 @@ class PortalChatter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_non_empty_message_domain(self):
+        return ["|", ("body", "!=", ""), ("attachment_ids", "!=", False)]
+
+>>>>>>> upstream/18.0
 =======
     def _get_non_empty_message_domain(self):
         return ["|", ("body", "!=", ""), ("attachment_ids", "!=", False)]
@@ -1244,7 +1271,10 @@ class MailController(mail.MailController):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1429,6 +1459,9 @@ class MailController(mail.MailController):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1642,7 +1675,11 @@ class MailController(mail.MailController):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             url = url.replace(query=urls.url_encode(url_params)).to_url()
+=======
+                            url = url.replace(query=urls.url_encode(url_params, sort=True)).to_url()
+>>>>>>> upstream/18.0
 =======
                             url = url.replace(query=urls.url_encode(url_params, sort=True)).to_url()
 >>>>>>> upstream/18.0

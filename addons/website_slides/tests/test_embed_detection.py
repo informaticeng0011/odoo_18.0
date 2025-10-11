@@ -51,7 +51,10 @@ class TestEmbedDetection(HttpCase, common.SlidesCase):
             ('slide_id', '=', self.slide.id)
         ])))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_embed_category_slide(self):
         self.slide.channel_id.website_id = False
@@ -68,4 +71,7 @@ class TestEmbedDetection(HttpCase, common.SlidesCase):
         self.assertFalse(bool(self.env['slide.embed'].search([
             ('slide_id', '=', self.slide.id)
         ])))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

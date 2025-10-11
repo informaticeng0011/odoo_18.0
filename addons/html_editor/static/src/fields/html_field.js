@@ -55,6 +55,11 @@ import { fixInvalidHTML, instanceofMarkup } from "@html_editor/utils/sanitize";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const HTML_FIELD_METADATA_ATTRIBUTES = ["data-last-history-steps"];
+
+>>>>>>> upstream/18.0
 =======
 const HTML_FIELD_METADATA_ATTRIBUTES = ["data-last-history-steps"];
 
@@ -300,8 +305,29 @@ export class HtmlField extends Component {
     }
 
     async getEditorContent() {
+<<<<<<< HEAD
         await this.editor.shared.media?.savePendingImages();
         return this.editor.getElContent();
+=======
+        const content = this.editor.getElContent();
+        const oldSrcToNewSrcMap = await this.editor.shared.media?.savePendingImages(content);
+        // Update the actual editable if still in the DOM.
+        if (this.editor.editable && oldSrcToNewSrcMap) {
+            this.editor.editable
+                .querySelectorAll('.o_b64_image_to_save, .o_modified_image_to_save')
+              .forEach((unsavedImage) => {
+                const oldSrc = unsavedImage.getAttribute('src');
+                if (oldSrcToNewSrcMap.has(oldSrc)) {
+                  unsavedImage.setAttribute(
+                    'src',
+                    oldSrcToNewSrcMap.get(oldSrc)
+                  );
+                }
+                unsavedImage.classList.remove("o_b64_image_to_save", "o_modified_image_to_save");
+              });
+        }
+        return content;
+>>>>>>> upstream/18.0
     }
 
     async _commitChanges({ urgent }) {
@@ -469,6 +495,10 @@ export class HtmlField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ...config.resources,
+>>>>>>> upstream/18.0
 =======
                 ...config.resources,
 >>>>>>> upstream/18.0
@@ -814,6 +844,10 @@ export const htmlField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            editorConfig.classList = ["overflow-auto"];
+>>>>>>> upstream/18.0
 =======
             editorConfig.classList = ["overflow-auto"];
 >>>>>>> upstream/18.0
@@ -1203,7 +1237,10 @@ registry.category("fields").add("html", htmlField, { force: true });
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1308,6 +1345,9 @@ export function setHtmlFieldMetadata(content, metadata) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

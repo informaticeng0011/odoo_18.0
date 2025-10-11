@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 # 
+=======
+# * mrp
+#
+>>>>>>> upstream/18.0
 =======
 # * mrp
 #
@@ -12,7 +17,11 @@
 # Nurlan Farajov <coolinuxoid@gmail.com>, 2025
 # erpgo translator <jumshud@erpgo.az>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
 >>>>>>> upstream/18.0
@@ -20,6 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -375,6 +385,8 @@ msgstr ""
 "Language: az\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-06-13 18:36+0000\n"
 "PO-Revision-Date: 2025-10-09 17:02+0000\n"
 "Last-Translator: ERPGo Odoo <erpgo.odoo@gmail.com>\n"
@@ -386,6 +398,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -948,7 +963,11 @@ msgstr ""
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "A Manufacturing Order is already done or cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İstehsal sifarişləri ya artıq yerinə yetirilib və ya ləğv edilib."
+=======
+msgstr "İstehsalat Sifarişi ya artıq yerinə yetirilib ya da ləğv edilib."
+>>>>>>> upstream/18.0
 =======
 msgstr "İstehsalat Sifarişi ya artıq yerinə yetirilib ya da ləğv edilib."
 >>>>>>> upstream/18.0
@@ -1618,7 +1637,11 @@ msgstr ""
 #: model:ir.model.fields,help:mrp.field_stock_move__byproduct_id
 msgid "By-product line that generated the move in a manufacturing order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İstehsal qaydasında hərəkəti yaradan yan məhsul xətti"
+=======
+msgstr "İstehsalat sifarişində hərəkəti yaradan yan məhsul xətti"
+>>>>>>> upstream/18.0
 =======
 msgstr "İstehsalat sifarişində hərəkəti yaradan yan məhsul xətti"
 >>>>>>> upstream/18.0
@@ -1682,7 +1705,11 @@ msgstr ""
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Cannot delete a manufacturing order in done state."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Bitmiş vəziyyətdə istehsal sifarişini silmək olmur."
+=======
+msgstr "Bitmiş vəziyyətdə istehsalat sifarişini silmək olmur."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bitmiş vəziyyətdə istehsalat sifarişini silmək olmur."
 >>>>>>> upstream/18.0
@@ -2274,7 +2301,11 @@ msgstr "Susmaya Görə Davametmə Müddəti"
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__use_manufacturing_lead
 msgid "Default Manufacturing Lead Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İstehsalın Həyata Keçirildiyi Susmaya Görə Müddət"
+=======
+msgstr "İstehsalatın Həyata Keçirildiyi Defolt Müddət"
+>>>>>>> upstream/18.0
 =======
 msgstr "İstehsalatın Həyata Keçirildiyi Defolt Müddət"
 >>>>>>> upstream/18.0
@@ -2451,6 +2482,10 @@ msgstr "Sökmə Sifarişi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -2897,7 +2932,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.exception_on_mo
 msgid "Exception(s) occurred on the manufacturing order(s):"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İstehsal sifariş(ləri) üzrə yaranan İstisna(lar)"
+=======
+msgstr "İstehsalat sifariş(ləri) üzrə yaranan İstisna(lar)"
+>>>>>>> upstream/18.0
 =======
 msgstr "İstehsalat sifariş(ləri) üzrə yaranan İstisna(lar)"
 >>>>>>> upstream/18.0
@@ -2952,7 +2991,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
 msgid "Filters"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Filterlər"
+=======
+msgstr "Filtrlər"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtrlər"
 >>>>>>> upstream/18.0
@@ -3185,7 +3228,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_workorder_form_view_filter
 msgid "Group By"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Görə Qrupla"
+=======
+msgstr "Qrupla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qrupla"
 >>>>>>> upstream/18.0
@@ -3291,7 +3338,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3465,6 +3515,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3788,8 +3841,13 @@ msgid ""
 "processed at the latest to fulfill delivery on time."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Çatdırılmanın vaxtında həyata keçirilməsi üçün, istehsal sifarişinin ən son "
 "nə zaman işlənməli olduğunu müəyyən etmək imkanı verən məlumatvermə "
+=======
+"Çatdırılmanın vaxtında həyata keçirilməsi üçün, istehsalat sifarişinin ən "
+"son nə zaman işlənməli olduğunu müəyyən etmək imkanı verən məlumatvermə "
+>>>>>>> upstream/18.0
 =======
 "Çatdırılmanın vaxtında həyata keçirilməsi üçün, istehsalat sifarişinin ən "
 "son nə zaman işlənməli olduğunu müəyyən etmək imkanı verən məlumatvermə "
@@ -4327,7 +4385,11 @@ msgstr "Son 365 gündə istehsal olunub"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_bom_filter
 msgid "Manufacturing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İstehsal"
+=======
+msgstr "İstehsalat"
+>>>>>>> upstream/18.0
 =======
 msgstr "İstehsalat"
 >>>>>>> upstream/18.0
@@ -4346,7 +4408,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__manufacturing_lead
 msgid "Manufacturing Lead Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İstehsalın Həyata Keçirildiyi Müddət"
+=======
+msgstr "İstehsalatın Həyata Keçirildiyi Müddət"
+>>>>>>> upstream/18.0
 =======
 msgstr "İstehsalatın Həyata Keçirildiyi Müddət"
 >>>>>>> upstream/18.0
@@ -4355,7 +4421,11 @@ msgstr "İstehsalatın Həyata Keçirildiyi Müddət"
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__manu_type_id
 msgid "Manufacturing Operation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İstehsal Əməliyyatının Növü"
+=======
+msgstr "İstehsalat Əməliyyatının Növü"
+>>>>>>> upstream/18.0
 =======
 msgstr "İstehsalat Əməliyyatının Növü"
 >>>>>>> upstream/18.0
@@ -4377,7 +4447,11 @@ msgstr "İstehsalat Əməliyyatının Növü"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_workorder_form_view_filter
 msgid "Manufacturing Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "istehsal sifarişi"
+=======
+msgstr "İstehsalat Sifarişi"
+>>>>>>> upstream/18.0
 =======
 msgstr "İstehsalat Sifarişi"
 >>>>>>> upstream/18.0
@@ -4396,7 +4470,11 @@ msgstr "İstehsalat Sifarişi"
 #: model_terms:ir.ui.view,arch_db:mrp.view_production_pivot
 msgid "Manufacturing Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İstehsal Sifarişləri"
+=======
+msgstr "İstehsalat Sifarişləri"
+>>>>>>> upstream/18.0
 =======
 msgstr "İstehsalat Sifarişləri"
 >>>>>>> upstream/18.0
@@ -4405,7 +4483,11 @@ msgstr "İstehsalat Sifarişləri"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Manufacturing Orders which are in confirmed state."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Təsdiq edilmiş vəziyyətdə olan İstehsal Sifarişləri"
+=======
+msgstr "Təsdiq edilmiş vəziyyətdə olan İstehsalat Sifarişləri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Təsdiq edilmiş vəziyyətdə olan İstehsalat Sifarişləri"
 >>>>>>> upstream/18.0
@@ -4415,7 +4497,11 @@ msgstr "Təsdiq edilmiş vəziyyətdə olan İstehsalat Sifarişləri"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid "Manufacturing Readiness"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Məhsulun İstehsal üçün Hazır Olması"
+=======
+msgstr "Məhsulun İstehsalat üçün Hazır Olması"
+>>>>>>> upstream/18.0
 =======
 msgstr "Məhsulun İstehsalat üçün Hazır Olması"
 >>>>>>> upstream/18.0
@@ -4424,7 +4510,11 @@ msgstr "Məhsulun İstehsalat üçün Hazır Olması"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Manufacturing Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İstehsal İstinadları"
+=======
+msgstr "İstehsalat İstinadı"
+>>>>>>> upstream/18.0
 =======
 msgstr "İstehsalat İstinadı"
 >>>>>>> upstream/18.0
@@ -4464,7 +4554,11 @@ msgstr ""
 #: model:ir.ui.menu,name:mrp.mrp_operation_picking
 msgid "Manufacturings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İstehsalatlar"
+>>>>>>> upstream/18.0
 =======
 msgstr "İstehsalatlar"
 >>>>>>> upstream/18.0
@@ -4766,7 +4860,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_waiting
 msgid "Number of Manufacturing Orders Waiting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Növbədə olan İstehsalat Sifarişlərinin Sayı"
+=======
+msgstr "Gözləyən İstehsalat Sifarişlərinin Sayı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gözləyən İstehsalat Sifarişlərinin Sayı"
 >>>>>>> upstream/18.0
@@ -5185,7 +5283,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Planning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Planlaşdırma "
+=======
+msgstr "Planlaşdırma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planlaşdırma"
 >>>>>>> upstream/18.0
@@ -6340,7 +6442,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__sam_type_id
 msgid "Stock After Manufacturing Operation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İstehsal Əməliyyatının Növündən Sonra Stoklama"
+=======
+msgstr "İstehsalat Əməliyyatının Növündən Sonra Stoklama"
+>>>>>>> upstream/18.0
 =======
 msgstr "İstehsalat Əməliyyatının Növündən Sonra Stoklama"
 >>>>>>> upstream/18.0
@@ -6349,7 +6455,11 @@ msgstr "İstehsalat Əməliyyatının Növündən Sonra Stoklama"
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__sam_rule_id
 msgid "Stock After Manufacturing Rule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İstehsal Qaydalarından sonra Stoklama"
+=======
+msgstr "İstehsalat Qaydalarından sonra Stoklama"
+>>>>>>> upstream/18.0
 =======
 msgstr "İstehsalat Qaydalarından sonra Stoklama"
 >>>>>>> upstream/18.0
@@ -8067,6 +8177,7 @@ msgstr "İş Sifarişləri"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -8087,6 +8198,8 @@ msgstr ""
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

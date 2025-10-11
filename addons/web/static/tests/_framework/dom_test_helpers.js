@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 import { after, afterEach } from "@odoo/hoot";
 import {
+=======
+import {
+    advanceFrame,
+    advanceTime,
+    after,
+    afterEach,
+    animationFrame,
+>>>>>>> upstream/18.0
     check,
     clear,
     click,
@@ -19,6 +28,7 @@ import {
     select,
     uncheck,
     waitFor,
+<<<<<<< HEAD
 } from "@odoo/hoot-dom";
 import { advanceFrame, advanceTime, animationFrame } from "@odoo/hoot-mock";
 import { hasTouch } from "@web/core/browser/feature_detection";
@@ -33,6 +43,21 @@ import { hasTouch } from "@web/core/browser/feature_detection";
  * @typedef {import("@odoo/hoot-dom").Position} Position
  * @typedef {import("@odoo/hoot-dom").QueryOptions} QueryOptions
  * @typedef {import("@odoo/hoot-dom").Target} Target
+=======
+} from "@odoo/hoot";
+import { hasTouch } from "@web/core/browser/feature_detection";
+
+/**
+ * @typedef {import("@odoo/hoot").DragHelpers} DragHelpers
+ * @typedef {import("@odoo/hoot").DragOptions} DragOptions
+ * @typedef {import("@odoo/hoot").FillOptions} FillOptions
+ * @typedef {import("@odoo/hoot").InputValue} InputValue
+ * @typedef {import("@odoo/hoot").KeyStrokes} KeyStrokes
+ * @typedef {import("@odoo/hoot").PointerOptions} PointerOptions
+ * @typedef {import("@odoo/hoot").Position} Position
+ * @typedef {import("@odoo/hoot").QueryOptions} QueryOptions
+ * @typedef {import("@odoo/hoot").Target} Target
+>>>>>>> upstream/18.0
  *
  * @typedef {DragOptions & {
  *  initialPointerMoveDistance?: number;
@@ -49,7 +74,11 @@ import { hasTouch } from "@web/core/browser/feature_detection";
 
 /**
  * @template T
+<<<<<<< HEAD
  * @typedef {import("@odoo/hoot-dom").MaybePromise<T>} MaybePromise
+=======
+ * @typedef {T | PromiseLike<T>} MaybePromise
+>>>>>>> upstream/18.0
  */
 
 /**
@@ -402,7 +431,12 @@ export function contains(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await scroll(nodePromise, position);
+=======
+            // disable "scrollable" check
+            await scroll(nodePromise, position, { scrollable: false, ...options });
+>>>>>>> upstream/18.0
 =======
             // disable "scrollable" check
             await scroll(nodePromise, position, { scrollable: false, ...options });

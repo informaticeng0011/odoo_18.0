@@ -116,7 +116,11 @@ class LunchOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             wallet_amount = self.env['lunch.cashmove'].get_wallet_balance(order.user_id, False) - price
+=======
+            wallet_amount = self.env['lunch.cashmove'].get_wallet_balance(order.user_id) - price
+>>>>>>> upstream/18.0
 =======
             wallet_amount = self.env['lunch.cashmove'].get_wallet_balance(order.user_id) - price
 >>>>>>> upstream/18.0
@@ -298,7 +302,11 @@ class LunchOrder(models.Model):
 
         if merge_needed:
             lines_to_deactivate = self.env['lunch.order']
+<<<<<<< HEAD
             for line in self:
+=======
+            for line in self.filtered(lambda line: line.state not in ['sent', 'confirmed']):
+>>>>>>> upstream/18.0
                 # Only write on topping_ids_1 because they all share the same table
                 # and we don't want to remove all the records
                 # _extract_toppings will pop topping_ids_1, topping_ids_2 and topping_ids_3 from values
@@ -315,7 +323,11 @@ class LunchOrder(models.Model):
                     'toppings': toppings,
                     'lunch_location_id': values.get('lunch_location_id', default_location_id),
                     'state': values.get('state'),
+<<<<<<< HEAD
                 })
+=======
+                }) - line
+>>>>>>> upstream/18.0
                 if matching_lines:
                     lines_to_deactivate |= line
                     matching_lines.update_quantity(line.quantity)

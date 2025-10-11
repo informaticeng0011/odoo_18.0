@@ -130,8 +130,11 @@ export class ProductProduct extends Base {
     // and were automatically sorted based on their _order by the
     // ORM. After that they are added in this order to the pricelists.
 <<<<<<< HEAD
+<<<<<<< HEAD
     get_price(pricelist, quantity, price_extra = 0, recurring = false, list_price = false) {
 =======
+=======
+>>>>>>> upstream/18.0
     get_price(
         pricelist,
         quantity,
@@ -141,6 +144,9 @@ export class ProductProduct extends Base {
         original_line = false,
         related_lines = []
     ) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // In case of nested pricelists, it is necessary that all pricelists are made available in
         // the POS. Display a basic alert to the user in the case where there is a pricelist item
@@ -157,9 +163,12 @@ export class ProductProduct extends Base {
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         let price = (list_price || this.lst_price) + (price_extra || 0);
         const rule = this.getPricelistRule(pricelist, quantity);
 =======
+=======
+>>>>>>> upstream/18.0
         if (original_line && original_line.isLotTracked()) {
             related_lines.push(
                 ...original_line.order_id.lines.filter((line) => line.product_id.id === this.id)
@@ -172,6 +181,9 @@ export class ProductProduct extends Base {
         const rule = this.getPricelistRule(pricelist, quantity);
 
         let price = (list_price || this.lst_price) + (price_extra || 0);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (!rule) {
             return price;
@@ -313,6 +325,12 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    get variants() {
+        return this.product_tmpl_id?.["<-product.product.product_tmpl_id"];
+    }
+>>>>>>> upstream/18.0
 =======
     get variants() {
         return this.product_tmpl_id?.["<-product.product.product_tmpl_id"];

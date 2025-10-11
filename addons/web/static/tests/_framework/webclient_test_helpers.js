@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { animationFrame } from "@odoo/hoot-mock";
+=======
+import { animationFrame } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 import { Component, xml } from "@odoo/owl";
 import { registry } from "@web/core/registry";
 import { WebClient } from "@web/webclient/webclient";
