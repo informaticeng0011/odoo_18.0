@@ -6,8 +6,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2025-04-07 20:36+0000\n"
+=======
+"POT-Creation-Date: 2025-10-11 02:16+0000\n"
+"PO-Revision-Date: 2025-10-11 02:16+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -996,6 +1001,10 @@ msgid "Attendees are answering the question..."
 msgstr ""
 
 #. module: survey
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:survey.field_survey_survey__session_speed_rating
 msgid "Attendees get more points if they answer quickly"
 msgstr ""
@@ -1645,6 +1654,10 @@ msgid "Deadline"
 msgstr ""
 
 #. module: survey
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:survey.field_survey_survey__session_speed_rating_time_limit
 msgid "Default time given to receive additional points for right answers"
 msgstr ""
@@ -1908,6 +1921,15 @@ msgid "Food Preferences"
 msgstr ""
 
 #. module: survey
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/survey/models/survey_question.py:0
+msgid "For this question, you can only select one answer."
+msgstr ""
+
+#. module: survey
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:survey.selection__survey_user_input_line__answer_type__text_box
 msgid "Free Text"
 msgstr ""
@@ -1953,6 +1975,14 @@ msgid "Gather feedbacks from your employees and customers"
 msgstr ""
 
 #. module: survey
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating_time_limit
+msgid "General Time limit (seconds)"
+msgstr ""
+
+#. module: survey
+>>>>>>> upstream/18.0
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p2
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p1_q1_sug1
 msgid "Geography"
@@ -3738,6 +3768,10 @@ msgid "Review your answers"
 msgstr ""
 
 #. module: survey
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_speed_rating
 msgid "Reward quick answers"
 msgstr ""

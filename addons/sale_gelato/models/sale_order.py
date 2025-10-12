@@ -3,6 +3,10 @@
 import logging
 import pprint
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from functools import partial, wraps
+>>>>>>> upstream/18.0
 =======
 from functools import partial, wraps
 >>>>>>> upstream/18.0
@@ -17,7 +21,10 @@ _logger = logging.getLogger(__name__)
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 def post_commit(func):
     """ Wrap method to run in postcommit/postrollback hook with a separate cursor. """
 
@@ -30,6 +37,9 @@ def post_commit(func):
     return _post_commit_wrapper
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 class SaleOrder(models.Model):
     _inherit = 'sale.order'
@@ -92,7 +102,11 @@ class SaleOrder(models.Model):
         )
         payload = {
 <<<<<<< HEAD
+<<<<<<< HEAD
             'orderType': 'order',
+=======
+            'orderType': 'draft',  # The order is confirmed/deleted later, see @post_commit hooks.
+>>>>>>> upstream/18.0
 =======
             'orderType': 'draft',  # The order is confirmed/deleted later, see @post_commit hooks.
 >>>>>>> upstream/18.0
@@ -107,12 +121,18 @@ class SaleOrder(models.Model):
             api_key = self.company_id.sudo().gelato_api_key  # In sudo mode to read on the company.
             data = utils.make_request(api_key, 'order', 'v4', 'orders', payload=payload)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
             # Add hooks to confirm/delete the order on Gelato only after the transaction is
             # committed/rolled back. This prevents creating duplicate confirmed orders on Gelato.
             self.env.cr.postcommit.add(partial(self._confirm_order_on_gelato, data['id']))
             self.env.cr.postrollback.add(partial(self._delete_order_on_gelato, data['id']))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         except UserError as e:
             raise UserError(_(
@@ -148,7 +168,10 @@ class SaleOrder(models.Model):
             items_payload.append(item_data)
         return items_payload
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @post_commit
     def _confirm_order_on_gelato(self, gelato_order_id):
@@ -215,4 +238,7 @@ class SaleOrder(models.Model):
                 "Received deletion request response for Gelato order %s:\n%s",
                 gelato_order_id, pprint.pformat(data),
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

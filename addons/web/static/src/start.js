@@ -6,7 +6,10 @@ import { user } from "@web/core/user";
 import { Component, whenReady } from "@odoo/owl";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 // Chrome iOS wraps some text nodes (like measures, email...)
 // with a `<chrome_annotation>` tag, which breaks OWL rendering.
 // This meta tag allows to disable this behavior.
@@ -15,6 +18,9 @@ chromeMetaTag.setAttribute("name", "chrome");
 chromeMetaTag.setAttribute("content", "nointentdetection");
 document.head.appendChild(chromeMetaTag);
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * Function to start a webclient.

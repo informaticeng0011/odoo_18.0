@@ -284,12 +284,18 @@ class PricelistItem(models.Model):
     #=== CONSTRAINT METHODS ===#
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.constrains('base_pricelist_id', 'base')
     def _check_base_pricelist_id(self):
         if any(item.base == 'pricelist' and not item.base_pricelist_id for item in self):
             raise ValidationError(_('A pricelist item with "Other Pricelist" as base must have a base_pricelist_id.'))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.constrains('base_pricelist_id', 'pricelist_id', 'base')
     def _check_pricelist_recursion(self):
@@ -424,6 +430,10 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.base_pricelist_id = False
+>>>>>>> upstream/18.0
 =======
         self.base_pricelist_id = False
 >>>>>>> upstream/18.0

@@ -31,11 +31,17 @@ def make_request(api_key, subdomain, version, endpoint, payload=None, method='PO
         if method == 'GET':
             response = requests.get(url=url, params=payload, headers=headers, timeout=10)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         elif method == 'PATCH':
             response = requests.patch(url=url, json=payload, headers=headers, timeout=10)
         elif method == 'DELETE':
             response = requests.delete(url=url, params=payload, headers=headers, timeout=10)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         else:
             response = requests.post(url=url, json=payload, headers=headers, timeout=10)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
@@ -7,6 +8,8 @@ from odoo.addons.sale_loyalty.tests.common import TestSaleCouponCommon
 from odoo.exceptions import ValidationError
 
 =======
+=======
+>>>>>>> upstream/18.0
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import Command
@@ -14,6 +17,9 @@ from odoo.exceptions import ValidationError
 
 from odoo.addons.sale_loyalty.tests.common import TestSaleCouponCommon
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class TestProgramWithCodeOperations(TestSaleCouponCommon):
@@ -138,7 +144,10 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -510,6 +519,9 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1099,7 +1111,10 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_change_reward_on_confirmed_order(self):
         """Check that changing rewards on a confirmed order restores points on the coupon.
         Tested flow:
@@ -1143,6 +1158,9 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
         self.assertEqual(order.amount_total, 50, "50% discount should be applied")
         self.assertEqual(coupon.points, 5, "50% discount reward should use 5 points")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_edit_and_reapply_promotion_program(self):
         # The flow:
@@ -1310,7 +1328,10 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1811,6 +1832,9 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

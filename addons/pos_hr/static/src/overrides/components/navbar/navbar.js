@@ -10,7 +10,10 @@ patch(Navbar.prototype, {
         }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     get showBackend() {
         const cashier = this.pos.get_cashier_user_id();
         return (
@@ -18,5 +21,8 @@ patch(Navbar.prototype, {
             (cashier && cashier.id === this.pos.session.user_id?.id)
         );
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

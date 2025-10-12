@@ -17,7 +17,11 @@ from markupsafe import Markup
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from urllib.parse import parse_qs
+=======
+from urllib.parse import parse_qs, urlparse
+>>>>>>> upstream/18.0
 =======
 from urllib.parse import parse_qs, urlparse
 >>>>>>> upstream/18.0
@@ -187,8 +191,11 @@ def get_video_embed_code(video_url):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     data = get_video_url_data(video_url)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -229,6 +236,9 @@ def get_video_embed_code(video_url):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

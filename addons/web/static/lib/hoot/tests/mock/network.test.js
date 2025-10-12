@@ -1,8 +1,12 @@
 /** @odoo-module */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
 import { mockFetch } from "@odoo/hoot-mock";
+=======
+import { describe, expect, mockFetch, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { describe, expect, mockFetch, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0

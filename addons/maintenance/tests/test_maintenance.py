@@ -6,6 +6,10 @@ import time
 from odoo.tests import Form
 from odoo.tests.common import tagged, TransactionCase
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import fields
+>>>>>>> upstream/18.0
 =======
 from odoo import fields
 >>>>>>> upstream/18.0
@@ -154,7 +158,10 @@ class TestEquipmentPostInstall(TestEquipmentCommon):
             form = Form(self.env['maintenance.equipment'].browse(equipment.id))
             self.assertEqual(form.name, equipment_name)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_done_maintenance_no_close_or_request_date(self):
         """
@@ -188,4 +195,7 @@ class TestEquipmentPostInstall(TestEquipmentCommon):
         form = Form(equipment)
         maintenance.close_date = False
         form = Form(equipment)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

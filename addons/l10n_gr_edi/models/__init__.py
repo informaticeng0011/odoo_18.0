@@ -37,6 +37,10 @@ from . import res_company
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import res_config_settings
+>>>>>>> upstream/18.0
 =======
 from . import res_config_settings
 >>>>>>> upstream/18.0

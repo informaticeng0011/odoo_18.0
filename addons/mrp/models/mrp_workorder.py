@@ -69,6 +69,10 @@ from odoo import api, fields, models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.resource.models.utils import Intervals, sum_intervals
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.resource.models.utils import Intervals, sum_intervals
 >>>>>>> upstream/18.0
@@ -413,6 +417,10 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    has_worksheet = fields.Boolean(compute='_compute_has_worksheet')
+>>>>>>> upstream/18.0
 =======
     has_worksheet = fields.Boolean(compute='_compute_has_worksheet')
 >>>>>>> upstream/18.0
@@ -854,6 +862,7 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if order.state not in ('progress', 'done'):
                     order.state = 'progress'
 <<<<<<< HEAD
@@ -1096,6 +1105,11 @@ class MrpWorkorder(models.Model):
                     order.state = 'progress'
                 enddate = fields.Datetime.now()
 >>>>>>> upstream/18.0
+=======
+                if order.state not in ('progress', 'done', 'cancel'):
+                    order.state = 'progress'
+                enddate = fields.Datetime.now()
+>>>>>>> upstream/18.0
                 date_start = enddate - timedelta(seconds=_float_duration_to_second(delta_duration))
                 if order.duration_expected >= new_order_duration or old_order_duration >= order.duration_expected:
                     # either only productive or only performance (i.e. reduced speed) time respectively
@@ -1195,7 +1209,10 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1381,6 +1398,9 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1760,6 +1780,7 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for wo in self:
             if date:
                 duration = sum(wo.time_ids.filtered(lambda t: t.date_end and t.date_end <= date).mapped('duration'))
@@ -1767,6 +1788,8 @@ class MrpWorkorder(models.Model):
                 duration = sum(wo.time_ids.mapped('duration'))
             total += (duration / 60.0) * wo.workcenter_id.costs_hour
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1960,6 +1983,9 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2171,6 +2197,10 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        all_vals_dict = defaultdict(lambda: self.env['mrp.workorder'])
+>>>>>>> upstream/18.0
 =======
         all_vals_dict = defaultdict(lambda: self.env['mrp.workorder'])
 >>>>>>> upstream/18.0
@@ -2313,7 +2343,13 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             workorder.with_context(bypass_duration_calculation=True).write(vals)
+=======
+            all_vals_dict[frozenset(vals.items())] |= workorder
+        for frozen_vals, workorders in all_vals_dict.items():
+            workorders.with_context(bypass_duration_calculation=True).write(dict(frozen_vals))
+>>>>>>> upstream/18.0
 =======
             all_vals_dict[frozenset(vals.items())] |= workorder
         for frozen_vals, workorders in all_vals_dict.items():

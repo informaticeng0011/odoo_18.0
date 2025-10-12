@@ -114,10 +114,13 @@ class Task(models.Model):
         string="Collaborators",
     )
 <<<<<<< HEAD
+<<<<<<< HEAD
     date = fields.Date()
 
 
 =======
+=======
+>>>>>>> upstream/18.0
     tag_ids = fields.Many2many(
         'test_read_group.tag',
         'test_read_group_task_tag_rel',
@@ -152,6 +155,9 @@ class Test_Read_GroupTag(models.Model):
     active = fields.Boolean(default=True)
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 class Partner(models.Model):
     _inherit = 'res.partner'

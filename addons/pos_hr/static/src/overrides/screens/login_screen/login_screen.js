@@ -57,10 +57,14 @@ patch(LoginScreen.prototype, {
         } else {
             const employee = await this.selectCashier();
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (
                 employee &&
                 (employee._role === "manager" || employee.user_id?.id === this.pos.user.id)
             ) {
+=======
+            if (employee && employee.user_id?.id === this.pos.user.id) {
+>>>>>>> upstream/18.0
 =======
             if (employee && employee.user_id?.id === this.pos.user.id) {
 >>>>>>> upstream/18.0

@@ -117,6 +117,10 @@ class TestSurveyInternals(common.TestSurveyCommon, MailCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @users('survey_manager')
+>>>>>>> upstream/18.0
 =======
     @users('survey_manager')
 >>>>>>> upstream/18.0
@@ -260,7 +264,11 @@ class TestSurveyInternals(common.TestSurveyCommon, MailCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.assertEqual(question_answer.display_name, '2020-02-15 18:00:00')
+=======
+                self.assertEqual(question_answer.display_name, '2020-02-15 19:00:00')
+>>>>>>> upstream/18.0
 =======
                 self.assertEqual(question_answer.display_name, '2020-02-15 19:00:00')
 >>>>>>> upstream/18.0
@@ -467,7 +475,10 @@ class TestSurveyInternals(common.TestSurveyCommon, MailCase):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @users('survey_manager')
     def test_simple_choice_validation_multiple_answers(self):
         """
@@ -548,6 +559,9 @@ class TestSurveyInternals(common.TestSurveyCommon, MailCase):
             {question_fail.id: 'TestError'}
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_partial_scores_simple_choice(self):
         """" Check that if partial scores are given for partially correct answers, in the case of a multiple
@@ -684,7 +698,10 @@ class TestSurveyInternals(common.TestSurveyCommon, MailCase):
 
     @users('survey_manager')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_multiple_choice_comment_not_skipped(self):
         """ Test that a multiple choice question with only a comment is not marked as skipped. """
         survey_user = self.survey._create_answer(user=self.survey_user)
@@ -709,6 +726,9 @@ class TestSurveyInternals(common.TestSurveyCommon, MailCase):
         self.assertEqual(answer_line.value_char_box, 'This is only a comment')
 
     @users('survey_manager')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_copy_conditional_question_settings(self):
         """ Create a survey with conditional layout, clone it and verify that the cloned survey has the same conditional

@@ -748,7 +748,10 @@ class TestPrivateReadGroup(common.TransactionCase):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_groupby_many2many_active_test_domain(self):
         Tag = self.env['test_read_group.tag']
         active_tag, archive_tag = Tag.create([
@@ -868,6 +871,9 @@ class TestPrivateReadGroup(common.TransactionCase):
                 ],
             )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_float_aggregate(self):
         records = self.env['test_read_group.aggregate'].create({'numeric_value': 42.42})

@@ -107,7 +107,10 @@ test("display the avatar of the parent when there is more than one node in the s
     expect(".o_avatar").toHaveText("Josephine");
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("hierarchy with a self manager employee", async () => {
     Employee._records = [{ id: 1, name: "Albert", parent_id: 1, child_ids: [1] }]
@@ -156,4 +159,7 @@ test("hierarchy with a cycle", async () =>{
     expect(".o_hierarchy_row:nth-of-type(1) .o_hierarchy_node_content").toHaveText("Albert\nLouis");
     expect(".o_hierarchy_row:nth-of-type(8) .o_hierarchy_node_content").toHaveText("Albert\nLouis");
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

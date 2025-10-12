@@ -320,7 +320,10 @@ class TestPurchaseLeadTime(PurchaseTestCommon):
         self.assertEqual(purchase_order.date_order, today)
         self.assertEqual(purchase_order.date_planned, today + timedelta(days=7))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_lead_time_with_no_supplier(self):
         """Test that lead time is incremented by 365 days (1 year) when there
@@ -341,4 +344,7 @@ class TestPurchaseLeadTime(PurchaseTestCommon):
         })
 
         self.assertEqual(orderpoint.lead_days_date, fields.Date.today() + timedelta(days=365))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

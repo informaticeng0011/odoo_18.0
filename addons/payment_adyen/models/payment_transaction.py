@@ -65,6 +65,12 @@ class PaymentTransaction(models.Model):
             self.amount, self.currency_id, const.CURRENCY_DECIMALS.get(self.currency_id.name)
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        partner_country_code = (
+            self.partner_country_id.code or self.provider_id.company_id.country_id.code or 'NL'
+        )
+>>>>>>> upstream/18.0
 =======
         partner_country_code = (
             self.partner_country_id.code or self.provider_id.company_id.country_id.code or 'NL'
@@ -77,6 +83,10 @@ class PaymentTransaction(models.Model):
                 'currency': self.currency_id.name,
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'countryCode': partner_country_code,
+>>>>>>> upstream/18.0
 =======
             'countryCode': partner_country_code,
 >>>>>>> upstream/18.0
@@ -93,12 +103,18 @@ class PaymentTransaction(models.Model):
             'telephoneNumber': self.partner_phone,
             **adyen_utils.include_partner_addresses(self),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             'lineItems': [{
                 'amountIncludingTax': converted_amount,
                 'quantity': '1',
                 'description': self.reference,
             }],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
 

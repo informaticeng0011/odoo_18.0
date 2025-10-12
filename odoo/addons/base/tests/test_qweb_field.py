@@ -89,7 +89,10 @@ class TestQwebFieldContact(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -146,6 +149,9 @@ class TestQwebFieldMany2One(common.TransactionCase):
         self.assertEqual(self.value_to_html(child.parent_id), 'BigBoss')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

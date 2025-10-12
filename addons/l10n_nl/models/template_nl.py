@@ -39,6 +39,11 @@ class AccountChartTemplate(models.AbstractModel):
                 'account_purchase_tax_id': 'btw_21_buy',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'deferred_expense_account_id': '1205',
+                'deferred_revenue_account_id': '1405',
+>>>>>>> upstream/18.0
 =======
                 'deferred_expense_account_id': '1205',
                 'deferred_revenue_account_id': '1405',

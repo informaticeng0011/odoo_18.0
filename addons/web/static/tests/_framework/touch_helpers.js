@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { queryFirst } from "@odoo/hoot-dom";
 import { advanceTime } from "@odoo/hoot-mock";
 import { contains } from "./dom_test_helpers";
@@ -7,12 +8,17 @@ import { contains } from "./dom_test_helpers";
  * @typedef {import("@odoo/hoot-dom").PointerOptions} PointerOptions
  * @typedef {import("@odoo/hoot-dom").Target} Target
 =======
+=======
+>>>>>>> upstream/18.0
 import { advanceTime, queryFirst } from "@odoo/hoot";
 import { contains } from "./dom_test_helpers";
 
 /**
  * @typedef {import("@odoo/hoot").PointerOptions} PointerOptions
  * @typedef {import("@odoo/hoot").Target} Target
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
  */
 

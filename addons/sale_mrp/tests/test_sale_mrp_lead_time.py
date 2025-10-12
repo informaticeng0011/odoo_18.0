@@ -33,7 +33,11 @@ from datetime import timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields
+=======
+from odoo import fields, Command
+>>>>>>> upstream/18.0
 =======
 from odoo import fields, Command
 >>>>>>> upstream/18.0
@@ -329,7 +333,10 @@ class TestSaleMrpLeadTime(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -416,11 +423,17 @@ class TestSaleMrpLeadTime(TestStockCommon):
             'route_ids': routes,
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.env['mrp.bom'].create({
             'product_tmpl_id': product.product_tmpl_id.id,
             'product_qty': 1,
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         order = self.env['sale.order'].create({
             'partner_id': self.partner_1.id,
@@ -464,6 +477,9 @@ class TestSaleMrpLeadTime(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

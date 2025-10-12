@@ -4,7 +4,11 @@ import { logger } from "./core/logger";
 import { Runner } from "./core/runner";
 import { urlParams } from "./core/url";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { makeRuntimeHook } from "./hoot_utils";
+=======
+import { copyAndBind, makeRuntimeHook } from "./hoot_utils";
+>>>>>>> upstream/18.0
 =======
 import { copyAndBind, makeRuntimeHook } from "./hoot_utils";
 >>>>>>> upstream/18.0
@@ -13,7 +17,10 @@ import { setupHootUI } from "./ui/setup_hoot_ui";
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
  * @typedef {import("../hoot-dom/helpers/dom").Dimensions} Dimensions
  * @typedef {import("../hoot-dom/helpers/dom").FormatXmlOptions} FormatXmlOptions
  * @typedef {import("../hoot-dom/helpers/dom").Position} Position
@@ -32,6 +39,9 @@ import { setupHootUI } from "./ui/setup_hoot_ui";
  *
  * @typedef {import("./mock/network").ServerWebSocket} ServerWebSocket
  *
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
  * @typedef {{
  *  runner: Runner;
@@ -52,6 +62,7 @@ setRunner(runner);
 //-----------------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @param {...unknown} values
  */
@@ -61,13 +72,19 @@ export function registerDebugInfo(...values) {
 
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 // Main test API
 export const describe = runner.describe;
 export const expect = runner.expect;
 export const test = runner.test;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Hooks
+=======
+// Test hooks
+>>>>>>> upstream/18.0
 =======
 // Test hooks
 >>>>>>> upstream/18.0
@@ -81,7 +98,11 @@ export const onError = makeRuntimeHook("onError");
 export const getFixture = runner.fixture.get;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Other functions
+=======
+// Other test runner functions
+>>>>>>> upstream/18.0
 =======
 // Other test runner functions
 >>>>>>> upstream/18.0
@@ -97,6 +118,7 @@ export { defineTags } from "./core/tag";
 export { createJobScopedGetter } from "./hoot_utils";
 
 // Constants
+<<<<<<< HEAD
 <<<<<<< HEAD
 export const globals = {
     AbortController: globalThis.AbortController,
@@ -275,6 +297,8 @@ export const isHootReady = setupHootUI();
 export const isHootReady = setupHootUI();
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 export const globals = copyAndBind(globalThis);
 export const isHootReady = setupHootUI();
 
@@ -375,4 +399,7 @@ export const __debug__ = runner;
 export function registerDebugInfo(...values) {
     logger.logDebug(...values);
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
