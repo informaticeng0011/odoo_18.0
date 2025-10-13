@@ -104,8 +104,11 @@ import { _t } from "@web/core/l10n/translation";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const { DateTime } = luxon;
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -373,6 +376,7 @@ export default class IndexedDB {
                         delete alreadyExists.write_date;
                     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -794,6 +798,9 @@ export default class IndexedDB {
 =======
                     if (alreadyExists && JSON.stringify(alreadyExists) === JSON.stringify(data)) {
 >>>>>>> upstream/18.0
+=======
+                    if (alreadyExists && JSON.stringify(alreadyExists) === JSON.stringify(data)) {
+>>>>>>> upstream/18.0
                         delete arrData[idx];
                     }
                 }
@@ -918,9 +925,13 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return Promise.allSettled(promises).then((results) => {
             return results;
         });
+=======
+        return Promise.allSettled(promises).then((results) => results);
+>>>>>>> upstream/18.0
 =======
         return Promise.allSettled(promises).then((results) => results);
 >>>>>>> upstream/18.0
@@ -1390,8 +1401,13 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return Promise.allSettled(promises).then((results) => {
             return results.reduce((acc, result) => {
+=======
+        return Promise.allSettled(promises).then((results) =>
+            results.reduce((acc, result) => {
+>>>>>>> upstream/18.0
 =======
         return Promise.allSettled(promises).then((results) =>
             results.reduce((acc, result) => {
@@ -1917,8 +1933,13 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }, {});
         });
+=======
+            }, {})
+        );
+>>>>>>> upstream/18.0
 =======
             }, {})
         );

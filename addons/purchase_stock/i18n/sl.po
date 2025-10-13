@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* purchase_stock
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -129,10 +130,18 @@
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Aleš Pipan, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -524,6 +533,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: sl\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-10-11 02:16+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Aleš Pipan, 2025\n"
+"Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_order_view_form_inherit
@@ -537,6 +558,15 @@ msgid "+ %d day(s)"
 msgstr ""
 
 #. module: purchase_stock
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/purchase_stock/models/stock_rule.py:0
+msgid "+ %s day(s)"
+msgstr ""
+
+#. module: purchase_stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_partner_view_purchase_buttons_inherit
 msgid "<span class=\"o_stat_text\">On-time Rate</span>"
 msgstr ""
@@ -553,7 +583,12 @@ msgstr ""
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_order_view_form_inherit
+<<<<<<< HEAD
 msgid "<span invisible=\"on_time_rate &gt;= 0\">No On-time Delivery Data</span>"
+=======
+msgid ""
+"<span invisible=\"on_time_rate &gt;= 0\">No On-time Delivery Data</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_stock
@@ -648,7 +683,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -896,6 +934,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1060,6 +1101,7 @@ msgid "<strong>Incoterm:</strong>"
 msgstr "<strong>Incoterm:</strong>"
 
 #. module: purchase_stock
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1544,11 +1586,21 @@ msgstr ""
 msgid "A storable product is a product for which you manage stock."
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__is_storable
+msgid "A storable product is a product for which you manage stock."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__qty_received_method
 msgid ""
+<<<<<<< HEAD
 "According to product configuration, the received quantity can be automatically computed by mechanism:\n"
+=======
+"According to product configuration, the received quantity can be "
+"automatically computed by mechanism:\n"
+>>>>>>> upstream/18.0
 "  - Manual: the quantity is set manually on the line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
@@ -1819,8 +1871,13 @@ msgstr "Morda bodo potrebni ročni ukrepi."
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_stock
 msgid ""
 "Margin of error for vendor lead times. When the system generates Purchase "
+<<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for reordering products,they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_stock
@@ -1839,6 +1896,15 @@ msgid "Next transfer(s) impacted:"
 msgstr ""
 
 #. module: purchase_stock
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/purchase_stock/models/stock_rule.py:0
+msgid "No Vendor Found"
+msgstr ""
+
+#. module: purchase_stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_partner_view_purchase_buttons_inherit
 msgid "No data yet"
 msgstr "Podatkov še ni"
@@ -1857,8 +1923,13 @@ msgstr "Ni bilo prejeto"
 #. odoo-python
 #: code:addons/purchase_stock/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 "Odoo is not able to generate the anglo saxon entries. The total valuation of"
 " %s is zero."
+=======
+"Odoo is not able to generate the anglo saxon entries. The total valuation of "
+"%s is zero."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_stock
@@ -1900,8 +1971,13 @@ msgstr "Točka naročanja"
 #: model:ir.model.fields,help:purchase_stock.field_res_partner__on_time_rate
 #: model:ir.model.fields,help:purchase_stock.field_res_users__on_time_rate
 msgid ""
+<<<<<<< HEAD
 "Over the past x days; the number of products received on time divided by the"
 " number of ordered products.x is either the System Parameter "
+=======
+"Over the past x days; the number of products received on time divided by the "
+"number of ordered products.x is either the System Parameter "
+>>>>>>> upstream/18.0
 "purchase_stock.on_time_delivery_days or the default 365"
 msgstr ""
 
@@ -2198,7 +2274,11 @@ msgid "Supplier"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dobavitelj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dobavitelj"
 >>>>>>> upstream/18.0
@@ -2327,17 +2407,28 @@ msgstr ""
 #: code:addons/purchase_stock/models/purchase_order_line.py:0
 msgid ""
 "The warehouse of operation type (%(operation_type)s) is inconsistent with "
+<<<<<<< HEAD
 "location (%(location)s) of reordering rule (%(reordering_rule)s) for product"
 " %(product)s. Change the operation type or cancel the request for quotation."
+=======
+"location (%(location)s) of reordering rule (%(reordering_rule)s) for product "
+"%(product)s. Change the operation type or cancel the request for quotation."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_stock
 #. odoo-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 "There is no matching vendor price to generate the purchase order for product"
 " %s (no vendor defined, minimum quantity not reached, dates not valid, ...)."
 " Go on the product form and complete the list of vendors."
+=======
+"There is no matching vendor price to generate the purchase order for product "
+"%s (no vendor defined, minimum quantity not reached, dates not valid, ...). "
+"Go on the product form and complete the list of vendors."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_stock
@@ -2359,6 +2450,7 @@ msgstr ""
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_purchase
 msgid ""
+<<<<<<< HEAD
 "This adds a dropshipping route to apply on products in order to request your"
 " vendors to deliver to your customers. A product to dropship will generate a"
 " purchase request for quotation once the sales order confirmed. This is a "
@@ -2369,6 +2461,18 @@ msgstr ""
 "dostavo neposredno kupcem. Tak proizvod ob potrditvi prodajnega naloga "
 "generira zahtevo po nabavnem predračunu. To je delotok na zahtevo. Zahtevani"
 " naslov za dostavo bo kupčev naslov za dostavo in ne vaše skladišče."
+=======
+"This adds a dropshipping route to apply on products in order to request your "
+"vendors to deliver to your customers. A product to dropship will generate a "
+"purchase request for quotation once the sales order confirmed. This is a on-"
+"demand flow. The requested delivery address will be the customer delivery "
+"address and not your warehouse."
+msgstr ""
+"To proizvodom doda drop-ship progo, da lahko od dobaviteljev zahtevate "
+"dostavo neposredno kupcem. Tak proizvod ob potrditvi prodajnega naloga "
+"generira zahtevo po nabavnem predračunu. To je delotok na zahtevo. Zahtevani "
+"naslov za dostavo bo kupčev naslov za dostavo in ne vaše skladišče."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order__picking_type_id
@@ -2475,7 +2579,10 @@ msgstr "Skupna količina"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2718,6 +2825,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2946,8 +3056,13 @@ msgstr "Ko se nabavlja izdelke, se ti lahko dostavljajo v to skladišče"
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid ""
 "When products are needed in <b>%s</b>, <br/> a request for quotation is "
+<<<<<<< HEAD
 "created to fulfill the need.<br/>Note: This rule will be used in combination"
 " with the rules<br/>of the reception route(s)"
+=======
+"created to fulfill the need.<br/>Note: This rule will be used in combination "
+"with the rules<br/>of the reception route(s)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_stock

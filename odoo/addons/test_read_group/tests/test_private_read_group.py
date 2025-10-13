@@ -749,7 +749,10 @@ class TestPrivateReadGroup(common.TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_groupby_many2many_active_test_domain(self):
@@ -872,6 +875,9 @@ class TestPrivateReadGroup(common.TransactionCase):
             )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

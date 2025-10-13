@@ -101,12 +101,16 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const orderDeliveryAmount = parseInt(this.paymentContext['deliveryAmount'])
         let minorAmount = parseInt(this.paymentContext['minorAmount'])
         if (orderDeliveryAmount) { // The delivery method is set on the order.
             // Subtract the delivery amount from the total amount to display the right total.
             minorAmount -= orderDeliveryAmount;
         }
+=======
+        let minorAmount = parseInt(this.paymentContext['minorAmount'])
+>>>>>>> upstream/18.0
 =======
         let minorAmount = parseInt(this.paymentContext['minorAmount'])
 >>>>>>> upstream/18.0
@@ -589,7 +593,11 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const availableCarriers = await rpc(
+=======
+                const availableCarriersData = await rpc(
+>>>>>>> upstream/18.0
 =======
                 const availableCarriersData = await rpc(
 >>>>>>> upstream/18.0
@@ -936,7 +944,12 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (availableCarriers.length === 0) {
+=======
+                const { delivery_methods, delivery_discount_minor_amount } = availableCarriersData;
+                if (delivery_methods.length === 0) {
+>>>>>>> upstream/18.0
 =======
                 const { delivery_methods, delivery_discount_minor_amount } = availableCarriersData;
                 if (delivery_methods.length === 0) {
@@ -1361,7 +1374,11 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         shippingOptions: availableCarriers.map(carrier => ({
+=======
+                        shippingOptions: delivery_methods.map(carrier => ({
+>>>>>>> upstream/18.0
 =======
                         shippingOptions: delivery_methods.map(carrier => ({
 >>>>>>> upstream/18.0
@@ -1703,8 +1720,11 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ...this._getOrderDetails(availableCarriers[0].minorAmount),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1958,6 +1978,9 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

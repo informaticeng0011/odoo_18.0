@@ -73,6 +73,10 @@ import { MAIN_PLUGINS } from "@html_editor/plugin_sets";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -426,6 +430,7 @@ describe("buttons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onRpc("/web/dataset/call_kw/ir.attachment/search_read", () => {
             return [
                 {
@@ -439,6 +444,8 @@ describe("buttons", () => {
             ];
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -611,6 +618,9 @@ describe("buttons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -795,7 +805,11 @@ describe("buttons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -1062,7 +1076,11 @@ describe("buttons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-powerbox").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* product
+<<<<<<< HEAD
 # 
 # Translators:
 # Katja Deržič, 2024
@@ -442,10 +443,19 @@
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Katja Deržič, 2024
+# Wil Odoo, 2025
+# Aleš Pipan, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1069,6 +1079,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: sl\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-10-11 02:17+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Aleš Pipan, 2025\n"
+"Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -1105,16 +1127,28 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
+<<<<<<< HEAD
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra fee\n"
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
+=======
+"%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra "
+"fee\n"
+"Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
+"(total_amount)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
+<<<<<<< HEAD
 "%(item_name)s: end date (%(end_date)s) should be after start date "
 "(%(start_date)s)"
+=======
+"%(item_name)s: end date (%(end_date)s) should be after start date (%"
+"(start_date)s)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -1178,14 +1212,26 @@ msgstr ""
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_product.py:0
+<<<<<<< HEAD
 msgid "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
+=======
+msgid ""
+"- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
+>>>>>>> upstream/18.0
 msgstr "-Črtna koda \"%(barcode)s\"Že dodeljena izdelku:%(product_list)s"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__create_variant
 msgid ""
+<<<<<<< HEAD
 "- Instantly: All possible variants are created as soon as the attribute and its values are added to a product.\n"
 "        - Dynamically: Each variant is created only when its corresponding attributes and values are added to a sales order.\n"
+=======
+"- Instantly: All possible variants are created as soon as the attribute and "
+"its values are added to a product.\n"
+"        - Dynamically: Each variant is created only when its corresponding "
+"attributes and values are added to a sales order.\n"
+>>>>>>> upstream/18.0
 "        - Never: Variants are never created for the attribute.\n"
 "        Note: this cannot be changed once the attribute is used on a product."
 msgstr ""
@@ -1259,8 +1305,17 @@ msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Currency\"/>"
 msgstr "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Currency\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" "
+"title=\"Currency\"/>"
+msgstr ""
+"<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" "
+"title=\"Currency\"/>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
@@ -1268,7 +1323,12 @@ msgid ""
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                            Rules\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                        <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Rule\n"
 "                                        </span>"
 msgstr ""
@@ -1279,7 +1339,12 @@ msgid ""
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                        Pricelists\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Pricelist\n"
 "                                    </span>"
 msgstr ""
@@ -1331,8 +1396,15 @@ msgid ""
 "                        to the loss of their possible customizations."
 msgstr ""
 "<strong>Opozorilo</strong>: dodajanje ali brisanje atributov\n"
+<<<<<<< HEAD
 "                        izbriše in ponovno ustvari obstoječe različice in vodi\n"
 "                       do izgube njihovih možnih prilagoditev.                         "
+=======
+"                        izbriše in ponovno ustvari obstoječe različice in "
+"vodi\n"
+"                       do izgube njihovih možnih prilagoditev. "
+"                        "
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_packaging_barcode_uniq
@@ -1367,8 +1439,13 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_product__description_sale
 #: model:ir.model.fields,help:product.field_product_template__description_sale
 msgid ""
+<<<<<<< HEAD
 "A description of the Product that you want to communicate to your customers."
 " This description will be copied to every Sales Order, Delivery Order and "
+=======
+"A description of the Product that you want to communicate to your customers. "
+"This description will be copied to every Sales Order, Delivery Order and "
+>>>>>>> upstream/18.0
 "Customer Invoice/Credit Note"
 msgstr ""
 
@@ -1381,8 +1458,24 @@ msgstr "Embalaža že uporablja črtno kodo"
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
 msgid ""
+<<<<<<< HEAD
 "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "            This is the perfect tool to handle several pricings, seasonal discounts, etc."
+=======
+"A price is a set of sales prices or rules to compute the price of sales "
+"order lines based on products, product categories, dates and ordered "
+"quantities.\n"
+"            This is the perfect tool to handle several pricings, seasonal "
+"discounts, etc."
+msgstr ""
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid ""
+"A pricelist item with \"Other Pricelist\" as base must have a "
+"base_pricelist_id."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -1514,7 +1607,11 @@ msgid "Add Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj izdelke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj izdelke"
 >>>>>>> upstream/18.0
@@ -1756,10 +1853,15 @@ msgstr "Vse različice izdelka, ki uporabljajo to oznako"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
@@ -2419,7 +2521,11 @@ msgid "Bye-bye, record!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adijo, ta zapis!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adijo, ta zapis!"
 >>>>>>> upstream/18.0
@@ -2891,7 +2997,11 @@ msgid "Company Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavitve podjetja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nastavitve podjetja"
 >>>>>>> upstream/18.0
@@ -3635,7 +3745,11 @@ msgid "Documents Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število dokumentov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Število dokumentov"
 >>>>>>> upstream/18.0
@@ -3945,8 +4059,13 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__price_extra
 msgid ""
+<<<<<<< HEAD
 "Extra price for the variant with this attribute value on sale price. eg. 200"
 " price extra, 1000 + 200 = 1200."
+=======
+"Extra price for the variant with this attribute value on sale price. eg. 200 "
+"price extra, 1000 + 200 = 1200."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -4049,7 +4168,11 @@ msgid "File Content (base64)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vsebina datoteke (base64)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vsebina datoteke (base64)"
 >>>>>>> upstream/18.0
@@ -4374,7 +4497,11 @@ msgid "File Content (raw)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vsebina datoteke (raw)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vsebina datoteke (raw)"
 >>>>>>> upstream/18.0
@@ -4658,7 +4785,12 @@ msgstr "Font izjemna ikona npr. fa-tasks"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__min_quantity
 msgid ""
+<<<<<<< HEAD
 "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
+=======
+"For the rule to apply, bought/sold quantity must be greater than or equal to "
+"the minimum quantity specified in this field.\n"
+>>>>>>> upstream/18.0
 "Expressed in the default unit of measure of the product."
 msgstr ""
 
@@ -4928,7 +5060,11 @@ msgid "Image Height"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Višina slike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Višina slike"
 >>>>>>> upstream/18.0
@@ -5057,7 +5193,11 @@ msgid "Image Src"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvor slike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvor slike"
 >>>>>>> upstream/18.0
@@ -5186,7 +5326,11 @@ msgid "Image Width"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Širina slike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Širina slike"
 >>>>>>> upstream/18.0
@@ -5315,7 +5459,11 @@ msgid "Image is a link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika je povezava"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slika je povezava"
 >>>>>>> upstream/18.0
@@ -5573,7 +5721,11 @@ msgid "Kilograms"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kilogrami"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kilogrami"
 >>>>>>> upstream/18.0
@@ -5905,7 +6057,11 @@ msgid "Leather"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usnje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usnje"
 >>>>>>> upstream/18.0
@@ -6154,7 +6310,11 @@ msgid "Local Delivery"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokalna dostava"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokalna dostava"
 >>>>>>> upstream/18.0
@@ -6372,8 +6532,13 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__exclude_for
 msgid ""
+<<<<<<< HEAD
 "Make this attribute value not compatible with other values of the product or"
 " some attribute values of optional and accessory products."
+=======
+"Make this attribute value not compatible with other values of the product or "
+"some attribute values of optional and accessory products."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -6635,7 +6800,11 @@ msgid "No, keep it"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne, obdrži"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne, obdrži"
 >>>>>>> upstream/18.0
@@ -6961,7 +7130,11 @@ msgid "Office Chair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pisarniški stol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pisarniški stol"
 >>>>>>> upstream/18.0
@@ -7119,16 +7292,26 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "On the product %(product)s you cannot associate the value %(value)s with the"
 " attribute %(attribute)s because they do not match."
+=======
+"On the product %(product)s you cannot associate the value %(value)s with the "
+"attribute %(attribute)s because they do not match."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "On the product %(product)s you cannot transform the attribute "
 "%(attribute_src)s into the attribute %(attribute_dest)s."
+=======
+"On the product %(product)s you cannot transform the attribute %"
+"(attribute_src)s into the attribute %(attribute_dest)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -7171,7 +7354,11 @@ msgid "Original (unoptimized, unresized) attachment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvirna (neoptimizirana, nespremenjena velikost) priloga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvirna (neoptimizirana, nespremenjena velikost) priloga"
 >>>>>>> upstream/18.0
@@ -7447,7 +7634,11 @@ msgid "Pounds"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Funti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Funti"
 >>>>>>> upstream/18.0
@@ -7945,7 +8136,11 @@ msgid "Product Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število izdelkov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Število izdelkov"
 >>>>>>> upstream/18.0
@@ -8370,8 +8565,13 @@ msgstr "Referenca"
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
 msgid ""
+<<<<<<< HEAD
 "Register the prices requested by your vendors for each product, based on the"
 " quantity and the period."
+=======
+"Register the prices requested by your vendors for each product, based on the "
+"quantity and the period."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -8568,7 +8768,11 @@ msgid "Sales Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodaja Cena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodaja Cena"
 >>>>>>> upstream/18.0
@@ -8927,7 +9131,11 @@ msgid "Show Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži ime"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži ime"
 >>>>>>> upstream/18.0
@@ -9265,7 +9473,11 @@ msgid "Tag name already exists!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime oznake že obstaja!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ime oznake že obstaja!"
 >>>>>>> upstream/18.0
@@ -9619,8 +9831,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The attribute %(attribute)s must have at least one value for the product "
 "%(product)s."
+=======
+"The attribute %(attribute)s must have at least one value for the product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -9676,8 +9893,13 @@ msgstr "Minimalna marža mora biti manjša od maksimalne marže."
 msgid ""
 "The minimum price among the products in this combo. This value will be used "
 "to prorate the price of this combo with respect to the other combos in a "
+<<<<<<< HEAD
 "combo product. This heuristic ensures that whatever product the user chooses"
 " in a combo, it will always be the same price."
+=======
+"combo product. This heuristic ensures that whatever product the user chooses "
+"in a combo, it will always be the same price."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -9691,8 +9913,13 @@ msgstr "Število izdelkov v tej kategoriji (ne upošteva podkategorij)"
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
+<<<<<<< HEAD
 "The number of variants to generate is above allowed limit. You should either"
 " not generate variants for each combination or generate them on demand from "
+=======
+"The number of variants to generate is above allowed limit. You should either "
+"not generate variants for each combination or generate them on demand from "
+>>>>>>> upstream/18.0
 "the sales order. To do so, open the form view of attributes and change the "
 "mode of *Create Variants*."
 msgstr ""
@@ -9726,6 +9953,7 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_combo_item__lst_price
 #: model:ir.model.fields,help:product.field_product_product__lst_price
 msgid ""
+<<<<<<< HEAD
 "The sale price is managed from the product template. Click on the 'Configure"
 " Variants' button to set the extra attribute prices."
 msgstr ""
@@ -10189,6 +10417,13 @@ msgstr ""
 "Akcijska cena se upravlja iz predloge izdelka. Kliknite gumb »Konfiguriraj "
 "različice«, da nastavite cene dodatnih atributov."
 >>>>>>> upstream/18.0
+=======
+"The sale price is managed from the product template. Click on the 'Configure "
+"Variants' button to set the extra attribute prices."
+msgstr ""
+"Akcijska cena se upravlja iz predloge izdelka. Kliknite gumb »Konfiguriraj "
+"različice«, da nastavite cene dodatnih atributov."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -10260,11 +10495,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 "This rounding precision is higher than the Decimal Accuracy (%(digits)s digits).\n"
 "This may cause inconsistencies in computations.\n"
 "Please set a precision between %(min_precision)s and 1."
 msgstr ""
 "Ta natančnost zaokroževanja je večja od natančnosti decimalnega številka (%(digits)sštevk).\n"
+=======
+"This rounding precision is higher than the Decimal Accuracy (%(digits)s "
+"digits).\n"
+"This may cause inconsistencies in computations.\n"
+"Please set a precision between %(min_precision)s and 1."
+msgstr ""
+"Ta natančnost zaokroževanja je večja od natančnosti decimalnega številka (%"
+"(digits)sštevk).\n"
+>>>>>>> upstream/18.0
 "To lahko povzroči neskladnost v izračunih.\n"
 "Prosimo, nastavite natančnost med %(min_precision)s in 1."
 
@@ -10489,7 +10734,11 @@ msgid "Validity Period"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obdobje veljavnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obdobje veljavnosti"
 >>>>>>> upstream/18.0
@@ -10612,7 +10861,12 @@ msgstr "Število vrednosti"
 #: model:ir.model.fields,help:product.field_product_template__standard_price
 msgid ""
 "Value of the product (automatically computed in AVCO).\n"
+<<<<<<< HEAD
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
+=======
+"        Used to value the product when the purchase cost is not known (e.g. "
+"inventory adjustment).\n"
+>>>>>>> upstream/18.0
 "        Used to compute margins on sale orders."
 msgstr ""
 
@@ -10869,7 +11123,11 @@ msgid "Visible to all"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vidno vsem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vidno vsem"
 >>>>>>> upstream/18.0
@@ -11232,7 +11490,11 @@ msgid "Voice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Glas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Glas"
 >>>>>>> upstream/18.0
@@ -11361,8 +11623,13 @@ msgstr "Opozorila"
 #. module: product
 #: model_terms:product.template,website_description:product.product_product_4_product_template
 msgid ""
+<<<<<<< HEAD
 "We pay special attention to detail, which is why our desks are of a superior"
 " quality."
+=======
+"We pay special attention to detail, which is why our desks are of a superior "
+"quality."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -11427,7 +11694,12 @@ msgid ""
 "You are setting a Decimal Accuracy less precise than the UOMs:\n"
 "%s\n"
 "This may cause inconsistencies in computations.\n"
+<<<<<<< HEAD
 "Please increase the rounding of those units of measure, or the digits of this Decimal Accuracy."
+=======
+"Please increase the rounding of those units of measure, or the digits of "
+"this Decimal Accuracy."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -11491,7 +11763,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s because it is used on the following products:\n"
+=======
+"You cannot change the Variants Creation Mode of the attribute %(attribute)s "
+"because it is used on the following products:\n"
+>>>>>>> upstream/18.0
 "%(products)s"
 msgstr ""
 
@@ -11499,24 +11776,39 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the attribute of the value %(value)s because it is used on"
 " the following products: %(products)s"
+=======
+"You cannot change the attribute of the value %(value)s because it is used on "
+"the following products: %(products)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the product of the value %(value)s set on product "
 "%(product)s."
+=======
+"You cannot change the product of the value %(value)s set on product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the value of the value %(value)s set on product "
 "%(product)s."
+=======
+"You cannot change the value of the value %(value)s set on product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -11553,7 +11845,12 @@ msgstr " Ne morete izbrisati%s kategorije izdelkov"
 #. odoo-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete the attribute %(attribute)s because it is used on the following products:\n"
+=======
+"You cannot delete the attribute %(attribute)s because it is used on the "
+"following products:\n"
+>>>>>>> upstream/18.0
 "%(products)s"
 msgstr ""
 
@@ -11561,7 +11858,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete the value %(value)s because it is used on the following products:\n"
+=======
+"You cannot delete the value %(value)s because it is used on the following "
+"products:\n"
+>>>>>>> upstream/18.0
 "%(products)s\n"
 msgstr ""
 
@@ -11576,8 +11878,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot move the attribute %(attribute)s from the product %(product_src)s"
 " to the product %(product_dest)s."
+=======
+"You cannot move the attribute %(attribute)s from the product %(product_src)s "
+"to the product %(product_dest)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -11593,7 +11900,12 @@ msgstr ""
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
+<<<<<<< HEAD
 "                            whether it's a storable product, a consumable or a service."
+=======
+"                            whether it's a storable product, a consumable or "
+"a service."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -11604,24 +11916,46 @@ msgid ""
 "                whether it's a storable product, a consumable or a service."
 msgstr ""
 "Definirate morate vsak izdelek, katerega prodajate ali kupujete,\n"
+<<<<<<< HEAD
 "                ne glede na to, ali gre za izdelek z zalogo, potrošni material ali storitev. "
+=======
+"                ne glede na to, ali gre za izdelek z zalogo, potrošni "
+"material ali storitev. "
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_variant_action
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "                whether it's a storable product, a consumable or a service.\n"
+<<<<<<< HEAD
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
+=======
+"                The product form contains information to simplify the sale "
+"process:\n"
+"                price, notes in the quotation, accounting data, procurement "
+"methods, etc."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action_sell
 msgid ""
+<<<<<<< HEAD
 "You must define a product for everything you sell, whether it's a physical product,\n"
 "                a consumable or a service you offer to customers.\n"
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
+=======
+"You must define a product for everything you sell, whether it's a physical "
+"product,\n"
+"                a consumable or a service you offer to customers.\n"
+"                The product form contains information to simplify the sale "
+"process:\n"
+"                price, notes in the quotation, accounting data, procurement "
+"methods, etc."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -11749,7 +12083,11 @@ msgid "per"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "na"
+>>>>>>> upstream/18.0
 =======
 msgstr "na"
 >>>>>>> upstream/18.0

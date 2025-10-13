@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @typedef {import("./mock/network").ServerWebSocket} ServerWebSocket
  */
@@ -323,6 +324,8 @@ export {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import * as _hootDom from "@odoo/hoot-dom";
 import * as _animation from "./mock/animation";
 import * as _date from "./mock/date";
@@ -406,6 +409,9 @@ export const watchKeys = _window.watchKeys;
 /** @deprecated use `import { watchListeners } from "@odoo/hoot";` */
 export const watchListeners = _window.watchListeners;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

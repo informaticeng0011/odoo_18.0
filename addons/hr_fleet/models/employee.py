@@ -95,7 +95,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -314,6 +317,7 @@ class Employee(models.Model):
             "type": "ir.actions.act_window",
             "res_model": "fleet.vehicle.assignation.log",
             "views": [[self.env.ref("hr_fleet.fleet_vehicle_assignation_log_employee_view_list").id, "list"], [False, "form"]],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,6 +877,11 @@ class Employee(models.Model):
             "context": dict(self._context, default_driver_id=self.user_id.partner_id.id, default_driver_employee_id=self.id),
             "name": self.env._("History Employee Cars"),
 >>>>>>> upstream/18.0
+=======
+            "domain": [("driver_employee_id", "in", self.ids), ("driver_id", "in", self.work_contact_id.ids)],
+            "context": dict(self._context, default_driver_id=self.user_id.partner_id.id, default_driver_employee_id=self.id),
+            "name": self.env._("History Employee Cars"),
+>>>>>>> upstream/18.0
         }
 
     @api.depends('private_car_plate', 'car_ids.license_plate')
@@ -986,7 +995,11 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('driver_employee_id', 'in', self.ids),
+=======
+            ('driver_employee_id', 'in', self.ids), ('driver_id', 'in', self.work_contact_id.ids),
+>>>>>>> upstream/18.0
 =======
             ('driver_employee_id', 'in', self.ids), ('driver_id', 'in', self.work_contact_id.ids),
 >>>>>>> upstream/18.0
@@ -1391,6 +1404,7 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'user_id' in vals:
             self._sync_employee_cars(self.env['res.users'].browse(vals['user_id']))
         res = super().write(vals)
@@ -1418,6 +1432,8 @@ class Employee(models.Model):
                     car.driver_id = user.partner_id
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1728,6 +1744,9 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

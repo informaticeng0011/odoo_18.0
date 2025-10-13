@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_attendance
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -520,10 +521,19 @@
 # Fernanda Alvarez, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+# Wil Odoo, 2025
+# Fernanda Alvarez, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1007,6 +1017,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-10-11 02:16+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Fernanda Alvarez, 2025\n"
+"Language-Team: Spanish (Latin America) (https://app.transifex.com/odoo/teams/"
+"41243/es_419/)\n"
+"Language: es_419\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #. odoo-python
@@ -1028,7 +1051,13 @@ msgstr "'Documentación'"
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-calendar me-1\" aria-label=\"Period\" role=\"img\" title=\"Period\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-calendar me-1\" aria-label=\"Period\" role=\"img\" "
+"title=\"Period\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-calendar me-1\" aria-label=\"Periodo\" role=\"img\" "
 "title=\"Periodo\"/>"
@@ -1050,10 +1079,19 @@ msgstr ""
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_employees_view_kanban
 msgid ""
+<<<<<<< HEAD
 "<span class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Not available\" title=\"Not available\">\n"
 "                                    </span>"
 msgstr ""
 "<span class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Sin disponibilidad\" title=\"Sin disponibilidad\">\n"
+=======
+"<span class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Not "
+"available\" title=\"Not available\">\n"
+"                                    </span>"
+msgstr ""
+"<span class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Sin "
+"disponibilidad\" title=\"Sin disponibilidad\">\n"
+>>>>>>> upstream/18.0
 "                                    </span>"
 
 #. module: hr_attendance
@@ -1136,10 +1174,19 @@ msgstr "Empleados activos"
 #. module: hr_attendance
 #: model_terms:ir.actions.act_window,help:hr_attendance.hr_employee_attendance_action_kanban
 msgid ""
+<<<<<<< HEAD
 "Add a few employees to be able to select an employee here and perform his check in / check out.\n"
 "                To create employees go to the Employees menu."
 msgstr ""
 "Agregue algunos empleados para poder seleccionar un empleado aquí y registrar su entrada y salida.\n"
+=======
+"Add a few employees to be able to select an employee here and perform his "
+"check in / check out.\n"
+"                To create employees go to the Employees menu."
+msgstr ""
+"Agregue algunos empleados para poder seleccionar un empleado aquí y "
+"registrar su entrada y salida.\n"
+>>>>>>> upstream/18.0
 "                Para crear empleados, vaya al menú de Empleados."
 
 #. module: hr_attendance
@@ -1358,6 +1405,7 @@ msgstr "Aprobada en automático"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "Automatically Check-Out Employees based on their working schedule with an "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1881,6 +1929,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"additional tolerance. Does not apply to employees with a flexible working "
+"schedule."
+msgstr ""
+"Registrar la salida de los empleados de forma automática según su horario de "
+"trabajo con una tolerancia adicional. Esto no aplica para empleados con un "
+"horario laboral flexible."
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
@@ -1958,8 +2014,12 @@ msgstr "Navegador"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Can be converted as Time Off (cfr Time Off configuration)."
 msgstr ""
+<<<<<<< HEAD
 "Se puede convertir a tiempo personal (en la configuración de Tiempo "
 "personal)"
+=======
+"Se puede convertir a tiempo personal (en la configuración de Tiempo personal)"
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #. odoo-python
@@ -1990,8 +2050,13 @@ msgid ""
 "resources."
 msgstr ""
 "No se puede registrar la salida de  %(empl_name)s, no se ha encontrado su "
+<<<<<<< HEAD
 "registro de entrada correspondiente. Recursos humanos probablemente modificó"
 " sus registros de forma manual."
+=======
+"registro de entrada correspondiente. Recursos humanos probablemente modificó "
+"sus registros de forma manual."
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #. odoo-javascript
@@ -2185,12 +2250,17 @@ msgid "Define the way the user will be identified by the application."
 msgstr "Defina la forma en la que la aplicación identificará al usuario. "
 
 #. module: hr_attendance
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 msgid "Departement"
 msgstr "Departamento"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__department_id
+=======
+#: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__department_id
+#: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
+>>>>>>> upstream/18.0
 msgid "Department"
 msgstr "Departamento"
 
@@ -2234,8 +2304,12 @@ msgstr "Tiempo de visualización"
 msgid ""
 "Do not have access, user cannot edit the attendances that are not his own."
 msgstr ""
+<<<<<<< HEAD
 "No tiene acceso, el usuario no puede editar las asistencias que no son "
 "suyas."
+=======
+"No tiene acceso, el usuario no puede editar las asistencias que no son suyas."
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_hr_employee
@@ -2448,6 +2522,7 @@ msgstr "Identifíquese de forma manual"
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "If checked, days not covered by an attendance will be visible in the Report."
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2620,6 +2695,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 " Does not apply to employees with a flexible working schedule."
+=======
+"If checked, days not covered by an attendance will be visible in the Report. "
+"Does not apply to employees with a flexible working schedule."
+>>>>>>> upstream/18.0
 msgstr ""
 "Si se encuentra seleccionado, los días que no están cubiertos por una "
 "asistencia aparecerán en el reporte. Esto no aplica para empleados con un "
@@ -2679,6 +2758,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2829,8 +2911,12 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Si se encuentra seleccionado, hay nuevos mensajes que requieren su atención."
+=======
+msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
 >>>>>>> upstream/18.0
@@ -2976,7 +3062,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Si se encuentra seleccionado, algunos mensajes tienen error de envío."
+=======
+msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
 >>>>>>> upstream/18.0
@@ -3316,8 +3406,13 @@ msgstr "No se encontraron registros de asistencia"
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.js:0
 msgid "No employee corresponding to Badge ID '%(barcode)s.'"
 msgstr ""
+<<<<<<< HEAD
 "No se encontró ningún empleado correspondiente al número de identificación "
 "'%(barcode)s.'"
+=======
+"No se encontró ningún empleado correspondiente al número de identificación '%"
+"(barcode)s.'"
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model_terms:ir.actions.act_window,help:hr_attendance.hr_attendance_overtime_action
@@ -3483,7 +3578,11 @@ msgid "Open Kiosk Url"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Abrir la URL del quiosco"
+=======
+msgstr "URL para abrir el quiosco"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL para abrir el quiosco"
 >>>>>>> upstream/18.0
@@ -3999,7 +4098,11 @@ msgid "Over Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Con el tiempo"
+=======
+msgstr "Horas extra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Horas extra"
 >>>>>>> upstream/18.0
@@ -4469,6 +4572,9 @@ msgstr "Token RFID con lector en una tableta"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4633,6 +4739,9 @@ msgstr "Calificaciones"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4867,8 +4976,13 @@ msgid ""
 "The user set in Attendance will access the attendance of the employee "
 "through the dedicated app and will be able to edit them."
 msgstr ""
+<<<<<<< HEAD
 "El usuario configurado en Asistencias podrá acceder a las asistencias de los"
 " empleados a través de la aplicación especial y podrá editarlos."
+=======
+"El usuario configurado en Asistencias podrá acceder a las asistencias de los "
+"empleados a través de la aplicación especial y podrá editarlos."
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model:res.groups,comment:hr_attendance.group_hr_attendance_own_reader
@@ -4902,8 +5016,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_attendance/models/hr_attendance.py:0
 msgid ""
+<<<<<<< HEAD
 "This attendance was automatically created to cover an unjustified absence on"
 " that day."
+=======
+"This attendance was automatically created to cover an unjustified absence on "
+"that day."
+>>>>>>> upstream/18.0
 msgstr ""
 "Esta asistencia se creó de manera automática para cubrir una ausencia "
 "injustificada ese día."
@@ -4993,8 +5112,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Use this url to access your kiosk mode from any device."
 msgstr ""
+<<<<<<< HEAD
 "Utilice esta URL para acceder al modo de quiosco desde cualquier "
 "dispositivo."
+=======
+"Utilice esta URL para acceder al modo de quiosco desde cualquier dispositivo."
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_res_users
@@ -5126,3 +5249,9 @@ msgstr "o"
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
 msgid "with optional PIN code"
 msgstr "con código PIN opcional"
+<<<<<<< HEAD
+=======
+
+#~ msgid "Departement"
+#~ msgstr "Departamento"
+>>>>>>> upstream/18.0

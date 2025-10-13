@@ -111,7 +111,11 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
+=======
+from odoo.tests import Form, tagged, users
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged, users
 >>>>>>> upstream/18.0
@@ -624,7 +628,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def create_move_payment(self, move, payment_amount, with_outstanding_account=False):
@@ -641,6 +648,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
         return payment
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -762,6 +772,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @users('simple_accountman')
+>>>>>>> upstream/18.0
 =======
     @users('simple_accountman')
 >>>>>>> upstream/18.0
@@ -2854,7 +2868,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3320,6 +3337,7 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3458,6 +3476,8 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3670,6 +3690,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7052,6 +7075,7 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
         with patch.object(self.env.registry['account.move'], '_get_invoice_in_payment_state', return_value='in_payment'):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             def create_move_payment(move, payment_amount, with_outstanding_account=False):
                 payment = self.env['account.payment.register'].with_context(
                     active_model='account.move',
@@ -7069,6 +7093,8 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             def reconcile_move(move, transaction_amount, balance=None, date='2023-09-30', currency=None, lines_filter=None):
                 lines_filter = lines_filter or (lambda l: l.account_id.account_type in ('asset_receivable', 'liability_payable'))
                 move_line = move.line_ids.filtered(lines_filter)[0]
@@ -7080,7 +7106,12 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             vendor_bill = self.init_invoice(move_type='in_invoice', amounts=[1000], post=True)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment = create_move_payment(vendor_bill, 10)
+=======
+            payment = self.create_move_payment(vendor_bill, 10)
+            self.assertEqual(payment.state, 'in_process')
+>>>>>>> upstream/18.0
 =======
             payment = self.create_move_payment(vendor_bill, 10)
             self.assertEqual(payment.state, 'in_process')
@@ -7097,10 +7128,13 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             customer_invoice = self.init_invoice(move_type='out_invoice', amounts=[400], post=True)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment1 = create_move_payment(customer_invoice, 200)
             payment2 = create_move_payment(customer_invoice, 50)
             payment3 = create_move_payment(customer_invoice, 10)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             payment1 = self.create_move_payment(customer_invoice, 200)
@@ -7110,6 +7144,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             payment3 = self.create_move_payment(customer_invoice, 10)
             self.assertEqual(payment3.state, 'in_process')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7122,10 +7159,13 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             customer_invoice_foreign = self.init_invoice(move_type='out_invoice', amounts=[200], post=True, currency=foreign_currency)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment1 = create_move_payment(customer_invoice_foreign, 30)
             payment2 = create_move_payment(customer_invoice_foreign, 60)
             payment3 = create_move_payment(customer_invoice_foreign, 15)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             payment1 = self.create_move_payment(customer_invoice_foreign, 30)
@@ -7135,6 +7175,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             payment3 = self.create_move_payment(customer_invoice_foreign, 15)
             self.assertEqual(payment3.state, 'in_process')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7147,10 +7190,13 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             customer_invoice_different_currencies = self.init_invoice(move_type='out_invoice', amounts=[100], post=True)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment1 = create_move_payment(customer_invoice_different_currencies, 5)
             payment2 = create_move_payment(customer_invoice_different_currencies, 10)
             payment3 = create_move_payment(customer_invoice_different_currencies, 20)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             payment1 = self.create_move_payment(customer_invoice_different_currencies, 5)
@@ -7160,6 +7206,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             payment3 = self.create_move_payment(customer_invoice_different_currencies, 20)
             self.assertEqual(payment3.state, 'in_process')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7171,9 +7220,12 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             customer_invoice_outstanding = self.init_invoice(move_type='out_invoice', amounts=[300], post=True)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment1 = create_move_payment(customer_invoice_outstanding, 12, True)
             payment2 = create_move_payment(customer_invoice_outstanding, 12)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             payment1 = self.create_move_payment(customer_invoice_outstanding, 12, True)
@@ -7181,6 +7233,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             payment2 = self.create_move_payment(customer_invoice_outstanding, 12)
             self.assertEqual(payment2.state, 'in_process')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7267,7 +7322,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7533,6 +7591,7 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7672,6 +7731,8 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -7691,6 +7752,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
         payment.action_post()
         self.assertEqual(payment.reconciled_invoice_ids, invoice_outstanding)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7754,6 +7818,7 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7774,6 +7839,8 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7883,6 +7950,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -83,7 +83,12 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         help='Primary contact email for Peppol-related communication',
+=======
+        help='Primary contact email for Peppol connection related communications and notifications.\n'
+             'In particular, this email is used by Odoo to reconnect your Peppol account in case of database change.',
+>>>>>>> upstream/18.0
 =======
         help='Primary contact email for Peppol connection related communications and notifications.\n'
              'In particular, this email is used by Odoo to reconnect your Peppol account in case of database change.',
@@ -244,7 +249,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         help='You will receive a verification code to this mobile number',
+=======
+        help='This number is used for identification purposes only.',
+>>>>>>> upstream/18.0
 =======
         help='This number is used for identification purposes only.',
 >>>>>>> upstream/18.0
@@ -448,7 +457,10 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -703,6 +715,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -962,8 +977,12 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not phonenumbers:
             raise ValidationError(_("Please install the phonenumbers library."))
+=======
+        self._check_phonenumbers_import()
+>>>>>>> upstream/18.0
 =======
         self._check_phonenumbers_import()
 >>>>>>> upstream/18.0
@@ -1431,7 +1450,12 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return peppol_user.edi_mode or config_param or 'prod'
+=======
+        demo_if_demo_identifier = 'demo' if self.peppol_eas == 'odemo' else False
+        return demo_if_demo_identifier or peppol_user.edi_mode or config_param or 'prod'
+>>>>>>> upstream/18.0
 =======
         demo_if_demo_identifier = 'demo' if self.peppol_eas == 'odemo' else False
         return demo_if_demo_identifier or peppol_user.edi_mode or config_param or 'prod'

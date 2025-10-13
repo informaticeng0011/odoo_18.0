@@ -66,6 +66,12 @@ class PaymentTransaction(models.Model):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        partner_country_code = (
+            self.partner_country_id.code or self.provider_id.company_id.country_id.code or 'NL'
+        )
+>>>>>>> upstream/18.0
 =======
         partner_country_code = (
             self.partner_country_id.code or self.provider_id.company_id.country_id.code or 'NL'
@@ -84,6 +90,10 @@ class PaymentTransaction(models.Model):
             },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'countryCode': partner_country_code,
+>>>>>>> upstream/18.0
 =======
             'countryCode': partner_country_code,
 >>>>>>> upstream/18.0
@@ -104,7 +114,10 @@ class PaymentTransaction(models.Model):
             **adyen_utils.include_partner_addresses(self),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             'lineItems': [{
@@ -113,6 +126,9 @@ class PaymentTransaction(models.Model):
                 'description': self.reference,
             }],
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

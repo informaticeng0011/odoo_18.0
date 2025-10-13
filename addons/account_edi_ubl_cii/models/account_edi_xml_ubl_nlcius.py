@@ -94,6 +94,11 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if vals['allowance_charge_reason_code'] == 95:
+                vals['allowance_charge_reason'] = 'Discount'
+>>>>>>> upstream/18.0
 =======
             if vals['allowance_charge_reason_code'] == 95:
                 vals['allowance_charge_reason'] = 'Discount'

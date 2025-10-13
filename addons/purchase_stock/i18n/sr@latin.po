@@ -11,7 +11,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-06-03 08:43+0000\n"
+=======
+"POT-Creation-Date: 2025-10-11 02:16+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2022-09-22 05:54+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, "
 "2023\n"
@@ -35,6 +39,15 @@ msgid "+ %d day(s)"
 msgstr ""
 
 #. module: purchase_stock
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/purchase_stock/models/stock_rule.py:0
+msgid "+ %s day(s)"
+msgstr ""
+
+#. module: purchase_stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_partner_view_purchase_buttons_inherit
 msgid "<span class=\"o_stat_text\">On-time Rate</span>"
 msgstr ""
@@ -67,15 +80,34 @@ msgstr ""
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
 msgid "<strong>Incoterm:</strong>"
+=======
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr ""
+
+#. module: purchase_stock
+#: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
+msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
+<<<<<<< HEAD
 msgid "<strong>Shipping address:</strong>"
 msgstr "<strong>Adresa za isporuku:</strong>"
+=======
+msgid "<strong>Incoterm:</strong>"
+msgstr ""
+
+#. module: purchase_stock
+#: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__is_storable
+msgid "A storable product is a product for which you manage stock."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__qty_received_method
@@ -158,6 +190,14 @@ msgid "Custom Description"
 msgstr ""
 
 #. module: purchase_stock
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase_stock.field_stock_picking__days_to_arrive
+msgid "Days To Arrive"
+msgstr ""
+
+#. module: purchase_stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_stock
 msgid "Days needed to confirm a PO"
 msgstr ""
@@ -177,6 +217,14 @@ msgid "Days to Purchase"
 msgstr ""
 
 #. module: purchase_stock
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase_stock.field_stock_picking__delay_pass
+msgid "Delay Pass"
+msgstr ""
+
+#. module: purchase_stock
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__picking_type_id
 msgid "Deliver To"
 msgstr ""
@@ -227,6 +275,14 @@ msgid "Effective Date Last Year"
 msgstr ""
 
 #. module: purchase_stock
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase_stock.field_purchase_report__days_to_arrival
+msgid "Effective Days To Arrival"
+msgstr ""
+
+#. module: purchase_stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
 msgid "Exception(s) occurred on the purchase order(s):"
 msgstr ""
@@ -309,6 +365,14 @@ msgid "Last Purchase"
 msgstr ""
 
 #. module: purchase_stock
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase_stock.field_procurement_group__purchase_line_ids
+msgid "Linked Purchase Order Lines"
+msgstr ""
+
+#. module: purchase_stock
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__location_final_id
 msgid "Location from procurement"
 msgstr ""
@@ -352,6 +416,15 @@ msgid "Next transfer(s) impacted:"
 msgstr ""
 
 #. module: purchase_stock
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/purchase_stock/models/stock_rule.py:0
+msgid "No Vendor Found"
+msgstr ""
+
+#. module: purchase_stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_partner_view_purchase_buttons_inherit
 msgid "No data yet"
 msgstr ""
@@ -414,8 +487,13 @@ msgstr ""
 #: model:ir.model.fields,help:purchase_stock.field_res_users__on_time_rate
 msgid ""
 "Over the past x days; the number of products received on time divided by the "
+<<<<<<< HEAD
 "number of ordered products.x is either the System Parameter purchase_stock."
 "on_time_delivery_days or the default 365"
+=======
+"number of ordered products.x is either the System Parameter "
+"purchase_stock.on_time_delivery_days or the default 365"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_stock
@@ -448,6 +526,14 @@ msgid "Procurement Group"
 msgstr ""
 
 #. module: purchase_stock
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__group_id
+msgid "Procurement group that generated this line"
+msgstr ""
+
+#. module: purchase_stock
+>>>>>>> upstream/18.0
 #: model:ir.model,name:purchase_stock.model_product_template
 #: model:ir.model.fields,field_description:purchase_stock.field_vendor_delay_report__product_id
 msgid "Product"
@@ -775,6 +861,14 @@ msgid "Total Quantity"
 msgstr ""
 
 #. module: purchase_stock
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__is_storable
+msgid "Track Inventory"
+msgstr ""
+
+#. module: purchase_stock
+>>>>>>> upstream/18.0
 #: model:ir.model,name:purchase_stock.model_stock_picking
 msgid "Transfer"
 msgstr "Prenos"
@@ -783,7 +877,12 @@ msgstr "Prenos"
 #. odoo-python
 #: code:addons/purchase_stock/models/purchase_order.py:0
 msgid ""
+<<<<<<< HEAD
 "Unable to cancel purchase order %s as some receptions have already been done."
+=======
+"Unable to cancel purchase order(s): %s since they have receipts that are "
+"already done."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_stock
@@ -876,5 +975,11 @@ msgstr "od"
 msgid "ordered instead of"
 msgstr ""
 
+<<<<<<< HEAD
+=======
+#~ msgid "<strong>Shipping address:</strong>"
+#~ msgstr "<strong>Adresa za isporuku:</strong>"
+
+>>>>>>> upstream/18.0
 #~ msgid "Incoterm"
 #~ msgstr "Incoterm"

@@ -1,16 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* product
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Maitê Dietze, 2025
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -376,6 +385,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-10-11 02:17+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Maitê Dietze, 2025\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/"
+"41243/pt_BR/)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -415,18 +437,35 @@ msgstr "$15,00"
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
+<<<<<<< HEAD
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra fee\n"
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
 msgstr ""
 "%(base)s com uma %(discount)s %% %(discount_type)s e %(surcharge)s taxa extra \n"
 "Exemplo: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
+=======
+"%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra "
+"fee\n"
+"Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
+"(total_amount)s"
+msgstr ""
+"%(base)s com uma %(discount)s %% %(discount_type)s e %(surcharge)s taxa "
+"extra \n"
+"Exemplo: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
+"(total_amount)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
+<<<<<<< HEAD
 "%(item_name)s: end date (%(end_date)s) should be after start date "
 "(%(start_date)s)"
+=======
+"%(item_name)s: end date (%(end_date)s) should be after start date (%"
+"(start_date)s)"
+>>>>>>> upstream/18.0
 msgstr ""
 "%(item_name)s: a data de término (%(end_date)s) deve ser após a data de "
 "início (%(start_date)s)"
@@ -492,14 +531,23 @@ msgstr "- %(amount)s de redução"
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_product.py:0
+<<<<<<< HEAD
 msgid "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
 msgstr ""
 "- Código de barras \"%(barcode)s\" já atribuído ao(s) produto(s): "
 "%(product_list)s"
+=======
+msgid ""
+"- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
+msgstr ""
+"- Código de barras \"%(barcode)s\" já atribuído ao(s) produto(s): %"
+"(product_list)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__create_variant
 msgid ""
+<<<<<<< HEAD
 "- Instantly: All possible variants are created as soon as the attribute and its values are added to a product.\n"
 "        - Dynamically: Each variant is created only when its corresponding attributes and values are added to a sales order.\n"
 "        - Never: Variants are never created for the attribute.\n"
@@ -507,6 +555,19 @@ msgid ""
 msgstr ""
 "- Instantaneamente: todas as variantes possíveis são criadas assim que o atributo e seus valores são adicionados a um produto.\n"
 "- Dinamicamente: as variante são criadas somente quando seus atributos e valores correspondentes são adicionados a um pedido de venda.\n"
+=======
+"- Instantly: All possible variants are created as soon as the attribute and "
+"its values are added to a product.\n"
+"        - Dynamically: Each variant is created only when its corresponding "
+"attributes and values are added to a sales order.\n"
+"        - Never: Variants are never created for the attribute.\n"
+"        Note: this cannot be changed once the attribute is used on a product."
+msgstr ""
+"- Instantaneamente: todas as variantes possíveis são criadas assim que o "
+"atributo e seus valores são adicionados a um produto.\n"
+"- Dinamicamente: as variante são criadas somente quando seus atributos e "
+"valores correspondentes são adicionados a um pedido de venda.\n"
+>>>>>>> upstream/18.0
 "- Nunca: as variantes nunca são criadas para o atributo.\n"
 "Nota: isso não pode ser alterado depois que o atributo é usado em um produto."
 
@@ -581,8 +642,17 @@ msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Currency\"/>"
 msgstr "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Currency\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" "
+"title=\"Currency\"/>"
+msgstr ""
+"<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" "
+"title=\"Currency\"/>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
@@ -590,14 +660,24 @@ msgid ""
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                            Rules\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                        <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Rule\n"
 "                                        </span>"
 msgstr ""
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                            Regras\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                        <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Regra\n"
 "                                        </span>"
 
@@ -607,14 +687,24 @@ msgid ""
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                        Pricelists\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Pricelist\n"
 "                                    </span>"
 msgstr ""
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                        Listas de preços\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Lista de preços\n"
 "                                    </span>"
 
@@ -670,7 +760,12 @@ msgid ""
 "                        to the loss of their possible customizations."
 msgstr ""
 "<strong>Aviso</strong>: Adicionar ou excluir atributos\n"
+<<<<<<< HEAD
 "                        apagará e recriará as variantes existentes e leva                         a perda de suas possíveis personalizações."
+=======
+"                        apagará e recriará as variantes existentes e "
+"leva                         a perda de suas possíveis personalizações."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_packaging_barcode_uniq
@@ -705,8 +800,13 @@ msgstr "Uma opção de combo deve conter pelo menos um produto."
 #: model:ir.model.fields,help:product.field_product_product__description_sale
 #: model:ir.model.fields,help:product.field_product_template__description_sale
 msgid ""
+<<<<<<< HEAD
 "A description of the Product that you want to communicate to your customers."
 " This description will be copied to every Sales Order, Delivery Order and "
+=======
+"A description of the Product that you want to communicate to your customers. "
+"This description will be copied to every Sales Order, Delivery Order and "
+>>>>>>> upstream/18.0
 "Customer Invoice/Credit Note"
 msgstr ""
 "A descrição de produto que você quer que apareça para os clientes. Esta "
@@ -722,11 +822,33 @@ msgstr "Uma embalagem já está usando o código de barras"
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
 msgid ""
+<<<<<<< HEAD
 "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "            This is the perfect tool to handle several pricings, seasonal discounts, etc."
 msgstr ""
 "O preço é o conjunto de preços de venda ou regras para calcular o preço das linhas de pedidos de venda com base em produtos, categorias de produtos, datas e quantidades pedidas.\n"
 "Essa é a ferramenta perfeita para lidar com vários preços, descontos sazonais etc."
+=======
+"A price is a set of sales prices or rules to compute the price of sales "
+"order lines based on products, product categories, dates and ordered "
+"quantities.\n"
+"            This is the perfect tool to handle several pricings, seasonal "
+"discounts, etc."
+msgstr ""
+"O preço é o conjunto de preços de venda ou regras para calcular o preço das "
+"linhas de pedidos de venda com base em produtos, categorias de produtos, "
+"datas e quantidades pedidas.\n"
+"Essa é a ferramenta perfeita para lidar com vários preços, descontos "
+"sazonais etc."
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid ""
+"A pricelist item with \"Other Pricelist\" as base must have a "
+"base_pricelist_id."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -847,7 +969,12 @@ msgid ""
 "Add products using the \"Add Products\" button at the top right to\n"
 "                                include them in the report."
 msgstr ""
+<<<<<<< HEAD
 "Adicione produtos usando o botão \"Adicionar produtos\" no canto superior direito para\n"
+=======
+"Adicione produtos usando o botão \"Adicionar produtos\" no canto superior "
+"direito para\n"
+>>>>>>> upstream/18.0
 "incluí-los no relatório."
 
 #. module: product
@@ -977,10 +1104,15 @@ msgstr "Todas as variantes de produtos que usam esse marcador"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
@@ -1526,8 +1658,13 @@ msgid ""
 "a transfer in the Barcode app to move all the contained units"
 msgstr ""
 "Código de barras usado para identificação da embalagem. Leia este código de "
+<<<<<<< HEAD
 "barras de embalagem de uma transferência no aplicativo Código de Barras para"
 " mover todas as unidades contidas"
+=======
+"barras de embalagem de uma transferência no aplicativo Código de Barras para "
+"mover todas as unidades contidas"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -1552,7 +1689,12 @@ msgstr ""
 "Preço de base para cálculo.\n"
 "Preço de venda: o preço de base será o preço de venda.\n"
 "Preço de custo: o preço de base será o preço de custo.\n"
+<<<<<<< HEAD
 "Outra lista de preços: cálculo do preço de base a partir de outra lista de preços."
+=======
+"Outra lista de preços: cálculo do preço de base a partir de outra lista de "
+"preços."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__base
@@ -2286,8 +2428,13 @@ msgstr "Preço extra"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__price_extra
 msgid ""
+<<<<<<< HEAD
 "Extra price for the variant with this attribute value on sale price. eg. 200"
 " price extra, 1000 + 200 = 1200."
+=======
+"Extra price for the variant with this attribute value on sale price. eg. 200 "
+"price extra, 1000 + 200 = 1200."
+>>>>>>> upstream/18.0
 msgstr ""
 "Preço extra para a variante com este valor de atributo no preço de venda. "
 "Ex.: 200 de preço extra, 1.000 + 200 = 1.200."
@@ -2361,10 +2508,19 @@ msgstr "Ícone do Font Awesome. Ex: fa-tasks"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__min_quantity
 msgid ""
+<<<<<<< HEAD
 "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
 "Expressed in the default unit of measure of the product."
 msgstr ""
 "Para que a regra seja aplicada, a quantidade vendida/comprada deve ser maior do que ou igual à quantidade mínima especificada neste campo.\n"
+=======
+"For the rule to apply, bought/sold quantity must be greater than or equal to "
+"the minimum quantity specified in this field.\n"
+"Expressed in the default unit of measure of the product."
+msgstr ""
+"Para que a regra seja aplicada, a quantidade vendida/comprada deve ser maior "
+"do que ou igual à quantidade mínima especificada neste campo.\n"
+>>>>>>> upstream/18.0
 "Expressa na UDM padrão do produto."
 
 #. module: product
@@ -2846,11 +3002,19 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__exclude_for
 msgid ""
+<<<<<<< HEAD
 "Make this attribute value not compatible with other values of the product or"
 " some attribute values of optional and accessory products."
 msgstr ""
 "Torne este valor de atributo não compatível com outros valores do produto ou"
 " alguns valores de atributo de produtos opcionais e acessórios."
+=======
+"Make this attribute value not compatible with other values of the product or "
+"some attribute values of optional and accessory products."
+msgstr ""
+"Torne este valor de atributo não compatível com outros valores do produto ou "
+"alguns valores de atributo de produtos opcionais e acessórios."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:res.groups,name:product.group_stock_packaging
@@ -3127,21 +3291,37 @@ msgstr "Lâmpada de escritório"
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "On the product %(product)s you cannot associate the value %(value)s with the"
 " attribute %(attribute)s because they do not match."
 msgstr ""
 "No produto %(product)s, você não pode associar o valor %(value)s ao atributo"
 " %(attribute)s porque eles não são correspondentes."
+=======
+"On the product %(product)s you cannot associate the value %(value)s with the "
+"attribute %(attribute)s because they do not match."
+msgstr ""
+"No produto %(product)s, você não pode associar o valor %(value)s ao atributo "
+"%(attribute)s porque eles não são correspondentes."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "On the product %(product)s you cannot transform the attribute "
 "%(attribute_src)s into the attribute %(attribute_dest)s."
 msgstr ""
 "No produto %(product)s, você não pode transformar o atributo "
 "%(attribute_src)s em atributo %(attribute_dest)s."
+=======
+"On the product %(product)s you cannot transform the attribute %"
+"(attribute_src)s into the attribute %(attribute_dest)s."
+msgstr ""
+"No produto %(product)s, você não pode transformar o atributo %"
+"(attribute_src)s em atributo %(attribute_dest)s."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -3272,8 +3452,13 @@ msgid ""
 "Press a button and watch your desk glide effortlessly from sitting to "
 "standing height in seconds."
 msgstr ""
+<<<<<<< HEAD
 "Pressione um botão e veja sua mesa deslizar em segundos da altura ideal para"
 " ficar sentado para a ideal para ficar de pé."
+=======
+"Pressione um botão e veja sua mesa deslizar em segundos da altura ideal para "
+"ficar sentado para a ideal para ficar de pé."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__price
@@ -3834,8 +4019,13 @@ msgstr "Referência"
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
 msgid ""
+<<<<<<< HEAD
 "Register the prices requested by your vendors for each product, based on the"
 " quantity and the period."
+=======
+"Register the prices requested by your vendors for each product, based on the "
+"quantity and the period."
+>>>>>>> upstream/18.0
 msgstr ""
 "Cadastre os preços pedidos pelos fornecedores por cada produto, com base na "
 "quantidade e no período."
@@ -3984,7 +4174,12 @@ msgid ""
 msgstr ""
 "Define o preço como múltiplo desse valor.\n"
 "O arredondamento é aplicado após o desconto e antes da sobretaxa.\n"
+<<<<<<< HEAD
 "Para ter preços que terminem em 9,99, arredonde para 10,00 e defina o extra como -0,01"
+=======
+"Para ter preços que terminem em 9,99, arredonde para 10,00 e defina o extra "
+"como -0,01"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -4150,11 +4345,19 @@ msgstr "A referência \"%s\" já existe."
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The attribute %(attribute)s must have at least one value for the product "
 "%(product)s."
 msgstr ""
 "O atributo %(attribute)s deve ter pelo menos um valor para o produto "
 "%(product)s."
+=======
+"The attribute %(attribute)s must have at least one value for the product %"
+"(product)s."
+msgstr ""
+"O atributo %(attribute)s deve ter pelo menos um valor para o produto %"
+"(product)s."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute_value__attribute_id
@@ -4183,8 +4386,13 @@ msgid ""
 "suits you and your things best."
 msgstr ""
 "O organizador de mesa é perfeito para armazenar todo o tipo de coisinhas, e "
+<<<<<<< HEAD
 "como as cinco caixas são independentes, você pode mover e posicioná-las como"
 " ficar melhor para você e para suas coisas."
+=======
+"como as cinco caixas são independentes, você pode mover e posicioná-las como "
+"ficar melhor para você e para suas coisas."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__display_type
@@ -4218,8 +4426,13 @@ msgstr "A margem mínima deve ser menor do que a margem máxima."
 msgid ""
 "The minimum price among the products in this combo. This value will be used "
 "to prorate the price of this combo with respect to the other combos in a "
+<<<<<<< HEAD
 "combo product. This heuristic ensures that whatever product the user chooses"
 " in a combo, it will always be the same price."
+=======
+"combo product. This heuristic ensures that whatever product the user chooses "
+"in a combo, it will always be the same price."
+>>>>>>> upstream/18.0
 msgstr ""
 "O preço mínimo entre os produtos desse combo. Esse valor será usado para "
 "ratear o preço desse combo em relação aos outros combos em um produto "
@@ -4239,8 +4452,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
+<<<<<<< HEAD
 "The number of variants to generate is above allowed limit. You should either"
 " not generate variants for each combination or generate them on demand from "
+=======
+"The number of variants to generate is above allowed limit. You should either "
+"not generate variants for each combination or generate them on demand from "
+>>>>>>> upstream/18.0
 "the sales order. To do so, open the form view of attributes and change the "
 "mode of *Create Variants*."
 msgstr ""
@@ -4282,11 +4500,19 @@ msgstr "O método de arredondamento deve ser estritamente positivo."
 #: model:ir.model.fields,help:product.field_product_combo_item__lst_price
 #: model:ir.model.fields,help:product.field_product_product__lst_price
 msgid ""
+<<<<<<< HEAD
 "The sale price is managed from the product template. Click on the 'Configure"
 " Variants' button to set the extra attribute prices."
 msgstr ""
 "O preço de venda é gerenciado a partir do modelo do produto. Clique no botão"
 " 'configurar variações' para definir os preços de atributos extras."
+=======
+"The sale price is managed from the product template. Click on the 'Configure "
+"Variants' button to set the extra attribute prices."
+msgstr ""
+"O preço de venda é gerenciado a partir do modelo do produto. Clique no botão "
+"'configurar variações' para definir os preços de atributos extras."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -4295,8 +4521,13 @@ msgid ""
 "The value %(value)s is not defined for the attribute %(attribute)s on the "
 "product %(product)s."
 msgstr ""
+<<<<<<< HEAD
 "O valor %(value)s não está definido para o atributo %(attribute)s no produto"
 " %(product)s."
+=======
+"O valor %(value)s não está definido para o atributo %(attribute)s no produto "
+"%(product)s."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -4324,9 +4555,15 @@ msgid ""
 "to no possible variant. Please archive or delete your product directly if "
 "intended."
 msgstr ""
+<<<<<<< HEAD
 "Essa configuração de atributos, valores e exclusões do produto não levaria a"
 " nenhuma variante possível. Arquive ou exclua seu produto diretamente, se "
 "for o caso."
+=======
+"Essa configuração de atributos, valores e exclusões do produto não levaria a "
+"nenhuma variante possível. Arquive ou exclua seu produto diretamente, se for "
+"o caso."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__price_extra
@@ -4359,18 +4596,33 @@ msgstr ""
 msgid ""
 "This product is part of a combo, so its type can't be changed to \"combo\"."
 msgstr ""
+<<<<<<< HEAD
 "Esse produto faz parte de um combo, portanto, seu tipo não pode ser alterado"
 " para \"combo\"."
+=======
+"Esse produto faz parte de um combo, portanto, seu tipo não pode ser alterado "
+"para \"combo\"."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 "This rounding precision is higher than the Decimal Accuracy (%(digits)s digits).\n"
 "This may cause inconsistencies in computations.\n"
 "Please set a precision between %(min_precision)s and 1."
 msgstr ""
 "Essa precisão de arredondamento é maior do que a Precisão decimal (%(digits)s dígitos).\n"
+=======
+"This rounding precision is higher than the Decimal Accuracy (%(digits)s "
+"digits).\n"
+"This may cause inconsistencies in computations.\n"
+"Please set a precision between %(min_precision)s and 1."
+msgstr ""
+"Essa precisão de arredondamento é maior do que a Precisão decimal (%"
+"(digits)s dígitos).\n"
+>>>>>>> upstream/18.0
 "Isso pode causar inconsistências nos cálculos.\n"
 "Defina uma precisão entre %(min_precision)s e 1."
 
@@ -4586,11 +4838,21 @@ msgstr "Contagem de valor"
 #: model:ir.model.fields,help:product.field_product_template__standard_price
 msgid ""
 "Value of the product (automatically computed in AVCO).\n"
+<<<<<<< HEAD
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
 "        Used to compute margins on sale orders."
 msgstr ""
 "Valor do produto (calculado automaticamente no AVCO).\n"
 "Usado para avaliar o produto quando o custo de compra não é conhecido (por exemplo, ajuste de estoque).\n"
+=======
+"        Used to value the product when the purchase cost is not known (e.g. "
+"inventory adjustment).\n"
+"        Used to compute margins on sale orders."
+msgstr ""
+"Valor do produto (calculado automaticamente no AVCO).\n"
+"Usado para avaliar o produto quando o custo de compra não é conhecido (por "
+"exemplo, ajuste de estoque).\n"
+>>>>>>> upstream/18.0
 "Usado para calcular margens em pedidos de venda."
 
 #. module: product
@@ -4778,8 +5040,13 @@ msgstr "Aviso"
 #. module: product
 #: model_terms:product.template,website_description:product.product_product_4_product_template
 msgid ""
+<<<<<<< HEAD
 "We pay special attention to detail, which is why our desks are of a superior"
 " quality."
+=======
+"We pay special attention to detail, which is why our desks are of a superior "
+"quality."
+>>>>>>> upstream/18.0
 msgstr ""
 "Damos atenção especial aos detalhes, e é por isso que nossas mesas são de "
 "qualidade superior."
@@ -4824,8 +5091,13 @@ msgid ""
 "You are about to add the value \"%(attribute_value)s\" to %(product_count)s "
 "products."
 msgstr ""
+<<<<<<< HEAD
 "Você está prestes a agregar valor \"%(attribute_value)s\" a "
 "%(product_count)s produtos."
+=======
+"Você está prestes a agregar valor \"%(attribute_value)s\" a %"
+"(product_count)s produtos."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -4850,12 +5122,24 @@ msgid ""
 "You are setting a Decimal Accuracy less precise than the UOMs:\n"
 "%s\n"
 "This may cause inconsistencies in computations.\n"
+<<<<<<< HEAD
 "Please increase the rounding of those units of measure, or the digits of this Decimal Accuracy."
 msgstr ""
 "Você está definindo uma precisão decimal menos precisa do que as unidades de medida:\n"
 "%s\n"
 "Isto pode causar inconsistências em cálculos.\n"
 "Aumente o arredondamento dessas unidades de medida ou os dígitos desta precisão decimal."
+=======
+"Please increase the rounding of those units of measure, or the digits of "
+"this Decimal Accuracy."
+msgstr ""
+"Você está definindo uma precisão decimal menos precisa do que as unidades de "
+"medida:\n"
+"%s\n"
+"Isto pode causar inconsistências em cálculos.\n"
+"Aumente o arredondamento dessas unidades de medida ou os dígitos desta "
+"precisão decimal."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__percent_price
@@ -4893,8 +5177,12 @@ msgid ""
 "You can upload an image that will be used as the color of the attribute "
 "value."
 msgstr ""
+<<<<<<< HEAD
 "Você pode carregar uma imagem que será usada como a cor do valor do "
 "atributo."
+=======
+"Você pode carregar uma imagem que será usada como a cor do valor do atributo."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -4924,18 +5212,32 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s because it is used on the following products:\n"
 "%(products)s"
 msgstr ""
 "Não é possível alterar o modo de criação de variantes do atributo %(attribute)s porque ele é usado nos seguintes produtos:\n"
+=======
+"You cannot change the Variants Creation Mode of the attribute %(attribute)s "
+"because it is used on the following products:\n"
+"%(products)s"
+msgstr ""
+"Não é possível alterar o modo de criação de variantes do atributo %"
+"(attribute)s porque ele é usado nos seguintes produtos:\n"
+>>>>>>> upstream/18.0
 "%(products)s"
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the attribute of the value %(value)s because it is used on"
 " the following products: %(products)s"
+=======
+"You cannot change the attribute of the value %(value)s because it is used on "
+"the following products: %(products)s"
+>>>>>>> upstream/18.0
 msgstr ""
 "Você não pode alterar o atributo do valor %(value)sporque ele é usado nos "
 "seguintes produtos: %(products)s"
@@ -4944,21 +5246,37 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the product of the value %(value)s set on product "
 "%(product)s."
 msgstr ""
 "Não é possível alterar o produto do valor %(value)s definido no produto "
 "%(product)s."
+=======
+"You cannot change the product of the value %(value)s set on product %"
+"(product)s."
+msgstr ""
+"Não é possível alterar o produto do valor %(value)s definido no produto %"
+"(product)s."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the value of the value %(value)s set on product "
 "%(product)s."
 msgstr ""
 "Não é possível alterar o valor %(value)s do conjunto de valores no produto "
 "%(product)s."
+=======
+"You cannot change the value of the value %(value)s set on product %"
+"(product)s."
+msgstr ""
+"Não é possível alterar o valor %(value)s do conjunto de valores no produto %"
+"(product)s."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -5000,20 +5318,38 @@ msgstr "Não é possível excluir a categoria do produto %s."
 #. odoo-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete the attribute %(attribute)s because it is used on the following products:\n"
 "%(products)s"
 msgstr ""
 "Você não pode excluir o atributo %(attribute)s porque ele é usado nos seguintes produtos:\n"
+=======
+"You cannot delete the attribute %(attribute)s because it is used on the "
+"following products:\n"
+"%(products)s"
+msgstr ""
+"Você não pode excluir o atributo %(attribute)s porque ele é usado nos "
+"seguintes produtos:\n"
+>>>>>>> upstream/18.0
 "%(products)s"
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete the value %(value)s because it is used on the following products:\n"
 "%(products)s\n"
 msgstr ""
 "Não é possível excluir o valor %(value)s porque é usado nos seguintes produtos:\n"
+=======
+"You cannot delete the value %(value)s because it is used on the following "
+"products:\n"
+"%(products)s\n"
+msgstr ""
+"Não é possível excluir o valor %(value)s porque é usado nos seguintes "
+"produtos:\n"
+>>>>>>> upstream/18.0
 "%(products)s\n"
 
 #. module: product
@@ -5029,8 +5365,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot move the attribute %(attribute)s from the product %(product_src)s"
 " to the product %(product_dest)s."
+=======
+"You cannot move the attribute %(attribute)s from the product %(product_src)s "
+"to the product %(product_dest)s."
+>>>>>>> upstream/18.0
 msgstr ""
 "Não é possível mover o atributo %(attribute)s do produto %(product_src)s "
 "para o produto %(product_dest)s. "
@@ -5050,7 +5391,12 @@ msgstr ""
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
+<<<<<<< HEAD
 "                            whether it's a storable product, a consumable or a service."
+=======
+"                            whether it's a storable product, a consumable or "
+"a service."
+>>>>>>> upstream/18.0
 msgstr ""
 "Você deve definir um produto para tudo o que vende ou compra, seja um "
 "produto armazenável, um consumível ou um serviço."
@@ -5070,6 +5416,7 @@ msgstr ""
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "                whether it's a storable product, a consumable or a service.\n"
+<<<<<<< HEAD
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
 msgstr ""
@@ -5077,10 +5424,24 @@ msgstr ""
 "                seja um produto armazenável, um consumível ou um serviço.\n"
 "                O formulário do produto contém informações para simplificar o processo de venda:\n"
 "                preço, notas na cotação, dados financeiros, métodos de aquisição, etc."
+=======
+"                The product form contains information to simplify the sale "
+"process:\n"
+"                price, notes in the quotation, accounting data, procurement "
+"methods, etc."
+msgstr ""
+"Você deve definir um produto para tudo que você vende ou compra,\n"
+"                seja um produto armazenável, um consumível ou um serviço.\n"
+"                O formulário do produto contém informações para simplificar "
+"o processo de venda:\n"
+"                preço, notas na cotação, dados financeiros, métodos de "
+"aquisição, etc."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action_sell
 msgid ""
+<<<<<<< HEAD
 "You must define a product for everything you sell, whether it's a physical product,\n"
 "                a consumable or a service you offer to customers.\n"
 "                The product form contains information to simplify the sale process:\n"
@@ -5090,6 +5451,23 @@ msgstr ""
 "                um consumível ou um serviço que você oferece aos clientes.\n"
 "                O formulário do produto contém informações para simplificar o processo de venda:\n"
 "                preço, notas na cotação, dados financeiros, métodos de aquisição, etc."
+=======
+"You must define a product for everything you sell, whether it's a physical "
+"product,\n"
+"                a consumable or a service you offer to customers.\n"
+"                The product form contains information to simplify the sale "
+"process:\n"
+"                price, notes in the quotation, accounting data, procurement "
+"methods, etc."
+msgstr ""
+"Você deve definir um produto para tudo que você vende, seja um produto "
+"físico,\n"
+"                um consumível ou um serviço que você oferece aos clientes.\n"
+"                O formulário do produto contém informações para simplificar "
+"o processo de venda:\n"
+"                preço, notas na cotação, dados financeiros, métodos de "
+"aquisição, etc."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript

@@ -1,7 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { before } from "@odoo/hoot";
 import { mockFetch } from "@odoo/hoot-mock";
+=======
+import { before, mockFetch } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { before, mockFetch } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -58,7 +62,13 @@ import { globalCachedFetch } from "./_framework/module_set.hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {import("./_framework/mock_server/mock_fields").FieldType} FieldType
+=======
+ * @typedef {import("./_framework/dom_test_helpers").DragAndDropOptions} DragAndDropOptions
+ * @typedef {import("./_framework/mock_server/mock_fields").FieldType} FieldType
+ * @typedef {import("./_framework/mock_server/mock_server").MockServerEnvironment} MockServerEnvironment
+>>>>>>> upstream/18.0
 =======
  * @typedef {import("./_framework/dom_test_helpers").DragAndDropOptions} DragAndDropOptions
  * @typedef {import("./_framework/mock_server/mock_fields").FieldType} FieldType
@@ -296,7 +306,11 @@ export {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export { Command } from "./_framework/mock_server/mock_model";
+=======
+export { Command, registerInlineViewArchs } from "./_framework/mock_server/mock_model";
+>>>>>>> upstream/18.0
 =======
 export { Command, registerInlineViewArchs } from "./_framework/mock_server/mock_model";
 >>>>>>> upstream/18.0
@@ -503,6 +517,7 @@ export function defineWebModels() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  */
 export function preloadBundle(bundleName) {
     before(async function preloadBundle() {
@@ -510,6 +525,8 @@ export function preloadBundle(bundleName) {
         await loadBundle(bundleName);
         mockFetch(null);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -614,6 +631,9 @@ export function preloadBundle(bundleName, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

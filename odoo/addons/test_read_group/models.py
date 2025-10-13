@@ -115,10 +115,13 @@ class Task(models.Model):
     )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     date = fields.Date()
 
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     tag_ids = fields.Many2many(
@@ -156,6 +159,9 @@ class Test_Read_GroupTag(models.Model):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

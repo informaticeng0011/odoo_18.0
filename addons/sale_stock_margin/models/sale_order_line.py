@@ -86,6 +86,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif (
                 # don't overwrite any existing value unless non-standard cost method
                 (line.product_id and line.product_id.categ_id.property_cost_method != 'standard') or
@@ -309,6 +310,8 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             elif line.product_id and line.product_id.categ_id.property_cost_method != 'standard':
                 # don't overwrite any existing value unless non-standard cost method
                 qty_from_delivery = line.qty_delivered if line.product_id.invoice_policy == 'order' else line.qty_to_invoice
@@ -360,6 +363,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -533,6 +539,12 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            elif not line.product_uom_qty and line.qty_delivered:
+                # if line added from delivery and standard price, pass to super
+                line_ids_to_pass.add(line.id)
+>>>>>>> upstream/18.0
 =======
             elif not line.product_uom_qty and line.qty_delivered:
                 # if line added from delivery and standard price, pass to super

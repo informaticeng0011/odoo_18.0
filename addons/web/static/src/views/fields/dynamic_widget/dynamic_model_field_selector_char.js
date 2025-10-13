@@ -63,6 +63,10 @@ export class DynamicModelFieldSelectorChar extends CharField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            allowEmpty: !this.props.required,
+>>>>>>> upstream/18.0
 =======
             allowEmpty: !this.props.required,
 >>>>>>> upstream/18.0
@@ -210,7 +214,10 @@ export class DynamicModelFieldSelectorChar extends CharField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -335,6 +342,9 @@ export class DynamicModelFieldSelectorChar extends CharField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -292,6 +292,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                            <div id="total" class="clearfix row mt-n3">
 =======
                            <div id="total" class="clearfix mt-n3">
@@ -322,6 +323,9 @@
 >>>>>>> upstream/18.0
 =======
                            <div id="total" class="clearfix mt-n3">
+>>>>>>> upstream/18.0
+=======
+                           <div id="total" class="clearfix row mt-n3">
 >>>>>>> upstream/18.0
 =======
                            <div id="total" class="clearfix row mt-n3">
@@ -775,7 +779,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div class="ms-3" name="company_address">
+=======
+                <div class=" w-50 ms-3" name="company_address">
+>>>>>>> upstream/18.0
 =======
                 <div class=" w-50 ms-3" name="company_address">
 >>>>>>> upstream/18.0
@@ -938,7 +946,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span t-field="company.company_details" class="text-nowrap">
+=======
+                            <span t-field="company.company_details">
+>>>>>>> upstream/18.0
 =======
                             <span t-field="company.company_details">
 >>>>>>> upstream/18.0
@@ -1136,7 +1148,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div name="company_address" class="float-end mb4">
+=======
+                    <div name="company_address" class="mb4">
+>>>>>>> upstream/18.0
 =======
                     <div name="company_address" class="mb4">
 >>>>>>> upstream/18.0
@@ -1297,7 +1313,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <span t-field="company.company_details" class="text-nowrap">
+=======
+                                <span t-field="company.company_details">
+>>>>>>> upstream/18.0
 =======
                                 <span t-field="company.company_details">
 >>>>>>> upstream/18.0
@@ -1514,6 +1534,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div class="o_footer_content row border-top pt-2">
                 <div class="col-8">
                     <span t-field="company.report_footer"/>
@@ -1523,6 +1544,8 @@
                     <span t-if="report_type == 'pdf' and display_name_in_footer" class="text-muted" t-out="str(o.name) + ', '">(document name)</span>
                     <span t-if="report_type == 'pdf'" class="text-muted">Page <span class="page"/> / <span class="topage"/></span>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1744,6 +1767,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1945,7 +1971,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span t-field="company.company_details" class="text-nowrap">
+=======
+                            <span t-field="company.company_details">
+>>>>>>> upstream/18.0
 =======
                             <span t-field="company.company_details">
 >>>>>>> upstream/18.0
@@ -2162,6 +2192,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div class="o_footer_content row border-top pt-2">
                 <div class="col-8">
                     <span t-field="company.report_footer"/>
@@ -2171,6 +2202,8 @@
                     <span t-if="report_type == 'pdf' and display_name_in_footer" class="text-muted" t-out="str(o.name) + ', '">(document name)</span>
                     <span t-if="report_type == 'pdf'" class="text-muted">Page <span class="page"/> / <span class="topage"/></span>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2392,6 +2425,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2594,7 +2630,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span t-field="company.company_details" class="text-nowrap">
+=======
+                            <span t-field="company.company_details">
+>>>>>>> upstream/18.0
 =======
                             <span t-field="company.company_details">
 >>>>>>> upstream/18.0
@@ -2841,7 +2881,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div t-if="report_type == 'pdf'">Page <span class="page"/> / <span class="topage"/></div>
+=======
+                    <div t-if="report_type == 'pdf'" class="text-nowrap">Page <span class="page"/> / <span class="topage"/></div>
+>>>>>>> upstream/18.0
 =======
                     <div t-if="report_type == 'pdf'" class="text-nowrap">Page <span class="page"/> / <span class="topage"/></div>
 >>>>>>> upstream/18.0
@@ -3207,7 +3251,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div name="company_address" class="text-end">
+=======
+                <div name="company_address" class="w-50 text-end">
+>>>>>>> upstream/18.0
 =======
                 <div name="company_address" class="w-50 text-end">
 >>>>>>> upstream/18.0
@@ -3368,7 +3416,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span t-field="company.company_details" class="text-nowrap">
+=======
+                            <span t-field="company.company_details">
+>>>>>>> upstream/18.0
 =======
                             <span t-field="company.company_details">
 >>>>>>> upstream/18.0
@@ -3580,7 +3632,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div name="company_address" class="text-end">
+=======
+                <div name="company_address" class="w-50 text-end">
+>>>>>>> upstream/18.0
 =======
                 <div name="company_address" class="w-50 text-end">
 >>>>>>> upstream/18.0
@@ -3741,7 +3797,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span t-field="company.company_details" class="text-nowrap">
+=======
+                            <span t-field="company.company_details">
+>>>>>>> upstream/18.0
 =======
                             <span t-field="company.company_details">
 >>>>>>> upstream/18.0
@@ -3950,7 +4010,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div name="company_address" class="text-end">
+=======
+                <div name="company_address" class="w-50 text-end">
+>>>>>>> upstream/18.0
 =======
                 <div name="company_address" class="w-50 text-end">
 >>>>>>> upstream/18.0
@@ -4111,7 +4175,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span t-field="company.company_details" class="text-nowrap">
+=======
+                            <span t-field="company.company_details">
+>>>>>>> upstream/18.0
 =======
                             <span t-field="company.company_details">
 >>>>>>> upstream/18.0

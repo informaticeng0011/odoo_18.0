@@ -11,7 +11,10 @@ patch(Navbar.prototype, {
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     get showBackend() {
@@ -22,6 +25,9 @@ patch(Navbar.prototype, {
         );
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

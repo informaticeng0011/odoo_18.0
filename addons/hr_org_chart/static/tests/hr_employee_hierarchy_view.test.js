@@ -108,7 +108,10 @@ test("display the avatar of the parent when there is more than one node in the s
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -160,6 +163,9 @@ test("hierarchy with a cycle", async () =>{
     expect(".o_hierarchy_row:nth-of-type(8) .o_hierarchy_node_content").toHaveText("Albert\nLouis");
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

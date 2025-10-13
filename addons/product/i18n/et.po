@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* product
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Andre Roomet <andreroomet@gmail.com>, 2024
 # Patrick-Jordan Kiudorv, 2024
@@ -26,11 +30,16 @@
 # Katrin Kampura, 2024
 # Siim Raasuke, 2025
 # Birgit Vijar, 2025
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,6 +404,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: et\n"
+=======
+"POT-Creation-Date: 2025-10-11 02:17+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Birgit Vijar, 2025\n"
+"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: product
@@ -435,19 +454,34 @@ msgstr "$15.00"
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
+<<<<<<< HEAD
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra fee\n"
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
+=======
+"%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra "
+"fee\n"
+"Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
+"(total_amount)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
+<<<<<<< HEAD
 "%(item_name)s: end date (%(end_date)s) should be after start date "
 "(%(start_date)s)"
 msgstr ""
 "%(item_name)s: lõpukuupäev (%(end_date)s) peaks olema pärast alguskuupäeva "
 "(%(start_date)s)"
+=======
+"%(item_name)s: end date (%(end_date)s) should be after start date (%"
+"(start_date)s)"
+msgstr ""
+"%(item_name)s: lõpukuupäev (%(end_date)s) peaks olema pärast alguskuupäeva (%"
+"(start_date)s)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -510,22 +544,42 @@ msgstr "- %(amount)s allahindlus"
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_product.py:0
+<<<<<<< HEAD
 msgid "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
+=======
+msgid ""
+"- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
+>>>>>>> upstream/18.0
 msgstr ""
 "- Triipkood \"%(barcode)s\" on juba määratud too(de)tele: %(product_list)s"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__create_variant
 msgid ""
+<<<<<<< HEAD
 "- Instantly: All possible variants are created as soon as the attribute and its values are added to a product.\n"
 "        - Dynamically: Each variant is created only when its corresponding attributes and values are added to a sales order.\n"
+=======
+"- Instantly: All possible variants are created as soon as the attribute and "
+"its values are added to a product.\n"
+"        - Dynamically: Each variant is created only when its corresponding "
+"attributes and values are added to a sales order.\n"
+>>>>>>> upstream/18.0
 "        - Never: Variants are never created for the attribute.\n"
 "        Note: this cannot be changed once the attribute is used on a product."
 msgstr ""
 "- Kohe: kõik variatsiooni luuakse niipea kui need on tootele lisatud.\n"
+<<<<<<< HEAD
 "        - Dünaamiliselt: iga variatsioon luuakse pärast vastava atribuudid ja väärtused on lisatud müügitellimusele.\n"
 "        - Kunagi: Variatsioone ei looda atribuudile kunagi.\n"
 "        Märkus: niipea kui atribuuti on tootel kasutatud, ei saa antud seadistust enam muuta. "
+=======
+"        - Dünaamiliselt: iga variatsioon luuakse pärast vastava atribuudid "
+"ja väärtused on lisatud müügitellimusele.\n"
+"        - Kunagi: Variatsioone ei looda atribuudile kunagi.\n"
+"        Märkus: niipea kui atribuuti on tootel kasutatud, ei saa antud "
+"seadistust enam muuta. "
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_5
@@ -598,8 +652,17 @@ msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Currency\"/>"
 msgstr "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Currency\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" "
+"title=\"Currency\"/>"
+msgstr ""
+"<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" "
+"title=\"Currency\"/>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
@@ -607,14 +670,24 @@ msgid ""
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                            Rules\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                        <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Rule\n"
 "                                        </span>"
 msgstr ""
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                            Reeglid\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                        <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Reegel\n"
 "                                        </span>"
 
@@ -624,14 +697,24 @@ msgid ""
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                        Pricelists\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Pricelist\n"
 "                                    </span>"
 msgstr ""
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                        Hinnakirjad\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Hinnakiri\n"
 "                                    </span>"
 
@@ -720,6 +803,7 @@ msgstr "Kombinatsioontoode peab sisaldama vähemalt 1 kominatsiooni valikut."
 #: model:ir.model.fields,help:product.field_product_product__description_sale
 #: model:ir.model.fields,help:product.field_product_template__description_sale
 msgid ""
+<<<<<<< HEAD
 "A description of the Product that you want to communicate to your customers."
 " This description will be copied to every Sales Order, Delivery Order and "
 "Customer Invoice/Credit Note"
@@ -727,6 +811,15 @@ msgstr ""
 "Toote kirjeldus, mida soovite oma klientidele edastada. See kirjeldus "
 "kopeeritakse igale müügitellimusele, saatelehele ja "
 "kliendiarvele/kreeditarvele"
+=======
+"A description of the Product that you want to communicate to your customers. "
+"This description will be copied to every Sales Order, Delivery Order and "
+"Customer Invoice/Credit Note"
+msgstr ""
+"Toote kirjeldus, mida soovite oma klientidele edastada. See kirjeldus "
+"kopeeritakse igale müügitellimusele, saatelehele ja kliendiarvele/"
+"kreeditarvele"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -737,11 +830,33 @@ msgstr "Pakendil on juba vöötkood"
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
 msgid ""
+<<<<<<< HEAD
 "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "            This is the perfect tool to handle several pricings, seasonal discounts, etc."
 msgstr ""
 "Hind on müügihindade või reeglite kogum müügitellimuste ridade hinna arvutamiseks toodete, tootekategooriate, kuupäevade ja tellitud koguste põhjal.\n"
 "             See on hea tööriist erinevate hindade, hooajaliste allahindluste jms käsitlemiseks."
+=======
+"A price is a set of sales prices or rules to compute the price of sales "
+"order lines based on products, product categories, dates and ordered "
+"quantities.\n"
+"            This is the perfect tool to handle several pricings, seasonal "
+"discounts, etc."
+msgstr ""
+"Hind on müügihindade või reeglite kogum müügitellimuste ridade hinna "
+"arvutamiseks toodete, tootekategooriate, kuupäevade ja tellitud koguste "
+"põhjal.\n"
+"             See on hea tööriist erinevate hindade, hooajaliste "
+"allahindluste jms käsitlemiseks."
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid ""
+"A pricelist item with \"Other Pricelist\" as base must have a "
+"base_pricelist_id."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -992,10 +1107,15 @@ msgstr "Kõik tootevariandid kasutavad seda silti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
@@ -1440,8 +1560,13 @@ msgid ""
 "At most %s quantities can be displayed simultaneously. Remove a selected "
 "quantity to add others."
 msgstr ""
+<<<<<<< HEAD
 "Korraga saab kuvada kõige rohkem %s kogust. Eemalda valitud kogus, et lisada"
 " teisi."
+=======
+"Korraga saab kuvada kõige rohkem %s kogust. Eemalda valitud kogus, et lisada "
+"teisi."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_form
@@ -2300,8 +2425,13 @@ msgstr "Lisahind"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__price_extra
 msgid ""
+<<<<<<< HEAD
 "Extra price for the variant with this attribute value on sale price. eg. 200"
 " price extra, 1000 + 200 = 1200."
+=======
+"Extra price for the variant with this attribute value on sale price. eg. 200 "
+"price extra, 1000 + 200 = 1200."
+>>>>>>> upstream/18.0
 msgstr ""
 "Selle atribuudi väärtusega variandi lisahind müügihinnal. nt. 200 lisatasu, "
 "1000 + 200 = 1200."
@@ -2375,10 +2505,19 @@ msgstr "Font awesome icon nt. fa-tasks"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__min_quantity
 msgid ""
+<<<<<<< HEAD
 "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
 "Expressed in the default unit of measure of the product."
 msgstr ""
 "Reegli rakendumiseks peab ostetud/müüdud kogus olema sellel väljal määratud miinimumkogusest suurem või sellega võrdne.\n"
+=======
+"For the rule to apply, bought/sold quantity must be greater than or equal to "
+"the minimum quantity specified in this field.\n"
+"Expressed in the default unit of measure of the product."
+msgstr ""
+"Reegli rakendumiseks peab ostetud/müüdud kogus olema sellel väljal määratud "
+"miinimumkogusest suurem või sellega võrdne.\n"
+>>>>>>> upstream/18.0
 "Väljendatakse toote vaikimisi mõõtühikus."
 
 #. module: product
@@ -2458,8 +2597,13 @@ msgid ""
 "Goods are tangible materials and merchandise you provide.\n"
 "A service is a non-material product you provide."
 msgstr ""
+<<<<<<< HEAD
 "Kaupade all mõistetakse käegakatsutavaid materjale ja kaupu, mida te pakute."
 " Teenus on mittefüüsiline toode, mida te pakute."
+=======
+"Kaupade all mõistetakse käegakatsutavaid materjale ja kaupu, mida te pakute. "
+"Teenus on mittefüüsiline toode, mida te pakute."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.res_config_settings_view_form
@@ -2862,8 +3006,13 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__exclude_for
 msgid ""
+<<<<<<< HEAD
 "Make this attribute value not compatible with other values of the product or"
 " some attribute values of optional and accessory products."
+=======
+"Make this attribute value not compatible with other values of the product or "
+"some attribute values of optional and accessory products."
+>>>>>>> upstream/18.0
 msgstr ""
 "Muutke see atribuudi väärtus mitteühilduvaks toote muude väärtustega või "
 "mõne valikuliste ja lisatoodete atribuudiväärtustega."
@@ -3141,21 +3290,37 @@ msgstr "Kontorilamp"
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "On the product %(product)s you cannot associate the value %(value)s with the"
 " attribute %(attribute)s because they do not match."
 msgstr ""
 "Toote %(product)s väärtust %(value)s ei saa siduda atribuudiga "
 "%(attribute)s, sest need ei kattu."
+=======
+"On the product %(product)s you cannot associate the value %(value)s with the "
+"attribute %(attribute)s because they do not match."
+msgstr ""
+"Toote %(product)s väärtust %(value)s ei saa siduda atribuudiga %"
+"(attribute)s, sest need ei kattu."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "On the product %(product)s you cannot transform the attribute "
 "%(attribute_src)s into the attribute %(attribute_dest)s."
 msgstr ""
 "Toote %(product)s atribuuti %(attribute_src)s ei saa muuta atrbuudiks "
 "%(attribute_dest)s."
+=======
+"On the product %(product)s you cannot transform the attribute %"
+"(attribute_src)s into the attribute %(attribute_dest)s."
+msgstr ""
+"Toote %(product)s atribuuti %(attribute_src)s ei saa muuta atrbuudiks %"
+"(attribute_dest)s."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -3847,8 +4012,13 @@ msgstr "Viide"
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
 msgid ""
+<<<<<<< HEAD
 "Register the prices requested by your vendors for each product, based on the"
 " quantity and the period."
+=======
+"Register the prices requested by your vendors for each product, based on the "
+"quantity and the period."
+>>>>>>> upstream/18.0
 msgstr ""
 "Registreerige oma tarnijatelt taotletud hinnad koguse ja perioodi alusel."
 
@@ -4008,8 +4178,12 @@ msgstr "Näita nime"
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Show all records which has next action date is before today"
 msgstr ""
+<<<<<<< HEAD
 "Näita kõiki andmeid, mille järgmise tegevuse kuupäev on ennem tänast "
 "kuupäeva"
+=======
+"Näita kõiki andmeid, mille järgmise tegevuse kuupäev on ennem tänast kuupäeva"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute,name:product.size_attribute
@@ -4028,8 +4202,13 @@ msgid ""
 "Specify a product category if this rule only applies to products belonging "
 "to this category or its children categories. Keep empty otherwise."
 msgstr ""
+<<<<<<< HEAD
 "Määrake tootekategooria, kui see reegel kehtib ainult sellesse kategooriasse"
 " või selle alamkategooriatesse kuuluvatele toodetele. Vastasel juhul jätke "
+=======
+"Määrake tootekategooria, kui see reegel kehtib ainult sellesse kategooriasse "
+"või selle alamkategooriatesse kuuluvatele toodetele. Vastasel juhul jätke "
+>>>>>>> upstream/18.0
 "väli tühjaks. "
 
 #. module: product
@@ -4163,8 +4342,13 @@ msgstr "Viide '%s' on juba olemas."
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The attribute %(attribute)s must have at least one value for the product "
 "%(product)s."
+=======
+"The attribute %(attribute)s must have at least one value for the product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr ""
 "Toote %(product)s atribuudil%(attribute)s peab olema vähemalt üks väärtus."
 
@@ -4182,8 +4366,12 @@ msgstr ""
 msgid ""
 "The default Unit of Measure and the purchase Unit of Measure must be in the "
 "same category."
+<<<<<<< HEAD
 msgstr ""
 "Vaikimisi mõõtühik ja ostetav mõõtühik peavad olema samas kategoorias."
+=======
+msgstr "Vaikimisi mõõtühik ja ostetav mõõtühik peavad olema samas kategoorias."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,description_sale:product.desk_organizer_product_template
@@ -4193,8 +4381,13 @@ msgid ""
 "suits you and your things best."
 msgstr ""
 "Lauakorraldaja on ideaalne kõigi väikeste asjade hoidmiseks ja kuna need 5 "
+<<<<<<< HEAD
 "kasti on lahtised, saate neid paigutada ja liigutada viisil, mis sobib teile"
 " ja teie asjadele kõige paremini."
+=======
+"kasti on lahtised, saate neid paigutada ja liigutada viisil, mis sobib teile "
+"ja teie asjadele kõige paremini."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__display_type
@@ -4227,8 +4420,13 @@ msgstr "Minimaalne marginaal peaks olema väiksem kui maksimaalne marginaal."
 msgid ""
 "The minimum price among the products in this combo. This value will be used "
 "to prorate the price of this combo with respect to the other combos in a "
+<<<<<<< HEAD
 "combo product. This heuristic ensures that whatever product the user chooses"
 " in a combo, it will always be the same price."
+=======
+"combo product. This heuristic ensures that whatever product the user chooses "
+"in a combo, it will always be the same price."
+>>>>>>> upstream/18.0
 msgstr ""
 "Antud kombinatsiooni toodete minimaalne hind. Seda väärtust kasutatakse "
 "selle kombinatsiooni hinna proportsionaalseks jaotamiseks kombineeritud "
@@ -4248,15 +4446,25 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
+<<<<<<< HEAD
 "The number of variants to generate is above allowed limit. You should either"
 " not generate variants for each combination or generate them on demand from "
+=======
+"The number of variants to generate is above allowed limit. You should either "
+"not generate variants for each combination or generate them on demand from "
+>>>>>>> upstream/18.0
 "the sales order. To do so, open the form view of attributes and change the "
 "mode of *Create Variants*."
 msgstr ""
 "Variatsioonide arv on üle lubatud piiri. Kas ära loo iga kombinatsiooni "
 "kohta variatsiooni või loo need vastavalt müügitellimuselt tulevale "
+<<<<<<< HEAD
 "nõudlusele. Selleks ava atribuudi vormivaade ja muuda variatsioonide loomise"
 " viisi."
+=======
+"nõudlusele. Selleks ava atribuudi vormivaade ja muuda variatsioonide loomise "
+"viisi."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__price
@@ -4276,8 +4484,13 @@ msgid ""
 "expressed in the vendor Product Unit of Measure if not any, in the default "
 "unit of measure of the product otherwise."
 msgstr ""
+<<<<<<< HEAD
 "Sellelt tarnijalt ostetav kogus. Kogus on väljatoodud tarnija mõõtühikus või"
 " selle puudumisel toote enda mõõtühikus."
+=======
+"Sellelt tarnijalt ostetav kogus. Kogus on väljatoodud tarnija mõõtühikus või "
+"selle puudumisel toote enda mõõtühikus."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -4289,8 +4502,13 @@ msgstr "Ümardamise meetod peab olema positiivne."
 #: model:ir.model.fields,help:product.field_product_combo_item__lst_price
 #: model:ir.model.fields,help:product.field_product_product__lst_price
 msgid ""
+<<<<<<< HEAD
 "The sale price is managed from the product template. Click on the 'Configure"
 " Variants' button to set the extra attribute prices."
+=======
+"The sale price is managed from the product template. Click on the 'Configure "
+"Variants' button to set the extra attribute prices."
+>>>>>>> upstream/18.0
 msgstr ""
 "Müügihinda hallatakse tootemallist. Täiendavate atribuutide hindade "
 "määramiseks klõpsake nuppu Konfigureeri variandid."
@@ -4302,8 +4520,13 @@ msgid ""
 "The value %(value)s is not defined for the attribute %(attribute)s on the "
 "product %(product)s."
 msgstr ""
+<<<<<<< HEAD
 "Väärtus %(value)s ei ole defineeritud toote %(product)satribuudile "
 "%(attribute)s."
+=======
+"Väärtus %(value)s ei ole defineeritud toote %(product)satribuudile %"
+"(attribute)s."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -4369,7 +4592,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 "This rounding precision is higher than the Decimal Accuracy (%(digits)s digits).\n"
+=======
+"This rounding precision is higher than the Decimal Accuracy (%(digits)s "
+"digits).\n"
+>>>>>>> upstream/18.0
 "This may cause inconsistencies in computations.\n"
 "Please set a precision between %(min_precision)s and 1."
 msgstr ""
@@ -4589,11 +4817,21 @@ msgstr "Väärtuste arv"
 #: model:ir.model.fields,help:product.field_product_template__standard_price
 msgid ""
 "Value of the product (automatically computed in AVCO).\n"
+<<<<<<< HEAD
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
 "        Used to compute margins on sale orders."
 msgstr ""
 "Toote väärtus (AVCO puhul arvutatakse automaatselt).\n"
 "Kasutatakse toote väärtuse määramiseks, kui ostuhind ei ole teada (nt. laoseisu korrigeerimisel).\n"
+=======
+"        Used to value the product when the purchase cost is not known (e.g. "
+"inventory adjustment).\n"
+"        Used to compute margins on sale orders."
+msgstr ""
+"Toote väärtus (AVCO puhul arvutatakse automaatselt).\n"
+"Kasutatakse toote väärtuse määramiseks, kui ostuhind ei ole teada (nt. "
+"laoseisu korrigeerimisel).\n"
+>>>>>>> upstream/18.0
 "Kasutatakse müügitellimuse marginaali arvutamisel."
 
 #. module: product
@@ -4781,8 +5019,13 @@ msgstr "Hoiatused"
 #. module: product
 #: model_terms:product.template,website_description:product.product_product_4_product_template
 msgid ""
+<<<<<<< HEAD
 "We pay special attention to detail, which is why our desks are of a superior"
 " quality."
+=======
+"We pay special attention to detail, which is why our desks are of a superior "
+"quality."
+>>>>>>> upstream/18.0
 msgstr ""
 "Pöörame erilist tähelepanu detailidele, mistõttu on meie lauad kõrge "
 "kvaliteediga."
@@ -4852,12 +5095,22 @@ msgid ""
 "You are setting a Decimal Accuracy less precise than the UOMs:\n"
 "%s\n"
 "This may cause inconsistencies in computations.\n"
+<<<<<<< HEAD
 "Please increase the rounding of those units of measure, or the digits of this Decimal Accuracy."
+=======
+"Please increase the rounding of those units of measure, or the digits of "
+"this Decimal Accuracy."
+>>>>>>> upstream/18.0
 msgstr ""
 "Olete määranud kümnendkoha täpsuse vähem täpsemaks kui UOM-id:\n"
 "%s\n"
 "See võib põhjustada arvutustes ebakõlasid.\n"
+<<<<<<< HEAD
 "Palun suurendage nende mõõtühikute või selle kümnendkoha täpsuse numbrite ümardamist."
+=======
+"Palun suurendage nende mõõtühikute või selle kümnendkoha täpsuse numbrite "
+"ümardamist."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__percent_price
@@ -4922,18 +5175,32 @@ msgstr "Põhihinnakirja ei saa määrata hinnakirja artiklis Muuks hinnakirjaks"
 #. odoo-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s because it is used on the following products:\n"
 "%(products)s"
 msgstr ""
 "Atribuudil %(attribute)s ei saa variatsiooni loomise viisi muuta, sest see on kasutusel järgneva(te)l too(de)tel:\n"
+=======
+"You cannot change the Variants Creation Mode of the attribute %(attribute)s "
+"because it is used on the following products:\n"
+"%(products)s"
+msgstr ""
+"Atribuudil %(attribute)s ei saa variatsiooni loomise viisi muuta, sest see "
+"on kasutusel järgneva(te)l too(de)tel:\n"
+>>>>>>> upstream/18.0
 "%(products)s"
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the attribute of the value %(value)s because it is used on"
 " the following products: %(products)s"
+=======
+"You cannot change the attribute of the value %(value)s because it is used on "
+"the following products: %(products)s"
+>>>>>>> upstream/18.0
 msgstr ""
 "Väärtuse %(value)satribuuti ei saa muuta, sest seda kasutatakse järgnevatel "
 "toodetel: %(products)s"
@@ -4942,16 +5209,26 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the product of the value %(value)s set on product "
 "%(product)s."
+=======
+"You cannot change the product of the value %(value)s set on product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr "Väärtuse %(value)s toodet ei saa muuta tootel %(product)s."
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the value of the value %(value)s set on product "
 "%(product)s."
+=======
+"You cannot change the value of the value %(value)s set on product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr "Toote %(product)s väärtust%(value)s ei saa muuta."
 
 #. module: product
@@ -4994,17 +5271,31 @@ msgstr "Te ei saa tootekategooriat %s kustutada."
 #. odoo-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete the attribute %(attribute)s because it is used on the following products:\n"
 "%(products)s"
 msgstr ""
 "Te ei saa kustutada atribuuti %(attribute)s , sest see on kasutusel järgmistel toodetel:\n"
+=======
+"You cannot delete the attribute %(attribute)s because it is used on the "
+"following products:\n"
+"%(products)s"
+msgstr ""
+"Te ei saa kustutada atribuuti %(attribute)s , sest see on kasutusel "
+"järgmistel toodetel:\n"
+>>>>>>> upstream/18.0
 "%(products)s"
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete the value %(value)s because it is used on the following products:\n"
+=======
+"You cannot delete the value %(value)s because it is used on the following "
+"products:\n"
+>>>>>>> upstream/18.0
 "%(products)s\n"
 msgstr ""
 "Väärtust%(value)s ei saa kustutada, sest see on kasutuses too(de)tel:\n"
@@ -5022,11 +5313,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot move the attribute %(attribute)s from the product %(product_src)s"
 " to the product %(product_dest)s."
 msgstr ""
 "Atribuuti%(attribute)s ei saa liigutada tootelt%(product_src)s "
 "tootele%(product_dest)s."
+=======
+"You cannot move the attribute %(attribute)s from the product %(product_src)s "
+"to the product %(product_dest)s."
+msgstr ""
+"Atribuuti%(attribute)s ei saa liigutada tootelt%(product_src)s tootele%"
+"(product_dest)s."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -5043,10 +5342,19 @@ msgstr ""
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
+<<<<<<< HEAD
 "                            whether it's a storable product, a consumable or a service."
 msgstr ""
 "Sa pead määratlema toote kõigele, mida sa müüd või ostad,\n"
 "                            olgu see siis ladustatav toode, tarbitav toode või teenus."
+=======
+"                            whether it's a storable product, a consumable or "
+"a service."
+msgstr ""
+"Sa pead määratlema toote kõigele, mida sa müüd või ostad,\n"
+"                            olgu see siis ladustatav toode, tarbitav toode "
+"või teenus."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action
@@ -5063,17 +5371,30 @@ msgstr ""
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "                whether it's a storable product, a consumable or a service.\n"
+<<<<<<< HEAD
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
+=======
+"                The product form contains information to simplify the sale "
+"process:\n"
+"                price, notes in the quotation, accounting data, procurement "
+"methods, etc."
+>>>>>>> upstream/18.0
 msgstr ""
 "Peate määratlema toote kõige jaoks, mida müüte või ostate,\n"
 "                 olgu see ladustatav toode, tarbekaup või teenus.\n"
 "                 Tootekaart sisaldab teavet müügiprotsessi lihtsustamiseks:\n"
+<<<<<<< HEAD
 "                 hind, hinnapakkumise märkmed, raamatupidamisandmed, tanreviisid jne."
+=======
+"                 hind, hinnapakkumise märkmed, raamatupidamisandmed, "
+"tanreviisid jne."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action_sell
 msgid ""
+<<<<<<< HEAD
 "You must define a product for everything you sell, whether it's a physical product,\n"
 "                a consumable or a service you offer to customers.\n"
 "                The product form contains information to simplify the sale process:\n"
@@ -5083,6 +5404,22 @@ msgstr ""
 "                 kulumaterjal või teenus.\n"
 "                 Tootekaart sisaldab teavet müügiprotsessi lihtsustamiseks:\n"
 "                 hind, hinnapakkumise märkmed, raamatupidamisandmed, tarneviisid jne."
+=======
+"You must define a product for everything you sell, whether it's a physical "
+"product,\n"
+"                a consumable or a service you offer to customers.\n"
+"                The product form contains information to simplify the sale "
+"process:\n"
+"                price, notes in the quotation, accounting data, procurement "
+"methods, etc."
+msgstr ""
+"Peate määratlema toote kõige jaoks, mida müüte, olgu see siis füüsiline "
+"toode,\n"
+"                 kulumaterjal või teenus.\n"
+"                 Tootekaart sisaldab teavet müügiprotsessi lihtsustamiseks:\n"
+"                 hind, hinnapakkumise märkmed, raamatupidamisandmed, "
+"tarneviisid jne."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript

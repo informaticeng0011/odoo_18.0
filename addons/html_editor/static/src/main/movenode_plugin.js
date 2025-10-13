@@ -164,7 +164,11 @@ export class MoveNodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (entry.isIntersecting) {
+=======
+            if (entry.isIntersecting && element.isConnected) {
+>>>>>>> upstream/18.0
 =======
             if (entry.isIntersecting && element.isConnected) {
 >>>>>>> upstream/18.0
@@ -760,7 +764,11 @@ function isNodeMovable(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         !node.parentElement.closest(".o_editor_banner")
+=======
+        !node.parentElement.closest(".o_text_columns, .o_editor_banner")
+>>>>>>> upstream/18.0
 =======
         !node.parentElement.closest(".o_text_columns, .o_editor_banner")
 >>>>>>> upstream/18.0

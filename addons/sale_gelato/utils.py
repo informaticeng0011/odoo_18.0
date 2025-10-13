@@ -32,7 +32,10 @@ def make_request(api_key, subdomain, version, endpoint, payload=None, method='PO
             response = requests.get(url=url, params=payload, headers=headers, timeout=10)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         elif method == 'PATCH':
@@ -40,6 +43,9 @@ def make_request(api_key, subdomain, version, endpoint, payload=None, method='PO
         elif method == 'DELETE':
             response = requests.delete(url=url, params=payload, headers=headers, timeout=10)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

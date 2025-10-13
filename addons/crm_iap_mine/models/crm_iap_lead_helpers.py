@@ -37,7 +37,11 @@ class CRMHelpers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def notify_no_more_credit(self, service_name, model_name, notification_parameter):
+=======
+    def _notify_no_more_credit(self, service_name, model_name, notification_parameter):
+>>>>>>> upstream/18.0
 =======
     def _notify_no_more_credit(self, service_name, model_name, notification_parameter):
 >>>>>>> upstream/18.0

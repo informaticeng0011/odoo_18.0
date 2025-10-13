@@ -32,7 +32,13 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     isIconElement,
+=======
+    EDITABLE_MEDIA_CLASS,
+    isIconElement,
+    isMediaElement,
+>>>>>>> upstream/18.0
 =======
     EDITABLE_MEDIA_CLASS,
     isIconElement,
@@ -282,6 +288,11 @@ export class MediaPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        functional_empty_node_predicates: isMediaElement,
+        is_node_editable_predicates: this.isEditableMediaElement.bind(this),
+>>>>>>> upstream/18.0
 =======
         functional_empty_node_predicates: isMediaElement,
         is_node_editable_predicates: this.isEditableMediaElement.bind(this),
@@ -445,10 +456,13 @@ export class MediaPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     replaceImage() {
         const selectedNodes = this.dependencies.selection.getSelectedNodes();
         const node = selectedNodes.find((node) => node.tagName === "IMG");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -549,6 +563,9 @@ export class MediaPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -704,8 +721,12 @@ export class MediaPlugin extends Plugin {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     async savePendingImages() {
         const editableEl = this.editable;
+=======
+    async savePendingImages(editableEl) {
+>>>>>>> upstream/18.0
 =======
     async savePendingImages(editableEl) {
 >>>>>>> upstream/18.0
@@ -718,6 +739,10 @@ export class MediaPlugin extends Plugin {
         // of the pre-converted webp resizes and all the equivalent jpgs.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const oldSrcToNewSrcMap = new Map();
+>>>>>>> upstream/18.0
 =======
         const oldSrcToNewSrcMap = new Map();
 >>>>>>> upstream/18.0
@@ -735,7 +760,13 @@ export class MediaPlugin extends Plugin {
                 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 await this.saveB64Image(el, resModel, resId);
+=======
+                const oldSrc = el.getAttribute("src");
+                await this.saveB64Image(el, resModel, resId);
+                oldSrcToNewSrcMap.set(oldSrc, el.getAttribute("src"));
+>>>>>>> upstream/18.0
 =======
                 const oldSrc = el.getAttribute("src");
                 await this.saveB64Image(el, resModel, resId);
@@ -759,7 +790,13 @@ export class MediaPlugin extends Plugin {
                 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 await this.saveModifiedImage(el, resModel, resId);
+=======
+                const oldSrc = el.getAttribute("src");
+                await this.saveModifiedImage(el, resModel, resId);
+                oldSrcToNewSrcMap.set(oldSrc, el.getAttribute("src"));
+>>>>>>> upstream/18.0
 =======
                 const oldSrc = el.getAttribute("src");
                 await this.saveModifiedImage(el, resModel, resId);
@@ -779,7 +816,11 @@ export class MediaPlugin extends Plugin {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return hasChange;
+=======
+        return hasChange ? oldSrcToNewSrcMap : undefined;
+>>>>>>> upstream/18.0
 =======
         return hasChange ? oldSrcToNewSrcMap : undefined;
 >>>>>>> upstream/18.0

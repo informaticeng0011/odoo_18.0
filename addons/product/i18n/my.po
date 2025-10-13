@@ -7,6 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,6 +130,10 @@ msgstr ""
 =======
 "PO-Revision-Date: 2025-10-09 08:19+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-10-11 02:17+0000\n"
+"PO-Revision-Date: 2025-10-09 08:19+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Oakarmin Iron <oakarminiron@gmail.com>\n"
 "Language-Team: Burmese <https://translate.odoo.com/projects/odoo-18/product/"
 "my/>\n"
@@ -174,16 +179,28 @@ msgstr "$၁၅.၀၀"
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
+<<<<<<< HEAD
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra fee\n"
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
+=======
+"%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra "
+"fee\n"
+"Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
+"(total_amount)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
+<<<<<<< HEAD
 "%(item_name)s: end date (%(end_date)s) should be after start date "
 "(%(start_date)s)"
+=======
+"%(item_name)s: end date (%(end_date)s) should be after start date (%"
+"(start_date)s)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -247,14 +264,26 @@ msgstr ""
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_product.py:0
+<<<<<<< HEAD
 msgid "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
+=======
+msgid ""
+"- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__create_variant
 msgid ""
+<<<<<<< HEAD
 "- Instantly: All possible variants are created as soon as the attribute and its values are added to a product.\n"
 "        - Dynamically: Each variant is created only when its corresponding attributes and values are added to a sales order.\n"
+=======
+"- Instantly: All possible variants are created as soon as the attribute and "
+"its values are added to a product.\n"
+"        - Dynamically: Each variant is created only when its corresponding "
+"attributes and values are added to a sales order.\n"
+>>>>>>> upstream/18.0
 "        - Never: Variants are never created for the attribute.\n"
 "        Note: this cannot be changed once the attribute is used on a product."
 msgstr ""
@@ -328,7 +357,13 @@ msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Currency\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" "
+"title=\"Currency\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -337,7 +372,12 @@ msgid ""
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                            Rules\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                        <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Rule\n"
 "                                        </span>"
 msgstr ""
@@ -348,7 +388,12 @@ msgid ""
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                        Pricelists\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Pricelist\n"
 "                                    </span>"
 msgstr ""
@@ -433,8 +478,13 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_product__description_sale
 #: model:ir.model.fields,help:product.field_product_template__description_sale
 msgid ""
+<<<<<<< HEAD
 "A description of the Product that you want to communicate to your customers."
 " This description will be copied to every Sales Order, Delivery Order and "
+=======
+"A description of the Product that you want to communicate to your customers. "
+"This description will be copied to every Sales Order, Delivery Order and "
+>>>>>>> upstream/18.0
 "Customer Invoice/Credit Note"
 msgstr ""
 
@@ -447,8 +497,24 @@ msgstr ""
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
 msgid ""
+<<<<<<< HEAD
 "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "            This is the perfect tool to handle several pricings, seasonal discounts, etc."
+=======
+"A price is a set of sales prices or rules to compute the price of sales "
+"order lines based on products, product categories, dates and ordered "
+"quantities.\n"
+"            This is the perfect tool to handle several pricings, seasonal "
+"discounts, etc."
+msgstr ""
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid ""
+"A pricelist item with \"Other Pricelist\" as base must have a "
+"base_pricelist_id."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -661,7 +727,11 @@ msgid "Aluminium"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အလူမီနီယမ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အလူမီနီယမ်"
 >>>>>>> upstream/18.0
@@ -787,7 +857,11 @@ msgid "Attribute"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဝိသေသ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဝိသေသ"
 >>>>>>> upstream/18.0
@@ -911,7 +985,11 @@ msgid "Attributes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဝိသေသများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဝိသေသများ"
 >>>>>>> upstream/18.0
@@ -998,7 +1076,11 @@ msgid "Attributes & Variants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဝိသေသများ နှင့် မျိုးကွဲတန်ဖိုးများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဝိသေသများ နှင့် မျိုးကွဲတန်ဖိုးများ"
 >>>>>>> upstream/18.0
@@ -1132,7 +1214,11 @@ msgid "Black"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အမဲ"
+>>>>>>> upstream/18.0
 =======
 msgstr "အမဲ"
 >>>>>>> upstream/18.0
@@ -1318,7 +1404,11 @@ msgid "Combo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကွန်ဘို"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကွန်ဘို"
 >>>>>>> upstream/18.0
@@ -1382,7 +1472,11 @@ msgid "Combo Choice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကွန်ဘို ရွေးစရာ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကွန်ဘို ရွေးစရာ"
 >>>>>>> upstream/18.0
@@ -1434,7 +1528,11 @@ msgid "Combo Choices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကွန်ဘို ရွေးစရာများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကွန်ဘို ရွေးစရာများ"
 >>>>>>> upstream/18.0
@@ -1553,7 +1651,11 @@ msgid "Configure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပြင်ဆင်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပြင်ဆင်"
 >>>>>>> upstream/18.0
@@ -1616,7 +1718,11 @@ msgid "Contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဆက်သွယ်ရန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဆက်သွယ်ရန်"
 >>>>>>> upstream/18.0
@@ -2010,7 +2116,11 @@ msgid "Discount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဒစ်စကောင့်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဒစ်စကောင့်"
 >>>>>>> upstream/18.0
@@ -2079,7 +2189,11 @@ msgid "Discount (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဒစ်စကောင့်(%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဒစ်စကောင့်(%)"
 >>>>>>> upstream/18.0
@@ -2175,7 +2289,11 @@ msgid "Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စာရွက်စာတမ်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "စာရွက်စာတမ်း"
 >>>>>>> upstream/18.0
@@ -2196,7 +2314,11 @@ msgid "Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စာရွက်စာတမ်း(များ)"
+>>>>>>> upstream/18.0
 =======
 msgstr "စာရွက်စာတမ်း(များ)"
 >>>>>>> upstream/18.0
@@ -2269,7 +2391,11 @@ msgid "Duration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကြာချိန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကြာချိန်"
 >>>>>>> upstream/18.0
@@ -2391,7 +2517,11 @@ msgid "End Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဆုံးရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဆုံးရက်"
 >>>>>>> upstream/18.0
@@ -2528,7 +2658,11 @@ msgid "Extra Info"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အခြား အချက်အလက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အခြား အချက်အလက်"
 >>>>>>> upstream/18.0
@@ -2592,8 +2726,13 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__price_extra
 msgid ""
+<<<<<<< HEAD
 "Extra price for the variant with this attribute value on sale price. eg. 200"
 " price extra, 1000 + 200 = 1200."
+=======
+"Extra price for the variant with this attribute value on sale price. eg. 200 "
+"price extra, 1000 + 200 = 1200."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -2665,7 +2804,12 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__min_quantity
 msgid ""
+<<<<<<< HEAD
 "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
+=======
+"For the rule to apply, bought/sold quantity must be greater than or equal to "
+"the minimum quantity specified in this field.\n"
+>>>>>>> upstream/18.0
 "Expressed in the default unit of measure of the product."
 msgstr ""
 
@@ -2675,7 +2819,11 @@ msgid "Format"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဖော်မက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဖော်မက်"
 >>>>>>> upstream/18.0
@@ -2758,7 +2906,11 @@ msgid "Goods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရောင်းကုန်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရောင်းကုန်များ"
 >>>>>>> upstream/18.0
@@ -2841,7 +2993,11 @@ msgid "History"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "သမိုင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "သမိုင်း"
 >>>>>>> upstream/18.0
@@ -2916,7 +3072,11 @@ msgid "Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အိုင်ကွန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အိုင်ကွန်"
 >>>>>>> upstream/18.0
@@ -3143,7 +3303,11 @@ msgid "Inventory"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပစ္စည်းစာရင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပစ္စည်းစာရင်း"
 >>>>>>> upstream/18.0
@@ -3301,7 +3465,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံးပြင်ဆင်သူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံးပြင်ဆင်သူ"
 >>>>>>> upstream/18.0
@@ -3415,7 +3583,11 @@ msgid "Legs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ခြေထောက်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ခြေထောက်များ"
 >>>>>>> upstream/18.0
@@ -3465,7 +3637,11 @@ msgid "Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လိုင်းများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "လိုင်းများ"
 >>>>>>> upstream/18.0
@@ -3534,7 +3710,11 @@ msgid "Local Delivery"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နယ်ခံ ပို့ဆောင်ရေး"
+>>>>>>> upstream/18.0
 =======
 msgstr "နယ်ခံ ပို့ဆောင်ရေး"
 >>>>>>> upstream/18.0
@@ -3593,7 +3773,11 @@ msgid "Logistics"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လော်ဂျက်စတစ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "လော်ဂျက်စတစ်"
 >>>>>>> upstream/18.0
@@ -3632,8 +3816,13 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__exclude_for
 msgid ""
+<<<<<<< HEAD
 "Make this attribute value not compatible with other values of the product or"
 " some attribute values of optional and accessory products."
+=======
+"Make this attribute value not compatible with other values of the product or "
+"some attribute values of optional and accessory products."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -3666,7 +3855,11 @@ msgid "Margins"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မာဂျင်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "မာဂျင်များ"
 >>>>>>> upstream/18.0
@@ -3745,7 +3938,11 @@ msgid "Max. Margin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အများဆုံး မာဂျင်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အများဆုံး မာဂျင်"
 >>>>>>> upstream/18.0
@@ -3818,7 +4015,11 @@ msgid "Max. Price Margin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အများဆုံး မာဂျင်တန်ဖိုး"
+>>>>>>> upstream/18.0
 =======
 msgstr "အများဆုံး မာဂျင်တန်ဖိုး"
 >>>>>>> upstream/18.0
@@ -3883,7 +4084,11 @@ msgid "Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မက်ဆေ့ဂျ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "မက်ဆေ့ဂျ်"
 >>>>>>> upstream/18.0
@@ -3935,7 +4140,11 @@ msgid "Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မက်ဆေ့ဂျ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "မက်ဆေ့ဂျ်များ"
 >>>>>>> upstream/18.0
@@ -3994,7 +4203,11 @@ msgid "Min. Margin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အနည်းဆုံး မာဂျင်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အနည်းဆုံး မာဂျင်"
 >>>>>>> upstream/18.0
@@ -4067,7 +4280,11 @@ msgid "Min. Price Margin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အနည်းဆုံး မာဂျင်တန်ဖိုး"
+>>>>>>> upstream/18.0
 =======
 msgstr "အနည်းဆုံး မာဂျင်တန်ဖိုး"
 >>>>>>> upstream/18.0
@@ -4275,7 +4492,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အယ်ရာ အရေအတွက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အယ်ရာ အရေအတွက်"
 >>>>>>> upstream/18.0
@@ -4355,16 +4576,26 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "On the product %(product)s you cannot associate the value %(value)s with the"
 " attribute %(attribute)s because they do not match."
+=======
+"On the product %(product)s you cannot associate the value %(value)s with the "
+"attribute %(attribute)s because they do not match."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "On the product %(product)s you cannot transform the attribute "
 "%(attribute_src)s into the attribute %(attribute_dest)s."
+=======
+"On the product %(product)s you cannot transform the attribute %"
+"(attribute_src)s into the attribute %(attribute_dest)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -4514,7 +4745,11 @@ msgid "Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စျေးနှုန်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "စျေးနှုန်း"
 >>>>>>> upstream/18.0
@@ -4618,7 +4853,11 @@ msgid "Pricelist"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပစ္စည်းစျေးနှုန်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပစ္စည်းစျေးနှုန်း"
 >>>>>>> upstream/18.0
@@ -4676,7 +4915,11 @@ msgid "Pricelists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပစ္စည်းစျေးနှုန်းများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပစ္စည်းစျေးနှုန်းများ"
 >>>>>>> upstream/18.0
@@ -4711,7 +4954,11 @@ msgid "Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပရင့်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပရင့်"
 >>>>>>> upstream/18.0
@@ -4818,7 +5065,11 @@ msgid "Product Categories"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကုန်ပစ္စည်း Category များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကုန်ပစ္စည်း Category များ"
 >>>>>>> upstream/18.0
@@ -4841,7 +5092,11 @@ msgid "Product Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကုန်ပစ္စည်း Category"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကုန်ပစ္စည်း Category"
 >>>>>>> upstream/18.0
@@ -4936,7 +5191,11 @@ msgid "Product Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပစ္စည်းအမည်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပစ္စည်းအမည်"
 >>>>>>> upstream/18.0
@@ -5001,7 +5260,11 @@ msgid "Product Tag"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပစ္စည်း တက်ဂ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပစ္စည်း တက်ဂ်"
 >>>>>>> upstream/18.0
@@ -5083,7 +5346,11 @@ msgid "Product Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပစ္စည်း တက်ဂ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပစ္စည်း တက်ဂ်များ"
 >>>>>>> upstream/18.0
@@ -5201,7 +5468,11 @@ msgid "Product Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပစ္စည်းအမျိုးအစား"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပစ္စည်းအမျိုးအစား"
 >>>>>>> upstream/18.0
@@ -5353,7 +5624,11 @@ msgid "Purchase Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အဝယ်ဖော်ပြချက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အဝယ်ဖော်ပြချက်"
 >>>>>>> upstream/18.0
@@ -5423,7 +5698,11 @@ msgid "Purchase Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အဝယ် ယူနစ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အဝယ် ယူနစ်"
 >>>>>>> upstream/18.0
@@ -5530,7 +5809,11 @@ msgid "Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မှီငြမ်းချက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "မှီငြမ်းချက်"
 >>>>>>> upstream/18.0
@@ -5562,8 +5845,13 @@ msgstr "မှီငြမ်းချက်"
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
 msgid ""
+<<<<<<< HEAD
 "Register the prices requested by your vendors for each product, based on the"
 " quantity and the period."
+=======
+"Register the prices requested by your vendors for each product, based on the "
+"quantity and the period."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -5588,7 +5876,11 @@ msgid "Remove"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဖယ်ရှား"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဖယ်ရှား"
 >>>>>>> upstream/18.0
@@ -5639,7 +5931,11 @@ msgid "Responsible User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန်ရှိသူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန်ရှိသူ"
 >>>>>>> upstream/18.0
@@ -5845,7 +6141,11 @@ msgid "Start Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "စရက်"
 >>>>>>> upstream/18.0
@@ -5954,7 +6254,11 @@ msgid "Steel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စတီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "စတီး"
 >>>>>>> upstream/18.0
@@ -6039,7 +6343,11 @@ msgid "Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တက်ဂ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တက်ဂ်များ"
 >>>>>>> upstream/18.0
@@ -6157,8 +6465,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The attribute %(attribute)s must have at least one value for the product "
 "%(product)s."
+=======
+"The attribute %(attribute)s must have at least one value for the product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -6214,8 +6527,13 @@ msgstr ""
 msgid ""
 "The minimum price among the products in this combo. This value will be used "
 "to prorate the price of this combo with respect to the other combos in a "
+<<<<<<< HEAD
 "combo product. This heuristic ensures that whatever product the user chooses"
 " in a combo, it will always be the same price."
+=======
+"combo product. This heuristic ensures that whatever product the user chooses "
+"in a combo, it will always be the same price."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -6229,8 +6547,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
+<<<<<<< HEAD
 "The number of variants to generate is above allowed limit. You should either"
 " not generate variants for each combination or generate them on demand from "
+=======
+"The number of variants to generate is above allowed limit. You should either "
+"not generate variants for each combination or generate them on demand from "
+>>>>>>> upstream/18.0
 "the sales order. To do so, open the form view of attributes and change the "
 "mode of *Create Variants*."
 msgstr ""
@@ -6264,8 +6587,13 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_combo_item__lst_price
 #: model:ir.model.fields,help:product.field_product_product__lst_price
 msgid ""
+<<<<<<< HEAD
 "The sale price is managed from the product template. Click on the 'Configure"
 " Variants' button to set the extra attribute prices."
+=======
+"The sale price is managed from the product template. Click on the 'Configure "
+"Variants' button to set the extra attribute prices."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -6337,7 +6665,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 "This rounding precision is higher than the Decimal Accuracy (%(digits)s digits).\n"
+=======
+"This rounding precision is higher than the Decimal Accuracy (%(digits)s "
+"digits).\n"
+>>>>>>> upstream/18.0
 "This may cause inconsistencies in computations.\n"
 "Please set a precision between %(min_precision)s and 1."
 msgstr ""
@@ -6393,7 +6726,11 @@ msgid "Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အမျိုးအစား"
+>>>>>>> upstream/18.0
 =======
 msgstr "အမျိုးအစား"
 >>>>>>> upstream/18.0
@@ -6526,7 +6863,11 @@ msgid "Units"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ယူနစ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ယူနစ်"
 >>>>>>> upstream/18.0
@@ -6608,7 +6949,11 @@ msgid "Units of Measure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တိုင်းတာသည့် ယူနစ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တိုင်းတာသည့် ယူနစ်များ"
 >>>>>>> upstream/18.0
@@ -6707,7 +7052,11 @@ msgid "Upload"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အပ်လုဒ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အပ်လုဒ်"
 >>>>>>> upstream/18.0
@@ -6810,7 +7159,12 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_template__standard_price
 msgid ""
 "Value of the product (automatically computed in AVCO).\n"
+<<<<<<< HEAD
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
+=======
+"        Used to value the product when the purchase cost is not known (e.g. "
+"inventory adjustment).\n"
+>>>>>>> upstream/18.0
 "        Used to compute margins on sale orders."
 msgstr ""
 
@@ -6946,7 +7300,11 @@ msgid "Vendor Product Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရောင်းသူ့ ပစ္စည်းကုဒ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရောင်းသူ့ ပစ္စည်းကုဒ်"
 >>>>>>> upstream/18.0
@@ -7015,7 +7373,11 @@ msgid "Vendor Product Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရောင်းသူ့ ပစ္စည်းအမည်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရောင်းသူ့ ပစ္စည်းအမည်"
 >>>>>>> upstream/18.0
@@ -7107,7 +7469,11 @@ msgid "Voice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အသံ"
+>>>>>>> upstream/18.0
 =======
 msgstr "အသံ"
 >>>>>>> upstream/18.0
@@ -7191,8 +7557,13 @@ msgstr "သတိပေးချက်များ"
 #. module: product
 #: model_terms:product.template,website_description:product.product_product_4_product_template
 msgid ""
+<<<<<<< HEAD
 "We pay special attention to detail, which is why our desks are of a superior"
 " quality."
+=======
+"We pay special attention to detail, which is why our desks are of a superior "
+"quality."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -7238,7 +7609,11 @@ msgid "White"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အဖြူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "အဖြူ"
 >>>>>>> upstream/18.0
@@ -7331,7 +7706,11 @@ msgid "Wood"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "သစ်သား"
+>>>>>>> upstream/18.0
 =======
 msgstr "သစ်သား"
 >>>>>>> upstream/18.0
@@ -7433,7 +7812,12 @@ msgid ""
 "You are setting a Decimal Accuracy less precise than the UOMs:\n"
 "%s\n"
 "This may cause inconsistencies in computations.\n"
+<<<<<<< HEAD
 "Please increase the rounding of those units of measure, or the digits of this Decimal Accuracy."
+=======
+"Please increase the rounding of those units of measure, or the digits of "
+"this Decimal Accuracy."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -7493,7 +7877,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s because it is used on the following products:\n"
+=======
+"You cannot change the Variants Creation Mode of the attribute %(attribute)s "
+"because it is used on the following products:\n"
+>>>>>>> upstream/18.0
 "%(products)s"
 msgstr ""
 
@@ -7501,24 +7890,39 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the attribute of the value %(value)s because it is used on"
 " the following products: %(products)s"
+=======
+"You cannot change the attribute of the value %(value)s because it is used on "
+"the following products: %(products)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the product of the value %(value)s set on product "
 "%(product)s."
+=======
+"You cannot change the product of the value %(value)s set on product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the value of the value %(value)s set on product "
 "%(product)s."
+=======
+"You cannot change the value of the value %(value)s set on product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -7555,7 +7959,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete the attribute %(attribute)s because it is used on the following products:\n"
+=======
+"You cannot delete the attribute %(attribute)s because it is used on the "
+"following products:\n"
+>>>>>>> upstream/18.0
 "%(products)s"
 msgstr ""
 
@@ -7563,7 +7972,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete the value %(value)s because it is used on the following products:\n"
+=======
+"You cannot delete the value %(value)s because it is used on the following "
+"products:\n"
+>>>>>>> upstream/18.0
 "%(products)s\n"
 msgstr ""
 
@@ -7578,8 +7992,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot move the attribute %(attribute)s from the product %(product_src)s"
 " to the product %(product_dest)s."
+=======
+"You cannot move the attribute %(attribute)s from the product %(product_src)s "
+"to the product %(product_dest)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -7595,7 +8014,12 @@ msgstr ""
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
+<<<<<<< HEAD
 "                            whether it's a storable product, a consumable or a service."
+=======
+"                            whether it's a storable product, a consumable or "
+"a service."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -7611,17 +8035,34 @@ msgstr ""
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "                whether it's a storable product, a consumable or a service.\n"
+<<<<<<< HEAD
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
+=======
+"                The product form contains information to simplify the sale "
+"process:\n"
+"                price, notes in the quotation, accounting data, procurement "
+"methods, etc."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action_sell
 msgid ""
+<<<<<<< HEAD
 "You must define a product for everything you sell, whether it's a physical product,\n"
 "                a consumable or a service you offer to customers.\n"
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
+=======
+"You must define a product for everything you sell, whether it's a physical "
+"product,\n"
+"                a consumable or a service you offer to customers.\n"
+"                The product form contains information to simplify the sale "
+"process:\n"
+"                price, notes in the quotation, accounting data, procurement "
+"methods, etc."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -7670,7 +8111,11 @@ msgid "days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရက်"
 >>>>>>> upstream/18.0

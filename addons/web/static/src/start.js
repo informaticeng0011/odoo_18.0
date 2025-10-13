@@ -7,7 +7,10 @@ import { Component, whenReady } from "@odoo/owl";
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 // Chrome iOS wraps some text nodes (like measures, email...)
@@ -19,6 +22,9 @@ chromeMetaTag.setAttribute("content", "nointentdetection");
 document.head.appendChild(chromeMetaTag);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

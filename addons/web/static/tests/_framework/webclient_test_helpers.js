@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { animationFrame } from "@odoo/hoot-mock";
+=======
+import { animationFrame } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame } from "@odoo/hoot";
 >>>>>>> upstream/18.0

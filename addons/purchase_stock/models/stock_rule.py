@@ -166,8 +166,11 @@ class StockRule(models.Model):
         seller = 'supplierinfo' in values and values['supplierinfo'] or product.with_company(buy_rule.company_id)._select_seller(quantity=None)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not buy_rule or not seller:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if not buy_rule:
@@ -178,6 +181,9 @@ class StockRule(models.Model):
             if not bypass_delay_description:
                 delay_description.append((_('No Vendor Found'), _('+ %s day(s)', 365)))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -420,7 +426,10 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -660,6 +669,9 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -3,6 +3,10 @@ import * as Dialog from "@point_of_sale/../tests/tours/utils/dialog_util";
 import * as NumberPopup from "@point_of_sale/../tests/tours/utils/number_popup_util";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { negate } from "@point_of_sale/../tests/tours/utils/common";
+>>>>>>> upstream/18.0
 =======
 import { negate } from "@point_of_sale/../tests/tours/utils/common";
 >>>>>>> upstream/18.0
@@ -38,7 +42,10 @@ export function loginScreenIsShown() {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 export function loginScreenIsNotShown() {
@@ -50,6 +57,9 @@ export function loginScreenIsNotShown() {
     ];
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -74,6 +84,7 @@ export function login(name, pin) {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return res.concat([
         ...NumberPopup.enterValue(pin),
         ...NumberPopup.isShown("••••"),
@@ -82,11 +93,16 @@ export function login(name, pin) {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     return res.concat(enterPin(pin));
 }
 export function enterPin(pin) {
     return [...NumberPopup.enterValue(pin), ...NumberPopup.isShown("••••"), Dialog.confirm()];
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -154,6 +170,10 @@ export function refreshPage() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

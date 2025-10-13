@@ -4,6 +4,10 @@ import logging
 import pprint
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from functools import partial, wraps
+>>>>>>> upstream/18.0
 =======
 from functools import partial, wraps
 >>>>>>> upstream/18.0
@@ -22,7 +26,10 @@ _logger = logging.getLogger(__name__)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 def post_commit(func):
@@ -38,6 +45,9 @@ def post_commit(func):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -103,7 +113,11 @@ class SaleOrder(models.Model):
         payload = {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'orderType': 'order',
+=======
+            'orderType': 'draft',  # The order is confirmed/deleted later, see @post_commit hooks.
+>>>>>>> upstream/18.0
 =======
             'orderType': 'draft',  # The order is confirmed/deleted later, see @post_commit hooks.
 >>>>>>> upstream/18.0
@@ -122,7 +136,10 @@ class SaleOrder(models.Model):
             data = utils.make_request(api_key, 'order', 'v4', 'orders', payload=payload)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -131,6 +148,9 @@ class SaleOrder(models.Model):
             self.env.cr.postcommit.add(partial(self._confirm_order_on_gelato, data['id']))
             self.env.cr.postrollback.add(partial(self._delete_order_on_gelato, data['id']))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -169,7 +189,10 @@ class SaleOrder(models.Model):
         return items_payload
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -239,6 +262,9 @@ class SaleOrder(models.Model):
                 gelato_order_id, pprint.pformat(data),
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

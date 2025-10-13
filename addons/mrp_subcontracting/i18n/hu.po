@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* mrp_subcontracting
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
 # krnkris, 2024
@@ -39,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Pammer József, 2025
 >>>>>>> upstream/18.0
@@ -133,10 +138,15 @@
 # Pammer József, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Pammer József, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -269,6 +279,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: hu\n"
+=======
+"POT-Creation-Date: 2025-10-11 02:17+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Pammer József, 2025\n"
+"Language-Team: Hungarian (https://app.transifex.com/odoo/teams/41243/hu/)\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: mrp_subcontracting
@@ -451,7 +471,11 @@ msgid "Hide"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elrejt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elrejt"
 >>>>>>> upstream/18.0
@@ -577,8 +601,13 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model:ir.model.fields,help:mrp_subcontracting.field_mrp_production__bom_product_ids
 msgid ""
+<<<<<<< HEAD
 "List of Products used in the BoM, used to filter the list of products in the"
 " subcontracting portal view"
+=======
+"List of Products used in the BoM, used to filter the list of products in the "
+"subcontracting portal view"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp_subcontracting
@@ -909,8 +938,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp_subcontracting/models/stock_picking.py:0
 msgid ""
+<<<<<<< HEAD
 "There shouldn't be multiple productions to record for the same subcontracted"
 " move."
+=======
+"There shouldn't be multiple productions to record for the same subcontracted "
+"move."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp_subcontracting
@@ -957,6 +991,15 @@ msgstr ""
 
 #. module: mrp_subcontracting
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/mrp_subcontracting/models/mrp_unbuild.py:0
+msgid "You can't unbuild a subcontracted Manufacturing Order."
+msgstr ""
+
+#. module: mrp_subcontracting
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/mrp_subcontracting/models/stock_location.py:0
 msgid "You cannot alter the company's subcontracting location"
 msgstr ""

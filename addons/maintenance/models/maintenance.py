@@ -108,7 +108,11 @@ class MaintenanceMixin(models.AbstractModel):
             maintenance_requests = record.maintenance_ids.filtered(lambda mr: mr.maintenance_type == 'corrective' and mr.stage_id.done)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             record.mttr = len(maintenance_requests) and (sum(int((request.close_date - request.request_date).days) for request in maintenance_requests) / len(maintenance_requests)) or 0
+=======
+            record.mttr = len(maintenance_requests) and (sum(int((request.close_date - request.request_date).days) if request.close_date and request.request_date else 0 for request in maintenance_requests) / len(maintenance_requests)) or 0
+>>>>>>> upstream/18.0
 =======
             record.mttr = len(maintenance_requests) and (sum(int((request.close_date - request.request_date).days) if request.close_date and request.request_date else 0 for request in maintenance_requests) / len(maintenance_requests)) or 0
 >>>>>>> upstream/18.0

@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_attendance
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Daniel Osser <danielosser@gmail.com>, 2024
 # Chrille Hedberg <hedberg.chrille@gmail.com>, 2024
@@ -69,6 +73,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
 =======
@@ -284,10 +289,16 @@
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
+# Wil Odoo, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -614,6 +625,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: sv\n"
+=======
+"POT-Creation-Date: 2025-10-11 02:16+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: hr_attendance
@@ -636,7 +657,13 @@ msgstr "'Dokumentation'"
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-calendar me-1\" aria-label=\"Period\" role=\"img\" title=\"Period\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-calendar me-1\" aria-label=\"Period\" role=\"img\" "
+"title=\"Period\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-calendar me-1\" aria-label=\"Period\" role=\"img\" "
 "title=\"Period\"/>"
@@ -658,10 +685,19 @@ msgstr ""
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_employees_view_kanban
 msgid ""
+<<<<<<< HEAD
 "<span class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Not available\" title=\"Not available\">\n"
 "                                    </span>"
 msgstr ""
 "<span class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Ej tillgänglig\" title=\"Ej tillgänglig\">\n"
+=======
+"<span class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Not "
+"available\" title=\"Not available\">\n"
+"                                    </span>"
+msgstr ""
+"<span class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Ej "
+"tillgänglig\" title=\"Ej tillgänglig\">\n"
+>>>>>>> upstream/18.0
 "                                    </span>"
 
 #. module: hr_attendance
@@ -744,10 +780,19 @@ msgstr "Aktiva medarbetare"
 #. module: hr_attendance
 #: model_terms:ir.actions.act_window,help:hr_attendance.hr_employee_attendance_action_kanban
 msgid ""
+<<<<<<< HEAD
 "Add a few employees to be able to select an employee here and perform his check in / check out.\n"
 "                To create employees go to the Employees menu."
 msgstr ""
 "Lägg till några anställda för att kunna välja en anställd här och utföra hans incheckning / utcheckning.\n"
+=======
+"Add a few employees to be able to select an employee here and perform his "
+"check in / check out.\n"
+"                To create employees go to the Employees menu."
+msgstr ""
+"Lägg till några anställda för att kunna välja en anställd här och utföra "
+"hans incheckning / utcheckning.\n"
+>>>>>>> upstream/18.0
 "                För att skapa anställda, gå till menyn Anställda."
 
 #. module: hr_attendance
@@ -792,8 +837,13 @@ msgid ""
 "Allow a period of time (around working hours) where extra time will not be "
 "deducted, in benefit of the employee"
 msgstr ""
+<<<<<<< HEAD
 "Tillåt en tidsperiod (runt arbetstid) där extra tid inte kommer att dras av,"
 " till förmån för den anställde"
+=======
+"Tillåt en tidsperiod (runt arbetstid) där extra tid inte kommer att dras av, "
+"till förmån för den anställde"
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_user_view_form
@@ -1022,10 +1072,16 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "additional tolerance."
 msgstr ""
 "Checka ut anställda automatiskt baserat på deras arbetsschema med en extra "
 "tolerans."
+=======
+"additional tolerance. Does not apply to employees with a flexible working "
+"schedule."
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 "additional tolerance. Does not apply to employees with a flexible working "
 "schedule."
@@ -1608,12 +1664,17 @@ msgid "Define the way the user will be identified by the application."
 msgstr "Definiera hur användaren ska identifieras av applikationen."
 
 #. module: hr_attendance
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 msgid "Departement"
 msgstr "Avdelning"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__department_id
+=======
+#: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__department_id
+#: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
+>>>>>>> upstream/18.0
 msgid "Department"
 msgstr "Avdelning"
 
@@ -1871,6 +1932,7 @@ msgstr "Identifiera manuellt"
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "If checked, days not covered by an attendance will be visible in the Report."
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2153,6 +2215,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 " Does not apply to employees with a flexible working schedule."
+msgstr ""
+>>>>>>> upstream/18.0
+=======
+"If checked, days not covered by an attendance will be visible in the Report. "
+"Does not apply to employees with a flexible working schedule."
 msgstr ""
 >>>>>>> upstream/18.0
 
@@ -2597,6 +2664,9 @@ msgstr "RFID-pollett med läsare på surfplatta"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2761,6 +2831,9 @@ msgstr "Betyg"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3005,8 +3078,13 @@ msgid ""
 "The user will have access to his own attendances on his user / employee "
 "profile"
 msgstr ""
+<<<<<<< HEAD
 "Användaren kommer att ha tillgång till sin egen närvaro på sin "
 "användar-/medarbetarprofil"
+=======
+"Användaren kommer att ha tillgång till sin egen närvaro på sin användar-/"
+"medarbetarprofil"
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model:res.groups,comment:hr_attendance.group_hr_attendance_officer
@@ -3031,8 +3109,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_attendance/models/hr_attendance.py:0
 msgid ""
+<<<<<<< HEAD
 "This attendance was automatically created to cover an unjustified absence on"
 " that day."
+=======
+"This attendance was automatically created to cover an unjustified absence on "
+"that day."
+>>>>>>> upstream/18.0
 msgstr ""
 "Denna närvaro skapades automatiskt för att täcka en obefogad frånvaro den "
 "dagen."
@@ -3254,3 +3337,9 @@ msgstr "eller"
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
 msgid "with optional PIN code"
 msgstr "med valfri PIN-kod"
+<<<<<<< HEAD
+=======
+
+#~ msgid "Departement"
+#~ msgstr "Avdelning"
+>>>>>>> upstream/18.0

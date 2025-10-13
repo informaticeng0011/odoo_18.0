@@ -293,7 +293,10 @@ class TestProductPricelist(ProductCommon):
                     'compute_price': 'formula',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'base': 'pricelist',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

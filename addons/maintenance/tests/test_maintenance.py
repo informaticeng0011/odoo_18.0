@@ -7,6 +7,10 @@ from odoo.tests import Form
 from odoo.tests.common import tagged, TransactionCase
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import fields
+>>>>>>> upstream/18.0
 =======
 from odoo import fields
 >>>>>>> upstream/18.0
@@ -159,7 +163,10 @@ class TestEquipmentPostInstall(TestEquipmentCommon):
             self.assertEqual(form.name, equipment_name)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -196,6 +203,9 @@ class TestEquipmentPostInstall(TestEquipmentCommon):
         maintenance.close_date = False
         form = Form(equipment)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

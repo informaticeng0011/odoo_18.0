@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_attendance
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -271,10 +272,18 @@
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Abe Manyo, 2025
+# Wil Odoo, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -601,6 +610,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: id\n"
+=======
+"POT-Creation-Date: 2025-10-11 02:16+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: hr_attendance
@@ -623,7 +642,13 @@ msgstr "'Dokumentasi'"
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-calendar me-1\" aria-label=\"Period\" role=\"img\" title=\"Period\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-calendar me-1\" aria-label=\"Period\" role=\"img\" "
+"title=\"Period\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-calendar me-1\" aria-label=\"Period\" role=\"img\" "
 "title=\"Periode\"/>"
@@ -645,10 +670,19 @@ msgstr ""
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_employees_view_kanban
 msgid ""
+<<<<<<< HEAD
 "<span class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Not available\" title=\"Not available\">\n"
 "                                    </span>"
 msgstr ""
 "<span class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Not available\" title=\"Not available\">\n"
+=======
+"<span class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Not "
+"available\" title=\"Not available\">\n"
+"                                    </span>"
+msgstr ""
+"<span class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Not "
+"available\" title=\"Not available\">\n"
+>>>>>>> upstream/18.0
 "                                    </span>"
 
 #. module: hr_attendance
@@ -731,10 +765,19 @@ msgstr "Karyawan-Karyawan Aktif"
 #. module: hr_attendance
 #: model_terms:ir.actions.act_window,help:hr_attendance.hr_employee_attendance_action_kanban
 msgid ""
+<<<<<<< HEAD
 "Add a few employees to be able to select an employee here and perform his check in / check out.\n"
 "                To create employees go to the Employees menu."
 msgstr ""
 "Tambahkan beberapa karyawan agar dapat memilih karyawan di sini dan melakukan check in / check out.\n"
+=======
+"Add a few employees to be able to select an employee here and perform his "
+"check in / check out.\n"
+"                To create employees go to the Employees menu."
+msgstr ""
+"Tambahkan beberapa karyawan agar dapat memilih karyawan di sini dan "
+"melakukan check in / check out.\n"
+>>>>>>> upstream/18.0
 "                Untuk membuat karyawan pergi ke menu Karyawan."
 
 #. module: hr_attendance
@@ -1009,6 +1052,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "additional tolerance."
 msgstr ""
 "Secara Otomatis Check Out Karyawan berdasarkan jam kerja mereka dengan "
@@ -1029,6 +1073,8 @@ msgstr ""
 msgstr ""
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1191,6 +1237,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1381,8 +1430,13 @@ msgid ""
 "Cannot create new attendance record for %(empl_name)s, the employee hasn't "
 "checked out since %(datetime)s"
 msgstr ""
+<<<<<<< HEAD
 "Tidak dapat membuat data absensi baru untuk %(empl_name)s, karyawan tersebut"
 " belum absen keluar sejak  %(datetime)s"
+=======
+"Tidak dapat membuat data absensi baru untuk %(empl_name)s, karyawan tersebut "
+"belum absen keluar sejak  %(datetime)s"
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #. odoo-python
@@ -1391,8 +1445,13 @@ msgid ""
 "Cannot create new attendance record for %(empl_name)s, the employee was "
 "already checked in on %(datetime)s"
 msgstr ""
+<<<<<<< HEAD
 "Tidak dapat membuat data absensi baru untuk %(empl_name)s, karyawan tersebut"
 " telah absen masuk pada %(datetime)s"
+=======
+"Tidak dapat membuat data absensi baru untuk %(empl_name)s, karyawan tersebut "
+"telah absen masuk pada %(datetime)s"
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #. odoo-python
@@ -1598,12 +1657,17 @@ msgid "Define the way the user will be identified by the application."
 msgstr "Definisikan cara user akan diidentifikasi oleh aplikasi."
 
 #. module: hr_attendance
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 msgid "Departement"
 msgstr "Departeme"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__department_id
+=======
+#: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__department_id
+#: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
+>>>>>>> upstream/18.0
 msgid "Department"
 msgstr "Departemen"
 
@@ -1647,8 +1711,13 @@ msgstr "Tampilkan Waktu"
 msgid ""
 "Do not have access, user cannot edit the attendances that are not his own."
 msgstr ""
+<<<<<<< HEAD
 "Tidak memiliki akses, user tidak dapat mengedit absensi yang bukan merupakan"
 " miliknya sendiri."
+=======
+"Tidak memiliki akses, user tidak dapat mengedit absensi yang bukan merupakan "
+"miliknya sendiri."
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_hr_employee
@@ -1861,6 +1930,7 @@ msgstr "Identifikasi secara Manual"
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "If checked, days not covered by an attendance will be visible in the Report."
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2200,6 +2270,13 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"If checked, days not covered by an attendance will be visible in the Report. "
+"Does not apply to employees with a flexible working schedule."
+msgstr ""
+"Bila dicentang, hari-hari yang tidak dicakup oleh absensi akan muncul di "
+"Laporan. Tidak berlaku untuk karyawan dengan jadwal kerja fleksibel."
 >>>>>>> upstream/18.0
 
 #. module: hr_attendance
@@ -2645,6 +2722,7 @@ msgstr "Token RFID dengan reader pada tablet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__rating_ids
 msgid "Ratings"
 msgstr "Rating-Rating"
@@ -2657,6 +2735,8 @@ msgstr "Rating-Rating"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2818,6 +2898,9 @@ msgstr "Rating"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3079,8 +3162,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_attendance/models/hr_attendance.py:0
 msgid ""
+<<<<<<< HEAD
 "This attendance was automatically created to cover an unjustified absence on"
 " that day."
+=======
+"This attendance was automatically created to cover an unjustified absence on "
+"that day."
+>>>>>>> upstream/18.0
 msgstr ""
 "Absensi ini secara otomatis dibuat untuk memenuhi absensi yang tidak "
 "disetujui pada hari tersebut."
@@ -3300,3 +3388,9 @@ msgstr "atau"
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
 msgid "with optional PIN code"
 msgstr "dengan kode PIN opsional"
+<<<<<<< HEAD
+=======
+
+#~ msgid "Departement"
+#~ msgstr "Departeme"
+>>>>>>> upstream/18.0

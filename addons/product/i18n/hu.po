@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* product
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # 5768b353f27900ae76ad88cc42dfd5b8_3bb349f, 2024
 # f1b3a33e3b33fcf18004a5292e501f50_3500ca8 <373b677b151624c4521d9efc77b996fd_750224>, 2024
@@ -12,6 +16,7 @@
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
 # krnkris, 2024
 # Kovács Tibor <kovika@gmail.com>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,10 +615,16 @@
 # gezza <geza.nagy@oregional.hu>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Eiler Attila, 2025
+# gezza <geza.nagy@oregional.hu>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1276,6 +1287,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: hu\n"
+=======
+"POT-Creation-Date: 2025-10-11 02:17+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
+"Language-Team: Hungarian (https://app.transifex.com/odoo/teams/41243/hu/)\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: product
@@ -1349,7 +1370,11 @@ msgid "$14.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "$14.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "$14.00"
 >>>>>>> upstream/18.0
@@ -1542,7 +1567,11 @@ msgid "$15.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "$15.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "$15.00"
 >>>>>>> upstream/18.0
@@ -1689,16 +1718,28 @@ msgstr "$15.00"
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
+<<<<<<< HEAD
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra fee\n"
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
+=======
+"%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra "
+"fee\n"
+"Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
+"(total_amount)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
+<<<<<<< HEAD
 "%(item_name)s: end date (%(end_date)s) should be after start date "
 "(%(start_date)s)"
+=======
+"%(item_name)s: end date (%(end_date)s) should be after start date (%"
+"(start_date)s)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -1764,7 +1805,11 @@ msgid "%(percentage)s %% discount on sales price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(percentage)s %% értékesítési ár kedvezmény"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(percentage)s %% értékesítési ár kedvezmény"
 >>>>>>> upstream/18.0
@@ -1986,7 +2031,11 @@ msgid "+ %(amount)s extra fee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "+ %(amount)s extra díj"
+>>>>>>> upstream/18.0
 =======
 msgstr "+ %(amount)s extra díj"
 >>>>>>> upstream/18.0
@@ -2138,14 +2187,26 @@ msgstr ""
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_product.py:0
+<<<<<<< HEAD
 msgid "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
+=======
+msgid ""
+"- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__create_variant
 msgid ""
+<<<<<<< HEAD
 "- Instantly: All possible variants are created as soon as the attribute and its values are added to a product.\n"
 "        - Dynamically: Each variant is created only when its corresponding attributes and values are added to a sales order.\n"
+=======
+"- Instantly: All possible variants are created as soon as the attribute and "
+"its values are added to a product.\n"
+"        - Dynamically: Each variant is created only when its corresponding "
+"attributes and values are added to a sales order.\n"
+>>>>>>> upstream/18.0
 "        - Never: Variants are never created for the attribute.\n"
 "        Note: this cannot be changed once the attribute is used on a product."
 msgstr ""
@@ -2215,7 +2276,11 @@ msgid "10 Units"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "10 egység"
+>>>>>>> upstream/18.0
 =======
 msgstr "10 egység"
 >>>>>>> upstream/18.0
@@ -2418,7 +2483,11 @@ msgid "2 x 7 with price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2 x 7 árral"
+>>>>>>> upstream/18.0
 =======
 msgstr "2 x 7 árral"
 >>>>>>> upstream/18.0
@@ -2621,7 +2690,11 @@ msgid "4 x 12 with price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 x 12 árral"
+>>>>>>> upstream/18.0
 =======
 msgstr "4 x 12 árral"
 >>>>>>> upstream/18.0
@@ -2814,7 +2887,11 @@ msgid "4 x 7 with price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 x 7 árral"
+>>>>>>> upstream/18.0
 =======
 msgstr "4 x 7 árral"
 >>>>>>> upstream/18.0
@@ -2973,8 +3050,17 @@ msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Currency\"/>"
 msgstr "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Currency\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" "
+"title=\"Currency\"/>"
+msgstr ""
+"<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" "
+"title=\"Currency\"/>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
@@ -2982,7 +3068,12 @@ msgid ""
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                            Rules\n"
 "                                        </span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                        <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 "                                            Rule\n"
 "                                        </span>"
 msgstr ""
@@ -2993,7 +3084,12 @@ msgid ""
 "<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
 "                                        Pricelists\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 "                                        Pricelist\n"
 "                                    </span>"
 msgstr ""
@@ -3053,7 +3149,11 @@ msgid "<span class=\"o_stat_text\">Products</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Termékek</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Termékek</span>"
 >>>>>>> upstream/18.0
@@ -3233,8 +3333,15 @@ msgid ""
 "                        to the loss of their possible customizations."
 msgstr ""
 "<strong>Vigyázat</strong>: tulajdonság törlése vagy hozzáadása\n"
+<<<<<<< HEAD
 "                         törli és újra létrehozza a meglévő változatokat, emiatt \n"
 "                        elvesznek a változatokhoz kapcsolódó testreszabások is."
+=======
+"                         törli és újra létrehozza a meglévő változatokat, "
+"emiatt \n"
+"                        elvesznek a változatokhoz kapcsolódó testreszabások "
+"is."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_packaging_barcode_uniq
@@ -3269,12 +3376,21 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_product__description_sale
 #: model:ir.model.fields,help:product.field_product_template__description_sale
 msgid ""
+<<<<<<< HEAD
 "A description of the Product that you want to communicate to your customers."
 " This description will be copied to every Sales Order, Delivery Order and "
 "Customer Invoice/Credit Note"
 msgstr ""
 "A termék leírása, mely kommunikálásra kerül a vevők felé.  Ez a leírás kerül"
 " átmásolásra minden egyes vevői rendelésre, szállítási rendelésre és vevői "
+=======
+"A description of the Product that you want to communicate to your customers. "
+"This description will be copied to every Sales Order, Delivery Order and "
+"Customer Invoice/Credit Note"
+msgstr ""
+"A termék leírása, mely kommunikálásra kerül a vevők felé.  Ez a leírás kerül "
+"átmásolásra minden egyes vevői rendelésre, szállítási rendelésre és vevői "
+>>>>>>> upstream/18.0
 "számlára/jóváírásra."
 
 #. module: product
@@ -3286,8 +3402,24 @@ msgstr ""
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
 msgid ""
+<<<<<<< HEAD
 "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "            This is the perfect tool to handle several pricings, seasonal discounts, etc."
+=======
+"A price is a set of sales prices or rules to compute the price of sales "
+"order lines based on products, product categories, dates and ordered "
+"quantities.\n"
+"            This is the perfect tool to handle several pricings, seasonal "
+"discounts, etc."
+msgstr ""
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid ""
+"A pricelist item with \"Other Pricelist\" as base must have a "
+"base_pricelist_id."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -3357,7 +3489,11 @@ msgid "Acme Widget"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acme Widget"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acme Widget"
 >>>>>>> upstream/18.0
@@ -3623,7 +3759,11 @@ msgid "Add Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termékek hozzáadása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termékek hozzáadása"
 >>>>>>> upstream/18.0
@@ -3823,7 +3963,11 @@ msgid "Add a quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mennyiség hozzáadása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mennyiség hozzáadása"
 >>>>>>> upstream/18.0
@@ -4035,7 +4179,11 @@ msgid "Add to products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termékekhez adás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termékekhez adás"
 >>>>>>> upstream/18.0
@@ -4289,10 +4437,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
@@ -4704,7 +4857,11 @@ msgid "All categories"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Minden kategória"
+>>>>>>> upstream/18.0
 =======
 msgstr "Minden kategória"
 >>>>>>> upstream/18.0
@@ -4897,7 +5054,11 @@ msgid "All countries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Minden ország"
+>>>>>>> upstream/18.0
 =======
 msgstr "Minden ország"
 >>>>>>> upstream/18.0
@@ -5096,7 +5257,11 @@ msgid "All products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Minden termék"
+>>>>>>> upstream/18.0
 =======
 msgstr "Minden termék"
 >>>>>>> upstream/18.0
@@ -5290,7 +5455,11 @@ msgid "All variants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Minden változat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Minden változat"
 >>>>>>> upstream/18.0
@@ -5571,7 +5740,11 @@ msgid "Attribute Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tulajdonság sor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tulajdonság sor"
 >>>>>>> upstream/18.0
@@ -5801,7 +5974,11 @@ msgid "Back to Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vissza a rendeléshez"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vissza a rendeléshez"
 >>>>>>> upstream/18.0
@@ -5995,7 +6172,11 @@ msgid "Back to Quotation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vissza az ajánlathoz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vissza az ajánlathoz"
 >>>>>>> upstream/18.0
@@ -6241,7 +6422,11 @@ msgid "Bye-bye, record!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Viszlát, rekord!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Viszlát, rekord!"
 >>>>>>> upstream/18.0
@@ -6527,7 +6712,11 @@ msgid "Combo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombó"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kombó"
 >>>>>>> upstream/18.0
@@ -6720,7 +6909,11 @@ msgid "Combo Choice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombó választás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kombó választás"
 >>>>>>> upstream/18.0
@@ -6988,7 +7181,11 @@ msgid "Combo Choices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombó választások"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kombó választások"
 >>>>>>> upstream/18.0
@@ -7469,7 +7666,11 @@ msgid "Combo Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombó tétel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kombó tétel"
 >>>>>>> upstream/18.0
@@ -7878,7 +8079,11 @@ msgid "Combo Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombó ár"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kombó ár"
 >>>>>>> upstream/18.0
@@ -8231,7 +8436,11 @@ msgid "Create a product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termék létrehozása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termék létrehozása"
 >>>>>>> upstream/18.0
@@ -8497,7 +8706,11 @@ msgid "Create on Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Létrehozás rendeléskor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Létrehozás rendeléskor"
 >>>>>>> upstream/18.0
@@ -8991,8 +9204,13 @@ msgid ""
 "Default unit of measure used for purchase orders. It must be in the same "
 "category as the default unit of measure."
 msgstr ""
+<<<<<<< HEAD
 "Beszerzési rendelésekhez használt alapértelmezett mértékegység. Ugyanabban a"
 " mértékegység kategóriában kell lennie, mint az alapértelmezett "
+=======
+"Beszerzési rendelésekhez használt alapértelmezett mértékegység. Ugyanabban a "
+"mértékegység kategóriában kell lennie, mint az alapértelmezett "
+>>>>>>> upstream/18.0
 "mértékegységnek."
 
 #. module: product
@@ -9045,7 +9263,11 @@ msgid "Define a new tag"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Új címke létrehozása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Új címke létrehozása"
 >>>>>>> upstream/18.0
@@ -9415,7 +9637,11 @@ msgid "Download examples"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Példák letöltése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Példák letöltése"
 >>>>>>> upstream/18.0
@@ -9799,7 +10025,11 @@ msgid "Extra Options"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Extra opciók"
+>>>>>>> upstream/18.0
 =======
 msgstr "Extra opciók"
 >>>>>>> upstream/18.0
@@ -9993,7 +10223,11 @@ msgid "Extra Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Extra ár"
+>>>>>>> upstream/18.0
 =======
 msgstr "Extra ár"
 >>>>>>> upstream/18.0
@@ -10139,8 +10373,13 @@ msgstr "Extra ár"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__price_extra
 msgid ""
+<<<<<<< HEAD
 "Extra price for the variant with this attribute value on sale price. eg. 200"
 " price extra, 1000 + 200 = 1200."
+=======
+"Extra price for the variant with this attribute value on sale price. eg. 200 "
+"price extra, 1000 + 200 = 1200."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -10212,10 +10451,20 @@ msgstr "Font awesome ikon pld: fa-tasks"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__min_quantity
 msgid ""
+<<<<<<< HEAD
 "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
 "Expressed in the default unit of measure of the product."
 msgstr ""
 "A szabály alkalmazásához, a beszerzési/értékesítési mennyiségnek nagyobbnak vagy egyenlőnek kell lennie az ebben a mezőben meghatározott minimum mennyiségnél.\n"
+=======
+"For the rule to apply, bought/sold quantity must be greater than or equal to "
+"the minimum quantity specified in this field.\n"
+"Expressed in the default unit of measure of the product."
+msgstr ""
+"A szabály alkalmazásához, a beszerzési/értékesítési mennyiségnek nagyobbnak "
+"vagy egyenlőnek kell lennie az ebben a mezőben meghatározott minimum "
+"mennyiségnél.\n"
+>>>>>>> upstream/18.0
 "A termék alapértelmezett mértékegységében feltüntetve."
 
 #. module: product
@@ -10289,7 +10538,11 @@ msgid "Free text"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szabad szöveg"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szabad szöveg"
 >>>>>>> upstream/18.0
@@ -10580,6 +10833,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A termékek kézzel megfogható, anyagiasult dolgok.\n"
+"A szolgáltatásoknak nincs anyagi formája."
+>>>>>>> upstream/18.0
 =======
 "A termékek kézzel megfogható, anyagiasult dolgok.\n"
 "A szolgáltatásoknak nincs anyagi formája."
@@ -11064,8 +11322,12 @@ msgstr "Ha be van jelölve, akkor az új üzenetek figyelmet igényelnek."
 #: model:ir.model.fields,help:product.field_product_product__message_has_error
 #: model:ir.model.fields,help:product.field_product_template__message_has_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
 "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+=======
+msgstr "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__product_id
@@ -11254,7 +11516,11 @@ msgid "Invalid Operation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Érvénytelen művelet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Érvénytelen művelet"
 >>>>>>> upstream/18.0
@@ -11466,7 +11732,11 @@ msgid "Is a configurable product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurálható termék"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfigurálható termék"
 >>>>>>> upstream/18.0
@@ -11750,7 +12020,11 @@ msgid "Leather"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bőr"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bőr"
 >>>>>>> upstream/18.0
@@ -11930,8 +12204,13 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__exclude_for
 msgid ""
+<<<<<<< HEAD
 "Make this attribute value not compatible with other values of the product or"
 " some attribute values of optional and accessory products."
+=======
+"Make this attribute value not compatible with other values of the product or "
+"some attribute values of optional and accessory products."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -12041,7 +12320,11 @@ msgid "Min Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Min. menny."
+>>>>>>> upstream/18.0
 =======
 msgstr "Min. menny."
 >>>>>>> upstream/18.0
@@ -12254,7 +12537,11 @@ msgid "Monitor Stand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Monitor állvány"
+>>>>>>> upstream/18.0
 =======
 msgstr "Monitor állvány"
 >>>>>>> upstream/18.0
@@ -12542,7 +12829,11 @@ msgid "No, keep it"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nem, tartsuk meg"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nem, tartsuk meg"
 >>>>>>> upstream/18.0
@@ -12742,7 +13033,11 @@ msgid "Nothing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Semmi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Semmi"
 >>>>>>> upstream/18.0
@@ -12935,7 +13230,11 @@ msgid "Number Related Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kapcsolódó termékek száma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kapcsolódó termékek száma"
 >>>>>>> upstream/18.0
@@ -13161,7 +13460,11 @@ msgid "Number of price rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Árszabályok száma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Árszabályok száma"
 >>>>>>> upstream/18.0
@@ -13364,7 +13667,11 @@ msgid "Office Combo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iroda kombó"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iroda kombó"
 >>>>>>> upstream/18.0
@@ -13521,16 +13828,26 @@ msgstr "Irodai lámpa"
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "On the product %(product)s you cannot associate the value %(value)s with the"
 " attribute %(attribute)s because they do not match."
+=======
+"On the product %(product)s you cannot associate the value %(value)s with the "
+"attribute %(attribute)s because they do not match."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "On the product %(product)s you cannot transform the attribute "
 "%(attribute_src)s into the attribute %(attribute_dest)s."
+=======
+"On the product %(product)s you cannot transform the attribute %"
+"(attribute_src)s into the attribute %(attribute_dest)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -13594,7 +13911,11 @@ msgid "Original Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eredeti ár"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eredeti ár"
 >>>>>>> upstream/18.0
@@ -13837,7 +14158,11 @@ msgid "Plastic"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Műyanyag"
+>>>>>>> upstream/18.0
 =======
 msgstr "Műyanyag"
 >>>>>>> upstream/18.0
@@ -14112,7 +14437,11 @@ msgid "Price Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ár típus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ár típus"
 >>>>>>> upstream/18.0
@@ -14484,7 +14813,11 @@ msgid "Product Combo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termék kombó"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termék kombó"
 >>>>>>> upstream/18.0
@@ -14688,7 +15021,11 @@ msgid "Product Creation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termék létrehozás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termék létrehozás"
 >>>>>>> upstream/18.0
@@ -14891,7 +15228,11 @@ msgid "Product Label 2x7 (PDF)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termék címke 2x7 (PDF)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termék címke 2x7 (PDF)"
 >>>>>>> upstream/18.0
@@ -15084,7 +15425,11 @@ msgid "Product Label 4x12 (PDF)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termék címke 4x12 (PDF)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termék címke 4x12 (PDF)"
 >>>>>>> upstream/18.0
@@ -15277,7 +15622,11 @@ msgid "Product Label 4x12 No Price (PDF)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termék címke 4x12 ár nélkül (PDF)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termék címke 4x12 ár nélkül (PDF)"
 >>>>>>> upstream/18.0
@@ -15470,7 +15819,11 @@ msgid "Product Label 4x7 (PDF)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termék címke 4x7 (PDF)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termék címke 4x7 (PDF)"
 >>>>>>> upstream/18.0
@@ -15663,7 +16016,11 @@ msgid "Product Label Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termék címke riport"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termék címke riport"
 >>>>>>> upstream/18.0
@@ -16088,7 +16445,11 @@ msgid "Purchase Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Beszerzés egysége"
+>>>>>>> upstream/18.0
 =======
 msgstr "Beszerzés egysége"
 >>>>>>> upstream/18.0
@@ -16287,7 +16648,11 @@ msgid "Quantities (Price)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mennyiség (ár)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mennyiség (ár)"
 >>>>>>> upstream/18.0
@@ -16472,8 +16837,13 @@ msgstr "Hivatkozás"
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
 msgid ""
+<<<<<<< HEAD
 "Register the prices requested by your vendors for each product, based on the"
 " quantity and the period."
+=======
+"Register the prices requested by your vendors for each product, based on the "
+"quantity and the period."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -16670,7 +17040,11 @@ msgid "Show Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Név megjelenítése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Név megjelenítése"
 >>>>>>> upstream/18.0
@@ -16817,8 +17191,13 @@ msgstr "Név megjelenítése"
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Show all records which has next action date is before today"
 msgstr ""
+<<<<<<< HEAD
 "Az összes olyan rekord megjelenítése, melynél a következő akció dátuma a mai"
 " nap előtti"
+=======
+"Az összes olyan rekord megjelenítése, melynél a következő akció dátuma a mai "
+"nap előtti"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute,name:product.size_attribute
@@ -16873,8 +17252,12 @@ msgstr "Adja meg az alapáron felül érvényesítedő árrés maximum összegé
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_min_margin
 msgid "Specify the minimum amount of margin over the base price."
+<<<<<<< HEAD
 msgstr ""
 "Határozza meg az alapáron felül érvényesíthető minimum árkülönbözetet."
+=======
+msgstr "Határozza meg az alapáron felül érvényesíthető minimum árkülönbözetet."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__date_start
@@ -16997,7 +17380,11 @@ msgid "Template Values"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sablon értékek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sablon értékek"
 >>>>>>> upstream/18.0
@@ -17156,8 +17543,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The attribute %(attribute)s must have at least one value for the product "
 "%(product)s."
+=======
+"The attribute %(attribute)s must have at least one value for the product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -17174,8 +17566,13 @@ msgid ""
 "The default Unit of Measure and the purchase Unit of Measure must be in the "
 "same category."
 msgstr ""
+<<<<<<< HEAD
 "Az alapértelmezett mértékegységnek és a beszerzési mértékegységnek ugyanabba"
 " a kategóriába kell tartoznia."
+=======
+"Az alapértelmezett mértékegységnek és a beszerzési mértékegységnek ugyanabba "
+"a kategóriába kell tartoznia."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,description_sale:product.desk_organizer_product_template
@@ -17216,8 +17613,13 @@ msgstr ""
 msgid ""
 "The minimum price among the products in this combo. This value will be used "
 "to prorate the price of this combo with respect to the other combos in a "
+<<<<<<< HEAD
 "combo product. This heuristic ensures that whatever product the user chooses"
 " in a combo, it will always be the same price."
+=======
+"combo product. This heuristic ensures that whatever product the user chooses "
+"in a combo, it will always be the same price."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -17233,8 +17635,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
+<<<<<<< HEAD
 "The number of variants to generate is above allowed limit. You should either"
 " not generate variants for each combination or generate them on demand from "
+=======
+"The number of variants to generate is above allowed limit. You should either "
+"not generate variants for each combination or generate them on demand from "
+>>>>>>> upstream/18.0
 "the sales order. To do so, open the form view of attributes and change the "
 "mode of *Create Variants*."
 msgstr ""
@@ -17268,8 +17675,13 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_combo_item__lst_price
 #: model:ir.model.fields,help:product.field_product_product__lst_price
 msgid ""
+<<<<<<< HEAD
 "The sale price is managed from the product template. Click on the 'Configure"
 " Variants' button to set the extra attribute prices."
+=======
+"The sale price is managed from the product template. Click on the 'Configure "
+"Variants' button to set the extra attribute prices."
+>>>>>>> upstream/18.0
 msgstr ""
 "Az eladási ár a terméksablonok kerül kezelésre. Kattintson a 'Változatok "
 "konfigurálása' gombra tulajdonság felárak megadásához."
@@ -17345,7 +17757,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 "This rounding precision is higher than the Decimal Accuracy (%(digits)s digits).\n"
+=======
+"This rounding precision is higher than the Decimal Accuracy (%(digits)s "
+"digits).\n"
+>>>>>>> upstream/18.0
 "This may cause inconsistencies in computations.\n"
 "Please set a precision between %(min_precision)s and 1."
 msgstr ""
@@ -17558,7 +17975,12 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_template__standard_price
 msgid ""
 "Value of the product (automatically computed in AVCO).\n"
+<<<<<<< HEAD
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
+=======
+"        Used to value the product when the purchase cost is not known (e.g. "
+"inventory adjustment).\n"
+>>>>>>> upstream/18.0
 "        Used to compute margins on sale orders."
 msgstr ""
 
@@ -17789,7 +18211,11 @@ msgid "Visible to all"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Látható mindenkinek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Látható mindenkinek"
 >>>>>>> upstream/18.0
@@ -18079,8 +18505,13 @@ msgstr "Figyelmeztetések"
 #. module: product
 #: model_terms:product.template,website_description:product.product_product_4_product_template
 msgid ""
+<<<<<<< HEAD
 "We pay special attention to detail, which is why our desks are of a superior"
 " quality."
+=======
+"We pay special attention to detail, which is why our desks are of a superior "
+"quality."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -18145,7 +18576,12 @@ msgid ""
 "You are setting a Decimal Accuracy less precise than the UOMs:\n"
 "%s\n"
 "This may cause inconsistencies in computations.\n"
+<<<<<<< HEAD
 "Please increase the rounding of those units of measure, or the digits of this Decimal Accuracy."
+=======
+"Please increase the rounding of those units of measure, or the digits of "
+"this Decimal Accuracy."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -18209,7 +18645,12 @@ msgstr "Nem lehet megadni a fő árlistát másik árlistaként az árlista tét
 #. odoo-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s because it is used on the following products:\n"
+=======
+"You cannot change the Variants Creation Mode of the attribute %(attribute)s "
+"because it is used on the following products:\n"
+>>>>>>> upstream/18.0
 "%(products)s"
 msgstr ""
 
@@ -18217,24 +18658,39 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the attribute of the value %(value)s because it is used on"
 " the following products: %(products)s"
+=======
+"You cannot change the attribute of the value %(value)s because it is used on "
+"the following products: %(products)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the product of the value %(value)s set on product "
 "%(product)s."
+=======
+"You cannot change the product of the value %(value)s set on product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the value of the value %(value)s set on product "
 "%(product)s."
+=======
+"You cannot change the value of the value %(value)s set on product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -18250,8 +18706,13 @@ msgid ""
 "You cannot define the decimal precision of 'Account' as greater than the "
 "rounding factor of the company's main currency"
 msgstr ""
+<<<<<<< HEAD
 "Nem lehet a vállalt pénznemének kerekítési pontosságánál nagyobb 'Könyvelés'"
 " tizedes pontosságot meghatározni"
+=======
+"Nem lehet a vállalt pénznemének kerekítési pontosságánál nagyobb 'Könyvelés' "
+"tizedes pontosságot meghatározni"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -18273,7 +18734,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete the attribute %(attribute)s because it is used on the following products:\n"
+=======
+"You cannot delete the attribute %(attribute)s because it is used on the "
+"following products:\n"
+>>>>>>> upstream/18.0
 "%(products)s"
 msgstr ""
 
@@ -18281,7 +18747,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete the value %(value)s because it is used on the following products:\n"
+=======
+"You cannot delete the value %(value)s because it is used on the following "
+"products:\n"
+>>>>>>> upstream/18.0
 "%(products)s\n"
 msgstr ""
 
@@ -18296,8 +18767,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot move the attribute %(attribute)s from the product %(product_src)s"
 " to the product %(product_dest)s."
+=======
+"You cannot move the attribute %(attribute)s from the product %(product_src)s "
+"to the product %(product_dest)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -18313,7 +18789,12 @@ msgstr ""
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
+<<<<<<< HEAD
 "                            whether it's a storable product, a consumable or a service."
+=======
+"                            whether it's a storable product, a consumable or "
+"a service."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -18409,6 +18890,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Minden értékesítéshez és beszerzéshez szükséges megadni egy terméket,\n"
+"                ami lehet készletezett termék, fogyóeszköz vagy szolgáltatás."
+>>>>>>> upstream/18.0
 =======
 "Minden értékesítéshez és beszerzéshez szükséges megadni egy terméket,\n"
 "                ami lehet készletezett termék, fogyóeszköz vagy szolgáltatás."
@@ -18759,13 +19245,21 @@ msgstr ""
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "                whether it's a storable product, a consumable or a service.\n"
+<<<<<<< HEAD
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
+=======
+"                The product form contains information to simplify the sale "
+"process:\n"
+"                price, notes in the quotation, accounting data, procurement "
+"methods, etc."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action_sell
 msgid ""
+<<<<<<< HEAD
 "You must define a product for everything you sell, whether it's a physical product,\n"
 "                a consumable or a service you offer to customers.\n"
 "                The product form contains information to simplify the sale process:\n"
@@ -18775,6 +19269,23 @@ msgstr ""
 "                fogyóeszköz vagy vevőknek nyújtott szolgáltatás.\n"
 "                A termék űrlap tartalmazza az értékesítés egyszerűsítéséhez használható információkat:\n"
 "                árak, ajánlati megjegyzések, könyvelési adatok, beszerzési módszerek, stb."
+=======
+"You must define a product for everything you sell, whether it's a physical "
+"product,\n"
+"                a consumable or a service you offer to customers.\n"
+"                The product form contains information to simplify the sale "
+"process:\n"
+"                price, notes in the quotation, accounting data, procurement "
+"methods, etc."
+msgstr ""
+"Meg kell adni terméket mindenhez, amit értékesít, akkor is, ha az "
+"készletezett termék, \n"
+"                fogyóeszköz vagy vevőknek nyújtott szolgáltatás.\n"
+"                A termék űrlap tartalmazza az értékesítés egyszerűsítéséhez "
+"használható információkat:\n"
+"                árak, ajánlati megjegyzések, könyvelési adatok, beszerzési "
+"módszerek, stb."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript

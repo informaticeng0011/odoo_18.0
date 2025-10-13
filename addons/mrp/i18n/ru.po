@@ -31,8 +31,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 # 
+=======
+# * mrp
+#
+>>>>>>> upstream/18.0
 =======
 # * mrp
 #
@@ -208,6 +213,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -372,10 +378,15 @@
 # Anastasiia Koroleva, 2025
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Anastasiia Koroleva, 2025
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -740,11 +751,19 @@ msgstr ""
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/mrp/ru/>"
 "\n"
+=======
+"POT-Creation-Date: 2025-10-11 02:15+0000\n"
+"PO-Revision-Date: 2025-08-27 06:20+0000\n"
+"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
+"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/mrp/ru/"
+">\n"
+>>>>>>> upstream/18.0
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -839,20 +858,35 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__state
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__production_state
 msgid ""
 " * Draft: The MO is not confirmed yet.\n"
+<<<<<<< HEAD
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the components are trigerred.\n"
+=======
+" * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
+"components are trigerred.\n"
+>>>>>>> upstream/18.0
 " * In Progress: The production has started (on the MO or on the WO).\n"
 " * To Close: The production is done, the MO has to be closed.\n"
 " * Done: The MO is closed, the stock moves are posted. \n"
 " * Cancelled: The MO has been cancelled, can't be confirmed anymore."
 msgstr ""
 " * Проект: МО еще не подтвержден.\n"
+<<<<<<< HEAD
 " * Подтверждено: МО подтвержден, правила складирования и перераспределения компонентов согласованы.\n"
+=======
+" * Подтверждено: МО подтвержден, правила складирования и перераспределения "
+"компонентов согласованы.\n"
+>>>>>>> upstream/18.0
 " * В процессе: Производство начато (по МО или по WO).\n"
 " * Закрыть: Производство завершено, МО должен быть закрыт.\n"
 " * Готово: МО закрыто, перемещения запасов проведены.\n"
@@ -868,9 +902,14 @@ msgstr " <br/><br/> Компоненты будут взяты из <b>%s</b>."
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 " <br/><br/> The manufactured products will be moved towards "
 "<b>%(destination)s</b>, <br/> as specified from <b>%(operation)s</b> "
 "destination."
+=======
+" <br/><br/> The manufactured products will be moved towards <b>%"
+"(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -1004,6 +1043,15 @@ msgid "+ %d day(s)"
 msgstr "+ %d день(ы)"
 
 #. module: mrp
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mrp/models/stock_rule.py:0
+msgid "+ %s day(s)"
+msgstr ""
+
+#. module: mrp
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "- Overview"
 msgstr "Обзор"
@@ -1022,7 +1070,12 @@ msgstr ""
 msgid ""
 "1 Step: Consume components from stock and produce.\n"
 "              2 Steps: Pick components from stock and then produce.\n"
+<<<<<<< HEAD
 "              3 Steps: Pick components from stock, produce, and then move final product(s) from production area to stock."
+=======
+"              3 Steps: Pick components from stock, produce, and then move "
+"final product(s) from production area to stock."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -1084,18 +1137,38 @@ msgstr ""
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Пауза\" title=\"Пауза\"/>"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
 msgid "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
+msgstr ""
+"<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Пауза\" title=\"Пауза\"/>"
+
+#. module: mrp
+#: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
+msgid ""
+"<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
 msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Остановить\" title=\"Остановить\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
+msgstr ""
+"<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Остановить\" "
+"title=\"Остановить\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -1104,13 +1177,23 @@ msgid ""
 "<p class=\"o_view_nocontent_smiling_face\">\n"
 "                        Upload files to your product\n"
 "                    </p><p>\n"
+<<<<<<< HEAD
 "                        Use this feature to store any files, like drawings or specifications.\n"
+=======
+"                        Use this feature to store any files, like drawings "
+"or specifications.\n"
+>>>>>>> upstream/18.0
 "                    </p>"
 msgstr ""
 "<p class=\"o_view_nocontent_smiling_face\">\n"
 "                        Загрузить файлы к вашему продукту\n"
 "                    </p><p>\n"
+<<<<<<< HEAD
 "                        Используйте эту функцию для хранения любых файлов, например, чертежей или спецификаций.\n"
+=======
+"                        Используйте эту функцию для хранения любых файлов, "
+"например, чертежей или спецификаций.\n"
+>>>>>>> upstream/18.0
 "                    </p>"
 
 #. module: mrp
@@ -1230,12 +1313,21 @@ msgstr "<span class=\"o_stat_text\">Непостроенные</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
 msgid ""
 "<span class=\"text-muted\">Modifying the quantity to produce will also "
+<<<<<<< HEAD
 "modify the quantities of components to consume for this manufacturing "
 "order.</span>"
 msgstr ""
 "<span class=\"text-muted\">Изменение количества для производства также "
 "изменит количество компонентов, которые необходимо израсходовать для данного"
 " производственного заказа.</span>"
+=======
+"modify the quantities of components to consume for this manufacturing order."
+"</span>"
+msgstr ""
+"<span class=\"text-muted\">Изменение количества для производства также "
+"изменит количество компонентов, которые необходимо израсходовать для данного "
+"производственного заказа.</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_production_components
@@ -1404,10 +1496,19 @@ msgstr "? Это может привести к несоответствиям �
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid ""
 "A BoM of type Kit is not produced with a manufacturing order.<br/>\n"
+<<<<<<< HEAD
 "                                Instead, it is used to decompose a BoM into its components when:"
 msgstr ""
 "BoM типа Kit не производится с помощью производственного заказа.<br/>\n"
 "                                Вместо этого он используется для разложения BoM на компоненты, когда:"
+=======
+"                                Instead, it is used to decompose a BoM into "
+"its components when:"
+msgstr ""
+"BoM типа Kit не производится с помощью производственного заказа.<br/>\n"
+"                                Вместо этого он используется для разложения "
+"BoM на компоненты, когда:"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -1420,8 +1521,12 @@ msgstr "Заказ на производство уже выполнен или 
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid ""
 "A product with a kit-type bill of materials can not have a reordering rule."
+<<<<<<< HEAD
 msgstr ""
 "Продукт с комплектной спецификацией не может иметь правил восполнения."
+=======
+msgstr "Продукт с комплектной спецификацией не может иметь правил восполнения."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_rule__action
@@ -1536,11 +1641,21 @@ msgstr "Все перемещения (сырье)"
 msgid ""
 "All product quantities must be greater or equal to 0.\n"
 "Lines with 0 quantities can be used as optional lines. \n"
+<<<<<<< HEAD
 "You should install the mrp_byproduct module if you want to manage extra products on BoMs!"
 msgstr ""
 "Все количества продуктов должны быть больше или равны 0.\n"
 "Строки с количеством 0 могут использоваться как дополнительные строки.\n"
 "Вы должны установить модуль mrp_byproduct, если хотите управлять дополнительными товарами на BoMs!"
+=======
+"You should install the mrp_byproduct module if you want to manage extra "
+"products on BoMs!"
+msgstr ""
+"Все количества продуктов должны быть больше или равны 0.\n"
+"Строки с количеством 0 могут использоваться как дополнительные строки.\n"
+"Вы должны установить модуль mrp_byproduct, если хотите управлять "
+"дополнительными товарами на BoMs!"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -1775,6 +1890,7 @@ msgstr "Аватар"
 msgid ""
 "Average lead time in days to manufacture this product. In the case of multi-"
 "level BOM, the manufacturing lead times of the components will be added. In "
+<<<<<<< HEAD
 "case the product is subcontracted, this can be used to determine the date at"
 " which components should be sent to the subcontractor."
 msgstr ""
@@ -1782,6 +1898,15 @@ msgstr ""
 " BOM добавляется время изготовления компонентов. В случае если продукт "
 "поставляется на субподряд, это может быть использовано для определения даты,"
 " когда компоненты должны быть отправлены субподрядчику."
+=======
+"case the product is subcontracted, this can be used to determine the date at "
+"which components should be sent to the subcontractor."
+msgstr ""
+"Среднее время изготовления данного продукта в днях. В случае многоуровневого "
+"BOM добавляется время изготовления компонентов. В случае если продукт "
+"поставляется на субподряд, это может быть использовано для определения даты, "
+"когда компоненты должны быть отправлены субподрядчику."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -1867,11 +1992,18 @@ msgstr "Последовательность обратных заказов"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__backorder_sequence
+<<<<<<< HEAD
 msgid ""
 "Backorder sequence, if equals to 0 means there is not related backorder"
 msgstr ""
 "Последовательность обратных заказов, если она равна 0, это означает, что нет"
 " связанных обратных заказов"
+=======
+msgid "Backorder sequence, if equals to 0 means there is not related backorder"
+msgstr ""
+"Последовательность обратных заказов, если она равна 0, это означает, что нет "
+"связанных обратных заказов"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__barcode
@@ -1949,8 +2081,13 @@ msgstr "Спецификация"
 #: model:ir.model.fields,help:mrp.field_mrp_unbuild__mo_bom_id
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__production_bom_id
 msgid ""
+<<<<<<< HEAD
 "Bills of Materials, also called recipes, are used to autocomplete components"
 " and work order instructions."
+=======
+"Bills of Materials, also called recipes, are used to autocomplete components "
+"and work order instructions."
+>>>>>>> upstream/18.0
 msgstr ""
 "Накладные на материалы, также называемые рецептами, используются для "
 "автозаполнения компонентов и инструкций к рабочим заданиям."
@@ -1959,7 +2096,12 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid ""
 "Bills of materials allow you to define the list of required raw\n"
+<<<<<<< HEAD
 "                materials used to make a finished product; through a manufacturing\n"
+=======
+"                materials used to make a finished product; through a "
+"manufacturing\n"
+>>>>>>> upstream/18.0
 "                order or a pack of products."
 msgstr ""
 "Ведомости материалов определяют перечень исходных материалов,\n"
@@ -2246,8 +2388,13 @@ msgstr "Выберите тип этикеток для печати"
 #: model:ir.model,name:mrp.model_picking_label_type
 msgid "Choose whether to print product or lot/sn labels"
 msgstr ""
+<<<<<<< HEAD
 "Выберите, какие этикетки печатать: этикетки на товар или этикетки на "
 "партию/серийный номер"
+=======
+"Выберите, какие этикетки печатать: этикетки на товар или этикетки на партию/"
+"серийный номер"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__time_stop
@@ -2362,6 +2509,7 @@ msgstr "Вычисление на основе отслеженного врем
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid ""
 "Compute the days required to resupply all components from BoM, by either "
+<<<<<<< HEAD
 "buying or manufacturing the components and/or subassemblies."
 "                                                       Also note that "
 "purchase security lead times will be added when appropriate."
@@ -2369,6 +2517,15 @@ msgstr ""
 "Рассчитайте количество дней, необходимых для пополнения запасов всех "
 "компонентов из Банка Москвы путем покупки или производства компонентов и/или"
 " узлов.                                                       Также учтите, "
+=======
+"buying or manufacturing the components and/or "
+"subassemblies.                                                       Also "
+"note that purchase security lead times will be added when appropriate."
+msgstr ""
+"Рассчитайте количество дней, необходимых для пополнения запасов всех "
+"компонентов из Банка Москвы путем покупки или производства компонентов и/или "
+"узлов.                                                       Также учтите, "
+>>>>>>> upstream/18.0
 "что при необходимости будет добавлено время на обеспечение безопасности "
 "закупок."
 
@@ -2449,9 +2606,15 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
+<<<<<<< HEAD
 "Пересчет между единицами измерения может произойти только в том случае, если"
 " они принадлежат к одной и той же категории. Пересчет будет осуществляться "
 "на основе коэффициентов."
+=======
+"Пересчет между единицами измерения может произойти только в том случае, если "
+"они принадлежат к одной и той же категории. Пересчет будет осуществляться на "
+"основе коэффициентов."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_bom_tree_view
@@ -2557,8 +2720,13 @@ msgstr "Создать резервный заказ"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_backorder_form
 msgid ""
+<<<<<<< HEAD
 "Create a backorder if you expect to process the remaining products later. Do"
 " not create a backorder if you will not process the remaining products."
+=======
+"Create a backorder if you expect to process the remaining products later. Do "
+"not create a backorder if you will not process the remaining products."
+>>>>>>> upstream/18.0
 msgstr ""
 "Создайте резервный заказ, если вы планируете обработать оставшиеся продукты "
 "позже. Не создавайте резервный заказ, если вы не будете обрабатывать "
@@ -2584,11 +2752,23 @@ msgstr "Создать новое значение эффективности п
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom__days_to_prepare_mo
 msgid ""
+<<<<<<< HEAD
 "Create and confirm Manufacturing Orders this many days in advance, to have enough time to replenish components or manufacture semi-finished products.\n"
 "Note that security lead times will also be considered when appropriate."
 msgstr ""
 "Создавайте и подтверждайте производственные заказы за много дней до начала производства, чтобы иметь достаточно времени для пополнения запасов компонентов или изготовления полуфабрикатов.\n"
 "Обратите внимание, что время выполнения заказа на обеспечение безопасности также учитывается при необходимости."
+=======
+"Create and confirm Manufacturing Orders this many days in advance, to have "
+"enough time to replenish components or manufacture semi-finished products.\n"
+"Note that security lead times will also be considered when appropriate."
+msgstr ""
+"Создавайте и подтверждайте производственные заказы за много дней до начала "
+"производства, чтобы иметь достаточно времени для пополнения запасов "
+"компонентов или изготовления полуфабрикатов.\n"
+"Обратите внимание, что время выполнения заказа на обеспечение безопасности "
+"также учитывается при необходимости."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_backorder_form
@@ -2610,9 +2790,15 @@ msgid ""
 "started simultaneously."
 msgstr ""
 "Создайте зависимости на уровне операций, которые будут влиять как на "
+<<<<<<< HEAD
 "планирование, так и на статус рабочих заказов при подтверждении МО. Если эта"
 " функция отмечена, но ничего не указано, Odoo будет считать, что все "
 "операции могут быть начаты одновременно."
+=======
+"планирование, так и на статус рабочих заказов при подтверждении МО. Если эта "
+"функция отмечена, но ничего не указано, Odoo будет считать, что все операции "
+"могут быть начаты одновременно."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__created_production_id
@@ -2675,7 +2861,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -2826,7 +3016,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -2935,6 +3129,7 @@ msgstr "Валюта"
 #: model:ir.model.fields,help:mrp.field_stock_move__product_qty_available
 msgid ""
 "Current quantity of products.\n"
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -2945,6 +3140,25 @@ msgstr ""
 "В контексте с одним складом сюда входят товары, хранящиеся на складе этого склада или в любом из его дочерних объектов.\n"
 "хранятся на складе этого магазина или на любом из его дочерних складов.\n"
 "В противном случае сюда входят товары, хранящиеся в любом местоположении запаса с типом 'internal'."
+=======
+"In a context with a single Stock Location, this includes goods stored at "
+"this Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the "
+"Stock Location of this Warehouse, or any of its children.\n"
+"stored in the Stock Location of the Warehouse of this Shop, or any of its "
+"children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' "
+"type."
+msgstr ""
+"Текущее количество товаров.\n"
+"В контексте с одним Местоположением склада сюда входят товары, хранящиеся в "
+"этом Местоположении или в любом из его дочерних.\n"
+"В контексте с одним складом сюда входят товары, хранящиеся на складе этого "
+"склада или в любом из его дочерних объектов.\n"
+"хранятся на складе этого магазина или на любом из его дочерних складов.\n"
+"В противном случае сюда входят товары, хранящиеся в любом местоположении "
+"запаса с типом 'internal'."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__qty_producing
@@ -2986,8 +3200,13 @@ msgstr ""
 msgid ""
 "Date you plan to start production or date you actually started production."
 msgstr ""
+<<<<<<< HEAD
 "Дата, когда вы планируете начать производство, или дата, когда вы фактически"
 " начали производство."
+=======
+"Дата, когда вы планируете начать производство, или дата, когда вы фактически "
+"начали производство."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
@@ -3033,8 +3252,13 @@ msgstr "Время производства по умолчанию"
 msgid ""
 "Default number of pieces (in product UoM) that can be produced in parallel "
 "(at the same time) at this work center. For example: the capacity is 5 and "
+<<<<<<< HEAD
 "you need to produce 10 units, then the operation time listed on the BOM will"
 " be multiplied by two. However, note that both time before and after "
+=======
+"you need to produce 10 units, then the operation time listed on the BOM will "
+"be multiplied by two. However, note that both time before and after "
+>>>>>>> upstream/18.0
 "production will only be counted once."
 msgstr ""
 "Число по умолчанию (в изделии UoM), которое может быть произведено "
@@ -3109,6 +3333,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Задайте график работы ресурса. Если не задан, график будет полностью гибким."
+>>>>>>> upstream/18.0
 =======
 "Задайте график работы ресурса. Если не задан, график будет полностью гибким."
 >>>>>>> upstream/18.0
@@ -3245,6 +3473,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom__consumption
 msgid ""
+<<<<<<< HEAD
 "Defines if you can consume more or less components than the quantity defined on the BoM:\n"
 "  * Allowed: allowed for all manufacturing users.\n"
 "  * Allowed with warning: allowed for all manufacturing users with summary of consumption differences when closing the manufacturing order.\n"
@@ -3343,6 +3572,19 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Defines if you can consume more or less components than the quantity defined "
+"on the BoM:\n"
+"  * Allowed: allowed for all manufacturing users.\n"
+"  * Allowed with warning: allowed for all manufacturing users with summary "
+"of consumption differences when closing the manufacturing order.\n"
+"  Note that in the case of component Highlight Consumption, where "
+"consumption is registered manually exclusively, consumption warnings will "
+"still be issued when appropriate also.\n"
+"  * Blocked: only a manager can close a manufacturing order when the BoM "
+"consumption is not respected."
+msgstr ""
+>>>>>>> upstream/18.0
 "Определяет, можно ли израсходовать больше или меньше комплектующих, чем "
 "указано в спецификации:\n"
 "  * Разрешено: допускается для всех пользователей модуля Производство.\n"
@@ -3384,6 +3626,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3580,6 +3825,10 @@ msgstr "Заказ на разборку"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -4193,6 +4442,7 @@ msgstr "Прогнозный отчет"
 #: model:ir.model.fields,help:mrp.field_stock_move__product_virtual_available
 msgid ""
 "Forecast quantity (computed as Quantity On Hand - Outgoing + Incoming)\n"
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -4201,6 +4451,23 @@ msgstr ""
 "В контексте с одним местоположением склада сюда входят товары, хранящиеся в этом местоположении или в любом из его дочерних.\n"
 "В контексте с одним складом сюда входят товары, хранящиеся в складском помещении этого склада или в любом из его дочерних помещений.\n"
 "В противном случае сюда включаются товары, хранящиеся в любом местоположении запаса с типом 'внутренний'."
+=======
+"In a context with a single Stock Location, this includes goods stored in "
+"this location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the "
+"Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' "
+"type."
+msgstr ""
+"Прогнозируемое количество (рассчитывается как Количество на руках - "
+"Исходящие + Приходящие)\n"
+"В контексте с одним местоположением склада сюда входят товары, хранящиеся в "
+"этом местоположении или в любом из его дочерних.\n"
+"В контексте с одним складом сюда входят товары, хранящиеся в складском "
+"помещении этого склада или в любом из его дочерних помещений.\n"
+"В противном случае сюда включаются товары, хранящиеся в любом местоположении "
+"запаса с типом 'внутренний'."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
@@ -4282,8 +4549,13 @@ msgstr "Сгенерированная этикетка для печати ло
 #: model_terms:ir.actions.act_window,help:mrp.action_mrp_routing_time
 msgid "Get statistics about the work orders duration related to this routing."
 msgstr ""
+<<<<<<< HEAD
 "Получение статистики о продолжительности рабочих заданий, связанных с данной"
 " маршрутизацией."
+=======
+"Получение статистики о продолжительности рабочих заданий, связанных с данной "
+"маршрутизацией."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_routing_workcenter__sequence
@@ -4422,7 +4694,10 @@ msgstr "Имеет маршрутные линии"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4602,6 +4877,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4786,8 +5064,13 @@ msgstr "Значок, обозначающий исключение Дела."
 msgid ""
 "If a product variant is defined the BOM is available only for this product."
 msgstr ""
+<<<<<<< HEAD
 "Если вариант продукта определён, то доступна ведомость материалов только для"
 " этого продукта."
+=======
+"Если вариант продукта определён, то доступна ведомость материалов только для "
+"этого продукта."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom__message_needaction
@@ -4857,14 +5140,24 @@ msgid ""
 "If this checkbox is ticked, Odoo will automatically print the lot/SN label "
 "of a MO when it is done."
 msgstr ""
+<<<<<<< HEAD
 "Если этот флажок отмечен, Odoo будет автоматически печатать этикетку "
 "партии/SN MO, когда она будет выполнена."
+=======
+"Если этот флажок отмечен, Odoo будет автоматически печатать этикетку партии/"
+"SN MO, когда она будет выполнена."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_mrp_product_labels
 msgid ""
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a MO when it is done."
+=======
+"If this checkbox is ticked, Odoo will automatically print the product labels "
+"of a MO when it is done."
+>>>>>>> upstream/18.0
 msgstr ""
 "Если этот флажок отмечен, Odoo будет автоматически печатать этикетки для "
 "товаров, когда они будут завершены."
@@ -4875,8 +5168,13 @@ msgid ""
 "If this checkbox is ticked, Odoo will automatically print the production "
 "order of a MO when it is done."
 msgstr ""
+<<<<<<< HEAD
 "Если этот флажок отмечен, Odoo будет автоматически печатать производственный"
 " заказ МО, когда он будет выполнен."
+=======
+"Если этот флажок отмечен, Odoo будет автоматически печатать производственный "
+"заказ МО, когда он будет выполнен."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.exception_on_mo
@@ -4893,8 +5191,12 @@ msgstr "Импорт шаблона ведомостей материалов"
 #. odoo-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
+<<<<<<< HEAD
 "Impossible to plan the workorder. Please check the workcenter "
 "availabilities."
+=======
+"Impossible to plan the workorder. Please check the workcenter availabilities."
+>>>>>>> upstream/18.0
 msgstr ""
 "Невозможно спланировать рабочий центр. Пожалуйста, проверьте доступность "
 "рабочих центров."
@@ -4940,8 +5242,12 @@ msgid ""
 "processed at the latest to fulfill delivery on time."
 msgstr ""
 "Информативная дата, позволяющая определить, когда производственный заказ "
+<<<<<<< HEAD
 "должен быть обработан в самое позднее время, чтобы выполнить поставку в "
 "срок."
+=======
+"должен быть обработан в самое позднее время, чтобы выполнить поставку в срок."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_mrp_production_moves
@@ -4950,8 +5256,12 @@ msgstr "Перемещение товаров на Складе"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__move_line_ids
+<<<<<<< HEAD
 msgid ""
 "Inventory moves for which you must scan a lot number at this work order"
+=======
+msgid "Inventory moves for which you must scan a lot number at this work order"
+>>>>>>> upstream/18.0
 msgstr ""
 "Перемещения, для которых нужно отсканировать номер партии для этого "
 "производственного задания"
@@ -5116,7 +5426,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -5271,7 +5585,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -5436,7 +5754,12 @@ msgstr "Покинуть"
 #: model:ir.model.fields,help:mrp.field_product_document__attached_on_mrp
 msgid ""
 "Leave hidden if document only accessible on product form.\n"
+<<<<<<< HEAD
 "Select Bill of Materials to visualise this document as a product attachment when this product is in a bill of material."
+=======
+"Select Bill of Materials to visualise this document as a product attachment "
+"when this product is in a bill of material."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -5815,21 +6138,46 @@ msgstr "Дни наглядности производства"
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.mrp_workcenter_action
 msgid ""
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc."
 msgstr ""
 "Производственные операции выполняются в рабочих центрах. Рабочий центр может состоять из\n"
 "                рабочих и/или машин, они используются для расчета затрат, составления расписания, планирования мощностей и т. д."
+=======
+"Manufacturing operations are processed at Work Centers. A Work Center can be "
+"composed of\n"
+"                workers and/or machines, they are used for costing, "
+"scheduling, capacity planning, etc."
+msgstr ""
+"Производственные операции выполняются в рабочих центрах. Рабочий центр может "
+"состоять из\n"
+"                рабочих и/или машин, они используются для расчета затрат, "
+"составления расписания, планирования мощностей и т. д."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.mrp_workcenter_kanban_action
 msgid ""
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc.\n"
 "                They can be defined via the configuration menu."
 msgstr ""
 "Производственные операции выполняются в рабочих центрах. Рабочий центр может состоять из\n"
 "                рабочих и/или машин, они используются для расчета затрат, составления расписания, планирования мощностей и т. д.\n"
+=======
+"Manufacturing operations are processed at Work Centers. A Work Center can be "
+"composed of\n"
+"                workers and/or machines, they are used for costing, "
+"scheduling, capacity planning, etc.\n"
+"                They can be defined via the configuration menu."
+msgstr ""
+"Производственные операции выполняются в рабочих центрах. Рабочий центр может "
+"состоять из\n"
+"                рабочих и/или машин, они используются для расчета затрат, "
+"составления расписания, планирования мощностей и т. д.\n"
+>>>>>>> upstream/18.0
 "                Они могут быть определены через меню конфигурации."
 
 #. module: mrp
@@ -5838,9 +6186,17 @@ msgstr ""
 msgid ""
 "Manufacturing readiness for this MO, as per bill of material configuration:\n"
 "            * Ready: The material is available to start the production.\n"
+<<<<<<< HEAD
 "            * Waiting: The material is not available to start the production.\n"
 msgstr ""
 "Готовность производства для данного МО в соответствии с конфигурацией спецификации материалов:\n"
+=======
+"            * Waiting: The material is not available to start the "
+"production.\n"
+msgstr ""
+"Готовность производства для данного МО в соответствии с конфигурацией "
+"спецификации материалов:\n"
+>>>>>>> upstream/18.0
 "            * Готов: Материал доступен для начала производства.\n"
 "            * Ожидание: Материал недоступен для начала производства.\n"
 
@@ -6023,6 +6379,15 @@ msgid "No Backorder"
 msgstr "Нет заказа на возврат"
 
 #. module: mrp
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mrp/models/stock_rule.py:0
+msgid "No BoM Found"
+msgstr ""
+
+#. module: mrp
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid "No bill of materials found. Let's create one!"
 msgstr "Не найдено ни одной ведомости материалов. Давайте создадим его!"
@@ -6110,9 +6475,15 @@ msgid ""
 "To prevent this, deletion of the work center is recommended instead."
 msgstr ""
 "Обратите внимание, что архивированный рабочий центр(ы): '%s' все еще "
+<<<<<<< HEAD
 "связан(ы) с активной спецификацией материалов, что означает, что на нем(них)"
 " все еще могут планироваться операции. Чтобы предотвратить это, "
 "рекомендуется удалить рабочий центр."
+=======
+"связан(ы) с активной спецификацией материалов, что означает, что на нем(них) "
+"все еще могут планироваться операции. Чтобы предотвратить это, рекомендуется "
+"удалить рабочий центр."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -6227,12 +6598,26 @@ msgstr "Целевой показатель OEE"
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid ""
 "Odoo opens a PDF preview by default. If you want to print instantly,\n"
+<<<<<<< HEAD
 "                                install the IoT App on a computer that is on the same local network as the\n"
 "                                barcode operator and configure the routing of the reports."
 msgstr ""
 "По умолчанию Odoo открывает предварительный просмотр PDF. Если вы хотите печатать мгновенно,\n"
 "                                установите приложение IoT App на компьютер, находящийся в той же локальной сети, что и\n"
 "                                оператор штрих-кодов и настройте маршрутизацию отчетов."
+=======
+"                                install the IoT App on a computer that is on "
+"the same local network as the\n"
+"                                barcode operator and configure the routing "
+"of the reports."
+msgstr ""
+"По умолчанию Odoo открывает предварительный просмотр PDF. Если вы хотите "
+"печатать мгновенно,\n"
+"                                установите приложение IoT App на компьютер, "
+"находящийся в той же локальной сети, что и\n"
+"                                оператор штрих-кодов и настройте "
+"маршрутизацию отчетов."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__oee
@@ -6299,10 +6684,20 @@ msgstr "Тип операции"
 #: model_terms:ir.actions.act_window,help:mrp.mrp_routing_action
 msgid ""
 "Operation define that need to be done to realize a Work Order.\n"
+<<<<<<< HEAD
 "                Each operation is done at a specific Work Center and has a specific duration."
 msgstr ""
 "Операции определяют, что необходимо сделать для выполнения заказа на работу.\n"
 "                Каждая операция выполняется в определенном рабочем центре и имеет определенную продолжительность."
+=======
+"                Each operation is done at a specific Work Center and has a "
+"specific duration."
+msgstr ""
+"Операции определяют, что необходимо сделать для выполнения заказа на "
+"работу.\n"
+"                Каждая операция выполняется в определенном рабочем центре и "
+"имеет определенную продолжительность."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -7215,8 +7610,12 @@ msgstr "Ссылка должна быть уникальна для каждо�
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__origin
+<<<<<<< HEAD
 msgid ""
 "Reference of the document that generated this production order request."
+=======
+msgid "Reference of the document that generated this production order request."
+>>>>>>> upstream/18.0
 msgstr "Ссылка на документ, который сгенерировал этот заказ на производство."
 
 #. module: mrp
@@ -7334,8 +7733,12 @@ msgstr "Дата расписания"
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Schedule manufacturing orders earlier to avoid delays"
 msgstr ""
+<<<<<<< HEAD
 "Планируйте заказы на производство на более ранний срок во избежание "
 "опозданий"
+=======
+"Планируйте заказы на производство на более ранний срок во избежание опозданий"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -7591,11 +7994,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 "Some work orders are already done, so you cannot unplan this manufacturing order.\n"
 "\n"
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
 "Некоторые рабочие заказы уже выполнены, поэтому вы не можете отменить планирование этого производственного заказа.\n"
+=======
+"Some work orders are already done, so you cannot unplan this manufacturing "
+"order.\n"
+"\n"
+"It’d be a shame to waste all that progress, right?"
+msgstr ""
+"Некоторые рабочие заказы уже выполнены, поэтому вы не можете отменить "
+"планирование этого производственного заказа.\n"
+>>>>>>> upstream/18.0
 "\n"
 "Было бы обидно потерять весь этот прогресс, верно?"
 
@@ -7603,11 +8016,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 "Some work orders have already started, so you cannot unplan this manufacturing order.\n"
 "\n"
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
 "Некоторые рабочие заказы уже начаты, поэтому вы не можете отменить планирование этого производственного заказа.\n"
+=======
+"Some work orders have already started, so you cannot unplan this "
+"manufacturing order.\n"
+"\n"
+"It’d be a shame to waste all that progress, right?"
+msgstr ""
+"Некоторые рабочие заказы уже начаты, поэтому вы не можете отменить "
+"планирование этого производственного заказа.\n"
+>>>>>>> upstream/18.0
 "\n"
 "Было бы обидно потерять весь этот прогресс, верно?"
 
@@ -7628,8 +8051,12 @@ msgstr "Удельная емкость"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__capacity_ids
+<<<<<<< HEAD
 msgid ""
 "Specific number of pieces that can be produced in parallel per product."
+=======
+msgid "Specific number of pieces that can be produced in parallel per product."
+>>>>>>> upstream/18.0
 msgstr ""
 "Определенное количество изделий, которые могут быть произведены параллельно "
 "для каждого продукта."
@@ -7865,8 +8292,12 @@ msgstr "Техническое поле для представлений раб
 #: model:ir.model.fields,help:mrp.field_mrp_production__show_produce_all
 msgid "Technical field to check if produce all button can be shown"
 msgstr ""
+<<<<<<< HEAD
 "Техническое поле для проверки возможности отображения кнопки \"Произвести "
 "все"
+=======
+"Техническое поле для проверки возможности отображения кнопки \"Произвести все"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__show_produce
@@ -7878,8 +8309,12 @@ msgstr ""
 #: model:ir.model.fields,help:mrp.field_mrp_production__reserve_visible
 msgid "Technical field to check when we can reserve quantities"
 msgstr ""
+<<<<<<< HEAD
 "Техническое поле, чтобы проверить, когда мы сможем зарезервировать "
 "количество"
+=======
+"Техническое поле, чтобы проверить, когда мы сможем зарезервировать количество"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__unreserve_visible
@@ -7960,8 +8395,12 @@ msgstr "Был сформирован следующий заказ на поп�
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__qty_produced
 msgid "The number of products already handled by this work order"
+<<<<<<< HEAD
 msgstr ""
 "Количество произведённых продуктов по этому производственному заданию."
+=======
+msgstr "Количество произведённых продуктов по этому производственному заданию."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom_line__operation_id
@@ -7999,8 +8438,13 @@ msgid ""
 "The planned end date of the work order cannot be prior to the planned start "
 "date, please correct this to save the work order."
 msgstr ""
+<<<<<<< HEAD
 "Планируемая дата окончания рабочего задания не может быть раньше планируемой"
 " даты начала, пожалуйста, исправьте это, чтобы сохранить рабочее задание."
+=======
+"Планируемая дата окончания рабочего задания не может быть раньше планируемой "
+"даты начала, пожалуйста, исправьте это, чтобы сохранить рабочее задание."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -8037,11 +8481,19 @@ msgstr "Количество, которое нужно отстроить, до
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 "The serial number %(number)s used for byproduct %(product_name)s has already"
 " been produced"
 msgstr ""
 "Серийный номер %(number)s, используемый для побочного продукта "
 "%(product_name)s, уже был произведен"
+=======
+"The serial number %(number)s used for byproduct %(product_name)s has already "
+"been produced"
+msgstr ""
+"Серийный номер %(number)s, используемый для побочного продукта %"
+"(product_name)s, уже был произведен"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -8162,11 +8614,23 @@ msgstr "Это стоимость, определяемая для продук�
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.action_mrp_unbuild_moves
 msgid ""
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                You can filter on the product to see all the past movements for the product."
 msgstr ""
 "В этом меню вы можете проследить все операции по инвентаризации конкретного продукта.\n"
 "                Вы можете отфильтровать продукт, чтобы увидеть все прошлые движения по нему."
+=======
+"This menu gives you the full traceability of inventory operations on a "
+"specific product.\n"
+"                You can filter on the product to see all the past movements "
+"for the product."
+msgstr ""
+"В этом меню вы можете проследить все операции по инвентаризации конкретного "
+"продукта.\n"
+"                Вы можете отфильтровать продукт, чтобы увидеть все прошлые "
+"движения по нему."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -8178,8 +8642,12 @@ msgstr "Эта продукция была слита в %s"
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "This production order has been created from Replenishment Report."
+<<<<<<< HEAD
 msgstr ""
 "Этот производственный заказ был создан из отчета о пополнении запасов."
+=======
+msgstr "Этот производственный заказ был создан из отчета о пополнении запасов."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -8548,8 +9016,13 @@ msgid ""
 "Unit of Measure (Unit of Measure) is the unit of measurement for the "
 "inventory control"
 msgstr ""
+<<<<<<< HEAD
 "Единица измерения (Unit of Measure) - это единица измерения для инвентарного"
 " контроля"
+=======
+"Единица измерения (Unit of Measure) - это единица измерения для инвентарного "
+"контроля"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
@@ -8604,8 +9077,12 @@ msgid ""
 "components: i.e. 1 Table = 4 Table Legs + 1 Table Top"
 msgstr ""
 "Используйте производственные заказы (MO) для создания готовых изделий, "
+<<<<<<< HEAD
 "расходуя при этом компоненты: например, 1 стол = 4 ножки стола + 1 "
 "столешница"
+=======
+"расходуя при этом компоненты: например, 1 стол = 4 ножки стола + 1 столешница"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:res.groups,name:mrp.group_mrp_workorder_dependencies
@@ -8638,8 +9115,13 @@ msgid ""
 "forecasts."
 msgstr ""
 "Использование Основного производственного плана (MPS) может быть полезным "
+<<<<<<< HEAD
 "для планирования восполнения, если у вас длинный цикл производства и если вы"
 " используете прогнозы продаж."
+=======
+"для планирования восполнения, если у вас длинный цикл производства и если вы "
+"используете прогнозы продаж."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_split__valid_details
@@ -8661,8 +9143,13 @@ msgstr "Подтвердить"
 #: code:addons/mrp/wizard/mrp_consumption_warning.py:0
 msgid ""
 "Values cannot be set and validated because a Lot/Serial Number needs to be "
+<<<<<<< HEAD
 "specified for a tracked product that is having its consumed amount "
 "increased:%(products)s"
+=======
+"specified for a tracked product that is having its consumed amount increased:"
+"%(products)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -8725,8 +9212,13 @@ msgstr "Ожидание компонентов"
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Waiting the previous work order, planned from %(start)s to %(end)s"
 msgstr ""
+<<<<<<< HEAD
 "Ожидание предыдущего рабочего задания, запланированного от %(start)s до "
 "%(end)s"
+=======
+"Ожидание предыдущего рабочего задания, запланированного от %(start)s до %"
+"(end)s"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -8781,8 +9273,13 @@ msgstr "История общений с сайта"
 #: model:ir.model.fields,help:mrp.field_mrp_bom__picking_type_id
 msgid ""
 "When a procurement has a ‘produce’ route with a operation type set, it will "
+<<<<<<< HEAD
 "try to create a Manufacturing Order for that product using a BoM of the same"
 " operation type. That allows to define stock rules which trigger different "
+=======
+"try to create a Manufacturing Order for that product using a BoM of the same "
+"operation type. That allows to define stock rules which trigger different "
+>>>>>>> upstream/18.0
 "manufacturing orders with different BoMs."
 msgstr ""
 "Когда тип пополнения равен 'произвести' с технологическим маршрутом и "
@@ -8795,11 +9292,23 @@ msgstr ""
 #: model:ir.model.fields,help:mrp.field_mrp_bom_line__manual_consumption
 #: model:ir.model.fields,help:mrp.field_stock_move__manual_consumption
 msgid ""
+<<<<<<< HEAD
 "When activated, then the registration of consumption for that component is recorded manually exclusively.\n"
 "If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also."
 msgstr ""
 "Если эта функция активирована, то регистрация расхода для этого компонента регистрируется исключительно вручную.\n"
 "Если функция не активирована, и расход любого из компонентов редактируется вручную в производственном заказе, Odoo также принимает ручной расход."
+=======
+"When activated, then the registration of consumption for that component is "
+"recorded manually exclusively.\n"
+"If not activated, and any of the components consumption is edited manually "
+"on the manufacturing order, Odoo assumes manual consumption also."
+msgstr ""
+"Если эта функция активирована, то регистрация расхода для этого компонента "
+"регистрируется исключительно вручную.\n"
+"Если функция не активирована, и расход любого из компонентов редактируется "
+"вручную в производственном заказе, Odoo также принимает ручной расход."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__ready_to_produce__asap
@@ -8819,8 +9328,13 @@ msgid ""
 "When products are needed in <b>%s</b>, <br/> a manufacturing order is "
 "created to fulfill the need."
 msgstr ""
+<<<<<<< HEAD
 "Когда продукты требуются в <b>%s </b>, <br/> создается заказ на производство"
 " для пополнения потребности."
+=======
+"Когда продукты требуются в <b>%s </b>, <br/> создается заказ на производство "
+"для пополнения потребности."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:digest.tip,tip_description:mrp.digest_tip_mrp_0
@@ -8831,10 +9345,16 @@ msgid ""
 "maintenance alerts, scrap products, etc."
 msgstr ""
 "С помощью панели управления рабочим центром Odoo ваш работник может "
+<<<<<<< HEAD
 "запускать заказы в магазине и следовать инструкциям рабочего листа. Проверки"
 " качества идеально интегрированы в процесс. Работники могут запускать "
 "контуры обратной связи, предупреждения о техническом обслуживании, браке и "
 "т. д."
+=======
+"запускать заказы в магазине и следовать инструкциям рабочего листа. Проверки "
+"качества идеально интегрированы в процесс. Работники могут запускать контуры "
+"обратной связи, предупреждения о техническом обслуживании, браке и т. д."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_consumption_warning
@@ -9003,10 +9523,20 @@ msgstr "Рабочий центр"
 #: model_terms:ir.actions.act_window,help:mrp.action_work_orders
 msgid ""
 "Work orders are operations to do as part of a manufacturing order.\n"
+<<<<<<< HEAD
 "                    Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
 "Рабочие заказы - это операции, которые необходимо выполнить в рамках производственного заказа.\n"
 "                    Операции определяются в спецификации материалов или добавляются непосредственно в производственный заказ."
+=======
+"                    Operations are defined in the bill of materials or added "
+"in the manufacturing order directly."
+msgstr ""
+"Рабочие заказы - это операции, которые необходимо выполнить в рамках "
+"производственного заказа.\n"
+"                    Операции определяются в спецификации материалов или "
+"добавляются непосредственно в производственный заказ."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.action_mrp_workorder_production
@@ -9015,10 +9545,20 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mrp.mrp_workorder_todo
 msgid ""
 "Work orders are operations to do as part of a manufacturing order.\n"
+<<<<<<< HEAD
 "            Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
 "Рабочие заказы - это операции, которые необходимо выполнить в рамках производственного заказа.\n"
 "            Операции определяются в спецификации материалов или добавляются непосредственно в производственный заказ."
+=======
+"            Operations are defined in the bill of materials or added in the "
+"manufacturing order directly."
+msgstr ""
+"Рабочие заказы - это операции, которые необходимо выполнить в рамках "
+"производственного заказа.\n"
+"            Операции определяются в спецификации материалов или добавляются "
+"непосредственно в производственный заказ."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
@@ -9126,9 +9666,15 @@ msgid ""
 "Components\"."
 msgstr ""
 "Вы не можете создавать или редактировать партии или серийные номера для "
+<<<<<<< HEAD
 "компонентов с типом операции \"Производство\". Чтобы изменить это, перейдите"
 " к типу операции и установите флажок \"Создавать новые партии/серийные "
 "номера для компонентов\"."
+=======
+"компонентов с типом операции \"Производство\". Чтобы изменить это, перейдите "
+"к типу операции и установите флажок \"Создавать новые партии/серийные номера "
+"для компонентов\"."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -9147,7 +9693,12 @@ msgid ""
 "You can not delete a Bill of Material with running manufacturing orders.\n"
 "Please close or cancel it first."
 msgstr ""
+<<<<<<< HEAD
 "Вы не можете удалить ведомость материалов с запущенным заказом на производство.\n"
+=======
+"Вы не можете удалить ведомость материалов с запущенным заказом на "
+"производство.\n"
+>>>>>>> upstream/18.0
 "Пожалуйста, сначала закройте или отмените его."
 
 #. module: mrp
@@ -9156,8 +9707,13 @@ msgstr ""
 msgid ""
 "You can only merge manufacturing orders of identical products with same BoM."
 msgstr ""
+<<<<<<< HEAD
 "Вы можете объединить только производственные заказы на идентичные продукты с"
 " одинаковым BoM."
+=======
+"Вы можете объединить только производственные заказы на идентичные продукты с "
+"одинаковым BoM."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -9185,8 +9741,12 @@ msgstr "Вы можете объединить производство толь
 #. odoo-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the workcenter of a work order that is in progress or "
 "done."
+=======
+"You cannot change the workcenter of a work order that is in progress or done."
+>>>>>>> upstream/18.0
 msgstr ""
 "Вы не можете изменить центр обработки заказа, который находится в процессе "
 "выполнения или выполнен."
@@ -9244,8 +9804,12 @@ msgstr "Один и тот же серийный номер не может бы
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "You cannot start a work order that is already done or cancelled"
 msgstr ""
+<<<<<<< HEAD
 "Невозможно запустить производственный заказ, который уже выполнен или "
 "отменён"
+=======
+"Невозможно запустить производственный заказ, который уже выполнен или отменён"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -9271,27 +9835,53 @@ msgid ""
 "                            Please confirm it has been done on purpose.\n"
 "                        </b>\n"
 "                        <b invisible=\"consumption != 'strict'\">\n"
+<<<<<<< HEAD
 "                            Please review your component consumption or ask a manager to validate\n"
 "                            <span invisible=\"mrp_production_count != 1\">this manufacturing order</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\">these manufacturing orders</span>.\n"
+=======
+"                            Please review your component consumption or ask "
+"a manager to validate\n"
+"                            <span invisible=\"mrp_production_count != "
+"1\">this manufacturing order</span>\n"
+"                            <span invisible=\"mrp_production_count == "
+"1\">these manufacturing orders</span>.\n"
+>>>>>>> upstream/18.0
 "                        </b>"
 msgstr ""
 "Вы употребили количество следующих продуктов, отличное от ожидаемого.\n"
 "                       <b invisible=\"consumption == 'strict'\">\n"
+<<<<<<< HEAD
 "                            Пожалуйста, подтвердите, что это было сделано намеренно.\n"
 "                       </b>\n"
 "                       <b invisible=\"consumption != 'strict'\">\n"
 "                            Пожалуйста, пересмотрите расход компонентов или попросите менеджера подтвердить\n"
 "                           <span invisible=\"mrp_production_count != 1\">этот производственный заказ</span>\n"
 "                           <span invisible=\"mrp_production_count == 1\">эти производственные заказы</span>.\n"
+=======
+"                            Пожалуйста, подтвердите, что это было сделано "
+"намеренно.\n"
+"                       </b>\n"
+"                       <b invisible=\"consumption != 'strict'\">\n"
+"                            Пожалуйста, пересмотрите расход компонентов или "
+"попросите менеджера подтвердить\n"
+"                           <span invisible=\"mrp_production_count != "
+"1\">этот производственный заказ</span>\n"
+"                           <span invisible=\"mrp_production_count == 1\">эти "
+"производственные заказы</span>.\n"
+>>>>>>> upstream/18.0
 "                       </b>"
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You need at least two production orders to merge them."
+<<<<<<< HEAD
 msgstr ""
 "Для их объединения необходимо как минимум два производственных заказа."
+=======
+msgstr "Для их объединения необходимо как минимум два производственных заказа."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -9310,8 +9900,13 @@ msgstr ""
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "You need to define at least one productivity loss in the category "
+<<<<<<< HEAD
 "'Productivity'. Create one from the Manufacturing app, menu: Configuration /"
 " Productivity Losses."
+=======
+"'Productivity'. Create one from the Manufacturing app, menu: Configuration / "
+"Productivity Losses."
+>>>>>>> upstream/18.0
 msgstr ""
 "Необходимо определить хотя бы один вариант потери производительности в "
 "категории «Производительность». Создайте её из меню приложения "
@@ -9339,8 +9934,13 @@ msgstr "Вы должны указать партию для готовой пр
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 "You need to supply Lot/Serial Number for products and 'consume' them: "
 "%(missing_products)s"
+=======
+"You need to supply Lot/Serial Number for products and 'consume' them: %"
+"(missing_products)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -9558,6 +10158,7 @@ msgstr "порядок труда"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -9578,6 +10179,8 @@ msgstr "{{ props.isFolded ? 'Развернуть' : 'Свернуть' }}"
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr "{{ state.isFolded ? 'Развернуть' : 'Свернуть' }}"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
