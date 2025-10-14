@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import {
     animationFrame,
     queryAll,
@@ -16,12 +17,17 @@ import { getDropdownMenu } from "./component_test_helpers";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { animationFrame, queryAll, queryAllAttributes, queryAllTexts, queryOne } from "@odoo/hoot";
 import { getDropdownMenu } from "./component_test_helpers";
 import { contains } from "./dom_test_helpers";
 import { buildSelector } from "./view_test_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

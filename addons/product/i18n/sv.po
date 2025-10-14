@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* product
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -25,6 +29,7 @@
 # Martin Trigaux, 2024
 # Kim Asplund <kim.asplund@gmail.com>, 2024
 # Lasse L, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -196,10 +201,15 @@
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -456,6 +466,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: sv\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-11 02:17+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2025\n"
@@ -464,6 +476,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -506,12 +521,15 @@ msgstr "$15.00"
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra fee\n"
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
 msgstr ""
 "%(base)s med %(discount)s %% %(discount_type)s och %(surcharge)s extra avgift\n"
 "Exempel: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
 =======
+=======
+>>>>>>> upstream/18.0
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra "
 "fee\n"
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
@@ -521,6 +539,9 @@ msgstr ""
 "avgift\n"
 "Exempel: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
 "(total_amount)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -528,17 +549,23 @@ msgstr ""
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(item_name)s: end date (%(end_date)s) should be after start date "
 "(%(start_date)s)"
 msgstr ""
 "%(item_name)s: slutdatum (%(end_date)s) ska vara efter startdatum "
 "(%(start_date)s)"
 =======
+=======
+>>>>>>> upstream/18.0
 "%(item_name)s: end date (%(end_date)s) should be after start date (%"
 "(start_date)s)"
 msgstr ""
 "%(item_name)s: slutdatum (%(end_date)s) ska vara efter startdatum (%"
 "(start_date)s)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -603,21 +630,28 @@ msgstr "- %(amount)s rabatt"
 #. odoo-python
 #: code:addons/product/models/product_product.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
 msgstr ""
 "- Streckkod \"%(barcode)s\" redan tilldelad till produkt(er): "
 "%(product_list)s"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
 msgstr ""
 "- Streckkod \"%(barcode)s\" redan tilldelad till produkt(er): %"
 "(product_list)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__create_variant
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "- Instantly: All possible variants are created as soon as the attribute and its values are added to a product.\n"
 "        - Dynamically: Each variant is created only when its corresponding attributes and values are added to a sales order.\n"
@@ -629,6 +663,8 @@ msgstr ""
 "        - Aldrig: Varianter skapas aldrig för attributet.\n"
 "        Obs: detta kan inte ändras när attributet väl har använts på en produkt."
 =======
+=======
+>>>>>>> upstream/18.0
 "- Instantly: All possible variants are created as soon as the attribute and "
 "its values are added to a product.\n"
 "        - Dynamically: Each variant is created only when its corresponding "
@@ -643,6 +679,9 @@ msgstr ""
 "        - Aldrig: Varianter skapas aldrig för attributet.\n"
 "        Obs: detta kan inte ändras när attributet väl har använts på en "
 "produkt."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -717,15 +756,21 @@ msgstr ""
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Currency\"/>"
 msgstr "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Valuta\" title=\"Valuta\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" "
 "title=\"Currency\"/>"
 msgstr ""
 "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Valuta\" title=\"Valuta\"/"
 ">"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -735,7 +780,12 @@ msgid ""
 "                                            Rules\n"
 "                                        </span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                        <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 =======
 "                                        <span class=\"o_stat_text\" "
 "invisible=\"pricelist_item_count != 1\">\n"
@@ -747,7 +797,12 @@ msgstr ""
 "                                            Regler\n"
 "                                        </span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                        <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 =======
 "                                        <span class=\"o_stat_text\" "
 "invisible=\"pricelist_item_count != 1\">\n"
@@ -762,7 +817,12 @@ msgid ""
 "                                        Pricelists\n"
 "                                    </span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"o_stat_text\" "
 "invisible=\"pricelist_item_count != 1\">\n"
@@ -774,7 +834,12 @@ msgstr ""
 "                                        Prislistor\n"
 "                                    </span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"o_stat_text\" "
 "invisible=\"pricelist_item_count != 1\">\n"
@@ -835,7 +900,12 @@ msgid ""
 msgstr ""
 "<strong>Varning</strong>: att lägga till eller ta bort egenskaper\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        kommer att ta bort och återskapa befintliga varianter och leda \n"
+=======
+"                        kommer att ta bort och återskapa befintliga "
+"varianter och leda \n"
+>>>>>>> upstream/18.0
 =======
 "                        kommer att ta bort och återskapa befintliga "
 "varianter och leda \n"
@@ -876,6 +946,7 @@ msgstr "En kombinationsprodukt måste innehålla minst 1 kombinationsval."
 #: model:ir.model.fields,help:product.field_product_template__description_sale
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A description of the Product that you want to communicate to your customers."
 " This description will be copied to every Sales Order, Delivery Order and "
 "Customer Invoice/Credit Note"
@@ -884,6 +955,8 @@ msgstr ""
 "här beskrivningen kopieras på alla Försäljnings, Leverans ordrar och på kund"
 " faktura och krediterings dokument"
 =======
+=======
+>>>>>>> upstream/18.0
 "A description of the Product that you want to communicate to your customers. "
 "This description will be copied to every Sales Order, Delivery Order and "
 "Customer Invoice/Credit Note"
@@ -891,6 +964,9 @@ msgstr ""
 "En beskrivning av produkten som du vill kommunicera till dina kunder. Den "
 "här beskrivningen kopieras på alla Försäljnings, Leverans ordrar och på kund "
 "faktura och krediterings dokument"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -903,12 +979,15 @@ msgstr "En förpackning använder redan streckkoden"
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "            This is the perfect tool to handle several pricings, seasonal discounts, etc."
 msgstr ""
 "Ett pris är en uppsättning försäljningspriser eller regler för att beräkna priset på försäljningsorderrader baserat på produkter, produktkategorier, datum och beställda kvantiteter.\n"
 "            Detta är det perfekta verktyget för att hantera flera prissättningar, säsongsrabatter etc."
 =======
+=======
+>>>>>>> upstream/18.0
 "A price is a set of sales prices or rules to compute the price of sales "
 "order lines based on products, product categories, dates and ordered "
 "quantities.\n"
@@ -928,6 +1007,9 @@ msgid ""
 "A pricelist item with \"Other Pricelist\" as base must have a "
 "base_pricelist_id."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -1051,7 +1133,12 @@ msgid ""
 "                                include them in the report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Lägg till produkter med hjälp av knappen \"Lägg till produkter\" längst upp till höger för att\n"
+=======
+"Lägg till produkter med hjälp av knappen \"Lägg till produkter\" längst upp "
+"till höger för att\n"
+>>>>>>> upstream/18.0
 =======
 "Lägg till produkter med hjälp av knappen \"Lägg till produkter\" längst upp "
 "till höger för att\n"
@@ -1138,10 +1225,15 @@ msgstr "Alla produktvarianter som använder denna tagg"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
@@ -1500,8 +1592,13 @@ msgid ""
 msgstr ""
 "Streckkod som används för identifiering av förpackningar. Skanna denna "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "förpackningsstreckkod från en överföring i Barcode-appen för att flytta alla"
 " inneslutna enheter"
+=======
+"förpackningsstreckkod från en överföring i Barcode-appen för att flytta alla "
+"inneslutna enheter"
+>>>>>>> upstream/18.0
 =======
 "förpackningsstreckkod från en överföring i Barcode-appen för att flytta alla "
 "inneslutna enheter"
@@ -2265,17 +2362,23 @@ msgstr "Extra pris"
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__price_extra
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Extra price for the variant with this attribute value on sale price. eg. 200"
 " price extra, 1000 + 200 = 1200."
 msgstr ""
 "Extrapris för varianten med detta attributvärde på försäljningspriset. t.ex."
 " 200 pris extra, 1000 + 200 = 1200."
 =======
+=======
+>>>>>>> upstream/18.0
 "Extra price for the variant with this attribute value on sale price. eg. 200 "
 "price extra, 1000 + 200 = 1200."
 msgstr ""
 "Extrapris för varianten med detta attributvärde på försäljningspriset. t.ex. "
 "200 pris extra, 1000 + 200 = 1200."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -2348,17 +2451,23 @@ msgstr "Font Awesome-ikon t.ex. fa-tasks"
 #: model:ir.model.fields,help:product.field_product_pricelist_item__min_quantity
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
 "Expressed in the default unit of measure of the product."
 msgstr ""
 "För att regeln ska gälla måste köpt/såld kvantitet vara större än eller lika med den minsta kvantitet som anges i detta fält.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "For the rule to apply, bought/sold quantity must be greater than or equal to "
 "the minimum quantity specified in this field.\n"
 "Expressed in the default unit of measure of the product."
 msgstr ""
 "För att regeln ska gälla måste köpt/såld kvantitet vara större än eller lika "
 "med den minsta kvantitet som anges i detta fält.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Uttryckt i produktens förvalda måttenhet."
 
@@ -2844,8 +2953,13 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__exclude_for
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Make this attribute value not compatible with other values of the product or"
 " some attribute values of optional and accessory products."
+=======
+"Make this attribute value not compatible with other values of the product or "
+"some attribute values of optional and accessory products."
+>>>>>>> upstream/18.0
 =======
 "Make this attribute value not compatible with other values of the product or "
 "some attribute values of optional and accessory products."
@@ -3024,7 +3138,11 @@ msgid "New"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nya"
+=======
+msgstr "Ny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ny"
 >>>>>>> upstream/18.0
@@ -3298,8 +3416,13 @@ msgstr "Kontorslampa"
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "On the product %(product)s you cannot associate the value %(value)s with the"
 " attribute %(attribute)s because they do not match."
+=======
+"On the product %(product)s you cannot associate the value %(value)s with the "
+"attribute %(attribute)s because they do not match."
+>>>>>>> upstream/18.0
 =======
 "On the product %(product)s you cannot associate the value %(value)s with the "
 "attribute %(attribute)s because they do not match."
@@ -3313,8 +3436,13 @@ msgstr ""
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "On the product %(product)s you cannot transform the attribute "
 "%(attribute_src)s into the attribute %(attribute_dest)s."
+=======
+"On the product %(product)s you cannot transform the attribute %"
+"(attribute_src)s into the attribute %(attribute_dest)s."
+>>>>>>> upstream/18.0
 =======
 "On the product %(product)s you cannot transform the attribute %"
 "(attribute_src)s into the attribute %(attribute_dest)s."
@@ -3329,8 +3457,12 @@ msgstr ""
 msgid "Oops! '%(fileName)s' didn’t upload since its format isn’t allowed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Oops! '%(fileName)s' laddades inte upp eftersom dess format inte är "
 "tillåtet."
+=======
+"Oops! '%(fileName)s' laddades inte upp eftersom dess format inte är tillåtet."
+>>>>>>> upstream/18.0
 =======
 "Oops! '%(fileName)s' laddades inte upp eftersom dess format inte är tillåtet."
 >>>>>>> upstream/18.0
@@ -4019,8 +4151,13 @@ msgstr "Referens"
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Register the prices requested by your vendors for each product, based on the"
 " quantity and the period."
+=======
+"Register the prices requested by your vendors for each product, based on the "
+"quantity and the period."
+>>>>>>> upstream/18.0
 =======
 "Register the prices requested by your vendors for each product, based on the "
 "quantity and the period."
@@ -4174,7 +4311,12 @@ msgstr ""
 "Ställer in priset så att det är en multipel av detta värde.\n"
 "Avrundningen görs efter rabatten och före tilläggsavgiften.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Om du vill ha priser som slutar på 9,99 avrundar du till 10,00 och anger ett tillägg på -0,01"
+=======
+"Om du vill ha priser som slutar på 9,99 avrundar du till 10,00 och anger ett "
+"tillägg på -0,01"
+>>>>>>> upstream/18.0
 =======
 "Om du vill ha priser som slutar på 9,99 avrundar du till 10,00 och anger ett "
 "tillägg på -0,01"
@@ -4218,8 +4360,12 @@ msgid ""
 "otherwise."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ange en produkt om denna regel endast gäller för en produkt. Håll tom "
 "annars."
+=======
+"Ange en produkt om denna regel endast gäller för en produkt. Håll tom annars."
+>>>>>>> upstream/18.0
 =======
 "Ange en produkt om denna regel endast gäller för en produkt. Håll tom annars."
 >>>>>>> upstream/18.0
@@ -4347,8 +4493,13 @@ msgstr "Referensen '%s' finns redan."
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The attribute %(attribute)s must have at least one value for the product "
 "%(product)s."
+=======
+"The attribute %(attribute)s must have at least one value for the product %"
+"(product)s."
+>>>>>>> upstream/18.0
 =======
 "The attribute %(attribute)s must have at least one value for the product %"
 "(product)s."
@@ -4362,8 +4513,12 @@ msgid ""
 "The attribute cannot be changed once the value is used on at least one "
 "product."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Attributet kan inte ändras när värdet har använts på minst en produkt."
+=======
+msgstr "Attributet kan inte ändras när värdet har använts på minst en produkt."
+>>>>>>> upstream/18.0
 =======
 msgstr "Attributet kan inte ändras när värdet har använts på minst en produkt."
 >>>>>>> upstream/18.0
@@ -4375,8 +4530,12 @@ msgid ""
 "The default Unit of Measure and the purchase Unit of Measure must be in the "
 "same category."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Standardmåttenheten och inköpsmåttenheten måste vara i samma kategori."
+=======
+msgstr "Standardmåttenheten och inköpsmåttenheten måste vara i samma kategori."
+>>>>>>> upstream/18.0
 =======
 msgstr "Standardmåttenheten och inköpsmåttenheten måste vara i samma kategori."
 >>>>>>> upstream/18.0
@@ -4424,6 +4583,7 @@ msgid ""
 "The minimum price among the products in this combo. This value will be used "
 "to prorate the price of this combo with respect to the other combos in a "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "combo product. This heuristic ensures that whatever product the user chooses"
 " in a combo, it will always be the same price."
 msgstr ""
@@ -4431,12 +4591,17 @@ msgstr ""
 "kommer att användas för att proportionera priset för den här kombinationen i"
 " förhållande till de andra kombinationerna i en kombinationsprodukt. Denna "
 =======
+=======
+>>>>>>> upstream/18.0
 "combo product. This heuristic ensures that whatever product the user chooses "
 "in a combo, it will always be the same price."
 msgstr ""
 "Det lägsta priset bland produkterna i den här kombinationen. Detta värde "
 "kommer att användas för att proportionera priset för den här kombinationen i "
 "förhållande till de andra kombinationerna i en kombinationsprodukt. Denna "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "heuristik säkerställer att oavsett vilken produkt användaren väljer i en "
 "kombination, kommer den alltid att ha samma pris."
@@ -4454,8 +4619,13 @@ msgstr ""
 #: code:addons/product/models/product_template.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The number of variants to generate is above allowed limit. You should either"
 " not generate variants for each combination or generate them on demand from "
+=======
+"The number of variants to generate is above allowed limit. You should either "
+"not generate variants for each combination or generate them on demand from "
+>>>>>>> upstream/18.0
 =======
 "The number of variants to generate is above allowed limit. You should either "
 "not generate variants for each combination or generate them on demand from "
@@ -4465,8 +4635,13 @@ msgid ""
 msgstr ""
 "Antalet varianter som ska genereras är över den tillåtna gränsen. Du bör "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "antingen inte generera varianter för varje kombination eller generera dem på"
 " begäran från försäljningsordern. För att göra detta, öppna formulärvyn för "
+=======
+"antingen inte generera varianter för varje kombination eller generera dem på "
+"begäran från försäljningsordern. För att göra detta, öppna formulärvyn för "
+>>>>>>> upstream/18.0
 =======
 "antingen inte generera varianter för varje kombination eller generera dem på "
 "begäran från försäljningsordern. För att göra detta, öppna formulärvyn för "
@@ -4493,8 +4668,13 @@ msgid ""
 msgstr ""
 "Den kvantitet som ska köpas från denna leverantör för att dra nytta av "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "priset, uttryckt i leverantörens produktmåttenhet om det inte finns någon, i"
 " produktens standardmåttenhet annars."
+=======
+"priset, uttryckt i leverantörens produktmåttenhet om det inte finns någon, i "
+"produktens standardmåttenhet annars."
+>>>>>>> upstream/18.0
 =======
 "priset, uttryckt i leverantörens produktmåttenhet om det inte finns någon, i "
 "produktens standardmåttenhet annars."
@@ -4511,6 +4691,7 @@ msgstr "Avrundningsmetoden måste vara strikt positiv."
 #: model:ir.model.fields,help:product.field_product_product__lst_price
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The sale price is managed from the product template. Click on the 'Configure"
 " Variants' button to set the extra attribute prices."
 msgstr ""
@@ -4518,11 +4699,16 @@ msgstr ""
 "\"Konfigurera varianter\" för att ställa in priserna för de extra "
 "attributen."
 =======
+=======
+>>>>>>> upstream/18.0
 "The sale price is managed from the product template. Click on the 'Configure "
 "Variants' button to set the extra attribute prices."
 msgstr ""
 "Försäljningspriset hanteras från produktmallen. Klicka på knappen "
 "\"Konfigurera varianter\" för att ställa in priserna för de extra attributen."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -4562,8 +4748,13 @@ msgid ""
 "intended."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Denna konfiguration av produktattribut, värden och uteslutningar skulle inte"
 " leda till någon möjlig variant. Vänligen arkivera eller radera din produkt "
+=======
+"Denna konfiguration av produktattribut, värden och uteslutningar skulle inte "
+"leda till någon möjlig variant. Vänligen arkivera eller radera din produkt "
+>>>>>>> upstream/18.0
 =======
 "Denna konfiguration av produktattribut, värden och uteslutningar skulle inte "
 "leda till någon möjlig variant. Vänligen arkivera eller radera din produkt "
@@ -4607,12 +4798,15 @@ msgstr ""
 #: code:addons/product/models/uom_uom.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This rounding precision is higher than the Decimal Accuracy (%(digits)s digits).\n"
 "This may cause inconsistencies in computations.\n"
 "Please set a precision between %(min_precision)s and 1."
 msgstr ""
 "Denna avrundningsprecision är högre än decimalnoggrannheten (%(digits)s siffror).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "This rounding precision is higher than the Decimal Accuracy (%(digits)s "
 "digits).\n"
 "This may cause inconsistencies in computations.\n"
@@ -4620,6 +4814,9 @@ msgstr ""
 msgstr ""
 "Denna avrundningsprecision är högre än decimalnoggrannheten (%(digits)s "
 "siffror).\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Detta kan orsaka inkonsekvenser i beräkningarna.\n"
 "Ange en precision mellan %(min_precision)s och 1."
@@ -4836,12 +5033,15 @@ msgstr "Värde Räkna"
 msgid ""
 "Value of the product (automatically computed in AVCO).\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
 "        Used to compute margins on sale orders."
 msgstr ""
 "Produktens värde (beräknas automatiskt i AVCO).\n"
 "        Används för att värdera produkten när inköpskostnaden inte är känd (t.ex. lagerjustering).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Used to value the product when the purchase cost is not known (e.g. "
 "inventory adjustment).\n"
 "        Used to compute margins on sale orders."
@@ -4849,6 +5049,9 @@ msgstr ""
 "Produktens värde (beräknas automatiskt i AVCO).\n"
 "        Används för att värdera produkten när inköpskostnaden inte är känd "
 "(t.ex. lagerjustering).\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        Används för att beräkna marginaler på försäljningsorder."
 
@@ -5038,8 +5241,13 @@ msgstr "Varningar"
 #: model_terms:product.template,website_description:product.product_product_4_product_template
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We pay special attention to detail, which is why our desks are of a superior"
 " quality."
+=======
+"We pay special attention to detail, which is why our desks are of a superior "
+"quality."
+>>>>>>> upstream/18.0
 =======
 "We pay special attention to detail, which is why our desks are of a superior "
 "quality."
@@ -5089,8 +5297,13 @@ msgid ""
 "products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du är på väg att lägga till värdet \"%(attribute_value)s\" till "
 "%(product_count)s produkter."
+=======
+"Du är på väg att lägga till värdet \"%(attribute_value)s\" till %"
+"(product_count)s produkter."
+>>>>>>> upstream/18.0
 =======
 "Du är på väg att lägga till värdet \"%(attribute_value)s\" till %"
 "(product_count)s produkter."
@@ -5120,7 +5333,12 @@ msgid ""
 "%s\n"
 "This may cause inconsistencies in computations.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please increase the rounding of those units of measure, or the digits of this Decimal Accuracy."
+=======
+"Please increase the rounding of those units of measure, or the digits of "
+"this Decimal Accuracy."
+>>>>>>> upstream/18.0
 =======
 "Please increase the rounding of those units of measure, or the digits of "
 "this Decimal Accuracy."
@@ -5130,7 +5348,12 @@ msgstr ""
 "%s\n"
 "Detta kan orsaka inkonsekvenser i beräkningar.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Öka avrundningen av dessa måttenheter, eller siffrorna i denna decimalnoggrannhet."
+=======
+"Öka avrundningen av dessa måttenheter, eller siffrorna i denna "
+"decimalnoggrannhet."
+>>>>>>> upstream/18.0
 =======
 "Öka avrundningen av dessa måttenheter, eller siffrorna i denna "
 "decimalnoggrannhet."
@@ -5173,8 +5396,12 @@ msgid ""
 "value."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du kan ladda upp en bild som kommer att användas som färg för "
 "attributvärdet."
+=======
+"Du kan ladda upp en bild som kommer att användas som färg för attributvärdet."
+>>>>>>> upstream/18.0
 =======
 "Du kan ladda upp en bild som kommer att användas som färg för attributvärdet."
 >>>>>>> upstream/18.0
@@ -5207,17 +5434,23 @@ msgstr ""
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s because it is used on the following products:\n"
 "%(products)s"
 msgstr ""
 "Du kan inte ändra skapandeläget för varianter för attributet %(attribute)s eftersom det används på följande produkter:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s "
 "because it is used on the following products:\n"
 "%(products)s"
 msgstr ""
 "Du kan inte ändra skapandeläget för varianter för attributet %(attribute)s "
 "eftersom det används på följande produkter:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "%(products)s"
 
@@ -5226,8 +5459,13 @@ msgstr ""
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the attribute of the value %(value)s because it is used on"
 " the following products: %(products)s"
+=======
+"You cannot change the attribute of the value %(value)s because it is used on "
+"the following products: %(products)s"
+>>>>>>> upstream/18.0
 =======
 "You cannot change the attribute of the value %(value)s because it is used on "
 "the following products: %(products)s"
@@ -5241,17 +5479,23 @@ msgstr ""
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the product of the value %(value)s set on product "
 "%(product)s."
 msgstr ""
 "Du kan inte ändra produkten för det värde %(value)s som anges på produkt "
 "%(product)s."
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot change the product of the value %(value)s set on product %"
 "(product)s."
 msgstr ""
 "Du kan inte ändra produkten för det värde %(value)s som anges på produkt %"
 "(product)s."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -5259,17 +5503,23 @@ msgstr ""
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the value of the value %(value)s set on product "
 "%(product)s."
 msgstr ""
 "Du kan inte ändra värdet på det värde %(value)s som anges på produkt "
 "%(product)s."
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot change the value of the value %(value)s set on product %"
 "(product)s."
 msgstr ""
 "Du kan inte ändra värdet på det värde %(value)s som anges på produkt %"
 "(product)s."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -5313,17 +5563,23 @@ msgstr "Du kan inte ta bort produktkategorin %s."
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete the attribute %(attribute)s because it is used on the following products:\n"
 "%(products)s"
 msgstr ""
 "Du kan inte ta bort attributet %(attribute)s eftersom det används på följande produkter:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot delete the attribute %(attribute)s because it is used on the "
 "following products:\n"
 "%(products)s"
 msgstr ""
 "Du kan inte ta bort attributet %(attribute)s eftersom det används på "
 "följande produkter:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "%(products)s"
 
@@ -5332,17 +5588,23 @@ msgstr ""
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete the value %(value)s because it is used on the following products:\n"
 "%(products)s\n"
 msgstr ""
 "Du kan inte ta bort värdet %(value)s eftersom det används på följande produkter:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot delete the value %(value)s because it is used on the following "
 "products:\n"
 "%(products)s\n"
 msgstr ""
 "Du kan inte ta bort värdet %(value)s eftersom det används på följande "
 "produkter:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "%(products)s\n"
 
@@ -5360,8 +5622,13 @@ msgstr ""
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot move the attribute %(attribute)s from the product %(product_src)s"
 " to the product %(product_dest)s."
+=======
+"You cannot move the attribute %(attribute)s from the product %(product_src)s "
+"to the product %(product_dest)s."
+>>>>>>> upstream/18.0
 =======
 "You cannot move the attribute %(attribute)s from the product %(product_src)s "
 "to the product %(product_dest)s."
@@ -5386,17 +5653,23 @@ msgstr ""
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            whether it's a storable product, a consumable or a service."
 msgstr ""
 "Du måste definiera en produkt för allt du säljer eller köper,\n"
 "                            oavsett om det är en lagringsbar produkt, en förbrukningsvara eller en tjänst."
 =======
+=======
+>>>>>>> upstream/18.0
 "                            whether it's a storable product, a consumable or "
 "a service."
 msgstr ""
 "Du måste definiera en produkt för allt du säljer eller köper,\n"
 "                            oavsett om det är en lagringsbar produkt, en "
 "förbrukningsvara eller en tjänst."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -5415,6 +5688,7 @@ msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "                whether it's a storable product, a consumable or a service.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
 msgstr ""
@@ -5423,6 +5697,8 @@ msgstr ""
 "                Produktformuläret innehåller information för att förenkla försäljningsprocessen:\n"
 "                pris, noteringar i offerten, redovisningsdata, upphandlingsmetoder etc."
 =======
+=======
+>>>>>>> upstream/18.0
 "                The product form contains information to simplify the sale "
 "process:\n"
 "                price, notes in the quotation, accounting data, procurement "
@@ -5435,11 +5711,15 @@ msgstr ""
 "försäljningsprocessen:\n"
 "                pris, noteringar i offerten, redovisningsdata, "
 "upphandlingsmetoder etc."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action_sell
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "You must define a product for everything you sell, whether it's a physical product,\n"
 "                a consumable or a service you offer to customers.\n"
@@ -5451,6 +5731,8 @@ msgstr ""
 "                Produktformuläret innehåller information för att förenkla försäljningsprocessen:\n"
 "                pris, noteringar i offerten, redovisningsdata, upphandlingsmetoder etc."
 =======
+=======
+>>>>>>> upstream/18.0
 "You must define a product for everything you sell, whether it's a physical "
 "product,\n"
 "                a consumable or a service you offer to customers.\n"
@@ -5467,6 +5749,9 @@ msgstr ""
 "försäljningsprocessen:\n"
 "                pris, noteringar i offerten, redovisningsdata, "
 "upphandlingsmetoder etc."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product

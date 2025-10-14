@@ -93,6 +93,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { beforeEach } from "@odoo/hoot";
 import { on } from "@odoo/hoot-dom";
 =======
@@ -285,6 +286,9 @@ import { mockLocation } from "@odoo/hoot";
 =======
 import { mockLocation } from "@odoo/hoot";
 >>>>>>> upstream/18.0
+=======
+import { mockLocation } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 
 //-----------------------------------------------------------------------------
 // Internal
@@ -398,8 +402,11 @@ const READONLY_PROPERTIES = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const anchorHrefDescriptor = Object.getOwnPropertyDescriptor(HTMLAnchorElement.prototype, "href");
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -709,6 +716,7 @@ export function mockBrowserFactory(name, { fn }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         beforeEach(function mockAnchorHref() {
             Object.defineProperty(HTMLAnchorElement.prototype, "href", {
                 ...anchorHrefDescriptor,
@@ -741,6 +749,8 @@ export function mockBrowserFactory(name, { fn }) {
             };
         });
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

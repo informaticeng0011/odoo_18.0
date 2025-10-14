@@ -22,7 +22,11 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         total_leaves = (self.request_date_to - self.request_date_from).days + 1
+=======
+        total_leaves = (self.request_date_to - self.request_date_from).days + (0.5 if self.request_unit_half else 1)
+>>>>>>> upstream/18.0
 =======
         total_leaves = (self.request_date_to - self.request_date_from).days + (0.5 if self.request_unit_half else 1)
 >>>>>>> upstream/18.0
@@ -66,6 +70,7 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if is_non_working_day(calendar, date_from):
             total_leaves -= 1
             if is_non_working_day(calendar, date_from + timedelta(days=+1)):
@@ -75,6 +80,8 @@ class HolidaysRequest(models.Model):
             if is_non_working_day(calendar, date_to + timedelta(days=-1)):
                 total_leaves -= 1
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -96,6 +103,9 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -170,9 +180,15 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if updated_days:
                     leave.l10n_in_contains_sandwich_leaves = updated_days != days
             else:
+=======
+                if updated_days and leave.state not in ['validate', 'validate1']:
+                    leave.l10n_in_contains_sandwich_leaves = updated_days != days
+            elif leave.state not in ['validate', 'validate1']:
+>>>>>>> upstream/18.0
 =======
                 if updated_days and leave.state not in ['validate', 'validate1']:
                     leave.l10n_in_contains_sandwich_leaves = updated_days != days

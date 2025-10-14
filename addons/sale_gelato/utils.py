@@ -33,7 +33,10 @@ def make_request(api_key, subdomain, version, endpoint, payload=None, method='PO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44,6 +47,9 @@ def make_request(api_key, subdomain, version, endpoint, payload=None, method='PO
             response = requests.delete(url=url, params=payload, headers=headers, timeout=10)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

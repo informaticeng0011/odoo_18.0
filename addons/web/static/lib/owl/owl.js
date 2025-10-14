@@ -3897,8 +3897,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const TRANSLATABLE_ATTRS = ["label", "title", "placeholder", "alt"];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4038,6 +4041,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4824,7 +4830,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const n = ast.content.filter((c) => c.type !== 6 /* TSet */).length;
+=======
+                const n = ast.content.filter((c) => !c.hasNoRepresentation).length;
+>>>>>>> upstream/18.0
 =======
                 const n = ast.content.filter((c) => !c.hasNoRepresentation).length;
 >>>>>>> upstream/18.0
@@ -4918,6 +4928,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const isTSet = child.type === 6 /* TSet */;
                 const subCtx = createContext(ctx, {
                     block,
@@ -4928,6 +4939,8 @@
                 this.compileAST(child, subCtx);
                 if (!isTSet) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4994,6 +5007,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5492,6 +5508,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             parseTEscNode(node, ctx) ||
             parseTOutNode(node, ctx) ||
             parseTKey(node, ctx) ||
@@ -5658,6 +5675,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             parseTTranslation(node, ctx) ||
             parseTTranslationContext(node, ctx) ||
             parseTKey(node, ctx) ||
@@ -5682,6 +5701,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5808,11 +5830,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {
                 type: 12 /* TDebug */,
                 content: parseNode(node, ctx),
             };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5879,6 +5904,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5942,12 +5970,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {
                 type: 13 /* TLog */,
                 expr,
                 content: parseNode(node, ctx),
             };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6015,6 +6046,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6303,12 +6337,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const body = parseNode(node, ctx);
         if (!body) {
             return null;
         }
         return { type: 10 /* TKey */, expr: key, content: body };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6379,6 +6416,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6546,7 +6586,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return { type: 6 /* TSet */, name, value, defaultValue, body };
+=======
+        return { type: 6 /* TSet */, name, value, defaultValue, body, hasNoRepresentation: true };
+>>>>>>> upstream/18.0
 =======
         return { type: 6 /* TSet */, name, value, defaultValue, body, hasNoRepresentation: true };
 >>>>>>> upstream/18.0
@@ -6805,7 +6849,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6870,6 +6917,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6934,11 +6984,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             type: 16 /* TTranslation */,
             content: parseNode(node, ctx),
         };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7002,6 +7055,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7065,7 +7121,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7134,6 +7193,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7199,12 +7261,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             type: 17 /* TTranslationContext */,
             content: parseNode(node, ctx),
             translationCtx,
         };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7268,6 +7333,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7371,7 +7439,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7436,6 +7507,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7507,7 +7581,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return { type: 3 /* Multi */, content: children };
+=======
+                return makeASTMulti(children);
+>>>>>>> upstream/18.0
 =======
                 return makeASTMulti(children);
 >>>>>>> upstream/18.0
@@ -7715,6 +7793,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const version = "2.7.0";
 =======
     const version = "2.8.0";
@@ -7787,6 +7866,9 @@
 >>>>>>> upstream/18.0
 =======
     const version = "2.8.0";
+>>>>>>> upstream/18.0
+=======
+    const version = "2.8.1";
 >>>>>>> upstream/18.0
 =======
     const version = "2.8.1";
@@ -8400,6 +8482,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     __info__.date = '2025-03-26T12:58:40.935Z';
     __info__.hash = 'e788e36';
 =======
@@ -8497,6 +8580,10 @@
 =======
     __info__.date = '2025-06-30T12:46:06.424Z';
     __info__.hash = 'b620502';
+>>>>>>> upstream/18.0
+=======
+    __info__.date = '2025-09-23T07:17:45.055Z';
+    __info__.hash = '5211116';
 >>>>>>> upstream/18.0
 =======
     __info__.date = '2025-09-23T07:17:45.055Z';

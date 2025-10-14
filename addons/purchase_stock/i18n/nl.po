@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* purchase_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -471,17 +472,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Manon Rondou, 2025
 # Wil Odoo, 2025
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -966,6 +973,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: nl\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-11 02:16+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2025\n"
@@ -974,6 +983,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -990,13 +1002,19 @@ msgstr "+ %d dag(en)"
 
 #. module: purchase_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "+ %s day(s)"
 msgstr ""
 
 #. module: purchase_stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_partner_view_purchase_buttons_inherit
 msgid "<span class=\"o_stat_text\">On-time Rate</span>"
@@ -1015,7 +1033,12 @@ msgstr "<span class=\"o_stat_value\">%</span>"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_order_view_form_inherit
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span invisible=\"on_time_rate &gt;= 0\">No On-time Delivery Data</span>"
+=======
+msgid ""
+"<span invisible=\"on_time_rate &gt;= 0\">No On-time Delivery Data</span>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span invisible=\"on_time_rate &gt;= 0\">No On-time Delivery Data</span>"
@@ -1036,6 +1059,7 @@ msgstr "<span>Verwacht: </span>"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1439,10 +1463,15 @@ msgstr "<strong class=\"d-block mt-3\">Afleveradres:</strong>"
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr "<strong class=\"d-block mt-3\">Afleveradres:</strong>"
 >>>>>>> upstream/18.0
+=======
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr "<strong class=\"d-block mt-3\">Afleveradres:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1763,10 +1792,14 @@ msgstr "<strong class=\"d-block mt-3\">Afleveradres</strong>"
 =======
 msgstr "<strong class=\"d-block mt-3\">Afleveradres</strong>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">Afleveradres</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2174,6 +2207,10 @@ msgstr "<strong>Incoterm:</strong>"
 msgid "<strong>Incoterm:</strong>"
 msgstr "<strong>Incoterm:</strong>"
 >>>>>>> upstream/18.0
+=======
+msgid "<strong>Incoterm:</strong>"
+msgstr "<strong>Incoterm:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__is_storable
@@ -2184,6 +2221,7 @@ msgstr "Een houdbaar product is een product waarvan je de voorraad beheert."
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__qty_received_method
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the received quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
@@ -2192,6 +2230,8 @@ msgstr ""
 "  - Handmatig: het aantal wordt handmatig op de regel ingesteld\n"
 "  - Voorraadbewegingen: het aantal is berekend op basis van de bevestigde pickings\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "According to product configuration, the received quantity can be "
 "automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
@@ -2202,6 +2242,9 @@ msgstr ""
 "  - Handmatig: het aantal wordt handmatig op de regel ingesteld\n"
 "  - Voorraadbewegingen: het aantal is berekend op basis van de bevestigde "
 "pickings\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_stock
@@ -2291,8 +2334,13 @@ msgstr "Dagen die nodig zijn om een inkooporder te bevestigen"
 msgid "Days needed to confirm a PO, define when a PO should be validated"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dagen die nodig zijn om een inkooporder te bevestigen, definieer wanneer een"
 " inkooporder moet worden bevestigd"
+=======
+"Dagen die nodig zijn om een inkooporder te bevestigen, definieer wanneer een "
+"inkooporder moet worden bevestigd"
+>>>>>>> upstream/18.0
 =======
 "Dagen die nodig zijn om een inkooporder te bevestigen, definieer wanneer een "
 "inkooporder moet worden bevestigd"
@@ -2325,9 +2373,15 @@ msgid ""
 "order, etc."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Afhankelijk van de geïnstalleerde modules geeft je dit de mogelijkheid om de"
 " route van het product aan te geven: waar het gekocht worden, gemaakt wordt,"
 " aangevuld wordt op de order, enz."
+=======
+"Afhankelijk van de geïnstalleerde modules geeft je dit de mogelijkheid om de "
+"route van het product aan te geven: waar het gekocht worden, gemaakt wordt, "
+"aangevuld wordt op de order, enz."
+>>>>>>> upstream/18.0
 =======
 "Afhankelijk van de geïnstalleerde modules geeft je dit de mogelijkheid om de "
 "route van het product aan te geven: waar het gekocht worden, gemaakt wordt, "
@@ -2487,8 +2541,13 @@ msgstr "Handmatige acties zijn mogelijk nodig."
 msgid ""
 "Margin of error for vendor lead times. When the system generates Purchase "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for reordering products,they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for reordering products,they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -2516,13 +2575,19 @@ msgstr "Volgende verplaatsing(en) beïnvloed:"
 
 #. module: purchase_stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "No Vendor Found"
 msgstr ""
 
 #. module: purchase_stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_partner_view_purchase_buttons_inherit
 msgid "No data yet"
@@ -2543,8 +2608,13 @@ msgstr "Niet ontvangen"
 #: code:addons/purchase_stock/models/stock_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odoo is not able to generate the anglo saxon entries. The total valuation of"
 " %s is zero."
+=======
+"Odoo is not able to generate the anglo saxon entries. The total valuation of "
+"%s is zero."
+>>>>>>> upstream/18.0
 =======
 "Odoo is not able to generate the anglo saxon entries. The total valuation of "
 "%s is zero."
@@ -2593,8 +2663,13 @@ msgstr "Aanvulregel"
 #: model:ir.model.fields,help:purchase_stock.field_res_users__on_time_rate
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Over the past x days; the number of products received on time divided by the"
 " number of ordered products.x is either the System Parameter "
+=======
+"Over the past x days; the number of products received on time divided by the "
+"number of ordered products.x is either the System Parameter "
+>>>>>>> upstream/18.0
 =======
 "Over the past x days; the number of products received on time divided by the "
 "number of ordered products.x is either the System Parameter "
@@ -2912,8 +2987,13 @@ msgstr ""
 msgid ""
 "The warehouse of operation type (%(operation_type)s) is inconsistent with "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "location (%(location)s) of reordering rule (%(reordering_rule)s) for product"
 " %(product)s. Change the operation type or cancel the request for quotation."
+=======
+"location (%(location)s) of reordering rule (%(reordering_rule)s) for product "
+"%(product)s. Change the operation type or cancel the request for quotation."
+>>>>>>> upstream/18.0
 =======
 "location (%(location)s) of reordering rule (%(reordering_rule)s) for product "
 "%(product)s. Change the operation type or cancel the request for quotation."
@@ -2928,9 +3008,15 @@ msgstr ""
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There is no matching vendor price to generate the purchase order for product"
 " %s (no vendor defined, minimum quantity not reached, dates not valid, ...)."
 " Go on the product form and complete the list of vendors."
+=======
+"There is no matching vendor price to generate the purchase order for product "
+"%s (no vendor defined, minimum quantity not reached, dates not valid, ...). "
+"Go on the product form and complete the list of vendors."
+>>>>>>> upstream/18.0
 =======
 "There is no matching vendor price to generate the purchase order for product "
 "%s (no vendor defined, minimum quantity not reached, dates not valid, ...). "
@@ -2951,8 +3037,13 @@ msgid ""
 "validating this vendor bill."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Deze rekening wordt gebruikt voor de automatische voorraadwaardering, om het"
 " prijsverschil tussen de inkooporder en de leveranciersfactuur te "
+=======
+"Deze rekening wordt gebruikt voor de automatische voorraadwaardering, om het "
+"prijsverschil tussen de inkooporder en de leveranciersfactuur te "
+>>>>>>> upstream/18.0
 =======
 "Deze rekening wordt gebruikt voor de automatische voorraadwaardering, om het "
 "prijsverschil tussen de inkooporder en de leveranciersfactuur te "
@@ -2972,17 +3063,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_purchase
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This adds a dropshipping route to apply on products in order to request your"
 " vendors to deliver to your customers. A product to dropship will generate a"
 " purchase request for quotation once the sales order confirmed. This is a "
 "on-demand flow. The requested delivery address will be the customer delivery"
 " address and not your warehouse."
 =======
+=======
+>>>>>>> upstream/18.0
 "This adds a dropshipping route to apply on products in order to request your "
 "vendors to deliver to your customers. A product to dropship will generate a "
 "purchase request for quotation once the sales order confirmed. This is a on-"
 "demand flow. The requested delivery address will be the customer delivery "
 "address and not your warehouse."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "Dit voegt een dropshipping-route toe, welke toegepast kan worden op "
@@ -3096,8 +3193,13 @@ msgstr ""
 msgid ""
 "When products are needed in <b>%s</b>, <br/> a request for quotation is "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "created to fulfill the need.<br/>Note: This rule will be used in combination"
 " with the rules<br/>of the reception route(s)"
+=======
+"created to fulfill the need.<br/>Note: This rule will be used in combination "
+"with the rules<br/>of the reception route(s)"
+>>>>>>> upstream/18.0
 =======
 "created to fulfill the need.<br/>Note: This rule will be used in combination "
 "with the rules<br/>of the reception route(s)"

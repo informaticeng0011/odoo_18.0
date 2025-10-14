@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* mrp_subcontracting
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -432,16 +433,22 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Fernanda Alvarez, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -877,6 +884,8 @@ msgstr ""
 "Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-11 02:17+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Fernanda Alvarez, 2025\n"
@@ -888,6 +897,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
@@ -961,8 +973,12 @@ msgid ""
 "Choose a vendor of type subcontractor if you want to subcontract the product"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Elija un proveedor del tipo subcontratista si desea subcontratar el "
 "producto."
+=======
+"Elija un proveedor del tipo subcontratista si desea subcontratar el producto."
+>>>>>>> upstream/18.0
 =======
 "Elija un proveedor del tipo subcontratista si desea subcontratar el producto."
 >>>>>>> upstream/18.0
@@ -1135,7 +1151,11 @@ msgid "Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Listo"
+=======
+msgstr "Disponible"
+>>>>>>> upstream/18.0
 =======
 msgstr "Disponible"
 >>>>>>> upstream/18.0
@@ -1513,8 +1533,13 @@ msgstr "¿Es una ubicación de subcontratación?"
 #: model:ir.model.fields,help:mrp_subcontracting.field_mrp_production__bom_product_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "List of Products used in the BoM, used to filter the list of products in the"
 " subcontracting portal view"
+=======
+"List of Products used in the BoM, used to filter the list of products in the "
+"subcontracting portal view"
+>>>>>>> upstream/18.0
 =======
 "List of Products used in the BoM, used to filter the list of products in the "
 "subcontracting portal view"
@@ -1608,8 +1633,13 @@ msgid ""
 "current state to 'Done'."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Los usuarios del portal no pueden crear movimientos de existencia con estado"
 " \"Hecho\" ni cambiar el estado actual a \"Hecho\"."
+=======
+"Los usuarios del portal no pueden crear movimientos de existencia con estado "
+"\"Hecho\" ni cambiar el estado actual a \"Hecho\"."
+>>>>>>> upstream/18.0
 =======
 "Los usuarios del portal no pueden crear movimientos de existencia con estado "
 "\"Hecho\" ni cambiar el estado actual a \"Hecho\"."
@@ -1853,8 +1883,14 @@ msgid ""
 "to this contact during a subcontracting process."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La ubicación de existencias que se utiliza como origen y destino al enviar"
 "        mercancía a este contacto durante el proceso de subcontratación."
+=======
+"La ubicación de existencias que se utiliza como origen y destino al "
+"enviar        mercancía a este contacto durante el proceso de "
+"subcontratación."
+>>>>>>> upstream/18.0
 =======
 "La ubicación de existencias que se utiliza como origen y destino al "
 "enviar        mercancía a este contacto durante el proceso de "
@@ -1871,8 +1907,13 @@ msgstr "Por el momento no hay producciones para su cuenta."
 #: code:addons/mrp_subcontracting/models/stock_picking.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There shouldn't be multiple productions to record for the same subcontracted"
 " move."
+=======
+"There shouldn't be multiple productions to record for the same subcontracted "
+"move."
+>>>>>>> upstream/18.0
 =======
 "There shouldn't be multiple productions to record for the same subcontracted "
 "move."
@@ -1919,8 +1960,13 @@ msgid ""
 msgstr ""
 "Asistente en caso de consumo en advertencia o estricto y si se utilizó una "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "mayor cantidad de componentes para una orden de fabricación (relacionado con"
 " la lista de materiales)"
+=======
+"mayor cantidad de componentes para una orden de fabricación (relacionado con "
+"la lista de materiales)"
+>>>>>>> upstream/18.0
 =======
 "mayor cantidad de componentes para una orden de fabricación (relacionado con "
 "la lista de materiales)"
@@ -1939,13 +1985,19 @@ msgstr ""
 #. module: mrp_subcontracting
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mrp_subcontracting/models/mrp_unbuild.py:0
 msgid "You can't unbuild a subcontracted Manufacturing Order."
 msgstr ""
 
 #. module: mrp_subcontracting
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/mrp_subcontracting/models/stock_location.py:0
 msgid "You cannot alter the company's subcontracting location"
@@ -1977,8 +2029,13 @@ msgid ""
 "components"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Debe indicar una cantidad consumida distinta a cero para al menos uno de sus"
 " componentes"
+=======
+"Debe indicar una cantidad consumida distinta a cero para al menos uno de sus "
+"componentes"
+>>>>>>> upstream/18.0
 =======
 "Debe indicar una cantidad consumida distinta a cero para al menos uno de sus "
 "componentes"

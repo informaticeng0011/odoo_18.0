@@ -6,8 +6,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 # 
+=======
+# * mrp
+#
+>>>>>>> upstream/18.0
 =======
 # * mrp
 #
@@ -61,7 +66,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Claes-Johan Dahlin <user-89@users.noreply.translate.odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Claes-Johan Dahlin <user-89@users.noreply.translate.odoo.com>, 2025.
 >>>>>>> upstream/18.0
@@ -84,6 +93,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -451,12 +461,17 @@ msgstr ""
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/mrp/sv/>"
 "\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-11 02:15+0000\n"
 "PO-Revision-Date: 2025-10-07 22:20+0000\n"
 "Last-Translator: Claes-Johan Dahlin "
 "<user-89@users.noreply.translate.odoo.com>\n"
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/mrp/sv/"
 ">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -469,6 +484,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -487,7 +505,12 @@ msgstr ""
 msgid ""
 " * Draft: The MO is not confirmed yet.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the components are trigerred.\n"
+=======
+" * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
+"components are trigerred.\n"
+>>>>>>> upstream/18.0
 =======
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
 "components are trigerred.\n"
@@ -499,7 +522,12 @@ msgid ""
 msgstr ""
 " * Utkast: MO är ännu inte bekräftat.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Bekräftad: MO är bekräftat, lagerreglerna och ombeställningen av komponenterna är utlöses.\n"
+=======
+" * Bekräftad: MO är bekräftat, lagerreglerna och ombeställningen av "
+"komponenterna är utlöses.\n"
+>>>>>>> upstream/18.0
 =======
 " * Bekräftad: MO är bekräftat, lagerreglerna och ombeställningen av "
 "komponenterna är utlöses.\n"
@@ -520,6 +548,7 @@ msgstr " <br/><br/> Komponenterna kommer att hämtas från <b>%s</b>."
 #: code:addons/mrp/models/stock_rule.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 " <br/><br/> The manufactured products will be moved towards "
 "<b>%(destination)s</b>, <br/> as specified from <b>%(operation)s</b> "
 "destination."
@@ -527,11 +556,16 @@ msgstr ""
 " <br/><br/> De tillverkade produkterna kommer att flyttas mot "
 "<b>%(destination)s</b>, <br/> som specificerat från <b>%(operation)s</b> "
 =======
+=======
+>>>>>>> upstream/18.0
 " <br/><br/> The manufactured products will be moved towards <b>%"
 "(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
 msgstr ""
 " <br/><br/> De tillverkade produkterna kommer att flyttas mot <b>%"
 "(destination)s</b>, <br/> som specificerat från <b>%(operation)s</b> "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "destination."
 
@@ -667,13 +701,19 @@ msgstr "+ %d dag(ar)"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "+ %s day(s)"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "- Overview"
@@ -694,12 +734,15 @@ msgid ""
 "1 Step: Consume components from stock and produce.\n"
 "              2 Steps: Pick components from stock and then produce.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              3 Steps: Pick components from stock, produce, and then move final product(s) from production area to stock."
 msgstr ""
 "1 Steg: Förbruka komponenter från lager och producera.\n"
 "              2 steg: Plocka komponenter från lager och sedan producera.\n"
 "              3 steg: Plocka komponenter från lager, producera och sedan flytta slutprodukten från produktionsområdet till lagret."
 =======
+=======
+>>>>>>> upstream/18.0
 "              3 Steps: Pick components from stock, produce, and then move "
 "final product(s) from production area to stock."
 msgstr ""
@@ -707,6 +750,9 @@ msgstr ""
 "              2 steg: Plocka komponenter från lager och sedan producera.\n"
 "              3 steg: Plocka komponenter från lager, producera och sedan "
 "flytta slutprodukten från produktionsområdet till lagret."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -769,6 +815,7 @@ msgstr ": timmar"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Paus\"/>"
 
@@ -782,6 +829,8 @@ msgstr "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Kö
 msgid "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
 msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stopp\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 msgstr ""
@@ -800,6 +849,9 @@ msgid ""
 "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
 msgstr ""
 "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stopp\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -810,7 +862,12 @@ msgid ""
 "                        Upload files to your product\n"
 "                    </p><p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Use this feature to store any files, like drawings or specifications.\n"
+=======
+"                        Use this feature to store any files, like drawings "
+"or specifications.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Use this feature to store any files, like drawings "
 "or specifications.\n"
@@ -821,7 +878,12 @@ msgstr ""
 "                        Ladda upp filer till din produkt\n"
 "                    </p><p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Använd den här funktionen för att lagra filer, t.ex. ritningar eller specifikationer.\n"
+=======
+"                        Använd den här funktionen för att lagra filer, t.ex. "
+"ritningar eller specifikationer.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Använd den här funktionen för att lagra filer, t.ex. "
 "ritningar eller specifikationer.\n"
@@ -946,8 +1008,13 @@ msgstr "<span class=\"o_stat_text\">Ouppbyggda</span>"
 msgid ""
 "<span class=\"text-muted\">Modifying the quantity to produce will also "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "modify the quantities of components to consume for this manufacturing "
 "order.</span>"
+=======
+"modify the quantities of components to consume for this manufacturing order."
+"</span>"
+>>>>>>> upstream/18.0
 =======
 "modify the quantities of components to consume for this manufacturing order."
 "</span>"
@@ -1125,17 +1192,23 @@ msgstr "? Detta kan leda till inkonsekvenser i din inventering."
 msgid ""
 "A BoM of type Kit is not produced with a manufacturing order.<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                Instead, it is used to decompose a BoM into its components when:"
 msgstr ""
 "En BoM av typen Kit produceras inte med en tillverkningsorder.<br/>\n"
 "                                Istället används den för att sönderdela en BoM i dess komponenter när:"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                Instead, it is used to decompose a BoM into "
 "its components when:"
 msgstr ""
 "En BoM av typen Kit produceras inte med en tillverkningsorder.<br/>\n"
 "                                Istället används den för att sönderdela en "
 "BoM i dess komponenter när:"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -1222,9 +1295,15 @@ msgid ""
 "the option: A + B = C + D."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Lägg till biprodukter i materialförteckningen. Detta kan användas för att få"
 " flera färdiga produkter också. Utan detta alternativ gör du bara: A + B = "
 "C. Med alternativet: A + B = C + D."
+=======
+"Lägg till biprodukter i materialförteckningen. Detta kan användas för att få "
+"flera färdiga produkter också. Utan detta alternativ gör du bara: A + B = C. "
+"Med alternativet: A + B = C + D."
+>>>>>>> upstream/18.0
 =======
 "Lägg till biprodukter i materialförteckningen. Detta kan användas för att få "
 "flera färdiga produkter också. Utan detta alternativ gör du bara: A + B = C. "
@@ -1273,12 +1352,15 @@ msgid ""
 "All product quantities must be greater or equal to 0.\n"
 "Lines with 0 quantities can be used as optional lines. \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You should install the mrp_byproduct module if you want to manage extra products on BoMs!"
 msgstr ""
 "Alla produktkvantiteter måste vara större än eller lika med 0.\n"
 "Rader med 0 kvantiteter kan användas som valfria rader.\n"
 "Du bör installera modulen mrp_byproduct om du vill hantera extra produkter på BoMs!"
 =======
+=======
+>>>>>>> upstream/18.0
 "You should install the mrp_byproduct module if you want to manage extra "
 "products on BoMs!"
 msgstr ""
@@ -1286,6 +1368,9 @@ msgstr ""
 "Rader med 0 kvantiteter kan användas som valfria rader.\n"
 "Du bör installera modulen mrp_byproduct om du vill hantera extra produkter "
 "på BoMs!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -1473,8 +1558,13 @@ msgid ""
 "number\" button is used."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Skriv automatiskt ut lot/SN-etiketten när knappen \"Skapa ett nytt "
 "serie-/lotnummer\" används."
+=======
+"Skriv automatiskt ut lot/SN-etiketten när knappen \"Skapa ett nytt serie-/"
+"lotnummer\" används."
+>>>>>>> upstream/18.0
 =======
 "Skriv automatiskt ut lot/SN-etiketten när knappen \"Skapa ett nytt serie-/"
 "lotnummer\" används."
@@ -1526,8 +1616,13 @@ msgid ""
 "Average lead time in days to manufacture this product. In the case of multi-"
 "level BOM, the manufacturing lead times of the components will be added. In "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "case the product is subcontracted, this can be used to determine the date at"
 " which components should be sent to the subcontractor."
+=======
+"case the product is subcontracted, this can be used to determine the date at "
+"which components should be sent to the subcontractor."
+>>>>>>> upstream/18.0
 =======
 "case the product is subcontracted, this can be used to determine the date at "
 "which components should be sent to the subcontractor."
@@ -1623,8 +1718,12 @@ msgstr "Backorder-sekvens"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__backorder_sequence
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Backorder sequence, if equals to 0 means there is not related backorder"
+=======
+msgid "Backorder sequence, if equals to 0 means there is not related backorder"
+>>>>>>> upstream/18.0
 =======
 msgid "Backorder sequence, if equals to 0 means there is not related backorder"
 >>>>>>> upstream/18.0
@@ -1709,8 +1808,13 @@ msgstr "Materialförteckningar"
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__production_bom_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bills of Materials, also called recipes, are used to autocomplete components"
 " and work order instructions."
+=======
+"Bills of Materials, also called recipes, are used to autocomplete components "
+"and work order instructions."
+>>>>>>> upstream/18.0
 =======
 "Bills of Materials, also called recipes, are used to autocomplete components "
 "and work order instructions."
@@ -1724,12 +1828,15 @@ msgstr ""
 msgid ""
 "Bills of materials allow you to define the list of required raw\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                materials used to make a finished product; through a manufacturing\n"
 "                order or a pack of products."
 msgstr ""
 "Med materialförteckningar kan du definiera listan över nödvändiga råvaror\n"
 "                material som används för att tillverka en färdig produkt, genom en\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                materials used to make a finished product; through a "
 "manufacturing\n"
 "                order or a pack of products."
@@ -1737,6 +1844,9 @@ msgstr ""
 "Med materialförteckningar kan du definiera listan över nödvändiga råvaror\n"
 "                material som används för att tillverka en färdig produkt, "
 "genom en\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                order eller ett paket av produkter."
 
@@ -2134,9 +2244,15 @@ msgstr "Beräknas baserat på registrerad tid"
 msgid ""
 "Compute the days required to resupply all components from BoM, by either "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "buying or manufacturing the components and/or subassemblies."
 "                                                       Also note that "
 "purchase security lead times will be added when appropriate."
+=======
+"buying or manufacturing the components and/or "
+"subassemblies.                                                       Also "
+"note that purchase security lead times will be added when appropriate."
+>>>>>>> upstream/18.0
 =======
 "buying or manufacturing the components and/or "
 "subassemblies.                                                       Also "
@@ -2333,8 +2449,13 @@ msgstr "Skapa en restorder"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_backorder_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create a backorder if you expect to process the remaining products later. Do"
 " not create a backorder if you will not process the remaining products."
+=======
+"Create a backorder if you expect to process the remaining products later. Do "
+"not create a backorder if you will not process the remaining products."
+>>>>>>> upstream/18.0
 =======
 "Create a backorder if you expect to process the remaining products later. Do "
 "not create a backorder if you will not process the remaining products."
@@ -2365,12 +2486,15 @@ msgstr "Skapa en ny prestanda för arbetsorder"
 #: model:ir.model.fields,help:mrp.field_mrp_bom__days_to_prepare_mo
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create and confirm Manufacturing Orders this many days in advance, to have enough time to replenish components or manufacture semi-finished products.\n"
 "Note that security lead times will also be considered when appropriate."
 msgstr ""
 "Skapa och bekräfta tillverkningsorder så många dagar i förväg att det finns tillräckligt med tid för att fylla på komponenter eller tillverka halvfabrikat.\n"
 "Observera att ledtider för säkerhet också kommer att beaktas när så är lämpligt."
 =======
+=======
+>>>>>>> upstream/18.0
 "Create and confirm Manufacturing Orders this many days in advance, to have "
 "enough time to replenish components or manufacture semi-finished products.\n"
 "Note that security lead times will also be considered when appropriate."
@@ -2380,6 +2504,9 @@ msgstr ""
 "halvfabrikat.\n"
 "Observera att ledtider för säkerhet också kommer att beaktas när så är "
 "lämpligt."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -2403,8 +2530,13 @@ msgid ""
 msgstr ""
 "Skapa beroenden på operationsnivå som kommer att påverka både planering och "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "status för arbetsorder vid bekräftelse av MO. Om denna funktion är ikryssad,"
 " och inget anges, kommer Odoo att anta att alla operationer kan startas "
+=======
+"status för arbetsorder vid bekräftelse av MO. Om denna funktion är ikryssad, "
+"och inget anges, kommer Odoo att anta att alla operationer kan startas "
+>>>>>>> upstream/18.0
 =======
 "status för arbetsorder vid bekräftelse av MO. Om denna funktion är ikryssad, "
 "och inget anges, kommer Odoo att anta att alla operationer kan startas "
@@ -2485,6 +2617,7 @@ msgstr "Valuta"
 msgid ""
 "Current quantity of products.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -2496,6 +2629,8 @@ msgstr ""
 "varor som är lagrade på lagerstället på denna butiks lagerplats, eller i något av dess underordnade lagerplatser.\n"
 "I annat fall omfattar detta varor som lagras på alla lagerställen av typen \"intern\"."
 =======
+=======
+>>>>>>> upstream/18.0
 "In a context with a single Stock Location, this includes goods stored at "
 "this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the "
@@ -2515,6 +2650,9 @@ msgstr ""
 "något av dess underordnade lagerplatser.\n"
 "I annat fall omfattar detta varor som lagras på alla lagerställen av typen "
 "\"intern\"."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -2605,8 +2743,13 @@ msgid ""
 "Default number of pieces (in product UoM) that can be produced in parallel "
 "(at the same time) at this work center. For example: the capacity is 5 and "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "you need to produce 10 units, then the operation time listed on the BOM will"
 " be multiplied by two. However, note that both time before and after "
+=======
+"you need to produce 10 units, then the operation time listed on the BOM will "
+"be multiplied by two. However, note that both time before and after "
+>>>>>>> upstream/18.0
 =======
 "you need to produce 10 units, then the operation time listed on the BOM will "
 "be multiplied by two. However, note that both time before and after "
@@ -2647,6 +2790,7 @@ msgstr ""
 #: model:ir.model.fields,help:mrp.field_mrp_bom__consumption
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines if you can consume more or less components than the quantity defined on the BoM:\n"
 "  * Allowed: allowed for all manufacturing users.\n"
 "  * Allowed with warning: allowed for all manufacturing users with summary of consumption differences when closing the manufacturing order.\n"
@@ -2659,6 +2803,8 @@ msgstr ""
 "Observera att i fallet med komponent Highlight Consumption, där förbrukningen registreras manuellt exklusivt, kommer förbrukningsvarningar fortfarande att utfärdas när så är lämpligt.\n"
 "* Blockerad: endast en chef kan stänga en tillverkningsorder när BoM-förbrukningen inte respekteras."
 =======
+=======
+>>>>>>> upstream/18.0
 "Defines if you can consume more or less components than the quantity defined "
 "on the BoM:\n"
 "  * Allowed: allowed for all manufacturing users.\n"
@@ -2681,6 +2827,9 @@ msgstr ""
 "fortfarande att utfärdas när så är lämpligt.\n"
 "* Blockerad: endast en chef kan stänga en tillverkningsorder när BoM-"
 "förbrukningen inte respekteras."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -2818,6 +2967,10 @@ msgstr "Demonteringsordning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -3435,6 +3588,7 @@ msgstr "Prognosrapport"
 msgid ""
 "Forecast quantity (computed as Quantity On Hand - Outgoing + Incoming)\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -3444,6 +3598,8 @@ msgstr ""
 "I ett sammanhang med en enda lagerplats omfattar detta varor som lagras på lagerstället för denna lagerplats eller någon av dess underordnade lagerplatser.\n"
 "I annat fall omfattar detta varor som lagras på alla lagerställen av typen \"intern\"."
 =======
+=======
+>>>>>>> upstream/18.0
 "In a context with a single Stock Location, this includes goods stored in "
 "this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the "
@@ -3460,6 +3616,9 @@ msgstr ""
 "lagerplatser.\n"
 "I annat fall omfattar detta varor som lagras på alla lagerställen av typen "
 "\"intern\"."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -3681,7 +3840,10 @@ msgstr "Har routinglinjer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3864,6 +4026,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4084,9 +4249,15 @@ msgid ""
 "will too"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Om markerat, när det föregående draget i draget (som genererades av en nästa"
 " upphandling) avbryts eller delas, kommer draget som genereras av detta drag"
 " också att"
+=======
+"Om markerat, när det föregående draget i draget (som genererades av en nästa "
+"upphandling) avbryts eller delas, kommer draget som genereras av detta drag "
+"också att"
+>>>>>>> upstream/18.0
 =======
 "Om markerat, när det föregående draget i draget (som genererades av en nästa "
 "upphandling) avbryts eller delas, kommer draget som genereras av detta drag "
@@ -4133,8 +4304,13 @@ msgstr ""
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_mrp_product_labels
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a MO when it is done."
+=======
+"If this checkbox is ticked, Odoo will automatically print the product labels "
+"of a MO when it is done."
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, Odoo will automatically print the product labels "
 "of a MO when it is done."
@@ -4168,8 +4344,12 @@ msgstr "Importmall för materiallistor"
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible to plan the workorder. Please check the workcenter "
 "availabilities."
+=======
+"Impossible to plan the workorder. Please check the workcenter availabilities."
+>>>>>>> upstream/18.0
 =======
 "Impossible to plan the workorder. Please check the workcenter availabilities."
 >>>>>>> upstream/18.0
@@ -4229,8 +4409,12 @@ msgstr "Lager flyttas"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__move_line_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Inventory moves for which you must scan a lot number at this work order"
+=======
+msgid "Inventory moves for which you must scan a lot number at this work order"
+>>>>>>> upstream/18.0
 =======
 msgid "Inventory moves for which you must scan a lot number at this work order"
 >>>>>>> upstream/18.0
@@ -4462,17 +4646,23 @@ msgstr "Lämna"
 msgid ""
 "Leave hidden if document only accessible on product form.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Select Bill of Materials to visualise this document as a product attachment when this product is in a bill of material."
 msgstr ""
 "Lämna dold om dokumentet endast är tillgängligt på produktformuläret.\n"
 "Välj Bill of Materials för att visualisera det här dokumentet som en produktbilaga när produkten finns i en materialförteckning."
 =======
+=======
+>>>>>>> upstream/18.0
 "Select Bill of Materials to visualise this document as a product attachment "
 "when this product is in a bill of material."
 msgstr ""
 "Lämna dold om dokumentet endast är tillgängligt på produktformuläret.\n"
 "Välj Bill of Materials för att visualisera det här dokumentet som en "
 "produktbilaga när produkten finns i en materialförteckning."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -4507,8 +4697,12 @@ msgid ""
 "order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Plats dit du vill skicka de komponenter som är resultatet av rivnings-"
 "ordern."
+=======
+"Plats dit du vill skicka de komponenter som är resultatet av rivnings-ordern."
+>>>>>>> upstream/18.0
 =======
 "Plats dit du vill skicka de komponenter som är resultatet av rivnings-ordern."
 >>>>>>> upstream/18.0
@@ -4856,12 +5050,15 @@ msgstr "Dagar för insyn i tillverkningen"
 #: model_terms:ir.actions.act_window,help:mrp.mrp_workcenter_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc."
 msgstr ""
 "Tillverkningsåtgärde bearbetas på produktionsgrupp. En produktionsgrupp kan bestå av\n"
 "arbetare och/eller maskiner, de används för kostnadsberäkning, schemaläggning, kapacitetsplanering etc."
 =======
+=======
+>>>>>>> upstream/18.0
 "Manufacturing operations are processed at Work Centers. A Work Center can be "
 "composed of\n"
 "                workers and/or machines, they are used for costing, "
@@ -4871,11 +5068,15 @@ msgstr ""
 "bestå av\n"
 "arbetare och/eller maskiner, de används för kostnadsberäkning, "
 "schemaläggning, kapacitetsplanering etc."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.mrp_workcenter_kanban_action
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc.\n"
@@ -4884,6 +5085,8 @@ msgstr ""
 "Tillverkningsåtgärd bearbetas på produktionsgrupp. En produktionsgrupp kan bestå av\n"
 "arbetare och/eller maskiner, de används för kostnadsberäkning, schemaläggning, kapacitetsplanering, etc.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Manufacturing operations are processed at Work Centers. A Work Center can be "
 "composed of\n"
 "                workers and/or machines, they are used for costing, "
@@ -4894,6 +5097,9 @@ msgstr ""
 "bestå av\n"
 "arbetare och/eller maskiner, de används för kostnadsberäkning, "
 "schemaläggning, kapacitetsplanering, etc.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "De kan definieras via konfigurationsmenyn."
 
@@ -4904,12 +5110,15 @@ msgid ""
 "Manufacturing readiness for this MO, as per bill of material configuration:\n"
 "            * Ready: The material is available to start the production.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            * Waiting: The material is not available to start the production.\n"
 msgstr ""
 "Tillverkningsberedskap för denna MO, enligt konfigurationen för stycklista:\n"
 "            * Klar: Materialet är tillgängligt för att starta produktionen.\n"
 "            * Väntar: Materialet är inte tillgängligt för att starta produktionen.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            * Waiting: The material is not available to start the "
 "production.\n"
 msgstr ""
@@ -4917,6 +5126,9 @@ msgstr ""
 "            * Klar: Materialet är tillgängligt för att starta produktionen.\n"
 "            * Väntar: Materialet är inte tillgängligt för att starta "
 "produktionen.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -5099,13 +5311,19 @@ msgstr "Ingen restorder"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "No BoM Found"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid "No bill of materials found. Let's create one!"
@@ -5198,8 +5416,13 @@ msgstr ""
 "Observera att arkiverade arbetscenter: '%s' fortfarande är kopplade till "
 "aktiva produktlistor, vilket innebär att operationer fortfarande kan "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "planeras på det/dem. För att förhindra detta rekommenderas istället radering"
 " av arbetsstället."
+=======
+"planeras på det/dem. För att förhindra detta rekommenderas istället radering "
+"av arbetsstället."
+>>>>>>> upstream/18.0
 =======
 "planeras på det/dem. För att förhindra detta rekommenderas istället radering "
 "av arbetsstället."
@@ -5214,8 +5437,13 @@ msgid ""
 msgstr ""
 "Observera att produkt(er): '%s' är fortfarande kopplad till aktiv "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "produktlista, vilket innebär att produkten fortfarande kan användas på "
 "den/dem."
+=======
+"produktlista, vilket innebär att produkten fortfarande kan användas på den/"
+"dem."
+>>>>>>> upstream/18.0
 =======
 "produktlista, vilket innebär att produkten fortfarande kan användas på den/"
 "dem."
@@ -5322,6 +5550,7 @@ msgstr "Mål för OEE"
 msgid ""
 "Odoo opens a PDF preview by default. If you want to print instantly,\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                install the IoT App on a computer that is on the same local network as the\n"
 "                                barcode operator and configure the routing of the reports."
 msgstr ""
@@ -5329,6 +5558,8 @@ msgstr ""
 "                                installera IoT-appen på en dator som är ansluten till samma lokala nätverk som streckkodsoperatören\n"
 "                                streckkodsoperatören och konfigurera routningen av rapporterna."
 =======
+=======
+>>>>>>> upstream/18.0
 "                                install the IoT App on a computer that is on "
 "the same local network as the\n"
 "                                barcode operator and configure the routing "
@@ -5340,6 +5571,9 @@ msgstr ""
 "ansluten till samma lokala nätverk som streckkodsoperatören\n"
 "                                streckkodsoperatören och konfigurera "
 "routningen av rapporterna."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -5408,17 +5642,23 @@ msgstr "Operationstyp"
 msgid ""
 "Operation define that need to be done to realize a Work Order.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Each operation is done at a specific Work Center and has a specific duration."
 msgstr ""
 "Åtgärd definierar vad som behöver göras för att tillverka en arbetsorder.\n"
 "Varje åtgärd görs på ett specifikt produktionsgrupp och har en specifik varaktighet."
 =======
+=======
+>>>>>>> upstream/18.0
 "                Each operation is done at a specific Work Center and has a "
 "specific duration."
 msgstr ""
 "Åtgärd definierar vad som behöver göras för att tillverka en arbetsorder.\n"
 "Varje åtgärd görs på ett specifikt produktionsgrupp och har en specifik "
 "varaktighet."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -6328,8 +6568,12 @@ msgstr "Referensen måste vara unik per bolag!"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__origin
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Reference of the document that generated this production order request."
+=======
+msgid "Reference of the document that generated this production order request."
+>>>>>>> upstream/18.0
 =======
 msgid "Reference of the document that generated this production order request."
 >>>>>>> upstream/18.0
@@ -6704,12 +6948,15 @@ msgstr ""
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some work orders are already done, so you cannot unplan this manufacturing order.\n"
 "\n"
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
 "Vissa arbetsorder är redan klara, så du kan inte avplanera den här tillverkningsordern.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Some work orders are already done, so you cannot unplan this manufacturing "
 "order.\n"
 "\n"
@@ -6717,6 +6964,9 @@ msgstr ""
 msgstr ""
 "Vissa arbetsorder är redan klara, så du kan inte avplanera den här "
 "tillverkningsordern.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "\n"
 "Det vore synd att slösa bort alla dessa framsteg, eller hur?"
@@ -6726,12 +6976,15 @@ msgstr ""
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some work orders have already started, so you cannot unplan this manufacturing order.\n"
 "\n"
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
 "Vissa arbetsorder har redan startat, så du kan inte avplanera den här tillverkningsordern.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Some work orders have already started, so you cannot unplan this "
 "manufacturing order.\n"
 "\n"
@@ -6739,6 +6992,9 @@ msgstr ""
 msgstr ""
 "Vissa arbetsorder har redan startat, så du kan inte avplanera den här "
 "tillverkningsordern.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "\n"
 "Det vore synd att slösa bort alla dessa framsteg, eller hur?"
@@ -6761,8 +7017,12 @@ msgstr "Särskild kapacitet"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__capacity_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Specific number of pieces that can be produced in parallel per product."
+=======
+msgid "Specific number of pieces that can be produced in parallel per product."
+>>>>>>> upstream/18.0
 =======
 msgid "Specific number of pieces that can be produced in parallel per product."
 >>>>>>> upstream/18.0
@@ -7000,8 +7260,12 @@ msgstr "Tekniskt fält för arbetscentervyer"
 msgid "Technical field to check if produce all button can be shown"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tekniskt fält för att kontrollera om knappen för att producera allt kan "
 "visas"
+=======
+"Tekniskt fält för att kontrollera om knappen för att producera allt kan visas"
+>>>>>>> upstream/18.0
 =======
 "Tekniskt fält för att kontrollera om knappen för att producera allt kan visas"
 >>>>>>> upstream/18.0
@@ -7125,8 +7389,13 @@ msgid ""
 msgstr ""
 "Den procentuella andelen av den slutliga produktionskostnaden för denna "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "biprodukt. Summan av alla biprodukters kostnadsandel måste vara mindre eller"
 " lika med 100."
+=======
+"biprodukt. Summan av alla biprodukters kostnadsandel måste vara mindre eller "
+"lika med 100."
+>>>>>>> upstream/18.0
 =======
 "biprodukt. Summan av alla biprodukters kostnadsandel måste vara mindre eller "
 "lika med 100."
@@ -7151,9 +7420,15 @@ msgid ""
 "create a new one with a new bill of materials."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Produkten har redan använts minst en gång och att redigera dess struktur kan"
 " leda till oönskade beteenden. Du bör hellre arkivera produkten och skapa en"
 " ny med en ny materialförteckning."
+=======
+"Produkten har redan använts minst en gång och att redigera dess struktur kan "
+"leda till oönskade beteenden. Du bör hellre arkivera produkten och skapa en "
+"ny med en ny materialförteckning."
+>>>>>>> upstream/18.0
 =======
 "Produkten har redan använts minst en gång och att redigera dess struktur kan "
 "leda till oönskade beteenden. Du bör hellre arkivera produkten och skapa en "
@@ -7184,8 +7459,13 @@ msgstr "Mängden som ska byggas bort måste vara positiv!"
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The serial number %(number)s used for byproduct %(product_name)s has already"
 " been produced"
+=======
+"The serial number %(number)s used for byproduct %(product_name)s has already "
+"been produced"
+>>>>>>> upstream/18.0
 =======
 "The serial number %(number)s used for byproduct %(product_name)s has already "
 "been produced"
@@ -7202,8 +7482,13 @@ msgid ""
 "been consumed"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Det serienummer %(number)s som används för komponent %(component)s har redan"
 " förbrukat"
+=======
+"Det serienummer %(number)s som används för komponent %(component)s har redan "
+"förbrukat"
+>>>>>>> upstream/18.0
 =======
 "Det serienummer %(number)s som används för komponent %(component)s har redan "
 "förbrukat"
@@ -7288,8 +7573,13 @@ msgstr ""
 "Det här fältet används för att beräkna den förväntade tidsåtgången för en "
 "arbetsorder på det här produktionsgrupp. Om en arbetsorder till exempel tar "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "en timme och effektivitetsfaktorn är 100 % är den förväntade tidsåtgången en"
 " timme. Om effektivitetsfaktorn är 200 % kommer den förväntade tidsåtgången "
+=======
+"en timme och effektivitetsfaktorn är 100 % är den förväntade tidsåtgången en "
+"timme. Om effektivitetsfaktorn är 200 % kommer den förväntade tidsåtgången "
+>>>>>>> upstream/18.0
 =======
 "en timme och effektivitetsfaktorn är 100 % är den förväntade tidsåtgången en "
 "timme. Om effektivitetsfaktorn är 200 % kommer den förväntade tidsåtgången "
@@ -7323,12 +7613,15 @@ msgstr "Detta är den kostnad som anges för produkten."
 #: model_terms:ir.actions.act_window,help:mrp.action_mrp_unbuild_moves
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                You can filter on the product to see all the past movements for the product."
 msgstr ""
 "Denna meny ger dig fullständig spårbarhet över lagerhanteringen för en specifik produkt.\n"
 "                Du kan filtrera på produkten för att se alla tidigare rörelser för produkten."
 =======
+=======
+>>>>>>> upstream/18.0
 "This menu gives you the full traceability of inventory operations on a "
 "specific product.\n"
 "                You can filter on the product to see all the past movements "
@@ -7338,6 +7631,9 @@ msgstr ""
 "specifik produkt.\n"
 "                Du kan filtrera på produkten för att se alla tidigare "
 "rörelser för produkten."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -7773,8 +8069,13 @@ msgid ""
 "components: i.e. 1 Table = 4 Table Legs + 1 Table Top"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Använd tillverkningsorder (MO) för att bygga färdiga produkter samtidigt som"
 " du förbrukar komponenter: t.ex. 1 bord = 4 bordsben + 1 bordsskiva"
+=======
+"Använd tillverkningsorder (MO) för att bygga färdiga produkter samtidigt som "
+"du förbrukar komponenter: t.ex. 1 bord = 4 bordsben + 1 bordsskiva"
+>>>>>>> upstream/18.0
 =======
 "Använd tillverkningsorder (MO) för att bygga färdiga produkter samtidigt som "
 "du förbrukar komponenter: t.ex. 1 bord = 4 bordsben + 1 bordsskiva"
@@ -7835,6 +8136,7 @@ msgstr "Bekräfta"
 msgid ""
 "Values cannot be set and validated because a Lot/Serial Number needs to be "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "specified for a tracked product that is having its consumed amount "
 "increased:%(products)s"
 msgstr ""
@@ -7842,11 +8144,16 @@ msgstr ""
 "måste anges för en spårad produkt vars förbrukade mängd har "
 "ökat:%(products)s"
 =======
+=======
+>>>>>>> upstream/18.0
 "specified for a tracked product that is having its consumed amount increased:"
 "%(products)s"
 msgstr ""
 "Värden kan inte ställas in och bekräftas eftersom ett parti-/serienummer "
 "måste anges för en spårad produkt vars förbrukade mängd har ökat:%(products)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -7911,8 +8218,12 @@ msgstr "Väntar på komponenter"
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Waiting the previous work order, planned from %(start)s to %(end)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Väntar på föregående arbetsorder, planerad från %(start)s till %(end)s"
+=======
+msgstr "Väntar på föregående arbetsorder, planerad från %(start)s till %(end)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Väntar på föregående arbetsorder, planerad från %(start)s till %(end)s"
 >>>>>>> upstream/18.0
@@ -7971,6 +8282,7 @@ msgstr "Webbplatsens kommunikationshistorik"
 msgid ""
 "When a procurement has a ‘produce’ route with a operation type set, it will "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "try to create a Manufacturing Order for that product using a BoM of the same"
 " operation type. That allows to define stock rules which trigger different "
 "manufacturing orders with different BoMs."
@@ -7978,12 +8290,17 @@ msgstr ""
 "När en upphandling har en \"producera\"-väg med en fastställd operationstyp,"
 " kommer den att försöka skapa en tillverkningsorder för den produkten med "
 =======
+=======
+>>>>>>> upstream/18.0
 "try to create a Manufacturing Order for that product using a BoM of the same "
 "operation type. That allows to define stock rules which trigger different "
 "manufacturing orders with different BoMs."
 msgstr ""
 "När en upphandling har en \"producera\"-väg med en fastställd operationstyp, "
 "kommer den att försöka skapa en tillverkningsorder för den produkten med "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "hjälp av en BoM av samma operationstyp. Detta gör det möjligt att definiera "
 "lagerregler som utlöser olika tillverkningsorder med olika BoM."
@@ -7993,12 +8310,15 @@ msgstr ""
 #: model:ir.model.fields,help:mrp.field_stock_move__manual_consumption
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When activated, then the registration of consumption for that component is recorded manually exclusively.\n"
 "If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also."
 msgstr ""
 "Om den är aktiverad registreras förbrukningen för den komponenten endast manuellt.\n"
 "Om den inte är aktiverad, och någon av komponenternas förbrukning redigeras manuellt på tillverkningsordern, antar Odoo också manuell förbrukning."
 =======
+=======
+>>>>>>> upstream/18.0
 "When activated, then the registration of consumption for that component is "
 "recorded manually exclusively.\n"
 "If not activated, and any of the components consumption is edited manually "
@@ -8008,6 +8328,9 @@ msgstr ""
 "manuellt.\n"
 "Om den inte är aktiverad, och någon av komponenternas förbrukning redigeras "
 "manuellt på tillverkningsordern, antar Odoo också manuell förbrukning."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -8029,8 +8352,13 @@ msgid ""
 "created to fulfill the need."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "När produkter behövs i <b>%s</b>, <br/> skapas en tillverkningsorder för att"
 " tillgodose behovet."
+=======
+"När produkter behövs i <b>%s</b>, <br/> skapas en tillverkningsorder för att "
+"tillgodose behovet."
+>>>>>>> upstream/18.0
 =======
 "När produkter behövs i <b>%s</b>, <br/> skapas en tillverkningsorder för att "
 "tillgodose behovet."
@@ -8056,8 +8384,13 @@ msgid ""
 "used for a MO (related to the bom)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Wizard vid konsumtion i varning/strikt och mer komponent har använts för ett"
 " MO (relaterat till bom)"
+=======
+"Wizard vid konsumtion i varning/strikt och mer komponent har använts för ett "
+"MO (relaterat till bom)"
+>>>>>>> upstream/18.0
 =======
 "Wizard vid konsumtion i varning/strikt och mer komponent har använts för ett "
 "MO (relaterat till bom)"
@@ -8171,8 +8504,13 @@ msgid ""
 "the required components."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Arbetsorderåtgärder låter dig skapa och hantera de tillverkningsåtgärder som"
 " bör följas inom dina produktionsgrupp för att producera en produkt. De är "
+=======
+"Arbetsorderåtgärder låter dig skapa och hantera de tillverkningsåtgärder som "
+"bör följas inom dina produktionsgrupp för att producera en produkt. De är "
+>>>>>>> upstream/18.0
 =======
 "Arbetsorderåtgärder låter dig skapa och hantera de tillverkningsåtgärder som "
 "bör följas inom dina produktionsgrupp för att producera en produkt. De är "
@@ -8226,11 +8564,14 @@ msgstr "Produktionsgrupp"
 msgid ""
 "Work orders are operations to do as part of a manufacturing order.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
 "Arbetsorder är operationer som ska utföras som en del av en tillverkningsorder.\n"
 "                    Aktiviteterna definieras i materialförteckningar eller läggs till direkt i tillverkningsordern."
 =======
+=======
+>>>>>>> upstream/18.0
 "                    Operations are defined in the bill of materials or added "
 "in the manufacturing order directly."
 msgstr ""
@@ -8238,6 +8579,9 @@ msgstr ""
 "tillverkningsorder.\n"
 "                    Aktiviteterna definieras i materialförteckningar eller "
 "läggs till direkt i tillverkningsordern."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -8248,11 +8592,14 @@ msgstr ""
 msgid ""
 "Work orders are operations to do as part of a manufacturing order.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
 "Arbetsorder är operationer som ska utföras som en del av en tillverkningsorder.\n"
 "            Aktiviteterna definieras i materialförteckningen eller läggs till direkt i tillverkningsordern."
 =======
+=======
+>>>>>>> upstream/18.0
 "            Operations are defined in the bill of materials or added in the "
 "manufacturing order directly."
 msgstr ""
@@ -8260,6 +8607,9 @@ msgstr ""
 "tillverkningsorder.\n"
 "            Aktiviteterna definieras i materialförteckningen eller läggs "
 "till direkt i tillverkningsordern."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -8428,8 +8778,12 @@ msgstr "Du kan bara slå samman tillverkning med samma stat."
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the workcenter of a work order that is in progress or "
 "done."
+=======
+"You cannot change the workcenter of a work order that is in progress or done."
+>>>>>>> upstream/18.0
 =======
 "You cannot change the workcenter of a work order that is in progress or done."
 >>>>>>> upstream/18.0
@@ -8513,6 +8867,7 @@ msgid ""
 "                        </b>\n"
 "                        <b invisible=\"consumption != 'strict'\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Please review your component consumption or ask a manager to validate\n"
 "                            <span invisible=\"mrp_production_count != 1\">this manufacturing order</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\">these manufacturing orders</span>.\n"
@@ -8541,6 +8896,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "                            Please review your component consumption or ask "
 "a manager to validate\n"
 "                            <span invisible=\"mrp_production_count != "
@@ -8549,6 +8906,9 @@ msgstr ""
 "1\">these manufacturing orders</span>.\n"
 "                        </b>"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Du har konsumerat en annan mängd än förväntat för följande produkter.\n"
 "                        <b invisible=\"consumption == 'strict'\">\n"
@@ -8557,6 +8917,7 @@ msgstr ""
 "                        <b invisible=\"consumption != 'strict'\">\n"
 "                            Kontrollera din komponentförbrukning eller be en "
 "chef att validera den.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                            <span invisible=\"mrp_production_count != 1\""
 ">denna tillverkningsorder</span>\n"
@@ -8576,10 +8937,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "                            <span invisible=\"mrp_production_count != "
 "1\">denna tillverkningsorder</span>\n"
 "                            <span invisible=\"mrp_production_count == "
 "1\">dessa tillverkningsorder</span>.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </b>"
 
@@ -8598,8 +8964,13 @@ msgid ""
 "Productivity Losses."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du måste definiera minst en produktivitetsförlust i kategorin \"Prestanda\"."
 " Skapa en från appen Tillverkning, meny: Konfiguration / "
+=======
+"Du måste definiera minst en produktivitetsförlust i kategorin \"Prestanda\". "
+"Skapa en från appen Tillverkning, meny: Konfiguration / "
+>>>>>>> upstream/18.0
 =======
 "Du måste definiera minst en produktivitetsförlust i kategorin \"Prestanda\". "
 "Skapa en från appen Tillverkning, meny: Konfiguration / "
@@ -8612,8 +8983,13 @@ msgstr ""
 msgid ""
 "You need to define at least one productivity loss in the category "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Productivity'. Create one from the Manufacturing app, menu: Configuration /"
 " Productivity Losses."
+=======
+"'Productivity'. Create one from the Manufacturing app, menu: Configuration / "
+"Productivity Losses."
+>>>>>>> upstream/18.0
 =======
 "'Productivity'. Create one from the Manufacturing app, menu: Configuration / "
 "Productivity Losses."
@@ -8646,17 +9022,23 @@ msgstr "Du måste tillhandahålla mycket för den färdiga produkten."
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to supply Lot/Serial Number for products and 'consume' them: "
 "%(missing_products)s"
 msgstr ""
 "Du måste ange Lot/Serial-nummer för produkter och \"konsumera\" dem: "
 "%(missing_products)s"
 =======
+=======
+>>>>>>> upstream/18.0
 "You need to supply Lot/Serial Number for products and 'consume' them: %"
 "(missing_products)s"
 msgstr ""
 "Du måste ange Lot/Serial-nummer för produkter och \"konsumera\" dem: %"
 "(missing_products)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -8877,6 +9259,7 @@ msgstr "arbetsorder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -8897,6 +9280,8 @@ msgstr "{{ props.isFolded ? \"Fäll ut\" : \"Fäll in\" }}"
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr "{{ state.isFolded ? \"Fäll ut\" : \"Fäll in\" }}"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

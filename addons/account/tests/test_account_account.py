@@ -416,7 +416,10 @@ class TestAccountAccount(TestAccountMergeCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env.invalidate_all()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1221,6 +1224,10 @@ class TestAccountAccount(TestAccountMergeCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            account_form.account_type = 'asset_current'
+>>>>>>> upstream/18.0
 =======
             account_form.account_type = 'asset_current'
 >>>>>>> upstream/18.0
@@ -1495,3 +1502,39 @@ class TestAccountAccount(TestAccountMergeCommon):
         invoice.line_ids._compute_account_id()
 
         self.assertEqual(invoice.invoice_line_ids.account_id, self.company_data['default_account_revenue'])
+<<<<<<< HEAD
+=======
+
+    def test_access_to_parent_accounts_from_branch(self):
+        """ Ensure that a user with access to a branch can access to the accounts of the parent company """
+        parent_company = self.env['res.company'].create([{
+            'name': "Parent Company",
+        }])
+        branch = self.env['res.company'].create([{
+            'name': "Branch Company",
+            'parent_id': parent_company.id,
+        }])
+        self.env['account.account'].create([{
+            'name': 'Parent Account',
+            'code': '444719',
+            'company_ids': [Command.link(parent_company.id)]
+        }])
+        # create a user with account rights and access to the branch company only
+        branch_user = self.env['res.users'].create({
+            'login': 'branch',
+            'name': 'XYZ',
+            'email': 'xyz@example.com',
+            'groups_id': [Command.link(self.env.ref('account.group_account_user').id)],
+            'company_ids': [Command.link(branch.id)],
+            'company_id': branch.id,
+        })
+
+        parent_accounts = self.env['account.account'].search([('company_ids', '=', parent_company.id)])
+        self.assertEqual(len(parent_accounts), 1, "There should be 1 account in the parent company")
+
+        branch_accounts = self.env['account.account'].search([('company_ids', '=', branch.id)])
+        self.assertEqual(len(branch_accounts), 0, "There should be no account in the branch company")
+        # get the accounts from the parent company with the branch user
+        accounts = self.env['account.account'].with_user(branch_user.id).search([('company_ids', 'parent_of', [branch.id])])
+        self.assertEqual(len(accounts), 1, "Branch user should have access to the accounts of the parent company")
+>>>>>>> upstream/18.0

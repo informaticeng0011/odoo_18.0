@@ -210,7 +210,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stage_ids = stages.sudo()._search(search_domain, order=stages._order)
+=======
+        stage_ids = stages._search(search_domain, order=stages._order)
+>>>>>>> upstream/18.0
 =======
         stage_ids = stages._search(search_domain, order=stages._order)
 >>>>>>> upstream/18.0
@@ -620,7 +624,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     website_message_ids = fields.One2many(domain=lambda self: [('model', '=', self._name), ('message_type', 'in', ['email', 'comment', 'email_outgoing'])], export_string_translation=False)
+=======
+    website_message_ids = fields.One2many(domain=lambda self: [('model', '=', self._name), ('message_type', 'in', ['email', 'comment', 'email_outgoing', 'auto_comment'])], export_string_translation=False)
+>>>>>>> upstream/18.0
 =======
     website_message_ids = fields.One2many(domain=lambda self: [('model', '=', self._name), ('message_type', 'in', ['email', 'comment', 'email_outgoing', 'auto_comment'])], export_string_translation=False)
 >>>>>>> upstream/18.0
@@ -998,6 +1006,7 @@ class Task(models.Model):
     @api.depends('project_id', 'parent_id')
     def _compute_show_display_in_project(self):
         for task in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1609,6 +1618,11 @@ class Task(models.Model):
 
     @api.depends('stage_id', 'depend_on_ids.state')
 >>>>>>> upstream/18.0
+=======
+            task.show_display_in_project = bool(task.parent_id) and task.project_id == task.parent_id.sudo().project_id
+
+    @api.depends('stage_id', 'depend_on_ids.state')
+>>>>>>> upstream/18.0
     def _compute_state(self):
         for task in self:
             dependent_open_tasks = []
@@ -1834,7 +1848,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             project_followers = self.project_id.message_follower_ids.filtered(lambda f: f.partner_id.id in partner_ids)
+=======
+            project_followers = self.project_id.sudo().message_follower_ids.filtered(lambda f: f.partner_id.id in partner_ids)
+>>>>>>> upstream/18.0
 =======
             project_followers = self.project_id.sudo().message_follower_ids.filtered(lambda f: f.partner_id.id in partner_ids)
 >>>>>>> upstream/18.0
@@ -2714,7 +2732,10 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2797,8 +2818,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 **{key[8:]: value for key, value in self.env.context.items() if key.startswith("default_")},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2843,6 +2867,9 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2909,6 +2936,9 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3119,7 +3149,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self._ensure_fields_are_accessible(vals.keys(), operation='write', check_group_user=False)
+=======
+                self._ensure_fields_write(vals, check_group_user=False, defaults=True)
+>>>>>>> upstream/18.0
 =======
                 self._ensure_fields_write(vals, check_group_user=False, defaults=True)
 >>>>>>> upstream/18.0
@@ -3335,7 +3369,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._ensure_fields_are_accessible(vals.keys(), operation='write', check_group_user=False)
+=======
+            self._ensure_fields_write(vals, check_group_user=False, defaults=False)
+>>>>>>> upstream/18.0
 =======
             self._ensure_fields_write(vals, check_group_user=False, defaults=False)
 >>>>>>> upstream/18.0
@@ -4270,7 +4308,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'url': f"/odoo/1/action-project.act_project_project_2_project_task_all/{self.id}?menu_id={menu_id}",
+=======
+            'url': f"/odoo/{self.project_id.id}/action-project.act_project_project_2_project_task_all/{self.id}?menu_id={menu_id}",
+>>>>>>> upstream/18.0
 =======
             'url': f"/odoo/{self.project_id.id}/action-project.act_project_project_2_project_task_all/{self.id}?menu_id={menu_id}",
 >>>>>>> upstream/18.0

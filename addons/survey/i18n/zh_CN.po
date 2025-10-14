@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* survey
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -13,7 +17,11 @@
 # Chloe Wang, 2025
 # Wil Odoo, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -21,6 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -31,6 +40,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: zh_CN\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-11 02:16+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -40,6 +51,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -222,7 +236,12 @@ msgstr ""
 msgid ""
 "<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Completed</span>"
+=======
+"                                    <span class=\"text-muted\">Completed</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"text-muted\">Completed</"
 "span>"
@@ -236,7 +255,12 @@ msgstr ""
 msgid ""
 "<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Registered</span>"
+=======
+"                                    <span class=\"text-muted\">Registered</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"text-muted\">Registered</"
 "span>"
@@ -253,6 +277,7 @@ msgstr "<br/> <span>由</span>"
 #. module: survey
 #: model:mail.template,body_html:survey.mail_template_certification
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
@@ -276,6 +301,8 @@ msgid ""
 "                </p>\n"
 "                <p>Congratulations for passing the test with a score of <strong t-out=\"object.scoring_percentage\"/>%!</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-"
 "family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
@@ -307,6 +334,9 @@ msgid ""
 "                </p>\n"
 "                <p>Congratulations for passing the test with a score of "
 "<strong t-out=\"object.scoring_percentage\"/>%!</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </td></tr>\n"
 "        </tbody>\n"
@@ -315,7 +345,12 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
+=======
+"<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-"
+"family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
+>>>>>>> upstream/18.0
 =======
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-"
 "family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
@@ -324,6 +359,7 @@ msgstr ""
 "        <tbody>\n"
 "            <tr><td>\n"
 "                <!-- 我们使用公司的标志创建调查（处理多公司案例）。 -->\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                <a href=\"/\"><img t-if=\"not object.survey_id.create_uid.company_id.uses_default_logo\" t-attf-src=\"/logo.png?company={{ object.survey_id.create_uid.company_id.id }}\" style=\"vertical-align:baseline;max-width:100px;\"/></a>\n"
 "            </td><td style=\"text-align:right;vertical-align:middle;\">\n"
@@ -342,6 +378,8 @@ msgstr ""
 "                </p>\n"
 "                <p>祝贺您通过测试！您的得分为<strong t-out=\"object.scoring_percentage\"/>%！</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                <a href=\"/\"><img t-if=\"not "
 "object.survey_id.create_uid.company_id.uses_default_logo\" t-attf-src=\"/"
 "logo.png?company={{ object.survey_id.create_uid.company_id.id }}\" "
@@ -366,6 +404,9 @@ msgstr ""
 "                </p>\n"
 "                <p>祝贺您通过测试！您的得分为<strong t-"
 "out=\"object.scoring_percentage\"/>%！</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </td></tr>\n"
 "        </tbody>\n"
@@ -379,7 +420,12 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'participant'\">participant</t><br/><br/>\n"
+=======
+"        Dear <t t-out=\"object.partner_id.name or "
+"'participant'\">participant</t><br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "        Dear <t t-out=\"object.partner_id.name or "
 "'participant'\">participant</t><br/><br/>\n"
@@ -389,11 +435,14 @@ msgid ""
 "        </t>\n"
 "        <t t-else=\"\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            We are conducting a survey and your response would be appreciated.\n"
 "        </t>\n"
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            We are conducting a survey and your response would be "
 "appreciated.\n"
 "        </t>\n"
@@ -401,6 +450,9 @@ msgid ""
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
 "color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px; font-size:13px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                <t t-if=\"object.survey_id.certification\">\n"
 "                    Start Certification\n"
@@ -412,7 +464,12 @@ msgid ""
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Please answer the survey for <t t-out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+=======
+"            Please answer the survey for <t t-"
+"out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "            Please answer the survey for <t t-"
 "out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
@@ -431,7 +488,12 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        亲爱的<t t-out=\"object.partner_id.name or 'participant'\">用户</t><br/><br/>，\n"
+=======
+"        亲爱的<t t-out=\"object.partner_id.name or 'participant'\">用户</"
+"t><br/><br/>，\n"
+>>>>>>> upstream/18.0
 =======
 "        亲爱的<t t-out=\"object.partner_id.name or 'participant'\">用户</"
 "t><br/><br/>，\n"
@@ -444,7 +506,13 @@ msgstr ""
 "        </t>\n"
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+=======
+"            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
+"color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
+"#fff; border-radius: 5px; font-size:13px;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
 "color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
@@ -460,7 +528,12 @@ msgstr ""
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            请于 <t t-out=\"format_date(object.deadline) or ''\">2021 年 5 月 5 日</t>之前完成问卷调查。<br/><br/>\n"
+=======
+"            请于 <t t-out=\"format_date(object.deadline) or ''\">2021 年 5 "
+"月 5 日</t>之前完成问卷调查。<br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "            请于 <t t-out=\"format_date(object.deadline) or ''\">2021 年 5 "
 "月 5 日</t>之前完成问卷调查。<br/><br/>\n"
@@ -525,7 +598,13 @@ msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/> It is currently not possible to "
 "pass this assessment because no question is configured to give any points."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-exclamation-triangle\"/> 目前还无法通过该评估，因为没有任何问题可以给分。"
+=======
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle\"/> 目前还无法通过该评估，因为没有任何"
+"问题可以给分。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/> 目前还无法通过该评估，因为没有任何"
@@ -536,17 +615,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download certification\" title=\"Download certification\"/>\n"
 "                                        Download certification"
 msgstr ""
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"下载证书\" title=\"下载证书\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download "
 "certification\" title=\"Download certification\"/>\n"
 "                                        Download certification"
 msgstr ""
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"下载证书\" "
 "title=\"下载证书\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                        下载证书"
 
@@ -556,7 +641,13 @@ msgid ""
 "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" "
 "title=\"Arrow\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"箭头图标\" title=\"箭头\"/>"
+=======
+msgstr ""
+"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"箭头图标\" title=\"箭头"
+"\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"箭头图标\" title=\"箭头"
@@ -577,45 +668,63 @@ msgstr "<i class=\"oi oi-fw oi-arrow-right\"/>前往调查"
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">Avg</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">平均</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Avg</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">平均</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">Max</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">最大</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Max</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">最大</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">Min</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">最小</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Min</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">最小</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -632,12 +741,15 @@ msgstr ""
 msgid ""
 "<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span id=\"enter-tooltip\">or press Enter</span>\n"
 "                        </span>"
 msgstr ""
 "<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\">\n"
 "                            <span id=\"enter-tooltip\">或者按下Enter键</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            <span id=\"enter-tooltip\">or press Enter</"
 "span>\n"
 "                        </span>"
@@ -645,6 +757,9 @@ msgstr ""
 "<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\">\n"
 "                            <span id=\"enter-tooltip\">或者按下Enter键</"
 "span>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </span>"
 
@@ -668,12 +783,15 @@ msgstr "<span class=\"mx-1\">-</span>"
 #: model_terms:ir.ui.view,arch_db:survey.res_partner_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_stat_text\" invisible=\"certifications_company_count &lt; 2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_company_count &gt; 1\">Certification</span>"
 msgstr ""
 "<span class=\"o_stat_text\" invisible=\"certifications_company_count &lt; 2\">认证</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_company_count &gt; 1\">认证</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text\" invisible=\"certifications_company_count &lt; "
 "2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" "
@@ -683,11 +801,15 @@ msgstr ""
 "2\">认证</span>\n"
 "                        <span class=\"o_stat_text\" "
 "invisible=\"certifications_company_count &gt; 1\">认证</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.res_partner_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span class=\"o_stat_text\" invisible=\"certifications_count &lt; 2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_count &gt; 1\">Certification</span>"
@@ -695,6 +817,8 @@ msgstr ""
 "<span class=\"o_stat_text\" invisible=\"certifications_count &lt; 2\">认证</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_count &gt; 1\">认证</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text\" invisible=\"certifications_count &lt; "
 "2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" "
@@ -704,11 +828,15 @@ msgstr ""
 "span>\n"
 "                        <span class=\"o_stat_text\" "
 "invisible=\"certifications_count &gt; 1\">认证</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">or"
 " press Enter</span>"
@@ -716,11 +844,16 @@ msgstr ""
 "<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-"
 "inline\">或者按下Enter键</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">or "
 "press Enter</span>"
 msgstr ""
 "<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">或"
 "者按下Enter键</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -739,12 +872,15 @@ msgstr ""
 msgid ""
 "<span class=\"o_survey_results_topbar_clear_filters text-primary\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-trash me-1\"/>Remove all filters\n"
 "                            </span>"
 msgstr ""
 "<span class=\"o_survey_results_topbar_clear_filters text-primary\">\n"
 "                               <i class=\"fa fa-trash me-1\"/>移除所有过滤器\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                <i class=\"fa fa-trash me-1\"/>Remove all "
 "filters\n"
 "                            </span>"
@@ -752,6 +888,9 @@ msgstr ""
 "<span class=\"o_survey_results_topbar_clear_filters text-primary\">\n"
 "                               <i class=\"fa fa-trash me-1\"/>移除所有过滤"
 "器\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                            </span>"
 
@@ -864,6 +1003,7 @@ msgstr "<span>仅限失败</span>"
 msgid ""
 "<span>How many ...?</span><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-2x\" role=\"img\" aria-label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 "                                    <i class=\"fa fa-2x fa-sort\" role=\"img\" aria-label=\"Numeric\"/>"
 msgstr ""
@@ -871,6 +1011,8 @@ msgstr ""
 "                                    <i class=\"fa fa-2x\" role=\"img\" aria-label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 "                                    <i class=\"fa fa-2x fa-sort\" role=\"img\" aria-label=\"Numeric\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-2x\" role=\"img\" aria-"
 "label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 "                                    <i class=\"fa fa-2x fa-sort\" "
@@ -881,14 +1023,21 @@ msgstr ""
 "label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 "                                    <i class=\"fa fa-2x fa-sort\" "
 "role=\"img\" aria-label=\"Numeric\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:survey.question,description:survey.survey_demo_quiz_p5_q1
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>If you don't like us, please try to be as objective as "
 "possible.</span>"
+=======
+"<span>If you don't like us, please try to be as objective as possible.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>If you don't like us, please try to be as objective as possible.</span>"
 >>>>>>> upstream/18.0
@@ -899,17 +1048,23 @@ msgstr "<span>如果您不喜欢我们，请尽量保持客观。</span>"
 msgid ""
 "<span>Name all the animals</span><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-align-justify fa-4x\" role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
 msgstr ""
 "<span>命名所有的动物</span><br/>\n"
 "                                    <i class=\"fa fa-align-justify fa-4x\" role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-align-justify fa-4x\" "
 "role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
 msgstr ""
 "<span>命名所有的动物</span><br/>\n"
 "                                    <i class=\"fa fa-align-justify fa-4x\" "
 "role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -917,17 +1072,23 @@ msgstr ""
 msgid ""
 "<span>Name one animal</span><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-minus fa-4x\" role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
 msgstr ""
 "<span>命名一种动物</span><br/>\n"
 "                                    <i class=\"fa fa-minus fa-4x\" role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-minus fa-4x\" "
 "role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
 msgstr ""
 "<span>命名一种动物</span><br/>\n"
 "                                    <i class=\"fa fa-minus fa-4x\" "
 "role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -1375,6 +1536,10 @@ msgstr "参与者正在回答问题…"
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating
 >>>>>>> upstream/18.0
@@ -1691,7 +1856,12 @@ msgstr "颜色指标"
 #: code:addons/survey/models/survey_survey.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Combining roaming and \"Scoring with answers after each page\" is not possible; please update the following surveys:\n"
+=======
+"Combining roaming and \"Scoring with answers after each page\" is not "
+"possible; please update the following surveys:\n"
+>>>>>>> upstream/18.0
 =======
 "Combining roaming and \"Scoring with answers after each page\" is not "
 "possible; please update the following surveys:\n"
@@ -2035,6 +2205,10 @@ msgstr "截止日期"
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
 >>>>>>> upstream/18.0
@@ -2302,13 +2476,19 @@ msgstr "食物偏好"
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/survey/models/survey_question.py:0
 msgid "For this question, you can only select one answer."
 msgstr ""
 
 #. module: survey
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:survey.selection__survey_user_input_line__answer_type__text_box
 msgid "Free Text"
@@ -2356,12 +2536,18 @@ msgstr "从您的员工和客户那里收集反馈"
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating_time_limit
 msgid "General Time limit (seconds)"
 msgstr ""
 
 #. module: survey
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p2
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p1_q1_sug1
@@ -2558,7 +2744,13 @@ msgid ""
 "I actually don't like thinking. I think people think I like to think a lot. "
 "And I don't. I do not like to think at all."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "其实我不喜欢思考。我认为人们认为我喜欢思考很多。而我不喜欢。我根本不喜欢思考。"
+=======
+msgstr ""
+"其实我不喜欢思考。我认为人们认为我喜欢思考很多。而我不喜欢。我根本不喜欢思"
+"考。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "其实我不喜欢思考。我认为人们认为我喜欢思考很多。而我不喜欢。我根本不喜欢思"
@@ -2571,7 +2763,13 @@ msgid ""
 "I am fascinated by air. If you remove the air from the sky, all the birds "
 "would fall to the ground. And all the planes, too."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "我对空气很着迷。如果您把空气从天空中移走，所有的鸟都会掉到地上。也包括所有的飞机。"
+=======
+msgstr ""
+"我对空气很着迷。如果您把空气从天空中移走，所有的鸟都会掉到地上。也包括所有的"
+"飞机。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "我对空气很着迷。如果您把空气从天空中移走，所有的鸟都会掉到地上。也包括所有的"
@@ -2697,7 +2895,13 @@ msgid ""
 "If randomized is selected, you can configure the number of random questions "
 "by section. This mode is ignored in live session."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果选择了随机化，您可以按章节配置随机问题的数量。这种模式在现场会议中被忽略。"
+=======
+msgstr ""
+"如果选择了随机化，您可以按章节配置随机问题的数量。这种模式在现场会议中被忽"
+"略。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果选择了随机化，您可以按章节配置随机问题的数量。这种模式在现场会议中被忽"
@@ -2757,8 +2961,13 @@ msgstr "盆景技术起源于哪个国家？"
 #: model:ir.model.fields,help:survey.field_survey_question__is_scored_question
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Include this question as part of quiz scoring. Requires an answer and answer"
 " score to be taken into account."
+=======
+"Include this question as part of quiz scoring. Requires an answer and answer "
+"score to be taken into account."
+>>>>>>> upstream/18.0
 =======
 "Include this question as part of quiz scoring. Requires an answer and answer "
 "score to be taken into account."
@@ -2919,7 +3128,13 @@ msgid ""
 "I’ve never really wanted to go to Japan. Simply because I don’t like eating "
 "fish. And I know that’s very popular out there in Africa."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "我从来没有真正想过要去日本。只是因为我不喜欢吃鱼。而我知道这在非洲是非常流行的。"
+=======
+msgstr ""
+"我从来没有真正想过要去日本。只是因为我不喜欢吃鱼。而我知道这在非洲是非常流行"
+"的。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "我从来没有真正想过要去日本。只是因为我不喜欢吃鱼。而我知道这在非洲是非常流行"
@@ -2970,8 +3185,13 @@ msgstr "标签用于提出选择:行矩阵"
 #: model:ir.model.fields,help:survey.field_survey_question__suggested_answer_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Labels used for proposed choices: simple choice, multiple choice and columns"
 " of matrix"
+=======
+"Labels used for proposed choices: simple choice, multiple choice and columns "
+"of matrix"
+>>>>>>> upstream/18.0
 =======
 "Labels used for proposed choices: simple choice, multiple choice and columns "
 "of matrix"
@@ -3667,7 +3887,12 @@ msgstr "哎呀！没有与此代码匹配的调查。"
 #: model_terms:ir.ui.view,arch_db:survey.survey_access_error
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Oopsie! We could not let you open this survey. Make sure you are using the correct link and are allowed to\n"
+=======
+"Oopsie! We could not let you open this survey. Make sure you are using the "
+"correct link and are allowed to\n"
+>>>>>>> upstream/18.0
 =======
 "Oopsie! We could not let you open this survey. Make sure you are using the "
 "correct link and are allowed to\n"
@@ -3699,17 +3924,23 @@ msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
 "发送邮件时可选择的翻译代码（ISO 代码）。如果未设置，将使用英文版本。一般使用占位符确定适当语言，例如{{ "
 "object.partner_id.lang }}。"
 =======
+=======
+>>>>>>> upstream/18.0
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 msgstr ""
 "发送邮件时可选择的翻译代码（ISO 代码）。如果未设置，将使用英文版本。一般使用"
 "占位符确定适当语言，例如{{ object.partner_id.lang }}。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -3909,8 +4140,13 @@ msgstr "占位符"
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please complete this very short survey to let us know how satisfied your are"
 " with our products."
+=======
+"Please complete this very short survey to let us know how satisfied your are "
+"with our products."
+>>>>>>> upstream/18.0
 =======
 "Please complete this very short survey to let us know how satisfied your are "
 "with our products."
@@ -3934,7 +4170,13 @@ msgid ""
 "Please make sure you have at least one question in your survey. You also "
 "need at least one section if you chose the \"Page per section\" layout.<br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "请确保您的调查中至少有一个问题。您还需要至少一个节如果您选择“页面每节”布局。<br/>"
+=======
+msgstr ""
+"请确保您的调查中至少有一个问题。您还需要至少一个节如果您选择“页面每节”布局。"
+"<br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "请确保您的调查中至少有一个问题。您还需要至少一个节如果您选择“页面每节”布局。"
@@ -4213,6 +4455,10 @@ msgstr "检查您的答案"
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating
 >>>>>>> upstream/18.0
@@ -4970,7 +5216,12 @@ msgstr "谢谢您，我们会尽快联系您。"
 #: code:addons/survey/models/survey_survey.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The access of the following surveys is restricted. Make sure their responsible still has access to it: \n"
+=======
+"The access of the following surveys is restricted. Make sure their "
+"responsible still has access to it: \n"
+>>>>>>> upstream/18.0
 =======
 "The access of the following surveys is restricted. Make sure their "
 "responsible still has access to it: \n"
@@ -4997,8 +5248,13 @@ msgstr "您输入的答案无效。"
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_attempts_limit_check
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The attempts limit needs to be a positive number if the survey has a limited"
 " number of attempts."
+=======
+"The attempts limit needs to be a positive number if the survey has a limited "
+"number of attempts."
+>>>>>>> upstream/18.0
 =======
 "The attempts limit needs to be a positive number if the survey has a limited "
 "number of attempts."
@@ -5032,7 +5288,13 @@ msgid ""
 "use this to give the purpose and guidelines to your candidates before they "
 "start it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "描述将显示在调查的主页上。您可以使用此功能在您的候选人开始之前为其提供目的和指导。"
+=======
+msgstr ""
+"描述将显示在调查的主页上。您可以使用此功能在您的候选人开始之前为其提供目的和"
+"指导。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "描述将显示在调查的主页上。您可以使用此功能在您的候选人开始之前为其提供目的和"
@@ -5058,7 +5320,13 @@ msgid ""
 "The following recipients have no user account: %s. You should create user "
 "accounts for them or allow external signup in configuration."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "以下收件人没有用户账户： %s 您应该为它们创建用户账户或允许在配置中进行外部注册。"
+=======
+msgstr ""
+"以下收件人没有用户账户： %s 您应该为它们创建用户账户或允许在配置中进行外部注"
+"册。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "以下收件人没有用户账户： %s 您应该为它们创建用户账户或允许在配置中进行外部注"
@@ -5116,8 +5384,13 @@ msgstr "调查时间是有限的"
 #: model:ir.model.fields,help:survey.field_survey_survey__session_question_start_time
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The time at which the current question has started, used to handle the timer"
 " for attendees."
+=======
+"The time at which the current question has started, used to handle the timer "
+"for attendees."
+>>>>>>> upstream/18.0
 =======
 "The time at which the current question has started, used to handle the timer "
 "for attendees."
@@ -5182,8 +5455,13 @@ msgstr "此答案必须是电子邮件地址。"
 #: model:ir.model.fields,help:survey.field_survey_survey__session_code
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This code will be used by your attendees to reach your session. Feel free to"
 " customize it however you like!"
+=======
+"This code will be used by your attendees to reach your session. Feel free to "
+"customize it however you like!"
+>>>>>>> upstream/18.0
 =======
 "This code will be used by your attendees to reach your session. Feel free to "
 "customize it however you like!"
@@ -5251,7 +5529,12 @@ msgstr "这个小测验将测试您对我们公司的了解程度。请做好准
 #: model_terms:survey.survey,description:survey.survey_feedback
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This survey allows you to give a feedback about your experience with our products.\n"
+=======
+"This survey allows you to give a feedback about your experience with our "
+"products.\n"
+>>>>>>> upstream/18.0
 =======
 "This survey allows you to give a feedback about your experience with our "
 "products.\n"
@@ -5266,8 +5549,13 @@ msgstr ""
 #: code:addons/survey/wizard/survey_invite.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This survey does not allow external people to participate. You should create"
 " user accounts or update survey access mode accordingly."
+=======
+"This survey does not allow external people to participate. You should create "
+"user accounts or update survey access mode accordingly."
+>>>>>>> upstream/18.0
 =======
 "This survey does not allow external people to participate. You should create "
 "user accounts or update survey access mode accordingly."
@@ -5341,7 +5629,12 @@ msgid ""
 "To take this survey, please close all other tabs on <strong class=\"text-"
 "danger\"/>."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "要参加此调查，请关闭浏览器所有其他的选项卡 <strong class=“text-danger”/>."
+=======
+msgstr ""
+"要参加此调查，请关闭浏览器所有其他的选项卡 <strong class=“text-danger”/>."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "要参加此调查，请关闭浏览器所有其他的选项卡 <strong class=“text-danger”/>."
@@ -5397,7 +5690,12 @@ msgstr "触发问题"
 #: code:addons/survey/static/src/views/widgets/survey_question_trigger/survey_question_trigger.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Triggers based on the following questions will not work because they are positioned after this question:\n"
+=======
+"Triggers based on the following questions will not work because they are "
+"positioned after this question:\n"
+>>>>>>> upstream/18.0
 =======
 "Triggers based on the following questions will not work because they are "
 "positioned after this question:\n"
@@ -5849,17 +6147,23 @@ msgstr "如果可能的话，您更喜欢素食餐吗？"
 msgid ""
 "YYYY-MM-DD\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "YYYY-MM-DD\n"
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "YYYY-MM-DD\n"
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -5867,17 +6171,23 @@ msgstr ""
 msgid ""
 "YYYY-MM-DD hh:mm:ss\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "YYYY-MM-DD hh:mm:ss\n"
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "YYYY-MM-DD hh:mm:ss\n"
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -5903,8 +6213,12 @@ msgstr "是的，那是人眼唯一能看到的东西。"
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_certification_check
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can only create certifications for surveys that have a scoring "
 "mechanism."
+=======
+"You can only create certifications for surveys that have a scoring mechanism."
+>>>>>>> upstream/18.0
 =======
 "You can only create certifications for surveys that have a scoring mechanism."
 >>>>>>> upstream/18.0
@@ -5916,7 +6230,12 @@ msgid ""
 "You can share your links through different means: email, invite shortcut, "
 "live presentation, ..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您可以通过不同的方式共享您的链接：电子邮件，邀请快捷方式，实时演示，..."
+=======
+msgstr ""
+"您可以通过不同的方式共享您的链接：电子邮件，邀请快捷方式，实时演示，..."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "您可以通过不同的方式共享您的链接：电子邮件，邀请快捷方式，实时演示，..."
@@ -6031,7 +6350,12 @@ msgstr "关闭"
 msgid ""
 "e.g.  'Rick Sanchez' <rick_sanchez@example.com>, hictor_vugo@example.com"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "例如：'Rick Sanchez' <rick_sanchez@example.com>, hictor_vugo@example.com"
+=======
+msgstr ""
+"例如：'Rick Sanchez' <rick_sanchez@example.com>, hictor_vugo@example.com"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "例如：'Rick Sanchez' <rick_sanchez@example.com>, hictor_vugo@example.com"

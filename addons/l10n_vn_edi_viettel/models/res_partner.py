@@ -38,7 +38,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     invoice_edi_format = fields.Selection(selection_add=[('vn_sinvoice', 'SInvoice file')])
+=======
+    invoice_edi_format = fields.Selection(selection_add=[('vn_sinvoice', 'Vietnam (SInvoice)')])
+>>>>>>> upstream/18.0
 =======
     invoice_edi_format = fields.Selection(selection_add=[('vn_sinvoice', 'Vietnam (SInvoice)')])
 >>>>>>> upstream/18.0

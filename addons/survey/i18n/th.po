@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* survey
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Rasareeyar Lappiam, 2025
 # Wil Odoo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Rasareeyar Lappiam, 2025
 # Wil Odoo, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: th\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-11 02:16+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -218,17 +230,23 @@ msgstr ""
 msgid ""
 "<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Completed</span>"
 msgstr ""
 "<br/>\n"
 "                                    <span class=\"text-muted\">เสร็จสมบูรณ์</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <span class=\"text-muted\">Completed</"
 "span>"
 msgstr ""
 "<br/>\n"
 "                                    <span class=\"text-muted\">เสร็จสมบูรณ์</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -236,17 +254,23 @@ msgstr ""
 msgid ""
 "<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Registered</span>"
 msgstr ""
 "<br/>\n"
 "                                    <span class=\"text-muted\">ลงทะเบียน</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <span class=\"text-muted\">Registered</"
 "span>"
 msgstr ""
 "<br/>\n"
 "                                    <span class=\"text-muted\">ลงทะเบียน</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -257,6 +281,7 @@ msgstr "<br/> <span>โดย</span>"
 #. module: survey
 #: model:mail.template,body_html:survey.mail_template_certification
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
@@ -280,6 +305,8 @@ msgid ""
 "                </p>\n"
 "                <p>Congratulations for passing the test with a score of <strong t-out=\"object.scoring_percentage\"/>%!</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-"
 "family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
@@ -311,6 +338,9 @@ msgid ""
 "                </p>\n"
 "                <p>Congratulations for passing the test with a score of "
 "<strong t-out=\"object.scoring_percentage\"/>%!</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </td></tr>\n"
 "        </tbody>\n"
@@ -318,6 +348,7 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
@@ -341,6 +372,8 @@ msgstr ""
 "                </p>\n"
 "                <p>ขอแสดงความยินดีที่ผ่านการทดสอบด้วยคะแนน<strong t-out=\"object.scoring_percentage\"/>%!</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-"
 "family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
@@ -372,6 +405,9 @@ msgstr ""
 "                </p>\n"
 "                <p>ขอแสดงความยินดีที่ผ่านการทดสอบด้วยคะแนน<strong t-"
 "out=\"object.scoring_percentage\"/>%!</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </td></tr>\n"
 "        </tbody>\n"
@@ -385,7 +421,12 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'participant'\">participant</t><br/><br/>\n"
+=======
+"        Dear <t t-out=\"object.partner_id.name or "
+"'participant'\">participant</t><br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "        Dear <t t-out=\"object.partner_id.name or "
 "'participant'\">participant</t><br/><br/>\n"
@@ -395,11 +436,14 @@ msgid ""
 "        </t>\n"
 "        <t t-else=\"\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            We are conducting a survey and your response would be appreciated.\n"
 "        </t>\n"
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            We are conducting a survey and your response would be "
 "appreciated.\n"
 "        </t>\n"
@@ -407,6 +451,9 @@ msgid ""
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
 "color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px; font-size:13px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                <t t-if=\"object.survey_id.certification\">\n"
 "                    Start Certification\n"
@@ -418,7 +465,12 @@ msgid ""
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Please answer the survey for <t t-out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+=======
+"            Please answer the survey for <t t-"
+"out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "            Please answer the survey for <t t-"
 "out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
@@ -437,7 +489,12 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        เรียน <t t-out=\"object.partner_id.name or 'participant'\">ผู้เข้าร่วม</t><br/><br/>\n"
+=======
+"        เรียน <t t-out=\"object.partner_id.name or 'participant'\">ผู้เข้าร่วม</"
+"t><br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "        เรียน <t t-out=\"object.partner_id.name or 'participant'\">ผู้เข้าร่วม</"
 "t><br/><br/>\n"
@@ -449,14 +506,20 @@ msgstr ""
 "            เรากำลังดำเนินการสำรวจ และขอบคุณสำหรับคำตอบของคุณ\n"
 "        </t>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <p style=\"margin: 0px; padding: 0px; font-size: 13px;\"><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <p style=\"margin: 0px; padding: 0px; font-size: 13px;\"><div "
 "style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
 "color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px; font-size:13px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                <t t-if=\"object.survey_id.certification\">\n"
 "                    เริ่มการรับรอง\n"
@@ -468,7 +531,12 @@ msgstr ""
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            กรุณาตอบแบบสอบถามสำหรับ <t t-out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+=======
+"            กรุณาตอบแบบสอบถามสำหรับ <t t-out=\"format_date(object.deadline) or "
+"''\">05/05/2021</t>.<br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "            กรุณาตอบแบบสอบถามสำหรับ <t t-out=\"format_date(object.deadline) or "
 "''\">05/05/2021</t>.<br/><br/>\n"
@@ -534,8 +602,12 @@ msgid ""
 "pass this assessment because no question is configured to give any points."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-exclamation-triangle\"/> "
 "ขณะนี้ยังไม่สามารถผ่านการประเมินนี้ได้ "
+=======
+"<i class=\"fa fa-exclamation-triangle\"/> ขณะนี้ยังไม่สามารถผ่านการประเมินนี้ได้ "
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-exclamation-triangle\"/> ขณะนี้ยังไม่สามารถผ่านการประเมินนี้ได้ "
 >>>>>>> upstream/18.0
@@ -545,17 +617,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download certification\" title=\"Download certification\"/>\n"
 "                                        Download certification"
 msgstr ""
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download certification\" title=\"Download certification\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download "
 "certification\" title=\"Download certification\"/>\n"
 "                                        Download certification"
 msgstr ""
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download "
 "certification\" title=\"Download certification\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                        ดาวน์โหลดใบรับรอง"
 
@@ -582,21 +660,28 @@ msgstr "<i class=\"oi oi-fw oi-arrow-right\"/>ไปที่แบบสอบ�
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">Avg</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">เฉลี่ย</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Avg</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">เฉลี่ย</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">Max</span>"
@@ -604,15 +689,21 @@ msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">สูงสุด "
 "</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Max</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">สูงสุด </"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">Min</span>"
@@ -620,10 +711,15 @@ msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">ขั้นต่ำ</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Min</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">ขั้นต่ำ</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -640,7 +736,12 @@ msgstr ""
 msgid ""
 "<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span id=\"enter-tooltip\">or press Enter</span>\n"
+=======
+"                            <span id=\"enter-tooltip\">or press Enter</"
+"span>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <span id=\"enter-tooltip\">or press Enter</"
 "span>\n"
@@ -671,12 +772,15 @@ msgstr "<span class=\"mx-1\">-</span>"
 #: model_terms:ir.ui.view,arch_db:survey.res_partner_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_stat_text\" invisible=\"certifications_company_count &lt; 2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_company_count &gt; 1\">Certification</span>"
 msgstr ""
 "<span class=\"o_stat_text\" invisible=\"certifications_company_count &lt; 2\">ใบรับรอง</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_company_count &gt; 1\">ใบรับรอง</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text\" invisible=\"certifications_company_count &lt; "
 "2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" "
@@ -686,11 +790,15 @@ msgstr ""
 "2\">ใบรับรอง</span>\n"
 "                        <span class=\"o_stat_text\" "
 "invisible=\"certifications_company_count &gt; 1\">ใบรับรอง</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.res_partner_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span class=\"o_stat_text\" invisible=\"certifications_count &lt; 2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_count &gt; 1\">Certification</span>"
@@ -698,6 +806,8 @@ msgstr ""
 "<span class=\"o_stat_text\" invisible=\"certifications_count &lt; 2\">ใบรับรอง</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_count &gt; 1\">ใบรับรอง</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text\" invisible=\"certifications_count &lt; "
 "2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" "
@@ -707,14 +817,22 @@ msgstr ""
 "2\">ใบรับรอง</span>\n"
 "                        <span class=\"o_stat_text\" "
 "invisible=\"certifications_count &gt; 1\">ใบรับรอง</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">or"
 " press Enter</span>"
+=======
+"<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">or "
+"press Enter</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">or "
 "press Enter</span>"
@@ -739,12 +857,15 @@ msgstr ""
 msgid ""
 "<span class=\"o_survey_results_topbar_clear_filters text-primary\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-trash me-1\"/>Remove all filters\n"
 "                            </span>"
 msgstr ""
 "<span class=\"o_survey_results_topbar_clear_filters text-primary\">\n"
 "                                <i class=\"fa fa-trash me-1\"/>ลบตัวกรองทั้งหมด\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                <i class=\"fa fa-trash me-1\"/>Remove all "
 "filters\n"
 "                            </span>"
@@ -752,6 +873,9 @@ msgstr ""
 "<span class=\"o_survey_results_topbar_clear_filters text-primary\">\n"
 "                                <i class=\"fa fa-trash me-1\"/"
 ">ลบตัวกรองทั้งหมด\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                            </span>"
 
@@ -864,6 +988,7 @@ msgstr "<span>ล้มเหลวเท่านั้น</span>"
 msgid ""
 "<span>How many ...?</span><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-2x\" role=\"img\" aria-label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 "                                    <i class=\"fa fa-2x fa-sort\" role=\"img\" aria-label=\"Numeric\"/>"
 msgstr ""
@@ -871,6 +996,8 @@ msgstr ""
 "                                    <i class=\"fa fa-2x\" role=\"img\" aria-label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 "                                    <i class=\"fa fa-2x fa-sort\" role=\"img\" aria-label=\"Numeric\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-2x\" role=\"img\" aria-"
 "label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 "                                    <i class=\"fa fa-2x fa-sort\" "
@@ -881,14 +1008,21 @@ msgstr ""
 "label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 "                                    <i class=\"fa fa-2x fa-sort\" "
 "role=\"img\" aria-label=\"Numeric\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:survey.question,description:survey.survey_demo_quiz_p5_q1
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>If you don't like us, please try to be as objective as "
 "possible.</span>"
+=======
+"<span>If you don't like us, please try to be as objective as possible.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>If you don't like us, please try to be as objective as possible.</span>"
 >>>>>>> upstream/18.0
@@ -899,17 +1033,23 @@ msgstr "<span>หากคุณไม่ชอบเรา โปรดพย�
 msgid ""
 "<span>Name all the animals</span><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-align-justify fa-4x\" role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
 msgstr ""
 "<span>ตั้งชื่อสัตว์ทั้งหมด</span><br/>\n"
 "                                    <i class=\"fa fa-align-justify fa-4x\" role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-align-justify fa-4x\" "
 "role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
 msgstr ""
 "<span>ตั้งชื่อสัตว์ทั้งหมด</span><br/>\n"
 "                                    <i class=\"fa fa-align-justify fa-4x\" "
 "role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -917,17 +1057,23 @@ msgstr ""
 msgid ""
 "<span>Name one animal</span><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-minus fa-4x\" role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
 msgstr ""
 "<span>ตั้งชื่อสัตว์หนึ่งตัว</span><br/>\n"
 "                                    <i class=\"fa fa-minus fa-4x\" role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-minus fa-4x\" "
 "role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
 msgstr ""
 "<span>ตั้งชื่อสัตว์หนึ่งตัว</span><br/>\n"
 "                                    <i class=\"fa fa-minus fa-4x\" "
 "role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -1036,8 +1182,12 @@ msgid ""
 "A positive default time limit is required when the session rewards quick "
 "answers."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "จำเป็นต้องมีการจำกัดเวลาเริ่มต้นที่เป็นค่าบวกเมื่อเซสชันให้รางวัลแก่คำตอบด่วน"
+=======
+msgstr "จำเป็นต้องมีการจำกัดเวลาเริ่มต้นที่เป็นค่าบวกเมื่อเซสชันให้รางวัลแก่คำตอบด่วน"
+>>>>>>> upstream/18.0
 =======
 msgstr "จำเป็นต้องมีการจำกัดเวลาเริ่มต้นที่เป็นค่าบวกเมื่อเซสชันให้รางวัลแก่คำตอบด่วน"
 >>>>>>> upstream/18.0
@@ -1173,8 +1323,12 @@ msgid ""
 "procrastinate to trim your hedge this year?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "หลังจากดูวิดีโอนี้ "
 "คุณจะสาบานได้ไหมว่าจะไม่ผัดวันประกันพรุ่งในการป้องกันความเสี่ยงของคุณในปีนี้"
+=======
+"หลังจากดูวิดีโอนี้ คุณจะสาบานได้ไหมว่าจะไม่ผัดวันประกันพรุ่งในการป้องกันความเสี่ยงของคุณในปีนี้"
+>>>>>>> upstream/18.0
 =======
 "หลังจากดูวิดีโอนี้ คุณจะสาบานได้ไหมว่าจะไม่ผัดวันประกันพรุ่งในการป้องกันความเสี่ยงของคุณในปีนี้"
 >>>>>>> upstream/18.0
@@ -1281,8 +1435,12 @@ msgid ""
 "representing the index of the answer otherwise."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ป้ายกำกับคำตอบจะเป็นค่าของตัวเองหากไม่เว้นว่างไว้ "
 "หรือเป็นตัวอักษรที่แสดงถึงดัชนีของคำตอบ"
+=======
+"ป้ายกำกับคำตอบจะเป็นค่าของตัวเองหากไม่เว้นว่างไว้ หรือเป็นตัวอักษรที่แสดงถึงดัชนีของคำตอบ"
+>>>>>>> upstream/18.0
 =======
 "ป้ายกำกับคำตอบจะเป็นค่าของตัวเองหากไม่เว้นว่างไว้ หรือเป็นตัวอักษรที่แสดงถึงดัชนีของคำตอบ"
 >>>>>>> upstream/18.0
@@ -1388,9 +1546,13 @@ msgid ""
 "Attendee nickname, mainly used to identify them in the survey session "
 "leaderboard."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ชื่อเล่นของผู้เข้าร่วม "
 "ส่วนใหญ่จะใช้เพื่อระบุพวกเขาในกระดานผู้นำเซสชั่นแบบสอบถาม"
+=======
+msgstr "ชื่อเล่นของผู้เข้าร่วม ส่วนใหญ่จะใช้เพื่อระบุพวกเขาในกระดานผู้นำเซสชั่นแบบสอบถาม"
+>>>>>>> upstream/18.0
 =======
 msgstr "ชื่อเล่นของผู้เข้าร่วม ส่วนใหญ่จะใช้เพื่อระบุพวกเขาในกระดานผู้นำเซสชั่นแบบสอบถาม"
 >>>>>>> upstream/18.0
@@ -1402,6 +1564,10 @@ msgstr "ผู้เข้าร่วมตอบคำถาม..."
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating
 >>>>>>> upstream/18.0
@@ -1420,8 +1586,12 @@ msgid ""
 "Automated email sent to the user when they succeed the certification, "
 "containing their certification document."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "อีเมลอัตโนมัติที่ส่งถึงผู้ใช้เมื่อพวกเขาผ่านการรับรอง โดยมีเอกสารการรับรอง"
+=======
+msgstr "อีเมลอัตโนมัติที่ส่งถึงผู้ใช้เมื่อพวกเขาผ่านการรับรอง โดยมีเอกสารการรับรอง"
+>>>>>>> upstream/18.0
 =======
 msgstr "อีเมลอัตโนมัติที่ส่งถึงผู้ใช้เมื่อพวกเขาผ่านการรับรอง โดยมีเอกสารการรับรอง"
 >>>>>>> upstream/18.0
@@ -1723,17 +1893,23 @@ msgstr "ดัชนีสี"
 #: code:addons/survey/models/survey_survey.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Combining roaming and \"Scoring with answers after each page\" is not possible; please update the following surveys:\n"
 "- %(survey_names)s"
 msgstr ""
 "ไม่สามารถรวมการโรมมิ่งและ \"การให้คะแนนพร้อมคำตอบหลังแต่ละหน้า\" ได้ โปรดอัปเดตแบบสอบถามต่อไปนี้:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Combining roaming and \"Scoring with answers after each page\" is not "
 "possible; please update the following surveys:\n"
 "- %(survey_names)s"
 msgstr ""
 "ไม่สามารถรวมการโรมมิ่งและ \"การให้คะแนนพร้อมคำตอบหลังแต่ละหน้า\" ได้ "
 "โปรดอัปเดตแบบสอบถามต่อไปนี้:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "- %(survey_names)s"
 
@@ -1813,8 +1989,12 @@ msgstr "ขอแสดงความยินดี! ตอนนี้คุ�
 #: model_terms:gamification.badge,description:survey.vendor_certification_badge
 msgid "Congratulations, you are now official vendor of MyCompany"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ขอแสดงความยินดี ตอนนี้คุณเป็นผู้จำหน่ายอย่างเป็นทางการของ MyCompany แล้ว"
+=======
+msgstr "ขอแสดงความยินดี ตอนนี้คุณเป็นผู้จำหน่ายอย่างเป็นทางการของ MyCompany แล้ว"
+>>>>>>> upstream/18.0
 =======
 msgstr "ขอแสดงความยินดี ตอนนี้คุณเป็นผู้จำหน่ายอย่างเป็นทางการของ MyCompany แล้ว"
 >>>>>>> upstream/18.0
@@ -1974,8 +2154,12 @@ msgid ""
 "Creating token for anybody else than employees is not allowed for internal "
 "surveys."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ไม่อนุญาตให้สร้างโทเค็นสำหรับบุคคลอื่นที่ไม่ใช่พนักงานสำหรับแบบสอบถามภายใน"
+=======
+msgstr "ไม่อนุญาตให้สร้างโทเค็นสำหรับบุคคลอื่นที่ไม่ใช่พนักงานสำหรับแบบสอบถามภายใน"
+>>>>>>> upstream/18.0
 =======
 msgstr "ไม่อนุญาตให้สร้างโทเค็นสำหรับบุคคลอื่นที่ไม่ใช่พนักงานสำหรับแบบสอบถามภายใน"
 >>>>>>> upstream/18.0
@@ -1993,8 +2177,12 @@ msgid ""
 "Creating token for external people is not allowed for surveys requesting "
 "authentication."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ไม่อนุญาตให้สร้างโทเค็นสำหรับบุคคลภายนอกสำหรับแบบสอบถามที่ขอการตรวจสอบสิทธิ์"
+=======
+msgstr "ไม่อนุญาตให้สร้างโทเค็นสำหรับบุคคลภายนอกสำหรับแบบสอบถามที่ขอการตรวจสอบสิทธิ์"
+>>>>>>> upstream/18.0
 =======
 msgstr "ไม่อนุญาตให้สร้างโทเค็นสำหรับบุคคลภายนอกสำหรับแบบสอบถามที่ขอการตรวจสอบสิทธิ์"
 >>>>>>> upstream/18.0
@@ -2086,6 +2274,10 @@ msgstr "วันครบกำหนด"
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
 >>>>>>> upstream/18.0
@@ -2167,9 +2359,13 @@ msgstr "คุณมีความคิดเห็น คำถาม หร�
 #: model:survey.question,title:survey.vendor_certification_page_1_question_5
 msgid "Do you think we have missing products in our catalog? (not rated)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "คุณคิดว่าเรามีผลิตภัณฑ์ที่ขาดหายไปในแค็ตตาล็อกของเราหรือไม่? "
 "(ไม่ได้รับการจัดอันดับ)"
+=======
+msgstr "คุณคิดว่าเรามีผลิตภัณฑ์ที่ขาดหายไปในแค็ตตาล็อกของเราหรือไม่? (ไม่ได้รับการจัดอันดับ)"
+>>>>>>> upstream/18.0
 =======
 msgstr "คุณคิดว่าเรามีผลิตภัณฑ์ที่ขาดหายไปในแค็ตตาล็อกของเราหรือไม่? (ไม่ได้รับการจัดอันดับ)"
 >>>>>>> upstream/18.0
@@ -2359,13 +2555,19 @@ msgstr "ความชอบด้านอาหาร"
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/survey/models/survey_question.py:0
 msgid "For this question, you can only select one answer."
 msgstr ""
 
 #. module: survey
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:survey.selection__survey_user_input_line__answer_type__text_box
 msgid "Free Text"
@@ -2413,12 +2615,18 @@ msgstr "รวบรวมคำติชมจากพนักงานแล
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating_time_limit
 msgid "General Time limit (seconds)"
 msgstr ""
 
 #. module: survey
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p2
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p1_q1_sug1
@@ -2556,8 +2764,12 @@ msgstr "คุณนำเสนอได้ดีแค่ไหน? มาร�
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "How likely are you to recommend the following products to a friend?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "คุณมีแนวโน้มที่จะแนะนำผลิตภัณฑ์ต่อไปนี้ให้กับเพื่อนของคุณมากน้อยเพียงใด?"
+=======
+msgstr "คุณมีแนวโน้มที่จะแนะนำผลิตภัณฑ์ต่อไปนี้ให้กับเพื่อนของคุณมากน้อยเพียงใด?"
+>>>>>>> upstream/18.0
 =======
 msgstr "คุณมีแนวโน้มที่จะแนะนำผลิตภัณฑ์ต่อไปนี้ให้กับเพื่อนของคุณมากน้อยเพียงใด?"
 >>>>>>> upstream/18.0
@@ -2573,8 +2785,12 @@ msgid ""
 "How many chairs do you think we should aim to sell in a year (not rated)?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ภายในระยะเวลาในหนึ่งปี คุณคิดว่าเราควรตั้งเป้าหมายที่จะขายเก้าอี้กี่ตัว "
 "(ไม่ได้รับการจัดอันดับ)"
+=======
+"ภายในระยะเวลาในหนึ่งปี คุณคิดว่าเราควรตั้งเป้าหมายที่จะขายเก้าอี้กี่ตัว (ไม่ได้รับการจัดอันดับ)"
+>>>>>>> upstream/18.0
 =======
 "ภายในระยะเวลาในหนึ่งปี คุณคิดว่าเราควรตั้งเป้าหมายที่จะขายเก้าอี้กี่ตัว (ไม่ได้รับการจัดอันดับ)"
 >>>>>>> upstream/18.0
@@ -2626,9 +2842,13 @@ msgid ""
 "I actually don't like thinking. I think people think I like to think a lot. "
 "And I don't. I do not like to think at all."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ฉันไม่ชอบคิดนะ ฉันคิดว่าคนคิดว่าฉันชอบคิดมาก และฉันไม่ใช่แบบนั้น "
 "ฉันไม่ชอบคิดเลย"
+=======
+msgstr "ฉันไม่ชอบคิดนะ ฉันคิดว่าคนคิดว่าฉันชอบคิดมาก และฉันไม่ใช่แบบนั้น ฉันไม่ชอบคิดเลย"
+>>>>>>> upstream/18.0
 =======
 msgstr "ฉันไม่ชอบคิดนะ ฉันคิดว่าคนคิดว่าฉันชอบคิดมาก และฉันไม่ใช่แบบนั้น ฉันไม่ชอบคิดเลย"
 >>>>>>> upstream/18.0
@@ -2690,8 +2910,12 @@ msgid ""
 "If Number is selected, it will display the number of questions answered on "
 "the total number of question to answer."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "หากเลือกหมายเลขก็จะแสดงจำนวนคำถามที่ตอบแล้วจากจำนวนคำถามทั้งหมดที่จะตอบ"
+=======
+msgstr "หากเลือกหมายเลขก็จะแสดงจำนวนคำถามที่ตอบแล้วจากจำนวนคำถามทั้งหมดที่จะตอบ"
+>>>>>>> upstream/18.0
 =======
 msgstr "หากเลือกหมายเลขก็จะแสดงจำนวนคำถามที่ตอบแล้วจากจำนวนคำถามทั้งหมดที่จะตอบ"
 >>>>>>> upstream/18.0
@@ -2702,9 +2926,13 @@ msgid ""
 "If a customer purchases a 1 year warranty on 6 January 2020, when do we "
 "expect the warranty to expire?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "หากลูกค้าซื้อการรับประกัน 1 ปีในวันที่ 6 มกราคม 2563 "
 "การรับประกันจะหมดอายุเมื่อไหร่?"
+=======
+msgstr "หากลูกค้าซื้อการรับประกัน 1 ปีในวันที่ 6 มกราคม 2563 การรับประกันจะหมดอายุเมื่อไหร่?"
+>>>>>>> upstream/18.0
 =======
 msgstr "หากลูกค้าซื้อการรับประกัน 1 ปีในวันที่ 6 มกราคม 2563 การรับประกันจะหมดอายุเมื่อไหร่?"
 >>>>>>> upstream/18.0
@@ -2715,8 +2943,12 @@ msgid ""
 "If a customer purchases a product on 6 January 2020, what is the latest day "
 "we expect to ship it?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "หากลูกค้าซื้อสินค้าในวันที่ 6 มกราคม 2020 เราจะจัดส่งสินค้าได้ภายในวันไหน?"
+=======
+msgstr "หากลูกค้าซื้อสินค้าในวันที่ 6 มกราคม 2020 เราจะจัดส่งสินค้าได้ภายในวันไหน?"
+>>>>>>> upstream/18.0
 =======
 msgstr "หากลูกค้าซื้อสินค้าในวันที่ 6 มกราคม 2020 เราจะจัดส่งสินค้าได้ภายในวันไหน?"
 >>>>>>> upstream/18.0
@@ -2757,9 +2989,13 @@ msgstr "หากทำเครื่องหมาย ผู้ใช้ส�
 msgid ""
 "If checked, users have to login before answering even with a valid token."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "หากทำเครื่องหมาย "
 "ผู้ใช้จะต้องเข้าสู่ระบบก่อนที่จะตอบแม้ว่าจะมีโทเค็นที่ถูกต้องก็ตาม"
+=======
+msgstr "หากทำเครื่องหมาย ผู้ใช้จะต้องเข้าสู่ระบบก่อนที่จะตอบแม้ว่าจะมีโทเค็นที่ถูกต้องก็ตาม"
+>>>>>>> upstream/18.0
 =======
 msgstr "หากทำเครื่องหมาย ผู้ใช้จะต้องเข้าสู่ระบบก่อนที่จะตอบแม้ว่าจะมีโทเค็นที่ถูกต้องก็ตาม"
 >>>>>>> upstream/18.0
@@ -2784,8 +3020,12 @@ msgid ""
 "by section. This mode is ignored in live session."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "หากเลือกการสุ่ม คุณสามารถกำหนดจำนวนคำถามแบบสุ่มตามหมวดได้ "
 "โหมดนี้จะถูกละเว้นในไลฟ์เซสชัน"
+=======
+"หากเลือกการสุ่ม คุณสามารถกำหนดจำนวนคำถามแบบสุ่มตามหมวดได้ โหมดนี้จะถูกละเว้นในไลฟ์เซสชัน"
+>>>>>>> upstream/18.0
 =======
 "หากเลือกการสุ่ม คุณสามารถกำหนดจำนวนคำถามแบบสุ่มตามหมวดได้ โหมดนี้จะถูกละเว้นในไลฟ์เซสชัน"
 >>>>>>> upstream/18.0
@@ -2843,16 +3083,22 @@ msgstr "เทคนิคบอนไซได้รับการพัฒน
 #: model:ir.model.fields,help:survey.field_survey_question__is_scored_question
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Include this question as part of quiz scoring. Requires an answer and answer"
 " score to be taken into account."
 msgstr ""
 "รวมคำถามนี้ไว้เป็นส่วนหนึ่งของการให้คะแนนแบบทดสอบ "
 "จำเป็นต้องคำนึงถึงคำตอบและคะแนนคำตอบด้วย"
 =======
+=======
+>>>>>>> upstream/18.0
 "Include this question as part of quiz scoring. Requires an answer and answer "
 "score to be taken into account."
 msgstr ""
 "รวมคำถามนี้ไว้เป็นส่วนหนึ่งของการให้คะแนนแบบทดสอบ จำเป็นต้องคำนึงถึงคำตอบและคะแนนคำตอบด้วย"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -3009,9 +3255,13 @@ msgid ""
 "I’ve never really wanted to go to Japan. Simply because I don’t like eating "
 "fish. And I know that’s very popular out there in Africa."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ฉันไม่เคยอยากไปญี่ปุ่นเลย เพราะว่าฉันไม่ชอบกินปลา "
 "และฉันรู้ว่ามันเป็นที่นิยมมากในแอฟริกา"
+=======
+msgstr "ฉันไม่เคยอยากไปญี่ปุ่นเลย เพราะว่าฉันไม่ชอบกินปลา และฉันรู้ว่ามันเป็นที่นิยมมากในแอฟริกา"
+>>>>>>> upstream/18.0
 =======
 msgstr "ฉันไม่เคยอยากไปญี่ปุ่นเลย เพราะว่าฉันไม่ชอบกินปลา และฉันรู้ว่ามันเป็นที่นิยมมากในแอฟริกา"
 >>>>>>> upstream/18.0
@@ -3060,11 +3310,17 @@ msgstr "ป้ายกำกับที่ใช้สำหรับตัว
 #: model:ir.model.fields,help:survey.field_survey_question__suggested_answer_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Labels used for proposed choices: simple choice, multiple choice and columns"
 " of matrix"
 msgstr ""
 "ป้ายกำกับที่ใช้สำหรับตัวเลือกที่เสนอ ได้แก่ ตัวเลือกแบบง่าย หลายตัวเลือก "
 "และคอลัมน์เมทริกซ์"
+=======
+"Labels used for proposed choices: simple choice, multiple choice and columns "
+"of matrix"
+msgstr "ป้ายกำกับที่ใช้สำหรับตัวเลือกที่เสนอ ได้แก่ ตัวเลือกแบบง่าย หลายตัวเลือก และคอลัมน์เมทริกซ์"
+>>>>>>> upstream/18.0
 =======
 "Labels used for proposed choices: simple choice, multiple choice and columns "
 "of matrix"
@@ -3677,8 +3933,12 @@ msgid ""
 "On Survey questions, one can define \"placeholders\". But what are they for?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ในคำถามของแบบสอบถาม เราสามารถกำหนด \"ตัวยึดตำแหน่ง\" ได้ "
 "แต่พวกเขามีไว้เพื่ออะไร?"
+=======
+"ในคำถามของแบบสอบถาม เราสามารถกำหนด \"ตัวยึดตำแหน่ง\" ได้ แต่พวกเขามีไว้เพื่ออะไร?"
+>>>>>>> upstream/18.0
 =======
 "ในคำถามของแบบสอบถาม เราสามารถกำหนด \"ตัวยึดตำแหน่ง\" ได้ แต่พวกเขามีไว้เพื่ออะไร?"
 >>>>>>> upstream/18.0
@@ -3766,7 +4026,12 @@ msgstr "อ๊ะ! ไม่มีแบบสอบถามที่ตรง�
 #: model_terms:ir.ui.view,arch_db:survey.survey_access_error
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Oopsie! We could not let you open this survey. Make sure you are using the correct link and are allowed to\n"
+=======
+"Oopsie! We could not let you open this survey. Make sure you are using the "
+"correct link and are allowed to\n"
+>>>>>>> upstream/18.0
 =======
 "Oopsie! We could not let you open this survey. Make sure you are using the "
 "correct link and are allowed to\n"
@@ -3798,6 +4063,7 @@ msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -3805,12 +4071,17 @@ msgstr ""
 "ระบบจะใช้เวอร์ชันภาษาอังกฤษ โดยปกติควรเป็นตัวอย่างนิพจน์ที่ให้ภาษาที่เหมาะสม"
 " เช่น {{ object.partner_id.lang }}"
 =======
+=======
+>>>>>>> upstream/18.0
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 msgstr ""
 "ตัวเลือกภาษาการแปล (โค้ด ISO) เพื่อเลือกเมื่อส่งอีเมล หากไม่ได้ตั้งค่าไว้ "
 "ระบบจะใช้เวอร์ชันภาษาอังกฤษ โดยปกติควรเป็นตัวอย่างนิพจน์ที่ให้ภาษาที่เหมาะสม เช่น "
 "{{ object.partner_id.lang }}"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -4010,10 +4281,16 @@ msgstr "ตัวอย่างข้อความ"
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please complete this very short survey to let us know how satisfied your are"
 " with our products."
 msgstr ""
 "โปรดตอบแบบสอบถามนี้เพื่อแจ้งให้เราทราบว่าคุณพอใจกับผลิตภัณฑ์ของเรามากน้อยเพียงใด"
+=======
+"Please complete this very short survey to let us know how satisfied your are "
+"with our products."
+msgstr "โปรดตอบแบบสอบถามนี้เพื่อแจ้งให้เราทราบว่าคุณพอใจกับผลิตภัณฑ์ของเรามากน้อยเพียงใด"
+>>>>>>> upstream/18.0
 =======
 "Please complete this very short survey to let us know how satisfied your are "
 "with our products."
@@ -4312,6 +4589,10 @@ msgstr "ทบทวนคำตอบของคุณ"
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating
 >>>>>>> upstream/18.0
@@ -5051,9 +5332,13 @@ msgstr "ขอบคุณสำหรับการเข้าร่วม �
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Thank you very much for your feedback. We highly value your opinion!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ขอบคุณมากสำหรับข้อเสนอแนะของคุณ "
 "เราให้ความสำคัญกับความคิดเห็นของคุณเป็นอย่างมาก!"
+=======
+msgstr "ขอบคุณมากสำหรับข้อเสนอแนะของคุณ เราให้ความสำคัญกับความคิดเห็นของคุณเป็นอย่างมาก!"
+>>>>>>> upstream/18.0
 =======
 msgstr "ขอบคุณมากสำหรับข้อเสนอแนะของคุณ เราให้ความสำคัญกับความคิดเห็นของคุณเป็นอย่างมาก!"
 >>>>>>> upstream/18.0
@@ -5075,7 +5360,12 @@ msgstr "ขอบคุณ เราจะติดต่อคุณเร็�
 #: code:addons/survey/models/survey_survey.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The access of the following surveys is restricted. Make sure their responsible still has access to it: \n"
+=======
+"The access of the following surveys is restricted. Make sure their "
+"responsible still has access to it: \n"
+>>>>>>> upstream/18.0
 =======
 "The access of the following surveys is restricted. Make sure their "
 "responsible still has access to it: \n"
@@ -5102,8 +5392,13 @@ msgstr "คำตอบที่คุณป้อนไม่ถูกต้อ
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_attempts_limit_check
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The attempts limit needs to be a positive number if the survey has a limited"
 " number of attempts."
+=======
+"The attempts limit needs to be a positive number if the survey has a limited "
+"number of attempts."
+>>>>>>> upstream/18.0
 =======
 "The attempts limit needs to be a positive number if the survey has a limited "
 "number of attempts."
@@ -5187,8 +5482,12 @@ msgstr "คำถามมีเวลาจำกัด"
 msgid ""
 "The scale must be a growing non-empty range between 0 and 10 (inclusive)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "มาตราส่วนต้องเป็นช่วงที่ไม่ว่างเปล่าที่เพิ่มขึ้นระหว่าง 0 ถึง 10 (รวม)"
+=======
+msgstr "มาตราส่วนต้องเป็นช่วงที่ไม่ว่างเปล่าที่เพิ่มขึ้นระหว่าง 0 ถึง 10 (รวม)"
+>>>>>>> upstream/18.0
 =======
 msgstr "มาตราส่วนต้องเป็นช่วงที่ไม่ว่างเปล่าที่เพิ่มขึ้นระหว่าง 0 ถึง 10 (รวม)"
 >>>>>>> upstream/18.0
@@ -5218,8 +5517,13 @@ msgstr "แบบสอบถามมีเวลาจำกัด"
 #: model:ir.model.fields,help:survey.field_survey_survey__session_question_start_time
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The time at which the current question has started, used to handle the timer"
 " for attendees."
+=======
+"The time at which the current question has started, used to handle the timer "
+"for attendees."
+>>>>>>> upstream/18.0
 =======
 "The time at which the current question has started, used to handle the timer "
 "for attendees."
@@ -5284,11 +5588,17 @@ msgstr "คำตอบนี้จะต้องเป็นที่อยู
 #: model:ir.model.fields,help:survey.field_survey_survey__session_code
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This code will be used by your attendees to reach your session. Feel free to"
 " customize it however you like!"
 msgstr ""
 "ผู้เข้าร่วมของคุณจะใช้รหัสนี้เพื่อเข้าถึงเซสชั่นของคุณ "
 "คุณสามารถปรับแต่งได้ตามใจชอบ!"
+=======
+"This code will be used by your attendees to reach your session. Feel free to "
+"customize it however you like!"
+msgstr "ผู้เข้าร่วมของคุณจะใช้รหัสนี้เพื่อเข้าถึงเซสชั่นของคุณ คุณสามารถปรับแต่งได้ตามใจชอบ!"
+>>>>>>> upstream/18.0
 =======
 "This code will be used by your attendees to reach your session. Feel free to "
 "customize it however you like!"
@@ -5341,8 +5651,12 @@ msgid ""
 "qualifying your answers."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "หมวดนี้เป็นเรื่องเกี่ยวกับข้อมูลทั่วไปเกี่ยวกับคุณ "
 "การตอบคำถามนี้ช่วยให้คำตอบของคุณมีคุณสมบัติที่เหมาะสม"
+=======
+"หมวดนี้เป็นเรื่องเกี่ยวกับข้อมูลทั่วไปเกี่ยวกับคุณ การตอบคำถามนี้ช่วยให้คำตอบของคุณมีคุณสมบัติที่เหมาะสม"
+>>>>>>> upstream/18.0
 =======
 "หมวดนี้เป็นเรื่องเกี่ยวกับข้อมูลทั่วไปเกี่ยวกับคุณ การตอบคำถามนี้ช่วยให้คำตอบของคุณมีคุณสมบัติที่เหมาะสม"
 >>>>>>> upstream/18.0
@@ -5357,9 +5671,13 @@ msgstr "หมวดนี้เป็นเรื่องเกี่ยวก
 msgid ""
 "This small quiz will test your knowledge about our Company. Be prepared!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "แบบทดสอบแบบสั้นนี้จะทดสอบความรู้ของคุณเกี่ยวกับบริษัทของเรา "
 "เตรียมตัวให้พร้อม!"
+=======
+msgstr "แบบทดสอบแบบสั้นนี้จะทดสอบความรู้ของคุณเกี่ยวกับบริษัทของเรา เตรียมตัวให้พร้อม!"
+>>>>>>> upstream/18.0
 =======
 msgstr "แบบทดสอบแบบสั้นนี้จะทดสอบความรู้ของคุณเกี่ยวกับบริษัทของเรา เตรียมตัวให้พร้อม!"
 >>>>>>> upstream/18.0
@@ -5368,7 +5686,12 @@ msgstr "แบบทดสอบแบบสั้นนี้จะทดสอ
 #: model_terms:survey.survey,description:survey.survey_feedback
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This survey allows you to give a feedback about your experience with our products.\n"
+=======
+"This survey allows you to give a feedback about your experience with our "
+"products.\n"
+>>>>>>> upstream/18.0
 =======
 "This survey allows you to give a feedback about your experience with our "
 "products.\n"
@@ -5383,8 +5706,13 @@ msgstr ""
 #: code:addons/survey/wizard/survey_invite.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This survey does not allow external people to participate. You should create"
 " user accounts or update survey access mode accordingly."
+=======
+"This survey does not allow external people to participate. You should create "
+"user accounts or update survey access mode accordingly."
+>>>>>>> upstream/18.0
 =======
 "This survey does not allow external people to participate. You should create "
 "user accounts or update survey access mode accordingly."
@@ -5461,8 +5789,12 @@ msgid ""
 "danger\"/>."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "หากต้องการทำแบบสอบถามนี้ โปรดปิดแท็บอื่นๆ ทั้งหมด <strong class=\"text-"
 "danger\"/>"
+=======
+"หากต้องการทำแบบสอบถามนี้ โปรดปิดแท็บอื่นๆ ทั้งหมด <strong class=\"text-danger\"/>"
+>>>>>>> upstream/18.0
 =======
 "หากต้องการทำแบบสอบถามนี้ โปรดปิดแท็บอื่นๆ ทั้งหมด <strong class=\"text-danger\"/>"
 >>>>>>> upstream/18.0
@@ -5517,7 +5849,12 @@ msgstr "คำถามที่กระตุ้น"
 #: code:addons/survey/static/src/views/widgets/survey_question_trigger/survey_question_trigger.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Triggers based on the following questions will not work because they are positioned after this question:\n"
+=======
+"Triggers based on the following questions will not work because they are "
+"positioned after this question:\n"
+>>>>>>> upstream/18.0
 =======
 "Triggers based on the following questions will not work because they are "
 "positioned after this question:\n"
@@ -5623,9 +5960,13 @@ msgid ""
 "Use this field to add additional explanations about your question or to "
 "illustrate it with pictures or a video"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ใช้ฟิลด์นี้เพื่อเพิ่มคำอธิบายเพิ่มเติมเกี่ยวกับคำถามของคุณ "
 "หรือเพื่ออธิบายด้วยรูปภาพหรือวิดีโอ"
+=======
+msgstr "ใช้ฟิลด์นี้เพื่อเพิ่มคำอธิบายเพิ่มเติมเกี่ยวกับคำถามของคุณ หรือเพื่ออธิบายด้วยรูปภาพหรือวิดีโอ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ใช้ฟิลด์นี้เพื่อเพิ่มคำอธิบายเพิ่มเติมเกี่ยวกับคำถามของคุณ หรือเพื่ออธิบายด้วยรูปภาพหรือวิดีโอ"
 >>>>>>> upstream/18.0
@@ -5770,9 +6111,13 @@ msgid ""
 "Welcome to this Odoo certification. You will receive 2 random questions out "
 "of a pool of 3."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ยินดีต้อนรับสู่การรับรอง Odoo นี้ คุณจะได้รับคำถามแบบสุ่ม 2 คำถามจากทั้งหมด "
 "3 คำถาม"
+=======
+msgstr "ยินดีต้อนรับสู่การรับรอง Odoo นี้ คุณจะได้รับคำถามแบบสุ่ม 2 คำถามจากทั้งหมด 3 คำถาม"
+>>>>>>> upstream/18.0
 =======
 msgstr "ยินดีต้อนรับสู่การรับรอง Odoo นี้ คุณจะได้รับคำถามแบบสุ่ม 2 คำถามจากทั้งหมด 3 คำถาม"
 >>>>>>> upstream/18.0
@@ -5783,9 +6128,13 @@ msgid ""
 "What day and time do you think most customers are most likely to call "
 "customer service (not rated)?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "วันและเวลาที่คุณคิดว่าลูกค้าจะโทรสอบถามบริการลูกค้ามากที่สุด? "
 "(ไม่ได้จัดอันดับ)"
+=======
+msgstr "วันและเวลาที่คุณคิดว่าลูกค้าจะโทรสอบถามบริการลูกค้ามากที่สุด? (ไม่ได้จัดอันดับ)"
+>>>>>>> upstream/18.0
 =======
 msgstr "วันและเวลาที่คุณคิดว่าลูกค้าจะโทรสอบถามบริการลูกค้ามากที่สุด? (ไม่ได้จัดอันดับ)"
 >>>>>>> upstream/18.0
@@ -5796,8 +6145,12 @@ msgid ""
 "What day to you think is best for us to start having an annual sale (not "
 "rated)?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "วันไหนคุณคิดว่าเหมาะสมที่สุดสำหรับเราที่จะเริ่มขายประจำปี? (ไม่ได้จัดอันดับ)"
+=======
+msgstr "วันไหนคุณคิดว่าเหมาะสมที่สุดสำหรับเราที่จะเริ่มขายประจำปี? (ไม่ได้จัดอันดับ)"
+>>>>>>> upstream/18.0
 =======
 msgstr "วันไหนคุณคิดว่าเหมาะสมที่สุดสำหรับเราที่จะเริ่มขายประจำปี? (ไม่ได้จัดอันดับ)"
 >>>>>>> upstream/18.0
@@ -5907,8 +6260,12 @@ msgstr "คุณอาศัยอยู่ที่ไหน?"
 msgid ""
 "Whether or not we want to show the attendees leaderboard for this survey."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ไม่ว่าเราจะต้องการแสดงกระดานผู้นำของผู้เข้าร่วมสำหรับแบบสอบถามนี้หรือไม่"
+=======
+msgstr "ไม่ว่าเราจะต้องการแสดงกระดานผู้นำของผู้เข้าร่วมสำหรับแบบสอบถามนี้หรือไม่"
+>>>>>>> upstream/18.0
 =======
 msgstr "ไม่ว่าเราจะต้องการแสดงกระดานผู้นำของผู้เข้าร่วมสำหรับแบบสอบถามนี้หรือไม่"
 >>>>>>> upstream/18.0
@@ -5965,8 +6322,12 @@ msgid ""
 "oscillations, which shows that neutrinos have mass?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ใครได้รับรางวัลโนเบลสาขาฟิสิกส์จากการค้นพบการแกว่งของนิวตริโน "
 "ซึ่งแสดงให้เห็นว่านิวตริโนมีมวล?"
+=======
+"ใครได้รับรางวัลโนเบลสาขาฟิสิกส์จากการค้นพบการแกว่งของนิวตริโน ซึ่งแสดงให้เห็นว่านิวตริโนมีมวล?"
+>>>>>>> upstream/18.0
 =======
 "ใครได้รับรางวัลโนเบลสาขาฟิสิกส์จากการค้นพบการแกว่งของนิวตริโน ซึ่งแสดงให้เห็นว่านิวตริโนมีมวล?"
 >>>>>>> upstream/18.0
@@ -5977,8 +6338,12 @@ msgstr ""
 msgid ""
 "Why should you consider making your presentation more fun with a small quiz?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "เพราะอะไรคุณควรพิจารณาการนำเสนอของคุณให้มีความสนุกสนานยิ่งขึ้นด้วยแบบทดสอบแบบสั้น?"
+=======
+msgstr "เพราะอะไรคุณควรพิจารณาการนำเสนอของคุณให้มีความสนุกสนานยิ่งขึ้นด้วยแบบทดสอบแบบสั้น?"
+>>>>>>> upstream/18.0
 =======
 msgstr "เพราะอะไรคุณควรพิจารณาการนำเสนอของคุณให้มีความสนุกสนานยิ่งขึ้นด้วยแบบทดสอบแบบสั้น?"
 >>>>>>> upstream/18.0
@@ -6008,17 +6373,23 @@ msgstr "ถ้าเป็นไปได้คุณอยากจะทาน
 msgid ""
 "YYYY-MM-DD\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "ปปปป-ดด-วว\n"
 "                                        <i class=\"fa fa-calendar\" role=\"รูปภาพ\" aria-label=\"ปฏิทิน\" title=\"ปฏิทิน\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "ปปปป-ดด-วว\n"
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"รูปภาพ\" aria-label=\"ปฏิทิน\" title=\"ปฏิทิน\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -6026,17 +6397,23 @@ msgstr ""
 msgid ""
 "YYYY-MM-DD hh:mm:ss\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "ปปปป-ดด-วว ชม:นท:วน\n"
 "                                        <i class=\"fa fa-calendar\" role=\"รูปภาพ\" aria-label=\"ปฏิทิน\" title=\"ปฏิทิน\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "ปปปป-ดด-วว ชม:นท:วน\n"
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"รูปภาพ\" aria-label=\"ปฏิทิน\" title=\"ปฏิทิน\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -6062,8 +6439,12 @@ msgstr "ใช่ นั่นเป็นสิ่งเดียวที่�
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_certification_check
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can only create certifications for surveys that have a scoring "
 "mechanism."
+=======
+"You can only create certifications for surveys that have a scoring mechanism."
+>>>>>>> upstream/18.0
 =======
 "You can only create certifications for surveys that have a scoring mechanism."
 >>>>>>> upstream/18.0
@@ -6075,9 +6456,13 @@ msgid ""
 "You can share your links through different means: email, invite shortcut, "
 "live presentation, ..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "คุณสามารถแชร์ลิงก์ของคุณด้วยวิธีต่างๆ: อีเมล ทางลัดการเชิญ การนำเสนอแบบไลฟ์ "
 "..."
+=======
+msgstr "คุณสามารถแชร์ลิงก์ของคุณด้วยวิธีต่างๆ: อีเมล ทางลัดการเชิญ การนำเสนอแบบไลฟ์ ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "คุณสามารถแชร์ลิงก์ของคุณด้วยวิธีต่างๆ: อีเมล ทางลัดการเชิญ การนำเสนอแบบไลฟ์ ..."
 >>>>>>> upstream/18.0
@@ -6099,9 +6484,13 @@ msgid ""
 "You cannot send an invitation for a \"One page per section\" survey if the "
 "survey has no sections."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "คุณไม่สามารถส่งคำเชิญสำหรับแบบสอบถาม \"หนึ่งหน้าต่อหมวด\" "
 "ถ้าแบบสอบถามไม่มีหมวด"
+=======
+msgstr "คุณไม่สามารถส่งคำเชิญสำหรับแบบสอบถาม \"หนึ่งหน้าต่อหมวด\" ถ้าแบบสอบถามไม่มีหมวด"
+>>>>>>> upstream/18.0
 =======
 msgstr "คุณไม่สามารถส่งคำเชิญสำหรับแบบสอบถาม \"หนึ่งหน้าต่อหมวด\" ถ้าแบบสอบถามไม่มีหมวด"
 >>>>>>> upstream/18.0
@@ -6150,8 +6539,12 @@ msgid ""
 "Your responses will help us improve our product range to serve you even "
 "better."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "คำตอบของคุณจะช่วยเราปรับปรุงกลุ่มผลิตภัณฑ์ของเราเพื่อให้บริการคุณได้ดียิ่งขึ้น"
+=======
+msgstr "คำตอบของคุณจะช่วยเราปรับปรุงกลุ่มผลิตภัณฑ์ของเราเพื่อให้บริการคุณได้ดียิ่งขึ้น"
+>>>>>>> upstream/18.0
 =======
 msgstr "คำตอบของคุณจะช่วยเราปรับปรุงกลุ่มผลิตภัณฑ์ของเราเพื่อให้บริการคุณได้ดียิ่งขึ้น"
 >>>>>>> upstream/18.0
@@ -6322,9 +6715,13 @@ msgid ""
 "⚠️ This question is positioned before some or all of its triggers and could "
 "be skipped."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "⚠️ "
 "คำถามนี้อยู่ในตำแหน่งก่อนการกระตุ้นบางส่วนหรือทั้งหมดและจึงจะสามารถข้ามได้"
+=======
+msgstr "⚠️ คำถามนี้อยู่ในตำแหน่งก่อนการกระตุ้นบางส่วนหรือทั้งหมดและจึงจะสามารถข้ามได้"
+>>>>>>> upstream/18.0
 =======
 msgstr "⚠️ คำถามนี้อยู่ในตำแหน่งก่อนการกระตุ้นบางส่วนหรือทั้งหมดและจึงจะสามารถข้ามได้"
 >>>>>>> upstream/18.0

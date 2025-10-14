@@ -59,7 +59,11 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, models, exceptions, _
+=======
+from odoo import api, models, exceptions, _, release
+>>>>>>> upstream/18.0
 =======
 from odoo import api, models, exceptions, _, release
 >>>>>>> upstream/18.0
@@ -304,6 +308,11 @@ class IapAutocompleteEnrichAPI(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'db_version': release.version,
+            'db_lang': self.env.lang,
+>>>>>>> upstream/18.0
 =======
             'db_version': release.version,
             'db_lang': self.env.lang,

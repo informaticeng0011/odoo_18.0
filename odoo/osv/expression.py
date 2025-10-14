@@ -207,9 +207,12 @@ FALSE_LEAF = (0, '=', 1)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 TRUE_DOMAIN = [TRUE_LEAF]
 FALSE_DOMAIN = [FALSE_LEAF]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -316,6 +319,9 @@ FALSE_DOMAIN = _ProtectedDomain([FALSE_LEAF])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1460,8 +1466,14 @@ class expression(object):
                 if operator in HIERARCHY_FUNCS:
                     # determine ids2 in comodel
                     ids2 = to_ids(right, comodel, leaf)
+<<<<<<< HEAD
                     domain = HIERARCHY_FUNCS[operator]('id', ids2, comodel)
                     ids2 = comodel._search(domain)
+=======
+                    ids2 = comodel.browse(ids2)._filtered_access('read').ids
+                    domain = HIERARCHY_FUNCS[operator]('id', ids2, comodel)
+                    ids2 = comodel.sudo()._search(domain)
+>>>>>>> upstream/18.0
                     rel_alias = self.query.make_alias(alias, field.name)
                     push_result(SQL(
                         "EXISTS (SELECT 1 FROM %s AS %s WHERE %s = %s AND %s IN %s)",

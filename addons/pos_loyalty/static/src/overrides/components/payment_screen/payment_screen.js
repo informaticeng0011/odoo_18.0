@@ -217,6 +217,7 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             const loyaltyPoints = Object.keys(couponData).map((coupon_id) => ({
                 order_id: order.id,
@@ -234,6 +235,8 @@ patch(PaymentScreen.prototype, {
                 loyaltyPoints,
                 couponUpdates,
             ]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

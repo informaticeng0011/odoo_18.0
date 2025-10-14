@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* survey
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@
 # Rune Restad, 2025
 # Wil Odoo, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -25,6 +33,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -35,6 +44,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: nb\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-11 02:16+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -44,6 +55,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -224,7 +238,12 @@ msgstr ""
 msgid ""
 "<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Completed</span>"
+=======
+"                                    <span class=\"text-muted\">Completed</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"text-muted\">Completed</"
 "span>"
@@ -236,7 +255,12 @@ msgstr ""
 msgid ""
 "<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Registered</span>"
+=======
+"                                    <span class=\"text-muted\">Registered</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"text-muted\">Registered</"
 "span>"
@@ -251,6 +275,7 @@ msgstr ""
 #. module: survey
 #: model:mail.template,body_html:survey.mail_template_certification
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
@@ -274,6 +299,8 @@ msgid ""
 "                </p>\n"
 "                <p>Congratulations for passing the test with a score of <strong t-out=\"object.scoring_percentage\"/>%!</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-"
 "family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
@@ -305,6 +332,9 @@ msgid ""
 "                </p>\n"
 "                <p>Congratulations for passing the test with a score of "
 "<strong t-out=\"object.scoring_percentage\"/>%!</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </td></tr>\n"
 "        </tbody>\n"
@@ -319,7 +349,12 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'participant'\">participant</t><br/><br/>\n"
+=======
+"        Dear <t t-out=\"object.partner_id.name or "
+"'participant'\">participant</t><br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "        Dear <t t-out=\"object.partner_id.name or "
 "'participant'\">participant</t><br/><br/>\n"
@@ -329,11 +364,14 @@ msgid ""
 "        </t>\n"
 "        <t t-else=\"\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            We are conducting a survey and your response would be appreciated.\n"
 "        </t>\n"
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            We are conducting a survey and your response would be "
 "appreciated.\n"
 "        </t>\n"
@@ -341,6 +379,9 @@ msgid ""
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
 "color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px; font-size:13px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                <t t-if=\"object.survey_id.certification\">\n"
 "                    Start Certification\n"
@@ -352,7 +393,12 @@ msgid ""
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Please answer the survey for <t t-out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+=======
+"            Please answer the survey for <t t-"
+"out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "            Please answer the survey for <t t-"
 "out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
@@ -419,7 +465,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download certification\" title=\"Download certification\"/>\n"
+=======
+"<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download "
+"certification\" title=\"Download certification\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download "
 "certification\" title=\"Download certification\"/>\n"
@@ -448,8 +499,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">Avg</span>"
+=======
+"<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Avg</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Avg</span>"
 >>>>>>> upstream/18.0
@@ -459,8 +514,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">Max</span>"
+=======
+"<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Max</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Max</span>"
 >>>>>>> upstream/18.0
@@ -470,8 +529,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">Min</span>"
+=======
+"<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Min</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Min</span>"
 >>>>>>> upstream/18.0
@@ -489,7 +552,12 @@ msgstr ""
 msgid ""
 "<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span id=\"enter-tooltip\">or press Enter</span>\n"
+=======
+"                            <span id=\"enter-tooltip\">or press Enter</"
+"span>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <span id=\"enter-tooltip\">or press Enter</"
 "span>\n"
@@ -514,13 +582,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.res_partner_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_stat_text\" invisible=\"certifications_company_count &lt; 2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_company_count &gt; 1\">Certification</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text\" invisible=\"certifications_company_count &lt; "
 "2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" "
 "invisible=\"certifications_company_count &gt; 1\">Certification</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -528,13 +602,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.res_partner_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_stat_text\" invisible=\"certifications_count &lt; 2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_count &gt; 1\">Certification</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text\" invisible=\"certifications_count &lt; "
 "2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" "
 "invisible=\"certifications_count &gt; 1\">Certification</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -542,8 +622,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">or"
 " press Enter</span>"
+=======
+"<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">or "
+"press Enter</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">or "
 "press Enter</span>"
@@ -563,7 +648,12 @@ msgstr ""
 msgid ""
 "<span class=\"o_survey_results_topbar_clear_filters text-primary\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-trash me-1\"/>Remove all filters\n"
+=======
+"                                <i class=\"fa fa-trash me-1\"/>Remove all "
+"filters\n"
+>>>>>>> upstream/18.0
 =======
 "                                <i class=\"fa fa-trash me-1\"/>Remove all "
 "filters\n"
@@ -676,13 +766,19 @@ msgstr ""
 msgid ""
 "<span>How many ...?</span><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-2x\" role=\"img\" aria-label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 "                                    <i class=\"fa fa-2x fa-sort\" role=\"img\" aria-label=\"Numeric\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-2x\" role=\"img\" aria-"
 "label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 "                                    <i class=\"fa fa-2x fa-sort\" "
 "role=\"img\" aria-label=\"Numeric\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -690,8 +786,12 @@ msgstr ""
 #: model_terms:survey.question,description:survey.survey_demo_quiz_p5_q1
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>If you don't like us, please try to be as objective as "
 "possible.</span>"
+=======
+"<span>If you don't like us, please try to be as objective as possible.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>If you don't like us, please try to be as objective as possible.</span>"
 >>>>>>> upstream/18.0
@@ -702,7 +802,12 @@ msgstr ""
 msgid ""
 "<span>Name all the animals</span><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-align-justify fa-4x\" role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
+=======
+"                                    <i class=\"fa fa-align-justify fa-4x\" "
+"role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
+>>>>>>> upstream/18.0
 =======
 "                                    <i class=\"fa fa-align-justify fa-4x\" "
 "role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
@@ -714,7 +819,12 @@ msgstr ""
 msgid ""
 "<span>Name one animal</span><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-minus fa-4x\" role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
+=======
+"                                    <i class=\"fa fa-minus fa-4x\" "
+"role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
+>>>>>>> upstream/18.0
 =======
 "                                    <i class=\"fa fa-minus fa-4x\" "
 "role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
@@ -1162,6 +1272,10 @@ msgstr ""
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating
 >>>>>>> upstream/18.0
@@ -1478,7 +1592,12 @@ msgstr "Fargeindeks"
 #: code:addons/survey/models/survey_survey.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Combining roaming and \"Scoring with answers after each page\" is not possible; please update the following surveys:\n"
+=======
+"Combining roaming and \"Scoring with answers after each page\" is not "
+"possible; please update the following surveys:\n"
+>>>>>>> upstream/18.0
 =======
 "Combining roaming and \"Scoring with answers after each page\" is not "
 "possible; please update the following surveys:\n"
@@ -1820,6 +1939,10 @@ msgstr "Frist"
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
 >>>>>>> upstream/18.0
@@ -2087,13 +2210,19 @@ msgstr ""
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/survey/models/survey_question.py:0
 msgid "For this question, you can only select one answer."
 msgstr ""
 
 #. module: survey
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:survey.selection__survey_user_input_line__answer_type__text_box
 msgid "Free Text"
@@ -2141,12 +2270,18 @@ msgstr ""
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating_time_limit
 msgid "General Time limit (seconds)"
 msgstr ""
 
 #. module: survey
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p2
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p1_q1_sug1
@@ -2524,8 +2659,13 @@ msgstr ""
 #: model:ir.model.fields,help:survey.field_survey_question__is_scored_question
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Include this question as part of quiz scoring. Requires an answer and answer"
 " score to be taken into account."
+=======
+"Include this question as part of quiz scoring. Requires an answer and answer "
+"score to be taken into account."
+>>>>>>> upstream/18.0
 =======
 "Include this question as part of quiz scoring. Requires an answer and answer "
 "score to be taken into account."
@@ -2731,8 +2871,13 @@ msgstr ""
 #: model:ir.model.fields,help:survey.field_survey_question__suggested_answer_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Labels used for proposed choices: simple choice, multiple choice and columns"
 " of matrix"
+=======
+"Labels used for proposed choices: simple choice, multiple choice and columns "
+"of matrix"
+>>>>>>> upstream/18.0
 =======
 "Labels used for proposed choices: simple choice, multiple choice and columns "
 "of matrix"
@@ -3428,7 +3573,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_access_error
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Oopsie! We could not let you open this survey. Make sure you are using the correct link and are allowed to\n"
+=======
+"Oopsie! We could not let you open this survey. Make sure you are using the "
+"correct link and are allowed to\n"
+>>>>>>> upstream/18.0
 =======
 "Oopsie! We could not let you open this survey. Make sure you are using the "
 "correct link and are allowed to\n"
@@ -3458,6 +3608,7 @@ msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -3466,6 +3617,8 @@ msgstr ""
 "vanligvis være et plassholderuttrykk som gir det riktige språket. e.g. {{ "
 "object.partner_id.lang }}."
 =======
+=======
+>>>>>>> upstream/18.0
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 msgstr ""
@@ -3473,6 +3626,9 @@ msgstr ""
 "Hvis det ikke er angitt, vil den engelske versjonen bli brukt. Dette bør "
 "vanligvis være et plassholderuttrykk som gir det riktige språket. e.g. "
 "{{ object.partner_id.lang }}."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -3670,8 +3826,13 @@ msgstr "Plassholder"
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please complete this very short survey to let us know how satisfied your are"
 " with our products."
+=======
+"Please complete this very short survey to let us know how satisfied your are "
+"with our products."
+>>>>>>> upstream/18.0
 =======
 "Please complete this very short survey to let us know how satisfied your are "
 "with our products."
@@ -3968,6 +4129,10 @@ msgstr ""
 
 #. module: survey
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating
 >>>>>>> upstream/18.0
@@ -4725,7 +4890,12 @@ msgstr ""
 #: code:addons/survey/models/survey_survey.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The access of the following surveys is restricted. Make sure their responsible still has access to it: \n"
+=======
+"The access of the following surveys is restricted. Make sure their "
+"responsible still has access to it: \n"
+>>>>>>> upstream/18.0
 =======
 "The access of the following surveys is restricted. Make sure their "
 "responsible still has access to it: \n"
@@ -4750,8 +4920,13 @@ msgstr ""
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_attempts_limit_check
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The attempts limit needs to be a positive number if the survey has a limited"
 " number of attempts."
+=======
+"The attempts limit needs to be a positive number if the survey has a limited "
+"number of attempts."
+>>>>>>> upstream/18.0
 =======
 "The attempts limit needs to be a positive number if the survey has a limited "
 "number of attempts."
@@ -4857,8 +5032,13 @@ msgstr ""
 #: model:ir.model.fields,help:survey.field_survey_survey__session_question_start_time
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The time at which the current question has started, used to handle the timer"
 " for attendees."
+=======
+"The time at which the current question has started, used to handle the timer "
+"for attendees."
+>>>>>>> upstream/18.0
 =======
 "The time at which the current question has started, used to handle the timer "
 "for attendees."
@@ -4923,8 +5103,13 @@ msgstr ""
 #: model:ir.model.fields,help:survey.field_survey_survey__session_code
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This code will be used by your attendees to reach your session. Feel free to"
 " customize it however you like!"
+=======
+"This code will be used by your attendees to reach your session. Feel free to "
+"customize it however you like!"
+>>>>>>> upstream/18.0
 =======
 "This code will be used by your attendees to reach your session. Feel free to "
 "customize it however you like!"
@@ -4992,7 +5177,12 @@ msgstr ""
 #: model_terms:survey.survey,description:survey.survey_feedback
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This survey allows you to give a feedback about your experience with our products.\n"
+=======
+"This survey allows you to give a feedback about your experience with our "
+"products.\n"
+>>>>>>> upstream/18.0
 =======
 "This survey allows you to give a feedback about your experience with our "
 "products.\n"
@@ -5005,8 +5195,13 @@ msgstr ""
 #: code:addons/survey/wizard/survey_invite.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This survey does not allow external people to participate. You should create"
 " user accounts or update survey access mode accordingly."
+=======
+"This survey does not allow external people to participate. You should create "
+"user accounts or update survey access mode accordingly."
+>>>>>>> upstream/18.0
 =======
 "This survey does not allow external people to participate. You should create "
 "user accounts or update survey access mode accordingly."
@@ -5022,8 +5217,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_auth_required
 msgid "This survey is open only to registered people. Please"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Denne undersøkelsen er bare åpen for registrerte deltakere. Vennligst "
+=======
+msgstr "Denne undersøkelsen er bare åpen for registrerte deltakere. Vennligst "
+>>>>>>> upstream/18.0
 =======
 msgstr "Denne undersøkelsen er bare åpen for registrerte deltakere. Vennligst "
 >>>>>>> upstream/18.0
@@ -5136,7 +5335,12 @@ msgstr ""
 #: code:addons/survey/static/src/views/widgets/survey_question_trigger/survey_question_trigger.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Triggers based on the following questions will not work because they are positioned after this question:\n"
+=======
+"Triggers based on the following questions will not work because they are "
+"positioned after this question:\n"
+>>>>>>> upstream/18.0
 =======
 "Triggers based on the following questions will not work because they are "
 "positioned after this question:\n"
@@ -5170,8 +5374,12 @@ msgstr ""
 #: code:addons/survey/wizard/survey_invite.py:0
 msgid "Unable to post message, please configure the sender's email address."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Kan ikke poste melding, vennligst konfigurer avsenderens e-postadresse"
+=======
+msgstr "Kan ikke poste melding, vennligst konfigurer avsenderens e-postadresse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kan ikke poste melding, vennligst konfigurer avsenderens e-postadresse"
 >>>>>>> upstream/18.0
@@ -5591,17 +5799,23 @@ msgstr ""
 msgid ""
 "YYYY-MM-DD\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "ÅÅÅÅ-MM-DD\n"
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "ÅÅÅÅ-MM-DD\n"
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -5609,17 +5823,23 @@ msgstr ""
 msgid ""
 "YYYY-MM-DD hh:mm:ss\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "ÅÅÅÅ-MM-DD tt:mm:ss\n"
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "ÅÅÅÅ-MM-DD tt:mm:ss\n"
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: survey
@@ -5645,8 +5865,12 @@ msgstr ""
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_certification_check
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can only create certifications for surveys that have a scoring "
 "mechanism."
+=======
+"You can only create certifications for surveys that have a scoring mechanism."
+>>>>>>> upstream/18.0
 =======
 "You can only create certifications for surveys that have a scoring mechanism."
 >>>>>>> upstream/18.0

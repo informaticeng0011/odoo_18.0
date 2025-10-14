@@ -577,7 +577,11 @@ test("iframe: popper is outside, target inside", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await scroll(queryOne("iframe").contentDocument.documentElement, { y: scrollOffset });
+=======
+    await scroll(":iframe html", { y: scrollOffset }, { scrollable: false });
+>>>>>>> upstream/18.0
 =======
     await scroll(":iframe html", { y: scrollOffset }, { scrollable: false });
 >>>>>>> upstream/18.0
@@ -1000,7 +1004,11 @@ test("iframe: both popper and target inside", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await scroll(iframe.contentDocument.documentElement, { y: scrollOffset });
+=======
+    await scroll(":iframe html", { y: scrollOffset }, { scrollable: false });
+>>>>>>> upstream/18.0
 =======
     await scroll(":iframe html", { y: scrollOffset }, { scrollable: false });
 >>>>>>> upstream/18.0
@@ -1601,7 +1609,11 @@ test(
 );
 test(
     "reposition from top-start to top-start",
+<<<<<<< HEAD
     getRepositionTest("top-start", "top-start", "slimfit")
+=======
+    getRepositionTest("top-start", "top-start", "bottom")
+>>>>>>> upstream/18.0
 );
 test(
     "reposition from top-start to top-middle",
@@ -1690,7 +1702,13 @@ test(
 );
 test("reposition from top-end to top-start", getRepositionTest("top-end", "top-start", "left"));
 test("reposition from top-end to top-middle", getRepositionTest("top-end", "top-middle", "w125"));
+<<<<<<< HEAD
 test("reposition from top-end to top-end", getRepositionTest("top-end", "top-end", "slimfit"));
+=======
+test(
+    "reposition from top-end to top-end",
+    getRepositionTest("top-end", "top-end", "bottom"));
+>>>>>>> upstream/18.0
 // -----------------------------------------------------------------------------
 test(
     "reposition from left-start to bottom-start",
@@ -1718,7 +1736,11 @@ test(
 );
 test(
     "reposition from left-start to left-start",
+<<<<<<< HEAD
     getRepositionTest("left-start", "left-start", "slimfit")
+=======
+    getRepositionTest("left-start", "left-start", "top")
+>>>>>>> upstream/18.0
 );
 test(
     "reposition from left-start to left-middle",
@@ -1828,11 +1850,21 @@ test(
     "reposition from left-end to left-middle",
     getRepositionTest("left-end", "left-middle", "h125")
 );
+<<<<<<< HEAD
 test("reposition from left-end to left-end", getRepositionTest("left-end", "left-end", "slimfit"));
 // -----------------------------------------------------------------------------
 test(
     "reposition from bottom-start to bottom-start",
     getRepositionTest("bottom-start", "bottom-start", "slimfit")
+=======
+test(
+    "reposition from left-end to left-end",
+    getRepositionTest("left-end", "left-end", "bottom"));
+// -----------------------------------------------------------------------------
+test(
+    "reposition from bottom-start to bottom-start",
+    getRepositionTest("bottom-start", "bottom-start", "top")
+>>>>>>> upstream/18.0
 );
 test(
     "reposition from bottom-start to bottom-middle",
@@ -1938,7 +1970,11 @@ test(
 );
 test(
     "reposition from bottom-end to bottom-end",
+<<<<<<< HEAD
     getRepositionTest("bottom-end", "bottom-end", "slimfit")
+=======
+    getRepositionTest("bottom-end", "bottom-end", "top")
+>>>>>>> upstream/18.0
 );
 test(
     "reposition from bottom-end to right-start",
@@ -1988,7 +2024,11 @@ test(
 );
 test(
     "reposition from right-start to right-start",
+<<<<<<< HEAD
     getRepositionTest("right-start", "right-start", "slimfit")
+=======
+    getRepositionTest("right-start", "right-start", "top")
+>>>>>>> upstream/18.0
 );
 test(
     "reposition from right-start to right-middle",
@@ -2094,7 +2134,11 @@ test(
 );
 test(
     "reposition from right-end to right-end",
+<<<<<<< HEAD
     getRepositionTest("right-end", "right-end", "slimfit")
+=======
+    getRepositionTest("right-end", "right-end", "bottom")
+>>>>>>> upstream/18.0
 );
 test(
     "reposition from right-end to left-start",

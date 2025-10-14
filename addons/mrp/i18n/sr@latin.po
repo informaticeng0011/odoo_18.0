@@ -32,7 +32,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
+=======
+# * mrp
+>>>>>>> upstream/18.0
 =======
 # * mrp
 >>>>>>> upstream/18.0
@@ -166,8 +170,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023
 #
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
+>>>>>>> upstream/18.0
 =======
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
 >>>>>>> upstream/18.0
@@ -268,6 +276,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-06-03 08:43+0000\n"
 <<<<<<< HEAD
@@ -375,6 +384,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-10-11 02:15+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-10-11 02:15+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-07 08:40+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -417,6 +429,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -502,7 +517,10 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid ""
@@ -511,6 +529,9 @@ msgid ""
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__ready_to_produce__all_available
 msgid " When all components are available"
@@ -546,7 +567,10 @@ msgstr ""
 #. module: mrp
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "%(name)s Sequence picking before manufacturing"
 msgstr ""
@@ -565,6 +589,9 @@ msgstr ""
 
 #. module: mrp
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "%(producible_qty)s Ready"
@@ -573,13 +600,19 @@ msgstr ""
 #. module: mrp
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "%(product)s: Insufficient Quantity To Unbuild"
 msgstr ""
 
 #. module: mrp
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "%(product_name)s (new) %(number_of_boms)s"
@@ -649,13 +682,19 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "+ %s day(s)"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "- Overview"
@@ -670,7 +709,10 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp.field_stock_warehouse__manufacture_steps
 msgid ""
 "1 Step: Consume components from stock and produce.\n"
@@ -680,6 +722,9 @@ msgid ""
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "100"
@@ -733,9 +778,15 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid ": Insufficient Quantity To Unbuild"
+=======
+#. odoo-javascript
+#: code:addons/mrp/static/src/workcenter_dashboard_graph/workcenter_dashboard_graph_field.js:0
+msgid ":  hours"
+>>>>>>> upstream/18.0
 =======
 #. odoo-javascript
 #: code:addons/mrp/static/src/workcenter_dashboard_graph/workcenter_dashboard_graph_field.js:0
@@ -752,7 +803,12 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-play\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
@@ -780,12 +836,18 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "<span class=\"col-6\">In Progress</span>"
 msgstr ""
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "<span class=\"col-6\">Late</span>"
 msgstr ""
@@ -793,12 +855,18 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "<span class=\"col-6\">To Close</span>"
 msgstr ""
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "<span class=\"col-6\">Waiting</span>"
 msgstr ""
@@ -806,7 +874,11 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"fw-bold\">To Produce</span>"
+=======
+msgid "<span class=\"fw-bold text-nowrap\">To Produce</span>"
+>>>>>>> upstream/18.0
 =======
 msgid "<span class=\"fw-bold text-nowrap\">To Produce</span>"
 >>>>>>> upstream/18.0
@@ -1055,6 +1127,7 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workorder_view_gantt
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_gantt_production
 msgid "<strong>Start Date: </strong>"
@@ -1069,6 +1142,8 @@ msgstr ""
 #. module: mrp
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "<strong>Unit Cost</strong>"
 msgstr ""
@@ -1080,12 +1155,15 @@ msgstr "<strong>Radni centar</strong>"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workorder_view_gantt
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_gantt_production
 msgid "<strong>Workcenter: </strong>"
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.stock_warn_insufficient_qty_unbuild_form_view
@@ -1124,6 +1202,10 @@ msgstr "Radnja"
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__message_needaction
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__message_needaction
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_needaction
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_needaction
 >>>>>>> upstream/18.0
@@ -1202,13 +1284,19 @@ msgstr "Administrator"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__search_date_category__after
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "After"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "All"
@@ -1216,7 +1304,10 @@ msgstr "Sve"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__all_move_ids
 msgid "All Move"
 msgstr ""
@@ -1227,6 +1318,9 @@ msgid "All Move Raw"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.constraint,message:mrp.constraint_mrp_bom_line_bom_qty_zero
 msgid ""
@@ -1342,6 +1436,7 @@ msgstr "Arhivirano"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "Assembling"
 msgstr ""
@@ -1350,6 +1445,8 @@ msgstr ""
 #: model:ir.model,name:mrp.model_ir_attachment
 msgid "Attachment"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Are you sure you want to cancel this manufacturing order?"
 msgstr ""
@@ -1357,6 +1454,9 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "Assembling"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1366,6 +1466,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__message_attachment_count
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__message_attachment_count
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_attachment_count
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_attachment_count
 >>>>>>> upstream/18.0
@@ -1583,13 +1687,19 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__search_date_category__before
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Before"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:mrp.model_mrp_bom
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__bom_id
@@ -1658,6 +1768,11 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.js:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.js:0
@@ -1668,12 +1783,15 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.xml:0
 msgid "Block WC"
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:mrp.act_mrp_block_workcenter
@@ -1735,6 +1853,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
+#: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
+>>>>>>> upstream/18.0
 =======
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
@@ -1745,13 +1868,19 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "BoM Costs"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_stock_move__bom_line_id
 msgid "BoM Line"
@@ -1855,7 +1984,10 @@ msgstr "Otkazano"
 #. module: mrp
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "Cannot compute days to prepare due to missing route info for at least 1 "
@@ -1864,6 +1996,9 @@ msgstr ""
 
 #. module: mrp
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Cannot delete a manufacturing order in done state."
@@ -1924,7 +2059,10 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
@@ -1933,6 +2071,9 @@ msgid ""
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_tree_view
@@ -2097,11 +2238,14 @@ msgstr "Potvrdi"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__confirm_cancel
 msgid "Confirm Cancel"
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -2188,7 +2332,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Cost as it is currently accumulated"
 msgstr ""
 
@@ -2201,6 +2348,9 @@ msgstr ""
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Cost based on related replenishments. Otherwise cost from product form"
 msgstr ""
@@ -2209,7 +2359,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Cost from product form"
+=======
+msgid "Cost based on the BoM"
+>>>>>>> upstream/18.0
 =======
 msgid "Cost based on the BoM"
 >>>>>>> upstream/18.0
@@ -2248,12 +2402,15 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mrp/static/src/views/fields/google_slides_viewer.js:0
 msgid "Could not display the selected spreadsheet"
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_stock_picking__production_count
@@ -2430,12 +2587,18 @@ msgstr "Datum"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__search_date_category
 msgid "Date Category"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Date by Month"
@@ -2450,7 +2613,10 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__date_start
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__production_date
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid ""
@@ -2521,7 +2687,10 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__resource_calendar_id
 msgid ""
 "Define the working schedule of the resource. If not set, the resource will "
@@ -2529,6 +2698,9 @@ msgid ""
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp.field_mrp_bom__consumption
 msgid ""
@@ -2538,9 +2710,15 @@ msgid ""
 "  * Allowed with warning: allowed for all manufacturing users with summary "
 "of consumption differences when closing the manufacturing order.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "  Note that in the case of component Manual Consumption, where consumption "
 "is registered manually exclusively, consumption warnings will still be "
 "issued when appropriate also.\n"
+=======
+"  Note that in the case of component Highlight Consumption, where "
+"consumption is registered manually exclusively, consumption warnings will "
+"still be issued when appropriate also.\n"
+>>>>>>> upstream/18.0
 =======
 "  Note that in the case of component Highlight Consumption, where "
 "consumption is registered manually exclusively, consumption warnings will "
@@ -2558,14 +2736,20 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Delays"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Delayed Productions"
 msgstr ""
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Delegate part of the production process to subcontractors"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -2600,6 +2784,10 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -2908,6 +3096,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__message_follower_ids
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__message_follower_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_follower_ids
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_follower_ids
 >>>>>>> upstream/18.0
@@ -2920,6 +3112,10 @@ msgstr "Pratioci"
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__message_partner_ids
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__message_partner_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_partner_ids
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_partner_ids
 >>>>>>> upstream/18.0
@@ -3090,7 +3286,11 @@ msgid "Gives the sequence order when displaying."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Daje redosled prilikom prikazivanja"
+=======
+msgstr "Daje redosled prilikom prikazivanja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Daje redosled prilikom prikazivanja."
 >>>>>>> upstream/18.0
@@ -3201,12 +3401,15 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mrp/static/src/views/fields/google_slides_viewer.js:0
 msgid "Google Slides Viewer"
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_workorder_form_view_filter
@@ -3219,6 +3422,7 @@ msgstr "Grupiši po"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_work_order_search
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_workcenter_search
 msgid "Group By..."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3348,6 +3552,9 @@ msgstr "Grupiši po..."
 =======
 msgstr "Grupiši po..."
 >>>>>>> upstream/18.0
+=======
+msgstr "Grupiši po..."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
@@ -3376,6 +3583,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__has_message
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__has_message
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__has_message
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__has_message
 >>>>>>> upstream/18.0
@@ -3389,12 +3600,18 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__has_worksheet
 msgid "Has Worksheet"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mrp.selection__product_document__attached_on_mrp__hidden
 msgid "Hidden"
@@ -3402,12 +3619,18 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__manual_consumption
 msgid "Highlight Consumption"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__costs_hour
 msgid "Hourly processing cost."
@@ -3475,6 +3698,10 @@ msgstr ""
 #: model:ir.model.fields,help:mrp.field_mrp_routing_workcenter__message_needaction
 #: model:ir.model.fields,help:mrp.field_mrp_unbuild__message_needaction
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:mrp.field_mrp_workcenter__message_needaction
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__message_needaction
 >>>>>>> upstream/18.0
@@ -3491,6 +3718,11 @@ msgstr "Ako je označeno, nove poruke zahtevaju vašu pažnju."
 #: model:ir.model.fields,help:mrp.field_mrp_unbuild__message_has_error
 #: model:ir.model.fields,help:mrp.field_mrp_unbuild__message_has_sms_error
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:mrp.field_mrp_workcenter__message_has_error
+#: model:ir.model.fields,help:mrp.field_mrp_workcenter__message_has_sms_error
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__message_has_error
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__message_has_sms_error
@@ -3569,13 +3801,19 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "Impossible to plan. Please check the workcenter availabilities."
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__state__progress
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_workcenter__working_state__done
@@ -3596,7 +3834,10 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.product_view_search_catalog
 msgid "In the BoM"
 msgstr ""
@@ -3607,6 +3848,9 @@ msgid "In the MO"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp.field_mrp_production__date_deadline
 msgid ""
@@ -3635,6 +3879,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__message_is_follower
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__message_is_follower
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_is_follower
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_is_follower
 >>>>>>> upstream/18.0
@@ -3660,11 +3908,14 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_workcenter_productivity_loss_kanban
 msgid "Is a Blocking Reason?"
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__is_user_working
@@ -3703,12 +3954,18 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__kanban_dashboard_graph
 msgid "Kanban Dashboard Graph"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_stock_move__description_bom_line
 #: model:ir.model.fields,field_description:mrp.field_stock_move_line__description_bom_line
@@ -3720,11 +3977,14 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.server,name:mrp.action_print_labels
 msgid "Labels"
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_workorder
@@ -3809,6 +4069,10 @@ msgstr ""
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__components_availability_state__late
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 >>>>>>> upstream/18.0
@@ -3921,7 +4185,11 @@ msgid "Location where the system will look for components."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesto gdje sistem traži komponente"
+=======
+msgstr "Mesto gde sistem traži komponente."
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesto gde sistem traži komponente."
 >>>>>>> upstream/18.0
@@ -4054,7 +4322,11 @@ msgid "Location where the system will stock the finished products."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lokacija gotovih proizvoda"
+=======
+msgstr "Lokacija gde će sistem smestiti gotove proizvode."
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokacija gde će sistem smestiti gotove proizvode."
 >>>>>>> upstream/18.0
@@ -4231,7 +4503,10 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:mail.message.subtype,description:mrp.mrp_mo_in_cancelled
 #: model:mail.message.subtype,name:mrp.mrp_mo_in_cancelled
 msgid "MO Cancelled"
@@ -4244,6 +4519,9 @@ msgid "MO Confirmed"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
@@ -4259,13 +4537,19 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:mail.message.subtype,description:mrp.mrp_mo_in_done
 #: model:mail.message.subtype,name:mrp.mrp_mo_in_done
 msgid "MO Done"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
@@ -4290,13 +4574,19 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:mail.message.subtype,description:mrp.mrp_mo_in_progress
 #: model:mail.message.subtype,name:mrp.mrp_mo_in_progress
 msgid "MO Progress"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__reservation_state
 msgid "MO Readiness"
@@ -4309,13 +4599,19 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:mail.message.subtype,description:mrp.mrp_mo_in_to_close
 #: model:mail.message.subtype,name:mrp.mrp_mo_in_to_close
 msgid "MO To Close"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_product_document__attached_on_mrp
 msgid "MRP : Visible at"
@@ -4348,7 +4644,10 @@ msgstr "Upravljaj operacijama po radnim nalozima"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__manual_consumption
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_stock_move__manual_consumption
@@ -4462,6 +4761,10 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:mrp.model_mrp_production
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:mrp.model_mrp_production
 >>>>>>> upstream/18.0
@@ -4549,6 +4852,10 @@ msgstr ""
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_picking_tree_mrp_operation
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.actions.act_window,name:mrp.action_picking_tree_mrp_operation_graph
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.act_window,name:mrp.action_picking_tree_mrp_operation_graph
 >>>>>>> upstream/18.0
@@ -4593,6 +4900,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__message_has_error
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__message_has_error
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_has_error
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_has_error
 >>>>>>> upstream/18.0
@@ -4605,6 +4916,10 @@ msgstr "Greška u isporuci poruke"
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__message_ids
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__message_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_ids
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_ids
 >>>>>>> upstream/18.0
@@ -4673,7 +4988,10 @@ msgstr "Rok moje aktivnosti"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "My MOs"
 msgstr ""
@@ -4684,6 +5002,9 @@ msgid "Never attribute values"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
@@ -4738,13 +5059,19 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "No BoM Found"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid "No bill of materials found. Let's create one!"
@@ -4847,6 +5174,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__message_needaction_counter
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__message_needaction_counter
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_needaction_counter
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_needaction_counter
 >>>>>>> upstream/18.0
@@ -4855,12 +5186,18 @@ msgstr "Broj akcija"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_in_progress
 msgid "Number of Manufacturing Orders In Progress"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_late
 msgid "Number of Manufacturing Orders Late"
@@ -4868,12 +5205,18 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_to_close
 msgid "Number of Manufacturing Orders To Close"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_waiting
 msgid "Number of Manufacturing Orders Waiting"
@@ -4900,6 +5243,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__message_has_error_counter
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__message_has_error_counter
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_has_error_counter
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_has_error_counter
 >>>>>>> upstream/18.0
@@ -4917,6 +5264,10 @@ msgstr ""
 #: model:ir.model.fields,help:mrp.field_mrp_routing_workcenter__message_needaction_counter
 #: model:ir.model.fields,help:mrp.field_mrp_unbuild__message_needaction_counter
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:mrp.field_mrp_workcenter__message_needaction_counter
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__message_needaction_counter
 >>>>>>> upstream/18.0
@@ -4929,6 +5280,10 @@ msgstr ""
 #: model:ir.model.fields,help:mrp.field_mrp_routing_workcenter__message_has_error_counter
 #: model:ir.model.fields,help:mrp.field_mrp_unbuild__message_has_error_counter
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:mrp.field_mrp_workcenter__message_has_error_counter
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__message_has_error_counter
 >>>>>>> upstream/18.0
@@ -5036,6 +5391,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/mrp/models/product.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/mrp/models/product.py:0
 >>>>>>> upstream/18.0
@@ -5059,7 +5418,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_operations
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workorder_view_gantt
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.oee_loss_search_view
@@ -5068,7 +5430,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_calendar
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_gantt_production
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_graph
@@ -5103,12 +5468,15 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Operator not supported without a value."
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__orderpoint_id
@@ -5192,6 +5560,10 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.actions.server,name:mrp.action_pause_workorders
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.server,name:mrp.action_pause_workorders
 >>>>>>> upstream/18.0
@@ -5237,7 +5609,11 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__stock_warehouse__manufacture_steps__pbm
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Pick components and then manufacture (2 steps)"
+=======
+msgid "Pick components then manufacture (2 steps)"
+>>>>>>> upstream/18.0
 =======
 msgid "Pick components then manufacture (2 steps)"
 >>>>>>> upstream/18.0
@@ -5247,7 +5623,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:mrp.selection__stock_warehouse__manufacture_steps__pbm_sam
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Pick components, manufacture and then store products (3 steps)"
@@ -5255,12 +5634,18 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mrp.selection__stock_warehouse__manufacture_steps__pbm_sam
 msgid "Pick components, manufacture, then store products (3 steps)"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_mto_pull_id
 msgid "Picking Before Manufacturing MTO Rule"
@@ -5343,13 +5728,19 @@ msgstr ""
 #. module: mrp
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mrp/models/stock_move.py:0
 msgid "Please enter a positive quantity."
 msgstr ""
 
 #. module: mrp
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Please set the first Serial Number or a default sequence"
@@ -5434,12 +5825,18 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.actions.server,name:mrp.action_print_labels
 msgid "Print Labels"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.xml:0
@@ -5495,12 +5892,18 @@ msgstr "Grupa nabavke"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:mrp.menu_procurement_compute_mrp
 msgid "Procurement: run scheduler"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_batch_produce_form
@@ -5529,6 +5932,7 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:mrp.field_stock_warehouse__manufacture_steps
 msgid ""
 "Produce: Move the components to the production location        directly and "
@@ -5538,6 +5942,8 @@ msgid ""
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -5585,7 +5991,10 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_product_product__product_catalog_product_is_in_bom
 msgid "Product Catalog Product Is In Bom"
 msgstr ""
@@ -5596,6 +6005,9 @@ msgid "Product Catalog Product Is In Mo"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
@@ -5725,7 +6137,10 @@ msgstr "Lokacija proizvodnje"
 #. module: mrp
 #: model:ir.actions.report,name:mrp.action_report_production_order
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:mrp.model_mrp_production
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_stock_move_line__production_id
@@ -5850,7 +6265,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_tree_view
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_tree_editable_view
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
@@ -5860,6 +6278,10 @@ msgstr "Količina"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__qty_produced
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_tree_editable_view_mo_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_tree_editable_view_mo_form
 >>>>>>> upstream/18.0
@@ -5874,12 +6296,18 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_tree_editable_view
 msgid "Quantity Remaining"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__qty_remaining
 msgid "Quantity To Be Produced"
@@ -5920,6 +6348,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__rating_ids
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__rating_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__rating_ids
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__rating_ids
 >>>>>>> upstream/18.0
@@ -6038,7 +6470,11 @@ msgid "Reference must be unique per Company!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Oznaka mora biti jedinstvena unutar organizacije"
+=======
+msgstr "Oznaka mora biti jedinstvena za svaku organizaciju!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznaka mora biti jedinstvena za svaku organizaciju!"
 >>>>>>> upstream/18.0
@@ -6240,6 +6676,7 @@ msgstr "Radni centri usmeravanja"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.ui.menu,name:mrp.menu_procurement_compute_mrp
 msgid "Run Scheduler"
 msgstr ""
@@ -6247,11 +6684,17 @@ msgstr ""
 #. module: mrp
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__message_has_sms_error
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__message_has_sms_error
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__message_has_sms_error
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__message_has_sms_error
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_has_sms_error
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__message_has_sms_error
 >>>>>>> upstream/18.0
@@ -6388,7 +6831,11 @@ msgid "Security days for each manufacturing operation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rezervni dani za svaku operaciju proizvodnje"
+=======
+msgstr "Rezervni dani za svaku operaciju proizvodnje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Rezervni dani za svaku operaciju proizvodnje."
 >>>>>>> upstream/18.0
@@ -6494,13 +6941,19 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Selection not supported."
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__sequence
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_byproduct__sequence
@@ -6509,6 +6962,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__sequence
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_loss__sequence
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workorder__sequence
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__sequence
 >>>>>>> upstream/18.0
@@ -6516,6 +6973,7 @@ msgid "Sequence"
 msgstr "Niz"
 
 #. module: mrp
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-python
 #: code:addons/mrp/models/stock_warehouse.py:0
@@ -6535,6 +6993,8 @@ msgid "Sequence stock after manufacturing"
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_consumption_warning_form
@@ -6635,12 +7095,15 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mrp/static/src/views/fields/google_slides_viewer.xml:0
 msgid "Slides viewer"
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__leave_id
@@ -6675,6 +7138,7 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid ""
 "Some product moves have already been confirmed, this manufacturing order "
@@ -6682,6 +7146,8 @@ msgid ""
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -6784,6 +7250,10 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.actions.server,name:mrp.action_start_workorders
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.server,name:mrp.action_start_workorders
 >>>>>>> upstream/18.0
@@ -6901,11 +7371,14 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Subcontract the production of some products"
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__module_mrp_subcontracting
@@ -7029,7 +7502,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "jedinice mere proizvoda na formi proizvoda"
+=======
+"jedinice mere proizvoda na formi proizvoda."
+>>>>>>> upstream/18.0
 =======
 "jedinice mere proizvoda na formi proizvoda."
 >>>>>>> upstream/18.0
@@ -7163,13 +7640,19 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__search_date_category__day_2
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "The day after tomorrow"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/models/stock_orderpoint.py:0
@@ -7293,6 +7776,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/mrp/report/mrp_report_bom_structure.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 >>>>>>> upstream/18.0
@@ -7306,13 +7793,19 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid "This Week"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__tz
 msgid ""
@@ -7368,7 +7861,11 @@ msgstr ""
 #. module: mrp
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/mrp/models/stock_rule.py:0
+=======
+#: code:addons/mrp/models/mrp_production.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/mrp/models/mrp_production.py:0
 >>>>>>> upstream/18.0
@@ -7496,13 +7993,19 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__search_date_category__today
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Today"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
@@ -7511,13 +8014,19 @@ msgstr "Današnje aktivnosti"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__search_date_category__day_1
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Tomorrow"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:product.template,description:mrp.product_product_wood_wear_product_template
 msgid "Top layer of a wood panel."
@@ -7594,7 +8103,11 @@ msgid "Total Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ukupna kol."
+=======
+msgstr "Ukupna Kol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ukupna Kol"
 >>>>>>> upstream/18.0
@@ -7776,7 +8289,12 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_tree_editable_view
+=======
+#. odoo-javascript
+#: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.js:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.js:0
@@ -7825,7 +8343,10 @@ msgstr ""
 #. module: mrp
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
@@ -7904,7 +8425,10 @@ msgstr ""
 #: model:ir.actions.server,name:mrp.mrp_production_action_unreserve_tree
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_tree_view
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Unreserve"
@@ -7975,12 +8499,18 @@ msgstr "Važeće"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__valid_product_template_attribute_line_ids
 msgid "Valid Product Attribute Lines"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_backorder_form
 msgid "Validate"
@@ -7992,9 +8522,14 @@ msgstr "Overi"
 msgid ""
 "Values cannot be set and validated because a Lot/Serial Number needs to be "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "specified for a tracked product that is having its consumed amount "
 "increased:\n"
 "- "
+=======
+"specified for a tracked product that is having its consumed amount increased:"
+"%(products)s"
+>>>>>>> upstream/18.0
 =======
 "specified for a tracked product that is having its consumed amount increased:"
 "%(products)s"
@@ -8020,7 +8555,13 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "View and allocate manufactured quantities"
+=======
+msgid ""
+"View and allocate production quantities to customer orders or other "
+"manufacturing orders"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "View and allocate production quantities to customer orders or other "
@@ -8103,6 +8644,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__website_message_ids
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__website_message_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__website_message_ids
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__website_message_ids
 >>>>>>> upstream/18.0
@@ -8115,6 +8660,10 @@ msgstr "Website poruke"
 #: model:ir.model.fields,help:mrp.field_mrp_routing_workcenter__website_message_ids
 #: model:ir.model.fields,help:mrp.field_mrp_unbuild__website_message_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:mrp.field_mrp_workcenter__website_message_ids
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__website_message_ids
 >>>>>>> upstream/18.0
@@ -8266,7 +8815,11 @@ msgid "Work Center Usage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Work Center Usage"
+=======
+msgstr "Upotreba radnog centra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upotreba radnog centra"
 >>>>>>> upstream/18.0
@@ -8562,13 +9115,19 @@ msgstr ""
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__search_date_category__yesterday
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Yesterday"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/models/stock_lot.py:0
@@ -8626,8 +9185,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nije moguće obrisati sastavnicu na osnovu koje postoje nalozi za proizvodnju "
 "u radu."
+=======
+"Ne možete obrisati sastavnicu materijala sa proizvodnim nalozima trenutno u "
+"radu.\n"
+"Molimo vas da je prvo zatvorite ili otkažete."
+>>>>>>> upstream/18.0
 =======
 "Ne možete obrisati sastavnicu materijala sa proizvodnim nalozima trenutno u "
 "radu.\n"
@@ -8869,13 +9434,19 @@ msgstr ""
 #. module: mrp
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "You cannot start a work order that is already done or cancelled"
 msgstr ""
 
 #. module: mrp
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "You cannot unbuild a undone manufacturing order."
@@ -8949,7 +9520,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You need to supply Lot/Serial Number for products and 'consume' them:"
+=======
+msgid ""
+"You need to supply Lot/Serial Number for products and 'consume' them: %"
+"(missing_products)s"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "You need to supply Lot/Serial Number for products and 'consume' them: %"
@@ -8991,7 +9568,10 @@ msgstr "otkazano"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "days"
@@ -8999,12 +9579,18 @@ msgstr "dana"
 
 #. module: mrp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "days before"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_tree_editable_view
@@ -9090,6 +9676,7 @@ msgid "work orders"
 msgstr ""
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview_line/mrp_mo_overview_line.xml:0
@@ -9109,6 +9696,10 @@ msgstr ""
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr ""
+=======
+#~ msgid "<strong>Start Date: </strong>"
+#~ msgstr "<strong>Datum početka: </strong>"
+>>>>>>> upstream/18.0
 =======
 #~ msgid "<strong>Start Date: </strong>"
 #~ msgstr "<strong>Datum početka: </strong>"

@@ -96,7 +96,11 @@ class PosPaymentMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     payment_method_type = fields.Selection(selection=_get_payment_method_type, string="Integration", default='none', required=True)
+=======
+    payment_method_type = fields.Selection(selection=lambda self: self._get_payment_method_type(), string="Integration", default='none', required=True)
+>>>>>>> upstream/18.0
 =======
     payment_method_type = fields.Selection(selection=lambda self: self._get_payment_method_type(), string="Integration", default='none', required=True)
 >>>>>>> upstream/18.0

@@ -75,6 +75,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockServer,
+>>>>>>> upstream/18.0
 =======
     MockServer,
 >>>>>>> upstream/18.0
@@ -477,8 +481,12 @@ test("BadgeSelectionField widget on a selection unchecking selected value", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const newRecord = Partner._records.at(-1);
     expect(newRecord.color).toBe(false, {
+=======
+    expect(MockServer.env["res.partner"].at(-1).color).toBe(false, {
+>>>>>>> upstream/18.0
 =======
     expect(MockServer.env["res.partner"].at(-1).color).toBe(false, {
 >>>>>>> upstream/18.0
@@ -794,8 +802,14 @@ test("BadgeSelectionField widget on a selection unchecking selected value (requi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const newRecord = Partner._records.at(-1);
     expect(newRecord.color).toBe("red", { message: "the new value should be red" });
+=======
+    expect(MockServer.env["res.partner"].at(-1).color).toBe("red", {
+        message: "the new value should be red",
+    });
+>>>>>>> upstream/18.0
 =======
     expect(MockServer.env["res.partner"].at(-1).color).toBe("red", {
         message: "the new value should be red",
