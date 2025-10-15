@@ -18,6 +18,10 @@ export function openCustomerDisplay(
             Accept: "application/json",
             "Content-Type": "application/json",
         },
+<<<<<<< HEAD
+=======
+        targetAddressSpace: "local",
+>>>>>>> upstream/18.0
         body: JSON.stringify({
             params: {
                 action: "open",

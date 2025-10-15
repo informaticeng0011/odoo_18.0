@@ -10,6 +10,10 @@ import { useService } from "@web/core/utils/hooks";
 import { useTrackedAsync } from "@point_of_sale/app/utils/hooks";
 import { _t } from "@web/core/l10n/translation";
 import { KanbanController } from "@web/views/kanban/kanban_controller";
+<<<<<<< HEAD
+=======
+import { hasTouch } from "@web/core/browser/feature_detection";
+>>>>>>> upstream/18.0
 
 async function updatePosKanbanViewState(orm, stateObj) {
     const result = await orm.call("pos.config", "get_pos_kanban_view_state");
@@ -28,6 +32,11 @@ export class PosKanbanController extends KanbanController {
             show_predefined_scenarios: true,
             is_main_company: true,
         };
+<<<<<<< HEAD
+=======
+        this.autofocus = hasTouch() ? false : true;
+
+>>>>>>> upstream/18.0
         onWillStart(() => updatePosKanbanViewState(this.orm, this.initialPosState));
     }
 }

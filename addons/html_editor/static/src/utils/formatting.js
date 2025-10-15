@@ -34,7 +34,12 @@ import { isBold, isDirectionSwitched, isItalic, isStrikeThrough, isUnderline } f
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { closestElement } from "./dom_traversal";
+=======
+import { closestElement, closestPath, findNode } from "./dom_traversal";
+import { isBlock } from "./blocks";
+>>>>>>> upstream/18.0
 =======
 import { closestElement, closestPath, findNode } from "./dom_traversal";
 import { isBlock } from "./blocks";
@@ -280,7 +285,12 @@ export const formatsSpecs = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         isFormatted: (node) => closestElement(node)?.style["font-size"],
+=======
+        isFormatted: (node) =>
+            !!findNode(closestPath(node), (el) => el.style?.["font-size"], isBlock),
+>>>>>>> upstream/18.0
 =======
         isFormatted: (node) =>
             !!findNode(closestPath(node), (el) => el.style?.["font-size"], isBlock),
@@ -421,6 +431,7 @@ export const formatsSpecs = {
         removeStyle: (node) => removeStyle(node, "font-size"),
     },
     setFontSizeClassName: {
+<<<<<<< HEAD
         isFormatted: (node) =>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -623,15 +634,36 @@ export const formatsSpecs = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        isFormatted: (node, props) =>
+            !!findNode(
+                closestPath(node),
+                (el) =>
+                    props?.className
+                        ? el.classList?.contains(props.className)
+                        : FONT_SIZE_CLASSES.some((className) => el.classList?.contains(className)),
+                isBlock
+            ),
+>>>>>>> upstream/18.0
         hasStyle: (node, props) => FONT_SIZE_CLASSES.find((cls) => node.classList.contains(cls)),
         addStyle: (node, props) => {
             node.style.removeProperty("font-size");
             node.classList.add(props.className);
         },
+<<<<<<< HEAD
         removeStyle: (node) => removeClass(node, ...FONT_SIZE_CLASSES, ...TEXT_STYLE_CLASSES),
     },
     switchDirection: {
         isFormatted: isDirectionSwitched,
+=======
+        removeStyle: (node) => {
+            removeStyle(node, "font-size");
+            removeClass(node, ...FONT_SIZE_CLASSES, ...TEXT_STYLE_CLASSES);
+        },
+    },
+    switchDirection: {
+        isFormatted: (node, props) => isDirectionSwitched(node, props.editable),
+>>>>>>> upstream/18.0
     },
 };
 

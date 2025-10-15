@@ -75,6 +75,7 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, pointerDown, pointerUp, press, queryOne } from "@odoo/hoot-dom";
 =======
 import { click, pointerDown, pointerUp, press, queryOne, microTick } from "@odoo/hoot-dom";
@@ -98,6 +99,8 @@ import { animationFrame, mockUserAgent, tick } from "@odoo/hoot-mock";
 import { setupEditor, testEditor } from "./_helpers/editor";
 import { getContent, setSelection } from "./_helpers/selection";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -301,6 +304,9 @@ import { expectElementCount } from "./_helpers/ui_expectations";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -530,7 +536,11 @@ describe("reset", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-tablepicker").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-tablepicker", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-tablepicker", 1);
 >>>>>>> upstream/18.0
@@ -807,7 +817,11 @@ describe("reset", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-tablepicker").toHaveCount(0);
+=======
+        await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-tablepicker", 0);
 >>>>>>> upstream/18.0
@@ -1639,7 +1653,10 @@ describe("destroy", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1890,6 +1907,10 @@ describe("serialization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+});
+>>>>>>> upstream/18.0
+=======
 });
 >>>>>>> upstream/18.0
 =======

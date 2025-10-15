@@ -210,7 +210,10 @@ class Collector:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # todo add entry count limit
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -503,7 +506,10 @@ class Collector:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -794,6 +800,9 @@ class Collector:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1116,7 +1125,11 @@ class SQLCollector(Collector):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.add({
+=======
+        self.progress({
+>>>>>>> upstream/18.0
 =======
         self.progress({
 >>>>>>> upstream/18.0
@@ -1539,7 +1552,11 @@ class PeriodicCollector(Collector):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.add()
+=======
+            self.progress()
+>>>>>>> upstream/18.0
 =======
             self.progress()
 >>>>>>> upstream/18.0
@@ -1933,7 +1950,11 @@ class PeriodicCollector(Collector):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         init_thread.profile_hooks.append(self.add)
+=======
+        init_thread.profile_hooks.append(self.progress)
+>>>>>>> upstream/18.0
 =======
         init_thread.profile_hooks.append(self.progress)
 >>>>>>> upstream/18.0
@@ -2320,7 +2341,11 @@ class PeriodicCollector(Collector):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.profiler.init_thread.profile_hooks.remove(self.add)
+=======
+        self.profiler.init_thread.profile_hooks.remove(self.progress)
+>>>>>>> upstream/18.0
 =======
         self.profiler.init_thread.profile_hooks.remove(self.progress)
 >>>>>>> upstream/18.0
@@ -2736,7 +2761,11 @@ class SyncCollector(Collector):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.add(entry, frame=_frame)
+=======
+        self.progress(entry, frame=_frame)
+>>>>>>> upstream/18.0
 =======
         self.progress(entry, frame=_frame)
 >>>>>>> upstream/18.0
@@ -3399,6 +3428,11 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.entry_count_limit = int(self.params.get("entry_count_limit", 0))   # the limit could be set using a smarter way
+        self.done = False
+>>>>>>> upstream/18.0
 =======
         self.entry_count_limit = int(self.params.get("entry_count_limit", 0))   # the limit could be set using a smarter way
         self.done = False
@@ -3928,7 +3962,10 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4217,6 +4254,9 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4545,6 +4585,12 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_cm_proxy(self):
+        return _Nested(self)
+
+>>>>>>> upstream/18.0
 =======
     def _get_cm_proxy(self):
         return _Nested(self)
@@ -5205,7 +5251,10 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5514,6 +5563,9 @@ class _Nested:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

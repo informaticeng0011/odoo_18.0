@@ -239,6 +239,7 @@ $-seen-urls: ();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -280,6 +281,8 @@ $-seen-urls: ();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -501,7 +504,10 @@ $-seen-urls: ();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -689,6 +695,9 @@ $-seen-urls: ();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -875,9 +884,12 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @if o-website-value('layout') != 'full' {
         background-color: o-color('body');
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1073,6 +1085,9 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1627,6 +1642,17 @@ font[class*='bg-'] {
     }
 }
 
+<<<<<<< HEAD
+=======
+.btn-close {
+    // Most components with an integrated .btn-close (o_notification, modals, offcanvas)
+    // use $body-bg by default, which is why we check it here.
+    @if (lightness($body-bg) < 50) {
+        @include btn-close-white();
+    }
+}
+
+>>>>>>> upstream/18.0
 // Badges
 .badge, .o_filter_tag {
     background: var(--background-color, var(--bg-light)) !important;
@@ -1886,6 +1912,12 @@ table.table_desc tr td {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    // See JS: this is overridden for multiple reasons, including the fact that
+    // Arc browser does not support this correctly at the moment.
+    min-height: 100svh !important;
+>>>>>>> upstream/18.0
 =======
     // See JS: this is overridden for multiple reasons, including the fact that
     // Arc browser does not support this correctly at the moment.
@@ -3047,7 +3079,11 @@ header {
 
 @if o-website-value('header-template') == 'sidebar' {
     @include media-breakpoint-up(lg) {
+<<<<<<< HEAD
         #wrapwrap {
+=======
+        #wrapwrap:has(> header) {
+>>>>>>> upstream/18.0
             // Two different website options might add padding:
             // - The sidebar header template
             // - The website layout template when different than 'full'
@@ -3281,7 +3317,10 @@ header {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3473,6 +3512,9 @@ header {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3678,7 +3720,11 @@ header {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .navbar-nav {
+=======
+:where(header#top) .navbar-nav:where([role="menu"]) {
+>>>>>>> upstream/18.0
 =======
 :where(header#top) .navbar-nav:where([role="menu"]) {
 >>>>>>> upstream/18.0
@@ -4205,10 +4251,13 @@ input[value*="data-oe-translation-source-sha"] {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // "overflow-x: clip" is added to the "body" and not to "html" because if
     // it's added to "html", when a popup opens, the page scrolls to the top.
     > body {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4309,6 +4358,9 @@ input[value*="data-oe-translation-source-sha"] {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4414,9 +4466,12 @@ input[value*="data-oe-translation-source-sha"] {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Create a new formatting context. Without this, elements inside <body>
         // may still overflow (e.g. animated elements in Firefox).
         display: flow-root;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5308,8 +5363,11 @@ input[value*="data-oe-translation-source-sha"] {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .form-control:disabled ~ &, .form-control[readonly] ~ &, &:has(~ .form-select:disabled), &:has(~ .form-select[readonly]) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5414,6 +5472,9 @@ input[value*="data-oe-translation-source-sha"] {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

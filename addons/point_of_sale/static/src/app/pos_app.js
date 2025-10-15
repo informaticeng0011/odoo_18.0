@@ -95,6 +95,10 @@ export class Chrome extends Component {
                         data: customerDisplayData,
                     },
                 }),
+<<<<<<< HEAD
+=======
+                targetAddressSpace: "local",
+>>>>>>> upstream/18.0
             }).catch(() => {
                 console.log("Failed to send data to customer display");
             });

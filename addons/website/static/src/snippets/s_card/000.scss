@@ -19,6 +19,19 @@
         &[data-shape] {
             object-fit: contain;
         }
+<<<<<<< HEAD
+=======
+
+        &.rounded-start {
+            border-bottom-left-radius: var(--card-inner-border-radius) !important;
+            border-top-left-radius: var(--card-inner-border-radius) !important;
+        }
+
+        &.rounded-end {
+            border-top-right-radius: var(--card-inner-border-radius) !important;
+            border-bottom-right-radius: var(--card-inner-border-radius) !important;
+        }
+>>>>>>> upstream/18.0
     }
 
     .o_card_img_wrapper.ratio {

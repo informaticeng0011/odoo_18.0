@@ -93,6 +93,7 @@ test("popover is rendered nearby target (top)", async () => {
 test("popover is rendered nearby target (left)", async () => {
     expect.assertions(2);
 <<<<<<< HEAD
+<<<<<<< HEAD
     class TestPopover extends Popover {
         onPositioned(el, { direction, variant }) {
             expect(direction).toBe("left");
@@ -107,6 +108,8 @@ test("popover is rendered nearby target (left)", async () => {
             component: Content,
         },
 =======
+=======
+>>>>>>> upstream/18.0
     await mountWithCleanup(
         `<div id="target" style="background-color: royalblue; width: 50px; height: 50px; position: absolute; top: 50%; left: 50%;"/>`
     );
@@ -123,12 +126,16 @@ test("popover is rendered nearby target (left)", async () => {
             },
         },
         noMainContainer: true,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
 });
 
 test("popover is rendered nearby target (right)", async () => {
     expect.assertions(2);
+<<<<<<< HEAD
 <<<<<<< HEAD
     class TestPopover extends Popover {
         onPositioned(el, { direction, variant }) {
@@ -144,6 +151,8 @@ test("popover is rendered nearby target (right)", async () => {
             component: Content,
         },
 =======
+=======
+>>>>>>> upstream/18.0
     await mountWithCleanup(
         `<div id="target" style="background-color: royalblue; width: 50px; height: 50px; position: absolute; top: 50%; left: 50%;"/>`
     );
@@ -160,6 +169,9 @@ test("popover is rendered nearby target (right)", async () => {
             },
         },
         noMainContainer: true,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
 });
@@ -413,7 +425,11 @@ test("within iframe", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await scroll(popoverTarget.ownerDocument.documentElement, { y: 100 });
+=======
+    await scroll(popoverTarget.ownerDocument.documentElement, { y: 100 }, { scrollable: false });
+>>>>>>> upstream/18.0
 =======
     await scroll(popoverTarget.ownerDocument.documentElement, { y: 100 }, { scrollable: false });
 >>>>>>> upstream/18.0

@@ -234,6 +234,7 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         wizard.action_send_and_print()
         self.assertFalse(invoice.l10n_es_edi_facturae_xml_id)
 =======
@@ -436,6 +437,11 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
             with file_open("l10n_es_edi_facturae/tests/data/expected_tax_withholding.xml", "rt") as f:
                 expected_xml = lxml.etree.fromstring(f.read().encode())
             self.assertXmlTreeEqual(lxml.etree.fromstring(generated_file), expected_xml)
+=======
+        # Expect a UserError if no certificate is configured
+        with self.assertRaises(UserError):
+            wizard.action_send_and_print()
+>>>>>>> upstream/18.0
 
     def test_in_invoice(self):
         random.seed(42)
@@ -463,6 +469,31 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
                 expected_xml = lxml.etree.fromstring(f.read().encode())
             self.assertXmlTreeEqual(lxml.etree.fromstring(generated_file), expected_xml)
 
+<<<<<<< HEAD
+=======
+    def test_out_invoice_decimals(self):
+        decimal_precision = self.env['decimal.precision'].search([('name', '=', 'Product Price')])
+        decimal_precision.digits = 4
+        with freeze_time(self.frozen_today):
+            invoice = self.create_invoice(
+                partner_id=self.partner_a.id,
+                move_type='out_invoice',
+                invoice_line_ids=[
+                    {'price_unit': 2.0592, 'quantity': 22.0, 'tax_ids': [self.tax.id]},
+                ],
+            )
+            invoice.action_post()
+
+            generated_file, errors = invoice._l10n_es_edi_facturae_render_facturae()
+            self.assertFalse(errors)
+            self.assertTrue(generated_file)
+
+            with file_open("l10n_es_edi_facturae/tests/data/expected_out_invoice_4_decimals.xml", "rt") as f:
+                expected_xml = lxml.etree.fromstring(f.read().encode())
+
+            self.assertXmlTreeEqual(lxml.etree.fromstring(generated_file), expected_xml)
+
+>>>>>>> upstream/18.0
     def test_refund_invoice(self):
         random.seed(42)
         # We need to patch dates and uuid to ensure the signature's consistency
@@ -707,7 +738,10 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -903,6 +937,7 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1015,4 +1050,29 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_out_invoice_rounding(self):
+        company = self.company_data['company']
+        company.tax_calculation_rounding_method = 'round_globally'
+        with freeze_time(self.frozen_today):
+            invoice = self.create_invoice(
+                partner_id=self.partner_a.id,
+                move_type='out_invoice',
+                invoice_line_ids=[
+                    {'price_unit': 2.02, 'quantity': 25.0, 'tax_ids': [self.tax.id]},
+                    {'price_unit': 7.29, 'quantity': 2.0, 'tax_ids': [self.tax.id]},
+                    {'price_unit': 7.32, 'quantity': 5.0, 'tax_ids': [self.tax.id]},
+                    {'price_unit': 9.50, 'quantity': 25.0, 'tax_ids': [self.tax.id]},
+                ],
+            )
+            invoice.action_post()
+            generated_file, errors = invoice._l10n_es_edi_facturae_render_facturae()
+            self.assertFalse(errors)
+            self.assertTrue(generated_file)
+
+            with file_open("l10n_es_edi_facturae/tests/data/expected_out_invoice_round_glob.xml", "rt") as f:
+                expected_xml = lxml.etree.fromstring(f.read().encode())
+            self.assertXmlTreeEqual(lxml.etree.fromstring(generated_file), expected_xml)
 >>>>>>> upstream/18.0

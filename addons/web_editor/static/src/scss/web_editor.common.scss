@@ -372,9 +372,14 @@ div.media_iframe_video {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         @include o-position-absolute($top: 0);
         margin: 0 auto;
         margin-left: -50%;
+=======
+        @include o-position-absolute($top: 0, $left: 0, $right: 0);
+        margin: 0 auto;
+>>>>>>> upstream/18.0
 =======
         @include o-position-absolute($top: 0, $left: 0, $right: 0);
         margin: 0 auto;
@@ -946,6 +951,13 @@ pre {
                 }
             }
         }
+<<<<<<< HEAD
+=======
+
+        .btn-close {
+            filter: unset;
+        }
+>>>>>>> upstream/18.0
     }
 }
 @for $index from 1 through length($o-color-combinations) {
@@ -1051,6 +1063,15 @@ pre {
                     border-color: $-btn-primary-color;
                 }
             }
+<<<<<<< HEAD
+=======
+
+            .btn-close {
+                @if (lightness($-bg-color) < 50) {
+                    @include btn-close-white();
+                }
+            }
+>>>>>>> upstream/18.0
         }
     }
 }
@@ -1197,7 +1218,10 @@ section, .oe_img_bg, [data-oe-shape-data] {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1315,6 +1339,9 @@ section, .oe_img_bg, [data-oe-shape-data] {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

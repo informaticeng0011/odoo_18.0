@@ -119,8 +119,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import json
 import logging
+=======
+import logging
+
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 =======
 import logging
 
@@ -1004,6 +1010,7 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if clearance_data.get('json_errors'):
             errors = [json.loads(j).get('validationResults', {}) for j in clearance_data['json_errors']]
             error_msg = ''
@@ -1016,6 +1023,8 @@ class AccountEdiFormat(models.Model):
                     is_warning = False
                     error_msg += '\n - %s | %s' % (err['code'], err['message'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1388,6 +1397,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1633,6 +1645,7 @@ class AccountEdiFormat(models.Model):
                 'error': error_msg,
                 'rejected': not is_warning,
                 'response': signed_xml.decode(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2174,6 +2187,8 @@ class AccountEdiFormat(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'blocking_level': 'warning' if is_warning else 'error',
                 'status_code': status_code,
             }
@@ -2210,6 +2225,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2475,8 +2493,13 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if response_data.get('rejected'):
                 invoice._l10n_sa_log_results(submitted_xml, response_data, error=True)
+=======
+            # If request timedout, just log note a warning message
+            invoice._l10n_sa_log_results(submitted_xml, response_data, error=response_data.get('rejected'))
+>>>>>>> upstream/18.0
 =======
             # If request timedout, just log note a warning message
             invoice._l10n_sa_log_results(submitted_xml, response_data, error=response_data.get('rejected'))
@@ -2713,7 +2736,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not company.sudo().l10n_sa_private_key_id:
+=======
+        if not journal.company_id.sudo().l10n_sa_private_key_id:
+>>>>>>> upstream/18.0
 =======
         if not journal.company_id.sudo().l10n_sa_private_key_id:
 >>>>>>> upstream/18.0

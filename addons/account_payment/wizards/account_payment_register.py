@@ -25,8 +25,11 @@ class AccountPaymentRegister(models.TransientModel):
     use_electronic_payment_method = fields.Boolean(
         compute='_compute_use_electronic_payment_method',
     )
+<<<<<<< HEAD
     payment_method_code = fields.Char(
         related='payment_method_line_id.code')
+=======
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
     # COMPUTE METHODS

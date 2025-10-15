@@ -548,6 +548,13 @@
                     this.websiteAnimateWidget.destroy()
                     this.websiteAnimateWidget = null;
                 }
+<<<<<<< HEAD
+=======
+                if (this.textHighlightWidget) {
+                    this.textHighlightWidget.destroy()
+                    this.textHighlightWidget = null;
+                }
+>>>>>>> upstream/18.0
 
                 // display quiz slide, or quiz attached to a slide
                 if (slide.category === 'quiz' || slide.isQuiz) {
@@ -576,6 +583,11 @@
                         $target: $content,
                     });
                     this.websiteAnimateWidget.attachTo($wpContainer);
+<<<<<<< HEAD
+=======
+                    this.textHighlightWidget = new publicWidget.registry.TextHighlight();
+                    this.textHighlightWidget.attachTo($wpContainer);
+>>>>>>> upstream/18.0
                 }
                 unhideConditionalElements();
             } finally {

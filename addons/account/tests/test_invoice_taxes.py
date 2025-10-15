@@ -924,7 +924,10 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1228,6 +1231,7 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1398,4 +1402,30 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_fiscal_position_tax_mapping_with_inactive_tax(self):
+        """ Test that inactive taxes are not mapped by fiscal positions """
+        src_tax = self.company_data['default_tax_sale']
+        active_tax = self.percent_tax_1
+        inactive_tax = self.percent_tax_2.copy({'active': False})
+        fp = self.env['account.fiscal.position'].create({
+            'name': 'FP',
+            'tax_ids': [
+                Command.create({
+                    'tax_src_id': src_tax.id,
+                    'tax_dest_id': active_tax.id,
+                }),
+                Command.create({
+                    'tax_src_id': src_tax.id,
+                    'tax_dest_id': inactive_tax.id,
+                })
+            ]
+        })
+        self.partner_a.property_account_position_id = fp
+
+        move = self.init_invoice('out_invoice', self.partner_a, post=True, products=[self.product])
+        line = move.invoice_line_ids
+        self.assertEqual(line.tax_ids, active_tax, f"The tax should be {active_tax.name}, but is is currently {line.tax_ids.name}")
 >>>>>>> upstream/18.0

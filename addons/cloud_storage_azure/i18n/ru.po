@@ -1,15 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* cloud_storage_azure
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
+=======
+# * cloud_storage_azure
+#
+# Translators:
+# Wil Odoo, 2024
+#
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
 "Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
@@ -18,6 +28,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"PO-Revision-Date: 2025-10-14 12:39+0000\n"
+"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
+"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
+"cloud_storage_azure/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_azure
 #: model:ir.model,name:cloud_storage_azure.model_ir_attachment
@@ -27,27 +51,47 @@ msgstr "Вложение"
 #. module: cloud_storage_azure
 #: model:ir.model.fields,field_description:cloud_storage_azure.field_res_config_settings__cloud_storage_azure_account_name
 msgid "Azure Account Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Имя аккаунта Azure"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_azure
 #: model:ir.model.fields,field_description:cloud_storage_azure.field_res_config_settings__cloud_storage_azure_client_id
 msgid "Azure Client ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID клиента Azure"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_azure
 #: model:ir.model.fields,field_description:cloud_storage_azure.field_res_config_settings__cloud_storage_azure_client_secret
 msgid "Azure Client Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Секрет клиента Azure"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_azure
 #: model:ir.model.fields.selection,name:cloud_storage_azure.selection__res_config_settings__cloud_storage_provider__azure
 msgid "Azure Cloud Storage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Облачное хранилище Azure"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_azure
 #: model:ir.model.fields,field_description:cloud_storage_azure.field_res_config_settings__cloud_storage_azure_container_name
 msgid "Azure Container Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Имя контейнера Azure"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_azure
 #: model:ir.model.fields,field_description:cloud_storage_azure.field_res_config_settings__cloud_storage_azure_tenant_id
@@ -57,7 +101,11 @@ msgstr ""
 #. module: cloud_storage_azure
 #: model:ir.model.fields,field_description:cloud_storage_azure.field_res_config_settings__cloud_storage_provider
 msgid "Cloud Storage Provider for new attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Провайдер облачного хранилища для новых вложений"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_azure
 #: model:ir.model,name:cloud_storage_azure.model_res_config_settings
@@ -67,7 +115,11 @@ msgstr "Параметры конфигурации"
 #. module: cloud_storage_azure
 #: model:ir.model.fields,field_description:cloud_storage_azure.field_res_config_settings__cloud_storage_azure_invalidate_user_delegation_key
 msgid "Invalidate Cached Azure User Delegation Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сбросить кэшированный ключ делегирования пользователя Azure"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_azure
 #. odoo-python
@@ -76,6 +128,11 @@ msgid ""
 "Some Azure attachments are in use, please migrate their cloud storages "
 "before disable this module"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Некоторые вложения Azure используются – перенесите их хранилища перед "
+"отключением модуля"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_azure
 #. odoo-python
@@ -84,6 +141,11 @@ msgid ""
 "The connection string is not allowed to download blobs from the container.\n"
 "%s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Строка подключения не разрешает скачивать BLOB-объекты из контейнера.\n"
+"%s"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_azure
 #. odoo-python
@@ -92,3 +154,8 @@ msgid ""
 "The connection string is not allowed to upload blobs to the container.\n"
 "%s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Строка подключения не разрешает загружать BLOB-объекты в контейнер.\n"
+"%s"
+>>>>>>> upstream/18.0

@@ -70,6 +70,10 @@ from odoo.addons.website_blog.tests.common import TestWebsiteBlogCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import datetime
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime
 >>>>>>> upstream/18.0
@@ -400,7 +404,10 @@ class TestWebsiteBlogUi(odoo.tests.HttpCase, TestWebsiteBlogCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -542,7 +549,11 @@ class TestWebsiteBlogUi(odoo.tests.HttpCase, TestWebsiteBlogCommon):
         Blog2 = Blog.create({'name': 'Space'})
 
         # Create first blog post (Feb 2025)
+<<<<<<< HEAD
         Post.create({
+=======
+        blog_post_1 = Post.create({
+>>>>>>> upstream/18.0
             'name': 'First Blog Post',
             'blog_id': Blog1.id,
             'author_id': self.env.user.id,
@@ -551,7 +562,11 @@ class TestWebsiteBlogUi(odoo.tests.HttpCase, TestWebsiteBlogCommon):
         })
 
         # Create second blog post (Jan 2025)
+<<<<<<< HEAD
         Post.create({
+=======
+        blog_post_2 = Post.create({
+>>>>>>> upstream/18.0
             'name': 'Second Blog Post',
             'blog_id': Blog2.id,
             'author_id': self.env.user.id,
@@ -628,6 +643,7 @@ class TestWebsiteBlogUi(odoo.tests.HttpCase, TestWebsiteBlogCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -781,4 +797,14 @@ class TestWebsiteBlogUi(odoo.tests.HttpCase, TestWebsiteBlogCommon):
 
     def test_blog_tags_with_date(self):
         self.start_tour(self.env["website"].get_client_action_url("/blog"), "blog_tags_with_date", login="admin")
+>>>>>>> upstream/18.0
+=======
+
+        blog_tag = self.env.ref('website_blog.blog_tag_5', raise_if_not_found=False)
+        if not blog_tag:
+            blog_tag = self.env['blog.tag'].create({'name': "discovery"})
+        blog_post_1.write({'tag_ids': [(4, blog_tag.id)]})
+        blog_post_2.write({'tag_ids': [(4, blog_tag.id)]})
+
+        self.start_tour("/blog", "blog_tags_with_date", login="admin")
 >>>>>>> upstream/18.0

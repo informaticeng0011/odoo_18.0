@@ -4,12 +4,20 @@
             <div
                 t-if="hasOdooMenu and !env.isDashboard()"
                 class="o-figure-menu-item o-chart-external-link"
+<<<<<<< HEAD
                 t-on-click="navigateToOdooMenu">
+=======
+                t-on-click="onClick">
+>>>>>>> upstream/18.0
                 <span class="fa fa-external-link" />
             </div>
         </xpath>
         <xpath expr="//div[hasclass('o-figure')]" position="attributes">
+<<<<<<< HEAD
             <attribute name="t-on-click">() => this.onClick()</attribute>
+=======
+            <attribute name="t-on-click">() => env.isDashboard() ? this.onClick() : ""</attribute>
+>>>>>>> upstream/18.0
             <attribute name="t-att-role">env.isDashboard() and hasOdooMenu ? "button" : ""</attribute>
         </xpath>
     </div>

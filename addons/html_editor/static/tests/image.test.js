@@ -68,6 +68,7 @@ import { getContent, setContent } from "./_helpers/selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { undo } from "./_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79,6 +80,10 @@ import { expectElementCount } from "./_helpers/ui_expectations";
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
 =======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
+=======
+import { insertText, undo } from "./_helpers/user_actions";
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
 =======
@@ -383,7 +388,11 @@ test("image can be selected", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(selectionPlugin.getSelectedNodes()[1].tagName).toBe("IMG");
+=======
+    expect(selectionPlugin.getTargetedNodes()[0].tagName).toBe("IMG");
+>>>>>>> upstream/18.0
 =======
     expect(selectionPlugin.getTargetedNodes()[0].tagName).toBe("IMG");
 >>>>>>> upstream/18.0
@@ -624,6 +633,7 @@ test("can undo a shape", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await animationFrame();
     expect(".o-we-toolbar button[name='shape_rounded']").toHaveClass("active");
     expect("img").toHaveClass("rounded");
@@ -631,6 +641,8 @@ test("can undo a shape", async () => {
     await animationFrame();
     expect(".o-we-toolbar button[name='shape_rounded']").not.toHaveClass("active");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -806,6 +818,9 @@ test("can undo a shape", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1206,6 +1221,7 @@ test("Image transformation disappear on escape", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1394,6 +1410,9 @@ test("Image transformation disappears on backspace/delete", async () => {
 =======
 test("Image transformation disappears on backspace/delete", async () => {
 >>>>>>> upstream/18.0
+=======
+test("Image transformation disappears on backspace/delete", async () => {
+>>>>>>> upstream/18.0
     const { editor } = await setupEditor(`
         <img class="img-fluid test-image" src="${base64Img}">
     `);
@@ -1458,6 +1477,7 @@ test("Image transformation disappears on backspace/delete", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-toolbar");
     await contains(".o-we-toolbar div[name='image_transform'] button").click();
     expect(".transfo-container").toHaveCount(1);
@@ -1473,6 +1493,8 @@ test("Image transformation disappears on backspace/delete", async () => {
     await animationFrame();
     expect(".transfo-container").toHaveCount(0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1662,6 +1684,9 @@ test("Image transformation disappears on backspace/delete", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1848,6 +1873,7 @@ test("Image transformation disappears on character key press", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-toolbar");
     await contains(".o-we-toolbar div[name='image_transform'] button").click();
     expect(".transfo-container").toHaveCount(1);
@@ -1867,6 +1893,8 @@ test("Image transformation disappears on character key press", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2051,6 +2079,9 @@ test("Image transformation disappears on character key press", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2264,6 +2295,7 @@ test("Image transformation scalers position", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(1);
     click(".o-we-toolbar div[name='image_transform'] button");
@@ -2402,6 +2434,8 @@ test("Image transformation scalers position", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-toolbar", 1);
     click(".o-we-toolbar div[name='image_transform'] button");
     await animationFrame();
@@ -2472,6 +2506,9 @@ test("Image transformation scalers position", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2817,7 +2854,11 @@ test("can remove the link of an image", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-linkpopover").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-linkpopover", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-linkpopover", 0);
 >>>>>>> upstream/18.0

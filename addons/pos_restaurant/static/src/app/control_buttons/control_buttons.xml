@@ -76,7 +76,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <attribute name="t-if">!pos.config.takeaway</attribute>
+=======
+            <attribute name="t-if">pos.models['account.fiscal.position']?.length and !pos.config.takeaway</attribute>
+>>>>>>> upstream/18.0
 =======
             <attribute name="t-if">pos.models['account.fiscal.position']?.length and !pos.config.takeaway</attribute>
 >>>>>>> upstream/18.0

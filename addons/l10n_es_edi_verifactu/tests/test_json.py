@@ -286,7 +286,10 @@ class TestL10nEsEdiVerifactuJson(TestL10nEsEdiVerifactuCommon):
         self.assertEqual(batch_dict, self._json_file_to_dict('l10n_es_edi_verifactu/tests/files/test_invoice_4.json'))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_invoice_export(self):
         """
         Test the Clave Regimen for exports
@@ -310,6 +313,9 @@ class TestL10nEsEdiVerifactuJson(TestL10nEsEdiVerifactuCommon):
             batch_dict, _info = document._send_as_batch()
         self.assertEqual(batch_dict, self._json_file_to_dict('l10n_es_edi_verifactu/tests/files/test_invoice_export.json'))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_invoice_multicurrency_1(self):
         invoice = self.env['account.move'].create({

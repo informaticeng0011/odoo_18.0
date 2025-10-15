@@ -6,11 +6,39 @@ import {
     defineSpreadsheetDashboardModels,
     getDashboardServerData,
 } from "@spreadsheet_dashboard/../tests/helpers/data";
+<<<<<<< HEAD
 import { contains } from "@web/../tests/web_test_helpers";
+=======
+import { contains, mockService } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 
 describe.current.tags("mobile");
 defineSpreadsheetDashboardModels();
 
+<<<<<<< HEAD
+=======
+function getServerData(spreadsheetData) {
+    const serverData = getDashboardServerData();
+    serverData.models["spreadsheet.dashboard.group"].records = [
+        {
+            published_dashboard_ids: [789],
+            id: 1,
+            name: "Chart",
+        },
+    ];
+    serverData.models["spreadsheet.dashboard"].records = [
+        {
+            id: 789,
+            name: "Spreadsheet with chart figure",
+            json_data: JSON.stringify(spreadsheetData),
+            spreadsheet_data: JSON.stringify(spreadsheetData),
+            dashboard_group_id: 1,
+        },
+    ];
+    return serverData;
+}
+
+>>>>>>> upstream/18.0
 test("is empty with no figures", async () => {
     await createSpreadsheetDashboard();
     expect(".o_mobile_dashboard").toHaveCount(1);
@@ -56,6 +84,7 @@ test("displays figures in first sheet", async () => {
             },
         ],
     };
+<<<<<<< HEAD
     const serverData = getDashboardServerData();
     serverData.models["spreadsheet.dashboard.group"].records = [
         {
@@ -73,10 +102,58 @@ test("displays figures in first sheet", async () => {
             dashboard_group_id: 1,
         },
     ];
+=======
+    const serverData = getServerData(spreadsheetData);
+>>>>>>> upstream/18.0
     await createSpreadsheetDashboard({ serverData });
     expect(".o-chart-container").toHaveCount(1);
 });
 
+<<<<<<< HEAD
+=======
+test("clicking on a chart navigates to its linked Odoo menu", async () => {
+    const fakeActionService = {
+        doAction: async (actionRequest, options = {}) => {
+            if (actionRequest === "menuAction") {
+                expect.step("redirect to odoo menu");
+            }
+        },
+    };
+    const figure = {
+        tag: "chart",
+        data: {
+            type: "line",
+            dataSets: [{ dataRange: "A1" }],
+            title: { text: "" },
+        },
+    };
+    const spreadsheetData = {
+        sheets: [
+            {
+                id: "sheet1",
+                figures: [{ ...figure, id: "figure1" }],
+            },
+        ],
+        chartOdooMenusReferences: {
+            figure1: "documents_spreadsheet.test.menu",
+        },
+    };
+    const serverData = getServerData(spreadsheetData);
+    serverData.menus = {
+        1: {
+            id: 1,
+            xmlid: "documents_spreadsheet.test.menu",
+            actionID: "menuAction",
+        },
+    };
+    await createSpreadsheetDashboard({ serverData });
+    mockService("action", fakeActionService);
+
+    await contains(".o-chart-container").click();
+    expect.verifySteps(["redirect to odoo menu"]);
+});
+
+>>>>>>> upstream/18.0
 test("double clicking on a figure doesn't open the side panel", async () => {
     const figure = {
         tag: "chart",
@@ -101,6 +178,7 @@ test("double clicking on a figure doesn't open the side panel", async () => {
             },
         ],
     };
+<<<<<<< HEAD
     const serverData = getDashboardServerData();
     serverData.models["spreadsheet.dashboard.group"].records = [
         {
@@ -118,6 +196,9 @@ test("double clicking on a figure doesn't open the side panel", async () => {
             dashboard_group_id: 1,
         },
     ];
+=======
+    const serverData = getServerData(spreadsheetData);
+>>>>>>> upstream/18.0
     await createSpreadsheetDashboard({ serverData });
     await contains(".o-chart-container").focus();
     await dblclick(".o-chart-container");

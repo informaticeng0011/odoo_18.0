@@ -505,6 +505,18 @@ class TestUi(TestPointOfSaleHttpCommon):
         """
         Test for gift card program.
         """
+<<<<<<< HEAD
+=======
+        # Ensure Gift Card product is displayed in the PoS session when the selected category is enabled in the configuration.
+        self.main_pos_config.current_session_id.close_session_from_ui()
+        pos_category = self.env['pos.category'].search([], limit=1)
+        self.main_pos_config.write({
+            'limit_categories': True,
+            'iface_available_categ_ids': [(6, 0, [pos_category.id])],
+        })
+        self.main_pos_config.open_ui()
+
+>>>>>>> upstream/18.0
         self.pos_user.write({
             'groups_id': [
                 (4, self.env.ref('stock.group_stock_user').id),
@@ -521,6 +533,7 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.start_pos_tour("GiftCardProgramTour1")
         # Check that gift cards are created
         self.assertEqual(len(gift_card_program.coupon_ids), 1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -689,10 +702,19 @@ class TestUi(TestPointOfSaleHttpCommon):
         # Change the code to 044123456 so that we can use it in the next tour.
         # Make sure it starts with 044 because it's the prefix of the loyalty cards.
         gift_card_program.coupon_ids.code = '044123456'
+=======
+        gift_card_creation_history = self.env['loyalty.history'].search([('card_id', '=', gift_card_program.coupon_ids.id)])
+        self.assertEqual(gift_card_creation_history.issued, 50.0, "The gift card should have 50 points issued.")
+        # Change the code to 044123456 so that we can use it in the next tour.
+        # Make sure it starts with 044 because it's the prefix of the loyalty cards.
+        gift_card_program.coupon_ids.code = '044123456'
+        self.whiteboard_pen.write({'pos_categ_ids': [(6, 0, [pos_category.id])]})
+>>>>>>> upstream/18.0
         # Run the tour to use the gift card
         self.start_pos_tour("GiftCardProgramTour2")
         # Check that gift cards are used
         self.assertEqual(gift_card_program.coupon_ids.points, 46.8)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -826,6 +848,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 =======
         loyalty_history = self.env['loyalty.history'].search([('card_id', '=', gift_card_program.coupon_ids.id), ('id', '!=', gift_card_creation_history.id)])
 >>>>>>> upstream/18.0
+=======
+        loyalty_history = self.env['loyalty.history'].search([('card_id', '=', gift_card_program.coupon_ids.id), ('id', '!=', gift_card_creation_history.id)])
+>>>>>>> upstream/18.0
         self.assertEqual(loyalty_history.used, 3.2)
 
     def test_ewallet_program(self):
@@ -834,6 +859,18 @@ class TestUi(TestPointOfSaleHttpCommon):
         - Collect points in EWalletProgramTour1.
         - Use points in EWalletProgramTour2.
         """
+<<<<<<< HEAD
+=======
+        # Ensure eWallet product is displayed in the PoS session when the selected category is enabled in the configuration.
+        self.main_pos_config.current_session_id.close_session_from_ui()
+        pos_category = self.env['pos.category'].search([], limit=1)
+        self.main_pos_config.write({
+            'limit_categories': True,
+            'iface_available_categ_ids': [(6, 0, [pos_category.id])],
+        })
+        self.main_pos_config.open_ui()
+
+>>>>>>> upstream/18.0
         LoyaltyProgram = self.env['loyalty.program']
         # Deactivate all other programs to avoid interference
         (LoyaltyProgram.search([])).write({'pos_ok': False})
@@ -860,6 +897,11 @@ class TestUi(TestPointOfSaleHttpCommon):
         ewallet_bbb = self.env['loyalty.card'].search([('partner_id', '=', partner_bbb.id), ('program_id', '=', ewallet_program.id)])
         self.assertEqual(len(ewallet_bbb), 1)
         self.assertAlmostEqual(ewallet_bbb.points, 10, places=2)
+<<<<<<< HEAD
+=======
+        self.whiteboard_pen.write({'pos_categ_ids': [(6, 0, [pos_category.id])]})
+        self.desk_pad.write({'pos_categ_ids': [(6, 0, [pos_category.id])]})
+>>>>>>> upstream/18.0
         # Run the tour consume ewallets.
         self.start_pos_tour("EWalletProgramTour2")
         # Check that ewallets are consumed for partner_aaa.
@@ -1198,7 +1240,11 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         partner = self.env['res.partner'].create({'name': 'Test Partner'})
+=======
+        partner = self.env['res.partner'].create({'name': 'A Test Partner'})
+>>>>>>> upstream/18.0
 =======
         partner = self.env['res.partner'].create({'name': 'A Test Partner'})
 >>>>>>> upstream/18.0
@@ -1629,6 +1675,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1654,6 +1701,8 @@ class TestUi(TestPointOfSaleHttpCommon):
 >>>>>>> upstream/18.0
     def test_specific_product_discount_with_global_discount(self):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1982,6 +2031,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2365,6 +2417,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2816,7 +2871,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3069,6 +3127,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3450,12 +3511,15 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.tax01 = self.env["account.tax"].create({
             "name": "C01 Tax",
             "amount": "10.00",
         })
         self.product_a = self.env["product.product"].create(
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3557,6 +3621,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3660,11 +3727,16 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "taxes_id": [(6, 0, self.tax01.ids)],
             }
         )
         self.product_b = self.env["product.product"].create(
             {
+=======
+                "taxes_id": [(6, 0, tax01.ids)],
+            }, {
+>>>>>>> upstream/18.0
 =======
                 "taxes_id": [(6, 0, tax01.ids)],
             }, {
@@ -3836,8 +3908,13 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         )
         self.free_product = self.env['loyalty.program'].create({
+=======
+        ])
+        self.env['loyalty.program'].create({
+>>>>>>> upstream/18.0
 =======
         ])
         self.env['loyalty.program'].create({
@@ -4321,7 +4398,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4445,6 +4525,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4569,7 +4652,11 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         partner = self.env['res.partner'].create({'name': 'Test Partner'})
+=======
+        partner = self.env['res.partner'].create({'name': 'A Test Partner'})
+>>>>>>> upstream/18.0
 =======
         partner = self.env['res.partner'].create({'name': 'A Test Partner'})
 >>>>>>> upstream/18.0
@@ -5389,7 +5476,11 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['res.partner'].create({'name': 'Test Partner'})
+=======
+        self.env['res.partner'].create({'name': 'A Test Partner'})
+>>>>>>> upstream/18.0
 =======
         self.env['res.partner'].create({'name': 'A Test Partner'})
 >>>>>>> upstream/18.0
@@ -5772,6 +5863,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -6015,6 +6107,8 @@ class TestUi(TestPointOfSaleHttpCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_not_create_loyalty_card_expired_program(self):
         self.env['loyalty.program'].search([]).write({'active': False})
@@ -6051,6 +6145,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6232,6 +6329,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6276,6 +6374,8 @@ class TestUi(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6469,7 +6569,11 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['res.partner'].create({'name': 'Test Partner 2'})
+=======
+        self.env['res.partner'].create({'name': 'AAA Test Partner 2'})
+>>>>>>> upstream/18.0
 =======
         self.env['res.partner'].create({'name': 'AAA Test Partner 2'})
 >>>>>>> upstream/18.0
@@ -6687,6 +6791,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6885,7 +6992,11 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         partner = self.env['res.partner'].create({'name': 'Test Partner'})
+=======
+        partner = self.env['res.partner'].create({'name': 'A Test Partner'})
+>>>>>>> upstream/18.0
 =======
         partner = self.env['res.partner'].create({'name': 'A Test Partner'})
 >>>>>>> upstream/18.0
@@ -7118,6 +7229,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7293,6 +7405,8 @@ class TestUi(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7422,6 +7536,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7513,6 +7630,7 @@ class TestUi(TestPointOfSaleHttpCommon):
             "test_buy_x_get_y_reward_qty",
             login="pos_user"
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7693,6 +7811,8 @@ class TestUi(TestPointOfSaleHttpCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_scan_loyalty_card_select_customer(self):
         self.env['loyalty.program'].search([]).write({'active': False})
@@ -7729,6 +7849,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7874,6 +7997,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7916,6 +8040,8 @@ class TestUi(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8163,6 +8289,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8187,6 +8314,8 @@ class TestUi(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8274,6 +8403,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8300,6 +8430,8 @@ class TestUi(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8356,6 +8488,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

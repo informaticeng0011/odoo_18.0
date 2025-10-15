@@ -1,6 +1,11 @@
 /** @odoo-module */
 // @ts-check
 
+<<<<<<< HEAD
+=======
+import { _t } from "@web/core/l10n/translation";
+
+>>>>>>> upstream/18.0
 /**
  * Get the intersection of two arrays
  *
@@ -84,3 +89,23 @@ export function containsReferences(cell) {
     }
     return cell.compiledFormula.tokens.some((token) => token.type === "REFERENCE");
 }
+<<<<<<< HEAD
+=======
+
+export async function navigateToOdooMenu({ figureId, model, notificationService, actionService }) {
+    const menu = model.getters.getChartOdooMenu(figureId);
+    if (!menu) {
+        throw new Error(`Cannot find any menu associated with the chart`);
+    }
+    if (!menu.actionID) {
+        notificationService.add(
+            _t(
+                "The menu linked to this chart doesn't have an corresponding action. Please link the chart to another menu."
+            ),
+            { type: "danger" }
+        );
+        return;
+    }
+    await actionService.doAction(menu.actionID);
+}
+>>>>>>> upstream/18.0

@@ -1,6 +1,10 @@
 # # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 from odoo.tests.common import TransactionCase, tagged
 
 
@@ -134,12 +138,17 @@ class TestPrivacyWizard(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(len(wizard.line_ids), 2)
         self.assertEqual(wizard.line_ids[0].res_id, self.partner.id)
         self.assertEqual(wizard.line_ids[0].res_model, self.partner._name)
 
         self.assertEqual(wizard.line_ids[1].res_id, self.env.company.id)
         self.assertEqual(wizard.line_ids[1].res_model, self.env.company._name)
+=======
+        self.assertTrue(wizard.line_ids.filtered(lambda l: l.res_model == 'res.partner' and l.res_id == self.partner.id))
+        self.assertTrue(wizard.line_ids.filtered(lambda l: l.res_model == 'res.company' and l.res_id == self.env.company.id))
+>>>>>>> upstream/18.0
 =======
         self.assertTrue(wizard.line_ids.filtered(lambda l: l.res_model == 'res.partner' and l.res_id == self.partner.id))
         self.assertTrue(wizard.line_ids.filtered(lambda l: l.res_model == 'res.company' and l.res_id == self.env.company.id))
@@ -316,3 +325,15 @@ class TestPrivacyWizard(TransactionCase):
         wizard.line_ids[1]._onchange_is_active()
         wizard.execution_details
         self.assertEqual(1, self.env['privacy.log'].search_count([('anonymized_email', '=', 'r*****.t**@gmail.com')]))
+<<<<<<< HEAD
+=======
+
+    def test_wizard_lookup_with_invalid_email(self):
+        # lookup with an invalid email should raise UserError
+        wizard = self.env['privacy.lookup.wizard'].create({
+            'email': 'demo',
+            'name': self.partner.name,
+        })
+        with self.assertRaises(UserError, msg='Invalid email address "%s"' % wizard.email):
+            wizard.action_lookup()
+>>>>>>> upstream/18.0
