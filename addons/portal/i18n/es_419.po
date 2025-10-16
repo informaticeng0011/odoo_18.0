@@ -34,6 +34,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* portal
 # 
 # Translators:
@@ -368,6 +369,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * portal
 #
 # Translators:
@@ -408,6 +411,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -479,6 +485,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -971,6 +978,10 @@ msgstr ""
 "POT-Creation-Date: 2025-05-23 18:40+0000\n"
 "PO-Revision-Date: 2025-10-14 22:21+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-23 18:40+0000\n"
+"PO-Revision-Date: 2025-10-14 22:21+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/portal/es_419/>\n"
@@ -1014,6 +1025,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1119,7 +1133,11 @@ msgid "\" to validate your action."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "\" para validar su acción."
+=======
+msgstr "\" para validar tu acción."
+>>>>>>> upstream/18.0
 =======
 msgstr "\" para validar tu acción."
 >>>>>>> upstream/18.0
@@ -1266,7 +1284,11 @@ msgid "1. Enter your password to confirm you own this account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "1. Escriba su contraseña para confirmar que esta cuenta le pertenece"
+=======
+msgstr "1. Escribe tu contraseña para confirmar que la cuenta es tuya"
+>>>>>>> upstream/18.0
 =======
 msgstr "1. Escribe tu contraseña para confirmar que la cuenta es tuya"
 >>>>>>> upstream/18.0
@@ -1410,8 +1432,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "2. Confirme que desea eliminar su cuenta.\n"
 "                                        Copie y pegue su inicio de sesión ("
+=======
+"2. Confirma que quieres eliminar tu cuenta.\n"
+"                                        Copia y pega tus datos de inicio de sesión ("
+>>>>>>> upstream/18.0
 =======
 "2. Confirma que quieres eliminar tu cuenta.\n"
 "                                        Copia y pega tus datos de inicio de sesión ("
@@ -1637,7 +1664,11 @@ msgid "<option value=\"\">select...</option>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<option value=\"\">seleccione...</option>"
+=======
+msgstr "<option value=\"\">Selecciona...</option>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<option value=\"\">Selecciona...</option>"
 >>>>>>> upstream/18.0
@@ -1840,6 +1871,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
+"            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
+"            <t t-set=\"signup_url\" t-value=\"object.user_id.partner_id and object.user_id.partner_id._get_signup_url() or object.partner_id and object.partner_id._get_signup_url()\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
 "            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
@@ -2353,6 +2390,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or ''\">Marc Demo</span>\n"
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
@@ -2371,6 +2409,9 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
+>>>>>>> upstream/18.0
+=======
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
@@ -2725,6 +2766,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Dear <t t-out=\"object.user_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
 "                        Welcome to <t t-out=\"object.user_id.company_id.name\">YourCompany</t>'s Portal!<br/><br/>\n"
 "                        An account has been created for you with the following login: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
@@ -2765,6 +2807,8 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3017,6 +3061,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3199,6 +3246,7 @@ msgid ""
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\" align=\"left\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3532,6 +3580,9 @@ msgid ""
 =======
 "                    <t t-out=\"company_name\">YourCompany</t>\n"
 >>>>>>> upstream/18.0
+=======
+"                    <t t-out=\"company_name\">YourCompany</t>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "                <tr><td valign=\"middle\" align=\"left\" style=\"opacity: 0.7;\">\n"
 "                    <t t-out=\"object.user_id.company_id.phone or ''\">+1 650-123-4567</t>\n"
@@ -3559,6 +3610,7 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4052,6 +4104,8 @@ msgstr ""
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<t t-set=\"user_name\" t-value="
 "\"object.user_id.name or object.partner_id.name or ''\"/>\n"
 "            <t t-set=\"company_name\" t-value="
@@ -4067,11 +4121,15 @@ msgstr ""
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style="
 "\"padding: 16px; background-color: white; color: #454748; border-"
 "collapse:separate;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "<tbody>\n"
 "    <!-- ENCABEZADO -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
@@ -4444,6 +4502,8 @@ msgstr ""
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width="
 "\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px "
 "0px 8px; border-collapse:separate;\">\n"
@@ -4462,6 +4522,9 @@ msgstr ""
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
@@ -4470,6 +4533,7 @@ msgstr ""
 "    <!-- CONTENIDO -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
@@ -4994,6 +5058,8 @@ msgstr ""
 "                <tr><td style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width="
 "\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px "
 "0px 8px; border-collapse:separate;\">\n"
@@ -5023,6 +5089,9 @@ msgstr ""
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
@@ -5031,6 +5100,7 @@ msgstr ""
 "    <!-- PIE DE PÁGINA -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\" align=\"left\">\n"
@@ -5492,6 +5562,8 @@ msgstr ""
 "                    <t t-if=\"object.user_id.company_id.website\">\n"
 "                        | <a t-attf-href=\"'%s' % {{ object.user_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.user_id.company_id.website or ''\">http://www.ejemplo.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width="
 "\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; "
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
@@ -5513,6 +5585,9 @@ msgstr ""
 "\"'%s' % {{ object.user_id.company_id.website }}\" style=\"text-"
 "decoration:none; color: #454748;\" t-out=\"object.user_id.company_id.website "
 "or ''\">http://www.ejemplo.com</a>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    </t>\n"
 "                </td></tr>\n"
@@ -5522,6 +5597,7 @@ msgstr ""
 "</tbody>\n"
 "</table>\n"
 "</td></tr>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6023,6 +6099,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "<!-- CON LA TECNOLOGÍA DE -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
@@ -6032,6 +6110,9 @@ msgstr ""
 "        Con la tecnología de <a target=\"_blank\" href="
 "\"https://www.odoo.com?utm_source=db&amp;utm_medium=portalinvite\" style="
 "\"color: #875A7B;\">Odoo</a>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "      </td></tr>\n"
 "    </table>\n"
@@ -6121,6 +6202,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6377,7 +6461,11 @@ msgid "Add contacts to share the document..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Agregue contactos para compartir el documento...."
+=======
+msgstr "Agrega contactos para compartir el documento..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Agrega contactos para compartir el documento..."
 >>>>>>> upstream/18.0
@@ -6518,8 +6606,12 @@ msgid "Add extra content to display in the email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Agregue contenido adicional para que aparezca en el correo electrónico"
+=======
+msgstr "Agrega contenido adicional para que aparezca en el correo electrónico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Agrega contenido adicional para que aparezca en el correo electrónico"
 >>>>>>> upstream/18.0
@@ -6670,7 +6762,11 @@ msgid "Are you sure you want to do this?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "¿Esta seguro de que quiere hacer esto?"
+=======
+msgstr "¿De verdad quieres hacer esto?"
+>>>>>>> upstream/18.0
 =======
 msgstr "¿De verdad quieres hacer esto?"
 >>>>>>> upstream/18.0
@@ -6823,7 +6919,11 @@ msgid "Change Password"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cambiar la contraseña"
+=======
+msgstr "Cambiar contraseña"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cambiar contraseña"
 >>>>>>> upstream/18.0
@@ -6964,8 +7064,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede cambiar el nombre de la empresa una vez que emitió documentos para "
 "su cuenta. Póngase en contacto con nosotros para realizar esta operación."
+=======
+"No puedes cambiar el nombre de la empresa una vez que emitiste documentos "
+"para tu cuenta. Contáctanos para realizar esta operación."
+>>>>>>> upstream/18.0
 =======
 "No puedes cambiar el nombre de la empresa una vez que emitiste documentos "
 "para tu cuenta. Contáctanos para realizar esta operación."
@@ -7293,7 +7398,11 @@ msgid "Forgot password?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "¿Olvidó su contraseña?"
+=======
+msgstr "¿Olvidaste tu contraseña?"
+>>>>>>> upstream/18.0
 =======
 msgstr "¿Olvidaste tu contraseña?"
 >>>>>>> upstream/18.0
@@ -7577,12 +7686,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Key Description"
 msgstr "Descripción de la clave"
 
 #. module: portal
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8116,7 +8228,10 @@ msgstr "Seguridad"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal/static/src/xml/portal_security.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8582,7 +8697,11 @@ msgid "Verify New Password:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verifique la nueva contraseña:"
+=======
+msgstr "Verifica la nueva contraseña:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifica la nueva contraseña:"
 >>>>>>> upstream/18.0
@@ -8837,7 +8956,11 @@ msgid "You must be"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Debe estar"
+=======
+msgstr "Debes estar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Debes estar"
 >>>>>>> upstream/18.0
@@ -8954,6 +9077,7 @@ msgstr "Primero debería proporcionarle acceso al portal al contacto \"%s\"."
 
 #. module: portal
 #: model:mail.template,subject:portal.mail_template_data_portal_welcome
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9204,6 +9328,8 @@ msgstr "Su cuenta en {{ object.user_id.company_id.name }}"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Your account at {{ object.user_id.company_id.name or "
 "object.partner_id.company_id.name }}"
@@ -9290,10 +9416,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Su cuenta en {{ object.user_id.company_id.name or "
+"object.partner_id.company_id.name }}"
 >>>>>>> upstream/18.0
 =======
 "Su cuenta en {{ object.user_id.company_id.name or "
@@ -9653,7 +9784,11 @@ msgid "Your contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su contacto"
+=======
+msgstr "Tu contacto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu contacto"
 >>>>>>> upstream/18.0
@@ -9805,7 +9940,11 @@ msgid "has invited you to access the following"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "le invitó a acceder a"
+=======
+msgstr "te invitó a acceder a"
+>>>>>>> upstream/18.0
 =======
 msgstr "te invitó a acceder a"
 >>>>>>> upstream/18.0
@@ -9951,7 +10090,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                identificar la clave una vez que la cree."
+=======
+"                identificar la clave una vez que la crees"
+>>>>>>> upstream/18.0
 =======
 "                identificar la clave una vez que la crees"
 >>>>>>> upstream/18.0
@@ -10115,7 +10258,12 @@ msgid "to your user account, it is very important to store it securely."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "a su cuenta de usuario, es muy importante que guarde bien la clave."
+=======
+msgstr ""
+"a tu cuenta de usuario, es muy importante que la guardes en un lugar seguro."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "a tu cuenta de usuario, es muy importante que la guardes en un lugar seguro."

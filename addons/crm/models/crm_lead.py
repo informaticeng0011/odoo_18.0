@@ -926,7 +926,11 @@ class Lead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             vals['date_open'] = now if lead.type == 'opportunity' else False
+=======
+            vals['date_open'] = now if lead.type == 'opportunity' and lead.user_id.active else False
+>>>>>>> upstream/18.0
 =======
             vals['date_open'] = now if lead.type == 'opportunity' and lead.user_id.active else False
 >>>>>>> upstream/18.0
@@ -1538,7 +1542,11 @@ class Lead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'priority': lambda fname, leads: max(leads.mapped('priority')) if leads else False,
+=======
+            'priority': lambda fname, leads: max(priorities) if (priorities := leads.filtered('priority').mapped('priority')) else False,
+>>>>>>> upstream/18.0
 =======
             'priority': lambda fname, leads: max(priorities) if (priorities := leads.filtered('priority').mapped('priority')) else False,
 >>>>>>> upstream/18.0

@@ -146,9 +146,14 @@ export class PivotHeader extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 item.options || ["date", "datetime"].includes(item.type)
                     ? getIntervalOptions()
                     : undefined,
+=======
+                item.options ||
+                (["date", "datetime"].includes(item.type) ? getIntervalOptions() : undefined),
+>>>>>>> upstream/18.0
 =======
                 item.options ||
                 (["date", "datetime"].includes(item.type) ? getIntervalOptions() : undefined),
@@ -496,11 +501,15 @@ export class PivotHeader extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (
             groupable &&
             fieldName !== "id" &&
             GROUPABLE_TYPES.includes(type)
         );
+=======
+        return groupable && fieldName !== "id" && GROUPABLE_TYPES.includes(type);
+>>>>>>> upstream/18.0
 =======
         return groupable && fieldName !== "id" && GROUPABLE_TYPES.includes(type);
 >>>>>>> upstream/18.0

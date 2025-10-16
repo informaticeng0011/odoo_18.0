@@ -4,6 +4,11 @@ import * as spreadsheet from "@odoo/o-spreadsheet";
 
 import { Component, useSubEnv } from "@odoo/owl";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { navigateToOdooMenu } from "@spreadsheet/helpers/helpers";
+import { useService } from "@web/core/utils/hooks";
+>>>>>>> upstream/18.0
 =======
 import { navigateToOdooMenu } from "@spreadsheet/helpers/helpers";
 import { useService } from "@web/core/utils/hooks";
@@ -19,6 +24,11 @@ export class MobileFigureContainer extends Component {
 
     setup() {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.actionService = useService("action");
+        this.notificationService = useService("notification");
+>>>>>>> upstream/18.0
 =======
         this.actionService = useService("action");
         this.notificationService = useService("notification");
@@ -50,7 +60,10 @@ export class MobileFigureContainer extends Component {
         return f1.x < f2.x ? f1.y < f2.y : f1.y < f2.y;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     hasOdooMenu(figureId) {
         return this.props.spreadsheetModel.getters.getChartOdooMenu(figureId) !== undefined;
@@ -66,5 +79,8 @@ export class MobileFigureContainer extends Component {
             });
         }
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }

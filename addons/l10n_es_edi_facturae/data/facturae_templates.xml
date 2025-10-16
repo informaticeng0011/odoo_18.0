@@ -201,9 +201,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <ReceiverTransactionReference t-out="line.get('ReceiverTransactionReference')"/>
                 <FileReference t-out="line.get('FileReference')"/>
                 <ReceiverContractReference t-out="line.get('ReceiverContractReference')"/>
+=======
+                <ReceiverContractReference t-out="line.get('ReceiverContractReference')"/>
+                <ReceiverTransactionReference t-out="line.get('ReceiverTransactionReference')"/>
+                <FileReference t-out="line.get('FileReference')"/>
+>>>>>>> upstream/18.0
 =======
                 <ReceiverContractReference t-out="line.get('ReceiverContractReference')"/>
                 <ReceiverTransactionReference t-out="line.get('ReceiverTransactionReference')"/>
@@ -585,8 +591,13 @@
                 <Quantity t-out="line['Quantity']"/>
                 <UnitOfMeasure t-out="line.get('UnitOfMeasure')"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <UnitPriceWithoutTax t-out="float_repr(refund_multiplier*line['UnitPriceWithoutTax'], file_currency.decimal_places)"/>
                 <TotalCost t-out="float_repr(refund_multiplier*line['TotalCost'], file_currency.decimal_places)"/>
+=======
+                <UnitPriceWithoutTax t-out="float_repr(refund_multiplier*line['UnitPriceWithoutTax'], 8)"/>
+                <TotalCost t-out="float_repr(refund_multiplier*line['TotalCost'], 8)"/>
+>>>>>>> upstream/18.0
 =======
                 <UnitPriceWithoutTax t-out="float_repr(refund_multiplier*line['UnitPriceWithoutTax'], 8)"/>
                 <TotalCost t-out="float_repr(refund_multiplier*line['TotalCost'], 8)"/>
@@ -597,7 +608,11 @@
                             <DiscountReason t-out="discount['DiscountReason']"/>
                             <DiscountRate t-out="discount.get('DiscountRate')"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <DiscountAmount t-out="float_repr(refund_multiplier*discount['DiscountAmount'], file_currency.decimal_places)"/>
+=======
+                            <DiscountAmount t-out="float_repr(refund_multiplier*discount['DiscountAmount'], 8)"/>
+>>>>>>> upstream/18.0
 =======
                             <DiscountAmount t-out="float_repr(refund_multiplier*discount['DiscountAmount'], 8)"/>
 >>>>>>> upstream/18.0
@@ -610,17 +625,23 @@
                             <ChargeReason t-out="charge['ChargeReason']"/>
                             <ChargeRate t-out="charge.get('ChargeRate')"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <ChargeAmount t-out="float_repr(refund_multiplier*charge['ChargeAmount'], file_currency.decimal_places)"/>
                         </Charge>
                     </t>
                 </Charges>
                 <GrossAmount t-out="float_repr(refund_multiplier*line['GrossAmount'], file_currency.decimal_places)"/>
 =======
+=======
+>>>>>>> upstream/18.0
                             <ChargeAmount t-out="float_repr(refund_multiplier*charge['ChargeAmount'], 8)"/>
                         </Charge>
                     </t>
                 </Charges>
                 <GrossAmount t-out="float_repr(refund_multiplier*line['GrossAmount'], 8)"/>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 <TaxesWithheld t-if="line.get('TaxesWithheld')">
                     <t t-foreach="line['TaxesWithheld']" t-as="tax"><t t-call="l10n_es_edi_facturae.tax_type"/></t>

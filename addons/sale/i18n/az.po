@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale
 # 
 # Translators:
@@ -469,6 +470,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * sale
 #
 # Translators:
@@ -482,6 +485,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -497,6 +503,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -979,6 +986,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-07-11 18:39+0000\n"
 "PO-Revision-Date: 2025-10-09 17:02+0000\n"
 "Last-Translator: ERPGo Odoo <erpgo.odoo@gmail.com>\n"
@@ -995,6 +1004,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1635,6 +1647,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <td style=“padding-top: 10px;”>\n"
 "                        <span style=“font-weight:bold;”>Faktura Ünvanı:</span>\n"
 "                        <t t-out=“object.partner_invoice_id.street or ‘’”>1201 S Figueroa St</t>\n"
@@ -1643,6 +1656,8 @@ msgstr ""
 "                        <t t-out=“object.partner_invoice_id.zip or ‘’”>90015</t>\n"
 "                        <t t-out=“object.partner_invoice_id.country_id.name or ‘’”>United States</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1887,6 +1902,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2050,6 +2068,7 @@ msgstr ""
 "                </tr>\n"
 "                <tr>\n"
 "                    <td>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2297,6 +2316,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <span style=\"font-weight:bold;\">Ödəniş Metodu:</span>\n"
 "                        <t t-if=\"tx_sudo.token_id\">\n"
 "                            <t t-out=\"tx_sudo.token_id.display_name or ''\"/>\n"
@@ -2384,6 +2405,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2547,6 +2571,7 @@ msgstr ""
 "                </tr>\n"
 "            </table>\n"
 "        </div>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2817,6 +2842,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        <div t-if=\"object.partner_shipping_id and not object.only_services\" style=\"margin: 0px; padding: 0px;\">\n"
 "            <table width=\"100%\" style=\"color: #454748; font-size: 12px;\">\n"
 "                <tr>\n"
@@ -2927,6 +2954,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3375,7 +3405,11 @@ msgid "<i class=\"fa fa-print me-1\"/>View Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=“fa fa-print me-1”/>Ətraflı Bax"
+=======
+msgstr "<i class=\"fa fa-print me-1\"/>Ətraflı Bax"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-print me-1\"/>Ətraflı Bax"
 >>>>>>> upstream/18.0
@@ -3793,7 +3827,11 @@ msgid "<span>Disc.%</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>Endirim%</span>"
+=======
+msgstr "<span>End.%</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>End.%</span>"
 >>>>>>> upstream/18.0
@@ -4033,7 +4071,10 @@ msgstr "<span>Xəbərdarlıq: bu sifarişin dublikat ola bilər => </span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4285,6 +4326,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4554,11 +4598,14 @@ msgstr "<strong>Satış Meneceri</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>Çatdırılma Ünvanı</strong>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5455,9 +5502,12 @@ msgstr "Şirkət Sənədinin Tərtibatı"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "Çatdırılma xərclərini hesabla və DHL ilə göndər"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5564,6 +5614,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5676,9 +5729,12 @@ msgstr "Göndərmə xərclərini hesablayın və Easypost ilə göndərin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with FedEx"
 msgstr "Çatdırılma xərclərini hesabla və FedEx ilə göndər"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5785,6 +5841,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5907,6 +5966,7 @@ msgstr "Göndərmə xərclərini hesablayın və Starshipit ilə göndərin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with UPS"
 msgstr "Çatdırılma xərclərini hesabla və UPS ilə göndər"
 
@@ -5915,6 +5975,8 @@ msgstr "Çatdırılma xərclərini hesabla və UPS ilə göndər"
 msgid "Compute shipping costs and ship with USPS"
 msgstr "Çatdırılma xərclərini hesabla və USPS ilə göndər"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6028,6 +6090,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6420,7 +6485,10 @@ msgstr "Müştərilər"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6528,6 +6596,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6778,7 +6849,11 @@ msgid "Disc.%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Endirim %"
+=======
+msgstr "End.%"
+>>>>>>> upstream/18.0
 =======
 msgstr "End.%"
 >>>>>>> upstream/18.0
@@ -7059,7 +7134,10 @@ msgstr "Dağıtım Analitik Hesabı"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7167,6 +7245,9 @@ msgstr "Sənədləşmə"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7431,7 +7512,10 @@ msgstr "E-poçt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7638,6 +7722,9 @@ msgstr "Email tərtibi sehrbazı"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7870,6 +7957,10 @@ msgstr "%s ilə əlavə sətir"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -8028,7 +8119,11 @@ msgid "Forbidden values on non-accountable sale order line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Qeyri-məsuliyyətli satış sifarişi xəttində qadağan edilmiş dəyərlər"
+=======
+msgstr "Qeyri-məsuliyyətli satış sifarişi sətrində qadağan edilmiş dəyərlər"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qeyri-məsuliyyətli satış sifarişi sətrində qadağan edilmiş dəyərlər"
 >>>>>>> upstream/18.0
@@ -8147,7 +8242,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Görə Qrupla"
+=======
+msgstr "Qrupla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qrupla"
 >>>>>>> upstream/18.0
@@ -8772,7 +8871,11 @@ msgid "Missing required fields on accountable sale order line."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Hesabatlı satış sifarişi xəttində tələb olunan sahələr çatışmır."
+=======
+msgstr "Hesabatlı satış sifarişi sətrində tələb olunan sahələr çatışmır."
+>>>>>>> upstream/18.0
 =======
 msgstr "Hesabatlı satış sifarişi sətrində tələb olunan sahələr çatışmır."
 >>>>>>> upstream/18.0
@@ -9888,7 +9991,11 @@ msgid "Sale Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Satiş Sifarişləri"
+=======
+msgstr "Satış Sifarişləri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satış Sifarişləri"
 >>>>>>> upstream/18.0
@@ -10222,7 +10329,10 @@ msgstr "Satış Menecerləri"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10429,6 +10539,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11513,7 +11626,10 @@ msgstr "Əməliyyatlar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11702,6 +11818,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11887,6 +12006,10 @@ msgstr "Məhsul tapmaq üçün yazın..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -12032,6 +12155,10 @@ msgstr "UPS Konnektoru"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -12361,12 +12488,15 @@ msgstr "Daha ətraflı"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "View Order"
 msgstr "Sifarişə Baxın"
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12640,8 +12770,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Siz satış sifarişi xəttinin növünü dəyişə bilməzsiniz. Bunun əvəzinə cari "
 "xətti silməli və uyğun tipdə yeni bir xətt yaratmalısınız."
+=======
+"Siz satış sifarişi sətrinin növünü dəyişə bilməzsiniz. Bunun əvəzinə cari "
+"sətri silməli və uyğun tipdə yeni bir sətr yaratmalısınız."
+>>>>>>> upstream/18.0
 =======
 "Siz satış sifarişi sətrinin növünü dəyişə bilməzsiniz. Bunun əvəzinə cari "
 "sətri silməli və uyğun tipdə yeni bir sətr yaratmalısınız."
@@ -12906,8 +13041,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "== ‘pending’) and ‘Gözlənilən Sifariş’ or ‘Sifariş’ }} (Ref {{ object.name "
 "or ’n/a’ }})"
+=======
+"== 'pending') and 'Gözlənilən Sifariş' or 'Sifariş' }} (Ref {{ object.name "
+"or 'n/a' }})"
+>>>>>>> upstream/18.0
 =======
 "== 'pending') and 'Gözlənilən Sifariş' or 'Sifariş' }} (Ref {{ object.name "
 "or 'n/a' }})"

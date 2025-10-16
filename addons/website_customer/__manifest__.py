@@ -25,12 +25,18 @@ Publish your customers as business references on your website to attract new pot
         'views/snippets.xml',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     'assets': {
         'web.assets_backend': [
             'website_customer/static/src/scss/website_preview.scss',
         ],
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     'installable': True,
     'license': 'LGPL-3',

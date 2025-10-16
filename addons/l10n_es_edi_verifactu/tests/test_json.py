@@ -287,7 +287,10 @@ class TestL10nEsEdiVerifactuJson(TestL10nEsEdiVerifactuCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_invoice_export(self):
@@ -314,6 +317,9 @@ class TestL10nEsEdiVerifactuJson(TestL10nEsEdiVerifactuCommon):
         self.assertEqual(batch_dict, self._json_file_to_dict('l10n_es_edi_verifactu/tests/files/test_invoice_export.json'))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

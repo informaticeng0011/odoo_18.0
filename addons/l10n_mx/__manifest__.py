@@ -62,7 +62,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'version': '2.2',
+=======
+    'version': '2.3',
+>>>>>>> upstream/18.0
 =======
     'version': '2.3',
 >>>>>>> upstream/18.0
@@ -275,6 +279,17 @@ With this module you will have:
     'demo': [
         'demo/demo_company.xml',
     ],
+<<<<<<< HEAD
+=======
+    'assets': {
+        'web.assets_backend': [
+            'l10n_mx/static/src/helpers/*.js',
+        ],
+        'web.assets_frontend': [
+            'l10n_mx/static/src/helpers/*.js',
+        ],
+    },
+>>>>>>> upstream/18.0
     'license': 'LGPL-3',
     'post_init_hook': '_enable_group_uom_post_init',
 }

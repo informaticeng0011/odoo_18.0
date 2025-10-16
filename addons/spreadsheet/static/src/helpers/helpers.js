@@ -2,6 +2,11 @@
 // @ts-check
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { _t } from "@web/core/l10n/translation";
+
+>>>>>>> upstream/18.0
 =======
 import { _t } from "@web/core/l10n/translation";
 
@@ -90,7 +95,10 @@ export function containsReferences(cell) {
     return cell.compiledFormula.tokens.some((token) => token.type === "REFERENCE");
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 export async function navigateToOdooMenu({ figureId, model, notificationService, actionService }) {
     const menu = model.getters.getChartOdooMenu(figureId);
@@ -108,4 +116,7 @@ export async function navigateToOdooMenu({ figureId, model, notificationService,
     }
     await actionService.doAction(menu.actionID);
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

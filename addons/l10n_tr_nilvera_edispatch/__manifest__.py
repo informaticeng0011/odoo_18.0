@@ -14,4 +14,12 @@
         'views/stock_picking_views.xml',
         'templates/l10n_tr_nilvera_edispatch.xml'
     ],
+<<<<<<< HEAD
+=======
+    'assets': {
+        'web.assets_backend': [
+            'l10n_tr_nilvera_edispatch/static/src/views/**/*',
+        ]
+    }
+>>>>>>> upstream/18.0
 }

@@ -78,7 +78,11 @@ class TestWebsiteSaleMail(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertIn('Order', new_mail.body_html)
+=======
+            self.assertIn('order', new_mail.body_html)
+>>>>>>> upstream/18.0
 =======
             self.assertIn('order', new_mail.body_html)
 >>>>>>> upstream/18.0

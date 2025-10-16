@@ -3,6 +3,7 @@ from unittest.mock import patch
 
 from odoo.tests import tagged
 from odoo.addons.account.tests.test_account_move_send import TestAccountMoveSendCommon
+<<<<<<< HEAD
 from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 
 @tagged('post_install_l10n', 'post_install', '-at_install')
@@ -453,11 +454,26 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 =======
     def init_invoice(self, partners, company=None, taxes=None):
 >>>>>>> upstream/18.0
+=======
+from odoo.addons.account_edi_proxy_client.models.account_edi_proxy_user import AccountEdiProxyError
+from odoo.addons.l10n_it_edi.tests.common import TestItEdi
+
+
+def attachment_to_dict(attachment):
+    return {'name': attachment.name, 'raw': attachment.raw}
+
+
+@tagged('post_install_l10n', 'post_install', '-at_install')
+class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
+
+    def init_invoice(self, partners, company=None, taxes=None):
+>>>>>>> upstream/18.0
         invoices = self.env['account.move']
         for partner in partners:
             invoices |= super().init_invoice(
                 "out_invoice",
                 partner=partner,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1127,6 +1143,11 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
                 amounts=[1000],
                 taxes=taxes or self.default_tax,
 >>>>>>> upstream/18.0
+=======
+                company=company or self.company,
+                amounts=[1000],
+                taxes=taxes or self.default_tax,
+>>>>>>> upstream/18.0
                 post=True)
         return invoices
 
@@ -1137,6 +1158,14 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
             ('res_field', 'in', ('invoice_pdf_report_file', 'l10n_it_edi_attachment_file')),
         ])
 
+<<<<<<< HEAD
+=======
+    def generate_l10n_it_edi_send_attachments(self, invoices, from_cron=False):
+        moves_data = {invoice: self.env['account.move.send']._get_default_sending_settings(invoice, from_cron=from_cron) for invoice in invoices}
+        with patch('odoo.addons.l10n_it_edi.models.account_move_send.AccountMoveSend._call_web_service_after_invoice_pdf_render'):
+            self.env['account.move.send']._generate_invoice_documents(moves_data)
+
+>>>>>>> upstream/18.0
     def test_invoice_multi_without_l10n_it_edi_xml_export(self):
         # Prepare
         invoice1, invoice2 = self.init_invoice(self.italian_partner_a + self.italian_partner_a)
@@ -1342,7 +1371,10 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1596,7 +1628,11 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
             self.company_data['default_tax_sale']
         )
 
+<<<<<<< HEAD
         with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload', return_value={}, autospec=True) as mock_check:
+=======
+        with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload_single', return_value={}, autospec=True) as mock_check:
+>>>>>>> upstream/18.0
             self.env['account.move.send'].with_context(allowed_company_ids=[second_company.id, self.company.id])._generate_and_send_invoices(invoice2 + invoice1)
             self.assertEqual(mock_check.call_count, 2)
             res_call_invoice1, res_call_invoice2 = mock_check.call_args_list
@@ -1715,6 +1751,7 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1935,4 +1972,76 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_l10n_it_edi_send_success(self):
+        invoice = self.init_invoice(self.italian_partner_a)
+        self.generate_l10n_it_edi_send_attachments(invoice)
+        success = {'id_transaction': "SDI ID 1", 'signed': False, 'signed_data': False}
+        with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload_single', return_value=success) as mock_check:
+            attachments_vals = {invoice: attachment_to_dict(invoice.l10n_it_edi_attachment_id)}
+            results = invoice._l10n_it_edi_send(attachments_vals)
+
+            self.assertEqual(mock_check.call_count, 1)
+            self.assertEqual(results, {invoice.l10n_it_edi_attachment_id.name: success})
+            self.assertEqual(invoice.l10n_it_edi_state, "processing")
+            self.assertEqual(invoice.l10n_it_edi_transaction, success['id_transaction'])
+
+    def test_l10n_it_edi_send_proxy_error(self):
+        invoice = self.init_invoice(self.italian_partner_a)
+        self.generate_l10n_it_edi_send_attachments(invoice)
+        proxy_error = {'error': 'error_code', 'error_description': 'error_description'}
+        with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload_single', return_value=proxy_error) as mock_check:
+            attachments_vals = {invoice: attachment_to_dict(invoice.l10n_it_edi_attachment_id)}
+            results = invoice._l10n_it_edi_send(attachments_vals)
+            proxy_error['error_message'] = invoice._l10n_it_edi_upload_error_message(proxy_error['error'], proxy_error['error_description'])
+
+            self.assertEqual(mock_check.call_count, 1)
+            self.assertEqual(results, {invoice.l10n_it_edi_attachment_id.name: proxy_error})
+            self.assertFalse(invoice.l10n_it_edi_state)
+            self.assertFalse(invoice.l10n_it_edi_transaction)
+
+    def test_l10n_it_edi_send_proxy_exception(self):
+        invoice = self.init_invoice(self.italian_partner_a)
+        self.generate_l10n_it_edi_send_attachments(invoice)
+        with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload_single', side_effect=AccountEdiProxyError('error_code', message='error_description')) as mock_check:
+            attachments_vals = {invoice: attachment_to_dict(invoice.l10n_it_edi_attachment_id)}
+            results = invoice._l10n_it_edi_send(attachments_vals)
+
+            self.assertEqual(mock_check.call_count, 1)
+            self.assertIn('error_message', results[invoice.l10n_it_edi_attachment_id.name])
+            self.assertFalse(invoice.l10n_it_edi_state)
+            self.assertFalse(invoice.l10n_it_edi_transaction)
+
+    def test_l10n_it_edi_send_from_cron(self):
+        invoices = self.init_invoice(self.italian_partner_a) | self.init_invoice(self.italian_partner_a)
+        invoices.sending_data = {'author_user_id': self.env.user.id, 'author_partner_id': self.env.user.partner_id.id}
+        self.generate_l10n_it_edi_send_attachments(invoices, from_cron=True)
+
+        success = {'id_transaction': "SDI ID 1", 'signed': False, 'signed_data': False}
+        proxy_error = {'error': 'error_code', 'error_description': 'error_description'}
+
+        def _l10n_it_edi_upload_single(record, file):
+            return success if file['filename'] == 'file_1.xml' else proxy_error
+
+        with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload_single', side_effect=_l10n_it_edi_upload_single, autospec=True) as mock_check:
+            invoices[0].l10n_it_edi_attachment_id.name = 'file_1.xml'
+
+            attachments_vals = {invoice: attachment_to_dict(invoice.l10n_it_edi_attachment_id) for invoice in invoices}
+            results = invoices._l10n_it_edi_send(attachments_vals)
+
+            self.assertEqual(mock_check.call_count, 2)
+            self.assertEqual(results, {
+                invoices[0].l10n_it_edi_attachment_id.name: success,
+                invoices[1].l10n_it_edi_attachment_id.name: proxy_error
+            })
+
+            self.assertEqual(invoices[0].l10n_it_edi_state, "processing")
+            self.assertEqual(invoices[0].l10n_it_edi_transaction, success['id_transaction'])
+            self.assertTrue(invoices[0].l10n_it_edi_header)
+
+            self.assertFalse(invoices[1].l10n_it_edi_state)
+            self.assertFalse(invoices[1].l10n_it_edi_transaction)
+            self.assertTrue(invoices[1].l10n_it_edi_header)
 >>>>>>> upstream/18.0

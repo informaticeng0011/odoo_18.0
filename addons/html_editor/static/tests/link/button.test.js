@@ -1,5 +1,6 @@
 import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { setupEditor } from "../_helpers/editor";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448,12 +449,17 @@ import { insertText } from "../_helpers/user_actions";
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { cleanLinkArtifacts, unformat } from "../_helpers/format";
 import { animationFrame, click, select, waitFor, waitForNone } from "@odoo/hoot-dom";
 import { getContent, simulateDoubleClickSelect } from "../_helpers/selection";
 import { insertText } from "../_helpers/user_actions";
 import { contains } from "@web/../tests/web_test_helpers";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 describe("button style", () => {
@@ -480,6 +486,7 @@ describe("button style", () => {
         const button = el.querySelector(".o_embedded_toolbar button");
         expect(button).toHaveStyle({ cursor: "pointer" });
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 });
 <<<<<<< HEAD
@@ -704,6 +711,8 @@ describe("button style", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     test("Button styling should not override inner font size", async () => {
         const { el } = await setupEditor(
@@ -763,6 +772,9 @@ describe("button style", () => {
         });
     });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 describe("button edit", () => {
@@ -854,6 +866,9 @@ describe("button edit", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

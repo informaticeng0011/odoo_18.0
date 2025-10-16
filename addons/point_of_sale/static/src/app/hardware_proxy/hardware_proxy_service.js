@@ -148,6 +148,10 @@ export class HardwareProxy extends EventBus {
                 .fetch(`${url}/hw_proxy/hello`, {
                     signal: timeoutController.signal,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    targetAddressSpace: "local",
+>>>>>>> upstream/18.0
 =======
                     targetAddressSpace: "local",
 >>>>>>> upstream/18.0

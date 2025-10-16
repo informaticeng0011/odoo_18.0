@@ -17,6 +17,10 @@ export class PivotOdooUIPlugin extends OdooUIPlugin {
         switch (cmd.type) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            case "UPDATE_LOCALE":
+>>>>>>> upstream/18.0
 =======
             case "UPDATE_LOCALE":
 >>>>>>> upstream/18.0

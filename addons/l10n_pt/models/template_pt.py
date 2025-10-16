@@ -26,6 +26,10 @@ class AccountChartTemplate(models.AbstractModel):
                 'account_default_pos_receivable_account_id': 'chart_2117',
                 'income_currency_exchange_account_id': 'chart_7861',
                 'expense_currency_exchange_account_id': 'chart_6863',
+<<<<<<< HEAD
+=======
+                'tax_calculation_rounding_method': 'round_globally',
+>>>>>>> upstream/18.0
                 'account_journal_early_pay_discount_loss_account_id': 'chart_682',
                 'account_journal_early_pay_discount_gain_account_id': 'chart_728',
                 'account_sale_tax_id': 'iva_pt_sale_normal',
@@ -80,7 +84,10 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -232,6 +239,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

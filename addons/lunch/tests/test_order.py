@@ -52,7 +52,10 @@ class TestOrder(TestsCommon):
         self.assertEqual(order1.quantity, 1)
         self.assertEqual(order2.quantity, 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @common.users('cle-lunch-manager')
     def test_create_only_updates_new_orders(self):
@@ -87,4 +90,7 @@ class TestOrder(TestsCommon):
 
         self.assertEqual(order_new.quantity, 2, "New order should be incremented")
         self.assertEqual(order_ordered.quantity, 1, "Ordered order should NOT be incremented")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

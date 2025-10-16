@@ -149,7 +149,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            } if tax_data else None
+>>>>>>> upstream/18.0
 =======
             } if tax_data else None
 >>>>>>> upstream/18.0

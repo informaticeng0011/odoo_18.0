@@ -549,11 +549,17 @@
                     this.websiteAnimateWidget = null;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 if (this.textHighlightWidget) {
                     this.textHighlightWidget.destroy()
                     this.textHighlightWidget = null;
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
                 // display quiz slide, or quiz attached to a slide
@@ -584,6 +590,11 @@
                     });
                     this.websiteAnimateWidget.attachTo($wpContainer);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    this.textHighlightWidget = new publicWidget.registry.TextHighlight();
+                    this.textHighlightWidget.attachTo($wpContainer);
+>>>>>>> upstream/18.0
 =======
                     this.textHighlightWidget = new publicWidget.registry.TextHighlight();
                     this.textHighlightWidget.attachTo($wpContainer);

@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* purchase_requisition
 # 
 # Translators:
@@ -479,11 +480,22 @@
 # Junko Augias, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * purchase_requisition
+#
+# Translators:
+# Tiffany Chang, 2024
+# Wil Odoo, 2024
+# Junko Augias, 2025
+#
+# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -964,6 +976,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"PO-Revision-Date: 2025-10-15 05:31+0000\n"
+"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
+"Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
+"purchase_requisition/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
@@ -1129,7 +1153,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化"
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
@@ -1629,7 +1657,11 @@ msgid "Buyer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "購買担当者"
+=======
+msgstr "購入者"
+>>>>>>> upstream/18.0
 =======
 msgstr "購入者"
 >>>>>>> upstream/18.0
@@ -2064,7 +2096,11 @@ msgid "Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "確認"
+=======
+msgstr "確定"
+>>>>>>> upstream/18.0
 =======
 msgstr "確定"
 >>>>>>> upstream/18.0
@@ -2556,7 +2592,11 @@ msgid "Create Alternative"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "代替を作成する"
+=======
+msgstr "代替を作成"
+>>>>>>> upstream/18.0
 =======
 msgstr "代替を作成"
 >>>>>>> upstream/18.0
@@ -2992,7 +3032,11 @@ msgstr "完了"
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition__state__draft
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Draft"
+<<<<<<< HEAD
 msgstr "ドラフt"
+=======
+msgstr "ドラフト"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__date_end
@@ -3283,6 +3327,7 @@ msgstr "プロダクト購買用の他の購買オーダ候補"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_alternative_warning__po_ids
 msgid "POs to Confirm"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3756,6 +3801,9 @@ msgstr "確定待ち購買オーダ"
 =======
 msgstr "確定待ち購買オーダ"
 >>>>>>> upstream/18.0
+=======
+msgstr "確定待ち購買オーダ"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__product_id
@@ -3827,7 +3875,11 @@ msgid "Products to Purchase"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "購買するプロダクト"
+=======
+msgstr "購買予定プロダクト"
+>>>>>>> upstream/18.0
 =======
 msgstr "購買予定プロダクト"
 >>>>>>> upstream/18.0
@@ -4302,7 +4354,11 @@ msgid "UoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "測定単位"
+=======
+msgstr "単位"
+>>>>>>> upstream/18.0
 =======
 msgstr "単位"
 >>>>>>> upstream/18.0
@@ -4603,7 +4659,11 @@ msgid "What about the alternative Requests for Quotations?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "見積依頼の代替案はどうでしょうか？"
+=======
+msgstr "見積依頼の代替案はどうしますか？"
+>>>>>>> upstream/18.0
 =======
 msgstr "見積依頼の代替案はどうしますか？"
 >>>>>>> upstream/18.0
@@ -5103,7 +5163,11 @@ msgid "You cannot confirm a blanket order with lines missing a price."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "価格のない明細を含む包括オーダを確認することはできません。"
+=======
+msgstr "価格のない明細を含む包括オーダを確定することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "価格のない明細を含む包括オーダを確定することはできません。"
 >>>>>>> upstream/18.0
@@ -5581,7 +5645,11 @@ msgid "You cannot confirm a blanket order with lines missing a quantity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "数量が不足している明細を含む包括オーダを確認することはできません。"
+=======
+msgstr "数量が不足している明細を含む包括オーダを確定することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "数量が不足している明細を含む包括オーダを確定することはできません。"
 >>>>>>> upstream/18.0
@@ -6061,7 +6129,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "プロダクト明細が含まれていないため、'%(agreement)s' を確認することはできません。"
+=======
+msgstr "プロダクト明細が含まれていないため、'%(agreement)s' を確定することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "プロダクト明細が含まれていないため、'%(agreement)s' を確定することはできません。"
 >>>>>>> upstream/18.0

@@ -26,6 +26,10 @@ odoo.livechatReady = new Deferred();
         env,
         getTemplate,
         translateFn: _t,
+<<<<<<< HEAD
+=======
+        translatableAttributes: ["data-tooltip"],
+>>>>>>> upstream/18.0
         dev: env.debug,
     });
     odoo.livechatReady.resolve();

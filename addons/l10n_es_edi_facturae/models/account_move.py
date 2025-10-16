@@ -10,7 +10,11 @@ from markupsafe import Markup
 from odoo import Command, _, api, fields, models
 from odoo.exceptions import UserError
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_round, float_repr, date_utils, SQL
+=======
+from odoo.tools import float_round, float_repr, float_compare, date_utils, SQL
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_round, float_repr, float_compare, date_utils, SQL
 >>>>>>> upstream/18.0
@@ -158,7 +162,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -268,6 +275,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -375,9 +385,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             and (self.partner_id.is_company or self.partner_id.vat) \
             and self.company_id.country_code == 'ES' \
             and self.company_id.currency_id.name == 'EUR' \
+=======
+            and self.country_code == 'ES' \
+>>>>>>> upstream/18.0
 =======
             and self.country_code == 'ES' \
 >>>>>>> upstream/18.0
@@ -576,20 +590,27 @@ class AccountMove(models.Model):
         return administrative_centers
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_es_edi_facturae_get_tax_node_from_tax_data(self, values):
         self.ensure_one()
         tax = values['grouping_key']
 =======
+=======
+>>>>>>> upstream/18.0
     def _l10n_es_edi_facturae_get_tax_node_from_tax_data(self, values, round=False):
         self.ensure_one()
         tax = values['grouping_key']
         prefix = '' if round else 'raw_'
         tax_sign = -1 if tax.amount < 0.0 else 1
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return {
             'tax_record': tax,
             'TaxRate': f'{abs(tax.amount):.3f}',
             'TaxableBase': {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 'TotalAmount': self.currency_id.round(values['raw_base_amount_currency']),
                 'EquivalentInEuros': self.company_currency_id.round(values['raw_base_amount']),
@@ -598,12 +619,17 @@ class AccountMove(models.Model):
                 'TotalAmount': self.currency_id.round(abs(values['raw_tax_amount_currency'])),
                 'EquivalentInEuros': self.company_currency_id.round(abs(values['raw_tax_amount'])),
 =======
+=======
+>>>>>>> upstream/18.0
                 'TotalAmount': self.currency_id.round(values[f'{prefix}base_amount_currency']),
                 'EquivalentInEuros': self.company_currency_id.round(values[f'{prefix}base_amount']),
             },
             'TaxAmount': {
                 'TotalAmount': self.currency_id.round(tax_sign * values[f'{prefix}tax_amount_currency']),
                 'EquivalentInEuros': self.company_currency_id.round(tax_sign * values[f'{prefix}tax_amount']),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             },
         }
@@ -636,7 +662,10 @@ class AccountMove(models.Model):
         """
         self.ensure_one()
 <<<<<<< HEAD
+<<<<<<< HEAD
         extended_dp = 6 if self.company_id.tax_calculation_rounding_method == 'round_globally' else 2
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         invoice_ref = self.ref and self.ref[:20]
@@ -660,7 +689,11 @@ class AccountMove(models.Model):
             'DiscountsAndRebates': [],
             'Charges': [],
 <<<<<<< HEAD
+<<<<<<< HEAD
             'GrossAmount': line.price_subtotal,
+=======
+            'GrossAmount': float_round(tax_details['raw_total_excluded_currency'], precision_digits=8),
+>>>>>>> upstream/18.0
 =======
             'GrossAmount': float_round(tax_details['raw_total_excluded_currency'], precision_digits=8),
 >>>>>>> upstream/18.0
@@ -669,6 +702,7 @@ class AccountMove(models.Model):
         if line.discount == 100.0:
             raw_total_cost = line.price_unit * line.quantity
         else:
+<<<<<<< HEAD
 <<<<<<< HEAD
             raw_total_cost = tax_details['total_excluded_currency'] / (1 - (line.discount / 100.0))
         xml_values['TotalCost'] = line.currency_id.round(raw_total_cost)
@@ -682,6 +716,8 @@ class AccountMove(models.Model):
         discount_amount = max(raw_discount_amount, 0.0)
         if discount_amount:
 =======
+=======
+>>>>>>> upstream/18.0
             raw_total_cost = tax_details['raw_total_excluded_currency'] / (1 - (line.discount / 100.0))
         xml_values['TotalCost'] = float_round(raw_total_cost, precision_digits=8)
 
@@ -692,6 +728,9 @@ class AccountMove(models.Model):
 
         discount_amount = xml_values['TotalCost'] - xml_values['GrossAmount']
         if float_compare(discount_amount, 0.0, precision_digits=8) > 0:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             xml_values['DiscountsAndRebates'].append({
                 'DiscountReason': '/',
@@ -699,6 +738,7 @@ class AccountMove(models.Model):
                 'DiscountAmount': discount_amount,
             })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         surcharge_amount = -min(0.0, raw_discount_amount)
         if surcharge_amount:
@@ -709,12 +749,17 @@ class AccountMove(models.Model):
             })
 
 =======
+=======
+>>>>>>> upstream/18.0
         if float_compare(discount_amount, 0.0, precision_digits=8) < 0:
             xml_values['Charges'].append({
                 'ChargeReason': '/',
                 'ChargeRate': f'{-line.discount:.2f}',
                 'ChargeAmount': -discount_amount,
             })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         xml_values['TaxesOutputs'] = [
             self._l10n_es_edi_facturae_get_tax_node_from_tax_data(values)
@@ -776,6 +821,7 @@ class AccountMove(models.Model):
         invoice_values = {
             'invoice_record': self,
             'invoice_currency': inv_curr,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1068,6 +1114,10 @@ class AccountMove(models.Model):
             'InvoiceDocumentType': 'FA' if self.l10n_es_is_simplified else 'FC',
             'InvoiceClass': 'OR' if self.move_type in ['out_refund', 'in_refund'] else 'OO',
 >>>>>>> upstream/18.0
+=======
+            'InvoiceDocumentType': 'FA' if self.l10n_es_is_simplified else 'FC',
+            'InvoiceClass': 'OR' if self.move_type in ['out_refund', 'in_refund'] else 'OO',
+>>>>>>> upstream/18.0
             'Corrective': self._l10n_es_edi_facturae_get_corrective_data(),
             'InvoiceIssueData': {
                 'OperationDate': operation_date,
@@ -1100,6 +1150,7 @@ class AccountMove(models.Model):
 
         # Taxes.
         AccountTax = self.env['account.tax']
+<<<<<<< HEAD
 <<<<<<< HEAD
         base_amls = self.invoice_line_ids.filtered(lambda line: line.display_type == 'product')
         base_lines = [self._prepare_product_base_line_for_taxes_computation(line) for line in base_amls]
@@ -1353,18 +1404,24 @@ class AccountMove(models.Model):
 
         base_lines_aggregated_values = AccountTax._aggregate_base_lines_tax_details(base_lines, grouping_function)
 =======
+=======
+>>>>>>> upstream/18.0
         base_lines, _tax_lines = self._get_rounded_base_and_tax_lines()
 
         def grouping_function_per_tax(base_line, tax_data):
             return tax_data['tax'] if tax_data else None
 
         base_lines_aggregated_values = AccountTax._aggregate_base_lines_tax_details(base_lines, grouping_function_per_tax)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         for base_line, aggregated_values in base_lines_aggregated_values:
             invoice_line_values = self._l10n_es_edi_facturae_prepare_inv_line(base_line, aggregated_values)
             invoice_values['TotalGrossAmount'] += invoice_line_values['GrossAmount']
             invoice_values['Items'].append(invoice_line_values)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             for values in aggregated_values.values():
                 tax = values['grouping_key']
@@ -1379,6 +1436,8 @@ class AccountMove(models.Model):
                     invoice_values['TaxOutputs'].append(tax_data)
                     invoice_values['TotalTaxOutputs'] += tax_data['TaxAmount']['TotalAmount']
 =======
+=======
+>>>>>>> upstream/18.0
         def grouping_function_per_base_line_tax(base_line, tax_data):
             return {
                 'record': base_line['record'],
@@ -1396,6 +1455,9 @@ class AccountMove(models.Model):
             tax_data = self._l10n_es_edi_facturae_get_tax_node_from_tax_data({**values, 'grouping_key': tax})
             invoice_values['TaxesWithheld' if is_withholding else 'TaxOutputs'].append(tax_data)
             invoice_values['TotalTaxesWithheld' if is_withholding else 'TotalTaxOutputs'] += values['tax_amount_currency']
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         invoice_values['TotalGrossAmountBeforeTaxes'] = (
@@ -1404,6 +1466,10 @@ class AccountMove(models.Model):
             + invoice_values['TotalGeneralSurcharges']
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        refund_multiplier = -1 if self.move_type in ('out_refund', 'in_refund') else 1
+>>>>>>> upstream/18.0
 =======
         refund_multiplier = -1 if self.move_type in ('out_refund', 'in_refund') else 1
 >>>>>>> upstream/18.0
@@ -1424,7 +1490,11 @@ class AccountMove(models.Model):
             'eur': eur_curr,
             'conversion_needed': conversion_needed,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'refund_multiplier': -1 if self.move_type in ('out_refund', 'in_refund') else 1,
+=======
+            'refund_multiplier': refund_multiplier,
+>>>>>>> upstream/18.0
 =======
             'refund_multiplier': refund_multiplier,
 >>>>>>> upstream/18.0
@@ -1448,6 +1518,10 @@ class AccountMove(models.Model):
             'Invoices': [invoice_values],
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -1767,7 +1841,10 @@ class AccountMove(models.Model):
         signed_info_xml = signature.find("ds:SignedInfo", namespaces=NS_MAP)
         signature.find("ds:SignatureValue", namespaces=NS_MAP).text = certificate_sudo._sign(_canonicalize_node(signed_info_xml)).decode()
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         return etree.tostring(root, xml_declaration=True, encoding='UTF-8', standalone=True)

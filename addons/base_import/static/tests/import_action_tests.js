@@ -316,6 +316,10 @@ QUnit.module("Base Import Tests", (hooks) => {
 
     QUnit.test("Import view: UI before file upload", async function (assert) {
         const templateURL = "/myTemplateURL.xlsx";
+<<<<<<< HEAD
+=======
+        const secondTemplateURL = "/mySecondTemplateURL.xlsx";
+>>>>>>> upstream/18.0
 
         patchWithCleanup(browser.location, {
             origin: "http://example.com",
@@ -330,6 +334,13 @@ QUnit.module("Base Import Tests", (hooks) => {
                         label: "Some Import Template",
                         template: templateURL,
                     },
+<<<<<<< HEAD
+=======
+                    {
+                        label: "Another Import Template",
+                        template: secondTemplateURL,
+                    }
+>>>>>>> upstream/18.0
                 ]);
             },
             "base_import.import/create": (route, args) => {
@@ -347,6 +358,7 @@ QUnit.module("Base Import Tests", (hooks) => {
 
         assert.containsOnce(target, ".o_import_action", "import view is displayed");
         assert.strictEqual(
+<<<<<<< HEAD
             target.querySelector(".o_nocontent_help .btn-outline-primary").textContent,
             " Some Import Template"
         );
@@ -354,6 +366,29 @@ QUnit.module("Base Import Tests", (hooks) => {
             target.querySelector(".o_nocontent_help .btn-outline-primary").href,
             window.location.origin + templateURL,
             "button has the right download url"
+=======
+            target.querySelectorAll(".o_nocontent_help .btn-outline-primary").length,
+            2,
+            "there are two import template buttons"
+        )
+        assert.strictEqual(
+            target.querySelectorAll(".o_nocontent_help .btn-outline-primary")[0].textContent,
+            " Some Import Template"
+        );
+        assert.strictEqual(
+            target.querySelectorAll(".o_nocontent_help .btn-outline-primary")[0].href,
+            window.location.origin + templateURL,
+            "1st button has the right download url"
+        );
+        assert.strictEqual(
+            target.querySelectorAll(".o_nocontent_help .btn-outline-primary")[1].textContent,
+            " Another Import Template"
+        );
+        assert.strictEqual(
+            target.querySelectorAll(".o_nocontent_help .btn-outline-primary")[1].href,
+            window.location.origin + secondTemplateURL,
+            "2nd button has the right download url"
+>>>>>>> upstream/18.0
         );
         assert.verifySteps(["partner/get_import_templates", "base_import.import/create"]);
         assert.containsN(

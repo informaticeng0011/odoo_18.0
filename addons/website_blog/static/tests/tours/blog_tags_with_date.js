@@ -1,7 +1,11 @@
 /** @odoo-module **/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { clickOnSave, registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
+=======
+import { registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
+>>>>>>> upstream/18.0
 =======
 import { registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
 >>>>>>> upstream/18.0
@@ -12,6 +16,7 @@ import { registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
  */
 registerWebsitePreviewTour("blog_tags_with_date", {
     url: "/blog",
+<<<<<<< HEAD
 <<<<<<< HEAD
     edition: true,
 }, () => [{
@@ -25,6 +30,9 @@ registerWebsitePreviewTour("blog_tags_with_date", {
     },
     ...clickOnSave(),
     {
+=======
+}, () => [{
+>>>>>>> upstream/18.0
 =======
 }, () => [{
 >>>>>>> upstream/18.0

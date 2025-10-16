@@ -201,7 +201,12 @@ class SendSMS(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 record.body = record.template_id._render_field('body', [record.res_id], compute_lang=True)[record.res_id]
+=======
+                additional_context = record._get_additional_render_context().get('body', {})
+                record.body = record.template_id._render_field('body', [record.res_id], compute_lang=True, add_context=additional_context)[record.res_id]
+>>>>>>> upstream/18.0
 =======
                 additional_context = record._get_additional_render_context().get('body', {})
                 record.body = record.template_id._render_field('body', [record.res_id], compute_lang=True, add_context=additional_context)[record.res_id]
@@ -416,8 +421,14 @@ class SendSMS(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['sms.sms'].sudo().create(sms_values).send()
         return True
+=======
+        sms_su = self.env['sms.sms'].sudo().create(sms_values)
+        sms_su.send()
+        return sms_su
+>>>>>>> upstream/18.0
 =======
         sms_su = self.env['sms.sms'].sudo().create(sms_values)
         sms_su.send()
@@ -698,11 +709,14 @@ class SendSMS(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.template_id and self.body == self.template_id.body:
             all_bodies = self.template_id._render_field('body', records.ids, compute_lang=True)
         else:
             all_bodies = self.env['mail.render.mixin']._render_template(self.body, records._name, records.ids)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -807,6 +821,9 @@ class SendSMS(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -964,7 +981,10 @@ class SendSMS(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1076,6 +1096,9 @@ class SendSMS(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1185,7 +1208,12 @@ class SendSMS(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 result['body'] = template._render_template(template.body, res_model, [res_id])[res_id]
+=======
+                additional_context = self._get_additional_render_context().get('body', {})
+                result['body'] = template._render_template(template.body, res_model, [res_id], add_context=additional_context)[res_id]
+>>>>>>> upstream/18.0
 =======
                 additional_context = self._get_additional_render_context().get('body', {})
                 result['body'] = template._render_template(template.body, res_model, [res_id], add_context=additional_context)[res_id]

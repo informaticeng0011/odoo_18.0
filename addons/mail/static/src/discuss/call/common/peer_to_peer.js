@@ -31,6 +31,10 @@ export const UPDATE_EVENT = Object.freeze({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    RECOVERY: "recovery",
+>>>>>>> upstream/18.0
 =======
     RECOVERY: "recovery",
 >>>>>>> upstream/18.0
@@ -605,6 +609,10 @@ export class PeerToPeer extends EventTarget {
                     peer = this._createPeer(id, { sequence: payload.sequence });
                 }
                 if (
+<<<<<<< HEAD
+=======
+                    !peer.connection ||
+>>>>>>> upstream/18.0
                     INVALID_ICE_CONNECTION_STATES.has(peer.connection.iceConnectionState) ||
                     peer.connection.signalingState === "have-remote-offer"
                 ) {
@@ -684,7 +692,10 @@ export class PeerToPeer extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -846,6 +857,9 @@ export class PeerToPeer extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1092,6 +1106,10 @@ export class PeerToPeer extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                this._emitUpdate({ name: UPDATE_EVENT.RECOVERY, payload: { id } });
+>>>>>>> upstream/18.0
 =======
                 this._emitUpdate({ name: UPDATE_EVENT.RECOVERY, payload: { id } });
 >>>>>>> upstream/18.0

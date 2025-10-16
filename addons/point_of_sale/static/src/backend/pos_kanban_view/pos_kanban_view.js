@@ -11,6 +11,10 @@ import { useTrackedAsync } from "@point_of_sale/app/utils/hooks";
 import { _t } from "@web/core/l10n/translation";
 import { KanbanController } from "@web/views/kanban/kanban_controller";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { hasTouch } from "@web/core/browser/feature_detection";
+>>>>>>> upstream/18.0
 =======
 import { hasTouch } from "@web/core/browser/feature_detection";
 >>>>>>> upstream/18.0
@@ -33,6 +37,11 @@ export class PosKanbanController extends KanbanController {
             is_main_company: true,
         };
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.autofocus = hasTouch() ? false : true;
+
+>>>>>>> upstream/18.0
 =======
         this.autofocus = hasTouch() ? false : true;
 

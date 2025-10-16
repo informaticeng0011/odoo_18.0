@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -112,7 +116,10 @@ class TestTaxesComputation(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -322,6 +329,9 @@ class TestTaxesComputation(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -903,6 +913,7 @@ class TestTaxesComputation(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1067,6 +1078,8 @@ class TestTaxesComputation(TestTaxCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def test_random_case_10_reverse_charge(self):
         """ Reverse charge taxes are always price-excluded. """
         tax = self.percent_tax(
@@ -1101,6 +1114,9 @@ class TestTaxesComputation(TestTaxCommon):
         self.assert_taxes_computation(*expected_values)
         self._run_js_tests()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_fixed_tax_price_included_affect_base_on_0(self):
         tax = self.fixed_tax(0.05, price_include_override='tax_included', include_base_amount=True)
@@ -1264,10 +1280,13 @@ class TestTaxesComputation(TestTaxCommon):
         # tax       price_incl      incl_base_amount    is_base_affected
         # ----------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
         # tax1      T               T                   T
         # tax2
         # tax3                                          T
 =======
+=======
+>>>>>>> upstream/18.0
         # tax1      T               T
         # tax2      T               T
         tax1.is_base_affected = False
@@ -1291,6 +1310,9 @@ class TestTaxesComputation(TestTaxCommon):
         # tax2
         # tax3                                          T
         tax1.is_base_affected = True
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         tax2.price_include = False
         tax2.include_base_amount = False
