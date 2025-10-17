@@ -53,7 +53,10 @@ class TestOrder(TestsCommon):
         self.assertEqual(order2.quantity, 1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -91,6 +94,9 @@ class TestOrder(TestsCommon):
         self.assertEqual(order_new.quantity, 2, "New order should be incremented")
         self.assertEqual(order_ordered.quantity, 1, "Ordered order should NOT be incremented")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

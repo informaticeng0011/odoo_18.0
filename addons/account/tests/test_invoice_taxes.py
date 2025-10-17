@@ -926,7 +926,10 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1236,6 +1239,7 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1408,6 +1412,8 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1435,6 +1441,9 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
         line = move.invoice_line_ids
         self.assertEqual(line.tax_ids, active_tax, f"The tax should be {active_tax.name}, but is is currently {line.tax_ids.name}")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

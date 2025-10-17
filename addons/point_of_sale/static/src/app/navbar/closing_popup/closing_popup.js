@@ -186,6 +186,10 @@ export class ClosePosPopup extends Component {
                 body: JSON.stringify({ params: { action: "close" } }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                targetAddressSpace: "local",
+>>>>>>> upstream/18.0
 =======
                 targetAddressSpace: "local",
 >>>>>>> upstream/18.0

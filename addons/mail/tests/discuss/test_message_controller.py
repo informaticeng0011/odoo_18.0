@@ -554,7 +554,11 @@ class TestMessageLinks(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(res.status_code, 401)
+=======
+            self.assertEqual(res.status_code, 404)
+>>>>>>> upstream/18.0
 =======
             self.assertEqual(res.status_code, 404)
 >>>>>>> upstream/18.0

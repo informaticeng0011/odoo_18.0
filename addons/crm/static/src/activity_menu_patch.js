@@ -35,6 +35,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Domain } from "@web/core/domain";
+>>>>>>> upstream/18.0
 =======
 import { Domain } from "@web/core/domain";
 >>>>>>> upstream/18.0
@@ -222,6 +226,7 @@ patch(ActivityMenu.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             context["active_test"] = 0; // to show lost leads in the activity
 >>>>>>> upstream/18.0
@@ -336,6 +341,8 @@ patch(ActivityMenu.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             this.action.loadAction("crm.crm_lead_action_my_activities").then((action) => {
                 // to show lost leads in the activity
                 action.domain = Domain.and([
@@ -380,6 +387,9 @@ patch(ActivityMenu.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

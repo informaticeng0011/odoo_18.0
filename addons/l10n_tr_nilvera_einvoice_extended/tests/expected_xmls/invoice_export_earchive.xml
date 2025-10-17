@@ -154,11 +154,14 @@
     <cbc:ID>1</cbc:ID>
     <cbc:InvoicedQuantity unitCode="C62">3.0</cbc:InvoicedQuantity>
     <cbc:LineExtensionAmount currencyID="TRY">132.00</cbc:LineExtensionAmount>
+<<<<<<< HEAD
     <cac:AllowanceCharge>
       <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
       <cbc:MultiplierFactorNumeric>0.12</cbc:MultiplierFactorNumeric>
       <cbc:Amount currencyID="TRY">18.00</cbc:Amount>
     </cac:AllowanceCharge>
+=======
+>>>>>>> upstream/18.0
     <cac:Delivery>
       <cac:DeliveryAddress>
         <cbc:StreetName>Gökhane Sokak No:1</cbc:StreetName>
@@ -179,6 +182,14 @@
         </cac:ShipmentStage>
       </cac:Shipment>
     </cac:Delivery>
+<<<<<<< HEAD
+=======
+    <cac:AllowanceCharge>
+      <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+      <cbc:MultiplierFactorNumeric>0.12</cbc:MultiplierFactorNumeric>
+      <cbc:Amount currencyID="TRY">18.00</cbc:Amount>
+    </cac:AllowanceCharge>
+>>>>>>> upstream/18.0
     <cac:TaxTotal>
       <cbc:TaxAmount currencyID="TRY">26.40</cbc:TaxAmount>
       <cac:TaxSubtotal>

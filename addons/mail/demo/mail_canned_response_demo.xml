@@ -5,6 +5,10 @@
         <record id="mail_canned_response_bye" model="mail.canned.response">
             <field name="source">bye</field>
             <field name="substitution">Thanks for your feedback. Goodbye!</field>
+<<<<<<< HEAD
+=======
+            <field name="group_ids" eval="[(6, 0, [ref('base.group_user')])]"/>
+>>>>>>> upstream/18.0
         </record>
 
     </data>

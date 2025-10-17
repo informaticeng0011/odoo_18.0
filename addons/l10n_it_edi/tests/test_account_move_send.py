@@ -4,6 +4,7 @@ from unittest.mock import patch
 from odoo.tests import tagged
 from odoo.addons.account.tests.test_account_move_send import TestAccountMoveSendCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 
 @tagged('post_install_l10n', 'post_install', '-at_install')
@@ -455,6 +456,8 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
     def init_invoice(self, partners, company=None, taxes=None):
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo.addons.account_edi_proxy_client.models.account_edi_proxy_user import AccountEdiProxyError
 from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 
@@ -467,12 +470,16 @@ def attachment_to_dict(attachment):
 class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 
     def init_invoice(self, partners, company=None, taxes=None):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         invoices = self.env['account.move']
         for partner in partners:
             invoices |= super().init_invoice(
                 "out_invoice",
                 partner=partner,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1148,6 +1155,11 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
                 amounts=[1000],
                 taxes=taxes or self.default_tax,
 >>>>>>> upstream/18.0
+=======
+                company=company or self.company,
+                amounts=[1000],
+                taxes=taxes or self.default_tax,
+>>>>>>> upstream/18.0
                 post=True)
         return invoices
 
@@ -1159,12 +1171,18 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def generate_l10n_it_edi_send_attachments(self, invoices, from_cron=False):
         moves_data = {invoice: self.env['account.move.send']._get_default_sending_settings(invoice, from_cron=from_cron) for invoice in invoices}
         with patch('odoo.addons.l10n_it_edi.models.account_move_send.AccountMoveSend._call_web_service_after_invoice_pdf_render'):
             self.env['account.move.send']._generate_invoice_documents(moves_data)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_invoice_multi_without_l10n_it_edi_xml_export(self):
         # Prepare
@@ -1372,7 +1390,10 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1629,7 +1650,11 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload', return_value={}, autospec=True) as mock_check:
+=======
+        with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload_single', return_value={}, autospec=True) as mock_check:
+>>>>>>> upstream/18.0
 =======
         with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload_single', return_value={}, autospec=True) as mock_check:
 >>>>>>> upstream/18.0
@@ -1752,6 +1777,7 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1974,6 +2000,8 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_l10n_it_edi_send_success(self):
         invoice = self.init_invoice(self.italian_partner_a)
@@ -2044,4 +2072,7 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
             self.assertFalse(invoices[1].l10n_it_edi_state)
             self.assertFalse(invoices[1].l10n_it_edi_transaction)
             self.assertTrue(invoices[1].l10n_it_edi_header)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

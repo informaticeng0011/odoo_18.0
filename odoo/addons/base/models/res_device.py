@@ -2,17 +2,23 @@
 
 from contextlib import nullcontext
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
 import logging
 
 from odoo import api, fields, models, tools
 from odoo.http import GeoIP, request, root
 =======
+=======
+>>>>>>> upstream/18.0
 from datetime import datetime, timedelta
 import logging
 
 from odoo import api, fields, models, tools
 from odoo.http import GeoIP, get_session_max_inactivity, request, root
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.tools import SQL, OrderedSet, unique
 from odoo.tools.translate import _
@@ -145,7 +151,10 @@ class ResDeviceLog(models.Model):
         _logger.info("GC device logs delete %d entries", self.env.cr.rowcount)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.autovacuum
     def __update_revoked(self):
         """
@@ -181,6 +190,9 @@ class ResDeviceLog(models.Model):
             self.env.cr.commit()
             offset -= len(to_revoke)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class ResDevice(models.Model):

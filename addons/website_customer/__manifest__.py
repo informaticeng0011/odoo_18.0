@@ -26,7 +26,10 @@ Publish your customers as business references on your website to attract new pot
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     'assets': {
@@ -35,6 +38,9 @@ Publish your customers as business references on your website to attract new pot
         ],
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

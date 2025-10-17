@@ -1,6 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
 from odoo import fields, models, _
+=======
+from odoo import api, fields, models, _
+from odoo.tools import SQL
+>>>>>>> upstream/18.0
 
 
 class AccountMove(models.Model):
@@ -59,3 +64,15 @@ class AccountMoveLine(models.Model):
     def unlink(self):
         self.sudo().vehicle_log_service_ids.with_context(ignore_linked_bill_constraint=True).unlink()
         return super().unlink()
+<<<<<<< HEAD
+=======
+
+    @api.model
+    def _get_extra_query_base_tax_line_mapping(self) -> SQL:
+        """Override to add vehicle_id matching condition for tax details query.
+        This ensures that tax lines are only matched with base lines that have the same vehicle_id,
+        preventing tax lines from being incorrectly merged when different vehicles are used.
+        """
+        query = super()._get_extra_query_base_tax_line_mapping()
+        return SQL("%s AND COALESCE(base_line.vehicle_id, 0) = COALESCE(account_move_line.vehicle_id, 0)", query)
+>>>>>>> upstream/18.0

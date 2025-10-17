@@ -73,7 +73,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="factor_percent" invisible="repartition_type == 'base'"/>
+=======
+                    <field name="factor_percent"
+                           invisible="repartition_type == 'base'"
+                           widget="account_tax_repartition_line_factor_percent"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="factor_percent"
                            invisible="repartition_type == 'base'"
@@ -323,6 +329,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    <field name="amount"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="amount"/>
 >>>>>>> upstream/18.0
@@ -450,6 +460,7 @@
                         <page string="Advanced Options" name="advanced_options">
                             <group>
                                 <group>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -747,6 +758,9 @@
 =======
                                     <field name="invoice_label"/>
 >>>>>>> upstream/18.0
+=======
+                                    <field name="invoice_label"/>
+>>>>>>> upstream/18.0
                                     <field name="description"/>
                                     <field name="tax_group_id" invisible="amount_type == 'group'" required="amount_type != 'group'"/>
                                     <field name="analytic" invisible="amount_type == 'group'" groups="analytic.group_analytic_accounting" />
@@ -759,7 +773,11 @@
                                     <field name="price_include_override"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                            invisible="amount_type == 'group'"
+=======
+                                           invisible="amount_type == 'group' or has_negative_factor"
+>>>>>>> upstream/18.0
 =======
                                            invisible="amount_type == 'group' or has_negative_factor"
 >>>>>>> upstream/18.0

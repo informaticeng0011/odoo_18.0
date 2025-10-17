@@ -49,6 +49,11 @@ class PrivacyLookupWizard(models.TransientModel):
         email_normalized = tools.email_normalize(self.email.strip())
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not email_normalized:
+            raise UserError(_('Invalid email address “%s”', self.email))
+>>>>>>> upstream/18.0
 =======
         if not email_normalized:
             raise UserError(_('Invalid email address “%s”', self.email))

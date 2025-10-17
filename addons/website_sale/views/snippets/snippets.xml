@@ -400,6 +400,7 @@
         <t t-set="categories" t-value="request.env['product.public.category'].search([])"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <we-row t-if="categories">
             <we-title class="o_long_title">eCommerce Categories</we-title>
             <div class="o_switch ms-4">
@@ -422,6 +423,8 @@
             </we-button>
         </we-row>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         <div t-attf-class="#{'d-none' if not categories else ''}">
@@ -448,6 +451,9 @@
             </we-row>
         </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

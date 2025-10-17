@@ -1626,7 +1626,10 @@ class TestTemplating(ViewCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1765,6 +1768,9 @@ class TestTemplating(ViewCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2187,7 +2193,10 @@ class TestViews(ViewCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2299,6 +2308,9 @@ class TestViews(ViewCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4065,7 +4077,10 @@ class TestViewTranslations(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4392,6 +4407,9 @@ class TestViewTranslations(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5446,7 +5464,11 @@ class TestRenderAllViews(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @common.tagged('post_install', '-at_install')
+=======
+@common.tagged('post_install', '-at_install', 'post_install_l10n')
+>>>>>>> upstream/18.0
 =======
 @common.tagged('post_install', '-at_install', 'post_install_l10n')
 >>>>>>> upstream/18.0
@@ -5592,6 +5614,7 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'base_setup',
             'analytic',
             'hr_timesheet',
@@ -5969,6 +5992,8 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'account',
             'account_3way_match',
             'account_accountant',
@@ -6007,7 +6032,10 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'appointment',
             'approvals',
             'approvals_purchase_stock',
+<<<<<<< HEAD
             'auth_signup',
+=======
+>>>>>>> upstream/18.0
             'auth_totp',
             'barcodes_gs1_nomenclature',
             'base_address_extended',
@@ -6047,7 +6075,10 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'documents_l10n_hk_hr_payroll',
             'documents_l10n_ke_hr_payroll',
             'documents_project',
+<<<<<<< HEAD
             'documents_project_sale',
+=======
+>>>>>>> upstream/18.0
             'documents_spreadsheet',
             'event',
             'event_booth',
@@ -6101,7 +6132,10 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'hr_work_entry',
             'hr_work_entry_contract',
             'hr_work_entry_holidays_enterprise',
+<<<<<<< HEAD
             'iap',
+=======
+>>>>>>> upstream/18.0
             'im_livechat',
             'industry_fsm',
             'industry_fsm_report',
@@ -6111,7 +6145,10 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'iot',
             'knowledge',
             'l10n_ae_hr_payroll',
+<<<<<<< HEAD
             'l10n_ae_hr_payroll_account',
+=======
+>>>>>>> upstream/18.0
             'l10n_ar',
             'l10n_ar_edi',
             'l10n_ar_withholding',
@@ -6133,7 +6170,10 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'l10n_ch',
             'l10n_ch_hr_payroll',
             'l10n_ch_hr_payroll_elm_transmission',
+<<<<<<< HEAD
             'l10n_ch_hr_payroll_elm_transmission_account',
+=======
+>>>>>>> upstream/18.0
             'l10n_cl',
             'l10n_cl_edi',
             'l10n_cl_edi_exports',
@@ -6157,11 +6197,17 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'l10n_es_edi_tbai_pos',
             'l10n_es_reports',
             'l10n_es_reports_modelo130',
+<<<<<<< HEAD
             'l10n_fr_fec_import',
             'l10n_fr_hr_holidays',
             'l10n_fr_hr_payroll',
             'l10n_fr_intrastat',
             'l10n_fr_intrastat_services',
+=======
+            'l10n_fr_hr_holidays',
+            'l10n_fr_hr_payroll',
+            'l10n_fr_intrastat',
+>>>>>>> upstream/18.0
             'l10n_fr_pos_cert',
             'l10n_fr_reports',
             'l10n_gr_edi',
@@ -6171,7 +6217,10 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'l10n_id_efaktur_coretax',
             'l10n_in_hr_holidays',
             'l10n_in_hr_payroll',
+<<<<<<< HEAD
             'l10n_in_hr_payroll_account',
+=======
+>>>>>>> upstream/18.0
             'l10n_it_edi',
             'l10n_it_edi_doi',
             'l10n_it_edi_sale',
@@ -6199,8 +6248,11 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'l10n_mx_edi_pos',
             'l10n_mx_edi_stock',
             'l10n_mx_gr_edi',
+<<<<<<< HEAD
             'l10n_mx_hr_payroll',
             'l10n_mx_hr_payroll_account',
+=======
+>>>>>>> upstream/18.0
             'l10n_mx_hr_payroll_localisation',
             'l10n_mx_jo_hr_payroll',
             'l10n_mx_jo_hr_payroll_account',
@@ -6214,12 +6266,18 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'l10n_nz_eft',
             'l10n_pe',
             'l10n_pe_edi',
+<<<<<<< HEAD
             'l10n_pe_edi_pos',
             'l10n_pe_edi_stock',
             'l10n_pe_pos',
             'l10n_pe_reports',
             'l10n_pe_reports_stock',
             'l10n_pe_website_sale',
+=======
+            'l10n_pe_edi_stock',
+            'l10n_pe_reports',
+            'l10n_pe_reports_stock',
+>>>>>>> upstream/18.0
             'l10n_ph',
             'l10n_ph_check_printing',
             'l10n_pl_reports',
@@ -6334,7 +6392,10 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'sign',
             'sms',
             'snailmail',
+<<<<<<< HEAD
             'snailmail_account',
+=======
+>>>>>>> upstream/18.0
             'social',
             'social_crm',
             'social_facebook',
@@ -6399,6 +6460,7 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'whatsapp',
             'whatsapp_payment',
             'worksheet',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6508,6 +6570,11 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
         )
 
         modules_without_error = set(self.env['ir.module.module'].search([('state', '=', 'intalled'), ('name', 'in', only_log_modules)]).mapped('name'))
+=======
+        )
+
+        modules_without_error = set(self.env['ir.module.module'].search([('state', '=', 'installed'), ('name', 'in', only_log_modules)]).mapped('name'))
+>>>>>>> upstream/18.0
         module_log_views = defaultdict(list)
         module_error_views = defaultdict(lambda: defaultdict(list)) 
         uncommented_regexp = r'''(<field [^>]*invisible=['"](True|1)['"][^>]*>)[\s\t\n ]*(.*)'''
@@ -6551,8 +6618,13 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for field, _val, comment in re.findall(uncommented_regexp, view.arch_db):
                 if (not comment or not comment.startswith('<!--')):
+=======
+            for field, _val, suffix in re.findall(uncommented_regexp, view.arch_db):
+                if not suffix.startswith('<!--'):
+>>>>>>> upstream/18.0
 =======
             for field, _val, suffix in re.findall(uncommented_regexp, view.arch_db):
                 if not suffix.startswith('<!--'):
@@ -6744,7 +6816,11 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.info('%s\n%s', msg, msg_info)
+=======
+            _logger.runbot('%s\n%s', msg, msg_info)
+>>>>>>> upstream/18.0
 =======
             _logger.runbot('%s\n%s', msg, msg_info)
 >>>>>>> upstream/18.0
@@ -6895,8 +6971,13 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     error_lines.extend([f"{' ' * 3}View: {view}\n{' ' * 6}Fields:"])
                     error_lines.extend(["\n".join(f"{' ' * 9}{field}" for field in fields)])
+=======
+                    error_lines.append(f"{' ' * 3}View: {view}\n{' ' * 6}Fields:")
+                    error_lines.append("\n".join(f"{' ' * 9}{field}" for field in fields))
+>>>>>>> upstream/18.0
 =======
                     error_lines.append(f"{' ' * 3}View: {view}\n{' ' * 6}Fields:")
                     error_lines.append("\n".join(f"{' ' * 9}{field}" for field in fields))

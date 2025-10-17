@@ -6,7 +6,11 @@
                 class="o-figure-menu-item o-chart-external-link"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 t-on-click="navigateToOdooMenu">
+=======
+                t-on-click="onClick">
+>>>>>>> upstream/18.0
 =======
                 t-on-click="onClick">
 >>>>>>> upstream/18.0
@@ -19,7 +23,11 @@
         <xpath expr="//div[hasclass('o-figure')]" position="attributes">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <attribute name="t-on-click">() => this.onClick()</attribute>
+=======
+            <attribute name="t-on-click">() => env.isDashboard() ? this.onClick() : ""</attribute>
+>>>>>>> upstream/18.0
 =======
             <attribute name="t-on-click">() => env.isDashboard() ? this.onClick() : ""</attribute>
 >>>>>>> upstream/18.0

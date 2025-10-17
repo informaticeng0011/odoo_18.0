@@ -2,6 +2,10 @@ import { App } from "@odoo/owl";
 
 import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { _t } from "@web/core/l10n/translation";
+>>>>>>> upstream/18.0
 =======
 import { _t } from "@web/core/l10n/translation";
 >>>>>>> upstream/18.0
@@ -84,6 +88,11 @@ export const mailPopoutService = {
                 props,
                 getTemplate,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                translatableAttributes: ["data-tooltip"],
+                translateFn: _t,
+>>>>>>> upstream/18.0
 =======
                 translatableAttributes: ["data-tooltip"],
                 translateFn: _t,

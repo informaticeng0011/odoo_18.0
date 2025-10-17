@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* sale_stock
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,10 +143,15 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * sale_stock
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Nadia Martynova, 2024
 # Wil Odoo, 2024
 # Ilya Rozhkov, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -322,10 +328,16 @@
 # Anastasiia Koroleva, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Anastasiia Koroleva, 2025
+#
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -443,11 +455,19 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Anastasiia Koroleva, 2025\n"
 "Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+=======
+"POT-Creation-Date: 2025-08-22 18:39+0000\n"
+"PO-Revision-Date: 2025-10-16 10:47+0000\n"
+"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
+"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
+"sale_stock/ru/>\n"
+>>>>>>> upstream/18.0
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 <<<<<<< HEAD
@@ -553,6 +573,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_picking
@@ -596,6 +621,7 @@ msgstr "<span class=\"o_stat_text\">Продажи</span>"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -702,10 +728,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"small badge rounded-pill text-bg-success "
 "orders_label_text_align\">\n"
 "                                        <i class=\"fa fa-fw fa-truck\"/> "
 "Shipped\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -811,11 +840,21 @@ msgid ""
 >>>>>>> upstream/18.0
 "                                    </span>"
 msgstr ""
+=======
+"                                    </span>"
+msgstr ""
+"<span class="
+"\"small badge rounded-pill text-bg-success orders_label_text_align\">\n"
+"                                        <i class=\"fa fa-fw fa-truck\"/> "
+"Отправлено\n"
+"                                    </span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_cancel_view_form_inherit
 msgid ""
 "<span invisible=\"not display_delivery_alert\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -925,6 +964,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    Some deliveries are already done. Returns can be created "
 "from the Delivery Orders.\n"
 "                </span>"
@@ -966,6 +1007,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1075,7 +1119,11 @@ msgid "<strong>Customer Reference</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Референс клиента</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Референс клиента</strong>"
 >>>>>>> upstream/18.0
@@ -1231,6 +1279,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
@@ -1242,6 +1291,8 @@ msgstr ""
 "  - Аналитический из затрат: количество - это сумма количества из размещенных затрат\n"
 "  - Из таймшетов: количество - это сумма часов, записанных в заданиях, связанных с данной линией продаж\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1360,6 +1411,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1472,6 +1526,12 @@ msgid ""
 "            Orange: Partially Delivered\n"
 "            Green: Fully Delivered"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Синий: Не доставлено / Не начато\n"
+"            Оранжевый: Частично доставлено\n"
+"            Зеленый: Полностью доставлено"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_stock_rules_report__so_route_ids
@@ -1659,9 +1719,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Если вы доставляете все товары одновременно, то доставка заказа будет "
 "планироваться в соответствии с товаром с наибольшим временем доставки. В "
 "противном случае, она будет основана на товаре с кратчайшем временем."
+=======
+"Если вы доставляете все товары сразу, заказ на доставку будет планироваться "
+"в соответствии с товаром с наибольшим временем доставки. В противном случае "
+"он будет основан на товаре с кратчайшим сроком доставки."
+>>>>>>> upstream/18.0
 =======
 "Если вы доставляете все товары сразу, заказ на доставку будет планироваться "
 "в соответствии с товаром с наибольшим временем доставки. В противном случае "
@@ -1974,8 +2040,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "for procurement and delivery that many days earlier than the actual promised"
 " date, to cope with unexpected delays in the supply chain."
+=======
+"for procurement and delivery that many days earlier than the actual promised "
+"date, to cope with unexpected delays in the supply chain."
+>>>>>>> upstream/18.0
 =======
 "for procurement and delivery that many days earlier than the actual promised "
 "date, to cope with unexpected delays in the supply chain."
@@ -2134,7 +2205,11 @@ msgstr "Перенести ожидаемые даты доставки на"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_stock_help_message_template
 msgid "No delivery yet! Automate them with sales orders."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доставок еще нет! Автоматизируйте их с помощью заказов на продажу."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #. odoo-javascript
@@ -2218,6 +2293,7 @@ msgstr "ВОЗВРАТ"
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_stock_help_message_template
 msgid ""
 "Reduce back orders with reservations, locations management, smart\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2395,6 +2471,15 @@ msgid ""
 "scanner, etc."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"                replenishment propositions, shipping connectors, barcode "
+"scanner, etc."
+msgstr ""
+"Уменьшите количество отложенных заказов с помощью резервирования, управления "
+"локациями, предложений по умному\n"
+"                пополнению запасов, коннекторов для служб доставки, сканера "
+"штрихкодов и т. д."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #. odoo-javascript
@@ -2559,6 +2644,7 @@ msgid "Stock Rules report"
 msgstr "Отчет о нормах запасов"
 
 #. module: sale_stock
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2771,6 +2857,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:sale_stock.model_stock_valuation_layer
+msgid "Stock Valuation Layer"
+msgstr "Уровень оценки запасов"
+
+#. module: sale_stock
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale_stock.model_report_stock_report_stock_rule
 msgid "Stock rule report"
 msgstr "Отчет о норме запасов"
@@ -2786,6 +2879,7 @@ msgstr "Доставка"
 #: code:addons/sale_stock/models/sale_order.py:0
 msgid ""
 "The delivery address has been changed on the Sales Order<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2892,10 +2986,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        From <strong>\"%(old_address)s\"</strong> to "
 "<strong>\"%(new_address)s\"</strong>,\n"
 "                        You should probably update the partner on this "
 "document."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3000,6 +3097,14 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"Адрес доставки в заказе на продажу был изменен:<br/>\n"
+"                        С <strong>«%(old_address)s»</strong> на "
+"<strong>«%(new_address)s»</strong>,\n"
+"                        Возможно, вам следует обновить контрагента в этом "
+"документе."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #. odoo-javascript
@@ -3040,8 +3145,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The ordered quantity cannot be decreased below the amount already delivered."
 " Instead, create a return in your inventory."
+=======
+"The ordered quantity cannot be decreased below the amount already delivered. "
+"Instead, create a return in your inventory."
+>>>>>>> upstream/18.0
 =======
 "The ordered quantity cannot be decreased below the amount already delivered. "
 "Instead, create a return in your inventory."
@@ -3263,12 +3373,21 @@ msgstr "Когда начать отгрузку"
 msgid ""
 "You must have a warehouse for line using a delivery in different company."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Необходимо указать склад для строки, которая использует доставку в другую "
+"компанию."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #. odoo-python
 #: code:addons/sale_stock/models/sale_order.py:0
 msgid "You must set a warehouse on your sale order to proceed."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Чтобы продолжить, необходимо указать склад в вашем заказе на продажу."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_so

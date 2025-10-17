@@ -317,6 +317,10 @@ QUnit.module("Base Import Tests", (hooks) => {
     QUnit.test("Import view: UI before file upload", async function (assert) {
         const templateURL = "/myTemplateURL.xlsx";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const secondTemplateURL = "/mySecondTemplateURL.xlsx";
+>>>>>>> upstream/18.0
 =======
         const secondTemplateURL = "/mySecondTemplateURL.xlsx";
 >>>>>>> upstream/18.0
@@ -335,11 +339,17 @@ QUnit.module("Base Import Tests", (hooks) => {
                         template: templateURL,
                     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     {
                         label: "Another Import Template",
                         template: secondTemplateURL,
                     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 ]);
             },
@@ -359,6 +369,7 @@ QUnit.module("Base Import Tests", (hooks) => {
         assert.containsOnce(target, ".o_import_action", "import view is displayed");
         assert.strictEqual(
 <<<<<<< HEAD
+<<<<<<< HEAD
             target.querySelector(".o_nocontent_help .btn-outline-primary").textContent,
             " Some Import Template"
         );
@@ -367,6 +378,8 @@ QUnit.module("Base Import Tests", (hooks) => {
             window.location.origin + templateURL,
             "button has the right download url"
 =======
+=======
+>>>>>>> upstream/18.0
             target.querySelectorAll(".o_nocontent_help .btn-outline-primary").length,
             2,
             "there are two import template buttons"
@@ -388,6 +401,9 @@ QUnit.module("Base Import Tests", (hooks) => {
             target.querySelectorAll(".o_nocontent_help .btn-outline-primary")[1].href,
             window.location.origin + secondTemplateURL,
             "2nd button has the right download url"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         );
         assert.verifySteps(["partner/get_import_templates", "base_import.import/create"]);

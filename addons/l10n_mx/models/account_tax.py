@@ -33,7 +33,10 @@ class AccountTax(models.Model):
         for tax in self:
             tax.l10n_mx_tax_type = 'iva' if tax.country_id.code == 'MX' else False
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.model
     def _round_tax_details_tax_amounts(self, base_lines, company, mode='mixed'):
@@ -50,4 +53,7 @@ class AccountTax(models.Model):
         if country_code == 'MX':
             mode = 'excluded'
         super()._round_tax_details_base_lines(base_lines, company, mode=mode)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

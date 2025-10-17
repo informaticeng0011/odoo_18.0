@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
 from dateutil.relativedelta import relativedelta
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -115,6 +118,7 @@ class ResCurrency(models.Model):
             main_company_unit_factor = main_company.currency_id._get_rates(main_company, date_to)[main_company.currency_id.id]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             if use_cta_rates:
                 table_builders += [
                     self._get_table_builder_closing(period_key, main_company, other_companies, date_to, main_company_unit_factor),
@@ -124,6 +128,8 @@ class ResCurrency(models.Model):
             else:
                 table_builders += [self._get_table_builder_current(period_key, main_company, other_companies, date_to, main_company_unit_factor)]
 =======
+=======
+>>>>>>> upstream/18.0
             table_builders.append(self._get_table_builder_current(period_key, main_company, other_companies, date_to, main_company_unit_factor))
 
             if use_cta_rates:
@@ -131,6 +137,9 @@ class ResCurrency(models.Model):
                     self._get_table_builder_historical(main_company, other_companies, date_to, main_company_unit_factor, last_date_to),
                     self._get_table_builder_average(period_key, main_company, other_companies, date_from, date_to, main_company_unit_factor),
                 ]
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
             last_date_to = date_to
@@ -161,6 +170,11 @@ class ResCurrency(models.Model):
         rate_values = []
         for company in companies:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            rate_values.append(SQL("(%s, CAST(NULL AS VARCHAR), CAST(NULL AS DATE), CAST(NULL AS DATE), 'current', 1)", company.id))
+
+>>>>>>> upstream/18.0
 =======
             rate_values.append(SQL("(%s, CAST(NULL AS VARCHAR), CAST(NULL AS DATE), CAST(NULL AS DATE), 'current', 1)", company.id))
 
@@ -170,10 +184,14 @@ class ResCurrency(models.Model):
                     SQL("(%s, CAST(NULL AS VARCHAR), CAST(NULL AS DATE), CAST(NULL AS DATE), 'average', 1)", company.id),
                     SQL("(%s, CAST(NULL AS VARCHAR), CAST(NULL AS DATE), CAST(NULL AS DATE), 'historical', 1)", company.id),
 <<<<<<< HEAD
+<<<<<<< HEAD
                     SQL("(%s, CAST(NULL AS VARCHAR), CAST(NULL AS DATE), CAST(NULL AS DATE), 'closing', 1)", company.id),
                 ]
             else:
                 rate_values.append(SQL("(%s, CAST(NULL AS VARCHAR), CAST(NULL AS DATE), CAST(NULL AS DATE), 'current', 1)", company.id))
+=======
+                ]
+>>>>>>> upstream/18.0
 =======
                 ]
 >>>>>>> upstream/18.0
@@ -214,6 +232,7 @@ class ResCurrency(models.Model):
             main_company_unit_factor=main_company_unit_factor,
         )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     def _get_table_builder_closing(self, period_key, main_company, other_companies, date_to, main_company_unit_factor) -> SQL:
         fiscal_year_bounds = self._get_currency_table_fiscal_year_bounds(main_company)
@@ -263,6 +282,8 @@ class ResCurrency(models.Model):
 
         return fiscal_year_bounds
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_table_builder_historical(self, main_company, other_companies, date_to, main_company_unit_factor, date_exclude) -> SQL:

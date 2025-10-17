@@ -21,6 +21,27 @@ const modifierFields = [
 ];
 export const isGif = (mimetype) => mimetype === 'image/gif';
 
+<<<<<<< HEAD
+=======
+let _isWebGLEnabled;
+/**
+ * Cacheable check telling whether the current browser can allocate a WebGL context.
+ */
+export function isWebGLEnabled() {
+    if (_isWebGLEnabled !== undefined) {
+        return _isWebGLEnabled;
+    }
+    try {
+        const canvas = document.createElement("canvas");
+        _isWebGLEnabled = !!(window.WebGLRenderingContext
+            && (canvas.getContext("webgl") || canvas.getContext("experimental-webgl")));
+    } catch {
+        _isWebGLEnabled = false;
+    }
+    return _isWebGLEnabled;
+}
+
+>>>>>>> upstream/18.0
 // webgl color filters
 const _applyAll = (result, filter, filters) => {
     filters.forEach(f => {
@@ -323,7 +344,12 @@ export async function applyModifications(img, dataOptions = {}) {
     }
 
     // GL filter
+<<<<<<< HEAD
     if (glFilter) {
+=======
+    const canUseWebGL = glFilter && isWebGLEnabled() && window.WebGLImageFilter;
+    if (canUseWebGL) {
+>>>>>>> upstream/18.0
         const glf = new window.WebGLImageFilter();
         const cv = document.createElement('canvas');
         cv.width = result.width;

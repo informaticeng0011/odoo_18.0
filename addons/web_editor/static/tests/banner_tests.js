@@ -159,7 +159,12 @@ QUnit.module(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <p placeholder=\"Type &quot;/&quot; for commands\" class=\"oe-hint oe-command-temporary-hint\"><br></p></div>
+=======
+                            <p placeholder=\"Type &quot;/&quot; for commands\" class=\"oe-hint oe-command-temporary-hint\"><br></p>
+                        </div>
+>>>>>>> upstream/18.0
 =======
                             <p placeholder=\"Type &quot;/&quot; for commands\" class=\"oe-hint oe-command-temporary-hint\"><br></p>
                         </div>

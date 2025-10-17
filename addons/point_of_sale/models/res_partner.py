@@ -1,6 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models
+=======
+from odoo import api, fields, models, _
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo import api, fields, models, _
 from odoo.exceptions import ValidationError
@@ -76,10 +81,16 @@ class ResPartner(models.Model):
             **({'target': 'new'} if self.env.context.get('target') == 'new' else {}),
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.ondelete(at_uninstall=False)
     def _unlink_if_pos_no_orders(self):
         if any(self.mapped('pos_order_ids')):
             raise ValidationError(_('You cannot delete a customer that has point of sales orders. You can archive it instead.'))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

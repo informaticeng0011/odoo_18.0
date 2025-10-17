@@ -153,8 +153,13 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             {'account_id': stock_valu_acc_id,   'product_id': self.product_a.id,    'debit': 0.0,   'credit': 110.0},
             {'account_id': stock_in_acc_id,     'product_id': self.product_a.id,    'debit': 110.0, 'credit': 0.0},
+=======
+            {'account_id': stock_out_acc_id,      'product_id': self.product_a.id,    'debit': 0.0,   'credit': 110.0},
+            {'account_id': stock_valu_acc_id,     'product_id': self.product_a.id,    'debit': 110.0, 'credit': 0.0},
+>>>>>>> upstream/18.0
 =======
             {'account_id': stock_out_acc_id,      'product_id': self.product_a.id,    'debit': 0.0,   'credit': 110.0},
             {'account_id': stock_valu_acc_id,     'product_id': self.product_a.id,    'debit': 110.0, 'credit': 0.0},
@@ -392,9 +397,13 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = dropship_transfer.button_validate()
         wizard = Form(self.env[res['res_model']].with_context(res['context'])).save()
         wizard.process()
+=======
+        dropship_transfer.with_context(cancel_backorder=False)._action_done()
+>>>>>>> upstream/18.0
 =======
         dropship_transfer.with_context(cancel_backorder=False)._action_done()
 >>>>>>> upstream/18.0
@@ -539,7 +548,11 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         dropship_backorder.button_validate()
+=======
+        dropship_backorder._action_done()
+>>>>>>> upstream/18.0
 =======
         dropship_backorder._action_done()
 >>>>>>> upstream/18.0
@@ -685,6 +698,7 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
             'product_qty': 1.0,
             'type': 'phantom',
         })
+<<<<<<< HEAD
         kit_bom.bom_line_ids = [(0, 0, {
             'product_id': self.product_b.id,
             'product_qty': 4,
@@ -692,6 +706,21 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
             'product_id': product_c.id,
             'product_qty': 2,
         })]
+=======
+        # bom line of product_c is expressed in unit to check the uom conversion (24 unit should give the same result as 2 dozens)
+        kit_bom.bom_line_ids = [
+            Command.create({
+                'product_id': self.product_b.id,
+                'product_qty': 4,
+
+            }),
+            Command.create({
+                'product_id': product_c.id,
+                'product_qty': 24,
+                'product_uom_id': self.env.ref('uom.product_uom_unit').id
+            })
+        ]
+>>>>>>> upstream/18.0
 
         self.env['product.supplierinfo'].create({
             'product_id': self.product_b.id,
@@ -703,7 +732,11 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
             'partner_id': self.partner_a.id,
             'price': 100,
         })
+<<<<<<< HEAD
 
+=======
+        self.product_b.standard_price = 10
+>>>>>>> upstream/18.0
         (kit_final_prod + self.product_b).categ_id.write({
             'property_cost_method': 'fifo',
             'property_valuation': 'real_time',
@@ -711,7 +744,11 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
 
         sale_order = self.env['sale.order'].create({
             'partner_id': self.partner_b.id,
+<<<<<<< HEAD
             'order_line': [(0, 0, {
+=======
+            'order_line': [Command.create({
+>>>>>>> upstream/18.0
                 'price_unit': 900,
                 'product_id': kit_final_prod.id,
                 'route_id': self.dropship_route.id,
@@ -722,7 +759,10 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
         purchase_order = sale_order._get_purchase_orders()[0]
         purchase_order.button_confirm()
         dropship_transfer = purchase_order.picking_ids[0]
+<<<<<<< HEAD
         dropship_transfer.move_ids[0].quantity = 2.0
+=======
+>>>>>>> upstream/18.0
         dropship_transfer.button_validate()
 
         account_move = sale_order._create_invoices()

@@ -6,6 +6,10 @@ import {
     getBasicServerData,
 } from "@spreadsheet/../tests/helpers/data";
 import {
+<<<<<<< HEAD
+=======
+    fields,
+>>>>>>> upstream/18.0
     makeServerError,
     onRpc,
     patchTranslations,
@@ -30,6 +34,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    getEvaluatedGrid,
+>>>>>>> upstream/18.0
 =======
     getEvaluatedGrid,
 >>>>>>> upstream/18.0
@@ -44,6 +52,7 @@ import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
 import { createSpreadsheetWithPivot } from "@spreadsheet/../tests/helpers/pivot";
 import { CommandResult } from "@spreadsheet/o_spreadsheet/cancelled_reason";
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -388,6 +397,8 @@ import { Partner, Product } from "../../helpers/data";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { localization } from "@web/core/l10n/localization";
 import { user } from "@web/core/user";
 
@@ -430,6 +441,9 @@ import { Partner, Product } from "../../helpers/data";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1150,7 +1164,11 @@ test("display loading while data is not fully available", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc(async ({ kwargs, model, method, parent }) => {
+=======
+    onRpc(async ({ kwargs, model, method }) => {
+>>>>>>> upstream/18.0
 =======
     onRpc(async ({ kwargs, model, method }) => {
 >>>>>>> upstream/18.0
@@ -1398,7 +1416,10 @@ test("display loading while data is not fully available", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return parent();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1898,6 +1919,155 @@ test("Can group by many2many field ", async () => {
     expect(getCellValue(model, "C5")).toBe("");
 });
 
+<<<<<<< HEAD
+=======
+test("Can group by many2one_reference field ", async () => {
+    onRpc("partner", "read_group", ({ kwargs }) => {
+        // The mock server doesn't support well many2one_reference.
+        // It is fixed in master/saas-19.1, but for now we have to mock the correct output ourselves.
+        if (kwargs.groupby?.includes("res_id")) {
+            return [
+                {
+                    res_id: 2,
+                    __domain: [["res_id", "=", 2]],
+                    __count: 1,
+                    probability_avg_id: 11,
+                },
+                {
+                    res_id: 3,
+                    __domain: [["res_id", "=", 3]],
+                    __count: 1,
+                    probability_avg_id: 12,
+                },
+                {
+                    res_id: false,
+                    __domain: [["res_id", "=", false]],
+                    __count: 1,
+                    probability_avg_id: 13,
+                },
+            ];
+        }
+    });
+    Partner._fields = {
+        ...Partner._fields,
+        res_id: fields.Many2oneReference({
+            model_field: "res_model",
+            relation: "",
+        }),
+        res_model: fields.Char(),
+    };
+    Partner._records = [
+        {
+            id: 1,
+            res_id: 2,
+            res_model: "partner",
+            probability: 11,
+        },
+        {
+            id: 2,
+            res_id: 3,
+            res_model: "partner",
+            probability: 12,
+        },
+        {
+            id: 3,
+            probability: 13,
+        },
+    ];
+    const { model } = await createSpreadsheetWithPivot({
+        arch: /* xml */ `
+            <pivot>
+                <field name="res_id" type="row"/>
+                <field name="probability" type="measure"/>
+            </pivot>`,
+    });
+    expect(getCellFormula(model, "A3")).toBe('=PIVOT.HEADER(1,"res_id",2)');
+    expect(getCellFormula(model, "A4")).toBe('=PIVOT.HEADER(1,"res_id",3)');
+    expect(getCellFormula(model, "A5")).toBe('=PIVOT.HEADER(1,"res_id",FALSE)');
+    expect(getCellFormula(model, "B3")).toBe('=PIVOT.VALUE(1,"probability:avg","res_id",2)');
+    expect(getCellFormula(model, "B4")).toBe('=PIVOT.VALUE(1,"probability:avg","res_id",3)');
+    expect(getCellFormula(model, "B5")).toBe('=PIVOT.VALUE(1,"probability:avg","res_id",FALSE)');
+
+    expect(getCellValue(model, "A3")).toBe(2);
+    expect(getCellValue(model, "A4")).toBe(3);
+    expect(getCellValue(model, "A5")).toBe("None");
+    expect(getCellValue(model, "B3")).toBe(11);
+    expect(getCellValue(model, "B4")).toBe(12);
+    expect(getCellValue(model, "B5")).toBe(13);
+});
+
+test("Can group by reference field ", async () => {
+    onRpc("partner", "read_group", ({ kwargs }) => {
+        // The mock server doesn't support well reference.
+        // It is fixed in master/saas-19.1, but for now we have to mock the correct output ourselves.
+        if (kwargs.groupby?.includes("ref")) {
+            return [
+                {
+                    ref: "partner,2",
+                    __domain: [["ref", "=", "partner,2"]],
+                    __count: 1,
+                    probability_avg_id: 11,
+                },
+                {
+                    ref: "partner,3",
+                    __domain: [["ref", "=", "partner,3"]],
+                    __count: 1,
+                    probability_avg_id: 12,
+                },
+                {
+                    ref: false,
+                    __domain: [["ref", "=", false]],
+                    __count: 1,
+                    probability_avg_id: 13,
+                },
+            ];
+        }
+    });
+    Partner._fields = {
+        ...Partner._fields,
+        ref: fields.Reference({
+            selection: [["partner", "Partner"]],
+        }),
+    };
+    Partner._records = [
+        {
+            id: 1,
+            ref: "partner,2",
+            probability: 11,
+        },
+        {
+            id: 2,
+            ref: "partner,3",
+            probability: 12,
+        },
+        {
+            id: 3,
+            probability: 13,
+        },
+    ];
+    const { model } = await createSpreadsheetWithPivot({
+        arch: /* xml */ `
+            <pivot>
+                <field name="ref" type="row"/>
+                <field name="probability" type="measure"/>
+            </pivot>`,
+    });
+    expect(getCellFormula(model, "A3")).toBe('=PIVOT.HEADER(1,"ref","partner,2")');
+    expect(getCellFormula(model, "A4")).toBe('=PIVOT.HEADER(1,"ref","partner,3")');
+    expect(getCellFormula(model, "A5")).toBe('=PIVOT.HEADER(1,"ref",FALSE)');
+    expect(getCellFormula(model, "B3")).toBe('=PIVOT.VALUE(1,"probability:avg","ref","partner,2")');
+    expect(getCellFormula(model, "B4")).toBe('=PIVOT.VALUE(1,"probability:avg","ref","partner,3")');
+    expect(getCellFormula(model, "B5")).toBe('=PIVOT.VALUE(1,"probability:avg","ref",FALSE)');
+
+    expect(getCellValue(model, "A3")).toBe("partner,2");
+    expect(getCellValue(model, "A4")).toBe("partner,3");
+    expect(getCellValue(model, "A5")).toBe("None");
+    expect(getCellValue(model, "B3")).toBe(11);
+    expect(getCellValue(model, "B4")).toBe(12);
+    expect(getCellValue(model, "B5")).toBe(13);
+});
+
+>>>>>>> upstream/18.0
 test("PIVOT.HEADER grouped by date field without value", async function () {
     const { model, pivotId } = await createSpreadsheetWithPivot({
         arch: /* xml */ `
@@ -2592,8 +2762,11 @@ test("Can duplicate a pivot", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const filter = { ...THIS_YEAR_GLOBAL_FILTER, id: "42" };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2703,6 +2876,9 @@ test("Can duplicate a pivot", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2820,6 +2996,11 @@ test("Can duplicate a pivot", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expect(model.getters.getPivotComputedDomain(pivotId)).toEqual([["product_id", "in", [41]]]);
+    expect(model.getters.getPivotComputedDomain("2")).toEqual([["product_id", "in", [41]]]);
+>>>>>>> upstream/18.0
 =======
     expect(model.getters.getPivotComputedDomain(pivotId)).toEqual([["product_id", "in", [41]]]);
     expect(model.getters.getPivotComputedDomain("2")).toEqual([["product_id", "in", [41]]]);
@@ -3410,7 +3591,10 @@ test("Can change display type of a measure", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3647,12 +3831,15 @@ test("can group by property", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3942,6 +4129,7 @@ test("date are between two years are correctly grouped by weeks and days", async
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4056,6 +4244,8 @@ test("date are between two years are correctly grouped by weeks and days", async
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4086,6 +4276,9 @@ test("Pivot headers day of week are still correct after updating the locale's we
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

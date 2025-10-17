@@ -1511,7 +1511,11 @@ class Import(models.TransientModel):
                 binary_filenames = self._extract_binary_filenames(import_fields, data, field.comodel_name, name + '/', binary_filenames)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif field.type == 'binary' and field.attachment and any(f in name for f in IMAGE_FIELDS) and name in import_fields:
+=======
+            elif field.type == 'binary' and field.attachment and name in import_fields:
+>>>>>>> upstream/18.0
 =======
             elif field.type == 'binary' and field.attachment and name in import_fields:
 >>>>>>> upstream/18.0

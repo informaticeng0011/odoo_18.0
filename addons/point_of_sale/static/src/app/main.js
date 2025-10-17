@@ -14,14 +14,20 @@ whenReady(() => {
     // Show loader as soon as the page is ready, do not wait for services to be started
     // as some services load data over RPC and this is why we want to show a loader.
 <<<<<<< HEAD
+<<<<<<< HEAD
     mount(Loader, document.body, { getTemplate, translateFn: _t, props: { loader } });
 =======
+=======
+>>>>>>> upstream/18.0
     mount(Loader, document.body, {
         getTemplate,
         props: { loader },
         translatableAttributes: ["data-tooltip"],
         translateFn: _t,
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 // The following is mostly a copy of startWebclient but without any of the legacy stuff

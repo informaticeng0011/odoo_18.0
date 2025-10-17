@@ -33,9 +33,12 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.env['ir.config_parameter'].set_param('l10n_in_edi.manage_invoice_negative_lines', True)
         cls.maxDiff = None
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -187,6 +190,7 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.sez_partner = cls.env['res.partner'].create({
             'name': 'SEZ Partner',
             'vat': '36AAAAA1234AAZA',
@@ -197,6 +201,8 @@ class TestEdiJson(L10nInTestInvoicingCommon):
             'state_id': cls.env.ref('base.state_in_gj').id,
             'country_id': cls.env.ref('base.in').id,
         })
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -289,6 +295,7 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         cls._generate_json = cls.env["account.edi.format"]._l10n_in_edi_generate_invoice_json
 >>>>>>> upstream/18.0
@@ -332,6 +339,8 @@ class TestEdiJson(L10nInTestInvoicingCommon):
         cls._generate_json = cls.env["account.edi.format"]._l10n_in_edi_generate_invoice_json
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -356,6 +365,9 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -395,7 +407,10 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         json_value = self.env["account.edi.format"]._l10n_in_edi_generate_invoice_json(self.invoice)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -478,6 +493,7 @@ class TestEdiJson(L10nInTestInvoicingCommon):
                 "StCesVal": 0.0, "Discount": 0.0, "RndOffAmt": 0.0, "TotInvVal": 1999.59
             }
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -700,6 +716,8 @@ class TestEdiJson(L10nInTestInvoicingCommon):
             "Indian EDI with Overseas sent json value is not matched"
         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1299,6 +1317,7 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1327,6 +1346,8 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1419,6 +1440,7 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1429,4 +1451,86 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+        # =================================== Export without LUT Tax test =============================================
+        with self.subTest(scenario="Export Tax Invoice Without LUT and Include Tax"):
+            self.assertEqual(
+                self._generate_json(self.invoice_with_export_without_lut_inc),
+                {
+                  'Version': '1.1',
+                  'TranDtls': {
+                    'TaxSch': 'GST',
+                    'SupTyp': 'EXPWP',
+                    'RegRev': 'N',
+                    'IgstOnIntra': 'N'
+                  },
+                  'DocDtls': {
+                    'Typ': 'INV',
+                    'No': False,
+                    'Dt': '01/01/2019'
+                  },
+                  'SellerDtls': {
+                    'Addr1': 'Khodiyar Chowk',
+                    'Loc': 'Amreli',
+                    'Pin': 365220,
+                    'Stcd': '24',
+                    'Addr2': 'Sala Number 3',
+                    'LglNm': 'Default Company',
+                    'GSTIN': '24AAGCC7144L6ZE'
+                  },
+                  'BuyerDtls': {
+                    'Addr1': '351 Horner Chapel Rd',
+                    'Loc': 'Peebles',
+                    'Pin': 999999,
+                    'Stcd': '96',
+                    'POS': '96',
+                    'LglNm': 'Foreign Partner',
+                    'GSTIN': 'URP'
+                  },
+                  'ItemList': [
+                    {
+                      'SlNo': '1',
+                      'PrdDesc': 'product_a',
+                      'IsServc': 'N',
+                      'HsnCd': '111111',
+                      'Qty': 1.0,
+                      'Unit': 'UNT',
+                      'UnitPrice': 1000.00,
+                      'TotAmt': 1000.00,
+                      'Discount': 0.0,
+                      'AssAmt': 1000.00,
+                      'GstRt': 18.0,
+                      'IgstAmt': 180.0,
+                      'CgstAmt': 0.0,
+                      'SgstAmt': 0.0,
+                      'CesRt': 0.0,
+                      'CesAmt': 0.0,
+                      'CesNonAdvlAmt': 0.0,
+                      'StateCesRt': 0.0,
+                      'StateCesAmt': 0.0,
+                      'StateCesNonAdvlAmt': 0.0,
+                      'OthChrg': 0.0,
+                      'TotItemVal': 1000.0
+                    }
+                  ],
+                  'ValDtls': {
+                    'AssVal': 1000.0,
+                    'CgstVal': 0.0,
+                    'SgstVal': 0.0,
+                    'IgstVal': 180.0,
+                    'CesVal': 0.0,
+                    'StCesVal': 0.0,
+                    'Discount': 0.0,
+                    'RndOffAmt': 0.0,
+                    'TotInvVal': 1000.0
+                  },
+                  'ExpDtls': {
+                    'RefClm': 'Y',
+                    'ForCur': 'INR',
+                    'CntCode': 'US'
+                  }
+                }
+            )
 >>>>>>> upstream/18.0

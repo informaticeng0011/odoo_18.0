@@ -550,7 +550,10 @@
                 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 if (this.textHighlightWidget) {
@@ -558,6 +561,9 @@
                     this.textHighlightWidget = null;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -591,6 +597,11 @@
                     this.websiteAnimateWidget.attachTo($wpContainer);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    this.textHighlightWidget = new publicWidget.registry.TextHighlight();
+                    this.textHighlightWidget.attachTo($wpContainer);
+>>>>>>> upstream/18.0
 =======
                     this.textHighlightWidget = new publicWidget.registry.TextHighlight();
                     this.textHighlightWidget.attachTo($wpContainer);

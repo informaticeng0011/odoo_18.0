@@ -41,10 +41,18 @@ function _toNumber(value) {
 pivotToFunctionValueRegistry
     .add("text", _toString)
     .add("selection", _toString)
+<<<<<<< HEAD
+=======
+    .add("reference", _toString)
+>>>>>>> upstream/18.0
     .add("char", _toString)
     .add("integer", _toNumber)
     .add("monetary", _toNumber)
     .add("many2one", _toNumber)
+<<<<<<< HEAD
+=======
+    .add("many2one_reference", _toNumber)
+>>>>>>> upstream/18.0
     .add("many2many", _toNumber)
     .add("float", _toNumber)
     .add("date", _toDate)
