@@ -19,3 +19,11 @@ export const isActive = (buttonValue) => ({
     content: `check if --${buttonValue}-- mode is activated`,
     trigger: `${buttonTriger(buttonValue)}.active`,
 });
+<<<<<<< HEAD
+=======
+
+export const isVisible = () => ({
+    content: "check if numpad is visible",
+    trigger: "div.numpad:visible",
+});
+>>>>>>> upstream/18.0

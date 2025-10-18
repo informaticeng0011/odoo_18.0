@@ -4,6 +4,13 @@ import * as TicketScreen from "@point_of_sale/../tests/tours/utils/ticket_screen
 import * as Dialog from "@point_of_sale/../tests/tours/utils/dialog_util";
 import * as Chrome from "@point_of_sale/../tests/tours/utils/chrome_util";
 import * as PartnerList from "@point_of_sale/../tests/tours/utils/partner_list_util";
+<<<<<<< HEAD
+=======
+import * as Numpad from "@point_of_sale/../tests/tours/utils/numpad_util";
+import * as Order from "@point_of_sale/../tests/tours/utils/generic_components/order_widget_util";
+import { negateStep } from "@point_of_sale/../tests/tours/utils/common";
+import { delay } from "@web/core/utils/concurrency";
+>>>>>>> upstream/18.0
 import { registry } from "@web/core/registry";
 
 registry.category("web_tour.tours").add("EWalletProgramTour1", {
@@ -27,6 +34,50 @@ registry.category("web_tour.tours").add("EWalletProgramTour1", {
             ProductScreen.addOrderline("Top-up eWallet", "1", "10"),
             PosLoyalty.orderTotalIs("10.00"),
             PosLoyalty.finalizeOrder("Cash", "10"),
+<<<<<<< HEAD
+=======
+
+            // Check numpad visibility when clicking on eWallet orderline
+            ProductScreen.addOrderline("Whiteboard Pen"),
+            ProductScreen.clickPartnerButton(),
+            ProductScreen.clickCustomer("AAAAAAA"),
+            PosLoyalty.eWalletButtonState({
+                highlighted: true,
+                text: getEWalletText("Pay"),
+                click: true,
+            }),
+            PosLoyalty.orderTotalIs("0.00"),
+            ...ProductScreen.clickLine("eWallet"),
+            // Added a small wait because the clickLine function uses a 300ms timeout
+            {
+                content: "Wait 300ms after clicking orderline",
+                trigger: "body",
+                async run() {
+                    await delay(300);
+                },
+            },
+            Numpad.isVisible(),
+            ...Order.hasLine({
+                withClass: ".selected",
+                run: "click",
+                productName: "eWallet",
+                quantity: "1.0",
+            }),
+            {
+                content: "Wait 300ms after clicking orderline",
+                trigger: "body",
+                async run() {
+                    await delay(300);
+                },
+            },
+            negateStep(Numpad.isVisible()),
+            {
+                content: "Click Current Balance line in orderline",
+                trigger: ".orderline li:contains(Current Balance:)",
+                run: "click",
+            },
+            Numpad.isVisible(),
+>>>>>>> upstream/18.0
         ].flat(),
 });
 

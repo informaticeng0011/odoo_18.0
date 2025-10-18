@@ -4,7 +4,11 @@
 from odoo import Command
 from odoo.addons.sms.tests.common import SMSCommon
 from odoo.addons.test_mail_sms.tests.common import TestSMSRecipients
+<<<<<<< HEAD
 from odoo.tests import tagged
+=======
+from odoo.tests import tagged, users
+>>>>>>> upstream/18.0
 from odoo.tools import mute_logger
 
 
@@ -111,9 +115,16 @@ class TestSMSActions(TestSMSActionsCommon):
             {'partner': self.partner_2, 'number': self.notif_p2.sms_number, 'state': 'exception', 'failure_type': 'sms_server'}
         ], 'TEST BODY', self.msg, check_sms=False)    # do not check new sms as they already exist
 
+<<<<<<< HEAD
     def test_sms_set_outgoing(self):
         self._reset_bus()
         (self.sms_p1 + self.sms_p2).action_set_outgoing()
+=======
+    @users('admin')
+    def test_sms_set_outgoing(self):
+        self._reset_bus()
+        (self.sms_p1 + self.sms_p2).with_user(self.env.user).action_set_outgoing()
+>>>>>>> upstream/18.0
         self.assertEqual(self.sms_p1.state, 'outgoing')
         self.assertEqual(self.sms_p2.state, 'outgoing')
 

@@ -58,7 +58,11 @@ registry.category("web_tour.tours").add("course_review_modification", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: "#chatterRoot:shadow :not(:has(.o-mail-Message))",
+=======
+            trigger: "#chatterRoot:shadow .o-mail-Thread:contains(The conversation is empty.)",
+>>>>>>> upstream/18.0
 =======
             trigger: "#chatterRoot:shadow .o-mail-Thread:contains(The conversation is empty.)",
 >>>>>>> upstream/18.0
@@ -227,7 +231,10 @@ registry.category("web_tour.tours").add("course_review_modification", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -290,6 +297,9 @@ registry.category("web_tour.tours").add("course_review_modification", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

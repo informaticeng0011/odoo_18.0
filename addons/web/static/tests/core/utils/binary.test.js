@@ -3,6 +3,10 @@ import { patchTranslations } from "@web/../tests/web_test_helpers";
 
 import { humanSize } from "@web/core/utils/binary";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { resizeBlobImg } from "@web/core/utils/files";
+>>>>>>> upstream/18.0
 =======
 import { resizeBlobImg } from "@web/core/utils/files";
 >>>>>>> upstream/18.0
@@ -17,7 +21,10 @@ test("humanSize", () => {
     expect(humanSize(2645000)).toBe("2.52 Mb");
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("resize image", async () => {
     function buildblobImage(w, h) {
@@ -50,4 +57,7 @@ test("resize image", async () => {
     expect(smallBlobImgB64).not.toBeEmpty();
     expect(await blobTob64(resized)).toBe(smallBlobImgB64);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

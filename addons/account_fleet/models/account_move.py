@@ -1,7 +1,12 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models, _
+=======
+from odoo import api, fields, models, _
+from odoo.tools import SQL
+>>>>>>> upstream/18.0
 =======
 from odoo import api, fields, models, _
 from odoo.tools import SQL
@@ -65,7 +70,10 @@ class AccountMoveLine(models.Model):
         self.sudo().vehicle_log_service_ids.with_context(ignore_linked_bill_constraint=True).unlink()
         return super().unlink()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.model
     def _get_extra_query_base_tax_line_mapping(self) -> SQL:
@@ -75,4 +83,7 @@ class AccountMoveLine(models.Model):
         """
         query = super()._get_extra_query_base_tax_line_mapping()
         return SQL("%s AND COALESCE(base_line.vehicle_id, 0) = COALESCE(account_move_line.vehicle_id, 0)", query)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

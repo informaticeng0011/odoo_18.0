@@ -34,7 +34,10 @@ class AccountTax(models.Model):
             tax.l10n_mx_tax_type = 'iva' if tax.country_id.code == 'MX' else False
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -54,6 +57,9 @@ class AccountTax(models.Model):
             mode = 'excluded'
         super()._round_tax_details_base_lines(base_lines, company, mode=mode)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

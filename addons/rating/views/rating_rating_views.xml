@@ -36,7 +36,11 @@
                                 <field name="partner_id"/>
                                 <div colspan="2" class="text-center" name="rating_image_container">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <field name="rating_image" widget='image'/>
+=======
+                                    <field name="rating_image" widget='image' options='{"img_class": "bg-transparent"}'/>
+>>>>>>> upstream/18.0
 =======
                                     <field name="rating_image" widget='image' options='{"img_class": "bg-transparent"}'/>
 >>>>>>> upstream/18.0
@@ -94,7 +98,11 @@
                         <t t-name="card" class="row g-0">
                             <aside class="col-4 my-auto align-self-center">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <field name="rating_image" widget="image" class="bg-view ms-3" />
+=======
+                                <field name="rating_image" widget="image" options='{"img_class": "bg-transparent"}' class="bg-view ms-3" />
+>>>>>>> upstream/18.0
 =======
                                 <field name="rating_image" widget="image" options='{"img_class": "bg-transparent"}' class="bg-view ms-3" />
 >>>>>>> upstream/18.0

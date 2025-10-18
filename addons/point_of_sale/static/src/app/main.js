@@ -15,8 +15,11 @@ whenReady(() => {
     // as some services load data over RPC and this is why we want to show a loader.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mount(Loader, document.body, { getTemplate, translateFn: _t, props: { loader } });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     mount(Loader, document.body, {
@@ -26,6 +29,9 @@ whenReady(() => {
         translateFn: _t,
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

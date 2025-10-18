@@ -69,6 +69,10 @@ from . import digest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import kpi_provider
+>>>>>>> upstream/18.0
 =======
 from . import kpi_provider
 >>>>>>> upstream/18.0

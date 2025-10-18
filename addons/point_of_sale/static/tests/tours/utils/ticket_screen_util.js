@@ -215,7 +215,10 @@ export function nthColumnContains(nRow, nCol, string) {
     ];
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 export function noOrderIsThere() {
     return {
@@ -223,4 +226,7 @@ export function noOrderIsThere() {
         trigger: ".ticket-screen:not(:has(.order-row))",
     };
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

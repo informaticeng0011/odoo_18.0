@@ -17,7 +17,10 @@ class StockPickingType(models.Model):
         return super()._onchange_sequence_code()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -26,6 +29,9 @@ class StockPickingType(models.Model):
         action['context']['restricted_picking_type_code'] = self.code
         return action
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

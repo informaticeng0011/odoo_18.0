@@ -40,6 +40,11 @@ import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as ProductConfiguratorPopup from "@point_of_sale/../tests/tours/utils/product_configurator_util";
+import { negateStep } from "@point_of_sale/../tests/tours/utils/common";
+>>>>>>> upstream/18.0
 =======
 import * as ProductConfiguratorPopup from "@point_of_sale/../tests/tours/utils/product_configurator_util";
 import { negateStep } from "@point_of_sale/../tests/tours/utils/common";
@@ -217,6 +222,12 @@ registry.category("web_tour.tours").add("PosLoyaltyFreeProductTour", {
             ProductScreen.clickDisplayedProduct("Desk Organizer", true, "2.00"),
             ProductScreen.clickDisplayedProduct("Desk Organizer"),
             PosLoyalty.hasRewardLine("Free Product - Desk Organizer", "-5.10", "1.00"),
+<<<<<<< HEAD
+=======
+            ProductScreen.clickNumpad("9"),
+            ProductScreen.selectedOrderlineHas("Desk Organizer", "9.00"),
+            PosLoyalty.hasRewardLine("Free Product - Desk Organizer", "-15.30", "3.00"),
+>>>>>>> upstream/18.0
             ProductScreen.clickNumpad("⌫"),
             ProductScreen.selectedOrderlineHas("Desk Organizer", "0.00"),
             ProductScreen.clickDisplayedProduct("Desk Organizer", true, "1.00"),
@@ -261,10 +272,18 @@ registry.category("web_tour.tours").add("PosLoyaltyFreeProductTour", {
             ProductScreen.clickDisplayedProduct("Magnetic Board"),
             ProductScreen.selectedOrderlineHas("Magnetic Board", "2.00"),
             ProductScreen.clickDisplayedProduct("Magnetic Board"),
+<<<<<<< HEAD
             PosLoyalty.hasRewardLine("Free Product - Whiteboard Pen", "-3.20", "1.00"),
             PosLoyalty.isRewardButtonHighlighted(false),
 
             PosLoyalty.orderTotalIs("9.14"),
+=======
+            ProductScreen.selectedOrderlineHas("Magnetic Board", "3.00"),
+            PosLoyalty.hasRewardLine("Free Product - Whiteboard Pen", "-3.20", "1.00"),
+            PosLoyalty.isRewardButtonHighlighted(false),
+
+            PosLoyalty.orderTotalIs("5.94"),
+>>>>>>> upstream/18.0
             PosLoyalty.finalizeOrder("Cash", "10"),
 
             // Promotion: 2 items of shelves, get desk_pad/monitor_stand free
@@ -330,6 +349,10 @@ registry.category("web_tour.tours").add("test_loyalty_free_product_rewards_2", {
 
             ProductScreen.clickDisplayedProduct("Desk Organizer"),
             ProductScreen.clickDisplayedProduct("Desk Organizer"),
+<<<<<<< HEAD
+=======
+            ProductScreen.clickDisplayedProduct("Desk Organizer"),
+>>>>>>> upstream/18.0
             PosLoyalty.hasRewardLine("Free Product - Desk Organizer", "-5.10", "1.00"),
             PosLoyalty.orderTotalIs("10.20"),
             PosLoyalty.finalizeOrder("Cash", "10.20"),
@@ -463,7 +486,10 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificDiscountWithRewardPro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -708,6 +734,9 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificDiscountWithRewardPro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -960,7 +989,10 @@ registry.category("web_tour.tours").add("test_loyalty_on_order_with_fixed_tax", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1110,6 +1142,9 @@ registry.category("web_tour.tours").add("test_multiple_reward_line_free_product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

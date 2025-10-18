@@ -55,7 +55,10 @@ export function useFileUploader() {
     };
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 export function resizeBlobImg(blob, params = {}) {
     if (!blob.type || !blob.type.startsWith("image/")) {
@@ -105,4 +108,7 @@ export function resizeBlobImg(blob, params = {}) {
         img.src = URL.createObjectURL(blob);
     });
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

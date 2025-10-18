@@ -105,6 +105,7 @@ from itertools import product
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command, api, models
 =======
 from odoo import Command, _, api, models
@@ -477,6 +478,11 @@ from odoo import Command, _, api, models
 from .eu_account_map import EU_ACCOUNT_MAP
 from .eu_field_map import EU_FIELD_MAP
 >>>>>>> upstream/18.0
+=======
+from odoo import Command, _, api, models
+from .eu_account_map import EU_ACCOUNT_MAP
+from .eu_field_map import EU_FIELD_MAP
+>>>>>>> upstream/18.0
 from .eu_tag_map import EU_TAG_MAP
 from .eu_tax_map import EU_TAX_MAP
 
@@ -555,6 +561,7 @@ class Company(models.Model):
                                     }).id,
                                     'noupdate': True,
                                 })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -862,6 +869,8 @@ class Company(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                             foreign_tax_name = f'{tax_amount}% {destination_country.code} {destination_country.vat_label}'
                             existing_foreign_tax = self.env['account.tax'].search([
                                 ('company_id', 'child_of', company.root_id.id),
@@ -870,6 +879,7 @@ class Company(models.Model):
                                 ('country_id', '=', company.account_fiscal_country_id.id),
                             ], order='sequence,id desc', limit=1)
                             foreign_tax_copy_name = existing_foreign_tax and _('%(tax_name)s (Copy)', tax_name=existing_foreign_tax.name)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1113,6 +1123,8 @@ class Company(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1210,6 +1222,9 @@ class Company(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1314,6 +1329,10 @@ class Company(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                                **extra_fields,
+>>>>>>> upstream/18.0
 =======
                                 **extra_fields,
 >>>>>>> upstream/18.0
@@ -1503,6 +1522,7 @@ class Company(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         country = None
         # Try to use the VAT country if vat is set and easily guessable
         if self.vat:
@@ -1512,6 +1532,9 @@ class Company(models.Model):
         # otherwise fallback on the fiscal country
         if not country:
             country = self.account_fiscal_country_id
+=======
+        country = self._get_country_from_vat()
+>>>>>>> upstream/18.0
 =======
         country = self._get_country_from_vat()
 >>>>>>> upstream/18.0
@@ -1663,7 +1686,10 @@ class Company(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1779,6 +1805,9 @@ class Company(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

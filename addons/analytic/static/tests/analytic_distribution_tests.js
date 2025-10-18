@@ -47,7 +47,10 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -125,6 +128,9 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -179,6 +185,7 @@ QUnit.module("Analytic", (hooks) => {
                         color: { string: "Color", type: "integer" },
                         code: { string: "Ref", type: "string"},
                         partner_id: { string: "Partner", type: "many2one", relation: "partner" },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,6 +275,8 @@ QUnit.module("Analytic", (hooks) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         company_id: { string: "Company", type: "many2one", relation: "company" },
                     },
                     records: [
@@ -310,6 +319,9 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -373,6 +385,7 @@ QUnit.module("Analytic", (hooks) => {
                         color: { string: "Color", type: "integer" },
                         all_account_count: { type: "integer" },
                         parent_id: { type: "many2one", relation: "plan" },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -488,6 +501,8 @@ QUnit.module("Analytic", (hooks) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         column_name: { type: "char" },
                     },
                     records: [
@@ -532,6 +547,9 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -636,6 +654,7 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     },
                     records: [
                         { id: 1, label: "Developer Time", amount: 100.00, analytic_distribution: {"1, 7": 30.3, "3": 69.704}, analytic_precision: 3},
@@ -643,6 +662,8 @@ QUnit.module("Analytic", (hooks) => {
                         { id: 3, label: "Sprite", amount: 100.00, analytic_distribution: {}, analytic_precision: 3},
                         { id: 4, label: "", amount: 100.00, analytic_distribution: {}},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -719,6 +740,9 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -814,7 +838,11 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         line_ids: { string: "Move Lines", type: "one2many", relation: "aml", relation_field: "move_line_id" },
+=======
+                        line_ids: { string: "Move Lines", type: "one2many", relation: "aml", relation_field: "move_id" },
+>>>>>>> upstream/18.0
 =======
                         line_ids: { string: "Move Lines", type: "one2many", relation: "aml", relation_field: "move_id" },
 >>>>>>> upstream/18.0
@@ -1020,7 +1048,11 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -1181,7 +1213,11 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -1411,7 +1447,11 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -1690,7 +1730,10 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1846,6 +1889,9 @@ QUnit.module("Analytic", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

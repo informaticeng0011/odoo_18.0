@@ -506,8 +506,13 @@ class TestSaleTimesheetProjectProfitability(TestCommonSaleTimesheet):
         })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         saleorder_revenue = self.env['sale.order']
         saleOrderLine_revenue = self.env['sale.order.line']
+=======
+        saleorder_revenue = self.env['sale.order'].with_context(tracking_disable=True)
+        saleOrderLine_revenue = self.env['sale.order.line'].with_context(tracking_disable=True)
+>>>>>>> upstream/18.0
 =======
         saleorder_revenue = self.env['sale.order'].with_context(tracking_disable=True)
         saleOrderLine_revenue = self.env['sale.order.line'].with_context(tracking_disable=True)
@@ -525,9 +530,15 @@ class TestSaleTimesheetProjectProfitability(TestCommonSaleTimesheet):
         sale_order_line_revenue = saleOrderLine_revenue.create({
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'product_id':product_profitability_items.id,
             'product_uom_qty':10,
             'order_id':sale_order_revenue.id,
+=======
+            'product_id': product_profitability_items.id,
+            'product_uom_qty': 10,
+            'order_id': sale_order_revenue.id,
+>>>>>>> upstream/18.0
 =======
             'product_id': product_profitability_items.id,
             'product_uom_qty': 10,
@@ -573,7 +584,10 @@ class TestSaleTimesheetProjectProfitability(TestCommonSaleTimesheet):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         profitability_before = self.project_task_rate.get_panel_data()['profitability_items']
@@ -584,6 +598,9 @@ class TestSaleTimesheetProjectProfitability(TestCommonSaleTimesheet):
             profitability_after,
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

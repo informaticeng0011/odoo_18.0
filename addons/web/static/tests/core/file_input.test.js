@@ -194,7 +194,10 @@ test("Upload button is disabled if attachment upload is not finished", async () 
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("support preprocessing of files via props", async () => {
     await createFileInput({
@@ -215,4 +218,7 @@ test("support preprocessing of files via props", async () => {
 
     expect.verifySteps(["fake_file.txt"]);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

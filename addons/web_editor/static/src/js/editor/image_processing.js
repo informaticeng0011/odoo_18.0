@@ -22,7 +22,10 @@ const modifierFields = [
 export const isGif = (mimetype) => mimetype === 'image/gif';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 let _isWebGLEnabled;
 /**
  * Cacheable check telling whether the current browser can allocate a WebGL context.
@@ -41,6 +44,9 @@ export function isWebGLEnabled() {
     return _isWebGLEnabled;
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 // webgl color filters
 const _applyAll = (result, filter, filters) => {
@@ -345,7 +351,12 @@ export async function applyModifications(img, dataOptions = {}) {
 
     // GL filter
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (glFilter) {
+=======
+    const canUseWebGL = glFilter && isWebGLEnabled() && window.WebGLImageFilter;
+    if (canUseWebGL) {
+>>>>>>> upstream/18.0
 =======
     const canUseWebGL = glFilter && isWebGLEnabled() && window.WebGLImageFilter;
     if (canUseWebGL) {

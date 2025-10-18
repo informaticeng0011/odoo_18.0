@@ -86,8 +86,11 @@ export class FileInput extends Component {
     async onFileInputChange() {
         this.state.isDisable = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
         const parsedFileData = await this.uploadFiles(this.props.route, this.httpParams);
 =======
+=======
+>>>>>>> upstream/18.0
         const httpParams = this.httpParams;
         if (this.props.onWillUploadFiles) {
             try {
@@ -99,6 +102,9 @@ export class FileInput extends Component {
             }
         }
         const parsedFileData = await this.uploadFiles(this.props.route, httpParams);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (parsedFileData) {
             // When calling onUpload, also pass the files to allow to get data like their names

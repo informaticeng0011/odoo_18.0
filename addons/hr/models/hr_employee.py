@@ -27,7 +27,11 @@ from odoo import api, fields, models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import ValidationError, AccessError
+=======
+from odoo.exceptions import ValidationError, AccessError, RedirectWarning
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import ValidationError, AccessError, RedirectWarning
 >>>>>>> upstream/18.0
@@ -453,10 +457,13 @@ class HrEmployeePrivate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = self.env['hr.employee.public'].get_views(views, options)
         res['models'].update({'hr.employee': res['models']['hr.employee.public']})
         return res
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -512,6 +519,9 @@ We can redirect you to the public employee list."""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -782,7 +792,11 @@ We can redirect you to the public employee list."""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             user_domain = [[(field, 'in', archived_employees.user_id.ids) for field in user_fields_to_empty]]
+=======
+            user_domain = [[(field, 'in', archived_employees.user_id.ids)] for field in user_fields_to_empty]
+>>>>>>> upstream/18.0
 =======
             user_domain = [[(field, 'in', archived_employees.user_id.ids)] for field in user_fields_to_empty]
 >>>>>>> upstream/18.0

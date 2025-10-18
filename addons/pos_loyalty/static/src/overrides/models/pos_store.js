@@ -79,7 +79,10 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -192,6 +195,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -313,6 +319,7 @@ patch(PosStore.prototype, {
                         (reward.reward_type !== "product" ||
                             (reward.reward_type == "product" && !reward.multi_product))
                     ) {
+<<<<<<< HEAD
                         if (
                             (reward.reward_type == "product" &&
                                 reward.program_id.applies_on !== "both") ||
@@ -323,6 +330,8 @@ patch(PosStore.prototype, {
                                 qty: reward.reward_product_qty || 1,
                             });
                         }
+=======
+>>>>>>> upstream/18.0
                         order._applyReward(reward, coupon_id);
                         changed = true;
                     }
@@ -399,6 +408,7 @@ patch(PosStore.prototype, {
             ) {
                 Object.assign(oldChanges[idx], pointsAdded[idx]);
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -544,6 +554,9 @@ patch(PosStore.prototype, {
 =======
             if (pointsAdded.length < oldChanges.length || !order._programIsApplicable(program)) {
 >>>>>>> upstream/18.0
+=======
+            if (pointsAdded.length < oldChanges.length || !order._programIsApplicable(program)) {
+>>>>>>> upstream/18.0
                 const removedIds = oldChanges.map((pe) => pe.coupon_id);
                 order.uiState.couponPointChanges = Object.fromEntries(
                     Object.entries(order.uiState.couponPointChanges).filter(([k, pe]) => {
@@ -576,9 +589,12 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const { points, barcode = "" } = pointObj;
                     const key = barcode ? `${points}-${barcode}` : `${points}`;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -658,6 +674,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -734,9 +753,12 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const { points, barcode = "" } = pointObj;
                     const key = barcode ? `${points}-${barcode}` : `${points}`;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -816,6 +838,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -895,6 +920,7 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const [points, barcode = ""] = key.split("-");
                     while (pointsCount[key] > 0) {
                         newPointsAdded.push({ points: Number(points), barcode });
@@ -903,6 +929,8 @@ patch(PosStore.prototype, {
                 });
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -978,6 +1006,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1164,6 +1195,7 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         couponPointChange.code = order.get_selected_orderline()?.gift_code;
                         couponPointChange.partner_id = order.get_partner()?.id;
@@ -1562,6 +1594,11 @@ patch(PosStore.prototype, {
 >>>>>>> upstream/18.0
 =======
                         couponPointChange.code = order.get_selected_orderline()?.gift_code;
+                        couponPointChange.partner_id = order.get_partner()?.id;
+>>>>>>> upstream/18.0
+=======
+                        couponPointChange.code =
+                            order.get_selected_orderline()?.gift_code || pa.gift_code;
                         couponPointChange.partner_id = order.get_partner()?.id;
 >>>>>>> upstream/18.0
 =======
@@ -1768,10 +1805,13 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let claimableRewards = null;
         let coupon = null;
         if (rule) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1949,6 +1989,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2262,7 +2305,13 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             order._applyReward(reward.reward, reward.coupon_id, { product });
+=======
+            order._applyReward(reward.reward, reward.coupon_id, {
+                product: result.product_id,
+            });
+>>>>>>> upstream/18.0
 =======
             order._applyReward(reward.reward, reward.coupon_id, {
                 product: result.product_id,
@@ -2630,9 +2679,12 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const reward of this.models["loyalty.reward"].getAll()) {
             this.compute_discount_product_ids(reward, products);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2747,6 +2799,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2872,7 +2927,12 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     compute_discount_product_ids(reward, products) {
+=======
+    compute_discount_product_ids(reward, products, productsSerialized = []) {
+        // TODO: remove products parameter in master
+>>>>>>> upstream/18.0
 =======
     compute_discount_product_ids(reward, products, productsSerialized = []) {
         // TODO: remove products parameter in master
@@ -3063,8 +3123,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ["link", ...products.filter((p) => domain.contains(p.serialize()))],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3176,6 +3239,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3344,7 +3410,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.models["loyalty.reward"].delete(reward.id);
+=======
+                reward.delete();
+>>>>>>> upstream/18.0
 =======
                 reward.delete();
 >>>>>>> upstream/18.0

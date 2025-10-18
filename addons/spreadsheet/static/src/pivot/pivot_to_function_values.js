@@ -42,6 +42,10 @@ pivotToFunctionValueRegistry
     .add("text", _toString)
     .add("selection", _toString)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    .add("reference", _toString)
+>>>>>>> upstream/18.0
 =======
     .add("reference", _toString)
 >>>>>>> upstream/18.0
@@ -50,6 +54,10 @@ pivotToFunctionValueRegistry
     .add("monetary", _toNumber)
     .add("many2one", _toNumber)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    .add("many2one_reference", _toNumber)
+>>>>>>> upstream/18.0
 =======
     .add("many2one_reference", _toNumber)
 >>>>>>> upstream/18.0
