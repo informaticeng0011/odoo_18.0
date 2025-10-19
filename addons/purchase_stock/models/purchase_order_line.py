@@ -355,6 +355,7 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             res['balance'] = self.currency_id._convert(
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -482,6 +483,8 @@ class PurchaseOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             total_wo_tax = self.taxes_id.with_context(round=False, round_base=False).compute_all(
                 self.price_unit_discounted,
                 currency=self.order_id.currency_id,
@@ -526,6 +529,9 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

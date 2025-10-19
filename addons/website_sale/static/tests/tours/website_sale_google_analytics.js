@@ -82,6 +82,10 @@ registry.category("web_tour.tours").add('google_analytics_view_item', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -324,7 +328,11 @@ registry.category("web_tour.tours").add('google_analytics_add_to_cart', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ...tourUtils.addToCart({productName: 'Basic Shirt', search: false}),
+=======
+    ...tourUtils.addToCart({productName: 'Basic Shirt', search: false, expectUnloadPage: true}),
+>>>>>>> upstream/18.0
 =======
     ...tourUtils.addToCart({productName: 'Basic Shirt', search: false, expectUnloadPage: true}),
 >>>>>>> upstream/18.0

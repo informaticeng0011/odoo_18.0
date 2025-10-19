@@ -2,7 +2,12 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models, _
+=======
+from odoo import api, fields, models, _
+from odoo.tools import SQL
+>>>>>>> upstream/18.0
 =======
 from odoo import api, fields, models, _
 from odoo.tools import SQL
@@ -71,7 +76,10 @@ class AccountMoveLine(models.Model):
         return super().unlink()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -84,6 +92,9 @@ class AccountMoveLine(models.Model):
         query = super()._get_extra_query_base_tax_line_mapping()
         return SQL("%s AND COALESCE(base_line.vehicle_id, 0) = COALESCE(account_move_line.vehicle_id, 0)", query)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

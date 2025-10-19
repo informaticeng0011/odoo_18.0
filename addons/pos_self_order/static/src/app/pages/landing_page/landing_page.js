@@ -83,6 +83,10 @@ import { LanguagePopup } from "@pos_self_order/app/components/language_popup/lan
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { session } from "@web/session";
+>>>>>>> upstream/18.0
 =======
 import { session } from "@web/session";
 >>>>>>> upstream/18.0
@@ -429,10 +433,13 @@ export class LandingPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.carouselInterval = setInterval(() => {
                     carousel.next();
                 }, 5000);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -673,6 +680,9 @@ export class LandingPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account_payment
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -338,10 +339,19 @@
 # Marta Wacławek, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Vojtěch Olšan, 2025
+# Marta Wacławek, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -683,6 +693,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+=======
+"POT-Creation-Date: 2025-10-16 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marta Wacławek, 2025\n"
+"Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -771,12 +793,25 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
+<<<<<<< HEAD
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
 "<strong>Varování!</strong> Existuje čekající refundace k této platbě.\n"
 "                        Počkejte chvíli na její zpracování. Pokud bude refundace\n"
 "                       za pár minut stále čekat, zkontrolujte nastavení svého poskytovatele plateb."
+=======
+"                        Wait a moment for it to be processed. If the refund "
+"is still pending in a\n"
+"                        few minutes, please check your payment provider "
+"configuration."
+msgstr ""
+"<strong>Varování!</strong> Existuje čekající refundace k této platbě.\n"
+"                        Počkejte chvíli na její zpracování. Pokud bude "
+"refundace\n"
+"                       za pár minut stále čekat, zkontrolujte nastavení "
+"svého poskytovatele plateb."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -787,8 +822,13 @@ msgstr ""
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
+<<<<<<< HEAD
 "A payment has already been made on this invoice, please make sure to not pay"
 " twice."
+=======
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
@@ -857,11 +897,14 @@ msgid "Close"
 msgstr "Zavřít"
 
 #. module: account_payment
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_method_code
 msgid "Code"
 msgstr "Kód"
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account_payment.model_res_config_settings
 msgid "Config Settings"
 msgstr "Konfigurační nastavení"
@@ -962,7 +1005,12 @@ msgid ""
 "In test mode, a fake payment is processed through a test payment interface.\n"
 "This mode is advised when setting up the provider."
 msgstr ""
+<<<<<<< HEAD
 "V testovacím režimu je zpracována falešná platba v rámci testovacího rozhraní platby.\n"
+=======
+"V testovacím režimu je zpracována falešná platba v rámci testovacího "
+"rozhraní platby.\n"
+>>>>>>> upstream/18.0
 "Tento režim je doporučen při úvodním nastavování poskytovatele plateb."
 
 #. module: account_payment
@@ -1463,7 +1511,11 @@ msgid "Unsupported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unsupported"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unsupported"
 >>>>>>> upstream/18.0
@@ -1729,10 +1781,19 @@ msgstr "Zrušit transakci"
 #. odoo-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "Nemůžete odstranit platební metodu, která je napojena na poskytovatele v produkčním nebo testovacím režimu.\n"
+=======
+"You can't delete a payment method that is linked to a provider in the "
+"enabled or test state.\n"
+"Linked providers(s): %s"
+msgstr ""
+"Nemůžete odstranit platební metodu, která je napojena na poskytovatele v "
+"produkčním nebo testovacím režimu.\n"
+>>>>>>> upstream/18.0
 "Související poskytovatel(é): %s"
 
 #. module: account_payment
@@ -1752,7 +1813,12 @@ msgid ""
 "You must first deactivate a payment provider before deleting its journal.\n"
 "Linked providers: %s"
 msgstr ""
+<<<<<<< HEAD
 "Nejprve musíte deaktivovat poskytovatele plateb, než budete moci odstranit jeho deník.\n"
+=======
+"Nejprve musíte deaktivovat poskytovatele plateb, než budete moci odstranit "
+"jeho deník.\n"
+>>>>>>> upstream/18.0
 "Související poskytovatelé: %s"
 
 #. module: account_payment
@@ -1776,3 +1842,9 @@ msgstr "bylo použito."
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "overdue"
 msgstr ""
+<<<<<<< HEAD
+=======
+
+#~ msgid "Code"
+#~ msgstr "Kód"
+>>>>>>> upstream/18.0

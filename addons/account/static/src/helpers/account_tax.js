@@ -94,10 +94,13 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     batch_for_taxes_computation(taxes, { special_mode = null } = {}) {
         function sort_key(taxes) {
             return taxes.sort((t1, t2) => t1.sequence - t2.sequence || t1.id - t2.id);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -328,6 +331,9 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -467,6 +473,7 @@ export const accountTaxHelpers = {
 
         const results = {
             batch_per_tax: {},
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -687,6 +694,8 @@ export const accountTaxHelpers = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             group_per_tax: group_per_tax,
             sorted_taxes: sorted_taxes,
         };
@@ -758,6 +767,9 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -882,6 +894,7 @@ export const accountTaxHelpers = {
         }
 
         if (batch.length !== 0) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1036,6 +1049,8 @@ export const accountTaxHelpers = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             for (const batch_tax of batch) {
                 results.batch_per_tax[batch_tax.id] = batch;
             }
@@ -1080,7 +1095,10 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1193,6 +1211,9 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1438,7 +1459,10 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1551,6 +1575,9 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1706,6 +1733,10 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            filter_tax_function = null,
+>>>>>>> upstream/18.0
 =======
             filter_tax_function = null,
 >>>>>>> upstream/18.0
@@ -2021,6 +2052,7 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Flatten the taxes and order them.
 =======
         // Flatten the taxes, order them and filter them if necessary.
@@ -2225,6 +2257,8 @@ export const accountTaxHelpers = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         // Flatten the taxes, order them and filter them if necessary.
 
         function prepare_tax_extra_data(tax, kwargs = {}) {
@@ -2235,6 +2269,9 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2327,8 +2364,14 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         });
         const sorted_taxes = batching_results.sorted_taxes;
+=======
+            filter_tax_function: filter_tax_function,
+        });
+        let sorted_taxes = batching_results.sorted_taxes;
+>>>>>>> upstream/18.0
 =======
             filter_tax_function: filter_tax_function,
         });
@@ -2795,8 +2838,14 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (manual_tax_amounts && "base_amount_currency" in manual_tax_amounts[tax.id]) {
                 base = manual_tax_amounts[tax.id].base_amount_currency;
+=======
+            const tax_id_str = tax.id.toString();
+            if (manual_tax_amounts && "base_amount_currency" in (manual_tax_amounts[tax_id_str] || {})) {
+                base = manual_tax_amounts[tax_id_str].base_amount_currency;
+>>>>>>> upstream/18.0
 =======
             const tax_id_str = tax.id.toString();
             if (manual_tax_amounts && "base_amount_currency" in (manual_tax_amounts[tax_id_str] || {})) {
@@ -3191,6 +3240,7 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             taxes_data: taxes_data_list.map(tax_data => Object.assign({}, {
                 tax: tax_data.tax,
                 group: batching_results.group_per_tax[tax_data.tax.id],
@@ -3200,6 +3250,8 @@ export const accountTaxHelpers = {
                 is_reverse_charge: tax_data.is_reverse_charge || false
             })),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3221,6 +3273,9 @@ export const accountTaxHelpers = {
             ),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3270,7 +3325,10 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3383,6 +3441,9 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3530,7 +3591,10 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3643,6 +3707,9 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3720,6 +3787,7 @@ export const accountTaxHelpers = {
         if (field in extra_values) {
             return extra_values[field] || fallback;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3993,6 +4061,9 @@ export const accountTaxHelpers = {
 =======
         if (record && field in record) {
 >>>>>>> upstream/18.0
+=======
+        if (record && field in record) {
+>>>>>>> upstream/18.0
             return record[field] || fallback;
         }
         return fallback;
@@ -4035,7 +4106,10 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4148,6 +4222,9 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4243,6 +4320,7 @@ export const accountTaxHelpers = {
             discount: load('discount', 0.0),
             currency_id: currency,
             sign: load('sign', 1.0),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4456,6 +4534,8 @@ export const accountTaxHelpers = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             special_mode: load('special_mode', null),
             special_type: load('special_type', null),
             rate: load("rate", 1.0),
@@ -4463,6 +4543,9 @@ export const accountTaxHelpers = {
             manual_total_excluded: load("manual_total_excluded", null),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4473,6 +4556,7 @@ export const accountTaxHelpers = {
         }
     },
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4604,6 +4688,8 @@ export const accountTaxHelpers = {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4718,6 +4804,9 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4800,6 +4889,7 @@ export const accountTaxHelpers = {
             base_line.quantity,
             {
                 precision_rounding: currency_pd,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5007,6 +5097,8 @@ export const accountTaxHelpers = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 rounding_method: rounding_method,
                 product: base_line.product_id,
                 special_mode: base_line.special_mode,
@@ -5079,6 +5171,9 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5294,7 +5389,11 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (company.tax_calculation_rounding_method === 'round_per_line') {
+=======
+        if (rounding_method === "round_per_line") {
+>>>>>>> upstream/18.0
 =======
         if (rounding_method === "round_per_line") {
 >>>>>>> upstream/18.0
@@ -5575,7 +5674,11 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (company.tax_calculation_rounding_method === 'round_per_line') {
+=======
+            if (rounding_method === "round_per_line") {
+>>>>>>> upstream/18.0
 =======
             if (rounding_method === "round_per_line") {
 >>>>>>> upstream/18.0
@@ -5831,7 +5934,10 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5944,6 +6050,9 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6023,6 +6132,7 @@ export const accountTaxHelpers = {
         }
     },
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6460,6 +6570,8 @@ export const accountTaxHelpers = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     /**
      * [!] Mirror of the same method in account_tax.py.
      * PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
@@ -6478,6 +6590,7 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (let i = 0; i < target_factors.length; i++) {
             const factor = target_factors[i].factor;
 =======
@@ -6488,21 +6601,30 @@ export const accountTaxHelpers = {
         factors.sort((a, b) => b - a);
         const sum_of_factors = factors.reduce((a, b) => a + b, 0);
 =======
+=======
+>>>>>>> upstream/18.0
         // Take absolute value of factors and sort them by largest absolute value first
         const factors = target_factors.map((x, i) => [i, Math.abs(x.factor)]);
         factors.sort((a, b) => b[1] - a[1]);
         const sum_of_factors = factors.reduce((sum, x) => sum + x[1], 0.0);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (sum_of_factors === 0.0) {
             return amounts_to_distribute;
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (let i = 0; i < target_factors.length; i++) {
             const factor = factors[i];
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        for (const [i, factor] of factors) {
 >>>>>>> upstream/18.0
 =======
         for (const [i, factor] of factors) {
@@ -6515,7 +6637,11 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 Math.ceil(Math.abs(factor * nb_of_errors)),
+=======
+                Math.ceil(Math.abs(factor / sum_of_factors * nb_of_errors)),
+>>>>>>> upstream/18.0
 =======
                 Math.ceil(Math.abs(factor / sum_of_factors * nb_of_errors)),
 >>>>>>> upstream/18.0
@@ -6540,6 +6666,7 @@ export const accountTaxHelpers = {
      * [!] Mirror of the same method in account_tax.py.
      * PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16774,6 +16901,8 @@ export const accountTaxHelpers = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     round_tax_details_tax_amounts(base_lines, company, { mode = "mixed" } = {}) {
         function grouping_function(base_line, tax_data) {
             if (!tax_data) {
@@ -16815,6 +16944,9 @@ export const accountTaxHelpers = {
             const currency = grouping_key.currency;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16824,6 +16956,7 @@ export const accountTaxHelpers = {
                 ["_currency", currency],
                 ["", company.currency_id],
             ]) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16971,6 +17104,8 @@ export const accountTaxHelpers = {
                         const base_amounts = total_per_base[base_rounding_key];
                         base_amounts[`base_amount${delta_currency_indicator}`] += amount_to_distribute;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17185,6 +17320,9 @@ export const accountTaxHelpers = {
                         );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17195,6 +17333,7 @@ export const accountTaxHelpers = {
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18151,6 +18290,8 @@ export const accountTaxHelpers = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         // Apply 'manual_tax_amounts'.
         for (const base_line of base_lines) {
             const manual_tax_amounts = base_line.manual_tax_amounts;
@@ -18166,13 +18307,19 @@ export const accountTaxHelpers = {
                 if (base_line[manual_field] !== null) {
                     tax_details[total_field] = base_line[manual_field];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     if (suffix === "_currency" && rate) {
                         tax_details.total_excluded = roundPrecision(
                             tax_details[total_field] / rate,
                             company.currency_id.rounding
                         );
                     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 }
 
@@ -18220,6 +18367,9 @@ export const accountTaxHelpers = {
         this.round_tax_details_base_lines(base_lines, company);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18268,7 +18418,10 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18381,6 +18534,9 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18533,7 +18689,11 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const global_grouping_function = (base_line, tax_data) => true;
+=======
+        const global_grouping_function = (base_line, tax_data) => tax_data !== null;
+>>>>>>> upstream/18.0
 =======
         const global_grouping_function = (base_line, tax_data) => tax_data !== null;
 >>>>>>> upstream/18.0
@@ -18806,6 +18966,12 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (!tax_data) {
+                return;
+            }
+>>>>>>> upstream/18.0
 =======
             if (!tax_data) {
                 return;
@@ -19162,8 +19328,13 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             let display_base_amount = values.base_amount;
             let display_base_amount_currency = values.base_amount_currency;
+=======
+            let display_base_amount;
+            let display_base_amount_currency;
+>>>>>>> upstream/18.0
 =======
             let display_base_amount;
             let display_base_amount_currency;
@@ -19188,6 +19359,7 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 values.base_line_x_taxes_data.forEach(([base_line, _taxes_data]) => {
                     base_line.tax_details.taxes_data.forEach(tax_data => {
                         if (tax_data.tax.amount_type === 'division') {
@@ -19197,6 +19369,8 @@ export const accountTaxHelpers = {
                     });
                 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19220,6 +19394,9 @@ export const accountTaxHelpers = {
                 display_base_amount_currency = values.base_amount_currency;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19399,7 +19576,10 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19512,6 +19692,9 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19589,6 +19772,7 @@ export const accountTaxHelpers = {
         const values_per_grouping_key = {};
         const tax_details = base_line.tax_details;
         const taxes_data = tax_details.taxes_data;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19904,6 +20088,8 @@ export const accountTaxHelpers = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const manual_tax_amounts = base_line.manual_tax_amounts;
 
         // If there are no taxes, we pass an empty object to the grouping function.
@@ -19915,6 +20101,9 @@ export const accountTaxHelpers = {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19927,6 +20116,7 @@ export const accountTaxHelpers = {
             // There is no FrozenDict in javascript.
             // When the key is a record, it can't be jsonified so this is a trick to provide both the
             // raw_grouping_key (to be jsonified) from the grouping_key (to be added to the values).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20184,11 +20374,15 @@ export const accountTaxHelpers = {
 =======
             if (raw_grouping_key && typeof raw_grouping_key === "object" && "raw_grouping_key" in raw_grouping_key) {
 >>>>>>> upstream/18.0
+=======
+            if (raw_grouping_key && typeof raw_grouping_key === "object" && "raw_grouping_key" in raw_grouping_key) {
+>>>>>>> upstream/18.0
                 raw_grouping_key = generated_grouping_key.raw_grouping_key;
                 grouping_key = generated_grouping_key.grouping_key;
             }
 
             // Handle dictionary-like keys (converted to string in JS)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20919,6 +21113,8 @@ export const accountTaxHelpers = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if (typeof grouping_key === "object") {
                 grouping_key = JSON.stringify(grouping_key);
             }
@@ -20948,6 +21144,11 @@ export const accountTaxHelpers = {
                     let excluded_target_amount;
                     if (base_line[excluded_manual_field] !== null) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        excluded_target_amount = base_line[excluded_manual_field];
+                    } else if (suffix === "" && base_line.manual_total_excluded_currency !== null) {
+>>>>>>> upstream/18.0
 =======
                         excluded_target_amount = base_line[excluded_manual_field];
                     } else if (suffix === "" && base_line.manual_total_excluded_currency !== null) {
@@ -20968,13 +21169,19 @@ export const accountTaxHelpers = {
 
                         if (tax_base_rounded_field in current_manual_tax_amounts) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                             values[tax_base_target_field] =
                                 current_manual_tax_amounts[tax_base_rounded_field];
                         } else if (
                             suffix === "" &&
                             "base_amount_currency" in current_manual_tax_amounts
                         ) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                             values[tax_base_target_field] = tax_data[tax_base_rounded_field];
                         } else {
@@ -20987,6 +21194,7 @@ export const accountTaxHelpers = {
                     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const tax_tax_rounded_field = `tax_amount${suffix}`;
                     const tax_tax_raw_field = `raw_${tax_tax_rounded_field}`;
                     const tax_tax_target_field = `target_${tax_tax_rounded_field}`;
@@ -20995,6 +21203,8 @@ export const accountTaxHelpers = {
                     values[tax_tax_raw_field] = 0.0;
                     values[tax_tax_target_field] = 0.0;
 =======
+=======
+>>>>>>> upstream/18.0
                     const tax_rounded_field = `tax_amount${suffix}`;
                     const tax_raw_field = `raw_${tax_rounded_field}`;
                     const tax_target_field = `target_${tax_rounded_field}`;
@@ -21002,12 +21212,16 @@ export const accountTaxHelpers = {
                     values[tax_rounded_field] = 0.0;
                     values[tax_raw_field] = 0.0;
                     values[tax_target_field] = 0.0;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 }
             }
 
             // Tax amount.
             if (tax_data) {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 const values = values_per_grouping_key[grouping_key];
                 for (const suffix of ["_currency", ""]) {
@@ -21023,6 +21237,8 @@ export const accountTaxHelpers = {
                     } else {
                         values[tax_tax_target_field] += tax_data[tax_tax_raw_field];
 =======
+=======
+>>>>>>> upstream/18.0
                 const reverse_charge_sign = tax_data.is_reverse_charge ? -1 : 1;
                 const values = values_per_grouping_key[grouping_key];
                 for (const suffix of ["_currency", ""]) {
@@ -21043,6 +21259,9 @@ export const accountTaxHelpers = {
                         values[tax_target_field] = tax_data[tax_rounded_field];
                     } else {
                         values[tax_target_field] += tax_data[tax_raw_field];
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     }
                 }
@@ -21054,6 +21273,9 @@ export const accountTaxHelpers = {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21099,6 +21321,9 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21213,7 +21438,10 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21290,6 +21518,7 @@ export const accountTaxHelpers = {
      * [!] Mirror of the same method in account_tax.py.
      * PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21411,6 +21640,8 @@ export const accountTaxHelpers = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     aggregate_base_lines_aggregated_values(base_lines_aggregated_values) {
         const default_float_fields = new Set();
         for (const prefix of ["", "raw_", "target_"]) {
@@ -21423,6 +21654,9 @@ export const accountTaxHelpers = {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21452,10 +21686,15 @@ export const accountTaxHelpers = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return values_per_grouping_key;
     },
 
+=======
+        return values_per_grouping_key;
+    },
+>>>>>>> upstream/18.0
 =======
         return values_per_grouping_key;
     },

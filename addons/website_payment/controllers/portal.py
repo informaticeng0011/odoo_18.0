@@ -43,6 +43,10 @@ from odoo.tools.json import scriptsafe as json_safe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.account_payment.controllers import portal as account_payment_portal
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account_payment.controllers import portal as account_payment_portal
 >>>>>>> upstream/18.0
@@ -336,7 +340,10 @@ class PaymentPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -451,6 +458,9 @@ class PortalAccount(account_payment_portal.PortalAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

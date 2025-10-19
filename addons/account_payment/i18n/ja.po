@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_payment
 # 
 # Translators:
@@ -44,6 +45,8 @@
 # Junko Augias, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -159,6 +162,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -236,6 +242,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -378,6 +385,10 @@ msgstr ""
 =======
 "PO-Revision-Date: 2025-10-15 05:31+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-10-16 18:38+0000\n"
+"PO-Revision-Date: 2025-10-15 05:31+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "account_payment/ja/>\n"
@@ -423,6 +434,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -504,8 +518,13 @@ msgid ""
 "#%(number)s - Installment of <strong>%(amount)s</strong> due on <strong "
 "class=\"text-primary\">%(date)s</strong>"
 msgstr ""
+<<<<<<< HEAD
 "#%(number)s -  <strong>%(amount)s</strong>の分割払、期日: <strong class=\"text-"
 "primary\">%(date)s</strong>"
+=======
+"#%(number)s -  <strong>%(amount)s</strong>の分割払、期日: <strong "
+"class=\"text-primary\">%(date)s</strong>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-javascript
@@ -524,6 +543,7 @@ msgid ""
 "<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-inline\"> "
 "Pay Now</span>"
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-inline\"> "
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -674,6 +694,10 @@ msgstr ""
 =======
 "今すぐ支払う</span>"
 >>>>>>> upstream/18.0
+=======
+"<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-inline\"> 今"
+"すぐ支払う</span>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
@@ -715,7 +739,11 @@ msgid "<i class=\"fa fa-fw fa-arrow-circle-right\"/> Pay Now"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-fw fa-arrow-circle-right\"/> 今支払う"
+=======
+msgstr "<i class=\"fa fa-fw fa-arrow-circle-right\"/> 今すぐ支払う"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-arrow-circle-right\"/> 今すぐ支払う"
 >>>>>>> upstream/18.0
@@ -884,11 +912,22 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
+<<<<<<< HEAD
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
 "<strong>警告！</strong>この支払には保留中の返金があります。 \n"
 "                        処理されるまでしばらくお待ち下さい。数分経っても返金が保留中の場合は\n"
+=======
+"                        Wait a moment for it to be processed. If the refund "
+"is still pending in a\n"
+"                        few minutes, please check your payment provider "
+"configuration."
+msgstr ""
+"<strong>警告！</strong>この支払には保留中の返金があります。 \n"
+"                        処理されるまでしばらくお待ち下さい。数分経っても返金"
+"が保留中の場合は\n"
+>>>>>>> upstream/18.0
 "                        支払いプロバイダーの設定を確認して下さい。"
 
 #. module: account_payment
@@ -900,9 +939,16 @@ msgstr "顧客が %s以前に支払う場合、値引きが適用されます。
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
+<<<<<<< HEAD
 "A payment has already been made on this invoice, please make sure to not pay"
 " twice."
 msgstr "この請求書はすでに支払されています。二重払いとならないようご注意下さい。"
+=======
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+msgstr ""
+"この請求書はすでに支払されています。二重払いとならないようご注意下さい。"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -935,6 +981,7 @@ msgstr "返金可能額"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__invoice_amount_due
 msgid "Amount Due"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1160,6 +1207,9 @@ msgstr "請求残高"
 =======
 msgstr "請求残高"
 >>>>>>> upstream/18.0
+=======
+msgstr "請求残高"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__amount_paid
@@ -1172,7 +1222,12 @@ msgstr "支払済金額"
 msgid ""
 "Are you sure you want to void the authorized transaction? This action can't "
 "be undone."
+<<<<<<< HEAD
 msgstr "承認されたトランザクションを無効にしますか?このアクションは元に戻せません。"
+=======
+msgstr ""
+"承認されたトランザクションを無効にしますか?このアクションは元に戻せません。"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__authorized_transaction_ids
@@ -1193,11 +1248,14 @@ msgid "Close"
 msgstr "閉じる"
 
 #. module: account_payment
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_method_code
 msgid "Code"
 msgstr "コード"
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account_payment.model_res_config_settings
 msgid "Config Settings"
 msgstr "コンフィグ設定"
@@ -1298,7 +1356,12 @@ msgid ""
 "In test mode, a fake payment is processed through a test payment interface.\n"
 "This mode is advised when setting up the provider."
 msgstr ""
+<<<<<<< HEAD
 "テストモードでは、偽の支払いがテスト支払インターフェイスを通じて処理されます。\n"
+=======
+"テストモードでは、偽の支払いがテスト支払インターフェイスを通じて処理されま"
+"す。\n"
+>>>>>>> upstream/18.0
 "このモードは、プロバイダを設定する際に推奨されます。"
 
 #. module: account_payment
@@ -1368,14 +1431,26 @@ msgstr "次の分割払"
 msgid ""
 "Note that only tokens from providers allowing to capture the amount are "
 "available."
+<<<<<<< HEAD
 msgstr "利用できるのは、金額を把握できるプロバイダーのトークンのみであるることに注意して下さい。"
+=======
+msgstr ""
+"利用できるのは、金額を把握できるプロバイダーのトークンのみであるることに注意"
+"して下さい。"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment_register__payment_token_id
 msgid ""
 "Note that tokens from providers set to only authorize transactions (instead "
 "of capturing the amount) are not available."
+<<<<<<< HEAD
 msgstr "（金額をキャプチャする代わりに）トランザクションの承認のみに設定されたプロバイダーのトークンは利用できないことに注意して下さい。"
+=======
+msgstr ""
+"（金額をキャプチャする代わりに）トランザクションの承認のみに設定されたプロバ"
+"イダーのトークンは利用できないことに注意して下さい。"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:onboarding.onboarding.step,step_image_alt:account_payment.onboarding_onboarding_step_payment_provider
@@ -1478,7 +1553,11 @@ msgid "Pay Now"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "今支払う"
+=======
+msgstr "今すぐ支払う"
+>>>>>>> upstream/18.0
 =======
 msgstr "今すぐ支払う"
 >>>>>>> upstream/18.0
@@ -1631,7 +1710,11 @@ msgid "Pay now"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "今支払う"
+=======
+msgstr "今すぐ支払う"
+>>>>>>> upstream/18.0
 =======
 msgstr "今すぐ支払う"
 >>>>>>> upstream/18.0
@@ -1802,7 +1885,11 @@ msgid "Payment Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "決済トランザクション"
+=======
+msgstr "支払取引"
+>>>>>>> upstream/18.0
 =======
 msgstr "支払取引"
 >>>>>>> upstream/18.0
@@ -2009,7 +2096,11 @@ msgid "This invoice has already been paid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この請求書は既に支払済です。"
+=======
+msgstr "この請求書は既にお支払済です。"
+>>>>>>> upstream/18.0
 =======
 msgstr "この請求書は既にお支払済です。"
 >>>>>>> upstream/18.0
@@ -2121,10 +2212,19 @@ msgstr "無効な取引"
 #. odoo-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "有効状態またはテスト状態のプロバイダーにリンクされている支払方法を削除することはできません。\n"
+=======
+"You can't delete a payment method that is linked to a provider in the "
+"enabled or test state.\n"
+"Linked providers(s): %s"
+msgstr ""
+"有効状態またはテスト状態のプロバイダーにリンクされている支払方法を削除するこ"
+"とはできません。\n"
+>>>>>>> upstream/18.0
 "リンクされているプロバイダー:%s"
 
 #. module: account_payment
@@ -2133,7 +2233,13 @@ msgstr ""
 msgid ""
 "You cannot uninstall this module as payments using this payment method "
 "already exist."
+<<<<<<< HEAD
 msgstr "この支払い方法を使用した支払が既に存在するため、このモジュールをアンインストールすることはできません。"
+=======
+msgstr ""
+"この支払い方法を使用した支払が既に存在するため、このモジュールをアンインス"
+"トールすることはできません。"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -2155,6 +2261,7 @@ msgstr "支払期日まで %s 日"
 #. odoo-javascript
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "due today"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2428,6 +2535,9 @@ msgstr "本日支払期日"
 =======
 msgstr "本日支払期日"
 >>>>>>> upstream/18.0
+=======
+msgstr "本日支払期日"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
@@ -2438,3 +2548,9 @@ msgstr "適用されました。"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "overdue"
 msgstr "滞納"
+<<<<<<< HEAD
+=======
+
+#~ msgid "Code"
+#~ msgstr "コード"
+>>>>>>> upstream/18.0

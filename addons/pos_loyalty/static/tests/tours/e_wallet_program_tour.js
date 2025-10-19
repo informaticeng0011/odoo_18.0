@@ -5,11 +5,17 @@ import * as Dialog from "@point_of_sale/../tests/tours/utils/dialog_util";
 import * as Chrome from "@point_of_sale/../tests/tours/utils/chrome_util";
 import * as PartnerList from "@point_of_sale/../tests/tours/utils/partner_list_util";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 import * as Numpad from "@point_of_sale/../tests/tours/utils/numpad_util";
 import * as Order from "@point_of_sale/../tests/tours/utils/generic_components/order_widget_util";
 import { negateStep } from "@point_of_sale/../tests/tours/utils/common";
 import { delay } from "@web/core/utils/concurrency";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { registry } from "@web/core/registry";
 
@@ -35,7 +41,10 @@ registry.category("web_tour.tours").add("EWalletProgramTour1", {
             PosLoyalty.orderTotalIs("10.00"),
             PosLoyalty.finalizeOrder("Cash", "10"),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
             // Check numpad visibility when clicking on eWallet orderline
             ProductScreen.addOrderline("Whiteboard Pen"),
@@ -77,6 +86,9 @@ registry.category("web_tour.tours").add("EWalletProgramTour1", {
                 run: "click",
             },
             Numpad.isVisible(),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ].flat(),
 });

@@ -20,10 +20,16 @@ export const isActive = (buttonValue) => ({
     trigger: `${buttonTriger(buttonValue)}.active`,
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 export const isVisible = () => ({
     content: "check if numpad is visible",
     trigger: "div.numpad:visible",
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -182,7 +182,10 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.pos.addPendingOrder([this.currentOrder.id]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -484,6 +487,10 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.sound = useService("mail.sound_effects");
+>>>>>>> upstream/18.0
 =======
         this.sound = useService("mail.sound_effects");
 >>>>>>> upstream/18.0
@@ -798,6 +805,10 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.sound.play("error");
+>>>>>>> upstream/18.0
 =======
             this.sound.play("error");
 >>>>>>> upstream/18.0
@@ -954,6 +965,10 @@ export class ProductScreen extends Component {
         const lotBarcode = parsed_results.find((element) => element.type === "lot");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const qty = parsed_results.find((element) => element.type === "quantity");
+>>>>>>> upstream/18.0
 =======
         const qty = parsed_results.find((element) => element.type === "quantity");
 >>>>>>> upstream/18.0
@@ -970,9 +985,12 @@ export class ProductScreen extends Component {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         await this.pos.addLineToCurrentOrder({ product_id: product }, { code: lotBarcode });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const vals = { product_id: product };
@@ -987,6 +1005,9 @@ export class ProductScreen extends Component {
 
         await this.pos.addLineToCurrentOrder(vals, { code: lotBarcode });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1053,8 +1074,11 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return this.pos.models["product.product"].filter((p) => productIds.has(p.id));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1069,6 +1093,9 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1259,7 +1286,10 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1377,6 +1407,9 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_payment
 # 
 # Translators:
@@ -44,6 +45,8 @@
 # Larissa Manderfeld, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -159,6 +162,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -236,6 +242,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -355,6 +362,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-10-16 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-25 10:08+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/"
@@ -363,6 +373,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -475,6 +486,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -567,12 +583,25 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
+<<<<<<< HEAD
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
 "<strong>¡Advertencia!</strong> Hay un reembolso pendiente para este pago.\n"
 "                        Espere un momento a que se procese. Si el reembolso sigue pendiente en\n"
 "                        unos minutos, verifique la configuración de su método de pago."
+=======
+"                        Wait a moment for it to be processed. If the refund "
+"is still pending in a\n"
+"                        few minutes, please check your payment provider "
+"configuration."
+msgstr ""
+"<strong>¡Advertencia!</strong> Hay un reembolso pendiente para este pago.\n"
+"                        Espere un momento a que se procese. Si el reembolso "
+"sigue pendiente en\n"
+"                        unos minutos, verifique la configuración de su "
+"método de pago."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -583,8 +612,13 @@ msgstr "Se aplicará un descuento si el cliente paga antes del %s incluido."
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
+<<<<<<< HEAD
 "A payment has already been made on this invoice, please make sure to not pay"
 " twice."
+=======
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ya ha realizado un pago para esta factura, asegúrese de no pagar dos veces."
 
@@ -655,11 +689,14 @@ msgid "Close"
 msgstr "Cerrar"
 
 #. module: account_payment
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_method_code
 msgid "Code"
 msgstr "Código"
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account_payment.model_res_config_settings
 msgid "Config Settings"
 msgstr "Ajustes de configuración"
@@ -687,6 +724,7 @@ msgstr "Fecha de descuento"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -836,6 +874,9 @@ msgstr "Nombre para mostrar"
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__display_open_installments
@@ -863,8 +904,12 @@ msgstr "Descuento por pago anticipado de"
 #. module: account_payment
 #: model:onboarding.onboarding.step,description:account_payment.onboarding_onboarding_step_payment_provider
 msgid "Enable credit & debit card payments supported by Stripe."
+<<<<<<< HEAD
 msgstr ""
 "Habilite pagos con tarjeta de crédito y débito compatibles con Stripe."
+=======
+msgstr "Habilite pagos con tarjeta de crédito y débito compatibles con Stripe."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__full_only
@@ -912,7 +957,12 @@ msgid ""
 "In test mode, a fake payment is processed through a test payment interface.\n"
 "This mode is advised when setting up the provider."
 msgstr ""
+<<<<<<< HEAD
 "En el modo de prueba, se procesa un pago falso a través de una interfaz de pago de prueba.\n"
+=======
+"En el modo de prueba, se procesa un pago falso a través de una interfaz de "
+"pago de prueba.\n"
+>>>>>>> upstream/18.0
 "Este modo se recomienda al configurar el método de pago."
 
 #. module: account_payment
@@ -983,8 +1033,13 @@ msgid ""
 "Note that only tokens from providers allowing to capture the amount are "
 "available."
 msgstr ""
+<<<<<<< HEAD
 "Tenga en cuenta que solo están disponibles los tokens de los proveedores que"
 " permiten captar el importe."
+=======
+"Tenga en cuenta que solo están disponibles los tokens de los proveedores que "
+"permiten captar el importe."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment_register__payment_token_id
@@ -1244,8 +1299,13 @@ msgid ""
 "The payment related to the transaction with reference %(ref)s has been "
 "posted: %(link)s"
 msgstr ""
+<<<<<<< HEAD
 "Se ha publicado el pago relacionado a la transacción con referencia %(ref)s:"
 " %(link)s"
+=======
+"Se ha publicado el pago relacionado a la transacción con referencia %(ref)s: "
+"%(link)s"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -1352,10 +1412,19 @@ msgstr "Anular transacción"
 #. odoo-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "No puede eliminar un método de pago vinculado a un proveedor en el estado habilitado o de prueba.\n"
+=======
+"You can't delete a payment method that is linked to a provider in the "
+"enabled or test state.\n"
+"Linked providers(s): %s"
+msgstr ""
+"No puede eliminar un método de pago vinculado a un proveedor en el estado "
+"habilitado o de prueba.\n"
+>>>>>>> upstream/18.0
 "Proveedores vinculados: %s"
 
 #. module: account_payment
@@ -1398,3 +1467,9 @@ msgstr "se ha aplicado."
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "overdue"
 msgstr "vencidas"
+<<<<<<< HEAD
+=======
+
+#~ msgid "Code"
+#~ msgstr "Código"
+>>>>>>> upstream/18.0

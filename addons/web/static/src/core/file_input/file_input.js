@@ -87,8 +87,11 @@ export class FileInput extends Component {
         this.state.isDisable = true;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const parsedFileData = await this.uploadFiles(this.props.route, this.httpParams);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const httpParams = this.httpParams;
@@ -103,6 +106,9 @@ export class FileInput extends Component {
         }
         const parsedFileData = await this.uploadFiles(this.props.route, httpParams);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

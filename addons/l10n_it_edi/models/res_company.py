@@ -205,6 +205,7 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             company.l10n_it_edi_proxy_user_id = company.account_edi_proxy_client_ids.filtered(lambda x: x.proxy_type == 'l10n_it_edi')
 =======
             company.l10n_it_edi_proxy_user_id = company.root_id.account_edi_proxy_client_ids.filtered(lambda x: x.proxy_type == 'l10n_it_edi')
@@ -274,6 +275,10 @@ class ResCompany(models.Model):
 >>>>>>> upstream/18.0
 =======
             company.l10n_it_edi_proxy_user_id = company.root_id.account_edi_proxy_client_ids.filtered(lambda x: x.proxy_type == 'l10n_it_edi')
+>>>>>>> upstream/18.0
+=======
+            edi_company = company._l10n_it_get_edi_company()
+            company.l10n_it_edi_proxy_user_id = edi_company.account_edi_proxy_client_ids.filtered(lambda x: x.proxy_type == 'l10n_it_edi')
 >>>>>>> upstream/18.0
 =======
             edi_company = company._l10n_it_get_edi_company()
@@ -658,7 +663,10 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -871,6 +879,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

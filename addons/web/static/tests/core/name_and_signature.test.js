@@ -112,3 +112,24 @@ test("test name_and_signature widget update signmode with onSignatureChange prop
     await contains(".o_web_sign_draw_button").click();
     expect(currentSignMode).toBe("draw");
 });
+<<<<<<< HEAD
+=======
+
+test("test name_and_signature widget with non-breaking spaces", async function () {
+   const props = {
+       signature: { name: "Non Breaking Spaces" },
+   };
+   const res = await mountWithCleanup(NameAndSignature, { props });
+   expect(res.getCleanedName()).toBe("Non Breaking Spaces");
+});
+
+
+test("test name_and_signature widget with non-breaking spaces and initials mode", async function () {
+   const props = {
+       signature: { name: "Non Breaking Spaces" },
+       signatureType: "initial",
+   };
+   const res = await mountWithCleanup(NameAndSignature, { props });
+   expect(res.getCleanedName()).toBe("N.B.S.");
+});
+>>>>>>> upstream/18.0

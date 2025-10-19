@@ -79,9 +79,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime, date, timezone, timedelta
 from dateutil.relativedelta import relativedelta
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -320,6 +323,9 @@ import pytz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -629,7 +635,10 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -919,6 +928,7 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     leave_duration = leave[leave_duration_field]
 =======
                     leave_duration = leave._get_durations()[leave.id][0 if leave_unit == 'days' else 1]
@@ -946,6 +956,9 @@ class HrEmployeeBase(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
                     leave_duration = leave._get_durations()[leave.id][0 if leave_unit == 'days' else 1]
+>>>>>>> upstream/18.0
+=======
+                    leave_duration = leave[leave_duration_field]
 >>>>>>> upstream/18.0
 =======
                     leave_duration = leave[leave_duration_field]
@@ -1111,6 +1124,9 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1341,7 +1357,11 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if leave_type.requires_allocation == 'no' or not leave_type.show_on_dashboard:
+=======
+                if leave_type.requires_allocation == 'no' or not leave_type.show_on_dashboard or not leave_type.active:
+>>>>>>> upstream/18.0
 =======
                 if leave_type.requires_allocation == 'no' or not leave_type.show_on_dashboard or not leave_type.active:
 >>>>>>> upstream/18.0

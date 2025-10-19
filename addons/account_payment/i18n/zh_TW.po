@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account_payment
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2025
 # Tony Ng, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2025
+# Tony Ng, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Tony Ng, 2025\n"
@@ -18,6 +27,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: zh_TW\n"
+=======
+"POT-Creation-Date: 2025-10-16 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Tony Ng, 2025\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/"
+"zh_TW/)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: account_payment
@@ -27,8 +47,13 @@ msgid ""
 "#%(number)s - Installment of <strong>%(amount)s</strong> due on <strong "
 "class=\"text-primary\">%(date)s</strong>"
 msgstr ""
+<<<<<<< HEAD
 "#%(number)s - 分期付款 <strong>%(amount)s</strong>，到期日 <strong class=\"text-"
 "primary\">%(date)s</strong>"
+=======
+"#%(number)s - 分期付款 <strong>%(amount)s</strong>，到期日 <strong "
+"class=\"text-primary\">%(date)s</strong>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-javascript
@@ -47,8 +72,13 @@ msgid ""
 "<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-inline\"> "
 "Pay Now</span>"
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-inline\"> "
 "立即支付</span>"
+=======
+"<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-inline\"> 立"
+"即支付</span>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
@@ -111,12 +141,24 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
+<<<<<<< HEAD
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
 "<strong>警告！</strong>這筆付款尚有退款正待處理。\n"
 "                        請稍等，讓系統先完成處理退款。\n"
 "                        若幾分鐘後，退款仍在處理中，請檢查付款服務商相關設置。"
+=======
+"                        Wait a moment for it to be processed. If the refund "
+"is still pending in a\n"
+"                        few minutes, please check your payment provider "
+"configuration."
+msgstr ""
+"<strong>警告！</strong>這筆付款尚有退款正待處理。\n"
+"                        請稍等，讓系統先完成處理退款。\n"
+"                        若幾分鐘後，退款仍在處理中，請檢查付款服務商相關設"
+"置。"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -127,8 +169,13 @@ msgstr "如果客戶在包括 %s 之前付款，將可享折扣。"
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
+<<<<<<< HEAD
 "A payment has already been made on this invoice, please make sure to not pay"
 " twice."
+=======
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+>>>>>>> upstream/18.0
 msgstr "此發票已付款，請確保不會重複付款。"
 
 #. module: account_payment
@@ -196,11 +243,14 @@ msgid "Close"
 msgstr "關閉"
 
 #. module: account_payment
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_method_code
 msgid "Code"
 msgstr "程式碼"
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account_payment.model_res_config_settings
 msgid "Config Settings"
 msgstr "配置設定"
@@ -378,7 +428,12 @@ msgstr "請注意，只限允許收取金額的服務商提供的代碼才可用
 msgid ""
 "Note that tokens from providers set to only authorize transactions (instead "
 "of capturing the amount) are not available."
+<<<<<<< HEAD
 msgstr "請注意，服務商若設為只可授權交易（而非收取金額），其提供的代碼便不可用。"
+=======
+msgstr ""
+"請注意，服務商若設為只可授權交易（而非收取金額），其提供的代碼便不可用。"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:onboarding.onboarding.step,step_image_alt:account_payment.onboarding_onboarding_step_payment_provider
@@ -514,7 +569,11 @@ msgid "Online payment option is not enabled in Configuration."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "配置中的網上付款選項未啟用。"
+>>>>>>> upstream/18.0
 =======
 msgstr "配置中的網上付款選項未啟用。"
 >>>>>>> upstream/18.0
@@ -1217,7 +1276,11 @@ msgid "There are pending transactions for this invoice."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "此發票有尚待處理的交易。"
+>>>>>>> upstream/18.0
 =======
 msgstr "此發票有尚待處理的交易。"
 >>>>>>> upstream/18.0
@@ -1683,7 +1746,11 @@ msgid "There is no amount to be paid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "無需支付任何金額。"
+>>>>>>> upstream/18.0
 =======
 msgstr "無需支付任何金額。"
 >>>>>>> upstream/18.0
@@ -2171,7 +2238,11 @@ msgid "This invoice cannot be paid online."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "此發票不可透過網上付款。"
+>>>>>>> upstream/18.0
 =======
 msgstr "此發票不可透過網上付款。"
 >>>>>>> upstream/18.0
@@ -2649,7 +2720,11 @@ msgid "This is not an outgoing invoice."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "這不是對外發出的發票。"
+>>>>>>> upstream/18.0
 =======
 msgstr "這不是對外發出的發票。"
 >>>>>>> upstream/18.0
@@ -3028,7 +3103,12 @@ msgstr "無效交易"
 #. odoo-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
+=======
+"You can't delete a payment method that is linked to a provider in the "
+"enabled or test state.\n"
+>>>>>>> upstream/18.0
 "Linked providers(s): %s"
 msgstr ""
 "若付款方式連結至已啟用或在測試狀態的服務商，便不可刪除。\n"
@@ -3073,3 +3153,9 @@ msgstr "已套用。"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "overdue"
 msgstr "逾期"
+<<<<<<< HEAD
+=======
+
+#~ msgid "Code"
+#~ msgstr "程式碼"
+>>>>>>> upstream/18.0

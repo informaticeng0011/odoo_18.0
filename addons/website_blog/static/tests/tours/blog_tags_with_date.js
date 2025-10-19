@@ -4,7 +4,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { clickOnSave, registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
+=======
+import { registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
+>>>>>>> upstream/18.0
 =======
 import { registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
 >>>>>>> upstream/18.0
@@ -28,6 +32,7 @@ registerWebsitePreviewTour("blog_tags_with_date", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     edition: true,
 }, () => [{
         content: "Click on first blog",
@@ -40,6 +45,9 @@ registerWebsitePreviewTour("blog_tags_with_date", {
     },
     ...clickOnSave(),
     {
+=======
+}, () => [{
+>>>>>>> upstream/18.0
 =======
 }, () => [{
 >>>>>>> upstream/18.0

@@ -20,6 +20,10 @@ from email.message import EmailMessage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from email.parser import BytesParser
+>>>>>>> upstream/18.0
 =======
 from email.parser import BytesParser
 >>>>>>> upstream/18.0
@@ -624,8 +628,12 @@ class IrMailServer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     #  Use binary encoding for "message/rfc822" attachments (see RFC 2046 Section 5.2.1)
                     msg.add_attachment(fcontent, maintype, subtype, filename=fname, cte='binary')
+=======
+                    msg.add_attachment(BytesParser().parsebytes(fcontent), filename=fname)
+>>>>>>> upstream/18.0
 =======
                     msg.add_attachment(BytesParser().parsebytes(fcontent), filename=fname)
 >>>>>>> upstream/18.0

@@ -70,7 +70,10 @@ registry.category("web_tour.tours").add("GS1BarcodeScanningTour", {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             // Add the product 1 with GS1 barcode and quantity
@@ -80,6 +83,9 @@ registry.category("web_tour.tours").add("GS1BarcodeScanningTour", {
             ProductScreen.selectedOrderlineHas("Product 1", 17),
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

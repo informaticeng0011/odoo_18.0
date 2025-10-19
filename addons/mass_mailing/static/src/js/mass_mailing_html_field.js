@@ -98,7 +98,11 @@ export class MassMailingHtmlField extends HtmlField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ("mailing_model_id" in record.data) {
+=======
+            if (record.data.mailing_model_id) {
+>>>>>>> upstream/18.0
 =======
             if (record.data.mailing_model_id) {
 >>>>>>> upstream/18.0
@@ -856,7 +860,10 @@ export class MassMailingHtmlField extends HtmlField {
         }
         await super._setupReadonlyIframe();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         const iframeTarget = this.sandboxedPreview
             ? this.iframeRef.el.contentDocument.documentElement
@@ -881,6 +888,9 @@ export class MassMailingHtmlField extends HtmlField {
                 tElement.setAttribute("data-oe-t-inline", "true");
             }
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     async _lazyloadWysiwyg() {

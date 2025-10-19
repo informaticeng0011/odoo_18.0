@@ -113,6 +113,7 @@ const CAMERA_CONFIG = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: { max: 1280 },
     height: { max: 720 },
     aspectRatio: 16 / 9,
@@ -128,6 +129,8 @@ const DEFAULT_ICE_SERVERS = [
     { urls: ["stun:stun1.l.google.com:19302", "stun:stun2.l.google.com:19302"] },
 ];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -314,6 +317,9 @@ function GET_DEFAULT_ICE_SERVERS() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -652,7 +658,11 @@ export class Rtc extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return this.iceServers ? this.iceServers : DEFAULT_ICE_SERVERS;
+=======
+            return this.iceServers ? this.iceServers : GET_DEFAULT_ICE_SERVERS();
+>>>>>>> upstream/18.0
 =======
             return this.iceServers ? this.iceServers : GET_DEFAULT_ICE_SERVERS();
 >>>>>>> upstream/18.0
@@ -879,7 +889,10 @@ export class Rtc extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -952,6 +965,9 @@ export class Rtc extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1442,6 +1458,12 @@ export class Rtc extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!session) {
+            return;
+        }
+>>>>>>> upstream/18.0
 =======
         if (!session) {
             return;
@@ -1729,6 +1751,7 @@ export class Rtc extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (!session || !this.state.channel) {
 =======
                     if (!this.state.channel || session?.eq(this.selfSession)) {
@@ -1738,6 +1761,9 @@ export class Rtc extends Record {
 >>>>>>> upstream/18.0
 =======
                     if (!this.state.channel || session?.eq(this.selfSession)) {
+>>>>>>> upstream/18.0
+=======
+                    if (!this.state.channel || !session || session.eq(this.selfSession)) {
 >>>>>>> upstream/18.0
 =======
                     if (!this.state.channel || !session || session.eq(this.selfSession)) {
@@ -1857,7 +1883,10 @@ export class Rtc extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1937,6 +1966,9 @@ export class Rtc extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2047,7 +2079,10 @@ export class Rtc extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2123,6 +2158,9 @@ export class Rtc extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2264,7 +2302,10 @@ export class Rtc extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.log(session, "init call", { step: "init call" });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2485,6 +2526,12 @@ export class Rtc extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!this.selfSession) {
+            return;
+        }
+>>>>>>> upstream/18.0
 =======
         if (!this.selfSession) {
             return;
@@ -2795,6 +2842,10 @@ export class Rtc extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this._p2pRecoveryCount = 0;
+>>>>>>> upstream/18.0
 =======
         this._p2pRecoveryCount = 0;
 >>>>>>> upstream/18.0
@@ -3129,7 +3180,10 @@ export class Rtc extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3242,6 +3296,9 @@ export class Rtc extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3684,11 +3741,14 @@ export const rtcService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const rtc = env.services["mail.store"].rtc;
         rtc.p2pService = services["discuss.p2p"];
         rtc.p2pService.acceptOffer = async (id, sequence) => {
             const session = await this.store.RtcSession.getWhenReady(Number(id));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3865,6 +3925,9 @@ export const rtcService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

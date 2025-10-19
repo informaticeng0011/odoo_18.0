@@ -462,6 +462,10 @@ _SAFE_QWEB_OPCODES = _EXPR_OPCODES.union(to_opcodes([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'EXTENDED_ARG',
+>>>>>>> upstream/18.0
 =======
     'EXTENDED_ARG',
 >>>>>>> upstream/18.0
@@ -1929,7 +1933,11 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for item in el:
+=======
+        for item in list(el):
+>>>>>>> upstream/18.0
 =======
         for item in list(el):
 >>>>>>> upstream/18.0
