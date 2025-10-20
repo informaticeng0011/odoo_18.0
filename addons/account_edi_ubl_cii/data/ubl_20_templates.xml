@@ -217,7 +217,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -598,6 +601,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1029,11 +1035,17 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <cac:Party>
                     <t t-call="{{PartyType_template}}">
                         <t t-set="vals" t-value="vals.get('delivery_party_vals', {}).get('party_vals', {})"/>
                     </t>
                 </cac:Party>
+=======
+                <t t-call="{{PartyType_template}}">
+                    <t t-set="vals" t-value="vals.get('delivery_party_vals', {}).get('party_vals', {})"/>
+                </t>
+>>>>>>> upstream/18.0
 =======
                 <t t-call="{{PartyType_template}}">
                     <t t-set="vals" t-value="vals.get('delivery_party_vals', {}).get('party_vals', {})"/>
@@ -1172,6 +1184,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            <cbc:PayableRoundingAmount
+                t-att-currencyID="vals['currency'].name"
+                t-out="format_float(vals.get('payable_rounding_amount'), vals.get('currency_dp'))"/>
+>>>>>>> upstream/18.0
 =======
             <cbc:PayableRoundingAmount
                 t-att-currencyID="vals['currency'].name"
@@ -1479,7 +1497,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1759,6 +1780,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1991,6 +2015,7 @@
                 </cac:ClassifiedTaxCategory>
             </cac:Item>
             <cac:Price>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2376,6 +2401,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <t t-set="price_vals" t-value="vals.get('price_vals', {})"/>
                 <cbc:PriceAmount
                     t-att-currencyID="price_vals['currency'].name"
@@ -2509,6 +2536,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2919,6 +2949,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            <cbc:PricingCurrencyCode
+                t-att="vals.get('pricing_currency_code_attrs', {})"
+                t-out="vals.get('pricing_currency_code')"/>
+>>>>>>> upstream/18.0
 =======
             <cbc:PricingCurrencyCode
                 t-att="vals.get('pricing_currency_code_attrs', {})"
@@ -3532,7 +3568,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3808,6 +3847,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

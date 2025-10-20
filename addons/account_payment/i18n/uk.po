@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -11,7 +15,11 @@
 # Vitalii Fedko, 2024
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -19,6 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -30,6 +39,8 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-16 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025\n"
@@ -42,6 +53,9 @@ msgstr ""
 "11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
 "100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
 "(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -136,12 +150,15 @@ msgstr ""
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
 "<strong>Увага!</strong> Для цього платежу очікується відшкодування.\n"
 "                        Зачекайте хвилинку, доки його оброблять. Якщо через кілька хвилин відшкодування все ще\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        Wait a moment for it to be processed. If the refund "
 "is still pending in a\n"
 "                        few minutes, please check your payment provider "
@@ -150,6 +167,9 @@ msgstr ""
 "<strong>Увага!</strong> Для цього платежу очікується відшкодування.\n"
 "                        Зачекайте хвилинку, доки його оброблять. Якщо через "
 "кілька хвилин відшкодування все ще\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 " очікується, перевірте конфігурацію свого постачальника платежів."
 
@@ -163,8 +183,13 @@ msgstr "Знижка буде застосована, якщо клієнт сп
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A payment has already been made on this invoice, please make sure to not pay"
 " twice."
+=======
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+>>>>>>> upstream/18.0
 =======
 "A payment has already been made on this invoice, please make sure to not pay "
 "twice."
@@ -241,11 +266,14 @@ msgstr "Закрити"
 
 #. module: account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_method_code
 msgid "Code"
 msgstr "Код"
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:account_payment.model_res_config_settings
@@ -353,7 +381,12 @@ msgid ""
 "This mode is advised when setting up the provider."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "У тестовому режимі фальшивий платіж обробляється через тестовий платіжний інтерфейс.\n"
+=======
+"У тестовому режимі фальшивий платіж обробляється через тестовий платіжний "
+"інтерфейс.\n"
+>>>>>>> upstream/18.0
 =======
 "У тестовому режимі фальшивий платіж обробляється через тестовий платіжний "
 "інтерфейс.\n"
@@ -558,7 +591,11 @@ msgid "Online payment option is not enabled in Configuration."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Опція онлайн-оплати не ввімкнена в конфігурації."
+>>>>>>> upstream/18.0
 =======
 msgstr "Опція онлайн-оплати не ввімкнена в конфігурації."
 >>>>>>> upstream/18.0
@@ -1200,7 +1237,11 @@ msgid "There are pending transactions for this invoice."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Для цього рахунку-фактури є транзакції, що очікують обробки."
+>>>>>>> upstream/18.0
 =======
 msgstr "Для цього рахунку-фактури є транзакції, що очікують обробки."
 >>>>>>> upstream/18.0
@@ -1602,7 +1643,11 @@ msgid "There is no amount to be paid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сума до сплати не потрібна."
+>>>>>>> upstream/18.0
 =======
 msgstr "Сума до сплати не потрібна."
 >>>>>>> upstream/18.0
@@ -2032,7 +2077,11 @@ msgid "This invoice cannot be paid online."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Цей рахунок-фактуру неможливо оплатити онлайн."
+>>>>>>> upstream/18.0
 =======
 msgstr "Цей рахунок-фактуру неможливо оплатити онлайн."
 >>>>>>> upstream/18.0
@@ -2440,7 +2489,11 @@ msgid "This invoice isn't posted."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Цей рахунок-фактуру не опубліковано."
+>>>>>>> upstream/18.0
 =======
 msgstr "Цей рахунок-фактуру не опубліковано."
 >>>>>>> upstream/18.0
@@ -2842,7 +2895,11 @@ msgid "This is not an outgoing invoice."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Це не вихідний рахунок-фактура."
+>>>>>>> upstream/18.0
 =======
 msgstr "Це не вихідний рахунок-фактура."
 >>>>>>> upstream/18.0
@@ -3174,17 +3231,23 @@ msgstr "Недійсна транзакція"
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "Ви не можете видалити спосіб оплати, пов’язаний із постачальником у включеному або тестовому стані.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You can't delete a payment method that is linked to a provider in the "
 "enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "Ви не можете видалити спосіб оплати, пов’язаний із постачальником у "
 "включеному або тестовому стані.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Пов'язані партнери: %s"
 
@@ -3206,7 +3269,12 @@ msgid ""
 "Linked providers: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ви повинні спочатку деактивувати провайдера платежів, перш ніж видаляти його журнал.\n"
+=======
+"Ви повинні спочатку деактивувати провайдера платежів, перш ніж видаляти його "
+"журнал.\n"
+>>>>>>> upstream/18.0
 =======
 "Ви повинні спочатку деактивувати провайдера платежів, перш ніж видаляти його "
 "журнал.\n"
@@ -3235,6 +3303,12 @@ msgstr "було застосовано."
 msgid "overdue"
 msgstr "протерміновано"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Code"
+#~ msgstr "Код"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Code"

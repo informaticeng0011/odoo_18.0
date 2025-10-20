@@ -66,6 +66,7 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if r.url.endswith('/iso6523-actorid-upis%3A%3A9925%3A0000000000'):
             response.status_code = 404
             return response
@@ -76,6 +77,8 @@ class TestPeppolParticipant(TransactionCase):
 
         url = r.path_url
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -121,6 +124,9 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -187,7 +193,11 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'peppol_endpoint': '0000000000',
+=======
+            'peppol_endpoint': 'BE0239843188',
+>>>>>>> upstream/18.0
 =======
             'peppol_endpoint': 'BE0239843188',
 >>>>>>> upstream/18.0
@@ -364,7 +374,10 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -756,6 +769,9 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1031,8 +1047,12 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals = self._get_participant_vals()
         vals['peppol_eas'] = '0208'
+=======
+        vals = {**self._get_participant_vals(), 'peppol_eas': '0208', 'peppol_endpoint': '0239843188'}
+>>>>>>> upstream/18.0
 =======
         vals = {**self._get_participant_vals(), 'peppol_eas': '0208', 'peppol_endpoint': '0239843188'}
 >>>>>>> upstream/18.0

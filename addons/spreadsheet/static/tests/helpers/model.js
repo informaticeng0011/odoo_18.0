@@ -39,9 +39,12 @@ import { OdooDataProvider } from "@spreadsheet/data_sources/odoo_data_provider";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { getMockEnv } from "@web/../tests/_framework/env_test_helpers";
 import { defineActions, defineMenus, makeMockEnv, onRpc } from "@web/../tests/web_test_helpers";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -160,6 +163,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -279,7 +285,11 @@ import { addRecordsFromServerData, addViewsFromServerData } from "./data";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {import("@web/../tests/_framework/mock_server/mock_server").MockServerEnvironment} MockServerEnvironment
+=======
+ * @typedef {import("@web/../tests/web_test_helpers").MockServerEnvironment} MockServerEnvironment
+>>>>>>> upstream/18.0
 =======
  * @typedef {import("@web/../tests/web_test_helpers").MockServerEnvironment} MockServerEnvironment
 >>>>>>> upstream/18.0

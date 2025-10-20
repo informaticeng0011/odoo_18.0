@@ -261,7 +261,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     lambda l: l.display_type not in ['line_section', 'line_note'] and (is_purchase or not l.is_downpayment) and
+=======
+                    lambda l: l.display_type not in ['line_section', 'line_note'] and not l.is_downpayment and
+>>>>>>> upstream/18.0
 =======
                     lambda l: l.display_type not in ['line_section', 'line_note'] and not l.is_downpayment and
 >>>>>>> upstream/18.0
@@ -575,7 +579,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 order_line.price_unit,
+=======
+                                order_line.price_unit_discounted,
+>>>>>>> upstream/18.0
 =======
                                 order_line.price_unit_discounted,
 >>>>>>> upstream/18.0
@@ -657,7 +665,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             price_subtotal = order_line.qty_to_invoice * order_line.price_unit
+=======
+                            price_subtotal = order_line.qty_to_invoice * order_line.price_unit_discounted
+>>>>>>> upstream/18.0
 =======
                             price_subtotal = order_line.qty_to_invoice * order_line.price_unit_discounted
 >>>>>>> upstream/18.0
@@ -743,7 +755,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             unit_price=formatLang(self.env, order_line.price_unit, currency_obj=order.currency_id),
+=======
+                            unit_price=formatLang(self.env, amount_currency / order_line.qty_to_invoice, currency_obj=order.currency_id),
+>>>>>>> upstream/18.0
 =======
                             unit_price=formatLang(self.env, amount_currency / order_line.qty_to_invoice, currency_obj=order.currency_id),
 >>>>>>> upstream/18.0
@@ -832,7 +848,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             unit_price=formatLang(self.env, order_line.price_unit, currency_obj=order.currency_id),
+=======
+                            unit_price=formatLang(self.env, amount_currency / order_line.qty_to_invoice, currency_obj=order.currency_id),
+>>>>>>> upstream/18.0
 =======
                             unit_price=formatLang(self.env, amount_currency / order_line.qty_to_invoice, currency_obj=order.currency_id),
 >>>>>>> upstream/18.0

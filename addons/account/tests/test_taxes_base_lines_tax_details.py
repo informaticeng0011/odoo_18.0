@@ -16,6 +16,7 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {'quantity': 1, 'price_unit': 10.04, 'discount': 10, 'tax_ids': tax_21},
             ] + [
                 {'quantity': 1, 'price_unit': 1.04, 'discount': 10, 'tax_ids': tax_21},
@@ -49,6 +50,8 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
                     'total_included': 1.13,
                     'total_included_currency': 1.13,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -108,6 +111,9 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -127,6 +133,7 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
                         }
                     ],
                 },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,11 +161,16 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
                 {
                     **line_2_expected_values,
 >>>>>>> upstream/18.0
+=======
+                {
+                    **line_2_expected_values,
+>>>>>>> upstream/18.0
                     'delta_total_excluded': -0.01,
                     'delta_total_excluded_currency': -0.01,
                     'taxes_data': [
                         {
                             'tax_id': tax_21.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,6 +209,8 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                             'tax_amount': 0.19,
                             'tax_amount_currency': 0.19,
                             'base_amount': 0.9299999999999999,
@@ -216,6 +230,9 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

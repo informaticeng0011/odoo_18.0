@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -340,17 +341,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Vojtěch Olšan, 2025
 # Marta Wacławek, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -694,6 +701,8 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-16 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
@@ -704,6 +713,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -794,6 +806,7 @@ msgstr ""
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
@@ -801,6 +814,8 @@ msgstr ""
 "                        Počkejte chvíli na její zpracování. Pokud bude refundace\n"
 "                       za pár minut stále čekat, zkontrolujte nastavení svého poskytovatele plateb."
 =======
+=======
+>>>>>>> upstream/18.0
 "                        Wait a moment for it to be processed. If the refund "
 "is still pending in a\n"
 "                        few minutes, please check your payment provider "
@@ -811,6 +826,9 @@ msgstr ""
 "refundace\n"
 "                       za pár minut stále čekat, zkontrolujte nastavení "
 "svého poskytovatele plateb."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -823,8 +841,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A payment has already been made on this invoice, please make sure to not pay"
 " twice."
+=======
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+>>>>>>> upstream/18.0
 =======
 "A payment has already been made on this invoice, please make sure to not pay "
 "twice."
@@ -898,11 +921,14 @@ msgstr "Zavřít"
 
 #. module: account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_method_code
 msgid "Code"
 msgstr "Kód"
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:account_payment.model_res_config_settings
@@ -1006,7 +1032,12 @@ msgid ""
 "This mode is advised when setting up the provider."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "V testovacím režimu je zpracována falešná platba v rámci testovacího rozhraní platby.\n"
+=======
+"V testovacím režimu je zpracována falešná platba v rámci testovacího "
+"rozhraní platby.\n"
+>>>>>>> upstream/18.0
 =======
 "V testovacím režimu je zpracována falešná platba v rámci testovacího "
 "rozhraní platby.\n"
@@ -1512,7 +1543,11 @@ msgid "Unsupported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unsupported"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unsupported"
 >>>>>>> upstream/18.0
@@ -1782,17 +1817,23 @@ msgstr "Zrušit transakci"
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "Nemůžete odstranit platební metodu, která je napojena na poskytovatele v produkčním nebo testovacím režimu.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You can't delete a payment method that is linked to a provider in the "
 "enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "Nemůžete odstranit platební metodu, která je napojena na poskytovatele v "
 "produkčním nebo testovacím režimu.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Související poskytovatel(é): %s"
 
@@ -1814,7 +1855,12 @@ msgid ""
 "Linked providers: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nejprve musíte deaktivovat poskytovatele plateb, než budete moci odstranit jeho deník.\n"
+=======
+"Nejprve musíte deaktivovat poskytovatele plateb, než budete moci odstranit "
+"jeho deník.\n"
+>>>>>>> upstream/18.0
 =======
 "Nejprve musíte deaktivovat poskytovatele plateb, než budete moci odstranit "
 "jeho deník.\n"
@@ -1843,6 +1889,12 @@ msgstr "bylo použito."
 msgid "overdue"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Code"
+#~ msgstr "Kód"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Code"

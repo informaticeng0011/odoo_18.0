@@ -100,6 +100,10 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import time
+>>>>>>> upstream/18.0
 =======
 import time
 >>>>>>> upstream/18.0
@@ -586,9 +590,12 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         times = timeit.repeat(code, globals={**ctx, 'records': records}, repeat=repeat, number=number)
         best_mean = min(times) / number * 1_000_000
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -896,6 +903,9 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1108,6 +1118,7 @@ class TestPerformanceTimeit(TransactionCase):
         code: str, *,
         record_list: list[BaseModel] | None = None,
         relative_size: list[int] | None = None,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1628,6 +1639,10 @@ class TestPerformanceTimeit(TransactionCase):
         check_type: Literal['linear'] | None = 'linear',
         number: int = 4,
 >>>>>>> upstream/18.0
+=======
+        check_type: Literal['linear'] | None = 'linear',
+        number: int = 4,
+>>>>>>> upstream/18.0
         **kw,
     ):
         # initialize the record list with the children records
@@ -1669,6 +1684,10 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        repeat = 3
+>>>>>>> upstream/18.0
 =======
         repeat = 3
 >>>>>>> upstream/18.0
@@ -1808,7 +1827,11 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if check_type in ('linear', 'maybe-linear'):
+=======
+        if check_type == 'linear':
+>>>>>>> upstream/18.0
 =======
         if check_type == 'linear':
 >>>>>>> upstream/18.0
@@ -1949,10 +1972,14 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if check_type == 'linear':
                 self.assertLess(max_time / min_time, max_tolerance, f"Non-linear behaviour detected, relative results: {check_results}")
             else:
                 _logger.info("Linear behaviour result is %s for %s", max_time / min_time < max_tolerance, check_results)
+=======
+            _logger.info("%s Linear behaviour for %s", max_time / min_time < max_tolerance, check_results)
+>>>>>>> upstream/18.0
 =======
             _logger.info("%s Linear behaviour for %s", max_time / min_time < max_tolerance, check_results)
 >>>>>>> upstream/18.0
@@ -2205,6 +2232,7 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.launch_perf_set("records.child_ids", record_list=record_list)
 =======
         self.launch_perf_set("records.child_ids", record_list=record_list, check_type='maybe-linear')
@@ -2469,6 +2497,9 @@ class TestPerformanceTimeit(TransactionCase):
 >>>>>>> upstream/18.0
 =======
         self.launch_perf_set("records.child_ids", record_list=record_list, check_type='maybe-linear')
+>>>>>>> upstream/18.0
+=======
+        self.launch_perf_set("records.child_ids", record_list=record_list)
 >>>>>>> upstream/18.0
 =======
         self.launch_perf_set("records.child_ids", record_list=record_list)
@@ -2574,6 +2605,7 @@ class TestPerformanceTimeit(TransactionCase):
         self.launch_perf_set("list(records)")
 
     def test_perf_as_query(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3028,6 +3060,8 @@ class TestPerformanceTimeit(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.launch_perf_set("records._as_query()", number=20)
 
     def test_perf_exists(self):
@@ -3064,6 +3098,9 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3143,6 +3180,7 @@ class TestPerformanceTimeit(TransactionCase):
 
     def test_perf_domain_filtered(self):
         for domain in self.example_domains:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3628,6 +3666,9 @@ class TestPerformanceTimeit(TransactionCase):
 =======
             self.launch_perf_set(f"records.filtered_domain({domain!r})", number=3)
 >>>>>>> upstream/18.0
+=======
+            self.launch_perf_set(f"records.filtered_domain({domain!r})", number=3)
+>>>>>>> upstream/18.0
 
     def test_perf_xxlarge_domain(self):
 
@@ -3671,7 +3712,11 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ctx=ctx, repeat=2, number=3, check_type='maybe-linear')
+=======
+            ctx=ctx, number=3)
+>>>>>>> upstream/18.0
 =======
             ctx=ctx, number=3)
 >>>>>>> upstream/18.0
@@ -3808,12 +3853,15 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ctx=ctx, repeat=2, number=1, check_type='maybe-linear')
         # filtered_domain() is non-linear and may time-out!
         self.launch_perf_set("records.filtered_domain(dom(records))",
             record_list=self.get_test_children(max_size=400),
             ctx=ctx, repeat=2, number=2, check_type=None)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3915,6 +3963,9 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4022,7 +4073,11 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ctx=ctx, repeat=2, number=3, check_type='maybe-linear')
+=======
+            ctx=ctx, number=3)
+>>>>>>> upstream/18.0
 =======
             ctx=ctx, number=3)
 >>>>>>> upstream/18.0

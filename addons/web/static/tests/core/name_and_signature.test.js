@@ -113,7 +113,10 @@ test("test name_and_signature widget update signmode with onSignatureChange prop
     expect(currentSignMode).toBe("draw");
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("test name_and_signature widget with non-breaking spaces", async function () {
    const props = {
@@ -132,4 +135,7 @@ test("test name_and_signature widget with non-breaking spaces and initials mode"
    const res = await mountWithCleanup(NameAndSignature, { props });
    expect(res.getCleanedName()).toBe("N.B.S.");
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -43,7 +43,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         result.simplified_partner_id = this.config.simplified_partner_id.id;
+=======
+        result.simplified_partner_id = this.config.simplified_partner_id?.id;
+>>>>>>> upstream/18.0
 =======
         result.simplified_partner_id = this.config.simplified_partner_id?.id;
 >>>>>>> upstream/18.0

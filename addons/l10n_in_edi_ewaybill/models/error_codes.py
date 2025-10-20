@@ -127,6 +127,11 @@ ERROR_CODES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "117": _lt("This option is not enabled in Eway Bill2"),
+    "118": _lt("Try after 5 minutes"),
+>>>>>>> upstream/18.0
 =======
     "117": _lt("This option is not enabled in Eway Bill2"),
     "118": _lt("Try after 5 minutes"),
@@ -845,7 +850,10 @@ ERROR_CODES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1168,6 +1176,9 @@ ERROR_CODES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1599,6 +1610,12 @@ ERROR_CODES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "820": _lt("You cannot generate E Way Bill with document date earlier than 180 days"),
+    "821": _lt("E Way Bill cannot be extended as allowed limit is 360 days"),
+    "4043": _lt("You cannot generate E Way Bill with document date earlier than 180 days"),
+>>>>>>> upstream/18.0
 =======
     "820": _lt("You cannot generate E Way Bill with document date earlier than 180 days"),
     "821": _lt("E Way Bill cannot be extended as allowed limit is 360 days"),

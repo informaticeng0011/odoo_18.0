@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: de\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-16 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -131,6 +143,7 @@ msgstr ""
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
@@ -138,6 +151,8 @@ msgstr ""
 "                        Warten Sie einen Moment, bis sie bearbeitet wird. Wenn die Erstattung in ein paar Minuten immer noch aussteht,\n"
 "                        überprüfen Sie bitte die Konfiguration Ihres Zahlungsanbieters."
 =======
+=======
+>>>>>>> upstream/18.0
 "                        Wait a moment for it to be processed. If the refund "
 "is still pending in a\n"
 "                        few minutes, please check your payment provider "
@@ -148,6 +163,9 @@ msgstr ""
 "Wenn die Erstattung in ein paar Minuten immer noch aussteht,\n"
 "                        überprüfen Sie bitte die Konfiguration Ihres "
 "Zahlungsanbieters."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -160,8 +178,13 @@ msgstr "Es wird ein Rabatt gewährt, wenn der Kunde vor dem %s bezahlt."
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A payment has already been made on this invoice, please make sure to not pay"
 " twice."
+=======
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+>>>>>>> upstream/18.0
 =======
 "A payment has already been made on this invoice, please make sure to not pay "
 "twice."
@@ -238,11 +261,14 @@ msgstr "Schließen"
 
 #. module: account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_method_code
 msgid "Code"
 msgstr "Code"
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:account_payment.model_res_config_settings
@@ -352,7 +378,12 @@ msgid ""
 "This mode is advised when setting up the provider."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Im Testmodus wird eine Zahlung über eine Testzahlungsschnittstelle simuliert.\n"
+=======
+"Im Testmodus wird eine Zahlung über eine Testzahlungsschnittstelle "
+"simuliert.\n"
+>>>>>>> upstream/18.0
 =======
 "Im Testmodus wird eine Zahlung über eine Testzahlungsschnittstelle "
 "simuliert.\n"
@@ -428,8 +459,13 @@ msgid ""
 "available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Beachten Sie, dass nur Token von Anbietern verfügbar sind, die die Erfassung"
 " des Betrags ermöglichen."
+=======
+"Beachten Sie, dass nur Token von Anbietern verfügbar sind, die die Erfassung "
+"des Betrags ermöglichen."
+>>>>>>> upstream/18.0
 =======
 "Beachten Sie, dass nur Token von Anbietern verfügbar sind, die die Erfassung "
 "des Betrags ermöglichen."
@@ -680,8 +716,12 @@ msgid ""
 "The amount to be refunded must be positive and cannot be superior to %s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Der zu erstattende Betrag muss positiv sein und darf nicht höher sein als "
 "%s."
+=======
+"Der zu erstattende Betrag muss positiv sein und darf nicht höher sein als %s."
+>>>>>>> upstream/18.0
 =======
 "Der zu erstattende Betrag muss positiv sein und darf nicht höher sein als %s."
 >>>>>>> upstream/18.0
@@ -806,17 +846,23 @@ msgstr "Transaktion stornieren"
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "Sie können keine Zahlungsmethode löschen, die mit einem Anbieter im aktivierten oder Teststatus verknüpft ist.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You can't delete a payment method that is linked to a provider in the "
 "enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "Sie können keine Zahlungsmethode löschen, die mit einem Anbieter im "
 "aktivierten oder Teststatus verknüpft ist.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Verknüpfte(r) Anbieter: %s"
 
@@ -838,7 +884,12 @@ msgid ""
 "Linked providers: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sie müssen einen Zahlungsanbieter erst deaktivieren, bevor Sie seine Journale löschen.\n"
+=======
+"Sie müssen einen Zahlungsanbieter erst deaktivieren, bevor Sie seine "
+"Journale löschen.\n"
+>>>>>>> upstream/18.0
 =======
 "Sie müssen einen Zahlungsanbieter erst deaktivieren, bevor Sie seine "
 "Journale löschen.\n"
@@ -867,6 +918,12 @@ msgstr "wurde angewandt."
 msgid "overdue"
 msgstr "überfällig"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Code"
+#~ msgstr "Code"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Code"

@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -22,7 +26,11 @@
 # Anna, 2024
 # Birgit Vijar, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -30,6 +38,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -40,6 +49,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: et\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-16 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Birgit Vijar, 2024\n"
@@ -48,6 +59,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -143,12 +157,15 @@ msgstr ""
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
 "<strong>Hoiatus!</strong> See makse on tagasimakse ootel.\n"
 "                        Oodake, kuni see töödeldakse. Kui makse on mõne minuti möödudes ikka veel ootel\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        Wait a moment for it to be processed. If the refund "
 "is still pending in a\n"
 "                        few minutes, please check your payment provider "
@@ -157,6 +174,9 @@ msgstr ""
 "<strong>Hoiatus!</strong> See makse on tagasimakse ootel.\n"
 "                        Oodake, kuni see töödeldakse. Kui makse on mõne "
 "minuti möödudes ikka veel ootel\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        kontrollige oma makseteenusepakkuja seadistust."
 
@@ -170,8 +190,13 @@ msgstr "Soodustus rakendatakse kui klient maksab enne %s sealhulgas."
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A payment has already been made on this invoice, please make sure to not pay"
 " twice."
+=======
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+>>>>>>> upstream/18.0
 =======
 "A payment has already been made on this invoice, please make sure to not pay "
 "twice."
@@ -246,11 +271,14 @@ msgstr "Sulge"
 
 #. module: account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_method_code
 msgid "Code"
 msgstr "Kood"
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:account_payment.model_res_config_settings
@@ -456,13 +484,19 @@ msgstr "Internetipõhised maksed"
 #. module: account_payment
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "Online payment option is not enabled in Configuration."
 msgstr ""
 
 #. module: account_payment
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same company."
@@ -702,7 +736,10 @@ msgstr "Seotud tagasimaksete algne makse"
 
 #. module: account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There are pending transactions for this invoice."
@@ -715,6 +752,9 @@ msgid "There is no amount to be paid."
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
 msgid "There was an error processing your payment: invalid invoice."
@@ -740,8 +780,11 @@ msgstr "Teie makse töötlemisel tekkis viga: kehtetu krediitkaardi ID."
 
 #. module: account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment_paid
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice cannot be paid online."
@@ -750,13 +793,19 @@ msgstr ""
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "This invoice has already been paid."
 msgstr "See arve on juba tasutud."
 
 #. module: account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice isn't posted."
@@ -769,6 +818,9 @@ msgid "This is not an outgoing invoice."
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__transaction_count
 #: model:ir.model.fields,field_description:account_payment.field_account_move__transaction_count
@@ -802,17 +854,23 @@ msgstr "Kehtetu tehing"
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "Te ei saa kustutada makseviisi, mis on lubatud või test staatusega seotud teenusepakkujal.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You can't delete a payment method that is linked to a provider in the "
 "enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "Te ei saa kustutada makseviisi, mis on lubatud või test staatusega seotud "
 "teenusepakkujal.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Seotud teenusepakkuja(d): %s"
 
@@ -834,7 +892,12 @@ msgid ""
 "Linked providers: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Te peate esmalt deaktiveerima makseteenuse pakkuja enne selle andmiku kustutamist.\n"
+=======
+"Te peate esmalt deaktiveerima makseteenuse pakkuja enne selle andmiku "
+"kustutamist.\n"
+>>>>>>> upstream/18.0
 =======
 "Te peate esmalt deaktiveerima makseteenuse pakkuja enne selle andmiku "
 "kustutamist.\n"
@@ -863,6 +926,12 @@ msgstr "on rakendatud."
 msgid "overdue"
 msgstr "üle tähtaja"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Code"
+#~ msgstr "Kood"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Code"

@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -22,7 +26,11 @@
 # Margarita Katzeva, 2024
 # Krasimir Dankov, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -30,6 +38,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -40,6 +49,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: bg\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-16 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Krasimir Dankov, 2025\n"
@@ -48,6 +59,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -143,12 +157,15 @@ msgstr ""
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
 "<strong>Внимание!</strong> По това плащане има сума за възстановяване в процес на изчакване.\n"
 "                        Изчакване възстановяването да бъде обработено. Ако до няколко минути възстановяването все още е в процес на изчакване, проверяване с вашия доставчик на плащания."
 =======
+=======
+>>>>>>> upstream/18.0
 "                        Wait a moment for it to be processed. If the refund "
 "is still pending in a\n"
 "                        few minutes, please check your payment provider "
@@ -159,6 +176,9 @@ msgstr ""
 "                        Изчакване възстановяването да бъде обработено. Ако "
 "до няколко минути възстановяването все още е в процес на изчакване, "
 "проверяване с вашия доставчик на плащания."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -171,8 +191,13 @@ msgstr "Вклщючена опция за прилагане на отстъп�
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A payment has already been made on this invoice, please make sure to not pay"
 " twice."
+=======
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+>>>>>>> upstream/18.0
 =======
 "A payment has already been made on this invoice, please make sure to not pay "
 "twice."
@@ -248,11 +273,14 @@ msgstr "Затвори"
 
 #. module: account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_method_code
 msgid "Code"
 msgstr "Код"
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:account_payment.model_res_config_settings
@@ -359,7 +387,12 @@ msgid ""
 "This mode is advised when setting up the provider."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "В тестов режим фалшиво плащане се обработва чрез тестов интерфейс за плащане.\n"
+=======
+"В тестов режим фалшиво плащане се обработва чрез тестов интерфейс за "
+"плащане.\n"
+>>>>>>> upstream/18.0
 =======
 "В тестов режим фалшиво плащане се обработва чрез тестов интерфейс за "
 "плащане.\n"
@@ -679,8 +712,13 @@ msgid ""
 "The amount to be refunded must be positive and cannot be superior to %s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Сумата за възстановяване трябва да е положителна и не може да бъде по-голяма"
 " от %s."
+=======
+"Сумата за възстановяване трябва да е положителна и не може да бъде по-голяма "
+"от %s."
+>>>>>>> upstream/18.0
 =======
 "Сумата за възстановяване трябва да е положителна и не може да бъде по-голяма "
 "от %s."
@@ -741,8 +779,13 @@ msgstr ""
 msgid "There was an error processing your payment: transaction failed.<br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "При обработването на плащането възникна грешка: транзакцията не бе "
 "успешна.<br/>"
+=======
+"При обработването на плащането възникна грешка: транзакцията не бе успешна."
+"<br/>"
+>>>>>>> upstream/18.0
 =======
 "При обработването на плащането възникна грешка: транзакцията не бе успешна."
 "<br/>"
@@ -812,17 +855,23 @@ msgstr "Невалидна транзакция"
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "Не е възможно изтриването на метод на плащане, който е свързан с доставчик в активирано или тестово състояние.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You can't delete a payment method that is linked to a provider in the "
 "enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "Не е възможно изтриването на метод на плащане, който е свързан с доставчик в "
 "активирано или тестово състояние.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Свързан доставчик(ци)%s"
 
@@ -844,7 +893,12 @@ msgid ""
 "Linked providers: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Първо трябва да се деактивира доставчик на плащания, преди да е възможно да се изтрие неговия дневник.\n"
+=======
+"Първо трябва да се деактивира доставчик на плащания, преди да е възможно да "
+"се изтрие неговия дневник.\n"
+>>>>>>> upstream/18.0
 =======
 "Първо трябва да се деактивира доставчик на плащания, преди да е възможно да "
 "се изтрие неговия дневник.\n"
@@ -873,6 +927,12 @@ msgstr "вече е приложено"
 msgid "overdue"
 msgstr "просрочено"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Code"
+#~ msgstr "Код"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Code"

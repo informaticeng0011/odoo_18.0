@@ -60,11 +60,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { ProductProduct } from "./mock_server/mock_models/product_product";
 import { defineSaleModels } from "./sale_test_helpers";
 import { startServer } from "@mail/../tests/mail_test_helpers";
 import { expect, getFixture, test } from "@odoo/hoot";
 import { animationFrame, click, edit } from "@odoo/hoot-dom";
+=======
+import { startServer } from "@mail/../tests/mail_test_helpers";
+import { expect, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { startServer } from "@mail/../tests/mail_test_helpers";
 import { expect, test } from "@odoo/hoot";
@@ -380,10 +385,13 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState
 } from "@web/../tests/web_test_helpers";
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -571,6 +579,9 @@ import { defineSaleModels } from "./sale_test_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -788,12 +799,15 @@ test("On updated form, product name should stay hidden", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: product.name.concat("\nA description"),
             translated_product_name: "Produit de test",
         })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -984,6 +998,9 @@ test("On updated form, product name should stay hidden", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1186,12 +1203,15 @@ test("On updated form, translated product name should be hidden if present", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: translatedProductName.concat("\nA description"),
             translated_product_name: translatedProductName,
         })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1382,6 +1402,9 @@ test("On updated form, translated product name should be hidden if present", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1583,12 +1606,15 @@ test("On outdated form, should continue to hide product name", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: product.name.concat("\nA description"),
             translated_product_name: "Produit de test",
         })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1779,6 +1805,9 @@ test("On outdated form, should continue to hide product name", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1981,12 +2010,15 @@ test("On outdated form and translated product name already in the SOL name, shou
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: product.name.concat("\n", translatedProductName, "\nA description"),
             translated_product_name: translatedProductName,
         })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2177,6 +2209,9 @@ test("On outdated form and translated product name already in the SOL name, shou
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2371,7 +2406,11 @@ test("On outdated form and translated product name already in the SOL name, shou
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         translatedProductName.concat("\nA description"),
+=======
+        translatedProductName.concat("\nA description")
+>>>>>>> upstream/18.0
 =======
         translatedProductName.concat("\nA description")
 >>>>>>> upstream/18.0
@@ -2629,12 +2668,15 @@ test("On outdated form, editing the description should work as before", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: product.name.concat("\nsomething wrong"),
             translated_product_name: translatedProductName,
         })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2825,6 +2867,9 @@ test("On outdated form, editing the description should work as before", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3020,10 +3065,14 @@ test("On outdated form, editing the description should work as before", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_field_product_label_section_and_note_cell textarea").focus();
     await edit("A description");
     await click(getFixture());
     await animationFrame()
+=======
+    await contains(".o_field_product_label_section_and_note_cell textarea").edit("A description");
+>>>>>>> upstream/18.0
 =======
     await contains(".o_field_product_label_section_and_note_cell textarea").edit("A description");
 >>>>>>> upstream/18.0
@@ -3284,12 +3333,15 @@ test("On updated form, editing the description shouldn't show the translated pro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: product.name.concat("\nsomething wrong"),
             translated_product_name: translatedProductName,
         })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3480,6 +3532,9 @@ test("On updated form, editing the description shouldn't show the translated pro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3675,10 +3730,14 @@ test("On updated form, editing the description shouldn't show the translated pro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_field_product_label_section_and_note_cell textarea").focus();
     await edit("A description");
     await click(getFixture());
     await animationFrame()
+=======
+    await contains(".o_field_product_label_section_and_note_cell textarea").edit("A description");
+>>>>>>> upstream/18.0
 =======
     await contains(".o_field_product_label_section_and_note_cell textarea").edit("A description");
 >>>>>>> upstream/18.0
@@ -3934,7 +3993,10 @@ test("On updated form, editing the description shouldn't show the translated pro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4130,12 +4192,15 @@ test("No description should be shown if there does not exist one apart from the 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: product.name,
             translated_product_name: translatedProductName,
         })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4326,6 +4391,9 @@ test("No description should be shown if there does not exist one apart from the 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4519,7 +4587,11 @@ test("No description should be shown if there does not exist one apart from the 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_field_product_label_section_and_note_cell textarea").not.toBeDisplayed();
+=======
+    expect(".o_field_product_label_section_and_note_cell textarea").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(".o_field_product_label_section_and_note_cell textarea").not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -4776,12 +4848,15 @@ test("No description should be shown if there does not exist one apart from the 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: translatedProductName,
             translated_product_name: translatedProductName,
         })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4972,6 +5047,9 @@ test("No description should be shown if there does not exist one apart from the 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5165,11 +5243,16 @@ test("No description should be shown if there does not exist one apart from the 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_field_product_label_section_and_note_cell textarea").not.toBeDisplayed();
 });
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    expect(".o_field_product_label_section_and_note_cell textarea").not.toHaveCount();
+});
 >>>>>>> upstream/18.0
 =======
     expect(".o_field_product_label_section_and_note_cell textarea").not.toHaveCount();

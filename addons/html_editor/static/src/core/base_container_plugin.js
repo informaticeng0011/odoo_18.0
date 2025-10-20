@@ -153,6 +153,12 @@ export class BaseContainerPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.config.baseContainer && this.config.baseContainer !== "DIV") {
+            return;
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.config.baseContainer && this.config.baseContainer !== "DIV") {
             return;

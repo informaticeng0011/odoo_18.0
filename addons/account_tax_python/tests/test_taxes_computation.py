@@ -51,6 +51,7 @@ class TestTaxesComputation(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def python_tax(self, formula, **kwargs):
         self.number += 1
         vals = {
@@ -68,6 +69,8 @@ class TestTaxesComputation(TestTaxCommon):
                 vals['price_include_override'] = False
         return self.env['account.tax'].create(vals)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -214,9 +217,15 @@ class TestTaxesComputation(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         price_include='tax_excluded',
     ):
         tax = self.python_tax(formula, price_include=price_include)
+=======
+        price_include_override='tax_excluded',
+    ):
+        tax = self.python_tax(formula, price_include_override=price_include_override)
+>>>>>>> upstream/18.0
 =======
         price_include_override='tax_excluded',
     ):
@@ -518,7 +527,11 @@ class TestTaxesComputation(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             price_include='tax_included',
+=======
+            price_include_override='tax_included',
+>>>>>>> upstream/18.0
 =======
             price_include_override='tax_included',
 >>>>>>> upstream/18.0

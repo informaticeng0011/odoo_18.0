@@ -69,6 +69,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import re
+
+>>>>>>> upstream/18.0
 =======
 import re
 
@@ -420,6 +425,11 @@ from odoo.tools import ormcache, make_index_name, create_index
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.base.models.ir_model import MODULE_UNINSTALL_FLAG
+
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.models.ir_model import MODULE_UNINSTALL_FLAG
 
@@ -793,6 +803,10 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        search='_search_root_id',
+>>>>>>> upstream/18.0
 =======
         search='_search_root_id',
 >>>>>>> upstream/18.0
@@ -1161,7 +1175,10 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1371,6 +1388,9 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1700,8 +1720,11 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().unlink()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1933,6 +1956,9 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2146,7 +2172,10 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2357,6 +2386,9 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2501,6 +2533,7 @@ class AccountAnalyticPlan(models.Model):
 
     def _sync_plan_column(self, model):
         # Create/delete a new field/column on related models for this plan, and keep the name in sync.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2808,6 +2841,10 @@ class AccountAnalyticPlan(models.Model):
         # Sort by parent_path to ensure parents are processed before children
         for plan in self.sorted('parent_path'):
 >>>>>>> upstream/18.0
+=======
+        # Sort by parent_path to ensure parents are processed before children
+        for plan in self.sorted('parent_path'):
+>>>>>>> upstream/18.0
             prev_stored = plan._find_plan_column(model)
             depth, name_related = plan._hierarchy_name()
             prev_related = plan._find_related_field(model)
@@ -2928,6 +2965,9 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3186,7 +3226,11 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     accounts=plan.account_ids,
+=======
+                    accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
+>>>>>>> upstream/18.0
 =======
                     accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
 >>>>>>> upstream/18.0
@@ -3641,7 +3685,11 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     accounts=plan.account_ids,
+=======
+                    accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
+>>>>>>> upstream/18.0
 =======
                     accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
 >>>>>>> upstream/18.0
