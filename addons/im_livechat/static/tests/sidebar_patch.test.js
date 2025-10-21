@@ -471,12 +471,15 @@ test("Local sidebar category state is shared between tabs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-DiscussSidebarCategory-livechat .oi-chevron-down", { target: env1 });
     await contains(".o-mail-DiscussSidebarCategory-livechat .oi-chevron-down", { target: env2 });
     await click(".o-mail-DiscussSidebarCategory-livechat .btn", { target: env1 });
     await contains(".o-mail-DiscussSidebarCategory-livechat .oi-chevron-right", { target: env1 });
     await contains(".o-mail-DiscussSidebarCategory-livechat .oi-chevron-right", { target: env2 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -596,6 +599,9 @@ test("Local sidebar category state is shared between tabs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -500,15 +500,24 @@ export function makeDraggableHook(hookParams) {
                 state.willDrag = false;
 
                 // Compute scrollable parent
+<<<<<<< HEAD
                 const isDocumentScrollingElement = ctx.current.container
                     === ctx.current.container.ownerDocument.scrollingElement;
+=======
+                const isDocumentScrollingElement =
+                    ctx.current.container === ctx.current.container.ownerDocument.scrollingElement;
+>>>>>>> upstream/18.0
                 // If the container is the "ownerDocument.scrollingElement",
                 // there is no need to get the scroll parent as it is the
                 // scrollable element itself.
                 // TODO: investigate if "getScrollParents" should not consider
                 // the "ownerDocument.scrollingElement" directly.
+<<<<<<< HEAD
                 [ctx.current.scrollParentX, ctx.current.scrollParentY] =
                     isDocumentScrollingElement
+=======
+                [ctx.current.scrollParentX, ctx.current.scrollParentY] = isDocumentScrollingElement
+>>>>>>> upstream/18.0
                     ? [ctx.current.container, ctx.current.container]
                     : getScrollParents(ctx.current.container);
 
@@ -572,7 +581,11 @@ export function makeDraggableHook(hookParams) {
                 if (state.dragging) {
                     preventClick = true;
                     if (!inErrorState) {
+<<<<<<< HEAD
                         if (target) {
+=======
+                        if (target && ctx.current.element.isConnected) {
+>>>>>>> upstream/18.0
                             callBuildHandler("onDrop", { target });
                         }
                         callBuildHandler("onDragEnd");
@@ -782,6 +795,11 @@ export function makeDraggableHook(hookParams) {
                         return;
                     }
                     dragStart();
+<<<<<<< HEAD
+=======
+                } else if (!ctx.current.element.isConnected) {
+                    return dragEnd(null);
+>>>>>>> upstream/18.0
                 }
 
                 if (ctx.followCursor) {

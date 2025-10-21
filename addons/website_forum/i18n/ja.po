@@ -39,6 +39,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_forum
 # 
 # Translators:
@@ -46,6 +47,8 @@
 # Junko Augias, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -167,6 +170,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -249,6 +255,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,6 +381,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-26 14:54+0000\n"
+=======
+"PO-Revision-Date: 2025-10-20 12:57+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "website_forum/ja/>\n"
@@ -421,6 +431,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -841,7 +854,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<b>質問する前に、必ず同様の質問を検索してください。</b>タイトルやタグで質問を検索できます。自分の質問に答えても大丈夫です。"
+=======
+msgstr "<b>質問する前に、必ず同様の質問を検索してください。</b>件名やタグで質問を検索"
+"できます。自分の質問に答えても大丈夫です。"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>質問する前に、必ず同様の質問を検索してください。</b>件名やタグで質問を検索"
 "できます。自分の質問に答えても大丈夫です。"
@@ -1595,7 +1613,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化"
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
@@ -2139,27 +2161,47 @@ msgstr "質問をする"
 #. module: website_forum
 #: model_terms:gamification.badge,description:website_forum.badge_26
 msgid "Asked a question and accepted an answer"
+<<<<<<< HEAD
 msgstr "質問をして回答を同意しました。"
+=======
+msgstr "質問を投稿し、回答を承認した"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:gamification.badge,description:website_forum.badge_q_1
 msgid "Asked a question with at least 150 views"
+<<<<<<< HEAD
 msgstr "150ビュー以上の質問をした"
+=======
+msgstr "質問が少なくとも150回表示された"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:gamification.badge,description:website_forum.badge_q_2
 msgid "Asked a question with at least 250 views"
+<<<<<<< HEAD
 msgstr "250ビュー以上の質問をした"
+=======
+msgstr "質問が少なくとも250回表示された"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:gamification.badge,description:website_forum.badge_q_3
 msgid "Asked a question with at least 500 views"
+<<<<<<< HEAD
 msgstr "500ビュー以上の質問をした"
+=======
+msgstr "質問が少なくとも500回表示された"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:gamification.badge,description:website_forum.badge_q_7
 msgid "Asked first question with at least one up vote"
+<<<<<<< HEAD
 msgstr "少なくとも1つの投票で最初の質問をしました"
+=======
+msgstr "初めての質問に1件以上の賛成票を獲得"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__create_date
@@ -2587,14 +2629,22 @@ msgstr "作成日"
 #: model:gamification.badge,name:website_forum.badge_q_4
 #: model:gamification.challenge,name:website_forum.challenge_favorite_question_1
 msgid "Credible Question"
+<<<<<<< HEAD
 msgstr "信頼できる質問"
+=======
+msgstr "信頼される質問"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_5
 #: model:gamification.challenge,name:website_forum.challenge_critic
 #: model:gamification.goal.definition,name:website_forum.definition_critic
 msgid "Critic"
+<<<<<<< HEAD
 msgstr "批判的"
+=======
+msgstr "批評家"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_searchbar_input_snippet_options
@@ -2798,7 +2848,11 @@ msgstr "質問を編集"
 #: model:gamification.challenge,name:website_forum.challenge_editor
 #: model:gamification.goal.definition,name:website_forum.definition_editor
 msgid "Editor"
+<<<<<<< HEAD
 msgstr "エディター"
+=======
+msgstr "編集者"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__karma_editor
@@ -2907,12 +2961,20 @@ msgstr "最初の関連パラメータ"
 #. module: website_forum
 #: model_terms:gamification.badge,description:website_forum.badge_5
 msgid "First downvote"
+<<<<<<< HEAD
 msgstr "最初の反対票"
+=======
+msgstr "初めての低評価(ダウンボート)を実行"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:gamification.badge,description:website_forum.badge_7
 msgid "First edit"
+<<<<<<< HEAD
 msgstr "最初の編集"
+=======
+msgstr "初めて編集を行った"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:gamification.badge,description:website_forum.badge_31
@@ -3114,7 +3176,11 @@ msgid "Give your post title."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "投稿にタイトルを付けます。"
+=======
+msgstr "投稿に件名を付けます。"
+>>>>>>> upstream/18.0
 =======
 msgstr "投稿に件名を付けます。"
 >>>>>>> upstream/18.0
@@ -3794,7 +3860,11 @@ msgstr "関連性がないか、古くなっています"
 #: model:gamification.badge,name:website_forum.badge_q_2
 #: model:gamification.challenge,name:website_forum.challenge_notable_question
 msgid "Notable Question"
+<<<<<<< HEAD
 msgstr "注目すべき質問"
+=======
+msgstr "注目の質問"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__message_needaction_counter
@@ -3915,22 +3985,38 @@ msgstr "続行する前に、モデレーターが前の投稿を検証するの
 #: model:gamification.badge,name:website_forum.badge_q_1
 #: model:gamification.challenge,name:website_forum.challenge_popular_question
 msgid "Popular Question"
+<<<<<<< HEAD
 msgstr "よくある質問"
+=======
+msgstr "人気の質問"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model:gamification.goal.definition,name:website_forum.definition_popular_question
 msgid "Popular Question (150)"
+<<<<<<< HEAD
 msgstr "よくある質問(150)"
+=======
+msgstr "人気の質問(150)"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model:gamification.goal.definition,name:website_forum.definition_notable_question
 msgid "Popular Question (250)"
+<<<<<<< HEAD
 msgstr "よくある質問(250)"
+=======
+msgstr "人気の質問(250)"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model:gamification.goal.definition,name:website_forum.definition_famous_question
 msgid "Popular Question (500)"
+<<<<<<< HEAD
 msgstr "よくある質問(500)"
+=======
+msgstr "人気の質問(500)"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.user_votes
@@ -3998,7 +4084,11 @@ msgstr "投稿:"
 #. module: website_forum
 #: model_terms:gamification.badge,description:website_forum.badge_p_2
 msgid "Posted 10 comments"
+<<<<<<< HEAD
 msgstr "投稿済の10件のコメント"
+=======
+msgstr "コメントを10件投稿"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:gamification.badge,description:website_forum.badge_p_4
@@ -4094,7 +4184,11 @@ msgstr "質問が見つかりません!"
 #. module: website_forum
 #: model_terms:gamification.badge,description:website_forum.badge_q_4
 msgid "Question set as favorite by 1 user"
+<<<<<<< HEAD
 msgstr "1人のユーザーがお気に入りに設定した質問"
+=======
+msgstr "質問が1人のユーザーにお気に入りとして登録された"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:gamification.badge,description:website_forum.badge_q_6
@@ -4736,7 +4830,11 @@ msgid "Title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "タイトル"
+=======
+msgstr "件名"
+>>>>>>> upstream/18.0
 =======
 msgstr "件名"
 >>>>>>> upstream/18.0
@@ -4898,7 +4996,11 @@ msgid "Title must not be empty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "タイトルは空であってはなりません"
+=======
+msgstr "件名は空であってはなりません"
+>>>>>>> upstream/18.0
 =======
 msgstr "件名は空であってはなりません"
 >>>>>>> upstream/18.0
@@ -5060,7 +5162,11 @@ msgid "Title should not be empty."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "タイトルを入れてください。"
+=======
+msgstr "件名を入れてください。"
+>>>>>>> upstream/18.0
 =======
 msgstr "件名を入れてください。"
 >>>>>>> upstream/18.0
@@ -5359,7 +5465,11 @@ msgid "Use a clear, explicit and concise title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "明確で明確かつ簡潔なタイトルにしてください"
+=======
+msgstr "明確で明確かつ簡潔な件名にしてください"
+>>>>>>> upstream/18.0
 =======
 msgstr "明確で明確かつ簡潔な件名にしてください"
 >>>>>>> upstream/18.0
@@ -5594,7 +5704,11 @@ msgid "Validate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "検証"
+=======
+msgstr "承認"
+>>>>>>> upstream/18.0
 =======
 msgstr "承認"
 >>>>>>> upstream/18.0
@@ -5976,7 +6090,11 @@ msgid "Validate an answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "回答を検証"
+=======
+msgstr "回答を承認する"
+>>>>>>> upstream/18.0
 =======
 msgstr "回答を承認する"
 >>>>>>> upstream/18.0
@@ -6357,7 +6475,11 @@ msgid "Validate question"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "質問を検証する"
+=======
+msgstr "質問を承認する"
+>>>>>>> upstream/18.0
 =======
 msgstr "質問を承認する"
 >>>>>>> upstream/18.0
@@ -6774,7 +6896,11 @@ msgid "Website meta title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "サイトメタタイトル"
+=======
+msgstr "サイトメタ件名"
+>>>>>>> upstream/18.0
 =======
 msgstr "サイトメタ件名"
 >>>>>>> upstream/18.0
@@ -6965,7 +7091,11 @@ msgid "Write a clear, explicit and concise title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "明確で具体的かつ簡潔なタイトルにして下さい"
+=======
+msgstr "明確で具体的かつ簡潔な件名にして下さい"
+>>>>>>> upstream/18.0
 =======
 msgstr "明確で具体的かつ簡潔な件名にして下さい"
 >>>>>>> upstream/18.0

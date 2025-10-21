@@ -81,8 +81,12 @@ export class CrmLead extends models.ServerModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: /* xml */ `<search/>`,
         'form,false': /* xml */ `
+=======
+        form: /* xml */ `
+>>>>>>> upstream/18.0
 =======
         form: /* xml */ `
 >>>>>>> upstream/18.0
@@ -399,7 +403,11 @@ export class CrmLead extends models.ServerModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </form>`
+=======
+            </form>`,
+>>>>>>> upstream/18.0
 =======
             </form>`,
 >>>>>>> upstream/18.0

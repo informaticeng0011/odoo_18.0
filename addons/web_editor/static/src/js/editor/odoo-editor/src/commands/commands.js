@@ -375,7 +375,11 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         } else if (isEmptyBlock(right)) {
+=======
+                        } else if (isEmptyBlock(right) && !insertBefore) {
+>>>>>>> upstream/18.0
 =======
                         } else if (isEmptyBlock(right) && !insertBefore) {
 >>>>>>> upstream/18.0
@@ -683,8 +687,11 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedBlocks = [...new Set(getTraversedNodes(editor.editable, range).map(closestBlock))];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -923,6 +930,9 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1276,7 +1286,11 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (hasAnyFontSizeClass(element)) {
+=======
+            if (!hasFontSizeClass && closestElement(node, hasAnyFontSizeClass)) {
+>>>>>>> upstream/18.0
 =======
             if (!hasFontSizeClass && closestElement(node, hasAnyFontSizeClass)) {
 >>>>>>> upstream/18.0
@@ -1719,10 +1733,13 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedNodes = mode === "backgroundColor"
             ? selectionNodes.filter(node => !closestElement(node, 'table.o_selected_table'))
             : selectionNodes;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1850,6 +1867,9 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2041,7 +2061,11 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     (isColorGradient(color) || !hasInlineGradient)
+=======
+                    (isColorGradient(color) || color === "" || !hasInlineGradient)
+>>>>>>> upstream/18.0
 =======
                     (isColorGradient(color) || color === "" || !hasInlineGradient)
 >>>>>>> upstream/18.0
@@ -2472,7 +2496,11 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         const closestGradientEl = closestElement(node, '[style*="background-image"]');
+=======
+                        const closestGradientEl = closestElement(node, 'font[style*="background-image"], span[style*="background-image"]');
+>>>>>>> upstream/18.0
 =======
                         const closestGradientEl = closestElement(node, 'font[style*="background-image"], span[style*="background-image"]');
 >>>>>>> upstream/18.0

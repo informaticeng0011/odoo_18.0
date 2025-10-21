@@ -244,6 +244,7 @@ test.skip("Fold state of chat window is sync among browser tabs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(".o_menu_systray i[aria-label='Messages']", { target: env1 });
     await click(".o-mail-NotificationItem", { target: env1 });
     await contains(".o-mail-ChatWindow-header", { target: env2 });
@@ -257,6 +258,8 @@ test.skip("Fold state of chat window is sync among browser tabs", async () => {
     await contains(".o-mail-ChatWindow", { count: 0, target: env1 });
     await contains(".o-mail-ChatWindow", { count: 0, target: env2 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -383,6 +386,9 @@ test.skip("Fold state of chat window is sync among browser tabs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1054,6 +1060,7 @@ test("chat window: composer state conservation on toggle discuss", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard .fa-check", { count: 2 });
     await openDiscuss();
     await contains(".o-mail-ChatWindow", { count: 0 });
@@ -1062,6 +1069,8 @@ test("chat window: composer state conservation on toggle discuss", async () => {
         count: 2,
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1184,6 +1193,9 @@ test("chat window: composer state conservation on toggle discuss", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1701,7 +1713,10 @@ test("Ctrl+k opens the command palette", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2136,6 +2151,9 @@ test("Do not squash logged notes", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

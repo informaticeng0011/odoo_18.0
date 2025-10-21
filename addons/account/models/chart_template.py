@@ -138,7 +138,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             or self.env['ir.module.module'].sudo().search([])
+=======
+            or self.env['ir.module.module'].sudo().search([('state', '!=', 'uninstallable')])
+>>>>>>> upstream/18.0
 =======
             or self.env['ir.module.module'].sudo().search([('state', '!=', 'uninstallable')])
 >>>>>>> upstream/18.0
@@ -493,7 +497,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.sudo()._load_data(self._get_demo_data(company))
+=======
+            self.sudo()._load_data(self._get_demo_data(company), ignore_duplicates=True)
+>>>>>>> upstream/18.0
 =======
             self.sudo()._load_data(self._get_demo_data(company), ignore_duplicates=True)
 >>>>>>> upstream/18.0
@@ -872,8 +880,13 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             data['res.company'][company.id].setdefault('anglo_saxon_accounting', company.anglo_saxon_accounting)
 
+=======
+            data['res.company'][company.id].clear()
+            data['res.company'][company.id].setdefault('anglo_saxon_accounting', company.anglo_saxon_accounting)
+>>>>>>> upstream/18.0
 =======
             data['res.company'][company.id].clear()
             data['res.company'][company.id].setdefault('anglo_saxon_accounting', company.anglo_saxon_accounting)
@@ -1349,7 +1362,10 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1469,6 +1485,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1595,7 +1614,10 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1714,6 +1736,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1807,6 +1832,7 @@ class AccountChartTemplate(models.AbstractModel):
             for xmlid, values in records.items():
                 if model_name == 'account.fiscal.position':
                     # if xmlid is not in xmlid2fiscal_position and we do not force create so we will skip_update for that record
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2117,6 +2143,8 @@ class AccountChartTemplate(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     if xmlid not in xmlid2fiscal_position:
                         if not force_create:
                             skip_update.add((model_name, xmlid))
@@ -2144,6 +2172,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2307,6 +2338,7 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2427,6 +2459,8 @@ class AccountChartTemplate(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2546,6 +2580,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2826,7 +2863,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'account_fiscal_country_id' in data['res.company'][company.id]:
+=======
+        if 'account_fiscal_country_id' in data.get('res.company', {}).get(company.id, {}):
+>>>>>>> upstream/18.0
 =======
         if 'account_fiscal_country_id' in data.get('res.company', {}).get(company.id, {}):
 >>>>>>> upstream/18.0
@@ -3529,6 +3570,7 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _setup_utility_bank_accounts(self, template_code, company, template_data):
         """Define basic bank accounts for the company.
 
@@ -3542,6 +3584,8 @@ class AccountChartTemplate(models.AbstractModel):
         code_digits = int(template_data.get('code_digits', 6))
         accounts_data = {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3840,6 +3884,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4175,7 +4222,10 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4482,6 +4532,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4755,8 +4808,12 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         is_accounting_installed_next = self.env["ir.module.module"].search([('name', '=', 'accountant')]).state in ('to install', 'installed')
         if not company.parent_id and not is_accounting_installed_next:
+=======
+        if not company.parent_id:
+>>>>>>> upstream/18.0
 =======
         if not company.parent_id:
 >>>>>>> upstream/18.0
@@ -4976,6 +5033,7 @@ class AccountChartTemplate(models.AbstractModel):
         if taxes_in_country:
             return
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5357,11 +5415,15 @@ class AccountChartTemplate(models.AbstractModel):
 =======
         def create_foreign_tax_account(existing_account, additional_label, reconcilable=False):
 >>>>>>> upstream/18.0
+=======
+        def create_foreign_tax_account(existing_account, additional_label, reconcilable=False):
+>>>>>>> upstream/18.0
             new_code = self.env['account.account'].with_company(company)._search_new_account_code(existing_account.code)
             return self.env['account.account'].create({
                 'name': f"{existing_account.name} - {additional_label}",
                 'code': new_code,
                 'account_type': existing_account.account_type,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5481,6 +5543,11 @@ class AccountChartTemplate(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
                 'reconcile': reconcilable,
+>>>>>>> upstream/18.0
+=======
+                'reconcile': reconcilable or existing_account.reconcile,
+                'non_trade': existing_account.non_trade,
+                'company_ids': [Command.link(company.id)],
 >>>>>>> upstream/18.0
 =======
                 'reconcile': reconcilable or existing_account.reconcile,
@@ -6078,6 +6145,7 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('cash_basis_transition_account_id', '!=', False)
         ], limit=1)
         for tax_template in tax_data.values():
@@ -6099,6 +6167,8 @@ class AccountChartTemplate(models.AbstractModel):
                 continue
             existing_accounts[account_xml_id] = None
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6407,6 +6477,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6687,7 +6760,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 tax_group[field] = existing_accounts.get(account_template_xml_id)
+=======
+                tax_group[field] = existing_accounts.get(tax_group.get(field))
+>>>>>>> upstream/18.0
 =======
                 tax_group[field] = existing_accounts.get(tax_group.get(field))
 >>>>>>> upstream/18.0
@@ -7056,7 +7133,12 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tax_template['cash_basis_transition_account_id'] = existing_accounts[account_xml_id]
+=======
+            if account_xml_id:
+                tax_template['cash_basis_transition_account_id'] = existing_accounts[account_xml_id]
+>>>>>>> upstream/18.0
 =======
             if account_xml_id:
                 tax_template['cash_basis_transition_account_id'] = existing_accounts[account_xml_id]
@@ -7636,7 +7718,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "name": 'Create Bill',
+=======
+                "name": _('Create Bill'),
+>>>>>>> upstream/18.0
 =======
                 "name": _('Create Bill'),
 >>>>>>> upstream/18.0
@@ -7955,6 +8041,7 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         message = self.env._(
                             'Error while loading the localization: missing tax tag %(tag_name)s for country %(country_name)s. You should probably update your localization app first.',
                             tag_name=format_tag, country_name=country.name)
@@ -7963,6 +8050,8 @@ class AccountChartTemplate(models.AbstractModel):
                         else:
                             _logger.error(message)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8089,6 +8178,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -254,7 +254,11 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.onchange('bom_line_ids', 'product_qty')
+=======
+    @api.onchange('bom_line_ids', 'product_qty', 'product_id', 'product_tmpl_id')
+>>>>>>> upstream/18.0
 =======
     @api.onchange('bom_line_ids', 'product_qty', 'product_id', 'product_tmpl_id')
 >>>>>>> upstream/18.0
@@ -544,6 +548,12 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                for byproduct in new_bom.byproduct_ids:
+                    if byproduct.operation_id:
+                        byproduct.operation_id = operations_mapping[byproduct.operation_id]
+>>>>>>> upstream/18.0
 =======
                 for byproduct in new_bom.byproduct_ids:
                     if byproduct.operation_id:
@@ -966,6 +976,7 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 converted_line_quantity = current_line.product_uom_id._compute_quantity(line_quantity / bom.product_qty, bom.product_uom_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1131,6 +1142,8 @@ class MrpBom(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 converted_line_quantity = current_line.product_uom_id._compute_quantity(
                     line_quantity / bom.product_qty, bom.product_uom_id, round=False
                 )
@@ -1186,6 +1199,9 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1533,12 +1549,15 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for attribute, values in bom_values_by_attribute.items():
             if any(val.id in never_values_by_attribute[attribute].ids for val in values):
                 continue
             return True
         return not other_attribute_valid
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1868,6 +1887,9 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

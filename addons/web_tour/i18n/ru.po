@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* web_tour
 # 
 # Translators:
@@ -165,10 +166,20 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * web_tour
+#
+# Translators:
+# Wil Odoo, 2024
+# Anastasiia Koroleva, 2025
+#
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -418,29 +429,60 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-03-19 20:37+0000\n"
+"PO-Revision-Date: 2025-10-20 08:19+0000\n"
+"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
+"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/web_tour/"
+"ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.xml:0
 msgid "(recording keyboard)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(запись с клавиатуры)"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.xml:0
 msgid "(run:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(выполнить:"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #: model:ir.model.constraint,message:web_tour.constraint_web_tour_tour_uniq_name
 msgid "A tour already exists with this name . Tour's name must be unique!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Тур с таким именем уже существует. Имя тура должно быть уникальным!"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_utils.js:0
 msgid "Click the top left corner to navigate across apps."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нажмите в верхнем левом углу для навигации между модулями."
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__content
@@ -490,7 +532,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -652,7 +698,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -780,13 +830,21 @@ msgstr "Пользовательский"
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.js:0
 msgid "Custom tour '%s' couldn't be saved!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Не удалось сохранить пользовательский тур «%s»!"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.js:0
 msgid "Custom tour '%s' has been added."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пользовательский тур «%s» добавлен."
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__display_name
@@ -797,7 +855,11 @@ msgstr "Отображаемое имя"
 #. module: web_tour
 #: model:ir.actions.server,name:web_tour.tour_export_js_action
 msgid "Export JS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Экспорт JS"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #: model:ir.model,name:web_tour.model_ir_http
@@ -854,7 +916,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -1020,7 +1086,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -1169,12 +1239,20 @@ msgstr "Онбординг"
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__rainbow_man_message
 msgid "Rainbow Man Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поздравительное сообщение"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #: model_terms:ir.ui.view,arch_db:web_tour.tour_form
 msgid "Rainbow Man Message..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поздравительное сообщение..."
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #. odoo-javascript
@@ -1187,7 +1265,11 @@ msgstr "Запись"
 #. odoo-javascript
 #: code:addons/web_tour/static/src/views/tour_controller.xml:0
 msgid "Record Tour"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Записать тур"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__run
@@ -1209,6 +1291,7 @@ msgstr "Прокрутите вниз, чтобы перейти к следую
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_pointer_state.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1330,12 +1413,20 @@ msgstr "Прокрутите вниз, чтобы перейти к следую
 >>>>>>> upstream/18.0
 msgid "Scroll left to reach the next step."
 msgstr ""
+=======
+msgid "Scroll left to reach the next step."
+msgstr "Прокрутите влево, чтобы перейти к следующему шагу."
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_pointer_state.js:0
 msgid "Scroll right to reach the next step."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Прокрутите вправо, чтобы перейти к следующему шагу."
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #. odoo-javascript
@@ -1379,6 +1470,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1470,7 +1564,11 @@ msgstr "Последовательность"
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__sharing_url
 msgid "Sharing URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ссылка для общего доступа"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #. odoo-javascript
@@ -1481,7 +1579,11 @@ msgstr "Начать презентацию"
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__url
 msgid "Starting URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Начальный URL"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__step_ids
@@ -1499,13 +1601,21 @@ msgstr "Шаги"
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.xml:0
 msgid "Steps:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Шаги:"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/widgets/tour_start.xml:0
 msgid "Test Tour"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Тестовый тур"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #. odoo-javascript
@@ -1521,12 +1631,20 @@ msgstr "Подсказки"
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__tour_id
 msgid "Tour"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Тур"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #: model:ir.model,name:web_tour.model_web_tour_tour_step
 msgid "Tour's step"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Шаг тура"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #: model:ir.actions.act_window,name:web_tour.tour_action
@@ -1544,7 +1662,11 @@ msgstr "Триггер"
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.xml:0
 msgid "Url:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL:"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #: model:ir.model,name:web_tour.model_res_users
@@ -1554,21 +1676,37 @@ msgstr "Пользователь"
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__user_consumed_ids
 msgid "User Consumed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пользователь завершил"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #: model_terms:ir.ui.view,arch_db:web_tour.tour_form
 msgid "e.g. My_Tour"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "например, My_Tour"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.xml:0
 msgid "name_of_the_tour"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "имя_тура"
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.xml:0
 msgid "trigger"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "триггер"
+>>>>>>> upstream/18.0

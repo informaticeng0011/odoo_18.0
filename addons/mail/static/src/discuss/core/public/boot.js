@@ -16,6 +16,10 @@ import { getTemplate } from "@web/core/templates";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { _t } from "@web/core/l10n/translation";
+>>>>>>> upstream/18.0
 =======
 import { _t } from "@web/core/l10n/translation";
 >>>>>>> upstream/18.0
@@ -86,6 +90,7 @@ import { makeEnv, startServices } from "@web/env";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         translateFn: _t,
 >>>>>>> upstream/18.0
@@ -108,6 +113,10 @@ import { makeEnv, startServices } from "@web/env";
         translateFn: _t,
 >>>>>>> upstream/18.0
 =======
+        translateFn: _t,
+>>>>>>> upstream/18.0
+=======
+        translatableAttributes: ["data-tooltip"],
         translateFn: _t,
 >>>>>>> upstream/18.0
 =======

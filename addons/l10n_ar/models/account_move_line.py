@@ -153,6 +153,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             price_subtotal = price_unit * quantity
         else:
             price_subtotal = raw_total / (1 - discount / 100.0)
@@ -161,6 +162,8 @@ class AccountMoveLine(models.Model):
             price_unit = raw_total / quantity
             price_net = price_subtotal / quantity
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -546,6 +549,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -932,7 +938,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'price_subtotal': price_subtotal,
+=======
+            'price_subtotal': invoice.currency_id.round(raw_total),
+>>>>>>> upstream/18.0
 =======
             'price_subtotal': invoice.currency_id.round(raw_total),
 >>>>>>> upstream/18.0

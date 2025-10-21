@@ -344,7 +344,10 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -674,6 +677,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -865,6 +869,8 @@ class TestAccountPayment(AccountPaymentCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_vendor_payment_name_remains_same_after_repost(self):
         """
@@ -913,6 +919,9 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1089,6 +1098,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1102,6 +1112,8 @@ class TestAccountPayment(AccountPaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1250,6 +1262,9 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1413,6 +1428,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1511,4 +1527,42 @@ class TestAccountPayment(AccountPaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_payment_token_for_invoice_partner_is_available(self):
+        """Test that the payment token of the invoice partner is available"""
+        with self.mocked_get_payment_method_information():
+            bank_journal = self.company_data['default_journal_bank']
+            payment_method_line = bank_journal.inbound_payment_method_line_ids\
+                .filtered(lambda line: line.payment_provider_id == self.dummy_provider)
+            self.assertTrue(payment_method_line)
+            child_partner = self.env['res.partner'].create(
+                {
+                    'name': "test_payment_token_for_invoice_partner_is_available",
+                    'is_company': False,
+                    'parent_id': self.partner.id,
+                }
+            )
+            invoice = self.env['account.move'].create({
+                'move_type': 'out_invoice',
+                'partner_id': child_partner.id,
+                'invoice_line_ids': [
+                    Command.create({
+                        'name': 'test line',
+                        'price_unit': 100.0,
+                    }),
+                ],
+            })
+            invoice.action_post()
+            payment_token = self._create_token(partner_id=child_partner.id)
+            wizard = (
+                self.env["account.payment.register"]
+                .with_context(active_model="account.move", active_ids=invoice.ids)
+                .create({"payment_method_line_id": payment_method_line.id})
+            )
+            self.assertRecordValues(wizard, [{
+                'suitable_payment_token_ids': payment_token.ids,
+                'payment_token_id': payment_token.id,
+            }])
 >>>>>>> upstream/18.0

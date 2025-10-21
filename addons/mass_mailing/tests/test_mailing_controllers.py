@@ -717,7 +717,12 @@ class TestMailingTracking(TestMailingControllersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _response = self.url_open(short_link_url)
+=======
+            response = self.url_open(short_link_url, allow_redirects=False)
+            self.assertTrue(response.headers['Location'].startswith('https://www.example.com/foo/bar?baz=qux'))
+>>>>>>> upstream/18.0
 =======
             response = self.url_open(short_link_url, allow_redirects=False)
             self.assertTrue(response.headers['Location'].startswith('https://www.example.com/foo/bar?baz=qux'))

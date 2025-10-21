@@ -82,7 +82,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {"interaction" | "query" | "server"} InteractionType
+=======
+ * @typedef {"interaction" | "query" | "server" | "time"} InteractionType
+>>>>>>> upstream/18.0
 =======
  * @typedef {"interaction" | "query" | "server" | "time"} InteractionType
 >>>>>>> upstream/18.0
@@ -289,6 +293,7 @@
 //-----------------------------------------------------------------------------
 
 const {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -591,6 +596,8 @@ const {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     Array: { isArray: $isArray },
     matchMedia,
     navigator: { userAgent: $userAgent },
@@ -637,6 +644,9 @@ const $toString = Object.prototype.toString;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -719,6 +729,7 @@ const $toString = Object.prototype.toString;
 // Internal
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1019,6 +1030,8 @@ const R_REGEX_PATTERN = /^\/(.*)\/([dgimsuvy]+)?$/;
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 /**
  * @template {(...args: any[]) => any} T
  * @param {InteractionType} type
@@ -1026,6 +1039,7 @@ const R_REGEX_PATTERN = /^\/(.*)\/([dgimsuvy]+)?$/;
  * @param {string} name
  * @returns {T}
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1269,6 +1283,8 @@ function makeInteractorFn(type, fn, name) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function makeInteractorFn(type, fn, name) {
     return {
         [name](...args) {
@@ -1314,6 +1330,9 @@ function makeInteractorFn(type, fn, name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1402,6 +1421,7 @@ function makeInteractorFn(type, fn, name) {
                 return dispatchInteraction(type, name, args, result);
             }
         },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1706,6 +1726,8 @@ const interactionBus = new EventTarget();
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     }[name];
 }
 
@@ -1751,6 +1773,9 @@ function polyfillIsError(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1995,6 +2020,7 @@ const DEBUG_NAMESPACE = "hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const interactionBus = new EventTarget();
 const preferredColorScheme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 <<<<<<< HEAD
@@ -2066,6 +2092,11 @@ const preferredColorScheme = matchMedia("(prefers-color-scheme: dark)").matches 
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+const isError = typeof Error.isError === "function" ? Error.isError : polyfillIsError;
+const interactionBus = new EventTarget();
+const preferredColorScheme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 >>>>>>> upstream/18.0
 =======
 const isError = typeof Error.isError === "function" ? Error.isError : polyfillIsError;
@@ -2298,6 +2329,7 @@ export function dispatchInteraction(type, name, args, returnValue) {
     return returnValue;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2638,6 +2670,10 @@ const makeInteractorFn = (type, fn, name) =>
 /**
  * @param {...any} helpers
 >>>>>>> upstream/18.0
+=======
+/**
+ * @param {...any} helpers
+>>>>>>> upstream/18.0
  */
 export function exposeHelpers(...helpers) {
     let nameSpaceIndex = 1;
@@ -2747,6 +2783,7 @@ export function exposeHelpers(...helpers) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2821,6 +2858,8 @@ export function exposeHelpers(...helpers) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3032,6 +3071,9 @@ export function getTag(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3242,6 +3284,7 @@ export function interactor(type, fn) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {Node} node
  */
 export function getTag(node) {
@@ -3249,6 +3292,8 @@ export function getTag(node) {
 }
 
 /**
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3421,7 +3466,10 @@ export function isFirefox() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3580,6 +3628,9 @@ export function isInstanceOf(instance, ...classes) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3665,6 +3716,7 @@ export function isInstanceOf(instance, ...classes) {
  * @returns {V extends Iterable<T> ? true : false}
  */
 export function isIterable(object) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3976,6 +4028,8 @@ export function isRegExpFilter(filter) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     return !!(object && typeof object === "object" && object[Symbol.iterator]);
 }
 
@@ -4070,6 +4124,9 @@ export function isRegExpFilter(filter) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4256,6 +4313,7 @@ export function isRegExpFilter(filter) {
  * @returns {string | RegExp}
  */
 export function parseRegExp(value, options) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4559,10 +4617,13 @@ export function parseRegExp(value, options) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const regexParams = value.match(R_REGEX);
     if (regexParams) {
         const unified = regexParams[1].replace(R_WHITE_SPACE, "\\s+");
         const flag = regexParams[2];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4864,6 +4925,8 @@ export function parseRegExp(value, options) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         try {
             return new RegExp(unified, flag);
         } catch (error) {
@@ -4906,6 +4969,9 @@ export function parseRegExp(value, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5009,6 +5075,7 @@ export function toSelector(node, options) {
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5405,6 +5472,11 @@ export class HootDebugHelpers {
     /**
      * @param {...any} helpers
 >>>>>>> upstream/18.0
+=======
+export class HootDebugHelpers {
+    /**
+     * @param {...any} helpers
+>>>>>>> upstream/18.0
      */
     constructor(...helpers) {
         $assign(this, ...helpers);
@@ -5502,10 +5574,13 @@ export class HootDebugHelpers {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export class HootDomError extends Error {
     name = "HootDomError";
 }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5792,6 +5867,9 @@ export const R_WHITE_SPACE = /\s+/g;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

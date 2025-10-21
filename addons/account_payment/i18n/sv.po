@@ -3,7 +3,11 @@
 # 	* account_payment
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -25,7 +29,11 @@
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -36,6 +44,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
@@ -49,6 +58,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-16 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
@@ -58,6 +69,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72,8 +86,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "#%(number)s - Delbetalning av <strong>%(amount)s</strong> som förfaller till"
 " betalning den <strong class=\"text-primary\">%(date)s</strong>"
+=======
+"#%(number)s - Delbetalning av <strong>%(amount)s</strong> som förfaller till "
+"betalning den <strong class=\"text-primary\">%(date)s</strong>"
+>>>>>>> upstream/18.0
 =======
 "#%(number)s - Delbetalning av <strong>%(amount)s</strong> som förfaller till "
 "betalning den <strong class=\"text-primary\">%(date)s</strong>"
@@ -166,6 +185,7 @@ msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
@@ -173,6 +193,8 @@ msgstr ""
 "                        Vänta en stund för att den ska behandlas. Om återbetalningen fortfarande är väntande om\n"
 "                        några minuter, vänligen kontrollera din betalningsleverantörs konfiguration."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                        Wait a moment for it to be processed. If the refund "
@@ -187,6 +209,9 @@ msgstr ""
 "                        några minuter, vänligen kontrollera din "
 "betalningsleverantörs konfiguration."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -202,8 +227,13 @@ msgstr "En rabatt kommer att tillämpas om kunden betalar innan %s ingår."
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A payment has already been made on this invoice, please make sure to not pay"
 " twice."
+=======
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+>>>>>>> upstream/18.0
 =======
 "A payment has already been made on this invoice, please make sure to not pay "
 "twice."
@@ -285,11 +315,14 @@ msgstr "Stäng"
 #. module: account_payment
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_method_code
 msgid "Code"
 msgstr "Kod"
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -500,7 +533,10 @@ msgstr "Betalningar online"
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
@@ -510,6 +546,9 @@ msgstr ""
 #. module: account_payment
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -740,8 +779,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Betalningen relaterad till transaktionen med referens %(ref)s har bokförts: "
 "%(link)s"
+=======
+"Betalningen relaterad till transaktionen med referens %(ref)s har bokförts: %"
+"(link)s"
+>>>>>>> upstream/18.0
 =======
 "Betalningen relaterad till transaktionen med referens %(ref)s har bokförts: %"
 "(link)s"
@@ -765,7 +809,10 @@ msgstr "Källbetalning av relaterade återbetalningsbetalningar"
 #. module: account_payment
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -781,6 +828,9 @@ msgstr ""
 
 #. module: account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -815,8 +865,11 @@ msgstr ""
 #. module: account_payment
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment_paid
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -828,6 +881,9 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -837,7 +893,10 @@ msgstr "Denna faktura har redan betalats."
 #. module: account_payment
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -853,6 +912,9 @@ msgstr ""
 
 #. module: account_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -889,11 +951,14 @@ msgstr "Ogiltig transaktion"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "Du kan inte ta bort en betalningsmetod som är kopplad till en leverantör i aktiverat eller testat tillstånd.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "You can't delete a payment method that is linked to a provider in the "
@@ -903,6 +968,9 @@ msgstr ""
 "Du kan inte ta bort en betalningsmetod som är kopplad till en leverantör i "
 "aktiverat eller testat tillstånd.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -917,8 +985,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du kan inte avinstallera denna modul eftersom betalningar som använder denna"
 " betalningsmetod redan finns."
+=======
+"Du kan inte avinstallera denna modul eftersom betalningar som använder denna "
+"betalningsmetod redan finns."
+>>>>>>> upstream/18.0
 =======
 "Du kan inte avinstallera denna modul eftersom betalningar som använder denna "
 "betalningsmetod redan finns."
@@ -937,7 +1010,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du måste först inaktivera en betalningsleverantör innan du kan radera dess journal.\n"
+=======
+"Du måste först inaktivera en betalningsleverantör innan du kan radera dess "
+"journal.\n"
+>>>>>>> upstream/18.0
 =======
 "Du måste först inaktivera en betalningsleverantör innan du kan radera dess "
 "journal.\n"
@@ -971,6 +1049,12 @@ msgid "overdue"
 msgstr "försenad"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Code"
+#~ msgstr "Kod"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Code"

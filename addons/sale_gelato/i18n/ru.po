@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* sale_gelato
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29,6 +30,9 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * sale_gelato
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
@@ -41,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55,11 +60,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,6 +105,13 @@ msgstr ""
 "PO-Revision-Date: 2025-02-09 01:00+0000\n"
 "Last-Translator: Ilya Rozhkov, 2025\n"
 "Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+=======
+"POT-Creation-Date: 2025-10-20 11:54+0000\n"
+"PO-Revision-Date: 2025-10-20 12:57+0000\n"
+"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
+"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
+"sale_gelato/ru/>\n"
+>>>>>>> upstream/18.0
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -110,6 +126,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -124,6 +141,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
 
 #. module: sale_gelato
@@ -131,6 +151,7 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,6 +182,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    Hello <t t-out=\"object.partner_id.name or ''\">Brandon "
 "Freeman</t>,<br/><br/>\n"
 "                    <!-- Order in transit body -->\n"
@@ -170,6 +193,7 @@ msgid ""
 "                        <t t-if=\"len(ctx['tracking_data']) == 1\">\n"
 "                            <t t-set=\"tracking_url\" t-"
 "value=\"list(ctx['tracking_data'].keys())[0]\"/>\n"
+<<<<<<< HEAD
 "                            Your tracking number is <a t-attf-"
 "href=\"tracking_url\" t-out=\"ctx['tracking_data'][tracking_url]\"/>.\n"
 <<<<<<< HEAD
@@ -194,11 +218,16 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"                            Your tracking number is <a t-att-"
+"href=\"tracking_url\" t-out=\"ctx['tracking_data'][tracking_url]\"/>.\n"
+>>>>>>> upstream/18.0
 "                            <br/><br/>\n"
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            Your tracking numbers are:\n"
 "                            <ul>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,12 +279,19 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"                                <li t-foreach=\"ctx['tracking_data']\" t-"
+"as=\"tracking_url\">\n"
+"                                    <a t-att-href=\"tracking_url\" t-"
+"out=\"ctx['tracking_data'][tracking_url]\"/>\n"
+>>>>>>> upstream/18.0
 "                                </li>\n"
 "                            </ul>\n"
 "                        </t>\n"
 "                    </t>\n"
 "                    <!-- Order delivered body -->\n"
 "                    <t t-if=\"ctx.get('order_delivered')\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -272,6 +308,8 @@ msgid ""
 "                        <br/>\n"
 "                        <t t-out=\"object.user_id.name or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -303,6 +341,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -323,6 +364,7 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
@@ -544,6 +586,8 @@ msgstr ""
 "                </p>\n"
 "            </div>\n"
 "        "
+=======
+>>>>>>> upstream/18.0
 
 #. module: sale_gelato
 #: model_terms:ir.ui.view,arch_db:sale_gelato.product_template_form
@@ -556,12 +600,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i title=\"All print images are set\" invisible=\"gelato_missing_images\" class=\"fa fa-check-circle text-success fs-3 me-3\"/>\n"
 "                        <i title=\"Some print images are missing\" invisible=\"not gelato_missing_images\" class=\"fa fa-question-circle text-danger fs-3 me-3\"/>"
 msgstr ""
 "<i title=\"All print images are set\" invisible=\"gelato_missing_images\" class=\"fa fa-check-circle text-success fs-3 me-3\"/>\n"
 "                        <i title=\"Some print images are missing\" invisible=\"not gelato_missing_images\" class=\"fa fa-question-circle text-danger fs-3 me-3\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -594,6 +641,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -713,12 +763,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Gelato could not proceed with the fulfillment of order %(order_reference)s: "
 "%(gelato_message)s"
 msgstr ""
 "Gelato не может продолжить выполнение заказа %(order_reference)s: "
 "%(gelato_message)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -745,6 +798,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -816,8 +872,12 @@ msgid "Print images must be set on products before they can be ordered."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Макеты для печати должны быть установлены на товарах перед их заказом."
+=======
+msgstr "Макеты для печати должны быть установлены на товарах перед их заказом."
+>>>>>>> upstream/18.0
 =======
 msgstr "Макеты для печати должны быть установлены на товарах перед их заказом."
 >>>>>>> upstream/18.0
@@ -960,6 +1020,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -979,11 +1040,18 @@ msgstr ""
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid "Unable to confirm the order %s on Gelato."
 msgstr ""
+=======
+#. odoo-python
+#: code:addons/sale_gelato/models/sale_order.py:0
+msgid "Unable to confirm the order %s on Gelato."
+msgstr "Не удалось подтвердить заказ %s в Gelato."
+>>>>>>> upstream/18.0
 
 #. module: sale_gelato
 #. odoo-python
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid "Unable to delete the order %s on Gelato."
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale_gelato
@@ -1008,6 +1076,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Не удалось удалить заказ %s в Gelato."
+
+#. module: sale_gelato
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale_gelato.res_config_settings_form
 msgid "Webhook Secret"
@@ -1019,6 +1092,7 @@ msgstr "Секрет вебхука"
 msgid ""
 "You cannot mix Gelato products with non-Gelato products in the same order."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1061,8 +1135,103 @@ msgstr ""
 "Вы не можете смешивать товары Gelato с товарами, не относящимися к Gelato, в "
 "одном заказе."
 >>>>>>> upstream/18.0
+=======
+"Вы не можете смешивать товары Gelato с товарами, не относящимися к Gelato, в "
+"одном заказе."
+>>>>>>> upstream/18.0
 
 #. module: sale_gelato
 #: model:mail.template,subject:sale_gelato.order_status_update
 msgid "{{ object.reference }}"
 msgstr "{{ object.reference }}"
+<<<<<<< HEAD
+=======
+
+#~ msgid ""
+#~ "<div style=\"margin: 0px; padding: 0px;\">\n"
+#~ "                <p style=\"margin: 0px; padding: 0px; font-size: 13px;"
+#~ "\">\n"
+#~ "                    Hello <t t-out=\"object.partner_id.name or "
+#~ "''\">Brandon Freeman</t>,<br/><br/>\n"
+#~ "                    <!-- Order in transit body -->\n"
+#~ "                    <t t-if=\"ctx.get('tracking_data')\">\n"
+#~ "                        We are glad to inform you that your order is in "
+#~ "transit.\n"
+#~ "                        <t t-if=\"len(ctx['tracking_data']) == 1\">\n"
+#~ "                            <t t-set=\"tracking_url\" t-"
+#~ "value=\"list(ctx['tracking_data'].keys())[0]\"/>\n"
+#~ "                            Your tracking number is <a t-attf-"
+#~ "href=\"tracking_url\" t-out=\"ctx['tracking_data'][tracking_url]\"/>.\n"
+#~ "                            <br/><br/>\n"
+#~ "                        </t>\n"
+#~ "                        <t t-else=\"\">\n"
+#~ "                            Your tracking numbers are:\n"
+#~ "                            <ul>\n"
+#~ "                                <li t-foreach=\"ctx['tracking_data']\" t-"
+#~ "as=\"tracking_url\">\n"
+#~ "                                    <a t-attf-href=\"{{tracking_url}}\" t-"
+#~ "out=\"ctx['tracking_data'][tracking_url]\"/>\n"
+#~ "                                </li>\n"
+#~ "                            </ul>\n"
+#~ "                        </t>\n"
+#~ "                    </t>\n"
+#~ "                    <!-- Order delivered body -->\n"
+#~ "                    <t t-if=\"ctx.get('order_delivered')\">\n"
+#~ "                        We are glad to inform you that your order has "
+#~ "been delivered.\n"
+#~ "                        <br/><br/>\n"
+#~ "                    </t>\n"
+#~ "                    Thank you,\n"
+#~ "                    <t t-if=\"object.user_id.name\" data-o-mail-quote-"
+#~ "container=\"1\">\n"
+#~ "                        <br/>\n"
+#~ "                        <t t-out=\"object.user_id.name or ''\" data-o-"
+#~ "mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+#~ "                    </t>\n"
+#~ "                </p>\n"
+#~ "            </div>\n"
+#~ "        "
+#~ msgstr ""
+#~ "<div style=\"margin: 0px; padding: 0px;\">\n"
+#~ "                <p style=\"margin: 0px; padding: 0px; font-size: 13px;"
+#~ "\">\n"
+#~ "                     Здравствуйте, <t t-out=\"object.partner_id.name or "
+#~ "''\"> Брэндон Фримен</t>,<br/><br/>\n"
+#~ "                    <!-- Order in transit body -->\n"
+#~ "                    <t t-if=\"ctx.get('tracking_data')\">\n"
+#~ "                        Рады сообщить вам, что ваш заказ находится в "
+#~ "пути.\n"
+#~ "                        <t t-if=\"len(ctx['tracking_data']) == 1\">\n"
+#~ "                            <t t-set=\"tracking_url\" t-"
+#~ "value=\"list(ctx['tracking_data'].keys())[0]\"/>\n"
+#~ "                            Ваш номер для отслеживания: <a t-attf-"
+#~ "href=\"tracking_url\" t-out=\"ctx['tracking_data'][tracking_url]\"/>.\n"
+#~ "                            <br/><br/>\n"
+#~ "                        </t>\n"
+#~ "                        <t t-else=\"\">\n"
+#~ "                            Ваши номера для отслеживания:\n"
+#~ "                            <ul>\n"
+#~ "                                <li t-foreach=\"ctx['tracking_data']\" t-"
+#~ "as=\"tracking_url\">\n"
+#~ "                                    <a t-attf-href=\"{{tracking_url}}\" t-"
+#~ "out=\"ctx['tracking_data'][tracking_url]\"/>\n"
+#~ "                                </li>\n"
+#~ "                            </ul>\n"
+#~ "                        </t>\n"
+#~ "                    </t>\n"
+#~ "                    <!-- Order delivered body -->\n"
+#~ "                    <t t-if=\"ctx.get('order_delivered')\">\n"
+#~ "                        Рады сообщить вам, что ваш заказ доставлен.\n"
+#~ "                        <br/><br/>\n"
+#~ "                    </t>\n"
+#~ "                    Спасибо,\n"
+#~ "                    <t t-if=\"object.user_id.name\" data-o-mail-quote-"
+#~ "container=\"1\">\n"
+#~ "                        <br/>\n"
+#~ "                        <t t-out=\"object.user_id.name or ''\" data-o-"
+#~ "mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Митчелл Админ</t>\n"
+#~ "                    </t>\n"
+#~ "                </p>\n"
+#~ "            </div>\n"
+#~ "        "
+>>>>>>> upstream/18.0

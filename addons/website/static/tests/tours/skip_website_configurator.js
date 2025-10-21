@@ -75,6 +75,10 @@ registry.category("web_tour.tours").add('skip_website_configurator', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -366,7 +370,11 @@ registry.category("web_tour.tours").add('skip_website_configurator', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: ":iframe h2:contains(/^welcome to your/)",
+=======
+        trigger: ":iframe h2:contains(welcome to your)",
+>>>>>>> upstream/18.0
 =======
         trigger: ":iframe h2:contains(welcome to your)",
 >>>>>>> upstream/18.0

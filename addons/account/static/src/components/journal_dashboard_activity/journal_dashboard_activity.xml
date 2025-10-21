@@ -51,9 +51,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div class="col o_mail_activity">
                     <a href="#"
                        t-att-class="(activity.status == 'late' ? 'text-danger ' : ' ') + (activity.activity_category == 'tax_report' ? 'o_open_vat_report' : 'see_activity')"
+=======
+                <div class="col-auto o_mail_activity">
+                    <a href="#"
+                       t-attf-class="{{ activity.status == 'late' ? 'text-danger' : '' }}"
+>>>>>>> upstream/18.0
 =======
                 <div class="col-auto o_mail_activity">
                     <a href="#"

@@ -34,4 +34,8 @@ class AccountTax(models.Model):
         ('27', 'IGFEI: Tax on Fluorinated Greenhouse Gases'),
         ('28', 'IRNR: Non-resident Income Tax'),
         ('29', 'Corporation Tax'),
+<<<<<<< HEAD
     ], string='Spanish Facturae EDI Tax Type', default='01')
+=======
+    ], string='Spanish Facturae EDI Tax Type')
+>>>>>>> upstream/18.0

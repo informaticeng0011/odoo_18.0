@@ -8,12 +8,21 @@
         <field name="arch" type="xml">
                 <xpath expr="//span[@name='website_menu']" position='after'>
                 <span>
+<<<<<<< HEAD
                     <label for="website_track" string="Tracks Menu Item"/>
                     <field name="website_track"/>
                 </span>
                 <span name="website_track_proposal">
                     <label for="website_track_proposal" string="Track Proposals Menu Item"/>
                     <field name="website_track_proposal"/>
+=======
+                    <label for="website_track" string="Tracks Menu Item" class="me-1"/>
+                    <field name="website_track" class="me-3"/>
+                </span>
+                <span name="website_track_proposal">
+                    <label for="website_track_proposal" string="Track Proposals Menu Item" class="me-1"/>
+                    <field name="website_track_proposal" class="me-3"/>
+>>>>>>> upstream/18.0
                 </span>
             </xpath>
         </field>

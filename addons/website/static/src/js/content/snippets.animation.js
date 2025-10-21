@@ -1356,8 +1356,11 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $(window).on('resize.FullScreenHeight', debounce(() => this._adaptSize(), 250));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1656,6 +1659,9 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1979,6 +1985,7 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const windowHeight = $(window).outerHeight();
         if (this.inModal) {
             return windowHeight;
@@ -1990,6 +1997,8 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
         const mainTopPos = firstContentEl.getBoundingClientRect().top + document.documentElement.scrollTop;
         return (windowHeight - mainTopPos);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2321,6 +2330,9 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2659,7 +2671,11 @@ registry.BottomFixedElement = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.__hideBottomFixedElements = debounce(() => this._hideBottomFixedElements(), 100);
+=======
+        this.__hideBottomFixedElements = debounce(() => this._hideBottomFixedElements(), 100, { leading: true, trailing: true });
+>>>>>>> upstream/18.0
 =======
         this.__hideBottomFixedElements = debounce(() => this._hideBottomFixedElements(), 100, { leading: true, trailing: true });
 >>>>>>> upstream/18.0
@@ -2982,7 +2998,11 @@ registry.BottomFixedElement = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (hiddenButtonEl) {
+=======
+                if (hiddenButtonEl.length) {
+>>>>>>> upstream/18.0
 =======
                 if (hiddenButtonEl.length) {
 >>>>>>> upstream/18.0
