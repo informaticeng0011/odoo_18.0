@@ -670,7 +670,11 @@ publicWidget.registry.SurveyFormWidget = publicWidget.Widget.extend(SurveyPreloa
                     break;
                 case 'matrix':
                     if (questionRequired) {
+<<<<<<< HEAD
                         const subQuestionsIds = $questionWrapper.find('table').data('subQuestions');
+=======
+                        const subQuestionsIds = $input.data('subQuestions');
+>>>>>>> upstream/18.0
                         // Highlight unanswered rows' header
                         const questionBodySelector = `div[id="${questionId}"] > .o_survey_question_matrix > tbody`;
                         subQuestionsIds.forEach((subQuestionId) => {

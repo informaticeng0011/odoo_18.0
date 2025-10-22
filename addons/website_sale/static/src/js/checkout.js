@@ -25,7 +25,10 @@ publicWidget.registry.WebsiteSaleCheckout = publicWidget.Widget.extend({
         this.billingContainer = this.el.querySelector('#billing_container');
         await this._prepareDeliveryMethods();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         // Monitor when the page is restored from the bfcache.
         window.addEventListener('pageshow', this._onNavigationBack);
     },
@@ -44,6 +47,9 @@ publicWidget.registry.WebsiteSaleCheckout = publicWidget.Widget.extend({
         if (event.persisted) {
             window.location.reload();
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
 
@@ -379,6 +385,7 @@ publicWidget.registry.WebsiteSaleCheckout = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
              // If it's a free delivery (`free_over` field), show 'Free', not '$ 0'.
              if (rateData.is_free_delivery) {
                  deliveryPriceBadge.textContent = _t("Free");
@@ -387,6 +394,8 @@ publicWidget.registry.WebsiteSaleCheckout = publicWidget.Widget.extend({
              }
              this._toggleDeliveryMethodRadio(radio);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -523,6 +532,9 @@ publicWidget.registry.WebsiteSaleCheckout = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

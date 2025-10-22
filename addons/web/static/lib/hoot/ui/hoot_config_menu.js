@@ -118,7 +118,11 @@ export class HootConfigMenu extends Component {
             >
                 <input
                     type="checkbox"
+<<<<<<< HEAD
                     class="appearance-none border border-primary rounded-sm w-4 h-4"
+=======
+                    class="appearance-none border border-primary rounded-xs w-4 h-4"
+>>>>>>> upstream/18.0
                     t-model="config.manual"
                 />
                 <span>Run tests manually</span>
@@ -129,7 +133,11 @@ export class HootConfigMenu extends Component {
             >
                 <input
                     type="checkbox"
+<<<<<<< HEAD
                     class="appearance-none border border-primary rounded-sm w-4 h-4"
+=======
+                    class="appearance-none border border-primary rounded-xs w-4 h-4"
+>>>>>>> upstream/18.0
                     t-att-checked="config.bail"
                     t-on-change="onBailChange"
                 />
@@ -152,7 +160,11 @@ export class HootConfigMenu extends Component {
             >
                 <input
                     type="checkbox"
+<<<<<<< HEAD
                     class="appearance-none border border-primary rounded-sm w-4 h-4"
+=======
+                    class="appearance-none border border-primary rounded-xs w-4 h-4"
+>>>>>>> upstream/18.0
                     t-att-checked="config.loglevel"
                     t-on-change="onLogLevelChange"
                 />
@@ -181,7 +193,11 @@ export class HootConfigMenu extends Component {
             >
                 <input
                     type="checkbox"
+<<<<<<< HEAD
                     class="appearance-none border border-primary rounded-sm w-4 h-4"
+=======
+                    class="appearance-none border border-primary rounded-xs w-4 h-4"
+>>>>>>> upstream/18.0
                     t-model="config.notrycatch"
                 />
                 <span>No try/catch</span>
@@ -232,7 +248,11 @@ export class HootConfigMenu extends Component {
             >
                 <input
                     type="checkbox"
+<<<<<<< HEAD
                     class="appearance-none border border-primary rounded-sm w-4 h-4"
+=======
+                    class="appearance-none border border-primary rounded-xs w-4 h-4"
+>>>>>>> upstream/18.0
                     t-model="config.headless"
                 />
                 <span>Headless</span>
@@ -243,7 +263,11 @@ export class HootConfigMenu extends Component {
             >
                 <input
                     type="checkbox"
+<<<<<<< HEAD
                     class="appearance-none border border-primary rounded-sm w-4 h-4"
+=======
+                    class="appearance-none border border-primary rounded-xs w-4 h-4"
+>>>>>>> upstream/18.0
                     t-model="config.fun"
                 />
                 <span>Enable incentives</span>

@@ -59,6 +59,7 @@ test("url is given by the session", async () => {
     patchWithCleanup(session, {
         translationURL: "/get_translations",
     });
+<<<<<<< HEAD
     onRpc(
         "/get_translations/*",
         function (request) {
@@ -67,6 +68,12 @@ test("url is given by the session", async () => {
         },
         { pure: true }
     );
+=======
+    onRpc("/get_translations/*", function (request) {
+        expect(request.url).toInclude("/get_translations/");
+        return this.loadTranslations();
+    });
+>>>>>>> upstream/18.0
     await makeMockEnv();
 });
 

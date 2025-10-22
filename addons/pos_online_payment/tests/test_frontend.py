@@ -65,6 +65,10 @@ from odoo.addons.point_of_sale.tests.common import archive_products
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -268,7 +272,11 @@ import odoo.tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @odoo.tests.tagged('post_install', '-at_install')
+=======
+@odoo.tests.tagged('post_install', '-at_install', 'is_tour')
+>>>>>>> upstream/18.0
 =======
 @odoo.tests.tagged('post_install', '-at_install', 'is_tour')
 >>>>>>> upstream/18.0
@@ -711,7 +719,10 @@ class TestUi(TestPointOfSaleHttpCommon, OnlinePaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -911,6 +922,7 @@ class TestUi(TestPointOfSaleHttpCommon, OnlinePaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1015,6 +1027,17 @@ class TestUi(TestPointOfSaleHttpCommon, OnlinePaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def test_selected_customer_after_adding_payment_sync(self):
+        """ Test that the selected customer is kept after adding an online payment."""
+        self.pos_config.with_user(self.pos_admin).open_ui()
+        self.start_pos_tour('test_selected_customer_after_adding_payment_sync', login="pos_admin")
+        order = self.pos_config.current_session_id.order_ids.sorted(lambda o: o.id, reverse=True)[0]
+        self.assertEqual(order.partner_id.name, "A simple PoS man!", "The selected customer was not kept after adding an online payment.")
+        self.assertEqual(order.state, "draft", "The order should still be in draft state.")
+        self.assertEqual(len(order.payment_ids), 0, "There should be no payment line in the order.")
+
 >>>>>>> upstream/18.0
     @classmethod
     def tearDownClass(cls):

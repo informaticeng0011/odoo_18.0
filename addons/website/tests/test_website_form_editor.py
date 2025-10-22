@@ -1,6 +1,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from unittest.mock import patch
 
 from odoo.http import request
@@ -9,6 +10,8 @@ from odoo.addons.website.controllers.form import WebsiteForm
 from odoo.addons.website.tools import MockRequest
 from odoo.tests.common import tagged, TransactionCase
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo.exceptions import ValidationError
 from odoo.http import request
 from odoo.tests.common import TransactionCase, tagged
@@ -16,6 +19,9 @@ from odoo.tests.common import TransactionCase, tagged
 from odoo.addons.base.tests.common import HttpCaseWithUserPortal
 from odoo.addons.website.controllers.form import WebsiteForm
 from odoo.addons.website.tools import MockRequest
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -99,7 +105,11 @@ class TestWebsiteFormEditor(HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.start_tour(self.env['website'].get_client_action_url('/'), 'website_form_editor_tour', login='admin', timeout=120)
+=======
+        self.start_tour(self.env['website'].get_client_action_url('/'), 'website_form_editor_tour', login='admin', timeout=240)
+>>>>>>> upstream/18.0
 =======
         self.start_tour(self.env['website'].get_client_action_url('/'), 'website_form_editor_tour', login='admin', timeout=240)
 >>>>>>> upstream/18.0
@@ -384,7 +394,10 @@ class TestWebsiteFormEditor(HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertIn('Test2`\\', mail.body_html, 'The backtick and backslash characters should be visible on the received mail')
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -470,10 +483,13 @@ class TestWebsiteFormEditor(HttpCaseWithUserPortal):
         self.start_tour('/my/account', 'website_form_nested_forms', login='admin')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('post_install', '-at_install')
 class TestWebsiteForm(TransactionCase):
 
 =======
+=======
+>>>>>>> upstream/18.0
 
 @tagged('post_install', '-at_install')
 class TestWebsiteForm(TransactionCase):
@@ -488,6 +504,9 @@ class TestWebsiteForm(TransactionCase):
             'field_description': 'test',
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_website_form_html_escaping(self):
         website = self.env['website'].browse(1)
@@ -526,7 +545,10 @@ class TestWebsiteForm(TransactionCase):
             self.assertEqual(response.status_code, 200)
             self.assertTrue(response.data.startswith(b'{"id":'))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_cannot_delete_field_used_in_website_form(self):
         """
@@ -548,4 +570,7 @@ class TestWebsiteForm(TransactionCase):
         with self.assertRaises(ValidationError):
             self.test_field.unlink()
         self.assertTrue(self.test_field.exists())
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

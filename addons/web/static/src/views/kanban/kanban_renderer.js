@@ -479,13 +479,19 @@ export class KanbanRenderer extends Component {
             parent.dataset.id === element.parentElement.dataset.id
         ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             if (!this.props.list.records.find((r) => r.id === dataRecordId)) {
                 // Race condition: a new rendering has been scheduled/is ongoing but hasn't been
                 // applied to the DOM yet, so the user dropped a record that is no longer referenced
                 // in the model. In that case, we can't to anything else than abort.
                 return;
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this.toggleProcessing(dataRecordId, true);
 

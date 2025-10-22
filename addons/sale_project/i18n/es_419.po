@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_project
 # 
 # Translators:
@@ -525,10 +526,16 @@
 #
 # Translators:
 >>>>>>> upstream/18.0
+=======
+# * sale_project
+#
+# Translators:
+>>>>>>> upstream/18.0
 # Gerardo Soto, 2024
 # Wil Odoo, 2025
 # Fernanda Alvarez, 2025
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -670,10 +677,14 @@
 =======
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1198,6 +1209,10 @@ msgstr ""
 "POT-Creation-Date: 2025-06-06 18:38+0000\n"
 "PO-Revision-Date: 2025-10-16 19:18+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-06 18:38+0000\n"
+"PO-Revision-Date: 2025-10-16 19:18+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/sale_project/es_419/>\n"
@@ -1229,6 +1244,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1401,9 +1419,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Debe definir un proyecto en la cotización %(order)s o en el formulario de productos que crean una tarea al ordenarse.\n"
 "Los siguientes productos necesitan un proyecto en el que puedan agregar la tarea: %(product_names)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1420,6 +1441,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1581,7 +1605,10 @@ msgstr "Ajustes de configuración"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1870,6 +1897,7 @@ msgstr "Costo de bienes vendidos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1930,6 +1958,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2146,6 +2176,9 @@ msgstr "Costo de bienes vendidos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2384,8 +2417,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cree facturas, registre pagos y lleve el seguimiento de las conversaciones "
 "con sus clientes."
+=======
+"Crea facturas, registra pagos y lleva el seguimiento de las conversaciones "
+"con tus clientes."
+>>>>>>> upstream/18.0
 =======
 "Crea facturas, registra pagos y lleva el seguimiento de las conversaciones "
 "con tus clientes."
@@ -2767,8 +2805,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cuando el cliente confirma la cotización, esta se convierte en una orden de "
 "venta. "
+=======
+"Una vez que el cliente confirma la cotización, esta se convierte en una "
+"orden de venta."
+>>>>>>> upstream/18.0
 =======
 "Una vez que el cliente confirma la cotización, esta se convierte en una "
 "orden de venta."
@@ -2974,6 +3017,7 @@ msgstr "Servicios de plomería"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2993,6 +3037,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3254,6 +3300,9 @@ msgstr "Orden de venta del portal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3654,9 +3703,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Artículo de la orden de venta en el que se agregará el tiempo agregado que se le facturará al cliente.\n"
 "De forma predeterminada, se seleccionará el artículo de la orden de venta que está establecido en el proyecto. Si no hay uno, se utilizará el último artículo de la orden de venta prepagado y que todavía tenga tiempo por usar.\n"
 "Si quiere que esta tarea no sea facturable, entonces borre el artículo de la orden de venta. También puede borrar uno por uno el artículo de cada entrada de la hoja de horas."
+=======
+"Artículo de la orden de venta al que se agregará el tiempo utilizado para facturar al cliente.\n"
+"El artículo de la orden de venta que está configurado en el proyecto se seleccionará de forma predeterminada. Si no hay uno, se utilizará el último artículo de la orden de venta prepagado y que todavía tenga tiempo por usar.\n"
+"Elimine el artículo de la orden de venta si quiere que esta tarea no sea facturable. También puede cambiar o eliminar el artículo de la orden de venta de las entradas de cada hoja de horas por separado."
+>>>>>>> upstream/18.0
 =======
 "Artículo de la orden de venta al que se agregará el tiempo utilizado para facturar al cliente.\n"
 "El artículo de la orden de venta que está configurado en el proyecto se seleccionará de forma predeterminada. Si no hay uno, se utilizará el último artículo de la orden de venta prepagado y que todavía tenga tiempo por usar.\n"

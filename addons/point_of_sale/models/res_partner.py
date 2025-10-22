@@ -5,7 +5,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models
+=======
+from odoo import api, fields, models, _
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo import api, fields, models, _
 from odoo.exceptions import ValidationError
@@ -106,6 +111,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -137,4 +143,11 @@ class ResPartner(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    @api.ondelete(at_uninstall=False)
+    def _unlink_if_pos_no_orders(self):
+        if self.sudo().pos_order_ids:
+            raise ValidationError(_('You cannot delete a customer that has point of sales orders. You can archive it instead.'))
 >>>>>>> upstream/18.0

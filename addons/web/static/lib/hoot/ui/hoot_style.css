@@ -5,6 +5,11 @@
         "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 0.875rem;
     line-height: 1.5;
+<<<<<<< HEAD
+=======
+
+    --hoot-spacing: 0.25rem;
+>>>>>>> upstream/18.0
 }
 
 /* Scrollbar */
@@ -116,7 +121,11 @@ ul {
 .hoot-controls {
     align-items: center;
     display: flex;
+<<<<<<< HEAD
     gap: 0.5rem;
+=======
+    gap: calc(var(--hoot-spacing) * 2);
+>>>>>>> upstream/18.0
 }
 
 .hoot-dropdown {
@@ -467,6 +476,12 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.bg-blue {
+    background-color: var(--blue);
+}
+>>>>>>> upstream/18.0
 =======
 .bg-blue {
     background-color: var(--blue);
@@ -883,6 +898,12 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.bg-blue-900 {
+    background-color: var(--blue-900);
+}
+>>>>>>> upstream/18.0
 =======
 .bg-blue-900 {
     background-color: var(--blue-900);
@@ -1294,6 +1315,12 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.border-blue {
+    border-color: var(--blue);
+}
+>>>>>>> upstream/18.0
 =======
 .border-blue {
     border-color: var(--blue);
@@ -1798,6 +1825,12 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.cursor-move {
+    cursor: move;
+}
+>>>>>>> upstream/18.0
 =======
 .cursor-move {
     cursor: move;
@@ -2211,6 +2244,12 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+>>>>>>> upstream/18.0
 =======
 .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2643,9 +2682,12 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .start-1\/2 {
     inset-inline-start: 50%;
 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2731,14 +2773,22 @@ input[type="checkbox"]:checked {
     inset-inline-end: 0;
 }
 .end-2 {
+<<<<<<< HEAD
     inset-inline-end: 0.5rem;
+=======
+    inset-inline-end: calc(var(--hoot-spacing) * 2);
+>>>>>>> upstream/18.0
 }
 
 .top-0 {
     top: 0;
 }
 .top-2 {
+<<<<<<< HEAD
     top: 0.5rem;
+=======
+    top: calc(var(--hoot-spacing) * 2);
+>>>>>>> upstream/18.0
 }
 
 .bottom-0 {
@@ -2782,6 +2832,7 @@ input[type="checkbox"]:checked {
     width: 0;
 }
 .w-1 {
+<<<<<<< HEAD
     width: 0.25rem;
 }
 .w-2 {
@@ -2795,6 +2846,24 @@ input[type="checkbox"]:checked {
 }
 .w-5 {
     width: 1.25rem;
+=======
+    width: calc(var(--hoot-spacing) * 1);
+}
+.w-2 {
+    width: calc(var(--hoot-spacing) * 2);
+}
+.w-3 {
+    width: calc(var(--hoot-spacing) * 3);
+}
+.w-4 {
+    width: calc(var(--hoot-spacing) * 4);
+}
+.w-5 {
+    width: calc(var(--hoot-spacing) * 5);
+}
+.w-64 {
+    width: calc(var(--hoot-spacing) * 64);
+>>>>>>> upstream/18.0
 }
 .w-fit {
     width: fit-content;
@@ -2803,14 +2872,18 @@ input[type="checkbox"]:checked {
     width: 100%;
 }
 
+<<<<<<< HEAD
 .w-64 {
     width: 16rem;
 }
 
+=======
+>>>>>>> upstream/18.0
 .min-w-0 {
     min-width: 0;
 }
 .min-w-1 {
+<<<<<<< HEAD
     min-width: 0.25rem;
 }
 .min-w-2 {
@@ -2824,6 +2897,21 @@ input[type="checkbox"]:checked {
 }
 .min-w-5 {
     min-width: 1.25rem;
+=======
+    min-width: calc(var(--hoot-spacing) * 1);
+}
+.min-w-2 {
+    min-width: calc(var(--hoot-spacing) * 2);
+}
+.min-w-3 {
+    min-width: calc(var(--hoot-spacing) * 3);
+}
+.min-w-4 {
+    min-width: calc(var(--hoot-spacing) * 4);
+}
+.min-w-5 {
+    min-width: calc(var(--hoot-spacing) * 5);
+>>>>>>> upstream/18.0
 }
 .min-w-fit {
     min-width: fit-content;
@@ -2836,6 +2924,7 @@ input[type="checkbox"]:checked {
     max-width: 0;
 }
 .max-w-1 {
+<<<<<<< HEAD
     max-width: 0.25rem;
 }
 .max-w-2 {
@@ -2849,6 +2938,21 @@ input[type="checkbox"]:checked {
 }
 .max-w-5 {
     max-width: 1.25rem;
+=======
+    max-width: calc(var(--hoot-spacing) * 1);
+}
+.max-w-2 {
+    max-width: calc(var(--hoot-spacing) * 2);
+}
+.max-w-3 {
+    max-width: calc(var(--hoot-spacing) * 3);
+}
+.max-w-4 {
+    max-width: calc(var(--hoot-spacing) * 4);
+}
+.max-w-5 {
+    max-width: calc(var(--hoot-spacing) * 5);
+>>>>>>> upstream/18.0
 }
 .max-w-full {
     max-width: 100%;
@@ -2858,6 +2962,7 @@ input[type="checkbox"]:checked {
     height: 0;
 }
 .h-1 {
+<<<<<<< HEAD
     height: 0.25rem;
 }
 .h-2 {
@@ -2871,6 +2976,24 @@ input[type="checkbox"]:checked {
 }
 .h-5 {
     height: 1.25rem;
+=======
+    height: calc(var(--hoot-spacing) * 1);
+}
+.h-2 {
+    height: calc(var(--hoot-spacing) * 2);
+}
+.h-3 {
+    height: calc(var(--hoot-spacing) * 3);
+}
+.h-4 {
+    height: calc(var(--hoot-spacing) * 4);
+}
+.h-5 {
+    height: calc(var(--hoot-spacing) * 5);
+}
+.h-7 {
+    height: calc(var(--hoot-spacing) * 7);
+>>>>>>> upstream/18.0
 }
 .h-fit {
     height: fit-content;
@@ -2879,14 +3002,18 @@ input[type="checkbox"]:checked {
     height: 100%;
 }
 
+<<<<<<< HEAD
 .h-7 {
     height: 1.75rem;
 }
 
+=======
+>>>>>>> upstream/18.0
 .min-h-0 {
     min-height: 0;
 }
 .min-h-1 {
+<<<<<<< HEAD
     min-height: 0.25rem;
 }
 .min-h-2 {
@@ -2900,6 +3027,24 @@ input[type="checkbox"]:checked {
 }
 .min-h-5 {
     min-height: 1.25rem;
+=======
+    min-height: calc(var(--hoot-spacing) * 1);
+}
+.min-h-2 {
+    min-height: calc(var(--hoot-spacing) * 2);
+}
+.min-h-3 {
+    min-height: calc(var(--hoot-spacing) * 3);
+}
+.min-h-4 {
+    min-height: calc(var(--hoot-spacing) * 4);
+}
+.min-h-5 {
+    min-height: calc(var(--hoot-spacing) * 5);
+}
+.min-h-10 {
+    min-height: calc(var(--hoot-spacing) * 10);
+>>>>>>> upstream/18.0
 }
 .min-h-full {
     min-height: 100%;
@@ -2909,6 +3054,7 @@ input[type="checkbox"]:checked {
     max-height: 0;
 }
 .max-h-1 {
+<<<<<<< HEAD
     max-height: 0.25rem;
 }
 .max-h-2 {
@@ -2925,6 +3071,24 @@ input[type="checkbox"]:checked {
 }
 .max-h-48 {
     max-height: 12rem;
+=======
+    max-height: calc(var(--hoot-spacing) * 1);
+}
+.max-h-2 {
+    max-height: calc(var(--hoot-spacing) * 2);
+}
+.max-h-3 {
+    max-height: calc(var(--hoot-spacing) * 3);
+}
+.max-h-4 {
+    max-height: calc(var(--hoot-spacing) * 4);
+}
+.max-h-5 {
+    max-height: calc(var(--hoot-spacing) * 5);
+}
+.max-h-48 {
+    max-height: calc(var(--hoot-spacing) * 48);
+>>>>>>> upstream/18.0
 }
 .max-h-full {
     max-height: 100%;
@@ -2939,6 +3103,7 @@ input[type="checkbox"]:checked {
     gap: 1px;
 }
 .gap-1 {
+<<<<<<< HEAD
     gap: 0.25rem;
 }
 .gap-2 {
@@ -2949,12 +3114,25 @@ input[type="checkbox"]:checked {
 }
 .gap-4 {
     gap: 1rem;
+=======
+    gap: calc(var(--hoot-spacing) * 1);
+}
+.gap-2 {
+    gap: calc(var(--hoot-spacing) * 2);
+}
+.gap-3 {
+    gap: calc(var(--hoot-spacing) * 3);
+}
+.gap-4 {
+    gap: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 
 .gap-x-0 {
     column-gap: 0;
 }
 .gap-x-1 {
+<<<<<<< HEAD
     column-gap: 0.25rem;
 }
 .gap-x-2 {
@@ -2965,12 +3143,25 @@ input[type="checkbox"]:checked {
 }
 .gap-x-4 {
     column-gap: 1rem;
+=======
+    column-gap: calc(var(--hoot-spacing) * 1);
+}
+.gap-x-2 {
+    column-gap: calc(var(--hoot-spacing) * 2);
+}
+.gap-x-3 {
+    column-gap: calc(var(--hoot-spacing) * 3);
+}
+.gap-x-4 {
+    column-gap: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 
 .gap-y-0 {
     row-gap: 0;
 }
 .gap-y-1 {
+<<<<<<< HEAD
     row-gap: 0.25rem;
 }
 .gap-y-2 {
@@ -2981,6 +3172,18 @@ input[type="checkbox"]:checked {
 }
 .gap-y-4 {
     row-gap: 1rem;
+=======
+    row-gap: calc(var(--hoot-spacing) * 1);
+}
+.gap-y-2 {
+    row-gap: calc(var(--hoot-spacing) * 2);
+}
+.gap-y-3 {
+    row-gap: calc(var(--hoot-spacing) * 3);
+}
+.gap-y-4 {
+    row-gap: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 
 /* Spacing: margin */
@@ -2989,6 +3192,7 @@ input[type="checkbox"]:checked {
     margin: 0;
 }
 .m-1 {
+<<<<<<< HEAD
     margin: 0.25rem;
 }
 .m-2 {
@@ -2999,6 +3203,18 @@ input[type="checkbox"]:checked {
 }
 .m-4 {
     margin: 1rem;
+=======
+    margin: calc(var(--hoot-spacing) * 1);
+}
+.m-2 {
+    margin: calc(var(--hoot-spacing) * 2);
+}
+.m-3 {
+    margin: calc(var(--hoot-spacing) * 3);
+}
+.m-4 {
+    margin: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 
 .mx-0 {
@@ -3006,6 +3222,7 @@ input[type="checkbox"]:checked {
     margin-right: 0;
 }
 .mx-1 {
+<<<<<<< HEAD
     margin-left: 0.25rem;
     margin-right: 0.25rem;
 }
@@ -3020,6 +3237,22 @@ input[type="checkbox"]:checked {
 .mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
+=======
+    margin-left: calc(var(--hoot-spacing) * 1);
+    margin-right: calc(var(--hoot-spacing) * 1);
+}
+.mx-2 {
+    margin-left: calc(var(--hoot-spacing) * 2);
+    margin-right: calc(var(--hoot-spacing) * 2);
+}
+.mx-3 {
+    margin-left: calc(var(--hoot-spacing) * 3);
+    margin-right: calc(var(--hoot-spacing) * 3);
+}
+.mx-4 {
+    margin-left: calc(var(--hoot-spacing) * 4);
+    margin-right: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 
 .my-0 {
@@ -3027,6 +3260,7 @@ input[type="checkbox"]:checked {
     margin-bottom: 0;
 }
 .my-1 {
+<<<<<<< HEAD
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
 }
@@ -3041,12 +3275,29 @@ input[type="checkbox"]:checked {
 .my-3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
+=======
+    margin-top: calc(var(--hoot-spacing) * 1);
+    margin-bottom: calc(var(--hoot-spacing) * 1);
+}
+.my-2 {
+    margin-top: calc(var(--hoot-spacing) * 2);
+    margin-bottom: calc(var(--hoot-spacing) * 2);
+}
+.my-3 {
+    margin-top: calc(var(--hoot-spacing) * 3);
+    margin-bottom: calc(var(--hoot-spacing) * 3);
+}
+.my-3 {
+    margin-top: calc(var(--hoot-spacing) * 4);
+    margin-bottom: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 
 .ms-0 {
     margin-inline-start: 0;
 }
 .ms-1 {
+<<<<<<< HEAD
     margin-inline-start: 0.25rem;
 }
 .ms-2 {
@@ -3057,6 +3308,18 @@ input[type="checkbox"]:checked {
 }
 .ms-4 {
     margin-inline-start: 1rem;
+=======
+    margin-inline-start: calc(var(--hoot-spacing) * 1);
+}
+.ms-2 {
+    margin-inline-start: calc(var(--hoot-spacing) * 2);
+}
+.ms-3 {
+    margin-inline-start: calc(var(--hoot-spacing) * 3);
+}
+.ms-4 {
+    margin-inline-start: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 .ms-auto {
     margin-inline-start: auto;
@@ -3066,6 +3329,7 @@ input[type="checkbox"]:checked {
     margin-inline-end: 0;
 }
 .me-1 {
+<<<<<<< HEAD
     margin-inline-end: 0.25rem;
 }
 .me-2 {
@@ -3076,6 +3340,18 @@ input[type="checkbox"]:checked {
 }
 .me-4 {
     margin-inline-end: 1rem;
+=======
+    margin-inline-end: calc(var(--hoot-spacing) * 1);
+}
+.me-2 {
+    margin-inline-end: calc(var(--hoot-spacing) * 2);
+}
+.me-3 {
+    margin-inline-end: calc(var(--hoot-spacing) * 3);
+}
+.me-4 {
+    margin-inline-end: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 .me-auto {
     margin-inline-end: auto;
@@ -3085,6 +3361,7 @@ input[type="checkbox"]:checked {
     margin-top: 0;
 }
 .mt-1 {
+<<<<<<< HEAD
     margin-top: 0.25rem;
 }
 .mt-2 {
@@ -3095,12 +3372,25 @@ input[type="checkbox"]:checked {
 }
 .mt-4 {
     margin-top: 1rem;
+=======
+    margin-top: calc(var(--hoot-spacing) * 1);
+}
+.mt-2 {
+    margin-top: calc(var(--hoot-spacing) * 2);
+}
+.mt-3 {
+    margin-top: calc(var(--hoot-spacing) * 3);
+}
+.mt-4 {
+    margin-top: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 
 .mb-0 {
     margin-bottom: 0;
 }
 .mb-1 {
+<<<<<<< HEAD
     margin-bottom: 0.25rem;
 }
 .mb-2 {
@@ -3111,6 +3401,18 @@ input[type="checkbox"]:checked {
 }
 .mb-4 {
     margin-bottom: 1rem;
+=======
+    margin-bottom: calc(var(--hoot-spacing) * 1);
+}
+.mb-2 {
+    margin-bottom: calc(var(--hoot-spacing) * 2);
+}
+.mb-3 {
+    margin-bottom: calc(var(--hoot-spacing) * 3);
+}
+.mb-4 {
+    margin-bottom: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 
 /* Spacing: padding */
@@ -3122,6 +3424,7 @@ input[type="checkbox"]:checked {
     padding: 1px;
 }
 .p-1 {
+<<<<<<< HEAD
     padding: 0.25rem;
 }
 .p-2 {
@@ -3135,6 +3438,21 @@ input[type="checkbox"]:checked {
 }
 .p-5 {
     padding: 1.25rem;
+=======
+    padding: calc(var(--hoot-spacing) * 1);
+}
+.p-2 {
+    padding: calc(var(--hoot-spacing) * 2);
+}
+.p-3 {
+    padding: calc(var(--hoot-spacing) * 3);
+}
+.p-4 {
+    padding: calc(var(--hoot-spacing) * 4);
+}
+.p-5 {
+    padding: calc(var(--hoot-spacing) * 5);
+>>>>>>> upstream/18.0
 }
 
 .px-0 {
@@ -3142,6 +3460,7 @@ input[type="checkbox"]:checked {
     padding-right: 0;
 }
 .px-1 {
+<<<<<<< HEAD
     padding-left: 0.25rem;
     padding-right: 0.25rem;
 }
@@ -3156,6 +3475,22 @@ input[type="checkbox"]:checked {
 .px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+=======
+    padding-left: calc(var(--hoot-spacing) * 1);
+    padding-right: calc(var(--hoot-spacing) * 1);
+}
+.px-2 {
+    padding-left: calc(var(--hoot-spacing) * 2);
+    padding-right: calc(var(--hoot-spacing) * 2);
+}
+.px-3 {
+    padding-left: calc(var(--hoot-spacing) * 3);
+    padding-right: calc(var(--hoot-spacing) * 3);
+}
+.px-4 {
+    padding-left: calc(var(--hoot-spacing) * 4);
+    padding-right: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 
 .py-0 {
@@ -3163,6 +3498,7 @@ input[type="checkbox"]:checked {
     padding-bottom: 0;
 }
 .py-1 {
+<<<<<<< HEAD
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
 }
@@ -3177,12 +3513,29 @@ input[type="checkbox"]:checked {
 .py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+=======
+    padding-top: calc(var(--hoot-spacing) * 1);
+    padding-bottom: calc(var(--hoot-spacing) * 1);
+}
+.py-2 {
+    padding-top: calc(var(--hoot-spacing) * 2);
+    padding-bottom: calc(var(--hoot-spacing) * 2);
+}
+.py-3 {
+    padding-top: calc(var(--hoot-spacing) * 3);
+    padding-bottom: calc(var(--hoot-spacing) * 3);
+}
+.py-4 {
+    padding-top: calc(var(--hoot-spacing) * 4);
+    padding-bottom: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 
 .ps-0 {
     padding-inline-start: 0;
 }
 .ps-1 {
+<<<<<<< HEAD
     padding-inline-start: 0.25rem;
 }
 .ps-2 {
@@ -3193,12 +3546,25 @@ input[type="checkbox"]:checked {
 }
 .ps-4 {
     padding-inline-start: 1rem;
+=======
+    padding-inline-start: calc(var(--hoot-spacing) * 1);
+}
+.ps-2 {
+    padding-inline-start: calc(var(--hoot-spacing) * 2);
+}
+.ps-3 {
+    padding-inline-start: calc(var(--hoot-spacing) * 3);
+}
+.ps-4 {
+    padding-inline-start: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 
 .pe-0 {
     padding-inline-end: 0;
 }
 .pe-1 {
+<<<<<<< HEAD
     padding-inline-end: 0.25rem;
 }
 .pe-2 {
@@ -3209,12 +3575,25 @@ input[type="checkbox"]:checked {
 }
 .pe-4 {
     padding-inline-end: 1rem;
+=======
+    padding-inline-end: calc(var(--hoot-spacing) * 1);
+}
+.pe-2 {
+    padding-inline-end: calc(var(--hoot-spacing) * 2);
+}
+.pe-3 {
+    padding-inline-end: calc(var(--hoot-spacing) * 3);
+}
+.pe-4 {
+    padding-inline-end: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 
 .pt-0 {
     padding-top: 0;
 }
 .pt-1 {
+<<<<<<< HEAD
     padding-top: 0.25rem;
 }
 .pt-2 {
@@ -3225,12 +3604,25 @@ input[type="checkbox"]:checked {
 }
 .pt-4 {
     padding-top: 1rem;
+=======
+    padding-top: calc(var(--hoot-spacing) * 1);
+}
+.pt-2 {
+    padding-top: calc(var(--hoot-spacing) * 2);
+}
+.pt-3 {
+    padding-top: calc(var(--hoot-spacing) * 3);
+}
+.pt-4 {
+    padding-top: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 
 .pb-0 {
     padding-bottom: 0;
 }
 .pb-1 {
+<<<<<<< HEAD
     padding-bottom: 0.25rem;
 }
 .pb-2 {
@@ -3241,6 +3633,18 @@ input[type="checkbox"]:checked {
 }
 .pb-4 {
     padding-bottom: 1rem;
+=======
+    padding-bottom: calc(var(--hoot-spacing) * 1);
+}
+.pb-2 {
+    padding-bottom: calc(var(--hoot-spacing) * 2);
+}
+.pb-3 {
+    padding-bottom: calc(var(--hoot-spacing) * 3);
+}
+.pb-4 {
+    padding-bottom: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 }
 
 /* Text: alignment */
@@ -3394,6 +3798,12 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.text-blue {
+    color: var(--blue);
+}
+>>>>>>> upstream/18.0
 =======
 .text-blue {
     color: var(--blue);
@@ -3808,7 +4218,10 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4003,6 +4416,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4190,6 +4606,7 @@ input[type="checkbox"]:checked {
 
 .text-xs {
     font-size: 0.625rem;
+<<<<<<< HEAD
     line-height: 1rem;
 }
 .text-sm {
@@ -4199,6 +4616,17 @@ input[type="checkbox"]:checked {
 .text-2xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+=======
+    line-height: calc(var(--hoot-spacing) * 4);
+}
+.text-sm {
+    font-size: 0.75rem;
+    line-height: calc(var(--hoot-spacing) * 5);
+}
+.text-2xl {
+    font-size: 1.25rem;
+    line-height: calc(var(--hoot-spacing) * 7);
+>>>>>>> upstream/18.0
 }
 
 /* Transform: rotate */
@@ -4250,12 +4678,15 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Transform: translate */
 
 .\-translate-x-1\/2 {
     transform: translateX(-50%);
 }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4410,8 +4841,13 @@ input[type="checkbox"]:checked {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
     .sm\:px-4 {
+<<<<<<< HEAD
         padding-left: 1rem;
         padding-right: 1rem;
+=======
+        padding-left: calc(var(--hoot-spacing) * 4);
+        padding-right: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
     }
 }
 
@@ -4440,7 +4876,11 @@ input[type="checkbox"]:checked {
 @media (max-width: 640px) {
     .hoot-controls {
         display: grid;
+<<<<<<< HEAD
         gap: 0.25rem;
+=======
+        gap: var(--hoot-spacing);
+>>>>>>> upstream/18.0
         grid-template: 1fr auto auto / 1fr auto auto;
     }
 

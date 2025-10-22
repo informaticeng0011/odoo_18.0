@@ -1,11 +1,17 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 from freezegun import freeze_time
 from unittest.mock import patch
 from datetime import datetime, timedelta
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.addons.l10n_latam_check.tests.common import L10nLatamCheckTest
 from odoo.exceptions import ValidationError, UserError
@@ -147,7 +153,10 @@ class TestThirdChecks(L10nLatamCheckTest):
         self.env['l10n_latam.payment.mass.transfer'].with_context(
             active_model='l10n_latam.check', active_ids=[check.id, check2.id]).create({'destination_journal_id': self.third_party_check_journal.id})._create_payments()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_05_check_current_journal_with_both_operations(self):
         # -------------------------------
@@ -212,4 +221,7 @@ class TestThirdChecks(L10nLatamCheckTest):
             check_2.current_journal_id,
             "Check should not be on hand even if outbound was created before inbound"
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

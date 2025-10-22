@@ -223,8 +223,13 @@ class TestReturnPicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'location_id': self.stock_location,
             'location_dest_id': self.customer_location,
+=======
+            'location_id': self.supplier_location,
+            'location_dest_id': self.stock_location,
+>>>>>>> upstream/18.0
 =======
             'location_id': self.supplier_location,
             'location_dest_id': self.stock_location,
@@ -443,8 +448,13 @@ class TestReturnPicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Change the quantity of the product return move from 0 to 1
         return_picking_wizard.product_return_moves.quantity = 1.0
+=======
+        # Change the quantity of the product return move from 0 to 3
+        return_picking_wizard.product_return_moves.quantity = 3.0
+>>>>>>> upstream/18.0
 =======
         # Change the quantity of the product return move from 0 to 3
         return_picking_wizard.product_return_moves.quantity = 3.0
@@ -661,6 +671,7 @@ class TestReturnPicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Return: one return (exchange picking), type out, 1 item
         self.assertEqual(return_picking.return_count, 1)
         self.assertEqual(return_picking.picking_type_id.id, self.picking_type_out)
@@ -671,6 +682,8 @@ class TestReturnPicking(TestStockCommon):
         self.assertEqual(exchange_picking.picking_type_id.id, self.picking_type_in)
         self.assertEqual(len(exchange_picking.move_line_ids), 1)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -805,6 +818,9 @@ class TestReturnPicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -989,7 +1005,10 @@ class TestReturnPicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1150,6 +1169,9 @@ class TestReturnPicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

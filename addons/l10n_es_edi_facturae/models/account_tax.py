@@ -35,7 +35,11 @@ class AccountTax(models.Model):
         ('28', 'IRNR: Non-resident Income Tax'),
         ('29', 'Corporation Tax'),
 <<<<<<< HEAD
+<<<<<<< HEAD
     ], string='Spanish Facturae EDI Tax Type', default='01')
+=======
+    ], string='Spanish Facturae EDI Tax Type')
+>>>>>>> upstream/18.0
 =======
     ], string='Spanish Facturae EDI Tax Type')
 >>>>>>> upstream/18.0

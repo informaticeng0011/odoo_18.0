@@ -1,24 +1,31 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_razorpay
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * payment_razorpay
 #
 # Translators:
 # Wil Odoo, 2024
 #
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-20 12:57+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
@@ -41,6 +50,9 @@ msgstr ""
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_razorpay
@@ -67,7 +79,11 @@ msgstr "Не удалось установить соединение с API."
 #: model_terms:ir.ui.view,arch_db:payment_razorpay.payment_provider_form_razorpay
 msgid "Enable recurring payments on Razorpay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Включить регулярные платежи через Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Включить регулярные платежи через Razorpay"
 >>>>>>> upstream/18.0
@@ -214,6 +230,11 @@ msgid ""
 " this payment method"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Сумма платежа не должна превышать %(currency_symbol)s %(max_amount)s для "
+"данного метода оплаты"
+>>>>>>> upstream/18.0
 =======
 "Сумма платежа не должна превышать %(currency_symbol)s %(max_amount)s для "
 "данного метода оплаты"

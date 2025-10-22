@@ -92,6 +92,10 @@ import * as FloorScreen from "@pos_restaurant/../tests/tours/utils/floor_screen_
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as PosLoyalty from "@pos_loyalty/../tests/tours/utils/pos_loyalty_util";
+>>>>>>> upstream/18.0
 =======
 import * as PosLoyalty from "@pos_loyalty/../tests/tours/utils/pos_loyalty_util";
 >>>>>>> upstream/18.0
@@ -471,7 +475,11 @@ registry.category("web_tour.tours").add("PosRestaurantRewardStay", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.totalAmountIs("1.98"),
+=======
+            PosLoyalty.hasRewardLine("10% on your order", "-0.22", "1"),
+>>>>>>> upstream/18.0
 =======
             PosLoyalty.hasRewardLine("10% on your order", "-0.22", "1"),
 >>>>>>> upstream/18.0
@@ -844,7 +852,11 @@ registry.category("web_tour.tours").add("PosRestaurantRewardStay", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.totalAmountIs("1.98"),
+=======
+            PosLoyalty.hasRewardLine("10% on your order", "-0.22", "1"),
+>>>>>>> upstream/18.0
 =======
             PosLoyalty.hasRewardLine("10% on your order", "-0.22", "1"),
 >>>>>>> upstream/18.0

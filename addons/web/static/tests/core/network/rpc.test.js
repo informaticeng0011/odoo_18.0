@@ -137,10 +137,19 @@ test("trigger a ConnectionLostError when response isn't json parsable", async ()
 
 test("rpc can send additional headers", async () => {
     mockFetch((url, settings) => {
+<<<<<<< HEAD
         expect(settings.headers).toEqual({
             "Content-Type": "application/json",
             Hello: "World",
         });
+=======
+        expect(settings.headers).toEqual(
+            new Headers([
+                ["Content-Type", "application/json"],
+                ["Hello", "World"],
+            ])
+        );
+>>>>>>> upstream/18.0
         return { result: true };
     });
     await rpc("/test/", null, { headers: { Hello: "World" } });

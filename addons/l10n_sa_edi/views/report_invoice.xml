@@ -60,7 +60,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <attribute name="class">d-none</attribute>
+=======
+                <attribute name="t-att-class">'d-none' if o.company_id.country_id.code == 'SA' else ''</attribute>
+>>>>>>> upstream/18.0
 =======
                 <attribute name="t-att-class">'d-none' if o.company_id.country_id.code == 'SA' else ''</attribute>
 >>>>>>> upstream/18.0

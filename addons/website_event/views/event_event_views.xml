@@ -38,8 +38,13 @@
             <xpath expr="//div[hasclass('oe_title')]" position="after">
                 <div name="event_menu_configuration" groups="base.group_no_one">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <label for="website_menu" string="Website Submenu"/>
                     <field name="website_menu"/>
+=======
+                    <label for="website_menu" string="Website Submenu" class="me-1"/>
+                    <field name="website_menu" class="me-3"/>
+>>>>>>> upstream/18.0
 =======
                     <label for="website_menu" string="Website Submenu" class="me-1"/>
                     <field name="website_menu" class="me-3"/>
@@ -49,8 +54,13 @@
                     <field name="location_menu" invisible="1"/>
                     <field name="register_menu" invisible="1"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <label for="community_menu" string="Community" invisible="1"/>
                     <field name="community_menu" invisible="1"/>
+=======
+                    <label for="community_menu" string="Community" invisible="1" class="me-1"/>
+                    <field name="community_menu" invisible="1" class="me-3"/>
+>>>>>>> upstream/18.0
 =======
                     <label for="community_menu" string="Community" invisible="1" class="me-1"/>
                     <field name="community_menu" invisible="1" class="me-3"/>

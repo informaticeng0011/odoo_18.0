@@ -65,6 +65,10 @@ class PaymentPortalSelfOrder(PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        pos_order.config_id.notify_synchronisation(pos_order.config_id.current_session_id.id, 0)
+>>>>>>> upstream/18.0
 =======
         pos_order.config_id.notify_synchronisation(pos_order.config_id.current_session_id.id, 0)
 >>>>>>> upstream/18.0

@@ -55,7 +55,10 @@ export function selectNthOrder(n) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -189,6 +192,9 @@ export function settleSaleOrderByPrice(price) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -355,6 +361,7 @@ export function selectedOrderLinesHasLots(productName, lots) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const getSerialStep = (index, serialNumber) => {
         return {
             content: `check lot${index} is linked`,
@@ -362,6 +369,8 @@ export function selectedOrderLinesHasLots(productName, lots) {
         };
     };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -483,6 +492,9 @@ export function selectedOrderLinesHasLots(productName, lots) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -88,9 +88,17 @@ test("handles resize handle at start in fixed position", async () => {
             x: window.innerWidth - 200,
         },
     });
+<<<<<<< HEAD
     expect(resizablePanelEl).toHaveRect({
         width: 100 + queryRect(".o_resizable_panel_handle").width / 2,
     });
+=======
+    const panelExpectedWidth = 100 + queryRect(".o_resizable_panel_handle").width / 2;
+    expect(queryRect(resizablePanelEl).width).toBeWithin(
+        panelExpectedWidth,
+        panelExpectedWidth + 1
+    );
+>>>>>>> upstream/18.0
 });
 
 test("resizing the window adapts the panel", async () => {
