@@ -2,7 +2,10 @@ import { EventBus } from "@odoo/owl";
 import { browser } from "../browser/browser";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 /**
  * @typedef {{
  *  code: number;
@@ -12,6 +15,9 @@ import { browser } from "../browser/browser";
  * }} JsonRpcError
  */
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 export const rpcBus = new EventBus();
 
@@ -40,6 +46,7 @@ export class ConnectionLostError extends Error {
 export class ConnectionAbortedError extends Error {}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function makeErrorFromResponse(reponse) {
     // Odoo returns error like this, in a error field instead of properly
     // using http error codes...
@@ -47,6 +54,8 @@ export function makeErrorFromResponse(reponse) {
     const error = new RPCError();
     error.exceptionName = errorData.name;
 =======
+=======
+>>>>>>> upstream/18.0
 /**
  * @param {JsonRpcError} response
  */
@@ -56,6 +65,9 @@ export function makeErrorFromResponse(response) {
     const { code, data: errorData, message, type: subType } = response;
     const error = new RPCError();
     error.exceptionName = errorData?.name;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     error.subType = subType;
     error.data = errorData;
@@ -126,7 +138,11 @@ rpc._rpc = function (url, params, settings) {
         const headers = settings.headers || {};
         headers["Content-Type"] = "application/json";
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (let [header, value] of Object.entries(headers)) {
+=======
+        for (const [header, value] of Object.entries(headers)) {
+>>>>>>> upstream/18.0
 =======
         for (const [header, value] of Object.entries(headers)) {
 >>>>>>> upstream/18.0

@@ -38,6 +38,10 @@ Justine Doutreloux justine.doutreloux@acsone.eu https://github.com/jdoutreloux
 Laurent Stukkens laurent.stukkens@acsone.eu https://github.com/it-ideas
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Tobias Zehntner tobias.zehntner@acsone.eu https://github.com/tobiaszehntner
+>>>>>>> upstream/18.0
 =======
 Tobias Zehntner tobias.zehntner@acsone.eu https://github.com/tobiaszehntner
 >>>>>>> upstream/18.0

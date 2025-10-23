@@ -182,12 +182,21 @@ class AccountMove(models.Model):
             ]
             journal = self.env['account.journal']
             msg = False
+<<<<<<< HEAD
             if res_code in ['9', '10'] and rec.journal_id.l10n_ar_afip_pos_system not in expo_journals:
                 # if partner is foregin and journal is not of expo, we try to change to expo journal
                 journal = journal.search(domain + [('l10n_ar_afip_pos_system', 'in', expo_journals)], limit=1)
                 msg = _('You are trying to create an invoice for foreign partner but you don\'t have an exportation journal')
             elif res_code not in ['9', '10'] and rec.journal_id.l10n_ar_afip_pos_system in expo_journals:
                 # if partner is NOT foregin and journal is for expo, we try to change to local journal
+=======
+            if res_code in ['8', '9', '10'] and rec.journal_id.l10n_ar_afip_pos_system not in expo_journals:
+                # if it is a foreign partner and journal is not for expo, we try to change it to an expo journal
+                journal = journal.search(domain + [('l10n_ar_afip_pos_system', 'in', expo_journals)], limit=1)
+                msg = _('You are trying to create an invoice for foreign partner but you don\'t have an exportation journal')
+            elif res_code not in ['8', '9', '10'] and rec.journal_id.l10n_ar_afip_pos_system in expo_journals:
+                # if it is NOT a foreign partner and journal is for expo, we try to change it to a local journal
+>>>>>>> upstream/18.0
                 journal = journal.search(domain + [('l10n_ar_afip_pos_system', 'not in', expo_journals)], limit=1)
                 msg = _('You are trying to create an invoice for domestic partner but you don\'t have a domestic market journal')
             if journal:
@@ -197,6 +206,24 @@ class AccountMove(models.Model):
                 action = self.env.ref('account.action_account_journal_form')
                 raise RedirectWarning(msg, action.id, _('Go to Journals'))
 
+<<<<<<< HEAD
+=======
+    def _compute_l10n_latam_document_type(self):
+        """We correct the default document type in vendor bills in case the partner is foreign (code 8)
+        so that it is always 'Foreign invoices and receipts'.
+        """
+        super()._compute_l10n_latam_document_type()
+        foreign_vendor_bills = self.filtered(lambda x: (
+            x.company_id.account_fiscal_country_id.code == "AR"
+            and x.state == 'draft'
+            and x.move_type in ['in_invoice', 'in_refund']
+            and x.l10n_latam_document_type_id
+            and x.partner_id.l10n_ar_afip_responsibility_type_id.code == '8'))
+        doctype_fa_exterior = self.env.ref('l10n_ar.fa_exterior', raise_if_not_found=False)
+        if doctype_fa_exterior:
+            foreign_vendor_bills.l10n_latam_document_type_id = doctype_fa_exterior
+
+>>>>>>> upstream/18.0
     def _post(self, soft=True):
         ar_invoices = self.filtered(lambda x: x.company_id.account_fiscal_country_id.code == "AR" and x.l10n_latam_use_documents)
         # We make validations here and not with a constraint because we want validation before sending electronic
@@ -447,6 +474,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -795,7 +827,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and not self.currency_id.is_zero(values['tax_amount_currency'])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

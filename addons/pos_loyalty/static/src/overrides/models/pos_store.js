@@ -9,6 +9,10 @@ import { Mutex } from "@web/core/utils/concurrency";
 import { effect } from "@web/core/utils/reactive";
 import { batched } from "@web/core/utils/timing";
 import { serializeDate } from "@web/core/l10n/dates";
+<<<<<<< HEAD
+=======
+import { omit } from "@web/core/utils/objects";
+>>>>>>> upstream/18.0
 
 let nextId = -1;
 const mutex = new Mutex();
@@ -84,7 +88,10 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -212,6 +219,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -348,6 +358,7 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         if (
                             (reward.reward_type == "product" &&
                                 reward.program_id.applies_on !== "both") ||
@@ -358,6 +369,8 @@ patch(PosStore.prototype, {
                                 qty: reward.reward_product_qty || 1,
                             });
                         }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -444,6 +457,7 @@ patch(PosStore.prototype, {
             ) {
                 Object.assign(oldChanges[idx], pointsAdded[idx]);
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -609,6 +623,9 @@ patch(PosStore.prototype, {
 =======
             if (pointsAdded.length < oldChanges.length || !order._programIsApplicable(program)) {
 >>>>>>> upstream/18.0
+=======
+            if (pointsAdded.length < oldChanges.length || !order._programIsApplicable(program)) {
+>>>>>>> upstream/18.0
                 const removedIds = oldChanges.map((pe) => pe.coupon_id);
                 order.uiState.couponPointChanges = Object.fromEntries(
                     Object.entries(order.uiState.couponPointChanges).filter(([k, pe]) => {
@@ -646,9 +663,12 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const { points, barcode = "" } = pointObj;
                     const key = barcode ? `${points}-${barcode}` : `${points}`;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -743,6 +763,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -834,9 +857,12 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const { points, barcode = "" } = pointObj;
                     const key = barcode ? `${points}-${barcode}` : `${points}`;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -931,6 +957,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1025,6 +1054,7 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const [points, barcode = ""] = key.split("-");
                     while (pointsCount[key] > 0) {
                         newPointsAdded.push({ points: Number(points), barcode });
@@ -1033,6 +1063,8 @@ patch(PosStore.prototype, {
                 });
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1123,6 +1155,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1324,6 +1359,7 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         couponPointChange.code = order.get_selected_orderline()?.gift_code;
                         couponPointChange.partner_id = order.get_partner()?.id;
@@ -1722,6 +1758,11 @@ patch(PosStore.prototype, {
 >>>>>>> upstream/18.0
 =======
                         couponPointChange.code = order.get_selected_orderline()?.gift_code;
+                        couponPointChange.partner_id = order.get_partner()?.id;
+>>>>>>> upstream/18.0
+=======
+                        couponPointChange.code =
+                            order.get_selected_orderline()?.gift_code || pa.gift_code;
                         couponPointChange.partner_id = order.get_partner()?.id;
 >>>>>>> upstream/18.0
 =======
@@ -1958,10 +1999,13 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let claimableRewards = null;
         let coupon = null;
         if (rule) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2154,6 +2198,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2482,7 +2529,13 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             order._applyReward(reward.reward, reward.coupon_id, { product });
+=======
+            order._applyReward(reward.reward, reward.coupon_id, {
+                product: result.product_id,
+            });
+>>>>>>> upstream/18.0
 =======
             order._applyReward(reward.reward, reward.coupon_id, {
                 product: result.product_id,
@@ -2880,9 +2933,12 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const reward of this.models["loyalty.reward"].getAll()) {
             this.compute_discount_product_ids(reward, products);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3012,6 +3068,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3152,7 +3211,12 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     compute_discount_product_ids(reward, products) {
+=======
+    compute_discount_product_ids(reward, products, productsSerialized = []) {
+        // TODO: remove products parameter in master
+>>>>>>> upstream/18.0
 =======
     compute_discount_product_ids(reward, products, productsSerialized = []) {
         // TODO: remove products parameter in master
@@ -3368,8 +3432,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ["link", ...products.filter((p) => domain.contains(p.serialize()))],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3496,6 +3563,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3679,7 +3749,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.models["loyalty.reward"].delete(reward.id);
+=======
+                reward.delete();
+>>>>>>> upstream/18.0
 =======
                 reward.delete();
 >>>>>>> upstream/18.0
@@ -4054,6 +4128,127 @@ patch(PosStore.prototype, {
                     });
                 }
             }
+<<<<<<< HEAD
+=======
+            this._postProcessLoyalty(order);
+        }
+    },
+    async _postProcessLoyalty(order) {
+        // Compile data for our function
+        const ProgramModel = this.models["loyalty.program"];
+        const rewardLines = order._get_reward_lines();
+        const partner = order.get_partner();
+        let couponData = Object.values(order.uiState.couponPointChanges).reduce((agg, pe) => {
+            agg[pe.coupon_id] = Object.assign({}, pe, {
+                points: pe.points - order._getPointsCorrection(ProgramModel.get(pe.program_id)),
+            });
+            const program = ProgramModel.get(pe.program_id);
+            if (
+                (program.is_nominative || program.program_type == "next_order_coupons") &&
+                partner
+            ) {
+                agg[pe.coupon_id].partner_id = partner.id;
+            }
+            if (program.program_type != "loyalty") {
+                agg[pe.coupon_id].expiration_date = program.date_to || pe.expiration_date;
+            }
+            return agg;
+        }, {});
+        for (const line of rewardLines) {
+            const reward = line.reward_id;
+            const couponId = line.coupon_id.id;
+            if (!couponData[couponId]) {
+                couponData[couponId] = {
+                    points: 0,
+                    program_id: reward.program_id.id,
+                    coupon_id: couponId,
+                    barcode: false,
+                };
+                if (reward.program_type != "loyalty") {
+                    couponData[couponId].expiration_date = reward.program_id.date_to;
+                }
+            }
+            if (!couponData[couponId].line_codes) {
+                couponData[couponId].line_codes = [];
+            }
+            if (!couponData[couponId].line_codes.includes(line.reward_identifier_code)) {
+                !couponData[couponId].line_codes.push(line.reward_identifier_code);
+            }
+            couponData[couponId].points -= line.points_cost;
+        }
+        // We actually do not care about coupons for 'current' programs that did not claim any reward, they will be lost if not validated
+        couponData = Object.fromEntries(
+            Object.entries(couponData)
+                .filter(([key, value]) => {
+                    const program = ProgramModel.get(value.program_id);
+                    if (program.applies_on === "current") {
+                        return value.line_codes && value.line_codes.length;
+                    }
+                    return true;
+                })
+                .map(([key, value]) => [key, omit(value, "appliedRules")])
+        );
+        if (Object.keys(couponData || {}).length > 0) {
+            const payload = await this.data.call("pos.order", "confirm_coupon_programs", [
+                order.id,
+                couponData,
+            ]);
+            if (payload.coupon_updates) {
+                for (const couponUpdate of payload.coupon_updates) {
+                    // The following code is a workaround to update the id of an existing record.
+                    // It's so ugly.
+                    // FIXME: Find a better way of updating the id of an existing record.
+                    // It would be better if we can do this:
+                    // const coupon = this.models["loyalty.card"].get(couponUpdate.old_id);
+                    // coupon.update({ id: couponUpdate.id, points: couponUpdate.points })
+
+                    if (couponUpdate.old_id == couponUpdate.id) {
+                        // just update the points
+                        const coupon = this.models["loyalty.card"].get(couponUpdate.id);
+
+                        if (!coupon) {
+                            await this.data.read("loyalty.card", [couponUpdate.id]);
+                        } else {
+                            coupon.update({ points: couponUpdate.points });
+                        }
+                    } else {
+                        // create a new coupon and delete the old one
+                        const coupon = this.models["loyalty.card"].create({
+                            id: couponUpdate.id,
+                            code: couponUpdate.code,
+                            program_id: this.models["loyalty.program"].get(couponUpdate.program_id),
+                            partner_id: this.models["res.partner"].get(couponUpdate.partner_id),
+                            points: couponUpdate.points,
+                        });
+
+                        // Before deleting the old coupon, update the order lines that use it.
+                        for (const line of order.lines) {
+                            if (line.coupon_id?.id == couponUpdate.old_id) {
+                                line.update({ coupon_id: coupon });
+                            }
+                        }
+
+                        this.models["loyalty.card"].get(couponUpdate.old_id)?.delete();
+                    }
+                }
+            }
+            // Update the usage count since it is checked based on local data
+            if (payload.program_updates) {
+                for (const programUpdate of payload.program_updates) {
+                    const program = ProgramModel.get(programUpdate.program_id);
+                    if (program) {
+                        program.total_order_count = programUpdate.usages;
+                    }
+                }
+            }
+            if (payload.coupon_report) {
+                for (const [actionId, active_ids] of Object.entries(payload.coupon_report)) {
+                    await this.report.doAction(actionId, active_ids);
+                }
+                order.has_pdf_gift_card = Object.keys(payload.coupon_report).length > 0;
+            }
+            order.new_coupon_info = payload.new_coupon_info;
+>>>>>>> upstream/18.0
         }
     },
 });

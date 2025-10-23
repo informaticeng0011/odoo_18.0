@@ -79,6 +79,7 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-set="showAll" t-value="env.runner.hasFilter" />
 =======
         <t t-set="showAll" t-value="env.runner.hasRemovableFilter" />
@@ -712,12 +713,17 @@ export class HootButtons extends Component {
             t-on-pointerleave="onPointerLeave"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         <t t-set="showAll" t-value="env.runner.hasRemovableFilter" />
         <t t-set="showFailed" t-value="runnerState.failedIds.size" />
         <div
             class="${HootButtons.name} relative"
             t-on-pointerenter="onPointerEnter"
             t-on-pointerleave="onPointerLeave"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         >
             <div class="flex rounded gap-px overflow-hidden">
@@ -735,6 +741,7 @@ export class HootButtons extends Component {
                 <button
                     type="button"
                     class="bg-btn px-2 py-1 transition-colors animate-slide-left"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1144,6 +1151,9 @@ export class HootButtons extends Component {
 =======
                     t-on-click.stop="onToggleClick"
 >>>>>>> upstream/18.0
+=======
+                    t-on-click.stop="onToggleClick"
+>>>>>>> upstream/18.0
                 >
                     <i class="fa fa-caret-down transition" t-att-class="{ 'rotate-180': state.open }" />
                 </button>
@@ -1152,12 +1162,15 @@ export class HootButtons extends Component {
             <t t-if="state.open">
                 <div
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class="animate-slide-down w-fit absolute flex flex-col end-0 shadow rounded overflow-hidden shadow z-2"
                 >
                     <t t-if="showAll">
                         <HootLink class="'bg-btn p-2 whitespace-nowrap transition-colors'">
                             Run <strong>all</strong> tests
 =======
+=======
+>>>>>>> upstream/18.0
                     class="
                         w-fit absolute animate-slide-down
                         flex flex-col end-0
@@ -1169,11 +1182,15 @@ export class HootButtons extends Component {
                             title="'Run all tests'"
                         >
                             Run <strong class="text-primary">all</strong> tests
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         </HootLink>
                     </t>
                     <t t-if="showFailed">
                         <HootLink
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1928,6 +1945,8 @@ export class HootButtons extends Component {
                         >
                             Run failed <strong>suites</strong>
 =======
+=======
+>>>>>>> upstream/18.0
                             class="'p-3 whitespace-nowrap transition-colors hover:bg-gray-300 dark:hover:bg-gray-700'"
                             title="'Run failed tests'"
                             ids="{ id: runnerState.failedIds }"
@@ -1942,6 +1961,9 @@ export class HootButtons extends Component {
                             onClick="onRunFailedClick"
                         >
                             Run <strong class="text-rose">failed</strong> suites
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         </HootLink>
                     </t>
@@ -2076,7 +2098,10 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2402,6 +2427,9 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2740,7 +2768,10 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3048,6 +3079,9 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

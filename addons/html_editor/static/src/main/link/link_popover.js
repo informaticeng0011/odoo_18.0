@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import { session } from "@web/session";
+>>>>>>> upstream/18.0
 import { _t } from "@web/core/l10n/translation";
 import { Component, useState, onMounted, useRef } from "@odoo/owl";
 import { useAutofocus, useService } from "@web/core/utils/hooks";
@@ -103,6 +107,10 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        LinkPopoverState: Object,
+>>>>>>> upstream/18.0
 =======
         LinkPopoverState: Object,
 >>>>>>> upstream/18.0
@@ -487,7 +495,11 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             editing: this.props.linkEl.href ? false : true,
+=======
+            editing: this.props.LinkPopoverState.editing,
+>>>>>>> upstream/18.0
 =======
             editing: this.props.LinkPopoverState.editing,
 >>>>>>> upstream/18.0
@@ -830,6 +842,10 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            showLabel: !this.props.linkEl.childElementCount,
+>>>>>>> upstream/18.0
 =======
             showLabel: !this.props.linkEl.childElementCount,
 >>>>>>> upstream/18.0
@@ -1116,6 +1132,7 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.loadAsyncLinkPreview();
 =======
 >>>>>>> upstream/18.0
@@ -1133,6 +1150,8 @@ export class LinkPopover extends Component {
 >>>>>>> upstream/18.0
         this.props.onApply(this.state.url, this.state.label, this.state.classes);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1358,6 +1377,9 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1611,7 +1633,14 @@ export class LinkPopover extends Component {
             if (icon) {
                 this.state.previewIcon.value = icon;
             }
+<<<<<<< HEAD
         } else if (window.location.hostname !== url.hostname) {
+=======
+        } else if (
+            window.location.hostname !== url.hostname &&
+            !new RegExp(`^https?://${session.db}\\.odoo\\.com(/.*)?$`).test(url.origin)
+        ) {
+>>>>>>> upstream/18.0
             // Preview pages from current website only. External website will
             // most of the time raise a CORS error. To avoid that error, we
             // would need to fetch the page through the server (s2s), involving
@@ -1773,6 +1802,10 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.state.attachmentId = attachment.id;
+>>>>>>> upstream/18.0
 =======
         this.state.attachmentId = attachment.id;
 >>>>>>> upstream/18.0

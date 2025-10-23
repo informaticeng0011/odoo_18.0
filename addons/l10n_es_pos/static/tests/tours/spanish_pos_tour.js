@@ -6,7 +6,11 @@ import * as Chrome from "@point_of_sale/../tests/tours/utils/chrome_util";
 import * as PartnerList from "@point_of_sale/../tests/tours/utils/partner_list_util";
 import * as Utils from "@point_of_sale/../tests/tours/utils/common";
 import { registry } from "@web/core/registry";
+<<<<<<< HEAD
 import { checkSimplifiedInvoiceNumber, pay } from "./utils/receipt_util";
+=======
+import { checkSimplifiedInvoiceNumber, checkCompanyState, pay } from "./utils/receipt_util";
+>>>>>>> upstream/18.0
 
 const SIMPLIFIED_INVOICE_LIMIT = 1000;
 
@@ -43,11 +47,19 @@ registry.category("web_tour.tours").add("spanish_pos_tour", {
                     "verify that the simplified invoice number does not appear on the receipt, because this order is invoiced, so it does not have a simplified invoice number",
                 trigger: ".receipt-screen:not(:has(.simplified-invoice-number))",
             },
+<<<<<<< HEAD
+=======
+            checkCompanyState("Badajoz"),
+>>>>>>> upstream/18.0
             ReceiptScreen.clickNextOrder(),
 
             ProductScreen.addOrderline("Desk Pad", "1"),
             pay(),
             checkSimplifiedInvoiceNumber("0003"),
+<<<<<<< HEAD
+=======
+            checkCompanyState("Badajoz"),
+>>>>>>> upstream/18.0
             ReceiptScreen.clickNextOrder(),
             ProductScreen.addOrderline("Desk Pad", "1"),
             ProductScreen.clickPayButton(),
@@ -185,7 +197,10 @@ registry.category("web_tour.tours").add("l10n_es_pos_settle_account_due", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -426,6 +441,10 @@ registry.category("web_tour.tours").add("test_simplified_invoice_not_override_se
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ProductScreen.clickFiscalPosition("Original Tax"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickFiscalPosition("Original Tax"),
 >>>>>>> upstream/18.0
@@ -588,6 +607,7 @@ registry.category("web_tour.tours").add("test_simplified_invoice_not_override_se
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -724,6 +744,8 @@ registry.category("web_tour.tours").add("test_simplified_invoice_not_override_se
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -857,6 +879,9 @@ registry.category("web_tour.tours").add("test_simplified_partner_inactive_case",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

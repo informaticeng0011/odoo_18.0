@@ -74,6 +74,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 
@@ -659,7 +664,10 @@ class TestSaleMrpFlowCommon(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         p.uom_po_id = uom_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3364,7 +3372,10 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3779,6 +3790,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3849,6 +3861,8 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4122,6 +4136,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4140,6 +4155,8 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4402,6 +4419,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4452,6 +4470,8 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4616,12 +4636,15 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4812,6 +4835,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4900,4 +4924,45 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_delivery_after_splitting_production(self):
+        """
+        Test that processing the different MOs of a split production correctly
+        updates the picking SM's quantity.
+        """
+        # Set product up with MTO + Manufacture with (empty) BoM
+        product = self._cls_create_product('Split Product', self.uom_unit, routes=[
+            self.company_data['default_warehouse'].mto_pull_id.route_id,
+            self.company_data['default_warehouse'].manufacture_pull_id.route_id,
+        ])
+        self.env['mrp.bom'].create({
+            'product_tmpl_id': product.product_tmpl_id.id,
+            'product_uom_id': self.env.ref('uom.product_uom_unit').id,
+        })
+
+        sale_order = self.env['sale.order'].create({
+            'partner_id': self.partner.id,
+            'order_line': [Command.create({
+                'name': f"2 of {self.product.name}",
+                'product_id': product.id,
+                'product_uom_qty': 2,
+                'product_uom': product.uom_id.id,
+            })],
+        })
+        sale_order.action_confirm()
+        sale_picking = sale_order.picking_ids
+        self.assertTrue(sale_picking)
+
+        mo = self.env['mrp.production'].search([('product_id', '=', product.id)], limit=1)
+        Form.from_action(self.env, mo.action_split()).save().action_split()
+        self.assertEqual(len(mo.backorder_ids), 2)
+
+        mo.backorder_ids[0].button_mark_done()
+        self.assertEqual(sale_picking.move_ids.quantity, 1)
+        mo.backorder_ids[1].button_mark_done()
+        self.assertEqual(sale_picking.move_ids.quantity, 2)
+        sale_picking.button_validate()
+        self.assertEqual(sale_order.order_line.qty_delivered, 2.0)
 >>>>>>> upstream/18.0

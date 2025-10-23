@@ -156,6 +156,12 @@ export class FormViewDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                context: {
+                    ...this.props.context,
+                },
+>>>>>>> upstream/18.0
 =======
                 context: {
                     ...this.props.context,

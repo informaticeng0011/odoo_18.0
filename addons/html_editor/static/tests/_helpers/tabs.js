@@ -155,7 +155,11 @@ export function oeTab(size, contenteditable = true) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         (size ? ` style="width: ${size.toFixed(1)}px;"` : "") +
+=======
+        (size ? ` style="width: ${Number(size.toFixed(1))}px;"` : "") +
+>>>>>>> upstream/18.0
 =======
         (size ? ` style="width: ${Number(size.toFixed(1))}px;"` : "") +
 >>>>>>> upstream/18.0
@@ -467,7 +471,11 @@ function compare(contentEl, contentSpec, mode) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         message: `(testEditor) ${mode} is strictly equal to %actual%`,
+=======
+        message: `(testEditor) ${mode} should be strictly equal to ${expectedContent}`,
+>>>>>>> upstream/18.0
 =======
         message: `(testEditor) ${mode} should be strictly equal to ${expectedContent}`,
 >>>>>>> upstream/18.0

@@ -36,7 +36,11 @@ class AccountTax(models.Model):
         ('29', 'Corporation Tax'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ], string='Spanish Facturae EDI Tax Type', default='01')
+=======
+    ], string='Spanish Facturae EDI Tax Type')
+>>>>>>> upstream/18.0
 =======
     ], string='Spanish Facturae EDI Tax Type')
 >>>>>>> upstream/18.0

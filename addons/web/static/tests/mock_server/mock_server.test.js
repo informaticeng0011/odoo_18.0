@@ -8,6 +8,11 @@ import {
 } from "@web/../tests/web_test_helpers";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { ConnectionLostError, rpc } from "@web/core/network/rpc";
+
+>>>>>>> upstream/18.0
 =======
 import { ConnectionLostError, rpc } from "@web/core/network/rpc";
 
@@ -154,15 +159,25 @@ defineModels([Partner, Bar, Foo]);
  *  kwargs: Record<string, any>;
  *  [key: string]: any;
  * }} params
+<<<<<<< HEAD
  * @returns
  */
 const ormRequest = async (params) => {
     const response = await fetch(`/web/dataset/call_kw/${params.model}/${params.method}`, {
+=======
+ */
+function fetchCallKw(params) {
+    return fetch(`/web/dataset/call_kw/${params.model}/${params.method}`, {
+>>>>>>> upstream/18.0
         method: "POST",
         headers: {
             "Content-Type": "application/json",
         },
         body: JSON.stringify({
+<<<<<<< HEAD
+=======
+            id: nextJsonRpcId++,
+>>>>>>> upstream/18.0
             jsonrpc: "2.0",
             method: "call",
             params: {
@@ -172,6 +187,22 @@ const ormRequest = async (params) => {
             },
         }),
     });
+<<<<<<< HEAD
+=======
+}
+
+/**
+ * @param {{
+ *  model: string;
+ *  method: string;
+ *  args: any[];
+ *  kwargs: Record<string, any>;
+ *  [key: string]: any;
+ * }} params
+ */
+const ormRequest = async (params) => {
+    const response = await fetchCallKw(params);
+>>>>>>> upstream/18.0
     const { error, result } = await response.json();
     if (error) {
         console.error(error);
@@ -181,7 +212,10 @@ const ormRequest = async (params) => {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 /**
  * Minimal parameters to have a request considered as a JSON-RPC request
  */
@@ -191,6 +225,11 @@ const JSON_RPC_BASIC_PARAMS = {
         ["Content-Type"]: "application/json",
     },
 };
+<<<<<<< HEAD
+
+>>>>>>> upstream/18.0
+=======
+let nextJsonRpcId = 0;
 
 >>>>>>> upstream/18.0
 describe.current.tags("headless");
@@ -205,6 +244,7 @@ test("onRpc: normal result", async () => {
     expect(response).toBeInstanceOf(Response);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     await expect(response.json()).resolves.toEqual({ result: "result", error: null });
 });
 
@@ -216,17 +256,23 @@ test("onRpc: error handling", async () => {
     onRpc("/boom", () => {
         throw new CustomError("boom");
 =======
+=======
+>>>>>>> upstream/18.0
     await expect(response.text()).resolves.toBe("result");
 });
 
 test("onRpc: error handling", async () => {
     onRpc("/boom", () => {
         throw new Error("boom");
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
 
     await makeMockServer();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     const response = await fetch("/boom");
 
@@ -243,6 +289,9 @@ test("onRpc: error handling", async () => {
             type: "CustomError",
         },
     });
+=======
+    await expect(fetch("/boom")).rejects.toThrow("boom");
+>>>>>>> upstream/18.0
 =======
     await expect(fetch("/boom")).rejects.toThrow("boom");
 >>>>>>> upstream/18.0
@@ -275,7 +324,10 @@ test("onRpc: pure, error handling", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("onRpc: JSON-RPC normal result", async () => {
     onRpc("/get_result", () => "get_result value");
 
@@ -355,6 +407,16 @@ test("rpc: calls on mock server", async () => {
     ).rejects.toThrow(
         `Cannot find a definition for model "fake.model": could not get model from server environment`
     );
+});
+
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
+test("performRPC: custom response", async () => {
+    const customResponse = new Response("{}", { status: 418 });
+    onRpc(() => customResponse);
+    await makeMockServer();
+    await expect(fetchCallKw({})).resolves.toBe(customResponse);
 });
 
 >>>>>>> upstream/18.0

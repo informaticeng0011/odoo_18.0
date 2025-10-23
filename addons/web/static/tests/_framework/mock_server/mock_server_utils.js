@@ -2,7 +2,10 @@ import { makeErrorFromResponse } from "@web/core/network/rpc";
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
  * @typedef {{
  *  code?: number;
  *  context?: import("@web/core/context").Context;
@@ -16,6 +19,9 @@ import { makeErrorFromResponse } from "@web/core/network/rpc";
  */
 
 /**
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
  * @template T
  * @typedef {import("./mock_server").KwArgs<T>} KwArgs
@@ -63,7 +69,11 @@ export function getKwArgs(allArgs, ...argNames) {
     const kwargs = args.at(-1)?.[KWARGS_SYMBOL] ? args.pop() : makeKwArgs({});
     if (args.length > argNames.length) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         throw new MockServerError("more positional arguments than there are given argument names");
+=======
+        throw new MockServerError("More positional arguments than there are given argument names");
+>>>>>>> upstream/18.0
 =======
         throw new MockServerError("More positional arguments than there are given argument names");
 >>>>>>> upstream/18.0
@@ -92,7 +102,11 @@ export function getRecordQualifier(record) {
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {Record<string, string | any>} params
+=======
+ * @param {ServerErrorInit} params
+>>>>>>> upstream/18.0
 =======
  * @param {ServerErrorInit} params
 >>>>>>> upstream/18.0
@@ -110,7 +124,10 @@ export function makeServerError({
     return makeErrorFromResponse({
         code: code || 200,
 <<<<<<< HEAD
+<<<<<<< HEAD
         message: message || "Odoo Server Error",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         data: {
@@ -120,13 +137,19 @@ export function makeServerError({
             context: context || {},
             subType,
 <<<<<<< HEAD
+<<<<<<< HEAD
             message: description,
         },
 =======
+=======
+>>>>>>> upstream/18.0
             message: description || message,
         },
         message: message || "Odoo Server Error",
         type: "server",
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
 }

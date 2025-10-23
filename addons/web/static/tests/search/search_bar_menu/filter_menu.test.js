@@ -123,7 +123,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup,
+=======
+    serverState,
+>>>>>>> upstream/18.0
 =======
     serverState,
 >>>>>>> upstream/18.0
@@ -1238,7 +1242,11 @@ test("Add a custom filter containing an expression", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -1671,7 +1679,11 @@ test("Add a custom filter containing a between operator", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -2102,7 +2114,11 @@ test("consistent display of ! in debug mode", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -2583,7 +2599,11 @@ test("Add a custom filter: notification on invalid domain", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -3017,7 +3037,11 @@ test("display names in facets", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -3463,6 +3487,7 @@ test("display names in facets (with a property)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
 =======
     serverState.debug = "1";
@@ -3708,6 +3733,8 @@ test("display names in facets (with a property)", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     serverState.debug = "1";
     Partner._records = [{ id: 1, name: "John" }];
 
@@ -3777,6 +3804,9 @@ test("display names in facets (with a property)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4132,7 +4162,11 @@ test("shorten descriptions of long lists", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -4500,7 +4534,10 @@ test("shorten descriptions of long lists", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4643,6 +4680,9 @@ test(`Custom filter with "&"" as value`, async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

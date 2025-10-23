@@ -44,7 +44,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <t t-foreach="state.data.buttons" t-as="button" t-key="button.sequence">
+=======
+                        <t t-foreach="state.data.buttons" t-as="button" t-key="button_index">
+>>>>>>> upstream/18.0
 =======
                         <t t-foreach="state.data.buttons" t-as="button" t-key="button_index">
 >>>>>>> upstream/18.0

@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,10 +116,15 @@
 # * purchase
 #
 >>>>>>> upstream/18.0
+=======
+# * purchase
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Jumshud Sultanov <cumshud@gmail.com>, 2024
 # Nurlan Farajov <coolinuxoid@gmail.com>, 2025
 # erpgo translator <jumshud@erpgo.az>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,10 +226,14 @@
 =======
 # ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -615,10 +625,18 @@ msgstr ""
 "Language-Team: Azerbaijani <https://translate.odoo.com/projects/odoo-18/"
 "purchase/az/>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+"PO-Revision-Date: 2025-10-22 14:06+0000\n"
+"Last-Translator: ERPGo Odoo <erpgo.odoo@gmail.com>\n"
+"Language-Team: Azerbaijani <https://translate.odoo.com/projects/odoo-18/"
+"purchase/az/>\n"
+>>>>>>> upstream/18.0
 "Language: az\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -719,11 +737,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.report,print_report_name:purchase.action_report_purchase_order
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -850,6 +873,10 @@ msgid ""
 "                (object.state in ('draft', 'sent') and 'Request for "
 "Quotation - %s' % (object.name) or\n"
 >>>>>>> upstream/18.0
+=======
+"                (object.state in ('draft', 'sent') and 'Request for "
+"Quotation - %s' % (object.name) or\n"
+>>>>>>> upstream/18.0
 "                'Purchase Order - %s' % (object.name))"
 msgstr ""
 
@@ -857,7 +884,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__partner_bill_count
 msgid "# Vendor Bills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# Podratçının Fakturaları"
+=======
+msgstr "# Təchizatçı Qaimələri"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Təchizatçı Qaimələri"
 >>>>>>> upstream/18.0
@@ -918,7 +949,11 @@ msgstr "3 tərəfli uyğunluq"
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__module_account_3way_match
 msgid "3-way matching: purchases, receptions and bills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "3 tərəfli uyğunluq: alışlar, qəbullar və hesablar"
+=======
+msgstr "3 tərəfli uyğunluq: alışlar, qəbuletmələr və qaimələr"
+>>>>>>> upstream/18.0
 =======
 msgstr "3 tərəfli uyğunluq: alışlar, qəbuletmələr və qaimələr"
 >>>>>>> upstream/18.0
@@ -955,6 +990,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -966,6 +1002,8 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1052,6 +1090,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1131,10 +1172,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1212,6 +1256,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1293,6 +1340,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Hörmətli <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
@@ -1302,6 +1350,8 @@ msgstr ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            <span style=\"font-weight:bold;\">(<t t-out=\"object.partner_ref or ''\">REF_XXX</t>)</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1386,6 +1436,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1464,7 +1517,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
+=======
+"            <span style=\"font-weight:bold;\" t-"
+"out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
+>>>>>>> upstream/18.0
 =======
 "            <span style=\"font-weight:bold;\" t-"
 "out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
@@ -1594,11 +1652,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Zəhmət olmasa təsdiq edə bilərsinizmi ki, sifariş vaxtında çatdırılacaq?\n"
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1678,6 +1739,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1764,6 +1828,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -1783,6 +1848,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1881,6 +1948,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1962,10 +2032,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Hörmətli <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2043,6 +2116,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2121,6 +2197,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_ref or ''\">REF_XXX</t> istinad nömrəli \n"
 "        </t>\n"
 "        <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 10.00</span> məbləğli\n"
@@ -2136,6 +2213,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2231,6 +2310,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2317,6 +2399,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -2324,6 +2407,8 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2405,6 +2490,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2484,6 +2572,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                Accept</a>\n"
 "\n"
@@ -2495,6 +2584,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2585,6 +2676,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2665,10 +2759,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Hörmətli <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2746,6 +2843,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2824,6 +2924,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_ref or ''\">REF_XXX</t> istinad nömrəli \n"
 "        </t>\n"
 "        <t t-out=\"object.company_id.name or ''\">YourCompany</t> tərəfindən \n"
@@ -2842,6 +2943,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2942,6 +3045,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3034,9 +3140,15 @@ msgid ""
 "Waiting for Bill</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-file-text\" role=\"img\" aria-label=\"Waiting for "
 "Bill\" title=\"Waiting for Bill\"/><span class=\"d-none d-md-inline\">Qaimə "
 "Gözləyir</span>"
+=======
+"<i class=\"fa fa-fw fa-file-text\" role=\"img\" aria-label="
+"\"Waiting for Bill\" title=\"Waiting for Bill\"/><span class="
+"\"d-none d-md-inline\">Qaimə Gözlənilir</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-file-text\" role=\"img\" aria-label="
 "\"Waiting for Bill\" title=\"Waiting for Bill\"/><span class="
@@ -3049,6 +3161,7 @@ msgid ""
 "<i class=\"fa fa-fw fa-remove\" role=\"img\" aria-label=\"Cancelled\" "
 "title=\"Cancelled\"/><span class=\"d-none d-md-inline\"> Cancelled</span>"
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-remove\" role=\"img\" aria-label=\"Cancelled\" "
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3152,6 +3265,11 @@ msgstr ""
 =======
 "title=\"Cancelled\"/><span class=\"d-none d-md-inline\"> İmtina edildi</span>"
 >>>>>>> upstream/18.0
+=======
+"<i class=\"fa fa-fw fa-remove\" role=\"img\" aria-label=\"Ləğv edildi\" "
+"title=\"Ləğv edildi\"/><span class=\"d-none d-md-inline\"> İmtina "
+"edildi</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
@@ -3162,6 +3280,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
 msgid ""
 "<span class=\"d-none d-md-inline\">Confirmation Date</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3288,6 +3407,10 @@ msgid ""
 "                          <span class=\"d-block d-md-none\">Confirmation</"
 "span>"
 >>>>>>> upstream/18.0
+=======
+"                          <span class=\"d-block d-md-none\">Confirmation</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<span class=\"d-none d-md-inline\">Təsdiq Tarixi </span>\n"
 "                          <span class=\"d-block d-md-none\">Təsdiq</span>"
@@ -3301,7 +3424,11 @@ msgstr ""
 "<span class=\"d-none d-md-inline\">Satınalma Sifarişi #</span>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                          <span class=\"d-block d-md-none\">Ref</span>"
+=======
+"                          <span class=\"d-block d-md-none\">İst.</span>"
+>>>>>>> upstream/18.0
 =======
 "                          <span class=\"d-block d-md-none\">İst.</span>"
 >>>>>>> upstream/18.0
@@ -3318,7 +3445,11 @@ msgstr ""
 "<span class=\"d-none d-md-inline\">Qiymət Sorğusu #</span>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <span class=\"d-block d-md-none\">Ref.</span>"
+=======
+"                        <span class=\"d-block d-md-none\">İst.</span>"
+>>>>>>> upstream/18.0
 =======
 "                        <span class=\"d-block d-md-none\">İst.</span>"
 >>>>>>> upstream/18.0
@@ -3329,6 +3460,7 @@ msgstr ""
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3405,6 +3537,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')"
 "\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in "
@@ -3433,6 +3567,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3480,6 +3615,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgstr ""
@@ -3488,6 +3625,9 @@ msgstr ""
 "                        <span class=\"o_form_label\" invisible="
 "\"state in ('draft', 'sent')\">Satınalma Sifarişi </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3641,6 +3781,7 @@ msgstr "<strong class=\"d-block mb-1\">Fakturalar</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3819,6 +3960,11 @@ msgstr "<strong class=\"d-block mb-1\">Fakturalar</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr "<strong class=\"d-block mt-3\">Çatdırılma ünvanı:</strong>"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
@@ -3835,6 +3981,7 @@ msgstr "<strong class=\"d-block mt-3\">Çatdırılma ünvanı:</strong>"
 msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: purchase
@@ -4099,6 +4246,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">Çatdırılma ünvanı</strong>"
+
+#. module: purchase
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong class=\"d-block mt-3\">Çatdırılma ünvanı</strong>"
@@ -4125,7 +4277,11 @@ msgstr "<strong>Məbləğ</strong>"
 msgid "<strong>Buyer</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Alıcı</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Alıcı</strong>"
 >>>>>>> upstream/18.0
@@ -4144,7 +4300,11 @@ msgstr "<strong>Təsdiqlənmə Tarixi:</strong>"
 msgid "<strong>Description</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<strong>Məzmun</strong>"
+=======
+msgstr "<strong>Təsvir</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Təsvir</strong>"
 >>>>>>> upstream/18.0
@@ -4157,7 +4317,11 @@ msgstr "<strong>Təsvir</strong>"
 msgid "<strong>Disc.</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>End.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>End.</strong>"
 >>>>>>> upstream/18.0
@@ -4170,7 +4334,11 @@ msgstr "<strong>End.</strong>"
 msgid "<strong>Expected Arrival:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>1Gözlənilən Gəliş:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>1Gözlənilən Gəliş:</strong>"
 >>>>>>> upstream/18.0
@@ -4199,7 +4367,11 @@ msgstr "<strong>Sifarişin Son Tarixi:</strong>"
 msgid "<strong>Payment Terms: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ödəniş Şərtləri: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ödəniş Şərtləri: </strong>"
 >>>>>>> upstream/18.0
@@ -4213,7 +4385,11 @@ msgstr "<strong>Ödəniş Şərtləri: </strong>"
 msgid "<strong>Qty</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<strong>Miqdarı</strong>"
+=======
+msgstr "<strong>Miqdar</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Miqdar</strong>"
 >>>>>>> upstream/18.0
@@ -4232,6 +4408,7 @@ msgid "<strong>Request For Quotation Date:</strong>"
 msgstr "<strong>Qiymət Sorğusu Tarixi:</strong>"
 
 #. module: purchase
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4512,6 +4689,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Taxes</strong>"
 msgstr "<strong>Vergilər</strong>"
@@ -4546,7 +4725,11 @@ msgstr ""
 msgid "<strong>Unit Price</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<strong>Vahid Qiyməti</strong>"
+=======
+msgstr "<strong>Vahid Qiymət</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Vahid Qiymət</strong>"
 >>>>>>> upstream/18.0
@@ -4559,7 +4742,11 @@ msgstr "<strong>Vahid Qiymət</strong>"
 msgid "<strong>Your Order Reference</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Sifarişinizin İstinadı</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Sifarişinizin İstinadı</strong>"
 >>>>>>> upstream/18.0
@@ -4603,11 +4790,16 @@ msgstr "Qəbul edin"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__access_warning
 msgid "Access warning"
+<<<<<<< HEAD
 msgstr "Hesaba Giriş Xəbərdarlığı"
+=======
+msgstr "Giriş xəbərdarlığı"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__qty_received_method
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4734,6 +4926,10 @@ msgid ""
 "According to product configuration, the received quantity can be "
 "automatically computed by mechanism:\n"
 >>>>>>> upstream/18.0
+=======
+"According to product configuration, the received quantity can be "
+"automatically computed by mechanism:\n"
+>>>>>>> upstream/18.0
 "  - Manual: the quantity is set manually on the line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
@@ -4751,7 +4947,11 @@ msgstr "Hesablanmış Xərc Girişi"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_needaction
 msgid "Action Needed"
+<<<<<<< HEAD
 msgstr "Gərəkli Əməliyyat"
+=======
+msgstr "Əməliyyat Lazımdır"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_ids
@@ -4761,7 +4961,11 @@ msgstr "Fəaliyyətlər"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 msgstr "Faəliyyət istisnaetmə İşarəsi"
+=======
+msgstr "Fəaliyyət İstisna Dekorasiyası"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_state
@@ -4821,7 +5025,11 @@ msgstr ""
 msgid "Add to Purchase Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satınalma Sifarişinə əlavə edin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satınalma Sifarişinə əlavə edin"
 >>>>>>> upstream/18.0
@@ -4868,6 +5076,7 @@ msgstr "Bütün gözləyən Qiymət Sorğuları"
 #: model:ir.model.fields,help:purchase.field_res_config_settings__group_send_reminder
 msgid "Allow automatically send email to remind your vendor the receipt date"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4995,6 +5204,10 @@ msgstr ""
 "Təchizatçınıza qəbz tarixini xatırlatmaq üçün avtomatik olaraq e-poçt "
 "göndərməyə icazə verin"
 >>>>>>> upstream/18.0
+=======
+"Təchizatçınıza qəbz tarixini xatırlatmaq üçün avtomatik olaraq e-poçt "
+"göndərməyə icazə verin"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__res_company__po_lock__edit
@@ -5043,8 +5256,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Hər satınalma sifarişi xətti üçün planlaşdırılan tarixlə tarixə görə sifariş"
 " arasındakı vaxtın miqdarı."
+=======
+"Hər satınalma sifarişi xətti üçün planlaşdırılan tarixlə tarixə görə sifariş "
+"arasındakı vaxtın miqdarı."
+>>>>>>> upstream/18.0
 =======
 "Hər satınalma sifarişi xətti üçün planlaşdırılan tarixlə tarixə görə sifariş "
 "arasındakı vaxtın miqdarı."
@@ -5215,7 +5433,11 @@ msgstr "Avtomatik tamamlama"
 msgid "Auto-complete from a past bill / purchase order."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Əvvəlki fakturadan avtomatik tamamlanma / Alış sifarişi"
+=======
+msgstr "Əvvəlki qaimədən / satlnalma sifarişindən avtomatik tamamlanma."
+>>>>>>> upstream/18.0
 =======
 msgstr "Əvvəlki qaimədən / satlnalma sifarişindən avtomatik tamamlanma."
 >>>>>>> upstream/18.0
@@ -5240,7 +5462,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Automatically remind the receipt date to your vendors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Qəbul tarixini satıcılarınıza avtomatik xatırladın"
+=======
+msgstr "Qəbul tarixini təchizatçılarınıza avtomatik xatırladın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qəbul tarixini təchizatçılarınıza avtomatik xatırladın"
 >>>>>>> upstream/18.0
@@ -5253,6 +5479,7 @@ msgid ""
 "Automatically send a confirmation email to the vendor X days before the "
 "expected receipt date, asking him to confirm the exact date."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5380,6 +5607,10 @@ msgstr ""
 "Gözlənilən qəbul tarixindən X gün əvvəl təchizatçıya avtomatik olaraq təsdiq "
 "e-poçtu göndərin və ondan dəqiq tarixi təsdiqləməsini xahiş edin."
 >>>>>>> upstream/18.0
+=======
+"Gözlənilən qəbul tarixindən X gün əvvəl təchizatçıya avtomatik olaraq təsdiq "
+"e-poçtu göndərin və ondan dəqiq tarixi təsdiqləməsini xahiş edin."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__price_average
@@ -5396,7 +5627,11 @@ msgstr "Orta Sifariş Dəyəri"
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__default_purchase_method
 msgid "Bill Control"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Faktura Nəzarəti"
+=======
+msgstr "Qaimə Nəzarəti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qaimə Nəzarəti"
 >>>>>>> upstream/18.0
@@ -5410,7 +5645,11 @@ msgstr "Qaimə Sayı"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__invoice_lines
 msgid "Bill Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Qaimə Xətləri"
+=======
+msgstr "Qaimə Sətirləri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qaimə Sətirləri"
 >>>>>>> upstream/18.0
@@ -5426,7 +5665,11 @@ msgstr ""
 msgid "Bill to Purchase Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satınalma Sifarişinə Qaimə"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satınalma Sifarişinə Qaimə"
 >>>>>>> upstream/18.0
@@ -5450,7 +5693,11 @@ msgstr ""
 msgid "Billed Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Qaimələnən sayı"
+=======
+msgstr "Qaimələnən Miqdar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qaimələnən Miqdar"
 >>>>>>> upstream/18.0
@@ -5477,7 +5724,11 @@ msgstr "Qaimə Statusu"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__invoice_ids
 msgid "Bills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fakturalar"
+=======
+msgstr "Qaimələr"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qaimələr"
 >>>>>>> upstream/18.0
@@ -5486,7 +5737,11 @@ msgstr "Qaimələr"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 msgid "Bills Received"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Qəbul Edilmiş Qaimələr "
+=======
+msgstr "Qəbul Edilmiş Qaimələr"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qəbul Edilmiş Qaimələr"
 >>>>>>> upstream/18.0
@@ -5527,7 +5782,11 @@ msgstr "Ləğv edin"
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__cancel
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__cancel
 msgid "Cancelled"
+<<<<<<< HEAD
 msgstr "Ləğv olundu"
+=======
+msgstr "Ləğv edildi"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -5540,7 +5799,11 @@ msgstr "Ləğv edilmiş Satınalma Sifarişi #"
 msgid "Cannot delete a purchase order line which is in state “%s”."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "“%s” mərhələsində olan satınalma sifarişi sətrini silmək mümkün deyil."
+>>>>>>> upstream/18.0
 =======
 msgstr "“%s” mərhələsində olan satınalma sifarişi sətrini silmək mümkün deyil."
 >>>>>>> upstream/18.0
@@ -5695,7 +5958,11 @@ msgstr ""
 msgid "Copy"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Surət"
+=======
+msgstr "Kopyala"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kopyala"
 >>>>>>> upstream/18.0
@@ -5718,7 +5985,11 @@ msgstr "Qaimə yarat"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
 msgid "Create Bills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Qaimə yarat"
+=======
+msgstr "Qaimələr yarat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qaimələr yarat"
 >>>>>>> upstream/18.0
@@ -5727,7 +5998,11 @@ msgstr "Qaimələr yarat"
 #: model:ir.actions.server,name:purchase.action_purchase_batch_bills
 msgid "Create Vendor Bills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Satıcı fakturaları yaradın"
+=======
+msgstr "Təchizatçı Qaimələri yaradın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Təchizatçı Qaimələri yaradın"
 >>>>>>> upstream/18.0
@@ -5742,14 +6017,22 @@ msgstr "Yeni məhsul variantı yaradın"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__create_uid
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr "Tərəfindən yaradılıb"
+=======
+msgstr "Yaradan"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_bill_to_po_wizard__create_date
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__create_date
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr "Tarixdə yaradıldı"
+=======
+msgstr "Yaradılan tarix"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__currency_id
@@ -5768,7 +6051,11 @@ msgstr "Valyuta Məzənnəsi"
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__access_url
 msgid "Customer Portal URL"
+<<<<<<< HEAD
 msgstr "Müştəri Portalı URL"
+=======
+msgstr "Müştəri Portalının URL-i"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__date
@@ -5850,8 +6137,14 @@ msgid ""
 "vendor pricelist lead time then today's date."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Satıcıdan gözlənilən çatdırılma tarixi. Bu tarix, müvafiq olaraq, bugünkü "
 "tarixdən sonra satıcının qiymət siyahısına uyğun olaraq standartdır."
+=======
+"Təchizatçıdan gözlənilən çatdırılma tarixi. Bu tarix, müvafiq olaraq, "
+"bugünkü tarixdən sonra təchizatçının qiymət siyahısına uyğun olaraq "
+"standartdır."
+>>>>>>> upstream/18.0
 =======
 "Təchizatçıdan gözlənilən çatdırılma tarixi. Bu tarix, müvafiq olaraq, "
 "bugünkü tarixdən sonra təchizatçının qiymət siyahısına uyğun olaraq "
@@ -5866,7 +6159,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Satıcı tərəfindən vəd edilən çatdırılma tarixi. Bu tarix məhsulların "
+=======
+"Təchizatçı tərəfindən vəd edilən çatdırılma tarixi. Bu tarix məhsulların "
+>>>>>>> upstream/18.0
 =======
 "Təchizatçı tərəfindən vəd edilən çatdırılma tarixi. Bu tarix məhsulların "
 >>>>>>> upstream/18.0
@@ -5896,7 +6193,11 @@ msgstr "Təsvir"
 msgid "Disc.%"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Endirim %"
+=======
+msgstr "End.%"
+>>>>>>> upstream/18.0
 =======
 msgstr "End.%"
 >>>>>>> upstream/18.0
@@ -5922,7 +6223,11 @@ msgstr "Endirim:"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__display_name
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr "Göstəriləcək Ad"
+=======
+msgstr "Görünən Adı"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__display_type
@@ -6029,7 +6334,11 @@ msgstr "İzləyicilər (Tərəfdaşlar)"
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
+<<<<<<< HEAD
 msgstr "Gözəl şriftli ikon, məsələn fa-tapşırıqlar"
+=======
+msgstr "Font Awesome ikonu, məsələn: fa-tasks"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.constraint,message:purchase.constraint_purchase_order_line_non_accountable_null_fields
@@ -6052,7 +6361,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__invoice_status__invoiced
 msgid "Fully Billed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tamamilə Fakturalanmış "
+=======
+msgstr "Tam Qaimələnmiş"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tam Qaimələnmiş"
 >>>>>>> upstream/18.0
@@ -6072,7 +6385,11 @@ msgstr "Satınalma sifarişini təsdiqləmək üçün 2 səviyyəli təsdiq əld
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Get warnings in orders for products or vendors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Məhsullar və ya satıcılar üçün sifarişlərdə xəbərdarlıq alın"
+=======
+msgstr "Məhsullar və ya təchizatçılar üçün sifarişlərdə xəbərdarlıq alın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Məhsullar və ya təchizatçılar üçün sifarişlərdə xəbərdarlıq alın"
 >>>>>>> upstream/18.0
@@ -6110,7 +6427,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Görə Qrupla"
+=======
+msgstr "Qrupla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qrupla"
 >>>>>>> upstream/18.0
@@ -6179,18 +6500,30 @@ msgstr "Simvol"
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__activity_exception_icon
 msgid "Icon to indicate an exception activity."
+<<<<<<< HEAD
 msgstr "İstisna fəaliyyəti göstərən simvol."
+=======
+msgstr "İstisna fəaliyyətini göstərmək üçün ikon."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr "İşarələnibsə, yeni mesajlara baxmalısınız."
+=======
+msgstr "Əgər işarələnibsə, yeni mesajlar sizin diqqətinizi tələb edəcək."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__message_has_error
 #: model:ir.model.fields,help:purchase.field_purchase_order__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr "İşarələnibsə, bəzi mesajların çatdırılmasında xəta var."
+=======
+msgstr "Əgər işarələnibsə, bəzi mesajların çatdırılmasında xəta var."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -6199,7 +6532,11 @@ msgid ""
 "received in order to pay the invoice."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aktiv edilərsə, satıcı fakturalarında 3 tərəfli uyğunluğu aktivləşdirir: "
+=======
+"Aktiv edilərsə, təchizatçı qaimələrində 3 tərəfli uyğunluğu aktivləşdirir: "
+>>>>>>> upstream/18.0
 =======
 "Aktiv edilərsə, təchizatçı qaimələrində 3 tərəfli uyğunluğu aktivləşdirir: "
 >>>>>>> upstream/18.0
@@ -6326,7 +6663,11 @@ msgstr "Son Yenilənmə tarixi"
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Late"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Son"
+=======
+msgstr "Gecikmiş"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gecikmiş"
 >>>>>>> upstream/18.0
@@ -6354,7 +6695,11 @@ msgstr "Satın alma müddəti"
 msgid "Let's create your first request for quotation."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İlk qiymət sorğusunu yaradaq "
+=======
+msgstr "İlk qiymət sorğunuzu yaradaq."
+>>>>>>> upstream/18.0
 =======
 msgstr "İlk qiymət sorğunuzu yaradaq."
 >>>>>>> upstream/18.0
@@ -6366,6 +6711,7 @@ msgstr "İlk qiymət sorğunuzu yaradaq."
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6493,6 +6839,10 @@ msgid ""
 "Let's try the Purchase app to manage the flow from purchase to reception and "
 "invoice control."
 >>>>>>> upstream/18.0
+=======
+"Let's try the Purchase app to manage the flow from purchase to reception and "
+"invoice control."
+>>>>>>> upstream/18.0
 msgstr ""
 "Gəlin məhsulun alışından qəbuuna və faktura nəzarətinə qədər axını idarə "
 "etmək üçün Satınalma tətbiqini sınayaq."
@@ -6517,7 +6867,11 @@ msgstr ""
 msgid "Line Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sətir Miqdarı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sətir Miqdarı"
 >>>>>>> upstream/18.0
@@ -6553,7 +6907,11 @@ msgid ""
 "Make sure you only pay bills for which you received the goods you ordered"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Yalnız sifariş etdiyiniz malları qəbul etdiyiniz miqdarının fakturalarını "
+=======
+"Yalnız sifariş etdiyiniz malların qəbul etdiyiniz miqdarının qaimələrini "
+>>>>>>> upstream/18.0
 =======
 "Yalnız sifariş etdiyiniz malların qəbul etdiyiniz miqdarının qaimələrini "
 >>>>>>> upstream/18.0
@@ -6609,8 +6967,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for procuring products, they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for procuring products, they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for procuring products, they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -6746,8 +7109,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for reordering products,they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for reordering products,they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -6867,7 +7235,11 @@ msgstr "Birləşdirin"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr "Mesajın Çatdırılmasında xəta"
+=======
+msgstr "Mesaj Çatdırılma xətası"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_partner__purchase_warn_msg
@@ -6905,7 +7277,11 @@ msgstr "Hesabatlı satınalma sifarişi xəttində tələb olunan sahələr çat
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__my_activity_date_deadline
 msgid "My Activity Deadline"
+<<<<<<< HEAD
 msgstr "Mənim Fəaliyyətlərimin Son Tarixi "
+=======
+msgstr "Mənim Fəaliyyətlərimin Son Tarixi"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
@@ -7039,7 +7415,11 @@ msgstr "Qeydlər"
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__invoice_status__no
 msgid "Nothing to Bill"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Faktualanacaq heçbir şey yoxdur"
+=======
+msgstr "Qaimələnəcək heçbir şey yoxdur"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qaimələnəcək heçbir şey yoxdur"
 >>>>>>> upstream/18.0
@@ -7047,7 +7427,11 @@ msgstr "Qaimələnəcək heçbir şey yoxdur"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_needaction_counter
 msgid "Number of Actions"
+<<<<<<< HEAD
 msgstr "Hərəkətlərin sayı"
+=======
+msgstr "Əməliyyatların sayı"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_partner__reminder_date_before_receipt
@@ -7079,8 +7463,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vəd edilmiş qəbz tarixindən əvvəl xatırlatma e-poçtu göndərmək üçün günlərin"
 " sayı"
+=======
+"Vəd edilmiş qəbz tarixindən əvvəl xatırlatma e-poçtu göndərmək üçün günlərin "
+"sayı"
+>>>>>>> upstream/18.0
 =======
 "Vəd edilmiş qəbz tarixindən əvvəl xatırlatma e-poçtu göndərmək üçün günlərin "
 "sayı"
@@ -7306,7 +7695,11 @@ msgstr ""
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Other Information"
+<<<<<<< HEAD
 msgstr "Əlavə Məlumat"
+=======
+msgstr "Digər Məlumatlar"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_purchase
@@ -7345,7 +7738,11 @@ msgstr "Ödəniş Şərtləri"
 msgid "Payment terms"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ödəniş Şərtləri"
+=======
+msgstr "Ödəniş şərtləri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödəniş şərtləri"
 >>>>>>> upstream/18.0
@@ -7387,7 +7784,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7466,6 +7866,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7522,7 +7925,11 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__access_url
 msgid "Portal Access URL"
+<<<<<<< HEAD
 msgstr "Porta Giriş URL-si"
+=======
+msgstr "Portala Giriş URL-i"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -7583,7 +7990,11 @@ msgstr "Məhsul Kateqoriyası"
 msgid "Product Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Məhsul Təsviri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Məhsul Təsviri"
 >>>>>>> upstream/18.0
@@ -7616,7 +8027,11 @@ msgstr ""
 msgid "Product Uom Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Məhsul Ölcü Vahidi Miqdarı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Məhsul Ölcü Vahidi Miqdarı"
 >>>>>>> upstream/18.0
@@ -7676,7 +8091,11 @@ msgid "Purchase"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Satın alın"
+=======
+msgstr "Satınalma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satınalma"
 >>>>>>> upstream/18.0
@@ -7816,7 +8235,11 @@ msgid "Purchase Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Satın Alma Sifarişi"
+=======
+msgstr "Satınalma Sifarişi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satınalma Sifarişi"
 >>>>>>> upstream/18.0
@@ -7862,7 +8285,11 @@ msgstr "Satınalma Sifarişi"
 msgid "Purchase Order #"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Satın Alma Sifarişi #"
+=======
+msgstr "Satınalma Sifarişi #"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satınalma Sifarişi #"
 >>>>>>> upstream/18.0
@@ -7904,7 +8331,11 @@ msgid "Purchase Order Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Satınalma Sifariş Xətti"
+=======
+msgstr "Satınalma Sifariş Sətri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satınalma Sifariş Sətri"
 >>>>>>> upstream/18.0
@@ -7968,7 +8399,11 @@ msgid "Purchase Order Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Satınalma Sifariş Xətləri"
+=======
+msgstr "Satınalma Sifarişi Sətirləri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satınalma Sifarişi Sətirləri"
 >>>>>>> upstream/18.0
@@ -8066,7 +8501,11 @@ msgid "Purchase Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Satın Alma Sifarişi"
+=======
+msgstr "Satınalma Sifarişləri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satınalma Sifarişləri"
 >>>>>>> upstream/18.0
@@ -8158,7 +8597,11 @@ msgstr "Satınalma: Qiymət Sorğusu"
 #: model:mail.template,name:purchase.email_template_edi_purchase_reminder
 msgid "Purchase: Vendor Reminder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Satınalma: Satıcı Xatırlatma"
+=======
+msgstr "Satınalma: Təchizatçı Xatırlatma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satınalma: Təchizatçı Xatırlatma"
 >>>>>>> upstream/18.0
@@ -8200,7 +8643,11 @@ msgid ""
 "customer. Otherwise, keep empty to deliver to your own company."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Birbaşa satıcıdan müştəriyə çatdırmaq istəyirsinizsə, ünvan qoyun. Əks "
+=======
+"Birbaşa təchizatçıdan müştəriyə çatdırmaq istəyirsinizsə, ünvan qoyun. Əks "
+>>>>>>> upstream/18.0
 =======
 "Birbaşa təchizatçıdan müştəriyə çatdırmaq istəyirsinizsə, ünvan qoyun. Əks "
 >>>>>>> upstream/18.0
@@ -8211,7 +8658,11 @@ msgstr ""
 msgid "Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sayı"
+=======
+msgstr "Miqdar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Miqdar"
 >>>>>>> upstream/18.0
@@ -8224,7 +8675,11 @@ msgstr "Miqdar"
 msgid "Qty Billed"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fakturalanmış Miqdar"
+=======
+msgstr "Qaimələnən Miqdar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qaimələnən Miqdar"
 >>>>>>> upstream/18.0
@@ -8237,7 +8692,11 @@ msgstr "Qaimələnən Miqdar"
 msgid "Qty Invoiced"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Qty Faktura"
+=======
+msgstr "Fakturalanan Miqdar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fakturalanan Miqdar"
 >>>>>>> upstream/18.0
@@ -8250,7 +8709,11 @@ msgstr "Fakturalanan Miqdar"
 msgid "Qty Ordered"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sifariş edilən miqdar"
+=======
+msgstr "Sifariş edilən Miqdar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sifariş edilən Miqdar"
 >>>>>>> upstream/18.0
@@ -8263,7 +8726,11 @@ msgstr "Sifariş edilən Miqdar"
 msgid "Qty Received"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Qəbul edilmiş miqdar"
+=======
+msgstr "Qəbul edilən Miqdar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qəbul edilən Miqdar"
 >>>>>>> upstream/18.0
@@ -8276,7 +8743,11 @@ msgstr "Qəbul edilən Miqdar"
 msgid "Qty to be Billed"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fakturalanacaq Miqdar"
+=======
+msgstr "Qaimələnəcək Miqdar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qaimələnəcək Miqdar"
 >>>>>>> upstream/18.0
@@ -8288,7 +8759,11 @@ msgstr "Qaimələnəcək Miqdar"
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Quantities billed by vendors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Satıcılar tərəfindən hesablanmış miqdarlar"
+=======
+msgstr "Təchizatçılar tərəfindən qaimələnən miqdarlar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Təchizatçılar tərəfindən qaimələnən miqdarlar"
 >>>>>>> upstream/18.0
@@ -8432,7 +8907,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:purchase.act_res_partner_2_supplier_invoices
 msgid "Record a new vendor bill"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Yeni satıcı fakturasını qeyd edin"
+=======
+msgstr "Yeni təchizatçı qaiməsi qeyd edin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yeni təchizatçı qaiməsi qeyd edin"
 >>>>>>> upstream/18.0
@@ -8460,6 +8939,7 @@ msgstr "İstinad Ölçü Vahidi"
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__origin
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8587,6 +9067,10 @@ msgid ""
 "Reference of the document that generated this purchase order request (e.g. a "
 "sales order)"
 >>>>>>> upstream/18.0
+=======
+"Reference of the document that generated this purchase order request (e.g. a "
+"sales order)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Bu satınalma sifarişi sorğusunu yaradan sənədə istinad (məsələn, satış "
 "sifarişi)"
@@ -8599,9 +9083,15 @@ msgid ""
 "on the delivery order sent by your vendor."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Satıcı tərəfindən göndərilən satış sifarişinə və ya təklifə istinad. "
 "Məhsulları aldığınız zaman uyğunluğu yoxlamaq  üçün istifadə olunur, çünki "
 "bu istinad adətən satıcınız tərəfindən göndərilən çatdırılma sifarişində "
+=======
+"Təchizatçı tərəfindən göndərilən satış sifarişinə və ya təklifə istinad. "
+"Məhsulları aldığınız zaman uyğunluğu yoxlamaq üçün istifadə olunur, çünki bu "
+"istinad adətən satıcınız tərəfindən göndərilən çatdırılma sifarişində "
+>>>>>>> upstream/18.0
 =======
 "Təchizatçı tərəfindən göndərilən satış sifarişinə və ya təklifə istinad. "
 "Məhsulları aldığınız zaman uyğunluğu yoxlamaq üçün istifadə olunur, çünki bu "
@@ -8688,9 +9178,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Requests for quotation are documents that will be sent to your suppliers to request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they will be confirmed and turned into purchase orders."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8767,6 +9260,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8850,7 +9346,11 @@ msgstr "İstinad sənədini axtarın"
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Search a vendor name, or create one on the fly."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Satıcı adını axtarın və ya tez bir zamanda yaradın."
+=======
+msgstr "Təchizatçı adını axtarın və ya tez bir zamanda birini yaradın."
+>>>>>>> upstream/18.0
 =======
 msgstr "Təchizatçı adını axtarın və ya tez bir zamanda birini yaradın."
 >>>>>>> upstream/18.0
@@ -8873,7 +9373,11 @@ msgstr "Təhlükəsizlik Satınalma vaxtı"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__access_token
 msgid "Security Token"
+<<<<<<< HEAD
 msgstr " Təhlükəsizlik Tokeni"
+=======
+msgstr "Təhlükəsizlik Tokeni"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -8891,7 +9395,11 @@ msgstr "Bir məhsul seçin və ya dərhal yenisini yaradın."
 #: model_terms:ir.ui.view,arch_db:purchase.view_move_form_inherit_purchase
 msgid "Select a purchase order or an old bill"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Satınalma sifarişi və ya köhnə faktura seçin"
+=======
+msgstr "Satınalma sifarişi və ya köhnə qaimə seçin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satınalma sifarişi və ya köhnə qaimə seçin"
 >>>>>>> upstream/18.0
@@ -8941,7 +9449,11 @@ msgstr "Emaillə Göndər"
 msgid "Send the request for quotation to your vendor."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Qiymət sorğusunu satıcınıza göndərin."
+=======
+msgstr "Qiymət sorğusunu təchizatçınıza göndərin."
+>>>>>>> upstream/18.0
 =======
 msgstr "Qiymət sorğusunu təchizatçınıza göndərin."
 >>>>>>> upstream/18.0
@@ -8953,7 +9465,11 @@ msgstr "Qiymət sorğusunu təchizatçınıza göndərin."
 #: model:mail.template,description:purchase.email_template_edi_purchase
 msgid "Sent manually to vendor to request a quotation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Qiymət sorğusu tələb etmək üçün satıcıya əl ilə göndərildi"
+=======
+msgstr "Qiymət sorğusu tələb etmək üçün təchizatçıya manual göndər"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qiymət sorğusu tələb etmək üçün təchizatçıya manual göndər"
 >>>>>>> upstream/18.0
@@ -8962,7 +9478,11 @@ msgstr "Qiymət sorğusu tələb etmək üçün təchizatçıya manual göndər"
 #: model:mail.template,description:purchase.email_template_edi_purchase_done
 msgid "Sent to vendor with the purchase order in attachment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Əlavədəki satınalma sifarişi ilə birlikdə satıcıya göndərildi"
+=======
+msgstr "Qoşmadakı satınalma sifarişi ilə birlikdə təchizatçıya göndər"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qoşmadakı satınalma sifarişi ilə birlikdə təchizatçıya göndər"
 >>>>>>> upstream/18.0
@@ -8972,6 +9492,7 @@ msgstr "Qoşmadakı satınalma sifarişi ilə birlikdə təchizatçıya göndər
 msgid ""
 "Sent to vendors before expected arrival, based on the purchase order setting"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9099,6 +9620,10 @@ msgstr ""
 "Satınalma sifarişi qəbulu əsasında gözlənilən çatdırılmadan əvvəl "
 "təchizatçılara göndərildi"
 >>>>>>> upstream/18.0
+=======
+"Satınalma sifarişi qəbulu əsasında gözlənilən çatdırılmadan əvvəl "
+"təchizatçılara göndərildi"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__sequence
@@ -9142,7 +9667,11 @@ msgstr "Mənbə Sənəd"
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Starred"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İşarələnmiş"
+=======
+msgstr "Ulduzlanmış"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ulduzlanmış"
 >>>>>>> upstream/18.0
@@ -9189,7 +9718,11 @@ msgstr "Yekun"
 msgid "Sum of Qty Billed"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ödənilmiş Miqdarın Məbləği"
+=======
+msgstr "Qaimələnən Miqdarın Cəmi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qaimələnən Miqdarın Cəmi"
 >>>>>>> upstream/18.0
@@ -9202,7 +9735,11 @@ msgstr "Qaimələnən Miqdarın Cəmi"
 msgid "Sum of Qty Ordered"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sifariş edilən məbləğin cəmi"
+=======
+msgstr "Sifariş edilən Miqdarın Cəmi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sifariş edilən Miqdarın Cəmi"
 >>>>>>> upstream/18.0
@@ -9215,7 +9752,11 @@ msgstr "Sifariş edilən Miqdarın Cəmi"
 msgid "Sum of Qty Received"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Qəbul edilən məbləğin cəmi"
+=======
+msgstr "Qəbul edilən Miqdarın Cəmi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qəbul edilən Miqdarın Cəmi"
 >>>>>>> upstream/18.0
@@ -9368,7 +9909,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    converted into a purchase order, you will be able to control the receipt\n"
+=======
+"                    converted into a purchase order, you will be able to "
+"control the receipt\n"
+>>>>>>> upstream/18.0
 =======
 "                    converted into a purchase order, you will be able to "
 "control the receipt\n"
@@ -9501,8 +10047,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
 " this PO"
+=======
+"The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
+"this PO"
+>>>>>>> upstream/18.0
 =======
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
 "this PO"
@@ -9661,9 +10212,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This analysis allows you to easily check and analyse your company purchase history and performance.\n"
 "                You can track your negotiation performance, the delivery performance of your vendors, etc"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9740,6 +10294,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9840,7 +10397,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
 msgid "This vendor has no purchase order. Create a new RfQ"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Bu satıcının satınalma sifarişi yoxdur. Yeni Qiymət Sorğusu yaradın"
+=======
+msgstr "Bu təchizatçının satınalma sifarişi yoxdur. Yeni Qiymət Sorğusu yaradın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu təchizatçının satınalma sifarişi yoxdur. Yeni Qiymət Sorğusu yaradın"
 >>>>>>> upstream/18.0
@@ -9907,7 +10468,11 @@ msgstr ""
 msgid "Total Qty purchased"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın alınan Ümumi Miqdar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satın alınan Ümumi Miqdar"
 >>>>>>> upstream/18.0
@@ -9948,7 +10513,12 @@ msgstr ""
 #: model:ir.model.fields,help:purchase.field_purchase_order__mail_reception_confirmed
 msgid "True if PO reception is confirmed by the vendor."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "PO qəbulu satıcı tərəfindən təsdiqlənərsə doğrudur."
+=======
+msgstr ""
+"Satınalma sifarişi qəbulu təchizatçı tərəfindən təsdiqlənərsə, doğrudur."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Satınalma sifarişi qəbulu təchizatçı tərəfindən təsdiqlənərsə, doğrudur."
@@ -9963,7 +10533,11 @@ msgstr ""
 #: model:ir.model.fields,help:purchase.field_purchase_order__mail_reminder_confirmed
 msgid "True if the reminder email is confirmed by the vendor."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Xatırlatma e-poçtu satıcı tərəfindən təsdiqlənərsə doğrudur."
+=======
+msgstr "Xatırlatma e-poçtu təchizatçı tərəfindən təsdiqlənərsə, doğrudur."
+>>>>>>> upstream/18.0
 =======
 msgstr "Xatırlatma e-poçtu təchizatçı tərəfindən təsdiqlənərsə, doğrudur."
 >>>>>>> upstream/18.0
@@ -9977,7 +10551,11 @@ msgstr "Mesaj yazın..."
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 msgstr "Qeyddəki istisna fəaliyyət növü."
+=======
+msgstr "Rekorddakı istisna fəaliyyət növü."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -10003,7 +10581,11 @@ msgstr "Vahid Qiymət"
 msgid "Unit Price (Discounted)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vahid Qiymət (Endirimli)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vahid Qiymət (Endirimli)"
 >>>>>>> upstream/18.0
@@ -10021,7 +10603,11 @@ msgstr "Vahid Qiymət:"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_uom
 msgid "Unit of Measure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ölçü  Vahidi"
+=======
+msgstr "Ölçü Vahidi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ölçü Vahidi"
 >>>>>>> upstream/18.0
@@ -10030,7 +10616,11 @@ msgstr "Ölçü Vahidi"
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Units Of Measure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ölçü Vahidləri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ölçü Vahidləri"
 >>>>>>> upstream/18.0
@@ -10039,7 +10629,11 @@ msgstr "Ölçü Vahidləri"
 #: model:ir.ui.menu,name:purchase.menu_purchase_uom_form_action
 msgid "Units of Measure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ölçü  Vahidi"
+=======
+msgstr "Ölçü Vahidləri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ölçü Vahidləri"
 >>>>>>> upstream/18.0
@@ -10048,7 +10642,11 @@ msgstr "Ölçü Vahidləri"
 #: model:ir.ui.menu,name:purchase.menu_purchase_uom_categ_form_action
 msgid "Units of Measure Categories"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ölçü vahidləri Kateqoriyalar"
+=======
+msgstr "Ölçü Vahidləri Kateqoriyaları"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ölçü Vahidləri Kateqoriyaları"
 >>>>>>> upstream/18.0
@@ -10057,7 +10655,11 @@ msgstr "Ölçü Vahidləri Kateqoriyaları"
 #: model:ir.ui.menu,name:purchase.menu_unit_of_measure_in_config_purchase
 msgid "Units of Measures"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ölçü  Vahidləri"
+=======
+msgstr "Ölçü Vahidləri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ölçü Vahidləri"
 >>>>>>> upstream/18.0
@@ -10132,7 +10734,11 @@ msgstr "Variant Şəbəkə Girişi"
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Vendor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Podratçı"
+=======
+msgstr "Təchizatçı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Təchizatçı"
 >>>>>>> upstream/18.0
@@ -10141,7 +10747,11 @@ msgstr "Təchizatçı"
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__vendor_bill_id
 msgid "Vendor Bill"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Podratçının Fakturası"
+=======
+msgstr "Təchizatçı Qaiməsi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Təchizatçı Qaiməsi"
 >>>>>>> upstream/18.0
@@ -10158,7 +10768,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_bill_union_filter
 msgid "Vendor Bills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Podratçının Fakturaları"
+=======
+msgstr "Təchizatçı Qaimələri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Təchizatçı Qaimələri"
 >>>>>>> upstream/18.0
@@ -10167,7 +10781,11 @@ msgstr "Təchizatçı Qaimələri"
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Vendor Country"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Satıcı ölkə"
+=======
+msgstr "Təchizatçı Ölkəsi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Təchizatçı Ölkəsi"
 >>>>>>> upstream/18.0
@@ -10176,7 +10794,11 @@ msgstr "Təchizatçı Ölkəsi"
 #: model:ir.ui.menu,name:purchase.menu_product_pricelist_action2_purchase
 msgid "Vendor Pricelists"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Satıcı qiymət siyahıları"
+=======
+msgstr "Təchizatçı Qiymət siyahıları"
+>>>>>>> upstream/18.0
 =======
 msgstr "Təchizatçı Qiymət siyahıları"
 >>>>>>> upstream/18.0
@@ -10190,7 +10812,11 @@ msgstr "Təchizatçı İstinadı"
 #: model:ir.ui.menu,name:purchase.menu_procurement_management_supplier_name
 msgid "Vendors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Podratçılar"
+=======
+msgstr "Təchizatçılar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Təchizatçılar"
 >>>>>>> upstream/18.0
@@ -10327,8 +10953,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
+=======
+"shipment, Odoo will send the vendor an email to ask confirmation of shipment "
+"dates and keep you informed in case of any delays. To get the vendor's "
+>>>>>>> upstream/18.0
 =======
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment "
 "dates and keep you informed in case of any delays. To get the vendor's "
@@ -10441,16 +11072,22 @@ msgid ""
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "E-poçt vasitəsilə satınalma sifarişi göndərərkən, Odoo satıcıdan sifarişin "
 "qəbul edildiyini təsdiqləməsini xahiş edir. Satıcı e-poçtdakı düyməni "
 "klikləməklə sifarişi qəbul etdikdə, məlumat satınalma sifarişinə əlavə "
 "olunur. Təsdiq edilməyən sifarişləri izləmək üçün filtrlərdən istifadə edin."
 =======
+=======
+>>>>>>> upstream/18.0
 "E-poçt vasitəsilə satınalma sifarişi göndərərkən, Odoo təchizatçıdan "
 "sifarişin qəbul edildiyini təsdiqləməsini xahiş edir. Təchizatçı e-poçtdakı "
 "düyməni klikləməklə sifarişi qəbul etdikdə, məlumat satınalma sifarişinə "
 "əlavə olunur. Təsdiq edilməyən sifarişləri izləmək üçün filtrlərdən istifadə "
 "edin."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -10459,7 +11096,12 @@ msgstr ""
 msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Siz satıcını Adı, VÖEN, E-poçt və ya Daxili Referansla tapa bilərsiniz."
+=======
+"Siz təchizatçını Adı, VÖEN-i, E-poçt və ya Daxili İstinad-ına görə tapa "
+"bilərsiniz."
+>>>>>>> upstream/18.0
 =======
 "Siz təchizatçını Adı, VÖEN-i, E-poçt və ya Daxili İstinad-ına görə tapa "
 "bilərsiniz."
@@ -10517,7 +11159,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Satdığınız və ya satın aldığınız hər şey üçün bir məhsul müəyyənləşdirməlisiniz,\n"
+=======
+"Satdığınız və ya satın aldığınız hər şey üçün bir məhsul "
+"müəyyənləşdirməlisiniz,\n"
+>>>>>>> upstream/18.0
 =======
 "Satdığınız və ya satın aldığınız hər şey üçün bir məhsul "
 "müəyyənləşdirməlisiniz,\n"
@@ -10651,7 +11298,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Satdığınız və ya satın aldığınız hər şey üçün bir məhsul müəyyənləşdirməlisiniz,\n"
+=======
+"Satdığınız və ya satın aldığınız hər şey üçün bir məhsul "
+"müəyyənləşdirməlisiniz,\n"
+>>>>>>> upstream/18.0
 =======
 "Satdığınız və ya satın aldığınız hər şey üçün bir məhsul "
 "müəyyənləşdirməlisiniz,\n"
@@ -10790,12 +11442,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
 "Kotirovkanızda %(product_company)s şirkətinin məhsulları var, təklifiniz isə %(quote_company)s şirkətinə aiddir. \n"
 " Lütfən, təklif etdiyiniz şirkətin adını dəyişin və ya məhsulları digər şirkətlərdən çıxarın (%(bad_products)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10877,6 +11532,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10965,7 +11623,11 @@ msgstr ""
 msgid "with"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ilə"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0

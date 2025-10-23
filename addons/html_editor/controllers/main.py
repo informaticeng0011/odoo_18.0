@@ -7,6 +7,10 @@ import werkzeug.exceptions
 import werkzeug.urls
 import requests
 from os.path import join as opj
+<<<<<<< HEAD
+=======
+from urllib.parse import urlparse
+>>>>>>> upstream/18.0
 
 from odoo import _, http, tools, SUPERUSER_ID
 from odoo.addons.html_editor.tools import get_video_url_data
@@ -32,10 +36,17 @@ DEFAULT_OLG_ENDPOINT = 'https://olg.api.odoo.com'
 # regex patterns in Python are slightly different from those in JavaScript.
 
 CSS_ANIMATION_RULE_REGEX = (
+<<<<<<< HEAD
         r"(?P<declaration>animation(-duration)?: .*?)"
         + r"(?P<value>(\d+(\.\d+)?)|(\.\d+))"
         + r"(?P<unit>ms|s)"
         + r"(?P<separator>\s|;|\"|$)"
+=======
+        r"(?P<declaration>animation(-duration)?:\s*.*?)"
+        r"(?P<value>(\d+(\.\d+)?)|(\.\d+))"
+        r"(?P<unit>ms|s)"
+        r"(?P<separator>\s|;|\"|$)"
+>>>>>>> upstream/18.0
 )
 SVG_DUR_TIMECOUNT_VAL_REGEX = (
         r"(?P<attribute_name>\sdur=\"\s*)"
@@ -203,7 +214,11 @@ class HTML_Editor(http.Controller):
             )
         else:
             regex = r"<svg .*>"
+<<<<<<< HEAD
             declaration = f"--animation-ratio: {ratio}"
+=======
+            declaration = f"--animation_ratio: {ratio}"
+>>>>>>> upstream/18.0
             subst = ("\\g<0>\n\t<style>\n\t\t:root { \n\t\t\t" +
                      declaration +
                      ";\n\t\t}\n\t</style>")
@@ -453,7 +468,10 @@ class HTML_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 data = tools.image_process(data, size=(width, height), quality=quality, verify_resolution=True)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -835,12 +853,15 @@ class HTML_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             except UserError:
                 # considered as an image by the browser file input, but not
                 # recognized as such by PIL, eg .webp
                 return {'error': format_error_msg}
             except ValueError as e:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1214,6 +1235,9 @@ class HTML_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1618,6 +1642,10 @@ class HTML_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'res_id': 0,
+>>>>>>> upstream/18.0
 =======
             'res_id': 0,
 >>>>>>> upstream/18.0
@@ -2223,7 +2251,28 @@ class HTML_Editor(http.Controller):
         try:
             Actions = request.env['ir.actions.actions']
             context = dict(request.env.context)
+<<<<<<< HEAD
             words = preview_url.strip('/').split('/')
+=======
+            parsed_preview_url = urlparse(preview_url)
+            words = parsed_preview_url.path.strip('/').split('/')
+            last_segment = words[-1]
+
+            if not (
+                last_segment.isnumeric()
+                and (
+                    parsed_preview_url.path.startswith("/odoo")
+                    or parsed_preview_url.path.startswith("/web")
+                    or parsed_preview_url.path.startswith("/@/")
+                )
+            ):
+                # this could be a frontend or an external page
+                link_preview_data = self.link_preview_metadata(preview_url)
+                result = {}
+                if link_preview_data and link_preview_data.get('og_description'):
+                    result['description'] = link_preview_data['og_description']
+                return result
+>>>>>>> upstream/18.0
 
             record_id = int(words.pop())
             action_name = words.pop()
@@ -2253,9 +2302,15 @@ class HTML_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 action = request.env[action_type].browse(action.id)
 
                 model = request.env[action.res_model].with_context(context)
+=======
+                action_sudo = request.env[action_type].sudo().browse(action.id)
+
+                model = request.env[action_sudo.res_model].with_context(context)
+>>>>>>> upstream/18.0
 =======
                 action_sudo = request.env[action_type].sudo().browse(action.id)
 

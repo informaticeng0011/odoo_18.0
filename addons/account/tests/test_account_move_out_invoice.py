@@ -44,7 +44,11 @@ from odoo import fields, Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import UserError
+=======
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError, ValidationError
 >>>>>>> upstream/18.0
@@ -4265,7 +4269,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4640,6 +4647,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5693,7 +5703,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6051,6 +6064,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6079,6 +6093,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6370,6 +6386,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6551,6 +6568,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -6580,6 +6599,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
         expected_fr = f"<p>Conditions générales : {baseurl} </p>"
         self.assertEqual(invoice.narration, expected_fr)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6655,6 +6677,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6685,6 +6708,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6798,6 +6823,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6848,4 +6874,23 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_search_move_sent_values(self):
+        # Create a partner to only get invoices from this test
+        partner = self.env['res.partner'].create({
+            'name': 'Test Partner',
+        })
+
+        invoice_sent = self.init_invoice('out_invoice', products=self.product_a, partner=partner, post=True)
+        invoice_sent._generate_and_send()
+
+        invoice_not_sent = self.init_invoice('out_invoice', products=self.product_a, partner=partner, post=True)
+
+        res = self.env['account.move'].search([('partner_id', '=', partner.id), ('move_sent_values', '=', 'sent')])
+        self.assertEqual(invoice_sent, res)
+
+        res = self.env['account.move'].search([('partner_id', '=', partner.id), ('move_sent_values', '=', 'not_sent')])
+        self.assertEqual(invoice_not_sent, res)
 >>>>>>> upstream/18.0

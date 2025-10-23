@@ -130,8 +130,13 @@ export function patchWebsocketWorkerWithCleanup(params = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(websocketWorker || WebsocketWorker.prototype, params);
     websocketWorker = websocketWorker || new WebsocketWorker();
+=======
+    websocketWorker = websocketWorker || new WebsocketWorker();
+    patchWithCleanup(websocketWorker, params);
+>>>>>>> upstream/18.0
 =======
     websocketWorker = websocketWorker || new WebsocketWorker();
     patchWithCleanup(websocketWorker, params);

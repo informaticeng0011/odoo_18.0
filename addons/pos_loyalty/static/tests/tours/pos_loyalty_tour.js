@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 import * as PosLoyalty from "@pos_loyalty/../tests/tours/utils/pos_loyalty_util";
 import * as ProductScreen from "@point_of_sale/../tests/tours/utils/product_screen_util";
+=======
+/* global posmodel */
+import * as ProductScreen from "@point_of_sale/../tests/tours/utils/product_screen_util";
+import * as ReceiptScreen from "@point_of_sale/../tests/tours/utils/receipt_screen_util";
+import * as PaymentScreen from "@point_of_sale/../tests/tours/utils/payment_screen_util";
+import * as PosLoyalty from "@pos_loyalty/../tests/tours/utils/pos_loyalty_util";
+>>>>>>> upstream/18.0
 import * as SelectionPopup from "@point_of_sale/../tests/tours/utils/selection_popup_util";
 import * as Dialog from "@point_of_sale/../tests/tours/utils/dialog_util";
 import * as Chrome from "@point_of_sale/../tests/tours/utils/chrome_util";
@@ -643,7 +651,10 @@ registry.category("web_tour.tours").add("PosLoyalty2DiscountsSpecificGlobal", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1042,6 +1053,9 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificProductDiscountWithGl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1414,7 +1428,10 @@ registry.category("web_tour.tours").add("RefundRulesProduct", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1544,6 +1561,7 @@ registry.category("web_tour.tours").add("test_scan_loyalty_card_select_customer"
             Chrome.startPoS(),
             Dialog.confirm("Open Register"),
             scan_barcode("0444-e050-4548"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1805,6 +1823,8 @@ registry.category("web_tour.tours").add("test_scan_loyalty_card_select_customer"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             ProductScreen.customerIsSelected("A Test Partner"),
         ].flat(),
 });
@@ -1838,6 +1858,7 @@ registry.category("web_tour.tours").add("test_min_qty_points_awarded", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1868,4 +1889,50 @@ registry.category("web_tour.tours").add("test_min_qty_points_awarded", {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+registry.category("web_tour.tours").add("test_confirm_coupon_programs_one_by_one", {
+    steps: () =>
+        [
+            Chrome.startPoS(),
+            Dialog.confirm("Open Register"),
+            {
+                trigger: "body",
+                content: "Create fake orders",
+                run: async () => {
+                    // Create 5 orders that will be synced one by one
+                    for (let i = 0; i < 5; i++) {
+                        const order = posmodel.createNewOrder();
+                        const product = posmodel.models["product.product"].getFirst();
+                        const pm = posmodel.models["pos.payment.method"].getFirst();
+                        const program = posmodel.models["loyalty.program"].find(
+                            (p) => p.program_type === "gift_card"
+                        );
+
+                        await posmodel.addLineToOrder({ product_id: product }, order);
+                        posmodel.addPendingOrder([order.id]);
+                        order.add_paymentline(pm);
+                        order.state = "paid";
+
+                        // Create fake coupon point changes to simulate coupons to be confirmed
+                        order.uiState.couponPointChanges = [
+                            {
+                                points: 124.2,
+                                program_id: program.id,
+                                coupon_id: -(i + 1),
+                                barcode: "",
+                            },
+                        ];
+                    }
+                },
+            },
+            // Create one more order to be able to trigger the sync from the UI
+            ProductScreen.clickDisplayedProduct("Desk Pad"),
+            ProductScreen.clickPayButton(),
+            PaymentScreen.clickPaymentMethod("Bank"),
+            PaymentScreen.clickValidate(),
+            ReceiptScreen.isShown(),
+        ].flat(),
+});
 >>>>>>> upstream/18.0

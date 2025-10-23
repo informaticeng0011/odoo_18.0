@@ -64,8 +64,12 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { press, queryAll, tick, waitFor } from "@odoo/hoot-dom";
 import { animationFrame } from "@odoo/hoot-mock";
+=======
+import { animationFrame, press, queryAll, waitFor } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame, press, queryAll, waitFor } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -265,6 +269,7 @@ import { contains, onRpc } from "@web/../tests/web_test_helpers";
 import { loadLanguages } from "@web/core/l10n/translation";
 import { ChatGPTPlugin } from "../src/main/chatgpt/chatgpt_plugin";
 import { setupEditor } from "./_helpers/editor";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -754,6 +759,9 @@ import { getContent } from "./_helpers/selection";
 =======
 import { getContent } from "./_helpers/selection";
 >>>>>>> upstream/18.0
+=======
+import { getContent } from "./_helpers/selection";
+>>>>>>> upstream/18.0
 import { insertText } from "./_helpers/user_actions";
 
 import { MAIN_PLUGINS } from "@html_editor/plugin_sets";
@@ -831,7 +839,10 @@ const openFromPowerbox = async (editor) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await animationFrame();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1098,6 +1109,7 @@ test("ChatGPT dialog opens in translate mode when clicked on translate dropdown 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/res.lang/get_installed", () => {
         return [
             ["en_US", "English (US)"],
@@ -1105,6 +1117,8 @@ test("ChatGPT dialog opens in translate mode when clicked on translate dropdown 
         ];
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1301,6 +1315,9 @@ test("ChatGPT dialog opens in translate mode when clicked on translate dropdown 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1452,6 +1469,7 @@ test("ChatGPT dialog opens in translate mode when clicked on translate dropdown 
     loadLanguages.installedLanguages = false;
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1978,6 +1996,10 @@ test("Translate/ChatGPT should be disabled if selection spans across non editabl
 test("Translate/ChatGPT should be disabled if selection spans across non editable content or unsplittable (1)", async () => {
     await setupEditor("<div>[ab]</div>");
 >>>>>>> upstream/18.0
+=======
+test("Translate/ChatGPT should be disabled if selection spans across non editable content or unsplittable (1)", async () => {
+    await setupEditor("<div>[ab]</div>");
+>>>>>>> upstream/18.0
     expect(".o-we-toolbar [name='translate']").not.toHaveAttribute("disabled");
 });
 
@@ -2048,8 +2070,11 @@ test("Translate/ChatGPT should be disabled if selection spans across non editabl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await animationFrame();
     await tick();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2250,8 +2275,11 @@ test("Translate/ChatGPT should be disabled if selection spans across non editabl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await animationFrame();
     await tick();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2452,8 +2480,11 @@ test("Translate/ChatGPT should be disabled if selection spans across non editabl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await animationFrame();
     await tick();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2654,8 +2685,11 @@ test("Translate/ChatGPT should be disabled if selection spans across non editabl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await animationFrame();
     await tick();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2912,6 +2946,7 @@ test("Translate/ChatGPT should be disabled if selection spans across non editabl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3027,6 +3062,8 @@ test("Translate/ChatGPT should be disabled if selection spans across non editabl
 >>>>>>> upstream/18.0
     await animationFrame();
     await tick();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3313,6 +3350,7 @@ test("insert the response from ChatGPT translate dialog", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/res.lang/get_installed", () => {
         return [
             ["en_US", "English (US)"],
@@ -3320,6 +3358,8 @@ test("insert the response from ChatGPT translate dialog", async () => {
         ];
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3516,6 +3556,9 @@ test("insert the response from ChatGPT translate dialog", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3806,7 +3849,11 @@ test("AI is an alias to ChatGPT command in the Powerbox", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     insertText(editor, "/AI");
+=======
+    await insertText(editor, "/AI");
+>>>>>>> upstream/18.0
 =======
     await insertText(editor, "/AI");
 >>>>>>> upstream/18.0
@@ -4071,9 +4118,15 @@ test("AI is an alias to ChatGPT command in the Powerbox", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     press("backspace");
     press("backspace");
     insertText(editor, "ai");
+=======
+    await press("backspace");
+    await press("backspace");
+    await insertText(editor, "ai");
+>>>>>>> upstream/18.0
 =======
     await press("backspace");
     await press("backspace");
@@ -4477,12 +4530,15 @@ test("pressing control + enter should send the prompt only once", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     contains(".o_dialog textarea").edit("Write something");
     await animationFrame();
 
     // Pressing control + enter.
     contains(".o_dialog textarea").press(["control", "Enter"]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4679,6 +4735,9 @@ test("pressing control + enter should send the prompt only once", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

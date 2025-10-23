@@ -17,3 +17,15 @@ export function pay() {
         ...PaymentScreen.clickValidate(),
     ];
 }
+<<<<<<< HEAD
+=======
+
+export function checkCompanyState(state) {
+    return [
+        {
+            content: "verify that the company state is on the receipt",
+            trigger: `.pos-receipt-container div:contains('(${state})')`,
+        },
+    ];
+}
+>>>>>>> upstream/18.0

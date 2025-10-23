@@ -12,11 +12,14 @@ def _l10n_es_edi_facturae_post_init_hook(env):
     """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for company in env['res.company'].search([('chart_template', '=like', 'es_%'), ('parent_id', '=', False)]):
         Template = env['account.chart.template'].with_company(company)
         Template._load_data({
             'account.tax': Template._get_es_facturae_account_tax(),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     for company in env['res.company'].search([('chart_template', 'like', r'es\_%'), ('parent_id', '=', False)]):
@@ -42,6 +45,9 @@ def _l10n_es_edi_facturae_post_init_hook(env):
         Template._load_data({
             'account.tax': tax_data,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

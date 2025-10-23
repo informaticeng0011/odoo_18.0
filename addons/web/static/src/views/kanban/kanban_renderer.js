@@ -480,7 +480,10 @@ export class KanbanRenderer extends Component {
         ) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             if (!this.props.list.records.find((r) => r.id === dataRecordId)) {
@@ -490,6 +493,9 @@ export class KanbanRenderer extends Component {
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -2,7 +2,12 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models, api
+=======
+from odoo import fields, models, api, _
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo import fields, models, api, _
 from odoo.exceptions import UserError
@@ -88,11 +93,17 @@ class AccountMove(models.Model):
         return super(AccountMove, self.with_context(linked_to_pos=bool(self.sudo().pos_order_ids)))._compute_tax_totals()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def button_draft(self):
         if self.sudo().pos_order_ids:
             raise UserError(_("You cannot reset to draft an invoice linked to a POS order. You must refund the order or create a credit note instead."))
         return super().button_draft()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 

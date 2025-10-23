@@ -97,6 +97,11 @@ export class ImageCrop extends Component {
                 this.$cropperImage.cropper('setAspectRatio', this.aspectRatios[this.aspectRatio].value);
             }
             await this._save();
+<<<<<<< HEAD
+=======
+            delete this.media.dataset.isManualCrop;
+            this.media.classList.remove("o_we_image_cropped");
+>>>>>>> upstream/18.0
         }
     }
 
@@ -234,8 +239,12 @@ export class ImageCrop extends Component {
         });
         delete this.media.dataset.resizeWidth;
         this.initialSrc = await applyModifications(this.media, {forceModification: true, mimetype: this.mimetype});
+<<<<<<< HEAD
         const cropped = this.aspectRatio !== "0/0";
         this.media.classList.toggle('o_we_image_cropped', cropped);
+=======
+        this.media.classList.add("o_we_image_cropped");
+>>>>>>> upstream/18.0
         if(refreshOptions){
             this.$media.trigger('image_cropped');
         }
@@ -315,8 +324,15 @@ export class ImageCrop extends Component {
                 const amount = this.$cropperImage.cropper('getData')[scaleDirection] * -1;
                 return this.$cropperImage.cropper(scaleDirection, amount);
             }
+<<<<<<< HEAD
             case 'apply':
                 return this._save();
+=======
+            case 'apply': {
+                this.media.dataset.isManualCrop = "true";
+                return this._save();
+            }
+>>>>>>> upstream/18.0
             case 'discard':
                 return this._closeCropper();
         }

@@ -41,6 +41,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { isInstanceOf } from "../../hoot-dom/hoot_dom_utils";
+>>>>>>> upstream/18.0
 =======
 import { isInstanceOf } from "../../hoot-dom/hoot_dom_utils";
 >>>>>>> upstream/18.0
@@ -189,6 +193,7 @@ const { userAgent: $userAgent } = navigator;
 // Internal
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -802,6 +807,11 @@ function getBlobValue(value) {
     return isInstanceOf(value, Blob) ? value.text() : value;
 }
 >>>>>>> upstream/18.0
+=======
+function getBlobValue(value) {
+    return isInstanceOf(value, Blob) ? value.text() : value;
+}
+>>>>>>> upstream/18.0
 
 /**
  * Returns the final synchronous value of several item types.
@@ -809,6 +819,7 @@ function getBlobValue(value) {
  * @param {unknown} value
  * @param {string} type
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1208,6 +1219,10 @@ function getClipboardValue(value, type) {
 function getClipboardValue(value, type) {
     return getBlobValue(isInstanceOf(value, ClipboardItem) ? value.getType(type) : value);
 >>>>>>> upstream/18.0
+=======
+function getClipboardValue(value, type) {
+    return getBlobValue(isInstanceOf(value, ClipboardItem) ? value.getType(type) : value);
+>>>>>>> upstream/18.0
 }
 
 function getMockValues() {
@@ -1319,6 +1334,9 @@ function getMockValues() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1526,6 +1544,7 @@ function getMockValues() {
 /**
  * @returns {Record<PermissionName, { name: string; state: PermissionState }>}
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1899,6 +1918,8 @@ const getUserAgentBrowser = () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function getPermissions() {
     return {
         "background-sync": {
@@ -2070,6 +2091,9 @@ function getUserAgentBrowser() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2384,7 +2408,11 @@ function getUserAgentBrowser() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -2797,7 +2825,11 @@ function getUserAgentBrowser() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const makeUserAgent = (platform) => {
+=======
+function makeUserAgent(platform) {
+>>>>>>> upstream/18.0
 =======
 function makeUserAgent(platform) {
 >>>>>>> upstream/18.0
@@ -3238,7 +3270,11 @@ function makeUserAgent(platform) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -3549,6 +3585,7 @@ function makeUserAgent(platform) {
 /**
  * @param {string} fnName
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4089,6 +4126,8 @@ function throwNotImplemented(fnName) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function throwNotImplemented(fnName) {
     return function notImplemented() {
         throw new HootError(`unmocked navigator method: ${fnName}`);
@@ -4119,6 +4158,9 @@ function throwNotImplemented(fnName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -7,6 +7,11 @@ import json
 import odoo.tests
 from odoo.tests.common import HttpCase, new_test_user
 from odoo.tools.json import scriptsafe as json_safe
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+from odoo.addons.mail.tools import link_preview
+>>>>>>> upstream/18.0
 
 
 @odoo.tests.tagged('-at_install', 'post_install')
@@ -154,12 +159,35 @@ class TestController(HttpCase):
 
     def test_05_internal_link_preview(self):
         self.authenticate(self.admin, self.admin)
+<<<<<<< HEAD
+=======
+
+        def _get_full_url(pathname):
+            return f"{self.base_url()}{pathname}"
+
+        def _patched_get_link_preview_from_url(url):
+            if url == _get_full_url("/page-with-description"):
+                return {
+                    'og_description': 'Mocked page description',
+                }
+            elif url == _get_full_url("/page-without-description") or url == _get_full_url("/shop/category/1"):
+                return {
+                    'og_description': None,
+                }
+            else:
+                return False
+
+>>>>>>> upstream/18.0
         # retrieve metadata of an record without customerized link_preview_name but with display_name
         response_without_preview_name = self.url_open(
             '/html_editor/link_preview_internal',
             data=json_safe.dumps({
                 "params": {
+<<<<<<< HEAD
                     "preview_url": f"/odoo/users/{self.portal_user.id}",
+=======
+                    "preview_url": _get_full_url(f"/odoo/users/{self.portal_user.id}"),
+>>>>>>> upstream/18.0
                 }
             }),
             headers=self.headers
@@ -172,7 +200,11 @@ class TestController(HttpCase):
             '/html_editor/link_preview_internal',
             data=json_safe.dumps({
                 "params": {
+<<<<<<< HEAD
                     "preview_url": "/odoo/actionInvalid/1",
+=======
+                    "preview_url": _get_full_url("/odoo/actionInvalid/1"),
+>>>>>>> upstream/18.0
                 }
             }),
             headers=self.headers
@@ -185,7 +217,11 @@ class TestController(HttpCase):
             '/html_editor/link_preview_internal',
             data=json_safe.dumps({
                 "params": {
+<<<<<<< HEAD
                     "preview_url": "/odoo/users/9999",
+=======
+                    "preview_url": _get_full_url("/odoo/users/9999"),
+>>>>>>> upstream/18.0
                 }
             }),
             headers=self.headers
@@ -194,6 +230,7 @@ class TestController(HttpCase):
         self.assertTrue('error_msg' in response_wrong_record.text)
 
         # retrieve metadata of a url not directing to a record
+<<<<<<< HEAD
         response_not_record = self.url_open(
             '/html_editor/link_preview_internal',
             data=json_safe.dumps({
@@ -205,13 +242,73 @@ class TestController(HttpCase):
         )
         self.assertEqual(200, response_not_record.status_code)
         self.assertTrue('other_error_msg' in response_not_record.text)
+=======
+        with patch.object(link_preview, 'get_link_preview_from_url', side_effect=_patched_get_link_preview_from_url):
+            # Check metadata for a URL that points to a valid frontend page with
+            # a page description set
+            response_page_with_desc = self.url_open(
+                '/html_editor/link_preview_internal',
+                data=json_safe.dumps({
+                    "params": {
+                        "preview_url": _get_full_url("/page-with-description"),
+                    }
+                }),
+                headers=self.headers
+            )
+            self.assertEqual(200, response_page_with_desc.status_code)
+            self.assertTrue('"description": "Mocked page description"' in response_page_with_desc.text)
+
+            # Check metadata for a URL that points to a valid frontend page with
+            # no page description set
+            response_page_without_desc = self.url_open(
+                '/html_editor/link_preview_internal',
+                data=json_safe.dumps({
+                    "params": {
+                        "preview_url": _get_full_url("/page-without-description"),
+                    }
+                }),
+                headers=self.headers
+            )
+            self.assertEqual(200, response_page_without_desc.status_code)
+            self.assertTrue('"result": {}' in response_page_without_desc.text)
+
+            response_page_without_desc = self.url_open(
+                '/html_editor/link_preview_internal',
+                data=json_safe.dumps({
+                    "params": {
+                        "preview_url": _get_full_url("/shop/category/1"),
+                    }
+                }),
+                headers=self.headers
+            )
+            self.assertEqual(200, response_page_without_desc.status_code)
+            self.assertTrue('"result": {}' in response_page_without_desc.text)
+            self.assertFalse('error_msg' in response_page_without_desc.text)
+
+            # Check metadata for a URL that points to an invalid/unknown page
+            invalid_page = self.url_open(
+                '/html_editor/link_preview_internal',
+                data=json_safe.dumps({
+                    "params": {
+                        "preview_url": _get_full_url("/invalid-page"),
+                    }
+                }),
+                headers=self.headers
+            )
+            self.assertEqual(200, invalid_page.status_code)
+            self.assertTrue('"result": {}' in invalid_page.text)
+>>>>>>> upstream/18.0
 
         # Attempt to retrieve metadata for path format `odoo/<model>/<record_id>`
         response_model_record = self.url_open(
             '/html_editor/link_preview_internal',
             data=json_safe.dumps({
                 "params": {
+<<<<<<< HEAD
                     "preview_url": f"/odoo/res.users/{self.portal_user.id}",
+=======
+                    "preview_url": _get_full_url(f"/odoo/res.users/{self.portal_user.id}"),
+>>>>>>> upstream/18.0
                 }
             }),
             headers=self.headers
@@ -225,7 +322,11 @@ class TestController(HttpCase):
             '/html_editor/link_preview_internal',
             data=json_safe.dumps({
                 "params": {
+<<<<<<< HEAD
                     "preview_url": "/odoo/mail.thread/1",
+=======
+                    "preview_url": _get_full_url("/odoo/mail.thread/1"),
+>>>>>>> upstream/18.0
                 }
             }),
             headers=self.headers
