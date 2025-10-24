@@ -202,6 +202,12 @@ class CustomerPortal(Controller):
                         values[field] = False
                 values.update({'zip': values.pop('zipcode', '')})
                 self.on_account_update(values, partner)
+<<<<<<< HEAD
+=======
+                # If name is not changed then pop it from the values, as it affects the bank account holder name
+                if values['name'].strip() == partner.name.strip():
+                    values.pop('name')
+>>>>>>> upstream/18.0
                 partner.sudo().write(values)
                 if redirect:
                     return request.redirect(redirect)
@@ -556,9 +562,15 @@ class CustomerPortal(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if report_type == 'pdf' and download:
             filename = "%s.pdf" % (re.sub(r'\W+', '_', model._get_report_base_filename()))
             headers['Content-Disposition'] = content_disposition(filename)
+=======
+        if report_type == 'pdf':
+            filename = "%s.pdf" % (re.sub(r'\W+', '_', model._get_report_base_filename()))
+            headers['Content-Disposition'] = content_disposition(filename, disposition_type='attachment' if download else 'inline')
+>>>>>>> upstream/18.0
 =======
         if report_type == 'pdf':
             filename = "%s.pdf" % (re.sub(r'\W+', '_', model._get_report_base_filename()))

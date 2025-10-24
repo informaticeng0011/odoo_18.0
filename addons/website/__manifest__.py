@@ -93,6 +93,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'html_editor',
+>>>>>>> upstream/18.0
 =======
         'html_editor',
 >>>>>>> upstream/18.0
@@ -595,6 +599,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'website/static/src/core/errors/beforeunload_error_handler.js',
+>>>>>>> upstream/18.0
 =======
             'website/static/src/core/errors/beforeunload_error_handler.js',
 >>>>>>> upstream/18.0
@@ -847,13 +855,21 @@
             'website/static/src/xml/website.background.video.xml',
             'website/static/src/xml/website.cookies_warning.xml',
             'website/static/src/js/text_processing.js',
+<<<<<<< HEAD
             'website/static/src/snippets/observing_cookie_mixin.js',
+=======
+>>>>>>> upstream/18.0
         ],
         'web.assets_frontend_minimal': [
             'website/static/src/js/content/inject_dom.js',
             'website/static/src/js/content/auto_hide_menu.js',
             'website/static/src/js/content/redirect.js',
             'website/static/src/js/content/adapt_content.js',
+<<<<<<< HEAD
+=======
+            'website/static/src/snippets/observing_cookie_mixin.js',
+            'website/static/src/js/content/generate_video_iframe.js',
+>>>>>>> upstream/18.0
         ],
         'web.assets_frontend_lazy': [
             # Remove assets_frontend_minimal
@@ -861,6 +877,11 @@
             ('remove', 'website/static/src/js/content/auto_hide_menu.js'),
             ('remove', 'website/static/src/js/content/redirect.js'),
             ('remove', 'website/static/src/js/content/adapt_content.js'),
+<<<<<<< HEAD
+=======
+            ('remove', 'website/static/src/snippets/observing_cookie_mixin.js'),
+            ('remove', 'website/static/src/js/content/generate_video_iframe.js'),
+>>>>>>> upstream/18.0
         ],
         'web._assets_primary_variables': [
             'website/static/src/scss/primary_variables.scss',
@@ -996,6 +1017,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'web.assets_unit_tests': [
+            'website/static/tests/website_html_editor.test.js',
+        ],
+>>>>>>> upstream/18.0
 =======
         'web.assets_unit_tests': [
             'website/static/tests/website_html_editor.test.js',
@@ -1500,7 +1527,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1748,6 +1778,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1988,6 +2021,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'website/static/src/scss/website.wysiwyg.fonts.scss',
+>>>>>>> upstream/18.0
 =======
             'website/static/src/scss/website.wysiwyg.fonts.scss',
 >>>>>>> upstream/18.0
@@ -2327,7 +2364,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2545,6 +2585,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -288,7 +288,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_invoice_monetary_total_vals(self, invoice, taxes_vals, line_extension_amount, allowance_total_amount, charge_total_amount):
@@ -301,6 +304,9 @@ class AccountEdiXmlUblTr(models.AbstractModel):
         return vals
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -315,7 +321,13 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Used to fill the cac:InvoiceLine/cac:Item node in UBL TR XML export.
+=======
+        cac:InvoiceLine/cac:Item node in UBL TR XML export, the ID
+        node is required to be present inside the shipmemnt delivery
+        block before GoodsItem node.
+>>>>>>> upstream/18.0
 =======
         cac:InvoiceLine/cac:Item node in UBL TR XML export, the ID
         node is required to be present inside the shipmemnt delivery
@@ -363,6 +375,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            "id": "NO_ID",
+>>>>>>> upstream/18.0
 =======
             "id": "NO_ID",
 >>>>>>> upstream/18.0

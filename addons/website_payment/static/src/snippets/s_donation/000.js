@@ -13,6 +13,10 @@ publicWidget.registry.DonationSnippet = publicWidget.Widget.extend({
         'click .s_donation_btn': '_onClickPrefilledButton',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Patched in the init
+>>>>>>> upstream/18.0
 =======
         // Patched in the init
 >>>>>>> upstream/18.0
@@ -26,7 +30,10 @@ publicWidget.registry.DonationSnippet = publicWidget.Widget.extend({
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
      * @constructor
@@ -45,6 +52,9 @@ publicWidget.registry.DonationSnippet = publicWidget.Widget.extend({
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61,6 +71,10 @@ publicWidget.registry.DonationSnippet = publicWidget.Widget.extend({
         await this._displayCurrencies();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.__confirmCurrencyLoaded();
+>>>>>>> upstream/18.0
 =======
         this.__confirmCurrencyLoaded();
 >>>>>>> upstream/18.0
@@ -174,7 +188,10 @@ publicWidget.registry.DonationSnippet = publicWidget.Widget.extend({
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
      * @todo in master, just merge with _onClickDonateNowButton
@@ -185,6 +202,9 @@ publicWidget.registry.DonationSnippet = publicWidget.Widget.extend({
     },
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

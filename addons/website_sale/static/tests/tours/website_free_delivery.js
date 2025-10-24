@@ -66,7 +66,11 @@ registry.category("web_tour.tours").add("check_free_delivery", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...tourUtils.addToCart({ productName: "Office Chair Black TEST" }),
+=======
+        ...tourUtils.addToCart({ productName: "Office Chair Black TEST", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.addToCart({ productName: "Office Chair Black TEST", expectUnloadPage: true }),
 >>>>>>> upstream/18.0
@@ -328,7 +332,11 @@ registry.category("web_tour.tours").add("check_free_delivery", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tourUtils.pay(),
+=======
+        ...tourUtils.pay({ expectUnloadPage: true, waitFinalizeYourPayment: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.pay({ expectUnloadPage: true, waitFinalizeYourPayment: true }),
 >>>>>>> upstream/18.0

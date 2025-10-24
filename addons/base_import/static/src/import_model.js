@@ -286,7 +286,11 @@ export class BaseImportModel {
         }
 
         if (!importRes.hasError) {
+<<<<<<< HEAD
             if (importRes.nextrow) {
+=======
+            if (!isTest && importRes.nextrow) {
+>>>>>>> upstream/18.0
                 this._addMessage("warning", [
                     _t(
                         "Click 'Resume' to proceed with the import, resuming at line %s.",
@@ -297,6 +301,10 @@ export class BaseImportModel {
             }
             if (isTest) {
                 this._addMessage("info", [_t("Everything seems valid.")]);
+<<<<<<< HEAD
+=======
+                this.setOption("skip", 0);
+>>>>>>> upstream/18.0
             }
         } else {
             importRes.nextrow = startRow;

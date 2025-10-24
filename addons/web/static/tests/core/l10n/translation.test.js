@@ -61,6 +61,7 @@ test("url is given by the session", async () => {
     });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc(
         "/get_translations/*",
         function (request) {
@@ -72,11 +73,16 @@ test("url is given by the session", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     onRpc("/get_translations/*", function (request) {
         expect(request.url).toInclude("/get_translations/");
         return this.loadTranslations();
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

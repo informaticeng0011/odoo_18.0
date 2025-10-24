@@ -81,6 +81,10 @@ import { press, waitFor, queryOne } from "@odoo/hoot-dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "../_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -393,7 +397,11 @@ test("can add a table using the powerbox and keyboard", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -703,7 +711,11 @@ test("can add a table using the powerbox and keyboard", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-tablepicker", 0);
 >>>>>>> upstream/18.0
@@ -1016,7 +1028,11 @@ test("can add a table using the powerbox and keyboard", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -1325,8 +1341,13 @@ test("can add a table using the powerbox and keyboard", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
     await expectElementCount(".o-we-tablepicker", 0);
@@ -1742,6 +1763,7 @@ test("can close table picker with escape", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-tablepicker");
     expect(".o-we-tablepicker").toHaveCount(1);
     expectContentToBe(el, "<p>a[]</p>");
@@ -1749,6 +1771,8 @@ test("can close table picker with escape", async () => {
     await animationFrame();
     expect(".o-we-tablepicker").toHaveCount(0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1979,6 +2003,9 @@ test("can close table picker with escape", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2213,7 +2240,11 @@ test("in iframe, can add a table using the powerbox and keyboard", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -2524,7 +2555,11 @@ test("in iframe, can add a table using the powerbox and keyboard", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-tablepicker", 0);
 >>>>>>> upstream/18.0
@@ -2837,7 +2872,11 @@ test("in iframe, can add a table using the powerbox and keyboard", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -3146,8 +3185,13 @@ test("in iframe, can add a table using the powerbox and keyboard", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
     await expectElementCount(".o-we-tablepicker", 0);
@@ -3577,7 +3621,11 @@ test("add table inside empty list", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-tablepicker", 0);
 >>>>>>> upstream/18.0
@@ -3890,7 +3938,11 @@ test("add table inside empty list", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -4199,8 +4251,13 @@ test("add table inside empty list", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
     await expectElementCount(".o-we-tablepicker", 0);
@@ -4618,7 +4675,11 @@ test("add table inside non-empty list", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-tablepicker", 0);
 >>>>>>> upstream/18.0
@@ -4931,7 +4992,11 @@ test("add table inside non-empty list", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -5240,8 +5305,13 @@ test("add table inside non-empty list", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
     await expectElementCount(".o-we-tablepicker", 0);
@@ -5661,6 +5731,7 @@ test("should close the table picker when any key except arrow keys pressed", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-tablepicker");
     expect(".o-we-tablepicker").toHaveCount(1);
     expectContentToBe(el, "<p>a[]</p>");
@@ -5668,6 +5739,8 @@ test("should close the table picker when any key except arrow keys pressed", asy
     await animationFrame();
     expect(".o-we-tablepicker").toHaveCount(0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5898,6 +5971,9 @@ test("should close the table picker when any key except arrow keys pressed", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6132,6 +6208,7 @@ test("should close the table picker when any key except arrow keys pressed", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-tablepicker");
     expect(".o-we-tablepicker").toHaveCount(1);
     expectContentToBe(el, "<p>ab[]</p>");
@@ -6139,6 +6216,8 @@ test("should close the table picker when any key except arrow keys pressed", asy
     await animationFrame();
     expect(".o-we-tablepicker").toHaveCount(0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6369,6 +6448,9 @@ test("should close the table picker when any key except arrow keys pressed", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

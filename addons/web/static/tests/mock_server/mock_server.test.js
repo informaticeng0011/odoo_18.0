@@ -9,6 +9,11 @@ import {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { ConnectionLostError, rpc } from "@web/core/network/rpc";
+
+>>>>>>> upstream/18.0
 =======
 import { ConnectionLostError, rpc } from "@web/core/network/rpc";
 
@@ -160,10 +165,16 @@ defineModels([Partner, Bar, Foo]);
  *  [key: string]: any;
  * }} params
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @returns
  */
 const ormRequest = async (params) => {
     const response = await fetch(`/web/dataset/call_kw/${params.model}/${params.method}`, {
+=======
+ */
+function fetchCallKw(params) {
+    return fetch(`/web/dataset/call_kw/${params.model}/${params.method}`, {
+>>>>>>> upstream/18.0
 =======
  */
 function fetchCallKw(params) {
@@ -175,6 +186,10 @@ function fetchCallKw(params) {
         },
         body: JSON.stringify({
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            id: nextJsonRpcId++,
+>>>>>>> upstream/18.0
 =======
             id: nextJsonRpcId++,
 >>>>>>> upstream/18.0
@@ -188,7 +203,10 @@ function fetchCallKw(params) {
         }),
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -202,6 +220,9 @@ function fetchCallKw(params) {
  */
 const ormRequest = async (params) => {
     const response = await fetchCallKw(params);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const { error, result } = await response.json();
     if (error) {
@@ -213,7 +234,10 @@ const ormRequest = async (params) => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 /**
@@ -226,6 +250,11 @@ const JSON_RPC_BASIC_PARAMS = {
     },
 };
 <<<<<<< HEAD
+<<<<<<< HEAD
+
+>>>>>>> upstream/18.0
+=======
+let nextJsonRpcId = 0;
 
 >>>>>>> upstream/18.0
 =======
@@ -245,6 +274,7 @@ test("onRpc: normal result", async () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await expect(response.json()).resolves.toEqual({ result: "result", error: null });
 });
 
@@ -258,6 +288,8 @@ test("onRpc: error handling", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expect(response.text()).resolves.toBe("result");
 });
 
@@ -265,6 +297,9 @@ test("onRpc: error handling", async () => {
     onRpc("/boom", () => {
         throw new Error("boom");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -272,6 +307,7 @@ test("onRpc: error handling", async () => {
 
     await makeMockServer();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     const response = await fetch("/boom");
@@ -289,6 +325,9 @@ test("onRpc: error handling", async () => {
             type: "CustomError",
         },
     });
+=======
+    await expect(fetch("/boom")).rejects.toThrow("boom");
+>>>>>>> upstream/18.0
 =======
     await expect(fetch("/boom")).rejects.toThrow("boom");
 >>>>>>> upstream/18.0
@@ -325,7 +364,10 @@ test("onRpc: pure, error handling", async () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 test("onRpc: JSON-RPC normal result", async () => {
@@ -410,8 +452,11 @@ test("rpc: calls on mock server", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 test("performRPC: custom response", async () => {
     const customResponse = new Response("{}", { status: 418 });
     onRpc(() => customResponse);
@@ -419,6 +464,9 @@ test("performRPC: custom response", async () => {
     await expect(fetchCallKw({})).resolves.toBe(customResponse);
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test("performRPC: search with active_test=false", async () => {
     await makeMockServer();

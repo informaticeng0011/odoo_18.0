@@ -68,7 +68,10 @@ class PosOrder(models.Model):
         return amount if self._check_next_online_payment_amount(amount) else False
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -82,6 +85,9 @@ class PosOrder(models.Model):
             order['payment_ids'] = [payment for payment in order.get('payment_ids', []) if payment[0] not in [0, 1] or (payment[2].get('payment_method_id') not in online_payment_methods.ids)]
         return super()._process_order(order, existing_order)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

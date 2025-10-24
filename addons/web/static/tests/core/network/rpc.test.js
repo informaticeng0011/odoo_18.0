@@ -139,11 +139,14 @@ test("rpc can send additional headers", async () => {
     mockFetch((url, settings) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(settings.headers).toEqual({
             "Content-Type": "application/json",
             Hello: "World",
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         expect(settings.headers).toEqual(
@@ -153,6 +156,9 @@ test("rpc can send additional headers", async () => {
             ])
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

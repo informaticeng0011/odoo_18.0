@@ -7,7 +7,11 @@ from freezegun import freeze_time
 from pytz import timezone
 
 from odoo import fields, Command
+<<<<<<< HEAD
 from odoo.exceptions import UserError, ValidationError
+=======
+from odoo.exceptions import AccessError, UserError, ValidationError
+>>>>>>> upstream/18.0
 from odoo.tools import date_utils, mute_logger
 from odoo.tests import Form, tagged
 
@@ -400,7 +404,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
+=======
+        }).action_validate()
+>>>>>>> upstream/18.0
 =======
         }).action_validate()
 >>>>>>> upstream/18.0
@@ -632,7 +640,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
+=======
+        }).action_validate()
+>>>>>>> upstream/18.0
 =======
         }).action_validate()
 >>>>>>> upstream/18.0
@@ -855,7 +867,12 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'hours_per_day': 8.0
+=======
+            'hours_per_day': 8.0,
+            'full_time_required_hours': 40
+>>>>>>> upstream/18.0
 =======
             'hours_per_day': 8.0,
             'full_time_required_hours': 40
@@ -1353,7 +1370,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(leave5.number_of_hours, 8)
+=======
+        self.assertEqual(leave5.number_of_hours, 10)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(leave5.number_of_hours, 10)
 >>>>>>> upstream/18.0
@@ -1939,8 +1960,13 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['hr.leave.allocation'].create(allocation_vals)
         self.env['hr.leave.allocation'].create(allocation_vals)
+=======
+        self.env['hr.leave.allocation'].create(allocation_vals).action_validate()
+        self.env['hr.leave.allocation'].create(allocation_vals).action_validate()
+>>>>>>> upstream/18.0
 =======
         self.env['hr.leave.allocation'].create(allocation_vals).action_validate()
         self.env['hr.leave.allocation'].create(allocation_vals).action_validate()
@@ -2447,7 +2473,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             })
+=======
+            }).action_validate()
+>>>>>>> upstream/18.0
 =======
             }).action_validate()
 >>>>>>> upstream/18.0
@@ -2749,6 +2779,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'requires_allocation': 'no',
+>>>>>>> upstream/18.0
 =======
             'requires_allocation': 'no',
 >>>>>>> upstream/18.0
@@ -2929,6 +2963,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'requires_allocation': 'no',
+>>>>>>> upstream/18.0
 =======
             'requires_allocation': 'no',
 >>>>>>> upstream/18.0
@@ -3135,6 +3173,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'requires_allocation': 'no',
+>>>>>>> upstream/18.0
 =======
             'requires_allocation': 'no',
 >>>>>>> upstream/18.0
@@ -3385,6 +3427,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'full_time_required_hours': 40,
+>>>>>>> upstream/18.0
 =======
             'full_time_required_hours': 40,
 >>>>>>> upstream/18.0
@@ -3738,6 +3784,7 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 15.0)
         self.assertEqual(leave.duration_display, '5 days')
 =======
@@ -3903,6 +3950,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 =======
         self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 16.0)
         self.assertEqual(leave.duration_display, '4 days')
+>>>>>>> upstream/18.0
+=======
+        self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 15.0)
+        self.assertEqual(leave.duration_display, '5 days')
 >>>>>>> upstream/18.0
 =======
         self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 15.0)
@@ -4127,7 +4178,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         leave_form.holiday_status_id = self.holidays_type_2
+=======
+        leave_form.holiday_status_id = self.holidays_type_3
+>>>>>>> upstream/18.0
 =======
         leave_form.holiday_status_id = self.holidays_type_3
 >>>>>>> upstream/18.0
@@ -4367,7 +4422,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4500,6 +4558,9 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4642,8 +4703,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4776,6 +4840,9 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4923,7 +4990,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'holiday_status_id': self.holidays_type_2.id,
+=======
+            'holiday_status_id': self.holidays_type_1.id,
+>>>>>>> upstream/18.0
 =======
             'holiday_status_id': self.holidays_type_1.id,
 >>>>>>> upstream/18.0
@@ -5150,6 +5221,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'full_time_required_hours': 56,
+>>>>>>> upstream/18.0
 =======
             'full_time_required_hours': 56,
 >>>>>>> upstream/18.0
@@ -5459,7 +5534,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5726,6 +5804,7 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5808,4 +5887,104 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_calendar_event_create_access_rights(self):
+        """Test that a manager can validate a leave request for an employee linked to a portal user.
+        Customers defined custom ACLs and record rules to support the possibility to assign a portal user to employees
+        and still be able to manage their holidays.
+        """
+        # Add the required ACLs and record rules to allow portal users to create `calendar.event`.
+        # This reflects the customization done by customers for the reason explained above.
+        self.env['ir.model.access'].create([
+            # Read access on `mail.activity.type` for portal required for
+            # https://github.com/odoo/odoo/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/calendar/models/calendar_event.py#L734
+            {
+                'name': 'Portal can read mail.activity.type',
+                'model_id': self.env.ref('mail.model_mail_activity_type').id,
+                'group_id': self.env.ref('base.group_portal').id,
+                'perm_read': True, 'perm_create': False, 'perm_write': False, 'perm_unlink': False,
+            },
+            # Read access on `mail.activity` for portal required for
+            # https://github.com/odoo/odoo/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/calendar/models/calendar_event.py#L786
+            # https://github.com/odoo/odoo/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/calendar/models/calendar_event.py#L882
+            {
+                'name': 'Portal can read mail.activity',
+                'model_id': self.env.ref('mail.model_mail_activity').id,
+                'group_id': self.env.ref('base.group_portal').id,
+                'perm_read': True, 'perm_create': False, 'perm_write': False, 'perm_unlink': False,
+            },
+            # Read and create acess on `calendar.event` for portal required for
+            # https://github.com/odoo/odoo/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/hr_holidays/models/hr_leave.py#L894-L898
+            # Write and unlink added to match the customer customization + out of common sense,
+            # if you give create to portal for their own events,
+            # you give write and unlink so they can manage their own events
+            {
+                'name': 'Portal all CRUD on calendar.event',
+                'model_id': self.env.ref('calendar.model_calendar_event').id,
+                'group_id': self.env.ref('base.group_portal').id,
+                'perm_read': True, 'perm_create': True, 'perm_write': True, 'perm_unlink': True,
+            },
+            # Read and create acess on `calendar.event` for portal required for
+            # https://github.com/odoo/odoo/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/calendar/models/calendar_event.py#L760-L768
+            # Write and unlink added to match the customer customization + out of common sense,
+            # if you give create to portal for their own events attendees,
+            # you give write and unlink so they can manage their own attendees
+            {
+                'name': 'Portal all CRUD on calendar.attendee',
+                'model_id': self.env.ref('calendar.model_calendar_attendee').id,
+                'group_id': self.env.ref('base.group_portal').id,
+                'perm_read': True, 'perm_create': True, 'perm_write': True, 'perm_unlink': True,
+            }])
+        self.env['ir.rule'].create([
+            # Restrict portals to their own activities
+            # so they cannot read the activities of other users
+            {
+                'name': 'Portal own mail activity',
+                'model_id': self.env.ref('mail.model_mail_activity').id,
+                'groups': [(4, self.env.ref('base.group_portal').id)],
+                'domain_force': "['|', ('user_id', '=', user.id), ('create_uid', '=', user.id)]",
+            },
+            # Restrict portals to their own events
+            # so they cannot read the events of other users
+            {
+                'name': 'Portal own calendar events',
+                'model_id': self.env.ref('calendar.model_calendar_event').id,
+                'groups': [(4, self.env.ref('base.group_portal').id)],
+                'domain_force': "[('partner_ids', 'in', user.partner_id.id)]",
+            },
+            # Restrict portals to their own attendees
+            # so they cannot read the attendees of other users
+            {
+                'name': 'Portal own calendar attendees',
+                'model_id': self.env.ref('calendar.model_calendar_attendee').id,
+                'groups': [(4, self.env.ref('base.group_portal').id)],
+                'domain_force': "[('partner_id', '=', user.partner_id.id)]",
+            }
+        ])
+
+        # Create a portal user and assign it to the employee
+        user_portal = self.env['res.users'].create({
+            'name': 'Portal', 'login': 'portal_user', 'password': 'portal_user',
+            'groups_id': [(6, 0, [self.env.ref('base.group_portal').id])],
+        })
+        self.employee_emp.user_id = user_portal
+
+        # As a manager, create a leave request for the employee linked to a portal user
+        leave = self.env['hr.leave'].with_user(self.user_hrmanager_id).create({
+            'name': 'Holiday Request',
+            'employee_id': self.employee_emp_id,
+            'holiday_status_id': self.holidays_type_1.id,
+            'date_from': (datetime.today() - relativedelta(days=1)),
+            'date_to': datetime.today(),
+            'number_of_days': 1,
+        })
+
+        # Assert the employee cannot approve his own leave request
+        with self.assertRaises(AccessError):
+            leave.with_user(self.user_employee_id).action_approve()
+
+        # Assert the manager can approve the leave request assign to portal employee
+        leave.with_user(self.user_hrmanager_id).action_approve()
 >>>>>>> upstream/18.0

@@ -9,7 +9,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { clickOnSave, registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
+=======
+import { registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
+>>>>>>> upstream/18.0
 =======
 import { registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
 >>>>>>> upstream/18.0
@@ -44,6 +48,7 @@ import { registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
  */
 registerWebsitePreviewTour("blog_tags_with_date", {
     url: "/blog",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,6 +97,9 @@ registerWebsitePreviewTour("blog_tags_with_date", {
 =======
 }, () => [{
 >>>>>>> upstream/18.0
+=======
+}, () => [{
+>>>>>>> upstream/18.0
         content: "Check that the sidebar is present",
         trigger: ":iframe #o_wblog_sidebar",
     }, {
@@ -112,8 +120,11 @@ registerWebsitePreviewTour("blog_tags_with_date", {
         content: "Select first month",
         trigger: ":iframe select[name=archive]",
 <<<<<<< HEAD
+<<<<<<< HEAD
         run: "selectByLabel October",
 =======
+=======
+>>>>>>> upstream/18.0
         run: function (helpers) {
             const options = Array.from(this.anchor?.options ?? []);
             const firstMonthIndex = options.findIndex((option) => option.closest("optgroup"));
@@ -122,6 +133,9 @@ registerWebsitePreviewTour("blog_tags_with_date", {
             }
             return helpers.selectByIndex(firstMonthIndex, this.anchor);
         },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }, {
         content: "Check date filter has been added",

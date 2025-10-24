@@ -92,7 +92,11 @@ from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models, _
+=======
+from odoo import api, Command, fields, models, _
+>>>>>>> upstream/18.0
 =======
 from odoo import api, Command, fields, models, _
 >>>>>>> upstream/18.0
@@ -436,12 +440,25 @@ class HrContract(models.Model):
             employees_by_calendar[contract.resource_calendar_id] |= contract.employee_id
         result = dict()
         for calendar, employees in employees_by_calendar.items():
+<<<<<<< HEAD
             result.update(calendar._attendance_intervals_batch(
                 start_dt,
                 end_dt,
                 resources=employees.resource_id,
                 tz=pytz.timezone(calendar.tz)
             ))
+=======
+            if not calendar:
+                for employee in employees:
+                    result.update({employee.resource_id.id: WorkIntervals([(start_dt, end_dt, self.env['resource.calendar.attendance'])])})
+            else:
+                result.update(calendar._attendance_intervals_batch(
+                    start_dt,
+                    end_dt,
+                    resources=employees.resource_id,
+                    tz=pytz.timezone(calendar.tz) if calendar.tz else pytz.utc
+                ))
+>>>>>>> upstream/18.0
         return result
 
     def _get_lunch_intervals(self, start_dt, end_dt):
@@ -451,6 +468,11 @@ class HrContract(models.Model):
             employees_by_calendar[contract.resource_calendar_id] |= contract.employee_id
         result = {}
         for calendar, employees in employees_by_calendar.items():
+<<<<<<< HEAD
+=======
+            if not calendar:
+                continue
+>>>>>>> upstream/18.0
             result.update(calendar._attendance_intervals_batch(
                 start_dt,
                 end_dt,
@@ -608,6 +630,7 @@ class HrContract(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if contract.has_static_work_entries() or not leaves:
                 # Empty leaves means empty real_leaves
                 real_leaves = attendances - real_attendances
@@ -615,6 +638,8 @@ class HrContract(models.Model):
                 # If fully flexible working schedule is defined
                 real_leaves = leaves
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -878,6 +903,9 @@ class HrContract(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1175,7 +1203,11 @@ class HrContract(models.Model):
         for contract in self:
             contracts_by_company_tz[(
                 contract.company_id,
+<<<<<<< HEAD
                 (contract.resource_calendar_id or contract.employee_id.resource_calendar_id).tz
+=======
+                (contract.resource_calendar_id or contract.employee_id.resource_calendar_id or contract.employee_id).tz,
+>>>>>>> upstream/18.0
             )] += contract
         utc = pytz.timezone('UTC')
         new_work_entries = self.env['hr.work.entry']
@@ -1213,7 +1245,11 @@ class HrContract(models.Model):
         })
         utc = pytz.timezone('UTC')
         for contract in self:
+<<<<<<< HEAD
             contract_tz = (contract.resource_calendar_id or contract.employee_id.resource_calendar_id).tz
+=======
+            contract_tz = (contract.resource_calendar_id or contract.employee_id.resource_calendar_id or contract.employee_id).tz
+>>>>>>> upstream/18.0
             tz = pytz.timezone(contract_tz) if contract_tz else pytz.utc
             contract_start = tz.localize(fields.Datetime.to_datetime(contract.date_start)).astimezone(utc).replace(tzinfo=None)
             contract_stop = datetime.combine(fields.Datetime.to_datetime(contract.date_end or datetime.max.date()),
@@ -1308,6 +1344,7 @@ class HrContract(models.Model):
         self.ensure_one()
         if self.employee_id:
             wizard = self.env['hr.work.entry.regeneration.wizard'].create({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1564,6 +1601,8 @@ class HrContract(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'employee_ids': [Command.set(self.employee_id.ids)],
                 'date_from': date_from,
                 'date_to': date_to,
@@ -1652,6 +1691,9 @@ class HrContract(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

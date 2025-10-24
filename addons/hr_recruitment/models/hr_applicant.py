@@ -102,6 +102,10 @@ from odoo.osv import expression
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import clean_context
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import clean_context
 >>>>>>> upstream/18.0
@@ -1127,7 +1131,11 @@ class Applicant(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         action = self.candidate_id.create_employee_from_candidate()
+=======
+        action = self.candidate_id.with_context(clean_context(self.env.context)).create_employee_from_candidate()
+>>>>>>> upstream/18.0
 =======
         action = self.candidate_id.with_context(clean_context(self.env.context)).create_employee_from_candidate()
 >>>>>>> upstream/18.0

@@ -2271,7 +2271,10 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2365,6 +2368,9 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4998,7 +5004,10 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5117,6 +5126,9 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7335,7 +7347,10 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7407,6 +7422,7 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7437,4 +7453,34 @@ class StockMove(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_move_state_after_split(self):
+        """Test that move states are correctly recomputed after splitting a picking."""
+        picking = self.env['stock.picking'].create({
+            'picking_type_id': self.env.ref('stock.picking_type_out').id,
+            'location_id': self.stock_location.id,
+            'location_dest_id': self.supplier_location.id,
+            'move_ids': [Command.create({
+                'name': 'move_test',
+                'product_id': self.product.id,
+                'product_uom_qty': 10,
+                'location_id': self.stock_location.id,
+                'location_dest_id': self.supplier_location.id,
+            })]
+        })
+        self.env['stock.quant']._update_available_quantity(self.product, self.stock_location, 10)
+        picking.action_confirm()
+        self.assertEqual(picking.move_ids.state, 'assigned')
+        picking.move_ids.quantity = 4
+        self.assertEqual(picking.move_ids.state, 'partially_available')
+        picking.action_split_transfer()
+        self.assertEqual(len(picking.move_ids), 1)
+        self.assertEqual(picking.move_ids.product_uom_qty, 4)
+        self.assertEqual(picking.move_ids.state, 'assigned')
+        backorder = picking.backorder_ids
+        self.assertEqual(backorder.move_ids.product_uom_qty, 6)
+        self.assertEqual(backorder.move_ids.quantity, 6)
+        self.assertEqual(backorder.move_ids.state, 'assigned')
 >>>>>>> upstream/18.0

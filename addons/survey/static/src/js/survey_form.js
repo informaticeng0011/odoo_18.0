@@ -672,7 +672,11 @@ publicWidget.registry.SurveyFormWidget = publicWidget.Widget.extend(SurveyPreloa
                     if (questionRequired) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         const subQuestionsIds = $questionWrapper.find('table').data('subQuestions');
+=======
+                        const subQuestionsIds = $input.data('subQuestions');
+>>>>>>> upstream/18.0
 =======
                         const subQuestionsIds = $input.data('subQuestions');
 >>>>>>> upstream/18.0

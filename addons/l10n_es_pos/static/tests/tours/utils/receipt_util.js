@@ -18,7 +18,10 @@ export function pay() {
     ];
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 export function checkCompanyState(state) {
     return [
@@ -28,4 +31,7 @@ export function checkCompanyState(state) {
         },
     ];
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

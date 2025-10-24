@@ -11,7 +11,10 @@ from odoo import fields, models, api
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62,6 +65,9 @@ UOM_TO_UNECE_CODE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -91,6 +97,7 @@ class UoM(models.Model):
     def _get_unece_code(self):
         """ Returns the UNECE code used for international trading for corresponding to the UoM as per
         https://unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf"""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,6 +152,8 @@ class UoM(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         xml_ids = self._get_external_ids().get(self.id, [])
         matches = list(set(xml_ids) & set(UOM_TO_UNECE_CODE.keys()))
         return matches and UOM_TO_UNECE_CODE[matches[0]] or 'C62'
@@ -161,6 +170,9 @@ class UoM(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

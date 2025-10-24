@@ -149,7 +149,11 @@ class DeliveryCarrier(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'zip_code': wh_location.zip,
+=======
+                    'zip_code': wh_location.zip or '',
+>>>>>>> upstream/18.0
 =======
                     'zip_code': wh_location.zip or '',
 >>>>>>> upstream/18.0

@@ -3,7 +3,10 @@ import { PaymentScreen } from "@point_of_sale/app/screens/payment_screen/payment
 import { patch } from "@web/core/utils/patch";
 import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { omit } from "@web/core/utils/objects";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { useService } from "@web/core/utils/hooks";
@@ -75,6 +78,7 @@ patch(PaymentScreen.prototype, {
         }
         await super.validateOrder(...arguments);
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
     /**
      * @override
@@ -347,6 +351,8 @@ patch(PaymentScreen.prototype, {
             order.new_coupon_info = payload.new_coupon_info;
         }
     },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 });

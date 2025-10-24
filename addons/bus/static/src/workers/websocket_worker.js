@@ -50,6 +50,10 @@ const MAXIMUM_RECONNECT_DELAY = 60000;
 export class WebsocketWorker {
     INITIAL_RECONNECT_DELAY = 1000;
     RECONNECT_JITTER = 1000;
+<<<<<<< HEAD
+=======
+    CONNECTION_CHECK_DELAY = 60_000;
+>>>>>>> upstream/18.0
 
     constructor() {
         // Timestamp of start of most recent bus service sender
@@ -365,7 +369,11 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.sendToClient(client, "update_state", this.state);
+=======
+            this.sendToClient(client, "worker_state_updated", this.state);
+>>>>>>> upstream/18.0
 =======
             this.sendToClient(client, "worker_state_updated", this.state);
 >>>>>>> upstream/18.0
@@ -875,7 +883,11 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.sendToClient(client, "update_state", this.state);
+=======
+        this.sendToClient(client, "worker_state_updated", this.state);
+>>>>>>> upstream/18.0
 =======
         this.sendToClient(client, "worker_state_updated", this.state);
 >>>>>>> upstream/18.0
@@ -1290,6 +1302,10 @@ export class WebsocketWorker {
      * closed.
      */
     _onWebsocketClose({ code, reason }) {
+<<<<<<< HEAD
+=======
+        clearInterval(this._connectionCheckInterval);
+>>>>>>> upstream/18.0
         this._logDebug("_onWebsocketClose", code, reason);
         this._updateState(WORKER_STATE.DISCONNECTED);
         this.lastChannelSubscription = null;
@@ -1337,6 +1353,10 @@ export class WebsocketWorker {
      * @param {MessageEvent} messageEv
      */
     _onWebsocketMessage(messageEv) {
+<<<<<<< HEAD
+=======
+        this._restartConnectionCheckInterval();
+>>>>>>> upstream/18.0
         const notifications = JSON.parse(messageEv.data);
         this._logDebug("_onWebsocketMessage", notifications);
         this.lastNotificationId = notifications[notifications.length - 1].id;
@@ -1372,6 +1392,7 @@ export class WebsocketWorker {
         this.connectTimeout = null;
         this.isReconnecting = false;
         this.firstSubscribeDeferred.then(() => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1999,6 +2020,34 @@ export class WebsocketWorker {
             this.messageWaitQueue.forEach((msg) => this.websocket.send(msg));
             this.messageWaitQueue = [];
         });
+=======
+            if (!this.websocket) {
+                return;
+            }
+            this.messageWaitQueue.forEach((msg) => this.websocket.send(msg));
+            this.messageWaitQueue = [];
+        });
+        this._restartConnectionCheckInterval();
+    }
+
+    /**
+     * Sends a custom application-level message to perform a connection check
+     * on the WebSocket.
+     *
+     * Browsers rely on the OS's TCP mechanism, which can take minutes or
+     * hours to detect a dead connection. Sending data triggers an immediate
+     * I/O operation, quickly revealing any network-level failure. This must be
+     * implemented at the application level because the browser WebSocket API
+     * does not expose the built-in ping/pong mechanism.
+     */
+    _restartConnectionCheckInterval() {
+        clearInterval(this._connectionCheckInterval);
+        this._connectionCheckInterval = setInterval(() => {
+            if (this._isWebsocketConnected()) {
+                this.websocket.send(new Uint8Array([0x00]));
+            }
+        }, this.CONNECTION_CHECK_DELAY);
+>>>>>>> upstream/18.0
     }
 
     /**
@@ -2038,6 +2087,10 @@ export class WebsocketWorker {
             } else {
                 this.firstSubscribeDeferred.then(() => this.websocket.send(payload));
             }
+<<<<<<< HEAD
+=======
+            this._restartConnectionCheckInterval();
+>>>>>>> upstream/18.0
         }
     }
 
@@ -2184,9 +2237,12 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.websocket?.close();
         this._removeWebsocketListeners();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2504,6 +2560,9 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

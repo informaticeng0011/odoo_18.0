@@ -5,6 +5,10 @@ import lxml.html
 from urllib.parse import urlparse
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import odoo
+>>>>>>> upstream/18.0
 =======
 import odoo
 >>>>>>> upstream/18.0
@@ -13,10 +17,16 @@ from odoo.tests import HttpCase, tagged
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('-at_install', 'post_install')
 class TestLangUrl(HttpCase):
     def setUp(self):
         super(TestLangUrl, self).setUp()
+=======
+class TestLangUrlCommon(HttpCase):
+    def setUp(self):
+        super().setUp()
+>>>>>>> upstream/18.0
 =======
 class TestLangUrlCommon(HttpCase):
     def setUp(self):
@@ -31,6 +41,12 @@ class TestLangUrlCommon(HttpCase):
         self.website.default_lang_id = self.env.ref('base.lang_en')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+@tagged('-at_install', 'post_install')
+class TestLangUrl(TestLangUrlCommon):
+>>>>>>> upstream/18.0
 =======
 
 @tagged('-at_install', 'post_install')
@@ -78,12 +94,18 @@ class TestLangUrl(TestLangUrlCommon):
                 session_info = json.loads(session_info_str[:-1])
                 self.assertEqual(session_info['user_context']['lang'], 'en_US', "ensure english was loaded")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 self.assertEqual(session_info['bundle_params']['lang'], 'en_US', "ensure bundle use english")
                 with MockRequest(self.env) as req:
                     backend_modules = list(req.registry._init_modules) + (odoo.conf.server_wide_modules or [])
                 en_hash = self.env['ir.http'].get_web_translations_hash(modules=backend_modules, lang='en_US')
                 self.assertEqual(session_info['cache_hashes']['translations'], en_hash)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 break
         else:
@@ -103,7 +125,10 @@ class TestLangUrl(TestLangUrlCommon):
             self.assertEqual(doc.get('lang'), 'fr-FR', "Ensure contactus did not soft crash + loaded in correct lang")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         for line in r.text.splitlines():
             _, match, session_info_str = line.partition('odoo.__session_info__ = ')
             if match:
@@ -117,6 +142,9 @@ class TestLangUrl(TestLangUrlCommon):
         else:
             raise ValueError('Session info not found in web page')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_05_invalid_ipv6_url(self):
         view = self.env['ir.ui.view'].create({
@@ -152,7 +180,11 @@ class TestLangUrl(TestLangUrlCommon):
 
 @tagged('-at_install', 'post_install')
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestControllerRedirect(TestLangUrl):
+=======
+class TestControllerRedirect(TestLangUrlCommon):
+>>>>>>> upstream/18.0
 =======
 class TestControllerRedirect(TestLangUrlCommon):
 >>>>>>> upstream/18.0
