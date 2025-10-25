@@ -83,7 +83,11 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends("work_location_id.name", "work_location_id.location_type", "exceptional_location_id")
+=======
+    @api.depends("work_location_id.name", "work_location_id.location_type", "exceptional_location_id", *DAYS)
+>>>>>>> upstream/18.0
 =======
     @api.depends("work_location_id.name", "work_location_id.location_type", "exceptional_location_id", *DAYS)
 >>>>>>> upstream/18.0

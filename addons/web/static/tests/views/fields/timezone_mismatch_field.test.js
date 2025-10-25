@@ -6,8 +6,15 @@ import {
     fields,
     models,
     mountView,
+<<<<<<< HEAD
     onRpc,
 } from "@web/../tests/web_test_helpers";
+=======
+    patchWithCleanup,
+    onRpc,
+} from "@web/../tests/web_test_helpers";
+import { TimezoneMismatchField } from "@web/views/fields/timezone_mismatch/timezone_mismatch_field";
+>>>>>>> upstream/18.0
 
 class Localization extends models.Model {
     country = fields.Selection({
@@ -68,3 +75,40 @@ test("in a form view", async () => {
     );
     expect(".o_tz_warning").toHaveCount(1);
 });
+<<<<<<< HEAD
+=======
+
+test("timezone_mismatch_field mismatch property", () => {
+    const testCases = [
+        {userOffset: "-1030", browserOffset: 630, expectedMismatch: false},
+        {userOffset: "+0000", browserOffset: 0, expectedMismatch: false},
+        {userOffset: "+0345", browserOffset: -225, expectedMismatch: false},
+        {userOffset: "+0500", browserOffset: -300, expectedMismatch: false},
+        {userOffset: "+0200", browserOffset: 120, expectedMismatch: true},
+        {userOffset: "+1200", browserOffset: 0, expectedMismatch: true},
+    ];
+
+    for (const testCase of testCases) {
+        patchWithCleanup(Date.prototype, {
+            getTimezoneOffset: () => testCase.browserOffset,
+        });
+
+        patchWithCleanup(TimezoneMismatchField.prototype, {
+            props: {
+                name: "tz",
+                tzOffsetField: "tz_offset",
+                record: {
+                    data: {
+                        tz: "Test/Test",
+                        tz_offset: testCase.userOffset,
+                    },
+                },
+            },
+        });
+
+        const mockField = Object.create(TimezoneMismatchField.prototype);
+
+        expect(mockField.mismatch).toBe(testCase.expectedMismatch);
+    }
+});
+>>>>>>> upstream/18.0

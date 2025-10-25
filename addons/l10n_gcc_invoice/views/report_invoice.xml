@@ -180,7 +180,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div id="informations" class="pb-3">
+=======
+                <div
+                    id="informations" class="pb-3"
+                    t-if="o.invoice_date or (o.invoice_date_due and o.move_type == 'out_invoice' and o.state == 'posted') or o.invoice_origin or o.partner_id.ref or o.ref">
+>>>>>>> upstream/18.0
 =======
                 <div
                     id="informations" class="pb-3"
@@ -962,6 +968,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <td class="text-end">
                                         <span t-field="line.quantity"/>
 =======
@@ -1140,6 +1147,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                     <td class="o_td_quantity text-end">
                                         <span t-field="line.quantity" class="text-nowrap"/>
                                         <span t-field="line.product_uom_id" groups="uom.group_uom"/>
@@ -1169,6 +1178,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1288,7 +1300,11 @@
                                             </td>
                                             <t t-set="arabic_tax_group_name" t-value="o_sec.tax_totals['subtotals'][subtotal_index]['tax_groups'][tax_group_index]['group_name']"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             <t t-if="same_tax_base or tax_group['display_base_amount_currency'] is None">
+=======
+                                            <t t-if="same_tax_base or tax_group['display_base_amount_currency'] is False">
+>>>>>>> upstream/18.0
 =======
                                             <t t-if="same_tax_base or tax_group['display_base_amount_currency'] is False">
 >>>>>>> upstream/18.0
@@ -1497,11 +1513,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <div class="col-4 text-start">
                             <span t-out="o.invoice_payment_term_id.note"/>
                         </div>
                         <div class="col-4 text-start">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1674,6 +1693,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1883,11 +1905,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span t-if="o.narration != o_sec.narration" t-out="o.narration"/>
                         </div>
                         <div class="col-6 text-end">
                             <span dir="rtl" t-out="o_sec.narration"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2060,6 +2085,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2236,11 +2264,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span t-if="o.fiscal_position_id.note != o_sec.fiscal_position_id.note" t-out="o.fiscal_position_id.note"/>
                         </div>
                         <div class="col-6 text-end">
                             <span dir="rtl" t-out="o_sec.fiscal_position_id.note"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2413,6 +2444,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

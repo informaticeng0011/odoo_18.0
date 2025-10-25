@@ -558,7 +558,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -590,6 +593,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -647,6 +653,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    this.textHighlightWidget = new publicWidget.registry.TextHighlight();
+                    this.textHighlightWidget.attachTo($wpContainer);
+>>>>>>> upstream/18.0
 =======
                     this.textHighlightWidget = new publicWidget.registry.TextHighlight();
                     this.textHighlightWidget.attachTo($wpContainer);

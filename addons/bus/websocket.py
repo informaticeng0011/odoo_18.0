@@ -1013,6 +1013,7 @@ class WebsocketConnectionHandler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _VERSION = "18.0-3"
 =======
     _VERSION = "18.0-4"
@@ -1383,6 +1384,9 @@ class WebsocketConnectionHandler:
 =======
     _VERSION = "18.0-6"
 >>>>>>> upstream/18.0
+=======
+    _VERSION = "18.0-6"
+>>>>>>> upstream/18.0
 
     @classmethod
     def websocket_allowed(cls, request):
@@ -1521,6 +1525,12 @@ class WebsocketConnectionHandler:
             websocket.disconnect(CloseCode.CLEAN, "OUTDATED_VERSION")
         for message in websocket.get_messages():
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if message == b'\x00':
+                # Ignore internal sentinel message used to detect dead/idle connections.
+                continue
+>>>>>>> upstream/18.0
 =======
             if message == b'\x00':
                 # Ignore internal sentinel message used to detect dead/idle connections.

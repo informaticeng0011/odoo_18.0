@@ -8,7 +8,10 @@ import { _t } from "@web/core/l10n/translation";
 import { loadJS } from "@web/core/assets";
 import { uniqueId } from "@web/core/utils/functions";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { escape } from "@web/core/utils/strings";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { debounce, throttleForAnimation } from "@web/core/utils/timing";
@@ -27,6 +30,10 @@ import { touching } from "@web/core/utils/ui";
 import { ObservingCookieWidgetMixin } from "@website/snippets/observing_cookie_mixin";
 import { scrollTo } from "@web_editor/js/common/scrolling";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { generateVideoIframe } from "@website/js/content/generate_video_iframe";
+>>>>>>> upstream/18.0
 =======
 import { generateVideoIframe } from "@website/js/content/generate_video_iframe";
 >>>>>>> upstream/18.0
@@ -883,6 +890,10 @@ registry.mediaVideo = publicWidget.Widget.extend(
     MobileYoutubeAutoplayMixin, ObservingCookieWidgetMixin, {
     selector: '.media_iframe_video',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    disabledInEditableMode: false,
+>>>>>>> upstream/18.0
 =======
     disabledInEditableMode: false,
 >>>>>>> upstream/18.0
@@ -898,6 +909,7 @@ registry.mediaVideo = publicWidget.Widget.extend(
         let iframeEl = this.el.querySelector(':scope > iframe');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         // The following code is only there to ensure compatibility with
         // videos added before bug fixes or new Odoo versions where the
         // <iframe/> element is properly saved.
@@ -906,6 +918,8 @@ registry.mediaVideo = publicWidget.Widget.extend(
         }
 
 =======
+=======
+>>>>>>> upstream/18.0
         // Generate the video `<iframe/>` element when restarting public
         // widgets. In some cases (e.g., when adding a new video block),
         // we don’t need to rebuild the same iframe while starting the widget.
@@ -916,6 +930,9 @@ registry.mediaVideo = publicWidget.Widget.extend(
         if (iframeEl && !iframeEl.getAttribute("aria-label")) {
             iframeEl.setAttribute("aria-label", _t("Media video"));
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (this.el.dataset.needCookiesApproval) {
             const sizeContainerEl = this.el.querySelector(":scope > .media_iframe_video_size");
@@ -947,11 +964,17 @@ registry.mediaVideo = publicWidget.Widget.extend(
      */
     destroy() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if (this.editableMode) {
             // Destroy video iframes so they are never saved in the DOM.
             this.el.replaceChildren();
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (this._showSizeContainerEl) {
             document.removeEventListener("optionalCookiesAccepted", this._showSizeContainerEl);
@@ -959,6 +982,7 @@ registry.mediaVideo = publicWidget.Widget.extend(
         }
         return this._super(...arguments);
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     //--------------------------------------------------------------------------
@@ -1012,6 +1036,8 @@ registry.mediaVideo = publicWidget.Widget.extend(
         this._manageIframeSrc(this.el, src);
         return iframeEl;
     },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 });
@@ -1394,8 +1420,11 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $(window).on('resize.FullScreenHeight', debounce(() => this._adaptSize(), 250));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1706,6 +1735,9 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2041,6 +2073,7 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const windowHeight = $(window).outerHeight();
         if (this.inModal) {
             return windowHeight;
@@ -2052,6 +2085,8 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
         const mainTopPos = firstContentEl.getBoundingClientRect().top + document.documentElement.scrollTop;
         return (windowHeight - mainTopPos);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2395,6 +2430,9 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2745,7 +2783,11 @@ registry.BottomFixedElement = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.__hideBottomFixedElements = debounce(() => this._hideBottomFixedElements(), 100);
+=======
+        this.__hideBottomFixedElements = debounce(() => this._hideBottomFixedElements(), 100, { leading: true, trailing: true });
+>>>>>>> upstream/18.0
 =======
         this.__hideBottomFixedElements = debounce(() => this._hideBottomFixedElements(), 100, { leading: true, trailing: true });
 >>>>>>> upstream/18.0
@@ -3084,7 +3126,11 @@ registry.BottomFixedElement = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (hiddenButtonEl) {
+=======
+                if (hiddenButtonEl.length) {
+>>>>>>> upstream/18.0
 =======
                 if (hiddenButtonEl.length) {
 >>>>>>> upstream/18.0

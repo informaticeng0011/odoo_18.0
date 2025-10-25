@@ -1,16 +1,22 @@
 /** @odoo-module alias=@bus/../tests/websocket_worker_tests default=false */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { WEBSOCKET_CLOSE_CODES } from "@bus/workers/websocket_worker";
 import { patchWebsocketWorkerWithCleanup } from "@bus/../tests/helpers/mock_websocket";
 
 import { nextTick, patchWithCleanup } from "@web/../tests/helpers/utils";
 =======
+=======
+>>>>>>> upstream/18.0
 import { patchWebsocketWorkerWithCleanup } from "@bus/../tests/helpers/mock_websocket";
 import { WEBSOCKET_CLOSE_CODES } from "@bus/workers/websocket_worker";
 
 import { nextTick, patchWithCleanup } from "@web/../tests/helpers/utils";
 import { Deferred } from "@web/core/utils/concurrency";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 QUnit.module("Websocket Worker");
@@ -107,7 +113,10 @@ QUnit.test("notification event is broadcasted", async function (assert) {
     assert.verifySteps(["broadcast notification"]);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 QUnit.test("check connection health during inactivity", async (assert) => {
     let restartIntervalDef = null;
@@ -137,4 +146,7 @@ QUnit.test("check connection health during inactivity", async (assert) => {
     await restartIntervalDef;
     assert.verifySteps(["_restartConnectionCheckInterval"]);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

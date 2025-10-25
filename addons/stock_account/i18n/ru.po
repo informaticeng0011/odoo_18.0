@@ -2,8 +2,13 @@
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_account
 # 
+=======
+# * stock_account
+#
+>>>>>>> upstream/18.0
 =======
 # * stock_account
 #
@@ -16,6 +21,7 @@
 # Nadia Martynova, 2024
 # Ilya Rozhkov, 2024
 # Wil Odoo, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -430,11 +436,17 @@ msgstr ""
 #
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Anastasiia Koroleva, 2025
+#
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-01 07:25+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -569,6 +581,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-22 09:40+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
@@ -582,6 +596,9 @@ msgstr ""
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -595,6 +612,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\n"
+"Затронутые слои оценки: %s"
+>>>>>>> upstream/18.0
 =======
 "\n"
 "Затронутые слои оценки: %s"
@@ -623,6 +645,11 @@ msgid " lot/serial number cost updated from %(previous)s to %(new_cost)s."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+" себестоимость по партии/серийному номеру обновлена с %(previous)s до "
+"%(new_cost)s."
+>>>>>>> upstream/18.0
 =======
 " себестоимость по партии/серийному номеру обновлена с %(previous)s до "
 "%(new_cost)s."
@@ -648,6 +675,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Пользователь %(user)s изменил оценку запасов с %(previous)s на %(new_value)s "
+"– %(product)s\n"
+"%(reason)s"
+>>>>>>> upstream/18.0
 =======
 "Пользователь %(user)s изменил оценку запасов с %(previous)s на %(new_value)s "
 "– %(product)s\n"
@@ -759,7 +792,11 @@ msgstr "Добавленная стоимость"
 msgid "Adjust Valuation"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Скорректировать оценку"
+>>>>>>> upstream/18.0
 =======
 msgstr "Скорректировать оценку"
 >>>>>>> upstream/18.0
@@ -904,7 +941,11 @@ msgstr ""
 msgid "Correction of %s (modification of past move)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Корректировка %s (изменение прошлой операции)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Корректировка %s (изменение прошлой операции)"
 >>>>>>> upstream/18.0
@@ -1001,7 +1042,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -1179,7 +1224,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -1382,6 +1431,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"В связи с изменением категории товара (с %(old_category)s на "
+"%(new_category)s), изменился метод расчета себестоимости для товара "
+"%(product)s: с %(old_method)s на %(new_method)s."
+>>>>>>> upstream/18.0
 =======
 "В связи с изменением категории товара (с %(old_category)s на "
 "%(new_category)s), изменился метод расчета себестоимости для товара "
@@ -1421,6 +1476,11 @@ msgid "If checked, the valuation will be specific by Lot/Serial number."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Если флажок установлен, оценка будет вестись отдельно по каждой партии/"
+"серийному номеру."
+>>>>>>> upstream/18.0
 =======
 "Если флажок установлен, оценка будет вестись отдельно по каждой партии/"
 "серийному номеру."
@@ -1532,7 +1592,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -1714,7 +1778,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -1862,6 +1930,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Партия %(lot)s имеет отрицательный остаток на складе.\n"
+"Исправьте количество перед включением или отключением оценки по партиям."
+>>>>>>> upstream/18.0
 =======
 "Партия %(lot)s имеет отрицательный остаток на складе.\n"
 "Исправьте количество перед включением или отключением оценки по партиям."
@@ -1877,7 +1950,11 @@ msgstr ""
 msgid "Lot value manually modified (from %(old)s to %(new)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Оценка партии изменена вручную (с %(old)s на %(new)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оценка партии изменена вручную (с %(old)s на %(new)s)"
 >>>>>>> upstream/18.0
@@ -1902,7 +1979,11 @@ msgstr "Лот/серийный номер"
 msgid "Lot/Serial number Revaluation"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Переоценка партии/серийного номера"
+>>>>>>> upstream/18.0
 =======
 msgstr "Переоценка партии/серийного номера"
 >>>>>>> upstream/18.0
@@ -1917,6 +1998,10 @@ msgid "Lot/Serial number is mandatory for product valuated by lot"
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Для товаров, оцениваемых по партиям, необходимо указать партию/серийный номер"
+>>>>>>> upstream/18.0
 =======
 "Для товаров, оцениваемых по партиям, необходимо указать партию/серийный номер"
 >>>>>>> upstream/18.0
@@ -1970,7 +2055,11 @@ msgstr "Новое значение по количеству"
 msgid "No Reason Given"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Причина не указана"
+>>>>>>> upstream/18.0
 =======
 msgstr "Причина не указана"
 >>>>>>> upstream/18.0
@@ -2004,7 +2093,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Товар %(product)s имеет остаток в оцениваемой локации %(location)s без "
@@ -2012,6 +2104,9 @@ msgstr ""
 "Пожалуйста, присвойте партии всем вашим остаткам перед включением оценки по "
 "партиям."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2058,7 +2153,11 @@ msgstr ""
 msgid "Production WIP Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Счет НЗП по производству"
+>>>>>>> upstream/18.0
 =======
 msgstr "Счет НЗП по производству"
 >>>>>>> upstream/18.0
@@ -2071,7 +2170,11 @@ msgstr "Счет НЗП по производству"
 msgid "Production WIP Overhead Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Счет накладных расходов НЗП по производству"
+>>>>>>> upstream/18.0
 =======
 msgstr "Счет накладных расходов НЗП по производству"
 >>>>>>> upstream/18.0
@@ -2121,7 +2224,11 @@ msgstr "Справка"
 msgid "Related lot/serial number"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Связанная партия/серийный номер"
+>>>>>>> upstream/18.0
 =======
 msgstr "Связанная партия/серийный номер"
 >>>>>>> upstream/18.0
@@ -2166,7 +2273,11 @@ msgstr "Переоценить"
 msgid "Select an existing lot/serial number to be reevaluated"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выберите существующую партию/серийный номер для переоценки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выберите существующую партию/серийный номер для переоценки"
 >>>>>>> upstream/18.0
@@ -2358,6 +2469,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Для использования автоматической оценки необходимо задать счета учета "
+"запасов."
+>>>>>>> upstream/18.0
 =======
 "Для использования автоматической оценки необходимо задать счета учета "
 "запасов."
@@ -2378,7 +2494,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Оценка запасов при перемещении определяется типами исходной локации и "
@@ -2386,6 +2505,9 @@ msgstr ""
 "локации таким образом, чтобы это нарушало логику оценки, заданную при "
 "первоначальном проведении."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2419,6 +2541,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Эта операция может привести к потере данных. Оценка будет одинаковой для "
+"всех партий/серийных номеров. Продолжить? "
+>>>>>>> upstream/18.0
 =======
 "Эта операция может привести к потере данных. Оценка будет одинаковой для "
 "всех партий/серийных номеров. Продолжить? "
@@ -2437,6 +2564,7 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: stock_account
 <<<<<<< HEAD
@@ -2562,6 +2690,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Товар оценивается по партиям/серийным номерам. Изменение себестоимости "
@@ -2569,6 +2699,9 @@ msgstr ""
 
 #. module: stock_account
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2580,6 +2713,7 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: stock_account
 <<<<<<< HEAD
@@ -2704,6 +2838,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Для товара с оценкой по партиям требуется явное указание партии/серийного "
@@ -2711,6 +2847,9 @@ msgstr ""
 
 #. module: stock_account
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2788,7 +2927,11 @@ msgstr "Обновление количества на SO/PO"
 msgid "Updating lot valuation for product %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Обновление оценки по партиям для товара %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Обновление оценки по партиям для товара %s."
 >>>>>>> upstream/18.0
@@ -2846,7 +2989,11 @@ msgstr "Валюта оценки"
 msgid "Valuation Layers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Слои оценки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Слои оценки"
 >>>>>>> upstream/18.0
@@ -2871,7 +3018,11 @@ msgstr "Оценка на дату"
 msgid "Valuation by Lot/Serial number"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Оценка по партиям/серийным номерам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оценка по партиям/серийным номерам"
 >>>>>>> upstream/18.0
@@ -2894,7 +3045,11 @@ msgstr ""
 msgid "Valuations layers being adjusted"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Корректируемые слои оценки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Корректируемые слои оценки"
 >>>>>>> upstream/18.0
@@ -2928,7 +3083,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Стоимость партии (автоматически рассчитывается при использовании метода "
@@ -2937,6 +3095,9 @@ msgstr ""
 "например, при инвентаризации).\n"
 "        Также используется для расчета маржи по заказам на продажу."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3092,6 +3253,7 @@ msgstr "Модель мастера для переоценки складски
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: code:addons/stock_account/models/stock_lot.py:0
 >>>>>>> upstream/18.0
@@ -3419,11 +3581,16 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/stock_account/models/stock_lot.py:0
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "You cannot adjust the valuation of a layer with zero quantity"
 msgstr "Невозможно скорректировать оценку слоя с нулевым количеством"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3434,7 +3601,11 @@ msgstr "Невозможно скорректировать оценку сло�
 msgid "You cannot adjust valuation without a product"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Невозможно скорректировать оценку без указания товара"
+>>>>>>> upstream/18.0
 =======
 msgstr "Невозможно скорректировать оценку без указания товара"
 >>>>>>> upstream/18.0
@@ -3451,6 +3622,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Нельзя изменить метод расчета себестоимости для товара, оцениваемого по "
+"партиям/серийным номерам."
+>>>>>>> upstream/18.0
 =======
 "Нельзя изменить метод расчета себестоимости для товара, оцениваемого по "
 "партиям/серийным номерам."
@@ -3469,6 +3645,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Нельзя изменить категорию товара, оцениваемого по партиям/серийным номерам."
+>>>>>>> upstream/18.0
 =======
 "Нельзя изменить категорию товара, оцениваемого по партиям/серийным номерам."
 >>>>>>> upstream/18.0
@@ -3494,7 +3674,11 @@ msgstr "Вы не можете переоценить товар с пустым
 msgid "You cannot revalue multiple products at once"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Невозможно переоценить несколько товаров одновременно"
+>>>>>>> upstream/18.0
 =======
 msgstr "Невозможно переоценить несколько товаров одновременно"
 >>>>>>> upstream/18.0
@@ -3599,7 +3783,11 @@ msgstr "единицы"
 msgid "valuation graph"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "график оценки"
+>>>>>>> upstream/18.0
 =======
 msgstr "график оценки"
 >>>>>>> upstream/18.0

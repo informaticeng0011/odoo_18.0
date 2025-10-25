@@ -102,6 +102,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    getCellFormattedValue,
+>>>>>>> upstream/18.0
 =======
     getCellFormattedValue,
 >>>>>>> upstream/18.0
@@ -433,6 +437,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    getFormattedValueGrid,
+>>>>>>> upstream/18.0
 =======
     getFormattedValueGrid,
 >>>>>>> upstream/18.0
@@ -763,7 +771,10 @@ test("Boolean fields are correctly formatted", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -947,6 +958,7 @@ test("Numeric/monetary fields are correctly loaded and displayed", async () => {
         field_with_array_agg: 0,
         currency_id: 2,
         pognon: 0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1232,6 +1244,8 @@ test("Numeric/monetary fields are correctly loaded and displayed", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     });
     const { model } = await createSpreadsheetWithList({
         columns: ["pognon", "probability", "field_with_array_agg"],
@@ -1315,6 +1329,9 @@ test("Text fields are correctly loaded and displayed", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2396,7 +2413,11 @@ test("can import (export) action xml id", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 actionXmlId: "spreadsheet.test_action"
+=======
+                actionXmlId: "spreadsheet.test_action",
+>>>>>>> upstream/18.0
 =======
                 actionXmlId: "spreadsheet.test_action",
 >>>>>>> upstream/18.0

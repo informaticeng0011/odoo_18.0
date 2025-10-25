@@ -1,5 +1,8 @@
 from odoo import _, api, fields, models
+<<<<<<< HEAD
 from odoo.exceptions import RedirectWarning
+=======
+>>>>>>> upstream/18.0
 
 
 class AccountMove(models.Model):
@@ -335,6 +338,7 @@ class AccountMove(models.Model):
             move._l10n_es_edi_verifactu_get_record_values(cancellation=cancellation)
             for move in self
         ]
+<<<<<<< HEAD
 
         for move, vals in zip(self, record_values_list):
             # Add redirect warnings to journal entries with missing Veri*Factu documents for easier user flow.
@@ -354,6 +358,8 @@ class AccountMove(models.Model):
                 action = self._l10n_es_edi_verifactu_action_go_to_journal_entry(reversed_move)
                 raise RedirectWarning(msg, action, _("Go to the journal entry"))
 
+=======
+>>>>>>> upstream/18.0
         return {
             record_values['record']: self.env['l10n_es_edi_verifactu.document']._create_for_record(record_values)
             for record_values in record_values_list

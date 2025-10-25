@@ -287,7 +287,11 @@ export class BaseImportModel {
 
         if (!importRes.hasError) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (importRes.nextrow) {
+=======
+            if (!isTest && importRes.nextrow) {
+>>>>>>> upstream/18.0
 =======
             if (!isTest && importRes.nextrow) {
 >>>>>>> upstream/18.0
@@ -302,6 +306,10 @@ export class BaseImportModel {
             if (isTest) {
                 this._addMessage("info", [_t("Everything seems valid.")]);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                this.setOption("skip", 0);
+>>>>>>> upstream/18.0
 =======
                 this.setOption("skip", 0);
 >>>>>>> upstream/18.0

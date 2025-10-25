@@ -156,6 +156,12 @@ export class IntegerField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (this.value === false) {
+                return "";
+            }
+>>>>>>> upstream/18.0
 =======
             if (this.value === false) {
                 return "";

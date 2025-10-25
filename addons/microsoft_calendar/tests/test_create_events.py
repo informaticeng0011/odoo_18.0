@@ -738,6 +738,7 @@ class TestCreateEvents(TestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Ensure that the calendar synchronization of user A is active. Deactivate user B synchronization.
         self.assertTrue(self.env['calendar.event'].with_user(self.organizer_user)._check_microsoft_sync_status())
         self.attendee_user.microsoft_synchronization_stopped = True
@@ -752,6 +753,8 @@ class TestCreateEvents(TestCommon):
         event.with_user(self.organizer_user).sudo()._sync_odoo2microsoft()
         mock_insert.assert_not_called()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1089,6 +1092,9 @@ class TestCreateEvents(TestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1570,7 +1576,10 @@ class TestSyncOdoo2MicrosoftMail(TestCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1847,6 +1856,9 @@ class TestSyncOdoo2MicrosoftMail(TestCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

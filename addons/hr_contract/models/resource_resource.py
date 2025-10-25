@@ -55,7 +55,10 @@ class ResourceResource(models.Model):
             )])
         return calendars_within_period_per_resource
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _get_calendar_at(self, date_target, tz=False):
         result = super()._get_calendar_at(date_target)
@@ -64,4 +67,7 @@ class ResourceResource(models.Model):
         for resource in resources_with_employee:
             result[resource] = employee_calendars[resource.employee_id.id]
         return result
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

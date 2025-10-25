@@ -93,6 +93,11 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _unrestricted_rendering = True
+
+>>>>>>> upstream/18.0
 =======
     _unrestricted_rendering = True
 
@@ -714,7 +719,12 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for mailing in self:
+=======
+        self.warning_message = False
+        for mailing in self.filtered(lambda mailing: mailing.mailing_type == "mail"):
+>>>>>>> upstream/18.0
 =======
         self.warning_message = False
         for mailing in self.filtered(lambda mailing: mailing.mailing_type == "mail"):
@@ -1484,12 +1494,29 @@ class MassMailing(models.Model):
         self.write({'state': 'draft', 'schedule_date': False, 'schedule_type': 'now', 'next_departure': False})
 
     def action_retry_failed(self):
+<<<<<<< HEAD
         failed_mails = self.env['mail.mail'].sudo().search([
             ('mailing_id', 'in', self.ids),
             ('state', '=', 'exception')
         ])
         failed_mails.mapped('mailing_trace_ids').unlink()
         failed_mails.unlink()
+=======
+        """ Remove all failed emails and their traces, and try sending them again."""
+        # Use batching to prevent cache overfill in unlink()
+        batch_size = 1000
+        failed_emails = self.env['mail.mail'].sudo().with_context(prefetch_fields=False).search([
+            ('mailing_id', 'in', self.ids),
+            ('state', '=', 'exception')
+        ], limit=batch_size)
+        while failed_emails:
+            failed_emails.mapped('mailing_trace_ids').unlink()
+            failed_emails.unlink()
+            failed_emails = failed_emails.search([
+                ('mailing_id', 'in', self.ids),
+                ('state', '=', 'exception')
+            ], limit=batch_size)
+>>>>>>> upstream/18.0
         self.action_put_in_queue()
 
     def action_view_link_trackers(self):
@@ -1979,9 +2006,15 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             composer._action_send_mail(
                 auto_commit=not getattr(threading.current_thread(), 'testing', False)
             )
+=======
+            auto_commit = not getattr(threading.current_thread(), 'testing', False)
+            composer._action_send_mail(auto_commit=auto_commit)
+
+>>>>>>> upstream/18.0
 =======
             auto_commit = not getattr(threading.current_thread(), 'testing', False)
             composer._action_send_mail(auto_commit=auto_commit)
@@ -2246,7 +2279,10 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2378,6 +2414,9 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

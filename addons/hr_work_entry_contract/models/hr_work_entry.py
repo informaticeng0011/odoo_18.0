@@ -251,6 +251,7 @@ class HrWorkEntry(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if calendar.flexible_hours:
                 continue
@@ -588,6 +589,8 @@ class HrWorkEntry(models.Model):
 
             calendar_intervals = calendar._attendance_intervals_batch(pytz.utc.localize(datetime_start), pytz.utc.localize(datetime_stop))[False]
 =======
+=======
+>>>>>>> upstream/18.0
             if not calendar or calendar.flexible_hours:
                 continue
             datetime_start = min(entries.mapped('date_start'))
@@ -597,6 +600,9 @@ class HrWorkEntry(models.Model):
                 calendar_intervals = calendar._attendance_intervals_batch(pytz.utc.localize(datetime_start), pytz.utc.localize(datetime_stop))[False]
             else:
                 calendar_intervals = WorkIntervals([(pytz.utc.localize(datetime_start), pytz.utc.localize(datetime_stop), self.env['resource.calendar.attendance'])])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             entries_intervals = entries._to_intervals()
             overlapping_entries = self._from_intervals(entries_intervals & calendar_intervals)

@@ -51,6 +51,10 @@ export class WebsocketWorker {
     INITIAL_RECONNECT_DELAY = 1000;
     RECONNECT_JITTER = 1000;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    CONNECTION_CHECK_DELAY = 60_000;
+>>>>>>> upstream/18.0
 =======
     CONNECTION_CHECK_DELAY = 60_000;
 >>>>>>> upstream/18.0
@@ -370,7 +374,11 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.sendToClient(client, "update_state", this.state);
+=======
+            this.sendToClient(client, "worker_state_updated", this.state);
+>>>>>>> upstream/18.0
 =======
             this.sendToClient(client, "worker_state_updated", this.state);
 >>>>>>> upstream/18.0
@@ -884,7 +892,11 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.sendToClient(client, "update_state", this.state);
+=======
+        this.sendToClient(client, "worker_state_updated", this.state);
+>>>>>>> upstream/18.0
 =======
         this.sendToClient(client, "worker_state_updated", this.state);
 >>>>>>> upstream/18.0
@@ -1303,6 +1315,10 @@ export class WebsocketWorker {
      */
     _onWebsocketClose({ code, reason }) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        clearInterval(this._connectionCheckInterval);
+>>>>>>> upstream/18.0
 =======
         clearInterval(this._connectionCheckInterval);
 >>>>>>> upstream/18.0
@@ -1354,6 +1370,10 @@ export class WebsocketWorker {
      */
     _onWebsocketMessage(messageEv) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this._restartConnectionCheckInterval();
+>>>>>>> upstream/18.0
 =======
         this._restartConnectionCheckInterval();
 >>>>>>> upstream/18.0
@@ -1497,6 +1517,7 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if (!this.websocket) {
                 return;
@@ -2021,6 +2042,8 @@ export class WebsocketWorker {
             this.messageWaitQueue = [];
         });
 =======
+=======
+>>>>>>> upstream/18.0
             if (!this.websocket) {
                 return;
             }
@@ -2047,6 +2070,9 @@ export class WebsocketWorker {
                 this.websocket.send(new Uint8Array([0x00]));
             }
         }, this.CONNECTION_CHECK_DELAY);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -2088,6 +2114,10 @@ export class WebsocketWorker {
                 this.firstSubscribeDeferred.then(() => this.websocket.send(payload));
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this._restartConnectionCheckInterval();
+>>>>>>> upstream/18.0
 =======
             this._restartConnectionCheckInterval();
 >>>>>>> upstream/18.0
@@ -2238,9 +2268,12 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.websocket?.close();
         this._removeWebsocketListeners();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2561,6 +2594,9 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

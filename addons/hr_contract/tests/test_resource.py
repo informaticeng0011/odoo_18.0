@@ -101,7 +101,11 @@ class TestResource(TestContractCommon):
         start = utc.localize(datetime(2021, 9, 1, 0, 0, 0))
         end = utc.localize(datetime(2021, 11, 30, 23, 59, 59))
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(15):
+=======
+        with self.assertQueryCount(18):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(18):
 >>>>>>> upstream/18.0

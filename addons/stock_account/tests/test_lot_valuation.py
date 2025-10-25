@@ -491,7 +491,10 @@ class TestLotValuation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -644,6 +647,9 @@ class TestLotValuation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1142,7 +1148,10 @@ class TestLotValuation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1555,6 +1564,7 @@ class TestLotValuation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1721,6 +1731,8 @@ class TestLotValuation(TestStockValuationCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1860,6 +1872,7 @@ class TestLotValuation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1944,4 +1957,36 @@ class TestLotValuation(TestStockValuationCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_lot_valuation_no_error_no_quantity(self):
+        """
+        Checks that an empty move line with no lot and a product valued by lot does not trigger the
+        no lot error
+        """
+        move = self.env['stock.move'].create({
+            'name': 'in move name',
+            'product_id': self.product1.id,
+            'location_id': self.supplier_location.id,
+            'location_dest_id': self.stock_location.id,
+            'product_uom': self.uom_unit.id,
+            'product_uom_qty': 2,
+            'price_unit': 2,
+            'picked': True,
+            'picking_type_id': self.picking_type_in.id,
+            'move_line_ids': [Command.create({
+                'product_id': self.product1.id,
+                'location_id': self.supplier_location.id,
+                'location_dest_id': self.stock_location.id,
+                'product_uom_id': self.uom_unit.id,
+                'quantity': 2.0,
+                'picked': True,
+                'lot_id': self.lot1.id,
+            })for sml in range(2)],
+        })
+        move.move_line_ids[1].quantity = 0
+        move.move_line_ids[1].lot_id = False
+        move._action_done()
+        self.assertEqual(move.quantity, 2)
 >>>>>>> upstream/18.0

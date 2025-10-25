@@ -26,6 +26,10 @@ from . import test_views_during_module_operation
 from . import test_website_controller_page
 from . import test_website_page_properties
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_website_field_sanitize
+>>>>>>> upstream/18.0
 =======
 from . import test_website_field_sanitize
 >>>>>>> upstream/18.0

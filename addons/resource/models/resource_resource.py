@@ -216,6 +216,12 @@ class ResourceResource(models.Model):
         return not self.calendar_id
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_calendar_at(self, date_target, tz=False):
+        return {resource: resource.calendar_id for resource in self}
+
+>>>>>>> upstream/18.0
 =======
     def _get_calendar_at(self, date_target, tz=False):
         return {resource: resource.calendar_id for resource in self}

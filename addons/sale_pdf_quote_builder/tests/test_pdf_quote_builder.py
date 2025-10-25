@@ -51,6 +51,10 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import ValidationError
 >>>>>>> upstream/18.0
@@ -330,6 +334,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'sequence': 0,
+>>>>>>> upstream/18.0
 =======
             'sequence': 0,
 >>>>>>> upstream/18.0
@@ -529,7 +537,11 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'integer_test': "10",
+=======
+            'integer_test': "0",
+>>>>>>> upstream/18.0
 =======
             'integer_test': "0",
 >>>>>>> upstream/18.0
@@ -793,7 +805,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1034,6 +1049,7 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
         so_form.sale_order_template_id = so_tmpl_2
         so_form.save()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1369,6 +1385,8 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertIn(self.header, self.sale_order.available_product_document_ids)
         so_form.record.quotation_document_ids[0].unlink()
         so_form.save()
@@ -1433,6 +1451,9 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1583,7 +1604,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1762,6 +1786,9 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

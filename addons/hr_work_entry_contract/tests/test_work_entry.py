@@ -2,7 +2,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
+=======
+from datetime import date, datetime
+>>>>>>> upstream/18.0
 =======
 from datetime import date, datetime
 >>>>>>> upstream/18.0
@@ -431,6 +435,7 @@ class TestWorkEntry(TestWorkEntryBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -748,6 +753,8 @@ class TestWorkEntry(TestWorkEntryBase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_work_entry_duration(self):
         """ Test the duration of a work entry is rounded to the nearest minute and correctly calculated """
@@ -847,6 +854,7 @@ class TestWorkEntry(TestWorkEntryBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -979,6 +987,8 @@ class TestWorkEntry(TestWorkEntryBase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_work_entry_different_calendars(self):
         """ Test work entries are correctly created for employees with contracts that have different calendar types. """
@@ -1144,4 +1154,7 @@ class TestWorkEntry(TestWorkEntryBase):
         self.assertEqual(len(half2_entries), 1)  # 1 work entry for the entire duration
         self.assertEqual(half2_entries.duration, 15 * 24)
         self.assertTrue(all(entry.contract_id.name == 'FullyFlex Contract' for entry in half2_entries))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

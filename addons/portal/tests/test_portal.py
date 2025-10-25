@@ -3,6 +3,10 @@ from datetime import datetime, timedelta
 from odoo import Command
 from odoo.http import Request
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 >>>>>>> upstream/18.0
@@ -13,7 +17,10 @@ from odoo.tests.common import HttpCase, tagged
 class TestUsersHttp(HttpCase):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_account_holder_name_update(self):
         """Test that bank account holder name updates when partner name changes via /my/account route."""
         login = 'test_portal_user'
@@ -50,6 +57,9 @@ class TestUsersHttp(HttpCase):
         self.assertEqual(response2.status_code, 200)
         self.assertEqual(bank_account.acc_holder_name, 'Partner New Name')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_deactivate_portal_user(self):
         # Create a portal user with data which should be removed on deactivation

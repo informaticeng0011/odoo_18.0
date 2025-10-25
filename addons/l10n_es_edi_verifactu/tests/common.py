@@ -80,6 +80,10 @@ class TestL10nEsEdiVerifactuCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.tax0_exento_export = ChartTemplate.ref('account_tax_template_s_iva0_g_e')
+>>>>>>> upstream/18.0
 =======
         cls.tax0_exento_export = ChartTemplate.ref('account_tax_template_s_iva0_g_e')
 >>>>>>> upstream/18.0

@@ -6,6 +6,10 @@ from urllib.parse import urlparse
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import odoo
+>>>>>>> upstream/18.0
 =======
 import odoo
 >>>>>>> upstream/18.0
@@ -18,10 +22,16 @@ from odoo.tests import HttpCase, tagged
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('-at_install', 'post_install')
 class TestLangUrl(HttpCase):
     def setUp(self):
         super(TestLangUrl, self).setUp()
+=======
+class TestLangUrlCommon(HttpCase):
+    def setUp(self):
+        super().setUp()
+>>>>>>> upstream/18.0
 =======
 class TestLangUrlCommon(HttpCase):
     def setUp(self):
@@ -42,6 +52,12 @@ class TestLangUrlCommon(HttpCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+@tagged('-at_install', 'post_install')
+class TestLangUrl(TestLangUrlCommon):
+>>>>>>> upstream/18.0
 =======
 
 @tagged('-at_install', 'post_install')
@@ -95,7 +111,10 @@ class TestLangUrl(TestLangUrlCommon):
                 self.assertEqual(session_info['user_context']['lang'], 'en_US', "ensure english was loaded")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 self.assertEqual(session_info['bundle_params']['lang'], 'en_US', "ensure bundle use english")
@@ -104,6 +123,9 @@ class TestLangUrl(TestLangUrlCommon):
                 en_hash = self.env['ir.http'].get_web_translations_hash(modules=backend_modules, lang='en_US')
                 self.assertEqual(session_info['cache_hashes']['translations'], en_hash)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -126,7 +148,10 @@ class TestLangUrl(TestLangUrlCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         for line in r.text.splitlines():
@@ -143,6 +168,9 @@ class TestLangUrl(TestLangUrlCommon):
             raise ValueError('Session info not found in web page')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -181,7 +209,11 @@ class TestLangUrl(TestLangUrlCommon):
 @tagged('-at_install', 'post_install')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestControllerRedirect(TestLangUrl):
+=======
+class TestControllerRedirect(TestLangUrlCommon):
+>>>>>>> upstream/18.0
 =======
 class TestControllerRedirect(TestLangUrlCommon):
 >>>>>>> upstream/18.0

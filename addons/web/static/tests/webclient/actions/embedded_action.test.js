@@ -122,7 +122,11 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
 =======
         form: `
 >>>>>>> upstream/18.0
@@ -480,9 +484,14 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "list,false": `<list><field name="foo"/></list>`,
         "pivot,false": `<pivot/>`,
         "search,false": `<search><field name="foo" string="Foo"/></search>`,
+=======
+        list: `<list><field name="foo"/></list>`,
+        search: `<search><field name="foo" string="Foo"/></search>`,
+>>>>>>> upstream/18.0
 =======
         list: `<list><field name="foo"/></list>`,
         search: `<search><field name="foo" string="Foo"/></search>`,
@@ -905,12 +914,15 @@ class Pony extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "list,false": `<list>
                             <field name="name"/>
                             <button name="action_test" type="object" string="Action Test" column_invisible="not context.get('display_button')"/>
                         </list>`,
         "kanban,false": `<kanban>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1159,6 +1171,9 @@ class Pony extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1410,8 +1425,13 @@ class Pony extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `<form><field name="name"/></form>`,
         "search,false": `<search>
+=======
+        form: `<form><field name="name"/></form>`,
+        search: `<search>
+>>>>>>> upstream/18.0
 =======
         form: `<form><field name="name"/></form>`,
         search: `<search>
@@ -1967,6 +1987,7 @@ test("breadcrumbs are updated when clicking on embeddeds", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_embedded_actions > button > span:contains('Embedded Action 2')").click();
     await runAllTimers();
     expect(router.current.action).toBe(3, {
@@ -1979,6 +2000,8 @@ test("breadcrumbs are updated when clicking on embeddeds", async () => {
     await contains(".o_embedded_actions > button > span:contains('Embedded Action 3')").click();
     await runAllTimers();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2116,6 +2139,9 @@ test("breadcrumbs are updated when clicking on embeddeds", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2248,7 +2274,10 @@ test("breadcrumbs are updated when clicking on embeddeds", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Partners Action 1",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2599,7 +2628,11 @@ test("execute a regular action from an embedded action", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Pony._views["form,false"] = `
+=======
+    Pony._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Pony._views["form"] = `
 >>>>>>> upstream/18.0
